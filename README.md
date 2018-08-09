@@ -13,9 +13,11 @@ The CMS needs to be able to generate URLs with the following format:
 https://content.breatheco.de/<type of content>/<article id>
 ```
 For exampe:
+```
   https://content.breatheco.de/lesson/html_explained
   https://content.breatheco.de/error/query_selector_missing_id
   https://content.breatheco.de/how-to/search_in_google
+```
   
 Note: more types of content can be added in the future.
 
