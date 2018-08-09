@@ -1,6 +1,10 @@
 # Content
 CMS for the BreatheCode Platform
 
+## Technology
+
+Gatsby.js seems to be the right technology, all the site will be static and it needs to load absurdly fast on google.
+
 ## Requierments
 
 #### 1) Markdown based
