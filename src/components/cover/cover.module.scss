@@ -1,0 +1,14 @@
+%full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+.cover{
+    @extend %full-width;
+    background: #BDBDBD;
+    padding: 30vh;
+    margin-bottom: 30px;
+}

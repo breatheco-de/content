@@ -26,7 +26,10 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          "gatsby-remark-component",
+          {
+            resolve:"gatsby-remark-component",
+            options: { components: ["cover"] }
+          },
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
@@ -49,12 +52,24 @@ module.exports = {
               // setting this to '{ sh: "bash" }' will let you use
               // the language "sh" which will highlight using the
               // bash highlighter.
-              aliases: {},
+              aliases: { sh: "bash" },
             },
           },
+          {
+            resolve: 'gatsby-remark-autolink-headers'
+          },
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "nofollow"
+            }
+          }
         ],
       },
     },
-    'gatsby-plugin-react-helmet'
+    {
+      resolve:'gatsby-plugin-react-helmet'
+    }
   ],
-}
+};

@@ -1,0 +1,44 @@
+%full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+%container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    @media (min-width: 576px){
+        max-width: 540px;
+    }
+    @media (min-width: 768px){
+        max-width: 720px;
+    }
+    @media (min-width: 992px){
+        max-width: 960px;
+    }
+    @media (min-width: 1200px){
+        max-width: 1140px;
+    }
+}
+
+.post{
+    iframe{
+        width: 100%;
+        min-height: 400px;
+    }
+    .gatsby-highlight{
+        @extend %full-width;
+        background: #272822;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        pre{
+            @extend %container;
+            border-radius: 0px;
+        }
+    }
+}

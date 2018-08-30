@@ -1,10 +1,11 @@
 ---
-title: "Hola en courses"
+title: "About React JS"
+subtitle: "A 10 brief to explain react and it's perks"
 date: "2017-08-10"
 tags: ["fale"]
 ---
 
-# Dillinger
+## Dillinger
 
 Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
 
@@ -12,7 +13,7 @@ Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered H
   - See HTML in the right
   - Magic
 
-# New Features!
+## New Features!
 
   - Import a HTML file and watch it magically convert to Markdown
   - Drag and drop images (requires your Dropbox account be linked)
@@ -95,26 +96,26 @@ Make a change in your file and instantanously see your updates!
 Open your favorite Terminal and run these commands.
 
 First Tab:
-```sh
+```bash
 $ node app
 ```
 
 Second Tab:
-```sh
+```bash
 $ gulp watch
 ```
 
 (optional) Third:
-```sh
+```bash
 $ karma test
 ```
 #### Building for source
 For production release:
-```sh
+```bash
 $ gulp build --prod
 ```
 Generating pre-built zip archives for distribution:
-```sh
+```bash
 $ gulp build dist --prod
 ```
 
@@ -134,7 +135,7 @@ Dillinger is very easy to install and deploy in a Docker container.
 
 By default, the Docker will expose port 8080, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image.
 
-```sh
+```bash
 cd dillinger
 docker build -t joemccann/dillinger:${package.json.version}
 ```
@@ -142,7 +143,7 @@ This will create the dillinger image and pull in the necessary dependencies. Be 
 
 Once done, run the Docker image and map the port to whatever you wish on your host. In this example, we simply map port 8000 of the host to port 8080 of the Docker (or whatever port was exposed in the Dockerfile):
 
-```sh
+```bash
 docker run -d -p 8000:8080 --restart="always" <youruser>/dillinger:${package.json.version}
 ```
 
@@ -195,4 +196,4 @@ MIT
    [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>

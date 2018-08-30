@@ -6,27 +6,26 @@ import Header from '../components/header'
 import './index.css'
 import '../scss/index.scss';
 import 'bootstrap/dist/css/bootstrap.css';
-require("./remarkdown.css");
+require("prismjs/themes/prism-okaidia.css");
 
-const Layout = ({ children, data }) => (
-  <div>
+const Layout = ({ children, data }) => {
+  
+  return (<div>
     <Helmet
-        title={data.site.siteMetadata.title}
+        title={(typeof data == 'undefined') ? '':data.site.siteMetadata.title}
         meta={[
             { name: 'description', content: 'Sample' },
             { name: 'keywords', content: 'sample, something' },
         ]}
     />
-    <Header siteTitle={data.site.siteMetadata.title} />
-    <div className="container 1">
-        <div className="row 2">
-            <div className="col-md-12 3">
-              {children()}
-            </div>
-        </div>
+    <Header 
+      siteTitle={(typeof data == 'undefined') ? '':data.site.siteMetadata.title} 
+      hidden={true} />
+    <div className="container">
+      {children()}
     </div>
-  </div>
-)
+  </div>);
+}
 
 Layout.propTypes = {
   children: PropTypes.func,

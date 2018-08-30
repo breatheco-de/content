@@ -17,6 +17,7 @@
     "prismjs": "^1.15.0",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.13",
+    "rehype-react": "^3.0.3",
     "typography": "^0.16.17",
     "typography-theme-alton": "^0.15.10",
     "typography-theme-bootstrap": "^0.16.7",
@@ -29,10 +30,13 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "c9": "gatsby develop -p $PORT -H $IP",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "gatsby-remark-autolink-headers": "^1.4.19",
+    "gatsby-remark-external-links": "0.0.4",
     "prettier": "^1.13.7"
   },
   "repository": {

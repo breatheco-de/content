@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, hidden }) => (hidden) ? (<span></span>):(
 <div className="header color">
     <nav className="navbar navbar-expand-lg navbar-light">
         <h1 className="title-site" style={{ margin: 0 }}>
@@ -35,6 +35,6 @@ const Header = ({ siteTitle }) => (
         </div>
     </nav>
 </div>
-)
+);
 
 export default Header

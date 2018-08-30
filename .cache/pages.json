@@ -1,0 +1,93 @@
+[
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "error-hola-error.json",
+        "path": "/error/hola-error/"
+    },
+    {
+        "componentChunkName": "component---src-templates-lesson-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "lesson-about-react-js.json",
+        "path": "/lesson/about-react-js/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "how-to-how-to-assets.json",
+        "path": "/how-to/how-to-assets/"
+    },
+    {
+        "componentChunkName": "component---src-templates-tags-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "tags-fale.json",
+        "path": "/tags/fale/"
+    },
+    {
+        "componentChunkName": "component---src-templates-tags-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "tags-animals.json",
+        "path": "/tags/animals/"
+    },
+    {
+        "componentChunkName": "component---src-templates-tags-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "tags-alejandro.json",
+        "path": "/tags/alejandro/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "404.json",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-pages-about-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "about.json",
+        "path": "/about/"
+    },
+    {
+        "componentChunkName": "component---src-pages-index-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "index.json",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-lessons-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "lessons.json",
+        "path": "/lessons/"
+    },
+    {
+        "componentChunkName": "component---src-pages-page-2-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "page-2.json",
+        "path": "/page-2/"
+    },
+    {
+        "componentChunkName": "component---src-pages-tags-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "tags.json",
+        "path": "/tags/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "404-html.json",
+        "path": "/404.html"
+    }
+]

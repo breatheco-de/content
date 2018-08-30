@@ -8,7 +8,7 @@ export default ({ data }) => {
         <div key={node.id}>
           <Link
             to={node.fields.slug}
-            css={{ textDecoration: `none`, color: `inherit` }}
+            style={{ textDecoration: `none`, color: `inherit` }}
           >
             <p>
               {node.frontmatter.title}
