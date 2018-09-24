@@ -1,9 +1,11 @@
 # Mentoring Guidelines
 
-You are about to start mentoring at 
+1. Relationship with students
+2. St
+3. 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTU4MDU2MTBdfQ==
+eyJoaXN0b3J5IjpbMTQ3MjUwMzYzOF19
 -->
