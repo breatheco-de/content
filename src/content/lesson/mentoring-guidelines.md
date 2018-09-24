@@ -3,8 +3,9 @@
 Mentorship main goals:
 1. Bring context to the class, review theory at the beginning and maybe explain concepts that are not properly understand.
 2. Unstuck students, them motivated, make them fall in love with coding.
-
-Secondary goals
+3. Make students engage with the academy and learn in public.
+Secondary goals:
+1. Make students engage with
 
 Secondary goals:
 4. 
@@ -14,5 +15,5 @@ Secondary goals:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTY5MzMwNTldfQ==
+eyJoaXN0b3J5IjpbLTM0MzQwNjY5NV19
 -->
