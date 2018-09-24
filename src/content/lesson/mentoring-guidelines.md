@@ -5,7 +5,7 @@ Mentorship main goals:
 2. Unstuck students, them motivated, make them fall in love with coding.
 3. Make students engage with the academy and learn in public.
 Secondary goals:
-1. Make students engage with
+1. Make students engage with the academy and [learn in public](https://www.youtube.com/watch?v=mgbEGFOtgqM&feature=youtu.be&t=59s).
 
 Secondary goals:
 4. 
@@ -15,5 +15,5 @@ Secondary goals:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MzQwNjY5NV19
+eyJoaXN0b3J5IjpbLTE3NzY3NzMwMDYsLTM0MzQwNjY5NV19
 -->
