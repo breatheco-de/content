@@ -1,3 +1,9 @@
+---
+title: "Mentor Guidelines"
+subtitle: "How to be the best possible mentor for teaching code"
+date: "2017-09-24"
+tags: ["fale"]
+---
 # Mentoring Guidelines
 
 Mentorship main goals:
@@ -15,5 +21,5 @@ Secondary goals:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzY3NzMwMDYsLTM0MzQwNjY5NV19
+eyJoaXN0b3J5IjpbNDQxMDc1NzIyLC0zNDM0MDY2OTVdfQ==
 -->
