@@ -47,3 +47,7 @@ I think that is the best approach for several reasons:
  ## If you had any errors
  
  Please file an issue here and we will do our best to help you. You can also contribute and PR any updates you think should be made to this guide.
+ 
+ ## Author of this tutorial
+ 
+ | [<img src="https://avatars0.githubusercontent.com/u/426452?v=4" width="100px;"/><br /><sub><b>Alejandro Sanchez</b></sub>](https://alesanchezr.com)<br />[🐛](https://github.com/hawkins/prettier-webpack-plugin/issues?q=author%3Aalesanchezr "Bug reports") [💻](https://github.com/hawkins/prettier-webpack-plugin/commits?author=alesanchezr "Code") |
