@@ -46,7 +46,7 @@ I think that is the best approach for several reasons:
   
  ## If you had any errors
  
- Please file an issue here and we will do our best to help you. You can also contribute and PR any updates you think should be made to this guide.
+ Please file an issue here and we will do our best to help you. You can also contribute and PR any updates you think should be made to this guide..
  
  ## Author of this tutorial
  
