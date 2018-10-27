@@ -1,6 +1,10 @@
 const _ = require('lodash');
 const { createFilePath } = require(`gatsby-source-filesystem`);
 const path = require("path");
+var md = require('markdown-it');
+var fa = require('markdown-it-fontawesome');
+ 
+md().use(fa);
 
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   const { createNodeField } = boundActionCreators;
