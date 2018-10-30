@@ -7,6 +7,13 @@
         "path": "/error/hola-error/"
     },
     {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "how-to-how-to-assets.json",
+        "path": "/how-to/how-to-assets/"
+    },
+    {
         "componentChunkName": "component---src-templates-lesson-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
@@ -17,8 +24,22 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "how-to-how-to-assets.json",
-        "path": "/how-to/how-to-assets/"
+        "jsonName": "how-to-install-node-npm-mac-osx.json",
+        "path": "/how-to/install-node-npm-mac-osx/"
+    },
+    {
+        "componentChunkName": "component---src-templates-lesson-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "lesson-mentoring-guidelines.json",
+        "path": "/lesson/mentoring-guidelines/"
+    },
+    {
+        "componentChunkName": "component---src-templates-lesson-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "lesson-learn-html.json",
+        "path": "/lesson/learn-html/"
     },
     {
         "componentChunkName": "component---src-templates-tags-js",
@@ -40,6 +61,34 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "tags-alejandro.json",
         "path": "/tags/alejandro/"
+    },
+    {
+        "componentChunkName": "component---src-templates-tags-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "tags-node.json",
+        "path": "/tags/node/"
+    },
+    {
+        "componentChunkName": "component---src-templates-tags-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "tags-npm.json",
+        "path": "/tags/npm/"
+    },
+    {
+        "componentChunkName": "component---src-templates-tags-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "tags-osx.json",
+        "path": "/tags/osx/"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "dev-404-page.json",
+        "path": "/dev-404-page/"
     },
     {
         "componentChunkName": "component---src-pages-404-js",
