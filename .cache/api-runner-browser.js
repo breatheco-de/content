@@ -1,8 +1,8 @@
 var plugins = [{
-      plugin: require('/home/ubuntu/workspace/content/node_modules/gatsby-plugin-typography/gatsby-browser'),
+      plugin: require('/Users/rafaelesaa/workspaces/gatsby-content/content/node_modules/gatsby-plugin-typography/gatsby-browser'),
       options: {"plugins":[],"pathToConfigModule":"./src/utils/Typography.js"},
     },{
-      plugin: require('/home/ubuntu/workspace/content/node_modules/gatsby-remark-autolink-headers/gatsby-browser'),
+      plugin: require('/Users/rafaelesaa/workspaces/gatsby-content/content/node_modules/gatsby-remark-autolink-headers/gatsby-browser'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks
