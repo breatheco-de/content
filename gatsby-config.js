@@ -3,6 +3,7 @@ module.exports = {
     title: 'Breathcode'
   },
   plugins: [
+    'gatsby-plugin-sharp',
     {
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -64,7 +65,36 @@ module.exports = {
               target: "_blank",
               rel: "nofollow"
             }
-          }
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 590,
+              linkImagesToOriginal: true,
+              showCaptions: true,
+              wrapperStyle: 'text-align:center;'
+            },
+          },
+          `gatsby-remark-emoji`,
+          {
+            resolve: "gatsby-remark-custom-blocks",
+            options: {
+              blocks: {
+                danger: {
+                  classes: "alert alert-danger",
+                },
+                info: {
+                  classes: "alert alert-primary",
+                },
+                warning: {
+                  classes: "alert alert-warning",
+                },
+              },
+            },
+          },
         ],
       },
     },

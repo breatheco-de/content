@@ -35,8 +35,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "gatsby-plugin-sharp": "^2.0.10",
     "gatsby-remark-autolink-headers": "^1.4.19",
+    "gatsby-remark-custom-blocks": "^2.0.1",
+    "gatsby-remark-emoji": "0.0.2",
     "gatsby-remark-external-links": "0.0.4",
+    "gatsby-remark-images": "^2.0.5",
+    "markdown-it": "^8.4.2",
+    "markdown-it-fontawesome": "^0.3.0",
     "prettier": "^1.13.7"
   },
   "repository": {
