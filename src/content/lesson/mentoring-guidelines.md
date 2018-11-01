@@ -23,4 +23,13 @@ Secondary goals:
 6. 
 
 
-<before-after before="https://ucarecdn.com/6cc5fb13-c065-407d-873e-e9a49db474d6/" after="https://ucarecdn.com/6cc5fb13-c065-407d-873e-e9a49db474d6/"></before-after>
+<before-after width="500px" before="https://ucarecdn.com/6cc5fb13-c065-407d-873e-e9a49db474d6/" after="https://ucarecdn.com/6cc5fb13-c065-407d-873e-e9a49db474d6/"></before-after>
+
+## Iframe from jsfiddle
+
+<iframe width="100%" height="300" src="//jsfiddle.net/g1qyusm8/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+## Iframe from Codepen
+
+<iframe height='234' scrolling='no' title='Dump Truck Loading Animation' src='//codepen.io/jkantner/embed/EdBJxy/?height=234&theme-id=dark&default-tab=js' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/jkantner/pen/EdBJxy/'>Dump Truck Loading Animation</a> by Jon Kantner (<a href='https://codepen.io/jkantner'>@jkantner</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
