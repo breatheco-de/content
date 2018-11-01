@@ -6,8 +6,8 @@ var fa = require('markdown-it-fontawesome');
  
 md().use(fa);
 
-exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
-  const { createNodeField } = boundActionCreators;
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions;
   if (node.internal.type === `MarkdownRemark`) {
     const slug = createFilePath({ node, getNode, basePath: `content` });
     createNodeField({
@@ -25,8 +25,8 @@ const getTemplate = (pagePath) => {
   return path.resolve(`./src/templates/blog-post.js`);
 };
 
-exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createPage } = boundActionCreators;
+exports.createPages = ({ actions, graphql }) => {
+  const { createPage } = actions;
   const tagTemplate = path.resolve("src/templates/tags.js");
 
   return new Promise((resolve, reject) => {

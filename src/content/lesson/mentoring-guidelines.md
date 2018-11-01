@@ -19,7 +19,4 @@ Secondary goals:
 6. 
 
 
-> Written with [StackEdit](https://stackedit.io/).
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxMDc1NzIyLC0zNDM0MDY2OTVdfQ==
--->
+<before-after before="https://ucarecdn.com/6cc5fb13-c065-407d-873e-e9a49db474d6/" after="https://ucarecdn.com/6cc5fb13-c065-407d-873e-e9a49db474d6/" />

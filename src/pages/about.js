@@ -1,12 +1,12 @@
 import React from 'react'
-
+import { graphql } from 'gatsby';
 const About = ({data}) => {
     return(
     <div>
         {data.allMarkdownRemark.edges.map(({ node }) => (
             <div key={node.id}>
                 {
-                (node.frontmatter.title == 'about') ? 
+                (node.frontmatter.title === 'about') ? 
                   <div>
                     <div dangerouslySetInnerHTML={{ __html: node.html }} />
                   </div>
@@ -14,9 +14,9 @@ const About = ({data}) => {
             </div>
         ))}
     </div>
-  )}
+  )};
   
-  export default About
+  export default About;
 
   export const query = graphql`
   query IndexQuery {
@@ -35,22 +35,4 @@ const About = ({data}) => {
       }
     }
   }
-`
-// export const query = graphql`
-//   query MyQueryName{
-//     allMarkdownRemark {
-//       totalCount
-//       edges {
-//         node {
-//           id
-//           html
-//           frontmatter {
-//             title
-//             date(formatString: "DD MMMM, YYYY")
-//           }
-//           excerpt
-//         }
-//       }
-//     }
-//   }
-// `
+`;

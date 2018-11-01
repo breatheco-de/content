@@ -3,7 +3,7 @@ module.exports = {
     title: 'Breathcode'
   },
   plugins: [
-    'gatsby-plugin-sharp',
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -29,7 +29,7 @@ module.exports = {
         plugins: [
           {
             resolve:"gatsby-remark-component",
-            options: { components: ["cover"] }
+            options: { components: ["cover", "beforeafter"] }
           },
           {
             resolve: `gatsby-remark-prismjs`,
@@ -56,9 +56,7 @@ module.exports = {
               aliases: { sh: "bash" },
             },
           },
-          {
-            resolve: 'gatsby-remark-autolink-headers'
-          },
+          'gatsby-remark-autolink-headers',
           {
             resolve: "gatsby-remark-external-links",
             options: {
@@ -98,8 +96,6 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve:'gatsby-plugin-react-helmet'
-    }
+    'gatsby-plugin-react-helmet'
   ],
 };

@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import { graphql } from 'gatsby';
 
 export default ({ data }) => {
   console.log("PAGE DATA: ",data);
@@ -7,7 +8,7 @@ export default ({ data }) => {
   const path = "lesson";
   const post = data.allMarkdownRemark.edges.map(({node}, key)=>{
     var result = node.fields.slug.split("/");
-    if(result[1] == path){
+    if(result[1] === path){
       return (
         <div className="col-md-4" key={key}>
           <Link to={node.fields.slug}>
@@ -15,10 +16,9 @@ export default ({ data }) => {
           </Link>
             <p>{node.excerpt}</p>
         </div>
-        
-      )
-      console.log(node.fields.slug);
+      );
     }
+    return '';
   });
 
   return (
@@ -28,8 +28,8 @@ export default ({ data }) => {
           { post }
         </div>
       </div>
-  )
-}
+  );
+};
 
 export const query = graphql`
   query MyQueryLesson{
@@ -47,4 +47,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

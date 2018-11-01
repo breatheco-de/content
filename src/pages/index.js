@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
-
+import { graphql } from 'gatsby';
 export default ({ data }) => {
   return (
     <div>
@@ -18,8 +18,8 @@ export default ({ data }) => {
       )}
       <Link to="/tags">All tags</Link>
     </div>
-  )
-}
+  );
+};
 
 export const query = graphql`
   query IndexQueryy {
@@ -40,4 +40,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

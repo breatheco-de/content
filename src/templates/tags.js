@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-
+import { graphql } from 'gatsby';
 // Components
 import Link from "gatsby-link";
 
-const Tags = ({ pathContext, data }) => {
-  const { tag } = pathContext;
+const Tags = ({ pageContext, data }) => {
+  const { tag } = pageContext;
   const { edges, totalCount } = data.allMarkdownRemark;
   const tagHeader = `${totalCount} post${
     totalCount === 1 ? "" : "s"
@@ -35,7 +35,7 @@ const Tags = ({ pathContext, data }) => {
 };
 
 Tags.propTypes = {
-  pathContext: PropTypes.shape({
+  pageContext: PropTypes.shape({
     tag: PropTypes.string.isRequired,
   }),
   data: PropTypes.shape({
