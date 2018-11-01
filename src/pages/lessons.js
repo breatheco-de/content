@@ -3,8 +3,6 @@ import Link from 'gatsby-link';
 import { graphql } from 'gatsby';
 
 export default ({ data }) => {
-  console.log("PAGE DATA: ",data);
-  
   const path = "lesson";
   const post = data.allMarkdownRemark.edges.map(({node}, key)=>{
     var result = node.fields.slug.split("/");

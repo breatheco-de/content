@@ -16,6 +16,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       value: slug,
     });
   }
+  
 };
 
 const getTemplate = (pagePath) => {

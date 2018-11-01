@@ -4,6 +4,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sharp`,
+    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -27,6 +28,19 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          'gatsby-remark-autolink-headers',
+          // {
+          //   resolve: `gatsby-remark-images`,
+          //   options: {
+          //     // It's important to specify the maxWidth (in pixels) of
+          //     // the content container as this plugin uses this as the
+          //     // base for generating different widths of each image.
+          //     maxWidth: 200,
+          //     linkImagesToOriginal: true,
+          //     showCaptions: true,
+          //     wrapperStyle: 'text-align:center;'
+          //   },
+          // },
           {
             resolve:"gatsby-remark-component",
             options: { components: ["cover", "beforeafter"] }
@@ -56,7 +70,6 @@ module.exports = {
               aliases: { sh: "bash" },
             },
           },
-          'gatsby-remark-autolink-headers',
           {
             resolve: "gatsby-remark-external-links",
             options: {
@@ -65,18 +78,11 @@ module.exports = {
             }
           },
           {
-            resolve: `gatsby-remark-images`,
+            resolve: "gatsby-remark-emoji",
             options: {
-              // It's important to specify the maxWidth (in pixels) of
-              // the content container as this plugin uses this as the
-              // base for generating different widths of each image.
-              maxWidth: 590,
-              linkImagesToOriginal: true,
-              showCaptions: true,
-              wrapperStyle: 'text-align:center;'
-            },
+              size: 64
+            }
           },
-          `gatsby-remark-emoji`,
           {
             resolve: "gatsby-remark-custom-blocks",
             options: {
@@ -90,12 +96,14 @@ module.exports = {
                 warning: {
                   classes: "alert alert-warning",
                 },
+                demo: {
+                  classes: "alert alert-primary alert-demo",
+                },
               },
             },
-          },
+          }
         ],
       },
-    },
-    'gatsby-plugin-react-helmet'
+    }
   ],
 };

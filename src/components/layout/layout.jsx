@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import Header from '../components/header';
-import { graphql } from 'gatsby';
+import Header from '../header';
+import { StaticQuery, graphql } from 'gatsby';
 
 import './layout.css';
 import '../../scss/index.scss';
@@ -23,14 +23,14 @@ export const Layout = ({ children }) => (
    render={data => (
       <div>
         <Helmet
-            title={(typeof data == 'undefined') ? '':data.site.siteMetadata.title}
+            title={(typeof data === 'undefined') ? '':data.site.siteMetadata.title}
             meta={[
                 { name: 'description', content: 'Sample' },
                 { name: 'keywords', content: 'sample, something' },
             ]}
         />
         <Header 
-          siteTitle={(typeof data == 'undefined') ? '':data.site.siteMetadata.title} 
+          siteTitle={(typeof data === 'undefined') ? '':data.site.siteMetadata.title} 
           hidden={true} />
         <div className="container">
           {children}
