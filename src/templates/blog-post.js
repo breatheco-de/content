@@ -1,6 +1,6 @@
 import React from "react";
-
-import rehypeReact from "rehype-react"
+import { graphql } from 'gatsby';
+import rehypeReact from "rehype-react";
 import { Cover } from "../components/cover/cover.jsx";
 
 const renderAst = new rehypeReact({

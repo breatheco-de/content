@@ -6,6 +6,10 @@ tags: ["fale"]
 ---
 # Mentoring Guidelines
 
+[[demo]]
+| Since in the previous chapter we equated houses, stores and buildings to web pages, now we have to say that HTML are the blueprints.
+
+
 Mentorship main goals:
 1. Bring context to the class, review theory at the beginning and maybe explain concepts that are not properly understand.
 2. Unstuck students, them motivated, make them fall in love with coding.
@@ -19,7 +23,4 @@ Secondary goals:
 6. 
 
 
-> Written with [StackEdit](https://stackedit.io/).
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxMDc1NzIyLC0zNDM0MDY2OTVdfQ==
--->
+<before-after before="https://ucarecdn.com/6cc5fb13-c065-407d-873e-e9a49db474d6/" after="https://ucarecdn.com/6cc5fb13-c065-407d-873e-e9a49db474d6/"></before-after>

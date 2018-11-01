@@ -21,7 +21,7 @@ HTML makes you divide the website information into parts – similar to the basi
 
 Originally browsers only knew how to interpret HTML.  Websites were simple and neither CSS or JavaScript was used.  A website was a simple plain text document with the typical elements any Word Document has: Headings, Bullet lists, Paragraphs, etc.
 
-![buildinghtml](https://breatheco.de/wp-content/uploads/2017/01/html.png)
+![buildinghtml]https://ucarecdn.com/6b1d4ca6-9ab9-429e-98de-e9f0c9f0e22e/)
 
 
 # **HTML Syntax: It’s All \<Tags\>.**
@@ -135,7 +135,7 @@ Remember – for the fifteenth time – that a web page is…a text document!  T
 
 Lets see how a website compares to a Word document:
 
-![textdocument](https://breatheco.de/wp-content/uploads/2017/01/Screen-Shot-2017-01-12-at-12.26.57-AM-e1484199014659.png)
+<before-after before="https://ucarecdn.com/3681f907-21eb-4e0e-828e-f7e2690e8942/" after="https://ucarecdn.com/d6648701-2af4-4e2d-890c-17ed222bb66c/" /></before-after>
 
 The most frequent tags used inside the `<body>` of an HTML document are:
 
