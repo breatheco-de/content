@@ -11,7 +11,7 @@ tags: ["fale"]
 
 Completing a stylesheet is like having a little war between selectors, – you are constantly overriding previously defined styles with new ones:
 
-```html
+```css
 //You first say that you want all the H2 tags to be font-size: 14px
 h2{
     font-size: 14px;
@@ -35,7 +35,7 @@ These very specific selectors will help you a lot.  They will be your best tool 
 # **The Child Selector**
 ***
 
-```html
+```css
 #someDiv > p {
     color: blue;
 }
@@ -48,7 +48,7 @@ This statement takes the paragraph tags that are children of the div and turns t
 # **The Adjacent Sibling Selector**
 ***
 
-```html
+```css
 p + p {
     color: red;
 }
@@ -65,7 +65,7 @@ The first paragraph in the list is preceded by the div, so it isn’t changed.
 # **The Almighty Asterisk**
 ***
 
-```html
+```css
 #someDiv * {
     color: red;
 }
@@ -74,7 +74,7 @@ The first paragraph in the list is preceded by the div, so it isn’t changed.
 The following turns every element inside a div red – this includes items like links that have a default color set to something else and wouldn’t be affected by simply targeting the div.
 
 
-```html
+```css
 div * p {
     color: red;
 }
@@ -85,7 +85,7 @@ You can take this as far as you want – the following targets the "great grandc
 # **Attribute Value Selector**
 ***
 
-```html 
+```css
 a[href='http://4geeksacademy.com/'] {color: blue;}
 ```
 If we want to change the font color of the "Design Shack" link, we could use :pseudo selectors.  However, doing so would assume that the list stays in that order, and, browser support isn’t the best.  Instead, what we can do is use an attribute selector to target the specific "href" that we’re interested in.
@@ -95,7 +95,7 @@ If we want to change the font color of the "Design Shack" link, we could use :ps
 # **Arbitrary Substring Attribute Value Selector**
 ***
 
-```html 
+```css
 div[id*='section'] {color: red;}
 ```
 The following code targets any div with the word "section" in the title.  It can be "section3" or "section-Four" – it doesn’t matter.  As long as it contains the indicated string, the subsequent styles will apply.
@@ -107,7 +107,7 @@ The following code targets any div with the word "section" in the title.  It can
 
 
 ## Link-related pseudo selectors 
-```html
+```css
 a:link{color: green;}
 a:visited{color: yellow;}
 a:hover{color: blue;}
@@ -124,7 +124,7 @@ You can change colors in any element on the website, depending on its status:
   
 ## Input-related pseudo selectors 
 
-```html
+```css
 input{padding: 5px;}
 input:disabled{
     background: #ddd;
@@ -141,7 +141,7 @@ It is very important to take enough time to style our forms.  Styling is the bes
 
 ## Position-based pseudo selectors 
 
-```html 
+```css
 #myUL li:first-child{background: blue;}
 #myUL li:nth-child(3){background: orange;}
 #myUL li a:first-of-type{background: green;}

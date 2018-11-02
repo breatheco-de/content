@@ -72,7 +72,7 @@ The next example is a style sheet defining 3 different groups of styles (selecto
 
 You need to match HTML elements to groups of styles and you use “selectors” to bind the HTML elements to the CSS groups of rules.
 
-```html
+```css
 #selector1 {
    color: red;
    font-size: 12px;
@@ -91,7 +91,7 @@ selector3
 
 A selector is a way to refer or identify one or more HTML elements.  For example, if you want to change the color of your web to red, you must do it as it follows:
 
-```html
+```css
 body {
     color: red;
 }
@@ -99,7 +99,7 @@ body {
 
 You could also change the color of a single anchor `<a>` in particular.  To do that, you must define the ID attribute of the HTML tag defining that particular link `<a id=”anchor1“>`.  Once that tag has an ID, then you can go to your style sheet and define a color as follows:
 
-```html
+```css
 #anchor1{
    color: red;
 }
