@@ -12,7 +12,7 @@ tags: ["fale"]
 Completing a stylesheet is like having a little war between selectors, – you are constantly overriding previously defined styles with new ones:
 
 ```html
-/You first say that you want all the H2 tags to be font-size: 14px
+//You first say that you want all the H2 tags to be font-size: 14px
 h2{
     font-size: 14px;
     color: blue;
@@ -29,6 +29,9 @@ This happens all the time and at some point it can be challenging to override pr
 
 These very specific selectors will help you a lot.  They will be your best tool when fighting your styles war!
 
+[[info]]
+| :tv:[Here is a super cool video (3:40 min) explaining specificity.](https://www.youtube.com/watch?v=In78mSOHmls)
+
 # **The Child Selector**
 ***
 
@@ -39,6 +42,8 @@ These very specific selectors will help you a lot.  They will be your best tool 
 ```
 
 This statement takes the paragraph tags that are children of the div and turns them blue.  Note that it only works for the children of that div – not necessarily for all of the descendants.  Let’s explore this further with the following example.
+
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 # **The Adjacent Sibling Selector**
 ***
@@ -55,6 +60,8 @@ However, this selector only applies to elements that are preceded by something e
 
 The first paragraph in the list is preceded by the div, so it isn’t changed.
 
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 # **The Almighty Asterisk**
 ***
 
@@ -66,13 +73,14 @@ The first paragraph in the list is preceded by the div, so it isn’t changed.
 
 The following turns every element inside a div red – this includes items like links that have a default color set to something else and wouldn’t be affected by simply targeting the div.
 
+
 ```html
 div * p {
     color: red;
 }
 ```
 
-You can take this as far as you want – the following targets the “great grandchildren” of the div.  You will find this chaining method used frequently in CSS debugging tricks.
+You can take this as far as you want – the following targets the "great grandchildren" of the div.  You will find this chaining method used frequently in CSS debugging tricks.
 
 # **Attribute Value Selector**
 ***
@@ -80,7 +88,9 @@ You can take this as far as you want – the following targets the “great gran
 ```html 
 a[href='http://4geeksacademy.com/'] {color: blue;}
 ```
-If we want to change the font color of the “Design Shack” link, we could use :pseudo selectors.  However, doing so would assume that the list stays in that order, and, browser support isn’t the best.  Instead, what we can do is use an attribute selector to target the specific “href” that we’re interested in.
+If we want to change the font color of the "Design Shack" link, we could use :pseudo selectors.  However, doing so would assume that the list stays in that order, and, browser support isn’t the best.  Instead, what we can do is use an attribute selector to target the specific "href" that we’re interested in.
+
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/4bv9jw2L/12/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 # **Arbitrary Substring Attribute Value Selector**
 ***
@@ -88,7 +98,9 @@ If we want to change the font color of the “Design Shack” link, we could use
 ```html 
 div[id*='section'] {color: red;}
 ```
-The following code targets any div with the word “section” in the title.  It can be “section3” or “section-Four” – it doesn’t matter.  As long as it contains the indicated string, the subsequent styles will apply.
+The following code targets any div with the word "section" in the title.  It can be "section3" or "section-Four" – it doesn’t matter.  As long as it contains the indicated string, the subsequent styles will apply.
+
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 # **Pseudo Class Selectors**
 ***
@@ -101,13 +113,14 @@ a:visited{color: yellow;}
 a:hover{color: blue;}
 a:active{color: red;}
 ```
-
 You can change colors in any element on the website, depending on its status:
 
 + :link will be the default.
 + :visited is self explanatory.
 + :hover is when the mouse is over.
 + :active is when the mouse is clicking on it.
+  
+  <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
   
 ## Input-related pseudo selectors 
 
@@ -124,6 +137,8 @@ input:enabled{ border: 2px solid black;}
 
 It is very important to take enough time to style our forms.  Styling is the best way to tell the user that an input is either disabled, checked, or that they have the cursor focusing on a particular input.
 
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 ## Position-based pseudo selectors 
 
 ```html 
@@ -132,6 +147,8 @@ It is very important to take enough time to style our forms.  Styling is the bes
 #myUL li a:first-of-type{background: green;}
 ```
 You can apply styles to elements based on their position.
+
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ykpbo47c/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ## Here is a list of the most used Pseudo-Classes:
 
@@ -148,7 +165,7 @@ You can apply styles to elements based on their position.
 |[:hover](https://breatheco.de/cssref/sel_hover.asp)   |	a:hover   |Selects links on mouse over   |
 |[:in-range](https://breatheco.de/cssref/sel_in-range.asp)   |input:in-range   |Selects `<input>` elements with a value within a specified range	   |
 |[:invalid](https://breatheco.de/cssref/sel_invalid.asp)   |input:invalid   |Selects all `<input>` elements with an invalid value   |
-|[:lang(language)](https://breatheco.de/cssref/sel_lang.asp)   |p:lang(it)   |Selects every `<p>` element with a lang attribute value starting with “it”   |
+|[:lang(language)](https://breatheco.de/cssref/sel_lang.asp)   |p:lang(it)   |Selects every `<p>` element with a lang attribute value starting with "it"   |
 |[:last-child](https://breatheco.de/cssref/sel_last-child.asp)   |p:last-child   |Selects every `<p>` element that is the last child of its parent   |
 |[:last-of-type](https://breatheco.de/cssref/sel_last-of-type.asp)   |	p:last-of-type   |Selects every `<p>` element that is the last `<p>` element of its parent   |
 |[:link](https://breatheco.de/cssref/sel_link.asp)  |a:link   |Selects all unvisited links   |
@@ -160,9 +177,9 @@ You can apply styles to elements based on their position.
 |[:only-of-type](https://breatheco.de/cssref/sel_only-of-type.asp)   |p:only-of-type   |Selects every `<p>` element that is the only `<p>` element of its parent   |
 |[:only-child](https://breatheco.de/cssref/sel_only-child.asp)   |p:only-child   |Selects every `<p>` element that is the only child of its parent   |
 |[:optional](https://breatheco.de/cssref/sel_optional.asp)   |input:optional   |Selects `<input>` elements with no “required” attribute   |
-|[out-of-range](https://breatheco.de/cssref/sel_out-of-range.asp)   |input:out-of-range   |Selects `<input>` elements with a value outside a specified range   |[:read-only](https://breatheco.de/cssref/sel_read-only.asp)   |input:read-only   |Selects `<input>` elements with a “readonly” attribute specified   |
-|[:read-write](https://breatheco.de/cssref/sel_read-write.asp)   |input:read-write   |Selects `<input>` elements with no “readonly” attribute   |
-|[:required](https://breatheco.de/cssref/sel_required.asp)   |input:required   |Selects `<input>` elements with a “required” attribute specified   |
+|[:out-of-range](https://breatheco.de/cssref/sel_out-of-range.asp)   |input:out-of-range   |Selects `<input>` elements with a value outside a specified range   |[:read-only](https://breatheco.de/cssref/sel_read-only.asp)   |input:read-only   |Selects `<input>` elements with a “readonly” attribute specified   |
+|[:read-write](https://breatheco.de/cssref/sel_read-write.asp)   |input:read-write   |Selects `<input>` elements with no "readonly" attribute   |
+|[:required](https://breatheco.de/cssref/sel_required.asp)   |input:required   |Selects `<input>` elements with a "required" attribute specified   |
 |[:root](https://breatheco.de/cssref/sel_root.asp)   |root	   |Selects the document’s root element   |
 |[:target](https://breatheco.de/cssref/sel_target.asp)   |#news:target   |Selects the current active #news element (clicked on a URL containing that anchor name)   |
 |[:valid](https://breatheco.de/cssref/sel_valid.asp)   |input:valid   |Selects all `<input>` elements with a valid value   |
@@ -170,7 +187,7 @@ You can apply styles to elements based on their position.
 
 
 [[info]]
-| :point_up:This is a great reading about CSS Selectors: The 30 CSS selectors you must memorize
+| :point_up:This is a great reading about CSS Selectors: [The 30 CSS selectors you must memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 
 
 

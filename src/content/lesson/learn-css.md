@@ -14,7 +14,7 @@ tags: ["fale"]
 We are sure that after diving deep in HTML, everything looks kind of ugly, fixed, and rigid.  We have to remember that HTML was created by CERN scientists, and they’re not – normally – the funniest kind of people (although they were the same exact scientists that 
 [discovered The Higgs Boson](https://www.youtube.com/watch?v=0CugLD9HF94), and we do have to bend to our knees for that).  However, HTML is still ugly, and it’s ugly because it was created for a different purpose than the one HTML meets today.
 
-![professor](https://breatheco.de/wp-content/uploads/2017/01/doc-300x267.jpg)
+![professor](https://ucarecdn.com/f2e1862b-a575-4a3c-ac12-b5f910f983b0/)
 
 Buuuuttt… The Internet is more beautiful than that.  When internet became popular, it stopped to be only a privilege for scientists and the army, and evolved to become **Part of our world!!**
 
@@ -23,7 +23,7 @@ Ironically, the same scientists at CERN who created HTML had to think about how 
 # So, What is CSS and why does it matter??
 ***
 
-![css](https://breatheco.de/wp-content/uploads/2017/01/css-love-html-211x300.jpg)
+![css](https://ucarecdn.com/de08efd3-526b-4d89-8586-8b1d172b0c80/)
 
 The main objective for his creation was to apply styles to HTML documents.  The idea is that you can tell the browser how to display an HTML document: how to render its tags; in what color; margins; typography; icons; borders; etc.  You can even redefine the original behaviors of the existing tags at your will. Eg:
 
@@ -31,6 +31,10 @@ The main objective for his creation was to apply styles to HTML documents.  The 
 You could tell a <h1> to look just like a <h2> without the user 
 realizing that, at first glance, they are different.
 ```
+
+[[demo]]
+| :point_up:To understand the potential of CSS, [click here to see a live demo!](http://assets.breatheco.de/live-demos/css/bootstrap/)
+
 Can you imagine the potential?  You can make almost everything look different!
 
 
@@ -55,7 +59,7 @@ Let’s review those 2 tags in more detail:
 
 The CSS syntax has absolutely nothing to do with HTML syntax, it is its own specific programming language.  CSS does not use tags!  To work with a website you have to shift your mind several times because you will be working with several languages at the same time, and each one has its own syntax.
 
-![selctor](https://breatheco.de/wp-content/uploads/2017/01/css-syntaxis.gif)
+![selctor](https://ucarecdn.com/2e0843bd-fc46-4efa-a893-1e303b527892/)
 
 A CSS style sheet is an infinite list of style definitions for each HTML element.  First you must specify which element – or group of elements – you are going to style; this is called SELECTOR.  Then you have to put a key `{` to indicate that you are going to start defining each attribute and its respective value, and you end that with another key `}`.  You should always finish each attribute definition with a semicolon `;`.
 
@@ -110,6 +114,8 @@ The next table established a list of all the possible selectors available to use
 
 Let’s assign "first" as the ID of the first cell in the next table, and then with CSS we are going to specify that the “first” ID must have a yellow background:
 
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/1b78wna2/8/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 ## Class selector
 
 |**Selctor**   |**Description**   |**Example**   |
@@ -143,7 +149,7 @@ There are others specifics and advanced selectors.  You are probably going to fa
 
 What happens if an element of the page is selected in two different selectors and has the green letter color assigned to one definition and red in the other?  In other words, if we have told the browser to find two different colors, what color will it end up having?
 
-![css2](https://breatheco.de/wp-content/uploads/2017/01/css-herarchy-300x237.png)
+![css2](https://ucarecdn.com/72589c29-7420-4b29-a120-d119830d4c0b/)
 
 You have to have a very good understanding of the CSS hierarchy in order to understand how the elements **correspond, overwrite and even null styles between them.**
 
@@ -170,7 +176,7 @@ There are hundreds – even thousands – of attributes, but, depending on the t
 |[color](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#color)   |text color   |color   |
 |[letter-spacing](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#letter-spacing)   |space between letters   |normal \| distance   |
 |[line-height](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#line-height)   |space between lines   |normal \| number \| distance \| percentage   |
-|[text-align](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-align)   |text alignment   |center \| justify \| left \| righ   |
+|[text-align](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-align)   |text alignment   |center \| justify \| left \| right   |
 |[text-decoration](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-decoration)   |text ornament   |none \| blink \| line-through \| overline \| underline   |
 |[text-transform](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-transform)   |capital / small letters   |none \| capitalize \| lowercase \| uppercase   |
 
@@ -185,7 +191,7 @@ There are hundreds – even thousands – of attributes, but, depending on the t
 
 ### **Table editing**
 
-|Atributes  |Description   |Values   |
+|Attributes  |Description   |Values   |
 |:----------|:-------------|:-----------|
 |[border-collapse](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#border-collapse)   |border mode   |collapse \| separate   |
 |[border-spacing](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#border-spacing)   |space between cells   |distance \| distance   |
@@ -211,7 +217,9 @@ Next chapter will be about the Boxes Model – the most annoying and disgusting 
 
 You’ll learn to diagram a whole web page, similar to those you normally visit on a daily basis, but without so many ornaments.
 
-![jonsnow](https://breatheco.de/wp-content/uploads/2017/01/you-know-nothing.gif)
+![jonsnow](https://ucarecdn.com/526ebeef-6f43-435b-9dca-8da1708dbfe1/)
+
+
 
 
 
