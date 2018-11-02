@@ -21,12 +21,12 @@ HTML makes you divide the website information into parts – similar to the basi
 
 Originally browsers only knew how to interpret HTML.  Websites were simple and neither CSS or JavaScript was used.  A website was a simple plain text document with the typical elements any Word Document has: Headings, Bullet lists, Paragraphs, etc.
 
-![buildinghtml]https://ucarecdn.com/6b1d4ca6-9ab9-429e-98de-e9f0c9f0e22e/)
+![buildinghtml](https://ucarecdn.com/b7b8d79f-537b-4c9b-b4c3-e055556c2676/)
 
 
 # **HTML Syntax: It’s All \<Tags\>.**
 ***
-![tags](https://breatheco.de/wp-content/uploads/2017/01/html-syntaxis.gif)
+![tags](https://ucarecdn.com/89b3199e-c064-4e23-82d7-74755f709af5/)
 
 Remember how we said that the Internet is all text?
 
@@ -105,7 +105,7 @@ Lets simulate how a browser thinks: Imagine a user on his browser (client side) 
   
   As you can see, the page in question will include AT LEAST the following tags:
 
-  ![html](https://breatheco.de/wp-content/uploads/2017/01/Basic-HTML-300x244.png)
+  ![html](https://ucarecdn.com/8729c2f0-e4a6-4721-9ee9-3f29e6e852b5/)
 
 |**Name**   |**Tags**   |**Description**   |
 |:----------|:----------|:-----------------|
@@ -174,5 +174,5 @@ You just learned how a website was built in 1999.  Now we only have a few more w
 
 HTML has a lot more tags.  It also has a new version called HTML5.  Again, don’t worry, you’ll learn that and how to build beautiful (thanks to CSS) and interacting (thanks to formularies and JavaScript) websites in the next few lessons.  That’s why we are here!
 
-![typing](https://breatheco.de/wp-content/uploads/2017/01/tiping-150x150.gif)
+![typing](https://ucarecdn.com/3f2a9ca7-fbb7-4cb6-97ac-d5a3e67dac19/)
 
