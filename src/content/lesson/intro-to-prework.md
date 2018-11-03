@@ -71,10 +71,11 @@ Yeah, yeah, we know some of you already have your own tools, but let’s keep th
 
 | MANDATORY TOOLS                                     | OTHER LEARNING RESOURCES       | LOCAL ENVIRONMENT (OPTIONAL) |
 | :-:                                                 |    :-:                         |          :-:                 |
-| [Your Email (desktop/mobile)] (#)                   | [StackOverflow] (https://stackoverflow.com)| [Sublime Text 3](https://sublimetext/3)|
+| [Your Email (desktop/mobile)] (#)                   | [StackOverflow] (https://stackoverflow.com)| [Sublime Text 3](https://sublimetext/3) or [Atom](https://atom.io/)|
 | [Breatheco.de] (https://breatheco.de/en/my-courses/)| [w3Schools.com] (https://w3schools.com)| [Apache, PHP 5.3+, MySQL](https://ampps.com/download)|
 | [Github.com] (https://github.com)                   |                | [GIT] (https://git=scm.com) |
 | [Repl.it] (https://repl.it)                         |                | [Google Chrome.] (https://www.google.com/chrome/)|
 | [Cloud 9 (Codgin IDE)] (https://c9.io)              |                | [PHP Composer.] (https://getcomposer.org/download/)|
+|                                                     |                | [NPM - Node Package Manager] (https://www.npmjs.com/get-npm)
 |                                                     |                | [Slack.com (desktop & mobile)](https://breatheco.de/en/lesson/introduction-to-the-prework/#) |
 |                                                     |                | [WhatsApp (mobile)] (https://www.whatsapp.com/download/)|
