@@ -47,28 +47,7 @@ Your computer has files, directories and applications.  Your command line is abl
 
 # Here is how the File System Looks in a Visual Interface vs the Terminal:
 
-In the Visual Interface:
-
-![commandline1](https://ucarecdn.com/9af81fac-6815-41bd-9a9d-ba809e588488/)
-
-In the command line
-
-```bash
-.     #the current directory tree (all files & directories) 
-..    #The parent directory    
-./folder1
-./folder1/assets
-./folder1/assets/css/
-./folder1/assets/css/style.css
-./folder1/assets/js/
-./folder1/assets/js/script.js
-./index.html
-./dashboard.html
-./starter.html
-.hidden  #hidden files don't show on the visual interface 
-.hidden2  #hidden files don't have any character before the dot (.)
-```
-
+![thecommandline](https://ucarecdn.com/95b6ee7f-d008-47a8-9735-0f2c7396bea3/)
 
 There are 4 important things to notice here:
 
