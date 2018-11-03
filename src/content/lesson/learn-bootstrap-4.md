@@ -29,8 +29,8 @@ One of the broken things in CSS is the way that layouts work – working with **
 Bootstrap creators replicated the same concept that `<tables>` had, but instead of using tables, they used `<div>` (boxed containers).  They can’t create their own HTML tags because that will require a new HTML version and would make Bootstrap incompatible with current browsers.  Tags must stay the same – that’s why they decided to override the `<div>` default behaviors with classes.
 
 ```html
-This is a row: <div class=”row“>
-This is a column: <div class”col–sm–x“>
+This is a row: <div class="row">
+This is a column: <div class"col–sm–x">
 ```
 ![row](https://breatheco.de/wp-content/uploads/2017/01/Screen-Shot-2017-01-18-at-11.34.04-PM-1024x490.png)
 
@@ -45,7 +45,7 @@ On the flip side, columns were made to live within the rows (just like what happ
 
 Just like we did in the Layout chapter of the course, let’s create one page with 2 big sections: one sidebar on the right and one main content on the left.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/jdo71v50/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/th7uLrow/4/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 # Bootstrap is 100% Responsive
 ***
@@ -53,7 +53,7 @@ Just like we did in the Layout chapter of the course, let’s create one page wi
 It’s very easy to decide how your website will render in different screen sizes; when you add each column into the rows you need to assign a class with the following format:
 
 ```html
-<div class=”col–md–x“>
+<div class="col–md–x">
 ```
 
 |**Col**   |**md**   |**x**
@@ -61,11 +61,12 @@ It’s very easy to decide how your website will render in different screen size
 |Means that this element should behave like a Bootstrap column.   |Means that I am specifying only for the devices with a "medium" sized screen.   |Specifies how many slots I want this column to take (remember you can take a max of 12 slots per row).   |
 
 [[info]]
-| :point_up:Bootstrap device sizes:<br> |nothing(phones)   |sm<br>(big-phone/small-tablet)   |md<br>(tablets)   |lg<br>(desktops).   |xl<br>(extra-large desktops).   |
-|:--------|:-------|:-------|:--------|:-----------|
+| :point_up:Bootstrap device sizes:   |Phones   |Big-phone/small-tablet   |Tablets   |Desktops   |Extra-large desktops   |
+|:----------|:---------------|:-------------|:-----------|:------------|:---------|
+| &nbsp;           |Nothing    |sm       |md       |lg      |xl        |
 
 [[warning]]
-| :point_up:Note: if you don’t specify the screen size (ex. by using ‘sm’, ‘md’, or ‘xl’), the website will be rendered for mobile phones by default.
+| :point_up:Note: if you don’t specify the screen size (ex. by using 'sm', 'md', or 'xl'), the website will be rendered for mobile phones by default.
 
 # Defining Mobile, Tablet, and Desktop at the same time
 ***
@@ -98,7 +99,7 @@ We are going to set the layout (using the sm, md and lg column classes) for  two
 # Basic Bootstrap Skeleton
 ***
 
-We already know the basic HTML5 skeleton any website needs to have.  Now you just have to add a few lines in your skeleton to make it “Bootstrap compatible”:
+We already know the basic HTML5 skeleton any website needs to have.  Now you just have to add a few lines in your skeleton to make it "Bootstrap compatible":
 
 ```html
 <!DOCTYPE html>
@@ -125,7 +126,7 @@ Remember, Bootstrap is just a stylesheet.  That’s why it is very simple to inc
 The Bootstrap Javascript functionality requires the jQuery and Popper Javascript libraries to be included first.  You don’t need to know the details about this yet.  Just include the JS libraries using the script tag and later you will understand.
 
 [[info]]
-| :page_facing_up:Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+|:link: Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
 # Bootstrap Components
 ***
@@ -150,7 +151,8 @@ Here is an example of how a NavBar may look on a website:
 
 ![instagram](https://ucarecdn.com/fea2f19b-aee1-4e1b-9426-7b6c51867b47/)
 
-#### [**Read more about the NavBar here**](https://getbootstrap.com/docs/4.0/components/navbar/)
+[[info]]
+| :link:[**Read more about the NavBar here**](https://getbootstrap.com/docs/4.0/components/navbar/)
 
 ```html
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -194,7 +196,8 @@ Here is an example of how a "The Card" may look on a website:
 
 ![thecard](https://ucarecdn.com/e9b6edd1-b6f6-47fc-9700-17d374f9755d/)
 
-#### [**Read more about the card here**](https://getbootstrap.com/docs/4.0/components/card/)
+[[info]]
+| :link: [**Read more about the card here**](https://getbootstrap.com/docs/4.0/components/card/)
 
 ```html
 <div class="card" style="width: 20rem;">
@@ -217,7 +220,8 @@ Here is how a modal looks by default on Bootstrap.
 
 ![modal-t](https://ucarecdn.com/ccc9a172-fbc2-4760-b5d1-b8c77e6fd2fe/)
 
-#### [**Read more about modal here**](https://getbootstrap.com/docs/4.0/components/modal/)
+[[info]]
+| :link:[**Read more about modal here**](https://getbootstrap.com/docs/4.0/components/modal/)
 
 ```html
 div class="modal" tabindex="-1" role="dialog">
@@ -250,13 +254,10 @@ div class="modal" tabindex="-1" role="dialog">
 
 Bootstrap official documentation is amazing!!  We don’t need to start copying and pasting all their posts.  Please visit the following and focus on reading these topics:
 
-+ [The grid system.](https://getbootstrap.com/docs/3.3/css/)
-+ [Styling Forms.](https://getbootstrap.com/docs/4.0/components/forms/)
-+ [List of components available to use on your website.](https://getbootstrap.com/docs/4.0/components/alerts/)
-+ [Utilities or Helper classes:](https://getbootstrap.com/docs/4.0/utilities/borders/) Very useful and constantly used classes to do stuff like centering the text, centering a column or container, adding a background, etc.
-
-[[info]]
-| :page_facing_up:This is an amazing tool to [validate your code](https://bootlint.com/) when doing Bootstrap websites.
++ [The grid system.](https://getbootstrap.com/docs/4.1/layout/grid/)
++ [Styling Forms.](https://getbootstrap.com/docs/4.1/components/forms/)
++ [List of components available to use on your website.](https://getbootstrap.com/docs/4.1/components/alerts/)
++ [Utilities or Helper classes:](https://getbootstrap.com/docs/4.1/utilities/borders/) Very useful and constantly used classes to do stuff like centering the text, centering a column or container, adding a background, etc.
 
 
 

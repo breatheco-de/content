@@ -41,7 +41,7 @@ The GIT repository is stored in the same directory as the project itself in a -h
 + There is only one .git directory – located in the root directory of the project.
 + The repository is stored within the project.
 
-![git0](https://ucarecdn.com/0ef9f84a-33b8-4312-a4ba-a6a83187f865/)
+<img src="https://ucarecdn.com/0ef9f84a-33b8-4312-a4ba-a6a83187f865/" width:100px height:100px alt="git0">
 
 ![git1](https://ucarecdn.com/da752daa-7d21-4044-bf7b-bf686934b2a8/)
 
@@ -93,7 +93,7 @@ Example: Let’s say that you are starting to develop the "Login" feature/functi
 
 To create a repository, navigate in your command line to the root directory of the project and run the command `git init`.  Remember that the directory does not need to be empty.
 
-```git
+```bash
 git init
 ```
 
@@ -122,7 +122,7 @@ Other commands that are useful at this point:
 
 My personal workflow usually looks this:  I first do some programming, and, afterwards, I end up updating some files, then I run the following commands:
 
-```git
+```bash
 git status //to see what files I changed.
 git diff [file] //to see exactly what I modified.
 git commit -a -m [message] //to commit.
@@ -147,7 +147,7 @@ Now that you’ve created commits, how do you refer to a specific commit?  GIT p
 
  Lets jump back to commit (2) and start new work from there.  You will first need to know how to reference the commit.  You can use `git log` to get the SHA1 name of (2)
 
-```git
+```bash
  git log
 commit df73f34fac344778e1f5a836fb88a897e0b8d491
 Author: Alejandro Sanchez <a@stcsolutions.com.ve>
@@ -157,7 +157,7 @@ In my case, the hash SHA1 name of the branch was: df73f34fac344778e1f5a836fb88a8
 
 Now, we can use the `git branch` command to start a new branch from that particular commit on:
 
-```html
+```bash
 git branch [new-head-name] df73f34fac344778e1f5a836fb88a897e0b8d491
 ```
 
@@ -172,7 +172,7 @@ Now our commit tree looks like this:
 
 In order to start working on that new branch, you need to set the current head to the head we just created.  This is done with git checkout:
 
-```git
+```bash
 git checkout [head-name]
 ```
 
@@ -195,7 +195,7 @@ After you have finished implementing a new feature in a branch, you will want to
 
 The syntax for the command is as follows:
 
-```git
+```bash
 git merge [head]
 git pull . [head]
 ```
@@ -244,7 +244,7 @@ GIT provides a number of transport protocols for sharing repository information,
 
 To start working in collaboration with remote projects, we will need to know the remote URL of the project.  When using SSH, the remote will look like this:
 
-```git
+```bash
 git@domain_name.com:user_name/repository_name.git
 ``` 
 
@@ -261,7 +261,7 @@ If you are working on a local repository and you want to connect it to a remote 
 
 Once you know the remote URL, you can add it to your project.  You have to pick an alias for the remote – by default we normally use "origin."  Add the remote by executing the following command:
 
-```git
+```bash
 git remote add origin [remote-url]
 //to make sure the remote has been properly set we can get the url value
 git remote get-url origin
@@ -272,7 +272,7 @@ git remote get-url origin
 
 Lets say you have a branch in your local repository called "new-branch."  That branch can be uploaded doing the following:
 
-```git
+```bash
 git push origin [new-branch]
 ```
 
@@ -287,7 +287,7 @@ After you solve any and all conflicts, you can go ahead and try to *git push* ag
 
 Let’s say that there is a branch in the remote repository called "development."  You can download this branch into your own repository by performing the following command:
 
-```git
+```bash
 git pull origin new-branch
 ```
 
@@ -302,7 +302,7 @@ To make a copy of a remote repository for your own use, run git clone [remote-sp
 
 For example, if the remote repository is located in *git@github.com:alesanchezr/myfistrepo.git*, you would run:
 
-```git
+```bash
 git clone git@github.com:alesanchezr/myfistrepo.git
 ```
 
@@ -323,7 +323,7 @@ A branch that **tracks** a remote branch retains an internal reference to the re
 The important thing to note is that you now have a complete copy of your friend’s entire repository.  When you branch, commit, merge, or otherwise operate on the repository, you operate only on your own repository.  GIT only interacts with your friend’s repository when you specifically ask it to do so.
 
 [[info]]
-| :paperclip:Say your friend’s repository looks like this:<br>Here is a list of other great resources to learn GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br>You should especially try this two:<br>• https://try.github.io<br>• http://learngitbranching.js.org/
+| :paperclip: Say your friend’s repository looks like this:<br>Here is a list of other great resources to learn GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br>You should especially try this two:<br>• https://try.github.io<br>• http://learngitbranching.js.org/
   
   
 
