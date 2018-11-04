@@ -23,7 +23,8 @@ We need to use boxes for that.  A box is a container with a specific width and h
 
 All the website content should be wrapped within a box (div, header, footer, etc.). Boxes are invisible by default so, in order to make them visible, you have to either set a background color or a border.  The following image shows how many invisible boxes a normal website has:
 
-![titulaprincipal](https://ucarecdn.com/d6648701-2af4-4e2d-890c-17ed222bb66c/)
+<before-after 
+    before="https://ucarecdn.com/5a02865b-dacf-45de-be06-49d13182dfb4/" after="https://ucarecdn.com/3d6d3cc4-7de9-4a4a-892e-a9c04634925d/" />
 
 ### Box Attributes
 
@@ -42,10 +43,12 @@ All the box containers must have the following attributes:
 
 In the following example, we divided the website content into 2 different areas.  The left side will be a sidebar and the right side will have the main content of the website.
 
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 # **Width and Height**
 ***
 
-Every box has width and height.  You can set these properties to be relative to their parent content (another box or even the body), but, in some cases, we have to set their value manually:
+Every box has width and height.  You can set these properties to be relative to their parent content (another box or even the body), but, in some cases, we have to set their value manually.
 
 # **Attribute Position**
 ***
@@ -96,9 +99,10 @@ Float is very much used in blogs when you want to add images to your articles.  
 |:----------|:-----------------|
 |left	    |Move the element as far to the left as possible.   |
 |right   |Move the element as far to the right as possible.   |
-Again!  What?? >>>> Let’s Practice!
+
 
 # **Think about UI/UX for a second**
+***
 
 It’s yoga time, let’s stop the coding and think about mankind for a minute.  How do humans act?  How do they behave?  What do they like?  Where do they click?
 
@@ -127,7 +131,7 @@ Here is the exact code needed to have the website content always aligned at the 
 
 ![content](https://ucarecdn.com/6912f230-17b5-4013-943d-1069d362c2b1/)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ## Left Sidebar Fixed
 ***
@@ -136,14 +140,14 @@ Left sidebars are great when you have a wide screen (landscape).  You can have a
 
 This pre-work website has a left sidebar and is a great option for us because we want to have the syllabus permanently available for our students.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ry9127j0/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ## Top Menu with Left Sidebar
 ***
 
 This is almost the same, but instead of having the left-sidebar as the primary menu, you will use it as complementary content.  The main menu should be at the top box because is the first thing users see when they land on the website.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/7kjet0zc/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ## Responsive Masonry
 ***
@@ -151,12 +155,13 @@ This is almost the same, but instead of having the left-sidebar as the primary m
 Pinterest made this layout universally known.  By using this "innovative" UI, they became one of the most visited websites over the internet.  Masonry will distribute the containers in the best way possible: first trying to cover the whole row while appending (adding at the end of) more boxes to the right, and then jumping to the next row when there is no longer enough space.
 
 Another great thing about Masonry is that each box can have its own height.   That is challenging in CSS because some older browsers don’t support that feature yet and you will have to use Javascript to patch it.
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/shd562xg/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ## Popups / Modal Windows / Alerts
 ***
 
-he default Javascript alert is ugly and limited [(click here to check it out)](https://www.w3schools.com/js/js_popup.asp). Nobody likes to use them, that’s why developers always have to build their own modals.
+The default Javascript alert is ugly and limited [(click here to check it out)](https://www.w3schools.com/js/js_popup.asp). Nobody likes to use them, that’s why developers always have to build their own modals.
 
 To replicate the alert behavior you have to:
 
@@ -165,7 +170,7 @@ To replicate the alert behavior you have to:
 + In front of the website content (use z-index rule for that).
 + Add a close button to make the div display: none; (invisible) when the user clicks on close [(you have to use JavaScript to capture the user click)](https://stackoverflow.com/questions/3177582/how-to-hide-div-by-onclick-using-javascript).
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/oeL2jtnu/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/8co2hnj1/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 # **Live Demo: Play with the Box**
 ***

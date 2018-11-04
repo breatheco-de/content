@@ -152,7 +152,7 @@ It is very important to take enough time to style our forms.  Styling is the bes
 ```
 You can apply styles to elements based on their position.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ykpbo47c/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/0nzat2h8/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ## Here is a list of the most used Pseudo-Classes:
 

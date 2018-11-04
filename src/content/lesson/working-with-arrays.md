@@ -39,13 +39,13 @@ These are different examples of list declarations:
 
 ```javascript
 var myArray = []; //empty list 
-var myArray = [“Apple”, “Orange”, “Donkey”]; //with 3 string items by default. 
+var myArray = ["Apple", "Orange", "Donkey"]; //with 3 string items by default. 
 var myArray = new Array(1,2,3,4,5); //Don’t use this! Read below to learn why. 
 ```
 
 
 [[warning]]
-| :point_up:Don’t declare the Arrays with the "new **Array**()" syntax – it will not behave.  [click here to learn the details](https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
+| :point_up:Don’t declare the Arrays with the `new **Array**()` syntax – it will not behave.  [click here to learn the details](https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
 
 # **Access Items in the Array**
 ***
@@ -55,10 +55,10 @@ To access a specific element in a list, you need an index.  An index is an integ
 The index always must start at zero (0).  That means that an Array of 2 items can have index=0 or index=1.  Trying to get the 2nd position will return "undefined" because it will mean that we are trying to access the third element (which does not exist).  For example, to get any items in the array you can do the following:
 
 ```javascript
-console.log(myArray[0]);  //This will print the 1st element in the console 
+    console.log(myArray[0]);  //This will print the 1st element in the console 
 var aux = myArray[5];
-console.log(aux); //This will print the 4th element in the console 
-console.log(myArray[myArray.length-1]);  //This will print the last element of the array.
+    console.log(aux); //This will print the 4th element in the console 
+    console.log(myArray[myArray.length-1]);  //This will print the last element of the array.
 ```
 
 # **Update Items in the Array**
@@ -78,8 +78,8 @@ The only way to add a new element is at the end of the list, and you will need t
 
 ```javascript
 var myArray = [‘Pedro’,’Juan’,’Maria’];
-myArray.push(‘Chris’);
-console.log(myArray); //this will print [‘Pedro’,’Juan’,’Maria’,’Chris’];
+    myArray.push(‘Chris’);
+    console.log(myArray); //this will print [‘Pedro’,’Juan’,’Maria’,’Chris’];
 ```
 
 But…what if I want to add Chris in the second position?
@@ -89,11 +89,11 @@ Then…you need to create a new empty array and start pushing the elements in th
 ```javascript
 var myArray = [‘Pedro’,’Juan’,’Maria’];
 var myNewArray = [];
-myNewArray.push(‘Pedro’);
-myNewArray.push(‘Chris’);
-myNewArray.push(‘Juan’);
-myNewArray.push(‘Maria’);
-console.log(myNewArray); //this will print [‘Pedro’,’Chris’,’Juan’,’Maria’];
+    myNewArray.push(‘Pedro’);
+    myNewArray.push(‘Chris’);
+    myNewArray.push(‘Juan’);
+    myNewArray.push(‘Maria’);
+    console.log(myNewArray); //this will print [‘Pedro’,’Chris’,’Juan’,’Maria’];
 
 ```
 
@@ -104,14 +104,14 @@ Removing an element has the exact same limitations as in adding an element: you 
 
 ```javascript
 var myArray = [‘Pedro’,’Chris’,’Juan’,’Maria’];
-myArray.pop();
-console.log(myArray); //this will print [‘Pedro’,’Chris’,’Juan’]; 
+    myArray.pop();
+    console.log(myArray); //this will print [‘Pedro’,’Chris’,’Juan’]; 
 //If you want to remove ‘Chris’, you need to do the following: 
 var myNewArray = [];
-myNewArray.push(‘Pedro’);
-myNewArray.push(‘Juan’);
-myNewArray.push(‘Maria’);
-console.log(myNewArray); //this will print [‘Pedro’,’Juan’,’Maria’];
+    myNewArray.push(‘Pedro’);
+    myNewArray.push(‘Juan’);
+    myNewArray.push(‘Maria’);
+    console.log(myNewArray); //this will print [‘Pedro’,’Juan’,’Maria’];
 ```
 
 # **Removing/Adding from the Beginning**
@@ -121,13 +121,13 @@ The shift and unshift methods are just like push and pop but with the difference
 
 ```javascript
 var myArray = [‘Juan’,’Maria’];
-myArray.unshift(‘Pedro’);
-myArray.unshift(‘Chris’,’Bob’);
-console.log(myArray); //this will print [‘Chris’,’Bob’,’Pedro’,’Juan’,’Maria’]; 
+    myArray.unshift(‘Pedro’);
+    myArray.unshift(‘Chris’,’Bob’);
+    console.log(myArray); //this will print [‘Chris’,’Bob’,’Pedro’,’Juan’,’Maria’]; 
 //If you want to remove ‘Chris’, you need to do the following: 
 var myArray = [‘Chris’,’Bob’,’Pedro’,’Juan’,’Maria’];
-myArray.shift();
-console.log(myArray); //this will print [‘Bob’,’Pedro’,’Juan’,’Maria’];
+    myArray.shift();
+    console.log(myArray); //this will print [‘Bob’,’Pedro’,’Juan’,’Maria’];
 ```
 
 # **Looping an Array**
@@ -139,8 +139,8 @@ In order to create your loop you will need to use Array.length to get the curren
 
 ```javascript
 var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
-for (i = 0; i < myArray.length; i++) {
-console.log(myArray[i]); //this prints the value of the item in the position i 
+    for (i = 0; i < myArray.length; i++) {
+    console.log(myArray[i]); //this prints the value of the item in the position i 
 }
 ```
 
@@ -150,8 +150,8 @@ There is a great adaptation of the **for statement** to make it loop lists or ar
 
 ```javascript
 var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
-for (var index in myArray) {
-console.log(myArray[index]);
+    for (var index in myArray) {
+    console.log(myArray[index]);
 }
 //this prints the value of the item in the position index
 ```
@@ -170,8 +170,8 @@ It is possible to cut an array in pieces very fast, with the splice and slice fu
 
 Will return a new array with a smaller version of the original array.  You have to specify the starting and ending index from where you want to cut the array.
 
-## Splice
-***
+### Splice
+
 
 Will update the current array leaving everything but the smaller version that you want to remove.   You will need to specify the starting and ending indexes from where you want to remove.
 
@@ -190,10 +190,10 @@ They do the same, except reverse does it backwards.  They both sort using string
 
 ```javascript
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.sort();
-console.log(fruits); //[ 'Apple', 'Banana', 'Mango', 'Orange' ] 
-fruits.reverse();
-console.log(fruits); //[ 'Orange', 'Mango', 'Banana', 'Apple' ]
+    fruits.sort();
+    console.log(fruits); //[ 'Apple', 'Banana', 'Mango', 'Orange' ] 
+    fruits.reverse();
+    console.log(fruits); //[ 'Orange', 'Mango', 'Banana', 'Apple' ]
 ```
 
 ## Sorting Numbers
@@ -204,8 +204,8 @@ You have to define a function that will take care of the comparisons.  The sort 
 
 ```javascript
 var points = [40, 100, 1, 5, 25, 10];
-points.sort(function(a, b){return a – b});
-console.log(points); //[ 1, 5, 10, 25, 40, 100 ]
+    points.sort(function(a, b){return a – b});
+    console.log(points); //[ 1, 5, 10, 25, 40, 100 ]
 ```
 
 ## Sorting objects
@@ -214,11 +214,11 @@ Now that we know about the comparison function, we can use it to tell the sort f
 
 ```javascript
 var cars = [
-{type:”Volvo”, year:2016},
-{type:”Saab”, year:2001},
-{type:”BMW”, year:2010}];
-cars.sort(function(a, b){return a.year – b.year});
-console.log(cars); //[ { type: ‘Saab’, year: 2001 },{ type: ‘BMW’, year: 2010 },{ type: ‘Volvo’, year: 2016 } ]
+    {type:"Volvo", year:2016},
+    {type:"Saab", year:2001},
+    {type:"BMW", year:2010}];
+    cars.sort(function(a, b){return a.year – b.year});
+    console.log(cars); //[ { type: ‘Saab’, year: 2001 },{ type: ‘BMW’, year: 2010 },{ type: ‘Volvo’, year: 2016 } ]
 ```
 
 <iframe src="https://repl.it/F9YZ/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>

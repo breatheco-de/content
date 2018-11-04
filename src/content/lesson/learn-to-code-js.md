@@ -11,7 +11,7 @@ tags: ["fale"]
 
 **Coding is not HTML, CSS or Position and Display…** Those languages were not designed for developers, they are just the only way we have to render stuff in a browser.
 
-**Coding is making *the computer* “obey”…**
+**Coding is making *the computer* "obey"…**
 
 Everybody uses computers for different reasons.  Some computers are created to help people in their office (like personal computers), others to keep a room in a specific temperature (like [the NEST](https://nest.com/es/)), others are made to walk on Mars, and so many more things.
 
@@ -34,7 +34,7 @@ var age = 24;
 
 With virtually any programming language you can create as many variables as you want or need.  To start you have to **declare that variable’s name** using the term: *var* followed by a _unique_ name (relative to the document/project).
 
-The **variable name** is the most effective way we have to describe the variable content, so use it wisely.  It is important to choose a name that clearly tells you (and other coders) about the data that is being stored in the variable.  If we choose a bad or an ambiguous name, our code will be almost impossible to understand, ergo it becomes unusable.  For example, let’s say we change the name of our "age" variable to "a", that would be:
+The **variable name** is the most effective way we have to describe the variable content, so use it wisely.  It is important to choose a name that clearly tells you (and other coders) about the data that is being stored in the variable.  If we choose a bad or an ambiguous name, our code will be almost impossible to understand, ergo it becomes unusable.  For example, let’s say we change the name of our "age" variable to `a`, that would be:
 
 ```javascript
 var a = 24 ;
@@ -47,21 +47,22 @@ Choosing the name for your variable really matters, so we beg you not to use gen
 # **Assigning a Value to Variables**
 ***
 
-As developers, we can set the value of a variable at any time using the "=" operator.  You do not have to set a value when you first declare a variable.  You can set, or re-set (override) the value as many times as you want, whenever you want.  The value will always be the last one you set.  Below are a few examples on how to set values to variables:
+As developers, we can set the value of a variable at any time using the `=` operator.  You do not have to set a value when you first declare a variable.  You can set, or re-set (override) the value as many times as you want, whenever you want.  The value will always be the last one you set.  Below are a few examples on how to set values to variables:
 
 ```javascript
 var a = 24;
-a = 25;
-a = 80;
+  a = 25;
+  a = 80;
 
 var b ;
-b = 9 ;
-b = 108 ;
+  b = 9 ;
+  b = 108 ;
 ```
 
-***"var" vs.  "let"  vs. "const"***
+## `var` vs.  `let`  vs. `const`
+***
 
-As we learned above, we use the keyword "var" to declare a variable.  There are two other keywords that we can also use to declare variables: ***const & let*** .  The main differences between these types of variables have to do with scope.
+As we learned above, we use the keyword `var` to declare a variable.  There are two other keywords that we can also use to declare variables: ***const & let*** .  The main differences between these types of variables have to do with scope.
 
 ***Const***:  This keyword is used when the value stays constant throughout the life of the script.  The value of the variable declared with this keyword can never be changed.  If you try to change it, it will result in an error.
 
@@ -69,7 +70,8 @@ As we learned above, we use the keyword "var" to declare a variable.  There are 
 
 ***Var***:  Its scope is within the function in which it is declared in.  This means that the variable will stay the same throughout the whole function even if there is more than one block of code in the function.
 
-[Read More…](http://wesbos.com/let-vs-const/)
+[[info]]
+| :point_up:[Read more about `*var*`, `let`, and `const`](http://wesbos.com/let-vs-const/)
 
 Variable values are subject to change over time.  To retrieve a variable value you can print the value on the screen at any time.  Each language has its own methods to print; this is how you do it in JavaScript:
 
@@ -115,13 +117,13 @@ Functions are pieces of code that can be re-used several times during runtime re
 # **Declaring a Function**
 ***
 
-To declare a function in JavaScript you have to start using the word "function" followed by the name you want for that function.
+To declare a function in JavaScript you have to start using the word `function` followed by the name you want for that function.
 
 You must then specify the parameters (inputs) that the function is going to have within parentheses.
 
 Then, you will open a curly bracket and write the code that your function must always perform.  Once you are finished, you then close the curly bracket and now your function is ready to be used!
 
-**Note:**  To return something you use the "return" word at any time within the content of your function (between the curly brackets).
+**Note:**  To return something you use the `return` word at any time within the content of your function (between the curly brackets).
 
 ![js2](https://ucarecdn.com/7c4e9a5e-1799-4b56-a1b9-621242511821/)
 
@@ -186,9 +188,9 @@ Okay, now is when everything starts getting fun!  To control your application’
 
 ## If…else…
 
-The first tool you have is the "if…else" conditional.  It is very easy.  You can tell the computer to skip any part of your code depending on the current value of your variables.
+The first tool you have is the `if…else` conditional.  It is very easy.  You can tell the computer to skip any part of your code depending on the current value of your variables.
 
-The "if" statement allows you to execute a piece of code if certain conditions are met (or are true).  The “else” statement will execute an alternate piece of code in case the condition is false.
+The `if` statement allows you to execute a piece of code if certain conditions are met (or are true).  The "else" statement will execute an alternate piece of code in case the condition is false.
 
 ```javascript
 if (number < 18) {
@@ -201,7 +203,7 @@ if (number < 18) {
 # **Switch**
 ***
 
-Similar to if…else… but a little bit more organized.  Here you will specify all of the possible case scenarios – including the "default scenario" that will occur if none of the other scenarios happen.
+Similar to if…else… but a little bit more organized.  Here you will specify all of the possible case scenarios – including the `default scenario` that will occur if none of the other scenarios happen.
 
 <iframe src="https://repl.it/F2EK/5?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
@@ -215,7 +217,7 @@ It is possible to loop a segment of your code as many times as you want or need.
 
 Imagine you are inside an elevator – the elevator needs to loop throughout the floors until it reaches the specific floor that you want.
 
-A "while" loop will execute a block of code as long as a condition is true.  Once the condition returns false, the loop will stop executing the block of code.
+A `while` loop will execute a block of code as long as a condition is true.  Once the condition returns false, the loop will stop executing the block of code.
 
 ```javascript  
 var sum = 0;
@@ -229,7 +231,7 @@ console.log("Sum = " + sum);
 
 # For
 
-"For" is similar to the “while,” with the only difference being that you have to specify the stopping condition from the beginning.  For that reason, “for” is a little more organized and easier to understand.
+`For` is similar to the `while,` with the only difference being that you have to specify the stopping condition from the beginning.  For that reason, `for` is a little more organized and easier to understand.
 
 Note:  When looping, make sure that the statement will eventually return false so that you avoid an infinite loop.  In an infinite loop, the code executes indefinitely and will cause your browser to crash.
 
@@ -241,9 +243,9 @@ for (var i = 0; i < 10; i++) {
 }
 ```
 
-**For..in**
+# For..in
 
-"For…in" loops can be to used to loop through the properties of an object.  Within the parentheses, you can set any name to represent the information within the object, and then include the name of the object:
+`For…in` loops can be to used to loop through the properties of an object.  Within the parentheses, you can set any name to represent the information within the object, and then include the name of the object:
 
 for (var in object)<br> {
 code block to be executed
