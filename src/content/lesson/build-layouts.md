@@ -8,14 +8,14 @@ date: "2018-01-11"
 tags: ["fale"]
 ---
 
-# **The Box Model**
+## **The Box Model**
 ***
 
 Layouts and the positioning of elements are probably one of the hardest concepts in CSS; both were meant for older, less advanced and less rich websites.
 
 ![boxmodel](https://ucarecdn.com/b0e9f32d-22ba-4339-bf03-40f5c70521d3/)   
 
-### Layout
+#### Layout
 Let’s go back to HTML: How can I create documents with 2 columns?  We know that some scientific documents have several columns, but how can I replicate that in a website?
 
 We need to use boxes for that.  A box is a container with a specific width and height.  Boxes tend to be rigid containers that bring order into the HTML/CSS world.  The most used tag for a box is `<div>` by far.
@@ -26,7 +26,7 @@ All the website content should be wrapped within a box (div, header, footer, etc
 <before-after 
     before="https://ucarecdn.com/5a02865b-dacf-45de-be06-49d13182dfb4/" after="https://ucarecdn.com/3d6d3cc4-7de9-4a4a-892e-a9c04634925d/" />
 
-### Box Attributes
+#### Box Attributes
 
 All the box containers must have the following attributes:
 
@@ -50,7 +50,7 @@ In the following example, we divided the website content into 2 different areas.
 
 Every box has width and height.  You can set these properties to be relative to their parent content (another box or even the body), but, in some cases, we have to set their value manually.
 
-# **Attribute Position**
+## **Attribute Position**
 ***
 
 The browser is responsible for assigning positions to all elements of a page.   However, as we know, the positions brought by the elements are quite limited and make the documents look both ugly and from the last century.
@@ -68,7 +68,7 @@ In order for a website to look like today’s websites, we have to redesign the 
 
 Wait!!  If you don’t get what we just explained, well…………it doesn’t really matter (at this current stage).  This is one of those moments where we need you to practice more and more.  There is no other choice . 🙁
 
-# **Display Attribute**
+## **Display Attribute**
 ***
 
 The values of the `display` property are much more advanced than just hiding elements.  Actually, the `display` property changes the way in which a document can be visualized.
@@ -86,7 +86,7 @@ It is common to find this attribute in menus, social network activity feeds, etc
 
 Ok, now…to understand what we just mentioned, there is no other choice but…Practice!
 
-# **Float Attribute**
+## **Float Attribute**
 ***
 
 Float is a simple but very useful attribute.  Float works by telling a box to move as far as possible to one side: left or right.  Once you assign the float property to an element, it will look for the best space to be accommodated – trying to coexist with the elements that surround it.
@@ -101,7 +101,7 @@ Float is very much used in blogs when you want to add images to your articles.  
 |right   |Move the element as far to the right as possible.   |
 
 
-# **Think about UI/UX for a second**
+## **Think about UI/UX for a second**
 ***
 
 It’s yoga time, let’s stop the coding and think about mankind for a minute.  How do humans act?  How do they behave?  What do they like?  Where do they click?
@@ -122,7 +122,7 @@ Some websites have great content, but, unfortunately, they also have bad layouts
 
 The following examples gather a big percentage of the most used layouts on the web.  Understand them well because you will probably use them throughout the rest of your life as a developer.  Sometimes you will use a mixed approach to accomplish several things at the same time.
 
-## Centered Content
+### Centered Content
 ***
 
 Facebook is like this: a centered content website has a max-width for the content.  This means that it doesn’t matter if the client computer has a 4000px width –  the website width will stop at "max-width" and the rest of the page will be white.
@@ -133,7 +133,7 @@ Here is the exact code needed to have the website content always aligned at the 
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-## Left Sidebar Fixed
+### Left Sidebar Fixed
 ***
 
 Left sidebars are great when you have a wide screen (landscape).  You can have a menu, some ads, newsletter signup call to action, login form, etc.  And you can still have enough space for content!  Almost every website uses a left sidebar these days, some of them include also a right sidebar at the same time.
@@ -142,7 +142,7 @@ This pre-work website has a left sidebar and is a great option for us because we
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-## Top Menu with Left Sidebar
+### Top Menu with Left Sidebar
 ***
 
 This is almost the same, but instead of having the left-sidebar as the primary menu, you will use it as complementary content.  The main menu should be at the top box because is the first thing users see when they land on the website.
@@ -180,7 +180,7 @@ Use the sliders on the left toolbar to change the margin, padding, border radios
 <iframe src="https://assets.breatheco.de/live-demos/css/box-model/" width="100%" height="465" frameborder="0" scrolling="no" style="border:0px; overflow: hidden;"></iframe>
 
 
-# There is Much More to Know about Layouts
+## There is Much More to Know about Layouts
 ***
 
 You will constantly have to be learning "on the go" because there is an infinite amount of combinations you can create for a website layout.  What really matters is that you fully understand the display, absolute, float and overflow rules.

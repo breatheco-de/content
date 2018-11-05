@@ -8,13 +8,14 @@ date: "2018-02-08"
 tags: ["fale"]
 ---
 
-# GIT is a MUST!
+## GIT is a MUST!
+***
 
 GIT is a great technology, please take time to learn it.  DON’T procrastinate because you cannot avoid it.  You will be using it every day, several times a day. So you’d better learn and be comfortable with it.
 
-GIT is more than just a “set of commands” that you have to learn.  Throughout the years, we have learned that the best way to teach GIT is by understanding the concepts and meaning of the technology first rather than just giving you a list of commands to use.
+GIT is more than just a "set of commands" that you have to learn.  Throughout the years, we have learned that the best way to teach GIT is by understanding the concepts and meaning of the technology first rather than just giving you a list of commands to use.
 
-# **Why Bother to use GIT?**
+## **Why Bother to use GIT?**
 ***
 
 Being the only developer in a project is a [utopia](http://www.thefreedictionary.com/Utopic).  Normally, you collaborate with other developers, and, without GIT, that becomes a big problem.  That’s why we need a *repository* of information to centralize and manage changes.  With a *repository* we are addressing the following:
@@ -28,7 +29,7 @@ Being the only developer in a project is a [utopia](http://www.thefreedictionary
 
 The purpose of GIT is to interact with the repository of a project (a set of files) as they change over time.
 
-# **Architecture of a Repository**
+## **Architecture of a Repository**
 ***
 
 A GIT **repository** is comprised of the following:
@@ -45,7 +46,7 @@ The GIT repository is stored in the same directory as the project itself in a -h
 
 ![git1](https://ucarecdn.com/da752daa-7d21-4044-bf7b-bf686934b2a8/)
 
-# **Commit Objects**
+## **Commit Objects**
 ***
 
 A **commit object** contains three things:
@@ -60,7 +61,7 @@ The parent commit objects are those commits that came first.  Generally a commit
 
 At the beginning, a project always has one commit object with no parents.  This is the first commit that is made to the project repository.
 
-# **A Head Object is a List of Commits**
+## **A Head Object is a List of Commits**
 ***
 
 The heads of the repository are like the "revision history of the project."  A revision history is a list of commit objects that altogether contain all the changes that you and your other team members have made to the project files.
@@ -72,7 +73,7 @@ You can **move the head** if you want.  It does not necessarily have to always b
 ![git3](https://ucarecdn.com/a7bd395c-48ae-4fa6-9765-5a4fae89e5db/)
 
 
-# **You can have Several Heads (Branches)**
+## **You can have Several Heads (Branches)**
 ***
 
 Heads mark the beginning of a revision history.  In GIT, we call the "revision history" a "branch," and it is possible to have several revision histories.
@@ -86,7 +87,7 @@ Example: Let’s say that you are starting to develop the "Login" feature/functi
 [[info]]
 | :point_up:**Note on Terminology:** The terms "branch" and "head" are nearly synonymous in GIT.  Every branch is represented by one head, and every head represents one branch.  Sometimes, "branch" will be used to refer to a head and the entire history of commits preceding that head, whereas "head" will be used to refer exclusively to a single commit object (the most recent commit in the branch).
 
- # **Starting a New Repo** `git init`
+ ## **Starting a New Repo** `git init`
  ***
 
  You can create a new repository whenever you want during the project – it does not have to be at the beginning!  The only essential thing to do this is that the project has no other repository that has already been created.
@@ -99,7 +100,7 @@ git init
 
 This will create a .git directory in the \[project\] directory.  Make sure that the folder was successfully created (you can run the command `ls -l` to read the directory content in the command line).
 
-# **Committing Changes into the Repository**
+## **Committing Changes into the Repository**
 ***
 
 After you have made some changes to the files of the project, you may want to save/submit those changes into the repository.  This is called a "commit."
@@ -127,7 +128,7 @@ git status //to see what files I changed.
 git diff [file] //to see exactly what I modified.
 git commit -a -m [message] //to commit.
 ```
-# **Referring to a Commit**
+## **Referring to a Commit**
 ***
 
 Now that you’ve created commits, how do you refer to a specific commit?  GIT provides many ways to do so.  Here are a few:
@@ -138,7 +139,7 @@ Now that you’ve created commits, how do you refer to a specific commit?  GIT p
 + Relative to a commit.  Putting a caret (^) after a commit name retrieves the parent of that commit.  For example, *HEAD^* is the parent of the current head commit.
 
 
- # **Creating a Branch**
+ ## **Creating a Branch**
  ***
 
  To create a branch, let’s say your repository looks like this:
@@ -167,7 +168,7 @@ Now our commit tree looks like this:
 
 ![git7](https://ucarecdn.com/b90dafe2-4853-4470-ad81-1c0bf1a323a8/)
 
-# **Switching Between Branches**
+## **Switching Between Branches**
 ***
 
 In order to start working on that new branch, you need to set the current head to the head we just created.  This is done with git checkout:
@@ -188,7 +189,7 @@ After checking out the *\[new-head\]* head, you will fix the headers.  Now you c
 
 ![git8](https://ucarecdn.com/a03bedba-f8d6-4875-bf07-8e03362fb53b/)
 
-# **Merging** 
+## **Merging** 
 ***
 
 After you have finished implementing a new feature in a branch, you will want to bring that new feature into the main branch, so that everyone can use it.  You can do so with the `git merge` or `git pull` command.
@@ -212,14 +213,14 @@ These commands perform the following operations.  Let the current head be called
 [[warning]]
 | :point_up:GIT can get very confused if there are uncommitted changes in the files when you ask it to perform a merge.  So, make sure to commit whatever changes you have made so far before you merge.
 
-# **Resolving Conflicts**
+## **Resolving Conflicts**
 ***
 
 A conflict arises if the commit to be merged into has a change in one specific place, and the current commit has a change in the exact same specific place. GIT has no way of telling which change should take precedence.
 
 To resolve the commit, edit the files to fix the conflicting changes.  Then run `git add` to add the resolved files.  Next, run `git commit` to commit the repaired merge.  GIT remembers that you were in the middle of a merge, so it sets the parents of the commit correctly.
 
-# **GIT Collaboration**
+## **GIT Collaboration**
 ***
 
 GIT can function without needing to connect to an external server because all the git files are located inside of the .git folder.
@@ -228,7 +229,7 @@ However, this means that, in order to manipulate the repository, you need to als
 
 To share work among developers, GIT uses a **distributed model** of version control. **It assumes no central repository**.  It is possible, of course, to use one repository as the "central" one, but it is important to understand the distributed model first.
 
-# **Distributed Version Control**
+## **Distributed Version Control**
 ***
 
 Say you and your friend want to work on the same project.  Your friend already has done some work on it.  There are three tasks you need to perform to figure out how to do so:
@@ -237,7 +238,7 @@ Say you and your friend want to work on the same project.  Your friend already h
 + Get the changes your friend makes into your own repository (git pull).
 + Let your friend know about changes you made (git push).
 
-# **Remote Specification**
+## **Remote Specification**
 ***
 
 GIT provides a number of transport protocols for sharing repository information, such as SSH and HTTP.  We will be using SSH.
@@ -248,13 +249,13 @@ To start working in collaboration with remote projects, we will need to know the
 git@domain_name.com:user_name/repository_name.git
 ``` 
 
-## Github.com
+### Github.com
 
 For example, when using a repository from github.com, you can find the remote in the repository home page:
 
 ![git9](https://ucarecdn.com/acd2bab5-16f9-4150-81ee-709d7f22e702/)
 
-# **Adding a Remote**
+## **Adding a Remote**
 ***
 
 If you are working on a local repository and you want to connect it to a remote repository, you can add a remote.  First, look for the remote URL in the remote repository.
@@ -267,7 +268,7 @@ git remote add origin [remote-url]
 git remote get-url origin
 ```
 
-# **Pushing (uploading) to the Remote**
+## **Pushing (uploading) to the Remote**
 ***
 
 Lets say you have a branch in your local repository called "new-branch."  That branch can be uploaded doing the following:
@@ -282,7 +283,7 @@ You will have to (1) download the files, (2) merge them into your code and (3) r
 
 After you solve any and all conflicts, you can go ahead and try to *git push* again.
 
-# **Pulling (downloading) from the Remote**
+## **Pulling (downloading) from the Remote**
 ***
 
 Let’s say that there is a branch in the remote repository called "development."  You can download this branch into your own repository by performing the following command:
@@ -295,7 +296,7 @@ The `git pull` command will try to merge all the incoming files into your local 
 
 After you fix the conflicts, you can `git add` the files and `git commit` everything to keep a clean error-free copy of your code in the repository.
 
-# **Cloning the Repository (git clone)**
+## **Cloning the Repository (git clone)**
 ***
 
 To make a copy of a remote repository for your own use, run git clone [remote-specification].
@@ -323,7 +324,7 @@ A branch that **tracks** a remote branch retains an internal reference to the re
 The important thing to note is that you now have a complete copy of your friend’s entire repository.  When you branch, commit, merge, or otherwise operate on the repository, you operate only on your own repository.  GIT only interacts with your friend’s repository when you specifically ask it to do so.
 
 [[info]]
-| :paperclip: Say your friend’s repository looks like this:<br>Here is a list of other great resources to learn GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br>You should especially try this two:<br>• https://try.github.io<br>• http://learngitbranching.js.org/
+|:link: Say your friend’s repository looks like this:<br>Here is a list of other great resources to learn GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br>You should especially try this two:<br>• https://try.github.io<br>• http://learngitbranching.js.org/
   
   
 

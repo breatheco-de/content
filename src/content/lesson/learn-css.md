@@ -9,7 +9,7 @@ time: "10 minutes"
 date: "2018-31-10"
 tags: ["fale"]
 ---
-# **Welcome to CSS!!**
+## **Welcome to CSS!!**
 ***
 We are sure that after diving deep in HTML, everything looks kind of ugly, fixed, and rigid.  We have to remember that HTML was created by CERN scientists, and they’re not – normally – the funniest kind of people (although they were the same exact scientists that 
 [discovered The Higgs Boson](https://www.youtube.com/watch?v=0CugLD9HF94), and we do have to bend to our knees for that).  However, HTML is still ugly, and it’s ugly because it was created for a different purpose than the one HTML meets today.
@@ -20,7 +20,7 @@ Buuuuttt… The Internet is more beautiful than that.  When internet became popu
 
 Ironically, the same scientists at CERN who created HTML had to think about how to improve it.   They were given the task to make it more beautiful.  It was at this time that [Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie) proposed the first version of CHSS in 1994, which was later adapted to become CSS1.
 
-# So, What is CSS and why does it matter??
+## So, What is CSS and why does it matter??
 ***
 
 ![css](https://ucarecdn.com/de08efd3-526b-4d89-8586-8b1d172b0c80/)
@@ -39,7 +39,7 @@ Can you imagine the potential?  You can make almost everything look different!
 
 
 
-# **How do I apply styles to HTML?**
+## **How do I apply styles to HTML?**
 ***
 
 Quite simple: You have to write your styles in a special syntax called "CSS" and save it on documents with the extension CSS.  Then, you apply the styles to the document using the `<link>` or the `<style>` tag.
@@ -54,7 +54,7 @@ Let’s review those 2 tags in more detail:
 [[info]]
 | :point_up:Just like it happens with HTML docs (ending with .html) CSS docs (style sheets) ends up with the `.css extension`.
 
-# **CSS Syntax**
+## **CSS Syntax**
 ***
 
 The CSS syntax has absolutely nothing to do with HTML syntax, it is its own specific programming language.  CSS does not use tags!  To work with a website you have to shift your mind several times because you will be working with several languages at the same time, and each one has its own syntax.
@@ -70,7 +70,7 @@ Watch the previous animation for a better understanding.
 
 The next example is a style sheet defining 3 different groups of styles (selector1, selector2, selector3); and each of those groups has different rules applied like: color, size of the letter and background color.
 
-You need to match HTML elements to groups of styles and you use “selectors” to bind the HTML elements to the CSS groups of rules.
+You need to match HTML elements to groups of styles and you use "selectors" to bind the HTML elements to the CSS groups of rules.
 
 ```css
 #selector1 {
@@ -86,7 +86,7 @@ selector3
    font-size: 15px;
 }
 ```
-# **Wait…What is a "Selector"??**
+## **Wait…What is a "Selector"??**
 ***
 
 A selector is a way to refer or identify one or more HTML elements.  For example, if you want to change the color of your web to red, you must do it as it follows:
@@ -97,7 +97,7 @@ body {
 }
 ```
 
-You could also change the color of a single anchor `<a>` in particular.  To do that, you must define the ID attribute of the HTML tag defining that particular link `<a id=”anchor1“>`.  Once that tag has an ID, then you can go to your style sheet and define a color as follows:
+You could also change the color of a single anchor `<a>` in particular.  To do that, you must define the ID attribute of the HTML tag defining that particular link `<a id="anchor1">`.  Once that tag has an ID, then you can go to your style sheet and define a color as follows:
 
 ```css
 #anchor1{
@@ -106,17 +106,17 @@ You could also change the color of a single anchor `<a>` in particular.  To do t
 ```
 The next table established a list of all the possible selectors available to use in CSS.  Please take your time to review it carefully.  Your understanding here is key to continue with CSS, since you need to understand every possible style you can apply to an HTML doc:
 
-## ID Selector
+### ID Selector
 
 |**Selector**   |**Description**   |**Example**   |
 |:--------------|:-----------------|:-------------|
 |#element_id    |Allows the possibility to apply styles to a particular element   |`#element_id { color: red; }`   |
 
-Let’s assign "first" as the ID of the first cell in the next table, and then with CSS we are going to specify that the “first” ID must have a yellow background:
+Let’s assign "first" as the ID of the first cell in the next table, and then with CSS we are going to specify that the "first" ID must have a yellow background:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/1b78wna2/8/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-## Class selector
+### Class selector
 
 |**Selctor**   |**Description**   |**Example**   |
 |:-------------|:-----------------|:-------------|
@@ -124,7 +124,7 @@ Let’s assign "first" as the ID of the first cell in the next table, and then w
 
 In the next example we are applying an "odd" class to the cells of this table, and then with CSS we are assigning the yellow background to class .odd:
 
-## Tag selection
+### Tag selection
 
 |**Selector**   |**Description**   |**Example**   |
 |:--------------|:-----------------|:-------------|
@@ -132,19 +132,19 @@ In the next example we are applying an "odd" class to the cells of this table, a
 
 Next, we are adding color (green) to the  background of each td (cells) of the table:
 
-## Multiselector
+### Multiselector
 
 |**Selector**   |**Description**   |**Examples**  |
 |:--------------|:-----------------|:-------------|
 |selectot1,selector2   |If you separate multiple selectors with a comma`,`, you can assign multiple selectors at the same time to save text.  In the following example, we tell every h1 and .impar class elements to turn into red.   |`h1,.impar { color: #BDBDBD; }`   |
 
-## Advanced Selectors
+### Advanced Selectors
 
 With these 4 ways to select you are covering the  99% of your needs; here what is important is to plan on which will be your Style sheet.
 
 There are others specifics and advanced selectors.  You are probably going to face them when you start building something more challenging.
 
-# **Conflicts and correspondence**
+## **Conflicts and correspondence**
 ***
 
 What happens if an element of the page is selected in two different selectors and has the green letter color assigned to one definition and red in the other?  In other words, if we have told the browser to find two different colors, what color will it end up having?
@@ -155,21 +155,21 @@ You have to have a very good understanding of the CSS hierarchy in order to unde
 
 The browser gives priority to more specific selectors like `#id` than the more general selectors like tags.  In the following example, we changed the color of all the `<li>` (the items in the list) to blue, but then we changed the text of the second element to red.  That way we demonstrate that the ID selector will always prevail over selecting all the elements by the label to which they belong.
 
-# **Attributes**
+## **Attributes**
 ***
 
 We have already seen that a CSS style sheet is nothing more than a list that defines the attributes that we want to assign to different elements of the page.  Now you have to see what attributes we can assign to these elements.
 
 There are hundreds – even thousands – of attributes, but, depending on the type of element / label that we want to define, we must focus on different attributes.
 
-### **Typography editing**
+#### **Typography editing**
 |Property   |Description   |Values   |
 |:----------|:-------------|:----------|
 |[font-family](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-family)   |font type (font) | [ name-font \| generic-family ]*   |
 |[font-size](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-size)   |size of the letter   |absolute-size \| relative-size \| distance \| percentage   |
 |[font-style](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-style)   |inclination (italics)   |normal \| italic \| oblique   |
 
-### **Text editor**
+#### **Text editor**
 
 |Property   |Description   |Values   |
 |:----------|:-------------|:-----------|
@@ -180,7 +180,7 @@ There are hundreds – even thousands – of attributes, but, depending on the t
 |[text-decoration](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-decoration)   |text ornament   |none \| blink \| line-through \| overline \| underline   |
 |[text-transform](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-transform)   |capital / small letters   |none \| capitalize \| lowercase \| uppercase   |
 
-### **List editing** 
+#### **List editing** 
 
 |Attribute   |Description   |Values   |
 |:-----------|:-------------|:--------|
@@ -189,7 +189,7 @@ There are hundreds – even thousands – of attributes, but, depending on the t
 |[list-style-position](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-position)   |marker position   |inside \| outside  |
 |[list-style-type](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-type)  |marker type   |none \| circle \| disc \| square \| decimal \| decimal-leading-zero \| lower-alpha \| upper-alpha \| lower-greek \| lower-latin \| upper-latin \| lower-roman \| upper-roman \| armenian \| georgian \| hebrew(-) \| cjk-ideographic(-) \| hiragana (-) \| katakana (-) \| hiragana-iroha(-) \| katakana-iroha(-)  |
 
-### **Table editing**
+#### **Table editing**
 
 |Attributes  |Description   |Values   |
 |:----------|:-------------|:-----------|
@@ -199,7 +199,7 @@ There are hundreds – even thousands – of attributes, but, depending on the t
 |[empty-cells](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#empty-cells)   |empty box border   |	hide \| show   |
 |[table-layout](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#table-layout)   |	algorithm width of the table   |auto \| fixed   |
 
-### **Background editing** 
+#### **Background editing** 
 
 |Property   |Description   |Values   |
 |:----------|:-------------|:----------|
@@ -209,7 +209,7 @@ There are hundreds – even thousands – of attributes, but, depending on the t
 |[background-repeat](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-repeat)  |background repetition   |no-repeat \| repeat \| repeat-x \| repeat-y \| space(3) \| round(3)   |
 |[background-size(3)](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-size)   |background image size   |auto \| [ distance \| percentage ] {2} \| contain \| cover   |
 
-## Get ready.  There is more coming!
+### Get ready.  There is more coming!
 
 If we were having dinner, we would say that you already ate your appetizer and are about to begin the main dish.  Now the protein is coming!!
 

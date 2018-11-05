@@ -9,7 +9,7 @@ tags: ["fale"]
 [[warning]]
 | :point_up:Windows users don’t have the same command line.  Please do go to [Cloud 9](https://aws.amazon.com/es/cloud9/?origin=c9io) and work from there.
 
-# **Why do Developers love the Command Line?**
+## **Why do Developers love the Command Line?**
 ***
 
 At first, everybody hated the command line.  After years of experience, it became an acquired taste.
@@ -21,7 +21,7 @@ But why do developers like it?   Well, the list is infinite, but here are a few 
 + It is super powerful.  You can do a lot more in a lot less time, for example: bulk delete, rename, find a file, edit a file, etc.
 + It forces you to use the keyboard.  Since you cannot use the mouse, it makes you faster.  You make less mistakes and the environment is exactly the same on every computer.
 
-# **How does it Work?**
+## **How does it Work?**
 ***
 
 The console is really simple: it’s a black screen that’s always expecting a *command*.  After you type the desired command and press the `return` key, the computer executes it and shows some feedback with the resulting output on the screen.  A simple Question <> Answer interface.
@@ -40,12 +40,12 @@ In this particular case, we use the `-l` "flag" to specify that we want a "long"
 
 The last thing we have to add is the "argument." In this case, the "argument" will be the path of the directory from which we want to list the files from.
 
-# **What can you do in the Terminal?**
+## **What can you do in the Terminal?**
 ***
 
 Your computer has files, directories and applications.  Your command line is able to deal with the three of them.  Use commands to move within the files and directories (like the `cd` command).  Every application that you install comes with a set of commands that become available at the moment you install the app (like the GIT command).
 
-# Here is how the File System Looks in a Visual Interface vs the Terminal:
+## Here is how the File System Looks in a Visual Interface vs the Terminal:
 
 ![thecommandline](https://ucarecdn.com/95b6ee7f-d008-47a8-9735-0f2c7396bea3/)
 
@@ -57,12 +57,12 @@ There are 4 important things to notice here:
 + Hidden files:  Usually a file has a name and an extension *(filename.extension)*.  If a file has no name, but only an extension, it will, by default, be hidden in the visual interface.
 
 
-# **Commands to Work with the File System:**
+## **Commands to Work with the File System:**
 ***
 
 Here is a small selection of the most used commands by a software developer.
 
-## The `ls` command
+### The `ls` command
 
 **The list command**
 
@@ -74,7 +74,7 @@ ls -l ./applications
 #the -l is for asking a more detailed output information on the files.
 ```
 
-## The `cd` command
+### The `cd` command
 
 **The change directory command**
 
@@ -84,7 +84,7 @@ Navigate between two different directories.
 cd /path/to/directory
 ```
 
-## The `mv` command
+### The `mv` command
 
 **The move command?**
 
@@ -94,7 +94,7 @@ Move a file to another folder or directory.  Just like dragging a file located o
 mv /path/to/file.txt /math/to/destination/file.txt
 ```
 
-## The `rm` command
+### The `rm` command
 
 **The remove command**
 
@@ -108,7 +108,7 @@ rm -r dbstore/
 #delete all the files and sub-directories recursively within the "dbstore" directory.
 ```
 
-## The `mkdir` command
+### The `mkdir` command
 
 **The make directory command**
 
@@ -140,7 +140,7 @@ rmdir path/of/targetdirectory/mydirectory
 [[warning]]
 | :point_up:It will only remove empty directories, to empty all directory files use the rm command. Pro-tip: you can use `rm` . to delete all of the files inside a directory simultaneously; use with caution.
 
-## The `cp` command
+### The `cp` command
 
 **The Copy File command**
 
@@ -153,7 +153,7 @@ cp path/to/file.ext path/to/new/file.ext
 #copy file.ext and create a new file.ext with the same content.
 ```
 
-## The `find` command
+### The `find` command
 
 **The find command**
 
@@ -167,7 +167,7 @@ find . -name *.mp3
 #find all files containing the extension "mp3" within the current directory and its parent.
 ```
 
-# **Tips & Tricks**
+## **Tips & Tricks**
 ***
 
 These will help you save time and make less mistakes when typing:
@@ -176,16 +176,16 @@ These will help you save time and make less mistakes when typing:
 + To autocomplete a file or folder name, use the `tab` key.
 + To repeat any command you have used in the past, use the `up` arrow and it will show you each command, one by one.
 + To go to the home user folder, use the `~` key like this: cd ~
-+ Use the `clear` command to “clean” the current console (it is just a scroll, but a very useful one)
++ Use the `clear` command to "clean" the current console (it is just a scroll, but a very useful one)
 
-# **Editing Files in the Terminal:**
+## **Editing Files in the Terminal:**
 ***
 
 This is one of the things that you cannot avoid doing in the terminal.  As a developer, you will have to edit files in the terminal more often than you think.   That’s why you’d better be prepared to use either the [VI Application or the Nano Application.](https://askubuntu.com/questions/726669/difference-between-nano-and-vim)  We will talk about Nano and its commands (yes, here the text editor opens inside the command line and runs using commands).
 
-## The `nano` command
+### The `nano` command
 
-**It’s not really a command, but actually the name of “Nano,” a text editor application.**
+**It’s not really a command, but actually the name of "Nano," a text editor application.**
 
 When working with the command line, sometimes you will have to open a file to review it and even change it.  For that, we use the "nano" command.  Nano basically opens a text editor within the command line.
 
@@ -200,7 +200,7 @@ At the bottom, you will see the most often used commands to use nano, such as: q
 
 ![command2](https://ucarecdn.com/d6d25448-8b13-4897-9c38-304f95388a0f/)
 
-[[info]]
+[[demo]]
 | :point_up:This website has a ton of great mini-challenges to help you practice the command line: <br>https://cmdchallenge.com/
 
 

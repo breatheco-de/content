@@ -6,7 +6,7 @@ date: "2018-02-11"
 tags: ["fale"]
 ---
 
-# **But, What is coding?**
+## **But, What is coding?**
 ***
 
 **Coding is not HTML, CSS or Position and Display…** Those languages were not designed for developers, they are just the only way we have to render stuff in a browser.
@@ -17,7 +17,7 @@ Everybody uses computers for different reasons.  Some computers are created to h
 
 No matter what the computer is made for, the very base of its existence is the same: to follow commands.  In this chapter you will learn 5 basic things you’ll need to understand any modern computer through code.
 
-# **Variables**
+## **Variables**
 ***
 
 <iframe width="830" height="467" src="https://www.youtube.com/embed/Q-eob0WBKs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -44,7 +44,7 @@ As you can see above, the new variable name does not tell us anything about the 
 
 Choosing the name for your variable really matters, so we beg you not to use generic names.  Be descriptive!  A vague name will make it difficult to understand the purpose of the variable, especially for other coders (including your future self).
 
-# **Assigning a Value to Variables**
+## **Assigning a Value to Variables**
 ***
 
 As developers, we can set the value of a variable at any time using the `=` operator.  You do not have to set a value when you first declare a variable.  You can set, or re-set (override) the value as many times as you want, whenever you want.  The value will always be the last one you set.  Below are a few examples on how to set values to variables:
@@ -59,7 +59,7 @@ var b ;
   b = 108 ;
 ```
 
-## `var` vs.  `let`  vs. `const`
+### `var` vs.  `let`  vs. `const`
 ***
 
 As we learned above, we use the keyword `var` to declare a variable.  There are two other keywords that we can also use to declare variables: ***const & let*** .  The main differences between these types of variables have to do with scope.
@@ -71,7 +71,7 @@ As we learned above, we use the keyword `var` to declare a variable.  There are 
 ***Var***:  Its scope is within the function in which it is declared in.  This means that the variable will stay the same throughout the whole function even if there is more than one block of code in the function.
 
 [[info]]
-| :point_up:[Read more about `*var*`, `let`, and `const`](http://wesbos.com/let-vs-const/)
+|:link: [Read more about `*var*`, `let`, and `const`](http://wesbos.com/let-vs-const/)
 
 Variable values are subject to change over time.  To retrieve a variable value you can print the value on the screen at any time.  Each language has its own methods to print; this is how you do it in JavaScript:
 
@@ -79,7 +79,7 @@ Variable values are subject to change over time.  To retrieve a variable value y
 
 
 
-# **Data Types**
+## **Data Types**
 ***
 Variables can have different types of values.  Some of them are available only in specific programming languages, but almost all of them have the following types
 
@@ -96,7 +96,7 @@ Variables can have different types of values.  Some of them are available only i
 <iframe src="https://repl.it/F05K/3?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
 
-# **Operations**
+## **Operations**
 ***
 
 What operations can I do to variables?  Depending on the data-type you have a few different possibilities:
@@ -106,7 +106,7 @@ What operations can I do to variables?  Depending on the data-type you have a fe
 + You cannot do much to Null, Booleans and Undefined data-types.
 + We will talk about Arrays and Objects in a different section.  They require a lot more attention.
 
-# **Functions**
+## **Functions**
 ***
 
 Functions are pieces of code that can be re-used several times during runtime regardless of their position in the code.  There are hundreds of reasons to use functions, but here are the 2 most important ones:
@@ -114,7 +114,7 @@ Functions are pieces of code that can be re-used several times during runtime re
 + Divide and conquer: It is always easier to split your problems into several smaller problems.  This will become your biggest challenge when solving complex problems.  Functions will be your best tools for abstraction.
 + Re-use: Any normal development will take at least 5,000 lines of code.  It is redundant and inefficent to keep writing the same code over and over again.
 
-# **Declaring a Function**
+## **Declaring a Function**
 ***
 
 To declare a function in JavaScript you have to start using the word `function` followed by the name you want for that function.
@@ -135,22 +135,22 @@ function multiply (param1, param2)
 ```
 <iframe src="https://repl.it/F10t/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-# **Parameters and Function Scope**
+## **Parameters and Function Scope**
 ***
 
 The scope of a variable determines where that variable is available to be used.  There are two main types of scopes:
 
-## Local Variables 
+### Local Variables 
 
 A local variable is available only inside the scope of the nearest curly brackets.  For example, variables that are passed as parameters into functions are only available within the content of that particular function.
 
-## Global Variables
+### Global Variables
 
 If you declare a variable at the beginning of your code, it will be available throughout the entire code – including during the content of any particular function.
 
 <iframe src="https://repl.it/F10t/2?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-# Logical Operations
+## Logical Operations
 ***
 
 Computers think of everything in black or white.  Everything is either True or False.  All the decisions in a computer are reduced into a simple **Boolean**.  You can prepare a computer to solve particular problems if you write code that asks the proper questions required to solve that problem.
@@ -181,12 +181,12 @@ You can group the logical operations in parentheses, and also use nested parenth
 |NOT     |!     |NOT will be the exact opposite of the result of the logical operator:<br>Is !(5 > 5)? True!<br>Is !(True)? False!    |
 
 
-# **Control the Flow of Your Code**
+## **Control the Flow of Your Code**
 ***
 
 Okay, now is when everything starts getting fun!  To control your application’s flow you will have several options, and you are going to use each of them every single day.  So, you must to become comfortable using them.
 
-## If…else…
+### If…else…
 
 The first tool you have is the `if…else` conditional.  It is very easy.  You can tell the computer to skip any part of your code depending on the current value of your variables.
 
@@ -200,7 +200,7 @@ if (number < 18) {
 }
 ```
 
-# **Switch**
+## **Switch**
 ***
 
 Similar to if…else… but a little bit more organized.  Here you will specify all of the possible case scenarios – including the `default scenario` that will occur if none of the other scenarios happen.
@@ -211,7 +211,8 @@ Similar to if…else… but a little bit more organized.  Here you will specify 
 |Use `switch` instead of `if` when:<br><br>• You are comparing multiple possible conditions of an expression and the expression itself is non-trivial.<br>• You have multiple values that may require the same code.<br>• You have some values that will require essentially all of another value’s execution, plus only a few statements.<br><br>Use `if` instead of `switch` when:<br><br>• You want to test for the truthfulness of an expression.<br>• You only have a single affirmative test.<br>• You need to evaluate different expressions for each branch.
 
 
-# While
+## While
+***
 
 It is possible to loop a segment of your code as many times as you want or need.  Loops are one of the most important tools for developers these days.
 
@@ -229,7 +230,8 @@ while (number <= 50) {
 console.log("Sum = " + sum);
 ```
 
-# For
+## For
+***
 
 `For` is similar to the `while,` with the only difference being that you have to specify the stopping condition from the beginning.  For that reason, `for` is a little more organized and easier to understand.
 
@@ -243,7 +245,8 @@ for (var i = 0; i < 10; i++) {
 }
 ```
 
-# For..in
+## For..in
+***
 
 `For…in` loops can be to used to loop through the properties of an object.  Within the parentheses, you can set any name to represent the information within the object, and then include the name of the object:
 
@@ -265,7 +268,7 @@ for(items in dog){
 }
 ```
 
-# **So.. tell me, did you like coding?**
+## **So.. tell me, did you like coding?**
 ***
 
 Coding is like Taco Bell:  you always use the same ingredients except they are just mixed in different ways.  You know how to write code, but…do you know how to solve real problems?

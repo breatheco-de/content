@@ -6,7 +6,7 @@ date: "2018-01-11"
 tags: ["fale"]
 ---
 
-# **Why Do We Need to Learn about Selectors?**
+## **Why Do We Need to Learn about Selectors?**
 ***
 
 Completing a stylesheet is like having a little war between selectors, – you are constantly overriding previously defined styles with new ones:
@@ -32,7 +32,7 @@ These very specific selectors will help you a lot.  They will be your best tool 
 [[info]]
 | :tv: &nbsp;[Here is a super cool video (3:40 min) explaining specificity.](https://www.youtube.com/watch?v=In78mSOHmls)
 
-# **The Child Selector**
+## **The Child Selector**
 ***
 
 ```css
@@ -45,7 +45,7 @@ This statement takes the paragraph tags that are children of the div and turns t
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-# **The Adjacent Sibling Selector**
+## **The Adjacent Sibling Selector**
 ***
 
 ```css
@@ -62,7 +62,7 @@ The first paragraph in the list is preceded by the div, so it isn’t changed.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-# **The Almighty Asterisk**
+## **The Almighty Asterisk**
 ***
 
 ```css
@@ -96,7 +96,7 @@ If we want to change the font color of the "Design Shack" link, we could use :ps
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-# **Arbitrary Substring Attribute Value Selector**
+## **Arbitrary Substring Attribute Value Selector**
 ***
 
 ```css
@@ -110,7 +110,7 @@ The following code targets any div with the word "section" in the title.  It can
 ***
 
 
-## Link-related pseudo selectors 
+### Link-related pseudo selectors 
 ```css
 a:link{color: green;}
 a:visited{color: yellow;}
@@ -126,7 +126,7 @@ You can change colors in any element on the website, depending on its status:
   
   <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
   
-## Input-related pseudo selectors 
+### Input-related pseudo selectors 
 
 ```css
 input{padding: 5px;}
@@ -143,7 +143,7 @@ It is very important to take enough time to style our forms.  Styling is the bes
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-## Position-based pseudo selectors 
+### Position-based pseudo selectors 
 
 ```css
 #myUL li:first-child{background: blue;}
@@ -154,7 +154,7 @@ You can apply styles to elements based on their position.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/0nzat2h8/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-## Here is a list of the most used Pseudo-Classes:
+### Here is a list of the most used Pseudo-Classes:
 
 |**Selector**   |**Example**   |**Example description**   |
 |:--------------|:-------------|:-------------------------|
@@ -180,8 +180,8 @@ You can apply styles to elements based on their position.
 |[:nth-of-type(n)](https://www.w3schools.com/cssref/sel_nth-of-type.asp)   |p:nth-of-type(2)   |Selects every `<p>` element that is the second `<p>` element of its parent   |
 |[:only-of-type](https://www.w3schools.com/cssref/sel_only-of-type.asp)   |p:only-of-type   |Selects every `<p>` element that is the only `<p>` element of its parent   |
 |[:only-child](https://www.w3schools.com/cssref/sel_only-child.asp)   |p:only-child   |Selects every `<p>` element that is the only child of its parent   |
-|[:optional](https://www.w3schools.com/cssref/sel_optional.asp)   |input:optional   |Selects `<input>` elements with no “required” attribute   |
-|[:out-of-range](https://www.w3schools.com/cssref/sel_out-of-range.asp)   |input:out-of-range   |Selects `<input>` elements with a value outside a specified range   |[:read-only](https://www.w3schools.com/cssref/sel_read-only.asp)   |input:read-only   |Selects `<input>` elements with a “readonly” attribute specified   |
+|[:optional](https://www.w3schools.com/cssref/sel_optional.asp)   |input:optional   |Selects `<input>` elements with no "required" attribute   |
+|[:out-of-range](https://www.w3schools.com/cssref/sel_out-of-range.asp)   |input:out-of-range   |Selects `<input>` elements with a value outside a specified range   |[:read-only](https://www.w3schools.com/cssref/sel_read-only.asp)   |input:read-only   |Selects `<input>` elements with a "readonly" attribute specified   |
 |[:read-write](https://www.w3schools.com/cssref/sel_read-write.asp)   |input:read-write   |Selects `<input>` elements with no "readonly" attribute   |
 |[:required](https://www.w3schools.com/cssref/sel_required.asp)   |input:required   |Selects `<input>` elements with a "required" attribute specified   |
 |[:root](https://www.w3schools.com/cssref/sel_root.asp)   |root	   |Selects the document’s root element   |
@@ -191,7 +191,7 @@ You can apply styles to elements based on their position.
 
 
 [[info]]
-| :point_up:This is a great reading about CSS Selectors: [The 30 CSS selectors you must memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+|:link: This is a great reading about CSS Selectors: [The 30 CSS selectors you must memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 
 
 

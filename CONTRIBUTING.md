@@ -6,6 +6,17 @@
 [[info]]
 |:link: for links of webistes with information
 
+[[warning]]
+| :point_up: to warn students about important details
+
+[[demo]]
+| :point_up: For live demos 
+
+[[info]]
+| :tv: for external videos
+
+[[info]]
+| :point_up: for Aditional info 
 
 
 ## Componentes
