@@ -17,7 +17,7 @@ An event is something that happens!  Like **clicking** on a button, **pressing**
 
 Your job as a developer is to prepare for those events and **define the functions** that are going to be handling those events.
 
-![events1](https://ucarecdn.com/e395d8e4-1e1e-4c25-aff9-ebf56023d41c/-/resize/200x/)
+![events1](https://ucarecdn.com/e395d8e4-1e1e-4c25-aff9-ebf56023d41c/-/resize/600x/)
 
 ### But who Triggers these Events?
 
@@ -103,11 +103,11 @@ You can add an event listener in 2 different ways:
 ## Adding Listeners from the HTML
 ***
 
-For example, if you want to start listening when the user clicks on a particular button all you have to do is specify the “onclick” attribute to that specific HTML `<button>` tag, like this:
+For example, if you want to start listening when the user clicks on a particular button all you have to do is specify the "onclick" attribute to that specific HTML `<button>` tag, like this:
 
 ```html
 <!– myClickHandler is a javascript function that will handle the event –>
-<button onclick=”myClickHandler();”>Click me</button>
+<button onclick="myClickHandler();">Click me</button>
  
 <script>
 function myClickHandler(){
@@ -133,7 +133,7 @@ The .addEventListener function is perfect for this because it can be used in any
 
 When using the addEventListener function, you have to specify what **event** you want to listen to, and **the handler function** that will be called every time that event is triggered on that DOM element.
 
-For example, this code is creating a list of names and each delete anchor in each row is listening to the “click” event – but only for that row.
+For example, this code is creating a list of names and each delete anchor in each row is listening to the "click" event – but only for that row.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/h6ajx458/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -143,7 +143,7 @@ For example, this code is creating a list of names and each delete anchor in eac
 ##  The Event Object
 ***
 
-Event handlers can have one optional parameter in the declaration of the function.  This parameter is always filled with one “Event” object that contains a lot of information about the event that was triggered to get this function called.
+Event handlers can have one optional parameter in the declaration of the function.  This parameter is always filled with one "Event" object that contains a lot of information about the event that was triggered to get this function called.
 
 No matter what type of event (mouse related events, keyboard event, frame, etc.), the event object is always going to have at least the following properties:
 
@@ -182,7 +182,7 @@ Depending on the type of event, you will have additional properties that will gi
 |**Property**    |**Description**    |
 |:---------------|:------------------|
 |keyCode        |Returns the Unicode character code of the key that triggered the event.     |
-|shiftKey, altKey or ctrlKey     |Returns whether the “shift”,”alt” or “ctrl” key was pressed when the key event was triggered.     |
+|shiftKey, altKey or ctrlKey     |Returns whether the `shift`,`alt` or `ctrl`key was pressed when the key event was triggered.     |
 
 
 ### Additional information for **wheel events**
@@ -192,7 +192,7 @@ Depending on the type of event, you will have additional properties that will gi
 |deltaX, deltaY   |Returns the vertical or horizontal scroll amount of a mouse wheel (y-axis) or (x-axis).     |
 |deltaMode       |Returns a number that represents the unit of measurements for delta values (pixels, lines or pages).      |
 
-[[nfo]]
+[[info]]
 | :link: There is a lot more information you can get from the event object, but we are focusing on the most used properties.  For a bigger list of properties please read [this guide.](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
 ## Removing the Listeners

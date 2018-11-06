@@ -16,9 +16,9 @@ All the work was done by the server: since there was no JavaScript, the DOM coul
 
 [Remember how the internet works?](https://www.youtube.com/watch?v=UiBT3Kj8KBM)  Every domain points to a single IP address/server, and that server is ready to give back a **text answer** to any HTTP request that comes from any client.
 
-**Think about the server like a “document generator.”**  It can be an image, a video, a text document, JSON, HTML, CSS, etc.  The server’s responsibility is to respond with content each time a client requests it.
+**Think about the server like a "document generator."**  It can be an image, a video, a text document, JSON, HTML, CSS, etc.  The server’s responsibility is to respond with content each time a client requests it.
 
-![backend1](https://ucarecdn.com/b04c5fe2-1360-495a-bb97-e4afd6d29263/-/resize/200x/)
+![backend1](https://ucarecdn.com/b04c5fe2-1360-495a-bb97-e4afd6d29263/-/resize/600x/)
 
 Along with the generated document content, the server can also specify what type of content is responding, allowing the browser to read and interpret the response in an accurate way.  The response formats available can be hundreds, but this are the most common:
 
@@ -29,7 +29,7 @@ Along with the generated document content, the server can also specify what type
 |text/plain          |This is the default value for text files.  Even if it really means an unknown text file, browsers assume they can display it     |
 |text/css      |Any CSS files that have to be interpreted as such in a web page must be text/css files.  Often, servers do not recognize files with the .css suffix as CSS files and instead send them as text/plain.      |
 |text/html        |All HTML content should be served with this type.     |
-|mage/gif<br>image/jpeg<br>image/png<br>image/svg+xml     |Only a handful of image types are widely recognized and are considered web safe (ready for use in a web page).    |
+|image/gif<br>image/jpeg<br>image/png<br>image/svg+xml     |Only a handful of image types are widely recognized and are considered web safe (ready for use in a web page).    |
 |audio/wav<br>audio/mpeg     |For audio files .wav .mp3    |
 |multipart/form-data     |The multipart/form-data type can be used when sending the content of a completed HTML form from the browser to the server.    |
 |application/json     |A JSON formatted response.     |

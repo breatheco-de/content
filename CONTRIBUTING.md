@@ -7,7 +7,8 @@
 |:link: for links of webistes with information
 
 [[warning]]
-| :point_up: to warn students about important details
+| :point_up:
+ to warn students about important details
 
 [[demo]]
 | :point_up: For live demos 

@@ -32,7 +32,7 @@ All major programming languages use regular expressions (C++, PHP, .NET, Java, J
 ## Building and Testing Regular Expressions
 ***
 
-Never start creating a Regex without having a live testing tool – it can get very complicated very easily.  The best way is to use the “divide and conquer” strategy (again) – split your Regex into several smaller Regex’s, and then combine them all.
+Never start creating a Regex without having a live testing tool – it can get very complicated very easily.  The best way is to use the "divide and conquer" strategy (again) – split your Regex into several smaller Regex’s, and then combine them all.
 
 ## The Patterns Syntax
 ***
@@ -43,7 +43,7 @@ This is a regular expression that checks for an email pattern:
 /[\w._%+-]+@[\w.-]+\.[a-zA-Z]{2,4}/
 ```
 
-But, don’t worry…you don’t have to understand it right now.  The good news is that a complex regular expression is just the combinations of several very simple regular expressions.  “Divide and conquer!”
+But, don’t worry…you don’t have to understand it right now.  The good news is that a complex regular expression is just the combinations of several very simple regular expressions.  "Divide and conquer!"
 
 So…let’s start with the basic regular expressions using the most basic operators:
 
@@ -52,7 +52,7 @@ So…let’s start with the basic regular expressions using the most basic opera
 
 **A simple character is…**
 
-Any succession of characters is a simple regular expression.  If we use the word “email” as a regular expression, the system will look for any repetitions of the word “email” inside of the given text.
+Any succession of characters is a simple regular expression.  If we use the word "email" as a regular expression, the system will look for any repetitions of the word "email" inside of the given text.
 
 **Use the container on the right to play with other simple successions of characters.**
 
@@ -96,16 +96,17 @@ You can also combine ranges of characters like this:
 
 ### **The `^` (caret) Character: Negation or Beginning of a Term**
 
-If we place `^` at the beginning of a [range]:
+**If we place `^` at the beginning of a [range]:**
 
 We are negating the range.  For example:
 
-All terms that start with `li` and end with `e` but have no `i` or `v` on the inside: `li[^v]e`
-If we place `^` at the beginning of a regular expression:
++ All terms that start with `li` and end with `e` but have no `i` or `v` on the inside: `li[^v]e`
+  
+**If we place `^` at the beginning of a regular expression:**
 
-We are saying that we want to only test the Regex from the beginning of the string (no substrings – smaller parts of the string – will be tested):
++ We are saying that we want to only test the Regex from the beginning of the string (no substrings – smaller parts of the string – will be tested):
 
-A string starting with http: `^http`
++ A string starting with http: `^http`
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bGklNUIlNUV2JTVEZQ%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBhbiBvbGl2ZSBvaWwsIGFsd2F5cyBhZGRpbmcgZ29vZCB0YXN0ZSB0byB3aGF0IGhlIGRvZXMu"></iframe>
 
@@ -125,7 +126,7 @@ If you prefer, you can use these shortcuts in your regular expressions:
 ## Grouping or Enclosing Regular Expressions with `()`
 ***
 
-We always talk about “divide and conquer,” right?  Well, your best friend for that will be the parenthesis operator `( )`.  We are now able to group any pattern just like we do in math.
+We always talk about "divide and conquer," right?  Well, your best friend for that will be the parenthesis operator `( )`.  We are now able to group any pattern just like we do in math.
 
 Now that we can group, we can multiply (repeat) our patterns, negate our patterns, etc.
 
@@ -153,23 +154,19 @@ We can place the quantifier after the character patterns that we want to repeat.
 
 |**Operator**     |**Description**   |
 |:----------------|:-----------------|
-|+                |One or many E.g.: Terms with the letter `o` at least one time; `o+`   |
-|*                |Zero or many
-E.g.: Terms starting with the letter “a” (lowercase) followed by **zero or many** characters of any type but the white space: `a[^ ]*`       |
-|?                 |Zero or one
-E.g.: Finding the November string with or without the shortcut: [nN]ov(ember)?     |
+|+                |One or many E.g.:<br> Terms with the letter `o` at least one time; `o+`   |
+|*                |Zero or many<br>E.g.: Terms starting with the letter "a" (lowercase) followed by **zero or many** characters of any type but the white space: `a[^ ]*`       |
+|?                 |Zero or one<br>E.g.: Finding the November string with or without the shortcut: `[nN]ov(ember)? `    |
 
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVCbk4lNURvdiUyOGVtYmVyJTI5JTNG&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLiBUaGUgYmVzdCBkYXRlIHRvIGdyb3cgb2xpdmVzIGlzIG9uIE5vdmVtYmVyIHRoZSAyNHRoLCBub3Qgb24gTm92ZW1iZXIgdGhlIDNyZC4%3D"></iframe>
 
 
 [[demo]]
-| :point_up:Here are two amazing tools to build, & test Regular Expressions.
-https://regex101.com/ and http://regexr.com/
+| :point_up:Here are two amazing tools to build, & test Regular Expressions.https://regex101.com/ and http://regexr.com/
 
 [[demo]]
-| :point_up:Here is an interactive tutorial to learn regular expressions:
-https://regexone.com/
+| :point_up:Here is an interactive tutorial to learn regular expressions:https://regexone.com/
 
 
 
@@ -201,11 +198,11 @@ Finally, we want the end of the string ($).
 
 #### **Regular Expression for: Matching a URL**
 
-This Regex is almost like taking the ending part of the above Regex, slapping it between “http://” and some file structure at the end.  It sounds a lot simpler than it really is.  To start off, we must search for the beginning of the line with the caret.
+This Regex is almost like taking the ending part of the above Regex, slapping it between "http://" and some file structure at the end.  It sounds a lot simpler than it really is.  To start off, we must search for the beginning of the line with the caret.
 
-The first capturing group is all optional.  It allows the URL to begin with “http://”, “https://”, or neither of them.  We have a question mark after the s to allow URL’s that have http or https.  In order to make this entire group optional, we just added a question mark to the end of it.
+The first capturing group is all optional.  It allows the URL to begin with "http://", "https://", or neither of them.  We have a question mark after the s to allow URL’s that have http or https.  In order to make this entire group optional, we just added a question mark to the end of it.
 
-Next is the domain name: one or more numbers, letters, dots, or hyphens followed by another dot then two to six letters or dots.  The following section is the optional files and directories.  Inside the group, we want to match any number of forward slashes, letters, numbers, underscores, spaces, dots, or hyphens.  Then we shall say that this group can be matched as many times as we want.  This allows multiple directories to be matched along with a file at the end.  We have used the star instead of the question mark because the star says zero or more, not zero or one.  If a question mark was to be used there, only one file/directory would be able to be matched.
+Next is the domain name: one or more numbers, letters, dots, or hyphens followed by another dot then two to six letters or dots.  The following section is the optional files and directories.  Inside the group, we want to match any number of forward slashes, letters, numbers, underscores, spaces, dots, or hyphens.  Then we shall say that this group can be matched as many times as we want.  This allows multiple directories to be matched along with a file at the end.  We have used the star instead of the question mark because the star says zero **or more**, not zero **or one**.  If a question mark was to be used there, only one file/directory would be able to be matched.
 
 Next, a trailing slash is matched, but it is optional.
 

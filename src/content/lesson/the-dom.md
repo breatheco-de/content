@@ -27,7 +27,7 @@ With JavaScript we can manipulate the DOM (website elements) during runtime (dur
 NOTE:  Please always remember that all the JavaScript code that you write in your HTML document MUST be wrapped inside a `<script>` tag, like this:
 
 ```html
-<script  type=”text/javascript”>
+<script  type="text/javascript">
      //your code here  
 </script>
 ```
@@ -54,7 +54,7 @@ From the moment a website starts being loaded, the browser creates a hierarchy t
 + The DOM is generated during runtime.
 + Every browser tries to replicate the DOM in the exact same way, but there are some differences between them.  That is why some things work in one browser but not in the other one.
 + JavaScript is the only language capable of accessing The DOM during runtime.
-+ The “Google Inspector” is the best representation of The DOM today.
++ The "Google Inspector" is the best representation of The DOM today.
 
 <iframe width="578" height="325" src="https://www.youtube.com/embed/Ibxagg2ep5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -63,39 +63,39 @@ From the moment a website starts being loaded, the browser creates a hierarchy t
 
 Just like we did with CSS, we can select any element in the document.  There are 4 methods that allow us to search for whatever we want:
 
-### **document.querySelector(“css-element-selector”)**
+### **document.querySelector("css-element-selector")**
 
 Returns an instance of **the first element** found that fits the CSS selector that you specified
 
-### **document.getElementById(“elementId”)**
+### **document.getElementById("elementId")**
 
-Returns an instance of the element with the id=”elementId” in the HTML document.
+Returns an instance of the element with the id="elementId" in the HTML document.
 
-### **document.getElementsByClassName(“exampleClass”)**
+### **document.getElementsByClassName("exampleClass")**
 
-Returns an array of all elements with the class=”exampleClass” in their HTML tag property.
+Returns an array of all elements with the class="exampleClass" in their HTML tag property.
 
-### **document.getElementsByTagName(“p”)**
+### **document.getElementsByTagName("p")**
 
 Returns an array with all the instances representing each paragraph element in the HTML document.
 
-### **document.getElementsByName(“name_value“)**
+### **document.getElementsByName*("name_value")***
 
-Returns an array with all the elements that have name=”name_value” in their name property of their HTML tag in the HTML document.
+Returns an array with all the elements that have name="name_value" in their name property of their HTML tag in the HTML document.
 
 ```javascript
-var elem = document.getElementById(“xyz”);
-elem.style.color=”red”;   // change color to red  
+var elem = document.getElementById("xyz");
+elem.style.color="red";   // change color to red  
 
-var myList = document.getElementsByTagName(“p”);
+var myList = document.getElementsByTagName("p");
 var howManyElements = myList.length;
-myList[0].style.color = “red”;   // make the first one red  
+myList[0].style.color = "red";   // make the first one red  
 
-var myList = document.getElementsByClassName(“abc”);
-myList[0].style.color = “red”;   // make the first one red  
+var myList = document.getElementsByClassName("abc");
+myList[0].style.color = "red";   // make the first one red  
 
-var xyz = document.getElementsByName(“xyz”);
-xyz[0].style.color=”red”;   // make the first one red
+var xyz = document.getElementsByName("xyz");
+xyz[0].style.color="red";   // make the first one red
 ```
 
 ## Accessing the Element’s Child
@@ -115,17 +115,17 @@ The best way to retrieve the childs of any DOM element is by using its childNode
 This returns an array with all the element’s childs.
 
 ```javascript
-var x = document.getElementById(“myDIV”);
-x.querySelector(“.random”).style.background = “green”;
+var x = document.getElementById("myDIV");
+x.querySelector(".random").style.background = "green";
 //get the first #myDIV child with the .random class  
 
-var x = document.getElementById(“myDIV”);
-x.querySelector(“h3,h2”).style.background = “blue”;
+var x = document.getElementById("myDIV");
+x.querySelector("h3,h2").style.background = "blue";
 //get the first #myDIV child with the tag h3 or h2 
  
-var tableElm = document.getElementById(“people”);
-var trArray = tableElm.querySelectorAll(“tr”);
-trArray[3].style.background = “red”;
+var tableElm = document.getElementById("people");
+var trArray = tableElm.querySelectorAll("tr");
+trArray[3].style.background = "red";
 //get an array with all #people child’s with the tr tag
 ```
 
@@ -138,16 +138,16 @@ trArray[3].style.background = “red”;
 ## The innerHTML
 ***
 
-As you already know, each element in the HTML document can have some sort of HTML content.  It does not matter if it is a <P>, <DIV>,<A> or any other HTML element; it can have its own innerHTML combined with more HTML content.
+As you already know, each element in the HTML document can have some sort of HTML content.  It does not matter if it is a `<P>`, `<DIV>`,`<A>` or any other HTML element; it can have its own innerHTML combined with more HTML content.
 
-![thedom2](https://ucarecdn.com/6c92ad73-36a3-428f-9851-03abaa24b4ca/-/resize/200x/)
+![thedom2](https://ucarecdn.com/6c92ad73-36a3-428f-9851-03abaa24b4ca/-/resize/900x/)
 
 The .innerHTML property gives you the ability to retrieve or set the content of whatever element you have in your JavaScript.  For example:
 
 ```javascript
-document.getElementsByTagName(“div”)[0].innerHTML = “abc”;
+document.getElementsByTagName("div")[0].innerHTML = "abc";
 // innerHTML can be used to insert plain text content or HTML, this creates a list inside a div element 
-document.getElementsByTagName(“div”)[0].innerHTML = “abc”;
+document.getElementsByTagName("div")[0].innerHTML = "abc";
 // innerHTML can be used to insert plain text content or HTML, this creates a list inside a div element 
 ```
 
@@ -159,14 +159,14 @@ document.getElementsByTagName(“div”)[0].innerHTML = “abc”;
 
 There are 2 functions we can use for that: **appendChild** and **insertBefore.**
 
-Lets say that you have selected a `<div>` with the id=**”myFirstId”** and you want to add a new h1 inside of that div.
+Lets say that you have selected a `<div>` with the id=**"myFirstId"** and you want to add a new h1 inside of that div.
 
 **You can use the appendChild function like this:**
 
 ```javascript
-var divElem = document.getElementById(“myFirstDiv”);
-var myNewHOne = document.createElement(“H1”);
-var t = document.createTextNode(“Hello World”);
+var divElem = document.getElementById("myFirstDiv");
+var myNewHOne = document.createElement("H1");
+var t = document.createTextNode("Hello World");
 myNewHOne.appendChild(t);  //I have to add some text content to the h1  
 divElem.appendChild(myNewHOne);
 ```
@@ -176,10 +176,10 @@ Now, lets say that we have a ul with 2 elements, but we want to insert a new LI 
 **We can use the function insertBefore for that case – like this:**
 
 ```javascript
-var newItem = document.createElement(“LI”);
-var textnode = document.createTextNode(“Water”);
+var newItem = document.createElement("LI");
+var textnode = document.createTextNode("Water");
 newItem.appendChild(textnode);
-var list = document.getElementById(“myList”);
+var list = document.getElementById("myList");
 list.insertBefore(newItem, list.childNodes[0]);  //adding the newItem before the FIRST child of the list.
 ```
 
@@ -192,7 +192,7 @@ For example, if we want to remove all of the elements from a UL list:
 
 ```javascript
 // Removing all children from an element  
-var element = document.getElementById(“myFirstUL”);
+var element = document.getElementById("myFirstUL");
 while (element.firstChild) {
     element.removeChild(element.firstChild);
 }
@@ -209,8 +209,8 @@ To change any attribute of any object in the DOM, we need to use the .attribute 
 
 ```javascript
 // Removing all children from an element  
-var element = document.getElementById(“myElementId”);
-element.attribute = “whatever”;
+var element = document.getElementById("myElementId");
+element.attribute = "whatever";
 ```
 
 ## Changing the Styles
@@ -220,9 +220,9 @@ You can also change any CSS rule or property applied to the HTML elements by usi
 
 ```javascript
 // Removing all children from an element  
-var element = document.getElementById(“myElementId”);
-element.style.color = “red”;
-element.style.background = “blue”;
+var element = document.getElementById("myElementId");
+element.style.color = "red";
+element.style.background = "blue";
 ```
 
 
