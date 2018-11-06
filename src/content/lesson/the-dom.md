@@ -32,7 +32,7 @@ NOTE:  Please always remember that all the JavaScript code that you write in you
 </script>
 ```
 
-## How to Update your We
+## How to Update your Website DOM
 ***
 
 There are several ways to manipulate the DOM, but the most simple one is **document.write**  Every time you create a document.write you will be writing onto the HTML whatever string you decide to pass as a parameter to the write function.
