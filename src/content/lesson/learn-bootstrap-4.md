@@ -8,7 +8,7 @@ date: "2018-01-11"
 tags: ["fale"]
 ---
 
-# **Finally, Bootstrap!**
+## **Finally, Bootstrap!**
 ***
 
 There is light at the end of the tunnel and it is NOT Chuck Norris holding a flashlight.  Finally, someone fixed CSS.  This is a library made by [Mark Otto](https://twitter.com/mdo?lang=en) and [Jacob Thornton](https://twitter.com/fat) – normal people – developers like you and me, and they did great!
@@ -19,7 +19,7 @@ These two guys working on Twitter were suffering the same problems we have been 
 
 Besides, Bootstrap gives you a dozen of new elements that you would normally want to use but don’t actually exist in CSS+HTML: The Bootstrap components.
 
-# Layouts: Solving the Box Model
+## Layouts: Solving the Box Model
 ***
 
 One of the broken things in CSS is the way that layouts work – working with **float**, **display** and **position** sucks.  This is how Bootstrap solved it:
@@ -29,8 +29,8 @@ One of the broken things in CSS is the way that layouts work – working with **
 Bootstrap creators replicated the same concept that `<tables>` had, but instead of using tables, they used `<div>` (boxed containers).  They can’t create their own HTML tags because that will require a new HTML version and would make Bootstrap incompatible with current browsers.  Tags must stay the same – that’s why they decided to override the `<div>` default behaviors with classes.
 
 ```html
-This is a row: <div class=”row“>
-This is a column: <div class”col–sm–x“>
+This is a row: <div class="row">
+This is a column: <div class"col–sm–x">
 ```
 ![row](https://breatheco.de/wp-content/uploads/2017/01/Screen-Shot-2017-01-18-at-11.34.04-PM-1024x490.png)
 
@@ -40,20 +40,20 @@ On the flip side, columns were made to live within the rows (just like what happ
 
 ![box](https://ucarecdn.com/f50388c2-f5ed-4dc8-be8c-863c63e75cdc/)
 
-# Our first Layout example:
+## Our first Layout example:
 ***
 
 Just like we did in the Layout chapter of the course, let’s create one page with 2 big sections: one sidebar on the right and one main content on the left.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/jdo71v50/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/th7uLrow/4/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-# Bootstrap is 100% Responsive
+## Bootstrap is 100% Responsive
 ***
 
 It’s very easy to decide how your website will render in different screen sizes; when you add each column into the rows you need to assign a class with the following format:
 
 ```html
-<div class=”col–md–x“>
+<div class="col–md–x">
 ```
 
 |**Col**   |**md**   |**x**
@@ -61,13 +61,14 @@ It’s very easy to decide how your website will render in different screen size
 |Means that this element should behave like a Bootstrap column.   |Means that I am specifying only for the devices with a "medium" sized screen.   |Specifies how many slots I want this column to take (remember you can take a max of 12 slots per row).   |
 
 [[info]]
-| :point_up:Bootstrap device sizes:<br> |nothing(phones)   |sm<br>(big-phone/small-tablet)   |md<br>(tablets)   |lg<br>(desktops).   |xl<br>(extra-large desktops).   |
-|:--------|:-------|:-------|:--------|:-----------|
+| :point_up:Bootstrap device sizes:   |Phones   |Big-phone/small-tablet   |Tablets   |Desktops   |Extra-large desktops   |
+|:----------|:---------------|:-------------|:-----------|:------------|:---------|
+| &nbsp;           |Nothing    |sm       |md       |lg      |xl        |
 
 [[warning]]
-| :point_up:Note: if you don’t specify the screen size (ex. by using ‘sm’, ‘md’, or ‘xl’), the website will be rendered for mobile phones by default.
+| :point_up:Note: if you don’t specify the screen size (ex. by using 'sm', 'md', or 'xl'), the website will be rendered for mobile phones by default.
 
-# Defining Mobile, Tablet, and Desktop at the same time
+## Defining Mobile, Tablet, and Desktop at the same time
 ***
 
 We are going to set the layout (using the sm, md and lg column classes) for  two rows in all the devices at the same time:
@@ -95,27 +96,32 @@ We are going to set the layout (using the sm, md and lg column classes) for  two
 </div>
 ```
 
-# Basic Bootstrap Skeleton
+## Basic Bootstrap Skeleton
 ***
 
-We already know the basic HTML5 skeleton any website needs to have.  Now you just have to add a few lines in your skeleton to make it “Bootstrap compatible”:
+We already know the basic HTML5 skeleton any website needs to have.  Now you just have to add a few lines in your skeleton to make it "Bootstrap compatible":
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
   </head>
   <body>
     <h1>Hello, world!</h1>
 
-    <script src="./assets/js/jquery.min.js"></script>
-    <script src="./assets/js/popper.min.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
 ```
@@ -125,9 +131,9 @@ Remember, Bootstrap is just a stylesheet.  That’s why it is very simple to inc
 The Bootstrap Javascript functionality requires the jQuery and Popper Javascript libraries to be included first.  You don’t need to know the details about this yet.  Just include the JS libraries using the script tag and later you will understand.
 
 [[info]]
-| :page_facing_up:Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+|:link: Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
-# Bootstrap Components
+## Bootstrap Components
 ***
 
 HTML is so basic, it only has a few tags – we know that already.  But when you browse the web today, you see a different thing… websites today have menus, icons, load-bars, navbars, labels, etc.  Where are those tags?  None of those tags are defined in HTML!
@@ -139,10 +145,10 @@ When you import Bootstrap into your website, you will have a new set of componen
 ![modal-header](https://ucarecdn.com/d715b362-60ec-4d0b-89da-dca945c44bd4/)
 
 
-## These are the most Important and Used Bootstrap Components:
+### These are the most Important and Used Bootstrap Components:
 ***
 
-### **The Navbar**
+#### **The NavBar**
 
 This is so popular that it’s in the menu of 99% of all websites.  It normally has the logo of the company and a series of links – depending on each website’s business logic.
 
@@ -150,7 +156,8 @@ Here is an example of how a NavBar may look on a website:
 
 ![instagram](https://ucarecdn.com/fea2f19b-aee1-4e1b-9426-7b6c51867b47/)
 
-#### [**Read more about the NavBar here**](https://getbootstrap.com/docs/4.0/components/navbar/)
+[[info]]
+| :link:[**Read more about the NavBar here**](https://getbootstrap.com/docs/4.0/components/navbar/)
 
 ```html
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -182,7 +189,7 @@ Here is an example of how a NavBar may look on a website:
         </nav>
 ```
 
-### **The Card**
+#### **The Card**
 
 This is probably the most used Bootstrap component, every website has a few card because it is ideal to list items in a beautiful way. Some examples of the Card used can be:
 
@@ -194,7 +201,8 @@ Here is an example of how a "The Card" may look on a website:
 
 ![thecard](https://ucarecdn.com/e9b6edd1-b6f6-47fc-9700-17d374f9755d/)
 
-#### [**Read more about the card here**](https://getbootstrap.com/docs/4.0/components/card/)
+[[info]]
+| :link: [**Read more about the card here**](https://getbootstrap.com/docs/4.0/components/card/)
 
 ```html
 <div class="card" style="width: 20rem;">
@@ -209,7 +217,7 @@ Here is an example of how a "The Card" may look on a website:
 
 
 
-### **The Modal**
+#### **The Modal**
 
 Everyone hates a modal, it is super annoying, always asking you to subscribe to a newsletter! 🙂
 
@@ -217,7 +225,8 @@ Here is how a modal looks by default on Bootstrap.
 
 ![modal-t](https://ucarecdn.com/ccc9a172-fbc2-4760-b5d1-b8c77e6fd2fe/)
 
-#### [**Read more about modal here**](https://getbootstrap.com/docs/4.0/components/modal/)
+[[info]]
+| :link:[**Read more about modal here**](https://getbootstrap.com/docs/4.0/components/modal/)
 
 ```html
 div class="modal" tabindex="-1" role="dialog">
@@ -245,22 +254,19 @@ div class="modal" tabindex="-1" role="dialog">
 [[warning]]
 | :point_up:Important! The Modal needs Javascript in order to work. Remember to include the three Javascript files that are needed in a typical Bootstrap Skeleton: jQuery, Popper and Bootstrap.js
 
-# What you really need to know about Bootstrap
+## What you really need to know about Bootstrap
 ***
 
 Bootstrap official documentation is amazing!!  We don’t need to start copying and pasting all their posts.  Please visit the following and focus on reading these topics:
 
-+ [The grid system.](https://getbootstrap.com/docs/3.3/css/)
-+ [Styling Forms.](https://getbootstrap.com/docs/4.0/components/forms/)
-+ [List of components available to use on your website.](https://getbootstrap.com/docs/4.0/components/alerts/)
-+ [Utilities or Helper classes:](https://getbootstrap.com/docs/4.0/utilities/borders/) Very useful and constantly used classes to do stuff like centering the text, centering a column or container, adding a background, etc.
-
-[[info]]
-| :page_facing_up:This is an amazing tool to [validate your code](https://bootlint.com/) when doing Bootstrap websites.
++ [The grid system.](https://getbootstrap.com/docs/4.1/layout/grid/)
++ [Styling Forms.](https://getbootstrap.com/docs/4.1/components/forms/)
++ [List of components available to use on your website.](https://getbootstrap.com/docs/4.1/components/alerts/)
++ [Utilities or Helper classes:](https://getbootstrap.com/docs/4.1/utilities/borders/) Very useful and constantly used classes to do stuff like centering the text, centering a column or container, adding a background, etc.
 
 
 
-# Earn RE2PECT.
+## Earn RE2PECT.
 ***
 
 Success does not come overnight.  This is your first real achievement.  Let me ask you, do you feel capable using HTML, CSS, Layouts and Bootstrap?  Don’t lie to yourself.

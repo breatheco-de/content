@@ -14,7 +14,7 @@ Today’s websites are very different than before; they don’t have the same el
 
 The Internet was created for exchanging information.  Its founders were looking for ways to share documents without having to rely on a complex infrastructure.  They needed a framework and technology so that each person who wished to share a document could publish it independently and invite others to read it.
 
-The scientific community started using it for the famous [“Peer Reviews”](https://www.elsevier.com/reviewers/what-is-peer-review), which required 3 colleagues to review and approve publications before they were accepted and published for all of the community to see.
+The scientific community started using it for the famous ["Peer Reviews"](https://www.elsevier.com/reviewers/what-is-peer-review), which required 3 colleagues to review and approve publications before they were accepted and published for all of the community to see.
 
 For this reason, they worked on something as similar as possible to a Microsoft Word document or any other word processor.
 

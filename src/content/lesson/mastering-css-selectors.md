@@ -6,12 +6,12 @@ date: "2018-01-11"
 tags: ["fale"]
 ---
 
-# **Why Do We Need to Learn about Selectors?**
+## **Why Do We Need to Learn about Selectors?**
 ***
 
 Completing a stylesheet is like having a little war between selectors, – you are constantly overriding previously defined styles with new ones:
 
-```html
+```css
 //You first say that you want all the H2 tags to be font-size: 14px
 h2{
     font-size: 14px;
@@ -30,25 +30,25 @@ This happens all the time and at some point it can be challenging to override pr
 These very specific selectors will help you a lot.  They will be your best tool when fighting your styles war!
 
 [[info]]
-| :tv:[Here is a super cool video (3:40 min) explaining specificity.](https://www.youtube.com/watch?v=In78mSOHmls)
+| :tv: &nbsp;[Here is a super cool video (3:40 min) explaining specificity.](https://www.youtube.com/watch?v=In78mSOHmls)
 
-# **The Child Selector**
+## **The Child Selector**
 ***
 
-```html
+```css
 #someDiv > p {
     color: blue;
 }
 ```
 
-This statement takes the paragraph tags that are children of the div and turns them blue.  Note that it only works for the children of that div – not necessarily for all of the descendants.  Let’s explore this further with the following example.
+This statement takes the paragraph tags that are children of the div and turns them blue.  Note that it only works for the *children* of that div – not necessarily for all of the descendants.  Let’s explore this further with the following example.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-# **The Adjacent Sibling Selector**
+## **The Adjacent Sibling Selector**
 ***
 
-```html
+```css
 p + p {
     color: red;
 }
@@ -62,10 +62,10 @@ The first paragraph in the list is preceded by the div, so it isn’t changed.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-# **The Almighty Asterisk**
+## **The Almighty Asterisk**
 ***
 
-```html
+```css
 #someDiv * {
     color: red;
 }
@@ -73,8 +73,10 @@ The first paragraph in the list is preceded by the div, so it isn’t changed.
 
 The following turns every element inside a div red – this includes items like links that have a default color set to something else and wouldn’t be affected by simply targeting the div.
 
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/79254pm6/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-```html
+
+```css
 div * p {
     color: red;
 }
@@ -82,20 +84,22 @@ div * p {
 
 You can take this as far as you want – the following targets the "great grandchildren" of the div.  You will find this chaining method used frequently in CSS debugging tricks.
 
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 # **Attribute Value Selector**
 ***
 
-```html 
+```css
 a[href='http://4geeksacademy.com/'] {color: blue;}
 ```
 If we want to change the font color of the "Design Shack" link, we could use :pseudo selectors.  However, doing so would assume that the list stays in that order, and, browser support isn’t the best.  Instead, what we can do is use an attribute selector to target the specific "href" that we’re interested in.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/4bv9jw2L/12/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-# **Arbitrary Substring Attribute Value Selector**
+## **Arbitrary Substring Attribute Value Selector**
 ***
 
-```html 
+```css
 div[id*='section'] {color: red;}
 ```
 The following code targets any div with the word "section" in the title.  It can be "section3" or "section-Four" – it doesn’t matter.  As long as it contains the indicated string, the subsequent styles will apply.
@@ -106,8 +110,8 @@ The following code targets any div with the word "section" in the title.  It can
 ***
 
 
-## Link-related pseudo selectors 
-```html
+### Link-related pseudo selectors 
+```css
 a:link{color: green;}
 a:visited{color: yellow;}
 a:hover{color: blue;}
@@ -115,16 +119,16 @@ a:active{color: red;}
 ```
 You can change colors in any element on the website, depending on its status:
 
-+ :link will be the default.
-+ :visited is self explanatory.
-+ :hover is when the mouse is over.
-+ :active is when the mouse is clicking on it.
++ `:link` will be the default.
++ `:visited` is self explanatory.
++ `:hover` is when the mouse is over.
++ `:active` is when the mouse is clicking on it.
   
   <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
   
-## Input-related pseudo selectors 
+### Input-related pseudo selectors 
 
-```html
+```css
 input{padding: 5px;}
 input:disabled{
     background: #ddd;
@@ -139,55 +143,55 @@ It is very important to take enough time to style our forms.  Styling is the bes
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-## Position-based pseudo selectors 
+### Position-based pseudo selectors 
 
-```html 
+```css
 #myUL li:first-child{background: blue;}
 #myUL li:nth-child(3){background: orange;}
 #myUL li a:first-of-type{background: green;}
 ```
 You can apply styles to elements based on their position.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ykpbo47c/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/0nzat2h8/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-## Here is a list of the most used Pseudo-Classes:
+### Here is a list of the most used Pseudo-Classes:
 
 |**Selector**   |**Example**   |**Example description**   |
 |:--------------|:-------------|:-------------------------|
-|[:active](https://breatheco.de/cssref/sel_active.asp)   |a:active   |Selects the active link   |
-|[:checked](https://breatheco.de/cssref/sel_checked.asp)   |input:checked   |Selects every checked `<input>` element   |
-|[:disabled](https://breatheco.de/cssref/sel_disabled.asp)   |input:disabled   |Selects every disabled `<input>` element   |
-|[:empty](https://breatheco.de/cssref/sel_empty.asp)   |p:empty   |Selects every `<p>` element that has no children   |
-|[:enabled](https://breatheco.de/cssref/sel_enabled.asp)   |input:enabled   |Selects every enabled `<input>` element   |
-|[:first-child](https://breatheco.de/cssref/sel_firstchild.asp)   |	p:first-child   |Selects every `<p>`element that is the first child of its parent   |
-|[:first-of-type](https://breatheco.de/cssref/sel_first-of-type.asp)   |p:first-of-type   |Selects every `<p>` element that is the first `<p>` element of its parent   |
-|[:focus](https://breatheco.de/cssref/sel_focus.asp)   |input:focus   |Selects the `<input>` element that has focus   |
-|[:hover](https://breatheco.de/cssref/sel_hover.asp)   |	a:hover   |Selects links on mouse over   |
-|[:in-range](https://breatheco.de/cssref/sel_in-range.asp)   |input:in-range   |Selects `<input>` elements with a value within a specified range	   |
-|[:invalid](https://breatheco.de/cssref/sel_invalid.asp)   |input:invalid   |Selects all `<input>` elements with an invalid value   |
-|[:lang(language)](https://breatheco.de/cssref/sel_lang.asp)   |p:lang(it)   |Selects every `<p>` element with a lang attribute value starting with "it"   |
-|[:last-child](https://breatheco.de/cssref/sel_last-child.asp)   |p:last-child   |Selects every `<p>` element that is the last child of its parent   |
-|[:last-of-type](https://breatheco.de/cssref/sel_last-of-type.asp)   |	p:last-of-type   |Selects every `<p>` element that is the last `<p>` element of its parent   |
-|[:link](https://breatheco.de/cssref/sel_link.asp)  |a:link   |Selects all unvisited links   |
-|[:not(selector)](https://breatheco.de/cssref/sel_not.asp)   |:not(p)   |Selects every element that is not a `<p>` element
-|[:nth-child(n)](https://breatheco.de/cssref/sel_nth-child.asp)   |	p:nth-child(2)   |Selects every `<p>` element that is the second child of its parent   |
-|[:nth-last-child(n)](https://breatheco.de/cssref/sel_nth-last-child.asp)   |p:nth-last-child(2)   |Selects every `<p>` element that is the second child of its parent, counting from the last child   |
-|[:nth-last-of-type(n)](https://breatheco.de/cssref/sel_nth-last-of-type.asp)   |p:nth-last-of-type(2)   |Selects every `<p>` element that is the second `<p>` element of its parent, counting from the last child   |
-|[:nth-of-type(n)](https://breatheco.de/cssref/sel_nth-of-type.asp)   |p:nth-of-type(2)   |Selects every `<p>` element that is the second `<p>` element of its parent   |
-|[:only-of-type](https://breatheco.de/cssref/sel_only-of-type.asp)   |p:only-of-type   |Selects every `<p>` element that is the only `<p>` element of its parent   |
-|[:only-child](https://breatheco.de/cssref/sel_only-child.asp)   |p:only-child   |Selects every `<p>` element that is the only child of its parent   |
-|[:optional](https://breatheco.de/cssref/sel_optional.asp)   |input:optional   |Selects `<input>` elements with no “required” attribute   |
-|[:out-of-range](https://breatheco.de/cssref/sel_out-of-range.asp)   |input:out-of-range   |Selects `<input>` elements with a value outside a specified range   |[:read-only](https://breatheco.de/cssref/sel_read-only.asp)   |input:read-only   |Selects `<input>` elements with a “readonly” attribute specified   |
-|[:read-write](https://breatheco.de/cssref/sel_read-write.asp)   |input:read-write   |Selects `<input>` elements with no "readonly" attribute   |
-|[:required](https://breatheco.de/cssref/sel_required.asp)   |input:required   |Selects `<input>` elements with a "required" attribute specified   |
-|[:root](https://breatheco.de/cssref/sel_root.asp)   |root	   |Selects the document’s root element   |
-|[:target](https://breatheco.de/cssref/sel_target.asp)   |#news:target   |Selects the current active #news element (clicked on a URL containing that anchor name)   |
-|[:valid](https://breatheco.de/cssref/sel_valid.asp)   |input:valid   |Selects all `<input>` elements with a valid value   |
-|[:visited](https://breatheco.de/cssref/sel_visited.asp)   |a:visited   |Selects all visited links   |
+|[:active](https://www.w3schools.com/cssref/sel_active.asp)   |a:active   |Selects the active link   |
+|[:checked](https://www.w3schools.com/cssref/sel_checked.asp)   |input:checked   |Selects every checked `<input>` element   |
+|[:disabled](https://www.w3schools.com/cssref/sel_disabled.asp)   |input:disabled   |Selects every disabled `<input>` element   |
+|[:empty](https://www.w3schools.com/cssref/sel_empty.asp)   |p:empty   |Selects every `<p>` element that has no children   |
+|[:enabled](https://www.w3schools.com/cssref/sel_enabled.asp)   |input:enabled   |Selects every enabled `<input>` element   |
+|[:first-child](https://www.w3schools.com/cssref/sel_firstchild.asp)   |	p:first-child   |Selects every `<p>`element that is the first child of its parent   |
+|[:first-of-type](https://www.w3schools.com/cssref/sel_first-of-type.asp)   |p:first-of-type   |Selects every `<p>` element that is the first `<p>` element of its parent   |
+|[:focus](https://www.w3schools.com/cssref/sel_focus.asp)   |input:focus   |Selects the `<input>` element that has focus   |
+|[:hover](https://www.w3schools.com/cssref/sel_hover.asp)   |	a:hover   |Selects links on mouse over   |
+|[:in-range](https://www.w3schools.com/cssref/sel_in-range.asp)   |input:in-range   |Selects `<input>` elements with a value within a specified range	   |
+|[:invalid](https://www.w3schools.com/cssref/sel_invalid.asp)   |input:invalid   |Selects all `<input>` elements with an invalid value   |
+|[:lang(language)](https://www.w3schools.com/cssref/sel_lang.asp)   |p:lang(it)   |Selects every `<p>` element with a lang attribute value starting with "it"   |
+|[:last-child](https://www.w3schools.com/cssref/sel_last-child.asp)   |p:last-child   |Selects every `<p>` element that is the last child of its parent   |
+|[:last-of-type](https://www.w3schools.com/cssref/sel_last-of-type.asp)   |	p:last-of-type   |Selects every `<p>` element that is the last `<p>` element of its parent   |
+|[:link](https://www.w3schools.com/cssref/sel_link.asp)  |a:link   |Selects all unvisited links   |
+|[:not(selector)](https://www.w3schools.com/cssref/sel_not.asp)   |:not(p)   |Selects every element that is not a `<p>` element
+|[:nth-child(n)](https://www.w3schools.com/cssref/sel_nth-child.asp)   |	p:nth-child(2)   |Selects every `<p>` element that is the second child of its parent   |
+|[:nth-last-child(n)](https://www.w3schools.com/cssref/sel_nth-last-child.asp)   |p:nth-last-child(2)   |Selects every `<p>` element that is the second child of its parent, counting from the last child   |
+|[:nth-last-of-type(n)](https://www.w3schools.com/cssref/sel_nth-last-of-type.asp)   |p:nth-last-of-type(2)   |Selects every `<p>` element that is the second `<p>` element of its parent, counting from the last child   |
+|[:nth-of-type(n)](https://www.w3schools.com/cssref/sel_nth-of-type.asp)   |p:nth-of-type(2)   |Selects every `<p>` element that is the second `<p>` element of its parent   |
+|[:only-of-type](https://www.w3schools.com/cssref/sel_only-of-type.asp)   |p:only-of-type   |Selects every `<p>` element that is the only `<p>` element of its parent   |
+|[:only-child](https://www.w3schools.com/cssref/sel_only-child.asp)   |p:only-child   |Selects every `<p>` element that is the only child of its parent   |
+|[:optional](https://www.w3schools.com/cssref/sel_optional.asp)   |input:optional   |Selects `<input>` elements with no "required" attribute   |
+|[:out-of-range](https://www.w3schools.com/cssref/sel_out-of-range.asp)   |input:out-of-range   |Selects `<input>` elements with a value outside a specified range   |[:read-only](https://www.w3schools.com/cssref/sel_read-only.asp)   |input:read-only   |Selects `<input>` elements with a "readonly" attribute specified   |
+|[:read-write](https://www.w3schools.com/cssref/sel_read-write.asp)   |input:read-write   |Selects `<input>` elements with no "readonly" attribute   |
+|[:required](https://www.w3schools.com/cssref/sel_required.asp)   |input:required   |Selects `<input>` elements with a "required" attribute specified   |
+|[:root](https://www.w3schools.com/cssref/sel_root.asp)   |root	   |Selects the document’s root element   |
+|[:target](https://www.w3schools.com/cssref/sel_target.asp)   |#news:target   |Selects the current active #news element (clicked on a URL containing that anchor name)   |
+|[:valid](https://www.w3schools.com/cssref/sel_valid.asp)   |input:valid   |Selects all `<input>` elements with a valid value   |
+|[:visited](https://www.w3schools.com/cssref/sel_visited.asp)   |a:visited   |Selects all visited links   |
 
 
 [[info]]
-| :point_up:This is a great reading about CSS Selectors: [The 30 CSS selectors you must memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+|:link: This is a great reading about CSS Selectors: [The 30 CSS selectors you must memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 
 
 

@@ -145,7 +145,7 @@ The most frequent tags used inside the `<body>` of an HTML document are:
 |Paragraph   |P   |This tag separates the text content with an upper and lower margin.  It simulates the behavior of a Word document.`<p>example of a paragraph</p>`   |
 |List   |UL, OL   |Lists are of huge importance in a document as they are widely used.  With HTML we have two main tags to list any content items:<br><br> <li>OL: List with numbers (numbers at the beginning of the item)</li><br><li>UL: List without numbers (bullets in front of the items).<br><br>`<ol>`<br>`<li>Element 1</li>`<br>`<li>Element 2</li>`<br>`</ol>`   |
 |Image  |img   |It allow us to add images to the document (they could be PNG, JPEG, GIF and SVG, basically) .<br>`<img src="url of the image"/>`
-|Link (Anchor)   |a   |Sometimes we want to connect one or more pages with another one, or send the user to a new page, or even send the user to another section within the same page (just as with the Menu of this course).  That’s what the “Anchor” tag is made for.<br>`<a href="url to resend">this is a heading</a>`   |
+|Link (Anchor)   |a   |Sometimes we want to connect one or more pages with another one, or send the user to a new page, or even send the user to another section within the same page (just as with the Menu of this course).  That’s what the "Anchor" tag is made for.<br>`<a href="url to resend">this is a heading</a>`   |
 |Bold   |strong o b   |To highlight a text using bold.<br>`<strong>this is a heading</strong>`   |
 |Italics   |i   |To have the text in italics.<br>`<i>this is a heading</i>`   |
 |Line jump   |br   |To jump or skip the text to the line (similar to a `shift+enter` in MS Word.)<br>`<br></br>`   |
@@ -157,10 +157,10 @@ We already know each `<tag>` behavior.  Thanks to the tags, we can change the le
 
 If you wish to further specify how the behavior of a specific tag should be, you can use its attributes.  To place them, you must write the corresponding attribute in the opening tag, like this:
 ```html
-<img src=”http://www.mydomain.com/myimage.png” \>
+<img src="http://www.mydomain.com/myimage.png" \>
 ```
 
-In this case, we are assigning the “src” property to the `<img>` tag which will indicate the path of the image to be displayed in this container.
+In this case, we are assigning the "src" property to the `<img>` tag which will indicate the path of the image to be displayed in this container.
 
 Each tag has its own properties – you do not have to memorize them, you will always find them quickly over the Internet – but, it is good that you know the most important ones so that you have them ready in your mind at any time.
 

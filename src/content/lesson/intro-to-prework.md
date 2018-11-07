@@ -21,7 +21,7 @@ So, we came up with this online platform.  These contents will guide you through
 
 You want to learn what will be the most wanted skill for the next 30 years, but you don’t want to read at all – we get it.
 
-We have made a huge effort in summing things up.  Everything you’ll find here will be the bedrock of your skills.  There is nothing to “skip over.”  Your journey has already begun and you can’t miss anything.  We will follow every step of your learning path.  The Pre-Work is probably the most important phase to your becoming a web developer.  Here you will understand the foundation of your skills and you will learn to love it like we do!
+We have made a huge effort in summing things up.  Everything you’ll find here will be the bedrock of your skills.  There is nothing to "skip over."  Your journey has already begun and you can’t miss anything.  We will follow every step of your learning path.  The Pre-Work is probably the most important phase to your becoming a web developer.  Here you will understand the foundation of your skills and you will learn to love it like we do!
 
 <p style="text-align:center">
     <img class="my-class" src="https://breatheco.de/wp-content/uploads/2017/01/short-attention-meme1.jpg" width="300">
