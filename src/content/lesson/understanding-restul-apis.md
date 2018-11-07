@@ -45,12 +45,12 @@ REST works over HTTP – that means that everything is text based.  It uses the 
 |GET          |Used to read state from the server.  Being a **safe** operation, it can be executed multiple times without risk of data modification or corruption – calling it once has the same effect as calling it ten times.      |
 |POST        |The REST purists use post only for creation.  That means that every-time you POST something into an API, you will be creating a new record in the database for that.  Some API’s use POST for all the writing operations (delete, update and create).  They do so because PUT and DELETE are not available in HTML/Forms and that makes those methods harder to use.      |
 |PUT      |This is most used to update state on the server; although it can also be used to create state.       |
-|DELETE     |Used to delete data on the serv      |
+|DELETE     |Used to delete data on the server      |
 
 
 ### Response Status Codes
 
-he [HTTP status codes](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) provide metadata in the response to the state of the requested resources.  They are part of what makes the Web a platform for building distributed systems.  They are divided into the following categories:
+The [HTTP status codes](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) provide metadata in the response to the state of the requested resources.  They are part of what makes the Web a platform for building distributed systems.  They are divided into the following categories:
 
 + `1xx` – Metadata
 + `2xx` – Everything is fine

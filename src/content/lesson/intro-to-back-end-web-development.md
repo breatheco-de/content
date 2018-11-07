@@ -22,7 +22,7 @@ All the work was done by the server: since there was no JavaScript, the DOM coul
 
 Along with the generated document content, the server can also specify what type of content is responding, allowing the browser to read and interpret the response in an accurate way.  The response formats available can be hundreds, but this are the most common:
 
-#### Server Response Content-Types
+### Server Response Content-Types
 
 |**Content-type**   |**Description**   |
 |:------------------|:-----------------|
