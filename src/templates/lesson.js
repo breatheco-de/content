@@ -18,7 +18,7 @@ export default ({ data }) => {
         <Cover 
           title={post.frontmatter.title} 
           subtitle={post.frontmatter.subtitle}
-          time={post.frontmatter.time}
+          time={post.fields.readingTime.text}
         />
         <div className="post lesson">
           {renderAst(post.htmlAst)}
@@ -36,6 +36,12 @@ export const query = graphql`
         title
         subtitle
         time
+      }
+      fields {
+        slug
+        readingTime {
+          text
+        }
       }
     }
   }
