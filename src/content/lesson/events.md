@@ -1,7 +1,7 @@
 ---
 title: "Events"
 subtitle: "All the front-end applications have a map of events: website load, user click, window resize, etc. As a developer, you have to make sure that your applications have a flow. That flow is determined by all the possible events that can occur as the user interacts with your app."
-time: "8 minutes"
+
 date: "2018-05-11"
 tags: ["fale"]
 ---
@@ -17,7 +17,7 @@ An event is something that happens!  Like **clicking** on a button, **pressing**
 
 Your job as a developer is to prepare for those events and **define the functions** that are going to be handling those events.
 
-![events1](https://ucarecdn.com/e395d8e4-1e1e-4c25-aff9-ebf56023d41c/-/resize/600x/)
+![events1](https://ucarecdn.com/e395d8e4-1e1e-4c25-aff9-ebf56023d41c/)
 
 ### But who Triggers these Events?
 
@@ -42,9 +42,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 |Mousedown or Mouseup     |If the user presses or releases the mouse.    |
 
 
-[[demo]]
-| :point_up:Check out a live demo of [mouse events.](https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/mouse.html)
-
+<iframe width="100%" height="300" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/mouse.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### FRAME – Events
 
@@ -56,10 +54,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 |PageHide<br>PageShow    |When the user focuses in a different window/tab; or when the user comes back from a different window/tab.     |
 |Resize    |When the window is resized.      |
 
-
-[[demo]]
-| :point_up:Check out a live demo of [frame events.](https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/frame.html)
-
+<iframe width="100%" height="300" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/frame.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### FORMS – Events 
 
@@ -71,8 +66,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 |Change       |The event occurs when the content of a form element, the selection, or the checked state have changed (for `<input>`, `<keygen>`, `<select>`, and `<textarea>`)
      |
 
-[[demo]]
-| :point_up:Check out a live demo of [form events.](https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/forms.html)
+<iframe width="100%" height="300" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/forms.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### KEYBOARD – Events
 
@@ -82,8 +76,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 |Keydown	     |When the user presses the keyboard key.    |
 |Keypress       |When the user presses and release the keyboard key.  The difference from keydown/up is that Keypress only works on character keys.  For example, it does not work on the up|down|left|right arrows.     |
 
-[[demo]]
-| :point_up:Check out a live demo of [keyboard events.](https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/keyboard.html)
+<iframe width="100%" height="300" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/keyboard.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 
 [[info]]
@@ -96,7 +89,7 @@ Now that you know what events are out there, you can start listening them whenev
 
 Let’s repeat: To **react** you need to **listen…** And to listen you need to specify a **handler** function.
 
-![events2](https://ucarecdn.com/91b831bf-cac1-4feb-a49e-c9c1064b5308/-/resize/200x/)
+![events2](https://ucarecdn.com/91b831bf-cac1-4feb-a49e-c9c1064b5308/)
 
 You can add an event listener in 2 different ways:
 
@@ -116,7 +109,7 @@ function myClickHandler(){
 </script>
 ```
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/e6zcm0sp/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/kpt1jz3m/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ## Adding Listeners from JavaScript (during runtime)
 ***
@@ -125,20 +118,17 @@ Sometimes the DOM element doesn’t exist from the beginning.  Maybe they are cr
 
 The .addEventListener function is perfect for this because it can be used in any DOM element during runtime.
 
-```javascript
+
 Sometimes the DOM element doesn’t exist from the beginning.  Maybe they are created after a database call or after the user did something.  To solve that problem, you need to start listening after the new elements are created.
 
 The .addEventListener function is perfect for this because it can be used in any DOM element during runtime.
-```
+
 
 When using the addEventListener function, you have to specify what **event** you want to listen to, and **the handler function** that will be called every time that event is triggered on that DOM element.
 
 For example, this code is creating a list of names and each delete anchor in each row is listening to the "click" event – but only for that row.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/h6ajx458/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-
-[[demo]]
-| :point_up:Play with this code by [clicking here.](https://repl.it/FiXG/5)
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/kg5rfqud/4/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ##  The Event Object
 ***
@@ -213,8 +203,6 @@ In this code, we are adding an event listener to the click event.  Afterwards, t
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ea28stfd/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 
-[[demo]]
-| :point_up:Play with this code by [clicking here.](https://repl.it/@4GeeksAcademy/Remove-event-listener)
 
 
 

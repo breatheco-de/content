@@ -5,7 +5,7 @@ subtitle: "As you may have noticed, HTML allows you to create only basic website
 Nobody wants to see a white website with some horrible text on it.  
 
 it's time to make your website beautiful. It's CSS time!."
-time: "10 minutes"
+
 date: "2018-31-10"
 tags: ["fale"]
 ---

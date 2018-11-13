@@ -1,7 +1,7 @@
 ---
 title: "The DOM"
 subtitle: "The only way to interact with your code is throughout The DOM. It is a hierarchy stored in memory that contains all of your website elements in real-time. DOM Manipulation is the most popular activity for any front-end developer. The DOM brings your applications to life!"
-time: "8  minutes"
+
 date: "2018-05-15"
 tags: ["fale"]
 ---
@@ -41,9 +41,6 @@ It does not matter where you write the code.  The only thing that matters is tha
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-
-[[demo]]
-| :point_up: For live demos See this code live here: https://repl.it/FacP/2
 
 ## The DOM is Spectacular!
 ***
@@ -130,10 +127,6 @@ trArray[3].style.background = "red";
 ```
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-
-
-[[demo]]
-| :point_up: Edit and play with this code by [clicking here.](https://repl.it/@4GeeksAcademy/CSS-Query-Selector)
 
 ## The innerHTML
 ***

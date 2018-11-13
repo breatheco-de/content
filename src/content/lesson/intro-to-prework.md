@@ -2,7 +2,7 @@
 title: "Intro to Pre Work"
 subtitle: "We know what we are doing, you should know too. 
 Learn the process we have polished to make you learn 2 years of content in just a few weeks."
-time: "5 minutes"
+
 date: "2017-10-22"
 tags: ["fale"]
 ---

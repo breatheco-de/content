@@ -1,7 +1,7 @@
 ---
 title: "Intro to Front-End Web Development"
 subtitle: "Front-end is all about using the power of code to generate HTML and CSS dynamically. Let the computer code while you sleep."
-time: "3 minutes"
+
 date: "2018-05-11"
 tags: ["fale"]
 ---

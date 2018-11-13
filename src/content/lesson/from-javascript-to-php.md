@@ -1,6 +1,6 @@
 ---
 title: "From Javascript to PHP"
-time: "10 minutes"
+
 date: "2018-31-10"
 tags: ["fale"]
 ---
@@ -10,7 +10,7 @@ tags: ["fale"]
 
 PHP iss one of the most used back-end languages in the web.  In terms of functionality, it lets you do pretty much what any other back-end language lets you.  The syntax is pretty similar to JavaScript, and its biggest strength is the community – you can find tutorials and documentation for everything you do.
 
-PHP has proven to be a great survivor: 82% of the web uses PHP.  Is the second language with the most interest from Google.  [In a stack-overflow 2015 developer survey](https://insights.stackoverflow.com/survey/2015), PHP was the most popular language amongst PHP, Ruby, Nodejs and Python.  PHP Frameworks are phenomenal: [Laravel](https://laravel.com/), Phpixie, etc.
+PHP has proven to be a great survivor: 82% of the web uses PHP.  Is the second language with the most interest from Google.  [In a stack-overflow 2018 developer survey](https://insights.stackoverflow.com/survey/2018), PHP was the most popular language amongst PHP, Ruby, Nodejs and Python.  PHP Frameworks are phenomenal: [Laravel](https://laravel.com/), Phpixie, etc.
 
 ## JavaScript vs PHP
 ***
@@ -39,7 +39,7 @@ There are only a few differences – here is the explanation:
 
 Console.log is amazing in JS, but in PHP, you will have to use echo for simple data-types, and print_r to print more complex data-types (like arrays and objects).
 
-`With JavaScript`
+#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With JavaScript
 
 ```javascript
 var simpleValue = ‘hello’;
@@ -75,7 +75,7 @@ PHP started as a functional-programming language and still has a lot of things t
 
 ### **Looping Arrays**
 
-`With JavaScript`
+#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With JavaScript
 
 ```javascript
 for(var i = 0; i<myArray.length; i++){
@@ -100,7 +100,8 @@ print_r($value);
 
 ### **Adding and Removing Items**
 
-`With javascript`
+#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With JavaScript
+
 ```javascript
 var myArray = [‘Academy’, ‘Coding’];
 myArray.push(‘4Geeks’); //Adding an item 
@@ -193,7 +194,7 @@ Array
 
 This is almost identical to the switch statement in JavaScript:
 
-`With JavaScript`
+#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With JavaScript
 
 ```javascript
 favcolor = "red";
@@ -237,7 +238,7 @@ switch (favcolor) {
 
 When working with objects, we have to use the operator "->" instead of "." to access the object properties.
 
-`With JavaScript`
+#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With JavaScript
 
 ```javascript
 var auxCar = new Car();

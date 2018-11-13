@@ -3,7 +3,7 @@ title: "HTML Forms"
 subtitle: "Forms are really easy to understand, and they are the ONLY way to make interactive websites without AJAX.
 
 These very basic concepts represent 90% of everything you will ever need to know about forms."
-time: "3 minutes"
+
 date: "2018-01-11"
 tags: ["fale"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Object Oriented Programming"
 subtitle: "Classes are the last pieces needed to master the programming tricks! Welcome to the amazing world of object-oriented programming."
-time: "10  minutes"
+
 date: "2018-05-11"
 tags: ["fale"]
 ---
@@ -45,7 +45,7 @@ Classes and objects are the two main aspects of object oriented programming.  A 
 
 > Let’s say you have a new car with licence plate XHR-ABM.  That specific object will be the instance of an object with the car class.
 
-![obj1](https://ucarecdn.com/0073f14a-e608-4866-8570-c36c24a362e3/-/resize/800x/)
+![obj1](https://ucarecdn.com/0073f14a-e608-4866-8570-c36c24a362e3/-/resize/700x/)
 
 ## Defining Classes (abstraction)
 ***
@@ -78,7 +78,7 @@ Some properties are calculated during runtime every time we need them.  For exam
 
 ![obj4](https://ucarecdn.com/e025c0b5-40d5-4a7d-9e8c-adc8710cef30/-/resize/400x/)
 
-***
+
 
 ## Lets do our first Class-Diagram!
 ***

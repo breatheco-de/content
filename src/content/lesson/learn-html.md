@@ -3,7 +3,7 @@ title: "Learn HTML"
 subtitle: "HTML is to websites what columns are for buildings. 
 
 Learn the basics of HTML - the foundation of the web."
-time: "12 minutes"
+
 date: "2018-31-10"
 tags: ["fale"]
 ---
@@ -135,7 +135,7 @@ Remember – for the fifteenth time – that a web page is…a text document!  T
 
 Lets see how a website compares to a Word document:
 
-<before-after before="https://ucarecdn.com/3681f907-21eb-4e0e-828e-f7e2690e8942/" after="https://ucarecdn.com/d6648701-2af4-4e2d-890c-17ed222bb66c/" /></before-after>
+<before-after height="400px" before="https://ucarecdn.com/3681f907-21eb-4e0e-828e-f7e2690e8942/" after="https://ucarecdn.com/d6648701-2af4-4e2d-890c-17ed222bb66c/" /></before-after>
 
 The most frequent tags used inside the `<body>` of an HTML document are:
 

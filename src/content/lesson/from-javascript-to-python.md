@@ -1,7 +1,7 @@
 ---
 title: "From Javascript to Python"
 subtitle: "Unleash your power by learning and using one of the Kings of Back-End Development. Now you will be capable of bringing AI, Big Data, Machine Learning, APIs and integrate third party applications into your own."
-time: "10 minutes"
+
 date: "2018-05-11"
 tags: ["fale"]
 ---
@@ -21,25 +21,15 @@ When you compare it to other back-end languages, Python is leading in almost eve
 
 **Here are some of the reasons Python has come to this point:**
 
-### `Simplicity`
 
-Python was meant to be simple and easy.  Here is the Python manifest: https://en.wikipedia.org/wiki/Zen_of_Python
+|**Simplicity**   |**Performance**    |
+|:---------------:|:------------------:|
+|Python was meant to be simple and easy.  Here is the Python manifest:<br>https://en.wikipedia.org/wiki/Zen_of_Python<br><br>**Note:** No more semicolons or curly brackets anymore, or declaring variables, or the confusing "this" functionality.     |Python is faster than Java, PHP, Ruby and 90% of the other backend languages.  Only low level languages like C++ (hard to use) or very specialized like Node.js can beat it.<br><br>Python scalability has been proven over and over with applications like Google Search Engine, Youtube, Google Apps, etc.     |
 
-**Note:** No more semicolons or curly brackets anymore, or declaring variables, or the confusing "this" functionality.
 
-### `Performance`
-
-Python is faster than Java, PHP, Ruby and 90% of the other backend languages.  Only low level languages like C++ (hard to use) or very specialized like Node.js can beat it.
-
-Python scalability has been proven over and over with applications like Google Search Engine, Youtube, Google Apps, etc.
-
-### `Community`
-
-Python is Google’s official language.  It’s also one of the oldest languages with huge communities around each of its libraries\tools.  MIT uses it to teach code.  NASA to build rockets.  Quora, Facebook, Yahoo, Amazon, etc.  Almost every big company in the world has to use it!
-
-### `Tools`
-
-Most of the Python libraries are the best at what they do: [MathLab](https://www.mathworks.com/help/matlab/matlab-engine-for-python.html?requestedDomain=true) (for data processing), [Pandas](https://pandas.pydata.org/) (big data), [Web.py](http://webpy.org/) (web server), [Django](https://www.djangoproject.com/) (web framework), [PyBrain](http://pybrain.org/) (AI), [TensorFlow](https://www.tensorflow.org/) (Machine Learning), etc.  We could be here all day!  The most amazing thing is that these libraries are only one "pip install" away (just like when using NPM with JS).
+|**Community**   |**Tools**    |
+|:---------------:|:------------------:|
+|Python is Google’s official language.  It’s also one of the oldest languages with huge communities around each of its libraries\tools.  MIT uses it to teach code.  NASA to build rockets.  Quora, Facebook, Yahoo, Amazon, etc.  Almost every big company in the world has to use it!      |Most of the Python libraries are the best at what they do: [MathLab](https://www.mathworks.com/help/matlab/matlab-engine-for-python.html?requestedDomain=true) (for data processing), [Pandas](https://pandas.pydata.org/) (big data), [Web.py](http://webpy.org/) (web server), [Django](https://www.djangoproject.com/) (web framework), [PyBrain](http://pybrain.org/) (AI), [TensorFlow](https://www.tensorflow.org/) (Machine Learning), etc.  We could be here all day!  The most amazing thing is that these libraries are only one "pip install" away (just like when using NPM with JS).      |
 
 ## Javascript vs Python
 ***
@@ -96,7 +86,7 @@ var result = int('5') - int('2');
 
 Javascript is so flexible that you don’t have to pay much attention to data types.   Python does not like that… in Python, you will get used to casting variables and converting them in between data-types.
 
-`With Javascript`
+### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/)  With JavaScript
 
 ```javascript
 var result = '5' - '2'; 
@@ -116,7 +106,7 @@ var result = int('5') - int('2');
 
 Python has "print" either for writing into a document or into the console. Remember that, since Python – like any other back-end language – runs before the preload event, it does not have access to the Javascript console.
 
-`With Javascript`
+#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With  JavaScript
 
 ```javascript
 var simpleValue = ‘hello’;
@@ -140,7 +130,7 @@ print(arrayValue); //this will work, printing the content of the array in a form
 
 Finally, in ES2015, Javascript included the "arrow functions."  That is a very easy and light way to declare and use functions.  Python, on the other hand, has something similar called lambda functions that basically let you use little inline anonymous functions as shortcuts.
 
-`With Javascript`
+#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/)  With JavaScript
 
 ```javascript
 //doing a foreach loop in js 
@@ -171,7 +161,7 @@ print(namesArray)
 
 ### **Loopoing list (similar to arrays)**
 
-`With Javascript` 
+#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With  JavaScript
 
 ```javascript
 //doing a foreach loop in js 
@@ -194,9 +184,9 @@ for color in colors:
 
 ### **Adding and Removing Items**
 
-`With Javascript`
+#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/)    With JavaScript
 
-```javascript
+``` With JavaScript
 ar myArray = [‘Academy’, ‘Coding’];
 myArray.push(‘4Geeks’);  //Adding an item  
 //to remove the item in the INDEX position  
@@ -247,7 +237,7 @@ Python brings a new kind of data-type called a "Tuple."  Think about it like a s
 
 ### **Objects**
 
-`With Javascript`
+#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With JavaScript
 
 ```javascript
 //There are two ways of declaring an object 

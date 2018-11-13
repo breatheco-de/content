@@ -3,7 +3,7 @@ title: "Getting to know Bootstrap 4"
 subtitle: "After decades of struggling, one guy had the idea of creating a basic CSS Stylesheet to be used as the base of any website, enabling everyone to do a lot of stuff in just a few lines! 
 
 Today, it is almost stupid, and, also impossible to think about doing a website without a CSS framework like Bootstrap."
-time: "15 minutes"
+
 date: "2018-01-11"
 tags: ["fale"]
 ---

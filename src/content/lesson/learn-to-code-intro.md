@@ -1,7 +1,7 @@
 ---
 title: "Learn to Code Intro"
 subtitle: "Now you don't have to write HTML and CSS (not that much). Learn how to make computers write your code."
-time: "3 minutes"
+
 date: "2017-02-11"
 tags: ["fale"]
 ---

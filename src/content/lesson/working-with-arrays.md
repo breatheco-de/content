@@ -176,7 +176,7 @@ Will return a new array with a smaller version of the original array.  You have 
 
 Will update the current array leaving everything but the smaller version that you want to remove.   You will need to specify the starting and ending indexes from where you want to remove.
 
-![arrays2](https://ucarecdn.com/274989fb-42f9-44bc-a669-d360c69cdc2a/)
+![arrays2](https://ucarecdn.com/274989fb-42f9-44bc-a669-d360c69cdc2a/-/resize/700x/)
 
 <iframe src="https://repl.it/F9V5/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 

@@ -1,7 +1,7 @@
 ---
 title: "Learn to Code in JavaScript"
 subtitle: "Everybody is talking about it and by now you probably know that learning to code will change your life."
-time: "12 minutes"
+
 date: "2018-02-11"
 tags: ["fale"]
 ---
