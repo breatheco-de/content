@@ -11,11 +11,16 @@ By now, you have probably felt how disorganized and difficult working with Javas
 
 Webpack is one of those things you hate the first few times and then you cannot live without for the rest of your life.  For the first time coding, Javascript actually feels amazing, clean and professional!
 
+<before-after 
+    before="https://ucarecdn.com/bc337938-55c4-40e2-a370-5d69bf084a3b/" after="https://ucarecdn.com/41afcd74-81dd-4e6e-98ee-fc2642a07e7f/" />
+
 ### But what is Webpack?
 
 Webpack is this thing that grabs all your application pieces (Files, Images, Fonts, JS, CSS, HTML, etc.) and bundles them into one big file.  That way you can split your application into many parts and then combine them at the end of the coding process.
 
-Then, the browser will be able to request (GET) that one file and display/render the whole website… that’s it!  It’s very similar to what happens with the “.exe” files in windows – all of your application is inside the .exe file, and then you just double-click it.
+Then, the browser will be able to request (GET) that one file and display/render the whole website… that’s it!  It’s very similar to what happens with the ".exe" files in windows – all of your application is inside the .exe file, and then you just double-click it.
+
+![webpack1](https://ucarecdn.com/bdd432f7-adef-4023-976e-1ebd6abe70f7/)
 
 ### But why do I care about Bundling?
 
@@ -25,8 +30,8 @@ But that is only the beginning, because, now that Webpack has control over the w
 
 + Now you don’t have to care about browser compatibility, AND Webpack will translate your code to make it compatible with any version.
 + It can minify and compress your code making your application up to 80% smaller.
-+ It lets you use better non-official versions of some of the languages (like SASS, HAML or Typescript) that are amazing but not supported by browsers.
-+ It integrates with NPM: a huge database of free libraries available for any developer.
++ It lets you use better non-official versions of some of the languages (like [SASS](http://sass-lang.com/), [HAML](http://haml.info/) or [Typescript](https://www.typescriptlang.org/)) that are amazing but not supported by browsers.
++ It integrates with [NPM](https://www.npmjs.com/): a huge database of free libraries available for any developer.
 + A ton more.
   
 The list is endless – we better continue or we’ll be here all day 🙂
@@ -50,7 +55,7 @@ npm install --save-dev webpack
 
 That is it!  You finally have Webpack but now we have to specify how it should build our application (create the bundle).
 
-### 2. Webpack has one big file called “webpack.config.js” that you have to create and maintain in order to be able to control your bundling process.
+### 2. Webpack has one big file called "webpack.config.js" that you have to create and maintain in order to be able to control your bundling process.
 
 Create a webpack.config.js file in your root directory and fill it with the following base code:
 
@@ -73,11 +78,11 @@ As you can see, the module object is not declared anywhere, but don’t worry ab
 Your job is to specify at least the following properties inside of the module.exports object:
 
 
-|entry     |Here you have to specify the path to your “index.js”, the first Javascript file that will run when your website is loaded. Of course, you have to create that index.js file as well later.       |
+|entry     |Here you have to specify the path to your "index.js", the first Javascript file that will run when your website is loaded. Of course, you have to create that index.js file as well later.       |
 |:---------------|:------------------|
-|output       |Here you have to specify two things:<br><br><li>**path:**  The folder where the bundle will be created, it’s normally called “dist” or “public.”  All your application public files will be here.</li><br><li>**filename:**  The name of your bundle file created by Webpack that will contain all the code.</li>      |
+|output       |Here you have to specify two things:<br><br><li>**path:**  The folder where the bundle will be created, it’s normally called "dist" or "public."  All your application public files will be here.</li><br><li>**filename:**  The name of your bundle file created by Webpack that will contain all the code.</li>      |
 
-### 3. In order to include other files rather than JS, we have to install “loaders” – specific npm libraries – and update your webpack.config.js
+### 3. In order to include other files rather than JS, we have to install "loaders" – specific npm libraries – and update your webpack.config.js
 
 For example, if we want to include CSS files in our bundle, we have to use the following command inside our index.js file:
 
@@ -115,9 +120,9 @@ module.exports = {
 };
 ```
 
-Above, we are telling Webpack that the css-loader will load any imported “.css” file into our bundle and the style-loader will know how to include it depending on the size (using a style tag probably).
+Above, we are telling Webpack that the css-loader will load any imported ".css" file into our bundle and the style-loader will know how to include it depending on the size (using a style tag probably).
 
-### 4.4) You can install other loaders or amazing plugins
+### 4) You can install other loaders or amazing plugins
 
 From here on, it’s up to you – just keep installing plugins and learning how to configure them in your webpack.config.js file. [Here is a more detailed list of awesome plugins you can use:](https://github.com/webpack-contrib/awesome-webpack)
 

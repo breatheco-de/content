@@ -6,7 +6,7 @@ date: "2018-13-11"
 tags: ["fale"]
 ---
 
-## What is a “User Story”?
+## What is a "User Story"?
 ***
 
 <iframe width="1185" height="667" src="https://www.youtube.com/embed/LGeDZmrWwsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -15,7 +15,7 @@ The hardest thing to do in software is not coding – it is designing the system
 
 **What is a Feature?** It is a functionality that the application has!  For example: sign-up, sign-in, vote, buy, etc.
 
-Describing a feature seems easy, but it can be challenging:  Where should you start?  How detailed should it be?  How technical can you be?  But, don’t worry…”user stories” have come to the rescue!
+Describing a feature seems easy, but it can be challenging:  Where should you start?  How detailed should it be?  How technical can you be?  But, don’t worry…"user stories" have come to the rescue!
 
 User stories have become very popular as a feature-based-documentation-standard because they cut all the fat from the process.  The are straightforward, easy to understand by everyone involved (not just the developers), and easy to test.
 
@@ -47,15 +47,15 @@ Let’s look at another example:
 
 > As an **account owner**, I can **check my balance online** so that **I can keep a daily balance 24 hours a day.**
 
-Pretty easy right?  However, in some instances we find that the “so that” suffix reads redundantly, so go ahead and make that optional, if you wish.
+Pretty easy right?  However, in some instances we find that the "so that" suffix reads redundantly, so go ahead and make that optional, if you wish.
 
-> As an account owner, I can check my balance online.
+> As an **account owner**, I can **check my balance online**.
 
 Feel free to use slight deviations of this template using synonyms:
 
-+ As a [role], I want [feature] because [reason]
-+ As a [role], I can [feature]
-+ As a [role], I can [feature] so that [reason]
++ **As a [role], I want [feature] because [reason]**
++ **As a [role], I can [feature]**
++ **As a [role], I can [feature] so that [reason]**
 
 ### Tools for Writing User Stories
 
@@ -63,22 +63,26 @@ There are millions of tools; we have Googled some: [click here to access. ](http
 
 ### Use Index Cards and a Sharpie
 
-The theory is simple – if you use any larger than a 3″ x 5″ index card, you will write too much.  Likewise, if you use anything smaller than a marker (such as a ball point pen) – you will write too much.
+![us1](https://ucarecdn.com/94f4a28c-a93c-4e05-9f86-ce64abc2ff7b/-/resize/400x/)
+
+The theory is simple – if you use any larger than a 3" x 5" index card, you will write too much.  Likewise, if you use anything smaller than a marker (such as a ball point pen) – you will write too much.
 
 User stories are suppose to be short and sweet.  They are suppose to aid in further communication and not tell the entire long-winded version of the story.  Sticking to these physical constraints will help.
 
-At the end you will have a huge “to-do list,” with the user stories moving from “To-do” to “Doing” and, finally, to “Done.”  Each story will be assigned to one developer at the beginning of each planning meeting.
+At the end you will have a huge "to-do list," with the user stories moving from "To-do" to "Doing" and, finally, to "Done."  Each story will be assigned to one developer at the beginning of each planning meeting.
 
-### When is a Story really “Done”?
+![us2](https://ucarecdn.com/faaa70b0-5343-43f0-8565-994c9b40ab8b/-/resize/400x/)
 
-If user stories are short and sweet – how are we suppose to know all the different acceptance criteria?  On the back of each story we will have to enter some “acceptance criteria” that we can check at the end when the developer thinks the feature is done.
+### When is a Story really "Done"?
+
+If user stories are short and sweet – how are we suppose to know all the different acceptance criteria?  On the back of each story we will have to enter some "acceptance criteria" that we can check at the end when the developer thinks the feature is done.
 
 To write great acceptance criteria, we need to think not only about the usual expected behavior in the application, but also about any cases where the app should fail (for example: When you specify a wrong password, when your credit card is rejected, etc.).
 
 ##### For Example:
 
 **User Story:**
-“As a music lover I want to be able to pay for my album with my VISA card”
+"As a music lover I want to be able to pay for my album with my VISA card"
 
 **Examples of Acceptance Criteria (specific for this story):**
 

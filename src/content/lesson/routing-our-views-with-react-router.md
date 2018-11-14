@@ -23,7 +23,7 @@ $ npm install --save react-router
 
 Stop reading if you are not building entire applications using React – you don’t need React-Router for single page applications or small components.
 
-For the rest of us building real web applications, we need to connect several views (React components) into one big application. That process is called “routing.”
+For the rest of us building real web applications, we need to connect several views (React components) into one big application. That process is called "routing."
 
 For example, we need the following application URLs to match the following components:
 
@@ -46,6 +46,8 @@ What pages/views do you want your app to have? You can always start with the bas
 + Login/Signup/Forgot: A login form and signup form and the password remind form.
 + Private: What your private users view right after they login.
 The rest of the pages depend on your application and on how you want your users to navigate through your site.
+
+![routing1](https://ucarecdn.com/205cd2de-dfae-4712-a5e4-1c922994e60d/-/resize/700x/)
 
 ## Mapping your Views to URLs
 ***
@@ -113,7 +115,7 @@ There are 3 components to understand here:
 <Route exact path="/sign-up" component={Signup} />
 ```
 
-his route is telling React that when the URL matches “sign-up,” the component Signup should display.
+his route is telling React that when the URL matches "sign-up," the component Signup should display.
 
 ## Anchors `<a>` are now a Problem
 ***
@@ -130,7 +132,7 @@ React Router created a component that we can use instead of `<a>`
 
 ### 2. Using this.props.history.push(‘new/url/here’);
 
-   React Router always passes each view a prop called “history” that contains a lot of useful stuff to use when routing users.  One of the many useful utilities is the “push” function that basically redirects the user to the given path.
+   React Router always passes each view a prop called "history" that contains a lot of useful stuff to use when routing users.  One of the many useful utilities is the "push" function that basically redirects the user to the given path.
 
 ```html
 <button onClick={() => this.props.history.push("/login")}>Take me to login</button>

@@ -21,7 +21,9 @@ If you are still not comfortable with looping, please talk to your instructor to
 
 Instead of developing a big application, you will develop and deliver a series of small applications that in the end will become a big application.  That’s what is called Agile Development.
 
-Each increment is called a “sprint” and has the following steps:
+![1](https://ucarecdn.com/7f627fe6-aa37-4450-bbff-dc4ea0ce8309/-/resize/900x/)
+
+Each increment is called a "sprint" and has the following steps:
 
 + Starts at the moment you write your **application requirements.**
 + Continues with a general rough plan (just to have an inaccurate idea of the due date, main technologies, etc.).
@@ -48,6 +50,8 @@ Erase from your mind the any website development workflow that you’ve learned 
 ## Our Professional Development Workflow
 ***
 
+![2](https://ucarecdn.com/2b3ed62a-070f-4e7f-9572-34628ffb40d9/-/resize/600x/)
+
 |1. We will start doing the Specs     |2. We build our Web Application       |3. Finally we build the Database and API     |
 |:------------------|:--------------|:-----------------|
 |Coding without specs is like trying to catch a ball with our eyes closed.  We need to create: User Stories, Wireframes, API Documentation and Class Diagram. All of them must be created in a very LEAN way (no fat).     |Using three main technologies:HTML/CSS, Webpack and React.js, we will proceed to code our application and make it work seamlessly.  Our application, just like mobile applications do, will probably connect to several APIs.  This will be the only way to connect to any database.       |Using Django, MongoDB and SQL, we will go ahead and build a professional restful API to provide our Website Application with a database interaction layer.         |     
@@ -55,7 +59,7 @@ Erase from your mind the any website development workflow that you’ve learned 
 ## To Summarize…
 ***
 
-In short, being “senior” is taking time to do the specs, being LEAN, work in pieces (divide and conquer), creating WebApps instead of Websites, building your own API and, last but not least: only using best practices and following the recommended workflows.
+In short, being "senior" is taking time to do the specs, being LEAN, work in pieces (divide and conquer), creating WebApps instead of Websites, building your own API and, last but not least: only using best practices and following the recommended workflows.
 
 Sounds boring?  Believe me, it’s not!  Building a product is amazing.  You will be creating something from scratch and using it right away!  Let’s get started!
 

@@ -56,7 +56,7 @@ ReactDOM.render(<MyBigComponent />, document.querySelector('#app'));
 
 Remember the Bootstap components?  React takes that concept further by dividing your entire website into smaller components.  Each component has its own `<tag>` just like the HTML tags.  The difference is that now when you create your new components, you get to decide the name of the `<tag>` as well as how it is going to look and behave.  For example, lets looks at the **Bootstrap card:**
 
-![react1](https://ucarecdn.com/fc35faf4-a140-4d04-bf88-6ca8f6254d83/-/resize/200x/)
+![react1](https://ucarecdn.com/73edbb82-467c-4522-af7d-79c33bb270e2/-/resize/300x/)
 
 ```javascript
 import React from 'react';
@@ -136,7 +136,7 @@ export class EntireWebsiteLayout extends React.Component{
 
 Each component will have render method.  The final resulting HTML document will be comprised with the merge of all the outputs that all the components have on their render methods.  Checkout the following illustration to get an idea.
 
-![react2](https://ucarecdn.com/6ad1bae9-3c57-4732-9125-a045d495998f/-/resize/500x/)
+![react2](https://ucarecdn.com/6c7d3747-482a-480d-b5be-fdbf095292f3/-/resize/800x/)
 
 ## The YouTube.com Example
 ***
@@ -156,7 +156,7 @@ After you finish identifying your components, it is time to start coding.  Creat
 Each class needs to have a function called **render.**  This will return the HTML code that the component will output into the website document.
 
 <before-after 
-    before="https://ucarecdn.com/8a8508ab-39ee-4ab1-a6a8-75dd84583113/" after="https://ucarecdn.com/78aedd23-b5dd-4d1e-b693-b3268f4734fa/" />
+    before="https://ucarecdn.com/e590a615-2c9d-4671-8483-99dbdd90cd41/" after="https://ucarecdn.com/78aedd23-b5dd-4d1e-b693-b3268f4734fa/" />
 
 ### The Component State
 
@@ -230,6 +230,7 @@ class ClockComponent extends React.Component {
 
 Every component works like a mini-application.  You are able to control and define your component workflow based on a series of available methods that you can declare and code according to your needs.
 
+![react3](https://ucarecdn.com/541b1d85-c630-4b1f-9af6-08d2d2044089/-/resize/1200x/)
 
 [[info]]
 |:link:[Here you will find](https://reactjs.org/docs/react-component.html#the-component-lifecycle) a more detailed explanation of each available life-cycle method.
