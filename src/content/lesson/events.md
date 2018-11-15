@@ -17,7 +17,7 @@ An event is something that happens!  Like **clicking** on a button, **pressing**
 
 Your job as a developer is to prepare for those events and **define the functions** that are going to be handling those events.
 
-![events1](https://ucarecdn.com/e395d8e4-1e1e-4c25-aff9-ebf56023d41c/)
+![events1](https://ucarecdn.com/1c00bd95-1359-4fd5-8399-b1b80a769009/-/resize/500x/)
 
 ### But who Triggers these Events?
 

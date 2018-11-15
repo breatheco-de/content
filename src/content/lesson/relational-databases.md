@@ -221,9 +221,9 @@ Transactions have the following four standard properties, usually referred to by
 These are the following commands used to control transactions:
 
 + **COMMIT**:  to save the changes.
-+ **ROLLBACK:** t o rollback the changes.
++ **ROLLBACK:** to rollback the changes.
 + **SAVEPOINT:**  creates points within groups of transactions in which to ROLLBACK
-+ **SET TRANSACTION:** P laces a name on a transaction.
++ **SET TRANSACTION:** Places a name on a transaction.
   
 Transactional control commands are only used with the DML commands INSERT, UPDATE and DELETE.  They cannot be used while creating tables or dropping them because these operations are automatically committed in the database.
 

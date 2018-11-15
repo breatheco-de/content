@@ -60,7 +60,7 @@ In Javascript, you can import variables from other files using the ***import*** 
 
 In Python, you can make any folder a package by creating a *\__init\__.py* file inside of it.  Then, you are able to import whatever you want into that folder without having to explicitly export anything.
 
-`With Python`
+#### ![python](https://ucarecdn.com/367f5512-e963-4c93-98db-772909fa3da5/-/resize/50x/) With Python
 
 ```python
 from . import
@@ -71,7 +71,7 @@ from . import
 
 What NPM is for Javascript, PIP is for Python.  Both beasts are amazing but very different inside.  The biggest difference being that NPM packages are downloaded locally to a "node_modules" folder while PIP packages are installed on the entire machine – outside the project folder.  Another small difference is that NPM uses a package.json and PIP uses a requirements.txt file.
 
-`With Python`
+#### ![python](https://ucarecdn.com/367f5512-e963-4c93-98db-772909fa3da5/-/resize/50x/) With Python
 
 ```python
 # In python subtracting strings will throw an error, instead you should do: 
@@ -93,7 +93,7 @@ var result = '5' - '2';
 //result now is equal to 3
 ```
 
-`With Python`
+#### ![python](https://ucarecdn.com/367f5512-e963-4c93-98db-772909fa3da5/-/resize/50x/) With Python
 
 ```python
 # In python subtracting strings will throw an error, instead you should do: 
@@ -117,7 +117,7 @@ console.log(arrayValue);
 //This will print the content of the array and its elements.
 ```
 
-`With Python`
+#### ![python](https://ucarecdn.com/367f5512-e963-4c93-98db-772909fa3da5/-/resize/50x/) With Python
 
 ```python
 simpleValue = ‘Hello’;
@@ -143,7 +143,7 @@ for(var i = 0; i < myArray.length; i++){
     console.log(myArray[i]);
 }
 ```
-`With Python`
+#### ![python](https://ucarecdn.com/367f5512-e963-4c93-98db-772909fa3da5/-/resize/50x/) With Python
 
 ```python
 # Using lambda to map a list 
@@ -174,7 +174,7 @@ for(var i = 0; i < myArray.length; i++){
     console.log(myArray[i]);
 }
 ```
-`With Python`
+#### ![python](https://ucarecdn.com/367f5512-e963-4c93-98db-772909fa3da5/-/resize/50x/) With Python
 
 ```python
 colors = ["red", "green", "blue", "purple"]
@@ -193,7 +193,7 @@ myArray.push(‘4Geeks’);  //Adding an item
 myArray.splice(index, 1);
 ```
 
-`With Python`
+#### ![python](https://ucarecdn.com/367f5512-e963-4c93-98db-772909fa3da5/-/resize/50x/) With Python
 
 ```python
 myList = ['The', 'earth', 'revolves', 'around', 'sun']
@@ -208,7 +208,7 @@ print(myList)
 
 ### **Sorting Functions for Lists**
 
-`With python`
+#### ![python](https://ucarecdn.com/367f5512-e963-4c93-98db-772909fa3da5/-/resize/50x/) With Python
 
 ```python
 # Ascending Sort 
@@ -258,7 +258,7 @@ obj.name = "Mario";
 obj.lastname = "Perez";
 ```
 
-`With Python`
+#### ![python](https://ucarecdn.com/367f5512-e963-4c93-98db-772909fa3da5/-/resize/50x/) With Python
 
 ```python
 # In Python we have Classes and Dictionaries 

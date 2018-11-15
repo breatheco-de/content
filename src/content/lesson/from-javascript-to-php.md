@@ -50,7 +50,7 @@ console.log(arrayValue);
 //This will print the content of the array and its elements.
 ```
 
-`With PHP`
+#### ![PHP](https://ucarecdn.com/75d2d32e-bfd9-40e0-88f9-675a36bb86f9/-/resize/50x/) With PHP
 
 ```php
 $simpleValue = ‘Hello’;
@@ -109,7 +109,7 @@ myArray.push(‘4Geeks’); //Adding an item
 myArray.splice(index, 1);
 ```
 
-`With PHP`
+#### ![PHP](https://ucarecdn.com/75d2d32e-bfd9-40e0-88f9-675a36bb86f9/-/resize/50x/) With PHP
 
 ```php
 $myArray = array(‘Academy’,’Coding’);
@@ -121,7 +121,7 @@ $myArray = array_values($myArray);
 
 ### **Sorting Functions for Arrays**
 
-`with php`
+#### ![PHP](https://ucarecdn.com/75d2d32e-bfd9-40e0-88f9-675a36bb86f9/-/resize/50x/) With PHP
 
 ```php
 $myArray = array(2,5,1,4,7);
@@ -213,7 +213,7 @@ switch (favcolor) {
 }
 ```
 
-`With PHP`
+#### ![PHP](https://ucarecdn.com/75d2d32e-bfd9-40e0-88f9-675a36bb86f9/-/resize/50x/) With PHP
 
 ```php
 <?php
@@ -245,7 +245,7 @@ var auxCar = new Car();
 console.log(auxCar.brand);
 ```
 
-`With PHP`
+#### ![PHP](https://ucarecdn.com/75d2d32e-bfd9-40e0-88f9-675a36bb86f9/-/resize/50x/) With PHP
 
 ```php
 <?php

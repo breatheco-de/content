@@ -170,7 +170,7 @@ var elm = document.getElementById(‘elementId’);
 var elmArray = document.getElementsByClassName(‘elementId’);
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 var elem = $(‘#elementId’);
@@ -190,7 +190,7 @@ myAnchor.href="http://google.com";
 myAnchor.target="_blank";
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 var attributesObj = {
@@ -210,7 +210,7 @@ $(‘<a>’,attributesObj);  //the attributesObj is optional
 parent.appendChild(el);
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $(parent).append(el);
@@ -229,7 +229,7 @@ Vanilla JS doesn’t have a remove() function.  You will have to call a removeCh
 elm.parentNode.removeChild(elm);
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $( ".hello" ).remove(); //Remove all elements with class hello 
@@ -247,7 +247,7 @@ var elements = $( ".hello" ).detach(); //Remove the elements from the DOM but re
 elm.parentNode.replaceChild(myNewHeading, elm); //being myNewHeding a DOM element
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $( "#div1" ).replaceWith( "<h1>This is a new heding</h1>" );
@@ -268,7 +268,7 @@ childs.forEach(function(elm, index){
 });
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $(css_selector).find(selector).each(function(index, elm){
@@ -288,7 +288,7 @@ el.getAttribute(‘tabindex’);
 el.setAttribute(‘tabindex’, 3);
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $(el).attr(‘tabindex’);
@@ -306,7 +306,7 @@ jQuery really helps when working with classes because the only way to update a c
 
 For example, if you want to remove one specific class from an element, you will have to get the value of the class attribute as a string and then create a new string – just like the first one – but without that particular class.
 
-![jaquery6](https://ucarecdn.com/df85715a-646d-4d73-b948-4bc95841e35b/)
+![jaquery6](https://ucarecdn.com/655a85b3-660f-45bf-8563-2bcbe13bf0e5/)
 
 &nbsp;
 &nbsp;
@@ -320,7 +320,7 @@ el.className += ‘ ‘ + className; //add
 el.className = el.className.replace("classname", ""); //remove
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $(el).addClass(className);
@@ -338,7 +338,7 @@ el.style.borderWidth = ’20px’;
 getComputedStyle(el)[ruleName];
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $(el).css(‘border-width’, ’20px’);
@@ -364,7 +364,7 @@ var classes = el.className.split(‘ ‘);
   el.className = classes.join(‘ ‘);
   ```
 
-  `with jQuery`
+  ##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
   ```javascript
   $(el).toggleClass(className);
@@ -397,7 +397,7 @@ alert(‘s’);
 });
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $(‘.btn’).on( "click", function(){
@@ -440,7 +440,7 @@ request.onerror = function() {
 request.send();
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $.ajax({
@@ -476,7 +476,7 @@ alert(http.responseText);
 http.send(params);
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $.ajax({

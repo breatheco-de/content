@@ -135,15 +135,13 @@ $_SESSION["timeout"] = time();
 
 The session_regenerate_id() function creates a new unique-ID to represent the current user’s session.  This should be regenerated anytime important authentication action is performed – such as logging in or updating user profile data.  Giving each session a new ID after such actions makes your application more secure by reducing the risk of a specific attack known as "Session Hijacking."
 
-```PHP
-
+```php
 session_start();
 
 if ($_POST["username"] == "admin" && $_POST["password"] == sha1("password")) {
     $_SESSION["authorized"] = true;
     session_regenerate_id();
 }
-
 ```
 
 ### Destroying Sessions

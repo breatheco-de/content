@@ -47,7 +47,7 @@ To code the delete functionality, we have to update 4 mains files: (1) The Compo
 > *In the end, working with Flux has to become something as automatic as riding a bike.*
 
 
-![flux2](https://ucarecdn.com/77c93bfa-92cb-44e3-a7c5-c959e27c5ccc/-/resize/900x/)
+![flux2](https://ucarecdn.com/77c93bfa-92cb-44e3-a7c5-c959e27c5ccc/-/resize/1100x/)
 
 ## Lets Implement the Delete Task Functionality
 ***

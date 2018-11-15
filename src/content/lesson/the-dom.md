@@ -133,7 +133,7 @@ trArray[3].style.background = "red";
 
 As you already know, each element in the HTML document can have some sort of HTML content.  It does not matter if it is a `<P>`, `<DIV>`,`<A>` or any other HTML element; it can have its own innerHTML combined with more HTML content.
 
-![thedom2](https://ucarecdn.com/6c92ad73-36a3-428f-9851-03abaa24b4ca/-/resize/900x/)
+![thedom2](https://ucarecdn.com/2387325b-338c-4c18-bb0f-2f95ed28901f/-/resize/900x/)
 
 The .innerHTML property gives you the ability to retrieve or set the content of whatever element you have in your JavaScript.  For example:
 

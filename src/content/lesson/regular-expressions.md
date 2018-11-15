@@ -179,7 +179,7 @@ Here are some pre-made Regex’s:
 
 #### **Regular Expression for: Validating an Email**
 
-![regular1](https://ucarecdn.com/29f18bc0-c4e0-4508-b34c-f6b58b408744/-/resize/1000x/)
+![regular1](https://ucarecdn.com/39f93d0d-248e-4e94-b402-b744c4b06a4d/-/resize/1000x/)
 
 We begin by telling the parser to find the beginning of the string (^).
 

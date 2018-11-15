@@ -11,9 +11,9 @@ Think about it: what is the most annoying thing about working with Javascript?  
 Just look at this example of all the lines of code we need just to toggle (add/remove) a CSS class into a DOM Element:
 
 ```javascript
-var divElem = document.getElementById(“myFirstDiv”);
-var myNewHOne = document.createElement(“H1”);
-var t = document.createTextNode(“Hello World”);
+var divElem = document.getElementById("myFirstDiv");
+var myNewHOne = document.createElement("H1");
+var t = document.createTextNode("Hello World");
 myNewHOne.appendChild(t);    //I have to add some text content to the h1    
 divElem.appendChild(myNewHOne);
 ```
@@ -110,9 +110,9 @@ export class MyCard extends React.Component{
 
 ### Doing Website Layouts with React
 
-A “Layout” in React is basically the combination of two or more components into a parent component.  Some of your components will only serve for layout purposes, so we will call them “Views” because they will not to be reused like typical components.
+A "Layout" in React is basically the combination of two or more components into a parent component.  Some of your components will only serve for layout purposes, so we will call them "Views" because they will not to be reused like typical components.
 
-**For example:**  Lets say you have a [one page website](https://onepagelove.com/what-is-a-one-page-website) website with three sections: Home, About Us and Contact Us.  The “React” way of doing that will be creating a bigger component (VIEW) that contains each section, like this:
+**For example:**  Lets say you have a [one page website](https://onepagelove.com/what-is-a-one-page-website) website with three sections: Home, About Us and Contact Us.  The "React" way of doing that will be creating a bigger component (VIEW) that contains each section, like this:
 
 ```javascript
 import React from 'react';
@@ -136,7 +136,7 @@ export class EntireWebsiteLayout extends React.Component{
 
 Each component will have render method.  The final resulting HTML document will be comprised with the merge of all the outputs that all the components have on their render methods.  Checkout the following illustration to get an idea.
 
-![react2](https://ucarecdn.com/6c7d3747-482a-480d-b5be-fdbf095292f3/-/resize/800x/)
+![react2](https://ucarecdn.com/6c7d3747-482a-480d-b5be-fdbf095292f3/-/resize/1200x/)
 
 ## The YouTube.com Example
 ***
