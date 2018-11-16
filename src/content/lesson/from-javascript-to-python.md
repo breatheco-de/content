@@ -75,7 +75,7 @@ In Python, you can make any folder a package by creating a *\__init\__.py* file 
 <br>
 <br>
 
-#### ![python](https://ucarecdn.com/6f78cf53-ff83-4910-a79b-8f9788cd86f0/) With Python
+#### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 from . import
@@ -91,7 +91,7 @@ What NPM is for Javascript, PIP is for Python.  Both beasts are amazing but very
 <br>
 <br>
 
-#### ![python](https://ucarecdn.com/6f78cf53-ff83-4910-a79b-8f9788cd86f0/) With Python
+#### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 # In python subtracting strings will throw an error, instead you should do: 
@@ -118,7 +118,7 @@ var result = '5' - '2';
 </div>
 
 <div style="float:left; width: 40%">
-#### ![python](https://ucarecdn.com/6f78cf53-ff83-4910-a79b-8f9788cd86f0/) With Python
+#### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 # In python subtracting strings will throw an error, instead you should do: 
@@ -152,7 +152,7 @@ console.log(arrayValue);
 <br>
 <br>
 
-#### ![python](https://ucarecdn.com/6f78cf53-ff83-4910-a79b-8f9788cd86f0/) With Python
+#### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 simpleValue = ‘Hello’;
@@ -187,7 +187,7 @@ for(var i = 0; i < myArray.length; i++){
 <br>
 <br>
 
-#### ![python](https://ucarecdn.com/6f78cf53-ff83-4910-a79b-8f9788cd86f0/) With Python
+#### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 # Using lambda to map a list 
@@ -250,7 +250,7 @@ myArray.push(‘4Geeks’);  //Adding an item
 myArray.splice(index, 1);
 ```
 
-#### ![python](https://ucarecdn.com/6f78cf53-ff83-4910-a79b-8f9788cd86f0/) With Python
+#### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 myList = ['The', 'earth', 'revolves', 'around', 'sun']
@@ -265,7 +265,7 @@ print(myList)
 
 ### **Sorting Functions for Lists**
 
-#### ![python](https://ucarecdn.com/6f78cf53-ff83-4910-a79b-8f9788cd86f0/) With Python
+#### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 # Ascending Sort 
@@ -315,7 +315,7 @@ obj.name = "Mario";
 obj.lastname = "Perez";
 ```
 
-#### ![python](https://ucarecdn.com/6f78cf53-ff83-4910-a79b-8f9788cd86f0/) With Python
+#### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 # In Python we have Classes and Dictionaries 
