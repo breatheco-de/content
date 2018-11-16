@@ -29,8 +29,7 @@ A user story is like having a conversation with your future user.  They must be 
 
 #### Here are some Examples:
 
-|As a **student**, I can **obtain my current seminar** schedule online.     |As a **student**, I can **purchase a monthly parking pass** online.    |As a **student**, **I can pay my parking passes** via credit card.       |
-|:-----------------|:--------------------|:---------------|
+![userstorys](https://ucarecdn.com/032a818d-e4d7-4276-8195-ce5d8a3edcf6/-/resize/2000x/)
 
 ### How should you Write the User Stories?
 ***
@@ -41,15 +40,18 @@ It is so simple that it becomes tricky…the most important thing is to: (1) Mai
 + **Feature:**  What is the feature about.
 + **Reason:**  What is the reason to do so.
 
-#### `As a [role], I can [feature] so that [reason]`
+<p align="center"; style= "font-size:30px" > As a <font color="blue">[role]</font>, I can <font color="#ff00ff">[feature]</font> so that <font color="blue">[reason]</font></p>
 
 Let’s look at another example:
-
-> As an **account owner**, I can **check my balance online** so that **I can keep a daily balance 24 hours a day.**
+```jsx
+As an "account owner", I can "check my balance online" so that "I can keep a daily balance 24 hours a day."
+```
 
 Pretty easy right?  However, in some instances we find that the "so that" suffix reads redundantly, so go ahead and make that optional, if you wish.
 
-> As an **account owner**, I can **check my balance online**.
+```jsx
+As an "account owner", I can "check my balance online".
+```
 
 Feel free to use slight deviations of this template using synonyms:
 

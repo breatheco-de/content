@@ -38,8 +38,13 @@ The list is endless – we better continue or we’ll be here all day 🙂
 
 ## Here is what you need to know to start using Webpack right now   
 ***
+  
+<br />
+<br /> 
 
-### 1. Webpack is a Javascript library, meaning you have to install it using the NPM package manager.
+### `1` Webpack is a Javascript library, meaning you have to install it using the NPM package manager.
+ 
+<br />
 
 **If you don’t have a package.json** file in your application root, then you probably have not even started your NPM application.   Start by typing the following in your command line:
 
@@ -55,7 +60,12 @@ npm install --save-dev webpack
 
 That is it!  You finally have Webpack but now we have to specify how it should build our application (create the bundle).
 
-### 2. Webpack has one big file called "webpack.config.js" that you have to create and maintain in order to be able to control your bundling process.
+<br />
+<br /> 
+
+### `2` Webpack has one big file called "webpack.config.js" that you have to create and maintain in order to be able to control your bundling process.
+
+<br>
 
 Create a webpack.config.js file in your root directory and fill it with the following base code:
 
@@ -82,7 +92,12 @@ Your job is to specify at least the following properties inside of the module.ex
 |:---------------|:------------------|
 |output       |Here you have to specify two things:<br><br><li>**path:**  The folder where the bundle will be created, it’s normally called "dist" or "public."  All your application public files will be here.</li><br><li>**filename:**  The name of your bundle file created by Webpack that will contain all the code.</li>      |
 
-### 3. In order to include other files rather than JS, we have to install "loaders" – specific npm libraries – and update your webpack.config.js
+<br />
+<br /> 
+
+### `3` In order to include other files rather than JS, we have to install "loaders" – specific npm libraries – and update your webpack.config.js
+
+<br />
 
 For example, if we want to include CSS files in our bundle, we have to use the following command inside our index.js file:
 
@@ -122,7 +137,12 @@ module.exports = {
 
 Above, we are telling Webpack that the css-loader will load any imported ".css" file into our bundle and the style-loader will know how to include it depending on the size (using a style tag probably).
 
-### 4) You can install other loaders or amazing plugins
+<br />
+<br /> 
+
+### `4` You can install other loaders or amazing plugins
+
+<br />
 
 From here on, it’s up to you – just keep installing plugins and learning how to configure them in your webpack.config.js file. [Here is a more detailed list of awesome plugins you can use:](https://github.com/webpack-contrib/awesome-webpack)
 
@@ -134,7 +154,7 @@ You don’t have to be configuring Webpack all the time.  You can include the co
 You can also find and download online configurations that are already completed and fine-tuned for various different application architectures that are out there: React, Angular, Vanilla JS, WordPress, etc.
 
 [[info]]
-|:link: We have prepared a GIT repository with several configurations depending on your needs – [click here to review the repository and download them](https://github.com/alesanchezr/webpack-tutorial)
+|:link: We have prepared a GIT repository with several configurations depending on your needs – [<button>click me!</button>](https://github.com/alesanchezr/webpack-tutorial)
 
 
 

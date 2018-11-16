@@ -10,6 +10,9 @@ The title of this lesson should be "From Python to JS," because that’s the way
 
 Python and Javascript are friends.  Together they make the best possible team to make any major development you could imagine.
 
+<br>
+<br>
+
 ## Why Python?
 ***
 
@@ -31,12 +34,18 @@ When you compare it to other back-end languages, Python is leading in almost eve
 |:---------------:|:------------------:|
 |Python is Google’s official language.  It’s also one of the oldest languages with huge communities around each of its libraries\tools.  MIT uses it to teach code.  NASA to build rockets.  Quora, Facebook, Yahoo, Amazon, etc.  Almost every big company in the world has to use it!      |Most of the Python libraries are the best at what they do: [MathLab](https://www.mathworks.com/help/matlab/matlab-engine-for-python.html?requestedDomain=true) (for data processing), [Pandas](https://pandas.pydata.org/) (big data), [Web.py](http://webpy.org/) (web server), [Django](https://www.djangoproject.com/) (web framework), [PyBrain](http://pybrain.org/) (AI), [TensorFlow](https://www.tensorflow.org/) (Machine Learning), etc.  We could be here all day!  The most amazing thing is that these libraries are only one "pip install" away (just like when using NPM with JS).      |
 
+<br>
+<br>
+
 ## Javascript vs Python
 ***
 
 Python and Javascript complement each other.  In terms of functionality they have NOTHING in common – they don’t serve the same purpose, they don’t do the same things, they come from different backgrounds, etc.
 
 The only thing you will recall from Javascript is the basics of any programming language: looping, using conditionals, variables, classes, functions and objects.
+
+<br>
+<br>
 
 ### Data-types
 ***
@@ -53,6 +62,9 @@ There are only a few differences; here is the explanation:
 |String       |Is the same in Python.     |
 
 
+<br>
+<br>
+
 ## Packages (Importing from other files)
 ***
 
@@ -60,18 +72,26 @@ In Javascript, you can import variables from other files using the ***import*** 
 
 In Python, you can make any folder a package by creating a *\__init\__.py* file inside of it.  Then, you are able to import whatever you want into that folder without having to explicitly export anything.
 
-#### ![python](https://ucarecdn.com/367f5512-e963-4c93-98db-772909fa3da5/-/resize/50x/) With Python
+<br>
+<br>
+
+#### ![python](https://ucarecdn.com/6f78cf53-ff83-4910-a79b-8f9788cd86f0/) With Python
 
 ```python
 from . import
 ```
+<br>
+<br>
 
 ## Package Managers
 ***
 
 What NPM is for Javascript, PIP is for Python.  Both beasts are amazing but very different inside.  The biggest difference being that NPM packages are downloaded locally to a "node_modules" folder while PIP packages are installed on the entire machine – outside the project folder.  Another small difference is that NPM uses a package.json and PIP uses a requirements.txt file.
 
-#### ![python](https://ucarecdn.com/367f5512-e963-4c93-98db-772909fa3da5/-/resize/50x/) With Python
+<br>
+<br>
+
+#### ![python](https://ucarecdn.com/6f78cf53-ff83-4910-a79b-8f9788cd86f0/) With Python
 
 ```python
 # In python subtracting strings will throw an error, instead you should do: 
@@ -80,20 +100,25 @@ var result = int('5') - int('2');
 #result now is equal to 3
 ```
 
+<br>
+<br>
 
 
 ### **Casting (parsing) Data-Types**
 
 Javascript is so flexible that you don’t have to pay much attention to data types.   Python does not like that… in Python, you will get used to casting variables and converting them in between data-types.
 
+<div style="float:right; width: 40%">
 ### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/)  With JavaScript
 
 ```javascript
 var result = '5' - '2'; 
 //result now is equal to 3
 ```
+</div>
 
-#### ![python](https://ucarecdn.com/367f5512-e963-4c93-98db-772909fa3da5/-/resize/50x/) With Python
+<div style="float:left; width: 40%">
+#### ![python](https://ucarecdn.com/6f78cf53-ff83-4910-a79b-8f9788cd86f0/) With Python
 
 ```python
 # In python subtracting strings will throw an error, instead you should do: 
@@ -101,10 +126,18 @@ var result = '5' - '2';
 var result = int('5') - int('2'); 
 #result now is equal to 3
 ```
+</div>
+
+<br>
+<br>
+
 
 ### **Printing Values**
 
 Python has "print" either for writing into a document or into the console. Remember that, since Python – like any other back-end language – runs before the preload event, it does not have access to the Javascript console.
+
+<br>
+<br>
 
 #### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With  JavaScript
 
@@ -116,8 +149,10 @@ var arrayValue = [‘Hello’,23, 76, ‘World’,43];
 console.log(arrayValue);
 //This will print the content of the array and its elements.
 ```
+<br>
+<br>
 
-#### ![python](https://ucarecdn.com/367f5512-e963-4c93-98db-772909fa3da5/-/resize/50x/) With Python
+#### ![python](https://ucarecdn.com/6f78cf53-ff83-4910-a79b-8f9788cd86f0/) With Python
 
 ```python
 simpleValue = ‘Hello’;
@@ -125,10 +160,15 @@ print(simpleValue);  //this will print the content
 arrayValue =[‘Hello’,23,76,’World’,43];
 print(arrayValue); //this will work, printing the content of the array in a format like this: [‘Hello’,23,76,’World’,43]
 ```
+<br>
+<br>
 
 ### The Lambda Function vs Arrow Function
 
 Finally, in ES2015, Javascript included the "arrow functions."  That is a very easy and light way to declare and use functions.  Python, on the other hand, has something similar called lambda functions that basically let you use little inline anonymous functions as shortcuts.
+
+<br>
+<br>
 
 #### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/)  With JavaScript
 
@@ -143,7 +183,11 @@ for(var i = 0; i < myArray.length; i++){
     console.log(myArray[i]);
 }
 ```
-#### ![python](https://ucarecdn.com/367f5512-e963-4c93-98db-772909fa3da5/-/resize/50x/) With Python
+
+<br>
+<br>
+
+#### ![python](https://ucarecdn.com/6f78cf53-ff83-4910-a79b-8f9788cd86f0/) With Python
 
 ```python
 # Using lambda to map a list 
@@ -159,7 +203,10 @@ print(namesArray)
 [[info]]
 | :tv: Here is a weird but amazing video explaining lambda functions: https://www.youtube.com/watch?v=25ovCm9jKfA
 
-### **Loopoing list (similar to arrays)**
+<br>
+<br>
+
+### **Looping list (similar to arrays)**
 
 #### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With  JavaScript
 
@@ -174,7 +221,11 @@ for(var i = 0; i < myArray.length; i++){
     console.log(myArray[i]);
 }
 ```
-#### ![python](https://ucarecdn.com/367f5512-e963-4c93-98db-772909fa3da5/-/resize/50x/) With Python
+
+<br>
+<br>
+
+#### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 colors = ["red", "green", "blue", "purple"]
@@ -182,7 +233,13 @@ for color in colors:
     print(color)
 ```
 
+<br>
+<br>
+
 ### **Adding and Removing Items**
+
+<br>
+<br>
 
 #### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/)    With JavaScript
 
@@ -193,7 +250,7 @@ myArray.push(‘4Geeks’);  //Adding an item
 myArray.splice(index, 1);
 ```
 
-#### ![python](https://ucarecdn.com/367f5512-e963-4c93-98db-772909fa3da5/-/resize/50x/) With Python
+#### ![python](https://ucarecdn.com/6f78cf53-ff83-4910-a79b-8f9788cd86f0/) With Python
 
 ```python
 myList = ['The', 'earth', 'revolves', 'around', 'sun']
@@ -208,7 +265,7 @@ print(myList)
 
 ### **Sorting Functions for Lists**
 
-#### ![python](https://ucarecdn.com/367f5512-e963-4c93-98db-772909fa3da5/-/resize/50x/) With Python
+#### ![python](https://ucarecdn.com/6f78cf53-ff83-4910-a79b-8f9788cd86f0/) With Python
 
 ```python
 # Ascending Sort 
@@ -258,7 +315,7 @@ obj.name = "Mario";
 obj.lastname = "Perez";
 ```
 
-#### ![python](https://ucarecdn.com/367f5512-e963-4c93-98db-772909fa3da5/-/resize/50x/) With Python
+#### ![python](https://ucarecdn.com/6f78cf53-ff83-4910-a79b-8f9788cd86f0/) With Python
 
 ```python
 # In Python we have Classes and Dictionaries 

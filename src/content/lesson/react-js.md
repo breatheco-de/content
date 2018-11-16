@@ -19,19 +19,32 @@ divElem.appendChild(myNewHOne);
 ```
 
 **React’s first goal is to fix that!**
+<br>
+<br>
 
 ## So.. what is React?
 ***
 
 React.js defines itself as a front-end library to user interfaces. Basically, React proposes a new way of building websites by re-designing the entire coding workflow as well as making websites faster.
 
-|**No More DOM**    |**Everything is component**     |
-|:----------------:|:-------------------------------:|
-|From now on React.js will take care of the DOM, your job is to create your own and define how they should display or render.   |You'll divide your app into small pieces (components), all together they make the website a whole.    |
+#### No More DOM
 
-|**No more website refresh**     |**No more html String Concatenation**      |
-|:-------------------------:|:-----------------------------:|
-|All of your new are a little part of your layout, but some are hidden at the beginning. You will have to show and hide them based on the user behavior.       |React.js comes with JSX, a special language that will let you build HTML on the Javascript side without having to wrap it within quotes (make it a string). Basically you'll are of the annoying HTML string concatenation.   |
+From now on React.js will take care of the DOM, your job is to create your own and define how they should display or render.
+
+#### Everything is component
+
+You'll divide your app into small pieces (components), all together they make the website a whole.
+
+#### No more website refresh
+
+All of your new are a little part of your layout, but some are hidden at the beginning. You will have to show and hide them based on the user behavior.   
+
+#### No more html String Concatenation
+
+React.js comes with JSX, a special language that will let you build HTML on the Javascript side without having to wrap it within quotes (make it a string). Basically you'll are of the annoying HTML string concatenation. 
+
+<br>
+<br>
 
 ## Your Entire Website is now a Component
 ***
@@ -50,6 +63,8 @@ class MyBigComponent extends React.Component{
 // your entire react application will be added into that div 
 ReactDOM.render(<MyBigComponent />, document.querySelector('#app'));
 ```
+<br>
+<br>
 
 ## Everything is a Component now
 ***
@@ -165,6 +180,8 @@ Every component comes with a global object (shared within the same Component onl
 [[info]]
 | :point_up:The following demo updates the current time on every second:
 
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/r80q431L/10/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 ### The State Object is Unmutable (cannot be changed)
 
 The state value can only be modified calling the method this.setState() and you will have to pass a new state object that will be merged with the original value. For example:
@@ -203,6 +220,8 @@ In React, we can set properties the same way and our components will be able to 
 ```
 
 In the code above, we have invented a new property to the ClockComponent example.  We will now have to determine and code how that new property will work inside our component.  In this particular case, we would have to assign a red color style to the text output of the clock, like this:
+
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/r80q431L/8/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 A real high quality component must communicate with other components only throughout its properties.  This way we will be able to re-use that component a lot of times in the future (similar to the way functions and parameters work).
 

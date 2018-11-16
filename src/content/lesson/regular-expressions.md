@@ -56,7 +56,7 @@ Any succession of characters is a simple regular expression.  If we use the word
 
 **Use the container on the right to play with other simple successions of characters.**
 
-<iframe src="https://assets.breatheco.de/live-demos/js/regex-tester/?e=email" width="100%" height="400" scrolling="no">
+<iframe src="https://assets.breatheco.de/live-demos/js/regex-tester/?e=email" frameborder="0" width="100%" height="400" scrolling="no">
   <p>Your browser does not support iframes.</p>
 </iframe>
 

@@ -41,8 +41,10 @@ Here are some of the types of events that are constantly being triggered (and yo
 |Mousemove     |If the user moves the mouse.     |
 |Mousedown or Mouseup     |If the user presses or releases the mouse.    |
 
+[[demo]]
+| :point_up: Play with this demo here 
 
-<iframe width="100%" height="300" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/mouse.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/mouse.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### FRAME – Events
 
@@ -54,7 +56,10 @@ Here are some of the types of events that are constantly being triggered (and yo
 |PageHide<br>PageShow    |When the user focuses in a different window/tab; or when the user comes back from a different window/tab.     |
 |Resize    |When the window is resized.      |
 
-<iframe width="100%" height="300" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/frame.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+[[demo]]
+| :point_up: Play with this demo here 
+
+<iframe width="100%" height="300" frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/frame.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### FORMS – Events 
 
@@ -66,7 +71,10 @@ Here are some of the types of events that are constantly being triggered (and yo
 |Change       |The event occurs when the content of a form element, the selection, or the checked state have changed (for `<input>`, `<keygen>`, `<select>`, and `<textarea>`)
      |
 
-<iframe width="100%" height="300" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/forms.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+[[demo]]
+| :point_up: Play with this demo here 
+
+<iframe width="100%" height="300"  frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/forms.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### KEYBOARD – Events
 
@@ -76,7 +84,10 @@ Here are some of the types of events that are constantly being triggered (and yo
 |Keydown	     |When the user presses the keyboard key.    |
 |Keypress       |When the user presses and release the keyboard key.  The difference from keydown/up is that Keypress only works on character keys.  For example, it does not work on the up|down|left|right arrows.     |
 
-<iframe width="100%" height="300" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/keyboard.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+[[demo]]
+| :point_up: Play with this demo here 
+
+<iframe width="100%" height="300"  frameborder="1"src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/keyboard.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 
 [[info]]
@@ -109,7 +120,7 @@ function myClickHandler(){
 </script>
 ```
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/kpt1jz3m/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/b7c6gmnd/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ## Adding Listeners from JavaScript (during runtime)
 ***
@@ -128,7 +139,7 @@ When using the addEventListener function, you have to specify what **event** you
 
 For example, this code is creating a list of names and each delete anchor in each row is listening to the "click" event – but only for that row.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/kg5rfqud/4/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/1nhjc4t0/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ##  The Event Object
 ***
@@ -200,9 +211,7 @@ Here is an example:
 
 In this code, we are adding an event listener to the click event.  Afterwards, the first time the click listener gets called, the handler function removes the event listener from the button.  That’s why upon the second time the button gets clicked, nothing happens.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ea28stfd/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-
-
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 
 

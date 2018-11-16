@@ -45,7 +45,7 @@ var myArray = new Array(1,2,3,4,5); //Don't use this! Read below to learn why.
 
 
 [[warning]]
-| :point_up:Don't declare the Arrays with the `new **Array**()` syntax – it will not behave.  [click here to learn the details](https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
+| :point_up:Don't declare the Arrays with the `new Array()` syntax – it will not behave.  [click here to learn the details](https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
 
 ## **Access Items in the Array**
 ***

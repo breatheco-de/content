@@ -27,14 +27,7 @@ For the rest of us building real web applications, we need to connect several vi
 
 For example, we need the following application URLs to match the following components:
 
-|When the URL matches:      |I want to show the component:      |
-|:------------------------|:------------------------------------|
-|`http://myapp.com/log-in`      |`./src/views/Login.jsx `     |
-
-
-|When the URL matches:      |I want to show the component:      |
-|:------------------------|:------------------------------------|
-|`http://myapp.com/home`        |`./src/views/Home.jsx`      |
+![routing1](https://ucarecdn.com/6fd2b44b-598b-4ddb-85ba-9c32b086127f/-/resize/800x/)
 
 
 ## Defining your Application Routes
@@ -55,17 +48,7 @@ The rest of the pages depend on your application and on how you want your users 
 This is the sitemap for any typical e-commerce website:
 
 
-|**View**    |**URL**     |
-|:-----------|:------------|
-|Home        |`yourapp.com/home`     |
-|Login       |`yourapp.com/login`     |
-|Signup      |`yourapp.com/signup`     |
-|Forgot Password     |`yourapp.com/forgot`    |
-|List of products    |`yourapp.com/products`   |
-|List of products for particular category      |`yourapp.com/category/:category_id`      |
-|Single Product Information       |`yourapp.com/product/:product_id`      |
-|Check out and pay     |`yourapp.com/checkout`    |
-|User profile     |`yourapp.com/profile/:user_id`    |
+![routing2](https://ucarecdn.com/9021be43-57ae-4667-8c1a-435b8521ce59/-/resize/600x/)
 
 ## Coding your Application Routes
 ***
@@ -76,7 +59,7 @@ The best practice is always creating one component called `<Layout />` that will
 
 This is an example of the same e-commerce sitemap but now using React Router v4:
 
-```javascript
+```jsx
 //this component Layout will take care of routing the URLs with all my application views 
 export class Layout extends Flux.View {
     render() {
@@ -111,7 +94,7 @@ There are 3 components to understand here:
 + `<Switch>:` Works similar to the switch statement in Javascript but for Routes… It tells React that the only first <Route> that matches the URL will be displayed.
 + `<Route>:` It’s the way that React-Router has to map routes with components, for example:
 
-```bash
+```jsx
 <Route exact path="/sign-up" component={Signup} />
 ```
 
@@ -126,7 +109,7 @@ Anchors take users to other websites or URLs – and that is amazing for simple 
 
 React Router created a component that we can use instead of `<a>`
 
-```bash
+```jsx
 <Link to="/login">Take me to login</Link>
 ```
 
@@ -134,7 +117,7 @@ React Router created a component that we can use instead of `<a>`
 
    React Router always passes each view a prop called "history" that contains a lot of useful stuff to use when routing users.  One of the many useful utilities is the "push" function that basically redirects the user to the given path.
 
-```html
+```jsx
 <button onClick={() => this.props.history.push("/login")}>Take me to login</button>
 ```
 

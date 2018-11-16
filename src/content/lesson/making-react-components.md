@@ -11,7 +11,7 @@ tags: ["fale"]
 
 React.js separates your code into little pieces called Components which can be created/defined as a **class** or as a **function**.  Each component is like a smaller React app that has its own logic and has a final purpose which is to display (Render) something (E.g: a bootstrap Navbar, a dropdown list, a model, a dynamic form, image gallery, subscribe form, almost everything can be designed and coded as a React Component).
 
-```javascript
+```jsx
 // as a function 
 function NavBar(props){
     return (<nav className="navbar navbar-light bg-light">
@@ -36,7 +36,7 @@ class Navbar extends React.Component{
 
 Once the component declaration is finished you can reference it using tags like this:
 
-```javascript
+```jsx
 import React from "react";
 import { render } from "react-dom";
 
@@ -55,7 +55,7 @@ Sometimes a component needs dynamic information to display.  For example, we nee
 
 In this example we are passing an array of menu items and a logo URL to the NavBar component that we have just declared above.
 
-```javascript
+```jsx
 let menu = [
     {label: 'Home', url: '/home'}
     {label: 'Contact Us', url: '/contact-us'}
@@ -81,7 +81,7 @@ It’s a **class** variable (available throughout the entire class using this) t
 
 There’s a catch, though.  The State is unmutable, which means it cannot be edited, so we have to override it using the ***this.setState()*** function that receives the new State object (overriding the old one).
 
-```javascript
+```jsx
 // WRONG! Never update the state directly 
 this.state.foo = "bar";
 
