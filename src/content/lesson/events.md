@@ -100,7 +100,7 @@ Now that you know what events are out there, you can start listening them whenev
 
 Let’s repeat: To **react** you need to **listen…** And to listen you need to specify a **handler** function.
 
-![events2](https://ucarecdn.com/91b831bf-cac1-4feb-a49e-c9c1064b5308/)
+![events2](https://ucarecdn.com/9fa13314-24cc-4a4b-9676-e60616f73602/)
 
 You can add an event listener in 2 different ways:
 
