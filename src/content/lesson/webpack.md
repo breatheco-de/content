@@ -42,7 +42,7 @@ The list is endless – we better continue or we’ll be here all day 🙂
 <br />
 <br /> 
 
-### `1` Webpack is a Javascript library, meaning you have to install it using the NPM package manager.
+### :one: Webpack is a Javascript library, meaning you have to install it using the NPM package manager.
  
 <br />
 
@@ -63,7 +63,7 @@ That is it!  You finally have Webpack but now we have to specify how it should b
 <br />
 <br /> 
 
-### `2` Webpack has one big file called "webpack.config.js" that you have to create and maintain in order to be able to control your bundling process.
+### :two: Webpack has one big file called "webpack.config.js" that you have to create and maintain in order to be able to control your bundling process.
 
 <br>
 
@@ -95,7 +95,7 @@ Your job is to specify at least the following properties inside of the module.ex
 <br />
 <br /> 
 
-### `3` In order to include other files rather than JS, we have to install "loaders" – specific npm libraries – and update your webpack.config.js
+### :three: In order to include other files rather than JS, we have to install "loaders" – specific npm libraries – and update your webpack.config.js
 
 <br />
 
@@ -140,7 +140,7 @@ Above, we are telling Webpack that the css-loader will load any imported ".css" 
 <br />
 <br /> 
 
-### `4` You can install other loaders or amazing plugins
+### :four: You can install other loaders or amazing plugins
 
 <br />
 

@@ -26,7 +26,7 @@ Every array has the same basic concepts:
 
 **Index:** is the position of the element.
 
-![arrays1](https://ucarecdn.com/81b304a4-9d35-4c88-b553-993ca6d87d83/)
+![arrays1](https://ucarecdn.com/7ed2c414-0d00-4e68-b659-b65c26d1983a/-/resize/1000x/)
 
 
 [[info]]

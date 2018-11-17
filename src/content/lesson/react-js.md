@@ -73,7 +73,7 @@ Remember the Bootstap components?  React takes that concept further by dividing 
 
 ![react1](https://ucarecdn.com/73edbb82-467c-4522-af7d-79c33bb270e2/-/resize/300x/)
 
-```javascript
+```jsx
 import React from 'react';
 
 //here we created the component Modal as a function 
@@ -102,7 +102,7 @@ The most simple React component is just a function that returns some HTML.  You 
 Here is an example of the same `<MyCard />` component, but now declared as a class:
 
 
-```javascript
+```jsx
 import React from 'react';
 
 //here we created the component Modal as a class 
@@ -129,7 +129,7 @@ A "Layout" in React is basically the combination of two or more components into 
 
 **For example:**  Lets say you have a [one page website](https://onepagelove.com/what-is-a-one-page-website) website with three sections: Home, About Us and Contact Us.  The "React" way of doing that will be creating a bigger component (VIEW) that contains each section, like this:
 
-```javascript
+```jsx
 import React from 'react';
 
 //create your first component 
