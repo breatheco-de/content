@@ -47,7 +47,7 @@ Just like we did in the Layout chapter of the course, let’s create one page wi
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/th7uLrow/4/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p><small><a href="//jsfiddle.net/BreatheCode/th7uLrow/4/embedded/html,css,result/">Cick here to try out live demo</a></small></p>
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/th7uLrow/4/embedded/html,css,result/">Cick here to try out live demo</a></small></p>
 
 ## Bootstrap is 100% Responsive
 ***
@@ -277,7 +277,7 @@ No more lessons on these topics – it is time to deliver.  Your attention must 
 
 <iframe src="https://www.youtube.com/embed/RqHNyyvfafE" frameborder="0" allowfullscreen></iframe>
 
-<p><small><a href="https://www.youtube.com/embed/RqHNyyvfafE">Cick here to check out video</a></small></p>
+<p align="right"><small><a href="https://www.youtube.com/embed/RqHNyyvfafE">Cick here to check out video</a></small></p>
 
 
 

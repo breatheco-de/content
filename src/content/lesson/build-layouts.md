@@ -45,7 +45,7 @@ In the following example, we divided the website content into 2 different areas.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p><small><a href="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/">Click here to try out live demo</a></small></p>
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/">Click here to open demo in a new window</a></small></p>
 
 # **Width and Height**
 ***
@@ -61,7 +61,7 @@ In order for a website to look like today’s websites, we have to redesign the 
 
 <iframe src="https://www.youtube.com/embed/hFvOgu3bcOk" frameborder="0" allowfullscreen ></iframe>
 
-<p><small><a href="https://www.youtube.com/embed/hFvOgu3bcOk">Click here to check out video</a></small></p>
+<p align="right"><small><a href="https://www.youtube.com/embed/hFvOgu3bcOk">Click here to open video in a new window</a></small></p>
 
 |**Name**   |**Description**   |
 |:----------|:-----------------|
@@ -81,7 +81,7 @@ It is common to find this attribute in menus, social network activity feeds, etc
 
 <iframe src="https://www.youtube.com/embed/pgCLHD4FNjg" frameborder="0" allowfullscreen></iframe>
 
-<p><small><a href="https://www.youtube.com/embed/pgCLHD4FNjg">Click here to check out video</a></small></p>
+<p align="right"><small><a href="https://www.youtube.com/embed/pgCLHD4FNjg">Click here to open video in a new window</a></small></p>
 
 
 |**Name**   |**Description**   |
@@ -102,7 +102,7 @@ Float is very much used in blogs when you want to add images to your articles.  
 
 <iframe src="https://www.youtube.com/embed/htdLSAZ2ZH8" frameborder="0" allowfullscreen ></iframe>
 
-<p><small><a href="https://www.youtube.com/embed/htdLSAZ2ZH8">Click here to check out video</a></small></p>
+<p align="right"><small><a href="https://www.youtube.com/embed/htdLSAZ2ZH8">Click here to open video in a new window</a></small></p>
 
 |**Name**   |**Description**   |
 |:----------|:-----------------|
@@ -142,7 +142,7 @@ Here is the exact code needed to have the website content always aligned at the 
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p><small><a href="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/">Click her to try out live demo</a></small></p>
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/">Click her to try out live demo</a></small></p>
 
 
 
@@ -155,7 +155,7 @@ This pre-work website has a left sidebar and is a great option for us because we
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p><small><a href="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/">Click here to try out live video</a></small></p>
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/">Click here to try out live video</a></small></p>
 
 ### Top Menu with Left Sidebar
 ***
@@ -164,7 +164,7 @@ This is almost the same, but instead of having the left-sidebar as the primary m
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p><small><a href="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/">Click her to try out live demo</a></small></p>
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/">Click her to try out live demo</a></small></p>
 
 ## Responsive Masonry
 ***
@@ -175,7 +175,7 @@ Another great thing about Masonry is that each box can have its own height.   Th
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p><small><a href="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/">Click here to try out live demo</a></small></p>
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/">Click here to open demo in a new window</a></small></p>
 
 ## Popups / Modal Windows / Alerts
 ***
@@ -191,7 +191,7 @@ To replicate the alert behavior you have to:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/8co2hnj1/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p><small><a href="//jsfiddle.net/BreatheCode/8co2hnj1/1/embedded/html,css,result/">Click here to try out live demo</a></small></p>
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/8co2hnj1/1/embedded/html,css,result/">Click here to open demo in a new window</a></small></p>
 
 # **Live Demo: Play with the Box**
 ***

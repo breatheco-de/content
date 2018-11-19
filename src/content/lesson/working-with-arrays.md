@@ -180,7 +180,7 @@ Will update the current array leaving everything but the smaller version that yo
 
 <iframe src="https://repl.it/F9V5/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<p><small><a href="https://repl.it/@4GeeksAcademy/Slice-vs-Splice">Click here to try out live demo</a></small></p>
+<p align="right"><small><a href="https://repl.it/@4GeeksAcademy/Slice-vs-Splice">Click to open demo in a new window</a></small></p>
 
 ## **Sorting the Arrays**
 ***
@@ -226,7 +226,7 @@ var cars = [
 
 <iframe src="https://repl.it/F9YZ/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<p><small><a href="https://repl.it/@4GeeksAcademy/Sorting-Arrays">Click here to try out live demo</a></small></p>
+<p align="right"><small><a href="https://repl.it/@4GeeksAcademy/Sorting-Arrays">Click to open demo in a new window</a></small></p>
 
 
 

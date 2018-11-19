@@ -41,7 +41,7 @@ It does not matter where you write the code.  The only thing that matters is tha
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p><small><a href="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/">Click here to try out live demo</a></small></p>
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/">Click to open demo in a new window</a></small></p>
 
 
 ## The DOM is Spectacular!
@@ -57,7 +57,7 @@ From the moment a website starts being loaded, the browser creates a hierarchy t
 
 <iframe width="578" height="325" src="https://www.youtube.com/embed/Ibxagg2ep5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<p><small><a href="https://www.youtube.com/embed/Ibxagg2ep5g">Click here to check out video</a></small></p>
+<p align="right"><small><a href="https://www.youtube.com/embed/Ibxagg2ep5g">Click here to open video in a new window</a></small></p>
 
 ## How do I access any Object in the DOM?
 ***
@@ -132,7 +132,7 @@ trArray[3].style.background = "red";
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p><small><a href="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/">Click here to try out live demo</a></small></p>
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/">Click to open demo in a new window</a></small></p>
 
 ## The innerHTML
 ***
