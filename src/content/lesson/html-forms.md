@@ -23,6 +23,8 @@ Here is an example of a simple form in HTML:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/L62c4yud/1/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<p><small><a href="//jsfiddle.net/BreatheCode/L62c4yud/1/embedded/html,result/">Click here to try out live demo</a></small></p>
+
 The following is a list of all the possible elements we can use to receive any input from the user:
 
 |**Name**   |**Declaration**   |**Description**   |

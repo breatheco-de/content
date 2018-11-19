@@ -181,7 +181,7 @@ Every component comes with a global object (shared within the same Component onl
 | :point_up:The following demo updates the current time on every second:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/r80q431L/10/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-
+<p><small><a href="//jsfiddle.net/BreatheCode/r80q431L/10/embedded/js,html,result/">Click here to try out live demo</a></small></p>
 ### The State Object is Unmutable (cannot be changed)
 
 The state value can only be modified calling the method this.setState() and you will have to pass a new state object that will be merged with the original value. For example:
@@ -222,6 +222,8 @@ In React, we can set properties the same way and our components will be able to 
 In the code above, we have invented a new property to the ClockComponent example.  We will now have to determine and code how that new property will work inside our component.  In this particular case, we would have to assign a red color style to the text output of the clock, like this:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/r80q431L/8/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<p><small><a href="//jsfiddle.net/BreatheCode/r80q431L/8/embedded/js,html,result/">Click here to try out live demo</a></small></p>
 
 A real high quality component must communicate with other components only throughout its properties.  This way we will be able to re-use that component a lot of times in the future (similar to the way functions and parameters work).
 

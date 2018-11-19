@@ -21,6 +21,10 @@ Computers don’t need visual interfaces, humans do.  But now you are becoming a
 
 <iframe src="https://repl.it/F03k/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
+<p><small><a href="https://repl.it/F03k/0?lite=true">Click here to try out live demo</a></small></p>
+
+
+
 
 [[warning]]
 | :point_up:What happened here?<br>When you pressed "run" the algorithm started executing, and the only action it performed was to print the sentence: "Hello, human… what are your orders for today?" 
@@ -35,6 +39,10 @@ The runtime is the time that passes from the moment your code starts running unt
 This is what a "runtime error" (an error that occurs during runtime) looks like:
 
 <iframe src="https://repl.it/F05K/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+
+<p><small><a href="https://repl.it/F05K/0?lite=true">Click here to try out live demo</a></small></p>
+
+
 
 ## **The Language**
 ***

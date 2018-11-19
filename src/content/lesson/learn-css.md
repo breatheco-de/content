@@ -116,6 +116,9 @@ Let’s assign "first" as the ID of the first cell in the next table, and then w
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/1b78wna2/8/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<p><small><a href="//jsfiddle.net/BreatheCode/1b78wna2/8/embedded/html,css,result/">Click here to check out live demo</a></small></p>
+
+
 ### Class selector
 
 |**Selctor**   |**Description**   |**Example**   |

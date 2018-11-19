@@ -46,6 +46,8 @@ Here are some of the types of events that are constantly being triggered (and yo
 
 <iframe width="100%" height="300" frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/mouse.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<p><small><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/mouse.html">Click here to try out live demo</a></small></p>
+
 ### FRAME – Events
 
 |**Data-Type**    |**Description**    |
@@ -60,6 +62,8 @@ Here are some of the types of events that are constantly being triggered (and yo
 | :point_up: Play with this demo here 
 
 <iframe width="100%" height="300" frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/frame.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<p><small><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/frame.html" allowfullscreen="allowfullscreen">Click here to try out live demo</a></small></p>
 
 ### FORMS – Events 
 
@@ -76,6 +80,8 @@ Here are some of the types of events that are constantly being triggered (and yo
 
 <iframe width="100%" height="300"  frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/forms.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<p><small ><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/forms.html">Click here to try out live demo</a></small></p>
+
 ### KEYBOARD – Events
 
 |**Data-Type**    |**Description**    |
@@ -88,6 +94,9 @@ Here are some of the types of events that are constantly being triggered (and yo
 | :point_up: Play with this demo here 
 
 <iframe width="100%" height="300"  frameborder="1"src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/keyboard.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<p><small><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/keyboard.html">Click here to try out live demo</a></small></p>
+
 
 
 [[info]]
@@ -122,6 +131,8 @@ function myClickHandler(){
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/b7c6gmnd/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<p><small><a href="//jsfiddle.net/BreatheCode/b7c6gmnd/1/embedded/js,html,result/" allowfullscreen="allowfullscreen">Click here to try out live demo</a></small></p>
+
 ## Adding Listeners from JavaScript (during runtime)
 ***
 
@@ -140,6 +151,8 @@ When using the addEventListener function, you have to specify what **event** you
 For example, this code is creating a list of names and each delete anchor in each row is listening to the "click" event – but only for that row.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/1nhjc4t0/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<p><small><a href="//jsfiddle.net/BreatheCode/1nhjc4t0/1/embedded/js,html,result/">Click here to try out live demo</a></small></p>
 
 ##  The Event Object
 ***
@@ -213,6 +226,7 @@ In this code, we are adding an event listener to the click event.  Afterwards, t
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<p><small><a href="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/">Click here to try out live demo</p></small></p>
 
 
 

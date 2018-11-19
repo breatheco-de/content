@@ -11,6 +11,8 @@ tags: ["fale"]
 
 <iframe width="1185" height="667" src="https://www.youtube.com/embed/LGeDZmrWwsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<p><small><a href="https://www.youtube.com/embed/LGeDZmrWwsw">Click here to see video example</a></small></p>
+
 The hardest thing to do in software is not coding – it is designing the system! And we are NOT talking about graphic design…we are talking about architecture, data modeling, customer requirements, etc.  Some of those things are harder than others, but doing a list of requirements is probably one of the trickiest arts.
 
 **What is a Feature?** It is a functionality that the application has!  For example: sign-up, sign-in, vote, buy, etc.

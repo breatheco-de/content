@@ -129,3 +129,7 @@ Finally, we have a new functionality implemented into our project.  To keep addi
 
 <iframe src="https://codesandbox.io/embed/j1nvpono23" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
+<p><small><a href="https://codesandbox.io/embed/j1nvpono23">Click here to try out live demo</a></small></p>
+
+
+

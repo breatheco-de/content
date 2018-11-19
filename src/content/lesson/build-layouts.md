@@ -45,6 +45,8 @@ In the following example, we divided the website content into 2 different areas.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<p><small><a href="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/">Click here to try out live demo</a></small></p>
+
 # **Width and Height**
 ***
 
@@ -58,6 +60,8 @@ The browser is responsible for assigning positions to all elements of a page.   
 In order for a website to look like today’s websites, we have to redesign the entire page positioning.  This is achieved by using both the "position" property  and the "display" property  (which we will learn later on) so that we can replicate whatever layout imaginable by the most avid designer.
 
 <iframe src="https://www.youtube.com/embed/hFvOgu3bcOk" frameborder="0" allowfullscreen ></iframe>
+
+<p><small><a href="https://www.youtube.com/embed/hFvOgu3bcOk">Click here to check out video</a></small></p>
 
 |**Name**   |**Description**   |
 |:----------|:-----------------|
@@ -77,6 +81,9 @@ It is common to find this attribute in menus, social network activity feeds, etc
 
 <iframe src="https://www.youtube.com/embed/pgCLHD4FNjg" frameborder="0" allowfullscreen></iframe>
 
+<p><small><a href="https://www.youtube.com/embed/pgCLHD4FNjg">Click here to check out video</a></small></p>
+
+
 |**Name**   |**Description**   |
 |:----------|:-----------------|
 |Inline     |This is the default value of `<strong>`, `<i>`, `<a>`, `<span>`, etc.  The elements will behave like text and will not have rigid limits (neither width, nor height).    |
@@ -94,6 +101,8 @@ Float is a simple but very useful attribute.  Float works by telling a box to mo
 Float is very much used in blogs when you want to add images to your articles.  It is very good in these cases, because once the photo is moved to one side, the text of the article surrounds the image in a very natural way.
 
 <iframe src="https://www.youtube.com/embed/htdLSAZ2ZH8" frameborder="0" allowfullscreen ></iframe>
+
+<p><small><a href="https://www.youtube.com/embed/htdLSAZ2ZH8">Click here to check out video</a></small></p>
 
 |**Name**   |**Description**   |
 |:----------|:-----------------|
@@ -133,6 +142,10 @@ Here is the exact code needed to have the website content always aligned at the 
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<p><small><a href="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/">Click her to try out live demo</a></small></p>
+
+
+
 ### Left Sidebar Fixed
 ***
 
@@ -142,12 +155,16 @@ This pre-work website has a left sidebar and is a great option for us because we
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<p><small><a href="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/">Click here to try out live video</a></small></p>
+
 ### Top Menu with Left Sidebar
 ***
 
 This is almost the same, but instead of having the left-sidebar as the primary menu, you will use it as complementary content.  The main menu should be at the top box because is the first thing users see when they land on the website.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<p><small><a href="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/">Click her to try out live demo</a></small></p>
 
 ## Responsive Masonry
 ***
@@ -157,6 +174,8 @@ Pinterest made this layout universally known.  By using this "innovative" UI, th
 Another great thing about Masonry is that each box can have its own height.   That is challenging in CSS because some older browsers don’t support that feature yet and you will have to use Javascript to patch it.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<p><small><a href="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/">Click here to try out live demo</a></small></p>
 
 ## Popups / Modal Windows / Alerts
 ***
@@ -171,6 +190,8 @@ To replicate the alert behavior you have to:
 + Add a close button to make the div display: none; (invisible) when the user clicks on close [(you have to use JavaScript to capture the user click)](https://stackoverflow.com/questions/3177582/how-to-hide-div-by-onclick-using-javascript).
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/8co2hnj1/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<p><small><a href="//jsfiddle.net/BreatheCode/8co2hnj1/1/embedded/html,css,result/">Click here to try out live demo</a></small></p>
 
 # **Live Demo: Play with the Box**
 ***

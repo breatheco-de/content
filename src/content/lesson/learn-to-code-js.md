@@ -22,6 +22,8 @@ No matter what the computer is made for, the very base of its existence is the s
 
 <iframe width="830" height="467" src="https://www.youtube.com/embed/Q-eob0WBKs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<p><small><a href="https://www.youtube.com/embed/Q-eob0WBKs0">Click here to check out video</a></small></p>
+
 Variables are not a new concept, anybody who knows math is familiar with the concept of variables.
 
 A variable is a container in which you can store any data.  For example, you can have the following variable:
@@ -77,6 +79,8 @@ Variable values are subject to change over time.  To retrieve a variable value y
 
 <iframe src="https://repl.it/F0R2/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
+<p><small><a href="https://repl.it/F0R2/1?lite=true" >Click here to try out live demo</a></small></p>
+
 
 
 ## **Data Types**
@@ -94,6 +98,10 @@ Variables can have different types of values.  Some of them are available only i
 |Null     |Only null    |Is used to specify when the database or any other function does not return anything.   |
 
 <iframe src="https://repl.it/F05K/3?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+
+<p><small><a href="https://repl.it/F05K/3?lite=true">Click here to try out live demo</a></small></p>
+
+
 
 
 ## **Operations**
@@ -135,6 +143,8 @@ function multiply (param1, param2)
 ```
 <iframe src="https://repl.it/F10t/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
+<p><small><a href="https://repl.it/F10t/0?lite=true">Click here to try out live demo</a></small></p>
+
 ## **Parameters and Function Scope**
 ***
 
@@ -149,6 +159,8 @@ A local variable is available only inside the scope of the nearest curly bracket
 If you declare a variable at the beginning of your code, it will be available throughout the entire code – including during the content of any particular function.
 
 <iframe src="https://repl.it/F10t/2?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+
+<p><small><a href="https://repl.it/F10t/2?lite=true">Click here to try out live demo</a></small></p>
 
 ## Logical Operations
 ***
@@ -207,6 +219,8 @@ Similar to if…else… but a little bit more organized.  Here you will specify 
 
 <iframe src="https://repl.it/F2EK/5?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
+<p><small><a href="https://repl.it/F2EK/5?lite=true">Click here to try out live demo</a></small></p>
+
 [[info]]
 |Use `switch` instead of `if` when:<br><br>• You are comparing multiple possible conditions of an expression and the expression itself is non-trivial.<br>• You have multiple values that may require the same code.<br>• You have some values that will require essentially all of another value’s execution, plus only a few statements.<br><br>Use `if` instead of `switch` when:<br><br>• You want to test for the truthfulness of an expression.<br>• You only have a single affirmative test.<br>• You need to evaluate different expressions for each branch.
 
@@ -238,6 +252,9 @@ console.log("Sum = " + sum);
 Note:  When looping, make sure that the statement will eventually return false so that you avoid an infinite loop.  In an infinite loop, the code executes indefinitely and will cause your browser to crash.
 
 <iframe width="578" height="325" src="https://www.youtube.com/embed/TSMzvFwpE_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p><small><a href="https://www.youtube.com/embed/TSMzvFwpE_A">Click here to check out video</a></small></p>
+
 
 ```javascript
 for (var i = 0; i < 10; i++) { 
