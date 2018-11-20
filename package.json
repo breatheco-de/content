@@ -1,8 +1,8 @@
 {
   "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "BreatheCode's Content Platform",
+  "version": "0.0.1",
+  "author": "Alejandro Sanchez <aalejo@gmail.com>",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "css-element-queries": "^1.0.5",

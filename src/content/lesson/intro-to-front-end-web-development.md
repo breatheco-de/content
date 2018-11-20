@@ -1,12 +1,8 @@
 ---
 title: "Intro to Front-End Web Development"
 subtitle: "Front-end is all about using the power of code to generate HTML and CSS dynamically. Let the computer code while you sleep."
-<<<<<<< HEAD
 cover: "https://www.desktopbackground.org/p/2013/09/13/637935_nasa-wallpapers_1600x1200_h.jpg"
-textColor: 'white'
-=======
-
->>>>>>> ad73127526d7ace3d395d9d884cbb5736fbff232
+textColor: "white"
 date: "2018-05-11"
 tags: ["fale"]
 ---

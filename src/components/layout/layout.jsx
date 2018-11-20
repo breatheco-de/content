@@ -12,7 +12,7 @@ require("prismjs/themes/prism-okaidia.css");
 export const Layout = ({ children }) => (
  <StaticQuery
    query={graphql`
-     query LayoutQuery() {
+     query LayoutQuery {
         site {
             siteMetadata {
                 title
