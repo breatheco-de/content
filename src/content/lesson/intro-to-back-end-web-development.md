@@ -1,6 +1,6 @@
 ---
 title: "Intro to Back-End Web Development"
-time: "10 minutes"
+
 date: "2018-05-11"
 tags: ["fale"]
 ---
@@ -18,11 +18,11 @@ All the work was done by the server: since there was no JavaScript, the DOM coul
 
 **Think about the server like a "document generator."**  It can be an image, a video, a text document, JSON, HTML, CSS, etc.  The server’s responsibility is to respond with content each time a client requests it.
 
-![backend1](https://ucarecdn.com/b04c5fe2-1360-495a-bb97-e4afd6d29263/-/resize/600x/)
+![backend1](https://ucarecdn.com/2c0000ef-2907-43cb-80ed-2ba4f194b83e/)
 
 Along with the generated document content, the server can also specify what type of content is responding, allowing the browser to read and interpret the response in an accurate way.  The response formats available can be hundreds, but this are the most common:
 
-#### Server Response Content-Types
+### Server Response Content-Types
 
 |**Content-type**   |**Description**   |
 |:------------------|:-----------------|

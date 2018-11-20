@@ -3,7 +3,7 @@ title: "Getting to know Bootstrap 4"
 subtitle: "After decades of struggling, one guy had the idea of creating a basic CSS Stylesheet to be used as the base of any website, enabling everyone to do a lot of stuff in just a few lines! 
 
 Today, it is almost stupid, and, also impossible to think about doing a website without a CSS framework like Bootstrap."
-time: "15 minutes"
+
 date: "2018-01-11"
 tags: ["fale"]
 ---
@@ -46,6 +46,8 @@ On the flip side, columns were made to live within the rows (just like what happ
 Just like we did in the Layout chapter of the course, let’s create one page with 2 big sections: one sidebar on the right and one main content on the left.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/th7uLrow/4/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/th7uLrow/4/embedded/html,css,result/">Click here to open demo in a new window</a></small></p>
 
 ## Bootstrap is 100% Responsive
 ***
@@ -274,6 +276,8 @@ Success does not come overnight.  This is your first real achievement.  Let me a
 No more lessons on these topics – it is time to deliver.  Your attention must be focused on the class projects.  Remember to live by the developer values.  Chill.
 
 <iframe src="https://www.youtube.com/embed/RqHNyyvfafE" frameborder="0" allowfullscreen></iframe>
+
+<p align="right"><small><a href="https://www.youtube.com/embed/RqHNyyvfafE">Click here to open video in new window</a></small></p>
 
 
 

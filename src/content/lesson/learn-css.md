@@ -5,7 +5,7 @@ subtitle: "As you may have noticed, HTML allows you to create only basic website
 Nobody wants to see a white website with some horrible text on it.  
 
 it's time to make your website beautiful. It's CSS time!."
-time: "10 minutes"
+
 date: "2018-31-10"
 tags: ["fale"]
 ---
@@ -115,6 +115,9 @@ The next table established a list of all the possible selectors available to use
 Let’s assign "first" as the ID of the first cell in the next table, and then with CSS we are going to specify that the "first" ID must have a yellow background:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/1b78wna2/8/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/1b78wna2/8/embedded/html,css,result/">Click here to open demo in a new window</a></small></p>
+
 
 ### Class selector
 

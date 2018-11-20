@@ -1,7 +1,7 @@
 ---
 title: "The DOM"
 subtitle: "The only way to interact with your code is throughout The DOM. It is a hierarchy stored in memory that contains all of your website elements in real-time. DOM Manipulation is the most popular activity for any front-end developer. The DOM brings your applications to life!"
-time: "8  minutes"
+
 date: "2018-05-15"
 tags: ["fale"]
 ---
@@ -41,9 +41,8 @@ It does not matter where you write the code.  The only thing that matters is tha
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/">Click to open demo in a new window</a></small></p>
 
-[[demo]]
-| :point_up: For live demos See this code live here: https://repl.it/FacP/2
 
 ## The DOM is Spectacular!
 ***
@@ -57,6 +56,8 @@ From the moment a website starts being loaded, the browser creates a hierarchy t
 + The "Google Inspector" is the best representation of The DOM today.
 
 <iframe width="578" height="325" src="https://www.youtube.com/embed/Ibxagg2ep5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p align="right"><small><a href="https://www.youtube.com/embed/Ibxagg2ep5g">Click here to open video in a new window</a></small></p>
 
 ## How do I access any Object in the DOM?
 ***
@@ -131,16 +132,14 @@ trArray[3].style.background = "red";
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-
-[[demo]]
-| :point_up: Edit and play with this code by [clicking here.](https://repl.it/@4GeeksAcademy/CSS-Query-Selector)
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/">Click to open demo in a new window</a></small></p>
 
 ## The innerHTML
 ***
 
 As you already know, each element in the HTML document can have some sort of HTML content.  It does not matter if it is a `<P>`, `<DIV>`,`<A>` or any other HTML element; it can have its own innerHTML combined with more HTML content.
 
-![thedom2](https://ucarecdn.com/6c92ad73-36a3-428f-9851-03abaa24b4ca/-/resize/900x/)
+![thedom2](https://ucarecdn.com/2387325b-338c-4c18-bb0f-2f95ed28901f/-/resize/900x/)
 
 The .innerHTML property gives you the ability to retrieve or set the content of whatever element you have in your JavaScript.  For example:
 

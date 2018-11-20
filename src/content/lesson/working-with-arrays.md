@@ -26,7 +26,7 @@ Every array has the same basic concepts:
 
 **Index:** is the position of the element.
 
-![arrays1](https://ucarecdn.com/81b304a4-9d35-4c88-b553-993ca6d87d83/)
+![arrays1](https://ucarecdn.com/7ed2c414-0d00-4e68-b659-b65c26d1983a/-/resize/1000x/)
 
 
 [[info]]
@@ -40,12 +40,12 @@ These are different examples of list declarations:
 ```javascript
 var myArray = []; //empty list 
 var myArray = ["Apple", "Orange", "Donkey"]; //with 3 string items by default. 
-var myArray = new Array(1,2,3,4,5); //Don’t use this! Read below to learn why. 
+var myArray = new Array(1,2,3,4,5); //Don't use this! Read below to learn why. 
 ```
 
 
 [[warning]]
-| :point_up:Don’t declare the Arrays with the `new **Array**()` syntax – it will not behave.  [click here to learn the details](https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
+| :point_up:Don't declare the Arrays with the `new Array()` syntax – it will not behave.  [click here to learn the details](https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
 
 ## **Access Items in the Array**
 ***
@@ -67,8 +67,8 @@ var aux = myArray[5];
 If you want, you can reset or update any item inside of an array using the index like this:
 
 ```javascript
-myArray[5] = ‘Whatever value’;
-//This will set the value ‘Whatever value’ to the 6th element in the array.
+myArray[5] = 'Whatever value';
+//This will set the value 'Whatever value' to the 6th element in the array.
 ```
 
 ## **Adding Elements (push function)**
@@ -77,9 +77,9 @@ myArray[5] = ‘Whatever value’;
 The only way to add a new element is at the end of the list, and you will need to use the push() function for that.
 
 ```javascript
-var myArray = [‘Pedro’,’Juan’,’Maria’];
-    myArray.push(‘Chris’);
-    console.log(myArray); //this will print [‘Pedro’,’Juan’,’Maria’,’Chris’];
+var myArray = ['Pedro','Juan','Maria'];
+    myArray.push('Chris');
+    console.log(myArray); //this will print ['Pedro','Juan','Maria','Chris'];
 ```
 
 But…what if I want to add Chris in the second position?
@@ -87,13 +87,13 @@ But…what if I want to add Chris in the second position?
 Then…you need to create a new empty array and start pushing the elements in the order that you need them.  In this case it will be:
 
 ```javascript
-var myArray = [‘Pedro’,’Juan’,’Maria’];
+var myArray = ['Pedro','Juan','Maria'];
 var myNewArray = [];
-    myNewArray.push(‘Pedro’);
-    myNewArray.push(‘Chris’);
-    myNewArray.push(‘Juan’);
-    myNewArray.push(‘Maria’);
-    console.log(myNewArray); //this will print [‘Pedro’,’Chris’,’Juan’,’Maria’];
+    myNewArray.push('Pedro');
+    myNewArray.push('Chris');
+    myNewArray.push('Juan');
+    myNewArray.push('Maria');
+    console.log(myNewArray); //this will print ['Pedro','Chris','Juan','Maria'];
 
 ```
 
@@ -103,15 +103,15 @@ var myNewArray = [];
 Removing an element has the exact same limitations as in adding an element: you can only remove an element from the last position using the pull() function.  If you want to remove a different element, you will need to create a new array without that particular element.
 
 ```javascript
-var myArray = [‘Pedro’,’Chris’,’Juan’,’Maria’];
+var myArray = ['Pedro','Chris','Juan','Maria'];
     myArray.pop();
-    console.log(myArray); //this will print [‘Pedro’,’Chris’,’Juan’]; 
-//If you want to remove ‘Chris’, you need to do the following: 
+    console.log(myArray); //this will print ['Pedro','Chris','Juan']; 
+//If you want to remove 'Chris', you need to do the following: 
 var myNewArray = [];
-    myNewArray.push(‘Pedro’);
-    myNewArray.push(‘Juan’);
-    myNewArray.push(‘Maria’);
-    console.log(myNewArray); //this will print [‘Pedro’,’Juan’,’Maria’];
+    myNewArray.push('Pedro');
+    myNewArray.push('Juan');
+    myNewArray.push('Maria');
+    console.log(myNewArray); //this will print ['Pedro','Juan','Maria'];
 ```
 
 ## **Removing/Adding from the Beginning**
@@ -120,14 +120,14 @@ var myNewArray = [];
 The shift and unshift methods are just like push and pop but with the difference that they will only work from the very beginning of the list.
 
 ```javascript
-var myArray = [‘Juan’,’Maria’];
-    myArray.unshift(‘Pedro’);
-    myArray.unshift(‘Chris’,’Bob’);
-    console.log(myArray); //this will print [‘Chris’,’Bob’,’Pedro’,’Juan’,’Maria’]; 
-//If you want to remove ‘Chris’, you need to do the following: 
-var myArray = [‘Chris’,’Bob’,’Pedro’,’Juan’,’Maria’];
+var myArray = ['Juan','Maria'];
+    myArray.unshift('Pedro');
+    myArray.unshift('Chris','Bob');
+    console.log(myArray); //this will print ['Chris','Bob','Pedro','Juan','Maria']; 
+//If you want to remove 'Chris', you need to do the following: 
+var myArray = ['Chris','Bob','Pedro','Juan','Maria'];
     myArray.shift();
-    console.log(myArray); //this will print [‘Bob’,’Pedro’,’Juan’,’Maria’];
+    console.log(myArray); //this will print ['Bob','Pedro','Juan','Maria'];
 ```
 
 ## **Looping an Array**
@@ -176,9 +176,11 @@ Will return a new array with a smaller version of the original array.  You have 
 
 Will update the current array leaving everything but the smaller version that you want to remove.   You will need to specify the starting and ending indexes from where you want to remove.
 
-![arrays2](https://ucarecdn.com/274989fb-42f9-44bc-a669-d360c69cdc2a/)
+![arrays2](https://ucarecdn.com/7e098348-df50-442b-801e-ac9d098fbc09/-/resize/700x/)
 
 <iframe src="https://repl.it/F9V5/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+
+<p align="right"><small><a href="https://repl.it/@4GeeksAcademy/Slice-vs-Splice">Click to open demo in a new window</a></small></p>
 
 ## **Sorting the Arrays**
 ***
@@ -219,10 +221,12 @@ var cars = [
     {type:"Saab", year:2001},
     {type:"BMW", year:2010}];
     cars.sort(function(a, b){return a.year – b.year});
-    console.log(cars); //[ { type: ‘Saab’, year: 2001 },{ type: ‘BMW’, year: 2010 },{ type: ‘Volvo’, year: 2016 } ]
+    console.log(cars); //[ { type: 'Saab', year: 2001 },{ type: 'BMW', year: 2010 },{ type: 'Volvo', year: 2016 } ]
 ```
 
 <iframe src="https://repl.it/F9YZ/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+
+<p align="right"><small><a href="https://repl.it/@4GeeksAcademy/Sorting-Arrays">Click to open demo in a new window</a></small></p>
 
 
 

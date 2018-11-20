@@ -3,7 +3,7 @@ title: "HTML Forms"
 subtitle: "Forms are really easy to understand, and they are the ONLY way to make interactive websites without AJAX.
 cover: "https://www.desktopbackground.org/p/2013/09/13/637935_nasa-wallpapers_1600x1200_h.jpg"
 These very basic concepts represent 90% of everything you will ever need to know about forms."
-time: "3 minutes"
+
 date: "2018-01-11"
 tags: ["fale"]
 ---
@@ -22,6 +22,8 @@ The elements that the user fills in a form are called `<inputs>` and they always
 Here is an example of a simple form in HTML:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/L62c4yud/1/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/L62c4yud/1/embedded/html,result/">Click to open demo in a new window</a></small></p>
 
 The following is a list of all the possible elements we can use to receive any input from the user:
 

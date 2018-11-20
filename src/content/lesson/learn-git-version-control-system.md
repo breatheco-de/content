@@ -3,7 +3,7 @@ title: "Learn GIT Version Control System"
 subtitle: "GIT is the main way developers use to collaborate with each other. As a developer you will use GIT EVERY day. 
 
 Without GIT you won't be able to work at any company, and you won't be able to use anyone's code."
-time: "20 minutes"
+
 date: "2018-02-08"
 tags: ["fale"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "From Javascript to jQuery"
 date: "2018-05-11"
-time: "10 minutes"
+
 tags: ["fale"]
 ---
 
@@ -57,7 +57,7 @@ To download jQuery, go to code.jquery.com and pick the last MINIFIED version of 
 
 Then, use the `<script>` tag to import that file into your website.  Place the `<script>` tag inside of the `<head>` tag **before any other JavaScript tag.**
 
-![jquery1](https://ucarecdn.com/04c63654-5102-43e6-839c-f59d3a433387/-/resize/800x/)
+![jquery1](https://ucarecdn.com/04c63654-5102-43e6-839c-f59d3a433387/)
 
 ##### 2) Use a CDN 
 
@@ -65,10 +65,10 @@ Content Distribution Networks are servers that are used specifically to store li
 
 We recommend [the Google CDN:](https://developers.google.com/speed/libraries/) look for jQuery and copy the `<script>` of the latest version of jQuery available.  Paste that script tag **before any other JavaScript script tag inside your website** `<head>`.
 
-![jquery2](https://ucarecdn.com/29e81ea6-e5b8-4173-a3f3-59b19ad0cd11/-/resize/800x/)
+![jquery2](https://ucarecdn.com/29e81ea6-e5b8-4173-a3f3-59b19ad0cd11/)
 
 ```html
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
     <title>repl.it</title>
@@ -100,7 +100,8 @@ console.log($ === jQuery);  // "true"
 To avoid feeling confused, you will need to understand that jQuery is ADDICTED to inline functions.  For example, the code below is very common when using jQuery to listener for the click event.  The handler function is declared in the same line – like this:
 
 ```javascript
-$(element).click(function() { //your function code here 
+$(element).click(function() { 
+  //your function code here 
 });
 ```
 
@@ -120,7 +121,7 @@ You are used to working with function parameters like this:
 
 ```javascript
 functionName(param1, param2, param3);
-//function call with 3 parameters
+  //function call with 3 parameters
 ```
 
 When using jQuery, the best practice is to always pass one "settings object" as a parameter instead of passing several parameters separated by commas – like this:
@@ -132,7 +133,7 @@ param_key2 : param_value2,
 param_key3 : param_value3
 }
 functionName(settingsObj);
-//Function call with 3 parameters inside the settingsObj 
+  //Function call with 3 parameters inside the settingsObj 
 ```
 
 [[info]]
@@ -146,7 +147,8 @@ We have a section that talks just about events, but it is a good idea to talk ab
 The flow of your website begins on the "ready" event.  That event is called when the website and all of its elements have finished loading.  As a developer, you will need to add an event listener for the ready event like this:
 
 ```javascript
-$( document ).ready(function() {  // Handler for .ready() called. Your code here 
+$( document ).ready(function() {  
+    // Handler for .ready() called. Your code here 
 });
 ```
 
@@ -157,25 +159,30 @@ jQuery really helps when working with classes because the only way to update a c
 
 For example, if you want to remove one specific class from an element you will first have to get the value of the class attribute as a string.  Next, create a new string – just like the first one – but without that particular class.
 
+&nbsp;
+&nbsp;
 #### **Select Elements from the DOM**
 
-`With vanilla JavaScript`
+##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
 
 ```javascript
 var elm = document.getElementById(‘elementId’);
 var elmArray = document.getElementsByClassName(‘elementId’);
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 var elem = $(‘#elementId’);
 var elemArray = $(‘.elm_class’);
 ```
 
+&nbsp;
+&nbsp;
 #### **Create a New DOM Element**
 
-`With vanilla JavaScript`
+##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+
 
 ```javascript
 var myAnchor = document.createElement("A");
@@ -183,7 +190,7 @@ myAnchor.href="http://google.com";
 myAnchor.target="_blank";
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 var attributesObj = {
@@ -192,56 +199,66 @@ parent: ‘_blank’
 }
 $(‘<a>’,attributesObj);  //the attributesObj is optional
 ```
-
+&nbsp;
+&nbsp;
 #### **Append Child**
 
-`With vanilla JavaScript`
+##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+
 
 ```javascript
 parent.appendChild(el);
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $(parent).append(el);
 ```
 
+&nbsp;
+&nbsp;
 #### **Remove Element**
 
 Vanilla JS doesn’t have a remove() function.  You will have to call a removeChild function form the element’s parent.
 
-`With vanilla JavaScript`
+##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+
 
 ```javascript
 elm.parentNode.removeChild(elm);
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $( ".hello" ).remove(); //Remove all elements with class hello 
 $( ".hello" ).empty(); //Remove all childs of elements with class hello 
 var elements = $( ".hello" ).detach(); //Remove the elements from the DOM but return them to store them in a variable
 ```
-
+&nbsp;
+&nbsp;
 #### **Replace Element**
 
-`With vanilla JavaScript`
+##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+
 
 ```javascript
 elm.parentNode.replaceChild(myNewHeading, elm); //being myNewHeding a DOM element
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $( "#div1" ).replaceWith( "<h1>This is a new heding</h1>" );
 ```
 
+&nbsp;
+&nbsp;
 #### **Traverse childs**
 
-`With vanilla JavaScript`
+##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+
 
 ```javascript
 var parent = document.querySelector(css_elector);
@@ -251,7 +268,7 @@ childs.forEach(function(elm, index){
 });
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $(css_selector).find(selector).each(function(index, elm){
@@ -259,16 +276,19 @@ $(css_selector).find(selector).each(function(index, elm){
 });
 ```
 
+&nbsp;
+&nbsp;
 #### **Get/set attribute**
 
-`With vanilla JavaScript`
+##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+
 
 ```javascript
 el.getAttribute(‘tabindex’);
 el.setAttribute(‘tabindex’, 3);
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $(el).attr(‘tabindex’);
@@ -286,43 +306,51 @@ jQuery really helps when working with classes because the only way to update a c
 
 For example, if you want to remove one specific class from an element, you will have to get the value of the class attribute as a string and then create a new string – just like the first one – but without that particular class.
 
-![jaquery6](https://ucarecdn.com/df85715a-646d-4d73-b948-4bc95841e35b/-/resize/1000x/)
+![jaquery6](https://ucarecdn.com/655a85b3-660f-45bf-8563-2bcbe13bf0e5/)
 
+&nbsp;
+&nbsp;
 #### **Add/Remove CSS Class**
 
-`With vanilla JavaScript`
+##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+
 
 ```javascript
 el.className += ‘ ‘ + className; //add 
 el.className = el.className.replace("classname", ""); //remove
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $(el).addClass(className);
 $(el).removeClass(className);
 ```
-
+&nbsp;
+&nbsp;
 #### **Get/Set CSS Style Rules**
 
-`With vanilla Javascript`
+##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+
 
 ```javascript
 el.style.borderWidth = ’20px’;
 getComputedStyle(el)[ruleName];
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $(el).css(‘border-width’, ’20px’);
 $(el).css(ruleName);
 ```
 
+&nbsp;
+&nbsp;
 #### **Toggle Class**
 
-`With vanilla Javascript`
+##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+
 
 ```javascript
 var classes = el.className.split(‘ ‘);
@@ -336,7 +364,7 @@ var classes = el.className.split(‘ ‘);
   el.className = classes.join(‘ ‘);
   ```
 
-  `with jQuery`
+  ##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
   ```javascript
   $(el).toggleClass(className);
@@ -357,7 +385,8 @@ jQuery does not add much value when working with events, we have the same concep
 
 The only really great advantage when working with jQuery events is the jQuery selector, because now you can attach a listener to several objects at the same time without having to iterate through all of them. For example, lets try to add a listener to the click event on all the elements with the class ".btn"
 
-`With vanilla Javascript`
+##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+
 
 ```javascript
 var myElementsArray = document.querySelectorAll(‘.btn’);
@@ -368,11 +397,11 @@ alert(‘s’);
 });
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $(‘.btn’).on( "click", function(){
-//your code here 
+  //your code here 
 });
 ```
 
@@ -391,26 +420,27 @@ For example, if you want to remove one specific class from an element you will h
 
 #### **GET request**
 
-`With vanilla Javascript`
+##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+
 
 ```javascript
 var request = new XMLHttpRequest();
 request.open(‘GET’, ‘/my/url’, true);
 request.onload = function() {
 if (request.status >= 200 && request.status < 400) {
-// Success! 
+  // Success! 
 var data = JSON.parse(request.responseText);
 } else {
-// We reached our target server, but it returned an error 
+  // We reached our target server, but it returned an error 
 }
 };
 request.onerror = function() {
-// There was a connection error of some sort 
+  // There was a connection error of some sort 
 };
 request.send();
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $.ajax({
@@ -424,10 +454,12 @@ $.ajax({
   }
 });
 ```
-
+&nbsp;
+&nbsp;
 #### **POST request**
 
-`With vanilla Javascript`
+##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+
 
 ```javascript
 var http = new XMLHttpRequest();
@@ -444,7 +476,7 @@ alert(http.responseText);
 http.send(params);
 ```
 
-`with jQuery`
+##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
 
 ```javascript
 $.ajax({

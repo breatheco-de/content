@@ -1,7 +1,7 @@
 ---
 title: "Internet Arquitecture"
 subtitle: "Everything you see on the internet is a text document. Everything!! As developers, all we do is generate chunks of text based on a set of criteria. If you understand this simple concept, the sky will be the limit."
-time: "8 minutes"
+
 date: "2017-08-10"
 tags: ["fale"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Object Oriented Programming"
 subtitle: "Classes are the last pieces needed to master the programming tricks! Welcome to the amazing world of object-oriented programming."
-time: "10  minutes"
+
 date: "2018-05-11"
 tags: ["fale"]
 ---
@@ -45,7 +45,7 @@ Classes and objects are the two main aspects of object oriented programming.  A 
 
 > Let’s say you have a new car with licence plate XHR-ABM.  That specific object will be the instance of an object with the car class.
 
-![obj1](https://ucarecdn.com/0073f14a-e608-4866-8570-c36c24a362e3/-/resize/800x/)
+![obj1](https://ucarecdn.com/ed2a2bfb-95eb-473f-af7c-aa9f1d4c055e/-/resize/700x/)
 
 ## Defining Classes (abstraction)
 ***
@@ -58,7 +58,7 @@ Every application and website that you are going to build needs to have its own 
 
 For example: A Person class has: skin color, race, name, social-security number, etc.  All properties have a data-type, like: Integer, String, Float, Null, Arrays.
 
-![obj2](https://ucarecdn.com/fc1328ac-a164-4869-ab72-00828d1f3b38/-/resize/400x/)
+![obj2](https://ucarecdn.com/10ce9a67-1060-4550-a824-5087688d0630/-/resize/400x/)
 
 ***
 
@@ -68,7 +68,7 @@ If we want to store the birth-date of the person using simple data-types we will
 
 A better solution will be to use pre-defined Date classes or functions that come with most of the back-end programming languages, for example [PHP Date](https://www.w3schools.com/php/php_date.asp) or [Python datetime.](https://www.pythonforbeginners.com/basics/python-datetime-time-examples)
 
-![obj3](https://ucarecdn.com/22f1b91a-fd3f-4f8f-95a7-23e99db7e2fa/-/resize/400x/)
+![obj3](https://ucarecdn.com/6f07bc8b-6d21-46e6-8710-34992df2508b/-/resize/400x/)
 
 ***
 
@@ -76,9 +76,9 @@ A better solution will be to use pre-defined Date classes or functions that come
 
 Some properties are calculated during runtime every time we need them.  For example: age.  The problem with age is that it changes over time.  That is why it is not a good idea to store the current age of the user.   Instead, it is better to declare a calculated property called "Age," and declare a function that calculates the current age of the user based on its birthDate.
 
-![obj4](https://ucarecdn.com/e025c0b5-40d5-4a7d-9e8c-adc8710cef30/-/resize/400x/)
+![obj4](https://ucarecdn.com/a2a08a9f-5a5c-415e-93d6-c8a45aecb23d/-/resize/400x/)
 
-***
+
 
 ## Lets do our first Class-Diagram!
 ***
@@ -114,7 +114,7 @@ Clients have usernames, names, lastNames.  Cars have color, brand, price, etc.  
 
 ### Our Class Model is looking like this:
 
-![obj 5](https://ucarecdn.com/1b5bcf3b-78f7-490f-a599-820e4e7a62f1/-/resize/800x/)
+![obj 5](https://ucarecdn.com/61908aa1-63a5-40b1-8a53-8c7b202d4ef3/-/resize/800x/)
 
 ### Writing the Functions, Relationships and Inheritance
 
@@ -188,9 +188,18 @@ Perhaps you may feel that there it is pointless to use "getters" and "setters" f
 
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Object-Oriented-Javascript?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
+<p align="right"><small><a href="https://repl.it/@4GeeksAcademy/Object-Oriented-Javascript?lite=true">Click here to open demo in a new window</a></small></p>
+
+
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Python-Class-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
+<p align="right"><small>
+<a href="https://repl.it/@4GeeksAcademy/Python-Class-Example?lite=true">Click here to open demo in new window</a></small></p>
+
+
 <iframe src="https://repl.it/G1cx/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+
+<p align="right"><small><a href="https://repl.it/G1cx/0?lite=true">Click here to open demo in a new window</a></small></p>
 
 [[warning]]
 | :point_up:Some languages, like PHP, have their own __get and __set magic functions to implement getters and setters.  However, this is not a good idea because of performance issues.  It is a better idea to create your own "get/set" functions according to your project needs.  [Here is the reasoning behind it.](https://stackoverflow.com/questions/6184337/best-practice-php-magic-methods-set-and-get)
@@ -223,11 +232,16 @@ Perhaps you may feel that there it is pointless to use "getters" and "setters" f
 
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/ObjectOriented2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
+<p align="right"><small><a hrerf="https://repl.it/@4GeeksAcademy/ObjectOriented2?lite=true">Click here to open demo in a new window</a></small></p>
+
+
 <iframe src="https://repl.it/G1cq/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+
+<p align="right"><small ><a href="https://repl.it/G1cq/0?lite=true">Click here to open demo in a new window</a></small></p>
 
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Python-Class-Inheritance?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-
+<p align="right"><small><a href="https://repl.it/@4GeeksAcademy/Python-Class-Inheritance?lite=true">Click here to open demo in a new window</a></small></p>
 
 
 

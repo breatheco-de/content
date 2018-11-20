@@ -1,7 +1,7 @@
 ---
 title: "Mastering CSS Selectors"
 subtitle: "Aside from mastering the display and position CSS rule, learning how to use the CSS selectors is the most important skill you need to develop. You don't have to remember the syntax of each of them. But you do need to have them on your radar in order to be able to develop the right strategies when building your CSS stylesheet. "
-time: "8 minutes"
+
 date: "2018-01-11"
 tags: ["fale"]
 ---
@@ -45,6 +45,12 @@ This statement takes the paragraph tags that are children of the div and turns t
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/">Click to open demo in a new window</a></small></p>
+
+
+
+
+
 ## **The Adjacent Sibling Selector**
 ***
 
@@ -62,6 +68,8 @@ The first paragraph in the list is preceded by the div, so it isn’t changed.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/">Click to open demo in a new window</a></small></p>
+
 ## **The Almighty Asterisk**
 ***
 
@@ -75,6 +83,9 @@ The following turns every element inside a div red – this includes items like 
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/79254pm6/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/79254pm6/2/embedded/html,css,result/">Click here to try  out live demo</a></small></p>
+
+
 
 ```css
 div * p {
@@ -86,6 +97,9 @@ You can take this as far as you want – the following targets the "great grandc
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<a><small><a href="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/">Click to open demo in a new window</a></small></p>
+
+
 # **Attribute Value Selector**
 ***
 
@@ -96,6 +110,9 @@ If we want to change the font color of the "Design Shack" link, we could use :ps
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/">Click to open demo in a new window</a></small></p>
+
+
 ## **Arbitrary Substring Attribute Value Selector**
 ***
 
@@ -105,6 +122,8 @@ div[id*='section'] {color: red;}
 The following code targets any div with the word "section" in the title.  It can be "section3" or "section-Four" – it doesn’t matter.  As long as it contains the indicated string, the subsequent styles will apply.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/">Click to open demo in a new window</a></small></p>
 
 # **Pseudo Class Selectors**
 ***
@@ -125,6 +144,10 @@ You can change colors in any element on the website, depending on its status:
 + `:active` is when the mouse is clicking on it.
   
   <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/">Click here to try out  live demo</a></small></p>
+
+
   
 ### Input-related pseudo selectors 
 
@@ -143,6 +166,8 @@ It is very important to take enough time to style our forms.  Styling is the bes
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/">Click to open demo in a new window</a></small></p>
+
 ### Position-based pseudo selectors 
 
 ```css
@@ -153,6 +178,8 @@ It is very important to take enough time to style our forms.  Styling is the bes
 You can apply styles to elements based on their position.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/0nzat2h8/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/0nzat2h8/1/embedded/html,css,result/">Click to open demo in a new window</a></small></p>
 
 ### Here is a list of the most used Pseudo-Classes:
 

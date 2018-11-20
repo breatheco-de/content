@@ -3,7 +3,7 @@ title: "Create and Build Layouts"
 subtitle: "Building layouts is the most painful process when coding HTML & CSS
 
 Learn the CSS rules: Display, Position, Float and Flex; and place any element anywhere you want."
-time: "15 minutes"
+
 date: "2018-01-11"
 tags: ["fale"]
 ---
@@ -24,7 +24,7 @@ We need to use boxes for that.  A box is a container with a specific width and h
 All the website content should be wrapped within a box (div, header, footer, etc.). Boxes are invisible by default so, in order to make them visible, you have to either set a background color or a border.  The following image shows how many invisible boxes a normal website has:
 
 <before-after 
-    before="https://ucarecdn.com/5a02865b-dacf-45de-be06-49d13182dfb4/" after="https://ucarecdn.com/3d6d3cc4-7de9-4a4a-892e-a9c04634925d/" />
+    before="https://ucarecdn.com/40818d0d-60c6-4ef3-a488-834f21ddebf1/" after="https://ucarecdn.com/0c89a48e-d488-4e5c-807a-fd6b9a9179f6/" />
 
 #### Box Attributes
 
@@ -45,6 +45,8 @@ In the following example, we divided the website content into 2 different areas.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/">Click here to open demo in a new window</a></small></p>
+
 # **Width and Height**
 ***
 
@@ -58,6 +60,8 @@ The browser is responsible for assigning positions to all elements of a page.   
 In order for a website to look like today’s websites, we have to redesign the entire page positioning.  This is achieved by using both the "position" property  and the "display" property  (which we will learn later on) so that we can replicate whatever layout imaginable by the most avid designer.
 
 <iframe src="https://www.youtube.com/embed/hFvOgu3bcOk" frameborder="0" allowfullscreen ></iframe>
+
+<p align="right"><small><a href="https://www.youtube.com/embed/hFvOgu3bcOk">Click here to open video in a new window</a></small></p>
 
 |**Name**   |**Description**   |
 |:----------|:-----------------|
@@ -77,6 +81,9 @@ It is common to find this attribute in menus, social network activity feeds, etc
 
 <iframe src="https://www.youtube.com/embed/pgCLHD4FNjg" frameborder="0" allowfullscreen></iframe>
 
+<p align="right"><small><a href="https://www.youtube.com/embed/pgCLHD4FNjg">Click here to open video in a new window</a></small></p>
+
+
 |**Name**   |**Description**   |
 |:----------|:-----------------|
 |Inline     |This is the default value of `<strong>`, `<i>`, `<a>`, `<span>`, etc.  The elements will behave like text and will not have rigid limits (neither width, nor height).    |
@@ -94,6 +101,8 @@ Float is a simple but very useful attribute.  Float works by telling a box to mo
 Float is very much used in blogs when you want to add images to your articles.  It is very good in these cases, because once the photo is moved to one side, the text of the article surrounds the image in a very natural way.
 
 <iframe src="https://www.youtube.com/embed/htdLSAZ2ZH8" frameborder="0" allowfullscreen ></iframe>
+
+<p align="right"><small><a href="https://www.youtube.com/embed/htdLSAZ2ZH8">Click here to open video in a new window</a></small></p>
 
 |**Name**   |**Description**   |
 |:----------|:-----------------|
@@ -133,6 +142,10 @@ Here is the exact code needed to have the website content always aligned at the 
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/">Click her to try out live demo</a></small></p>
+
+
+
 ### Left Sidebar Fixed
 ***
 
@@ -142,12 +155,16 @@ This pre-work website has a left sidebar and is a great option for us because we
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/">Click here to try out live video</a></small></p>
+
 ### Top Menu with Left Sidebar
 ***
 
 This is almost the same, but instead of having the left-sidebar as the primary menu, you will use it as complementary content.  The main menu should be at the top box because is the first thing users see when they land on the website.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/">Click her to try out live demo</a></small></p>
 
 ## Responsive Masonry
 ***
@@ -157,6 +174,8 @@ Pinterest made this layout universally known.  By using this "innovative" UI, th
 Another great thing about Masonry is that each box can have its own height.   That is challenging in CSS because some older browsers don’t support that feature yet and you will have to use Javascript to patch it.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/">Click here to open demo in a new window</a></small></p>
 
 ## Popups / Modal Windows / Alerts
 ***
@@ -171,6 +190,8 @@ To replicate the alert behavior you have to:
 + Add a close button to make the div display: none; (invisible) when the user clicks on close [(you have to use JavaScript to capture the user click)](https://stackoverflow.com/questions/3177582/how-to-hide-div-by-onclick-using-javascript).
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/8co2hnj1/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/8co2hnj1/1/embedded/html,css,result/">Click here to open demo in a new window</a></small></p>
 
 # **Live Demo: Play with the Box**
 ***

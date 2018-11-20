@@ -1,7 +1,7 @@
 ---
 title: "The Command Line"
 subtitle: "Developers spend hours every day using the command line (a.k.a: Terminal). Embrace reality and become more powerful than ever before."
-time: "6  minutes"
+
 date: "2018-01-10"
 tags: ["fale"]
 ---

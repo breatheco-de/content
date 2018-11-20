@@ -3,7 +3,7 @@ title: "Learn HTML"
 subtitle: "HTML is to websites what columns are for buildings. 
 
 Learn the basics of HTML - the foundation of the web."
-time: "12 minutes"
+
 date: "2018-31-10"
 tags: ["fale"]
 ---
