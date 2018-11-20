@@ -1,40 +1,19 @@
-# Guidelines for contribution into BreatheCode's blog.
+# How to contribute to this project
 
-#3 Como ubicar tu lesson que quieres editar
+This project was build in gatsby.js v2
 
-## Iconos
-[[info]]
-|:link: for links of webistes with information
+To contribut first pick the issue that you would like to resolve. Please don't resolve anything that its not an issue, if you would like to propose new enhancementes create the issue first to discuss it with the project mantainers and other members of the community.
 
-[[warning]]
-| :point_up:
- to warn students about important details
+One you have the issue that you like to solve, add a comment letting anyone know that you are going to be working on it.
 
-[[demo]]
-| :point_up: For live demos 
+Fork this project and clone it to have it on your local envirnoment.
 
-[[info]]
-| :tv: for external videos
+Fix the issue and then Pull Request.
 
-[[info]]
-| :point_up: for Aditional info 
+# Proyect requierments
 
+- Node.js v8+
 
-## Componentes
+# All Contributors
 
-Before Afer
-
-Example:
-
-```html
-<before-after 
-    before="https://ucarecdn.com/3681f907-21eb-4e0e-828e-f7e2690e8942/" after="https://ucarecdn.com/d6648701-2af4-4e2d-890c-17ed222bb66c/" />
-```
-
-Image
-
-<img src="https://path/to/image.png">
-
-## Cuadros de informacion
-
-Infi, Demo, Wrning, Error
+This projects follows [the all-contributors specification](https://github.com/kentcdodds/all-contributors) and your contribution will be recognized in the main README.md of the project.
