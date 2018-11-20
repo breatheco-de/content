@@ -4,6 +4,9 @@ subtitle: "GIT is the main way developers use to collaborate with each other. As
 
 Without GIT you won't be able to work at any company, and you won't be able to use anyone's code."
 
+cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+textColor: "white"
+
 date: "2018-02-08"
 tags: ["fale"]
 ---
@@ -187,7 +190,7 @@ This command does the following:
 
 After checking out the *\[new-head\]* head, you will fix the headers.  Now you can add and commit the changes as above.  The resulting repository looks like this:
 
-![git8](https://ucarecdn.com/a03bedba-f8d6-4875-bf07-8e03362fb53b/)
+![git8](https://ucarecdn.com/0352d1b1-0914-4d0f-9379-c47e7895ccb9/-/resize/400x/)
 
 ## **Merging** 
 ***

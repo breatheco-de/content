@@ -2,6 +2,9 @@
 title: "React JS"
 subtitle: "React is a front-end library ideal for creating interfaces (generate HTML+CSS). It's the fastest, most advanced and most wanted library in the market right now."
 
+cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+textColor: "white"
+
 date: "2018-13-11"
 tags: ["fale"]
 ---

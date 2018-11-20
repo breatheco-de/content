@@ -1,7 +1,8 @@
 ---
 title: "The DOM"
 subtitle: "The only way to interact with your code is throughout The DOM. It is a hierarchy stored in memory that contains all of your website elements in real-time. DOM Manipulation is the most popular activity for any front-end developer. The DOM brings your applications to life!"
-
+cover: "https://ucarecdn.com/db660bb9-1ac6-4730-a9c8-4544d6b801b0/"
+textColor: "white"
 date: "2018-05-15"
 tags: ["fale"]
 ---

@@ -1,7 +1,8 @@
 ---
 title: "Building RESTful APIs With Django"
 subtitle: "In the world of Python, Django is the best way to create web applications and RESTful APIs."
-
+cover: "https://ucarecdn.com/3e50e217-514d-41dc-a7a4-4725e08f8afb/"
+textColor: "white"
 date: "2018-14-11"
 tags: ["fale"]
 ---

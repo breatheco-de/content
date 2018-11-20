@@ -2,6 +2,9 @@
 title: "From Javascript to Python"
 subtitle: "Unleash your power by learning and using one of the Kings of Back-End Development. Now you will be capable of bringing AI, Big Data, Machine Learning, APIs and integrate third party applications into your own."
 
+cover: "http://breatheco.de/wp-content/uploads/2018/01/python-background.jpg"
+
+textColor: "white"
 date: "2018-05-11"
 tags: ["fale"]
 ---

@@ -1,6 +1,9 @@
 ---
 title: "Importing and Exporting Javascript Modules"
 subtitle: "Split and conquer (again), this time we teach you how to split your code into several files to avoid GIT conflicts and to also be more organized."
+cover: "https://ucarecdn.com/c558ac72-194b-40f2-be2f-6e65e8c219c9/"
+
+textColor: "white"
 
 date: "2018-14-11"
 tags: ["fale"]

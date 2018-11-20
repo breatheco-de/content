@@ -13,11 +13,11 @@ export const Layout = ({ children }) => (
  <StaticQuery
    query={graphql`
      query LayoutQuery {
-       site {
-         siteMetadata {
-           title
-         }
-       }
+        site {
+            siteMetadata {
+                title
+            }
+        }
      }
    `}
    render={data => (

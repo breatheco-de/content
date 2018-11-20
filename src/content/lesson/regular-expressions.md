@@ -1,7 +1,8 @@
 ---
 title: "Regular Expressions"
 subtitle: "Regular Expressions are the best way to identify patterns within strings. They can seem difficult and annoying, but once you know how to use them, they're amazing!!!"
-
+cover: "https://ucarecdn.com/bf7bc7e6-c89c-4f97-9377-e30e369ba796/"
+textColor: "white"
 date: "2018-05-11"
 tags: ["fale"]
 ---
@@ -57,7 +58,7 @@ Any succession of characters is a simple regular expression.  If we use the word
 **Use the container on the right to play with other simple successions of characters.**
 
 <iframe src="https://assets.breatheco.de/live-demos/js/regex-tester/?e=email" frameborder="0" width="100%" height="400" scrolling="no">
-  <p>Your browser does not support iframes.</p>
+  
 </iframe>
 
 <div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?e=email">Click to open demo in a new window</a></small></div>
@@ -105,6 +106,7 @@ You can also combine ranges of characters like this:
 
 
 
+
 ### **The `^` (caret) Character: Negation or Beginning of a Term**
 
 **If we place `^` at the beginning of a [range]:**
@@ -118,6 +120,9 @@ We are negating the range.  For example:
 + We are saying that we want to only test the Regex from the beginning of the string (no substrings – smaller parts of the string – will be tested):
 
 + A string starting with http: `^http`
+
+
+
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bGklNUIlNUV2JTVEZQ%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBhbiBvbGl2ZSBvaWwsIGFsd2F5cyBhZGRpbmcgZ29vZCB0YXN0ZSB0byB3aGF0IGhlIGRvZXMu"></iframe>
 

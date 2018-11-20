@@ -1,6 +1,8 @@
 ---
 title: "Learn to Code in JavaScript"
 subtitle: "Everybody is talking about it and by now you probably know that learning to code will change your life."
+cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+textColor: "white"
 
 date: "2018-02-11"
 tags: ["fale"]

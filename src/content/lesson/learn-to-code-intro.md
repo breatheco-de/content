@@ -1,7 +1,8 @@
 ---
 title: "Learn to Code Intro"
 subtitle: "Now you don't have to write HTML and CSS (not that much). Learn how to make computers write your code."
-
+cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+textColor: "white"
 date: "2017-02-11"
 tags: ["fale"]
 ---

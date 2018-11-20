@@ -6,6 +6,9 @@ Nobody wants to see a white website with some horrible text on it.
 
 it's time to make your website beautiful. It's CSS time!."
 
+cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+textColor: "white"
+
 date: "2018-31-10"
 tags: ["fale"]
 ---
@@ -152,7 +155,7 @@ There are others specifics and advanced selectors.  You are probably going to fa
 
 What happens if an element of the page is selected in two different selectors and has the green letter color assigned to one definition and red in the other?  In other words, if we have told the browser to find two different colors, what color will it end up having?
 
-![css2](https://ucarecdn.com/72589c29-7420-4b29-a120-d119830d4c0b/)
+![css2](https://ucarecdn.com/08e78606-102f-4bc2-a066-7c26ae9400d5/-/resize/500x/)
 
 You have to have a very good understanding of the CSS hierarchy in order to understand how the elements **correspond, overwrite and even null styles between them.**
 
