@@ -21,7 +21,7 @@ Computers don’t need visual interfaces, humans do.  But now you are becoming a
 
 <iframe src="https://repl.it/F03k/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<p align="right"><small><a href="https://repl.it/F03k/0?lite=true">Click to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://repl.it/F03k/0?lite=true">Click to open demo in a new window</a></small></div>
 
 
 
@@ -40,7 +40,7 @@ This is what a "runtime error" (an error that occurs during runtime) looks like:
 
 <iframe src="https://repl.it/F05K/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<p align="right"><small><a href="https://repl.it/F05K/0?lite=true">Click to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://repl.it/F05K/0?lite=true">Click to open demo in a new window</a></small></div>
 
 
 

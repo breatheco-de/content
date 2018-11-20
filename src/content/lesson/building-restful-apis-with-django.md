@@ -1,5 +1,5 @@
 ---
-title: "Building RESTFUL APIs With Django"
+title: "Building RESTful APIs With Django"
 subtitle: "In the world of Python, Django is the best way to create web applications and RESTful APIs."
 
 date: "2018-14-11"

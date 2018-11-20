@@ -46,7 +46,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 
 <iframe width="100%" height="300" frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/mouse.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p align="right"><small><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/mouse.html">Click here to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/mouse.html">Click here to open demo in a new window</a></small></div>
 
 ### FRAME – Events
 
@@ -63,7 +63,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 
 <iframe width="100%" height="300" frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/frame.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p align="right"><small><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/frame.html" allowfullscreen="allowfullscreen">Click here to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/frame.html" allowfullscreen="allowfullscreen">Click here to open demo in a new window</a></small></div>
 
 ### FORMS – Events 
 
@@ -80,7 +80,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 
 <iframe width="100%" height="300"  frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/forms.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p align="right"><small ><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/forms.html">Click here to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/forms.html">Click here to open demo in a new window</a></small></div>
 
 ### KEYBOARD – Events
 
@@ -95,7 +95,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 
 <iframe width="100%" height="300"  frameborder="1"src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/keyboard.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p align="right"><small><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/keyboard.html">Click here to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/keyboard.html">Click here to open demo in a new window</a></small></div>
 
 
 
@@ -131,7 +131,7 @@ function myClickHandler(){
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/b7c6gmnd/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p align="right"><small><a href="//jsfiddle.net/BreatheCode/b7c6gmnd/1/embedded/js,html,result/" allowfullscreen="allowfullscreen">Click here to open demo in a new window</a></small></p>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/b7c6gmnd/1/embedded/js,html,result/" allowfullscreen="allowfullscreen">Click here to open demo in a new window</a></small></div>
 
 ## Adding Listeners from JavaScript (during runtime)
 ***
@@ -152,7 +152,7 @@ For example, this code is creating a list of names and each delete anchor in eac
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/1nhjc4t0/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p align="right"><small><a href="//jsfiddle.net/BreatheCode/1nhjc4t0/1/embedded/js,html,result/">Click here to open demo in a new window</a></small></p>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/1nhjc4t0/1/embedded/js,html,result/">Click here to open demo in a new window</a></small></div>
 
 ##  The Event Object
 ***
@@ -226,7 +226,7 @@ In this code, we are adding an event listener to the click event.  Afterwards, t
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p align="right"><small><a href="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/">Click here to open demo in a new window</p></small></p>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/">Click here to open demo in a new window</p></small></div>
 
 
 

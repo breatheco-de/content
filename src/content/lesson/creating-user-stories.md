@@ -11,7 +11,7 @@ tags: ["fale"]
 
 <iframe width="1185" height="667" src="https://www.youtube.com/embed/LGeDZmrWwsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<p align="right"><small><a href="https://www.youtube.com/embed/LGeDZmrWwsw">Click here to open video in a new window</a></small></p>
+<div align="right"><small><a href="https://www.youtube.com/embed/LGeDZmrWwsw">Click here to open video in a new window</a></small></div>
 
 The hardest thing to do in software is not coding – it is designing the system! And we are NOT talking about graphic design…we are talking about architecture, data modeling, customer requirements, etc.  Some of those things are harder than others, but doing a list of requirements is probably one of the trickiest arts.
 

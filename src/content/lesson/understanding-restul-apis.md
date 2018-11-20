@@ -1,5 +1,5 @@
 ---
-title: " Restful API's"
+title: " RESTful API's"
 subtitle: "It seems to be only the beginning of the API revolution! The path of humanity drives towards the API's architecture...you can learn any language or tool, but this is one of those few specialties that will guarantee you a well paid job for the next 60 years. :)"
 date: "2018-05-11"
 tags: ["fale"]
