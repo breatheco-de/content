@@ -14,6 +14,7 @@ export default ({ data }) => {
     <div>
       <Cover 
         title={post.frontmatter.title} 
+        background={post.frontmatter.cover} 
         subtitle={post.frontmatter.subtitle}
       />
       <div className="post">{renderAst(post.htmlAst)}</div>

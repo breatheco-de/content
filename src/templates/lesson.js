@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql } from 'gatsby';
-import rehypeReact from "rehype-react"
+import rehypeReact from "rehype-react";
 import { Cover } from "../components/cover/cover.jsx";
 import { Layout } from "../components/layout/layout.jsx";
 import { BeforeAfter } from "../components/beforeafter/beforeafter.jsx";
@@ -17,6 +17,8 @@ export default ({ data }) => {
       <div>
         <Cover 
           title={post.frontmatter.title} 
+          background={post.frontmatter.cover} 
+          textColor={post.frontmatter.textColor} 
           subtitle={post.frontmatter.subtitle}
           time={post.fields.readingTime.text}
         />
@@ -35,7 +37,8 @@ export const query = graphql`
       frontmatter {
         title
         subtitle
-        time
+        cover
+        textColor
       }
       fields {
         slug
