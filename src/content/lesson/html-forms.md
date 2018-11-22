@@ -4,6 +4,9 @@ subtitle: "Forms are really easy to understand, and they are the ONLY way to mak
 These very basic concepts represent 90% of everything you will ever need to know about forms."
 cover: "https://www.desktopbackground.org/p/2013/09/13/637935_nasa-wallpapers_1600x1200_h.jpg"
 
+
+textColor: "white"
+
 date: "2018-01-11"
 tags: ["fale"]
 ---
@@ -15,7 +18,7 @@ This lesson is very easy to understand – but it is essential in that in this n
 
 Like always, let’s compare our website with an MS Word document…At some point scientists needed to create forms just like the ones we fill out when we pay our taxes: with blank spaces available for the user to fill with their Name, Last Name, Date of Birth, etc.
 
-![forms](https://ucarecdn.com/9148fbd4-338b-4f0c-aada-9024ed4d6f85/)
+![forms](https://ucarecdn.com/12ff6e40-706f-47ff-9ada-53dada968eaf/-/resize/350x/)
 
 The elements that the user fills in a form are called `<inputs>` and they always have to be wrapped inside of a `<form>` tag.  You can also use all the other HTML tags we learned in the previous lessons without any problems.
 

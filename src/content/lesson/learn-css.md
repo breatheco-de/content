@@ -19,6 +19,9 @@ We are sure that after diving deep in HTML, everything looks kind of ugly, fixed
 
 ![professor](https://ucarecdn.com/f2e1862b-a575-4a3c-ac12-b5f910f983b0/)
 
+
+
+
 Buuuuttt… The Internet is more beautiful than that.  When internet became popular, it stopped to be only a privilege for scientists and the army, and evolved to become **Part of our world!!**
 
 Ironically, the same scientists at CERN who created HTML had to think about how to improve it.   They were given the task to make it more beautiful.  It was at this time that [Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie) proposed the first version of CHSS in 1994, which was later adapted to become CSS1.
