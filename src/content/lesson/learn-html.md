@@ -2,7 +2,7 @@
 title: "Learn HTML"
 subtitle: "HTML is to websites what columns are for buildings. 
 
-Learn the basics of HTML - the foundation of the web."
+Learn HTML basics - the foundation of the web."
 
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
@@ -14,7 +14,7 @@ tags: ["fale"]
 | :point_up: Since in the previous chapter we equated houses, stores and buildings to web pages, now we have to say that HTML are the blueprints.
 
 
-# **HTML is the Website Skeleton**
+# **Learn HTML, the Website Skeleton**
 ***
 
 All web pages have HTML – it’s the structure of EVERYTHING.  Think of it as building columns at a construction site.
@@ -23,12 +23,12 @@ HTML makes you divide the website information into parts – similar to the basi
 
 Originally browsers only knew how to interpret HTML.  Websites were simple and neither CSS or JavaScript was used.  A website was a simple plain text document with the typical elements any Word Document has: Headings, Bullet lists, Paragraphs, etc.
 
-![buildinghtml](https://ucarecdn.com/b7b8d79f-537b-4c9b-b4c3-e055556c2676/)
+![learn html](https://ucarecdn.com/b7b8d79f-537b-4c9b-b4c3-e055556c2676/)
 
 
-# **HTML Syntax: It’s All \<Tags\>.**
+# **Learn HTML Syntax: It’s All \<Tags\>.**
 ***
-![tags](https://ucarecdn.com/89b3199e-c064-4e23-82d7-74755f709af5/)
+![learn html](https://ucarecdn.com/89b3199e-c064-4e23-82d7-74755f709af5/)
 
 Remember how we said that the Internet is all text?
 
@@ -38,7 +38,7 @@ In that sense, HTML is a language that uses `<tags>` to represent the elements t
 
 All tags must open and close.  To close a tag you must place the same word but using the `/` symbol.
 
-# **The Attributes**
+# **Learn HTML Attributes**
 ***
 Once the `<tag>` is defined, we can describe in detail its behavior by assigning attributes to those `<tags>`.  For example, if we want our HTML document/page to have a link to another page, we use the `<a>` tag, and we assign to it an attribute called **href**, which allows us to specify the URL of the page with which we want to have a connection.
 
@@ -47,7 +47,7 @@ Once the `<tag>` is defined, we can describe in detail its behavior by assigning
 ```
 
 
-In theory, you have to use [one of these tags](https://breatheco.de/en/lesson-asset/html5-cheat-sheet/) and don’t invent your own because the browser won’t know how to interpret them.  You must learn what each tag means and does in order to put them to good use…but, please, don’t worry!   There aren’t that many! 🙂
+In theory, you have to use and **learn HTML** tags [that you can find here](https://breatheco.de/en/lesson-asset/html5-cheat-sheet/), don’t invent your own because the browser won’t know how to interpret them.  You must **learn HTML** tags meanings and their functionality, in order to put them to good use…but, please, don’t worry!   There aren’t that many! 🙂
 
 For the main heading of the document, the tag that we use is `<h1>`.  For example: An online store has an "electronics" category, the title that applies would be "Electronics" and the `<h1>` tag would be written as follows:
 
@@ -63,7 +63,7 @@ Finally, tags can contain one or more tags within them.  For example, if we woul
  <h1><i>Electronic</i> Tags</h1>
 ```
 
- ## Blank Spaces and Line Jumps 
+ ## Learn HTML Blank Spaces and Line Jumps 
  ***
  The browser ignores blank spaces and end of lines.  If we want to jump one line, we have to use the `<br>` tag.  If we want more "spaces" we need to insert one `&nbsp;` per each blank space (yes, we know it’s weird, but it is what it is).
 
@@ -81,7 +81,7 @@ Finally, tags can contain one or more tags within them.  For example, if we woul
 ```
 
 
-# **Page Structure**
+# **Learn HTML Page Structure**
 ***
 All pages must begin with the `<DOCTYPE! Html>` statement, then the `<HEAD>` and the `<BODY>` should follow.  These tags **must** contain other tags within them (nested tags) because they will split the page in 2 main parts: the HEAD and the BODY:
 
@@ -107,7 +107,7 @@ Lets simulate how a browser thinks: Imagine a user on his browser (client side) 
   
   As you can see, the page in question will include AT LEAST the following tags:
 
-  ![html](https://ucarecdn.com/8729c2f0-e4a6-4721-9ee9-3f29e6e852b5/)
+  ![learn html](https://ucarecdn.com/8729c2f0-e4a6-4721-9ee9-3f29e6e852b5/)
 
 |**Name**   |**Tags**   |**Description**   |
 |:----------|:----------|:-----------------|
@@ -129,11 +129,11 @@ In the case of HTML, the `<head>` can contain the following tags (among less imp
 |Style   |`<style>`   |If we can’t or don’t want to import a CSS style sheet, we may also define styles directly on the HTML document inside this tag.  This is a practice that we rarely recommend and should only be used when you don’t have any other choice.   |
 |Script   |`<script>`   |Used to add JavaScript code to the page.  All of the JavaScript code must be contained in these tags that can be used also in the BODY, if desired.  The difference is that any JavaScript code that we place in a style tag in the BODY won’t be available when the page begins to run (that’s exactly why the is HEAD is so useful).   |
 
-# **The \<body\> is Similar to any MS Word Document**
+# **Learn HTML \<body\>, it is Similar to any MS Word Document**
 
-Ok, now that we are familiar with the general and necessary structure of the page, lets review the tags we can and must use to define the content of the page.
+Ok, now that we had **learn HTML** structure, lets review the tags we can and must use to define the content of the page.
 
-Remember – for the fifteenth time – that a web page is…a text document!  That’s right, if you knew the answer before you read it you are getting it!  And, if not, don’t worry.  We’ve never known of anyone who gets HTML and CSS rather quickly ;).
+Remember – for the fifteenth time – that a web page is…a text document!  That’s right, if you knew the answer before you read it you are getting it!  And, if not, don’t worry.  We’ve never known of anyone who learn HTML and CSS rather quickly ;).
 
 Lets see how a website compares to a Word document:
 
@@ -143,15 +143,15 @@ The most frequent tags used inside the `<body>` of an HTML document are:
 
 |**Name**   |**Tags**   |**Description**   |
 |:----------|:----------|:-----------------|
-|Head       |H1, H2, H3, etc.   |This defines the headings and subheadings of the page (the heading is not the same as the title; the title is used by the browser and it’s defined with the title tag).<br>`<h1>This is a heading</h1>`   |
-|Paragraph   |P   |This tag separates the text content with an upper and lower margin.  It simulates the behavior of a Word document.`<p>example of a paragraph</p>`   |
-|List   |UL, OL   |Lists are of huge importance in a document as they are widely used.  With HTML we have two main tags to list any content items:<br><br> <li>OL: List with numbers (numbers at the beginning of the item)</li><br><li>UL: List without numbers (bullets in front of the items).<br><br>`<ol>`<br>`<li>Element 1</li>`<br>`<li>Element 2</li>`<br>`</ol>`   |
-|Image  |img   |It allow us to add images to the document (they could be PNG, JPEG, GIF and SVG, basically) .<br>`<img src="url of the image"/>`
-|Link (Anchor)   |a   |Sometimes we want to connect one or more pages with another one, or send the user to a new page, or even send the user to another section within the same page (just as with the Menu of this course).  That’s what the "Anchor" tag is made for.<br>`<a href="url to resend">this is a heading</a>`   |
-|Bold   |strong o b   |To highlight a text using bold.<br>`<strong>this is a heading</strong>`   |
-|Italics   |i   |To have the text in italics.<br>`<i>this is a heading</i>`   |
-|Line jump   |br   |To jump or skip the text to the line (similar to a `shift+enter` in MS Word.)<br>`<br></br>`   |
-|Tables   |table   |Tables were designed to present data in a more read-friendly and coherent way.  It has a header (th), row (tr) and columns (td).<br><br>`<table>`<br>`<tr><th>Column 1</th><th>Column 2</th></tr>`<br>`<tr><td>Data 1</td><td>Data A</td></tr>`<br>`<tr><td>Data 2</td><td>Data B</td></tr><br>`<br>`<tr><td>Data 3</td><td>Data C</td></tr>`<br>`</table>`   |
+|**Learn HTML** Head       |H1, H2, H3, etc.   |This defines the headings and subheadings of the page (the heading is not the same as the title; the title is used by the browser and it’s defined with the title tag).<br>`<h1>This is a heading</h1>`   |
+|**Learn HTML** Paragraph   |P   |This tag separates the text content with an upper and lower margin.  It simulates the behavior of a Word document.`<p>example of a paragraph</p>`   |
+|**Learn HTML** List   |UL, OL   |Lists are of huge importance in a document as they are widely used.  With HTML we have two main tags to list any content items:<br><br> <li>OL: List with numbers (numbers at the beginning of the item)</li><br><li>UL: List without numbers (bullets in front of the items).<br><br>`<ol>`<br>`<li>Element 1</li>`<br>`<li>Element 2</li>`<br>`</ol>`   |
+|**Learn HTML** Image  |img   |It allow us to add images to the document (they could be PNG, JPEG, GIF and SVG, basically) .<br>`<img src="url of the image"/>`
+|**Learn HTML** Link (Anchor)   |a   |Sometimes we want to connect one or more pages with another one, or send the user to a new page, or even send the user to another section within the same page (just as with the Menu of this course).  That’s what the "Anchor" tag is made for.<br>`<a href="url to resend">this is a heading</a>`   |
+|**Learn HTML** Bold   |strong o b   |To highlight a text using bold.<br>`<strong>this is a heading</strong>`   |
+|**Learn HTML** Italics   |i   |To have the text in italics.<br>`<i>this is a heading</i>`   |
+|**Learn HTML** Line jump   |br   |To jump or skip the text to the line (similar to a `shift+enter` in MS Word.)<br>`<br></br>`   |
+|**Learn HTML** Tables   |table   |Tables were designed to present data in a more read-friendly and coherent way.  It has a header (th), row (tr) and columns (td).<br><br>`<table>`<br>`<tr><th>Column 1</th><th>Column 2</th></tr>`<br>`<tr><td>Data 1</td><td>Data A</td></tr>`<br>`<tr><td>Data 2</td><td>Data B</td></tr><br>`<br>`<tr><td>Data 3</td><td>Data C</td></tr>`<br>`</table>`   |
 
 # **The Attributes (Properties)**
 ***
@@ -168,13 +168,13 @@ Each tag has its own properties – you do not have to memorize them, you will a
 
 That’s why we have created a series of exercises that will better explain each of the important properties of the most used HTML elements.
 
-## Clap, Clap, Clap.  You know HTML!!! 
+## Clap, Clap, Clap.  You had learn HTML!!! 
 ***
 We are so PROUD!!! 🙂
 
-You just learned how a website was built in 1999.  Now we only have a few more weeks to catch up on everything else during the latest 20 years.
+You **learn HTML** and how a website was built in 1999.  Now we only have a few more weeks to catch up on everything else during the latest 20 years.
 
-HTML has a lot more tags.  It also has a new version called HTML5.  Again, don’t worry, you’ll learn that and how to build beautiful (thanks to CSS) and interacting (thanks to formularies and JavaScript) websites in the next few lessons.  That’s why we are here!
+HTML has a lot more tags.  It also has a new version called HTML5.  Again, don’t worry, you’ll **learn HTML** and how to build beautiful (thanks to CSS) and interacting (thanks to formularies and JavaScript) websites in the next few lessons.  That’s why we are here!
 
-![typing](https://ucarecdn.com/3f2a9ca7-fbb7-4cb6-97ac-d5a3e67dac19/)
+![learn html](https://ucarecdn.com/3f2a9ca7-fbb7-4cb6-97ac-d5a3e67dac19/)
 
