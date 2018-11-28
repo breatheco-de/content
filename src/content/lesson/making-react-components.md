@@ -1,7 +1,8 @@
 ---
 title: "Making React Components"
 subtitle: "React.js bread and butter, become a master in Components and you have conquered the front-end world of React."
-
+cover: "https://ucarecdn.com/84c4d84c-51b9-4906-a572-71cc07ecfc8c/"
+textColor: "white"
 date: "2018-14-11"
 tags: ["fale"]
 ---
@@ -69,6 +70,7 @@ And, lastly, you should tell React where to Render that component into the DOM.
 
 <iframe src="https://codesandbox.io/embed/zwlnpwmxll?hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
+<div align="right"><small><a href="https://codesandbox.io/embed/zwlnpwmxll?hidenavigation=1">Click here to open demo in a new window</a></small></div>
 
 ## The Component’s State
 ***
@@ -102,7 +104,7 @@ Here is an example of the `<Clock />` component we were just talking about:
 <iframe src="https://codesandbox.io/embed/zw852wvqp4?autoresize=1&amp;hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 
-<p align="right"><small><a href="https://codesandbox.io/embed/zw852wvqp4?autoresize=1&amp;hidenavigation=1">Click here to open demo in new window</a></small></p>
+<div align="right"><small><a href="https://codesandbox.io/embed/zw852wvqp4?autoresize=1&amp;hidenavigation=1">Click here to open demo in a new window</a></small></div>
 
 
 ## But wait, should I use Function or Class?

@@ -1,7 +1,9 @@
 ---
 title: "Intro to Professional Web Development"
 subtitle: "All you've learned needs to be put together. Lets make our first entire professional application!"
+cover: "https://ucarecdn.com/98208ebb-dcb3-4e40-9ae4-4ec886213f97/"
 
+textColor: "white"
 date: "2018-13-11"
 tags: ["fale"]
 ---

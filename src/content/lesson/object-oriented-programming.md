@@ -1,7 +1,8 @@
 ---
 title: "Object Oriented Programming"
 subtitle: "Classes are the last pieces needed to master the programming tricks! Welcome to the amazing world of object-oriented programming."
-
+cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
+textColor: "white"
 date: "2018-05-11"
 tags: ["fale"]
 ---
@@ -188,18 +189,18 @@ Perhaps you may feel that there it is pointless to use "getters" and "setters" f
 
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Object-Oriented-Javascript?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-<p align="right"><small><a href="https://repl.it/@4GeeksAcademy/Object-Oriented-Javascript?lite=true">Click here to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Object-Oriented-Javascript?lite=true">Click here to open demo in a new window</a></small></div>
 
 
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Python-Class-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-<p align="right"><small>
-<a href="https://repl.it/@4GeeksAcademy/Python-Class-Example?lite=true">Click here to open demo in new window</a></small></p>
+<div align="right"><small>
+<a href="https://repl.it/@4GeeksAcademy/Python-Class-Example?lite=true">Click here to open demo in new window</a></small></div>
 
 
 <iframe src="https://repl.it/G1cx/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<p align="right"><small><a href="https://repl.it/G1cx/0?lite=true">Click here to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://repl.it/G1cx/0?lite=true">Click here to open demo in a new window</a></small></div>
 
 [[warning]]
 | :point_up:Some languages, like PHP, have their own __get and __set magic functions to implement getters and setters.  However, this is not a good idea because of performance issues.  It is a better idea to create your own "get/set" functions according to your project needs.  [Here is the reasoning behind it.](https://stackoverflow.com/questions/6184337/best-practice-php-magic-methods-set-and-get)
@@ -232,16 +233,16 @@ Perhaps you may feel that there it is pointless to use "getters" and "setters" f
 
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/ObjectOriented2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-<p align="right"><small><a hrerf="https://repl.it/@4GeeksAcademy/ObjectOriented2?lite=true">Click here to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/ObjectOriented2?lite=true">Click here to open demo in a new window</a></small></div>
 
 
 <iframe src="https://repl.it/G1cq/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<p align="right"><small ><a href="https://repl.it/G1cq/0?lite=true">Click here to open demo in a new window</a></small></p>
+<div align="right"><small ><a href="https://repl.it/G1cq/0?lite=true">Click here to open demo in a new window</a></small></div>
 
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Python-Class-Inheritance?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-<p align="right"><small><a href="https://repl.it/@4GeeksAcademy/Python-Class-Inheritance?lite=true">Click here to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Python-Class-Inheritance?lite=true">Click here to open demo in a new window</a></small></div>
 
 
 

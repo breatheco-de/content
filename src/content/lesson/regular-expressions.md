@@ -1,7 +1,8 @@
 ---
 title: "Regular Expressions"
 subtitle: "Regular Expressions are the best way to identify patterns within strings. They can seem difficult and annoying, but once you know how to use them, they're amazing!!!"
-
+cover: "https://ucarecdn.com/bf7bc7e6-c89c-4f97-9377-e30e369ba796/"
+textColor: "white"
 date: "2018-05-11"
 tags: ["fale"]
 ---
@@ -57,10 +58,10 @@ Any succession of characters is a simple regular expression.  If we use the word
 **Use the container on the right to play with other simple successions of characters.**
 
 <iframe src="https://assets.breatheco.de/live-demos/js/regex-tester/?e=email" frameborder="0" width="100%" height="400" scrolling="no">
-  <p>Your browser does not support iframes.</p>
+  
 </iframe>
 
-<p><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?e=email">Click to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?e=email">Click to open demo in a new window</a></small></div>
 
 ### **The `.` Character**
 
@@ -74,7 +75,7 @@ You can use the `.` as many times as you want; the regular expression will repla
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bC4uZQ%3D%3D&amp;c=TGV0IG1lIGxpdmUgbXkgbGlmZSB5b3UgbCMkZSE%3D"></iframe>
 
-<p><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bC4uZQ%3D%3D&amp;c=TGV0IG1lIGxpdmUgbXkgbGlmZSB5b3UgbCMkZSE%3D">Click to open demo in a new window </a></small></p>
+<div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bC4uZQ%3D%3D&amp;c=TGV0IG1lIGxpdmUgbXkgbGlmZSB5b3UgbCMkZSE%3D">Click to open demo in a new window </a></small></div>
 
 
 ### **The Range `[ ]` Character**
@@ -97,11 +98,12 @@ You can also combine ranges of characters like this:
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=dCU1QmVvJTVEZA%3D%3D&amp;c=V2hlbiB0b2RheSBpcyBvdmVyIFRlZCB3aWxsIGhhdmUgYSB0ZWRpb3VzIHRpbWUgdGlkeWluZyB1cC4%3D"></iframe>
 
-<p><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=dCU1QmVvJTVEZA%3D%3D&amp;c=V2hlbiB0b2RheSBpcyBvdmVyIFRlZCB3aWxsIGhhdmUgYSB0ZWRpb3VzIHRpbWUgdGlkeWluZyB1cC4%3D">Click to open demo in a new window</p></small></a>
+<div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=dCU1QmVvJTVEZA%3D%3D&amp;c=V2hlbiB0b2RheSBpcyBvdmVyIFRlZCB3aWxsIGhhdmUgYSB0ZWRpb3VzIHRpbWUgdGlkeWluZyB1cC4%3D">Click to open demo in a new window</p></small></a>
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVCYS16QS1aJTVE&amp;c=V2hlbiB0b2RheSBpcyBvdmVyIFRlZCB3aWxsIGhhdmUgYSB0ZWRpb3VzIHRpbWUgdGlkeWluZyB1cC4%3D"></iframe>
 
-<p><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVCYS16QS1aJTVE&amp;c=V2hlbiB0b2RheSBpcyBvdmVyIFRlZCB3aWxsIGhhdmUgYSB0ZWRpb3VzIHRpbWUgdGlkeWluZyB1cC4%3D">Click to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVCYS16QS1aJTVE&amp;c=V2hlbiB0b2RheSBpcyBvdmVyIFRlZCB3aWxsIGhhdmUgYSB0ZWRpb3VzIHRpbWUgdGlkeWluZyB1cC4%3D">Click to open demo in a new window</a></small></div>
+
 
 
 
@@ -119,9 +121,12 @@ We are negating the range.  For example:
 
 + A string starting with http: `^http`
 
+
+
+
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bGklNUIlNUV2JTVEZQ%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBhbiBvbGl2ZSBvaWwsIGFsd2F5cyBhZGRpbmcgZ29vZCB0YXN0ZSB0byB3aGF0IGhlIGRvZXMu"></iframe>
 
-<p><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bGklNUIlNUV2JTVEZQ%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBhbiBvbGl2ZSBvaWwsIGFsd2F5cyBhZGRpbmcgZ29vZCB0YXN0ZSB0byB3aGF0IGhlIGRvZXMu">Click to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bGklNUIlNUV2JTVEZQ%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBhbiBvbGl2ZSBvaWwsIGFsd2F5cyBhZGRpbmcgZ29vZCB0YXN0ZSB0byB3aGF0IGhlIGRvZXMu">Click to open demo in a new window</a></small></div>
 
 ### Shortcuts for Digits `\d` and Words `\w`
 
@@ -136,7 +141,7 @@ If you prefer, you can use these shortcuts in your regular expressions:
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVDdyUyMA%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLg%3D%3D"></iframe>
 
-<p><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVDdyUyMA%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLg%3D%3D">Click to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVDdyUyMA%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLg%3D%3D">Click to open demo in a new window</a></small></div>
 
 
 
@@ -151,7 +156,7 @@ For example, this Regex accepts one or many repetitions of the `ab` string follo
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bGklNUIlNUV2JTVEZQ%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLg%3D%3D"></iframe>
 
-<p align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bGklNUIlNUV2JTVEZQ%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLg%3D%3D">Click to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bGklNUIlNUV2JTVEZQ%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLg%3D%3D">Click to open demo in a new window</a></small></div>
 
 ## Using Quantifier in Regular Expressions 
 ***
@@ -180,7 +185,7 @@ We can place the quantifier after the character patterns that we want to repeat.
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVCbk4lNURvdiUyOGVtYmVyJTI5JTNG&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLiBUaGUgYmVzdCBkYXRlIHRvIGdyb3cgb2xpdmVzIGlzIG9uIE5vdmVtYmVyIHRoZSAyNHRoLCBub3Qgb24gTm92ZW1iZXIgdGhlIDNyZC4%3D"></iframe>
 
-<p align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVCbk4lNURvdiUyOGVtYmVyJTI5JTNG&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLiBUaGUgYmVzdCBkYXRlIHRvIGdyb3cgb2xpdmVzIGlzIG9uIE5vdmVtYmVyIHRoZSAyNHRoLCBub3Qgb24gTm92ZW1iZXIgdGhlIDNyZC4%3D">Click to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVCbk4lNURvdiUyOGVtYmVyJTI5JTNG&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLiBUaGUgYmVzdCBkYXRlIHRvIGdyb3cgb2xpdmVzIGlzIG9uIE5vdmVtYmVyIHRoZSAyNHRoLCBub3Qgb24gTm92ZW1iZXIgdGhlIDNyZC4%3D">Click to open demo in a new window</a></small></div>
 
 
 [[demo]]
@@ -216,7 +221,7 @@ Finally, we want the end of the string ($).
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="400px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVCJTVDdy5fJTI1JTJCLSU1RCUyQiU0MCU1QiU1Q3cuLSU1RCUyQiU1Qy4lNUJhLXpBLVolNUQlN0IyJTJDNCU3RA%3D%3D&amp;c=U3RyaW5nIHRoYXQgbWF0Y2hlczo8L3A%2BCjxwPmpvaG5AZG9lLmNvbTxiciAvPgpTdHJpbmcgdGhhdCBkb2VzbiYjODIxNzt0IG1hdGNoOjwvcD4KPHA%2Bam9obkBkb2Uuc29tZXRoaW5nIChUTEQgaXMgdG9vIGxvbmcp"></iframe>
 
-<p align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVCJTVDdy5fJTI1JTJCLSU1RCUyQiU0MCU1QiU1Q3cuLSU1RCUyQiU1Qy4lNUJhLXpBLVolNUQlN0IyJTJDNCU3RA%3D%3D&amp;c=U3RyaW5nIHRoYXQgbWF0Y2hlczo8L3A%2BCjxwPmpvaG5AZG9lLmNvbTxiciAvPgpTdHJpbmcgdGhhdCBkb2VzbiYjODIxNzt0IG1hdGNoOjwvcD4KPHA%2Bam9obkBkb2Uuc29tZXRoaW5nIChUTEQgaXMgdG9vIGxvbmcp">Click to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVCJTVDdy5fJTI1JTJCLSU1RCUyQiU0MCU1QiU1Q3cuLSU1RCUyQiU1Qy4lNUJhLXpBLVolNUQlN0IyJTJDNCU3RA%3D%3D&amp;c=U3RyaW5nIHRoYXQgbWF0Y2hlczo8L3A%2BCjxwPmpvaG5AZG9lLmNvbTxiciAvPgpTdHJpbmcgdGhhdCBkb2VzbiYjODIxNzt0IG1hdGNoOjwvcD4KPHA%2Bam9obkBkb2Uuc29tZXRoaW5nIChUTEQgaXMgdG9vIGxvbmcp">Click to open demo in a new window</a></small></div>
 
 
 
@@ -235,7 +240,7 @@ Finally, we end with the end of the line.
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="400px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTI4aHR0cHMlM0YlM0ElNUMlMkYlNUMlMkYlMjklM0YlMjglNUIlNUNkYS16JTVDLi0lNUQlMkIlMjklNUMuJTI4JTVCYS16JTVDLiU1RCU3QjIlMkM2JTdEJTI5JTI4JTVCJTVDJTJGJTVDdyUyMCU1Qy4tJTVEJTJBJTI5JTJBJTVDJTJGJTNG&amp;c=U3RyaW5nIHRoYXQgbWF0Y2hlczo8L3A%2BCjxwPmh0dHA6Ly9uZXQudHV0c3BsdXMuY29tL2Fib3V0PC9wPgo8cD5TdHJpbmcgdGhhdCBkb2VzbiYjODIxNzt0IG1hdGNoOjwvcD4KPHA%2BaHR0cDovL2dvb2dsZS5jb20vc29tZS9maWxlIS5odG1sIChjb250YWlucyBhbiBleGNsYW1hdGlvbiBwb2ludCk%3D"></iframe>
 
-<p align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTI4aHR0cHMlM0YlM0ElNUMlMkYlNUMlMkYlMjklM0YlMjglNUIlNUNkYS16JTVDLi0lNUQlMkIlMjklNUMuJTI4JTVCYS16JTVDLiU1RCU3QjIlMkM2JTdEJTI5JTI4JTVCJTVDJTJGJTVDdyUyMCU1Qy4tJTVEJTJBJTI5JTJBJTVDJTJGJTNG&amp;c=U3RyaW5nIHRoYXQgbWF0Y2hlczo8L3A%2BCjxwPmh0dHA6Ly9uZXQudHV0c3BsdXMuY29tL2Fib3V0PC9wPgo8cD5TdHJpbmcgdGhhdCBkb2VzbiYjODIxNzt0IG1hdGNoOjwvcD4KPHA%2BaHR0cDovL2dvb2dsZS5jb20vc29tZS9maWxlIS5odG1sIChjb250YWlucyBhbiBleGNsYW1hdGlvbiBwb2ludCk%3D">Click to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTI4aHR0cHMlM0YlM0ElNUMlMkYlNUMlMkYlMjklM0YlMjglNUIlNUNkYS16JTVDLi0lNUQlMkIlMjklNUMuJTI4JTVCYS16JTVDLiU1RCU3QjIlMkM2JTdEJTI5JTI4JTVCJTVDJTJGJTVDdyUyMCU1Qy4tJTVEJTJBJTI5JTJBJTVDJTJGJTNG&amp;c=U3RyaW5nIHRoYXQgbWF0Y2hlczo8L3A%2BCjxwPmh0dHA6Ly9uZXQudHV0c3BsdXMuY29tL2Fib3V0PC9wPgo8cD5TdHJpbmcgdGhhdCBkb2VzbiYjODIxNzt0IG1hdGNoOjwvcD4KPHA%2BaHR0cDovL2dvb2dsZS5jb20vc29tZS9maWxlIS5odG1sIChjb250YWlucyBhbiBleGNsYW1hdGlvbiBwb2ludCk%3D">Click to open demo in a new window</a></small></div>
 
 
 

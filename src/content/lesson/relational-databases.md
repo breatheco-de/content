@@ -1,5 +1,7 @@
 ---
 title: "Relational Databases"
+cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
+textColor: "white"
 date: "2018-14-11"
 tags: ["fale"]
 ---

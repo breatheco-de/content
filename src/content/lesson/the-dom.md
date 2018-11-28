@@ -1,7 +1,8 @@
 ---
 title: "The DOM"
 subtitle: "The only way to interact with your code is throughout The DOM. It is a hierarchy stored in memory that contains all of your website elements in real-time. DOM Manipulation is the most popular activity for any front-end developer. The DOM brings your applications to life!"
-
+cover: "https://ucarecdn.com/db660bb9-1ac6-4730-a9c8-4544d6b801b0/"
+textColor: "white"
 date: "2018-05-15"
 tags: ["fale"]
 ---
@@ -41,7 +42,7 @@ It does not matter where you write the code.  The only thing that matters is tha
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p align="right"><small><a href="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/">Click to open demo in a new window</a></small></p>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/">Click to open demo in a new window</a></small></div>
 
 
 ## The DOM is Spectacular!
@@ -57,7 +58,7 @@ From the moment a website starts being loaded, the browser creates a hierarchy t
 
 <iframe width="578" height="325" src="https://www.youtube.com/embed/Ibxagg2ep5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<p align="right"><small><a href="https://www.youtube.com/embed/Ibxagg2ep5g">Click here to open video in a new window</a></small></p>
+<div align="right"><small><a href="https://www.youtube.com/embed/Ibxagg2ep5g">Click here to open video in a new window</a></small></div>
 
 ## How do I access any Object in the DOM?
 ***
@@ -132,7 +133,7 @@ trArray[3].style.background = "red";
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p align="right"><small><a href="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/">Click to open demo in a new window</a></small></p>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/">Click to open demo in a new window</a></small></div>
 
 ## The innerHTML
 ***

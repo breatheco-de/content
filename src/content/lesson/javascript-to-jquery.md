@@ -1,7 +1,8 @@
 ---
 title: "From Javascript to jQuery"
 date: "2018-05-11"
-
+cover: "https://ucarecdn.com/8c053abc-2f09-47e9-b586-751538d180c4/"
+textColor: "white"
 tags: ["fale"]
 ---
 
@@ -57,7 +58,7 @@ To download jQuery, go to code.jquery.com and pick the last MINIFIED version of 
 
 Then, use the `<script>` tag to import that file into your website.  Place the `<script>` tag inside of the `<head>` tag **before any other JavaScript tag.**
 
-![jquery1](https://ucarecdn.com/04c63654-5102-43e6-839c-f59d3a433387/)
+![jquery1](https://ucarecdn.com/b5b7f158-1aca-43f0-821a-fc39e6d583e3/)
 
 ##### 2) Use a CDN 
 
@@ -65,7 +66,7 @@ Content Distribution Networks are servers that are used specifically to store li
 
 We recommend [the Google CDN:](https://developers.google.com/speed/libraries/) look for jQuery and copy the `<script>` of the latest version of jQuery available.  Paste that script tag **before any other JavaScript script tag inside your website** `<head>`.
 
-![jquery2](https://ucarecdn.com/29e81ea6-e5b8-4173-a3f3-59b19ad0cd11/)
+![jquery2](https://ucarecdn.com/b5e8d1ef-5385-4923-aaf9-b24130405a9a/)
 
 ```html
 <!DOCTYPE html>

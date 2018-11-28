@@ -1,7 +1,8 @@
 ---
 title: "Learn to Code Intro"
 subtitle: "Now you don't have to write HTML and CSS (not that much). Learn how to make computers write your code."
-
+cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+textColor: "white"
 date: "2017-02-11"
 tags: ["fale"]
 ---
@@ -21,7 +22,7 @@ Computers don’t need visual interfaces, humans do.  But now you are becoming a
 
 <iframe src="https://repl.it/F03k/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<p align="right"><small><a href="https://repl.it/F03k/0?lite=true">Click to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://repl.it/F03k/0?lite=true">Click to open demo in a new window</a></small></div>
 
 
 
@@ -40,7 +41,7 @@ This is what a "runtime error" (an error that occurs during runtime) looks like:
 
 <iframe src="https://repl.it/F05K/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<p align="right"><small><a href="https://repl.it/F05K/0?lite=true">Click to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://repl.it/F05K/0?lite=true">Click to open demo in a new window</a></small></div>
 
 
 
