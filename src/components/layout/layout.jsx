@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
+import SEO from '../seo';
 import Header from '../header';
 import { StaticQuery, graphql } from 'gatsby';
 
@@ -9,7 +9,7 @@ import '../../scss/index.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 require("prismjs/themes/prism-okaidia.css");
 
-export const Layout = ({ children }) => (
+export const Layout = ({ children, seo }) => (
  <StaticQuery
    query={graphql`
      query LayoutQuery {
@@ -20,14 +20,11 @@ export const Layout = ({ children }) => (
         }
      }
    `}
-   render={data => (
+   render={data => console.log(seo) || (
       <div>
-        <Helmet
-            title={(typeof data === 'undefined') ? '':data.site.siteMetadata.title}
-            meta={[
-                { name: 'description', content: 'Sample' },
-                { name: 'keywords', content: 'sample, something' },
-            ]}
+        <SEO
+            title={(typeof seo.title !== 'undefined') ? seo.title : (typeof data === 'undefined') ? '':data.site.siteMetadata.title}
+            description={seo.description || null}
         />
         <Header 
           siteTitle={(typeof data === 'undefined') ? '':data.site.siteMetadata.title} 
@@ -41,7 +38,12 @@ export const Layout = ({ children }) => (
 );
 
 Layout.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.node,
+  seo: PropTypes.object
+};
+
+Layout.defaultProps = {
+  seo: null
 };
 
 export default Layout;

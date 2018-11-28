@@ -12,8 +12,12 @@ const renderAst = new rehypeReact({
 
 export default ({ data }) => {
   const post = data.markdownRemark;
+  const seo = {
+    title: post.frontmatter.title,
+    description: post.frontmatter.subtitle
+  };
   return (
-    <Layout>
+    <Layout seo={seo}>
       <div>
         <Cover 
           title={post.frontmatter.title} 

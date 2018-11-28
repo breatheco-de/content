@@ -1,6 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: 'Breathcode'
+    title: "BreatheCode",
+    titleTemplate: "%s - BreatheCode",
+    description:
+      "Accelerate the you learn and evolve your coding skills.",
+    url: "https://www.breathco.de", // No trailing slash allowed!
+    image: "/images/snape.jpg", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@breatehcode",
   },
   plugins: [
     `gatsby-plugin-sharp`,
