@@ -1,6 +1,6 @@
 ---
-title: "Learn GIT Version Control System"
-subtitle: "GIT is the main way developers use to collaborate with each other. As a developer you will use GIT EVERY day. 
+title: "How to use GIT Version Control System"
+subtitle: "Learn how to use GIT with an interactive tutorial, video and great article.
 
 Without GIT you won't be able to work at any company, and you won't be able to use anyone's code."
 
@@ -10,6 +10,10 @@ textColor: "white"
 date: "2018-02-08"
 tags: ["fale"]
 ---
+
+
+[[demo]]
+| :point_up: We have also prepared an interactive tutorial about GIT [click here to take it!](https://4geeksacademy.github.io/git-interactive-tutorial/)
 
 ## GIT is a MUST!
 ***
@@ -45,7 +49,7 @@ The GIT repository is stored in the same directory as the project itself in a -h
 + There is only one .git directory – located in the root directory of the project.
 + The repository is stored within the project.
 
-<img src="https://ucarecdn.com/0ef9f84a-33b8-4312-a4ba-a6a83187f865/" width:100px height:100px alt="git0">
+<img src="https://ucarecdn.com/0ef9f84a-33b8-4312-a4ba-a6a83187f865/" width:100px height:100px alt="How to use GIT">
 
 ![git1](https://ucarecdn.com/da752daa-7d21-4044-bf7b-bf686934b2a8/)
 

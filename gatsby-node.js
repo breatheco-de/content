@@ -55,7 +55,7 @@ exports.createPages = ({ actions, graphql }) => {
           component: getTemplate(node.fileAbsolutePath),
           context: {
             // Data passed to context is available in page queries as GraphQL variables.
-            slug: node.fields.slug,
+            slug: node.fields.slug
           },
         })
       })
