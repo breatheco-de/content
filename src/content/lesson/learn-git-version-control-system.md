@@ -1,6 +1,6 @@
 ---
-title: "Learn GIT Version Control System"
-subtitle: "GIT is the main way developers use to collaborate with each other. As a developer you will use GIT EVERY day. 
+title: "How to use GIT Version Control System"
+subtitle: "Learn how to use GIT with an interactive tutorial, video and great article.
 
 Without GIT you won't be able to work at any company, and you won't be able to use anyone's code."
 
