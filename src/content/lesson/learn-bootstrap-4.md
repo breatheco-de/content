@@ -2,7 +2,7 @@
 title: "Getting to know Bootstrap 4"
 subtitle: "After decades of struggling, one guy had the idea of creating a basic CSS Stylesheet to be used as the base of any website, enabling everyone to do a lot of stuff in just a few lines! 
 
-Today, it is almost stupid, and, also impossible to think about doing a website without a CSS framework like Bootstrap 4 ."
+It is almost stupid, and, also impossible to think about doing a website without a CSS framework like Bootstrap 4 ."
 
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
@@ -10,7 +10,7 @@ date: "2018-01-11"
 tags: ["fale"]
 ---
 
-## **Finally, Bootstrap 4!**
+## **Finally, Bootstrap!**
 ***
 
 There is light at the end of the tunnel and it is NOT Chuck Norris holding a flashlight.  Finally, someone fixed CSS.  This is a library made by [Mark Otto](https://twitter.com/mdo?lang=en) and [Jacob Thornton](https://twitter.com/fat) – normal people – developers like you and me, and they did great!
@@ -51,7 +51,7 @@ Just like we did in the Layout chapter of the course, let’s create one page wi
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/th7uLrow/4/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
-## Bootstrap 4 is 100% Responsive
+## Bootstrap is 100% Responsive
 ***
 
 It’s very easy to decide how your website will render in different screen sizes; when you add each column into the rows you need to assign a class with the following format:
