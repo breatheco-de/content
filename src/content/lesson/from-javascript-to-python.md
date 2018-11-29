@@ -138,30 +138,29 @@ Python has "print" either for writing into a document or into the console. Remem
 <br>
 <br>
 
-<div class="grid">
-    <div class="left">
-        #### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With  JavaScript
-        
-        ```javascript{numberLines: true}
-        var simpleValue = ‘hello’;
-        console.log(simpleValue);
-        //This will print the content of the variable  
-        var arrayValue = [‘Hello’,23, 76, ‘World’,43];
-        console.log(arrayValue);
-        //This will print the content of the array and its elements.
-        ```
-    </div>
-    <div class="right">
-        #### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
-        
-        ```python{numberLines: true}
-        simpleValue = ‘Hello’;
-        print(simpleValue);  //this will print the content 
-        arrayValue =[‘Hello’,23,76,’World’,43];
-        print(arrayValue); //this will work, printing the content of the array in a format like this: [‘Hello’,23,76,’World’,43]
-        ```
-    </div>
-</div>
+
+#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With  JavaScript
+
+```javascript{numberLines: true}
+var simpleValue = ‘hello’;
+console.log(simpleValue);
+//This will print the content of the variable  
+var arrayValue = [‘Hello’,23, 76, ‘World’,43];
+console.log(arrayValue);
+//This will print the content of the array and its elements.
+```
+
+
+#### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+
+```python{numberLines: true}
+simpleValue = ‘Hello’;
+print(simpleValue);  //this will print the content 
+arrayValue =[‘Hello’,23,76,’World’,43];
+print(arrayValue); //this will work, printing the content of the array in a format like this: [‘Hello’,23,76,’World’,43]
+```
+  
+
 
 
 
