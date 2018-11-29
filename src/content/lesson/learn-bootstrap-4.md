@@ -10,7 +10,7 @@ date: "2018-01-11"
 tags: ["fale"]
 ---
 
-## **Finally, Bootstrap!**
+## **Finally, Bootstrap 4 has arrived!**
 ***
 
 There is light at the end of the tunnel and it is NOT Chuck Norris holding a flashlight.  Finally, someone fixed CSS.  This is a library made by [Mark Otto](https://twitter.com/mdo?lang=en) and [Jacob Thornton](https://twitter.com/fat) – normal people – developers like you and me, and they did great!
