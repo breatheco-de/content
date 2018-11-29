@@ -8,6 +8,7 @@ import './layout.css';
 import '../../scss/index.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 require("prismjs/themes/prism-okaidia.css");
+require("prismjs/plugins/line-numbers/prism-line-numbers.css");
 
 export const Layout = ({ children, seo }) => (
  <StaticQuery
@@ -20,11 +21,13 @@ export const Layout = ({ children, seo }) => (
         }
      }
    `}
-   render={data => console.log(seo) || (
+   render={data => (
       <div>
         <SEO
             title={(typeof seo.title !== 'undefined') ? seo.title : (typeof data === 'undefined') ? '':data.site.siteMetadata.title}
             description={seo.description || null}
+            image={seo.image || null}
+            url={seo.url || null}
         />
         <Header 
           siteTitle={(typeof data === 'undefined') ? '':data.site.siteMetadata.title} 

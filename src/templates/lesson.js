@@ -14,7 +14,9 @@ export default ({ data }) => {
   const post = data.markdownRemark;
   const seo = {
     title: post.frontmatter.title,
-    description: post.frontmatter.subtitle
+    description: post.frontmatter.subtitle,
+    url: post.frontmatter.original_url,
+    image: post.frontmatter.thumb
   };
   return (
     <Layout seo={seo}>
@@ -42,6 +44,7 @@ export const query = graphql`
         title
         subtitle
         cover
+        thumb
         textColor
       }
       fields {
