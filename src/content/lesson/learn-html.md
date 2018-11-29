@@ -26,7 +26,7 @@ Originally browsers only knew how to interpret HTML.  Websites were simple and n
 ![learn html](https://ucarecdn.com/b7b8d79f-537b-4c9b-b4c3-e055556c2676/)
 
 
-# ** HTML Syntax: It’s All `<Tags>`.**
+# **HTML Syntax: It’s All `<Tags>`.**
 ***
 ![learn html](https://ucarecdn.com/89b3199e-c064-4e23-82d7-74755f709af5/)
 
@@ -129,7 +129,7 @@ In the case of HTML, the `<head>` can contain the following tags (among less imp
 |Style   |`<style>`   |If we can’t or don’t want to import a CSS style sheet, we may also define styles directly on the HTML document inside this tag.  This is a practice that we rarely recommend and should only be used when you don’t have any other choice.   |
 |Script   |`<script>`   |Used to add JavaScript code to the page.  All of the JavaScript code must be contained in these tags that can be used also in the BODY, if desired.  The difference is that any JavaScript code that we place in a style tag in the BODY won’t be available when the page begins to run (that’s exactly why the is HEAD is so useful).   |
 
-# **Learn HTML \<body\>, it is Similar to any MS Word Document**
+# **The <body> is Similar to any MS Word Document**
 
 Ok, now that we are familiar with the general and necessary structure of the page, lets review the tags we can and must use to define the content of the page.
 
