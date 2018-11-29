@@ -2,7 +2,7 @@
 title: "Getting to know Bootstrap 4"
 subtitle: "After decades of struggling, one guy had the idea of creating a basic CSS Stylesheet to be used as the base of any website, enabling everyone to do a lot of stuff in just a few lines! 
 
-Today, it is almost stupid, and, also impossible to think about doing a website without a CSS framework like Bootstrap."
+Today, it is almost stupid, and, also impossible to think about doing a website without a CSS framework like Bootstrap 4 ."
 
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
@@ -10,14 +10,14 @@ date: "2018-01-11"
 tags: ["fale"]
 ---
 
-## **Finally, Bootstrap!**
+## **Finally, Bootstrap 4!**
 ***
 
 There is light at the end of the tunnel and it is NOT Chuck Norris holding a flashlight.  Finally, someone fixed CSS.  This is a library made by [Mark Otto](https://twitter.com/mdo?lang=en) and [Jacob Thornton](https://twitter.com/fat) – normal people – developers like you and me, and they did great!
 
 These two guys working on Twitter were suffering the same problems we have been with HTML and CSS.  Fed up with the situation, they decided to build a **base CSS Sheet designed to be imported into any website**.  It makes every front-end development work 4x’s easier.
 
-![neo](https://ucarecdn.com/13cbef45-95c3-4038-9977-d0b3871f7160/)
+![bootstrap 4](https://ucarecdn.com/335ed387-cbf9-4ffa-9529-1ccf2084e393/-/resize/300x/)
 
 Besides, Bootstrap gives you a dozen of new elements that you would normally want to use but don’t actually exist in CSS+HTML: The Bootstrap components.
 
@@ -34,13 +34,13 @@ Bootstrap creators replicated the same concept that `<tables>` had, but instead 
 This is a row: <div class="row">
 This is a column: <div class"col–sm–x">
 ```
-![row](https://breatheco.de/wp-content/uploads/2017/01/Screen-Shot-2017-01-18-at-11.34.04-PM-1024x490.png)
+![bootstrap 4](https://ucarecdn.com/3884f515-dd7a-48f2-b238-9e2ec26de02d/-/resize/700x/)
 
 Bootstrap has divided the width of the screen in `12 slots` – each of them with 8,33% of the total width of the row.  The size of 1 column, can be between 1 and 12 slots.
 
 On the flip side, columns were made to live within the rows (just like what happens between `<td>` and `<tr>`).   You always need to open a row before opening a column.  All columns in a row must always add up to a maximum of 12 slots.
 
-![box](https://ucarecdn.com/f50388c2-f5ed-4dc8-be8c-863c63e75cdc/)
+![bootstrap 4](https://ucarecdn.com/1b7f5dc4-029a-475d-8bfd-fac1b739966c/-/resize/500x/)
 
 ## Our first Layout example:
 ***
@@ -51,7 +51,7 @@ Just like we did in the Layout chapter of the course, let’s create one page wi
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/th7uLrow/4/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
-## Bootstrap is 100% Responsive
+## Bootstrap 4 is 100% Responsive
 ***
 
 It’s very easy to decide how your website will render in different screen sizes; when you add each column into the rows you need to assign a class with the following format:
@@ -77,9 +77,9 @@ It’s very easy to decide how your website will render in different screen size
 
 We are going to set the layout (using the sm, md and lg column classes) for  two rows in all the devices at the same time:
 
-![row-2](https://ucarecdn.com/3667ef72-38dc-46da-938a-31088169e2cf/)
+![bootstrap 4](https://ucarecdn.com/e15c594c-9b46-4c27-bf5a-a5bbb5ef952a/-/resize/1500x/)
 
-```html
+```html{numberLines: true}
 <!-- Stack the columns on mobile by making one full-width and the other half-width --> 
 <div class="row">
   <div class="col-12 col-md-8">.col-12 .col-md-8</div>
@@ -105,7 +105,7 @@ We are going to set the layout (using the sm, md and lg column classes) for  two
 
 We already know the basic HTML5 skeleton any website needs to have.  Now you just have to add a few lines in your skeleton to make it "Bootstrap compatible":
 
-```html
+```html{numberLines: true}
 <!doctype html>
 <html lang="en">
   <head>
@@ -146,7 +146,7 @@ Every developer has to fake these additional elements every time they create a n
 
 When you import Bootstrap into your website, you will have a new set of components at your disposal.  This is just a small part of those elements:
 
-![modal-header](https://ucarecdn.com/d715b362-60ec-4d0b-89da-dca945c44bd4/)
+![bootstrap 4](https://ucarecdn.com/8e9ff37a-28f7-4179-8f5d-9278ff7efd55/-/resize/800x/)
 
 
 ### These are the most Important and Used Bootstrap Components:
@@ -158,12 +158,12 @@ This is so popular that it’s in the menu of 99% of all websites.  It normally 
 
 Here is an example of how a NavBar may look on a website:
 
-![instagram](https://ucarecdn.com/fea2f19b-aee1-4e1b-9426-7b6c51867b47/)
+![bootstrap 4](https://ucarecdn.com/6351de1c-6d90-4502-8823-4b751981db9f/-/resize/1000x/)
 
 [[info]]
 | :link:[**Read more about the NavBar here**](https://getbootstrap.com/docs/4.0/components/navbar/)
 
-```html
+```html{numberLines: true}
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">Website Brand</a>
@@ -203,12 +203,12 @@ This is probably the most used Bootstrap component, every website has a few card
 
 Here is an example of how a "The Card" may look on a website:
 
-![thecard](https://ucarecdn.com/e9b6edd1-b6f6-47fc-9700-17d374f9755d/)
+![bootstrap 4](https://ucarecdn.com/39d36b52-330f-4ce9-beab-2004e325749c/-/resize/350x/)
 
 [[info]]
 | :link: [**Read more about the card here**](https://getbootstrap.com/docs/4.0/components/card/)
 
-```html
+```html{numberLines: true}
 <div class="card" style="width: 20rem;">
   <img class="card-img-top" src="..." alt="Card image cap">
   <div class="card-body">
@@ -227,12 +227,12 @@ Everyone hates a modal, it is super annoying, always asking you to subscribe to 
 
 Here is how a modal looks by default on Bootstrap.
 
-![modal-t](https://ucarecdn.com/ccc9a172-fbc2-4760-b5d1-b8c77e6fd2fe/)
+![bootstrap 4](https://ucarecdn.com/6bcba673-a543-4bf1-a80b-083914b91bef/-/resize/400x/)
 
 [[info]]
 | :link:[**Read more about modal here**](https://getbootstrap.com/docs/4.0/components/modal/)
 
-```html
+```html{numberLines: true}
 div class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
