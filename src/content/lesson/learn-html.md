@@ -26,7 +26,7 @@ Originally browsers only knew how to interpret HTML.  Websites were simple and n
 ![learn html](https://ucarecdn.com/b7b8d79f-537b-4c9b-b4c3-e055556c2676/)
 
 
-# **HTML Syntax: It’s All `<Tags>`.**
+# **Learn HTML Syntax: It’s All `<Tags>`.**
 ***
 ![learn html](https://ucarecdn.com/89b3199e-c064-4e23-82d7-74755f709af5/)
 
