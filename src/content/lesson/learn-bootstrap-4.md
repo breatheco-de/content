@@ -100,7 +100,7 @@ We are going to set the layout (using the sm, md and lg column classes) for  two
 </div>
 ```
 
-## Basic Bootstrap Skeleton
+## Basic Bootstrap 4 Skeleton
 ***
 
 We already know the basic HTML5 skeleton any website needs to have.  Now you just have to add a few lines in your skeleton to make it "Bootstrap compatible":
@@ -137,7 +137,7 @@ The Bootstrap Javascript functionality requires the jQuery and Popper Javascript
 [[info]]
 |:link: Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
-## Bootstrap Components
+## Bootstrap 4 Components
 ***
 
 HTML is so basic, it only has a few tags – we know that already.  But when you browse the web today, you see a different thing… websites today have menus, icons, load-bars, navbars, labels, etc.  Where are those tags?  None of those tags are defined in HTML!
