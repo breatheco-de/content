@@ -1,6 +1,6 @@
 ---
-title: "It's time to Learn HTML and it Structure"
-subtitle: "HTML is to websites what columns are for buildings. 
+title: "What is HTML ? It's time to Learn HTML and it Structure"
+subtitle: "But really what is HTML ? HTML is to websites what columns are for buildings. 
 
 Here you will Learn HTML basics - the foundations of the web."
 
@@ -23,12 +23,12 @@ HTML makes you divide the website information into parts – similar to the basi
 
 Originally browsers only knew how to interpret HTML.  Websites were simple and neither CSS or JavaScript was used.  A website was a simple plain text document with the typical elements any Word Document has: Headings, Bullet lists, Paragraphs, etc.
 
-![learn html](https://ucarecdn.com/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc/-/resize/600x/)
+![what is html](https://ucarecdn.com/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc/-/resize/600x/)
 
 
 # **HTML Syntax: It’s All `<Tags>`.**
 ***
-![learn html](https://ucarecdn.com/78296f64-547f-4928-a8da-14cb24e836b9/)
+![what is html](https://ucarecdn.com/78296f64-547f-4928-a8da-14cb24e836b9/)
 
 Remember how we said that the Internet is all text?
 
