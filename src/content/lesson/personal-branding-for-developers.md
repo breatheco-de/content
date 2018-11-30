@@ -8,7 +8,7 @@ tags: ["github"]
 
 ---
 
-> Written with [StackEdit](https://stackedit.io/).
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUyNTAwMjAyXX0=
+eyJoaXN0b3J5IjpbLTgyOTk4MDc3Ml19
 -->
