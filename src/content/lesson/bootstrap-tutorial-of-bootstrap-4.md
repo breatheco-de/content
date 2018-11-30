@@ -1,6 +1,6 @@
 ---
-title: "Getting to know Bootstrap 4"
-subtitle: "After decades of struggling, one guy had the idea of creating a basic CSS Stylesheet to be used as the base of any website, enabling everyone to do a lot of stuff in just a few lines! 
+title: "Bootstrap Tutorial: Learn Bootstrap 4 in less than a day"
+subtitle: "After decades of struggling, the light has arrived !! with this Bootstrap tutorial, designing website will be a piece of cake   
 
 It is almost stupid, and, also impossible to think about doing a website without a CSS framework like Bootstrap 4 ."
 
@@ -9,7 +9,7 @@ textColor: "white"
 date: "2018-01-11"
 tags: ["fale"]
 ---
-
+ 
 ## **Finally, Bootstrap 4 has arrived!**
 ***
 
@@ -34,13 +34,13 @@ Bootstrap creators replicated the same concept that `<tables>` had, but instead 
 This is a row: <div class="row">
 This is a column: <div class"col–sm–x">
 ```
-![bootstrap 4](https://ucarecdn.com/3884f515-dd7a-48f2-b238-9e2ec26de02d/-/resize/700x/)
+![bootstrap tutorial](https://ucarecdn.com/3884f515-dd7a-48f2-b238-9e2ec26de02d/-/resize/700x/)
 
 Bootstrap has divided the width of the screen in `12 slots` – each of them with 8,33% of the total width of the row.  The size of 1 column, can be between 1 and 12 slots.
 
 On the flip side, columns were made to live within the rows (just like what happens between `<td>` and `<tr>`).   You always need to open a row before opening a column.  All columns in a row must always add up to a maximum of 12 slots.
 
-![bootstrap 4](https://ucarecdn.com/1b7f5dc4-029a-475d-8bfd-fac1b739966c/-/resize/500x/)
+![bootstrap tutorial](https://ucarecdn.com/1b7f5dc4-029a-475d-8bfd-fac1b739966c/-/resize/500x/)
 
 ## Our first Layout example:
 ***
@@ -149,7 +149,7 @@ When you import Bootstrap into your website, you will have a new set of componen
 ![bootstrap 4](https://ucarecdn.com/8e9ff37a-28f7-4179-8f5d-9278ff7efd55/-/resize/800x/)
 
 
-### These are the most Important and Used Bootstrap Components:
+### These are the most Important and Used Components in this Bootstrap tutorial:
 ***
 
 #### **The NavBar**
@@ -158,7 +158,7 @@ This is so popular that it’s in the menu of 99% of all websites.  It normally 
 
 Here is an example of how a NavBar may look on a website:
 
-![bootstrap 4](https://ucarecdn.com/6351de1c-6d90-4502-8823-4b751981db9f/-/resize/1000x/)
+![bootstrap tutorial](https://ucarecdn.com/6351de1c-6d90-4502-8823-4b751981db9f/-/resize/1000x/)
 
 [[info]]
 | :link:[**Read more about the NavBar here**](https://getbootstrap.com/docs/4.0/components/navbar/)
