@@ -1,6 +1,6 @@
 ---
-title: "Learn to Code Intro"
-subtitle: "Now you don't have to write HTML and CSS (not that much). Learn how to make computers write your code."
+title: "Do you already know what is coding? Learn to Code here"
+subtitle: "If you dont know what is coding don't worry, here you don't have to write HTML and CSS (not that much). Learn to code here and make computers write your code."
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2017-02-11"
@@ -57,5 +57,5 @@ Today you will learn to code speaking JavaScript!
 + There are 302 open jobs in Miami [asking for JavaScript right now (indeed.com)](https://www.indeed.com/q-javascript-l-Miami,-FL-jobs.html), 2x’s more than PHP and 3 times more than Ruby.
 Need more proof?  We can keep talking all day.  Only by writing this lesson do I get anxious because JavaScript is so universal that you need to learn it right now!!!
 
-![introcode](https://ucarecdn.com/f1426e4a-637d-4543-a4dc-30e9e7619dd2/)
+![what is coding](https://ucarecdn.com/f1426e4a-637d-4543-a4dc-30e9e7619dd2/)
   
