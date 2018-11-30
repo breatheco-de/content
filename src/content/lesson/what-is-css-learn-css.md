@@ -1,5 +1,5 @@
 ---
-title: "Now it's Time to Learn CSS and Know What is CSS Meant for !"
+title: "Now it's Time to Learn CSS and Know What is CSS Meant for!"
 subtitle: "As you may have noticed, HTML allows you to create only basic websites.
 
 Nobody wants to see a white website with some horrible text on it.

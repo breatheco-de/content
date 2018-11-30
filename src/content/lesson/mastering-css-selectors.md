@@ -12,7 +12,7 @@ tags: ["fale"]
 
 Completing a stylesheet is like having a little war between selectors, – you are constantly overriding previously defined styles with new ones:
 
-```css
+```css{numberLines: true}
 //You first say that you want all the H2 tags to be font-size: 14px
 h2{
     font-size: 14px;
