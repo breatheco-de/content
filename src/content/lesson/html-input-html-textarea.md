@@ -1,7 +1,7 @@
 ---
-title: "HTML Forms"
-subtitle: "Forms are really easy to understand, and they are the ONLY way to make interactive websites without AJAX.
-These very basic concepts represent 90% of everything you will ever need to know about forms."
+title: "HTML Forms:HTML input, HTML Textarea and more..."
+subtitle: "HTML Forms, HTML input and HTML textarea are really easy to understand, and they are the ONLY way to make interactive websites without AJAX.
+These very basic concepts represent 90% of everything you will ever need to know about forms ."
 cover: "https://www.desktopbackground.org/p/2013/09/13/637935_nasa-wallpapers_1600x1200_h.jpg"
 
 
@@ -18,7 +18,7 @@ This lesson is very easy to understand – but it is essential in that in this n
 
 Like always, let’s compare our website with an MS Word document…At some point scientists needed to create forms just like the ones we fill out when we pay our taxes: with blank spaces available for the user to fill with their Name, Last Name, Date of Birth, etc.
 
-![forms](https://ucarecdn.com/12ff6e40-706f-47ff-9ada-53dada968eaf/-/resize/350x/)
+![html textarea html input](https://ucarecdn.com/12ff6e40-706f-47ff-9ada-53dada968eaf/-/resize/350x/)
 
 The elements that the user fills in a form are called `<inputs>` and they always have to be wrapped inside of a `<form>` tag.  You can also use all the other HTML tags we learned in the previous lessons without any problems.
 
@@ -32,14 +32,14 @@ The following is a list of all the possible elements we can use to receive any i
 
 |**Name**   |**Declaration**   |**Description**   |
 |:----------|:-----------------|:-----------------|
-|Text       |`<input type="text">`   |The text input is meant to receive any small string of characters such as: Username, Name, Last Name, Date of birth, etc.<br>`<input type="text" name="Name" />name="comments"><textarea/>`   |
-|Textarea   |`<textarea>`   |The textarea is ideal for long text inputs.  Its main difference from the text input is its ability to allow for multiple lines.<br>`<textarea name="comments"><textarea/>`   |
-|Password   |`<input type="password" />`   |This is just like an input type="text" but with the only difference that the characters are hidden like bullets – the user cannot see what  they are typing.<br>`<input type="password" name="password" />`   |
-|Radiobutton   |`<input type="radio">`   |Allows the user to select only one of all the inputs with the same name.<br>`<input type="radio" name="color" value="red" />` <br> `<input type="radio" name="color" value="green" />`   |
-|Checkbox   |`<input type="check">`   |You have to use brackets in the name of the input to allow the user to select multiple options at the same time.<br>`<input type="check" name="color[]" value="green" />`<br> `<input type="check" name="color[]" value="blue" />`   |
-|File   |`<input type="file">`   |This is the only way to work with files.  Eg: It’s what websites use when they ask you to upload a picture.<br>`<input type="file" name="photo" value="" />`   |
-|Submit Button   |`<input type="submit">`   |When the form is ready to be sent, the user presses this "submit" button and everything is then sent to the server for processing.<br>`<input type="submit" value="Send Form" />`   |
-|Select   |`<select>`   |Asks the user to pick one or more elements from a list of options.<br>`<select name="color" /> <option value="red">Red </option> <option value="yellow">Yellow</option> <select />`   |
+|Text       |`python><input type="text">`   |The text input is meant to receive any small string of characters such as: Username, Name, Last Name, Date of birth, etc.<br>`python><input type="text" name="Name" />name="comments"><textarea/>`   |
+|Textarea   |`python><textarea>`   |The textarea is ideal for long text inputs.  Its main difference from the text input is its ability to allow for multiple lines.<br>`python><textarea name="comments"><textarea/>`   |
+|Password   |`python><input type="password" />`   |This is just like an input type="text" but with the only difference that the characters are hidden like bullets – the user cannot see what  they are typing.<br>`python><input type="password" name="password" />`   |
+|Radiobutton   |`python><input type="radio">`   |Allows the user to select only one of all the inputs with the same name.<br>`python><input type="radio" name="color" value="red" />` <br> `python><input type="radio" name="color" value="green" />`   |
+|Checkbox   |`python><input type="check">`   |You have to use brackets in the name of the input to allow the user to select multiple options at the same time.<br>`python><input type="check" name="color[]" value="green" />`<br> `python><input type="check" name="color[]" value="blue" />`   |
+|File   |`python><input type="file">`   |This is the only way to work with files.  Eg: It’s what websites use when they ask you to upload a picture.<br>`python><input type="file" name="photo" value="" />`   |
+|Submit Button   |`python><input type="submit">`   |When the form is ready to be sent, the user presses this "submit" button and everything is then sent to the server for processing.<br>`python><input type="submit" value="Send Form" />`   |
+|Select   |`python><select>`   |Asks the user to pick one or more elements from a list of options.<br>`python><select name="color" /> <option value="red">Red </option> <option value="yellow">Yellow</option> <select />`   |
 
 ## **Input Attributes**
 ***
@@ -84,7 +84,7 @@ The two most important attributes that need to be set into the `<form>` tag are 
 |All form data is encoded into the URL.  This means that it will append all the information of the form to the end of the destination URL like this:http://www.mydestinationurl.com?input_name1=value1&input_name2&value2…..   |The data will be hidden from the end-user.  The URL will remain as it was defined in the "action" attribute and only a developer will be able to request the form information.   |
 
 [[warning]]
-| :point_up:If you are going to use the `<input type="file">` the only method supported is POST.
+| :point_up:If you are going to use the `python><input type="file">` the only method supported is POST.
 
 ## Welcome to the Web 2.0
 ***
