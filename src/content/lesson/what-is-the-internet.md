@@ -1,5 +1,5 @@
 ---
-title: "Are you Familiar With What is The Internet?"
+title: "Do you know What is The Internet?"
 subtitle: "What is the internet: Everything you see on the internet is a text document. Everything!! As developers, all we do is generate chunks of text based on a set of criteria. If you understand this simple concept, the sky will be the limit."
 
 cover: "https://ucarecdn.com/05a36362-c09f-4961-a7b9-8e3132a902b1/"
