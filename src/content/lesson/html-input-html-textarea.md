@@ -1,5 +1,5 @@
 ---
-title: "HTML Forms:HTML input, HTML Textarea and more..."
+title: "HTML Forms: HTML Input, HTML Textarea and more..."
 subtitle: "HTML Forms, HTML input and HTML textarea are really easy to understand, and they are the ONLY way to make interactive websites without AJAX.
 These very basic concepts represent 90% of everything you will ever need to know about forms ."
 cover: "https://www.desktopbackground.org/p/2013/09/13/637935_nasa-wallpapers_1600x1200_h.jpg"
