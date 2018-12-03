@@ -48,9 +48,12 @@ The GIT repository is stored in the same directory as the project itself in a -h
 + There is only one .git directory – located in the root directory of the project.
 + The repository is stored within the project.
 
-<img src="https://ucarecdn.com/0ef9f84a-33b8-4312-a4ba-a6a83187f865/" width:100px height:100px alt="How to use GIT">
 
-![git1](https://ucarecdn.com/da752daa-7d21-4044-bf7b-bf686934b2a8/)
+![how to use git](https://ucarecdn.com/a4fc1953-3c91-4bf4-a70a-ab4778b3277b/-/resize/300x/)
+
+
+
+![how to use git](https://ucarecdn.com/62897396-651c-4bdb-8604-dfe1898e57bd/-/resize/700x/)
 
 ## **Commit Objects**
 ***
@@ -61,7 +64,7 @@ A **commit object** contains three things:
 + References to **parent commit objects.**
 + An **SHA1 name:** a 40-character string that uniquely identifies the commit object.  The name is composed of a hash of relevant aspects of the commit; this way identical commits will always have the same name.
 
-![git2](https://breatheco.de/wp-content/uploads/2017/03/commit-object.png)
+![how to use git](https://breatheco.de/wp-content/uploads/2017/03/commit-object.png)
 
 The parent commit objects are those commits that came first.  Generally a commit object will have one parent commit.  One generally takes a project in a given state (commit), makes a few changes, and saves the new state (commit) of the project.
 
@@ -76,7 +79,7 @@ Every time you make a new commit, the head will move to that new commit.  This w
 
 You can **move the head** if you want.  It does not necessarily have to always be the last commit, but you must remember that you can only review commits that came before the commit to which the head is pointing at.  **Commits made after the commit to which the head is pointing at are not possible to be reviewed.**
 
-![git3](https://ucarecdn.com/a7bd395c-48ae-4fa6-9765-5a4fae89e5db/)
+![how to use git ](https://ucarecdn.com/79da625d-d7bc-409a-a044-9e60ae6a1a2b/-/resize/300x/)
 
 
 ## **You can have Several Heads (Branches)**
@@ -88,7 +91,7 @@ By default, every repository has one branch called Master, with its correspondin
 
 Example: Let’s say that you are starting to develop the "Login" feature/functionality of a website.  You can create a new "branch" of the repository called "login" so that your commits are not part of the main revision history of the project.  Once you are comfortable with your code, you can then *merge* your branch and delete your head.  This will reset the main HEAD of the master branch to the last commit you made and add your new code to the main branch (master) of the repository.
 
-![git4](https://ucarecdn.com/207e437a-8d1f-413b-b0f1-8c5002194ae2/)
+![how to use git](https://ucarecdn.com/09294580-51b9-4591-9c2c-57c729ad02d1/)
 
 [[info]]
 | :point_up:**Note on Terminology:** The terms "branch" and "head" are nearly synonymous in GIT.  Every branch is represented by one head, and every head represents one branch.  Sometimes, "branch" will be used to refer to a head and the entire history of commits preceding that head, whereas "head" will be used to refer exclusively to a single commit object (the most recent commit in the branch).
@@ -118,7 +121,7 @@ To create a commit, you will need to do two things:
   
 Say you create three commits this way…your repository will look like this:
 
-![git5](https://ucarecdn.com/6234129f-c60d-459f-b428-7aaee1eef79e/)
+![how to use git](https://ucarecdn.com/251dd226-0590-4e79-bde1-9973159a2c7a/-/resize/300x/)
 
 Other commands that are useful at this point:
 
@@ -150,7 +153,7 @@ Now that you’ve created commits, how do you refer to a specific commit?  GIT p
 
  To create a branch, let’s say your repository looks like this:
 
- ![git6](https://ucarecdn.com/e9a1b91e-041a-4a50-a60b-2141106b7eb6/)
+ ![how to use git](https://ucarecdn.com/251dd226-0590-4e79-bde1-9973159a2c7a/-/resize/300x/)
 
  Lets jump back to commit (2) and start new work from there.  You will first need to know how to reference the commit.  You can use `git log` to get the SHA1 name of (2)
 
@@ -172,7 +175,7 @@ This command will create a new head with the given name, and point that head at 
 
 Now our commit tree looks like this:
 
-![git7](https://ucarecdn.com/b90dafe2-4853-4470-ad81-1c0bf1a323a8/)
+![how to use git](https://ucarecdn.com/924b8807-6a06-44e7-87a1-8c93d983d873/-/resize/300x/)
 
 ## **Switching Between Branches**
 ***
@@ -259,7 +262,7 @@ git@domain_name.com:user_name/repository_name.git
 
 For example, when using a repository from github.com, you can find the remote in the repository home page:
 
-![git9](https://ucarecdn.com/acd2bab5-16f9-4150-81ee-709d7f22e702/)
+![git9](https://ucarecdn.com/47f7c628-5efe-4888-b67c-ca90611e788e/)
 
 ## **Adding a Remote**
 ***
