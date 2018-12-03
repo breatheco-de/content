@@ -1,6 +1,6 @@
 ---
-title: "The DOM"
-subtitle: "The only way to interact with your code is throughout The DOM. It is a hierarchy stored in memory that contains all of your website elements in real-time. DOM Manipulation is the most popular activity for any front-end developer. The DOM brings your applications to life!"
+title: "What is DOM: Learn here everything about the Document Object Model"
+subtitle: "Do you already know what is DOM? It is a hierarchy stored in memory that contains all of your website elements in real-time. DOM Manipulation is the most popular activity for any front-end developer. The DOM brings your applications to life!"
 cover: "https://ucarecdn.com/db660bb9-1ac6-4730-a9c8-4544d6b801b0/"
 textColor: "white"
 date: "2018-05-15"
@@ -12,8 +12,8 @@ tags: ["fale"]
 
 Nobody likes applications that are based on the console…can you imagine using Uber from the command line???
 
-```bash
-$ uber request-trip --from home --to work --pool
+```javascript
+$ "uber" request-trip --from home --to work --pool
 ```
 
 Thank God we have the browsers!  They let us render our application in a visual interface that we call a website.
@@ -85,7 +85,7 @@ Returns an array with all the instances representing each paragraph element in t
 
 Returns an array with all the elements that have name="name_value" in their name property of their HTML tag in the HTML document.
 
-```javascript
+```javascript{numberLines: true}
 var elem = document.getElementById("xyz");
 elem.style.color="red";   // change color to red  
 
@@ -116,7 +116,7 @@ The best way to retrieve the childs of any DOM element is by using its childNode
 
 This returns an array with all the element’s childs.
 
-```javascript
+```javascript{numberLines: true}
 var x = document.getElementById("myDIV");
 x.querySelector(".random").style.background = "green";
 //get the first #myDIV child with the .random class  
@@ -140,7 +140,7 @@ trArray[3].style.background = "red";
 
 As you already know, each element in the HTML document can have some sort of HTML content.  It does not matter if it is a `<P>`, `<DIV>`,`<A>` or any other HTML element; it can have its own innerHTML combined with more HTML content.
 
-![thedom2](https://ucarecdn.com/2387325b-338c-4c18-bb0f-2f95ed28901f/-/resize/900x/)
+![what is dom](https://ucarecdn.com/2387325b-338c-4c18-bb0f-2f95ed28901f/-/resize/900x/)
 
 The .innerHTML property gives you the ability to retrieve or set the content of whatever element you have in your JavaScript.  For example:
 
