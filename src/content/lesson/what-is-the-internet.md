@@ -1,6 +1,6 @@
 ---
-title: "Internet Arquitecture"
-subtitle: "Everything you see on the internet is a text document. Everything!! As developers, all we do is generate chunks of text based on a set of criteria. If you understand this simple concept, the sky will be the limit."
+title: "Are you Familiar With What is The Internet?"
+subtitle: "The internet: Everything you see on the internet is a text document. Everything!! As developers, all we do is generate chunks of text based on a set of criteria. If you understand this simple concept, the sky will be the limit."
 
 cover: "https://ucarecdn.com/05a36362-c09f-4961-a7b9-8e3132a902b1/"
 
@@ -29,7 +29,7 @@ For this reason, they worked on something as similar as possible to a Microsoft 
 > rigid, formal scientific publications and, nowadays, are interactive, exciting and spectacular.
 
 
-![](https://breatheco.de/wp-content/uploads/2017/01/86675a97e9c272de762940f781cca976-1024x512.jpg)
+![What is the internet](https://breatheco.de/wp-content/uploads/2017/01/86675a97e9c272de762940f781cca976-1024x512.jpg)
 
 
 ## Everything is Text (HTTP)
