@@ -71,7 +71,7 @@ The perfect example is the IRS database:  this database probably has a table cal
 
 The Major League Baseball database probably has a table called Player (with the list of all the active players), and another table called Team with the list of all the active teams.  Both tables are connected because o**ne team has many players, but a player can be on only one team.**
 
-![What is SQL Database](https://ucarecdn.com/374d53ac-092f-4f34-a6f1-76bfaa5bd676/-/resize/700x/)
+![What is SQL Databases](https://ucarecdn.com/374d53ac-092f-4f34-a6f1-76bfaa5bd676/-/resize/700x/)
 
 **Many to Many:**
 
