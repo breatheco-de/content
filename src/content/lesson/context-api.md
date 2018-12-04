@@ -10,7 +10,7 @@ tags: ["reactjs"]
 
 # What is The Context API
 
-Don't get scared by the term "context-api", through the years I have come to understand that learning new coding techniques always sounds scary from afar, but  
+When you hear "The Context API" from afar, you can get a little scary, that is a normal felling when
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjU0NDk5XX0=
+eyJoaXN0b3J5IjpbLTMxMjk1ODMxMl19
 -->
