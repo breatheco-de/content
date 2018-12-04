@@ -34,10 +34,14 @@ The concept behind context api is very simple: The is one big producer and a bun
 
 ![Context API Explanation](https://ucarecdn.com/72fe5361-5b2a-460f-8c2a-2d376616abf6/)
 
-### The Code
+### Coding Example
+
+```jsx
+const { Provider, Consumer } = createContext('default value');
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQ5NTE3MDQsMTA1OTk4MDY2LDE1Nz
+eyJoaXN0b3J5IjpbLTE0Njk5ODA4OTMsMTA1OTk4MDY2LDE1Nz
 EwODQyNjcsLTIzMzcxMDA1MV19
 -->
