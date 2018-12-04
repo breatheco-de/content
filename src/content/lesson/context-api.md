@@ -8,9 +8,9 @@ tags: ["reactjs"]
 
 ---
 
-# What is The Context API
+## Don't be scared about "The Context API
 
-When you hear "The Context API" from afar, you can get a little scary, that is a normal felling when
+When you hear "The Context API" from afar, you can get a little scary, that is a normal felling that you get all the time when learning new coding tricks. But believe when I teal you this is the easiest way the React.js team has proposed to create small to mid-sized apps.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMjk1ODMxMl19
+eyJoaXN0b3J5IjpbMTQ3NzA3MTk1NF19
 -->
