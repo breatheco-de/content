@@ -8,9 +8,13 @@ tags: ["reactjs"]
 
 ---
 
-## Don't be scared about "The Context API
+## Don't be scared about "The Context API"
 
 When you hear "The Context API" from afar, you can get a little scary, that is a normal felling that you get all the time when learning new coding tricks. But believe when I teal you this is the easiest way the React.js team has proposed to create small to mid-sized apps.
+
+## Why do we need The Content API?
+
+In plain words, you needed to be able to spread information fast between all your views and components. If you have been working with react already you probably have felt the frustration of passing properties all over your application.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NzA3MTk1NF19
+eyJoaXN0b3J5IjpbLTE5ODI2MTE4MDVdfQ==
 -->
