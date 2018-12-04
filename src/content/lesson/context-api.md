@@ -14,7 +14,12 @@ When you hear "The Context API" from afar it's easy to get scared, but believe w
 
 ## Why do we need The Content API?
 
-People say that react makes the easy stuff hard and the hard stuff easy. I love that
+People say that react makes the easy stuff hard and the hard stuff easy. I love that saying. Think about it:
+
+1. Why can't I just grab some value from an input? Why do i need to 
+2. Why is it so hard to share some data between the entire application?
+3. Why is it so hard to pass data between components?
+4. 
 
 Having that in mind, by using Context and our proposed practices you will get the following benefits:
 
@@ -23,5 +28,5 @@ Having that in mind, by using Context and our proposed practices you will get th
 
 For example:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzQ5MTM3OTQsLTIzMzcxMDA1MV19
+eyJoaXN0b3J5IjpbLTQzNjEwMjU1MSwtMjMzNzEwMDUxXX0=
 -->
