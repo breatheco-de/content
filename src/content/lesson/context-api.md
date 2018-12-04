@@ -44,10 +44,13 @@ const mySuperGlobalStore = {
 }
 
 const { Provider, Consumer } = createContext(mySuperGlobalStore);
+
+const TodoListComponent = () => 
+      <Consumer>{value => <span>{value}</span>}</Consumer>
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NzM0ODYzOCwxMDU5OTgwNjYsMTU3MT
-A4NDI2NywtMjMzNzEwMDUxXX0=
+eyJoaXN0b3J5IjpbMjQ2MDc3NDQ2LDEwNTk5ODA2NiwxNTcxMD
+g0MjY3LC0yMzM3MTAwNTFdfQ==
 -->
