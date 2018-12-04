@@ -1,5 +1,6 @@
 ---
-title: "Relational Databases"
+title: "What is SQL Database: Master Databases Here"
+subtitle: "Are you ready to work with data ? Learn here about what is SQL Database and how to work with it. 
 cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
 textColor: "white"
 date: "2018-14-11"
@@ -13,7 +14,7 @@ Databases are the best way to store data, and everyday there is more and more da
 
 At the beginning, information was saved into more simple files like .csv (comma separated).  This was very disorganized – the data was both easy to corrupt and hard to access (imagine having to browse comma separated files).
 
-![donaldsql](https://ucarecdn.com/11fcd6d8-6177-4f42-b4e0-7b6475f24b0a/-/resize/200x/)
+![What is SQL Database](https://ucarecdn.com/11fcd6d8-6177-4f42-b4e0-7b6475f24b0a/-/resize/200x/)
 
 At some point, our friend [Edgar](https://en.wikipedia.org/wiki/Edgar_F._Codd) decided to re-design those files and created a standard way of storing data into files focused on performance and integrity.  He partnered with mister [Donald](https://en.wikipedia.org/wiki/Donald_D._Chamberlin) and together the created a language called SQL –  which was designed to work with data in a very friendly way.
 
@@ -50,7 +51,7 @@ Tables have columns (just like excel).  A table called Person can have 4 columns
 
 If a table is called Persons and has those 4 columns (name, last name, birth date and weight), then the rows will be each specific person that you have stored into your database.
 
-![sqltable](https://ucarecdn.com/4f549fb5-d4c8-4e31-b63c-34426b675b92/)
+![What is SQL Database](https://ucarecdn.com/4f549fb5-d4c8-4e31-b63c-34426b675b92/)
 
 &nbsp;
 &nbsp;
@@ -64,19 +65,19 @@ A database is a collection of inter-connected tables.  The connection between tw
 
 The perfect example is the IRS database:  this database probably has a table called TaxPayer that contains all the information about each person (with a social security number), and another table with the TaxDeclarations of the current year.  **One person can only have one declaration and one declaration can only be made by one person.**
 
-![one2one](https://ucarecdn.com/6f51ce02-3a75-4027-ada5-cf63c50d1701/-/resize/700x/)
+![What is SQL Database](https://ucarecdn.com/6f51ce02-3a75-4027-ada5-cf63c50d1701/-/resize/700x/)
 
 **One to Many:**
 
 The Major League Baseball database probably has a table called Player (with the list of all the active players), and another table called Team with the list of all the active teams.  Both tables are connected because o**ne team has many players, but a player can be on only one team.**
 
-![one2many](https://ucarecdn.com/374d53ac-092f-4f34-a6f1-76bfaa5bd676/-/resize/700x/)
+![What is SQL Database](https://ucarecdn.com/374d53ac-092f-4f34-a6f1-76bfaa5bd676/-/resize/700x/)
 
 **Many to Many:**
 
 A Public Library database probably has one table called Author (containing the information of all the authors with books published), and also another table with ALL of the books that have ever been published.  Both tables are related because **one author can have many books and one book can have many authors.**
 
-![may2my](https://ucarecdn.com/af7344fc-0ee0-499e-8926-8f70dc9b2b0d/-/resize/700x/)
+![What is SQL Database](https://ucarecdn.com/af7344fc-0ee0-499e-8926-8f70dc9b2b0d/-/resize/700x/)
 
 &nbsp;
 &nbsp;
