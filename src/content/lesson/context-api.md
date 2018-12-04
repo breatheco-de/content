@@ -14,7 +14,11 @@ When you hear "The Context API" from afar, you can get a little scary, that is a
 
 ## Why do we need The Content API?
 
-In plain words, you needed to be able to spread information fast between all your views and components. If you have been working with react already you probably have felt the frustration of passing properties all over your application, we call it "property hell". For example:
+In plain words, you needed to be able to spread information fast between all your views and components. If you have been working with react already you probably have felt the frustration of passing properties all over your application, we call it "property hell". 
+
+Another great feature about The Context API is that you can centralize 
+
+For example:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTIwNjUzNTddfQ==
+eyJoaXN0b3J5IjpbMTcxMzM3MjcyOV19
 -->
