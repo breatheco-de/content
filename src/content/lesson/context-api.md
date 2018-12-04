@@ -14,7 +14,7 @@ When you hear "The Context API" from afar it's easy to get scared, but believe w
 
 ## Why do we need The Content API?
 
-Instead of viewing the Context API like a series os advantages, you should see it as a tool. If its properly used and mixed with great practices it can have dozens of PRO's, but if you miss use it, it will overcomplicate your app. That is why we are not only explaining the tool on this article, but also proposing a way of using it the same way we use it at 4Geeks Academy.
+People say that react makes the easy stuff hard and the hard stuff easy. I love that
 
 Having that in mind, by using Context and our proposed practices you will get the following benefits:
 
@@ -23,5 +23,5 @@ Having that in mind, by using Context and our proposed practices you will get th
 
 For example:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNzE2Njc3MywtMjMzNzEwMDUxXX0=
+eyJoaXN0b3J5IjpbLTIwMzQ5MTM3OTQsLTIzMzcxMDA1MV19
 -->
