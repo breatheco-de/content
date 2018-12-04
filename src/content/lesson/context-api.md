@@ -37,11 +37,17 @@ The concept behind context api is very simple: The is one big producer and a bun
 ### Coding Example
 
 ```jsx
-const { Provider, Consumer } = createContext('default value');
+import { createContext } from 'react';
+
+const mySuperGlobalStore = {
+	todos: []
+}
+
+const { Provider, Consumer } = createContext(mySuperGlobalStore);
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njk5ODA4OTMsMTA1OTk4MDY2LDE1Nz
-EwODQyNjcsLTIzMzcxMDA1MV19
+eyJoaXN0b3J5IjpbMTg5NzM0ODYzOCwxMDU5OTgwNjYsMTU3MT
+A4NDI2NywtMjMzNzEwMDUxXX0=
 -->
