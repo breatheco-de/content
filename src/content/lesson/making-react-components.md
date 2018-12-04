@@ -1,6 +1,6 @@
 ---
 title: "Making React Components"
-subtitle: "React.js bread and butter, become a master in Components and you have conquered the front-end world of React."
+subtitle: "React.js bread and butter, become a master in React Components and you have conquered the front-end world of React."
 cover: "https://ucarecdn.com/84c4d84c-51b9-4906-a572-71cc07ecfc8c/"
 textColor: "white"
 date: "2018-14-11"
@@ -12,7 +12,7 @@ tags: ["fale"]
 
 React.js separates your code into little pieces called Components which can be created/defined as a **class** or as a **function**.  Each component is like a smaller React app that has its own logic and has a final purpose which is to display (Render) something (E.g: a bootstrap Navbar, a dropdown list, a model, a dynamic form, image gallery, subscribe form, almost everything can be designed and coded as a React Component).
 
-```jsx
+```jsx{numberLines: true}
 // as a function 
 function NavBar(props){
     return (<nav className="navbar navbar-light bg-light">
@@ -83,7 +83,7 @@ It’s a **class** variable (available throughout the entire class using this) t
 
 There’s a catch, though.  The State is unmutable, which means it cannot be edited, so we have to override it using the ***this.setState()*** function that receives the new State object (overriding the old one).
 
-```jsx
+```jsx{numberLines: true}
 // WRONG! Never update the state directly 
 this.state.foo = "bar";
 
@@ -120,10 +120,10 @@ But don’t worry!  You can switch from one type of declaration to the other wit
 |&nbsp; &nbsp;   |As a **Function**     |As a **Class**   |
 |:---------|:--------:|:---------:|
 |Simplicity      |Very simple declaration and usage.  The only purpose of the function is to return an HTML with whatever this component is supposed to display when placed on the website.      |More complex – the class declaration needs to inherit from React.Component and it contains a lot more functionalities that lets the developer customize the component logic like life-cycle methods and the state.   Please consider that you can create as many additional class methods as you like.         |
-|Declaration       |`// using functions`<br>`function MyComponent(){`<br>&nbsp;&nbsp;`return Hello;`<br>`}`<br><br>`// or using arrow functions` <br>`const MyComponent = () => Hello;`     |`// using classes`<br>`import React from 'react';`<br>`class MyComponent extends React.Component{`<br> &nbsp; &nbsp;    `render(){`<br>  &nbsp; &nbsp; &nbsp;       `return Hello;`<br> &nbsp; &nbsp;   `}`<br>`}`         |
-|Component State       |&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; **No state** <br> <br>This is a stateless component where you have no way of using a global state; this.state is not available.     |You have the state available anytime using this.state – you should initialize the state to some values at the class constructor.<br> <br> `class MyComponent{`<br>&nbsp; &nbsp;    `constructor(){`<br> &nbsp; &nbsp; &nbsp; &nbsp;` super();`<br> &nbsp; &nbsp; &nbsp; &nbsp; `this.state = {`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `foo: "var"`<br> &nbsp; &nbsp; &nbsp; &nbsp;` }`<br> &nbsp; &nbsp; `}`<br>`}`         |
-|Component Properties          |Properties are received as the first function parameter like this:<br><br>`function MyComponent(props){`<br> &nbsp;  &nbsp; &nbsp; &nbsp; `return Hello {props.name};` <br> `}`       |The properties are inside the class variable this.props, and you can reference it anywhere like this:<br><br> `class MyComponent{`<br> &nbsp; &nbsp; &nbsp; `render(){`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `return Hello {this.props.name};`<br> &nbsp; &nbsp; &nbsp; `}`<br>`}`      |
-|Life-cycle methods      |No life-cycle methods available.     |You have all the methods available with these being the most important ones: Constructor, ComponentWillMount, ComponentWillUnmount, getDerivedStateFromProps, etc.<br> <br> You can declare inside your component class those methods and they will magically be called by React at the right time, just like this:<br> <br> `class MyComponent{`<br> &nbsp; &nbsp; &nbsp; `constructor(){`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `super();`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `//initialize your state` <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `this.state = {}`<br> &nbsp; &nbsp; &nbsp; `}`<br> &nbsp; &nbsp; &nbsp; `componentDidMount(){  //do something to the state here }` <br> &nbsp; &nbsp; &nbsp; `componentWillUnmount(){  //best place to remove listeners }` <br> &nbsp; &nbsp; &nbsp; `static getDerivedStateFromProps(nextProps, prevState){ //return the updated state } `<br> &nbsp; &nbsp; &nbsp; `//there are many more lifecycle methods` <br> `}`        |
+|Declaration       |`python>// using functions`<br>`python>function MyComponent(){`<br>&nbsp;&nbsp;`python>return Hello;`<br>`}`<br><br>`python>// or using arrow functions` <br>`python>const MyComponent = () => Hello;`     |`python>// using classes`<br>`python>import React from 'react';`<br>`python>class MyComponent extends React.Component{`<br> &nbsp; &nbsp;    `python>render(){`<br>  &nbsp; &nbsp; &nbsp;       `python>return Hello;`<br> &nbsp; &nbsp;   `python>}`<br>`python>}`         |
+|Component State       |&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; **No state** <br> <br>This is a stateless component where you have no way of using a global state; this.state is not available.     |You have the state available anytime using this.state – you should initialize the state to some values at the class constructor.<br> <br> `python>class MyComponent{`<br>&nbsp; &nbsp;    `python>constructor(){`<br> &nbsp; &nbsp; &nbsp; &nbsp;`python> super();`<br> &nbsp; &nbsp; &nbsp; &nbsp; `python>python>this.state = {`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>foo: "var"`<br> &nbsp; &nbsp; &nbsp; &nbsp;` python>}`<br> &nbsp; &nbsp; `python>}`<br>`python>}`         |
+|Component Properties          |Properties are received as the first function parameter like this:<br><br>`python>function MyComponent(props){`<br> &nbsp;  &nbsp; &nbsp; &nbsp; `python>return Hello {props.name};` <br> `python>}`       |The properties are inside the class variable this.props, and you can reference it anywhere like this:<br><br> `python>class MyComponent{`<br> &nbsp; &nbsp; &nbsp; `python>render(){`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>return Hello {this.props.name};`<br> &nbsp; &nbsp; &nbsp; `python>}`<br>`python>}`      |
+|Life-cycle methods      |No life-cycle methods available.     |You have all the methods available with these being the most important ones: Constructor, ComponentWillMount, ComponentWillUnmount, getDerivedStateFromProps, etc.<br> <br> You can declare inside your component class those methods and they will magically be called by React at the right time, just like this:<br> <br> `python>class MyComponent{`<br> &nbsp; &nbsp; &nbsp; `python>constructor(){`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>super();`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>//initialize your state` <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>this.state = {}`<br> &nbsp; &nbsp; &nbsp; `}`<br> &nbsp; &nbsp; &nbsp; `python>componentDidMount(){  //do something to the state here }` <br> &nbsp; &nbsp; &nbsp; `python>componentWillUnmount(){  //best place to remove listeners }` <br> &nbsp; &nbsp; &nbsp; `python>static getDerivedStateFromProps(nextProps, prevState){ //return the updated state } `<br> &nbsp; &nbsp; &nbsp; `python>//there are many more lifecycle methods` <br> `python>}`        |
 
 [[info]]
 |:link: Here you can find [more information about all the React JS lifecycle methods.](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
