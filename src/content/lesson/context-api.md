@@ -14,7 +14,7 @@ When you hear "The Context API" from afar, you can get a little scary, that is a
 
 ## Why do we need The Content API?
 
-Instead of viewing the Context API like a series os advantages, you should see it as a tool
+Instead of viewing the Context API like a series os advantages, you should see it as a tool. If its properly used and mixed with great practices it can have dozens of PRO's, but if you miss use it, it will overcomplicate your app. That is why we are not only explaining the tool on this article, but also proposing a way of using it the same way we uset
 
 If you have been working with react already you probably have felt the frustration of passing properties all over your application, we call it "property hell". 
 
@@ -22,5 +22,5 @@ Another great feature about The Context API is that you can have a centralized a
 
 For example:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzU4NDI5MTJdfQ==
+eyJoaXN0b3J5IjpbLTEwOTc4NTk3ODZdfQ==
 -->
