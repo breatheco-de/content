@@ -1,6 +1,6 @@
 ---
-title: "Flux"
-subtitle: "Without Flux, React is just a cute front-end library. Flux will make it a framework - giving your application a defined structure - taking care of the data-processing layer, and much more."
+title: "Learn About What is Flux"
+subtitle: "Without Flux, React is just a cute front-end library. Flux will make it a framework - giving your application a defined structure - taking care of the data-processing layer, and much more about what is flux."
 cover: "https://ucarecdn.com/b84e07e5-5761-469b-85bb-f7afc87d4dc9/"
 textColor: "white"
 date: "2018-14-11"
