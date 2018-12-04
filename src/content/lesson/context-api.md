@@ -16,17 +16,16 @@ When you hear "The Context API" from afar it's easy to get scared, but believe w
 
 People say that react makes the easy stuff hard and the hard stuff easy. I love that saying. Think about it:
 
-1. Why can't I just grab some value from an input? Why do i need to 
+1. Why can't I just grab some value from an input?
 2. Why is it so hard to share some data between the entire application?
 3. Why is it so hard to pass data between components?
-4. 
 
-Having that in mind, by using Context and our proposed practices you will get the following benefits:
+The Context API is here to solve some of those conundrums
 
 1. Avoid Property Hell: If you have worked with react already you probably have felt the frustration of passing properties all over your application, we call it "property hell". 
 2. Another great feature about The Context API is that you can have a centralized application store: Instead of having to store all the data on the view state, you can now share data on a central store that is accessible from any javascript, view or components.
 
 For example:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjEwMjU1MSwtMjMzNzEwMDUxXX0=
+eyJoaXN0b3J5IjpbMTU3MTA4NDI2NywtMjMzNzEwMDUxXX0=
 -->
