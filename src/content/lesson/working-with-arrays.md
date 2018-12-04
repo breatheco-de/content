@@ -2,6 +2,7 @@
 title: "Working with Arrays"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
+time: "15 minutes"
 date: "2018-02-11"
 tags: ["fale"]
 ---
@@ -239,5 +240,5 @@ var cars = [
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjAwMTk3MV19
+eyJoaXN0b3J5IjpbLTQ0MjQ0ODUzNywxNjYyMDAxOTcxXX0=
 -->
