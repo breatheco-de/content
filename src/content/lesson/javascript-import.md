@@ -1,6 +1,6 @@
 ---
-title: "Importing and Exporting Javascript Modules"
-subtitle: "Split and conquer (again), this time we teach you how to split your code into several files to avoid GIT conflicts and to also be more organized."
+title: "JavaScript Import and Export of Modules"
+subtitle: "Split and conquer (again), this time we teach you how to split your code into several files to avoid GIT conflicts and to also be more organized, By the end of this lesson you will be able to dominate JavasScipt import and exports."
 cover: "https://ucarecdn.com/c558ac72-194b-40f2-be2f-6e65e8c219c9/"
 
 textColor: "white"
@@ -27,9 +27,9 @@ We have actually been doing that already when we import our styles, bootstrap or
 For example, here we are importing a function from another file:
 
 
-![import1](https://ucarecdn.com/f7b8c75d-e7d4-481e-8346-b95d54a235f6/-/resize/1000x/)
+![javascript import](https://ucarecdn.com/f7b8c75d-e7d4-481e-8346-b95d54a235f6/-/resize/1000x/)
 
-![import2](https://ucarecdn.com/2cdb146a-d6f7-4591-96fc-e50aef07aca5/-/resize/1000x/)
+![javascript import](https://ucarecdn.com/2cdb146a-d6f7-4591-96fc-e50aef07aca5/-/resize/1000x/)
 
 
 ## Exporting by default
