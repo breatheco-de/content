@@ -40,17 +40,17 @@ The concept behind context api is very simple: The is one big producer and a bun
 import { createContext } from 'react';
 
 const mySuperGlobalStore = {
-	todos: []
+	todos: ['Make the bed','Dring Water']
 }
 
 const { Provider, Consumer } = createContext(mySuperGlobalStore);
 
 const TodoListComponent = () => 
-      <Consumer>{value => <span>{value}</span>}</Consumer>
+      <Consumer>{store => <ul>{store.todos.map(() => <li>{}</li>)}</ul></Consumer>
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ2MDc3NDQ2LDEwNTk5ODA2NiwxNTcxMD
+eyJoaXN0b3J5IjpbODA2Mzc1Njg3LDEwNTk5ODA2NiwxNTcxMD
 g0MjY3LC0yMzM3MTAwNTFdfQ==
 -->
