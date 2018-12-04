@@ -25,10 +25,11 @@ Think about it:
 The Context API is here to solve some of those conundrums:
 
 1. Avoid Property Hell: If you have worked with react already you probably have felt the frustration of passing properties all over your application, we call it "property hell". 
-2. Have a centralized global application sta: Instead of having to store all the data on the view state, you can now share data on a central store that is accessible from any javascript, view or components.
+2. Have a centralized global application state: Instead of being limited to views, you can now share data on a central store that is quickly available from any javascript file, view or component.
+3. Data propagation and re-rendering: If the data changes anytime, your entire application will re-render and update the UI with the new 
 
-For example:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDc1NTk4OTEsMTU3MTA4NDI2NywtMj
-MzNzEwMDUxXX0=
+eyJoaXN0b3J5IjpbNzkzNjE1ODQ4LDE1NzEwODQyNjcsLTIzMz
+cxMDA1MV19
 -->
