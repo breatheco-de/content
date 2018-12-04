@@ -10,7 +10,7 @@ tags: ["reactjs"]
 
 ## Don't be scared about "The Context API"
 
-When you hear "The Context API" from afar, you can get a little scary, that is a normal felling that you get all the time when learning new coding tricks. But believe when I teal you this is the easiest way the React.js team has proposed to create small to mid-sized apps.
+When you hear "The Context API" from afar it's easy to get scared, but believe when I tell you this is the easiest way the React.js team has proposed to create small to mid-sized apps.
 
 ## Why do we need The Content API?
 
@@ -23,5 +23,5 @@ Having that in mind, by using Context and our proposed practices you will get th
 
 For example:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzcxMDA1MV19
+eyJoaXN0b3J5IjpbMTUzNzE2Njc3MywtMjMzNzEwMDUxXX0=
 -->
