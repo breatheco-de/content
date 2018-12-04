@@ -30,10 +30,12 @@ The Context API is here to solve some of those conundrums:
 
 ## How to use the Context API
 
-With just 4 lines of code your are ready to go:
+The concept behind context api is very simple: The is one big p
+
+![Context API Explanation](https://ucarecdn.com/72fe5361-5b2a-460f-8c2a-2d376616abf6/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTk4MDY2LDE1NzEwODQyNjcsLTIzMz
-cxMDA1MV19
+eyJoaXN0b3J5IjpbLTE2MjI5NjM1MTksMTA1OTk4MDY2LDE1Nz
+EwODQyNjcsLTIzMzcxMDA1MV19
 -->
