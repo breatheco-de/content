@@ -30,12 +30,14 @@ The Context API is here to solve some of those conundrums:
 
 ## How to use the Context API
 
-The concept behind context api is very simple: The is one big p
+The concept behind context api is very simple: The is one big producer and a bunch of consumers. Every time the producer changes all the consumers get notified. You can think about it very similar to how TV Networks work. One TV channel emits a signal and all TV antennas get notified and receive the new content.
 
 ![Context API Explanation](https://ucarecdn.com/72fe5361-5b2a-460f-8c2a-2d376616abf6/)
 
+### The Code
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjI5NjM1MTksMTA1OTk4MDY2LDE1Nz
+eyJoaXN0b3J5IjpbLTE5OTQ5NTE3MDQsMTA1OTk4MDY2LDE1Nz
 EwODQyNjcsLTIzMzcxMDA1MV19
 -->
