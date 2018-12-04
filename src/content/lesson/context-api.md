@@ -16,9 +16,9 @@ When you hear "The Context API" from afar, you can get a little scary, that is a
 
 In plain words, you needed to be able to spread information fast between all your views and components. If you have been working with react already you probably have felt the frustration of passing properties all over your application, we call it "property hell". 
 
-Another great feature about The Context API is that you can centralize 
+Another great feature about The Context API is that you can have a centralized application store: Instead of having to store all the data on the view state, you can now share data on a central store that is accessible from any javascript, view or components.
 
 For example:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMzM3MjcyOV19
+eyJoaXN0b3J5IjpbLTkyOTYyMTI1MV19
 -->
