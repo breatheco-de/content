@@ -41,7 +41,13 @@ import { Component, createContext } from 'react';
 
 const { Provider, Consumer } = createContext({});
 class ThemeProvider extends Component{
-zscds
+	constructor(){
+		super();
+		this.state = {
+			todos: [],
+			addTask
+		}
+	}
 }
 const TodoListComponent = () => (<Consumer>
 	{store => <ul>{store.todos.map((todo,i) => <li key={i}>{todo}</li>)}</ul>
@@ -50,6 +56,6 @@ const TodoListComponent = () => (<Consumer>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDg1OTAzNywtMTU0OTI3NzcyNiw1Nz
-U1NjIxNzksLTE2NzMwODM4NjZdfQ==
+eyJoaXN0b3J5IjpbLTE3NDgyMDE1MDEsLTE1NDkyNzc3MjYsNT
+c1NTYyMTc5LC0xNjczMDgzODY2XX0=
 -->
