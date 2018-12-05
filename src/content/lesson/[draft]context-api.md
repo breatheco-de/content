@@ -37,10 +37,12 @@ The concept behind context api is very simple: The is one big producer and a bun
 ### Coding Example
 
 ```jsx
-import { createContext } from 'react';
+import { Component, createContext } from 'react';
 
 const { Provider, Consumer } = createContext({});
-const Gl
+class ThemeProvider extends Component{
+
+}
 const TodoListComponent = () => (<Consumer>
 	{store => <ul>{store.todos.map((todo,i) => <li key={i}>{todo}</li>)}</ul>
 </Consumer>);
@@ -48,6 +50,6 @@ const TodoListComponent = () => (<Consumer>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTExMTU5MSw1NzU1NjIxNzksLTE2Nz
-MwODM4NjZdfQ==
+eyJoaXN0b3J5IjpbLTE1NDkyNzc3MjYsNTc1NTYyMTc5LC0xNj
+czMDgzODY2XX0=
 -->
