@@ -1,6 +1,6 @@
 ---
 title: "Python Tutorial: From JS to PY"
-subtitle: "Unleash your power by learning with this Python tutorial,https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/ using one of the Kings of Back-End Development. Now you will be capable of bringing AI, Big Data, Machine Learning, APIs and integrate third party applications into your own.Enjoy this Pyhton Class"
+subtitle: "Unleash your power by learning with this Python tutorial, using one of the Kings of Back-End Development. Now you will be capable of bringing AI, Big Data, Machine Learning, APIs and integrate third party applications into your own.Enjoy this Pyhton Class"
 
 cover: "http://breatheco.de/wp-content/uploads/2018/01/python-background.jpg"
 
