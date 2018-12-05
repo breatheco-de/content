@@ -19,17 +19,16 @@ People say that React.js makes the easy stuff hard and the hard stuff easy. I lo
 Think about it:
 1. Why is it so hard to share some data between the entire application?
 2. Why is it so hard to pass data between components?
-3. Why can I have 
 
 The Context API is here to solve some of those conundrums:
 
-1. Avoid Property Hell: If you have worked with react already you probably have felt the frustration of passing properties all over your application, we call it "property hell". 
-2. Have a centralized global application state: Instead of being limited to views, you can now share data on a central store that is quickly available from any javascript file, view or component.
+1. Avoid "Property Hell": If you have worked with react already you probably have felt the frustration of passing properties all over your application, we call it "property hell". 
+2. Have a centralized global application state: Instead of being limited to local states on views, you can now share data on one central store that is quickly available from any javascript file, view or component.
 3. Data propagation and re-rendering: If the data changes anytime, your entire application will re-render and update the UI with the new values.
 
-## How to use the Context API
+## How does the Context API work?
 
-The concept behind context api is very simple: The is one big producer and a bunch of consumers. Every time the producer changes all the consumers get notified. You can think about it very similar to how TV Networks work. One TV channel emits a signal and all TV antennas get notified and receive the new content.
+The concept behind it is very simple: The is one big producer and a bunch of consumers. Every time the producer data changes all the consumers get notified. You can think about it very similar to how TV Networks work. One TV channel emits a signal and all TV antennas get notified and receive the new content.
 
 ![Context API Explanation](https://ucarecdn.com/72fe5361-5b2a-460f-8c2a-2d376616abf6/)
 
@@ -62,6 +61,6 @@ class App extends React.Component {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDEwNzg1NCwtMTU0OTI3NzcyNiw1Nz
-U1NjIxNzksLTE2NzMwODM4NjZdfQ==
+eyJoaXN0b3J5IjpbLTg1NTc2NzUyLC0xNTQ5Mjc3NzI2LDU3NT
+U2MjE3OSwtMTY3MzA4Mzg2Nl19
 -->
