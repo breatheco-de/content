@@ -1,6 +1,6 @@
 ---
 title: "From JavaScript to Know What is PHP"
-subtitle: "Learn here about what is php, with this amazing php tutorial"
+subtitle: "Learn here about what is PHP, with this amazing php tutorial"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-31-10"
