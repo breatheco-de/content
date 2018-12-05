@@ -1,5 +1,6 @@
 ---
-title: "From Javascript to PHP"
+title: "From JavaScript to Know What is PHP"
+subtitles: "Learn here about what is php, with this amazing php tutorial"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-31-10"
@@ -30,9 +31,9 @@ There are only a few differences – here is the explanation:
 
 |**In JavaScript**    |**In PHP**       |
 |:--------------------|:----------------|
-|Number    |Instead of one number data-type, you now have two: Integer and Float. An integer does not have decimals:<br>`$myNumber = 23.23;  //float `<br>`$myNumber = 54;  //integer `<br>`$myNumber = 12.00;  //float (even with 00 as decimals).`     |
-|Undefined       |The undefined data-type is not available in PHP.  Here undefined and null are the same data-type.<br>`$myNumber;  //is null because it was not defined`     |
-|Array     |They have both numerical index arrays and associative arrays.  The difference is that JavaScript calls "Dictionaries" the PHP associative arrays.<br>`$array = array('Juan','John','Steven');  //array of numeric indexes`<br> `$array = array('SSN-55532323' => 'Juan', 'SSN-99948334' => 'John', 'SSN-99330323' => 'Steven');` <br> //associative array, using strings as indexes instead of integers.    |
+|Number    |Instead of one number data-type, you now have two: Integer and Float. An integer does not have decimals:<br>`python>$myNumber = 23.23;  //float `<br>`python>$myNumber = 54;  //integer `<br>`python>$myNumber = 12.00;  //float (even with 00 as decimals).`     |
+|Undefined       |The undefined data-type is not available in PHP.  Here undefined and null are the same data-type.<br>`python>$myNumber;  //is null because it was not defined`     |
+|Array     |They have both numerical index arrays and associative arrays.  The difference is that JavaScript calls "Dictionaries" the PHP associative arrays.<br>`python>$array = array('Juan','John','Steven');  //array of numeric indexes`<br> `python>$array = array('SSN-55532323' => 'Juan', 'SSN-99948334' => 'John', 'SSN-99330323' => 'Steven');` <br> //associative array, using strings as indexes instead of integers.    |
 |String     |Is the same in PHP.      |
 
 
@@ -40,7 +41,7 @@ There are only a few differences – here is the explanation:
 
 Console.log is amazing in JS, but in PHP, you will have to use echo for simple data-types, and print_r to print more complex data-types (like arrays and objects).
 
-#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With JavaScript
+#### ![what is php tutorial](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
 
 ```javascript
 var simpleValue = ‘hello’;
@@ -51,9 +52,9 @@ console.log(arrayValue);
 //This will print the content of the array and its elements.
 ```
 
-#### ![PHP](https://ucarecdn.com/75d2d32e-bfd9-40e0-88f9-675a36bb86f9/-/resize/50x/) With PHP
+#### ![what is php tutorial](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) With PHP
 
-```php
+```php{numberLines: true}
 $simpleValue = ‘Hello’;
 echo $simpleValue;   //this will print the content  
 $arrayValue = array(‘Hello’,23,76,’World’,43);
@@ -76,9 +77,9 @@ PHP started as a functional-programming language and still has a lot of things t
 
 ### **Looping Arrays**
 
-#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With JavaScript
+#### ![what is php tutorial](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
 
-```javascript
+```javascript{numberLines: true}
 for(var i = 0; i<myArray.length; i++){
 console.log(myArray[i];
 }
@@ -101,7 +102,7 @@ print_r($value);
 
 ### **Adding and Removing Items**
 
-#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With JavaScript
+#### ![what is php tutorial](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
 
 ```javascript
 var myArray = [‘Academy’, ‘Coding’];
@@ -110,7 +111,7 @@ myArray.push(‘4Geeks’); //Adding an item
 myArray.splice(index, 1);
 ```
 
-#### ![PHP](https://ucarecdn.com/75d2d32e-bfd9-40e0-88f9-675a36bb86f9/-/resize/50x/) With PHP
+#### ![what is php tutorial](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) With PHP
 
 ```php
 $myArray = array(‘Academy’,’Coding’);
@@ -122,9 +123,9 @@ $myArray = array_values($myArray);
 
 ### **Sorting Functions for Arrays**
 
-#### ![PHP](https://ucarecdn.com/75d2d32e-bfd9-40e0-88f9-675a36bb86f9/-/resize/50x/) With PHP
+#### ![what is php tutorial](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) With PHP
 
-```php
+```php{numberLines: true}
 $myArray = array(2,5,1,4,7);
 sort($myArray);
 print_r($myArray);  //sort arrays in ascending order 
@@ -195,9 +196,9 @@ Array
 
 This is almost identical to the switch statement in JavaScript:
 
-#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With JavaScript
+#### ![what is php tutorial](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
 
-```javascript
+```javascript{numberLines: true}
 favcolor = "red";
 switch (favcolor) {
     case "red":
@@ -214,9 +215,9 @@ switch (favcolor) {
 }
 ```
 
-#### ![PHP](https://ucarecdn.com/75d2d32e-bfd9-40e0-88f9-675a36bb86f9/-/resize/50x/) With PHP
+#### ![what is php tutorial](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) With PHP
 
-```php
+```php{numberLines: true}
 <?php
     $favcolor = "red";
     switch ($favcolor) {
@@ -239,14 +240,14 @@ switch (favcolor) {
 
 When working with objects, we have to use the operator "->" instead of "." to access the object properties.
 
-#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With JavaScript
+#### ![what is php tutorial](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
 
 ```javascript
 var auxCar = new Car();
 console.log(auxCar.brand);
 ```
 
-#### ![PHP](https://ucarecdn.com/75d2d32e-bfd9-40e0-88f9-675a36bb86f9/-/resize/50x/) With PHP
+#### ![what is php tutorial](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) With PHP
 
 ```php
 <?php
