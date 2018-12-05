@@ -12,15 +12,14 @@ tags: ["reactjs"]
 
 The Context API is one of the easiest ways the React.js team has proposed to control your data in small to mid-sized apps.
 
-## Why do we need The Content API?
+### Life before the Context API was harder
 
-People say that react makes the easy stuff hard and the hard stuff easy. I love that saying, it's so true :sweat: 
+People say that React.js makes the easy stuff hard and the hard stuff easy. I love that saying, it's so true :sweat: 
 
 Think about it:
-
-1. Why can't I just grab some value from an input?
-2. Why is it so hard to share some data between the entire application?
-3. Why is it so hard to pass data between components?
+1. Why is it so hard to share some data between the entire application?
+2. Why is it so hard to pass data between components?
+3. Why can I have 
 
 The Context API is here to solve some of those conundrums:
 
@@ -63,6 +62,6 @@ class App extends React.Component {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1OTczNjYzMCwtMTU0OTI3NzcyNiw1Nz
+eyJoaXN0b3J5IjpbMjA5MDEwNzg1NCwtMTU0OTI3NzcyNiw1Nz
 U1NjIxNzksLTE2NzMwODM4NjZdfQ==
 -->
