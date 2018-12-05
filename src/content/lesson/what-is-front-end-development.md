@@ -1,6 +1,6 @@
 ---
 title: "Intro to What is Front-End Development"
-subtitle: "What is Front-end development is all about using the power of code to generate HTML and CSS dynamically. Let the computer code while you sleep."
+subtitle: "What is Front-end development ? is all about using the power of code to generate HTML and CSS dynamically. Let the computer code while you sleep."
 cover: "https://ucarecdn.com/092d375f-89c9-4cc9-8aa7-8cc4d1230179/"
 textColor: "white"
 date: "2018-05-11"
@@ -10,7 +10,7 @@ tags: ["fale"]
 ## What is Front-End Web Development?
 ***
 
-In just a few words, front-end development is creating HTML dynamically using JavaScript.
+In just a few words, What is front-end development, is creating HTML dynamically using JavaScript.
 
 Using all your algorithmic knowledge (loops, conditionals, etc.), you can now let the computer generate HTML code based on different types of events (user interactions, or system events) that occur during the life of any website.
 
