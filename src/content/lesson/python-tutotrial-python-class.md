@@ -1,6 +1,6 @@
 ---
 title: "Python Tutorial: From JS to PY"
-subtitle: "Unleash your power by learning with this Python tutorial, using one of the Kings of Back-End Development. Now you will be capable of bringing AI, Big Data, Machine Learning, APIs and integrate third party applications into your own.Enjoy this Pyhton Class"
+subtitle: "Unleash your power by learning with this Python tutorial, using one of the Kings of Back-End Development. Now you will be capable of bringing AI, Big Data, Machine Learning, APIs and integrate third party applications into your own.Enjoy this Pyhton class"
 
 cover: "http://breatheco.de/wp-content/uploads/2018/01/python-background.jpg"
 
@@ -108,6 +108,7 @@ var result = int('5') - int('2');
 
 
 ### **Casting (parsing) Data-Types**
+***
 
 Javascript is so flexible that you don’t have to pay much attention to data types.   Python does not like that… in Python, you will get used to casting variables and converting them in between data-types.
 
@@ -132,6 +133,7 @@ var result = int('5') - int('2');
 
 
 ### **Printing Values**
+***
 
 Python has "print" either for writing into a document or into the console. Remember that, since Python – like any other back-end language – runs before the preload event, it does not have access to the Javascript console.
 
@@ -172,6 +174,7 @@ print(arrayValue); //this will work, printing the content of the array in a form
 <br>
 
 ### The Lambda Function vs Arrow Function
+***
 
 Finally, in ES2015, Javascript included the "arrow functions."  That is a very easy and light way to declare and use functions.  Python, on the other hand, has something similar called lambda functions that basically let you use little inline anonymous functions as shortcuts.
 
@@ -215,6 +218,7 @@ print(namesArray)
 <br>
 
 ### **Looping list (similar to arrays)**
+***
 
 #### ![python tutorial python class](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With  JavaScript
 
@@ -245,6 +249,7 @@ for color in colors:
 <br>
 
 ### **Adding and Removing Items**
+***
 
 <br>
 <br>
@@ -272,6 +277,7 @@ print(myList)
 ```
 
 ### **Sorting Functions for Lists**
+***
 
 #### ![python tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
