@@ -37,25 +37,32 @@ The concept behind context api is very simple: The is one big producer and a bun
 ### Coding Example
 
 ```jsx
-import { Component, createContext } from 'react';
-
-const { Provider, Consumer } = createContext({});
-class ThemeProvider extends Component{
-	constructor(){
-		super();
-		this.state = {
-			todos: [],
-			addTask
-		}
-	}
+const ThemeContext = React.createContext('light')
+class ThemeProvider extends React.Component {
+  state = {theme: 'light'}
+  render() {
+    return (
+      <ThemeContext.Provider value={this.state.theme}>
+        {this.props.children}
+      </ThemeContext.Provider>
+    )
+  }
 }
-const TodoListComponent = () => (<Consumer>
-	{store => <ul>{store.todos.map((todo,i) => <li key={i}>{todo}</li>)}</ul>
-</Consumer>);
+class App extends React.Component {
+  render() {
+    return (
+      <ThemeProvider>
+        <ThemeContext.Consumer>
+          {val => <div>{val}</div>}
+        </ThemeContext.Consumer>
+      </ThemeProvider>
+    )
+  }
+}
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDgyMDE1MDEsLTE1NDkyNzc3MjYsNT
-c1NTYyMTc5LC0xNjczMDgzODY2XX0=
+eyJoaXN0b3J5IjpbMTkzMDUxMjQ0MiwtMTU0OTI3NzcyNiw1Nz
+U1NjIxNzksLTE2NzMwODM4NjZdfQ==
 -->
