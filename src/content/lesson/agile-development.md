@@ -1,6 +1,6 @@
 ---
-title: "Intro to Professional Web Development"
-subtitle: "All you've learned needs to be put together. Lets make our first entire professional application!"
+title: "Intro to Professional Web Development: Agile Development"
+subtitle: "All you've learned needs to be put together. Lets make our first entire professional application using the Agile Development method!"
 cover: "https://ucarecdn.com/98208ebb-dcb3-4e40-9ae4-4ec886213f97/"
 
 textColor: "white"
@@ -12,9 +12,6 @@ tags: ["fale"]
 
 Junior developers understand the basic tricks of coding (for, while, if..else, function, variables, etc.).  But Senior developers can see the big picture and make an application from start to finish.  This course is an attempt at making you see the big picture and start building very professional apps right away!
 
-
-If you are still not comfortable with looping, please talk to your instructor to take action right away.
-
 [[info]]
 | :point_up:If you are still not comfortable with looping, please talk to your instructor to take action right away.
 
@@ -23,7 +20,7 @@ If you are still not comfortable with looping, please talk to your instructor to
 
 Instead of developing a big application, you will develop and deliver a series of small applications that in the end will become a big application.  That’s what is called Agile Development.
 
-![1](https://ucarecdn.com/7f627fe6-aa37-4450-bbff-dc4ea0ce8309/-/resize/900x/)
+![agile development](https://ucarecdn.com/7f627fe6-aa37-4450-bbff-dc4ea0ce8309/-/resize/900x/)
 
 Each increment is called a "sprint" and has the following steps:
 
@@ -52,7 +49,7 @@ Erase from your mind the any website development workflow that you’ve learned 
 ## Our Professional Development Workflow
 ***
 
-![2](https://ucarecdn.com/2b3ed62a-070f-4e7f-9572-34628ffb40d9/-/resize/600x/)
+![agile development](https://ucarecdn.com/2b3ed62a-070f-4e7f-9572-34628ffb40d9/-/resize/600x/)
 
 |1. We will start doing the Specs     |2. We build our Web Application       |3. Finally we build the Database and API     |
 |:------------------|:--------------|:-----------------|
