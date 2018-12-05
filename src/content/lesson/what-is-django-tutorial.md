@@ -69,7 +69,7 @@ The `manage.py` file outside is a CLI tool to be able to control and use Django 
 
 Now that we have a big project (website) it is time to start adding applications to it.  To create your first Django application, type the following command:
 
-```html
+```python
 $ python manage.py startapp [app1_name]
 ```
 
