@@ -39,12 +39,9 @@ The concept behind context api is very simple: The is one big producer and a bun
 ```jsx
 import { createContext } from 'react';
 
-const mySuperGlobalStore = {
-	todos: ['Make the bed','Drink Water']
-}
+const mySuperGlobalStore = 
 
-const { Provider, Consumer } = createContext(mySuperGlobalStore);
-
+const { Provider, Consumer } = createContext({});
 const TodoListComponent = () => 
       <Consumer>
 	      {store => <ul>{store.todos.map((todo,i) => <li key={i}>{todo}</li>)}</ul>
@@ -53,5 +50,5 @@ const TodoListComponent = () =>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzMwODM4NjZdfQ==
+eyJoaXN0b3J5IjpbNTc1NTYyMTc5LC0xNjczMDgzODY2XX0=
 -->
