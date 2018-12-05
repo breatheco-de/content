@@ -1,6 +1,6 @@
 ---
-title: "Building RESTful APIs With Django"
-subtitle: "In the world of Python, Django is the best way to create web applications and RESTful APIs."
+title: "Learn What is Django: Building RESTful APIs With Django Tutorial"
+subtitle: "In the world of Python, Learning what is Django is the best way to create web applications and RESTful APIs.Enjoy this Django tutorial"
 cover: "https://ucarecdn.com/3e50e217-514d-41dc-a7a4-4725e08f8afb/"
 textColor: "white"
 date: "2018-14-11"
@@ -54,7 +54,7 @@ Remember everything is just text!  You can and should play with the generated fi
 
 After running the command, a project folder will be created with at least 4 files inside:
 
-![folderpic](https://ucarecdn.com/f9bc68cd-e407-4d55-afd6-ba95b0c8bc02/-/resize/300x/)
+![what is django tutorial](https://ucarecdn.com/f9bc68cd-e407-4d55-afd6-ba95b0c8bc02/-/resize/300x/)
 
 + `__init__:` an empty file that any folder needs to have inside to be considered a python package.
 + `settings:` contains all the configuration variables for your project – we will address this file further later.
@@ -69,7 +69,7 @@ The `manage.py` file outside is a CLI tool to be able to control and use Django 
 
 Now that we have a big project (website) it is time to start adding applications to it.  To create your first Django application, type the following command:
 
-```bash
+```html
 $ python manage.py startapp [app1_name]
 ```
 
@@ -81,20 +81,20 @@ $ python manage.py startapp [app1_name]
 
 You will see a new folder with your application name and a bunch of new files inside.  Let’s review them:
 
-![folders2](https://ucarecdn.com/c7eb4466-eaa5-4d33-8181-5b4c5df4e7f8/-/resize/600x/)
+![what is django tutorial](https://ucarecdn.com/c7eb4466-eaa5-4d33-8181-5b4c5df4e7f8/-/resize/600x/)
 
-+ `__init__:`  Tells Python that this folder is a package.
-+ `admin.py:`  Here we can add models into the admin interface to be able to CRUD those models.
-+ `models.py: ` Here we will need to define our database model (all the object structures we want to store into a database).
-+ `apps.py:`  Don’t touch this – it describes what applications we have.
-+ `tests.py:`  Here you can write your application [unit tests.](https://en.wikipedia.org/wiki/Unit_testing)
-+ `views.py: ` Here you have to describe how your HTML or JSON files are going to be built.
++ `python>__init__:`  Tells Python that this folder is a package.
++ `python>admin.py:`  Here we can add models into the admin interface to be able to CRUD those models.
++ `python>models.py: ` Here we will need to define our database model (all the object structures we want to store into a database).
++ `python>apps.py:`  Don’t touch this – it describes what applications we have.
++ `python>tests.py:`  Here you can write your application [unit tests.](https://en.wikipedia.org/wiki/Unit_testing)
++ `python>views.py: ` Here you have to describe how your HTML or JSON files are going to be built.
 
 Lets discuss all of these in more detail below.
 
 To summarize, and continuing with our "BreatheCode Project" example, this is how your project file structure may look after you have several apps inside one big project.
 
-![brrathcodediagram](https://ucarecdn.com/e59de5e1-2751-4286-adfb-69c047e93058/-/resize/600x/)
+![what is django tutorial](https://ucarecdn.com/e59de5e1-2751-4286-adfb-69c047e93058/-/resize/600x/)
 
 ### Manage.py (Django CLI)
 
@@ -102,10 +102,10 @@ The Manage.py file is an amazing command line tool that will help you a lot.  It
 
 |&nbsp;     |&nbsp;      |
 |:----------|:-----------|
-|Create admin users for your applications      |`$ python manage.py createsuperuser`         |
-|Running the python development server         |`$ python manage.py runserver $IP:$PORT`     |
-|Making migrations                             |`$ python manage.py makemigrations [your_appliation_name]`        |
-|Running migrations                            |`$ python manage.py migrate`           |
+|Create admin users for your applications      |`python>$ python manage.py createsuperuser`         |
+|Running the python development server         |`python>$ python manage.py runserver $IP:$PORT`     |
+|Making migrations                             |`python>$ python manage.py makemigrations [your_appliation_name]`        |
+|Running migrations                            |`python>$ python manage.py migrate`           |
 
 
 ## Django Architecture to build RESTful APIs
@@ -124,7 +124,7 @@ We are going to be building a REST Based API, but don’t be afraid of the name 
 + The next step, should be to decide what JSON should be returned inside the body of the Response.  For that we have the serializer.
 + Finally, the APIView should return a Response object that contains the JSON Object prepared by the serializer.
 
-<before-after 
+<before-after width="900px"
     before="https://ucarecdn.com/c7e96be7-a7b6-4b6d-83a2-535b22fdc3b0/" after="https://ucarecdn.com/88f6b44f-01dc-4a13-ba1f-fbab5280d510/" />
 
 ### urls.py: The URL Dispatcher
