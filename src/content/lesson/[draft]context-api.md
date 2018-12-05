@@ -10,7 +10,7 @@ tags: ["reactjs"]
 
 ## Don't be scared about "The Context API"
 
-When you hear "The Context API" from afar it's easy to get scared, but believe when I tell you this is the easiest way the React.js team has proposed to create small to mid-sized apps.
+The Context API is one of the easiest ways the React.js team has proposed to control your data in small to mid-sized apps.
 
 ## Why do we need The Content API?
 
@@ -63,6 +63,6 @@ class App extends React.Component {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMDUxMjQ0MiwtMTU0OTI3NzcyNiw1Nz
+eyJoaXN0b3J5IjpbLTU1OTczNjYzMCwtMTU0OTI3NzcyNiw1Nz
 U1NjIxNzksLTE2NzMwODM4NjZdfQ==
 -->
