@@ -1,6 +1,6 @@
 ---
-subtitle: "The Context API is the most recent tool that the React.js Team has made available to handle your application data flow. It is the perfect companion for building small to mid-sized applications"
-title: "Working with the Context API"
+subtitle: "The Context API is the most recent tool that the React.js Team has made available to handle your application data flow. It is the perfect companion for building small to mid-sized applications without the need of Flux or Redux"
+title: "Implementing MVC with The Context API"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-12-03"
@@ -10,7 +10,7 @@ tags: ["reactjs"]
 
 ## Don't be scared about "The Context API"
 
-The Context API is one of the easiest ways the React.js team has proposed to control your data in small to mid-sized apps.
+The Context API is one of the easiest ways the React.js team has proposed to control your data in small to mid-sized apps. Before Context, our best hope was using Flux or Redux for managing our application data
 
 ### Life before the Context API was harder
 
@@ -74,7 +74,7 @@ Now, let's do a real life example: A Todo List.
 
 2) Now, let's create the ThemeProvider that will be the parent of all the consumers we will want for the app. 
 
-The code for this ThemeProvider components is very similar in all applications, all
+The code for this ThemeProvider components is very similar in all applications, all that will change is 
 
 ```js
 class ThemeProvider extends React.Component{
@@ -95,7 +95,7 @@ class ThemeProvider extends React.Component{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMTE5MDIyOSwxMzM5NDkwOTIyLC0zNT
+eyJoaXN0b3J5IjpbLTU4NjU4Njc5MiwxMzM5NDkwOTIyLC0zNT
 IyOTU3MjAsLTE1NDkyNzc3MjYsNTc1NTYyMTc5LC0xNjczMDgz
 ODY2XX0=
 -->
