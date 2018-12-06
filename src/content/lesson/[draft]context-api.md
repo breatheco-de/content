@@ -36,26 +36,24 @@ The concept behind it is very simple: The is one big producer and a bunch of con
 ### Coding Example
 
 ```jsx
+//define a context that will be shared within all the app
 const GlobalContext = React.createContext({});
+
+//Create a ThemeProvider that has to be the parent of every consumer.
 const ThemeProvider = (props) => {
 	const context = { todos: [] };
-    return (
-      <GlobalContext.Provider value={context}>
+    return (<GlobalContext.Provider value={context}>
         {props.children}
-      </GlobalContext.Provider>
-    )
+     </GlobalContext.Provider>)
   }
 }
-const App = () => (
-	<ThemeProvider>
-	    <GlobalContext.Consumer>
-		      {context => <div>
-				      <ul>{context.todos.map((task, i) => <li>{task}</li>)}</ul>
-				   </div>
-			  }
-	    </GlobalContext.Consumer>
-	</ThemeProvider>
-);
+const App = () => (<ThemeProvider>
+    <GlobalContext.Consumer>
+	    {context => <div>
+			      <ul>{context.todos.map((task, i) => <li>{task}</li>)}</ul>
+		</div>}
+    </GlobalContext.Consumer>
+</ThemeProvider>);
 ```
 
 ## Live Example (Todo-list)
@@ -66,6 +64,6 @@ Here is a more complete live example that replicates a todo list:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTE5OTE2MTUsLTM1MjI5NTcyMCwtMT
+eyJoaXN0b3J5IjpbLTEyNDIwODk0MzIsLTM1MjI5NTcyMCwtMT
 U0OTI3NzcyNiw1NzU1NjIxNzksLTE2NzMwODM4NjZdfQ==
 -->
