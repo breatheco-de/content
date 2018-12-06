@@ -34,8 +34,9 @@ The concept behind it is very simple: **The is one big producer** and a **bunch 
 
 ![Context API Explanation](https://ucarecdn.com/72fe5361-5b2a-460f-8c2a-2d376616abf6/)
 
-### Coding Example
+### The most simple possible implementation
 
+I tried a couple of hours to make the most simple Context API implementation without using hooks and this is what I
 ```jsx
 //define a context that will be shared within all the app.
 const GlobalContext = React.createContext({});
@@ -96,7 +97,7 @@ class ThemeProvider extends React.Component{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NzUyMTQ0OCwxMzM5NDkwOTIyLC0zNT
-IyOTU3MjAsLTE1NDkyNzc3MjYsNTc1NTYyMTc5LC0xNjczMDgz
-ODY2XX0=
+eyJoaXN0b3J5IjpbMjg1NTEwODQ3LDEzMzk0OTA5MjIsLTM1Mj
+I5NTcyMCwtMTU0OTI3NzcyNiw1NzU1NjIxNzksLTE2NzMwODM4
+NjZdfQ==
 -->
