@@ -38,9 +38,6 @@ The concept behind it is very simple: **The is one big producer** and a **bunch 
 
 After couple of hours to make the most simple Context API implementation without using hooks and this is what I got in 5 simple steps:
 ```jsx
-// Step 1: define a context that will be shared within all the app.
-const GlobalContext = React.createContext({});
-
 // Step 2: Create a ThemeProvider that has to be the parent of every consumer.
 const ThemeProvider = (props) => {
 	const context = { todos: [] };
@@ -65,8 +62,12 @@ const SampleComponent = () => <GlobalContext.Consumer>
 
 Lets talk a little about what just happened on each step:
 - **Step 1 (Create the context)**: This step has almost no logic, just call the `createContext` function passing an empty object to it. That object will be shared within all the consumers during the application lifetime, it will contain the application **model** and **actions**.
+```js
+// Step 1: define a context that will be shared within all the app.
+const GlobalContext = React.createContext({});
+```
 - **Step 2 (Model and Actions)**: Create a `ThemeProvider` that will have to be included at the beginning of your app, it has to be. Because it will be responsible to provide the Consumers with the context you just created in the previous step. The `ThemeProvider` state is where we will declare our initial data (**model**) and the functions (**actions**) that manipulate that data throughout the life of the application.
-- **Step 3 (Views)**:  No it's time to create the application view, we will use the `ThemeProvider` inside the render method.
+- **Step 3 (Views)**:  No it's time to create the application view, we will use the `ThemeProvider` inside the render method of the application and then we can add as many components as we like, and those components will have access to the GlobalContext if that is what we want.
 
 ## Live Example (Todo-list)
 
@@ -103,7 +104,7 @@ class ThemeProvider extends React.Component{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDg0MDExMzAsMjgwODg0NzgsMTMzOT
-Q5MDkyMiwtMzUyMjk1NzIwLC0xNTQ5Mjc3NzI2LDU3NTU2MjE3
-OSwtMTY3MzA4Mzg2Nl19
+eyJoaXN0b3J5IjpbLTg0NDMzMzM2NiwyODA4ODQ3OCwxMzM5ND
+kwOTIyLC0zNTIyOTU3MjAsLTE1NDkyNzc3MjYsNTc1NTYyMTc5
+LC0xNjczMDgzODY2XX0=
 -->
