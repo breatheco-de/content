@@ -79,19 +79,19 @@ const MyView = () => (<ThemeProvider>
 // you want to have access to the global context.
 const TodoList = () => (<MyContext.Consumer>
     {context => (
-      <div>
-	    {context.todos.map((task, i) => (<li>{task}</li>))}
-        <button onClick={() => context.addTask("I am the task " + context.todos.length)}> + add </button>
-      </div>
+		<div>
+			{context.todos.map((task, i) => (<li>{task}</li>))}
+			<button onClick={() => context.addTask("I am the task " + context.todos.length)}> + add </button>
+		</div>
     )}
-  </MyContext.Consumer>
-);
+</MyContext.Consumer>);
 ```
+
 ## Test the code live
 
 <iframe src="https://codesandbox.io/embed/w75wq6v01k?hidenavigation=1&view=editor" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNjc0MDkyMywzNTQwMjA3NTNdfQ==
+eyJoaXN0b3J5IjpbODM4NTU3OTk5LDM1NDAyMDc1M119
 -->
