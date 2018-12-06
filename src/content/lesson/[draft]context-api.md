@@ -63,7 +63,8 @@ const SampleComponent = () => <GlobalContext.Consumer>
 ```
 <p align="right"><a target="_blank" href="https://codesandbox.io/s/w75wq6v01k">Test this code live</a></p>
 
-Lets talk a little about 
+Lets talk a little about what just happened on each step:
+- Step 1: This step has almost no logic, just call the `createContext` function passing an empty object to it. That object will be shared within all the consumers during the application life,
 
 ## Live Example (Todo-list)
 
@@ -100,7 +101,7 @@ class ThemeProvider extends React.Component{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMzYxODgyLDEzMzk0OTA5MjIsLTM1Mj
-I5NTcyMCwtMTU0OTI3NzcyNiw1NzU1NjIxNzksLTE2NzMwODM4
-NjZdfQ==
+eyJoaXN0b3J5IjpbLTkzMDA1NzMwNCwxMzM5NDkwOTIyLC0zNT
+IyOTU3MjAsLTE1NDkyNzc3MjYsNTc1NTYyMTc5LC0xNjczMDgz
+ODY2XX0=
 -->
