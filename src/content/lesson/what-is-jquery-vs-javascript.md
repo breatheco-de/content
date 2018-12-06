@@ -1,5 +1,8 @@
 ---
-title: "From Javascript to jQuery"
+title: "Learn What is Jquery: Jquery vs Javascript"
+
+subtitle: "Hey guys its time to know more about what is Jquery, at the end you will be the judge and decide which one will you use (Jquery vs Javascript)"
+
 date: "2018-05-11"
 cover: "https://ucarecdn.com/8c053abc-2f09-47e9-b586-751538d180c4/"
 textColor: "white"
@@ -66,9 +69,9 @@ Content Distribution Networks are servers that are used specifically to store li
 
 We recommend [the Google CDN:](https://developers.google.com/speed/libraries/) look for jQuery and copy the `<script>` of the latest version of jQuery available.  Paste that script tag **before any other JavaScript script tag inside your website** `<head>`.
 
-![jquery2](https://ucarecdn.com/b5e8d1ef-5385-4923-aaf9-b24130405a9a/)
+![what is jquery vs javascript](https://ucarecdn.com/b5e8d1ef-5385-4923-aaf9-b24130405a9a/)
 
-```html
+```html{numberLines: true}
 <!DOCTYPE html>
 <html>
     <head>
@@ -164,14 +167,14 @@ For example, if you want to remove one specific class from an element you will f
 &nbsp;
 #### **Select Elements from the DOM**
 
-##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
 ```javascript
 var elm = document.getElementById(‘elementId’);
 var elmArray = document.getElementsByClassName(‘elementId’);
 ```
 
-##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
+##### ![what is jquery vs javascript](https://ucarecdn.com/2e1dfd98-a969-4ad1-8ed3-23626f07be1d/) With jQuery
 
 ```javascript
 var elem = $(‘#elementId’);
@@ -182,7 +185,7 @@ var elemArray = $(‘.elm_class’);
 &nbsp;
 #### **Create a New DOM Element**
 
-##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
 
 ```javascript
@@ -191,7 +194,7 @@ myAnchor.href="http://google.com";
 myAnchor.target="_blank";
 ```
 
-##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
+##### ![what is jquery vs javascript](https://ucarecdn.com/2e1dfd98-a969-4ad1-8ed3-23626f07be1d/) With jQuery
 
 ```javascript
 var attributesObj = {
@@ -204,14 +207,14 @@ $(‘<a>’,attributesObj);  //the attributesObj is optional
 &nbsp;
 #### **Append Child**
 
-##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
 
 ```javascript
 parent.appendChild(el);
 ```
 
-##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
+##### ![what is jquery vs javascript](https://ucarecdn.com/2e1dfd98-a969-4ad1-8ed3-23626f07be1d/) With jQuery
 
 ```javascript
 $(parent).append(el);
@@ -223,14 +226,14 @@ $(parent).append(el);
 
 Vanilla JS doesn’t have a remove() function.  You will have to call a removeChild function form the element’s parent.
 
-##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
 
 ```javascript
 elm.parentNode.removeChild(elm);
 ```
 
-##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
+##### ![what is jquery vs javascript](https://ucarecdn.com/2e1dfd98-a969-4ad1-8ed3-23626f07be1d/) With jQuery
 
 ```javascript
 $( ".hello" ).remove(); //Remove all elements with class hello 
@@ -241,14 +244,14 @@ var elements = $( ".hello" ).detach(); //Remove the elements from the DOM but re
 &nbsp;
 #### **Replace Element**
 
-##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
 
 ```javascript
 elm.parentNode.replaceChild(myNewHeading, elm); //being myNewHeding a DOM element
 ```
 
-##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
+##### ![what is jquery vs javascript](https://ucarecdn.com/2e1dfd98-a969-4ad1-8ed3-23626f07be1d/) With jQuery
 
 ```javascript
 $( "#div1" ).replaceWith( "<h1>This is a new heding</h1>" );
@@ -258,7 +261,7 @@ $( "#div1" ).replaceWith( "<h1>This is a new heding</h1>" );
 &nbsp;
 #### **Traverse childs**
 
-##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
 
 ```javascript
@@ -269,7 +272,7 @@ childs.forEach(function(elm, index){
 });
 ```
 
-##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
+##### ![what is jquery vs javascript](https://ucarecdn.com/2e1dfd98-a969-4ad1-8ed3-23626f07be1d/) With jQuery
 
 ```javascript
 $(css_selector).find(selector).each(function(index, elm){
@@ -281,7 +284,7 @@ $(css_selector).find(selector).each(function(index, elm){
 &nbsp;
 #### **Get/set attribute**
 
-##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
 
 ```javascript
@@ -289,7 +292,7 @@ el.getAttribute(‘tabindex’);
 el.setAttribute(‘tabindex’, 3);
 ```
 
-##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
+##### ![what is jquery vs javascript](https://ucarecdn.com/2e1dfd98-a969-4ad1-8ed3-23626f07be1d/) With jQuery
 
 ```javascript
 $(el).attr(‘tabindex’);
@@ -307,13 +310,13 @@ jQuery really helps when working with classes because the only way to update a c
 
 For example, if you want to remove one specific class from an element, you will have to get the value of the class attribute as a string and then create a new string – just like the first one – but without that particular class.
 
-![jaquery6](https://ucarecdn.com/655a85b3-660f-45bf-8563-2bcbe13bf0e5/)
+![what is jquery vs javascript](https://ucarecdn.com/655a85b3-660f-45bf-8563-2bcbe13bf0e5/)
 
 &nbsp;
 &nbsp;
 #### **Add/Remove CSS Class**
 
-##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
 
 ```javascript
@@ -321,7 +324,7 @@ el.className += ‘ ‘ + className; //add
 el.className = el.className.replace("classname", ""); //remove
 ```
 
-##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
+##### ![what is jquery vs javascript](https://ucarecdn.com/2e1dfd98-a969-4ad1-8ed3-23626f07be1d/) With jQuery
 
 ```javascript
 $(el).addClass(className);
@@ -331,7 +334,7 @@ $(el).removeClass(className);
 &nbsp;
 #### **Get/Set CSS Style Rules**
 
-##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
 
 ```javascript
@@ -339,7 +342,7 @@ el.style.borderWidth = ’20px’;
 getComputedStyle(el)[ruleName];
 ```
 
-##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
+##### ![what is jquery vs javascript](https://ucarecdn.com/2e1dfd98-a969-4ad1-8ed3-23626f07be1d/) With jQuery
 
 ```javascript
 $(el).css(‘border-width’, ’20px’);
@@ -350,7 +353,7 @@ $(el).css(ruleName);
 &nbsp;
 #### **Toggle Class**
 
-##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
 
 ```javascript
@@ -365,7 +368,7 @@ var classes = el.className.split(‘ ‘);
   el.className = classes.join(‘ ‘);
   ```
 
-  ##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
+  ##### ![jquery](https://ucarecdn.com/2e1dfd98-a969-4ad1-8ed3-23626f07be1d/) With jQuery
 
   ```javascript
   $(el).toggleClass(className);
@@ -386,7 +389,7 @@ jQuery does not add much value when working with events, we have the same concep
 
 The only really great advantage when working with jQuery events is the jQuery selector, because now you can attach a listener to several objects at the same time without having to iterate through all of them. For example, lets try to add a listener to the click event on all the elements with the class ".btn"
 
-##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+##### ![javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
 
 ```javascript
@@ -398,7 +401,7 @@ alert(‘s’);
 });
 ```
 
-##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
+##### ![what is jquery vs javascript](https://ucarecdn.com/2e1dfd98-a969-4ad1-8ed3-23626f07be1d/) With jQuery
 
 ```javascript
 $(‘.btn’).on( "click", function(){
@@ -421,10 +424,10 @@ For example, if you want to remove one specific class from an element you will h
 
 #### **GET request**
 
-##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
 
-```javascript
+```javascript{numberLines: true}
 var request = new XMLHttpRequest();
 request.open(‘GET’, ‘/my/url’, true);
 request.onload = function() {
@@ -441,9 +444,9 @@ request.onerror = function() {
 request.send();
 ```
 
-##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
+##### ![what is jquery vs javascript](https://ucarecdn.com/2e1dfd98-a969-4ad1-8ed3-23626f07be1d/) With jQuery
 
-```javascript
+```javascript{numberLines: true}
 $.ajax({
   type: ‘GET’,
   url: ‘/my/url’,
@@ -459,10 +462,10 @@ $.ajax({
 &nbsp;
 #### **POST request**
 
-##### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With vanilla JavaScript
+##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
 
-```javascript
+```javascript{numberLines: true}
 var http = new XMLHttpRequest();
 var url = "/my/url";
 var params = "lorem=ipsum&name=binny";
@@ -477,9 +480,9 @@ alert(http.responseText);
 http.send(params);
 ```
 
-##### ![jquery](https://ucarecdn.com/0cc8484a-d0fc-4259-b0ff-92851a096f76/-/resize/50x/) With jQuery
+##### ![what is jquery vs javascript](https://ucarecdn.com/2e1dfd98-a969-4ad1-8ed3-23626f07be1d/) With jQuery
 
-```javascript
+```javascript{numberLines: true}
 $.ajax({
   type: ‘POST’,
   url: ‘/my/url’,
