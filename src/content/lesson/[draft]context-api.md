@@ -65,7 +65,7 @@ class ThemeProvider extends React.Component {
   }
 }
 ```
-- **Step 3 (Views)**:  No it's time to create the application view, we will use the `ThemeProvider` inside the render method of the application and then we can add as many components as we like, and those components will have access to the GlobalContext if that is what we want.
+- **Step 3 (Views)**:  No it's time to create the application view, we will use the `ThemeProvider` inside the render method of the application and then we can add as many components as we like, and those components will have access to the GlobalContext if that is what we want, we will be adding the `<TodoList />` component that will be creating the 
 ```js
 // Step 4: Create your your first app view with the ThemeProvider component, 
 // this View will be added into the document using the ReactDOM.render() function
@@ -126,7 +126,7 @@ class ThemeProvider extends React.Component{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDEyODI2NiwxMTY0OTU3MTM5LDI4MD
+eyJoaXN0b3J5IjpbMTU0NjgzODQyNSwxMTY0OTU3MTM5LDI4MD
 g4NDc4LDEzMzk0OTA5MjIsLTM1MjI5NTcyMCwtMTU0OTI3Nzcy
 Niw1NzU1NjIxNzksLTE2NzMwODM4NjZdfQ==
 -->
