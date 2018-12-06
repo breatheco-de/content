@@ -28,7 +28,7 @@ For the rest of us building real web applications, we need to connect several vi
 
 For example, we need the following application URLs to match the following components:
 
-![routing1](https://ucarecdn.com/6fd2b44b-598b-4ddb-85ba-9c32b086127f/-/resize/800x/)
+![react router](https://ucarecdn.com/6fd2b44b-598b-4ddb-85ba-9c32b086127f/-/resize/800x/)
 
 
 ## Defining your Application Routes
@@ -41,7 +41,7 @@ What pages/views do you want your app to have? You can always start with the bas
 + Private: What your private users view right after they login.
 The rest of the pages depend on your application and on how you want your users to navigate through your site.
 
-![routing1](https://ucarecdn.com/205cd2de-dfae-4712-a5e4-1c922994e60d/-/resize/700x/)
+![react router](https://ucarecdn.com/205cd2de-dfae-4712-a5e4-1c922994e60d/-/resize/700x/)
 
 ## Mapping your Views to URLs
 ***
@@ -49,7 +49,7 @@ The rest of the pages depend on your application and on how you want your users 
 This is the sitemap for any typical e-commerce website:
 
 
-![routing2](https://ucarecdn.com/9021be43-57ae-4667-8c1a-435b8521ce59/-/resize/600x/)
+![react router](https://ucarecdn.com/9021be43-57ae-4667-8c1a-435b8521ce59/-/resize/600x/)
 
 ## Coding your Application Routes
 ***
@@ -60,7 +60,7 @@ The best practice is always creating one component called `<Layout />` that will
 
 This is an example of the same e-commerce sitemap but now using React Router v4:
 
-```jsx
+```jsx{numberLines: true}
 //this component Layout will take care of routing the URLs with all my application views 
 export class Layout extends Flux.View {
     render() {
