@@ -52,8 +52,9 @@ class ThemeProvider extends React.Component {
   constructor() {
     super();
     this.state = {
+      // this is the model of your app, a list of todo's
       todos: [],
-      // inside the state of the t
+      // add as many actions (functions) as you want
       addTask: title => this.setState({ todos: this.state.todos.concat(title) })
     };
   }
@@ -66,8 +67,12 @@ class ThemeProvider extends React.Component {
 ```
 - **Step 3 (Views)**:  No it's time to create the application view, we will use the `ThemeProvider` inside the render method of the application and then we can add as many components as we like, and those components will have access to the GlobalContext if that is what we want.
 ```js
-// Step 4: Start your app with the ThemeProvider component 
-const App = () => (<ThemeProvider><SampleComponent /></ThemeProvider>);
+// Step 4: Start your app with the ThemeProvider component, this View will be added into the documen
+const MyView = () => (
+  <ThemeProvider>
+    <TodoList />
+  </ThemeProvider>
+);
 ```
 - **Step 4**:
 
@@ -116,7 +121,7 @@ class ThemeProvider extends React.Component{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzU1MTEzMiwyODA4ODQ3OCwxMzM5ND
+eyJoaXN0b3J5IjpbLTg2MTc5NDM1MCwyODA4ODQ3OCwxMzM5ND
 kwOTIyLC0zNTIyOTU3MjAsLTE1NDkyNzc3MjYsNTc1NTYyMTc5
 LC0xNjczMDgzODY2XX0=
 -->
