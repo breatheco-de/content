@@ -64,8 +64,8 @@ const SampleComponent = () => <GlobalContext.Consumer>
 <p align="right"><a target="_blank" href="https://codesandbox.io/s/w75wq6v01k">Test this code live</a></p>
 
 Lets talk a little about what just happened on each step:
-- Step 1: This step has almost no logic, just call the `createContext` function passing an empty object to it. That object will be shared within all the consumers during the application lifetime.
-- Step 2: Create a `ThemeProvider` that will have to be included at the beginning of your app, it has to be. Because it will be responsable to provide the Consumers 
+- **Step 1**: This step has almost no logic, just call the `createContext` function passing an empty object to it. That object will be shared within all the consumers during the application lifetime.
+- **Step 2**: Create a `ThemeProvider` that will have to be included at the beginning of your app, it has to be. Because it will be responsible to provide the Consumers with the context you just created in the previous step. The `ThemeProvider` state is where we will declare our ini
 
 ## Live Example (Todo-list)
 
@@ -102,7 +102,7 @@ class ThemeProvider extends React.Component{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjk1MDIzNzUsMTMzOTQ5MDkyMiwtMz
-UyMjk1NzIwLC0xNTQ5Mjc3NzI2LDU3NTU2MjE3OSwtMTY3MzA4
-Mzg2Nl19
+eyJoaXN0b3J5IjpbLTg1MTEyMjM2MiwxMzM5NDkwOTIyLC0zNT
+IyOTU3MjAsLTE1NDkyNzc3MjYsNTc1NTYyMTc5LC0xNjczMDgz
+ODY2XX0=
 -->
