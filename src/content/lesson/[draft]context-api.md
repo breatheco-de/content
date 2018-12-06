@@ -41,7 +41,7 @@ After couple of hours to make the most simple Context API implementation without
 - **Step 1 (Create the context)**: This step has almost no logic, just call the `createContext` function passing an empty object to it. That object will be shared within all the consumers during the application lifetime, it will contain the application **model** and **actions**.
 ```js
 // Step 1: define a context that will be shared within all the app.
-const MyContext = React.createContext({
+const GlobalContext = React.createContext({
   todos: ["Make the bed", "Take out the trash"]
 });
 ```
@@ -59,9 +59,9 @@ class ThemeProvider extends React.Component {
     };
   }
   render() {
-    return (<MyContext.Provider value={this.state}>
+    return (<GlobalContext.Provider value={this.state}>
         {this.props.children}
-      </MyContext.Provider>);
+      </GlobalContext.Provider>);
   }
 }
 ```
@@ -75,7 +75,7 @@ const MyView = () => (
   </ThemeProvider>
 );
 ```
-- **Step 4**: Let's create a sample component that uses the actions
+- **Step 4**: Let's create a sample component that uses the application actions to manipulate the model. Basically it adds tasks to the global todo list.
 
 ```js
 // Step 5: Add the consumer tag to any component 
@@ -135,7 +135,7 @@ class ThemeProvider extends React.Component{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NjQxODU3NywyODA4ODQ3OCwxMzM5ND
-kwOTIyLC0zNTIyOTU3MjAsLTE1NDkyNzc3MjYsNTc1NTYyMTc5
-LC0xNjczMDgzODY2XX0=
+eyJoaXN0b3J5IjpbMjM0NzY3NTEzLDI4MDg4NDc4LDEzMzk0OT
+A5MjIsLTM1MjI5NTcyMCwtMTU0OTI3NzcyNiw1NzU1NjIxNzks
+LTE2NzMwODM4NjZdfQ==
 -->
