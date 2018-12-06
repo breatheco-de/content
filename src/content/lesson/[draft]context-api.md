@@ -58,6 +58,7 @@ const App = () => (<ThemeProvider>
     </GlobalContext.Consumer>
 </ThemeProvider>);
 ```
+<p align="right"><a target="_blank" href="https://codesandbox.io/s/w75wq6v01k">Test this code live</a></p>
 
 ## Live Example (Todo-list)
 
@@ -69,6 +70,6 @@ Our global context will be a list of todos
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODU5NjA4OCwtMzUyMjk1NzIwLC0xNT
-Q5Mjc3NzI2LDU3NTU2MjE3OSwtMTY3MzA4Mzg2Nl19
+eyJoaXN0b3J5IjpbLTIwNjY5MjIxNTUsLTM1MjI5NTcyMCwtMT
+U0OTI3NzcyNiw1NzU1NjIxNzksLTE2NzMwODM4NjZdfQ==
 -->
