@@ -49,38 +49,35 @@ const GlobalContext = React.createContext({
 ```js
 // Step 2: Create a ThemeProvider that has to be the parent of every consumer.
 class ThemeProvider extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      // this is the model of your app, a list of todo's
-      todos: [],
-      // add as many actions (functions) as you want
-      addTask: title => this.setState({ todos: this.state.todos.concat(title) })
-    };
-  }
-  render() {
-    return (<GlobalContext.Provider value={this.state}>
-        {this.props.children}
-      </GlobalContext.Provider>);
-  }
+	constructor() {
+	    super();
+	    this.state = {
+		    // this is the model of your app, a list of todo's
+		    todos: [],
+		    // add as many actions (functions) as you want
+		    addTask: title => this.setState({ todos: this.state.todos.concat(title) })
+	    };
+	}
+	render() {
+		return (<GlobalContext.Provider value={this.state}>
+	        {this.props.children}
+		</GlobalContext.Provider>);
+	}
 }
 ```
 - **Step 3 (Views)**:  No it's time to create the application view, we will use the `ThemeProvider` inside the render method of the application and then we can add as many components as we like, and those components will have access to the GlobalContext if that is what we want, we will be adding the `<TodoList />` component in advanced (the one we create on the last step).
 ```js
 // Step 4: Create your your first app view with the ThemeProvider component, 
 // this View will be added into the document using the ReactDOM.render() function
-const MyView = () => (
-  <ThemeProvider>
-    <TodoList />
-  </ThemeProvider>
-);
+const MyView = () => (<ThemeProvider>
+	<TodoList />
+</ThemeProvider>);
 ```
 - **Step 4**: No lets create a component that have access to the application global context without having to use props. In this case the component will render the todo's and also be able to add new tasks to the list.
 ```js
 // Step 5: Add the consumer tag to any component 
 // you want to have access to the global context.
-const TodoList = () => (
-  <MyContext.Consumer>
+const TodoList = () => (<MyContext.Consumer>
     {context => (
       <div>
 	    {context.todos.map((task, i) => (<li>{task}</li>))}
@@ -96,5 +93,5 @@ const TodoList = () => (
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU0MDIwNzUzXX0=
+eyJoaXN0b3J5IjpbMTMyNjc0MDkyMywzNTQwMjA3NTNdfQ==
 -->
