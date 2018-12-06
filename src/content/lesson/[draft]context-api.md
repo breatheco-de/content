@@ -30,17 +30,19 @@ The Context API is here to solve some of those conundrums:
 
 The concept behind it is very simple: The is one big producer and a bunch of consumers. Every time the producer data changes, all the consumers get notified. You can think about it very similar to how TV Networks work. One TV channel emits a data signal and all TV antennas get notified, receive the new content and render the image on the televisions. 
 
+> Everyone has access to our
+
 ![Context API Explanation](https://ucarecdn.com/72fe5361-5b2a-460f-8c2a-2d376616abf6/)
 
 ### Coding Example
 
 ```jsx
 const GlobalContext = React.createContext({});
-const ThemeProvider = () => {
+const ThemeProvider = (props) => {
 	const context = { todos: [] };
     return (
       <GlobalContext.Provider value={context}>
-        {this.props.children}
+        {props.children}
       </GlobalContext.Provider>
     )
   }
@@ -57,8 +59,12 @@ const App = () => (
 );
 ```
 
+## Live Example (Todo-list)
+
+<iframe src="https://codesandbox.io/embed/w75wq6v01k?hidenavigation=1&view=editor" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MjI5NTcyMCwtMTU0OTI3NzcyNiw1Nz
-U1NjIxNzksLTE2NzMwODM4NjZdfQ==
+eyJoaXN0b3J5IjpbLTI0OTczNDE2MiwtMzUyMjk1NzIwLC0xNT
+Q5Mjc3NzI2LDU3NTU2MjE3OSwtMTY3MzA4Mzg2Nl19
 -->
