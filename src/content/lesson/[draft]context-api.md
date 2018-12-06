@@ -75,7 +75,7 @@ const MyView = () => (
   </ThemeProvider>
 );
 ```
-- **Step 4**: Let's create a sample component that uses the application actions to manipulate the model. Basically it adds tasks to the global todo list.
+- **Step 4**: No lets create a component an
 ```js
 // Step 5: Add the consumer tag to any component 
 // you want to have access to the global context.
@@ -126,7 +126,7 @@ class ThemeProvider extends React.Component{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQ3MDAzNzksMTE2NDk1NzEzOSwyOD
-A4ODQ3OCwxMzM5NDkwOTIyLC0zNTIyOTU3MjAsLTE1NDkyNzc3
-MjYsNTc1NTYyMTc5LC0xNjczMDgzODY2XX0=
+eyJoaXN0b3J5IjpbLTU3NzE5NzE1NCwxMTY0OTU3MTM5LDI4MD
+g4NDc4LDEzMzk0OTA5MjIsLTM1MjI5NTcyMCwtMTU0OTI3Nzcy
+Niw1NzU1NjIxNzksLTE2NzMwODM4NjZdfQ==
 -->
