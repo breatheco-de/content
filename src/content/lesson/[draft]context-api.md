@@ -75,7 +75,7 @@ const MyView = () => (
   </ThemeProvider>
 );
 ```
-- **Step 4**: No lets create a component an
+- **Step 4**: No lets create a component that have access to the application global context without having to use props. In this case the component will render the todo's and also be able to add new tasks to the list.
 ```js
 // Step 5: Add the consumer tag to any component 
 // you want to have access to the global context.
@@ -126,7 +126,7 @@ class ThemeProvider extends React.Component{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzE5NzE1NCwxMTY0OTU3MTM5LDI4MD
+eyJoaXN0b3J5IjpbMjA0MDEyODI2NiwxMTY0OTU3MTM5LDI4MD
 g4NDc4LDEzMzk0OTA5MjIsLTM1MjI5NTcyMCwtMTU0OTI3Nzcy
 Niw1NzU1NjIxNzksLTE2NzMwODM4NjZdfQ==
 -->
