@@ -35,13 +35,11 @@ The concept behind it is very simple: The is one big producer and a bunch of con
 ### Coding Example
 
 ```jsx
-const ThemeContext = React.createContext({
-	todos: []
-})
+const ThemeContext = React.createContext({});
 const ThemeProvider = () => {
-	
+	const context = { todos: [] };
     return (
-      <ThemeContext.Provider value={this.state.theme}>
+      <ThemeContext.Provider value={context}>
         {this.props.children}
       </ThemeContext.Provider>
     )
@@ -52,7 +50,7 @@ class App extends React.Component {
     return (
       <ThemeProvider>
         <ThemeContext.Consumer>
-          {val => <div>{val}</div>}
+          {context => <ul>{context.todos.map((task, i) => <li>{task}</li>)}</ul>}
         </ThemeContext.Consumer>
       </ThemeProvider>
     )
@@ -62,6 +60,6 @@ class App extends React.Component {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDQ0MTU1NCwtMTU0OTI3NzcyNiw1Nz
-U1NjIxNzksLTE2NzMwODM4NjZdfQ==
+eyJoaXN0b3J5IjpbLTExNTkyMzc1MDIsLTE1NDkyNzc3MjYsNT
+c1NTYyMTc5LC0xNjczMDgzODY2XX0=
 -->
