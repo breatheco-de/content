@@ -36,7 +36,7 @@ The concept behind it is very simple: The is one big producer and a bunch of con
 ### Coding Example
 
 ```jsx
-//define a context that will be shared within all the app
+//define a context that will be shared within all the app.
 const GlobalContext = React.createContext({});
 
 //Create a ThemeProvider that has to be the parent of every consumer.
@@ -47,6 +47,9 @@ const ThemeProvider = (props) => {
      </GlobalContext.Provider>)
   }
 }
+
+// Start your app with the ThemeProvider component 
+// and then add as many Consumers as you like
 const App = () => (<ThemeProvider>
     <GlobalContext.Consumer>
 	    {context => <div>
@@ -58,12 +61,12 @@ const App = () => (<ThemeProvider>
 
 ## Live Example (Todo-list)
 
-Here is a more complete live example that replicates a todo list:
+Now, lets get real 
 
 <iframe src="https://codesandbox.io/embed/w75wq6v01k?hidenavigation=1&view=editor" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDIwODk0MzIsLTM1MjI5NTcyMCwtMT
-U0OTI3NzcyNiw1NzU1NjIxNzksLTE2NzMwODM4NjZdfQ==
+eyJoaXN0b3J5IjpbLTE5NzUwMTk4LC0zNTIyOTU3MjAsLTE1ND
+kyNzc3MjYsNTc1NTYyMTc5LC0xNjczMDgzODY2XX0=
 -->
