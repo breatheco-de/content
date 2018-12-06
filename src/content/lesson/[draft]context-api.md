@@ -67,23 +67,37 @@ class ThemeProvider extends React.Component {
 ```
 - **Step 3 (Views)**:  No it's time to create the application view, we will use the `ThemeProvider` inside the render method of the application and then we can add as many components as we like, and those components will have access to the GlobalContext if that is what we want.
 ```js
-// Step 4: Start your app with the ThemeProvider component, this View will be added into the documen
+// Step 4: Create your your first app view with the ThemeProvider component, 
+// this View will be added into the document using the ReactDOM.render() function
 const MyView = () => (
   <ThemeProvider>
     <TodoList />
   </ThemeProvider>
 );
 ```
-- **Step 4**:
+- **Step 4**: Let's create a sample component that uses the actions
 
 ```js
 // Step 5: Add the consumer tag to any component 
 // you want to have access to the global context.
-const SampleComponent = () => <GlobalContext.Consumer>
-   {context => <div>
-		<ul>{context.todos.map((task, i) => <li>{task}</li>)}</ul>
-	</div>}
-</GlobalContext.Consumer>;
+const TodoList = () => (
+  <MyContext.Consumer>
+    {context => (
+      <div>
+        {context.todos.map((task, i) => (
+          <li>{task}</li>
+        ))}
+        <button
+          onClick={() =>
+            context.addTask("I am the task " + context.todos.length)
+          }
+        >
+          + add
+        </button>
+      </div>
+    )}
+  </MyContext.Consumer>
+);
 ```
 
 ## Live Example (Todo-list)
@@ -121,7 +135,7 @@ class ThemeProvider extends React.Component{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTc5NDM1MCwyODA4ODQ3OCwxMzM5ND
+eyJoaXN0b3J5IjpbLTM1NjQxODU3NywyODA4ODQ3OCwxMzM5ND
 kwOTIyLC0zNTIyOTU3MjAsLTE1NDkyNzc3MjYsNTc1NTYyMTc5
 LC0xNjczMDgzODY2XX0=
 -->
