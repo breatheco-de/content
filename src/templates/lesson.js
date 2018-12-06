@@ -12,8 +12,14 @@ const renderAst = new rehypeReact({
 
 export default ({ data }) => {
   const post = data.markdownRemark;
+  const seo = {
+    title: post.frontmatter.title,
+    description: post.frontmatter.subtitle,
+    url: post.frontmatter.original_url,
+    image: post.frontmatter.thumb
+  };
   return (
-    <Layout>
+    <Layout seo={seo}>
       <div>
         <Cover 
           title={post.frontmatter.title} 
@@ -38,6 +44,7 @@ export const query = graphql`
         title
         subtitle
         cover
+        thumb
         textColor
       }
       fields {

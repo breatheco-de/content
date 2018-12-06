@@ -1,6 +1,8 @@
 ---
 title: "Intro to Back-End Web Development"
+cover: "https://ucarecdn.com/98208ebb-dcb3-4e40-9ae4-4ec886213f97/"
 
+textColor: "white"
 date: "2018-05-11"
 tags: ["fale"]
 ---
@@ -9,7 +11,7 @@ tags: ["fale"]
 
 Not so long ago, browsers were very dumb.  All they did was render HTML documents in a very early version of HTML.  There was no CSS, nor JS.  That means that front-end web developers did not exist!
 
-All the work was done by the server: since there was no JavaScript, the DOM could not be updated during the website runtime.  That means that the initial HTML source code that the browser received while loading the website was also going to be the LAST version of it.  **No DOM modifications**.
+All the work was done by the server: since there was no JavaScript, the DOM could not ~~be~~ updated during the website runtime.  That means that the initial HTML source code that the browser received while loading the website was also going to be the LAST version of it.  **No DOM modifications**.
 
 ### The Client-Server Architecture
 ***

@@ -2,6 +2,9 @@
 title: "From Javascript to Python"
 subtitle: "Unleash your power by learning and using one of the Kings of Back-End Development. Now you will be capable of bringing AI, Big Data, Machine Learning, APIs and integrate third party applications into your own."
 
+cover: "http://breatheco.de/wp-content/uploads/2018/01/python-background.jpg"
+
+textColor: "white"
 date: "2018-05-11"
 tags: ["fale"]
 ---
@@ -54,7 +57,7 @@ There are only a few differences; here is the explanation:
 
 |**In Javascript**      |**In Python**       |
 |:----------------------|:-------------------|
-|Number                 |Python has the same "Number" data-type but it can accept more options than JS, like fractions (2/3) or complex numbers.<br> `myNumber = 23.23;  //float`<br>` myNumber = 54;  //integer` <br>`myNumber = 12.00;  //float (even with 00 as decimals). `    |
+|Number                 |Python has the same "Number" data-type but it can accept more options than JS, like fractions (2/3) or complex numbers.<br> `python>myNumber = 23.23;  //float`<br>` myNumber = 54;  //integer` <br>`myNumber = 12.00;  //float (even with 00 as decimals). `    |
 |Undefined/Null is now: ***None***    |The ***undefined*** data-type is not available in Python.  Here "undefined" and "null" are the same data-type: ***None.***<br> `myNumber;  //is None because it was not defined`       |
 |Array     |In Python, the Arrays are called "List" and they are similar to JS Arrays but way more flexible and easier to work with.<br>`myArray = ['Juan','John','Steven']; //array of numeric indexes`       |
 |Object       |In Javascript, objects and dictionaries are almost the same.  You can do whatever you want to an object because you don’t have to declare its Class first and stick to its definition.<br> `var myCar = {}`<br> `myCar.color = 'blue';` <br><br>Python, on the other hand, separates the Dictionary data-type form the Object data-type. Objects cannot be informally declared.  You must first define their class before being able to instantiate them.<br><br>`class Car(object):`<br>`def __init__(self, color):`<br>`self.color = i` <br>`myCar = Car('blue')`       |
@@ -108,16 +111,13 @@ var result = int('5') - int('2');
 
 Javascript is so flexible that you don’t have to pay much attention to data types.   Python does not like that… in Python, you will get used to casting variables and converting them in between data-types.
 
-<div style="float:right; width: 40%">
 ### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/)  With JavaScript
 
 ```javascript
 var result = '5' - '2'; 
 //result now is equal to 3
 ```
-</div>
 
-<div style="float:left; width: 40%">
 #### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
@@ -126,7 +126,6 @@ var result = '5' - '2';
 var result = int('5') - int('2'); 
 #result now is equal to 3
 ```
-</div>
 
 <br>
 <br>
@@ -139,27 +138,37 @@ Python has "print" either for writing into a document or into the console. Remem
 <br>
 <br>
 
-#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With  JavaScript
+<div class="grid">
+    <div class="left">
+        #### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With  JavaScript
+        
+        ```javascript{numberLines: true}
+        var simpleValue = ‘hello’;
+        console.log(simpleValue);
+        //This will print the content of the variable  
+        var arrayValue = [‘Hello’,23, 76, ‘World’,43];
+        console.log(arrayValue);
+        //This will print the content of the array and its elements.
+        ```
+    </div>
+    <div class="right">
+        #### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+        
+        ```python{numberLines: true}
+        simpleValue = ‘Hello’;
+        print(simpleValue);  //this will print the content 
+        arrayValue =[‘Hello’,23,76,’World’,43];
+        print(arrayValue); //this will work, printing the content of the array in a format like this: [‘Hello’,23,76,’World’,43]
+        ```
+    </div>
+</div>
 
-```javascript
-var simpleValue = ‘hello’;
-console.log(simpleValue);
-//This will print the content of the variable  
-var arrayValue = [‘Hello’,23, 76, ‘World’,43];
-console.log(arrayValue);
-//This will print the content of the array and its elements.
-```
+
+
 <br>
 <br>
 
-#### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
-```python
-simpleValue = ‘Hello’;
-print(simpleValue);  //this will print the content 
-arrayValue =[‘Hello’,23,76,’World’,43];
-print(arrayValue); //this will work, printing the content of the array in a format like this: [‘Hello’,23,76,’World’,43]
-```
 <br>
 <br>
 

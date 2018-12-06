@@ -1,6 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: 'Breathcode'
+    title: "BreatheCode",
+    titleTemplate: "%s - BreatheCode",
+    description:
+      "Accelerate the you learn and evolve your coding skills.",
+    url: "https://www.breathco.de", // No trailing slash allowed!
+    image: "/images/snape.jpg", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@breatehcode",
   },
   plugins: [
     `gatsby-plugin-sharp`,
@@ -44,7 +50,7 @@ module.exports = {
           },
           {
             resolve:"gatsby-remark-component",
-            options: { components: ["cover", "beforeafter"] }
+            options: { components: ["cover", "beforeafter", "spliter"] }
           },
           {
             resolve: `gatsby-remark-prismjs`,
@@ -63,12 +69,13 @@ module.exports = {
               // stripping.
               // A suggested value for English speakers is the non-ascii
               // character '›'.
-              inlineCodeMarker: null,
+              inlineCodeMarker: '>',
               // This lets you set up language aliases.  For example,
               // setting this to '{ sh: "bash" }' will let you use
               // the language "sh" which will highlight using the
               // bash highlighter.
               aliases: { sh: "bash" },
+              showLineNumbers: true
             },
           },
           {

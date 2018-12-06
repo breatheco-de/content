@@ -45,6 +45,13 @@
         margin: auto;
         display: inherit;
     }
+    h2, h3, h4, h5, h6{
+        position: relative;
+        img{
+            position: absolute;
+            left: -35px;
+        }
+    }
     .custom-block-body p{
         margin: 0;
     }
@@ -72,4 +79,22 @@ td, th{
 
 blockquote{
     padding-left: 10px;
+}
+
+.gatsby-highlight .line-numbers .line-numbers-rows{
+    top: 17px;
+    opacity: 0.2;
+}
+
+.gatsby-highlight pre[class*="language-"].line-numbers{
+    padding-left: 2.2em;
+}
+
+.gatsby-highlight:before{
+    content: attr(data-language);
+    position: absolute;
+    font-size: 10px;
+    top: 10px;
+    right: 10px;
+    color: #BDBDBD;
 }

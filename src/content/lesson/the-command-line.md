@@ -1,7 +1,8 @@
 ---
 title: "The Command Line"
 subtitle: "Developers spend hours every day using the command line (a.k.a: Terminal). Embrace reality and become more powerful than ever before."
-
+cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+textColor: "white"
 date: "2018-01-10"
 tags: ["fale"]
 ---
@@ -198,7 +199,7 @@ When nano opens, it will show a top bar with the current version of the nano app
 
 At the bottom, you will see the most often used commands to use nano, such as: quit, where is, help, etc.
 
-![command2](https://ucarecdn.com/d6d25448-8b13-4897-9c38-304f95388a0f/)
+![command2](https://ucarecdn.com/6128e9f7-b460-4b10-80e4-34057b7d4df9/-/resize/500x/)
 
 [[demo]]
 | :point_up:This website has a ton of great mini-challenges to help you practice the command line: <br>https://cmdchallenge.com/

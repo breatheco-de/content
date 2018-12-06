@@ -1,7 +1,7 @@
 ---
 title: "Working with Arrays"
-
-time: "15 minutes"
+cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+textColor: "white"
 date: "2018-02-11"
 tags: ["fale"]
 ---
@@ -180,7 +180,7 @@ Will update the current array leaving everything but the smaller version that yo
 
 <iframe src="https://repl.it/F9V5/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<p align="right"><small><a href="https://repl.it/@4GeeksAcademy/Slice-vs-Splice">Click to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Slice-vs-Splice">Click to open demo in a new window</a></small></div>
 
 ## **Sorting the Arrays**
 ***
@@ -226,7 +226,7 @@ var cars = [
 
 <iframe src="https://repl.it/F9YZ/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<p align="right"><small><a href="https://repl.it/@4GeeksAcademy/Sorting-Arrays">Click to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Sorting-Arrays">Click to open demo in a new window</a></small></div>
 
 
 
@@ -238,3 +238,7 @@ var cars = [
 
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTY2MjAwMTk3MSwtNDQyNDQ4NTM3LDE2Nj
+IwMDE5NzFdfQ==
+-->

@@ -4,6 +4,8 @@ subtitle: "Building layouts is the most painful process when coding HTML & CSS
 
 Learn the CSS rules: Display, Position, Float and Flex; and place any element anywhere you want."
 
+cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+textColor: "white"
 date: "2018-01-11"
 tags: ["fale"]
 ---
@@ -13,7 +15,7 @@ tags: ["fale"]
 
 Layouts and the positioning of elements are probably one of the hardest concepts in CSS; both were meant for older, less advanced and less rich websites.
 
-![boxmodel](https://ucarecdn.com/b0e9f32d-22ba-4339-bf03-40f5c70521d3/)   
+![boxmodel](https://ucarecdn.com/dccad91a-93b3-49c9-a437-6612087b9ee4/-/resize/600x/)   
 
 #### Layout
 Let’s go back to HTML: How can I create documents with 2 columns?  We know that some scientific documents have several columns, but how can I replicate that in a website?
@@ -39,13 +41,13 @@ All the box containers must have the following attributes:
 |Background color   |In addition to the background image, you can also have a background color behind both the content and the background image.   |
 |Margin   |Optional space that can exist between this particular box and the other elements around.   |
 
-![box-h](https://ucarecdn.com/5f854720-0e34-4c38-9b10-f4e98bca1bb6/) 
+![box-h](https://ucarecdn.com/153d2a7c-b648-4d75-920b-940102f18eaa/-/resize/500x/) 
 
 In the following example, we divided the website content into 2 different areas.  The left side will be a sidebar and the right side will have the main content of the website.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p align="right"><small><a href="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/">Click here to open demo in a new window</a></small></p>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 # **Width and Height**
 ***
@@ -61,7 +63,7 @@ In order for a website to look like today’s websites, we have to redesign the 
 
 <iframe src="https://www.youtube.com/embed/hFvOgu3bcOk" frameborder="0" allowfullscreen ></iframe>
 
-<p align="right"><small><a href="https://www.youtube.com/embed/hFvOgu3bcOk">Click here to open video in a new window</a></small></p>
+<div align="right"><small><a href="https://www.youtube.com/embed/hFvOgu3bcOk">Click here to open video in a new window</a></small></div>
 
 |**Name**   |**Description**   |
 |:----------|:-----------------|
@@ -81,7 +83,7 @@ It is common to find this attribute in menus, social network activity feeds, etc
 
 <iframe src="https://www.youtube.com/embed/pgCLHD4FNjg" frameborder="0" allowfullscreen></iframe>
 
-<p align="right"><small><a href="https://www.youtube.com/embed/pgCLHD4FNjg">Click here to open video in a new window</a></small></p>
+<div align="right"><small><a href="https://www.youtube.com/embed/pgCLHD4FNjg">Click here to open video in a new window</a></small></div>
 
 
 |**Name**   |**Description**   |
@@ -102,7 +104,7 @@ Float is very much used in blogs when you want to add images to your articles.  
 
 <iframe src="https://www.youtube.com/embed/htdLSAZ2ZH8" frameborder="0" allowfullscreen ></iframe>
 
-<p align="right"><small><a href="https://www.youtube.com/embed/htdLSAZ2ZH8">Click here to open video in a new window</a></small></p>
+<div align="right"><small><a href="https://www.youtube.com/embed/htdLSAZ2ZH8">Click here to open video in a new window</a></small></div>
 
 |**Name**   |**Description**   |
 |:----------|:-----------------|
@@ -117,7 +119,7 @@ It’s yoga time, let’s stop the coding and think about mankind for a minute. 
 
 This course is not just about user interface and experience.  Web developers tend to underestimate this matter.  It is important to take enough time to design the website navigation flow, the menu position, UI elements, etc.  Here you have some layout examples:
 
-![uxui](https://ucarecdn.com/5e835afe-83d1-4f6d-9d73-56b0fde9ef23/)
+![uxui](https://ucarecdn.com/ce06fb9d-bc8c-4191-ae12-a2ec4ac6fa1f/-/resize/400x/)
 
 Some websites have great content, but, unfortunately, they also have bad layouts that limit their potential for success.  These are the top criteria to consider when choosing your layout:
 
@@ -138,11 +140,11 @@ Facebook is like this: a centered content website has a max-width for the conten
 
 Here is the exact code needed to have the website content always aligned at the center of the screen:
 
-![content](https://ucarecdn.com/6912f230-17b5-4013-943d-1069d362c2b1/)
+![content](https://ucarecdn.com/ca5d4285-c151-4b30-a4a2-c6b35510188b/-/resize/500x/)
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p align="right"><small><a href="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/">Click her to try out live demo</a></small></p>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/">Click here to open live demo in a new window</a></small></div>
 
 
 
@@ -155,7 +157,7 @@ This pre-work website has a left sidebar and is a great option for us because we
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p align="right"><small><a href="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/">Click here to try out live video</a></small></p>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 ### Top Menu with Left Sidebar
 ***
@@ -164,7 +166,7 @@ This is almost the same, but instead of having the left-sidebar as the primary m
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p align="right"><small><a href="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/">Click her to try out live demo</a></small></p>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/">Click here to open live demo in a new window</a></small></div>
 
 ## Responsive Masonry
 ***
@@ -175,7 +177,7 @@ Another great thing about Masonry is that each box can have its own height.   Th
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p align="right"><small><a href="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/">Click here to open demo in a new window</a></small></p>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 ## Popups / Modal Windows / Alerts
 ***
@@ -191,7 +193,7 @@ To replicate the alert behavior you have to:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/8co2hnj1/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<p align="right"><small><a href="//jsfiddle.net/BreatheCode/8co2hnj1/1/embedded/html,css,result/">Click here to open demo in a new window</a></small></p>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/8co2hnj1/1/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 # **Live Demo: Play with the Box**
 ***
@@ -208,7 +210,7 @@ You will constantly have to be learning "on the go" because there is an infinite
 
 Worry not, my friend.  A major part of Bootstrap is made to make layouts easier.  You will learn that in the next lesson.
 
-![final/image](https://ucarecdn.com/de7b57db-37f6-4c98-a25c-4afcdae07d39/)
+![final/image](https://ucarecdn.com/91aa197c-b2cb-4717-b41f-0f7b579aab25/-/resize/400x/)
 
 
   

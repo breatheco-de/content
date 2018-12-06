@@ -2,6 +2,10 @@
 title: "Internet Arquitecture"
 subtitle: "Everything you see on the internet is a text document. Everything!! As developers, all we do is generate chunks of text based on a set of criteria. If you understand this simple concept, the sky will be the limit."
 
+cover: "https://ucarecdn.com/05a36362-c09f-4961-a7b9-8e3132a902b1/"
+
+textColor: "white"
+
 date: "2017-08-10"
 tags: ["fale"]
 ---
@@ -200,6 +204,8 @@ MIT
 
 
 <iframe src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>
+
+<div align="right"><small><a href="https://www.youtube.com/embed/4n0xNbfJLR8">Click here to open video in a new window</a></small></div>
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbNzAzNjkyMjAzXX0=
 -->

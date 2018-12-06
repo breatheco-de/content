@@ -1,7 +1,8 @@
 ---
 title: "Creating User Stories"
 subtitle: "Before heading towards development, you need to do some strategy. What are we building? Maybe it sounds obvious, but it is actually pretty hard. It is the most undervalued activity in the software development cycle and it accounts for 70% of the reasons that projects are not delivered on time."
-
+cover: "https://ucarecdn.com/980ce2e0-b73e-4019-8e97-3510e3028e10/"
+textColor: "white"
 date: "2018-13-11"
 tags: ["fale"]
 ---
@@ -11,7 +12,7 @@ tags: ["fale"]
 
 <iframe width="1185" height="667" src="https://www.youtube.com/embed/LGeDZmrWwsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<p align="right"><small><a href="https://www.youtube.com/embed/LGeDZmrWwsw">Click here to open video in a new window</a></small></p>
+<div align="right"><small><a href="https://www.youtube.com/embed/LGeDZmrWwsw">Click here to open video in a new window</a></small></div>
 
 The hardest thing to do in software is not coding – it is designing the system! And we are NOT talking about graphic design…we are talking about architecture, data modeling, customer requirements, etc.  Some of those things are harder than others, but doing a list of requirements is probably one of the trickiest arts.
 

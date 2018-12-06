@@ -1,7 +1,8 @@
 ---
 title: "Routing our Views with React Router"
 subtitle: "Create your application structure and connect your Views with React Router"
-
+cover: "https://ucarecdn.com/8c053abc-2f09-47e9-b586-751538d180c4/"
+textColor: "white"
 date: "2018-13-11"
 tags: ["fale"]
 ---
@@ -128,7 +129,7 @@ Here is a live example using everything that we’ve learn during this reading, 
 
 <iframe src="https://codesandbox.io/embed/0okp853rxn?autoresize=1&amp;module=%2Fsrc%2FLayout.jsx&amp;moduleview=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-<p align:"right"><small><a href="https://codesandbox.io/embed/0okp853rxn?autoresize=1&amp;module=%2Fsrc%2FLayout.jsx&amp;moduleview=1">Click here to open demo in a new window</a></small></p>
+<div align="right"><small><a href="https://codesandbox.io/embed/0okp853rxn?autoresize=1&amp;module=%2Fsrc%2FLayout.jsx&amp;moduleview=1">Click here to open demo in a new window</a></small></div>
 
 
 

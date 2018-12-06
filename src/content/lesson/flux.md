@@ -1,7 +1,8 @@
 ---
 title: "Flux"
 subtitle: "Without Flux, React is just a cute front-end library. Flux will make it a framework - giving your application a defined structure - taking care of the data-processing layer, and much more."
-
+cover: "https://ucarecdn.com/b84e07e5-5761-469b-85bb-f7afc87d4dc9/"
+textColor: "white"
 date: "2018-14-11"
 tags: ["fale"]
 ---
@@ -129,7 +130,7 @@ Finally, we have a new functionality implemented into our project.  To keep addi
 
 <iframe src="https://codesandbox.io/embed/j1nvpono23" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-<p align="right"><small><a href="https://codesandbox.io/embed/j1nvpono23">Click here to try out live demo</a></small></p>
+<div align="right"><small><a href="https://codesandbox.io/embed/j1nvpono23">Click here to open demo in a new window</a></small></div>
 
 
 
