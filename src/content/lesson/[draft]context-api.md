@@ -53,7 +53,7 @@ const ThemeProvider = (props) => {
 const App = () => (<ThemeProvider>
     <GlobalContext.Consumer>
 	    {context => <div>
-			      <ul>{context.todos.map((task, i) => <li>{task}</li>)}</ul>
+			<ul>{context.todos.map((task, i) => <li>{task}</li>)}</ul>
 		</div>}
     </GlobalContext.Consumer>
 </ThemeProvider>);
@@ -64,12 +64,16 @@ const App = () => (<ThemeProvider>
 
 Now, let's do a real life example: A Todo List.
 
-Our global context will be a list of todos 
+Our global context will be a list of todo's like the following:
+ ```js
+	//define a context that will be shared within all the app.
+	const GlobalContext = React.createContext({});
+ ```
 
 <iframe src="https://codesandbox.io/embed/w75wq6v01k?hidenavigation=1&view=editor" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjY5MjIxNTUsLTM1MjI5NTcyMCwtMT
-U0OTI3NzcyNiw1NzU1NjIxNzksLTE2NzMwODM4NjZdfQ==
+eyJoaXN0b3J5IjpbMTMzOTQ5MDkyMiwtMzUyMjk1NzIwLC0xNT
+Q5Mjc3NzI2LDU3NTU2MjE3OSwtMTY3MzA4Mzg2Nl19
 -->
