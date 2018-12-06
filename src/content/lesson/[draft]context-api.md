@@ -14,9 +14,8 @@ The Context API is one of the easiest ways the React.js team has proposed to con
 
 ### Life before the Context API was harder
 
-People say that React.js makes the easy stuff hard and the hard stuff easy. I love that saying, it's so true :sweat: 
+People say that React.js makes the easy stuff hard and the hard stuff easy. I love that saying, it's so true :sweat: S
 
-Think about it:
 1. Why is it so hard to share some data between the entire application?
 2. Why is it so hard to pass data between components?
 
@@ -67,6 +66,6 @@ Here is a more complete live example that replicates a todo list:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTQ4NzU4OTgsLTM1MjI5NTcyMCwtMT
+eyJoaXN0b3J5IjpbLTEzOTE5OTE2MTUsLTM1MjI5NTcyMCwtMT
 U0OTI3NzcyNiw1NzU1NjIxNzksLTE2NzMwODM4NjZdfQ==
 -->
