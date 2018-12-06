@@ -65,28 +65,28 @@ const App = () => (<ThemeProvider>
 Now, let's do a real life example: A Todo List.
 
 1) Our global context will be a list of todo's like the following:
- ```js
+
+ ```javascript
 	const GlobalContext = React.createContext({
 		todos: [] //this will be the list of todo's
 	});
  ```
 
 2) Now, let's create the ThemeProvider that will be the parent of all the consumers we will want for the app. The code for this ThemeProvider components is very similar en all applications, you can see it like a boilerplate.
-
-//Create a ThemeProvider that has to be the parent of every consumer.
-const ThemeProvider = (props) => {
+```javascript
+class ThemeProvider = (props) => {
 	const context = { todos: [] };
     return (<GlobalContext.Provider value={context}>
         {props.children}
      </GlobalContext.Provider>)
   }
 }
-
+```
 <iframe src="https://codesandbox.io/embed/w75wq6v01k?hidenavigation=1&view=editor" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDI4OTg4MjMsMTMzOTQ5MDkyMiwtMz
-UyMjk1NzIwLC0xNTQ5Mjc3NzI2LDU3NTU2MjE3OSwtMTY3MzA4
-Mzg2Nl19
+eyJoaXN0b3J5IjpbMzM2NDM2MzgwLDEzMzk0OTA5MjIsLTM1Mj
+I5NTcyMCwtMTU0OTI3NzcyNiw1NzU1NjIxNzksLTE2NzMwODM4
+NjZdfQ==
 -->
