@@ -36,7 +36,7 @@ The concept behind it is very simple: **The is one big producer** and a **bunch 
 
 ### The most simple possible implementation
 
-I tried a couple of hours to make the most simple Context API implementation without using hooks and this is what I got:
+I tried a couple of hours to make the most simple Context API implementation without using hooks and this is what I got in 5 simple steps:
 ```jsx
 // Step 1: define a context that will be shared within all the app.
 const GlobalContext = React.createContext({});
@@ -51,18 +51,19 @@ const ThemeProvider = (props) => {
 }
 
 // Step 4: Start your app with the ThemeProvider component 
-const App = () => (<ThemeProvider>
-    <GlobalContext.Consumer>
-	    {context => <div>
-			<ul>{context.todos.map((task, i) => <li>{task}</li>)}</ul>
-		</div>}
-    </GlobalContext.Consumer>
-</ThemeProvider>);
+const App = () => (<ThemeProvider><SampleComponent /></ThemeProvider>);
 
-// Step 5: Add the consumer tag to any component you will 
-const SampleComponent = () => 
+// Step 5: Add the consumer tag to any component 
+// you want to have access to the global context.
+const SampleComponent = () => <GlobalContext.Consumer>
+   {context => <div>
+		<ul>{context.todos.map((task, i) => <li>{task}</li>)}</ul>
+	</div>}
+</GlobalContext.Consumer>
 ```
 <p align="right"><a target="_blank" href="https://codesandbox.io/s/w75wq6v01k">Test this code live</a></p>
+
+Lets talk a little about 
 
 ## Live Example (Todo-list)
 
@@ -99,7 +100,7 @@ class ThemeProvider extends React.Component{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTIwNTM1MzQsMTMzOTQ5MDkyMiwtMz
-UyMjk1NzIwLC0xNTQ5Mjc3NzI2LDU3NTU2MjE3OSwtMTY3MzA4
-Mzg2Nl19
+eyJoaXN0b3J5IjpbLTYwMzYxODgyLDEzMzk0OTA5MjIsLTM1Mj
+I5NTcyMCwtMTU0OTI3NzcyNiw1NzU1NjIxNzksLTE2NzMwODM4
+NjZdfQ==
 -->
