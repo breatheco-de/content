@@ -1,6 +1,7 @@
 ---
-title: "Creating User Stories"
-subtitle: "Before heading towards development, you need to do some strategy. What are we building? Maybe it sounds obvious, but it is actually pretty hard. It is the most undervalued activity in the software development cycle and it accounts for 70% of the reasons that projects are not delivered on time."
+title: "Creating User Stories: Learn with User stories examples"
+subtitle: "Before heading towards development, We need a strategy (User Stories). Find and learn here with user stories examples.
+It is the most undervalued activity in the software development cycle and it accounts for 70% of the reasons that projects are not delivered on time."
 cover: "https://ucarecdn.com/980ce2e0-b73e-4019-8e97-3510e3028e10/"
 textColor: "white"
 date: "2018-13-11"
@@ -32,7 +33,7 @@ A user story is like having a conversation with your future user.  They must be 
 
 #### Here are some Examples:
 
-![userstorys](https://ucarecdn.com/032a818d-e4d7-4276-8195-ce5d8a3edcf6/-/resize/2000x/)
+![user stories examples](https://ucarecdn.com/032a818d-e4d7-4276-8195-ce5d8a3edcf6/-/resize/2000x/)
 
 ### How should you Write the User Stories?
 ***
@@ -68,19 +69,19 @@ There are millions of tools; we have Googled some: [click here to access. ](http
 
 ### Use Index Cards and a Sharpie
 
-![us1](https://ucarecdn.com/94f4a28c-a93c-4e05-9f86-ce64abc2ff7b/-/resize/400x/)
+![user stories examples](https://ucarecdn.com/94f4a28c-a93c-4e05-9f86-ce64abc2ff7b/-/resize/400x/)
 
 The theory is simple – if you use any larger than a 3" x 5" index card, you will write too much.  Likewise, if you use anything smaller than a marker (such as a ball point pen) – you will write too much.
 
 User stories are suppose to be short and sweet.  They are suppose to aid in further communication and not tell the entire long-winded version of the story.  Sticking to these physical constraints will help.
 
-At the end you will have a huge "to-do list," with the user stories moving from "To-do" to "Doing" and, finally, to "Done."  Each story will be assigned to one developer at the beginning of each planning meeting.
+At the end you will have a huge "to-do list," with the stories moving from "To-do" to "Doing" and, finally, to "Done."  Each story will be assigned to one developer at the beginning of each planning meeting.
 
-![us2](https://ucarecdn.com/faaa70b0-5343-43f0-8565-994c9b40ab8b/-/resize/400x/)
+![user stories examples](https://ucarecdn.com/faaa70b0-5343-43f0-8565-994c9b40ab8b/-/resize/400x/)
 
 ### When is a Story really "Done"?
 
-If user stories are short and sweet – how are we suppose to know all the different acceptance criteria?  On the back of each story we will have to enter some "acceptance criteria" that we can check at the end when the developer thinks the feature is done.
+If stories  are short and sweet – how are we suppose to know all the different acceptance criteria?  On the back of each story we will have to enter some "acceptance criteria" that we can check at the end when the developer thinks the feature is done.
 
 To write great acceptance criteria, we need to think not only about the usual expected behavior in the application, but also about any cases where the app should fail (for example: When you specify a wrong password, when your credit card is rejected, etc.).
 
@@ -98,7 +99,7 @@ To write great acceptance criteria, we need to think not only about the usual ex
 ## Don’t get Obsessed!
 ***
 
-Please, this is a course about full-stack web development.  You don’t have to write the best user stories ever made.  Perfect does not ship!  Take some time to think about your stories, but don’t get stuck during the process.
+Please, this is a course about full-stack web development.  You don’t have to write the best stories ever made.  Perfect does not ship!  Take some time to think about your stories, but don’t get stuck during the process.
 
 You will be using user stories a lot, but, as a developer, it is not your responsibility to write them.  There are people certified for that (Requirement Analysts).  Your job is to read them and follow them.
 

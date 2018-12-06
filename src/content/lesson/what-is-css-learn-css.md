@@ -1,10 +1,12 @@
 ---
-title: "Now it's CSS Time!"
+title: "Now it's Time to Learn CSS and Know What is CSS Meant for!"
 subtitle: "As you may have noticed, HTML allows you to create only basic websites.
 
-Nobody wants to see a white website with some horrible text on it.  
+Nobody wants to see a white website with some horrible text on it.
 
-it's time to make your website beautiful. It's CSS time!."
+So its time to know what is CSS all about!
+
+Learn CSS to make your website beautiful. It's time to shine !."
 
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
@@ -17,7 +19,7 @@ tags: ["fale"]
 We are sure that after diving deep in HTML, everything looks kind of ugly, fixed, and rigid.  We have to remember that HTML was created by CERN scientists, and they’re not – normally – the funniest kind of people (although they were the same exact scientists that 
 [discovered The Higgs Boson](https://www.youtube.com/watch?v=0CugLD9HF94), and we do have to bend to our knees for that).  However, HTML is still ugly, and it’s ugly because it was created for a different purpose than the one HTML meets today.
 
-![professor](https://ucarecdn.com/f2e1862b-a575-4a3c-ac12-b5f910f983b0/)
+![what is css](https://ucarecdn.com/6891485c-2a5a-4722-a7dc-f108993c18ba/-/resize/300x/)
 
 
 
@@ -29,7 +31,7 @@ Ironically, the same scientists at CERN who created HTML had to think about how 
 ## So, What is CSS and why does it matter??
 ***
 
-![css](https://ucarecdn.com/de08efd3-526b-4d89-8586-8b1d172b0c80/)
+![what is css](https://ucarecdn.com/8c9fea86-c56c-486f-8b64-4322338076f7/-/resize/200x/)
 
 The main objective for his creation was to apply styles to HTML documents.  The idea is that you can tell the browser how to display an HTML document: how to render its tags; in what color; margins; typography; icons; borders; etc.  You can even redefine the original behaviors of the existing tags at your will. Eg:
 
@@ -65,7 +67,7 @@ Let’s review those 2 tags in more detail:
 
 The CSS syntax has absolutely nothing to do with HTML syntax, it is its own specific programming language.  CSS does not use tags!  To work with a website you have to shift your mind several times because you will be working with several languages at the same time, and each one has its own syntax.
 
-![selctor](https://ucarecdn.com/2e0843bd-fc46-4efa-a893-1e303b527892/)
+![learn css](https://ucarecdn.com/4a25cfd5-e8ab-4abb-b4f8-148d376b3f3d/)
 
 A CSS style sheet is an infinite list of style definitions for each HTML element.  First you must specify which element – or group of elements – you are going to style; this is called SELECTOR.  Then you have to put a key `{` to indicate that you are going to start defining each attribute and its respective value, and you end that with another key `}`.  You should always finish each attribute definition with a semicolon `;`.
 
@@ -78,7 +80,7 @@ The next example is a style sheet defining 3 different groups of styles (selecto
 
 You need to match HTML elements to groups of styles and you use "selectors" to bind the HTML elements to the CSS groups of rules.
 
-```css
+```css{numberLines: true}
 #selector1 {
    color: red;
    font-size: 12px;
@@ -158,7 +160,7 @@ There are others specifics and advanced selectors.  You are probably going to fa
 
 What happens if an element of the page is selected in two different selectors and has the green letter color assigned to one definition and red in the other?  In other words, if we have told the browser to find two different colors, what color will it end up having?
 
-![css2](https://ucarecdn.com/08e78606-102f-4bc2-a066-7c26ae9400d5/-/resize/500x/)
+![learn css](https://ucarecdn.com/08e78606-102f-4bc2-a066-7c26ae9400d5/-/resize/500x/)
 
 You have to have a very good understanding of the CSS hierarchy in order to understand how the elements **correspond, overwrite and even null styles between them.**
 
@@ -226,7 +228,7 @@ Next chapter will be about the Boxes Model – the most annoying and disgusting 
 
 You’ll learn to diagram a whole web page, similar to those you normally visit on a daily basis, but without so many ornaments.
 
-![jonsnow](https://ucarecdn.com/526ebeef-6f43-435b-9dca-8da1708dbfe1/)
+![what is css](https://ucarecdn.com/cd641736-0942-49bc-b49d-abba1c61ab7c/)
 
 
 

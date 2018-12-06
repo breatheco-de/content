@@ -1,6 +1,6 @@
 ---
-title: "React JS"
-subtitle: "React is a front-end library ideal for creating interfaces (generate HTML+CSS). It's the fastest, most advanced and most wanted library in the market right now."
+title: "Learn React Here : React Js Tutorial"
+subtitle: "React is a front-end library ideal for creating interfaces (generate HTML+CSS). It's the fastest, most advanced and most wanted library in the market right now. Don't stay behind, learn React js here with this React Js turorial"
 
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
@@ -54,7 +54,7 @@ React.js comes with JSX, a special language that will let you build HTML on the 
 
 The first thing you will do when building big React applications is defining a very big component that will contain everything inside.  Then, you need to inject that component into the website DOM like this:
 
-```javascript
+```javascript{numberLines: true}
 import ReactDOM from 'react-dom';
 import React from 'react';
 
@@ -74,9 +74,9 @@ ReactDOM.render(<MyBigComponent />, document.querySelector('#app'));
 
 Remember the Bootstap components?  React takes that concept further by dividing your entire website into smaller components.  Each component has its own `<tag>` just like the HTML tags.  The difference is that now when you create your new components, you get to decide the name of the `<tag>` as well as how it is going to look and behave.  For example, lets looks at the **Bootstrap card:**
 
-![react1](https://ucarecdn.com/73edbb82-467c-4522-af7d-79c33bb270e2/-/resize/300x/)
+![learn react js tutorial](https://ucarecdn.com/73edbb82-467c-4522-af7d-79c33bb270e2/-/resize/300x/)
 
-```jsx
+```jsx{numberLines: true}
 import React from 'react';
 
 //here we created the component Modal as a function 
@@ -105,7 +105,7 @@ The most simple React component is just a function that returns some HTML.  You 
 Here is an example of the same `<MyCard />` component, but now declared as a class:
 
 
-```jsx
+```jsx{numberLines: true}
 import React from 'react';
 
 //here we created the component Modal as a class 
@@ -132,7 +132,7 @@ A "Layout" in React is basically the combination of two or more components into 
 
 **For example:**  Lets say you have a [one page website](https://onepagelove.com/what-is-a-one-page-website) website with three sections: Home, About Us and Contact Us.  The "React" way of doing that will be creating a bigger component (VIEW) that contains each section, like this:
 
-```jsx
+```jsx{numberLines: true}
 import React from 'react';
 
 //create your first component 
@@ -154,7 +154,7 @@ export class EntireWebsiteLayout extends React.Component{
 
 Each component will have render method.  The final resulting HTML document will be comprised with the merge of all the outputs that all the components have on their render methods.  Checkout the following illustration to get an idea.
 
-![react2](https://ucarecdn.com/6c7d3747-482a-480d-b5be-fdbf095292f3/-/resize/1200x/)
+![learn react js tutorial](https://ucarecdn.com/6c7d3747-482a-480d-b5be-fdbf095292f3/-/resize/1200x/)
 
 ## The YouTube.com Example
 ***
@@ -173,7 +173,7 @@ After you finish identifying your components, it is time to start coding.  Creat
 
 Each class needs to have a function called **render.**  This will return the HTML code that the component will output into the website document.
 
-<before-after 
+<before-after width="400px"
     before="https://ucarecdn.com/e590a615-2c9d-4671-8483-99dbdd90cd41/" after="https://ucarecdn.com/78aedd23-b5dd-4d1e-b693-b3268f4734fa/" />
 
 ### The Component State
@@ -189,7 +189,7 @@ Every component comes with a global object (shared within the same Component onl
 
 The state value can only be modified calling the method this.setState() and you will have to pass a new state object that will be merged with the original value. For example:
 
-```javascript
+```javascript{numberLines: true}
 //This can only be done in the constructor, anywhere else will return an error 
 this.state = something
 
@@ -254,7 +254,7 @@ class ClockComponent extends React.Component {
 
 Every component works like a mini-application.  You are able to control and define your component workflow based on a series of available methods that you can declare and code according to your needs.
 
-![react3](https://ucarecdn.com/541b1d85-c630-4b1f-9af6-08d2d2044089/-/resize/1200x/)
+![learn react js tutorial](https://ucarecdn.com/541b1d85-c630-4b1f-9af6-08d2d2044089/-/resize/1200x/)
 
 [[info]]
 |:link:[Here you will find](https://reactjs.org/docs/react-component.html#the-component-lifecycle) a more detailed explanation of each available life-cycle method.

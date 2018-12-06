@@ -1,6 +1,6 @@
 ---
-title: "Flux"
-subtitle: "Without Flux, React is just a cute front-end library. Flux will make it a framework - giving your application a defined structure - taking care of the data-processing layer, and much more."
+title: "Learn About What is Flux"
+subtitle: "Without Flux, React is just a cute front-end library. Flux will make it a framework - giving your application a defined structure - taking care of the data-processing layer, and much more about what is flux."
 cover: "https://ucarecdn.com/b84e07e5-5761-469b-85bb-f7afc87d4dc9/"
 textColor: "white"
 date: "2018-14-11"
@@ -24,7 +24,7 @@ Here is a list of all the advantages of using it:
 + It **controls the way your application data will flow:** it does not matter if the data was inputted by the user or coming from a DB; everything will be available in a clear and accessible way.
 + It differentiates your components in **Views vs Re-usable components:** your components will remain being abstracted from your application logic – making them 100% reusable for future applications.
 
-![flux1](https://ucarecdn.com/aa1a5994-8de9-4d24-99ce-3a0d686c30bd/-/resize/700x/)
+![what is flux](https://ucarecdn.com/aa1a5994-8de9-4d24-99ce-3a0d686c30bd/-/resize/700x/)
 
 ### Flux Divides the Application in 3 Layers:
 
@@ -48,7 +48,7 @@ To code the delete functionality, we have to update 4 mains files: (1) The Compo
 > *In the end, working with Flux has to become something as automatic as riding a bike.*
 
 
-![flux2](https://ucarecdn.com/77c93bfa-92cb-44e3-a7c5-c959e27c5ccc/-/resize/1100x/)
+![what is flux](https://ucarecdn.com/77c93bfa-92cb-44e3-a7c5-c959e27c5ccc/-/resize/1100x/)
 
 ## Lets Implement the Delete Task Functionality
 ***
@@ -68,7 +68,7 @@ To code the delete functionality, we have to update 4 mains files: (1) The Compo
 
 #### 2) Then we need to code our action inside the MyActions.js file like this:
 
-```javascript
+```javascript{numberLines: true}
 MyActions.js
 
 // In this case, we decided that this function (a.k.a action) will receive the ID of the task to be deleted. 
@@ -87,7 +87,7 @@ class MyActions extends Flux.Actions{
 
 #### 3) Update the store to handle that new dispatched action
 
-```javascript
+```javascript{numberLines: true}
 // Inside the todoStore we have a HandleActions method that contains the logic to handle each dispatched action. 
 // We have to add a new case to the switch with the name 'DELETE_TODO'  
 // it has to mach the name of the action that was dispatched. 
@@ -105,7 +105,7 @@ handleActions(action) {
 
 #### 4) Inside the To-Do Store, implement the actual logic for deleting the task and emitting the changes
 
-```javascript
+```javascript{numberLines: true}
 // Anywhere on your TodoStore class, add a new method that finally deletes the task from the todo list. 
 // in this case we are using the filter function because it returns the same array but only with 
 // the elements that match the logical question inside the filter (task.id != id) 

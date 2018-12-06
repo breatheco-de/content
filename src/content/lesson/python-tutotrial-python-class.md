@@ -1,6 +1,6 @@
 ---
-title: "From Javascript to Python"
-subtitle: "Unleash your power by learning and using one of the Kings of Back-End Development. Now you will be capable of bringing AI, Big Data, Machine Learning, APIs and integrate third party applications into your own."
+title: "Python Tutorial: From JS to PY"
+subtitle: "Unleash your power by learning with this Python tutorial, using one of the Kings of Back-End Development. Now you will be capable of bringing AI, Big Data, Machine Learning, APIs and integrate third party applications into your own.Enjoy this Pyhton class"
 
 cover: "http://breatheco.de/wp-content/uploads/2018/01/python-background.jpg"
 
@@ -57,10 +57,10 @@ There are only a few differences; here is the explanation:
 
 |**In Javascript**      |**In Python**       |
 |:----------------------|:-------------------|
-|Number                 |Python has the same "Number" data-type but it can accept more options than JS, like fractions (2/3) or complex numbers.<br> `python>myNumber = 23.23;  //float`<br>` myNumber = 54;  //integer` <br>`myNumber = 12.00;  //float (even with 00 as decimals). `    |
-|Undefined/Null is now: ***None***    |The ***undefined*** data-type is not available in Python.  Here "undefined" and "null" are the same data-type: ***None.***<br> `myNumber;  //is None because it was not defined`       |
-|Array     |In Python, the Arrays are called "List" and they are similar to JS Arrays but way more flexible and easier to work with.<br>`myArray = ['Juan','John','Steven']; //array of numeric indexes`       |
-|Object       |In Javascript, objects and dictionaries are almost the same.  You can do whatever you want to an object because you don’t have to declare its Class first and stick to its definition.<br> `var myCar = {}`<br> `myCar.color = 'blue';` <br><br>Python, on the other hand, separates the Dictionary data-type form the Object data-type. Objects cannot be informally declared.  You must first define their class before being able to instantiate them.<br><br>`class Car(object):`<br>`def __init__(self, color):`<br>`self.color = i` <br>`myCar = Car('blue')`       |
+|Number                 |Python has the same "Number" data-type but it can accept more options than JS, like fractions (2/3) or complex numbers.<br> `python>myNumber = 23.23;  //float`<br>`python> myNumber = 54;  //integer` <br>`python>myNumber = 12.00;  //float (even with 00 as decimals). `    |
+|Undefined/Null is now: ***None***    |The ***undefined*** data-type is not available in Python.  Here "undefined" and "null" are the same data-type: ***None.***<br> `python>myNumber;  //is None because it was not defined`       |
+|Array     |In Python, the Arrays are called "List" and they are similar to JS Arrays but way more flexible and easier to work with.<br>`python>myArray = ['Juan','John','Steven']; //array of numeric indexes`       |
+|Object       |In Javascript, objects and dictionaries are almost the same.  You can do whatever you want to an object because you don’t have to declare its Class first and stick to its definition.<br> `python>var myCar = {}`<br> `python>myCar.color = 'blue';` <br><br>Python, on the other hand, separates the Dictionary data-type form the Object data-type. Objects cannot be informally declared.  You must first define their class before being able to instantiate them.<br><br>`python>class Car(object):`<br>`python>def __init__(self, color):`<br>`python>self.color = i` <br>`python>myCar = Car('blue')`       |
 |Sets and Tuples      |Javascript has nothing similar, they can be very useful: Tuples are ordered; unmutable sequences of values are unordered bags of values.      |
 |String       |Is the same in Python.     |
 
@@ -78,7 +78,7 @@ In Python, you can make any folder a package by creating a *\__init\__.py* file 
 <br>
 <br>
 
-#### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 from . import
@@ -94,7 +94,7 @@ What NPM is for Javascript, PIP is for Python.  Both beasts are amazing but very
 <br>
 <br>
 
-#### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 # In python subtracting strings will throw an error, instead you should do: 
@@ -108,17 +108,18 @@ var result = int('5') - int('2');
 
 
 ### **Casting (parsing) Data-Types**
+***
 
 Javascript is so flexible that you don’t have to pay much attention to data types.   Python does not like that… in Python, you will get used to casting variables and converting them in between data-types.
 
-### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/)  With JavaScript
+### ![python tutorial python class](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/)  With JavaScript
 
 ```javascript
 var result = '5' - '2'; 
 //result now is equal to 3
 ```
 
-#### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 # In python subtracting strings will throw an error, instead you should do: 
@@ -132,36 +133,36 @@ var result = int('5') - int('2');
 
 
 ### **Printing Values**
+***
 
 Python has "print" either for writing into a document or into the console. Remember that, since Python – like any other back-end language – runs before the preload event, it does not have access to the Javascript console.
 
 <br>
 <br>
 
-<div class="grid">
-    <div class="left">
-        #### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With  JavaScript
-        
-        ```javascript{numberLines: true}
-        var simpleValue = ‘hello’;
-        console.log(simpleValue);
-        //This will print the content of the variable  
-        var arrayValue = [‘Hello’,23, 76, ‘World’,43];
-        console.log(arrayValue);
-        //This will print the content of the array and its elements.
-        ```
-    </div>
-    <div class="right">
-        #### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
-        
-        ```python{numberLines: true}
-        simpleValue = ‘Hello’;
-        print(simpleValue);  //this will print the content 
-        arrayValue =[‘Hello’,23,76,’World’,43];
-        print(arrayValue); //this will work, printing the content of the array in a format like this: [‘Hello’,23,76,’World’,43]
-        ```
-    </div>
-</div>
+
+#### ![python tutorial python class](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With  JavaScript
+
+```javascript
+var simpleValue = ‘hello’;
+console.log(simpleValue);
+//This will print the content of the variable  
+var arrayValue = [‘Hello’,23, 76, ‘World’,43];
+console.log(arrayValue);
+//This will print the content of the array and its elements.
+```
+
+
+#### ![python tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+
+```python
+simpleValue = ‘Hello’;
+print(simpleValue);  //this will print the content 
+arrayValue =[‘Hello’,23,76,’World’,43];
+print(arrayValue); //this will work, printing the content of the array in a format like this: [‘Hello’,23,76,’World’,43]
+```
+  
+
 
 
 
@@ -173,13 +174,14 @@ Python has "print" either for writing into a document or into the console. Remem
 <br>
 
 ### The Lambda Function vs Arrow Function
+***
 
 Finally, in ES2015, Javascript included the "arrow functions."  That is a very easy and light way to declare and use functions.  Python, on the other hand, has something similar called lambda functions that basically let you use little inline anonymous functions as shortcuts.
 
 <br>
 <br>
 
-#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/)  With JavaScript
+#### ![python tutorial python class](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/)  With JavaScript
 
 ```javascript
 //doing a foreach loop in js 
@@ -196,7 +198,7 @@ for(var i = 0; i < myArray.length; i++){
 <br>
 <br>
 
-#### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 # Using lambda to map a list 
@@ -216,8 +218,9 @@ print(namesArray)
 <br>
 
 ### **Looping list (similar to arrays)**
+***
 
-#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With  JavaScript
+#### ![python tutorial python class](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With  JavaScript
 
 ```javascript
 //doing a foreach loop in js 
@@ -234,7 +237,7 @@ for(var i = 0; i < myArray.length; i++){
 <br>
 <br>
 
-#### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 colors = ["red", "green", "blue", "purple"]
@@ -246,20 +249,21 @@ for color in colors:
 <br>
 
 ### **Adding and Removing Items**
+***
 
 <br>
 <br>
 
-#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/)    With JavaScript
+#### ![python tutorial python class](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/)    With JavaScript
 
-``` With JavaScript
-ar myArray = [‘Academy’, ‘Coding’];
+```javascript
+var myArray = [‘Academy’, ‘Coding’];
 myArray.push(‘4Geeks’);  //Adding an item  
 //to remove the item in the INDEX position  
 myArray.splice(index, 1);
 ```
 
-#### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 myList = ['The', 'earth', 'revolves', 'around', 'sun']
@@ -273,8 +277,9 @@ print(myList)
 ```
 
 ### **Sorting Functions for Lists**
+***
 
-#### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 # Ascending Sort 
@@ -303,9 +308,9 @@ Python brings a new kind of data-type called a "Tuple."  Think about it like a s
 
 ### **Objects**
 
-#### ![javascript](https://ucarecdn.com/e6026acf-e908-49cd-b418-0ec18480c42f/-/resize/50x/) With JavaScript
+#### ![python tutorial python class](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
 
-```javascript
+```javascript{numberLines: true}
 //There are two ways of declaring an object 
 
 //Like an object literal 
@@ -324,9 +329,9 @@ obj.name = "Mario";
 obj.lastname = "Perez";
 ```
 
-#### ![python](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
-```python
+```python{numberLines: true}
 # In Python we have Classes and Dictionaries 
 
 # Here is how you declare and use a dictionary 

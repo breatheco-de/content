@@ -1,6 +1,6 @@
 ---
-title: "Events"
-subtitle: "All the front-end applications have a map of events: website load, user click, window resize, etc. As a developer, you have to make sure that your applications have a flow. That flow is determined by all the possible events that can occur as the user interacts with your app."
+title: "Event Driven Programming"
+subtitle: "Event Driven Programming: website load, user click, window resize, etc. As a developer, you have to make sure that your applications have a flow. That flow is determined by all the possible events that can occur as the user interacts with your app."
 cover: "https://ucarecdn.com/d2ca9eb7-a3f9-432d-b791-8b1266f8923a/"
 textColor: "white"
 
@@ -8,7 +8,7 @@ date: "2018-05-11"
 tags: ["fale"]
 ---
 
-## Event Oriented Programming
+## Event Driven Programming
 ***
 
 Working with events is a totally new way of **controlling the flow of an application.**  It is the first time that your code will not be executed in a linear flow.  Instead, it will be executed asynchronously.  Who knows what comes first???
@@ -19,7 +19,7 @@ An event is something that happens!  Like **clicking** on a button, **pressing**
 
 Your job as a developer is to prepare for those events and **define the functions** that are going to be handling those events.
 
-![events1](https://ucarecdn.com/1c00bd95-1359-4fd5-8399-b1b80a769009/-/resize/500x/)
+![event driven programming](https://ucarecdn.com/1c00bd95-1359-4fd5-8399-b1b80a769009/-/resize/500x/)
 
 ### But who Triggers these Events?
 
@@ -111,7 +111,7 @@ Now that you know what events are out there, you can start listening them whenev
 
 Let’s repeat: To **react** you need to **listen…** And to listen you need to specify a **handler** function.
 
-![events2](https://ucarecdn.com/9fa13314-24cc-4a4b-9676-e60616f73602/)
+![events driven programming](https://ucarecdn.com/9fa13314-24cc-4a4b-9676-e60616f73602/)
 
 You can add an event listener in 2 different ways:
 

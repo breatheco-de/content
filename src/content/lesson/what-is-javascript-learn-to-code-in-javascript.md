@@ -1,6 +1,6 @@
 ---
-title: "Learn to Code in JavaScript"
-subtitle: "Everybody is talking about it and by now you probably know that learning to code will change your life."
+title: "What is JavaScript? Learn to Code in JavaScript here"
+subtitle: "Get to know what is JavaScript, Everybody is talking about it and by now you probably know its time to learn to code in JavaScript in order to get things to the next level."
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 
@@ -34,7 +34,7 @@ A variable is a container in which you can store any data.  For example, you can
 var age = 24;
 ```
 
-![js1](https://ucarecdn.com/8824cc30-8d88-4551-87eb-0899c26eb493/)
+![what is javascript](https://ucarecdn.com/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce/)
 
 With virtually any programming language you can create as many variables as you want or need.  To start you have to **declare that variable’s name** using the term: *var* followed by a _unique_ name (relative to the document/project).
 
@@ -135,7 +135,7 @@ Then, you will open a curly bracket and write the code that your function must a
 
 **Note:**  To return something you use the `return` word at any time within the content of your function (between the curly brackets).
 
-![js2](https://ucarecdn.com/7c4e9a5e-1799-4b56-a1b9-621242511821/)
+![learn to code in javascript](https://ucarecdn.com/0c4fa020-02f6-4ec0-bfeb-a6292145a153/)
 
 ```javascript
 function multiply (param1, param2)

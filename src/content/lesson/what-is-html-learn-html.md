@@ -1,8 +1,8 @@
 ---
-title: "The Best Way to Learn Html and its Structure"
-subtitle: "HTML is to websites what columns are for buildings. 
+title: "What is HTML ? It's time to learn HTML and it Structure"
+subtitle: "But really what is HTML ? HTML is to websites what columns are for buildings. 
 
-Here you will Learn HTML basics - the foundations of the web."
+Here you will learn HTML basics - the foundations of the web."
 
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
@@ -23,12 +23,12 @@ HTML makes you divide the website information into parts – similar to the basi
 
 Originally browsers only knew how to interpret HTML.  Websites were simple and neither CSS or JavaScript was used.  A website was a simple plain text document with the typical elements any Word Document has: Headings, Bullet lists, Paragraphs, etc.
 
-![learn html](https://ucarecdn.com/b7b8d79f-537b-4c9b-b4c3-e055556c2676/)
+![what is html](https://ucarecdn.com/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc/-/resize/600x/)
 
 
-# **HTML Syntax: It’s All <Tags>.**
+# **HTML Syntax: It’s All `<Tags>`.**
 ***
-![learn html](https://ucarecdn.com/89b3199e-c064-4e23-82d7-74755f709af5/)
+![what is html](https://ucarecdn.com/78296f64-547f-4928-a8da-14cb24e836b9/)
 
 Remember how we said that the Internet is all text?
 
@@ -107,7 +107,7 @@ Lets simulate how a browser thinks: Imagine a user on his browser (client side) 
   
   As you can see, the page in question will include AT LEAST the following tags:
 
-  ![learn html](https://ucarecdn.com/8729c2f0-e4a6-4721-9ee9-3f29e6e852b5/)
+  ![learn html](https://ucarecdn.com/e8d3d49d-8c7e-4bc2-88e0-15b95a8ccc54/-/resize/400x/)
 
 |**Name**   |**Tags**   |**Description**   |
 |:----------|:----------|:-----------------|
@@ -129,7 +129,7 @@ In the case of HTML, the `<head>` can contain the following tags (among less imp
 |Style   |`<style>`   |If we can’t or don’t want to import a CSS style sheet, we may also define styles directly on the HTML document inside this tag.  This is a practice that we rarely recommend and should only be used when you don’t have any other choice.   |
 |Script   |`<script>`   |Used to add JavaScript code to the page.  All of the JavaScript code must be contained in these tags that can be used also in the BODY, if desired.  The difference is that any JavaScript code that we place in a style tag in the BODY won’t be available when the page begins to run (that’s exactly why the is HEAD is so useful).   |
 
-# **Learn HTML \<body\>, it is Similar to any MS Word Document**
+# **The <body> is Similar to any MS Word Document**
 
 Ok, now that we are familiar with the general and necessary structure of the page, lets review the tags we can and must use to define the content of the page.
 
@@ -137,7 +137,7 @@ Remember – for the fifteenth time – that a web page is…a text document!  T
 
 Lets see how a website compares to a Word document:
 
-<before-after height="400px" before="https://ucarecdn.com/f2021d8d-193d-4482-b189-ae0005b1bd88/" after="https://ucarecdn.com/8e339149-97ae-4b15-ba59-a3ddf3777525/" /></before-after>
+<before-after width="500px" before="https://ucarecdn.com/f2021d8d-193d-4482-b189-ae0005b1bd88/" after="https://ucarecdn.com/8e339149-97ae-4b15-ba59-a3ddf3777525/" /></before-after>
 
 The most frequent tags used inside the `<body>` of an HTML document are:
 
@@ -152,6 +152,9 @@ The most frequent tags used inside the `<body>` of an HTML document are:
 |Italics   |i   |To have the text in italics.<br>`<i>this is a heading</i>`   |
 |Line jump   |br   |To jump or skip the text to the line (similar to a `shift+enter` in MS Word.)<br>`<br></br>`   |
 |Tables   |table   |Tables were designed to present data in a more read-friendly and coherent way.  It has a header (th), row (tr) and columns (td).<br><br>`<table>`<br>`<tr><th>Column 1</th><th>Column 2</th></tr>`<br>`<tr><td>Data 1</td><td>Data A</td></tr>`<br>`<tr><td>Data 2</td><td>Data B</td></tr><br>`<br>`<tr><td>Data 3</td><td>Data C</td></tr>`<br>`</table>`   |
+
+[[info]]
+|:link: [Click here](https://www.w3schools.com/tags/ref_byfunc.asp), for more HTML tags
 
 # **The Attributes (Properties)**
 ***
@@ -176,5 +179,5 @@ You just learned how a website was built in 1999.  Now we only have a few more w
 
 HTML has a lot more tags.  It also has a new version called HTML5.  Again, don’t worry, you’ll **learn HTML** and how to build beautiful (thanks to CSS) and interacting (thanks to formularies and JavaScript) websites in the next few lessons.  That’s why we are here!!
 
-![learn html](https://ucarecdn.com/3f2a9ca7-fbb7-4cb6-97ac-d5a3e67dac19/)
+![learn html](https://ucarecdn.com/ed1c57e1-5c67-4bf1-96ed-1fb2353fb2ca/-/resize/200x/)
 
