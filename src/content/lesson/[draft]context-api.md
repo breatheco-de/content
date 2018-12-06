@@ -10,7 +10,7 @@ tags: ["reactjs"]
 
 ## Don't be scared about "The Context API"
 
-The Context API is one of the easiest ways the React.js team has proposed to control your data in small to mid-sized apps. Before Context, our best hope was using Flux or Redux for managing our application data
+The Context API is one of the easiest ways the React.js team has proposed to control your data in small to mid-sized apps. Before Context, our best hope was using more complicated approaches like Flux or Redux that really seemed like an overkill in most of the times.
 
 ### Life before the Context API was harder
 
@@ -95,7 +95,7 @@ class ThemeProvider extends React.Component{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NjU4Njc5MiwxMzM5NDkwOTIyLC0zNT
+eyJoaXN0b3J5IjpbMTE5MzExNzk2MywxMzM5NDkwOTIyLC0zNT
 IyOTU3MjAsLTE1NDkyNzc3MjYsNTc1NTYyMTc5LC0xNjczMDgz
 ODY2XX0=
 -->
