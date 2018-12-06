@@ -74,7 +74,7 @@ Now, let's do a real life example: A Todo List.
 
 1) Our global context will be a list of todo's like the following:
 
- ```javascript
+ ```js
 	const GlobalContext = React.createContext({
 		todos: [] //this will be the list of todo's
 	});
@@ -103,7 +103,7 @@ class ThemeProvider extends React.Component{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTc4NTkyMiwyODA4ODQ3OCwxMzM5ND
-kwOTIyLC0zNTIyOTU3MjAsLTE1NDkyNzc3MjYsNTc1NTYyMTc5
-LC0xNjczMDgzODY2XX0=
+eyJoaXN0b3J5IjpbODk1OTU4Njg2LDI4MDg4NDc4LDEzMzk0OT
+A5MjIsLTM1MjI5NTcyMCwtMTU0OTI3NzcyNiw1NzU1NjIxNzks
+LTE2NzMwODM4NjZdfQ==
 -->
