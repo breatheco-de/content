@@ -65,7 +65,7 @@ class ThemeProvider extends React.Component {
   }
 }
 ```
-- **Step 3 (Views)**:  No it's time to create the application view, we will use the `ThemeProvider` inside the render method of the application and then we can add as many components as we like, and those components will have access to the GlobalContext if that is what we want, we will be adding the `<TodoList />` component that will be creating the 
+- **Step 3 (Views)**:  No it's time to create the application view, we will use the `ThemeProvider` inside the render method of the application and then we can add as many components as we like, and those components will have access to the GlobalContext if that is what we want, we will be adding the `<TodoList />` component in advanced (the one we create on the last step).
 ```js
 // Step 4: Create your your first app view with the ThemeProvider component, 
 // this View will be added into the document using the ReactDOM.render() function
@@ -90,43 +90,15 @@ const TodoList = () => (
   </MyContext.Consumer>
 );
 ```
+## Test the code live
 
-## Live Example (Todo-list)
+Here is the code in 
 
-Now, let's do a real life example: A Todo List.
-
-1) Our global context will be a list of todo's like the following:
-
- ```js
-	const GlobalContext = React.createContext({
-		todos: [] //this will be the list of todo's
-	});
- ```
-
-2) Now, let's create the ThemeProvider that will be the parent of all the consumers we will want for the app. 
-
-The code for this ThemeProvider components is very similar in all applications, all that will change is 
-
-```js
-class ThemeProvider extends React.Component{
-	constructor(){
-		super();
-		this.state = { 
-			todos: [],
-			addTask: title => this.setState({ todos: this.state.todos.concat(title) })
-		};
-	}
-    return (<GlobalContext.Provider value={this.state}>
-        {this.props.children}
-     </GlobalContext.Provider>)
-  }
-}
-```
 <iframe src="https://codesandbox.io/embed/w75wq6v01k?hidenavigation=1&view=editor" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NjgzODQyNSwxMTY0OTU3MTM5LDI4MD
+eyJoaXN0b3J5IjpbMTAxNDI2MjI5MCwxMTY0OTU3MTM5LDI4MD
 g4NDc4LDEzMzk0OTA5MjIsLTM1MjI5NTcyMCwtMTU0OTI3Nzcy
 Niw1NzU1NjIxNzksLTE2NzMwODM4NjZdfQ==
 -->
