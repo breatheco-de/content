@@ -87,13 +87,7 @@ const TodoList = () => (
         {context.todos.map((task, i) => (
           <li>{task}</li>
         ))}
-        <button
-          onClick={() =>
-            context.addTask("I am the task " + context.todos.length)
-          }
-        >
-          + add
-        </button>
+        <button onClick={() => context.addTask("I am the task " + context.todos.length)}> + add </button>
       </div>
     )}
   </MyContext.Consumer>
@@ -135,7 +129,7 @@ class ThemeProvider extends React.Component{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM0NzY3NTEzLDI4MDg4NDc4LDEzMzk0OT
-A5MjIsLTM1MjI5NTcyMCwtMTU0OTI3NzcyNiw1NzU1NjIxNzks
-LTE2NzMwODM4NjZdfQ==
+eyJoaXN0b3J5IjpbMTUzODgxODYxOSwyODA4ODQ3OCwxMzM5ND
+kwOTIyLC0zNTIyOTU3MjAsLTE1NDkyNzc3MjYsNTc1NTYyMTc5
+LC0xNjczMDgzODY2XX0=
 -->
