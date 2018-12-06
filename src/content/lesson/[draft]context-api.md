@@ -18,6 +18,7 @@ People say that React.js makes the easy stuff hard and the hard stuff easy. I lo
 
 1. Why is it so hard to share some data between the entire application?
 2. Why is it so hard to pass data between components?
+3. Have you tried using Redux? 
 
 The Context API is here to solve some of those conundrums:
 
@@ -27,7 +28,7 @@ The Context API is here to solve some of those conundrums:
 
 ## How does the Context API work?
 
-The concept behind it is very simple: The is one big producer and a bunch of consumers. Every time the producer data changes, all the consumers get notified. You can think about it very similar to how TV Networks work. One TV channel emits a data signal and all TV antennas get notified, receive the new content and render the image on the televisions. 
+The concept behind it is very simple: **The is one big producer** and a **bunch of consumers**. Every time the producer data changes, all the consumers get notified. You can think about it very similar to how TV Networks work. One TV channel emits a data signal and all TV antennas get notified, receive the new content and render the image on the televisions. 
 
 > Everyone has access to the global context now.
 
@@ -95,7 +96,7 @@ class ThemeProvider extends React.Component{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzExNzk2MywxMzM5NDkwOTIyLC0zNT
+eyJoaXN0b3J5IjpbLTU4NzUyMTQ0OCwxMzM5NDkwOTIyLC0zNT
 IyOTU3MjAsLTE1NDkyNzc3MjYsNTc1NTYyMTc5LC0xNjczMDgz
 ODY2XX0=
 -->
