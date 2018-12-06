@@ -35,7 +35,9 @@ The concept behind it is very simple: The is one big producer and a bunch of con
 ### Coding Example
 
 ```jsx
-const ThemeContext = React.createContext('light')
+const ThemeContext = React.createContext({
+	
+})
 class ThemeProvider extends React.Component {
   state = {theme: 'light'}
   render() {
@@ -61,6 +63,6 @@ class App extends React.Component {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjg5MDcxOSwtMTU0OTI3NzcyNiw1Nz
-U1NjIxNzksLTE2NzMwODM4NjZdfQ==
+eyJoaXN0b3J5IjpbLTg2MTMzMjkxLC0xNTQ5Mjc3NzI2LDU3NT
+U2MjE3OSwtMTY3MzA4Mzg2Nl19
 -->
