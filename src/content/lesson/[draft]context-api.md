@@ -36,11 +36,10 @@ The concept behind it is very simple: The is one big producer and a bunch of con
 
 ```jsx
 const ThemeContext = React.createContext({
-	
+	todos: []
 })
-class ThemeProvider extends React.Component {
-  state = {theme: 'light'}
-  render() {
+const ThemeProvider = () => {
+	
     return (
       <ThemeContext.Provider value={this.state.theme}>
         {this.props.children}
@@ -63,6 +62,6 @@ class App extends React.Component {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTMzMjkxLC0xNTQ5Mjc3NzI2LDU3NT
-U2MjE3OSwtMTY3MzA4Mzg2Nl19
+eyJoaXN0b3J5IjpbMTc0MDQ0MTU1NCwtMTU0OTI3NzcyNiw1Nz
+U1NjIxNzksLTE2NzMwODM4NjZdfQ==
 -->
