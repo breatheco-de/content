@@ -35,31 +35,30 @@ The concept behind it is very simple: The is one big producer and a bunch of con
 ### Coding Example
 
 ```jsx
-const ThemeContext = React.createContext({});
+const GlobalContext = React.createContext({});
 const ThemeProvider = () => {
 	const context = { todos: [] };
     return (
-      <ThemeContext.Provider value={context}>
+      <GlobalContext.Provider value={context}>
         {this.props.children}
-      </ThemeContext.Provider>
+      </GlobalContext.Provider>
     )
   }
 }
 const App = () => (
 	<ThemeProvider>
-	    <ThemeContext.Consumer>
+	    <GlobalContext.Consumer>
 		      {context => <div>
 				      <ul>{context.todos.map((task, i) => <li>{task}</li>)}</ul>
-				      <a
-			      </div>
+				   </div>
 			  }
-	    </ThemeContext.Consumer>
+	    </GlobalContext.Consumer>
 	</ThemeProvider>
 );
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1NzMwMTU5LC0xNTQ5Mjc3NzI2LDU3NT
-U2MjE3OSwtMTY3MzA4Mzg2Nl19
+eyJoaXN0b3J5IjpbLTM1MjI5NTcyMCwtMTU0OTI3NzcyNiw1Nz
+U1NjIxNzksLTE2NzMwODM4NjZdfQ==
 -->
