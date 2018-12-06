@@ -1,5 +1,6 @@
 ---
-title: "Undersanding Server Sessions"
+title: "Undersanding PHP Sessions"
+subtitle: "Are you confortable with server sessions ? Don't worry, after reading this lesson you will be a master in PHP sessions"
 cover: "https://ucarecdn.com/980ce2e0-b73e-4019-8e97-3510e3028e10/"
 textColor: "white"
 date: "2018-14-11"
@@ -22,7 +23,7 @@ The cool thing about sessions in PHP is that they allow you to save information 
 
 When you want to start either a new or a previously created session, you have to type session_start(); in your PHP file.  This causes PHP to read the user’s session id and load the data into the RAM memory.  Once loaded, it is accessible via the $_SESSION super global array.  From there, you can modify the contents of $_SESSION.
 
-```php
+```php{numberLines: true}
 //start the session 
 session_start();
 
@@ -45,7 +46,7 @@ Now that the session is available, we can assume that the session variables are 
 
 **For Example:**  If we are implementing a Shopping Cart, we can store the list of products on a$_SESSION[‘products’] array.  If the user adds a new product, we just add it to the array.  We can print the list anytime.
 
-```php
+```php{numberLines: true}
 //start the session always before using any $_SESSION variable 
 session_start();
 if(!isset($_SESSION['products'])) $_SESSION['products'] = array();
@@ -111,7 +112,7 @@ Sessions seem like a pretty simple concept, and they are.  But, you have to take
 
 Timing-out sessions is a very important action if you are dealing with users logged into your website or application.  If a user logs into your site in an Internet café and then leaves the café without logging out, how do you stop the next user on that computer from still having access to the previous user’s session?  Well, for that, you can use the following code:
 
-```php
+```php{numberLines: true}
 session_start();
 // set time-out period (in seconds) 
 $inactive = 600;
