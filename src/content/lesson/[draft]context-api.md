@@ -66,7 +66,7 @@ const SampleComponent = () => <GlobalContext.Consumer>
 Lets talk a little about what just happened on each step:
 - **Step 1 (Create the context)**: This step has almost no logic, just call the `createContext` function passing an empty object to it. That object will be shared within all the consumers during the application lifetime, it will contain the application **model** and **actions**.
 - **Step 2 (Model and Actions)**: Create a `ThemeProvider` that will have to be included at the beginning of your app, it has to be. Because it will be responsible to provide the Consumers with the context you just created in the previous step. The `ThemeProvider` state is where we will declare our initial data (**model**) and the functions (**actions**) that manipulate that data throughout the life of the application.
-- **Step 3 ()**:  
+- **Step 3 (Views)**:  No its time to create your application
 
 ## Live Example (Todo-list)
 
@@ -103,7 +103,7 @@ class ThemeProvider extends React.Component{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODM4MjE5MiwyODA4ODQ3OCwxMzM5ND
+eyJoaXN0b3J5IjpbMTMwMjQzMTc0MCwyODA4ODQ3OCwxMzM5ND
 kwOTIyLC0zNTIyOTU3MjAsLTE1NDkyNzc3MjYsNTc1NTYyMTc5
 LC0xNjczMDgzODY2XX0=
 -->
