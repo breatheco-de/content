@@ -45,21 +45,21 @@ const ThemeProvider = () => {
     )
   }
 }
-class App extends React.Component {
-  render() {
-    return (
-      <ThemeProvider>
-        <ThemeContext.Consumer>
-          {context => <ul>{context.todos.map((task, i) => <li>{task}</li>)}</ul>}
-        </ThemeContext.Consumer>
-      </ThemeProvider>
-    )
-  }
-}
+const App = () => (
+	<ThemeProvider>
+	    <ThemeContext.Consumer>
+		      {context => <div>
+				      <ul>{context.todos.map((task, i) => <li>{task}</li>)}</ul>
+				      <a
+			      </div>
+			  }
+	    </ThemeContext.Consumer>
+	</ThemeProvider>
+);
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTkyMzc1MDIsLTE1NDkyNzc3MjYsNT
-c1NTYyMTc5LC0xNjczMDgzODY2XX0=
+eyJoaXN0b3J5IjpbODI1NzMwMTU5LC0xNTQ5Mjc3NzI2LDU3NT
+U2MjE3OSwtMTY3MzA4Mzg2Nl19
 -->
