@@ -28,7 +28,7 @@ The Context API is here to solve some of those conundrums:
 
 ## How does the Context API work?
 
-The concept behind it is very simple: The is one big producer and a bunch of consumers. Every time the producer data changes, all the consumers get notified. You can think about it very similar to how TV Networks work. One TV channel emits a data signal and all TV antennas get notified, receive the new content and render the image on the televisions.
+The concept behind it is very simple: The is one big producer and a bunch of consumers. Every time the producer data changes, all the consumers get notified. You can think about it very similar to how TV Networks work. One TV channel emits a data signal and all TV antennas get notified, receive the new content and render the image on the televisions. 
 
 ![Context API Explanation](https://ucarecdn.com/72fe5361-5b2a-460f-8c2a-2d376616abf6/)
 
@@ -61,6 +61,6 @@ class App extends React.Component {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2NTY1Nzc5LC0xNTQ5Mjc3NzI2LDU3NT
-U2MjE3OSwtMTY3MzA4Mzg2Nl19
+eyJoaXN0b3J5IjpbMTczNjg5MDcxOSwtMTU0OTI3NzcyNiw1Nz
+U1NjIxNzksLTE2NzMwODM4NjZdfQ==
 -->
