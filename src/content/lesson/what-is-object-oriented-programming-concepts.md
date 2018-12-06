@@ -149,34 +149,34 @@ The "this" (in JavaScript and PHP) or "self" (in Python) indicates that we are u
 ## Class Properties Syntax
 ***
 
-*The properties are declared at the beginning of each class (globally within the brackets of that particular class).  Right after the properties, you have to declare the calculated properties as well.*
+The properties are declared at the beginning of each class (globally within the brackets of that particular class).  Right after the properties, you have to declare the calculated properties as well.
 
-### *Public and Private properties*
+### Public and Private properties
 
-*All class properties have a Public visibility by default; you can change their visibility to private if you think it best:*
+All class properties have a Public visibility by default; you can change their visibility to private if you think it best:*
 
 [[warning]]
-| :point_up:*JavaScript and Python don’t have private or public properties – they are all public by default.  It is in good practice to use the underscore symbol to simulate the same behavior.*
+| :point_up:*JavaScript and Python don’t have private or public properties – they are all public by default.  It is in good practice to use the underscore symbol to simulate the same behavior.
 
 ***
 
-#### ***Public Properties***
+#### **Public Properties**
 
-*Properties that can be accessed from outside the class using the -> operator.*
-
-***
-
-#### ***Private Properties***
-
-*They cannot be accessed from outside the class; the only way to access or use them is inside the class functions using the $this-> operator.*
-*To  access a private property you need to create two functions: ***a getter and a setter:***
-
-+ *The getter function will be responsible of accessing the value internally and returning it to whoever called upon it.*
-+ *The setter function is responsible of assigning the given value (as a parameter) to the internal private property.*
+Properties that can be accessed from outside the class using the -> operator.
 
 ***
 
-### *What is the Point of Using "getters" and "setters"?*
+#### **Private Properties**
+
+They cannot be accessed from outside the class; the only way to access or use them is inside the class functions using the $this-> operator.
+To  access a private property you need to create two functions: ***a getter and a setter:***
+
++ The getter function will be responsible of accessing the value internally and returning it to whoever called upon it.
++ The setter function is responsible of assigning the given value (as a parameter) to the internal private property.
+
+***
+
+### What is the Point of Using "getters" and "setters"?
 
 Perhaps you may feel that there it is pointless to use "getters" and "setters" for every property, and you are probably right in most cases.  But, even if you think that writing the "getters" and "setters" are NOT necessary for a particular property, it is a very good practice because you never know when you will need them.
 
@@ -187,17 +187,19 @@ Perhaps you may feel that there it is pointless to use "getters" and "setters" f
   
 *Here is another example of a "getter/setter" in real-life:*
 
+![what is object oriented programming concepts](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/JS.png)
+
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Object-Oriented-Javascript?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Object-Oriented-Javascript?lite=true">Click here to open demo in a new window</a></small></div>
 
-
+![what is object oriented programming concepts](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/PYTHON.png)
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Python-Class-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <div align="right"><small>
 <a href="https://repl.it/@4GeeksAcademy/Python-Class-Example?lite=true">Click here to open demo in new window</a></small></div>
 
-
+![what is object oriented programming concepts](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/PHP.png)
 <iframe src="https://repl.it/G1cx/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <div align="right"><small><a href="https://repl.it/G1cx/0?lite=true">Click here to open demo in a new window</a></small></div>
@@ -207,39 +209,40 @@ Perhaps you may feel that there it is pointless to use "getters" and "setters" f
 
 
 
-## *Encapsulation (Divide and Conquer)*
+## Encapsulation (Divide and Conquer)
 ***
 
-***Encapsulation*** *is the process of combining data and functions into a single unit called a "class."*
+***Encapsulation*** is the process of combining data and functions into a single unit called a "class."
 
-*When you create an object in an object-oriented language, you can hide the complexity of the internal workings of the object.  As a developer, there are two main reasons why you would choose to hide complexity:*
+When you create an object in an object-oriented language, you can hide the complexity of the internal workings of the object.  As a developer, there are two main reasons why you would choose to hide complexity:
 
-*The first reason is to provide a simplified and understandable way to use your object without the need to understand the complexity inside of it.*
+The first reason is to provide a simplified and understandable way to use your object without the need to understand the complexity inside of it.
 
-*For example, a car driver doesn’t need to know how an internal combustion engine works.  It is sufficient to know how to start the car, how to engage the transmission (if you want to move), how to provide fuel, how to stop the car, and how to turn off the engine.  You know how to use the key, the shifter (and possibly clutch), the gas pedal and the brake pedal to accomplish each of these operations.  These basic operations form an interface for the car.  Think of an interface as the collection of things you can do to the car without knowing how each of those things works.*
+For example, a car driver doesn’t need to know how an internal combustion engine works.  It is sufficient to know how to start the car, how to engage the transmission (if you want to move), how to provide fuel, how to stop the car, and how to turn off the engine.  You know how to use the key, the shifter (and possibly clutch), the gas pedal and the brake pedal to accomplish each of these operations.  These basic operations form an interface for the car.  Think of an interface as the collection of things you can do to the car without knowing how each of those things works.
 
-*Hiding the complexity of the car from the user allows anyone, not just a mechanic, to drive a car.  In the same way, hiding the complex functionality of your object from the user allows ANYONE to use it and to find ways to reuse it in the future (regardless of their knowledge of the internal workings).  This concept of keeping implementation details hidden from the rest of the system is key to object-oriented design.*
+Hiding the complexity of the car from the user allows anyone, not just a mechanic, to drive a car.  In the same way, hiding the complex functionality of your object from the user allows ANYONE to use it and to find ways to reuse it in the future (regardless of their knowledge of the internal workings).  This concept of keeping implementation details hidden from the rest of the system is key to object-oriented design.
 
-## *Inheritance*
+## Inheritance
 ***
 
-*In [object-oriented programming](https://searchmicroservices.techtarget.com/definition/object-oriented-programming-OOP), inheritance is the concept that when a [class](https://whatis.techtarget.com/definition/class) of [objects](https://searchmicroservices.techtarget.com/definition/object) is defined, any subclass that is defined can inherit the definitions of one or more general classes.  This means that, for the programmer, an object in a subclass need not carry its own definition of data and methods that are generic to the class (or classes) of which it is a part.  This not only speeds up program development; it also ensures an inherent validity to the defined subclass object (what works and is consistent about the class will also work for the subclass).*
+In [object-oriented programming](https://searchmicroservices.techtarget.com/definition/object-oriented-programming-OOP), inheritance is the concept that when a [class](https://whatis.techtarget.com/definition/class) of [objects](https://searchmicroservices.techtarget.com/definition/object) is defined, any subclass that is defined can inherit the definitions of one or more general classes.  This means that, for the programmer, an object in a subclass need not carry its own definition of data and methods that are generic to the class (or classes) of which it is a part.  This not only speeds up program development; it also ensures an inherent validity to the defined subclass object (what works and is consistent about the class will also work for the subclass).
 
-***For example:***
+**For example:**
 
-*"Car" is a classification of "Four-Wheeler."  Here, "Car" acquires the properties of a "Four-Wheeler."  Other classifications could be a Jeep, Tempo, van etc. "Four-Wheeler" defines a class of vehicles that has four wheels, a specific range of engine power, load carrying capacity etc.  "Car" (termed as a sub-class) acquires these properties from "Four-Wheeler" (termed as a super-class), and has SOME specific properties that are different from other classifications of "Four Wheeler," such as luxury, comfort, shape, size, usage, etc.*
+"Car" is a classification of "Four-Wheeler."  Here, "Car" acquires the properties of a "Four-Wheeler."  Other classifications could be a Jeep, Tempo, van etc. "Four-Wheeler" defines a class of vehicles that has four wheels, a specific range of engine power, load carrying capacity etc.  "Car" (termed as a sub-class) acquires these properties from "Four-Wheeler" (termed as a super-class), and has SOME specific properties that are different from other classifications of "Four Wheeler," such as luxury, comfort, shape, size, usage, etc.
 
-*"Car" can have further classification such as "Open Car," "Small Car," "Large Car," etc, which will acquire the properties from BOTH "Four-Wheeler" AND "Car" – but will still have some specific properties.  This way the level of hierarchy can be extended to any level.*
-
+"Car" can have further classification such as "Open Car," "Small Car," "Large Car," etc, which will acquire the properties from BOTH "Four-Wheeler" AND "Car" – but will still have some specific properties.  This way the level of hierarchy can be extended to any level.
+![what is object oriented programming concepts](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/JS.png)
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/ObjectOriented2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/ObjectOriented2?lite=true">Click here to open demo in a new window</a></small></div>
 
-
+![what is object oriented programming concepts](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/PHP.png)
 <iframe src="https://repl.it/G1cq/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <div align="right"><small ><a href="https://repl.it/G1cq/0?lite=true">Click here to open demo in a new window</a></small></div>
 
+![what is object oriented programming concepts](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/PYTHON.png)
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Python-Class-Inheritance?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Python-Class-Inheritance?lite=true">Click here to open demo in a new window</a></small></div>
