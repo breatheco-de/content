@@ -41,18 +41,26 @@ After couple of hours to make the most simple Context API implementation without
 - **Step 1 (Create the context)**: This step has almost no logic, just call the `createContext` function passing an empty object to it. That object will be shared within all the consumers during the application lifetime, it will contain the application **model** and **actions**.
 ```js
 // Step 1: define a context that will be shared within all the app.
-const GlobalContext = React.createContext({});
+const MyContext = React.createContext({
+  todos: ["Make the bed", "Take out the trash"]
+});
 ```
 - **Step 2 (Model and Actions)**: Create a `ThemeProvider` that will have to be included at the beginning of your app, it has to be. Because it will be responsible to provide the Consumers with the context you just created in the previous step. The `ThemeProvider` state is where we will declare our initial data (**model**) and the functions (**actions**) that manipulate that data throughout the life of the application.
 ```js
 // Step 2: Create a ThemeProvider that has to be the parent of every consumer.
-const ThemeProvider = (props) => {
-	const context = { 
-		todos: [] 
-	};
-    return (<GlobalContext.Provider value={context}>
-        {props.children}
-     </GlobalContext.Provider>);
+class ThemeProvider extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      todos: [],
+      // inside the state of the t
+      addTask: title => this.setState({ todos: this.state.todos.concat(title) })
+    };
+  }
+  render() {
+    return (<MyContext.Provider value={this.state}>
+        {this.props.children}
+      </MyContext.Provider>);
   }
 }
 ```
@@ -108,7 +116,7 @@ class ThemeProvider extends React.Component{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzM4NTcxMDEsMjgwODg0NzgsMTMzOT
-Q5MDkyMiwtMzUyMjk1NzIwLC0xNTQ5Mjc3NzI2LDU3NTU2MjE3
-OSwtMTY3MzA4Mzg2Nl19
+eyJoaXN0b3J5IjpbMTI0NzU1MTEzMiwyODA4ODQ3OCwxMzM5ND
+kwOTIyLC0zNTIyOTU3MjAsLTE1NDkyNzc3MjYsNTc1NTYyMTc5
+LC0xNjczMDgzODY2XX0=
 -->
