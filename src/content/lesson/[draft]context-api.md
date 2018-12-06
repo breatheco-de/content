@@ -92,13 +92,11 @@ const TodoList = () => (
 ```
 ## Test the code live
 
-Here is the code in 
-
 <iframe src="https://codesandbox.io/embed/w75wq6v01k?hidenavigation=1&view=editor" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNDI2MjI5MCwxMTY0OTU3MTM5LDI4MD
-g4NDc4LDEzMzk0OTA5MjIsLTM1MjI5NTcyMCwtMTU0OTI3Nzcy
-Niw1NzU1NjIxNzksLTE2NzMwODM4NjZdfQ==
+eyJoaXN0b3J5IjpbMzU0MDIwNzUzLDExNjQ5NTcxMzksMjgwOD
+g0NzgsMTMzOTQ5MDkyMiwtMzUyMjk1NzIwLC0xNTQ5Mjc3NzI2
+LDU3NTU2MjE3OSwtMTY3MzA4Mzg2Nl19
 -->
