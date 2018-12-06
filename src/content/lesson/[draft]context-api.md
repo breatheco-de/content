@@ -72,18 +72,21 @@ Now, let's do a real life example: A Todo List.
 	});
  ```
 
-2) Now, let's create the ThemeProvider that will be the parent of all the consumers we will want for the app. The code for this ThemeProvider components is very similar en all applications, you can see it like a boilerplate.
-```javascript
+2) Now, let's create the ThemeProvider that will be the parent of all the consumers we will want for the app. 
+
+The code for this ThemeProvider components is very similar in all applications, all
+
+```js
 class ThemeProvider extends React.Component{
 	constructor(){
 		super();
 		this.state = { 
 			todos: [] 
-			addTodo: ()
+			addTask: title => this.setState({ todos: this.state.todos.concat(title) })
 		};
 	}
-    return (<GlobalContext.Provider value={context}>
-        {props.children}
+    return (<GlobalContext.Provider value={this.state}>
+        {this.props.children}
      </GlobalContext.Provider>)
   }
 }
@@ -92,7 +95,7 @@ class ThemeProvider extends React.Component{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDM5OTkxMTksMTMzOTQ5MDkyMiwtMz
-UyMjk1NzIwLC0xNTQ5Mjc3NzI2LDU3NTU2MjE3OSwtMTY3MzA4
-Mzg2Nl19
+eyJoaXN0b3J5IjpbLTczMTE5MDIyOSwxMzM5NDkwOTIyLC0zNT
+IyOTU3MjAsLTE1NDkyNzc3MjYsNTc1NTYyMTc5LC0xNjczMDgz
+ODY2XX0=
 -->
