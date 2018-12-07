@@ -5,6 +5,7 @@ cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-12-20"
 tags: ["font-awesome"]
+status: "draft"
 
 ---
 
@@ -26,8 +27,6 @@ After adding the `<link>` tag you can start adding icons using `<i>` tags like t
 ```
 You have to replace the class names with the ones that correspond with the icon that you pick from: [this list of icons](https://fontawesome.com/icons?d=gallery)
 
-### The easiest way
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODEwODA5OCw0ODM1ODg4MDJdfQ==
+eyJoaXN0b3J5IjpbLTE1ODc4MTMyNzgsNDgzNTg4ODAyXX0=
 -->
