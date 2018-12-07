@@ -8,9 +8,13 @@ tags: ["font-awesome"]
 
 ---
 
-# 
+## Installing Font Awesome
+
+There are many ways of installing font awesome please think about how your project its setup so that you can pick the right installation procedure:
+
+1. Vanilla JS
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyNjY1MzVdfQ==
+eyJoaXN0b3J5IjpbLTU4MTE3MzI2OF19
 -->
