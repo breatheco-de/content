@@ -22,13 +22,12 @@ If you are working with plain CSS and HTML files, just paste this `<link>` tag b
 
 After adding the `<link>` tag you can start adding icons using `<i>` tags like this:
 ```html
-<i class="far fa-address-book"></i>
+<i class="fas fa-pencil-alt"></i>
 ```
 You have to replace the class names with the ones that correspond with the icon that you pick from: [this list of icons](https://fontawesome.com/icons?d=gallery)
 
 ### The easiest way
 
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgzNTg4ODAyXX0=
+eyJoaXN0b3J5IjpbLTEzODEwODA5OCw0ODM1ODg4MDJdfQ==
 -->
