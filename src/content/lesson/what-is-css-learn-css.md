@@ -56,8 +56,8 @@ Let’s review those 2 tags in more detail:
 
 |**Name**   |**Display**   |**Description**   |
 |:----------|:-------------|:------------------|
-|Link       |link          |The purpose is to link the page with CSS stylesheets.  To use it, you must specify three attributes within the tag: `rel="stylesheet" type="text/css"` and finally `href="with document route css"`<br>`link rel="stylesheet" type="text/css" href="theme.css">`   |
-|Style   |style   |If we do not want or can’t import a CSS style sheet, we have the possibility to define styles in the HEAD of the HTML document.  We simply define the style tag and proceed to write the styles we want for the tags.<br>`<style>`<br>`h1 {color:red;}`<br>`p {color:blue;}`<br>`</style>`   |
+|Link       |link          |The purpose is to link the page with CSS stylesheets.  To use it, you must specify three attributes within the tag: `pyton>rel="stylesheet" type="text/css"` and finally `pyton>href="with document route css"`<br>`pyton>link rel="stylesheet" type="text/css" href="theme.css">`   |
+|Style   |style   |If we do not want or can’t import a CSS style sheet, we have the possibility to define styles in the HEAD of the HTML document.  We simply define the style tag and proceed to write the styles we want for the tags.<br>`pyton><style>`<br>`pyton>h1 {color:red;}`<br>`pyton>p {color:blue;}`<br>`pyton></style>`   |
 
 [[info]]
 | :point_up:Just like it happens with HTML docs (ending with .html) CSS docs (style sheets) ends up with the `.css extension`.
@@ -131,7 +131,7 @@ Let’s assign "first" as the ID of the first cell in the next table, and then w
 
 |**Selctor**   |**Description**   |**Example**   |
 |:-------------|:-----------------|:-------------|
-|.name_of_the_class   |There is an attribute in HTML called "class", which allows us to group different tags within one logic group.  With CSS we can use `.` (dot) as a selector of every element using "name_of_the_class" as the attribute of the "class".   |`.impar { color: #BDBDBD; }`   |
+|.name_of_the_class   |There is an attribute in HTML called "class", which allows us to group different tags within one logic group.  With CSS we can use `pyton>.` (dot) as a selector of every element using "name_of_the_class" as the attribute of the "class".   |`pyton>.impar { color: #BDBDBD; }`   |
 
 In the next example we are applying an "odd" class to the cells of this table, and then with CSS we are assigning the yellow background to class .odd:
 
@@ -139,7 +139,7 @@ In the next example we are applying an "odd" class to the cells of this table, a
 
 |**Selector**   |**Description**   |**Example**   |
 |:--------------|:-----------------|:-------------|
-|Element name (tag)   |This makes it possible to apply styles to links, titles, etc.  In the next example we shall change the text color of every link tag `<a>` of the page.   |`a{ color: #BDBDBD; }`   |
+|Element name (tag)   |This makes it possible to apply styles to links, titles, etc.  In the next example we shall change the text color of every link tag `pyton><a>` of the page.   |`pyton>a{ color: #BDBDBD; }`   |
 
 Next, we are adding color (green) to the  background of each td (cells) of the table:
 
@@ -147,7 +147,7 @@ Next, we are adding color (green) to the  background of each td (cells) of the t
 
 |**Selector**   |**Description**   |**Examples**  |
 |:--------------|:-----------------|:-------------|
-|selectot1,selector2   |If you separate multiple selectors with a comma`,`, you can assign multiple selectors at the same time to save text.  In the following example, we tell every h1 and .impar class elements to turn into red.   |`h1,.impar { color: #BDBDBD; }`   |
+|selectot1,selector2   |If you separate multiple selectors with a comma`pyton>,`, you can assign multiple selectors at the same time to save text.  In the following example, we tell every h1 and .impar class elements to turn into red.   |`pyton>h1,.impar { color: #BDBDBD; }`   |
 
 ### Advanced Selectors
 

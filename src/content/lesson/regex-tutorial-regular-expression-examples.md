@@ -1,6 +1,6 @@
 ---
-title: "Regular Expressions"
-subtitle: "Regular Expressions are the best way to identify patterns within strings. They can seem difficult and annoying, but once you know how to use them, they're amazing!!!"
+title: "Regex Tutorial: Learn With Regular Expression Examples"
+subtitle: "Regular Expressions are the best way to identify patterns within strings. They can seem difficult and annoying, but once you know how to use them, they're amazing! In this Regex Tutorial you will learn with Regular Expression Examples"
 cover: "https://ucarecdn.com/bf7bc7e6-c89c-4f97-9377-e30e369ba796/"
 textColor: "white"
 date: "2018-05-11"
@@ -12,7 +12,7 @@ tags: ["fale"]
 
 Basically, a regular expression is a pattern describing a certain amount of text.  For example, you know that emails are always like:
 
-`username@domain.extension`
+`python>username@domain.extension`
 
 **If we want to describe the pattern of an email, we will say something like this:**  Starting with a username (a combination of letters and numbers), followed by an `at` **@** symbol, followed by the domain (another combinations of letters and numbers) followed by the extension (that starts with a dot `.` followed by a combination only letters).
 
@@ -40,7 +40,7 @@ Never start creating a Regex without having a live testing tool – it can get v
 
 This is a regular expression that checks for an email pattern:
 
-```javascript
+```jsx
 /[\w._%+-]+@[\w.-]+\.[a-zA-Z]{2,4}/
 ```
 
@@ -65,11 +65,11 @@ Any succession of characters is a simple regular expression.  If we use the word
 
 ### **The `.` Character**
 
-The `.` character represents…
+The `python>.` character represents…
 
-Any character or symbol available.  If you say `ab.ve` you are saying anything that starts with `ab` and ends with `ve`
+Any character or symbol available.  If you say `python>ab.ve` you are saying anything that starts with `python>ab` and ends with `python>ve`
 
-You can use the `.` as many times as you want; the regular expression will replace the `.` with any character as many times as the `.`  appears.
+You can use the `.` as many times as you want; the regular expression will replace the `python>.` with any character as many times as the `.`  appears.
 
 **Use the container on the right to play with other simple successions of characters.**
 
@@ -80,25 +80,25 @@ You can use the `.` as many times as you want; the regular expression will repla
 
 ### **The Range `[ ]` Character**
 
-**The `[ ]` characters represent…**
+**The `python>[ ]` characters represent…**
 
 A group of possible characters.  Sometimes, we would like to be a bit more specific…this is where **ranges** come in useful.  We specify a range of characters by enclosing them within square brackets ( [ ] ).
 
-You can also use the `[ ]` to range numbers or letters with a dash in between.  The dash represents a range of numbers or characters.  For example:
+You can also use the `python>[ ]` to range numbers or letters with a dash in between.  The dash represents a range of numbers or characters.  For example:
 
-+ `[0-9]` represents any number between 0 and 9.
-+ `[a-z]` represents any letter in lowercase
-+ `[A-Z]` represent any letter in uppercase
++ `python>[0-9]` represents any number between 0 and 9.
++ `python>[a-z]` represents any letter in lowercase
++ `python>[A-Z]` represent any letter in uppercase
   
 You can also combine ranges of characters like this:
 
-+ Any letter in uppercase or lowercase: `[a-zA-Z]`
-+ Numbers from 1 to 5 and also the 9: `[1-59]`
-+ Numbers from 1 to 5, letters from a to f and also the capital X:`[1-5a-fX]`
++ Any letter in uppercase or lowercase: `python>[a-zA-Z]`
++ Numbers from 1 to 5 and also the 9: `python>[1-59]`
++ Numbers from 1 to 5, letters from a to f and also the capital X:`python>[1-5a-fX]`
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=dCU1QmVvJTVEZA%3D%3D&amp;c=V2hlbiB0b2RheSBpcyBvdmVyIFRlZCB3aWxsIGhhdmUgYSB0ZWRpb3VzIHRpbWUgdGlkeWluZyB1cC4%3D"></iframe>
 
-<div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=dCU1QmVvJTVEZA%3D%3D&amp;c=V2hlbiB0b2RheSBpcyBvdmVyIFRlZCB3aWxsIGhhdmUgYSB0ZWRpb3VzIHRpbWUgdGlkeWluZyB1cC4%3D">Click to open demo in a new window</p></small></a>
+<div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=dCU1QmVvJTVEZA%3D%3D&amp;c=V2hlbiB0b2RheSBpcyBvdmVyIFRlZCB3aWxsIGhhdmUgYSB0ZWRpb3VzIHRpbWUgdGlkeWluZyB1cC4%3D">Click to open demo in a new window</p></small></div>
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVCYS16QS1aJTVE&amp;c=V2hlbiB0b2RheSBpcyBvdmVyIFRlZCB3aWxsIGhhdmUgYSB0ZWRpb3VzIHRpbWUgdGlkeWluZyB1cC4%3D"></iframe>
 
@@ -113,13 +113,13 @@ You can also combine ranges of characters like this:
 
 We are negating the range.  For example:
 
-+ All terms that start with `li` and end with `e` but have no `i` or `v` on the inside: `li[^v]e`
++ All terms that start with `python>li` and end with `python>e` but have no `python>i` or `python>v` on the inside: `python>li[^v]e`
   
-**If we place `^` at the beginning of a regular expression:**
+**If we place `python>^` at the beginning of a regular expression:**
 
 + We are saying that we want to only test the Regex from the beginning of the string (no substrings – smaller parts of the string – will be tested):
 
-+ A string starting with http: `^http`
++ A string starting with http: `python>^http`
 
 
 
@@ -128,15 +128,15 @@ We are negating the range.  For example:
 
 <div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bGklNUIlNUV2JTVEZQ%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBhbiBvbGl2ZSBvaWwsIGFsd2F5cyBhZGRpbmcgZ29vZCB0YXN0ZSB0byB3aGF0IGhlIGRvZXMu">Click to open demo in a new window</a></small></div>
 
-### Shortcuts for Digits `\d` and Words `\w`
+### Shortcuts for Digits `python>\d` and Words `python>\w`
 
 If you prefer, you can use these shortcuts in your regular expressions:
 
 |**Operator**    |**Descriptions**    |
 |:---------------|:-------------------|
-|\w              |Matches any word character (equal to `[a-zA-Z0-9_])`     |
+|\w              |Matches any word character (equal to `python>[a-zA-Z0-9_])`     |
 |\W                |Matches anything other than a letter, digit or underscore     |
-|\d             |Matches any decimal digit. Equivalent to `[0-9]`       |
+|\d             |Matches any decimal digit. Equivalent to `python>[0-9]`       |
 |\D             |Matches anything other than a decimal digit       |
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVDdyUyMA%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLg%3D%3D"></iframe>
@@ -145,14 +145,14 @@ If you prefer, you can use these shortcuts in your regular expressions:
 
 
 
-## Grouping or Enclosing Regular Expressions with `()`
+## Grouping or Enclosing Regular Expressions with `python>()`
 ***
 
-We always talk about "divide and conquer," right?  Well, your best friend for that will be the parenthesis operator `( )`.  We are now able to group any pattern just like we do in math.
+We always talk about "divide and conquer," right?  Well, your best friend for that will be the parenthesis operator `python>( )`.  We are now able to group any pattern just like we do in math.
 
 Now that we can group, we can multiply (repeat) our patterns, negate our patterns, etc.
 
-For example, this Regex accepts one or many repetitions of the `ab` string followed by a `c` letter at the end: `(ab)*c`
+For example, this Regex accepts one or many repetitions of the `ab` string followed by a `python>c` letter at the end: `python>(ab)*c`
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bGklNUIlNUV2JTVEZQ%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLg%3D%3D"></iframe>
 
@@ -172,7 +172,7 @@ Quantifier allow us to increase the number of times a character may occur in our
 + {3,7} – character occurs between 3 and 7 times.
 + {2,} – character occurs at least 2 times.
 
-## Using the `*` `+` `?` Quantifier
+## Using the `python>*` `python>+` `python>?` Quantifier
 
 We can place the quantifier after the character patterns that we want to repeat.   Here are some cases and examples:
 
@@ -180,7 +180,7 @@ We can place the quantifier after the character patterns that we want to repeat.
 |:----------------|:-----------------|
 |+                |One or many E.g.:<br> Terms with the letter `o` at least one time; `o+`   |
 |*                |Zero or many<br>E.g.: Terms starting with the letter "a" (lowercase) followed by **zero or many** characters of any type but the white space: `a[^ ]*`       |
-|?                 |Zero or one<br>E.g.: Finding the November string with or without the shortcut: `[nN]ov(ember)? `    |
+|?                 |Zero or one<br>E.g.: Finding the November string with or without the shortcut: `python>[nN]ov(ember)? `    |
 
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVCbk4lNURvdiUyOGVtYmVyJTI5JTNG&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLiBUaGUgYmVzdCBkYXRlIHRvIGdyb3cgb2xpdmVzIGlzIG9uIE5vdmVtYmVyIHRoZSAyNHRoLCBub3Qgb24gTm92ZW1iZXIgdGhlIDNyZC4%3D"></iframe>
@@ -205,7 +205,7 @@ Here are some pre-made Regex’s:
 
 #### **Regular Expression for: Validating an Email**
 
-![regular1](https://ucarecdn.com/39f93d0d-248e-4e94-b402-b744c4b06a4d/-/resize/1000x/)
+![regex tutorial regular expression examples](https://ucarecdn.com/39f93d0d-248e-4e94-b402-b744c4b06a4d/-/resize/1000x/)
 
 We begin by telling the parser to find the beginning of the string (^).
 

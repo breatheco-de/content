@@ -1,5 +1,5 @@
 ---
-title: "Bootstrap Tutorial: Learn Bootstrap 4 in less than a day"
+title: "Bootstrap Tutorial: Learn Bootstrap 4 in Less Than a Day"
 subtitle: "After decades of struggling, the light has arrived !! with this Bootstrap tutorial, designing website will be a piece of cake   
 
 It is almost stupid, and, also impossible to think about doing a website without a CSS framework like Bootstrap 4 ."
