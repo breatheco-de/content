@@ -1,5 +1,5 @@
 ---
-title: "Learn What is Jquery: Jquery vs Javascript"
+title: "Learn The Difference: Jquery vs Javascript"
 
 subtitle: "Hey guys its time to know more about what is Jquery, at the end you will be the judge and decide which one will you use (Jquery vs Javascript)"
 

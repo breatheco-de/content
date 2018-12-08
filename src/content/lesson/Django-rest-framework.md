@@ -1,6 +1,6 @@
 ---
-title: "Learn What is Django: Building RESTful APIs With Django Tutorial"
-subtitle: "In the world of Python, Learning what is Django is the best way to create web applications and RESTful APIs.Enjoy this Django tutorial"
+title: "Understanding Django Rest Framework"
+subtitle: "In the world of Python, Learning what is Django is the best way to create web applications and RESTful APIs.Enjoy this Django Rest Framework Lesson"
 cover: "https://ucarecdn.com/3e50e217-514d-41dc-a7a4-4725e08f8afb/"
 textColor: "white"
 date: "2018-14-11"
@@ -54,7 +54,7 @@ Remember everything is just text!  You can and should play with the generated fi
 
 After running the command, a project folder will be created with at least 4 files inside:
 
-![what is django tutorial](https://ucarecdn.com/f9bc68cd-e407-4d55-afd6-ba95b0c8bc02/-/resize/300x/)
+![Django Rest Framework](https://ucarecdn.com/f9bc68cd-e407-4d55-afd6-ba95b0c8bc02/-/resize/300x/)
 
 + `__init__:` an empty file that any folder needs to have inside to be considered a python package.
 + `settings:` contains all the configuration variables for your project – we will address this file further later.
@@ -81,7 +81,7 @@ $ python manage.py startapp [app1_name]
 
 You will see a new folder with your application name and a bunch of new files inside.  Let’s review them:
 
-![what is django tutorial](https://ucarecdn.com/c7eb4466-eaa5-4d33-8181-5b4c5df4e7f8/-/resize/600x/)
+![Django Rest Framework](https://ucarecdn.com/c7eb4466-eaa5-4d33-8181-5b4c5df4e7f8/-/resize/600x/)
 
 + `python>__init__:`  Tells Python that this folder is a package.
 + `python>admin.py:`  Here we can add models into the admin interface to be able to CRUD those models.
@@ -94,7 +94,7 @@ Lets discuss all of these in more detail below.
 
 To summarize, and continuing with our "BreatheCode Project" example, this is how your project file structure may look after you have several apps inside one big project.
 
-![what is django tutorial](https://ucarecdn.com/e59de5e1-2751-4286-adfb-69c047e93058/-/resize/600x/)
+![Django Rest Framework](https://ucarecdn.com/e59de5e1-2751-4286-adfb-69c047e93058/-/resize/600x/)
 
 ### Manage.py (Django CLI)
 
