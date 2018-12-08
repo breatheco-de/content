@@ -1,5 +1,5 @@
 ---
-title: "Intro to What is Front-End Development"
+title: "What is Front-End Development"
 subtitle: "What is Front-end development ? is all about using the power of code to generate HTML and CSS dynamically. Let the computer code while you sleep."
 cover: "https://ucarecdn.com/092d375f-89c9-4cc9-8aa7-8cc4d1230179/"
 textColor: "white"

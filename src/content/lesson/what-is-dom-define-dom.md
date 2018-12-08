@@ -1,5 +1,5 @@
 ---
-title: "What is DOM: Learn here everything about the Document Object Model"
+title: "What is DOM: Document Object Model"
 subtitle: "Do you already know what is DOM? It is a hierarchy stored in memory that contains all of your website elements in real-time. DOM Manipulation is the most popular activity for any front-end developer. The DOM brings your applications to life!"
 cover: "https://ucarecdn.com/db660bb9-1ac6-4730-a9c8-4544d6b801b0/"
 textColor: "white"

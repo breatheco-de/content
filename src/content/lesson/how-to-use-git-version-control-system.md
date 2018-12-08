@@ -1,5 +1,5 @@
 ---
-title: "How to use GIT Version Control System"
+title: "How to use GIT: Version Control System"
 subtitle: "Learn how to use GIT with an interactive tutorial, video and great article.
 
 Without GIT you won't be able to work at any company, and you won't be able to use anyone's code."

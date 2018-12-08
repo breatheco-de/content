@@ -1,5 +1,5 @@
 ---
-title: "Intro to Professional Web Development: Agile Development"
+title: "Intro to Professional and Agile Development"
 subtitle: "All you've learned needs to be put together. Lets make our first entire professional application using the Agile Development method!"
 cover: "https://ucarecdn.com/98208ebb-dcb3-4e40-9ae4-4ec886213f97/"
 
