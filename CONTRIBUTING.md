@@ -8,27 +8,16 @@ Once you have the issue that you like to solve, add a comment letting anyone kno
 
 Fork this project and clone it to have it on your local envirnoment.
 
-Fix the issue and then Pull Request.
-
-# Proyect requierments
-
-- Node.js v8+
-
-# All Contributors
-
-This projects follows [the all-contributors specification](https://github.com/kentcdodds/all-contributors) and your contribution will be recognized in the main README.md of the project.
+> This projects follows [the all-contributors specification](https://github.com/kentcdodds/all-contributors) and your contribution will be recognized in the main README.md of the project.
 
 
 ## Writing a Blog Post or Lesson in BreatheCode's Blog
-***
 
 ### Where can i find the lessons that i want to edit ?
-***
 
 `http://docs.content.breatheco.de/lesson/`
 
 ### How do i edit the Headers 
-***
 
 You type the size of your header, hit space and write your first headline 
  
@@ -38,13 +27,11 @@ You type the size of your header, hit space and write your first headline
  + And so on 
 
 ### How do i edit the parragraphs ?
-***
 
 + You hit Enter twice after the parragraph ends and start your new parragraph in a new line 
 + For line breaks you can type space 2 times and enter right where you want the line to break and if that doesnt work type `<b>` right where you want the line to break 
 
 ### How do i emphazise ?
-***
 
 If you want to make your text **Bold** 
 
@@ -59,27 +46,23 @@ If you want to make it ***Italics and Bold***
 + put 3 asterisks (\*\*\*) bfore and after the text. Example `***hello***`
 
 ### How do i escape symbols that have a meaning in markdown ?
-***
 
 + you use the backslash `\` before the symbol symbol
   
 So if for example you want to use the number symbol `#` and avoid making it look as header you will type it like this `\#` and the same works for all symbols 
 
 ### How do i Blockquote my text 
-***
 
 > So if you want to blockquote your text like this 
 
 Use the `>` symbol, press space and write your text 
 
 ### How do i make a list ?
-***
 
 + For unordered lists like bulletpoints use `+` and `Space` to start listing your text
 + For ordered list like numerical you press for example `1.` and `Space` to start listing your text 
 
 ### How do i code block ?
-***
 
 So for example if you want this html tag `<a href=https://www.google.com/><Google></a>` not to turn in to a link and look like this  <a href=https://www.google.com/><Google></a>
 
@@ -88,7 +71,6 @@ You have to press 4 spaces from the begning of your line, type it and it will lo
     <a href=https://www.google.com/><Google></a>
 
 ### How do i make a horzontal line ?
-***
 
 for horizontal lines like the ones below the headers, you can use 3 asterisks in a row or more `***`.
 
@@ -96,7 +78,6 @@ It would look like this in your editor:
 
 ```
 ## How do i make a horzontal line ?
-***
 ```
 ### How do i embed a link ?
 
@@ -120,7 +101,6 @@ so `this` would look like \`this\`
 
 
 ### Icons
-***
 
 [[info]]
 |:link: for links of webistes with information  
@@ -141,7 +121,6 @@ dsfsdf
 
 
 ## Special Components
-***
 
 ### Before and after
 
