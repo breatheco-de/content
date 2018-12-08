@@ -42,18 +42,19 @@ A GIT **repository** is comprised of the following:
 
 + A set of **commit objects**.
 + A set of references to commit objects, called **heads**.
-  
+
+<p align="center">
+ <img height="200px" src="https://ucarecdn.com/a4fc1953-3c91-4bf4-a70a-ab4778b3277b/-/resize/300x/" alt="how to use git" />
+</p>
+
 The GIT repository is stored in the same directory as the project itself in a -hidden- subdirectory called .git:
 
 + There is only one .git directory – located in the root directory of the project.
 + The repository is stored within the project.
 
-
-![how to use git](https://ucarecdn.com/a4fc1953-3c91-4bf4-a70a-ab4778b3277b/-/resize/300x/)
-
-
-
-![how to use git](https://ucarecdn.com/62897396-651c-4bdb-8604-dfe1898e57bd/-/resize/700x/)
+<p align="center">
+ <img height="200px" src="https://ucarecdn.com/62897396-651c-4bdb-8604-dfe1898e57bd/-/resize/700x/" alt="git folder inside directory" />
+ </p>
 
 ## **Commit Objects**
 ***
