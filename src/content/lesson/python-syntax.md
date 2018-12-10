@@ -1,6 +1,6 @@
 ---
 title: "Understanding Python Syntax"
-subtitle: "Unleash your power by learning with this lesson, using one of the Kings of Back-End Development. Now you will be capable of bringing AI, Big Data, Machine Learning, APIs and integrate third party applications into your own.Enjoy this Pyhton Syntax lesson"
+subtitle: "Unleash your power by learning with this lesson, using one of the Kings of Back-End Development. Now you will be capable of bringing AI, Big Data, Machine Learning, APIs and integrate third party applications into your own.Enjoy this Python Syntax lesson"
 
 cover: "http://breatheco.de/wp-content/uploads/2018/01/python-background.jpg"
 
@@ -40,7 +40,7 @@ When you compare it to other back-end languages, Python is leading in almost eve
 <br>
 <br>
 
-## Javascript vs Python
+## Javascript vs Python Syntax
 ***
 
 Python and Javascript complement each other.  In terms of functionality they have NOTHING in common – they don’t serve the same purpose, they don’t do the same things, they come from different backgrounds, etc.
