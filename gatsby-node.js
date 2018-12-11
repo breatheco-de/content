@@ -23,7 +23,7 @@ const getTemplate = (pagePath) => {
   if(pagePath.indexOf('/content/lesson/') != -1){
     return path.resolve(`./src/templates/lesson.js`);
   }
-  return path.resolve(`./src/templates/blog-post.js`);
+  return path.resolve(`./src/templates/default.js`);
 };
 
 exports.createPages = ({ actions, graphql }) => {
