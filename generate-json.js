@@ -40,9 +40,9 @@ const buildLessonsData = (lessons) => lessons.map(l => {
     };
 });
 
-const createContentJSON =(content) => {
+const createContentJSON =(content, fileName) => {
     if (!fs.existsSync("public/static/api")) fs.mkdirSync("public/static/api");
-    fs.writeFileSync("public/static/api/content.json", JSON.stringify(content));
+    fs.writeFileSync("public/static/api/"+fileName+".json", JSON.stringify(content));
 };
 
 walk('src/content/lesson/', function(err, results) {
@@ -53,7 +53,7 @@ walk('src/content/lesson/', function(err, results) {
     
     try{
         const lessons = buildLessonsData(results);
-        createContentJSON(lessons);
+        createContentJSON(lessons, "lessons");
         console.log("The content.json file was created!");
         process.exit(0);
     }
