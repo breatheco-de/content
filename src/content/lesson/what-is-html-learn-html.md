@@ -1,5 +1,5 @@
 ---
-title: "What is HTML ? It's time to learn HTML and it Structure"
+title: "What is HTML? It's time to Learn HTML and it Structure"
 subtitle: "But really what is HTML ? HTML is to websites what columns are for buildings. 
 
 Here you will learn HTML basics - the foundations of the web."

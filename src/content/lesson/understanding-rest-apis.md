@@ -1,6 +1,6 @@
 ---
-title: " RESTful API's"
-subtitle: "It seems to be only the beginning of the API revolution! The path of humanity drives towards the API's architecture...you can learn any language or tool, but this is one of those few specialties that will guarantee you a well paid job for the next 60 years. :)"
+title: " Understanding Rest Apis"
+subtitle: "It seems to be only the beginning of the API revolution! The path of humanity drives towards the API's architecture...you can learn any language or tool, but this is one of those few specialties that will guarantee you a well paid job for the next 60 years, So get comfortable with REST Api . :)"
 cover: "https://ucarecdn.com/b929f233-00b2-406f-87a5-ee74146cfd85/"
 textColor: "white"
 date: "2018-05-11"

@@ -1,6 +1,6 @@
 ---
-title: "Python Tutorial: From JS to PY"
-subtitle: "Unleash your power by learning with this Python tutorial, using one of the Kings of Back-End Development. Now you will be capable of bringing AI, Big Data, Machine Learning, APIs and integrate third party applications into your own.Enjoy this Pyhton class"
+title: "Understanding Python Syntax"
+subtitle: "Unleash your power by learning with this lesson, using one of the Kings of Back-End Development. Now you will be capable of bringing AI, Big Data, Machine Learning, APIs and integrate third party applications into your own.Enjoy this Python Syntax lesson"
 
 cover: "http://breatheco.de/wp-content/uploads/2018/01/python-background.jpg"
 
@@ -40,7 +40,7 @@ When you compare it to other back-end languages, Python is leading in almost eve
 <br>
 <br>
 
-## Javascript vs Python
+## Javascript vs Python Syntax
 ***
 
 Python and Javascript complement each other.  In terms of functionality they have NOTHING in common – they don’t serve the same purpose, they don’t do the same things, they come from different backgrounds, etc.
@@ -78,7 +78,7 @@ In Python, you can make any folder a package by creating a *\__init\__.py* file 
 <br>
 <br>
 
-#### ![python tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 from . import
@@ -94,7 +94,7 @@ What NPM is for Javascript, PIP is for Python.  Both beasts are amazing but very
 <br>
 <br>
 
-#### ![python tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 # In python subtracting strings will throw an error, instead you should do: 
@@ -112,14 +112,14 @@ var result = int('5') - int('2');
 
 Javascript is so flexible that you don’t have to pay much attention to data types.   Python does not like that… in Python, you will get used to casting variables and converting them in between data-types.
 
-### ![python tutorial python class](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/)  With JavaScript
+### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/)  With JavaScript
 
 ```javascript
 var result = '5' - '2'; 
 //result now is equal to 3
 ```
 
-#### ![python tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 # In python subtracting strings will throw an error, instead you should do: 
@@ -141,7 +141,7 @@ Python has "print" either for writing into a document or into the console. Remem
 <br>
 
 
-#### ![python tutorial python class](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With  JavaScript
+#### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With  JavaScript
 
 ```javascript
 var simpleValue = ‘hello’;
@@ -153,7 +153,7 @@ console.log(arrayValue);
 ```
 
 
-#### ![python tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 simpleValue = ‘Hello’;
@@ -181,7 +181,7 @@ Finally, in ES2015, Javascript included the "arrow functions."  That is a very e
 <br>
 <br>
 
-#### ![python tutorial python class](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/)  With JavaScript
+#### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/)  With JavaScript
 
 ```javascript
 //doing a foreach loop in js 
@@ -198,7 +198,7 @@ for(var i = 0; i < myArray.length; i++){
 <br>
 <br>
 
-#### ![python tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 # Using lambda to map a list 
@@ -220,7 +220,7 @@ print(namesArray)
 ### **Looping list (similar to arrays)**
 ***
 
-#### ![python tutorial python class](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With  JavaScript
+#### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With  JavaScript
 
 ```javascript
 //doing a foreach loop in js 
@@ -237,7 +237,7 @@ for(var i = 0; i < myArray.length; i++){
 <br>
 <br>
 
-#### ![python tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 colors = ["red", "green", "blue", "purple"]
@@ -254,7 +254,7 @@ for color in colors:
 <br>
 <br>
 
-#### ![python tutorial python class](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/)    With JavaScript
+#### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/)    With JavaScript
 
 ```javascript
 var myArray = [‘Academy’, ‘Coding’];
@@ -263,7 +263,7 @@ myArray.push(‘4Geeks’);  //Adding an item
 myArray.splice(index, 1);
 ```
 
-#### ![python tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 myList = ['The', 'earth', 'revolves', 'around', 'sun']
@@ -279,7 +279,7 @@ print(myList)
 ### **Sorting Functions for Lists**
 ***
 
-#### ![python tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
 # Ascending Sort 
@@ -308,7 +308,7 @@ Python brings a new kind of data-type called a "Tuple."  Think about it like a s
 
 ### **Objects**
 
-#### ![python tutorial python class](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
+#### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
 
 ```javascript{numberLines: true}
 //There are two ways of declaring an object 
@@ -329,7 +329,7 @@ obj.name = "Mario";
 obj.lastname = "Perez";
 ```
 
-#### ![python tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python syntaxpython syntaxpython tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python{numberLines: true}
 # In Python we have Classes and Dictionaries 

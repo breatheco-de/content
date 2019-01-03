@@ -1,5 +1,5 @@
 ---
-title: "Create and Build HTML/CSS Layouts"
+title: "CSS Layouts: Create and Build Layouts with CSS"
 subtitle: "Building layouts is the most painful process when coding HTML & CSS
 
 Learn the CSS layout rules: Display, Position, Float and Flex; and place any element anywhere you want."

@@ -1,5 +1,5 @@
 ---
-title: "Do you already know what is coding? Learn to Code here"
+title: "What is coding? Learn to Code"
 subtitle: "If you dont know what is coding don't worry, here you don't have to write HTML and CSS (not that much). Learn to code here and make computers write your code."
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"

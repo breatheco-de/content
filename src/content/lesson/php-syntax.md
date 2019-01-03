@@ -1,6 +1,6 @@
 ---
-title: "From JavaScript to Know What is PHP"
-subtitle: "Learn here about what is PHP, with this amazing php tutorial"
+title: "Understanding PHP Syntax"
+subtitle: "Learn here about PHP Syntax, with this amazing lesson"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-31-10"
@@ -41,7 +41,7 @@ There are only a few differences – here is the explanation:
 
 Console.log is amazing in JS, but in PHP, you will have to use echo for simple data-types, and print_r to print more complex data-types (like arrays and objects).
 
-#### ![what is php tutorial](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
+#### ![php syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
 
 ```javascript
 var simpleValue = ‘hello’;
@@ -52,7 +52,7 @@ console.log(arrayValue);
 //This will print the content of the array and its elements.
 ```
 
-#### ![what is php tutorial](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) With PHP
+#### ![php syntax](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) With PHP
 
 ```php{numberLines: true}
 $simpleValue = ‘Hello’;
@@ -77,7 +77,7 @@ PHP started as a functional-programming language and still has a lot of things t
 
 ### **Looping Arrays**
 
-#### ![what is php tutorial](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
+#### ![php syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
 
 ```javascript{numberLines: true}
 for(var i = 0; i<myArray.length; i++){
@@ -102,7 +102,7 @@ print_r($value);
 
 ### **Adding and Removing Items**
 
-#### ![what is php tutorial](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
+#### ![php syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
 
 ```javascript
 var myArray = [‘Academy’, ‘Coding’];
@@ -111,7 +111,7 @@ myArray.push(‘4Geeks’); //Adding an item
 myArray.splice(index, 1);
 ```
 
-#### ![what is php tutorial](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) With PHP
+#### ![php syntax](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) With PHP
 
 ```php
 $myArray = array(‘Academy’,’Coding’);
@@ -123,7 +123,7 @@ $myArray = array_values($myArray);
 
 ### **Sorting Functions for Arrays**
 
-#### ![what is php tutorial](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) With PHP
+#### ![php syntax](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) With PHP
 
 ```php{numberLines: true}
 $myArray = array(2,5,1,4,7);
@@ -196,7 +196,7 @@ Array
 
 This is almost identical to the switch statement in JavaScript:
 
-#### ![what is php tutorial](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
+#### ![php syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
 
 ```javascript{numberLines: true}
 favcolor = "red";
@@ -215,7 +215,7 @@ switch (favcolor) {
 }
 ```
 
-#### ![what is php tutorial](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) With PHP
+#### ![php syntax](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) With PHP
 
 ```php{numberLines: true}
 <?php
@@ -240,7 +240,7 @@ switch (favcolor) {
 
 When working with objects, we have to use the operator "->" instead of "." to access the object properties.
 
-#### ![what is php tutorial](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
+#### ![php syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
 
 ```javascript
 var auxCar = new Car();

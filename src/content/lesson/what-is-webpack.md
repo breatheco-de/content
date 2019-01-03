@@ -1,5 +1,5 @@
 ---
-title: "Learn Here What is Webpack"
+title: "What is webpack?"
 subtitle: "For senior developers, it is imposible to think about developing a JS application without Webpack. Thanks to Webpack, developing front-end feels good and professional for the first time.So its time to learn what is webpack"
 cover: "https://ucarecdn.com/cdbe1bf9-2b6b-4c21-b127-eacc681d9c8d/"
 textColor: "white" 
