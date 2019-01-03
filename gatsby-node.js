@@ -3,6 +3,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`);
 const path = require("path");
 var md = require('markdown-it');
 var fa = require('markdown-it-fontawesome');
+const fs = require('fs');
  
 md().use(fa);
 
@@ -57,9 +58,9 @@ exports.createPages = ({ actions, graphql }) => {
             // Data passed to context is available in page queries as GraphQL variables.
             slug: node.fields.slug
           },
-        })
-      })
-      resolve()
+        });
+      });
+      resolve();
       const posts = result.data.allMarkdownRemark.edges;
       // Tag pages:
       let tags = [];

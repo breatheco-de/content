@@ -3,6 +3,7 @@ subtitle: "The Context API is the most recent tool that the React.js Team has ma
 title: "Implementing MVC with The Context API"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
+status: "draft"
 date: "2018-12-03"
 tags: ["reactjs"]
 

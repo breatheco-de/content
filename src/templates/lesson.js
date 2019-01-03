@@ -27,6 +27,7 @@ export default ({ data }) => {
           textColor={post.frontmatter.textColor} 
           subtitle={post.frontmatter.subtitle}
           time={post.fields.readingTime.text}
+          status={post.frontmatter.status}
         />
         <div className="post lesson">
           {renderAst(post.htmlAst)}
@@ -44,6 +45,7 @@ export const query = graphql`
         title
         subtitle
         cover
+        status
         thumb
         textColor
       }
