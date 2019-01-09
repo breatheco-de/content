@@ -126,6 +126,14 @@ module.exports = {
           }
         ],
       },
+    },
+    {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: "GTM-574Z6C5",
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: true,
+      },
     }
   ],
 };
