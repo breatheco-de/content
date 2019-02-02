@@ -126,7 +126,7 @@ $myArray = array_values($myArray);
 #### ![php syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
 
 ```javascript
-var myArray = [2,5,1,4,7];
+const myArray = [2,5,1,4,7];
 myArray.sort();  //sorts array in ascending order
 /* Example output
 [1, 2, 4, 5, 7]
@@ -135,6 +135,7 @@ myArray.reverse();  //sorts array in descending order
 /* Example output
 [7, 5, 4, 2, 1]
 */
+
 ```
 
 #### ![php syntax](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) With PHP
