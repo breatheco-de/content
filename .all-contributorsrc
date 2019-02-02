@@ -1,0 +1,23 @@
+{
+  "projectName": "content",
+  "projectOwner": "breatheco-de",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Madelene",
+      "name": "Madelene Campos",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10150439?v=4",
+      "profile": "https://madelenecampos.com/",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

@@ -1,4 +1,5 @@
 # Content
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 [![buddy pipeline](https://app.buddy.works/breathecode/content/pipelines/pipeline/149869/badge.svg?token=7fd65f24ee0daa2c60600820880d585a0bf52da8e65b5ef1f886615b58237012 "buddy pipeline")](https://app.buddy.works/breathecode/content/pipelines/pipeline/149869)
 
@@ -37,3 +38,15 @@ This list of contents is just a draft, some can be deleted or more can be added.
 Contents can be tagged on the header of the markdown file, you can add as many tags as you want and later people will be able to search by tag.
 
 There are two types of tags: Technology and Category.
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars2.githubusercontent.com/u/10150439?v=4" width="100px;" alt="Madelene Campos"/><br /><sub><b>Madelene Campos</b></sub>](https://madelenecampos.com/)<br />[📖](https://github.com/breatheco-de/content/commits?author=Madelene "Documentation") |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
