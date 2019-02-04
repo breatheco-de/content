@@ -46,7 +46,7 @@ Console.log is amazing in JS, but in PHP, you will have to use echo for simple d
 ```javascript
 var simpleValue = ‘hello’;
 console.log(simpleValue);
-//This will print the content of the variable  
+//This will print the content of the variable
 var arrayValue = [‘Hello’,23, 76, ‘World’,43];
 console.log(arrayValue);
 //This will print the content of the array and its elements.
@@ -56,10 +56,10 @@ console.log(arrayValue);
 
 ```php{numberLines: true}
 $simpleValue = ‘Hello’;
-echo $simpleValue;   //this will print the content  
+echo $simpleValue;   //this will print the content
 $arrayValue = array(‘Hello’,23,76,’World’,43);
-echo $arrayValue;   //this will not work  
-print_r($arrayValue);  //this will work, printing the content of the array in a format like this:  
+echo $arrayValue;   //this will not work
+print_r($arrayValue);  //this will work, printing the content of the array in a format like this:
 CopyArray
 (
     [0] => Hello
@@ -106,8 +106,8 @@ print_r($value);
 
 ```javascript
 var myArray = [‘Academy’, ‘Coding’];
-myArray.push(‘4Geeks’); //Adding an item 
-//to remove the item in the INDEX position 
+myArray.push(‘4Geeks’); //Adding an item
+//to remove the item in the INDEX position
 myArray.splice(index, 1);
 ```
 
@@ -115,20 +115,35 @@ myArray.splice(index, 1);
 
 ```php
 $myArray = array(‘Academy’,’Coding’);
-array_push($myArray, ‘4Geeks’);  //adding an item 
-//to remove the item in the index position 
+array_push($myArray, ‘4Geeks’);  //adding an item
+//to remove the item in the index position
 unset($myArray[index]);
 $myArray = array_values($myArray);
 ```
 
 ### **Sorting Functions for Arrays**
 
+#### ![php syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
+
+```javascript
+const myArray = [2,5,1,4,7];
+myArray.sort();  //sorts array in ascending order
+/* Example output
+[1, 2, 4, 5, 7]
+*/
+myArray.reverse();  //sorts array in descending order
+/* Example output
+[7, 5, 4, 2, 1]
+*/
+
+```
+
 #### ![php syntax](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) With PHP
 
 ```php{numberLines: true}
 $myArray = array(2,5,1,4,7);
 sort($myArray);
-print_r($myArray);  //sort arrays in ascending order 
+print_r($myArray);  //sorts array in ascending order
 /* Example output
 Array
 (
@@ -137,9 +152,9 @@ Array
 [2] => 4
 [3] => 5
 [4] => 7
-)*/ 
+)*/
 rsort($myArray);
-print_r($myArray);  //sort arrays in descending order 
+print_r($myArray);  //sorts array in descending order
 /* Example output
 Array
 (
@@ -148,10 +163,10 @@ Array
 [2] => 4
 [3] => 2
 [4] => 1
-)*/ 
+)*/
 $myAssosiativeArray = array("SSN-9232323" => "Ramon Cornell", "SSN-5643233" => "Steban Dido", "SSN-5554433" => "Mikelly Reik", "SSN-3423344" => "Bob Stalin");
 asort($myAssosiativeArray);
-print_r($myAssosiativeArray);  //sort associative arrays in ascending order, according to the value 
+print_r($myAssosiativeArray);  //sort associative arrays in ascending order, according to the value
 /* Example output
 Array
 (
@@ -159,9 +174,9 @@ Array
 [SSN-5554433] => Mikelly Reik
 [SSN-9232323] => Ramon Cornell
 [SSN-5643233] => Steban Dido
-)*/ 
+)*/
 ksort($myAssosiativeArray);
-print_r($myAssosiativeArray);  //sort associative arrays in ascending order, according to the key 
+print_r($myAssosiativeArray);  //sort associative arrays in ascending order, according to the key
 /* Example output
 Array
 (
@@ -169,9 +184,9 @@ Array
 [SSN-5554433] => Mikelly Reik
 [SSN-5643233] => Steban Dido
 [SSN-9232323] => Ramon Cornell
-)*/ 
+)*/
 arsort($myAssosiativeArray);
-print_r($myAssosiativeArray);  //sort associative arrays in descending order, according to the value 
+print_r($myAssosiativeArray);  //sort associative arrays in descending order, according to the value
 /* Example output
 Array
 (
@@ -179,9 +194,9 @@ Array
 [SSN-9232323] => Ramon Cornell
 [SSN-5554433] => Mikelly Reik
 [SSN-3423344] => Bob Stalin
-)*/ 
+)*/
 krsort($myAssosiativeArray);
-print_r($myAssosiativeArray);  //sort associative arrays in descending order, according to the key 
+print_r($myAssosiativeArray);  //sort associative arrays in descending order, according to the key
 /* Example output
 Array
 (
