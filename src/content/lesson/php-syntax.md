@@ -10,7 +10,7 @@ tags: ["fale"]
 ## What is PHP
 ***
 
-PHP iss one of the most used back-end languages in the web.  In terms of functionality, it lets you do pretty much what any other back-end language lets you.  The syntax is pretty similar to JavaScript, and its biggest strength is the community – you can find tutorials and documentation for everything you do.
+PHP is one of the most used back-end languages in the web.  In terms of functionality, it lets you do pretty much what any other back-end language lets you.  The syntax is pretty similar to JavaScript, and its biggest strength is the community – you can find tutorials and documentation for everything you do.
 
 PHP has proven to be a great survivor: 82% of the web uses PHP.  Is the second language with the most interest from Google.  [In a stack-overflow 2018 developer survey](https://insights.stackoverflow.com/survey/2018), PHP was the most popular language amongst PHP, Ruby, Nodejs and Python.  PHP Frameworks are phenomenal: [Laravel](https://laravel.com/), Phpixie, etc.
 

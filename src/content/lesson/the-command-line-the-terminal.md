@@ -123,7 +123,7 @@ mkdir path/of/new/newdirectoryname
 #create newdirectoryname inside /path/of/new/
 ```
 
-The `rmdir` command
+### The `rmdir` command
 
 **The remove directory command**
 
@@ -186,7 +186,7 @@ This is one of the things that you cannot avoid doing in the terminal.  As a dev
 
 ### The `nano` command
 
-**It’s not really a command, but actually the name of "Nano," a text editor application.**
+**It’s not really a command, actually the name of "Nano" is a text editor application.**
 
 When working with the command line, sometimes you will have to open a file to review it and even change it.  For that, we use the "nano" command.  Nano basically opens a text editor within the command line.
 

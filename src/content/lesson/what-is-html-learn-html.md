@@ -129,7 +129,7 @@ In the case of HTML, the `<head>` can contain the following tags (among less imp
 |Style   |`<style>`   |If we can’t or don’t want to import a CSS style sheet, we may also define styles directly on the HTML document inside this tag.  This is a practice that we rarely recommend and should only be used when you don’t have any other choice.   |
 |Script   |`<script>`   |Used to add JavaScript code to the page.  All of the JavaScript code must be contained in these tags that can be used also in the BODY, if desired.  The difference is that any JavaScript code that we place in a style tag in the BODY won’t be available when the page begins to run (that’s exactly why the is HEAD is so useful).   |
 
-# **The <body> is Similar to any MS Word Document**
+# **The \<body\> is Similar to any MS Word Document**
 
 Ok, now that we are familiar with the general and necessary structure of the page, lets review the tags we can and must use to define the content of the page.
 
