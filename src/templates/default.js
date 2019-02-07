@@ -2,8 +2,8 @@ import React from "react";
 import { graphql } from 'gatsby';
 import rehypeReact from "rehype-react";
 import { Cover } from "../components/cover/cover.jsx";
-import { Layout } from "../components/layout/layout.jsx";
 import { BeforeAfter } from "../components/beforeafter/beforeafter.jsx";
+import { Layout } from "../components/layout/layout.jsx";
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
@@ -27,10 +27,8 @@ export default ({ data }) => {
           textColor={post.frontmatter.textColor} 
           subtitle={post.frontmatter.subtitle}
           time={post.fields.readingTime.text}
-          status={post.frontmatter.status}
         />
         <div className="post lesson">
-          <h1>template lesson</h1>
           {renderAst(post.htmlAst)}
         </div>
       </div>
@@ -39,14 +37,13 @@ export default ({ data }) => {
 };
 
 export const query = graphql`
-  query LessonQuery($slug: String!) {
+  query HowToQuery($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       htmlAst
       frontmatter {
         title
         subtitle
         cover
-        status
         thumb
         textColor
       }

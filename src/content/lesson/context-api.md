@@ -3,6 +3,7 @@ subtitle: "The Context API is the most recent tool that the React.js Team has ma
 title: "Implementing MVC with The Context API"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
+status: "draft"
 date: "2018-12-03"
 tags: ["reactjs"]
 
@@ -90,8 +91,3 @@ const TodoList = () => (<MyContext.Consumer>
 ## Test the code live
 
 <iframe src="https://codesandbox.io/embed/w75wq6v01k?hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0ODMwODAwXX0=
--->
