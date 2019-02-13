@@ -13,20 +13,20 @@ If you are teaching any course using the BreatheCo.de platform you are able to i
 1. Create an account in Repl.it (only if you don’t have one already).
 2. Click and enter into each of this classroom links and click on “import and teach” to import the class into your own replit account (see next steps for details).
 
-HTML Basic: [https://repl.it/community/classrooms/8388](https://repl.it/community/classrooms/8388)
-CSS Basic: [https://repl.it/community/classrooms/8694](https://repl.it/community/classrooms/8694)
-Basic Layouts: [https://repl.it/community/classrooms/8859](https://repl.it/community/classrooms/8859)
-Bootstrap 4:	[https://repl.it/community/classrooms/35182](https://repl.it/community/classrooms/35182)
-HTML5 Forms:	[https://repl.it/community/classrooms/9301](https://repl.it/community/classrooms/9301)
-Begin with JS:	[https://repl.it/community/classrooms/9869](https://repl.it/community/classrooms/9869)
-JS Arrays: [https://repl.it/community/classrooms/3756](https://repl.it/community/classrooms/3756)
-JS Functions: [https://repl.it/community/classrooms/4612](https://repl.it/community/classrooms/4612)
-JS DOM: [https://repl.it/community/classrooms/4616](https://repl.it/community/classrooms/4616)
-JS AJAX: [https://repl.it/community/classrooms/22688](https://repl.it/community/classrooms/22688)
-JS Events:	[https://repl.it/community/classrooms/4169](https://repl.it/community/classrooms/4169)
-Object Oriented JS:	[https://repl.it/community/classrooms/75196](https://repl.it/community/classrooms/75196)
-From JS to PHP (only for PHP):	[https://repl.it/community/classrooms/14434](https://repl.it/community/classrooms/14434)
-Object Oriented PHP (only for PHP):	[https://repl.it/community/classrooms/14422](https://repl.it/community/classrooms/14422)
+HTML Basic: [https://repl.it/community/classrooms/8388](https://repl.it/community/classrooms/8388)  
+CSS Basic: [https://repl.it/community/classrooms/8694](https://repl.it/community/classrooms/8694)  
+Basic Layouts: [https://repl.it/community/classrooms/8859](https://repl.it/community/classrooms/8859)  
+Bootstrap 4:	[https://repl.it/community/classrooms/35182](https://repl.it/community/classrooms/35182)  
+HTML5 Forms:	[https://repl.it/community/classrooms/9301](https://repl.it/community/classrooms/9301)  
+Begin with JS:	[https://repl.it/community/classrooms/9869](https://repl.it/community/classrooms/9869)  
+JS Arrays: [https://repl.it/community/classrooms/3756](https://repl.it/community/classrooms/3756)  
+JS Functions: [https://repl.it/community/classrooms/4612](https://repl.it/community/classrooms/4612)  
+JS DOM: [https://repl.it/community/classrooms/4616](https://repl.it/community/classrooms/4616)  
+JS AJAX: [https://repl.it/community/classrooms/22688](https://repl.it/community/classrooms/22688)  
+JS Events:	[https://repl.it/community/classrooms/4169](https://repl.it/community/classrooms/4169)  
+Object Oriented JS:	[https://repl.it/community/classrooms/75196](https://repl.it/community/classrooms/75196)  
+From JS to PHP (only for PHP):	[https://repl.it/community/classrooms/14434](https://repl.it/community/classrooms/14434)  
+Object Oriented PHP (only for PHP):	[https://repl.it/community/classrooms/14422](https://repl.it/community/classrooms/14422)  
 
 3. Once you have imported the class, you can generate a share link by scrolling down inside the class until you see the “student overview” section.
 4. To the right of that title, you will find an “Invite More” button that will show a small dialog with the link to share.
