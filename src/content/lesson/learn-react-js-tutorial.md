@@ -44,7 +44,7 @@ All of your new are a little part of your layout, but some are hidden at the beg
 
 #### No more html String Concatenation
 
-React.js comes with JSX, a special language that will let you build HTML on the Javascript side without having to wrap it within quotes (make it a string). Basically you'll are of the annoying HTML string concatenation. 
+React.js comes with JSX, a special language that will let you build HTML on the Javascript side without having to wrap it within quotes (make it a string). Basically you'll are off the annoying HTML string concatenation. 
 
 <br>
 <br>
@@ -185,6 +185,7 @@ Every component comes with a global object (shared within the same Component onl
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/r80q431L/10/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/r80q431L/10/embedded/js,html,result/">Click to open demo in a new window</a></small></div>
+
 ### The State Object is Unmutable (cannot be changed)
 
 The state value can only be modified calling the method this.setState() and you will have to pass a new state object that will be merged with the original value. For example:

@@ -2,7 +2,6 @@
 title: "About React JS"
 subtitle: "A 10 brief to explain react and it's perks"
 date: "2017-08-10"
-status: "draft"
 tags: ["fale"]
 ---
 

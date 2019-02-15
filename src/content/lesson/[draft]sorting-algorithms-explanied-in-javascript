@@ -1,0 +1,20 @@
+---
+title: "Using javascript to sort a list"
+subtitle: "Nobody manually sorts lists anymore, but it is still a fantastic way to master your algorithmic skills"
+cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
+status: "draft"
+textColor: "white"
+date: "2018-05-11"
+tags: ["sorting","algorithms","javascript"]
+
+---
+
+
+Here is a great bubble sorting visualization:
+https://codepen.io/lonekorean/pen/bqjzqr
+
+Here is another great visualization with all the most used algorithms:
+https://codepen.io/msurguy/pen/fBDJA
+
+Here is a real life benchmark of all the mayor sorting algorithms:
+https://codepen.io/villa7/pen/LyLVbj
