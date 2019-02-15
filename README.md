@@ -5,6 +5,8 @@
 
 CMS for the BreatheCode Platform
 
+Here is an API of all the lessons on the platform: https://content.breatheco.de/static/api/lessons.json
+
 ## Requierments
 
 #### 1) Markdown based
