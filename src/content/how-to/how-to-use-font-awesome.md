@@ -26,7 +26,3 @@ After adding the `<link>` tag you can start adding icons using `<i>` tags like t
 <i class="fas fa-pencil-alt"></i>
 ```
 You have to replace the class names with the ones that correspond with the icon that you pick from: [this list of icons](https://fontawesome.com/icons?d=gallery)
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODc4MTMyNzgsNDgzNTg4ODAyXX0=
--->

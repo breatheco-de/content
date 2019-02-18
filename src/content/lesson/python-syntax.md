@@ -57,10 +57,10 @@ There are only a few differences; here is the explanation:
 
 |**In Javascript**      |**In Python**       |
 |:----------------------|:-------------------|
-|Number                 |Python has the same "Number" data-type but it can accept more options than JS, like fractions (2/3) or complex numbers.<br> `python>myNumber = 23.23;  //float`<br>`python> myNumber = 54;  //integer` <br>`python>myNumber = 12.00;  //float (even with 00 as decimals). `    |
-|Undefined/Null is now: ***None***    |The ***undefined*** data-type is not available in Python.  Here "undefined" and "null" are the same data-type: ***None.***<br> `python>myNumber;  //is None because it was not defined`       |
-|Array     |In Python, the Arrays are called "List" and they are similar to JS Arrays but way more flexible and easier to work with.<br>`python>myArray = ['Juan','John','Steven']; //array of numeric indexes`       |
-|Object       |In Javascript, objects and dictionaries are almost the same.  You can do whatever you want to an object because you don’t have to declare its Class first and stick to its definition.<br> `python>var myCar = {}`<br> `python>myCar.color = 'blue';` <br><br>Python, on the other hand, separates the Dictionary data-type form the Object data-type. Objects cannot be informally declared.  You must first define their class before being able to instantiate them.<br><br>`python>class Car(object):`<br>`python>def __init__(self, color):`<br>`python>self.color = i` <br>`python>myCar = Car('blue')`       |
+|Number                 |Python has the same "Number" data-type but it can accept more options than JS, like fractions (2/3) or complex numbers.<br> `python>myNumber = 23.23  //float`<br>`python> myNumber = 54  //integer` <br>`python>myNumber = 12.00  //float (even with 00 as decimals). `    |
+|Undefined/Null is now: ***None***    |The ***undefined*** data-type is not available in Python.  Here "undefined" and "null" are the same data-type: ***None.***<br> `python>myNumber  //is None because it was not defined`       |
+|Array     |In Python, the Arrays are called "List" and they are similar to JS Arrays but way more flexible and easier to work with.<br>`python>myArray = ['Juan','John','Steven'] //array of numeric indexes`       |
+|Object       |In Javascript, objects and dictionaries are almost the same.  You can do whatever you want to an object because you don’t have to declare its Class first and stick to its definition.<br> `python>myCar = {}`<br> `python>myCar.color = 'blue'` <br><br>Python, on the other hand, separates the Dictionary data-type form the Object data-type. Objects cannot be informally declared.  You must first define their class before being able to instantiate them.<br><br>`python>class Car(object):`<br>`python>def __init__(self, color):`<br>`python>self.color = i` <br>`python>myCar = Car('blue')`       |
 |Sets and Tuples      |Javascript has nothing similar, they can be very useful: Tuples are ordered; unmutable sequences of values are unordered bags of values.      |
 |String       |Is the same in Python.     |
 
@@ -82,6 +82,8 @@ In Python, you can make any folder a package by creating a *\__init\__.py* file 
 
 ```python
 from . import
+
+
 ```
 <br>
 <br>
@@ -99,8 +101,9 @@ What NPM is for Javascript, PIP is for Python.  Both beasts are amazing but very
 ```python
 # In python subtracting strings will throw an error, instead you should do: 
 
-var result = int('5') - int('2'); 
+result = int('5') - int('2') 
 #result now is equal to 3
+
 ```
 
 <br>
@@ -124,8 +127,9 @@ var result = '5' - '2';
 ```python
 # In python subtracting strings will throw an error, instead you should do: 
 
-var result = int('5') - int('2'); 
+result = int('5') - int('2')
 #result now is equal to 3
+
 ```
 
 <br>
@@ -156,10 +160,10 @@ console.log(arrayValue);
 #### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
 
 ```python
-simpleValue = ‘Hello’;
-print(simpleValue);  //this will print the content 
-arrayValue =[‘Hello’,23,76,’World’,43];
-print(arrayValue); //this will work, printing the content of the array in a format like this: [‘Hello’,23,76,’World’,43]
+simpleValue = ‘Hello’
+print(simpleValue)  //this will print the content 
+arrayValue =[‘Hello’,23,76,’World’,43]
+print(arrayValue) //this will work, printing the content of the array in a format like this: [‘Hello’,23,76,’World’,43]
 ```
   
 
@@ -243,6 +247,8 @@ for(var i = 0; i < myArray.length; i++){
 colors = ["red", "green", "blue", "purple"]
 for color in colors:
     print(color)
+    
+
 ```
 
 <br>
@@ -367,7 +373,8 @@ obj.lastname = "Perez"
 
 
 
-
+<br>
+<br>
 
 
 

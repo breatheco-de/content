@@ -30,7 +30,6 @@ export default ({ data }) => {
           status={post.frontmatter.status}
         />
         <div className="post lesson">
-          <h1>template lesson</h1>
           {renderAst(post.htmlAst)}
         </div>
       </div>

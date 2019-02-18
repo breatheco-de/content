@@ -1,0 +1,41 @@
+{
+  "projectName": "content",
+  "projectOwner": "breatheco-de",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Madelene",
+      "name": "Madelene Campos",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10150439?v=4",
+      "profile": "https://madelenecampos.com/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "alesanchezr",
+      "name": "Alejandro Sanchez",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/426452?v=4",
+      "profile": "https://alesanchezr.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "camilocoo",
+      "name": "Camilo Contreras ",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43814860?v=4",
+      "profile": "https://github.com/Camilocoo",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
