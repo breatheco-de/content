@@ -5,6 +5,7 @@ module.exports = {
     description:
       "Accelerate the you learn and evolve your coding skills.",
     url: "https://www.breathco.de", // No trailing slash allowed!
+    contentGithubURL: "https://github.com/breatheco-de/content/tree/master/src/content", // No trailing slash allowed!
     image: "/images/snape.jpg", // Path to your image you placed in the 'static' folder
     twitterUsername: "@breatehcode",
   },

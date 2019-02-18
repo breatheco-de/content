@@ -8,7 +8,7 @@ export const Cover = ({title, subtitle, time, background, textColor, status, aut
     }}
     className={styles.cover}>
     <div className="container">
-        { status === "draft" ?
+        { status !== "published" ?
             <div className={"alert alert-danger "+styles.alert}>This is a draft lesson and it may still be under review</div>
             : ''
         }
