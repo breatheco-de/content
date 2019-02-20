@@ -39,7 +39,69 @@ As it was to be expected, if you wish to share documents, all you need is text. 
 
 What this means is that: everything is text.  For example, if you wish to send a photograph to your grandmother through an email, this is more or less what happens:
 
-The picture becomes text (at this point, its text that you wont be able to understand).
-It gets transmitted through the Internet as text.  If a hacker intercepts this, what they would see is a bunch of symbols/letters/numbers one after the other.
-That chain of characters arrives at your grandmother’s computer.
-Your grandmother double clicks the photo and the program she is using to see the photo transforms that text back into an image understandable to a human.
++ The picture becomes text (at this point, its text that you wont be able to understand).
++ It gets transmitted through the Internet as text.  If a hacker intercepts this, what they would see is a bunch of symbols/letters/numbers one after the other.
++ That chain of characters arrives at your grandmother’s computer.
++ Your grandmother double clicks the photo and the program she is using to see the photo transforms that text back into an image understandable to a human.
+
+![what is the internet](https://ucarecdn.com/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e/)
+  
+<small style="color:grey">Image 1: The 4 steps needed to send images over the internet: first it turns to text, then it travels, then it arrives at grandma's computer, grandma opens the picture and the picture shows… lastly, grandma is happy looking at her grandson!</small>
+
+## But how do Pictures (and stuff) travel?
+
+Everything is connected.  The best way to understand this is by comparing it to the postal service:
+
++ The highways and streets are the network cables on your walls (or the transmission antennas on the roofs).
++ The vehicles that transport the mail are the traveling information packages.
++ The houses, buildings and stores are the web pages/online shopping sites – parks would be social networks, etc.
++ The street address is the famous domain name (.com, .net, etc.)
++ The building lots are the servers where the web pages are hosted.
+
+
+<iframe width="807" height="453" src="https://www.youtube.com/embed/UiBT3Kj8KBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<small style="text-align: center">
+<strong>Video:</strong> 2 min video explaining how the internet works.
+</small>
+
+## The Web Browser
+
+Remember how we said servers are the building lots?  Well, to host a website, servers must meet all the requirements necessary so that the web page won’t crash (just like the building lots).
+
+Websites reside on servers.  When users want to visit websites, they must enter the URL address in their browser.  This will take them to the lobby or entrance of the web page (which is called the “index.html”).
+
+Imagine that browsers are vehicles able to drive through the highways of the Internet, taking you anywhere!
+
+If you’ve been reading and have understood everything so far, you must be wondering:
+
+### If the Internet is all text… then, when I’m navigating I’m going to see only text???  How horrible!!!
+
+Well, don’t worry!  Browsers are equipped with magical windows.  If you see through those windows you will see the world as it is: No Text!!  The browser must perform all the functions that all other applications in your computer will accomplish.  Like representing images, videos, text, sounds, etc., the browser is so great that there are even computers – like the Google Chromecast – that only come with a browser.
+
+[Click here](https://www.youtube.com/watch?v=0QRO3gKj3qw) to access a video that explains how a Google Chrome Book works.
+
+## The Client and The Server
+
+As you browse the Internet, the browser must translate every text it finds along the way while transforming the text into web pages with titles, subtitles, text, images, etc.
+
+As a developer, you need to code everything that the browser is going to need to visualize the text.  We will call it “the client side” because the browser is installed on the computer of the user.  Likewise, all the code found on the client side will be processed by that computer.
+
+The server has no idea of what the browser does! (Or at least it didn’t at the beginning (several years ago), and, to tell you the truth, it still doesn’t really know).
+
+So, what does the server do?
+
+Well, it does a lot!  The server is responsible for preparing the text that will be read by the browser.  The three major challenges for the server are:
+
++ **Speed:** for each server, there are thousands of clients.  The server must be very fast in order to answer each client as quickly as possible.
++ **Concurrence:** not only there are thousands of clients, each client requests text at the same time as many others.  The server must be able to answer many demands simultaneously.
++ **Efficiency:** at times, clients have demands that are very hard to resolve – even if it is only one client.  Imagine for a second that you are using Google Maps to figure out how long it takes to travel from Caracas to Santiago de Chile.  The server has to check traffic data, routes, accidents and run some sort of algorithm to obtain the estimated time of arrival (ETA).  Even if the result is a simple chain of characters like “two days, 2 hours and 30 minutes,” the server had to make thousands of calculations to arrive to that conclusion.
+So…lets summarize:
+
+![what is the internet](https://ucarecdn.com/57821cbc-5ba0-4e1c-9b90-7f1df7c637fa/-/resize/200x/)
+
+ 
+
+
+
+
