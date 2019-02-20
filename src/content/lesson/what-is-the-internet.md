@@ -22,14 +22,15 @@ The scientific community started using it for the famous [“Peer Reviews”](ht
 
 For this reason, they worked on something as similar as possible to a Microsoft Word document or any other word processor.
 
-If you wish to find out more about the history of the Internet, we recommend [this super cool 2 min video;](https://www.youtube.com/watch?v=h8K49dD52WA)] if you would rather read about it, [click on this link.](https://www.internetsociety.org/internet/history-internet/brief-history-internet/)
+[[info]]
+|:link: If you wish to find out more about the history of the Internet, we recommend [this super cool 2 min video;](https://www.youtube.com/watch?v=h8K49dD52WA)] if you would rather read about it, [click on this link.](https://www.internetsociety.org/internet/history-internet/brief-history-internet/)
 
 
 >To summarize:
 >
 >The easiest way to look at the Internet is that it is like a network of shared documents that were once rigid, formal scientific publications and, nowadays, are interactive, exciting and spectacular.
 
-![what is the internet](https://ucarecdn.com/ffe440de-8746-4ab5-81cc-37ef107155e9/-/resize/200x/)
+![what is the internet](https://ucarecdn.com/ffe440de-8746-4ab5-81cc-37ef107155e9/-/resize/500x/)
 
 
 ## Everything is Text (HTTP)
@@ -61,9 +62,9 @@ Everything is connected.  The best way to understand this is by comparing it to 
 
 <iframe width="807" height="453" src="https://www.youtube.com/embed/UiBT3Kj8KBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<small style="text-align: center">
+<p style="text-align:center;"><small>
 <strong>Video:</strong> 2 min video explaining how the internet works.
-</small>
+</small><p>
 
 ## The Web Browser
 
@@ -79,7 +80,8 @@ If you’ve been reading and have understood everything so far, you must be wond
 
 Well, don’t worry!  Browsers are equipped with magical windows.  If you see through those windows you will see the world as it is: No Text!!  The browser must perform all the functions that all other applications in your computer will accomplish.  Like representing images, videos, text, sounds, etc., the browser is so great that there are even computers – like the Google Chromecast – that only come with a browser.
 
-[Click here](https://www.youtube.com/watch?v=0QRO3gKj3qw) to access a video that explains how a Google Chrome Book works.
+[[info]]
+| :tv: [Click here](https://www.youtube.com/watch?v=0QRO3gKj3qw) to access a video that explains how a Google Chrome Book works.
 
 ## The Client and The Server
 
@@ -98,24 +100,11 @@ Well, it does a lot!  The server is responsible for preparing the text that will
 + **Efficiency:** at times, clients have demands that are very hard to resolve – even if it is only one client.  Imagine for a second that you are using Google Maps to figure out how long it takes to travel from Caracas to Santiago de Chile.  The server has to check traffic data, routes, accidents and run some sort of algorithm to obtain the estimated time of arrival (ETA).  Even if the result is a simple chain of characters like “two days, 2 hours and 30 minutes,” the server had to make thousands of calculations to arrive to that conclusion.
 So…lets summarize:
 
-![what is the internet](https://ucarecdn.com/57821cbc-5ba0-4e1c-9b90-7f1df7c637fa/-/resize/200x/)
+![what is the internet](https://ucarecdn.com/57821cbc-5ba0-4e1c-9b90-7f1df7c637fa/)
 
  
-|The Server   |The Client    |
-|-------------|--------------|
-|The server’s mission is to deliver all the text/information the client needs to render the website properly.  It has a close relationship with the database (which manages and processes the data).  It handles a high volume of information and is prepared to answer thousands of clients requests at the same time.
+| The Server   |      The Client       |
+|----------|:-------------:|
+|The server’s mission is to deliver all the text/information the client needs to render the website properly.  It has a close relationship with the database (which manages and processes the data).  It handles a high volume of information and is prepared to answer thousands of clients requests at the same time.<br><br>The most frequent languages used are PHP, Python, Ruby and Java.<br><br>Little by little, the server has come to delegate part of its load.  It handles fewer things now than before, but the ones it still handles are repeated many times.  There are even services like Parse.com or Firebase.com that have created tools that allow developers to create web apps without even using their own server.<br><br>All the code that runs on the side of the server is called “The Back-End.”  Back-End developers must strengthen their knowledge in databases, Bid Data, Data Mining, Security, Web Sockets, Web Services, API’s, etc. |The client includes all code that runs on the computer or device of the client. The most frequent languages are: HTML5, CSS3, JavaScript.<br><br>Originally, the code that resided in the client didn’t do much because the documents were very simple.  But things have changed; technology has given more relevance to the client to a point in which today there are thousands of apps that have more code on the client’s side than on the server side.<br><br>Running the code on the client side frees the load of the server.  After all, there is ONLY ONE server per THOUSANDS of clients.<br><br>All code on the side of the client is called “The Front-End.”<br><br>Front End developers are mostly dedicated to JavaScript, and maybe diagramming websites with HTML5 or CSS3 (designers may also do this last part).  This means that they must integrate multiple API’s, manage almost all the data processing on the client side (to avoid having too much interactions with the server), graph data, 3D modeling, games, jQuery plugins, AJAX, etc. |
 
-The most frequent languages used are PHP, Python, Ruby and Java.
-
-Little by little, the server has come to delegate part of its load.  It handles fewer things now than before, but the ones it still handles are repeated many times.  There are even services like Parse.com or Firebase.com that have created tools that allow developers to create web apps without even using their own server.
-
-All the code that runs on the side of the server is called “The Back-End.”  Back-End developers must strengthen their knowledge in databases, Bid Data, Data Mining, Security, Web Sockets, Web Services, API’s, etc.       | The client includes all code that runs on the computer or device of the client. The most frequent languages are: HTML5, CSS3, JavaScript.
-
-Originally, the code that resided in the client didn’t do much because the documents were very simple.  But things have changed; technology has given more relevance to the client to a point in which today there are thousands of apps that have more code on the client’s side than on the server side.
-
-Running the code on the client side frees the load of the server.  After all, there is ONLY ONE server per THOUSANDS of clients.
-
-All code on the side of the client is called “The Front-End.”
-
-Front End developers are mostly dedicated to JavaScript, and maybe diagramming websites with HTML5 or CSS3 (designers may also do this last part).  This means that they must integrate multiple API’s, manage almost all the data processing on the client side (to avoid having too much interactions with the server), graph data, 3D modeling, games, jQuery plugins, AJAX, etc.       |
-
+    
