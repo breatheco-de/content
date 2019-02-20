@@ -1,14 +1,14 @@
 import React from 'react';
 import styles from './cover.module.scss';
 
-export const Cover = ({title, subtitle, time, background, textColor, status}) => (<div 
+export const Cover = ({title, subtitle, time, background, textColor, status, author}) => (<div 
     style={{
         backgroundImage: `url(${background})`,
         color: textColor
     }}
     className={styles.cover}>
     <div className="container">
-        { status === "draft" ?
+        { (status !== "published" && typeof status === "string") ?
             <div className={"alert alert-danger "+styles.alert}>This is a draft lesson and it may still be under review</div>
             : ''
         }
@@ -16,6 +16,7 @@ export const Cover = ({title, subtitle, time, background, textColor, status}) =>
             <div className="col">
                 <small>{time}</small>
                 <h1>{title}</h1>
+                { typeof author !== 'string' ? '':<span>by <a rel="noopener noreferrer nofollow" target="_blank" href={"https://github.com/"+author}>@{author}</a></span> }
             </div>
             <div className="col mt-4">
                 {subtitle}

@@ -40,7 +40,6 @@ Here are some of the types of events that are constantly being triggered (and yo
 |Mouseover,<br>Mouseout    |The event occurs when the pointer is moved onto (for mouseover) or outside (for mouseout) an element, or one of its children.    |
 |contextmenu    |When the user right clicks on the mouse.    |
 |Mousemove     |If the user moves the mouse    |
-|Mousemove     |If the user moves the mouse.     |
 |Mousedown or Mouseup     |If the user presses or releases the mouse.    |
 
 [[demo]]
@@ -141,12 +140,6 @@ function myClickHandler(){
 Sometimes the DOM element doesn’t exist from the beginning.  Maybe they are created after a database call or after the user did something.  To solve that problem, you need to start listening after the new elements are created.
 
 The .addEventListener function is perfect for this because it can be used in any DOM element during runtime.
-
-
-Sometimes the DOM element doesn’t exist from the beginning.  Maybe they are created after a database call or after the user did something.  To solve that problem, you need to start listening after the new elements are created.
-
-The .addEventListener function is perfect for this because it can be used in any DOM element during runtime.
-
 
 When using the addEventListener function, you have to specify what **event** you want to listen to, and **the handler function** that will be called every time that event is triggered on that DOM element.
 

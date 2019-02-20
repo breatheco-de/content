@@ -1,28 +1,22 @@
 ---
-title: "Mentor Guidelines"
-subtitle: "How to be the best possible mentor for teaching code"
+title: "Pautas para el Mentor"
+subtitle: "Cómo ser el mejor mentor posible para enseñar código."
 date: "2017-09-24"
-status: "draft"
-author: "alesanchezr"
 tags: ["fale"]
 ---
-# Mentoring Guidelines
+# Pautas de Tutoría
 
 [[demo]]
-| Since in the previous chapter we equated houses, stores and buildings to web pages, now we have to say that HTML are the blueprints.
+|Como en el capítulo anterior equiparamos las casas, tiendas y edificios con las páginas web, ahora debemos decir que HTML son los planos.
 
 
-Mentorship main goals:
-1. Bring context to the class, review theory at the beginning and maybe explain concepts that are not properly understand.
-2. Unstuck students, them motivated, make them fall in love with coding.
-3. Make students engage with the academy and learn in public.
-Secondary goals:
-1. Make students engage with the academy and [learn in public](https://www.youtube.com/watch?v=mgbEGFOtgqM&feature=youtu.be&t=59s).
+Objetivos principales de la tutoría:
+1. Lleve el contexto a la clase, revise la teoría al principio y quizás explique los conceptos que no se entienden correctamente.
+2. Los estudiantes despegados, motivados, hacen que se enamoren de la codificación.
+3. Haga que los estudiantes se involucren con la academia y aprendan en público.
+Objetivos secundarios:
 
-Secondary goals:
-4. 
-5. St
-6. 
+1. Hacer que los estudiantes se involucren con la academia y [aprender en público](https://www.youtube.com/watch?v=mgbEGFOtgqM&feature=youtu.be&t=59s).
 
 
 <before-after width="500px" before="https://ucarecdn.com/6cc5fb13-c065-407d-873e-e9a49db474d6/" after="https://ucarecdn.com/6cc5fb13-c065-407d-873e-e9a49db474d6/"></before-after>

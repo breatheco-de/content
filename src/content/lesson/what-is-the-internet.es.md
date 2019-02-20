@@ -1,44 +1,49 @@
 ---
-title: "About React JS"
-subtitle: "A 10 brief to explain react and it's perks"
+title: "Que es el Internet?"
+subtitle: "Que es el Internet: Todo lo que se ve en internet es un documento de texto. Todo!! Como desarrolladores, todo lo que hacemos es generar trozos de texto basados en un conjunto de criterios. Si entiendes este simple concepto, el cielo será el limite."
+
+cover: "https://ucarecdn.com/05a36362-c09f-4961-a7b9-8e3132a902b1/"
+
+textColor: "white"
+
 date: "2017-08-10"
 tags: ["fale"]
 ---
 
-## Dillinger
+## Todo cobra sentido si retrocedemos en el tiempo…
 
-Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor. Wepale!
+Si todo es un documento de texto, como es posible tener sitios web tan increibles como FAcebook, Youtube, etc?
 
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
+Los sitios web de hoy son muy diferentes que antes; no tienen los mismos elementos, pero si retrocedemos un poco en el pasado y exploramos el comienzo de Internet, todo tendrá sentido.
 
-```js
-const hello = '';
-```
+La Internet fue creada para intercambiar información, sus fundadores estaban buscando compartir documentos de forma rápida y sin tener que manejar una infraestructura compleja y costosa. Simplemente definieron un marco de trabajo y desarrollaron las tecnologías para que cualquier persona que quisiera compartir un documento pudiera publicarlo e invitar a los demás a leerlo.
 
-## New Features!
+La comunidad científica lo utilizo para los famosos  ["Peer Reviews"](https://www.elsevier.com/reviewers/what-is-peer-review), que se utilizan para que tus colegas revisen y aprueben una publicación antes de ser aceptada y publicada por la comunidad.
 
-  - Import a HTML file and watch it magically convert to Markdown
-  - Drag and drop images (requires your Dropbox account be linked)
+Por esta razón buscaron hacer algo que se asemejara lo más posible a un documento de MS Word o cualquier procesador de texto.
+
+[[info]]
+| :point_up: Si quieres seguir leyendo sobre la historia de internet te recomendamos ["este video super cool."](https://www.youtube.com/watch?v=BWb6ri3ePew)
 
 
-You can also:
-  - Import and save files from GitHub, Dropbox, Google Drive and One Drive
-  - Drag and drop markdown and HTML files into Dillinger
-  - Export documents as Markdown, HTML and PDF
+> Entonces, la forma más sencilla de ver Internet es como una red de documentos compartidos. Documentos que alguna vez fueron publicaciones científicas 
+> rígidas y formales que hoy vemos como documentos interactivos, emocionantes y espectaculares.
 
-Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site][df1]
 
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
+![What is the internet](https://breatheco.de/wp-content/uploads/2017/01/86675a97e9c272de762940f781cca976-1024x512.jpg)
 
-This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
+
+## Todo es texto (HTTP)
+
+Como era de esperarse, si vas a compartir documentos todo lo que necesitas es texto. Cuando haces páginas web todo corre bajo el protocolo HTTP (The Hypertext Transfer Protocol) que es un especialista en la transmisión de texto.
+
+Lo que esto quiere decir es que: **todo es texto**. Pues sí, si quieres enviarle una foto a tu abuela por correo electrónico entonces ocurren mas o menos las siguientes cosas:
+
+
+La foto se convierte en texto (un texto que, en este momento, no vas a poder entender).
+It gets transmitted through the Internet as text.  If a hacker intercepts this, what they would see is a bunch of symbols/letters/numbers one after the other.
+That chain of characters arrives at your grandmother’s computer.
+Your grandmother double clicks the photo and the program she is using to see the photo transforms that text back into an image understandable to a human.
 
 ### Tech
 
@@ -63,7 +68,7 @@ Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
 
 Install the dependencies and devDependencies and start the server.
 
-```sh
+```bash
 $ cd dillinger
 $ npm install -d
 $ node app
@@ -71,7 +76,7 @@ $ node app
 
 For production environments...
 
-```sh
+```bash
 $ npm install --production
 $ NODE_ENV=production node app
 ```
@@ -203,8 +208,6 @@ MIT
 <iframe src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>
 
 <div align="right"><small><a href="https://www.youtube.com/embed/4n0xNbfJLR8">Click here to open video in a new window</a></small></div>
-
-
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbNzAzNjkyMjAzXX0=
 -->
