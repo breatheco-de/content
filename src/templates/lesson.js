@@ -1,25 +1,28 @@
 import React from "react";
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import rehypeReact from "rehype-react";
 import { Cover } from "../components/cover/cover.jsx";
 import { Layout } from "../components/layout/layout.jsx";
 import { BeforeAfter } from "../components/beforeafter/beforeafter.jsx";
 import { EditOnGithub } from "../components/editongithub/EditOnGithub.jsx";
-import { Link } from "gatsby";
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: { "cover": Cover, "before-after": BeforeAfter }
 }).Compiler;
 
-export default ({ data }) => {
+const Lesson = (props) => {
+  const { data, pageContext, t, i18n } = props;
   const post = data.markdownRemark;
+  const { translations } = pageContext;
   const seo = {
     title: post.frontmatter.title,
     description: post.frontmatter.subtitle,
     url: post.frontmatter.original_url,
-    image: post.frontmatter.thumb
+    image: post.frontmatter.thumb,
+    canonical: (post.fields.lang === 'en') ? "/es/" : "/en/"
   };
+  console.log(props);
   return (
     <Layout seo={seo}>
       <div>
@@ -36,27 +39,28 @@ export default ({ data }) => {
         <div className="post lesson">
           {renderAst(post.htmlAst)}
         </div>
-        { post.fields.lang === "en" && 
-          <Link className="language-switcher" to={post.fields.translations.es}>
-            Read this lesson in Spanish
+          <Link className="language-switcher" to={(post.fields.lang === "en" ? translations["es"]:translations["en"])}>
+            {(post.fields.lang === 'en') ? "Leer en español" : "Read in English"}
           </Link>
-        }
       </div>
     </Layout>
   );
 };
+export default Lesson;
+//export default translate("lesson")(Lesson);
 
 export const query = graphql`
-  query LessonQuery($slug: String!) {
+  query LessonQuery($slug: String!, $lang: String!) {
     site {
       siteMetadata {
         contentGithubURL
       }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(fields: { slug: { eq: $slug }, lang: { eq: $lang}}) {
       htmlAst
       frontmatter {
         title
+        slug
         subtitle
         cover
         status
@@ -66,6 +70,8 @@ export const query = graphql`
       }
       fields {
         slug
+        lang
+        type
         readingTime {
           text
         }

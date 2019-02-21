@@ -3,13 +3,12 @@ import Link from 'gatsby-link';
 import { graphql } from 'gatsby';
 
 export default ({ data }) => {
-  const path = "lesson";
   const post = data.allMarkdownRemark.edges.map(({node}, key)=>{
-    var result = node.fields.slug.split("/");
-    if(result[1] === path){
+    console.log(node.fields);
+    if(node.fields.type === "lesson"){
       return (
         <div className="col-md-4" key={key}>
-          <Link to={node.fields.slug}>
+          <Link to={node.fields.url}>
             <h3>{node.frontmatter.title}{" "}</h3>
           </Link>
             <p>{node.excerpt}</p>
@@ -39,6 +38,8 @@ export const query = graphql`
           }
           fields {
             slug
+            url
+            type
           }
           excerpt
         }

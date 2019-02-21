@@ -4,32 +4,64 @@ const path = require("path");
 var md = require('markdown-it');
 var fa = require('markdown-it-fontawesome');
 const fs = require('fs');
- 
+
 md().use(fa);
+
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
   if (node.internal.type === `MarkdownRemark`) {
-    const meta = getMetaFromPath(node.fileAbsolutePath);
-    createNodeField({ node, name: `lang`, value: meta.lang });
-    createNodeField({
-      node, name: `slug`,
-      value: meta.type+"/"+((typeof node.frontmatter.slug == 'string') ? node.frontmatter.slug : meta.urlSlug),
-    });
+    const meta = getMetaFromPath(node);
+    if(meta){
+      createNodeField({ node, name: `lang`, value: meta.lang });
+      createNodeField({
+        node, name: `slug`,
+        value: meta.slug,
+      });
+      createNodeField({
+        node, name: `type`,
+        value: meta.type,
+      });
+      createNodeField({
+        node, name: `url`,
+        value: meta.type + "/" + meta.slug,
+      });
+    }
   }
 };
 
-const getMetaFromPath = (pagePath) => {
+
+const buildTranslations = (nodes) => {
+  let translations = {};
+  nodes.forEach(({ node }) => {
+    const meta = getMetaFromPath(node);
+    if(typeof translations[meta.urlSlug] === 'undefined') translations[meta.urlSlug] = {};
+    translations[meta.urlSlug][meta.lang] = !meta.customSlug ? meta.lang+"/" : "";
+    translations[meta.urlSlug][meta.lang] += meta.type + "/" + meta.slug;
+  });
+  return translations;
+};
+// exports.onPostBuild = () => {
+//   fs.copySync(
+//     path.join(__dirname, "/src/locales"),
+//     path.join(__dirname, "/public/locales")
+//   );
+// };
+
+const getMetaFromPath = ({ fileAbsolutePath, frontmatter }) => {
   const regex = /\/([\w-]*)\/([\w-\]\[]*)\.?(\w{1,2})?\.md/gm;
-  let m = regex.exec(pagePath);
+  let m = regex.exec(fileAbsolutePath);
   if(!m) return false;
+  
+  const lang = m[3] || "en";
+  const customSlug = (typeof frontmatter.slug === "string");
+  const urlSlug = m[2];// + (lang == "es" ? "-es": "");
+  const slug = (customSlug) ? frontmatter.slug : urlSlug;
   let meta = {
+    lang, urlSlug, customSlug, slug,
+    type: m[1],
     template: path.resolve(`./src/templates/default.js`),
-    urlSlug: m[2],
-    lang: m[3] || "en",
-    type: m[1]
   };
   if(meta.type == "lesson") meta.template = path.resolve(`./src/templates/lesson.js`);
-  
   return meta;
 };
 
@@ -47,39 +79,44 @@ exports.createPages = ({ actions, graphql }) => {
               fields {
                 lang
                 slug
+                url
               }
               frontmatter{
                 tags
+                slug
               }
             }
           }
         }
       }
     `).then(result => {
+      
+      const translations = buildTranslations(result.data.allMarkdownRemark.edges);
       result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-        if(node.fields.slug){
-          const meta = getMetaFromPath(node.fileAbsolutePath);
-          if(meta.lang == "en"){
+        const meta = getMetaFromPath(node);
+        if(meta){
+          if(meta.lang === "en" || meta.customSlug){
             createPage({
-              path: node.fields.slug,
+              path: node.fields.url,
               component: meta.template,
               context: {
                 // Data passed to context is available in page queries as GraphQL variables.
-                slug: node.fields.slug
+                url: node.fields.url,
+                slug: node.fields.slug,
+                lang: meta.lang,
+                translations: translations[meta.urlSlug]
               },
             });
           }
           createPage({
-            path: meta.lang+"/"+node.fields.slug,
+            path: meta.lang+"/"+node.fields.url,
             component: meta.template,
             context: {
               // Data passed to context is available in page queries as GraphQL variables.
+              url: meta.lang+"/"+node.fields.url,
               slug: node.fields.slug,
               lang: meta.lang,
-              translations: {
-                es: "es/"+node.fields.slug,
-                en: "en/"+node.fields.slug
-              }
+              translations: translations[meta.urlSlug]
             },
           });
         }
@@ -109,6 +146,6 @@ exports.createPages = ({ actions, graphql }) => {
       // });
       
       resolve();
-    });
+    }).catch(err => console.error(err));
   });
 };
