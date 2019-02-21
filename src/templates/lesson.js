@@ -40,7 +40,7 @@ const Lesson = (props) => {
           {renderAst(post.htmlAst)}
         </div>
           <Link className="language-switcher" to={(post.fields.lang === "en" ? translations["es"]:translations["en"])}>
-            {(post.fields.lang === 'en') ? "Leer en español" : "Read in English"}
+            {(post.fields.lang === 'en') ? "Leer en español 🇪🇸" : "Read in English 🇺🇸"}
           </Link>
       </div>
     </Layout>
