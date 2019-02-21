@@ -1,4 +1,5 @@
 ---
+slug: "desarrollo-agil"
 title: "Introducción al desarrollo profesional y ágil."
 subtitle: "Todo lo que aprendió se debe juntar. ¡Hagamos nuestra primera aplicación profesional completa usando el método de desarrollo ágil!"
 cover: "https://ucarecdn.com/98208ebb-dcb3-4e40-9ae4-4ec886213f97/"

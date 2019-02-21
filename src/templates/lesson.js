@@ -5,6 +5,7 @@ import { Cover } from "../components/cover/cover.jsx";
 import { Layout } from "../components/layout/layout.jsx";
 import { BeforeAfter } from "../components/beforeafter/beforeafter.jsx";
 import { EditOnGithub } from "../components/editongithub/EditOnGithub.jsx";
+import { Link } from "gatsby";
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
@@ -35,6 +36,11 @@ export default ({ data }) => {
         <div className="post lesson">
           {renderAst(post.htmlAst)}
         </div>
+        { post.fields.lang === "en" && 
+          <Link className="language-switcher" to={post.fields.translations.es}>
+            Read this lesson in Spanish
+          </Link>
+        }
       </div>
     </Layout>
   );
