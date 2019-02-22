@@ -1,10 +1,11 @@
 import React from "react";
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import rehypeReact from "rehype-react";
 import { Cover } from "../components/cover/cover.jsx";
 import { Layout } from "../components/layout/layout.jsx";
 import { BeforeAfter } from "../components/beforeafter/beforeafter.jsx";
 import { EditOnGithub } from "../components/editongithub/EditOnGithub.jsx";
+import { LanguageSwitcher } from "../components/languageswitcher/LanguageSwitcher.jsx";
 
 const renderAst = new rehypeReact({
   createElement: React.createElement,
@@ -39,9 +40,7 @@ const Lesson = (props) => {
         <div className="post lesson">
           {renderAst(post.htmlAst)}
         </div>
-          <Link className="language-switcher" to={(post.fields.lang === "en" ? translations["es"]:translations["en"])}>
-            {(post.fields.lang === 'en') ? "Leer en español 🇪🇸" : "Read in English 🇺🇸"}
-          </Link>
+          <LanguageSwitcher current={post.fields.lang} translations={translations} />
       </div>
     </Layout>
   );
