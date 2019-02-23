@@ -15,7 +15,7 @@ const renderAst = new rehypeReact({
 const Lesson = (props) => {
   const { data, pageContext, t, i18n } = props;
   const post = data.markdownRemark;
-  const { translations } = pageContext;
+  const { translations, urlSlug, type } = pageContext;
   const seo = {
     title: post.frontmatter.title,
     description: post.frontmatter.subtitle,
@@ -36,11 +36,11 @@ const Lesson = (props) => {
           time={post.fields.readingTime.text}
           status={post.frontmatter.status}
         />
-        <EditOnGithub url={data.site.siteMetadata.contentGithubURL + encodeURI(post.fields.slug.substring(0, post.fields.slug.length - 1)) + '.md' } />
+        <EditOnGithub url={data.site.siteMetadata.contentGithubURL + "/" + type + "/" + urlSlug + '.md' } />
         <div className="post lesson">
           {renderAst(post.htmlAst)}
         </div>
-          <LanguageSwitcher current={post.fields.lang} translations={translations} />
+        <LanguageSwitcher current={post.fields.lang} translations={translations} />
       </div>
     </Layout>
   );

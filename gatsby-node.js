@@ -104,6 +104,8 @@ exports.createPages = ({ actions, graphql }) => {
                 url: node.fields.url,
                 slug: node.fields.slug,
                 lang: meta.lang,
+                type: meta.type,
+                urlSlug: meta.urlSlug,
                 translations: translations[meta.urlSlug]
               },
             });
@@ -116,6 +118,8 @@ exports.createPages = ({ actions, graphql }) => {
               url: meta.lang+"/"+node.fields.url,
               slug: node.fields.slug,
               lang: meta.lang,
+              type: meta.type,
+              urlSlug: meta.urlSlug,
               translations: translations[meta.urlSlug]
             },
           });
