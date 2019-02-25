@@ -19,6 +19,8 @@ labels:
     color: fbca04
   - name: ":star: P2"
     color: fbca04
+  - name: ":vertical_traffic_light: Waiting QA"
+    color: f1f1f1
   - name: "post:lesson"
     oldname: ":book: post: lesson"
     color: 98bde2
@@ -34,3 +36,4 @@ labels:
     color: 98bde2
   - name: ":beetle: bc-inspector"
     color: 98bde2
+
