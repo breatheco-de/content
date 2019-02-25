@@ -45,28 +45,28 @@ It gets transmitted through the Internet as text.  If a hacker intercepts this, 
 That chain of characters arrives at your grandmother’s computer.
 Your grandmother double clicks the photo and the program she is using to see the photo transforms that text back into an image understandable to a human.
 
-### Tech
+### Tecnología
 
-Dillinger uses a number of open source projects to work properly:
+Dillinger usa varios proyectos de codigo abierto para funcionar correctamente:
 
-* [AngularJS] - HTML enhanced for web apps!
-* [Ace Editor] - awesome web-based text editor
-* [markdown-it] - Markdown parser done right. Fast and easy to extend.
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [Gulp] - the streaming build system
-* [Breakdance](http://breakdance.io) - HTML to Markdown converter
+* [AngularJS] - HTML mejorado para apps Web!
+* [Ace Editor] - impresionante editor de texto basado en web.
+* [markdown-it] - Analizador de Markdown bien hecho. Rapida y facil de extender.
+* [Twitter Bootstrap] - Excelente interfaz de usuario (UI) para aplicaciones web modernas.
+* [node.js] - Entrada/Salida de evento para el backend
+* [Express] - framework rápido de la aplicación de red node.js [@tjholowaychuk]
+* [Gulp] - Sistema de compilación en streaming
+* [Breakdance](http://breakdance.io) - Conversor de HTML a Markdown
 * [jQuery] - duh
 
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
+Y claro esta el mismo Dillinger es codigo abierto con un [repositorio publico][dill]
+ en GitHub.
 
-### Installation
+### Instalación
 
-Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
+Dillinger requiere [Node.js](https://nodejs.org/) v4+ para correr.
 
-Install the dependencies and devDependencies and start the server.
+Instalar las dependencias y devDependencias e iniciar el servidor.
 
 ```bash
 $ cd dillinger
@@ -74,7 +74,7 @@ $ npm install -d
 $ node app
 ```
 
-For production environments...
+Para el ambiente productivo...
 
 ```bash
 $ npm install --production
@@ -83,9 +83,9 @@ $ NODE_ENV=production node app
 
 ### Plugins
 
-Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
+Dillinger actualmente se extiende con los siguientes plugins. Las instrucciones sobre cómo usarlas en su propia aplicación están vinculadas a continuación.
 
-| Plugin | README |
+| Plugin | LEEME |
 | ------ | ------ |
 | Dropbox | [plugins/dropbox/README.md][PlDb] |
 | Github | [plugins/github/README.md][PlGh] |
@@ -95,40 +95,40 @@ Dillinger is currently extended with the following plugins. Instructions on how 
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
 
-### Development
+### Desarrollo
 
-Want to contribute? Great!
+¿Quieres contribuir? ¡Genial!
 
-Dillinger uses Gulp + Webpack for fast developing.
-Make a change in your file and instantanously see your updates!
+Dillinger usa Gulp + Webpack para un desarrollo rápido.
+¡Haga un cambio en su archivo y vea instantáneamente sus actualizaciones!
 
-Open your favorite Terminal and run these commands.
+Abre tu terminal favorito y corre los siguientes comandos.
 
-First Tab:
+Primer Tab:
 ```bash
 $ node app
 ```
 
-Second Tab:
+Segundo Tab:
 ```bash
 $ gulp watch
 ```
 
-(optional) Third:
+(opcional) Tercero:
 ```bash
 $ karma test
 ```
 #### Building for source
-For production release:
+Para lanzamiento de producción:
 ```bash
 $ gulp build --prod
 ```
-Generating pre-built zip archives for distribution:
+Generando archivos zip pre-construidos para su distribución:
 ```bash
 $ gulp build dist --prod
 ```
 
-### ISSUE
+### INCOVENIENTES
 
 | URL | DESCRIPCION |
 | ------ | ------ |
@@ -140,23 +140,23 @@ $ gulp build dist --prod
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
 ### Docker
-Dillinger is very easy to install and deploy in a Docker container.
+Dillinger Es muy fácil de instalar y desplegar en un contenedor Docker.
 
-By default, the Docker will expose port 8080, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image.
+De forma predeterminada, el Docker expondrá el puerto 8080, así que cámbielo dentro del Dockerfile si es necesario. Cuando esté listo, simplemente use el Dockerfile para construir la imagen.
 
 ```bash
 cd dillinger
 docker build -t joemccann/dillinger:${package.json.version}
 ```
-This will create the dillinger image and pull in the necessary dependencies. Be sure to swap out `${package.json.version}` with the actual version of Dillinger.
+Esto creará la imagen de dillinger y atraerá las dependencias necesarias. Asegúrese de intercambiar `$ {package.json.version}` con la versión actual de Dillinger.
 
-Once done, run the Docker image and map the port to whatever you wish on your host. In this example, we simply map port 8000 of the host to port 8080 of the Docker (or whatever port was exposed in the Dockerfile):
+Una vez hecho esto, ejecute la imagen de Docker y asigne el puerto a lo que desee en su host. En este ejemplo, simplemente asignamos el puerto 8000 del host al puerto 8080 del Docker (o cualquier puerto expuesto en el Dockerfile):
 
 ```bash
 docker run -d -p 8000:8080 --restart="always" <youruser>/dillinger:${package.json.version}
 ```
 
-Verify the deployment by navigating to your server address in your preferred browser.
+Verifique la implementación navegando a la dirección de su servidor en su navegador preferido.
 
 ```sh
 127.0.0.1:8000
@@ -164,15 +164,15 @@ Verify the deployment by navigating to your server address in your preferred bro
 
 #### Kubernetes + Google Cloud
 
-See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETES.md)
+Ve [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETES.md)
 
 
 ### Todos
 
- - Write MORE Tests
- - Add Night Mode
+ - Escribir MÁS Pruebas
+ - Agregar modo nocturno
 
-License
+Licencia
 ----
 
 MIT
