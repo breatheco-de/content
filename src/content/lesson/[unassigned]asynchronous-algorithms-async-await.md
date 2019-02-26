@@ -12,11 +12,11 @@ tags: ["async","await","promise","asynchronous"]
 
 ## Asynchronous Programming with JavaScript 
 ***
-Up to this point, we have used JavaScript code to run simple web applications, played with the ***DOM***, and somehow, passed functions into another functions  (***calback functions***).
+Up to this point, we have used JavaScript code to run simple web applications, which includes: using variables, calling functions and playing with the ***DOM***. On functions, specifically, we even passed functions into another functions  (***callback functions***) and there's more to talk about this.
 
 ### Synchronous vs Asynchronous ...
 ***
-Let's start by initializing that JavaScript is synchronous at its base and single-threaded. Code is read from a starting line of code to the next one. This means that if you are using functions in your code, the next line of code that contains a function has to wait for the first one to finish.
+Let's start by staing that JavaScript is synchronous and single-threaded, i.e: the code is executed from line 1 until the last one, one at a time.
 
 #### Synchronous example
 ```javascript
@@ -26,14 +26,17 @@ function runFirst(){
 function runSecond(){
 	console.log("second");
 }
-runFirst();
 runSecond();
-/*CONSOLE OUTPUT:
-	>"first"
-	>"second"
+runFirst();
+/*
+CONSOLE OUTPUT:
+  >"second"
+  >"first"
 */
 ```
- It is not done yet, when using ***callbacks***, lines of code stop until your callback finishes running.
+Here, line 27 runs before line 24 because we're calling ```runSecond()``` (line 29) before ```runFirst()``` (line 30).
+
+Now, things get more complicated when calling functions inside functions.
 
 #### Synchronous example using callbacks
 ```javascript
@@ -46,18 +49,20 @@ function runSecond(){
 	console.log("Where am I running?");
 }
 runFirst();
-/*CONSOLE OUTPUT:
-	>"I want to run first"
-	>"Where am I running?"
-	>"I also want to run when runFirst run" //this line of code had to wait for runSecond to finish 
+/*
+CONSOLE OUTPUT:
+  >"I want to run first"
+  >"Where am I running?"
+  >"I also want to run when runFirst run" //this line of code had to wait for runSecond() to finish 
 */
 ```
 #### OK What...?
-This happens because the ***call stack*** in JavaScript keeps track of the functions that are currently running and being processed:
-+ runFrist is pushed into the call stack because we invoked it.
-+ then we see our first console.log, and after that, runSecond is invoked.
-+ runFirst stops its execution and runSecond starts running.
-+ once runSecond finishes, runFirst start running the rest of its code.
+
+This happens because the ***call stack*** in JavaScript keeps track of the functions that are currently running and that are being processed:
++ ```runFirst()``` is pushed into the call stack because we called it (line 51).
++ then we see our first ```console.log``` then, ```runSecond()``` is invoked.
++ ```runFirst()``` pauses its execution and ```runSecond()``` starts running (line 45).
++ once ```runSecond()``` finishes ```runFirst()``` starts again, executing the rest of its code.
 
 ### What is synchronous JS and why is it important?
 ***
