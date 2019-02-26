@@ -54,6 +54,7 @@ export const query = graphql`
       htmlAst
       frontmatter {
         title
+        slug
         subtitle
         cover
         status
@@ -63,6 +64,8 @@ export const query = graphql`
       }
       fields {
         slug
+        lang
+        type
         readingTime {
           text
         }
