@@ -4,7 +4,6 @@ import { graphql } from 'gatsby';
 
 export default ({ data }) => {
   const post = data.allMarkdownRemark.edges.map(({node}, key)=>{
-    console.log(node.fields);
     if(node.fields.type === "how-to"){
       return (
         <div className="col-md-4" key={key}>

@@ -23,7 +23,6 @@ const Lesson = (props) => {
     image: post.frontmatter.thumb,
     canonical: (post.fields.lang === 'en') ? "/es/" : "/en/"
   };
-  console.log(props);
   return (
     <Layout seo={seo}>
       <div>

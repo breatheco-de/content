@@ -48,7 +48,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build --no-uglify",
     "develop": "gatsby develop",
     "c9": "gatsby develop -p $PORT -H $IP",
     "format": "prettier --write 'src/**/*.js'",
