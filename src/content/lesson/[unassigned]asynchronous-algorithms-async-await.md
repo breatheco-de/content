@@ -107,9 +107,9 @@ We've added a new function ```aThirdOne()``` (line 12), which console-logs: "thi
 **Note that the name is different because we pass the value, not the variable name.** 
 This produces a new print in the console: "this is crazy", before we call ```runSecond()``` (line 4).  
 
-*... jump around!, jump around!, jump around!, Jump up, jump up and get down!... *
+...*jump around!, jump around!, jump around!, Jump up, jump up and get down!*... 
 
-Now, let's try something more real. We'll load some images from a server using synchronous functions:
+Now, let's assume that we need to load some files from a server, specifically, images:
 
 #### Synchronous image loading
 ```javascript
@@ -165,8 +165,8 @@ Asynchronous programming is a way to process lines of code and handle the result
 ```
 
 Javascript offers a handful of predefined asynchronous functions which we can use to solve any possible scenario. Some of them are:
-[Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch): used to load files asynchronously.
-[setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout): used to set timers between blocks of code.
++ [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch): used to load files asynchronously.
++ [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout): used to set timers between blocks of code.
 
 In this case, we used the Fetch API to load the images and *then* (after getting an answer from the backend) we wrote some feedback from the process.
 
