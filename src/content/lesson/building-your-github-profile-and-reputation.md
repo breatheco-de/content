@@ -1,7 +1,7 @@
 ---
 title: "Building your github profile and reputation"
 subtitle: "Stand out in the developer community and find jobs and oportunities with an excellent online presence"
-cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
+cover: "https://ucarecdn.com/c315bebc-2e8d-4e71-a2df-25ad3618ac3d/githubbackground.jpg"
 textColor: "white"
 author: ["alesanchezr"]
 status: "published"
