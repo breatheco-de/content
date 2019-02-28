@@ -139,7 +139,7 @@ In a real life website, users will have to wait for a long time to see something
 ### Asynchronous
 Asynchronous programming is a way to process lines of code and handle the result without affecting the main thread. 
 ```javascript
-1    async function fetchingImages(){
+1    function fetchingImages(){
 3	console.log("Load them!");
 4	fetch("the_url_of_the_image").then( (response) => {
 5		if(response.ok){ 
