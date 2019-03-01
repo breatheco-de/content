@@ -45,12 +45,12 @@ const buildLessonsData = (lessons) => lessons.map((lesson) => {
 });
 
 const getLanguage = (lesson) => {
-const fileName = path.basename(lesson, '.md');
-if ((/.*\.[a-z]{2}/g).test(fileName)) 
-  return fileName.split('.').pop();
-else
-  return "en";
-}
+    const fileName = path.basename(lesson, '.md');
+    if ((/.*\.[a-z]{2}/g).test(fileName)) 
+      return fileName.split('.').pop();
+    else
+      return "en";
+};
 
 const createContentJSON =(content, fileName) => {
     if (!fs.existsSync("public/static/api")) fs.mkdirSync("public/static/api");
