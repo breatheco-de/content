@@ -47,9 +47,9 @@ const buildLessonsData = (lessons) => lessons.map((lesson) => {
 const getLanguage = (lesson) => {
     const fileName = path.basename(lesson, '.md');
     if ((/.*\.[a-z]{2}/g).test(fileName)) 
-      return fileName.split('.').pop();
+        return fileName.split('.').pop();
     else
-      return "en";
+        return "en";
 };
 
 const createContentJSON =(content, fileName) => {
