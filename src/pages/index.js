@@ -7,7 +7,7 @@ export default ({ data }) => {
       {data.allMarkdownRemark.edges.map(({ node }) =>
         <div key={node.id}>
           <Link
-            to={node.fields.slug}
+            to={node.fields.type+"/"+node.fields.slug}
             style={{ textDecoration: `none`, color: `inherit` }}
           >
             <p>
@@ -34,6 +34,7 @@ export const query = graphql`
           }
           fields {
             slug
+            type
           }
           excerpt
         }

@@ -4,7 +4,7 @@ import { graphql } from 'gatsby';
 
 export default ({ data }) => {
   const post = data.allMarkdownRemark.edges.map(({node}, key)=>{
-    if(node.fields.type === "lesson"){
+    if(node.fields.type === "how-to"){
       return (
         <div className="col-md-4" key={key}>
           <Link to={node.fields.url}>
@@ -19,7 +19,7 @@ export default ({ data }) => {
 
   return (
       <div>
-        <h1>Publicaciones para Courses</h1>
+        <h1>Publicaciones:</h1>
         <div className="row">
           { post }
         </div>
@@ -28,7 +28,7 @@ export default ({ data }) => {
 };
 
 export const query = graphql`
-  query MyQueryLesson{
+  query MyQueryHowTo{
     allMarkdownRemark {
       edges {
         node {

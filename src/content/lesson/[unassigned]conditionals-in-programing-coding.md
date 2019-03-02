@@ -1,4 +1,5 @@
 ---
+slug: "conditionals-in-programing-coding"
 title: "Conditionals in Programming or Coding"
 subtitle: "Using conditions to control the flow of your code and make the computer obey"
 date: "2017-09-24"
