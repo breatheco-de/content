@@ -31,7 +31,7 @@ We have also create some special icons and components that you can also use insi
 
 [[info]]
 |:link: for links of webistes with information  
-dsfsdf
+
 
 [[warning]]
 | :point_up:
