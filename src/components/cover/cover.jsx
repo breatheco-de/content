@@ -16,7 +16,15 @@ export const Cover = ({title, subtitle, time, background, textColor, status, aut
             <div className="col">
                 <small>{time}</small>
                 <h1>{title}</h1>
-                { typeof author !== 'string' ? '':<span>by <a rel="noopener noreferrer nofollow" target="_blank" href={"https://github.com/"+author}>@{author}</a></span> }
+                { (typeof author === 'undefined' || !author) ? '' : Array.isArray(author) ? 
+                    <span>
+                        by {author.map(a=> (<a rel="noopener noreferrer nofollow" target="_blank" href={"https://github.com/"+author}>@{author}</a>))}
+                    </span>
+                    :
+                    <span>
+                        by <a rel="noopener noreferrer nofollow" target="_blank" href={"https://github.com/"+author}>@{author}</a>
+                    </span>
+                }
             </div>
             <div className="col mt-4">
                 {subtitle}
