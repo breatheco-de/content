@@ -32,7 +32,7 @@ Irónicamente, los mismos científicos de CERN que crearon HTML, tuvieron que po
 
 ![what is css](https://ucarecdn.com/8c9fea86-c56c-486f-8b64-4322338076f7/-/resize/200x/)
 
-La principal razón por la que se creo fue para aplicar estilos a los documentos de HTML. La idea es que puedas decirle al navegador como debe visualizar un documento HTML: cómo deben verse sus etiquetas, colores, márgenes, tipografía, iconos, bordes, etc. Incluso puedes redefinir a tu antojo los comportamientos originales de esas etiquetas ya existentes. Ej:
+La principal razón por la que se creó fue para aplicar estilos a los documentos de HTML. La idea es que puedas decirle al navegador como debe visualizar un documento HTML: cómo deben verse sus etiquetas, colores, márgenes, tipografía, iconos, bordes, etc. Incluso puedes redefinir a tu antojo los comportamientos originales de esas etiquetas ya existentes. Ej:
 
 ```html
 Pudieras decirle a un <h1> que se vea igualito que un <h2> sin que el usuario
@@ -40,7 +40,7 @@ se de cuenta de que, a simple vista, son distintos.
 ```
 
 [[demo]]
-| :point_up: Para entender el potencial de CSS, [click aquí paraver un live demo!](http://assets.breatheco.de/live-demos/css/bootstrap/)
+| :point_up: Para entender el potencial de CSS, [click aquí para ver un live demo!](http://assets.breatheco.de/live-demos/css/bootstrap/)
 
 Puedes imaginar el potencial?  Puedes hacer que casi todo se vea diferente!
 
