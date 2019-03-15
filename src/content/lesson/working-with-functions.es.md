@@ -1,6 +1,6 @@
 ---
-subtitle: "Las funciones no son opcionales - they are probably the most used feature in any programming language. They let you separate your code in smaller mini-programs where each one takes care of its own thing. Divide and conquer!"
-title: "Working with Functions"
+subtitle: "Las funciones no son opcionales - Es probable que sean la característica más utilizada en cualquier lenguaje de programación. Te permiten separar tu código en miniprogramas más pequeños, donde cada uno se ocupa de lo suyo. ¡Divide y conquistaras!"
+title: "Trabajando con Funciones"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-12-03"
@@ -9,64 +9,64 @@ tags: ["reactjs"]
 ---
 
 
-## What are Functions?
+## ¿Qué son las Funciones?
 
-Basically, a function is a bunch of code wrapped between brackets that you can run anytime whenever you dice.  For example:
+Básicamente, una función es un montón de código envuelto entre paréntesis que puedes ejecutar en cualquier momento cada vez que juegues en dados. Por ejemplo:
 
 ```javascript 
-//the function name is "multiply" and receives 2 param: a & b 
+//el nombre de la función es "multiply" y recibe 2 param: a y b
 function multiply(a, b) {
-    //the function returns the multiplication 
+    //la función devuelve la multiplicación 
    return a * b;
 }
 ```
 
-+ **Every function must have a purpose** (a goal) (like our function “multiply”).  The function purpose is to calculate the multiplication between two given numbers.
-+ **It must have a unique name.**  In this particular case, our function is called “multiply” – which its a great name because you know exactly what the functions is about, it's explicit.
-+ **It must return something.**  By default in javascript all functions return “undefined” but you should override and always return something useful. In this example, we want to return the result of a & b multiplication.
-+ **Functions may have parameters.**  A “parameter” is a variable that the function may receive at the beginning of its code (like a & b in our example).
++ **Cada función debe tener un propósito.** (un objetivo) (como nuestra función "multiplicar"). El propósito de la función es calcular la multiplicación entre dos números dados.
++ **Debe tener un nombre único.**  En este caso particular, nuestra función se llama "multiplicar", que es un gran nombre porque sabes exactamente de qué se tratan las funciones, es explícita.
++ **Debe devolver algo.**  De forma predeterminada, en javascript, todas las funciones devuelven "indefinido", pero debe reemplazar y siempre devolver algo útil. En este ejemplo, queremos devolver el resultado de una multiplicación de a & b.
++ **Las funciones pueden tener parámetros.**  Un "parámetro" es una variable que la función puede recibir al principio de su código (como a y b en nuestro ejemplo).
 
-The whole idea is to have a library of hundreds of functions and use them as we please, you declare all your functions and later you start using and re-using them all the time.
+La idea es tener una libreria de cientos de funciones y usarlas como nos plazca, declaras todas tus funciones y luego empiezas a usarlas y reutilizarlas todo el tiempo.
 
 ```
 let resultOfMultiplication = multiply(2,4);
 // resultOfMultiplication will be 2
 ```
 
-## But, why using Functions instead of just doing everything in one big chunk of code?
+## Pero, ¿por qué usar Funciones en lugar de simplemente hacer todo en una gran porción de código?
 
-Coding is very abstract and it happens a lot that you have no idea what your wrote yesterday. Before functions existed, algorithms were this huge never-ending series of lines of code where developers would have a hard time and get lost.  It is hard for your brain to follow a procedure/algorithm of great length; the more lines of code, the more abstract it becomes.
+La codificación es muy abstracta y sucede mucho que no tienes idea de lo que escribiste ayer. Antes de que existieran las funciones, los algoritmos eran esta enorme serie interminable de líneas de código donde los desarrolladores tendrían dificultades y se perderían. Es difícil para tu cerebro seguir un procedimiento / algoritmo de gran longitud; Cuantas más líneas de código, más abstracto se vuelve.
 
-By using functions you have the following advantages:
+Al utilizar funciones tienes las siguientes ventajas:
 
-+ Split and conquer:  Divide your algorithm in smaller sub-algorithms and focus on one problem at a time.
-+ Re-use your code by calling the function several times, dramatically reducing your code length.
-+ Organize your code: function names will tell you what that piece of code does, you can have all the functions in a separate file and re-use it in all your future developments.
++ Dividir y conquistar: divide tu algoritmo en sub-algoritmos más pequeños y concéntrate en un problema a la vez.
++ Reutiliza tu código llamando a la función varias veces, reduciendo drásticamente la longitud de tu código.
++ Organiza tu código: los nombres de las funciones le dirán qué hace esa parte del código, puede tener todas las funciones en un archivo separado y reutilizarlo en todos sus desarrollos futuros.
 
-If you think about it, functions are the equivalent of books. The store knowledge and ways of doing things and in future developments you just re-use them instead of having to figure out everything all over again.
+Si lo piensas bien, las funciones son equivalentes a los libros. El conocimiento de la tienda y las formas de hacer las cosas y en futuros desarrollos simplemente los reutiliza en lugar de tener que resolver todo de nuevo.
 
-## The Function Scope
+## El Alcance de la Función
 
-All functions must start and end somewhere, that its called **the scope of the function**. You can delimit the boundries using curly brackets like this:
+Todas las funciones deben comenzar y terminar en algún lugar, esto es llamado **el alcance de la función**. Puedes delimitar los límites usando llaves como esta:
 
 ```javascript{numberLines: true} 
 
-//this part of the code is OUTSIDE the 'multiply' function 
+//esta parte del código está FUERA de la función 'multiply'
 
 function multiply(a, b) {
 
-    //this part of the code is INSIDE the 'multiply' function 
+    //esta parte del código está DENTRO de mi función pero nunca lo hará 
    
    return a * b;
 
-    //this part of the code is INSIDE my function but it will never 
-    //be executed because it is located AFTER the return statement. 
+    //esta parte del código está DENTRO de mi función pero nunca lo hará
+    //Se ejecutará porque se encuentra DESPUÉS de la declaración de retorno.
 }
 
-//this part of the code is OUTSIDE the 'multiply' function 
+//esta parte del código está FUERA de la función 'multiply'
 ```
 
-Any variables that you declare inside the function will not be available outside of it.
+Cualquier variable que declare dentro de la función no estará disponible fuera de ella.
 
 ```javascript{numberLines: true}
 function multiply(a, b) {
@@ -76,18 +76,18 @@ function multiply(a, b) {
    return a * b;
 }
 
-// this console.log won't work it will trigger an error) because myVariable was  
-// declared inside the function multiply, therefore it is not available outside. 
+// este console.log no funcionará, generará un error, porque myVariable fue 
+// declarado dentro de la función multiplicar, por lo tanto no está disponible fuera.
 console.log(myVariable);
 ```
 
 
 [[warning]]
-| :point_up: It is very important to remember that once you use the `return` statement the function will stop executing, if there is any code after that statement it will never be executed.
+| :point_up: Es muy importante recordar que una vez que use la instrucción `return`, la función dejará de ejecutarse, si hay algún código después de esa instrucción, nunca se ejecutará.
 
-## Anonymous Functions
+## Funciones Anónimas
 
-You can declare functions without names, but only if you store them into variables like this:
+Puedes declarar funciones sin nombres, pero solo si las almacenas en variables como esta:
 
 ```javascript
 var multiply = function(a, b) {
@@ -95,28 +95,28 @@ var multiply = function(a, b) {
 }
 ```
 
-## Calling Functions
+## Funciones de Llamada
 
-The only way to use (a.k.a: call) a function is to use parenthesis brackets like this:
+La única forma de usar (una función de llamada) es usar paréntesis como este:
 
 ```javascript
-//this is how you call a function without parameters 
+//Así es como se llama a una función sin parámetros.
 multiply();
 
-//this is how you call a function with parameters 
+//Así es como llamas a una función con parámetros.
 multiply(<first param>,<second param>);
 
-//for example, to multiple 3 times 9 
+//por ejemplo, para multiplicar 3 por 9
 multiply(3,9);
 ```
 
-Please remember to assign the function whatever parameters it should receive.  In our example, the multiply function was declared asking for two numbers to multiply.  Play with the following example as you like:
+Recuerda asignar la función a los parámetros que deba recibir. En nuestro ejemplo, la función de multiplicación fue declarada pidiendo que se multipliquen dos números. Juega con el siguiente ejemplo como quieras:
 
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Calling-Functions-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-## Nested Calling
+## Llamada Anidada
 
-You can combine functions however you want and have chained calls like this:
+Puedes combinar funciones como quieras y tener llamadas encadenadas como esta:
 
 ```javascript{numberLines: true} 
 function sum(a,b){
@@ -130,20 +130,20 @@ function multiply(a,b){
 console.log(multiply(sum(3,5),sum(1,1)));
 
 
-// the executions goes from inside to outside 
-// first, the sum of 3+5 and 1+1 will be calculated 
-// then, their respective results will be multiplied 
+// Las ejecuciones van de adentro hacia afuera. 
+// Primero, se calculará la suma de 3 + 5 y 1 + 1. 
+// A continuación, se multiplicarán sus respectivos resultados. 
 let firstSum = sum(3,5);
 let secondSum = sum(1,1);
 console.log(multiply(firstSum, secondSum));
 ```
 
 [[demo]]
-| :point_up: [View this example live at replit](https://repl.it/@4GeeksAcademy/Nested-Function-Calling)
+| :point_up: [Ver este ejemplo en vivo en replit](https://repl.it/@4GeeksAcademy/Nested-Function-Calling)
 
-## Let’s see an Example:
+## Veamos un ejemplo:
 
-The following code has 3 functions declared:
+El siguiente código tiene 3 funciones declaradas:
 
 *function <span style="color:purple">getAverage</span>(**array: ages**){*
      ...
@@ -156,13 +156,13 @@ The following code has 3 functions declared:
      ...
 *}*
 
-As you can see, the function names are pretty specific on what the functions do, as well as the parameters assigned to them.
+Como puedes ver, los nombres de las funciones son bastante específicos sobre lo que hacen las funciones, así como los parámetros asignados a ellas.
 
-The function receives an array of 
+La función recibe una matriz de
 
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/FunctionsExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-Other important things to notice:
+Otras cosas importantes a tener en cuenta:
 
-+ We are calling the function getPersonInfoByName two times – without using functions we would have to use more code because we would have no option to re-use the function.
-+ The function getAverage is to get the average value on a given array.  It knows nothing else and that is great!  By separating your code into little functions, you can focus on one thing at a time.
++ Estamos llamando a la función getPersonInfoByName dos veces, sin usar funciones tendríamos que usar más código porque no tendríamos ninguna opción para reutilizar la función.
++ La función getAverage es obtener el valor promedio en una matriz dada. No sabe nada más y eso es genial! Al separar su código en pequeñas funciones, puede concentrarse en una cosa a la vez.
