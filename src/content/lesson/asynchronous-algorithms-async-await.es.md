@@ -1,7 +1,7 @@
 ---
 slug: "asynchronous-algorithms-async-await"
-title: "Creating asynchronous algorithms"
-subtitle: "Understand the difference between synchronous and asynchronous scripts, use Promises and master async and wait."
+title: "Creando algoritmos asíncronos"
+subtitle: "Comprenda la diferencia entre scripts síncronos y asíncronos, uso de Promises y master async y wait."
 cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
 status: "draft"
 author: ["kode2fever", "nachovz"]
@@ -11,13 +11,13 @@ tags: ["async","await","promise","asynchronous"]
 
 ---
 
-## Asynchronous Programming with JavaScript 
+## Programación Asíncrona con JavaScript
 ***
-Up to this point, we have used JavaScript code to run simple web applications, which includes: using variables, calling functions and playing with the ***DOM***. On functions, specifically, we even passed functions into another functions  (***callback functions***) and there's more to talk about this.
+Hasta este punto, hemos utilizado código JavaScript para ejecutar aplicaciones web simples, que incluyen: usar variables, llamar a funciones y jugar con el ***DOM***. En las funciones, específicamente, incluso pasamos funciones a otras funciones (***funciones de devolución de llamada***) y hay más para hablar de esto.
 
-Let's start by stating that JavaScript is synchronous and single-threaded by definition, i.e: the code is executed from line 1 until the last one, one at a time and in order(ish). Take a look at this example:
+Comencemos diciendo que JavaScript es síncrono y de un solo hilo por definición, es decir: el código se ejecuta desde la línea 1 hasta el último, uno a la vez y en ese orden normalmente. Echale un vistazo a éste ejemplo:
 
-#### Synchronous (default)
+#### Sincrónico (por defecto)
 ```javascript
 1    function runFirst(){
 2 	console.log("first");
@@ -35,159 +35,159 @@ CONSOLE OUTPUT:
 */
 ```
 
-In here: line 5 runs before line 2 because we're calling ```runSecond()``` (line 7) before ```runFirst()``` (line 8). Breaking the order by commanding the computer to *call* (or execute) the code block within a function.
+Aquí: la línea 5 se ejecuta antes de la línea 2 porque estamos llamando a ```runSecond ()``` (línea 7) antes de ```runFirst ()``` (línea 8). Rompiendo el orden de mando de la computadora que *llama* (o ejecuta) el bloque de código dentro de una función.
 
-Things get more complicated when calling functions inside functions, as we can see here:
+Las cosas se complican más cuando se llaman funciones dentro de funciones, como podemos ver aquí:
 
-#### Calling functions
+#### Funciones de Llamada
 ```javascript
 1    function runFirst(){
-2	console.log("I want to run first");
+2	console.log("Quiero correr primero");
 3	runSecond();
 4	console.log("I also want to run when runFirst runs");
 5    }
 6    function runSecond(){
-7	console.log("Where am I running?");
+7	console.log("¿Donde estoy corriendo?");
 8    }
 9   runFirst();
 
 /*
 CONSOLE OUTPUT:
-  > I want to run first
-  > Where am I running?
-  > I also want to run when runFirst runs //this line of code had to wait for runSecond() to finish 
+  > Quiero correr primero
+  > ¿Donde estoy corriendo?
+  > También quiero correr cuando se ejecuta RunFirst //Esta línea de código tuvo que esperar a que RunSecond () terminara.
 */
 ```
 
-*OK What...?*
+*OK qué...?*
 
-This happens because the ***call stack*** in JavaScript keeps track of the functions that are currently running and are being processed:
-+ ```runFirst()``` is pushed into the call stack because we called it (line 9).
-+ We see our first ```console.log``` (line 2), after that, ```runSecond()``` is called (line 3).
-+ ```runFirst()``` pauses its execution and ```runSecond()``` starts running.
-+ Second ```console.log``` executed (line 7).
-+ Once ```runSecond()``` finishes, ```runFirst()``` starts again, executing the rest of its code, the last ```console.log``` (line 4).
+Esto sucede porque la ***pila de llamadas*** en JavaScript realiza un seguimiento de las funciones que se están ejecutando actualmente y se están procesando:
++ ```runFirst()``` se inserta en la pila de llamadas porque la llamamos (línea 9).
++ Vemos nuestro primer ```console.log``` (línea 2), después de eso, se llama a ```runSecond ()``` (línea 3).
++ ```runFirst ()``` hace una pausa en su ejecución y ```runSecond ()``` comienza a ejecutarse.
++ Segundo ```console.log``` ejecutado (linea 7).
++ Una vez que ```runSecond ()``` termina, ```runFirst ()``` comienza nuevamente, ejecutando el resto de su código, el último ```console.log``` (línea 4).
 
-F U N!
+D I V I E R T E T E !
 
-But wait, there's more... We could even pass a *function* as an argument to another function (nope, this is not a typo). The *function* sent as a parameter it is called a **callback function**. Take a look:
+Pero espera, hay más... Incluso podríamos pasar una *función* como argumento a otra función (no, esto no es un error tipográfico). La *función* enviada como parámetro se llama **función de devolución de llamada**. Echar un vistazo:
 
-#### Callback functions
+#### Funciones de Devolución de Llamada
 ```javascript
 1    function runFirst(someFunction){
-2	console.log("I want to run first");
+2	console.log("Quiero correr primero");
 3	someFunction();
 4	runSecond();
-5	console.log("I also want to run when runFirst runs");
+5	console.log("También quiero correr cuando se ejecuta RunFirst");
 6    }
 7    function runSecond(){
-8	console.log("Where am I running?");
+8	console.log("¿Donde estoy corriendo?");
 9    }
 10   runFirst(aThirdOne);
 11
 12   function aThirdOne(){
-13	console.log("this is crazy");
+13	console.log("Esto es Loco");
 14   }
 15
 
 /*
 CONSOLE OUTPUT:
-  > I want to run first
-  > This is crazy
-  > Where am I running?
-  > I also want to run when runFirst runs 
+  > Quiero correr primero
+  > Esto es Loco
+  > ¿Donde estoy corriendo?
+  > También quiero correr cuando se ejecuta RunFirst
 */
 ```
 
-...*you may want to take a second look, don't worry, we'll wait*...
+...*Es posible que desee echar un segundo vistazo, no se preocupe, esperaremos*...
 
-Explanation time!
+Tiempo de explicacion!
 
-We've added a new function ```aThirdOne()``` (line 12), which console-logs: "this is crazy"; but we are not calling it directly, instead, we are passing the its name as a parameter to ```runFirst()``` (line 10). 
+Hemos agregado una nueva función ```aThirdOne ()``` (línea 12), que muestra los registros de la consola: "esto es una locura"; pero no lo estamos llamando directamente, en cambio, estamos pasando el nombre como parámetro a ```runFirst ()``` (línea 10).
 ```runFirst(someFunction)``` it's now expecting a value (line 1) which will be called as if it were a function (line 3).
-**Note that the name is different because we pass the value, not the variable name.** 
-This produces a new print in the console: "this is crazy", before we call ```runSecond()``` (line 4).  
+**Tenga en cuenta que el nombre es diferente porque pasamos el valor, no el nombre de la variable.** 
+Esto produce una nueva impresión en la consola: "esto es una locura", antes de llamar a ```runSecond ()``` (línea 4). 
 
-...*jump around!, jump around!, jump around!, Jump up, jump up and get down!*... 
+...*jump around!, jump around!, jump around!, Jump up, jump up and get down! (music)*... 
 
-Now, let's assume that we need to load some files from a server, specifically, images:
+Ahora, supongamos que necesitamos cargar algunos archivos desde un servidor, específicamente, imágenes:
 
-#### Synchronous image loading
+#### Carga síncrona de imágenes.
 ```javascript
 1    function fetchingImages(){
-3	console.log("Load them!");
+3	console.log("Cargarlos!");
 4	//SOME CODE TO LOAD IMAGES
-5	console.log("Images loaded!");
+5	console.log("Imágenes cargadas!");
 6    }
 7    function userIsWaiting(){
-8	console.log("I don't like waiting");
+8	console.log("No me gusta esperar");
 9    }
 10   fetchingImages();
 11   userIsWaiting();
 12
 
 /*CONSOLE OUTPUT:
-	> Load them! 			//user starts waiting
-					//now user has to wait for the images to arrive, time: unknown... browser: frozen :(
-	> Images loaded! 		//after ?? seconds
-	> I don't like waiting 		//we don't want users to wait that long to see images
+	> Cargarlos! 			//el usuario comienza a esperar
+					//ahora el usuario tiene que esperar a que lleguen las imágenes, hora: desconocido... navegador: congelado :(
+	> Imágenes cargadas! 		//después ?? segundos
+	> No me gusta esperar 		//No queremos que los usuarios esperen tanto tiempo para ver las imágenes.
 */
 ```
-*Unnacceptable...* 
+*Inaceptable...* 
 
-In a real life website, users will have to wait for a long time to see something, all because the ***DOM*** processing has to wait for the pictures to arrive from the server; and this is all because we are using the same thread of execution for everything.
+En un sitio web de la vida real, los usuarios tendrán que esperar mucho tiempo para ver algo, todo porque el procesamiento ***DOM*** tiene que esperar a que lleguen las imágenes desde el servidor; y esto es todo porque estamos usando el mismo hilo de ejecución para todo.
 
-### Asynchronous
-Asynchronous programming is a way to process lines of code and handle the result without affecting the main thread. 
+### Asincrónico
+La programación asíncrona es una forma de procesar líneas de código y manejar el resultado sin afectar el hilo principal. 
 ```javascript
 1    function fetchingImages(){
-3	console.log("Load them!");
+3	console.log("Cargarlos!");
 4	fetch("the_url_of_the_image").then( (response) => {
 5		if(response.ok){ 
-6			console.log("Images Loaded!!");
+6			console.log("Imágenes cargadas!!");
 7		} else {
-8			console.log("Uh-oh something went wrong");
+8			console.log("Uh-oh algo salió mal");
 9		}
 10	});
 11   }
 12   function userIsWaiting(){
-13	console.log("I don't like waiting");
+13	console.log("No me gusta esperar");
 14   }
 15   fetchingImages();
 16   userIsWaiting();
 17
 
 /*CONSOLE OUTPUT:
-	> Load them! 					//user starts waiting
-	> I don't like waiting 				//no waiting! DOM ready to see
-							//... and ?? seconds later
-	> Images loaded! OR Uh-oh something went wrong 	//Images!... Magic! || Oops, no images	
+	> Cargarlos! 					//el usuario comienza a esperar
+	> No me gusta esperar 				//¡sin espera! DOM listo para ver
+							//... y ?? segundos más tarde
+	> Imágenes cargadas! OR Uh-oh algo salió mal 	//Imágenes!... Mágico! || Oops, no hay imágenes
 */
 ```
 
-Javascript offers a handful of predefined asynchronous functions which we can use to solve any possible scenario. Some of them are:
-+ [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch): used to load files asynchronously.
-+ [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout): used to set timers between blocks of code.
+Javascript ofrece un puñado de funciones asíncronas predefinidas que podemos utilizar para resolver cualquier escenario posible. Algunos de ellos son:
++ [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch): se utiliza para cargar archivos de forma asíncrona.
++ [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout): se utiliza para establecer temporizadores entre bloques de código.
 
-In this case, we used the Fetch API to load the images and *then* (after getting an answer from the backend) we wrote some feedback from the process.
+En este caso, utilizamos la API Fetch para cargar las imágenes y *luego* (después de obtener una respuesta del servidor) escribimos algunos comentarios del proceso.
 
-Keep in mind that any network call could fail because of many reasons, we should always be prepared for failure.
+Tenga en cuenta que cualquier llamada a la red puede fallar debido a muchas razones, siempre debemos estar preparados para la falla.
 
-## Promises
+## Promesas
 ***
-A promise is nothing more than the result of an asynchronous operation. It represents the completion or failure of that result in from of object provided by the promise.
+Una promesa no es más que el resultado de una operación asíncrona. Representa la finalización o el fracaso de ese resultado en un objeto proporcionado por la promesa.
 
-#### A promise has 3 different states:
-+ ***Pending***: promise result has not been determined yet because the asynchronous operation has not been completed.
-+ ***Fulfilled***: it is when asynchronous operation is finished and the promise returned a value as an object.
-+ ***Rejected***: it takes place when the operation failed.
+#### Una promesa tiene 3 estados diferentes:
++ ***Pendiente***: el resultado de la promesa aún no se ha determinado porque la operación asíncrona no se ha completado.
++ ***Cumplido***: es cuando la operación asíncrona finaliza y la promesa devuelve un valor como un objeto.
++ ***Rechazado***: tiene lugar cuando la operación falló.
 ***
 
-***This is how a promise can be created*** 
+***Así es como se puede crear una promesa.*** 
 ```javascript
 var myPomise = new Promise(function(resolve, reject) {
   setTimeout(function() {
-    resolve("I was resolved");
+    resolve("Yo estaba resuelto");
   }, 300);
 });
 myPomise.then((obj) => {
@@ -196,53 +196,53 @@ myPomise.then((obj) => {
 console.log(myPomise);
 
 /*CONSOLE OUTPUT:
-	>promise object //it will return a promise object
-	>"I was resolved"
+	>objeto de promesa // devolverá un objeto de promesa
+	>"Estaba resuelto"
 */
 ```
 ***
-### Resolve and Reject functions
-+ ***Resolve*** is used to change the status of a promise from pending to fulfilled.
-+  ***Reject*** is used to change the status from pending to rejected.
+### Resolver y rechazar funciones
++ ***Resolver*** se utiliza para cambiar el estado de una promesa de pendiente a cumplida.
++ ***Rechazar*** se utiliza para cambiar el estado de pendiente a rechazado.
 
 
-### Important methods to know when using promises
-+ ***resolve***: it returns a promise object that has the status of resolved with a value.
+### Métodos importantes que debemos conocer al usar promesas.
++ ***resolve***: devuelve un objeto de promesa que tiene el status de resuelto con un valor.
 ```javascript
-	//here Promise represents the Promise object.
-	Promise.resolve("I was resolved with this value").then(value => console.log(value));
+	//aquí Promesa representa el objeto Promesa.
+	Promise.resolve("Yo estaba resuelto con este valor").then(value => console.log(value));
 	
 	/*CONSOLE OUTPUT:
-	>"I was resolved with this value"
+	>"Yo estaba resuelto con este valor"
 	
 	***********
-		a better recommended approach will be initializing a variable 
-		equals to the resolved Promise.
+		Un enfoque mejor recomendado será inicializar una variable.
+		es igual a la promesa resuelta.
 		
 	--- sample: 
-		var myResolvedPromise =  Promise.resolve("I was resolved with this value");
+		var myResolvedPromise =  Promise.resolve("Yo estaba resuelto con este valor");
 	*/
 ```
 ***
 
-+ ***reject***: it returns an already rejected promise with a reason.
++ ***reject***: devuelve una promesa ya rechazada con un motivo.
 ```javascript
-	Promise.reject(new Error("I was rejected")).then(error => console.log(error));
+	Promise.reject(new Error("fui rechazado")).then(error => console.log(error));
 ```
 ***
 
-+ ***then***: this method return a promise and it can take up to 2 arguments. One for the resolved promise and one for the rejected promise. Above there is an example that uses ***then*** method and takes one argument.
++ ***then***: este método devuelve una promesa y puede tomar hasta 2 argumentos. Una para la promesa resuelta y otra para la promesa rechazada. Arriba hay un ejemplo que usa el método ***then*** y toma un argumento.
 ```javascript
 	var promise =  new  Promise(function(resolve,reject){
-		resolve("I was resolved and you can see me when you use then method");
+		resolve("Estaba resuelto y puedes verme cuando usas el método.");
 	});
 	promise.then(value => console.log(value));
 ```
 ***
-+ ***catch***: returns a promise and deals with rejected operations. It is very handy when trying to debug or showing errors.
++ ***catch***: devuelve una promesa y se ocupa de las operaciones rechazadas. Es muy útil cuando se trata de depurar o mostrar errores.
 ```javascript
 	var promise =  new  Promise(function(resolve,reject){
-		reject("I was rejected and you can see me when you use catch method");
+		reject("Me rechazaron y puedes verme cuando usas el método catch.");
 	});
 	promise.catch(error => console.log(error));
 ```
@@ -250,55 +250,56 @@ console.log(myPomise);
 
 ## Async/await
 ***
-+ ***Async/await*** is a way to write asynchronous code. 
-+ ***Async*** is a JavaScript function and can contain an ***await*** expression.
-+ ***Await*** pauses the execution of async function and waits for a Promise's result.
++ ***Async/await***Es una forma de escribir código asíncrono.
++ ***Async*** es una función de JavaScript y puede contener una expresión ***await***.
++ ***Await*** pausa la ejecución de la función asíncrona y espera el resultado de una promesa.
 
-[[warning]] | ??Remember that await expressions are only valid inside async functions. If you use them outside you will have a syntax error.
+[[warning]]
+| Recuerda que las expresiones de espera solo son válidas dentro de funciones asíncronas. Si los usa fuera, tendrá un error de sintaxis.
 
 ```javascript
 function returnedPromiseHere() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("I am the images coming from the database");
+      resolve("Yo soy las imágenes que vienen de la base de datos.");
     }, 1000);
   });
 }
 async function useAsyncFunction() {
-  console.log("I am a fast task");
+  console.log("Soy una tarea rapida");
   var result = await returnedPromiseHere();
   console.log(result);
-  console.log("I had to wait for await to finish");
+  console.log("Tuve que esperar a que terminara");
 }
 useAsyncFunction();
 
 /*CONSOLE OUTPUT:
-	>"I am a fast task"
-	//after 1 second...
-	>"I am the images coming from the database"
-	>"I had to wait for await to finish"
+	>"Soy una tarea rapida"
+	//después de 1 segundo...
+	>"Yo soy las imágenes que vienen de la base de datos."
+	>"Tuve que esperar a que terminara"
 */
 ```
-### Async becomes powerful when there are multiples steps in action:
+### Async se vuelve poderoso cuando hay varios pasos en acción:
 ```javascript
 function promise1() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("I am resolved as 1");
+      resolve("Estoy resuelto como 1");
     }, 100);
   });
 }
 function promise2() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("I am resolved as 2");
+      resolve("Estoy resuelto como 2");
     }, 200);
   });
 }
 function promise3() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("I am resolved as 3");
+      resolve("Estoy resuelto como 3");
     }, 300);
   });
 }
@@ -313,12 +314,12 @@ async function handlingAllPromises() {
 }
 handlingAllPromises();
 ```
-#### In the example above instead of awaiting for a promise every new line, we could use the Promise.all method and wait for all the promises to be fulfilled.
+#### En el ejemplo anterior, en lugar de esperar una promesa en cada nueva línea, podríamos usar el método Promise.all y esperar a que se cumplan todas las promesas.
 ```javascript
 	var [first, second, third] = await Promise.all([promise1(), promise2(), promise3()]);
 ```
 ***
-### Also you can do async functions as arrow functions
+### También puedes hacer funciones asíncronas como funciones de flecha(arrow).
 ```javascript
 const handlingAllPromises = async () => {
   var [first, second, third] = await Promise.all([promise1(), promise2(), promise3()]);
@@ -329,14 +330,14 @@ const handlingAllPromises = async () => {
 }
 ```
 ***
-### How to handle errors in async functions?
-A good way of handling errors in async functions is to use the try ... catch statements.
+### ¿Cómo manejar errores en funciones asíncronas?
+Una buena manera de manejar los errores en las funciones asíncronas es usar las sentencias try... catch.
 
 ```javascript
 async function handeErrors() {
   let msg;
   try {
-    msg = await promise1(); //notice this method is already written in your application
+    msg = await promise1(); //Nota que este método ya está escrito en su aplicación.
     console.log(msg);
   } catch(err) {
     console.log(err);
@@ -344,21 +345,21 @@ async function handeErrors() {
 }
 ```
 ***
-### Fetch api is promise based. Guess what? You can use it in your async functions too!! 
+### Fetch api se basa en la promesa. ¿Adivina qué? Puedes usarlo en tus funciones asíncronas también !!
 ```javascript
 async  function fetchData(endpoint) { 
-	const response = await  fetch(endpoint); //notice the use of fetch api
+	const response = await  fetch(endpoint); //nota el uso de fetch api
 	let data = await res.json();
 	data = data.map(user => user.ID); 
 	console.log(data); 
 }
 
-fetchData(http://dummyData/api/allUsers); //this is an example endpoint
+fetchData(http://dummyData/api/allUsers); //este es un ejemplo de punto final
 
 /*CONSOLE OUTPUT:
-	>[1, 2, 3, 4] //here we get all users ID from the database
+	>[1, 2, 3, 4] //Aquí obtenemos todos los usuarios ID de la base de datos
 */
 ```
 ***
-## In conclusion
-You have the ability to create awesome and faster web applications. In addition, users and faster tasks no longer need to wait for slow tasks to be finished,  thanks to ***asynchronous programming***. 
+## En conclusión
+Tienes la capacidad de crear aplicaciones web increíbles y más rápidas. Además, los usuarios y las tareas más rápidas ya no tienen que esperar a que finalicen las tareas lentas, gracias a la ***programación asíncrona***.

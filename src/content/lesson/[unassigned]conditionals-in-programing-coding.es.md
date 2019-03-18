@@ -31,10 +31,10 @@ Y así es como escribiríamos esto en Javascript:
 
 ```js
 if(color != 'blue'){
-    //any code here will run when color is different than blue
+    //Cualquier código aquí se ejecutará cuando el color sea diferente al azul.
 }
 else{
-    //it will only run this code if color is not blue.
+    //solo ejecutará este código si el color no es azul.
 }
 ```
 
