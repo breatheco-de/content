@@ -88,8 +88,21 @@ As you can see here we are using `else if` together for the first time, for fast
 
 | Original | Equivalent |
 | --- | --- |
-| instead of `if(feelsLikeHitByTrain == true)` | you can just write `if(feelsLikeHitByTrain)` without the `== true` |
-| instead of `if(feelsLikeHitByTrain == false)` | you can just write `if(!feelsLikeHitByTrain)` with exclamation at the beginning and the `== false` |
+| instead of `if(feelsLikeHitByTrain == true)` | you write `if(feelsLikeHitByTrain)`  |
+| instead of `if(feelsLikeHitByTrain == false)` | you write `if(!feelsLikeHitByTrain)` |
+
+## `>` and `<` Greather Than or Lower Than Operators
+
+In the particular case you are comparing numbers, you can also if one of the compared numbers ir bigger or smaller than the other:
+
+```js
+if(age < 16){
+  console.log("You cannot drive");
+}
+else if(age >= 16){
+  console.log("You can drive");
+}
+```
 
 ## Ternary (inline conditions)
 
@@ -105,17 +118,17 @@ Ternaries are being use A LOT these days because the save you a lot of time.
 
 Another great use of the conditions is to generate HTML based on certain conditions, for example, lets say that we have a bootstrap alert that we are about to render into the website:
 
-```
+```js
 let alertHTMLCode = "<div>Warning! You cannot drive</div>";
 ```
 
 If we want this alert to show only if the user is younger that 16 years old we could do something like:
 
-```
+```js
 let age = 14;
 let alertHTMLCode = (age < 16) ? "<div>Warning! You cannot drive</div>" : "";
 ```
 
 Now our alertHTMLCode variable will be empty if the user age is less than 16, if its more it will contain the entire HTML.
 
-<script async src="//jsfiddle.net/BreatheCode/bycgsnqt/6/embed/js,html,result/"></script>
+<script async src="//jsfiddle.net/BreatheCode/bycgsnqt/7/embed/js,html,result/"></script>
