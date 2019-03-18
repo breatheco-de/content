@@ -39,17 +39,49 @@ else{
 
 ## It is all about What Questions to ask
 
-The previous example was a simple condition, but in real life picking what to ware involves a combination of several conditions to make the final decision, for example: Lets look at this algorithm that tells a computar how to decide what to wear during valentines day:
+The previous example was a simple condition, but in real life picking what to ware involves a combination of several conditions to make the final decision, for example: Lets look at this algorithm that tells if you have a flue
 
-![What ot ware in valentines day](https://ucarecdn.com/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3/)
+![Hit by a flu or have a cold](https://ucarecdn.com/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800/)
 
 If you want to represent this algorithm in Javascript it will look something like this:
 
 ```js
-if(goingOut == true){
-    if(canIGetBurger == true){
-        
-    }
+let feelsLikeHitByTrain = true;
+let youWereHitByTrain = false;
+
+if(feelsLikeHitByTrain == true){
+  if(youWasHitByTrain == true){
+    console.log("You don't have a flue");
+  }
+  else{
+    console.log("You have a flue");
+  }
+}
+else{
+  console.log("You don't have a flue");
 }
 ```
 
+Basically, this algorithm has to variables to consider: feelsLikeHitByTrain and youWereHitByTrain.
+Our job as developers is to sit down and try to prepare a strategy to come up with an algorithm that solves a problem.
+
+Another way to write the algorithm is to combine to questions in the same condition using the `AND` and `OR` operators that in Javascript are represented with `&& for AND` and `|| for OR`:
+
+```js
+if(feelsLikeHitByTrain == false || youWereHitByTrain == true){
+  console.log("You don't have a flu");
+}
+else if(feelsLikeHitByTrain == true && youWereHitByTrain == false){
+  console.log("You have a flu")
+}
+else{
+  console.log("I have no idea");
+}
+```
+
+As you can see here we are using `else if` together for the first time, for faster coding, another trick you can use for faster coding:
+
+| Original | Equivalent |
+| --- | --- |
+| instead of `if(feelsLikeHitByTrain == true)` | you can just write `if(feelsLikeHitByTrain) |
+| instead of `if(feelsLikeHitByTrain == true)` | you can just write `if(feelsLikeHitByTrain) |
