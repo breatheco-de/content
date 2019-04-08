@@ -18,7 +18,7 @@ export const Cover = ({title, subtitle, time, background, textColor, status, aut
                 <h1>{title}</h1>
                 { Array.isArray(authors) &&
                     <span>
-                        by {authors.map(a=> (<a className="author" rel="noopener noreferrer nofollow" target="_blank" href={"https://github.com/"+a}>@{a}</a>))}
+                        by {authors.map(a=> (<a className="author badge badge-secondary mr-2" rel="noopener noreferrer nofollow" target="_blank" href={"https://github.com/"+a}>@{a}</a>))}
                     </span>
                 }
             </div>
