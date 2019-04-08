@@ -48,12 +48,12 @@ var myArray = new Array(1,2,3,4,5); //Don't use this! Read below to learn why.
 
 
 [[warning]]
-| :point_up:Don't declare the Arrays with the `new Array()` syntax – it will not behave.  [click here to learn the details](https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
+| :point_up:Don't declare the Arrays with the `new Array()` syntax – it will not behave properly  [click here to learn the details](https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
 
 ## **Access Items in the Array**
 ***
 
-To access a specific element in a list, you need an index.  An index is an integer value that represents the position of the array that you want to access.
+To access a specific element in a list, you need an `index`.  We call `index` the integer value that represents the position of the element you want to access/get/retrieve.
 
 The index always must start at zero (0).  That means that an Array of 2 items can have index=0 or index=1.  Trying to get the 2nd position will return "undefined" because it will mean that we are trying to access the third element (which does not exist).  For example, to get any items in the array you can do the following:
 
