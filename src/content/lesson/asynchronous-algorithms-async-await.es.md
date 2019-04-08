@@ -3,7 +3,7 @@ title: "Creando algoritmos asíncronos"
 subtitle: "Comprenda la diferencia entre scripts síncronos y asíncronos, uso de Promises y master async y wait."
 cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
 status: "draft"
-author: ["kode2fever", "nachovz"]
+authors: ["kode2fever", "nachovz"]
 textColor: "white"
 date: "2018-05-11"
 tags: ["async","await","promise","asynchronous"]

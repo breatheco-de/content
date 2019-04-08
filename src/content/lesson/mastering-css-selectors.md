@@ -1,6 +1,6 @@
 ---
 title: "Mastering CSS Selectors"
-subtitle: "Aside from mastering the display and position CSS rule, learning how to use the CSS selectors is the most important skill you need to develop. You don't have to remember the syntax of each of them. But you do need to have them on your radar in order to be able to develop the right strategies when building your CSS stylesheet. "
+subtitle: "Aside from mastering the display and position CSS rule, learning how to use the CSS selectors is the most important skill you need to develop. You don't have to remember the syntax of each of them, but keep them on your radar to be able to develop the right strategies when building your CSS stylesheet. "
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-01-11"

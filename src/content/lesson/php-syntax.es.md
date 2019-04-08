@@ -3,7 +3,7 @@ title: "Entendiendo la Sintaxis de PHP"
 subtitle: "Aprende aquí sobre la sintaxis de PHP, con esta increíble lección."
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
-date: "2018-31-10"
+date: "2018-10-31"
 tags: ["fale"]
 ---
 

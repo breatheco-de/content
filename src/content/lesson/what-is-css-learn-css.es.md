@@ -11,7 +11,7 @@ Nadie quiere ver un sitio web blanco con algún texto horrible en él.
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 
-date: "2018-31-10"
+date: "2018-10-31"
 tags: ["fale"]
 --- 
 ## **Bienvenido a CSS!!**

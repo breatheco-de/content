@@ -3,7 +3,7 @@ title: "Routing our Views with React Router"
 subtitle: "Create your application structure and connect your Views with React Router"
 cover: "https://ucarecdn.com/8c053abc-2f09-47e9-b586-751538d180c4/"
 textColor: "white"
-date: "2018-13-11"
+date: "2018-11-13"
 tags: ["fale"]
 ---
 

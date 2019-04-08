@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './cover.module.scss';
 
-export const Cover = ({title, subtitle, time, background, textColor, status, author}) => (<div 
+export const Cover = ({title, subtitle, time, background, textColor, status, authors}) => (<div 
     style={{
         backgroundImage: `url(${background})`,
         color: textColor
@@ -16,13 +16,9 @@ export const Cover = ({title, subtitle, time, background, textColor, status, aut
             <div className="col">
                 <small>{time}</small>
                 <h1>{title}</h1>
-                { (typeof author === 'undefined' || !author) ? '' : Array.isArray(author) ? 
+                { Array.isArray(authors) &&
                     <span>
-                        by {author.map(a=> (<a className="author" rel="noopener noreferrer nofollow" target="_blank" href={"https://github.com/"+author}>@{author}</a>))}
-                    </span>
-                    :
-                    <span>
-                        by <a rel="noopener noreferrer nofollow" target="_blank" href={"https://github.com/"+author}>@{author}</a>
+                        by {authors.map(a=> (<a className="author" rel="noopener noreferrer nofollow" target="_blank" href={"https://github.com/"+a}>@{a}</a>))}
                     </span>
                 }
             </div>

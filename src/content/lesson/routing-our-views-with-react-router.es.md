@@ -3,7 +3,7 @@ title: "Enrutando nuestras vistas con React Router"
 subtitle: "Cree la estructura de su aplicación y conecte sus vistas con React Router"
 cover: "https://ucarecdn.com/8c053abc-2f09-47e9-b586-751538d180c4/"
 textColor: "white"
-date: "2018-13-11"
+date: "2018-11-13"
 tags: ["fale"]
 ---
 

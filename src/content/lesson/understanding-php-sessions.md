@@ -3,7 +3,7 @@ title: "Understanding PHP Sessions"
 subtitle: "Are you confortable with server sessions ? Don't worry, after reading this lesson you will be a master in PHP sessions"
 cover: "https://ucarecdn.com/980ce2e0-b73e-4019-8e97-3510e3028e10/"
 textColor: "white"
-date: "2018-14-11"
+date: "2018-11-14"
 tags: ["fale"]
 ---
 

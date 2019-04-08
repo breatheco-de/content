@@ -5,7 +5,7 @@ subtitle: "Desata tu poder aprendiendo con esta lección, usando uno de los Reye
 cover: "http://breatheco.de/wp-content/uploads/2018/01/python-background.jpg"
 
 textColor: "white"
-date: "2018-05-11"
+date: "2018-11-05"
 tags: ["fale"]
 ---
 

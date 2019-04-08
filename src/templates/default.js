@@ -29,7 +29,7 @@ export default ({ data, pageContext }) => {
           background={post.frontmatter.cover} 
           textColor={post.frontmatter.textColor} 
           subtitle={post.frontmatter.subtitle}
-          author={post.frontmatter.author}
+          authors={post.frontmatter.authors}
           time={post.fields.readingTime.text}
           status={post.frontmatter.status}
         />
@@ -58,7 +58,7 @@ export const query = graphql`
         subtitle
         cover
         status
-        author
+        authors
         thumb
         textColor
       }
