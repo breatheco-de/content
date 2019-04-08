@@ -2,6 +2,7 @@
 title: "Hola en courses"
 subtitle: "A 10 brief to explain react and it's perks"
 tags: ["animals", "alejandro"]
+author: ["alesanchezr"]
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-01-11"

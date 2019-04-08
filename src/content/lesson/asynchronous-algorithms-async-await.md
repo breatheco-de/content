@@ -3,7 +3,8 @@ slug: "asynchronous-algorithms-async-await"
 title: "Creating asynchronous algorithms"
 subtitle: "Understand the difference between synchronous and asynchronous scripts, use Promises and master async and wait."
 cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
-status: "unassigned"
+status: "draft"
+author: ["kode2fever", "nachovz"]
 textColor: "white"
 date: "2018-05-11"
 tags: ["async","await","promise","asynchronous"]
@@ -253,7 +254,8 @@ console.log(myPomise);
 + ***Async*** is a JavaScript function and can contain an ***await*** expression.
 + ***Await*** pauses the execution of async function and waits for a Promise's result.
 
-[[warning]] | ??Remember that await expressions are only valid inside async functions. If you use them outside you will have a syntax error.
+[[warning]]
+| Remember that await expressions are only valid inside async functions. If you use them outside you will have a syntax error.
 
 ```javascript
 function returnedPromiseHere() {

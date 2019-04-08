@@ -255,8 +255,11 @@ class ClockComponent extends React.Component {
 
 Every component works like a mini-application.  You are able to control and define your component workflow based on a series of available methods that you can declare and code according to your needs.
 
-![learn react js tutorial](https://ucarecdn.com/541b1d85-c630-4b1f-9af6-08d2d2044089/-/resize/1200x/)
+![learn react js tutorial](https://ucarecdn.com/245ba798-e840-42d8-8391-7388159ccfeb/)
 
 [[info]]
 |:link:[Here you will find](https://reactjs.org/docs/react-component.html#the-component-lifecycle) a more detailed explanation of each available life-cycle method.
+
+[[info]]
+|:tv:[Here is an interactive chart](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 

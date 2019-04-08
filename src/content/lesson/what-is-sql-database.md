@@ -300,7 +300,7 @@ SET TRANSACTION [ READ WRITE | READ ONLY ];
 ```
 
 [[info]]
-|:link:https://www.tutorialspoint.com/sql/sql-syntax.html
+|:link:https://www.tutorialspoint.com/sql/sql-syntax.htm
 
 
 

@@ -19,7 +19,7 @@ tags: ["fale"]
 
 Todas las páginas web tienen HTML, es la estructura base de TODO. Imagínatelo como el esqueleto de una página o como las columnas de una construcción.
 
-HTML te obliga a hacer una división parecida a las partes básicas de un documento: cabecera, título, Contenido, pie de página, subtitulo, etc. Luego con CSS podrás hacer la página hermosa y con JavaScript la harás interactiva.
+HTML te obliga a hacer una división parecida a las partes básicas de un documento: cabecera, título, contenido, pie de página, subtitulo, etc. Luego con CSS podrás hacer la página hermosa y con JavaScript la harás interactiva.
 
 HTML era lo único que sabían interpretar los navegadores originalmente, las páginas web eran sencillas y no conocían CSS o JavaScript.  Un sitio web era un simple documento de texto plano con los elementos típicos que cualquier documento de Word tiene: títulos, listas de viñetas, párrafos, etc.
 
@@ -112,7 +112,7 @@ Vamos a simular el pensamiento de un navegador: Imaginemos que un usuario en su 
 
   ![learn html](https://ucarecdn.com/e8d3d49d-8c7e-4bc2-88e0-15b95a8ccc54/-/resize/400x/)
 
-|**Name**   |**Tags**   |**Description**   |
+|**Nombre**   |**Tags**   |**Descripción**   |
 |:----------|:----------|:-----------------|
 |HTML       |`<html>`   |Debemos empezar aclarándole al navegador que esto es un documento HTML. También podemos especificar la versión de HTML que estamos utilizando.   |
 |Head       |`<head>`   |Todo lo que esté dentro del HEAD en realidad no se va a visualizar en el documento. Es la parte de la página en donde le dices al navegador en qué idioma está hecha la página, de qué se trata, cargas las fuentes (font type) necesarias, defines el icono que va a tener la pestaña en el navegador y muchas otras cosas realmente importantes.   |
@@ -124,7 +124,7 @@ Leemos el sobre de una carta para conocer información sobre la carta en si mism
 
 En el caso de HTML, la cabecera `<head>` puede contener los siguientes tags (entre otros menos importantes):
 
-|**Name**   |**Tag**   |**Description**   |
+|**Nombre**   |**Tag**   |**Descripción**   |
 |:----------|:---------|:-----------------|
 |Title      |`<title>`   |El título aparece en la ventana del navegador, también es utilizado cuando compartes la página en las redes sociales: Facebook, Twitter, Instagram, etc. Todas esas redes utilizan el título de la página como texto por defecto para compartir cuando algún usuario copia el URL de tu página en su muro. Por último, es fundamental para SEO (Optimización para buscadores), ya que, Google le da mucha importancia dentro del contenido.   |
 |Meta       |`<meta>`   |Las etiquetas meta describen al documento. Se utilizan para especificar cosas como: autor, título, fecha, palabras clave, descripción, etc. Los buscadores aman las meta etiquetas porque les permite entender mejor el contenido antes de leerlo.   |
@@ -144,7 +144,7 @@ Veamos ahora como se compara un website a un documento de word:
 
 Las tags mas utilizadas dentro del `<body>` de un documento HTML son las siguientes:
 
-|**Name**   |**Tags**   |**Description**   |
+|**Nombre**   |**Tags**   |**Descripción**   |
 |:----------|:----------|:-----------------|
 | Head       |H1, H2, H3, etc.   |Define los títulos y subtítulos de la página (todos menos el título principal que se define con la etiqueta title).<br> `<h1>This is a heading</h1>`   |
 |Párrafo   |P   |Esta etiqueta separa el texto que contiene con un margen superior e inferior. De esta manera simula exactamente el comportamiento de un párrafo en un documento.`<p>example of a paragraph</p>`   |
@@ -165,7 +165,7 @@ Ya sabemos que cada  `<tag>` hace que el contenido se visualice de una manera di
 
 Si quieres modificar o especificar más como debe ser el comportamiento de un tag en particular, puedes utilizar sus atributos. Para colocárselos debes hacerlo de la siguiente manera:
 ```html
-<img src="http://www.mydomain.com/myimage.png" \>
+<img src="http://www.mydomain.com/myimage.png" />
 ```
 
 

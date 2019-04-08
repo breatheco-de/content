@@ -25,9 +25,10 @@ const walk = function(dir, done) {
   });
 };
 
-const buildLessonsData = (lessons) => lessons.map((lesson) => {
-    const content = fs.readFileSync(lesson, 'utf8');
-    const { title, date, tags, status } = fm(content).attributes;
+
+const buildLessonsData = (lessons) => lessons.map(l => {
+    const content = fs.readFileSync(l, 'utf8');
+    const { title, date, tags, status, subtitle } = fm(content).attributes;
     
     if(!title) throw new Error('Missing title');
     if(!date) throw new Error('Missing date');
@@ -40,7 +41,7 @@ const buildLessonsData = (lessons) => lessons.map((lesson) => {
     return {
         slug: path.basename(lesson, '.md'),
         status: status || 'published',
-        title, date, tags, lang, translations
+        title, date, tags, lang, translations, subtitle
     };
 });
 
