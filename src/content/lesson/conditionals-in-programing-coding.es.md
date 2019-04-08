@@ -1,5 +1,4 @@
 ---
-slug: "condicionales-en-programacion-coding"
 title: "Condicionales en la programación o codificación"
 subtitle: "Uso de condiciones para controlar el flujo de su código y hacer que la computadora obedezca"
 date: "2017-09-24"
