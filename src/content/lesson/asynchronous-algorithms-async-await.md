@@ -1,5 +1,4 @@
 ---
-slug: "asynchronous-algorithms-async-await"
 title: "Creating asynchronous algorithms"
 subtitle: "Understand the difference between synchronous and asynchronous scripts, use Promises and master async and wait."
 cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
