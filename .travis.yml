@@ -5,5 +5,5 @@ cache:
   directories:
     - node_modules
 script:
-  - node test-yaml.js
+  - node src/test/test-lessons.js
   - npm run build
