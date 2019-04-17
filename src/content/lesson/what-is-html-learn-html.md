@@ -105,19 +105,19 @@ Lets simulate how a browser thinks: Imagine a user on his browser (client side) 
 + Then, it will read its content and interpret it as HTML (because the extension of the file is index.html).
 + The user will not see the text content of the file, instead they will see a visual interpretation of that text.
   
-  As you can see, the page in question will include AT LEAST the following tags:
+  As you can see, all pages will include, AT LEAST, the following tags:
 
   ![learn html](https://ucarecdn.com/e8d3d49d-8c7e-4bc2-88e0-15b95a8ccc54/-/resize/400x/)
 
 |**Name**   |**Tags**   |**Description**   |
 |:----------|:----------|:-----------------|
-|HTML       |`<html>`   |We must begin by letting the browser know that this is an HTML document.  We can also specify the HTML version that we are using.   |
-|Head       |`<head>`   |Everything that is written inside of the HEAD won’t be seen by the user.  It’s the part of the page where the developer specifies information about the website itself: the language being used, what the website is about, the necessary fonts, the icon that the tab will have on the browser (favicon), and many other important things.   |
+|HTML       |`<html>`   |We must begin by letting the browser know that this is an HTML document.  We can also specify the HTML version we are using.   |
+|Head       |`<head>`   |Everything that is inside of the HEAD won’t be seen by the user. It’s the part of the page where the developer specifies information about the website, such as: the language being used, what the website is about, the fonts used, the icon that the browser tab will have (favicon), and many other important things.   |
 |Body       |`<body>`   |Here you will place all the content that will be viewed by the end user.<br>If this were MS Word, the body would mark the beginning of your page content (the first line of your document).   | 
 
 # **The \<HEAD\> is like the Envelope of a Letter.**
 ***
-We read the envelope of a letter to find out information of the letter itself, but not of its content.  Here you can find out who wrote the letter, in what language is it written, where is it from, etc.
+We read the envelope of a letter to find information about the letter, but not of its content. Here you can find who wrote the letter, in what language is it written, where is it from, etc.
 
 In the case of HTML, the `<head>` can contain the following tags (among less important ones):
 
