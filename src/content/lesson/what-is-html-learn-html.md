@@ -1,8 +1,8 @@
 ---
-title: "What is HTML? It's time to Learn HTML and it Structure"
-subtitle: "But really what is HTML ? HTML is to websites what columns are for buildings. 
+title: "What is HTML? It's time to learn HTML and its structure"
+subtitle: "But really, what is HTML? HTML is to websites what columns are for buildings. 
 
-Here you will learn HTML basics - the foundations of the web."
+Here you will learn HTML basics - "the foundations of the web."
 
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
@@ -11,17 +11,17 @@ tags: ["fale"]
 ---
 
 [[info]]
-| :point_up: Since in the previous chapter we equated houses, stores and buildings to web pages, now we have to say that HTML are the blueprints.
+| :point_up: Since in the previous chapter we equated houses, stores and buildings to web pages, then we could say HTML is the blueprints.
 
 
 # **HTML is the Website Skeleton**
 ***
 
-All web pages have HTML – it’s the structure of EVERYTHING.  Think of it as building columns at a construction site.
+All web pages have HTML – it’s the structure of EVERYTHING. Think of it as the columns at a construction site.
 
-HTML makes you divide the website information into parts – similar to the basic parts of a document: header, title, content, footnote, subtitle, etc.  Then, with CSS, you can make your page beautiful, and, with JavaScript, make it interactive.
+HTML allows you to divide the website information into parts – similar to the basic parts of a document: header, title, content, footnote, subtitle, etc.  Then, with CSS, you can make your page beautiful, and, with JavaScript, make it interactive.
 
-Originally browsers only knew how to interpret HTML.  Websites were simple and neither CSS or JavaScript was used.  A website was a simple plain text document with the typical elements any Word Document has: Headings, Bullet lists, Paragraphs, etc.
+Originally, browsers only knew how to interpret HTML.  Websites were simple and neither CSS or JavaScript were used. A website was a simple plain-text document with the typical elements any Word Document has: headings, bullet point lists, paragraphs, etc.
 
 ![what is html](https://ucarecdn.com/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc/-/resize/600x/)
 
@@ -30,44 +30,44 @@ Originally browsers only knew how to interpret HTML.  Websites were simple and n
 ***
 ![what is html](https://ucarecdn.com/78296f64-547f-4928-a8da-14cb24e836b9/)
 
-Remember how we said that the Internet is all text?
+Remember when we said the Internet is all text?
 
-In that sense, HTML is a language that uses `<tags>` to represent the elements that the web page must include.  A tag is just a word that begins and ends with the `<` and `>` characters, respectively.
+In that sense, HTML is a language that uses `<tags>` to represent the elements that a web page must have. A tag is just a word that begins and ends with `<` and `/>`, respectively.
 
 
 
-All tags must open and close.  To close a tag you must place the same word but using the `/` symbol.
+All tags must open and close. To close a tag you must place the same word or letter you used to open it but using `/>`.
 
 # **Attributes**
 ***
-Once the `<tag>` is defined, we can describe in detail its behavior by assigning attributes to those `<tags>`.  For example, if we want our HTML document/page to have a link to another page, we use the `<a>` tag, and we assign to it an attribute called **href**, which allows us to specify the URL of the page with which we want to have a connection.
+Once a `<tag>` is defined, we can describe in detail its behavior by assigning attributes to the `<tag>`.  For example, if we want our HTML document/page to have a link to another page, we use the `<a>` tag, and we assign to it an attribute called **href**, which allows us to specify the URL of the page we want to link.
 
 ```html
 <a href="google.com">Click here and it will take you to Google.com</a>
 ```
 
 
-In theory, you have to use [one of this tags](https://breatheco.de/en/lesson-asset/html5-cheat-sheet/), don’t invent your own because the browser won’t know how to interpret them.  You must **learn HTML** tag meanings and their functionality, in order to put them to good use…but, please, don’t worry!   There aren’t that many! 🙂
+In theory, you have to use [one of these tags](https://breatheco.de/en/lesson-asset/html5-cheat-sheet/), don’t make up your own tags because the browser won’t know how to interpret them. You must **learn HTML's** tags meanings, and their functionality, in order to put them to good use… but don’t worry, there aren’t that many! 🙂
 
-For the main heading of the document, the tag that we use is `<h1>`.  For example: An online store has an "electronics" category, the title that applies would be "Electronics" and the `<h1>` tag would be written as follows:
+For the main heading of the document, the tag we use is `<h1>`.  For example: An online store has an "Electronics" category. The title to such category would be "Electronics" and the `<h1>` tag would be written as follows:
 
 ```html
- <h1>Electronic items</h1>
+ <h1>Electronics</h1>
 ```
 
 
 ##### **Nested Tags** :
-Finally, tags can contain one or more tags within them.  For example, if we would like to give a cursive style to the word "electronic" we must wrap that word with the tag `<i>`:
+Finally, tags can contain one or more tags within them. For example, if we would want to give italic style to the word "electronics" we would wrap the word with the tag `<i>`:
 
 ```html
- <h1><i>Electronic</i> Tags</h1>
+ <h1><i>Electronics</i> Tags</h1>
 ```
 
  ## Blank Spaces and Line Jumps 
  ***
- The browser ignores blank spaces and end of lines.  If we want to jump one line, we have to use the `<br>` tag.  If we want more "spaces" we need to insert one `&nbsp;` per each blank space (yes, we know it’s weird, but it is what it is).
+ The browser ignores blank spaces and end of lines. If we want to jump one line, we have to use the `<br>` tag.  If we want more "spaces" we need to insert the command `&nbsp;` per each blank space (yes, we know it’s weird, but it is what it is).
 
-**These three alternatives will look the same (spaces and jumps of line will be ignored):**
+**The following three alternatives will look the same (spaces and jumps of line will be ignored):**
 ```html
 <tag>Hello</tag><tag>World</tag>
 ```
@@ -83,7 +83,7 @@ Finally, tags can contain one or more tags within them.  For example, if we woul
 
 # **Page Structure**
 ***
-All pages must begin with the `<DOCTYPE! Html>` statement, then the `<HEAD>` and the `<BODY>` should follow.  These tags **must** contain other tags within them (nested tags) because they will split the page in 2 main parts: the HEAD and the BODY:
+All pages must begin with the `<DOCTYPE! Html>` statement followed by `<html>`, then the `<HEAD>` and the `<BODY>` tags.  These tags **must** contain other tags within them (nested tags), and they will split the page in 2 main parts: the HEAD and the BODY:
 
 
 ```html{numberLines: true}
@@ -91,19 +91,19 @@ All pages must begin with the `<DOCTYPE! Html>` statement, then the `<HEAD>` and
 <!DOCTYPE html>
 <html>
    <head>
-   <! — Inside the head tag we will define all that the browser needs BEFORE it begins to interpret the page. –>
+   <! — Inside the head tag we will define all the information the browser needs in order to start interpreting the page. –>
    </head>
    <body>
-   <!–Inside the body we will define the real content of the page.–>
+   <!–Inside the body we will define the content of the page.–>
    </body>
 </html>
 ```
 
-Lets simulate how a browser thinks: Imagine a user on his browser (client side) that types the URL: breatheco.de
+Lets simulate how a browser thinks: Imagine a user on his browser (client side) who types the URL: breatheco.de
 
 + The server will open the default HTML file on that server, which will probably be: index.html.
 + Then, it will read its content and interpret it as HTML (because the extension of the file is index.html).
-+ The user will not see the text content of the file, instead it will view a visual interpretation of that text.
++ The user will not see the text content of the file, instead they will see a visual interpretation of that text.
   
   As you can see, the page in question will include AT LEAST the following tags:
 
