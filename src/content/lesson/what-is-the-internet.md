@@ -10,7 +10,7 @@ date: "2017-08-10"
 tags: ["fale"]
 ---
 
-## It all makes sense if we go back in time…
+## It all makes sense when we go back in time…
 
 If everything is a text document, how is it possible to have websites so amazing like Facebook, Youtube, etc?
 
@@ -28,7 +28,7 @@ For this reason, they worked on something as similar as possible to a Microsoft 
 
 >To summarize:
 >
->The easiest way to look at the Internet is that it is like a network of shared documents that were once rigid, formal scientific publications and, nowadays, are interactive, exciting and spectacular.
+>The easiest way to think of the Internet is as a network of shared documents that were once rigid, formal scientific publications and, nowadays, are interactive, exciting and spectacular.
 
 ![what is the internet](https://ucarecdn.com/ffe440de-8746-4ab5-81cc-37ef107155e9/-/resize/500x/)
 
@@ -36,20 +36,20 @@ For this reason, they worked on something as similar as possible to a Microsoft 
 ## Everything is Text (HTTP)
 
 
-As it was to be expected, if you wish to share documents, all you need is text.  When you build web pages, everything runs under the HTTP protocol (The Hypertext Transfer Protocol) which is a specialist in text transmission.
+As it is to be expected, if you wish to share documents, all you need is text.  When you build web pages, everything runs under the HTTP protocol (The Hypertext Transfer Protocol) which is a specialist in text transmission.
 
 What this means is that: everything is text.  For example, if you wish to send a photograph to your grandmother through an email, this is more or less what happens:
 
-+ The picture becomes text (at this point, its text that you wont be able to understand).
++ The picture becomes text (at this point, it's text that you wont be able to understand).
 + It gets transmitted through the Internet as text.  If a hacker intercepts this, what they would see is a bunch of symbols/letters/numbers one after the other.
-+ That chain of characters arrives at your grandmother’s computer.
-+ Your grandmother double clicks the photo and the program she is using to see the photo transforms that text back into an image understandable to a human.
++ That long sequence of characters arrives at your grandmother’s computer.
++ Your grandmother double clicks the photo and the program she uses to see the photo transforms the text back into an image understandable to a human.
 
 ![what is the internet](https://ucarecdn.com/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e/)
   
-<small style="color:grey">Image 1: The 4 steps needed to send images over the internet: first it turns to text, then it travels, then it arrives at grandma's computer, grandma opens the picture and the picture shows… lastly, grandma is happy looking at her grandson!</small>
+<small style="color:grey">Image 1: The 4 steps needed to send images over the internet: first it turns to text, then it travels, then it arrives at grandma's computer, grandma opens the picture and the picture shows… lastly, grandma is happy looking at her grandson's photo!</small>
 
-## But how do Pictures (and stuff) travel?
+## But How Do Pictures (and stuff) Travel?
 
 Everything is connected.  The best way to understand this is by comparing it to the postal service:
 
@@ -68,7 +68,7 @@ Everything is connected.  The best way to understand this is by comparing it to 
 
 ## The Web Browser
 
-Remember how we said servers are the building lots?  Well, to host a website, servers must meet all the requirements necessary so that the web page won’t crash (just like the building lots).
+Remember how we said servers are the building lots?  Well, to host a website, servers must meet all the requirements necessary so that the web pages won’t crash (just like the building lots).
 
 Websites reside on servers.  When users want to visit websites, they must enter the URL address in their browser.  This will take them to the lobby or entrance of the web page (which is called the “index.html”).
 
@@ -76,9 +76,9 @@ Imagine that browsers are vehicles able to drive through the highways of the Int
 
 If you’ve been reading and have understood everything so far, you must be wondering:
 
-### If the Internet is all text… then, when I’m navigating I’m going to see only text???  How horrible!!!
+### If the Internet is all text… then, when I’m navigating, Am I going to see only text???  How horrible!!!
 
-Well, don’t worry!  Browsers are equipped with magical windows.  If you see through those windows you will see the world as it is: No Text!!  The browser must perform all the functions that all other applications in your computer will accomplish.  Like representing images, videos, text, sounds, etc., the browser is so great that there are even computers – like the Google Chromecast – that only come with a browser.
+Well, browsers are equipped with "magical" windows. If you see through those windows you will see the world as it is: No Text!!  The browser must perform all the functions that all other applications in your computer will accomplish. Like representing images, videos, text, sounds, etc., the browser is so great that there are even computers – like the Google Chromecast – that only come with a browser.
 
 [[info]]
 | :tv: [Click here](https://www.youtube.com/watch?v=0QRO3gKj3qw) to access a video that explains how a Google Chrome Book works.
@@ -87,17 +87,18 @@ Well, don’t worry!  Browsers are equipped with magical windows.  If you see th
 
 As you browse the Internet, the browser must translate every text it finds along the way while transforming the text into web pages with titles, subtitles, text, images, etc.
 
-As a developer, you need to code everything that the browser is going to need to visualize the text.  We will call it “the client side” because the browser is installed on the computer of the user.  Likewise, all the code found on the client side will be processed by that computer.
+As a developer, you need to code everything the browser is going to need to visualize the text. We call it “the client side” because the browser is installed on the computer of the user. Likewise, all code on the client side will be processed by that computer.
 
-The server has no idea of what the browser does! (Or at least it didn’t at the beginning (several years ago), and, to tell you the truth, it still doesn’t really know).
+The server has no idea of what the browser does! (Or at least it didn’t at the beginning (several years ago), and actually, it still doesn’t really know).
 
 So, what does the server do?
 
-Well, it does a lot!  The server is responsible for preparing the text that will be read by the browser.  The three major challenges for the server are:
+Well, it does a lot! The server is responsible for preparing the text that will be read by the browser. The three major challenges for the server are:
 
-+ **Speed:** for each server, there are thousands of clients.  The server must be very fast in order to answer each client as quickly as possible.
-+ **Concurrence:** not only there are thousands of clients, each client requests text at the same time as many others.  The server must be able to answer many demands simultaneously.
-+ **Efficiency:** at times, clients have demands that are very hard to resolve – even if it is only one client.  Imagine for a second that you are using Google Maps to figure out how long it takes to travel from Caracas to Santiago de Chile.  The server has to check traffic data, routes, accidents and run some sort of algorithm to obtain the estimated time of arrival (ETA).  Even if the result is a simple chain of characters like “two days, 2 hours and 30 minutes,” the server had to make thousands of calculations to arrive to that conclusion.
++ **Speed:** for each server, there are thousands of clients. The server must be very fast in order to answer each client as quickly as possible.
++ **Concurrence:** not only there are thousands of clients, each client requests text at the same time as many others. The server must be able to respond to many demands simultaneously.
++ **Efficiency:** at times, clients have demands that are very hard to resolve – even if it is only one client.  Imagine for a second that you are using Google Maps to figure out how long it takes to travel from Mexico City to Santiago de Chile.  The server has to check traffic data, routes, accidents and run some sort of algorithm to obtain the route and estimated time of arrival (ETA). Even if the result is a simple chain of characters like “two days, 2 hours and 30 minutes,” the server had to make thousands of calculations to arrive to that conclusion.
+
 So…lets summarize:
 
 ![what is the internet](https://ucarecdn.com/57821cbc-5ba0-4e1c-9b90-7f1df7c637fa/)
@@ -105,6 +106,6 @@ So…lets summarize:
  
 | The Server   |      The Client       |
 |----------|:-------------:|
-|The server’s mission is to deliver all the text/information the client needs to render the website properly.  It has a close relationship with the database (which manages and processes the data).  It handles a high volume of information and is prepared to answer thousands of clients requests at the same time.<br><br>The most frequent languages used are PHP, Python, Ruby and Java.<br><br>Little by little, the server has come to delegate part of its load.  It handles fewer things now than before, but the ones it still handles are repeated many times.  There are even services like Parse.com or Firebase.com that have created tools that allow developers to create web apps without even using their own server.<br><br>All the code that runs on the side of the server is called “The Back-End.”  Back-End developers must strengthen their knowledge in databases, Bid Data, Data Mining, Security, Web Sockets, Web Services, API’s, etc. |The client includes all code that runs on the computer or device of the client. The most frequent languages are: HTML5, CSS3, JavaScript.<br><br>Originally, the code that resided in the client didn’t do much because the documents were very simple.  But things have changed; technology has given more relevance to the client to a point in which today there are thousands of apps that have more code on the client’s side than on the server side.<br><br>Running the code on the client side frees the load of the server.  After all, there is ONLY ONE server per THOUSANDS of clients.<br><br>All code on the side of the client is called “The Front-End.”<br><br>Front End developers are mostly dedicated to JavaScript, and maybe diagramming websites with HTML5 or CSS3 (designers may also do this last part).  This means that they must integrate multiple API’s, manage almost all the data processing on the client side (to avoid having too much interactions with the server), graph data, 3D modeling, games, jQuery plugins, AJAX, etc. |
+|The server’s mission is to deliver all the text/information the client needs to render the website properly. It has a close relationship with the database (which manages and processes the data). It handles a high volume of information and is prepared to answer thousands of clients requests at the same time.<br><br>The most frequent languages used are PHP, Python, Ruby and Java.<br><br>Little by little, the server has come to delegate part of its load. It handles fewer things now than before, but the ones it still handles are repeated many times. There are even services like Parse.com or Firebase.com that have created tools that allow developers to create web apps without even using their own server.<br><br>All the code that runs on the side of the server is called “The Back-End.”  Back-End developers must strengthen their knowledge in databases, Bid Data, Data Mining, Security, Web Sockets, Web Services, API’s, etc. |The client includes all code that runs on the computer or device of the client. The most frequent languages are: HTML5, CSS3, JavaScript.<br><br>Originally, the code that resided in the client didn’t do much because the documents were very simple. But things have changed; technology has given more relevance to the client to a point in which today there are thousands of apps that have more code on the client’s side than on the server side.<br><br>Running the code on the client side frees load off the server. After all, there is ONLY ONE server per THOUSANDS of clients.<br><br>All code on the side of the client is called “The Front-End.”<br><br>Front End developers are mostly dedicated to JavaScript, and maybe diagramming websites with HTML5 or CSS3 (designers may also do this last part).  This means that they must integrate multiple API’s, manage almost all the data processing on the client side (to avoid having too much interactions with the server), graph data, 3D modeling, games, jQuery plugins, AJAX, etc. |
 
     
