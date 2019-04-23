@@ -3,7 +3,7 @@
 
 [![buddy pipeline](https://app.buddy.works/breathecode/content/pipelines/pipeline/149869/badge.svg?token=7fd65f24ee0daa2c60600820880d585a0bf52da8e65b5ef1f886615b58237012 "buddy pipeline")](https://app.buddy.works/breathecode/content/pipelines/pipeline/149869)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/breatheco-de/content.git)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/breatheco-de/content.git)
 
 CMS for the BreatheCode Platform
 
