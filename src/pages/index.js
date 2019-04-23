@@ -2,23 +2,23 @@ import React from "react";
 import Link from "gatsby-link";
 import { graphql } from 'gatsby';
 export default ({ data }) => {
-  return (
-    <div>
+  return (<div className="container mt-5">
+    <img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,128" />
+    <h1>Lesson Index:</h1>
+    <ul>
       {data.allMarkdownRemark.edges.map(({ node }) =>
-        <div key={node.id}>
+        <li key={node.id}>
           <Link
             to={node.fields.type+"/"+node.fields.slug}
             style={{ textDecoration: `none`, color: `inherit` }}
           >
-            <p>
               {node.frontmatter.title}
-            </p>
           </Link>
-        </div>
+        </li>
       )}
       <Link to="/tags">All tags</Link>
-    </div>
-  );
+    </ul>
+  </div>);
 };
 
 export const query = graphql`

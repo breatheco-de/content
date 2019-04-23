@@ -1,6 +1,6 @@
 ---
 title: "What is HTML? It's time to learn HTML and its structure"
-subtitle: "But really, what is HTML? HTML is to websites what columns are for buildings. 
+subtitle: "But really, what is HTML? HTML is to websites what columns are for buildings.
 
 Here you will learn HTML basics - "the foundations of the web."
 
@@ -63,7 +63,7 @@ Finally, tags can contain one or more tags within them. For example, if we would
  <h1><i>Electronics</i> Tags</h1>
 ```
 
- ## Blank Spaces and Line Jumps 
+ ## Blank Spaces and Line Jumps
  ***
  The browser ignores blank spaces and end of lines. If we want to jump one line, we have to use the `<br>` tag.  If we want more "spaces" we need to insert the command `&nbsp;` per each blank space (yes, we know it’s weird, but it is what it is).
 
@@ -104,7 +104,7 @@ Lets simulate how a browser thinks: Imagine a user on his browser (client side) 
 + The server will open the default HTML file on that server, which will probably be: index.html.
 + Then, it will read its content and interpret it as HTML (because the extension of the file is index.html).
 + The user will not see the text content of the file, instead they will see a visual interpretation of that text.
-  
+
   As you can see, all pages will include, AT LEAST, the following tags:
 
   ![learn html](https://ucarecdn.com/e8d3d49d-8c7e-4bc2-88e0-15b95a8ccc54/-/resize/400x/)
@@ -113,7 +113,7 @@ Lets simulate how a browser thinks: Imagine a user on his browser (client side) 
 |:----------|:----------|:-----------------|
 |HTML       |`<html>`   |We must begin by letting the browser know that this is an HTML document.  We can also specify the HTML version we are using.   |
 |Head       |`<head>`   |Everything that is inside of the HEAD won’t be seen by the user. It’s the part of the page where the developer specifies information about the website, such as: the language being used, what the website is about, the fonts used, the icon that the browser tab will have (favicon), and many other important things.   |
-|Body       |`<body>`   |Here you will place all the content that will be viewed by the end user.<br>If this were MS Word, the body would mark the beginning of your page content (the first line of your document).   | 
+|Body       |`<body>`   |Here you will place all the content that will be viewed by the end user.<br>If this were MS Word, the body would mark the beginning of your page content (the first line of your document).   |
 
 # **The \<HEAD\> is like the Envelope of a Letter.**
 ***
@@ -171,7 +171,7 @@ Each tag has its own properties – you do not have to memorize them, you will a
 
 That’s why we have created a series of exercises that will better explain each of the important properties of the most used HTML elements.
 
-## Clap, Clap, Clap.  You are one step closer to learning HTML! 
+## Clap, Clap, Clap.  You are one step closer to learning HTML!
 ***
 We are so PROUD! 🙂
 

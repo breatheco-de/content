@@ -1,9 +1,6 @@
 ---
 title: "Que es HTML? Es tiempo de aprender HTML y su estructura"
-subtitle: "Pero realmente que es HTML ? HTML es para las paginas web lo que son las columnas para los edificios. 
-
-Aqui aprenderás lo básico de HTML - la base de la web."
-
+subtitle: "Pero realmente que es HTML ? HTML es para las paginas web lo que son las columnas para los edificios. \n Aqui aprenderás lo básico de HTML - la base de la web."
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-10-31"
@@ -69,7 +66,7 @@ Por último, es importante que una tag pueda tener una o más tags en su conteni
  ## Espacios en Blanco y Saltos de Linea
  ***
  Los espacios en blanco y los saltos de línea son ignorados por el navegador al momento de interpretar el texto. Si escribimos cinco espacios en blanco seguidos o uno solo, el navegador lo interpretará de la misma manera. Si queremos un salto de linea, debemos usar el tag `<br>`.  Si queremos mas "espacio" necesitamos insertar un `&nbsp;` por cada espacio en blanco (si, sabemos que es raro, pero es así).
- 
+
 **Estas tres alternativas se van a ver iguales (espacios y saltos de lineas van a ser ignorados):**
 ```html
 <tag>Hello</tag><tag>World</tag>
@@ -107,7 +104,7 @@ Vamos a simular el pensamiento de un navegador: Imaginemos que un usuario en su 
 + El servidor abrirá un archivo HTML por defecto en el servidor, el cual probablemente sea: index.html.
 + Luego, leerá el contenido e interpretará como un HTML (porque la extension del archivo es index.html).
 + El usuario no vera el texto que contiene el archivo, en cambio verá una interpretacion visual del texto.
-  
+
  Como ya sabemos, dicha página va a contener MÍNIMO los siguientes tags:
 
   ![learn html](https://ucarecdn.com/e8d3d49d-8c7e-4bc2-88e0-15b95a8ccc54/-/resize/400x/)
@@ -134,7 +131,7 @@ En el caso de HTML, la cabecera `<head>` puede contener los siguientes tags (ent
 
 # **El \<body\> es Similar a cualquier Documento de MS Word**
 
-Ok, ahora que conocimos la estructura general y obligatoria de la página, vamos a revisar cuáles son los tags que podemos y debemos utilizar para definir el contenido de la misma. 
+Ok, ahora que conocimos la estructura general y obligatoria de la página, vamos a revisar cuáles son los tags que podemos y debemos utilizar para definir el contenido de la misma.
 
 Recuerda -por quinceava vez- que una página web es un…. ¡documento! Así es, si pensaste la respuesta antes de leerla… ¡estás entendiendo! y si no es así pues no te preocupes, que no conozco a la primera persona que haya entendido HTML y CSS rápidamente ;).
 
