@@ -13,33 +13,33 @@ tags: ["fale"]
 ## **The Box Model**
 ***
 
-CSS Layouts and the positioning of elements are probably one of the hardest concepts in CSS; both were meant for older, less advanced and less rich websites.
+CSS Layouts and the positioning of elements are probably one of the most challenging concepts in CSS; both were meant for older, less advanced and less rich websites.
 
 ![css layout](https://ucarecdn.com/dccad91a-93b3-49c9-a437-6612087b9ee4/-/resize/600x/)   
 
 #### Layout
 Let’s go back to HTML: How can I create documents with 2 columns?  We know that some scientific documents have several columns, but how can I replicate that in a website?
 
-We need to use boxes for that.  A box is a container with a specific width and height.  Boxes tend to be rigid containers that bring order into the HTML/CSS world.  The most used tag for a box is `<div>` by far.
+We need to use boxes for it.  A box is a container with a specific width and height.  Boxes are containers that bring order into the HTML/CSS world.  By far, the most used tag for a box is `<div>`.
 
 
-All the website content should be wrapped within a box (div, header, footer, etc.). Boxes are invisible by default so, in order to make them visible, you have to either set a background color or a border.  The following image shows how many invisible boxes a normal website has:
+All website content should be wrapped within boxes (div, header, footer, etc.). Boxes are invisible by default so, in order to make them visible, you have to either set a background color or a border.  The following image shows how many invisible boxes a normal website has:
 
 <before-after width="500px"
     before="https://ucarecdn.com/40818d0d-60c6-4ef3-a488-834f21ddebf1/" after="https://ucarecdn.com/0c89a48e-d488-4e5c-807a-fd6b9a9179f6/" />
 
 #### Box Attributes
 
-All the box containers must have the following attributes:
+All box containers can have the following attributes:
 
 |**Atribute**   |**Description**   |
 |:--------------|:-----------------|
 |Content	    |Whatever elements are contained within the tag.     |
-|Padding   |This is an optional empty space that exists between the content and the border.   |
-|Border	   |The line enclosing the content and whatever it has inside.   |
-|Background image   |The image that its shown behind the box content.   |
+|Padding   |This is an optional empty space or margin that can be added between the content and the border of the box.   |
+|Border	   |The line around the box and its content.   |
+|Background image   |The image that is shown behind the box content.   |
 |Background color   |In addition to the background image, you can also have a background color behind both the content and the background image.   |
-|Margin   |Optional space that can exist between this particular box and the other elements around.   |
+|Margin   |Optional space that can be added between this particular box and other elements around.   |
 
 ![css layout](https://ucarecdn.com/153d2a7c-b648-4d75-920b-940102f18eaa/-/resize/500x/) 
 
@@ -57,7 +57,7 @@ Every box has width and height.  You can set these properties to be relative to 
 ## **Attribute Position**
 ***
 
-The browser is responsible for assigning positions to all elements of a page.   However, as we know, the positions brought by the elements are quite limited and make the documents look both ugly and from the last century.
+The browser is responsible for assigning positions to all elements of a page.   However, as we know, the positions brought by the elements are quite limited and make the documents look both ugly and antiquated.
 
 In order for a website to look like today’s websites, we have to redesign the entire page positioning.  This is achieved by using both the "position" property  and the "display" property  (which we will learn later on) so that we can replicate whatever layout imaginable by the most avid designer.
 
@@ -67,17 +67,17 @@ In order for a website to look like today’s websites, we have to redesign the 
 
 |**Name**   |**Description**   |
 |:----------|:-----------------|
-|Static     |This does not involve any special positioning of the elements.  As a consequence, the top, left, right and bottom attributes are not taken into consideration.    |
-|Relative    |Similar to absolute. The main difference here is that nobody ignores its position in the document.  The box where you apply this attribute will be located in accordance to the top, left, right and bottom attributes – based on its main (boss/principal/father) element as the starting point.    |
-|Absolute    |When you tell a box that its position is absolute, you also need to define the top, bottom, left and right rules. Here, you are asking the box to ignore where it was defined inside the HTML document.  Its new position will be based on the rules (top, left, right and bottom that you specified in the CSS).    |
-|Fixed     |If you fix an element, it means that it will stay in the same position during the whole web navigation.  If the user scrolls the web, the element will stay in the very same position. Fixed could be used on PopUps, menu, etc.    |
+|Static     |This does not involve any special positioning of the elements.  As a consequence, the top, left, right and bottom attributes are not considered.    |
+|Absolute    |When you tell a box that its position is absolute, you also need to define the top, bottom, left and right rules. Here, you are asking the box to ignore where it was positioned inside the HTML document.  Its new position will be based on the rules (top, left, right and bottom that you specified in the CSS).    |
+|Relative    |Similar to absolute. The main difference here is that its position in the HTML document is not ignored.  The box will be located in accordance to the top, left, right and bottom attributes – relative to its main (boss/principal/father) element as the starting point.    |
+|Fixed     |If you fix an element, it means that it will always remain in the same position.  When the user scrolls in any direction, the element will stay in the very same position. Fixed could be used on PopUps, menu, etc.    |
 
-Wait!!  If you don’t get what we just explained, well…………it doesn’t really matter (at this current stage).  This is one of those moments where we need you to practice more and more.  There is no other choice . 🙁
+Wait!!  If you don’t get what we just explained, well…… there's nothing to worry (at this current stage).  This is one of those things we need you to practice a lot.  There is no other way. 🙁
 
 ## **Display Attribute**
 ***
 
-The values of the `display` property are much more advanced than just hiding elements.  Actually, the `display` property changes the way in which a document can be visualized.
+The values of the `display` property are much more advanced than just showing or hiding elements.  Actually, the `display` property changes the way in which a document can be visualized.
 
 It is common to find this attribute in menus, social network activity feeds, etc.
 
@@ -88,19 +88,19 @@ It is common to find this attribute in menus, social network activity feeds, etc
 
 |**Name**   |**Description**   |
 |:----------|:-----------------|
-|Inline     |This is the default value of `<strong>`, `<i>`, `<a>`, `<span>`, etc.  The elements will behave like text and will not have rigid limits (neither width, nor height).    |
-|Block   |This is the default value of `<div>`, `<p>`, `<h>`, etc.  It will occupy the entire line of the web – moving the other elements above or below it.    |
-|Inline-Block    |The best of both worlds.  It tries to have several containers in one same line, but each of them respecting its limits (width and height). Thanks to this element, there are pages like Pinterest that allow masonry the design.   |
-|None    |Hides the element (making it invisible) and does not hold any space within the document.   |
+|Inline     |This is the default value of `<strong>`, `<i>`, `<a>`, `<span>`, and other common tags.  The elements will behave like text and will not have defined limits (neither width, nor height).    |
+|Block   |This is the default value of `<div>`, `<p>`, `<h>`, etc.  The element will occupy the entire row of the site – and move other elements above or below it.    |
+|Inline-Block    |The best of both worlds.  This value places the containers in the same row, but respecting each of their limits (width and height). Thanks to this value, sites like Pinterest use masonry design.   |
+|None    |Hides the element (making it invisible) and does not hold any space for it within the document.   |
 
-Ok, now…to understand what we just mentioned, there is no other choice but…Practice!
+Ok, now… to understand what we just explained, there is no other choice but… Practice!
 
 ## **Float Attribute**
 ***
 
 Float is a simple but very useful attribute.  Float works by telling a box to move as far as possible to one side: left or right.  Once you assign the float property to an element, it will look for the best space to be accommodated – trying to coexist with the elements that surround it.
 
-Float is very much used in blogs when you want to add images to your articles.  It is very good in these cases, because once the photo is moved to one side, the text of the article surrounds the image in a very natural way.
+Float is very much used in blogs when you want to add images to your articles.  It is very good in such cases, because once the photo is moved to one side, the text of the article will find its place around the image in a very natural way.
 
 <iframe src="https://www.youtube.com/embed/htdLSAZ2ZH8" frameborder="0" allowfullscreen ></iframe>
 
@@ -108,8 +108,8 @@ Float is very much used in blogs when you want to add images to your articles.  
 
 |**Name**   |**Description**   |
 |:----------|:-----------------|
-|left	    |Move the element as far to the left as possible.   |
-|right   |Move the element as far to the right as possible.   |
+|left	    |Moves the element as far to the left as possible.   |
+|right   |Moves the element as far to the right as possible.   |
 
 
 ## **Think about UI/UX for a second**
@@ -117,28 +117,28 @@ Float is very much used in blogs when you want to add images to your articles.  
 
 It’s yoga time, let’s stop the coding and think about mankind for a minute.  How do humans act?  How do they behave?  What do they like?  Where do they click?
 
-This course is not just about user interface and experience.  Web developers tend to underestimate this matter.  It is important to take enough time to design the website navigation flow, the menu position, UI elements, etc.  Here you have some layout examples:
+This course is not just about user interface (UI) and experience (UX).  Web developers tend to underestimate this matter.  It is important to take enough time to design the website navigation flow, the menu position, UI elements, etc.  Here you have some layout examples:
 
 ![css layout](https://ucarecdn.com/ce06fb9d-bc8c-4191-ae12-a2ec4ac6fa1f/-/resize/400x/)
 
-Some websites have great content, but, unfortunately, they also have bad layouts that limit their potential for success.  These are the top criteria to consider when choosing your layout:
+Some websites have great content, but, unfortunately, they also have poor layouts that limit their potential for success.  These are the main criteria to consider when choosing your layout:
 
-+ **Responsiveness:**  Does the website needs to adapt to different screens? You can create separate websites for each device type, or mobile apps + websites, but having a responsive website is always recommended.  You don’t want to miss any traffic because the website doesn’t load properly.
-+ **Device Screen Size:** Some very small screens cannot have the same amount of columns; the images may need to be a little be smaller, etc.  Eg: The iPhone SE has a very small screen and is used by a big-enough percentage of the iPhone users.  Sidebars are not a good idea on those devices.
-+ **Orientation:** If you are using a tablet or mobile phone, you can rotate your screen which will require the website width to become bigger (for landscape) or smaller (for portrait).
-+ **Common Sense:** This is a tricky one, but you will never know what works best until you try.  Perhaps moving a website menu from the top to the left will increase user engagement.  You must always be in constant search for "the truth".
++ **Responsiveness:**  Does the website need to adapt to different screens? You could create separate websites for each device type, or mobile apps + websites, but having a responsive website is always recommended.  You don’t want to miss any traffic because the website doesn’t load properly.
++ **Device Screen Size:** Small screens cannot have the same number of columns as larger ones; the images may need to be smaller, among other considerations.  E.g: The iPhone SE has a very small screen, and it's used by a big-enough percentage of the iPhone users.  Sidebars are not a good idea on these devices.
++ **Orientation:** If you are using a tablet or mobile phone, you can rotate your screen which will require the website width to adjust and become bigger (for landscape) or smaller (for portrait).
++ **Common Sense:** This is a tricky one, but you will never know what works best until you try.  Perhaps moving a website menu from the top to the left will increase user engagement.  You must always be in constant search for "the truth" about your user behavior.
   
 # **Layout Examples:**
 ***
 
-The following examples gather a big percentage of the most used layouts on the web.  Understand them well because you will probably use them throughout the rest of your life as a developer.  Sometimes you will use a mixed approach to accomplish several things at the same time.
+The following examples gather a large percentage of the most used layouts on the web.  Understand them well because you will probably use them throughout the rest of your life as a developer.  Sometimes you will use a mixed approach to accomplish several things at the same time.
 
 ### Centered Content
 ***
 
 Facebook is like this: a centered content website has a max-width for the content.  This means that it doesn’t matter if the client computer has a 4000px width –  the website width will stop at "max-width" and the rest of the page will be white.
 
-Here is the exact code needed to have the website content always aligned at the center of the screen:
+Here is the exact code needed for website content to always be aligned at the center of the screen:
 
 ![css layout](https://ucarecdn.com/ca5d4285-c151-4b30-a4a2-c6b35510188b/-/resize/500x/)
 
@@ -151,9 +151,9 @@ Here is the exact code needed to have the website content always aligned at the 
 ### Left Sidebar Fixed
 ***
 
-Left sidebars are great when you have a wide screen (landscape).  You can have a menu, some ads, newsletter signup call to action, login form, etc.  And you can still have enough space for content!  Almost every website uses a left sidebar these days, some of them include also a right sidebar at the same time.
+Left sidebars are great when you have a wide screen (landscape).  You can have a menu, some ads, a newsletter sign-up call to action, login form, etc.  And you can still have enough space for content!  Almost every website uses a left sidebar these days, some of them include also a right sidebar.
 
-This pre-work website has a left sidebar and is a great option for us because we want to have the syllabus permanently available for our students.
+This pre-work website has a left sidebar, and it's a great option for us because we want to have the syllabus permanently available for our students.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -162,7 +162,7 @@ This pre-work website has a left sidebar and is a great option for us because we
 ### Top Menu with Left Sidebar
 ***
 
-This is almost the same, but instead of having the left-sidebar as the primary menu, you will use it as complementary content.  The main menu should be at the top box because is the first thing users see when they land on the website.
+This is almost the same, but instead of having the left-sidebar as the primary menu, you will use it for complementary content.  The main menu should be at the top box because is the first thing users see when they land on the website.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -171,9 +171,9 @@ This is almost the same, but instead of having the left-sidebar as the primary m
 ## Responsive Masonry
 ***
 
-Pinterest made this layout universally known.  By using this "innovative" UI, they became one of the most visited websites over the internet.  Masonry will distribute the containers in the best way possible: first trying to cover the whole row while appending (adding at the end of) more boxes to the right, and then jumping to the next row when there is no longer enough space.
+Pinterest made this layout universally known.  By using this "innovative" UI, they became one of the most visited websites in the world.  Masonry distributes the containers in an optimal way: first fills the whole row by appending boxes to the right (adding them at the end), and then jumping to the next row when there is no longer space available.
 
-Another great thing about Masonry is that each box can have its own height.   That is challenging in CSS because some older browsers don’t support that feature yet and you will have to use Javascript to patch it.
+Another great thing about Masonry is that each box can have its own height.   That is challenging in CSS because some older browsers don’t support this feature yet and you will have to use Javascript to patch it.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -182,14 +182,14 @@ Another great thing about Masonry is that each box can have its own height.   Th
 ## Popups / Modal Windows / Alerts
 ***
 
-The default Javascript alert is ugly and limited [(click here to check it out)](https://www.w3schools.com/js/js_popup.asp). Nobody likes to use them, that’s why developers always have to build their own modals.
+The default Javascript alert is ugly and limited [(click here to check it out)](https://www.w3schools.com/js/js_popup.asp). Nobody likes to use them, that’s why developers usually build their own modals.
 
 To replicate the alert behavior you have to:
 
 + Create a div with absolute position.
 + Place it at the center of the screen (use auto margins for that).
-+ In front of the website content (use z-index rule for that).
-+ Add a close button to make the div display: none; (invisible) when the user clicks on close [(you have to use JavaScript to capture the user click)](https://stackoverflow.com/questions/3177582/how-to-hide-div-by-onclick-using-javascript).
++ Place it in front of the website's content (use z-index rule for that).
++ Add a "close" button to make the div display: none; (invisible) when the user clicks on it [(you have to use JavaScript to capture the user click)](https://stackoverflow.com/questions/3177582/how-to-hide-div-by-onclick-using-javascript).
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/8co2hnj1/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -206,7 +206,7 @@ Use the sliders on the left toolbar to change the margin, padding, border radios
 ## There is Much More to Know about Layouts
 ***
 
-You will constantly have to be learning "on the go" because there is an infinite amount of combinations you can create for a website layout.  What really matters is that you fully understand the display, absolute, float and overflow rules.
+You will have to be learning "on the go" because there is an infinite amount of combinations you can create for a website layout.  What really matters is that you fully understand the display, absolute, float and overflow rules.
 
 Worry not, my friend.  A major part of Bootstrap is made to make layouts easier.  You will learn that in the next lesson.
 
