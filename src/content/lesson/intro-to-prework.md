@@ -10,11 +10,11 @@ tags: ["prework"]
 ## Flipped Around
 
 
-There are a lot coding courses out there; some are even free.  If you joined 4Geeks Academy, it’s because you are just like us.  You truly believe that hard-to-learn skills like Coding require much more than just online articles/videos or tutorials that make you feel everything is easy..
+There are a lot coding courses out there; some are even free.  If you joined 4Geeks Academy, it’s because you are just like us.  You truly believe that hard-to-learn skills like Coding require much more than just online articles/videos or tutorials that make you feel everything is easy.
 
-Coding is hard because it can only be learned by infinite amounts of practice, face-to-face mentoring, and real life challenges.
+Coding is hard because it can only be learned by large amounts of practice, face-to-face mentoring, and real life challenges.
 
-So, we came up with this online platform.  These contents will guide you throughout the program.  There will be an infinite amount of exercises/projects.  The class will focus on enabling you.  We will present you with one challenge after the other, but always with senior eyes looking at your process and helping you out.  BreatheCode is the place to read, learn and practice until you permanently affix everything into to your brain.
+So, we came up with this online platform.  These contents will guide you throughout the program.  There will be many many exercises/projects.  The class will focus on enabling you.  We will present you with one challenge after the other, but always with senior developer eyes looking at your process to assist you and help you out.  BreatheCode is the place to read, learn and practice until you permanently affix everything into to your brain.
 
 ## So You’d Rather Not Read Much!?!?
 <hr>
@@ -25,10 +25,10 @@ We have made a huge effort in summing things up.  Everything you’ll find here 
 
 ![short attention meme](https://breatheco.de/wp-content/uploads/2017/01/short-attention-meme1.jpg)
 
-## But what if You Already Think You Know?
+## But What If You Already Think You Know?
 <hr>
 
-There are some of you who already have some coding experience (mostly with HTML and CSS), and some of you with no experience at all.  That’s the main reason this stage of the program is known as **Pre-Work**.  We need to assess the level of experience of each member of the program.  Pre-Work also enables us to to get to know you.  Knowing about your learning process and learning curve helps us guide you towards achieving the best possible results.
+There are some of you who already have some coding experience (mostly with HTML and CSS), and some of you with no experience at all.  That’s the main reason why this stage of the program is known as **Pre-Work**.  We need to assess the level of experience of each member of the program.  Pre-Work also enables us to to get to know you.  Knowing about your learning process and learning curve helps us guide you towards achieving the best possible results.
 
 We really need to get to know you better.  We need to be sure that you have what it takes to complete the program.  It’s going to be intense, and you will feel exhausted, but don’t fret on it.  We have been doing this for a while and we feel you!
 
@@ -36,7 +36,7 @@ We really need to get to know you better.  We need to be sure that you have what
     <img class="my-class" src="https://breatheco.de/wp-content/uploads/2017/01/i-feel-you.jpg" width="300">
 </p>
 
-## This Course Works, but You Have to Trust Us
+## This Course Works, But You Have To Trust Us
 <hr>
 
 The human brain requires a lot of energy to make any decision, especially when a lot of variables take part in the equation.  This course is hard because we are re-designing the way you make decisions: you will have to think similar to the way computers think.  A time will come in which everything becomes an acquired behavior.
@@ -45,7 +45,7 @@ If you feel overwhelmed and confused, <span style="color:#993300">**ask for help
 
 ### Please Ask for Help!
 
-Have you read about Einstein?  Really smart people are the ones who always ask more questions.  They are not afraid of not knowing or making mistakes.  The only way we can really help you is if you accept our mentorship by asking for help.
+Have you read about Einstein?  Really smart people are the ones who always ask more questions. They are not afraid of not knowing or making mistakes. The only way we can really help you is if you accept our mentorship by asking for help.
 <p style="text-align:center">
     <img class="my-class" src="https://breatheco.de/wp-content/uploads/2017/01/126g91.jpg" width="300">
 </p>
@@ -53,11 +53,11 @@ Have you read about Einstein?  Really smart people are the ones who always ask m
 ## Coding Tools
 <hr>
 
-When we started the Academy, each student had the freedom to install their own set of coding tools and programs.  However, we discovered that each student started to waste time installing and setting up each program.  They invested more time doing that than actually learning to program.
+When we started the Academy, each student had the freedom to install their own set of coding tools and programs. However, we discovered that students wasted too much time installing and setting up each program.  They invested more time doing that than actually learning to program.
 
-So, now it’s up to us alone!!  We have decided what stack of programs you need – some of them are mandatory – to use/download during the program.  Don’t worry, you’ll be happy with us!!
+So, now it’s up to us!! We have decided what stack of programs you need – some of them are mandatory – to use/download during the program.  Don’t worry, you’ll be happy with us!!
 
-Yeah, yeah, we know some of you already have your own tools, but let’s keep that conversation for another time.  For now, closely follow our suggestions and give us the opportunity to tell you how to go about it all. 
+Yeah, yeah, we know some of you already have your own tools, but let’s keep that conversation for another time. For now, closely follow our suggestions and give us the opportunity to tell you how to go about it all. 
 
 <p style="text-align:center">
     <img class="my-class" src="https://breatheco.de/wp-content/uploads/2017/01/shu-ha-ri-189x300.jpg" width="180">
