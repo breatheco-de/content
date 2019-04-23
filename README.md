@@ -3,6 +3,8 @@
 
 [![buddy pipeline](https://app.buddy.works/breathecode/content/pipelines/pipeline/149869/badge.svg?token=7fd65f24ee0daa2c60600820880d585a0bf52da8e65b5ef1f886615b58237012 "buddy pipeline")](https://app.buddy.works/breathecode/content/pipelines/pipeline/149869)
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/breatheco-de/content.git)
+
 CMS for the BreatheCode Platform
 
 Here is an API of all the lessons on the platform: https://content.breatheco.de/static/api/lessons.json
@@ -24,7 +26,7 @@ For exampe:
   https://content.breatheco.de/error/query_selector_missing_id
   https://content.breatheco.de/how-to/search_in_google
 ```
-  
+
 Note: more types of content can be added in the future.
 
 ### 3) Types of content:
