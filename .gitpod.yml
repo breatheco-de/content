@@ -1,0 +1,5 @@
+tasks:
+    - init: npm install
+    - command: npm run gitpod
+ports:
+    - port: 3000

@@ -5,7 +5,7 @@ subtitle: "React es una biblioteca de front-end ideal para crear interfaces (gen
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 
-date: "2018-13-11"
+date: "2018-11-13"
 tags: ["fale"]
 ---
 

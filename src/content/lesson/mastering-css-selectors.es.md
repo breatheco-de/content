@@ -1,6 +1,6 @@
 ---
 title: "Dominando los Selectores de CSS"
-subtitle: "Además de dominar la visualización y la posición de la regla de CSS, aprender a usar los selectores de CSS es la habilidad más importante que necesitas desarrollar.  No tienes que recordar la sintaxis de cada uno de ellos.  Pero sí es necesario tenerlos en tu radar para poder desarrollar las estrategias correctas al construir tu hoja de estilos CSS. "
+subtitle: "Además de dominar las propiedades display y position, aprender a usar los selectores avanzados de CSS es la habilidad más importante que necesitas desarrollar. No tienes que recordar su sintaxis pero si tenerlos en tu radar para poder desarrollar las estrategias correctas al construir tus estilos CSS de forma DRY. "
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-01-11"

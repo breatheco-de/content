@@ -25,20 +25,33 @@ const walk = function(dir, done) {
   });
 };
 
-const buildLessonsData = (lessons) => lessons.map(l => {
-    const content = fs.readFileSync(l, 'utf8');
-    const { title, date, tags, status } = fm(content).attributes;
+
+const buildLessonsData = (lessons) => lessons.map(lesson => {
+    const content = fs.readFileSync(lesson, 'utf8');
+    const { title, date, tags, status, subtitle, authors } = fm(content).attributes;
     
     if(!title) throw new Error('Missing title');
     if(!date) throw new Error('Missing date');
     if(!tags) throw new Error('Missing tags');
     
+    const fileName = path.basename(lesson, '.md').split('.')[0];
+    const lang = getLanguage(lesson);
+    const translations = lessons.filter(l => l.includes(fileName)).map((l) => { return getLanguage(l) }).filter(l => l !== lang);
+
     return {
-        slug: path.basename(l).replace('.md',''),
-        status: status || 'published',
-        title, date, tags
+        slug: path.basename(lesson, '.md'),
+        status: status || 'published', authors: authors || null,
+        title, date, tags, lang, translations, subtitle
     };
 });
+
+const getLanguage = (lesson) => {
+    const fileName = path.basename(lesson, '.md');
+    if ((/.*\.[a-z]{2}/g).test(fileName)) 
+        return fileName.split('.').pop();
+    else
+        return "en";
+};
 
 const createContentJSON =(content, fileName) => {
     if (!fs.existsSync("public/static/api")) fs.mkdirSync("public/static/api");

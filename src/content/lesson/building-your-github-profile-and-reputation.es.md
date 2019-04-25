@@ -3,7 +3,7 @@ title: "Construyendo tu perfil y reputación github"
 subtitle: "Destaca en la comunidad de desarrolladores y encuentra empleos y oportunidades con una excelente presencia en línea"
 cover: "https://ucarecdn.com/c315bebc-2e8d-4e71-a2df-25ad3618ac3d/githubbackground.jpg"
 textColor: "white"
-author: ["alesanchezr"]
+authors: ["alesanchezr"]
 status: "published"
 date: "2018-05-11"
 tags: ["github"]
