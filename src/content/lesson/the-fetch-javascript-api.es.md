@@ -146,7 +146,7 @@ fetch(myRequest).then(function(response) {
     }
     throw new TypeError("Sorry, There's no JSON here!");
   })
-  .then(function(json) { /* do whatever you want with your JSON */ })
+  .then(function(json) { /* haz lo que tu quieras con JSON */ })
   .catch(function(error) { console.log(error); });
   ```
 Ten en cuenta que un método de header lanzará un TypeError si el nombre utilizado no es un nombre de header HTTP válido. Se puede encontrar una lista de headers válidos [aquí](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
