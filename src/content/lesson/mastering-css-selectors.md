@@ -13,22 +13,22 @@ tags: ["fale"]
 Completing a stylesheet is like having a little war between selectors, – you are constantly overriding previously defined styles with new ones:
 
 ```css{numberLines: true}
-//You first say that you want all the H2 tags to be font-size: 14px
+//You first might want all the H2 tags to be font-size: 14px; and color: blue;
 h2{
     font-size: 14px;
     color: blue;
 }
 
-//But then you have a very particular page where the background is blue, so you need your headings to be white
+//But then you have a very particular page where the background is also blue, so you need your headings to be white
 
 h2{
     color: white;
 }
 ```
 
-This happens all the time and at some point it can be challenging to override previous styles.  You must organize your styles properly and start from the least specific to the most specific.
+This happens all the time and, at some point it, can be challenging to override previous styles.  You must organize your styles properly and start from the least specific to the most specific.
 
-These very specific selectors will help you a lot.  They will be your best tool when fighting your styles war!
+This "very specific" selectors will help you a lot.  They will be your best weapon when fighting your styles war!
 
 [[info]]
 | :tv: &nbsp;[Here is a super cool video (3:40 min) explaining specificity.](https://www.youtube.com/watch?v=In78mSOHmls)
@@ -61,11 +61,11 @@ p + p {
 }
 ```
 
-We used the adjacent sibling selector to change the second and third paragraph to red.  This seems very tricky, doesn’t it?  Instinctively, we would expect the first paragraph to be red as well.  After all, the first paragraph is on the same level of the tree as the next two, and, has siblings.
+We used the adjacent sibling selector to change the second and third paragraph to red.  This seems very tricky, doesn’t it?  Instinctively, we would expect the first paragraph to be red as well.  After all, the first paragraph is on the same level as the next two, and, has siblings.
 
 However, this selector only applies to elements that are preceded by something else.  In this instance, only the paragraphs preceded directly by a sibling paragraph will be targeted.
 
-The first paragraph in the list is preceded by the div, so it isn’t changed.
+The first paragraph in the list is preceded by the div, so it remains unchanged.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -80,7 +80,7 @@ The first paragraph in the list is preceded by the div, so it isn’t changed.
 }
 ```
 
-The following turns every element inside a div red – this includes items like links that have a default color set to something else and wouldn’t be affected by simply targeting the div.
+The previous CSS code turns red every element inside a specific div – this includes items such as links, that have a default color set to something else and wouldn’t be affected by simply targeting the div.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/79254pm6/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -137,12 +137,12 @@ a:visited{color: yellow;}
 a:hover{color: blue;}
 a:active{color: red;}
 ```
-You can change colors in any element on the website, depending on its status:
+You can assign a different color to any link on the website, depending on its status:
 
-+ `:link` will be the default.
-+ `:visited` is self explanatory.
-+ `:hover` is when the mouse is over.
-+ `:active` is when the mouse is clicking on it.
++ `:link` default color, before clicking on it.
++ `:visited` after clicking the link.
++ `:hover` when the cursor is over the link.
++ `:active` when the cursor is clicking on the link.
   
   <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -163,7 +163,7 @@ input:focus{font-size: 2em;}
 input:enabled{ border: 2px solid black;}
 ```
 
-It is very important to take enough time to style our forms.  Styling is the best way to tell the user that an input is either disabled, checked, or that they have the cursor focusing on a particular input.
+It is very important to take enough time to style our forms.  Styling is the best way to tell the user that an input is either disabled, checked, or that the cursor is over a particular input.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
