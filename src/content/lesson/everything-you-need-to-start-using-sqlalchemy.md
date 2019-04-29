@@ -9,11 +9,11 @@ authors: ["alesanchezr"]
 status: "published"
 
 tags: ["sql alchemy", "python"]
-
+---
 
 ## Whay is SQL Alchemy
 
-Is an ORM: a library that developers use to create databases and manipulate their data without the need of knowing/using SQL. 
+Is an ORM: a library that developers use to create databases and manipulate their data without the need of knowing/using SQL.
 
 There are other alternatives to it like SQLAlchemy like Peewee, and other languages have their own ORM's like PHP Eloquent or Java Hibernate.
 
@@ -64,7 +64,7 @@ class Person(Base):
     id = Column(Integer, primary_key=True)
     name = Column(String(250), nullable=False)
 
-    
+
     def serialize(self):
         return {
             "id": self.id,
@@ -82,7 +82,7 @@ person = Person(username=<username_value>, email=<email_value>)
 db.session.add(person)
 db.session.commit()
   ```
-  
+
 ### SELECT: Fetching or retrieving records
 
 There are 3 ways to retrieve data from a database:
