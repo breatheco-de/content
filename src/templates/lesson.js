@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from 'gatsby';
 import rehypeReact from "rehype-react";
-import { Cover } from "../components/cover/cover.jsx";
+import { Cover } from "../components/cover/cover.js";
 import { Layout } from "../components/layout/layout.jsx";
 import { BeforeAfter } from "../components/beforeafter/beforeafter.jsx";
 import { EditOnGithub } from "../components/editongithub/EditOnGithub.jsx";
