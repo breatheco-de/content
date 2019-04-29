@@ -4,7 +4,7 @@ subtitle: "Para los desarrolladores senior, es imposible pensar en desarrollar u
 cover: "https://ucarecdn.com/cdbe1bf9-2b6b-4c21-b127-eacc681d9c8d/"
 textColor: "white" 
 date: "2018-08-11"
-tags: ["fale"]
+tags: ["webpack"]
 ---
 
 A estas alturas, probablemente hayas sentido lo desorganizado y difícil que puede ser trabajar con Javascript.  ¡Debes recordar en qué orden debes incluir las etiquetas de script en tu HTML para configurar correctamente jQuery, Popper, Font Awesome, archivos Bootstrap CSS, archivos Bootstrap JS, tus propios archivos CSS, tus propios archivos JS, etc!  La lista sólo se hace más y más grande desde aquí.

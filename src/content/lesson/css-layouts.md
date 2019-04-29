@@ -7,7 +7,7 @@ Learn the CSS layout rules: Display, Position, Float and Flex; and place any ele
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-01-11"
-tags: ["fale"]
+tags: ["box-model","CSS","HTML","layouts"]
 ---
 
 ## **The Box Model**

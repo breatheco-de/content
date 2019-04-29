@@ -4,7 +4,7 @@ subtitle: "Sin Flux, React es solo una linda biblioteca de front-end. React Flux
 cover: "https://ucarecdn.com/b84e07e5-5761-469b-85bb-f7afc87d4dc9/"
 textColor: "white"
 date: "2018-11-14"
-tags: ["fale"]
+tags: ["reactjs","flux"]
 ---
 
 ¿Recuerdas que siempre decimos que la programación es como Taco Bell?  ¡Siempre son los mismos ingredientes, excepto que se usan de una manera diferente!  En este caso particular, vamos a confiar mucho en los Eventos para crear toda la arquitectura de la aplicación.

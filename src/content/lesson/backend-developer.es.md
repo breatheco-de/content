@@ -7,7 +7,7 @@ cover: "https://ucarecdn.com/98208ebb-dcb3-4e40-9ae4-4ec886213f97/"
 
 textColor: "white"
 date: "2018-05-11"
-tags: ["fale"]
+tags: ["back-end","cliente-servidor"]
 ---
 
 ## El Lado de Back-End de la Web

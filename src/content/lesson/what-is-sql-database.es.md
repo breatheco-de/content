@@ -4,7 +4,7 @@ subtitle: "¿Estás listo para trabajar con datos? Aprende aquí sobre qué es l
 cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
 textColor: "white"
 date: "2018-11-14"
-tags: ["fale"]
+tags: ["sql"]
 ---
 
 ## ¿Por qué son importantes las bases de datos?

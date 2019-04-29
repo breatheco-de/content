@@ -5,7 +5,7 @@ subtitle: "How to be the best possible mentor for teaching code"
 date: "2017-09-24"
 status: "draft"
 authors: ["alesanchezr"]
-tags: ["fale"]
+tags: ["mentorship"]
 ---
 # Mentoring Guidelines
 

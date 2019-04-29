@@ -6,7 +6,7 @@ subtitle: "Hey guys its time to know more about what is Jquery, at the end you w
 date: "2018-05-11"
 cover: "https://ucarecdn.com/8c053abc-2f09-47e9-b586-751538d180c4/"
 textColor: "white"
-tags: ["fale"]
+tags: ["jquery","javascript"]
 ---
 
 [[warning]]

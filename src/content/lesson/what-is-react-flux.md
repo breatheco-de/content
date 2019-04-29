@@ -4,7 +4,7 @@ subtitle: "Without Flux, React is just a cute front-end library. React Flux will
 cover: "https://ucarecdn.com/b84e07e5-5761-469b-85bb-f7afc87d4dc9/"
 textColor: "white"
 date: "2018-11-14"
-tags: ["fale"]
+tags: ["reactjs","flux"]
 ---
 
 Remember how we always say that programming is like Taco Bell?  It’s always the same ingredients, except just used in a different way!  In this particular case, we are going to be relying heavily on Events to create our entire application architecture.

@@ -6,7 +6,7 @@ cover: "https://www.desktopbackground.org/p/2013/09/13/637935_nasa-wallpapers_16
 textColor: "white"
 status: "draft"
 date: "2018-01-11"
-tags: ["fale"]
+tags: ["HTML","inputs","forms"]
 ---
 
 ## **HTML Forms**

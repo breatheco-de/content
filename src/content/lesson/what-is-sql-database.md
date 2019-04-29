@@ -4,7 +4,7 @@ subtitle: "Are you ready to work with data ? Learn here about what is SQL Databa
 cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
 textColor: "white"
 date: "2018-11-14"
-tags: ["fale"]
+tags: ["sql"]
 ---
 
 ## Why are Databases Important?

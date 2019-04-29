@@ -5,7 +5,7 @@ It is the most undervalued activity in the software development cycle and it acc
 cover: "https://ucarecdn.com/980ce2e0-b73e-4019-8e97-3510e3028e10/"
 textColor: "white"
 date: "2018-11-13"
-tags: ["fale"]
+tags: ["user story"]
 ---
 
 ## What is a "User Story"?

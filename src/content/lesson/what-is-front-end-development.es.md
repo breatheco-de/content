@@ -4,7 +4,7 @@ subtitle: "¿Qué es Desarrollo Front-End? Se trata de usar el poder del código
 cover: "https://ucarecdn.com/092d375f-89c9-4cc9-8aa7-8cc4d1230179/"
 textColor: "white"
 date: "2018-05-11"
-tags: ["fale"]
+tags: ["front-end"]
 ---
 
 ## Qué es el Desarrollo Web Front-End?

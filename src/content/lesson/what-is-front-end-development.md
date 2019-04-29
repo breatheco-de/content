@@ -4,7 +4,7 @@ subtitle: "What is Front-end development ? is all about using the power of code 
 cover: "https://ucarecdn.com/092d375f-89c9-4cc9-8aa7-8cc4d1230179/"
 textColor: "white"
 date: "2018-05-11"
-tags: ["fale"]
+tags: ["front-end"]
 ---
 
 ## What is Front-End Web Development?

@@ -4,7 +4,7 @@ subtitle: "Además de dominar las propiedades display y position, aprender a usa
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-01-11"
-tags: ["fale"]
+tags: ["CSS"]
 ---
 
 ## **¿Por qué necesitamos aprender acerca de los selectores?**

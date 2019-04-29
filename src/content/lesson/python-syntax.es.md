@@ -6,7 +6,7 @@ cover: "http://breatheco.de/wp-content/uploads/2018/01/python-background.jpg"
 
 textColor: "white"
 date: "2018-11-05"
-tags: ["fale"]
+tags: ["python"]
 ---
 
 El título de esta lección debe ser "De Python a JS", porque así es como evolucionó la historia. Python nació primero y es mucho más maduro. Con Python, eres capaz de hacer muchas más cosas porque es un lenguaje de backend y tiene librerias y herramientas para cualquier cosa que puedas imaginar.

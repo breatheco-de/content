@@ -4,7 +4,8 @@ subtitle: "Classes are the last pieces needed to master the programming tricks! 
 cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
 textColor: "white"
 date: "2018-05-11"
-tags: ["fale"]
+tags: ["object oriented programming"]
+
 ---
 
 ## What is Object Oriented Programming

@@ -4,7 +4,7 @@ subtitle: "¡Parece ser solo el comienzo de la revolución API! El camino de la 
 cover: "https://ucarecdn.com/b929f233-00b2-406f-87a5-ee74146cfd85/"
 textColor: "white"
 date: "2018-05-11"
-tags: ["fale"]
+tags: ["REST","API"]
 ---
 
 ## Que es un API?

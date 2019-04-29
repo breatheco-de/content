@@ -6,7 +6,7 @@ cover: "http://breatheco.de/wp-content/uploads/2018/01/python-background.jpg"
 
 textColor: "white"
 date: "2018-05-11"
-tags: ["fale"]
+tags: ["python"]
 ---
 
 The title of this lesson should be "From Python to JS," because that’s the way history evolved.  Python was born first and it’s way more mature.  With Python you are capable of doing much more stuff because its a backend language and it has libraries and tools for anything you can think of.

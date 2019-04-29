@@ -4,7 +4,7 @@ subtitle: "¿Ya sabes lo que es DOM? Es una jerarquía almacenada en la memoria 
 cover: "https://ucarecdn.com/db660bb9-1ac6-4730-a9c8-4544d6b801b0/"
 textColor: "white"
 date: "2018-05-15"
-tags: ["fale"]
+tags: ["DOM"]
 ---
 
 ## **¡Basta ya con la consola!**

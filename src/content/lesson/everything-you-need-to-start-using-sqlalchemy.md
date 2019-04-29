@@ -7,7 +7,7 @@ date: "2019-04-28"
 textColor: "white"
 authors: ["alesanchezr"]
 status: "published"
-tags: ["SQL Alchemy", "Python"]
+tags: ["sql alchemy", "python"]
 ---
 
 ## Whay is SQL Alchemy
