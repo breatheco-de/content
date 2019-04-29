@@ -7,8 +7,9 @@ date: "2019-04-28"
 textColor: "white"
 authors: ["alesanchezr"]
 status: "published"
+
 tags: ["sql alchemy", "python"]
----
+
 
 ## Whay is SQL Alchemy
 
@@ -36,6 +37,7 @@ With an ORM your code keeps beign familiar code like this:
 user = User()
 user.name = 'Juan'
 user.last_name = 'McDonals'
+
 db.session.commit()
 ```
 You can just say: `db.session.commit()` and all the things you have done in your code will be translated into SQL language code.
@@ -43,6 +45,14 @@ You can just say: `db.session.commit()` and all the things you have done in your
 ## Lets review the most typical database operation
 
 ### Defining our Model/Tables
+=======
+user.save()
+```
+
+You can just say: `user.save()` and the ORM will translate this into SQL.
+
+## Creating our database
+
 
 The first step will be defining our model
 
@@ -53,6 +63,7 @@ class Person(Base):
     # Notice that each column is also a normal Python instance attribute.
     id = Column(Integer, primary_key=True)
     name = Column(String(250), nullable=False)
+
     
     def serialize(self):
         return {
@@ -110,3 +121,5 @@ person = Person.query.get(3)
 person.name = "Bob"
 db.session.commit()
 ```
+
+
