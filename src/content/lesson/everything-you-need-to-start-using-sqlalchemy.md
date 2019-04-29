@@ -10,7 +10,7 @@ status: "published"
 tags: ["SQL Alchemy", "Python"]
 ---
 
-## Whay is SQL Alchemy
+## What is SQL Alchemy
 
 Is an ORM: a library that developers use to create databases and manipulate their data without the need of knowing/using SQL. 
 
