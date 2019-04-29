@@ -4,7 +4,7 @@ subtitle: "It seems to be only the beginning of the API revolution! The path of 
 cover: "https://ucarecdn.com/b929f233-00b2-406f-87a5-ee74146cfd85/"
 textColor: "white"
 date: "2018-05-11"
-tags: ["fale"]
+tags: ["REST","API"]
 ---
 
 ## What is an API?

@@ -7,7 +7,7 @@ cover: "https://ucarecdn.com/05a36362-c09f-4961-a7b9-8e3132a902b1/"
 textColor: "white"
 
 date: "2017-08-10"
-tags: ["fale"]
+tags: ["internet"]
 ---
 
 ## It all makes sense when we go back in time…

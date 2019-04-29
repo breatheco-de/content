@@ -4,7 +4,7 @@ subtitle: "Pero realmente que es HTML ? HTML es para las paginas web lo que son 
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-10-31"
-tags: ["fale"]
+tags: ["html"]
 ---
 
 [[info]]

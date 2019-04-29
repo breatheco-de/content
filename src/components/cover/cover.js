@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './cover.module.scss';
 
-export const Cover = ({title, subtitle, time, background, textColor, status, authors}) => (<div 
+export const Cover = ({title, subtitle, time, background, textColor, status, authors}) => (<div
     style={{
         backgroundImage: `url(${background})`,
         color: textColor
@@ -18,7 +18,7 @@ export const Cover = ({title, subtitle, time, background, textColor, status, aut
                 <h1>{title}</h1>
                 { Array.isArray(authors) &&
                     <span>
-                        by {authors.map(a=> (<a className="author badge badge-secondary mr-2" rel="noopener noreferrer nofollow" target="_blank" href={"https://github.com/"+a}>@{a}</a>))}
+                        by {authors.map((a,i)=> (<a key={i} className="author badge badge-secondary mr-2" rel="noopener noreferrer nofollow" target="_blank" href={"https://github.com/"+a}>@{a}</a>))}
                     </span>
                 }
             </div>

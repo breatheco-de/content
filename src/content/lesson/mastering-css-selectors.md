@@ -4,7 +4,7 @@ subtitle: "Aside from mastering the display and position CSS rule, learning how 
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-01-11"
-tags: ["fale"]
+tags: ["CSS"]
 ---
 
 ## **Why Do We Need to Learn about Selectors?**

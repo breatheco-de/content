@@ -7,7 +7,7 @@ Es casi estupido, y tambien imposible pensar hacer un sitio web sin un framework
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-01-11"
-tags: ["fale"]
+tags: ["bootstrap"]
 ---
  
 ## **¡Al fin, Bootstrap 4 a llegado!!**

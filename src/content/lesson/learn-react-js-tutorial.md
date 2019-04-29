@@ -6,7 +6,7 @@ cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 
 date: "2018-11-13"
-tags: ["fale"]
+tags: ["reactjs"]
 ---
 
 Think about it: what is the most annoying thing about working with Javascript?  All the programming languages have loops, conditionals, variables and logical operations; some have events, but only Javascript has: The DOM.  Yes, that is the most annoying thing when coding for the web, it’s not only very slow in terms of performance, but also makes your code redundant, cumbersome and huge.

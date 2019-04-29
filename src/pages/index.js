@@ -6,7 +6,7 @@ export default ({ data }) => {
     <img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,128" />
     <h1>Lesson Index:</h1>
     <ul>
-      {data.allMarkdownRemark.edges.map(({ node }) =>
+      {data.allMarkdownRemark.edges.map(({ node }) => console.log(node.fields.type+"/"+node.fields.slug) ||
         <li key={node.id}>
           <Link
             to={node.fields.type+"/"+node.fields.slug}

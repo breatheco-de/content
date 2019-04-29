@@ -5,7 +5,7 @@ cover: "https://ucarecdn.com/0e52ff67-aa2b-4234-b620-6ce094508f67/"
 textColor: "black"
 status: "draft"
 date: "2019-04-10"
-tags: ["Job Interview", "Recruting"]
+tags: ["job interview", "recruting"]
 
 ---
 

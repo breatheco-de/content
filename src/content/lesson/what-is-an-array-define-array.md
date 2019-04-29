@@ -6,7 +6,7 @@ subtitle: "Can you work with arrays ? if you can't,  don't worry here you will l
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-02-11"
-tags: ["fale"]
+tags: ["array"]
 ---
 
 ## **Why are Arrays in a Separate Lesson?**

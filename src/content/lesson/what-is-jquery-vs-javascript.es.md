@@ -6,7 +6,7 @@ subtitle: "Hola chicos, es hora de saber más sobre qué es Jquery, al final tu 
 date: "2018-05-11"
 cover: "https://ucarecdn.com/8c053abc-2f09-47e9-b586-751538d180c4/"
 textColor: "white"
-tags: ["fale"]
+tags: ["jquery","javascript"]
 ---
 
 [[warning]]

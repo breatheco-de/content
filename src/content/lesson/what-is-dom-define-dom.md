@@ -4,7 +4,7 @@ subtitle: "Do you already know what is DOM? It is a hierarchy stored in memory t
 cover: "https://ucarecdn.com/db660bb9-1ac6-4730-a9c8-4544d6b801b0/"
 textColor: "white"
 date: "2018-05-15"
-tags: ["fale"]
+tags: ["DOM"]
 ---
 
 ## **Stop it with the Console!**

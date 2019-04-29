@@ -4,7 +4,7 @@ subtitle: "Regular Expressions are the best way to identify patterns within stri
 cover: "https://ucarecdn.com/bf7bc7e6-c89c-4f97-9377-e30e369ba796/"
 textColor: "white"
 date: "2018-05-11"
-tags: ["fale"]
+tags: ["regex","regular expression"]
 ---
 
 ## What is a Regular Expression (Regex)?

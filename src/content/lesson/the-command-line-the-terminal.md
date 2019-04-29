@@ -4,7 +4,7 @@ subtitle: "Developers spend hours every day using the command line (a.k.a: The T
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-01-10"
-tags: ["fale"]
+tags: ["the command line","the terminal"]
 ---
 
 [[warning]]

@@ -5,7 +5,7 @@ cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
 textColor: "white"
 status: "unassigned"
 date: "2018-05-11"
-tags: ["React", "Controlled Inputs", "Uncontrolled Inputs"]
+tags: ["react", "controlled inputs", "uncontrolled inputs"]
 
 ---
 
