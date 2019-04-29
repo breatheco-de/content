@@ -1,9 +1,6 @@
 ---
 title: "What is HTML? It's time to learn HTML and its structure"
-subtitle: "But really, what is HTML? HTML is to websites what columns are for buildings.
-
-Here you will learn HTML basics - "the foundations of the web."
-
+subtitle: "But really, what is HTML? HTML is to websites what columns are for buildings. Here you will learn HTML basics, the foundations of the web."
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-10-31"
