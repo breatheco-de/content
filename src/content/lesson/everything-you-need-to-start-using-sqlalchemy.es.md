@@ -7,6 +7,7 @@ date: "2019-04-28"
 textColor: "white"
 authors: ["alesanchezr"]
 status: "published"
+
 tags: ["SQL Alchemy", "Python"]
 ---
 
@@ -36,12 +37,22 @@ Con un ORM su código sigue siendo un código familiar como este:
 user = User()
 user.name = 'Juan'
 user.last_name = 'McDonals'
+
+db.session.commit()
+```
+Solo puede decir: `user.save ()` y el ORM lo traducirá a SQL.
+
+## Vamos a revisar la operación de base de datos más típica.
+
+### Definiendo nuestro Models/Tables
+=======
 user.save()
 ```
 
-Solo puede decir: `user.save ()` y el ORM lo traducirá a SQL.
+Solo puedes decir: `user.save ()` y el ORM lo traducirá a SQL.
 
 ## Creando nuestra base de datos
+
 
 El primer paso será definir nuestro modelo.
 
@@ -52,4 +63,63 @@ class Person(Base):
     # Ten en cuenta que cada columna es también un atributo normal de primera instancia de Python.
     id = Column(Integer, primary_key=True)
     name = Column(String(250), nullable=False)
+
+
+    def serialize(self):
+        return {
+            "id": self.id,
+            "name": self.name
+        }
   ```
+
+### INSERT: Insertando un registro en la base de datos
+
+Todo lo que tienes que hacer es crear un nuevo objeto Person, agregarlo a la sesión de la base de datos y realizar commit.
+Reemplazar `<<username_value>` y `<email_value>` con los valores de personas reales que deseas agregar.
+
+```py
+person = Person(username=<username_value>, email=<email_value>)
+db.session.add(person)
+db.session.commit()
+  ```
+
+### SELECT: Buscando o recuperando registros
+
+Hay 3 formas para devolver data de la base de datos:
+    1. Buscar/Recuperar/Devolver todo los registros desde un Table/Model en particular usando `MyModel.query.all()`
+    2. Buscar/Recuperar/Devolver un solo registro basado en su primary key usando `MyModel.query.get(id)`
+    3. ReBuscar/Recuperar/Devolver un grupo de registro basado en su consulta `Person.query.filter_by(arg1=value, arg2=value, ...)`
+
+```py
+# aqui es como se buscan todas las personas
+all_people = Person.query.all()
+all_people = list(map(lambda x: x.serialize(), all_people))
+
+# aqui es como se busca un grupo de personas con name = alex
+all_people = Person.query.filter_by(name='alex')
+all_people = list(map(lambda x: x.serialize(), all_people))
+
+# aquí es cómo se busca a una persona con id = 3 (solo funciona con primary key)
+person = Person.query.get(3)
+```
+
+### DELETE: Eliminando un registro de la base de datos.
+
+Todo lo que tiene que hacer es crear un nuevo objeto Person, agregarlo a la sesión de la base de datos y commit!
+
+```py
+person = Person.query.get(3)
+person.delete()
+db.session.commit()
+  ```
+
+### UDPATE: Actualizar un registro.
+
+Para actualizar, primero necesitas devolver/seleccionar el registro de la base de datos, luego puedes actualizar la propiedad que desees y hacer commit nuevamente.
+```py
+person = Person.query.get(3)
+person.name = "Bob"
+db.session.commit()
+```
+
+
