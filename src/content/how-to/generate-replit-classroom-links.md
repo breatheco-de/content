@@ -10,6 +10,10 @@ If you are teaching any course using the BreatheCo.de platform you are able to i
 
 4Geeks Academy has provided a bunch of exercises that can be incorporated into your classes using the following steps:
 
+<p align="center">
+   <img src="https://ucarecdn.com/57b7e105-14ae-45c8-b7fa-de39d328c618/" height="300px" />
+</p>
+
 1. Create an account in Repl.it (only if you don’t have one already).
 2. Click and enter into each of this classroom links you will find below and click on “import and teach” to import the class into your own replit account (see next steps for details).
 3. Once you have imported the class, you can generate a share link by scrolling down inside the class until you see the “student overview” section.
@@ -34,9 +38,3 @@ If you are teaching any course using the BreatheCo.de platform you are able to i
 
 - From JS to PHP (only for PHP):	[https://repl.it/community/classrooms/14434](https://repl.it/community/classrooms/14434)  
 - Object Oriented PHP (only for PHP):	[https://repl.it/community/classrooms/14422](https://repl.it/community/classrooms/14422)  
-
-## Here is an animated gif with the steps:
-
-<p align="center">
-   <img src="https://ucarecdn.com/57b7e105-14ae-45c8-b7fa-de39d328c618/" height="300px" />
-</p>
