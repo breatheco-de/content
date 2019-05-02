@@ -21,10 +21,7 @@ If you are teaching any course using the BreatheCo.de platform you are able to i
 5. Please copy each link and upload it into the platform or send it to your supervisor.
 
 ## Clasroom links
-
-- HTML Basic: [https://repl.it/community/classrooms/8388](https://repl.it/community/classrooms/8388)  
-- CSS Basic: [https://repl.it/community/classrooms/8694](https://repl.it/community/classrooms/8694)  
-- Basic Layouts: [https://repl.it/community/classrooms/8859](https://repl.it/community/classrooms/8859)  
+ 
 - Bootstrap 4:	[https://repl.it/community/classrooms/35182](https://repl.it/community/classrooms/35182)  
 - HTML5 Forms:	[https://repl.it/community/classrooms/9301](https://repl.it/community/classrooms/9301)  
 - Begin with JS:	[https://repl.it/community/classrooms/9869](https://repl.it/community/classrooms/9869)  
