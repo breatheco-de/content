@@ -10,9 +10,9 @@ tags: ["Flask","python","REST","API"]
 
 By now you should know already what a REST api is, if you don't I recomend you [read about it here](http://content.breatheco.de/lesson/understanding-rest-apis).
 
-But, just as a very brief summary, when you are building an API in a RESTful way you have to build your URL's endpoints separaret by `resources`, a resource is something you want to manage, e.g: Student, User, Car, etc. A resource is somehing similar to a database table but we call them "resources" because of a few exceptions.
+As a very brief summary, building an API in a RESTful way means that you have to build your URL endpoints grouped by **"resources"**, a resource is something you want to manage, e.g: Student, User, Car, etc. A resource is something similar to a database table but we call them "resources" because of a few exceptions.
 
-Here is an example of RESTful API endpoints:
+Here is an example of RESTful API endpoints to manage **Students**:
 
 | Method | URL | Description |
 | ------ | --- | ----------- |
@@ -23,12 +23,12 @@ Here is an example of RESTful API endpoints:
 | PUT    | /student/1 | Should update the information of the student with the id=1 |
 | DELETE | /student/1 | Should delete the studentt with id=1 |
 
-After a while the endpoints will speak for themselves, it will make sense and you will be able to guest what the do or even guess some endpints. That is the whole idea.
+Take a look at the URL's they follow a pattern, after a while the endpoints will speak for themselves, it will make sense and you will be able to guest what the do or even guess some endpints. That is the whole idea.
 
 [[info]]
 | :point_up: You can read more about REST APIs on [this BreatheCode Lesson](http://content.breatheco.de/lesson/understanding-rest-apis).<br /> Here is a cool 8 min video explaining REST: https://www.youtube.com/watch?v=7YcW25PHnAA
 
-## Now lets talk about Flask
+## Now let's talk about Flask
 
 Flask is amazing! It is very similar to Node.js Express Server and that makes it even cooler because you will be able to work with both technologies without much learning curve.
 
