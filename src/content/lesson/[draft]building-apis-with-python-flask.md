@@ -93,7 +93,7 @@ The response can be basically whatever you want as long as it is a string: HTML,
 
 In the following example we are using the jsonify method to convert a dictionary called `person1` into a JSON string before returning it to the client.
 
-```
+```py
 from flask import Flask, jsonify
 
 @app.route("/person")
@@ -108,7 +108,7 @@ def handle_person():
 
 The response code is 200 by default, and 500 if therer is an uknown error. If you want to respond to the client with a differen code you will have to specify it like this:
 
-```
+```py
 from flask import Flask, jsonify
 
 @app.route("/person")
