@@ -44,13 +44,6 @@ You can just say: `db.session.commit()` and all the things you have done in your
 
 ## Lets review the most typical database operation
 
-### Defining our Model/Tables
-=======
-user.save()
-```
-
-You can just say: `user.save()` and the ORM will translate this into SQL.
-
 ## Creating our database
 
 
@@ -81,7 +74,7 @@ Replace `<username_value>` and `<email_value>` with the real person values you w
 person = Person(username=<username_value>, email=<email_value>)
 db.session.add(person)
 db.session.commit()
-  ```
+```
 
 ### SELECT: Fetching or retrieving records
 
@@ -111,11 +104,12 @@ All you have to do is create a new Person object, add it into the database sessi
 person = Person.query.get(3)
 person.delete()
 db.session.commit()
-  ```
+```
 
 ### UDPATE: Updating a record
 
 TO update you need first to retrieve/select the record from the database, then you can update whatever property you like and commit again.
+
 ```py
 person = Person.query.get(3)
 person.name = "Bob"
