@@ -123,6 +123,7 @@ def handle_person():
 
 Another way of chainging the response code using a comma `,`:
 
+```py
 @app.route("/person")
 def handle_person():
     content = {
