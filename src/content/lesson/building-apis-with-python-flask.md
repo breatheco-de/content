@@ -23,7 +23,7 @@ Here is an example of RESTful API endpoints to manage **Students**:
 | PUT    | /student/1 | Should update the information of the student with the id=1 |
 | DELETE | /student/1 | Should delete the student with id=1 |
 
-Take a look at the URL's they follow a pattern, after a while the endpoints will speak for themselves, it will make sense and you will be able to guest what the do or even guess some endpints. That is the whole idea.
+Take a look at the URL's they follow a pattern, after a while the endpoints will speak for themselves, it will make sense and you will be able to guest what the do or even guess some endpoints. That is the whole idea.
 
 [[info]]
 | :point_up: You can read more about REST APIs on [this BreatheCode Lesson](http://content.breatheco.de/lesson/understanding-rest-apis).<br /> Here is a cool 8 min video explaining REST: https://www.youtube.com/watch?v=7YcW25PHnAA

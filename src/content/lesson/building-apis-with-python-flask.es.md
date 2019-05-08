@@ -10,9 +10,9 @@ tags: ["Flask","python","REST","API"]
 
 A estas alturas ya deberías saber qué es una API REST, si no, te recomiendo [lee sobre esto aquí](http://content.breatheco.de/lesson/understanding-rest-apis).
 
-Como un resumen muy breve, construir una API de forma REST. Significa que tienes que construir sus puntos finales de URL agrupados por **"recursos"**, un recurso es algo que deseas administrar, por ejemplo: Estudiante, Usuario, Coche, etc. Un recurso es algo similar a una tabla de base de datos, pero los llamamos "recursos" debido a algunas excepciones.
+Como un resumen muy breve, construir una API de forma REST. Significa que tienes que construir sus endpoints de URL agrupados por **"recursos"**, un recurso es algo que deseas administrar, por ejemplo: Estudiante, Usuario, Coche, etc. Un recurso es algo similar a una tabla de base de datos, pero los llamamos "recursos" debido a algunas excepciones.
 
-Aquí hay un ejemplo de puntos finales RESTful API para administrar **Estudiantes**:
+Aquí hay un ejemplo de endpoints RESTful API para administrar **Estudiantes**:
 
 | Método | URL | Descripción |
 | ------ | --- | ----------- |
@@ -23,14 +23,14 @@ Aquí hay un ejemplo de puntos finales RESTful API para administrar **Estudiante
 | PUT    | /estudiante/1 | Deberia actualizar la información del estudiante con el id=1 |
 | DELETE | /estudiante/1 | Deberia eliminar al estudiante con el id=1 |
 
-Echa un vistazo a las URL ellas siguen un patrón, después de un tiempo, los puntos finales hablarán por sí mismos, tendrán sentido y podrás adivinar a lo que hacen o incluso adivinar algunos puntos finales. Esa es la idea.
+Echa un vistazo a las URL ellas siguen un patrón, después de un tiempo, los endpoints hablarán por sí mismos, tendrán sentido y podrás adivinar a lo que hacen o incluso adivinar algunos endpoints. Esa es la idea.
 
 [[info]]
 | :point_up: Puede leer más sobre las API REST en [esta lección de BreatheCode](http://content.breatheco.de/lesson/understanding-rest-apis).<br /> Aquí hay un video de 8 minutos que explica REST: https://www.youtube.com/watch?v=7YcW25PHnAA
 
 ## Ahora vamos a hablar sobre Flask
 
-Frasco es increíble! Es muy similar al Servidor Express de Node.js y eso lo hace aún más fresco porque podrás trabajar con ambas tecnologías sin mucha curva de aprendizaje.
+Flask es increíble! Es muy similar al Servidor Express de Node.js y eso lo hace aún más fresco porque podrás trabajar con ambas tecnologías sin mucha curva de aprendizaje.
 
 Flask es una biblioteca para crear un servidor web y una API. Básicamente, cuando ejecutas un script de Python que contiene las siguientes líneas, el computar comenzará a escuchar las solicitudes HTTP:
 
@@ -60,26 +60,26 @@ def hello(): #este método se llamará cuando la solicitud se llame desde cualqu
 app.run(host='0.0.0.0') #finalmente iniciamos el servidor en localhost.
 ```
 
-En Flask podemos agregar nuevos puntos finales utilizando el decorador `@ app.route`, no te preocupes si esta es la primera vez que ves un decorador, el concepto es muy simple y [aquí hay un video de 5 minutos explicándolo](https://www.youtube.com/watch?v=7ipNLN9y-nc).
+En Flask podemos agregar nuevos endpoints utilizando el decorador `@ app.route`, no te preocupes si esta es la primera vez que ves un decorador, el concepto es muy simple y [aquí hay un video de 5 minutos explicándolo](https://www.youtube.com/watch?v=7ipNLN9y-nc).
 
-## Agregando nuevos puntos finales.
+## Agregando nuevos endpoints.
 
-Si deseas agregar otro punto final a tu API que se ejecuta cuando un cliente llama `GET/person`, tendrás que agregar otro bloque de código como este:
+Si deseas agregar otro endpoint a tu API que se ejecuta cuando un cliente llama `GET/person`, tendrás que agregar otro bloque de código como este:
 
 ```py
-@app.route("/person") #aquí especificamos la ruta para el punto final.
+@app.route("/person") #aquí especificamos la ruta para el endpoint.
 def handle_person(): #aquí declaramos una función que se llamará cuando se realice una solicitud a esa url
     return "Hello Person!" #aquí especificamos la cadena que queremos responder al cliente.
 ```
 
 ## Especificando el método: GET, PUT, POST, DELETE
 
-Si deseas que tu punto final responda a POST, PUT o DELETE, puedes especificarlo en el decorador de la siguiente manera:
+Si deseas que tu endpoint responda a POST, PUT o DELETE, puedes especificarlo en el decorador de la siguiente manera:
 
 ```py
 from flask import Flask, request
 
-@app.route("/person", methods=['POST', 'GET']) # aquí especificamos que estos puntos finales aceptan solicitudes POST y GET.
+@app.route("/person", methods=['POST', 'GET']) # aquí especificamos que estos endpoints aceptan solicitudes POST y GET.
 def handle_person():
   if request.method == 'POST': # podemos entender qué tipo de solicitud estamos manejando usando un condicional
     return "A POST has been received!"
@@ -134,7 +134,7 @@ def handle_person():
 
 ## Manejo de errores y validaciones
 
-Pero ¿y si la solicitud viene con errores? Por ejemplo: si tenemos un punto final para crear una persona y debemos especificar el primer nombre Y el último nombre, pero solo se encontró el primer nombre en la solicitud, así es como lo validaríamos:
+Pero ¿y si la solicitud viene con errores? Por ejemplo: si tenemos un endpoint para crear una persona y debemos especificar el primer nombre Y el último nombre, pero solo se encontró el primer nombre en la solicitud, así es como lo validaríamos:
 
 ```py
 @app.route('/person', methods=['POST'])
