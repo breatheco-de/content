@@ -18,12 +18,12 @@ Here is an example of RESTful API endpoints to manage **Students**:
 | ------ | --- | ----------- |
 | GET    | /student | Should return all the students |
 | GET    | /student/1 | Should return a single student with the id=1 |
-| GET    | /cohort/1/students | Should return all the students form the cohort wih id=1 |
+| GET    | /cohort/1/students | Should return all the students from the cohort with id=1 |
 | POST   | /student | Should create a new student |
 | PUT    | /student/1 | Should update the information of the student with the id=1 |
-| DELETE | /student/1 | Should delete the studentt with id=1 |
+| DELETE | /student/1 | Should delete the student with id=1 |
 
-Take a look at the URL's they follow a pattern, after a while the endpoints will speak for themselves, it will make sense and you will be able to guest what the do or even guess some endpints. That is the whole idea.
+Take a look at the URL's they follow a pattern, after a while the endpoints will speak for themselves, it will make sense and you will be able to guest what the do or even guess some endpoints. That is the whole idea.
 
 [[info]]
 | :point_up: You can read more about REST APIs on [this BreatheCode Lesson](http://content.breatheco.de/lesson/understanding-rest-apis).<br /> Here is a cool 8 min video explaining REST: https://www.youtube.com/watch?v=7YcW25PHnAA
@@ -141,12 +141,12 @@ But what if the request comes with errors? For example: If we have an endpoint t
 def create_person():
     # POST request
         body = request.get_json() # get the request body content
-        
+
         if 'first_name' not in body:
             return 'You need to specify the first_name',400
         if 'email' not in body:
             return 'You need to specify the last_name', 400
-            
+
         return "ok", 200
 ```
 
@@ -179,9 +179,9 @@ class Person(db.Model):
             "email": self.email
         }
   ```
-  
+
   You can add as many models as you like.
-  
+
 ## Ready to start coding?
 
 We have prepared this live coding example that you can run yourself in Gitpod and use it as a base for your project.
