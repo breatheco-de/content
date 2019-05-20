@@ -2,7 +2,7 @@
 title: "Pautas para el Mentor"
 subtitle: "Cómo ser el mejor mentor posible para enseñar código."
 date: "2017-09-24"
-tags: ["mentoria"]
+tags: [""mentorship""]
 ---
 # Pautas de Tutoría
 

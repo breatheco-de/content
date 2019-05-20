@@ -8,7 +8,7 @@ cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 thumb: "https://breatheco.de/wp-content/uploads/2017/03/commit-object.png"
 date: "2018-02-08"
-tags: ["GIT","como usa GIT"]
+tags: ["GIT"]
 ---
 [[demo]]
 | :point_up: También hemos preparado un tutorial interactivo sobre GIT. [Haga clic aquí para tomarlo!](https://4geeksacademy.github.io/git-interactive-tutorial/)

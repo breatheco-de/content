@@ -5,7 +5,7 @@ cover: "https://ucarecdn.com/d2ca9eb7-a3f9-432d-b791-8b1266f8923a/"
 textColor: "white"
 
 date: "2018-05-11"
-tags: ["programación orientada a eventos"]
+tags: ["event driven programming"]
 ---
 
 ## Programación Dirigida por Eventos

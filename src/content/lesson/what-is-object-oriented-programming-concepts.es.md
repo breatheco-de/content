@@ -4,7 +4,7 @@ subtitle: "¡Las clases son las últimas piezas necesarias para dominar los truc
 cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
 textColor: "white"
 date: "2018-05-11"
-tags: ["programacion orientada a objectos"]
+tags: ["object oriented programming"]
 ---
 
 ## Qué es Programación Orientada a Objetos

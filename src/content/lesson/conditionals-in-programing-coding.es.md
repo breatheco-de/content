@@ -5,7 +5,7 @@ date: "2017-09-24"
 status: "unassigned"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
-tags: ["conditionals", "logical operations", "if else", "conditions"]
+tags: ["conditionals", "logical operations"]
 ---
 
 Dominar el uso de las condiciones es una de las 5 habilidades fundamentales de construir algoritmos:

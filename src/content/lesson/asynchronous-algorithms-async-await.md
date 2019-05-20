@@ -6,7 +6,7 @@ status: "draft"
 authors: ["kodi2fever", "nachovz"]
 textColor: "white"
 date: "2018-05-11"
-tags: ["async","await","promise","asynchronous"]
+tags: ["async-await","promise","asynchronous"]
 
 ---
 

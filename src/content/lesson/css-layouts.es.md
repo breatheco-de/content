@@ -7,7 +7,7 @@ Aprende las reglas de CSS: Display, Position, Float and Flex; y coloca cualquier
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-01-11"
-tags: ["modelo de cajas","CSS","HTML"]
+tags: ["box-model","CSS","HTML","layouts"]
 ---
 
 ## **El Modelo de Cajas**

@@ -6,7 +6,7 @@ cover: "https://ucarecdn.com/98208ebb-dcb3-4e40-9ae4-4ec886213f97/"
 
 textColor: "white"
 date: "2018-12-11"
-tags: ["desarrollo agil"]
+tags: ["agile development"]
 ---
 
 ### Tiempo para construir cosas impresionantes!
