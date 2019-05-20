@@ -40,7 +40,7 @@ else{
 }
 ```
 
-## It is all about What Questions to ask
+## It is all about the question: What to ask?
 
 The previous example was a simple condition, but in real life picking what to ware involves a combination of several conditions to make the final decision, for example: Lets look at this algorithm that tells if you have a flue
 
@@ -65,8 +65,8 @@ else{
 }
 ```
 
-Basically, this algorithm has to variables to consider: feelsLikeHitByTrain and youWereHitByTrain.
-Our job as developers is to sit down and try to prepare a strategy to come up with an algorithm that solves a problem.
+Basically, this algorithm has two variables to consider: `feelsLikeHitByTrain` and `youWereHitByTrain`.
+Our job as developers is to sit down and try to prepare a strategy and come up with an algorithm that solves a problem.
 
 ## `AND` and `OR` operators
 
@@ -84,7 +84,7 @@ else{
 }
 ```
 
-As you can see here we are using `else if` together for the first time, for faster coding, another trick you can use for faster coding:
+As you can see here we are using `else if` together for the first time, for faster coding. Another trick you can use for faster coding:
 
 | Original | Equivalent |
 | --- | --- |
@@ -116,7 +116,7 @@ Ternaries are being use A LOT these days because the save you a lot of time.
 
 ## Conditional Rendering
 
-Another great use of the conditions is to generate HTML based on certain conditions, for example, lets say that we have a bootstrap alert that we are about to render into the website:
+Another great use of the conditions is to generate HTML based on certain conditions, for example, let's say that we have a bootstrap alert that we are about to render into the website:
 
 ```js
 let alertHTMLCode = "<div>Warning! You cannot drive</div>";
@@ -129,6 +129,6 @@ let age = 14;
 let alertHTMLCode = (age < 16) ? "<div>Warning! You cannot drive</div>" : "";
 ```
 
-Now our alertHTMLCode variable will be empty if the user age is less than 16, if its more it will contain the entire HTML.
+Now our `alertHTMLCode` variable will be empty if the user age is less than 16, if its more it will contain the entire HTML.
 
 <script async src="//jsfiddle.net/BreatheCode/bycgsnqt/7/embed/js,html,result/"></script>
