@@ -13,6 +13,7 @@ Some inspiration:
 1. Reading about the company before the interview.
 2. Arriving 5 min early.
 3. Never complaining.
+4. Be confident!
 4. How to address open questions.
 5. Resume and github.
 6. How to address the lack of experience.
