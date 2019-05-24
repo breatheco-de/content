@@ -23,4 +23,4 @@ If the image ends up being bigger than the div (or with different proportions) w
 
 ![Using background-image instead of image tag for reponsiveness](https://ucarecdn.com/1251c891-ac88-464f-ae58-5c9d7abe081c/ScreenShot20190524at121150PM.png)
 
-<script async src="//jsfiddle.net/BreatheCode/Lge30ypv/4/embed/html,css,result/dark/"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lge30ypv/4/embedded/html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
