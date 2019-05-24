@@ -15,7 +15,7 @@ A lot of websites use rounded profile images, a technique that really makes a we
 
 The obvious way create a rounded profile picture is to create an image tag and apply `border-radius:100%`. The problem with this approach, is that it only works for squared pictures... profile pictures with different height and width will not look like a circle, they will look like ovals: 
 
-![Image tag vs div with background-image](https://ucarecdn.com/bf1262c0-cce2-4d73-a708-702633410341/ScreenShot20190524at120952PM.png)
+![Image tag vs div with background-image](https://ucarecdn.com/596b5833-09a1-4ff0-8718-bc7ba4dd995d/ScreenShot20190524at42229PM.png)
 
 Instead of doing that, the right approach will be to create a squared div (a.ka: with equal width and height), assign the image as a background, and then apply a border-radius to that div.
 
