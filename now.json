@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "alias": "content.breaheco.de",
+    "alias": "content.breatheco.de",
     "name": "breathecode-content",
     "builds": [
         { "src": "package.json", "use": "@now/static-build", "config": {"distDir": "public"} }
