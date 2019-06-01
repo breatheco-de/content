@@ -48,10 +48,11 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build --no-uglify",
+    "build": "node generate-json.js && gatsby build --no-uglify",
     "develop": "gatsby develop -p $PORT",
-    "gitpod": "gatsby develop -p 3000",
+    "start": "gatsby develop -p 3000",
     "c9": "gatsby develop -p $PORT -H $IP",
+    "now-build": "npm run build",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
