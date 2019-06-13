@@ -3,7 +3,7 @@ title: "Preparing for the software developer interview"
 subtitle: ""
 cover: "https://ucarecdn.com/0e52ff67-aa2b-4234-b620-6ce094508f67/"
 textColor: "black"
-status: "draft"
+status: "unassigned"
 date: "2019-04-10"
 tags: ["job interview", "recruting"]
 
