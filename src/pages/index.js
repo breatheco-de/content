@@ -3,7 +3,7 @@ import Link from "gatsby-link";
 import { graphql } from 'gatsby';
 export default ({ data }) => {
   return (<div className="container mt-5">
-    <img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,128" />
+    <img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,128" alt="BreatheCode Logo" />
     <h1>Lesson Index:</h1>
     <ul>
       {data.allMarkdownRemark.edges.map(({ node }) => console.log(node.fields.type+"/"+node.fields.slug) ||

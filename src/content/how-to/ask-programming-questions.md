@@ -4,14 +4,14 @@ subtitle: "The right quetions, will give you the right answer"
 tags: ["feedback", "tutoring", "support"]
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
-date: "2019-18-06"
+date: "2019-06-18"
 authors: ["alesanchezr"]
 
 ---
 
 When working remote, you have to pay lots of attention to the way you communicate your ideas, questions, etc.
 
-Lets compare these two questions: 
+Lets compare these two questions:
 ```md
 1. Who can i add one item to an array?
 2. I'm trying to add an item to an array in javascript, this is my code but its not working (screenshoot), what am I doing wrong?
