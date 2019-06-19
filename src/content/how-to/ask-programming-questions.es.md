@@ -1,6 +1,6 @@
 ---
-title: "How to ask programming questions"
-subtitle: "The right quetions, will give you the right answer"
+title: "Cómo hacer preguntas de programación?"
+subtitle: "La pregunta correcta, te llevará a la respuesta perfecta."
 tags: ["feedback", "tutoring", "support"]
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
