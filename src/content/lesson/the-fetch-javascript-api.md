@@ -116,11 +116,12 @@ fetch('https://example.com/users.json', {
 	headers: new Headers({
 		'Content-Type': 'text/plain'
 	})
-}).then(function() { /* handle response */ });
+}).then(res => res.json())
+.then(function(response) { /* handle response */ });
 ``` 
 Another example: 
 ```js
-fetch(https://example.com/users, {
+fetch('https://example.com/users', {
   method: 'PUT', // or 'POST'
   body: JSON.stringify(data), // data can be `string` or {object}!
   headers:{
