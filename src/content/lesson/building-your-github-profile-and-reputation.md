@@ -10,7 +10,7 @@ tags: ["github"]
 
 ---
 
-## Making Your Github Profile Shine
+### Making Your Github Profile Shine
 
 Github is now the developers #1 portfolio, the best way to get noticed and build a professional brand. You need to make a huge effort on making it:  
     
@@ -38,6 +38,6 @@ Make sure to give your own personal style, but in general you can focus on tryin
 - [ ] You need to be a [github developer program](https://developer.github.com/program/) member. You can join for free and you will get a badge on your profile.
 - [ ] Avoid using  "new developer", "junior developer", "recent graduate", or the like in your summary statement or bio.
 
-## An Example Profile: Dan Abramov
+### An Example Profile: Dan Abramov
 
 ![Dan Abramov Github Profile](https://ucarecdn.com/b04c5254-086a-4b9f-8b86-0cf95fcc3fcd/danabramov.png)
