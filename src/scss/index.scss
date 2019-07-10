@@ -1,4 +1,6 @@
 @import './single-post.scss';
+@import '~@breathecode/ui-components/dist/main.css';
+
 .color{
     background-color: #663399;
 }
@@ -36,19 +38,19 @@
     font-size: 10px;
     box-sizing: border-box;
     border-radius: 25px;
-    ul{ 
-        display: none; 
+    ul{
+        display: none;
         padding: 0;
         margin: 0;
-        li{ 
-            list-style: none; 
+        li{
+            list-style: none;
             width: 40px;
             padding: 5px;
             margin-top: -4px;
             margin-left: -6px;
         }
     }
-    &:hover{ 
+    &:hover{
         border: 1px solid #f8f9fa;
         background: white;
         ul{ display: block; }
