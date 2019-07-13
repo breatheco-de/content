@@ -152,7 +152,7 @@ function multiply (param1, param2)
 
 The scope of a variable determines where that variable is available to be used.  There are two main types of scopes:
 
-### Local Variables 
+### Local Variables
 
 A local variable is available only inside the scope of the nearest curly brackets.  For example, variables that are passed as parameters into functions are only available within the content of that particular function.
 
@@ -171,14 +171,14 @@ Computers think of everything in black or white.  Everything is either True or F
 
 For example, if I want a computer to give candy only to kids older than 13 years of age, I can instruct the computer to ask:
 
- **Is this kid’s age greater than 13?  Yes or no?** 
+ **Is this kid’s age greater than 13?  Yes or no?**
 
 **In JavaScript, you can instruct the computer to do the following logical operations:**
 
 |**Operation**  |**Syntaxis**   |**Examples**   |
 |:--------------|:--------------|:--------------|
 |Equal to       |==             |Is 5 == 5? True!<br>Is 5 == 4? False!<br>Is 5 == '5'? True!    |
-|Not Equal to   |!=             |Is 5 != 5? False!<br>Is 5 != '5'? False!<br>Is 1 != 'Hello' False!   |
+|Not Equal to   |!=             |Is 5 != 5? False!<br>Is 5 != '5'? False!<br>Is 1 != 'Hello' True!   |
 |Greater than   |>              |Is 5 > 5? False!<br>Is 6 > 3? True!    |
 |Less than      |<              |Is 6 < 12? True            |
 |Greater equal  |>=             |Is 6 <= 6? True<br>Is 3 <= 6? True    |
@@ -236,12 +236,12 @@ Imagine you are inside an elevator – the elevator needs to loop throughout the
 
 A `while` loop will execute a block of code as long as a condition is true.  Once the condition returns false, the loop will stop executing the block of code.
 
-```javascript  
+```javascript
 var sum = 0;
 var number = 1;
-while (number <= 50) { 
-  sum += number;       
-  number++;             
+while (number <= 50) {
+  sum += number;
+  number++;
 }
 console.log("Sum = " + sum);
 ```
@@ -259,7 +259,7 @@ Note:  When looping, make sure that the statement will eventually return false s
 
 
 ```javascript
-for (var i = 0; i < 10; i++) { 
+for (var i = 0; i < 10; i++) {
     document.write("This is number" + " " + i);
 }
 ```

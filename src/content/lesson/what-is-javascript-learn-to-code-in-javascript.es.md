@@ -171,14 +171,14 @@ Las computadoras piensan todo en blanco o negro. Todo es verdadero o falso. Toda
 
 Por ejemplo, si quiero una computadora para dar dulces solo a niños mayores de 13 años de edad, puedo indicarle a la computadora que pregunte:
 
- **¿La edad de este niño es mayor de 13 años? ¿Si o no?** 
+ **¿La edad de este niño es mayor de 13 años? ¿Si o no?**
 
 **En JavaScript, puedes indicar a la computadora que realice las siguientes operaciones lógicas:**
 
 |**Operación**  |**Sintaxis**   |**Ejemplos**   |
 |:--------------|:--------------|:--------------|
 |Igual a     |==             |Es 5 == 5? True!<br>Es 5 == 4? False!<br>Es 5 == '5'? True!    |
-|No Igual a    |!=             |Es 5 != 5? False!<br>Es 5 != '5'? False!<br>Es 1 != 'Hello' False!   |
+|No Igual a    |!=             |Es 5 != 5? False!<br>Es 5 != '5'? False!<br>Es 1 != 'Hello' True!   |
 |Mayor que   |>              |Es 5 > 5? False!<br>Es 6 > 3? True!    |
 |Menos que    |<              |Es 6 < 12? True            |
 |Mayor o igual |>=             |Es 6 <= 6? True<br>Es 3 <= 6? True    |
@@ -235,12 +235,12 @@ Imagina que estás dentro de un ascensor: el ascensor debe girar en bucle por lo
 
 Un bucle `while` ejecutará un bloque de código siempre que una condición sea verdadera. Una vez que la condición devuelve falso, el bucle dejará de ejecutar el bloque de código.
 
-```javascript  
+```javascript
 var sum = 0;
 var number = 1;
-while (number <= 50) { 
-  sum += number;       
-  number++;             
+while (number <= 50) {
+  sum += number;
+  number++;
 }
 console.log("Sum = " + sum);
 ```
@@ -258,7 +258,7 @@ Nota: cuando realice un bucle, asegúrese de que la declaración finalmente devu
 
 
 ```javascript
-for (var i = 0; i < 10; i++) { 
+for (var i = 0; i < 10; i++) {
     document.write("This is number" + " " + i);
 }
 ```
