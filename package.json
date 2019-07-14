@@ -34,6 +34,7 @@
     "i18next-xhr-backend": "^2.0.1",
     "prismjs": "^1.15.0",
     "react": "^16.6.0",
+    "react-device-detect": "^1.6.2",
     "react-dom": "^16.6.0",
     "react-helmet": "^5.2.0",
     "react-i18next": "^10.1.2",
