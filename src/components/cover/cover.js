@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './cover.module.scss';
 import Popover from "../popover/Popover";
 import PropTypes from "prop-types";
-import { GithubCard } from "@breathecode/ui-components";
+import { GithubCard, Button } from "@breathecode/ui-components";
 import { BrowserView,
   MobileView,
   isBrowser,
