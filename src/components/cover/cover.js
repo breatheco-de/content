@@ -1,5 +1,14 @@
 import React from 'react';
 import styles from './cover.module.scss';
+import Popover from "../popover/Popover";
+import PropTypes from "prop-types";
+import { GithubCard, Button } from "@breathecode/ui-components";
+import { BrowserView,
+  MobileView,
+  isBrowser,
+  isMobile} from "react-device-detect";
+
+
 
 export const Cover = ({title, subtitle, time, background, textColor, status, authors}) => (<div
     style={{
@@ -17,9 +26,14 @@ export const Cover = ({title, subtitle, time, background, textColor, status, aut
                 <small>{time}</small>
                 <h1>{title}</h1>
                 { Array.isArray(authors) &&
+
                     <span>
-                        by {authors.map((a,i)=> (<a key={i} className="author badge badge-secondary mr-2" rel="noopener noreferrer nofollow" target="_blank" href={"https://github.com/"+a}>@{a}</a>))}
+                        by {authors.map((a,i)=> (<a key={i} className="author badge badge-secondary mr-2" rel="noopener noreferrer nofollow" target="_blank" href={"https://github.com/"+a}>
+                        {(isBrowser)?(<Popover body={<GithubCard gitUsername={a} />}>{a}</Popover>):(a)}
+                        </a>))
+                        }
                     </span>
+
                 }
             </div>
             <div className="col mt-4">
@@ -28,3 +42,7 @@ export const Cover = ({title, subtitle, time, background, textColor, status, aut
         </div>
     </div>
 </div>);
+Cover.propTypes = {
+  history: PropTypes.object,
+  match: PropTypes.object
+};
