@@ -20,12 +20,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `./src/utils/Typography.js`,
-      },
-    },
-    {
       resolve: `gatsby-plugin-sass`,
       options: {
         precision: 8,

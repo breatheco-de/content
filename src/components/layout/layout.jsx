@@ -4,11 +4,13 @@ import SEO from '../seo';
 import Header from '../header';
 import { StaticQuery, graphql } from 'gatsby';
 
+import 'bootstrap/dist/css/bootstrap.css';
+import '@breathecode/ui-components/dist/main.css';
 import './layout.css';
 import '../../scss/index.scss';
-import 'bootstrap/dist/css/bootstrap.css';
-require("prismjs/themes/prism-okaidia.css");
-require("prismjs/plugins/line-numbers/prism-line-numbers.css");
+
+import "prismjs/themes/prism-okaidia.css";
+import "prismjs/plugins/line-numbers/prism-line-numbers.css";
 
 export const Layout = ({ children, seo }) => (
  <StaticQuery
@@ -29,8 +31,8 @@ export const Layout = ({ children, seo }) => (
             image={seo.image || null}
             url={seo.url || null}
         />
-        <Header 
-          siteTitle={(typeof data === 'undefined') ? '':data.site.siteMetadata.title} 
+        <Header
+          siteTitle={(typeof data === 'undefined') ? '':data.site.siteMetadata.title}
           hidden={true} />
         <div className="container">
           {children}
