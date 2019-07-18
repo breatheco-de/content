@@ -32,7 +32,7 @@ React.js defines itself as a front-end library to user interfaces. Basically, Re
 
 #### No More DOM
 
-From now on React.js will take care of the DOM, your job is to create your own and define how they should display or render.
+From now on React.js will take care of the DOM, your job is to create your own `</tags>` and define how they should display or render.
 
 #### Everything is component
 
