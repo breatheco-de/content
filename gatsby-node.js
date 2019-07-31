@@ -51,7 +51,7 @@ const getMetaFromPath = ({ fileAbsolutePath, frontmatter }) => {
   const regex = /\/([\w-]*)\/([\w-\]\[]*)\.?(\w{1,2})?\.md/gm;
   let m = regex.exec(fileAbsolutePath);
   if(!m) return false;
-  
+
   const lang = m[3] || "en";
   const customSlug = (typeof frontmatter.slug === "string");
   const urlSlug = m[2];// + (lang == "es" ? "-es": "");
@@ -90,7 +90,7 @@ exports.createPages = ({ actions, graphql }) => {
         }
       }
     `).then(result => {
-      
+
       const translations = buildTranslations(result.data.allMarkdownRemark.edges);
       result.data.allMarkdownRemark.edges.forEach(({ node }) => {
         const meta = getMetaFromPath(node);
@@ -125,7 +125,7 @@ exports.createPages = ({ actions, graphql }) => {
           });
         }
       });
-      
+
       const posts = result.data.allMarkdownRemark.edges;
       // Tag pages:
       let tags = [];
@@ -148,7 +148,7 @@ exports.createPages = ({ actions, graphql }) => {
           },
         });
       });
-      
+
       resolve();
     }).catch(err => console.error(err));
   });

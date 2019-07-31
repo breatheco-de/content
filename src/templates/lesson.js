@@ -26,10 +26,10 @@ const Lesson = (props) => {
   return (
     <Layout seo={seo}>
       <div>
-        <Cover 
-          title={post.frontmatter.title} 
-          background={post.frontmatter.cover} 
-          textColor={post.frontmatter.textColor} 
+        <Cover
+          title={post.frontmatter.title}
+          background={post.frontmatter.cover}
+          textColor={post.frontmatter.textColor}
           subtitle={post.frontmatter.subtitle}
           authors={post.frontmatter.authors}
           time={post.fields.readingTime.text}

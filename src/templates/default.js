@@ -2,8 +2,8 @@ import React from "react";
 import { graphql } from 'gatsby';
 import rehypeReact from "rehype-react";
 import { Cover } from "../components/cover/cover.js";
-import { BeforeAfter } from "../components/beforeafter/beforeafter.jsx";
 import { Layout } from "../components/layout/layout.jsx";
+import { BeforeAfter } from "../components/beforeafter/beforeafter.jsx";
 import { EditOnGithub } from "../components/editongithub/EditOnGithub.jsx";
 import { LanguageSwitcher } from "../components/languageswitcher/LanguageSwitcher.jsx";
 
@@ -24,10 +24,10 @@ export default ({ data, pageContext }) => {
   return (
     <Layout seo={seo}>
       <div>
-        <Cover 
-          title={post.frontmatter.title} 
-          background={post.frontmatter.cover} 
-          textColor={post.frontmatter.textColor} 
+        <Cover
+          title={post.frontmatter.title}
+          background={post.frontmatter.cover}
+          textColor={post.frontmatter.textColor}
           subtitle={post.frontmatter.subtitle}
           authors={post.frontmatter.authors}
           time={post.fields.readingTime.text}

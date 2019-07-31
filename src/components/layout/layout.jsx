@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import SEO from '../seo';
-import Header from '../header';
+import Navbar from '../Navbar.js';
 import { StaticQuery, graphql } from 'gatsby';
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -31,11 +31,14 @@ export const Layout = ({ children, seo }) => (
             image={seo.image || null}
             url={seo.url || null}
         />
-        <Header
+        <Navbar
           siteTitle={(typeof data === 'undefined') ? '':data.site.siteMetadata.title}
-          hidden={true} />
-        <div className="container">
-          {children}
+          hidden={true}
+        />
+        <div style={{ position: "relative" }}>
+            <div className="container">
+            {children}
+            </div>
         </div>
       </div>
    )}

@@ -18,6 +18,7 @@
     "gatsby-plugin-react-svg": "^2.0.0",
     "gatsby-plugin-sass": "^2.0.2",
     "gatsby-plugin-sharp": "^2.0.35",
+    "gatsby-plugin-sitemap": "^2.2.4",
     "gatsby-plugin-typography": "^2.2.1",
     "gatsby-remark-autolink-headers": "^1.4.19",
     "gatsby-remark-component": "^1.1.3",
@@ -54,7 +55,6 @@
     "build": "gatsby build --no-uglify",
     "develop": "gatsby develop -p $PORT",
     "start": "gatsby develop -p 3000",
-    "c9": "gatsby develop -p $PORT -H $IP",
     "now-build": "npm run build && node generate-json.js",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
