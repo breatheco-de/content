@@ -60,7 +60,7 @@ The index always must start at zero (0).  That means that an Array of 2 items ca
 ```javascript
     console.log(myArray[0]);  //This will print the 1st element in the console 
 var aux = myArray[5];
-    console.log(aux); //This will print the 4th element in the console 
+    console.log(aux); //This will print the 6th element in the console 
     console.log(myArray[myArray.length-1]);  //This will print the last element of the array.
 ```
 
