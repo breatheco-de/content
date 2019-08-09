@@ -1,5 +1,5 @@
 ---
-subtitle: "The Context API is one of the most recent tool that the React.js team have created to handle your application data flow. It is the perfect companion for building small to mid-size applications without the need of a state management library Redux"
+subtitle: "The Context API is one of the most recent tools that the React.js team created to handle application data flow. It is the perfect companion for building small to mid-size applications without the need of a state management library like Redux "
 title: "Global state with the Context API"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
@@ -9,13 +9,13 @@ tags: ["reactjs"]
 
 ---
 
-## The problem or "why life before the Context API was harder"
+## The problem, or "why life before the Context API was harder"
 
 People say that React.js makes the easy stuff hard and the hard stuff easy. It's funny, because it's true :sweat:. These are some of the things they mean:
 
 1. Why is it so hard to share data throughout the entire application? Where are my global variables?
 2. Why is it so hard to pass data between components? A.K.A props. Props are fine when you want to pass data between parent and child, but what happens when we need to go deeper? This is called "Props Hell" or "Prop Drilling".
-3. Redux?? Overkill.
+3. Redux (https://redux.js.org/)?? Overkill.
 
 The Context API is here to solve some of those conundrums by:
  
@@ -38,8 +38,8 @@ The **store** is now the most delicate piece of data in our application, and it 
 
 	![Flux](https://facebook.github.io/flux/img/overview/flux-simple-f8-diagram-1300w.png)
 	
-	![In-Depth Overview of Flux Architecture
-](https://facebook.github.io/flux/docs/in-depth-overview)
+	![In-Depth Overview of Flux Architecture]
+	(https://facebook.github.io/flux/docs/in-depth-overview)
 
 We must split the **store** from the **actions** and the **views** (components) and make sure that the views call actions to update the store. *We will never directly change the store from a view*. I know, I'm being redundant on purpose...
 
