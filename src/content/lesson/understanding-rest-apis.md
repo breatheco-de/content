@@ -1,6 +1,6 @@
 ---
-title: " Understanding Rest Apis"
-subtitle: "It seems to be only the beginning of the API revolution! The path of humanity drives towards the API's architecture...you can learn any language or tool, but this is one of those few specialties that will guarantee you a well paid job for the next 60 years, So get comfortable with REST Api . :)"
+title: " Understanding Rest APIs"
+subtitle: "It seems to be only the beginning of the API revolution! The path of humanity drives towards the API's architecture...you can learn any language or tool, but this is one of those few specialties that will guarantee you a well paid job for the next 60 years, So get comfortable with REST API. :)"
 cover: "https://ucarecdn.com/b929f233-00b2-406f-87a5-ee74146cfd85/"
 textColor: "white"
 date: "2018-05-11"
@@ -70,22 +70,21 @@ Clients should not be coupled to particular resource URIs as they can be changed
 
 Here are some Twitter API URI’s:
 
-+ [GET /direct_messages/](https://developer.twitter.com/en/docs/direct-messages/sending-and-receiving/api-reference/get-sent-message)
++ [GET /direct_messages/](https://developer.twitter.com/en/docs/direct-messages/sending-and-receiving/api-reference/list-events.html)
 + [GET /favorites/list](https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/get-favorites-list)
 + [POST /direct_messages/new](https://developer.twitter.com/en/docs/api-reference-index)
-+ [DELETE /direct_messages/welcome_messages/destroy](https://developer.twitter.com/rest/reference/del/direct_messages/welcome_messages/destroy)
++ [DELETE /direct_messages/welcome_messages/destroy](https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/post-statuses-destroy-id.html)
 
 ### Resources
 
-This is for everything you want to Create, Delete, Update or Read with your API, for example:
+A resource is an abstract representation of an object that can be invoked using Create, Read, Update or Delete with your API, for example:
 
-+ If you are building the API of an e-learning, they could be:  a student, a course, a class, a topic, a teacher.
++ If you are building the API of an e-learning application, resources could include:  a student, a course, a class, a topic, a teacher.
 + If you are building an e-Commerce API, they could be:  Product, Category, Order, Client, Purchase, etc.
   
 Resources represent the documents being transferred across the network to get work done.  Resources should be named as nouns, as they represent concepts in the domain of a particular system and are identified using URIs.
 
+Further reading:
 
-
-
-
-
+ReadTheDocs(https://restful-api-design.readthedocs.io/en/latest/resources.html)
+RESTfulAPI.net(https://restfulapi.net/)
