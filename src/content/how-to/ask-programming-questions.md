@@ -21,7 +21,7 @@ If a mentor were to respond first question he/she would have to write the code f
 
 The second questions would be a lot easier to answer, it will take a minute to review the code, look for possible errors and give feedback.
 
-## Steps to ask remote questions and feedback?
+## Steps to ask questions remotely and get feedback?
 
 1. Use the slack channel instead of email, or anything else.
 2. Take around 20 minutes to try and solve the problem yourself.
