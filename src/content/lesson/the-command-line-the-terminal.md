@@ -7,9 +7,6 @@ date: "2018-01-10"
 tags: ["the command line","the terminal"]
 ---
 
-[[warning]]
-| :point_up:Windows users don’t have the same command line.  Please do go to [Cloud 9](https://aws.amazon.com/es/cloud9/?origin=c9io) and work from there.
-
 ## **Why do Developers love the Command Line?**
 ***
 
