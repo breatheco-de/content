@@ -1,6 +1,6 @@
 ---
 title: "React Hooks Explained"
-subtitle: "Hooks are the new way you can create React components without having to use Classes"
+subtitle: "Hooks are like Steroids for React Components, and they are almost imposible to avoid. This lesson will focuse on the 2 most important ones: useState and useEffect."
 cover: "https://ucarecdn.com/84c4d84c-51b9-4906-a572-71cc07ecfc8c/"
 textColor: "white"
 date: "2019-10-03"
@@ -21,7 +21,7 @@ In general, using props is enough to create an amazing component, but some times
 
 1. If you want to open or close a modal or dialog (use the **useState** hook).
 2. If you want to fetch some data only at the beginning of the program execution (use the **useEffect** hook).
-3. If you want to share information within all the components (use the **useContext** hook).
+3. If you want to share information within all the components (use the **useContext** hook), we will talk more about this hook on a separate lesson.
 
 As you become more experienced you will understand better when do you need a hook, if you don't think you need them, DON'T use them!!! The less the better!
 
