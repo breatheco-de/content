@@ -1,6 +1,6 @@
 ---
 title: "React Hooks Explained"
-subtitle: "Hooks are like Steroids for React Components, and they are almost imposible to avoid. This lesson will focuse on the 2 most important ones: useState and useEffect."
+subtitle: "Hooks are like Steroids for React Components, and they are almost impossible to avoid. This lesson will focus on the 2 most important ones: useState and useEffect."
 cover: "https://ucarecdn.com/84c4d84c-51b9-4906-a572-71cc07ecfc8c/"
 textColor: "white"
 date: "2019-10-03"
@@ -17,13 +17,13 @@ Hooks come in to enhance your components and give them super powers!
 
 ### My components need super powers?
 
-In general, using props is enough to create an amazing component, but some times it's you need more, these are some really usefull examples for using a hooks:
+In general, using props is enough to create an amazing component, but some times it's you need more, these are some really useful examples for using hooks:
 
 1. If you want to open or close a modal or dialog (use the **useState** hook).
 2. If you want to fetch some data only at the beginning of the program execution (use the **useEffect** hook).
 3. If you want to share information within all the components (use the **useContext** hook), we will talk more about this hook on a separate lesson.
 
-As you become more experienced you will understand better when do you need a hook, if you don't think you need them, DON'T use them!!! The less the better!
+As you become more experienced you will understand better when do you need a hook. If you don't think you need them, DON'T use them! The less the better!
 
 ### All applications need at least one <strong>useState</strong> and one <strong>useEffect</strong>
 
@@ -31,7 +31,7 @@ There are many hooks, but you will always use at least these two:
 
 ## The `useState` hook:
 
-The most important hook, almost unavoidable! The <strong>useState</strong> helps you initialize a variable and change its value over time without the need of a parent components, this is how you have to use it:
+The most important hook, almost unavoidable! The <strong>useState</strong> helps you initialize a variable and change its value over time without the need of parent components, this is how you have to use it:
 ```jsx
 //       variable name      setter name               initial value (any value)
 const [ mySuperVariable, mySuperFunction ] = useState(          null        );
@@ -66,9 +66,9 @@ If the user clicks on "close" we simply use the hook function `setOpened` to cha
 
 ![useEffect hook for the component lifecycle](https://ucarecdn.com/945ae0a2-2495-4955-9e9a-46fdd3efc682/componentlifecyclehooks.png)
 
-Use efect is another amazing hook that you will probably have to use in almost every react application at least once.
+useEffect is another amazing hook that you will probably have to use in almost every react application at least once.
 
-You use it if you want execute some code after the component renders, for example:
+You use it if you want to execute some code after the component renders, for example:
 
 #### 1) After the component renders for the first time (like the good old componentDidMount).
 ```jsx
@@ -122,7 +122,7 @@ const MyComponent = () => {
     <img src="https://ucarecdn.com/41f4a2be-380f-47af-acab-d479acf80921/todolisthooks.gif">
 </p>
 
-For example, lets say I'm building a Todo's list, and I have to load the list of tasks from an API, I will ahve to fetch the information right after the component renders for the first time:
+For example, let's say I'm building a Todo's list, and I have to load the list of tasks from an API, I will have to fetch the information right after the component renders for the first time:
 
 ```jsx
 const Todos = (props) => {
