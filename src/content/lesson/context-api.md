@@ -18,13 +18,13 @@ People say that React.js makes the easy stuff hard and the hard stuff easy. It's
 3. Redux (https://redux.js.org/)?? Overkill.
 
 The Context API is here to solve some of those conundrums by:
- 
+
 1. Centralizing a global application state: Instead of being limited to local states on views, you can now share data on one central component and spread to its inner components (children, grandchildren and so forth). The centralized state is called **store** and we can spread it by using the **Context.Provider** and **Context.Consumer**
 2. Data propagation and re-rendering: when this centralized *global state* (**store**) changes, it triggers a re-render of all of the children compoments (your entire application) which produces new data to show up in the UI. A central **setState***ish*.
 
 ## How does the Context API work?
 
-The concept behind it is very simple: **There is one big Provider**, that provide the data to many **Consumers**, there's no limit in the amount of consumers you can use. 
+The concept behind it is very simple: **There is one big Provider**, that provide the data to many **Consumers**, there's no limit in the amount of consumers you can use.
 
 Every time the data stored within the **Provider** changes, all the **Consumers** update. It is very similar to how TV signal works: TV channels emit a data signal and all TV antennas consume this signal, receiveing the new content and rendering the image on the televisions.
 
@@ -36,10 +36,10 @@ Every time the data stored within the **Provider** changes, all the **Consumers*
 
 The **store** is now the most delicate piece of data in our application, and it is succeptible to bad usage, i.e. one bad change and the whole application will crash. To avoid this possible scenario we have to make sure the store's data is read-only for the consumers, and can be *updated* anew by a limited set of functions. Just like the regular state, we don't *change* the state, we set it anew. This architecture paradigm is called Flux.
 
-	![Flux](https://facebook.github.io/flux/img/overview/flux-simple-f8-diagram-1300w.png)
-	
-	![In-Depth Overview of Flux Architecture]
-	(https://facebook.github.io/flux/docs/in-depth-overview)
+![Flux](https://facebook.github.io/flux/img/overview/flux-simple-f8-diagram-1300w.png)
+
+![In-Depth Overview of Flux Architecture]
+(https://facebook.github.io/flux/docs/in-depth-overview)
 
 We must split the **store** from the **actions** and the **views** (components) and make sure that the views call actions to update the store. *We will never directly change the store from a view*. I know, I'm being redundant on purpose...
 
@@ -53,7 +53,7 @@ We must split the **store** from the **actions** and the **views** (components) 
 
 - **Step 1 (Create the context)**: This step has almost no logic, just call the `createContext` function from react. That object will be shared within all the consumers during the application lifetime, it will contain the application **store** and **actions**.
 
-*AppContext.js* 
+*AppContext.js*
 ```js
 // Step 1: define a context that will be shared within all the app.
 
@@ -91,14 +91,14 @@ export class ContextWrapper extends React.Component {
 		</AppContext.Provider>
 		);
 	}
-}	
+}
 ```
 
 - **Step 3 (Views)**:  Now your main component can be wrapped inside `ContextWrapper` so that all children components will have access to the `Context.Consumer`. For this quick example we will be using the `<TodoList />` component as our main component (the declaration is on the last step).
 
 *index.js*
 ```js
-// Step 4: Wrap your main component in the ContextWrapper, 
+// Step 4: Wrap your main component in the ContextWrapper,
 import React from 'react';
 import { ContextWrapper } from 'path/to/AppContext.js';
 
@@ -107,7 +107,7 @@ const MyView = () => (
 		<TodoList />
 	</ContextWrapper>
 	);
-	
+
 ReactDOM.render(<MyView />, document.querySelector("#app"));
 
 ```
@@ -115,7 +115,7 @@ ReactDOM.render(<MyView />, document.querySelector("#app"));
 - **Step 4**: Now we can create the ```TodoList``` component knowing that we can use the ```Context.Consumer``` to read the store from the **global state** (no props necessary). In this case the component will render the to-do's and also be able to add new tasks to the list.
 
 ```js
-// Step 5: Add the Context.Consumer tag to any component 
+// Step 5: Add the Context.Consumer tag to any component
 
 import React from 'react';
 import { AppContext } from 'path/to/AppContext.js';
