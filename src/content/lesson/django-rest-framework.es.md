@@ -24,7 +24,7 @@ Django es LA HERRAMIENTA para el desarrollo web. No es solo una biblioteca - son
 
 Al igual que cualquier otro marco, Django propone una arquitectura específica para construir tu software y tenemos que aprender, adoptar y dominar todo si queremos convertirnos en Desarrolladores Senior de pila completa (usando Django):
 
-<before-after 
+<before-after
     before="https://ucarecdn.com/61212ca7-cde0-43c1-8267-a1101a95da2c/" after="https://ucarecdn.com/80444105-0d6a-4a93-beb1-090b84b03376/" />
 
 El primer concepto a aprender es  la diferencia entre sitio web y App.  Un buen Ejemplo puede ser BreatheCo.de
@@ -34,7 +34,7 @@ BreatheCode es un gran sitio web de django con varias aplicaciones dentro:
 + admin.breatheco.de: Este es el portal de administración donde se gestionan todos los alumnos, cohortes y ubicaciones.
 + breatheco.de: Este es el acceso de los estudiantes a los cursos.
 + assets.breatheco.de: Esta es una útil recopilación de herramientas tanto para el profesor como para los estudiantes.
-  
+
 Todas esas aplicaciones pueden ser parte de un gran sitio web llamado "Plataforma BreatheCode".
 
 ## Creando un Nuevo Projecto
@@ -78,7 +78,7 @@ $ python manage.py startapp [app_name]
 
 
 [[warning]]
-| :point_up: Para ejecutar este comando, debes estar parado en la misma carpeta que el archivo manage.py. Puede usar el comando CD para moverse a esa misma carpeta.
+| :point_up: <span style="color:white">  Para ejecutar este comando, debes estar parado en la misma carpeta que el archivo manage.py. Puede usar el comando CD para moverse a esa misma carpeta.
 
 #### Una vez más, no tengas miedo de los archivos generados!
 
@@ -157,7 +157,7 @@ class GamesView(APIView):
         serializer = GameSerializer(games, many=True)
         return Response(serializer.data)
     def post(self, request, game_id):
-         # any logic for the post request 
+         # any logic for the post request
         pass
 ```
 
@@ -172,7 +172,7 @@ El ejemplo de la izquierda es una vista que atenderá dos posibles solicitudes: 
 ```python
 from django.db import models
 
-# Create your models here. 
+# Create your models here.
 class Game(models.Model):
     player1 = models.CharField(max_length=20)
     player2 = models.CharField(max_length=20)
@@ -199,7 +199,7 @@ urlpatterns = [
 El archivo urls.py contiene un arreglo ***PATHs***. Cada ruta comienza con un patrón ***URL***, seguido de la ***VISTA*** que se supone que administra esa ruta y 2 parámetros opcionales: ***NOMBRE:*** Para identificar la ruta; y ***KWARGS***: una lista de valores que se pueden pasar al ***VIEW***.
 
 [[info]]
-| :tv: Aquí hay una serie de 5 videos que explica las API de django de una manera sorprendente: https://www.youtube.com/watch?v=Yw7gETuRKjw&index=37&list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK
+| :tv: <span style="color:white">Aquí hay una serie de 5 videos que explica las API de django de una manera sorprendente: https://www.youtube.com/watch?v=Yw7gETuRKjw&index=37&list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK
 
 
 [[info]]
