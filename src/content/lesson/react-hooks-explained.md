@@ -11,7 +11,7 @@ tags: ["reactjs"]
 
 ## Why hooks?
 
-Functional components passing props are amazing because they are simple, perform fast, and require little code- but they can lead to the much dreaded "wrapper hell" in the quest for maintaining encapsulated components. On the other hand, class components are often confusing to work with for both humans and machines- they often lack a positive developer experience, which makes it more difficult creating a more positive user experience as well. Hooks provide a way for us to use state and lifecycle methods with minimal code- like giving your components super powers! 
+Functional components passing props are amazing because they are simple, perform fast, and require little code- but they can lead to the much dreaded "wrapper hell" in the quest for maintaining encapsulated components. On the other hand, class components are often confusing to work with for both humans and machines- they often lack a positive developer experience, which makes it more difficult creating a more positive user experience as well. Hooks provide a way for us to use state and lifecycle methods with minimal code- like giving your components super powers!
 
 ### My components need super powers?
 
@@ -23,9 +23,19 @@ In general, using props is enough to create an amazing component, but sometimes 
 
 Through experience, you will learn when to use a hook. If you don't think you need them, DON'T use them! The less the better.
 
-### Most applications need at least one <strong>useState</strong> and one <strong>useEffect</strong>
+### Most applications need at least one <strong>useState</strong> and one <strong>useEffect</strong>. To make use of hooks, we MUST FIRST IMPORT them at the beginning of our file. For example, if we need useState, we would do:
 
-Let's learn how to use them :)
+```jsx
+import React, { useState } from 'react';
+```
+
+And if we want to use useEffect as well, we can include like this:
+
+```jsx
+import React, { useState, useEffect } from 'react';
+```
+
+Now let's learn how to use them :)
 
 ## The `useState` hook:
 
@@ -118,7 +128,7 @@ const MyComponent = () => {
     <img src="https://ucarecdn.com/41f4a2be-380f-47af-acab-d479acf80921/todolisthooks.gif">
 </p>
 
-For example, let's say I'm building a Todo list, and I have to load the list of tasks from an API. I will have to fetch the information right after the component renders for the first time:
+For example, let's say I'm building a todo list, and I have to load the list of tasks from an API. I will have to fetch the information right after the component renders for the first time:
 
 ```jsx
 const Todos = (props) => {
@@ -137,4 +147,8 @@ const Todos = (props) => {
 }
 ```
 [[demo]]
-| Review the code in deph and live demo by [clicking here](https://codesandbox.io/s/xenodochial-varahamihira-egh86?fontsize=14)
+| Review the code in depth and live demo by [clicking here](https://codesandbox.io/s/xenodochial-varahamihira-egh86?fontsize=14)
+
+## Further Reading
+For more information, including [how to build your own hooks](https://reactjs.org/docs/hooks-custom.html), check out: [Official React Documentation](https://reactjs.org/docs/hooks-overview.html)
+
