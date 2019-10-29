@@ -49,7 +49,7 @@ app.run(host='0.0.0.0')
 
 ## Flask Hello-Wold explained
 
-```py
+```python
 from flask import Flask #here we import the Flask library into our file
 app = Flask(__name__) #here we create a new instance of the Flask server
 
@@ -66,7 +66,7 @@ In Flask we can add new endpoints by using the `@app.route` decorator, don't wor
 
 If you want to add another endpoint to your API that runs when a client calls `GET /person` you will have to add another block of code like this:
 
-```py
+```python
 @app.route("/person") #here we specify the path for the endpoint
 def handle_person(): #here we declare a function that will be called when a request is made to that url
     return "Hello Person!" #here we specify the string we want to responde to the client.
@@ -76,7 +76,7 @@ def handle_person(): #here we declare a function that will be called when a requ
 
 If you want your endpoint to answer to POST, PUT or DELETE you can specify that on the decorator like this:
 
-```py
+```python
 from flask import Flask, request
 
 @app.route("/person", methods=['POST', 'GET']) # here we specify that this endpoints accepts POST and GET requests
@@ -93,7 +93,7 @@ The response can be basically whatever you want as long as it is a string: HTML,
 
 In the following example we are using the jsonify method to convert a dictionary called `person1` into a JSON string before returning it to the client.
 
-```py
+```python
 from flask import Flask, jsonify
 
 @app.route("/person")
@@ -108,7 +108,7 @@ def handle_person():
 
 The response code is 200 by default, and 500 if therer is an uknown error. If you want to respond to the client with a differen code you will have to specify it like this:
 
-```py
+```python
 from flask import Flask, jsonify
 
 @app.route("/person")
@@ -123,7 +123,7 @@ def handle_person():
 
 Another way of chainging the response code using a comma `,`:
 
-```py
+```python
 @app.route("/person")
 def handle_person():
     content = {
@@ -136,7 +136,7 @@ def handle_person():
 
 But what if the request comes with errors? For example: If we have an endpoint to create a person and must specify the first_name AND the last_name but only the first_name was found on the request, this is how we would validate it:
 
-```py
+```python
 @app.route('/person', methods=['POST'])
 def create_person():
     # POST request
@@ -157,14 +157,14 @@ There are differrent ways to integrate Flask to a database server but we will be
 There is a great python library that integrates Flask + SQL Alchemy in a seamingless way: [Flask-SQLAlchemy](https://github.com/pallets/flask-sqlalchemy). We suggest you read [this lesson about SQLAlchemy](https://content.breatheco.de/lesson/everything-you-need-to-start-using-sqlalchemy) first and come back here.
 
 To integrate with SQLAlchemy all you have to do is install the package and import it into your files like this:
-```py
+```python
 from flask_sqlalchemy import SQLAlchemy
 db = SQLAlchemy()
 ```
 
 Once is imported, you can start declaring your database models like this:
 
-```py
+```python
 class Person(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(80), unique=True, nullable=False)
