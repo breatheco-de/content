@@ -34,7 +34,7 @@ Flask is amazing! It is very similar to Node.js Express Server and that makes it
 
 Flask is a library for creating a web server and API, basically when you run a python script that contains the following lines, the computar will start listening for HTTP requests:
 
-```py
+```python
 from flask import Flask
 app = Flask(__name__)
 
