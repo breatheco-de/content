@@ -14,6 +14,14 @@ tags: ["arreglo","matriz"]
 
 ¡Porque los arreglos son impresionantes! ¡Los necesitas! Y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂
 
+Dominar el uso de los `arreglos e iteraciones` es una de las 5 habilidades fundamentales de construir algoritmos:
+
+1. Variables.
+2. Condicionales.
+3. `Arrays (Arreglos)`.
+4. `Loops (Bucles)`.
+5. Funciones.
+
 **No no no…Espera:  Arreglos?  Que?**
 
 Un arreglo es, normalmente, cualquier lista o colección de valores. Las reglas de cómo agregar o eliminar elementos de esa lista pueden cambiar de un lenguaje de programación a otro. Pero - en general - son las únicas formas en que los desarrolladores pueden crear elementos.
