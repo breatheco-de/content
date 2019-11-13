@@ -14,6 +14,14 @@ tags: ["array"]
 
 Because arrays are awesome!  You need them!  And we need to focus a lot on them in order to prepare you for real life 🙂
 
+Mastering the use of arrays and loops is one of the 5 fundamental skills of building algoritms:
+
+1. Variables.
+2. Conditionals.
+3. `Arrays`.
+4. `Loops`.
+5. Functions.
+
 **No no no…Wait:  Arrays?  What?**
 
 An array is, normally, any list or collection of values.  The rules of how to add or remove elements from that list can change from one programming language to another.  But – generally – they are the only ways for developers to create elements.
