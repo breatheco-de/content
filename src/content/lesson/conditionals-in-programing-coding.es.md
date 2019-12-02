@@ -39,16 +39,93 @@ else{
 
 ## Se trata de qué preguntas hacer
 
-El ejemplo anterior era una condición simple, pero en la vida real, elegir qué hacer implica una combinación de varias condiciones para tomar la decisión final, por ejemplo: Veamos este algoritmo que le dice a una computadora cómo decidir qué ponerse durante el día de San Valentín:
+El ejemplo anterior era una condición simple, pero en la vida real elegir qué guardar implica una combinación de varias condiciones para tomar la decisión final, por ejemplo: veamos este algoritmo que indica si tienes gripe
+![Hit by a flu or have a cold](https://ucarecdn.com/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800/)
 
-![What ot ware in valentines day](https://ucarecdn.com/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3/)
-
-Si quieres representar este algoritmo en Javascript, se verá algo así:
+Si desea representar este algoritmo en Javascript, se verá más o menos así:
 
 ```js
-if(goingOut == true){
-    if(canIGetBurger == true){
-        
-    }
+let feelsLikeHitByTrain = true;
+let youWereHitByTrain = false;
+
+if(feelsLikeHitByTrain == true){
+  if(youWasHitByTrain == true){
+    console.log("Tú no tienes gripe");
+  }
+  else{
+    console.log("Tú tienes gripe");
+  }
+}
+else{
+  console.log("Tú no tienes gripe");
 }
 ```
+
+Básicamente, este algoritmo tiene dos variables a considerar: `feelsLikeHitByTrain` y` youWereHitByTrain`.
+Nuestro trabajo como desarrolladores es sentarnos e intentar preparar una estrategia y crear un algoritmo que resuelva un problema.
+
+## Operadores `AND` y `OR`
+
+Otra forma de escribir el algoritmo es combinar preguntas en la misma condición utilizando los operadores `AND` y` OR` que en Javascript se representan con `&& para AND` y` || para OR`:
+
+```js
+if(feelsLikeHitByTrain == false || youWereHitByTrain == true){
+  console.log("Tú no tienes gripe");
+}
+else if(feelsLikeHitByTrain == true && youWereHitByTrain == false){
+  console.log("Tú tienes gripe")
+}
+else{
+  console.log("No tengo idea");
+}
+```
+
+Como puedes ver aquí, estamos usando `else if` juntos por primera vez, para una codificación más rápida. Otro truco que puedes usar para una codificación más rápida:
+
+| Original | Equivalente |
+| --- | --- |
+| en lugar de `if(feelsLikeHitByTrain == true)` | you write `if(feelsLikeHitByTrain)`  |
+| en lugar de `if(feelsLikeHitByTrain == false)` | you write `if(!feelsLikeHitByTrain)` |
+
+## Operadores mayores que o menores que `>` y `<`
+
+En el caso particular de que esté comparando números, también puede hacerlo si uno de los números comparados es mayor o menor que el otro:
+
+```js
+if(age < 16){
+  console.log("No puedes manejar");
+}
+else if(age >= 16){
+  console.log("Puedes manejar");
+}
+```
+
+## Operador Ternario (condiciones en linea)
+
+Otro gran truco para una codificación más rápida es usar ternarios que básicamente nos permiten codificar todo en una sola línea:
+```js
+const flu = (feelsLikeHitByTrain && !youWereHitByTrain) ? true : false;
+```
+En este ejemplo, la variable `flu` solo será verdadera si` feelsLikeHitByTrain == true` y `youWereHitByTrain == false` al mismo tiempo. Si esa pregunta no es cierta, entonces flu será falso.
+
+Los ternarios se usan MUCHO en estos días porque te ahorran mucho tiempo.
+
+## Renderizando Condicionales
+
+Otro gran uso de las condiciones es generar HTML basado en ciertas condiciones, por ejemplo, digamos que tenemos un bootstrap Alert que estamos a punto de presentar en el sitio web:
+
+```js
+let alertHTMLCode = "<div>Cuidado! Tu no puedes manejar</div>";
+```
+
+Si queremos que esta alerta se muestre solo si el usuario es menor de 16 años, podríamos hacer algo como:
+
+```js
+let age = 14;
+let alertHTMLCode = (age < 16) ? "<div>Cuidado! Tu no puedes manejar</div>" : "";
+```
+
+Ahora nuestra variable `alertHTMLCode` estará vacía si la edad del usuario es menor de 16 años, si es mayor, contendrá todo el HTML.
+
+<script async src="//jsfiddle.net/BreatheCode/bycgsnqt/7/embed/js,html,result/"></script>
+
