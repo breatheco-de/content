@@ -3,6 +3,7 @@ title: "Regex Tutorial: Learn With Regular Expression Examples"
 subtitle: "Regular Expressions are the best way to identify patterns within strings. They can seem difficult and annoying, but once you know how to use them, they're amazing! In this Regex Tutorial you will learn with Regular Expression Examples"
 cover: "https://ucarecdn.com/bf7bc7e6-c89c-4f97-9377-e30e369ba796/"
 textColor: "white"
+authors: ["alesanchezr"]
 date: "2018-05-11"
 tags: ["regex","regular expression"]
 ---

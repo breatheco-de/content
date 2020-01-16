@@ -180,25 +180,27 @@ if (goingOut){
   if (canIGetBurger){
     if (placeBotleWine){
       if (coolMix){
+            /* do something */
       }
     }else{
       if (blazers > 3){
+          /* do something */
       }else{
-      
+          /* do something */
       }
     }
   }else if (shePants){
-  
+      /* do something */
   }else{
-  
+      /* do something */
   }
 }else{
   if (nakedSheDoor){
-  
+      /* do something */
   }else if (blazers > 3){
-
+      /* do something */
   }else{
-
+      /* do something */
   }
 }
 ```

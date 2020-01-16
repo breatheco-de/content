@@ -46,9 +46,30 @@ El ejemplo anterior era una condición simple, pero en la vida real, elegir qué
 Si quieres representar este algoritmo en Javascript, se verá algo así:
 
 ```js
-if(goingOut == true){
-    if(canIGetBurger == true){
-        
+if (goingOut){
+  if (canIGetBurger){
+    if (placeBotleWine){
+      if (coolMix){
+          //do something
+      }
+    }else{
+      if (blazers > 3){
+      }else{
+          //do something
+      }
     }
+  }else if (shePants){
+      //do something
+  }else{
+      //do something
+  }
+}else{
+  if (nakedSheDoor){
+      //do something
+  }else if (blazers > 3){
+      //do something
+  }else{
+      //do something
+  }
 }
 ```

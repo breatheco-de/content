@@ -2,7 +2,7 @@
 title: "Conditionals in Programming or Coding"
 subtitle: "Using conditions to control the flow of your code and make the computer obey"
 date: "2017-09-24"
-status: "draft"
+authors: ["alesanchezr"]
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 tags: ["conditionals", "logical operations", "if else", "conditions"]

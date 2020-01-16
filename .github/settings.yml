@@ -21,6 +21,8 @@ labels:
     color: fbca04
   - name: ":vertical_traffic_light: Waiting QA"
     color: f1f1f1
+  - name: ":arrows_counterclockwise: pending translation"
+    color: f1f1f1
   - name: "post:lesson"
     oldname: ":book: post: lesson"
     color: 98bde2

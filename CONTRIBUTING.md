@@ -18,10 +18,11 @@ Fork this project and clone it to have it on your local envirnoment.
 - Published: already finished but you can still make small changes like fixing grammar errors.
 - Draft: someone is already working on it but it's not finished yet.
 - Unassigned: no one has picked that article or started working on it.
+- Pending translation: there is already a version in another language and we need the translation for that particular language
 
 ### Writing a new article
 
-Pick of of the unasigned articles from this list and comment on the issue to start working on it.
+Pick of of the `unasigned` or `pending_translation` articles from [this list](https://github.com/breatheco-de/content/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) and comment on the issue to start working on it.
 
 Follow github markdown synax to write your article, we recomend using a text editor that supports markdown like stack edit.
 
@@ -58,3 +59,41 @@ Example:
 #### Image
 
 <img src="https://path/to/image.png">
+
+#### Syntax Highlighting
+
+***For inline syntax Highlighting***
+
+Start your inline code with the language followed by the `>` character, for example:
+```txt
+python>print("hello")
+```
+Will look like this: `python>print("Hello")`
+
+***Multiline syntax Highlighting***
+
+Start your code with three tildes like this: `
+
+!(Syntax Highlighting Breathecode)[https://ucarecdn.com/8e196eb9-9aaa-41b1-a0f9-a62c1375ccfa/Screenshot20191121at73857PM.png]
+
+Will look like this:
+
+```html
+<strong>Hello</strong>
+<p></p>
+```
+
+***Adding Line Numbers***
+
+To add line numbers just add `{numberLines: true}` after your language declaration like this:
+
+!(Adding line numbers to the code)[https://ucarecdn.com/20c9d797-9a40-4a0e-90a2-0ae0600f0fe0/Screenshot20191121at75439PM.png]
+
+
+```html{numberLines: true}
+
+<p>This is some very big code</p>
+
+<p>With lots of lines of code</p>
+
+```
