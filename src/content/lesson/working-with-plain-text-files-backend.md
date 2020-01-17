@@ -3,7 +3,7 @@ slug: "working-with-plain-text-files-backend"
 title: "Working with Plain Text Files"
 subtitle: "Storing and retrieving information to files using backend languages"
 cover: "https://ucarecdn.com/e6ca8daf-9f02-487b-8296-1f440a4e6e59/storage_background.jpg"
-status: "draft"
+status: "published"
 authors: ["alesanchezr"]
 textColor: "white"
 date: "2018-05-11"
@@ -13,13 +13,13 @@ tags: ["marketing","query-string"]
 
 ## Files are the only way to `store` on a computer.
 
-Your entire computer hard drive is comprised of files, is the most low level way to store information, your compute runs on a `file fystem` or `file directory` control that how data is stored and retrieved.
+Your entire computer hard drive is comprised of files, is the most low-level way to store information, your computer runs on a `file system` or `file directory` control that how data is stored and retrieved.
 
-Using a backend language you can access the majority of the computer files, and that givis you almost endless power!
+Using a backend language you can access the majority of the computer files, and that gives you almost endless power!
 
 ## Retrieving data from files
 
-Lets say that you have the bitcoin prices from the last day in a `bitcoin_prices.csv` file with the following format:
+Let's say that you have the bitcoin prices from the last day in a `bitcoin_prices.csv` file with the following format:
 
 <before-after width="400px"
     before="https://ucarecdn.com/97f74cd8-acdd-4ce9-aa26-bfd494e9b550/bitcoin_price_csv.png" 
@@ -30,6 +30,7 @@ Lets say that you have the bitcoin prices from the last day in a `bitcoin_prices
 | :tv: Five minute video explaining [what is a CSV file](https://www.youtube.com/watch?v=_blfh7uR05A)
 
 Basically, every line in the CSV file represents one price, for example:
+
 ```python
 Currency,Date,Closing Price (USD),24h Open (USD),24h High (USD),24h Low (USD)
 BTC,2019-10-29,9455.7246926058,9228.0745024715,9551.7787262272,9125.7784571584
@@ -62,7 +63,7 @@ Let's say you are running a script that has a variable called `todos` that conta
 todos = ['make the bed', 'do the laundry', 'finish homework']
 ```
 
-That variable is being stored in the RAM memory until you decide to save it to a text-file or database. The RAM memory is not reliable because your computer could loose power any moment (turned off).
+That variable is being stored in the RAM memory until you decide to save it to a text file or database. The RAM memory is not reliable because your computer could lose power at any moment (turned off).
 
 You can save that variable into a `todos.csv` file with the following python code:
 
@@ -75,7 +76,7 @@ file.write(todos_as_csv) # write the content
 file.close() # close the file
 ```
 
-The code above will create or update a `todos.csv` with a content similar to this:
+The code above will create or update a `todos.csv` with content similar to this:
 
 ```csv
 make the bed, do the laundry, finish homework
@@ -88,8 +89,8 @@ make the bed, do the laundry, finish homework
 | Format        | Explanation |
 | ------        | ----------- |
 | CSV           | Comma `,` separated values, one line for each row or different entity. |
-| JSON          | Very similar to Javascript syntax, made specially for developers and the most used format when transmiting information over the internet (HTTP) |
-| Yaml or YML   | The easies format to understand, developers love it because it is fast but its also very similar to a simpel text file, it allows comments and uses intentation instead of commas or braces for delimitation |
+| JSON          | Very similar to Javascript syntax, made especially for developers and the most used format when transmitting information over the internet (HTTP) |
+| Yaml or YML   | The easiest format to understand, developers love it because it is fast but it's also very similar to a simple text file, it allows comments and uses indentation instead of commas or braces for delimitation |
 | XML           | Very popular in the 90's and still being used in a lot of legacy software |
 
 ### Converting from CSV Text to Python Object in memory
