@@ -31,8 +31,8 @@ const buildLessonsData = (lessons) => lessons.map(lesson => {
     const { title, date, tags, status, subtitle, authors } = fm(content).attributes;
     
     if(!title) throw new Error('Missing title');
-    if(!date) throw new Error('Missing date');
-    if(!tags) throw new Error('Missing tags');
+    if(!date) throw new Error('Missing date on '+title);
+    if(!tags) throw new Error('Missing tags'+title);
     
     const fileName = path.basename(lesson, '.md').split('.')[0];
     const lang = getLanguage(lesson);
