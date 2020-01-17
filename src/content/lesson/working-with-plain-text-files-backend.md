@@ -92,16 +92,45 @@ make the bed, do the laundry, finish homework
 | Yaml or YML   | The easies format to understand, developers love it because it is fast but its also very similar to a simpel text file, it allows comments and uses intentation instead of commas or braces for delimitation |
 | XML           | Very popular in the 90's and still being used in a lot of legacy software |
 
-### Converting from CSV to RAM memory
+### Converting from CSV Text to Python Object in memory
 
-```py
+```python{numberLines: true}
+import csv
 file = open("bitcoin_prices.csv", "r") 
-csv_f = csv.reader(file)
+file_content = csv.reader(file)
+for row in file_content:
+    print("First element: " + row[0])
+    print("Second element: " + row[1])
+    # etc..
 ```
 
-### Converting from JSON to RAM memory
+### Converting from JSON Text to Python Object in memory
 
-### Converting from Yaml to RAM memory
+```python{numberLines: true}
+import json
+filePointer = open("bitcoin_prices.json", "r") 
+data = json.load(filePointer)
+prices = []
+for row in data:
+    print("First element: " + row["ticker"])
+    print("Second element: " + row["date"])
+    # etc..
+```
 
-### Converting from XML to RAM memory
+### Converting from Yaml Text to Python Object in memory
 
+```python{numberLines: true}
+import yml #you have to install pip package pyyaml
+
+filePointer = open("bitcoin_prices.yml", "r") 
+data = yaml.load(filePointer)
+prices = []
+for row in data:
+    print("First element: " + row["ticker"])
+    print("Second element: " + row["date"])
+    # etc..
+```
+
+Here is a live demonstration loading all three types of files.
+
+<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Read-bitcoin-prices-python-file?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
