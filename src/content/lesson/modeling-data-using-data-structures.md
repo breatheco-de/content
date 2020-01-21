@@ -11,30 +11,21 @@ tags: ["data structures", "business model"]
 
 Almost all programing languages have primitive datatypes like: Boolean, String, Integer, Float, Null/None, etc.
 
-But what if you whant to store a lot of booleans or a lot of strings in just one structure? For example: If you have a list of todo's you would want to put them together in a list like this:
+But what if you want to store lots of booleans or lots of strings in just one structure? For example: If you have a list of todo's (strings) you would want to put them together in a list like this:
 
 ```python
 todos = ['make the bed', 'clean the houst', 'pay taxes']
-
-# retrieving a value
-first_todo = todos[0]
-
-# reseting the value on the 3rd position
-todos[2] = "buy food"
-
-# adding a new value to the and of the list
-todos.append("Call mom")
 ```
 
-For these types of situations the world of computer science has created more complicated data types that we call `Data Structures`.
+For these types of situations the world of computer science has created more complicated data-types that are called `Data Structures`.
 
 # What is a Data Structure
 
-It's a way of organizing data to be used in a more effective way on a particular situation.
+It's a way of organizing related data to be used in a more effective way on a particular situation.
 
 ## Types of Data Structures
 
-There are many publicly know data-structures and you can also create your own, but lets start by reviewing the most popular ones:
+There are many publicly known data-structures and you can also create your own, but lets start by reviewing the most popular ones:
 
 | Type | What is it | Purpuse and Efficency |
 | ---- | ---------- | --------------------- |
@@ -49,6 +40,191 @@ There are many publicly know data-structures and you can also create your own, b
 [[info]]
 | :point_up: there are other types of data structures and you can also create your own structures but we are covering these cases because they represent the strong mayority of the real-life situations you are going to encouncer while coding.
 
-## The arrays
+## The Array
 
-Every programming language has a different implementation of hat an array is
+Every programming language has a different array implementation but the most basic and original idea was to have a very low level efficent way to store related values. Arrays are an efficient way of storing because:
+
+1. The computer resevers the memory to store the array values in a secuency, making very fast the i/o operation to write and retrieve values from the array.
+2. In some languages, arrays can one contain values of the same type, making more predictable and easy the memory managment of the data-structure.
+3. In some languages, arrays done include almost any methods like append, insert, map, etc. Instead, arrays are very light structures.
+
+Here is how you can manipulate arrays in almost any programing language:
+
+```python
+# retrieving a value
+first_todo = todos[0]
+
+# reseting the value on the 3rd position
+todos[2] = "buy food"
+
+# adding a new value to the and of the list
+todos.append("Call mom")
+```
+
+## The Matrix
+
+If you store arrays within arrays you get a Matrix, e.g:
+```python
+# tic tac toe board
+board = [ 
+    [ 0,0,0 ],
+    [ 0,0,0 ],
+    [ 0,0,0 ]
+]
+```
+
+In the example above we replicated a Tic Tac Toe board using a matrix (two dimensional array), if we wanted to re-set any of its value you would have to do somethign like this:
+
+```python
+board[0][1] = "x"
+
+# the board will then look like this:
+board = [ 
+    [ 0,1,0 ],
+    [ 0,0,0 ],
+    [ 0,0,0 ]
+]
+```
+
+There are plenty of things you can represent in a matrix: Maps, Cartesian Graphs, Game Boards, Blueprints, etc.
+
+## The Stack
+
+Stacks are great because they are also very fast and efficient. Stack follow the FILO rule: First In Last Out. 
+
+In real life there are plenty of situations that replicate a stack:
+
+1. Stack of plates in a buffet table.
+2. Stack of Moulded chairs.
+3. Deck of cards.
+
+```python
+my_stack = []
+
+my_stack.append("A")
+my_stack.append("W")
+my_stack.append("F")
+
+# If I want to retrieve A I will have to pop (remove form the end) F and W first
+f = my_stack.pop() # removes F and returns it
+w = my_stack.pop() # removes W and returns it
+a = my_stack.pop() # removes A and returns it
+
+```
+
+## The Queue
+
+Just like the stack, the queue has many real life scenarios like:
+
+1. Doing the line for a roler coaster.
+2. Doing the line for ice cream.
+3. Computers use Queues to process sending emails or sending sms.
+
+The Queue its like a Stack but with a FIFO behavior: First In First Out.
+
+```python
+my_queue = []
+
+my_queue.append("A")
+my_queue.append("W")
+my_queue.append("F")
+
+# A will be the first one to be retrieved because it was the first to enter
+a = my_queue.pop(0) # dequeue A and returns it
+w = my_queue.pop(0) # dequeue W and returns it
+f = my_queue.pop(0) # dequeue F and returns it
+
+```
+
+## The Hash Table
+
+Some of the very famose hash table implementations in hash tables are:
+1. Language Translations
+2. Cache memory
+
+```python
+# hash table for languages
+language_hash_table = {
+    "hello world": {
+        "german": "Hallo Welt",
+        "spanish": "Hola Mundo"
+    }
+}
+
+# No we can get any language instantly based on english:
+print(language_hash_table["hello world"]["german"])
+print(language_hash_table["hello world"]["spanish"])
+
+```
+
+## The Hash Table
+
+Some of the very famose hash table implementations in hash tables are:
+1. Language Translations
+2. Cache memory
+
+```python
+language_hash_table = {
+    "hello world": {
+        "german": "Hallo Welt",
+        "spanish": "Hola Mundo"
+    }
+}
+
+# No we can get any language instantly based on english:
+print(language_hash_table["hello world"]["german"])
+print(language_hash_table["hello world"]["spanish"])
+
+```
+
+## Graphs
+
+Graphs are a whole new way of storing accessing data, now instead of having an array or list in a sequence, you can have elements that point to each other.
+
+Graphs are ideal to represent relationships, hierarchies, and connections, for example:
+
+1. Building the city road map.
+2. Family Hierarchy (tree).
+3. Social Graph.
+
+A graph can be represented using a Hash Table like this:
+
+```python
+graph = {
+    'A': ['B', 'C'],
+    'B': ['C', 'D'],
+    'C': ['D'],
+    'D': ['C'],
+    'E': ['F'],
+    'F': ['C']
+}
+```
+
+
+## Trees
+
+You can think about Trees like a subtype of Graph, because tree nodes are conected to each other, but the only type of conection that can exist is Parent -> Child relationthip.
+
+Trees are using in a variety of situations like:
+
+1. The DOM (Document Object Model).
+2. Any computer file directory.
+3. Family Tree.
+
+A graph can be represented using a Hash Table like this:
+
+```python
+small_family = {
+    'A': {
+        "children": ['C', 'D']
+    },
+    'B': {
+        "children": ['C', 'D']
+    }
+    'C': {
+        "children": ['E']
+    }
+}
+```
+
+Note: A and B are probably spouses, C is A & B children and E is C's child.
