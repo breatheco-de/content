@@ -7,7 +7,7 @@ date: "2018-05-15"
 tags: ["DOM"]
 ---
 
-## **Stop it with the Console!**
+## **Beyond the Console!**
 ***
 
 Nobody likes applications that are based on the console…can you imagine using Uber from the command line???
@@ -105,16 +105,16 @@ xyz[0].style.color="red";   // make the first one red
 
 It is very common to need to change an element’s child.  For example:
 
-+ Update all the LI childs of a specific UL to make their background red.
++ Update all the `<li>` children of a specific `<ul>` to make their background red.
 + Remove the first `<tr>` row of a `<table>`s.
-+ Hiding all the childs with a specific class.
++ Hiding all the children with a specific class.
 + And the list goes on!
   
-The best way to retrieve the childs of any DOM element is by using its childNodes properties – like this:
+The best way to retrieve the child elements of any DOM element is by using its childNodes properties – like this:
 
 ### element.childNodes
 
-This returns an array with all the element’s childs.
+This returns an array with all the element’s child elements.
 
 ```javascript{numberLines: true}
 var x = document.getElementById("myDIV");
@@ -226,7 +226,10 @@ element.style.background = "blue";
 ```
 
 
+## Further reading
+***
 
+For more information about accessing the DOM, see: https://developer.mozilla.org/en-US/docs/Web/API/Document
 
 
 
