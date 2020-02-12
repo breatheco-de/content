@@ -4,6 +4,7 @@ subtitle: "Uso de condiciones para controlar el flujo de su código en java"
 date: "2019-11-11"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
+syntaxis: ["java"]
 tags: ["Condicionales", "Operaciones Logicas", "Si de lo contrario", "Condicion","Java"]
 ---
 
@@ -15,7 +16,7 @@ Dominar el uso de las condiciones es una de las 5 habilidades fundamentales de c
 4. Loops(Bucles).
 5. Funciones.
 
-Las condiciones son la única forma en que los desarrolladores tienen que decirle a la computadora cómo tomar decisiones en tiempo real, muy similar a cómo funcionan los cerebros.
+Las condiciones son la única forma en que los desarrolladores tienen que decirle a la computadora cómo tomar decisiones en tiempo real, muy similar a cómo funcionan los cerebros humanos.
 
 Digamos que estamos construyendo un programa para ayudarnos a elegir qué almacenar y odiamos el color azul, podemos decirle a la computadora que evite el azul usando una condición como esta:
   
@@ -27,8 +28,9 @@ Digamos que estamos construyendo un programa para ayudarnos a elegir qué almace
 
 Las sentencias de decisión son: `if-then-else` y `switch`.
 
-`if-then-else`
-La estructura de las sentencias if-then-else es:
+## Utilizando `if... then... else`
+
+La estructura de las sentencias `if-then-else` es:
 
 ```java
 if (expresion) {
@@ -37,6 +39,7 @@ if (expresion) {
   // Bloque else
 }
 ```
+
 Se evalua la expresión indicada en la sentencia if. En el caso de que la expresión sea true se ejecutará el bloque de sentencias then y en el caso de que la expresión sea false se ejecutará el bloque de sentencias else.
 
 La parte del else no tiene por qué existir. En este caso tendríamos una sentencia if-then.
@@ -91,7 +94,7 @@ if (valor < 10) {
 }
 ```
 
-`switch`
+## Utilizando `switch`
 
 Para los casos en los que se tienen muchas ramas o caminos de ejecución en una sentencia if tenemos la sentencia switch. La sentencia switch evalúa una expresión y ejecutará el bloque de sentencias que coincida con el valor de la expresión.
 

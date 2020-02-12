@@ -1,6 +1,8 @@
 {
   "name": "gatsby-starter-default",
-  "engines": { "node": "10.x" },
+  "engines": {
+    "node": "10.x"
+  },
   "description": "BreatheCode's Content Platform",
   "version": "0.0.1",
   "author": "Alejandro Sanchez <aalejo@gmail.com>",
