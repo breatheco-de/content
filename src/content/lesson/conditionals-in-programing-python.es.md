@@ -29,7 +29,7 @@ Digamos que estamos construyendo un programa para ayudarnos a elegir qué almace
 
 Las sentencias de decisión son: `if-then-else` y `switch` (el switch no esta disponible en python).
 
-## Primero veamos que es una expresion lógica
+## Primero veamos que es una expresión lógica
 
 La forma más fácil de entender expresiones lógicas (al menos para esta lectura en particular), es pensar en ellas como preguntas que podemos introducir en nuestros algoritmos, por ejemplo:
 
