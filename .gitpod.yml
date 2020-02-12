@@ -1,8 +1,8 @@
 ports:
     - port: 3000
 tasks:
-    - init: >
-        npm install;
+    - init:
+        npm install
       command: >
         npm i now -g;
-        npm run start;
+        npm run start
