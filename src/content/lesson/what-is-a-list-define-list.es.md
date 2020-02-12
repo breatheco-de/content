@@ -1,7 +1,7 @@
 ---
-title: "Es Hora de Aprender lo que es un Arreglo o Matriz"
+title: "Es Hora de Aprender lo que es un Arreglo o List en Python"
 
-subtitle: "¿Se puede trabajar con arreglos? Si no puedes, no te preocupes aquí, aprenderás qué es una matriz y cómo trabajar con ellas."
+subtitle: "¿Se puede trabajar con arreglos? Si no puedes, no te preocupes aquí, aprenderás qué es un arreglo/list y cómo trabajar con ellas."
 
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
@@ -12,7 +12,7 @@ tags: ["arreglo","matriz"]
 ## **¿Por qué están los arreglos en una lección separada?**
 ***
 
-¡Porque los arreglos son impresionantes! ¡Los necesitas! Y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂
+¡Porque los arreglos son demasiado importantes! Necesitas dominarlos al 100% y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂
 
 Dominar el uso de los `arreglos e iteraciones` es una de las 5 habilidades fundamentales de construir algoritmos:
 
@@ -22,9 +22,9 @@ Dominar el uso de los `arreglos e iteraciones` es una de las 5 habilidades funda
 4. `Loops (Bucles)`.
 5. Funciones.
 
-**No no no…Espera:  Arreglos?  Que?**
+**No no no…Espera:  Listas? Arreglos?  Que?**
 
-Un arreglo es, normalmente, cualquier lista o colección de valores. Las reglas de cómo agregar o eliminar elementos de esa lista pueden cambiar de un lenguaje de programación a otro. Pero - en general - son las únicas formas en que los desarrolladores pueden crear elementos.
+Un arreglo/lista es, normalmente, cualquier colección de valores. Las reglas de cómo agregar o eliminar elementos de esa lista pueden cambiar de un lenguaje de programación a otro. Pero - en general - son las únicas formas en que los desarrolladores pueden crear elementos.
 Los arreglos son la única forma en que tenemos que enumerar las cosas - independientemente de la aplicación con la que esté trabajando, siempre tendrás cosas que enumerar. Por ejemplo: lista de estudiantes, lista de artistas, lista de transacciones ... ¡cualquier cosa!
 
 Este tipo de datos hace muchas más cosas que los otros. Las listas son la única forma de almacenar más de un tipo de datos en la misma variable.
@@ -43,86 +43,77 @@ Cada arreglo tiene los mismos conceptos básicos:
 [[info]]
 | :point_up: Las posiciones del arreglo comienzan con **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
 
-## **¿Como Declarar un Arreglo?**
+## ¿Como Declarar una Lista/Arreglo en Python?
 ***
 
-These are different examples of list declarations:
+Utilizando corchetes de la siguiente manera:
 
-```javascript
-var myArray = []; //lista vacia
-var myArray = ["Apple", "Orange", "Donkey"]; //con 3 elementos de cadena por defecto.
-var myArray = new Array(1,2,3,4,5); //¡No uses esto! Lea a continuación para saber por qué.
+```python
+myList = [] # lista vacia
+myList = ["Apple", "Orange", "Donkey"] # con 3 elementos de cadena por defecto.
 ```
 
-
-[[warning]]
-| :point_up: No declares los Arrays con la sintaxis `new Array ()` - no se comportará. [haga clic aquí para conocer los detalles](https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
-
-## **Acceder a los Elementos en el Arreglo**
-***
+## Acceder a los Elementos en la lista Python
 
 Para acceder a un elemento específico en una lista, necesita un índice. Un índice es un valor entero que representa la posición del arreglo a la que desea acceder.
 
 El índice siempre debe comenzar en cero (0). Eso significa que un arreglo de 2 elementos puede tener un índice = 0 o un índice = 1. Tratar de obtener la segunda posición devolverá "indefinido" porque significará que estamos tratando de acceder al tercer elemento (que no existe). Por ejemplo, para obtener cualquier elemento del arreglo, puede hacer lo siguiente:
 
-```javascript
-    console.log(myArray[0]);  //Esto imprimirá el 1er elemento en la consola.
-var aux = myArray[5];
-    console.log(aux); //Esto imprimirá el 4to elemento en la consola.
-    console.log(myArray[myArray.length-1]);  //Esto imprimirá el último elemento del arreglo.
+```python
+    print(myList[0])  # Esto imprimirá el 1er elemento en la consola.
+    aux = myList[5]
+    print(aux); # Esto imprimirá el 4to elemento en la consola.
+    print(myList[myList.length-1]);  #vEsto imprimirá el último elemento del arreglo.
 ```
 
-## **Actualizar Elementos en el Arreglo**
-***
+## Actualizar Elementos en el Arreglo
 
 Si lo deseas, puedes restablecer o actualizar cualquier elemento dentro de un arreglo usando el índice como este:
 
-```javascript
-myArray[5] = 'Whatever value';
-//Esto establecerá el valor 'Cualquier valor' en el sexto elemento del arreglo.
+```python
+myList[5] = 'Whatever value'
+# Esto establecerá el valor 'Cualquier valor' en el sexto elemento del arreglo.
 ```
 
-## **Añadiendo elementos (función push)**
-***
+## Añadiendo elementos a una lista (función append o insert) en Python
 
-La única forma de agregar un nuevo elemento es al final de la lista, y necesitará usar la función push () para eso.
+Hay dos formas de agregar un nuevo elemento: final de la lista o donde tu quieras, y necesitemos usar las funciónes append e insert respectivamente para eso.
 
-```javascript
-var myArray = ['Pedro','Juan','Maria'];
-    myArray.push('Chris');
-    console.log(myArray); //esto imprimirá ['Pedro','Juan','Maria','Chris'];
+### Utilizando `append` en Python
+
+```python
+    myList = ['Pedro','Juan','Maria']
+    myList.append('Chris') # esto agrega a chris al principio del arreglo
+    print(myList); # esto imprimirá ['Pedro','Juan','Maria','Chris'];
 ```
 
-Pero… ¿y si quiero agregar a Chris en la segunda posición?
+### Utilizando `insert` (seleccionando posicion) en Python
 
-Entonces… necesitas crear un nuevo arreglo vacío y comenzar a empujar los elementos en el orden en que los necesita. En este caso será:
+La ventaja de utilizar insert es que te permite seleccionar la posicion donde deseas insertar el elemento en el array:
 
-```javascript
-var myArray = ['Pedro','Juan','Maria'];
-var myNewArray = [];
-    myNewArray.push('Pedro');
-    myNewArray.push('Chris');
-    myNewArray.push('Juan');
-    myNewArray.push('Maria');
-    console.log(myNewArray); //esto imprimirá  ['Pedro','Chris','Juan','Maria'];
-
+```python
+    myList = ['Pedro','Juan','Maria']
+    myList.insert(1,'Chris') # esto agrega a chris entre Pedro y Juan
+    print(myList); # esto imprimirá ['Pedro','Chris','Juan','Maria'];
 ```
 
-## **Eliminando Elementos (función pop)**
-***
+[[info]]
+| :point_up: La funcion `insert` es mucho mas lenta que `append`, deberias tratar de eviarla.
+
+## Eliminando Elementos de una lista con Python(función pop)
 
 Eliminar un elemento tiene exactamente las mismas limitaciones que al agregar un elemento: solo puede eliminar un elemento de la última posición con la función pull (). Si desea eliminar un elemento diferente, deberá crear una nueva matriz sin ese elemento en particular.
 
-```javascript
-var myArray = ['Pedro','Chris','Juan','Maria'];
-    myArray.pop();
-    console.log(myArray); //esto imprimirá ['Pedro','Chris','Juan']; 
+```python
+var myList = ['Pedro','Chris','Juan','Maria'];
+    myList.pop();
+    print(myList); //esto imprimirá ['Pedro','Chris','Juan']; 
 //Si deseas eliminar 'Chris', necesitas hacer lo siguiente: 
 var myNewArray = [];
     myNewArray.push('Pedro');
     myNewArray.push('Juan');
     myNewArray.push('Maria');
-    console.log(myNewArray); //esto imprimirá ['Pedro','Juan','Maria'];
+    print(myNewArray); //esto imprimirá ['Pedro','Juan','Maria'];
 ```
 
 ## **Removing/Adding from the Beginning**
@@ -131,14 +122,14 @@ var myNewArray = [];
 Los métodos shift y unshift son como push y pop, pero con la diferencia de que solo funcionarán desde el principio de la lista.
 
 ```javascript
-var myArray = ['Juan','Maria'];
-    myArray.unshift('Pedro');
-    myArray.unshift('Chris','Bob');
-    console.log(myArray); //esto imprimirá ['Chris','Bob','Pedro','Juan','Maria']; 
+var myList = ['Juan','Maria'];
+    myList.unshift('Pedro');
+    myList.unshift('Chris','Bob');
+    print(myList); //esto imprimirá ['Chris','Bob','Pedro','Juan','Maria']; 
 //Si deseas eliminar 'Chris', necesitas hacer lo siguiente: 
-var myArray = ['Chris','Bob','Pedro','Juan','Maria'];
-    myArray.shift();
-    console.log(myArray); //esto imprimirá ['Bob','Pedro','Juan','Maria'];
+var myList = ['Chris','Bob','Pedro','Juan','Maria'];
+    myList.shift();
+    print(myList); //esto imprimirá ['Bob','Pedro','Juan','Maria'];
 ```
 
 ## **Bucle en Arreglo**
@@ -149,9 +140,9 @@ A veces, cuando trabajes con arreglos, tendrás que hacer un bucle. Por ejemplo:
 Para crear tu bucle, necesitarás usar Array.length para obtener el tamaño actual del arreglo. La mayoría de las veces, los elementos del arreglo cambian durante el tiempo de ejecución. Esta es la razón por la que la única forma de obtener el tamaño del arreglo será usar la función array.length, como esta:
 
 ```javascript
-var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
-    for (i = 0; i < myArray.length; i++) {
-    console.log(myArray[i]); //this prints the value of the item in the position i 
+var myList = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
+    for (i = 0; i < myList.length; i++) {
+    print(myList[i]); //this prints the value of the item in the position i 
 }
 ```
 
@@ -161,9 +152,9 @@ var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
 Hay una gran adaptación de **sentencia for** para hacer que se formen listas de bucles o arreglos, como este:
 
 ```javascript
-var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
-    for (var index in myArray) {
-    console.log(myArray[index]);
+var myList = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
+    for (var index in myList) {
+    print(myList[index]);
 }
 //Esto imprime el valor del artículo en el índice de posición.
 ```
@@ -205,9 +196,9 @@ Ellos hacen lo mismo, excepto que Reverse lo hace al revés. Ambos clasifican us
 ```javascript
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
     fruits.sort();
-    console.log(fruits); //[ 'Apple', 'Banana', 'Mango', 'Orange' ] 
+    print(fruits); //[ 'Apple', 'Banana', 'Mango', 'Orange' ] 
     fruits.reverse();
-    console.log(fruits); //[ 'Orange', 'Mango', 'Banana', 'Apple' ]
+    print(fruits); //[ 'Orange', 'Mango', 'Banana', 'Apple' ]
 ```
 
 ### Clasificando Números
@@ -219,7 +210,7 @@ Tienes que definir una función que se encargue de las comparaciones. La funció
 ```javascript
 var points = [40, 100, 1, 5, 25, 10];
     points.sort(function(a, b){return a – b});
-    console.log(points); //[ 1, 5, 10, 25, 40, 100 ]
+    print(points); //[ 1, 5, 10, 25, 40, 100 ]
 ```
 
 ### Clasificando Objetos
@@ -232,7 +223,7 @@ var cars = [
     {type:"Saab", year:2001},
     {type:"BMW", year:2010}];
     cars.sort(function(a, b){return a.year – b.year});
-    console.log(cars); //[ { type: 'Saab', year: 2001 },{ type: 'BMW', year: 2010 },{ type: 'Volvo', year: 2016 } ]
+    print(cars); //[ { type: 'Saab', year: 2001 },{ type: 'BMW', year: 2010 },{ type: 'Volvo', year: 2016 } ]
 ```
 
 <iframe src="https://repl.it/F9YZ/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
