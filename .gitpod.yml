@@ -5,4 +5,4 @@ tasks:
         npm install
       command: >
         npm i now -g;
-        npm run start;
+        npm run start
