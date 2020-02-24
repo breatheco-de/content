@@ -83,14 +83,14 @@ const MyComponent = () => {
 
         // whatever you code here will execute only after the first time the component renders
 
-    , []);// <------ PLESE NOTICE THE EMPTY ARRAY
+    , []);// <------ PLEASE NOTICE THE EMPTY ARRAY
 
 
     return <Some HTML>;
 }
 ```
 [[info]]
-| :point_up: Please notice the `[]` as the secong parameter of the useEffect.
+| :point_up: Please notice the `[]` as the second parameter of the useEffect.
 
 #### 2) Every time (or some times) after the component re-renders.
 ```jsx
@@ -108,7 +108,7 @@ const MyComponent = () => {
 [[info]]
 | :point_up: This useEffect does not have an empty array `[]` as second parameter.
 
-#### 3) When the component will unmount or stop being rendered (like the good old componentWillUnmount function).
+#### 3) When the component will unmount or stop being rendered (like the good old componentWillUnmount function used by class components).
 ```jsx
 const MyComponent = () => {
     useEffect(() =>
