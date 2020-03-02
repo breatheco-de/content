@@ -1,5 +1,5 @@
 ---
-title: "Intro to Pre Work"
+title: "Intro to Pre-Work"
 subtitle: "We know what we are doing, you should know too. 
 Learn the process we have polished to make you learn 2 years of content in just a few weeks."
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
@@ -11,42 +11,44 @@ tags: ["prework"]
 ## Flipped Around
 
 
-There are a lot coding courses out there; some are even free.  If you joined 4Geeks Academy, it’s because you are just like us.  You truly believe that hard-to-learn skills like Coding require much more than just online articles/videos or tutorials that make you feel everything is easy.
+There are a lot coding courses out there... some are even free. If you joined 4Geeks Academy, it’s because you are just like us. You truly believe that hard-to-learn skills like coding require much more than just online articles/videos or tutorials that make coding look extremely easy.
 
 Coding is hard because it can only be learned by large amounts of practice, face-to-face mentoring, and real life challenges.
 
-So, we came up with this online platform.  These contents will guide you throughout the program.  There will be many many exercises/projects.  The class will focus on enabling you.  We will present you with one challenge after the other, but always with senior developer eyes looking at your process to assist you and help you out.  BreatheCode is the place to read, learn and practice until you permanently affix everything into to your brain.
+So, we here at 4Geeks came up with this online platform.  This content we have designed for you will guide you throughout our program.  There will be many, many exercises and projects yet this class will focus on enabling you to become a better coder.  
 
-## So You’d Rather Not Read Much!?!?
+We will present you with one challenge after another, but a trusty senior developer will always be looking at your process to assist you and help you out.  BreatheCode is the place to read, learn and practice code until you permanently affix everything into to your brain.
+
+## But you don't want to read everything right!?!?
 <hr>
 
-You want to learn what will be the most wanted skill for the next 30 years, but you don’t want to read at all – we get it.
+You basically want to learn everything about the beautiful art of coding, but you don’t want to read that much... Yeah, we get it. As a result, we have made a huge effort in summing our lessons up. Everything you’ll find here will be the basis of your skills.  There is nothing to "skip over."
 
-We have made a huge effort in summing things up.  Everything you’ll find here will be the bedrock of your skills.  There is nothing to "skip over."  Your journey has already begun and you can’t miss anything.  We will follow every step of your learning path.  The Pre-Work is probably the most important phase to your becoming a web developer.  Here you will understand the foundation of your skills and you will learn to love it like we do!
+Your journey has already begun and you should know that we are following every step of your learning. The Pre-Work is probably the most important phase to becoming a web developer as it serves as a root to all of your skills in the future.  Here you will understand the foundation of your skills and you will learn to love coding like we do!
 
 ![short attention meme](https://breatheco.de/wp-content/uploads/2017/01/short-attention-meme1.jpg)
 
-## But What If You Already Think You Know?
+## But what if you already know? 
 <hr>
 
-There are some of you who already have some coding experience (mostly with HTML and CSS), and some of you with no experience at all.  That’s the main reason why this stage of the program is known as **Pre-Work**.  We need to assess the level of experience of each member of the program.  Pre-Work also enables us to to get to know you.  Knowing about your learning process and learning curve helps us guide you towards achieving the best possible results.
+There are some of you who already have some coding experience (mostly with HTML and CSS), and some of you with no experience at all.  That’s the main reason why this stage of the program is known as the **Pre-Work**.  We need to assess the level of experience of each member of the program.  The Pre-Work also enables us to to get to know you, your learning process, and your learning curve better, allowing us to help guide you towards achieving the best possible results.
 
-We really need to get to know you better.  We need to be sure that you have what it takes to complete the program.  It’s going to be intense, and you will feel exhausted, but don’t fret on it.  We have been doing this for a while and we feel you!
+And this is all because we need to be sure that you have what it takes to complete the program.  It’s going to be intense, and you will feel exhausted, but don’t fret on it.  We have been doing this for a while and we feel you!
 
 <p style="text-align:center">
     <img class="my-class" src="https://breatheco.de/wp-content/uploads/2017/01/i-feel-you.jpg" width="300">
 </p>
 
-## This Course Works, But You Have To Trust Us
+## This course works, but you have to trust us
 <hr>
 
-The human brain requires a lot of energy to make any decision, especially when a lot of variables take part in the equation.  This course is hard because we are re-designing the way you make decisions: you will have to think similar to the way computers think.  A time will come in which everything becomes an acquired behavior.
+The human brain requires a lot of energy to make any decision, especially when lots of variables are taking part in the equation.  This course will be hard because we are re-designing the way you make these decisions. You will have to think similar to the way computers think. Do not worry though, a time will come when everything you do will become an acquired behavior.
 
-If you feel overwhelmed and confused, <span style="color:#993300">**ask for help!!**</span> And, **keep up the hard work –** you will make it!  All the lessons are cumulative – meaning every exercise will require you to use all you have learned in the past.
+If you feel overwhelmed and confused, <span style="color:#993300">**ask for help!!**</span> And, **keep up the hard work –** you will make it!  All the lessons are cumulative – meaning every exercise will require you to use all your skills you have learned in the past.
 
-### Please Ask for Help!
+### Please Ask for Help!!
 
-Have you read about Einstein?  Really smart people are the ones who always ask more questions. They are not afraid of not knowing or making mistakes. The only way we can really help you is if you accept our mentorship by asking for help.
+Have you heard of Einstein?  Really smart people are always the ones who ask more questions. They are not afraid of not knowing or making mistakes. The only way we can really help you is if you accept our mentorship by asking for help.
 <p style="text-align:center">
     <img class="my-class" src="https://breatheco.de/wp-content/uploads/2017/01/126g91.jpg" width="300">
 </p>
@@ -54,9 +56,9 @@ Have you read about Einstein?  Really smart people are the ones who always ask m
 ## Coding Tools
 <hr>
 
-When we started the Academy, each student had the freedom to install their own set of coding tools and programs. However, we discovered that students wasted too much time installing and setting up each program.  They invested more time doing that than actually learning to program.
+When we started the academy, each student had the freedom to install their own set of coding tools and programs. However, we soon discovered that students waste too much time installing and setting up each program.  They invested more time doing that than actually learning to program.
 
-So, now it’s up to us!! We have decided what stack of programs you need – some of them are mandatory – to use/download during the program.  Don’t worry, you’ll be happy with us!!
+So instead of that approach, we have made a list of what programs you need. Some of them are mandatory to use/download during the program, while others are just optional.  Don’t worry, you’ll be happy with us!!
 
 Yeah, yeah, we know some of you already have your own tools, but let’s keep that conversation for another time. For now, closely follow our suggestions and give us the opportunity to tell you how to go about it all. 
 
