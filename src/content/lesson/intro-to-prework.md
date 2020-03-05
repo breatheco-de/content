@@ -26,7 +26,7 @@ You basically want to learn everything about the beautiful art of coding, but yo
 
 Your journey has already begun and you should know that we are following every step of your learning. The Pre-Work is probably the most important phase to becoming a web developer as it serves as a root to all of your skills in the future.  Here you will understand the foundation of your skills and you will learn to love coding like we do!
 
-![short attention meme](https://breatheco.de/wp-content/uploads/2017/01/short-attention-meme1.jpg)
+![short attention meme](https://ucarecdn.com/b96ddb9a-e076-4e27-b18e-f3fd7a256ad2/)
 
 ## But what if you already know? 
 <hr>
@@ -49,8 +49,9 @@ If you feel overwhelmed and confused, <span style="color:#993300">**ask for help
 ### Please Ask for Help!!
 
 Have you heard of Einstein?  Really smart people are always the ones who ask more questions. They are not afraid of not knowing or making mistakes. The only way we can really help you is if you accept our mentorship by asking for help.
+
 <p style="text-align:center">
-    <img class="my-class" src="https://breatheco.de/wp-content/uploads/2017/01/126g91.jpg" width="300">
+    <img class="my-class" src="https://ucarecdn.com/5f5f59bc-9efa-4ee9-bce6-6af9eedb4738/" width="300">
 </p>
 
 ## Coding Tools
@@ -63,7 +64,7 @@ So instead of that approach, we have made a list of what programs you need. Some
 Yeah, yeah, we know some of you already have your own tools, but let’s keep that conversation for another time. For now, closely follow our suggestions and give us the opportunity to tell you how to go about it all. 
 
 <p style="text-align:center">
-    <img class="my-class" src="https://breatheco.de/wp-content/uploads/2017/01/shu-ha-ri-189x300.jpg" width="180">
+    <img class="my-class" src="https://ucarecdn.com/59bf0e4e-f5cf-410c-b2bc-fdc7472e7cdc/" width="180">
 </p>
 <p style="text-align:center;">
     <sub><sup>Shuhari is a Japanese martial art concept, and describes the stages of learning to mastery, [click here to read more](https://google.co.ve)</sup></sub>
