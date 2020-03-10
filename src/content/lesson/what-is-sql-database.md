@@ -14,14 +14,14 @@ Databases are the best way to store data, and everyday there is more and more da
 
 At the beginning, information was saved into more simple files like .csv (comma separated).  This was very disorganized – the data was both easy to corrupt and hard to access (imagine having to browse comma separated files).
 
-![What is SQL Database](https://ucarecdn.com/11fcd6d8-6177-4f42-b4e0-7b6475f24b0a/-/resize/200x/)
+![Edgar Codd](https://en.wikipedia.org/wiki/Edgar_F._Codd#/media/File:Edgar_F_Codd.jpg)
 
-At some point, our friend [Edgar](https://en.wikipedia.org/wiki/Edgar_F._Codd) decided to re-design those files and created a standard way of storing data into files focused on performance and integrity.  He partnered with mister [Donald](https://en.wikipedia.org/wiki/Donald_D._Chamberlin) and together the created a language called SQL –  which was designed to work with data in a very friendly way.
+At some point, our friend [Edgar](https://en.wikipedia.org/wiki/Edgar_F._Codd) decided to re-design those files and created a standard way of storing data into files focused on performance and integrity.  He partnered with mister [Donald](https://en.wikipedia.org/wiki/Donald_D._Chamberlin) and together they created a language called SQL (Structured Query Language) –  which was designed to work with data in a more user-friendly way.
 
 ## What is SQL?
 ***
 
-SQL is the most used language when you want to speak to a database directly.   It stands for: Structured Query Language.  SQL a computer language for storing, manipulating and retrieving data that is stored into relational databases.
+SQL is the most used language when you want to speak to a database directly.   It stands for: Structured Query Language, and is simply a computer language for storing, manipulating and retrieving data that is stored in [relational databases](https://en.wikipedia.org/wiki/Relational_model).
 
 An SQL query syntax looks something like this:
 
@@ -37,15 +37,15 @@ In this example, we are asking the database for all the users with the email equ
 ## Defining your Database
 ***
 
-Databases are similar to what spreadsheets look like – everything gets stored into tables with rows and columns.
+Databases house collections of data called tables. Everything gets stored in tables with rows and columns, just like spreadsheets. Each column represents common attributes for the rows they intersect with, which are instances of the data.
 
 ####  What is a Table?
 
-Each table is an entity of information like "People", "Cars", "Events", etc.  The rows contain the actual data (real people, cars, events, etc.).  The table is the **only structure** capable of storing data via SQL.
+Each table is an entity of information like "People", "Cars", "Events", etc.  The rows contain the actual data representing an instance of the subject- so if we have a table called "People", it might contain columns for "First-Name", "Last-Name", and an "id", a row would have those values pertaining to the column, like "Bob", "Ross", and "42" (further breakdown below).  The table is the **only structure** capable of storing data via SQL.
 
 ####  What is a Column/Field?
 
-Tables have columns (just like excel).  A table called Person can have 4 columns: Name, Last Name, Birth-Date and Weight.  A table can have as many columns as you want.  Columns describe the table in a similar way as properties describe a class in object oriented programming.
+Tables have columns (just like excel).  A table called Person can have 4 columns: Name, Last Name, Birth-Date and Weight.  A table can have as many columns as you want, and will hold a specific type of value (such as string, integer, boolean etc).  Columns describe the table in a similar way as properties describe a class in object oriented programming.
 
 ####  What is a Row?
 
