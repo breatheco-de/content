@@ -13,36 +13,36 @@ tags: ["sql alchemy", "python"]
 
 ## What is SQL Alchemy
 
-Is an ORM: a library that developers use to create databases and manipulate their data without the need of knowing/using SQL.
+SQL Alchemy is an [Object-Relational Mapper / Mapping-tool](https://en.wikipedia.org/wiki/Object-relational_mapping), or ORM: a library that developers use to create databases and manipulate their data without the need of knowing/using SQL.
 
 There are other alternatives to it like SQLAlchemy like Peewee, and other languages have their own ORM's like PHP Eloquent or Java Hibernate.
 
-## Why using it?
+## Why Use ORM?
 
-There is a lot of debate around this, ORM's gain popularity because dealing with SQL language directly requiers a lot of effort and on the mayority of the cases.
+ORM's have gained popularity because dealing with SQL language directly requires a lot of effort in many cases. The goal of any ORM is to simplify the maintenance of your data. This is done by creating ***objects*** to deal with database interactions.
 
-Basically with ORM you won't have to type SQL again (95% of the time) and you will be able to work with objects.
+With ORM you won't have to type SQL again (95% of the time) and you will be able to work with objects.
 
-### For example:
+### Example:
 
 To insert an user with SQL you have to type:
 
 ```sql
-INSERT INTO user (name, last_name) VALUES ('Juan', 'McDonals');
+INSERT INTO user (name, last_name) VALUES ('Bob', 'Ross');
 ```
 
 With an ORM your code keeps beign familiar code like this:
 
 ```py
 user = User()
-user.name = 'Juan'
-user.last_name = 'McDonals'
+user.name = 'Bob'
+user.last_name = 'Ross'
 
 db.session.commit()
 ```
 You can just say: `db.session.commit()` and all the things you have done in your code will be translated into SQL language code.
 
-## Lets review the most typical database operation
+## Let's review the most typical database operation
 
 ## Creating our database
 
@@ -65,10 +65,10 @@ class Person(Base):
         }
   ```
 
-### INSERT: Inserting a database record
+### INSERT: Inserting a Database Record
 
 All you have to do is create a new Person object, add it into the database session and commit!
-Replace `<username_value>` and `<email_value>` with the real person values you want to add.
+Just replace `<username_value>` and `<email_value>` with the real values you want added below.
 
 ```py
 person = Person(username=<username_value>, email=<email_value>)
@@ -76,7 +76,7 @@ db.session.add(person)
 db.session.commit()
 ```
 
-### SELECT: Fetching or retrieving records
+### SELECT: Fetching / Retrieving Records
 
 There are 3 ways to retrieve data from a database:
     1. Fetch all record from a particular Table/Model using `MyModel.query.all()`
@@ -96,7 +96,7 @@ all_people = list(map(lambda x: x.serialize(), all_people))
 person = Person.query.get(3)
 ```
 
-### DELETE: Removing a database record.
+### DELETE: Removing a Database Record.
 
 All you have to do is create a new Person object, add it into the database session and commit!
 
@@ -106,7 +106,7 @@ person.delete()
 db.session.commit()
 ```
 
-### UDPATE: Updating a record
+### UDPATE: Updating a Record
 
 TO update you need first to retrieve/select the record from the database, then you can update whatever property you like and commit again.
 
@@ -115,5 +115,3 @@ person = Person.query.get(3)
 person.name = "Bob"
 db.session.commit()
 ```
-
-
