@@ -2,7 +2,7 @@
 title: "Entendiendo la Sintaxis de Python"
 subtitle: "Desata tu poder aprendiendo con esta lección, usando uno de los Reyes del Desarrollo de Back-End. Ahora podrás integrar IA, Big Data, Aprendizaje automático, API e integrar aplicaciones de terceros en su propia cuenta. Disfrute de esta lección sobre la sintaxis de Python"
 
-cover: "http://breatheco.de/wp-content/uploads/2018/01/python-background.jpg"
+cover: "https://ucarecdn.com/576d4b0e-8b35-493d-879c-4d8f914c585f/"
 
 textColor: "white"
 date: "2018-11-05"
