@@ -71,12 +71,11 @@ Yeah, yeah, we know some of you already have your own tools, but let’s keep th
 </p>
 
 
-| MANDATORY TOOLS                                           | OTHER LEARNING RESOURCES                                              |
-| :-:                                                       |    :-:                                                                |
-| [Your Email (desktop/mobile)](#)                          | [StackOverflow](https://stackoverflow.com)                            |
-| [Breatheco.de](https://breatheco.de/en/my-courses/)       | [w3Schools.com](https://w3schools.com)                                |
-| [Github.com](https://github.com)                          | [Net Ninja JS Tutorial](https://www.youtube.com/watch?v=qoSksQ4s_hg)  |
-| [Repl.it](https://repl.it)                                |                                                                       |
-| [Slack.com (desktop & mobile)](4geeksacademy.slack.com)   |                                                                       |
-| [Atom](https://atom.io/) or Sublime Text Editor           |                                                                       |
-|                                                           |                                                                       |
+| MANDATORY TOOLS                                           | OTHER LEARNING RESOURCES  |
+| --------------------------------------------------------  | ------------------------  |
+| [Your Email (desktop/mobile)](#)                          | [StackOverflow](https://stackoverflow.com) |
+| [Breatheco.de](https://breatheco.de/en/my-courses/)       | [w3Schools.com](https://w3schools.com) |
+| [Github.com](https://github.com)                          | [Net Ninja JS Tutorial](https://www.youtube.com/watch?v=qoSksQ4s_hg) |
+| [Slack.com (desktop & mobile)](4geeksacademy.slack.com)   |   |
+| [Gitpod](https://gitpod.io/)           |  |
+
