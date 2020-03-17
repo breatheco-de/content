@@ -36,7 +36,7 @@ There are some of you who already have some coding experience (mostly with HTML 
 And this is all because we need to be sure that you have what it takes to complete the program.  It’s going to be intense, and you will feel exhausted, but don’t fret on it.  We have been doing this for a while and we feel you!
 
 <p style="text-align:center">
-    <img class="my-class" src="https://breatheco.de/wp-content/uploads/2017/01/i-feel-you.jpg" width="300">
+    <img class="my-class" src="https://ucarecdn.com/bd90ba64-ded5-4fb2-b23f-7d297125e3a5/" width="300">
 </p>
 
 ## This course works, but you have to trust us
