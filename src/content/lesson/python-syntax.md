@@ -2,7 +2,7 @@
 title: "Understanding Python Syntax"
 subtitle: "Unleash your power by learning with this lesson, using one of the Kings of Back-End Development. Now you will be capable of bringing AI, Big Data, Machine Learning, APIs and integrate third party applications into your own.Enjoy this Python Syntax lesson"
 
-cover: "http://breatheco.de/wp-content/uploads/2018/01/python-background.jpg"
+cover: "https://ucarecdn.com/576d4b0e-8b35-493d-879c-4d8f914c585f/"
 
 textColor: "white"
 date: "2018-05-11"
