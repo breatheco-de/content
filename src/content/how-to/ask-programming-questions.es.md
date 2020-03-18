@@ -21,7 +21,7 @@ Primero que nada, te suplicamos que nos hagas preguntas constantemente, es la me
 
 Es comunmente conocido en el mundo de la programación que el verdadero reto no es encontrar la respuesta, sino formular la pregunta, esa es la verdadera habilidad. A medida que entiendas mejor iras haciendo preguntas mas detalladas y verás como Google se ira convirtiendo en la fuente principal de tus respuestas. 
 
-Sin embargo, por ahora estamos nosotros aqui para ayudarte a preguntar o incluso responderte la pregunta.
+Sin embargo, por ahora estamos nosotros aquí para ayudarte a preguntar o incluso responderte la pregunta.
 
 Stack Overflow es una de las paginas más importantes en el mundo de la programación y ha publicado el siguiente manual de como hacer preguntas: [how to ask questions by stack overflow](https://stackoverflow.com/help/how-to-ask).
 
@@ -35,18 +35,35 @@ Comparemos estas dos preguntas:
 2. Estoy intentando agregar un item a un array de la siguiente manera: blablabla... Este es mi ejemplo de codigo (sreenshot) pero no esta funcionando, ¿Ven algo malo?
 ```
 
-## 2. Take a picture or screenshot
+¿Notas como la segunda pregunta es mucho más sencilla de responder? Probablemente tengas una respuesta en unos pocos minutos dado que sera muy sencillo revisar tu código y darte feedback en unas pocas lineas. ¿Quién sabe? ¡Tal vez es solo un error de tipeo!
 
-Everyone has a different device, if you pest a text code it will look all different on the phone and it may not have any color highlighting, if you pase a picture it will keep formating whoever is reading will be able to zoom in.
+## 2. Toma fotos y capturas de pantalla en lugar de copiar y pegar tu código.
 
-## 3. Be specific
+Todos tenemos dispositivos móviles diferentes, es probable que si pegas tu código en formato de texto de distorcione todo y se haga muy difícil su lectura. ¡Te suplicamos que subas una caputa de pantalla o incluso que tomes una foto a tu pantalla desde el celular! Puedes utilizar algun plugin para Google Chrome como [Awesome Screenshot](https://www.awesomescreenshot.com/).
 
-Don't ask "how can I solve this exercise", its better to ask something specific like: "How can I start building this exercise" or "I tried this approach but it did not work, what am I doing wrong?"
 
-## 4. Do your research
+## 3. Se específico
 
-Take around 20 minutes to try and solve the problem yourself, read online and have a strategy. This is the real ultimate goal, to come up with strategies instead of finding the solution.
+No hagas preguntas como la siguiente 
 
-## 5. Use the slack channel instead of email, or anything else
+> ¿Cómo puedo resolver este ejercicio?
 
-Slack is the perfect tool for this, you can event start an instance video call with the responder, avoid using traditional less effective methods like phone or sms.
+Seria mucho mejor que preguntáras:
+
+> No se como empezar este ejercicio, ¿Qué me recomiendan?
+
+Tambien podrías preguntar:
+
+> He intentado resolver este ejercicio haciendo -esto o lo otro-, ¿Que estoy haciendo mal?
+
+## 4. Investiga por tu cuenta antes de preguntar
+
+Tómate unos 20 minutos para hacer tu propia investigacion en google, lee un poco y trata de definir una estrategia para resolver el problema. Ese es tu verdadero objetivo sobre el ejercicio: La estrategia. A este punto a nadie le importa realmente la solución, sino mas bien que seas capaz de idear una buena estrategia.
+
+## 5. Utiliza el canal de Slack
+
+Tienes a disposicion un foro de preguntas y respuestas al menos 12 horas al dia: 4GeeksAcademy.slack.com
+Es el mejor lugar para preguntar, fue diseñado internamente para ese fin.
+Consigue el hashtag/canal llamado #public-support que es donde serás atendido más rápidamente.
+
+![Slack en 4Geeks Academy](https://ucarecdn.com/5a432982-f8b2-42bb-89c5-3c82a8e53d10/)
