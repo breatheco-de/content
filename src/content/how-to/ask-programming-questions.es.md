@@ -9,24 +9,44 @@ authors: ["alesanchezr"]
 
 ---
 
-Cuando trabaje de forma remota, debe prestar mucha atención a la forma en que comunica sus ideas, preguntas, etc.
+# Nos encanta que preguntes, ¡Por favor pregunta mucho!
 
-Vamos a comparar estas 2 preguntas:
+Primero que nada, te suplicamos que nos hagas preguntas constantemente, es la mejor manera de poder ayudarte:
+- Al leer o escuchar tus preguntas nos damos cuenta de tu nivel de entendimiento.
+- Podemos diagnosticar tus debilidades.
+- Te ayudamos a formular mejor tu pregunta (que es escencial para abordar Google.com).
+- Evitamos que te frustres y permitimos que sigas avanzando.
+
+# Es dificil formular una pregunta
+
+Es comunmente conocido en el mundo de la programación que el verdadero reto no es encontrar la respuesta, sino formular la pregunta, esa es la verdadera habilidad. A medida que entiendas mejor iras haciendo preguntas mas detalladas y verás como Google se ira convirtiendo en la fuente principal de tus respuestas. 
+
+Sin embargo, por ahora estamos nosotros aqui para ayudarte a preguntar o incluso responderte la pregunta.
+
+Stack Overflow es una de las paginas más importantes en el mundo de la programación y ha publicado el siguiente manual de como hacer preguntas: [how to ask questions by stack overflow](https://stackoverflow.com/help/how-to-ask).
+
+## 1. Prepara tu pregunta con antelación
+
+Si preguntas simplemente lo primer que se te pasa por la mente es probable que no obtengas una respuesta rápidamente, la persona que lea tu pregunta va a tener muchas dudas al respecto, probablemente tengas que aclarar infinidad de cosas y termines tardando mucho mas tiempo.
+
+Comparemos estas dos preguntas:
 ```md
-1. ¿Cómo puedo agregar un elemento a una arreglo (array) ?
-2. Estoy tratando de agregar un elemento a un arreglo (array) en javascript, este es mi código pero no funciona (captura de pantalla), ¿qué estoy haciendo mal?
+1. Como puedo agregar un item a un array?
+2. Estoy intentando agregar un item a un array de la siguiente manera: blablabla... Este es mi ejemplo de codigo (sreenshot) pero no esta funcionando, ¿Ven algo malo?
 ```
 
-Si un mentor respondiera la primera pregunta, tendría que escribir el código desde cero (o buscarlo en Google) y pegarlo en el chat. Sin poder probarlo, si no está en una computadora de escritorio en ese momento.
+## 2. Take a picture or screenshot
 
-La segunda pregunta serían mucho más fáciles de responder, tomará un minuto revisar el código, buscar posibles errores y enviar comentarios.
+Everyone has a different device, if you pest a text code it will look all different on the phone and it may not have any color highlighting, if you pase a picture it will keep formating whoever is reading will be able to zoom in.
 
-## Pasos para hacer preguntas remotas y comentarios?
+## 3. Be specific
 
-1. Utilice el canal de slack en lugar de correo electrónico, o cualquier otra cosa.
-2. Tómate alrededor de 20 minutos para intentar resolver el problema por ti mismo.
-3. Si no puedes resolverlo, prepara las preguntas diciendo lo que has intentado.
-4. Tome una captura de pantalla de tu código (y la consola si es posible), copiar y pegar es una mala idea porque el código perderá el formato.
-5. Si es un código realmente complicado, tal vez sea mejor guardar tus preguntas usando [Loom (gratis)](https://www.loom.com/), Te llevará solo 2 minutos.
+Don't ask "how can I solve this exercise", its better to ask something specific like: "How can I start building this exercise" or "I tried this approach but it did not work, what am I doing wrong?"
 
-Créeme cuando te digo que, siguiendo estos pasos, obtendrás respuestas directas en cuestión de minutos, en lugar de tener que iterar una y otra vez.
+## 4. Do your research
+
+Take around 20 minutes to try and solve the problem yourself, read online and have a strategy. This is the real ultimate goal, to come up with strategies instead of finding the solution.
+
+## 5. Use the slack channel instead of email, or anything else
+
+Slack is the perfect tool for this, you can event start an instance video call with the responder, avoid using traditional less effective methods like phone or sms.
