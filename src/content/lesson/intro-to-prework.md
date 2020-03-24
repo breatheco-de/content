@@ -17,9 +17,9 @@ A web developer makes around $65k per year in the US. In Florida, numbers are a 
     <img class="my-class" src="https://ucarecdn.com/c98f9241-0c8f-46d9-91e6-a093276ac2a3/" width="300">
 </p>
 
-## About 4Geeks
+## About 4Geeks Academy
 
-4Geeks is a Miami based Coding School. We started in 2015 and now we have more than 650 graduates, 6 open campuses across USA, Latinamerica and now Europe. We are Licensed by the Floruda Department of Education and we were named as one of the best 10 coding Schools in the US by Newsweek. 
+4Geeks Academy is a Miami based Coding School. We started in 2015 and now we have more than 650 graduates, 6 open campuses across USA, Latinamerica and now Europe. We are Licensed by the Floruda Department of Education and we were named as one of the best 10 coding Schools in the US by Newsweek. 
 
 <p style="text-align:center">
     <img class="my-class" src="https://ucarecdn.com/75ca521c-2ea0-4a7d-ad05-6717200d8553/" width="300">
