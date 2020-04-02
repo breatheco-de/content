@@ -14,7 +14,7 @@ const renderAst = new rehypeReact({
 
 export default ({ data, pageContext }) => {
   const post = data.markdownRemark;
-  const { translations, urlSlug, type } = pageContext;
+  const { translations, urlSlug, type, url } = pageContext;
   const seo = {
     title: post.frontmatter.title,
     description: post.frontmatter.subtitle,
