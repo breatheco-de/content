@@ -24,9 +24,8 @@ const SEO = (props) => (
                 description: props.description || defaultDescription,
                 image: `${props.image || (siteUrl + defaultImage)}`,
                 url: `${siteUrl}/${props.url}`,
-                canonical: Object.keys(props.translations)
+                canonical: typeof(props.translations) === "object" ? Object.keys(props.translations) : []
             };
-            console.log("seo: ",seo);
             return (
                 <Helmet title={seo.title} titleTemplate={titleTemplate}>
                     <html lang={seo.lang} />
