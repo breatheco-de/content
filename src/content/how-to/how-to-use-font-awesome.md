@@ -2,11 +2,12 @@
 title: "How to use font awesome"
 subtitle: "Font Awesome is one of the most popular free icon libraries in the world of front end development"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+thumb: "https://imgur.com/QKASHj1"
 textColor: "white"
 date: "2018-12-20"
 tags: ["font-awesome"]
 status: "draft"
-
+authors: ["alesanchezr"]
 ---
 
 ## Installing Font Awesome
