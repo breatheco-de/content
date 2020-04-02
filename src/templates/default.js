@@ -18,8 +18,12 @@ export default ({ data, pageContext }) => {
   const seo = {
     title: post.frontmatter.title,
     description: post.frontmatter.subtitle,
-    url: post.frontmatter.original_url,
-    image: post.frontmatter.thumb
+    url: (post.frontmatter.canonical && post.frontmatter.canonical !== "") ? post.frontmatter.canonical : url,
+    authors: Array.isArray(post.frontmatter.authors) ? post.frontmatter.authors.join(',') : null,
+    tags: Array.isArray(post.frontmatter.tags) ? post.frontmatter.tags.join(',') : null,
+    image: post.frontmatter.thumb || post.frontmatter.cover,
+    lang: post.fields.lang,
+    translations
   };
   return (
     <Layout seo={seo}>
@@ -61,6 +65,9 @@ export const query = graphql`
         authors
         thumb
         textColor
+        tags
+        date
+        canonical
       }
       fields {
         slug
