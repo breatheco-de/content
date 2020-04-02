@@ -15,13 +15,17 @@ const renderAst = new rehypeReact({
 const Lesson = (props) => {
   const { data, pageContext, t, i18n } = props;
   const post = data.markdownRemark;
-  const { translations, urlSlug, type } = pageContext;
+  const { translations, urlSlug, type, url } = pageContext;
+
   const seo = {
     title: post.frontmatter.title,
     description: post.frontmatter.subtitle,
-    url: post.frontmatter.original_url,
-    image: post.frontmatter.thumb,
-    canonical: (post.fields.lang === 'en') ? "/es/" : "/en/"
+    url: (post.frontmatter.canonical && post.frontmatter.canonical !== "") ? post.frontmatter.canonical : url,
+    authors: Array.isArray(post.frontmatter.authors) ? post.frontmatter.authors.join(',') : null,
+    tags: Array.isArray(post.frontmatter.tags) ? post.frontmatter.tags.join(',') : null,
+    image: post.frontmatter.thumb || post.frontmatter.cover,
+    lang: post.fields.lang,
+    translations
   };
   return (
     <Layout seo={seo}>
@@ -64,7 +68,10 @@ export const query = graphql`
         status
         authors
         thumb
+        tags
+        date
         textColor
+        canonical
       }
       fields {
         slug

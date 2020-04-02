@@ -23,14 +23,10 @@ export const Layout = ({ children, seo }) => (
         }
      }
    `}
-   render={data => (
+   render={data => {
+    return (
       <div>
-        <SEO
-            title={(typeof seo.title !== 'undefined') ? seo.title : (typeof data === 'undefined') ? '':data.site.siteMetadata.title}
-            description={seo.description || null}
-            image={seo.image || null}
-            url={seo.url || null}
-        />
+        <SEO {...seo }/>
         <Navbar
           siteTitle={(typeof data === 'undefined') ? '':data.site.siteMetadata.title}
           hidden={true}
@@ -41,7 +37,7 @@ export const Layout = ({ children, seo }) => (
             </div>
         </div>
       </div>
-   )}
+   )}}
  />
 );
 

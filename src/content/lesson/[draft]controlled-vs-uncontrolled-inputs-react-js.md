@@ -6,7 +6,7 @@ textColor: "white"
 status: "unassigned"
 date: "2018-05-11"
 tags: ["react", "controlled inputs", "uncontrolled inputs"]
-
+canonical: ""
 ---
 
 
