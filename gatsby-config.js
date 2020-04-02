@@ -22,6 +22,18 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: `src/assets/breathecode.32.png`,
+        name: `BreatheCode Content and Lessons`,
+        short_name: `BreatheCode`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-sass`,
       options: {
         precision: 8,
