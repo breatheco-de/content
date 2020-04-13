@@ -8,7 +8,6 @@ tags: ["CSS"]
 ---
 
 ## Why Do We Need to Learn about Selectors?
-***
 
 Completing a stylesheet is like having a little war between selectors, – you are constantly overriding previously defined styles with new ones:
 
@@ -34,7 +33,6 @@ This "very specific" selectors will help you a lot.  They will be your best weap
 | :tv: &nbsp;[Here is a super cool video (3:40 min) explaining specificity.](https://www.youtube.com/watch?v=In78mSOHmls)
 
 ## The Child Selector
-***
 
 ```css
 #someDiv > p {
@@ -49,11 +47,7 @@ This statement takes the paragraph tags that are children of the div and turns t
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 
-
-
-
 ## The Adjacent Sibling Selector
-***
 
 ```css
 p + p {
@@ -101,7 +95,7 @@ You can take this as far as you want – the following targets the "great-grandc
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/">Click to open demo in a new window</a></small></div>
 
 
-# Attribute Value Selector
+## Attribute Value Selector
 ***
 
 ```css

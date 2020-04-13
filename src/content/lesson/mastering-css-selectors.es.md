@@ -8,7 +8,6 @@ tags: ["CSS"]
 ---
 
 ## ¿Por qué necesitamos aprender acerca de los selectores?
-***
 
 Completar una hoja de estilo es como tener una pequeña guerra entre los selectores, estás constantemente anulando los estilos previamente definidos con nuevos:
 
@@ -33,8 +32,7 @@ Estos selectores muy específicos te ayudarán mucho.  ¡Serán tu mejor herrami
 [[info]]
 | :tv: &nbsp;[Aquí un vídeo súper (3:40 min) explicando especificidad.](https://www.youtube.com/watch?v=In78mSOHmls)
 
-## El Selector de Niños
-***
+## El Selector de Hijos
 
 ```css
 #someDiv > p {
@@ -53,7 +51,6 @@ Esta declaración toma las etiquetas de párrafo que son hijos del div y las con
 
 
 ## El Selector de Hermanos Adyacente
-***
 
 ```css
 p + p {
@@ -100,9 +97,7 @@ Puedes llevar esto tan lejos como quieras - los siguientes objetivos son los "bi
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/">Click para abrir el demo en una nueva ventana</a></small></div>
 
-
-# Selector de Valor de Atributo
-***
+## Selector de Valor de Atributo
 
 ```css
 a[href='http://4geeksacademy.com/'] {color: blue;}
@@ -115,7 +110,7 @@ Si queremos cambiar el color de fuente del enlace "Design Shack", podríamos usa
 
 
 ## Selector de Valor de Atributo de Subcadena Arbitraria
-***
+
 
 ```css
 div[id*='section'] {color: red;}
@@ -126,8 +121,7 @@ El siguiente código apunta a cualquier div con la palabra "section" en el títu
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/">Click aquí para abrir el demo en una nueva ventana</a></small></div>
 
-# Selectores de Pseudo Clase
-***
+## Selectores de Pseudo Clase
 
 
 ### Pseudo Selectores Relacionados con Enlaces 
@@ -147,7 +141,6 @@ Puedes cambiar los colores de cualquier elemento del sitio web, dependiendo de s
   <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/">Click aquí para abrir el demo en una nueva ventana</a></small></div>
-
 
   
 ### Pseudo Selectores Relacionados con la Entrada 
