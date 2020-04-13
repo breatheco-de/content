@@ -13,7 +13,6 @@ const getContent = (nodes) => {
     return !Array.isArray(nodes) ? '' : nodes.map(n => n.type !== "text" ? getContent(n.children) : n.value).join('')
 }
 export const Cover = ({title, subtitle, time, background, textColor, status, authors, headings, history}) => {
-    console.log("headings: ", history);
     const source = !Array.isArray(headings) ? null : headings.map(h => {
         return { 
             to: "#"+h.properties.id,
@@ -21,7 +20,6 @@ export const Cover = ({title, subtitle, time, background, textColor, status, aut
             content: getContent(h.children),
         }
     });
-    //console.log("Source", source);
     return (<div
         style={{
             backgroundImage: `url(${background})`,
@@ -29,14 +27,14 @@ export const Cover = ({title, subtitle, time, background, textColor, status, aut
         }}
         className={styles.cover}>
         <div className="container">
-            { (status !== "published" && typeof status === "string") ?
+            { (status !== "published" && status !== "unlisted" && typeof status === "string") ?
                 <div className={"alert alert-danger "+styles.alert}>This is a draft lesson and it may still be under review</div>
                 : ''
             }
-            <div className="row">
+            <div className="row mb-3">
                 <div className="col-12 col-md-6">
                     <small>{time}</small>
-                    <h1>{title}</h1>
+                    <h1 className="mb-1">{title}</h1>
                     { Array.isArray(authors) &&
 
                         <span>
@@ -52,9 +50,8 @@ export const Cover = ({title, subtitle, time, background, textColor, status, aut
                     {subtitle}
                 </div>
             </div>
-        { source && false &&
+        { source  &&
                 <div>
-                    {console.log("Source", source)}
                     <TableOfContents 
                         className=""
                         type="ordered"

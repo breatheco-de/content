@@ -39,7 +39,7 @@ const Lesson = (props) => {
           authors={post.frontmatter.authors}
           time={post.fields.readingTime.text}
           status={post.frontmatter.status}
-          headings={post.htmlAst.children.filter(c => ['h1','h2','h3'].includes(c.tagName))}
+          headings={post.htmlAst.children.filter(c => ['h1','h2','h3','h4','h5'].includes(c.tagName))}
         />
         <EditOnGithub url={data.site.siteMetadata.contentGithubURL + "/" + type + "/" + urlSlug + '.md' } />
         <div className="post lesson">
