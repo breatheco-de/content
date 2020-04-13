@@ -107,6 +107,8 @@ Python has many ways to delete an element from a list
 
 ### Using POP
 
+It will remove the last element only! (juan)
+
 ```python
     myList = ['Pedro','Chris','Juan','Maria']
     myList.pop()
@@ -115,8 +117,9 @@ Python has many ways to delete an element from a list
 
 ### Using Remove
 
+It will leet you choose what element to remove, but remember the element index starts at 0
 ```python
-    #Si deseas eliminar 'Chris', you need to do the following: 
+    # If you want to delete 'Chris', you need to do the following: 
     myList = ['Pedro','Chris','Juan','Maria']
     myNewArray.remove(2)
     print(myList) # Output ['Pedro','Chris','Juan'];
@@ -124,6 +127,7 @@ Python has many ways to delete an element from a list
 
 ### Using Delete
 
+It will allow you to delete many items at once, you have to specify starting possition and ending possition.
 ```python
     # If you want to delete 'Chris', you need to do the following: 
     myList = ['Pedro','Chris','Juan','Maria','Pepe','Mario','Bob']
