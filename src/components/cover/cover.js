@@ -52,7 +52,7 @@ export const Cover = ({title, subtitle, time, background, textColor, status, aut
                     {subtitle}
                 </div>
             </div>
-        { source &&
+        { source && false &&
                 <div>
                     {console.log("Source", source)}
                     <TableOfContents 
