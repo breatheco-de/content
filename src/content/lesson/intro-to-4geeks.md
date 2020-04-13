@@ -1,6 +1,6 @@
 ---
-title: "Welcome to 4Geeks Academy"
-subtitle: "I hope you read this entire article, this course costs a lot of money and this reading summarizes in 3 minutes the recipe to take full advantage of it in the most effective way."
+title: "Introduction to 4Geeks Academy"
+subtitle: "I hope you read this entire article, this reading summarizes in 8 min the recipe to take full advantage of the academy. The most effective way!"
 cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
 textColor: "white"
 status: "unlisted"
