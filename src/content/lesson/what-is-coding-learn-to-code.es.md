@@ -30,7 +30,7 @@ Las computadoras no necesitan interfaces visuales, los humanos sí. Pero ahora t
 [[warning]]
 | :point_up:¿Qué sucedió aquí? <br> Cuando presionó "ejecutar", el algoritmo comenzó a ejecutarse, y la única acción que realizó fue imprimir la oración: "Hola, humano ... ¿cuáles son sus órdenes para hoy?"
 
-## **El Tiempo de Ejecución** 
+## El Tiempo de Ejecución 
 ***
 
 El tiempo de ejecución es el lugar más abstracto que encontrará en toda su vida. Es similar a la mente de un artista justo antes de que llegue a la epifanía ... bueno, lo siento, nos hemos sobrepasado un poco aquí ... pongámoslo en palabras sencillas:
@@ -45,7 +45,7 @@ Esto es lo que parece un "error de tiempo de ejecución" (un error que se produc
 
 
 
-## **El Languaje**
+## El Languaje
 ***
 
 Las computadoras hablan solo un idioma: ** Assembly **. Pero usar el lenguaje ensamblador es difícil porque es la base de todo. Tienes que ocuparte de cosas básicas como limpiar la memoria de la computadora, convertir los caracteres de cadena en su representación binaria, etc. Es por eso que los desarrolladores crearon capas de abstracción: para evitar realizar las actividades básicas todos los días. Al final, todo el código que escriba se convertirá en "Assembly" (pero no tienes que preocuparte por eso).

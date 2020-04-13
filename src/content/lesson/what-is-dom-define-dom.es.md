@@ -7,7 +7,7 @@ date: "2018-05-15"
 tags: ["DOM"]
 ---
 
-## **¡Basta ya con la consola!**
+## ¡Basta ya con la consola!
 ***
 
 A nadie le gustan las aplicaciones basadas en la consola ... ¿te imaginas usar Uber desde la línea de comandos?
@@ -65,19 +65,19 @@ Desde el momento en que un sitio web comienza a cargarse, el navegador crea una 
 
 Al igual que hicimos con CSS, podemos seleccionar cualquier elemento en el documento. Hay 4 métodos que nos permiten buscar lo que queramos:
 
-### **document.querySelector("css-element-selector")**
+### document.querySelector("css-element-selector")
 
 Devuelve una instancia de **el primer elemento** encontrado que se ajusta al selector de CSS que especificó
 
-### **document.getElementById("elementId")**
+### document.getElementById("elementId")
 
 Devuelve una instancia del elemento con el id = "elementId" en el documento HTML.
 
-### **document.getElementsByClassName("exampleClass")**
+### document.getElementsByClassName("exampleClass")
 
 Devuelve una matriz de todos los elementos con la clase = "exampleClass" en su propiedad de etiqueta HTML.
 
-### **document.getElementsByTagName("p")**
+### document.getElementsByTagName("p")
 
 Devuelve una matriz con todas las instancias que representan cada elemento de párrafo en el documento HTML.
 

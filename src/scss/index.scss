@@ -27,3 +27,15 @@
     padding-top: 30px;
 }
 
+.bc_tableofcontents{
+    background: rgba(0, 0, 0, 0.135);
+    padding: 10px 10px 10px 20px;
+    margin: 0;
+    display: inline-block;
+    border-radius: 10px;
+    a{ color: #BDBDBD; }
+    li.level2{
+        list-style: decimal;
+    }
+    li.level3{ list-style: none;}
+}

@@ -9,7 +9,7 @@ date: "2018-01-11"
 tags: ["HTML","inputs","forms"]
 ---
 
-## **HTML Forms**
+## HTML Forms
 ***
 
 This lesson is very easy to understand – but it is essential in that in this new knowledge, all of the interactivity of the internet will be relayed.  There are a few additional HTML tags that we need to discuss before finishing the Pre-Work: they are the first possible ways of interaction that were introduced in HTML: The Inputs and Forms.
@@ -39,7 +39,7 @@ The following is a list of all the possible elements we can use to receive any i
 |Submit Button   |`python><input type="submit">`   |When the form is ready to be sent, the user presses this "submit" button and everything is then sent to the server for processing.<br>`python><input type="submit" value="Send Form" />`   |
 |Select   |`python><select>`   |Asks the user to pick one or more elements from a list of options.<br>`python><select name="color" /> <option value="red">Red </option> <option value="yellow">Yellow</option> <select />`   |
 
-## **Input Attributes**
+## Input Attributes
 ***
 
 Just like any other HTML tag, the input tags have several attributes that can be set to describe their behavior in more specific ways:

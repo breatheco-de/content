@@ -10,7 +10,7 @@ date: "2018-01-11"
 tags: ["box-model","CSS","HTML","layouts"]
 ---
 
-## **The Box Model**
+## The Box Model
 ***
 
 CSS Layouts and the positioning of elements are probably one of the most challenging concepts in CSS; both were meant for older, less advanced and less rich websites.
@@ -49,12 +49,12 @@ In the following example, we divided the website content into 2 different areas.
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
-# **Width and Height**
+# Width and Height
 ***
 
 Every box has width and height.  You can set these properties to be relative to their parent content (another box or even the body), but, in some cases, we have to set their value manually.
 
-## **Attribute Position**
+## The Position Attribute
 ***
 
 The browser is responsible for assigning positions to all elements of a page.   However, as we know, the positions brought by the elements are quite limited and make the documents look both ugly and antiquated.
@@ -74,7 +74,7 @@ In order for a website to look like today’s websites, we have to redesign the 
 
 Wait!!  If you don’t get what we just explained, well…… there's nothing to worry (at this current stage).  This is one of those things we need you to practice a lot.  There is no other way. 🙁
 
-## **Display Attribute**
+## The Display Attribute
 ***
 
 The values of the `display` property are much more advanced than just showing or hiding elements.  Actually, the `display` property changes the way in which a document can be visualized.
@@ -95,7 +95,7 @@ It is common to find this attribute in menus, social network activity feeds, etc
 
 Ok, now… to understand what we just explained, there is no other choice but… Practice!
 
-## **Float Attribute**
+## The Float Attribute
 ***
 
 Float is a simple but very useful attribute.  Float works by telling a box to move as far as possible to one side: left or right.  Once you assign the float property to an element, it will look for the best space to be accommodated – trying to coexist with the elements that surround it.
@@ -112,7 +112,7 @@ Float is very much used in blogs when you want to add images to your articles.  
 |right   |Moves the element as far to the right as possible.   |
 
 
-## **Think about UI/UX for a second**
+## Think about UI/UX for a second
 ***
 
 It’s yoga time, let’s stop the coding and think about mankind for a minute.  How do humans act?  How do they behave?  What do they like?  Where do they click?
@@ -128,7 +128,7 @@ Some websites have great content, but, unfortunately, they also have poor layout
 + **Orientation:** If you are using a tablet or mobile phone, you can rotate your screen which will require the website width to adjust and become bigger (for landscape) or smaller (for portrait).
 + **Common Sense:** This is a tricky one, but you will never know what works best until you try.  Perhaps moving a website menu from the top to the left will increase user engagement.  You must always be in constant search for "the truth" about your user behavior.
   
-# **Layout Examples:**
+# Layout Examples:
 ***
 
 The following examples gather a large percentage of the most used layouts on the web.  Understand them well because you will probably use them throughout the rest of your life as a developer.  Sometimes you will use a mixed approach to accomplish several things at the same time.
@@ -195,7 +195,7 @@ To replicate the alert behavior you have to:
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/8co2hnj1/1/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
-# **Live Demo: Play with the Box**
+# Live Demo: Play with the Box
 ***
 
 Use the sliders on the left toolbar to change the margin, padding, border radios or any other CSS Rule available in the demo:

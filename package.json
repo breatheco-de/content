@@ -7,7 +7,7 @@
   "version": "0.0.1",
   "author": "Alejandro Sanchez <aalejo@gmail.com>",
   "dependencies": {
-    "@breathecode/ui-components": "^1.1.66",
+    "@breathecode/ui-components": "^1.1.75",
     "bootstrap": "^4.4.1",
     "css-element-queries": "^1.2.3",
     "front-matter": "^3.1.0",
@@ -49,7 +49,8 @@
     "typography": "^0.16.19",
     "typography-theme-alton": "^0.15.10",
     "typography-theme-bootstrap": "^0.16.19",
-    "typography-theme-lawton": "^0.15.10"
+    "typography-theme-lawton": "^0.15.10",
+    "webshot": "^0.18.0"
   },
   "keywords": [
     "gatsby"

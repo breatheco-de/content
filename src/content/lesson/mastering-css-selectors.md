@@ -7,7 +7,7 @@ date: "2018-01-11"
 tags: ["CSS"]
 ---
 
-## **Why Do We Need to Learn about Selectors?**
+## Why Do We Need to Learn about Selectors?
 ***
 
 Completing a stylesheet is like having a little war between selectors, – you are constantly overriding previously defined styles with new ones:
@@ -33,7 +33,7 @@ This "very specific" selectors will help you a lot.  They will be your best weap
 [[info]]
 | :tv: &nbsp;[Here is a super cool video (3:40 min) explaining specificity.](https://www.youtube.com/watch?v=In78mSOHmls)
 
-## **The Child Selector**
+## The Child Selector
 ***
 
 ```css
@@ -52,7 +52,7 @@ This statement takes the paragraph tags that are children of the div and turns t
 
 
 
-## **The Adjacent Sibling Selector**
+## The Adjacent Sibling Selector
 ***
 
 ```css
@@ -71,7 +71,7 @@ The first paragraph in the list is preceded by the div, so it remains unchanged.
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/">Click to open demo in a new window</a></small></div>
 
-## **The Almighty Asterisk**
+## The Almighty Asterisk
 ***
 
 ```css
@@ -101,7 +101,7 @@ You can take this as far as you want – the following targets the "great grandc
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/">Click to open demo in a new window</a></small></div>
 
 
-# **Attribute Value Selector**
+# Attribute Value Selector
 ***
 
 ```css
@@ -114,7 +114,7 @@ If we want to change the font color of the "Design Shack" link, we could use :ps
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/">Click to open demo in a new window</a></small></div>
 
 
-## **Arbitrary Substring Attribute Value Selector**
+## Arbitrary Substring Attribute Value Selector
 ***
 
 ```css
@@ -126,7 +126,7 @@ The following code targets any div with the word "section" in the title.  It can
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
-# **Pseudo Class Selectors**
+# Pseudo Class Selectors
 ***
 
 

@@ -10,7 +10,7 @@ syntax: "python"
 tags: ["array", "list","python","loops"]
 ---
 
-## **¿Por qué están los arreglos en una lección separada?**
+## ¿Por qué están los arreglos en una lección separada?
 ***
 
 ¡Porque los arreglos son demasiado importantes! Necesitas dominarlos al 100% y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂
@@ -84,7 +84,7 @@ Hay dos formas de agregar un nuevo elemento: final de la lista o donde tu quiera
 
 ```python
     myList = ['Pedro','Juan','Maria']
-    myList.append('Chris') # esto agrega a chris al principio del arreglo
+    myList.append('Chris') # esto agrega a chris al final del arreglo
     print(myList); # esto imprimirá ['Pedro','Juan','Maria','Chris'];
 ```
 
@@ -196,18 +196,3 @@ Ahora que conocemos la función de comparación, podemos usarla para indicar a l
     carros_ordenados = sorted(carros, key=lambda item: item['year']) 
     print(carros_ordenados) # [ { 'type': 'Saab', 'year': 2001 },{ 'type': 'BMW', 'year': 2010 },{ 'type': 'Volvo', 'year': 2016 } ]
 ```
-
-
-
-
-
-
-
-
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjAwMTk3MSwtNDQyNDQ4NTM3LDE2Nj
-IwMDE5NzFdfQ==
--->

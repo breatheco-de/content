@@ -18,7 +18,7 @@ Dominar el uso de los arreglos y bucles es una de las 5 habilidades fundamentale
 5. Funciones.
 
 
-## **¿Por qué están los arreglos en una lección separada?**
+## ¿Por qué están los arreglos en una lección separada?
 ***
 
 ¡Porque los arreglos son impresionantes! ¡Los necesitas! Y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂
@@ -44,7 +44,7 @@ Cada arreglo tiene los mismos conceptos básicos:
 [[info]]
 | :point_up: Las posiciones del arreglo comienzan con **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
 
-## **¿Como Declarar un Arreglo?**
+## ¿Como Declarar un Arreglo?
 ***
 
 + **Arreglos unidimencionales (Vectores,Arrays,arreglos)**
@@ -77,7 +77,7 @@ tipo_dato [] nombre_variable; // declara
 nombre_variable = new tipo_de_dato[dimensión]; // se inicializa
 ```
 
-## **Acceder a los Elementos en el Arreglo**
+## Acceder a los Elementos en el Arreglo
 ***
 
 Para acceder a un elemento específico en una lista, necesita un índice. Un índice es un valor entero que representa la posición del arreglo a la que desea acceder.
@@ -99,7 +99,7 @@ Se está obteniendo el elemento de la posición 3 y se almacena en la variable d
 | :point_up: Cuando la dimensión de un arreglo es demasiado grande, se puede llenar o imprimir el contenido de un vector utilizando un ciclo for.
 
 
-## **Actualizar Elementos en el Arreglo**
+## Actualizar Elementos en el Arreglo
 ***
 
 
@@ -128,7 +128,7 @@ tipo_dato [] nombre_variable = {valor1,valor2,valor3,valor3,N…};
 int[] miArrreglo= {1,5,7,9,4,5,100};
 ```
 
-## **Tamaño del arreglo: .length**
+## Tamaño del arreglo: .length
 
 Esta variable nos devuelve el número de elementos que posee el array. Hay que tener en cuenta que es una variable de solo lectura, es por ello que no podremos realizar una asignación a dicha variable. Por ejemplo esto nos serviría a la hora de mostrar el contenido de los elementos de un array:
 ```java
@@ -137,7 +137,7 @@ array = new char[10];
   System.out.printnln(array.length); // 10
 ```
 
-## **Eliminando Elementos (Libreria Apache Commons Lang)**
+## Eliminando Elementos (Libreria Apache Commons Lang)
 ***
 
 Para eliminar fácilmente un elemento, puede usar la biblioteca Lang de Apache Commons y especialmente el método estático removeElement() de la clase ArrayUtils . A continuación un ejemplo:
@@ -152,7 +152,7 @@ System.out.println(Arrays.toString(array)); //[1, 3, 4]
 Para eliminar fácilmente un elemento, puede usar la biblioteca Lang de Apache Commons y especialmente el método estático removeElement() de la clase ArrayUtils . A continuación un ejemplo:
 
 
-## **Copia de Elementos de un arreglo**
+## Copia de Elementos de un arreglo
 
 La siguiente asignacion solo copia las referencias no crea un nuevo array
 
@@ -173,7 +173,7 @@ int [] datos = new int[pares.length];
 System.arraycopy(pares, 0, datos, 0, pares.length);
 ```
 
-## **Ordenar elementos de un arreglo**
+## Ordenar elementos de un arreglo
 
 Lo primero será definir un array en Java. En este caso vamos a crear un array de enteros
 ```java
@@ -188,7 +188,7 @@ Arrays.sort(numeros);
 ```
 
 
-## **Bucle en Arreglo**
+## Bucle en Arreglo
 ***
 
 A veces, cuando trabajes con arreglos, tendrás que hacer un bucle. Por ejemplo: ordenándolos manualmente; voltearlos, eliminar un elemento de una posición particular, etc.
@@ -216,7 +216,7 @@ esta gran adaptación es el ideal para recorrer colecciones de objetos sean del 
     }
 //Esto imprime el valor del artículo en el índice de posición.
 ```
-## **ArrayList en Java**
+## ArrayList en Java
 
 La clase ArrayList en Java, es una clase que permite almacenar datos en memoria de forma similar a los Arrays, con la ventaja de que el numero de elementos que almacena, lo hace de forma dinámica, es decir, que no es necesario declarar su tamaño como pasa con los Arrays.
 
@@ -280,7 +280,7 @@ Otra cosa muy importante a la hora de trabajar con los ArrayList son los "Iterad
         System.out.println(d);
     }
 ```
-## **Map en Java**
+## Map en Java
 ***
 
 La Interface Map (java.io.Map) en Java, nos permite representar una estructura de datos para almacenar pares "clave/valor"; de tal manera que para una clave solamente tenemos un valor. Esta estructura de datos también es conocida en otros lenguajes de programación como "Diccionarios".

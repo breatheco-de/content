@@ -4,7 +4,6 @@ const path = require("path");
 var md = require('markdown-it');
 var fa = require('markdown-it-fontawesome');
 const fs = require('fs');
-
 md().use(fa);
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
@@ -66,6 +65,7 @@ const getMetaFromPath = ({ fileAbsolutePath, frontmatter }) => {
 };
 
 exports.createPages = ({ actions, graphql }) => {
+
   const { createPage } = actions;
   const tagTemplate = path.resolve("src/templates/tags.js");
 

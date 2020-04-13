@@ -14,7 +14,7 @@ textColor: "white"
 date: "2018-10-31"
 tags: ["CSS"]
 --- 
-## **Bienvenido a CSS!!**
+## Bienvenido a CSS!!
 ***
 Luego de sumergirnos en el mundo de HTML todo empieza a parecer feo, rígido y cuadrado. Después de todo hay que recordar que HTML fue hecho por científicos, no estamos diciendo que es feo por eso, seguramente hay científicos que hacen cosas hermosas (además, fueron los mismos científicos
 que [decubrieron el Bosón de Higgs](https://www.youtube.com/watch?v=0CugLD9HF94) y por eso hay que alabarlos hasta nuestra muerte), pero… definitivamente… es así de feo porque fue hecho por científicos con un propósito muy diferente al que HTML cumple hoy en día.
@@ -46,7 +46,7 @@ Puedes imaginar el potencial?  Puedes hacer que casi todo se vea diferente!
 
 
 
-## **¿Cómo aplico estilos a un HTML?**
+## ¿Cómo aplico estilos a un HTML?
 ***
 
 Sencillo, Debes escribir tus estilos con una sintaxis especial denominada "CSS" y y guardar el documento con la extensión CSS. Luego, para aplicar los estilos usamos las tags del HTML que estaban relacionadas con CSS: `<style>` y `<link>` .
@@ -61,7 +61,7 @@ Vamos a repasar estas tags con más detalle:
 [[info]]
 | :point_up: Asi como los documentos HTML terminan con la extensión .html, los documentos CSS (las hojas de estilo) terminan con la `extensión .css`.
 
-## **Sintaxis de CSS**
+## Sintaxis de CSS
 ***
 
 La sintaxis de CSS no tiene absolutamente nada que ver con la sintaxis de HTML, es otro lenguaje de programación. CSS ¡no utiliza etiquetas! Para trabajar un website tienes que pasar un switch en tu mente a menudo, porque trabajarás con varios lenguajes a la vez y cada uno tiene su propia sintaxis.
@@ -94,7 +94,7 @@ selector3
    font-size: 15px;
 }
 ```
-## **Pero, ¿Qué es un “Selector”?**
+## Pero, ¿Qué es un “Selector”?
 ***
 
 Un selector es una manera de referirte o identificar uno o varios elementos de HTML. Por ejemplo, si quieres cambiar el color de todos los links de una página web a rojo debes hacerlo de la siguiente manera:
@@ -155,7 +155,7 @@ Con estas 4 maneras de seleccionar vas a cubrir el 99% de tus necesidades, lo im
 
 De igual forma, no está demás conocer otros selectores más específicos y avanzados para casos puntuales que seguro encontrarás cuando estés realizando websites realmente avanzados.
 
-## **Conflictos y herencia**
+## Conflictos y herencia
 ***
 
 ¿Qué pasa si un elemento de la página es seleccionado en dos selectores y tiene asignado el color de letra verde en una definición y rojo en la otra? Es decir, si le decimos al navegador dos colores diferentes, ¿qué color utilizará al final?
@@ -166,21 +166,21 @@ Tienes que entender muy bien la jerarquía de CSS para comprender como los eleme
 
 El navegador le da prioridad a los selectores más específicos, como `#id`, que a los selectores generales, como los tags (etiquetas). En el siguiente ejemplo, cambiamos el color de todos los  `<li>`  (los elementos de la lista) a azul, y luego cambiamos el texto del segundo elemento a color rojo. De esta manera demostramos que el selector ID siempre prevalece por encima de los otros elementos, esto se debe al tag a la que pertenecen.
 
-## **Atributos**
+## Atributos
 ***
 
 Ya vimos que una hoja de estilos CSS no es más que una lista que define los atributos que queremos asignar a los diferentes elementos de la página. Ahora veremos cuáles podemos asignar a estos elementos.
 
 Hay cientos - sino miles - de atributos, pero dependiendo del tipo de elemento/etiqueta que queremos definir, sabremos en cuáles debemos enfocarnos.
 
-#### **Editando Tipografía**
+#### Editando Tipografía
 |Propiedad   |Descripción   |Valores   |
 |:----------|:-------------|:----------|
 |[font-family](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-family)   |tipo de letra (fuente) | [ name-font \| generic-family ]*   |
 |[font-size](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-size)   |tamaño de letra   | tamaño-absoluto \| tamaño-relativo \| distancia \| porcentaje   |
 |[font-style](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-style)   |inclinación (italics)   |normal \| italic \| oblique   |
 
-#### **Editando Texto**
+#### Editando Texto
 
 |Propiedad   |Descripción   |Valores   |
 |:----------|:-------------|:-----------|
@@ -191,7 +191,7 @@ Hay cientos - sino miles - de atributos, pero dependiendo del tipo de elemento/e
 |[text-decoration](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-decoration)   |decoración del texto  |none \| blink \| line-through \| overline \| underline   |
 |[text-transform](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-transform)   |mayúsculas / minúsculas   |none \| capitalize \| lowercase \| uppercase   |
 
-#### **Editando Listas** 
+#### Editando Listas 
 
 |Atributo   |Descripción   |Valores   |
 |:-----------|:-------------|:--------|
@@ -200,7 +200,7 @@ Hay cientos - sino miles - de atributos, pero dependiendo del tipo de elemento/e
 |[list-style-position](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-position)   |posición del marcador |inside \| outside  |
 |[list-style-type](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-type)  |tipo de marcador |none \| circle \| disc \| square \| decimal \| decimal-leading-zero \| lower-alpha \| upper-alpha \| lower-greek \| lower-latin \| upper-latin \| lower-roman \| upper-roman \| armenian \| georgian \| hebrew(-) \| cjk-ideographic(-) \| hiragana (-) \| katakana (-) \| hiragana-iroha(-) \| katakana-iroha(-)  |
 
-#### **Editando Tablas**
+#### Editando Tablas
 
 |Atributo  |Descripción   |Valores   |
 |:----------|:-------------|:-----------|
@@ -210,7 +210,7 @@ Hay cientos - sino miles - de atributos, pero dependiendo del tipo de elemento/e
 |[empty-cells](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#empty-cells)   |borde de casillas vacías   |	hide \| show   |
 |[table-layout](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#table-layout)   |algoritmo ancho de tabla   |auto \| fixed   |
 
-#### **Editando Background (fondos)** 
+#### Editando Background (fondos) 
 
 |Propiedad   |Descripción   |Valores   |
 |:----------|:-------------|:----------|

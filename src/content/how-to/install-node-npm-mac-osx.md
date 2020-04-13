@@ -8,8 +8,6 @@ cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 ---
 
-# How to install node and npm on a Mac (mojave)
-
 There are several ways to install node on any mac, but my recomendation will be to unstal it using brew and nvm.  
 I think that is the best approach for several reasons:
 

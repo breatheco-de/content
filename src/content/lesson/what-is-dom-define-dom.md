@@ -7,7 +7,7 @@ date: "2018-05-15"
 tags: ["DOM"]
 ---
 
-## **Beyond the Console!**
+## Beyond the Console!
 ***
 
 Nobody likes applications that are based on the console…can you imagine using Uber from the command line???
@@ -65,19 +65,19 @@ From the moment a website starts being loaded, the browser creates a hierarchy t
 
 Just like we did with CSS, we can select any element in the document.  There are 4 methods that allow us to search for whatever we want:
 
-### **document.querySelector("css-element-selector")**
+### document.querySelector("css-element-selector")
 
 Returns an instance of **the first element** found that fits the CSS selector that you specified
 
-### **document.getElementById("elementId")**
+### document.getElementById("elementId")
 
 Returns an instance of the element with the id="elementId" in the HTML document.
 
-### **document.getElementsByClassName("exampleClass")**
+### document.getElementsByClassName("exampleClass")
 
 Returns an array of all elements with the class="exampleClass" in their HTML tag property.
 
-### **document.getElementsByTagName("p")**
+### document.getElementsByTagName("p")
 
 Returns an array with all the instances representing each paragraph element in the HTML document.
 

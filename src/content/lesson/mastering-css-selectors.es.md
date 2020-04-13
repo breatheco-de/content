@@ -7,7 +7,7 @@ date: "2018-01-11"
 tags: ["CSS"]
 ---
 
-## **¿Por qué necesitamos aprender acerca de los selectores?**
+## ¿Por qué necesitamos aprender acerca de los selectores?
 ***
 
 Completar una hoja de estilo es como tener una pequeña guerra entre los selectores, estás constantemente anulando los estilos previamente definidos con nuevos:
@@ -33,7 +33,7 @@ Estos selectores muy específicos te ayudarán mucho.  ¡Serán tu mejor herrami
 [[info]]
 | :tv: &nbsp;[Aquí un vídeo súper (3:40 min) explicando especificidad.](https://www.youtube.com/watch?v=In78mSOHmls)
 
-## **El Selector de Niños**
+## El Selector de Niños
 ***
 
 ```css
@@ -52,7 +52,7 @@ Esta declaración toma las etiquetas de párrafo que son hijos del div y las con
 
 
 
-## **El Selector de Hermanos Adyacente**
+## El Selector de Hermanos Adyacente
 ***
 
 ```css
@@ -71,7 +71,7 @@ El primer párrafo de la lista está precedido por el div, por lo que no se modi
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/">Click para abrir el demo en una nueva ventana</a></small></div>
 
-## **El Todopoderoso Asterisco**
+## El Todopoderoso Asterisco
 ***
 
 ```css
@@ -101,7 +101,7 @@ Puedes llevar esto tan lejos como quieras - los siguientes objetivos son los "bi
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/">Click para abrir el demo en una nueva ventana</a></small></div>
 
 
-# **Selector de Valor de Atributo**
+# Selector de Valor de Atributo
 ***
 
 ```css
@@ -114,7 +114,7 @@ Si queremos cambiar el color de fuente del enlace "Design Shack", podríamos usa
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/">Click para abrir el demo en una nueva ventana</a></small></div>
 
 
-## **Selector de Valor de Atributo de Subcadena Arbitraria**
+## Selector de Valor de Atributo de Subcadena Arbitraria
 ***
 
 ```css
@@ -126,7 +126,7 @@ El siguiente código apunta a cualquier div con la palabra "section" en el títu
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/">Click aquí para abrir el demo en una nueva ventana</a></small></div>
 
-# **Selectores de Pseudo Clase**
+# Selectores de Pseudo Clase
 ***
 
 

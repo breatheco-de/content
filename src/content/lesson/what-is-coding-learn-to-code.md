@@ -30,7 +30,7 @@ Computers don’t need visual interfaces, humans do.  But now you are becoming a
 [[warning]]
 | :point_up:What happened here?<br>When you pressed "run" the algorithm started executing, and the only action it performed was to print the sentence: "Hello, human… what are your orders for today?" 
 
-## **The Runtime** 
+## The Runtime 
 ***
 
 The runtime is the most abstract place you will find in your entire life.  It is similar to the mind of an artist just before he gets to the epiphany…okay, sorry, we got a little overexcited here…let’s put it in plain words:
@@ -45,7 +45,7 @@ This is what a "runtime error" (an error that occurs during runtime) looks like:
 
 
 
-## **The Language**
+## The Language
 ***
 
 Computers speak only one language: **Assembly**.  But using the assembly language is hard because it is the very base of everything.  You have to take care of basic things like cleaning the computer memory, converting string characters into their binary representation, etc.  That is why developers created layers of abstraction: to avoid doing the basic activities every day.  In the end, all the code you type is going to be converted into "Assembly" (but you don’t have to care about that).

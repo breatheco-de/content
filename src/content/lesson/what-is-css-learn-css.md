@@ -14,7 +14,7 @@ textColor: "white"
 date: "2018-10-31"
 tags: ["CSS"]
 ---
-## **Welcome to CSS!!**
+## Welcome to CSS!!
 ***
 We are sure that after diving deep into HTML, everything looks kind of ugly, fixed, and rigid. We have to remember that HTML was created by CERN scientists, and they’re not – usually – the funniest kind of people (although they are the same exact scientists that 
 [discovered The Higgs Boson](https://www.youtube.com/watch?v=0CugLD9HF94), and we do have to bend to our knees for that).  However, HTML is still ugly, and it’s ugly because it was created for a different purpose than the one HTML meets today.
@@ -47,7 +47,7 @@ Can you imagine the potential?  You can make almost everything look different!
 
 
 
-## **How do I apply styles to HTML?**
+## How do I apply styles to HTML?
 ***
 
 Quite simple: You have to write your styles in a special syntax called "CSS" and save it on documents with the extension CSS.  Then, you apply the styles to the document using the `<link>` or the `<style>` tag.
@@ -62,7 +62,7 @@ Let’s review those 2 tags in more detail:
 [[info]]
 | :point_up:Just like it happens with HTML docs (ending with .html) CSS docs (style sheets) end with the `.css extension`.
 
-## **CSS Syntax**
+## CSS Syntax
 ***
 
 The CSS syntax is nothing similar to HTML syntax, it is its own specific programming language.  CSS does not use tags! To work with a website you have to shift your mindset several times because you will be working with several languages at the same time, and each one has its own syntax.
@@ -94,7 +94,7 @@ selector3
    font-size: 15px;
 }
 ```
-## **Wait… What is a "Selector"??**
+## Wait… What is a "Selector"??
 ***
 
 A selector is a way to refer or identify one or more HTML elements. For example, if you want to change the color of your web to red, you must do it as it follows:
@@ -155,7 +155,7 @@ With these 4 ways to select you are covering 99% of your needs; here what is imp
 
 There are other specific and advanced selectors. You are probably going to use them when you start building something more challenging.
 
-## **Conflicts and correspondence**
+## Conflicts and correspondence
 ***
 
 What happens if an element of the page is selected in two different selectors and has the green font color assigned to one definition and red in the other? In other words, if we have told the browser to find two different colors, what color will it end up getting?
@@ -166,21 +166,21 @@ You have to have a very good understanding of the CSS hierarchy in order to unde
 
 The browser gives priority to more specific selectors like `#id` than the more general selectors like tags. In the following example, we changed the color of all the `<li>` (the items in the list) to blue, but then we changed the text of the second element to red. In this way we demonstrate that the ID selector will always prevail over selecting all the elements with the same tag.
 
-## **Attributes**
+## Attributes
 ***
 
 We have already seen that a CSS style sheet is nothing more than a list that defines the attributes that we want to assign to different elements of the page. Now we have to learn what attributes we can assign to these elements.
 
 There are hundreds – even thousands – of attributes, but, depending on the type of element / label that we want to define, we must focus on different attributes.
 
-#### **Typography editing**
+#### Typography editing
 |Property   |Description   |Values   |
 |:----------|:-------------|:----------|
 |[font-family](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-family)   |font type (font) | [ name-font \| generic-family ]*   |
 |[font-size](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-size)   |size of the font   |absolute-size \| relative-size \| distance \| percentage   |
 |[font-style](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-style)   |inclination (italics)   |normal \| italic \| oblique   |
 
-#### **Text editor**
+#### Text editor
 
 |Property   |Description   |Values   |
 |:----------|:-------------|:-----------|
@@ -191,7 +191,7 @@ There are hundreds – even thousands – of attributes, but, depending on the t
 |[text-decoration](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-decoration)   |text ornament   |none \| blink \| line-through \| overline \| underline   |
 |[text-transform](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-transform)   |capital / small fonts   |none \| capitalize \| lowercase \| uppercase   |
 
-#### **List editing** 
+#### List editing 
 
 |Attribute   |Description   |Values   |
 |:-----------|:-------------|:--------|
@@ -200,7 +200,7 @@ There are hundreds – even thousands – of attributes, but, depending on the t
 |[list-style-position](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-position)   |marker position   |inside \| outside  |
 |[list-style-type](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-type)  |marker type   |none \| circle \| disc \| square \| decimal \| decimal-leading-zero \| lower-alpha \| upper-alpha \| lower-greek \| lower-latin \| upper-latin \| lower-roman \| upper-roman \| armenian \| georgian \| hebrew(-) \| cjk-ideographic(-) \| hiragana (-) \| katakana (-) \| hiragana-iroha(-) \| katakana-iroha(-)  |
 
-#### **Table editing**
+#### Table editing
 
 |Attributes  |Description   |Values   |
 |:----------|:-------------|:-----------|
@@ -210,7 +210,7 @@ There are hundreds – even thousands – of attributes, but, depending on the t
 |[empty-cells](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#empty-cells)   |empty box border   |	hide \| show   |
 |[table-layout](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#table-layout)   |	algorithm width of the table   |auto \| fixed   |
 
-#### **Background editing** 
+#### Background editing 
 
 |Property   |Description   |Values   |
 |:----------|:-------------|:----------|
