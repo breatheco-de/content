@@ -19,6 +19,7 @@ const Lesson = (props) => {
 
   const seo = {
     title: post.frontmatter.title,
+    noindex: (post.frontmatter.status === "unlisted" || post.frontmatter.status === "unassigned" || post.frontmatter.status === "pending-translation"),
     description: post.frontmatter.subtitle,
     url: (post.frontmatter.canonical && post.frontmatter.canonical !== "") ? post.frontmatter.canonical : url,
     authors: Array.isArray(post.frontmatter.authors) ? post.frontmatter.authors.join(',') : null,

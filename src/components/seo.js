@@ -30,6 +30,7 @@ const SEO = (props) => (
                 <Helmet title={seo.title} titleTemplate={titleTemplate}>
                     <html lang={seo.lang} />
                     <meta name="description" content={seo.description} />
+                    { noindex && <meta name="robots" content="noindex" />}
                     {seo.tags && <meta name="keywords" content={seo.tags} /> }
                     <link rel="canonical" href={seo.url} />
                     {seo.canonical.map(l => <link key={l} rel="alternate" hreflang={l} href={"/"+props.translations[l]} />)}

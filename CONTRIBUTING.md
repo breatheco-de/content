@@ -4,11 +4,11 @@ This project was build in gatsby.js v2, you can contribute by **coding a feature
 
 ## If you want to contribute by `coding` or `fixing a bug`
 
-First pick the issue that you would like to resolve from [this list](https://github.com/breatheco-de/content/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22). Please don't resolve anything that its not an issue, if you would like to propose new enhancementes or report bugs you can create the issue first to discuss it with the project mantainers and other members of the community.
+First pick the issue that you would like to resolve from [this list](https://github.com/breatheco-de/content/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22). Please don't resolve anything that its not an issue, if you would like to propose new enhancements or report bugs you can create the issue first to discuss it with the project maintainers and other members of the community.
 
 Once you have the issue that you like to solve, add a comment letting anyone know that you are going to be working on it.
 
-Fork this project and clone it to have it on your local envirnoment.
+Fork this project and clone it to have it on your local environment.
 
 > This projects follows [the all-contributors specification](https://github.com/kentcdodds/all-contributors) and your contribution will be recognized in the main README.md of the project.
 
@@ -22,16 +22,16 @@ Fork this project and clone it to have it on your local envirnoment.
 
 ### Writing a new article
 
-Pick of of the `unasigned` or `pending_translation` articles from [this list](https://github.com/breatheco-de/content/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) and comment on the issue to start working on it.
+Pick one of the the `unasigned` or `pending_translation` articles from [this list](https://github.com/breatheco-de/content/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) and comment on the issue to start working on it.
 
-Follow github markdown synax to write your article, we recomend using a text editor that supports markdown like stack edit.
+Follow github markdown syntax to write your article, we recommend using a text editor that supports markdown like stack edit.
 
 We have also create some special icons and components that you can also use inside your article content:
 
 #### Special Icons
 
 [[info]]
-|:link: for links of webistes with information  
+|:link: for links of websites with information  
 
 
 [[warning]]
