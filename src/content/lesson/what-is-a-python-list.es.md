@@ -160,7 +160,7 @@ for i in range(0,len(myList)):
 # La posicion es 3 para el elemento Bob
 ```
 
-## Clasificando los Arreglos
+## Ordenando los Arreglos
 
 Es muy común la necesidad de ordenar arreglos. Por ejemplo: ordenar una lista de estudiantes por nombre. Tienes dos funciones para ordenar en JavaScript:
 

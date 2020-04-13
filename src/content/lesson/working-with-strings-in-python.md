@@ -1,9 +1,9 @@
 ---
 title: "Working with or manipulating strings with Python"
 
-status: "pending_translation"
+status: "published"
 subtitle: "String concatenation is the Web Developer's bread and butter, our job is to concatenate strings to create HTML/CSS documents programmatically"
-
+authors: ["alesanchezr"]
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2019-11-15"
@@ -107,7 +107,7 @@ print("Extracted "+nombre[:10])
 # Output: Extracted My name is 
 ```
 
-### Comparación de cadenas
+### Comparing strings
 
 If you want to compare two strings you can use the `==` (double equal) and it will return `True` if the strings are EXACTLY the same, string comparison is case sensitive, "Bob" its not equal to "bob".
 

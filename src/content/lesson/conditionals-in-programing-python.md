@@ -150,15 +150,15 @@ elif:
 Here is another example that runs an algorithm to understand if a number is in the "hundreds".
 
 ```python
-valor = 14
+value = 14
 
-if (valor < 10):
+if (value < 10):
   print("Single unit value")
-elif (valor < 100):
+elif (value < 100):
   print("dozens")
-elif (valor < 1000):
+elif (value < 1000):
   print("hundreds")
-elif (valor < 10000):
+elif (value < 10000):
   print("thousans")
 else:
   print("hundrends of thousans or maybe more")
