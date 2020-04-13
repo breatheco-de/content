@@ -10,7 +10,7 @@ date: "2020-03-10"
 canonical: ""
 ---
 
-Welcome!! 🤩👏 My name is Alejandro and I'm writing this works after years of teaching code and changing lives. Please I beg you to read until the end, I will try my best not to bore you!
+Welcome!! 🤩👏 My name is Alejandro and I'm writing these words after years of teaching code and changing lives. Please I beg you to read until the end, I will try my best not to bore you!
 
 ## What you already know
 
@@ -20,7 +20,7 @@ You are here to develop your coding skills to a point were you can be useful to 
 
 You are also here because you need help, not only technical help but also spiritual help, and I say this in the most pragmatic way possible.
 
-> The biggest wall to become a developer is not in the syllabus or content of this school, the biggest wall is your mind.
+> The biggest wall to become a developer is not in the syllabus or content but in your mind.
 
 We are about to change the way your learn, they way you approach life, they way you sell yourself (therefore see yourself), we are tearing down old misconceptions about yourself, others and your professional life.
 
@@ -32,25 +32,25 @@ During the past years we have identified specific reasons that cause students st
 
 ![Impostor Syndrome](https://ucarecdn.com/6cf4655f-665f-4f68-b021-f34238cedd69/)
 
-At some point in our lives (some more than others) we have all thought we are the most stupid person in a room, if we keep thinking that for a long time and we don't get comfortable on any discipline wey may event think that we are not that smart. BULLSHIT! You are a part of this school, we do not accept people that we don't think are smart enough to make a living as a developer, you need to belive that until the end of the course!
+At some point in our lives (some more than others) we all have thought we are the most stupid person in a room, if we keep thinking that for a long time and we don't get comfortable on any discipline we may even think that we are not that smart. BULLSHIT! You are a part of this school, we do not accept people that we don't think are smart enough to make a living as a developer, you need to belive that, specially on tough times!
 
-> If a particular lesson or week is hard, instead of thinking you are not good at this, look for new ways of absorbing the content. Talk to a mentor and we will give you exactly what you need.
+> If a particular exercise or project is hard, instead of thinking you are not good at this, look for new ways of absorbing the content. Talk to a mentor and we'll give you exactly what you need.
 
-Every average person can learn to code to a point of being useful, coding gets complicated enough is when you specialize further in your career, but you can make good money without having to study Math, without being good at numbers or without learning as fast as others (we may be able to fix that, by the way).
+Every average person can learn to code to a point of being useful, coding gets more complicated when you specialize further in your career (Like A.I., Robotics, etc.), but you can make good money without having to study Math, without being good at numbers or without learning as fast as others (we may be able to fix that, by the way).
 
 ##### 📝 Recipe to avoid loosing confidence
 
-1. **Avoid being stuck to long:** Coding is tricky because you may be very close to solving a problem but you are stuck and you don't realized. Or maybe you don't know how to start a problem but a quick 5 min talk with a mentor will open the path. You need to ask for help no longer than 15 mins after trying on your own.
+1. **Avoid being stuck to long:** Coding is tricky because you may be very close to solving a problem but you are stuck and you don't realize it. Or maybe you don't know how to start a problem but a quick 5 min talk with a mentor will clear the way. You need to ask for help no longer than 15 mins after trying on your own.
 
-2. **Talk to other students:** You are always going to think you are the only one that does not understand. Talk to a couple of class-mates and you will see they are just like you, it will give you the confidence to ask questions.
+2. **Talk to other students:** You may think you are the only one that does not understand, but if you talk to a couple of class-mates you'll see they are just like you, it will give you the confidence to ask questions.
 
-3. **Talk to the mentors:** Voice of experience is always effective, you have alumni and teachers that struggled before and are struggling right now! They can help you out in dark times, we are not only talking about giving you solutions to your coding challenges, we are talking about giving you strategies to succeed in your (coding?) life.
+3. **Talk to the mentors:** A voice of experience is always effective, you have alumni and teachers that struggled before and are also struggling right now! They can help you during dark times, we are not only talking about giving you coding solutions, but giving you strategies to succeed in your (coding?) life.
 
 #### Wall #2: Trust ✝
 
-During all your life you have learned the same way, the educational system has put you in a box and trained you to learn slowly, limiting you ability to adapt to the new world of skilled fast-learning and self-learning professionals.
+During all your life you've learned the same way, the educational system has put you in a box and trained you to learn slowly, limiting you ability to adapt to the new world of skilled fast-learning and self-learning professionals.
 
-We know how to train you: we have done it over and over again, but we train in such a different way that you may not like it at first, it is only normal that your mind will want to go back to learning "slow but safe", without having to be uncomfortable or constantly challenged by our system.
+We know how to train you: we have done it over and over again, but we'll train in such a different way that you may not like it at first, it's only normal that your mind will want to go back to learning "slow but safe", without having to be uncomfortable or constantly challenged by our system.
 
 ##### 📝 Recipe to avoid loosing trust in our methods
 
