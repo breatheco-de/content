@@ -1,6 +1,6 @@
 ---
 title: "Understanding HTML Input HTML Text Area and Forms..."
-subtitle: "HTML Forms, HTML input and HTML textarea are really easy to understand, and they are the ONLY way to make interactive websites without AJAX.
+subtitle: "HTML Forms, HTML input and HTML text-area are really easy to understand, and they are the ONLY way to make interactive websites without AJAX.
 These very basic concepts represent 90% of everything you will ever need to know about forms ."
 cover: "https://www.desktopbackground.org/p/2013/09/13/637935_nasa-wallpapers_1600x1200_h.jpg"
 textColor: "white"
@@ -83,14 +83,6 @@ The two most important attributes that need to be set into the `<form>` tag are 
 
 [[warning]]
 | :point_up:If you are going to use the `python><input type="file">` the only method supported is POST.
-
-## Welcome to the Web 2.0
-***
-
-You now know all the basics to create your first interactive website.  Now, if only you knew any backend language to process the data that is being collected from your forms!  In the meantime, you can try this free service to start the modjo! https://formspree.io/
-
-
-
 
 
 

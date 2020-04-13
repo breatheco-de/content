@@ -24,7 +24,7 @@ We are sure that after diving deep into HTML, everything looks kind of ugly, fix
 
 
 
-Buuut… The Internet is more beautiful than that. When internet became popular, it stopped to be only a privilege for scientists and the army, and evolved to become **Part of our world!!**
+But… The Internet is more beautiful than that. When the internet became popular, it stopped to be only a privilege for scientists and the army, and evolved to become **Part of our world!!**
 
 Ironically, the same scientists at CERN who created HTML had to think about how to improve it. They were given the task to make it more beautiful. It was at this time that [Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie) proposed the first version of CHSS in 1994, which was later adapted to become CSS1.
 
@@ -105,7 +105,7 @@ body {
 }
 ```
 
-You could also change the color of a single anchor `<a>`. To do that, you must define the ID attribute of the HTML tag defining that particular link `<a id="anchor1">`.  Once that tag has an ID, then you can go to your style sheet and define a color as follows:
+You could also change the color of a single anchor `<a>`. To do that, you must define the ID attribute of the HTML tag defining that particular link `<a id="anchor1">`.  Once that tag has an ID, then you can go to your style sheet and define the `color` rule as follows:
 
 ```css
 #anchor1{
@@ -141,7 +141,7 @@ In the next example we are applying an "odd" class to the cells of this table, a
 |:--------------|:-----------------|:-------------|
 |Element name (tag)   |This makes it possible to apply styles to links, titles, etc.  In the next example we shall change the text color of every link tag `pyton><a>` of the page.   |`pyton>a{ color: #BDBDBD; }`   |
 
-Next, we are adding color (green) to the  background of each td (cells) of the table:
+Next, we are adding color (green) to the  background of each `td` (cells) of the table:
 
 ### Multiselector
 
@@ -219,18 +219,6 @@ There are hundreds – even thousands – of attributes, but, depending on the t
 |[background-position](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-position)   |background image position   |\[ \[ left \| center \| right \| distancia \| porcentaje] [ top \| center \| bottom \| distancia \| porcentaje] \]? \| [ [ left \| center \| right ] \|\| [ top \| center \| bottom ] ]   |
 |[background-repeat](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-repeat)  |background repetition   |no-repeat \| repeat \| repeat-x \| repeat-y \| space(3) \| round(3)   |
 |[background-size(3)](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-size)   |background image size   |auto \| [ distance \| percentage ] {2} \| contain \| cover   |
-
-### Get ready. There is more coming!
-
-If we were having dinner, we would say that you already ate your appetizer and are about to begin the main dish. The protein is up next!!
-
-Next chapter will be about the Boxes Model – the most mind-boggling chapter a developer can imagine!
-
-You’ll learn to diagram a whole web page, similar to those you normally visit on a daily basis, but without so many ornaments.
-
-![what is css](https://ucarecdn.com/cd641736-0942-49bc-b49d-abba1c61ab7c/)
-
-
 
 
 

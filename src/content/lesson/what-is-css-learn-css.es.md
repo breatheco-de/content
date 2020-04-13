@@ -220,17 +220,6 @@ Hay cientos - sino miles - de atributos, pero dependiendo del tipo de elemento/e
 |[background-repeat](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-repeat)  |repetición de la imagen de fondo   |no-repeat \| repeat \| repeat-x \| repeat-y \| space(3) \| round(3)   |
 |[background-size(3)](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-size)   |tamaño de la imagen de fondo   |auto \| [ distance \| percentage ] {2} \| contain \| cover   |
 
-### Prepárate para lo que viene!!
-
-Si este curso fuera una cena, podríamos decir que ya te comiste el aperitivo, la ensalada del segundo plato y ¡ahora viene la proteína!!
-
-El próximo capítulo trata sobre el modelo de cajas - que sería el capítulo más odiado por los programadores de front-end.
-
-Aprenderás a diagramar una web completa, parecida a las que ves hoy en día por Internet, aunque sin muchos lujos.
-
-![what is css](https://ucarecdn.com/cd641736-0942-49bc-b49d-abba1c61ab7c/)
-
-
 
 
 

@@ -48,7 +48,7 @@ This is what a "runtime error" (an error that occurs during runtime) looks like:
 ## The Language
 ***
 
-Computers speak only one language: **Assembly**.  But using the assembly language is hard because it is the very base of everything.  You have to take care of basic things like cleaning the computer memory, converting string characters into their binary representation, etc.  That is why developers created layers of abstraction: to avoid doing the basic activities every day.  In the end, all the code you type is going to be converted into "Assembly" (but you don’t have to care about that).
+Computers speak only one language: **Assembly**.  But using the assembly language is hard because it is the very base of everything.  You have to take care of basic things like cleaning the computer memory, converting string characters into their binary representation, etc.  That is why developers created layers of abstraction: to avoid doing basic activities every day.  In the end, all the code you type is going to be converted into "Assembly" (but you don’t have to care about that).
 
 Today you will learn to code speaking JavaScript!
 

@@ -82,10 +82,3 @@ Los dos atributos más importantes que deben establecerse en la etiqueta `<form>
 [[warning]]
 | :point_up:Si va a utilizar el `python> <input type =" file ">` el único método admitido es POST.
 
-## Bienvenido a la Web 2.0
-***
-
-Ahora ya sabe todo lo básico para crear su primer sitio web interactivo. ¡Ahora, si solo supiera algún lenguaje de fondo para procesar los datos que se recopilan de sus formularios! Mientras tanto, puedes probar este servicio gratuito para iniciar el modjo! https://formspree.io/
-
-
-

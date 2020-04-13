@@ -45,7 +45,7 @@ Esto es lo que parece un "error de tiempo de ejecución" (un error que se produc
 
 
 
-## El Languaje
+## El Lenguaje
 ***
 
 Las computadoras hablan solo un idioma: ** Assembly **. Pero usar el lenguaje ensamblador es difícil porque es la base de todo. Tienes que ocuparte de cosas básicas como limpiar la memoria de la computadora, convertir los caracteres de cadena en su representación binaria, etc. Es por eso que los desarrolladores crearon capas de abstracción: para evitar realizar las actividades básicas todos los días. Al final, todo el código que escriba se convertirá en "Assembly" (pero no tienes que preocuparte por eso).

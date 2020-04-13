@@ -18,7 +18,7 @@ All web pages have HTML – it’s the structure of EVERYTHING. Think of it as t
 
 HTML allows you to divide the website information into parts – similar to the basic parts of a document: header, title, content, footnote, subtitle, etc.  Then, with CSS, you can make your page beautiful, and, with JavaScript, make it interactive.
 
-Originally, browsers only knew how to interpret HTML.  Websites were simple and neither CSS or JavaScript were used. A website was a simple plain-text document with the typical elements any Word Document has: headings, bullet point lists, paragraphs, etc.
+Originally, browsers only knew how to interpret HTML.  Websites were simple and neither CSS or JavaScript were used. A website was a simple plain-text document with the typical elements any Word Document has: headings, bullet-point lists, paragraphs, etc.
 
 ![what is html](https://ucarecdn.com/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc/-/resize/600x/)
 
@@ -29,7 +29,7 @@ Originally, browsers only knew how to interpret HTML.  Websites were simple and 
 
 Remember when we said the Internet is all text?
 
-In that sense, HTML is a language that uses `<tags>` to represent the elements that a web page must have. A tag is just a word that begins and ends with `<` and `/>`, respectively.
+In that sense, HTML is a language that uses `<tags>` to represent the elements that a web page must-have. A tag is just a word that begins and ends with `<` and `/>`, respectively.
 
 
 
@@ -96,7 +96,7 @@ All pages must begin with the `<DOCTYPE! Html>` statement followed by `<html>`, 
 </html>
 ```
 
-Lets simulate how a browser thinks: Imagine a user on his browser (client side) who types the URL: breatheco.de
+Lets simulate how a browser thinks: Imagine a user on his browser (client-side) who types the URL: breatheco.de
 
 + The server will open the default HTML file on that server, which will probably be: index.html.
 + Then, it will read its content and interpret it as HTML (because the extension of the file is index.html).
@@ -110,7 +110,7 @@ Lets simulate how a browser thinks: Imagine a user on his browser (client side) 
 |:----------|:----------|:-----------------|
 |HTML       |`<html>`   |We must begin by letting the browser know that this is an HTML document.  We can also specify the HTML version we are using.   |
 |Head       |`<head>`   |Everything that is inside of the HEAD won’t be seen by the user. It’s the part of the page where the developer specifies information about the website, such as: the language being used, what the website is about, the fonts used, the icon that the browser tab will have (favicon), and many other important things.   |
-|Body       |`<body>`   |Here you will place all the content that will be viewed by the end user.<br>If this were MS Word, the body would mark the beginning of your page content (the first line of your document).   |
+|Body       |`<body>`   |Here you will place all the content that will be viewed by the end-user.<br>If this were MS Word, the body would mark the beginning of your page content (the first line of your document).   |
 
 # The \<HEAD\> is like the Envelope of a Letter.
 ***
@@ -153,7 +153,7 @@ The most frequent tags used inside the `<body>` of an HTML document are:
 [[info]]
 |:link: [Click here](https://www.w3schools.com/tags/ref_byfunc.asp), for more HTML tags
 
-# The Attributes (Properties)
+# The Attribute (Properties)
 ***
 We already know each `<tag>`'s behavior.  Thanks to tags we can change the font size – as is the case with headings –, add margins between paragraphs, list elements, etc.
 

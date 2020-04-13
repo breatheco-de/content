@@ -83,7 +83,7 @@ Returns an array with all the instances representing each paragraph element in t
 
 ### **document.getElementsByName*("name_value")***
 
-Returns an array with all the elements that have name="name_value" in their name property of their HTML tag in the HTML document.
+Returns an array with all the elements that have name="name_value" in the name property of their HTML tag in the HTML document.
 
 ```javascript{numberLines: true}
 var elem = document.getElementById("xyz");
