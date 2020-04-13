@@ -6,8 +6,8 @@ textColor: "white"
 authors: ["alesanchezr"]
 status: "published"
 date: "2018-05-11"
-tags: ["github"]
-
+tags: ["github", "job hunting", "resume building"]
+thumb: "https://i.imgur.com/F03qoZF.png"
 ---
 
 ### Making Your Github Profile Shine
