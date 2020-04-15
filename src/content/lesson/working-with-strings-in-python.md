@@ -29,7 +29,7 @@ Strings are also part of the most primivite or basic set of data-types:
 | Boolean   | `True` or `False` | bool                          | just True or False |
 | Binary    | `01001010111`     | bytes, bytearray, memoryview  | Ideal for low level operations                                |
 
-## Now to create a string
+## How to create a string
 
 To create a string in python jsut what a bunch of characters within quotes like this `"hello"` or even like this `"23232"`.
 
