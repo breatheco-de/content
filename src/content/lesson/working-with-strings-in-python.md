@@ -38,9 +38,12 @@ name = "Bob"
 age = "23" # <--- this is still a string (it's within quotes)
 ```
 
-Si estamos desarrollando una aplicación, todo lo que el usuario escríba dentro de formulatios sera considerado una cadena de caracteres, incluso si el usuario escribe el numero dos (2), este sera considerado una cadena de caracters y no un numero a no ser que nosotros como desarrolladores lo convirtamos en numero explicitamente.
+When coding a web application, everything the user types in forms it's considered a `string`, even if the user types the number `2` (two) it will still be considered the string `"2"` and not a real number, the developer will have to explicitely convert or parse that string into a number using the function `int()` or `float()`.
 
-El uso mas común para una cadena de caracteres es utilizando la función print:
+[[info]]
+|:link: How to [convert strings into integers with python](https://guide.freecodecamp.org/python/how-to-convert-strings-into-integers-in-python/) (3 min read).
+
+The most common use for a string is printing it using the function `print`
 
 ```python
 print("Hola Mundo!")
