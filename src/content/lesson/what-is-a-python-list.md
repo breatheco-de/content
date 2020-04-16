@@ -121,7 +121,7 @@ It will leet you choose what element to remove, but remember the element index s
 ```python
     # If you want to delete 'Chris', you need to do the following: 
     myList = ['Pedro','Chris','Juan','Maria']
-    myNewArray.remove(2)
+    myList.remove(2)
     print(myList) # Output ['Pedro','Chris','Juan'];
 ```
 
