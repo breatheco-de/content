@@ -64,7 +64,7 @@ The index always must start at zero (0).  That means that an List of 2 items can
 print(myList[0])  # print first element on the console
 aux = myList[5]
 print(aux); # print the 4th element on the console
-print(myList[myList.length-1]);  # Print the last element on the console
+print(myList[len(myList) - 1]);  # Print the last element on the console
 ```
 
 
