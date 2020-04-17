@@ -6,7 +6,7 @@ thumb: "https://i.imgur.com/rUQ0MDb.png"
 textColor: "white"
 date: "2019-10-03"
 authors: ['alesanchezr']
-status: "draft"
+status: "approved"
 tags: ["reactjs","javascript","react.js","react hooks","react useState","react useEffect"]
 ---
 
