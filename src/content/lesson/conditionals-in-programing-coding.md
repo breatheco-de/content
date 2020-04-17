@@ -70,7 +70,7 @@ Our job as developers is to sit down and try to prepare a strategy and come up w
 
 ## `AND` and `OR` operators
 
-Another way to write the algorithm is to combine to questions in the same condition using the `AND` and `OR` operators that in Javascript are represented with `&& for AND` and `|| for OR`:
+Another way to write the algorithm is to combine to questions in the same condition using the `AND` and `OR` operators that in Javascript are represented with `&&` for AND and `||` for OR:
 
 ```js
 if(feelsLikeHitByTrain == false || youWereHitByTrain == true){

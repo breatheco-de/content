@@ -110,7 +110,7 @@ result = int('5') - int('2')
 <br>
 
 
-### **Casting (parsing) Data-Types**
+### Casting (parsing) Data-Types
 ***
 
 Javascript is so flexible that you don’t have to pay much attention to data types.   Python does not like that… in Python, you will get used to casting variables and converting them in between data-types.
@@ -136,7 +136,7 @@ result = int('5') - int('2')
 <br>
 
 
-### **Printing Values**
+### Printing Values
 ***
 
 Python has "print" either for writing into a document or into the console. Remember that, since Python – like any other back-end language – runs before the preload event, it does not have access to the Javascript console.
@@ -221,7 +221,7 @@ print(namesArray)
 <br>
 <br>
 
-### **Looping list (similar to arrays)**
+### Looping list (similar to arrays)
 ***
 
 #### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With  JavaScript
@@ -254,7 +254,7 @@ for color in colors:
 <br>
 <br>
 
-### **Adding and Removing Items**
+### Adding and Removing Items
 ***
 
 <br>
@@ -282,7 +282,7 @@ print(myList)
 ['The', 'earth', 'revolves', 'around', 'sun']
 ```
 
-### **Sorting Functions for Lists**
+### Sorting Functions for Lists
 ***
 
 #### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
@@ -301,18 +301,18 @@ myArray.sort(key=lambda person: person['name'])
 [[info]]
 | :tv: Let’s summon Socratica again to understand sorting in Python: https://www.youtube.com/watch?v=QtwhlHP_tqc
 
-### **The Switch Statement**
+### The Switch Statement
 
 **There is now a way to do "switch"… but who cares? 🙂**
 
-### **Lists vs Tuples**
+### Lists vs Tuples
 
 Python brings a new kind of data-type called a "Tuple."  Think about it like a super slim and fast performance List.  But, like always, to increase performance we need to decrease functionality.
 
 [[info]]
 | :tv: This is a mandatory video explaining the difference between them: https://www.youtube.com/watch?v=NI26dqhs2Rk
 
-### **Objects**
+### Objects
 
 #### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
 

@@ -50,7 +50,7 @@ But, don’t worry…you don’t have to understand it right now.  The good news
 So…let’s start with the basic regular expressions using the most basic operators:
 
 
-### **Simple Characters**
+### Simple Characters
 
 **A simple character is…**
 
@@ -64,7 +64,7 @@ Any succession of characters is a simple regular expression.  If we use the word
 
 <div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?e=email">Click to open demo in a new window</a></small></div>
 
-### **The `.` Character**
+### The `.` Character
 
 The `python>.` character represents…
 
@@ -79,7 +79,7 @@ You can use the `.` as many times as you want; the regular expression will repla
 <div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bC4uZQ%3D%3D&amp;c=TGV0IG1lIGxpdmUgbXkgbGlmZSB5b3UgbCMkZSE%3D">Click to open demo in a new window </a></small></div>
 
 
-### **The Range `[ ]` Character**
+### The Range `[ ]` Character
 
 **The `python>[ ]` characters represent…**
 
@@ -108,7 +108,7 @@ You can also combine ranges of characters like this:
 
 
 
-### **The `^` (caret) Character: Negation or Beginning of a Term**
+### The `^` (caret) Character: Negation or Beginning of a Term
 
 **If we place `^` at the beginning of a [range]:**
 
@@ -204,7 +204,7 @@ Lets face it:  regular expressions are something you will use every once in a wh
 
 Here are some pre-made Regex’s:
 
-#### **Regular Expression for: Validating an Email**
+#### Regular Expression for: Validating an Email
 
 ![regex tutorial regular expression examples](https://ucarecdn.com/39f93d0d-248e-4e94-b402-b744c4b06a4d/-/resize/1000x/)
 
@@ -227,7 +227,7 @@ Finally, we want the end of the string ($).
 
 
 
-#### **Regular Expression for: Matching a URL**
+#### Regular Expression for: Matching a URL
 
 This Regex is almost like taking the ending part of the above Regex, slapping it between "http://" and some file structure at the end.  It sounds a lot simpler than it really is.  To start off, we must search for the beginning of the line with the caret.
 

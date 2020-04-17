@@ -11,31 +11,31 @@ tags: ["html"]
 | :point_up: Since in the previous chapter we equated houses, stores and buildings to web pages, then we could say HTML is the blueprints.
 
 
-# **HTML is the Website Skeleton**
+# HTML is the Website Skeleton
 ***
 
 All web pages have HTML – it’s the structure of EVERYTHING. Think of it as the columns at a construction site.
 
 HTML allows you to divide the website information into parts – similar to the basic parts of a document: header, title, content, footnote, subtitle, etc.  Then, with CSS, you can make your page beautiful, and, with JavaScript, make it interactive.
 
-Originally, browsers only knew how to interpret HTML.  Websites were simple and neither CSS or JavaScript were used. A website was a simple plain-text document with the typical elements any Word Document has: headings, bullet point lists, paragraphs, etc.
+Originally, browsers only knew how to interpret HTML.  Websites were simple and neither CSS or JavaScript were used. A website was a simple plain-text document with the typical elements any Word Document has: headings, bullet-point lists, paragraphs, etc.
 
 ![what is html](https://ucarecdn.com/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc/-/resize/600x/)
 
 
-# **HTML Syntax: It’s All `<Tags>`.**
+# HTML Syntax: It’s All `<Tags>`.
 ***
 ![what is html](https://ucarecdn.com/78296f64-547f-4928-a8da-14cb24e836b9/)
 
 Remember when we said the Internet is all text?
 
-In that sense, HTML is a language that uses `<tags>` to represent the elements that a web page must have. A tag is just a word that begins and ends with `<` and `/>`, respectively.
+In that sense, HTML is a language that uses `<tags>` to represent the elements that a web page must-have. A tag is just a word that begins and ends with `<` and `/>`, respectively.
 
 
 
 All tags must open and close. To close a tag you must place the same word or letter you used to open it but using `/>`.
 
-# **Attributes**
+# Attributes
 ***
 Once a `<tag>` is defined, we can describe in detail its behavior by assigning attributes to the `<tag>`.  For example, if we want our HTML document/page to have a link to another page, we use the `<a>` tag, and we assign to it an attribute called **href**, which allows us to specify the URL of the page we want to link.
 
@@ -53,7 +53,7 @@ For the main heading of the document, the tag we use is `<h1>`.  For example: An
 ```
 
 
-##### **Nested Tags** :
+##### Nested Tags :
 Finally, tags can contain one or more tags within them. For example, if we would want to give italic style to the word "electronics" we would wrap the word with the tag `<i>`:
 
 ```html
@@ -78,7 +78,7 @@ Finally, tags can contain one or more tags within them. For example, if we would
 ```
 
 
-# **Page Structure**
+# Page Structure
 ***
 All pages must begin with the `<DOCTYPE! Html>` statement followed by `<html>`, then the `<HEAD>` and the `<BODY>` tags.  These tags **must** contain other tags within them (nested tags), and they will split the page in 2 main parts: the HEAD and the BODY:
 
@@ -96,7 +96,7 @@ All pages must begin with the `<DOCTYPE! Html>` statement followed by `<html>`, 
 </html>
 ```
 
-Lets simulate how a browser thinks: Imagine a user on his browser (client side) who types the URL: breatheco.de
+Lets simulate how a browser thinks: Imagine a user on his browser (client-side) who types the URL: breatheco.de
 
 + The server will open the default HTML file on that server, which will probably be: index.html.
 + Then, it will read its content and interpret it as HTML (because the extension of the file is index.html).
@@ -110,9 +110,9 @@ Lets simulate how a browser thinks: Imagine a user on his browser (client side) 
 |:----------|:----------|:-----------------|
 |HTML       |`<html>`   |We must begin by letting the browser know that this is an HTML document.  We can also specify the HTML version we are using.   |
 |Head       |`<head>`   |Everything that is inside of the HEAD won’t be seen by the user. It’s the part of the page where the developer specifies information about the website, such as: the language being used, what the website is about, the fonts used, the icon that the browser tab will have (favicon), and many other important things.   |
-|Body       |`<body>`   |Here you will place all the content that will be viewed by the end user.<br>If this were MS Word, the body would mark the beginning of your page content (the first line of your document).   |
+|Body       |`<body>`   |Here you will place all the content that will be viewed by the end-user.<br>If this were MS Word, the body would mark the beginning of your page content (the first line of your document).   |
 
-# **The \<HEAD\> is like the Envelope of a Letter.**
+# The \<HEAD\> is like the Envelope of a Letter.
 ***
 We read the envelope of a letter to find information about the letter, but not of its content. Here you can find who wrote the letter, in what language is it written, where is it from, etc.
 
@@ -126,7 +126,7 @@ In the case of HTML, the `<head>` can contain the following tags (among other le
 |Style   |`<style>`   |If we can’t or don’t want to import a CSS style sheet, we may also define styles directly on the HTML document inside the Style tag.  This is a practice we rarely recommend and should only be used when you don’t have any other choice.   |
 |Script   |`<script>`   |Used to add JavaScript code to the page.  All JavaScript code must be contained in these tags. They can also be used in the BODY, if desired.  The difference is that any JavaScript code that we place in a style tag in the BODY won’t be available when the page begins to run (that’s exactly why the is HEAD is so useful).   |
 
-# **The \<body\> is Similar to any MS Word Document**
+# The \<body\> is Similar to any MS Word Document
 
 Ok, now that we are familiar with the general and necessary structure of the page, lets review the tags we can and must use to define the content of the page.
 
@@ -153,7 +153,7 @@ The most frequent tags used inside the `<body>` of an HTML document are:
 [[info]]
 |:link: [Click here](https://www.w3schools.com/tags/ref_byfunc.asp), for more HTML tags
 
-# **The Attributes (Properties)**
+# The Attribute (Properties)
 ***
 We already know each `<tag>`'s behavior.  Thanks to tags we can change the font size – as is the case with headings –, add margins between paragraphs, list elements, etc.
 

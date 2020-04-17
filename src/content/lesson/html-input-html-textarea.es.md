@@ -7,7 +7,7 @@ date: "2018-01-11"
 tags: ["HTML","entradas","formularios"]
 ---
 
-## **Formularios HTML**
+## Formularios HTML
 ***
 
 Esta lección es muy fácil de entender - pero es esencial debido a que en este nuevo conocimiento, se transmitirá toda la interactividad de Internet. Hay algunas etiquetas HTML adicionales que debemos analizar antes de terminar el Pre-Work: son las primeras formas posibles de interacción que se introdujeron en HTML: las entradas y los formularios.
@@ -37,7 +37,7 @@ La siguiente es una lista de todos los elementos posibles que podemos usar para 
 |Botón de Enviar   |`python><input type="submit">`   |Cuando el formulario está listo para ser enviado, el usuario presiona este botón "enviar" y todo se envía al servidor para su procesamiento.<br>`python><input type="submit" value="Send Form" />`   |
 |Selección   |`python><select>`   |Pide al usuario que elija uno o más elementos de una lista de opciones.<br>`python><select name="color" /> <option value="red">Red </option> <option value="yellow">Yellow</option> <select />`   |
 
-## **Atributos del Input (Entrada)**
+## Atributos del Input (Entrada)
 ***
 
 Al igual que cualquier otra etiqueta HTML, las etiquetas de entrada tienen varios atributos que se pueden configurar para describir su comportamiento de maneras más específicas:
@@ -81,11 +81,4 @@ Los dos atributos más importantes que deben establecerse en la etiqueta `<form>
 
 [[warning]]
 | :point_up:Si va a utilizar el `python> <input type =" file ">` el único método admitido es POST.
-
-## Bienvenido a la Web 2.0
-***
-
-Ahora ya sabe todo lo básico para crear su primer sitio web interactivo. ¡Ahora, si solo supiera algún lenguaje de fondo para procesar los datos que se recopilan de sus formularios! Mientras tanto, puedes probar este servicio gratuito para iniciar el modjo! https://formspree.io/
-
-
 

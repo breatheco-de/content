@@ -10,7 +10,7 @@ tags: ["linea de comando","el terminal"]
 [[warning]]
 | :point_up: Los usuarios de Windows no tienen la misma línea de comando. Por favor ve a [Cloud 9](https://aws.amazon.com/es/cloud9/?origin=c9io) y trabaja desde allí.
 
-## **¿Por qué los Desarrolladores aman la Linea de Comando?**
+## ¿Por qué los Desarrolladores aman la Linea de Comando?
 ***
 
 Al principio, todos odiaban la línea de comando. Tras años de experiencia, se convirtió en un gusto adquirido.
@@ -22,7 +22,7 @@ Pero ¿por qué les gusta a los desarrolladores? Bueno, la lista es infinita, pe
 + Es super poderoso. Puede hacer mucho más en mucho menos tiempo, por ejemplo: eliminar de forma masiva, cambiar el nombre, buscar un archivo, editar un archivo, etc.
 + Te obliga a usar el teclado. Como no puedes usar el mouse, te hace más rápido. Cometes menos errores y el entorno es exactamente el mismo en todas las computadoras.
 
-## **¿Como Funciona?**
+## ¿Como Funciona?
 ***
 
 La consola es realmente simple: es una pantalla negra que siempre está esperando un * comando *. Después de escribir el comando deseado y presionar la tecla `enter`, la computadora lo ejecuta y muestra algunos comentarios con el resultado resultante en la pantalla. Una pregunta simple <> Interfaz de respuesta.
@@ -41,7 +41,7 @@ En este caso particular, usamos la "marcador" `-l` para especificar que queremos
 
 Lo último que tenemos que agregar es el "argumento". En este caso, el "argumento" será la ruta del directorio desde el cual queremos listar los archivos.
 
-## **¿Qué puedes hacer en El Terminal?**
+## ¿Qué puedes hacer en El Terminal?
 ***
 
 Tu computadora tiene archivos, directorios y aplicaciones. Tu línea de comando es capaz de tratar con los tres. Usa comandos para moverte dentro de los archivos y directorios (como el comando `cd`). Cada aplicación que instales viene con un conjunto de comandos que están disponibles en el momento de instalar la aplicación (como el comando GIT).
@@ -168,7 +168,7 @@ find . -name *.mp3
 #encuentre todos los archivos que contengan la extensión "mp3" dentro del directorio actual y su principal.
 ```
 
-## **Consejos y Trucos**
+## Consejos y Trucos
 ***
 
 Esto te ayudará a ahorrar tiempo y cometer menos errores al escribir:
@@ -179,7 +179,7 @@ Esto te ayudará a ahorrar tiempo y cometer menos errores al escribir:
 + Para ir a la carpeta principal del usuario, usa la tecla `~` como esta: cd ~
 + Usa el comando `clear` para "limpiar" la consola actual (es solo un desplazamiento, pero muy útil)
 
-## **Editando archivos en el terminal:**
+## Editando archivos en el terminal:
 ***
 
 Esta es una de las cosas que no puedes evitar hacer en el terminal. Como desarrollador, tendrás que editar archivos en el terminal con más frecuencia de lo que crees. Por eso es mejor que esté preparado para usar la  [VI Aplicación o la Aplicación Nano](https://askubuntu.com/questions/726669/difference-between-nano-and-vim)  Hablaremos sobre Nano y sus comandos (sí, aquí el editor de texto se abre dentro de la línea de comandos y se ejecuta usando comandos).

@@ -2,11 +2,12 @@
 title: "React Hooks Explained"
 subtitle: "Hooks are like Steroids for React Components, and they are almost impossible to avoid. This lesson will focus on the 2 most important ones: useState and useEffect."
 cover: "https://ucarecdn.com/84c4d84c-51b9-4906-a572-71cc07ecfc8c/"
+thumb: "https://i.imgur.com/rUQ0MDb.png"
 textColor: "white"
 date: "2019-10-03"
 authors: ['alesanchezr']
 status: "approved"
-tags: ["reactjs"]
+tags: ["reactjs","javascript","react.js","react hooks","react useState","react useEffect"]
 ---
 
 ## Why hooks?

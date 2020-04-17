@@ -161,13 +161,13 @@ All class properties have a Public visibility by default; you can change their v
 
 ***
 
-#### **Public Properties**
+#### Public Properties
 
 Properties that can be accessed from outside the class using the -> operator.
 
 ***
 
-#### **Private Properties**
+#### Private Properties
 
 They cannot be accessed from outside the class; the only way to access or use them is inside the class functions using the $this-> operator.
 To  access a private property you need to create two functions: ***a getter and a setter:***

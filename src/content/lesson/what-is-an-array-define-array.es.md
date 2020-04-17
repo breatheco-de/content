@@ -9,7 +9,7 @@ date: "2018-02-11"
 tags: ["arreglo","matriz"]
 ---
 
-## **¿Por qué están los arreglos en una lección separada?**
+## ¿Por qué están los arreglos en una lección separada?
 ***
 
 ¡Porque los arreglos son impresionantes! ¡Los necesitas! Y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂
@@ -43,7 +43,7 @@ Cada arreglo tiene los mismos conceptos básicos:
 [[info]]
 | :point_up: Las posiciones del arreglo comienzan con **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
 
-## **¿Como Declarar un Arreglo?**
+## ¿Como Declarar un Arreglo?
 ***
 
 These are different examples of list declarations:
@@ -58,7 +58,7 @@ var myArray = new Array(1,2,3,4,5); //¡No uses esto! Lea a continuación para s
 [[warning]]
 | :point_up: No declares los Arrays con la sintaxis `new Array ()` - no se comportará. [haga clic aquí para conocer los detalles](https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
 
-## **Acceder a los Elementos en el Arreglo**
+## Acceder a los Elementos en el Arreglo
 ***
 
 Para acceder a un elemento específico en una lista, necesita un índice. Un índice es un valor entero que representa la posición del arreglo a la que desea acceder.
@@ -72,7 +72,7 @@ var aux = myArray[5];
     console.log(myArray[myArray.length-1]);  //Esto imprimirá el último elemento del arreglo.
 ```
 
-## **Actualizar Elementos en el Arreglo**
+## Actualizar Elementos en el Arreglo
 ***
 
 Si lo deseas, puedes restablecer o actualizar cualquier elemento dentro de un arreglo usando el índice como este:
@@ -82,7 +82,7 @@ myArray[5] = 'Whatever value';
 //Esto establecerá el valor 'Cualquier valor' en el sexto elemento del arreglo.
 ```
 
-## **Añadiendo elementos (función push)**
+## Añadiendo elementos (función push)
 ***
 
 La única forma de agregar un nuevo elemento es al final de la lista, y necesitará usar la función push () para eso.
@@ -108,7 +108,7 @@ var myNewArray = [];
 
 ```
 
-## **Eliminando Elementos (función pop)**
+## Eliminando Elementos (función pop)
 ***
 
 Eliminar un elemento tiene exactamente las mismas limitaciones que al agregar un elemento: solo puede eliminar un elemento de la última posición con la función pull (). Si desea eliminar un elemento diferente, deberá crear una nueva matriz sin ese elemento en particular.
@@ -125,7 +125,7 @@ var myNewArray = [];
     console.log(myNewArray); //esto imprimirá ['Pedro','Juan','Maria'];
 ```
 
-## **Removing/Adding from the Beginning**
+## Removing/Adding from the Beginning
 ***
 
 Los métodos shift y unshift son como push y pop, pero con la diferencia de que solo funcionarán desde el principio de la lista.
@@ -141,7 +141,7 @@ var myArray = ['Chris','Bob','Pedro','Juan','Maria'];
     console.log(myArray); //esto imprimirá ['Bob','Pedro','Juan','Maria'];
 ```
 
-## **Bucle en Arreglo**
+## Bucle en Arreglo
 ***
 
 A veces, cuando trabajes con arreglos, tendrás que hacer un bucle. Por ejemplo: ordenándolos manualmente; voltearlos, eliminar un elemento de una posición particular, etc.
@@ -168,7 +168,7 @@ var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
 //Esto imprime el valor del artículo en el índice de posición.
 ```
 
-## **Eliminación de un Arreglo**
+## Eliminación de un Arreglo
 ***
 
 Las variables pueden tener diferentes tipos de valores. Algunos de ellos están disponibles solo en lenguajes de programación específicos, pero casi todos tienen los siguientes tipos:
@@ -193,7 +193,7 @@ Actualizará el arreglo actual dejando todo menos la versión más pequeña que 
 
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Slice-vs-Splice">Click para abrir el demo en una ventana nueva</a></small></div>
 
-## **Clasificando los Arreglos**
+## Clasificando los Arreglos
 ***
 
 Es muy común la necesidad de ordenar arreglos. Por ejemplo: ordenar una lista de estudiantes por nombre. Tienes dos funciones para ordenar en JavaScript:
@@ -238,18 +238,3 @@ var cars = [
 <iframe src="https://repl.it/F9YZ/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Sorting-Arrays">Click para abrir el demo en una ventana nueva</a></small></div>
-
-
-
-
-
-
-
-
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjAwMTk3MSwtNDQyNDQ4NTM3LDE2Nj
-IwMDE5NzFdfQ==
--->

@@ -1,13 +1,15 @@
 ---
 title: "Condicionales en la programación en Python"
-subtitle: "Uso de condiciones para controlar el flujo de su código en java"
+subtitle: "Uso de condiciones para controlar el flujo de su código en python"
 date: "2019-11-11"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 author: ["alesanchezr"]
 syntax: ["python"]
-tags: ["Condicionales", "Operaciones lógicas", "Si de lo contrario", "Condicion","Java"]
+tags: ["Condicionales", "Operaciones lógicas", "If...else", "Condicion","Python"]
 ---
+
+## Introducción a los condicionales en Python 
 
 Dominar el uso de las condiciones es una de las 5 habilidades fundamentales de construir algoritmos:
 
@@ -21,13 +23,19 @@ Las condiciones son la única forma en que los desarrolladores tienen que decirl
 
 Digamos que estamos construyendo un programa para ayudarnos a elegir qué almacenar y odiamos el color azul, podemos decirle a la computadora que evite el azul usando una condición como esta:
   
-  
-`If` ***color*** is not **blue**, then... do something.  
-`Else`... do nothing or exit.
+```python
+if color == 'blue':
+    # haz algo
+else:
+    # haz otra cosa
+```
   
 ![Condicionales](https://ucarecdn.com/e73b673e-d744-45a7-a1ed-61a1dae49560/)
 
-Las sentencias de decisión son: `if-then-else` y `switch` (el switch no esta disponible en python).
+
+[[info]]
+|:link: El uso de switch no esta disponible en python
+
 
 ## Primero veamos que es una expresión lógica
 
@@ -49,13 +57,15 @@ if edad == 25:
 
 Para hacer una pregunta, tenemos las siguientes comparaciones: `==`, `>`, `<`, `!=`, `is None`, `is not None`, `in`:
 
-| `==` | `if a == b` | Si el valor de la variable A es igual a B |
-| `<` | `if a < b` | Si el valor A es menor que B |
-| `>` | `if a > b` | Si el valor A es mayor que B |
-| `!=` | `if a == b` | Si el valor de A es diferente B |
+| Operador      | Ejemplo       | Descripción   |
+| ------------  | -----------   | --------------|
+| `==`          | `if a == b`   | Si el valor de la variable A es igual a B |
+| `<`           | `if a < b`    | Si el valor A es menor que B |
+| `>`           | `if a > b`    | Si el valor A es mayor que B |
+| `!=`          | `if a != b`   | Si el valor de A es diferente B |
 | `is not None` | `if a is not None` | Si a es diferente de None |
-| `is None` | `if a is None` | Si el valor de A es igual a None |
-| `in` | `if name in ['bob','maria','nancy']` | Si el valor de `name` esta contenido dentro de la lista de nombres  |
+| `is None`     | `if a is None`| Si el valor de A es igual a None |
+| `in`          | `if name in ['bob','maria','nancy']` | Si el valor de `name` esta contenido dentro de la lista de nombres  |
 
 ## Operadores `AND` y `OR`
 

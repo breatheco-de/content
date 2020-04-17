@@ -3,7 +3,7 @@ import Helmet from "react-helmet";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 
-const SEO = ({ title, description, image, pathname, article }) => (
+const SEO = (props) => (
     <StaticQuery
         query={query}
         render={({
@@ -19,20 +19,25 @@ const SEO = ({ title, description, image, pathname, article }) => (
             }
         }) => {
             const seo = {
-                title: title || defaultTitle,
-                description: description || defaultDescription,
-                image: `${siteUrl}${image || defaultImage}`,
-                url: `${siteUrl}${pathname || '/'}`,
+                ...props,
+                title: props.title || defaultTitle,
+                description: props.description || defaultDescription,
+                image: `${props.image || (siteUrl + defaultImage)}`,
+                url: `${siteUrl}/${props.url}`,
+                canonical: typeof(props.translations) === "object" ? Object.keys(props.translations) : []
             };
-
             return (
                 <Helmet title={seo.title} titleTemplate={titleTemplate}>
+                    <html lang={seo.lang} />
                     <meta name="description" content={seo.description} />
+                    { seo.noindex && <meta name="robots" content="noindex" />}
+                    {seo.tags && <meta name="keywords" content={seo.tags} /> }
+                    <link rel="canonical" href={seo.url} />
+                    {seo.canonical.map(l => <link key={l} rel="alternate" hreflang={l} href={"/"+props.translations[l]} />)}
+                    {seo.authors && <meta name="author" content={seo.authors} /> }
                     <meta name="image" content={seo.image} />
                     {seo.url && <meta property="og:url" content={seo.url} />}
-                    {(article ? true : null) && (
-                    <meta property="og:type" content="article" />
-                    )}
+                    {seo.article && <meta property="og:type" content="article" />}
                     {seo.title && <meta property="og:title" content={seo.title} />}
                     {seo.description && (
                     <meta property="og:description" content={seo.description} />

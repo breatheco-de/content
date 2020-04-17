@@ -37,7 +37,7 @@ Sólo hay algunas diferencias, aquí está la explicación:
 |Cadena o String     |Es lo mismo en PHP.      |
 
 
-### **Valores de Impresión**
+### Valores de Impresión
 
 Console.log es sorprendente en JS, pero en PHP, tendrá que usar echo para tipos de datos simples, y print_r para imprimir tipos de datos más complejos (como arreglos y objetos).
 
@@ -76,7 +76,7 @@ CopyArray
 
 PHP comenzó como un lenguaje de programación funcional y aún tiene muchas cosas que operarán en funciones en lugar de objetos. Por eso es muy importante revisar las operaciones básicas de la matriz; La sintaxis puede parecer diferente, pero, al final, tienen el mismo propósito.
 
-### **Blucles de Arreglos**
+### Blucles de Arreglos
 
 #### ![php syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) Con JavaScript
 
@@ -101,7 +101,7 @@ print_r($value);
 }
 ```
 
-### **Adición y Eliminación de Elementos**
+### Adición y Eliminación de Elementos
 
 #### ![php syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) Con JavaScript
 
@@ -122,7 +122,7 @@ unset($myArray[index]);
 $myArray = array_values($myArray);
 ```
 
-### **Funciones de Clasificación para Arreglos**
+### Funciones de Clasificación para Arreglos
 
 #### ![php syntax](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) Con PHP
 
@@ -193,7 +193,7 @@ Arreglo
 )*/
 ```
 
-### **La Declaración de Cambio**
+### La Declaración de Cambio
 
 Esto es casi idéntico a la declaración de cambio en JavaScript:
 
@@ -237,7 +237,7 @@ switch (favcolor) {
 ?>
 ```
 
-### **Objetos**
+### Objetos
 
 Cuando se trabaja con objetos, tenemos que usar el operador "->" en lugar de "." para acceder a las propiedades del objeto.
 

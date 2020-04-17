@@ -1,26 +1,20 @@
 ---
-title: "What is JavaScript? Learn to Code in JavaScript"
-subtitle: "Get to know what is JavaScript, Everybody is talking about it and by now you probably know its time to learn to code in JavaScript in order to get things to the next level."
+title: "Learning to code with Python"
+subtitle: "Python is the fastest-growing programing language in the world, it does almost everything you can think of and the best news is that it's one of the easiest to learn"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
-status: "pending_translation"
+status: "pending-translation"
 date: "2018-02-11"
 tags: ["javascript"]
 ---
 
-## But, What is coding?
-***
+## Why python?
 
-**Coding is not HTML, CSS or Position and Display…** Those languages were not designed for developers, they are just the only way we have to render stuff in a browser.
+Python is the first language you should learn, but certainly not the only one.
 
-**Coding is making *the computer* "obey"…**
-
-Everybody uses computers for different reasons.  Some computers are created to help people in their office (like personal computers), others to keep a room in a specific temperature (like [the NEST](https://nest.com/es/)), others are made to walk on Mars, and so many more things.
-
-No matter what the computer is made for, the very base of its existence is the same: to follow commands.  In this chapter you will learn 5 basic things you’ll need to understand any modern computer through code.
+- MIT decided to teach python as first language because its syntax prevents for lots of errors, specially because it has identation and no semicolons.
 
 ## Variables
-***
 
 <iframe width="830" height="467" src="https://www.youtube.com/embed/Q-eob0WBKs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -291,7 +285,6 @@ for(items in dog){
 ***
 
 Coding is like Taco Bell:  you always use the same ingredients except they are just mixed in different ways.  You know how to write code, but…do you know how to solve real problems?
-
 
 
 

@@ -26,7 +26,13 @@ const walk = function(dir, done) {
 };
 
 
-const buildLessonsData = (lessons) => lessons.map(lesson => {
+const buildLessonsData = (lessons) => lessons
+  .filter(lesson => {
+    const content = fs.readFileSync(lesson, 'utf8');
+    const { title, date, tags, status, subtitle, authors } = fm(content).attributes;
+    return (status != "unnasigned" && status != "private");
+  })
+  .map(lesson => {
     const content = fs.readFileSync(lesson, 'utf8');
     const { title, date, tags, status, subtitle, authors } = fm(content).attributes;
     

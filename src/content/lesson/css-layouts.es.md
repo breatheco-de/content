@@ -10,7 +10,7 @@ date: "2018-01-11"
 tags: ["modelo de cajas","CSS","HTML"]
 ---
 
-## **El Modelo de Cajas**
+## El Modelo de Cajas
 ***
 
 Probablemente, el concepto más difícil de entender de CSS es la diagramación y posicionamiento de los elementos de una página web.  Esto pasa porque CSS no fue hecho con el propósito de visualizar documentos tan avanzados e interactivos como los que vemos en la actualidad.
@@ -49,12 +49,12 @@ En el siguiente ejemplo puedes ver como dividir en dos una página web para colo
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/">Click aqui para abrir demo en una nueva ventana</a></small></div>
 
-# **Ancho y Largo de las Cajas**
+# Ancho y Largo de las Cajas
 ***
 
 Todas las cajas tienen dos atributos que definen su tamaño: width and height.  En algunos casos se ajustan automáticamente, pero en otros debemos asignarlos manualmente o colocarlos porcentualmente (relativo al tamaño del dispositivo del cliente).
 
-## **Atributo: Position**
+## Atributo: Position
 ***
 
 El navegador es el responsable de asignar posiciones a todos los elementos de una página, pero, como ya sabemos, las posiciones que traen los elementos son bastante limitadas y hacen que los documentos se vean feos y anticuados.
@@ -74,7 +74,7 @@ Para que un sitio web se vea como los sitios web de la actualidad, tenemos que r
 
 Espera!!  Si no entendiste bien lo que acabamos de decir, bueno……realmente no importa (en este punto).  Este es uno de esos momentos donde necesitamos que practiques para entenderlo.  No hay otra opción. 🙁
 
-## **Atributo: Display**
+## Atributo: Display
 ***
 
 Las posibilidades de la propiedad `display` son mucho más avanzadas que simplemente ocultar elementos.  En realidad, la propiedad `display` modifica la forma en la que se visualizan.
@@ -95,7 +95,7 @@ Son muy utilizadas para listar elementos, para los menús de navegación, para l
 
 Para entender display perfectamente lo mejor es… ¡ponernos a practicar!.
 
-## **Atributo: Float**
+## Atributo: Float
 ***
 
 Es un atributo sencillo pero muy útil.  Sirve para decirle a una caja que se desplace lo máximo posible hacia algún lado: izquierda o derecha.  Una vez que le asignes la propiedad float a algún elemento, este buscará el mejor espacio para acomodarse, intentando convivir con los elementos que lo rodean.
@@ -112,7 +112,7 @@ Es muy utilizado en blogs cuando quieres agregar imágenes a tus artículos.  Es
 |right   |Desplaza el elemento lo más a la derecha posible.   |
 
 
-## **Pensemos en UI/UX por un momento**
+## Pensemos en UI/UX por un momento
 ***
 
 ¡Es tiempo de Yoga! Dejemos de programar y comencemos a pensar sobre la especie humana, ¿cómo son los seres humanos? ¿cómo se comportan? ¿qué les gusta? ¿dónde hacen click?
@@ -128,7 +128,7 @@ Algunos sitios web tienen un excelente contenido pero un mal diseño que limita 
 + **Orientación:** Si estás usando una tablet o un teléfono móvil, puedes rotar la pantalla y eso requiere que el ancho de la página web sea capaz de colocarse más grande (para un paisaje) o más pequeña (para un retrato).
 + **Sentido Común:** Esta es la más complicada, pero nunca sabrás que funciona mejor hasta que lo pruebas.  Quizás mover el menú de la parte de arriba a la izquierda incrementará la interacción de los usuarios.  Debes estar en una constante búsqueda de “la verdad”.
   
-# **Ejemplos de diseño:**
+## Ejemplos de diseño:
 ***
 
 Los siguientes ejemplos reúnen un gran porcentaje de los diseños más usados en la web.  Entiéndelos bien que seguro los vas a tener que usar durante el resto de tu vida como desarrollador.  A veces usarás diferentes enfoques para lograr varias cosas a la vez.
@@ -168,7 +168,7 @@ Es casi lo mismo, pero en vez de tener barras laterales a la izquierda como el m
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/">Click aqui para abrir demo en una nueva ventana</a></small></div>
 
-## Responsive Masonry
+### Responsive Masonry
 ***
 
 Pinterest hizo este diseño universalmente conocido. Mediante el uso de este “innovador” UI, se convirtieron en uno de los sitios webs más visitados en Internet.  Masonry distribuye las cajas de la mejor forma posible, primero trata de cubrir toda la fila añadiendo cajas a la derecha, y después salta al otro lado donde no hay espacio suficiente.
@@ -179,7 +179,7 @@ Otra genialidad sobre Masonry es que cada caja puede tener su propia altura, cos
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/">Click aqui para abrir demo en una nueva ventana</a></small></div>
 
-## Popups / Ventanas Modales / Alertas
+### Popups / Ventanas Modales / Alertas
 ***
 
 La alerta predeterminada de JavaScript es vieja y fea, además de limitada [(click aquí para verla)](https://www.w3schools.com/js/js_popup.asp). A nadie le gusta usarla, eso es porque los desarrolladores siempre quieren construir sus propios modales.
@@ -195,7 +195,7 @@ Para replicar el comportamiento de esta alarma tienes que:
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/8co2hnj1/1/embedded/html,css,result/">Click aqui para abrir demo en una nueva ventana</a></small></div>
 
-# **Demostración en vivo: Juega con la Caja**
+## Demostración en vivo: Juega con la Caja
 ***
 
 Utiliza los sliders de la izquierda para modificar el width, height, padding o cualquier otra regla de CSS que este disponible en la demostración:
@@ -208,11 +208,9 @@ Utiliza los sliders de la izquierda para modificar el width, height, padding o c
 
 Tendrás que aprender “sobre la marcha”, porque hay una infinidad de combinaciones que puedes crear para el diseño de una página web.  Lo que realmente importa, es que entiendas completamente el display, absolute, float y overflow rules.
 
-No te preocupes, amigo mio.  La mayor parte de Bootstrap está hecha para hacer más fáciles los diseños.  Aprenderás esto en la próxima lección.
+No te preocupes, amigo mio.  Hay un recurso llamada `Bootstrap` que está hecha para hacer más fáciles los diseños.  Aprenderás esto en la próxima lección.
 
 ![css layout](https://ucarecdn.com/91aa197c-b2cb-4717-b41f-0f7b579aab25/-/resize/400x/)
-
-
   
 
 

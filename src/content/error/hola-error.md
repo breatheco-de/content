@@ -8,8 +8,7 @@ textColor: "white"
 date: "2018-01-11"
 ---
  
-## **Finally, Bootstrap 4 has arrived!**
-***
+## Finally, Bootstrap 4 has arrived! 
 
 There is light at the end of the tunnel and it is NOT Chuck Norris holding a flashlight.  Finally, someone fixed CSS.  This is a library made by [Mark Otto](https://twitter.com/mdo?lang=en) and [Jacob Thornton](https://twitter.com/fat) – normal people – developers like you and me, and they did great!
 
@@ -20,11 +19,10 @@ These two guys working on Twitter were suffering the same problems we have been 
 Besides, Bootstrap gives you a dozen of new elements that you would normally want to use but don’t actually exist in CSS+HTML: The Bootstrap components.
 
 ## Layouts: Solving the Box Model
-***
 
 One of the broken things in CSS is the way that layouts work – working with **float**, **display** and **position** sucks.  This is how Bootstrap solved it:
 
-# Everything is now divided into Rows and Columns.
+## Everything is now divided into Rows and Columns.
 
 Bootstrap creators replicated the same concept that `<tables>` had, but instead of using tables, they used `<div>` (boxed containers).  They can’t create their own HTML tags because that will require a new HTML version and would make Bootstrap incompatible with current browsers.  Tags must stay the same – that’s why they decided to override the `<div>` default behaviors with classes.
 
@@ -41,7 +39,6 @@ On the flip side, columns were made to live within the rows (just like what happ
 ![bootstrap tutorial](https://ucarecdn.com/1b7f5dc4-029a-475d-8bfd-fac1b739966c/-/resize/500x/)
 
 ## Our first Layout example:
-***
 
 Just like we did in the Layout chapter of the course, let’s create one page with 2 big sections: one sidebar on the right and one main content on the left.
 
@@ -50,7 +47,6 @@ Just like we did in the Layout chapter of the course, let’s create one page wi
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/th7uLrow/4/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 ## Bootstrap is 100% Responsive
-***
 
 It’s very easy to decide how your website will render in different screen sizes; when you add each column into the rows you need to assign a class with the following format:
 
@@ -71,7 +67,6 @@ It’s very easy to decide how your website will render in different screen size
 | :point_up:Note: if you don’t specify the screen size (ex. by using 'sm', 'md', or 'xl'), the website will be rendered for mobile phones by default.
 
 ## Defining Mobile, Tablet, and Desktop at the same time
-***
 
 We are going to set the layout (using the sm, md and lg column classes) for  two rows in all the devices at the same time:
 
@@ -99,7 +94,6 @@ We are going to set the layout (using the sm, md and lg column classes) for  two
 ```
 
 ## Basic Bootstrap 4 Skeleton
-***
 
 We already know the basic HTML5 skeleton any website needs to have.  Now you just have to add a few lines in your skeleton to make it "Bootstrap compatible":
 
@@ -136,7 +130,6 @@ The Bootstrap Javascript functionality requires the jQuery and Popper Javascript
 |:link: Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
 ## Bootstrap 4 Components
-***
 
 HTML is so basic, it only has a few tags – we know that already.  But when you browse the web today, you see a different thing… websites today have menus, icons, load-bars, navbars, labels, etc.  Where are those tags?  None of those tags are defined in HTML!
 
@@ -148,9 +141,8 @@ When you import Bootstrap into your website, you will have a new set of componen
 
 
 ### These are the most Important and Used Components in this Bootstrap tutorial:
-***
 
-#### **The NavBar**
+#### The NavBar
 
 This is so popular that it’s in the menu of 99% of all websites.  It normally has the logo of the company and a series of links – depending on each website’s business logic.
 
@@ -191,7 +183,7 @@ Here is an example of how a NavBar may look on a website:
         </nav>
 ```
 
-#### **The Card**
+#### The Card
 
 This is probably the most used Bootstrap component, every website has a few card because it is ideal to list items in a beautiful way. Some examples of the Card used can be:
 
@@ -219,7 +211,7 @@ Here is an example of how a "The Card" may look on a website:
 
 
 
-#### **The Modal**
+#### The Modal
 
 Everyone hates a modal, it is super annoying, always asking you to subscribe to a newsletter! 🙂
 
@@ -257,7 +249,6 @@ div class="modal" tabindex="-1" role="dialog">
 | :point_up:Important! The Modal needs Javascript in order to work. Remember to include the three Javascript files that are needed in a typical Bootstrap Skeleton: jQuery, Popper and Bootstrap.js
 
 ## What you really need to know about Bootstrap
-***
 
 Bootstrap official documentation is amazing!!  We don’t need to start copying and pasting all their posts.  Please visit the following and focus on reading these topics:
 
@@ -269,7 +260,6 @@ Bootstrap official documentation is amazing!!  We don’t need to start copying 
 
 
 ## Earn RE2PECT.
-***
 
 Success does not come overnight.  This is your first real achievement.  Let me ask you, do you feel capable using HTML, CSS, Layouts and Bootstrap?  Don’t lie to yourself.
 

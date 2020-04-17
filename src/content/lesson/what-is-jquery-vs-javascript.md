@@ -165,7 +165,7 @@ For example, if you want to remove one specific class from an element you will f
 
 &nbsp;
 &nbsp;
-#### **Select Elements from the DOM**
+#### Select Elements from the DOM
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
@@ -183,7 +183,7 @@ var elemArray = $(‘.elm_class’);
 
 &nbsp;
 &nbsp;
-#### **Create a New DOM Element**
+#### Create a New DOM Element
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
@@ -205,7 +205,7 @@ $(‘<a>’,attributesObj);  //the attributesObj is optional
 ```
 &nbsp;
 &nbsp;
-#### **Append Child**
+#### Append Child
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
@@ -222,7 +222,7 @@ $(parent).append(el);
 
 &nbsp;
 &nbsp;
-#### **Remove Element**
+#### Remove Element
 
 Vanilla JS doesn’t have a remove() function.  You will have to call a removeChild function form the element’s parent.
 
@@ -242,7 +242,7 @@ var elements = $( ".hello" ).detach(); //Remove the elements from the DOM but re
 ```
 &nbsp;
 &nbsp;
-#### **Replace Element**
+#### Replace Element
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
@@ -259,7 +259,7 @@ $( "#div1" ).replaceWith( "<h1>This is a new heding</h1>" );
 
 &nbsp;
 &nbsp;
-#### **Traverse childs**
+#### Traverse childs
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
@@ -282,7 +282,7 @@ $(css_selector).find(selector).each(function(index, elm){
 
 &nbsp;
 &nbsp;
-#### **Get/set attribute**
+#### Get/set attribute
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
@@ -314,7 +314,7 @@ For example, if you want to remove one specific class from an element, you will 
 
 &nbsp;
 &nbsp;
-#### **Add/Remove CSS Class**
+#### Add/Remove CSS Class
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
@@ -332,7 +332,7 @@ $(el).removeClass(className);
 ```
 &nbsp;
 &nbsp;
-#### **Get/Set CSS Style Rules**
+#### Get/Set CSS Style Rules
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
@@ -351,7 +351,7 @@ $(el).css(ruleName);
 
 &nbsp;
 &nbsp;
-#### **Toggle Class**
+#### Toggle Class
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
@@ -385,7 +385,7 @@ You already know a lot about events because we went through the Javascript Event
 jQuery does not add much value when working with events, we have the same concepts: Event-Names, Listeners and Handlers. jQuery can listen to the exact same events (click, hover, etc.) and you have the same event information passed as a parameter in the handler function.
 
 
-#### **Add Event Listener**
+#### Add Event Listener
 
 The only really great advantage when working with jQuery events is the jQuery selector, because now you can attach a listener to several objects at the same time without having to iterate through all of them. For example, lets try to add a listener to the click event on all the elements with the class ".btn"
 
@@ -422,7 +422,7 @@ For example, if you want to remove one specific class from an element you will h
 [[warning]]
 | :point_up: AJAX is going to be covered deeply in another lesson, here we are only going to introduce the syntax of ajax function.
 
-#### **GET request**
+#### GET request
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
@@ -460,7 +460,7 @@ $.ajax({
 ```
 &nbsp;
 &nbsp;
-#### **POST request**
+#### POST request
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) With vanilla JavaScript
 
