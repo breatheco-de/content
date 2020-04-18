@@ -61,10 +61,12 @@ To access a specific element in a list, you need an `index`.  We call `index` th
 The index always must start at zero (0).  That means that an List of 2 items can have index=0 or index=1.  Trying to get the 2nd position will return "undefined" because it will mean that we are trying to access the third element (which does not exist).  For example, to get any items in the list you can do the following:
 
 ```python
+
 print(myList[0])  # print first element on the console
+
 aux = myList[3]
-print(aux); # prints the 4th element in the list
-print(myList[myList.length-1]);  # Prints the last element on the console
+print(aux); # print the 4th element on the console
+print(myList[len(myList) - 1]);  # Print the last element on the console
 ```
 
 
