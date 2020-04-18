@@ -61,8 +61,10 @@ To access a specific element in a list, you need an `index`.  We call `index` th
 The index always must start at zero (0).  That means that an List of 2 items can have index=0 or index=1.  Trying to get the 2nd position will return "undefined" because it will mean that we are trying to access the third element (which does not exist).  For example, to get any items in the list you can do the following:
 
 ```python
+
 print(myList[0])  # print first element on the console
-aux = myList[5]
+
+aux = myList[3]
 print(aux); # print the 4th element on the console
 print(myList[len(myList) - 1]);  # Print the last element on the console
 ```
@@ -75,7 +77,7 @@ If you want, you can reset or update any item inside of an list using the index 
 
 ```python
     myList[5] = 'Whatever value'
-    # Assign a value to 5th element on the list 
+    # Assign a value to 6th element on the list 
 ```
 
 ## Adding Elements to Python Lists (append and insert)
@@ -117,12 +119,12 @@ It will remove the last element only! (juan)
 
 ### Using Remove
 
-It will leet you choose what element to remove, but remember the element index starts at 0
+It will let you remove the first occurence of an element by its name.
 ```python
     # If you want to delete 'Chris', you need to do the following: 
-    myList = ['Pedro','Chris','Juan','Maria']
+    myList = ['Pedro','Chris','Juan','Maria','Chris']
     myList.remove('Chris')
-    print(myList) # Output ['Pedro','Juan','Maria'];
+    print(myList) # Output ['Pedro','Juan','Maria','Chris'];
 ```
 
 ### Using Delete
@@ -131,15 +133,15 @@ It will allow you to delete many items at once, you have to specify starting pos
 ```python
     # If you want to delete 'Chris', you need to do the following: 
     myList = ['Pedro','Chris','Juan','Maria','Pepe','Mario','Bob']
-    del myList[2:5]
+    del myList[2:5] #this statement deletes the characters at indexes 2, 3 and 4
     print(myList) # Output ['Pedro', 'Chris', 'Mario', 'Bob']
 ```
 
 ## Looping a List
 ***
 
-Normally, you work with lists, you have to loop all the items. For example: order them manually, flip them, filter them, etc.
-There are many ways you can loop an entire list but the most used one is `for`.
+Normally, when you manipulate lists, you have to loop all the items. For example: order them manually, flip them, filter them, etc.
+There are many ways you can loop an entire list but the most used one is the `for`  loop.
 
 ```python
 myList = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12]
@@ -149,11 +151,11 @@ for number in myList:
 
 ## Looping using the postion
 
-Some times is useful to loop the array using each elemnts position:
+Sometimes it is useful to loop the array using each element's position:
 
 ```python
-for i in range(0,len(myList)):
-    print("The positions is "+str(i)+" for the element "+myList[i])
+for i in range(0, len(myList)):
+    print("The positions is " + str(i) + " for the element " + myList[i])
 
 ### Output:
 # The positions is 0 for the element Pedro
