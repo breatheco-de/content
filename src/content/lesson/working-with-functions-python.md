@@ -125,7 +125,7 @@ print(myVariable)
 [[warning]]
 | :point_up: It is very important to remember that once you use the `return` statement the function will stop executing, if there is any code after that statement it will never be executed.
 
-## Funciones Anónimas Lambda
+## Lambda functions (one line functions) in Python
 
 If you function it's going to be a one line function, you can use the "lambda" trick to be more agile. You have to use the reserved word `lambda`.
 
