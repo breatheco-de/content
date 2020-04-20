@@ -154,7 +154,7 @@ multiply(3,9)
 
 Please remember to assign the function whatever parameters it should receive.  In our example, the multiply function was declared asking for two numbers to multiply.  Play with the following example as you like:
 
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Calling-Functions-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Calling-Functions-in-Python-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Nested Calling
 
