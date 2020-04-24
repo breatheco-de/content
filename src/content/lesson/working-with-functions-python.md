@@ -33,7 +33,7 @@ By reviewing that code we can obtain the following conclusions:
 
 - Every function must be declared using the statement `def`
 - After `def` we have to write the name we want for the function (in this case "multiply").
-- After the name, we have to add the function parameters or inputs separated by a coma `,`. We can pick the name the parameters are going to have, but they must always eb on the same order.
+- After the name, we have to add the function parameters or inputs separated by a coma `,`. We can pick the name the parameters are going to have, but they must always be in the same order.
 - We have to end that line using a colon `:` that way the computer will know we are about to start coding the insides of the function (the function algorithm).
 - The last thing we must do is add a return (good practice), all functions must return something, in this case we returned the multiplication between the A and B parameters (inputs) given.
 
