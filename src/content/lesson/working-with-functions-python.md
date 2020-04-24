@@ -18,7 +18,7 @@ Mastering the use of lists and loops is one of the 5 fundamental skills of build
 
 ## What are Functions?
 
-Basically, a function is a bunch of code wrapped between brackets that you can run anytime whenever you dice.  For example:
+Basically, a function is a bunch of code wrapped between brackets that you can run anytime whenever you decide.  For example:
 
 
 ```python
@@ -33,7 +33,7 @@ By reviewing that code we can obtain the following conclusions:
 
 - Every function must be declared using the statement `def`
 - After `def` we have to write the name we want for the function (in this case "multiply").
-- After the name, we have to add the function parameters or inputs separated by a coma `,`. We can pick the name the parameters are going to have, but they must always eb on the same order.
+- After the name, we have to add the function parameters or inputs separated by a coma `,`. We can pick the name the parameters are going to have, but they must always be on the same order.
 - We have to end that line using a colon `:` that way the computer will know we are about to start coding the insides of the function (the function algorithm).
 - The last thing we must do is add a return (good practice), all functions must return something, in this case we returned the multiplication between the A and B parameters (inputs) given.
 
@@ -53,7 +53,7 @@ print(str(result2)) # Output: 10
 ### Second example about functions
 
 This function calculates the cost of organizing a party with the following criteria:
-1. First we have to know the number of people invited, this will be received as a function argument (parameter or input).
+1. First we have to know the number of people invited, this will be received as a function argument (parameter or input)
 2. We know that every guest will cost $10.
 3. If there are more than 200 guests there is a 10% discount.
 
