@@ -53,7 +53,7 @@ print(str(result2)) # Output: 10
 ### Second example about functions
 
 This function calculates the cost of organizing a party with the following criteria:
-1. First we have to know the number of people invited, this will be received as a function argument (parameter or input)
+1. First we have to know the number of people invited, this will be received as a function argument (parameter or input).
 2. We know that every guest will cost $10.
 3. If there are more than 200 guests there is a 10% discount.
 
