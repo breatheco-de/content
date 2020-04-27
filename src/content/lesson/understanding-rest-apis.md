@@ -86,5 +86,5 @@ Resources represent the documents being transferred across the network to get wo
 
 Further reading:
 
-ReadTheDocs(https://restful-api-design.readthedocs.io/en/latest/resources.html)
-RESTfulAPI.net(https://restfulapi.net/)
+- [ReadTheDocs](https://restful-api-design.readthedocs.io/en/latest/resources.html)
+- [RESTfulAPI.net](https://restfulapi.net/)
