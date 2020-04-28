@@ -35,7 +35,7 @@ Esto es una columna: <div class"col–sm–x">
 ```
 ![bootstrap tutorial](https://ucarecdn.com/3884f515-dd7a-48f2-b238-9e2ec26de02d/-/resize/700x/)
 
-Bootstrap ha dividido el ancho de la pantalla en  `12 slots` (ranuras) - cada una de ellas con el 8.33% del ancho total de la fila. El tamaño de una columna, puede estar entre 1 y 12 slots.
+Bootstrap ha dividido el ancho de la pantalla en  `12 slots` (espacios) - cada uno de ellos con el 8.33% del ancho total de la fila. El tamaño de una columna, puede estar entre 1 y 12 slots.
 
 Por otro lado, las columnas fueron hechas para vivir dentro de las filas (como pasa entre `<td>` y `<tr>`),  siempre necesitas abrir una fila antes de abrir una columna.  Todas las columnas en una fila deben sumar un máximo de 12 ranuras.
 
@@ -59,7 +59,7 @@ Es muy fácil decidir como tu página web se verá en pantallas de diferente tam
 
 |**Col**   |**md**   |**x**
 |:---------|:--------|:----|
-|Significa que este elemento debe comportase como una columna de Bootstrap.   |Significa que estoy especificando solo para dispositivos con tamaño de pantalla "medium".   |Especifica cuantos slots quiero que abarque la columna (recuerda que puede abarcar max 12 slots por fila).   |
+|Significa que este elemento debe comportarse como una columna de Bootstrap.   |Significa que estoy especificando solo para dispositivos con tamaño de pantalla "medium".   |Especifica cuantos espacios quiero que abarque la columna (recuerda que puede abarcar max 12 slots por fila).   |
 
 [[info]]
 | :point_up:Bootstrap device sizes:   |Smartphones   |Big-phone/small-tablet   |Tablets   |Desktops   |Extra-large desktops   |
@@ -67,7 +67,7 @@ Es muy fácil decidir como tu página web se verá en pantallas de diferente tam
 | &nbsp;           |Nothing    |sm       |md       |lg      |xl        |
 
 [[warning]]
-| :point_up:Note: si no especificas el tamaño de pantalla (ej. usando 'sm', 'md', or 'xl'), el sitio web va a renderizar para teléfonos móbiles por defecto.
+| :point_up:Note: si no especificas el tamaño de pantalla (ej. usando 'sm', 'md', or 'xl'), el sitio web va a renderizar para teléfonos móviles por defecto.
 
 ## Define Móvil, Tablet y Escritorio (Desktops) al mismo tiempo
 
