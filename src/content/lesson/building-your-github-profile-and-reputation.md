@@ -46,6 +46,7 @@ Make sure to give your own personal style, but in general you can focus on tryin
     - https://www.firsttimersonly.com/
     - http://yourfirstpr.github.io/
     - https://www.codetriage.com/
+    - https://github.com/MunGell/awesome-for-beginners
 - [ ] You need to be a [github developer program](https://developer.github.com/program/) member. You can join for free and you will get a badge on your profile.
 - [ ] Avoid using  "new developer", "junior developer", "recent graduate", or the like in your summary statement or bio.
 
