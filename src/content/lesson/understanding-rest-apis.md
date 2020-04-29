@@ -81,8 +81,8 @@ Here are some Twitter API URI’s:
 
 A resource is an abstract representation of an object that can be invoked using Create, Read, Update or Delete with your API, for example:
 
-+ If you are building the API of an e-learning application, resources could include:  a student, a course, a class, a topic, a teacher.
-+ If you are building an e-Commerce API, they could be:  Product, Category, Order, Client, Purchase, etc.
+- If you are building the API of an e-learning application, resources could include:  a student, a course, a class, a topic, a teacher.
+- If you are building an e-Commerce API, they could be:  Product, Category, Order, Client, Purchase, etc.
   
 Resources represent the documents being transferred across the network to get work done.  Resources should be named as nouns, as they represent concepts in the domain of a particular system and are identified using URIs.
 
@@ -90,3 +90,7 @@ Further reading:
 
 - [ReadTheDocs](https://restful-api-design.readthedocs.io/en/latest/resources.html)
 - [RESTfulAPI.net](https://restfulapi.net/)
+
+### Public API's
+
+List of public API's taht require no autenthication: https://github.com/public-apis/public-apis
