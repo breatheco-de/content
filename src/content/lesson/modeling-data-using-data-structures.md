@@ -138,28 +138,7 @@ f = my_queue.pop(0) # dequeue F and returns it
 
 ## The Hash Table
 
-Some of the very famose hash table implementations in hash tables are:
-1. Language Translations
-2. Cache memory
-
-```python
-# hash table for languages
-language_hash_table = {
-    "hello world": {
-        "german": "Hallo Welt",
-        "spanish": "Hola Mundo"
-    }
-}
-
-# No we can get any language instantly based on english:
-print(language_hash_table["hello world"]["german"])
-print(language_hash_table["hello world"]["spanish"])
-
-```
-
-## The Hash Table
-
-Some of the very famose hash table implementations in hash tables are:
+Some of the most popular hash table implementations in hash tables are:
 1. Language Translations
 2. Cache memory
 
