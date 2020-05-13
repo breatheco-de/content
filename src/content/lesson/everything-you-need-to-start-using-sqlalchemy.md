@@ -31,7 +31,7 @@ To insert an user with SQL you have to type:
 INSERT INTO user (name, last_name) VALUES ('Bob', 'Ross');
 ```
 
-With an ORM your code keeps beign familiar code like this:
+With an ORM your code keeps being familiar code like this:
 
 ```py
 user = User()
