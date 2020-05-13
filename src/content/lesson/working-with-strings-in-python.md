@@ -15,9 +15,9 @@ tags: ["string","python","concatenation"]
 
 ## What is a string?
 
-A bunch of letters and characters all together in a particular order, the only way to store any characters that are not a numbers, a fundamental part of every major program.
+A bunch of letters and characters all together in a particular order, the only way to store any characters that are not a number, are a fundamental part of every major program.
 
-Strings are also part of the most primivite or basic set of data-types: 
+Strings are also part of the most primitive or basic set of data-types: 
 
 | Type      | Example           | Representation                |
 | ---       | ---               | ---                           |
@@ -31,7 +31,7 @@ Strings are also part of the most primivite or basic set of data-types:
 
 ## How to create a string
 
-To create a string in python jsut what a bunch of characters within quotes like this `"hello"` or even like this `"23232"`.
+To create a string in python just put a bunch of characters within quotes like this `"hello"` or even like this `"23232"`.
 
 ```python
 name = "Bob"
@@ -81,7 +81,7 @@ print("The variable tweet contains "+str(len(tweet))+" characters")
 
 ### Extracting characters
 
-Ofter we also need to know the value of the string in a particular position, for example: If a string ends with a question mark it's probably a question:
+After we also need to know the value of the string in a particular position, for example: If a string ends with a question mark it's probably a question:
 
 ```python
 question = "How are you?"
