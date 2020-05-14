@@ -23,16 +23,16 @@ Here is an example of RESTful API endpoints to manage **Students**:
 | PUT    | /student/1 | Should update the information of the student with the id=1 |
 | DELETE | /student/1 | Should delete the student with id=1 |
 
-Take a look at the URL's they follow a pattern, after a while the endpoints will speak for themselves, it will make sense and you will be able to guest what the do or even guess some endpoints. That is the whole idea.
+Take a look at the URL's they follow a pattern, after a while the endpoints will speak for themselves, it will make sense and you will be able to guess what they do or even guess some endpoints. That is the whole idea.
 
 [[info]]
 | :point_up: You can read more about REST APIs on [this BreatheCode Lesson](http://content.breatheco.de/lesson/understanding-rest-apis).<br /> Here is a cool 8 min video explaining REST: https://www.youtube.com/watch?v=7YcW25PHnAA
 
 ## Now let's talk about Flask
 
-Flask is amazing! It is very similar to Node.js Express Server and that makes it even cooler because you will be able to work with both technologies without much learning curve.
+Flask is amazing! It is very similar to Node.js Express Server and that makes it even cooler because you will be able to work with both technologies without much of a learning curve.
 
-Flask is a library for creating a web server and API, basically when you run a python script that contains the following lines, the computar will start listening for HTTP requests:
+Flask is a library for creating web servers and API's, basically when you run a python script that contains the following lines, the computar will start listening for HTTP requests:
 
 ```python
 from flask import Flask
