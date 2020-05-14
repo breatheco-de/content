@@ -193,6 +193,26 @@ Will update the current array leaving everything but the smaller version that yo
 
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Slice-vs-Splice">Click to open demo in a new window</a></small></div>
 
+
+[[info]]
+| :point_up:  Splice can accept as many optional paramenters as wanted and those will substitute the part of the array that has been deleted. The first parameter is the index where the deletion starts, the second how many elements will be deleted and from the third onward the elements inserted after the position set by the first parameter.
+
+Example:
+```javascript
+var y = [14, 3, 3245, 234, 52, 345, 3, 45, 23, 77];
+y.splice(2,4,'a');  //returns [3245, 234, 52, 345] 
+console.log(y); // [14, 3, 'a', 3, 45, 23, 77]
+```
+We can use this function to insert elements:
+```javascript
+var y = [14, 3, 3245, 234, 52, 345, 3, 45, 23, 77];
+y.splice(2,0,'a');  //returns [] 
+console.log(y); // [14, 3, 'a', 3245, 234, 52, 345, 3, 45, 23, 77]
+```
+
+[Take a look at the docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+
+
 ## Sorting the Arrays
 ***
 
