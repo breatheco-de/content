@@ -184,7 +184,7 @@ graph = {
 
 You can think about Trees like a subtype of Graph, because tree nodes are conected to each other, but the only type of conection that can exist is Parent -> Child relationthip.
 
-Trees are using in a variety of situations like:
+Trees are used in a variety of situations like:
 
 1. The DOM (Document Object Model).
 2. Any computer file directory.
