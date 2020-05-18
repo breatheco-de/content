@@ -1,6 +1,6 @@
 ---
 title: "Using data-structures to store our business needs"
-subtitle: "It is imposible to software without storing information, its time to practice and master the science behin storage"
+subtitle: "It is imposible to software without storing information, its time to practice and master the science behind storage"
 cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
 textColor: "white"
 status: "unassigned"
@@ -34,15 +34,15 @@ There are many publicly known data-structures and you can also create your own, 
 | Stack | Stack is a linear data structure, you can think of it like an Array but with two additional methods: `python>stack.pop()` that removes the last element and `python>stack.push()` that adds one element at the end. LIFO(Last In First Out)/FILO(First In Last Out) order. | Being linear, makes it very efficient in memory because the computer only writes on the edges of the structure  |
 | Queue | The queue is like a stack but it can get the element at the first position: FIFO(First in First Out) | It's a little less efficient that the stack, but still pretty fast and used in many real life scenarios |
 | Hash Table | Hash table is like an array but you can use letters to identify the positions in the list. E.g: `python>print(person["name"])`. In Python we call them Dictonaries, in Javascript we call them Object Literals. | Being able to access elements using a string key is ideal for some situations. For example: we could have one structure for each language and print both languages like this: `print(german["Hello World"])` and `print(spanish["Hello World"])` |
-| Graph | Graps are data structures where any element (called node) can have a pointer to any other node, you can use graphs to represent hiearchies, streets in a city, etc. | Graphs are very efficient because they let you point directly to other nodes instead of having to loop in a sequence, for example Google Maps Traffic uses graphs to calculate the Estimated Time of Arrival  |
-| Tree | Trees are a tipe of Graph with hierarchy (parents and childs), everything starts at the top node and you can use `python>node.childs()` to get the childs of any element and keep drilling down the hierarchy. | Trees are efficient in many scenarios where real life hierarchies are present like: Representing a family, The File Directory of any computer, Website Menu, etc. |
+| Graph | Graphs are data structures where any element (called node) can have a pointer to any other node, you can use graphs to represent hiearchies, streets in a city, etc. | Graphs are very efficient because they let you point directly to other nodes instead of having to loop in a sequence, for example Google Maps Traffic uses graphs to calculate the Estimated Time of Arrival  |
+| Tree | Trees are a type of Graph with hierarchy (parents and childs), everything starts at the top node and you can use `python>node.childs()` to get the childs of any element and keep drilling down the hierarchy. | Trees are efficient in many scenarios where real life hierarchies are present like: Representing a family, The File Directory of any computer, Website Menu, etc. |
 
 [[info]]
-| :point_up: there are other types of data structures and you can also create your own structures but we are covering these cases because they represent the strong mayority of the real-life situations you are going to encouncer while coding.
+| :point_up: There are other types of data structures and you can also create your own structures but we are covering these cases because they represent the strong mayority of the real-life situations you are going to encouncer while coding.
 
 ## The Array
 
-Every programming language has a different array implementation but the most basic and original idea was to have a very low level efficent way to store related values. Arrays are an efficient way of storing because:
+Every programming language has a different array implementation but the most basic and original idea was to have a very low level efficient way to store related values. Arrays are an efficient way of storing because:
 
 1. The computer reserves the memory to store the array values in a sequence, making very fast the i/o operation to write and retrieve values from the array.
 2. In some languages, arrays can one contain values of the same type, making the memory managment of the data-structure more predictable and easier.
