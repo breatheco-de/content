@@ -69,7 +69,7 @@ If you want to add another endpoint to your API that runs when a client calls `G
 ```python
 @app.route("/person") #here we specify the path for the endpoint
 def handle_person(): #here we declare a function that will be called when a request is made to that url
-    return "Hello Person!" #here we specify the string we want to responde to the client.
+    return "Hello Person!" #here we specify the string we want to respond to the client.
 ```
 
 ## Specifying the method: GET, PUT, POST, DELETE
@@ -106,7 +106,7 @@ def handle_person():
 
 ## The Response Code
 
-The response code is 200 by default, and 500 if therer is an uknown error. If you want to respond to the client with a differen code you will have to specify it like this:
+The response code is 200 by default, and 500 if there is an uknown error. If you want to respond to the client with a different code you will have to specify it like this:
 
 ```python
 from flask import Flask, jsonify
