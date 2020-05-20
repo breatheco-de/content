@@ -88,7 +88,7 @@ div * p {
 }
 ```
 
-You can take this as far as you want – the following targets the "great-grandchildren" of the div.  You will find this chaining method used frequently in CSS debugging tricks.
+You can take this as far as you want – the following targets the "grandchildren" of the div.  You will find this chaining method used frequently in CSS debugging tricks.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
