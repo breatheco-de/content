@@ -12,9 +12,9 @@ tags: ["cadena","python",]
 
 
 
-## **¿Que es una cadena?**
+## ¿Que es una cadena?
 
-Una cadena es una secuencia de caracteres. Las cadenas son una parte fundamental de la mayoría de los programas, así pues Java tiene varias características incorporadas que facilitan la manipulación de cadenas. Java tiene una clase incorporada en el paquete java.lang que encapsula las estructuras de datos de una cadena. Esta clase, llamada String es la representación como objeto de una matriz de caracteres que no se puede cambiar. Hay una clase que la acompaña, llamada StringBuffer, que se utiliza para crear cadenas que pueden ser manipuladas después de ser creadas.
+Una cadena es una secuencia de caracteres. Las cadenas son una parte fundamental de la mayoría de los programas, así pues Python tiene varias características incorporadas que facilitan la manipulación de cadenas. Las cadenas tambien son tipos de datos primitivos (simples) y eso las hace ligeras y rapidas de utilizar.
 
 ## ¿Como Crear una cadena?
 
@@ -53,8 +53,8 @@ En este ejemplo `"Mi nombre es "` es una cadena de caracteres que esta siendo co
 uno de los métodos mas habituales que se utilizan en un string es `len(<cadena>)`, que devuelve el nro. de caracteres de una cadena dada:
 
 ```python
-nombre = "Alejandro";
-print("La variable 'nombre' tiene "+str(len(nombre))+" caracteres");
+nombre = "Alejandro"
+print("La variable 'nombre' tiene "+str(len(nombre))+" caracteres")
 
 # se muestra en el terminal: "La variable `nombre` tiene 9 caracteres"
 ```
@@ -87,8 +87,8 @@ Si se desean comparar dos cadenas para ver si son iguales, puede utilizar `==` (
 
 Veamos ahora un ejemplo:
 ```python
-cadena1="pepe";
-cadena2="juan";
+cadena1="pepe"
+cadena2="juan"
 if cadena1 == cadena2:
     # son identicas
 if cadena1 != cadena2:

@@ -7,8 +7,7 @@ date: "2018-01-11"
 tags: ["CSS"]
 ---
 
-## **Why Do We Need to Learn about Selectors?**
-***
+## Why Do We Need to Learn about Selectors?
 
 Completing a stylesheet is like having a little war between selectors, – you are constantly overriding previously defined styles with new ones:
 
@@ -33,8 +32,7 @@ This "very specific" selectors will help you a lot.  They will be your best weap
 [[info]]
 | :tv: &nbsp;[Here is a super cool video (3:40 min) explaining specificity.](https://www.youtube.com/watch?v=In78mSOHmls)
 
-## **The Child Selector**
-***
+## The Child Selector
 
 ```css
 #someDiv > p {
@@ -49,11 +47,7 @@ This statement takes the paragraph tags that are children of the div and turns t
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 
-
-
-
-## **The Adjacent Sibling Selector**
-***
+## The Adjacent Sibling Selector
 
 ```css
 p + p {
@@ -71,7 +65,7 @@ The first paragraph in the list is preceded by the div, so it remains unchanged.
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/">Click to open demo in a new window</a></small></div>
 
-## **The Almighty Asterisk**
+## The Almighty Asterisk
 ***
 
 ```css
@@ -94,27 +88,27 @@ div * p {
 }
 ```
 
-You can take this as far as you want – the following targets the "great grandchildren" of the div.  You will find this chaining method used frequently in CSS debugging tricks.
+You can take this as far as you want – the following targets the "grandchildren" of the div.  You will find this chaining method used frequently in CSS debugging tricks.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/">Click to open demo in a new window</a></small></div>
 
 
-# **Attribute Value Selector**
+## Attribute Value Selector
 ***
 
 ```css
 a[href='http://4geeksacademy.com/'] {color: blue;}
 ```
-If we want to change the font color of the "Design Shack" link, we could use :pseudo selectors.  However, doing so would assume that the list stays in that order, and, browser support isn’t the best.  Instead, what we can do is use an attribute selector to target the specific "href" that we’re interested in.
+If we want to change the font color of the "Design Shack" link, we could use :pseudo selectors.  However, doing so would assume that the list stays in that order, and, browser support isn’t the best.  Instead, what we can do is use an attribute selector to target the specific `href` that we’re interested in.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/">Click to open demo in a new window</a></small></div>
 
 
-## **Arbitrary Substring Attribute Value Selector**
+## Arbitrary Substring Attribute Value Selector
 ***
 
 ```css
@@ -126,7 +120,7 @@ The following code targets any div with the word "section" in the title.  It can
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
-# **Pseudo Class Selectors**
+# Pseudo Class Selectors
 ***
 
 
@@ -163,7 +157,7 @@ input:focus{font-size: 2em;}
 input:enabled{ border: 2px solid black;}
 ```
 
-It is very important to take enough time to style our forms.  Styling is the best way to tell the user that an input is either disabled, checked, or that the cursor is over a particular input.
+It is very important to take enough time to style our forms.  Styling is the best way to tell the user that one input is either disabled, checked, or that the cursor is over a particular input.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -219,7 +213,7 @@ You can apply styles to elements based on their position.
 
 
 [[info]]
-|:link: This is a great reading about CSS Selectors: [The 30 CSS selectors you must memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+|:link: Great reading about CSS Selectors: [The 30 CSS selectors you must memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 
 
 

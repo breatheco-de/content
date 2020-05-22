@@ -10,11 +10,6 @@ syntax: "python"
 tags: ["array", "list","python","loops"]
 ---
 
-## **¿Por qué están los arreglos en una lección separada?**
-***
-
-¡Porque los arreglos son demasiado importantes! Necesitas dominarlos al 100% y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂
-
 Dominar el uso de los `arreglos e iteraciones` es una de las 5 habilidades fundamentales de construir algoritmos:
 
 1. Variables.
@@ -23,7 +18,7 @@ Dominar el uso de los `arreglos e iteraciones` es una de las 5 habilidades funda
 4. `Loops (Bucles)`.
 5. Funciones.
 
-**No no no…Espera:  Listas? Arreglos?  Que?**
+## ¿Qué es un arreglo?
 
 Un arreglo/lista es, normalmente, cualquier colección de valores. Las reglas de cómo agregar o eliminar elementos de esa lista pueden cambiar de un lenguaje de programación a otro. Pero - en general - son las únicas formas en que los desarrolladores pueden crear elementos.
 Los arreglos son la única forma en que tenemos que enumerar las cosas - independientemente de la aplicación con la que esté trabajando, siempre tendrás cosas que enumerar. Por ejemplo: lista de estudiantes, lista de artistas, lista de transacciones ... ¡cualquier cosa!
@@ -84,7 +79,7 @@ Hay dos formas de agregar un nuevo elemento: final de la lista o donde tu quiera
 
 ```python
     myList = ['Pedro','Juan','Maria']
-    myList.append('Chris') # esto agrega a chris al principio del arreglo
+    myList.append('Chris') # esto agrega a chris al final del arreglo
     print(myList); # esto imprimirá ['Pedro','Juan','Maria','Chris'];
 ```
 
@@ -165,7 +160,7 @@ for i in range(0,len(myList)):
 # La posicion es 3 para el elemento Bob
 ```
 
-## Clasificando los Arreglos
+## Ordenando los Arreglos
 
 Es muy común la necesidad de ordenar arreglos. Por ejemplo: ordenar una lista de estudiantes por nombre. Tienes dos funciones para ordenar en JavaScript:
 
@@ -196,18 +191,3 @@ Ahora que conocemos la función de comparación, podemos usarla para indicar a l
     carros_ordenados = sorted(carros, key=lambda item: item['year']) 
     print(carros_ordenados) # [ { 'type': 'Saab', 'year': 2001 },{ 'type': 'BMW', 'year': 2010 },{ 'type': 'Volvo', 'year': 2016 } ]
 ```
-
-
-
-
-
-
-
-
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjAwMTk3MSwtNDQyNDQ4NTM3LDE2Nj
-IwMDE5NzFdfQ==
--->

@@ -34,7 +34,7 @@ The 2 biggest advantages are:
 
 ### Why should you hate it?
 
-Creating a program in an object-oriented way can be slower at the beginning because you have to divide all of your code into all of these little parts.  Also, there are certain – very particular – scenarios when using this practice can complicate your program.
+Creating a program in an object-oriented way can be slower at the beginning because you have to divide all of your code into all of these little parts.  Also, there are certain – very particular – scenarios when using this practice that can complicate your program.
 
 But hey!!…you don’t need to be one of those people that must "love" or "hate" everything.  Instead, try to understand that everything has pros and cons.  Become a master in this technique and use it wisely.
 
@@ -135,10 +135,9 @@ Right after the properties, you have to declare the functions.
 ***
 
 
-The Class Constructor
 The "class constructor" is the first function that gets called in the entire class.  It gets called as soon as the object is created.  It is very good practice to assign initial values to the class properties inside its constructor method.
 
-We call the constructor one of the "magic functions."  They are "magical" because you don’t have to call those functions yourself – they are magically called by the server depending on they purpose that they have (in the case of the constructor, remember the purpose is about initialization).
+We call the constructor one of the "magic functions."  They are "magical" because you don’t have to call those functions yourself – they are magically called by the server depending on the purpose that they have (in the case of the constructor, remember the purpose is about initialization).
 
 Magic functions always start with two underscores, and the __construct() .  We use __construct() in order to do something as soon as we create an object out of a class.  A function of this kind is called a constructor.  Usually we use the constructor to set a value to a property.
 
@@ -161,25 +160,25 @@ All class properties have a Public visibility by default; you can change their v
 
 ***
 
-#### **Public Properties**
+#### Public Properties
 
 Properties that can be accessed from outside the class using the -> operator.
 
 ***
 
-#### **Private Properties**
+#### Private Properties
 
 They cannot be accessed from outside the class; the only way to access or use them is inside the class functions using the $this-> operator.
 To  access a private property you need to create two functions: ***a getter and a setter:***
 
-+ The getter function will be responsible of accessing the value internally and returning it to whoever called upon it.
-+ The setter function is responsible of assigning the given value (as a parameter) to the internal private property.
++ The getter function will be responsible for accessing the value internally and returning it to whoever called upon it.
++ The setter function is responsible for assigning the given value (as a parameter) to the internal private property.
 
 ***
 
 ### What is the Point of Using "getters" and "setters"?
 
-Perhaps you may feel that there it is pointless to use "getters" and "setters" for every property, and you are probably right in most cases.  But, even if you think that writing the "getters" and "setters" are NOT necessary for a particular property, it is a very good practice because you never know when you will need them.
+Perhaps you may feel that it is pointless to use "getters" and "setters" for every property, and you are probably right in most cases.  But, even if you think that writing the "getters" and "setters" are NOT necessary for a particular property, it is a very good practice because you never know when you will need them.
 
 **When do we really need Private Properties and a "getter/setter"?**
 

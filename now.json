@@ -1,8 +1,11 @@
 {
     "version": 2,
     "alias": "content.breatheco.de",
-    "name": "breathecode-content",
     "builds": [
+        { "src": "src/api/*.js", "use": "@now/node" },
         { "src": "package.json", "use": "@now/static-build", "config": {"distDir": "public"} }
+    ],
+    "routes": [
+        { "src": "/api/(.*)", "dest": "/src/apis/$1.js" }
     ]
 }

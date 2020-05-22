@@ -8,19 +8,19 @@ date: "2019-11-11"
 tags: ["java"]
 ---
 
-## **Pero, Qué es java?**
+## Pero, Qué es java?
 ***
 “Java es un lenguaje de programación y una plataforma informática comercializada por primera vez en 1995 por Sun Microsystems”, así de fácil resume la propia web de Java qué es esta tecnología.
 
 Nació con el objetivo de ser un lenguaje de programación de estructura sencilla que pudiera ser ejecutado en diversos sistemas operativos. 
 
-## **Pero, Qué que sirve?**
+## Pero, Qué que sirve?
 ***
 + Java sirve para crear aplicaciones y procesos en una gran diversidad de dispositivos.
 + Se base en **programación orientada a objetivos**
 + permite ejecutar un mismo programa en diversos sistemas operativos y ejecutar el código en sistemas remotos de manera segura.
 
-## **Diferencias entre Java y JavaScript**
+## Diferencias entre Java y JavaScript
 ***
 La similitud en el nombre entre Java y JavaScript genera que en ocasiones se confundan. En cambio, ambos son totalmente diferentes. 
 
@@ -33,7 +33,7 @@ Mostrando algunas de sus diferencias
 |Es un lenguaje orientado a objetos puro   |Está basado en prototipos|
 |Es fuertemente tipado |Es débilmente tipado|
 
-## **Variables**
+## Variables
 ***
 
 <iframe width="830" height="467" src="https://www.youtube.com/embed/Q-eob0WBKs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -113,7 +113,7 @@ int variable = 2;
 public Triangulo(long base, long altura){...}
 ```
 
-## **Nombres de las variables Java**
+## Nombres de las variables Java
 
 Cuando vayamos a dar un nombre a una variable deberemos de tener en cuenta una serie de normas. Es decir, no podemos colocar el nombre que queramos a una variable.
 
@@ -127,7 +127,7 @@ Algunas reglas no escritas, pero que se han asumido por convención son:
 + Si el identificador implica que sea una constante. Es decir que hayamos utilizado los modificadores **final static**, dicho nombre se suele escribir en mayúsculas **(pe. LETRA)**. 
 + Si la constante está compuesta de dos palabras, estas se separan con un subrayado **(pe. LETRA_PI)**.
 
-## **Literales en Java**
+## Literales en Java
 ***
 
 Los valores literales son aquellos que podemos asignar a las variables. Dependiendo del tipo de variable podremos asignar unos valores u otros.
@@ -197,7 +197,7 @@ char variableChar = ‘a’;
 String variableString = “cadena”;
 ```
 
-## **Tipos de Datos Primitivos en Java**
+## Tipos de Datos Primitivos en Java
 ***
 
 Como ya hemos comentado Java es un lenguaje de tipado estático. Es decir, se define el tipo de dato de la variable a la hora de definir esta. Es por ello que todas las variables tendrán un tipo de dato asignado.
@@ -218,7 +218,7 @@ El lenguaje Java da de base una serie de tipos de datos primitivos.
 
 <iframe height="400px" width="100%" src="https://repl.it/repls/TreasuredHeartyProfessionals?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-## **Expresiones, sentencias y bloques en Java**
+## Expresiones, sentencias y bloques en Java
 ***
 
 Un programa en Java se compone de un conjunto de sentencias que se ejecutan para resolver un problema. Las sentencias son el elemento básico de ejecución de los programa Java.
@@ -297,7 +297,7 @@ if (expresion) {
 }
 ```
 
-## **Operadores de Asignación y Aritméticos Java**
+## Operadores de Asignación y Aritméticos Java
 ***
 
 + **Operador de Asignación**
@@ -436,7 +436,7 @@ Los operadores condicionales en Java son aquellos que evalúan dos expresiones b
 |Temerario|?:  |con operador temerario podras hacer condiciones en una sola linea **(5 == 5) ? 5 :0** |
 
 
-## **Sentencias Control en Java**
+## Sentencias Control en Java
 Bien, ahora es cuando todo empieza a ponerse divertido! Para controlar el flujo de tu aplicación, tendrás varias opciones y las utilizarás cada día. Por lo tanto, debes sentirte cómodo usándolas.
 
 Un programa en Java se ejecuta en orden desde la primera sentencia hasta la última.
@@ -530,6 +530,6 @@ Las sentencias de ramificación en Java son: `break` y `continue`.
 
 En el caso de break nos sirve para salir de bloque de sentencias, mientras que continue sirve para ir directamente al siguiente bloque.
 
-## **Entonces ... dime, ¿te gustó El lenguaje Java?**
+## Entonces ... dime, ¿te gustó El lenguaje Java?
 ***
 Java es mas que otro lenguaje de programacion con instrucciones divertidas que podemos ir descubriendo duranto a lo largo del curso

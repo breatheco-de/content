@@ -184,4 +184,4 @@ Como puedes ver, los nombres de las funciones son bastante específicos sobre lo
 Otras cosas importantes a tener en cuenta:
 
 - Estamos llamando a la función `get_person_info` dos veces, sin usar funciones tendríamos que usar más código porque no tendríamos ninguna opción para reutilizar la función.
-- La función get_average es obtener el valor promedio en una matriz dada. No sabe nada más ¡Y eso es genial! Al separar su código en pequeñas funciones, puede concentrarse en una cosa a la vez.
+- La función `get_average` es obtener el valor promedio en una matriz dada. No sabe nada más ¡Y eso es genial! Al separar su código en pequeñas funciones, puede concentrarse en una cosa a la vez.

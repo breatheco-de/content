@@ -43,30 +43,37 @@ class Navbar extends React.Component {
 						id="navbarSupportedContent">
 						<ul className="navbar-nav mr-auto text-center">
 							<li className="nav-item m-0">
-								<a href="https://breatheco.de/lessons" className="nav-link">
-									<p className={`nav-link ${this.state.change && "border-bottom"}`} >
-										Learn To Code
-									</p>
-								</a>
-							</li>
-							<li className="nav-item m-0">
 								<a href="https://breatheco.de/aboutus" className="nav-link">
 									<p className={`nav-link ${this.state.change && "border-bottom"}`}>
-										About Us
+										About
 									</p>
 								</a>
 							</li>
 							<li className="nav-item m-0">
-								<a href="https://breatheco.de/opensource" className="nav-link">
+								<a href="https://breatheco.de/interactive-exercises" className="nav-link">
+									<p className={`nav-link ${this.state.change && "border-bottom"}`} >
+										Practice
+									</p>
+								</a>
+							</li>
+							<li className="nav-item m-0">
+								<a href="https://breatheco.de/lessons" className="nav-link">
+									<p className={`nav-link ${this.state.change && "border-bottom"}`} >
+										Read
+									</p>
+								</a>
+							</li>
+							<li className="nav-item m-0">
+								<a href="https://projects.breatheco.de" className="nav-link">
 									<p className={`nav-link ${this.state.change && "border-bottom"}`}>
-										Open Source Projects
+										Build
 									</p>
 								</a>
 							</li>
 						</ul>
 						<form className="form-inline my-lg-0  d-flex justify-content-center">
 							<a href="https://breatheco.de/contributing" className="nav-link btn btn-outline-success buttonHeight mr-2">
-                                Start Contributing
+                                contribute
 							</a>
 							<a
 								className="btn btn-outline-primary buttonHeight  px-5"

@@ -165,7 +165,7 @@ Por ejemplo, si deseas eliminar una clase específica de un elemento, primero te
 
 &nbsp;
 &nbsp;
-#### **Selecciona Elementos del DOM**
+#### Selecciona Elementos del DOM
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) Con vanilla JavaScript
 
@@ -183,7 +183,7 @@ var elemArray = $(‘.elm_class’);
 
 &nbsp;
 &nbsp;
-#### **Crear un nuevo elemento DOM**
+#### Crear un nuevo elemento DOM
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) Con vanilla JavaScript
 
@@ -205,7 +205,7 @@ $(‘<a>’,attributesObj);  //el attributesObj es opcional
 ```
 &nbsp;
 &nbsp;
-#### **Append Child**
+#### Append Child
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) Con vanilla JavaScript
 
@@ -222,7 +222,7 @@ $(parent).append(el);
 
 &nbsp;
 &nbsp;
-#### **Eliminar Elemento**
+#### Eliminar Elemento
 
 Vanilla JS no tiene una función remove (). Tendrá que llamar a una función removeChild desde el elemento padre del elemento.
 
@@ -242,7 +242,7 @@ var elements = $( ".hello" ).detach(); //Remove the elements from the DOM but re
 ```
 &nbsp;
 &nbsp;
-#### **Reemplazar Elemento**
+#### Reemplazar Elemento
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) Con vanilla JavaScript
 
@@ -259,7 +259,7 @@ $( "#div1" ).replaceWith( "<h1>This is a new heding</h1>" );
 
 &nbsp;
 &nbsp;
-#### **Traverse childs**
+#### Traverse childs
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) Con vanilla JavaScript
 
@@ -282,7 +282,7 @@ $(css_selector).find(selector).each(function(index, elm){
 
 &nbsp;
 &nbsp;
-#### **Obtener/Establecer atributo**
+#### Obtener/Establecer atributo
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) Con vanilla JavaScript
 
@@ -314,7 +314,7 @@ Por ejemplo, si deseas eliminar una clase específica de un elemento, tendrás q
 
 &nbsp;
 &nbsp;
-#### **Añadir/Eliminar clase CSS**
+#### Añadir/Eliminar clase CSS
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) Con vanilla JavaScript
 
@@ -332,7 +332,7 @@ $(el).removeClass(className);
 ```
 &nbsp;
 &nbsp;
-#### **Obtener/Establecer reglas de estilo CSS**
+#### Obtener/Establecer reglas de estilo CSS
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) Con vanilla JavaScript
 
@@ -351,7 +351,7 @@ $(el).css(ruleName);
 
 &nbsp;
 &nbsp;
-#### **Toggle Class**
+#### Toggle Class
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) Con vanilla JavaScript
 
@@ -385,7 +385,7 @@ Ya sabes mucho acerca de los eventos porque pasamos por la lección de Eventos d
 jQuery no agrega mucho valor al trabajar con eventos, tenemos los mismos conceptos: nombres de eventos, listeners y controladores.  jQuery puede escuchar exactamente los mismos eventos (clic, desplazamiento, etc.) y tu tienes la misma información de evento pasada como parámetro en la función del controlador.
 
 
-#### **Añadir un Evento Listener**
+#### Añadir un Evento Listener
 
 La única gran ventaja cuando se trabaja con eventos jQuery es el selector jQuery, ya que ahora puede adjuntar un listener a varios objetos al mismo tiempo sin tener que recorrerlos todos. Por ejemplo, intentemos agregar un detector de sonido al evento de clic en todos los elementos con la clase ".btn"
 
@@ -422,7 +422,7 @@ Por ejemplo, si deseas eliminar una clase específica de un elemento, tendrás q
 [[warning]]
 | :point_up: AJAX se cubrirá en profundidad en otra lección, aquí solo presentaremos la sintaxis de la función ajax.
 
-#### **Solicitud GET**
+#### Solicitud GET
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) Con vanilla JavaScript
 
@@ -460,7 +460,7 @@ $.ajax({
 ```
 &nbsp;
 &nbsp;
-#### **Solicitud POST**
+#### Solicitud POST
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) Con vanilla JavaScript
 

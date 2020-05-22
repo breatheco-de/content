@@ -8,7 +8,7 @@ date: "2018-02-11"
 tags: ["javascript"]
 ---
 
-## **Pero, Qué es programar?**
+## Pero, Qué es programar?
 ***
 
 **La programación no es HTML, CSS o Posición y visualización ...** Esos idiomas no fueron diseñados para desarrolladores, son la única forma en que tenemos que renderizar cosas en un navegador.
@@ -19,7 +19,7 @@ Todo el mundo usa las computadoras por diferentes razones. Algunas computadoras 
 
 No importa para qué está hecha la computadora, la misma base de su existencia es la misma: seguir los comandos. En este capítulo, aprenderás 5 cosas básicas que necesitarás para entender cualquier computadora moderna a través del código.
 
-## **Variables**
+## Variables
 ***
 
 <iframe width="830" height="467" src="https://www.youtube.com/embed/Q-eob0WBKs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -48,7 +48,7 @@ Como puedes ver arriba, el nuevo nombre de la variable no nos dice nada sobre lo
 
 La elección del nombre para tu variable realmente importa, por lo que te rogamos que no utilice nombres genéricos. ¡Se descriptivo! Un nombre vago dificultará la comprensión del propósito de la variable, especialmente para otros programadores (incluido su futuro yo).
 
-## **Asignando un valor a las variables**
+## Asignando un valor a las variables
 ***
 
 Como desarrolladores, podemos establecer el valor de una variable en cualquier momento utilizando el operador `=`. No es necesario establecer un valor cuando declara una variable por primera vez. Puedes establecer, o restablecer (anular) el valor tantas veces como desees, cuando lo desees. El valor siempre será el último que establezcas. A continuación se muestran algunos ejemplos sobre cómo establecer valores en variables:
@@ -85,7 +85,7 @@ Los valores variables están sujetos a cambios en el tiempo. Para recuperar un v
 
 
 
-## **Tipos de Datos**
+## Tipos de Datos
 ***
 Las variables pueden tener diferentes tipos de valores. Algunos de ellos están disponibles solo en lenguajes de programación específicos, pero casi todos tienen los siguientes tipos
 
@@ -106,7 +106,7 @@ Las variables pueden tener diferentes tipos de valores. Algunos de ellos están 
 
 
 
-## **Operaciones**
+## Operaciones
 ***
 
 ¿Qué operaciones puedo hacer con las variables? Dependiendo del tipo de datos tienes algunas posibilidades diferentes:
@@ -116,7 +116,7 @@ Las variables pueden tener diferentes tipos de valores. Algunos de ellos están 
 + No se puede hacer mucho con los tipos de datos nulos, booleanos y no definidos.
 + Hablaremos de Arreglos y Objetos en una sección diferente. Requieren mucha más atención.
 
-## **Funciones**
+## Funciones
 ***
 
 Las funciones son piezas de código que se pueden reutilizar varias veces durante el tiempo de ejecución, independientemente de su posición en el código. Hay cientos de razones para usar funciones, pero aquí están las 2 más importantes:
@@ -124,7 +124,7 @@ Las funciones son piezas de código que se pueden reutilizar varias veces durant
 + Divide y conquista: siempre es más fácil dividir tus problemas en varios problemas más pequeños. Esto se convertirá en su mayor desafío a la hora de resolver problemas complejos. Las funciones serán tus mejores herramientas para la abstracción.
 + Reutilización: cualquier desarrollo normal tomará al menos 5,000 líneas de código. Es redundante e ineficiente seguir escribiendo el mismo código una y otra vez.
 
-## **Declarar una Función**
+## Declarar una Función
 ***
 
 Para declarar una función en JavaScript, debes comenzar a utilizar la palabra `function` seguida del nombre que desea para esa función.
@@ -147,7 +147,7 @@ function multiply (param1, param2)
 
 <div align="right"><small><a href="https://repl.it/F10t/0?lite=true">Click aquí para abrir el video en una nueva ventana</a></small></div>
 
-## **Parámetros y Alcance de la Función**
+## Parámetros y Alcance de la Función
 ***
 
 El alcance de una variable determina dónde está disponible esa variable para ser utilizada. Hay dos tipos principales de ámbitos:
@@ -195,7 +195,7 @@ Puedes agrupar las operaciones lógicas entre paréntesis y también usar parén
 |NOT     |!     |NOT será exactamente lo contrario del resultado del operador lógico:<br>Es !(5 > 5)? True!<br>Is !(True)? False!    |
 
 
-## **Controla el Flujo de Tú Código**
+## Controla el Flujo de Tú Código
 ***
 
 Bien, ahora es cuando todo empieza a ponerse divertido! Para controlar el flujo de tu aplicación, tendrás varias opciones y las utilizarás cada día. Por lo tanto, debes sentirte cómodo usándolas.
@@ -213,7 +213,7 @@ if (number < 18) {
 }
 ```
 
-## **Switch**
+## Switch
 ***
 
 Similar a if ... else ... pero un poco más organizado. Aquí especificará todos los escenarios de casos posibles, incluido el "escenario predeterminado" que ocurrirá si no ocurre ninguno de los otros escenarios.
@@ -286,7 +286,7 @@ for(items in dog){
 }
 ```
 
-## **Entonces ... dime, ¿te gustó la programción?**
+## Entonces ... dime, ¿te gustó la programción?
 ***
 
 La programación es como Taco Bell: siempre se usan los mismos ingredientes, excepto que se mezclan de diferentes maneras. Sabes cómo escribir código, pero ... ¿sabes cómo resolver problemas reales?

@@ -37,7 +37,7 @@ There are only a few differences – here is the explanation:
 |String     |Is the same in PHP.      |
 
 
-### **Printing values**
+### Printing values
 
 Console.log is amazing in JS, but in PHP, you will have to use echo for simple data-types, and print_r to print more complex data-types (like arrays and objects).
 
@@ -75,7 +75,7 @@ CopyArray
 
 PHP started as a functional-programming language and still has a lot of things that will work in functions instead of objects.  That is why it is very important to review the basic array operations; the syntax may look different, but, in the end, they have the same purpose.
 
-### **Looping Arrays**
+### Looping Arrays
 
 #### ![php syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
 
@@ -100,7 +100,7 @@ print_r($value);
 }
 ```
 
-### **Adding and Removing Items**
+### Adding and Removing Items
 
 #### ![php syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
 
@@ -121,7 +121,7 @@ unset($myArray[index]);
 $myArray = array_values($myArray);
 ```
 
-### **Sorting Functions for Arrays**
+### Sorting Functions for Arrays
 
 #### ![php syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
 
@@ -207,7 +207,7 @@ Array
 )*/
 ```
 
-### **The Switch Statement**
+### The Switch Statement
 
 This is almost identical to the switch statement in JavaScript:
 
@@ -251,7 +251,7 @@ switch (favcolor) {
 ?>
 ```
 
-### **Objects**
+### Objects
 
 When working with objects, we have to use the operator "->" instead of "." to access the object properties.
 

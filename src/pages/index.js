@@ -17,25 +17,28 @@ export default class Index extends React.Component{
         return (<div className="container mt-5">
             <img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,128" alt="BreatheCode Logo" />
             <h1>Lesson Index:</h1>
-            <input type="text"
+            <input type="text" className="form-control"
                 onChange={e => this.setState({
                     lessons: data.allMarkdownRemark.edges.filter(l => l.node.frontmatter ? l.node.frontmatter.title.toLowerCase().indexOf(e.target.value.toLowerCase()) > -1 : true)
                 })}
                 placeholder="Search lesson"
             />
-            <ul>
-            {this.state.lessons.map(({ node }) => console.log(node.fields.type+"/"+node.fields.slug) ||
-                <li key={node.id}>
-                <Link
-                    to={node.fields.type+"/"+node.fields.slug}
-                    style={{ textDecoration: `none`, color: `inherit` }}
-                >
-                    {node.frontmatter.title}
-                </Link>
-                </li>
+            <table className="table table-striped">
+            {this.state.lessons.map(({ node }) => 
+                <tr key={node.id}>
+                  <td>
+                    <Link
+                        to={node.fields.type+"/"+node.fields.slug}
+                        style={{ textDecoration: `none`, color: `inherit` }}
+                    >
+                        {node.frontmatter.title}
+                    </Link>
+                  </td>
+                  <td>{node.frontmatter.status || "published"}</td>
+                </tr>
             )}
             <Link to="/tags">All tags</Link>
-            </ul>
+            </table>
         </div>);
     }
 };
@@ -49,6 +52,7 @@ export const query = graphql`
           id
           frontmatter {
             title
+            status
             date(formatString: "DD MMMM, YYYY")
           }
           fields {

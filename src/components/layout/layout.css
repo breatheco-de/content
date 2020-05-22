@@ -39,6 +39,7 @@ template {
 }
 a {
   background-color: transparent;
+  background-image: none;
   -webkit-text-decoration-skip: objects;
 }
 a:active,

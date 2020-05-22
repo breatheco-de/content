@@ -9,7 +9,7 @@ date: "2018-05-11"
 tags: ["fetch","ajax","http"]
 
 ---
-# **Fetch API**
+# Fetch API
 **A Quick Glance at the Fetch API**
 
 

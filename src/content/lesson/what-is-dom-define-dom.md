@@ -7,7 +7,7 @@ date: "2018-05-15"
 tags: ["DOM"]
 ---
 
-## **Stop it with the Console!**
+## Beyond the Console!
 ***
 
 Nobody likes applications that are based on the console…can you imagine using Uber from the command line???
@@ -65,25 +65,25 @@ From the moment a website starts being loaded, the browser creates a hierarchy t
 
 Just like we did with CSS, we can select any element in the document.  There are 4 methods that allow us to search for whatever we want:
 
-### **document.querySelector("css-element-selector")**
+### document.querySelector("css-element-selector")
 
 Returns an instance of **the first element** found that fits the CSS selector that you specified
 
-### **document.getElementById("elementId")**
+### document.getElementById("elementId")
 
 Returns an instance of the element with the id="elementId" in the HTML document.
 
-### **document.getElementsByClassName("exampleClass")**
+### document.getElementsByClassName("exampleClass")
 
 Returns an array of all elements with the class="exampleClass" in their HTML tag property.
 
-### **document.getElementsByTagName("p")**
+### document.getElementsByTagName("p")
 
 Returns an array with all the instances representing each paragraph element in the HTML document.
 
 ### **document.getElementsByName*("name_value")***
 
-Returns an array with all the elements that have name="name_value" in their name property of their HTML tag in the HTML document.
+Returns an array with all the elements that have name="name_value" in the name property of their HTML tag in the HTML document.
 
 ```javascript{numberLines: true}
 var elem = document.getElementById("xyz");
@@ -105,16 +105,16 @@ xyz[0].style.color="red";   // make the first one red
 
 It is very common to need to change an element’s child.  For example:
 
-+ Update all the LI childs of a specific UL to make their background red.
++ Update all the `<li>` children of a specific `<ul>` to make their background red.
 + Remove the first `<tr>` row of a `<table>`s.
-+ Hiding all the childs with a specific class.
++ Hiding all the children with a specific class.
 + And the list goes on!
   
-The best way to retrieve the childs of any DOM element is by using its childNodes properties – like this:
+The best way to retrieve the child elements of any DOM element is by using its childNodes properties – like this:
 
 ### element.childNodes
 
-This returns an array with all the element’s childs.
+This returns an array with all the element’s child elements.
 
 ```javascript{numberLines: true}
 var x = document.getElementById("myDIV");
@@ -226,7 +226,10 @@ element.style.background = "blue";
 ```
 
 
+## Further reading
+***
 
+For more information about accessing the DOM, see: https://developer.mozilla.org/en-US/docs/Web/API/Document
 
 
 

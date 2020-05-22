@@ -8,6 +8,13 @@ tags: ["reactjs"]
 
 ---
 
+Mastering the use of lists and loops is one of the 5 fundamental skills of building algorithms:
+
+1. Variables.
+2. Conditionals.
+3. Lists.
+4. Loops.
+5. `Functions`.
 
 ## What are Functions?
 

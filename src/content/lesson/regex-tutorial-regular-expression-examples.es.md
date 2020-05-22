@@ -49,7 +49,7 @@ Pero, no te preocupes ... no tienes que entenderlo ahora. La buena noticia es qu
 Entonces ... comencemos con las expresiones regulares básicas utilizando los operadores más básicos:
 
 
-### **Caractéres simpler**
+### Caractéres simpler
 
 **Un caracter simple es…**
 
@@ -63,7 +63,7 @@ Cualquier sucesión de caracteres es una simple expresión regular. Si usamos la
 
 <div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?e=email">Click para abrir demo en una nueva ventana</a></small></div>
 
-### **El Caracter `.`**
+### El Caracter `.`
 
 **El caracter `python>.` representa…**
 
@@ -78,7 +78,7 @@ Puedes usar el `.` tantas veces como quieras; la expresión regular reemplazará
 <div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bC4uZQ%3D%3D&amp;c=TGV0IG1lIGxpdmUgbXkgbGlmZSB5b3UgbCMkZSE%3D">Click para abrir demo en una nueva ventana</a></small></div>
 
 
-### **El Caracter Rango `[ ]`**
+### El Caracter Rango `[ ]`
 
 **El caracter  `python>[ ]` representa…**
 
@@ -107,7 +107,7 @@ También puedes combinar rangos de caracteres como este:
 
 
 
-### **El caracter `^` (simbolo de intercalación): Negación o comienzo de un término**
+### El caracter `^` (simbolo de intercalación): Negación o comienzo de un término
 
 **Si colocamos `^` al comienzo de un [rango]:**
 
@@ -203,7 +203,7 @@ Afrontémoslo: las expresiones regulares son algo que utilizarás de vez en cuan
 
 Aquí hay algunos Regex pre-hechos:
 
-#### **Expresión regular para: validar un correo electrónico**
+#### Expresión regular para: validar un correo electrónico
 
 ![regex tutorial regular expression examples](https://ucarecdn.com/39f93d0d-248e-4e94-b402-b744c4b06a4d/-/resize/1000x/)
 
@@ -226,7 +226,7 @@ Finalmente, queremos el final de la cadena ($).
 
 
 
-#### **Expresión Regular para: coincidir con una URL**
+#### Expresión Regular para: coincidir con una URL
 
 Este Regex es casi como tomar la parte final del Regex anterior, colocándolo entre "http: //" y alguna estructura de archivos al final. Suena mucho más simple de lo que realmente es. Para empezar, debemos buscar el comienzo de la línea con el cursor.
 

@@ -10,8 +10,7 @@ date: "2018-01-11"
 tags: ["bootstrap"]
 ---
  
-## **¡Al fin, Bootstrap 4 a llegado!!**
-***
+## Bootstrap viene a arreglar el 90% de los problemas de CSS
 
 Hay una luz al final del túnel y no es Chuck Norris con una linterna. ¡Finalmente alguien arregló CSS!  Es una librería hecha por [Mark Otto](https://twitter.com/mdo?lang=en) y [Jacob Thornton](https://twitter.com/fat) personas normales, programadores como tu y yo, y ¡lo hicieron genial!
 
@@ -26,7 +25,7 @@ Además, Bootstrap te da una docena de elementos nuevos que vas a querer usar si
 
 Uno de los defectos en CSS, es la forma en que funcionan los layouts: trabajar con **float**,  **display** y **position** ¡es lo peor! Así es como Bootstrap lo soluciona:
 
-# Ahora todo está dividido en Filas y Columnas
+## Ahora todo está dividido en Filas y Columnas
 
 Los creadores de Bootstrap, replicaron el mismo concepto que tienen las `<tables>`, pero en vez de usar tablas usaron `<div>` (contenedores de cajas). Ellos no podían crear sus propias etiquetas en HTML, porque eso requiere una nueva versión de HTML e iba a hacer a Bootstrap incompatible con los navegadores actuales. Las tags debían ser las mismas - por eso decidieron anular el comportamiento que trae un `<div>` por defecto.
 
@@ -36,14 +35,13 @@ Esto es una columna: <div class"col–sm–x">
 ```
 ![bootstrap tutorial](https://ucarecdn.com/3884f515-dd7a-48f2-b238-9e2ec26de02d/-/resize/700x/)
 
-Bootstrap ha dividido el ancho de la pantalla en  `12 slots` (ranuras) - cada una de ellas con el 8.33% del ancho total de la fila. El tamaño de una columna, puede estar entre 1 y 12 slots.
+Bootstrap ha dividido el ancho de la pantalla en  `12 slots` (espacios) - cada uno de ellos con el 8.33% del ancho total de la fila. El tamaño de una columna, puede estar entre 1 y 12 slots.
 
 Por otro lado, las columnas fueron hechas para vivir dentro de las filas (como pasa entre `<td>` y `<tr>`),  siempre necesitas abrir una fila antes de abrir una columna.  Todas las columnas en una fila deben sumar un máximo de 12 ranuras.
 
 ![bootstrap tutorial](https://ucarecdn.com/1b7f5dc4-029a-475d-8bfd-fac1b739966c/-/resize/500x/)
 
 ## Nuestro primer Ejemplo de Diseño:
-***
 
 Tal cual como hicimos en el capítulo sobre diseños, vamos a crear una página con dos grandes secciones, una barra lateral a la derecha y un contenido principal a la izquierda:
 
@@ -51,8 +49,7 @@ Tal cual como hicimos en el capítulo sobre diseños, vamos a crear una página 
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/th7uLrow/4/embedded/html,css,result/">Click aquí para ver el demo en una ventana nueva</a></small></div>
 
-## Bootstrap es 100% Sensible
-***
+## Responsive (Responsivo)
 
 Es muy fácil decidir como tu página web se verá en pantallas de diferente tamaño; cuando añades cada columna dentro de las filas, necesitas asignar una clase con el siguiente formato:
 
@@ -62,7 +59,7 @@ Es muy fácil decidir como tu página web se verá en pantallas de diferente tam
 
 |**Col**   |**md**   |**x**
 |:---------|:--------|:----|
-|Significa que este elemento debe comportase como una columna de Bootstrap.   |Significa que estoy especificando solo para dispositivos con tamaño de pantalla "medium".   |Especifica cuantos slots quiero que abarque la columna (recuerda que puede abarcar max 12 slots por fila).   |
+|Significa que este elemento debe comportarse como una columna de Bootstrap.   |Significa que estoy especificando solo para dispositivos con tamaño de pantalla "medium".   |Especifica cuantos espacios quiero que abarque la columna (recuerda que puede abarcar max 12 slots por fila).   |
 
 [[info]]
 | :point_up:Bootstrap device sizes:   |Smartphones   |Big-phone/small-tablet   |Tablets   |Desktops   |Extra-large desktops   |
@@ -70,10 +67,9 @@ Es muy fácil decidir como tu página web se verá en pantallas de diferente tam
 | &nbsp;           |Nothing    |sm       |md       |lg      |xl        |
 
 [[warning]]
-| :point_up:Note: si no especificas el tamaño de pantalla (ej. usando 'sm', 'md', or 'xl'), el sitio web va a renderizar para teléfonos móbiles por defecto.
+| :point_up:Note: si no especificas el tamaño de pantalla (ej. usando 'sm', 'md', or 'xl'), el sitio web va a renderizar para teléfonos móviles por defecto.
 
 ## Define Móvil, Tablet y Escritorio (Desktops) al mismo tiempo
-***
 
 Vamos a configurar el diseño (usando las clases de columnas xs, sm, md y lg) para estas dos filas en todos los dispositivos al mismo tiempo:
 
@@ -152,7 +148,7 @@ Cuando importas un bootstrap en tu página web, tendrás un nuevo set de compone
 ### Esto son los componentes más usado e importantes de Bootstrap:
 ***
 
-#### **Barra de Navegacion o The NavBar**
+#### Barra de Navegacion o NavBar
 
 Esto es tan popular que se encuentra en el 99% de los menús de todos los sitios web.  Normalmente contiene el logo de la compañia y una series de links - dependiendo de la logistica de negocio de la página. 
 
@@ -193,7 +189,7 @@ Aquí hay un ejemplo de como se ve un NavBar en un sitio web:
         </nav>
 ```
 
-#### **The Card**
+#### The Card
 
 Esta es probablemente el componente de Bootstrap más usado, cada sitio web tiene unas cuantas "Card" porque es ideal para listar objeto de una forma bonita.  Algunos ejemplos del uso de "Card" pueden ser:
 
@@ -221,7 +217,7 @@ Aquí hay un ejemplo de como puede verse un sitio web con "The Card":
 
 
 
-#### **El Modal**
+#### El Modal
 
 Todo el mundo odia el modal, es debido a que es super molesto, siempre preguntando si te quieres incribir a una revista! 🙂
 

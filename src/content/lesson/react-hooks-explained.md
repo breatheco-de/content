@@ -2,11 +2,12 @@
 title: "React Hooks Explained"
 subtitle: "Hooks are like Steroids for React Components, and they are almost impossible to avoid. This lesson will focus on the 2 most important ones: useState and useEffect."
 cover: "https://ucarecdn.com/84c4d84c-51b9-4906-a572-71cc07ecfc8c/"
+thumb: "https://i.imgur.com/rUQ0MDb.png"
 textColor: "white"
 date: "2019-10-03"
 authors: ['alesanchezr']
-status: "draft"
-tags: ["reactjs"]
+status: "approved"
+tags: ["reactjs","javascript","react.js","react hooks","react useState","react useEffect"]
 ---
 
 ## Why hooks?
@@ -83,14 +84,14 @@ const MyComponent = () => {
 
         // whatever you code here will execute only after the first time the component renders
 
-    , []);// <------ PLESE NOTICE THE EMPTY ARRAY
+    , []);// <------ PLEASE NOTICE THE EMPTY ARRAY
 
 
     return <Some HTML>;
 }
 ```
 [[info]]
-| :point_up: Please notice the `[]` as the secong parameter of the useEffect.
+| :point_up: Please notice the `[]` as the second parameter of the useEffect.
 
 #### 2) Every time (or some times) after the component re-renders.
 ```jsx
@@ -108,7 +109,7 @@ const MyComponent = () => {
 [[info]]
 | :point_up: This useEffect does not have an empty array `[]` as second parameter.
 
-#### 3) When the component will unmount or stop being rendered (like the good old componentWillUnmount function).
+#### 3) When the component will unmount or stop being rendered (like the good old componentWillUnmount function used by class components).
 ```jsx
 const MyComponent = () => {
     useEffect(() =>

@@ -2,7 +2,7 @@
 title: "Entendiendo la Sintaxis de Python"
 subtitle: "Desata tu poder aprendiendo con esta lección, usando uno de los Reyes del Desarrollo de Back-End. Ahora podrás integrar IA, Big Data, Aprendizaje automático, API e integrar aplicaciones de terceros en su propia cuenta. Disfrute de esta lección sobre la sintaxis de Python"
 
-cover: "http://breatheco.de/wp-content/uploads/2018/01/python-background.jpg"
+cover: "https://ucarecdn.com/576d4b0e-8b35-493d-879c-4d8f914c585f/"
 
 textColor: "white"
 date: "2018-11-05"
@@ -107,7 +107,7 @@ var result = int('5') - int('2');
 <br>
 
 
-### **Casting (análisis) Tipos de datos**
+### Casting (análisis) Tipos de datos
 ***
 
 Javascript es tan flexible que no tiene que prestar mucha atención a los tipos de datos. A Python no le gusta eso... en Python, te acostumbrarás a lanzar variables y convertirlas entre tipos de datos.
@@ -132,7 +132,7 @@ var result = int('5') - int('2');
 <br>
 
 
-### **Valores de Impresión**
+### Valores de Impresión
 ***
 
 Python tiene "print" para escribir en un documento o en la consola. Recuerde que, dado que Python - como cualquier otro lenguaje de back-end - se ejecuta antes del evento de precarga, no tiene acceso a la consola de Javascript.
@@ -217,7 +217,7 @@ print(namesArray)
 <br>
 <br>
 
-### **Lista de bucles (similar a arreglos)**
+### Lista de bucles (similar a arreglos)
 ***
 
 #### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With  JavaScript
@@ -248,7 +248,7 @@ for color in colors:
 <br>
 <br>
 
-### **Adición y Eliminación de Elementos**
+### Adición y Eliminación de Elementos
 ***
 
 <br>
@@ -276,7 +276,7 @@ print(myList)
 ['The', 'earth', 'revolves', 'around', 'sun']
 ```
 
-### **Funciones de Ordenamiento para Listas**
+### Funciones de Ordenamiento para Listas
 ***
 
 #### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
@@ -295,18 +295,18 @@ myArray.sort(key=lambda person: person['name'])
 [[info]]
 | :tv: Llamemos a Socratica de nuevo para entender la clasificación en Python: https://www.youtube.com/watch?v=QtwhlHP_tqc
 
-### **La Declaración de Cambio**
+### La Declaración de Cambio
 
 **Ahora hay una manera de hacer "switch"… pero ¿a quién le importa? 🙂**
 
-### **Listas vs Tuplas**
+### Listas vs Tuplas
 
 Python trae un nuevo tipo de tipo de datos llamado "Tupla". Piense en ello como una lista de rendimiento super delgado y rápido. Pero, como siempre, para aumentar el rendimiento necesitamos disminuir la funcionalidad.
 
 [[info]]
 | :tv: Este es un video obligatorio que explica la diferencia entre ellos: https://www.youtube.com/watch?v=NI26dqhs2Rk
 
-### **Objetos**
+### Objetos
 
 #### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
 

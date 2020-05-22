@@ -2,13 +2,15 @@
 title: " Understanding Rest APIs"
 subtitle: "It seems to be only the beginning of the API revolution! The path of humanity drives towards the API's architecture...you can learn any language or tool, but this is one of those few specialties that will guarantee you a well paid job for the next 60 years, So get comfortable with REST API. :)"
 cover: "https://ucarecdn.com/b929f233-00b2-406f-87a5-ee74146cfd85/"
+video: "https://www.youtube.com/watch?v=s7wmiS2mSXY"
 textColor: "white"
 date: "2018-05-11"
 tags: ["REST","API"]
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s7wmiS2mSXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## What is an API?
-***
 
 An API is the middleman of most modern applications.  API stands for: Application Programming Interface.  Let’s break it down by looking at each of its parts:
 
@@ -31,7 +33,7 @@ Every API is comprised of 3 main components:   (1) The functions/methods that yo
 
 The API methods of a web application depend entirely on the purpose/business of the website:
 
-+ If you are building the API for a product like Uber, some of your methods will be: Signup, Request a trip, Rate a driver, Cancel a trip, etc.
++ If you are building the API for a product like Uber, some of your methods will be: Sign up, Request a trip, Rate a driver, Cancel a trip, etc.
 + If you are building an API for something like AirBnB, some of your methods will be: Book listing, Search for listing, Cancel trip, etc.
 
 ## The REST standard
@@ -79,12 +81,16 @@ Here are some Twitter API URI’s:
 
 A resource is an abstract representation of an object that can be invoked using Create, Read, Update or Delete with your API, for example:
 
-+ If you are building the API of an e-learning application, resources could include:  a student, a course, a class, a topic, a teacher.
-+ If you are building an e-Commerce API, they could be:  Product, Category, Order, Client, Purchase, etc.
+- If you are building the API of an e-learning application, resources could include:  a student, a course, a class, a topic, a teacher.
+- If you are building an e-Commerce API, they could be:  Product, Category, Order, Client, Purchase, etc.
   
 Resources represent the documents being transferred across the network to get work done.  Resources should be named as nouns, as they represent concepts in the domain of a particular system and are identified using URIs.
 
 Further reading:
 
-ReadTheDocs(https://restful-api-design.readthedocs.io/en/latest/resources.html)
-RESTfulAPI.net(https://restfulapi.net/)
+- [ReadTheDocs](https://restful-api-design.readthedocs.io/en/latest/resources.html)
+- [RESTfulAPI.net](https://restfulapi.net/)
+
+### Public API's
+
+List of public API's taht require no autenthication: https://github.com/public-apis/public-apis

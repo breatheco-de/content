@@ -71,7 +71,7 @@ You can save that variable into a `todos.csv` file with the following python cod
 todos = ['make the bed', 'do the laundry', 'finish homework']
 
 todos_as_csv = ','.join(todos) # convert the list into a string
-file = open('todos.csv', 'w+') # open the file for writing 'w', create if it doesn't exists
+file = open('todos.csv', 'w+') # open the file for writing 'w', create if it doesn't exist
 file.write(todos_as_csv) # write the content
 file.close() # close the file
 ```

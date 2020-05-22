@@ -8,7 +8,7 @@ date: "2018-02-11"
 tags: ["javascript"]
 ---
 
-## **But, What is coding?**
+## But, What is coding?
 ***
 
 **Coding is not HTML, CSS or Position and Display…** Those languages were not designed for developers, they are just the only way we have to render stuff in a browser.
@@ -19,7 +19,7 @@ Everybody uses computers for different reasons.  Some computers are created to h
 
 No matter what the computer is made for, the very base of its existence is the same: to follow commands.  In this chapter you will learn 5 basic things you’ll need to understand any modern computer through code.
 
-## **Variables**
+## Variables
 ***
 
 <iframe width="830" height="467" src="https://www.youtube.com/embed/Q-eob0WBKs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -48,7 +48,7 @@ As you can see above, the new variable name does not tell us anything about the 
 
 Choosing the name for your variable really matters, so we beg you not to use generic names.  Be descriptive!  A vague name will make it difficult to understand the purpose of the variable, especially for other coders (including your future self).
 
-## **Assigning a Value to Variables**
+## Assigning a Value to Variables
 ***
 
 As developers, we can set the value of a variable at any time using the `=` operator.  You do not have to set a value when you first declare a variable.  You can set, or re-set (override) the value as many times as you want, whenever you want.  The value will always be the last one you set.  Below are a few examples on how to set values to variables:
@@ -85,7 +85,7 @@ Variable values are subject to change over time.  To retrieve a variable value y
 
 
 
-## **Data Types**
+## Data Types
 ***
 Variables can have different types of values.  Some of them are available only in specific programming languages, but almost all of them have the following types
 
@@ -106,7 +106,7 @@ Variables can have different types of values.  Some of them are available only i
 
 
 
-## **Operations**
+## Operations
 ***
 
 What operations can I do to variables?  Depending on the data-type you have a few different possibilities:
@@ -116,7 +116,7 @@ What operations can I do to variables?  Depending on the data-type you have a fe
 + You cannot do much to Null, Booleans and Undefined data-types.
 + We will talk about Arrays and Objects in a different section.  They require a lot more attention.
 
-## **Functions**
+## Functions
 ***
 
 Functions are pieces of code that can be re-used several times during runtime regardless of their position in the code.  There are hundreds of reasons to use functions, but here are the 2 most important ones:
@@ -124,7 +124,7 @@ Functions are pieces of code that can be re-used several times during runtime re
 + Divide and conquer: It is always easier to split your problems into several smaller problems.  This will become your biggest challenge when solving complex problems.  Functions will be your best tools for abstraction.
 + Re-use: Any normal development will take at least 5,000 lines of code.  It is redundant and inefficent to keep writing the same code over and over again.
 
-## **Declaring a Function**
+## Declaring a Function
 ***
 
 To declare a function in JavaScript you have to start using the word `function` followed by the name you want for that function.
@@ -147,7 +147,7 @@ function multiply (param1, param2)
 
 <div align="right"><small><a href="https://repl.it/F10t/0?lite=true">Click to open demo in a new window</a></small></div>
 
-## **Parameters and Function Scope**
+## Parameters and Function Scope
 ***
 
 The scope of a variable determines where that variable is available to be used.  There are two main types of scopes:
@@ -195,7 +195,7 @@ You can group the logical operations in parentheses, and also use nested parenth
 |NOT     |!     |NOT will be the exact opposite of the result of the logical operator:<br>Is !(5 > 5)? True!<br>Is !(True)? False!    |
 
 
-## **Control the Flow of Your Code**
+## Control the Flow of Your Code
 ***
 
 Okay, now is when everything starts getting fun!  To control your application’s flow you will have several options, and you are going to use each of them every single day.  So, you must to become comfortable using them.
@@ -214,7 +214,7 @@ if (number < 18) {
 }
 ```
 
-## **Switch**
+## Switch
 ***
 
 Similar to if…else… but a little bit more organized.  Here you will specify all of the possible case scenarios – including the `default scenario` that will occur if none of the other scenarios happen.
@@ -287,7 +287,7 @@ for(items in dog){
 }
 ```
 
-## **So.. tell me, did you like coding?**
+## So.. tell me, did you like coding?
 ***
 
 Coding is like Taco Bell:  you always use the same ingredients except they are just mixed in different ways.  You know how to write code, but…do you know how to solve real problems?

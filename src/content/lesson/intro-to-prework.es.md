@@ -25,7 +25,7 @@ Quieres aprender cuál será la habilidad más buscada para los próximos 30 añ
 
 Hemos hecho un gran esfuerzo para resumir las cosas.  Todo lo que encontrarás aquí será la base de tus habilidades.  No hay nada que "saltarse."  Tu viaje ya ha comenzado y no puedes perderte nada.  Seguiremos cada paso de tu camino de aprendizaje.  El Pre-Work es probablemente la fase más importante para convertirse en un desarrollador web.  ¡Aquí entenderás la base de tus habilidades y aprenderas a amarla como nosotros!
 
-![short attention meme](https://breatheco.de/wp-content/uploads/2017/01/short-attention-meme1.jpg)
+![short attention meme](https://ucarecdn.com/b96ddb9a-e076-4e27-b18e-f3fd7a256ad2/)
 
 ## Pero y si Ya Crees Que Ya Sabes?
 <hr>
@@ -35,7 +35,7 @@ Hay algunos de ustedes que ya tienen alguna experiencia con la programación (pr
 Realmente necesitamos conocerte mejor.  Necesitamos estar seguros de que tienes lo necesario para completar el programa.  Va a ser intenso, y te sentirás agotado, pero no te preocupes. ¡Hemos estado haciendo esto por un tiempo y te entendemos!
 
 <p style="text-align:center">
-    <img class="my-class" src="https://breatheco.de/wp-content/uploads/2017/01/i-feel-you.jpg" width="300">
+    <img class="my-class" src="https://ucarecdn.com/bd90ba64-ded5-4fb2-b23f-7d297125e3a5/" width="300">
 </p>
 
 ## Este Curso Funciona, pero Debes Confiar en Nosotros
@@ -49,7 +49,7 @@ Si te sientes abrumado y confundido, <span style="color:#993300">**¡¡pide ayud
 
 ¿Has leído sobre Einstein?  Las personas realmente inteligentes son las que siempre hacen más preguntas. No tienen miedo a no saber o cometer errores.  La única manera en que realmente podemos ayudarte es si nos pides ayuda.
 <p style="text-align:center">
-    <img class="my-class" src="https://breatheco.de/wp-content/uploads/2017/01/126g91.jpg" width="300">
+    <img class="my-class" src="https://ucarecdn.com/5f5f59bc-9efa-4ee9-bce6-6af9eedb4738/" width="300">
 </p>
 
 ## Herramientas de Programación
@@ -62,19 +62,17 @@ Entonces, ahora depende sólo de nosotros!!  Hemos decidido qué pila de program
 Sí, sí, sabemos que algunos de ustedes ya tienen sus propias herramientas, pero mantengamos esa conversación otro momento.  Por ahora, sigue de cerca nuestras sugerencias y danos la oportunidad de decirte cómo hacerlo todo. 
 
 <p style="text-align:center">
-    <img class="my-class" src="https://breatheco.de/wp-content/uploads/2017/01/shu-ha-ri-189x300.jpg" width="180">
+    <img class="my-class" src="https://ucarecdn.com/59bf0e4e-f5cf-410c-b2bc-fdc7472e7cdc/" width="180">
 </p>
 <p style="text-align:center;">
     <sub><sup>Shuhari es un concepto de arte marcial japonés, y describe las etapas de aprendizaje para dominarlo, [click aqui para leer más](https://google.co.ve)</sup></sub>
 </p>
 
 
-| HERRAMIENTAS OBLIGATORIAS                                     | OTRAS FUENTES DE APRENDIZAJE      | AMBIENTE LOCAL (OPTIONAL) |
-| :-:                                                 |    :-:                         |          :-:                 |
-| [Your Email (desktop/mobile)] (#)                   | [StackOverflow] (https://stackoverflow.com)| [Sublime Text 3](https://sublimetext/3)|
-| [Breatheco.de] (https://breatheco.de/en/my-courses/)| [w3Schools.com] (https://w3schools.com)| [Apache, PHP 5.3+, MySQL](https://ampps.com/download)|
-| [Github.com] (https://github.com)                   |                | [GIT] (https://git=scm.com) |
-| [Repl.it] (https://repl.it)                         |                | [Google Chrome.] (https://www.google.com/chrome/)|
-| [Cloud 9 (Codgin IDE)] (https://c9.io)              |                | [PHP Composer.] (https://getcomposer.org/download/)|
-|                                                     |                | [Slack.com (desktop & mobile)](https://breatheco.de/en/lesson/introduction-to-the-prework/#) |
-|                                                     |                | [WhatsApp (mobile)] (https://www.whatsapp.com/download/)|
+| HERRAMIENTAS OBLIGATORIAS                                 | OTROS MATERIALES DE APOYO  |
+| --------------------------------------------------------  | ------------------------  |
+| [Your Email (desktop/mobile)](#)                          | [StackOverflow](https://stackoverflow.com) |
+| [Breatheco.de](https://breatheco.de/en/my-courses/)       | [w3Schools.com](https://w3schools.com) |
+| [Github.com](https://github.com)                          | [Net Ninja JS Tutorial](https://www.youtube.com/watch?v=qoSksQ4s_hg) |
+| [Slack.com (desktop & mobile)](4geeksacademy.slack.com)   |   |
+| [Gitpod](https://gitpod.io/)           |  |

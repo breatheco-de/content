@@ -159,13 +159,13 @@ Todas las propiedades de clase tienen una visibilidad pública por defecto; pued
 
 ***
 
-#### **Propiedades Públicas**
+#### Propiedades Públicas
 
 Propiedades a las que se puede acceder desde fuera de la clase usando el -> operador.
 
 ***
 
-#### **Propiedades Privadas**
+#### Propiedades Privadas
 
 No se puede acceder a ellos desde fuera de la clase; la única forma de acceder o usarlos es dentro de las funciones de clase usando el $this-> operador.
 Para acceder a una propiedad privada necesitas crear dos funciones: ***una captadora (getter) y una establecedora (setter):***
