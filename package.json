@@ -65,8 +65,10 @@
   "devDependencies": {
     "markdown-it": "^8.4.2",
     "markdown-it-fontawesome": "^0.3.0",
+    "node-html-to-image": "^2.1.1",
     "node-sass": "^4.13.1",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "puppeteer": "^3.1.0"
   },
   "repository": {
     "type": "git",

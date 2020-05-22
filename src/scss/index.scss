@@ -27,3 +27,40 @@
     padding-top: 30px;
 }
 
+.thumb{
+    border: 1px solid black;
+    padding: 30px;
+    display: inline-block;
+    width: 470px;
+    height: 246px;
+    transform: translate(-50%,-50%);
+    margin: 50vh 50vw;
+    background: white;
+    h1{
+        text-align: left;
+        margin-top: 40px;
+    }
+    .author{
+        position: relative;
+        left: 10px;
+        bottom: 10px;
+    }
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradienting 15s ease infinite;
+}
+
+@keyframes gradienting {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
