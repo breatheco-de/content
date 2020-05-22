@@ -14,7 +14,8 @@ const createThumb = async (lessonPath) => {
     console.log("Trying to createe "+lessonPath);
     const content = fs.readFileSync(lessonPath, 'utf8');
     //'Gogogo now!'.match(/(go)+/ig)
-    const { slug, title, date, tags, status, authors, subtitle } = fm(content).attributes;
+    const { slug, title, date, tags, status, authors, subtitle, cover } = fm(content).attributes;
+    if(cover) return;
     
     console.log("beatch ", title);
     try{
