@@ -6,8 +6,9 @@ textColor: "white"
 status: "unassigned"
 date: "2018-05-11"
 tags: ["google"]
-
 ---
+
+There
 
 1. Always add the programing language at the end: This is simple, any question you ask on google has to have the programming language at the end: `How to bla bla bla javascript` or `How to bla bla bla python`.
 
