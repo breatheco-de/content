@@ -21,7 +21,7 @@ Mastering the use of conditions is one of the 5 fundamental skills of building a
 
 Conditions are the only way developers have to tell computer how to make decisions in real time, very similar to how our brains work.
 
-Let's say we are building a program to to help us pick what to ware and we hate the blue color, we can tell the computer to avoid blue using a condition like this:
+Let's say we are building a program to help us pick what to wear and we hate the color blue. We can tell the computer to avoid blue using a condition like this:
   
   
 `If` ***color*** is not **blue**, then... do something.  
@@ -42,7 +42,7 @@ else{
 
 ## It is all about the question: What to ask?
 
-The previous example was a simple condition, but in real life picking what to ware involves a combination of several conditions to make the final decision, for example: Lets look at this algorithm that tells if you have a flue
+The previous example was a simple condition, but in real life picking what to wear involves a combination of several conditions to make the final decision, for example: Let's look at this algorithm that tells if you have a flu.
 
 ![Hit by a flu or have a cold](https://ucarecdn.com/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800/)
 
@@ -54,14 +54,14 @@ let youWereHitByTrain = false;
 
 if(feelsLikeHitByTrain == true){
   if(youWasHitByTrain == true){
-    console.log("You don't have a flue");
+    console.log("You don't have a flu");
   }
   else{
-    console.log("You have a flue");
+    console.log("You have a flu");
   }
 }
 else{
-  console.log("You don't have a flue");
+  console.log("You don't have a flu");
 }
 ```
 
@@ -70,7 +70,7 @@ Our job as developers is to sit down and try to prepare a strategy and come up w
 
 ## `AND` and `OR` operators
 
-Another way to write the algorithm is to combine to questions in the same condition using the `AND` and `OR` operators that in Javascript are represented with `&&` for AND and `||` for OR:
+Another way to write the algorithm is to combine two questions in the same condition using the `AND` and `OR` operators that in Javascript are represented with `&&` for AND and `||` for OR:
 
 ```js
 if(feelsLikeHitByTrain == false || youWereHitByTrain == true){
@@ -110,7 +110,7 @@ Another great trick for faster coding is using ternaries that basically allow us
 ```js
 const flu = (feelsLikeHitByTrain && !youWereHitByTrain) ? true : false;
 ```
-In this example the variable `flu` will only be true if `feelsLikeHitByTrain==true` and `youWereHitByTrain==false` at the same time. If that question is not true, then flue will be false.
+In this example the variable `flu` will only be true if `feelsLikeHitByTrain==true` and `youWereHitByTrain==false` at the same time. If that question is not true, then flu will be false.
 
 Ternaries are being use A LOT these days because the save you a lot of time.
 
@@ -129,6 +129,6 @@ let age = 14;
 let alertHTMLCode = (age < 16) ? "<div>Warning! You cannot drive</div>" : "";
 ```
 
-Now our `alertHTMLCode` variable will be empty if the user age is less than 16, if its more it will contain the entire HTML.
+Now our `alertHTMLCode` variable will be empty if the user age is less than 16, if it's more it will contain the entire HTML.
 
 <script async src="//jsfiddle.net/BreatheCode/bycgsnqt/7/embed/js,html,result/"></script>
