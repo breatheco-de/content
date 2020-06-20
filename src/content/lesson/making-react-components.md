@@ -8,7 +8,6 @@ tags: ["reactjs"]
 ---
 
 ## In React.js Everything is a `<Component />`
-***
 
 React.js separates your code into little pieces called Components which can be created/defined as a **class** or as a **function**.  Each component is like a smaller React app that has its own logic and has a final purpose which is to display (Render) something (E.g: a bootstrap Navbar, a dropdown list, a model, a dynamic form, image gallery, subscribe form, almost everything can be designed and coded as a React Component).
 
@@ -32,8 +31,6 @@ class Navbar extends React.Component{
 ```
 
 ## Using a Component
-***
-
 
 Once the component declaration is finished you can reference it using tags like this:
 
@@ -47,12 +44,15 @@ render(
   document.querySelector("#myApp")
 );
 ```
+
 ## The Component Props
-***
+
 
 Sometimes a component needs dynamic information to display.  For example, we need our `<Navbar />` component to show the list of available links and the brand’s logo.  We can include that information within the call of the `<Navbar /> `component just the same as we do in HTML tags.
 
-`<Navbar foo="bar" foo2="bar2" />`
+```jsx
+<Navbar foo="bar" foo2="bar2" />
+```
 
 In this example we are passing an array of menu items and a logo URL to the NavBar component that we have just declared above.
 
@@ -73,7 +73,6 @@ And, lastly, you should tell React where to Render that component into the DOM.
 <div align="right"><small><a href="https://codesandbox.io/embed/zwlnpwmxll?hidenavigation=1">Click here to open demo in a new window</a></small></div>
 
 ## The Component’s State
-***
 
 But what if my component changes over time?  For example a `<Clock />` component will need to update every second and show the current time.  To do that we have the state.
 
@@ -108,7 +107,8 @@ const [ anything, setAnything ] = useState(<any value>);
 
 #### Updating the state on a class-based component
 
-```jsx{numberLines: true}
+```jsx
+
 // WRONG! Never update the state directly 
 this.state.foo = "bar";
 
@@ -127,6 +127,7 @@ this.setState({
 Here is an example of the `<Clock />` component we were just talking about:
 
 #### Using a Function-based component (with hooks)
+
 <iframe
      src="https://codesandbox.io/embed/current-time-in-react-hook-based-dj7k9?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
@@ -146,7 +147,6 @@ Here is an example of the `<Clock />` component we were just talking about:
 
 
 ## But wait, should I use Function or Class?
-***
 
 We strongly recomend to use functions and hooks all the time (not Classes)
 
