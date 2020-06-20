@@ -75,13 +75,38 @@ And, lastly, you should tell React where to Render that component into the DOM.
 ## The Component’s State
 ***
 
-But what if my component changes over time?  For example a `<Clock />` component will need to update every second and show the current time.  To do that we have the State, and it can only be used on components that have been declared as a Class.
+But what if my component changes over time?  For example a `<Clock />` component will need to update every second and show the current time.  To do that we have the state.
 
 ### What is this.**state**?
 
-It’s a **class** variable (available throughout the entire class using this) that you need to declare and initialize inside the class constructor method.  React.js will re-render the entire DOM every time you update that particular variable.
+It’s a variable that you need to declare and initialize inside the component in a particular way.  React.js will re-render the entire DOM every time you update that particular variable.
 
-There’s a catch, though.  The State is unmutable, which means it cannot be edited, so we have to override it using the ***this.setState()*** function that receives the new State object (overriding the old one).
+There’s a catch, though.  The State is unmutable, which means the variable cannot be edited directly, so we have to update it using:
+
+- In a class component using the ***setState()*** function that receives the new State object (overriding the old one).
+- In a functional component using the `useState` hook and setter.
+
+#### Updating the state on a functional component
+
+```jsx
+
+//     pick a variable name.         initial value
+//       ⬇                            ⬇
+const [ error, setError ] = useState(null);
+//               ⬆
+//             pick the modifier name
+
+
+```
+For example we can pick any variable and modifier like this:
+
+```jsx
+const [ size, setSize ] = useState(2);
+const [ color, setColor ] = useState("pink");
+const [ anything, setAnything ] = useState(<any value>);
+```
+
+#### Updating the state on a class-based component
 
 ```jsx{numberLines: true}
 // WRONG! Never update the state directly 
@@ -101,6 +126,19 @@ this.setState({
 
 Here is an example of the `<Clock />` component we were just talking about:
 
+#### Using a Function-based component (with hooks)
+<iframe
+     src="https://codesandbox.io/embed/current-time-in-react-hook-based-dj7k9?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="Current Time in React (hook-based)"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-autoplay allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+<div align="right"><small><a href="https://codesandbox.io/embed/current-time-in-react-hook-based-dj7k9?fontsize=14&hidenavigation=1&theme=dark">Click here to open demo in a new window</a></small></div>
+
+#### Using a Class-based component
+
 <iframe src="https://codesandbox.io/embed/zw852wvqp4?autoresize=1&amp;hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 
@@ -110,20 +148,21 @@ Here is an example of the `<Clock />` component we were just talking about:
 ## But wait, should I use Function or Class?
 ***
 
-Both!  It depends on how complex your component is:
+We strongly recomend to use functions and hooks all the time (not Classes)
 
-+ Functions are super simple and small but very limited, try to use them always unless you are forced to be a Class.
-+ Classes are for bigger components that require more logic.  They have a local State (this.state) and component life-cycle methods.
++ Functions are super simpler.
++ Your bundle (your entire website) size will be lighter and faster to download.
++ Eventually classes will be deprecated.
   
-But don’t worry!  You can switch from one type of declaration to the other without any pain!  Here is a comparison about both types of components:
+You can switch from one type of declaration to the other without any pain!  Here is a comparison about both types of components:
 
 |&nbsp; &nbsp;   |As a **Function**     |As a **Class**   |
 |:---------|:--------:|:---------:|
 |Simplicity      |Very simple declaration and usage.  The only purpose of the function is to return an HTML with whatever this component is supposed to display when placed on the website.      |More complex – the class declaration needs to inherit from React.Component and it contains a lot more functionalities that lets the developer customize the component logic like life-cycle methods and the state.   Please consider that you can create as many additional class methods as you like.         |
 |Declaration       |`python>// using functions`<br>`python>function MyComponent(){`<br>&nbsp;&nbsp;`python>return Hello;`<br>`}`<br><br>`python>// or using arrow functions` <br>`python>const MyComponent = () => Hello;`     |`python>// using classes`<br>`python>import React from 'react';`<br>`python>class MyComponent extends React.Component{`<br> &nbsp; &nbsp;    `python>render(){`<br>  &nbsp; &nbsp; &nbsp;       `python>return Hello;`<br> &nbsp; &nbsp;   `python>}`<br>`python>}`         |
-|Component State       |&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; **No state** <br> <br>This is a stateless component where you have no way of using a global state; this.state is not available.     |You have the state available anytime using this.state – you should initialize the state to some values at the class constructor.<br> <br> `python>class MyComponent{`<br>&nbsp; &nbsp;    `python>constructor(){`<br> &nbsp; &nbsp; &nbsp; &nbsp;`python> super();`<br> &nbsp; &nbsp; &nbsp; &nbsp; `python>python>this.state = {`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>foo: "var"`<br> &nbsp; &nbsp; &nbsp; &nbsp;` python>}`<br> &nbsp; &nbsp; `python>}`<br>`python>}`         |
+|Component State       |Each variable should be declared using the useState Hook inside the function    |The state should be declared on the constructor and then use the function `this.setState` to update it.<br> <br> `python>class MyComponent{`<br>&nbsp; &nbsp;    `python>constructor(){`<br> &nbsp; &nbsp; &nbsp; &nbsp;`python> super();`<br> &nbsp; &nbsp; &nbsp; &nbsp; `python>python>this.state = {`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>foo: "var"`<br> &nbsp; &nbsp; &nbsp; &nbsp;` python>}`<br> &nbsp; &nbsp; `python>}`<br>`python>}`         |
 |Component Properties          |Properties are received as the first function parameter like this:<br><br>`python>function MyComponent(props){`<br> &nbsp;  &nbsp; &nbsp; &nbsp; `python>return Hello {props.name};` <br> `python>}`       |The properties are inside the class variable this.props, and you can reference it anywhere like this:<br><br> `python>class MyComponent{`<br> &nbsp; &nbsp; &nbsp; `python>render(){`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>return Hello {this.props.name};`<br> &nbsp; &nbsp; &nbsp; `python>}`<br>`python>}`      |
-|Life-cycle methods      |No life-cycle methods available.     |You have all the methods available with these being the most important ones: Constructor, ComponentWillMount, ComponentWillUnmount, getDerivedStateFromProps, etc.<br> <br> You can declare inside your component class those methods and they will magically be called by React at the right time, just like this:<br> <br> `python>class MyComponent{`<br> &nbsp; &nbsp; &nbsp; `python>constructor(){`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>super();`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>//initialize your state` <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>this.state = {}`<br> &nbsp; &nbsp; &nbsp; `}`<br> &nbsp; &nbsp; &nbsp; `python>componentDidMount(){  //do something to the state here }` <br> &nbsp; &nbsp; &nbsp; `python>componentWillUnmount(){  //best place to remove listeners }` <br> &nbsp; &nbsp; &nbsp; `python>static getDerivedStateFromProps(nextProps, prevState){ //return the updated state } `<br> &nbsp; &nbsp; &nbsp; `python>//there are many more lifecycle methods` <br> `python>}`        |
+|Life-cycle methods      |Use the useEffect hook for the life cicle. [More information here](https://content.breatheco.de/lesson/react-hooks-explained).    |You have all the methods available with these being the most important ones: Constructor, ComponentDidMount (or useEffect for Hooks), ComponentWillUnmount (or useEffect for Hooks), etc.<br> <br> You can declare inside your component class those methods and they will magically be called by React at the right time, just like this:<br> <br> `python>class MyComponent{`<br> &nbsp; &nbsp; &nbsp; `python>constructor(){`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>super();`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>//initialize your state` <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>this.state = {}`<br> &nbsp; &nbsp; &nbsp; `}`<br> &nbsp; &nbsp; &nbsp; `python>componentDidMount(){  //do something to the state here }` <br> &nbsp; &nbsp; &nbsp; `python>componentWillUnmount(){  //best place to remove listeners }` <br> &nbsp; &nbsp; &nbsp; `python>static getDerivedStateFromProps(nextProps, prevState){ //return the updated state } `<br> &nbsp; &nbsp; &nbsp; `python>//there are many more lifecycle methods` <br> `python>}`        |
 
 [[info]]
 |:link: Here you can find [more information about all the React JS lifecycle methods.](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
