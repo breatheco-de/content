@@ -54,7 +54,7 @@ from flask import Flask #here we import the Flask library into our file
 app = Flask(__name__) #here we create a new instance of the Flask server
 
 @app.route("/") #here we define the first API path: GET /
-def hello(): #this method will be called when the the request is called from a any client
+def hello(): #this method will be called when the the request is called from any client
     return "Hello World!" #flask will return "Hello World, this could be an HTML string or a JSON string.
 
 app.run(host='0.0.0.0') #lastly we start the server on localhost
@@ -79,9 +79,9 @@ If you want your endpoint to answer to POST, PUT or DELETE you can specify that 
 ```python
 from flask import Flask, request
 
-@app.route("/person", methods=['POST', 'GET']) # here we specify that this endpoints accepts POST and GET requests
+@app.route("/person", methods=['POST', 'GET']) # here we specify that this endpoint accepts POST and GET requests
 def handle_person():
-  if request.method == 'POST': # we can understand what type of request are we handling using a conditional
+  if request.method == 'POST': # we can understand what type of request we are handling using a conditional
     return "A POST has been received!"
   else:
     return "A GET has been received!"
@@ -89,7 +89,7 @@ def handle_person():
 
 ## Responding a JSON body
 
-The response can be basically whatever you want as long as it is a string: HTML, JSON, CSS, Images, etc. Just make sure you convert into a string whatever you want to respond.
+The response can basically be whatever you want as long as it is a string: HTML, JSON, CSS, Images, etc. Just make sure you convert into a string whatever you want to respond.
 
 In the following example we are using the jsonify method to convert a dictionary called `person1` into a JSON string before returning it to the client.
 
