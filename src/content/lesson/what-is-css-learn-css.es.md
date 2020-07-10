@@ -1,6 +1,6 @@
 ---
 title: "Aprendamos CSS: Que Quiere Decir CSS?"
-subtitle: "Como te habrás dado cuenta, HTML te permite crear solo sitios web básicos.
+subtitle: "Como te habrás dado cuenta, HTML te permite crear sólo sitios web básicos.
 
 Nadie quiere ver un sitio web blanco con algún texto horrible en él.
 
