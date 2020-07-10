@@ -34,13 +34,13 @@ React.js defines itself as a front-end library to user interfaces. Basically, Re
 
 From now on React.js will take care of the DOM, your job is to create your own `<Tags>` and define how they should display or render.
 
-#### Everything is component
+#### Everything is a component
 
 You'll divide your app into small pieces (components), all together they make the website a whole.
 
 #### No more website refresh
 
-All of your new `<Components>` are a little parts of your layout, but some are hidden at the beginning. You will have to show and hide them based on the user behavior.   
+All of your new `<Components>` are little parts of your layout, but some are hidden at the beginning. You will have to show and hide them based on the user behavior.   
 
 #### No more html String Concatenation
 
