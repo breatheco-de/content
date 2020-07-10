@@ -10,7 +10,7 @@ tags: ["reactjs","react router"]
 ## What’s React Router?
 ***
 
-React Router a JS library available thru NPM that helps mainly with 2 problems:
+React Router is a JS library available thru NPM that helps mainly with 2 problems:
 
 + Conditional display for React components based on the current website URL.
 + Web application navigation without having to refresh.
