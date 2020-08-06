@@ -141,7 +141,7 @@ But what if the request comes with errors? For example: If we have an endpoint t
 def create_person():
     # POST request
         body = request.get_json() # get the request body content
-
+        body = str(body)
         if 'first_name' not in body:
             return 'You need to specify the first_name',400
         if 'email' not in body:
