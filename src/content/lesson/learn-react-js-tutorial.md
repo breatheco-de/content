@@ -46,7 +46,7 @@ All of your new `<Components>` are little parts of your layout, but some are hid
 
 Until now, we had to concatenate strings to create the HTML we wanted to place in the `innerHTML` of any DOM element, for example:
 ```js
-document.querySelector('body') = '<h1>'+person.name+'</h1>';
+document.querySelector('body').innerHTML = '<h1>'+person.name+'</h1>';
 ```
 
 But React.js comes with `JSX`, a special language that will let you build HTML on the Javascript side without having to wrap it within quotes (make it a string). Basically you'll are off the annoying HTML string concatenation. 
