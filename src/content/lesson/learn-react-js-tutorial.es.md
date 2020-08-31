@@ -40,12 +40,19 @@ Dividirás tu aplicación en partes pequeñas (componentes), todas juntas hacen 
 
 #### No más recargas del sitio web
 
-Todas tus novedades son una pequeña parte de tu diseño, pero algunas están ocultas al principio. Tendrá que mostrarlos y esconderlos según el comportamiento del usuario. 
+Todas tus nuevos `<Components>` son una pequeña parte de tu diseño, pero algunas están ocultas al principio. Tendrá que mostrarlos y esconderlos según el comportamiento del usuario. 
 
 #### No más Concatenación de String en el HTML
 
+Hasta ahora, hemos concatenado strings para crear el HTML que queremos colocar en el `innerHTML` de un elemento del DOM, por ejempo:
+```js
+document.querySelector('body').innerHTML = '<h1>'+person.name+'</h1>';
+```
 React.js viene con JSX, un lenguaje especial que te permitirá crear HTML en el lado de Javascript sin tener que ajustarlo entre comillas (hazlo una cadena). Básicamente serás de la molesta concatenación de cadenas HTML.
 
+```jsx
+document.querySelector('body') = <h1>{person.name}</h1>;
+```
 <br>
 <br>
 
