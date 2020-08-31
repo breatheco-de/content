@@ -141,7 +141,8 @@ Pero ¿y si la solicitud viene con errores? Por ejemplo: si tenemos un endpoint 
 def create_person():
     # POST request
         body = request.get_json() # obtener el contenido del cuerpo de la solicitud
-
+        if body is None:
+            return "The request body is null", 400
         if 'first_name' not in body:
             return 'You need to specify the first_name',400
         if 'email' not in body:
