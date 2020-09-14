@@ -4,7 +4,7 @@ subtitle: "As you may have noticed, HTML allows you to create only basic website
 
 Nobody wants to see a white website with some horrible text on it.
 
-So it's time to learn what is CSS all about!
+So it's time to learn what CSS is all about!
 
 Learn CSS to make your website beautiful. Let's make it shine!"
 
@@ -17,7 +17,7 @@ tags: ["CSS"]
 ## Welcome to CSS!!
 ***
 We are sure that after diving deep into HTML, everything looks kind of ugly, fixed, and rigid. We have to remember that HTML was created by CERN scientists, and they’re not – usually – the funniest kind of people (although they are the same exact scientists that 
-[discovered The Higgs Boson](https://www.youtube.com/watch?v=0CugLD9HF94), and we do have to bend to our knees for that).  However, HTML is still ugly, and it’s ugly because it was created for a different purpose than the one HTML meets today.
+[discovered The Higgs Boson](https://www.youtube.com/watch?v=0CugLD9HF94), and we do have to bow to our knees for that).  However, HTML is still ugly, and it’s ugly because it was created for a different purpose than the one HTML meets today.
 
 ![what is css](https://ucarecdn.com/6891485c-2a5a-4722-a7dc-f108993c18ba/-/resize/300x/)
 
@@ -56,11 +56,11 @@ Let’s review those 2 tags in more detail:
 
 |**Name**   |**Display**   |**Description**   |
 |:----------|:-------------|:------------------|
-|Link       |link          |The purpose is to link the page with CSS stylesheets.  To use it, you must specify three attributes within the tag: `pyton>rel="stylesheet" type="text/css"` and finally `pyton>href="with document route css"`<br>`pyton>link rel="stylesheet" type="text/css" href="theme.css">`   |
-|Style   |style   |If we do not want or can’t import a CSS style sheet, we have the alternative to define styles in the HEAD of the HTML document.  We simply define the style tag and proceed to write the styles we want for the tags.<br>`pyton><style>`<br>`pyton>h1 {color:red;}`<br>`pyton>p {color:blue;}`<br>`pyton></style>`   |
+|Link       |link          |The purpose is to link the page with CSS stylesheets.  To use it, you must specify three attributes within the tag: `rel="stylesheet" type="text/css"` and finally `href="with document route css"`<br>like so: `<link rel="stylesheet" type="text/css" href="theme.css">`   |
+|Style   |style   |If we do not want or can’t import a CSS style sheet, we have the alternative to define styles in the HEAD of the HTML document.  We simply define the style tag and proceed to write the styles we want for the tags.<br>`<style>`<br>`h1 { color:red; }`<br>`p { color:blue; }`<br>`</style>` |
 
 [[info]]
-| :point_up:Just like it happens with HTML docs (ending with .html) CSS docs (style sheets) end with the `.css extension`.
+| :point_up:Just like it happens with HTML docs (ending with .html) CSS docs (style sheets) end with extension `.css`.
 
 ## CSS Syntax
 ***
@@ -81,15 +81,15 @@ The next example is a style sheet defining 3 different groups of styles (selecto
 You need to match HTML elements to groups of styles and use "selectors" to bind the HTML elements to the CSS groups of rules.
 
 ```css{numberLines: true}
-#selector1 {
+#id-selector {
    color: red;
    font-size: 12px;
 }
-.selector2 {
+.class-selector {
    color: blue;
    background: green;
 }
-selector3 
+tag-selector 
 {
    font-size: 15px;
 }
@@ -105,14 +105,14 @@ body {
 }
 ```
 
-You could also change the color of a single anchor `<a>`. To do that, you must define the ID attribute of the HTML tag defining that particular link `<a id="anchor1">`.  Once that tag has an ID, then you can go to your style sheet and define the `color` rule as follows:
+You could also change the color of a single anchor `<a>`. To do that, you must define a `class` or an `id` attribute of the HTML tag defining that particular link `<a class="anchor1">`. Classes are preferred for use with CSS over IDs due to the fact that the former are reusable and the latter are more often used in conjunction with JavaScript. Once a tag has a class, then you can go to your style sheet and define the `color` rule as follows:
 
 ```css
-#anchor1{
+.anchor1{
    color: red;
 }
 ```
-The next table shows a list of all possible selectors available to use in CSS. Please take your time to review it carefully. Your understanding here is key to continue with CSS, since you need to understand every possible style you can apply to an HTML doc:
+The next table shows a list of all possible types of selectors available to use in CSS. Please take your time to review it carefully. Your understanding here is key to continue with CSS, since you need to understand every possible style you can apply to an HTML doc:
 
 ### ID Selector
 
@@ -131,7 +131,7 @@ Let’s assign "first" as the ID of the first cell in the next table, and then w
 
 |**Selctor**   |**Description**   |**Example**   |
 |:-------------|:-----------------|:-------------|
-|.name_of_the_class   |There is an attribute in HTML called "class", which allows us to group different tags within one logic group.  With CSS we can use `pyton>.` (dot) as a selector of every element using "name_of_the_class" as the attribute of the "class".   |`pyton>.impar { color: #BDBDBD; }`   |
+|.classname   |There is an attribute in HTML called "class", which allows us to group different tags within one logical group.  With CSS we can use `.` (dot) as a selector of every element using the class name to select all html elements with that class attribute.   |`.classname { color: #BDBDBD; }`   |
 
 In the next example we are applying an "odd" class to the cells of this table, and then with CSS we are assigning the yellow background to class .odd:
 
@@ -139,7 +139,7 @@ In the next example we are applying an "odd" class to the cells of this table, a
 
 |**Selector**   |**Description**   |**Example**   |
 |:--------------|:-----------------|:-------------|
-|Element name (tag)   |This makes it possible to apply styles to links, titles, etc.  In the next example we shall change the text color of every link tag `pyton><a>` of the page.   |`pyton>a{ color: #BDBDBD; }`   |
+|Element (tag) type   |This makes it possible to apply styles to links, titles, etc.  In the next example we shall change the text color of every link tag `<a>` on the page.   |`a { color: #BDBDBD; }`   |
 
 Next, we are adding color (green) to the  background of each `td` (cells) of the table:
 
@@ -147,7 +147,7 @@ Next, we are adding color (green) to the  background of each `td` (cells) of the
 
 |**Selector**   |**Description**   |**Examples**  |
 |:--------------|:-----------------|:-------------|
-|selector1,selector2   |If you separate multiple selectors with a comma`pyton>,`, you can assign multiple selectors at the same time to save text. In the following example, we tell every h1 and .impar class elements to turn red.   |`pyton>h1,.impar { color: #BDBDBD; }`   |
+|selector1,selector2   |If you separate multiple selectors with a comma`,`, you can assign multiple selectors at the same time to save text. In the following example, we tell every h1 and .impar class elements to turn red.   |`h1, .impar { color: #BDBDBD; }`   |
 
 ### Advanced Selectors
 
@@ -166,12 +166,12 @@ You have to have a very good understanding of the CSS hierarchy in order to unde
 
 The browser gives priority to more specific selectors like `#id` than the more general selectors like tags. In the following example, we changed the color of all the `<li>` (the items in the list) to blue, but then we changed the text of the second element to red. In this way we demonstrate that the ID selector will always prevail over selecting all the elements with the same tag.
 
-## Attributes
+## Properties
 ***
 
-We have already seen that a CSS style sheet is nothing more than a list that defines the attributes that we want to assign to different elements of the page. Now we have to learn what attributes we can assign to these elements.
+We have already seen that a CSS style sheet is nothing more than a list that defines the properties that we want to assign to different elements of the page. Now we have to learn what properties we can assign to these elements.
 
-There are hundreds – even thousands – of attributes, but, depending on the type of element / label that we want to define, we must focus on different attributes.
+There are hundreds – even thousands – of CSS properties, but depending on the type of element/label that we want to define, we must focus on specific properties.
 
 #### Typography editing
 |Property   |Description   |Values   |
@@ -193,7 +193,7 @@ There are hundreds – even thousands – of attributes, but, depending on the t
 
 #### List editing 
 
-|Attribute   |Description   |Values   |
+|Property   |Description   |Values   |
 |:-----------|:-------------|:--------|
 |[list-style](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style)   |compound property (sum of every property combination)   |list-style-image\|\| list-style-position \|\| list-style-type   |
 |[list-style-image](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-image)   |marker image   |none \| uri   |
@@ -202,7 +202,7 @@ There are hundreds – even thousands – of attributes, but, depending on the t
 
 #### Table editing
 
-|Attributes  |Description   |Values   |
+|Property  |Description   |Values   |
 |:----------|:-------------|:-----------|
 |[border-collapse](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#border-collapse)   |border mode   |collapse \| separate   |
 |[border-spacing](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#border-spacing)   |space between cells   |distance \| distance   |
@@ -222,6 +222,7 @@ There are hundreds – even thousands – of attributes, but, depending on the t
 
 
 
+ [Follow this link to see a detailed list of CSS properties from W3Schools.](https://www.w3schools.com/cssref/)
 
 
 
