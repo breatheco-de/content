@@ -176,9 +176,9 @@ Pinterest made this layout universally known.  By using this "innovative" UI, th
 
 Another great thing about Masonry is that each box can have its own height.   That is challenging in CSS because some older browsers don’t support this feature yet and you will have to use Javascript to patch it.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ovp1nj3s/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ovp1nj3s/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 ## Popups / Modal Windows / Alerts
 ***
