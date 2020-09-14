@@ -143,9 +143,9 @@ Here is the exact code needed for website content to always be aligned at the ce
 
 ![css layout](https://ucarecdn.com/ca5d4285-c151-4b30-a4a2-c6b35510188b/-/resize/500x/)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/">Click here to open live demo in a new window</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/Lwop5kdc/embedded/html,css,result/">Click here to open live demo in a new window</a></small></div>
 
 
 
