@@ -59,7 +59,7 @@ El primer paso será definir nuestro modelo.
 ```py
 class Person(Base):
     __tablename__ = 'person'
-    # Aquí definimos columnas para la persona de la mesa.
+    # Aquí definimos el nombre de la tabla person.
     # Ten en cuenta que cada columna es también un atributo normal de primera instancia de Python.
     id = Column(Integer, primary_key=True)
     name = Column(String(250), nullable=False)
