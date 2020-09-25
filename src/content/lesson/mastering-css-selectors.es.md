@@ -1,6 +1,6 @@
 ---
 title: "Dominando los Selectores de CSS"
-subtitle: "Además de dominar las propiedades display y position, aprender a usar los selectores avanzados de CSS es la habilidad más importante que necesitas desarrollar. No tienes que recordar su sintaxis pero si tenerlos en tu radar para poder desarrollar las estrategias correctas al construir tus estilos CSS de forma DRY. "
+subtitle: "Además de dominar las propiedades display y position, aprender a usar selectores de CSS es la habilidad más importante que necesitas desarrollar. No tienes que recordar su sintaxis pero si tenerlos en tu radar para poder desarrollar las estrategias correctas al construir tu hoja de estilos CSS. "
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-01-11"
@@ -9,16 +9,16 @@ tags: ["CSS"]
 
 ## ¿Por qué necesitamos aprender acerca de los selectores?
 
-Completar una hoja de estilo es como tener una pequeña guerra entre los selectores, estás constantemente anulando los estilos previamente definidos con nuevos:
+Completar una hoja de estilo es como tener una pequeña guerra entre selectores, estás constantemente anulando los estilos previamente definidos con nuevos:
 
 ```css{numberLines: true}
-//Primero dices que quieres que todas las H2 tags sean font-size: 14px
+//Primero dices que quieres que todas las H2 tags sean font-size: 14px y de color: azul;
 h2{
     font-size: 14px;
     color: blue;
 }
 
-//Pero luego tienes una página muy particular donde el fondo es azul, así que necesitas que tus encabezados sean blancos
+//Pero luego tienes una página muy particular donde el fondo también es azul, así que necesitas que tus encabezados sean blancos;
 
 h2{
     color: white;
@@ -27,10 +27,10 @@ h2{
 
 Esto sucede todo el tiempo y, en algún momento, puede ser difícil anular los estilos anteriores.  Debes organizar tus estilos adecuadamente y empezar desde lo menos específico hasta los más especifico. 
 
-Estos selectores muy específicos te ayudarán mucho.  ¡Serán tu mejor herramienta para luchar contra tus estilos de guerra!
+Estos selectores "muy específicos" te ayudarán mucho.  ¡Serán tu mejor herramienta para luchar contra tu guerra de estilos!
 
 [[info]]
-| :tv: &nbsp;[Aquí un vídeo súper (3:40 min) explicando especificidad.](https://www.youtube.com/watch?v=In78mSOHmls)
+| :tv: &nbsp;[Aquí hay un vídeo muy bueno (3:40 min) explicando especificidad.](https://www.youtube.com/watch?v=In78mSOHmls)
 
 ## El Selector de Hijos
 
@@ -40,7 +40,7 @@ Estos selectores muy específicos te ayudarán mucho.  ¡Serán tu mejor herrami
 }
 ```
 
-Esta declaración toma las etiquetas de párrafo que son hijos del div y las convierte en azules.  Tenga en cuenta que solo funciona para los *hijos* de esa div, no necesariamente para todos los descendientes.  Exploremos esto más a fondo con el siguiente ejemplo.
+Esta declaración toma las etiquetas de párrafo que son hijos del div y las convierte en azules.  Ten en cuenta que solo funciona para los *hijos* de ese div, no necesariamente para todos los descendientes.  Exploremos esto más a fondo con el siguiente ejemplo.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -50,7 +50,7 @@ Esta declaración toma las etiquetas de párrafo que son hijos del div y las con
 
 
 
-## El Selector de Hermanos Adyacente
+## El Selector de Parientes Adyacente
 
 ```css
 p + p {
@@ -58,9 +58,9 @@ p + p {
 }
 ```
 
-Usamos el selector de hermanos adyacente para cambiar el segundo y tercer párrafo a rojo.  Esto parece muy complicado, ¿no es así? Instintivamente, esperaríamos que el primer párrafo también fuera rojo.  Después de todo, el primer párrafo está en el mismo nivel del árbol que los dos siguientes, y tiene hermanos.
+Usamos el selector de parientes adyacente para cambiar el segundo y tercer párrafo a rojo.  Esto parece muy complicado, ¿no es así? Instintivamente, esperaríamos que el primer párrafo también fuera rojo.  Después de todo, el primer párrafo está en el mismo nivel del árbol que los dos siguiente y, tiene parientes.
 
-Sin embargo, este selector solo se aplica a elementos que están precedidos por otra cosa.  En este caso, solo se aplicará a los párrafos precedidos directamente por un párrafo de hermanos.
+Sin embargo, este selector solo se aplica a elementos que están precedidos por otra cosa.  En este caso, solo se aplicará a los párrafos precedidos directamente por un párrafo pariente.
 
 El primer párrafo de la lista está precedido por el div, por lo que no se modifica.
 
@@ -77,11 +77,11 @@ El primer párrafo de la lista está precedido por el div, por lo que no se modi
 }
 ```
 
-Lo siguiente convierte a todos los elementos dentro de un div rojo - esto incluye elementos como enlaces que tienen un color predeterminado establecido en otra cosa y no se verían afectados simplemente por apuntar al div.
+El CSS anterior convierte a todos los elementos dentro de un div rojo específico - esto incluye elementos como enlaces que tienen un color predeterminado establecido a otra cosa y no se verían afectados simplemente por apuntar al div.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/79254pm6/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/79254pm6/2/embedded/html,css,result/">Click aquí para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/79254pm6/2/embedded/html,css,result/">Haz click aquí para abrir el demo en una nueva ventana</a></small></div>
 
 
 
@@ -91,18 +91,18 @@ div * p {
 }
 ```
 
-Puedes llevar esto tan lejos como quieras - los siguientes objetivos son los "bisnietos" de la div.  Encontrarás este método de encadenamiento usado frecuentemente en los trucos de depuración de CSS.
+Puedes llevar esto tan lejos como quieras - los siguientes objetivos son los "nietos" de la div.  Encontrarás este método de encadenamiento frecuentemente en los trucos de depuración de CSS.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/">Click para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/">Haz click para abrir el demo en una nueva ventana</a></small></div>
 
 ## Selector de Valor de Atributo
 
 ```css
 a[href='http://4geeksacademy.com/'] {color: blue;}
 ```
-Si queremos cambiar el color de fuente del enlace "Design Shack", podríamos usar: pseudo selectores.  Sin embargo, hacerlo supondría que la lista se mantiene en ese orden y que el soporte del navegador no es el mejor.  En su lugar, lo que podemos hacer es usar un selector de atributos para dirigirnos al "href" específico en el que estamos interesados.  
+Si queremos cambiar el color de fuente del enlace "Design Shack", podríamos usar: pseudo selectores.  Sin embargo, hacerlo supondría que la lista se mantenga en ese orden y que el soporte del navegador no es el mejor.  En su lugar, lo que podemos hacer es usar un selector de atributos para dirigirnos al "href" específico en el que estamos interesados.  
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -119,7 +119,7 @@ El siguiente código apunta a cualquier div con la palabra "section" en el títu
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/">Click aquí para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/">Haz click aquí para abrir el demo en una nueva ventana</a></small></div>
 
 ## Selectores de Pseudo Clase
 
@@ -140,7 +140,7 @@ Puedes cambiar los colores de cualquier elemento del sitio web, dependiendo de s
   
   <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/">Click aquí para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/">Haz click aquí para abrir el demo en una nueva ventana</a></small></div>
 
   
 ### Pseudo Selectores Relacionados con la Entrada 
@@ -156,11 +156,11 @@ input:focus{font-size: 2em;}
 input:enabled{ border: 2px solid black;}
 ```
 
-Es muy importante tomarse el tiempo suficiente para diseñar nuestras formas.  El estilo es la mejor manera de decirle al usuario que una entrada está desactivada, marcada o que tiene el cursor enfocado en una entrada en particular.
+Es muy importante tomarse el tiempo suficiente para darle estilo a nuestros formularios.  El estilo es la mejor manera de decirle al usuario que una entrada está desactivada, marcada o que tiene el cursor enfocado en una entrada en particular.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/">Click aquí para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/">Haz click aquí para abrir el demo en una nueva ventana</a></small></div>
 
 ### Pseudo Selectores Basados en la Posición 
 
@@ -169,11 +169,11 @@ Es muy importante tomarse el tiempo suficiente para diseñar nuestras formas.  E
 #myUL li:nth-child(3){background: orange;}
 #myUL li a:first-of-type{background: green;}
 ```
-Puedes aplicar estilos a los elementos en función a su posición. 
+Puedes aplicar estilos a los elementos en base a su posición. 
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/0nzat2h8/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/0nzat2h8/1/embedded/html,css,result/">Click aquí para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/0nzat2h8/1/embedded/html,css,result/">Haz click aquí para abrir el demo en una nueva ventana</a></small></div>
 
 ### Aquí hay una lista de las pseudo-clases más usadas:
 
@@ -182,7 +182,7 @@ Puedes aplicar estilos a los elementos en función a su posición.
 |[:active](https://www.w3schools.com/cssref/sel_active.asp)   |a:active   |Selecciona el enlace activo   |
 |[:checked](https://www.w3schools.com/cssref/sel_checked.asp)   |input:checked   |Selecciona cada elemento `<input>` marcado   |
 |[:disabled](https://www.w3schools.com/cssref/sel_disabled.asp)   |input:disabled   |Selecciona cada elemento `<input>` deshabilitado   |
-|[:empty](https://www.w3schools.com/cssref/sel_empty.asp)   |p:empty   |Selecciona cada elemento `<p>` que no tiene hijos   |
+|[:empty](https://www.w3schools.com/cssref/sel_empty.asp)   |p:empty   |Selecciona cada elemento `<p>` que no tenga hijos   |
 |[:enabled](https://www.w3schools.com/cssref/sel_enabled.asp)   |input:enabled   |Selecciona cada elemento `<input>` habilitado   |
 |[:first-child](https://www.w3schools.com/cssref/sel_firstchild.asp)   |	p:first-child   |Selecciona cada elemento `<p>` que sea el primer hijo de su padre   |
 |[:first-of-type](https://www.w3schools.com/cssref/sel_first-of-type.asp)   |p:first-of-type   |Selecciona cada elemento `<p>` que sea el primer elemento `<p>` de su padre   |
@@ -190,7 +190,7 @@ Puedes aplicar estilos a los elementos en función a su posición.
 |[:hover](https://www.w3schools.com/cssref/sel_hover.asp)   |	a:hover   |Selecciona enlaces sobre los que está el cursor   |
 |[:in-range](https://www.w3schools.com/cssref/sel_in-range.asp)   |input:in-range   |Selecciona elementos `<input>` con un valor dentro de un rango específico	   |
 |[:invalid](https://www.w3schools.com/cssref/sel_invalid.asp)   |input:invalid   |Selecciona todos los elementos `<input>` con un valor no válido   |
-|[:lang(language)](https://www.w3schools.com/cssref/sel_lang.asp)   |p:lang(it)   |Selecciona cada elemento `<p>` con un valor de tributo que comience con "it"   |
+|[:lang(language)](https://www.w3schools.com/cssref/sel_lang.asp)   |p:lang(it)   |Selecciona cada elemento `<p>` con un valor de atributo que comience con "it"   |
 |[:last-child](https://www.w3schools.com/cssref/sel_last-child.asp)   |p:last-child   |Selecciona cada elemento `<p>` que sea el último hijo de su padre   |
 |[:last-of-type](https://www.w3schools.com/cssref/sel_last-of-type.asp)   |	p:last-of-type   |Selecciona cada elemento `<p>` que sea el último elemento `<p>` de su padre   |
 |[:link](https://www.w3schools.com/cssref/sel_link.asp)  |a:link   |Selecciona todos los enlaces no visitados   |
