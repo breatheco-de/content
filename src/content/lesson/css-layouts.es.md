@@ -1,4 +1,4 @@
----
+
 title: "Aprendamos el Modelo de Cajas"
 subtitle: "Crear diseños es el proceso más doloroso al programar en HTML & CSS
 
@@ -212,7 +212,6 @@ No te preocupes, amigo mio.  Hay un recurso llamado `Bootstrap` que está hecho 
 
 ![css layout](https://ucarecdn.com/91aa197c-b2cb-4717-b41f-0f7b579aab25/-/resize/400x/)
   
-
 
 
 
