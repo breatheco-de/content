@@ -2,7 +2,7 @@
 title: "Tutorial de Bootstrap: Aprende Bootstrap 4 en 10 minutos"
 subtitle: "Después de decadas de lucha, la luz a llegado !! con este tutorial de Bootstrap, diseñar un sitio web va a ser pan comido.   
 
-Es casi estupido, y tambien imposible pensar hacer un sitio web sin un framework de CSS como Bootstrap 4 ."
+Es casi estupido, y tambien imposible pensar en hacer un sitio web sin un framework de CSS como Bootstrap 4 ."
 
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
@@ -12,9 +12,9 @@ tags: ["bootstrap"]
  
 ## Bootstrap viene a arreglar el 90% de los problemas de CSS
 
-Hay una luz al final del túnel y no es Chuck Norris con una linterna. ¡Finalmente alguien arregló CSS!  Es una librería hecha por [Mark Otto](https://twitter.com/mdo?lang=en) y [Jacob Thornton](https://twitter.com/fat) personas normales, programadores como tu y yo, y ¡lo hicieron genial!
+Hay una luz al final del túnel y no es Chuck Norris con una linterna. ¡Finalmente alguien arregló CSS!  Es una librería hecha por [Mark Otto](https://twitter.com/mdo?lang=en) y [Jacob Thornton](https://twitter.com/fat)- personas normales, programadores como tu y yo, y ¡es genial!
 
-Dos chicos mientras trabajaban en Twitter, estaban sufriendo los mismos problemas que nosotros con HTML y CSS. Hartos de esta situación (como nosotros), decidieron crear una **hoja base que puede ser importada en cualquier sitio web**. Esto hizo el trabajo de todos los desarrolladores front-end 4 veces más fácil.
+Dos chicos mientras trabajaban en Twitter, estaban sufriendo los mismos problemas que nosotros con HTML y CSS. Hartos de esta situación (como nosotros), decidieron crear una **hoja base que puede importarse en cualquier sitio web**. Esto hizo el trabajo de todos los desarrolladores front-end 4 veces más fácil.
 
 ![bootstrap 4](https://ucarecdn.com/335ed387-cbf9-4ffa-9529-1ccf2084e393/-/resize/300x/)
 
@@ -27,7 +27,7 @@ Uno de los defectos en CSS, es la forma en que funcionan los layouts: trabajar c
 
 ## Ahora todo está dividido en Filas y Columnas
 
-Los creadores de Bootstrap, replicaron el mismo concepto que tienen las `<tables>`, pero en vez de usar tablas usaron `<div>` (contenedores de cajas). Ellos no podían crear sus propias etiquetas en HTML, porque eso requiere una nueva versión de HTML e iba a hacer a Bootstrap incompatible con los navegadores actuales. Las tags debían ser las mismas - por eso decidieron anular el comportamiento que trae un `<div>` por defecto.
+Los creadores de Bootstrap, replicaron el mismo concepto que tienen las `<tables>`, pero en vez de usar tablas usaron `<div>` (contenedores de cajas). Ellos no podían crear sus propias etiquetas en HTML, porque eso requiere una nueva versión de HTML e iba a hacer a Bootstrap incompatible con los navegadores actuales. Las etiquetass debían ser las mismas - por eso decidieron anular el comportamiento que tiene un `<div>` por defecto con las clases.
 
 ```html
 Esto es una fila: <div class="row">
@@ -35,23 +35,23 @@ Esto es una columna: <div class"col–sm–x">
 ```
 ![bootstrap tutorial](https://ucarecdn.com/3884f515-dd7a-48f2-b238-9e2ec26de02d/-/resize/700x/)
 
-Bootstrap ha dividido el ancho de la pantalla en  `12 slots` (espacios) - cada uno de ellos con el 8.33% del ancho total de la fila. El tamaño de una columna, puede estar entre 1 y 12 slots.
+Bootstrap ha dividido el ancho de la pantalla en  `12 slots` (espacios) - cada uno de ellos con un ancho de fila total  de 8.33%. El tamaño de una columna, puede ir de entre 1 y 12 slots o espacios.
 
-Por otro lado, las columnas fueron hechas para vivir dentro de las filas (como pasa entre `<td>` y `<tr>`),  siempre necesitas abrir una fila antes de abrir una columna.  Todas las columnas en una fila deben sumar un máximo de 12 ranuras.
+Por otro lado, las columnas fueron hechas para vivir dentro de las filas (como pasa entre `<td>` y `<tr>`),  siempre necesitas abrir una fila antes de abrir una columna.  Todas las columnas en una fila deben sumar un máximo de 12 espacios.
 
 ![bootstrap tutorial](https://ucarecdn.com/1b7f5dc4-029a-475d-8bfd-fac1b739966c/-/resize/500x/)
 
 ## Nuestro primer Ejemplo de Diseño:
 
-Tal cual como hicimos en el capítulo sobre diseños, vamos a crear una página con dos grandes secciones, una barra lateral a la derecha y un contenido principal a la izquierda:
+Tal cual como lo hicimos en el capítulo sobre diseños, vamos a crear una página con dos grandes secciones, una barra lateral a la derecha y un contenido principal a la izquierda:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/th7uLrow/4/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/th7uLrow/4/embedded/html,css,result/">Click aquí para ver el demo en una ventana nueva</a></small></div>
 
-## Responsive (Responsivo)
+## Bootstrap es 100% Responsivo
 
-Es muy fácil decidir como tu página web se verá en pantallas de diferente tamaño; cuando añades cada columna dentro de las filas, necesitas asignar una clase con el siguiente formato:
+Es muy fácil decidir como se verá tu página web en pantallas de diferente tamaño; cuando añades cada columna dentro de las filas, debes asignar una clase con el siguiente formato:
 
 ```html
 <div class="col–md–x">
@@ -59,7 +59,7 @@ Es muy fácil decidir como tu página web se verá en pantallas de diferente tam
 
 |**Col**   |**md**   |**x**
 |:---------|:--------|:----|
-|Significa que este elemento debe comportarse como una columna de Bootstrap.   |Significa que estoy especificando solo para dispositivos con tamaño de pantalla "medium".   |Especifica cuantos espacios quiero que abarque la columna (recuerda que puede abarcar max 12 slots por fila).   |
+|Significa que este elemento debe comportarse como una columna de Bootstrap.   |Significa que estoy especificando sólo para dispositivos con tamaño de pantalla mediano.   |Especifica cuantos espacios quiero que abarque la columna (recuerda que puede abarcar max 12 espacios por fila).   |
 
 [[info]]
 | :point_up:Bootstrap device sizes:   |Smartphones   |Big-phone/small-tablet   |Tablets   |Desktops   |Extra-large desktops   |
@@ -67,9 +67,9 @@ Es muy fácil decidir como tu página web se verá en pantallas de diferente tam
 | &nbsp;           |Nothing    |sm       |md       |lg      |xl        |
 
 [[warning]]
-| :point_up:Note: si no especificas el tamaño de pantalla (ej. usando 'sm', 'md', or 'xl'), el sitio web va a renderizar para teléfonos móviles por defecto.
+| :point_up:Nota: si no especificas el tamaño de pantalla (ej. usando 'sm', 'md', or 'xl'), el sitio web va a renderizar para teléfonos móviles por defecto.
 
-## Define Móvil, Tablet y Escritorio (Desktops) al mismo tiempo
+## Define Móvil, Tablet y Escritorio (Desktop) al mismo tiempo
 
 Vamos a configurar el diseño (usando las clases de columnas xs, sm, md y lg) para estas dos filas en todos los dispositivos al mismo tiempo:
 
@@ -99,7 +99,7 @@ Vamos a configurar el diseño (usando las clases de columnas xs, sm, md y lg) pa
 ## Esqueleto Basico de Bootstrap 4
 ***
 
-Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web necesita. Ahora solo debes agregar unas lineas en tu esqueleto para hacerlo "compatible con Bootstrap":
+Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web debe tener. Ahora solo debes agregar unas lineas en tu esqueleto para hacerlo compatible con Bootstrap:
 
 ```html{numberLines: true}
 <!doctype html>
@@ -112,10 +112,10 @@ Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web necesita. Ahora
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>¡Hola, mundo!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <h1>¡Hola, mundo!</h1>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -126,31 +126,31 @@ Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web necesita. Ahora
 </html>
 ```
 
-Recuerda, Bootstrap es solo una pagina de estilo, Es por eso que es muy simple agregarlo a tu sitio web. Utiliza el `<link>` tag para incluir los estilos, y oportunamente el uso de javascript `<script>` tag  para incluir los archivos de javascript de Bootstrap.
+Recuerda, Bootstrap es solo una hoja de estilos, Es por eso que es muy simple agregarlo a tu sitio web. Utiliza el `<link>` tag para incluir los estilos, y si quieres para usar la etiqueta de javascript `<script>` y así incluir los archivos de javascript de Bootstrap.
 
-La funcionalidad de Javascript en Bootstrap requiere que sea incluido primero las librerias propias de jQuery y Javascript.  No necesitas saber sobre esto aún.   Solo incluye las librerias de JS usando el tag de script y después lo entenderás.
+La funcionalidad de Javascript en Bootstrap requiere que se incluyean las librerias propias de jQuery y Javascript primero pero no te preocupes por esto aún.   Sólo incluye las librerias de JS usando la etiqueta script y más adelante lo entenderás.
 
 [[info]]
-|:link: Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+|:link: Encuentra aquí [increíbles archivos de Bootstrap para que puedas empezar.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
 ## Componentes de Bootstrap 4
 ***
 
-HTML es súper básico, tiene pocas etiquetas - ya los sabíamos. Pero cuando revisas la web hoy en día, ves algo totalmente diferente… actualmente las páginas web tienen menús, iconos, barras de carga, etc. ¿Dónde están esas etiquetas? ¡Ninguna de ellas están definidas en HTML!
+HTML es súper básico, sólo tiene un par de etiquetas - ya los sabíamos. Pero cuando revisas la web hoy en día, ves otra cosa… actualmente las páginas web tienen menús, iconos, barras de carga, etc. ¿Dónde están esas etiquetas? ¡Ninguna de ellas está definida en HTML!
 
-Todos los desarrolladores tienen que falsificar estos elementos adicionales cada vez que crean un sitio web, tienen que hacer todo desde cero y eso toma muchísimo tiempo.
+Todos los desarrolladores tienen que simular estos elementos adicionales cada vez que crean un sitio web, tienen que hacer todo desde cero y eso toma muchísimo tiempo.
 
-Cuando importas un bootstrap en tu página web, tendrás un nuevo set de componentes a tu disposición. Esta es una pequeña parte de esos elementos:
+Cuando importas Bootstrap en tu página web, tendrás un nuevo conjunto de componentes a tu disposición. Esta es una pequeña parte de esos elementos:
 
 ![bootstrap 4](https://ucarecdn.com/8e9ff37a-28f7-4179-8f5d-9278ff7efd55/-/resize/800x/)
 
 
-### Esto son los componentes más usado e importantes de Bootstrap:
+### Esto son los componentes más usados e importantes de Bootstrap:
 ***
 
 #### Barra de Navegacion o NavBar
 
-Esto es tan popular que se encuentra en el 99% de los menús de todos los sitios web.  Normalmente contiene el logo de la compañia y una series de links - dependiendo de la logistica de negocio de la página. 
+Esto es tan popular que se encuentra en el 99% de los menús de todos los sitios web.  Normalmente contiene el logo de la compañia y una series de links - dependiendo de la lógica de negocio de la página. 
 
 Aquí hay un ejemplo de como se ve un NavBar en un sitio web:
 
@@ -189,20 +189,20 @@ Aquí hay un ejemplo de como se ve un NavBar en un sitio web:
         </nav>
 ```
 
-#### The Card
+#### Card
 
-Esta es probablemente el componente de Bootstrap más usado, cada sitio web tiene unas cuantas "Card" porque es ideal para listar objeto de una forma bonita.  Algunos ejemplos del uso de "Card" pueden ser:
+Este es probablemente el componente de Bootstrap más usado, cada sitio web tiene unas cuantas "Card" porque es ideal para listar objetos de una forma bonita.  Algunos ejemplos del uso de "Card" pueden ser:
 
 + La sección de "equipo" de un sitio web donde listas los distintos empleados.
-+ Típico muro de Pinterest.
-+ Cualquier red social como Instagram, Facebook, twitter, etc.
++ Un típico muro de Pinterest.
++ Cualquier historia de una red social como Instagram, Facebook, twitter, etc.
 
-Aquí hay un ejemplo de como puede verse un sitio web con "The Card":
+Aquí hay un ejemplo de como puede verse un sitio web con una "Card":
 
 ![bootstrap 4](https://ucarecdn.com/39d36b52-330f-4ce9-beab-2004e325749c/-/resize/350x/)
 
 [[info]]
-| :link: [**Lee más sobre el "The Card" aquí**](https://getbootstrap.com/docs/4.0/components/card/)
+| :link: [**Lee más sobre la "Card" aquí**](https://getbootstrap.com/docs/4.0/components/card/)
 
 ```html{numberLines: true}
 <div class="card" style="width: 20rem;">
@@ -219,9 +219,9 @@ Aquí hay un ejemplo de como puede verse un sitio web con "The Card":
 
 #### El Modal
 
-Todo el mundo odia el modal, es debido a que es super molesto, siempre preguntando si te quieres incribir a una revista! 🙂
+Todo el mundo odia el modal, es dmuy molesto, ¡siempre pregunta si te quieres incribir a una revista! 🙂
 
-Así es como se muestre un modal por defecto con Bootstrap.
+Así es como se ve modal por defecto con Bootstrap.
 
 ![bootstrap 4](https://ucarecdn.com/6bcba673-a543-4bf1-a80b-083914b91bef/-/resize/400x/)
 
@@ -252,7 +252,7 @@ div class="modal" tabindex="-1" role="dialog">
 
 
 [[warning]]
-| :point_up:Importante! El Modal necesita de Javascript para poder funcionar.  Recuerda incluir los archivos de Javascript que son necesarios en el típico esqueleto de Bootstrap: jQuery, Popper and Bootstrap.js
+| :point_up:Importante! El Modal necesita Javascript para poder funcionar.  Recuerda incluir los archivos de Javascript necesarios en el típico esqueleto de Bootstrap: jQuery, Popper and Bootstrap.js
 
 ## Lo que realmente necesitas saber sobre Bootstrap
 ***
@@ -269,9 +269,9 @@ La documentación oficial de Bootstrap es increible!! No necesitamos copiar y pe
 ## Gana RE2PECT.
 ***
 
-El éxito no viene de la noche a la mañana.  Este es tu primer logro.  Dejame pregunterte, te sientes capaz de usar HTML, CSS, Layouts y Bootstrap?  No te mientas!
+El éxito no viene de la noche a la mañana.  Este es tu primer logro.  Dejame pregunterte ¿te sientes capaz de usar HTML, CSS, Layouts y Bootstrap?  ¡No te mientas!
 
-No más Lecciones sobre este tema - es momento de entregar.  Tu atención de enfocarse en el proyecto de clase.  Recuerda vivir bajo los valores de los desarrolladores. Calma.
+No más Lecciones sobre este tema - es momento de entregar.  Es hora de enfocarse en el proyecto de clase.  Recuerda honrar los valores de los desarrolladores. Calma.
 
 <iframe src="https://www.youtube.com/embed/RqHNyyvfafE" frameborder="0" allowfullscreen></iframe>
 
