@@ -110,7 +110,7 @@ The state is always located inside of the `constructor()` method of the class co
 
 When speaking about modifying the value of the state, you have to remember that the state should not be mutated directly. It should only be modified by calling the specially designated method this.setState(). In it you will have to pass a new/updated state object that will replace the previous state values. For example:
 
-```javascript{numberLines: true} 
+```jsx {numberLines: true} 
 
 // a direct assignment of this.state is only allowed in the constructor method of your class; anywhere else it may cause an error in your stored data
 constructor(){
