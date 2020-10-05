@@ -54,7 +54,7 @@ export default class Index extends React.Component{
                     </Link>
                   </td>
                   <td>{node.frontmatter.status || "published"}</td>
-                  <td><a href={repo+"/"+node.fields.type+"/"+node.fields.slug}>✎</a></td>
+                  <td><a href={repo+"/"+node.fields.type+"/"+node.fields.slug+"."+node.fields.lang+".md"}>✎</a></td>
                 </tr>
             )}
             <Link to="/tags">All tags</Link>
