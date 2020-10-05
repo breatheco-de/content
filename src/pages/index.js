@@ -24,7 +24,7 @@ export default class Index extends React.Component{
                 placeholder="Search lesson"
             />
             <table className="table table-striped">
-            {this.state.lessons.map(({ node }) => 
+            {this.state.lessons.sort((a,b) => a.node.frontmatter.title > b.node.frontmatter.title ? 1 : -1).map(({ node }) => 
                 <tr key={node.id}>
                   <td>
                     <Link
