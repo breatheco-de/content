@@ -1,6 +1,6 @@
 ---
 title: "Bootstrap Tutorial: Learn Bootstrap 4 in 10 minutes"
-subtitle: "After decades of struggling, the light has arrived !! with this Bootstrap tutorial, designing website will be a piece of cake   
+subtitle: "After decades of struggling, the light has arrived!! with this Bootstrap tutorial, designing website will be a piece of cake.   
 
 It is almost stupid, and, also impossible to think about doing a website without a CSS framework like Bootstrap 4 ."
 
@@ -188,7 +188,7 @@ Here is an example of how a NavBar may look on a website:
 
 #### The Card
 
-This is probably the most used Bootstrap component, every website has a few card because it is ideal to list items in a beautiful way. Some examples of the Card used can be:
+This is probably the most used Bootstrap component, every website has a few cards because it is ideal to list items in a beautiful way. Some examples of the Card used can be:
 
 + The "team" section of a website where you list the different employees.
 + The typical Pinterest wall.

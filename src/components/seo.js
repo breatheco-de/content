@@ -37,6 +37,7 @@ const SEO = (props) => (
                     {seo.authors && <meta name="author" content={seo.authors} /> }
                     <meta name="image" content={seo.image} />
                     {seo.url && <meta property="og:url" content={seo.url} />}
+                    {seo.bodyClass && <body className={seo.bodyClass}/>}
                     {seo.article && <meta property="og:type" content="article" />}
                     {seo.title && <meta property="og:title" content={seo.title} />}
                     {seo.description && (
@@ -80,6 +81,7 @@ SEO.propTypes = {
   description: PropTypes.string,
   image: PropTypes.string,
   pathname: PropTypes.string,
+  bodyClass: PropTypes.string,
   article: PropTypes.bool,
 };
 
@@ -89,4 +91,5 @@ SEO.defaultProps = {
   image: null,
   pathname: null,
   article: false,
+  bodyClass: null
 };

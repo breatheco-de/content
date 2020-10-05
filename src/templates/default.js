@@ -15,6 +15,7 @@ const renderAst = new rehypeReact({
 export default ({ data, pageContext }) => {
   const post = data.markdownRemark;
   const { translations, urlSlug, type, url } = pageContext;
+  console.log("context", pageContext)
   const seo = {
     title: post.frontmatter.title,
     noindex: (post.frontmatter.status === "unlisted" || post.frontmatter.status === "unassigned" || post.frontmatter.status === "pending-translation"),
@@ -49,13 +50,13 @@ export default ({ data, pageContext }) => {
 };
 
 export const query = graphql`
-  query HowToQuery($slug: String!) {
+  query HowToQuery($slug: String!, $lang: String!) {
     site {
       siteMetadata {
         contentGithubURL
       }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(fields: { slug: { eq: $slug }, lang: { eq: $lang}}) {
       htmlAst
       frontmatter {
         title

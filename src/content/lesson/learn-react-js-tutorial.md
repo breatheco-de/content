@@ -34,19 +34,19 @@ React.js defines itself as a front-end library to user interfaces. Basically, Re
 
 From now on React.js will take care of the DOM, your job is to create your own `<Tags>` and define how they should display or render.
 
-#### Everything is component
+#### Everything is a component
 
 You'll divide your app into small pieces (components), all together they make the website a whole.
 
 #### No more website refresh
 
-All of your new `<Components>` are a little parts of your layout, but some are hidden at the beginning. You will have to show and hide them based on the user behavior.   
+All of your new `<Components>` are little parts of your layout, but some are hidden at the beginning. You will have to show and hide them based on the user behavior.   
 
 #### No more html String Concatenation
 
 Until now, we had to concatenate strings to create the HTML we wanted to place in the `innerHTML` of any DOM element, for example:
 ```js
-document.querySelector('body') = '<h1>'+person.name+'</h1>';
+document.querySelector('body').innerHTML = '<h1>'+person.name+'</h1>';
 ```
 
 But React.js comes with `JSX`, a special language that will let you build HTML on the Javascript side without having to wrap it within quotes (make it a string). Basically you'll are off the annoying HTML string concatenation. 

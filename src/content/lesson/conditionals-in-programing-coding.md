@@ -8,7 +8,7 @@ textColor: "white"
 tags: ["conditionals", "logical operations", "if else", "conditions"]
 ---
 
-Mastering the use of conditions is one of the 5 fundamental skills of building algoritms:
+Mastering the use of conditions is one of the 5 fundamental skills of building algorithms:
 
 1. Variables.
 2. `Conditionals`.
@@ -19,9 +19,9 @@ Mastering the use of conditions is one of the 5 fundamental skills of building a
 [[demo]]
 | :point_up: [Here is a great video explainin conditionals](https://www.youtube.com/watch?v=Lp-Du2fKoug&list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET)
 
-Conditions are the only way developers have to tell computer how to make decisions in real time, very similar to how our brains work.
+Conditions are the only way developers have to tell the computer how to make decisions in real time, very similar to how our brains work.
 
-Let's say we are building a program to to help us pick what to ware and we hate the blue color, we can tell the computer to avoid blue using a condition like this:
+Let's say we are building a program to help us pick what to wear and we hate the color blue. We can tell the computer to avoid blue using a condition like this:
   
   
 `If` ***color*** is not **blue**, then... do something.  
@@ -36,13 +36,13 @@ if(color != 'blue'){
     //any code here will run when color is different than blue
 }
 else{
-    //it will only run this code if color is not blue.
+    //it will only run this code if color is blue.
 }
 ```
 
 ## It is all about the question: What to ask?
 
-The previous example was a simple condition, but in real life picking what to ware involves a combination of several conditions to make the final decision, for example: Lets look at this algorithm that tells if you have a flue
+The previous example was a simple condition, but in real life picking what to wear involves a combination of several conditions to make the final decision, for example: Let's look at this algorithm that tells if you have a flu.
 
 ![Hit by a flu or have a cold](https://ucarecdn.com/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800/)
 
@@ -54,23 +54,23 @@ let youWereHitByTrain = false;
 
 if(feelsLikeHitByTrain == true){
   if(youWasHitByTrain == true){
-    console.log("You don't have a flue");
+    console.log("You don't have a flu");
   }
   else{
-    console.log("You have a flue");
+    console.log("You have a flu");
   }
 }
 else{
-  console.log("You don't have a flue");
+  console.log("You don't have a flu");
 }
 ```
 
-Basically, this algorithm has two variables to consider: `feelsLikeHitByTrain` and `youWereHitByTrain`.
+Basically, this algorithm has two variables to consider: ` feelsLikeHitByTrain ` and ` youWereHitByTrain `.
 Our job as developers is to sit down and try to prepare a strategy and come up with an algorithm that solves a problem.
 
-## `AND` and `OR` operators
+## ` AND` and ` OR` operators
 
-Another way to write the algorithm is to combine to questions in the same condition using the `AND` and `OR` operators that in Javascript are represented with `&&` for AND and `||` for OR:
+Another way to write the algorithm is to combine two questions in the same condition using the `AND` and `OR` operators which in Javascript are represented with `&&` for AND and `||` for OR:
 
 ```js
 if(feelsLikeHitByTrain == false || youWereHitByTrain == true){
@@ -84,16 +84,16 @@ else{
 }
 ```
 
-As you can see here we are using `else if` together for the first time, for faster coding. Another trick you can use for faster coding:
+As you can see here we are using ` else if` together for the first time, for faster coding. Another trick you can use for faster coding:
 
 | Original | Equivalent |
 | --- | --- |
 | instead of `if(feelsLikeHitByTrain == true)` | you write `if(feelsLikeHitByTrain)`  |
 | instead of `if(feelsLikeHitByTrain == false)` | you write `if(!feelsLikeHitByTrain)` |
 
-## `>` and `<` Greather Than or Lower Than Operators
+## ` >` and ` <` Greather Than or Lower Than Operators
 
-In the particular case you are comparing numbers, you can also if one of the compared numbers ir bigger or smaller than the other:
+In the particular case you are comparing numbers, to find out if one of the compared numbers is greater or lesser than the other:
 
 ```js
 if(age < 16){
@@ -110,13 +110,13 @@ Another great trick for faster coding is using ternaries that basically allow us
 ```js
 const flu = (feelsLikeHitByTrain && !youWereHitByTrain) ? true : false;
 ```
-In this example the variable `flu` will only be true if `feelsLikeHitByTrain==true` and `youWereHitByTrain==false` at the same time. If that question is not true, then flue will be false.
+In this example the variable `flu` will only be true if ` feelsLikeHitByTrain==true` and ` youWereHitByTrain==false` at the same time. If that question is not true, then ` flu` will be false.
 
-Ternaries are being use A LOT these days because the save you a lot of time.
+Ternaries are being used A LOT these days because they save you a lot of time and we will also be able to use them later in jsx code (React).
 
 ## Conditional Rendering
 
-Another great use of the conditions is to generate HTML based on certain conditions, for example, let's say that we have a bootstrap alert that we are about to render into the website:
+Another important use of conditionals is to generate HTML based on certain conditions. For example, let's say that we have a bootstrap alert that we are about to render into the website:
 
 ```js
 let alertHTMLCode = "<div>Warning! You cannot drive</div>";
@@ -129,6 +129,6 @@ let age = 14;
 let alertHTMLCode = (age < 16) ? "<div>Warning! You cannot drive</div>" : "";
 ```
 
-Now our `alertHTMLCode` variable will be empty if the user age is less than 16, if its more it will contain the entire HTML.
+Now our `alertHTMLCode` variable will be empty if the user age is less than 16, if it's more it will contain the entire HTML.
 
 <script async src="//jsfiddle.net/BreatheCode/bycgsnqt/7/embed/js,html,result/"></script>

@@ -1,6 +1,6 @@
 ---
 title: "Aprender React Aquí: Tutorial de React Js"
-subtitle: "React es una biblioteca de front-end ideal para crear interfaces (genera HTML+CSS). Es la biblioteca más rápida, más avanzada y más buscada en el mercado en este momento. No te quedes atrás, aprende React js aquí con este tutorial de React Js"
+subtitle: "React es una librería de front-end ideal para crear interfaces (genera HTML+CSS). Es la librería más rápida, más avanzada y más buscada en el mercado en este momento. No te quedes atrás, aprende React js aquí con este tutorial de React Js"
 
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
@@ -28,7 +28,7 @@ divElem.appendChild(myNewHOne);
 ## Entonces.. ¿que es React?
 ***
 
-React.js se define a sí mismo como una biblioteca de front-end para interfaces de usuario. Básicamente, React propone una nueva forma de crear sitios web al rediseñar todo el flujo de trabajo de codificación y hacer que los sitios web sean más rápidos.
+React.js se define a sí mismo como una librería de front-end para interfaces de usuario. Básicamente, React propone una nueva forma de crear sitios web al rediseñar todo el flujo de trabajo de codificación y hacer que los sitios web sean más rápidos.
 
 #### No Más DOM
 
@@ -40,12 +40,19 @@ Dividirás tu aplicación en partes pequeñas (componentes), todas juntas hacen 
 
 #### No más recargas del sitio web
 
-Todas tus novedades son una pequeña parte de tu diseño, pero algunas están ocultas al principio. Tendrá que mostrarlos y esconderlos según el comportamiento del usuario. 
+Todas tus nuevos `<Components>` son una pequeña parte de tu diseño, pero algunas están ocultas al principio. Tendrá que mostrarlos y esconderlos según el comportamiento del usuario. 
 
 #### No más Concatenación de String en el HTML
 
+Hasta ahora, hemos concatenado strings para crear el HTML que queremos colocar en el `innerHTML` de un elemento del DOM, por ejempo:
+```js
+document.querySelector('body').innerHTML = '<h1>'+person.name+'</h1>';
+```
 React.js viene con JSX, un lenguaje especial que te permitirá crear HTML en el lado de Javascript sin tener que ajustarlo entre comillas (hazlo una cadena). Básicamente serás de la molesta concatenación de cadenas HTML.
 
+```jsx
+document.querySelector('body') = <h1>{person.name}</h1>;
+```
 <br>
 <br>
 

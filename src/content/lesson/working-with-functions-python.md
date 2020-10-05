@@ -18,7 +18,7 @@ Mastering the use of lists and loops is one of the 5 fundamental skills of build
 
 ## What are Functions?
 
-Basically, a function is a bunch of code wrapped between brackets that you can run anytime whenever you dice.  For example:
+Basically, a function is a bunch of code wrapped between brackets that you can run anytime whenever you decide.  For example:
 
 
 ```python
@@ -33,7 +33,7 @@ By reviewing that code we can obtain the following conclusions:
 
 - Every function must be declared using the statement `def`
 - After `def` we have to write the name we want for the function (in this case "multiply").
-- After the name, we have to add the function parameters or inputs separated by a coma `,`. We can pick the name the parameters are going to have, but they must always eb on the same order.
+- After the name, we have to add the function parameters or inputs separated by a coma `,`. We can pick the name the parameters are going to have, but they must always be in the same order.
 - We have to end that line using a colon `:` that way the computer will know we are about to start coding the insides of the function (the function algorithm).
 - The last thing we must do is add a return (good practice), all functions must return something, in this case we returned the multiplication between the A and B parameters (inputs) given.
 
@@ -125,7 +125,7 @@ print(myVariable)
 [[warning]]
 | :point_up: It is very important to remember that once you use the `return` statement the function will stop executing, if there is any code after that statement it will never be executed.
 
-## Funciones Anónimas Lambda
+## Lambda functions (one line functions) in Python
 
 If you function it's going to be a one line function, you can use the "lambda" trick to be more agile. You have to use the reserved word `lambda`.
 
@@ -154,7 +154,7 @@ multiply(3,9)
 
 Please remember to assign the function whatever parameters it should receive.  In our example, the multiply function was declared asking for two numbers to multiply.  Play with the following example as you like:
 
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Calling-Functions-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Calling-Functions-in-Python-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Nested Calling
 
@@ -198,7 +198,7 @@ def get_person_info(name):
 
 As you can see, the function names are pretty specific on what the functions do, as well as the parameters assigned to them.
 
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/FunctionsExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Python-Functions-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 Other important things to notice:
 

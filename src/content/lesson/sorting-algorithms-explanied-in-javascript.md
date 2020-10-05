@@ -103,9 +103,10 @@ const shakerSort = (arr) => {
 }
 ```
 [[info]]
-| :tv: In this link, you will find [a relly good 3 min video explanation](https://www.youtube.com/watch?v=g-PGLbMth_g) about the selection sort algorithm.
+| :tv: In this link, you will find [a relly good 3 min video explanation](https://www.youtube.com/watch?v=Xmx_6YRBaq8&t=18s) about the Cocktail Shaker Sort algorithm.
 
 ### Insertion Sort
+
 Insertion sort involves going through a pile, taking one item, comparing it to the first, swapping places if one item is larger than another and continuing this process until the minimum item is in the correct location.
 
 ![Insertion sort algorithm](https://ucarecdn.com/38fed925-cf75-4f94-bdd7-abcce659fdac/)

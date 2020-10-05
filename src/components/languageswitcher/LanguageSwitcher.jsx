@@ -15,7 +15,7 @@ export const LanguageSwitcher = ({ current, translations }) => {
         {
             Object.entries(translations).filter(lang => lang[0] !== current).map( lang => {
                 const LangIcon = icons[lang[0]];
-                return (<li><Link to={lang[1]}><LangIcon /></Link></li>);
+                return (<li><Link to={"/"+lang[1]}><LangIcon /></Link></li>);
             })
         }
         </ul>

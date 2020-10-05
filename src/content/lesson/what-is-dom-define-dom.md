@@ -10,20 +10,20 @@ tags: ["DOM"]
 ## Beyond the Console!
 ***
 
-Nobody likes applications that are based on the console…can you imagine using Uber from the command line???
+Nobody likes applications that are based on the console... Can you imagine using Uber from the command line???
 
 ```javascript
 $ "uber" request-trip --from home --to work --pool
 ```
 
-Thank God we have the browsers!  They let us render our application in a visual interface that we call a website.
+Thankfully we have the browsers!  They let us render our application in a visual interface that we call a website.
 
 ## The Website DOM
 ***
 
 As you know already, the responsibility of the browser is to transform HTML/CSS code into visual elements.  Those elements are mapped into a hierarchy that is stored in RAM memory and it’s called The DOM.
 
-With JavaScript we can manipulate the DOM (website elements) during runtime (during the application life cycle).
+With JavaScript we can manipulate the DOM (website elements) during runtime (during the application's life cycle).
 
 NOTE:  Please always remember that all the JavaScript code that you write in your HTML document MUST be wrapped inside a `<script>` tag, like this:
 
@@ -36,9 +36,9 @@ NOTE:  Please always remember that all the JavaScript code that you write in you
 ## How to Update your Website DOM
 ***
 
-There are several ways to manipulate the DOM, but the most simple one is **document.write**  Every time you create a document.write you will be writing onto the HTML whatever string you decide to pass as a parameter to the write function.
+There are several ways to manipulate the DOM, but the most simple one is **document.write**.  Every time you create a document.write you will be writing onto the HTML whatever string you decide to pass as a parameter to the write function.
 
-It does not matter where you write the code.  The only thing that matters is that it is wrapped inside a `<script>` tag  For example:
+It does not matter where you write the code.  The only thing that matters is that it is wrapped inside a `<script>` tag. For example:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -52,7 +52,7 @@ From the moment a website starts being loaded, the browser creates a hierarchy t
 
 + Every HTML element has an object in the document hierarchy.
 + The DOM is generated during runtime.
-+ Every browser tries to replicate the DOM in the exact same way, but there are some differences between them.  That is why some things work in one browser but not in the other one.
++ Every browser tries to replicate the DOM in the exact same way, but there are some differences between them.  That is why some things work in one browser, but not in others.
 + JavaScript is the only language capable of accessing The DOM during runtime.
 + The "Google Inspector" is the best representation of The DOM today.
 
@@ -67,7 +67,7 @@ Just like we did with CSS, we can select any element in the document.  There are
 
 ### document.querySelector("css-element-selector")
 
-Returns an instance of **the first element** found that fits the CSS selector that you specified
+Returns an instance of **the first element** found that fits the CSS selector that you specified.
 
 ### document.getElementById("elementId")
 
@@ -106,7 +106,7 @@ xyz[0].style.color="red";   // make the first one red
 It is very common to need to change an element’s child.  For example:
 
 + Update all the `<li>` children of a specific `<ul>` to make their background red.
-+ Remove the first `<tr>` row of a `<table>`s.
++ Remove the first `<tr>` row of a `<table>`.
 + Hiding all the children with a specific class.
 + And the list goes on!
   
@@ -114,7 +114,7 @@ The best way to retrieve the child elements of any DOM element is by using its c
 
 ### element.childNodes
 
-This returns an array with all the element’s child elements.
+This returns an array with all the element’s children elements.
 
 ```javascript{numberLines: true}
 var x = document.getElementById("myDIV");
@@ -128,7 +128,7 @@ x.querySelector("h3,h2").style.background = "blue";
 var tableElm = document.getElementById("people");
 var trArray = tableElm.querySelectorAll("tr");
 trArray[3].style.background = "red";
-//get an array with all #people child’s with the tr tag
+//get an array with all of #people's children with tag tr
 ```
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
@@ -147,8 +147,6 @@ The .innerHTML property gives you the ability to retrieve or set the content of 
 ```javascript
 document.getElementsByTagName("div")[0].innerHTML = "abc";
 // innerHTML can be used to insert plain text content or HTML, this creates a list inside a div element 
-document.getElementsByTagName("div")[0].innerHTML = "abc";
-// innerHTML can be used to insert plain text content or HTML, this creates a list inside a div element 
 ```
 
 [[warning]]
@@ -165,18 +163,18 @@ Lets say that you have selected a `<div>` with the id=**"myFirstId"** and you wa
 
 ```javascript
 var divElem = document.getElementById("myFirstDiv");
-var myNewHOne = document.createElement("H1");
+var myNewHOne = document.createElement("h1");
 var t = document.createTextNode("Hello World");
-myNewHOne.appendChild(t);  //I have to add some text content to the h1  
-divElem.appendChild(myNewHOne);
+myNewHOne.appendChild(t);  //This adds the text content to the h1  
+divElem.appendChild(myNewHOne); //This adds the h1 into the original element
 ```
 
-Now, lets say that we have a ul with 2 elements, but we want to insert a new LI at the beginning of that list.
+Now, let's say that we have a `<ul>` with 2 elements, but we want to insert a new `<li>` at the beginning of that list.
 
 **We can use the function insertBefore for that case – like this:**
 
 ```javascript
-var newItem = document.createElement("LI");
+var newItem = document.createElement("li");
 var textnode = document.createTextNode("Water");
 newItem.appendChild(textnode);
 var list = document.getElementById("myList");
@@ -208,7 +206,7 @@ while (element.firstChild) {
 To change any attribute of any object in the DOM, we need to use the .attribute property just like this:
 
 ```javascript
-// Removing all children from an element  
+// Changing attributes  
 var element = document.getElementById("myElementId");
 element.attribute = "whatever";
 ```
@@ -219,7 +217,7 @@ element.attribute = "whatever";
 You can also change any CSS rule or property applied to the HTML elements by using the **.style** attribute – like this:
 
 ```javascript
-// Removing all children from an element  
+// Changing styles  
 var element = document.getElementById("myElementId");
 element.style.color = "red";
 element.style.background = "blue";

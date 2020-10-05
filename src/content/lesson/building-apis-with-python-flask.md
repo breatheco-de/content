@@ -23,16 +23,16 @@ Here is an example of RESTful API endpoints to manage **Students**:
 | PUT    | /student/1 | Should update the information of the student with the id=1 |
 | DELETE | /student/1 | Should delete the student with id=1 |
 
-Take a look at the URL's they follow a pattern, after a while the endpoints will speak for themselves, it will make sense and you will be able to guest what the do or even guess some endpoints. That is the whole idea.
+Take a look at the URL's they follow a pattern, after a while the endpoints will speak for themselves, it will make sense and you will be able to guess what they do or even guess some endpoints. That is the whole idea.
 
 [[info]]
 | :point_up: You can read more about REST APIs on [this BreatheCode Lesson](http://content.breatheco.de/lesson/understanding-rest-apis).<br /> Here is a cool 8 min video explaining REST: https://www.youtube.com/watch?v=7YcW25PHnAA
 
 ## Now let's talk about Flask
 
-Flask is amazing! It is very similar to Node.js Express Server and that makes it even cooler because you will be able to work with both technologies without much learning curve.
+Flask is amazing! It is very similar to Node.js Express Server and that makes it even cooler because you will be able to work with both technologies without much of a learning curve.
 
-Flask is a library for creating a web server and API, basically when you run a python script that contains the following lines, the computar will start listening for HTTP requests:
+Flask is a library for creating web servers and API's, basically when you run a python script that contains the following lines, the computar will start listening for HTTP requests:
 
 ```python
 from flask import Flask
@@ -54,7 +54,7 @@ from flask import Flask #here we import the Flask library into our file
 app = Flask(__name__) #here we create a new instance of the Flask server
 
 @app.route("/") #here we define the first API path: GET /
-def hello(): #this method will be called when the the request is called from a any client
+def hello(): #this method will be called when the the request is called from any client
     return "Hello World!" #flask will return "Hello World, this could be an HTML string or a JSON string.
 
 app.run(host='0.0.0.0') #lastly we start the server on localhost
@@ -69,7 +69,7 @@ If you want to add another endpoint to your API that runs when a client calls `G
 ```python
 @app.route("/person") #here we specify the path for the endpoint
 def handle_person(): #here we declare a function that will be called when a request is made to that url
-    return "Hello Person!" #here we specify the string we want to responde to the client.
+    return "Hello Person!" #here we specify the string we want to respond to the client.
 ```
 
 ## Specifying the method: GET, PUT, POST, DELETE
@@ -79,9 +79,9 @@ If you want your endpoint to answer to POST, PUT or DELETE you can specify that 
 ```python
 from flask import Flask, request
 
-@app.route("/person", methods=['POST', 'GET']) # here we specify that this endpoints accepts POST and GET requests
+@app.route("/person", methods=['POST', 'GET']) # here we specify that this endpoint accepts POST and GET requests
 def handle_person():
-  if request.method == 'POST': # we can understand what type of request are we handling using a conditional
+  if request.method == 'POST': # we can understand what type of request we are handling using a conditional
     return "A POST has been received!"
   else:
     return "A GET has been received!"
@@ -89,7 +89,7 @@ def handle_person():
 
 ## Responding a JSON body
 
-The response can be basically whatever you want as long as it is a string: HTML, JSON, CSS, Images, etc. Just make sure you convert into a string whatever you want to respond.
+The response can basically be whatever you want as long as it is a string: HTML, JSON, CSS, Images, etc. Just make sure you convert into a string whatever you want to respond.
 
 In the following example we are using the jsonify method to convert a dictionary called `person1` into a JSON string before returning it to the client.
 
@@ -106,7 +106,7 @@ def handle_person():
 
 ## The Response Code
 
-The response code is 200 by default, and 500 if therer is an uknown error. If you want to respond to the client with a differen code you will have to specify it like this:
+The response code is 200 by default, and 500 if there is an uknown error. If you want to respond to the client with a different code you will have to specify it like this:
 
 ```python
 from flask import Flask, jsonify
@@ -141,7 +141,8 @@ But what if the request comes with errors? For example: If we have an endpoint t
 def create_person():
     # POST request
         body = request.get_json() # get the request body content
-
+        if body is None:
+            return "The request body is null", 400
         if 'first_name' not in body:
             return 'You need to specify the first_name',400
         if 'email' not in body:

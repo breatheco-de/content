@@ -36,7 +36,7 @@ Make sure to give your own personal style, but in general you can focus on tryin
 - [ ] Write a short bio with your main focus as a developer and special skills.
 - [ ] On your profile page, include links to your personal website, Linkedin profile, email and social media handle, if relevant.
 - [ ] Add a picture or avatar.
-- [ ] Start committing and pushing since day one: Github tracks and publicly reports your activity as a developer in something called [The Github Activity Graph](https://help.github.com/en/articles/viewing-contributions-on-your-profile#contributions-calendar) it's impossible to fake. That is why we encourage you to start committing and collaborating since day one.
+- [ ] Start committing and pushing from day one: Github tracks and publicly reports your activity as a developer in something called [The Github Activity Graph](https://help.github.com/en/articles/viewing-contributions-on-your-profile#contributions-calendar) it's impossible to fake. That is why we encourage you to start committing and collaborating since day one.
 - [ ] For each repository your want to pin and promote you upload must include:  
     1. A detailed README.md
     2. Live demo (Github pages), screenshots, and gifs.
@@ -46,6 +46,7 @@ Make sure to give your own personal style, but in general you can focus on tryin
     - https://www.firsttimersonly.com/
     - http://yourfirstpr.github.io/
     - https://www.codetriage.com/
+    - https://github.com/MunGell/awesome-for-beginners
 - [ ] You need to be a [github developer program](https://developer.github.com/program/) member. You can join for free and you will get a badge on your profile.
 - [ ] Avoid using  "new developer", "junior developer", "recent graduate", or the like in your summary statement or bio.
 

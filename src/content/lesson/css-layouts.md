@@ -91,6 +91,7 @@ It is common to find this attribute in menus, social network activity feeds, etc
 |Inline     |This is the default value of `<strong>`, `<i>`, `<a>`, `<span>`, and other common tags.  The elements will behave like text and will not have defined limits (neither width, nor height).    |
 |Block   |This is the default value of `<div>`, `<p>`, `<h>`, etc.  The element will occupy the entire row of the site – and move other elements above or below it.    |
 |Inline-Block    |The best of both worlds.  This value places the containers in the same row, but respecting each of their limits (width and height). Thanks to this value, sites like Pinterest use masonry design.   |
+|Flex    |Introduced just a couple of years ago, it comes to fix all the mayor problems with display to date. Flex is used to make boxes be flexible. When you apply `display: flex` to a div, all the childrens will be able to share the same row.   |
 |None    |Hides the element (making it invisible) and does not hold any space for it within the document.   |
 
 Ok, now… to understand what we just explained, there is no other choice but… Practice!
@@ -142,9 +143,9 @@ Here is the exact code needed for website content to always be aligned at the ce
 
 ![css layout](https://ucarecdn.com/ca5d4285-c151-4b30-a4a2-c6b35510188b/-/resize/500x/)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/">Click here to open live demo in a new window</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/Lwop5kdc/embedded/html,css,result/">Click here to open live demo in a new window</a></small></div>
 
 
 
@@ -175,9 +176,9 @@ Pinterest made this layout universally known.  By using this "innovative" UI, th
 
 Another great thing about Masonry is that each box can have its own height.   That is challenging in CSS because some older browsers don’t support this feature yet and you will have to use Javascript to patch it.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ovp1nj3s/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ovp1nj3s/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 ## Popups / Modal Windows / Alerts
 ***

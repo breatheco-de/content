@@ -35,6 +35,7 @@ Asegúrate de dar tu propio estilo personal, pero en general puedes concentrarte
     - https://www.firsttimersonly.com/
     - http://yourfirstpr.github.io/
     - https://www.codetriage.com/
+    - https://github.com/MunGell/awesome-for-beginners
 - [ ] Necesitas ser un [programa desarrollador de github](https://developer.github.com/program/) miembro. Puedes unirte gratis y obtendrás una insignia en tu perfil.
 - [ ] Evite usar "desarrollador nuevo", "desarrollador junior", "recién graduado" o algo similar en su resumen de resumen o biografía.
 
