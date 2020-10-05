@@ -35,7 +35,7 @@ module.exports = {
                 let newvalues = {}
                 let conditions = {}
                 if(args['--statusTo']) newvalues.status = args['--statusTo'];
-                if(args['--statusFrom']) conditions.status = args['--statusFrom'];
+                if(args['--statusFrom']) conditions.status = args['--statusFrom'] == "null" ? null : args['--statusFrom'];
 
                 if(args['--slug'] !== 'all'){
                     const lesson = result.lessons.find(l => l.originalSlug === args['--slug'])
@@ -62,8 +62,13 @@ module.exports = {
 const update = (lesson, data, conditions={}) => {
 
     const  { content, path, front_matter } = lesson;
-    if(conditions.status && front_matter.status !== conditions.status){
-        console.log(`Ignoring lesson ${lesson.slug} because status is not ${conditions.statusFrom}`)
+    if(
+        (conditions.status === null && front_matter.attributes.status !== undefined && front_matter.attributes.status !== null)
+        ||
+        (conditions.status && front_matter.attributes.status !== conditions.status)
+    ){
+        console.log(`Ignoring lesson ${lesson.slug} because status is not ${conditions.status}`)
+        return content;
     }
     
     // clean up the missing data
@@ -83,5 +88,6 @@ ${front_matter.body}`;
     //     if (err) return console.log(err);
     //     console.log('Hello World > helloworld.txt');
     // });
+    console.log("Lesson updated "+lesson.slug, (front_matter.status), front_matter)
     return newContent;
 }
