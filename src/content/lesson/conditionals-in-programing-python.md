@@ -12,7 +12,7 @@ tags: ["Conditionals", "Logical operators", "If...else", "Conditions","Python"]
 
 ## Introduction to conditionals in Python
 
-There are 5 skils you need to master in your toolset for building algorithms with python:
+There are 5 skills you need to master in your toolset for building algorithms with python:
 
 1. Variables.
 2. `Conditionals`.
