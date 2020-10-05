@@ -1,12 +1,12 @@
 ---
 title: "Learn React Here : React Js Tutorial"
 subtitle: "React is a front-end library ideal for creating interfaces (generate HTML+CSS). It's the fastest, most advanced and most wanted library in the market right now. Don't stay behind, learn React js here with this React Js tutorial"
-
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
-
 date: "2018-11-13"
 tags: ["reactjs"]
+status: "draft"
+
 ---
 
 Think about it: what is the most annoying thing about working with Javascript?  All the programming languages have loops, conditionals, variables and logical operations; some have events, but only Javascript has: The DOM.  Yes, that is the most annoying thing when coding for the web, it’s not only very slow in terms of performance, but also makes your code redundant, cumbersome and huge.

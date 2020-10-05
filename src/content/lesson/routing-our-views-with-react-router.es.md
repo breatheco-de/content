@@ -5,6 +5,8 @@ cover: "https://ucarecdn.com/8c053abc-2f09-47e9-b586-751538d180c4/"
 textColor: "white"
 date: "2018-11-13"
 tags: ["reactjs","react router"]
+status: "draft"
+
 ---
 
 ## ¿Qué es React Router?

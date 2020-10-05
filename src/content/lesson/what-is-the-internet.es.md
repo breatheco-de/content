@@ -1,13 +1,12 @@
 ---
 title: "Que es el Internet?"
 subtitle: "Que es el Internet: Todo lo que se ve en internet es un documento de texto. Todo!! Como desarrolladores, todo lo que hacemos es generar trozos de texto basados en un conjunto de criterios. Si entiendes este simple concepto, el cielo será el limite."
-
 cover: "https://ucarecdn.com/05a36362-c09f-4961-a7b9-8e3132a902b1/"
-
 textColor: "white"
-
 date: "2017-08-10"
 tags: ["internet"]
+status: "draft"
+
 ---
 
 ## Todo cobra sentido si retrocedemos en el tiempo…

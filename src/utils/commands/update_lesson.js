@@ -1,4 +1,5 @@
 const {walk, indexLessons} = require("../files")
+const fs = require('fs');
 const { POSSIBLE_STATUS } = require("../variables")
 
 
@@ -8,6 +9,7 @@ module.exports = {
         '--statusTo':    String,
         '--statusFrom':    String,
         '--slug':    String,
+        '--test':    String,
         // '--version': Boolean,
         // '--verbose': arg.COUNT,   // Counts the number of times --verbose is passed
         // '--port':    Number,      // --port <number> or --port=<number>
@@ -16,7 +18,8 @@ module.exports = {
     },
     defaults: {
         '--statusFrom': null,
-        '--statusTo': null
+        '--statusTo': null,
+        '--test': false
     },
     run: (args) => {
         if(!args['--slug']) throw Error(`You need to specify a valid lesson --slug instead of:  ${args['--slug']}`);
@@ -39,19 +42,18 @@ module.exports = {
 
                 if(args['--slug'] !== 'all'){
                     const lesson = result.lessons.find(l => l.originalSlug === args['--slug'])
-                    if(lesson) update(lesson, newvalues, conditions)
+                    if(lesson) update(lesson, newvalues, conditions, args['--test'])
                     else console.log(`Lesson ${args['--slug']} not found`, lesson)
                 }
                 else{
                     result.lessons.forEach(lesson => {
-                        update(lesson, newvalues, conditions)
+                        update(lesson, newvalues, conditions, args['--test'])
                     })
                 }
-                console.log("Success!! All files are valid".green);
                 process.exit(0);
             }
             catch(error){
-                console.log(error);
+                console.log("Error", error);
                 process.exit(1);
             }
         })
@@ -59,7 +61,7 @@ module.exports = {
 }
 
 
-const update = (lesson, data, conditions={}) => {
+const update = (lesson, data, conditions={}, test=false) => {
 
     const  { content, path, front_matter } = lesson;
     if(
@@ -68,7 +70,7 @@ const update = (lesson, data, conditions={}) => {
         (conditions.status && front_matter.attributes.status !== conditions.status)
     ){
         console.log(`Ignoring lesson ${lesson.slug} because status is not ${conditions.status}`)
-        return content;
+        return false;
     }
     
     // clean up the missing data
@@ -82,12 +84,13 @@ ${Object.keys(attributes).reduce((total, key) => {
     else return total+`${key}: "${attributes[key]}"\n`
 },"")}
 ---
+
 ${front_matter.body}`;
-    console.log(newContent)
-    // fs.writeFile(path, newContent, function (err) {
-    //     if (err) return console.log(err);
-    //     console.log('Hello World > helloworld.txt');
-    // });
-    console.log("Lesson updated "+lesson.slug, (front_matter.status), front_matter)
-    return newContent;
+
+    if(test === false){
+        console.log("Updating "+path+ " ...")
+        fs.writeFileSync(path, newContent);
+        console.log("Lesson updated "+lesson.slug, (front_matter.status), front_matter)
+    }
+    else console.log("TEST: Lesson updated "+path+ " with: ", newContent)
 }

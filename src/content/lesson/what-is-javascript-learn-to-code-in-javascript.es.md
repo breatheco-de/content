@@ -3,9 +3,10 @@ title: "¿Qué es JavaScript? Aprende a Programar en JavaScript"
 subtitle: "Aprende qué es JavaScript, todos están hablando de ello y, probablemente, ya sepa que es hora de aprender a programar en JavaScript para llevar las cosas al siguiente nivel."
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
-
 date: "2018-02-11"
 tags: ["javascript"]
+status: "draft"
+
 ---
 
 ## Pero, Qué es programar?

@@ -6,7 +6,9 @@ cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 author: ["alesanchezr"]
 syntax: ["python"]
-tags: ["Condicionales", "Operaciones lógicas", "If...else", "Condicion","Python"]
+tags: ["Condicionales","Operaciones lógicas","If...else","Condicion","Python"]
+status: "draft"
+
 ---
 
 ## Introducción a los condicionales en Python 

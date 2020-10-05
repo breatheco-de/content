@@ -4,10 +4,11 @@ subtitle: "Using conditionals allow you to control the flow of your code and mak
 date: "2020-03-11"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
-status: "published"
+status: "draft"
 author: ["alesanchezr"]
 syntax: ["python"]
-tags: ["Conditionals", "Logical operators", "If...else", "Conditions","Python"]
+tags: ["Conditionals","Logical operators","If...else","Conditions","Python"]
+
 ---
 
 ## Introduction to conditionals in Python

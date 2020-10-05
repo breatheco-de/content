@@ -1,12 +1,12 @@
 ---
 title: "It's Time To Learn What is an Array"
-
 subtitle: "Can you work with arrays ? if you can't,  don't worry here you will learn what is an array and how to work with them"
-
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-02-11"
 tags: ["array"]
+status: "draft"
+
 ---
 
 ## Why are Arrays in a Separate Lesson?

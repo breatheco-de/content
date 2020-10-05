@@ -9,7 +9,15 @@ const dirPath = path.join(__dirname, '/commands/'+command) + ".js";
 if(fs.existsSync(dirPath)){
     const commandScript = require(dirPath);
     let args = arg(commandScript.args);
-    Object.keys(commandScript.args).forEach(_a => args[_a] === undefined ? args[_a] = null : null)
+    Object.keys(commandScript.args).forEach(_a => 
+        args[_a] === undefined ? 
+            commandScript.defaults[_a] === undefined ? 
+                args[_a] = null 
+                : 
+                args[_a] = commandScript.defaults[_a]
+            :
+            null
+        )
     commandScript.run(args);
 }
 else{

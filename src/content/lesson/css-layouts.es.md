@@ -1,3 +1,8 @@
+---
+status: "draft"
+
+---
+
 
 title: "Aprendamos el Modelo de Cajas"
 subtitle: "Crear diseños es el proceso más doloroso al programar en HTML & CSS

@@ -1,19 +1,17 @@
 ---
 title: "Learn CSS: What is CSS Meant for?"
 subtitle: "As you may have noticed, HTML allows you to create only basic websites.
-
 Nobody wants to see a white website with some horrible text on it.
-
 So it's time to learn what CSS is all about!
-
 Learn CSS to make your website beautiful. Let's make it shine!"
-
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
-
 date: "2018-10-31"
 tags: ["CSS"]
+status: "draft"
+
 ---
+
 ## Welcome to CSS!!
 ***
 We are sure that after diving deep into HTML, everything looks kind of ugly, fixed, and rigid. We have to remember that HTML was created by CERN scientists, and they’re not – usually – the funniest kind of people (although they are the same exact scientists that 

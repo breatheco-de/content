@@ -1,11 +1,12 @@
 ---
 title: "Intro to Pre-Work"
-subtitle: "We know what we are doing, you should know too. 
-Learn the process we have polished to make you learn 2 years of content in just a few weeks."
+subtitle: "We know what we are doing, you should know too.  Learn the process we have polished to make you learn 2 years of content in just a few weeks."
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2017-10-22"
 tags: ["prework"]
+status: "draft"
+
 ---
 
 ## About Coding 

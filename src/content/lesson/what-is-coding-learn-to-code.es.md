@@ -5,6 +5,8 @@ cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2017-02-11"
 tags: ["programacion"]
+status: "draft"
+
 ---
 
 Los algoritmos son asombrosos. Pueden servir para varios propósitos, pero, como desarrolladores web, usaremos nuestros algoritmos para crear código HTML y decirle a nuestros programas cómo reaccionar ante las interacciones del usuario.

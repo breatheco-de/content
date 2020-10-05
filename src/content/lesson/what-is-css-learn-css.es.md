@@ -1,19 +1,17 @@
 ---
 title: "Aprendamos CSS: Que Quiere Decir CSS?"
 subtitle: "Cómo te habrás dado cuenta, HTML te permite crear sólo sitios web básicos.
-
 Nadie quiere ver un sitio web blanco con algún texto horrible en él.
-
 ¡Así que es hora de saber de qué se trata CSS!
-
- Aprende CSS para hacer tu sitio web hermoso. Es hora de brillar !."
-
+Aprende CSS para hacer tu sitio web hermoso. Es hora de brillar !."
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
-
 date: "2018-10-31"
 tags: ["CSS"]
---- 
+status: "draft"
+
+---
+
 ## Bienvenido a CSS!!
 ***
 Luego de sumergirnos en el mundo de HTML todo empieza a parecer feo, rígido y cuadrado. Después de todo hay que recordar que HTML fue hecho por científicos, no estamos diciendo que es feo por eso, seguramente hay científicos que hacen cosas hermosas (además, fueron los mismos científicos

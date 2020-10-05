@@ -5,7 +5,9 @@ date: "2019-11-11"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 syntaxis: ["java"]
-tags: ["Condicionales", "Operaciones Logicas", "Si de lo contrario", "Condicion","Java"]
+tags: ["Condicionales","Operaciones Logicas","Si de lo contrario","Condicion","Java"]
+status: "draft"
+
 ---
 
 Dominar el uso de las condiciones es una de las 5 habilidades fundamentales de construir algoritmos:

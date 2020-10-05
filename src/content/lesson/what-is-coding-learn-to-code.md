@@ -5,6 +5,8 @@ cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2017-02-11"
 tags: ["learn to code","what is coding"]
+status: "draft"
+
 ---
 
 Algorithms are amazing.  They can serve several purposes, but, as web developers, we will use our algorithms to build HTML code and tell our programs how to react to the user interactions.
