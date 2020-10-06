@@ -1,12 +1,12 @@
 ---
 title: "Aprender React Aquí: Tutorial de React Js"
 subtitle: "React es una librería de front-end ideal para crear interfaces (genera HTML+CSS). Es la librería más rápida, más avanzada y más buscada en el mercado en este momento. No te quedes atrás, aprende React js aquí con este tutorial de React Js"
-
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
-
 date: "2018-11-13"
 tags: ["reactjs"]
+status: "draft"
+
 ---
 
 Piénsalo: ¿qué es lo más molesto de trabajar con Javascript? Todos los lenguajes de programación tienen bucles, condicionales, variables y operaciones lógicas; algunos tienen eventos, pero solo Javascript tiene: El DOM. Sí, eso es lo más molesto al codificar para la web, no solo es muy lento en términos de rendimiento, sino que también hace que su código sea redundante, engorroso y enorme.

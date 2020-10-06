@@ -5,6 +5,8 @@ cover: "https://ucarecdn.com/bf7bc7e6-c89c-4f97-9377-e30e369ba796/"
 textColor: "white"
 date: "2018-05-11"
 tags: ["regex","expresiones regulares"]
+status: "draft"
+
 ---
 
 ## ¿Qué es una Expresión Regular (Regex)?

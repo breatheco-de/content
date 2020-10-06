@@ -1,12 +1,12 @@
 ---
 title: "Aprende La Diferencia: Jquery vs Javascript"
-
 subtitle: "Hola chicos, es hora de saber más sobre qué es Jquery, al final tu serás el juez y decidirás cuál usarás (Jquery vs Javascript)"
-
 date: "2018-05-11"
 cover: "https://ucarecdn.com/8c053abc-2f09-47e9-b586-751538d180c4/"
 textColor: "white"
 tags: ["jquery","javascript"]
+status: "draft"
+
 ---
 
 [[warning]]

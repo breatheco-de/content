@@ -5,6 +5,8 @@ cover: "https://ucarecdn.com/84c4d84c-51b9-4906-a572-71cc07ecfc8c/"
 textColor: "white"
 date: "2018-11-14"
 tags: ["reactjs"]
+status: "draft"
+
 ---
 
 ## En React.js todo es un `<Component />`

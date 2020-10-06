@@ -3,12 +3,12 @@ subtitle: "Las funciones no son opcionales - Es probable que sean la caracterís
 title: "Trabajando con Funciones"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
-
 date: "2020-02-13"
 syntax: ["python"]
-tags: ["python", "fuctions"]
----
+tags: ["python","fuctions"]
+status: "draft"
 
+---
 
 ## ¿Qué son las Funciones?
 

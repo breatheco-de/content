@@ -43,6 +43,24 @@ Contents can be tagged on the header of the markdown file, you can add as many t
 
 There are two types of tags: Technology and Category.
 
+
+### Command Line Interface
+
+A small command line tool has been developm to help manage the lessons
+
+```
+node ./src/utils/cli.js update_lesson --slug all --statusTo draft --statusFrom null
+node ./src/utils/cli.js update_lesson --slug learn-html --statusTo draft --statusFrom null
+```
+
+#### Method: update_lesson
+
+| PARAM         | DESCRIPTION |
+| ---------     | ----------- |
+| --slug        | Every lesson has a slug that identifies it, you can pass `all` if you want to update all at once |
+| --statusTo    | change the status of one or all the lessons to a particular one |
+| --statusFrom  | only apply changes to lessons with specified status |
+
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):

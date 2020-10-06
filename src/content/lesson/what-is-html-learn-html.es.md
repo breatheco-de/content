@@ -1,10 +1,13 @@
 ---
 title: "Que es HTML? Es tiempo de aprender HTML y su estructura"
-subtitle: "Pero realmente que es HTML ? HTML es para las paginas web lo que son las columnas para los edificios. \n Aqui aprenderás lo básico de HTML - la base de la web."
+subtitle: "Pero realmente que es HTML ? HTML es para las paginas web lo que son las columnas para los edificios. 
+ Aqui aprenderás lo básico de HTML - la base de la web."
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2018-10-31"
 tags: ["html"]
+status: "draft"
+
 ---
 
 [[info]]

@@ -1,11 +1,12 @@
 ---
 title: "Creando User Story: Aprenda con Ejemplos de Historias de Usuarios"
-subtitle: "Antes de avanzar hacia el desarrollo, necesitamos una estrategia (Historias de usuarios). Encuentra y aprende aquí con ejemplos de historias de usuarios.
-Es la actividad más infravalorada en el ciclo de desarrollo de software y representa el 70% de las razones por las que los proyectos no se entregan a tiempo.."
+subtitle: "Antes de avanzar hacia el desarrollo, necesitamos una estrategia (Historias de usuarios). Encuentra y aprende aquí con ejemplos de historias de usuarios. Es la actividad más infravalorada en el ciclo de desarrollo de software y representa el 70% de las razones por las que los proyectos no se entregan a tiempo.."
 cover: "https://ucarecdn.com/980ce2e0-b73e-4019-8e97-3510e3028e10/"
 textColor: "white"
 date: "2018-11-13"
 tags: ["user story"]
+status: "draft"
+
 ---
 
 ## Que es un "User Story"?

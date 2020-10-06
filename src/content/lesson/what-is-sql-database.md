@@ -1,10 +1,12 @@
 ---
 title: "Mastering Databases: What is SQL Database"
-subtitle: "Are you ready to work with data ? Learn here about what is SQL Database and how to work with it." 
+subtitle: "Are you ready to work with data ? Learn here about what is SQL Database and how to work with it."
 cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
 textColor: "white"
 date: "2018-11-14"
 tags: ["sql"]
+status: "draft"
+
 ---
 
 ## Why are Databases Important?

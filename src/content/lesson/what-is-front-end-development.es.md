@@ -5,6 +5,8 @@ cover: "https://ucarecdn.com/092d375f-89c9-4cc9-8aa7-8cc4d1230179/"
 textColor: "white"
 date: "2018-05-11"
 tags: ["front-end"]
+status: "draft"
+
 ---
 
 ## Qué es el Desarrollo Web Front-End?

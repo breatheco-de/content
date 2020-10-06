@@ -3,9 +3,10 @@ title: "Event Driven Programming"
 subtitle: "Event Driven Programming: website load, user click, window resize, etc. As a developer, you have to make sure that your applications have a flow. That flow is determined by all the possible events that can occur as the user interacts with your app."
 cover: "https://ucarecdn.com/d2ca9eb7-a3f9-432d-b791-8b1266f8923a/"
 textColor: "white"
-
 date: "2018-05-11"
 tags: ["event driven programming"]
+status: "draft"
+
 ---
 
 ## Event Driven Programming
