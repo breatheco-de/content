@@ -1,6 +1,6 @@
 ---
-title: "Making React Components"
-subtitle: "React.js bread and butter, become a master in React Components and you have conquered the front-end world of React."
+title: "Creating React Components"
+subtitle: "React.js bread and butter. Become a master in React Components and you have conquered the front-end world of React."
 cover: "https://ucarecdn.com/84c4d84c-51b9-4906-a572-71cc07ecfc8c/"
 textColor: "white"
 date: "2018-11-14"
@@ -11,17 +11,17 @@ status: "draft"
 
 ## In React.js Everything is a `<Component />`
 
-React.js separates your code into little pieces called Components which can be created/defined as a **class** or as a **function**.  Each component is like a smaller React app that has its own logic and has a final purpose which is to display (Render) something (E.g: a bootstrap Navbar, a dropdown list, a model, a dynamic form, image gallery, subscribe form, almost everything can be designed and coded as a React Component).
+React.js separates your code into little pieces called Components which can be created/defined as a **class** or as a **function**.  Each component is like a smaller React app that has its own logic and has a final purpose, which is to display or **render** something (e.g: a bootstrap navbar, a dropdown list, a model, a dynamic form, image gallery, subscribe form, almost everything can be designed and coded as a React Component). To do that every React component needs to have a `return` statement which returns some JSX code (HTML + embeded JS). 
 
-```jsx{numberLines: true}
-// as a function 
+```jsx {numberLines: true}
+// a function component 
 function NavBar(props){
     return (<nav className="navbar navbar-light bg-light">
               <a className="navbar-brand" href="#">Navbar</a>
            </nav>);
 }
 
-//or as a class 
+// a class component
 import React from 'react';
 class Navbar extends React.Component{
     render(){
@@ -34,26 +34,41 @@ class Navbar extends React.Component{
 
 ## Using a Component
 
-Once the component declaration is finished you can reference it using tags like this:
+Once you have composed a component you can display it using tags like this:
 
 ```jsx
 import React from "react";
-import { render } from "react-dom";
+import ReactDOM from "react-dom";
 
-//here you tell react to put <NavBar /> inside the #myApp DOM element 
-render(
-  <NavBar />,
+// here we tell React to put our main app component <Home /> inside the DOM element with id #myApp 
+ReactDOM.render(
+  <Home />,
   document.querySelector("#myApp")
 );
+
+// or we can use the Navbar component to display at the top of the Home component
+function Home(props){
+    return (
+        <div className="container-fluid"> //notice that in JSX we need to use the attribute name 'className instead of 'class'
+            <Navbar />
+            <div>
+                ... The rest of Home's contents ...
+            </div>
+        </div>
+    );
+}
+
 ```
 
 ## The Component Props
 
 
-Sometimes a component needs dynamic information to display.  For example, we need our `<Navbar />` component to show the list of available links and the brand’s logo.  We can include that information within the call of the `<Navbar /> `component just the same as we do in HTML tags.
+Sometimes a component needs dynamic information to display.  For example, we need our `<Navbar />` component to show the list of available links and the brand’s logo.  We can include that information within the call of the `<Navbar />` component just the same way as we do in HTML tags.
 
 ```jsx
+
 <Navbar foo="bar" foo2="bar2" />
+
 ```
 
 In this example we are passing an array of menu items and a logo URL to the NavBar component that we have just declared above.
@@ -74,20 +89,135 @@ And, lastly, you should tell React where to Render that component into the DOM.
 
 <div align="right"><small><a href="https://codesandbox.io/embed/zwlnpwmxll?hidenavigation=1">Click here to open demo in a new window</a></small></div>
 
-## The Component’s State
+## Features of `class` components 
 
-But what if my component changes over time?  For example a `<Clock />` component will need to update every second and show the current time.  To do that we have the state.
+### The Component’s State
 
-### What is this.**state**?
+We call class components in React ***stateful*** because they come with a global `state` object (shared within the same component only) which has the sole purpose of storing the data needed to render the component. One obvious use of the **state** object would be if, for example, we have a form with input fields which need to be populated by the user. The data entered by the user will need to be saved somewhere in order to be used. The `state` will be that place. 
 
-It’s a variable that you need to declare and initialize inside the component in a particular way.  React.js will re-render the entire DOM every time you update that particular variable.
+In another example, let's say that you are developing a `<Clock />` component that has to print the current time every second. That means that our component will need to re-render on every second. 
 
-There’s a catch, though.  The State is unmutable, which means the variable cannot be edited directly, so we have to update it using:
+In order for the state to keep a web page up-to-date, it is programmed to re-render the DOM every time it is modified. So you can probably already see how you can take advantage of this feature - by keeping your current time inside of the state and reassigning it with the most current time on every second. Like so:
 
-- In a class component using the ***setState()*** function that receives the new State object (overriding the old one).
-- In a functional component using the `useState` hook and setter.
+[[info]]
+| :point_up:The following demo updates the current time on every second:
 
-#### Updating the state on a functional component
+<iframe src="https://codesandbox.io/embed/zw852wvqp4?autoresize=1&amp;hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
+<div align="right"><small><a href="https://codesandbox.io/embed/zw852wvqp4?autoresize=1&amp;hidenavigation=1">Click here to open demo in a new window</a></small></div>
+
+The state is always located inside of the `constructor()` method of the class components and is expressed as a plain JS object literal.
+
+#### The State Object is considered Immutable (should not be changed directly)
+
+When speaking about modifying the value of the state, you have to remember that the state should not be mutated directly. It should only be modified by calling the specially designated method this.setState(). In it you will have to pass a new/updated state object that will replace the previous state values. For example:
+
+```jsx {numberLines: true} 
+
+// a direct assignment of this.state is only allowed in the constructor method of your class; anywhere else it may cause an error in your stored data
+constructor(){
+   super();
+   this.state = {
+      counter: 0
+   }
+}
+
+// from anywhere else in the class we can reset the value of a state variable by passing an UPDATED object into the setState() method 
+const newState = {
+    counter: 2
+};
+this.setState(newState);
+
+//you can do the same operation inline as well
+this.setState({
+   counter: 2
+});
+// notice how above we have passed the entire new version of the state with the {} and the updated counter value within
+// notice this new version will completely replace the old version of the state, erasing any other data that may have been in it 
+```
+State updates happen in an asynchronous manner and diretly mutating the state creates opportunity for values to be incorrectly updated and cause data inconsistencies in your web application. 
+
+### The Component Constructor
+
+As it was mentioned above, the place to initialize your component state is in the constructor method.
+
+The constructor of each component gets called automatically very early in the application's runtime – even before your website has been mounted.
+
+If you do not need to use the state, you do not need to explicitly implement a constructor method and in some examples you will see this method missing.
+However, if you will need to use the state, it is extremely important to initialize its values, otherwise on first render your application is going to return your state variables as ***undefined.***
+
+You will also need to implement your constructor method if you will be using any props, with the `super(props)` method. That allows you to inherit from the superclass `React.Component` of which every React **class** component is a subclass.   
+
+```javascript
+class ClockComponent extends React.Component {
+  constructor(props){
+    super(props);
+     //here is a great place to define the first value your component state will have 
+    this.state = {
+    	currentTime: new Date()
+    };
+  }
+}
+```
+
+Here is a complete React class-component template for reference:
+
+```jsx
+
+class Clock extends React.Component {
+  // the standard constructor method with props and this.state initialized
+  constructor(props) {
+    super(props);
+    this.state = {date: new Date()};
+  }
+
+  // a React lifecycle method  
+  componentDidMount() {
+    this.timerID = setInterval(
+      () => this.tick(),
+      1000
+    );
+  }
+    
+  // a React lifecycle method  
+  componentWillUnmount() {
+    clearInterval(this.timerID);
+  }
+
+  // a custom method created by the developer to serve a purpose
+  tick() {
+    this.setState({
+      date: new Date()
+    });
+  }
+
+  // the standard render method with the component's return 
+  render() {
+    // here can be inserted any JS code which needs to execute on every re-render and would be used in the return below, like dynamic variables or statements
+    return (
+      <div>
+        <h1>Hello, world!</h1>
+        <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(
+  <Clock />,
+  document.getElementById('root')
+);
+
+```
+
+## Features of `function` components
+
+Functional components are simplified React components originally intended for presentational purposes. 
+For that reason they are traditionally **stateless** - they have no state of their own. That allows them to be lighter, faster and easier to write. 
+
+Functions' statelessness was addressed with React 16.8.0 which introduced the ever-so popular React Hooks. Since then the `useState` hook allows us to reproduce state behavior in our functional components: 
+
+#### Updating the state of a functional component
 
 ```jsx
 
@@ -107,27 +237,6 @@ const [ color, setColor ] = useState("pink");
 const [ anything, setAnything ] = useState(<any value>);
 ```
 
-#### Updating the state on a class-based component
-
-```jsx
-
-// WRONG! Never update the state directly 
-this.state.foo = "bar";
-
-// CORRECT! Call the this.setState() function and pass the new state to it. 
-const newState = {
-    foo: "bar"
-};
-this.setState(newState);
-
-// ALSO CORRECT! You can do it inline 
-this.setState({
-    foo: "bar"
-});
-```
-
-Here is an example of the `<Clock />` component we were just talking about:
-
 #### Using a Function-based component (with hooks)
 
 <iframe
@@ -140,17 +249,11 @@ Here is an example of the `<Clock />` component we were just talking about:
 
 <div align="right"><small><a href="https://codesandbox.io/embed/current-time-in-react-hook-based-dj7k9?fontsize=14&hidenavigation=1&theme=dark">Click here to open demo in a new window</a></small></div>
 
-#### Using a Class-based component
-
-<iframe src="https://codesandbox.io/embed/zw852wvqp4?autoresize=1&amp;hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
-
-
-<div align="right"><small><a href="https://codesandbox.io/embed/zw852wvqp4?autoresize=1&amp;hidenavigation=1">Click here to open demo in a new window</a></small></div>
-
 
 ## But wait, should I use Function or Class?
 
-We strongly recomend to use functions and hooks all the time (not Classes)
+So React Hooks effectively changed the nature of the original React functional components and now both types of components are very similar in the things they can do. 
+Because of that we strongly encourage you to use functions and hooks as much as possible. 
 
 + Functions are super simpler.
 + Your bundle (your entire website) size will be lighter and faster to download.
