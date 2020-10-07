@@ -1,6 +1,6 @@
 ---
-title: "Introduction to 4Geeks Academy"
-subtitle: "I hope you read this entire article, this reading summarizes in 8 min the recipe to take full advantage of the academy. The most effective way!"
+title: "Introducción 4Geeks Academy"
+subtitle: "Tenemos la esperanza que leas este artículo completo. Aquí encontrarás una receta de 8 min para sacarle el máximo provecho de la academia ¡de la manera más efectiva!"
 cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
 textColor: "white"
 status: "draft"
@@ -14,7 +14,10 @@ canonical: ""
 
 ## Lo que ya sabes
 
-Estas aquí para a desarrollar tus habilidades para codificar hasta unnivel en el puedas serle útil a la sociedad para poder: 1️⃣ Conseguir trabajo, 2️⃣ Crear tu propia empresa y/o 3️⃣ Adaptarte mejor al nuevo mundo. 
+Estas aquí para a desarrollar tus habilidades para codificar hasta un nivel en el puedas serle útil a la sociedad para poder: 
+1️⃣ Conseguir trabajo,
+2️⃣ Crear tu propia empresa y/o 
+3️⃣ Adaptarte mejor al nuevo mundo. 
 
 ## Lo que ya sabías
 
@@ -22,11 +25,11 @@ También estas aquí porque necesitas ayuda, no sólo técnica sino también esp
 
 > La mayor pared que deberás derrumbar para convertirte en un desarrollador no se está en el programa ni en el contenido, sino en tu mente.
 
-Vamos a cambiar la forma en que estas acostumbrado a aprender, la forma en que ves la vida, la manera en que te vendes a ti mismo (por lo tanto la manera en que te ves a ti mismo), estamos derribando los viejas ideas equivocadas sobre ti mismo, el reto y sobre tu vida profesional.
+Vamos a cambiar la forma en que estas acostumbrado a aprender, la forma en que ves la vida, la manera en que te vendes a ti mismo (por lo tanto la manera en que te ves a ti mismo), estamos derribando los viejas ideas erradas sobre ti mismo, los dem{as} y sobre tu vida profesional.
 
 ### Estamos aquí para derribar 3 Paredes respecto al Código
 
-Durante los años que han pasado hemos identificado razones específicas por la cuales los estudiantes se frustran y dejan de intentar ser desarrolladores o no completan el curso y no consiguen trabajo.
+A través de los años hemos identificado razones específicas por la cuales los estudiantes se frustran y dejan de intentar ser desarrolladores o no completan el curso y no consiguen trabajo.
 
 
 #### Pared #1: Confianza 🥺 (Síndrome del impostor)
@@ -44,16 +47,15 @@ Cualquier persona promedio puede aprender a programar a un nivel en que puede se
 
 1. **Evita estar atascado durante mucho tiempo:** Codificar puede complicarse porque puedes estar a punto de resolver el problema pero te que quedas atascado y no lo ves. Quizás no sepas como empezar a resolver un problema y una conversación de 5 minutos con mentor te aclarará la mente.
 
-2. **Habla con otros estudiantes:** Puede que pienses que eres el único que entiende, pero si hablas con otros compañeros verás que no eres sólo tu, te dará confianza para hacer preguntas.
+2. **Habla con otros estudiantes:** Puede que pienses que eres el único que entiende, pero si hablas con otros compañeros verás que no eres sólo tu y te dará confianza para hacer preguntas.
 
-3. **Habla con los mentores:** Una vez con experiencia siempre es buena, hay alumni y profesores que ya han pasado por momentos difíciles o que están con dificultades ¡en este mismo momento¡
-
+3. **Habla con los mentores:** Una voz con experiencia siempre es buena, hay alumni y profesores que ya han pasado por momentos difíciles o que están con dificultades ¡en este mismo momento¡
 
 #### Pared #2: Confianza ✝
 
-Durante toda tu vida has aprendido de la misma manera, el sistema de educación te ha puesto en una caja y te ha enseñado a aprender lentamente limitando tu habilidad para adaptarte al nuevo mundo de profesionales que aprenden con rapidez y que son autodidactas.
+Durante toda tu vida has aprendido de la misma manera; el sistema de educación te ha puesto en una caja y te ha enseñado a aprender lentamente limitando tu habilidad para adaptarte al nuevo mundo de profesionales que aprenden con rapidez y que son autodidactas.
 
-Sabemos como enseñarte: lo hemos hecho uno y otra vez, pero te enseñaremos de una manera tan diferente que puede no gustarte al principio, es normal que tu mente querrá vover al aprendizaje "lento pero seguro", sin tener que sentirte incómodo o constantemente desafiado por nuestro sistema.
+Sabemos como enseñarte: lo hemos hecho uno y otra vez, pero te enseñaremos de una manera tan diferente que puede no gustarte al principio, es normal que tu mente quiera vover al aprendizaje "lento pero seguro", sin tener que sentirte incómodo o constantemente desafiado por nuestro sistema.
 
 ##### 📝 Receta para evitar perder la confianza en nuestros métodos  
 
