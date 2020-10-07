@@ -2,11 +2,11 @@
 title: "JavaScript Import and Export of Modules"
 subtitle: "Split and conquer (again), this time we teach you how to split your code into several files to avoid GIT conflicts and to also be more organized, By the end of this lesson you will be able to dominate JavaScript import and exports."
 cover: "https://ucarecdn.com/c558ac72-194b-40f2-be2f-6e65e8c219c9/"
-
 textColor: "white"
-
 date: "2018-12-11"
 tags: ["javascript","import","export"]
+status: "draft"
+
 ---
 
 [[info]]

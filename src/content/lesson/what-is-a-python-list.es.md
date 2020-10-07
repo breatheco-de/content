@@ -1,13 +1,13 @@
 ---
 title: "Es Hora de Aprender lo que es un Arreglo o List en Python"
-
 subtitle: "¿Se puede trabajar con arreglos? Si no puedes, no te preocupes aquí, aprenderás qué es un arreglo/list y cómo trabajar con ellas."
-
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2020-02-16"
 syntax: "python"
-tags: ["array", "list","python","loops"]
+tags: ["array","list","python","loops"]
+status: "draft"
+
 ---
 
 Dominar el uso de los `arreglos e iteraciones` es una de las 5 habilidades fundamentales de construir algoritmos:

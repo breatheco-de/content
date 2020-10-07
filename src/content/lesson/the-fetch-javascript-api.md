@@ -7,8 +7,10 @@ authors: ["Guensie"]
 textColor: "white"
 date: "2018-05-11"
 tags: ["fetch","ajax","http"]
+status: "draft"
 
 ---
+
 # Fetch API
 **A Quick Glance at the Fetch API**
 

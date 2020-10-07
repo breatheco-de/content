@@ -5,6 +5,8 @@ cover: "https://ucarecdn.com/3e50e217-514d-41dc-a7a4-4725e08f8afb/"
 textColor: "white"
 date: "2018-12-11"
 tags: ["django","python","REST","API"]
+status: "draft"
+
 ---
 
 ### Why Django?

@@ -4,15 +4,16 @@ subtitle: "Using conditionals allow you to control the flow of your code and mak
 date: "2020-03-11"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
-status: "published"
+status: "draft"
 author: ["alesanchezr"]
 syntax: ["python"]
-tags: ["Conditionals", "Logical operators", "If...else", "Conditions","Python"]
+tags: ["Conditionals","Logical operators","If...else","Conditions","Python"]
+
 ---
 
 ## Introduction to conditionals in Python
 
-There are 5 skils you need to master in your toolset for building algorithms with python:
+There are 5 skills you need to master in your toolset for building algorithms with python:
 
 1. Variables.
 2. `Conditionals`.

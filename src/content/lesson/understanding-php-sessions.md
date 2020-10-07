@@ -5,6 +5,8 @@ cover: "https://ucarecdn.com/980ce2e0-b73e-4019-8e97-3510e3028e10/"
 textColor: "white"
 date: "2018-11-14"
 tags: ["PHP"]
+status: "draft"
+
 ---
 
 ## Server Sessions

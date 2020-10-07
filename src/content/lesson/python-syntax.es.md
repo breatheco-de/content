@@ -1,12 +1,12 @@
 ---
 title: "Entendiendo la Sintaxis de Python"
 subtitle: "Desata tu poder aprendiendo con esta lección, usando uno de los Reyes del Desarrollo de Back-End. Ahora podrás integrar IA, Big Data, Aprendizaje automático, API e integrar aplicaciones de terceros en su propia cuenta. Disfrute de esta lección sobre la sintaxis de Python"
-
 cover: "https://ucarecdn.com/576d4b0e-8b35-493d-879c-4d8f914c585f/"
-
 textColor: "white"
 date: "2018-11-05"
 tags: ["python"]
+status: "draft"
+
 ---
 
 El título de esta lección debe ser "De Python a JS", porque así es como evolucionó la historia. Python nació primero y es mucho más maduro. Con Python, eres capaz de hacer muchas más cosas porque es un lenguaje de backend y tiene librerias y herramientas para cualquier cosa que puedas imaginar.

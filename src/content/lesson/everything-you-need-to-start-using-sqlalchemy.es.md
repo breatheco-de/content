@@ -6,9 +6,9 @@ cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
 date: "2019-04-28"
 textColor: "white"
 authors: ["alesanchezr"]
-status: "published"
+status: "draft"
+tags: ["SQL Alchemy","Python"]
 
-tags: ["SQL Alchemy", "Python"]
 ---
 
 ## Qué es SQL Alchemy
@@ -59,7 +59,7 @@ El primer paso será definir nuestro modelo.
 ```py
 class Person(Base):
     __tablename__ = 'person'
-    # Aquí definimos columnas para la persona de la mesa.
+    # Aquí definimos el nombre de la tabla 'person'.
     # Ten en cuenta que cada columna es también un atributo normal de primera instancia de Python.
     id = Column(Integer, primary_key=True)
     name = Column(String(250), nullable=False)

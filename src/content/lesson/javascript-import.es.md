@@ -2,11 +2,11 @@
 title: "Importación y exportación de módulos JavaScript"
 subtitle: "Dividir y conquistar (nuevamente), esta vez te enseñamos cómo dividir tu código en varios archivos para evitar conflictos de GIT y también para estar más organizado.  Al final de esta lección, podrás dominar la importación y exportación de JavaScript."
 cover: "https://ucarecdn.com/c558ac72-194b-40f2-be2f-6e65e8c219c9/"
-
 textColor: "white"
-
 date: "2018-12-11"
 tags: ["javascript","importacion","exportacion"]
+status: "draft"
+
 ---
 
 [[info]]

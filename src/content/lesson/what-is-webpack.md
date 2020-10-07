@@ -2,9 +2,11 @@
 title: "What is webpack?"
 subtitle: "For senior developers, it is imposible to think about developing a JS application without Webpack. Thanks to Webpack, developing front-end feels good and professional for the first time.So its time to learn what is webpack"
 cover: "https://ucarecdn.com/cdbe1bf9-2b6b-4c21-b127-eacc681d9c8d/"
-textColor: "white" 
+textColor: "white"
 date: "2018-08-11"
 tags: ["webpack"]
+status: "draft"
+
 ---
 
 By now, you have probably felt how disorganized and difficult working with Javascript can be.  You have to remember in what order to include the script tags in your HTML to properly setup jQuery, Popper, Font Awesome, Bootstrap CSS files, Bootstrap JS files, your own CSS files, your own JS files, etc!  The list only gets bigger and bigger from here.

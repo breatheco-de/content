@@ -2,7 +2,8 @@ ports:
     - port: 3000
 tasks:
     - init:
-        npm install
+        npm install;
       command: >
+        npm i gatsby -g;
         npm i now -g;
         npm run start

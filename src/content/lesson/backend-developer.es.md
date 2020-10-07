@@ -1,13 +1,12 @@
 ---
 title: "Conociendo lo que está Detrás de un Desarrollador de Back-End"
-
 subtitle: "Aprenda aquí todo sobre el desarrollo web de Back-End y lo que se necesita para convertirse en Desarrollador de Back-End"
-
 cover: "https://ucarecdn.com/98208ebb-dcb3-4e40-9ae4-4ec886213f97/"
-
 textColor: "white"
 date: "2018-05-11"
 tags: ["back-end","cliente-servidor"]
+status: "draft"
+
 ---
 
 ## El Lado de Back-End de la Web
