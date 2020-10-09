@@ -5,12 +5,12 @@ date: "2018-05-11"
 cover: "https://ucarecdn.com/8c053abc-2f09-47e9-b586-751538d180c4/"
 textColor: "white"
 tags: ["jquery","javascript"]
-status: "draft"
+status: "published"
 
 ---
 
 [[warning]]
-| :point_up:A partir del 1 de enero de 2017, 4Geeks ha decidido dejar de enseñar jQuery porque creemos que ya no es necesario que alguien se convierta en un desarrollador de front-end. Sin embargo, estamos dejando las lecciones y las respuestas aquí si deseas aprenderlas por tu cuenta.
+| :point_up:A partir del 1 de enero de 2017, 4Geeks ha decidido dejar de enseñar jQuery porque creemos que ya no es necesario para alguien que se convertirá en un desarrollador front-end. Sin embargo, estamos dejando las lecciones y los ejercicios aquí por si deseas aprenderlas por tu cuenta.
 
  ## Aprende la biblioteca jQuery
 
@@ -19,28 +19,28 @@ status: "draft"
  ### Qué es jQuery?
  ***
 
-jQuery es una biblioteca (conjunto de funciones) disponible para los desarrolladores de JavaScript para hacerles la vida más fácil (como el objeto Math que usamos para Math.random). **jQuery NO es otro idioma.** Es lo mismo que JavaScript, y no es necesario que lo uses si no lo deseas.
+jQuery es una librería (conjunto de funciones) disponible para los desarrolladores de JavaScript para hacerles la vida más fácil (como el objeto Math que usamos para Math.random). **jQuery NO es otro idioma.** Es lo mismo que JavaScript, y no es necesario que lo uses si no lo deseas.
 
  ### Por qué jQuery
  ***
 
-Cuando jQuery era lo nuevo (hace 10 años), a la gente le encantaba. Hizo mucho más fácil el navegador JS. Nos enseñó algunos trucos nuevos e hizo que AJAX y las animaciones fueran muy simples (¡lo cual fue bastante complicado cuando la mayor parte del mundo estaba en IE6!).
+Cuando jQuery era lo nuevo (hace 10 años), a la gente le encantaba. Hizo mucho más fácil el uso de JS. Nos enseñó algunos trucos nuevos e hizo que AJAX y  animaciones muy simples (¡lo cual fue bastante complicado cuando la mayor parte del mundo estaba en IE6!).
 
-Luego vino La Época de los Smartphone. Esto es un desastre deletreado para jQuery. Gracias a las CPU más lentas e inferiores con menos memoria y, a menudo, menos ancho de banda, los teléfonos inteligentes simplemente no funcionaron para cargar con toda la bondad que jQuery proporcionó, especialmente si solo usaba el 10% de la misma.
+Luego vino La Época de los Smartphone. Esto fue desastre para jQuery. Gracias a las CPU más lentas e inferiores con menos memoria y, a menudo, con menos ancho de banda, los teléfonos inteligentes simplemente no funcionaron para cargar adecuadamente jQuery - especialmente si sólo usaba el 10%.
 
-Hoy, los navegadores han acordado algunas de las cosas que jQuery El Negociador les había estado ayudando desde el principio. Así que activa y rápidamente recortaron la grasa.
+Hoy, los navegadores han acordado algunas de las cosas que jQuery El Negociador lees había estado ayudando desde el principio. Así que activa y rápidamente recortaron la grasa.
 
-¿Todavía necesitamos jQuery? Tal vez no. El uso de su biblioteca está claramente disminuyendo, pero aún duplica a cualquiera de sus hermanos (Angular, React, etc.), ¡y Bootstrap todavía lo usa mucho!
+¿Todavía necesitamos jQuery? Tal vez no. El uso de su libbrerí está claramente disminuyendo, pero aún duplica a cualquiera de sus parientes (Angular, React, etc.), ¡y Bootstrap todavía lo usa mucho!
 
-#### Entonces, ¿de qué se trata toda la promoción que rodea a jQuery?
+#### Entonces, ¿Por qué es es tan publicitado jQuery?
 
-Query puede hacer 5 cosas realmente bien, y esas 5 cosas llevaron a jQuery al punto de que se está utilizando en casi todos los sitios web:
+Query puede hacer 5 cosas realmente bien, y esas 5 cosas llevaron a jQuery al punto de ser utilizando en casi todos los sitios web:
 
 + **Menos líneas de código:** En términos prácticos, necesita un 50% más de líneas de código para lograr exactamente lo mismo sin jQuery. Revisemos y comparemos las cosas más comunes que normalmente haces como desarrollador cuando juegas con el DOM.
 + **Manejo de eventos más fácil:** Trabajar con eventos es relativamente fácil en Vanilla JS hoy, pero jQuery ayuda mucho al permitirnos agregar oyentes a varios elementos al mismo tiempo usando los selectores jQuery.
-+ **Animaciones extremadamente fáciles:** jQuery es realmente increíble para animaciones, fadeIn, fadeOut, bounce, etc. Todos estos movimientos ya están definidos y puedes recrearlos en solo un par de líneas de código.
++ **Animaciones extremadamente fáciles:** jQuery es realmente increíble para animaciones, fadeIn, fadeOut, bounce, etc. Todos estos movimientos ya están definidos y puedes recrearlos en sólo un par de líneas de código.
 + **AJAX simple:** Hacer solicitudes HTTP en JavaScript todavía es un poco engorroso, pero jQuery lo hace realmente simple con la función $ .ajax.
-+ **Plugins:** Hay miles de plugins de jQuery por ahí. Enriquecen la funcionalidad web con características muy interesantes; Hacer y compartir complementos es probablemente la mejor característica que jQuery puede proporcionar a los desarrolladores web.
++ **Plugins:** Hay miles de plugins de jQuery. Enriquecen la funcionalidad web con características muy interesantes; hacer y compartir complementos es probablemente la mejor característica que jQuery puede proporcionar a los desarrolladores web.
 
 ### Instalación
 ***
@@ -51,13 +51,13 @@ Dado que jQuery es una libreria, debe instalarse como una libreria de JavaScript
 <script src="myscripts.js"></script>
 ```
 
-#### pero Espera mi Amigo!
+#### ¡Pero espera!
 
 Primero, necesitas el código jQuery real. Tiene dos opciones para eso: (1) Descargar el código fuente de jQuery (recomendado) o (2) Importar el código desde un servidor público (CDN):
 
 ##### 1) Descarga desde code.jquery.com
 
-Para descargar jQuery, vaya a code.jquery.com y elija la última versión MINIFIED de jQuery disponible. Haz clic derecho en él y "guarda el archivo como ...". Guarda ese archivo en el directorio de tu proyecto.
+Para descargar jQuery, anda a code.jquery.com y elige la última versión MINIFIED de jQuery disponible. Haz clic derecho en él y "guarda el archivo como ...". Guarda ese archivo en el directorio de tu proyecto.
 
 Luego, usa la etiqueta `<script>` para importar ese archivo a tu sitio web. Coloca la etiqueta `<script>` dentro de la etiqueta `<head>` **antes de cualquier otra etiqueta JavaScript.**
 
@@ -65,7 +65,7 @@ Luego, usa la etiqueta `<script>` para importar ese archivo a tu sitio web. Colo
 
 ##### 2) Usa un CDN 
 
-Las redes de distribución de contenido son servidores que se utilizan específicamente para almacenar bibliotecas y recursos para ser utilizados por otros sitios web. Por ejemplo, las bibliotecas como Bootstrap y jQuery normalmente están disponibles en varios CDN.
+Las redes de distribución de contenido son servidores que se utilizan específicamente para almacenar librerías y recursos para ser utilizados por otros sitios web. Por ejemplo, las librerías como Bootstrap y jQuery normalmente están disponibles en varios CDN.
 
 Recomendamos [el CDN de Google:](https://developers.google.com/speed/libraries/) busque jQuery y copie el `<script>` de la última versión de jQuery disponible. Pegue esa etiqueta de secuencia de comandos ** antes de cualquier otra etiqueta de secuencia de comandos de JavaScript dentro de su sitio web ** `<head>`.
 
@@ -77,17 +77,17 @@ Recomendamos [el CDN de Google:](https://developers.google.com/speed/libraries/)
     <head>
     <title>repl.it</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<!– any other JS scripts that use jQuery should be imported below jQuery –>
+<!– cualquiier otro script JS que use jQuery se importa luego de jQuery –>
     </head>
 <body>
 </body>
 </html>
 ```
 
-### La Sintáxis
+### La Sintaxis
 ***
 
-**¡jQuery es parte de JavaScript!** La sintaxis de jQuery puede ser complicada al principio, pero después de unos días entenderá que **es la misma sintaxis de JavaScript** pero solo se usa de una manera diferente.
+**¡jQuery es parte de JavaScript!** La sintaxis de jQuery puede ser complicada al principio, pero después de unos días entenderás que **es la misma sintaxis de JavaScript** pero se usa de una manera diferente.
 
 #### El simbolo de Dólar o Peso $
 
@@ -99,13 +99,13 @@ jQuery(‘selector’)
 console.log($ === jQuery);  // "true"
 ```
 
-#### jQuery utiliza funciones en línea
+#### jQuery utiliza funciones inline
 
-Para evitar sentirse confundido, deberás comprender que jQuery está ADICTO a las funciones en línea. Por ejemplo, el código a continuación es muy común cuando se utiliza jQuery para escuchar el evento de clic. La función del manejador se declara en la misma línea, como esta:
+Para evitar sentirse confundido, debes comprender que jQuery es ADICTO a las funciones inline. Por ejemplo, el código a continuación es muy común cuando se utiliza jQuery para escuchar el evento clic. La función handler se declara en la misma línea, como esta:
 
 ```javascript
 $(element).click(function() { 
-  //your function code here 
+  //el código de tu funcion aquí 
 });
 ```
 
@@ -117,9 +117,9 @@ var clickHandler = function() {
 $(element).click(clickHandler);
 ```
 
-En el ejemplo anterior, estamos agregando un detector de eventos para cuando el usuario haga clic en un elemento DOM.
+En el ejemplo anterior, estamos agregando un escuchador de eventos para cuando el usuario haga clic en un elemento DOM.
 
-#### Una nueva forma de pasar parámetros (settings Object)
+#### Una nueva forma de pasar parámetros (settings object)
 
 Estás acostumbrado a trabajar con parámetros de función como este:
 
@@ -143,12 +143,12 @@ functionName(settingsObj);
 [[info]]
 | :point_up: Si usa jQuery, debe sentirse cómodo utilizando parámetros como el "Settings Object."
 
-### EL Evento Ready
+### Evento Ready
 ***
 
 Tenemos una sección que habla solo de eventos, pero es una buena idea hablar sobre el "evento ready" en este momento porque es una de las primeras líneas de código escritas en casi todos los sitios web que usan jQuery.
 
-El flujo de tu sitio web comienza en el evento "ready". Ese evento se llama cuando el sitio web y todos sus elementos han terminado de cargarse. Como desarrollador, necesitarás agregar un detector de eventos para el evento listo como este:
+El flujo de tu sitio web comienza en el evento "ready". Ese evento se llama cuando el sitio web y todos sus elementos han terminado de cargarse. Como desarrollador, necesitarás agregar un escuchador de eventos para el evento ready:
 
 ```javascript
 $( document ).ready(function() {  
@@ -159,15 +159,15 @@ $( document ).ready(function() {
 ### Trabajando con los Elementos DOM
 ***
 
-jQuery realmente ayuda cuando se trabaja con clases porque la única forma de actualizar una clase con vanilla JS es usando el atributo .className del elemento DOM (que es una cadena).
+jQuery realmente ayuda cuando se trabaja con clases porque la única forma de actualizar una clase con vanilla JS es usando el atributo .className del elemento DOM (que es un string).
 
-Por ejemplo, si deseas eliminar una clase específica de un elemento, primero tendrás que obtener el valor del atributo de clase como una cadena. A continuación, cree una nueva cadena - como la primera - pero sin esa clase en particular.
+Por ejemplo, si deseas eliminar una clase específica de un elemento, primero tendrás que obtener el valor del atributo de clase como un string. A continuación, cree un nuevo string - como el primero - pero sin esa clase en particular.
 
 &nbsp;
 &nbsp;
 #### Selecciona Elementos del DOM
 
-##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) Con vanilla JavaScript
+##### ![qué es jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) Con vanilla JavaScript
 
 ```javascript
 var elm = document.getElementById(‘elementId’);
@@ -224,7 +224,7 @@ $(parent).append(el);
 &nbsp;
 #### Eliminar Elemento
 
-Vanilla JS no tiene una función remove (). Tendrá que llamar a una función removeChild desde el elemento padre del elemento.
+Vanilla JS no tiene una función remove (). Tendrás que llamar a una función removeChild desde el elemento padre del elemento.
 
 ##### ![what is jquery vs javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) Con vanilla JavaScript
 
@@ -236,9 +236,9 @@ elm.parentNode.removeChild(elm);
 ##### ![what is jquery vs javascript](https://ucarecdn.com/2e1dfd98-a969-4ad1-8ed3-23626f07be1d/) Con jQuery
 
 ```javascript
-$( ".hello" ).remove(); //Remove all elements with class hello 
-$( ".hello" ).empty(); //Remove all childs of elements with class hello 
-var elements = $( ".hello" ).detach(); //Remove the elements from the DOM but return them to store them in a variable
+$( ".hello" ).remove(); //Elimina todos los elementos con la clase clase hello 
+$( ".hello" ).empty(); //Elimina todos los hijos de los elementos de la clase hello 
+var elements = $( ".hello" ).detach(); //Elimina los elementos del DOM pero los retorna en una variable 
 ```
 &nbsp;
 &nbsp;
@@ -301,14 +301,14 @@ $(el).attr(‘tabindex’, 3);
 
 
 [[warning]]
-| :point_up: Estas son las funciones más utilizadas cuando se trabaja con el DOM. Tenga en cuenta que hay MUCHAS más funciones disponibles y que es una buena idea revisarlas todas. Además, se están creando nuevas funciones a medida que JavaScript continúa evolucionando.
+| :point_up: Estas son las funciones más utilizadas cuando se trabaja con el DOM. Ten en cuenta que hay MUCHAS más funciones disponibles y que es una buena idea revisarlas todas. Además, se están creando nuevas funciones a medida que JavaScript continúa evolucionando.
 
 ### Trabajando con Estilos
 ***
 
-jQuery realmente ayuda cuando se trabaja con clases porque la única forma de actualizar una clase con vanilla JS es mediante el uso del atributo .className del elemento DOM (que es una cadena).
+jQuery realmente ayuda cuando se trabaja con clases porque la única forma de actualizar una clase con vanilla JS es mediante el uso del atributo .className del elemento DOM (que es un string).
 
-Por ejemplo, si deseas eliminar una clase específica de un elemento, tendrás que obtener el valor del atributo de clase como una cadena y luego crear una nueva cadena - como la primera - pero sin esa clase en particular.
+Por ejemplo, si deseas eliminar una clase específica de un elemento, tendrás que obtener el valor del atributo de clase como un string y luego crear una nuevo string - como el primero - pero sin esa clase en particular.
 
 ![what is jquery vs javascript](https://ucarecdn.com/655a85b3-660f-45bf-8563-2bcbe13bf0e5/)
 
@@ -382,12 +382,12 @@ var classes = el.className.split(‘ ‘);
 
 Ya sabes mucho acerca de los eventos porque pasamos por la lección de Eventos de JavaScript anteriormente durante este curso.
 
-jQuery no agrega mucho valor al trabajar con eventos, tenemos los mismos conceptos: nombres de eventos, listeners y controladores.  jQuery puede escuchar exactamente los mismos eventos (clic, desplazamiento, etc.) y tu tienes la misma información de evento pasada como parámetro en la función del controlador.
+jQuery no agrega mucho valor al trabajar con eventos, tenemos los mismos conceptos: nombres de eventos, listeners y controladores.  jQuery puede escuchar exactamente los mismos eventos (clic, hover, etc.) y tu tienes la misma información del evento pasada como parámetro en la función handler.
 
 
 #### Añadir un Evento Listener
 
-La única gran ventaja cuando se trabaja con eventos jQuery es el selector jQuery, ya que ahora puede adjuntar un listener a varios objetos al mismo tiempo sin tener que recorrerlos todos. Por ejemplo, intentemos agregar un detector de sonido al evento de clic en todos los elementos con la clase ".btn"
+La única gran ventaja cuando se trabaja con eventos jQuery es el selector jQuery, ya que ahora puede adjuntar un listener a varios objetos al mismo tiempo sin tener que recorrerlos todos. Por ejemplo, intentemos agregar un listener de sonido al evento de clic en todos los elementos con la clase ".btn"
 
 ##### ![javascript](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/) Con vanilla JavaScript
 
@@ -417,7 +417,7 @@ $(‘.btn’).on( "click", function(){
 
 jQuery realmente ayuda cuando se trabaja con clases porque la única forma de actualizar una clase con vanilla JS es usando el atributo .className del elemento DOM (que es una cadena).
 
-Por ejemplo, si deseas eliminar una clase específica de un elemento, tendrás que obtener el valor del atributo de clase como una cadena y crear una nueva cadena como la primera pero sin esa clase en particular.
+Por ejemplo, si deseas eliminar una clase específica de un elemento, tendrás que obtener el valor del atributo de clase como un string y luego crear una nuevo string - como el primero - pero sin esa clase en particular.
 
 [[warning]]
 | :point_up: AJAX se cubrirá en profundidad en otra lección, aquí solo presentaremos la sintaxis de la función ajax.
