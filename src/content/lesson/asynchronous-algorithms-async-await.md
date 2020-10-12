@@ -2,7 +2,7 @@
 title: "Creating asynchronous algorithms"
 subtitle: "Understand the difference between synchronous and asynchronous scripts, use Promises and master async and wait."
 cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
-status: "draft"
+status: "published"
 authors: ["kodi2fever", "nachovz"]
 textColor: "white"
 date: "2018-05-11"
@@ -17,6 +17,7 @@ Up to this point, we have used JavaScript code to run simple web applications, w
 Let's start by stating that JavaScript is synchronous and single-threaded by definition, i.e: the code is executed from line 1 until the last one, one at a time and in order(ish). Take a look at this example:
 
 #### Synchronous (default)
+
 ```javascript
 1    function runFirst(){
 2 	console.log("first");
@@ -39,6 +40,7 @@ In here: line 5 runs before line 2 because we're calling ```runSecond()``` (line
 Things get more complicated when calling functions inside functions, as we can see here:
 
 #### Calling functions
+
 ```javascript
 1    function runFirst(){
 2	console.log("I want to run first");
@@ -72,6 +74,7 @@ F U N!
 But wait, there's more... We could even pass a *function* as an argument to another function (nope, this is not a typo). The *function* sent as a parameter it is called a **callback function**. Take a look:
 
 #### Callback functions
+
 ```javascript
 1    function runFirst(someFunction){
 2	console.log("I want to run first");
@@ -112,6 +115,7 @@ This produces a new print in the console: "this is crazy", before we call ```run
 Now, let's assume that we need to load some files from a server, specifically, images:
 
 #### Synchronous image loading
+
 ```javascript
 1    function fetchingImages(){
 3	console.log("Load them!");
@@ -137,7 +141,9 @@ Now, let's assume that we need to load some files from a server, specifically, i
 In a real life website, users will have to wait for a long time to see something, all because the ***DOM*** processing has to wait for the pictures to arrive from the server; and this is all because we are using the same thread of execution for everything.
 
 ### Asynchronous
-Asynchronous programming is a way to process lines of code and handle the result without affecting the main thread. 
+
+Asynchronous programming is a way to process lines of code and handle the result without affecting the main thread.
+
 ```javascript
 1    function fetchingImages(){
 3	console.log("Load them!");
@@ -165,6 +171,7 @@ Asynchronous programming is a way to process lines of code and handle the result
 ```
 
 Javascript offers a handful of predefined asynchronous functions which we can use to solve any possible scenario. Some of them are:
+
 + [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch): used to load files asynchronously.
 + [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout): used to set timers between blocks of code.
 
@@ -225,12 +232,14 @@ console.log(myPomise);
 ***
 
 + ***reject***: it returns an already rejected promise with a reason.
+
 ```javascript
 	Promise.reject(new Error("I was rejected")).then(error => console.log(error));
 ```
 ***
 
 + ***then***: this method return a promise and it can take up to 2 arguments. One for the resolved promise and one for the rejected promise. Above there is an example that uses ***then*** method and takes one argument.
+
 ```javascript
 	var promise =  new  Promise(function(resolve,reject){
 		resolve("I was resolved and you can see me when you use then method");
@@ -239,6 +248,7 @@ console.log(myPomise);
 ```
 ***
 + ***catch***: returns a promise and deals with rejected operations. It is very handy when trying to debug or showing errors.
+
 ```javascript
 	var promise =  new  Promise(function(resolve,reject){
 		reject("I was rejected and you can see me when you use catch method");
@@ -280,6 +290,7 @@ useAsyncFunction();
 */
 ```
 ### Async becomes powerful when there are multiples steps in action:
+
 ```javascript
 function promise1() {
   return new Promise((resolve, reject) => {
