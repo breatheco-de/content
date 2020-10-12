@@ -8,6 +8,7 @@ thumb: "https://i.imgur.com/33AP1Yd.png"
 date: "2019-06-18"
 slug: "ask"
 authors: ["alesanchezr"]
+status: "published"
 
 ---
 
@@ -26,14 +27,17 @@ Let's compare these two questions:
 1. How can I add one item to an array?
 2. I'm trying to add an item to an array in javascript, this is my code but its not working (screenshoot), what am I doing wrong?
 ```
+Do you notice how the second question is much easier to answer? You will probably get an answer in a few minutes since it will be very easy to review your code and give you feedback in a few lines. Who knows? Maybe it's just a typo!
 
-### 2. Take a picture or screenshot to share what you've tried
+### 2. Take a picture or screenshot to share what you've tried (instead of using copy and paste)
 
-Use screenshots to keep color highlighting and formatting as you see it. Pasting in "text snippets" can cause more confusion for those trying to help you. If you do paste in text through slack, make sure to use "attach file" --> "create new" --> "code snippet".
+Use screenshots to keep color highlighting and formatting as you see it. Pasting in "text snippets" can cause more confusion for those trying to help you. If you do paste in text through slack, make sure to use "attach file".
+
+You can use some plugin for Google Chrome like [Awesome Screenshot] (https://www.awesomescreenshot.com/).
 
 ### 3. Be specific
 
-"How can I START this exercise" or "I tried X approach but it did not work, what am I doing wrong?" (and including any error messages!) will give you much better feedback than "how can I SOLVE this exercise?" - the more you break down the process into methodical steps, the easier you will be able to understand the issue as a whole.
+"How can I START this exercise" or "I tried X approach but it did not work, what am I doing wrong?" (including any error messages!) will give you much better feedback than "how can I SOLVE this exercise?" - the more you break down the process into methodical steps, the easier you will be able to understand the issue as a whole.
 
 ### 4. Do your research
 
@@ -42,3 +46,7 @@ Take around 20 minutes to try and solve the problem yourself by using terminal r
 ### 5. Use the slack channel instead of email, or anything else
 
 Slack is the perfect tool for this, you can even start an instant video call with the responder. Avoid using traditional less effective methods like phone or sms.
+
+Enter the # public-support channel which is where you will be served more quickly.
+
+![Slack en 4Geeks Academy](https://ucarecdn.com/5a432982-f8b2-42bb-89c5-3c82a8e53d10/)
