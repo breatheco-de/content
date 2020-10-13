@@ -146,7 +146,7 @@ Here is an example of the same `<MyCard />` component, but now declared as a cla
 ```jsx {numberLines: true}
 import React from 'react';
 
-//here we created the component Modal as a class 
+//here we created the component MyCard as a class 
 export class MyCard extends React.Component{
     
     render(){
