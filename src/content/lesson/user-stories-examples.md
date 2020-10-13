@@ -5,7 +5,7 @@ cover: "https://ucarecdn.com/980ce2e0-b73e-4019-8e97-3510e3028e10/"
 textColor: "white"
 date: "2018-11-13"
 tags: ["user story"]
-status: "draft"
+status: "published"
 
 ---
 
@@ -32,7 +32,7 @@ A user story is like having a conversation with your future user.  They must be 
 + Around 100 characters max each:  The less the better!
 + With just ONE functionality for each 0ne – if you see it getting bigger, just split the story into 2 different stories.
 
-#### Here are some Examples:
+13#### Here are some Examples:
 
 ![user stories examples](https://ucarecdn.com/032a818d-e4d7-4276-8195-ce5d8a3edcf6/-/resize/2000x/)
 

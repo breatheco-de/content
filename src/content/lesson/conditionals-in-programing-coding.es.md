@@ -2,7 +2,7 @@
 title: "Condicionales en la programación o codificación con Javascript"
 subtitle: "Uso de condiciones para controlar el flujo de su código y hacer que la computadora obedezca"
 date: "2017-09-24"
-status: "unassigned"
+status: "published"
 author: ["alesanchezr"]
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
@@ -19,7 +19,7 @@ Dominar el uso de las condiciones es una de las 5 habilidades fundamentales de c
 
 Las condiciones son la única forma en que los desarrolladores tienen que decirle a la computadora cómo tomar decisiones en tiempo real, muy similar a cómo funcionan los cerebros.
 
-Digamos que estamos construyendo un programa para ayudarnos a elegir qué almacenar y odiamos el color azul, podemos decirle a la computadora que evite el azul usando una condición como esta:
+Digamos que estamos construyendo un programa para ayudarnos a elegir qué vestir y odiamos el color azul, podemos decirle a la computadora que evite el azul usando una condición como esta:
   
   
 `If` ***color*** is not **blue**, then... do something.  
@@ -34,7 +34,7 @@ if(color != 'blue'){
     //Cualquier código aquí se ejecutará cuando el color sea diferente al azul.
 }
 else{
-    //solo ejecutará este código si el color no es azul.
+    //solo ejecutará este código si el color es azul.
 }
 ```
 
@@ -46,11 +46,11 @@ El ejemplo anterior era una condición simple, pero en la vida real elegir qué 
 Si desea representar este algoritmo en Javascript, se verá más o menos así:
 
 ```js
-let feelsLikeHitByTrain = true;
-let youWereHitByTrain = false;
+let sientoQueMeAtropelloUnTren = verdadero;
+let meAtropelloUnTren = falso;
 
-if(feelsLikeHitByTrain == true){
-  if(youWasHitByTrain == true){
+if(sientoQueMeAtropelloUnTren  == verdadero){
+  if(meAtropelloUnTren == verdadero){
     console.log("Tú no tienes gripe");
   }
   else{
@@ -62,18 +62,18 @@ else{
 }
 ```
 
-Básicamente, este algoritmo tiene dos variables a considerar: `feelsLikeHitByTrain` y` youWereHitByTrain`.
-Nuestro trabajo como desarrolladores es sentarnos e intentar preparar una estrategia y crear un algoritmo que resuelva un problema.
+Básicamente, este algoritmo tiene dos variables a considerar: `sientoQueMeAtropelloUnTren` y `meAtropelloUnTren`.
+Nuestro trabajo como desarrolladores es intentar preparar una estrategia y crear un algoritmo que resuelva un problema.
 
 ## Operadores `AND` y `OR`
 
 Otra forma de escribir el algoritmo es combinar preguntas en la misma condición utilizando los operadores `AND` y` OR` que en Javascript se representan con `&& para AND` y` || para OR`:
 
 ```js
-if(feelsLikeHitByTrain == false || youWereHitByTrain == true){
+if(sientoQueMeAtropelloUnTren == falso || meAtropelloUnTren == verdadero){
   console.log("Tú no tienes gripe");
 }
-else if(feelsLikeHitByTrain == true && youWereHitByTrain == false){
+else if(sientoQueMeAtropelloUnTren == true && meAtropelloUnTren == falso){
   console.log("Tú tienes gripe")
 }
 else{
@@ -85,8 +85,8 @@ Como puedes ver aquí, estamos usando `else if` juntos por primera vez, para una
 
 | Original | Equivalente |
 | --- | --- |
-| en lugar de `if(feelsLikeHitByTrain == true)` | you write `if(feelsLikeHitByTrain)`  |
-| en lugar de `if(feelsLikeHitByTrain == false)` | you write `if(!feelsLikeHitByTrain)` |
+| en lugar de `if(sientoQueMeAtropelloUnTren == verdadero)` | escribes `if(sientoQueMeAtropelloUnTren)`  |
+| en lugar de `if(sientoQueMeAtropelloUnTren == falso)` | escribes `if(!sientoQueMeAtropelloUnTren)` |
 
 ## Operadores mayores que o menores que `>` y `<`
 
@@ -121,13 +121,13 @@ if (goingOut){
 }
 ```
 
-## Operador Ternario (condiciones en linea)
+## Operador Ternario (condiciones en línea)
 
 Otro gran truco para una codificación más rápida es usar ternarios que básicamente nos permiten codificar todo en una sola línea:
 ```js
-const flu = (feelsLikeHitByTrain && !youWereHitByTrain) ? true : false;
+const flu = (sientoQueMeAtropelloUnTren && !youWereHitByTrain) ? verdadero : falso;
 ```
-En este ejemplo, la variable `flu` solo será verdadera si` feelsLikeHitByTrain == true` y `youWereHitByTrain == false` al mismo tiempo. Si esa pregunta no es cierta, entonces flu será falso.
+En este ejemplo, la variable `flu` solo será verdadera si` sientoQueMeAtropelloUnTren == verdadero` y `sientoQueMeAtropelloUnTren == falso` al mismo tiempo. Si esa pregunta no es cierta, entonces flu será falso.
 
 Los ternarios se usan MUCHO en estos días porque te ahorran mucho tiempo.
 
