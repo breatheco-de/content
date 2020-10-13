@@ -28,7 +28,7 @@ Let's say we are building a program to help us choose what to store and we hate 
   
 ![Conditionals](https://ucarecdn.com/e73b673e-d744-45a7-a1ed-61a1dae49560/)
 
-LThe decision statements are: ʻif-then-else` and `switch`.
+The decision statements are: ʻif-then-else` and `switch`.
 
 
 ## Using ʻif ... then ... else``
