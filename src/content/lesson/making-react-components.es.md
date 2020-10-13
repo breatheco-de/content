@@ -1,29 +1,33 @@
 ---
-title: "Haciendo Componentes de React"
-subtitle: "React.js bread and butter, become a master in React Components and you have conquered the front-end world of React."
+title: "Creando Componentes de React"
+subtitle: "React.js, conviértete en master de Componentes de React y habrás conquistado el mundofront-end de React." 
 cover: "https://ucarecdn.com/84c4d84c-51b9-4906-a572-71cc07ecfc8c/"
 textColor: "white"
 date: "2018-11-14"
 tags: ["reactjs"]
-status: "draft"
+status: "published"
 
 ---
 
 ## En React.js todo es un `<Component />`
 ***
 
-React.js separa tu código en pequeñas partes llamadas Componentes que pueden crearse / definirse como **class** o como **function**.  Cada componente es como una aplicación de React más pequeña que tiene su propia lógica y tiene un propósito final que es mostrar (Render) algo (por ejemplo: una barra de navegación de bootstrap, una lista desplegable, un modelo, un formulario dinámico, galería de imágenes, formulario de suscripción, casi todo puede diseñarse y codificarse como un componente React).
+React.js separa tu código en pequeñas partes llamadas Componentes que pueden crearse / definirse como **class** o como **function**.  Cada componente es como una aplicación de React más pequeña que tiene su propia lógica y tiene un propósito final que es renderizar algo (por ejemplo: un navbar de bootstrap, una dropdpwn list (lista desplegable), un modelo, un formulario dinámico, galería de imágenes, formulario de suscripción, casi todo puede diseñarse y codificarse como un componente React). Para hacer eso, el componente de React debe tener un `return` que retorne código JSX (HTML + JS anidado).
 
 ```jsx{numberLines: true}
-// como una function 
+
+import React from 'react';
+
+// como componente funcional
 function NavBar(props){
     return (<nav className="navbar navbar-light bg-light">
               <a className="navbar-brand" href="#">Navbar</a>
            </nav>);
 }
 
-//o como una class 
+//o como un componente de clae
 import React from 'react';
+
 class Navbar extends React.Component{
     render(){
         return (<nav className="navbar navbar-light bg-light">
@@ -34,29 +38,42 @@ class Navbar extends React.Component{
 ```
 
 ## Usando un Componente
-***
 
-
-Una vez que la declaración del componente haya finalizado, puede hacer referencia a ella utilizando etiquetas como esta:
+Una vez que hayas creado tu componente puedes mostrarlos usando etiquetas de esta forma:
 
 ```jsx
 import React from "react";
+
 import { render } from "react-dom";
 
-/// Aquí le dices a react que ponga <NavBar /> dentro del elemento DOM #myApp
-render(
-  <NavBar />,
+// aquí le decimos a React que ponga nuestro componente principal <Home /> dentro del elemento DOM con id #myApp 
+ReactDOM.render(
+  <Home />,
   document.querySelector("#myApp")
 );
+
+// o podemos usar el componente Navbar y mostrarlo en la parte superior de nuestro componente Home
+function Home(props){
+    return (
+        <div className="container-fluid"> // en JSX debemos usar un atributo llamada 'className en vez de 'class'
+            <Navbar />
+            <div>
+                ... The rest of Home's contents ...
+            </div>
+        </div>
+    );
+}
+
 ```
-## El Componente Props
+
+## Las Props
 ***
 
-A veces un componente necesita información dinámica para mostrar. Por ejemplo, necesitamos nuestro componente `<Navbar />` para mostrar la lista de enlaces disponibles y el logotipo de la marca. Podemos incluir esa información dentro de la llamada del componente `<Navbar />` de la misma manera que lo hacemos en las etiquetas HTML.
+A veces un componente necesita información dinámica para mostrar. Por ejemplo, necesitamos nuestro componente `<Navbar />` para mostrar la lista de enlaces disponibles y el logo de la marca. Podemos incluir esa información dentro de la llamada del componente `<Navbar />` de la misma manera que lo hacemos en las etiquetas HTML.
 
 `<Navbar foo="bar" foo2="bar2" />`
 
-En este ejemplo, estamos pasando una serie de elementos de menú y una URL de logotipo al componente NavBar que acabamos de declarar anteriormente.
+En este ejemplo, estamos pasando un array de elementos de menú y una URL con el  logo al componente NavBar que acabamos de declarar anteriormente.
 
 ```jsx
 let menu = [
@@ -66,13 +83,17 @@ let menu = [
 <Navbar items={menu} logo="http://path/to/logo.png" />
 ```
 
-Ahora, dentro de `<Navbar />` podemos usar esos valores (que se entregan a través de la variable Props) para procesar la información proporcionada.
+Ahora, dentro de `<Navbar />` podemos usar esos valores (que se entregan a través de la variable Props) para renderizar la información proporcionada.
 
-Y, por último, debe indicar a React dónde debe renderizar ese componente en el DOM.
+Y, por último, deberías indicarle a React dónde debe renderizar ese componente en el DOM.
 
 <iframe src="https://codesandbox.io/embed/zwlnpwmxll?hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-<div align="right"><small><a href="https://codesandbox.io/embed/zwlnpwmxll?hidenavigation=1">Click here to open demo in a new window</a></small></div>
+<div align="right"><small><a href="https://codesandbox.io/embed/zwlnpwmxll?hidenavigation=1">Haz clic aquí para abrir una nueva ventana</a></small></div>
+
+
+### Características de los componentes de clases (`class` components)
+
 
 ## El Estado del Componente
 ***
