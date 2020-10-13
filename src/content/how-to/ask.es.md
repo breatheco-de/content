@@ -1,67 +1,56 @@
 ---
 title: "Cómo hacer preguntas de programación?"
-subtitle: "La pregunta correcta, te llevará a la respuesta perfecta."
+subtitle: "La pregunta correcta, te llevará a la respuesta correcta."
 tags: ["feedback", "tutoring", "support"]
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
 date: "2019-06-18"
 authors: ["alesanchezr"]
+status: "published"
 
 ---
 
-Primero que nada, te suplicamos que nos hagas preguntas constantemente, es la mejor manera de poder ayudarte:
-- Al leer o escuchar tus preguntas nos damos cuenta de tu nivel de entendimiento.
-- Podemos diagnosticar tus debilidades.
-- Te ayudamos a formular mejor tu pregunta (que es escencial para abordar Google.com).
-- Evitamos que te frustres y permitimos que sigas avanzando.
+Primero que nada ¡¡¡¡POR FAAAAAVORRRR HAZ PREGUNTAS!!!!!! No nos cansaremos de repetirlo e incentivarte a que lo hagas, es la mejor manera de aprender. Es una gran fuente de información para entender las debilidades, nivel de comprensión y ritmo de aprendizaje de los estudiantes. Las preguntas también son la forma más poderosa para dejar de setirse frustrado.
 
-## Es dificil formular una pregunta
+## Toma un poco de timepo (¡¡y de paciencia!!) hacer la pregunta correcta
 
-Es comunmente conocido en el mundo de la programación que el verdadero reto no es encontrar la respuesta, sino formular la pregunta, esa es la verdadera habilidad. A medida que entiendas mejor iras haciendo preguntas mas detalladas y verás como Google se ira convirtiendo en la fuente principal de tus respuestas. 
+Cuando trabajas de manera remota, debes tener mucho cuidadi con la manera en que expresas ideas, preguntas, etc.
 
-Sin embargo, por ahora estamos nosotros aquí para ayudarte a preguntar o incluso responderte la pregunta.
+Créeme cuando te digo que los siguientes pasos te permitirán obtener respuestas adecuadas en un par de minutos en vez de tener que repetir la pregunta una y otra vez.
 
 Stack Overflow es una de las paginas más importantes en el mundo de la programación y ha publicado el siguiente manual de como hacer preguntas: [how to ask questions by stack overflow](https://stackoverflow.com/help/how-to-ask).
 
-### 1. Prepara tu pregunta con antelación
+### 1. Prepara tu pregunta 
 
-Si preguntas simplemente lo primer que se te pasa por la mente es probable que no obtengas una respuesta rápidamente, la persona que lea tu pregunta va a tener muchas dudas al respecto, probablemente tengas que aclarar infinidad de cosas y termines tardando mucho mas tiempo.
+Si preguntas simplemente lo primer que se te pasa por la mente es probable que no obtengas una respuesta rápidamente, la persona que lea tu pregunta va a tener muchas dudas al respecto, probablemente tengas que aclarar infinidad de cosas.
 
 Comparemos estas dos preguntas:
 ```md
-1. Como puedo agregar un item a un array?
-2. Estoy intentando agregar un item a un array de la siguiente manera: blablabla... Este es mi ejemplo de codigo (sreenshot) pero no esta funcionando, ¿Ven algo malo?
+1. ¿Como puedo agregar un item a un array?
+2. Estoy intentando agregar un item a un array de la siguiente manera: blablabla... Este es codigo (sreenshot) pero no esta funcionando, ¿Ven algo malo?
 ```
 
 ¿Notas como la segunda pregunta es mucho más sencilla de responder? Probablemente tengas una respuesta en unos pocos minutos dado que sera muy sencillo revisar tu código y darte feedback en unas pocas lineas. ¿Quién sabe? ¡Tal vez es solo un error de tipeo!
 
-### 2. Toma fotos y capturas de pantalla en lugar de copiar y pegar tu código.
+### 2. Toma fotos y un pantallazo en lugar de copiar y pegar tu código.
 
-Todos tenemos dispositivos móviles diferentes, es probable que si pegas tu código en formato de texto de distorcione todo y se haga muy difícil su lectura. ¡Te suplicamos que subas una caputa de pantalla o incluso que tomes una foto a tu pantalla desde el celular! Puedes utilizar algun plugin para Google Chrome como [Awesome Screenshot](https://www.awesomescreenshot.com/).
+Usa pantallazos para mantener los colores y el formato. Pegar pedazos de código o de texto puede generar más confusión para quienes te están tratando de ayudar. Si pegas código en Slack, aségurate de usar "adjuntar archivo".
 
+Puedes utilizar algun plugin para Google Chrome como [Awesome Screenshot](https://www.awesomescreenshot.com/).
 
 ### 3. Se específico
 
-No hagas preguntas como la siguiente 
+¿Cómo COMENZAR A RESOLVER este ejercicio? o "Lo intenté de esta forma y no funcionó ¿Qué estoy haciendo mal?(incluye los mensajes de los errores)", obtendrás mejor feeback que si preguntas ¿Cómo RESUELVO este ejercicio?. Mientras más dividas el procesos en pasos metódicos, más fácl te resultará comprender algo como un todo.
 
-> ¿Cómo puedo resolver este ejercicio?
-
-Seria mucho mejor que preguntáras:
-
-> No se como empezar este ejercicio, ¿Qué me recomiendan?
-
-Tambien podrías preguntar:
-
-> He intentado resolver este ejercicio haciendo -esto o lo otro-, ¿Que estoy haciendo mal?
 
 ### 4. Investiga por tu cuenta antes de preguntar
 
-Tómate unos 20 minutos para hacer tu propia investigacion en google, lee un poco y trata de definir una estrategia para resolver el problema. Ese es tu verdadero objetivo sobre el ejercicio: La estrategia. A este punto a nadie le importa realmente la solución, sino mas bien que seas capaz de idear una buena estrategia.
+Tómate unos 20 minutos para hacer resolver el problema por ti mismo usando las respuestas de la terminal, realiza una búsqueda onliney trata de definir una estrategia para probarla en tu código. Encontrar una resspuesta específica te ayudará a resolver ese problema, pero si generas una estrategia efectiva para resolver problemas ¡podrás reutilizarla muchas veces más! 
 
-### 5. Utiliza el canal de Slack
+### 5. Utiliza el canal de Slack en vez de correos eléctronicos
 
-Tienes a disposicion un foro de preguntas y respuestas al menos 12 horas al dia: 4GeeksAcademy.slack.com
-Es el mejor lugar para preguntar, fue diseñado internamente para ese fin.
-Consigue el hashtag/canal llamado #public-support que es donde serás atendido más rápidamente.
+Slack es la herramienta perfecta para esto, incluso puedes iniciar un videollamada. Evita usar métodos tradicionales menos efectivos como el teléfono o sms.
+
+Entra al canal #public-support que es donde serás atendido más rápidamente.
 
 ![Slack en 4Geeks Academy](https://ucarecdn.com/5a432982-f8b2-42bb-89c5-3c82a8e53d10/)
