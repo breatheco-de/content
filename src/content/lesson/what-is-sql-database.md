@@ -5,7 +5,7 @@ cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
 textColor: "white"
 date: "2018-11-14"
 tags: ["sql"]
-status: "draft"
+status: "published"
 
 ---
 
@@ -71,7 +71,7 @@ The perfect example is the IRS database:  this database probably has a table cal
 
 **One to Many:**
 
-The Major League Baseball database probably has a table called Player (with the list of all the active players), and another table called Team with the list of all the active teams.  Both tables are connected because o**ne team has many players, but a player can be on only one team.**
+The Major League Baseball database probably has a table called Player (with the list of all the active players), and another table called Team with the list of all the active teams.  Both tables are connected because **one team has many players, but a player can be on only one team.**
 
 ![What is SQL Databases](https://ucarecdn.com/374d53ac-092f-4f34-a6f1-76bfaa5bd676/-/resize/700x/)
 
@@ -87,8 +87,6 @@ A Public Library database probably has one table called Author (containing the i
 ## The SQL Syntax: Working the Tables
 ***
 
-
-The SQL Syntax: Working the Tables
 There are 3 main operations you can do to a table: Create, Update or Delete a table.  In SQL, those operations are called Create, Alter and Drop.  Remember that these operations are used to manipulate the structure of the database – not the data that it contains.
 
 #### CREATE:
@@ -151,7 +149,7 @@ INSERT INTO USER (ssn,username,email) VALUES ('234-45-3342','alesanchezr','a@bre
 
 #### UPDATE:
 
-Updates a record or row of a specific table.  You have to give a group either one or many conditions to identify the specific row(s) you want to update.
+Updates a record or row of a specific table.  You have to give either one or many conditions to identify the specific row(s) you want to update.
 
 ```sql
 UPDATE table_name SET column1 = value1 WHERE [condition]
@@ -177,8 +175,6 @@ DELETE FROM user WHERE ssn = '342-45-6732'
 ## Maintaining Data Integrity
 ***
 
-
-Maintaining Data Integrity
 Keeping the integrity of the data is hard!  Databases with a lot of activities and users normally struggle to keep data integrity.  Sometimes the data is so delicate and sensitive that adding a zero to a simple integer could end up making someone a millionaire!
 
 We can classify the integrity problems in 4 types:
@@ -192,7 +188,7 @@ We can classify the integrity problems in 4 types:
 
 + **User unique columns:**  This will avoid having users with the same email, with the same SSN, countries with the same name, etc.
 + **Use foreign keys** (constraints):  This will avoid having a baseball player on a team that does not exists.
-+ Specify **default values** and what columns can be **NULL:** perfect for
++ Specify **default values** and what columns can be **NULL** 
 + **Use enums:**  They are great to set the possible values of a column "status", or for a column "type", etc.
 + **Use transactions (commit and rollback):**  We will talk about that below; transactions are a good way of going back in time if something went wrong.
 
@@ -267,6 +263,7 @@ ROLLBACK;
 ```
 
 ### SAVEPOINT [savepoint name];
+
 A SAVEPOINT is a point in a transaction when you can roll the transaction back to a certain point without rolling back the entire transaction.
 
 The syntax for SAVEPOINT command is as follows:
