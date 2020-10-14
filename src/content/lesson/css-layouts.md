@@ -149,7 +149,7 @@ Here is the exact code needed for website content to always be aligned at the ce
 
 
 
-### Left Sidebar Fixed
+### Left Sidebar Fi
 ***
 
 Left sidebars are great when you have a wide screen (landscape).  You can have a menu, some ads, a newsletter sign-up call to action, login form, etc.  And you can still have enough space for content!  Almost every website uses a left sidebar these days, some of them include also a right sidebar.
