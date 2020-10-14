@@ -5,7 +5,7 @@ cover: "https://ucarecdn.com/3e50e217-514d-41dc-a7a4-4725e08f8afb/"
 textColor: "white"
 date: "2018-12-11"
 tags: ["django","python","REST","API"]
-status: "draft"
+status: "published"
 
 ---
 
@@ -122,8 +122,12 @@ We are going to be building a REST Based API, but don’t be afraid of the name 
 ### Here is how Django handles any API HTTP Request:
 
 + The first piece of code that deals with the Request will be the URL Dispatcher (urls.py).  Its main objective is to understand what corresponding APIView should be instantiated based on the URL that was called, and then finally call the GET, POST, PUT or DELETE method of that APIView depending on the Request Type.
+
 + As a second step, the APIView receives the URL parameters (if any) through the method parameters and then executes any logic coded to process the request or database model interactions.  For example: Getting some information from the DB; saving or deleting some other information; sending emails, etc.
+
 + The next step, should be to decide what JSON should be returned inside the body of the Response.  For that we have the serializer.
+
+
 + Finally, the APIView should return a Response object that contains the JSON Object prepared by the serializer.
 
 <before-after width="900px"
