@@ -5,17 +5,16 @@ cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
 textColor: "white"
 date: "2018-11-14"
 tags: ["sql"]
-status: "draft"
+status: "published"
 
 ---
 
 ## ¿Por qué son importantes las bases de datos?
 ***
 
-Las bases de datos son la mejor manera de almacenar datos, y cada día hay más y más datos.  Los próximos cien años son años de data-mining, machine learning y mucha automatización.  La única forma de lograrlo es dominar las bases de datos.
+Las bases de datos son la mejor manera de almacenar datos, y ¡cada día hay más y más datos!  Los próximos cien años son años de data-mining, machine learning y mucha automatización.  La única forma de lograrlo es dominando las bases de datos.
 
-Al principio, la información se guardaba en archivos más simples como .csv (separados por comas).  Esto era muy desorganizado – 
-los datos eran fáciles de corromper y de difícil acceso (imagina tener que buscar archivos separados por comas).
+Al principio, la información se guardaba en archivos más simples como .csv (separados por comas).  Esto era muy desorganizado – los datos eran fáciles de corromper y de difícil acceso (imagina tener que buscar archivos separados por comas).
 
 ![Qué es la Base de Datos SQL](https://ucarecdn.com/11fcd6d8-6177-4f42-b4e0-7b6475f24b0a/-/resize/200x/)
 
@@ -24,9 +23,9 @@ En algún momento, nuestro amigo [Edgar](https://en.wikipedia.org/wiki/Edgar_F._
 ## ¿Qué es SQL?
 ***
 
-SQL es el lenguaje más utilizado cuando se desea hablar directamente con una base de datos.  Significa: Structured Query Language (Lenguaje de Consulta Estructurada).  SQL es un lenguaje informático para almacenar, manipular y recuperar datos que se almacenan en bases de datos relacionales.
+SQL es el lenguaje más utilizado cuando se desea hablar directamente con una base de datos.  Significa: Structured Query Language (Lenguaje de Consulta Estructurada) y es un lenguaje informático para almacenar, manipular y recuperar datos que se almacenan en [bases de datos relacionales](https://en.wikipedia.org/wiki/Base_de_datos_relacional).
 
-Una sintaxis de consulta SQL se ve como esto:
+La sintaxis de consulta SQL se ve como esto:
 
 ```sql
 SELECT username FROM user WHERE email='info@breatheco.de'
@@ -40,15 +39,15 @@ En este ejemplo, solicitamos a la base de datos todos los usuarios con el correo
 ## Definiendo tu Base de Datos 
 ***
 
-Las bases de datos son similares en apariencia a las hojas de cálculo: todo se almacena en tablas con filas y columnas.
+Las bases de datos son similares en apariencia a las hojas de cálculo: todo se almacena en tablas con filas y columnas. Cada columna representa atributos comunes en las filas en las que intersectan, que son instancias de datos.
 
 ####  ¿Qué es una tabla?
 
-Cada tabla es una entidad de información con “Personas”, “Carros”, “Eventos”, etc.  Las filas contienen la data actual (personas reales, carros, eventos, etc.).  La tabla es la **única estructura** capaz de almacenar data en una tabla SQL.
+Cada tabla es una entidad de información con “Personas”, “Autos”, “Eventos”, etc.  Las filas contienen la información actual del asunto - así que si tenemos una tabla llamada "People", puede contener columnas para "Nombre", "Apellido" y para un "id". Una fila tendría los valores correspondientes a la columna, como "Luis", "Perez" y "42".  La tabla es la **única estructura** capaz de almacenar data en una tabla via SQL.
 
-####  ¿Qué es una columna?
+####  ¿Qué es una columna/campo?
 
-Las tablas tienen columnas (como excel).  Una tabla llamada Persona puede tener 4 columnas: Nombre, apellido, fecha de nacimiento y peso.  Una tabla puede tener tantas columnas como tu quieras, las columnas describen la tabla de una forma similar a como las propiedades describen una clase en la programación orientada a objetos.
+Las tablas tienen columnas (como excel).  Una tabla llamada Persona puede tener 4 columnas: Nombre, apellido, fecha de nacimiento y peso.  Una tabla puede tener tantas columnas como tu quieras y tendrán un tipo de valor específico (string, entero, boolean, etc.) Las columnas describen la tabla de una forma similar a como las propiedades describen una clase en la programación orientada a objetos.
 
 ####  ¿Qué es una fila?
 
@@ -66,21 +65,21 @@ Una base de datos es una colección de tablas interconectadas.  La conexión ent
 
 **Una a una::**
 
-El ejemplo perfecto es la base de datos IRS, probablemente esta base de datos tiene una tabla llamada Contribuyente que contiene toda la información acerca de cada persona con un número de seguridad social y otra tabla con las Declaraciones De Impuestos del año en curso:  **Una persona puede tener solo una declaración y una declaración puede ser hecha por una persona.**
+El ejemplo perfecto es la base de datos IRS, probablemente esta base de datos tiene una tabla llamada Contribuyente que contiene toda la información acerca de cada persona con un número de seguridad social y otra tabla con las Declaraciones De Impuestos del año en curso:  **Una persona puede tener sólo una declaración y sólo una declaración puede ser hecha por una persona.**
 
-![Qué es la base de datos SQL](https://ucarecdn.com/6f51ce02-3a75-4027-ada5-cf63c50d1701/-/resize/700x/)
+![base de datos SQL](https://ucarecdn.com/6f51ce02-3a75-4027-ada5-cf63c50d1701/-/resize/700x/)
 
 **Una a muchos::**
 
-La base de datos de las Grandes Ligas en Baseball probablemente tiene una tabla llamada Player (con la lista de todos los jugadores activos) y otra tabla llamada Team con la lista de todos los equipos activos. Ambas mesas están conectadas porque **un equipo tiene muchos jugadores, pero un jugador puede estar en un solo equipo.**
+La base de datos de las Grandes Ligas en Baseball probablemente tiene una tabla llamada Jugadores (con la lista de todos los jugadores activos) y otra tabla llamada Equipos con la lista de todos los equipos activos. Ambas mesas están conectadas porque **un equipo tiene muchos jugadores, pero un jugador puede estar en un solo equipo.**
 
-![What is SQL Databases](https://ucarecdn.com/374d53ac-092f-4f34-a6f1-76bfaa5bd676/-/resize/700x/)
+![Bases de datos SQL](https://ucarecdn.com/374d53ac-092f-4f34-a6f1-76bfaa5bd676/-/resize/700x/)
 
 **Muchos a Muchos:**
 
 Una base de datos de la Biblioteca Pública probablemente tenga una tabla llamada Autor (que contiene la información de todos los autores con libros publicados), y también otra tabla con TODOS los libros que se han publicado. Ambas tablas están relacionadas porque **un autor puede tener muchos libros y un libro puede tener muchos autores.**
 
-![What is SQL Database](https://ucarecdn.com/af7344fc-0ee0-499e-8926-8f70dc9b2b0d/-/resize/700x/)
+![base de datos SQL](https://ucarecdn.com/af7344fc-0ee0-499e-8926-8f70dc9b2b0d/-/resize/700x/)
 
 &nbsp;
 &nbsp;
@@ -88,8 +87,7 @@ Una base de datos de la Biblioteca Pública probablemente tenga una tabla llamad
 ## La Sintaxis de  SQL: Trabajando con Tablas
 ***
 
-
-Hay 3 operaciones principales que se pueden hacer en una tabla: Crear, actualizar o eliminar una tabla. En SQL, esas operaciones se llaman Crear, Modificar y Soltar. Recuerde que estas operaciones se utilizan para manipular la estructura de la base de datos, no los datos que contiene.
+Hay 3 operaciones principales que se pueden hacer en una tabla: Crear, actualizar o eliminar una tabla. En SQL, esas operaciones se llaman Create, Alter y Dro. Recuerda que estas operaciones se utilizan para manipular la estructura de la base de datos, no la información que contiene.
 
 #### CREATE:
 
@@ -120,10 +118,10 @@ Elimina una tabla completa, una vista de una tabla u otro objeto en la base de d
 DROP TABLE CUSTOMERS;
 ```
 
-## La Sintaxis SQL: Manipulación de Datos
+## La Sintaxis SQL: Manipulando Datos
 ***
 
-Cuando usa SQL, tiene 4 comandos principales para manipular datos: SELECT, INSERT, UPDATE y DELETE.
+Cuando usas SQL, tienes 4 comandos principales para manipular datos: SELECT, INSERT, UPDATE y DELETE.
 
 Todos esos comandos están diseñados para manipular UNO o VARIOS registros/filas de la base de datos al mismo tiempo. Pero, solo puede ejecutar UN comando a la vez.
 
@@ -151,7 +149,7 @@ INSERT INTO USER (ssn,username,email) VALUES ('234-45-3342','alesanchezr','a@bre
 
 #### UPDATE:
 
-Actualiza un registro o una fila de una tabla específica. Debes proporcionar a un grupo, una o varias condiciones para identificar las filas específicas que desea actualizar
+Actualiza un registro o una fila de una tabla específica. Debes proporcionar una o varias condiciones para identificar las filas específicas que desea actualizar
 
 ```sql
 UPDATE table_name SET column1 = value1 WHERE [condition]
@@ -162,7 +160,7 @@ UPDATE USER SET email = 'new@breatheco.de' WHERE ssn = '333-44-5534'
 
 #### DELETE:
 
-Funciona de manera muy similar a la actualización, pero, en lugar de pasar los nuevos valores de las nuevas columnas que desea actualizar, solo necesita especificar qué filas deseas eliminar solicitando un grupo de condiciones.
+Funciona de manera muy similar a update, pero, en lugar de pasar los nuevos valores de las nuevas columnas que desea actualizar, solo necesita especificar qué filas deseas eliminar solicitando un grupo de condiciones.
 
 ```sql
 DELETE FROM table_name WHERE [condition]
@@ -177,39 +175,38 @@ DELETE FROM user WHERE ssn = '342-45-6732'
 ## Mantener la Integridad de los Datos
 ***
 
-
 ¡Mantener la integridad de los datos es difícil! Las bases de datos con muchas actividades y usuarios normalmente luchan por mantener la integridad de los datos. ¡A veces los datos son tan delicados y sensibles que agregar un cero a un entero simplemente podría terminar haciendo millonario a alguien!
 
 Nosotros podemos clasificar los problemas de integridad en 4 tipos:
 
 + **Integridad de la entidad:** No hay filas duplicadas en una tabla.
-+ **Integridad del dominio**: impone entradas válidas para una columna dada al restringir el tipo, el formato o el rango de valores.
++ **Integridad del dominio**: Aplica entradas válidas para una columna dada al restringir el tipo, el formato o el rango de valores.
 + **Integridad referencial:** Las filas que utilizan otros registros no se pueden eliminar.
 + **Integridad definida por el usuario:** Aplica algunas reglas comerciales específicas que no se incluyen en la entidad, dominio o integridad referencial.
   
-#### Como podemos Mantener la Integridad?
+#### ¿Cómo podemos Mantener la Integridad?
 
-+ **Columnas únicas de usuario:** Esto evitará tener usuarios con el mismo correo electrónico, con el mismo SSN, países con el mismo nombre, etc.
++ **Columnas únicas de usuario:** Esto evitará tener usuarios con el mismo correo electrónico, con el mismo número de seguridad social, países con el mismo nombre, etc.
 + **Usar claves foráneas** (restricciones): Esto evitará tener un jugador de béisbol en un equipo que no existe
-+ Especifique **valores predeterminados** y qué columnas pueden ser **NULL:** perfecto para ello
-+ **Utilice enumeraciones:** Son excelentes para establecer los valores posibles de una columna "estado", o para una columna "tipo", etc.
++ Especifique **valores predeterminados** y qué columnas pueden ser **NULL** 
++ **Utilice enumeraciones:** Son excelentes para establecer los valores posibles de una columna "status", o para una columna "tipo", etc.
 + **Usar transacciones (commit y rollback):** Hablaremos de eso a continuación; Las transacciones son una buena manera de retroceder en el tiempo si algo sale mal.
 
 ## Transacciones SQL
 ***
 
-Una transacción es un grupo de uno o más operaciones SQL (inserts, deletes, updates, creates, drops, etc.).
+Una transacción es un grupo de uno o más operaciones SQL (insertar, eliminar, actualizar, crear, etc.).
 
 Una transacción agrupa varias operaciones en una porque todas dependen unas de otras. Debe tener la garantía de que si una de esas operaciones falla, la base de datos "deshacerá" todo lo que hizo dentro de la misma transacción.
 
 Por ejemplo, supongamos que un Cliente del Banco está transfiriendo dinero de una cuenta a otra. Esta transacción implica dos operaciones:
 
- + Eliminando de una cuenta.
- + Insertando en otra cuenta.
+ + Eliminar de una cuenta.
+ + Insertar en otra cuenta.
 
-¿Qué pasa si la primera operación fue exitosa pero la segunda falló? Necesita "deshacer" el primero o el usuario perderá el dinero para siempre.
+¿Qué pasa si la primera operación fue exitosa pero la segunda falló? Debe "deshacer" la primera o el usuario perderá el dinero para siempre
 
-## Cada transacción debe ser:
+## Cada transacción debería ser:
 ***
 
 Las transacciones tienen las siguientes cuatro propiedades estándar, generalmente referidas por el acrónimo ACID:
@@ -219,17 +216,17 @@ Las transacciones tienen las siguientes cuatro propiedades estándar, generalmen
 + **Isolation:**  permite que las transacciones operen de manera independiente y transparente entre sí.
 + **Durability:**  garantiza que el resultado o efecto de una transacción confirmada persista en caso de falla del sistema.
   
-## Control de Transacciones SQL
+## Controlado las Transacciones SQL
 ***
 
 Estos son los comandos utilizados para controlar las transacciones:
 
-+ **COMMIT**:  para salvar los cambios.
++ **COMMIT**:  para guardar los cambios.
 + **ROLLBACK:** para revertir los cambios.
-+ **SAVEPOINT:**  crea puntos dentro de grupos de transacciones en los que ROLLBACK.
-+ **SET TRANSACTION:** Coloca un nombre en una transacción.
++ **SAVEPOINT:**  crea puntos dentro de grupos de transacciones desde donde poder devolverse (ROLLBACK).
++ **SET TRANSACTION:** Coloca un nombre a una transacción.
   
-Los comandos de control transaccional solo se usan con los comandos DML INSERT, UPDATE y DELETE. No se pueden usar al crear tablas o soltarlas porque estas operaciones se confirman automáticamente en la base de datos.
+Los comandos de control transaccional solo se usan con los comandos DML INSERT, UPDATE y DELETE. No se pueden usar al crear tablas o eliminarlas porque estas operaciones se confirman automáticamente en la base de datos.
 
 ### COMMIT;
 
@@ -266,6 +263,7 @@ ROLLBACK;
 ```
 
 ### SAVEPOINT o Punto de Guardado [savepoint name];
+
 Un SAVEPOINT es un punto en una transacción cuando puede revertir la transacción a un cierto punto sin revertir toda la transacción.
 
 La sintaxis para el comando SAVEPOINT es la siguiente:
@@ -274,7 +272,7 @@ La sintaxis para el comando SAVEPOINT es la siguiente:
 SAVEPOINT SAVEPOINT_NAME;
 ```
 
-Este comando solo sirve en la creación de un SAVEPOINT entre sentencias transaccionales. El comando ROLLBACK se usa para deshacer un grupo de transacciones.
+Este comando sólo sirve en la creación de un SAVEPOINT entre declaraciones transaccionales. El comando ROLLBACK se usa para deshacer un grupo de transacciones.
 
 La sintaxis para volver a una SAVEPOINT es la siguiente:
 
@@ -290,9 +288,9 @@ La sintaxis para RELEASE SAVEPOINT es la siguiente:
 RELEASE SAVEPOINT SAVEPOINT_NAME;
 ```
 
-El comando SET TRANSACTION se puede usar para iniciar una transacción de base de datos. Este comando se utiliza para especificar características para la transacción que sigue.
+El comando SET TRANSACTION se puede usar para iniciar una transacción de base de datos. Este comando se utiliza para especificar características para la transacción siguiente.
 
-Por ejemplo, puede especificar que una transacción sea de solo lectura o de lectura y escritura.
+Por ejemplo, puede especificar que una transacción sea de sólo lectura o de lectura y escritura.
 
 La sintaxis para SET TRANSACTION es la siguiente:
 
