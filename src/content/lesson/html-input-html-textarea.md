@@ -4,7 +4,7 @@ subtitle: "HTML Forms, HTML input and HTML text-area are really easy to understa
 These very basic concepts represent 90% of everything you will ever need to know about forms ."
 cover: "https://www.desktopbackground.org/p/2013/09/13/637935_nasa-wallpapers_1600x1200_h.jpg"
 textColor: "white"
-status: "draft"
+status: "published"
 date: "2018-01-11"
 tags: ["HTML","inputs","forms"]
 ---
