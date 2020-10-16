@@ -1,7 +1,7 @@
 ---
 title: "Conditional Programing in Java"
 subtitle: "Using conditionals to control your code flow in Java"
-status: "draft
+status: "draft"
 date: "2019-11-11"
 cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
 textColor: "white"
@@ -43,7 +43,7 @@ if (expression) {
 }
 ```
 
-The expression indicated in the if statement is evaluated. If the expression is true, the block of then statements will be executed and if the expression is false, the block of else statements will be executed.
+The expression indicated in the `if statement` is evaluated. If the expression is true, the block of then statements will be executed and if the expression is false, the block of else statements will be executed.
 
 The else part does not have to exist. In this case we would have an if-then statement.
 
