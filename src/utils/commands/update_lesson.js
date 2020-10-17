@@ -1,4 +1,4 @@
-const {walk, indexLessons} = require("../files")
+const {walk, indexContent} = require("../files")
 const fs = require('fs');
 const { POSSIBLE_STATUS } = require("../variables")
 
@@ -34,7 +34,7 @@ module.exports = {
             } 
             
             try{
-                const result = indexLessons(results);
+                const result = indexContent(results);
                 let newvalues = {}
                 let conditions = {}
                 if(args['--statusTo']) newvalues.status = args['--statusTo'];

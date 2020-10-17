@@ -1,4 +1,4 @@
-const {walk, indexLessons, findInFile, updateLesson, walkAsync } = require("../files")
+const {walk, indexContent, findInFile, updateLesson, walkAsync } = require("../files")
 const fs = require('fs');
 const path = require('path');
 const { POSSIBLE_STATUS } = require("../variables")
@@ -26,14 +26,15 @@ module.exports = {
     },
     run: (args) => {
         
-        walk('src/content/lesson', async function(err, results) {
+        walk('src/content', async function(err, results) {
             if (err){
                 console.log("Error scanning lesson files".red);
                 process.exit(1);
             } 
             
             try{
-                const result = indexLessons(results);
+                const result = indexContent(results);
+
                 const images = await walkAsync('src/assets/images')
                 let extensions = {};
                 images.forEach(p => {

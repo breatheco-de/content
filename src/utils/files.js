@@ -41,24 +41,36 @@ const walk = function(dir, done) {
 
 
 let names = [];
-const indexLessons = (allLessons) => ({
+const getContentName = (path) => {
+  const m = /.*src\/content\/([a-z\-]+)\/([\[\].a-zA-Z0-9_\-]+)\.md/gm.exec(path);
+  if(m) return { type: m[1], name: m[2] }
+  else return null;
+}
+const indexContent = (allContent) => ({
     names, 
-    lessons: allLessons.map(l => {
-        const fileName = l.replace(/^.*[\\\/]/, '').split('.').slice(0, -1).join('.').toLowerCase();
-        names.push(fileName);
-        const [ originalSlug, lang ] = fileName.split('.');
+    lessons: allContent.map(l => {
+        const file = getContentName(l);
+        if(!file){
+          console.log("Ignoring lesson: Bad path format "+l);
+          return null;
+        }
+
+        names.push(file.name);
+        const [ originalSlug, lang ] = file.name.split('.');
         const content = fs.readFileSync(l, 'utf8');
         let front_matter = fm(content);
-        return {
+        const result = {
             path: l,
-            content,
+            // content,
             front_matter,
             originalSlug,
             slug: front_matter.slug || originalSlug,
             lang: lang || "us",
-            fileName,
-            onlinePath: `lesson/${originalSlug}`,
+            fileName: file.name,
+            type: file.type,
+            onlinePath: `${file.type}/${originalSlug}`,
         }
+        return result;
     })
 });
 
@@ -138,5 +150,5 @@ const updateLesson = (lesson, newContent=null) => {
 }
 
 module.exports = {
-  walk, indexLessons, findInFile, download, updateLesson, walkAsync
+  walk, indexContent, findInFile, download, updateLesson, walkAsync
 }

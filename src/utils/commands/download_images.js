@@ -1,4 +1,4 @@
-const {walk, indexLessons, findInFile, download } = require("../files")
+const {walk, indexContent, findInFile, download } = require("../files")
 const fs = require('fs');
 const path = require('path');
 const { POSSIBLE_STATUS } = require("../variables")
@@ -26,15 +26,15 @@ module.exports = {
         // '--test': false
     },
     run: (args) => {
-        walk('src/content/lesson', async function(err, results) {
+        walk('src/content', async function(err, results) {
             if (err){
                 console.log("Error scanning lesson files".red);
                 process.exit(1);
             } 
             
             try{
-                const result = indexLessons(results);
-                console.log("Downloading lesson: ", args['--type'])
+                const result = indexContent(results);
+                console.log("Scaning lesson: ", args['--type'])
                 if(args['--slug'] !== 'all'){
                     const lesson = result.lessons.find(l => l.originalSlug === args['--slug'])
                     if(lesson){

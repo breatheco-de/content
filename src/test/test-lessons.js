@@ -4,7 +4,7 @@ const fm = require('front-matter');
 const moment = require('moment');
 var colors = require('colors');
 const { POSSIBLE_STATUS } = require("../utils/variables")
-const { walk, indexLessons } = require('../utils/files')
+const { walk, indexContent } = require('../utils/files')
 
 
 
@@ -41,7 +41,7 @@ walk('src/content/lesson', function(err, results) {
     } 
     
     try{
-        const result = validateLessons(indexLessons(results));
+        const result = validateLessons(indexContent(results));
         console.log("Success!! All files are valid".green);
         process.exit(0);
     }
