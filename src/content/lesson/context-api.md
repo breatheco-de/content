@@ -1,7 +1,7 @@
 ---
 subtitle: "The Context API is one of the most recent tools that the React.js team created to handle application data flow. It is the perfect companion for building small to mid-size applications without the need of a state management library like Redux "
 title: "Global state with the Context API"
-cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 status: "published"
 date: "2018-12-03"

@@ -5,7 +5,7 @@ subtitle: "Crear diseños es el proceso más doloroso al programar en HTML & CSS
 
 Aprende las reglas de CSS: Display, Position, Float and Flex; y coloca cualquier elemento en el lugar que tú quieras."
 
-cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2018-01-11"
 tags: ["modelo de cajas","CSS","HTML"]
@@ -27,7 +27,7 @@ Necesitamos usar cajas para eso. Una caja es un contenedor con un ancho y una al
 Todo el contenido del sitio web debe estar envuelto dentro de una caja (div, header, footer, etc.). Las cajas son invisibles por defecto, por lo tanto para hacerlas visibles, debes establecer un color de fondo o un borde.  La siguiente imagen muestra cuántas cajas invisibles tiene un sitio web normal:
 
 <before-after width="500px"
-    before="https://ucarecdn.com/40818d0d-60c6-4ef3-a488-834f21ddebf1/" after="../../assets/images/0c89a48e-d488-4e5c-807a-fd6b9a9179f6.png" />
+    before="../../assets/images/40818d0d-60c6-4ef3-a488-834f21ddebf1.png" after="../../assets/images/0c89a48e-d488-4e5c-807a-fd6b9a9179f6.png" />
 
 #### Atributos de una caja: ¿De qué está compuesta?
 

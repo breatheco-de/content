@@ -1,7 +1,7 @@
 ---
 title: "Creando Historias de usuarios(User Stories): Aprenda con Ejemplos de Historias de Usuarios"
 subtitle: "Antes de avanzar hacia el desarrollo, necesitamos una estrategia (Historias de usuarios). Aprende con ejemplos de historias de usuarios. Es la actividad más infravalorada en el ciclo de desarrollo de software y representa el 70% de las razones por las que los proyectos no se entregan a tiempo.."
-cover: "https://ucarecdn.com/980ce2e0-b73e-4019-8e97-3510e3028e10/"
+cover_local: "../../assets/images/980ce2e0-b73e-4019-8e97-3510e3028e10.jpeg"
 textColor: "white"
 date: "2018-11-13"
 tags: ["user story"]
@@ -34,7 +34,7 @@ Una historia de usuario es como tener una conversación con su futuro usuario. D
 
 #### Aquí hay unos Ejemplos:
 
-![ejemplos de historias de usuarios](https://ucarecdn.com/032a818d-e4d7-4276-8195-ce5d8a3edcf6/)
+![ejemplos de historias de usuarios](../../assets/images/032a818d-e4d7-4276-8195-ce5d8a3edcf6.png)
 
 ### ¿Cómo debes escribir las historias de usuario?
 ***
@@ -70,7 +70,7 @@ Hay millones de herramientas; Hemos buscado en Google: [haz clic aquí para acce
 
 ### Un fichas o post-it y un plumón
 
-![ejemplos de historias de usuario](https://ucarecdn.com/94f4a28c-a93c-4e05-9f86-ce64abc2ff7b/)
+![ejemplos de historias de usuario](../../assets/images/94f4a28c-a93c-4e05-9f86-ce64abc2ff7b.png)
 
 La teoría es simple - si usas una ficha o post-it más grande que 7 x 13 cm, escribirás demasiado. Del mismo modo, si usa algo más pequeño que un plumón (como un bolígrafo o lapicero), escribirás demasiado.
 
@@ -78,7 +78,7 @@ Se supone que las historias de usuario son cortas y dulces. Se supone que ayudan
 
 Al final, tendrá una enorme "lista de tareas pendientes", con las historias pasando desde "Tareas pendientes" a "Por Hacer" y, finalmente, a "Hecha". Cada historia se asignará a un desarrollador al comienzo de cada reunión de planificación.
 
-![emeplo de historias de usuario](https://ucarecdn.com/faaa70b0-5343-43f0-8565-994c9b40ab8b/)
+![emeplo de historias de usuario](../../assets/images/faaa70b0-5343-43f0-8565-994c9b40ab8b.jpeg)
 
 ### ¿Cuándo está realmente "hecha" una historia?
 

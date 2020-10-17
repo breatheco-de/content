@@ -2,7 +2,7 @@
 slug: "desarrollo-agil"
 title: "Introducción al desarrollo profesional y ágil."
 subtitle: "Todo lo que aprendió se debe juntar. ¡Hagamos nuestra primera aplicación profesional completa usando el método de desarrollo ágil!"
-cover: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
+cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
 textColor: "white"
 date: "2018-12-11"
 tags: ["desarrollo agil"]

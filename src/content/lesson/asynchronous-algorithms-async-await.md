@@ -1,7 +1,7 @@
 ---
 title: "Creating asynchronous algorithms"
 subtitle: "Understand the difference between synchronous and asynchronous scripts, use Promises and master async and wait."
-cover: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
+cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 status: "published"
 authors: ["kodi2fever", "nachovz"]
 textColor: "white"

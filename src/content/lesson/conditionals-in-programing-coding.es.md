@@ -4,7 +4,7 @@ subtitle: "Uso de condiciones para controlar el flujo de su código y hacer que 
 date: "2017-09-24"
 status: "published"
 author: ["alesanchezr"]
-cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 tags: ["conditionals", "logical operations", "if else", "conditions"]
 ---

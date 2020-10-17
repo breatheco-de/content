@@ -3,7 +3,7 @@ title: "Conditionals in Programming or Coding"
 subtitle: "Using conditions to control the flow of your code and make the computer obey"
 date: "2017-09-24"
 authors: ["alesanchezr"]
-cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 tags: ["conditionals","logical operations","if else","conditions"]
 status: "published"

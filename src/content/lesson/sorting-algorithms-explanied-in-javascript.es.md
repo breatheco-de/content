@@ -1,7 +1,7 @@
 ---
 title: "Usando javascript para ordenar una lista"
 subtitle: "Ya nadie ordena las listas manualmente, pero sigue siendo una manera fantástica de dominar tus habilidades algorítmicas"
-cover: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
+cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 status: "draft"
 textColor: "white"
 date: "2018-05-11"
@@ -19,7 +19,7 @@ R: Hay más de lo que podemos contar, los 10 principales en popularidad son:
 ### Clasificación de Burbujas
 Es el más simple de los algoritmos de clasificación. Intercambia repetidamente elementos adyacentes para organizarlos de forma ascendente, el algoritmo tiene un `"wall"` que representa la última posición que se va a comparar, el muro sigue moviéndose de izquierda a derecha, reduciendo el tamaño de comparación hasta que se clasifica la lista completa.
 
-![Bubble Sort Explained](https://ucarecdn.com/2fef4d85-686b-4bf0-a505-45d3de178fd5/)
+![Bubble Sort Explained](../../assets/images/2fef4d85-686b-4bf0-a505-45d3de178fd5.gif)
 
 En Javascript:
 ```js
@@ -52,7 +52,7 @@ const bubbleSort = (arr) => {
 
 `Selection` también tiene un muro, pero en este caso, marca el comienzo del bucle, el algoritmo busca el elemento más pequeño y lo intercambia con el inicial, luego mueve el muro una posición hacia la derecha para evitar mirar de nuevo ese mismo artículo.
 
-![Selection Sort Explained](https://ucarecdn.com/ddb1ff5a-621c-4945-9164-20c1a7f5d388/)
+![Selection Sort Explained](../../assets/images/ddb1ff5a-621c-4945-9164-20c1a7f5d388.gif)
 
 En javascript
 ```js
@@ -78,7 +78,7 @@ const selectSort = (arr) => {
 
 Cocktail Shaker funciona en ambos frentes al mismo tiempo: busca el escaneo de mayor valor de izquierda a derecha y también el más pequeño cuando vuelve de derecha a izquierda. Tiene 2 paredes (ambas para cada lado de la lista), y ambas paredes siguen encogiéndose hasta que se tocan entre sí, cuando eso sucede, la matriz está completamente ordenada.
 
-![Selección ordenada explicada](https://ucarecdn.com/6d44c6a9-7f32-4b0e-86d7-1a210c3a5f4a/)
+![Selección ordenada explicada](../../assets/images/6d44c6a9-7f32-4b0e-86d7-1a210c3a5f4a.gif)
 En javascript:
 ```js
 const shakerSort = (arr) => {
@@ -108,7 +108,7 @@ const shakerSort = (arr) => {
 ### Clasificación de Inserción
 La clasificación de inserción implica pasar por una pila, tomar un elemento, compararlo con el primero, intercambiar lugares si un elemento es más grande que otro y continuar este proceso hasta que el elemento mínimo se encuentre en la ubicación correcta.
 
-![Insertion sort algorithm](https://ucarecdn.com/38fed925-cf75-4f94-bdd7-abcce659fdac/)
+![Insertion sort algorithm](../../assets/images/38fed925-cf75-4f94-bdd7-abcce659fdac.gif)
 En javascript:
 ```js
 const insertionSort = (arr) => {
@@ -132,7 +132,7 @@ const insertionSort = (arr) => {
 
 La clasificación combinada es un algoritmo más difícil porque usa [recursividad](https://www.youtube.com/watch?v=KEEKn7Me-ms). Es un ejemplo de un algoritmo de clasificación de tipo dividir y conquistar, divide la matriz sin clasificar en dos partes y luego recursivamente aplica la clasificación de fusión a estas matrices para dividir aún más las matrices hasta que se quede con un montón de matrices de elementos. Luego, compara las matrices de un solo elemento entre sí antes de combinarlas en una matriz ordenada de dos elementos (y así sucesivamente). Terminará con una sola matriz ordenada de longitud n.
 
-![Combinar Clasificación](https://ucarecdn.com/e8781e98-0f8c-4035-8017-33ca217eb39c/)
+![Combinar Clasificación](../../assets/images/e8781e98-0f8c-4035-8017-33ca217eb39c.gif)
 
 [[info]]
 | :tv: En este enlace, encontrarás [una muy buena explicación de video de 4 minutos](https://www.youtube.com/watch?v=JU767SDMDvA) sobre el algoritmo de combinar clasificación.
@@ -155,7 +155,7 @@ En el punto donde `rightmark` se vuelve menor que` leftmark`, paramos. La posici
 
 La función `quickSort` invoca una función recursiva,` quickSortHelper`. `quickSortHelper` comienza con el mismo caso base que la ordenación de fusión. Si la longitud de la lista es menor o igual que uno, ya está ordenada. Si es mayor, puede particionarse y ordenarse recursivamente. La función `partition` implementa el proceso descrito anteriormente.
 
-![Algoritmo Quicksort](https://ucarecdn.com/c60c4713-aa60-4fbc-9d97-f893b5947e7f/)
+![Algoritmo Quicksort](../../assets/images/c60c4713-aa60-4fbc-9d97-f893b5947e7f.gif)
 
 [[info]]
 | :tv: En este enlace, encontrarás [una muy buena explicación de video de 4 minutos](https://www.youtube.com/watch?v=Hoixgm4-P4M) sobre el algoritmo de clasificación rápida.

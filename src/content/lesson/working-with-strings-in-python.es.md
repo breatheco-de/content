@@ -1,7 +1,7 @@
 ---
 title: "Es Hora de Aprender lo que es el manejo de cadenas (String) en Python"
 subtitle: "Uno de los conceptos mas importantes de aprender, las cadenas de caracteres o 'strings' son esenciales para manejar texto, construir código dinámico y mucho más!"
-cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2019-11-15"
 syntaxis: ["python"]

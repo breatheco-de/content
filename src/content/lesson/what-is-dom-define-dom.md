@@ -1,7 +1,7 @@
 ---
 title: "What is DOM: Document Object Model"
 subtitle: "Do you already know what is DOM? It is a hierarchy stored in memory that contains all of your website elements in real-time. DOM Manipulation is the most popular activity for any front-end developer. The DOM brings your applications to life!"
-cover: "https://ucarecdn.com/db660bb9-1ac6-4730-a9c8-4544d6b801b0/"
+cover_local: "../../assets/images/db660bb9-1ac6-4730-a9c8-4544d6b801b0.png"
 textColor: "white"
 date: "2018-05-15"
 tags: ["DOM"]
@@ -142,7 +142,7 @@ trArray[3].style.background = "red";
 
 As you already know, each element in the HTML document can have some sort of HTML content.  It does not matter if it is a `<P>`, `<DIV>`,`<A>` or any other HTML element; it can have its own innerHTML combined with more HTML content.
 
-![what is dom](https://ucarecdn.com/2387325b-338c-4c18-bb0f-2f95ed28901f/)
+![what is dom](../../assets/images/2387325b-338c-4c18-bb0f-2f95ed28901f.png)
 
 The .innerHTML property gives you the ability to retrieve or set the content of whatever element you have in your JavaScript.  For example:
 

@@ -1,7 +1,7 @@
 ---
 title: "Programación orientada a eventos"
 subtitle: "Programación orientada a eventos: carga del sitio web, clic del usuario, cambio de tamaño de la ventana, etc. Como desarrollador, debe asegurarse de que sus aplicaciones tengan un flujo. Ese flujo está determinado por todos los eventos posibles que pueden ocurrir mientras el usuario interactúa con su aplicación."
-cover: "../../assets/images/d2ca9eb7-a3f9-432d-b791-8b1266f8923a.gif"
+cover_local: "../../assets/images/d2ca9eb7-a3f9-432d-b791-8b1266f8923a.gif"
 textColor: "white"
 date: "2018-05-11"
 tags: ["programación orientada a eventos"]

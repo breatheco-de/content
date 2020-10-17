@@ -1,7 +1,7 @@
 ---
 title: "Learn React Here : React Js Tutorial"
 subtitle: "React is a front-end library ideal for creating interfaces (generate HTML+CSS). It's the fastest, most advanced and most wanted library in the market right now. Don't stay behind, learn React JS here with this React JS tutorial"
-cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2018-11-13"
 tags: ["reactjs"]
@@ -106,7 +106,7 @@ Each component then can be rendered by calling its `<tag>` which look just like 
 
 For example, lets looks at the **Bootstrap card:**
 
-![learn react js tutorial](https://ucarecdn.com/73edbb82-467c-4522-af7d-79c33bb270e2/)
+![learn react js tutorial](../../assets/images/73edbb82-467c-4522-af7d-79c33bb270e2.png)
 
 And how we can recreate the same component in a React app.
 
@@ -196,7 +196,7 @@ Those components which serve to hold the layout of each of your web pages, and a
 
 Each component will have render method.  The final resulting HTML document will be comprised with the merge of all the outputs that all the components have on their render methods.  Checkout the following illustration to get an idea.
 
-![learn react js tutorial](https://ucarecdn.com/6c7d3747-482a-480d-b5be-fdbf095292f3/)
+![learn react js tutorial](../../assets/images/6c7d3747-482a-480d-b5be-fdbf095292f3.png)
 
 ## The YouTube.com Example
 ***
@@ -216,7 +216,7 @@ After you finish identifying your components, it is time to start coding.  Creat
 Each class needs to have a function called **render.**  This will return the HTML code that the component will output into the website document.
 
 <before-after width="400px"
-    before="https://ucarecdn.com/e590a615-2c9d-4671-8483-99dbdd90cd41/" after="https://ucarecdn.com/78aedd23-b5dd-4d1e-b693-b3268f4734fa/" />
+    before="https://ucarecdn.com/e590a615-2c9d-4671-8483-99dbdd90cd41/" after="../../assets/images/78aedd23-b5dd-4d1e-b693-b3268f4734fa.png" />
 
 ## Essential aspects of a React component
 
@@ -248,7 +248,7 @@ A real high quality component must communicate with other components only throug
 
 Every component works like a mini-application.  You are able to control and define your component workflow based on a series of available methods that you can declare and code according to your needs.
 
-![learn react js tutorial](https://ucarecdn.com/245ba798-e840-42d8-8391-7388159ccfeb/)
+![learn react js tutorial](../../assets/images/245ba798-e840-42d8-8391-7388159ccfeb.png)
 
 [[info]]
 |:link:[Here you will find](https://reactjs.org/docs/react-component.html#the-component-lifecycle) a more detailed explanation of each available life-cycle method.

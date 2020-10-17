@@ -2,7 +2,7 @@
 title: "Cómo usar GIT: Sistema de control de versiones"
 subtitle: "Aprenda cómo usar GIT con un tutorial interactivo, un video y un excelente artículo.
 Sin GIT, no podrá trabajar en ninguna empresa y no podrá utilizar el código de nadie."
-cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 thumb: "https://breatheco.de/wp-content/uploads/2017/03/commit-object.png"
 date: "2018-02-08"

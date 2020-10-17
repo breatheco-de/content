@@ -1,7 +1,7 @@
 ---
 title: "Understanding Django Rest Framework"
 subtitle: "In the world of Python, Learning what is Django is the best way to create web applications and RESTful APIs.Enjoy this Django Rest Framework Lesson"
-cover: "../../assets/images/3e50e217-514d-41dc-a7a4-4725e08f8afb.jpeg"
+cover_local: "../../assets/images/3e50e217-514d-41dc-a7a4-4725e08f8afb.jpeg"
 textColor: "white"
 date: "2018-12-11"
 tags: ["django","python","REST","API"]
@@ -26,7 +26,7 @@ Django is THE TOOL for web development.  It is not just a library – it is doze
 Just like any other framework, Django proposes a specific architecture to build your software and we have to learn, adopt and master all of it if we want to become Senior Full-Stack Developers (using Django):
 
 <before-after 
-    before="https://ucarecdn.com/61212ca7-cde0-43c1-8267-a1101a95da2c/" after="../../assets/images/80444105-0d6a-4a93-beb1-090b84b03376.png" />
+    before="../../assets/images/61212ca7-cde0-43c1-8267-a1101a95da2c.png" after="../../assets/images/80444105-0d6a-4a93-beb1-090b84b03376.png" />
 
 The first important concept to learn is Website vs App.  A great example can be BreatheCo.de
 
@@ -131,7 +131,7 @@ We are going to be building a REST Based API, but don’t be afraid of the name 
 + Finally, the APIView should return a Response object that contains the JSON Object prepared by the serializer.
 
 <before-after width="900px"
-    before="https://ucarecdn.com/c7e96be7-a7b6-4b6d-83a2-535b22fdc3b0/" after="../../assets/images/88f6b44f-01dc-4a13-ba1f-fbab5280d510.png" />
+    before="../../assets/images/c7e96be7-a7b6-4b6d-83a2-535b22fdc3b0.png" after="../../assets/images/88f6b44f-01dc-4a13-ba1f-fbab5280d510.png" />
 
 ### urls.py: The URL Dispatcher
 

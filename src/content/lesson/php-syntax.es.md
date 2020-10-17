@@ -1,7 +1,7 @@
 ---
 title: "Entendiendo la Sintaxis de PHP"
 subtitle: "Aprende aquí sobre la sintaxis de PHP, con esta increíble lección."
-cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2018-10-31"
 tags: ["PHP"]
@@ -55,7 +55,7 @@ console.log(arrayValue);
 
 ```
 
-#### ![php syntax](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) Con PHP
+#### ![php syntax](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) Con PHP
 
 ```php{numberLines: true}
 $simpleValue = ‘Hello’;
@@ -114,7 +114,7 @@ myArray.push(‘4Geeks’); //Añadiendo un artículo
 myArray.splice(index, 1);
 ```
 
-#### ![php syntax](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) Con PHP
+#### ![php syntax](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) Con PHP
 
 ```php
 $myArray = array(‘Academy’,’Coding’);
@@ -126,7 +126,7 @@ $myArray = array_values($myArray);
 
 ### Funciones de Clasificación para Arreglos
 
-#### ![php syntax](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) Con PHP
+#### ![php syntax](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) Con PHP
 
 ```php{numberLines: true}
 $myArray = array(2,5,1,4,7);
@@ -218,7 +218,7 @@ switch (favcolor) {
 }
 ```
 
-#### ![php syntax](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) Con PHP
+#### ![php syntax](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) Con PHP
 
 ```php{numberLines: true}
 <?php
@@ -250,7 +250,7 @@ var auxCar = new Car();
 console.log(auxCar.brand);
 ```
 
-#### ![what is php tutorial](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/) Con PHP
+#### ![what is php tutorial](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) Con PHP
 
 ```php
 <?php

@@ -3,7 +3,7 @@ title: "Working with or manipulating strings with Python"
 status: "draft"
 subtitle: "String concatenation is the Web Developer's bread and butter, our job is to concatenate strings to create HTML/CSS documents programmatically"
 authors: ["alesanchezr"]
-cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2019-11-15"
 syntaxis: ["python"]

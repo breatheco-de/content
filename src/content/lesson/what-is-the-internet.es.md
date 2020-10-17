@@ -1,7 +1,7 @@
 ---
 title: "Que es el Internet?"
 subtitle: "Que es el Internet: Todo lo que se ve en internet es un documento de texto. Todo!! Como desarrolladores, todo lo que hacemos es generar trozos de texto basados en un conjunto de criterios. Si entiendes este simple concepto, el cielo será el limite."
-cover: "https://ucarecdn.com/05a36362-c09f-4961-a7b9-8e3132a902b1/"
+cover_local: "../../assets/images/05a36362-c09f-4961-a7b9-8e3132a902b1.jpeg"
 textColor: "white"
 date: "2017-08-10"
 tags: ["internet"]
@@ -29,7 +29,7 @@ Por esta razón buscaron hacer algo que se asemejara lo más posible a un docume
 > rígidas y formales que hoy vemos como documentos interactivos, emocionantes y espectaculares.
 
 
-![What is the internet](https://ucarecdn.com/ffe440de-8746-4ab5-81cc-37ef107155e9/)
+![What is the internet](../../assets/images/ffe440de-8746-4ab5-81cc-37ef107155e9.jpeg)
 
 
 ## Todo es texto (HTTP)
@@ -45,7 +45,7 @@ Lo que esto quiere decir es que: **todo es texto**. Pues sí, si quieres enviarl
 + Tu abuela hace doble clic en la foto y el programa que está usando para ver la foto transforma ese texto nuevamente en una imagen comprensible para un humano.
 
 
-![what is the internet](https://ucarecdn.com/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e/)
+![what is the internet](../../assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif)
   
 <small style="color:grey">Imagen 1: Los 4 pasos necesarios para enviar imágenes a través de Internet: primero se convierte en texto, luego viaja, luego llega a la computadora de la abuela, la abuela abre la imagen y la imagen muestra ... ¡finalmente, la abuela está feliz mirando a su nieto! </small>
 
@@ -100,7 +100,7 @@ Bueno, hace mucho! El servidor es responsable de preparar el texto que será le�
 + **Eficiencia:** a veces, los clientes tienen demandas que son muy difíciles de resolver, incluso si se trata de un solo cliente. Imagina por un segundo que está utilizando Google Maps para averiguar cuánto tiempo se tarda en viajar de Caracas a Santiago de Chile. El servidor debe verificar los datos de tráfico, las rutas, los accidentes y ejecutar algún tipo de algoritmo para obtener el tiempo estimado de llegada (ETA). Incluso si el resultado es una simple cadena de caracteres como "dos días, 2 horas y 30 minutos", el servidor tuvo que hacer miles de cálculos para llegar a esa conclusión.
 Entonces… resumamos:
 
-![what is the internet](https://ucarecdn.com/57821cbc-5ba0-4e1c-9b90-7f1df7c637fa/)
+![what is the internet](../../assets/images/57821cbc-5ba0-4e1c-9b90-7f1df7c637fa.gif)
 
  
 | El Servidor   |      El Cliente       |

@@ -2,7 +2,7 @@
 slug: "agile-development"
 title: "Intro to Professional and Agile Development"
 subtitle: "All you've learned needs to be put together. Lets make our first entire professional application using the Agile Development method!"
-cover: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
+cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
 textColor: "white"
 date: "2018-12-11"
 tags: ["agile development"]

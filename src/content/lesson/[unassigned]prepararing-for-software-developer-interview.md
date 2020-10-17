@@ -1,7 +1,7 @@
 ---
 title: "Preparing for the software developer interview"
 subtitle: ""
-cover: "../../assets/images/0e52ff67-aa2b-4234-b620-6ce094508f67.jpeg"
+cover_local: "../../assets/images/0e52ff67-aa2b-4234-b620-6ce094508f67.jpeg"
 textColor: "black"
 status: "unassigned"
 date: "2019-04-10"

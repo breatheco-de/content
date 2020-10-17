@@ -1,7 +1,7 @@
 ---
 title: "Qué es webpack?"
 subtitle: "Para los desarrolladores senior, es imposible pensar en desarrollar una aplicación JS sin Webpack. Gracias a Webpack, desarrollar front-end se siente bien y profesional por primera vez. Así que es hora de aprender lo que es webpack"
-cover: "https://ucarecdn.com/cdbe1bf9-2b6b-4c21-b127-eacc681d9c8d/"
+cover_local: "../../assets/images/cdbe1bf9-2b6b-4c21-b127-eacc681d9c8d.png"
 textColor: "white"
 date: "2018-08-11"
 tags: ["webpack"]
@@ -16,7 +16,7 @@ A estas alturas, probablemente hayas sentido lo desorganizado y difícil que pue
 Webpack es una de esas cosas que odias las primeras veces y luego no puedes vivir sin él por el resto de tu vida.  ¡Por primera vez la codificación, Javascript realmente se siente increíble, limpio y profesional!
 
 <before-after width="400px"
-    before="https://ucarecdn.com/bc337938-55c4-40e2-a370-5d69bf084a3b/" after="https://ucarecdn.com/41afcd74-81dd-4e6e-98ee-fc2642a07e7f/" />
+    before="https://ucarecdn.com/bc337938-55c4-40e2-a370-5d69bf084a3b/" after="../../assets/images/41afcd74-81dd-4e6e-98ee-fc2642a07e7f.png" />
 
 ### Pero, ¿qué es Webpack?
 
@@ -24,7 +24,7 @@ Webpack es esta cosa que agarra todas las piezas de tu aplicación (archivos, im
 
 Luego, el navegador podrá solicitar (GET) ese archivo y mostrar / renderizar todo el sitio web ... ¡eso es todo!  Es muy similar a lo que sucede con los archivos ".exe" en Windows: toda tu aplicación está dentro del archivo .exe, y luego simplemente haces doble click en él.
 
-![qué es webpack](https://ucarecdn.com/bdd432f7-adef-4023-976e-1ebd6abe70f7/)
+![qué es webpack](../../assets/images/bdd432f7-adef-4023-976e-1ebd6abe70f7.gif)
 
 ### Pero ¿por qué me importa el agrupamiento?
 

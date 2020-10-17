@@ -1,7 +1,7 @@
 ---
 title: "Aprender React Aquí: Tutorial de React Js"
 subtitle: "React es una librería de front-end ideal para crear interfaces (genera HTML+CSS). Es la librería más rápida, más avanzada y más buscada en el mercado en este momento. No te quedes atrás, aprende React js aquí con este tutorial de React Js"
-cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2018-11-13"
 tags: ["reactjs"]
@@ -110,7 +110,7 @@ Cada componente puede ser renderizado llamando a su propia etiqueta o`<tag>` que
 
 Por ejemplo, echemos un vistazo a la tarjeta **Bootstrap:**
 
-![tutorial react js](https://ucarecdn.com/73edbb82-467c-4522-af7d-79c33bb270e2/)
+![tutorial react js](../../assets/images/73edbb82-467c-4522-af7d-79c33bb270e2.png)
 
 And how we can recreate the same component in a React app.
 
@@ -198,7 +198,7 @@ Esos componentes que sirven para sostener el layout o diseño de tus páginas we
 
 Cada componente tendrá método de renderizado. El documento HTML resultante, estará compuesto por la combinación de todos las salidas que todos los componentes tienen en sus métodos de renderizado. Échale un vistazo a la siguiente imagen para tener una idea.
 
-![learn react js tutorial](https://ucarecdn.com/6c7d3747-482a-480d-b5be-fdbf095292f3/)
+![learn react js tutorial](../../assets/images/6c7d3747-482a-480d-b5be-fdbf095292f3.png)
 
 ## El Ejemplo de YouTube.com
 ***
@@ -218,7 +218,7 @@ Una vez que hayas terminado de identificar tus componentes, es hora de comenzar 
 Cada clase debe tener una función llamada **render.** Esto devolverá el código HTML que el componente generará en el documento del sitio web.
 
 <before-after width="400px"
-    before="https://ucarecdn.com/e590a615-2c9d-4671-8483-99dbdd90cd41/" after="https://ucarecdn.com/78aedd23-b5dd-4d1e-b693-b3268f4734fa/" />
+    before="https://ucarecdn.com/e590a615-2c9d-4671-8483-99dbdd90cd41/" after="../../assets/images/78aedd23-b5dd-4d1e-b693-b3268f4734fa.png" />
 
 ### El Estado del Componente
 
@@ -258,7 +258,7 @@ Un componente real de alta calidad sólo debe comunicarse con otros componentes 
 
 Cada componente funciona como una mini aplicación. Puedes controlar y definir el flujo de trabajo de sus componentes en función de una serie de métodos disponibles que puede declarar y codificar de acuerdo con sus necesidades.
 
-![tutorial react js](https://ucarecdn.com/245ba798-e840-42d8-8391-7388159ccfeb/)
+![tutorial react js](../../assets/images/245ba798-e840-42d8-8391-7388159ccfeb.png)
 
 [[info]]
 |:link:[Aquí encontrarás](https://reactjs.org/docs/react-component.html#the-component-lifecycle) una explicación más detallada de cada método de ciclo de vida disponible.

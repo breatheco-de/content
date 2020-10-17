@@ -22,8 +22,8 @@ Using a backend language you can access the majority of the computer files, and 
 Let's say that you have the bitcoin prices from the last day in a `bitcoin_prices.csv` file with the following format:
 
 <before-after width="400px"
-    before="https://ucarecdn.com/97f74cd8-acdd-4ce9-aa26-bfd494e9b550/bitcoin_price_csv.png" 
-    after="https://ucarecdn.com/709ff7ce-f7f6-4b16-a172-521fe1787733/bitcoing_prices_table.png" 
+    before="../../assets/images/97f74cd8-acdd-4ce9-aa26-bfd494e9b550bitcoin_price_csv.png" 
+    after="../../assets/images/709ff7ce-f7f6-4b16-a172-521fe1787733bitcoing_prices_table.png" 
 />
 
 [[info]]

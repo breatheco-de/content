@@ -1,7 +1,7 @@
 ---
 title: "The Command Line (a.k.a: The Terminal) "
 subtitle: "Developers spend hours every day using the command line (a.k.a: The Terminal). Embrace reality and become more powerful than ever before."
-cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2018-01-10"
 tags: ["the command line","the terminal"]
@@ -47,7 +47,7 @@ Your computer has files, directories and applications.  Your command line is abl
 
 ## Here is how the File System Looks in a Visual Interface vs the Terminal:
 
-![the command line the terminal](https://ucarecdn.com/182ea93c-9d7d-4c8d-8153-9c1756d8cd1f/)
+![the command line the terminal](../../assets/images/182ea93c-9d7d-4c8d-8153-9c1756d8cd1f.png)
 
 There are 4 important things to notice here:
 
@@ -198,7 +198,7 @@ When nano opens, it will show a top bar with the current version of the nano app
 
 At the bottom, you will see the most often used commands to use nano, such as: quit, where is, help, etc.
 
-![the command line the terminal](https://ucarecdn.com/6128e9f7-b460-4b10-80e4-34057b7d4df9/)
+![the command line the terminal](../../assets/images/6128e9f7-b460-4b10-80e4-34057b7d4df9.png)
 
 [[demo]]
 | :point_up:This website has a ton of great mini-challenges to help you practice the command line: <br>https://cmdchallenge.com/

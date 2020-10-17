@@ -1,7 +1,7 @@
 ---
 title: "Tutorial de Regex: Aprender con ejemplos de expresiones regulares"
 subtitle: "Las expresiones regulares son la mejor manera de identificar patrones dentro de cadenas. Pueden parecer difíciles y molestos, pero una vez que sabes cómo usarlos, ¡son increíbles! En este tutorial Regex aprenderás con ejemplos de expresiones regulares"
-cover: "https://ucarecdn.com/bf7bc7e6-c89c-4f97-9377-e30e369ba796/"
+cover_local: "../../assets/images/bf7bc7e6-c89c-4f97-9377-e30e369ba796.gif"
 textColor: "white"
 date: "2018-05-11"
 tags: ["regex","expresiones regulares"]
@@ -207,7 +207,7 @@ Aquí hay algunos Regex pre-hechos:
 
 #### Expresión regular para: validar un correo electrónico
 
-![regex tutorial regular expression examples](https://ucarecdn.com/39f93d0d-248e-4e94-b402-b744c4b06a4d/)
+![regex tutorial regular expression examples](../../assets/images/39f93d0d-248e-4e94-b402-b744c4b06a4d.png)
 
 Comenzamos diciéndole al analizador que encuentre el principio de la cadena (^).
 

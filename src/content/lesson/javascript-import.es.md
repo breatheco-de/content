@@ -1,7 +1,7 @@
 ---
 title: "Importación y exportación de módulos JavaScript"
 subtitle: "Dividir y conquistar (nuevamente), esta vez te enseñamos cómo dividir tu código en varios archivos para evitar conflictos de GIT y también para estar más organizado.  Al final de esta lección, podrás dominar la importación y exportación de JavaScript."
-cover: "https://ucarecdn.com/c558ac72-194b-40f2-be2f-6e65e8c219c9/"
+cover_local: "../../assets/images/c558ac72-194b-40f2-be2f-6e65e8c219c9.png"
 textColor: "white"
 date: "2018-12-11"
 tags: ["javascript","importacion","exportacion"]
@@ -27,9 +27,9 @@ De hecho, ya lo hemos estado haciendo cuando importamos nuestros estilos, bootst
 Por ejemplo, aquí estamos importando una función de otro archivo:
 
 
-![javascript import](https://ucarecdn.com/f7b8c75d-e7d4-481e-8346-b95d54a235f6/)
+![javascript import](../../assets/images/f7b8c75d-e7d4-481e-8346-b95d54a235f6.png)
 
-![javascript import](https://ucarecdn.com/2cdb146a-d6f7-4591-96fc-e50aef07aca5/)
+![javascript import](../../assets/images/2cdb146a-d6f7-4591-96fc-e50aef07aca5.png)
 
 
 ## Exportación por Defecto
