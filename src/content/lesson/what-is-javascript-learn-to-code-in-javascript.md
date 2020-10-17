@@ -1,7 +1,7 @@
 ---
 title: "What is JavaScript? Learn to Code in JavaScript"
 subtitle: "Get to know what is JavaScript, Everybody is talking about it and by now you probably know its time to learn to code in JavaScript in order to get things to the next level."
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 status: "pending_translation"
 date: "2018-02-11"

@@ -1,7 +1,7 @@
 ---
 title: "Building RESTful API's using Flask"
 subtitle: "Flask is becoming the most popular Python framework (if its not already), learn how to build RESTful API's the REST way"
-cover: "https://ucarecdn.com/91bcc549-6758-49c3-a790-4245afbd8ece/"
+cover: "../../assets/images/91bcc549-6758-49c3-a790-4245afbd8ece.png"
 textColor: "black"
 date: "2019-05-02"
 status: "published"

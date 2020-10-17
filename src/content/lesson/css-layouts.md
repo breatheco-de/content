@@ -2,7 +2,7 @@
 title: "CSS Layouts: Create and Build Layouts with CSS"
 subtitle: "Building layouts is the most painful process when coding HTML & CSS
 Learn the CSS layout rules: Display, Position, Float and Flex; and place any element anywhere you want."
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2018-01-11"
 tags: ["box-model","CSS","HTML","layouts"]
@@ -15,7 +15,7 @@ status: "draft"
 
 CSS Layouts and the positioning of elements are probably one of the most challenging concepts in CSS; both were meant for older, less advanced and less rich websites.
 
-![css layout](https://ucarecdn.com/dccad91a-93b3-49c9-a437-6612087b9ee4/-/resize/600x/)   
+![css layout](../../assets/images/dccad91a-93b3-49c9-a437-6612087b9ee4.png)   
 
 #### Layout
 Let’s go back to HTML: How can I create documents with 2 columns?  We know that some scientific documents have several columns, but how can I replicate that in a website?
@@ -26,7 +26,7 @@ We need to use boxes for it.  A box is a container with a specific width and hei
 All website content should be wrapped within boxes (div, header, footer, etc.). Boxes are invisible by default so, in order to make them visible, you have to either set a background color or a border.  The following image shows how many invisible boxes a normal website has:
 
 <before-after width="500px"
-    before="https://ucarecdn.com/40818d0d-60c6-4ef3-a488-834f21ddebf1/" after="https://ucarecdn.com/0c89a48e-d488-4e5c-807a-fd6b9a9179f6/" />
+    before="https://ucarecdn.com/40818d0d-60c6-4ef3-a488-834f21ddebf1/" after="../../assets/images/0c89a48e-d488-4e5c-807a-fd6b9a9179f6.png" />
 
 #### Box Attributes
 
@@ -41,7 +41,7 @@ All box containers can have the following attributes:
 |Background color   |In addition to the background image, you can also have a background color behind both the content and the background image.   |
 |Margin   |Optional space that can be added between this particular box and other elements around.   |
 
-![css layout](https://ucarecdn.com/153d2a7c-b648-4d75-920b-940102f18eaa/-/resize/500x/) 
+![css layout](../../assets/images/153d2a7c-b648-4d75-920b-940102f18eaa.gif) 
 
 In the following example, we divided the website content into 2 different areas.  The left side will be a sidebar and the right side will have the main content of the website.
 
@@ -120,7 +120,7 @@ It’s yoga time, let’s stop the coding and think about mankind for a minute. 
 
 This course is not just about user interface (UI) and experience (UX).  Web developers tend to underestimate this matter.  It is important to take enough time to design the website navigation flow, the menu position, UI elements, etc.  Here you have some layout examples:
 
-![css layout](https://ucarecdn.com/ce06fb9d-bc8c-4191-ae12-a2ec4ac6fa1f/-/resize/400x/)
+![css layout](../../assets/images/ce06fb9d-bc8c-4191-ae12-a2ec4ac6fa1f.png)
 
 Some websites have great content, but, unfortunately, they also have poor layouts that limit their potential for success.  These are the main criteria to consider when choosing your layout:
 
@@ -141,7 +141,7 @@ Facebook is like this: a centered content website has a max-width for the conten
 
 Here is the exact code needed for website content to always be aligned at the center of the screen:
 
-![css layout](https://ucarecdn.com/ca5d4285-c151-4b30-a4a2-c6b35510188b/-/resize/500x/)
+![css layout](../../assets/images/ca5d4285-c151-4b30-a4a2-c6b35510188b.png)
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -211,7 +211,7 @@ You will have to be learning "on the go" because there is an infinite amount of 
 
 Worry not, my friend.  A major part of Bootstrap is made to make layouts easier.  You will learn that in the next lesson.
 
-![css layout](https://ucarecdn.com/91aa197c-b2cb-4717-b41f-0f7b579aab25/-/resize/400x/)
+![css layout](../../assets/images/91aa197c-b2cb-4717-b41f-0f7b579aab25.gif)
 
 
   

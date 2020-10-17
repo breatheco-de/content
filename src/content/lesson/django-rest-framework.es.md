@@ -1,7 +1,7 @@
 ---
 title: "Entendiendo Django Rest Framework"
 subtitle: "En el mundo de Python, aprender lo que es Django es la mejor manera de crear aplicaciones web y API RESTful. Disfruta de esta lección sobre Django Rest Framework"
-cover: "https://ucarecdn.com/3e50e217-514d-41dc-a7a4-4725e08f8afb/"
+cover: "../../assets/images/3e50e217-514d-41dc-a7a4-4725e08f8afb.jpeg"
 textColor: "white"
 date: "2018-12-11"
 tags: ["django","python","REST","API"]
@@ -27,7 +27,7 @@ Django es LA HERRAMIENTA para el desarrollo web. No es solo una biblioteca - son
 Al igual que cualquier otro marco, Django propone una arquitectura específica para construir tu software y tenemos que aprender, adoptar y dominar todo si queremos convertirnos en Desarrolladores Senior de pila completa (usando Django):
 
 <before-after
-    before="https://ucarecdn.com/61212ca7-cde0-43c1-8267-a1101a95da2c/" after="https://ucarecdn.com/80444105-0d6a-4a93-beb1-090b84b03376/" />
+    before="https://ucarecdn.com/61212ca7-cde0-43c1-8267-a1101a95da2c/" after="../../assets/images/80444105-0d6a-4a93-beb1-090b84b03376.png" />
 
 El primer concepto a aprender es  la diferencia entre sitio web y App.  Un buen Ejemplo puede ser BreatheCo.de
 
@@ -58,7 +58,7 @@ Recuerda que todo es solo texto! Puedes y debes jugar con los archivos generados
 
 Después de ejecutar el comando, se creará una carpeta de proyecto con al menos 4 archivos dentro:
 
-![Django Rest Framework](https://ucarecdn.com/f9bc68cd-e407-4d55-afd6-ba95b0c8bc02/-/resize/300x/)
+![Django Rest Framework](../../assets/images/f9bc68cd-e407-4d55-afd6-ba95b0c8bc02.png)
 
 + `__init__:` un archivo vacío que cualquier carpeta debe tener dentro para ser considerado un paquete de python.
 + `settings:` contiene todas las variables de configuración para su proyecto; más adelante abordaremos este archivo.
@@ -87,7 +87,7 @@ $ python manage.py startapp [app_name]
 Ahora que tenemos un gran proyecto (sitio web) es hora de comenzar a agregarle aplicaciones. Para crear tu primera aplicación Django, escribe el siguiente comando:
 
 
-![Django Rest Framework](https://ucarecdn.com/c7eb4466-eaa5-4d33-8181-5b4c5df4e7f8/-/resize/600x/)
+![Django Rest Framework](../../assets/images/c7eb4466-eaa5-4d33-8181-5b4c5df4e7f8.png)
 
 + `python>__init__:`  Le dice a Python que esta carpeta es un paquete.
 + `python>admin.py:`  Aquí podemos agregar modelos en la interfaz de administración para poder CRUD esos modelos.
@@ -100,7 +100,7 @@ Vamos a discutir todos estos con más detalle a continuación.
 
 Para resumir y continuar con nuestro ejemplo del "Proyecto BreatheCode", esta es la forma en que la estructura de archivos de su proyecto puede verse después de tener varias aplicaciones dentro de un gran proyecto.
 
-![Django Rest Framework](https://ucarecdn.com/e59de5e1-2751-4286-adfb-69c047e93058/-/resize/600x/)
+![Django Rest Framework](../../assets/images/e59de5e1-2751-4286-adfb-69c047e93058.png)
 
 ### Manage.py (Django CLI)
 
@@ -132,7 +132,7 @@ Vamos a construir una API basada en REST, pero no tengas miedo del nombre - el e
 + Finalmente, APIView debe devolver un objeto de respuesta que contenga el objeto JSON preparado por el serializer.
 
 <before-after width="900px"
-    before="https://ucarecdn.com/c7e96be7-a7b6-4b6d-83a2-535b22fdc3b0/" after="https://ucarecdn.com/88f6b44f-01dc-4a13-ba1f-fbab5280d510/" />
+    before="https://ucarecdn.com/c7e96be7-a7b6-4b6d-83a2-535b22fdc3b0/" after="../../assets/images/88f6b44f-01dc-4a13-ba1f-fbab5280d510.png" />
 
 ### urls.py: El Distribuidor de URL
 

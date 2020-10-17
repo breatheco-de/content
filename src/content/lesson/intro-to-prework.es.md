@@ -1,7 +1,7 @@
 ---
 title: "Introducción al Pre Work"
 subtitle: "Nosotros sabemos lo que hacemos, tu deberias saberlo también.  Conoce el proceso que hemos pulido para que puedas aprender 2 años de contenido en unas pocas semanas."
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2019-01-02"
 tags: ["prework"]

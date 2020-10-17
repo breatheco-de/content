@@ -1,7 +1,7 @@
 ---
 title: "Learning to code with Python"
 subtitle: "Python is the fastest-growing programing language in the world, it does almost everything you can think of and the best news is that it's one of the easiest to learn"
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 status: "pending_translation"
 date: "2018-02-11"

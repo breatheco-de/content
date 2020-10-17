@@ -27,9 +27,9 @@ We have actually been doing that already when we import our styles, bootstrap or
 For example, here we are importing a function from another file:
 
 
-![javascript import](https://ucarecdn.com/f7b8c75d-e7d4-481e-8346-b95d54a235f6/-/resize/1000x/)
+![javascript import](https://ucarecdn.com/f7b8c75d-e7d4-481e-8346-b95d54a235f6/)
 
-![javascript import](https://ucarecdn.com/2cdb146a-d6f7-4591-96fc-e50aef07aca5/-/resize/1000x/)
+![javascript import](https://ucarecdn.com/2cdb146a-d6f7-4591-96fc-e50aef07aca5/)
 
 
 ## Exporting by default

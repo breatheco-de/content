@@ -29,7 +29,7 @@ For this reason, they worked on something as similar as possible to a Microsoft 
 >
 >The easiest way to think of the Internet is as a network of shared documents that were once rigid, formal scientific publications and, nowadays, are interactive, exciting and spectacular.
 
-![what is the internet](https://ucarecdn.com/ffe440de-8746-4ab5-81cc-37ef107155e9/-/resize/500x/)
+![what is the internet](https://ucarecdn.com/ffe440de-8746-4ab5-81cc-37ef107155e9/)
 
 
 ## Everything is Text (HTTP)

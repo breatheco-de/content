@@ -16,7 +16,7 @@ Esta lección es muy fácil de entender - pero es esencial debido a que en este 
 
 Como siempre, comparemos nuestro sitio web con un documento de MS Word ... En algún momento, los científicos necesitaban crear formularios como los que llenamos cuando pagamos nuestros impuestos: con espacios en blanco disponibles para que el usuario los llene con su Nombre, Apellido, Fecha de nacimiento, etc.
 
-![html textarea html input](https://ucarecdn.com/12ff6e40-706f-47ff-9ada-53dada968eaf/-/resize/350x/)
+![html textarea html input](../../assets/images/12ff6e40-706f-47ff-9ada-53dada968eaf.png)
 
 Los elementos que el usuario completa en un formulario se denominan `<inputs>` y siempre tienen que estar envueltos dentro de una etiqueta `<form>`. También puede utilizar todas las demás etiquetas HTML que aprendimos en las lecciones anteriores sin ningún problema.
 

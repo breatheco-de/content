@@ -29,7 +29,7 @@ Por esta razón buscaron hacer algo que se asemejara lo más posible a un docume
 > rígidas y formales que hoy vemos como documentos interactivos, emocionantes y espectaculares.
 
 
-![What is the internet](https://ucarecdn.com/ffe440de-8746-4ab5-81cc-37ef107155e9/-/resize/500x/)
+![What is the internet](https://ucarecdn.com/ffe440de-8746-4ab5-81cc-37ef107155e9/)
 
 
 ## Todo es texto (HTTP)

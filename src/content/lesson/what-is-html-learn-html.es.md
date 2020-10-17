@@ -2,7 +2,7 @@
 title: "Que es HTML? Es tiempo de aprender HTML y su estructura"
 subtitle: "Pero realmente que es HTML ? HTML es para las paginas web lo que son las columnas para los edificios. 
  Aqui aprenderás lo básico de HTML - la base de la web."
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2018-10-31"
 tags: ["html"]
@@ -23,7 +23,7 @@ HTML te obliga a hacer una división parecida a las partes básicas de un docume
 
 HTML era lo único que sabían interpretar los navegadores originalmente, las páginas web eran sencillas y no conocían CSS o JavaScript.  Un sitio web era un simple documento de texto plano con los elementos típicos que cualquier documento de Word tiene: títulos, listas de viñetas, párrafos, etc.
 
-![what is html](https://ucarecdn.com/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc/-/resize/600x/)
+![what is html](https://ucarecdn.com/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc/)
 
 
 # Sintáxis del HTML: Todo es `<Tags>`.
@@ -110,7 +110,7 @@ Vamos a simular el pensamiento de un navegador: Imaginemos que un usuario en su 
 
  Como ya sabemos, dicha página va a contener MÍNIMO los siguientes tags:
 
-  ![learn html](https://ucarecdn.com/e8d3d49d-8c7e-4bc2-88e0-15b95a8ccc54/-/resize/400x/)
+  ![learn html](https://ucarecdn.com/e8d3d49d-8c7e-4bc2-88e0-15b95a8ccc54/)
 
 |**Nombre**   |**Tags**   |**Descripción**   |
 |:----------|:----------|:-----------------|
@@ -182,5 +182,5 @@ Estamos Orgullosos!!! 🙂
 Acabas de aprender lo esencial para realizar una página web como se hacía en 1999. Ahora tenemos unas pocas semanas mas para ponerte al día con todo lo demás estos últimos 20 años.  ¡Ya puedes decir que sabes hacer un website!
 
 HTML tiene muchísimos mas tags y también tiene una nueva versión llamada HTML5. Otra vez, no te preocupes, todo eso lo **aprenderás** en las próximas lecciones para que hagas páginas web hermosas (gracias a CSS) y con interacción (Gracias a los formularios y JavaScript). Para eso es que estamos acá!!
-![learn html](https://ucarecdn.com/ed1c57e1-5c67-4bf1-96ed-1fb2353fb2ca/-/resize/200x/)
+![learn html](https://ucarecdn.com/ed1c57e1-5c67-4bf1-96ed-1fb2353fb2ca/)
 

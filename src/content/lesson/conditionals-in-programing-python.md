@@ -2,7 +2,7 @@
 title: "Logical conditions in Python explained"
 subtitle: "Using conditionals allow you to control the flow of your code and make programatic decisions"
 date: "2020-03-11"
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 status: "draft"
 author: ["alesanchezr"]
@@ -32,7 +32,7 @@ else:
     #do something else or do nothing
 ```
   
-![Condicionales](https://ucarecdn.com/e73b673e-d744-45a7-a1ed-61a1dae49560/)
+![Condicionales](../../assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png)
 
 [[info]]
 |:link: Using `switch` is not available in python.
@@ -62,7 +62,7 @@ if age == 21:
 
 The previous example was a simple condition, but in real life picking what to wear involves a combination of several conditions to make the final decision, for example: Let's look at this algorithm that tells you if you have the flu
 
-![Hit by car or have a flu](https://ucarecdn.com/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800/)
+![Hit by car or have a flu](../../assets/images/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800.jpeg)
 
 If you want to represent this algorithm in Python it will look something like this:
 
@@ -176,7 +176,7 @@ It's all about what question to ask: The previous example was a simple condition
 
 This will be the algorithm to pick what to wear on Valentine's Day:
 
-![What to ware in valentine's day](https://ucarecdn.com/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3/)
+![What to ware in valentine's day](../../assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg)
 
 ```python
 if going_out:

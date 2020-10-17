@@ -1,7 +1,7 @@
 ---
 title: "¿Qué hay Detrás de un Desarrollador de Back-End?"
 subtitle: "Aprende todo sobre el desarrollo web de Back-End y lo que se necesita para convertirse en Desarrollador de Back-End"
-cover: "https://ucarecdn.com/98208ebb-dcb3-4e40-9ae4-4ec886213f97/"
+cover: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
 textColor: "white"
 date: "2018-05-11"
 tags: ["back-end","cliente-servidor"]
@@ -22,7 +22,7 @@ Todo el trabajo era realizado por el servidor: como no había JavaScript, el DOM
 
 **Piensa en el servidor como un "generador de documentos".** Puede ser una imagen, un video, un documento de texto, JSON, HTML, CSS, etc.  La responsabilidad del servidor es responder con el contenido que el cliente le solicite cada vez.
 
-![backend developer](https://ucarecdn.com/2c0000ef-2907-43cb-80ed-2ba4f194b83e/)
+![backend developer](../../assets/images/2c0000ef-2907-43cb-80ed-2ba4f194b83e.gif)
 
 Junto con el contenido del documento generado, el servidor también puede especificar con qué tipo de contenido está respondiendo, lo que permite que el navegador lea e interprete la respuesta de manera precisa. Los formatos de respuesta disponibles pueden ser cientos, pero estos son los más comunes:
 

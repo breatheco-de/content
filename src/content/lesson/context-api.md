@@ -1,7 +1,7 @@
 ---
 subtitle: "The Context API is one of the most recent tools that the React.js team created to handle application data flow. It is the perfect companion for building small to mid-size applications without the need of a state management library like Redux "
 title: "Global state with the Context API"
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 status: "published"
 date: "2018-12-03"
@@ -33,13 +33,13 @@ Every time the data stored within the **Provider** changes, all the **Consumers*
 
 > Everyone has access to the global context now.
 
-![Context API Explanation](https://ucarecdn.com/72fe5361-5b2a-460f-8c2a-2d376616abf6/)
+![Context API Explanation](../../assets/images/72fe5361-5b2a-460f-8c2a-2d376616abf6.png)
 
 ## Unidirectional data flow
 
 The **store** is now the most delicate piece of data in our application, and it is succeptible to bad usage, i.e. one bad change and the whole application will crash. To avoid this possible scenario we have to make sure the store's data is read-only for the consumers, and can be *updated* anew by a limited set of functions. Just like the regular state, we don't *change* the state, we set it anew. This architecture paradigm is called Flux.
 
-![Flux](https://facebook.github.io/flux/img/overview/flux-simple-f8-diagram-1300w.png)
+![Flux](../../assets/images/flux-simple-f8-diagram-1300w.png)
 
 ![In-Depth Overview of Flux Architecture]
 (https://facebook.github.io/flux/docs/in-depth-overview)

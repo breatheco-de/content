@@ -1,7 +1,7 @@
 ---
 title: "Usando javascript para ordenar una lista"
 subtitle: "Ya nadie ordena las listas manualmente, pero sigue siendo una manera fantástica de dominar tus habilidades algorítmicas"
-cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
+cover: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 status: "draft"
 textColor: "white"
 date: "2018-05-11"

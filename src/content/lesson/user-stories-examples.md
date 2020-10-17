@@ -34,7 +34,7 @@ A user story is like having a conversation with your future user.  They must be 
 
 13#### Here are some Examples:
 
-![user stories examples](https://ucarecdn.com/032a818d-e4d7-4276-8195-ce5d8a3edcf6/-/resize/2000x/)
+![user stories examples](https://ucarecdn.com/032a818d-e4d7-4276-8195-ce5d8a3edcf6/)
 
 ### How should you Write the User Stories?
 ***
@@ -70,7 +70,7 @@ There are millions of tools; we have Googled some: [click here to access. ](http
 
 ### Use Index Cards and a Sharpie
 
-![user stories examples](https://ucarecdn.com/94f4a28c-a93c-4e05-9f86-ce64abc2ff7b/-/resize/400x/)
+![user stories examples](https://ucarecdn.com/94f4a28c-a93c-4e05-9f86-ce64abc2ff7b/)
 
 The theory is simple – if you use any larger than a 3" x 5" index card, you will write too much.  Likewise, if you use anything smaller than a marker (such as a ball point pen) – you will write too much.
 
@@ -78,7 +78,7 @@ User stories are suppose to be short and sweet.  They are suppose to aid in furt
 
 At the end you will have a huge "to-do list," with the stories moving from "To-do" to "Doing" and, finally, to "Done."  Each story will be assigned to one developer at the beginning of each planning meeting.
 
-![user stories examples](https://ucarecdn.com/faaa70b0-5343-43f0-8565-994c9b40ab8b/-/resize/400x/)
+![user stories examples](https://ucarecdn.com/faaa70b0-5343-43f0-8565-994c9b40ab8b/)
 
 ### When is a Story really "Done"?
 

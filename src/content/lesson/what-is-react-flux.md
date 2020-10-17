@@ -26,7 +26,7 @@ Here is a list of all the advantages of using it:
 + It **controls the way your application data will flow:** it does not matter if the data was inputted by the user or coming from a DB; everything will be available in a clear and accessible way.
 + It differentiates your components in **Views vs Re-usable components:** your components will remain being abstracted from your application logic – making them 100% reusable for future applications.
 
-![React Flux](https://ucarecdn.com/aa1a5994-8de9-4d24-99ce-3a0d686c30bd/-/resize/700x/)
+![React Flux](https://ucarecdn.com/aa1a5994-8de9-4d24-99ce-3a0d686c30bd/)
 
 ### Flux Divides the Application in 3 Layers:
 
@@ -50,7 +50,7 @@ To code the delete functionality, we have to update 4 mains files: (1) The Compo
 > *In the end, working with Flux has to become something as automatic as riding a bike.*
 
 
-![react flux](https://ucarecdn.com/77c93bfa-92cb-44e3-a7c5-c959e27c5ccc/-/resize/1100x/)
+![react flux](https://ucarecdn.com/77c93bfa-92cb-44e3-a7c5-c959e27c5ccc/)
 
 ## Lets Implement the Delete Task Functionality
 ***

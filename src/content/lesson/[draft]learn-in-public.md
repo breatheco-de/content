@@ -1,7 +1,7 @@
 ---
 title: "Learn in Public"
 subtitle: "The most effective way to bootstrap your career"
-cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
+cover: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
 status: "unassigned"
 date: "2018-05-11"

@@ -142,7 +142,7 @@ trArray[3].style.background = "red";
 
 Como ya sabe, cada elemento del documento HTML puede tener algún tipo de contenido HTML. No importa si es un `<P>`, `<DIV>`, `<A>` o cualquier otro elemento HTML; Puede tener su propio innerHTML combinado con más contenido HTML.
 
-![what is dom](https://ucarecdn.com/2387325b-338c-4c18-bb0f-2f95ed28901f/-/resize/900x/)
+![what is dom](https://ucarecdn.com/2387325b-338c-4c18-bb0f-2f95ed28901f/)
 
 La propiedad .innerHTML le brinda la capacidad de recuperar o configurar el contenido de cualquier elemento que tenga en su JavaScript. Por ejemplo:
 

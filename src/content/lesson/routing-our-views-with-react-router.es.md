@@ -30,7 +30,7 @@ Para el resto de nosotros que creamos aplicaciones web reales, necesitamos conec
 
 Por ejemplo, necesitamos las siguientes URL de aplicación para que coincidan con los siguientes componentes:
 
-![react router](https://ucarecdn.com/6fd2b44b-598b-4ddb-85ba-9c32b086127f/-/resize/800x/)
+![react router](https://ucarecdn.com/6fd2b44b-598b-4ddb-85ba-9c32b086127f/)
 
 
 ## Definiendo tus Rutas de Aplicación
@@ -43,7 +43,7 @@ Por ejemplo, necesitamos las siguientes URL de aplicación para que coincidan co
 + Private: Lo que sus usuarios privados ven justo después de iniciar sesión.
 El resto de las páginas dependen de su aplicación y de cómo desea que los usuarios naveguen por su sitio.
 
-![react router](https://ucarecdn.com/205cd2de-dfae-4712-a5e4-1c922994e60d/-/resize/700x/)
+![react router](https://ucarecdn.com/205cd2de-dfae-4712-a5e4-1c922994e60d/)
 
 ## Mapeando tus Vistas a URLs
 ***
@@ -51,7 +51,7 @@ El resto de las páginas dependen de su aplicación y de cómo desea que los usu
 Este es el mapa del sitio para cualquier sitio web de comercio electrónico típico:
 
 
-![react router](https://ucarecdn.com/9021be43-57ae-4667-8c1a-435b8521ce59/-/resize/600x/)
+![react router](https://ucarecdn.com/9021be43-57ae-4667-8c1a-435b8521ce59/)
 
 ## Programación de tus Rutas de Aplicación
 ***

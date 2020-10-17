@@ -51,9 +51,28 @@ A small command line tool has been developm to help manage the lessons
 ```
 node ./src/utils/cli.js update_lesson --slug all --statusTo draft --statusFrom null
 node ./src/utils/cli.js update_lesson --slug learn-html --statusTo draft --statusFrom null
+node ./src/utils/cli.js download_images --slug python-syntax --type=external_images
+node ./src/utils/cli.js localize_images --slug python-syntax
 ```
 
 #### Method: update_lesson
+
+| PARAM         | DESCRIPTION |
+| ---------     | ----------- |
+| --slug        | Every lesson has a slug that identifies it, you can pass `all` if you want to update all at once |
+| --statusTo    | change the status of one or all the lessons to a particular one |
+| --statusFrom  | only apply changes to lessons with specified status |
+
+#### Method: download_images
+
+| PARAM         | DESCRIPTION |
+| ---------     | ----------- |
+| --slug        | Every lesson has a slug that identifies it, you can pass `all` if you want to update all at once |
+| --type  | external_images or uploadcare |
+
+#### Method: localize_images
+
+Rename the remote image urls with local images (if available), this method is ideal to run after `download_images`
 
 | PARAM         | DESCRIPTION |
 | ---------     | ----------- |

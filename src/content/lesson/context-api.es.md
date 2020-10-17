@@ -1,7 +1,7 @@
 ---
 subtitle: "La API de contexto es la herramienta más reciente que el equipo de React.js ha puesto a disposición para manejar el flujo de datos de su aplicación. Es el compañero perfecto para construir aplicaciones de tamaño pequeño a mediano sin la necesidad de Flux o Redux"
 title: "Implementando MVC con la API de contexto"
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 status: "draft"
 date: "2018-12-03"
@@ -33,7 +33,7 @@ El concepto detrás es muy simple: **es un gran productor** y un **grupo de cons
 
 > Todo el mundo tiene acceso al contexto global ahora.
 
-![Context API Explanation](https://ucarecdn.com/72fe5361-5b2a-460f-8c2a-2d376616abf6/)
+![Context API Explanation](../../assets/images/72fe5361-5b2a-460f-8c2a-2d376616abf6.png)
 
 ### La implementación más sencilla posible.
 

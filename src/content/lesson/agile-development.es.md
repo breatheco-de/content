@@ -2,7 +2,7 @@
 slug: "desarrollo-agil"
 title: "Introducción al desarrollo profesional y ágil."
 subtitle: "Todo lo que aprendió se debe juntar. ¡Hagamos nuestra primera aplicación profesional completa usando el método de desarrollo ágil!"
-cover: "https://ucarecdn.com/98208ebb-dcb3-4e40-9ae4-4ec886213f97/"
+cover: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
 textColor: "white"
 date: "2018-12-11"
 tags: ["desarrollo agil"]
@@ -22,7 +22,7 @@ Los programadores junior entienden los trucos básicos de programar (for, while,
 
 En lugar de desarrollar una gran aplicación, desarrollará y entregará una serie de pequeñas aplicaciones que al final se convertirán en una gran aplicación.  Eso es lo que se llama desarrollo ágil.
 
-![agile development](https://ucarecdn.com/7f627fe6-aa37-4450-bbff-dc4ea0ce8309/-/resize/900x/)
+![agile development](../../assets/images/7f627fe6-aa37-4450-bbff-dc4ea0ce8309.jpeg)
 
 Cada incremento se llama "sprint" y tiene los siguientes pasos:
 
@@ -51,7 +51,7 @@ Borra de tu mente el flujo de trabajo de desarrollo de cualquier sitio web que h
 ## Nuestro flujo de trabajo desarrollado profesionalmente
 ***
 
-![agile development](https://ucarecdn.com/2b3ed62a-070f-4e7f-9572-34628ffb40d9/-/resize/600x/)
+![agile development](../../assets/images/2b3ed62a-070f-4e7f-9572-34628ffb40d9.png)
 
 |1. Comenzaremos a hacer las especificaciones.     |2. Construimos nuestra aplicación web      |3. Finalmente construimos la base de datos y la API.  |
 |:------------------|:--------------|:-----------------|

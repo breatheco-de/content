@@ -1,7 +1,7 @@
 ---
 title: "Programación Orientada a Objetos"
 subtitle: "¡Las clases son las últimas piezas necesarias para dominar los trucos de programación! Bienvenido al increíble mundo de la programación orientada a objetos"
-cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
+cover: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
 date: "2018-05-11"
 tags: ["programacion orientada a objectos"]
@@ -48,7 +48,7 @@ Las clases y los objetos son los dos aspectos principales de la programación or
 
 > Digamos que tienes un auto nuevo con matrícula XHR-ABM.  Ese objeto específico será la instancia de un objeto con la clase automóvil.
 
-![what is object oriented programming concepts](https://ucarecdn.com/ed2a2bfb-95eb-473f-af7c-aa9f1d4c055e/-/resize/700x/)
+![what is object oriented programming concepts](https://ucarecdn.com/ed2a2bfb-95eb-473f-af7c-aa9f1d4c055e/)
 
 ## Clases Definitorias (abstracción)
 ***
@@ -61,7 +61,7 @@ Cada aplicación y sitio web que vayas a construir debe tener su propio conjunto
 
 Por ejemplo: Una clase de persona tiene: color de piel, raza, nombre, número de seguridad social, etc.  Todas las propiedades tienen un tipo de datos, como: Integer, String, Float, Null, Arrays.
 
-![what is object oriented programming concepts](https://ucarecdn.com/10ce9a67-1060-4550-a824-5087688d0630/-/resize/400x/)
+![what is object oriented programming concepts](https://ucarecdn.com/10ce9a67-1060-4550-a824-5087688d0630/)
 
 ***
 
@@ -71,7 +71,7 @@ Si queremos almacenar la fecha de nacimiento de la persona utilizando tipos de d
 
 Una mejor solución será usar clases de fecha predefinidas (pre-defined Date Classes) o funciones que vienen con la mayoría de los lenguajes de programación de back-end, por ejemplo [PHP Date](https://www.w3schools.com/php/php_date.asp) o [Python datetime.](https://www.pythonforbeginners.com/basics/python-datetime-time-examples)
 
-![what is object oriented programming concepts](https://ucarecdn.com/6f07bc8b-6d21-46e6-8710-34992df2508b/-/resize/400x/)
+![what is object oriented programming concepts](https://ucarecdn.com/6f07bc8b-6d21-46e6-8710-34992df2508b/)
 
 ***
 
@@ -79,7 +79,7 @@ Una mejor solución será usar clases de fecha predefinidas (pre-defined Date Cl
 
 Algunas propiedades son calculadas durante el tiempo de ejecución cada vez que las necesitamos.  Por ejemplo: edad.  El problema con la edad es que cambia con el tiempo.  Por eso no es una buena idea almacenar la edad actual del usuario.   En su lugar, es mejor declarar una propiedad calculada llamada "Edad" y declarar una función que calcula la edad actual del usuario en función de su fecha de nacimiento (birthDate).
 
-![what is object oriented programming concepts](https://ucarecdn.com/a2a08a9f-5a5c-415e-93d6-c8a45aecb23d/-/resize/400x/)
+![what is object oriented programming concepts](https://ucarecdn.com/a2a08a9f-5a5c-415e-93d6-c8a45aecb23d/)
 
 
 
@@ -117,7 +117,7 @@ Los clientes tienen nombres de usuario, nombres, apellidos.  Cars tienen color, 
 
 ### Nuestro modelo de clase se ve así:
 
-![what is object oriented programming concepts](https://ucarecdn.com/61908aa1-63a5-40b1-8a53-8c7b202d4ef3/-/resize/800x/)
+![what is object oriented programming concepts](https://ucarecdn.com/61908aa1-63a5-40b1-8a53-8c7b202d4ef3/)
 
 ### Escribiendo las funciones, relaciones y herencia.
 

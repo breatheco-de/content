@@ -1,7 +1,7 @@
 ---
 title: "Es Hora de Aprender lo que es un Arreglo o Matriz"
 subtitle: "¿Se puede trabajar con arreglos? Si no puedes, no te preocupes aquí, aprenderás qué es una matriz y cómo trabajar con ellas."
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2018-02-11"
 tags: ["arreglo","matriz"]
@@ -37,7 +37,7 @@ Cada arreglo tiene los mismos conceptos básicos:
 
 **Index:** es la posición del elemento.
 
-![what is an array define array](https://ucarecdn.com/7ed2c414-0d00-4e68-b659-b65c26d1983a/-/resize/1000x/)
+![what is an array define array](https://ucarecdn.com/7ed2c414-0d00-4e68-b659-b65c26d1983a/)
 
 
 [[info]]
@@ -187,7 +187,7 @@ Devolverá un nuevo arreglo con una versión más pequeña del arreglo original.
 
 Actualizará el arreglo actual dejando todo menos la versión más pequeña que desea eliminar. Deberás especificar los índices de inicio y finalización desde donde deseas eliminarlos.
 
-![what is an array define array](https://ucarecdn.com/7e098348-df50-442b-801e-ac9d098fbc09/-/resize/700x/)
+![what is an array define array](https://ucarecdn.com/7e098348-df50-442b-801e-ac9d098fbc09/)
 
 <iframe src="https://repl.it/F9V5/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 

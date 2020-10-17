@@ -1,7 +1,7 @@
 ---
 title: "Object Oriented Programming"
 subtitle: "Classes are the last pieces needed to master the programming tricks! Welcome to the amazing world of object-oriented programming."
-cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
+cover: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
 date: "2018-05-11"
 tags: ["object oriented programming"]
@@ -48,7 +48,7 @@ Classes and objects are the two main aspects of object oriented programming.  A 
 
 > Let’s say you have a new car with licence plate XHR-ABM.  That specific object will be the instance of an object with the car class.
 
-![what is object oriented programming concepts](https://ucarecdn.com/ed2a2bfb-95eb-473f-af7c-aa9f1d4c055e/-/resize/700x/)
+![what is object oriented programming concepts](https://ucarecdn.com/ed2a2bfb-95eb-473f-af7c-aa9f1d4c055e/)
 
 ## Defining Classes (abstraction)
 ***
@@ -61,7 +61,7 @@ Every application and website that you are going to build needs to have its own 
 
 For example: A Person class has: skin color, race, name, social-security number, etc.  All properties have a data-type, like: Integer, String, Float, Null, Arrays.
 
-![what is object oriented programming concepts](https://ucarecdn.com/10ce9a67-1060-4550-a824-5087688d0630/-/resize/400x/)
+![what is object oriented programming concepts](https://ucarecdn.com/10ce9a67-1060-4550-a824-5087688d0630/)
 
 ***
 
@@ -71,7 +71,7 @@ If we want to store the birth-date of the person using simple data-types we will
 
 A better solution will be to use pre-defined Date classes or functions that come with most of the back-end programming languages, for example [PHP Date](https://www.w3schools.com/php/php_date.asp) or [Python datetime.](https://www.pythonforbeginners.com/basics/python-datetime-time-examples)
 
-![what is object oriented programming concepts](https://ucarecdn.com/6f07bc8b-6d21-46e6-8710-34992df2508b/-/resize/400x/)
+![what is object oriented programming concepts](https://ucarecdn.com/6f07bc8b-6d21-46e6-8710-34992df2508b/)
 
 ***
 
@@ -79,7 +79,7 @@ A better solution will be to use pre-defined Date classes or functions that come
 
 Some properties are calculated during runtime every time we need them.  For example: age.  The problem with age is that it changes over time.  That is why it is not a good idea to store the current age of the user.   Instead, it is better to declare a calculated property called "Age," and declare a function that calculates the current age of the user based on its birthDate.
 
-![what is object oriented programming concepts](https://ucarecdn.com/a2a08a9f-5a5c-415e-93d6-c8a45aecb23d/-/resize/400x/)
+![what is object oriented programming concepts](https://ucarecdn.com/a2a08a9f-5a5c-415e-93d6-c8a45aecb23d/)
 
 
 
@@ -117,7 +117,7 @@ Clients have usernames, names, lastNames.  Cars have color, brand, price, etc.  
 
 ### Our Class Model is looking like this:
 
-![what is object oriented programming concepts](https://ucarecdn.com/61908aa1-63a5-40b1-8a53-8c7b202d4ef3/-/resize/800x/)
+![what is object oriented programming concepts](https://ucarecdn.com/61908aa1-63a5-40b1-8a53-8c7b202d4ef3/)
 
 ### Writing the Functions, Relationships and Inheritance
 

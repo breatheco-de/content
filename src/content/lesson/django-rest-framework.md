@@ -1,7 +1,7 @@
 ---
 title: "Understanding Django Rest Framework"
 subtitle: "In the world of Python, Learning what is Django is the best way to create web applications and RESTful APIs.Enjoy this Django Rest Framework Lesson"
-cover: "https://ucarecdn.com/3e50e217-514d-41dc-a7a4-4725e08f8afb/"
+cover: "../../assets/images/3e50e217-514d-41dc-a7a4-4725e08f8afb.jpeg"
 textColor: "white"
 date: "2018-12-11"
 tags: ["django","python","REST","API"]
@@ -26,7 +26,7 @@ Django is THE TOOL for web development.  It is not just a library – it is doze
 Just like any other framework, Django proposes a specific architecture to build your software and we have to learn, adopt and master all of it if we want to become Senior Full-Stack Developers (using Django):
 
 <before-after 
-    before="https://ucarecdn.com/61212ca7-cde0-43c1-8267-a1101a95da2c/" after="https://ucarecdn.com/80444105-0d6a-4a93-beb1-090b84b03376/" />
+    before="https://ucarecdn.com/61212ca7-cde0-43c1-8267-a1101a95da2c/" after="../../assets/images/80444105-0d6a-4a93-beb1-090b84b03376.png" />
 
 The first important concept to learn is Website vs App.  A great example can be BreatheCo.de
 
@@ -56,7 +56,7 @@ Remember everything is just text!  You can and should play with the generated fi
 
 After running the command, a project folder will be created with at least 4 files inside:
 
-![Django Rest Framework](https://ucarecdn.com/f9bc68cd-e407-4d55-afd6-ba95b0c8bc02/-/resize/300x/)
+![Django Rest Framework](../../assets/images/f9bc68cd-e407-4d55-afd6-ba95b0c8bc02.png)
 
 + `__init__:` an empty file that any folder needs to have inside to be considered a python package.
 + `settings:` contains all the configuration variables for your project – we will address this file further later.
@@ -83,7 +83,7 @@ $ python manage.py startapp [app1_name]
 
 You will see a new folder with your application name and a bunch of new files inside.  Let’s review them:
 
-![Django Rest Framework](https://ucarecdn.com/c7eb4466-eaa5-4d33-8181-5b4c5df4e7f8/-/resize/600x/)
+![Django Rest Framework](../../assets/images/c7eb4466-eaa5-4d33-8181-5b4c5df4e7f8.png)
 
 + `python>__init__:`  Tells Python that this folder is a package.
 + `python>admin.py:`  Here we can add models into the admin interface to be able to CRUD those models.
@@ -96,7 +96,7 @@ Lets discuss all of these in more detail below.
 
 To summarize, and continuing with our "BreatheCode Project" example, this is how your project file structure may look after you have several apps inside one big project.
 
-![Django Rest Framework](https://ucarecdn.com/e59de5e1-2751-4286-adfb-69c047e93058/-/resize/600x/)
+![Django Rest Framework](../../assets/images/e59de5e1-2751-4286-adfb-69c047e93058.png)
 
 ### Manage.py (Django CLI)
 
@@ -131,7 +131,7 @@ We are going to be building a REST Based API, but don’t be afraid of the name 
 + Finally, the APIView should return a Response object that contains the JSON Object prepared by the serializer.
 
 <before-after width="900px"
-    before="https://ucarecdn.com/c7e96be7-a7b6-4b6d-83a2-535b22fdc3b0/" after="https://ucarecdn.com/88f6b44f-01dc-4a13-ba1f-fbab5280d510/" />
+    before="https://ucarecdn.com/c7e96be7-a7b6-4b6d-83a2-535b22fdc3b0/" after="../../assets/images/88f6b44f-01dc-4a13-ba1f-fbab5280d510.png" />
 
 ### urls.py: The URL Dispatcher
 

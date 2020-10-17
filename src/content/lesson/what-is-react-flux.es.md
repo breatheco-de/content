@@ -26,7 +26,7 @@ Aquí hay una lista de todas las ventajas de usarlo:
 + **Controla la forma en que fluirán los datos de tu aplicación:** no importa si los datos fueron ingresados por el usuario o provienen de una base de datos; todo estará disponible de forma clara y accesible.
 + Diferencia sus componentes en **vistas vs componentes reutilizables:** sus componentes seguirán siendo abstraídos desde la lógica de tu aplicación – haciéndolos 100% reutilizables para futuras aplicaciones.
 
-![React Flux](https://ucarecdn.com/aa1a5994-8de9-4d24-99ce-3a0d686c30bd/-/resize/700x/)
+![React Flux](https://ucarecdn.com/aa1a5994-8de9-4d24-99ce-3a0d686c30bd/)
 
 ### Flux divide la aplicación en 3 capas:
 
@@ -50,7 +50,7 @@ Para codificar la funcionalidad para eliminar, tenemos que actualizar 4 archivos
 > *Al final, trabajar con Flux tiene que convertirse en algo tan automático como andar en bicicleta.*
 
 
-![react flux](https://ucarecdn.com/77c93bfa-92cb-44e3-a7c5-c959e27c5ccc/-/resize/1100x/)
+![react flux](https://ucarecdn.com/77c93bfa-92cb-44e3-a7c5-c959e27c5ccc/)
 
 ## Permite implementar la funcionalidad de eliminar tarea
 ***

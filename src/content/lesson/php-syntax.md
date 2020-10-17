@@ -1,7 +1,7 @@
 ---
 title: "Understanding PHP Syntax"
 subtitle: "Learn here about PHP Syntax, with this amazing lesson"
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2018-10-31"
 tags: ["PHP"]
@@ -43,7 +43,7 @@ There are only a few differences – here is the explanation:
 
 Console.log is amazing in JS, but in PHP, you will have to use echo for simple data-types, and print_r to print more complex data-types (like arrays and objects).
 
-#### ![php syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
+#### ![php syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
 
 ```javascript
 var simpleValue = ‘hello’;
@@ -79,7 +79,7 @@ PHP started as a functional-programming language and still has a lot of things t
 
 ### Looping Arrays
 
-#### ![php syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
+#### ![php syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
 
 ```javascript{numberLines: true}
 for(var i = 0; i<myArray.length; i++){
@@ -104,7 +104,7 @@ print_r($value);
 
 ### Adding and Removing Items
 
-#### ![php syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
+#### ![php syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
 
 ```javascript
 var myArray = [‘Academy’, ‘Coding’];
@@ -125,7 +125,7 @@ $myArray = array_values($myArray);
 
 ### Sorting Functions for Arrays
 
-#### ![php syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
+#### ![php syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
 
 ```javascript
 const myArray = [2,5,1,4,7];
@@ -213,7 +213,7 @@ Array
 
 This is almost identical to the switch statement in JavaScript:
 
-#### ![php syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
+#### ![php syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
 
 ```javascript{numberLines: true}
 favcolor = "red";
@@ -257,7 +257,7 @@ switch (favcolor) {
 
 When working with objects, we have to use the operator "->" instead of "." to access the object properties.
 
-#### ![php syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
+#### ![php syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
 
 ```javascript
 var auxCar = new Car();

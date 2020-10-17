@@ -1,7 +1,7 @@
 ---
 title: "Es Hora de Aprender lo que es un Arreglo o List en Python"
 subtitle: "¿Se puede trabajar con arreglos? Si no puedes, no te preocupes aquí, aprenderás qué es un arreglo/list y cómo trabajar con ellas."
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-02-16"
 syntax: "python"
@@ -33,7 +33,7 @@ Cada arreglo tiene los mismos conceptos básicos:
 
 **Index:** es la posición del elemento.
 
-![what is an array define array](https://ucarecdn.com/7ed2c414-0d00-4e68-b659-b65c26d1983a/-/resize/1000x/)
+![what is an array define array](https://ucarecdn.com/7ed2c414-0d00-4e68-b659-b65c26d1983a/)
 
 
 [[info]]

@@ -1,7 +1,7 @@
 ---
 title: "Mastering Databases: What is SQL Database"
 subtitle: "Are you ready to work with data ? Learn here about what is SQL Database and how to work with it."
-cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
+cover: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
 date: "2018-11-14"
 tags: ["sql"]
@@ -67,19 +67,19 @@ A database is a collection of inter-connected tables.  The connection between tw
 
 The perfect example is the IRS database:  this database probably has a table called TaxPayer that contains all the information about each person (with a social security number), and another table with the TaxDeclarations of the current year.  **One person can only have one declaration and one declaration can only be made by one person.**
 
-![What is SQL Database](https://ucarecdn.com/6f51ce02-3a75-4027-ada5-cf63c50d1701/-/resize/700x/)
+![What is SQL Database](https://ucarecdn.com/6f51ce02-3a75-4027-ada5-cf63c50d1701/)
 
 **One to Many:**
 
 The Major League Baseball database probably has a table called Player (with the list of all the active players), and another table called Team with the list of all the active teams.  Both tables are connected because **one team has many players, but a player can be on only one team.**
 
-![What is SQL Databases](https://ucarecdn.com/374d53ac-092f-4f34-a6f1-76bfaa5bd676/-/resize/700x/)
+![What is SQL Databases](https://ucarecdn.com/374d53ac-092f-4f34-a6f1-76bfaa5bd676/)
 
 **Many to Many:**
 
 A Public Library database probably has one table called Author (containing the information of all the authors with books published), and also another table with ALL of the books that have ever been published.  Both tables are related because **one author can have many books and one book can have many authors.**
 
-![What is SQL Database](https://ucarecdn.com/af7344fc-0ee0-499e-8926-8f70dc9b2b0d/-/resize/700x/)
+![What is SQL Database](https://ucarecdn.com/af7344fc-0ee0-499e-8926-8f70dc9b2b0d/)
 
 &nbsp;
 &nbsp;

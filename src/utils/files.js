@@ -1,7 +1,16 @@
 const path = require('path');
 const fs = require('fs');
+const mime = require('mime-types')
 const axios = require('axios');
-const fm = require('front-matter')
+const fm = require('front-matter');
+const { SSL_OP_SSLEAY_080_CLIENT_DH_BUG } = require('constants');
+
+const walkAsync = (path) => new Promise((resolve, reject) => {
+    walk(path, function(err, list){
+      if (err) return reject(err);
+      else resolve(list);
+    })
+});
 
 const walk = function(dir, done) {
     var results = [];
@@ -12,8 +21,12 @@ const walk = function(dir, done) {
       list.forEach(function(file) {
         file = path.resolve(dir, file);
         fs.stat(file, function(err, stat) {
+          if (err) return done(err);
+
           if (stat && stat.isDirectory()) {
             walk(file, function(err, res) {
+              if (err) return done(err);
+
               results = results.concat(res);
               if (!--pending) done(null, results);
             });
@@ -51,7 +64,9 @@ const indexLessons = (allLessons) => ({
 
 const regex = {
   relative_images: /!\[.*\]\((\.\/.*\.[a-zA-Z0-9]{2,3})/gm, 
-  external_images: /!\[.*\]\((https?:\/\/.*)\)/gm
+  external_images: /!\[.*\]\(https?:\/(\/{1}[^/)]+)+\/?\)/gm,
+  url: /.*(https?:\/\/[a-zA-Z_\-.\/0-9]+).*/gm,
+  uploadcare: /.*https:\/\/ucarecdn.com\/([a-zA-Z_\-.\/0-9]+).*/gm
 }
 
 const findInFile = (types, content) => {
@@ -62,11 +77,12 @@ const findInFile = (types, content) => {
   
   types.forEach(type => {
     if(!validTypes.includes(type)) throw Error("Invalid type: "+type)
-    else findings[type] = [];
+    else findings[type] = {};
   });
 
   types.forEach(type => {
 
+    let count = 0;
     while ((m = regex[type].exec(content)) !== null) {
       // This is necessary to avoid infinite loops with zero-width matches
       if (m.index === regex.lastIndex) {
@@ -74,10 +90,11 @@ const findInFile = (types, content) => {
       }
       
       // The result can be accessed through the `m`-variable.
-      m.forEach((match, groupIndex) => {
-          console.log(`Found match, group ${groupIndex}: ${match}`);
-        });
-      findings[type].push({ expression: m[0], value: m[1] })
+      // m.forEach((match, groupIndex) => values.push(match));
+      const txt = m[0];
+      count++;
+
+      findings[type][m[0]] = m[1];
     }
   })
 
@@ -85,21 +102,41 @@ const findInFile = (types, content) => {
 }
 
 const download = async (url, image_path) => {
-  console.log("Downloading", url)
+
   const response =  await axios({
     url,
     responseType: 'stream',
   })
-    
-  console.log("Ready to download", url)
-  return new Promise((resolve, reject) => {
-    console.log("Response")
-    response.data
-      .pipe(fs.createWriteStream(image_path))
-      .on('finish', () => resolve())
-      .on('error', e => reject(e));
-  })
+  
+  const extension = mime.extension(response.headers['content-type']) 
+  if(image_path.indexOf("."+extension) === -1) image_path = image_path + "." + extension;
+  
+  if(fs.existsSync(image_path)){
+    console.log(`Ignoring: Image ${image_path} already exists`)
+    return false;
+  }
+  
+  if(response.status != 200){
+    console.log(`Ignoring: ${url} because its not a 200 request`)
+    return false;
+  }
+  else{
+    return new Promise((resolve, reject) => {
+      console.log("Downloading ", image_path, response.headers['content-type'])
+      response.data
+        .pipe(fs.createWriteStream(image_path))
+        .on('finish', () => resolve())
+        .on('error', e => reject(e));
+    })
+  } 
 }
+
+const updateLesson = (lesson, newContent=null) => {
+  if(!newContent && newContent == "") return false;
+  const  { content, path, front_matter } = lesson;
+  return fs.writeFileSync(path, newContent);
+}
+
 module.exports = {
-  walk, indexLessons, findInFile, download
+  walk, indexLessons, findInFile, download, updateLesson, walkAsync
 }
