@@ -17,8 +17,8 @@ export default class Index extends React.Component{
       }
       render(){
         const {data} = this.props;
-        console.log(this.state.lessons)
-        return (<div className="container mt-5">
+
+return (<div className="container mt-5">
             <img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,128" alt="BreatheCode Logo" />
             <h1>Lesson Index:</h1>
             <div className="row">

@@ -13,7 +13,7 @@ const getContent = (nodes) => {
     return !Array.isArray(nodes) ? '' : nodes.map(n => n.type !== "text" ? getContent(n.children) : n.value).join('')
 }
 export const Cover = ({title, subtitle, time, background, textColor, status, authors, headings, history}) => {
-    console.log("background", background)
+
     const source = !Array.isArray(headings) ? null : headings.map(h => {
         return { 
             to: "#"+h.properties.id,

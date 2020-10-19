@@ -78,8 +78,8 @@ const indexContent = (allContent) => ({
 const regex = {
   relative_images: /!\[.*\]\((\.\/.*\.[a-zA-Z0-9]{2,3})/gm, 
   external_images: /!\[.*\]\(https?:\/(\/{1}[^/)]+)+\/?\)/gm,
-  url: /.*(https?:\/\/[a-zA-Z_\-.\/0-9]+).*/gm,
-  uploadcare: /.*https:\/\/ucarecdn.com\/([a-zA-Z_\-.\/0-9]+).*/gm
+  url: /(https?:\/\/[a-zA-Z_\-.\/0-9]+)/gm,
+  uploadcare: /https:\/\/ucarecdn.com\/(?:.*\/)*([a-zA-Z_\-.\/0-9]+)/gm
 }
 
 const getFM = (content) => {
@@ -125,7 +125,7 @@ const download = async (url, image_path) => {
   })
   
   const extension = mime.extension(response.headers['content-type']) 
-  if(image_path.indexOf("."+extension) === -1) image_path = image_path + "." + extension;
+  if(!image_path.includes("."+extension)) image_path = image_path + "." + extension;
   
   if(fs.existsSync(image_path)){
     console.log(`Ignoring: Image ${image_path} already exists`)
@@ -205,7 +205,7 @@ ${front_matter.body}`;
   if(test === false){
       console.log("Updating "+path+ " ...")
       fs.writeFileSync(path, newContent);
-      console.log("Lesson updated "+lesson.slug, (front_matter.status), front_matter)
+      console.log("Lesson updated "+lesson.slug)
   }
   else console.log("TEST: Lesson updated "+path+ " with: ", newContent)
 }

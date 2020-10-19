@@ -83,13 +83,12 @@ const localizeImage = async (lesson, type='external_images', extensions) => {
                 else console.log("Extension not found for "+fileName)
             } 
             let imagePath = dirPath + "/" + fileName;
-            
             if(fs.existsSync(imagePath)){
                 console.log(`Replacing ${url} with ${"../../assets/images/"+fileName}`)
                 content = content.replace(RegExp(url, 'g'), "../../assets/images/"+fileName)
                 replaced = true;
             }else{
-                console.log("Ignored "+url+" not found "+imagePath)
+                console.log("Ignored "+url+" not found "+fileName)
             }
         }
     }
