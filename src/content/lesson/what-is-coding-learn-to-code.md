@@ -3,7 +3,7 @@ title: "What is coding? Learn to Code"
 subtitle: "If you dont know what is coding don't worry, here you don't have to write HTML and CSS (not that much). Learn to code here and make computers write your code."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2017-02-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["learn to code","what is coding"]
 status: "draft"
 

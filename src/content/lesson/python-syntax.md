@@ -3,7 +3,7 @@ title: "Understanding Python Syntax"
 subtitle: "Unleash your power by learning with this lesson, using one of the Kings of Back-End Development. Now you will be capable of bringing AI, Big Data, Machine Learning, APIs and integrate third-party applications into your own.Enjoy this Python Syntax lesson"
 cover_local: "../../assets/images/576d4b0e-8b35-493d-879c-4d8f914c585f.png"
 textColor: "white"
-date: "2018-05-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["python"]
 status: "draft"
 

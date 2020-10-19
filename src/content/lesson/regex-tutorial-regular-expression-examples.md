@@ -4,7 +4,7 @@ subtitle: "Regular Expressions are the best way to identify patterns within stri
 cover_local: "../../assets/images/bf7bc7e6-c89c-4f97-9377-e30e369ba796.gif"
 textColor: "white"
 authors: ["alesanchezr"]
-date: "2018-05-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["regex","regular expression"]
 status: "draft"
 

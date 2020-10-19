@@ -3,7 +3,7 @@ title: "Knowing What is Behind a Back-End Developer"
 subtitle: "Learn here everything about Back-End Web development and what it takes to become Back-End developer"
 cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
 textColor: "white"
-date: "2018-05-11"
+date: "2020-10-19T12:36:30-04:00"
 tags: ["client-server","back-end"]
 status: "published"
 

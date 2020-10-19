@@ -3,7 +3,7 @@ title: "Programación Orientada a Objetos"
 subtitle: "¡Las clases son las últimas piezas necesarias para dominar los trucos de programación! Bienvenido al increíble mundo de la programación orientada a objetos"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
-date: "2018-05-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["programacion orientada a objectos"]
 status: "draft"
 

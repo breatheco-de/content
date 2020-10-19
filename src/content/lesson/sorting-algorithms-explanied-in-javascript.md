@@ -4,10 +4,11 @@ subtitle: "Nobody manually sorts lists anymore, but it is still a fantastic way 
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 status: "draft"
 textColor: "white"
-date: "2018-05-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["sorting","algorithms","javascript"]
 
 ---
+
 Sorting is an expensive task for the computer CPU, it depends on the amount of data and the way the data is organized initially. This mix of possibilities made developers create several algorithmic solutions that can be apllied to every language.
 
 ## Q: I googled and I found a `.sort()`, so why should I do it manually?

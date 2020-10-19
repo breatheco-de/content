@@ -1,7 +1,7 @@
 ---
 title: "Condicionales en la programación en Python"
 subtitle: "Uso de condiciones para controlar el flujo de su código en python"
-date: "2019-11-11"
+date: "2020-10-19T12:36:31-04:00"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 author: ["alesanchezr"]

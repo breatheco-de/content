@@ -3,7 +3,7 @@ title: "Qué es webpack?"
 subtitle: "Para los desarrolladores senior, es imposible pensar en desarrollar una aplicación JS sin Webpack. Gracias a Webpack, desarrollar front-end se siente bien y profesional por primera vez. Así que es hora de aprender lo que es webpack"
 cover_local: "../../assets/images/cdbe1bf9-2b6b-4c21-b127-eacc681d9c8d.png"
 textColor: "white"
-date: "2018-08-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["webpack"]
 status: "draft"
 

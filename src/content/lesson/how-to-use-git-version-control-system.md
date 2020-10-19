@@ -1,11 +1,10 @@
 ---
 title: "How to use GIT: Version Control System"
-subtitle: "Learn how to use GIT with an interactive tutorial, video and great article.
-Without GIT you won't be able to work at any company, and you won't be able to use anyone's code."
+subtitle: "Learn how to use GIT with an interactive tutorial, video and great article. Without GIT you won't be able to work at any company, and you won't be able to use anyone's code."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 thumb: "https://breatheco.de/wp-content/uploads/2017/03/commit-object.png"
-date: "2018-02-08"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["GIT","how to use GIT"]
 status: "draft"
 

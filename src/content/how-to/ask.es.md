@@ -1,12 +1,12 @@
 ---
 title: "Cómo hacer preguntas de programación?"
 subtitle: "La pregunta correcta, te llevará a la respuesta correcta."
-tags: ["feedback", "tutoring", "support"]
-cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+tags: ["feedback","tutoring","support"]
 textColor: "white"
-date: "2019-06-18"
+date: "2020-10-19T12:36:30-04:00"
 authors: ["alesanchezr"]
 status: "published"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 
 ---
 

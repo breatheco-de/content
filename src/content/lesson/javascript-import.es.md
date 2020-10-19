@@ -3,7 +3,7 @@ title: "Importación y exportación de módulos JavaScript"
 subtitle: "Dividir y conquistar (nuevamente), esta vez te enseñamos cómo dividir tu código en varios archivos para evitar conflictos de GIT y también para estar más organizado.  Al final de esta lección, podrás dominar la importación y exportación de JavaScript."
 cover_local: "../../assets/images/c558ac72-194b-40f2-be2f-6e65e8c219c9.png"
 textColor: "white"
-date: "2018-12-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["javascript","importacion","exportacion"]
 status: "draft"
 

@@ -4,8 +4,8 @@ subtitle: ""
 cover_local: "../../assets/images/0e52ff67-aa2b-4234-b620-6ce094508f67.jpeg"
 textColor: "black"
 status: "unassigned"
-date: "2019-04-10"
-tags: ["job interview", "recruting"]
+date: "2020-10-19T12:36:30-04:00"
+tags: ["job interview","recruting"]
 
 ---
 

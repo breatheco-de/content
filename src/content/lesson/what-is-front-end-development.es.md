@@ -3,7 +3,7 @@ title: "Qué es Desarrollo Front-End"
 subtitle: "¿Qué es Desarrollo Front-End? Se trata de usar el poder del código para generar HTML y CSS dinámicamente. Deja el código de la computadora mientras duermes."
 cover_local: "../../assets/images/092d375f-89c9-4cc9-8aa7-8cc4d1230179.jpeg"
 textColor: "white"
-date: "2018-05-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["front-end"]
 status: "draft"
 

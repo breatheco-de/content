@@ -3,7 +3,7 @@ title: "Es Hora de Aprender lo que es un Arreglo o List en Python"
 subtitle: "¿Se puede trabajar con arreglos? Si no puedes, no te preocupes aquí, aprenderás qué es un arreglo/list y cómo trabajar con ellas."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-02-16"
+date: "2020-10-19T12:36:31-04:00"
 syntax: "python"
 tags: ["array","list","python","loops"]
 status: "draft"

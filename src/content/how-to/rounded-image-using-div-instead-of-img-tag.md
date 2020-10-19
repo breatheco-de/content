@@ -1,11 +1,11 @@
 ---
 title: "How to make an image responsive"
 subtitle: "The <img> tag is broken, it doesn't work on use generated images because they loose proportions, here is how to work around it."
-cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2019-05-23"
+date: "2020-10-19T12:36:30-04:00"
 tags: ["responsive"]
 status: "draft"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 
 ---
 

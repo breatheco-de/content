@@ -1,14 +1,14 @@
 ---
 title: "How to ask programming questions in just 5 steps"
-subtitle: "Ask the right quetions, get the right answer!"
-tags: ["feedback", "tutoring", "support"]
-cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+subtitle: "Ask the right question, and you'll get the right answer!"
+tags: ["feedback","tutoring","support"]
 textColor: "white"
-thumb: "https://i.imgur.com/33AP1Yd.png" 
-date: "2019-06-18"
+thumb: "https://i.imgur.com/33AP1Yd.png"
+date: "2020-10-19T12:36:30-04:00"
 slug: "ask"
 authors: ["alesanchezr"]
 status: "published"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 
 ---
 

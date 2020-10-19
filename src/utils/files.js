@@ -1,4 +1,5 @@
 const path = require('path');
+const moment = require("moment");
 const fs = require('fs');
 const mime = require('mime-types')
 const axios = require('axios');
@@ -152,6 +153,24 @@ const updateContent = (lesson, newContent=null) => {
   return fs.writeFileSync(path, newContent);
 }
 
+const sanitize = (lesson) => {
+  const  { content, path, front_matter } = lesson;
+  const { slug, title, date, tags, status, authors, subtitle, ...rest } = front_matter.attributes;
+
+  let clean = {}
+
+  // local images use cover_local instead of cover
+  if(rest.cover && rest.cover.indexOf("../") > -1){
+    clean.cover_local = rest.cover;
+    clean.cover = null;
+  }
+
+  // date format must be 2020-10-19T12:36:31-04:00
+  clean.date = moment(date).format()
+
+  return clean;
+}
+
 const updateFrontMatter = (lesson, data, conditions={}, test=false) => {
 
   const  { content, path, front_matter } = lesson;
@@ -192,5 +211,5 @@ ${front_matter.body}`;
 }
 
 module.exports = {
-  walk, indexContent, findInFile, download, updateContent, walkAsync, updateFrontMatter, getFM
+  walk, indexContent, findInFile, download, updateContent, walkAsync, updateFrontMatter, getFM, sanitize
 }

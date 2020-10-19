@@ -5,10 +5,11 @@ cover: "https://ucarecdn.com/c315bebc-2e8d-4e71-a2df-25ad3618ac3d/githubbackgrou
 textColor: "white"
 authors: ["alesanchezr"]
 status: "draft"
-date: "2018-05-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["github"]
 
 ---
+
 ## Introducción a Github (si ya lo conoces, lee la siguiente sección)
 
 ![Pantallazo Github](../../assets/images/4889ebd9-201f-46c7-a1fb-d3d8c2f4493e.png)

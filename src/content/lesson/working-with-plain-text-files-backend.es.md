@@ -4,11 +4,12 @@ subtitle: "Storing and retrieving information to files using backend languages"
 cover: "https://ucarecdn.com/e6ca8daf-9f02-487b-8296-1f440a4e6e59/storage_background.jpg"
 authors: ["alesanchezr"]
 textColor: "white"
-date: "2018-05-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["marketing","query-string"]
 status: "draft"
 
 ---
+
 ## Los Archivos son la único ruta para `guardar` en una computadora.
 
 Todo el disco duro de tu computadora está compuesto por archivos, esta es la ruta más básica para almacenar información, tu computadora se ejecuta en un `sistema de archivos (file system)` o en un `directorio de archivos (file directory)` que muestra cómo se almacenan y recuperan los datos.

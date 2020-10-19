@@ -1,7 +1,7 @@
 ---
 title: "Learn The Difference: Jquery vs Javascript"
 subtitle: "Hey guys its time to know more about what is Jquery, at the end you will be the judge and decide which one will you use (Jquery vs Javascript)"
-date: "2018-05-11"
+date: "2020-10-19T12:36:31-04:00"
 cover_local: "../../assets/images/8c053abc-2f09-47e9-b586-751538d180c4.png"
 textColor: "white"
 tags: ["jquery","javascript"]

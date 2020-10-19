@@ -3,7 +3,7 @@ title: "Entendiendo la Sintaxis de Python"
 subtitle: "Desata tu poder aprendiendo con esta lección, usando uno de los Reyes del Desarrollo de Back-End. Ahora podrás integrar IA, Big Data, Aprendizaje automático, API e integrar aplicaciones de terceros en su propia cuenta. Disfrute de esta lección sobre la sintaxis de Python"
 cover_local: "../../assets/images/576d4b0e-8b35-493d-879c-4d8f914c585f.png"
 textColor: "white"
-date: "2018-11-05"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["python"]
 status: "draft"
 
@@ -50,7 +50,7 @@ Lo único que recordarás de Javascript es lo básico de cualquier lenguaje de p
 <br>
 <br>
 
-### Tipos de Datas
+### Tipos de Datos
 ***
 
 Sólo hay unas pocas diferencias; Aquí está la explicación:

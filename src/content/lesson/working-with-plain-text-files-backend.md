@@ -6,7 +6,7 @@ cover: "https://ucarecdn.com/e6ca8daf-9f02-487b-8296-1f440a4e6e59/storage_backgr
 status: "draft"
 authors: ["alesanchezr"]
 textColor: "white"
-date: "2018-05-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["marketing","query-string"]
 
 ---

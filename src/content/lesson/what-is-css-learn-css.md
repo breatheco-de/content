@@ -1,12 +1,9 @@
 ---
 title: "Learn CSS: What is CSS Meant for?"
-subtitle: "As you may have noticed, HTML allows you to create only basic websites.
-Nobody wants to see a white website with some horrible text on it.
-So it's time to learn what CSS is all about!
-Learn CSS to make your website beautiful. Let's make it shine!"
+subtitle: "As you may have noticed, HTML allows you to create only basic websites. Nobody wants to see a white website with some horrible text on it. So it's time to learn what CSS is all about! Learn CSS to make your website beautiful. Let's make it shine!"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2018-10-31"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["CSS"]
 status: "draft"
 

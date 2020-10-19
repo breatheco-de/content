@@ -2,10 +2,10 @@
 title: "Conditional Programing in Java"
 subtitle: "Using conditionals to control your code flow in Java"
 status: "draft"
-date: "2019-11-11"
+date: "2020-10-19T12:36:31-04:00"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-tags: ["conditionals", "logical operations", "if else", "conditions", "java"]
+tags: ["conditionals","logical operations","if else","conditions","java"]
 
 ---
 

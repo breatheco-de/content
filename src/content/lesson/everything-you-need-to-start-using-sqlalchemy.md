@@ -3,7 +3,7 @@ slug: "everything-you-need-to-start-using-sqlalchemy"
 title: "Everything you need to know about SQLAlchemy"
 subtitle: "SQLAlchemy is the most populer ORM for Python, start using it in 8min"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
-date: "2019-04-28"
+date: "2020-10-19T12:36:31-04:00"
 textColor: "white"
 authors: ["alesanchezr"]
 status: "draft"

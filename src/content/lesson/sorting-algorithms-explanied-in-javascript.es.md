@@ -4,10 +4,11 @@ subtitle: "Ya nadie ordena las listas manualmente, pero sigue siendo una manera 
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 status: "draft"
 textColor: "white"
-date: "2018-05-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["sorting","algorithms","javascript"]
 
 ---
+
 La clasificación es una tarea costosa para la CPU de la computadora, depende de la cantidad de datos y la forma en que se organizan los datos inicialmente. Esta combinación de posibilidades hizo que los desarrolladores crearan varias soluciones algorítmicas que se pueden aplicar a cada idioma.
 
 ## P: Busqué en Google y encontré un `.sort ()`, entonces, ¿por qué debería hacerlo manualmente?

@@ -6,8 +6,9 @@ textColor: "white"
 status: "draft"
 tags: ["best practices"]
 authors: ["alesanchezr"]
-date: "2020-03-10"
+date: "2020-10-19T12:36:31-04:00"
 canonical: ""
+
 ---
 
 ¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor lean hasta el final, ¡trataré de no aburrirlos!

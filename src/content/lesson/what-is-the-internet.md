@@ -3,7 +3,7 @@ title: "What is The Internet?"
 subtitle: "What is the internet: Everything you see on the internet is a text document. Everything!! As developers, all we do is generate chunks of text based on a set of criteria. If you understand this simple concept, the sky will be the limit."
 cover_local: "../../assets/images/05a36362-c09f-4961-a7b9-8e3132a902b1.jpeg"
 textColor: "white"
-date: "2017-08-10"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["internet"]
 status: "draft"
 

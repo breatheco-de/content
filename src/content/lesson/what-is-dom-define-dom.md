@@ -3,7 +3,7 @@ title: "What is DOM: Document Object Model"
 subtitle: "Do you already know what is DOM? It is a hierarchy stored in memory that contains all of your website elements in real-time. DOM Manipulation is the most popular activity for any front-end developer. The DOM brings your applications to life!"
 cover_local: "../../assets/images/db660bb9-1ac6-4730-a9c8-4544d6b801b0.png"
 textColor: "white"
-date: "2018-05-15"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["DOM"]
 status: "draft"
 

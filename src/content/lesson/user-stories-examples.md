@@ -3,7 +3,7 @@ title: "Creating User Stories: Learn with User Stories Examples"
 subtitle: "Before heading towards development, We need a strategy (User Stories). Find and learn here with user stories examples. It is the most undervalued activity in the software development cycle and it accounts for 70% of the reasons that projects are not delivered on time."
 cover_local: "../../assets/images/980ce2e0-b73e-4019-8e97-3510e3028e10.jpeg"
 textColor: "white"
-date: "2018-11-13"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["user story"]
 status: "published"
 

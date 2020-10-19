@@ -3,7 +3,7 @@ title: "Dominando Bases de Datos: ¿Qué es la Base de Datos SQL?"
 subtitle: "¿Estás listo para trabajar con datos? Aprende aquí sobre qué es la base de datos SQL y cómo trabajar con ella."
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
-date: "2018-11-14"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["sql"]
 status: "published"
 

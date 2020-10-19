@@ -3,9 +3,10 @@ title: "Construyendo APIs REST utilizando Flask"
 subtitle: "Flask se está convirtiendo en el framework Python más popular (si es que ya no lo es), aprende cómo construir API REST de la forma REST"
 cover_local: "../../assets/images/91bcc549-6758-49c3-a790-4245afbd8ece.png"
 textColor: "black"
-date: "2019-05-02"
+date: "2020-10-19T12:36:31-04:00"
 status: "published"
 tags: ["Flask","python","REST","API"]
+
 ---
 
 A estas alturas ya deberías saber qué es una API REST, si no, te recomiendo [leer sobre esto aquí](http://content.breatheco.de/lesson/understanding-rest-apis).

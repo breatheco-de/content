@@ -3,7 +3,7 @@ title: "Entendiendo Django Rest Framework"
 subtitle: "En el mundo de Python, aprender lo que es Django es la mejor manera de crear aplicaciones web y API RESTful. Disfruta de esta lección sobre Django Rest Framework"
 cover_local: "../../assets/images/3e50e217-514d-41dc-a7a4-4725e08f8afb.jpeg"
 textColor: "white"
-date: "2018-12-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["django","python","REST","API"]
 status: "draft"
 

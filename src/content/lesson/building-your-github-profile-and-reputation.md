@@ -5,7 +5,7 @@ cover: "https://ucarecdn.com/c315bebc-2e8d-4e71-a2df-25ad3618ac3d/githubbackgrou
 textColor: "white"
 authors: ["alesanchezr"]
 status: "draft"
-date: "2018-05-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["github","job hunting","resume building"]
 thumb: "https://i.imgur.com/F03qoZF.png"
 
