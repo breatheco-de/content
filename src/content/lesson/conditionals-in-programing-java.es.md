@@ -1,8 +1,8 @@
 ---
 title: "Condicionales en la programación en Java"
 subtitle: "Uso de condiciones para controlar el flujo de su código en java"
-date: "2019-11-11"
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+date: "2020-10-19T12:36:31-04:00"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 syntaxis: ["java"]
 tags: ["Condicionales","Operaciones Lógicas","Si de lo contrario","Condición","Java"]
@@ -26,7 +26,7 @@ Digamos que estamos construyendo un programa para ayudarnos a elegir qué almace
 `If` ***color*** is not **blue**, then... do something.  
 `Else`... do nothing or exit.
   
-![Condicionales](https://ucarecdn.com/e73b673e-d744-45a7-a1ed-61a1dae49560/)
+![Condicionales](../../assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png)
 
 Las sentencias de decisión son: `if-then-else` y `switch`.
 
@@ -176,7 +176,7 @@ System.out.println(sMes);
 
 El ejemplo anterior era una condición simple, pero en la vida real, elegir qué hacer implica una combinación de varias condiciones para tomar la decisión final, por ejemplo: Veamos este algoritmo que le dice a una computadora cómo decidir qué ponerse durante el día de San Valentín:
 
-![What ot ware in valentines day](https://ucarecdn.com/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3/)
+![What ot ware in valentines day](../../assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg)
 
 Si quieres representar este algoritmo en Java, se verá algo así:
 

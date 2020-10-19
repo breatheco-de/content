@@ -1,12 +1,12 @@
 ---
 title: "Cómo hacer preguntas de programación?"
 subtitle: "La pregunta correcta, te llevará a la respuesta correcta."
-tags: ["feedback", "tutoring", "support"]
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+tags: ["feedback","tutoring","support"]
 textColor: "white"
-date: "2019-06-18"
+date: "2020-10-19T12:36:30-04:00"
 authors: ["alesanchezr"]
 status: "published"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 
 ---
 
@@ -53,4 +53,4 @@ Slack es la herramienta perfecta para esto, incluso puedes iniciar un videollama
 
 Entra al canal #public-support que es donde serás atendido más rápidamente.
 
-![Slack en 4Geeks Academy](https://ucarecdn.com/5a432982-f8b2-42bb-89c5-3c82a8e53d10/)
+![Slack en 4Geeks Academy](../../assets/images/5a432982-f8b2-42bb-89c5-3c82a8e53d10.jpeg)

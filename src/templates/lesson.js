@@ -33,7 +33,7 @@ const Lesson = (props) => {
       <div>
         <Cover
           title={post.frontmatter.title}
-          background={post.frontmatter.cover}
+          background={post.frontmatter.cover_local || post.frontmatter.cover}
           textColor={post.frontmatter.textColor}
           subtitle={post.frontmatter.subtitle}
           authors={post.frontmatter.authors}
@@ -67,6 +67,13 @@ export const query = graphql`
         slug
         subtitle
         cover
+        cover_local{
+          childImageSharp {
+            fluid(maxHeight: 900){
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
         status
         authors
         thumb

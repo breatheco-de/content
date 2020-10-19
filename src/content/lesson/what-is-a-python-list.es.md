@@ -1,9 +1,11 @@
 ---
 title: "Trabajando con listas en Python"
 subtitle: "Las listas son el primer tipo de estructura de datos que Python tiene para alamacenar múltiples valores a la vez; son muy poderosas y se usanm ucho en las operaciones diarias de cualquier tipo de programa de cualquiera industria"
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+title: "Es Hora de Aprender lo que es un Arreglo o List en Python"
+subtitle: "¿Se puede trabajar con arreglos? Si no puedes, no te preocupes aquí, aprenderás qué es un arreglo/list y cómo trabajar con ellas."
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-02-16"
+date: "2020-10-19T12:36:31-04:00"
 syntax: "python"
 tags: ["array","list","python","loops"]
 status: "published"
@@ -35,8 +37,7 @@ Cada lista tiene los mismos conceptos básicos:
 
 **Index:** es la posición del elemento.
 
-![¿qué es una lista?](https://ucarecdn.com/7ed2c414-0d00-4e68-b659-b65c26d1983a/-/resize/1000x/)
-
+![¿qué es una lista?](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
 
 [[info]]
 | :point_up: Las posiciones de la comienzan con **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
