@@ -1,7 +1,6 @@
 ---
 title: "Trabajando con listas en Python"
 subtitle: "Las listas son el primer tipo de estructura de datos que Python tiene para alamacenar múltiples valores a la vez; son muy poderosas y se usanm ucho en las operaciones diarias de cualquier tipo de programa de cualquiera industria"
-title: "Es Hora de Aprender lo que es un Arreglo o List en Python"
 subtitle: "¿Se puede trabajar con arreglos? Si no puedes, no te preocupes aquí, aprenderás qué es un arreglo/list y cómo trabajar con ellas."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
