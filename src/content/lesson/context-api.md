@@ -1,10 +1,10 @@
 ---
 subtitle: "The Context API is one of the most recent tools that the React.js team created to handle application data flow. It is the perfect companion for building small to mid-size applications without the need of a state management library like Redux "
 title: "Global state with the Context API"
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-status: "draft"
-date: "2018-12-03"
+status: "published"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["reactjs"]
 
 ---
@@ -20,7 +20,10 @@ People say that React.js makes the easy stuff hard and the hard stuff easy. It's
 The Context API is here to solve some of those conundrums by:
 
 1. Centralizing a global application state: Instead of being limited to local states on views, you can now share data on one central component and spread to its inner components (children, grandchildren and so forth). The centralized state is called **store** and we can spread it by using the **Context.Provider** and **Context.Consumer**
+
 2. Data propagation and re-rendering: when this centralized *global state* (**store**) changes, it triggers a re-render of all of the children compoments (your entire application) which produces new data to show up in the UI. A central **setState***ish*.
+
+3. If you've already worked with react, you've probably felt the frustration of passing properties throughout your application, we call it "property hell".
 
 ## How does the Context API work?
 
@@ -30,13 +33,13 @@ Every time the data stored within the **Provider** changes, all the **Consumers*
 
 > Everyone has access to the global context now.
 
-![Context API Explanation](https://ucarecdn.com/72fe5361-5b2a-460f-8c2a-2d376616abf6/)
+![Context API Explanation](../../assets/images/72fe5361-5b2a-460f-8c2a-2d376616abf6.png)
 
 ## Unidirectional data flow
 
 The **store** is now the most delicate piece of data in our application, and it is succeptible to bad usage, i.e. one bad change and the whole application will crash. To avoid this possible scenario we have to make sure the store's data is read-only for the consumers, and can be *updated* anew by a limited set of functions. Just like the regular state, we don't *change* the state, we set it anew. This architecture paradigm is called Flux.
 
-![Flux](https://facebook.github.io/flux/img/overview/flux-simple-f8-diagram-1300w.png)
+![Flux](../../assets/images/flux-simple-f8-diagram-1300w.png)
 
 ![In-Depth Overview of Flux Architecture]
 (https://facebook.github.io/flux/docs/in-depth-overview)
@@ -68,6 +71,7 @@ const AppContext = React.createContext(null);
 *AppContext.js*
 ```js
 // Step 2: Create a ContextWrapper component that has to be the parent of every consumer.
+
 import React from 'react';
 
 export const AppContext = React.createContext(null);
@@ -98,8 +102,10 @@ export class ContextWrapper extends React.Component {
 
 *index.js*
 ```js
-// Step 4: Wrap your main component in the ContextWrapper,
+// Step 3: Wrap your main component in the ContextWrapper,
+
 import React from 'react';
+
 import { ContextWrapper } from 'path/to/AppContext.js';
 
 const MyView = () => (
@@ -115,9 +121,10 @@ ReactDOM.render(<MyView />, document.querySelector("#app"));
 - **Step 4**: Now we can create the ```TodoList``` component knowing that we can use the ```Context.Consumer``` to read the store from the **global state** (no props necessary). In this case the component will render the to-do's and also be able to add new tasks to the list.
 
 ```js
-// Step 5: Add the Context.Consumer tag to any component
+// Step 4: Add the Context.Consumer tag to any component
 
 import React from 'react';
+
 import { AppContext } from 'path/to/AppContext.js';
 
 export const TodoList = () => (

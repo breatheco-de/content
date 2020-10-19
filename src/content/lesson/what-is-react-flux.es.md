@@ -1,10 +1,16 @@
 ---
 
+
 subtitle: "Sin Flux, React es solo una linda librería de front-end. React Flux lo convertirá en un marco - que le dará a tu aplicación una estructura definida - cuidando la capa de procesamiento de datos, y mucho más lo que es el flujo."
 
 cover: "https://ucarecdn.com/b84e07e5-5761-469b-85bb-f7afc87d4dc9/"
+=======
+title: "Qué es React Flux"
+subtitle: "Sin Flux, React es solo una linda biblioteca de front-end. React Flux lo convertirá en un marco - que le dará a tu aplicación una estructura definida - ocupándose de la capa de procesamiento de datos, y mucho más."
+cover_local: "../../assets/images/b84e07e5-5761-469b-85bb-f7afc87d4dc9.png"
+
 textColor: "white"
-date: "2018-11-14"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["reactjs","flux"]
 status: "Published"
 
@@ -27,7 +33,7 @@ Aquí hay una lista de todas las ventajas de usarlo:
 + **Controla la forma en que fluirán los datos de tu aplicación:** no importa si los datos fueron ingresados por el usuario o provienen de una base de datos; todo estará disponible de forma clara y accesible.
 + Diferencia sus componentes en **vistas vs componentes reutilizables:** sus componentes seguirán siendo abstraídos desde la lógica de tu aplicación – haciéndolos 100% reutilizables para futuras aplicaciones.
 
-![React Flux](https://ucarecdn.com/aa1a5994-8de9-4d24-99ce-3a0d686c30bd/-/resize/700x/)
+![React Flux](../../assets/images/aa1a5994-8de9-4d24-99ce-3a0d686c30bd.png)
 
 ### Flux divide la aplicación en 3 capas:
 
@@ -54,7 +60,7 @@ Para codificar la función para eliminar tareas, tenemos que actualizar 4 archiv
 > *Al final, trabajar con Flux tiene que convertirse en algo tan automático como andar en bicicleta.*
 
 
-![react flux](https://ucarecdn.com/77c93bfa-92cb-44e3-a7c5-c959e27c5ccc/-/resize/1100x/)
+![react flux](../../assets/images/77c93bfa-92cb-44e3-a7c5-c959e27c5ccc.jpeg)
 
 ## Permite implementar la función eliminar tarea
 ***

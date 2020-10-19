@@ -1,9 +1,9 @@
 ---
 subtitle: "Functions are an amazing tool, the allow you to re-use and simplify your code like never before. Before functions existed algorithms were almost impossible to maintain"
 title: "Working with Functions in Python"
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-02-03"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["python"]
 status: "draft"
 

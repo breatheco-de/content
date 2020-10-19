@@ -1,9 +1,9 @@
 ---
 title: "Introducción al Pre Work"
 subtitle: "Nosotros sabemos lo que hacemos, tu deberias saberlo también.  Conoce el proceso que hemos pulido para que puedas aprender 2 años de contenido en unas pocas semanas."
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2019-01-02"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["prework"]
 status: "draft"
 
@@ -25,7 +25,7 @@ Quieres aprender cuál será la habilidad más buscada para los próximos 30 añ
 
 Hemos hecho un gran esfuerzo para resumir las cosas.  Todo lo que encontrarás aquí será la base de tus habilidades.  No hay nada que "saltarse."  Tu viaje ya ha comenzado y no puedes perderte nada.  Seguiremos cada paso de tu camino de aprendizaje.  El Pre-Work es probablemente la fase más importante para convertirse en un desarrollador web.  ¡Aquí entenderás la base de tus habilidades y aprenderas a amarla como nosotros!
 
-![short attention meme](https://ucarecdn.com/b96ddb9a-e076-4e27-b18e-f3fd7a256ad2/)
+![short attention meme](../../assets/images/b96ddb9a-e076-4e27-b18e-f3fd7a256ad2.jpeg)
 
 ## Pero y si Ya Crees Que Ya Sabes?
 <hr>
@@ -35,7 +35,7 @@ Hay algunos de ustedes que ya tienen alguna experiencia con la programación (pr
 Realmente necesitamos conocerte mejor.  Necesitamos estar seguros de que tienes lo necesario para completar el programa.  Va a ser intenso, y te sentirás agotado, pero no te preocupes. ¡Hemos estado haciendo esto por un tiempo y te entendemos!
 
 <p style="text-align:center">
-    <img class="my-class" src="https://ucarecdn.com/bd90ba64-ded5-4fb2-b23f-7d297125e3a5/" width="300">
+    <img class="my-class" src="../../assets/images/bd90ba64-ded5-4fb2-b23f-7d297125e3a5.jpeg" width="300">
 </p>
 
 ## Este Curso Funciona, pero Debes Confiar en Nosotros
@@ -49,7 +49,7 @@ Si te sientes abrumado y confundido, <span style="color:#993300">**¡¡pide ayud
 
 ¿Has leído sobre Einstein?  Las personas realmente inteligentes son las que siempre hacen más preguntas. No tienen miedo a no saber o cometer errores.  La única manera en que realmente podemos ayudarte es si nos pides ayuda.
 <p style="text-align:center">
-    <img class="my-class" src="https://ucarecdn.com/5f5f59bc-9efa-4ee9-bce6-6af9eedb4738/" width="300">
+    <img class="my-class" src="../../assets/images/5f5f59bc-9efa-4ee9-bce6-6af9eedb4738.jpeg" width="300">
 </p>
 
 ## Herramientas de Programación
@@ -62,7 +62,7 @@ Entonces, ahora depende sólo de nosotros!!  Hemos decidido qué pila de program
 Sí, sí, sabemos que algunos de ustedes ya tienen sus propias herramientas, pero mantengamos esa conversación otro momento.  Por ahora, sigue de cerca nuestras sugerencias y danos la oportunidad de decirte cómo hacerlo todo. 
 
 <p style="text-align:center">
-    <img class="my-class" src="https://ucarecdn.com/59bf0e4e-f5cf-410c-b2bc-fdc7472e7cdc/" width="180">
+    <img class="my-class" src="../../assets/images/59bf0e4e-f5cf-410c-b2bc-fdc7472e7cdc.jpeg" width="180">
 </p>
 <p style="text-align:center;">
     <sub><sup>Shuhari es un concepto de arte marcial japonés, y describe las etapas de aprendizaje para dominarlo, [click aqui para leer más](https://google.co.ve)</sup></sub>

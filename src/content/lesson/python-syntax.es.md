@@ -1,9 +1,9 @@
 ---
 title: "Entendiendo la Sintaxis de Python"
 subtitle: "Desata tu poder aprendiendo con esta lección, usando uno de los Reyes del Desarrollo de Back-End. Ahora podrás integrar IA, Big Data, Aprendizaje automático, API e integrar aplicaciones de terceros en su propia cuenta. Disfrute de esta lección sobre la sintaxis de Python"
-cover: "https://ucarecdn.com/576d4b0e-8b35-493d-879c-4d8f914c585f/"
+cover_local: "../../assets/images/576d4b0e-8b35-493d-879c-4d8f914c585f.png"
 textColor: "white"
-date: "2018-11-05"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["python"]
 status: "draft"
 
@@ -50,7 +50,7 @@ Lo único que recordarás de Javascript es lo básico de cualquier lenguaje de p
 <br>
 <br>
 
-### Tipos de Datas
+### Tipos de Datos
 ***
 
 Sólo hay unas pocas diferencias; Aquí está la explicación:
@@ -78,7 +78,7 @@ En Python, puedes hacer de cualquier carpeta un paquete creando un archivo *\ __
 <br>
 <br>
 
-#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) With Python
 
 ```python
 from . import
@@ -94,7 +94,7 @@ Lo que NPM es para Javascript, PIP es para Python. Ambas bestias son increíbles
 <br>
 <br>
 
-#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) With Python
 
 ```python
 # En Python sustraer las cadenas o strings producirá un error, en lugar de eso debes hacer:
@@ -112,14 +112,14 @@ var result = int('5') - int('2');
 
 Javascript es tan flexible que no tiene que prestar mucha atención a los tipos de datos. A Python no le gusta eso... en Python, te acostumbrarás a lanzar variables y convertirlas entre tipos de datos.
 
-### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/)  With JavaScript
+### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png)  With JavaScript
 
 ```javascript
 var result = '5' - '2'; 
 //el resultado ahora es igual a 3
 ```
 
-#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) With Python
 
 ```python
 #  En Python sustraer las cadenas o strings producirá un error, en lugar de eso debes hacer:
@@ -141,7 +141,7 @@ Python tiene "print" para escribir en un documento o en la consola. Recuerde que
 <br>
 
 
-#### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With  JavaScript
+#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With  JavaScript
 
 ```javascript
 var simpleValue = ‘hello’;
@@ -153,7 +153,7 @@ console.log(arrayValue);
 ```
 
 
-#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) With Python
 
 ```python
 simpleValue = ‘Hello’;
@@ -181,7 +181,7 @@ Finalmente, en ES2015, Javascript incluye las "funciones arrow". Esa es una mane
 <br>
 <br>
 
-#### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/)  With JavaScript
+#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png)  With JavaScript
 
 ```javascript
 //haciendo un bucle foreach en js 
@@ -198,7 +198,7 @@ for(var i = 0; i < myArray.length; i++){
 <br>
 <br>
 
-#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) With Python
 
 ```python
 # Usando lambda para mapear una lista
@@ -220,7 +220,7 @@ print(namesArray)
 ### Lista de bucles (similar a arreglos)
 ***
 
-#### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With  JavaScript
+#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With  JavaScript
 
 ```javascript
 //haciendo un bucle foreach en js 
@@ -237,7 +237,7 @@ for(var i = 0; i < myArray.length; i++){
 <br>
 <br>
 
-#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) With Python
 
 ```python
 colors = ["red", "green", "blue", "purple"]
@@ -254,7 +254,7 @@ for color in colors:
 <br>
 <br>
 
-#### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/)    With JavaScript
+#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png)    With JavaScript
 
 ```javascript
 var myArray = [‘Academy’, ‘Coding’];
@@ -263,7 +263,7 @@ myArray.push(‘4Geeks’);  //Añadiendo un artículo
 myArray.splice(index, 1);
 ```
 
-#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) With Python
 
 ```python
 myList = ['The', 'earth', 'revolves', 'around', 'sun']
@@ -279,7 +279,7 @@ print(myList)
 ### Funciones de Ordenamiento para Listas
 ***
 
-#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) With Python
 
 ```python
 # Orden ascendente
@@ -308,7 +308,7 @@ Python trae un nuevo tipo de tipo de datos llamado "Tupla". Piense en ello como 
 
 ### Objetos
 
-#### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) With JavaScript
+#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
 
 ```javascript{numberLines: true}
 //Hay dos maneras de declarar un objeto
@@ -329,7 +329,7 @@ obj.name = "Mario";
 obj.lastname = "Perez";
 ```
 
-#### ![python syntaxpython syntaxpython tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) With Python
+#### ![python syntaxpython syntaxpython tutorial python class](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) With Python
 
 ```python{numberLines: true}
 # En Python tenemos Clases y Diccionarios.
