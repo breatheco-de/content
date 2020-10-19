@@ -1,4 +1,4 @@
-const {walk, indexLessons} = require("../files")
+const {walk, indexContent, updateFrontMatter} = require("../files")
 const fs = require('fs');
 const { POSSIBLE_STATUS } = require("../variables")
 
@@ -34,20 +34,23 @@ module.exports = {
             } 
             
             try{
-                const result = indexLessons(results);
+                const result = indexContent(results);
                 let newvalues = {}
                 let conditions = {}
                 if(args['--statusTo']) newvalues.status = args['--statusTo'];
-                if(args['--statusFrom']) conditions.status = args['--statusFrom'] == "null" ? null : args['--statusFrom'];
+                
+                // ⚠️ WARNING!! set status undefined and it will be ignored, 
+                // if set to null you will be deleting the status property on the front_matter
+                if(args['--statusFrom']) conditions.status = args['--statusFrom'] == "null" ? undefined : args['--statusFrom'];
 
                 if(args['--slug'] !== 'all'){
                     const lesson = result.lessons.find(l => l.originalSlug === args['--slug'])
-                    if(lesson) update(lesson, newvalues, conditions, args['--test'])
+                    if(lesson) updateFrontMatter(lesson, newvalues, conditions, args['--test'])
                     else console.log(`Lesson ${args['--slug']} not found`, lesson)
                 }
                 else{
                     result.lessons.forEach(lesson => {
-                        update(lesson, newvalues, conditions, args['--test'])
+                        updateFrontMatter(lesson, newvalues, conditions, args['--test'])
                     })
                 }
                 process.exit(0);
@@ -58,39 +61,4 @@ module.exports = {
             }
         })
     }
-}
-
-
-const update = (lesson, data, conditions={}, test=false) => {
-
-    const  { content, path, front_matter } = lesson;
-    if(
-        (conditions.status === null && front_matter.attributes.status !== undefined && front_matter.attributes.status !== null)
-        ||
-        (conditions.status && front_matter.attributes.status !== conditions.status)
-    ){
-        console.log(`Ignoring lesson ${lesson.slug} because status is not ${conditions.status}`)
-        return false;
-    }
-    
-    // clean up the missing data
-    Object.keys(data).forEach(key => data[key] === null && delete data[key] )
-
-    let attributes = { ...front_matter.attributes, ...data };
-
-    const newContent = `---
-${Object.keys(attributes).reduce((total, key) => {
-    if(Array.isArray(attributes[key])) return total+`${key}: [${attributes[key].map(i => `"${i}"`).join(",")}]\n`
-    else return total+`${key}: "${attributes[key]}"\n`
-},"")}
----
-
-${front_matter.body}`;
-
-    if(test === false){
-        console.log("Updating "+path+ " ...")
-        fs.writeFileSync(path, newContent);
-        console.log("Lesson updated "+lesson.slug, (front_matter.status), front_matter)
-    }
-    else console.log("TEST: Lesson updated "+path+ " with: ", newContent)
 }

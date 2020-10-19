@@ -1,9 +1,9 @@
 ---
 title: "It's Time To Learn What is an Array"
 subtitle: "Can you work with arrays ? if you can't,  don't worry here you will learn what is an array and how to work with them"
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2018-02-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["array"]
 status: "draft"
 
@@ -37,7 +37,7 @@ Every array has the same basic concepts:
 
 **Index:** is the position of the element.
 
-![what is an array define array](https://ucarecdn.com/7ed2c414-0d00-4e68-b659-b65c26d1983a/-/resize/1000x/)
+![what is an array define array](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
 
 
 [[info]]
@@ -187,7 +187,7 @@ Will return a new array with a smaller version of the original array.  You have 
 
 Will update the current array leaving everything but the smaller version that you want to remove.   You will need to specify the starting and ending indexes from where you want to remove.
 
-![what is an array define array](https://ucarecdn.com/7e098348-df50-442b-801e-ac9d098fbc09/-/resize/700x/)
+![what is an array define array](../../assets/images/7e098348-df50-442b-801e-ac9d098fbc09.png)
 
 <iframe src="https://repl.it/F9V5/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 

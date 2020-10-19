@@ -1,9 +1,9 @@
 ---
 title: "Enrutando nuestras vistas con React Router"
 subtitle: "Crea la estructura de tu aplicación y conecta tus vistas con React Router"
-cover: "https://ucarecdn.com/8c053abc-2f09-47e9-b586-751538d180c4/"
+cover_local: "../../assets/images/8c053abc-2f09-47e9-b586-751538d180c4.png"
 textColor: "white"
-date: "2018-11-13"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["reactjs","react router"]
 status: "published"
 
@@ -30,7 +30,7 @@ Para el resto de nosotros que creamos aplicaciones web reales, necesitamos conec
 
 Por ejemplo, necesitamos las siguientes URL de aplicación para que coincidan con los siguientes componentes:
 
-![react router](https://ucarecdn.com/6fd2b44b-598b-4ddb-85ba-9c32b086127f/-/resize/800x/)
+![react router](../../assets/images/6fd2b44b-598b-4ddb-85ba-9c32b086127f.png)
 
 
 ## Definiendo tus Rutas de Aplicación
@@ -43,7 +43,7 @@ Por ejemplo, necesitamos las siguientes URL de aplicación para que coincidan co
 + Private: Lo que sus usuarios privados ven justo después de iniciar sesión.
 El resto de las páginas dependen de tu aplicación y de cómo quieres que los usuarios naveguen por tu sitio.
 
-![react router](https://ucarecdn.com/205cd2de-dfae-4712-a5e4-1c922994e60d/-/resize/700x/)
+![react router](../../assets/images/205cd2de-dfae-4712-a5e4-1c922994e60d.png)
 
 ## Mapeando tus Vistas a URLs
 ***
@@ -51,7 +51,7 @@ El resto de las páginas dependen de tu aplicación y de cómo quieres que los u
 Este es el mapa del sitio para cualquier sitio web de comercio electrónico típico:
 
 
-![react router](https://ucarecdn.com/9021be43-57ae-4667-8c1a-435b8521ce59/-/resize/600x/)
+![react router](../../assets/images/9021be43-57ae-4667-8c1a-435b8521ce59.png)
 
 ## Programación de tus Rutas de Aplicación
 ***

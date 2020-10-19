@@ -1,8 +1,8 @@
 ---
 title: "Making an amazing resume"
-subtitle: "The Art of getting interviews its 60% about the resume, let's make it shine!" 
+subtitle: "The Art of getting interviews its 60% about the resume, let's make it shine!"
 textColor: "white"
-date: "2018-05-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["career support"]
 status: "draft"
 

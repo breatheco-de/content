@@ -1,9 +1,9 @@
 ---
 title: "Haciendo Componentes de React"
 subtitle: "React.js bread and butter, become a master in React Components and you have conquered the front-end world of React."
-cover: "https://ucarecdn.com/84c4d84c-51b9-4906-a572-71cc07ecfc8c/"
+cover_local: "../../assets/images/84c4d84c-51b9-4906-a572-71cc07ecfc8c.jpeg"
 textColor: "white"
-date: "2018-11-14"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["reactjs"]
 status: "draft"
 

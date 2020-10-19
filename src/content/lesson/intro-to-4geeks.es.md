@@ -1,13 +1,14 @@
 ---
 title: "Introducción 4Geeks Academy"
 subtitle: "Tenemos la esperanza que leas este artículo completo. Aquí encontrarás una receta de 8 min para sacarle el máximo provecho de la academia ¡de la manera más efectiva!"
-cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
+cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
 status: "draft"
 tags: ["best practices"]
 authors: ["alesanchezr"]
-date: "2020-03-10"
+date: "2020-10-19T12:36:31-04:00"
 canonical: ""
+
 ---
 
 ¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor lean hasta el final, ¡trataré de no aburrirlos!
@@ -34,7 +35,7 @@ A través de los años hemos identificado razones específicas por la cuales los
 
 #### Pared #1: Confianza 🥺 (Síndrome del impostor)
 
-![Síndrome del Impostor](https://ucarecdn.com/6cf4655f-665f-4f68-b021-f34238cedd69/)
+![Síndrome del Impostor](../../assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png)
 
 En algún momento de nuestras vidas (en alguno más que otros) todos hemos pensado que somos la persona más estúpida de una sala. Si continuamos pensado eso durante mucho tiempo y no nos sentimos cómodos con cualquier disciplina incluso podemos pensar que no somos inteligentes ¡Mentira!¡Nada que ver! Tu eres parte de esta academia, nosotros no aceptamos estudiantes que no tengan la inteligencia suficiente para vivir de la programación, debes creer en eso ¡Especialmente cuando las cosas se ponen difíciles!
 
@@ -91,8 +92,8 @@ Please make sure you understand how the academy works:
 
 ## Best Practices while starting to learn code
 
-| **Don't read (much):** Coding is like sport, the best what to get better is thru practice. Learn by doing |    ![Its practice](https://ucarecdn.com/01868f7d-4949-4e15-85da-8042ea24a11a/-/resize/x300/)
+| **Don't read (much):** Coding is like sport, the best what to get better is thru practice. Learn by doing |    ![Its practice](../../assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg)
 | ---   | ----      |
-| **Sleep:** Having a good sleep is as important as coming to class, coding is 100% intellectual, having a sharp mind is everything. | ![Sleep](https://ucarecdn.com/d29be460-cc2e-42e6-bf92-f9516fd7b21a/-/resize/200x/) |
-| **Learn how to ask:** The biggest challenge you have to address at first is learning [how to ask a question](https://content.breatheco.de/how-to/ask), picking the right works, know exactly want you want to know is the best skill for any developer. | ![How to ask](https://ucarecdn.com/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c/) |
-| **Ask questions:** Its a win-win, preparing the question will teach you, we get feedback from your understanding, it the biggest boost for your learning process. It's what you are paying for. | ![Ask questions](https://ucarecdn.com/5e975e91-1447-4117-b50b-b00df99a88a5/) |
+| **Sleep:** Having a good sleep is as important as coming to class, coding is 100% intellectual, having a sharp mind is everything. | ![Sleep](../../assets/images/d29be460-cc2e-42e6-bf92-f9516fd7b21a.jpeg) |
+| **Learn how to ask:** The biggest challenge you have to address at first is learning [how to ask a question](https://content.breatheco.de/how-to/ask), picking the right works, know exactly want you want to know is the best skill for any developer. | ![How to ask](../../assets/images/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c.jpeg) |
+| **Ask questions:** Its a win-win, preparing the question will teach you, we get feedback from your understanding, it the biggest boost for your learning process. It's what you are paying for. | ![Ask questions](../../assets/images/5e975e91-1447-4117-b50b-b00df99a88a5.jpeg) |
