@@ -61,7 +61,7 @@ const indexContent = (allContent) => ({
         let front_matter = fm(content);
         const result = {
             path: l,
-            // content,
+            content,
             front_matter,
             originalSlug,
             slug: front_matter.slug || originalSlug,
