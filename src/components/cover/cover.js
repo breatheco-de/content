@@ -22,7 +22,7 @@ export const Cover = ({title, subtitle, time, background, textColor, status, aut
         }
     });
     let backgroundURL = background && background.childImageSharp ? background.childImageSharp.fluid.src : background;
-    if(backgroundURL.indexOf("../../")) backgroundURL = backgroundURL.replace("../../", "/static/")
+    if(typeof(backgroundURL) === "string" && backgroundURL.indexOf("../../") > -1) backgroundURL = backgroundURL.replace("../../", "/static/")
     return (<div
         style={{
             backgroundImage: `url(${backgroundURL})`,
