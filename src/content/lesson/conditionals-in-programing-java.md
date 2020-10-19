@@ -2,10 +2,10 @@
 title: "Conditional Programing in Java"
 subtitle: "Using conditionals to control your code flow in Java"
 status: "draft"
-date: "2019-11-11"
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+date: "2020-10-19T12:36:31-04:00"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-tags: ["conditionals", "logical operations", "if else", "conditions", "java"]
+tags: ["conditionals","logical operations","if else","conditions","java"]
 
 ---
 
@@ -26,7 +26,7 @@ Let's say we are building a program to help us choose what to store and we hate 
 `If` ***color*** is not **blue**, then... do something.  
 `Else`... do nothing or exit.
   
-![Conditionals](https://ucarecdn.com/e73b673e-d744-45a7-a1ed-61a1dae49560/)
+![Conditionals](../../assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png)
 
 The decision statements are: ʻif-then-else` and `switch`.
 
@@ -179,7 +179,7 @@ System.out.println(sMonth);
 
 The example above was a simple condition, but in real life, choosing what to do involves a combination of several conditions to make the final decision, for example: Let's look at this algorithm that tells a computer how to decide what to wear on Valentine's Day. Valentine:
 
-![What ot ware in valentines day](https://ucarecdn.com/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3/)
+![What ot ware in valentines day](../../assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg)
 
 If you want to represent this algorithm in Java, it will look something like this:
 ```java

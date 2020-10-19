@@ -1,4 +1,4 @@
-const {walk, indexLessons, findInFile, download } = require("../files")
+const {walk, indexContent, findInFile, download } = require("../files")
 const fs = require('fs');
 const path = require('path');
 const { POSSIBLE_STATUS } = require("../variables")
@@ -11,6 +11,7 @@ module.exports = {
         // '--statusFrom':    String,
         '--slug':    String,
         '--path':    String,
+        '--type':    String,
         // '--test':    String,
         // '--version': Boolean,
         // '--verbose': arg.COUNT,   // Counts the number of times --verbose is passed
@@ -20,35 +21,38 @@ module.exports = {
     },
     defaults: {
         '--path': null,
+        '--type': 'external_images',
         // '--statusTo': null,
         // '--test': false
     },
     run: (args) => {
-        walk('src/content/lesson', function(err, results) {
+        walk('src/content', async function(err, results) {
             if (err){
                 console.log("Error scanning lesson files".red);
                 process.exit(1);
             } 
             
             try{
-                const result = indexLessons(results);
-                let newvalues = {}
-                let conditions = {}
-
+                const result = indexContent(results);
+                console.log("Scaning lessons for type: ", args['--type'])
                 if(args['--slug'] !== 'all'){
                     const lesson = result.lessons.find(l => l.originalSlug === args['--slug'])
-                    if(lesson) downloadImages(lesson, args['--path'])
+                    if(lesson){
+                        await downloadImages(lesson, args['--type'],args['--path'])
+                        console.log("Successfully downloaded ", lesson.originalSlug, lesson.lang)
+                    } 
                     else console.log(`Lesson ${args['--slug']} not found`, lesson)
                 }
                 else{
-                    result.lessons.forEach(lesson => {
-                        update(lesson, newvalues, conditions, args['--test'])
-                    })
+                    for(let i = 0; i < result.lessons.length; i++){
+                        await downloadImages(result.lessons[i], args['--type'], args['--path'])
+                        console.log("Successfully downloaded ", result.lessons[i].originalSlug, result.lessons[i].lang)
+                    }
                 }
                 process.exit(0);
             }
             catch(error){
-                console.log("Error", error);
+                console.log("Error", error.message);
                 process.exit(1);
             }
         })
@@ -56,17 +60,18 @@ module.exports = {
 }
 
 
-const downloadImages = async (lesson, downloadPath=null) => {
+const downloadImages = async (lesson, type='external_images', downloadPath=null) => {
 
     const  { content, front_matter } = lesson;
-    const findings = findInFile('external_images',content);
-    const dirPath = path.join(__dirname, '/../../assets/images');
+    const findings = findInFile(type,content);
 
-    for(type in findings){
-        for(let i=0;i<findings[type].length; i++){
-            let item = findings[type][i];
-            const resp = await download(item.value, downloadPath || dirPath);
-            console.log("Status: ", resp.status)
+    const dirPath = path.join(__dirname, '/../../assets/images');
+    for(expression in findings[type]){
+        let matches = /.*(https?:\/\/[a-zA-Z_\-.\/0-9]+).*/gm.exec(expression);
+        if(matches){
+            let url = matches[1];
+            let fileName = findings[type][expression].replace("/","");
+            await download(url, `${downloadPath || dirPath}/${fileName}`);
         }
     }
 }

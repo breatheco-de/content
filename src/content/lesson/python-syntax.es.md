@@ -1,9 +1,9 @@
 ---
 title: "Entendiendo la Sintaxis de Python"
 subtitle: "Desata tu poder aprendiendo con esta lección, usando uno de los Reyes del Desarrollo de Back-End. Ahora podrás integrar AI, Big Data, Aprendizaje automático, APIs e integrar aplicaciones de terceros en la tuya. Disfrute de esta lección sobre la sintaxis de Python"
-cover: "https://ucarecdn.com/576d4b0e-8b35-493d-879c-4d8f914c585f/"
+cover_local: "../../assets/images/576d4b0e-8b35-493d-879c-4d8f914c585f.png"
 textColor: "white"
-date: "2018-11-05"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["python"]
 status: "published"
 
@@ -78,7 +78,7 @@ En Python, puedes hacer de cualquier carpeta un paquete creando un archivo *\__i
 <br>
 <br>
 
-#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) Con Python
+#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
 
 ```python
 from . import
@@ -94,7 +94,7 @@ Lo que es NPM es para Javascript, PIP es para Python. Ambas bestias son increíb
 <br>
 <br>
 
-#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) Con Python
+#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
 
 ```python
 # En Python sustraer strings producirá un error, en lugar de eso debes hacer:
@@ -112,14 +112,14 @@ var result = int('5') - int('2');
 
 Javascript es tan flexible que no tienes que prestar mucha atención a los tipos de datos. A Python no le gusta eso... en Python, te acostumbrarás a declarar variables y convertirlas entre tipos de datos.
 
-### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/)  Con JavaScript
+#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
 
 ```javascript
 var result = '5' - '2'; 
 //el resultado ahora es igual a 3
 ```
 
-#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) Con Python
+#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
 
 ```python
 #  En Python sustraer strings producirá un error, en lugar de eso debes hacer esto:
@@ -141,7 +141,7 @@ Python tiene "print" para escribir en un documento o en la consola. Recuerda que
 <br>
 
 
-#### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) Con JavaScript
+#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
 
 ```javascript
 var simpleValue = ‘hello’;
@@ -153,7 +153,7 @@ console.log(arrayValue);
 ```
 
 
-#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) Con Python
+#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
 
 ```python
 simpleValue = ‘Hello’;
@@ -181,7 +181,7 @@ Finalmente, en ES2015, Javascript incluye las "funciones arrow". Esa es una mane
 <br>
 <br>
 
-#### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/)  With JavaScript
+#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
 
 ```javascript
 
@@ -195,7 +195,7 @@ console.log(returningMapObject);
 
 <br>
 <br>
-#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) Con Python
+#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
 
 ```python
 
@@ -219,7 +219,7 @@ print(namesArray)
 ### Lista de bucles (similar a arrays)
 ***
 
-#### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) Con JavaScript
+#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
 
 ```javascript
 //haciendo un bucle foreach en js 
@@ -236,7 +236,7 @@ for(var i = 0; i < myArray.length; i++){
 <br>
 <br>
 
-#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) Con Python
+#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
 
 ```python
 colors = ["red", "green", "blue", "purple"]
@@ -253,7 +253,7 @@ for color in colors:
 <br>
 <br>
 
-#### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/)   Con JavaScript
+#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
 
 ```javascript
 var myArray = [‘Academy’, ‘Coding’];
@@ -262,7 +262,7 @@ myArray.push(‘4Geeks’);  //Añadiendo un item
 myArray.splice(index, 1);
 ```
 
-#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) Con Python
+#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
 
 ```python
 myList = ['The', 'earth', 'revolves', 'around', 'sun']
@@ -278,7 +278,7 @@ print(myList)
 ### Funciones paraclasificar Listas
 ***
 
-#### ![python syntax](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) Con Python
+#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
 
 ```python
 # Orden ascendente
@@ -307,7 +307,7 @@ Python trae un nuevo tipo de tipo de datos llamado "Tupla". Piense en ello como 
 
 ### Objetos
 
-#### ![python syntax](https://ucarecdn.com/2de93dfc-263c-43e3-afa5-6557a5e7cf4c/) Con JavaScript
+#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
 
 ```javascript{numberLines: true}
 //Hay dos maneras de declarar un objeto
@@ -328,7 +328,7 @@ obj.name = "Mario";
 obj.lastname = "Perez";
 ```
 
-#### ![python syntaxpython syntaxpython tutorial python class](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/) Con Python
+#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
 
 ```python{numberLines: true}
 # En Python tenemos Clases y Diccionarios.
