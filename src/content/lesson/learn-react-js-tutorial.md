@@ -216,7 +216,7 @@ After you finish identifying your components, it is time to start coding.  Creat
 Each class needs to have a function called **render.**  This will return the HTML code that the component will output into the website document.
 
 <before-after width="400px"
-    before="https://ucarecdn.com/e590a615-2c9d-4671-8483-99dbdd90cd41/" after="../../assets/images/78aedd23-b5dd-4d1e-b693-b3268f4734fa.png" />
+    before="../../assets/images/e590a615-2c9d-4671-8483-99dbdd90cd41.png" after="../../assets/images/78aedd23-b5dd-4d1e-b693-b3268f4734fa.png" />
 
 ## Essential aspects of a React component
 

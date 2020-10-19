@@ -46,7 +46,7 @@ There are two types of tags: Technology and Category.
 
 ### Command Line Interface
 
-A small command line tool has been developm to help manage the lessons
+A small command-line tool has been developed to help manage the lessons
 
 ```
 node ./src/utils/cli.js update_lesson --slug all --statusTo draft --statusFrom null
@@ -72,7 +72,7 @@ node ./src/utils/cli.js localize_images --slug python-syntax
 
 #### Method: localize_images
 
-Rename the remote image urls with local images (if available), this method is ideal to run after `download_images`
+Rename the remote image url's with local images (if available), this method is ideal to run after `download_images`
 
 | PARAM         | DESCRIPTION |
 | ---------     | ----------- |

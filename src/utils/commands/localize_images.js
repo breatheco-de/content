@@ -1,4 +1,4 @@
-const {walk, indexContent, findInFile, updateLesson, walkAsync } = require("../files")
+const {walk, indexContent, findInFile, updateContent, updateFrontMatter, walkAsync, getFM } = require("../files")
 const fs = require('fs');
 const path = require('path');
 const { POSSIBLE_STATUS } = require("../variables")
@@ -46,21 +46,19 @@ module.exports = {
                     const lesson = result.lessons.find(l => l.originalSlug === args['--slug'])
                     if(lesson){
                         // console.log("Found lesson", lesson)
-                        console.log("Localizing ", lesson.originalSlug, lesson.lang)
                         await localizeImage(lesson, args['--type'], extensions)
                     } 
                     else console.log(`Lesson ${args['--slug']} not found`, lesson)
                 }
                 else{
                     for(let i = 0; i < result.lessons.length; i++){
-                        console.log("Localizing ", result.lessons[i].originalSlug, result.lessons[i].lang)
                         await localizeImage(result.lessons[i], args['--type'], extensions)
                     }
                 }
                 process.exit(0);
             }
             catch(error){
-                console.log("Error", error.message);
+                console.log("Error", error.message, error);
                 process.exit(1);
             }
         })
@@ -74,7 +72,7 @@ const localizeImage = async (lesson, type='external_images', extensions) => {
     const findings = findInFile(type,content);
 
     const dirPath = path.join(__dirname, '/../../assets/images');
-
+    let replaced = false;
     for(expression in findings[type]){
         let matches = /.*(https?:\/\/[a-zA-Z_\-.\/0-9]+).*/gm.exec(expression);
         if(matches){
@@ -89,10 +87,22 @@ const localizeImage = async (lesson, type='external_images', extensions) => {
             if(fs.existsSync(imagePath)){
                 console.log(`Replacing ${url} with ${"../../assets/images/"+fileName}`)
                 content = content.replace(RegExp(url, 'g'), "../../assets/images/"+fileName)
+                replaced = true;
             }else{
                 console.log("Ignored "+url+" not found "+imagePath)
             }
         }
     }
-    updateLesson(lesson, content)
+    if(replaced){
+        console.log("Localizing ", lesson.originalSlug, lesson.lang)
+        updateContent(lesson, content)
+        const frontMatter = getFM(content);
+        if(frontMatter.attributes.cover && frontMatter.attributes.cover.indexOf("../../assets/images/") > -1){
+            const newAttributes = {
+                cover_local: frontMatter.attributes.cover,
+                cover: null
+            }
+            updateFrontMatter(lesson, newAttributes);
+        }
+    }
 }

@@ -81,6 +81,9 @@ const regex = {
   uploadcare: /.*https:\/\/ucarecdn.com\/([a-zA-Z_\-.\/0-9]+).*/gm
 }
 
+const getFM = (content) => {
+  return fm(content);
+}
 const findInFile = (types, content) => {
   const validTypes = Object.keys(regex);
   if(!Array.isArray(types)) types = [types];
@@ -143,12 +146,51 @@ const download = async (url, image_path) => {
   } 
 }
 
-const updateLesson = (lesson, newContent=null) => {
+const updateContent = (lesson, newContent=null) => {
   if(!newContent && newContent == "") return false;
   const  { content, path, front_matter } = lesson;
   return fs.writeFileSync(path, newContent);
 }
 
+const updateFrontMatter = (lesson, data, conditions={}, test=false) => {
+
+  const  { content, path, front_matter } = lesson;
+
+  if(typeof(front_matter.attributes.status)==="undefined" || front_matter.attributes.status === null) 
+    front_matter.attributes.status = "published";
+  
+  if(typeof(conditions.status) !== "undefined" && conditions.status !== null){
+    if(front_matter.attributes.status !== conditions.status){
+      console.log(`Ignoring lesson ${lesson.slug}, status ${front_matter.attributes.status} != ${conditions.status}`)
+      return false;
+    }
+  }
+  
+  // WARNING! clean up UNDEFINED data, if its null it well not be cleaned, only undefined
+  Object.keys(data).forEach(key => data[key] === undefined && delete data[key] )
+  
+  let attributes = { ...front_matter.attributes, ...data };
+  
+  // deleting null attributes on front-matters
+  Object.keys(attributes).forEach(key => attributes[key] === null && delete attributes[key] )
+
+  const newContent = `---
+${Object.keys(attributes).reduce((total, key) => {
+  if(Array.isArray(attributes[key])) return total+`${key}: [${attributes[key].map(i => `"${i}"`).join(",")}]\n`
+  else return total+`${key}: "${attributes[key]}"\n`
+},"")}
+---
+
+${front_matter.body}`;
+
+  if(test === false){
+      console.log("Updating "+path+ " ...")
+      fs.writeFileSync(path, newContent);
+      console.log("Lesson updated "+lesson.slug, (front_matter.status), front_matter)
+  }
+  else console.log("TEST: Lesson updated "+path+ " with: ", newContent)
+}
+
 module.exports = {
-  walk, indexContent, findInFile, download, updateLesson, walkAsync
+  walk, indexContent, findInFile, download, updateContent, walkAsync, updateFrontMatter, getFM
 }

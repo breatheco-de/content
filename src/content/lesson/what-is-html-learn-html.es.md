@@ -140,7 +140,7 @@ Recuerda -por quinceava vez- que una página web es un…. ¡documento! Así es,
 
 Veamos ahora como se compara un website a un documento de word:
 
-<before-after width="500px" before="https://ucarecdn.com/f2021d8d-193d-4482-b189-ae0005b1bd88/" after="../../assets/images/8e339149-97ae-4b15-ba59-a3ddf3777525.png" /></before-after>
+<before-after width="500px" before="../../assets/images/f2021d8d-193d-4482-b189-ae0005b1bd88.png" after="../../assets/images/8e339149-97ae-4b15-ba59-a3ddf3777525.png" /></before-after>
 
 Las tags mas utilizadas dentro del `<body>` de un documento HTML son las siguientes:
 

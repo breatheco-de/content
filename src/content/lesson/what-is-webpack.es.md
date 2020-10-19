@@ -16,7 +16,7 @@ A estas alturas, probablemente hayas sentido lo desorganizado y difícil que pue
 Webpack es una de esas cosas que odias las primeras veces y luego no puedes vivir sin él por el resto de tu vida.  ¡Por primera vez la codificación, Javascript realmente se siente increíble, limpio y profesional!
 
 <before-after width="400px"
-    before="https://ucarecdn.com/bc337938-55c4-40e2-a370-5d69bf084a3b/" after="../../assets/images/41afcd74-81dd-4e6e-98ee-fc2642a07e7f.png" />
+    before="../../assets/images/bc337938-55c4-40e2-a370-5d69bf084a3b.png" after="../../assets/images/41afcd74-81dd-4e6e-98ee-fc2642a07e7f.png" />
 
 ### Pero, ¿qué es Webpack?
 

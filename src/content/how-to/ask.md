@@ -2,7 +2,7 @@
 title: "How to ask programming questions in just 5 steps"
 subtitle: "Ask the right quetions, get the right answer!"
 tags: ["feedback", "tutoring", "support"]
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 thumb: "https://i.imgur.com/33AP1Yd.png" 
 date: "2019-06-18"
@@ -49,4 +49,4 @@ Slack is the perfect tool for this, you can even start an instant video call wit
 
 Enter the # public-support channel which is where you will be served more quickly.
 
-![Slack en 4Geeks Academy](https://ucarecdn.com/5a432982-f8b2-42bb-89c5-3c82a8e53d10/)
+![Slack en 4Geeks Academy](../../assets/images/5a432982-f8b2-42bb-89c5-3c82a8e53d10.jpeg)
