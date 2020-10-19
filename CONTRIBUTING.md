@@ -10,7 +10,7 @@ Once you have the issue that you like to solve, add a comment letting anyone kno
 
 Fork this project and clone it to have it on your local environment.
 
-> This projects follows [the all-contributors specification](https://github.com/kentcdodds/all-contributors) and your contribution will be recognized in the main README.md of the project.
+> This project follows [the all-contributors specification](https://github.com/kentcdodds/all-contributors) and your contribution will be recognized in the main README.md of the project.
 
 ## If you would like to `write an article`
 
@@ -22,9 +22,9 @@ Fork this project and clone it to have it on your local environment.
 
 ### Writing a new article
 
-Pick one of the the `unasigned` or `pending_translation` articles from [this list](https://github.com/breatheco-de/content/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) and comment on the issue to start working on it.
+Pick one of the `unasigned` or `pending_translation` articles from [this list](https://github.com/breatheco-de/content/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) and comment on the issue to start working on it.
 
-Follow github markdown syntax to write your article, we recommend using a text editor that supports markdown like stack edit.
+Follow Github markdown syntax to write your article, we recommend using a text editor that supports markdown like stack edit.
 
 We have also create some special icons and components that you can also use inside your article content:
 

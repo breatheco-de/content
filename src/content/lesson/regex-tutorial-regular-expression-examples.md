@@ -1,10 +1,10 @@
 ---
 title: "Regex Tutorial: Learn With Regular Expression Examples"
 subtitle: "Regular Expressions are the best way to identify patterns within strings. They can seem difficult and annoying, but once you know how to use them, they're amazing! In this Regex Tutorial you will learn with Regular Expression Examples"
-cover: "https://ucarecdn.com/bf7bc7e6-c89c-4f97-9377-e30e369ba796/"
+cover_local: "../../assets/images/bf7bc7e6-c89c-4f97-9377-e30e369ba796.gif"
 textColor: "white"
 authors: ["alesanchezr"]
-date: "2018-05-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["regex","regular expression"]
 status: "draft"
 
@@ -208,7 +208,7 @@ Here are some pre-made Regex’s:
 
 #### Regular Expression for: Validating an Email
 
-![regex tutorial regular expression examples](https://ucarecdn.com/39f93d0d-248e-4e94-b402-b744c4b06a4d/-/resize/1000x/)
+![regex tutorial regular expression examples](../../assets/images/39f93d0d-248e-4e94-b402-b744c4b06a4d.png)
 
 We begin by telling the parser to find the beginning of the string (^).
 

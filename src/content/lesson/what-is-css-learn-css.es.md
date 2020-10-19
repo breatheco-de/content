@@ -1,12 +1,9 @@
 ---
 title: "Aprendamos CSS: ¿Qué Quiere Decir CSS?"
-subtitle: "Cómo te habrás dado cuenta, HTML te permite crear sólo sitios web básicos.
-Nadie quiere ver un sitio web blanco con algún texto horrible en él.
-¡Así que es hora de saber de qué se trata CSS!
-Aprende CSS para hacer tu sitio web hermoso. Es hora de brillar !."
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+subtitle: "Cómo te habrás dado cuenta, HTML te permite crear sólo sitios web básicos. Nadie quiere ver un sitio web blanco con algún texto horrible en él. ¡Así que es hora de saber de qué se trata CSS! Aprende CSS para hacer tu sitio web hermoso. Es hora de brillar !."
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2018-10-31"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["CSS"]
 status: "published"
 
@@ -16,7 +13,7 @@ status: "published"
 ***
 Luego de sumergirnos en el mundo de HTML todo empieza a parecer feo, rígido y cuadrado. Después de todo hay que recordar que HTML fue hecho por científicos, no estamos diciendo que es feo por eso, seguramente hay científicos que hacen cosas hermosas (además, fueron los mismos científicos que [decubrieron el Bosón de Higgs](https://www.youtube.com/watch?v=0CugLD9HF94) y por eso hay que alabarlos hasta nuestra muerte), pero… definitivamente… es así de feo porque fue hecho por científicos con un propósito muy diferente al que HTML cumple hoy en día.
 
-![what is css](https://ucarecdn.com/6891485c-2a5a-4722-a7dc-f108993c18ba/-/resize/300x/)
+![what is css](../../assets/images/6891485c-2a5a-4722-a7dc-f108993c18ba.jpeg)
 
 
 
@@ -27,7 +24,7 @@ Irónicamente, los mismos científicos de CERN que crearon HTML, tuvieron que po
 ## Entonces, ¿qué hace CSS? y ¿para qué sirve?
 ***
 
-![what is css](https://ucarecdn.com/8c9fea86-c56c-486f-8b64-4322338076f7/-/resize/200x/)
+![what is css](../../assets/images/8c9fea86-c56c-486f-8b64-4322338076f7.jpeg)
 
 La principal razón por la que se creó fue para aplicar estilos a los documentos de HTML. La idea es que puedas decirle al navegador cómo debe visualizar un documento HTML: cómo deben verse sus etiquetas, colores, márgenes, tipografía, iconos, bordes, etc. Incluso puedes redefinir a tu antojo los comportamientos originales de esas etiquetas ya existentes. Ej:
 
@@ -63,7 +60,7 @@ Vamos a repasar estas tags con más detalle:
 
 La sintaxis de CSS no tiene absolutamente nada que ver con la sintaxis de HTML, es su propio lenguaje de programación específico. CSS ¡no utiliza etiquetas! Para trabajar un sitio web tienes que cambiar el switch en tu mente a menudo, porque trabajarás con varios lenguajes a la vez y cada uno tiene su propia sintaxis.
 
-![aprende CSS](https://ucarecdn.com/4a25cfd5-e8ab-4abb-b4f8-148d376b3f3d/)
+![aprende CSS](../../assets/images/4a25cfd5-e8ab-4abb-b4f8-148d376b3f3d.gif)
 
 Una hoja de estilos CSS es una gran lista de definiciones de estilos para cada elemento HTML. Primero debes especificar a que elemento - o grupo de elementos - le vas a colocar estilos, a eso se le denomina SELECTOR. Luego, colocas una llave `{` para indicar que vas a empezar a definir cada propiedad y su respectivo valor, y finalizas cerrando con otra llave `}`. Siempre debes terminar cada definición de propiedad con un punto y coma `;`.
 
@@ -157,7 +154,7 @@ Hay otros selectores más específicos y avanzados. Probablemente lo usarás cua
 
 ¿Qué pasa si un elemento de la página está eleccionado por dos selectores y tiene asignado el color de letra verde en una definición y rojo en la otra? Es decir, si le decimos al navegador dos colores diferentes, ¿qué color utilizará al final?
 
-![aprende css](https://ucarecdn.com/08e78606-102f-4bc2-a066-7c26ae9400d5/-/resize/500x/)
+![aprende css](../../assets/images/08e78606-102f-4bc2-a066-7c26ae9400d5.png)
 
 Tienes que entender muy bien la jerarquía de CSS para comprender como los elementos **heredan, sobre escriben y hasta anulan estilos entre ellos.**
 
