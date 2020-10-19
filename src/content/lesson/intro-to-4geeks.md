@@ -6,8 +6,9 @@ textColor: "white"
 status: "unlisted"
 tags: ["best practices"]
 authors: ["alesanchezr"]
-date: "2020-03-10"
+date: "2020-10-19T12:36:31-04:00"
 canonical: ""
+
 ---
 
 Welcome!! 🤩👏 My name is Alejandro and I'm writing these words after years of teaching code and changing lives. Please I beg you to read until the end, I will try my best not to bore you!

@@ -1,10 +1,12 @@
 ---
 title: "Que es DOM: Document Object Model"
 subtitle: "¿Ya sabes lo que es DOM? Es una jerarquía almacenada en la memoria que contiene todos los elementos de su sitio web en tiempo real. La manipulación DOM es la actividad más popular para cualquier desarrollador de aplicaciones para usuario. ¡El DOM da vida a tus aplicaciones!"
-cover: "https://ucarecdn.com/db660bb9-1ac6-4730-a9c8-4544d6b801b0/"
+cover_local: "../../assets/images/db660bb9-1ac6-4730-a9c8-4544d6b801b0.png"
 textColor: "white"
-date: "2018-05-15"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["DOM"]
+status: "draft"
+
 ---
 
 ## ¡Basta ya con la consola!
@@ -140,7 +142,7 @@ trArray[3].style.background = "red";
 
 Como ya sabe, cada elemento del documento HTML puede tener algún tipo de contenido HTML. No importa si es un `<P>`, `<DIV>`, `<A>` o cualquier otro elemento HTML; Puede tener su propio innerHTML combinado con más contenido HTML.
 
-![what is dom](https://ucarecdn.com/2387325b-338c-4c18-bb0f-2f95ed28901f/-/resize/900x/)
+![what is dom](../../assets/images/2387325b-338c-4c18-bb0f-2f95ed28901f.png)
 
 La propiedad .innerHTML le brinda la capacidad de recuperar o configurar el contenido de cualquier elemento que tenga en su JavaScript. Por ejemplo:
 

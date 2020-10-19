@@ -1,11 +1,12 @@
 ---
 title: "Event Driven Programming"
 subtitle: "Event Driven Programming: website load, user click, window resize, etc. As a developer, you have to make sure that your applications have a flow. That flow is determined by all the possible events that can occur as the user interacts with your app."
-cover: "https://ucarecdn.com/d2ca9eb7-a3f9-432d-b791-8b1266f8923a/"
+cover_local: "../../assets/images/d2ca9eb7-a3f9-432d-b791-8b1266f8923a.gif"
 textColor: "white"
-
-date: "2018-05-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["event driven programming"]
+status: "draft"
+
 ---
 
 ## Event Driven Programming
@@ -19,7 +20,7 @@ An event is something that happens!  Like **clicking** on a button, **pressing**
 
 Your job as a developer is to prepare for those events and **define the functions** that are going to be handling those events.
 
-![event driven programming](https://ucarecdn.com/1c00bd95-1359-4fd5-8399-b1b80a769009/-/resize/500x/)
+![event driven programming](../../assets/images/1c00bd95-1359-4fd5-8399-b1b80a769009.png)
 
 ### But who Triggers these Events?
 
@@ -110,7 +111,7 @@ Now that you know what events are out there, you can start listening them whenev
 
 Let’s repeat: To **react** you need to **listen…** And to listen you need to specify a **handler** function.
 
-![events driven programming](https://ucarecdn.com/9fa13314-24cc-4a4b-9676-e60616f73602/)
+![events driven programming](../../assets/images/9fa13314-24cc-4a4b-9676-e60616f73602.gif)
 
 You can add an event listener in 2 different ways:
 

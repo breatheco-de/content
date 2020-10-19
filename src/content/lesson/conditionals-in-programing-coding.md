@@ -1,11 +1,13 @@
 ---
 title: "Conditionals in Programming or Coding"
 subtitle: "Using conditions to control the flow of your code and make the computer obey"
-date: "2017-09-24"
+date: "2020-10-19T12:36:31-04:00"
 authors: ["alesanchezr"]
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-tags: ["conditionals", "logical operations", "if else", "conditions"]
+tags: ["conditionals","logical operations","if else","conditions"]
+status: "published"
+
 ---
 
 Mastering the use of conditions is one of the 5 fundamental skills of building algorithms:
@@ -27,7 +29,7 @@ Let's say we are building a program to help us pick what to wear and we hate the
 `If` ***color*** is not **blue**, then... do something.  
 `Else`... do nothing or exit.
   
-![Conditionals](https://ucarecdn.com/e73b673e-d744-45a7-a1ed-61a1dae49560/)
+![Conditionals](../../assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png)
 
 And this is how we would write this in Javascript:
 
@@ -44,7 +46,7 @@ else{
 
 The previous example was a simple condition, but in real life picking what to wear involves a combination of several conditions to make the final decision, for example: Let's look at this algorithm that tells if you have a flu.
 
-![Hit by a flu or have a cold](https://ucarecdn.com/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800/)
+![Hit by a flu or have a cold](../../assets/images/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800.jpeg)
 
 If you want to represent this algorithm in Javascript it will look something like this:
 

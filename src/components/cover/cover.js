@@ -13,6 +13,7 @@ const getContent = (nodes) => {
     return !Array.isArray(nodes) ? '' : nodes.map(n => n.type !== "text" ? getContent(n.children) : n.value).join('')
 }
 export const Cover = ({title, subtitle, time, background, textColor, status, authors, headings, history}) => {
+    console.log("background", background)
     const source = !Array.isArray(headings) ? null : headings.map(h => {
         return { 
             to: "#"+h.properties.id,
@@ -20,9 +21,12 @@ export const Cover = ({title, subtitle, time, background, textColor, status, aut
             content: getContent(h.children),
         }
     });
+    let backgroundURL = background && background.childImageSharp ? background.childImageSharp.fluid.src : background;
+    if(typeof(backgroundURL) === "string" && backgroundURL.indexOf("../../") > -1) backgroundURL = backgroundURL.replace("../../", "/static/")
     return (<div
         style={{
-            backgroundImage: `url(${background})`,
+            backgroundImage: `url(${backgroundURL})`,
+            backgroundSize: "cover",
             color: textColor
         }}
         className={styles.cover}>

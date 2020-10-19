@@ -1,10 +1,12 @@
 ---
 title: "What is webpack?"
 subtitle: "For senior developers, it is imposible to think about developing a JS application without Webpack. Thanks to Webpack, developing front-end feels good and professional for the first time.So its time to learn what is webpack"
-cover: "https://ucarecdn.com/cdbe1bf9-2b6b-4c21-b127-eacc681d9c8d/"
-textColor: "white" 
-date: "2018-08-11"
+cover_local: "../../assets/images/cdbe1bf9-2b6b-4c21-b127-eacc681d9c8d.png"
+textColor: "white"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["webpack"]
+status: "draft"
+
 ---
 
 By now, you have probably felt how disorganized and difficult working with Javascript can be.  You have to remember in what order to include the script tags in your HTML to properly setup jQuery, Popper, Font Awesome, Bootstrap CSS files, Bootstrap JS files, your own CSS files, your own JS files, etc!  The list only gets bigger and bigger from here.
@@ -14,7 +16,7 @@ By now, you have probably felt how disorganized and difficult working with Javas
 Webpack is one of those things you hate the first few times and then you cannot live without for the rest of your life.  For the first time coding, Javascript actually feels amazing, clean and professional!
 
 <before-after width="400px"
-    before="https://ucarecdn.com/bc337938-55c4-40e2-a370-5d69bf084a3b/" after="https://ucarecdn.com/41afcd74-81dd-4e6e-98ee-fc2642a07e7f/" />
+    before="../../assets/images/bc337938-55c4-40e2-a370-5d69bf084a3b.png" after="../../assets/images/41afcd74-81dd-4e6e-98ee-fc2642a07e7f.png" />
 
 ### But what is Webpack?
 
@@ -22,7 +24,7 @@ Webpack is this thing that grabs all your application pieces (Files, Images, Fon
 
 Then, the browser will be able to request (GET) that one file and display/render the whole website… that’s it!  It’s very similar to what happens with the ".exe" files in windows – all of your application is inside the .exe file, and then you just double-click it.
 
-![what is webpack](https://ucarecdn.com/bdd432f7-adef-4023-976e-1ebd6abe70f7/)
+![what is webpack](../../assets/images/bdd432f7-adef-4023-976e-1ebd6abe70f7.gif)
 
 ### But why do I care about Bundling?
 

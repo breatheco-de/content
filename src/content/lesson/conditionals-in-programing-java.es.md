@@ -1,11 +1,13 @@
 ---
 title: "Condicionales en la programación en Java"
 subtitle: "Uso de condiciones para controlar el flujo de su código en java"
-date: "2019-11-11"
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+date: "2020-10-19T12:36:31-04:00"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 syntaxis: ["java"]
-tags: ["Condicionales", "Operaciones Logicas", "Si de lo contrario", "Condicion","Java"]
+tags: ["Condicionales","Operaciones Lógicas","Si de lo contrario","Condición","Java"]
+status: "draft"
+
 ---
 
 Dominar el uso de las condiciones es una de las 5 habilidades fundamentales de construir algoritmos:
@@ -24,7 +26,7 @@ Digamos que estamos construyendo un programa para ayudarnos a elegir qué almace
 `If` ***color*** is not **blue**, then... do something.  
 `Else`... do nothing or exit.
   
-![Condicionales](https://ucarecdn.com/e73b673e-d744-45a7-a1ed-61a1dae49560/)
+![Condicionales](../../assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png)
 
 Las sentencias de decisión son: `if-then-else` y `switch`.
 
@@ -62,7 +64,7 @@ if (valor < 10) {
 }
 ```
 
-Las sentencias if-then-else pueden estar anidadas y así nos encontraríamos con una sentencia if-then-elseif, la cual tendría la siguiente estructura:
+Las sentencias if-then-else pueden estar anidadas y así nos encontraríamos con una sentencia if-then-else if, la cual tendría la siguiente estructura:
 
 ```java
 if (expresion) {
@@ -96,7 +98,7 @@ if (valor < 10) {
 
 ## Utilizando `switch`
 
-Para los casos en los que se tienen muchas ramas o caminos de ejecución en una sentencia if tenemos la sentencia switch. La sentencia switch evalúa una expresión y ejecutará el bloque de sentencias que coincida con el valor de la expresión.
+Para los casos en los que se tienen muchas ramas o caminos de ejecución en una sentencia if tenemos la sentencia switch. La sentencia switch evalúa una expresión y ejecuta el bloque de sentencias que coincida con el valor de la expresión.
 
 El valor de la expresión tiene que ser numérico. Aunque a partir de Java SE 7 ya se pueden utilizar expresiones cuya evaluación sean cadenas.
 
@@ -118,7 +120,7 @@ switch (expresion) {
 }
 ```
 
-Es importante ver que se utiliza la sentencia break. La sentencia break hace que se salga de la sentencia switch y por lo tanto no se evalúe el resto de sentencias. Por lo tanto su uso es obligatorio al final de cada uno de los bloques.
+Es importante ver que utilizar la sentencia break. La sentencia break hace que se salga de la sentencia switch y por lo tanto no se evalúe el resto de sentencias. Por lo tanto su uso es obligatorio al final de cada uno de los bloques.
 
 Un ejemplo claro en el que podemos utilizar la sentencia switch es para evaluar el valor de un mes en numérico y convertirlo a cadena. Este código quedaría de la siguiente forma:
 
@@ -174,7 +176,7 @@ System.out.println(sMes);
 
 El ejemplo anterior era una condición simple, pero en la vida real, elegir qué hacer implica una combinación de varias condiciones para tomar la decisión final, por ejemplo: Veamos este algoritmo que le dice a una computadora cómo decidir qué ponerse durante el día de San Valentín:
 
-![What ot ware in valentines day](https://ucarecdn.com/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3/)
+![What ot ware in valentines day](../../assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg)
 
 Si quieres representar este algoritmo en Java, se verá algo así:
 

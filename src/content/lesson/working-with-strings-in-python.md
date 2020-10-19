@@ -1,17 +1,15 @@
 ---
 title: "Working with or manipulating strings with Python"
-
-status: "published"
+status: "draft"
 subtitle: "String concatenation is the Web Developer's bread and butter, our job is to concatenate strings to create HTML/CSS documents programmatically"
 authors: ["alesanchezr"]
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2019-11-15"
+date: "2020-10-19T12:36:31-04:00"
 syntaxis: ["python"]
 tags: ["string","python","concatenation"]
+
 ---
-
-
 
 ## What is a string?
 

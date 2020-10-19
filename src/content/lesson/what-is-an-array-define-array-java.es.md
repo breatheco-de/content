@@ -1,12 +1,12 @@
 ---
 title: "Es Hora de Aprender lo que es un Arreglo o Matriz en java"
-
 subtitle: "¿Se puede trabajar con arreglos? Si no puedes, no te preocupes aquí, aprenderás qué es una matriz y cómo trabajar con ellas."
-
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2019-11-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["arreglo","matriz","java","Listas","Diccionarios"]
+status: "draft"
+
 ---
 
 Dominar el uso de los arreglos y bucles es una de las 5 habilidades fundamentales de construir algoritmos:
@@ -38,7 +38,7 @@ Cada arreglo tiene los mismos conceptos básicos:
 
 **Index:** es la posición del elemento.
 
-![what is an array define array](https://ucarecdn.com/7ed2c414-0d00-4e68-b659-b65c26d1983a/-/resize/1000x/)
+![what is an array define array](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
 
 
 [[info]]

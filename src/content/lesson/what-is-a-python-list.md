@@ -1,12 +1,12 @@
 ---
 title: "Workin with Lists in Python"
-
 subtitle: "Lists are the first type of data-structures that Python has to store multiple values at once, they are very powerful and heavily used in every day operations for any type of program in any industry"
-
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2018-02-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["list"]
+status: "draft"
+
 ---
 
 ## Introduction to Python lists
@@ -35,7 +35,7 @@ Every list has the same basic concepts:
 
 **Index:** is the position of the element.
 
-![what is an list define list](https://ucarecdn.com/7ed2c414-0d00-4e68-b659-b65c26d1983a/-/resize/1000x/)
+![what is an list define list](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
 
 
 [[info]]

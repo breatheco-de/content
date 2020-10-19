@@ -1,10 +1,12 @@
 ---
 title: "What is HTML? It's time to learn HTML and its structure"
 subtitle: "But really, what is HTML? HTML is to websites what columns are for buildings. Here you will learn HTML basics, the foundations of the web."
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2018-10-31"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["html"]
+status: "draft"
+
 ---
 
 [[info]]
@@ -20,12 +22,12 @@ HTML allows you to divide the website information into parts – similar to the 
 
 Originally, browsers only knew how to interpret HTML.  Websites were simple and neither CSS or JavaScript were used. A website was a simple plain-text document with the typical elements any Word Document has: headings, bullet-point lists, paragraphs, etc.
 
-![what is html](https://ucarecdn.com/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc/-/resize/600x/)
+![what is html](../../assets/images/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc.png)
 
 
 # HTML Syntax: It’s All `<Tags>`.
 ***
-![what is html](https://ucarecdn.com/78296f64-547f-4928-a8da-14cb24e836b9/)
+![what is html](../../assets/images/78296f64-547f-4928-a8da-14cb24e836b9.gif)
 
 Remember when we said the Internet is all text?
 
@@ -104,7 +106,7 @@ Lets simulate how a browser thinks: Imagine a user on his browser (client-side) 
 
   As you can see, all pages will include, AT LEAST, the following tags:
 
-  ![learn html](https://ucarecdn.com/e8d3d49d-8c7e-4bc2-88e0-15b95a8ccc54/-/resize/400x/)
+  ![learn html](../../assets/images/e8d3d49d-8c7e-4bc2-88e0-15b95a8ccc54.png)
 
 |**Name**   |**Tags**   |**Description**   |
 |:----------|:----------|:-----------------|
@@ -134,7 +136,7 @@ Remember – for the fifteenth time – that a web page is… a text document!  
 
 Lets see how a website compares to a Word document:
 
-<before-after width="500px" before="https://ucarecdn.com/f2021d8d-193d-4482-b189-ae0005b1bd88/" after="https://ucarecdn.com/8e339149-97ae-4b15-ba59-a3ddf3777525/" /></before-after>
+<before-after width="500px" before="../../assets/images/f2021d8d-193d-4482-b189-ae0005b1bd88.png" after="../../assets/images/8e339149-97ae-4b15-ba59-a3ddf3777525.png" /></before-after>
 
 The most frequent tags used inside the `<body>` of an HTML document are:
 
@@ -176,5 +178,5 @@ You just learned how a website was built in 1999.  Now we only have a few more w
 
 HTML has a lot more tags.  There's also a new version called HTML5.  But again, don’t worry, you’ll **learn HTML** and how to build beautiful (thanks to CSS) and interacting (thanks to formularies and JavaScript) websites in the next few lessons.  That’s why we are here!!
 
-![learn html](https://ucarecdn.com/ed1c57e1-5c67-4bf1-96ed-1fb2353fb2ca/-/resize/200x/)
+![learn html](../../assets/images/ed1c57e1-5c67-4bf1-96ed-1fb2353fb2ca.gif)
 

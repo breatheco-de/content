@@ -4,15 +4,16 @@ subtitle: "Having a great resume takes hours to build, even if its fake. But hav
 cover: "https://ucarecdn.com/c315bebc-2e8d-4e71-a2df-25ad3618ac3d/githubbackground.jpg"
 textColor: "white"
 authors: ["alesanchezr"]
-status: "published"
-date: "2018-05-11"
-tags: ["github", "job hunting", "resume building"]
+status: "draft"
+date: "2020-10-19T12:36:31-04:00"
+tags: ["github","job hunting","resume building"]
 thumb: "https://i.imgur.com/F03qoZF.png"
+
 ---
 
 ## Introduction to Github (skip it if you know it already)
 
-![Github Screenshot](https://ucarecdn.com/4889ebd9-201f-46c7-a1fb-d3d8c2f4493e/)
+![Github Screenshot](../../assets/images/4889ebd9-201f-46c7-a1fb-d3d8c2f4493e.png)
 
 Github is a social network for developers, but probably not the type of social network you use every day:
 - You can't post a picture of what you are about to eat.
@@ -52,4 +53,4 @@ Make sure to give your own personal style, but in general you can focus on tryin
 
 ### An Example Profile: Dan Abramov
 
-![Dan Abramov Github Profile](https://ucarecdn.com/b04c5254-086a-4b9f-8b86-0cf95fcc3fcd/danabramov.png)
+![Dan Abramov Github Profile](../../assets/images/danabramov.png)

@@ -1,10 +1,11 @@
 ---
 title: "Object Oriented Programming"
 subtitle: "Classes are the last pieces needed to master the programming tricks! Welcome to the amazing world of object-oriented programming."
-cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
+cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
-date: "2018-05-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["object oriented programming"]
+status: "draft"
 
 ---
 
@@ -47,7 +48,7 @@ Classes and objects are the two main aspects of object oriented programming.  A 
 
 > Let’s say you have a new car with licence plate XHR-ABM.  That specific object will be the instance of an object with the car class.
 
-![what is object oriented programming concepts](https://ucarecdn.com/ed2a2bfb-95eb-473f-af7c-aa9f1d4c055e/-/resize/700x/)
+![what is object oriented programming concepts](../../assets/images/ed2a2bfb-95eb-473f-af7c-aa9f1d4c055e.jpeg)
 
 ## Defining Classes (abstraction)
 ***
@@ -60,7 +61,7 @@ Every application and website that you are going to build needs to have its own 
 
 For example: A Person class has: skin color, race, name, social-security number, etc.  All properties have a data-type, like: Integer, String, Float, Null, Arrays.
 
-![what is object oriented programming concepts](https://ucarecdn.com/10ce9a67-1060-4550-a824-5087688d0630/-/resize/400x/)
+![what is object oriented programming concepts](../../assets/images/10ce9a67-1060-4550-a824-5087688d0630.png)
 
 ***
 
@@ -70,7 +71,7 @@ If we want to store the birth-date of the person using simple data-types we will
 
 A better solution will be to use pre-defined Date classes or functions that come with most of the back-end programming languages, for example [PHP Date](https://www.w3schools.com/php/php_date.asp) or [Python datetime.](https://www.pythonforbeginners.com/basics/python-datetime-time-examples)
 
-![what is object oriented programming concepts](https://ucarecdn.com/6f07bc8b-6d21-46e6-8710-34992df2508b/-/resize/400x/)
+![what is object oriented programming concepts](../../assets/images/6f07bc8b-6d21-46e6-8710-34992df2508b.png)
 
 ***
 
@@ -78,7 +79,7 @@ A better solution will be to use pre-defined Date classes or functions that come
 
 Some properties are calculated during runtime every time we need them.  For example: age.  The problem with age is that it changes over time.  That is why it is not a good idea to store the current age of the user.   Instead, it is better to declare a calculated property called "Age," and declare a function that calculates the current age of the user based on its birthDate.
 
-![what is object oriented programming concepts](https://ucarecdn.com/a2a08a9f-5a5c-415e-93d6-c8a45aecb23d/-/resize/400x/)
+![what is object oriented programming concepts](../../assets/images/a2a08a9f-5a5c-415e-93d6-c8a45aecb23d.png)
 
 
 
@@ -116,7 +117,7 @@ Clients have usernames, names, lastNames.  Cars have color, brand, price, etc.  
 
 ### Our Class Model is looking like this:
 
-![what is object oriented programming concepts](https://ucarecdn.com/61908aa1-63a5-40b1-8a53-8c7b202d4ef3/-/resize/800x/)
+![what is object oriented programming concepts](../../assets/images/61908aa1-63a5-40b1-8a53-8c7b202d4ef3.png)
 
 ### Writing the Functions, Relationships and Inheritance
 
@@ -187,19 +188,19 @@ Perhaps you may feel that it is pointless to use "getters" and "setters" for eve
   
 *Here is another example of a "getter/setter" in real-life:*
 
-![what is object oriented programming concepts](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/JS.png)
+![what is object oriented programming concepts](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abcJS.png)
 
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Object-Oriented-Javascript?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Object-Oriented-Javascript?lite=true">Click here to open demo in a new window</a></small></div>
 
-![what is object oriented programming concepts](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/PYTHON.png)
+![what is object oriented programming concepts](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81PYTHON.png)
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Python-Class-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <div align="right"><small>
 <a href="https://repl.it/@4GeeksAcademy/Python-Class-Example?lite=true">Click here to open demo in new window</a></small></div>
 
-![what is object oriented programming concepts](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/PHP.png)
+![what is object oriented programming concepts](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600fPHP.png)
 <iframe src="https://repl.it/G1cx/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <div align="right"><small><a href="https://repl.it/G1cx/0?lite=true">Click here to open demo in a new window</a></small></div>
@@ -232,17 +233,17 @@ In [object-oriented programming](https://searchmicroservices.techtarget.com/defi
 "Car" is a classification of "Four-Wheeler."  Here, "Car" acquires the properties of a "Four-Wheeler."  Other classifications could be a Jeep, Tempo, van etc. "Four-Wheeler" defines a class of vehicles that has four wheels, a specific range of engine power, load carrying capacity etc.  "Car" (termed as a sub-class) acquires these properties from "Four-Wheeler" (termed as a super-class), and has SOME specific properties that are different from other classifications of "Four Wheeler," such as luxury, comfort, shape, size, usage, etc.
 
 "Car" can have further classification such as "Open Car," "Small Car," "Large Car," etc, which will acquire the properties from BOTH "Four-Wheeler" AND "Car" – but will still have some specific properties.  This way the level of hierarchy can be extended to any level.
-![what is object oriented programming concepts](https://ucarecdn.com/51a4c486-2a08-4471-b2b5-80e32ce41abc/JS.png)
+![what is object oriented programming concepts](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abcJS.png)
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/ObjectOriented2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/ObjectOriented2?lite=true">Click here to open demo in a new window</a></small></div>
 
-![what is object oriented programming concepts](https://ucarecdn.com/54a062a9-1b37-4d49-ae22-a23d91ad600f/PHP.png)
+![what is object oriented programming concepts](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600fPHP.png)
 <iframe src="https://repl.it/G1cq/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <div align="right"><small ><a href="https://repl.it/G1cq/0?lite=true">Click here to open demo in a new window</a></small></div>
 
-![what is object oriented programming concepts](https://ucarecdn.com/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81/PYTHON.png)
+![what is object oriented programming concepts](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81PYTHON.png)
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Python-Class-Inheritance?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Python-Class-Inheritance?lite=true">Click here to open demo in a new window</a></small></div>

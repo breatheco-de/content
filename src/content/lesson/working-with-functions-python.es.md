@@ -1,14 +1,14 @@
 ---
 subtitle: "Las funciones no son opcionales - Es probable que sean la característica más utilizada en cualquier lenguaje de programación. Te permiten separar tu código en miniprogramas más pequeños, donde cada uno se ocupa de lo suyo. ¡Divide y conquistarás!"
 title: "Trabajando con Funciones"
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-
-date: "2020-02-13"
+date: "2020-10-19T12:36:31-04:00"
 syntax: ["python"]
-tags: ["python", "fuctions"]
----
+tags: ["python","fuctions"]
+status: "draft"
 
+---
 
 ## ¿Qué son las Funciones?
 

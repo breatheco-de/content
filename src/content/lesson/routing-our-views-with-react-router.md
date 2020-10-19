@@ -1,10 +1,12 @@
 ---
 title: "Routing our Views with React Router"
 subtitle: "Create your application structure and connect your Views with React Router"
-cover: "https://ucarecdn.com/8c053abc-2f09-47e9-b586-751538d180c4/"
+cover_local: "../../assets/images/8c053abc-2f09-47e9-b586-751538d180c4.png"
 textColor: "white"
-date: "2018-11-13"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["reactjs","react router"]
+status: "draft"
+
 ---
 
 ## What is React Router?
@@ -30,7 +32,7 @@ For the rest of us building real web applications, we need to connect several vi
 
 For example, we need the following application URLs to match the following components:
 
-![react router](https://ucarecdn.com/6fd2b44b-598b-4ddb-85ba-9c32b086127f/-/resize/800x/)
+![react router](../../assets/images/6fd2b44b-598b-4ddb-85ba-9c32b086127f.png)
 
 
 ## Defining your Application Routes
@@ -44,7 +46,7 @@ What pages/views do you want your app to have? You can always start with the bas
 
 The rest of the pages depend on your application and on how you want your users to navigate through your site.
 
-![react router](https://ucarecdn.com/205cd2de-dfae-4712-a5e4-1c922994e60d/-/resize/700x/)
+![react router](../../assets/images/205cd2de-dfae-4712-a5e4-1c922994e60d.png)
 
 ## Mapping your Views to URLs
 ***
@@ -52,7 +54,7 @@ The rest of the pages depend on your application and on how you want your users 
 This is the sitemap for any typical e-commerce website:
 
 
-![react router](https://ucarecdn.com/9021be43-57ae-4667-8c1a-435b8521ce59/-/resize/600x/)
+![react router](../../assets/images/9021be43-57ae-4667-8c1a-435b8521ce59.png)
 
 ## Coding your Application Routes
 ***
