@@ -5,7 +5,7 @@ cover_local: "../../assets/images/576d4b0e-8b35-493d-879c-4d8f914c585f.png"
 textColor: "white"
 date: "2020-10-19T12:36:31-04:00"
 tags: ["python"]
-status: "draft"
+status: "published"
 
 ---
 
