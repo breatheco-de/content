@@ -1,9 +1,9 @@
 ---
 title: "What is The Internet?"
 subtitle: "What is the internet: Everything you see on the internet is a text document. Everything!! As developers, all we do is generate chunks of text based on a set of criteria. If you understand this simple concept, the sky will be the limit."
-cover: "https://ucarecdn.com/05a36362-c09f-4961-a7b9-8e3132a902b1/"
+cover_local: "../../assets/images/05a36362-c09f-4961-a7b9-8e3132a902b1.jpeg"
 textColor: "white"
-date: "2017-08-10"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["internet"]
 status: "draft"
 
@@ -29,7 +29,7 @@ For this reason, they worked on something as similar as possible to a Microsoft 
 >
 >The easiest way to think of the Internet is as a network of shared documents that were once rigid, formal scientific publications and, nowadays, are interactive, exciting and spectacular.
 
-![what is the internet](https://ucarecdn.com/ffe440de-8746-4ab5-81cc-37ef107155e9/-/resize/500x/)
+![what is the internet](../../assets/images/ffe440de-8746-4ab5-81cc-37ef107155e9.jpeg)
 
 
 ## Everything is Text (HTTP)
@@ -44,7 +44,7 @@ What this means is that: everything is text.  For example, if you wish to send a
 + That long sequence of characters arrives at your grandmother’s computer.
 + Your grandmother double clicks the photo and the program she uses to see the photo transforms the text back into an image understandable to a human.
 
-![what is the internet](https://ucarecdn.com/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e/)
+![what is the internet](../../assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif)
   
 <small style="color:grey">Image 1: The 4 steps needed to send images over the internet: first it turns to text, then it travels, then it arrives at grandma's computer, grandma opens the picture and the picture shows… lastly, grandma is happy looking at her grandson's photo!</small>
 
@@ -100,7 +100,7 @@ Well, it does a lot! The server is responsible for preparing the text that will 
 
 So…lets summarize:
 
-![what is the internet](https://ucarecdn.com/57821cbc-5ba0-4e1c-9b90-7f1df7c637fa/)
+![what is the internet](../../assets/images/57821cbc-5ba0-4e1c-9b90-7f1df7c637fa.gif)
 
  
 | The Server   |      The Client       |

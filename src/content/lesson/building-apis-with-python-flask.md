@@ -1,11 +1,12 @@
 ---
 title: "Building RESTful API's using Flask"
 subtitle: "Flask is becoming the most popular Python framework (if its not already), learn how to build RESTful API's the REST way"
-cover: "https://ucarecdn.com/91bcc549-6758-49c3-a790-4245afbd8ece/"
+cover_local: "../../assets/images/91bcc549-6758-49c3-a790-4245afbd8ece.png"
 textColor: "black"
-date: "2019-05-02"
+date: "2020-10-19T12:36:31-04:00"
 status: "published"
 tags: ["Flask","python","REST","API"]
+
 ---
 
 By now you should know already what a REST api is, if you don't I recomend you [read about it here](http://content.breatheco.de/lesson/understanding-rest-apis).

@@ -1,7 +1,7 @@
 ---
 subtitle: "La context API es la herramienta más reciente que React.js ha puesto a disposición para manejar el flujo de datos de su aplicación. Es el compañero perfecto para construir aplicaciones pequeñas sin necesidad de usar necesidad de Flux o Redux"
 title: "Implementando un estado global con context API"
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 status: "published"
 date: "2018-12-03"
@@ -35,7 +35,7 @@ Cada vez que los datos del **proveedor** cambian, todos los **consumidores** rec
 
 > Todo el mundo tiene acceso al contexto global ahora.
 
-![Explicación Context API](https://ucarecdn.com/72fe5361-5b2a-460f-8c2a-2d376616abf6/)
+![Explicación Context API](../../assets/images/72fe5361-5b2a-460f-8c2a-2d376616abf6.png)
 
 ## Flujo de datos unidireccional
 
