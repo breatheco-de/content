@@ -62,7 +62,7 @@
     "start": "gatsby develop -p 3000",
     "now-build": "npm run build && node generate-json.js",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node src/test/test-lessons.js"
   },
   "devDependencies": {
     "arg": "^4.1.3",
