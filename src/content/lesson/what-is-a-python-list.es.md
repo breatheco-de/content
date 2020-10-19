@@ -1,4 +1,6 @@
 ---
+title: "Trabajando con listas en Python"
+subtitle: "Las listas son el primer tipo de estructura de datos que Python tiene para alamacenar múltiples valores a la vez; son muy poderosas y se usanm ucho en las operaciones diarias de cualquier tipo de programa de cualquiera industria"
 title: "Es Hora de Aprender lo que es un Arreglo o List en Python"
 subtitle: "¿Se puede trabajar con arreglos? Si no puedes, no te preocupes aquí, aprenderás qué es un arreglo/list y cómo trabajar con ellas."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
@@ -6,11 +8,13 @@ textColor: "white"
 date: "2020-10-19T12:36:31-04:00"
 syntax: "python"
 tags: ["array","list","python","loops"]
-status: "draft"
+status: "published"
 
 ---
 
-Dominar el uso de los `arreglos e iteraciones` es una de las 5 habilidades fundamentales de construir algoritmos:
+## Introducción a las listas en Python
+
+Dominar el uso de listas y bucles es una de las 5 habilidades fundamentales para construir algoritmos:
 
 1. Variables.
 2. Condicionales.
@@ -18,48 +22,49 @@ Dominar el uso de los `arreglos e iteraciones` es una de las 5 habilidades funda
 4. `Loops (Bucles)`.
 5. Funciones.
 
-## ¿Qué es un arreglo?
+## ¿Qué es una lista?
 
-Un arreglo/lista es, normalmente, cualquier colección de valores. Las reglas de cómo agregar o eliminar elementos de esa lista pueden cambiar de un lenguaje de programación a otro. Pero - en general - son las únicas formas en que los desarrolladores pueden crear elementos.
-Los arreglos son la única forma en que tenemos que enumerar las cosas - independientemente de la aplicación con la que esté trabajando, siempre tendrás cosas que enumerar. Por ejemplo: lista de estudiantes, lista de artistas, lista de transacciones ... ¡cualquier cosa!
+Un lista es, normalmente, cualquier colección de valores. Las reglas de cómo agregar o eliminar elementos de esa lista pueden cambiar de un lenguaje de programación a otro. Pero - en general - son las únicas formas en que los desarrolladores pueden crear elementos.
+Las listas no son la única forma en que tenemos que enumerar las cosas almacenar múltiples valores de una sola vez pero es la más usada para ese propósito. Por ejemplo: lista de estudiantes, lista de artistas, lista de transacciones ... ¡cualquier cosa!
 
 Este tipo de datos hace muchas más cosas que los otros. Las listas son la única forma de almacenar más de un tipo de datos en la misma variable.
 
-Cada arreglo tiene los mismos conceptos básicos:
+Cada lista tiene los mismos conceptos básicos:
 
-**The items:** Son los valores reales dentro de cada posición del arreglo.
+**The items:** Son los valores reales dentro de cada posición de la lista.
 
-**The length:** es el tamaño del arreglo (cuántos elementos tiene el arreglo).
+**The length:** es el tamaño de la lista (cuántos items tiene la lista).
 
 **Index:** es la posición del elemento.
 
-![what is an array define array](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
-
+![¿qué es una lista?](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
 
 [[info]]
-| :point_up: Las posiciones del arreglo comienzan con **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
+| :point_up: Las posiciones de la comienzan con **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
 
-## ¿Como Declarar una Lista/Arreglo en Python?
+## ¿Como Declarar una Lista?
 ***
 
 Utilizando corchetes de la siguiente manera:
 
 ```python
-myList = [] # lista vacia
-myList = ["Apple", "Orange", "Donkey"] # con 3 elementos de cadena por defecto.
+myList = [] #lista vacia
+myList = ["Apple", "Orange", "Donkey"] # La única forma de declarar una lista
+myTuple = ("Apple", "Orange", "Donkey") # Esto no es una lista, es una version más limitada llamada "Tupla"
+mySet = {"Apple", "Orange", "Donkey"} # Esto no es una lista, es una version más limitada llamada "set" (cojunto).
 ```
 
-## Acceder a los Elementos en la lista Python
+## Acceder a los items en la lista 
 
-Para acceder a un elemento específico en una lista, necesita un índice. Un índice es un valor entero que representa la posición del arreglo a la que desea acceder.
+Para acceder a un elemento específico en una lista, necesita un `index` o índice. Un índice es un valor entero que representa la posición del arreglo a la que desea acceder/obtener/recuperar.
 
-El índice siempre debe comenzar en cero (0). Eso significa que un arreglo de 2 elementos puede tener un índice = 0 o un índice = 1. Tratar de obtener la segunda posición devolverá "indefinido" porque significará que estamos tratando de acceder al tercer elemento (que no existe). Por ejemplo, para obtener cualquier elemento del arreglo, puede hacer lo siguiente:
+El índice siempre debe comenzar en cero (0). Eso significa que una lista de 2 elementos puede tener un índice = 0 o un índice = 1. Tratar de obtener la segunda posición devolverá "indefinido" porque significará que estamos tratando de acceder al tercer elemento (que no existe). Por ejemplo, para obtener cualquier elemento de la lista puede hacer lo siguiente:
 
 ```python
     print(myList[0])  # Esto imprimirá el 1er elemento en la consola.
     aux = myList[5]
     print(aux); # Esto imprimirá el 4to elemento en la consola.
-    print(myList[myList.length-1]);  #vEsto imprimirá el último elemento del arreglo.
+    print(myList[myList.length-1]);  #vEsto imprimirá el último elemento en la consola.
 ```
 
 ## Actualizar Elementos en el Arreglo
@@ -68,14 +73,14 @@ Si lo deseas, puedes restablecer o actualizar cualquier elemento dentro de un ar
 
 ```python
     myList[5] = 'Whatever value'
-    # Esto establecerá el valor 'Cualquier valor' en el sexto elemento del arreglo.
+    # Esto asignará el valor 'Whatever value' en el sexto elemento de la lista.
 ```
 
-## Añadiendo elementos a una lista (función append o insert) en Python
+## Añadiendo elementos a una lista (función append o insert)
 
 Hay dos formas de agregar un nuevo elemento: final de la lista o donde tu quieras, y necesitemos usar las funciónes append e insert respectivamente para eso.
 
-### Utilizando `append` en Python
+### Utilizando `append` en las listas de Python
 
 ```python
     myList = ['Pedro','Juan','Maria']
@@ -83,7 +88,7 @@ Hay dos formas de agregar un nuevo elemento: final de la lista o donde tu quiera
     print(myList); # esto imprimirá ['Pedro','Juan','Maria','Chris'];
 ```
 
-### Utilizando `insert` (seleccionando posicion) en Python
+### Utilizando `insert` (seleccionando posición) en Python
 
 La ventaja de utilizar insert es que te permite seleccionar la posicion donde deseas insertar el elemento en el array:
 
@@ -96,15 +101,13 @@ La ventaja de utilizar insert es que te permite seleccionar la posicion donde de
 [[info]]
 | :point_up: La funcion `insert` es mucho mas lenta que `append`, deberias tratar de eviarla.
 
-## Eliminando Elementos de una lista con Python(función pop, remove, delete)
-
+## Eliminando items de una lista con Python(función pop, remove, delete)
 
 A diferencia de otros lenguajes como Javascript, Python cuenta con varias funciones para remover elementos de un array: Pop, Remove, Delete.
 
-### Removiendo elementos de una lista con POP
+### Eliminando elementos de una lista con POP
 
 Eliminar un elemento utilizando `pop` tiene exactamente las mismas limitaciones que al agregar un elemento utilizando `append`: solo permite eliminar un elemento de la última posición de la lista. 
-Si desea eliminar un elemento diferente, debes utilizar otra funcion (como remove o delete) crear una nueva lista sin ese elemento en particular.
 
 ```python
     myList = ['Pedro','Chris','Juan','Maria']
@@ -112,7 +115,9 @@ Si desea eliminar un elemento diferente, debes utilizar otra funcion (como remov
     print(myList) # esto imprimirá ['Pedro','Chris','Juan']
 ```
 
-### Removiendo elementos de una lista con Remove
+### Eliminando elementos de una lista con Remove
+
+Te permitirá eliminar la primera ocurrencia de un elemento por su nombre.
 
 ```python
     #Si deseas eliminar 'Chris', necesitas hacer lo siguiente: 
@@ -121,9 +126,9 @@ Si desea eliminar un elemento diferente, debes utilizar otra funcion (como remov
     print(myList) # esto imprimirá ['Pedro','Chris','Juan'];
 ```
 
-### Removiendo elementos de una lista con Delete
+### Eliminando elementos de una lista con Delete
 
-Una de las funcionalidades mas útiles de `del` es que puedes eliminar un rango de elementos de una sola vez.
+Una de las funcionalidades mas útiles de `del` es que puedes eliminar muchos elementos de una sola vez. Debes especificar la posición de partida y de término.
 
 ```python
     #Si deseas eliminar 'Chris', necesitas hacer lo siguiente: 
@@ -135,7 +140,7 @@ Una de las funcionalidades mas útiles de `del` es que puedes eliminar un rango 
 ## Iterando sobre una lista (bucles)
 ***
 
-Normalmente, cuando trabajes con listas, tendrás que recorrer todos los items. Por ejemplo: ordenándolos manualmente; voltearlos, filtrarlos, etc.
+Normalmente, cuando trabajes con listas, tendrás que recorrer todos los items. Por ejemplo: ordenándolos manualmente; cambiar su orden, filtrarlos, etc.
 
 Hay varias formas de recorrer una lista, pero la mas utilizada es la funcion `for`:
 
@@ -160,34 +165,5 @@ for i in range(0,len(myList)):
 # La posicion es 3 para el elemento Bob
 ```
 
-## Ordenando los Arreglos
 
-Es muy común la necesidad de ordenar arreglos. Por ejemplo: ordenar una lista de estudiantes por nombre. Tienes dos funciones para ordenar en JavaScript:
-
-Sort y Reverse
-
-Ellos hacen lo mismo, excepto que Reverse lo hace al revés. Ambos clasifican usando la lógica de comparación de cadenas, lo que significa que la cadena "25" es más grande que "100", porque "2" es más grande que "1".
-
-```python
-    fruits = ["Banana", "Orange", "Apple", "Mango"]
-    fruits.sort()
-    print(fruits) # [ 'Apple', 'Banana', 'Mango', 'Orange' ] 
-    fruits.sort(reverse = True) 
-    print(fruits) # [ 'Orange', 'Mango', 'Banana', 'Apple' ]
-```
-
-
-### Ordenando con diccionarios
-
-Ahora que conocemos la función de comparación, podemos usarla para indicar a la función sort cómo ordenar nuestros propios objetos especiales, como aquí, por ejemplo:
-
-```python
-    carros = [
-        { "type":"Volvo", "year": 2016 },
-        { "type":"Saab", "year": 2001 },
-        { "type":"BMW", "year": 2010 }
-    ]
-
-    carros_ordenados = sorted(carros, key=lambda item: item['year']) 
-    print(carros_ordenados) # [ { 'type': 'Saab', 'year': 2001 },{ 'type': 'BMW', 'year': 2010 },{ 'type': 'Volvo', 'year': 2016 } ]
-```
+   
