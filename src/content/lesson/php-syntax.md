@@ -5,11 +5,11 @@ cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T12:36:31-04:00"
 tags: ["PHP"]
-status: "draft"
+status: "published"
 
 ---
 
-## What is PHP
+## What is PHP ?
 ***
 
 PHP is one of the most used back-end languages in the web.  In terms of functionality, it lets you do pretty much what any other back-end language lets you.  The syntax is pretty similar to JavaScript, and its biggest strength is the community – you can find tutorials and documentation for everything you do.
