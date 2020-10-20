@@ -1,6 +1,5 @@
 ---
 title: "Working with or manipulating strings with Python"
-status: "draft"
 subtitle: "String concatenation is the Web Developer's bread and butter, our job is to concatenate strings to create HTML/CSS documents programmatically"
 authors: ["alesanchezr"]
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
@@ -8,7 +7,7 @@ textColor: "white"
 date: "2020-10-19T12:36:31-04:00"
 syntaxis: ["python"]
 tags: ["string","python","concatenation"]
-
+status: "published"
 ---
 
 ## What is a string?
@@ -139,3 +138,17 @@ uppercased_string = name2.upper() # will convert to uppercase
 number = 3.4 # I am a number
 number_as_string = str(number) # I am a string with value "3.4"
 ```
+### Extracting substring from a string
+
+In many cases it is necessary to extract a portion or substring of a given string. As we have already seen, we only need to know which positions we want to subtract and place them using brackets as follows:
+
+```python
+
+string = "Python is a language"
+print(cadena[1:5]) # It will print "ython"
+print(cadena[1:]) # Imprime "ython is a language"
+print(cadena[:5]) # Imprime "Pytho"
+
+```
+
+
