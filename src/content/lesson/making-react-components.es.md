@@ -3,7 +3,7 @@ title: "Creando Componentes de React"
 subtitle: "React.js, conviértete en master de Componentes de React y habrás conquistado el mundofront-end de React." 
 cover: "https://ucarecdn.com/84c4d84c-51b9-4906-a572-71cc07ecfc8c/"
 textColor: "white"
-date: "2018-11-14"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["reactjs"]
 status: "published"
 
@@ -25,7 +25,7 @@ function NavBar(props){
            </nav>);
 }
 
-//o como un componente de clae
+//o como un componente de clase
 import React from 'react';
 
 class Navbar extends React.Component{
@@ -140,7 +140,7 @@ Aquí hay un ejemplo del componente `<Clock />` del que acabamos de hablar:
   
 ¡Pero no te preocupes! ¡Puedes cambiar de un tipo de declaración a la otra sin ningún problema! Aquí hay una comparación de ambos tipos de componentes:
 
-|&nbsp; &nbsp;   |Como una **Function**     |Como una **Class**   |
+|&nbsp; &nbsp;   |Como una **Function**     |Como una **Clase**   |
 |:---------|:--------:|:---------:|
 |Sencillez      |Muy simple declaración y uso. El único propósito de la función es devolver un HTML con todo lo que este componente debe mostrar cuando se coloca en el sitio web.     |Más complejo - la declaración de clase debe heredarse de React.Component y contiene muchas más funcionalidades que le permiten al desarrollador personalizar la lógica de los componentes, como los métodos de ciclo de vida y el estado. Ten en cuenta que puedes crear tantos métodos de clase adicionales como desees.    |
 |Declaración       |`python>// usando functions`<br>`python>function MyComponent(){`<br>&nbsp;&nbsp;`python>return Hello;`<br>`}`<br><br>`python>// o usando funciones de flecha` <br>`python>const MyComponent = () => Hello;`     |`python>// usando classes`<br>`python>import React from 'react';`<br>`python>class MyComponent extends React.Component{`<br> &nbsp; &nbsp;    `python>render(){`<br>  &nbsp; &nbsp; &nbsp;       `python>return Hello;`<br> &nbsp; &nbsp;   `python>}`<br>`python>}`         |
