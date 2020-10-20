@@ -1,9 +1,9 @@
 ---
 title: "Dominando Bases de Datos: ¿Qué es la Base de Datos SQL?"
 subtitle: "¿Estás listo para trabajar con datos? Aprende aquí sobre qué es la base de datos SQL y cómo trabajar con ella."
-cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
+cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
-date: "2018-11-14"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["sql"]
 status: "published"
 
@@ -16,7 +16,7 @@ Las bases de datos son la mejor manera de almacenar datos, y ¡cada día hay má
 
 Al principio, la información se guardaba en archivos más simples como .csv (separados por comas).  Esto era muy desorganizado – los datos eran fáciles de corromper y de difícil acceso (imagina tener que buscar archivos separados por comas).
 
-![Qué es la Base de Datos SQL](https://ucarecdn.com/11fcd6d8-6177-4f42-b4e0-7b6475f24b0a/-/resize/200x/)
+![Qué es la Base de Datos SQL](../../assets/images/11fcd6d8-6177-4f42-b4e0-7b6475f24b0a.jpeg)
 
 En algún momento, nuestro amigo [Edgar](https://en.wikipedia.org/wiki/Edgar_F._Codd) decidió rediseñar esos archivos y creó una forma estándar de almacenar datos en archivos centrados en el rendimiento y la integridad.  Se asoció con el señor [Donald](https://en.wikipedia.org/wiki/Donald_D._Chamberlin) y juntos crearon un lenguaje llamado SQL –  que fue diseñado para trabajar con datos de una manera muy amigable.
 
@@ -53,7 +53,7 @@ Las tablas tienen columnas (como excel).  Una tabla llamada Persona puede tener 
 
 Si una tabla es llamada Personas y tiene esas 4 columnas (nombre, apellido, fecha de cumpleaños y peso) entonces las filas serán cada persona en específico que has almacenado en tu base de datos.
 
-![Qué es la base de datos SQL](https://ucarecdn.com/4f549fb5-d4c8-4e31-b63c-34426b675b92/)
+![Qué es la base de datos SQL](../../assets/images/4f549fb5-d4c8-4e31-b63c-34426b675b92.gif)
 
 &nbsp;
 &nbsp;
@@ -67,19 +67,19 @@ Una base de datos es una colección de tablas interconectadas.  La conexión ent
 
 El ejemplo perfecto es la base de datos IRS, probablemente esta base de datos tiene una tabla llamada Contribuyente que contiene toda la información acerca de cada persona con un número de seguridad social y otra tabla con las Declaraciones De Impuestos del año en curso:  **Una persona puede tener sólo una declaración y sólo una declaración puede ser hecha por una persona.**
 
-![base de datos SQL](https://ucarecdn.com/6f51ce02-3a75-4027-ada5-cf63c50d1701/-/resize/700x/)
+![base de datos SQL](../../assets/images/6f51ce02-3a75-4027-ada5-cf63c50d1701.png)
 
 **Una a muchos::**
 
 La base de datos de las Grandes Ligas en Baseball probablemente tiene una tabla llamada Jugadores (con la lista de todos los jugadores activos) y otra tabla llamada Equipos con la lista de todos los equipos activos. Ambas mesas están conectadas porque **un equipo tiene muchos jugadores, pero un jugador puede estar en un solo equipo.**
 
-![Bases de datos SQL](https://ucarecdn.com/374d53ac-092f-4f34-a6f1-76bfaa5bd676/-/resize/700x/)
+![Bases de datos SQL](../../assets/images/374d53ac-092f-4f34-a6f1-76bfaa5bd676.png)
 
 **Muchos a Muchos:**
 
 Una base de datos de la Biblioteca Pública probablemente tenga una tabla llamada Autor (que contiene la información de todos los autores con libros publicados), y también otra tabla con TODOS los libros que se han publicado. Ambas tablas están relacionadas porque **un autor puede tener muchos libros y un libro puede tener muchos autores.**
 
-![base de datos SQL](https://ucarecdn.com/af7344fc-0ee0-499e-8926-8f70dc9b2b0d/-/resize/700x/)
+![base de datos SQL](../../assets/images/af7344fc-0ee0-499e-8926-8f70dc9b2b0d.png)
 
 &nbsp;
 &nbsp;
