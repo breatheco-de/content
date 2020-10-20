@@ -1,9 +1,9 @@
 ---
 title: "La Linea de Comando (conocida como: La Terminal) "
 subtitle: "Los Desarrolladores gastan horas cada día usando la linea de comandos (conocido como: La Terminal). Acepta la realidad y vuélvete más poderoso que nunca"
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2018-01-10"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["linea de comando","la terminal"]
 status: "draft"
 
@@ -50,7 +50,7 @@ Tu computadora tiene archivos, directorios y aplicaciones. Tu línea de comando 
 
 ## Así es cómo se ve el sistema de archivos en una interfaz visual v/s la terminal:
 
-![the command line the terminal](https://ucarecdn.com/182ea93c-9d7d-4c8d-8153-9c1756d8cd1f/-/resize/1000x/)
+![the command line the terminal](../../assets/images/182ea93c-9d7d-4c8d-8153-9c1756d8cd1f.png)
 
 Hay 4 cosas importantes que notar aquí:
 
@@ -201,7 +201,7 @@ Cuando nano se abra, verás una barra superior con la versión actual de la apli
 
 En la parte inferior, verás los comandos más utilizados para usar nano, tales como: quit, where is, help, etc.
 
-![the command line the terminal](https://ucarecdn.com/6128e9f7-b460-4b10-80e4-34057b7d4df9/-/resize/500x/)
+![the command line the terminal](../../assets/images/6128e9f7-b460-4b10-80e4-34057b7d4df9.png)
 
 [[demo]]
 | :point_up:Este sitio web tiene un montón de pequeños mini desafíos para ayudarte a practicar la línea de comandos: <br>https://cmdchallenge.com/

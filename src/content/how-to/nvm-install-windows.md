@@ -1,14 +1,14 @@
 ---
 title: "How to install NVM on Windows"
 subtitle: "This document will provide a guide on how installing nvm and node.js for Windows environment"
-tags: ["windows", "nps"]
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+tags: ["windows","nps"]
 textColor: "white"
-date: "2018-01-11"
+date: "2020-10-19T12:36:30-04:00"
 authors: ["kodi24fever"]
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+status: "published"
 
 ---
- 
 
 Sometimes we would like to write all some code in a local environment, and we will need node.js to install all of our dependencies and run certain scripts. Ex: ```npm run build```.
 This document will provide a guide on how install nvm and node.js for Windows environment.

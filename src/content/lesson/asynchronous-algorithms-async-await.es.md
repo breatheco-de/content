@@ -5,8 +5,9 @@ subtitle: "Comprende la diferencia entre scripts síncronos y asíncronos, uso d
 cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
 status: "published"
 authors: ["kodi2fever", "nachovz"]
+
 textColor: "white"
-date: "2018-05-11"
+date: "2020-10-19T12:36:30-04:00"
 tags: ["async","await","promise","asynchronous"]
 
 ---
@@ -64,7 +65,7 @@ RESULTADO CONSOLA:
 *OK qué...?*
 
 Esto sucede porque la ***call stack*** en JavaScript lleva un registro de las funciones que se están ejecutando actualmente y se están procesando:
-+ ```correPrimero()``` se añade al call stack s porque la llamamos (línea 9).
++ ```correPrimero()``` se añade al call stack porque la llamamos (línea 9).
 + Vemos nuestro primer ```console.log``` (línea 2), después de eso, se llama a ```correSegundo ()``` (línea 3).
 + ```correPrimero ()``` hace una pausa en su ejecución y ```correSegundo ()``` comienza a ejecutarse.
 + Segundo ```console.log``` se ejecuta (linea 7).

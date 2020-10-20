@@ -1,14 +1,15 @@
 ---
 title: "Working with Plain Text Files"
 subtitle: "Storing and retrieving information to files using backend languages"
-cover: "https://ucarecdn.com/e6ca8daf-9f02-487b-8296-1f440a4e6e59/storage_background.jpg"
 authors: ["alesanchezr"]
 textColor: "white"
-date: "2018-05-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["marketing","query-string"]
 status: "draft"
+cover_local: "../../assets/images/storage_background.jpg"
 
 ---
+
 ## Los Archivos son la único ruta para `guardar` en una computadora.
 
 Todo el disco duro de tu computadora está compuesto por archivos, esta es la ruta más básica para almacenar información, tu computadora se ejecuta en un `sistema de archivos (file system)` o en un `directorio de archivos (file directory)` que muestra cómo se almacenan y recuperan los datos.
@@ -20,8 +21,8 @@ Usando un lenguaje de back-end puedes acceder a la mayoría de los archivos de l
 Digamos que tienes los precios de bitcoin del último día en un archivo `bitcoin price.csv` con el siguiente formato:
 
 <before-after width="400px"
-    before="https://ucarecdn.com/97f74cd8-acdd-4ce9-aa26-bfd494e9b550/bitcoin_price_csv.png" 
-    after="https://ucarecdn.com/709ff7ce-f7f6-4b16-a172-521fe1787733/bitcoing_prices_table.png" 
+    before="../../assets/images/97f74cd8-acdd-4ce9-aa26-bfd494e9b550bitcoin_price_csv.png" 
+    after="../../assets/images/709ff7ce-f7f6-4b16-a172-521fe1787733bitcoing_prices_table.png" 
 />
 
 [[info]]

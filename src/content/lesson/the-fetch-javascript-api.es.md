@@ -2,10 +2,10 @@
 slug: "the-fetch-javascript-api-es"
 title: "La API con Fetch"
 subtitle: "¿Has oído hablar de AJAX? En estas lecciones, aprenderás a cómo solicitar información de otras API y utilizar esos datos con la tecnología más utilizada para ese propósito."
-cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
+cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 authors: ["Guensie"]
 textColor: "white"
-date: "2018-05-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["fetch","ajax","http"]
 status: "draft"
 
