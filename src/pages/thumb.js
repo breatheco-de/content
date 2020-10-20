@@ -10,7 +10,7 @@ const Thumb = ({ data, search }) => {
     const [post,setPost] = useState(null);
 
     useEffect(() => {
-        console.log("search", search)
+        
         const slug = (typeof search.slug === 'string' || search.slug !== '');
         const post = data.allMarkdownRemark.edges.find(({node}, key)=>{
             if(node.fields.type === "lesson" && typeof(slug) !== 'undefined'){

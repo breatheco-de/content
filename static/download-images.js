@@ -11,7 +11,7 @@ walk('src/content/lesson', function(err, results) {
     } 
     
     try{
-        const result = indexLessons(results);
+        const result = indexContent(results);
         result.lessons.forEach(l => {
             downloadImagesFromLesson(l.path)
         })

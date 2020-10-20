@@ -1,17 +1,18 @@
 ---
 title: "Construyendo tu perfil y reputación github"
 subtitle: "Toma horas armar un buen cv, incluso aunque sea falso- Tener un buen Github toma meses o años ¡Manos a la obra!"
-cover: "https://ucarecdn.com/c315bebc-2e8d-4e71-a2df-25ad3618ac3d/githubbackground.jpg"
 textColor: "white"
 authors: ["alesanchezr"]
 status: "draft"
-date: "2018-05-11"
+date: "2020-10-19T12:36:31-04:00"
 tags: ["github"]
+cover_local: "../../assets/images/githubbackground.jpg"
 
 ---
+
 ## Introducción a Github (si ya lo conoces, lee la siguiente sección)
 
-![Pantallazo Github](https://ucarecdn.com/4889ebd9-201f-46c7-a1fb-d3d8c2f4493e/)
+![Pantallazo Github](../../assets/images/4889ebd9-201f-46c7-a1fb-d3d8c2f4493e.png)
 
 Github es una red social para desaroolladores, pero problablemente no del tipo de red social al cual estas acostumbrado/a en el día día:
 
@@ -52,4 +53,4 @@ Asegúrate de que tenga tu estilo personal, pero en general puedes concentrarte 
 
 ## Un perfil de ejemplo: Dan Abramov
 
-![Perfil de Github de Dan Abramov ](https://ucarecdn.com/b04c5254-086a-4b9f-8b86-0cf95fcc3fcd/danabramov.png)
+![Perfil de Github de Dan Abramov ](../../assets/images/danabramov.png)

@@ -1,13 +1,14 @@
 ---
 title: "React Hooks Explained"
 subtitle: "Hooks are like Steroids for React Components, and they are almost impossible to avoid. This lesson will focus on the 2 most important ones: useState and useEffect."
-cover: "https://ucarecdn.com/84c4d84c-51b9-4906-a572-71cc07ecfc8c/"
+cover_local: "../../assets/images/84c4d84c-51b9-4906-a572-71cc07ecfc8c.jpeg"
 thumb: "https://i.imgur.com/rUQ0MDb.png"
 textColor: "white"
-date: "2019-10-03"
-authors: ['alesanchezr']
+date: "2020-10-19
+authors: ["alesanchezr"]
 status: "published"
 tags: ["reactjs","javascript","react.js","react hooks","react useState","react useEffect"]
+
 ---
 
 ## Why hooks?
@@ -73,7 +74,7 @@ If the user clicks on "close" we simply use the hook function `setOpened` to cha
 
 ## The `useEffect` hook:
 
-![useEffect hook for the component lifecycle](https://ucarecdn.com/945ae0a2-2495-4955-9e9a-46fdd3efc682/componentlifecyclehooks.png)
+![useEffect hook for the component lifecycle](../../assets/images/945ae0a2-2495-4955-9e9a-46fdd3efc682componentlifecyclehooks.png)
 
 useEffect is another amazing hook that you will use if you want to execute some code after the component renders, for example:
 
@@ -84,7 +85,7 @@ const MyComponent = () => {
 
         // whatever you code here will execute only after the first time the component renders
 
-eenlazal    , []);// <------ PLEASE NOTICE THE EMPTY ARRAY
+ , []);// <------ PLEASE NOTICE THE EMPTY ARRAY
 
 
     return <Some HTML>;
@@ -126,7 +127,7 @@ const MyComponent = () => {
 ## Building a Todo List Using just `useState` and `useEffect` Hooks
 
 <p align="center">
-    <img src="https://ucarecdn.com/41f4a2be-380f-47af-acab-d479acf80921/todolisthooks.gif">
+    <img src="../../assets/images/41f4a2be-380f-47af-acab-d479acf80921todolisthooks.gif">
 </p>
 
 For example, let's say I'm building a todo list, and I have to load the list of tasks from an API. I will have to fetch the information right after the component renders for the first time:
