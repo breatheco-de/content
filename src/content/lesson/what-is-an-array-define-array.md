@@ -25,6 +25,7 @@ Mastering the use of arrays and loops is one of the 5 fundamental skills of buil
 **No no no…Wait:  Arrays?  What?**
 
 An array is, normally, any list or collection of values.  The rules of how to add or remove elements from that list can change from one programming language to another.  But – generally – they are the only ways for developers to create elements.
+
 Arrays are the only way we have to list stuff – regardless of the application you are working with, it will always have things to list.  For example: list of students, list of artists, list of transactions…anything!
 
 This data-type does a lot more stuff than the others.  Lists are the only way to store more than one data-type in the same variable.
@@ -146,7 +147,7 @@ var myArray = ['Chris','Bob','Pedro','Juan','Maria'];
 
 Sometimes, when working with arrays, you will need to loop them.  For example: sorting them manually; flipping them; deleting an element from a particular position, etc.
 
-In order to create your loop you will need to use Array.length to get the current size of the array.  Most of the time the array items change during the runtime.   This is why the only way to get the size of the array will be using the array.length function, like this:
+In order to create your loop you will need to use  Array.length to get the current size of the array.  Most of the time the array items change during the runtime.   This is why the only way to get the size of the array will be using the array.length function, like this:
 
 ```javascript
 var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
@@ -158,7 +159,7 @@ var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
 ## For…in… 
 ***
 
-There is a great adaptation of the **for statement** to make it loop lists or arrays, like this:
+There is a great adaptation of the **for ** statement to make it loop lists or arrays, like this:
 
 ```javascript
 var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
