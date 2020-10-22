@@ -23,7 +23,7 @@ class Navbar extends React.Component {
 					<Link to="/">
 						<img
 							className="navbar-brand mb-0"
-							src="https://ucarecdn.com/dbe55247-376b-4b81-988e-7dd95f4233b5/-/resize/45x/"
+							src="https://ucarecdn.com/dbe55247-376b-4b81-988e-7dd95f4233b5/"
 						/>
 					</Link>
 					<button
