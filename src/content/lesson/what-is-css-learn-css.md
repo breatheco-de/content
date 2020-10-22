@@ -145,7 +145,7 @@ Next, we are adding color (green) to the  background of each `td` (cells) of the
 
 |**Selector**   |**Description**   |**Examples**  |
 |:--------------|:-----------------|:-------------|
-|selector1,selector2   |If you separate multiple selectors with a comma`,`, you can assign multiple selectors at the same time to save text. In the following example, we tell every h1 and .odd class elements to turn red.   |`h1, .impar { color: #BDBDBD; }`   |
+|selector1,selector2   |If you separate multiple selectors with a comma`,`, you can assign multiple selectors at the same time to save text. In the following example, we tell every h1 and .odd class elements to turn red.   |`h1, .odd{ color: #BDBDBD; }`   |
 
 ### Advanced Selectors
 
