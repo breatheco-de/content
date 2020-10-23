@@ -12,7 +12,7 @@ status: "published"
 ## ¿Por qué son importantes las bases de datos?
 ***
 
-Las bases de datos son la mejor manera de almacenar datos, y ¡cada día hay más y más datos!  Los próximos cien años son años de data-mining, machine learning y mucha automatización.  La única forma de lograrlo es dominando las bases de datos.
+Las bases de datos son la mejor manera de almacenar datos, y ¡cada día hay más y más datos!  Los próximos serán años de data-mining, machine learning y mucha automatización.  La única forma de lograrlo es dominando las bases de datos.
 
 Al principio, la información se guardaba en archivos más simples como .csv (separados por comas).  Esto era muy desorganizado – los datos eran fáciles de corromper y de difícil acceso (imagina tener que buscar archivos separados por comas).
 
@@ -43,11 +43,11 @@ Las bases de datos son similares en apariencia a las hojas de cálculo: todo se 
 
 ####  ¿Qué es una tabla?
 
-Cada tabla es una entidad de información con “Personas”, “Autos”, “Eventos”, etc.  Las filas contienen la información actual del asunto - así que si tenemos una tabla llamada "People", puede contener columnas para "Nombre", "Apellido" y para un "id". Una fila tendría los valores correspondientes a la columna, como "Luis", "Perez" y "42".  La tabla es la **única estructura** capaz de almacenar data en una tabla via SQL.
+Cada tabla es una entidad de información con “Personas”, “Autos”, “Eventos”, etc.  Las filas contienen la información actual del asunto - así que si tenemos una tabla llamada "Personas", puede contener columnas para "Nombre", "Apellido" y para un "id". Una fila tendría los valores correspondientes a la columna, como "Luis", "Perez" y "42".  La tabla es la **única estructura** capaz de almacenar datos via SQL.
 
 ####  ¿Qué es una columna/campo?
 
-Las tablas tienen columnas (como excel).  Una tabla llamada Persona puede tener 4 columnas: Nombre, apellido, fecha de nacimiento y peso.  Una tabla puede tener tantas columnas como tu quieras y tendrán un tipo de valor específico (string, entero, boolean, etc.) Las columnas describen la tabla de una forma similar a como las propiedades describen una clase en la programación orientada a objetos.
+Las tablas tienen columnas (como excel).  Una tabla llamada Persona puede tener 4 columnas: Nombre, apellido, fecha de nacimiento y peso.  Una tabla puede tener tantas columnas como tú quieras y tendrán un tipo de valor específico (string, entero, boolean, etc.) Las columnas describen la tabla de una forma similar a como las propiedades describen una clase en la programación orientada a objetos.
 
 ####  ¿Qué es una fila?
 
@@ -63,13 +63,13 @@ Si una tabla es llamada Personas y tiene esas 4 columnas (nombre, apellido, fech
 
 Una base de datos es una colección de tablas interconectadas.  La conexión entre dos tablas se denomina "relación" y puede ser una de las siguientes:
 
-**Una a una::**
+**Una a una:**
 
-El ejemplo perfecto es la base de datos IRS, probablemente esta base de datos tiene una tabla llamada Contribuyente que contiene toda la información acerca de cada persona con un número de seguridad social y otra tabla con las Declaraciones De Impuestos del año en curso:  **Una persona puede tener sólo una declaración y sólo una declaración puede ser hecha por una persona.**
+El ejemplo perfecto es la base de datos de seguridad social, probablemente esta base de datos tiene una tabla llamada Contribuyente que contiene toda la información acerca de cada persona con un número de seguridad social y otra tabla con las Declaraciones De Impuestos del año en curso:  **Una persona puede tener sólo una declaración y sólo una declaración puede ser hecha por una persona.**
 
 ![base de datos SQL](../../assets/images/6f51ce02-3a75-4027-ada5-cf63c50d1701.png)
 
-**Una a muchos::**
+**Una a muchos:**
 
 La base de datos de las Grandes Ligas en Baseball probablemente tiene una tabla llamada Jugadores (con la lista de todos los jugadores activos) y otra tabla llamada Equipos con la lista de todos los equipos activos. Ambas mesas están conectadas porque **un equipo tiene muchos jugadores, pero un jugador puede estar en un solo equipo.**
 
@@ -160,7 +160,7 @@ UPDATE USER SET email = 'new@breatheco.de' WHERE ssn = '333-44-5534'
 
 #### DELETE:
 
-Funciona de manera muy similar a update, pero, en lugar de pasar los nuevos valores de las nuevas columnas que desea actualizar, solo necesita especificar qué filas deseas eliminar solicitando un grupo de condiciones.
+Funciona de manera muy similar a update, pero, en lugar de pasar los nuevos valores de las nuevas columnas que deseas actualizar, solo necesitas especificar qué filas deseas eliminar solicitando un grupo de condiciones.
 
 ```sql
 DELETE FROM table_name WHERE [condition]
@@ -195,7 +195,7 @@ Nosotros podemos clasificar los problemas de integridad en 4 tipos:
 ## Transacciones SQL
 ***
 
-Una transacción es un grupo de uno o más operaciones SQL (insertar, eliminar, actualizar, crear, etc.).
+Una transacción de una o más operaciones SQL (insertar, eliminar, actualizar, crear, etc.).
 
 Una transacción agrupa varias operaciones en una porque todas dependen unas de otras. Debe tener la garantía de que si una de esas operaciones falla, la base de datos "deshacerá" todo lo que hizo dentro de la misma transacción.
 
