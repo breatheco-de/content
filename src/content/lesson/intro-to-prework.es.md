@@ -47,7 +47,10 @@ Si te sientes abrumado y confundido, <span style="color:#993300">**¡¡pide ayud
 
 ### Por Favor Pide Ayuda!
 
-¿Has leído sobre Einstein?  Las personas realmente inteligentes son las que siempre hacen más preguntas. No tienen miedo a no saber o cometer errores.  La única manera en que realmente podemos ayudarte es si nos pides ayuda.
+¿Has leído sobre Einstein?  Las personas realmente inteligentes son las que siempre hacen más preguntas. No tienen miedo a no saber o cometer errores. La única manera en que realmente podemos ayudarte es si nos pides ayuda. Para poder hacerlo, cuando estés estancado y hayas intentado resolver por tu cuenta algunos minutos, pregunta en nuestro canal de Slack [#Public_Support](https://4geeksacademy.slack.com/archives/CAZ9W99U4), pero antes lee estos consejos sobre [¿Cómo hacer preguntas de programación?](https://content.breatheco.de/es/how-to/ask). 
+
+Si al preguntar no has resuelto tus dudas ¡no te preocupes! Si estás inscrito en nuestros programas de 9 o 16 semanas, tendrás acceso a mentorías ilimitadas, [mira aquí cómo funcionan](https://storage.cloud.google.com/4geeks-academy-website/syllabus/madrid-spain/madrid-infografia-mentorias.pdf)
+
 <p style="text-align:center">
     <img class="my-class" src="../../assets/images/5f5f59bc-9efa-4ee9-bce6-6af9eedb4738.jpeg" width="300">
 </p>
