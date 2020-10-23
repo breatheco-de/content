@@ -1,12 +1,12 @@
 ---
 
 
-subtitle: "Sin Flux, React es solo una linda librería de front-end. React Flux lo convertirá en un marco - que le dará a tu aplicación una estructura definida - cuidando la capa de procesamiento de datos, y mucho más lo que es el flujo."
+subtitle: "Sin Flux, React es solo una linda librería de front-end. React Flux lo convertirá en un marco de trabajo - que le dará a tu aplicación una estructura definida - cuidando la capa de procesamiento de datos, y aún más lo que es el flujo."
 
 cover: "https://ucarecdn.com/b84e07e5-5761-469b-85bb-f7afc87d4dc9/"
 =======
 title: "Qué es React Flux"
-subtitle: "Sin Flux, React es solo una linda biblioteca de front-end. React Flux lo convertirá en un marco - que le dará a tu aplicación una estructura definida - ocupándose de la capa de procesamiento de datos, y mucho más."
+subtitle: "Sin Flux, React es solo una linda biblioteca de front-end. React Flux lo convertirá en un marco - que le dará a tu aplicación una estructura definida - ocupándose de la capa de procesamiento de datos y, aún más el flujo."
 cover_local: "../../assets/images/b84e07e5-5761-469b-85bb-f7afc87d4dc9.png"
 
 textColor: "white"
@@ -42,7 +42,7 @@ Aquí hay una lista de todas las ventajas de usarlo:
 
 
 
-Vistas/Views (Components)     |Cada componente React que llama a cualquier acción Flux es llamada una vista.  La razón para llamar a esos componentes de una manera diferente es porque se supone que los componentes de React se comunican entre sí a través de sus accesorios (sin Flux).<br> <br>Una vez que un componente React esté codificado de forma rígida a Flux, no podrá reutilizar ese componente en el futuro (en este o en cualquier otro desarrollo).       |
+Vistas/Views (Components)     |Cada componente React que llama a cualquier acción Flux es llamada una vista.  La razón para llamar a esos componentes de una manera diferente es porque se supone que los componentes de React se comunican entre sí a través de sus accesorios (sin Flux).<br> <br>Una vez que un componente React esté vinculado de forma rígida a Flux, no podrá reutilizar ese componente en el futuro (en este o en cualquier otro desarrollo).       |
 |Acciones (Actions)       |Las acciones pueden ser activadas por componentes (cuando el usuario hace click o interactúa con la aplicación) o por el sistema (por ejemplo, la funcionalidad de guardado automático).  Las acciones son el primer paso de cualquier flujo de trabajo de Flux y siempre deben enviarse a la tienda.      |
 | Store     |El store contiene todos los datos de la aplicación.  Maneja todo lo que recibe el despachador y determina la forma en que se deben almacenar y recuperar los datos.            |
 
