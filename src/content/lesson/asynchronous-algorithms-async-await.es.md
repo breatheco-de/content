@@ -211,15 +211,15 @@ console.log(myPomise);
 */
 ```
 ***
-### Resolver y rechazar funciones
+### Resolve y reject funciones
 
-+ ***Resolver*** se utiliza para cambiar el estado de una promesa de pendiente a cumplida.
-+ ***Rechazar*** se utiliza para cambiar el estado de pendiente a rechazado.
++ ***Resolve*** se utiliza para cambiar el estado de una promesa de pendiente a cumplida.
++ ***Reject*** se utiliza para cambiar el estado de pendiente a rechazado.
 
 
 ### Métodos importantes que debemos conocer al usar promesas.
 
-+ ***resolve (resolver)***: devuelve un objeto de promesa que tiene el status de resuelto con un valor.
++ ***resolve***: devuelve un objeto de promesa que tiene el status de resuelto con un valor.
 ```javascript
 	//aquí Promesa representa el objeto Promesa.
 	Promise.resolve("Yo estaba resuelto con este valor").then(value => console.log(value));
@@ -267,7 +267,7 @@ console.log(myPomise);
 + ***Async*** es una función de JavaScript y puede contener una expresión ***await***.
 + ***Await*** pausa la ejecución de la función asíncrona y espera el resultado de una promesa.
 
-[Ojo]]
+[[Warning]]
 | Recuerda que las expresiones await sólo son válidas dentro de funciones asíncronas. Si los usa fuera, tendrá un error de sintaxis.
 
 ```javascript
