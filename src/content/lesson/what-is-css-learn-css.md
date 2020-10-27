@@ -127,7 +127,7 @@ Let’s assign "first" as the ID of the first cell in the next table, and then w
 
 ### Class selector
 
-|**Selctor**   |**Description**   |**Example**   |
+|**Selector**   |**Description**   |**Example**   |
 |:-------------|:-----------------|:-------------|
 |.classname   |There is an attribute in HTML called "class", which allows us to group different tags within one logical group.  With CSS we can use `.` (dot) as a selector of every element using the class name to select all html elements with that class attribute.   |`.classname { color: #BDBDBD; }`   |
 
@@ -145,7 +145,7 @@ Next, we are adding color (green) to the  background of each `td` (cells) of the
 
 |**Selector**   |**Description**   |**Examples**  |
 |:--------------|:-----------------|:-------------|
-|selector1,selector2   |If you separate multiple selectors with a comma`,`, you can assign multiple selectors at the same time to save text. In the following example, we tell every h1 and .odd class elements to turn red.   |`h1, .odd{ color: #BDBDBD; }`   |
+|selector1,selector2   |If you separate multiple selectors with a comma`,`, you can assign multiple selectors at the same time to save text. In the following example, we tell every `h1, .odd{ color: #BDBDBD; }` class elements to turn red.   |`h1, .odd{ color: #BDBDBD; }`   |
 
 ### Advanced Selectors
 
