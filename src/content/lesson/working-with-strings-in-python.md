@@ -145,9 +145,9 @@ In many cases it is necessary to extract a portion or substring of a given strin
 ```python
 
 string = "Python is a language"
-print(cadena[1:5]) # It will print "ython"
-print(cadena[1:]) # Imprime "ython is a language"
-print(cadena[:5]) # Imprime "Pytho"
+print(string[1:5]) # It will print "ython"
+print(string[1:]) # Imprime "ython is a language"
+print(string[:5]) # Imprime "Pytho"
 
 ```
 
