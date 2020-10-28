@@ -31,8 +31,7 @@ Responsible for designing, coding and modifying React applications and Python AP
 ```
 
 [[warning]]
-| :point_up:
-  DO NOT COPY AND PASTE, please customize it, use different words, different technologies and programming languages that you like, you can talk about eCommerce apps, edTech, you can mention particular industries that you like.
+| :point_up: DO NOT COPY AND PASTE, please customize it, use different words, different technologies and programming languages that you like, you can talk about eCommerce apps, edTech, you can mention particular industries that you like.
 
 If your final project was a game, you can say you are specialized in building games with HTML/CSS/Javascript/Python.
 If it was a social network than you are specialized in building "social apps", etc.
@@ -66,8 +65,7 @@ Each of your projects must have:
 - Organized code.
 
 [[warning]]
-| :point_up:
- Quality is more important than quantity, just two or three projects in enough if they are really good.
+| :point_up: Quality is more important than quantity, just two or three projects in enough if they are really good.
 
 ## The Skills
 
