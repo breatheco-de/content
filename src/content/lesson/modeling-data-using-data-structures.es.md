@@ -166,7 +166,7 @@ Los graphs o grafos son ideales para representar relaciones, jerarquías y conex
 
 1. Contruir un mapa de una ciudad
 2. Árbol genealógico
-3. Grafo social
+3. Grafo social (como las conexiones en Facebook o Linkedin)
 
 Un grafo puede representarse a través de una tabla hash de esta forma:
 
