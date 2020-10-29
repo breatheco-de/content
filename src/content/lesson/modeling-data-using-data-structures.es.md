@@ -192,7 +192,7 @@ Los árboles pueden usarse en varias situaciones como:
 2. Cualquier directorio de archivos de un computador
 3. Árbol genealógico
 
-Un grafo puede representarse usando un grafo de esta manera:
+Un árbol puede representarse usando un grafo de esta manera:
 
 ```python
 pequeña_familia = {
