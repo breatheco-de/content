@@ -162,7 +162,7 @@ print(language_hash_table["hello world"]["spanish"])
 
 Los grafos son una forma totalmente nueva para almacenar y acceder a datos, ahora en vez de tener un array o una lista en una secuencia, puedes tener elementos que se apunten entre si.
 
-Los graphs o grafos son ideales para representar relaciones, jerarquías y conexiones, por ejemplo:
+Los graphs o grafos son ideales para representar relaciones, jerarquías y conexiones. Por ejemplo:
 
 1. Contruir un mapa de una ciudad
 2. Árbol genealógico
