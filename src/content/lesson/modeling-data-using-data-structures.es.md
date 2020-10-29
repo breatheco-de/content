@@ -14,7 +14,7 @@ Casi todos los lenguajes de programación tienen tipos de datos primitivos como:
 Pero, ¿y si quieres almacenar muchos `boolean` o muchos `strings` en una sola estructura? Por ejemplo: Si tienes una lista de cosas por hacer (string) y quisieras ponerlas juntas en una lista así:
 
 ```python
-tareas = ['hacer la cama', 'limpiar la casa', 'pagar impuestos']
+por_hacer = ['hacer la cama', 'limpiar la casa', 'pagar impuestos']
 ```
 
 Para casos como estos, el mundo de la informática ha creado otros tipos de datos más complejos entre los que están las listas. Este grupo es conocido como `Estructuras de datos`.
