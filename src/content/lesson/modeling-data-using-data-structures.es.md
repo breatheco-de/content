@@ -184,7 +184,7 @@ graph = {
 
 ## Trees o árboles
 
-Puedes ver a los árboles como un subtipo de grafos, porque los nodes de los árboles estas conectados entre si, pero el único tipo de conexión que puede existir ens la relación Padre->Hijo
+Puedes ver a los árboles como un subtipo de grafos, porque los nodos de los árboles están conectados entre sí, pero el único tipo de conexión que puede existir entre ellos es la relación Padre->Hijo
 
 Los árboles pueden usarse en varias situaciones como:
 
