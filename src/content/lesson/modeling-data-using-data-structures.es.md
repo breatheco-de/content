@@ -9,7 +9,7 @@ tags: ["data structures","business model"]
 
 ---
 
-Casi todos los lenguajes de programación tienen tipos de datos primitivos como: booleanos, string, números enteros, decimales, null/none,etc.
+Casi todos los lenguajes de programación tienen tipos de datos primitivos como: lógicos (boolean), caracteres y cadenas de texto (Char y String), numéricos (Integer y Float/Decimal), nulos (Null/None)...
 
 Pero ¿y si quieres almacenar muchos booleanos o muchos strings en una sola estructuar? Por ejemplo: Si tienes una lista de tareas (strings) y quisieras ponerlas juntos en una lista así:
 
