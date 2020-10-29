@@ -17,7 +17,7 @@ Pero, ¿y si quieres almacenar muchos `boolean` o muchos `strings` en una sola e
 tareas = ['hacer la cama', 'limpiar la casa', 'pagar impuestos']
 ```
 
-Para estos casos, el mundo de la informática ha creado un tipo de dato más complejo llamado `Estructuras de datos`.
+Para casos como estos, el mundo de la informática ha creado otros tipos de datos más complejos entre los que están las listas. Este grupo es conocido como `Estructuras de datos`.
 
 # ¿Qué es una estructura de datos?
 
