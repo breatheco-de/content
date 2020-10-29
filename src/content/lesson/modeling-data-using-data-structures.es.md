@@ -11,7 +11,7 @@ tags: ["data structures","business model"]
 
 Casi todos los lenguajes de programación tienen tipos de datos primitivos como: lógicos (boolean), caracteres y cadenas de texto (Char y String), numéricos (Integer y Float/Decimal), nulos (Null/None)...
 
-Pero ¿y si quieres almacenar muchos booleanos o muchos strings en una sola estructuar? Por ejemplo: Si tienes una lista de tareas (strings) y quisieras ponerlas juntos en una lista así:
+Pero, ¿y si quieres almacenar muchos `boolean` o muchos `strings` en una sola estructura? Por ejemplo: Si tienes una lista de cosas por hacer (string) y quisieras ponerlas juntas en una lista así:
 
 ```python
 tareas = ['hacer la cama', 'limpiar la casa', 'pagar impuestos']
