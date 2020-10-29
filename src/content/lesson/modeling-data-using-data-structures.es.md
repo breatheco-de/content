@@ -188,7 +188,7 @@ Puedes ver a los árboles como un subtipo de grafos, porque los nodos de los ár
 
 Los árboles pueden usarse en varias situaciones como:
 
-1. El DOM (Document Object Model).
+1. El DOM (Document Object Model) de una página web.
 2. Cualquier directorio de archivos de un computador
 3. Árbol genealógico
 
