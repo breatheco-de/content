@@ -5,7 +5,7 @@ cover_local: "../../assets/images/84c4d84c-51b9-4906-a572-71cc07ecfc8c.jpeg"
 textColor: "white"
 date: "2020-10-19T12:36:31-04:00"
 tags: ["reactjs"]
-status: "draft"
+status: "published"
 
 ---
 
@@ -68,11 +68,11 @@ let menu = [
 
 Ahora, dentro de `<Navbar />` podemos usar esos valores (que se entregan a través de la variable Props) para procesar la información proporcionada.
 
-Y, por último, debe indicar a React dónde debe renderizar ese componente en el DOM.
+Y, por último, debes indicar a React dónde debe renderizar ese componente en el DOM.
 
 <iframe src="https://codesandbox.io/embed/zwlnpwmxll?hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-<div align="right"><small><a href="https://codesandbox.io/embed/zwlnpwmxll?hidenavigation=1">Click here to open demo in a new window</a></small></div>
+<div align="right"><small><a href="https://codesandbox.io/embed/zwlnpwmxll?hidenavigation=1">Haz clic aquí para abrir la demo en una nueva ventana/a></small></div>
 
 ## El Estado del Componente
 ***
@@ -128,6 +128,6 @@ Aquí hay un ejemplo del componente `<Clock />` del que acabamos de hablar:
 |Metodos de ciclo de vida    |No hay métodos de ciclo de vida disponibles.     |Tiene todos los métodos disponibles, siendo estos los más importantes: Constructor, ComponentWillMount, ComponentWillUnmount, getDerivedStateFromProps, etc.<br> <br> Puedes declarar dentro de tu componente de clase esos métodos y mágicamente los llamará React en el momento adecuado, así:<br> <br> `python>class MyComponent{`<br> &nbsp; &nbsp; &nbsp; `python>constructor(){`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>super();`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>//initialize your state` <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>this.state = {}`<br> &nbsp; &nbsp; &nbsp; `}`<br> &nbsp; &nbsp; &nbsp; `python>componentDidMount(){  //do something to the state here }` <br> &nbsp; &nbsp; &nbsp; `python>componentWillUnmount(){  //best place to remove listeners }` <br> &nbsp; &nbsp; &nbsp; `python>static getDerivedStateFromProps(nextProps, prevState){ //return the updated state } `<br> &nbsp; &nbsp; &nbsp; `python>//there are many more lifecycle methods` <br> `python>}`        |
 
 [[info]]
-|:link: Aquí puede encontrar [más información sobre todos los métodos de ciclo de vida de React JS.](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
+|:link: Aquí puedes encontrar [más información sobre todos los métodos de ciclo de vida de React JS.](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
 
 
