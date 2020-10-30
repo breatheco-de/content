@@ -1,7 +1,7 @@
 ---
 title: "Conditional Programing in Java"
 subtitle: "Using conditionals to control your code flow in Java"
-status: "draft"
+status: "published"
 date: "2020-10-19T12:36:31-04:00"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
@@ -179,7 +179,7 @@ System.out.println(sMonth);
 
 The example above was a simple condition, but in real life, choosing what to do involves a combination of several conditions to make the final decision, for example: Let's look at this algorithm that tells a computer how to decide what to wear on Valentine's Day. Valentine:
 
-![What ot ware in valentines day](../../assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg)
+![What to wear in valentines day](../../assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg)
 
 If you want to represent this algorithm in Java, it will look something like this:
 ```java
