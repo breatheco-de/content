@@ -10,24 +10,24 @@ cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 
 ---
 
-Primero que nada ¡¡¡¡POR FAAAAAVORRRR HAZ PREGUNTAS!!!!!! No nos cansaremos de repetirlo e incentivarte a que lo hagas, es la mejor manera de aprender. Es una gran fuente de información para entender las debilidades, nivel de comprensión y ritmo de aprendizaje de los estudiantes. Las preguntas también son la forma más poderosa para dejar de setirse frustrado.
+Primero que nada ¡¡¡¡POR FAAAAAVORRRR HAZ PREGUNTAS!!!!!! No nos cansaremos de repetirlo e incentivarte a que lo hagas, es la mejor manera de aprender. Es una gran fuente de información para entender las debilidades, nivel de comprensión y ritmo de aprendizaje de los estudiantes. Las preguntas también son la forma más poderosa para dejar de sentirse frustrado.
 
-## Toma un poco de timepo (¡¡y de paciencia!!) hacer la pregunta correcta
+## Date un poco de tiempo (¡¡y de paciencia!!) para hacer la pregunta correcta
 
-Cuando trabajas de manera remota, debes tener mucho cuidadi con la manera en que expresas ideas, preguntas, etc.
+Cuando trabajas de manera remota, debes tener mucho cuidado con la manera en que expresas ideas, preguntas, etc.
 
 Créeme cuando te digo que los siguientes pasos te permitirán obtener respuestas adecuadas en un par de minutos en vez de tener que repetir la pregunta una y otra vez.
 
-Stack Overflow es una de las paginas más importantes en el mundo de la programación y ha publicado el siguiente manual de como hacer preguntas: [how to ask questions by stack overflow](https://stackoverflow.com/help/how-to-ask).
+Stack Overflow es una de las páginas más importantes en el mundo de la programación y ha publicado el siguiente manual sobre como hacer preguntas: [how to ask questions by stack overflow](https://stackoverflow.com/help/how-to-ask).
 
 ### 1. Prepara tu pregunta 
 
-Si preguntas simplemente lo primer que se te pasa por la mente es probable que no obtengas una respuesta rápidamente, la persona que lea tu pregunta va a tener muchas dudas al respecto, probablemente tengas que aclarar infinidad de cosas.
+Si preguntas simplemente lo primero que se te pasa por la mente es probable que no obtengas una respuesta rápidamente, la persona que lea tu pregunta va a tener muchas dudas al respecto, probablemente tengas que aclarar infinidad de cosas.
 
 Comparemos estas dos preguntas:
 ```md
 1. ¿Como puedo agregar un item a un array?
-2. Estoy intentando agregar un item a un array de la siguiente manera: blablabla... Este es codigo (sreenshot) pero no esta funcionando, ¿Ven algo malo?
+2. Estoy intentando agregar un item a un array de la siguiente manera: blablabla... Este es mi código (sreenshot o pantallazo) pero no esta funcionando, ¿Ven algo malo?
 ```
 
 ¿Notas como la segunda pregunta es mucho más sencilla de responder? Probablemente tengas una respuesta en unos pocos minutos dado que sera muy sencillo revisar tu código y darte feedback en unas pocas lineas. ¿Quién sabe? ¡Tal vez es solo un error de tipeo!
@@ -40,12 +40,12 @@ Puedes utilizar algun plugin para Google Chrome como [Awesome Screenshot](https:
 
 ### 3. Se específico
 
-¿Cómo COMENZAR A RESOLVER este ejercicio? o "Lo intenté de esta forma y no funcionó ¿Qué estoy haciendo mal?(incluye los mensajes de los errores)", obtendrás mejor feeback que si preguntas ¿Cómo RESUELVO este ejercicio?. Mientras más dividas el procesos en pasos metódicos, más fácl te resultará comprender algo como un todo.
+¿Cómo puedo COMENZAR A RESOLVER este ejercicio? o "Lo intenté de esta forma y no funcionó ¿Qué estoy haciendo mal?(incluye los mensajes de errores)", obtendrás mejor feeback que si preguntas ¿Cómo RESUELVO este ejercicio?. Mientras más dividas el procesos en pasos metódicos, más fácil te resultará comprender algo como un todo.
 
 
 ### 4. Investiga por tu cuenta antes de preguntar
 
-Tómate unos 20 minutos para hacer resolver el problema por ti mismo usando las respuestas de la terminal, realiza una búsqueda onliney trata de definir una estrategia para probarla en tu código. Encontrar una resspuesta específica te ayudará a resolver ese problema, pero si generas una estrategia efectiva para resolver problemas ¡podrás reutilizarla muchas veces más! 
+Tómate unos 20 minutos para hacer resolver el problema por ti mismo usando las respuestas de la terminal, realiza una búsqueda online y trata de definir una estrategia para probarla en tu código. Encontrar una resspuesta específica te ayudará a resolver ese problema, pero si generas una estrategia efectiva para resolver problemas ¡podrás reutilizarla muchas veces más! 
 
 ### 5. Utiliza el canal de Slack en vez de correos eléctronicos
 
