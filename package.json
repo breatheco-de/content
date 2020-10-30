@@ -68,6 +68,7 @@
     "arg": "^4.1.3",
     "axios": "^0.20.0",
     "front-matter": "^3.2.1",
+    "gatsby-remark-copy-linked-files": "^2.3.19",
     "image-scraper": "^0.2.1",
     "markdown-it": "^8.4.2",
     "markdown-it-fontawesome": "^0.3.0",
