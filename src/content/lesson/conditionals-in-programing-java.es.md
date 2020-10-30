@@ -6,7 +6,7 @@ cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 syntaxis: ["java"]
 tags: ["Condicionales","Operaciones Lógicas","Si de lo contrario","Condición","Java"]
-status: "draft"
+status: "published"
 
 ---
 
