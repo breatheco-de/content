@@ -1,5 +1,5 @@
 ---
-title: "Cómo hacer preguntas de programación?"
+title: "¿Cómo hacer preguntas de programación?"
 subtitle: "La pregunta correcta, te llevará a la respuesta correcta."
 tags: ["feedback","tutoring","support"]
 textColor: "white"
