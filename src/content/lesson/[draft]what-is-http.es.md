@@ -49,7 +49,7 @@ El método HTTP (e.g. GET) define lo que quieres hacer con el recurso y es tu m�
 |:-------------|:--------------|
 |GET          |Se utiliza para leer el estado del servidor. Al ser una operación **segura**, puede ejecutarse varias veces sin riesgo de modificación de datos o corrupción; llamarla una vez tiene el mismo efecto que llamarla diez veces.    |
 |POST        |Los puristas de REST usan post solo para creación. Eso significa que cada vez que POSTEE algo en una API, estará creando un nuevo registro en la base de datos para eso. Algunas API utilizan POST para todas las operaciones de escritura (eliminar, actualizar y crear). Lo hacen porque PUT y DELETE no están disponibles en HTML / Formularios y eso hace que esos métodos sean más difíciles de usar.      |
-|PUT      |Esto es más usado para actualizar el estado en el servidor; Aunque también se puede utilizar para crear estado.     |
+|PUT      |Esto es más usado para actualizar el estado en el servidor; Aunque también se puede utilizar para crear estados.     |
 |DELETE     |Se utiliza para eliminar datos en el servidor     |
 
 Teniendo esto en cuenta, podríamos entonces imaginar muy fácilmente como sería un petición HTTP para eliminar un entrada específica de un blog, por ejemplo:
@@ -79,4 +79,3 @@ Los [códigos de estado HTTP](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10
 + `python>3xx` – Redirección
 + `python>4xx` – Cliente hizo algo mal
 + `python>5xx` – Servidor hizo algo mal
-
