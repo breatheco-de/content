@@ -22,7 +22,7 @@ status: "draft"
 
 Este protocolo funciona con un esquema de petición-respuesta entre el servidor web y el cliente o computador solicitante. Un usuario o cliente pueder ser un explorador determinado, o cuando intentamos abrir una página web.
 
-El servidor les responde entonces a ellos con una respuesta estructurada y con una serie de metadatos que establecen pautas para el inicio, desarrollo y cierre de la transmisión de la comunicación, Estos son los llamados "métodos de petición".
+El servidor responde con una respuesta estructurada y con una serie de metadatos que establecen pautas para el inicio, desarrollo y cierre de la comunicación. Estas pautas son los llamados "métodos de petición".
 
 
 ### Métodos de petición
@@ -79,7 +79,6 @@ Los [códigos de estado HTTP](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10
 + `python>3xx` – Redirección
 + `python>4xx` – Cliente hizo algo mal
 + `python>5xx` – Servidor hizo algo mal
-
 
 
 
