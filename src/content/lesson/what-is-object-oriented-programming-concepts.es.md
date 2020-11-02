@@ -5,11 +5,11 @@ cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
 date: "2020-10-19T12:36:31-04:00"
 tags: ["programacion orientada a objectos"]
-status: "draft"
+status: "published"
 
 ---
 
-## Qué es Programación Orientada a Objetos
+## ¿Qué es Programación Orientada a Objetos?
 ***
 
 Todo lo que hemos codificado hasta ahora gira en torno a funciones (es decir, bloques de declaraciones que manipulan datos).  Esto se denomina modo de programación ***orientada a procedimientos***.  Hay otra forma de organizar tu código, que es combinar datos y funcionalidad, y envolverlo dentro de algo llamado un objeto.  Esta forma de codificación es llamada modo de programación ***orientada a objetos***, y es ideal para escribir aplicaciones grandes.
