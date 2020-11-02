@@ -56,7 +56,7 @@ Teniendo esto en cuenta, podríamos entonces imaginar muy fácilmente como serí
 
 `python>DELETE /blog/15 HTTP/1.1`
 
-Además de la primera línea, un petición HTTP también tiene otras líneas de datos llamadas request headers o cabeceras que puede entregar una amplia gama de información como el servidor o host, los formatos de respuesta que acepta el cliente para realizar la soliictud.
+Además de la primera línea, un petición HTTP también tiene otras líneas de datos llamadas _request headers_, o cabeceras de solicitud, mediante las que puede entregar una amplia gama de información como: el nombre del servidor o _host_, los formatos de respuesta que acepta el cliente para realizar la solicitud, el formato en que está enviando datos en el cuerpo de la solicitud (si corresponde)...
 
 
 ### Códigos de Status para la Respuesta
@@ -79,5 +79,4 @@ Los [códigos de estado HTTP](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10
 + `python>3xx` – Redirección
 + `python>4xx` – Cliente hizo algo mal
 + `python>5xx` – Servidor hizo algo mal
-
 
