@@ -4,7 +4,7 @@ subtitle: "The Art of getting interviews its 60% about the resume, let's make it
 textColor: "white"
 date: "2020-10-19T12:36:31-04:00"
 tags: ["career support"]
-status: "draft"
+status: "published"
 
 ---
 
