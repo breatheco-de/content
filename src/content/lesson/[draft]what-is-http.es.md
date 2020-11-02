@@ -36,7 +36,7 @@ Host: google.com
 Accept: text/html
 User-Agent: Chrome/31.0.1650.57 (Macintosh; Intel Mac OS X 10_9_0)`
 
-Este simple mensaje comunica todo lo necesario acerca de qué recurso exactamente está solicitando el cliente. La primera línea de una petición HTTP es la más importante y contiene dos cosas:
+Este simple mensaje comunica todo lo necesario acerca de qué recurso está solicitando el cliente exactamente. La primera línea de una petición HTTP es la más importante y contiene dos cosas:
 
 + el URI (Uniform Resource Identifier) que es la única dirección o ubicación que identifica el recurso que el cliente quiere.
 + el método HTTP
@@ -79,6 +79,5 @@ Los [códigos de estado HTTP](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10
 + `python>3xx` – Redirección
 + `python>4xx` – Cliente hizo algo mal
 + `python>5xx` – Servidor hizo algo mal
-
 
 
