@@ -18,7 +18,7 @@ status: "draft"
   
   
 
-### ¿cómo funciona HTTP?
+### ¿Cómo funciona HTTP?
 
 Este protocolo funciona con un esquema de petición-respuesta entre el servidor web y el cliente o computador solicitante. Un usuario o cliente pueder ser un explorador determinado, o cuando intentamos abrir una página web.
 
@@ -79,7 +79,6 @@ Los [códigos de estado HTTP](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10
 + `python>3xx` – Redirección
 + `python>4xx` – Cliente hizo algo mal
 + `python>5xx` – Servidor hizo algo mal
-
 
 
 
