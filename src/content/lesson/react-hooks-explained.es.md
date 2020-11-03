@@ -22,7 +22,7 @@ En general, las props son suficiente para crear un componente sorprendente, pero
 2. Si quieres obtener algunos datos solo al comienzo de la ejecución del programa, usa el hook **useEffect**.
 3. Si quieres compartir información dentro de todos los componentes, usa el hook **useContext**.
 
-A medida que tengas más experiencia, comprenderás mejor cuándo usar Hooks. Si no los necesitas, ¡NO lo uses! ¡Cuanto menos mejor!
+A medida que tengas más experiencia, comprenderás mejor cuándo usar Hooks. Si no los necesitas, ¡NO los uses! ¡Cuanto menos mejor!
 
 ### Todas las aplicaciones necesitan al menos un <strong>useState</strong> y un <strong>useEffect</strong>. Para usar hooks, PRIMERO DEBEMOS IMPORTARLOS al inicio de nuestro archivo. Por ejemplo si necesitaramos usar un useState, haríamos lo siguiente:
 
