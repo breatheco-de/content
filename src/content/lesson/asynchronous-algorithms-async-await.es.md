@@ -224,7 +224,7 @@ console.log(myPomise);
 	//aquí Promesa representa el objeto Promesa.
 	Promise.resolve("Yo estaba resuelto con este valor").then(value => console.log(value));
 	
-	/*RESULTADO CONSOLA:
+	/*RESULTADO EN CONSOLA:
 	>"Yo estaba resuelto con este valor"
 	
 	***********
