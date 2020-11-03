@@ -31,7 +31,7 @@ Comencemos diciendo que JavaScript es síncrono y con una sola secuencia, es dec
 8    ejecutarPrimero();
 
 /*
-RESULTADO CONSOLA:
+RESULTADO EN CONSOLA:
   > segundo
   > primero
 */
