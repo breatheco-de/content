@@ -1,6 +1,6 @@
 ---
 title: "Hooks de React"
-subtitle: "Los Hooks son la nueva forma de crear componentes React, son imposibles de evitar. En esta lección no enfocaremos en los 2 más importantes: useState y useEffect"
+subtitle: "Los Hooks son la nueva forma de crear componentes React, son imposibles de evitar. En esta lección nos enfocaremos en los 2 más importantes: useState y useEffect"
 cover: "https://ucarecdn.com/84c4d84c-51b9-4906-a572-71cc07ecfc8c/"
 textColor: "white"
 date: "2020-10-19T12:36:31-04:00"
