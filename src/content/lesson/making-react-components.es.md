@@ -85,7 +85,7 @@ let menu = [
 
 Ahora, dentro de `<Navbar />` podemos usar esos valores (que se entregan a través de la variable Props) para renderizar la información proporcionada.
 
-Y, por último, deberías indicarle a React dónde debe renderizar ese componente en el DOM.
+Y, por último, debemos indicarle a React dónde debe renderizar ese componente en el DOM.
 
 <iframe src="https://codesandbox.io/embed/zwlnpwmxll?hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
