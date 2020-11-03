@@ -77,7 +77,7 @@ Si una persona hace clic en "close", simplemente usamos la función hook `setOpe
 
 ![Hook useEffect hook para el ciclo de vida del componente](https://ucarecdn.com/945ae0a2-2495-4955-9e9a-46fdd3efc682/componentlifecyclehooks.png)
 
-El UseEffect es otro hook increíble que probablemente tendrás que usar en casi todas las aplicaciones de React cuando el componente se renderice,.
+El UseEffect es otro hook increíble que probablemente tendrás que usar en casi todas las aplicaciones de React cuando el componente se renderice.
 
 #### 1) Después de que el componente se procesa por primera vez (como el antiguo componentDidMount).
 ```jsx
