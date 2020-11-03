@@ -205,7 +205,7 @@ myPomise.then((obj) => {
 });
 console.log(myPomise);
 
-/*RESULTADO CONSOLADO:
+/*RESULTADO EN CONSOLA:
 	>Objeto de promesa // devolverá un objeto de promesa
 	>"Estaba resuelto"
 */
