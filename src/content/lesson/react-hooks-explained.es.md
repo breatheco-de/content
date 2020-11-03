@@ -69,7 +69,7 @@ Vamos a explicar este hook con una pequeña ventana modal de ejemplo, aquí est�
 
 <iframe src="https://codesandbox.io/embed/goofy-sutherland-vb6de?fontsize=14" title="Modal with hooks" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-Para implementar un "Ventana Modal" decidimos crear una variable hook llamada `opened` que es `true` si la ventana modal debe mostrarse al usuario.
+Para implementar un "Ventana Modal", hemos decidido crear una variable hook llamada `opened` que es `true` si la ventana modal debe mostrarse en pantalla.
 
 Si una persona hace clic en "close", simplemente usamos la función hook `setOpened` para cambiar el valor de `opened` a `false`.
 
