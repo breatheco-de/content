@@ -286,7 +286,7 @@ async function useAsyncFunction() {
 }
 useAsyncFunction();
 
-/*RRESULTADO CONSOLA:
+/*RESULTADO EN CONSOLA:
 	>"Soy una tarea rápida"
 	//después de 1 segundo...
 	>"Yo soy las imágenes que vienen de la base de datos."
