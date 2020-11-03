@@ -268,7 +268,7 @@ console.log(myPomise);
 + ***Await*** pausa la ejecución de la función asíncrona y espera el resultado de una promesa.
 
 [[Warning]]
-| Recuerda que las expresiones await sólo son válidas dentro de funciones asíncronas. Si los usa fuera, tendrá un error de sintaxis.
+| Recuerda que las expresiones await sólo son válidas dentro de funciones asíncronas. Si las usas fuera, tendrás un error de sintaxis.
 
 ```javascript
 function returnedPromiseHere() {
