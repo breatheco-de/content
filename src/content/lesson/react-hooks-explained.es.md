@@ -129,7 +129,7 @@ const MyComponent = () => {
     <img src="../../assets/images/41f4a2be-380f-47af-acab-d479acf80921todolisthooks.gif">
 </p>
 
-Por ejemplo, digamos que estoy construyendo una lista de tareas y tengo que cargar la lista de tareas desde una API. Tendré que buscar(fetch) la información justo después de que el componente se renderice por primera vez:
+Por ejemplo, digamos que estamos construyendo una lista de tareas y tenemos que cargar la lista de tareas desde una API. Tendremos que buscar (fetch) la información, justo después de que el componente se renderice por primera vez:
 
 ```jsx
 const Todos = (props) => {
