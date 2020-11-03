@@ -71,7 +71,7 @@ Vamos a explicar este hook con una pequeña ventana modal de ejemplo, aquí est�
 
 Para implementar un "Ventana Modal" decidimos crear una variable hook llamada `opened` que es `true` si la ventana modal debe mostrarse al usuario.
 
-Si el usuario hace clic en "close" simplemente usamos la función hook `setOpened` para cambiar el valor de `opened` a `false`.
+Si una persona hace clic en "close", simplemente usamos la función hook `setOpened` para cambiar el valor de `opened` a `false`.
 
 ## El hook `useEffect`:
 
