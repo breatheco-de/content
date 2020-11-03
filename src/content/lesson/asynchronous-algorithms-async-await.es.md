@@ -373,7 +373,7 @@ async  function fetchData(endpoint) {
 
 fetchData(http://dummyData/api/allUsers); //este es un ejemplo de endpoint
 
-/*RESULTADO CONSOLA:
+/*RESULTADO EN CONSOLA:
 	>[1, 2, 3, 4] //Aquí obtenemos todos los usuarios ID de la base de datos
 */
 ```
