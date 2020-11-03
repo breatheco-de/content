@@ -99,7 +99,7 @@ Lo que es NPM es para Javascript, PIP es para Python. Ambas bestias son increíb
 ```python
 # En Python sustraer strings producirá un error, en lugar de eso debes hacer:
 
-var result = int('5') - int('2'); 
+result = int('5') - int('2'); 
 #el resultado ahora es igual a 3
 ```
 
@@ -124,7 +124,7 @@ var result = '5' - '2';
 ```python
 #  En Python sustraer strings producirá un error, en lugar de eso debes hacer esto:
 
-var result = int('5') - int('2'); 
+result = int('5') - int('2'); 
 #el resultado ahora es igual a 3
 ```
 

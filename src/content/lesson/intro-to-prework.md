@@ -5,7 +5,7 @@ cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T12:36:31-04:00"
 tags: ["prework"]
-status: "draft"
+status: "published"
 
 ---
 
@@ -20,7 +20,7 @@ A web developer makes around $65k per year in the US. In Florida, numbers are a 
 
 ## About 4Geeks Academy
 
-4Geeks Academy is a Miami based Coding School. We started in 2015 and now we have more than 650 graduates, 6 open campuses across USA, Latinamerica and now Europe. We are Licensed by the Floruda Department of Education and we were named as one of the best 10 coding Schools in the US by Newsweek. 
+4Geeks Academy is a Miami based Coding School. We started in 2015 and now we have more than 650 graduates, 6 open campuses across USA, Latinamerica and now Europe. We are Licensed by the Florida Department of Education and we were named as one of the best 10 coding Schools in the US by Newsweek. 
 
 <p style="text-align:center">
     <img class="my-class" src="../../assets/images/75ca521c-2ea0-4a7d-ad05-6717200d8553.png" width="300">
@@ -75,7 +75,7 @@ If you feel overwhelmed and confused, <span style="color:#993300">**ask for help
 
 ### Please Ask for Help!!
 
-Have you heard of Einstein?  Really smart people are always the ones who ask more questions. They are not afraid of not knowing or making mistakes. The only way we can really help you is if you accept our mentorship by asking for help.
+Have you heard of Einstein?  Really smart people are always the ones who ask more questions. They are not afraid of not knowing or making mistakes. The only way we can really help you is if you accept our mentorship by asking for help. To be able to do this, when you are stuck and have tried to solve on your own for a few minutes, ask on our Slack channel [#Public_Support](https://4geeksacademy.slack.com/archives/CAZ9W99U4), but first read these tips about [ How to ask programming questions?](Https://content.breatheco.de/en/how-to/ask).
 
 <p style="text-align:center">
     <img class="my-class" src="../../assets/images/5f5f59bc-9efa-4ee9-bce6-6af9eedb4738.jpeg" width="300">

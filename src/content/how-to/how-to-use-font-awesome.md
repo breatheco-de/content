@@ -13,7 +13,7 @@ cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 
 ## Installing Font Awesome
 
-There are many ways of installing font awesome please think about how your project its setup so that you can pick the right installation procedure:
+There are many ways of installing font awesome. Please think about how your project its setup so that you can pick the right installation procedure:
 
 ### The easiest way
 

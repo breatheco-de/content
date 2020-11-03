@@ -1,9 +1,9 @@
 ---
 slug: "asincrono-algoritmos-async-await"
 title: "Creando algoritmos asíncronos"
-subtitle: "Comprenda la diferencia entre scripts síncronos y asíncronos, uso de Promises y master async y wait."
+subtitle: "Comprende la diferencia entre scripts síncronos y asíncronos, uso de Promises y master async y wait."
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
-status: "draft"
+status: "published"
 authors: ["kodi2fever","nachovz"]
 textColor: "white"
 date: "2020-10-19T12:36:30-04:00"
@@ -13,7 +13,7 @@ tags: ["async","await","promise","asynchronous"]
 
 ## Programación Asíncrona con JavaScript
 ***
-Hasta este punto, hemos utilizado código JavaScript para ejecutar aplicaciones web simples, que incluyen: usar variables, llamar a funciones y jugar con el ***DOM***. En las funciones, específicamente, incluso pasamos funciones a otras funciones (***funciones de devolución de llamada***) y hay más para hablar de esto.
+Hasta ahora, hemos utilizado código JavaScript para ejecutar aplicaciones web simples, que incluyen: usar variables, llamar a funciones y jugar con el ***DOM***. En las funciones, específicamente, incluso pasamos funciones a otras funciones (***funciones de devolución de llamada***) y hay más para hablar de esto.
 
 Comencemos diciendo que JavaScript es síncrono y de un solo hilo por definición, es decir: el código se ejecuta desde la línea 1 hasta el último, uno a la vez y en ese orden normalmente. Echale un vistazo a éste ejemplo:
 
@@ -68,7 +68,7 @@ Esto sucede porque la ***pila de llamadas*** en JavaScript realiza un seguimient
 + Segundo ```console.log``` ejecutado (linea 7).
 + Una vez que ```runSecond ()``` termina, ```runFirst ()``` comienza nuevamente, ejecutando el resto de su código, el último ```console.log``` (línea 4).
 
-D I V I E R T E T E !
+¡ D I V I E R T E T E !
 
 Pero espera, hay más... Incluso podríamos pasar una *función* como argumento a otra función (no, esto no es un error tipográfico). La *función* enviada como parámetro se llama **función de devolución de llamada**. Echar un vistazo:
 
@@ -99,13 +99,13 @@ CONSOLE OUTPUT:
 */
 ```
 
-...*Es posible que desee echar un segundo vistazo, no se preocupe, esperaremos*...
+...*Es posible que quieras echarle un segundo vistazo, no te preocupes, esperaremos*...
 
-Tiempo de explicacion!
+¡Tiempo de explicaciones!
 
 Hemos agregado una nueva función ```aThirdOne ()``` (línea 12), que muestra los registros de la consola: "esto es una locura"; pero no lo estamos llamando directamente, en cambio, estamos pasando el nombre como parámetro a ```runFirst ()``` (línea 10).
 ```runFirst(someFunction)``` it's now expecting a value (line 1) which will be called as if it were a function (line 3).
-**Tenga en cuenta que el nombre es diferente porque pasamos el valor, no el nombre de la variable.** 
+**Ten en cuenta que el nombre es diferente porque pasamos el valor, no el nombre de la variable.** 
 Esto produce una nueva impresión en la consola: "esto es una locura", antes de llamar a ```runSecond ()``` (línea 4). 
 
 ...*jump around!, jump around!, jump around!, Jump up, jump up and get down! (music)*... 
@@ -138,7 +138,9 @@ Ahora, supongamos que necesitamos cargar algunos archivos desde un servidor, esp
 En un sitio web de la vida real, los usuarios tendrán que esperar mucho tiempo para ver algo, todo porque el procesamiento ***DOM*** tiene que esperar a que lleguen las imágenes desde el servidor; y esto es todo porque estamos usando el mismo hilo de ejecución para todo.
 
 ### Asincrónico
+
 La programación asíncrona es una forma de procesar líneas de código y manejar el resultado sin afectar el hilo principal. 
+
 ```javascript
 1    function fetchingImages(){
 3	console.log("Cargarlos!");
@@ -171,7 +173,7 @@ Javascript ofrece un puñado de funciones asíncronas predefinidas que podemos u
 
 En este caso, utilizamos la API Fetch para cargar las imágenes y *luego* (después de obtener una respuesta del servidor) escribimos algunos comentarios del proceso.
 
-Tenga en cuenta que cualquier llamada a la red puede fallar debido a muchas razones, siempre debemos estar preparados para la falla.
+Ten en cuenta que cualquier llamada a la red puede fallar debido a muchas razones, siempre debemos estar preparados para la falla.
 
 ## Promesas
 ***

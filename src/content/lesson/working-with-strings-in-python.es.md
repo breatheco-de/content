@@ -1,114 +1,145 @@
 ---
-title: "Es Hora de Aprender lo que es el manejo de cadenas (String) en Python"
-subtitle: "Uno de los conceptos mas importantes de aprender, las cadenas de caracteres o 'strings' son esenciales para manejar texto, construir código dinámico y mucho más!"
+title: "Es Hora de Aprender lo que es el manejo de String en Python"
+subtitle: "Uno de los conceptos más importantes de aprender, las cadenas de caracteres o 'strings' son esenciales para manejar texto, construir código dinámico y mucho más!"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T12:36:31-04:00"
 syntaxis: ["python"]
-tags: ["cadena","python"]
-status: "draft"
+tags: ["string","python"]
+status: "published"
 
 ---
 
-## ¿Que es una cadena?
+## ¿Que es un string?
 
-Una cadena es una secuencia de caracteres. Las cadenas son una parte fundamental de la mayoría de los programas, así pues Python tiene varias características incorporadas que facilitan la manipulación de cadenas. Las cadenas tambien son tipos de datos primitivos (simples) y eso las hace ligeras y rapidas de utilizar.
+Un string es una secuencia de letras y caracteres con un orden en particular, son la única forma de almacenar caracteres que no sean números y son fundamentales en cada programa.
 
-## ¿Como Crear una cadena?
+Los strings forman parte del conjunto de tipos de datos primitivos o básicos:
 
-Muchos Strings se crean a partir de cadenas literales. Cuando el compilador encuentra una serie de caracteres entre comillas `("` y `")`, crea un objeto String cuyo valor es el propio texto. El esquema general es el siguiente: 
+| Tipo     | Ejemplo           | Representación                 |
+| ---       | ---               | ---                           |
+| String    | `"Hello World"`   | str                           | caracteres con una secuencia                                           |
+| Número    | `23.34`           | int, decimal, complejo        | números                                                                |
+| Secuencia | `[2,3,1,56,4.34]` | list, tuple, range            | Lista de valores iterables con índices numéricos para las posiciones   |
+| Conjunto  | `{'1,'2','45'}`   | set, frozenset                | Similar a una secuencia pero desordenada y con elementos duplicados    |
+| Mapping   | `{"name": "Bob"}` | dict                          | Similar a una secuencia pero los índices son caracteres en vez de números incrementales |
+| Booleano  | `True` or `False` | bool                          | Solo True o False |
+| Binario  | `01001010111`     | bytes, bytearray, memoryview  | Ideal operaciones simples       |
+
+## ¿Como Crear un string?
+
+Muchos Strings se crean a partir de montón de caracteres entre comillas: `"hello"` o incluso `"23232"`. 
 
 ```python
-nombre = "Hola mundo"
+name = "Bob"
+age = "23" # <--- esto sigue siendo un string (entre comillas)
 ```
 
-Si estamos desarrollando una aplicación, todo lo que el usuario escríba dentro de formulatios sera considerado una cadena de caracteres, incluso si el usuario escribe el numero dos (2), este sera considerado una cadena de caracters y no un numero a no ser que nosotros como desarrolladores lo convirtamos en numero explicitamente.
 
-El uso mas común para una cadena de caracteres es utilizando la función print:
+Si estamos desarrollando una aplicación, todo lo que el usuario escríba dentro de formularios sera considerado un `string`, incluso si el usuario escribe el numero `2`, éste se considerara un string y no un número a no ser que nosotros como desarrolladores lo convirtamos en número usando la función `int()`  o `float()`.
+
+
+El uso mas común de un string es imprimirla con la función `print`:
 
 ```python
 print("Hola Mundo!")
-# La funcion print recibe una cadena de caracteres y la muestra en la linea de commandos / terminal del computador.
+# La funcion print recibe un string y la muestra en la linea de commandos / terminal del computador.
  ```
 
-## Uso de cadenas de caracteres
+## ¿Cómo se usan los strings?
 
-### Concatenación de cadenas
-Python permite concatenar cadenas facilmente utilizando el operador `+`. El siguiente fragmento de código concatena 4 cadenas para producir una salida coherente:
+### Concatenación de cadenas (sumando strings)
+
+Python permite concatenar cadenas fácilmente utilizando el operador `+`. El siguiente fragmento de código demuestra como sumar doss trings para crear un **nombre completo** a partir de **nombre** y **apellido**:
 
 ```python
 nombre = "Alejandro"
-apellido = "Sanched"
-print("Mi nombre es "+nombre+" "+apellido)
+apellido = "Sanchez"
+nombre_completo = nombre + "" + apellido
+print("Mi nombre es " + nombre_completo)
 
 # Este codigo mostrará: "Mi nombre es Alejandro Sanchez" en la linea de comandos
  ```
 
-En este ejemplo `"Mi nombre es "` es una cadena de caracteres que esta siendo concatenada con el valor de la variable `nombre`, `apellido` y una cadena de caracteres en el medio de nombre y apellido para separar.
+En este ejemplo `"Mi nombre es "` es un string concatenado al valor de la variable `nombre_completo`:
 
-### Longitud de cadenas
+### Longitud un string
 
-uno de los métodos mas habituales que se utilizan en un string es `len(<cadena>)`, que devuelve el nro. de caracteres de una cadena dada:
+A menudo querrás saber cuál es la longitud (tamaño) de un string, por ejemplo: Twitter no permite más de 240 caracteres.
 
 ```python
-nombre = "Alejandro"
-print("La variable 'nombre' tiene "+str(len(nombre))+" caracteres")
+tweet = "¡Buenos días!"
+print("La variable tweet tiene "+str(len(tweet))+" caracteres")
 
-# se muestra en el terminal: "La variable `nombre` tiene 9 caracteres"
+# Resultado:La variable tweet tiene 13 caracteres
 ```
-
 
 ### Extracción de caracteres
 
-Para extraer un único carácter de una cadena, se puede referir a la posicion del caracter de la siguiente manera:
+Luego, también necesitamos saber el valor del string en un posición en particular, por ejemplo: sin un string empieza o termina con un signo de interrogación, probablemente sea una pregunta: 
 
 ```python
-nombre = "Alejandro";
-print("El nombre empieza por "+nombre[0])
+pregunta = "¿Cómo estás?"
+tamaño = len(pregunta)
+print("El string empieza " + pregunta[0])
+# Resultado: El string empieza con ? 
+print("El string termina con  " + pregunta[size - 1])
+# Resultado: El string termina con ? 
 
-# Imprimirá "El nombre empieza por A" en la linea de comandos
-```
+[[info]]
+| :point_up: Este método de extracción es muy similar al usado para extraer un elemento ubicado enu na posición en pqrticular en una lista de Python.
 
-Nota: este método de extracción de caracteres funciona muy parecido a los arreglos o listas en python.
-
-Si se necesita extraer más de un carácter a la vez, se puede especificar la posicion y inicial que se desea substraer:
+También puedes extraer varios caracteres a la vez. El rango del método comienza con el índice del primer caracter que vas a extraer y termina con el índice DESPUÉS del último carater que vas a extraer:
 
 ```python
-nombre = "Alejandro"
-print("Las primeras tres letras son "+nombre[0:3])
-# Las primeras tres letras son Ale
+nombre = "Mi nombre es Alejandro Sanchez"
+print("Extracción de" + nombre[11:20])
+# Resultado: Extracción de Alejandro
+
+print("Extracted " + name[11:])
+#  Resultado: Extracción de Alejandro Sanchez
+
+print("Extracted " + nombre[:10])
+# Resultado: Extracción de Mi nombre es
 ```
 
-### Comparación de cadenas
+### Comparación de strings
 
-Si se desean comparar dos cadenas para ver si son iguales, puede utilizar `==` (o cualquier expresión logica). Devolverá `True` si los strings son IDENTICOS, se debe estar muy pendiente de las mayúsculas "Bob" es diferente a "bob" porque tiene la primera letra en mayúcula
+Si quieres comparar dos strings puedes utilizar `==` (dos signos iguales) y esto retornará `True` si los strings son IDÉNTICOS, hay que estar muy pendiente de las mayúsculas "Bob" es diferente a "bob" porque tiene la primera letra en mayúcula
 
 Veamos ahora un ejemplo:
-```python
-cadena1="pepe"
-cadena2="juan"
-if cadena1 == cadena2:
-    # son identicas
-if cadena1 != cadena2:
-    # no son identicas
-```
-
-### Conversión de minúsculas a mayusculas de una cadena
 
 ```python
-cadena_en_minuscula = lower(cadena1) # Lo convierte a minúsculas.
-cadena_en_minuscula = upper(cadena2) # Lo convierte a mayúsculas.
+nombre1 = "pepe";
+nombre2 = "juan";
+if nombre1 == nombre2:
+    print("Esto es falso, no se imprimirá")
+if nombre1 == "pepe":
+    print("Esto es verdadero, se imprimirá")
+if nombre1 != nombre2:
+    print("Esto es verdadero, se imprimirá")
 ```
 
-### Convertir cadenas a números o visceversa
+### Conversión de minúsculas a mayúsculas
+
+```python
+string_en_minuscula = lower(string1) # Lo convierte a minúsculas.
+string_en_mayuscula = upper(string2) # Lo convierte a mayúsculas.
+```
+
+[[info]]
+| :point_up: Es una buena práctica siempre pasar a minuscula los strings antes de compararlos con otros y así evitar errores.
+
+### Convertir strings a números o visceversa
 
 La clase String no porporciona ningún método para convertir una cadena en un número. Sin embargo, cuatro clases de los "tipos envolventes" (Integer, Double, Float, y Long) proporcionan unos métodos de clase llamados valueOf() que convierten una cadena en un objeto de ese tipo. Aquí tenemos un pequeño ejemplo del método valueOf() de la clase Float:
 
+
 ```python
-cadena = "34.4"
-convertido_a_entero = int(cadena) # al convertirlo el valor de "convertido_a_numero" sera 34 y no "34.4" (como string)
-convertido_a_numero_con_decimales = float(cadena) # al convertirlo el valor de "convertido_a_numero" sera 34.4 y no "34.4" (como string)
+numero = 3.4 # Soy un número
+numero_como_string = str(numero) # Soy un string con valor "3.4"
 ```
+
 
 ### Extraer un substring de un string
 

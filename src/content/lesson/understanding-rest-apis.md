@@ -6,7 +6,7 @@ video: "https://www.youtube.com/watch?v=s7wmiS2mSXY"
 textColor: "white"
 date: "2020-10-19T12:36:31-04:00"
 tags: ["REST","API"]
-status: "draft"
+status: "published"
 
 ---
 
