@@ -12,7 +12,7 @@ status: "published"
 ## En React.js todo es un `<Componente />`
 ***
 
-React.js separa tu código en pequeñas partes llamadas Componentes que pueden crearse / definirse como **class** o como **function**.  Cada componente es como una aplicación de React más pequeña que tiene su propia lógica y tiene un propósito final que es renderizar algo (por ejemplo: un navbar de bootstrap, una dropdpwn list (lista desplegable), un modelo, un formulario dinámico, galería de imágenes, formulario de suscripción, casi todo puede diseñarse y codificarse como un componente React). Para hacer eso, el componente de React debe tener un `return` que retorne código JSX (HTML + JS anidado).
+React.js separa tu código en pequeñas partes llamadas Componentes que pueden crearse / definirse como **class** o como **function**.  Cada componente es como una aplicación de React más pequeña que tiene su propia lógica y tiene un propósito final que es renderizar algo. Por ejemplo: un `navbar` de bootstrap, una _dropdown list_ (lista desplegable), un modelo, un formulario dinámico, galería de imágenes, formulario de suscripción, casi todo puede diseñarse y codificarse como un componente React). Para hacer eso, el componente de React debe tener un `return` que devuelva código JSX (HTML + JS anidado).
 
 ```jsx{numberLines: true}
 
@@ -150,4 +150,3 @@ Aquí hay un ejemplo del componente `<Clock />` del que acabamos de hablar:
 
 [[info]]
 |:link: Aquí puede encontrar [más información sobre todos los métodos de ciclo de vida de React JS.](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
-
