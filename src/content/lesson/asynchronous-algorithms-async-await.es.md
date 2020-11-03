@@ -21,7 +21,7 @@ Comencemos diciendo que JavaScript es síncrono y con una sola secuencia, es dec
 #### Sincróno(por defecto)
 
 ```javascript
-1    function correPrimero(){
+1    function ejecutarPrimero(){
 2 	console.log("primero");
 3    }
 4    function correSegundo(){
