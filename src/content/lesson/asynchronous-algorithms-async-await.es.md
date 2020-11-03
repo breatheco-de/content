@@ -24,7 +24,7 @@ Comencemos diciendo que JavaScript es síncrono y con una sola secuencia, es dec
 1    function ejecutarPrimero(){
 2 	console.log("primero");
 3    }
-4    function correSegundo(){
+4    function ejecutarSegundo(){
 5 	console.log("segundo");
 6    }
 7    correSegundo();
