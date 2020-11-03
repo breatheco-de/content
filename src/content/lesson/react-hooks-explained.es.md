@@ -19,7 +19,7 @@ Los componentes funcionales que pasan props son sorprendentes porque son simples
 En general, las props son suficiente para crear un componente sorprendente, pero a veces es necesario más. Estos son algunos ejemplos realmente útiles para saber cuándo usar hooks:
 
 1. Si quieres abrir o cerrar un modal o diálogo, usa el hook **useState**.
-2. Si quieres obtener algunos datos sólo al comienzo de la ejecución del programa, usa el hook **useEffect**.
+2. Si quieres obtener algunos datos solo al comienzo de la ejecución del programa, usa el hook **useEffect**.
 3. Si quieres compartir información dentro de todos los componentes, usa el hook **useContext**.
 
 A medida que tengas más experiencia, comprenderás mejor cuándo usar Hooks. Si no los necesitas, ¡NO lo uses! ¡Cuanto menos mejor!
