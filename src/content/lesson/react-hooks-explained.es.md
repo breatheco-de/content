@@ -12,7 +12,7 @@ tags: ["reactjs"]
 
 ## ¿Por qué hooks?
 
-Los componentes funcionales que pasan props son sorprendentes porque son simples, tienen un rendimiento rápido y requieren de poco código, ero intentar mantener todos los componentes encapsulados puede volverse un infierno. Por otro lado, los componentes de clase a menudo son confusos, tanto para los humanos como para la máquinas, y no suelen entregar una experiencia positiva al desarrollador. Los Hooks proveen una forma para usar los métodos del state y del ciclo de vida con muy poco código entregándole super poderes a tus componentes:
+Los componentes funcionales que pasan props son sorprendentes porque son simples, tienen un rendimiento rápido y requieren de poco código, pero intentar mantener todos los componentes encapsulados puede volverse un infierno. Por otro lado, los componentes de clase a menudo son confusos, tanto para los humanos como para la máquinas, y no suelen entregar una experiencia positiva al desarrollador. Los Hooks proveen una forma para usar los métodos del state y del ciclo de vida con muy poco código, entregándole super poderes a tus componentes:
 
 ### ¿Mis componentes necesitan superpoderes?
 
