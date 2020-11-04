@@ -48,6 +48,21 @@ In the following example, we divided the website content into 2 different areas.
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
+## The box-sizing property
+
+This important property is connected to box model and it defines how the height and width of the element are calculated: should include the border, padding and margin or not. 
+
++ If the value is **content-box**, width and height will only be applied to the content of the element.
++ If the value is **border-box**, width and height apply to all parts of the elements: content, padding and borders. 
+
+
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/zvL6aet3/embed/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/zvL6aet3/embed/html,css,result/">Click here to open demo in a new window</a></small></div>
+
+
+
+
 # Width and Height
 ***
 
