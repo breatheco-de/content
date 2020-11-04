@@ -46,7 +46,7 @@ En el siguiente ejemplo puedes ver como dividir en dos el contenido de una pági
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/">Click aqui para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/">Haz clic aquí para abrir la demo en una nueva ventana</a></small></div>
 
 # Ancho y Altura de las Cajas
 ***
