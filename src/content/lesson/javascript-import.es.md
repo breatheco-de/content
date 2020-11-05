@@ -5,7 +5,7 @@ cover_local: "../../assets/images/c558ac72-194b-40f2-be2f-6e65e8c219c9.png"
 textColor: "white"
 date: "2020-10-19T12:36:31-04:00"
 tags: ["javascript","importacion","exportacion"]
-status: "draft"
+status: "published"
 
 ---
 

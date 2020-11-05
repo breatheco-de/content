@@ -5,26 +5,26 @@ cover_local: "../../assets/images/84c4d84c-51b9-4906-a572-71cc07ecfc8c.jpeg"
 textColor: "white"
 date: "2020-10-19T12:36:31-04:00"
 authors: ["alesanchezr"]
-status: "draft"
+status: "published"
 tags: ["reactjs"]
 
 ---
 
-## Por qué hooks?
+## ¿Por qué hooks?
 
 Los componentes tipo función son sorprendentes porque son simples, tienen un rendimiento rápido y requieren poco código, pero son limitados.
 
-Hooks viene para mejorar tus componentes y darles superpoderes!
+Los Hooks vienen para mejorar tus componentes y darles superpoderes!
 
-### Mis componentes necesitan superpoderes?
+### ¿Mis componentes necesitan superpoderes?
 
 En general, usando props es suficiente para crear un componente sorprendente, pero a veces es necesario más, estos son algunos ejemplos realmente útiles para usar hooks:
 
 1. Si tu quieres abrir o cerrar un modal o diálogo (usa el **useState** hook).
-2. Si desea obtener algunos datos solo al comienzo de la ejecución del programa (usa el **useEffect** hook).
+2. Si deseas obtener algunos datos solo al comienzo de la ejecución del programa (usa el **useEffect** hook).
 3. Si quieres compartir información dentro de todos los componentes (usa el **useContext** hook).
 
-A medida que tenga más experiencia, comprenderás mejor cuándo se necesita Hooks, si no crees que los necesitas, ¡NO lo uses! ¡Cuanto menos mejor!
+A medida que tengas más experiencia, comprenderás mejor cuándo se necesitas Hooks, si no crees que los necesitas, ¡No lo uses! ¡Cuanto menos mejor!
 
 ### Todas las aplicaciones necesitan al menos un <strong>useState</strong> y un <strong>useEffect</strong>
 
@@ -38,7 +38,7 @@ El hook más importante, casi inevitable! El <strong>useState</strong> te ayuda 
 const [ mySuperVariable, mySuperFunction ] = useState(          null        );
 ```
 
-Basicamente `mySuperVariable` va a inicializar con `null` y luego tu podrás restablecer su valor llamando `mySuperFunction` de esta forma:
+Básicamente `mySuperVariable` va a inicializar con `null` y luego tu podrás restablecer su valor llamando a `mySuperFunction` de esta forma:
 
 ```jsx
 // aqui estamos restableciendo el valor de mySuperVariable = 'hello' cuando el uso hace clic en un botón
@@ -55,13 +55,13 @@ Basicamente `mySuperVariable` va a inicializar con `null` y luego tu podrás res
 | 4. Apertura/cierre (mostrar / ocultar): un caso de uso típico es tener un diálogo que pide una pregunta o tal vez algún formulario de suscripción al boletín, [haga click aquí para ver el ejemplo](https://codesandbox.io/s/modal-window-component-with-hooks-vb6de?fontsize=14). | ![Modal Window using react hooks](../../assets/images/03d2c2c4-f510-4088-9bb0-1665dbfe8a68modalwindowhooks.gif) |
 | 5. Miles de otras posibles aplicasiones. | |
 
-Vamos a explicar este hook con una pequeña ventana modal de ejemplo, aqui esta el codigo vivo:
+Vamos a explicar este hook con una pequeña ventana modal de ejemplo, aqui esta el código:
 
 <iframe src="https://codesandbox.io/embed/goofy-sutherland-vb6de?fontsize=14" title="Modal with hooks" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 Para implementar un "Ventana Modal" nosotros decidimos crear un hook variable llamado `opened` esto es `true` si la ventana modal tiene que mostrarse al usuario.
 
-Si el usuario hace click en "close" nosotros simplificamos el uso de la función hook `setOpened` para cambiar el valor de `opened` a false.
+Si el usuario hace clic en "close" nosotros simplificamos el uso de la función hook `setOpened` para cambiar el valor de `opened` a false.
 
 ## El hook `useEffect`:
 
@@ -69,23 +69,22 @@ Si el usuario hace click en "close" nosotros simplificamos el uso de la función
 
 El UseEffect es otro hook increíble que probablemente tendrás que usar en casi todas las aplicaciones de react al menos una vez.
 
-Usalo si deseas ejecutar algún código después de que el componente se procese, por ejemplo:
+Úsalo si deseas ejecutar algún código después de que el componente se procese, por ejemplo:
 
 #### 1) Después de que el componente se procesa por primera vez (como el viejo componentDidMount).
 ```jsx
 const MyComponent = () => {
     useEffect(() =>
 
-        // lo que codifique aquí se ejecutará solo después de la primera vez que el componente se procese
+        // lo que codifiques aquí se ejecutará solo después de la primera vez que el componente se procese
 
-    , []);// <------ PLESE NOTICE THE EMPTY ARRAY
-
+    , []);// <------ ESTE ARRAY ESTA VACIO
 
     return <Some HTML>;
 }
 ```
 [[info]]
-| :point_up: Tenga en cuenta el `[]` como el segundo parámetro de useEffect.
+| :point_up: Ten en cuenta el `[]` como el segundo parámetro de useEffect.
 
 #### 2) Cada momento (o algunas veces) después de que el componente se vuelva a renderizar.
 ```jsx
@@ -101,9 +100,9 @@ const MyComponent = () => {
 }
 ```
 [[info]]
-| :point_up: Este useEffect no tiene una matriz vacía `[]` como segundo parámetro.
+| :point_up: Este useEffect no tiene un array vacío `[]` como segundo parámetro.
 
-#### 3) Cuando el componente se desmontará o dejará de renderizarse (como la buena y vieja función componentWillUnmount).
+#### 3) Cuando el componente se desmonte o deje de renderizarse (como la buena y vieja función componentWillUnmount).
 ```jsx
 const MyComponent = () => {
     useEffect(() =>
@@ -111,7 +110,7 @@ const MyComponent = () => {
         return () => {
             // esto se ejecutará justo antes de que el componente se desmonte
         }
-    ,[]);// <------ ¡TENGA EN CUENTA EL ARREGLO VACÍO
+    ,[]);// <------ ¡TENGA EN CUENTA EL ARRAY VACÍO!
 
     return <Some HTML>;
 }
@@ -123,11 +122,11 @@ const MyComponent = () => {
     <img src="../../assets/images/41f4a2be-380f-47af-acab-d479acf80921todolisthooks.gif">
 </p>
 
-Por ejemplo, digamos que estoy construyendo una lista de Todo, y tengo que cargar la lista de tareas desde una API, tendré que buscar la información justo después de que el componente se procese por primera vez:
+Por ejemplo, digamos que estoy construyendo una lista de tareas, y tengo que cargar la lista de tareas desde una API, tendré que buscar la información justo después de que el componente se procese por primera vez:
 
 ```jsx
 const Todos = (props) => {
-    //inicialice la variable de tareas en una matriz vacía y conéctela a la función setTasks
+    //inicialice la variable de tareas en un array vacío y conéctelo a la función setTasks
     const [ tasks, setTasks] = useState([]);
 
     //Esta función useEffect se ejecutará solo una vez, cuando el componente finalmente se cargue la primera vez.
@@ -135,11 +134,11 @@ const Todos = (props) => {
         // aquí busco mis todos de la API
         fetch('https://assets.breatheco.de/apis/fake/todos/user/alesanchezr')
             .then(r => r.json())
-            .then(data => setTasks(data)) //here it re-set the variable tasks with the incoming data
+            .then(data => setTasks(data)) // aquí restablece la variable tasks con los datos entrantes 
     , []);
 
     return <ul>{tasks.map(t => <li>{t.label}</li>)}</ul>;
 }
 ```
 [[demo]]
-| Revise el código en profundidad y la demostración en vivo [haciendo clic aquí](https://codesandbox.io/s/xenodochial-varahamihira-egh86?fontsize=14)
+| Revisa el código en profundidad y la demostración en vivo [haciendo clic aquí](https://codesandbox.io/s/xenodochial-varahamihira-egh86?fontsize=14)
