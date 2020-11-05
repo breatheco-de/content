@@ -4,6 +4,6 @@ tasks:
     - init:
         npm install;
       command: >
-        npm i gatsby -g;
+        npm i gatsby-cli -g;
         npm i now -g;
         npm run start

@@ -2,10 +2,9 @@
 slug: "asincrono-algoritmos-async-await"
 title: "Creando algoritmos asíncronos"
 subtitle: "Comprende la diferencia entre scripts síncronos y asíncronos, uso de Promises y master async y wait."
-cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
+cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 status: "published"
-authors: ["kodi2fever", "nachovz"]
-
+authors: ["kodi2fever","nachovz"]
 textColor: "white"
 date: "2020-10-19T12:36:30-04:00"
 tags: ["async","await","promise","asynchronous"]
@@ -14,9 +13,10 @@ tags: ["async","await","promise","asynchronous"]
 
 ## Programación Asíncrona con JavaScript
 ***
+
 Hasta ahora, hemos utilizado código JavaScript para ejecutar aplicaciones web simples, que incluyen: usar variables, llamar a funciones y jugar con el ***DOM***. En las funciones, específicamente, incluso pasamos funciones a otras funciones (***funciones callback***) y hay mucho más que hablar al respecto. 
 
-Comencemos diciendo que JavaScript es síncrono y con una sola secuencia, es decir: el código se ejecuta desde la línea 1 hasta el último, uno a la vez y en ese orden normalmente. Échale un vistazo a éste ejemplo:
+Comencemos diciendo que JavaScript por defecto es síncrono y con una sola secuencia, es decir: el código se ejecuta desde la línea 1 hasta el último, uno a la vez y en ese orden normalmente. Échale un vistazo a éste ejemplo:
 
 #### Sincróno(por defecto)
 
@@ -71,7 +71,7 @@ Esto sucede porque la ***call stack*** en JavaScript lleva un registro de las fu
 + Segundo ```console.log``` se ejecuta (linea 7).
 + Una vez que ```correSegundo ()``` termina, ```correPrimero ()``` comienza nuevamente, ejecutando el resto de su código, el último ```console.log``` (línea 4).
 
-D I V I E R T E T E !
+¡ D I V I E R T E T E !
 
 Pero espera, hay más... Incluso podríamos pasar una *función* como argumento a otra función (no, esto no es un error tipográfico). La *función* enviada como parámetro se llama **función callback**. Echa un vistazo:
 
@@ -105,7 +105,7 @@ RESULTADO CONSOLA:
 
 ...*Es posible que quieras repasar, no te preocupes, tenemos tiempo*...
 
-Tiempo de explicacion!
+¡Tiempo de explicaciones!
 
 Hemos agregado una nueva función ```unaTercera ()``` (línea 12), que muestra los registros de la consola: "esto es una locura"; pero no la estamos llamando directamente, en cambio, estamos pasando el nombre como parámetro a ```correPrimero ()``` (línea 10).
 ```correPrimero(unaFunción)``` ahora espera un valor (línea 1) que llamaremos como si fuera una función (línea 3).
@@ -147,22 +147,22 @@ En un sitio web de la vida real, los usuarios tendrán que esperar mucho tiempo 
 La programación asíncrona es una forma de procesar líneas de código y manejar el resultado sin afectar el hilo principal. 
 
 ```javascript
-1    function cargarImagen(){
-3	console.log("¡Cárgala!");
-4	fetch("la_url_de_la_imagen").then( (response) => {
-5		if(response.ok){ 
-6			console.log("¡Imagen cargada!");
-7		} else {
-8			console.log("Uh-oh algo salió mal");
-9		}
-10	});
-11   }
-12   function usuarioEsperando(){
-13	console.log("No me gusta esperar");
-14   }
-15   cargarImagen();
-16  usuarioEsperando();
-17
+function cargarImagen(){
+  console.log("¡Cárgala!");
+  fetch("la_url_de_la_imagen").then( (response) => {
+    if(response.ok){ 
+      console.log("¡Imagen cargada!");
+    } else {
+      console.log("Uh-oh algo salió mal");
+    }
+	});
+}
+function usuarioEsperando(){
+  console.log("No me gusta esperar");
+}
+cargarImagen();
+usuarioEsperando();
+
 
 /*RESULTADO CONSOLA:
 	> ¡Cárgala! 					//el usuario comienza a esperar
@@ -179,7 +179,7 @@ Javascript ofrece varias funciones asíncronas predefinidas que podemos utilizar
 
 En este caso, utilizamos la Fetch API para cargar las imágenes y *luego* (después de obtener una respuesta desde backend) escribimos algunos comentarios sobre el proceso.
 
-Tenga en cuenta que cualquier llamada a la red puede fallar por diversas razones, siempre debemos estar preparados para la falla.
+Tenga en cuenta que cualquier peticion (request) http puede fallar por diversas razones, siempre debemos estar preparados para la falla.
 
 ## Promesas
 ***
