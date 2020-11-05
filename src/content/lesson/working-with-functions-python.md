@@ -5,7 +5,7 @@ cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T12:36:31-04:00"
 tags: ["python"]
-status: "draft"
+status: "published"
 
 ---
 
@@ -34,7 +34,7 @@ By reviewing that code we can obtain the following conclusions:
 
 - Every function must be declared using the statement `def`
 - After `def` we have to write the name we want for the function (in this case "multiply").
-- After the name, we have to add the function parameters or inputs separated by a coma `,`. We can pick the name the parameters are going to have, but they must always be in the same order.
+- After the name, we have to add the function parameters or inputs separated by a coma `,`. We can pick the name the parameters are going to have (in this case `a`and `b`), but they must always be in the same order.
 - We have to end that line using a colon `:` that way the computer will know we are about to start coding the insides of the function (the function algorithm).
 - The last thing we must do is add a return (good practice), all functions must return something, in this case we returned the multiplication between the A and B parameters (inputs) given.
 
@@ -71,7 +71,7 @@ def get_price(number_of_guests):
 
 + **Every function must have a purpose** (a goal) (like our function “multiply”).  The function purpose is to calculate the multiplication between two given numbers.
 + **It must have a unique name.**  In this particular case, our function is called “multiply” – which its a great name because you know exactly what the functions is about, it's explicit.
-+ **It must return something.**  By default in javascript all functions return “undefined” but you should override and always return something useful. In this example, we want to return the result of a & b multiplication.
++ **It must return something.**  By default in python all functions return `none` but you should override and always return something useful. In this example, we want to return the result of a & b multiplication.
 + **Functions may have parameters.**  A “parameter” is a variable that the function may receive at the beginning of its code (like a & b in our example).
 
 The whole idea is to have a library of hundreds of functions and use them as we please, you declare all your functions and later you start using and re-using them all the time.
@@ -87,7 +87,7 @@ By using functions you have the following advantages:
 + Re-use your code by calling the function several times, dramatically reducing your code length.
 + Organize your code: function names will tell you what that piece of code does, you can have all the functions in a separate file and re-use it in all your future developments.
 
-If you think about it, functions are the equivalent of books. The store knowledge and ways of doing things and in future developments you just re-use them instead of having to figure out everything all over again.
+If you think about it, functions are the equivalent of books. They store knowledge and ways of doing things and in future developments you just re-use them instead of having to figure out everything all over again.
 
 ## The Function Scope
 
@@ -105,12 +105,15 @@ def multiply(a, b):
 
     # this part of the code is INSIDE my function but it will never 
     # be executed because it is located AFTER the return statement. 
-}
+
 
 # this part of the code is OUTSIDE the 'multiply' function 
+print(str(multiply(34, 2)))
 ```
 
-Any variables that you declare inside the function will not be available outside of it.
+
+[[warning]]
+| :point_up: Any variables that you declare inside the function will not be available outside of it.
 
 ```python{numberLines: true}
 def multiply(a, b):
@@ -140,7 +143,7 @@ Lamba is ideal for cases in which you have little functions, you will learn to l
 
 ## Calling Functions
 
-The only way to use (a.k.a: call) a function is to use parenthesis brackets like this:
+The only way to use (a.k.a: call) a function is to use parenthesis like this:
 
 ```python
 # this is how you call a function without parameters 
