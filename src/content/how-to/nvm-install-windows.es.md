@@ -32,20 +32,20 @@ Una vez instañado, abre la línea de comando de Windows. Si tienes algún probl
 ***
 
 5. **Instalar node version 8 o la versión que quieras**
-En la línea de comando, escribe el comando que hay más abajo. Si quieres verificar cuáles son las node versions actuales, puede ir a [nodejs.org](https://nodejs.org/es/) y verlos todos. Nosotros te recomendamos usar la ***recomendada para la mayoría de los usuarios***.
+En la línea de comando, escribe el comando que hay más abajo. Si quieres verificar cuáles son las versiones de node actuales, puedes ir a [nodejs.org](https://nodejs.org/es/) y verlas todas. Nosotros te recomendamos usar la ***recomendada para la mayoría de los usuarios***.
 ```
 nvm install 8.15.0
 ```
 ***
 6. **Verificar las versiones de node instaladas**
-Siempre verifica las versiones de node instaladas. Algunas veces nuestras aplicaciones no se ejecutan porque usamos versiones desactualizadas. Este comando te mostrará todas las versiones de node que tengas instaladas en Windows.
+Siempre verifica las versiones de node que hay instaladas. Algunas veces nuestras aplicaciones no se ejecutan porque usamos versiones desactualizadas. Este comando te mostrará todas las versiones de node que tengas instaladas en Windows.
 ```
 nvm list
 ```
   ***
   
   7. **Cambiar entre diferentes versiones de node**
-  Siempre puedes udar diferentes versiones de node y este comando te permite saltar entre todas nuestras versiones instaladas.
+  Siempre puedes usar diferentes versiones de node y este comando te permite saltar entre todas tus versiones instaladas.
   ```
   nvm use 8.15.0
   ```
@@ -54,5 +54,5 @@ nvm list
   nvm use 10.15.1
   ```
  ## Si tuviste errores
- Por favor deja una iisue aquí e intentaremos ayudarte. También puedes contribuir y hacer pull-request si piensas que esta guía requiere de actualizaciones.
+ Por favor deja una issue aquí e intentaremos ayudarte. También puedes contribuir y hacer pull-requests si piensas que esta guía requiere de actualizaciones.
  
