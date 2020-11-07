@@ -16,7 +16,7 @@ Databases are the best way to store data, and everyday there is more and more da
 
 At the beginning, information was saved into more simple files like .csv (comma separated).  This was very disorganized – the data was both easy to corrupt and hard to access (imagine having to browse comma separated files).
 
-![Edgar Codd](https://en.wikipedia.org/wiki/Edgar_F._Codd#/media/File:Edgar_F_Codd.jpg)
+![Edgar Codd](../../assets/images/11fcd6d8-6177-4f42-b4e0-7b6475f24b0a.jpeg)
 
 At some point, our friend [Edgar](https://en.wikipedia.org/wiki/Edgar_F._Codd) decided to re-design those files and created a standard way of storing data into files focused on performance and integrity.  He partnered with mister [Donald](https://en.wikipedia.org/wiki/Donald_D._Chamberlin) and together they created a language called SQL (Structured Query Language) –  which was designed to work with data in a more user-friendly way.
 
