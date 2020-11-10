@@ -5,7 +5,7 @@ cover_local: "../../assets/images/d2ca9eb7-a3f9-432d-b791-8b1266f8923a.gif"
 textColor: "white"
 date: "2020-10-19T12:36:31-04:00"
 tags: ["event driven programming"]
-status: "draft"
+status: "published"
 
 ---
 
