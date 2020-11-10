@@ -1,7 +1,7 @@
 ---
-title: "Haciendo Componentes de React"
-subtitle: "React.js bread and butter, become a master in React Components and you have conquered the front-end world of React."
-cover_local: "../../assets/images/84c4d84c-51b9-4906-a572-71cc07ecfc8c.jpeg"
+title: "Creando Componentes de React"
+subtitle: "React.js, conviértete en master de Componentes de React y habrás conquistado el mundofront-end de React." 
+cover: "https://ucarecdn.com/84c4d84c-51b9-4906-a572-71cc07ecfc8c/"
 textColor: "white"
 date: "2020-10-19T12:36:31-04:00"
 tags: ["reactjs"]
@@ -9,21 +9,25 @@ status: "published"
 
 ---
 
-## En React.js todo es un `<Component />`
+## En React.js todo es un `<Componente />`
 ***
 
-React.js separa tu código en pequeñas partes llamadas Componentes que pueden crearse / definirse como **class** o como **function**.  Cada componente es como una aplicación de React más pequeña que tiene su propia lógica y tiene un propósito final que es mostrar (Render) algo (por ejemplo: una barra de navegación de bootstrap, una lista desplegable, un modelo, un formulario dinámico, galería de imágenes, formulario de suscripción, casi todo puede diseñarse y codificarse como un componente React).
+React.js separa tu código en pequeñas partes llamadas Componentes que pueden crearse / definirse como **class** o como **function**.  Cada componente es como una aplicación de React más pequeña que tiene su propia lógica y tiene un propósito final que es renderizar algo. Por ejemplo: un `navbar` de bootstrap, una _dropdown list_ (lista desplegable), un modelo, un formulario dinámico, galería de imágenes, formulario de suscripción, casi todo puede diseñarse y codificarse como un componente React). Para hacer eso, el componente de React debe tener un `return` que devuelva código JSX (HTML + JS anidado).
 
 ```jsx{numberLines: true}
-// como una function 
+
+import React from 'react';
+
+// como componente funcional
 function NavBar(props){
     return (<nav className="navbar navbar-light bg-light">
               <a className="navbar-brand" href="#">Navbar</a>
            </nav>);
 }
 
-//o como una class 
+//o como un componente de clase
 import React from 'react';
+
 class Navbar extends React.Component{
     render(){
         return (<nav className="navbar navbar-light bg-light">
@@ -34,29 +38,42 @@ class Navbar extends React.Component{
 ```
 
 ## Usando un Componente
-***
 
-
-Una vez que la declaración del componente haya finalizado, puede hacer referencia a ella utilizando etiquetas como esta:
+Una vez que hayas creado tu componente puedes mostrarlos usando etiquetas de esta forma:
 
 ```jsx
 import React from "react";
+
 import { render } from "react-dom";
 
-/// Aquí le dices a react que ponga <NavBar /> dentro del elemento DOM #myApp
-render(
-  <NavBar />,
+// aquí le decimos a React que ponga nuestro componente principal <Home /> dentro del elemento DOM con id #myApp 
+ReactDOM.render(
+  <Home />,
   document.querySelector("#myApp")
 );
+
+// o podemos usar el componente Navbar y mostrarlo en la parte superior de nuestro componente Home
+function Home(props){
+    return (
+        <div className="container-fluid"> // en JSX debemos usar un atributo llamada 'className en vez de 'class'
+            <Navbar />
+            <div>
+                ... The rest of Home's contents ...
+            </div>
+        </div>
+    );
+}
+
 ```
-## El Componente Props
+
+## Las Props
 ***
 
-A veces un componente necesita información dinámica para mostrar. Por ejemplo, necesitamos nuestro componente `<Navbar />` para mostrar la lista de enlaces disponibles y el logotipo de la marca. Podemos incluir esa información dentro de la llamada del componente `<Navbar />` de la misma manera que lo hacemos en las etiquetas HTML.
+A veces un componente necesita información dinámica para mostrar. Por ejemplo, necesitamos nuestro componente `<Navbar />` para mostrar la lista de enlaces disponibles y el logo de la marca. Podemos incluir esa información dentro de la llamada del componente `<Navbar />` de la misma manera que lo hacemos en las etiquetas HTML.
 
 `<Navbar foo="bar" foo2="bar2" />`
 
-En este ejemplo, estamos pasando una serie de elementos de menú y una URL de logotipo al componente NavBar que acabamos de declarar anteriormente.
+En este ejemplo, estamos pasando un array de elementos de menú y una URL con el  logo al componente NavBar que acabamos de declarar anteriormente.
 
 ```jsx
 let menu = [
@@ -66,13 +83,17 @@ let menu = [
 <Navbar items={menu} logo="http://path/to/logo.png" />
 ```
 
-Ahora, dentro de `<Navbar />` podemos usar esos valores (que se entregan a través de la variable Props) para procesar la información proporcionada.
+Ahora, dentro de `<Navbar />` podemos usar esos valores (que se entregan a través de la variable Props) para renderizar la información proporcionada.
 
-Y, por último, debes indicar a React dónde debe renderizar ese componente en el DOM.
+Y, por último, debemos indicarle a React dónde debe renderizar ese componente en el DOM.
 
 <iframe src="https://codesandbox.io/embed/zwlnpwmxll?hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-<div align="right"><small><a href="https://codesandbox.io/embed/zwlnpwmxll?hidenavigation=1">Haz clic aquí para abrir la demo en una nueva ventana/a></small></div>
+<div align="right"><small><a href="https://codesandbox.io/embed/zwlnpwmxll?hidenavigation=1">Haz clic aquí para abrir una nueva ventana</a></small></div>
+
+
+### Características de los componentes de clases (`class` components)
+
 
 ## El Estado del Componente
 ***
@@ -119,7 +140,7 @@ Aquí hay un ejemplo del componente `<Clock />` del que acabamos de hablar:
   
 ¡Pero no te preocupes! ¡Puedes cambiar de un tipo de declaración a la otra sin ningún problema! Aquí hay una comparación de ambos tipos de componentes:
 
-|&nbsp; &nbsp;   |Como una **Function**     |Como una **Class**   |
+|&nbsp; &nbsp;   |Como una **Function**     |Como una **Clase**   |
 |:---------|:--------:|:---------:|
 |Sencillez      |Muy simple declaración y uso. El único propósito de la función es devolver un HTML con todo lo que este componente debe mostrar cuando se coloca en el sitio web.     |Más complejo - la declaración de clase debe heredarse de React.Component y contiene muchas más funcionalidades que le permiten al desarrollador personalizar la lógica de los componentes, como los métodos de ciclo de vida y el estado. Ten en cuenta que puedes crear tantos métodos de clase adicionales como desees.    |
 |Declaración       |`python>// usando functions`<br>`python>function MyComponent(){`<br>&nbsp;&nbsp;`python>return Hello;`<br>`}`<br><br>`python>// o usando funciones de flecha` <br>`python>const MyComponent = () => Hello;`     |`python>// usando classes`<br>`python>import React from 'react';`<br>`python>class MyComponent extends React.Component{`<br> &nbsp; &nbsp;    `python>render(){`<br>  &nbsp; &nbsp; &nbsp;       `python>return Hello;`<br> &nbsp; &nbsp;   `python>}`<br>`python>}`         |
@@ -128,6 +149,5 @@ Aquí hay un ejemplo del componente `<Clock />` del que acabamos de hablar:
 |Metodos de ciclo de vida    |No hay métodos de ciclo de vida disponibles.     |Tiene todos los métodos disponibles, siendo estos los más importantes: Constructor, ComponentWillMount, ComponentWillUnmount, getDerivedStateFromProps, etc.<br> <br> Puedes declarar dentro de tu componente de clase esos métodos y mágicamente los llamará React en el momento adecuado, así:<br> <br> `python>class MyComponent{`<br> &nbsp; &nbsp; &nbsp; `python>constructor(){`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>super();`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>//initialize your state` <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>this.state = {}`<br> &nbsp; &nbsp; &nbsp; `}`<br> &nbsp; &nbsp; &nbsp; `python>componentDidMount(){  //do something to the state here }` <br> &nbsp; &nbsp; &nbsp; `python>componentWillUnmount(){  //best place to remove listeners }` <br> &nbsp; &nbsp; &nbsp; `python>static getDerivedStateFromProps(nextProps, prevState){ //return the updated state } `<br> &nbsp; &nbsp; &nbsp; `python>//there are many more lifecycle methods` <br> `python>}`        |
 
 [[info]]
+
 |:link: Aquí puedes encontrar [más información sobre todos los métodos de ciclo de vida de React JS.](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
-
-
