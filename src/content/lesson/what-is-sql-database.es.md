@@ -195,7 +195,7 @@ Nosotros podemos clasificar los problemas de integridad en 4 tipos:
 ## Transacciones SQL
 ***
 
-Una transacción de una o más operaciones SQL (insertar, eliminar, actualizar, crear, etc.).
+Una transacción es un grupo de una o más operaciones SQL (insertar, eliminar, actualizar, crear, etc.).
 
 Una transacción agrupa varias operaciones en una porque todas dependen unas de otras. Debe tener la garantía de que si una de esas operaciones falla, la base de datos "deshacerá" todo lo que hizo dentro de la misma transacción.
 
@@ -300,7 +300,6 @@ SET TRANSACTION [ READ WRITE | READ ONLY ];
 
 [[info]]
 |:link:https://www.tutorialspoint.com/sql/sql-syntax.html
-
 
 
 
