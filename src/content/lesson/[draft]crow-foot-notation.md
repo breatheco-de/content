@@ -13,7 +13,7 @@ A number of data modelling techniques are being used today. Onne of the most com
 
 ![Crow's foot notation](../../assets/images/CFN.png)
 
-## Crow's foot notation 
+# Crow's foot notation 
 
 Entity-relationship diagrams are a useful tool for designing databases. A method often used to create an entity-relationship diagram is crow's foot notation (also know as IE notation). 
 
@@ -22,11 +22,11 @@ This method was introduced in the 70' by Gordon Everest and it has been called i
 The most important characteristic of crow's foot notation is that it uses graphical symbols to indicate the 'many' side of the relationship. The three-pronged 'many' symbol is also how this widely-used notation style got its name.
 
 
-# Crow's Foot Notation symbols
+## Crow's Foot Notation symbols
 
 Now, let's tak about the representation of entities and relationships:
 
-# but... What is an entity?
+## but... What is an entity?
 
 Is a representation of a class of object. It could be a person, place, thing, etc. 
 
@@ -65,8 +65,6 @@ Relationships have to indicators and they are shown on both sides of the line.
 
 ![Crow's foot notation](../../assets/images/image-4-cfn.png)
 
-You can see from this image just where the name "crow's foot" came from....
-
 + The second describes the *minimum* number of times one instance can be related to others. It can be **zero** or **one**, and accordingly describes the relationship as **optional** or **mandatory**.
 
 ![Crow's foot notation](../../assets/images/image-5-cfn.png)
@@ -83,6 +81,8 @@ In crow's foot notation:
 + A multiplicity of many is represented by three-pronged 'crow-foot' symbol.
 
 ![Crow's foot notation](../../assets/images/image-13-cfn.png)
+
+You can see from this image just where the name "crow's foot" came from....
 
 + An optional relationship is represented by an empty circle.
 
