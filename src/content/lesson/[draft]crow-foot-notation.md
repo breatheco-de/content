@@ -1,6 +1,6 @@
 ---
 title: "Crow's Foot Notation"
-subtitle: "A number of data modelling techniques are being used today. Onne of the most common is the Entity Relationship Diagram (ERD). There are several ERD notation available: today we will be using Crow's Foot Notation"
+subtitle: "A number of data modelling techniques are being used today. One of the most common is the Entity Relationship Diagram (ERD). There are several ERD notation available: today we will be using Crow's Foot Notation"
 cover_local: "../../assets/images/image0-cfn.png"
 textColor: "white"
 date: "2020-10-19T12:36:30-04:00"
@@ -82,7 +82,7 @@ In crow's foot notation:
 
 ![Crow's foot notation](../../assets/images/image-13-cfn.png)
 
-You can see from this image just where the name "crow's foot" came from....
+You can see from this image just where the name "crow's foot" came from...
 
 + An optional relationship is represented by an empty circle.
 
