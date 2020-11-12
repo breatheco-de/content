@@ -85,7 +85,7 @@ module.exports = {
 };
 ```
 
-The only thing that Webpack needs from you is specifying the export property of the model object.
+The only thing that Webpack needs from you is specifying the export property of the module object.
 
 As you can see, the module object is not declared anywhere, but don’t worry about that, it’s something that exists magically on every npm application (like the one we have just created).
 
