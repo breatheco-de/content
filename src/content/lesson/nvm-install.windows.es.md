@@ -35,7 +35,7 @@ Una vez instalado, abre la ventana de la Terminal en Windows. Si no encuentras l
 
 5. **Instalar node versión 8 o la versión que quieras**
 
-En la terminal ingresa el comando de abajo. Si quieres verificar cuáles son las versiones de node actuales, puedes ir a [nodejs.org](https://nodejs.org/en/). Te recomendamos que uses la **la recomendada para la mayoría de los usuarios***.
+En la terminal ingresa el comando de abajo. Si quieres verificar cuáles son las versiones de node actuales, puedes ir a [nodejs.org](https://nodejs.org/en/). Te recomendamos que uses **la recomendada para la mayoría de personas***.
 ```
 nvm install 8.15.0
 ```
