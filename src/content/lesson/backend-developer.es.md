@@ -61,7 +61,7 @@ Lo bueno de un lenguaje de back-end es que se ejecuta en una máquina real (no e
 + Generar Documentos PDF’s, Word or Excel.
 + Conectarte a una o varias bases de datos al mismo tiempo y recuperar / procesar los datos.
 + Transmitir video y archivos de audio.
-+ Abrir / crear / eliminar archivos locales de la máquina y actualizalos con contenido nuevo.
++ Abrir / crear / eliminar archivos locales de la máquina y actualizarlos con contenido nuevo.
 + Comprimir imágenes, videos o cualquier tipo de archivos
 + Acceder a cualquier programa instalado en la máquina local y utilizarlo para tu sitio web (por ejemplo, puedes abrir el programa zip y extraer un archivo zip).
 + Interactuar con cualquier hardware conectado al servidor principal (como una máquina expendedora, un lector de huellas digitales, lentes de realidad virtual, un lector de tarjetas de crédito, etc.).
@@ -78,5 +78,4 @@ El código de un desarrollador web de back-end debe cumplir con 4 requisitos pri
 + **Trabajar con la información:** Obtener lo que necesites de la base de datos, actualizar lo que necesitas de la base de datos.
 + **Desarrollar y ejecutar la parte lógica de las necesidades del negocio:** Conectarte con aplicaciones de terceros, hardware externos y cualquier otra necesidad cdel negocio.
 + **Responder al cliente:** Preparar la respuesta en el formato adecuado y enviarla al cliente.
-
 
