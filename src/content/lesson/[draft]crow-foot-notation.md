@@ -100,7 +100,7 @@ Finally! There are 4 possible edges to the relationship, illustrated here:
 
 ![Crow's foot notation](../../assets/images/image-8-cfn.png)
 
-+ zero or one:
++ zero or one
 
 ![Crow's foot notation](../../assets/images/image-9-cfn.png)
 
