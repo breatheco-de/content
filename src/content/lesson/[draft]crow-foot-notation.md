@@ -15,7 +15,7 @@ A number of data modeling techniques are being used today. One of the most commo
 
 # Crow's foot notation 
 
-Entity-relationship diagrams are a useful tool for designing databases. A method often used to create an entity-relationship diagram is crow's foot notation (also know as IE notation). 
+Entity-Relationship diagrams are an useful tool for designing databases. One method often used to create an ER diagram is Crow's Foot Notation (also know as IE notation). 
 
 This method was introduced in the 70' by Gordon Everest and it has been called inverted arrow, chicken feet, or just fork.
 
@@ -121,7 +121,6 @@ Relationship degrees make them readable as:
 
 
 .. Well, it is not that difficult.. is it????....
-
 
 
 
