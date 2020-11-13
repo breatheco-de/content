@@ -20,7 +20,7 @@ Para instalar la herramienta Node Version Manager en Windows tenemos que descarg
 ***
 2. **Instalar nvm**
 
-Anda a la carpeta ***Descargas*** en Windows, y descomprime el archivo```nvm-setup.zip``` . Luego haz doble clic en ```nvm-setup```.
+Ve al directorio ***Descargas*** en Windows, y descomprime el archivo ```nvm-setup.zip``` . Luego haz doble clic en ```nvm-setup```.
 ***
 3. **Asistente de instalación**
 
