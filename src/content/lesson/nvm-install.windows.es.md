@@ -30,7 +30,7 @@ Cuando se abra el asistente de instalación, haz clic en el botón ***next*** un
 ***
 4. **Terminal**
 
-Una vez instalado, abre la ventana de la Terminal en Windows. Si no encuentras la terminal, tipea ***CMD*** en la barra de búsqueda de Windows que se encuentra en la esquina inferior izquierda de tu escritorio.
+Una vez instalado, abre la ventana de la Terminal en Windows. Si no encuentras la terminal, escribe ***CMD*** en la barra de búsqueda de Windows que se encuentra en la esquina inferior izquierda de tu escritorio.
 ***
 
 5. **Instalar node versión 8 o la versión que quieras**
