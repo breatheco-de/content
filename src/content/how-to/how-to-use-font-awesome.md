@@ -31,13 +31,18 @@ After adding the `<link>` tag you can start adding icons using `<i>` tags like t
 ```html
 <i class="fas fa-pencil-alt"></i>
 ```
-You have to replace the class names with the ones that correspond with the icon that you pick from: [this list of icons](https://fontawesome.com/icons?d=gallery)
+You have to replace the class names with the ones that correspond with the icon that you pick from: [this list of icons](https://fontawesome.com/icons?d=gallery), for example:
+
+| Icon name | Corresponding html tag |
+| ---- | ---- |
+| faPencilAlt | <i class="fas fa-pencil-alt"></i> |
+| faCog | <i class="fas fa-cog"></i> |
 
 ### Using Font Awesome with Webpack (Vanilla js)
 
 You can still add the same `<link>` into your index.html file and you will still be able to use `<i>` tags like explained on the previous section.
 
-Make sure you fint the index.html on your project, open it and add the link tag into the header.
+Make sure you find the index.html on your project, open it and add the link tag into the header.
 
 ### Using Font Awesome in React.js
 
@@ -47,7 +52,7 @@ Font-awesome is divided in several npm packages, you will have to install all of
 $ npm i @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons --save
 ```
 
-Now go to the react component or page where you want to add the icons and import font awesome AND also the icon:
+Now go to the react component or page where you want to add the icons to and import font awesome AND also the icon:
 
 For example, here we are importing the [coffe icon](https://fontawesome.com/icons/coffee?style=solid):
 ```
