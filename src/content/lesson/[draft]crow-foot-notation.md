@@ -74,7 +74,7 @@ These indicators are combined in a specific order. Placed on the outside edge of
 
 In crow's foot notation:
 
-+ A multiplicity of one and a mandatory relationship is represented by a straight line perpendicular to the relationship line.
++ A multiplicity of one, and a mandatory relationship, are represented by a straight line perpendicular to the relationship line.
 
 ![Crow's foot notation](../../assets/images/image-14-cfn.png)
 
