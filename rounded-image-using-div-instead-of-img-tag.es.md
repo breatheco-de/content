@@ -13,7 +13,7 @@ Muchos sitios web usan imágenes de perfil redondas ¡es una técnica que hace r
 
 ![Ejemplo de imagen redonda](../../assets/images/9edb713a-3a80-442a-9fc5-dd5caa9da62fScreenShot20190524at114329AM.png)
 
-La manera obvia de crear una imagen de perfil redonda es crear una etiqueta de imagen y aplicarle  `border-radius:100%`. El problema esta solución, es que sólo funciona en imágenes cuadradas...las imágenes de perfil con diferentes alturas y ancho no se verán como círculos sino como óvalos:
+La manera obvia de crear una imagen de perfil redonda es crear una etiqueta de imagen y aplicarle  `border-radius:100%`. El problema de esta solución, es que sólo funciona en imágenes cuadradas (igual ancho y alto)... las imágenes de perfil con diferentes alturas y ancho no se verán como círculos sino como óvalos:
 
 ![etiqueta de imagen vs div con imagen de fondo/background-image](../../assets/images/596b5833-09a1-4ff0-8718-bc7ba4dd995dScreenShot20190524at42229PM.png)
 
