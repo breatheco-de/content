@@ -76,6 +76,5 @@ El código de un desarrollador web de back-end debe cumplir con 4 requisitos pri
 
 + **Recibir y procesar las solicitudes de los clientes:** Entender lo que el cliente está solicitando, validar los datos ingresados (parámetros), rechazar posibles violaciones de seguridad.
 + **Trabajar con la información:** Obtener lo que necesites de la base de datos, actualizar lo que necesitas de la base de datos.
-+ **Desarrollar y ejecutar la parte lógica de las necesidades del negocio:** Conectarte con aplicaciones de terceros, hardware externos y cualquier otra necesidad cdel negocio.
++ **Desarrollar y ejecutar la parte lógica del negocio:** Conectarte con aplicaciones de terceros, hardware externos y cualquier otra necesidad del negocio.
 + **Responder al cliente:** Preparar la respuesta en el formato adecuado y enviarla al cliente.
-
