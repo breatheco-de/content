@@ -59,7 +59,7 @@ Además del contenido del documento y del content-type, el servidor también agr
 Lo bueno de un lenguaje de back-end es que se ejecuta en una máquina real (no en un navegador como el lenguaje de front-end). Con un lenguaje back-end puedes hacer cosas como:
 
 + Generar Documentos PDF’s, Word or Excel.
-+ Conectartte a una o varias bases de datos al mismo tiempo y recuperar / procesar los datos.
++ Conectarte a una o varias bases de datos al mismo tiempo y recuperar / procesar los datos.
 + Transmitir video y archivos de audio.
 + Abrir / crear / eliminar archivos locales de la máquina y actualizalos con contenido nuevo.
 + Comprimir imágenes, videos o cualquier tipo de archivos
@@ -78,6 +78,5 @@ El código de un desarrollador web de back-end debe cumplir con 4 requisitos pri
 + **Trabajar con la información:** Obtener lo que necesites de la base de datos, actualizar lo que necesitas de la base de datos.
 + **Desarrollar y ejecutar la parte lógica de las necesidades del negocio:** Conectarte con aplicaciones de terceros, hardware externos y cualquier otra necesidad cdel negocio.
 + **Responder al cliente:** Preparar la respuesta en el formato adecuado y enviarla al cliente.
-
 
 
