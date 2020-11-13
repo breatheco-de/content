@@ -35,8 +35,8 @@ You have to replace the class names with the ones that correspond with the icon 
 
 | Icon name | Corresponding html tag |
 | ---- | ---- |
-| faPencilAlt | <i class="fas fa-pencil-alt"></i> |
-| faCog | <i class="fas fa-cog"></i> |
+| faPencilAlt | `<i class="fas fa-pencil-alt"></i>` |
+| faCog | `<i class="fas fa-cog"></i>` |
 
 ### Using Font Awesome with Webpack (Vanilla js)
 
@@ -48,21 +48,24 @@ Make sure you find the index.html on your project, open it and add the link tag 
 
 Font-awesome is divided in several npm packages, you will have to install all of them just to make sure (unless you know what you are doing), type the following in your command line:
 
-```
+```bash
 $ npm i @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons --save
 ```
 
 Now go to the react component or page where you want to add the icons to and import font awesome AND also the icon:
 
 For example, here we are importing the [coffe icon](https://fontawesome.com/icons/coffee?style=solid):
-```
+
+```js
 // first import the core package
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // then import the icon
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 ```
- Finally add the `<FontAwesomeIcon icon={faCoffee} />` tag anywhere inside the return statement of your component (the render method):
-```
+
+Finally add the `<FontAwesomeIcon icon={faCoffee} />` tag anywhere inside the return statement of your component (the render method):
+
+```jsx
 const ExampleComponent = () => {
 
     return <div>
