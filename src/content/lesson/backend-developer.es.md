@@ -11,7 +11,7 @@ status: "published"
 
 ## El Lado Back-End de la Web
 
-No hace mucho tiempo, los navegadores eran muy tontos. Todo lo que hacían era renderizar documentos HTML en una versión muy básica de HTML. No había CSS, ni JS ¡Eso significa que los desarrolladores web front-end no existían!
+No hace mucho tiempo, los navegadores eran muy tontos. Todo lo que hacían era renderizar documentos HTML en una versión muy básica de HTML. No había CSS, ni JS. ¡Eso significa que los desarrolladores web front-end no existían!
 
 Todo el trabajo era realizado por el servidor: como no había JavaScript, el DOM no podía actualizarse mientras se ejecutaba el sitio web. Eso significa que el código fuente HTML inicial que recibía el navegador al cargar el sitio web también era la última versión del mismo. **NNo haían modificaciones en el DOM**.
 
@@ -78,7 +78,6 @@ El código de un desarrollador web de back-end debe cumplir con 4 requisitos pri
 + **Trabajar con la información:** Obtener lo que necesites de la base de datos, actualizar lo que necesitas de la base de datos.
 + **Desarrollar y ejecutar la parte lógica de las necesidades del negocio:** Conectarte con aplicaciones de terceros, hardware externos y cualquier otra necesidad cdel negocio.
 + **Responder al cliente:** Preparar la respuesta en el formato adecuado y enviarla al cliente.
-
 
 
 
