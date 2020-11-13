@@ -3,7 +3,7 @@ title: "Construyendo tu perfil y reputación github"
 subtitle: "Toma horas armar un buen cv, incluso aunque sea falso- Tener un buen Github toma meses o años ¡Manos a la obra!"
 textColor: "white"
 authors: ["alesanchezr"]
-status: "draft"
+status: "published"
 date: "2020-10-19T12:36:31-04:00"
 tags: ["github"]
 cover_local: "../../assets/images/githubbackground.jpg"
