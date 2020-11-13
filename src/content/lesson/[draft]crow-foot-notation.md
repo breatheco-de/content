@@ -88,7 +88,7 @@ You can see from this image just where the name "crow's foot" came from...
 
 Finally! There are 4 possible edges to the relationship, illustrated here:
 
-+ zero or many:
++ zero or many
 
 ![Crow's foot notation](../../assets/images/image-6-cfn.png)
 
