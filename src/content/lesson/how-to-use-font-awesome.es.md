@@ -30,5 +30,4 @@ Luego de añadir la etiqueta `<link>` puedes añadir iconos utilizado etiquetas 
 <i class="fas fa-pencil-alt"></i>
 ```
 
-Tienes que reemplazar el nombre de la clase con la que corresponda al icono que escogiste de esta: [lista de iconos](https://fontawesome.com/icons?d=gallery)
-
+Tienes que reemplazar el nombre de la clase con la que corresponda al icono que escogiste de esta [lista de iconos](https://fontawesome.com/icons?d=gallery)
