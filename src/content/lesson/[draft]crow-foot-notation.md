@@ -44,7 +44,7 @@ An attribute is a property that describes a particular entity.
 
 ![Crow's foot notation](../../assets/images/image-2-cfn.png)
 
-The attribute(s) that uniquely distinguishes an instance of the entity is the id and it's usually marked as an asterisk.
+The attribute that uniquely distinguishes an instance of the entity is the id and it's usually marked as an asterisk.
 
 
 ## What are relationships?
@@ -121,4 +121,3 @@ Relationship degrees make them readable as:
 
 
 .. Well, it is not that difficult.. is it????....
-
