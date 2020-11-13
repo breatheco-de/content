@@ -59,5 +59,5 @@ Siempre puedes usar diferentes versiones de node y este comando te permitirá ca
  ```
  ## Si tienes algùn error
  
-Por favor deja un "issue" si tienes dificultades en intentaremos ayudarte. Tambièn puedes contribuir y hacer un pull-request si piensas que esta guía necesita alguna actualización.
+Por favor, deja un "issue" si tienes dificultades, e intentaremos ayudarte. También puedes contribuir y hacer un pull-request si piensas que esta guía necesita alguna actualización.
  
