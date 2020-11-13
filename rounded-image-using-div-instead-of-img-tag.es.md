@@ -19,7 +19,7 @@ La manera obvia de crear una imagen de perfil redonda es crear una etiqueta de i
 
 En vez de hacer eso, la soluión sería crear un div cuadrado (es decir de igual altura y ancho), asignarle una imagen de fondo y luego aplicarle un border-radius a ese div.
 
-Si la imagen es más grande que el div (o de diferentes proorciones) podemos ajustar la background-position o el background-size para escogerque parte de la imagen queremos que se vea dentro del círculo.
+Si la imagen es más grande que el div (o de diferentes proporciones), podemos ajustar la background-position o el background-size, para escoger qué parte de la imagen queremos que se vea dentro del círculo.
 
 ![]Usando una imagen de fondo/background image en vez de una etiqueta de imagen para la adaptabilidad](../../assets/images/1251c891-ac88-464f-ae58-5c9d7abe081cScreenShot20190524at121150PM.png)
 
