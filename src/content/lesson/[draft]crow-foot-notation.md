@@ -38,7 +38,7 @@ It is represented by a rectangle, with its name on the top.
 The name is singular (entity) rather than plural (entities).
 
 
-## and...attributes?
+## and... What is an attribute?
 
 An attribute is a property that describes a particular entity.
 
@@ -121,5 +121,4 @@ Relationship degrees make them readable as:
 
 
 .. Well, it is not that difficult.. is it????....
-
 
