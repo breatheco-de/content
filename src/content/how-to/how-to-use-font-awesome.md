@@ -19,7 +19,7 @@ There are many ways of installing and using font awesome. Please think about how
 3. Vanilla.js: Using webpack but without any framework
 2. React.js
 
-### Using Font Awesome in Plain HTML/CSS
+## Using Font Awesome in Plain HTML/CSS
 
 If you are working with plain CSS and HTML files, just paste this `<link>` tag before the `</head>` **CLOSING** tag of your html file:
 ```html
@@ -38,13 +38,13 @@ You have to replace the class names with the ones that correspond with the icon 
 | faPencilAlt | `<i class="fas fa-pencil-alt"></i>` |
 | faCog | `<i class="fas fa-cog"></i>` |
 
-### Using Font Awesome with Webpack (Vanilla js)
+## Using Font Awesome with Webpack (Vanilla js)
 
 You can still add the same `<link>` into your index.html file and you will still be able to use `<i>` tags like explained on the previous section.
 
 Make sure you find the index.html on your project, open it and add the link tag into the header.
 
-### Using Font Awesome in React.js
+## Using Font Awesome in React.js
 
 Font-awesome is divided in several npm packages, you will have to install all of them just to make sure (unless you know what you are doing), type the following in your command line:
 
