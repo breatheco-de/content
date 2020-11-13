@@ -10,7 +10,7 @@ status: "published"
 ---
 
 A veces queremos escribir código en un ambiente local y necesitaremos node.js para instalar todas nuestras dependencias y ejecutar ciertos scripts, por ejemplo: ```npm run build```.
-Este documento es una guìa para instalar nvm y node.js en Windows
+Este documento es una guía para instalar nvm y node.js en Windows
   
 ## Paso a paso para instalar nvm:
 ***
