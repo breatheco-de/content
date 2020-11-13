@@ -28,7 +28,7 @@ Now, let's tak about the representation of entities and relationships:
 
 ## but... What is an entity?
 
-Is a representation of a class of object. It could be a person, place, thing, etc. 
+An entity is a representation of a class of object. It could be a person, place, thing, etc. 
 
 It is represented by a rectangle, with its name on the top. 
 
@@ -121,7 +121,6 @@ Relationship degrees make them readable as:
 
 
 .. Well, it is not that difficult.. is it????....
-
 
 
 
