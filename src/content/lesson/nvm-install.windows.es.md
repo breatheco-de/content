@@ -24,7 +24,7 @@ Ve al directorio ***Descargas*** en Windows, y descomprime el archivo ```nvm-set
 ***
 3. **Asistente de instalación**
 
-Cuando se abra el asistente de instalación, haz clic en el botón ***next*** un par de veces y al final verás un botón que dice ***install*** y le daràs clic también. Luego, solo espera a que la barra de progreso ***termine***.
+Cuando se abra el asistente de instalación, haz clic en el botón ***next*** un par de veces y, al final, verás un botón que dice ***install***, dale clic también. Luego, solo espera a que la barra de progreso ***termine***.
  
 [[advertencia]] | ?? Recuerda no tocar ninguna configuración predeterminada ¡¡¡Siempre haz clic en next!!!
 ***
