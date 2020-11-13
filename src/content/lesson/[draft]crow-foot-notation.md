@@ -57,7 +57,7 @@ They illustrate the association between two entities. They are presented as a st
 
 ## What is cardinality?
 
-Relationships have to indicators and they are shown on both sides of the line.
+Relationships have indicators and they are shown on both sides of the line.
 
 + The first one (often called multiplicity) refers to the *maximum* number of times that an instance of one entity can be associated with instances in the relates entity. It can be **one** or **many**.
 
@@ -121,6 +121,5 @@ Relationship degrees make them readable as:
 
 
 .. Well, it is not that difficult.. is it????....
-
 
 
