@@ -9,7 +9,7 @@ status: "draft"
 
 ---
 
-A number of data modelling techniques are being used today. Onne of the most common is the Entity Relationship Diagram (ERD). There are several ERD notation available: today we will be using Crow's Foot Notation!
+A number of data modeling techniques are being used today. One of the most common is the Entity-Relationship Diagram (ERD). There are several ERD notation available: today we will be using Crow's Foot Notation!
 
 ![Crow's foot notation](../../assets/images/CFN.png)
 
@@ -121,7 +121,6 @@ Relationship degrees make them readable as:
 
 
 .. Well, it is not that difficult.. is it????....
-
 
 
 
