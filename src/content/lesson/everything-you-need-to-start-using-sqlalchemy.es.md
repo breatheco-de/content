@@ -45,7 +45,9 @@ db.session.add(user)
 db.session.commit()
 ```
 
-Solo debes escribir: `db.session.add(user)` y el ORM lo traducirá a SQL.
+Solo debes escribir: `db.session.add(user)` y así guardaras la información del objecto `user` en tu base de datos.
+
+Con escribir la linea de código db.session.commit(), aseguraremos de que los cambios realizados en la base de datos son coherente y de que todo el código escrito anteriormente será traducido a lenguaje SQL mediante el ORM
 
 
 ## Vamos a revisar la operación de base de datos más típica.
