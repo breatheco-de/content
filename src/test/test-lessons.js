@@ -21,7 +21,8 @@ const validateLessons = (report) => report.lessons.map((l) => {
     const { slug, title, date, tags, status, authors, subtitle, ...rest } = fm(content).attributes;
     
     if(fileName.indexOf('.es') > -1){
-      if(!report.names.includes(originalSlug)) throw new Error(`Lesson ${fileName} must have an english version ${originalSlug}`.red);
+
+      if(!report.names.includes(originalSlug) && status!='draft') throw new Error(`Lesson ${fileName} (${status}) must have an english version ${originalSlug}`.red);
     } 
     
     if(!title) throw new Error('Missing lesson title'.red);
@@ -29,12 +30,13 @@ const validateLessons = (report) => report.lessons.map((l) => {
     if(rest.cover && rest.cover.indexOf("../") > -1) throw new Error('The cover attribute can only be used for remote images, if the image is local please use cover_local instead'.red);
     else if(rest.cover_local){
         if(rest.cover_local.indexOf("../") == -1) throw new Error('The cover_local attribute can only be used for local images, if the image is remote please use cover instead'.red);
-        if(!fs.existsSync(_path.join(__dirname, rest.cover_local))) throw new Error(`This image from cover_local could not be found: ${rest.cover_local}`.red);
+        const _p = "../"+rest.cover_local.replace("../../","");
+        if(!fs.existsSync(_path.join(__dirname, _p))) throw new Error(`This image from cover_local could not be found: ${_p}`.red);
     }
     
     if(!tags || !Array.isArray(tags) || tags.length == 0) throw new Error(`Lesson tags must be an array and have at least one tag`.red);
     if(authors && !Array.isArray(authors)) throw new Error(`Author property must be an array of strings (github usernames) of post authors`.red);
-    if(status && !POSSIBLE_STATUS.includes(status)) throw new Error(`The lesson status must be one of ${POSSIBLE_STATUS.join(',')} but it is ${status}`.red);
+    if(status && !POSSIBLE_STATUS.includes(status)) throw new Error(`The lesson status must be one of ${POSSIBLE_STATUS.join(',')} but it is ${status}. \n ${path}`.red);
     if(!moment(date).isValid()) throw new Error(`Invalid lesson date: ${date}`.red);
 
     if(status=='published' || !status){
