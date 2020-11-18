@@ -61,8 +61,7 @@ const indexContent = (allContent) => ({
         }
 
         if(file.type === "misplaced"){
-          console.log("This lesson is missplaced, it should be inside one of the folders [lesson, how-to, error]"+l);
-          return null;
+          throw Error("This lesson is missplaced, it should be inside one of the folders [lesson, how-to, error]"+l);
         }
 
         names.push(file.name);
