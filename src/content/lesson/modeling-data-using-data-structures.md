@@ -14,7 +14,7 @@ Almost all programing languages have primitive datatypes like: Boolean, String, 
 But what if you want to store lots of booleans or lots of strings in just one structure? For example: If you have a list of todo's (strings) you would want to put them together in a list like this:
 
 ```python
-todos = ['make the bed', 'clean the houst', 'pay taxes']
+todos = ['make the bed', 'clean the house', 'pay taxes']
 ```
 
 For these types of situations the world of computer science has created more complicated data-types that are called `Data Structures`.
@@ -29,7 +29,7 @@ There are many publicly known data-structures and you can also create your own, 
 
 | Type | What is it | Purpuse and Efficency |
 | ---- | ---------- | --------------------- |
-| Array or List | It's a way to have many values or the same type under just one variable | Grouping values, relating them togeter, to make them more accesible like we did with the todo list above. The computer will reserve successive spaces in Memory for all values making them faster to access |
+| Array or List | It's a way to have many values or the same type under just one variable | Grouping values, relating them together, to make them more accesible like we did with the todo list above. The computer will reserve successive spaces in Memory for all values making them faster to access |
 | Matrix | It's a two (or more) dimensional array where you access elements using 2 positions like this: `python>print(matrix[0][1])` | Matrices are ideal for coordinates; you can easily do a cartesian graph |
 | Stack | Stack is a linear data structure, you can think of it like an Array but with two additional methods: `python>stack.pop()` that removes the last element and `python>stack.push()` that adds one element at the end. LIFO(Last In First Out)/FILO(First In Last Out) order. | Being linear, makes it very efficient in memory because the computer only writes on the edges of the structure  |
 | Queue | The queue is like a stack but it can get the element at the first position: FIFO(First in First Out) | It's a little less efficient that the stack, but still pretty fast and used in many real life scenarios |
@@ -57,7 +57,7 @@ first_todo = todos[0]
 # reseting the value on the 3rd position
 todos[2] = "buy food"
 
-# adding a new value to the and of the list
+# adding a new value to the end of the list
 todos.append("Call mom")
 ```
 
@@ -105,7 +105,7 @@ my_stack.append("A")
 my_stack.append("W")
 my_stack.append("F")
 
-# If I want to retrieve A I will have to pop (remove form the end) F and W first
+# If I want to retrieve A I will have to pop (remove from the end) F and W first
 f = my_stack.pop() # removes F and returns it
 w = my_stack.pop() # removes W and returns it
 a = my_stack.pop() # removes A and returns it
@@ -150,7 +150,7 @@ language_hash_table = {
     }
 }
 
-# No we can get any language instantly based on english:
+# Now we can get any language instantly based on english:
 print(language_hash_table["hello world"]["german"])
 print(language_hash_table["hello world"]["spanish"])
 
