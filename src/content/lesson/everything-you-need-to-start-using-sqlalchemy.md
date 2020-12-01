@@ -6,7 +6,7 @@ cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 date: "2020-10-19T12:36:31-04:00"
 textColor: "white"
 authors: ["alesanchezr"]
-status: "draft"
+status: "published"
 tags: ["sql alchemy","python"]
 
 ---
@@ -31,7 +31,7 @@ To insert an user with SQL you have to type:
 INSERT INTO user (name, last_name) VALUES ('Bob', 'Ross');
 ```
 
-With an ORM your code keeps being familiar code like this:
+With an ORM your code keeps being familiar like this:
 
 ```py
 user = User()
@@ -108,7 +108,7 @@ db.session.commit()
 
 ### UDPATE: Updating a Record
 
-TO update you need first to retrieve/select the record from the database, then you can update whatever property you like and commit again.
+To update you need first to retrieve/select the record from the database, then you can update whatever property you like and commit again.
 
 ```py
 person = Person.query.get(3)
