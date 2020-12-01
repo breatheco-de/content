@@ -1,5 +1,5 @@
 ---
-status: "draft"
+status: "published"
 title: "Aprendamos el Modelo de Cajas"
 subtitle: "Crear diseños es el proceso más doloroso al programar en HTML & CSS Aprende las reglas de CSS: Display, Position, Float and Flex; y coloca cualquier elemento en el lugar que tú quieras."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
@@ -92,7 +92,7 @@ Es común encontrar este atributo en los menús de navegación, para los activit
 |Inline-Block    |Lo mejor de ambos mundos.  Sirve para tener varios contenedores en una misma línea pero cada uno respetando sus límites (width y heigh).  Gracias a él existen páginas como Pinterest que permiten ver el diseño masonery.   |
 |None    |Hace que el elemento se oculte (invisible) y no ocupe ningún espacio dentro del documento.   |
 
-Para entender display perfectamente lo mejor es… ¡ponernos a practicar!.
+Para entender display perfectamente lo mejor es… ¡ponernos a prácticar!.
 
 ## Atributo: Float
 ***
