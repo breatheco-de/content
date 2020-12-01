@@ -5,7 +5,7 @@ cover_local: "../../assets/images/980ce2e0-b73e-4019-8e97-3510e3028e10.jpeg"
 textColor: "white"
 date: "2020-10-19T12:36:31-04:00"
 tags: ["PHP"]
-status: "draft"
+status: "published"
 
 ---
 
@@ -70,7 +70,6 @@ else
 ***
 
 
-Closing the Session
 It is good practice to close the session once you have finished updating the $_SESSION array.  This will force PHP to save everything  (just like the COMMIT in the database or in GIT).
 
 Don’t worry!  You can reopen the session whenever you want – either in the current or in the next page reload.  If you want to fully destroy the session, you can call session_destroy();
