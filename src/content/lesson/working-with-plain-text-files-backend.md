@@ -2,7 +2,7 @@
 slug: "working-with-plain-text-files-backend"
 title: "Working with Plain Text Files"
 subtitle: "Storing and retrieving information to files using backend languages"
-status: "draft"
+status: "published"
 authors: ["alesanchezr"]
 textColor: "white"
 date: "2020-10-19T12:36:31-04:00"
