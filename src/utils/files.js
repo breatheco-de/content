@@ -45,7 +45,11 @@ let names = [];
 const getContentName = (path) => {
   const m = /.*src\/content\/([a-z\-]+)\/([\[\].a-zA-Z0-9_\-]+)\.md/gm.exec(path);
   if(m) return { type: m[1], name: m[2] }
-  else return null;
+  else{
+    const m = /.*src\/content\/([\[\].a-zA-Z0-9_\-]+)\.md/gm.exec(path);
+    if(m) return { type: "misplaced", name: m[2] }
+    else return null;
+  } 
 }
 const indexContent = (allContent) => ({
     names, 
@@ -54,6 +58,10 @@ const indexContent = (allContent) => ({
         if(!file){
           console.log("Ignoring lesson: Bad path format "+l);
           return null;
+        }
+
+        if(file.type === "misplaced"){
+          throw Error("This lesson is missplaced, it should be inside one of the folders [lesson, how-to, error]"+l);
         }
 
         names.push(file.name);

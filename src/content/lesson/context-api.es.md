@@ -1,7 +1,7 @@
 ---
 subtitle: "La context API es la herramienta más reciente que React.js ha puesto a disposición para manejar el flujo de datos de su aplicación. Es el compañero perfecto para construir aplicaciones pequeñas sin necesidad de usar necesidad de Flux o Redux"
 title: "Implementando un estado global con context API"
-cover: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 status: "published"
 date: "2018-12-03"
