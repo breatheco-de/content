@@ -117,7 +117,7 @@ db.session.commit()
 ```
 ## Transactions
 
-A transaction is a sequence of operations(like INSERT, UPDATE, SELECT) made on your database performed as one single work of unit. In other words a transaction will never be complete unless each individual operation within the group is succesful. If any operation within the transaction fails, the entire transaction fails, the entire transaction fails.
+A transaction is a sequence of operations (like INSERT, UPDATE, SELECT) made on your database, performed as one single work of unit. In other words, a transaction will never be complete unless each individual operation within the group is successful. If any operation within the transaction fails, the entire transaction fails.
 
 Transactions have the following 4 standard properties(known as ACID properties):
 
@@ -132,4 +132,3 @@ On other hand, if something goes wrong or failure occurs, a ROLLBACK command sho
 
 
   
-
