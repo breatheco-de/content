@@ -18,7 +18,7 @@ status: "draft"
 
 # ¿Cómo funciona HTTP?
 
-Este protocolo funciona a través de solicitudes y repuestas entre el servidor web y el cliente(por ejemplo un navegador de internet) y un servidor (por ejemplo el computador donde residen las páginas web). 
+Este protocolo funciona a través de solicitudes y respuestas el cliente (por ejemplo, un navegador de internet) y un servidor (por ejemplo, los computadores en donde residen sitios web). 
 
 El servidor responde con una respuesta estructurada y con una serie de metadatos que establecen pautas para el inicio, desarrollo y cierre de la comunicación. Estas pautas son los llamados "métodos de petición".
 
