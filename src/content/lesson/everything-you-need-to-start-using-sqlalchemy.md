@@ -127,7 +127,7 @@ A transaction ends with COMMIT or ROLLBACK.
 
 On a datababase the COMMIT command should be issued so that changes will take effect (COMMIT works just like on github, you add every file and modification first  `git add` and then by saying `git commit` you save your changes.) 
 
-On other hand, if something goes wrong or failure occurs, a ROLLBACK command should be issued to return every table referenced in the transaction to its previous state.
+On the other hand, if something goes wrong or a failure occurs, a ROLLBACK command should be issued, to return every table referenced in the transaction to its previous state.
 
 
 
