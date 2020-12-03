@@ -74,7 +74,7 @@ Content-Type: text/html
 
 La respuesta contiene el recurso solicitado. La primera línea es muy importante y contiene el estado o status de la respuesta. En este caso es 200, es decir todo está ok.
  
-Los códigos de estado HTTP,[puedes leer más al respecto aquí](https://developer.mozilla.org/es/docs/Web/HTTP/Status), entregan metadatos en la respuesta al estado de los recursos solicitados. Son parte de lo que hace de la Web una plataforma para construir sistemas distribuidos. Se dividen en las siguientes categorías:
+Los códigos de estado HTTP ([puedes leer más al respecto aquí](https://developer.mozilla.org/es/docs/Web/HTTP/Status)) entregan metadatos en la respuesta al estado de los recursos solicitados. Son parte de lo que hace de la Web una plataforma para construir sistemas distribuidos. Se dividen en las siguientes categorías:
 
 + `python>1xx` – Metadata
 + `python>2xx` – Todo esta bien
