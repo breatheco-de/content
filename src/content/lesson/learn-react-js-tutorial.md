@@ -91,6 +91,10 @@ class MyBigComponent extends React.Component{
     return (<div>Hello World<div>);
 }
 
+[[warning]]
+| :point_up:*J This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+
+
 // implied is that there is a container div with the id 'app' in your original website's HTML body  
 ReactDOM.render(<MyBigComponent />, document.querySelector('#app'));
 // your entire react application will be inserted into that div
@@ -163,7 +167,9 @@ export class MyCard extends React.Component{
     }
 }
 ```
-More details on functional vs class components are explored in the following lessons.
+[[warning]]
+| :point_up:*J This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+
 
 
 ### Doing Website Layouts with React
@@ -189,6 +195,9 @@ export class EntireWebsiteLayout extends React.Component{
     }
 }
 ```
+[[warning]]
+| :point_up:*J This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+
 
 Those components which serve to hold the layout of each of your web pages, and are not re-used for anything else is what we will call "Views", and the typical components that we can re-use multiple times with different input (like a card or a button component) we will call "Components" in the organization of our application's folders.
 

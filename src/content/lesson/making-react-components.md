@@ -31,6 +31,8 @@ class Navbar extends React.Component{
     }
 }
 ```
+[[warning]]
+| :point_up:*J This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
 
 ## Using a Component
 
@@ -210,6 +212,10 @@ ReactDOM.render(
 
 ```
 
+[[warning]]
+| :point_up:*J This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+
+
 ## Features of `function` components
 
 Functional components are simplified React components originally intended for presentational purposes. 
@@ -263,9 +269,10 @@ You can switch from one type of declaration to the other without any pain!  Here
 
 ### Component Simplicity
 
-|As a **Function**     |As a **Class**   |
-|:--------:|:---------:|
-|Very simple declaration and usage.  The only purpose of the function is to return an HTML with whatever this component is supposed to display when placed on the website.      |More complex – the class declaration needs to inherit from React.Component and it contains a lot more functionalities that lets the developer customize the component logic like life-cycle methods and the state.   Please consider that you can create as many additional class methods as you like.         |
+As a **Function**     
+|Very simple declaration and usage.  The only purpose of the function is to return an HTML with whatever this component is supposed to display when placed on the website.     
+
+As a **Class** More complex – the class declaration needs to inherit from React.Component and it contains a lot more functionalities that lets the developer customize the component logic like life-cycle methods and the state.   Please consider that you can create as many additional class methods as you like.         |
 
 ### Component Declaration 
 ```javascript    
@@ -285,7 +292,6 @@ class MyComponent extends React.Component{
     }
 }
 ```
-
 ### Component State
 
 As a **Function**:     

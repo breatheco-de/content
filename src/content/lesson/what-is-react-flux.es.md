@@ -86,6 +86,9 @@ class MyActions extends Flux.Actions{
 }
 ```
 
+[[warning]]
+| :point_up:*J Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+
 #### 3) Actualizar el store para manejar la nueva acción enviada
 
 ```javascript{numberLines: true}
@@ -123,6 +126,9 @@ class TodoStore extends EventEmitter {
   ...
 }
 ```
+
+[[warning]]
+| :point_up:*J Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
 
 ## El Resultado
 ***
