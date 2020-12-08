@@ -13,7 +13,7 @@ tags: ["SQL Alchemy","Python"]
 
 ## Qué es SQL Alchemy
 
-Es un ORM: una biblioteca que los desarrolladores utilizan para crear bases de datos y manipular sus datos sin la necesidad de conocer / usar SQL.
+Es un ORM: una biblioteca que los desarrolladores utilizan para crear bases de datos y manipular sus datos sin la necesidad tener que escribir sentencias SQL.
 
 Existen otras alternativas como SQLAlchemy como Peewee, y otros lenguajes tienen sus propios ORM como PHP Eloquent o Java Hibernate.
 
@@ -38,21 +38,21 @@ user = User()
 user.name = 'Juan'
 user.last_name = 'McDonals'
 
+# agrega el user a la base de datos
+db.session.add(user)
+
+# parecido al commit de GIT lo que hace es guardar todos los cambios que hayas hecho
 db.session.commit()
 ```
-Solo puede decir: `user.save ()` y el ORM lo traducirá a SQL.
+
+Solo debes escribir: `db.session.add(user)` y así guardaras la información del objecto `user` en tu base de datos.
+
+Con escribir la linea de código db.session.commit(), aseguraremos de que los cambios realizados en la base de datos son coherente y de que todo el código escrito anteriormente será traducido a lenguaje SQL mediante el ORM
+
 
 ## Vamos a revisar la operación de base de datos más típica.
 
 ### Definiendo nuestro Models/Tables
-=======
-user.save()
-```
-
-Solo puedes decir: `user.save ()` y el ORM lo traducirá a SQL.
-
-## Creando nuestra base de datos
-
 
 El primer paso será definir nuestro modelo.
 
@@ -64,7 +64,7 @@ class Person(Base):
     id = Column(Integer, primary_key=True)
     name = Column(String(250), nullable=False)
 
-
+    # el metodo serialize convierte el objeto en un diccionario
     def serialize(self):
         return {
             "id": self.id,
@@ -74,7 +74,7 @@ class Person(Base):
 
 ### INSERT: Insertando un registro en la base de datos
 
-Todo lo que tienes que hacer es crear un nuevo objeto Person, agregarlo a la sesión de la base de datos y realizar commit.
+Todo lo que tienes que hacer es crear un nuevo objeto `Person`, agregarlo a la sesión de la base de datos y realizar commit de la transaccion.
 Reemplazar `<<username_value>` y `<email_value>` con los valores de personas reales que deseas agregar.
 
 ```py
