@@ -31,7 +31,7 @@ All website content should be wrapped within boxes (div, header, footer, etc.). 
 
 All box containers can have the following attributes:
 
-|**Atribute**   |**Description**   |
+|**Attribute**   |**Description**   |
 |:--------------|:-----------------|
 |Content	    |Whatever elements are contained within the tag.     |
 |Padding   |This is an optional empty space or margin that can be added between the content and the border of the box.   |
@@ -90,7 +90,7 @@ It is common to find this attribute in menus, social network activity feeds, etc
 |Inline     |This is the default value of `<strong>`, `<i>`, `<a>`, `<span>`, and other common tags.  The elements will behave like text and will not have defined limits (neither width, nor height).    |
 |Block   |This is the default value of `<div>`, `<p>`, `<h>`, etc.  The element will occupy the entire row of the site – and move other elements above or below it.    |
 |Inline-Block    |The best of both worlds.  This value places the containers in the same row, but respecting each of their limits (width and height). Thanks to this value, sites like Pinterest use masonry design.   |
-|Flex    |Introduced just a couple of years ago, it comes to fix all the mayor problems with display to date. Flex is used to make boxes be flexible. When you apply `display: flex` to a div, all the childrens will be able to share the same row.   |
+|Flex    |Introduced just a couple of years ago, it comes to fix all the major problems with display to date. Flex is used to make boxes be flexible. When you apply `display: flex` to a div, all the childrens will be able to share the same row.   |
 |None    |Hides the element (making it invisible) and does not hold any space for it within the document.   |
 
 Ok, now… to understand what we just explained, there is no other choice but… Practice!
