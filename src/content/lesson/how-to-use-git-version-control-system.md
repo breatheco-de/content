@@ -6,13 +6,13 @@ textColor: "white"
 thumb: "https://breatheco.de/wp-content/uploads/2017/03/commit-object.png"
 date: "2020-10-19T12:36:31-04:00"
 tags: ["GIT","how to use GIT"]
-status: "draft"
+status: "published"
 
 ---
 
 [[demo]]
 | :point_up: We have also prepared an interactive tutorial about GIT [click here to take it!](https://4geeksacademy.github.io/git-interactive-tutorial/)
-&t=6s
+
 
 [[demo]]
 | 📹 This is [an amazing video explaining git and github](https://www.youtube.com/watch?v=BCQHnlnPusY)
