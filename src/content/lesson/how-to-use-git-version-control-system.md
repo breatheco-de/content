@@ -12,7 +12,7 @@ status: "published"
 
 [[demo]]
 | :point_up: We have also prepared an interactive tutorial about GIT [click here to take it!](https://4geeksacademy.github.io/git-interactive-tutorial/)
-&t=6s
+
 
 [[demo]]
 | 📹 This is [an amazing video explaining git and github](https://www.youtube.com/watch?v=BCQHnlnPusY)
