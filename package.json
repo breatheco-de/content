@@ -57,7 +57,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build --no-uglify",
+    "build": "npm run test && gatsby build --no-uglify",
     "develop": "gatsby develop -p $PORT",
     "start": "gatsby develop -p 3000",
     "now-build": "npm run build && node generate-json.js",

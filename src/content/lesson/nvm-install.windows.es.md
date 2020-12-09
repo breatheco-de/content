@@ -5,8 +5,8 @@ textColor: "white"
 date: "2020-10-19T16:36:30+00:00"
 authors: ["kodi24fever"]
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
-status: "published"
-
+status: "draft"
+tags: ['hello']
 ---
 
 A veces queremos escribir código en un ambiente local y necesitaremos node.js para instalar todas nuestras dependencias y ejecutar ciertos scripts, por ejemplo: ```npm run build```.
