@@ -49,11 +49,11 @@ There are two types of tags: Technology and Category.
 A small command-line tool has been developed to help manage the lessons
 
 ```
-node ./src/utils/cli.js update_lesson --slug all --statusTo draft --statusFrom null
-node ./src/utils/cli.js update_lesson --slug learn-html --statusTo draft --statusFrom null
-node ./src/utils/cli.js download_images --slug python-syntax --type external_images
-node ./src/utils/cli.js localize_images --slug python-syntax --type external_images
-node ./src/utils/cli.js sanitize_lesson --slug all
+$ node ./src/utils/cli.js update_lesson --slug all --statusTo draft --statusFrom null
+$ node ./src/utils/cli.js update_lesson --slug learn-html --statusTo draft --statusFrom null
+$ node ./src/utils/cli.js download_images --slug python-syntax --type external_images
+$ node ./src/utils/cli.js localize_images --slug python-syntax --type external_images
+$ node ./src/utils/cli.js sanitize_lesson --slug all
 ```
 
 #### Method: sanitize_lesson
