@@ -51,7 +51,7 @@ Este simple mensaje comunica todo lo necesario acerca de qué recurso está soli
 |PUT      |Esto es más usado para actualizar el estado en el servidor; Aunque también se puede utilizar para crear estados.     |
 |DELETE     |Se utiliza para eliminar datos en el servidor     |
 
-Teniendo esto en cuenta, podríamos entonces imaginar muy fácilmente como sería un petición HTTP para eliminar un entrada específica de un blog, por ejemplo:
+Teniendo esto en cuenta, podríamos entonces imaginar muy fácilmente cómo sería un petición HTTP para eliminar un entrada específica de un blog, por ejemplo:
 
 ```python
 DELETE /blog/15 HTTP/1.1`
