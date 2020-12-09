@@ -1,8 +1,8 @@
 ---
 title: "Còmo instalar NVM en Windows"
-subtitle: "Este documento es una guìa para instalar nvm y node.js en Windows" 
+subtitle: "Este documento es una guìa para instalar nvm y node.js en Windows"
 textColor: "white"
-date: "2020-10-19T12:36:30-04:00"
+date: "2020-10-19T16:36:30+00:00"
 authors: ["kodi24fever"]
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 status: "published"

@@ -2,7 +2,7 @@
 title: "Cómo hacer una imagen adaptable"
 subtitle: "La etiqueta <img> no funciona en imágenes generadas porque pierden su proporción, aquí aprenderás como manejar este problema"
 textColor: "white"
-date: "2020-10-19T12:36:30-04:00"
+date: "2020-10-19T16:36:30+00:00"
 tags: ["responsive"]
 status: "published"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
