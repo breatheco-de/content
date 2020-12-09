@@ -3,7 +3,7 @@ title: "Building RESTful API's using Flask"
 subtitle: "Flask is becoming the most popular Python framework (if its not already), learn how to build RESTful API's the REST way"
 cover_local: "../../assets/images/91bcc549-6758-49c3-a790-4245afbd8ece.png"
 textColor: "black"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 status: "published"
 tags: ["Flask","python","REST","API"]
 

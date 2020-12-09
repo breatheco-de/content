@@ -4,7 +4,7 @@ title: "Intro to Professional and Agile Development"
 subtitle: "All you've learned needs to be put together. Lets make our first entire professional application using the Agile Development method!"
 cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
 textColor: "white"
-date: "2020-10-1gthu9T12:36:30-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["agile development"]
 status: "published"
 

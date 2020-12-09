@@ -3,7 +3,7 @@ title: "¿Qué es la programación? Aprender a programar"
 subtitle: "Si no sabes qué es la programación, no te preocupes, aquí no tienes que escribir HTML y CSS (no tanto). Aprende a programar aquí y haz que las computadoras escriban tu código."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["programacion"]
 status: "draft"
 
