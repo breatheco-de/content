@@ -30,7 +30,7 @@ Durante los años que han pasado hemos identificado razones específicas por la 
 
 #### Pared #1: Confianza 🥺 (Síndrome del impostor)
 
-![Síndrome del Impostor](https://ucarecdn.com/6cf4655f-665f-4f68-b021-f34238cedd69/)
+![Síndrome del Impostor](../../assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png)
 
 En algún momento de nuestras vidas (en alguno más que otros) todos hemos pensado que somos la persona más estúpida de una sala. Si continuamos pensado eso durante mucho tiempo y no nos sentimos cómodos con cualquier disciplina incluso podemos pensar que no somos inteligentes ¡Mentira!¡Nada que ver! Tu eres parte de esta academia, nosotros no aceptamos estudiantes que no tengan la inteligencia suficiente para vivir de la programación, debes creer en eso ¡Especialmente cuando las cosas se ponen difíciles!
 
