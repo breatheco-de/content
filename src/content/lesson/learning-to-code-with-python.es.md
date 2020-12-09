@@ -4,7 +4,7 @@ subtitle: "Python es un lenguaje de programación con el crecimiento más rápid
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 status: "published"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["python"]
 
 ---
@@ -20,7 +20,7 @@ Python es el primer lenguaje que debieras aprender, pero evidentente no el únic
 
 <iframe width="830" height="467" src="https://www.youtube.com/embed/Q-eob0WBKs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<div align="right"><small><a href="https://www.youtube.com/embed/Q-eob0WBKs0">Haz clic aquí para abrir la demo en otra ventana/a></small></div>
+<div align="right"><small><a href="https://www.youtube.com/embed/Q-eob0WBKs0">Haz clic aquí para abrir la demo en otra ventana</a></small></div>
 
 Las variables no son un concepto nuevo, cualquier que sepa matemáticas está familiriarizado con el condepto de variables.
 

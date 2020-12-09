@@ -3,7 +3,7 @@ title: "Entendiendo las Rest Apis"
 subtitle: "¡Parece ser solo el comienzo de la revolución API! El camino de la humanidad se dirige hacia la arquitectura de la API ... puedes aprender cualquier idioma o herramienta, pero esta es una de esas pocas especialidades que te garantizará un trabajo bien pagado durante los próximos 60 años, así que siéntete cómodo con REST Api. :)"
 cover_local: "../../assets/images/b929f233-00b2-406f-87a5-ee74146cfd85.jpeg"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["REST","API"]
 status: "published"
 
