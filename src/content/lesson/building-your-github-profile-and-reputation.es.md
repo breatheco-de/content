@@ -4,7 +4,7 @@ subtitle: "Toma horas armar un buen cv, incluso aunque sea falso- Tener un buen 
 textColor: "white"
 authors: ["alesanchezr"]
 status: "published"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["github"]
 cover_local: "../../assets/images/githubbackground.jpg"
 

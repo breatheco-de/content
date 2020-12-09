@@ -3,7 +3,7 @@ slug: "todo-lo-necesario-para-empezar-usar-sqlalchemy"
 title: "Todo lo que necesitas saber sobre SQLAlchemy"
 subtitle: "SQLAlchemy es el ORM más popular para Python, comience a usarlo en 8 minutos"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 textColor: "white"
 authors: ["alesanchezr"]
 status: "published"
@@ -13,7 +13,10 @@ tags: ["SQL Alchemy","Python"]
 
 ## ¿Qué es SQL Alchemy?
 
+
 SQL Alquemy es un [Object-Relational Mapper / Mapping-tool](https://en.wikipedia.org/wiki/Object-relational_mapping), o un ORM, es decir una librería que los desarrolladores utilizan para crear bases de datos y manipular sus datos sin la necesidad de conocer / usar SQL.
+
+
 
 Existen otras alternativas como SQLAlchemy como Peewee, y otros lenguajes tienen sus propios ORMs como PHP Eloquent o Java Hibernate.
 
@@ -38,8 +41,13 @@ user = User()
 user.name = 'Juan'
 user.last_name = 'McDonals'
 
+# agrega el user a la base de datos
+db.session.add(user)
+
+# parecido al commit de GIT lo que hace es guardar todos los cambios que hayas hecho
 db.session.commit()
 ```
+
 Basta con que digas: `db.session.commit()` y todo lo que hayas hecho con tu código se traducirá a código de lenguaje SQL.
 
 ## Revisemos la operación de base de datos más típica
@@ -47,6 +55,8 @@ Basta con que digas: `db.session.commit()` y todo lo que hayas hecho con tu cód
 ### Creando nuestra base de datos
 
 El primer paso sería definir nuestro modelo
+
+
 
 
 ```py
@@ -57,7 +67,7 @@ class Person(Base):
     id = Column(Integer, primary_key=True)
     name = Column(String(250), nullable=False)
 
-
+    # el metodo serialize convierte el objeto en un diccionario
     def serialize(self):
         return {
             "id": self.id,
@@ -69,6 +79,7 @@ class Person(Base):
 
 Todo lo que tienes que hacer es crear un nuevo objeto Person, agregarlo a la sesión de la base de datos y realizar commit.
 Reemplazar `<username_value>` y `<email_value>` con los valores reales que deseas agregar.
+
 
 ```py
 person = Person(username=<username_value>, email=<email_value>)

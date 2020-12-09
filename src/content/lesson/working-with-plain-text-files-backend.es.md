@@ -3,7 +3,7 @@ title: "Trabajando con archivos de texto"
 subtitle: "Almacenar y obtner informacin de archivos usando lenguajes de backend"
 authors: ["alesanchezr"]
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["marketing","query-string"]
 status: "published"
 cover_local: "../../assets/images/storage_background.jpg"
