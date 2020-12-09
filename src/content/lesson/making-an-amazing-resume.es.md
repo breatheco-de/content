@@ -2,7 +2,7 @@
 title: "Creando un curriculum increíble"
 subtitle: "El arte de obtener entrevistas depende un 60% de tu curriculum ¡Saquémosle brillo!"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["career support"]
 status: "published"
 
