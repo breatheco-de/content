@@ -102,7 +102,7 @@ All you have to do is create a new Person object, add it into the database sessi
 
 ```py
 person = Person.query.get(3)
-person.delete()
+db.session.delete(person)
 db.session.commit()
 ```
 

@@ -31,7 +31,7 @@ All website content should be wrapped within boxes (div, header, footer, etc.). 
 
 All box containers can have the following attributes:
 
-|**Atribute**   |**Description**   |
+|**Attribute**   |**Description**   |
 |:--------------|:-----------------|
 |Content	    |Whatever elements are contained within the tag.     |
 |Padding   |This is an optional empty space or margin that can be added between the content and the border of the box.   |
