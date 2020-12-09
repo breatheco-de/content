@@ -55,4 +55,4 @@ nvm list
   ```
  ## If you had any errors
  
- Please file an issue here and we will do our best to help you. You can also contribute and pull-request any updates you think should be made to this guide..
+ Please file an issue here and we will do our best to help you. You can also contribute and pull-request any updates you think should be made to this guide.

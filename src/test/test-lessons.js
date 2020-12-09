@@ -25,7 +25,7 @@ const validateLessons = (report) => report.lessons.map((l) => {
       if(!report.names.includes(originalSlug) && status!='draft') throw new Error(`Lesson ${fileName} (${status}) must have an english version ${originalSlug}`.red);
     } 
     
-    if(!title) throw new Error('Missing lesson title'.red);
+    if(!title) throw new Error(`Missing lesson title for ${path}`.red);
     
     if(rest.cover && rest.cover.indexOf("../") > -1) throw new Error('The cover attribute can only be used for remote images, if the image is local please use cover_local instead'.red);
     else if(rest.cover_local){

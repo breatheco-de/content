@@ -9,9 +9,24 @@ status: "draft"
 
 ---
 
-# ¿Qué es HTTP?
+### ¿Qué es HTTP?
+
+Básicamente, es untocolo de transferencia de texto que opera a través de solicitudes entre un cliente y un servidor. HTTP es el término utilizado para describir este sencillo lenguaje basado en texto. No importa cómo se desarrolle, el objetivo del servidor será siempre entender y devolver respuestas de texto sencillo.
   
-  Básicamente, es un protocolo de transferencia de texto que opera a través de solicitudes entre un cliente y un servidor. HTTP es el término utilizado para describir este sencillo lenguaje basado en texto. No importa cómo se desarrolle, el objetivo del servidor será siempre entender y devolver respuestas de texto sencillo.
+## Todo es texto (HTTP)
+
+Como era de esperarse, si vas a transmitir documentos todo lo que necesitas es texto. Cuando haces páginas web todo corre bajo el protocolo HTTP (The Hypertext Transfer Protocol) que es un especialista en la transmisión de texto.
+
+Lo que esto quiere decir es que: **todo es texto**. Pues sí, si quieres enviarle una foto a tu abuela por correo electrónico entonces ocurren mas o menos las siguientes cosas:
+
+
++ La foto se convierte en texto (un texto que, en este momento, no vas a poder entender).
++ Se transmite a través de internet como texto. Si un hacker intercepta esto, lo que verían es un conjunto de símbolos / letras / números uno tras otro.
++ Esa cadena de caracteres llega a la computadora de tu abuela.
++ Tu abuela hace doble clic en la foto y el programa que está usando para ver la foto transforma ese texto nuevamente en una imagen comprensible para un humano.
+
+
+![what is the internet](../../assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif)
   
   ![what is http?](../../assets/images/http-3.png)
   
