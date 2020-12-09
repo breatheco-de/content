@@ -34,7 +34,7 @@ module.exports = {
             
             try{
                 const result = indexContent(results);
-                console.log("Scaning lesson: ", args['--type'])
+                console.log("Scaning lessons for type: ", args['--type'])
                 if(args['--slug'] !== 'all'){
                     const lesson = result.lessons.find(l => l.originalSlug === args['--slug'])
                     if(lesson){

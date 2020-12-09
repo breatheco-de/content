@@ -6,7 +6,7 @@ subtitle: "Sin Flux, React es solo una linda librería de front-end. React Flux 
 cover_local: "../../assets/images/b84e07e5-5761-469b-85bb-f7afc87d4dc9.png"
 
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["reactjs","flux"]
 status: "Published"
 

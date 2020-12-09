@@ -1,18 +1,18 @@
 ---
 title: "Enrutando nuestras vistas con React Router"
-subtitle: "Cree la estructura de su aplicación y conecte sus vistas con React Router"
+subtitle: "Crea la estructura de tu aplicación y conecta tus vistas con React Router"
 cover_local: "../../assets/images/8c053abc-2f09-47e9-b586-751538d180c4.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["reactjs","react router"]
-status: "draft"
+status: "published"
 
 ---
 
 ## ¿Qué es React Router?
 ***
 
-React Router, una biblioteca JS disponible a través de NPM que ayuda principalmente con 2 problemas:
+React Router, una librería JS disponible a través de NPM que ayuda principalmente con 2 problemas:
 
 + Visualización condicional para los componentes React basados en la URL del sitio web actual.
 + Navegación de aplicaciones web sin necesidad de actualizar.
@@ -24,7 +24,7 @@ $ npm install --save react-router
 ## ¿Por qué necesito esto?
 ***
 
-Deje de leer si no está creando aplicaciones completas usando React, no necesita React-Router para aplicaciones de una sola página o componentes pequeños.
+Deja de leer si no estás creando aplicaciones completas usando React, no necesitas React-Router para aplicaciones de una sola página o componentes pequeños.
 
 Para el resto de nosotros que creamos aplicaciones web reales, necesitamos conectar varias vistas (componentes React) en una sola aplicación grande. Ese proceso se llama "enrutamiento".
 
@@ -38,10 +38,10 @@ Por ejemplo, necesitamos las siguientes URL de aplicación para que coincidan co
 
 ¿Qué páginas/vistas quieres que tenga tu aplicación? Siempre puedes empezar con lo básico:
 
-+ Home: Lo que sus usuarios públicos ven cuando llegan a sudominio.com
++ Home: Lo que sus usuarios públicos ven cuando llegan a tudominio.com
 + Login/Signup/Forgot: Un formulario de inicio de sesión y un formulario de registro y el formulario de recordatorio de contraseña.
 + Private: Lo que sus usuarios privados ven justo después de iniciar sesión.
-El resto de las páginas dependen de su aplicación y de cómo desea que los usuarios naveguen por su sitio.
+El resto de las páginas dependen de tu aplicación y de cómo quieres que los usuarios naveguen por tu sitio.
 
 ![react router](../../assets/images/205cd2de-dfae-4712-a5e4-1c922994e60d.png)
 
@@ -56,14 +56,14 @@ Este es el mapa del sitio para cualquier sitio web de comercio electrónico típ
 ## Programación de tus Rutas de Aplicación
 ***
 
-Una vez que hayas terminado de asignar las vistas de la aplicación con las URL, puede comenzar a programar todo, ¡y eso es cuando entra en juego React-Router!
+Una vez que hayas terminado de asignar las vistas de la aplicación con las URL, puedes comenzar a programar todo, ¡y aquí es cuando entra en juego React-Router!
 
 La mejor práctica es siempre crear un componente llamado `<Layout />` que se encargue de encaminar al usuario a las vistas específicas que debería ver, dependiendo de cada URL en particular.
 
-Este es un ejemplo del mismo mapa de sitio de comercio electrónico pero ahora utiliza React Router v4:
+Este es un ejemplo del mismo mapa del sitio de comercio electrónico pero ahora utilizando React Router v4:
 
 ```jsx{numberLines: true}
-//Este diseño de componente se encargará de enrutar las URL con todas las vistas de mi aplicación
+//Este componente Layout se encargará de enrutar las URL con todas las vistas de mi aplicación
 export class Layout extends Flux.View {
     render() {
         return (
@@ -91,17 +91,17 @@ export class Layout extends Flux.View {
 }
 ```
 
-Hay 3 componentes para entender aquí:
+Hay 3 componentes que entender aquí:
 
-+ `<BrowserRouter>` : Cada vez que abres una nueva etiqueta de BrowserRouter, básicamente le estás diciendo a React que todo lo que está en el medio debe ser condicionalmente basado en <Routes> (URL) particulares.
-+ `<Switch>` : Funciona de manera similar a la instrucción de cambio en Javascript pero para Rutas ... Le dice a React que se mostrará la única <Ruta> que coincide con la URL.
++ `<BrowserRouter>` : Cada vez que abres una nueva etiqueta de BrowserRouter, básicamente le estás diciendo a React que todo lo que está en el medio debe ser condicionalmente renderizado en base a <Routes> particulares (URL).
++ `<Switch>` : Funciona de manera similar a la instrucción de cambio en Javascript pero para Rutas ... Le dice a React que se mostrará la única `<Route>` que coincide con la URL que se mostrará.
 + `<Route>` : Es la forma en que React-Router tiene que mapear rutas con componentes, por ejemplo:
 
 ```jsx
 <Route exact path="/sign-up" component={Signup} />
 ```
 
-tu ruta le dice a React que cuando la URL coincida con "sign-up", debería mostrarse el componente Signup.
+Esta ruta le dice a React que cuando la URL coincida con "sign-up", debería mostrarse el componente Signup.
 
 ## Las Etiquetas o Anclas `<a>` ahora son un problema
 ***
@@ -118,7 +118,7 @@ React Router creó un componente que podemos usar en lugar de `<a>`
 
 ### 2. Usando this.props.history.push(‘new/url/here’);
 
-React Router siempre pasa a cada vista un elemento llamado "historial" que contiene muchas cosas útiles para usar cuando se enruta a los usuarios. Una de las muchas utilidades es la función "push" que básicamente redirige al usuario a la ruta dada.
+React Router siempre pasa una prop a cada vista un elemento llamada "history" que contiene muchas información útiles para usar cuando se enruta a los usuarios. Una de las muchas utilidades es la función "push" que básicamente redirige al usuario a la ruta dada.
 
 ```jsx
 <button onClick={() => this.props.history.push("/login")}>Take me to login</button>
@@ -127,11 +127,11 @@ React Router siempre pasa a cada vista un elemento llamado "historial" que conti
 ## Ejemplo en Vivo:
 ***
 
-Aquí hay un ejemplo en vivo que utiliza todo lo que hemos aprendido durante esta lectura, haga clic y juega para entenderlo, aprenderlo y repetirlo:
+Aquí hay un ejemplo en vivo que utiliza todo lo que hemos aprendido durante esta lectura, haz clic y juega para entenderlo, aprenderlo y repetirlo:
 
 <iframe src="https://codesandbox.io/embed/0okp853rxn?autoresize=1&amp;module=%2Fsrc%2FLayout.jsx&amp;moduleview=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-<div align="right"><small><a href="https://codesandbox.io/embed/0okp853rxn?autoresize=1&amp;module=%2Fsrc%2FLayout.jsx&amp;moduleview=1">Click here to open demo in a new window</a></small></div>
+<div align="right"><small><a href="https://codesandbox.io/embed/0okp853rxn?autoresize=1&amp;module=%2Fsrc%2FLayout.jsx&amp;moduleview=1">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
 
 
 

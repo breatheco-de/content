@@ -3,9 +3,9 @@ title: "La Linea de Comando (conocida como: La Terminal) "
 subtitle: "Los Desarrolladores gastan horas cada día usando la linea de comandos (conocido como: La Terminal). Acepta la realidad y vuélvete más poderoso que nunca"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["linea de comando","la terminal"]
-status: "draft"
+status: "published"
 
 ---
 
@@ -60,7 +60,7 @@ Hay 4 cosas importantes que notar aquí:
 + Archivos ocultos: por lo general, un archivo tiene un nombre y una extensión *(filename.extension)*. Si un archivo no tiene nombre y sólo una extensión, estará, por defecto, oculto en la interfaz visual.
 
 
-## *Comandos para trabajar con el sistema de archivos:**
+## Comandos para trabajar con el sistema de archivos:
 ***
 
 Aquí hay una pequeña selección de los comandos más utilizados por un desarrollador de software.

@@ -3,14 +3,14 @@ title: "JavaScript Import and Export of Modules"
 subtitle: "Split and conquer (again), this time we teach you how to split your code into several files to avoid GIT conflicts and to also be more organized, By the end of this lesson you will be able to dominate JavaScript import and exports."
 cover_local: "../../assets/images/c558ac72-194b-40f2-be2f-6e65e8c219c9.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["javascript","import","export"]
-status: "draft"
+status: "published"
 
 ---
 
 [[info]]
-| :point_up: This lesson is for users of WebPack and [ECMAScript Modules (ESM) syntax;](https://nodejs.org/api/esm.html) there is another way to work with modules using the [CommonJS syntax] (https://requirejs.org/docs/commonjs.html) that we will not cover.
+| :point_up: This lesson is for users of WebPack and [ECMAScript Modules (ESM) syntax;](https://nodejs.org/api/esm.html). There is another way to work with modules using the [CommonJS syntax] (https://requirejs.org/docs/commonjs.html) that we will not cover.
 
 All of our JS code cannot be on the same file; that will make it hard to read and almost impossible to maintain.
 

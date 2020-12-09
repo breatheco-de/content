@@ -4,7 +4,7 @@ subtitle: "Each documented error must have a was yo fix it, that way the student
 tags: ["animals","alejandro"]
 authors: ["alesanchezr"]
 textColor: "white"
-date: "2020-10-19T12:36:30-04:00"
+date: "2020-10-19T16:36:30+00:00"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 status: "published"
 

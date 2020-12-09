@@ -3,7 +3,7 @@ title: "Learn CSS: What is CSS Meant for?"
 subtitle: "As you may have noticed, HTML allows you to create only basic websites. Nobody wants to see a white website with some horrible text on it. So it's time to learn what CSS is all about! Learn CSS to make your website beautiful. Let's make it shine!"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["CSS"]
 status: "draft"
 
@@ -124,7 +124,7 @@ Let’s assign "first" as the ID of the first cell in the next table, and then w
 
 ### Class selector
 
-|**Selctor**   |**Description**   |**Example**   |
+|**Selector**   |**Description**   |**Example**   |
 |:-------------|:-----------------|:-------------|
 |.classname   |There is an attribute in HTML called "class", which allows us to group different tags within one logical group.  With CSS we can use `.` (dot) as a selector of every element using the class name to select all html elements with that class attribute.   |`.classname { color: #BDBDBD; }`   |
 
@@ -142,7 +142,7 @@ Next, we are adding color (green) to the  background of each `td` (cells) of the
 
 |**Selector**   |**Description**   |**Examples**  |
 |:--------------|:-----------------|:-------------|
-|selector1,selector2   |If you separate multiple selectors with a comma`,`, you can assign multiple selectors at the same time to save text. In the following example, we tell every h1 and .impar class elements to turn red.   |`h1, .impar { color: #BDBDBD; }`   |
+|selector1,selector2   |If you separate multiple selectors with a comma`,`, you can assign multiple selectors at the same time to save text. In the following example, we tell every `h1, .odd{ color: #BDBDBD; }` class elements to turn red.   |`h1, .odd{ color: #BDBDBD; }`   |
 
 ### Advanced Selectors
 

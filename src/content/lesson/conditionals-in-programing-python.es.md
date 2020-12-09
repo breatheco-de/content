@@ -1,13 +1,13 @@
 ---
 title: "Condicionales en la programación en Python"
-subtitle: "Uso de condiciones para controlar el flujo de su código en python"
-date: "2020-10-19T12:36:31-04:00"
+subtitle: "Uso de condiciones para controlar el flujo de tu código y tomar decisiones programáticas en Python"
+date: "2020-10-19T00:00:00+00:00"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 author: ["alesanchezr"]
 syntax: ["python"]
 tags: ["Condicionales","Operaciones lógicas","If...else","Condicion","Python"]
-status: "draft"
+status: "published"
 
 ---
 
@@ -21,7 +21,7 @@ Dominar el uso de las condiciones es una de las 5 habilidades fundamentales de c
 4. Loops(Bucles).
 5. Funciones.
 
-Las condiciones son la única forma en que los desarrolladores tienen que decirle a la computadora cómo tomar decisiones en tiempo real, muy similar a cómo funcionan los cerebros.
+El uso de condicionales es la única forma en que los desarrolladores tienen que decirle a la computadora cómo tomar decisiones en tiempo real, muy similar a cómo funcionan los algoritmos.
 
 Digamos que estamos construyendo un programa para ayudarnos a elegir qué almacenar y odiamos el color azul, podemos decirle a la computadora que evite el azul usando una condición como esta:
   
@@ -39,15 +39,15 @@ else:
 |:link: El uso de switch no esta disponible en python
 
 
-## Primero veamos que es una expresión lógica
+## Primero veamos ¿qué es una expresión lógica en Python?
 
-La forma más fácil de entender expresiones lógicas (al menos para esta lectura en particular), es pensar en ellas como preguntas que podemos introducir en nuestros algoritmos, por ejemplo:
+La forma más fácil de entender expresiones lógicas (al menos para esta lectura en particular), es pensar en ellas como en preguntas que le puedes hacer al computador sobre nuestras variables, por ejemplo:
 
 1. Si el usuario es mayor de edad.
 2. Si hoy es martes.
 3. Miles de otras preguntas.
 
-Para poder hacer una pregunta, primero tienes que tener data (información) almacenada en variables, por ejemplo, podemos tener la edad del usuario almacenada en una variable `edad` y podriamos preguntar:
+Para poder hacer una pregunta, primero tienes que tener información almacenada en variables útiles, por ejemplo, podemos tener la edad del usuario almacenada en una variable `edad` y podriamos preguntar:
 
 ```python
 # se utiliza dos veces igual (=) cuando quieres comparar en lugar de asigner el valor
@@ -55,7 +55,7 @@ if edad == 25:
     print("Eres mayor de edad!!")
 ```
 
-### Operadores de una expresión lógica (preguntas que puedes hacer)
+### Operadores lógicos en Python
 
 Para hacer una pregunta, tenemos las siguientes comparaciones: `==`, `>`, `<`, `!=`, `is None`, `is not None`, `in`:
 
@@ -80,57 +80,59 @@ if estoy_caliente == false AND me_duele_la_cabeza:
     else:
         print("Si tienes fiebre")
 }
-else:
+    else:
     print("No tienes fiebre")
 ```
 
 
-## `if-then-else`
+Si siento_que_me_atropelló_un_auto and me atropelló_un_auto
+   print("Tú no tienes gripe")
+    elif siento_que_me_atropelló_un_auto
+        print("Si tienes gripe")
+        
+        
+Como puedes ver usamos `elif` por primera vez, para codificar más rápido. Otro truco que puedes usar es el siguiente;
 
-La estructura de las sentencias `if-then-else` es:
+En vez de `if(siento_que_me_atropelló_un_auto == true` escribe `if(siento_que_me_atropelló_un_auto)`
+En vez de `me_atropelló_un_auto == false` escribe `if(!me_atropelló_un_auto)`
+
+## If...else en Python
+
+También puedes usar la expresión `else` para referirte a la negación de la primera condición:
 
 ```python
-if (expresión lógica):
-    # Escribe aqui el codigo que debe ejecutarse solo si `expresion` es True
+if color "azul":
+  # Descarta esta prenda de vestir
 else:
-    # Y aqui el codigo si `expresion` es False
-```
-
-Se evalua la expresión indicada en la sentencia if. En el caso de que la `expresión lógica` sea `True` se ejecutará el bloque de sentencias then y en el caso de que la expresión sea false se ejecutará el bloque de sentencias else.
-
-La parte del else no tiene por qué existir. En este caso tendríamos una sentencia if-then.
-
-```python
-if (expresión lógica):
-  # Escribe aqui el codigo que debe ejecutarse solo si `expresion` es True
-}
-```
-
-De esta forma podríamos tener el siguiente código fuente:
-
-```python
+  # Guárdala en mi armario
+  
 edad = 12
-
 if (edad < 18):
-  print("Es menor de edad")
+print("Es mayor de edad")
 else:
-  print("Es mayor de edad")
-```
+  print("No es mayor de edad")
 
-Las sentencias if-then-else pueden estar anidadas, puedes preguntar muchas cosas a la misma vez, y así nos encontraríamos con una sentencia if-then-elseif, la cual tendría la siguiente estructura:
+También puedes anidar condiciones if...else una sobre la otra, de esta forma:
 
 ```python
+if edad > 16: 
+    # No puedes hacer nada
+elif: age < 18:
+  # A estas alturas, ya sabemos que mayor de 15 por que sino no hubiese ingresado a la primera condición.
+elif: age < 21:
+  # Si el algoritmo ingresa aquí, sabemos que es mayor de 17 
+else:
+  #Si el algoritmo ingresa aquí, sabemos que es  mayor de 20
+  
+  
+edad = 12
 if (edad < 18):
-    # Cuando es menor de edad
-elif (edad < 21):
-    # Sabemos que es mayor de edad porque cayo en este ELSE
-    # Pero tambien sabemos que es menor a 21 porque cumple con el IF
-    # Es decir: tiene entre 18 y 20 años
-elif:
-    # Si entra aqui es porque tiene 21 años o mas
+ print("Es mayor de edad")
+else:
+  print("No es mayor de edad")
 ```
 
-Este es otro ejemplo, ahora utilizando `if-then-elseif` para saber si un numero es una centena:
+Aquí hay otro ejemplo que ejecuta un algoritmo para saber si un número tiene centenas:
 
 ```python
 valor = 14
@@ -149,37 +151,35 @@ else:
 
 ## El `switch`
 
-Python no tiene una sentencia `switch`, en otros lenguajes de programación podrias utilizar esa sentencia para simplificar la lógica de muchos if-else anidados, por ejemplo en Javascript seria de la siguiente manera:
+Python no tiene una sentencia `switch`.
 
+## CONCLUSIÓN
 
-## Se trata de qué preguntas hacer
-
-El ejemplo anterior era una condición simple, pero en la vida real, elegir qué hacer implica una combinación de varias condiciones para tomar la decisión final, por ejemplo: Veamos este algoritmo que le dice a una computadora cómo decidir qué ponerse durante el día de San Valentín:
+Hay que saber qué preguntas hacer. El ejemplo anterior era una condición simple, pero en la vida real, elegir qué hacer implica una combinación de varias condiciones para tomar la decisión final, por ejemplo: Veamos este algoritmo que le dice a una computadora cómo decidir qué ponerse durante el día de San Valentín:
 
 ![What ot ware in valentines day](../../assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg)
 
 Si quieres representar este algoritmo en Java, se verá algo así:
 
 ```python
-if going_out:
-    if can_I_get_burger:
-        if place_bottle_white:
-            if cool_mix:
-                # haz algo con tu codigo aqui
+if voy_a_salir:
+    if puedo_comprar_una_hamburguesa:
+        if con_queso:
+                # haz algo 
     else:
         if blazers > 3:
-            # haz algo con tu codigo aqui
+            # haz algo 
         else:
-            # haz algo con tu codigo aqui
-    elif she_pants:
-        # haz algo con tu codigo aqui
+            # haz algo 
+    elif sus_pantalones:
+        # haz algo 
     else:
-        # haz algo con tu codigo aqui
+        # haz algo c
 else:
-    if naked_she_door:
-        # haz algo con tu codigo aqui
+    if desnuda_ante_puerta:
+        # haz algo 
     elif blazers > 3:
-        # haz algo con tu codigo aqui
+        # haz algo 
     else:
-        # haz algo con tu codigo aqui
+        # haz algo 
 ```

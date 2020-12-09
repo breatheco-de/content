@@ -4,9 +4,9 @@ subtitle: "It seems to be only the beginning of the API revolution! The path of 
 cover_local: "../../assets/images/b929f233-00b2-406f-87a5-ee74146cfd85.jpeg"
 video: "https://www.youtube.com/watch?v=s7wmiS2mSXY"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["REST","API"]
-status: "draft"
+status: "published"
 
 ---
 

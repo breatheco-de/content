@@ -3,21 +3,21 @@ title: "Understanding PHP Syntax"
 subtitle: "Learn here about PHP Syntax, with this amazing lesson"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["PHP"]
-status: "draft"
+status: "published"
 
 ---
 
-## What is PHP
-***
+## What is PHP?
+
 
 PHP is one of the most used back-end languages in the web.  In terms of functionality, it lets you do pretty much what any other back-end language lets you.  The syntax is pretty similar to JavaScript, and its biggest strength is the community – you can find tutorials and documentation for everything you do.
 
 PHP has proven to be a great survivor: 82% of the web uses PHP.  Is the second language with the most interest from Google.  [In a stack-overflow 2018 developer survey](https://insights.stackoverflow.com/survey/2018), PHP was the most popular language amongst PHP, Ruby, Nodejs and Python.  PHP Frameworks are phenomenal: [Laravel](https://laravel.com/), Phpixie, etc.
 
 ## JavaScript vs PHP
-***
+
 
 PHP and JavaScript are like Apples and Oranges.  In terms of functionality, they have NOTHING in common: they don’t serve the same purpose, they don’t do the same things, they come from different backgrounds, etc.
 
@@ -27,7 +27,7 @@ The only things that they have in common are:
 + **They have almost the same syntax:**You have to end every line with a semi-colon; functions are declared the same way; loops are declared the same way; logical operations are the same; etc.
 
 ## Data-Types
-***
+
 
 There are only a few differences – here is the explanation:
 
@@ -73,7 +73,6 @@ CopyArray
 ```
 
 ## Working With Arrays
-***
 
 PHP started as a functional-programming language and still has a lot of things that will work in functions instead of objects.  That is why it is very important to review the basic array operations; the syntax may look different, but, in the end, they have the same purpose.
 
