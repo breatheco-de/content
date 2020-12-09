@@ -70,7 +70,7 @@ const validateLessons = (report) => {
 walk('src/content', function(err, results) {
     if (err){
         console.log("Error scanning lesson files".red);
-        process.exit(1);
+        process.exit(1); 
     } 
     
     try{
