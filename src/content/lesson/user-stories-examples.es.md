@@ -3,7 +3,7 @@ title: "Creando Historias de usuarios(User Stories): Aprenda con Ejemplos de His
 subtitle: "Antes de avanzar hacia el desarrollo, necesitamos una estrategia (Historias de usuarios). Aprende con ejemplos de historias de usuarios. Es la actividad más infravalorada en el ciclo de desarrollo de software y representa el 70% de las razones por las que los proyectos no se entregan a tiempo.."
 cover_local: "../../assets/images/980ce2e0-b73e-4019-8e97-3510e3028e10.jpeg"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["user story"]
 status: "published"
 

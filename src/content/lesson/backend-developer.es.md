@@ -3,7 +3,7 @@ title: "¿Qué hay detrás de un desarrollador de Back-End?"
 subtitle: "Aprende todo sobre el desarrollo web de Back-End y lo que se necesita para convertirse en Desarrollador de Back-End"
 cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
 textColor: "white"
-date: "2020-10-19T12:36:30-04:00"
+date: "2020-10-19T16:36:30+00:00"
 tags: ["back-end","cliente-servidor"]
 status: "published"
 

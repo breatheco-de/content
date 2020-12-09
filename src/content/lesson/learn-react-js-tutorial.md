@@ -3,7 +3,7 @@ title: "Learn React Here : React Js Tutorial"
 subtitle: "React is a front-end library ideal for creating interfaces (generate HTML+CSS). It's the fastest, most advanced and most wanted library in the market right now. Don't stay behind, learn React JS here with this React JS tutorial"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["reactjs"]
 status: "published"
 
