@@ -115,3 +115,20 @@ person = Person.query.get(3)
 person.name = "Bob"
 db.session.commit()
 ```
+## Transactions
+
+A transaction is a sequence of operations (like INSERT, UPDATE, SELECT) made on your database, performed as one single work of unit. In other words, a transaction will never be complete unless each individual operation within the group is successful. If any operation within the transaction fails, the entire transaction fails.
+
+Transactions have the following 4 standard properties(known as ACID properties):
+
+![Transactions](../../assets/images/tran-1.png)
+
+A transaction ends with COMMIT or ROLLBACK. 
+
+On a datababase the COMMIT command should be issued, so that changes will take effect. COMMIT works just like on Github (you add every file and modification first  `git add` and then by saying `git commit` you save your changes).
+
+On the other hand, if something goes wrong or a failure occurs, a ROLLBACK command should be issued, to return every table referenced in the transaction to its previous state.
+
+
+
+  
