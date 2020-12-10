@@ -3,7 +3,7 @@ title: "Understanding PHP Sessions"
 subtitle: "Are you confortable with server sessions ? Don't worry, after reading this lesson you will be a master in PHP sessions"
 cover_local: "../../assets/images/980ce2e0-b73e-4019-8e97-3510e3028e10.jpeg"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["PHP"]
 status: "published"
 

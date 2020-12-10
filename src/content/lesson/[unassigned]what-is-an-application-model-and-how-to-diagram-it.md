@@ -5,7 +5,7 @@ subtitle: "The Application Model is the first step towards a great backend, it m
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 status: "unassigned"
 textColor: "white"
-date: "2020-10-19T12:36:30-04:00"
+date: "2020-10-19T16:36:30+00:00"
 tags: ["uml","class diagram","application model","data structures"]
 
 ---
