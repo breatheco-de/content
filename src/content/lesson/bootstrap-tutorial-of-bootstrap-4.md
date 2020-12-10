@@ -1,6 +1,6 @@
 ---
 title: "Bootstrap Tutorial: Learn Bootstrap 4 in 10 minutes"
-subtitle: "After decades of struggling, the light has arrived!! with this Bootstrap tutorial, designing website will be a piece of cake.    It is almost stupid, and, also impossible to think about doing a website without a CSS framework like Bootstrap 4 ."
+subtitle: "After decades of struggling, the light has arrived!! With this Bootstrap tutorial, designing a website will be a piece of cake. It's almost stupid, and, also impossible to think about doing a website without a CSS framework like Bootstrap 4 ."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:30+00:00"
@@ -258,3 +258,13 @@ Bootstrap official documentation is amazing!!  We don’t need to start copying 
 + [Styling Forms.](https://getbootstrap.com/docs/4.1/components/forms/)
 + [List of components available to use on your website.](https://getbootstrap.com/docs/4.1/components/alerts/)
 + [Utilities or Helper classes:](https://getbootstrap.com/docs/4.1/utilities/borders/) Very useful and constantly used classes to do stuff like centering the text, centering a column or container, adding a background, etc.
+
+[[warning]] 
+| :point_up : Bootstrap versions & download
+
+Bootstrap has many versions, always check if you are using the last version of Bootstrap on your project, here you can find all the available versions: [https://getbootstrap.com/docs/versions/](https://getbootstrap.com/docs/versions/).
+
+
+We recomend using a CDN to import bootstrap in your HTML like this one: [https://www.bootstrapcdn.com/](https://www.bootstrapcdn.com/)
+
+If you are migrating your project to a newer Bootstrap version remember to check its the documentation.

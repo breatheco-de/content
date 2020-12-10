@@ -6,22 +6,22 @@ cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 date: "2020-10-19T16:36:31+00:00"
 textColor: "white"
 authors: ["alesanchezr"]
-status: "draft"
+status: "published"
 tags: ["SQL Alchemy","Python"]
 
 ---
 
-## Qué es SQL Alchemy
+## ¿Qué es SQL Alchemy?
 
-Es un ORM: una biblioteca que los desarrolladores utilizan para crear bases de datos y manipular sus datos sin la necesidad tener que escribir sentencias SQL.
+SQLAlchemy es un [Object-Relational Mapper / Mapping-tool](https://en.wikipedia.org/wiki/Object-relational_mapping), o un ORM, es decir una librería que los desarrolladores utilizan para crear bases de datos y manipular sus datos sin la necesidad de conocer / usar SQL.
 
-Existen otras alternativas como SQLAlchemy como Peewee, y otros lenguajes tienen sus propios ORM como PHP Eloquent o Java Hibernate.
+Existen otras alternativas como SQL Alchemy como Peewee, y otros lenguajes tienen sus propios ORMs como PHP Eloquent o Java Hibernate.
 
-## Porqué usarlo?
+## ¿Porqué usar un ORM?
 
-Existe un gran debate en torno a esto, la popularidad del ORM se debe a que tratar con el lenguaje SQL requiere mucho esfuerzo en la mayoría de los casos.
+Los ORM han ganado popularidad debido a que lidiar con el lenguaje SQL directamente requiere de mucho esfuerzo en la mayoría de los casos. El objetivo del ORM entonces es simplificar la mantención de tus datos.
 
-Básicamente, con ORM no tendrás que escribir SQL otra vez (95% del tiempo) y podrá trabajar con objetos.
+Básicamente, con ORM no tendrás que escribir SQL otra vez (95% del tiempo) y podrás trabajar con objetos.
 
 ### Por ejemplo:
 
@@ -31,7 +31,7 @@ Para insertar un usuario con SQL tienes que escribir:
 INSERT INTO user (name, last_name) VALUES ('Juan', 'McDonals');
 ```
 
-Con un ORM su código sigue siendo un código familiar como este:
+Con un ORM tu código sigue siendo un código familiar como este:
 
 ```py
 user = User()
@@ -54,13 +54,12 @@ Con escribir la linea de código db.session.commit(), aseguraremos de que los ca
 
 ### Definiendo nuestro Models/Tables
 
-El primer paso será definir nuestro modelo.
 
 ```py
 class Person(Base):
     __tablename__ = 'person'
-    # Aquí definimos el nombre de la tabla 'person'.
-    # Ten en cuenta que cada columna es también un atributo normal de primera instancia de Python.
+    # Aquí definimos las columnas de la tabla 'person'.
+    # Ten en cuenta que cada columna es también un atributo de instancia de Python normal.
     id = Column(Integer, primary_key=True)
     name = Column(String(250), nullable=False)
 
@@ -74,8 +73,8 @@ class Person(Base):
 
 ### INSERT: Insertando un registro en la base de datos
 
-Todo lo que tienes que hacer es crear un nuevo objeto `Person`, agregarlo a la sesión de la base de datos y realizar commit de la transaccion.
-Reemplazar `<<username_value>` y `<email_value>` con los valores de personas reales que deseas agregar.
+Todo lo que tienes que hacer es crear un nuevo objeto Person, agregarlo a la sesión de la base de datos y realizar commit.
+Reemplazar `<username_value>` y `<email_value>` con los valores reales que deseas agregar.
 
 ```py
 person = Person(username=<username_value>, email=<email_value>)
@@ -88,7 +87,7 @@ db.session.commit()
 Hay 3 formas para devolver data de la base de datos:
     1. Buscar/Recuperar/Devolver todo los registros desde un Table/Model en particular usando `MyModel.query.all()`
     2. Buscar/Recuperar/Devolver un solo registro basado en su primary key usando `MyModel.query.get(id)`
-    3. ReBuscar/Recuperar/Devolver un grupo de registro basado en su consulta `Person.query.filter_by(arg1=value, arg2=value, ...)`
+    3. Buscar/Recuperar/Devolver un grupo de registro basado en su consulta `Person.query.filter_by(arg1=value, arg2=value, ...)`
 
 ```py
 # aqui es como se buscan todas las personas
@@ -99,13 +98,13 @@ all_people = list(map(lambda x: x.serialize(), all_people))
 all_people = Person.query.filter_by(name='alex')
 all_people = list(map(lambda x: x.serialize(), all_people))
 
-# aquí es cómo se busca a una persona con id = 3 (solo funciona con primary key)
+# aquí es cómo se busca a una persona con id = 3 (solo funciona con las primary key)
 person = Person.query.get(3)
 ```
 
 ### DELETE: Eliminando un registro de la base de datos.
 
-Todo lo que tiene que hacer es crear un nuevo objeto Person, agregarlo a la sesión de la base de datos y commit!
+Todo lo que tiene que hacer es crear un nuevo objeto Person, agregarlo a la sesión de la base de datos y ¡commit!
 
 ```py
 person = Person.query.get(3)

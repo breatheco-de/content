@@ -9,6 +9,7 @@ status: "draft"
 
 ---
 
+
 # ¿Qué es HTTP?
   
   Básicamente, es un protocolo de transferencia de texto que opera a través de solicitudes entre un cliente y un servidor. HTTP es el término utilizado para describir este sencillo lenguaje basado en texto. No importa cómo se desarrolle, el objetivo del servidor será siempre entender y devolver respuestas de texto sencillo.
@@ -54,15 +55,13 @@ Este simple mensaje comunica todo lo necesario acerca de qué recurso está soli
 |DELETE     |Se utiliza para eliminar datos en el servidor     |
 
 
-Teniendo esto en cuenta, podríamos entonces imaginar muy fácilmente como sería un petición HTTP para eliminar un entrada específica de un blog, por ejemplo:
-
 ```python
 DELETE /blog/15 HTTP/1.1`
 ```
 Además de la primera línea, un petición HTTP también tiene otras líneas de datos llamadas _request headers_, o cabeceras de solicitud, mediante las que puede entregar una amplia gama de información como: el nombre del servidor o _host_, los formatos de respuesta que acepta el cliente para realizar la solicitud, el formato en que está enviando datos en el cuerpo de la solicitud (si corresponde)...
 
 
-# Códigos de estado para la respuesta
+# Códigos de Status para la Respuesta
 
 
 Cuando el servidor recibe la petición, sabe con exactitud que recurso necesita el cliente (a través de la URI) y que quiere hacer con ese recurso(a través del método HTTP). 
@@ -78,7 +77,6 @@ Content-Type: text/html
 
 La respuesta contiene el recurso solicitado. La primera línea es muy importante y contiene el estado o status de la respuesta. En este caso es 200, es decir todo está ok.
  
-
 Los códigos de estado HTTP,[puedes leer más al respecto aquí](https://developer.mozilla.org/es/docs/Web/HTTP/Status), entregan metadatos en la respuesta al estado de los recursos solicitados. Son parte de lo que hace de la Web una plataforma para construir sistemas distribuidos. Se dividen en las siguientes categorías:
 
 

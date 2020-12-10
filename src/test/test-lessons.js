@@ -16,14 +16,17 @@ const TestError = (lesson, message) => {
 }
 
 
-let slugs = [];
-const validateLessons = (report) => {
-    let warnings = [];
-    const addWarning = (lesson, message) => {
-        warnings.push({
-            message,
-            path: lesson.path
-        });
+      if(!report.names.includes(originalSlug) && status!='draft') throw new Error(`Lesson ${fileName} (${status}) must have an english version ${originalSlug}`.red);
+    } 
+    
+    if(!title) throw new Error(`Missing lesson title for ${path}`.red);
+    
+    if(rest.cover && rest.cover.indexOf("../") > -1) throw new Error('The cover attribute can only be used for remote images, if the image is local please use cover_local instead'.red);
+    else if(rest.cover_local){
+        if(rest.cover_local.indexOf("../") == -1) throw new Error('The cover_local attribute can only be used for local images, if the image is remote please use cover instead'.red);
+        const _p = "../"+rest.cover_local.replace("../../","");
+        if(!fs.existsSync(_path.join(__dirname, _p))) throw new Error(`This image from cover_local could not be found: ${_p}`.red);
+
     }
     report.lessons.forEach((l) => {
     
