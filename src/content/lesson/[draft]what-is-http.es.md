@@ -1,7 +1,7 @@
 ---
 title: "¿Què es HTTP?"
-subtitle: "HTTP quiere decir Hypertext Transfer Protocol, o en español, Protocolo de Transferencia de Hipertexto. Se trata de un conjunto de reglas de comunicación que posibilita la circulación de información a través de la World Wide Web (WWW)."
-cover_local: "../../assets/images/http-0.png"
+subtitle: "Todo es texto"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["HTTP"]
@@ -10,12 +10,46 @@ status: "draft"
 ---
 
 
+
 # ¿Qué es HTTP?
+
   
-  Básicamente, es un protocolo de transferencia de texto que opera a través de solicitudes entre un cliente y un servidor. HTTP es el término utilizado para describir este sencillo lenguaje basado en texto. No importa cómo se desarrolle, el objetivo del servidor será siempre entender y devolver respuestas de texto sencillo.
+## Todo es texto (HTTP)
+
+Como era de esperarse, si vas a transmitir documentos todo lo que necesitas es texto. Cuando haces páginas web todo corre bajo el protocolo HTTP (The Hypertext Transfer Protocol) que es un especialista en la transmisión de texto.
+
+Lo que esto quiere decir es que: **todo es texto**. Pues sí, si quieres enviarle una foto a tu abuela por correo electrónico entonces ocurren mas o menos las siguientes cosas:
+
+
++ La foto se convierte en texto (un texto que, en este momento, no vas a poder entender).
++ Se transmite a través de internet como texto. Si un hacker intercepta esto, lo que verían es un conjunto de símbolos / letras / números uno tras otro.
++ Esa cadena de caracteres llega a la computadora de tu abuela.
++ Tu abuela hace doble clic en la foto y el programa que está usando para ver la foto transforma ese texto nuevamente en una imagen comprensible para un humano.
+
+
+![what is the internet](../../assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif)
   
-  ![what is http?](../../assets/images/http-3.png)
+
+<small style="color:grey">Imagen 1: Los 4 pasos necesarios para enviar imágenes a través de Internet: primero se convierte en texto, luego viaja, luego llega a la computadora de la abuela, la abuela abre la imagen y la imagen muestra ... ¡finalmente, la abuela está feliz mirando a su nieto! </small>
+
+## Pero, ¿cómo viajan las imágenes (y esas cosas)?
+
+Todo está conectado. La mejor manera de entender esto es comparándolo con el servicio postal:
+
++ Las autopistas y las calles son los cables de red en sus paredes (o las antenas de transmisión en los techos).
++ Los vehículos que transportan el correo son los paquetes de información de viaje.
++ Las casas, edificios y tiendas son las páginas web / sitios de compras en línea - los parques serían redes sociales, etc.
++ La dirección es el nombre de dominio famoso (.com, .net, etc.)
++ Los lotes de construcción son los servidores donde se alojan las páginas web.
+
+
+<iframe width="807" height="453" src="https://www.youtube.com/embed/UiBT3Kj8KBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p style="text-align:center;"><small>
+<strong>Video:</strong>Video de 2 minutos explicando cómo funciona internet.
+</small><p>
   
+
 
 # ¿Cómo funciona HTTP?
 
