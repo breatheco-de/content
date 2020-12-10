@@ -2,7 +2,7 @@
 title: "Making an amazing resume"
 subtitle: "The Art of getting interviews its 60% about the resume, let's make it shine!"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["career support"]
 status: "published"
 

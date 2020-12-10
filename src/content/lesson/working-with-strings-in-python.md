@@ -5,7 +5,7 @@ subtitle: "String concatenation is the Web Developer's bread and butter, our job
 authors: ["alesanchezr"]
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 syntaxis: ["python"]
 tags: ["string","python","concatenation"]
 

@@ -4,7 +4,7 @@ title: "Aprendamos el Modelo de Cajas"
 subtitle: "Crear diseños es el proceso más doloroso al programar en HTML & CSS Aprende las reglas de CSS: Display, Position, Float and Flex; y coloca cualquier elemento en el lugar que tú quieras."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["modelo de cajas","CSS","HTML"]
 
 ---
@@ -46,7 +46,7 @@ En el siguiente ejemplo puedes ver como dividir en dos el contenido de una pági
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/">Click aqui para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/">Haz clic aquí para abrir la demo en una nueva ventana</a></small></div>
 
 # Ancho y Altura de las Cajas
 ***
