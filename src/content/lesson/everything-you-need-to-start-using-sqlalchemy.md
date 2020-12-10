@@ -3,7 +3,7 @@ slug: "everything-you-need-to-start-using-sqlalchemy"
 title: "Everything you need to know about SQLAlchemy"
 subtitle: "SQLAlchemy is the most populer ORM for Python, start using it in 8min"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 textColor: "white"
 authors: ["alesanchezr"]
 status: "published"
@@ -102,7 +102,7 @@ All you have to do is create a new Person object, add it into the database sessi
 
 ```py
 person = Person.query.get(3)
-person.delete()
+db.session.delete(person)
 db.session.commit()
 ```
 
@@ -115,3 +115,20 @@ person = Person.query.get(3)
 person.name = "Bob"
 db.session.commit()
 ```
+## Transactions
+
+A transaction is a sequence of operations (like INSERT, UPDATE, SELECT) made on your database, performed as one single work of unit. In other words, a transaction will never be complete unless each individual operation within the group is successful. If any operation within the transaction fails, the entire transaction fails.
+
+Transactions have the following 4 standard properties(known as ACID properties):
+
+![Transactions](../../assets/images/tran-1.png)
+
+A transaction ends with COMMIT or ROLLBACK. 
+
+On a datababase the COMMIT command should be issued, so that changes will take effect. COMMIT works just like on Github (you add every file and modification first  `git add` and then by saying `git commit` you save your changes).
+
+On the other hand, if something goes wrong or a failure occurs, a ROLLBACK command should be issued, to return every table referenced in the transaction to its previous state.
+
+
+
+  

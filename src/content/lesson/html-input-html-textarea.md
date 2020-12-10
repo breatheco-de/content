@@ -4,7 +4,7 @@ subtitle: "HTML Forms, HTML input and HTML text-area are really easy to understa
 cover: "https://www.desktopbackground.org/p/2013/09/13/637935_nasa-wallpapers_1600x1200_h.jpg"
 textColor: "white"
 status: "draft"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["HTML","inputs","forms"]
 
 ---

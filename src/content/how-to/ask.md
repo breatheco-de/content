@@ -4,7 +4,7 @@ subtitle: "Ask the right question, and you'll get the right answer!"
 tags: ["feedback","tutoring","support"]
 textColor: "white"
 thumb: "https://i.imgur.com/33AP1Yd.png"
-date: "2020-10-19T12:36:30-04:00"
+date: "2020-10-19T16:36:30+00:00"
 slug: "ask"
 authors: ["alesanchezr"]
 status: "published"

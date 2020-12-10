@@ -4,7 +4,7 @@ title: "Implementando un estado global con context API"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 status: "published"
-date: "2018-12-03"
+date: "2018-12-03T00:00:00+00:00"
 tags: ["reactjs"]
 
 ---

@@ -3,26 +3,26 @@ title: "Que es el Internet?"
 subtitle: "Que es el Internet: Todo lo que se ve en internet es un documento de texto. Todo!! Como desarrolladores, todo lo que hacemos es generar trozos de texto basados en un conjunto de criterios. Si entiendes este simple concepto, el cielo será el limite."
 cover_local: "../../assets/images/05a36362-c09f-4961-a7b9-8e3132a902b1.jpeg"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["internet"]
-status: "draft"
+status: "published"
 
 ---
 
 ## Todo cobra sentido si retrocedemos en el tiempo…
 
-Si todo es un documento de texto, como es posible tener sitios web tan increibles como Facebook, Youtube, etc?
+Si todo es un documento de texto ¿Cómo es posible tener sitios web tan increibles como Facebook, Youtube, etc?
 
 Los sitios web de hoy son muy diferentes a los de antes; no tienen los mismos elementos, pero si retrocedemos un poco en el pasado y exploramos el comienzo de Internet, todo tendrá sentido.
 
-La Internet fue creada para intercambiar información, sus fundadores estaban buscando compartir documentos de forma rápida y sin tener que manejar una infraestructura compleja y costosa. Simplemente definieron un marco de trabajo y desarrollaron las tecnologías para que cualquier persona que quisiera compartir un documento pudiera publicarlo e invitar a los demás a leerlo.
+EL Internet fue creada para intercambiar información, sus fundadores estaban buscando compartir documentos de forma rápida y sin tener que manejar una infraestructura compleja y costosa. Simplemente definieron un marco de trabajo y desarrollaron las tecnologías para que cualquier persona que quisiera compartir un documento pudiera publicarlo e invitar a los demás a leerlo.
 
-La comunidad científica lo utilizo para los famosos  ["Peer Reviews"](https://www.elsevier.com/reviewers/what-is-peer-review), que se utilizan para que tus colegas revisen y aprueben una publicación antes de ser aceptada y publicada por la comunidad.
+La comunidad científica lo utilizó para los famosos  ["Peer Reviews"](https://www.elsevier.com/reviewers/what-is-peer-review) usados para que tus colegas revisen y aprueben una publicación antes de ser aceptada y publicada por la comunidad.
 
 Por esta razón buscaron hacer algo que se asemejara lo más posible a un documento de MS Word o cualquier procesador de texto.
 
 [[info]]
-| :point_up: Si quieres seguir leyendo sobre la historia de internet te recomendamos ["este video super cool."](https://www.youtube.com/watch?v=BWb6ri3ePew)
+| :point_up: Si quieres seguir leyendo sobre la historia de internet te recomendamos ["este video super cool"](https://www.youtube.com/watch?v=BWb6ri3ePew)
 
 
 > Entonces, la forma más sencilla de ver Internet es como una red de documentos compartidos. Documentos que alguna vez fueron publicaciones científicas 
