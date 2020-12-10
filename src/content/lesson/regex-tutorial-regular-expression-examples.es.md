@@ -3,7 +3,7 @@ title: "Tutorial de Regex: Aprender con ejemplos de expresiones regulares"
 subtitle: "Las expresiones regulares son la mejor manera de identificar patrones dentro de los strinfs. Pueden parecer difíciles y molestos, pero una vez que sabes cómo usarlos, ¡son increíbles! En este tutorial Regex aprenderás con ejemplos de expresiones regulares"
 cover_local: "../../assets/images/bf7bc7e6-c89c-4f97-9377-e30e369ba796.gif"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["regex","expresiones regulares"]
 status: "published"
 

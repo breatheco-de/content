@@ -4,7 +4,7 @@ title: "Aprendamos el Modelo de Cajas"
 subtitle: "Crear diseños es el proceso más doloroso al programar en HTML & CSS Aprende las reglas de CSS: Display, Position, Float and Flex; y coloca cualquier elemento en el lugar que tú quieras."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["modelo de cajas","CSS","HTML"]
 
 ---

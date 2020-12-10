@@ -3,7 +3,7 @@ title: "Explicación de React con Hooks"
 subtitle: "Hooks es la nueva forma de crear componentes React sin tener que usar clases"
 cover_local: "../../assets/images/84c4d84c-51b9-4906-a572-71cc07ecfc8c.jpeg"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 authors: ["alesanchezr"]
 status: "published"
 tags: ["reactjs"]

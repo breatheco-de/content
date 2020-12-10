@@ -1,18 +1,18 @@
 ---
 title: "Que es DOM: Document Object Model"
-subtitle: "¿Ya sabes lo que es DOM? Es una jerarquía almacenada en la memoria que contiene todos los elementos de su sitio web en tiempo real. La manipulación DOM es la actividad más popular para cualquier desarrollador de aplicaciones para usuario. ¡El DOM da vida a tus aplicaciones!"
+subtitle: "¿Ya sabes lo que es DOM? Es una jerarquía almacenada en la memoria que contiene todos los elementos de su sitio web en tiempo real. La manipulación DOM es la actividad más popular para cualquier desarrollador front-end ¡El DOM da vida a tus aplicaciones!"
 cover_local: "../../assets/images/db660bb9-1ac6-4730-a9c8-4544d6b801b0.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["DOM"]
 status: "published"
 
 ---
 
-## ¡Basta ya con la consola!
+## ¡Más allá de la consola!
 ***
 
-A nadie le gustan las aplicaciones basadas en la consola ... ¿te imaginas usar Uber desde la línea de comandos?
+A nadie le gustan las aplicaciones basadas en la consola ... ¿te imaginas usar Uber desde la línea de comando?
 
 ```javascript
 $ "uber" request-trip --from home --to work --pool
@@ -38,9 +38,9 @@ NOTA: Por favor recuerda siempre que todo el código JavaScript que escribas en 
 ## Cómo actualizar tu DOM del sitio web
 ***
 
-Hay varias formas de manipular el DOM, pero la más sencilla es **document.write** Cada vez que cree un documento.write, escribirá en el HTML la cadena que decida pasar como parámetro a la función de escritura .
+Hay varias formas de manipular el DOM, pero la más sencilla es **document.write** Cada vez que cree un documento.write, escribirá en el HTML el string que decidas pasar como parámetro a la función de escritura .
 
-No importa donde escribas el código. Lo único que importa es que está dentro de una etiqueta `<script>` Por ejemplo:
+No importa donde escribas el código. Lo único que importa es que esté dentro de una etiqueta `<script>` Por ejemplo:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -52,15 +52,17 @@ No importa donde escribas el código. Lo único que importa es que está dentro 
 
 Desde el momento en que un sitio web comienza a cargarse, el navegador crea una jerarquía que se llama The DOM. Cada elemento HTML que programaste en su documento HTML como desarrollador, tiene un lugar en esa jerarquía y puedes acceder a él utilizando JavaScript en cualquier momento durante el tiempo de ejecución.
 
+
 + Cada elemento HTML tiene un objeto en la jerarquía de documentos.
 + El DOM se genera durante el tiempo de ejecución.
-+ Cada navegador intenta replicar el DOM exactamente de la misma manera, pero hay algunas diferencias entre ellos. Es por eso que algunas cosas funcionan en un navegador pero no en el otro.
++ Cada navegador intenta replicar el DOM exactamente de la misma manera, pero hay algunas diferencias entre ellos. Es por eso que algunas cosas funcionan en un navegador pero no en otros.
 + JavaScript es el único idioma capaz de acceder a DOM durante el tiempo de ejecución.
 + El "Inspector de Google" es la mejor representación de The DOM en la actualidad.
 
 <iframe width="578" height="325" src="https://www.youtube.com/embed/Ibxagg2ep5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <div align="right"><small><a href="https://www.youtube.com/embed/Ibxagg2ep5g">Haz clicaquñi para abrir la demo en una nueva ventana</a></small></div>
+
 
 ## ¿Cómo accedo a cualquier objeto en el DOM?
 ***
@@ -77,11 +79,11 @@ Devuelve una instancia del elemento con el id = "elementId" en el documento HTML
 
 ### document.getElementsByClassName("exampleClass")
 
-Devuelve una matriz de todos los elementos con la clase = "exampleClass" en su propiedad de etiqueta HTML.
+Devuelve un array de todos los elementos con la clase = "exampleClass" en su propiedad de etiqueta HTML.
 
 ### document.getElementsByTagName("p")
 
-Devuelve una matriz con todas las instancias que representan cada elemento de párrafo en el documento HTML.
+Devuelve un array con todas las instancias que representan cada elemento de párrafo en el documento HTML.
 
 ### **document.getElementsByName*("name_value")***
 
@@ -96,10 +98,12 @@ var howManyElements = myList.length;
 myList[0].style.color = "red";   // el primero será rojo 
 
 var myList = document.getElementsByClassName("abc");
+
 myList[0].style.color = "red";   // el primero será rojo  
 
 var xyz = document.getElementsByName("xyz");
 xyz[0].style.color="red";   // el primero será rojo 
+
 ```
 
 ## Accediendo al Hijo del elemento
@@ -107,10 +111,11 @@ xyz[0].style.color="red";   // el primero será rojo
 
 Es muy común tener que cambiar el hijo de un elemento. Por ejemplo:
 
+
 + Actualizar todos los LI hijos de una UL especifica para hacer que su fondo sea rojo.
 + Eliminar la primera fila `<tr>` de una `<table>`.
 + Ocultar a todos los hijos con una clase específica.
-+ ¡Y la lista continúa!
+
   
 La mejor manera de recuperar los elementos secundarios de cualquier elemento DOM es mediante el uso de sus propiedades childNodes de esta forma:
 
@@ -126,6 +131,7 @@ x.querySelector(".random").style.background = "green";
 var x = document.getElementById("myDIV");
 x.querySelector("h3,h2").style.background = "blue";
 // busca el primer hijo de #myDIV con la etiqueta h3 o h2 
+
  
 var tableElm = document.getElementById("people");
 var trArray = tableElm.querySelectorAll("tr");
@@ -137,17 +143,19 @@ trArray[3].style.background = "red";
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/">Haz clic aquí para abrir una demo en una nueva ventana</a></small></div>
 
+
 ## The innerHTML
 ***
 
-Como ya sabe, cada elemento del documento HTML puede tener algún tipo de contenido HTML. No importa si es un `<P>`, `<DIV>`, `<A>` o cualquier otro elemento HTML; puede tener su propio innerHTML combinado con más contenido HTML.
+Como ya sabes, cada elemento del documento HTML puede tener algún tipo de contenido HTML. No importa si es un `<P>`, `<DIV>`, `<A>` o cualquier otro elemento HTML; puede tener su propio innerHTML combinado con más contenido HTML.
 
-![what is dom](../../assets/images/2387325b-338c-4c18-bb0f-2f95ed28901f.png)
+![qué es el dom](../../assets/images/2387325b-338c-4c18-bb0f-2f95ed28901f.png)
 
 La propiedad .innerHTML te brinda la capacidad de recuperar o configurar el contenido de cualquier elemento que tenga en su JavaScript. Por ejemplo:
 
 ```javascript
 document.getElementsByTagName("div")[0].innerHTML = "abc";
+
 // innerHTML puede usarse para insertar contenido de texto o HTML, esto crea una lista dentro de un elemento div
 
 
@@ -180,7 +188,8 @@ var newItem = document.createElement("LI");
 var textnode = document.createTextNode("Water");
 newItem.appendChild(textnode);
 var list = document.getElementById("myList");
-list.insertBefore(newItem, list.childNodes[0]);  //añadiendo el newItem antes del el PRIMER hijo de la lista 
+list.insertBefore(newItem, list.childNodes[0]);  //añadir el newItem antes del PRIMER hijo de la lista.
+
 ```
 
 ## Eliminar elementos del documento

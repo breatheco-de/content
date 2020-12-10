@@ -3,7 +3,7 @@ title: "CSS Layouts: Create and Build Layouts with CSS"
 subtitle: "Building layouts is the most painful process when coding HTML & CSS Learn the CSS layout rules: Display, Position, Float and Flex; and place any element anywhere you want."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["box-model","CSS","HTML","layouts"]
 status: "published"
 
@@ -31,7 +31,7 @@ All website content should be wrapped within boxes (div, header, footer, etc.). 
 
 All box containers can have the following attributes:
 
-|**Atribute**   |**Description**   |
+|**Attribute**   |**Description**   |
 |:--------------|:-----------------|
 |Content	    |Whatever elements are contained within the tag.     |
 |Padding   |This is an optional empty space or margin that can be added between the content and the border of the box.   |
