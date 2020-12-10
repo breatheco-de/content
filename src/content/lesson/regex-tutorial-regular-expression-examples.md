@@ -6,7 +6,7 @@ textColor: "white"
 authors: ["alesanchezr"]
 date: "2020-10-19T16:36:31+00:00"
 tags: ["regex","regular expression"]
-status: "draft"
+status: "published"
 
 ---
 
