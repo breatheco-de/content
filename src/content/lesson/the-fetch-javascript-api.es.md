@@ -5,9 +5,9 @@ subtitle: "¿Has oído hablar de AJAX? En estas lecciones, aprenderás a cómo s
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 authors: ["Guensie"]
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["fetch","ajax","http"]
-status: "draft"
+status: "published"
 
 ---
 
@@ -38,7 +38,7 @@ Veamos cómo se ve una solicitud **fetch** de búsqueda sencilla:
 Dado que la promesa de recuperación solo rechazaría una solicitud si no pudo completarla, debemos verificar si una respuesta es buena y validarla y arrojar un error si no está bien.
  
 Para evaluar el estado de una respuesta puedes utilizar:
-“** response.ok **”: comprueba el estado en los 200s y devuelve un valor booleano.
+“**response.ok**”: comprueba el estado en los 200s y devuelve un valor booleano.
 “**response.status**”- devuelve un entero con el código de estado de respuesta. El valor predeterminado es **200**.
 “**response.statusText**”- devuelve una cadena cuyo valor predeterminado es "OK"
 

@@ -4,7 +4,7 @@ subtitle: "Hooks are like Steroids for React Components, and they are almost imp
 cover_local: "../../assets/images/84c4d84c-51b9-4906-a572-71cc07ecfc8c.jpeg"
 thumb: "https://i.imgur.com/rUQ0MDb.png"
 textColor: "white"
-date: "2020-10-19
+date: "2020-10-19T16:36:31+00:00"
 authors: ["alesanchezr"]
 status: "published"
 tags: ["reactjs","javascript","react.js","react hooks","react useState","react useEffect"]

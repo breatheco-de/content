@@ -3,9 +3,9 @@ title: "CSS Layouts: Create and Build Layouts with CSS"
 subtitle: "Building layouts is the most painful process when coding HTML & CSS Learn the CSS layout rules: Display, Position, Float and Flex; and place any element anywhere you want."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["box-model","CSS","HTML","layouts"]
-status: "draft"
+status: "published"
 
 ---
 
@@ -31,7 +31,7 @@ All website content should be wrapped within boxes (div, header, footer, etc.). 
 
 All box containers can have the following attributes:
 
-|**Atribute**   |**Description**   |
+|**Attribute**   |**Description**   |
 |:--------------|:-----------------|
 |Content	    |Whatever elements are contained within the tag.     |
 |Padding   |This is an optional empty space or margin that can be added between the content and the border of the box.   |
@@ -47,6 +47,21 @@ In the following example, we divided the website content into 2 different areas.
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
+
+## The box-sizing property
+
+This important property is connected to box model and it defines how the height and width of the element are calculated: should include the border, padding and margin or not. 
+
++ If the value is **content-box**, width and height will only be applied to the content of the element.
++ If the value is **border-box**, width and height apply to all parts of the elements: content, padding and borders. 
+
+
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/zvL6aet3/embed/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/zvL6aet3/embed/html,css,result/">Click here to open demo in a new window</a></small></div>
+
+
+
 
 # Width and Height
 ***
@@ -90,7 +105,7 @@ It is common to find this attribute in menus, social network activity feeds, etc
 |Inline     |This is the default value of `<strong>`, `<i>`, `<a>`, `<span>`, and other common tags.  The elements will behave like text and will not have defined limits (neither width, nor height).    |
 |Block   |This is the default value of `<div>`, `<p>`, `<h>`, etc.  The element will occupy the entire row of the site – and move other elements above or below it.    |
 |Inline-Block    |The best of both worlds.  This value places the containers in the same row, but respecting each of their limits (width and height). Thanks to this value, sites like Pinterest use masonry design.   |
-|Flex    |Introduced just a couple of years ago, it comes to fix all the mayor problems with display to date. Flex is used to make boxes be flexible. When you apply `display: flex` to a div, all the childrens will be able to share the same row.   |
+|Flex    |Introduced just a couple of years ago, it comes to fix all the major problems with display to date. Flex is used to make boxes be flexible. When you apply `display: flex` to a div, all the childrens will be able to share the same row.   |
 |None    |Hides the element (making it invisible) and does not hold any space for it within the document.   |
 
 Ok, now… to understand what we just explained, there is no other choice but… Practice!
