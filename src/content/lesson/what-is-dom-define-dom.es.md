@@ -44,21 +44,12 @@ No importa donde escribas el código. Lo único que importa es que esté dentro 
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<<<<<<< HEAD
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/">Haz clic para abrir la demo en una nueva ventana</a></small></div>
-=======
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/">Haz clic aquí para abrir la demo en una nueva ventana</a></small></div>
->>>>>>> 6f9dd4f3fd74aff02ac9777db7e61d1ad42f39b5
-
 
 ## ¡El DOM es Espectacular!
 ***
 
-<<<<<<< HEAD
-Desde el momento en que un sitio web comienza a cargarse, el navegador crea una jerarquía que se llama The DOM. Cada elemento HTML que codificaste en tu documento HTML como desarrollador, tiene un lugar en esa jerarquía y puedes acceder a él utilizando JavaScript en cualquier momento durante el tiempo de ejecución.
-=======
 Desde el momento en que un sitio web comienza a cargarse, el navegador crea una jerarquía que se llama The DOM. Cada elemento HTML que programaste en su documento HTML como desarrollador, tiene un lugar en esa jerarquía y puedes acceder a él utilizando JavaScript en cualquier momento durante el tiempo de ejecución.
->>>>>>> 6f9dd4f3fd74aff02ac9777db7e61d1ad42f39b5
 
 + Cada elemento HTML tiene un objeto en la jerarquía de documentos.
 + El DOM se genera durante el tiempo de ejecución.
@@ -108,6 +99,7 @@ myList[0].style.color = "red";   // el primero será rojo
 
 var xyz = document.getElementsByName("xyz");
 xyz[0].style.color="red";   // el primero será rojo 
+
 ```
 
 ## Accediendo al Hijo del elemento
@@ -115,10 +107,10 @@ xyz[0].style.color="red";   // el primero será rojo
 
 Es muy común tener que cambiar el hijo de un elemento. Por ejemplo:
 
-+ Actualiza todos los `<li>` hijos de un especifico `<ul>` para hacer que su fondo sea rojo.
-+ Elimina la primera fila `<tr>` de una `<table>`.
-+ Ocultando a todos los hijos con una clase específica.
-+ ¡Y la lista continúa!
++ Actualizar todos los LI hijos de una UL especifica para hacer que su fondo sea rojo.
++ Eliminar la primera fila `<tr>` de una `<table>`.
++ Ocultar a todos los hijos con una clase específica.
+
   
 La mejor manera de recuperar los elementos secundarios de cualquier elemento DOM es mediante el uso de sus propiedades childNodes de esta forma:
 
@@ -145,6 +137,7 @@ trArray[3].style.background = "red";
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/">Haz clic aquí para abrir una demo en una nueva ventana</a></small></div>
 
+
 ## The innerHTML
 ***
 
@@ -156,6 +149,7 @@ La propiedad .innerHTML te brinda la capacidad de recuperar o configurar el cont
 
 ```javascript
 document.getElementsByTagName("div")[0].innerHTML = "abc";
+
 // innerHTML puede usarse para insertar contenido de texto o HTML, esto crea una lista dentro de un elemento div
 
 
@@ -189,6 +183,7 @@ var textnode = document.createTextNode("Water");
 newItem.appendChild(textnode);
 var list = document.getElementById("myList");
 list.insertBefore(newItem, list.childNodes[0]);  //añadir el newItem antes del PRIMER hijo de la lista.
+
 ```
 
 ## Eliminar elementos del documento
