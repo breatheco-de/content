@@ -27,7 +27,7 @@ Como ya sabes, la responsabilidad del navegador es transformar el código HTML /
 
 Con JavaScript podemos manipular el DOM (elementos del sitio web) durante el tiempo de ejecución (durante el ciclo de vida de la aplicación).
 
-NOTA: Por favor recuerda siempre que todo el código JavaScript que escribas en tu documento HTML DEBE estar envuelto dentro por una etiqueta `<script>`, como esto:
+NOTA: Por favor recuerda siempre que todo el código JavaScript que escribas en tu documento HTML DEBE estar envuelto dentro de una etiqueta `<script>`, como así:
 
 ```html
 <script  type="text/javascript">
@@ -44,13 +44,14 @@ No importa donde escribas el código. Lo único que importa es que esté dentro 
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/">Haz clic para abrir la demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/">Haz clic aquí para abrir la demo en una nueva ventana</a></small></div>
 
 
 ## ¡El DOM es Espectacular!
 ***
 
-Desde el momento en que un sitio web comienza a cargarse, el navegador crea una jerarquía que se llama The DOM. Cada elemento HTML que codificaste en tu documento HTML como desarrollador, tiene un lugar en esa jerarquía y puedes acceder a él utilizando JavaScript en cualquier momento durante el tiempo de ejecución.
+Desde el momento en que un sitio web comienza a cargarse, el navegador crea una jerarquía que se llama The DOM. Cada elemento HTML que programaste en su documento HTML como desarrollador, tiene un lugar en esa jerarquía y puedes acceder a él utilizando JavaScript en cualquier momento durante el tiempo de ejecución.
+
 
 + Cada elemento HTML tiene un objeto en la jerarquía de documentos.
 + El DOM se genera durante el tiempo de ejecución.
@@ -60,7 +61,8 @@ Desde el momento en que un sitio web comienza a cargarse, el navegador crea una 
 
 <iframe width="578" height="325" src="https://www.youtube.com/embed/Ibxagg2ep5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<div align="right"><small><a href="https://www.youtube.com/embed/Ibxagg2ep5g">Haz clic para abrir la demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="https://www.youtube.com/embed/Ibxagg2ep5g">Haz clicaquñi para abrir la demo en una nueva ventana</a></small></div>
+
 
 ## ¿Cómo accedo a cualquier objeto en el DOM?
 ***
@@ -96,23 +98,26 @@ var howManyElements = myList.length;
 myList[0].style.color = "red";   // el primero será rojo 
 
 var myList = document.getElementsByClassName("abc");
-myList[0].style.color = "red";   // el primero será rojo
+
+myList[0].style.color = "red";   // el primero será rojo  
 
 var xyz = document.getElementsByName("xyz");
-xyz[0].style.color="red";   // el primero será rojo
+xyz[0].style.color="red";   // el primero será rojo 
+
 ```
 
-## Accediendo al Elemento Hijo
+## Accediendo al Hijo del elemento
 ***
 
-Es muy común tener que cambiar el elemento hijo de un elemento. Por ejemplo:
+Es muy común tener que cambiar el hijo de un elemento. Por ejemplo:
 
-+ Actualiza todos los `<li>` hijos de un especifico `<ul>` para hacer que su fondo sea rojo.
-+ Elimina la primera fila `<tr>` de una `<table>`.
-+ Ocultando a todos los hijos con una clase específica.
-+ ¡Y la lista continúa!
+
++ Actualizar todos los LI hijos de una UL especifica para hacer que su fondo sea rojo.
++ Eliminar la primera fila `<tr>` de una `<table>`.
++ Ocultar a todos los hijos con una clase específica.
+
   
-La mejor manera de recuperar los elementos secundarios de cualquier elemento DOM es mediante el uso de sus propiedades childNodes, como esto:
+La mejor manera de recuperar los elementos secundarios de cualquier elemento DOM es mediante el uso de sus propiedades childNodes de esta forma:
 
 ### element.childNodes
 
@@ -121,21 +126,23 @@ Esto devuelve un array con todos los elementos secundarios del elemento.
 ```javascript{numberLines: true}
 var x = document.getElementById("myDIV");
 x.querySelector(".random").style.background = "green";
-//obtén el primer hijo de #myDIV con la clase .random  
+//busca el primer hijo de #myDIV con la clase .random 
 
 var x = document.getElementById("myDIV");
 x.querySelector("h3,h2").style.background = "blue";
-//obtén el primer hijo de #myDIV con etiqueta tag h3 o h2 
+// busca el primer hijo de #myDIV con la etiqueta h3 o h2 
+
  
 var tableElm = document.getElementById("people");
 var trArray = tableElm.querySelectorAll("tr");
 trArray[3].style.background = "red";
-//obtén un array con todos los hijos de #people con la etiqueta tr 
+//busca un array con todos los hijos de #people con etiqueta tr
 ```
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/">Haz clic para abrir la demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/">Haz clic aquí para abrir una demo en una nueva ventana</a></small></div>
+
 
 ## The innerHTML
 ***
@@ -144,24 +151,23 @@ Como ya sabes, cada elemento del documento HTML puede tener algún tipo de conte
 
 ![qué es el dom](../../assets/images/2387325b-338c-4c18-bb0f-2f95ed28901f.png)
 
-La propiedad .innerHTML le brinda la capacidad de recuperar o configurar el contenido de cualquier elemento que tenga en su JavaScript. Por ejemplo:
+La propiedad .innerHTML te brinda la capacidad de recuperar o configurar el contenido de cualquier elemento que tenga en su JavaScript. Por ejemplo:
 
 ```javascript
 document.getElementsByTagName("div")[0].innerHTML = "abc";
-// innerHTML puede usarse para insertar contenido tipo texto o HTML, esto crea una lista dentro de un elemento div
-document.getElementsByTagName("div")[0].innerHTML = "abc";
-// innerHTML puede usarse para insertar contenido tipo texto o HTML, esto crea una lista dentro de un elemento div
-```
+
+// innerHTML puede usarse para insertar contenido de texto o HTML, esto crea una lista dentro de un elemento div
+
 
 [[warning]]
-| :point_up: Puede encontrar otras 2 propiedades en internet: nodeValue y textContent, pero en realidad no son universalmente utilizadas y tienen una funcionalidad más limitada.
+| :point_up: Puedes encontrar otras 2 propiedades en internet: nodeValue y textContent, pero en realidad no son muy utilizadas y tienen una funcionalidad más limitada.
 
 ## Añadiendo Elementos al Documento
 ***
 
 Hay 2 funciones que podemos usar para eso: **appendChild** y **insertBefore.**
 
-Digamos que ha seleccionado un `<div>` con el id = **"myFirstId"** y desea agregar un nuevo h1 dentro de ese div.
+Digamos que seleccionaste un `<div>` con el id = **"myFirstId"** y quieres agregar un nuevo h1 dentro de ese div.
 
 **Puedes usar la función appendChild así:**
 
@@ -169,11 +175,11 @@ Digamos que ha seleccionado un `<div>` con el id = **"myFirstId"** y desea agreg
 var divElem = document.getElementById("myFirstDiv");
 var myNewHOne = document.createElement("H1");
 var t = document.createTextNode("Hello World");
-myNewHOne.appendChild(t);  //Tengo que añadir algo de contenido de texto al h1  
+myNewHOne.appendChild(t);  // Tengo que agregar contenido al h1  
 divElem.appendChild(myNewHOne);
 ```
 
-Ahora, digamos que tenemos una `<ul>` con 2 elementos, pero queremos insertar un nuevo `<li>` al principio de esa lista.
+Ahora, digamos que tenemos una ul con 2 elementos, pero queremos insertar un nuevo `<li>` al principio de esa lista.
 
 **Podemos usar la función insertBefore para ese caso así:**
 
@@ -183,6 +189,7 @@ var textnode = document.createTextNode("Water");
 newItem.appendChild(textnode);
 var list = document.getElementById("myList");
 list.insertBefore(newItem, list.childNodes[0]);  //añadir el newItem antes del PRIMER hijo de la lista.
+
 ```
 
 ## Eliminar elementos del documento
@@ -210,7 +217,7 @@ while (element.firstChild) {
 Para cambiar cualquier atributo de cualquier objeto en el DOM, necesitamos usar la propiedad .attribute así:
 
 ```javascript
-// Eliminando todos los hijos de un elemento  
+// cambiando atributos 
 var element = document.getElementById("myElementId");
 element.attribute = "whatever";
 ```
@@ -218,10 +225,10 @@ element.attribute = "whatever";
 ## Cambiando los Estilos
 ***
 
-También puede cambiar cualquier regla o propiedad CSS aplicada a los elementos HTML utilizando el atributo **.Style**, como este:
+También Puedes cambiar cualquier regla o propiedad CSS aplicada a los elementos HTML utilizando el atributo **.style**, como este:
 
 ```javascript
-// Eliminando todos los hijos de un elemento  
+// cambiando estilos 
 var element = document.getElementById("myElementId");
 element.style.color = "red";
 element.style.background = "blue";
