@@ -160,7 +160,7 @@ UPDATE USER SET email = 'new@breatheco.de' WHERE ssn = '333-44-5534'
 
 #### DELETE:
 
-Works very similar to update, but, instead of passing the new values of the new columns you want to update, you only need to specify which rows you want to delete by requesting a group of conditions.
+Works very similar to update, but instead of passing the new values of the new columns you want to update, you only need to specify which rows you want to delete by requesting a group of conditions.
 
 ```sql
 DELETE FROM table_name WHERE [condition]
