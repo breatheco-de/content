@@ -1,14 +1,11 @@
 ---
-cover: "https://ucarecdn.com/b84e07e5-5761-469b-85bb-f7afc87d4dc9/"
-=======
 title: "Qué es React Flux"
 subtitle: "Sin Flux, React es solo una linda librería de front-end. React Flux lo convertirá en un marco - que le dará a tu aplicación una estructura definida - ocupándose de la capa de procesamiento de datos y, aún más, el flujo."
 cover_local: "../../assets/images/b84e07e5-5761-469b-85bb-f7afc87d4dc9.png"
-
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["reactjs","flux"]
-status: "Published"
+status: "published"
 
 ---
 
