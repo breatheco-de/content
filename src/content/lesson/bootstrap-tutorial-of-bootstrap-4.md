@@ -1,6 +1,6 @@
 ---
 title: "Bootstrap Tutorial: Learn Bootstrap 4 in 10 minutes"
-subtitle: "After decades of struggling, the light has arrived!! with this Bootstrap tutorial, designing website will be a piece of cake.    It is almost stupid, and, also impossible to think about doing a website without a CSS framework like Bootstrap 4 ."
+subtitle: "After decades of struggling, the light has arrived!! With this Bootstrap tutorial, designing a website will be a piece of cake. It's almost stupid, and, also impossible to think about doing a website without a CSS framework like Bootstrap 4 ."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:30+00:00"
