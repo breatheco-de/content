@@ -1,7 +1,7 @@
 ---
 title: "¿Què es HTTP?"
 subtitle: "Todo es texto"
-cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+cover_local: "../../assets/images/http-0.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["HTTP"]
@@ -10,11 +10,11 @@ status: "draft"
 ---
 
 
-
 # ¿Qué es HTTP?
 
   
 ## Todo es texto (HTTP)
+
 
 Como era de esperarse, si vas a transmitir documentos todo lo que necesitas es texto. Cuando haces páginas web todo corre bajo el protocolo HTTP (The Hypertext Transfer Protocol) que es un especialista en la transmisión de texto.
 
@@ -27,33 +27,14 @@ Lo que esto quiere decir es que: **todo es texto**. Pues sí, si quieres enviarl
 + Tu abuela hace doble clic en la foto y el programa que está usando para ver la foto transforma ese texto nuevamente en una imagen comprensible para un humano.
 
 
-![what is the internet](../../assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif)
+![HTTP](../../assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif)
   
 
 <small style="color:grey">Imagen 1: Los 4 pasos necesarios para enviar imágenes a través de Internet: primero se convierte en texto, luego viaja, luego llega a la computadora de la abuela, la abuela abre la imagen y la imagen muestra ... ¡finalmente, la abuela está feliz mirando a su nieto! </small>
 
-## Pero, ¿cómo viajan las imágenes (y esas cosas)?
-
-Todo está conectado. La mejor manera de entender esto es comparándolo con el servicio postal:
-
-+ Las autopistas y las calles son los cables de red en sus paredes (o las antenas de transmisión en los techos).
-+ Los vehículos que transportan el correo son los paquetes de información de viaje.
-+ Las casas, edificios y tiendas son las páginas web / sitios de compras en línea - los parques serían redes sociales, etc.
-+ La dirección es el nombre de dominio famoso (.com, .net, etc.)
-+ Los lotes de construcción son los servidores donde se alojan las páginas web.
-
-
-<iframe width="807" height="453" src="https://www.youtube.com/embed/UiBT3Kj8KBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<p style="text-align:center;"><small>
-<strong>Video:</strong>Video de 2 minutos explicando cómo funciona internet.
-</small><p>
-  
-
-
 # ¿Cómo funciona HTTP?
 
-
+![HTTP](../../assets/images/http-3.png)
 
 Este protocolo funciona a través de solicitudes y respuestas el cliente (por ejemplo, un navegador de internet) y un servidor (por ejemplo, los computadores en donde residen sitios web). 
 
