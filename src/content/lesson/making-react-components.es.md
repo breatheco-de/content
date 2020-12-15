@@ -159,11 +159,27 @@ Más complejo - la declaración de clase debe heredarse de React.Component y con
 
 Como una **Función**
 
-`python>// usando functions`<br>`python>function MyComponent(){`<br>&nbsp;&nbsp;`python>return Hello;`<br>`}`<br><br>`python>// o usando funciones de flecha` <br>`python>const MyComponent = () => Hello;`    
+```jsx
+// usando funciones
+function MyComponent(){
+    return Hello;
+}
+
+// o usando funciones de flecha
+const MyComponent = () => Hello;
+```  
   
 Como una **Clase**:
 
-`python>// usando classes`<br>`python>import React from 'react';`<br>`python>class MyComponent extends React.Component{`<br> &nbsp; &nbsp;   `python>render(){`<br>  &nbsp; &nbsp; &nbsp;       `python>return Hello;`<br> &nbsp; &nbsp;   `python>}`<br>`python>}`         
+```jsx
+// usando clases
+import React from 'react';
+class MyComponent extends React.Component{
+   render(){
+     return Hello;
+    }
+} 
+```
 
 + Estado del Componente  
 
@@ -175,7 +191,17 @@ Como una **Clase**:
 
 Tienes el estado disponible en cualquier momento usando this.state; debe inicializar el estado a algunos valores en el constructor de la clase.
 
-`python>class MyComponent{`<br>&nbsp; &nbsp;    `python>constructor(){`<br> &nbsp; &nbsp; &nbsp; &nbsp;`python> super();`<br> &nbsp; &nbsp; &nbsp; &nbsp; `python>python>this.state = {`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>foo: "var"`<br> &nbsp; &nbsp; &nbsp; &nbsp;` python>}`<br> &nbsp; &nbsp; `python>}`<br>`python>}`       
+```jsx
+
+class MyComponent{ 
+    constructor(){
+        super();
+        this.state = {
+            foo: "var"
+            }
+         }
+    }
+```       
 
 + Propiedades del Componente   
 
@@ -189,9 +215,15 @@ Como una **Clase**
 
 Las propiedades están dentro de la variable de clase this.props, y puedes hacer referencia a ellas en cualquier lugar así:
 
-`python>class MyComponent{`<br> &nbsp; &nbsp; &nbsp; `python>render(){`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>return Hello {this.props.name};`<br> &nbsp; &nbsp; &nbsp; `python>}`<br>`python>}`      |
+```jsx
+class MyComponent{
+    render(){
+        return Hello {this.props.name};
+        }
+    }
+```           
 
-+ Metodos de ciclo de vida    
++ Métodos de ciclo de vida    
 
 Como una **Función**:     
 
@@ -201,7 +233,19 @@ Como una **Clase**:
 
 Tiene todos los métodos disponibles, siendo estos los más importantes: Constructor, ComponentWillMount, ComponentWillUnmount, getDerivedStateFromProps, etc. Puedes declarar dentro de tu componente de clase esos métodos y mágicamente los llamará React en el momento adecuado, así:
 
-`python>class MyComponent{`<br> &nbsp; &nbsp; &nbsp; `python>constructor(){`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>super();`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>//initialize your state` <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>this.state = {}`<br> &nbsp; &nbsp; &nbsp; `}`<br> &nbsp; &nbsp; &nbsp; `python>componentDidMount(){  //do something to the state here }` <br> &nbsp; &nbsp; &nbsp; `python>componentWillUnmount(){  //best place to remove listeners }` <br> &nbsp; &nbsp; &nbsp; `python>static getDerivedStateFromProps(nextProps, prevState){ //return the updated state } `<br> &nbsp; &nbsp; &nbsp; `python>//there are many more lifecycle methods` <br> `python>}`        
+```jsx
+class MyComponent{
+    constructor(){
+        super();
+        //inicializa tu estado
+        this.state = {}
+        }
+        componentDidMount(){  //haz algo con tu estado aquí }
+        componentWillUnmount(){  //mejor lugar para eliminar listeners }
+        static getDerivedStateFromProps(nextProps, prevState){ // devuelve (return) el estado actualizado} 
+        //hay muchos más métodos lifecycle 
+    }
+```        
 
 [[info]]
 
