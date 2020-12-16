@@ -13,24 +13,39 @@ status: "draft"
 
 # ¿Qué es HTTP?
 
-"HTTP quiere decir Hypertext Transfer Protocol, o en español, Protocolo de Transferencia de Hipertexto. Se trata de un conjunto de reglas de comunicación que posibilita la circulación de información a través de la World Wide Web (WWW).""
+Todas las direcciones en internet comienzan por *http://*. Estas siglas hacen referencia al protocolo HTTP quiere decir Hypertext Transfer Protocol, o en español, Protocolo de Transferencia de Hipertexto. Este concepto es uno de los que Tim Berners-Lee desarrolló en Suiza y formaron la base de la World Wide Web junto con otros dos conceptos: HTML y URI. Mientras HTML define la estructura de las páginas web, la URI o URL define como encontrar un recurso; el HTTP en cambio, regula como el servidor envía este recurso a quien lo solicita.
 
-Básicamente, es un protocolo de transferencia de texto que opera a través de solicitudes entre un cliente y un servidor. HTTP es el término utilizado para describir este sencillo lenguaje basado en texto. No importa cómo se desarrolle, el objetivo del servidor será siempre entender y devolver respuestas de texto sencillo.
+Cuando se inventó sólo servía para solicitar documentos HTML a un servidor web. Hoy en día tiene muchos fines, por ejemplo:
+
++ Los navegadore loo usan para solicitar cualquier tipo de archivo: de texto, de video, de código de programación.
++ La API basada en REST es una solución que usa HTTP para controlar servicios web.
++ Los productores de multimedia también usan HTTP.
++ Las operaciones de acceso a bases de datos en la web.
+
+Se trata entonces, de un conjunto de reglas de comunicación que posibilita la circulación de información a través de la World Wide Web (WWW).
+
+
 
 
   ![what is http?](../../assets/images/http-3.png)
 
 ## ¿Cómo funciona HTTP?
 
-Este protocolo funciona a través de solicitudes y respuestas el cliente (por ejemplo, un navegador de internet) y un servidor (por ejemplo, los computadores en donde residen sitios web). 
 
-El servidor responde con una respuesta estructurada y con una serie de metadatos que establecen pautas para el inicio, desarrollo y cierre de la comunicación. Estas pautas son los llamados "métodos de petición".
+Cuando escribes una dirección web en tu navegador y se abre la página que quieres, es porque tu navegador se comunicó con el servidor web por HTTP, es decir el protocolo HTTP es el código o lenguaje que usa el navegador para comunicarle al servidor que página quiere visualizar y se inicia el proceso de comunicación, por ejemplo:
 
-A una secuencia de estas solicitudes se le conoce como sesión HTTP.
++ El usuario escribe en la barra de direcciones del navegador *google.com*
++ El navegador envía la solicitud (la petición HTTP) al servidor web. Normalmente la solicitud dice algo como "envíame este archivo".
++ Luego el servidor web recibe la solicitud HTTP, busca el archivo solicitado (en este caso la página de inicio de *google.com* que corresponde al archivo *index.html*) y envía primero una cabecera (header) que le comunica al usuario el resultado de su búsqueda (un poco más adelante veremos los códigos de estas respuestas).
++ Si se encontró el archivo solicitado y el cliente solicitó recibirlo (podría solo haber solicitado saber si existe), el servidor envía, justo después de la cabecera (header) el cuerpo del mensaje (message body), es decir el contenido solicitado. En nuestro ejemplo, el archivo *index.html*.
++ Finalmente, el servidor recibe el archivo y lo abre en forma de página web 
+
 
 ## Métodos de petición
 
-Cada conversación en la web comienza con una petición. Esta petición es un mensaje de texto o un conjunto de líneas creado por un cliente (navegador, app) que especifica el documento que solicitas y el *método* que aplicarás. El cliente envía esta petición a un servidor, y entonces espera la respuesta.
+Cada comunicación en la web comienza con una petición o solicitud. Esta petición es un mensaje de texto o un conjunto de líneas creado por un usuario (o navegador o app) que especifica el documento que solicitas y el *método* que aplicarás.
+
+ El cliente envía esta petición a un servidor, y entonces espera la respuesta.
 
 Una petición en lenguaje HTTP sería algo así:
 
