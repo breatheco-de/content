@@ -29,7 +29,7 @@ Se trata entonces, de un conjunto de reglas de comunicación que posibilita la c
 
   ![what is http?](../../assets/images/http-3.png)
 
-## ¿Cómo funciona HTTP?
+## ¿Cómo funciona HTTP??
 
 
 Cuando escribes una dirección web en tu navegador y se abre la página que quieres, es porque tu navegador se comunicó con el servidor web por HTTP, es decir el protocolo HTTP es el código o lenguaje que usa el navegador para comunicarle al servidor que página quiere visualizar y se inicia el proceso de comunicación, por ejemplo:
