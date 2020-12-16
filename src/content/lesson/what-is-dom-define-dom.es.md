@@ -46,14 +46,11 @@ No importa donde escribas el código. Lo único que importa es que esté dentro 
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/">Haz clic aquí para abrir la demo en una nueva ventana</a></small></div>
 
-
-
 ## ¡El DOM es Espectacular!
 ***
 
 
 Desde el momento en que un sitio web comienza a cargarse, el navegador crea una jerarquía que se llama The DOM. Cada elemento HTML que programaste en su documento HTML como desarrollador, tiene un lugar en esa jerarquía y puedes acceder a él utilizando JavaScript en cualquier momento durante el tiempo de ejecución.
-
 
 + Cada elemento HTML tiene un objeto en la jerarquía de documentos.
 + El DOM se genera durante el tiempo de ejecución.
@@ -62,7 +59,6 @@ Desde el momento en que un sitio web comienza a cargarse, el navegador crea una 
 + El "Inspector de Google" es la mejor representación de The DOM en la actualidad.
 
 <iframe width="578" height="325" src="https://www.youtube.com/embed/Ibxagg2ep5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 <div align="right"><small><a href="https://www.youtube.com/embed/Ibxagg2ep5g">Haz clic aquí para abrir la demo en una nueva ventana</a></small></div>
 
@@ -100,7 +96,6 @@ var howManyElements = myList.length;
 myList[0].style.color = "red";   // el primero será rojo 
 
 var myList = document.getElementsByClassName("abc");
-
 myList[0].style.color = "red";   // el primero será rojo  
 
 var xyz = document.getElementsByName("xyz");
