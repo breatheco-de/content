@@ -49,6 +49,7 @@ No importa donde escribas el código. Lo único que importa es que esté dentro 
 ## ¡El DOM es Espectacular!
 ***
 
+
 Desde el momento en que un sitio web comienza a cargarse, el navegador crea una jerarquía que se llama The DOM. Cada elemento HTML que programaste en su documento HTML como desarrollador, tiene un lugar en esa jerarquía y puedes acceder a él utilizando JavaScript en cualquier momento durante el tiempo de ejecución.
 
 + Cada elemento HTML tiene un objeto en la jerarquía de documentos.
@@ -99,7 +100,6 @@ myList[0].style.color = "red";   // el primero será rojo
 
 var xyz = document.getElementsByName("xyz");
 xyz[0].style.color="red";   // el primero será rojo 
-
 ```
 
 ## Accediendo al Hijo del elemento
@@ -110,6 +110,7 @@ Es muy común tener que cambiar el hijo de un elemento. Por ejemplo:
 + Actualizar todos los LI hijos de una UL especifica para hacer que su fondo sea rojo.
 + Eliminar la primera fila `<tr>` de una `<table>`.
 + Ocultar a todos los hijos con una clase específica.
+
 
   
 La mejor manera de recuperar los elementos secundarios de cualquier elemento DOM es mediante el uso de sus propiedades childNodes de esta forma:
@@ -125,8 +126,7 @@ x.querySelector(".random").style.background = "green";
 
 var x = document.getElementById("myDIV");
 x.querySelector("h3,h2").style.background = "blue";
-// busca el primer hijo de #myDIV con la etiqueta h3 o h2 
- 
+// busca el primer hijo de #myDIV con la etiqueta h3 o h2  
 var tableElm = document.getElementById("people");
 var trArray = tableElm.querySelectorAll("tr");
 trArray[3].style.background = "red";
@@ -136,7 +136,6 @@ trArray[3].style.background = "red";
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/">Haz clic aquí para abrir una demo en una nueva ventana</a></small></div>
-
 
 ## The innerHTML
 ***

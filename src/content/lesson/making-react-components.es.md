@@ -36,8 +36,9 @@ class Navbar extends React.Component{
     }
 }
 ```
-[[warning]]
-| :point_up:*J Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+[[warning]
+| :point_up: Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+
 
 ## Usando un Componente
 
@@ -133,7 +134,8 @@ Aquí hay un ejemplo del componente `<Clock />` del que acabamos de hablar:
 <div align="right"><small><a href="https://codesandbox.io/embed/zw852wvqp4?autoresize=1&amp;hidenavigation=1">Click here to open demo in a new window</a></small></div>
 
 [[warning]]
-| :point_up:*J Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+| :point_up:Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+
 
 ## pero espera, deberia usar Function o Class?
 ***
@@ -208,4 +210,5 @@ Tiene todos los métodos disponibles, siendo estos los más importantes: Constru
 |:link: Aquí puedes encontrar [más información sobre todos los métodos de ciclo de vida de React JS.](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
 
 [[warning]]
-| :point_up:*J Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+| :point_up:Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+
