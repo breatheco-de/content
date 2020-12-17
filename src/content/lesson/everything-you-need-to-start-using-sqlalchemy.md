@@ -125,7 +125,7 @@ Transactions have the following 4 standard properties(known as ACID properties):
 
 A transaction ends with COMMIT or ROLLBACK. 
 
-COMMIT command
+### COMMIT command
 
 COMMIT command is used to permanently save any transaction into the database.
 
@@ -133,22 +133,22 @@ When we use INSERT, UPDATE or DELETE, the changes made by these commands are not
 
 To avoid that, we use the COMMIT command to mark the changes as permanent.
 
-ROLLBACK command
+### ROLLBACK command
 
 This command restores the database to last commited state. It is also used with SAVEPOINT command to jump to a savepoint in a ongoing transaction.
 
-If we used the UPDATE command to make some changes into the database, and reallise that those changes were not required, the we can use the ROLLBACK command to rollback those changes, if they were not commited using the COMMIT command like this:
+If we used the UPDATE command to make some changes into the database, and realize that those changes were not required, the we can use the ROLLBACK command to rollback those changes, if they were not commited using the COMMIT command like this:
 
 ```jsx
 ROLLBACK TO savepoint_name;
 ```
-SAVEPOINT command
+### SAVEPOINT command
 
-SAVEPOINT command is used to temporarily save a transaction so that you can rollback to that state using the ROLLBACK command whenever required, you can use like this:
+SAVEPOINT command is used to temporarily to save a transaction so that you can rollback to that state using the ROLLBACK command whenever you need to, you can use like this:
 ```jsx
 SAVEPOINT savepoint_name;
 ```
-In short, using this command we can **name** the different states of our data using the ROLLBACK command whenever required.
+So when we use this command we can **name** the different states of our data using the ROLLBACK command whenever we need to.
 
 ![SQL](../../assets/images/sql-1.png)
 
@@ -157,7 +157,7 @@ mozzarella, tomato, olives. Our table would look like this and its name its 'PIZ
 
 ![SQL](../../assets/images/sql-2.png)
 
-But we have a list of extra ingredients we can add to it: first we choose meat but then we change our mind and we want to add mushrooms instead. We would also like to add some  and bacon. Let see how could we do that:
+But we have a list of extra ingredients we can add to it: first we choose meat but then we change our mind and we want to add mushrooms instead. We would also like to add some pepperoni and bacon. Let see how could we do that:
 
 ```jsx
 INSERT INTO class PIZZA(4, 'meat');
@@ -175,7 +175,7 @@ SAVEPOINT B
 INSERT INTO class PIZZA (6, 'bacon')
 ```
 
-Now our 'Pizza' looks has the following ingredients:
+Now our 'Pizza' has the following ingredients:
 
 ![SQL](../../assets/images/sql-3.png)
 
