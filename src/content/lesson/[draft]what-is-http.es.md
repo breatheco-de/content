@@ -17,20 +17,16 @@ Todas las direcciones en internet comienzan por *http://*. Estas siglas hacen re
 
 Cuando se inventó sólo servía para solicitar documentos HTML a un servidor web. Hoy en día tiene muchos fines, por ejemplo:
 
-+ Los navegadore loo usan para solicitar cualquier tipo de archivo: de texto, de video, de código de programación.
++ Los navegadores los usan para solicitar cualquier tipo de archivo: de texto, de video, de código de programación.
 + La API basada en REST es una solución que usa HTTP para controlar servicios web.
 + Los productores de multimedia también usan HTTP.
 + Las operaciones de acceso a bases de datos en la web.
 
 Se trata entonces, de un conjunto de reglas de comunicación que posibilita la circulación de información a través de la World Wide Web (WWW).
 
-
-
-
   ![what is http?](../../assets/images/http-3.png)
 
 ## ¿Cómo funciona HTTP??
-
 
 Cuando escribes una dirección web en tu navegador y se abre la página que quieres, es porque tu navegador se comunicó con el servidor web por HTTP, es decir el protocolo HTTP es el código o lenguaje que usa el navegador para comunicarle al servidor que página quiere visualizar y se inicia el proceso de comunicación, por ejemplo:
 
@@ -39,6 +35,15 @@ Cuando escribes una dirección web en tu navegador y se abre la página que quie
 + Luego el servidor web recibe la solicitud HTTP, busca el archivo solicitado (en este caso la página de inicio de *google.com* que corresponde al archivo *index.html*) y envía primero una cabecera (header) que le comunica al usuario el resultado de su búsqueda (un poco más adelante veremos los códigos de estas respuestas).
 + Si se encontró el archivo solicitado y el cliente solicitó recibirlo (podría solo haber solicitado saber si existe), el servidor envía, justo después de la cabecera (header) el cuerpo del mensaje (message body), es decir el contenido solicitado. En nuestro ejemplo, el archivo *index.html*.
 + Finalmente, el servidor recibe el archivo y lo abre en forma de página web 
+
+## Peticiones o solicitudes
+
+Una solicitud HTTP tiene varias partes:
+
++ Método : GET, POST, PUT, etc. Indica que tipo de solicitud es (request).
++ URL (path) : que indica donde se encuentra el recurso solicitado.
++ Cabeceras (headers): Generalmente son opcionales y entregan información sobre el HTTP y el navegador.
++ Cuerpo (body): Si hay que enviarle información al servidor, por ejemplo por POST o PUT, usamos el cuerpo.
 
 
 ## Métodos de petición
