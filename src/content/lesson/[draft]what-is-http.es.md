@@ -11,7 +11,6 @@ status: "draft"
 
 
 # ¿Qué es HTTP?
-
   
 ## Todo es texto (HTTP)
 

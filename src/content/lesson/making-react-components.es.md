@@ -36,8 +36,9 @@ class Navbar extends React.Component{
     }
 }
 ```
-[[warning]]
+[[warning]
 | :point_up: Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+
 
 ## Usando un Componente
 
@@ -134,6 +135,7 @@ Aquí hay un ejemplo del componente `<Clock />` del que acabamos de hablar:
 
 [[warning]]
 | :point_up:Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+
 
 ## pero espera, deberia usar Function o Class?
 ***
@@ -253,3 +255,4 @@ class MyComponent{
 
 [[warning]]
 | :point_up:Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+

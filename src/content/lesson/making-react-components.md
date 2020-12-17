@@ -34,6 +34,7 @@ class Navbar extends React.Component{
 [[warning]]
 | :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
 
+
 ## Using a Component
 
 Once you have composed a component you can display it using tags like this:
@@ -214,6 +215,7 @@ ReactDOM.render(
 
 [[warning]]
 | :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+
 
 
 ## Features of `function` components
