@@ -117,7 +117,7 @@ db.session.commit()
 ```
 ## Transactions
 
-A transaction is a sequence of operations (like INSERT, UPDATE, SELECT) made on your database this means that in order for a transaction to be completed a number of operations within a group must be successful. If one operation fails, the whole transaction fails.
+A transaction is a sequence of operations (like INSERT, UPDATE, SELECT) made on your database. In order for a transaction to be completed a number of operations within a group must be successful. If one operation fails, the whole transaction fails.
 
 
 Transactions have the following 4 standard properties(known as ACID properties):
@@ -130,30 +130,30 @@ A transaction ends with COMMIT or ROLLBACK.
 
 COMMIT command is used to permanently save any transaction into the database.
 
-When you use INSERT, UPDATE or DELETE, the changes made by these commands are not permanent, until the current session is finished, the changes made by these commands can be undone or "rolled back".
+When you use INSERT, UPDATE or DELETE, the changes made by these commands are not permanent, the changes made by these commands can be undone or "rolled back". 
 
-To avoid that, we use the COMMIT command to make the changes permanent.
+If you use the COMMIT command though the changes to your database are permanent.
 
 ### ROLLBACK command
 
-This command restores the database to last commited state. It is also used with SAVEPOINT command to jump to a savepoint in a ongoing transaction.
+It restores the database to last your last COMMIT. You can also use it with SAVEPOINT command to jump to a savepoint in a ongoing transaction.
+Also, if you use UPDATE to make changes to your database, you can undo them by using the ROLLBACK COMMAND but only if you haven't commited those changes like this:
 
-If we used the UPDATE command to make some changes into the database, and realize that those changes were not required, the we can use the ROLLBACK command to rollback those changes, if they were not commited using the COMMIT command like this:
 
 ```jsx
 ROLLBACK TO savepoint_name;
 ```
 ### SAVEPOINT command
 
-SAVEPOINT command is used to temporarily to save a transaction so that you can rollback to that state using the ROLLBACK command whenever needed, you can use like this:
+This command is used to temporarily to save a transaction so that you can go back to a certain point by using the ROLLBACK command whenever needed, you can use like this:
 ```jsx
 SAVEPOINT savepoint_name;
 ```
-So when we use this command we can **name** the different states of our data using the ROLLBACK command whenever we need to.
+So when we use this command we can **name** the different states of our database with the ROLLBACK command whenever we need to.
 
 ![SQL](../../assets/images/sql-1.png)
 
-Let's say we go out to have some pizza. Our pizza comes with three ingredients basic ingredients:
+Now let's say we go out to have some pizza. Our pizza comes with three ingredients basic ingredients:
 mozzarella, tomato, olives. Our table would look like this and its name its 'PIZZA': 
 
 ![SQL](../../assets/images/sql-2.png)
