@@ -239,10 +239,10 @@ Tiene todos los métodos disponibles, siendo estos los más importantes: Constru
 class MyComponent {
     constructor() {
         super();
-        this.state = { /* inicializa tu estado */ }
+        this.state = { /* inicializa tu estado */ } 
         }
         componentDidMount(){  /* haz algo con tu estado aquí */ }
-        componentWillUnmount(){  /* mejor lugar para eliminar listeners */}
+        componentWillUnmount(){  /* mejor lugar para eliminar listeners */ }
         static getDerivedStateFromProps(nextProps, prevState){ /* devuelve (return) el estado actualizado */ } 
         //hay muchos más métodos lifecycle 
     }

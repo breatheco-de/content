@@ -353,7 +353,7 @@ You have all the methods available with these being the most important ones: Con
 class MyComponent{
     constructor(){
         super();
-        this.state = { /* initialize your state */ }
+        this.state = { //initialize your state }
         }
        componentDidMount(){  /* do something to the state here */ }
       componentWillUnmount(){  /* best place to remove listeners */ }
