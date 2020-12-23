@@ -137,6 +137,7 @@ If you use the COMMIT command though the changes to your database are permanent.
 ### ROLLBACK command
 
 It restores the database to last your last COMMIT. You can also use it with SAVEPOINT command to jump to a savepoint in a ongoing transaction.
+
 Also, if you use UPDATE to make changes to your database, you can undo them by using the ROLLBACK COMMAND but only if you haven't commited those changes like this:
 
 
