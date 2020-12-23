@@ -299,7 +299,7 @@ As a **Function**:
 
 Each variable should be declared using the useState Hook inside the function    
 
-|As a **Class**:
+As a **Class**:
 
 The state should be declared on the constructor and then use the function `this.setState` to update it.
 
@@ -328,7 +328,7 @@ function MyComponent(props){
 
 As a **Class** :
 
-|The properties are inside the class variable this.props, and you can reference it anywhere like this:
+The properties are inside the class variable this.props, and you can reference it anywhere like this:
 
 ```jsx
 class MyComponent{
@@ -337,7 +337,6 @@ class MyComponent{
     }
 }   
 ```
-
 
 
 ### Life-cycle Methods
@@ -354,14 +353,13 @@ You have all the methods available with these being the most important ones: Con
 class MyComponent{
     constructor(){
         super();
-        //initialize your state
-        this.state = {}
+        this.state = { /* initialize your state */ }
         }
-       componentDidMount(){  //do something to the state here }
-      componentWillUnmount(){  //best place to remove listeners }
-      static getDerivedStateFromProps(nextProps, prevState){ //return the updated state } 
+       componentDidMount(){  /* do something to the state here */ }
+      componentWillUnmount(){  /* best place to remove listeners */ }
+      static getDerivedStateFromProps(nextProps, prevState){ /* return the updated state */ } 
       //there are many more lifecycle methods
-      }
+    }
 ```              
 
 [[info]]

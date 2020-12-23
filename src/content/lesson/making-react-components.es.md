@@ -236,15 +236,14 @@ Como una **Clase**:
 Tiene todos los métodos disponibles, siendo estos los más importantes: Constructor, ComponentWillMount, ComponentWillUnmount, getDerivedStateFromProps, etc. Puedes declarar dentro de tu componente de clase esos métodos y mágicamente los llamará React en el momento adecuado, así:
 
 ```jsx
-class MyComponent{
-    constructor(){
+class MyComponent {
+    constructor() {
         super();
-        //inicializa tu estado
-        this.state = {}
+        this.state = { /* inicializa tu estado */ }
         }
-        componentDidMount(){  //haz algo con tu estado aquí }
-        componentWillUnmount(){  //mejor lugar para eliminar listeners }
-        static getDerivedStateFromProps(nextProps, prevState){ // devuelve (return) el estado actualizado} 
+        componentDidMount(){  /* haz algo con tu estado aquí */ }
+        componentWillUnmount(){  /* mejor lugar para eliminar listeners */}
+        static getDerivedStateFromProps(nextProps, prevState){ /* devuelve (return) el estado actualizado */ } 
         //hay muchos más métodos lifecycle 
     }
 ```        

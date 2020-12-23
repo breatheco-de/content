@@ -117,7 +117,8 @@ db.session.commit()
 ```
 ## Transactions
 
-A transaction is a sequence of operations (like INSERT, UPDATE, SELECT) made on your database, performed as one single work of unit. In other words, a transaction will never be complete unless each individual operation within the group is successful. If any operation within the transaction fails, the entire transaction fails.
+A transaction is a sequence of operations (like INSERT, UPDATE, SELECT) made on your database this means that in order for a transaction to be completed a number of operations within a group must be successful. If one operation fails, the whole transaction fails.
+
 
 Transactions have the following 4 standard properties(known as ACID properties):
 
@@ -129,9 +130,9 @@ A transaction ends with COMMIT or ROLLBACK.
 
 COMMIT command is used to permanently save any transaction into the database.
 
-When we use INSERT, UPDATE or DELETE, the changes made by these commands are not permanent, until the current session is closed, the changes made by these commands can be rolled back.
+When you use INSERT, UPDATE or DELETE, the changes made by these commands are not permanent, until the current session is finished, the changes made by these commands can be undone or "rolled back".
 
-To avoid that, we use the COMMIT command to mark the changes as permanent.
+To avoid that, we use the COMMIT command to make the changes permanent.
 
 ### ROLLBACK command
 
@@ -144,7 +145,7 @@ ROLLBACK TO savepoint_name;
 ```
 ### SAVEPOINT command
 
-SAVEPOINT command is used to temporarily to save a transaction so that you can rollback to that state using the ROLLBACK command whenever you need to, you can use like this:
+SAVEPOINT command is used to temporarily to save a transaction so that you can rollback to that state using the ROLLBACK command whenever needed, you can use like this:
 ```jsx
 SAVEPOINT savepoint_name;
 ```
