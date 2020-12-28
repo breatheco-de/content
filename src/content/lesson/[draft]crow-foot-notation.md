@@ -1,6 +1,6 @@
 ---
 title: "Crow's Foot Notation"
-subtitle: "A number of data modelling techniques are being used today. One of the most common is the Entity Relationship Diagram (ERD). There are several ERD notation available: today we will be using Crow's Foot Notation"
+subtitle: "There are several methods we can use for data modelling. Here you will learn about the Crow's foot notation."
 cover_local: "../../assets/images/image0-cfn.png"
 textColor: "white"
 date: "2020-10-19T12:36:30-04:00"
@@ -9,17 +9,15 @@ status: "draft"
 
 ---
 
-A number of data modeling techniques are being used today. One of the most common is the Entity-Relationship Diagram (ERD). There are several ERD notation available: today we will be using Crow's Foot Notation!
-
 ![Crow's foot notation](../../assets/images/CFN.png)
 
 # Crow's foot notation 
 
-Entity-Relationship diagrams are an useful tool for designing databases. One method often used to create an ER diagram is Crow's Foot Notation (also know as IE notation). 
+Entity-Relationship diagrams are an useful tool to design databases. One method often used to create an ER diagram is Crow's Foot Notation (also know as IE notation). 
 
 This method was introduced in the 70' by Gordon Everest and it has been called inverted arrow, chicken feet, or just fork.
 
-The most important characteristic of crow's foot notation is that it uses graphical symbols to indicate the 'many' side of the relationship. The three-pronged 'many' symbol is also how this widely-used notation style got its name.
+Crow's foot notation is well known for its graphical symbols to show the 'many' side of the relationship. The 'many' symbol is also how notation style got its name (it looks like a crow foot).
 
 
 ## Crow's Foot Notation symbols
