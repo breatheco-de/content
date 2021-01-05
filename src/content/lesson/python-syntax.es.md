@@ -185,7 +185,7 @@ Finalmente, en ES2015, Javascript incluye las "funciones arrow". Esa es una mane
 
 ```javascript
 
-# Usando un función de flche para mapear una lista 
+# Usando un función de flecha para mapear una lista 
 
 var peopleArray = [{ name: "Mario Peres" },{ name: "Emilio Peres" },{ name: "Yusaiba Peres" }];
 var returningMapObject = peopleArray.map(person => person.name);
@@ -195,6 +195,7 @@ console.log(returningMapObject);
 
 <br>
 <br>
+
 #### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
 
 ```python
@@ -206,7 +207,7 @@ returningMapObject = map(lambda obj: obj['name'], peopleArray)
 namesArray = list(returningMapObject)
 print(namesArray)
 
-# ahora stringsArray es una lista de nombres como ["Mario Peres","Emilio Peres","Yusaiba Peres"]
+# ahora namesArray es una lista de nombres como ["Mario Peres","Emilio Peres","Yusaiba Peres"]
 ```
 
 
