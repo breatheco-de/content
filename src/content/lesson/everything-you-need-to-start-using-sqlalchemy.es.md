@@ -18,6 +18,7 @@ SQLAlchemy es un [Object-Relational Mapper / Mapping-tool](https://en.wikipedia.
 
 Existen otras alternativas como SQL Alchemy como Peewee, y otros lenguajes tienen sus propios ORMs como PHP Eloquent o Java Hibernate.
 
+
 ## ¿Porqué usar un ORM?
 
 Los ORM han ganado popularidad debido a que lidiar con el lenguaje SQL directamente requiere de mucho esfuerzo en la mayoría de los casos. El objetivo del ORM entonces es simplificar la mantención de tus datos.
@@ -73,10 +74,6 @@ class Person(Base):
   ```
 
 ### INSERT: Insertando un registro en la base de datos
-
-
-Todo lo que tienes que hacer es crear un nuevo objeto Person, agregarlo a la sesión de la base de datos y realizar commit.
-Reemplazar `<username_value>` y `<email_value>` con los valores reales que deseas agregar.
 
 ```py
 person = Person(username=<username_value>, email=<email_value>)

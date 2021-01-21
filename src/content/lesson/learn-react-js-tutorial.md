@@ -95,6 +95,7 @@ class MyBigComponent extends React.Component{
 | :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
 
 
+
 // implied is that there is a container div with the id 'app' in your original website's HTML body  
 ReactDOM.render(<MyBigComponent />, document.querySelector('#app'));
 // your entire react application will be inserted into that div
@@ -172,6 +173,7 @@ export class MyCard extends React.Component{
 
 
 
+
 ### Doing Website Layouts with React
 
 A "Layout" in React is basically the combination of two or more components (referred to as **components**) into a parent component (referred to as a **view**).  
@@ -197,7 +199,6 @@ export class EntireWebsiteLayout extends React.Component{
 ```
 [[warning]]
 | :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
-
 
 Those components which serve to hold the layout of each of your web pages, and are not re-used for anything else is what we will call "Views", and the typical components that we can re-use multiple times with different input (like a card or a button component) we will call "Components" in the organization of our application's folders.
 
