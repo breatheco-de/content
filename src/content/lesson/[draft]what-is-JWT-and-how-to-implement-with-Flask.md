@@ -1,6 +1,6 @@
 ---
 title: "Understanding JWT and how to implement a simple JWT with Flask"
-subtitle: ""
+subtitle: "One of the challenges for any RESTful API is having a good authentication strategy!"
 cover_local: "../../assets/images/http-0.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
@@ -24,3 +24,30 @@ A handshake between two computers has three possible outcomes:
 + Connection accepted : The system that recieves the handshake is available, it receives the request and accepts the connection
 
 For example, USB connections between computers and devices use handshakes to verify data has been received or not, or to check if the device needs user intervention to continue.
+
+## What is JWT?
+
+Json Web Token or JWT is an open standard to create tokens for get authenticated on an Application. 
+
+First the server creates a token to verify the user identity and it is sent to the client. Then the token is sent back to the server so that server remembers the user's identity in every following request coming from a certain entity.
+
+This standard has become quite popular since it's very effective for Web Apps like Google APis, where after the user authentication you make API requests. 
+
+ JSON Web Token is a type of token that includes a structure, which can be decrypted by the server that allows you to authenticate the identity of the user of that application.
+
+[picture of the structure]
+
+You may notice that the string is divided in three sections separated by a (.). Each section has it meaning:
+
+1.	HEADER: The first part stores the type of token and the encryption algorithm.
+2.	PAYLOAD: The second part has the data that identifies the user: it can be its ID, user name, etc.
+3.	SIGNATURE: The last part is the digital signature, which is generated with the previous two sections, and it allows you to verify if the content has been modified.
+
+
+
+
+
+
+
+
+
