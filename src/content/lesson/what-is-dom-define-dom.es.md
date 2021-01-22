@@ -174,7 +174,8 @@ Digamos que seleccionaste un `<div>` con el id = **"myFirstId"** y quieres agreg
 
 **Puedes usar la función appendChild así:**
 
-```javascript
+```
+javascript
 var divElem = document.getElementById("myFirstDiv");
 var myNewHOne = document.createElement("H1");
 var t = document.createTextNode("Hello World");
@@ -231,7 +232,7 @@ element.attribute = "whatever";
 ## Cambiando los Estilos
 ***
 
-También Puedes cambiar cualquier regla o propiedad CSS aplicada a los elementos HTML utilizando el atributo **.style**, como este:
+También puedes cambiar cualquier regla o propiedad CSS aplicada a los elementos HTML utilizando el atributo **.Style**, como este:
 
 ```javascript
 // cambiando estilos 
