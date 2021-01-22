@@ -1,3 +1,4 @@
+---
 slug: "How to create unit testing with JEST"
 title: "How to create unit testing with JEST"
 subtitle: ""
@@ -6,3 +7,4 @@ textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["Jest"]
 status: "draft"
+---
