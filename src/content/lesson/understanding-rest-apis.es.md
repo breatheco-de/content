@@ -33,7 +33,7 @@ Cada API consta de 3 componentes principales:
 
 |**Funciones/Métodos:**   |**Formato de Comunicación**   |
 |:------------------------|:--------------------------|
-|`python>Haz una llamada`<br>`python>Cuelga una llamada`<br>`python>Hablar con el operador`<br>`python>Marca algo en el teclado`    |Ruido (sonidos)!  Hay un sonido para todo (incluso en los teléfonos modernos). Escucharás un tono cuando realices una llamada,cuando pesionas una tecla, etc. El sistema del teléfono escucha los cambios de tono del sonido.     |
+|`python>Haz una llamada`<br>`python>Cuelga una llamada`<br>`python>Hablar con el operador`<br>`python>Marca algo en el teclado`    |Ruido (sonidos)!  Hay un sonido para todo (incluso en los teléfonos modernos). Escucharás un tono cuando realices una llamada, cuando presionas una tecla, etc. El sistema del teléfono escucha los cambios de tono del sonido.     |
 
 ### ¿Qué pasa con una Aplicación Web?
 

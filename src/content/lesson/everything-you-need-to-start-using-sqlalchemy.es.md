@@ -13,9 +13,11 @@ tags: ["SQL Alchemy","Python"]
 
 ## ¿Qué es SQL Alchemy?
 
-SQL Alchemy es un [Object-Relational Mapper / Mapping-tool](https://en.wikipedia.org/wiki/Object-relational_mapping), o un ORM, es decir una librería que los desarrolladores utilizan para crear bases de datos y manipular sus datos sin la necesidad de conocer / usar SQL.
 
-Existen otras alternativas como SQLAlchemy como Peewee, y otros lenguajes tienen sus propios ORMs como PHP Eloquent o Java Hibernate.
+SQLAlchemy es un [Object-Relational Mapper / Mapping-tool](https://en.wikipedia.org/wiki/Object-relational_mapping), o un ORM, es decir una librería que los desarrolladores utilizan para crear bases de datos y manipular sus datos sin la necesidad de conocer / usar SQL.
+
+Existen otras alternativas como SQL Alchemy como Peewee, y otros lenguajes tienen sus propios ORMs como PHP Eloquent o Java Hibernate.
+
 
 ## ¿Porqué usar un ORM?
 
@@ -72,10 +74,6 @@ class Person(Base):
   ```
 
 ### INSERT: Insertando un registro en la base de datos
-
-
-Todo lo que tienes que hacer es crear un nuevo objeto Person, agregarlo a la sesión de la base de datos y realizar commit.
-Reemplazar `<username_value>` y `<email_value>` con los valores reales que deseas agregar.
 
 ```py
 person = Person(username=<username_value>, email=<email_value>)

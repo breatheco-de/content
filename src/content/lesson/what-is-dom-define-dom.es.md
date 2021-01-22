@@ -46,12 +46,11 @@ No importa donde escribas el código. Lo único que importa es que esté dentro 
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/">Haz clic aquí para abrir la demo en una nueva ventana</a></small></div>
 
-
 ## ¡El DOM es Espectacular!
 ***
 
-Desde el momento en que un sitio web comienza a cargarse, el navegador crea una jerarquía que se llama The DOM. Cada elemento HTML que programaste en su documento HTML como desarrollador, tiene un lugar en esa jerarquía y puedes acceder a él utilizando JavaScript en cualquier momento durante el tiempo de ejecución.
 
+Desde el momento en que un sitio web comienza a cargarse, el navegador crea una jerarquía que se llama The DOM. Cada elemento HTML que programaste en su documento HTML como desarrollador, tiene un lugar en esa jerarquía y puedes acceder a él utilizando JavaScript en cualquier momento durante el tiempo de ejecución.
 
 + Cada elemento HTML tiene un objeto en la jerarquía de documentos.
 + El DOM se genera durante el tiempo de ejecución.
@@ -61,8 +60,7 @@ Desde el momento en que un sitio web comienza a cargarse, el navegador crea una 
 
 <iframe width="578" height="325" src="https://www.youtube.com/embed/Ibxagg2ep5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<div align="right"><small><a href="https://www.youtube.com/embed/Ibxagg2ep5g">Haz clicaquñi para abrir la demo en una nueva ventana</a></small></div>
-
+<div align="right"><small><a href="https://www.youtube.com/embed/Ibxagg2ep5g">Haz clic aquí para abrir la demo en una nueva ventana</a></small></div>
 
 ## ¿Cómo accedo a cualquier objeto en el DOM?
 ***
@@ -98,12 +96,10 @@ var howManyElements = myList.length;
 myList[0].style.color = "red";   // el primero será rojo 
 
 var myList = document.getElementsByClassName("abc");
-
 myList[0].style.color = "red";   // el primero será rojo  
 
 var xyz = document.getElementsByName("xyz");
 xyz[0].style.color="red";   // el primero será rojo 
-
 ```
 
 ## Accediendo al Hijo del elemento
@@ -111,10 +107,10 @@ xyz[0].style.color="red";   // el primero será rojo
 
 Es muy común tener que cambiar el hijo de un elemento. Por ejemplo:
 
-
 + Actualizar todos los LI hijos de una UL especifica para hacer que su fondo sea rojo.
 + Eliminar la primera fila `<tr>` de una `<table>`.
 + Ocultar a todos los hijos con una clase específica.
+
 
   
 La mejor manera de recuperar los elementos secundarios de cualquier elemento DOM es mediante el uso de sus propiedades childNodes de esta forma:
@@ -130,9 +126,7 @@ x.querySelector(".random").style.background = "green";
 
 var x = document.getElementById("myDIV");
 x.querySelector("h3,h2").style.background = "blue";
-// busca el primer hijo de #myDIV con la etiqueta h3 o h2 
-
- 
+// busca el primer hijo de #myDIV con la etiqueta h3 o h2  
 var tableElm = document.getElementById("people");
 var trArray = tableElm.querySelectorAll("tr");
 trArray[3].style.background = "red";
@@ -143,11 +137,10 @@ trArray[3].style.background = "red";
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/">Haz clic aquí para abrir una demo en una nueva ventana</a></small></div>
 
-
 ## The innerHTML
 ***
 
-Como ya sabes, cada elemento del documento HTML puede tener algún tipo de contenido HTML. No importa si es un `<P>`, `<DIV>`, `<A>` o cualquier otro elemento HTML; puede tener su propio innerHTML combinado con más contenido HTML.
+Como ya sabe, cada elemento del documento HTML puede tener algún tipo de contenido HTML. No importa si es un `<P>`, `<DIV>`, `<A>` o cualquier otro elemento HTML; puede tener su propio innerHTML combinado con más contenido HTML.
 
 ![qué es el dom](../../assets/images/2387325b-338c-4c18-bb0f-2f95ed28901f.png)
 

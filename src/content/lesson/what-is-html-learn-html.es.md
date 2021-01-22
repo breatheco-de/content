@@ -48,7 +48,7 @@ Una vez definida la  `<tag>`, podemos describir con más detalle su comportamien
 
 
 
-En teoría,tu debes utilizar [una de estas tags](https://breatheco.de/en/lesson-asset/html5-cheat-sheet/), no puedes inventar tus propias etiquetas porque el navegador no sabría cómo interpretarlas. Sí, debes el significado de cada**tag HTML** para utilizarlas sabiamente… ¡pero no te preocupes que no hay muchas! 🙂
+En teoría,tu debes utilizar [una de estas tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true), no puedes inventar tus propias etiquetas porque el navegador no sabría cómo interpretarlas. Sí, debes el significado de cada**tag HTML** para utilizarlas sabiamente… ¡pero no te preocupes que no hay muchas! 🙂
 
 Para el headinf principal o título más grande se utiliza la etiqueta `<h1>`. Por ejemplo: una tienda en línea podría tener una sección para la categoría de electrónicos, en ese caso un título coherente seria “Artículos Electrónicos” y la tag  `<h1>` lo escribiríamos de la siguiente manera:
 
