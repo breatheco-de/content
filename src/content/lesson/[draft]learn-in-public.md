@@ -53,4 +53,6 @@ Nobody is! I've been coding for 20 years and I still think I'm no expert, by sho
 
 You don't do it all, you can just pick one or two things you might enjoy doing. Even if you are learning privatley you have to take notes and finish the coding projects and challenges, why not taking some extra time to publish them? I think it's 100% worth your time, I hope I made my case.
 
+## Keep it up!
 
+If you want to read more about Learning in public I recomend reading [this article and all the amazing sources mentioned at the end of that article](https://www.swyx.io/learn-in-public/).
