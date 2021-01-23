@@ -86,3 +86,9 @@ Additionally these are good technologies that we don't teach during the 16 weeks
 ```
 Unit testing, jQuery, Gatsby.js, SSR, AWS, Firbase, WordPress, React Native.
 ```
+
+
+## Aditional resources:
+
+- Create your resume online, for free: [FlowCV.com](https://flowcv.io/)
+Great resume template with amazing tips: [FullStackResume.com](https://www.fullstackresume.com/)
