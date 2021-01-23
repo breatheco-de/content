@@ -88,7 +88,7 @@ Unit testing, jQuery, Gatsby.js, SSR, AWS, Firbase, WordPress, React Native.
 ```
 
 
-## Aditional resources:
+## Additional resources:
 
 - Create your resume online, for free: [FlowCV.com](https://flowcv.io/)
-Great resume template with amazing tips: [FullStackResume.com](https://www.fullstackresume.com/)
+- Amazing resume tips: [FullStackResume.com](https://www.fullstackresume.com/)
