@@ -138,7 +138,7 @@ If you use the COMMIT command though the changes to your database are permanent.
 
 It restores the database to last your last COMMIT. You can also use it with SAVEPOINT command to jump to a savepoint in a ongoing transaction.
 
-Also, if you use UPDATE to make changes to your database, you can undo them by using the ROLLBACK COMMAND but only if you haven't commited those changes like this:
+Also, if you use UPDATE to make changes to your database, you can undo them by using the ROLLBACK command but only if you haven't commited those changes like this:
 
 
 ```jsx
@@ -150,12 +150,12 @@ This command is used to temporarily to save a transaction so that you can go bac
 ```jsx
 SAVEPOINT savepoint_name;
 ```
-So when we use this command we can **name** the different states of our database with the ROLLBACK command whenever we need to.
+So when we use this command we can **name** the different states of our database and go back to them with the ROLLBACK command whenever we need to. 
 
 ![SQL](../../assets/images/sql-1.png)
 
 Now let's say we go out to have some pizza. Our pizza comes with three ingredients basic ingredients:
-mozzarella, tomato, olives. Our table would look like this and its name its 'PIZZA': 
+mozzarella, tomato, olives. Our table called 'PIZZA' would look like this: 
 
 ![SQL](../../assets/images/sql-2.png)
 
@@ -177,7 +177,7 @@ SAVEPOINT B
 INSERT INTO class PIZZA (6, 'bacon')
 ```
 
-Now our 'Pizza' has the following ingredients:
+Now our 'PIZZA' has the following ingredients:
 
 ![SQL](../../assets/images/sql-3.png)
 
