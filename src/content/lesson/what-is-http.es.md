@@ -1,6 +1,7 @@
 ---
 title: "¿Què es HTTP?"
 subtitle: "HTTP quiere decir Hypertext Transfer Protocol, o en español, Protocolo de Transferencia de Hipertexto. Se trata de un conjunto de reglas de comunicación que posibilita la circulación de información a través de la World Wide Web (WWW)."
+
 cover_local: "../../assets/images/http-0.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
@@ -10,17 +11,27 @@ status: "published"
 ---
 
 
-
 # ¿Qué es HTTP?
 
-"HTTP quiere decir Hypertext Transfer Protocol, o en español, Protocolo de Transferencia de Hipertexto. Se trata de un conjunto de reglas de comunicación que posibilita la circulación de información a través de la World Wide Web (WWW).""
+
+Como era de esperarse, si vas a transmitir documentos todo lo que necesitas es texto. Cuando haces páginas web todo corre bajo el protocolo HTTP (The Hypertext Transfer Protocol) que es un especialista en la transmisión de texto.
 
 Básicamente, es un protocolo de transferencia de texto que opera a través de solicitudes entre un cliente y un servidor. HTTP es el término utilizado para describir este sencillo lenguaje basado en texto. No importa cómo se desarrolle, el objetivo del servidor será siempre entender y devolver respuestas de texto sencillo.
 
++ La foto se convierte en texto (un texto que, en este momento, no vas a poder entender).
++ Se transmite a través de internet como texto. Si un hacker intercepta esto, lo que verían es un conjunto de símbolos / letras / números uno tras otro.
++ Esa cadena de caracteres llega a la computadora de tu abuela.
++ Tu abuela hace doble clic en la foto y el programa que está usando para ver la foto transforma ese texto nuevamente en una imagen comprensible para un humano.
 
-  ![what is http?](../../assets/images/http-3.png)
 
-## ¿Cómo funciona HTTP?
+![HTTP](../../assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif)
+  
+
+<small style="color:grey">Imagen 1: Los 4 pasos necesarios para enviar imágenes a través de Internet: primero se convierte en texto, luego viaja, luego llega a la computadora de la abuela, la abuela abre la imagen y la imagen muestra ... ¡finalmente, la abuela está feliz mirando a su nieto! </small>
+
+# ¿Cómo funciona HTTP?
+
+![HTTP](../../assets/images/http-3.png)
 
 Este protocolo funciona a través de solicitudes y respuestas el cliente (por ejemplo, un navegador de internet) y un servidor (por ejemplo, los computadores en donde residen sitios web). 
 

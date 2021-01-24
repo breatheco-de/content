@@ -2,7 +2,7 @@
 title: "Using javascript to sort a list"
 subtitle: "Nobody manually sorts lists anymore, but it is still a fantastic way to master your algorithmic skills"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
-status: "draft"
+status: "published"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["sorting","algorithms","javascript"]

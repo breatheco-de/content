@@ -5,7 +5,7 @@ cover_local: "../../assets/images/092d375f-89c9-4cc9-8aa7-8cc4d1230179.jpeg"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["front-end"]
-status: "draft"
+status: "published"
 
 ---
 
