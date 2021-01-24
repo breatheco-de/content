@@ -7,7 +7,7 @@ authors: ["Guensie"]
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["fetch","ajax","http"]
-status: "draft"
+status: "published"
 
 ---
 

@@ -6,7 +6,7 @@ textColor: "white"
 thumb: "https://breatheco.de/wp-content/uploads/2017/03/commit-object.png"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["GIT","como usa GIT"]
-status: "draft"
+status: "published"
 
 ---
 
