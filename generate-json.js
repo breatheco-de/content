@@ -36,7 +36,7 @@ const buildLessonsData = (lessons) => lessons
     const content = fs.readFileSync(lesson, 'utf8');
     const { title, date, tags, status, subtitle, authors } = fm(content).attributes;
     
-    if(!title) throw new Error('Missing title');
+    if(!title) throw new Error('Missing title on '+lesson);
     if(!date) throw new Error('Missing date on '+title);
     if(!tags) throw new Error('Missing tags'+title);
     

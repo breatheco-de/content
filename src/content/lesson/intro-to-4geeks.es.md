@@ -7,7 +7,6 @@ status: "published"
 tags: ["best practices"]
 authors: ["alesanchezr"]
 date: "2020-10-19T16:36:31+00:00"
-
 ---
 
 ¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor lean hasta el final, ¡trataré de no aburrirlos!

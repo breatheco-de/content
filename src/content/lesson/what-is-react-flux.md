@@ -86,6 +86,10 @@ class MyActions extends Flux.Actions{
     }
 }
 ```
+[[warning]]
+| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+
+
 
 #### 3) Update the store to handle that new dispatched action
 
@@ -124,6 +128,10 @@ class TodoStore extends EventEmitter {
   ...
 }
 ```
+
+[[warning]]
+| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+
 
 ## The Result
 ***
