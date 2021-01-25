@@ -126,4 +126,100 @@ person.name = "Bob"
 db.session.commit()
 ```
 
+## Transacciones
+
+A transaction es una secuencia de operaciones (como por ej. INSERT, UPDATE, SELECT) realizadas en tu base de datos. Para que una transacción esté completa un cierta cantidad de operaciones dentro de un grupo deben ser exitosas. Si una operación falla, toda la transacción falla.
+
+Las transacciones tienen las siguientes 4 propiedades estándar (conocidas como propiedades ACID: español significa Atomicidad, Consistencia, Aislamiento y Durabilidad )
+
+![Transactions](../../assets/images/tran-1.png)
+
+Una transacción termina con COMMIT o ROLLBACK. 
+
+### Comando COMMIT 
+
+El comando COMMIT se usa para guardar de manera permanente los cambios realizados en una transacción dentro de la base de datos. 
+
+Cuando usas INSERT, UPDATE o DELETE, los cambios realizados con estos comando no son permanentes, los cambios hechos poes estos comando pueden desahacerse o "podemos volver atrás".
+
+Pero usas el comando COMMIT los cambios en tu base de datos serán permanentes.  
+
+### Comando ROLLBACK 
+
+Restaura tu base de datos hasta tu último COMMIT. También puedes usarlo con el comando SAVEPOINT para saltar a un punto que hayas guardado durante una transacción en curso.
+
+
+Del mismo modo, si usas UPDATE para hacer cambios en tu base de datos, puedes deshacerlos usando el comando ROLLBACK pero sólo si aún no has usado el comando COMMIT de esta forma:
+
+
+```jsx
+ROLLBACK TO savepoint_name;
+```
+### Comando SAVEPOINT 
+
+Este comando se usa para guardar temporalmente una transacción para así poder volver a cierto punto utilizando el comando ROLLBACK si así lo necesitas, puedes usarlo así:
+
+```jsx
+SAVEPOINT savepoint_name;
+```
+Cuando usas este comando puedes ponerle un **name** o nombre a los diferente estados de tu base de datos y así usar el comando ROLLBACK cuando quieras.
+
+![SQL](../../assets/images/sql-1.png)
+
+Digamos que vamos a comer pizza y nuestra pizza tiene tres ingredientes de base:
+mozzarella, tomate y aceitunas.  Nuestra tabla se llamaria 'PIZZA' y se vería de la siguiente manera:
+
+![SQL](../../assets/images/sql-2.png)
+
+Pero tenemos una lista de ingredientes extra que podemos añadirle: escogemos carne pero luego cambiamos de parecer y queremos champiñones. También nos gustaría añadirle pepperoni y tocino. Veamos como se vería nuestra transacción:
+
+
+```jsx
+INSERT INTO class PIZZA(4, 'meat');
+
+COMMIT; 
+
+UPDATE class SET ingredient = 'mushrooms' WHERE id '4'
+
+SAVEPOINT A;
+
+INSERT INTO class PIZZA (5, 'pepperoni')
+
+SAVEPOINT B
+
+INSERT INTO class PIZZA (6, 'bacon')
+```
+
+Ahora nuestra 'Pizza' tiene los siguientes ingredientes has the following:
+
+![SQL](../../assets/images/sql-3.png)
+
+Ahora acabamos de decir que ya no queremos tocino, asi que usamos ROLLBACK:
+
+```jsx
+ROLLBACK TO B;
+```
+y nuestra 'PIZZA' se ve así:
+
+![SQL](../../assets/images/sql-4.png)
+
+....me ha dado habre luego de leer esta lección ¿¿tú no tienes hambre??
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 

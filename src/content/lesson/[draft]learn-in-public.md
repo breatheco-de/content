@@ -11,13 +11,13 @@ canonical: ""
 ---
 
 If you are interested in learning to code efficiently but fast, you should do it in public, this is not a theory but a fact.  
-In this article I'm going to try explain why  it works and how you can do it.
+In this article I'm going to try explain why it works and how you can do it.
 
 ## What is Learn In Public
 
-Learning in private: The traditional educational system is design to be a private experience, you read books, attend to class, complete projects and assesments, and you graduate at some point, we are so used to this workflow that its already embeded into our student heart.
+Learning in private: The traditional educational system is designed to be a private experience, you read books, attend to class, complete projects and assesments, and you graduate at some point, we are so used to this workflow that its already embeded into our student heart.
 
-When learning in public you make social media your notebook and discussion forum, you write about what you just learn in different ways like blog posts, tweets, newsletters, drawings, meme's, etc.
+When you learn in public you make social media, your notebook and discussion forum, you write about what you just learn in different ways like blog posts, tweets, newsletters, drawings, meme's, etc.
 
 ## Why is this so important?
 
@@ -43,7 +43,7 @@ When learning in public you make social media your notebook and discussion forum
 
 ### I don't have anything to say
 
-I really doubt that, learning to code is hard and people read a lot about it and need emotional support, just with your testimonial you are helping and lot's of people will be interested in learning more about your story.
+I really doubt that, learning to code is hard and people read a lot about it and they need emotional support, just like with your testimonial you are helping and lot's of people who will be interested in learning more about your story.
 
 ### I'm no expert
 
@@ -51,7 +51,9 @@ Nobody is! I've been coding for 20 years and I still think I'm no expert, by sho
 
 ### I don't have time
 
-You don't do it all, you can just pick one or two things you might enjoy doing. Even if you are learning privatley you have to take notes and finish the coding projects and challenges, why not taking some extra time to publish them? I think it's 100% worth your time, I hope I made my case.
+You don't do it all, you can just pick one or two things you might enjoy doing. Even if you are learning privately you have to take notes and finish coding projects and challenges, why not taking some extra time to publish them? I think it's 100% worth your time.
+
+I hope I made my case!!
 
 ## Keep it up!
 
