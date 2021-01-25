@@ -55,7 +55,7 @@ let feelsLikeHitByTrain = true;
 let youWereHitByTrain = false;
 
 if(feelsLikeHitByTrain == true){
-  if(youWasHitByTrain == true){
+  if(youWereHitByTrain == true){
     console.log("You don't have a flu");
   }
   else{
