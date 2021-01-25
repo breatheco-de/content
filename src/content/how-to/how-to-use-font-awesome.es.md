@@ -3,7 +3,7 @@ title: "Cómo usar font awesome"
 subtitle: "Font Awesome es una de las librerías de iconos gratis más populares en el mundo del desarrollo front-end"
 thumb: "https://i.imgur.com/QKASHj1.png"
 textColor: "white"
-date: "2020-10-19T12:36:30-04:00"
+date: "2020-10-19T16:36:30+00:00"
 tags: ["font-awesome"]
 status: "published"
 authors: ["alesanchezr"]

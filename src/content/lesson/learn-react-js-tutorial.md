@@ -3,9 +3,9 @@ title: "Learn React Here : React Js Tutorial"
 subtitle: "React is a front-end library ideal for creating interfaces (generate HTML+CSS). It's the fastest, most advanced and most wanted library in the market right now. Don't stay behind, learn React JS here with this React JS tutorial"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["reactjs"]
-status: "pubished"
+status: "published"
 
 ---
 
@@ -91,6 +91,11 @@ class MyBigComponent extends React.Component{
     return (<div>Hello World<div>);
 }
 
+[[warning]]
+| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+
+
+
 // implied is that there is a container div with the id 'app' in your original website's HTML body  
 ReactDOM.render(<MyBigComponent />, document.querySelector('#app'));
 // your entire react application will be inserted into that div
@@ -163,7 +168,10 @@ export class MyCard extends React.Component{
     }
 }
 ```
-More details on functional vs class components are explored in the following lessons.
+[[warning]]
+| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+
+
 
 
 ### Doing Website Layouts with React
@@ -189,6 +197,8 @@ export class EntireWebsiteLayout extends React.Component{
     }
 }
 ```
+[[warning]]
+| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
 
 Those components which serve to hold the layout of each of your web pages, and are not re-used for anything else is what we will call "Views", and the typical components that we can re-use multiple times with different input (like a card or a button component) we will call "Components" in the organization of our application's folders.
 
@@ -248,7 +258,8 @@ A real high quality component must communicate with other components only throug
 
 Every component works like a mini-application.  You are able to control and define your component workflow based on a series of available methods that you can declare and code according to your needs.
 
-![learn react js tutorial](../../assets/images/245ba798-e840-42d8-8391-7388159ccfeb.png)
+<!-- ![learn react js tutorial](../../assets/images/245ba798-e840-42d8-8391-7388159ccfeb.png) -->
+<img src="../../assets/images/245ba798-e840-42d8-8391-7388159ccfeb.png">
 
 [[info]]
 |:link:[Here you will find](https://reactjs.org/docs/react-component.html#the-component-lifecycle) a more detailed explanation of each available life-cycle method.

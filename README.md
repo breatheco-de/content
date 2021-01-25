@@ -9,7 +9,7 @@ CMS for the BreatheCode Platform
 
 Here is an API of all  the lessons on the platform: https://content.breatheco.de/static/api/lessons.json
 
-## Requierments
+## Requirements
 
 #### 1) Markdown based
 All the content must be markdown based, to create new articles all you have to do is add a new .md file in markdown syntax.
@@ -20,7 +20,7 @@ The CMS needs to be able to generate URLs with the following format:
 ```
 https://content.breatheco.de/<type of content>/<article id>
 ```
-For exampe:
+For example:
 ```
   https://content.breatheco.de/lesson/html_explained
   https://content.breatheco.de/error/query_selector_missing_id
@@ -49,11 +49,11 @@ There are two types of tags: Technology and Category.
 A small command-line tool has been developed to help manage the lessons
 
 ```
-node ./src/utils/cli.js update_lesson --slug all --statusTo draft --statusFrom null
-node ./src/utils/cli.js update_lesson --slug learn-html --statusTo draft --statusFrom null
-node ./src/utils/cli.js download_images --slug python-syntax --type external_images
-node ./src/utils/cli.js localize_images --slug python-syntax --type external_images
-node ./src/utils/cli.js sanitize_lesson --slug all
+$ node ./src/utils/cli.js update_lesson --slug all --statusTo draft --statusFrom null
+$ node ./src/utils/cli.js update_lesson --slug learn-html --statusTo draft --statusFrom null
+$ node ./src/utils/cli.js download_images --slug python-syntax --type external_images
+$ node ./src/utils/cli.js localize_images --slug python-syntax --type external_images
+$ node ./src/utils/cli.js sanitize_lesson --slug all
 ```
 
 #### Method: sanitize_lesson

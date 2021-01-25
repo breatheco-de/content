@@ -3,7 +3,7 @@ title: "¿Qué es HTML? Es tiempo de aprender HTML y su estructura"
 subtitle: "Pero ¿qué es HTML realmente? HTML es para las páginas web lo que son los pilares para los edificios.  Aqui aprenderás lo básico de HTML - la base de la web."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["html"]
 status: "published"
 
@@ -48,7 +48,7 @@ Una vez definida la  `<tag>`, podemos describir con más detalle su comportamien
 
 
 
-En teoría,tu debes utilizar [una de estas tags](https://breatheco.de/en/lesson-asset/html5-cheat-sheet/), no puedes inventar tus propias etiquetas porque el navegador no sabría cómo interpretarlas. Sí, debes el significado de cada**tag HTML** para utilizarlas sabiamente… ¡pero no te preocupes que no hay muchas! 🙂
+En teoría,tu debes utilizar [una de estas tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true), no puedes inventar tus propias etiquetas porque el navegador no sabría cómo interpretarlas. Sí, debes el significado de cada**tag HTML** para utilizarlas sabiamente… ¡pero no te preocupes que no hay muchas! 🙂
 
 Para el headinf principal o título más grande se utiliza la etiqueta `<h1>`. Por ejemplo: una tienda en línea podría tener una sección para la categoría de electrónicos, en ese caso un título coherente seria “Artículos Electrónicos” y la tag  `<h1>` lo escribiríamos de la siguiente manera:
 

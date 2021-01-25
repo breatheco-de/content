@@ -3,7 +3,7 @@ title: "Enrutando nuestras vistas con React Router"
 subtitle: "Crea la estructura de tu aplicación y conecta tus vistas con React Router"
 cover_local: "../../assets/images/8c053abc-2f09-47e9-b586-751538d180c4.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["reactjs","react router"]
 status: "published"
 

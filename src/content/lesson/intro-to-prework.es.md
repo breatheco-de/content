@@ -3,7 +3,7 @@ title: "Introducción al Pre Work"
 subtitle: "Nosotros sabemos lo que hacemos, tu deberias saberlo también.  Conoce el proceso que hemos pulido para que puedas aprender 2 años de contenido en unas pocas semanas."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["prework"]
 status: "published"
 
@@ -49,7 +49,7 @@ Si te sientes abrumado y confundido, <span style="color:#993300">**¡¡pide ayud
 
 ### Por Favor Pide Ayuda!
 
-¿Has leído sobre Einstein?  Las personas realmente inteligentes son las que siempre hacen más preguntas. No tienen miedo a no saber o cometer errores. La única manera en que realmente podemos ayudarte es si nos pides ayuda. Para poder hacerlo, cuando estés estancado y hayas intentado resolver tu duda por tu cuenta durante algunos minutos, pregunta en nuestro canal de Slack [#Public_Support](https://4geeksacademy.slack.com/archives/CAZ9W99U4), pero antes lee estos consejos sobre [¿Cómo hacer preguntas de programación?](https://content.breatheco.de/es/how-to/ask.es). 
+¿Has leído sobre Einstein?  Las personas realmente inteligentes son las que siempre hacen más preguntas. No tienen miedo a no saber o cometer errores. La única manera en que realmente podemos ayudarte es si nos pides ayuda. Para poder hacerlo, cuando estés estancado y hayas intentado resolver tu duda por tu cuenta durante algunos minutos, pregunta en nuestro canal de Slack [#Public_Support](https://4geeksacademy.slack.com/archives/CAZ9W99U4), pero antes lee estos consejos sobre [¿Cómo hacer preguntas de programación?](https://content.breatheco.de/how-to/ask). 
 
 Si al preguntar aún no has resuelto tus dudas ¡no te preocupes! Si estás inscrito en nuestros programas de 9 o 16 semanas, tendrás acceso a mentorías ilimitadas, [mira aquí cómo funcionan](https://storage.cloud.google.com/4geeks-academy-website/syllabus/madrid-spain/madrid-infografia-mentorias.pdf)
 

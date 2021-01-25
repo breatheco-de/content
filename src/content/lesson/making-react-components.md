@@ -3,7 +3,7 @@ title: "Creating React Components"
 subtitle: "React.js bread and butter. Become a master in React Components and you have conquered the front-end world of React."
 cover_local: "../../assets/images/84c4d84c-51b9-4906-a572-71cc07ecfc8c.jpeg"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["reactjs"]
 status: "published"
 
@@ -31,6 +31,9 @@ class Navbar extends React.Component{
     }
 }
 ```
+[[warning]]
+| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+
 
 ## Using a Component
 
@@ -210,6 +213,11 @@ ReactDOM.render(
 
 ```
 
+[[warning]]
+| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+
+
+
 ## Features of `function` components
 
 Functional components are simplified React components originally intended for presentational purposes. 
@@ -263,20 +271,20 @@ You can switch from one type of declaration to the other without any pain!  Here
 
 ### Component Simplicity
 
-|As a **Function**     |As a **Class**   |
-|:--------:|:---------:|
-|Very simple declaration and usage.  The only purpose of the function is to return an HTML with whatever this component is supposed to display when placed on the website.      |More complex – the class declaration needs to inherit from React.Component and it contains a lot more functionalities that lets the developer customize the component logic like life-cycle methods and the state.   Please consider that you can create as many additional class methods as you like.         |
+As a **Function**     
+|Very simple declaration and usage.  The only purpose of the function is to return an HTML with whatever this component is supposed to display when placed on the website.     
+
+As a **Class** More complex – the class declaration needs to inherit from React.Component and it contains a lot more functionalities that lets the developer customize the component logic like life-cycle methods and the state.   Please consider that you can create as many additional class methods as you like.         |
 
 ### Component Declaration 
-```javascript    
+```jsx
 // using functions 
 function MyComponent(){
     return Hello;
 }
 // or using arrow functions
 const MyComponent = () => Hello;
-```
-```js
+
 // using classes
 import React from 'react';
 class MyComponent extends React.Component{
@@ -285,24 +293,74 @@ class MyComponent extends React.Component{
     }
 }
 ```
-
 ### Component State
 
-|As a **Function**     |As a **Class**   |
-|:--------:|:---------:|
-|Each variable should be declared using the useState Hook inside the function    |The state should be declared on the constructor and then use the function `this.setState` to update it.<br> <br> `python>class MyComponent{`<br>&nbsp; &nbsp;    `python>constructor(){`<br> &nbsp; &nbsp; &nbsp; &nbsp;`python> super();`<br> &nbsp; &nbsp; &nbsp; &nbsp; `python>python>this.state = {`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>foo: "var"`<br> &nbsp; &nbsp; &nbsp; &nbsp;` python>}`<br> &nbsp; &nbsp; `python>}`<br>`python>}`         |
+As a **Function**:     
+
+Each variable should be declared using the useState Hook inside the function    
+
+As a **Class**:
+
+The state should be declared on the constructor and then use the function `this.setState` to update it.
+
+```jsx
+ MyComponent{
+     constructor(){
+        super();
+        this.state = {
+        foo: "var"
+        }
+      }  
+ } 
+```
 
 ### Component Properties
 
-|As a **Function**     |As a **Class**   |
-|:--------:|:---------:|
-|Properties are received as the first function parameter like this:<br><br>`python>function MyComponent(props){`<br> &nbsp;  &nbsp; &nbsp; &nbsp; `python>return Hello {props.name};` <br> `python>}`       |The properties are inside the class variable this.props, and you can reference it anywhere like this:<br><br> `python>class MyComponent{`<br> &nbsp; &nbsp; &nbsp; `python>render(){`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>return Hello {this.props.name};`<br> &nbsp; &nbsp; &nbsp; `python>}`<br>`python>}`      |
+As a **Function** :    
+
+Properties are received as the first function parameter like this:
+
+```jsx
+function MyComponent(props){
+    return Hello {props.name};
+}
+```         
+
+As a **Class** :
+
+The properties are inside the class variable this.props, and you can reference it anywhere like this:
+
+```jsx
+class MyComponent{
+    render(){
+        return Hello {this.props.name};
+    }
+}   
+```
+
 
 ### Life-cycle Methods
 
-|As a **Function**     |As a **Class**   |
-|:--------:|:---------:|
-|Use the useEffect hook for the life cicle. [More information here](https://content.breatheco.de/lesson/react-hooks-explained).    |You have all the methods available with these being the most important ones: Constructor, ComponentDidMount (or useEffect for Hooks), ComponentWillUnmount (or useEffect for Hooks), etc.<br> <br> You can declare inside your component class those methods and they will magically be called by React at the right time, just like this:<br> <br> `python>class MyComponent{`<br> &nbsp; &nbsp; &nbsp; `python>constructor(){`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>super();`<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>//initialize your state` <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `python>this.state = {}`<br> &nbsp; &nbsp; &nbsp; `}`<br> &nbsp; &nbsp; &nbsp; `python>componentDidMount(){  //do something to the state here }` <br> &nbsp; &nbsp; &nbsp; `python>componentWillUnmount(){  //best place to remove listeners }` <br> &nbsp; &nbsp; &nbsp; `python>static getDerivedStateFromProps(nextProps, prevState){ //return the updated state } `<br> &nbsp; &nbsp; &nbsp; `python>//there are many more lifecycle methods` <br> `python>}`        |
+As a **Function**:     
+
+Use the useEffect hook for the life cicle. [More information here](https://content.breatheco.de/lesson/react-hooks-explained).    
+
+As a **Class**:
+
+You have all the methods available with these being the most important ones: Constructor, ComponentDidMount (or useEffect for Hooks), ComponentWillUnmount (or useEffect for Hooks), etc.<br> <br> You can declare inside your component class those methods and they will magically be called by React at the right time, just like this:
+
+```jsx
+class MyComponent{
+    constructor(){
+        super();
+        this.state = { //initialize your state }
+        }
+       componentDidMount(){  /* do something to the state here */ }
+      componentWillUnmount(){  /* best place to remove listeners */ }
+      static getDerivedStateFromProps(nextProps, prevState){ /* return the updated state */ } 
+      //there are many more lifecycle methods
+    }
+```              
 
 [[info]]
 |:link: Here you can find [more information about all the React JS lifecycle methods.](https://reactjs.org/docs/react-component.html#the-component-lifecycle)

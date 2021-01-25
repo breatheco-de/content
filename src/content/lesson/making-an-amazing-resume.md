@@ -2,7 +2,7 @@
 title: "Making an amazing resume"
 subtitle: "The Art of getting interviews its 60% about the resume, let's make it shine!"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["career support"]
 status: "published"
 
@@ -16,11 +16,11 @@ Below is an example of a great resume for you first coding job, during this arti
 
 - [ ] Do not add more than three past work experiences, unless they are really relevant or related to coding.
 - [ ] You need software development experience.
-- [ ] If you dont have coding experience: Start an internship (paid or unpaid) at coding job in a great company or start/join a freelance project.
+- [ ] If you don't have coding experience: Start an internship (paid or unpaid) at coding job in a great company or start/join a freelance project.
 
-### Why starting an intership or freelance project?
+### Why starting an internship or freelance project?
 
-Previous experience makes everything, you need to be able some into your resumé to look better, this is an example of how your freelance job could look like:
+Previous experience makes everything, you need to be able to add some into your resume to look better, and this is an example of how your freelance job could look like:
 
 ```
 Title: 
@@ -39,7 +39,7 @@ If it was a tutoring site, you can say you are focused on edTech.
 
 ## Education
 
-- [ ] If you have a master's degree or bachelor its very good, you can also add the 4Geeks Academy education.
+- [ ] If you have a master's degree or bachelor it's very good, you can also add the 4Geeks Academy education.
 - [ ] Do not add your other small certificates (if any) in this section, that would be a different `certifications` section of the Resume.
 
 ## Certificate
@@ -86,3 +86,9 @@ Additionally these are good technologies that we don't teach during the 16 weeks
 ```
 Unit testing, jQuery, Gatsby.js, SSR, AWS, Firbase, WordPress, React Native.
 ```
+
+
+## Additional resources:
+
+- Create your resume online, for free: [FlowCV.com](https://flowcv.io/)
+- Amazing resume tips: [FullStackResume.com](https://www.fullstackresume.com/)

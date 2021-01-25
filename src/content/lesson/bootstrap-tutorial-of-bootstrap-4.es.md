@@ -3,7 +3,7 @@ title: "Tutorial de Bootstrap: Aprende Bootstrap 4 en 10 minutos"
 subtitle: "Después de decadas de lucha, la luz a llegado !! con este tutorial de Bootstrap, diseñar un sitio web va a ser pan comido.    Es casi estupido, y tambien imposible pensar en hacer un sitio web sin un framework de CSS como Bootstrap 4 ."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:30-04:00"
+date: "2020-10-19T16:36:30+00:00"
 tags: ["bootstrap"]
 status: "published"
 
@@ -263,7 +263,16 @@ La documentación oficial de Bootstrap es increible!! No necesitamos copiar y pe
 + [List of components available to use on your website.](https://getbootstrap.com/docs/4.1/components/alerts/)
 + [Utilities or Helper classes:](https://getbootstrap.com/docs/4.1/utilities/borders/) Very useful and constantly used classes to do stuff like centering the text, centering a column or container, adding a background, etc.
 
+ 
+| :point_up : Versiones de Bootstrap y su descarga: 
 
+Bootstrap tiene varias versiones, siempre verifica que estés usando la última versión de Bootstrap en tu proyecto. Aquí podrás encontrar todas las versiones disponibles:[https://getbootstrap.com/docs/versions/](https://getbootstrap.com/docs/versions/).
+
+
+Te recomendamos que uses el CDN para importar bootstrap en tu archivo HTML, de este modo:
+We recomend using a CDN to import bootstrap in your HTML like this one: [https://www.bootstrapcdn.com/](https://www.bootstrapcdn.com/)
+
+Si estás migrando tu proyecto a nueva versión de Bootstrap, recuerda siempre verificar su documentación.
 
 ## Gana RE2PECT.
 ***
