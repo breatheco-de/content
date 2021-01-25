@@ -26,7 +26,7 @@ Since you have already tested you can reuse it: is clean and effcient and you ca
 
 + Good Unit tests serves as **documentation and defines** what your code is suppose to do.
 
-+ **Unit Testing improves teamwork**. Your will able to follow the logic behind your code and coordinate their code accodingly. By reviewing each other's codes teamwork is more agile.
++ **Unit Testing improves teamwork**. Your will able to follow the logic behind your code and your team will be able coordinate their code accodingly. By reviewing each other's codes teamwork is more agile.
 
 
 
