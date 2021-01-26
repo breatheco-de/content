@@ -9,9 +9,7 @@ status: "draft"
 
 ---
 
-
-
-# The Handshaking Protocol
+## The Handshaking Protocol
 
 Normally a handshake is a greeting between two people. In the same way, a computer handshake serves as a greeting between two computer systems and It is used to initialize a network connection between two hosts.
 
