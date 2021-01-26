@@ -10,11 +10,12 @@ status: "draft"
 
 Humans make mistakes, all the time. As you progress in your development career you will be more in peace with that.
 
-Senior developers understand that their code will have hundreds of bugs and they only way to overcome human nature is by coding code that tests their code.
+Senior developers understand their code will has bugs (no matter how smart you are) and the only way to ship quality is by writing additional code to test the original code, we call that "unit testing", in this articule you will learn why and how to do it.
+
+There are several ways to test your applications, but unit tests are the most powerful tool a developer has to ensure high quality code.
 
 ~![Write Code to test code](../../assets/images/6b4upqv6at321.jpg)
 
-There are several ways to test you applications, but unit tests are the most powerful tool a developer has to ensure high quality code.
  
 ## What is Unit Testing?
 
@@ -25,20 +26,22 @@ Asuming you are building a function that `sums` two numbers like this:
 ```js
 
 function sum(number1, number2){
-    // here goes the implementation fo your function
+    return number1 + number2;
 }
 ```
 
-A great unit test for that funcion only cares that the input matches the expected output: If you pass `12` and `5` to the sum function, it should return `17`.
+A unit test for this funcion only cares about input and output, **With a given input, there should be an expected output**: If you pass `12` and `5` as inputs to the sum function, it should output (return) the number `17`.
+
+The Jest testing framework in Javascript introduces a special function called `expect` to allow us to unit test, here is an example of how to use `expect` to create our unit tests:
 
 ```js
-// this is an example syntax for that test in Javascript
-
-let result = sum(12,5);
-expect(result).toBe(17)
+test('12 and 5 should return 17', () => {
+    let result = sum(12,5);
+    expect(result).toBe(17);
+})
 ```
 
-Note: Unit tests don't care about how the function being tested was build, they only care about the OUTPUT of the function with a give INPUT.
+Note: Unit tests don't care about the content of the `sum` function, it only cares about the OUTPUT of the function with a given INPUT.
 
 ![unit testing examples](../../assets/images/unit-test1.png)
 
