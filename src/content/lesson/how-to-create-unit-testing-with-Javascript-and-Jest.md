@@ -31,7 +31,7 @@ function sum(number1, number2){
 
 A great unit test for that funcion only cares that the input matches the expected output: If you pass `12` and `5` to the sum function, it should return `17`.
 
-```
+```js
 // this is an example syntax for that test in Javascript
 
 let result = sum(12,5);
@@ -72,7 +72,7 @@ function isUpperCase(sentence){
 
 The code to test that function will look something like this:
 
-```
+```js
 test('The string HELLO should return true', () => {
      const result = isUpperCase('HELLO');
      expect(result).toBe(true);
@@ -130,3 +130,16 @@ test('Number shoud return false', () => {
 And here is a live working example:
 
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Unit-Testing-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+## All the possible questions (assertions) you can ask
+
+We have been using `expect(something).toBe(something)` but jest has a lot of possible `expect` functions that will help you with your tests, for example:
+
+| Description | Syntax |
+| ----------- | ------ |
+| Expect the opposite | expect(false).not.toBe(true) |
+| Expect string to contain another string | expect("hello world").stringContaining("world) |
+| Expect variable to be defined | expect(variable_name).toBeDefined() |
+| Expect array to contain another | expect(['a','b','c','e']).toEqual(expect.arrayContaining(['b','c'])) |
+
+Note: [Here you can find all the posible `expect` functions you can use.](https://jestjs.io/docs/en/expect)
