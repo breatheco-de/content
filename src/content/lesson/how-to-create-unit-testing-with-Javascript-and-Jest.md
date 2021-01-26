@@ -14,7 +14,7 @@ Senior developers understand their code will has bugs (no matter how smart you a
 
 There are several ways to test your applications, but unit tests are the most powerful tool a developer has to ensure high quality code.
 
-~![Write Code to test code](../../assets/images/6b4upqv6at321.jpg)
+![Write Code to test code](../../assets/images/6b4upqv6at321.jpg)
 
  
 ## What is Unit Testing?
