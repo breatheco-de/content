@@ -8,9 +8,9 @@ tags: ["Jest"]
 status: "draft"
 ---
 
-Humans make mistakes, all the time. As you progress in your development career you will be more in peace with that.
+Humans make mistakes, all the time. As you progress in your development career you will be more at peace with that.
 
-Senior developers understand their code will has bugs (no matter how smart you are) and the only way to ship quality is by writing additional code to test the original code, we call that "unit testing", in this articule you will learn why and how to do it.
+Senior developers understand their code will has bugs (no matter how smart you are) and the only way to ship quality is by writing additional code to test the original code, we call that "unit testing", in this article you will learn why and how to do it.
 
 There are several ways to test your applications, but unit tests are the most powerful tool a developer has to ensure high quality code.
 
@@ -50,14 +50,14 @@ Note: Unit tests don't care about the content of the `sum` function, it only car
 
 + **you can find and prevent bugs easily** If there is a problem in the future you'll be to identify the cause a lot faster than having to trough all the code. Also your end-user will be very happy not have a buggy product.
 
-+ **Unit Testing saves time....and money** When writing Uni tests you may identify many possible bugs and fix them right away, instead of fixing them in different stages of the product.
++ **Unit Testing saves time....and money** When writing Unit tests you may identify many possible bugs and fix them right away, instead of fixing them in different stages of the product.
 
-+ **Your code is more reliable and reusable** When your code is divided in units or components where each one has their reponsability or function, your code becomes more reliable and it gives you more confidence. 
-Since you have already tested you can reuse it: is clean and effcient and you can migrate your and tests to a new project.
++ **Your code is more reliable and reusable** When your code is divided in units or components where each one has their responsability or function, your code becomes more reliable and it gives you more confidence. 
+Since you have already tested you can reuse it: is clean and efficient and you can migrate your and tests to a new project.
 
 + Good Unit tests serves as **documentation and defines** what your code is suppose to do.
 
-+ **Unit Testing improves teamwork**. Your will able to follow the logic behind your code and your team will be able coordinate their code accodingly. By reviewing each other's codes teamwork is more agile.
++ **Unit Testing improves teamwork**. Your will able to follow the logic behind your code and your team will be able coordinate their code accordingly. By reviewing each other's codes teamwork is more agile.
 
 ## Writing your first unit test with Jest
 
