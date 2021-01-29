@@ -56,7 +56,7 @@ This important property is connected to box model and it defines how the height 
 + If the value is **border-box**, width and height apply to all parts of the elements: content, padding and borders. 
 
 
-<script async src="//jsfiddle.net/BreatheCode/zvL6aet3/2/embed/html,css,result/"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/zvL6aet3/2/embed/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="https://jsfiddle.net/BreatheCode/zvL6aet3/">Click here to open demo in a new window</a></small></div>
 
