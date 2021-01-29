@@ -21,7 +21,7 @@ There are several ways to test your applications, but unit tests are the most po
 
 Unit testing is the process of dividing your code in small functions and testing each of those functions separatly. For example:
 
-Asuming you are building a function that `sums` two numbers like this:
+Asuming you are building a function that `sum` two numbers like this:
 
 ```js
 
@@ -61,7 +61,9 @@ Since you have already tested you can reuse it: is clean and efficient and you c
 
 ## Writing your first unit test with Jest
 
-Jest is the most popular unit testing framework in javascript, used by the biggest companies in the world and it has plugins that integrate amazing with front-end frameworks like React, Vue, Angular, etc.
+Jest is the most popular unit testing framework in javascript, used by big companies like airbnb, twitter, spotify and has plugins that integrate amazingly with front-end frameworks like React, Vue, Angular, etc.
+
+It requires almost 0 configuration to start using it, it is extremely fast and the error or feedback messages are very clear.
 
 ### Example Syntax
 
