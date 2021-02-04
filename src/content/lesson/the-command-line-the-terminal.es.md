@@ -1,10 +1,10 @@
 ---
-title: "La Linea de Comando (conocida como: La Terminal) "
-subtitle: "Los Desarrolladores gastan horas cada día usando la linea de comandos (conocido como: La Terminal). Acepta la realidad y vuélvete más poderoso que nunca"
+title: "La Línea de Comando (conocida como: La Terminal) "
+subtitle: "Los Desarrolladores gastan horas cada día usando la línea de comandos (conocido como: La Terminal). Acepta la realidad y vuélvete más poderoso que nunca"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["linea de comando","la terminal"]
+tags: ["línea de comando","la terminal"]
 status: "published"
 
 ---
@@ -12,7 +12,7 @@ status: "published"
 [[warning]]
 | :point_up: Los usuarios de Windows no tienen la misma línea de comando. Por favor ve a [Cloud 9](https://aws.amazon.com/es/cloud9/?origin=c9io) y trabaja desde allí.
 
-## ¿Por qué los Desarrolladores aman la Linea de Comando?
+## ¿Por qué los Desarrolladores aman la Línea de Comando?
 ***
 
 Al principio, todos odiaban la línea de comando. Tras años de experiencia, se convirtió en un gusto adquirido.
@@ -65,7 +65,7 @@ Hay 4 cosas importantes que notar aquí:
 
 Aquí hay una pequeña selección de los comandos más utilizados por un desarrollador de software.
 
-### El commando `ls` 
+### El comando `ls` 
 
 **El comando de lista**
 
@@ -77,7 +77,7 @@ ls -l ./applications
 # El -l es para recibir una información más detallada sobre los archivos.
 ```
 
-### El commando `cd`
+### El comando `cd`
 
 **El comando para cambiar de directorio**
 
@@ -87,7 +87,7 @@ Navega entre dos directorios diferentes.
 cd /path/to/directory
 ```
 
-### El commando `mv`
+### El comando `mv`
 
 **¿El comando mover?**
 
@@ -97,7 +97,7 @@ Mueve un archivo a otra carpeta o directorio, como por ejemplo arrastrar un arch
 mv /path/to/file.txt /math/to/destination/file.txt
 ```
 
-### El commando `rm`
+### El comando `rm`
 
 **El comando eliminar**
 
@@ -111,7 +111,7 @@ rm -r dbstore/
 #elimina todos los archivos y subdirectorios recursivamente dentro del directorio "dbstore".
 ```
 
-### El commando  `mkdir`
+### El comando  `mkdir`
 
 **El comando crear directorio**
 
@@ -125,7 +125,7 @@ mkdir path/of/new/newdirectoryname
 #crear newdirectoryname dentro de /path/of/new/
 ```
 
-### El commando  `rmdir` command
+### El comando  `rmdir` command
 
 **El comando eliminar directorio**
 
@@ -143,7 +143,7 @@ rmdir path/of/targetdirectory/mydirectory
 [[warning]]
 | :point_up:Sólo eliminará los directorios vacíos, para vaciar todos los archivos del directorio usa el comando rm. Pro-tip: puedes usar `rm`. para borrar todos los archivos dentro de un directorio simultáneamente; utilízalo con precaución.
 
-### El commando  `cp`
+### El comando  `cp`
 
 **El comando Copiar archivo**
 
@@ -156,9 +156,9 @@ cp path/to/file.ext path/to/new/file.ext
 #Copia file.ext y crea un nuevo file.ext con el mismo contenido.
 ```
 
-### El commando `find`
+### El comando `find`
 
-**El commando encontrar**
+**El comando encontrar**
 
 Encuentra un archivo en el directorio dado y con las especificaciones dadas.
 
@@ -178,7 +178,7 @@ Esto te ayudará a ahorrar tiempo y a cometer menos errores al escribir:
 + Para cancelar un comando que se está ejecutando, presiona `Control` +` C`
 + Para completar automáticamente el nombre de un archivo o carpeta, usa la tecla `tab`.
 + Para repetir cualquier comando que hayas usado en el pasado, usa la flecha `up`(arriba) y te mostrará cada comando, uno por uno.
-+ Para ir a la carpeta principal del usuario, usa la tecla `~` , así: cd ~
++ Para ir a la carpeta principal del usuario, usa la tecla `~`, así: cd ~
 + Usa el comando `clear` para "limpiar" la consola actual (es solo un desplazamiento, pero muy útil)
 
 ## Editando archivos en el terminal:
@@ -186,7 +186,7 @@ Esto te ayudará a ahorrar tiempo y a cometer menos errores al escribir:
 
 Esta es una de las cosas que no puedes evitar hacer en el terminal. Como desarrollador, tendrás que editar archivos en el terminal con más frecuencia de lo que crees. Por eso es mejor que esté preparado para usar la  [VI Aplicación o la Aplicación Nano](https://askubuntu.com/questions/726669/difference-between-nano-and-vim)  Hablaremos sobre Nano y sus comandos (sí, aquí el editor de texto se abre dentro de la línea de comandos y se ejecuta usando comandos).
 
-### El commando  `nano`
+### El comando  `nano`
 
 **No es realmente un comando, sino una aplicación de edición de texto con el nombre de "Nano".**
 
