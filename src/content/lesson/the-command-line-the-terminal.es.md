@@ -43,7 +43,7 @@ En este caso particular, usamos la "marcador" `-l` para especificar que queremos
 
 Lo último que tenemos que agregar es el "argumento". En este caso, el "argumento" será la ruta del directorio del cual queremos listar los archivos.
 
-## ¿Qué puedes hacer en la Terminal?
+## ¿Qué puedes hacer en la terminal?
 ***
 
 Tu computadora tiene archivos, directorios y aplicaciones. Tu línea de comando es capaz de lidiar con los tres. Usa comandos para moverte dentro de los archivos y directorios (como el comando `cd`). Cada aplicación que instales viene con un conjunto de comandos que están disponibles a partir del momento en que instales la aplicación (como el comando GIT).
