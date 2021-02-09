@@ -114,7 +114,7 @@ Las variables pueden tener diferentes tipos de valores. Algunos de ellos están 
 
 + Los números son fáciles - puedes hacer cualquier operación matemática que desees.
 + Los strings se pueden concatenar (fusionar), dividir, convertir a mayúsculas o minúsculas, etc.
-+ No se puede hacer mucho con los tipos de datos nulos, booleanose o indefinidos.
++ No se puede hacer mucho con los tipos de datos nulos, booleanos o indefinidos.
 + Hablaremos de Arrays y Objetos en una otra sección. Requieren de mucha más atención.
 
 ## Funciones
