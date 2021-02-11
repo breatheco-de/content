@@ -59,9 +59,10 @@ El primer paso sería definir nuestro modelo
 
 ```py
 class Person(Base):
-    __tablename__ = 'person'
-    # Aquí definimos las columnas de la tabla 'person'.
-    # Ten en cuenta que cada columna es también un atributo de instancia de Python normal.
+
+    # Aquí definimos el nombre de la tabla person.
+    # Ten en cuenta que cada columna es también un atributo normal de primera instancia de Python.
+
     id = Column(Integer, primary_key=True)
     name = Column(String(250), nullable=False)
 
