@@ -1,11 +1,12 @@
 ---
 title: "¿Qué es Java? Aprende a Programar en Java"
 subtitle: "Conozca qué es Java, todos están hablando de ello y, probablemente, ya sepa que es hora de aprender a programar en Java para llevar las cosas al siguiente nivel."
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-
-date: "2019-11-11"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["java"]
+status: "draft"
+
 ---
 
 ## Pero, Qué es java?

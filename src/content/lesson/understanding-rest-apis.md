@@ -1,11 +1,13 @@
 ---
 title: " Understanding Rest APIs"
 subtitle: "It seems to be only the beginning of the API revolution! The path of humanity drives towards the API's architecture...you can learn any language or tool, but this is one of those few specialties that will guarantee you a well paid job for the next 60 years, So get comfortable with REST API. :)"
-cover: "https://ucarecdn.com/b929f233-00b2-406f-87a5-ee74146cfd85/"
+cover_local: "../../assets/images/b929f233-00b2-406f-87a5-ee74146cfd85.jpeg"
 video: "https://www.youtube.com/watch?v=s7wmiS2mSXY"
 textColor: "white"
-date: "2018-05-11"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["REST","API"]
+status: "published"
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s7wmiS2mSXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

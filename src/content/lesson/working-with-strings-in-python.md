@@ -1,17 +1,15 @@
 ---
 title: "Working with or manipulating strings with Python"
-
 status: "published"
 subtitle: "String concatenation is the Web Developer's bread and butter, our job is to concatenate strings to create HTML/CSS documents programmatically"
 authors: ["alesanchezr"]
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2019-11-15"
+date: "2020-10-19T16:36:31+00:00"
 syntaxis: ["python"]
 tags: ["string","python","concatenation"]
+
 ---
-
-
 
 ## What is a string?
 
@@ -141,3 +139,9 @@ uppercased_string = name2.upper() # will convert to uppercase
 number = 3.4 # I am a number
 number_as_string = str(number) # I am a string with value "3.4"
 ```
+
+### More information about strings
+
+If you want to learn more, we suggest you start practicing instead of reading because there is nothing much to read about strings, here is a small 3 min [video explaining strings](https://www.youtube.com/watch?v=iAzShkKzpJo). 
+
+Keep practicing!

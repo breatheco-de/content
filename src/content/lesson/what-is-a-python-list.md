@@ -1,12 +1,12 @@
 ---
-title: "Workin with Lists in Python"
-
+title: "Working with Lists in Python"
 subtitle: "Lists are the first type of data-structures that Python has to store multiple values at once, they are very powerful and heavily used in every day operations for any type of program in any industry"
-
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2018-02-11"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["list"]
+status: "published"
+
 ---
 
 ## Introduction to Python lists
@@ -35,7 +35,7 @@ Every list has the same basic concepts:
 
 **Index:** is the position of the element.
 
-![what is an list define list](https://ucarecdn.com/7ed2c414-0d00-4e68-b659-b65c26d1983a/-/resize/1000x/)
+![what is an list define list](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
 
 
 [[info]]
@@ -47,10 +47,10 @@ Every list has the same basic concepts:
 These are different examples of list declarations:
 
 ```python
-myList = [] # lista vacia
-myList = ["Apple", "Orange", "Donkey"] # The only way to declare a list
-myTuple = ("Apple", "Orange", "Donkey") # this is not a list, its a more limited version called "Tuple"
-mySet = {"Apple", "Orange", "Donkey"} # this is not a list, it's a "set" (more limited version of list)
+myList = [] # empty list
+myList = ["Apple", "Orange", "Donkey"] # The only way to declare a "list" - a mutable and ordered collection of items
+myTuple = ("Apple", "Orange", "Donkey") # This a "tuple" - a more limited, ordered but immutable collection of items
+mySet = {"Apple", "Orange", "Donkey"} # This is a "set" - a more limited, unordered and immutable collection of items
 ```
 
 ## Access Items in the List
@@ -66,18 +66,18 @@ print(myList[0])  # print first element on the console
 
 aux = myList[3]
 print(aux); # print the 4th element on the console
-print(myList[len(myList) - 1]);  # Print the last element on the console
+print(myList[len(myList) - 1]);  # print the last element on the console
 ```
 
 
 ## Update Items in the List
 ***
 
-If you want, you can reset or update any item inside of an list using the index like this:
+If you want you can reset or update any item inside of a list using its index like this:
 
 ```python
     myList[5] = 'Whatever value'
-    # Assign a value to 6th element on the list 
+    # Assign a value to the 6th element on the list 
 ```
 
 ## Adding Elements to Python Lists (append and insert)
@@ -95,7 +95,7 @@ The first way is to add the element to the end of the list, you should use this 
 
 ### Using `insert` in Python Lists
 
-Using insert its easier for the developer because it will let you pick the positions in which you want to inster the element, but it is a slower method (less performance):
+Using insert is easier for the developer because it will let you pick the positions in which you want to inster the element, but it is a slower method (worse performance):
 
 ```python
     myList = ['Pedro','Juan','Maria']
@@ -109,7 +109,7 @@ Python has many ways to delete an element from a list
 
 ### Using POP
 
-It will remove the last element only! (juan)
+It will remove the last element only!
 
 ```python
     myList = ['Pedro','Chris','Juan','Maria']
@@ -149,12 +149,16 @@ for number in myList:
     print(number)
 ```
 
-## Looping using the postion
+## Looping using a position 
 
-Sometimes it is useful to loop the array using each element's position:
+Sometimes it is useful to loop the array using each element's position (index). We can do that by using the `range()` function.
+By default the `range` will start from index zero and continue until a specified number is reached, not including that index number:
 
 ```python
-for i in range(0, len(myList)):
+myList = ['Pedro','Chris','Mario','Bob']
+
+# the range will cut off before len(myList) is reached, and therefore we don't need to write (len(myList)-1)
+for i in range(len(myList)): 
     print("The positions is " + str(i) + " for the element " + myList[i])
 
 ### Output:
@@ -162,4 +166,18 @@ for i in range(0, len(myList)):
 # The positions is 1 for the element Chris
 # The positions is 2 for the element Mario
 # The positions is 3 for the element Bob
+```
+
+It is also possible to specify the starting index in the range, as well as the increment, by adding a starting point (the first parameter), and an increment value (the last parameter) in the range method:
+
+```python
+myList = ['Pedro','Chris','Mario','Bob', "Greg", "Kyle"]
+
+for i in range(1, 6, 2): # range(start value, end value (non inclusive), increment value)
+    print("The positions is " + str(i) + " for the element " + myList[i])
+
+### Output:
+# The positions is 1 for the element Chris
+# The positions is 3 for the element Bob
+# The positions is 5 for the element Kyle
 ```

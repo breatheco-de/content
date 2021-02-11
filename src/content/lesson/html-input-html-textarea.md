@@ -1,12 +1,12 @@
 ---
 title: "Understanding HTML Input HTML Text Area and Forms..."
-subtitle: "HTML Forms, HTML input and HTML text-area are really easy to understand, and they are the ONLY way to make interactive websites without AJAX.
-These very basic concepts represent 90% of everything you will ever need to know about forms ."
+subtitle: "HTML Forms, HTML input and HTML text-area are really easy to understand, and they are the ONLY way to make interactive websites without AJAX. These very basic concepts represent 90% of everything you will ever need to know about forms ."
 cover: "https://www.desktopbackground.org/p/2013/09/13/637935_nasa-wallpapers_1600x1200_h.jpg"
 textColor: "white"
-status: "draft"
-date: "2018-01-11"
+status: "published"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["HTML","inputs","forms"]
+
 ---
 
 ## HTML Forms
@@ -16,7 +16,7 @@ This lesson is very easy to understand – but it is essential in that in this n
 
 Like always, let’s compare our website with an MS Word document…At some point scientists needed to create forms just like the ones we fill out when we pay our taxes: with blank spaces available for the user to fill with their Name, Last Name, Date of Birth, etc.
 
-![html textarea html input](https://ucarecdn.com/12ff6e40-706f-47ff-9ada-53dada968eaf/-/resize/350x/)
+![html textarea html input](../../assets/images/12ff6e40-706f-47ff-9ada-53dada968eaf.png)
 
 The elements that the user fills in a form are called `<inputs>` and they always have to be wrapped inside of a `<form>` tag.  You can also use all the other HTML tags we learned in the previous lessons without any problems.
 

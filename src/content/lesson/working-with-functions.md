@@ -1,10 +1,11 @@
 ---
 subtitle: "Functions are not optional - they are probably the most used feature in any programming language. They let you separate your code in smaller mini-programs where each one takes care of its own thing. Divide and conquer!"
 title: "Working with Functions"
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2018-12-03"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["reactjs"]
+status: "published"
 
 ---
 
@@ -83,9 +84,10 @@ function multiply(a, b) {
    return a * b;
 }
 
+console.log(myVariable);
 // this console.log won't work it will trigger an error) because myVariable was  
 // declared inside the function multiply, therefore it is not available outside. 
-console.log(myVariable);
+
 ```
 
 

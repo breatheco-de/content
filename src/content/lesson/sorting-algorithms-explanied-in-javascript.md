@@ -1,13 +1,14 @@
 ---
 title: "Using javascript to sort a list"
 subtitle: "Nobody manually sorts lists anymore, but it is still a fantastic way to master your algorithmic skills"
-cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
-status: "draft"
+cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
+status: "published"
 textColor: "white"
-date: "2018-05-11"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["sorting","algorithms","javascript"]
 
 ---
+
 Sorting is an expensive task for the computer CPU, it depends on the amount of data and the way the data is organized initially. This mix of possibilities made developers create several algorithmic solutions that can be apllied to every language.
 
 ## Q: I googled and I found a `.sort()`, so why should I do it manually?
@@ -19,7 +20,7 @@ A: There is more than we can count, the top 10 in popularity are:
 ### Bubble Sorting
 It's the simplest of the sorting algorithms. It repeatedly swap adjacent elements to arrange them ascendingly, the algorithm has a "`wall`" that represents the last position to be compared, the wall keeps moving from left to right, shrinking the comparison size until the entire list is sorted.
 
-![Bubble Sort Explained](https://ucarecdn.com/2fef4d85-686b-4bf0-a505-45d3de178fd5/)
+![Bubble Sort Explained](../../assets/images/2fef4d85-686b-4bf0-a505-45d3de178fd5.gif)
 
 In Javascript:
 ```js
@@ -52,7 +53,7 @@ const bubbleSort = (arr) => {
 
 `Selection` also has a wall, but in this case, it marks the beginning of the loop, the algorithm then looks for the smallest item and swaps it with the initial one, then it moves the wall one position to the right to avoid looking again that same item.
 
-![Selection Sort Explained](https://ucarecdn.com/ddb1ff5a-621c-4945-9164-20c1a7f5d388/)
+![Selection Sort Explained](../../assets/images/ddb1ff5a-621c-4945-9164-20c1a7f5d388.gif)
 
 In javascript
 ```js
@@ -78,7 +79,7 @@ const selectSort = (arr) => {
 
 Cocktail Shaker works in both fronts at the same time: It looks for the biggest value scanning from left to right and it also looks for the smallest one when its coming back from right to left. It has 2 walls  (both for each side of the list), and both walls keep shrinking until they hit each other, when that happens the array is fully sorted.
 
-![Selection Sort Explained](https://ucarecdn.com/6d44c6a9-7f32-4b0e-86d7-1a210c3a5f4a/)
+![Selection Sort Explained](../../assets/images/6d44c6a9-7f32-4b0e-86d7-1a210c3a5f4a.gif)
 In javascript:
 ```js
 const shakerSort = (arr) => {
@@ -109,7 +110,7 @@ const shakerSort = (arr) => {
 
 Insertion sort involves going through a pile, taking one item, comparing it to the first, swapping places if one item is larger than another and continuing this process until the minimum item is in the correct location.
 
-![Insertion sort algorithm](https://ucarecdn.com/38fed925-cf75-4f94-bdd7-abcce659fdac/)
+![Insertion sort algorithm](../../assets/images/38fed925-cf75-4f94-bdd7-abcce659fdac.gif)
 In javascript:
 ```js
 const insertionSort = (arr) => {
@@ -133,7 +134,7 @@ const insertionSort = (arr) => {
 
 Merge sort is a more difficult algorithm because it uses [recursivity](https://www.youtube.com/watch?v=KEEKn7Me-ms). It is an example of a divide-and-conquer type sorting-algorithm, it splits the unsorted array into two parts and then recursively applies merge sort to these sub-arrays to further split the arrays until you are left with a bunch of single-element arrays. Then, you compare single-element arrays to one another before recombining them into a two-element, sorted array (and so on). It will end up with a single, sorted array of length n.
 
-![Merge sort](https://ucarecdn.com/e8781e98-0f8c-4035-8017-33ca217eb39c/)
+![Merge sort](../../assets/images/e8781e98-0f8c-4035-8017-33ca217eb39c.gif)
 
 [[info]]
 | :tv: In this link, you will find [a relly good 4 min video explanation](https://www.youtube.com/watch?v=JU767SDMDvA) about the merge sort algorithm.
@@ -156,7 +157,7 @@ At the point where  `rightmark`  becomes less than  `leftmark`, we stop. The pos
 
 The  `quickSort`  function invokes a recursive function,  `quickSortHelper`.  `quickSortHelper`  begins with the same base case as the merge sort. If the length of the list is less than or equal to one, it is already sorted. If it is greater, then it can be partitioned and recursively sorted. The  `partition`  function implements the process described earlier.
 
-![Quicksort Algorithm](https://ucarecdn.com/c60c4713-aa60-4fbc-9d97-f893b5947e7f/)
+![Quicksort Algorithm](../../assets/images/c60c4713-aa60-4fbc-9d97-f893b5947e7f.gif)
 
 [[info]]
 | :tv: In this link, you will find [a relly good 4 min video explanation](https://www.youtube.com/watch?v=Hoixgm4-P4M) about the Quick Sort algorithm.

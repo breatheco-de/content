@@ -1,16 +1,17 @@
 ---
 title: "Building RESTful API's using Flask"
 subtitle: "Flask is becoming the most popular Python framework (if its not already), learn how to build RESTful API's the REST way"
-cover: "https://ucarecdn.com/91bcc549-6758-49c3-a790-4245afbd8ece/"
+cover_local: "../../assets/images/91bcc549-6758-49c3-a790-4245afbd8ece.png"
 textColor: "black"
-date: "2019-05-02"
-status: "draft"
+date: "2020-10-19T16:36:31+00:00"
+status: "published"
 tags: ["Flask","python","REST","API"]
+
 ---
 
 By now you should know already what a REST api is, if you don't I recomend you [read about it here](http://content.breatheco.de/lesson/understanding-rest-apis).
 
-As a very brief summary, building an API in a RESTful way means that you have to build your URL endpoints grouped by **"resources"**, a resource is something you want to manage, e.g: Student, User, Car, etc. A resource is something similar to a database table but we call them "resources" because of a few exceptions.
+As a very brief summary, building an API in a RESTful way means that you have to build your URL endpoints grouped by **"resources"**. A resource is something you want to manage, e.g: Student, User, Car, etc. A resource is something similar to a database table but we call them "resources" because of a few exceptions.
 
 Here is an example of RESTful API endpoints to manage **Students**:
 
@@ -155,7 +156,7 @@ def create_person():
 
 There are differrent ways to integrate Flask to a database server but we will be explaining the integration with [SQL ALchemy](http://content.breatheco.de/lesson/everything-you-need-to-start-using-sqlalchemy).
 
-There is a great python library that integrates Flask + SQL Alchemy in a seamingless way: [Flask-SQLAlchemy](https://github.com/pallets/flask-sqlalchemy). We suggest you read [this lesson about SQLAlchemy](https://content.breatheco.de/lesson/everything-you-need-to-start-using-sqlalchemy) first and come back here.
+There is a great python library that integrates Flask + SQL Alchemy in a seamnless way: [Flask-SQLAlchemy](https://github.com/pallets/flask-sqlalchemy). We suggest you read [this lesson about SQLAlchemy](https://content.breatheco.de/lesson/everything-you-need-to-start-using-sqlalchemy) first and come back here.
 
 To integrate with SQLAlchemy all you have to do is install the package and import it into your files like this:
 ```python

@@ -1,12 +1,12 @@
 ---
 title: "It's Time To Learn What is an Array"
-
 subtitle: "Can you work with arrays ? if you can't,  don't worry here you will learn what is an array and how to work with them"
-
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2018-02-11"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["array"]
+status: "published"
+
 ---
 
 ## Why are Arrays in a Separate Lesson?
@@ -25,6 +25,7 @@ Mastering the use of arrays and loops is one of the 5 fundamental skills of buil
 **No no no…Wait:  Arrays?  What?**
 
 An array is, normally, any list or collection of values.  The rules of how to add or remove elements from that list can change from one programming language to another.  But – generally – they are the only ways for developers to create elements.
+
 Arrays are the only way we have to list stuff – regardless of the application you are working with, it will always have things to list.  For example: list of students, list of artists, list of transactions…anything!
 
 This data-type does a lot more stuff than the others.  Lists are the only way to store more than one data-type in the same variable.
@@ -37,7 +38,7 @@ Every array has the same basic concepts:
 
 **Index:** is the position of the element.
 
-![what is an array define array](https://ucarecdn.com/7ed2c414-0d00-4e68-b659-b65c26d1983a/-/resize/1000x/)
+![what is an array define array](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
 
 
 [[info]]
@@ -146,11 +147,11 @@ var myArray = ['Chris','Bob','Pedro','Juan','Maria'];
 
 Sometimes, when working with arrays, you will need to loop them.  For example: sorting them manually; flipping them; deleting an element from a particular position, etc.
 
-In order to create your loop you will need to use Array.length to get the current size of the array.  Most of the time the array items change during the runtime.   This is why the only way to get the size of the array will be using the array.length function, like this:
+In order to create your loop you will need to use  Array.length to get the current size of the array.  Most of the time the array items change during the runtime.   This is why the only way to get the size of the array will be using the array.length function, like this:
 
 ```javascript
 var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
-    for (i = 0; i < myArray.length; i++) {
+    for (let i = 0; i < myArray.length; i++) {
     console.log(myArray[i]); //this prints the value of the item in the position i 
 }
 ```
@@ -158,7 +159,7 @@ var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
 ## For…in… 
 ***
 
-There is a great adaptation of the **for statement** to make it loop lists or arrays, like this:
+There is a great adaptation of the **for ** statement to make it loop lists or arrays, like this:
 
 ```javascript
 var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
@@ -187,7 +188,7 @@ Will return a new array with a smaller version of the original array.  You have 
 
 Will update the current array leaving everything but the smaller version that you want to remove.   You will need to specify the starting and ending indexes from where you want to remove.
 
-![what is an array define array](https://ucarecdn.com/7e098348-df50-442b-801e-ac9d098fbc09/-/resize/700x/)
+![what is an array define array](../../assets/images/7e098348-df50-442b-801e-ac9d098fbc09.png)
 
 <iframe src="https://repl.it/F9V5/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 

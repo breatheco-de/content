@@ -3,12 +3,14 @@ import Link from 'gatsby-link';
 import { graphql } from 'gatsby';
 import withLocation from "../components/withLocation";
 import SEO from '../components/seo';
+import "../scss/thumb.scss"
 
 const Thumb = ({ data, search }) => {
 
     const [post,setPost] = useState(null);
 
     useEffect(() => {
+        
         const slug = (typeof search.slug === 'string' || search.slug !== '');
         const post = data.allMarkdownRemark.edges.find(({node}, key)=>{
             if(node.fields.type === "lesson" && typeof(slug) !== 'undefined'){
@@ -20,20 +22,24 @@ const Thumb = ({ data, search }) => {
         if(post) setPost(post);
     }, []);
 
-    if(!post) return <p>Loading</p>;
-    return <div className="thumb">
-            <SEO
-                bodyClass="gradient"
-            />
-            <div>
-                <h1>{post.node.frontmatter.title}{" "}</h1>
-                { post.node.authors ? 
-                    <div class="author"> By {post.node.authors.join(" & ")} </div> 
-                    :
-                    <div class="author"> By @alesanchezr </div> 
-                }
+    if(!post) return <p>Loading thumb for {search.slug || "unspecified slug"}</p>;
+    return <div className="gradient-bg">
+        <div className="thumb">
+            <div className="thumb-inner">
+                <SEO
+                    bodyClass="gradient"
+                />
+                <div>
+                    <h1>{post.node.frontmatter.title}{" "}</h1>
+                    { post.node.authors ? 
+                        <div class="author"> By {post.node.authors.join(" & ")} </div> 
+                        :
+                        <div class="author"> By @alesanchezr </div> 
+                    }
+                </div>
             </div>
         </div>
+    </div>
   };
 
 export const query = graphql`

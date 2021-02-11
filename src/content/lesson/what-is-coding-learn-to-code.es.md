@@ -1,10 +1,12 @@
 ---
 title: "¿Qué es la programación? Aprender a programar"
 subtitle: "Si no sabes qué es la programación, no te preocupes, aquí no tienes que escribir HTML y CSS (no tanto). Aprende a programar aquí y haz que las computadoras escriban tu código."
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2017-02-11"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["programacion"]
+status: "published"
+
 ---
 
 Los algoritmos son asombrosos. Pueden servir para varios propósitos, pero, como desarrolladores web, usaremos nuestros algoritmos para crear código HTML y decirle a nuestros programas cómo reaccionar ante las interacciones del usuario.
@@ -57,5 +59,5 @@ Las computadoras hablan solo un idioma: ** Assembly **. Pero usar el lenguaje en
 + Hay 430 ofertas de trabajo abiertas en Chile [solicitando JavaScript ahora mismo. (indeed.cl)](https://www.indeed.cl/trabajo?q=Javascript&l=Santiago+de+Chile,+Regi%C3%B3n+Metropolitana&_ga=2.235233217.1570091263.1548440267-10910977.1548440267), 2 veces más que PHP y 4 veces más que Ruby.
 ¿Necesitas más pruebas? Podemos seguir hablando todo el día. ¡Solo al escribir esta lección me siento ansioso porque JavaScript es tan universal que necesitas aprenderlo ahora mismo!
 
-![what is coding learn to code](https://ucarecdn.com/b88d7b26-2786-4a3a-b6ee-4b6b84ad6ecf/-/resize/1000x/)
+![what is coding learn to code](../../assets/images/b88d7b26-2786-4a3a-b6ee-4b6b84ad6ecf.png)
   

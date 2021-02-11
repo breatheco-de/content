@@ -9,7 +9,7 @@ CMS for the BreatheCode Platform
 
 Here is an API of all  the lessons on the platform: https://content.breatheco.de/static/api/lessons.json
 
-## Requierments
+## Requirements
 
 #### 1) Markdown based
 All the content must be markdown based, to create new articles all you have to do is add a new .md file in markdown syntax.
@@ -20,7 +20,7 @@ The CMS needs to be able to generate URLs with the following format:
 ```
 https://content.breatheco.de/<type of content>/<article id>
 ```
-For exampe:
+For example:
 ```
   https://content.breatheco.de/lesson/html_explained
   https://content.breatheco.de/error/query_selector_missing_id
@@ -42,6 +42,48 @@ This list of contents is just a draft, some can be deleted or more can be added.
 Contents can be tagged on the header of the markdown file, you can add as many tags as you want and later people will be able to search by tag.
 
 There are two types of tags: Technology and Category.
+
+
+### Command Line Interface
+
+A small command-line tool has been developed to help manage the lessons
+
+```
+$ node ./src/utils/cli.js update_lesson --slug all --statusTo draft --statusFrom null
+$ node ./src/utils/cli.js update_lesson --slug learn-html --statusTo draft --statusFrom null
+$ node ./src/utils/cli.js download_images --slug python-syntax --type external_images
+$ node ./src/utils/cli.js localize_images --slug python-syntax --type external_images
+$ node ./src/utils/cli.js sanitize_lesson --slug all
+```
+
+#### Method: sanitize_lesson
+
+Will try to clean and fix any possible issues on the lessons, for example: Date formats
+
+#### Method: update_lesson
+
+| PARAM         | DESCRIPTION |
+| ---------     | ----------- |
+| --slug        | Every lesson has a slug that identifies it, you can pass `all` if you want to update all at once |
+| --statusTo    | change the status of one or all the lessons to a particular one |
+| --statusFrom  | only apply changes to lessons with specified status |
+
+#### Method: download_images
+
+| PARAM         | DESCRIPTION |
+| ---------     | ----------- |
+| --slug        | Every lesson has a slug that identifies it, you can pass `all` if you want to update all at once |
+| --type  | external_images or uploadcare |
+
+#### Method: localize_images
+
+Rename the remote image url's with local images (if available), this method is ideal to run after `download_images`
+
+| PARAM         | DESCRIPTION |
+| ---------     | ----------- |
+| --slug        | Every lesson has a slug that identifies it, you can pass `all` if you want to update all at once |
+| --statusTo    | change the status of one or all the lessons to a particular one |
+| --statusFrom  | only apply changes to lessons with specified status |
 
 ## Contributors
 

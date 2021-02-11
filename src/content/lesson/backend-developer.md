@@ -1,20 +1,19 @@
 ---
 title: "Knowing What is Behind a Back-End Developer"
-
 subtitle: "Learn here everything about Back-End Web development and what it takes to become Back-End developer"
-
-cover: "https://ucarecdn.com/98208ebb-dcb3-4e40-9ae4-4ec886213f97/"
-
+cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
 textColor: "white"
-date: "2018-05-11"
+date: "2020-10-19T16:36:30+00:00"
 tags: ["client-server","back-end"]
+status: "published"
+
 ---
 
 ## The Back-End Side of the Web
 
 Not so long ago, browsers were very dumb.  All they did was render HTML documents in a very early version of HTML.  There was no CSS, nor JS.  That means that front-end web developers did not exist!
 
-All the work was done by the server: since there was no JavaScript, the DOM could not ~~be~~ updated during the website runtime.  That means that the initial HTML source code that the browser received while loading the website was also going to be the LAST version of it.  **No DOM modifications**.
+All the work was done by the server: since there was no JavaScript, the DOM could not be updated during the website runtime.  That means that the initial HTML source code that the browser received while loading the website was also going to be the LAST version of it.  **No DOM modifications**.
 
 ### The Client-Server Architecture
 ***
@@ -23,7 +22,7 @@ All the work was done by the server: since there was no JavaScript, the DOM coul
 
 **Think about the server like a "document generator."**  It can be an image, a video, a text document, JSON, HTML, CSS, etc.  The server’s responsibility is to respond with content each time a client requests it.
 
-![backend developer](https://ucarecdn.com/2c0000ef-2907-43cb-80ed-2ba4f194b83e/)
+![backend developer](../../assets/images/2c0000ef-2907-43cb-80ed-2ba4f194b83e.gif)
 
 Along with the generated document content, the server can also specify what type of content is responding, allowing the browser to read and interpret the response in an accurate way.  The response formats available can be hundreds, but this are the most common:
 

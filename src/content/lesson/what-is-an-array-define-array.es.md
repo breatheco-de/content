@@ -1,20 +1,20 @@
 ---
-title: "Es Hora de Aprender lo que es un Arreglo o Matriz"
-
-subtitle: "¿Se puede trabajar con arreglos? Si no puedes, no te preocupes aquí, aprenderás qué es una matriz y cómo trabajar con ellas."
-
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+title: "Es Hora de Aprender lo que es un Array o arreglo"
+subtitle: "¿Se puede trabajar conarrays? Si no puedes, no te preocupes aquí, aprenderás qué es array y cómo trabajar con ellos."
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2018-02-11"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["arreglo","matriz"]
+status: "published"
+
 ---
 
-## ¿Por qué están los arreglos en una lección separada?
+## ¿Por qué están los arrrays en una lección separada?
 ***
 
-¡Porque los arreglos son impresionantes! ¡Los necesitas! Y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂
+¡Porque los arrays son impresionantes! ¡Los necesitas! Y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂
 
-Dominar el uso de los `arreglos e iteraciones` es una de las 5 habilidades fundamentales de construir algoritmos:
+Dominar el uso de los `arrays y bucles` es una de las 5 habilidades fundamentales para construir algoritmos:
 
 1. Variables.
 2. Condicionales.
@@ -22,70 +22,68 @@ Dominar el uso de los `arreglos e iteraciones` es una de las 5 habilidades funda
 4. `Loops (Bucles)`.
 5. Funciones.
 
-**No no no…Espera:  Arreglos?  Que?**
+**No no no…Espera:  ¿Array?  ¿Qué?**
 
-Un arreglo es, normalmente, cualquier lista o colección de valores. Las reglas de cómo agregar o eliminar elementos de esa lista pueden cambiar de un lenguaje de programación a otro. Pero - en general - son las únicas formas en que los desarrolladores pueden crear elementos.
-Los arreglos son la única forma en que tenemos que enumerar las cosas - independientemente de la aplicación con la que esté trabajando, siempre tendrás cosas que enumerar. Por ejemplo: lista de estudiantes, lista de artistas, lista de transacciones ... ¡cualquier cosa!
+Un array es, normalmente, cualquier lista o colección de valores. Las reglas sobre cómo agregar o eliminar elementos de esa lista pueden cambiar de un lenguaje de programación a otro. Pero - en general - son las única forma en que los desarrolladores pueden crear elementos.
+ 
+Los arrays son la única forma en que tenemos que enumerar cosas - independientemente de la aplicación con la que estés trabajando, siempre tendrás cosas que enumerar. Por ejemplo: lista de estudiantes, lista de artistas, lista de transacciones ... ¡cualquier cosa!
 
 Este tipo de datos hace muchas más cosas que los otros. Las listas son la única forma de almacenar más de un tipo de datos en la misma variable.
 
-Cada arreglo tiene los mismos conceptos básicos:
+Cada array tiene los mismos conceptos básicos:
 
-**The items:** Son los valores reales dentro de cada posición del arreglo.
+**The items:** Son los valores reales dentro de cada posición del array.
 
-**The length:** es el tamaño del arreglo (cuántos elementos tiene el arreglo).
+**The length:** es el tamaño o longitud del array (cuántos elementos tiene el array).
 
 **Index:** es la posición del elemento.
 
-![what is an array define array](https://ucarecdn.com/7ed2c414-0d00-4e68-b659-b65c26d1983a/-/resize/1000x/)
+![qué es un array](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
 
 
 [[info]]
-| :point_up: Las posiciones del arreglo comienzan con **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
+| :point_up: Las posiciones de un array comienzan en **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
 
-## ¿Como Declarar un Arreglo?
+## ¿Cómo declarar un array?
 ***
 
 These are different examples of list declarations:
 
 ```javascript
 var myArray = []; //lista vacia
-var myArray = ["Apple", "Orange", "Donkey"]; //con 3 elementos de cadena por defecto.
+var myArray = ["Apple", "Orange", "Donkey"]; //con 3 elementos string por defecto.
 var myArray = new Array(1,2,3,4,5); //¡No uses esto! Lea a continuación para saber por qué.
 ```
 
 
 [[warning]]
-| :point_up: No declares los Arrays con la sintaxis `new Array ()` - no se comportará. [haga clic aquí para conocer los detalles](https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
+| :point_up: No declares los Arrays con la sintaxis `new Array ()` - no se comportará correctamente [haz clic aquí para conocer los detalles(https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
 
-## Acceder a los Elementos en el Arreglo
+## Acceder a los elementos de un array
 ***
 
-Para acceder a un elemento específico en una lista, necesita un índice. Un índice es un valor entero que representa la posición del arreglo a la que desea acceder.
-
-El índice siempre debe comenzar en cero (0). Eso significa que un arreglo de 2 elementos puede tener un índice = 0 o un índice = 1. Tratar de obtener la segunda posición devolverá "indefinido" porque significará que estamos tratando de acceder al tercer elemento (que no existe). Por ejemplo, para obtener cualquier elemento del arreglo, puede hacer lo siguiente:
+Si quieres, puedes restablecer o actualizar cualquier items dentro de un array usando el índice o index así:
 
 ```javascript
     console.log(myArray[0]);  //Esto imprimirá el 1er elemento en la consola.
 var aux = myArray[5];
-    console.log(aux); //Esto imprimirá el 4to elemento en la consola.
+    console.log(aux); //Esto imprimirá el 6to elemento en la consola.
     console.log(myArray[myArray.length-1]);  //Esto imprimirá el último elemento del arreglo.
 ```
 
 ## Actualizar Elementos en el Arreglo
 ***
 
-Si lo deseas, puedes restablecer o actualizar cualquier elemento dentro de un arreglo usando el índice como este:
+Si lo deseas, puedes restablecer o actualizar cualquier elemento dentro de un arreglo usando el índice o index así:
 
 ```javascript
-myArray[5] = 'Whatever value';
-//Esto establecerá el valor 'Cualquier valor' en el sexto elemento del arreglo.
+myArray[5] = 'cualquier valor';
+//Esto establecerá el valor 'cualquier valor' en el sexto elemento del array.
 ```
-
 ## Añadiendo elementos (función push)
 ***
 
-La única forma de agregar un nuevo elemento es al final de la lista, y necesitará usar la función push () para eso.
+La única forma de agregar un nuevo elemento es al final de la lista, y deberás usar la función push () para eso.
 
 ```javascript
 var myArray = ['Pedro','Juan','Maria'];
@@ -107,11 +105,10 @@ var myNewArray = [];
     console.log(myNewArray); //esto imprimirá  ['Pedro','Chris','Juan','Maria'];
 
 ```
-
 ## Eliminando Elementos (función pop)
 ***
 
-Eliminar un elemento tiene exactamente las mismas limitaciones que al agregar un elemento: solo puede eliminar un elemento de la última posición con la función pull (). Si desea eliminar un elemento diferente, deberá crear una nueva matriz sin ese elemento en particular.
+Eliminar un elemento tiene exactamente las mismas limitaciones que al agregar un elemento: solo puedes eliminar un elemento de la última posición con la función pull (). Si deseas eliminar un elemento diferente, deberás crear un nuevo array sin ese elemento en particular.
 
 ```javascript
 var myArray = ['Pedro','Chris','Juan','Maria'];
@@ -128,7 +125,7 @@ var myNewArray = [];
 ## Removing/Adding from the Beginning
 ***
 
-Los métodos shift y unshift son como push y pop, pero con la diferencia de que solo funcionarán desde el principio de la lista.
+Los métodos shift y unshift son como push y popp con la diferencia de que solo funcionar desde al principio de la lista.
 
 ```javascript
 var myArray = ['Juan','Maria'];
@@ -141,12 +138,13 @@ var myArray = ['Chris','Bob','Pedro','Juan','Maria'];
     console.log(myArray); //esto imprimirá ['Bob','Pedro','Juan','Maria'];
 ```
 
+
 ## Bucle en Arreglo
 ***
 
-A veces, cuando trabajes con arreglos, tendrás que hacer un bucle. Por ejemplo: ordenándolos manualmente; voltearlos, eliminar un elemento de una posición particular, etc.
+A veces, cuando trabajes con arrays, tendrás que hacer un bucle. Por ejemplo: ordenándolos manualmente; voltearlos, eliminar un elemento de una posición particular, etc.
 
-Para crear tu bucle, necesitarás usar Array.length para obtener el tamaño actual del arreglo. La mayoría de las veces, los elementos del arreglo cambian durante el tiempo de ejecución. Esta es la razón por la que la única forma de obtener el tamaño del arreglo será usar la función array.length, como esta:
+Para crear tu bucle, necesitarás usar Array.length para obtener el tamaño actual del array. La mayoría de las veces, los elementos del arreglo cambian durante el tiempo de ejecución. Esta es la razón por la que la única forma de obtener el tamaño del array será usar la función array.length, así:
 
 ```javascript
 var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
@@ -158,43 +156,43 @@ var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
 ## For…in… 
 ***
 
-Hay una gran adaptación de **sentencia for** para hacer que se formen listas de bucles o arreglos, como este:
+Hay una gran adaptación de la  sentencia **for** para iterar listas o arrays, así:
 
 ```javascript
 var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
     for (var index in myArray) {
     console.log(myArray[index]);
 }
-//Esto imprime el valor del artículo en el índice de posición.
+//Esto imprime el valor del item en la posición index.
 ```
 
-## Eliminación de un Arreglo
+## Eliminando de un array 
 ***
 
-Las variables pueden tener diferentes tipos de valores. Algunos de ellos están disponibles solo en lenguajes de programación específicos, pero casi todos tienen los siguientes tipos:
+Las variables pueden tener diferentes tipos de valores. Algunos de ellas están disponibles solo en lenguajes de programación específicos, pero casi todos tienen los siguientes tipos:
 
 ### Splice and Slice
 ***
 
-Es posible cortar un arreglo en pedazos muy rápido, con las funciones de splice y slice.
+Es posible cortar un array en pedazos muy rápido, con las funciones de splice y slice.
 
 #### Slice
 
-Devolverá un nuevo arreglo con una versión más pequeña del arreglo original. Debes especificar el índice de inicio y finalización desde donde desea cortar el arreglo.
+Retorna un nuevo array con una versión más pequeña del arreglo original. Debes especificar el índice de inicio y finalización del pedazo que quieres obtener.
 
 #### Splice
 
 
-Actualizará el arreglo actual dejando todo menos la versión más pequeña que desea eliminar. Deberás especificar los índices de inicio y finalización desde donde deseas eliminarlos.
+Actualiza el array actual dejando todo menos la versión más pequeña que desea eliminar. Debes especificar los índices de inicio y término del pedazo que quieres eliminar.
 
-![what is an array define array](https://ucarecdn.com/7e098348-df50-442b-801e-ac9d098fbc09/-/resize/700x/)
+![qué es un array](../../assets/images/7e098348-df50-442b-801e-ac9d098fbc09.png)
 
 <iframe src="https://repl.it/F9V5/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Slice-vs-Splice">Click para abrir el demo en una ventana nueva</a></small></div>
+<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Slice-vs-Splice">Haz clic para abrir la demo en una ventana nueva</a></small></div>
 
 [[info]]
-| :point_up: Splice puede aceptar tantos parámentos opcionales como se quiera y estos sustituirán la parte del array que ha sido eliminada.  De esta forma el primer parámetro indica el índice desde el que empieza a borrar, el segundo parámetro cuantos elementos borrar y del tercero en adelante los elementos que se insertan a partir de la posición que se indica en el primer parámetro.
+| :point_up: Splice puede aceptar tantos parámentos opcionales como se quiera y estos sustituirán la parte del array que ha sido eliminada.  De esta forma el primer parámetro indica el índice desde el cual empieza a borrar, el segundo parámetro cuantos elementos borrarás y del tercero los elementos que se insertan a partir de la posición que se indica en el primer parámetro.
 
 Ejemplo:
 ```javascript
@@ -211,48 +209,48 @@ console.log(y); // [14, 3, 'a', 3245, 234, 52, 345, 3, 45, 23, 77]
 
 [Consulta la documentación](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 
-## Clasificando los Arreglos
+## Ordenando arrays
 ***
 
-Es muy común la necesidad de ordenar arreglos. Por ejemplo: ordenar una lista de estudiantes por nombre. Tienes dos funciones para ordenar en JavaScript:
+Es muy común la necesidad de ordenar arrays. Por ejemplo: ordenar una lista de estudiantes por nombre. Tienes dos funciones para ordenar en JavaScript:
 
 Sort y Reverse
 
-Ellos hacen lo mismo, excepto que Reverse lo hace al revés. Ambos clasifican usando la lógica de comparación de cadenas, lo que significa que la cadena "25" es más grande que "100", porque "2" es más grande que "1".
+Ellos hacen lo mismo, excepto que Reverse lo hace al revés. Ambos ordenan usando la lógica de comparación de string, lo que significa que el string "25" es más grande que "100", porque "2" es más grande que "1".
 
 ```javascript
-var fruits = ["Banana", "Orange", "Apple", "Mango"];
-    fruits.sort();
-    console.log(fruits); //[ 'Apple', 'Banana', 'Mango', 'Orange' ] 
-    fruits.reverse();
-    console.log(fruits); //[ 'Orange', 'Mango', 'Banana', 'Apple' ]
+var frutas = ["Banana", "Naranja", "Manzana", "Mango"];
+    frutas.sort();
+    console.log(frutas); //[ 'Manzana', 'Banana', 'Mango', 'Naranja' ] 
+    frutas.reverse();
+    console.log(frutas); //[ 'Naranja', 'Mango', 'Banana', 'Manzana' ]
 ```
 
-### Clasificando Números
+### Ordenando números
 
-Si deseas ordenar números reales, o si deseas usar cualquier otro tipo de inicio de sesión para ordenar arreglos, debes usar una "función de comparación".
+Si quieres ordenar números reales, o si deseas usar cualquier otro tipo de inicio de sesión para ordenar arrays, debes usar una "función de comparación".
 
 Tienes que definir una función que se encargue de las comparaciones. La función sort llamará a tu función en cada comparación y permitirá que tu función decida quién es el primero entre los dos elementos que se comparan.
 
 ```javascript
-var points = [40, 100, 1, 5, 25, 10];
-    points.sort(function(a, b){return a – b});
-    console.log(points); //[ 1, 5, 10, 25, 40, 100 ]
+var puntos = [40, 100, 1, 5, 25, 10];
+    puntos.sort(function(a, b){return a – b});
+    console.log(puntos); //[ 1, 5, 10, 25, 40, 100 ]
 ```
 
 ### Clasificando Objetos
 
-Ahora que conocemos la función de comparación, podemos usarla para indicar a la función sort cómo ordenar nuestros propios objetos especiales, como aquí, por ejemplo:
+Ahora que conocemos la función de comparación, podemos usarla para indicar a la función sort cómo ordenar nuestros propios objetos especiales, como aquí por ejemplo:
 
 ```javascript
-var cars = [
-    {type:"Volvo", year:2016},
-    {type:"Saab", year:2001},
-    {type:"BMW", year:2010}];
-    cars.sort(function(a, b){return a.year – b.year});
-    console.log(cars); //[ { type: 'Saab', year: 2001 },{ type: 'BMW', year: 2010 },{ type: 'Volvo', year: 2016 } ]
+var autos = [
+    {tipo:"Volvo", año:2016},
+    {tipo:"Saab", año:2001},
+    {tipo:"BMW", año:2010}];
+    autos.sort(function(a, b){return a.year – b.year});
+    console.log(autos); //[ { tipo: 'Saab', año: 2001 },{ tipo: 'BMW', año: 2010 },{ tipo: 'Volvo', año: 2016 } ]
 ```
 
 <iframe src="https://repl.it/F9YZ/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Sorting-Arrays">Click para abrir el demo en una ventana nueva</a></small></div>
+<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Sorting-Arrays">Clic para abrir la demo en una ventana nueva</a></small></div>

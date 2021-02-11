@@ -1,11 +1,12 @@
 ---
 title: "Learning to code with Python"
 subtitle: "Python is the fastest-growing programing language in the world, it does almost everything you can think of and the best news is that it's one of the easiest to learn"
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-status: "unassigned"
-date: "2018-02-11"
+status: "pending_translation"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["javascript"]
+
 ---
 
 ## Why python?
@@ -28,7 +29,7 @@ A variable is a container in which you can store any data.  For example, you can
 var age = 24;
 ```
 
-![what is javascript](https://ucarecdn.com/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce/)
+![what is javascript](../../assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
 
 With virtually any programming language you can create as many variables as you want or need.  To start you have to **declare that variable’s name** using the term: *var* followed by a _unique_ name (relative to the document/project).
 
@@ -129,7 +130,7 @@ Then, you will open a curly bracket and write the code that your function must a
 
 **Note:**  To return something you use the `return` word at any time within the content of your function (between the curly brackets).
 
-![learn to code in javascript](https://ucarecdn.com/0c4fa020-02f6-4ec0-bfeb-a6292145a153/)
+![learn to code in javascript](../../assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif)
 
 ```javascript
 function multiply (param1, param2)

@@ -1,10 +1,12 @@
 ---
 title: "Learn What is React Flux"
 subtitle: "Without Flux, React is just a cute front-end library. React Flux will make it a framework - giving your application a defined structure - taking care of the data-processing layer, and much more about what is flux."
-cover: "https://ucarecdn.com/b84e07e5-5761-469b-85bb-f7afc87d4dc9/"
+cover_local: "../../assets/images/b84e07e5-5761-469b-85bb-f7afc87d4dc9.png"
 textColor: "white"
-date: "2018-11-14"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["reactjs","flux"]
+status: "published"
+
 ---
 
 Remember how we always say that programming is like Taco Bell?  It’s always the same ingredients, except just used in a different way!  In this particular case, we are going to be relying heavily on Events to create our entire application architecture.
@@ -24,7 +26,7 @@ Here is a list of all the advantages of using it:
 + It **controls the way your application data will flow:** it does not matter if the data was inputted by the user or coming from a DB; everything will be available in a clear and accessible way.
 + It differentiates your components in **Views vs Re-usable components:** your components will remain being abstracted from your application logic – making them 100% reusable for future applications.
 
-![React Flux](https://ucarecdn.com/aa1a5994-8de9-4d24-99ce-3a0d686c30bd/-/resize/700x/)
+![React Flux](../../assets/images/aa1a5994-8de9-4d24-99ce-3a0d686c30bd.png)
 
 ### Flux Divides the Application in 3 Layers:
 
@@ -48,7 +50,7 @@ To code the delete functionality, we have to update 4 mains files: (1) The Compo
 > *In the end, working with Flux has to become something as automatic as riding a bike.*
 
 
-![react flux](https://ucarecdn.com/77c93bfa-92cb-44e3-a7c5-c959e27c5ccc/-/resize/1100x/)
+![react flux](../../assets/images/77c93bfa-92cb-44e3-a7c5-c959e27c5ccc.jpeg)
 
 ## Lets Implement the Delete Task Functionality
 ***
@@ -84,6 +86,10 @@ class MyActions extends Flux.Actions{
     }
 }
 ```
+[[warning]]
+| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+
+
 
 #### 3) Update the store to handle that new dispatched action
 
@@ -122,6 +128,10 @@ class TodoStore extends EventEmitter {
   ...
 }
 ```
+
+[[warning]]
+| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+
 
 ## The Result
 ***
