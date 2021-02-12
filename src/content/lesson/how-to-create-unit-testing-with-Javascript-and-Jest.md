@@ -21,11 +21,7 @@ There are several ways to test your applications, but unit tests are the most po
 
 Unit testing is the process of dividing your code in small functions and testing each of those functions separately. For example:
 
-<<<<<<< HEAD
 Assuming you are building a function that `sums` two numbers like this:
-=======
-Asuming you are building a function that `sum` two numbers like this:
->>>>>>> fd7bbc4ae3703a380c367c18ae098fa1a95958ec
 
 ```js
 
