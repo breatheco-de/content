@@ -5,7 +5,7 @@ cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["Jest"]
-status: "draft"
+status: "published"
 ---
 
 Los seres humanos commeten errores, todo el tiempo. A medida que avances en tu carrera de desarrollo te sentirás más cómodo con eso.
@@ -21,7 +21,7 @@ Hay varias maneras de probar tus aplicaciones, pero las pruebas unitarias son la
 
 Las pruebas unitarias son el proceso de dividir su código en pequeñas funciones y probar cada una de esas funciones por separado. Por ejemplo:
 
-Supongamos que estás construyendo una función `sum` que suma dos números:
+Supongamos que estás construyendo una función `sums` que suma dos números:
 
 ```js
 
@@ -48,7 +48,7 @@ Nota: Las pruebas unitarias no se preocupan por el contenido de la función `sum
 
 + **Puedes encontrar y prevenir errores fácilmente** Si hay un problema en el futuro podrás identificar la causa mucho más rápido que si tuvieras que revisar todo el código. También tu usuario final estará muy contento de no tener un producto con errores.
 
-+ **Las pruebas unitarias ahorran tiempo....y dinero** Al escribir pruebas unitarias puedes identificar muchos posibles errores y solucionarlos de inmediato, en lugar de solucionarlos en diferentes etapas de tu producto.
++ **Las pruebas unitarias ahorran tiempo...y dinero** Al escribir pruebas unitarias puedes identificar muchos posibles errores y solucionarlos de inmediato, en lugar de solucionarlos en diferentes etapas de tu producto.
 
 + **Tu código es más confiable y reutilizable** Cuando tu código se divide en unidades o componentes donde cada uno tiene su responsabilidad o función, tu código se vuelve más confiable y te da más seguridad y como ya has hecho pruebas puedes reutilizarlo: es limpio y eficiente y puedes migrar tu código y pruebas a un nuevo proyecto.
 
@@ -124,7 +124,7 @@ test('Boolean shoud return false', () => {
      const result = isUpperCase(true);
      expect(result).toBe(false);
 })
-// Quiento test posible
+// Quinta prueba posible
 test('Number shoud return false', () => {
      const result = isUpperCase(12341234);
      expect(result).toBe(false);
