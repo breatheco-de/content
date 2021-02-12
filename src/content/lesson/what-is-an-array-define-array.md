@@ -151,7 +151,7 @@ In order to create your loop you will need to use  Array.length to get the curre
 
 ```javascript
 var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
-    for (i = 0; i < myArray.length; i++) {
+    for (let i = 0; i < myArray.length; i++) {
     console.log(myArray[i]); //this prints the value of the item in the position i 
 }
 ```
