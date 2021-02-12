@@ -19,9 +19,9 @@ There are several ways to test your applications, but unit tests are the most po
  
 ## What is Unit Testing?
 
-Unit testing is the process of dividing your code in small functions and testing each of those functions separatly. For example:
+Unit testing is the process of dividing your code in small functions and testing each of those functions separately. For example:
 
-Asuming you are building a function that `sums` two numbers like this:
+Assuming you are building a function that `sums` two numbers like this:
 
 ```js
 
@@ -30,7 +30,7 @@ function sum(number1, number2){
 }
 ```
 
-A unit test for this funcion only cares about input and output, **With a given input, there should be an expected output**: If you pass `12` and `5` as inputs to the sum function, it should output (return) the number `17`.
+A unit test for this function only cares about input and output, **With a given input, there should be an expected output**: If you pass `12` and `5` as inputs to the sum function, it should output (return) the number `17`.
 
 The Jest testing framework in Javascript introduces a special function called `expect` to allow us to unit test, here is an example of how to use `expect` to create our unit tests:
 
@@ -52,8 +52,7 @@ Note: Unit tests don't care about the content of the `sum` function, it only car
 
 + **Unit Testing saves time....and money** When writing Unit tests you may identify many possible bugs and fix them right away, instead of fixing them in different stages of the product.
 
-+ **Your code is more reliable and reusable** When your code is divided in units or components where each one has their responsability or function, your code becomes more reliable and it gives you more confidence. 
-Since you have already tested you can reuse it: is clean and efficient and you can migrate your and tests to a new project.
++ **Your code is more reliable and reusable** When your code is divided in units or components where each one has their responsability or function, your code becomes more reliable and it gives you more confidence. Since you have already tested you can reuse it: is clean and efficient and you can migrate your and tests to a new project.
 
 + Good Unit tests serves as **documentation and defines** what your code is suppose to do.
 
