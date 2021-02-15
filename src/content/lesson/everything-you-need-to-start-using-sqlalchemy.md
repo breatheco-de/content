@@ -126,7 +126,7 @@ Transactions have the following 4 standard properties(known as ACID properties):
 
 A transaction ends with COMMIT or ROLLBACK. 
 
-### COMMIT command
+### COMMIT: session.commit() 
 
 COMMIT command is used to permanently save any transaction into the database.
 
@@ -134,7 +134,7 @@ When you use INSERT, UPDATE or DELETE, the changes made by these commands are no
 
 If you use the COMMIT command though the changes to your database are permanent.
 
-### ROLLBACK command
+### ROLLBACK
 
 It restores the database to last your last COMMIT. You can also use it with SAVEPOINT command to jump to a savepoint in a ongoing transaction.
 
@@ -142,15 +142,15 @@ Also, if you use UPDATE to make changes to your database, you can undo them by u
 
 
 ```jsx
-ROLLBACK TO savepoint_name;
+session.rollback();
 ```
-### SAVEPOINT command
+### SAVEPOINT 
 
 This command is used to temporarily to save a transaction so that you can go back to a certain point by using the ROLLBACK command whenever needed, you can use like this:
 ```jsx
-SAVEPOINT savepoint_name;
+session.begin_nested();
 ```
-So when we use this command we can **name** the different states of our database and go back to them with the ROLLBACK command whenever we need to. 
+This command may be called many times, and it will issue a new SAVEPONT with an ID.
 
 ![SQL](../../assets/images/sql-1.png)
 
@@ -164,15 +164,15 @@ But we have a list of extra ingredients we can add to it: first we choose meat b
 ```jsx
 INSERT INTO class PIZZA(4, 'meat');
 
-COMMIT; 
+session.commit(); 
 
 UPDATE class SET ingredient = 'mushrooms' WHERE id '4'
 
-SAVEPOINT A;
+session.begin_nested(A);
 
 INSERT INTO class PIZZA (5, 'pepperoni')
 
-SAVEPOINT B
+session.begin_nested(B)
 
 INSERT INTO class PIZZA (6, 'bacon')
 ```
@@ -184,7 +184,7 @@ Now our 'PIZZA' has the following ingredients:
 Now we have decided we no longer want bacon, so we use ROLLBACK:
 
 ```jsx
-ROLLBACK TO B;
+session.rollback(B);
 ```
 and our pizza looks like this:
 
