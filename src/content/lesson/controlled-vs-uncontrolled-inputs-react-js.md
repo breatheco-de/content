@@ -1,35 +1,35 @@
 ---
-title: " ¿Qué son las entradas o inputs controlados o no controlados en React.js"
-subtitle: "Hacer formularios en React.js es una de esas cosas que puede resultar un poco molesto"
+title: "What are controlled and/or uncontrolled inputs in React.js"
+subtitle: "Doing forms in React.js are one of those things that can be a little anoying"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
-status: "published"
+status: "pending_translation"
 date: "2020-10-19T16:36:30+00:00"
 tags: ["react","controlled inputs","uncontrolled inputs"]
 canonical: ""
 
 ---
 
-Esta lección habla más sobre **cómo trabaar con inputs en react** que sobre **qué es un input controlado**. Es mejor explicar las razones por la cual lo necesitamos y por qué los **inputs controlados** se consideran como el mejor enfoque en las aplicaciones React.js.
+This lesson is more about **how to work with inputs in react** than **what is a controlled input** its better to explain the reasons we need it and why **controlled inputs** is considered the best approach in React.js applications.
 
-## Inputs en Vanilla.js simple Javascript
+## Inputs in Vanilla.js simple Javascript
 
-Si quieres recuperar el valor de un input en Javascript/HTML simple, puedes hacer algo así:
+If you want to retrieve an input value in simple Javascript/HTML you can do something like this:
 
 ```jsx
 
-// Asumiendo que tu input tiene el ID=first_name:
+// Asuming you have this input with the ID=first_name:
 <input type="text id="first_name" /> 
 
-// Con Javascript puedes usar:
+// With javascript you can use:
 const value = document.querySelector('#first_name').value;
 ```
 
-Pero en React la solución no es tan simple; La única forma de mantener datos que pueden cambiar con el tiempo dentro de componentes react es usando el famoso `state`.
+But with React the solution is not that simple; the only way to keep data that may change over time inside react components are using the famous `state`.
 
-## Qué es un Input controlado
+## What is a Controlled Input
 
-Un input controlado es solo otro input con la única diferencia de que el valor de éste está sincronizado con el componente estado (`state`), algo así: 
+A controlled input is just another input with the difference that the value of it is in sync with the state of a component, something like this:
 
 ```jsx
 const AnyComponent = () => {
@@ -39,10 +39,10 @@ const AnyComponent = () => {
 }
 ```
 
-Cuando usas la propiedad del input `onChange`junto con la propiedad `value` estas básicamente forzando a que el valor de la entrada esté completamente sincronizado en dos sentidos con la variable de estado `inputValue`.
+When you use the input property `onChange` together with the property `value` you are basically forcing the input's value to be completely in two-way sync with the hooked state variable `inputValue`.
 
-1. Si se llama a la función onChange => inputValue.
-2. Si la variable `inputValue` se actualiza => el input también cambia su valor. 
+1. If the onChange function gets called => the inputValue will be updated.
+2. If the `inputValue` variable gets updated => the input will also change its value.
 
 ## Why use controlled inputs?
 
