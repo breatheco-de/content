@@ -24,9 +24,9 @@ Dominar el uso de los `arrays y bucles` es una de las 5 habilidades fundamentale
 
 **No no no…Espera:  ¿Array?  ¿Qué?**
 
-Un array es, normalmente, cualquier lista o colección de valores. Las reglas sobre cómo agregar o eliminar elementos de esa lista pueden cambiar de un lenguaje de programación a otro. Pero - en general - son las única forma en que los desarrolladores pueden crear elementos.
+Un array es, normalmente, cualquier lista o colección de valores. Las reglas sobre cómo agregar o eliminar elementos de esa lista pueden cambiar de un lenguaje de programación a otro. Pero - en general - son la única forma en que los desarrolladores pueden crear elementos.
  
-Los arrays son la única forma en que tenemos que enumerar cosas - independientemente de la aplicación con la que estés trabajando, siempre tendrás cosas que enumerar. Por ejemplo: lista de estudiantes, lista de artistas, lista de transacciones ... ¡cualquier cosa!
+los arrays son la única forma que tenemos para enumerar cosas - independientemente de la aplicación con la que estés trabajando, siempre tendrás cosas que enumerar. Por ejemplo: lista de estudiantes, lista de artistas, lista de transacciones ... ¡cualquier cosa!
 
 Este tipo de datos hace muchas más cosas que los otros. Las listas son la única forma de almacenar más de un tipo de datos en la misma variable.
 
@@ -47,7 +47,7 @@ Cada array tiene los mismos conceptos básicos:
 ## ¿Cómo declarar un array?
 ***
 
-These are different examples of list declarations:
+These are different examples of list declarations: 
 
 ```javascript
 var myArray = []; //lista vacia
@@ -125,7 +125,7 @@ var myNewArray = [];
 ## Removing/Adding from the Beginning
 ***
 
-Los métodos shift y unshift son como push y popp con la diferencia de que solo funcionar desde al principio de la lista.
+Los métodos shift y unshift son como push y pop con la diferencia de que solo funciona desde al principio de la lista.
 
 ```javascript
 var myArray = ['Juan','Maria'];
