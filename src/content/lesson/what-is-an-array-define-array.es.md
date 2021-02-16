@@ -47,7 +47,7 @@ Cada array tiene los mismos conceptos básicos:
 ## ¿Cómo declarar un array?
 ***
 
-These are different examples of list declarations: 
+Hay muchas formas de declarar un arreglo o lista: 
 
 ```javascript
 var myArray = []; //lista vacia
