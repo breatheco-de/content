@@ -189,6 +189,7 @@ checkpoint_b = db.session.begin_nested()
 ingredient = Ingredient()
 ingredient.name = 'bacon'
 db.session.add(ingredient)
+```
 
 Now our 'PIZZA' has the following ingredients:
 
