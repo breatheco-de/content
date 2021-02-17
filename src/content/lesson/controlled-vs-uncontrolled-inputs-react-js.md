@@ -19,7 +19,7 @@ If you want to retrieve an input value in simple Javascript/HTML you can do some
 ```jsx
 
 // Asuming you have this input with the ID=first_name:
-<input type="text id="first_name" /> 
+<input type="text" id="first_name" /> 
 
 // With javascript you can use:
 const value = document.querySelector('#first_name').value;
