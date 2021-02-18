@@ -90,7 +90,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 |:----------------|:-----------------|
 |Keyup           |When the user releases the keyboard key.    |
 |Keydown	     |When the user presses the keyboard key.    |
-|Keypress       |When the user presses and release the keyboard key.  The difference from keydown/up is that Keypress only works on character keys.  For example, it does not work on the up|down|left|right arrows.     |
+|Keypress       |When the user presses and releases the keyboard key.  The difference from keydown/up is that Keypress only works on character keys.  For example, it does not work on the up|down|left|right arrows.     |
 
 [[demo]]
 | :point_up: Play with this demo here 
