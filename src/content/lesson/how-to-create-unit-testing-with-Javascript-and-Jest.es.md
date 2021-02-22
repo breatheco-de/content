@@ -8,7 +8,7 @@ tags: ["Jest"]
 status: "published"
 ---
 
-Los seres humanos commeten errores, todo el tiempo. A medida que avances en tu carrera de desarrollo te sentirás más cómodo con eso.
+Los seres humanos cometen errores, todo el tiempo. A medida que avances en tu carrera de desarrollo te sentirás más cómodo con eso.
 
 Los desarrolladores Senior entienden que su código tendrá errores (no importa cuan inteligente seas) y que la única forma de que tenga calidad es escribiendo código adicional, a eso le llamamos "Pruebas unitarias", aquí aprenderás por qué y cómo hacerlo.
 
@@ -21,7 +21,7 @@ Hay varias maneras de probar tus aplicaciones, pero las pruebas unitarias son la
 
 Las pruebas unitarias son el proceso de dividir su código en pequeñas funciones y probar cada una de esas funciones por separado. Por ejemplo:
 
-Supongamos que estás construyendo una función `sums` que suma dos números:
+Supongamos que estás construyendo una función `sum` que suma dos números:
 
 ```js
 
@@ -54,18 +54,18 @@ Nota: Las pruebas unitarias no se preocupan por el contenido de la función `sum
 
 + Unas buenas pruebas unitarias sirven como **documentación y definen** lo que se supone que debe hacer tu código.
 
-+ **Las pruebas unitarias mejoran el trabajo en equipo**. Podrá sseguir la lógica detrás de su código y tu equipo será capaz de coordinar su código en consecuencia. Al revisar los códigos de los demás, el trabajo en equipo es más ágil.
++ **Las pruebas unitarias mejoran el trabajo en equipo**. Podrá seguir la lógica detrás de su código y tu equipo será capaz de coordinar su código en consecuencia. Al revisar los códigos de los demás, el trabajo en equipo es más ágil.
 
 
 ## Escribiendo tu primera prueba unitaria con Jest
 
-Jest es el framework de pruebas unitarias más popular en javascript, utilizado por grandes empresas como airbnb, twitter, spotify y  cuenta con plugins que se integran increíblemente con frameworks de front-end como React, Vue, Angular, etc.
+Jest es el framework de pruebas unitarias más popular en javascript, utilizado por grandes empresas como airbnb, twitter, spotify y cuenta con plugins que se integran increíblemente con frameworks de front-end como React, Vue, Angular, etc.
 
 Requiere de casi 0 configuración para empezar a usarlo, es extremadamente rápido y los mensajes de error o de feedback son muy claros.
 
 ### Ejemplo de Sintaxis
 
-La siguiente función devuelve `true` si el sting de entrada dado está en mayúscula, en caso contrario devuelve `false`:
+La siguiente función devuelve `true` si el string de entrada dado está en mayúscula, en caso contrario devuelve `false`:
 
 ```js
 function isUpperCase(sentence){
@@ -85,7 +85,7 @@ Aquí estamos probando la función para la entrada `HELLO`, Pero hacer sólo una
 
 ## Probando fallas
 
-Es mejor encontrar todos las fallas ahora que después (en producción), por eso tienes que construir tus pruebas intentando **romper tus funciones**.
+Es mejor encontrar todas las fallas ahora que después (en producción), por eso tienes que construir tus pruebas intentando **romper tus funciones**.
 En lugar de probar el escenario ideal, intenta pensar en posibles entradas extrañas que puedas pasar a tu función.
 
 ## Planificando tus pruebas
@@ -135,7 +135,7 @@ Aquí hay un ejemplo funcionando:
 
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Unit-Testing-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-## Todas las posibles preguntas (aserciones) que se puedas hacer
+## Todas las posibles preguntas (aserciones) que puedes hacer
 
 Hemos estado usando `expect(something).toBe(something)` pero Jest tiene muchas funciones `expect` posible que te ayudarán con tus pruebas, por ejemplo: 
 
