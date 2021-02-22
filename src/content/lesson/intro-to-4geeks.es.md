@@ -1,12 +1,13 @@
 ---
 title: "Introducción a 4Geeks Academy"
-subtitle: "Espero que leas este artículo completo, este artículo tiene una receta de 8 minutos para sacarle el máximo de provecho a la academia ¡De la manera más efectiva"
-cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
+subtitle: "Espero que leas este artículo completo, este artículo tiene una receta de 8 minutos para sacarle el máximo de provecho a la academia. ¡De la manera más efectiva"
 textColor: "white"
 status: "published"
 tags: ["best practices"]
 authors: ["alesanchezr"]
 date: "2020-10-19T16:36:31+00:00"
+canonical: ""
+cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 ---
 
 ¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor lean hasta el final, ¡trataré de no aburrirlos!
@@ -19,17 +20,17 @@ Estas aquí para a desarrollar tus habilidades para codificar hasta unnivel en e
 
 También estas aquí porque necesitas ayuda, no sólo técnica sino también espiritual. Digo esto de la manera más prágmática posible.
 
-> La mayor pared que deberás derrumbar para convertirte en un desarrollador no se está en el programa ni en el contenido, sino en tu mente.
-Vamos a cambiar la forma en que estas acostumbrado a aprender, la forma en que ves la vida, la manera en que te vendes a ti mismo (por lo tanto la manera en que te ves a ti mismo), estamos derribando los viejas ideas equivocadas sobre ti mismo, el reto y sobre tu vida profesional.
+> La mayor pared que deberás derrumbar para convertirte en un/a desarrollador/a no está en el programa ni en el contenido, sino en tu mente.
+Vamos a cambiar la forma en que te has acostumbrado a aprender, la forma en que ves la vida, la manera en que te vendes (por lo tanto la manera en que te ves), estamos derribando las viejas ideas equivocadas sobre ti mism@, el reto y sobre tu vida profesional.
 
-### Estamos aquí para derribar 3 Paredes respecto al Código
+### Estamos aquí para derribar 3 💻 Paredes respecto al Código
 
 Durante los años que han pasado hemos identificado razones específicas por la cuales los estudiantes se frustran y dejan de intentar ser desarrolladores o no completan el curso y no consiguen trabajo.
 
 
 #### Pared #1: Confianza 🥺 (Síndrome del impostor)
 
-![Síndrome del Impostor](https://ucarecdn.com/6cf4655f-665f-4f68-b021-f34238cedd69/)
+![Síndrome del Impostor](../../assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png)
 
 En algún momento de nuestras vidas (en alguno más que otros) todos hemos pensado que somos la persona más estúpida de una sala. Si continuamos pensado eso durante mucho tiempo y no nos sentimos cómodos con cualquier disciplina incluso podemos pensar que no somos inteligentes ¡Mentira!¡Nada que ver! Tu eres parte de esta academia, nosotros no aceptamos estudiantes que no tengan la inteligencia suficiente para vivir de la programación, debes creer en eso ¡Especialmente cuando las cosas se ponen difíciles!
 
@@ -62,9 +63,11 @@ Sabemos como enseñarte: lo hemos hecho uno y otra vez, pero te enseñaremos de 
 
 #### Pared 3: Inactividad 😴 
 
-Este es un campo de entrenamiento, no importa si lo haces full-time o part-time, debes tener una mentalidad de entrenamiento y trabajar cada día como si fuera el último. El cerebro humano absorve 80% más cuando se siente desafiado y asustado, si descansas un día el cerebro se relaja y [está demostrado](https://www.youtube.com/watch?v=h5PLO4XAXhs) que usualmente se olvida del 60% de la información recientemente adquirida en un día a menos que la uses, la uses nuevamente y nuevamente durante un periodo de 7 días (por lo menos).
+Este es un campo de entrenamiento. No importa si lo haces full-time o part-time. Debes tener una mentalidad de entrenamiento y trabajar cada día como si fuera el último. El cerebro humano absorbe 80% más cuando se siente desafiado y asustado. Si descansas un día el cerebro se relaja, y [está demostrado](https://www.youtube.com/watch?v=h5PLO4XAXhs) que usualmente se olvida del 60% de la información adquirida recientemente en un día, a menos que la uses, la uses nuevamente, y nuevamente, durante un periodo de 7 días (por lo menos).
 
-Estos números no son pequeños, 60% en un día y 90% si no practicas en una semana ¡Estas perdiendo tu tiempo y dinero si no te lo tomas en serio!
+Estos números no son pequeños, 60% en un día y 90% si no practicas en una semana ¡Estás perdiendo tu tiempo y dinero si no te lo tomas en serio!
+
+##### 📝 Receta para evitar la inactividad
 
 1. **Habla con tu pareja, amigo y familia:** Necesitas un descanso de prácticamente todo. Sabemos que la vida ya lo suficientemente complicada para además añadirle más responsabilidades, pero este es sólo un breve periodo de tu tiempo. La recompesa es eterna ¡Todos deben alinearse! Intenta matenerte abierto, tener un escritorio para trabajar sin distracciones, etc. Tu hogar debe estar sincronizado con este momento de tu vida.
 
@@ -72,20 +75,21 @@ Estos números no son pequeños, 60% en un día y 90% si no practicas en una sem
 
 3. **No faltes a clases:** Que faltes a clases es nuestra mayor preocupación, estamos muy preocupados de la asistencia porque ha demostrado ser el disuasivo #1 para tu motivación, falta dos clases de corrido genera la tormenta perfecta. Necesitarás mentoría uno ano y doblar las horas de práctica esa semana para evitar retrasarte.
 
-4. **Inovlúcrate:** Asistir a clases no es suficiente, los seres humanos son emocionales, integran mejor la información cuando estás comprometido, emocional, asistiendo a eventos y estudiando en grupos, hablando públicamente al respecto, etc.
+4. **Involúcrate:** Asistir a clases no es suficiente, los seres humanos son emocionales, integran mejor la información cuando estás comprometido, emocional, asistiendo a eventos y estudiando en grupos, hablando públicamente al respecto, etc.
 
 ## ¿Qué sigue?
 
-Asegúrate de entener bien como funciona la academia:
+Asegúrate de entender bien cómo funciona la academia:
 
 1. **Plataforma:** BreatheCode, el Programa (aprende a seguirlo), GeekPal, GeekForce, las lecciones, ejercicios, proyectos y recursos.
-2. **Las personas:** ¡Somos más de 1000 personas! Líderes, mentores,el [Alumni y los estudiantes](http://sep.4geeksacademy.com/), están aquí para ayudarte y no nos iremos a ningún lado. Haz networking, amigos ¡Aprovecha!
+2. **Las personas:** ¡Somos más de 1.000 personas! Líderes, mentores, el [Alumni y los estudiantes](http://sep.4geeksacademy.com/), están aquí para ayudarte y no nos iremos a ningún lado. Haz networking, amigos ¡Aprovecha!
 3. **La comunidad:** La comunidades no sólo dan, no sólo trabajan preparando eventos, apoyar a otros estudiantes, da primero y recibirás después.Slack, GeekTalks, Workshops, Grupos de Estudio.
 
 
-## Mejores prácticas mientras aprender a programar
+## Mejores prácticas mientras aprendes a programar
 
-| **No leas (demasiado):** programar es como un deporte, la mejor forma de mejorar es practicando. Aprender haciendo. ![Es práctica](https://ucarecdn.com/01868f7d-4949-4e15-85da-8042ea24a11a/-/resize/x300/)| ---   | ----      |
-| **Duerme:** Dormir bien es tan importante como ir a clases, la programación es 100% intelectual, tener una mente fresca lo es todo. ![Sleep](https://ucarecdn.com/d29be460-cc2e-42e6-bf92-f9516fd7b21a/-/resize/200x/) |
-| **Aprende a preguntar:** El mayor desafío que debes enfrentar al principio es [aprender a hacer preguntas](https://content.breatheco.de/how-to/ask), escoger las palabras adecuadas, saber exactamente que necesitas saber es la mejor habilidad para cualquier desarrollador.
-| **Haz preguntas:** Todos ganan, al prepara la pregunta aprenderas y nosotros tendremos feedback de tu entendimiento, es el mejor incentivo para tu proceso de aprendizaje. Es para lo que estás pagando.![Haz preguntas](https://ucarecdn.com/5e975e91-1447-4117-b50b-b00df99a88a5/) |
+| **No leas (demasiado):** programar es como un deporte, la mejor forma de mejorar es practicando. Aprender haciendo. ![Es práctica](../../assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg)
+| ---   | ----      |
+| **Duerme:** Dormir bien es tan importante como ir a clases, la programación es 100% intelectual, tener una mente fresca lo es todo. ![Duerme](../../assets/images/d29be460-cc2e-42e6-bf92-f9516fd7b21a.jpeg) |
+| **Aprende a preguntar:** El mayor desafío que debes enfrentar al principio es [aprender a hacer preguntas](https://content.breatheco.de/how-to/ask), escoger las palabras adecuadas. Saber exactamente qué necesitas saber es la mejor habilidad para cualquier desarrollador/a.
+| **Haz preguntas:** Es un ganar-ganar, al preparar la pregunta aprenderás y el equipo tendrá feedback de tu entendimiento. Es el mejor incentivo para tu proceso de aprendizaje. Es para lo que estás pagando. | ![Haz preguntas](../../assets/images/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c.jpeg) |
