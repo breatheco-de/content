@@ -9,6 +9,8 @@ status: "draft"
 
 ---
 
+## Why implementing Token Based Authentication
+
 <img src="../../assets/images/authentication.png" align="right" />
 
 There are several ways to create an authentication layer in web applications but we are going to be focusing today in Token Based Authentication because of several reasons:
