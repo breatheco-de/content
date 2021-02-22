@@ -30,12 +30,23 @@ In plan english authentication means being able to identify who is making reques
 
 ## What is a Security Token?
 
-In a broad way a token is "proof of something", for example: The confirmation number a bank gives you after you successfully complete a wire transfer. The transaction token serves as proof to validate that the transaction exists and it's valid.
+In a broad way a token is a "number that proves something", for example: When you finish making a bank transfer, the bank sends a confirmation "token" serves as proof to validate that the transaction exists and it's valid. You can call that confirmation number a "transfer confirmation token".
 
-But what happens if someone starts trying to fake a confirmation number? For tokens to be reliable they need to be more than just a number:
+Other examples of every-day tokens:
+
+- Your social security number (token) proves your credit history.
+- Credit Card number proves you have a valid credit card.
+- Etc.
+
+### A security token it's more then just a token
+
+Tokens use for authentication need to be better that normal tokens, they need to be almost impossible to fake, predict or break.
 
 - They cannot be consecutive, that will make them very predictable, hackers will guess the next one.
-- They need to be very large numbers: That way 
+- Almost infinite: What will happen if you run out of tokens? Can you imagine MasterCard running out of credit card numbers?
+- Non reusable for a long period of time: If you abandon your mobile phone number for a couple of years and you call again, you fill find 
+- They need to be hard to fake: What happens if a hacker tries random tokens?
+-  
 
 Security tokens need to be random large numbers, that way hackers will have a hard time trying to fake a token.
 
