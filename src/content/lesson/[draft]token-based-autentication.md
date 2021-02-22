@@ -9,6 +9,8 @@ status: "draft"
 
 ---
 
+![Authentication Layer API](../../assets/images/authentication.png)
+
 There are several ways to create an authentication layer in web applications but we are going to be focusing today in Token Based Authentication because of several reasons:
 
 - Easy to implement.
@@ -18,7 +20,7 @@ There are several ways to create an authentication layer in web applications but
 
 ## What is authentication?
 
-In plan english authentication means being able to identify who is making requests to your application; You normally implement authentication because you want:
+In plan english authentication means being able to identify who is making requests to your application; You normally implement an authentication layer in your application because you want:
 
 - Users to be able to log in and log out.
 - Privacy protection: Restrict access to information based on the user role. For example: Only I should be able to update my email and password.
