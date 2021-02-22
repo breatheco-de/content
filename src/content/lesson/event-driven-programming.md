@@ -220,6 +220,8 @@ Here is an example:
 
 In this code, we are adding an event listener to the click event.  Afterwards, the first time the click listener gets called, the handler function removes the event listener from the button.  That’s why upon the second time the button gets clicked, nothing happens.
 
+//Se debe corregir el código del ejemplo de la línea 225
+
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/">Click here to open demo in a new window</p></small></div>
