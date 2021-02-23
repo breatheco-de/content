@@ -70,7 +70,21 @@ You may notice that the string is divided in three sections separated by a (.). 
 
 We strongly recomend using [JWT Extended library](https://github.com/vimalloc/flask-jwt-extended) to implement JWT autentication in your Python Flask API, the process can be divided in the following steps:
 
-### 1) Create one endpoint for generating new tokens
+### 1) Include the JWT library in your Flask App setup
+
+```py
+from flask_jwt_extended import JWTManager
+
+# you must already have this line in your project
+# you don't have to add it again.
+app = Flask(__name__)
+
+# Setup the Flask-JWT-Extended extension
+app.config["JWT_SECRET_KEY"] = "super-secret"  # Change this "super secret" with something else!
+jwt = JWTManager(app)
+```
+
+### 2) Create one endpoint for generating new tokens
 
 The endpoint should be a POST because you are creating tokens (POST is for creation).
 
@@ -105,11 +119,12 @@ def create_token():
     return jsonify({ "token": access_token, "user_id": user.id })
 ```
 
-### 2) Use the `@jwt_required()` decorator on private routes
+### 3) Use the `@jwt_required()` decorator on private routes
 
 Now, any endpoint that should requires authorization (private endpoint) sould use the `@jwt_required()` decorator and you will be able to retrive the user information (if valid) using the `get_jwt_identity` function.
 
 ```py
+from flask_jwt_extended import jwt_required, get_jwt_identity
 # Protect a route with jwt_required, which will kick out requests
 # without a valid JWT present.
 @app.route("/protected", methods=["GET"])
@@ -181,5 +196,5 @@ const getMyTasks = (username, password) => {
 }
 ```
 
-That is it! As you can see it's very simple to integrate JWT into your application using Flask/Python, just two steps on the backend and two steps on the front-ent. For any questions you can contact me on twitter [@alesanchezr](https://4geeksacademy.com) or use the #public-support channel on 4Geeks Academy's Slack community.
+That is it! As you can see it's very simple to integrate JWT into your application using Flask/Python, just three steps on the backend and two steps on the front-ent. For any questions you can contact me on twitter [@alesanchezr](https://4geeksacademy.com) or use the #public-support channel on 4Geeks Academy's Slack community.
 
