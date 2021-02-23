@@ -49,12 +49,38 @@ Tokens used for authentication need to be more that normal just numbers, they ne
 - Non-reusable: There are cases of re-usable tokens, but in general once a token is generated no one else should every use it but you.
 - Validatable: The token must follow some hidden pattern (encripcion?) that allows validating the token without compromising the owner or author.
 
-### Using hashes as tokens
+### Generating tokens
 
-Security tokens need to be random large numbers, that way hackers will have a hard time trying to fake a token.
+There are several types of tokens you can use for your Autentication system like Basic, Bearer, or JWT. Most of them use Advance cryptography algorithms that we are not going to address in this lesson. Instead, we are going to talk about hashing.
 
-Proof of 
+#### What is a hash?
 
-Tokens are very old but prominent technolgy, they are broadly used in any security implementations all over the industry, the whole Blockchain (and Bitcoin) revolution it's mainly based on the concept of "tokens" and "hashes".
+A hash is a **unique** alphanumeric number that gets generated from a specific seed or **value**, for example:
 
-In plan english a token is a "very big number"
+```py
+import hash_function
+
+value = "alex"
+unique_hash = hash_function(value)
+```
+
+Explanation: the function `hash_function` will always return the exact same `unique_hash` if the same value is given, take a look at this demonstration, start typing on the input:
+
+<iframe src="https://full-stack-assets.breatheco.de/live-demos/security/hashing" height="300" title="Hashing functions example"></iframe>
+
+Note: There are several popular hashing functions: MD5, Sha1, Sha256, Sha256, etc. 
+
+#### What makes hashing functions so cool?
+
+Hashing functions have become the best way to generate tokens in the security world because:
+
+1. They are consistent: They always return the same output to the same given input.
+2. They are "impossible" to reverse: If a hacker gets access to a token, they will never be able to know what was the original value.
+3. They have the same size: For example, all the tokens generated using MD5 will have 40 characters.
+4. They are "fast": Hashes rely on advanced math to efficiently generate the alphanumeric numbers.
+
+Note: Every bitcoin wallet address has unique a hash, every commit you do in github has a unique hash, etc.
+
+## How to implement authentication in your API
+
+The most effective wat to implement 
