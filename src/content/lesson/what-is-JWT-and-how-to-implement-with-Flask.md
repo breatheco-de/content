@@ -1,10 +1,10 @@
 ---
 title: "Understanding JWT and how to implement a simple JWT with Flask"
-subtitle: "What is JWT and how to apply it to your API"
+subtitle: "What is JSON Web Token (JWT), how it works and how to apply it to your API using the Flask Microframework for API Development"
 cover_local: "../../assets/images/http-0.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["HTTP"]
+tags: ["HTTP", "API", "Security", "Authentication"]
 status: "published"
 
 ---
