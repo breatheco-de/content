@@ -83,4 +83,55 @@ Note: Every bitcoin wallet address has unique a hash, every commit you do in git
 
 ## How to implement authentication in your API
 
-The most effective wat to implement 
+The most simple way to implement autentication in your database and API:
+
+1. Create a `User` table/model that represents every user inside your application.
+2. That User table must contain email and password for every user.
+3. Create one api endpoint called `POST /token` that generates a token only if it receives an email and password that maches in the database.
+4. The `POST /token` endpoint will return the token to the front-end if everything is ok.
+5. Then, on every other endpoint in your database you will have to validate if the token exists in the request header and if it does you will have to validate it.
+
+![Autentication workflow](../../assets/images/authentication-diagram.png)
+
+### Every token is a session
+
+The momend you generate the token you can decide if you want it to expire, same way web sessions expire when you log in into your online bank account.
+
+When a client successfully authenticates it will receive that unique token and it will be able to attached to the request headers of every request it makes from that moment on, that token will be the "User session".
+
+It is recomended to save that token in the cookies or localStorage of your front-end application.
+
+```js
+let myToken = "aDSA45F$%!sd&sdfSDFSDFytrefERF";
+localStorage.setItem("token", myToken);
+
+
+//You can retrieve the token any moment, anywhere in your application by using:
+let myToken = localStorage.getItem("token);
+```
+
+### How to attach the token to the request header:
+
+If you are doing a request from the Front-End this will be an ideal way to attach the token to your Authorization headers:
+
+```js
+let myToken = localStorage.getItem("token);
+fetch('https://myApi.com/path/to/endpoint', {
+    method: "POST", //or any other method,
+    headers: {
+      "Authorization": myToken, // ⬅⬅⬅ authorization header
+    },
+    body: JSON.stringify(body)
+})
+    .then(resp => resp.json())
+    .then(data => console.log("Success!!", data))
+    .catch(error => console.log(error));
+    
+```
+
+### Recomended packages for API Authentication
+
+#### If you are using Python Flask framework
+
+I strongly recomend using [Flask JWT Extended](https://github.com/vimalloc/flask-jwt-extended).
+
