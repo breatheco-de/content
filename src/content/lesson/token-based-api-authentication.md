@@ -66,7 +66,7 @@ unique_hash = hash_function(value)
 
 Explanation: the function `hash_function` will always return the exact same `unique_hash` if the same value is given, take a look at this demonstration, start typing on the input:
 
-<iframe src="https://full-stack-assets.breatheco.de/live-demos/security/hashing" height="300" title="Hashing functions example"></iframe>
+<iframe src="https://full-stack-assets.breatheco.de/live-demos/security/hashing/" height="300" title="Hashing functions example"></iframe>
 
 Note: There are several popular hashing functions: MD5, Sha1, Sha256, Sha256, etc. 
 
