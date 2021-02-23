@@ -51,7 +51,7 @@ Tokens used for authentication need to be more that normal just numbers, they ne
 
 ### Generating tokens
 
-There are several types of tokens you can use for your Autentication system like Basic, Bearer, or JWT. Most of them use Advance cryptography algorithms that we are not going to address in this lesson. Instead, we are going to talk about hashing.
+There are several types of tokens you can use for your Autentication system like Basic, Bearer, or JWT. Most of them use Advance cryptography algorithms that we are not going to address in this lesson (you can watch this [amazing video to learn more](https://www.youtube.com/watch?v=4zahvcJ9glg)). Instead, we are going to talk about hashing.
 
 #### What is a hash?
 
