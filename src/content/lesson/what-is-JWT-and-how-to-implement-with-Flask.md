@@ -52,11 +52,11 @@ In a nutshell: JWT is an amazing alternative because `Basic Token` is to simple 
 
 With JWT Tokens you don't need a database, the token itself contains all the information needed.
 
-![Autentication workflow](../../assets/images/jwt-vs-bearer.png)
+![Autentication workflow](../../assets/images/jwt-vs-bearer-token.png)
 
 ## Structure of the JWT Token
 
-![Autentication workflow](../../assets/images/jwt-toke-structure.png)
+![Autentication workflow](../../assets/images/jwt-token-structure.png)
 
 You may notice that the string is divided in three sections separated by a (.). Each section has it meaning:
 
