@@ -177,7 +177,7 @@ const getMyTasks = (username, password) => {
 
      fetch(`https://your_api.com/protected`, {
         method: 'GET',
-        headers: { 'Authorization': token } // ⬅ authorization token
+        headers: { 'Authorization': 'Bearer '+token } // ⬅ authorization token
      })
          .then(resp => {
               if(resp.ok) resp.json();
