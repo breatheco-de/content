@@ -121,7 +121,9 @@ def create_token():
 
 ### 3) Use the `@jwt_required()` decorator on private routes
 
-Now, any endpoint that should requires authorization (private endpoint) sould use the `@jwt_required()` decorator and you will be able to retrive the user information (if valid) using the `get_jwt_identity` function.
+Now... any endpoint that requires authorization (private endpoints) should use the `@jwt_required()` decorator.
+
+You will be able to retrive the authenticated user information (if valid) using the `get_jwt_identity` function.
 
 ```py
 from flask_jwt_extended import jwt_required, get_jwt_identity
