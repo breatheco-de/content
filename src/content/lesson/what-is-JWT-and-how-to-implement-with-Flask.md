@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-Almost every [API needs an authentication layer](/lesson/token-based-api-authentication), and therea are may ways to tackle that problem, today we are going to be implementing JWT token into our Flask API.
+Almost every [API needs an authentication layer](/lesson/token-based-api-authentication), and there are mamy ways to tackle that problem, today we are going to be implementing JWT token into our Flask API.
 
 
 ## How API Authentication works
@@ -19,7 +19,7 @@ You can divide a standard authentication process in 5 main steps:
 1. The user writes its username and password on your website.
 2. The username and password gets sent to the backend API.
 3. The API looks for any record on the `User` table that matches with both parameters at the same time (username and password).
-4. If a user is found, it generates a `token` for that user and responds satatus_code=200 back to the front end.
+4. If a user is found, it generates a `token` for that user and responds status_code=200 back to the front end.
 5. The front-end will use that `token` from now on to make any future request.
 
 ![Autentication workflow](../../assets/images/authentication-diagram.png)
@@ -123,7 +123,7 @@ def create_token():
 
 Now... any endpoint that requires authorization (private endpoints) should use the `@jwt_required()` decorator.
 
-You will be able to retrive the authenticated user information (if valid) using the `get_jwt_identity` function.
+You will be able to retrieve the authenticated user information (if valid) using the `get_jwt_identity` function.
 
 ```py
 from flask_jwt_extended import jwt_required, get_jwt_identity
@@ -172,7 +172,7 @@ const login = (username, password) => {
 Let's suppose I am using the front-end application and I just logged in, but now I want to fech some private or protected endpoint:
 
 ```js
-// asuming "/protected" is a private endpoint
+// assuming "/protected" is a private endpoint
 const getMyTasks = (username, password) => {
      // retrieve token form localStorage
      const token = localStorage.getItem('jwt-token');
