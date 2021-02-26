@@ -1,6 +1,6 @@
 ---
-title: "Understanding JWT and how to implement a simple JWT with Flask"
-subtitle: "What is JSON Web Token (JWT), how it works and how to apply it to your API using the Flask Microframework for API Development"
+title: "Comprendiendo JWT y como implementar un JWT simple con Flask"
+subtitle: "Qué es un JSON Web Token (JWT), como funciona y como aplicarlo en tu API usando el Microframework Flask para el desarrollo de APIs"
 cover_local: "../../assets/images/http-0.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
@@ -8,85 +8,84 @@ tags: ["HTTP", "API", "Security", "Authentication"]
 status: "published"
 
 ---
+Casi todas las [API necesitan una capa o layer de autenticación](/lesson/token-based-api-authentication), y hay muchas maneras de abordar ese problema, hoy vamos a implementar el token JWT en nuestra API Flask.
 
-Almost every [API needs an authentication layer](/lesson/token-based-api-authentication), and therea are may ways to tackle that problem, today we are going to be implementing JWT token into our Flask API.
 
+## Cómo funciona la autenticación de la API
 
-## How API Authentication works
+Puedes dividir un proceso de autenticación estándar en 5 pasos principales:
 
-You can divide a standard authentication process in 5 main steps:
-
-1. The user writes its username and password on your website.
-2. The username and password gets sent to the backend API.
-3. The API looks for any record on the `User` table that matches with both parameters at the same time (username and password).
-4. If a user is found, it generates a `token` for that user and responds satatus_code=200 back to the front end.
-5. The front-end will use that `token` from now on to make any future request.
+1. El usuario escribe su nombre de usuario y contraseña en tu sitio web.
+2. El nombre de usuario y la contraseña se envían a la API de backend.
+3. La API busca cualquier registro en la tabla `User` que coincida con ambos parámetros al mismo tiempo (nombre de usuario y contraseña).
+4. Si se encuentra un usuario, genera un `token` para ese usuario y responde status_code=200 al front-end.
+5. El front-end utilizará ese `token` a partir de ahora para realizar cualquier solicitud futura.
 
 ![Autentication workflow](../../assets/images/authentication-diagram.png)
 
 [[info]]
-| :point_up: If you don't know what a token is, I would recomend [this reading](/lesson/token-based-api-authentication).
+| :point_up: i no sabes lo que es un token, te recomiendo [esta lectura](/lesson/token-based-api-authentication).
 
-## What is JWT?
+## ¿Qué es JWT?
 
-There are many ways to create tokens: Basic, Bearer, JWT, etc. All of them are different in its nature but all of them result in the same output: A hash (a big alphanumeric token).
+Hay muchas formas de crear tokens: Basic, Bearer, JWT, etc. Todas ellas son diferentes en su naturaleza, pero el resultado es la misma salida: Un hash (un gran token alfanumérico).
 
-| Type of token | How it looks                                                            |
+| Tipo de token | Ejemplo                                                           |
 | ------------- | ----------------------------------------------------------------------- |
-| Basic Token   | ecff2099b95ed507a27a4717ec78965d529cc346                                |
-| Bearer Token  | YWxlc2FuY2hlenI6NzE0YmZhNDNlN2MzMTJiZTk5OWQwYWZlYTg5MTQ4ZTc=            |
-| JWT Token     | eyJhbGciOiJIUzI1NiIsInR5c.eyJzdWIiOFt2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpM |
+| Token Básico   | ecff2099b95ed507a27a4717ec78965d529cc346                                |
+|  Token Bearer | YWxlc2FuY2hlenI6NzE0YmZhNDNlN2MzMTJiZTk5OWQwYWZlYTg5MTQ4ZTc=            |
+|  Token JWT    | eyJhbGciOiJIUzI1NiIsInR5c.eyJzdWIiOFt2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpM |
+
 
 [[info]]
-| :point_up: As you can see, JWT Tokens are bigger than the other two types of token.
+| :point_up: Como puedes ver, los Tokens JWT son más grandes que los otros dos tipos de token.
 
-**JSON Web Token or JWT is an open standard to create tokens**
+**JSON Web Token o JWT es un estándar abierto para crear tokens**
 
-This standard has become quite popular since it's very effective for Web Apps like Google APIs, where after the user authentication you make API requests. 
+Este estándar se ha vuelto bastante popular ya que es muy efectivo tanto para las Web Apps como las APIs de Google, donde después de la autenticación del usuario se hacen peticiones a la API. 
 
-JSON Web Token is a type of token that includes a structure, which can be decrypted by the server that allows you to authenticate the identity of the user of that application.
+El Token Web JSON es un tipo de token que incluye una estructura, que puede ser descifrada por el servidor que permite autenticar la identidad del usuario de esa aplicación.
 
-## Why using JWT Token?
+## ¿Por qué usar JWT Token?
 
-In a nutshell: JWT is an amazing alternative because `Basic Token` is to simple and easy to hack and Bearer Token it's harder to maintain because you have to store each token on the database.
+En pocas palabras: JWT es una alternativa increíble porque el `Token básico`o `Basic Token` es demasiado simple y fácil de hackear y el Token Bearer es más difícil de mantener porque tienes que almacenar cada token en la base de datos.
 
-With JWT Tokens you don't need a database, the token itself contains all the information needed.
+Con los tokens JWT no necesitas una base de datos, el propio token contiene toda la información necesaria.
 
 ![Autentication workflow](../../assets/images/jwt-vs-bearer-token.png)
 
-## Structure of the JWT Token
+## ## Estructura del token JWT
 
 ![Autentication workflow](../../assets/images/jwt-token-structure.png)
 
-You may notice that the string is divided in three sections separated by a (.). Each section has it meaning:
-
+Puedes observar que el string o cadena está dividida en tres secciones separadas por un (.). Cada sección tiene su significado:
 | Section name   |                                                                      |
 | -------------- | -------------------------------------------------------------------- | 
-| HEADER         | The first part stores the type of token and the encryption algorithm |
-| PAYLOAD        | The second part has the data that identifies the user: it can be its ID, user name, etc. |
-| SIGNATURE      | Digital signature, which is generated with the previous two sections, and it allows you to verify if the content has been modified. |
+| HEADER         | La primera parte almacena el tipo de token y el algoritmo de encriptación. |
+| PAYLOAD        | La segunda parte tiene los datos que identifican al usuario: puede ser su ID, nombre de usuario, etc. |
+| SIGNATURE      | Firma digital, que se genera con las dos secciones anteriores, y permite verificar si el contenido ha sido modificado. |
 
-## Implementing JWT in your project API
+## Implementación de JWT en la API de tu proyecto
 
-We strongly recomend using [JWT Extended library](https://github.com/vimalloc/flask-jwt-extended) to implement JWT autentication in your Python Flask API, the process can be divided in the following steps:
+Recomendamos encarecidamente el uso de [la librería JWT extendida](https://github.com/vimalloc/flask-jwt-extended) para implementar la autenticación JWT en tu API de Python Flask, el proceso se puede dividir en los siguientes pasos:
 
-### 1) Include the JWT library in your Flask App setup
+### 1) Incluir la librería JWT en la configuración de tu aplicación Flask
 
-```py
+``py
 from flask_jwt_extended import JWTManager
 
-# you must already have this line in your project
-# you don't have to add it again.
+# ya debes tener esta línea en tu proyecto
+# no tienes que añadirla de nuevo
 app = Flask(__name__)
 
-# Setup the Flask-JWT-Extended extension
-app.config["JWT_SECRET_KEY"] = "super-secret"  # Change this "super secret" with something else!
+# Configura la extensión Flask-JWT-Extended
+app.config["JWT_SECRET_KEY"] = "super-secret" # ¡Cambia las palabras "super-secret" por otra cosa!
 jwt = JWTManager(app)
-```
+``
 
-### 2) Create one endpoint for generating new tokens
+### 2) Crear un endpoint para generar nuevos tokens
 
-The endpoint should be a POST because you are creating tokens (POST is for creation).
+El endpoint debe ser un POST porque estás creando tokens (POST es para crear).
 
 ```bash
 POST /token
@@ -97,55 +96,53 @@ Body:
      "password": "12341234"
 }
 ```
-
-This is how the endpoint could look like in Python:
+Así es como podría verse el endpoint en Python:
 
 ```py
 from flask_jwt_extended import create_access_token
-# Create a route to authenticate your users and return JWT Token. The
-# create_access_token() function is used to actually generate the JWT.
+# Crea una ruta para autenticar a los usuarios y devolver el token JWT.
+# La función create_access_token() se utiliza para generar el JWT.
 @app.route("/token", methods=["POST"])
 def create_token():
     username = request.json.get("username", None)
     password = request.json.get("password", None)
-    # Query your database for username and password
+    # Consulta la base de datos por el nombre de usuario y la contraseña
     user = User.filter.query(username=username, password=password).first()
-    if user is None:
-        # the user was not found on the database
+    si el User es None:
+          # el usuario no se encontró en la base de datos
         return jsonify({"msg": "Bad username or password"}), 401
     
-    # create a new token with the user id inside
+    # crea un nuevo token con el id de usuario dentro
     access_token = create_access_token(identity=user.id)
     return jsonify({ "token": access_token, "user_id": user.id })
-```
+   
+   ```
+### 3) Usar el decorador `@jwt_required()` en rutas privadas
 
-### 3) Use the `@jwt_required()` decorator on private routes
+Ahora... cualquier endpoint que requiera autorización (endpoints privados) debería usar el decorador `@jwt_required()`.
 
-Now... any endpoint that requires authorization (private endpoints) should use the `@jwt_required()` decorator.
-
-You will be able to retrive the authenticated user information (if valid) using the `get_jwt_identity` function.
+Podrás recuperar la información del usuario autentificada (si es válida) usando la función `get_jwt_identity`.
 
 ```py
 from flask_jwt_extended import jwt_required, get_jwt_identity
-# Protect a route with jwt_required, which will kick out requests
-# without a valid JWT present.
+# Protege una ruta con jwt_required, bloquea las peticiones
+# sin un JWT válido presente.
 @app.route("/protected", methods=["GET"])
 @jwt_required()
 def protected():
-    # Access the identity of the current user with get_jwt_identity
+    # Accede a la identidad del usuario actual con get_jwt_identity
     current_user_id = get_jwt_identity()
     user = User.filter.get(current_user_id)
     
     return jsonify({"id": user.id, "username": user.username }), 200
 ```
+## Implementando JWT en tu proyecto Front-End
 
-## Implementing JWT in your project Front-End
+En el lado del front-end necesitamos dos pasos principales: Crear un nuevo token (también conocido como "login") y añadir el token a los headers cuando se obtenga cualquier otro endpoint privado.
 
-On the front-end side we need two main steps: Creating a new token (a.k.a: login) and appending the token to the headers when fetching any other private endpoints.
+### Crear un nuevo token:
 
-### Create new token:
-
-Based on the endpoints we build on earlier we have to `POST /token` with the username and password information in the request body.
+Basándonos en los endpoints que construimos anteriormente tenemos que `POST /token` con la información del nombre de usuario o username y la contraseña o password en el body de la petición.
 
 ```js
 const login = (username, password) => {
@@ -160,21 +157,21 @@ const login = (username, password) => {
               }else throw Error('Uknon error')
          })
          .then(data => {
-             // save your token in the localStorage
+             // guarda tu token en el localStorage
              localStorage.setItem("jwt-token", data.token);
          })
          .catch(error => console.error("There has been an uknown error", error))
 }
 ```
 
-### Fetch any private information
+### Obteniendo cualquier información privada
 
-Let's suppose I am using the front-end application and I just logged in, but now I want to fech some private or protected endpoint:
+Supongamos que estoy usando la aplicación de front-end y acabo de iniciar sesión, pero ahora quiero obtener algún endpoint privado o protegido:
 
 ```js
-// asuming "/protected" is a private endpoint
+// asumiendo que "/protected" es un endpoint privado
 const getMyTasks = (username, password) => {
-     // retrieve token form localStorage
+     // recupera el token de localStorage
      const token = localStorage.getItem('jwt-token');
 
      fetch(`https://your_api.com/protected`, {
@@ -191,12 +188,11 @@ const getMyTasks = (username, password) => {
               }
          })
          .then(data => {
-             // success
+             // éxito
              console.log("This is the data your requested", data);
          })
          .catch(error => console.error("There has been an uknown error", error));
 }
 ```
 
-That is it! As you can see it's very simple to integrate JWT into your application using Flask/Python, just three steps on the backend and two steps on the front-ent. For any questions you can contact me on twitter [@alesanchezr](https://4geeksacademy.com) or use the #public-support channel on 4Geeks Academy's Slack community.
-
+¡Eso es todo! Como puedes ver es muy sencillo integrar JWT en tu aplicación usando Flask/Python, sólo tres pasos en el backend y dos pasos en el front-ent. Ante cualquier duda puedes contactarme en twitter [@alesanchezr](https://4geeksacademy.com) o utilizar el canal #public-support en la comunidad Slack de 4Geeks Academy.
