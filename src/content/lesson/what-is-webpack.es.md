@@ -144,7 +144,7 @@ Arriba, le estamos diciendo a Webpack que el css-loader cargará cualquier archi
 <br />
 <br /> 
 
-### :four: Puedes instalador otros loaders (cargadores) o asombrosos plugins
+### :four: Puedes instalar otros loaders (cargadores) o asombrosos plugins
 
 <br />
 
