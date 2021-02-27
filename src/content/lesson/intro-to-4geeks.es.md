@@ -88,8 +88,8 @@ Asegúrate de entender bien cómo funciona la academia:
 
 ## Mejores prácticas mientras aprendes a programar
 
-| **No leas (demasiado):** programar es como un deporte, la mejor forma de mejorar es practicando. Aprender haciendo. ![Es práctica](../../assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg)
+| **No leas (demasiado):** programar es como un deporte, la mejor forma de mejorar es practicando. Aprender haciendo. |     ![Es práctica](../../assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg) |
 | ---   | ----      |
-| **Duerme:** Dormir bien es tan importante como ir a clases, la programación es 100% intelectual, tener una mente fresca lo es todo. ![Duerme](../../assets/images/d29be460-cc2e-42e6-bf92-f9516fd7b21a.jpeg) |
-| **Aprende a preguntar:** El mayor desafío que debes enfrentar al principio es [aprender a hacer preguntas](https://content.breatheco.de/how-to/ask), escoger las palabras adecuadas. Saber exactamente qué necesitas saber es la mejor habilidad para cualquier desarrollador/a.
-| **Haz preguntas:** Es un ganar-ganar, al preparar la pregunta aprenderás y el equipo tendrá feedback de tu entendimiento. Es el mejor incentivo para tu proceso de aprendizaje. Es para lo que estás pagando. | ![Haz preguntas](../../assets/images/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c.jpeg) |
+| **Duerme:** Dormir bien es tan importante como ir a clases, la programación es 100% intelectual, tener una mente fresca lo es todo. | ![Duerme](../../assets/images/d29be460-cc2e-42e6-bf92-f9516fd7b21a.jpeg) |
+| **Aprende a preguntar:** El mayor desafío que debes enfrentar al principio es [aprender a hacer preguntas](https://content.breatheco.de/how-to/ask), escoger las palabras adecuadas. Saber exactamente qué necesitas saber es la mejor habilidad para cualquier desarrollador/a. | ![Aprende a preguntar](../../assets/images/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c.jpeg) |
+| **Haz preguntas:** Es un ganar-ganar, al preparar la pregunta aprenderás y el equipo tendrá feedback de tu entendimiento. Es el mejor incentivo para tu proceso de aprendizaje. Es para lo que estás pagando. | ![Haz preguntas](../../assets/images/5e975e91-1447-4117-b50b-b00df99a88a5.jpeg)  |
