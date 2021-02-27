@@ -72,11 +72,11 @@ Hay millones de herramientas; Hemos buscado en Google: [haz clic aquí para acce
 
 ![ejemplos de historias de usuario](../../assets/images/94f4a28c-a93c-4e05-9f86-ce64abc2ff7b.png)
 
-La teoría es simple - si usas una ficha o post-it más grande que 7 x 13 cm, escribirás demasiado. Del mismo modo, si usa algo más pequeño que un plumón (como un bolígrafo o lapicero), escribirás demasiado.
+La teoría es simple - si usas una ficha o post-it más grande que 7 x 13 cm, escribirás demasiado. Del mismo modo, si usas algo más pequeño que un plumón (como un bolígrafo o lapicero), escribirás demasiado.
 
 Se supone que las historias de usuario son cortas y dulces. Se supone que ayudan a una mayor comunicación y que no cuentan toda la larga versión de la historia. Cumplir con estas restricciones físicas te ayudará.
 
-Al final, tendrá una enorme "lista de tareas pendientes", con las historias pasando desde "Tareas pendientes" a "Por Hacer" y, finalmente, a "Hecha". Cada historia se asignará a un desarrollador al comienzo de cada reunión de planificación.
+Al final, tendrás una enorme "lista de tareas pendientes", con las historias pasando desde "Tareas pendientes" a "Por Hacer" y, finalmente, a "Hecha". Cada historia se asignará a un desarrollador al comienzo de cada reunión de planificación.
 
 ![emeplo de historias de usuario](../../assets/images/faaa70b0-5343-43f0-8565-994c9b40ab8b.jpeg)
 
@@ -84,7 +84,7 @@ Al final, tendrá una enorme "lista de tareas pendientes", con las historias pas
 
 Si las historias son cortas y precisas, ¿cómo se supone que debemos conocer todos los diferentes criterios de aceptación? En la parte posterior de cada historia, tendremos que ingresar algunos "criterios de aceptación" que podemos verificar al final cuando el desarrollador piense que la función está terminada.
 
-Para escribir excelentes criterios de aceptación, debemos pensar no sólo en el comportamiento esperado y normal en la aplicación, sino también en también en el caso en que la aplicación falle (por ejemplo: cuando la contraseña es incorrecta, cuando se rechaza su tarjeta de crédito, etc.) 
+Para escribir excelentes criterios de aceptación, debemos pensar no sólo en el comportamiento esperado y normal en la aplicación, sino también en el caso en que la aplicación falle (por ejemplo: cuando la contraseña es incorrecta, cuando se rechaza su tarjeta de crédito, etc.) 
 
 ##### Por Ejemplo:
 
