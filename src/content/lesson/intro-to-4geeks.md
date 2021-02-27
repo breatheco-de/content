@@ -88,7 +88,7 @@ Please make sure you understand how the academy works:
 
 ## Best Practices while starting to learn code
 
-| **Don't read (much):** Coding is like sport, the best what to get better is thru practice. Learn by doing |    ![Its practice](../../assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg)
+| **Don't read (much):** Coding is like sport, the best what to get better is thru practice. Learn by doing |    ![Its practice](../../assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg) |
 | ---   | ----      |
 | **Sleep:** Having a good sleep is as important as coming to class, coding is 100% intellectual, having a sharp mind is everything. | ![Sleep](../../assets/images/d29be460-cc2e-42e6-bf92-f9516fd7b21a.jpeg) |
 | **Learn how to ask:** The biggest challenge you have to address at first is learning [how to ask a question](https://content.breatheco.de/how-to/ask), picking the right works, know exactly want you want to know is the best skill for any developer. | ![How to ask](../../assets/images/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c.jpeg) |

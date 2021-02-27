@@ -104,8 +104,8 @@ Todas las páginas deben empezar con la declaración del  `<DOCTYPE! Html>`, seg
 Vamos a simular el pensamiento de un navegador: Imaginemos que un usuario en su navegador (lado del cliente) está solicitando visualizar la página web: “breatheco.de”
 
 + El servidor abrirá un archivo HTML por defecto en el servidor, el cual probablemente sea: index.html.
-+ Luego, leerá el contenido y lo interpretará como un HTML (porque la extension del archivo es index.html).
-+ El usuario no verá el texto que contiene el archivo, en cambio verá una interpretacion visual de ese texto.
++ Luego, leerá el contenido y lo interpretará como un HTML (porque la extensión del archivo es index.html).
++ El usuario no verá el texto que contiene el archivo, en cambio verá una interpretación visual de ese texto.
 
  Como ya sabemos, dicha página va a contener POR LO MENOS los siguientes tags:
 
@@ -114,12 +114,12 @@ Vamos a simular el pensamiento de un navegador: Imaginemos que un usuario en su 
 |**Nombre**   |**Tags**   |**Descripción**   |
 |:----------|:----------|:-----------------|
 |HTML       |`<html>`   |Debemos empezar aclarándole al navegador que esto es un documento HTML. También podemos especificar la versión de HTML que estamos utilizando.   |
-|Head       |`<head>`   |Todo lo que esté dentro del HEAD no lo verá el usuario. Es la parte de la página en donde le dices al navegador en qué idioma está hecha la página, de qué se trata, cargas las fuentes (font type) necesarias, defines el icono que va a tener la pestaña en el navegador y muchas otras cosas realmente importantes.   |
+|Head       |`<head>`   |Todo lo que esté dentro del HEAD no lo verá el usuario. Es la parte de la página en donde le dices al navegador en qué idioma está hecha la página, de qué se trata, cargas las fuentes (font type) necesarias, defines el ícono que va a tener la pestaña en el navegador y muchas otras cosas realmente importantes.   |
 |Body       |`<body>`   |Aquí vas a colocar todo el contenido del documento que verá el usuario final.<br>Si esto fuera MS Word, el body marcaría el inicio de tu página, la primera línea del texto del documento.
 
 # El \<HEAD\> es como el sobre de una carta.
 ***
-Leemos el sobre de una carta para conocer información sobre la carta en si misma, no sobre el contenido. En el sobre puedes enterarte de quién la escribió, en que idioma está, de dónde viene, etc.
+Leemos el sobre de una carta para conocer información sobre la carta en sí misma, no sobre el contenido. En el sobre puedes enterarte de quién la escribió, en que idioma está, de dónde viene, etc.
 
 En el caso de HTML, `<head>` puede contener los siguientes tags (entre otros menos importantes):
 
@@ -135,7 +135,7 @@ En el caso de HTML, `<head>` puede contener los siguientes tags (entre otros men
 
 Ok, ahora que conocimos la estructura general y necesaria de la página, vamos a revisar cuáles son los tags que podemos y debemos utilizar para definir el contenido de la misma.
 
-Recuerda -por quinceava vez- que una página web es un…. ¡documento de texto! Así es, si pensaste la respuesta antes de leerla… ¡estás entendiendo! y si no es así pues no te preocupes, que no conozco a nadie que haya entendido HTML y CSS tan rápidamente ;).
+Recuerda -por quinceava vez- que una página web es un… ¡documento de texto! Así es, si pensaste la respuesta antes de leerla… ¡estás entendiendo! y si no es así pues no te preocupes, que no conozco a nadie que haya entendido HTML y CSS tan rápidamente ;).
 
 Veamos ahora como se compara un website a un documento de word:
 
@@ -181,7 +181,7 @@ Por eso hemos creado una serie de ejercicios que te explicarán mejor cada una d
 
 Acabas de aprender lo esencial para realizar una página web como se hacía en 1999. Ahora tenemos unas pocas semanas mas para ponerte al día con todo lo que ha pasado en estos últimos 20 años.  ¡Ya puedes decir que sabes hacer un website!
 
-HTML tiene muchísimos mas tags y también tiene una nueva versión llamada HTML5. Otra vez, no te preocupes, todo eso lo **aprenderás** en las próximas lecciones para que hagas páginas web hermosas (gracias a CSS) y con interacción (Gracias a los formularios y JavaScript) ¡¡Para eso es que estamos acá!!
+HTML tiene muchísimos más tags y también tiene una nueva versión llamada HTML5. Otra vez, no te preocupes, todo eso lo **aprenderás** en las próximas lecciones para que hagas páginas web hermosas (gracias a CSS) y con interacción (Gracias a los formularios y JavaScript) ¡¡Para eso es que estamos acá!!
 
 ![learn html](../../assets/images/ed1c57e1-5c67-4bf1-96ed-1fb2353fb2ca.gif)
 

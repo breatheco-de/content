@@ -26,7 +26,7 @@ When you learn in public you make social media, your notebook and discussion for
 - Your family and friends will start trusting your skills: After a while, they will start seeing you as an small expert on the matter, they will come to you for advice, recomendations or to hire your services.
 - Sharing is a support system: The impostor sindrome is no joke, when you are open and share your struggles publicly you will find others (probably many others) like you, it will calm you down because you know its normal and it will give you the strenght to continue. 
 - Rank better on the job portals: Websites like LinkedIn make your profile more visible when you publish often, boosting your reach exponentially.
-- Recruters will find you: Time after time at @4geeksAcademy we have find out that students learning in public get hired a lot faster, recruiters eventually start find out and contact them with job opportunities.
+- Recruiters will find you: Time after time at @4geeksAcademy we have find out that students learning in public get hired a lot faster, recruiters eventually start find out and contact them with job opportunities.
 
 ## How to start learning in public?
 
