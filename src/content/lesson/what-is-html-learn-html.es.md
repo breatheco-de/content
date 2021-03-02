@@ -65,7 +65,7 @@ Por último, es importante que una tag pueda tener una o más tags en su conteni
  <h1>Artículos<i>Electrónicos</i> Tags</h1>
 ```
 
- ## Espacios en Blanco y Saltos de Linea
+ ## Espacios en Blanco y Saltos de Línea
  ***
  Los espacios en blanco y los saltos de línea son ignorados por el navegador al momento de interpretar el texto. Si escribimos cinco espacios en blanco seguidos o uno solo, el navegador lo interpretará de la misma manera. Si queremos un salto de linea, debemos usar el tag `<br>`.  Si queremos mas "espacio" necesitamos insertar un `&nbsp;` por cada espacio en blanco (si, sabemos que es raro, pero es así).
 
