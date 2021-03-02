@@ -50,7 +50,7 @@ Until now, we had to concatenate strings to create the HTML we wanted to place i
 document.querySelector('body').innerHTML = '<h1>'+person.name+'</h1>';
 ```
 
-But React JS comes with `JSX`, a special "language" (a syntax extension to JS) that lets you write plain HTML within your React/Javascript code, without having to wrap it in quotes (making it a string). So that elimintes the need for annoying HTML string concatenation. 
+But React JS comes with `JSX`, a special "language" (a syntax extension to JS) that lets you write plain HTML within your React/Javascript code, without having to wrap it in quotes (making it a string). So that eliminates the need for annoying HTML string concatenation. 
 
 If you need to use regular JS code within your HTML blocks, you would simply have to wrap the former in curly braces like seen in the example below, similarly to using the construct `${dynamic_code}` that you have seen in our projects before.  
 
