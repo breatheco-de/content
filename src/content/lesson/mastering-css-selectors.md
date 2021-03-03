@@ -116,7 +116,7 @@ If we want to change the font color of the "Design Shack" link, we could use :ps
 ```css
 div[id*='section'] {color: red;}
 ```
-The following code targets any div with the word "section" in the title.  It can be "section3" or "section-Four" – it doesn’t matter.  As long as it contains the indicated string, the subsequent styles will apply.
+The following code targets any div with the word "section" in the title.  It can be "section3" or "section-Four" . it doesn’t matter.  As long as it contains the indicated string, the subsequent styles will apply.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
