@@ -48,7 +48,7 @@ Una vez definida la  `<tag>`, podemos describir con más detalle su comportamien
 
 
 
-En teoría,tu debes utilizar [una de estas tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true), no puedes inventar tus propias etiquetas porque el navegador no sabría cómo interpretarlas. Sí, debes el significado de cada**tag HTML** para utilizarlas sabiamente… ¡pero no te preocupes que no hay muchas! 🙂
+En teoría,tu debes utilizar [una de estas tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true), no puedes inventar tus propias etiquetas porque el navegador no sabría cómo interpretarlas. Sí, debes el significado de cada **tag HTML** para utilizarlas sabiamente… ¡pero no te preocupes que no hay muchas! 🙂
 
 Para el headinf principal o título más grande se utiliza la etiqueta `<h1>`. Por ejemplo: una tienda en línea podría tener una sección para la categoría de electrónicos, en ese caso un título coherente seria “Artículos Electrónicos” y la tag  `<h1>` lo escribiríamos de la siguiente manera:
 
@@ -67,7 +67,7 @@ Por último, es importante que una tag pueda tener una o más tags en su conteni
 
  ## Espacios en Blanco y Saltos de Linea
  ***
- Los espacios en blanco y los saltos de línea son ignorados por el navegador al momento de interpretar el texto. Si escribimos cinco espacios en blanco seguidos o uno solo, el navegador lo interpretará de la misma manera. Si queremos un salto de linea, debemos usar el tag `<br>`.  Si queremos mas "espacio" necesitamos insertar un `&nbsp;` por cada espacio en blanco (si, sabemos que es raro, pero es así).
+ Los espacios en blanco y los saltos de línea son ignorados por el navegador al momento de interpretar el texto. Si escribimos cinco espacios en blanco seguidos o uno solo, el navegador lo interpretará de la misma manera. Si queremos un salto de linea, debemos usar el tag `<br>`.  Si queremos más "espacio" necesitamos insertar un `&nbsp;` por cada espacio en blanco (si, sabemos que es raro, pero es así).
 
 **Estas tres alternativas se van a ver iguales (espacios y saltos de lineas van a ser ignorados):**
 ```html
@@ -141,7 +141,7 @@ Veamos ahora como se compara un website a un documento de word:
 
 <before-after width="500px" before="../../assets/images/f2021d8d-193d-4482-b189-ae0005b1bd88.png" after="../../assets/images/8e339149-97ae-4b15-ba59-a3ddf3777525.png" /></before-after>
 
-Las tags mas utilizadas dentro del `<body>` de un documento HTML son las siguientes:
+Las tags más utilizadas dentro del `<body>` de un documento HTML son las siguientes:
 
 |**Nombre**   |**Tags**   |**Descripción**   |
 |:----------|:----------|:-----------------|
@@ -162,7 +162,7 @@ Las tags mas utilizadas dentro del `<body>` de un documento HTML son las siguien
 ***
 Ya sabemos que cada  `<tag>` tiene un comportamiento diferente. Gracias a ellas podemos cambiar el tamaño de la letra - como ocurre con los headings - agregar márgenes entre párrafos, enumerar elementos, etc.
 
-Si quieres especificar más cel comportamiento de un tag en particular, puedes utilizar sus atributos. Para usarlos debes definirlos en el tag de apertura así:
+Si quieres especificar más el comportamiento de un tag en particular, puedes utilizar sus atributos. Para usarlos debes definirlos en el tag de apertura así:
 
 ```html
 <img src="http://www.mydomain.com/myimage.png" />
