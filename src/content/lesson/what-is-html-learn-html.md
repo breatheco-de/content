@@ -39,7 +39,7 @@ All tags must open and close. To close a tag you must place the same word or let
 
 # Attributes
 ***
-Once a `<tag>` is defined, we can describe in detail its behavior by assigning attributes to the `<tag>`.  For example, if we want our HTML document/page to have a link to another page, we use the `<a>` tag, and we assign to it an attribute called **href**, which allows us to specify the URL of the page we want to link.
+Once a `<tag>` is defined, we can describe in detail its behavior by assigning attributes to the `<tag>`.  For example, if we want our HTML document/page to have a link to another page, we use the `<a>` tag, and we assign to it an attribute called **href**, which allows us to specify the URL of the page we want to link. 
 
 ```html
 <a href="google.com">Click here and it will take you to Google.com</a>
