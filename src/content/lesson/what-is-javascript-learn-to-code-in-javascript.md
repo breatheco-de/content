@@ -16,7 +16,7 @@ tags: ["javascript"]
 
 **Coding is making *the computer* "obey"…**
 
-Everybody uses computers for different reasons.  Some computers are created to help people in their office (like personal computers), others to keep a room in a specific temperature (like [the NEST](https://nest.com/es/)), others are made to walk on Mars, and so many more things.
+Everybody uses computers for different reasons: some computers are created to help people in their office (like personal computers), others to keep a room in a specific temperature (like [the NEST](https://nest.com/es/)), others are made to walk on Mars, and so many more things.
 
 No matter what the computer is made for, the very base of its existence is the same: to follow commands.  In this chapter you will learn 5 basic things you’ll need to understand any modern computer through code.
 
