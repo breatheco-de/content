@@ -343,7 +343,7 @@ class MyComponent{
 
 As a **Function**:     
 
-Use the useEffect hook for the life cicle. [More information here](https://content.breatheco.de/lesson/react-hooks-explained).    
+Use the useEffect hook for the life cycle. [More information here](https://content.breatheco.de/lesson/react-hooks-explained).    
 
 As a **Class**:
 
