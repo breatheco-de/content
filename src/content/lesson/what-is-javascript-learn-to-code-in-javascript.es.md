@@ -16,7 +16,7 @@ status: "published"
 
 **La Programación es hacer *que el computador* "obedezca"…**
 
-Todo el mundo usa los computadores por diferentes razones. Algunos computadores se crean para ayudar a las personas en su oficina (como los computadores personales), otras para mantener una habitación a una temperatura específica (como [NEST](https://nest.com/es/)), otros están hechas para caminar en Marte, y muchas más cosas.
+Todo el mundo usa los computadores por diferentes razones. Algunos computadores se crean para ayudar a las personas en su oficina (como los computadores personales), otras para mantener una habitación a una temperatura específica (como [NEST](https://nest.com/es/)), otros están hechos para caminar en Marte, y muchas más cosas.
 
 No importa para qué está hecho el computador, la base de su existencia es la misma: seguir los comandos. En este capítulo, aprenderás 5 cosas básicas que necesitarás para entender cualquier computador moderno a través del código.
 
@@ -37,9 +37,9 @@ var age = 24;
 
 ![what is javascript](../../assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
 
-Prácticamente con cualquier lenguaje de programación, puedes crear tantas variables como desee o necesite. Para comenzar, debe **declarar el nombre de esa variable** usando el término: *var* seguido de un nombre _único_ (relativo al documento/proyecto).
+Prácticamente con cualquier lenguaje de programación, puedes crear tantas variables como desees o necesites. Para comenzar, debe **declarar el nombre de esa variable** usando el término: *var* seguido de un nombre _único_ (relativo al documento/proyecto).
 
-El **nombre de la variable** es la forma más efectiva que tenemos de describir el contenido de la variable, así que úsalo sabiamente. Es importante elegir un nombre que te indique claramente (a ti y los otros programadores) los datos que se almacenan en la variable. Si elegimos un nombre malo o ambiguo, nuestro código será casi imposible de entender, ergo se volverá inutilizable. Por ejemplo, digamos que cambiamos el nombre de nuestra variable "age" a `a`, sería:
+El **nombre de la variable** es la forma más efectiva que tenemos de describir el contenido de la variable, así que úsalo sabiamente. Es importante elegir un nombre que te indique claramente (a tí y a los otros programadores) los datos que se almacenan en la variable. Si elegimos un nombre malo o ambiguo, nuestro código será casi imposible de entender, ergo se volverá inutilizable. Por ejemplo, digamos que cambiamos el nombre de nuestra variable "age" a `a`, sería:
 
 ```javascript
 var a = 24 ;
@@ -88,7 +88,7 @@ Los valores de las variables están sujetos a cambios en el tiempo. Para recuper
 
 ## Tipos de Datos
 ***
-Las variables pueden tener diferentes tipos de valores. Algunos de ellos están disponibles solo en lenguajes de programación específicos, pero casi todos tienen los siguientes tipos
+Las variables pueden tener diferentes tipos de valores. Algunos de ellos están disponibles solo en lenguajes de programación específicos, pero casi todos tienen los siguientes tipos:
 
 |**Data-Type**   |**Posible Valores**   |**Descripción**   |
 |:---------------|:--------------------|:-----------------|
