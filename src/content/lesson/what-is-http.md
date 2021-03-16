@@ -32,7 +32,9 @@ Every conversation on the web starts with a request. This request is a text mess
 
 A request in HTTP language would be something like this:
 
-```python
+
+```py
+
 GET / HTTP/1.1 
 Host: google.com
 Accept: text/html
