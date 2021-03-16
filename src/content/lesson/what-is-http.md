@@ -32,12 +32,15 @@ Every conversation on the web starts with a request. This request is a text mess
 
 A request in HTTP language would be something like this:
 
+
 ```py
+
 GET / HTTP/1.1 
 Host: google.com
 Accept: text/html
 User-Agent: Chrome/31.0.1650.57 (Macintosh; Intel Mac OS X 10_9_0)
 ```
+
 In this particular case we are using the GET method. 
 
 This simple message communicates everything necessary about exactly what resource the client is requesting. The first line of an HTTP request is the most important and contains two things:
@@ -53,8 +56,8 @@ This simple message communicates everything necessary about exactly what resourc
 |DELETE |This is used for deleting data on the server.
 
 
-```
-python
+```python
+
 DELETE /blog/15 HTTP/1.1 
 ```
 In addition to the first line, an HTTP request also has other lines of data called _request headers_, through which it can deliver a wide range of information such as: the name of the server or _host_, the response formats that the client accepts to make the request, the format in which it is sending data in the body of the request (if applicable)...
@@ -67,8 +70,8 @@ When the server receives the request, it knows exactly what resource the client 
 
 Translated to HTTP the response would be something like this:
 
-```
-python
+```python
+
 HTTP/1.1 200 OK
 Date: Sun, 01 Dec 2013 18:17:45 GMT
 Server: Apache/2.2.22 (Ubuntu)
