@@ -32,13 +32,13 @@ Every conversation on the web starts with a request. This request is a text mess
 
 A request in HTTP language would be something like this:
 
-````python
-
+```python
 GET / HTTP/1.1 
 Host: google.com
 Accept: text/html
 User-Agent: Chrome/31.0.1650.57 (Macintosh; Intel Mac OS X 10_9_0)
 ```
+
 In this particular case we are using the GET method. 
 
 This simple message communicates everything necessary about exactly what resource the client is requesting. The first line of an HTTP request is the most important and contains two things:
