@@ -46,7 +46,7 @@ There are two types of tags: Technology and Category.
 
 ### Command Line Interface
 
-A small command-line tool has been developed to help manage the lessons
+A small command-line tool has been developed to help manage the lessons.
 
 ```
 $ node ./src/utils/cli.js update_lesson --slug all --statusTo draft --statusFrom null
