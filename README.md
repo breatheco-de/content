@@ -11,10 +11,10 @@ Here is an API of all  the lessons on the platform: https://content.breatheco.de
 
 ## Requirements
 
-#### 1) Markdown based
+#### 1) Markdown based :
 All the content must be markdown based, to create new articles all you have to do is add a new .md file in markdown syntax.
 
-#### 2) About the URLS
+#### 2) About the URLS :
 
 The CMS needs to be able to generate URLs with the following format:
 ```
