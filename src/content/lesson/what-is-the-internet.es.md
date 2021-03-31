@@ -1,36 +1,35 @@
 ---
 title: "Que es el Internet?"
 subtitle: "Que es el Internet: Todo lo que se ve en internet es un documento de texto. Todo!! Como desarrolladores, todo lo que hacemos es generar trozos de texto basados en un conjunto de criterios. Si entiendes este simple concepto, el cielo será el limite."
-
-cover: "https://ucarecdn.com/05a36362-c09f-4961-a7b9-8e3132a902b1/"
-
+cover_local: "../../assets/images/05a36362-c09f-4961-a7b9-8e3132a902b1.jpeg"
 textColor: "white"
-
-date: "2017-08-10"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["internet"]
+status: "published"
+
 ---
 
 ## Todo cobra sentido si retrocedemos en el tiempo…
 
-Si todo es un documento de texto, como es posible tener sitios web tan increibles como Facebook, Youtube, etc?
+Si todo es un documento de texto ¿Cómo es posible tener sitios web tan increibles como Facebook, Youtube, etc?
 
 Los sitios web de hoy son muy diferentes a los de antes; no tienen los mismos elementos, pero si retrocedemos un poco en el pasado y exploramos el comienzo de Internet, todo tendrá sentido.
 
-La Internet fue creada para intercambiar información, sus fundadores estaban buscando compartir documentos de forma rápida y sin tener que manejar una infraestructura compleja y costosa. Simplemente definieron un marco de trabajo y desarrollaron las tecnologías para que cualquier persona que quisiera compartir un documento pudiera publicarlo e invitar a los demás a leerlo.
+EL Internet fue creada para intercambiar información, sus fundadores estaban buscando compartir documentos de forma rápida y sin tener que manejar una infraestructura compleja y costosa. Simplemente definieron un marco de trabajo y desarrollaron las tecnologías para que cualquier persona que quisiera compartir un documento pudiera publicarlo e invitar a los demás a leerlo.
 
-La comunidad científica lo utilizo para los famosos  ["Peer Reviews"](https://www.elsevier.com/reviewers/what-is-peer-review), que se utilizan para que tus colegas revisen y aprueben una publicación antes de ser aceptada y publicada por la comunidad.
+La comunidad científica lo utilizó para los famosos  ["Peer Reviews"](https://www.elsevier.com/reviewers/what-is-peer-review) usados para que tus colegas revisen y aprueben una publicación antes de ser aceptada y publicada por la comunidad.
 
 Por esta razón buscaron hacer algo que se asemejara lo más posible a un documento de MS Word o cualquier procesador de texto.
 
 [[info]]
-| :point_up: Si quieres seguir leyendo sobre la historia de internet te recomendamos ["este video super cool."](https://www.youtube.com/watch?v=BWb6ri3ePew)
+| :point_up: Si quieres seguir leyendo sobre la historia de internet te recomendamos ["este video super cool"](https://www.youtube.com/watch?v=BWb6ri3ePew)
 
 
 > Entonces, la forma más sencilla de ver Internet es como una red de documentos compartidos. Documentos que alguna vez fueron publicaciones científicas 
 > rígidas y formales que hoy vemos como documentos interactivos, emocionantes y espectaculares.
 
 
-![What is the internet](https://ucarecdn.com/ffe440de-8746-4ab5-81cc-37ef107155e9/-/resize/500x/)
+![What is the internet](../../assets/images/ffe440de-8746-4ab5-81cc-37ef107155e9.jpeg)
 
 
 ## Todo es texto (HTTP)
@@ -46,7 +45,7 @@ Lo que esto quiere decir es que: **todo es texto**. Pues sí, si quieres enviarl
 + Tu abuela hace doble clic en la foto y el programa que está usando para ver la foto transforma ese texto nuevamente en una imagen comprensible para un humano.
 
 
-![what is the internet](https://ucarecdn.com/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e/)
+![what is the internet](../../assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif)
   
 <small style="color:grey">Imagen 1: Los 4 pasos necesarios para enviar imágenes a través de Internet: primero se convierte en texto, luego viaja, luego llega a la computadora de la abuela, la abuela abre la imagen y la imagen muestra ... ¡finalmente, la abuela está feliz mirando a su nieto! </small>
 
@@ -101,7 +100,7 @@ Bueno, hace mucho! El servidor es responsable de preparar el texto que será le�
 + **Eficiencia:** a veces, los clientes tienen demandas que son muy difíciles de resolver, incluso si se trata de un solo cliente. Imagina por un segundo que está utilizando Google Maps para averiguar cuánto tiempo se tarda en viajar de Caracas a Santiago de Chile. El servidor debe verificar los datos de tráfico, las rutas, los accidentes y ejecutar algún tipo de algoritmo para obtener el tiempo estimado de llegada (ETA). Incluso si el resultado es una simple cadena de caracteres como "dos días, 2 horas y 30 minutos", el servidor tuvo que hacer miles de cálculos para llegar a esa conclusión.
 Entonces… resumamos:
 
-![what is the internet](https://ucarecdn.com/57821cbc-5ba0-4e1c-9b90-7f1df7c637fa/)
+![what is the internet](../../assets/images/57821cbc-5ba0-4e1c-9b90-7f1df7c637fa.gif)
 
  
 | El Servidor   |      El Cliente       |

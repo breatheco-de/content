@@ -1,6 +1,6 @@
 import React from "react";
-import IconEs from '../../assets/es.svg';
-import IconEn from '../../assets/en.svg';
+import IconEs from '../../assets/svg/es.svg';
+import IconEn from '../../assets/svg/en.svg';
 import { Link } from 'gatsby';
 import './styles.scss';
 const icons = {
@@ -15,7 +15,7 @@ export const LanguageSwitcher = ({ current, translations }) => {
         {
             Object.entries(translations).filter(lang => lang[0] !== current).map( lang => {
                 const LangIcon = icons[lang[0]];
-                return (<li><Link to={lang[1]}><LangIcon /></Link></li>);
+                return (<li><Link to={"/"+lang[1]}><LangIcon /></Link></li>);
             })
         }
         </ul>

@@ -1,17 +1,18 @@
 ---
 title: "Programación orientada a eventos"
 subtitle: "Programación orientada a eventos: carga del sitio web, clic del usuario, cambio de tamaño de la ventana, etc. Como desarrollador, debe asegurarse de que sus aplicaciones tengan un flujo. Ese flujo está determinado por todos los eventos posibles que pueden ocurrir mientras el usuario interactúa con su aplicación."
-cover: "https://ucarecdn.com/d2ca9eb7-a3f9-432d-b791-8b1266f8923a/"
+cover_local: "../../assets/images/d2ca9eb7-a3f9-432d-b791-8b1266f8923a.gif"
 textColor: "white"
-
-date: "2018-05-11"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["programación orientada a eventos"]
+status: "published"
+
 ---
 
-## Programación Dirigida por Eventos
+## Programación orientada a Eventos
 ***
 
-Trabajar con eventos es una forma totalmente nueva de **controlar el flujo de una aplicación.** Es la primera vez que su código no se ejecutará en un flujo lineal. En su lugar, se ejecutará de forma asíncrona. ¿Quién sabe qué es lo primero?
+Trabajar con eventos es una forma totalmente nueva de **controlar el flujo de una aplicación.** Es la primera vez que tu código no se ejecutará en un flujo lineal. En su lugar, se ejecutará de forma asíncrona. ¿Quién sabe qué es lo primero?
 
 ¿Qué es un evento?
 
@@ -19,7 +20,7 @@ Un evento es algo que sucede! Como **hacer clic** en un botón, **presionar** un
 
 Tu trabajo como desarrollador es prepararte para esos eventos y **definir las funciones** que van a manejar esos eventos.
 
-![event driven programming](https://ucarecdn.com/1c00bd95-1359-4fd5-8399-b1b80a769009/-/resize/500x/)
+![event driven programming](../../assets/images/1c00bd95-1359-4fd5-8399-b1b80a769009.png)
 
 ### ¿Pero quién desencadena estos eventos?
 
@@ -110,7 +111,7 @@ Ahora que sabes qué eventos hay, puedes comenzar a escucharlos cuando lo desees
 
 Repitamos: Para **reaccionar** necesitas **escuchar…** Y para escuchar necesitas especificar una función **controladora**.
 
-![events driven programming](https://ucarecdn.com/9fa13314-24cc-4a4b-9676-e60616f73602/)
+![events driven programming](../../assets/images/9fa13314-24cc-4a4b-9676-e60616f73602.gif)
 
 Puedes agregar un detector de eventos de 2 maneras diferentes:
 
@@ -204,7 +205,7 @@ Dependiendo del tipo de evento, tendrá propiedades adicionales que le darán in
 [[info]]
 | :link: Hay mucha más información que puede obtener del objeto de evento, pero nos estamos enfocando en las propiedades más utilizadas. Para una lista más grande de propiedades por favor lea [this guide.](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
-## Remover los Listeners (receptores)
+## Eliminar los Listeners (receptores)
 ***
 
 Qué pasa si no quiero seguir escuchando? Todos los navegadores modernos eliminan los oyentes de eventos cuando se elimina el elemento DOM en el que se aplicaron. Pero si no desea eliminar el elemento DOM, puede eliminar el oyente de forma manual utilizando la función .removeEventListener.
@@ -221,7 +222,7 @@ En este código, se añade un detector de eventos para el evento click, pero lue
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/">Haga clic aquí para abrir la demostración en una nueva ventana.</p></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/">Haga clic aquí para abrir la demo en una nueva ventana.</p></small></div>
 
 
 

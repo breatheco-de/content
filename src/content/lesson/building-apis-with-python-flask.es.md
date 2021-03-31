@@ -1,38 +1,39 @@
 ---
 title: "Construyendo APIs REST utilizando Flask"
-subtitle: "Flask se está convirtiendo en el framework Python más popular (si es que aún no lo es), aprende cómo construir API REST de la forma REST"
-cover: "https://ucarecdn.com/91bcc549-6758-49c3-a790-4245afbd8ece/"
+subtitle: "Flask se está convirtiendo en el framework Python más popular (si es que ya no lo es), aprende cómo construir API REST de la forma REST"
+cover_local: "../../assets/images/91bcc549-6758-49c3-a790-4245afbd8ece.png"
 textColor: "black"
-date: "2019-05-02"
-status: "draft"
+date: "2020-10-19T16:36:31+00:00"
+status: "published"
 tags: ["Flask","python","REST","API"]
+
 ---
 
-A estas alturas ya deberías saber qué es una API REST, si no, te recomiendo [lee sobre esto aquí](http://content.breatheco.de/lesson/understanding-rest-apis).
+A estas alturas ya deberías saber qué es una API REST, si no, te recomiendo [leer sobre esto aquí](http://content.breatheco.de/lesson/understanding-rest-apis).
 
-Como un resumen muy breve, construir una API de forma REST. Significa que tienes que construir sus endpoints de URL agrupados por **"recursos"**, un recurso es algo que deseas administrar, por ejemplo: Estudiante, Usuario, Coche, etc. Un recurso es algo similar a una tabla de base de datos, pero los llamamos "recursos" debido a algunas excepciones.
+A modo de breve resumen, construir una API de forma REST significa que tienes que construir sus endpoints de URL agrupados por **"recursos"**. Un recurso es algo que quieres gestionar, por ejemplo: un estudiante, un usuario, un auto, etc. Un recurso es algo similar a una tabla de base de datos, pero los llamamos "recursos" debido a algunas excepciones.
 
-Aquí hay un ejemplo de endpoints RESTful API para administrar **Estudiantes**:
+Aquí hay un ejemplo de endpoints RESTful API para gestionar **Estudiantes**:
 
 | Método | URL | Descripción |
 | ------ | --- | ----------- |
-| GET    | /estudiante | Deberia devolver todos los estudiantes |
-| GET    | /estudiante/1 | Deberia devolver un solo estudiante con el id=1 |
-| GET    | /cohort/1/estudiantes | Deberia devolver todos los estudiantes de la cohorte con el id=1 |
-| POST   | /estudiante | Deberia crear un nuevo estudiante |
-| PUT    | /estudiante/1 | Deberia actualizar la información del estudiante con el id=1 |
-| DELETE | /estudiante/1 | Deberia eliminar al estudiante con el id=1 |
+| GET    | /estudiante | Debería devolver todos los estudiantes |
+| GET    | /estudiante/1 | Debería devolver un solo estudiante con el id=1 |
+| GET    | /cohort/1/estudiantes | Debería devolver todos los estudiantes de la clase con el id=1 |
+| POST   | /estudiante | Debería crear un nuevo estudiante |
+| PUT    | /estudiante/1 | Debería actualizar la información del estudiante con el id=1 |
+| DELETE | /estudiante/1 | Debería eliminar al estudiante con el id=1 |
 
-Echa un vistazo a las URL ellas siguen un patrón, después de un tiempo, los endpoints hablarán por sí mismos, tendrán sentido y podrás adivinar a lo que hacen o incluso adivinar algunos endpoints. Esa es la idea.
+Echa un vistazo a las URL, ellas siguen un patrón. Después de un tiempo, los endpoints hablarán por sí mismos, tendrán sentido y podrás adivinar a lo que hacen o incluso adivinar algunos endpoints. Esa es la idea.
 
 [[info]]
 | :point_up: Puede leer más sobre las API REST en [esta lección de BreatheCode](http://content.breatheco.de/lesson/understanding-rest-apis).<br /> Aquí hay un video de 8 minutos que explica REST: https://www.youtube.com/watch?v=7YcW25PHnAA
 
-## Ahora vamos a hablar sobre Flask
+## Ahora hablemos sobre Flask
 
-Flask es increíble! Es muy similar al Servidor Express de Node.js y eso lo hace aún más fresco porque podrás trabajar con ambas tecnologías sin mucha curva de aprendizaje.
+¡Flask es increíble! Es muy similar al Servidor Express Node.js y eso lo hace aún más genial porque podrás trabajar con ambas tecnologías sin mucha curva de aprendizaje.
 
-Flask es una biblioteca para crear un servidor web y una API. Básicamente, cuando ejecutas un script de Python que contiene las siguientes líneas, el computar comenzará a escuchar las solicitudes HTTP:
+Flask es una librería para crear un servidor web y APIs. Básicamente, cuando ejecutas un script de Python que contiene las siguientes líneas, el computar comenzará a escuchar las solicitudes HTTP:
 
 ```py
 from flask import Flask
@@ -44,32 +45,32 @@ def hello():
 
 app.run(host='0.0.0.0')
 ```
-[Haga clic para probar este código en vivo.](https://repl.it/@4GeeksAcademy/Flask-Hello-World)
+[Haz clic para probar este código en vivo.](https://repl.it/@4GeeksAcademy/Flask-Hello-World)
 
 
 ## Flask Hello-Wold explicado
 
 ```py
-from flask import Flask #aquí importamos la biblioteca Flask en nuestro archivo.
+from flask import Flask #aquí importamos la librería Flask en nuestro archivo.
 app = Flask(__name__) #aquí creamos una nueva instancia del servidor Flask.
 
-@app.route("/") #aquí definimos el primer camino de la API: GET /
-def hello(): #este método se llamará cuando la solicitud se llame desde cualquier cliente
-    return "Hello World!" #flask devolverá "Hello World, esto podría ser una cadena HTML o una cadena JSON.
+@app.route("/") #aquí definimos el primer path de la API: GET /
+def hello(): #este método se llamará cuando el cliente haga el request
+    return "Hello World!" #flask devolverá "Hello World, esto podría ser un string HTML o un string JSON.
 
-app.run(host='0.0.0.0') #finalmente iniciamos el servidor en localhost.
+app.run(host='0.0.0.0') #finalmente iniciamos el servidor en el localhost.
 ```
 
 En Flask podemos agregar nuevos endpoints utilizando el decorador `@ app.route`, no te preocupes si esta es la primera vez que ves un decorador, el concepto es muy simple y [aquí hay un video de 5 minutos explicándolo](https://www.youtube.com/watch?v=7ipNLN9y-nc).
 
-## Agregando nuevos endpoints.
+## Agregando nuevos endpoints
 
-Si deseas agregar otro endpoint a tu API que se ejecuta cuando un cliente llama `GET/person`, tendrás que agregar otro bloque de código como este:
+Si deseas agregar otro endpoint a tu API que se ejecuta cuando un cliente haga el `GET/person`, tendrás que agregar otro bloque de código como este:
 
 ```py
 @app.route("/person") #aquí especificamos la ruta para el endpoint.
-def handle_person(): #aquí declaramos una función que se llamará cuando se realice una solicitud a esa url
-    return "Hello Person!" #aquí especificamos la cadena que queremos responder al cliente.
+def handle_person(): #aquí declaramos una función que se llamará cuando se realice una request a esa url
+    return "Hello Person!" #aquí especificamos el string que queremos responder al cliente.
 ```
 
 ## Especificando el método: GET, PUT, POST, DELETE
@@ -81,17 +82,17 @@ from flask import Flask, request
 
 @app.route("/person", methods=['POST', 'GET']) # aquí especificamos que estos endpoints aceptan solicitudes POST y GET.
 def handle_person():
-  if request.method == 'POST': # podemos entender qué tipo de solicitud estamos manejando usando un condicional
-    return "A POST has been received!"
+  if request.method == 'POST': # podemos entender qué tipo de request estamos manejando usando un condicional
+    return "Se recibió un POST"
   else:
-    return "A GET has been received!"
+    return "Se recibió un GET"
 ```
 
 ## Respondiendo un cuerpo JSON
 
-La respuesta puede ser básicamente lo que quieras siempre que sea una cadena: HTML, JSON, CSS, imágenes, etc. Solo asegúrate de convertir en una cadena (string) lo que quieras responder.
+La respuesta puede ser básicamente lo que quieras siempre que sea un string: HTML, JSON, CSS, imágenes, etc. Solo asegúrate de convertir en string lo que quieras responder.
 
-En el siguiente ejemplo, estamos utilizando el método jsonify para convertir un diccionario llamado `person1` en una cadena (string) JSON antes de devolverlo al cliente.
+En el siguiente ejemplo, estamos utilizando el método jsonify para convertir un diccionario llamado `person1` en en un string JSON antes de devolverlo al cliente.
 
 ```py
 from flask import Flask, jsonify
@@ -113,11 +114,11 @@ from flask import Flask, jsonify
 
 @app.route("/person")
 def handle_person():
-    content = {
-      "details": "Hey, there has been an error on your request"
+    contenido = {
+      "detalles": "Hubo un error en la solicitud"
     }
     resp = jsonify(content)
-    resp.status_code = 400 # aquí cambiamos el código de estado a 400 (código típico para errores de solicitud)
+    resp.status_code = 400 # aquí cambiamos el código de estado a 400 (código muy común en caso de errores de solicitud)
     return resp
 ```
 
@@ -126,26 +127,27 @@ Otra forma de cambiar el código de respuesta usando una coma `,`:
 ```py
 @app.route("/person")
 def handle_person():
-    content = {
-      "details": "Hey, there has been an error on your request"
+    contenido = {
+       "detalles": "Hubo un error en la solicitud"
     }
     return jsonify(content), 400
 ```
 
 ## Manejo de errores y validaciones
 
-Pero ¿y si la solicitud viene con errores? Por ejemplo: si tenemos un endpoint para crear una persona y debemos especificar el primer nombre Y el último nombre, pero solo se encontró el primer nombre en la solicitud, así es como lo validaríamos:
+Pero ¿y si la solicitud viene con errores? Por ejemplo: si tenemos un endpoint para crear una persona y debemos especificar el first_name Y el last_name, pero solo se encontró el first_name en la solicitud, así es como lo validaríamos:
 
 ```py
 @app.route('/person', methods=['POST'])
 def create_person():
     # POST request
-        body = request.get_json() # obtener el contenido del cuerpo de la solicitud
-
+        body = request.get_json() # obtener el request body de la solicitud
+        if body is None:
+            return "The request body is null", 400
         if 'first_name' not in body:
-            return 'You need to specify the first_name',400
+            return 'Especificar first_name',400
         if 'email' not in body:
-            return 'You need to specify the last_name', 400
+            return 'Especificar last_name', 400
 
         return "ok", 200
 ```
@@ -154,9 +156,9 @@ def create_person():
 
 Hay diferentes maneras de integrar Flask en un servidor de base de datos, pero explicaremos la integración con [SQL ALchemy](http://content.breatheco.de/lesson/everything-you-need-to-start-using-sqlalchemy).
 
-Existe una gran biblioteca de Python que integra Flask + SQLAlchemy de una manera aparente: [Flask-SQLAlchemy](https://github.com/pallets/flask-sqlalchemy). Nosotros te sugerimos que leas[esta lección sobre SQLAlchemy](https://content.breatheco.de/lesson/everything-you-need-to-start-using-sqlalchemy) primero y vuelve aquí.
+Existe una gran librería de Python que integra Flask + SQLAlchemy de manera constante: [Flask-SQLAlchemy](https://github.com/pallets/flask-sqlalchemy). Nosotros te sugerimos que leas[esta lección sobre SQLAlchemy](https://content.breatheco.de/lesson/everything-you-need-to-start-using-sqlalchemy) primero y vuelve aquí.
 
-Para integrarte con SQLAlchemy, todo lo que tienes que hacer es instalar el paquete e importarlo a tus archivos de esta manera:
+Para integrar con SQLAlchemy, todo lo que tienes que hacer es instalar el paquete e importarlo a tus archivos de esta manera:
 ```py
 from flask_sqlalchemy import SQLAlchemy
 db = SQLAlchemy()
@@ -184,6 +186,6 @@ class Person(db.Model):
 
 ## ¿Listo para empezar a codificar?
 
-Hemos preparado este ejemplo de codificación en vivo que puede ejecutar usted mismo en Gitpod y utilizarlo como base para su proyecto.
+Hemos preparado este ejemplo de codificación en vivo que puede ejecutar tu mismo en Gitpod y utilizarlo como base para su proyecto.
 
 Flask Rest Hello: [https://github.com/4GeeksAcademy/flask-rest-hello](https://github.com/4GeeksAcademy/flask-rest-hello)

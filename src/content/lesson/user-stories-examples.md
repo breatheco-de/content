@@ -1,11 +1,12 @@
 ---
 title: "Creating User Stories: Learn with User Stories Examples"
-subtitle: "Before heading towards development, We need a strategy (User Stories). Find and learn here with user stories examples.
-It is the most undervalued activity in the software development cycle and it accounts for 70% of the reasons that projects are not delivered on time."
-cover: "https://ucarecdn.com/980ce2e0-b73e-4019-8e97-3510e3028e10/"
+subtitle: "Before heading towards development, We need a strategy (User Stories). Find and learn here with user stories examples. It is the most undervalued activity in the software development cycle and it accounts for 70% of the reasons that projects are not delivered on time."
+cover_local: "../../assets/images/980ce2e0-b73e-4019-8e97-3510e3028e10.jpeg"
 textColor: "white"
-date: "2018-11-13"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["user story"]
+status: "published"
+
 ---
 
 ## What is a "User Story"?
@@ -31,9 +32,9 @@ A user story is like having a conversation with your future user.  They must be 
 + Around 100 characters max each:  The less the better!
 + With just ONE functionality for each 0ne – if you see it getting bigger, just split the story into 2 different stories.
 
-#### Here are some Examples:
+13#### Here are some Examples:
 
-![user stories examples](https://ucarecdn.com/032a818d-e4d7-4276-8195-ce5d8a3edcf6/-/resize/2000x/)
+![user stories examples](../../assets/images/032a818d-e4d7-4276-8195-ce5d8a3edcf6.png)
 
 ### How should you Write the User Stories?
 ***
@@ -69,7 +70,7 @@ There are millions of tools; we have Googled some: [click here to access. ](http
 
 ### Use Index Cards and a Sharpie
 
-![user stories examples](https://ucarecdn.com/94f4a28c-a93c-4e05-9f86-ce64abc2ff7b/-/resize/400x/)
+![user stories examples](../../assets/images/94f4a28c-a93c-4e05-9f86-ce64abc2ff7b.png)
 
 The theory is simple – if you use any larger than a 3" x 5" index card, you will write too much.  Likewise, if you use anything smaller than a marker (such as a ball point pen) – you will write too much.
 
@@ -77,7 +78,7 @@ User stories are suppose to be short and sweet.  They are suppose to aid in furt
 
 At the end you will have a huge "to-do list," with the stories moving from "To-do" to "Doing" and, finally, to "Done."  Each story will be assigned to one developer at the beginning of each planning meeting.
 
-![user stories examples](https://ucarecdn.com/faaa70b0-5343-43f0-8565-994c9b40ab8b/-/resize/400x/)
+![user stories examples](../../assets/images/faaa70b0-5343-43f0-8565-994c9b40ab8b.jpeg)
 
 ### When is a Story really "Done"?
 

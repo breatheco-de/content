@@ -1,11 +1,12 @@
 ---
 title: "Event Driven Programming"
 subtitle: "Event Driven Programming: website load, user click, window resize, etc. As a developer, you have to make sure that your applications have a flow. That flow is determined by all the possible events that can occur as the user interacts with your app."
-cover: "https://ucarecdn.com/d2ca9eb7-a3f9-432d-b791-8b1266f8923a/"
+cover_local: "../../assets/images/d2ca9eb7-a3f9-432d-b791-8b1266f8923a.gif"
 textColor: "white"
-
-date: "2018-05-11"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["event driven programming"]
+status: "published"
+
 ---
 
 ## Event Driven Programming
@@ -19,7 +20,7 @@ An event is something that happens!  Like **clicking** on a button, **pressing**
 
 Your job as a developer is to prepare for those events and **define the functions** that are going to be handling those events.
 
-![event driven programming](https://ucarecdn.com/1c00bd95-1359-4fd5-8399-b1b80a769009/-/resize/500x/)
+![event driven programming](../../assets/images/1c00bd95-1359-4fd5-8399-b1b80a769009.png)
 
 ### But who Triggers these Events?
 
@@ -89,7 +90,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 |:----------------|:-----------------|
 |Keyup           |When the user releases the keyboard key.    |
 |Keydown	     |When the user presses the keyboard key.    |
-|Keypress       |When the user presses and release the keyboard key.  The difference from keydown/up is that Keypress only works on character keys.  For example, it does not work on the up|down|left|right arrows.     |
+|Keypress       |When the user presses and releases the keyboard key.  The difference from keydown/up is that Keypress only works on character keys.  For example, it does not work on the up|down|left|right arrows.     |
 
 [[demo]]
 | :point_up: Play with this demo here 
@@ -110,7 +111,7 @@ Now that you know what events are out there, you can start listening them whenev
 
 Let’s repeat: To **react** you need to **listen…** And to listen you need to specify a **handler** function.
 
-![events driven programming](https://ucarecdn.com/9fa13314-24cc-4a4b-9676-e60616f73602/)
+![events driven programming](../../assets/images/9fa13314-24cc-4a4b-9676-e60616f73602.gif)
 
 You can add an event listener in 2 different ways:
 

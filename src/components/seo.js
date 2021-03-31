@@ -38,9 +38,6 @@ const SEO = (props) => (
                     <meta name="image" content={seo.image} />
                     {seo.url && <meta property="og:url" content={seo.url} />}
                     {seo.bodyClass && <body className={seo.bodyClass}/>}
-                    {(article ? true : null) && (
-                    <meta property="og:type" content="article" />
-                    )}
                     {seo.article && <meta property="og:type" content="article" />}
                     {seo.title && <meta property="og:title" content={seo.title} />}
                     {seo.description && (

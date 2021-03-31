@@ -1,17 +1,17 @@
 ---
-subtitle: "Las funciones no son opcionales - Es probable que sean la característica más utilizada en cualquier lenguaje de programación. Te permiten separar tu código en miniprogramas más pequeños, donde cada uno se ocupa de lo suyo. ¡Divide y conquistaras!"
+subtitle: "Las funciones no son opcionales - Es probable que sean la característica más utilizada en cualquier lenguaje de programación. Te permiten separar tu código en miniprogramas más pequeños, donde cada uno se ocupa de lo suyo. ¡Divide y conquistarás!"
 title: "Trabajando con Funciones"
-cover: "https://ucarecdn.com/4cc6fa0b-2530-4052-aa7e-8dac03788ac3/"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2018-12-03"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["reactjs"]
+status: "published"
 
 ---
 
-
 ## ¿Qué son las Funciones?
 
-Básicamente, una función es un montón de código envuelto entre paréntesis que puedes ejecutar en cualquier momento cada vez que juegues en dados. Por ejemplo:
+Básicamente, una función es un montón de código envuelto entre paréntesis que puedes ejecutar en cualquier momento cada vez que quieras. Por ejemplo:
 
 ```javascript 
 //el nombre de la función es "multiply" y recibe 2 param: a y b
@@ -22,32 +22,32 @@ function multiply(a, b) {
 ```
 
 + **Cada función debe tener un propósito.** (un objetivo) (como nuestra función "multiplicar"). El propósito de la función es calcular la multiplicación entre dos números dados.
-+ **Debe tener un nombre único.**  En este caso particular, nuestra función se llama "multiplicar", que es un gran nombre porque sabes exactamente de qué se tratan las funciones, es explícita.
-+ **Debe devolver algo.**  De forma predeterminada, en javascript, todas las funciones devuelven "indefinido", pero debe reemplazar y siempre devolver algo útil. En este ejemplo, queremos devolver el resultado de una multiplicación de a & b.
++ **Debe tener un nombre único.**  En este caso particular, nuestra función se llama "multiplicar", que es un gran nombre porque sabes exactamente de qué se tratan las funciones, es explícito.
++ **Debe devolver algo.**  De forma predeterminada, en javascript, todas las funciones devuelven "undefined", pero debes reemplazarlo y siempre devolver algo útil. En este ejemplo, queremos devolver el resultado de una multiplicación de a & b.
 + **Las funciones pueden tener parámetros.**  Un "parámetro" es una variable que la función puede recibir al principio de su código (como a y b en nuestro ejemplo).
 
-La idea es tener una libreria de cientos de funciones y usarlas como nos plazca, declaras todas tus funciones y luego empiezas a usarlas y reutilizarlas todo el tiempo.
+La idea es tener una libreria con cientos de funciones y usarlas como nos plazca, declaras todas tus funciones y luego empiezas a usarlas y reutilizarlas todo el tiempo.
 
 ```
 let resultOfMultiplication = multiply(2,4);
 // resultOfMultiplication will be 2
 ```
 
-## Pero, ¿por qué usar Funciones en lugar de simplemente hacer todo en una gran porción de código?
+## Pero, ¿por qué usar Funciones en lugar de simplemente hacer todo en una gran pedazo de código?
 
-La codificación es muy abstracta y sucede mucho que no tienes idea de lo que escribiste ayer. Antes de que existieran las funciones, los algoritmos eran esta enorme serie interminable de líneas de código donde los desarrolladores tendrían dificultades y se perderían. Es difícil para tu cerebro seguir un procedimiento / algoritmo de gran longitud; Cuantas más líneas de código, más abstracto se vuelve.
+La codificación es muy abstracta y sucede mucho que no tienes idea de lo que escribiste ayer. Antes de que existieran las funciones, los algoritmos eran esta enorme serie interminable de líneas de código donde los desarrolladores tenían dificultades y se perderían. Es difícil para tu cerebro seguir un procedimiento / algoritmo de gran longitud; mientras más líneas de código, más abstracto se vuelve.
 
 Al utilizar funciones tienes las siguientes ventajas:
 
 + Dividir y conquistar: divide tu algoritmo en sub-algoritmos más pequeños y concéntrate en un problema a la vez.
-+ Reutiliza tu código llamando a la función varias veces, reduciendo drásticamente la longitud de tu código.
-+ Organiza tu código: los nombres de las funciones le dirán qué hace esa parte del código, puede tener todas las funciones en un archivo separado y reutilizarlo en todos sus desarrollos futuros.
++ Reutiliza tu código llamando a la función varias veces, reduciendo así drásticamente la longitud de tu código.
++ Organiza tu código: los nombres de las funciones te dirán qué hace esa parte del código, puede tener todas las funciones en un archivo separado y reutilizarlo en todos sus desarrollos futuros.
 
-Si lo piensas bien, las funciones son equivalentes a los libros. El conocimiento de la tienda y las formas de hacer las cosas y en futuros desarrollos simplemente los reutiliza en lugar de tener que resolver todo de nuevo.
+Si lo piensas bien, las funciones son equivalentes a los libros. Almacenan conocimiento y la forma de hacer las cosas y en futuros desarrollos simplemente las reutilizas en lugar de tener que resolver todo de nuevo.
 
-## El Alcance de la Función
+## Alcance de la Función
 
-Todas las funciones deben comenzar y terminar en algún lugar, esto es llamado **el alcance de la función**. Puedes delimitar los límites usando llaves como esta:
+Todas las funciones deben comenzar y terminar en algún lugar, esto se llama **el alcance de la función**. Puedes delimitar los límites usando llaves de esta forma:
 
 ```javascript{numberLines: true} 
 
@@ -59,8 +59,7 @@ function multiply(a, b) {
    
    return a * b;
 
-    //esta parte del código está DENTRO de mi función pero nunca lo hará
-    //Se ejecutará porque se encuentra DESPUÉS de la declaración de retorno.
+    //esta parte del código está DENTRO de mi función pero nunca se ejecutará porque se encuentra DESPUÉS del return
 }
 
 //esta parte del código está FUERA de la función 'multiply'
@@ -76,9 +75,8 @@ function multiply(a, b) {
    return a * b;
 }
 
-// este console.log no funcionará, generará un error, porque myVariable fue 
-// declarado dentro de la función multiplicar, por lo tanto no está disponible fuera.
-console.log(myVariable);
+console.log(myVariable); // este console.log no funcionará, generará un error, porque myVariable está declarada dentro de la función multiplicar, por lo tanto no está disponible                           // fuera.
+
 ```
 
 
@@ -110,7 +108,7 @@ multiply(<first param>,<second param>);
 multiply(3,9);
 ```
 
-Recuerda asignar la función a los parámetros que deba recibir. En nuestro ejemplo, la función de multiplicación fue declarada pidiendo que se multipliquen dos números. Juega con el siguiente ejemplo como quieras:
+Recuerda asignarle a la función los parámetros que debe recibir. En nuestro ejemplo, la función de multiplicación fue declarada pidiendo que se multipliquen dos números. Juega con el siguiente ejemplo como quieras:
 
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Calling-Functions-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
@@ -158,11 +156,11 @@ El siguiente código tiene 3 funciones declaradas:
 
 Como puedes ver, los nombres de las funciones son bastante específicos sobre lo que hacen las funciones, así como los parámetros asignados a ellas.
 
-La función recibe una matriz de
+La función recibe un array de
 
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/FunctionsExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 Otras cosas importantes a tener en cuenta:
 
 + Estamos llamando a la función getPersonInfoByName dos veces, sin usar funciones tendríamos que usar más código porque no tendríamos ninguna opción para reutilizar la función.
-+ La función getAverage es obtener el valor promedio en una matriz dada. No sabe nada más y eso es genial! Al separar su código en pequeñas funciones, puede concentrarse en una cosa a la vez.
++ La función getAverage obtiene el valor promedio en un array dado ¡No sabe nada más y eso es genial! Al separar su código en pequeñas funciones, puede concentrarse en una cosa a la vez.

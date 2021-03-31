@@ -53,7 +53,7 @@ const getMetaFromPath = ({ fileAbsolutePath, frontmatter }) => {
 
   const lang = m[3] || "en";
   const customSlug = (typeof frontmatter.slug === "string");
-  const urlSlug = m[2];// + (lang == "es" ? "-es": "");
+  const urlSlug = m[2].substr(m[2].indexOf("]") + 1);// + (lang == "es" ? "-es": "");
   const slug = (customSlug) ? frontmatter.slug : urlSlug;
   let meta = {
     lang, urlSlug, customSlug, slug,

@@ -2,13 +2,13 @@
 slug: "everything-you-need-to-start-using-sqlalchemy"
 title: "Everything you need to know about SQLAlchemy"
 subtitle: "SQLAlchemy is the most populer ORM for Python, start using it in 8min"
-cover: "https://ucarecdn.com/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e/"
-date: "2019-04-28"
+cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
+date: "2020-10-19T16:36:31+00:00"
 textColor: "white"
 authors: ["alesanchezr"]
 status: "published"
+tags: ["sql alchemy","python"]
 
-tags: ["sql alchemy", "python"]
 ---
 
 ## What is SQL Alchemy
@@ -31,7 +31,7 @@ To insert an user with SQL you have to type:
 INSERT INTO user (name, last_name) VALUES ('Bob', 'Ross');
 ```
 
-With an ORM your code keeps being familiar code like this:
+With an ORM your code keeps being familiar like this:
 
 ```py
 user = User()
@@ -102,16 +102,125 @@ All you have to do is create a new Person object, add it into the database sessi
 
 ```py
 person = Person.query.get(3)
-person.delete()
+db.session.delete(person)
 db.session.commit()
 ```
 
 ### UDPATE: Updating a Record
 
-TO update you need first to retrieve/select the record from the database, then you can update whatever property you like and commit again.
+To update you need first to retrieve/select the record from the database, then you can update whatever property you like and commit again.
 
 ```py
 person = Person.query.get(3)
 person.name = "Bob"
 db.session.commit()
 ```
+## Transactions
+
+A transaction is a sequence of operations (like INSERT, UPDATE, SELECT) made on your database. In order for a transaction to be completed a number of operations within a group must be successful. If one operation fails, the whole transaction fails.
+
+
+Transactions have the following 4 standard properties(known as ACID properties):
+
+![Transactions](../../assets/images/tran-1.png)
+
+A transaction ends with COMMIT or ROLLBACK. 
+
+### COMMIT: session.commit() 
+
+COMMIT command is used to permanently save any transaction into the database.
+
+When you use INSERT, UPDATE or DELETE, the changes made by these commands are not permanent, the changes made by these commands can be undone or "rolled back". 
+
+If you use the COMMIT command though the changes to your database are permanent.
+
+### ROLLBACK
+
+It restores the database to last your last COMMIT. You can also use it with SAVEPOINT command to jump to a savepoint in a ongoing transaction.
+
+Also, if you use UPDATE to make changes to your database, you can undo them by using the ROLLBACK command but only if you haven't commited those changes like this:
+
+
+```jsx
+db.session.rollback()
+```
+### CHECKPOINT OR SAVEPOINT
+
+This command is used to temporarily to save a transaction so that you can go back to a certain point by using the ROLLBACK command whenever needed, you can use like this:
+```jsx
+db.session.begin_nested()
+```
+This command may be called many times, and it will issue a new CHECKPOINT with an ID.
+
+![SQL](../../assets/images/sql-1.png)
+
+Now let's say we go out to have some pizza. Our pizza comes with three ingredients basic ingredients:
+mozzarella, tomato, olives. Our table called 'PIZZA' would look like this: 
+
+![SQL](../../assets/images/sql-2.png)
+
+But we have a list of extra ingredients we can add to it: first we choose meat but then we change our mind and we want to add mushrooms instead. We would also like to add some pepperoni and bacon. Let see how could we do that:
+
+```jsx
+# we insert a new ingredient into out pizza
+ingredient = Ingredient()
+ingredient.name = 'meat'
+ingredient.id = 4
+db.session.add(ingredient)
+
+# now we COMMIT the transaction and save it into the database
+db.session.commit()
+
+ingredient = Ingredient.query.get(4)
+ingredient.name = mushrooms
+
+# save a checkpoint
+checkpoint_a = db.session.begin_nested()
+
+# add pepperoni
+ingredient = Ingredient()
+ingredient.name = 'pepperoni'
+db.session.add(ingredient)
+
+# one last checkpoint before adding bacon ingredient
+checkpoint_b = db.session.begin_nested()
+
+# add bacon
+ingredient = Ingredient()
+ingredient.name = 'bacon'
+db.session.add(ingredient)
+```
+
+Now our 'PIZZA' has the following ingredients:
+
+![SQL](../../assets/images/sql-3.png)
+
+Now we have decided we no longer want bacon, so we use ROLLBACK:
+
+```jsx
+checkpoint_b.rollback()
+```
+and our pizza looks like this:
+
+![SQL](../../assets/images/sql-4.png)
+
+....I'm a bit hungry after reading this lesson!! aren't you??
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
