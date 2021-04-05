@@ -1,17 +1,17 @@
 ---
-title: " Entendiendo Rest Apis"
-subtitle: "¡Parece ser solo el comienzo de la revolución API! El camino de la humanidad se dirige hacia la arquitectura de la API ... puede aprender cualquier idioma o herramienta, pero esta es una de esas pocas especialidades que le garantizará un trabajo bien pagado durante los próximos 60 años, así que siéntete cómodo con REST Api. :)"
+title: "Entendiendo las Rest Apis"
+subtitle: "¡Parece ser solo el comienzo de la revolución API! El camino de la humanidad se dirige hacia la arquitectura de la API ... puedes aprender cualquier idioma o herramienta, pero esta es una de esas pocas especialidades que te garantizará un trabajo bien pagado durante los próximos 60 años, así que siéntete cómodo con REST Api. :)"
 cover_local: "../../assets/images/b929f233-00b2-406f-87a5-ee74146cfd85.jpeg"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["REST","API"]
-status: "draft"
+status: "published"
 
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QsrWtqnQGMc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Que es un API?
+## ¿Qué es un API?
 ***
 
 Una API es el intermediario de la mayoría de las aplicaciones modernas. API significa: Application Programming Interface (Interfaz de Programación de Aplicaciones). Vamos a desglosarla mirando cada una de sus partes:
@@ -33,14 +33,14 @@ Cada API consta de 3 componentes principales:
 
 |**Funciones/Métodos:**   |**Formato de Comunicación**   |
 |:------------------------|:--------------------------|
-|`python>Haz una llamada`<br>`python>Cuelga una llamada`<br>`python>Hablar con el operador`<br>`python>Marca algo en el teclado`    |Ruido (sonidos)!  Hay un sonido para tpdp (incluso en los teléfonos modernos). Escucharás un tono cuando realices una llamada,cuando pesionas una tecla, etc. El sistema del teléfono escucha los cambios de tono del sonido.     |
+|`python>Haz una llamada`<br>`python>Cuelga una llamada`<br>`python>Hablar con el operador`<br>`python>Marca algo en el teclado`    |Ruido (sonidos)!  Hay un sonido para todo (incluso en los teléfonos modernos). Escucharás un tono cuando realices una llamada, cuando presionas una tecla, etc. El sistema del teléfono escucha los cambios de tono del sonido.     |
 
 ### ¿Qué pasa con una Aplicación Web?
 
 Los métodos de la API de una aplicación web dependen completamente del propósito / negocio del sitio web:
 
-+ Si está creando la API para un producto como Uber, algunos de sus métodos serán: registrarse, solicitar un viaje, calificar un conductor, cancelar un viaje, etc.
-+ Si está creando una API para algo como AirBnB, algunos de sus métodos serán: listado de libros, búsqueda de listado, cancelar viaje, etc.
++ Si estás creando la API para un producto como Uber, algunos de sus métodos serán: registrarse, solicitar un viaje, calificar un conductor, cancelar un viaje, etc.
++ Si estás creando una API para algo como AirBnB, algunos de sus métodos serán: listado de libros, búsqueda de listado, cancelar viaje, etc.
 
 ## El estándar REST
 ***
@@ -53,7 +53,7 @@ REST funciona a través de HTTP - lo que significa que todo está basado en text
 |:-------------|:--------------|
 |GET          |Se utiliza para leer el estado del servidor. Al ser una operación **segura**, puede ejecutarse varias veces sin riesgo de modificación de datos o corrupción; llamarla una vez tiene el mismo efecto que llamarla diez veces.    |
 |POST        |Los puristas de REST usan post solo para creación. Eso significa que cada vez que POSTEE algo en una API, estará creando un nuevo registro en la base de datos para eso. Algunas API utilizan POST para todas las operaciones de escritura (eliminar, actualizar y crear). Lo hacen porque PUT y DELETE no están disponibles en HTML / Formularios y eso hace que esos métodos sean más difíciles de usar.      |
-|PUT      |Esto es más usado para actualizar el estado en el servidor; Aunque también se puede utilizar para crear estado.     |
+|PUT      |Es más usado para actualizar el estado en el servidor; Aunque también se puede utilizar para crear estado.     |
 |DELETE     |Se utiliza para eliminar datos en el servidor     |
 
 
@@ -69,7 +69,7 @@ Los [códigos de estado HTTP](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10
 
 ### URIs (Identificadores de Recursos Uniformes )
 
-Los URI diferencian un recurso de otro. Para acceder y manipular un recurso, debe tener al menos una dirección.
+Los URI diferencian un recurso de otro. Para acceder y manipular un recurso, debes tener al menos una dirección.
 
 Ellos estan compuestos por un `python>protocolo` + `python>host` + `python>path`.
 Ejemplo: `python>https://api.uber.com/v1.2/products`
@@ -87,8 +87,8 @@ Aquí hay algunas URI de la API de Twitter:
 
 Un recurso es una representación abstracta de un objeto que puede llamarse usando Create, Read, Update o Delete con tu API, por ejemplo:
 
-+ Si está construyendo el API para un aprendizaje electrónico, los recursos podrían ser: un estudiante, un curso, una clase, un tema, un profesor.
-+ Si está creando una API de comercio electrónico, los recursos podrian ser: Producto, Categoría, Pedido, Cliente, Compra, etc.
++ Si estás construyendo el API para un aprendizaje electrónico, los recursos podrían ser: un estudiante, un curso, una clase, un tema, un profesor.
++ Si estás creando una API de comercio electrónico, los recursos podrian ser: Producto, Categoría, Pedido, Cliente, Compra, etc.
   
 Los recursos representan los documentos que se transfieren a través de la red para realizar el trabajo. Los recursos deben nombrarse como sustantivos, ya que representan conceptos en el dominio de un sistema en particular y se identifican usando URIs.
 

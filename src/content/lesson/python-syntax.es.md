@@ -3,7 +3,7 @@ title: "Entendiendo la Sintaxis de Python"
 subtitle: "Desata tu poder aprendiendo con esta lección, usando uno de los Reyes del Desarrollo de Back-End. Ahora podrás integrar AI, Big Data, Aprendizaje automático, APIs e integrar aplicaciones de terceros en la tuya. Disfrute de esta lección sobre la sintaxis de Python"
 cover_local: "../../assets/images/576d4b0e-8b35-493d-879c-4d8f914c585f.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["python"]
 status: "published"
 
@@ -99,7 +99,7 @@ Lo que es NPM es para Javascript, PIP es para Python. Ambas bestias son increíb
 ```python
 # En Python sustraer strings producirá un error, en lugar de eso debes hacer:
 
-var result = int('5') - int('2'); 
+result = int('5') - int('2'); 
 #el resultado ahora es igual a 3
 ```
 
@@ -124,7 +124,7 @@ var result = '5' - '2';
 ```python
 #  En Python sustraer strings producirá un error, en lugar de eso debes hacer esto:
 
-var result = int('5') - int('2'); 
+result = int('5') - int('2'); 
 #el resultado ahora es igual a 3
 ```
 
@@ -185,7 +185,7 @@ Finalmente, en ES2015, Javascript incluye las "funciones arrow". Esa es una mane
 
 ```javascript
 
-# Usando un función de flche para mapear una lista 
+# Usando un función de flecha para mapear una lista 
 
 var peopleArray = [{ name: "Mario Peres" },{ name: "Emilio Peres" },{ name: "Yusaiba Peres" }];
 var returningMapObject = peopleArray.map(person => person.name);
@@ -195,6 +195,7 @@ console.log(returningMapObject);
 
 <br>
 <br>
+
 #### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
 
 ```python
@@ -206,7 +207,7 @@ returningMapObject = map(lambda obj: obj['name'], peopleArray)
 namesArray = list(returningMapObject)
 print(namesArray)
 
-# ahora stringsArray es una lista de nombres como ["Mario Peres","Emilio Peres","Yusaiba Peres"]
+# ahora namesArray es una lista de nombres como ["Mario Peres","Emilio Peres","Yusaiba Peres"]
 ```
 
 

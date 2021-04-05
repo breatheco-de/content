@@ -3,9 +3,9 @@ title: "Event Driven Programming"
 subtitle: "Event Driven Programming: website load, user click, window resize, etc. As a developer, you have to make sure that your applications have a flow. That flow is determined by all the possible events that can occur as the user interacts with your app."
 cover_local: "../../assets/images/d2ca9eb7-a3f9-432d-b791-8b1266f8923a.gif"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["event driven programming"]
-status: "draft"
+status: "published"
 
 ---
 
@@ -90,7 +90,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 |:----------------|:-----------------|
 |Keyup           |When the user releases the keyboard key.    |
 |Keydown	     |When the user presses the keyboard key.    |
-|Keypress       |When the user presses and release the keyboard key.  The difference from keydown/up is that Keypress only works on character keys.  For example, it does not work on the up|down|left|right arrows.     |
+|Keypress       |When the user presses and releases the keyboard key.  The difference from keydown/up is that Keypress only works on character keys.  For example, it does not work on the up|down|left|right arrows.     |
 
 [[demo]]
 | :point_up: Play with this demo here 

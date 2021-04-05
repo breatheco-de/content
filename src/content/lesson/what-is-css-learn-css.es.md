@@ -3,7 +3,7 @@ title: "Aprendamos CSS: ¿Qué Quiere Decir CSS?"
 subtitle: "Cómo te habrás dado cuenta, HTML te permite crear sólo sitios web básicos. Nadie quiere ver un sitio web blanco con algún texto horrible en él. ¡Así que es hora de saber de qué se trata CSS! Aprende CSS para hacer tu sitio web hermoso. Es hora de brillar !."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["CSS"]
 status: "published"
 
@@ -47,7 +47,7 @@ Sencillo, Debes escribir tus estilos con una sintaxis especial denominada "CSS" 
 
 Vamos a repasar estas tags con más detalle:
 
-|**Nombre**   |**Tag**   |**Descripción**   |
+|**Nombre**   |**Etiqueta**   |**Descripción**   |
 |:----------|:-------------|:------------------|
 |Link       |link          |Tiene como finalidad enlazar a la página con hojas de estilos CSS. Para utilizarla debes especificar tres propiedades dentro de la etiqueta `pyton>rel="stylesheet" type="text/css"` y por último `pyton>href="with document route css"`<br>`pyton>link rel="stylesheet" type="text/css" href="theme.css">`   |
 |Style   |style   |Si no queremos o no podemos importar una hoja de estilo CSS, tenemos la posibilidad de definir estilos en el HEAD del documento HTML. Simplemente definimos el tag style y procedemos a escribir los estilos que queremos para las etiquetas.<br>`pyton><style>`<br>`pyton>h1 {color:red;}`<br>`pyton>p {color:blue;}`<br>`pyton></style>`   |
@@ -88,7 +88,7 @@ selector3
    font-size: 15px;
 }
 ```
-## Pero, ¿Qué es un “Selector”?
+## Pero, ¿qué es un “selector”?
 ***
 
 Un selector es una manera de referirse o identificar uno o varios elementos de HTML. Por ejemplo, si quieres cambiar el color de una página web a rojo debes hacerlo de la siguiente manera:
@@ -143,7 +143,7 @@ En el siguiente ejemplo vamos a colocar fondo verde a todos los td (celdas) de l
 |:--------------|:-----------------|:-------------|
 |selector1,selector2   |Si separas varios selectores por coma `,`, puedes asignar múltiples selectores a la vez para ahorrar texto. En el siguiente ejemplo e decimos a todos los h1 y a los elementos de clase .impar que queremos su texto de color rojo.  |`h1, .impar { color: #BDBDBD; }`   |
 
-### Selectores Avanzados
+### Selectores avanzados
 
 Con estas 4 maneras de seleccionar vas a cubrir el 99% de tus necesidades, lo importante es tomarte el tiempo para planificar tus hojas de estilos.
 
@@ -154,7 +154,7 @@ Hay otros selectores más específicos y avanzados. Probablemente lo usarás cua
 
 ¿Qué pasa si un elemento de la página está eleccionado por dos selectores y tiene asignado el color de letra verde en una definición y rojo en la otra? Es decir, si le decimos al navegador dos colores diferentes, ¿qué color utilizará al final?
 
-![aprende css](../../assets/images/08e78606-102f-4bc2-a066-7c26ae9400d5.png)
+![Aprende CSS](../../assets/images/08e78606-102f-4bc2-a066-7c26ae9400d5.png)
 
 Tienes que entender muy bien la jerarquía de CSS para comprender como los elementos **heredan, sobre escriben y hasta anulan estilos entre ellos.**
 
@@ -167,14 +167,14 @@ Ya vimos que una hoja de estilos CSS no es más que una lista que define las pro
 
 Hay cientos - sino miles - de propiedades, pero dependiendo del tipo de elemento/etiqueta que queremos definir, sabremos en cuáles debemos enfocarnos.
 
-#### Editando Tipografía
+#### Editando tipografía
 |Propiedad   |Descripción   |Valores   |
 |:----------|:-------------|:----------|
 |[font-family](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-family)   |tipo de letra (fuente) | [ name-font \| generic-family ]*   |
 |[font-size](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-size)   |tamaño de letra   | tamaño-absoluto \| tamaño-relativo \| distancia \| porcentaje   |
 |[font-style](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-style)   |inclinación (italics)   |normal \| italic \| oblique   |
 
-#### Editando Texto
+#### Editando texto
 
 |Propiedad   |Descripción   |Valores   |
 |:----------|:-------------|:-----------|
@@ -185,7 +185,7 @@ Hay cientos - sino miles - de propiedades, pero dependiendo del tipo de elemento
 |[text-decoration](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-decoration)   |decoración del texto  |none \| blink \| line-through \| overline \| underline   |
 |[text-transform](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-transform)   |mayúsculas / minúsculas   |none \| capitalize \| lowercase \| uppercase   |
 
-#### Editando Listas 
+#### Editando listas 
 
 |Propiedad   |Descripción   |Valores   |
 |:-----------|:-------------|:--------|
@@ -194,7 +194,7 @@ Hay cientos - sino miles - de propiedades, pero dependiendo del tipo de elemento
 |[list-style-position](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-position)   |posición del marcador |inside \| outside  |
 |[list-style-type](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-type)  |tipo de marcador |none \| circle \| disc \| square \| decimal \| decimal-leading-zero \| lower-alpha \| upper-alpha \| lower-greek \| lower-latin \| upper-latin \| lower-roman \| upper-roman \| armenian \| georgian \| hebrew(-) \| cjk-ideographic(-) \| hiragana (-) \| katakana (-) \| hiragana-iroha(-) \| katakana-iroha(-)  |
 
-#### Editando Tablas
+#### Editando tablas
 
 |Propiedad  |Descripción   |Valores   |
 |:----------|:-------------|:-----------|
@@ -204,7 +204,7 @@ Hay cientos - sino miles - de propiedades, pero dependiendo del tipo de elemento
 |[empty-cells](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#empty-cells)   |borde de casillas vacías   |	hide \| show   |
 |[table-layout](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#table-layout)   |algoritmo ancho de tabla   |auto \| fixed   |
 
-#### Editando Background (fondos) 
+#### Editando fondos (background) 
 
 |Propiedad   |Descripción   |Valores   |
 |:----------|:-------------|:----------|
@@ -213,26 +213,4 @@ Hay cientos - sino miles - de propiedades, pero dependiendo del tipo de elemento
 |[background-position](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-position)   |posición de la imagen de fondo   |\[ \[ left \| center \| right \| distancia \| porcentaje] [ top \| center \| bottom \| distancia \| porcentaje] \]? \| [ [ left \| center \| right ] \|\| [ top \| center \| bottom ] ]   |
 |[background-repeat](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-repeat)  |repetición de la imagen de fondo   |no-repeat \| repeat \| repeat-x \| repeat-y \| space(3) \| round(3)   |
 |[background-size(3)](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-size)   |tamaño de la imagen de fondo   |auto \| [ distance \| percentage ] {2} \| contain \| cover   |
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
 

@@ -3,9 +3,9 @@ title: "Dominando los Selectores de CSS"
 subtitle: "Además de dominar las propiedades display y position, aprender a usar selectores de CSS es la habilidad más importante que necesitas desarrollar. No tienes que recordar su sintaxis pero si tenerlos en tu radar para poder desarrollar las estrategias correctas al construir tu hoja de estilos CSS. "
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["CSS"]
-status: "draft"
+status: "published"
 
 ---
 
@@ -34,7 +34,7 @@ Estos selectores "muy específicos" te ayudarán mucho.  ¡Serán tu mejor herra
 [[info]]
 | :tv: &nbsp;[Aquí hay un vídeo muy bueno (3:40 min) explicando especificidad.](https://www.youtube.com/watch?v=In78mSOHmls)
 
-## El Selector de Hijos
+## El selector de hijos
 
 ```css
 #someDiv > p {
@@ -52,7 +52,7 @@ Esta declaración toma las etiquetas de párrafo que son hijos del div y las con
 
 
 
-## El Selector de Parientes Adyacente
+## El selector de parientes adyacentes (hermanos)
 
 ```css
 p + p {
@@ -60,7 +60,7 @@ p + p {
 }
 ```
 
-Usamos el selector de parientes adyacente para cambiar el segundo y tercer párrafo a rojo.  Esto parece muy complicado, ¿no es así? Instintivamente, esperaríamos que el primer párrafo también fuera rojo.  Después de todo, el primer párrafo está en el mismo nivel del árbol que los dos siguiente y, tiene parientes.
+Usamos el selector de parientes adyacentes para cambiar el segundo y tercer párrafo a rojo.  Esto parece muy complicado, ¿no es así? Instintivamente, esperaríamos que el primer párrafo también fuera rojo.  Después de todo, el primer párrafo está en el mismo nivel del árbol que los dos siguiente y, tiene parientes.
 
 Sin embargo, este selector solo se aplica a elementos que están precedidos por otra cosa.  En este caso, solo se aplicará a los párrafos precedidos directamente por un párrafo pariente.
 
@@ -70,7 +70,7 @@ El primer párrafo de la lista está precedido por el div, por lo que no se modi
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/">Click para abrir el demo en una nueva ventana</a></small></div>
 
-## El Todopoderoso Asterisco
+## El todopoderoso asterisco
 ***
 
 ```css
@@ -99,7 +99,7 @@ Puedes llevar esto tan lejos como quieras - los siguientes objetivos son los "ni
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/">Haz click para abrir el demo en una nueva ventana</a></small></div>
 
-## Selector de Valor de Atributo
+## Selector de valor de atributo
 
 ```css
 a[href='http://4geeksacademy.com/'] {color: blue;}
@@ -111,8 +111,7 @@ Si queremos cambiar el color de fuente del enlace "Design Shack", podríamos usa
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/">Click para abrir el demo en una nueva ventana</a></small></div>
 
 
-## Selector de Valor de Atributo de Subcadena Arbitraria
-
+## Selector de valor de atributo de subcadena arbitraria
 
 ```css
 div[id*='section'] {color: red;}
@@ -123,10 +122,9 @@ El siguiente código apunta a cualquier div con la palabra "section" en el títu
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/">Haz click aquí para abrir el demo en una nueva ventana</a></small></div>
 
-## Selectores de Pseudo Clase
+## Pseudoselectores
 
-
-### Pseudo Selectores Relacionados con Enlaces 
+### Pseudoselectores relacionados con enlaces 
 ```css
 a:link{color: green;}
 a:visited{color: yellow;}
@@ -145,7 +143,7 @@ Puedes cambiar los colores de cualquier elemento del sitio web, dependiendo de s
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/">Haz click aquí para abrir el demo en una nueva ventana</a></small></div>
 
   
-### Pseudo Selectores Relacionados con la Entrada 
+### Pseudoselectores relacionados con campos de formulario
 
 ```css
 input{padding: 5px;}
@@ -158,26 +156,26 @@ input:focus{font-size: 2em;}
 input:enabled{ border: 2px solid black;}
 ```
 
-Es muy importante tomarse el tiempo suficiente para darle estilo a nuestros formularios.  El estilo es la mejor manera de decirle al usuario que una entrada está desactivada, marcada o que tiene el cursor enfocado en una entrada en particular.
+Es muy importante tomarse el tiempo suficiente para darle estilo a nuestros formularios.  El estilo es la mejor manera de decirle al usuario que un campo está desactivado, marcado o que tiene el cursor enfocado en un campo en particular.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/">Haz click aquí para abrir el demo en una nueva ventana</a></small></div>
 
-### Pseudo Selectores Basados en la Posición 
+### Pseudoselectores según posición 
 
 ```css
 #myUL li:first-child{background: blue;}
 #myUL li:nth-child(3){background: orange;}
 #myUL li a:first-of-type{background: green;}
 ```
-Puedes aplicar estilos a los elementos en base a su posición. 
+Puedes aplicar estilos a los elementos según su posición. 
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/0nzat2h8/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/0nzat2h8/1/embedded/html,css,result/">Haz click aquí para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/0nzat2h8/1/embedded/html,css,result/">Presiona aquí para abrir la demo en una nueva ventana</a></small></div>
 
-### Aquí hay una lista de las pseudo-clases más usadas:
+### Aquí hay una lista de los pseudoselectores más usados:
 
 |**Selector**   |**Ejemplo**   |**Descripción del Ejemplo**   |
 |:--------------|:-------------|:-------------------------|

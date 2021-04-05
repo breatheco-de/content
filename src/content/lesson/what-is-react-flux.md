@@ -3,7 +3,7 @@ title: "Learn What is React Flux"
 subtitle: "Without Flux, React is just a cute front-end library. React Flux will make it a framework - giving your application a defined structure - taking care of the data-processing layer, and much more about what is flux."
 cover_local: "../../assets/images/b84e07e5-5761-469b-85bb-f7afc87d4dc9.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["reactjs","flux"]
 status: "published"
 
@@ -86,6 +86,10 @@ class MyActions extends Flux.Actions{
     }
 }
 ```
+[[warning]]
+| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+
+
 
 #### 3) Update the store to handle that new dispatched action
 
@@ -124,6 +128,10 @@ class TodoStore extends EventEmitter {
   ...
 }
 ```
+
+[[warning]]
+| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+
 
 ## The Result
 ***

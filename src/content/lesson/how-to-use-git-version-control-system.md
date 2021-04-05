@@ -4,15 +4,15 @@ subtitle: "Learn how to use GIT with an interactive tutorial, video and great ar
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 thumb: "https://breatheco.de/wp-content/uploads/2017/03/commit-object.png"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["GIT","how to use GIT"]
-status: "draft"
+status: "published"
 
 ---
 
 [[demo]]
 | :point_up: We have also prepared an interactive tutorial about GIT [click here to take it!](https://4geeksacademy.github.io/git-interactive-tutorial/)
-&t=6s
+
 
 [[demo]]
 | 📹 This is [an amazing video explaining git and github](https://www.youtube.com/watch?v=BCQHnlnPusY)
@@ -338,7 +338,7 @@ A branch that **tracks** a remote branch retains an internal reference to the re
 The important thing to note is that you now have a complete copy of your friend’s entire repository.  When you branch, commit, merge, or otherwise operate on the repository, you operate only on your own repository.  GIT only interacts with your friend’s repository when you specifically ask it to do so.
 
 [[info]]
-|:link: Say your friend’s repository looks like this:<br>Here is a list of other great resources to learn GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br>You should especially try this two:<br>• https://try.github.io<br>• http://learngitbranching.js.org/
+|:link: Say your friend’s repository looks like this:<br>Here is a list of other great resources to learn GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br>You should especially try these two:<br>• https://try.github.io<br>• http://learngitbranching.js.org/
   
   
 

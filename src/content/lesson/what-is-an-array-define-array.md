@@ -3,9 +3,9 @@ title: "It's Time To Learn What is an Array"
 subtitle: "Can you work with arrays ? if you can't,  don't worry here you will learn what is an array and how to work with them"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["array"]
-status: "draft"
+status: "published"
 
 ---
 
@@ -151,7 +151,7 @@ In order to create your loop you will need to use  Array.length to get the curre
 
 ```javascript
 var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
-    for (i = 0; i < myArray.length; i++) {
+    for (let i = 0; i < myArray.length; i++) {
     console.log(myArray[i]); //this prints the value of the item in the position i 
 }
 ```

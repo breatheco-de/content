@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import queryString  from 'query-string';
 import { Location } from '@reach/router';
 import withLocation from "./withLocation";
+import logoURL from "../assets/breathecode.32.png";
 
 class Navbar extends React.Component {
 	constructor() {
@@ -23,7 +24,7 @@ class Navbar extends React.Component {
 					<Link to="/">
 						<img
 							className="navbar-brand mb-0"
-							src="https://ucarecdn.com/dbe55247-376b-4b81-988e-7dd95f4233b5/"
+							src={logoURL}
 						/>
 					</Link>
 					<button

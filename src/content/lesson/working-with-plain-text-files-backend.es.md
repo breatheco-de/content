@@ -1,24 +1,24 @@
 ---
-title: "Working with Plain Text Files"
-subtitle: "Storing and retrieving information to files using backend languages"
+title: "Trabajando con archivos de texto"
+subtitle: "Almacenar y obtner informacin de archivos usando lenguajes de backend"
 authors: ["alesanchezr"]
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["marketing","query-string"]
-status: "draft"
+status: "published"
 cover_local: "../../assets/images/storage_background.jpg"
 
 ---
 
-## Los Archivos son la único ruta para `guardar` en una computadora.
+## Los Archivos son la única forma para `guardar` en un computador
 
-Todo el disco duro de tu computadora está compuesto por archivos, esta es la ruta más básica para almacenar información, tu computadora se ejecuta en un `sistema de archivos (file system)` o en un `directorio de archivos (file directory)` que muestra cómo se almacenan y recuperan los datos.
+Todo el disco duro de tu computador está compuesto por archivos, esta es la forma más básica para almacenar información, tu computadora se ejecuta en un `sistema de archivos (file system)` o en un `directorio de archivos (file directory)` que muestra cómo se almacenan y obtienen los datos.
 
-Usando un lenguaje de back-end puedes acceder a la mayoría de los archivos de la computadora, ¡y eso te da un poder casi infinito!
+Usando un lenguaje de back-end puedes acceder a la mayoría de los archivos del computador, ¡y eso te da un poder casi infinito!
 
-## Recuperando data de los archivos
+## Obteniendo datos de los archivos
 
-Digamos que tienes los precios de bitcoin del último día en un archivo `bitcoin price.csv` con el siguiente formato:
+Digamos que tienes los precios de bitcoin del último día en un archivo `bitcoin_precios.csv` con el siguiente formato:
 
 <before-after width="400px"
     before="../../assets/images/97f74cd8-acdd-4ce9-aa26-bfd494e9b550bitcoin_price_csv.png" 
@@ -26,9 +26,9 @@ Digamos que tienes los precios de bitcoin del último día en un archivo `bitcoi
 />
 
 [[info]]
-| :tv: Five minute video explaining [what is a CSV file](https://www.youtube.com/watch?v=_blfh7uR05A)
+| :tv: Video de 5 minutos en donde se explica [qué es un archivo CSV](https://www.youtube.com/watch?v=_blfh7uR05A)
 
-Basicamente, cada linea en el archivo CSV representa un precio, por ejemplo:
+Básicamente, cada línea en el archivo CSV representa un precio, por ejemplo:
 
 ```python
 Currency,Date,Closing Price (USD),24h Open (USD),24h High (USD),24h Low (USD)
@@ -54,7 +54,7 @@ for row in csv_f:
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Read-bitcoin-prices-python-file?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 
-## Guardando data en los archivos
+## Guardando datos en los archivos
 
 Digamos que está ejecutando un script que tiene una variable llamada `todos` que contiene una lista de tareas pendientes:
 
@@ -62,17 +62,17 @@ Digamos que está ejecutando un script que tiene una variable llamada `todos` qu
 todos = ['make the bed', 'do the laundry', 'finish homework']
 ```
 
-Esa variable se almacena en la memoria RAM hasta que decida guardarla en un archivo de texto o base de datos. La memoria RAM no es confiable porque su computadora podría perder energía en cualquier momento (apagada).
+Esa variable se almacena en la memoria RAM hasta que decida guardarla en un archivo de texto o base de datos. La memoria RAM no es confiable porque su computadora podría perder energía en cualquier momento (apagarse).
 
 Puede guardar esa variable en un archivo `todos.csv` con el siguiente código de Python:
 
 ```python{numberLines: true}
 todos = ['make the bed', 'do the laundry', 'finish homework']
 
-todos_as_csv = ','.join(todos) # convert the list into a string
-file = open('todos.csv', 'w+') # open the file for writing 'w', create if it doesn't exists
-file.write(todos_as_csv) # write the content
-file.close() # close the file
+todos_as_csv = ','.join(todos) # convertir la lista en un string
+file = open('todos.csv', 'w+') # abrir un archivo para escribir 'w', crearlo si no existe
+file.write(todos_as_csv) # escribir contenido
+file.close() # cerrar archivo
 ```
 
 El código anterior creará o actualizará un `todos.csv` con contenido similar a este:
@@ -88,11 +88,11 @@ make the bed, do the laundry, finish homework
 | Formato        | Explicación |
 | ------        | ----------- |
 | CSV           | La Coma `,` separa valores, una linea por cada fila o entidad distinta. |
-| JSON          | Muy similar a la sintaxís de Javascript, hecho especialmente para desarrolladores y el formato más utilizado al transmitir información a través de Internet (HTTP) |
+| JSON          | Muy similar a la sintaxis de Javascript, hecho especialmente para desarrolladores y el formato más utilizado al transmitir información a través de Internet (HTTP) |
 | Yaml or YML   | El formato más fácil de entender, a los desarrolladores les encanta porque es rápido pero también es muy similar a un simple archivo de texto, permite comentarios y usa indentación (sangría) en lugar de comas o llaves para delimitar |
 | XML           | Muy popular en los años 90 y todavía se usa en muchos programas por su legado |
 
-### Conversión de texto CSV a objeto Python en memoria
+### Conversión de texto CSV a objeto Python en la memoria
 
 ```python{numberLines: true}
 import csv
@@ -104,7 +104,7 @@ for row in file_content:
     # etc..
 ```
 
-### Conversión de texto JSON a objeto Python en memoria
+### Conversión de texto JSON a objeto Python en la memoria
 
 ```python{numberLines: true}
 import json
@@ -117,7 +117,7 @@ for row in data:
     # etc..
 ```
 
-### Conversión de texto Yaml a objeto Python en memoria
+### Conversión de texto Yaml a objeto Python en la memoria
 
 ```python{numberLines: true}
 import yml #you have to install pip package pyyaml

@@ -1,6 +1,6 @@
 import React from "react";
-import IconEs from '../../assets/es.svg';
-import IconEn from '../../assets/en.svg';
+import IconEs from '../../assets/svg/es.svg';
+import IconEn from '../../assets/svg/en.svg';
 import { Link } from 'gatsby';
 import './styles.scss';
 const icons = {

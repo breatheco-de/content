@@ -1,9 +1,9 @@
 ---
 title: "Tutorial de Bootstrap: Aprende Bootstrap 4 en 10 minutos"
-subtitle: "Después de decadas de lucha, la luz a llegado !! con este tutorial de Bootstrap, diseñar un sitio web va a ser pan comido.    Es casi estupido, y tambien imposible pensar en hacer un sitio web sin un framework de CSS como Bootstrap 4 ."
+subtitle: "¡Después de decadas de lucha, la luz ha llegado! Con este tutorial de Bootstrap, diseñar un sitio web va a ser pan comido. Es absurdo, y casi imposible, pensar en hacer un sitio web sin un framework de CSS como Bootstrap."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:30-04:00"
+date: "2020-10-19T16:36:30+00:00"
 tags: ["bootstrap"]
 status: "published"
 
@@ -11,15 +11,15 @@ status: "published"
 
 ## Bootstrap viene a arreglar el 90% de los problemas de CSS
 
-Hay una luz al final del túnel y no es Chuck Norris con una linterna. ¡Finalmente alguien arregló CSS!  Es una librería hecha por [Mark Otto](https://twitter.com/mdo?lang=en) y [Jacob Thornton](https://twitter.com/fat)- personas normales, programadores como tu y yo, y ¡es genial!
+Hay una luz al final del túnel y no es Chuck Norris con una linterna. ¡Finalmente alguien arregló CSS!  Es una biblioteca hecha por [Mark Otto](https://twitter.com/mdo?lang=en) y [Jacob Thornton](https://twitter.com/fat)- personas normales, programadores como tú y como yo, y ¡es genial!
 
-Dos chicos mientras trabajaban en Twitter, estaban sufriendo los mismos problemas que nosotros con HTML y CSS. Hartos de esta situación (como nosotros), decidieron crear una **hoja base que puede importarse en cualquier sitio web**. Esto hizo el trabajo de todos los desarrolladores front-end 4 veces más fácil.
+Dos chicos, mientras trabajaban en Twitter, estaban sufriendo los mismos problemas que nosotros con HTML y CSS. Hartos de esta situación (como tú y yo), decidieron crear una **hoja base que puede importarse en cualquier sitio web**. Esto hizo el trabajo de todos los desarrolladores front-end 4 veces más fácil.
 
 ![bootstrap 4](../../assets/images/335ed387-cbf9-4ffa-9529-1ccf2084e393.jpeg)
 
-Además, Bootstrap te da una docena de elementos nuevos que vas a querer usar siempre y que actualmente no existen en CSS+HTML: Los componentes de Bootstrap.
+Además, Bootstrap te da una gran cantidad de elementos nuevos que vas a querer usar siempre y que actualmente no existen en CSS+HTML: Los componentes de Bootstrap.
 
-## Layouts: Solucionado el Modelo de Cajas
+## Layouts: Solucionado el modelo de cajas
 ***
 
 Uno de los defectos en CSS, es la forma en que funcionan los layouts: trabajar con **float**,  **display** y **position** ¡es lo peor! Así es como Bootstrap lo soluciona:
@@ -40,7 +40,7 @@ Por otro lado, las columnas fueron hechas para vivir dentro de las filas (como p
 
 ![bootstrap tutorial](../../assets/images/1b7f5dc4-029a-475d-8bfd-fac1b739966c.png)
 
-## Nuestro primer Ejemplo de Diseño:
+## Nuestro primer ejemplo de diseño:
 
 Tal cual como lo hicimos en el capítulo sobre diseños, vamos a crear una página con dos grandes secciones, una barra lateral a la derecha y un contenido principal a la izquierda:
 
@@ -48,7 +48,7 @@ Tal cual como lo hicimos en el capítulo sobre diseños, vamos a crear una pági
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/th7uLrow/4/embedded/html,css,result/">Click aquí para ver el demo en una ventana nueva</a></small></div>
 
-## Bootstrap es 100% Responsivo
+## Bootstrap es 100% adaptable
 
 Es muy fácil decidir como se verá tu página web en pantallas de diferente tamaño; cuando añades cada columna dentro de las filas, debes asignar una clase con el siguiente formato:
 
@@ -68,7 +68,7 @@ Es muy fácil decidir como se verá tu página web en pantallas de diferente tam
 [[warning]]
 | :point_up:Nota: si no especificas el tamaño de pantalla (ej. usando 'sm', 'md', or 'xl'), el sitio web va a renderizar para teléfonos móviles por defecto.
 
-## Define Móvil, Tablet y Escritorio (Desktop) al mismo tiempo
+## Define móvil, tablet y escritorio/sobremesa (Desktop) al mismo tiempo
 
 Vamos a configurar el diseño (usando las clases de columnas xs, sm, md y lg) para estas dos filas en todos los dispositivos al mismo tiempo:
 
@@ -95,7 +95,7 @@ Vamos a configurar el diseño (usando las clases de columnas xs, sm, md y lg) pa
 </div>
 ```
 
-## Esqueleto Basico de Bootstrap 4
+## Estructura básica de Bootstrap 4
 ***
 
 Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web debe tener. Ahora solo debes agregar unas lineas en tu esqueleto para hacerlo compatible con Bootstrap:
@@ -125,7 +125,7 @@ Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web debe tener. Aho
 </html>
 ```
 
-Recuerda, Bootstrap es solo una hoja de estilos, Es por eso que es muy simple agregarlo a tu sitio web. Utiliza el `<link>` tag para incluir los estilos, y si quieres para usar la etiqueta de javascript `<script>` y así incluir los archivos de javascript de Bootstrap.
+Recuerda, Bootstrap es solo una hoja de estilos. Es por eso que es muy simple agregarlo a tu sitio web. Utiliza el `<link>` tag para incluir los estilos, y si quieres para usar la etiqueta de javascript `<script>` y así incluir los archivos de javascript de Bootstrap.
 
 La funcionalidad de Javascript en Bootstrap requiere que se incluyean las librerias propias de jQuery y Javascript primero pero no te preocupes por esto aún.   Sólo incluye las librerias de JS usando la etiqueta script y más adelante lo entenderás.
 
@@ -144,10 +144,10 @@ Cuando importas Bootstrap en tu página web, tendrás un nuevo conjunto de compo
 ![bootstrap 4](../../assets/images/8e9ff37a-28f7-4179-8f5d-9278ff7efd55.png)
 
 
-### Esto son los componentes más usados e importantes de Bootstrap:
+### Estos son los componentes más usados e importantes de Bootstrap:
 ***
 
-#### Barra de Navegacion o NavBar
+#### Barra de navegación o NavBar
 
 Esto es tan popular que se encuentra en el 99% de los menús de todos los sitios web.  Normalmente contiene el logo de la compañia y una series de links - dependiendo de la lógica de negocio de la página. 
 
@@ -263,12 +263,21 @@ La documentación oficial de Bootstrap es increible!! No necesitamos copiar y pe
 + [List of components available to use on your website.](https://getbootstrap.com/docs/4.1/components/alerts/)
 + [Utilities or Helper classes:](https://getbootstrap.com/docs/4.1/utilities/borders/) Very useful and constantly used classes to do stuff like centering the text, centering a column or container, adding a background, etc.
 
+ 
+| :point_up : Versiones de Bootstrap y su descarga: 
 
+Bootstrap tiene varias versiones, siempre verifica que estés usando la última versión de Bootstrap en tu proyecto. Aquí podrás encontrar todas las versiones disponibles:[https://getbootstrap.com/docs/versions/](https://getbootstrap.com/docs/versions/).
+
+
+Te recomendamos que uses el CDN para importar bootstrap en tu archivo HTML, de este modo:
+We recomend using a CDN to import bootstrap in your HTML like this one: [https://www.bootstrapcdn.com/](https://www.bootstrapcdn.com/)
+
+Si estás migrando tu proyecto a nueva versión de Bootstrap, recuerda siempre verificar su documentación.
 
 ## Gana RE2PECT.
 ***
 
-El éxito no viene de la noche a la mañana.  Este es tu primer logro.  Dejame pregunterte ¿te sientes capaz de usar HTML, CSS, Layouts y Bootstrap?  ¡No te mientas!
+El éxito no llega de la noche a la mañana.  Este es tu primer logro.  Déjame pregunterte ¿te sientes capaz de usar HTML, CSS, Layouts y Bootstrap?  ¡No te mientas!
 
 No más Lecciones sobre este tema - es momento de entregar.  Es hora de enfocarse en el proyecto de clase.  Recuerda honrar los valores de los desarrolladores. Calma.
 

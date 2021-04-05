@@ -3,9 +3,9 @@ title: "What is webpack?"
 subtitle: "For senior developers, it is imposible to think about developing a JS application without Webpack. Thanks to Webpack, developing front-end feels good and professional for the first time.So its time to learn what is webpack"
 cover_local: "../../assets/images/cdbe1bf9-2b6b-4c21-b127-eacc681d9c8d.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["webpack"]
-status: "draft"
+status: "published"
 
 ---
 
@@ -85,7 +85,7 @@ module.exports = {
 };
 ```
 
-The only thing that Webpack needs from you is specifying the export property of the model object.
+The only thing that Webpack needs from you is specifying the export property of the module object.
 
 As you can see, the module object is not declared anywhere, but don’t worry about that, it’s something that exists magically on every npm application (like the one we have just created).
 

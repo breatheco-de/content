@@ -3,7 +3,7 @@ title: "What is HTML? It's time to learn HTML and its structure"
 subtitle: "But really, what is HTML? HTML is to websites what columns are for buildings. Here you will learn HTML basics, the foundations of the web."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["html"]
 status: "draft"
 
@@ -46,7 +46,7 @@ Once a `<tag>` is defined, we can describe in detail its behavior by assigning a
 ```
 
 
-In theory, you have to use [one of these tags](https://breatheco.de/en/lesson-asset/html5-cheat-sheet/), don’t make up your own tags because the browser won’t know how to interpret them. You must **learn HTML's** tags meanings, and their functionality, in order to put them to good use… but don’t worry, there aren’t that many! 🙂
+In theory, you have to use [one of these tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true), don’t make up your own tags because the browser won’t know how to interpret them. You must **learn HTML's** tags meanings, and their functionality, in order to put them to good use… but don’t worry, there aren’t that many! 🙂
 
 For the main heading of the document, the tag we use is `<h1>`.  For example: An online store has an "Electronics" category. The title to such category would be "Electronics" and the `<h1>` tag would be written as follows:
 

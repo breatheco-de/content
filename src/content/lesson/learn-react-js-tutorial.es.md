@@ -3,7 +3,7 @@ title: "Aprender React Aquí: Tutorial de React Js"
 subtitle: "React es una librería de front-end ideal para crear interfaces (genera HTML+CSS). Es la librería más rápida, más avanzada y más buscada en el mercado en este momento. No te quedes atrás, aprende React js aquí con este tutorial de React Js"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-date: "2020-10-19T12:36:31-04:00"
+date: "2020-10-19T16:36:31+00:00"
 tags: ["reactjs"]
 status: "published"
 
@@ -168,6 +168,10 @@ export class MyCard extends React.Component{
     }
 }
 ```
+[[warning]]
+| :point_up: Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+
+
 
 ### Haciendo Diseños de Sitios Web con React
 
@@ -192,6 +196,10 @@ export class EntireWebsiteLayout extends React.Component{
     }
 }
 ```
+[[warning]]
+| :point_up: Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+
+
 Esos componentes que sirven para sostener el layout o diseño de tus páginas web, no se utilizarán para nada más es lo que llamamos "views o vistas", y los típicos componentes que odemos reutilizar muchas veces con diferente input ( como comopotente button o card) les llamaremos "components o componentes" dentro de las carpetas de nuestra aplicación.
 
 **Así es como React renderizará tu layout:**
