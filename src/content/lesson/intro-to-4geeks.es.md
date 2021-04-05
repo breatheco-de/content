@@ -40,7 +40,7 @@ Cualquier persona en general puede aprender a programar, la programación se vue
 
 ##### 📝 Receta para no perder la confianza en ti
 
-1. **Evita estar atascado durante mucho tiempo:** Codificar puede complicarse porque puedes estar a punto de resolver el problema u quedarte atascado sin ver la respuesta. Quizás no sepas como empezar a resolver un problema y una conversación de 5 minutos con mentor te aclarará la mente.
+1. **Evita estar atascado durante mucho tiempo:** Codificar puede complicarse porque puedes estar a punto de resolver el problema y quedarte atascado sin ver la respuesta. Quizás no sepas como empezar a resolver un problema y una conversación de 5 minutos con mentor te aclarará la mente.
 
 2. **Habla con otros estudiantes:** Puede que pienses que eres el único que no entiende, pero si hablas con otros compañeros verás que no eres sólo tu y te dará confianza para hacer preguntas.
 
