@@ -71,7 +71,7 @@ A **commit object** contains three things:
 
 ![how to use git](https://breatheco.de/wp-content/uploads/2017/03/commit-object.png)
 
-The parent commit objects are those commits that came first.  Generally a commit object will have one parent commit.  One generally takes a project in a given state (commit), makes a few changes, and saves the new state (commit) of the project.
+The parent commit objects are commits that came first.  Generally a commit object will have one parent commit.  One generally takes a project in a given state (commit), makes a few changes, and then saves the new state (commit) of the project.
 
 At the beginning, a project always has one commit object with no parents.  This is the first commit that is made to the project repository.
 
