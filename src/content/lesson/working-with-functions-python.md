@@ -131,7 +131,7 @@ print(myVariable)
 
 ## Lambda functions (one line functions) in Python
 
-If you function it's going to be a one line function, you can use the "lambda" trick to be more agile. You have to use the reserved word `lambda`.
+If your function is going to be a one line function, you can use the "lambda" trick to be more agile. You have to use the reserved word `lambda`.
 
 ```python
 multiply = lambda a, b : a * b
@@ -139,7 +139,7 @@ result = multiply(2,3)
 print(str(result))
 ```
 
-Lamba is ideal for cases in which you have little functions, you will learn to love it because it makes your cod really fast and agile to code, specially when you are working with arrays.
+Lambda is ideal for cases in which you have little functions, you will learn to love it because it makes your cod really fast and agile to code, specially when you are working with arrays.
 
 ## Calling Functions
 
@@ -152,7 +152,7 @@ multiply()
 # this is how you call a function with parameters 
 multiply(<first param>,<second param>)
 
-# for example, to multiple 3 times 9 
+# for example, to multiply 3 times 9 
 multiply(3,9)
 ```
 
