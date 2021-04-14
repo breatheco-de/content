@@ -176,7 +176,7 @@ These will help you save time and make less mistakes when typing:
 + To autocomplete a file or folder name, use the `tab` key.
 + To repeat any command you have used in the past, use the `up` arrow and it will show you each command, one by one.
 + To go to the home user folder, use the `~` key like this: cd ~
-+ Use the `clear` command to "clean" the current console (it is just a scroll, but a very useful one)
++ Use the `clear` command to "clean" the current console (it is just a scroll, but a very useful one).
 
 ## Editing Files in the Terminal:
 ***

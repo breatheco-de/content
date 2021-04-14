@@ -74,7 +74,7 @@ Will look like this: `python>print("Hello")`
 
 Start your code with three tildes like this: `
 
-!(Syntax Highlighting Breathecode)[https://ucarecdn.com/8e196eb9-9aaa-41b1-a0f9-a62c1375ccfa/Screenshot20191121at73857PM.png]
+![Syntax Highlighting Breathecode](https://ucarecdn.com/8e196eb9-9aaa-41b1-a0f9-a62c1375ccfa/Screenshot20191121at73857PM.png)
 
 Will look like this:
 
