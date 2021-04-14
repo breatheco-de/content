@@ -9,7 +9,7 @@ CMS for the BreatheCode Platform
 
 Here is an API of all  the lessons on the platform: https://content.breatheco.de/static/api/lessons.json
 
-## Requirements
+## Requirements:
 
 #### 1) Markdown based
 All the content must be markdown based, to create new articles all you have to do is add a new .md file in markdown syntax.
