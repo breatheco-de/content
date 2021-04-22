@@ -45,6 +45,20 @@ Note: Unit tests don't care about the content of the `sum` function, it only car
 
 ![unit testing examples](../../assets/images/unit-test1.png)
 
+## Arrow function.
+
+Another novelty of ES6 are the "Arrow function". The way to create these functions is as follows: First we will define the list of parameters, if necessary, between parentheses followed by the => symbol and the {} to indicate the instructions to be carried out.
+
+In addition to the syntax that is different from the previous ones, this type of functions have the following characteristics.
+
+The "arrow functions" do not create their own context when executed. Unlike the "function expression" or the "function declaration" that creates its own context.
+
+The "arrow functions" are anonymous.
+
+The arguments object is not in the context of the function.
+
+If when defining the function we do not use the symbol of the curly braces. The function will return as a result of the function the result of the execution of the instruction that we have indicated.
+
 
 ## Benefits of using Unit Testing:
 
