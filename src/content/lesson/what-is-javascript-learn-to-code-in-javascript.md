@@ -76,7 +76,7 @@ As we learned above, we use the keyword `var` to declare a variable.  There are 
 ***Var***:  Its scope is within the function in which it is declared in.  This means that the variable will stay the same throughout the whole function even if there is more than one block of code in the function.
 
 [[info]]
-|:link: [Read more about `*var*`, `let`, and `const`](http://wesbos.com/let-vs-const/)
+|:link: [Read more about `*var*`, `*let*`, and `*const*`](http://wesbos.com/let-vs-const/)
 
 Variable values are subject to change over time.  To retrieve a variable value you can print the value on the screen at any time.  Each language has its own methods to print; this is how you do it in JavaScript:
 
