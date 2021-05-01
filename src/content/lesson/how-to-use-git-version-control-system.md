@@ -65,7 +65,7 @@ The GIT repository is stored in the same directory as the project itself in a -h
 
 A **commit object** contains three things:
 
-+ A set of **files**, reflecting the state of a project at a given point in time.
++ A set of **file**, reflecting the state of a project at a given point in time.
 + References to **parent commit objects.**
 + An **SHA1 name:** a 40-character string that uniquely identifies the commit object.  The name is composed of a hash of relevant aspects of the commit; this way identical commits will always have the same name.
 
