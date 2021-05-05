@@ -18,7 +18,7 @@ Estas aquí para aprender a desarrollar tus habilidades para codificar hasta un 
 
 ## Lo que ya sabías
 
-También estas aquí porque necesitas ayuda, no sólo técnica sino también espiritual. Digo esto de la manera más prágmática posible.
+También estas aquí porque necesitas ayuda, no sólo técnica sino también espiritual. Digo esto de la manera más pragmática posible.
 
 > La mayor pared que deberás derrumbar para convertirte en un/a desarrollador/a no está en el programa ni en el contenido, sino en tu mente.
 Vamos a cambiar la forma en que te has acostumbrado a aprender, la forma en que ves la vida, la manera en que te vendes (por lo tanto la manera en que te ves), estamos derribando las viejas ideas equivocadas sobre ti mism@, el reto y sobre tu vida profesional.
