@@ -16,10 +16,10 @@ tags: ["SQL Alchemy","Python"]
 
 SQLAlchemy es un [Object-Relational Mapper / Mapping-tool](https://en.wikipedia.org/wiki/Object-relational_mapping), o un ORM, es decir una librería que los desarrolladores utilizan para crear bases de datos y manipular sus datos sin la necesidad de conocer / usar SQL.
 
-Existen otras alternativas como SQL Alchemy como Peewee, y otros lenguajes tienen sus propios ORMs como PHP Eloquent o Java Hibernate.
+Existen otras alternativas como SQL Alchemy o Peewee, y otros lenguajes tienen sus propios ORMs como PHP Eloquent o Java Hibernate.
 
 
-## ¿Porqué usar un ORM?
+## ¿Por qué usar un ORM?
 
 Los ORM han ganado popularidad debido a que lidiar con el lenguaje SQL directamente requiere de mucho esfuerzo en la mayoría de los casos. El objetivo del ORM entonces es simplificar la mantención de tus datos.
 
@@ -85,9 +85,9 @@ db.session.commit()
 ### SELECT: Buscando o recuperando registros
 
 Hay 3 formas para devolver data de la base de datos:
-    1. Buscar/Recuperar/Devolver todo los registros desde un Table/Model en particular usando `MyModel.query.all()`
+    1. Buscar/Recuperar/Devolver todos los registros desde un Table/Model en particular usando `MyModel.query.all()`
     2. Buscar/Recuperar/Devolver un solo registro basado en su primary key usando `MyModel.query.get(id)`
-    3. Buscar/Recuperar/Devolver un grupo de registro basado en su consulta `Person.query.filter_by(arg1=value, arg2=value, ...)`
+    3. Buscar/Recuperar/Devolver un grupo de registros basado en su consulta `Person.query.filter_by(arg1=value, arg2=value, ...)`
 
 ```py
 # aqui es como se buscan todas las personas
@@ -123,7 +123,7 @@ db.session.commit()
 
 ## Transacciones
 
-A transaction es una secuencia de operaciones (como por ej. INSERT, UPDATE, SELECT) realizadas en tu base de datos. Para que una transacción esté completa un cierta cantidad de operaciones dentro de un grupo deben ser exitosas. Si una operación falla, toda la transacción falla.
+Una transacción es una secuencia de operaciones (como por ej. INSERT, UPDATE, SELECT) realizadas en tu base de datos. Para que una transacción esté completa una cierta cantidad de operaciones dentro de un grupo deben ser exitosas. Si una operación falla, toda la transacción falla.
 
 Las transacciones tienen las siguientes 4 propiedades estándar (conocidas como propiedades ACID: español significa Atomicidad, Consistencia, Aislamiento y Durabilidad )
 
@@ -135,9 +135,9 @@ Una transacción termina con COMMIT o ROLLBACK.
 
 El comando COMMIT se usa para guardar de manera permanente los cambios realizados en una transacción dentro de la base de datos. 
 
-Cuando usas INSERT, UPDATE o DELETE, los cambios realizados con estos comando no son permanentes, los cambios hechos poes estos comando pueden desahacerse o "podemos volver atrás".
+Cuando usas INSERT, UPDATE o DELETE, los cambios realizados con estos comandos no son permanentes, los cambios hechos pueden desahacerse o "podemos volver atrás".
 
-Pero usas el comando COMMIT los cambios en tu base de datos serán permanentes.  
+Pero cuando usas el comando COMMIT los cambios en tu base de datos serán permanentes.  
 
 ### Comando ROLLBACK 
 
@@ -185,7 +185,7 @@ SAVEPOINT B
 INSERT INTO class PIZZA (6, 'bacon')
 ```
 
-Ahora nuestra 'Pizza' tiene los siguientes ingredientes has the following:
+Ahora nuestra 'Pizza' tiene los siguientes ingredientes:
 
 ![SQL](../../assets/images/sql-3.png)
 
@@ -198,7 +198,7 @@ y nuestra 'PIZZA' se ve así:
 
 ![SQL](../../assets/images/sql-4.png)
 
-....me ha dado habre luego de leer esta lección ¿¿tú no tienes hambre??
+....me ha dado hambre luego de leer esta lección ¿¿tú no tienes hambre??
 
 
 
