@@ -14,11 +14,11 @@ cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 
 ## Lo que ya sabes
 
-Estas aquí para a desarrollar tus habilidades para codificar hasta unnivel en el puedas serle útil a la sociedad para poder: 1️⃣ Conseguir trabajo, 2️⃣ Crear tu propia empresa y/o 3️⃣ Adaptarte mejor al nuevo mundo. 
+Estas aquí para aprender a desarrollar tus habilidades para codificar hasta un nivel en el puedas: 1️⃣ Conseguir trabajo, 2️⃣ Crear tu propia empresa y/o 3️⃣ Adaptarte mejor al nuevo mundo. 
 
 ## Lo que ya sabías
 
-También estas aquí porque necesitas ayuda, no sólo técnica sino también espiritual. Digo esto de la manera más prágmática posible.
+También estas aquí porque necesitas ayuda, no sólo técnica sino también espiritual. Digo esto de la manera más pragmática posible.
 
 > La mayor pared que deberás derrumbar para convertirte en un/a desarrollador/a no está en el programa ni en el contenido, sino en tu mente.
 Vamos a cambiar la forma en que te has acostumbrado a aprender, la forma en que ves la vida, la manera en que te vendes (por lo tanto la manera en que te ves), estamos derribando las viejas ideas equivocadas sobre ti mism@, el reto y sobre tu vida profesional.
@@ -32,48 +32,47 @@ Durante los años que han pasado hemos identificado razones específicas por la 
 
 ![Síndrome del Impostor](../../assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png)
 
-En algún momento de nuestras vidas (en alguno más que otros) todos hemos pensado que somos la persona más estúpida de una sala. Si continuamos pensado eso durante mucho tiempo y no nos sentimos cómodos con cualquier disciplina incluso podemos pensar que no somos inteligentes ¡Mentira!¡Nada que ver! Tu eres parte de esta academia, nosotros no aceptamos estudiantes que no tengan la inteligencia suficiente para vivir de la programación, debes creer en eso ¡Especialmente cuando las cosas se ponen difíciles!
+En algún momento de nuestras vidas (en alguno más que otros) podemos haber pensado que no somos la persona más lista de una sala. Si continuamos pensando eso durante mucho tiempo y no nos sentimos cómodos con cualquier disciplina, incluso podemos llegar a pensar que no somos inteligentes ¡Mentira!¡Nada que ver! Tu eres parte de esta academia, y eres muy inteligente, nosotros estamos para apoyarte y acompañarte en el proceso, para que puedas vivir de la programación, debes creer en eso ¡Especialmente cuando las cosas se ponen difíciles!
 
-> Si en ejercicio o proyecto en particular son difíciles, en vez de pensar que no sirves para esto, busca nuevas maneras de absorver el contenido. Habla con un mentor y te daremos exactamente lo que necesitas
-Cualquier persona promedio puede aprender a programar a un nivel en que puede ser útil, programar se vuelve más complicado cuando te espacializas más en tu carrera ( Inteligencia Artificial, Robótica, etc.)Puede ganar buen dinero sin tener que haber estudiado Matemáticas, sin ser bueno con los números o si aprender tan rápido como otros ( por si a acaso, quizáspuede podamos hacer algo al respecto).
+> Si algún ejercicio o proyecto en particular te parece difícil, en vez de pensar que no sirves para esto, busca nuevas maneras de absorber el contenido. Habla con un mentor y te daremos exactamente lo que necesitas.
+Cualquier persona en general puede aprender a programar, la programación se vuelve más complicada cuando te especializas más en tu carrera ( Inteligencia Artificial, Robótica, etc.) Puedes ganar una buena cantidad dinero sin tener que haber estudiado Matemáticas, sin ser bueno con los números o sin aprender tan rápido como otros.
 
 
 ##### 📝 Receta para no perder la confianza en ti
 
-1. **Evita estar atascado durante mucho tiempo:** Codificar puede complicarse porque puedes estar a punto de resolver el problema pero te que quedas atascado y no lo ves. Quizás no sepas como empezar a resolver un problema y una conversación de 5 minutos con mentor te aclarará la mente.
+1. **Evita estar atascado durante mucho tiempo:** Codificar puede complicarse porque puedes estar a punto de resolver el problema y quedarte atascado sin ver la respuesta. Quizás no sepas como empezar a resolver un problema y una conversación de 5 minutos con mentor te aclarará la mente.
 
-2. **Habla con otros estudiantes:** Puede que pienses que eres el único que entiende, pero si hablas con otros compañeros verás que no eres sólo tu, te dará confianza para hacer preguntas.
+2. **Habla con otros estudiantes:** Puede que pienses que eres el único que no entiende, pero si hablas con otros compañeros verás que no eres sólo tu y te dará confianza para hacer preguntas.
 
-3. **Habla con los mentores:** Una vez con experiencia siempre es buena, hay alumni y profesores que ya han pasado por momentos difíciles o que están con dificultades ¡en este mismo momento¡
-
+3. **Habla con los mentores:** Una voz con experiencia siempre es buena, hay egresados y profesores que ya han pasado por momentos difíciles o que están con dificultades ¡en este mismo momento¡
 
 #### Pared #2: Confianza ✝
 
 Durante toda tu vida has aprendido de la misma manera, el sistema de educación te ha puesto en una caja y te ha enseñado a aprender lentamente limitando tu habilidad para adaptarte al nuevo mundo de profesionales que aprenden con rapidez y que son autodidactas.
 
-Sabemos como enseñarte: lo hemos hecho uno y otra vez, pero te enseñaremos de una manera tan diferente que puede no gustarte al principio, es normal que tu mente querrá vover al aprendizaje "lento pero seguro", sin tener que sentirte incómodo o constantemente desafiado por nuestro sistema.
+Sabemos como enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseñaremos de una manera tan diferente que puede no gustarte al principio, es normal que tu mente quiera vover al aprendizaje "lento pero seguro", sin tener que sentirte incómodo o constantemente desafiado por nuestro sistema.
 
 ##### 📝 Receta para evitar perder la confianza en nuestros métodos  
 
-1. **¡Sigue el método!** ¿Cómo sabes que no funciona si no lo intentas adecuadamente? ¡Haz las tareas ANTES de ir a clases! sigue el programa en el orden recomendado, haz los pequeños ejercicios antes de saltar a los proyectos, asiste a cada clase, no leas libros que te retrasarán. etc.
+1. **¡Sigue el método!** ¿Cómo sabes que no funciona si no lo intentas adecuadamente? ¡Haz las tareas ANTES de ir a clases! Sigue el programa en el orden recomendado, haz los pequeños ejercicios antes de saltar a los proyectos, asiste a cada clase, no leas libros que te retrasarán. etc.
 
-2. **Pregunta ¿Por qué?** Podemos enseñarte y decir mucho pero necesitamos que hagas preguntas cuando empieces a dudar de nuestros métodos. Todo lo que hacemos es por una razón y estoy seguro de que podremos explicarte el "por qué".
+2. **Pregunta ¿Para qué?** Podemos enseñarte y decir mucho, pero necesitamos que hagas preguntas cuando empieces a dudar de nuestros métodos. Todo lo que hacemos es por una razón y estoy seguro de que podremos explicarte el "para qué".
 
-3. **Sé humilde:** Hay muchos estudiantes inteligentes que han completado el curso con éxito siguiendo elmétodo. Algunos trabajan en Google, Amazon u otra gran empresa a nivel mundial. Por favor sé humilde e itenta seguir el curso como es. Puedes hablar con nosotros si tienes alguna idea sobre alguna mejora, tambien tenemos la humildad para ser abiertos e intentar algo que podría funcionar.
+3. **Sé humilde:** Hay muchos estudiantes que han completado el curso con éxito siguiendo el método. Algunos trabajan en Google, Amazon u otra gran empresa a nivel mundial. Por favor sé humilde e itenta seguir el curso como es. Puedes hablar con nosotros si tienes alguna idea sobre alguna mejora, tambien tenemos la humildad para ser abiertos e intentar algo nuevo que podría funcionar.
 
 #### Pared 3: Inactividad 😴 
 
-Este es un campo de entrenamiento. No importa si lo haces full-time o part-time. Debes tener una mentalidad de entrenamiento y trabajar cada día como si fuera el último. El cerebro humano absorbe 80% más cuando se siente desafiado y asustado. Si descansas un día el cerebro se relaja, y [está demostrado](https://www.youtube.com/watch?v=h5PLO4XAXhs) que usualmente se olvida del 60% de la información adquirida recientemente en un día, a menos que la uses, la uses nuevamente, y nuevamente, durante un periodo de 7 días (por lo menos).
+Este es un campo de entrenamiento, no importa si lo haces full-time o part-time, debes tener una mentalidad de entrenamiento y trabajar cada día como si fuera el último. El cerebro humano absorbe 80% más cuando se siente desafiado y asustado, si descansas un día el cerebro se relaja y [está demostrado](https://www.youtube.com/watch?v=h5PLO4XAXhs) que usualmente se olvida del 60% de la información recientemente adquirida a menos que la uses, de forma repetida y constante durante un periodo de 7 días (por lo menos).
 
 Estos números no son pequeños, 60% en un día y 90% si no practicas en una semana ¡Estás perdiendo tu tiempo y dinero si no te lo tomas en serio!
 
 ##### 📝 Receta para evitar la inactividad
 
-1. **Habla con tu pareja, amigo y familia:** Necesitas un descanso de prácticamente todo. Sabemos que la vida ya lo suficientemente complicada para además añadirle más responsabilidades, pero este es sólo un breve periodo de tu tiempo. La recompesa es eterna ¡Todos deben alinearse! Intenta matenerte abierto, tener un escritorio para trabajar sin distracciones, etc. Tu hogar debe estar sincronizado con este momento de tu vida.
+1. **Habla con tu pareja, amigo y familia:** Necesitas un descanso de prácticamente todo. Sabemos que la vida ya es lo suficientemente complicada para además añadirle más responsabilidades, pero este es sólo un breve periodo de tu tiempo. La recompensa es eterna ¡Todos deben alinearse! Intenta matenerte abierto, tener un escritorio para trabajar sin distracciones, etc. Tu hogar debe estar sincronizado con este momento de tu vida.
 
 2. **Habla con tu jefe:** Puede que necesites un par de horas extras, tiempo durante el fin de semana, etc. Sé inteligente o puede que tu jefe te sabotee.
 
-3. **No faltes a clases:** Que faltes a clases es nuestra mayor preocupación, estamos muy preocupados de la asistencia porque ha demostrado ser el disuasivo #1 para tu motivación, falta dos clases de corrido genera la tormenta perfecta. Necesitarás mentoría uno ano y doblar las horas de práctica esa semana para evitar retrasarte.
+3. **No faltes a clases:** Que faltes a clases es nuestra mayor preocupación, estamos muy preocupados de la asistencia porque ha demostrado ser el disuasivo #1 para tu motivación, faltar a dos clases seguidas genera la tormenta perfecta. Necesitarás mentoría uno a uno y doblar las horas de práctica esa semana para evitar retrasarte.
 
 4. **Involúcrate:** Asistir a clases no es suficiente, los seres humanos son emocionales, integran mejor la información cuando estás comprometido, emocional, asistiendo a eventos y estudiando en grupos, hablando públicamente al respecto, etc.
 
@@ -82,8 +81,8 @@ Estos números no son pequeños, 60% en un día y 90% si no practicas en una sem
 Asegúrate de entender bien cómo funciona la academia:
 
 1. **Plataforma:** BreatheCode, el Programa (aprende a seguirlo), GeekPal, GeekForce, las lecciones, ejercicios, proyectos y recursos.
-2. **Las personas:** ¡Somos más de 1.000 personas! Líderes, mentores, el [Alumni y los estudiantes](http://sep.4geeksacademy.com/), están aquí para ayudarte y no nos iremos a ningún lado. Haz networking, amigos ¡Aprovecha!
-3. **La comunidad:** La comunidades no sólo dan, no sólo trabajan preparando eventos, apoyar a otros estudiantes, da primero y recibirás después.Slack, GeekTalks, Workshops, Grupos de Estudio.
+2. **Las personas:** ¡Somos más de 1.000 personas! Líderes, mentores, los [egresados y los estudiantes](http://sep.4geeksacademy.com/), están aquí para ayudarte y no nos iremos a ningún lado. Haz networking, amigos ¡Aprovecha!
+3. **La comunidad:** La comunidades no sólo dan, no sólo trabajan preparando eventos, apoya a otros estudiantes, da primero y recibirás después. Slack, GeekTalks, Workshops, Grupos de Estudio.
 
 
 ## Mejores prácticas mientras aprendes a programar
