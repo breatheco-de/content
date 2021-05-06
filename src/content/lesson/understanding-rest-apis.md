@@ -95,4 +95,4 @@ Further reading:
 
 ### Public API's
 
-List of public API's taht require no autenthication: https://github.com/public-apis/public-apis
+List of public API's that require no autenthication: https://github.com/public-apis/public-apis

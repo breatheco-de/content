@@ -68,7 +68,7 @@ Los commit objects padre son aquellas confirmaciones que vinieron primero.  Gene
 
 Al principio, un proyecto siempre tiene un commit object sin padre. Este es el primer commit que se realiza en el repositorio del proyecto.
 
-## Un Heads es una Lista de Commits.
+## Un Head es una Lista de Commits.
 ***
 
 Los heads de un repositorio son como el "historial de revisión de un proyecto." Un historial de revisión es una lista de commit objects que contienen todos los cambios que tú y los demás miembros de su equipo han realizado en los archivos del proyecto.
