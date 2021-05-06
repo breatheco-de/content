@@ -56,9 +56,9 @@ This important property is connected to box model and it defines how the height 
 + If the value is **border-box**, width and height apply to all parts of the elements: content, padding and borders. 
 
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/zvL6aet3/embed/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/zvL6aet3/2/embed/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/zvL6aet3/embed/html,css,result/">Click here to open demo in a new window</a></small></div>
+<div align="right"><small><a href="https://jsfiddle.net/BreatheCode/zvL6aet3/">Click here to open demo in a new window</a></small></div>
 
 
 
@@ -82,7 +82,7 @@ In order for a website to look like today’s websites, we have to redesign the 
 |**Name**   |**Description**   |
 |:----------|:-----------------|
 |Static     |This does not involve any special positioning of the elements.  As a consequence, the top, left, right and bottom attributes are not considered.    |
-|Absolute    |When you tell a box that its position is absolute, you also need to define the top, bottom, left and right rules. Here, you are asking the box to ignore where it was positioned inside the HTML document.  Its new position will be based on the rules (top, left, right and bottom that you specified in the CSS).    |
+|Absolute    |When you tell a box that its position is absolute, you also need to define the top, bottom, left and right rules. Here, you are asking the box to ignore where it was positioned in the HTML document.  Its new position will be based on the rules (top, left, right and bottom that you specified in the CSS).    |
 |Relative    |Similar to absolute. The main difference here is that its position in the HTML document is not ignored.  The box will be located in accordance to the top, left, right and bottom attributes – relative to its main (boss/principal/father) element as the starting point.    |
 |Fixed     |If you fix an element, it means that it will always remain in the same position.  When the user scrolls in any direction, the element will stay in the very same position. Fixed could be used on PopUps, menu, etc.    |
 

@@ -1,6 +1,6 @@
 ---
 title: "Learn React Here : React Js Tutorial"
-subtitle: "React is a front-end library ideal for creating interfaces (generate HTML+CSS). It's the fastest, most advanced and most wanted library in the market right now. Don't stay behind, learn React JS here with this React JS tutorial"
+subtitle: "React is a front-end library ideal for creating interfaces (generate HTML+CSS). It's the fastest, most advanced, and most wanted library in the market right now. Don't stay behind, learn React JS here with this React JS tutorial"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-Think about it: what is the most annoying thing about working with Javascript?  All the programming languages have loops, conditionals, variables and logical operations; some have events, but only Javascript has The DOM.  Yes, that is the most annoying part of coding for the web, it’s not only very slow in terms of performance, but also makes your code redundant, cumbersome and huge.
+Think about it: what is the most annoying thing about working with Javascript?  All the programming languages have loops, conditionals, variables, and logical operations; some have events, but only Javascript has The DOM.  Yes, that is the most annoying part of coding for the web, it’s not only very slow in terms of performance, but also makes your code redundant, cumbersome, and huge.
 
 Just look at this example of all the lines of code we need just to create a simple HTML element into our DOM:
 
@@ -50,7 +50,7 @@ Until now, we had to concatenate strings to create the HTML we wanted to place i
 document.querySelector('body').innerHTML = '<h1>'+person.name+'</h1>';
 ```
 
-But React JS comes with `JSX`, a special "language" (a syntax extension to JS) that lets you write plain HTML within your React/Javascript code, without having to wrap it in quotes (making it a string). So that elimintes the need for annoying HTML string concatenation. 
+But React JS comes with `JSX`, a special "language" (a syntax extension to JS) that lets you write plain HTML within your React/Javascript code, without having to wrap it in quotes (making it a string). So that eliminates the need for annoying HTML string concatenation. 
 
 If you need to use regular JS code within your HTML blocks, you would simply have to wrap the former in curly braces like seen in the example below, similarly to using the construct `${dynamic_code}` that you have seen in our projects before.  
 
@@ -58,7 +58,7 @@ If you need to use regular JS code within your HTML blocks, you would simply hav
 ```jsx
 return <h1 id="name"> {person.name} </h1>;
 ```
-Something to remember is that in JSX/React, dynamic JS code within the HTML code (like above) has to always evaluate as an expression. For that reason we cannot use JS statements within the curly braces, like if-else statement for example. Instead we need to use a ternary expression which achieves the same effect.  
+Something to remember is that in JSX/React, dynamic JS code within the HTML code (like above) has to always evaluate as an expression. For that reason we cannot use JS statements within the curly braces, like if-else statement for example. Instead, we need to use a ternary expression that achieves the same effect.  
 
 ```jsx
 return <h1 id="name"> {if(person.name == "John") "John"; else "Tom" } </h1>; //does not work in JSX
@@ -80,7 +80,7 @@ return <h1 id="name"> {person.name == "John" ? "John" : "Tom" } </h1>; //works i
 ## Your Entire Website is now a Component
 ***
 
-The first thing you will do when building big React applications is define one big, "primary" component that will contain all your application's other components inside.  Then, you need to inject that component into the website DOM with the method ReactDOM.render(), like so:
+The first thing you will do when building big React applications is to define one big, "primary" component that will contain all your application's other components inside.  Then, you need to inject that component into the website DOM with the method ReactDOM.render(), like so:
 
 ```jsx {numberLines: true}
 import React from 'react'; //mandatory import of the react package
@@ -107,7 +107,7 @@ ReactDOM.render(<MyBigComponent />, document.querySelector('#app'));
 ***
 
 Remember the Bootstap components?  React takes that concept further by dividing and encapsulating your entire website into smaller components. These components can be based on using the familiar JS structures of `function` or `class`. 
-Each component then can be rendered by calling its `<tag>` which look just like the HTML tags but always starting with a capital letter.  The difference is that now the name of the `<tag>` is the name of the React component that you have created, and using the tag gives you access to the look and behavior that you have programmed in your component.  
+Each component then can be rendered by calling its `<tag>` which looks just like the HTML tags but always starting with a capital letter.  The difference is that now the name of the `<tag>` is the name of the React component that you have created, and using the tag gives you access to the look and behavior that you have programmed in your component.  
 
 For example, lets looks at the **Bootstrap card:**
 
@@ -249,7 +249,7 @@ In the code above, we have invented a new property to the ClockComponent example
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/r80q431L/8/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/r80q431L/8/embedded/js,html,result/">Click to open demo in a new window</a></small></div>
+<p align="right"><small><a href="//jsfiddle.net/BreatheCode/r80q431L/8/embedded/js,html,result/">Click to open demo in a new window</a></small></p>
 
 A real high quality component must communicate with other components only throughout its properties.  This way we will be able to re-use that component a lot of times in the future (similar to the way functions and parameters work).
 
@@ -258,8 +258,7 @@ A real high quality component must communicate with other components only throug
 
 Every component works like a mini-application.  You are able to control and define your component workflow based on a series of available methods that you can declare and code according to your needs.
 
-<!-- ![learn react js tutorial](../../assets/images/245ba798-e840-42d8-8391-7388159ccfeb.png) -->
-<img src="../../assets/images/245ba798-e840-42d8-8391-7388159ccfeb.png">
+![learn react js tutorial](../../assets/images/245ba798-e840-42d8-8391-7388159ccfeb.png)
 
 [[info]]
 |:link:[Here you will find](https://reactjs.org/docs/react-component.html#the-component-lifecycle) a more detailed explanation of each available life-cycle method.

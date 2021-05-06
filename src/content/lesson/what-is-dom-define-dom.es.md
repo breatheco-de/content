@@ -157,13 +157,12 @@ La propiedad .innerHTML te brinda la capacidad de recuperar o configurar el cont
 
 ```javascript
 document.getElementsByTagName("div")[0].innerHTML = "abc";
-
 // innerHTML puede usarse para insertar contenido de texto o HTML, esto crea una lista dentro de un elemento div
-
+```
 
 
 [[warning]]
-| :point_up: Puedes encontrar otras 2 propiedades en internet: nodeValue y textContent, pero en realidad no son muy utilizadas y tienen una funcionalidad más limitada.
+| :point_up: Puedes encontrar 2 propiedades más en internet: nodeValue y textContent, pero en realidad no son muy utilizadas y tienen una funcionalidad más limitada.
 
 ## Añadiendo Elementos al Documento
 ***
@@ -181,7 +180,7 @@ var myNewHOne = document.createElement("H1");
 var t = document.createTextNode("Hello World");
 
 myNewHOne.appendChild(t);  // Tengo que agregar contenido al h1  
-divElem.appendChild(myNewHOne);
+divElem.appendChild(myNewHOne); // Esto añade el h1 al elemenro original
 ```
 
 Ahora, digamos que tenemos una ul con 2 elementos, pero queremos insertar un nuevo `<li>` al principio de esa lista.

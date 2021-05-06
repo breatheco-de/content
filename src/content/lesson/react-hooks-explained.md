@@ -61,7 +61,7 @@ Basically mySuperVariable will be initialized with `null`, and then you will be 
 | 1. Counting: Displaying the number of likes on the screen and being able to increase or decrease when the user clicks, [click here for demo](https://codesandbox.io/s/wild-pond-soxu8?fontsize=14) | ![React Counter with Hooks](https://ucarecdn.com/af747595-cf02-42ca-a6bf-00c0c512ef40/reactcounterhooks.gif) |
 | 2. Timer/Clock: You can use the system time to show the current time on the screen, but since time changes all the time, we store it with a state variable, [click here for demo](https://codesandbox.io/s/hungry-paper-kkh7g?fontsize=14) | ![Building a timer with react hooks](https://ucarecdn.com/763d40a2-d4ea-4cf5-a2cd-dc777f71efcb/timerreacthooks.gif) |
 | 3. Showing an input on the screen: The best practice to get the content from any input is by storing it on a state variable- this is called "Controlled Input", [click here for a controlled input example](https://codesandbox.io/s/brave-albattani-irhy7?fontsize=14) | ![Controlled Input With React](https://ucarecdn.com/d1347307-d440-464f-a793-7a457e9903ad/controlledinputreact.gif) |
-| 4. Opening/Closing (show/hide): A typical use case is having a dialog that asks a question or allows a user to sign up for a newsletter, [click here for the example](https://codesandbox.io/s/modal-window-component-with-hooks-vb6de?fontsize=14). | ![Modal Window using react hooks](https://ucarecdn.com/03d2c2c4-f510-4088-9bb0-1665dbfe8a68/modalwindowhooks.gif) |
+| 4. Opening/Closing (show/hide): A typical use case is having a dialog that asks a question or allows a user to sign up for a newsletter, [click here for the example.](https://codesandbox.io/s/modal-window-component-with-hooks-vb6de?fontsize=14). | ![Modal Window using react hooks](https://ucarecdn.com/03d2c2c4-f510-4088-9bb0-1665dbfe8a68/modalwindowhooks.gif) |
 | 5. Thousands of other possible applications. | |
 
 Let's explain this hook with a small Modal window example. Here is the live code:
@@ -70,7 +70,7 @@ Let's explain this hook with a small Modal window example. Here is the live code
 
 To implement a "Modal Window" we decided to create a hooked variable called `opened` that is `true` if the modal window has to be shown to the user.
 
-If the user clicks on "close" we simply use the hook function `setOpened` to change the value of `opened` to `false`.
+If the user clicks on "close", we simply use the hook function `setOpened` to change the value of `opened` to `false`.
 
 ## The `useEffect` hook:
 
