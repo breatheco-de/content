@@ -14,7 +14,7 @@ cover_local: "../../assets/images/githubbackground.jpg"
 
 ![Pantallazo Github](../../assets/images/4889ebd9-201f-46c7-a1fb-d3d8c2f4493e.png)
 
-Github es una red social para desaroolladores, pero problablemente no del tipo de red social al cual estas acostumbrado/a en el día día:
+Github es una red social para desarrolladores, pero problablemente no del tipo de red social al cual estas acostumbrado/a en el día a día:
 
 - Puedes postear una foto de lo que estés a punto de comer.
 - Puedes postear documentos en cualquier formato (txt, html, css, xls, png, jpeg, etc.).
