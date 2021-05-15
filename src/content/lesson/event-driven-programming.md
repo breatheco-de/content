@@ -12,13 +12,14 @@ status: "published"
 ## Event Driven Programming
 ***
 
-Working with events is a totally new way of **controlling the flow of an application.**  It is the first time that your code will not be executed in a linear flow.  Instead, it will be executed asynchronously.  Who knows what comes first???
+Working with events is a totally new way of **controlling the flow of an application.**  It is the first time that your code will not be executed in a linear flow which is how JavaScript is generally programmed to execute - from the first line of code to the last.  
+Instead, your code will now be executed **asynchronously** (i.e. some pieces of code will not work when the rest of the surrounding code is being executed, but only when they are explicitly triggered). Who knows what comes first???
 
-What is an Event?
+### What is an Event?
 
-An event is something that happens!  Like **clicking** on a button, **pressing** a key on the keyboard, **hovering** a div with your mouse, etc.
+An event is something that happens during the runtime of your web application! Such as **clicking** on a button, **pressing** a key on the keyboard, **hovering** a div with your mouse, etc.
 
-Your job as a developer is to prepare for those events and **define the functions** that are going to be handling those events.
+Your job as a developer is to prepare for those events and define **handler functions** - the actions that are going to be handling each event.
 
 ![event driven programming](../../assets/images/1c00bd95-1359-4fd5-8399-b1b80a769009.png)
 
@@ -104,12 +105,12 @@ Here are some of the types of events that are constantly being triggered (and yo
 [[info]]
 |:link: Here [you can find a list with all the other less common events](https://www.w3schools.com/jsref/dom_obj_event.asp) that you have at your disposal.  Read them quickly, and be aware of them for future reference during your life as a developer.
 
-## Listening the events
+## Listening for events
 ***
 
-Now that you know what events are out there, you can start listening them whenever you want during the runtime. The only way to react to any event is by listening to that event and assigning a function that will handle the event however you need.
+Now that you know the main events that exist out there, you can start listening for them during the runtime. The only way to react to any event is by listening for that event and assigning a function that will handle the event however you need.
 
-Let’s repeat: To **react** you need to **listen…** And to listen you need to specify a **handler** function.
+Let’s repeat: To **react** you need to **listen…**. And to listen you need to specify a **handler** function. We call that construct an **Event Listener**. 
 
 ![events driven programming](../../assets/images/9fa13314-24cc-4a4b-9676-e60616f73602.gif)
 
@@ -121,7 +122,7 @@ You can add an event listener in 2 different ways:
 For example, if you want to start listening when the user clicks on a particular button all you have to do is specify the "onclick" attribute to that specific HTML `<button>` tag, like this:
 
 ```html
-<!– myClickHandler is a javascript function that will handle the event –>
+<!–- myClickHandler is a javascript function that will handle the event -–>
 <button onclick="myClickHandler();">Click me</button>
  
 <script>
@@ -131,9 +132,9 @@ function myClickHandler(){
 </script>
 ```
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/b7c6gmnd/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/b7c6gmnd/1/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/b7c6gmnd/1/embedded/js,html,result/" allowfullscreen="allowfullscreen">Click here to open demo in a new window</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/b7c6gmnd/1/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen">Click here to open demo in a new window</a></small></div>
 
 ## Adding Listeners from JavaScript (during runtime)
 ***
@@ -144,40 +145,65 @@ The .addEventListener function is perfect for this because it can be used in any
 
 When using the addEventListener function, you have to specify what **event** you want to listen to, and **the handler function** that will be called every time that event is triggered on that DOM element.
 
-For example, this code is creating a list of names and each delete anchor in each row is listening to the "click" event – but only for that row.
+For example, the code below is creating a list of names and each LI in it is listening for the "click" event, which then triggers removal of the same LI:
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/1nhjc4t0/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/gmihov001/kh4n57wo/29/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/1nhjc4t0/1/embedded/js,html,result/">Click here to open demo in a new window</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/gmihov001/kh4n57wo/29/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen">Click here to open demo in a new window</a></small></div>
 
 ##  The Event Object
 ***
 
-Event handlers can have one optional parameter in the declaration of the function.  This parameter is always filled with one "Event" object that contains a lot of information about the event that was triggered to get this function called.
+Event handler functions can receive one optional parameter in their declaration, which most developers name **event**, **evt**, or simply **e**. This parameter is always filled with the "Event object" which gets sent by default from every event and contains important information about the event that was triggered, the element where it occured, its value etc.
 
-No matter what type of event (mouse related events, keyboard event, frame, etc.), the event object is always going to have at least the following properties:
+No matter what type of event (mouse-related, keyboard-related, frame-related), the event object is always going to have at least the following properties:
 
 ```javascript
+
 function myEventHandler(eventObj)
 {
     console.log(eventObj.target);
-     //will print on the console the DOM object that triggered the event  
+     //will print on the console the DOM element that triggered the event  
     console.log(eventObj.type);
      //will print on the console the type of event  
     console.log(eventObj.cancelable);
-     //will print on the console true or false if we can stop the propagation of this event  
+     //will print on the console true or false if the event can have its default action prevented
+    eventObj.preventDefault();
+     //will prevent the default action of the event if allowed
+    eventObj.stopPropagation();
+     //will prevent propagation of the event if allowed
+     
 }
+
 ```
 
 ### Every Event Object has the following Properties:
 
 |**Property**    |**Description**    |
 |:---------------|:------------------|
-|Target           |Returns the DOM object that triggered the event.      |
-|Type             |The type of event: click, mouseover, load, etc..      |
-|Cancellable       |If you can stop the propagation of the event or not.    |
+|Target            |Returns the DOM element that triggered the event.      |
+|Type              |The type of event: click, mouseover, load, etc.      |
+|Cancelable       |If you can stop the default action of the event or not.    |
+|preventDefault()  |If the event is cancelable, this method stops the default action of it - for example preventing a "submit" event of a form will result in the form not being submitted which can be useful if the form has errors that need to be corrected etc.    |
+|stopPropagation()  |Stops an event from propagating (i.e. from triggering the same event in nested or parent elements)
+
 
 Depending on the type of event, you will have additional properties that will give you very useful information about what happened when the event was triggered.
+One of the most important such additional properties is the **target.value** property of the event objects related to input fields, which allows us to capture and save user input from input elements.
+
+```html
+
+<input type="text" onchange="myClickHandler();" />
+ 
+<script>
+const myClickHandler = (e) => {
+    console.log(e.target.value);
+     // Will print on the console whatever the user types into the input field 
+}
+</script>
+
+```
+
 
 ### Additional information for **mouse events**
 
@@ -211,7 +237,9 @@ Depending on the type of event, you will have additional properties that will gi
 But what if I don’t want to continue listening?  All modern browsers remove the events listeners when you delete the DOM element in which they were applied.  If you don’t want to delete the DOM element, you can remove the listener manually using the .removeEventListener function.
 
 ```javascript
+
 element.removeEventListener(type, eventHandlerFunction);
+
 ```
 
 You have to use the exact same parameters in the removeEventListener function as the ones you used in the addEventListener function.
@@ -220,9 +248,9 @@ Here is an example:
 
 In this code, we are adding an event listener to the click event.  Afterwards, the first time the click listener gets called, the handler function removes the event listener from the button.  That’s why upon the second time the button gets clicked, nothing happens.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/">Click here to open demo in a new window</p></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/dark/">Click here to open demo in a new window</p></small></div>
 
 
 

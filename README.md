@@ -44,7 +44,7 @@ Contents can be tagged on the header of the markdown file, you can add as many t
 There are two types of tags: Technology and Category.
 
 
-### Command Line Interface
+### Command Line Interface:
 
 A small command-line tool has been developed to help manage the lessons
 
