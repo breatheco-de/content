@@ -54,7 +54,7 @@ message: 'Conociendo TypeScript';
 Las variables pueden tener diferentes tipos de valores, a continuación detallaremos como podemos definir cada tipo usando TypesCript:
 
 
-- **Boolean**:  Solo acepta valores: Verdadero 0 Falso
+- **Boolean**:  Solo acepta valores: Verdadero o Falso
 ```
 let isExist:boolean =  true
 ```  
@@ -92,7 +92,7 @@ arraytupla = [23, 'Hello World', true]
 ```
 
 
-- **Void**: Se utiliza para indicar que no tenemos u tipo de datos definido
+- **Void**: Se utiliza para indicar que no tenemos un tipo de datos definido
 ```
 let notDataType:void = undefined
 ```
@@ -120,7 +120,7 @@ En oportunidades llamadas firmas, es el mecanismo que usa Typescript para defini
 
 La forma en que se utiliza una interface es muy similar a como se define una clase, pero solo se declaran atributos y métodos si su implementación. 
 
-Al igual que los tipos de variables simples, estos objetos también deberán seguir un conjunto de reglas creadas por usted. Esto puede ayudarlo a escribir código con más confianza y con menos posibilidades de error.
+Al igual que los tipos de variables simples, estos objetos también deberán seguir un conjunto de reglas creadas por ti. Esto puede ayudarlo a escribir código con más confianza y con menos posibilidades de error.
 
 En el siguiente ejemplo definimos una interface llamada `Lakes`:
 ```
@@ -145,14 +145,14 @@ let firstLake: Lakes = {
     countries: ['Kazakhstan', 'Russia', 'Turkmenistan', 'Azerbaijan', 'Iran']
 }
 ```
-Como puede ver, no importa el orden en el que asigne un valor a estas propiedades. Sin embargo, no puede omitir un valor. 
-Deberá asignar un valor a cada propiedad para evitar errores al compilar el código. 
+Como puede ver, no importa el orden en el que asigne un valor a estas propiedades. Sin embargo, no puedes omitir un valor. 
+Deberás asignar un valor a cada propiedad para evitar errores al compilar el código. 
 
 De esta manera, TypeScript se asegura de que no se pierda ninguno de los valores requeridos por error. 
 
 
 ### Propiedades opcionales
-A veces, es posible que necesite una propiedad solo para algunos objetos específicos. 
+A veces, es posible que necesites una propiedad solo para algunos objetos específicos. 
 
 Por ejemplo, supongamos que desea agregar una propiedad para especificar los meses en los que se congela un lago. Si agrega la propiedad directamente a la interfaz, como hemos hecho hasta ahora, obtendrá un error para otros lagos que no se congelan y por lo tanto no tienen la propiedad `frozen`.  De manera similar, si agrega esa propiedad a los lagos que están congelados pero no en la declaración de la interfaz, aún obtendrá un error.
 
