@@ -49,43 +49,114 @@ let message: string = 'Conociendo TypeScript'; //esta variable siempre debera se
 
 
 ## Tipos de Datos en TypeScript
+***
+Las variables pueden tener diferentes tipos de valores, a continuación detallaremos como podemos definir cada tipo usando TypesCript:
 
-Las variables pueden tener diferentes tipos de valores, a continuación detallaremos como podemos definir cada tipo usando TypeScript:
 
-| Tipo                  | Descripcion                                       | Ejemplo                           |
-| --------------------- | ------------------------------------------------- | --------------------------------- |
-| **Boolean**:          | Solo acepta valores: Verdadero o Falso            | `js> let isExist:boolean =  true` |
-| **String**:          | Cualquier serie de caracteres            | `js> let message:string = "Conociendo TypeScript"` |
-| **Number**:          | Solo acepta números            | `js> let age:number = 33` |
-| **null**:          | Acepta valores indefinidos o vacíos            | `js> let isNotExist:null = null` |
-| **Array**:          | Una lista con un tipo de dato especifico (string, number, etc).           | `js> let arrayNumber:Array<number> = [1, 2, 3, 4]` |
+- **Boolean**:  Solo acepta valores: Verdadero o Falso
+```
+let isExist:boolean =  true
+```  
 
-### Otros tipos de datos que no existian antes en Javascript
+
+- **String**:  Cualquier serie de caracteres
+```
+let message:string = "Conociendo TypeScript"
+```
+
+
+- **Number**: Solo acepta números
+```
+let age:number = 33
+```
+
+
+- **null**: Acepta valores indefinidos o vacíos
+```
+let isNotExist:null = null
+```
+
+
+- **Array**: Una lista con un tipo de dato.
+```
+let arrayNumber:Array<number> = [1, 2, 3, 4]
+let arrayNumber:Array<string> = ["uno", "dos", "tres", "cuatro"]
+```
+
 
 - **Tuplas**: Acepta una lista con tipos de datos predefinidos.
-```js
+```
 let arraytupla: = [number, string, number]
 arraytupla = [23, 'Hello World', true]
 ```
 
-- **Void**: Se utiliza para indicar que no tenemos u tipo de datos definido
-```js
+
+- **Void**: Se utiliza para indicar que no tenemos un tipo de datos definido
+```
 let notDataType:void = undefined
 ```
 
 
 - **Enum**: Permite definir posibles valores que pueden ser asignados a la variable
-```js
+```
 enum Animals {cat, lion, dog, cow, monkey}
 let c: Animals = Animals.cat;
 ```
 
 
 - **Any**: Se utiliza cuando el tipo de datos puede ser cualquiera de los anteriores
-```js
+```
 let wherever: any = 14;
 wherever = "people";
 ```
+
+
+### Clases
+
+Así como en cualquier otro lenguaje de programación orientado a objetos, en TypeScript las clases tienen campos, constructores, propiedades y funciones. Las clases actúan como contenedores que encapsulan código para ser consumidos de una manera más fácil.
+
+Al definir una clase utilizamos la palabra `class` y cerramos con llaves `{}`, así como en c# y java por ejemplo y luego definimos adentro nuestros campos, constructores, propiedades y funciones.
+
+```javascript
+
+class User {
+    # fields
+    private name: string;
+    private lastName: string;
+    
+    # Constructor
+    constructor(name: string, lastName: string){
+        this.name = name;
+        this.lastName = lastName;
+    }
+
+    # Properties
+    get getName(): string {
+        return this.name;
+    }
+
+    set setName(value : string): string {
+        if(value === undefined) throw 'Ingrese un valor válido';
+        this.name = value;
+    }
+
+    #Functions
+    fullName(){
+        return this.name + ' ' + this.lastName
+    }
+}
+
+const newUser = new User('Juanin','JanJarri');
+console.log('El nuevo usuario es:', newUser.fullName())
+
+```
+En el ejemplo anterior se define un método `constructor()` que recibe los parámetros `name: String, lastName: String`, estos parámetros son asignados a los valores internos de la clase utilizando el método `this` para referenciarlos.
+
+Además las `Properties` nos permiten obtener y asignar datos de variables o métodos internas de la clase.   En el ejemplo el método `setName()` permite asignar el valor recibido como parámetro a la propiedad interna llamada `name`.   El método `getName()` permite obtener el valor de la propiedad interna 'name'
+
+Las `Functions` nos permiten ejecutar funciones o métodos internos de las clase, en el ejemplo el metódo `fullName()` devuelve la unión de las propiedades internas `name` más `lastName`.
+
+Para crear una instancia de la clase `User` definimos la siguiente constante `const newUser = new User('Juanin','JanJarri');`  En estas lineas de código se puede apreciar que al crear esta instancia se envían los parámetros `'Juanin','JanJarri'` al constructor para inicializar la clase con esos valores.
 
 ## Interfaces
 
@@ -93,7 +164,7 @@ En oportunidades llamadas firmas, es el mecanismo que usa Typescript para defini
 
 La forma en que se utiliza una interface es muy similar a como se define una clase, pero solo se declaran atributos y métodos si su implementación. 
 
-Al igual que los tipos de variables simples, estos objetos también deberán seguir un conjunto de reglas creadas por usted. Esto puede ayudarlo a escribir código con más confianza y con menos posibilidades de error.
+Al igual que los tipos de variables simples, estos objetos también deberán seguir un conjunto de reglas creadas por ti. Esto puede ayudarlo a escribir código con más confianza y con menos posibilidades de error.
 
 En el siguiente ejemplo definimos una interface llamada `Lakes`:
 
@@ -120,14 +191,14 @@ let firstLake: Lakes = {
     countries: ['Kazakhstan', 'Russia', 'Turkmenistan', 'Azerbaijan', 'Iran']
 }
 ```
-Como puede ver, no importa el orden en el que asigne un valor a estas propiedades. Sin embargo, no puede omitir un valor. 
-Deberá asignar un valor a cada propiedad para evitar errores al compilar el código. 
+Como puede ver, no importa el orden en el que asigne un valor a estas propiedades. Sin embargo, no puedes omitir un valor. 
+Deberás asignar un valor a cada propiedad para evitar errores al compilar el código. 
 
 De esta manera, TypeScript se asegura de que no se pierda ninguno de los valores requeridos por error. 
 
 
 ### Propiedades opcionales
-A veces, es posible que necesite una propiedad solo para algunos objetos específicos. 
+A veces, es posible que necesites una propiedad solo para algunos objetos específicos. 
 
 Por ejemplo, supongamos que desea agregar una propiedad para especificar los meses en los que se congela un lago. Si agrega la propiedad directamente a la interfaz, como hemos hecho hasta ahora, obtendrá un error para otros lagos que no se congelan y por lo tanto no tienen la propiedad `frozen`.  De manera similar, si agrega esa propiedad a los lagos que están congelados pero no en la declaración de la interfaz, aún obtendrá un error.
 
@@ -143,6 +214,8 @@ interface Lakes {
     countries: string[]
 }
 ```
+
+
 
 ## Playground
 
