@@ -112,6 +112,52 @@ wherever = "people";
 ```
 
 
+### Clases
+
+Así como en cualquier otro lenguaje de programación orientado a objetos, en TypeScript las clases tienen campos, constructores, propiedades y funciones. Las clases actúan como contenedores que encapsulan código para ser consumidos de una manera más fácil.
+
+Al definir una clase utilizamos la palabra `class` y cerramos con llaves `{}`, así como en c# y java por ejemplo y luego definimos adentro nuestros campos, constructores, propiedades y funciones.
+
+```javascript
+
+class User {
+    # fields
+    private name: string;
+    private lastName: string;
+    
+    # Constructor
+    constructor(name: string, lastName: string){
+        this.name = name;
+        this.lastName = lastName;
+    }
+
+    # Properties
+    get getName(): string {
+        return this.name;
+    }
+
+    set setName(value : string): string {
+        if(value === undefined) throw 'Ingrese un valor válido';
+        this.name = value;
+    }
+
+    #Functions
+    fullName(){
+        return this.name + ' ' + this.lastName
+    }
+}
+
+const newUser = new User('Juanin','JanJarri');
+console.log('El nuevo usuario es:', newUser.fullName())
+
+```
+En el ejemplo anterior se define un método `constructor()` que recibe los parámetros `name: String, lastName: String`, estos parámetros son asignados a los valores internos de la clase utilizando el método `this` para referenciarlos.
+
+Además las `Properties` nos permiten obtener y asignar datos de variables o métodos internas de la clase.   En el ejemplo el método `setName()` permite asignar el valor recibido como parámetro a la propiedad interna llamada `name`.   El método `getName()` permite obtener el valor de la propiedad interna 'name'
+
+Las `Functions` nos permiten ejecutar funciones o métodos internos de las clase, en el ejemplo el metódo `fullName()` devuelve la unión de las propiedades internas `name` más `lastName`.
+
+Para crear una instancia de la clase `User` definimos la siguiente constante `const newUser = new User('Juanin','JanJarri');`  En estas lineas de código se puede apreciar que al crear esta instancia se envían los parámetros `'Juanin','JanJarri'` al constructor para inicializar la clase con esos valores.
 
 ## Interfaces
 ***
@@ -168,6 +214,9 @@ interface Lakes {
     countries: string[]
 }
 ```
+
+
+
 ## Playground
 <iframe width="830" height="467" src="https://www.typescriptlang.org/play?#code/PTAEHUFMBsGMHsC2lQBd5oBYoCoE8AHSAZVgCcBLA1UABWgEM8BzM+AVwDsATAGiwoBnUENANQAd0gAjQRVSQAUCEmYKsTKGYUAbpGF4OY0BoadYKdJMoL+gzAzIoz3UNEiPOofEVKVqAHSKymAAmkYI7NCuqGqcANag8ABmIjQUXrFOKBJMggBcISGgoAC0oACCoASMFmgY7p7ehCTkVOle4jUMdRLYTqCc8LEZzCZmoNJODPHFZZXVtZYYkAAeRJTInDQS8po+rf40gnjbDKv8LqD2jpbYoACqAEoAMsK7sUmxkGSCc+VVQQuaTwVb1UBrDYULY7PagbgUZLJH6QbYmJAECjuMigZEMVDsJzCFLNXxtajBBCcQQ0MwAUVWDEQNUgADVHBQGNJ3KAALygABEAAkYNAMOB4GRogLFFTBPB3AExcwABT0xnM9zsyhc9wASmCKhwDQ8ZC8iElzhB7Bo3zcZmY7AYzEg-Fg0HUiS58D0Ii8AoZTJZggFSRxAvADlQAHJhAA5SASAVBFQAeW+ZF2gldWkgx1QjgUrmkeFATgtOlGWH0KAQiBhwiudokkuiIgMHBx3RYbC43CCJSAA" frameborder="0"></iframe>
 
