@@ -105,6 +105,54 @@ let wherever: any = 14;
 wherever = "people";
 ```
 
+
+### Clases
+
+Así como en cualquier otro lenguaje de programación orientado a objetos, en TypeScript las clases tienen campos, constructores, propiedades y funciones. Las clases actúan como contenedores que encapsulan código para ser consumidos de una manera más fácil.
+
+Al definir una clase utilizamos la palabra `class` y cerramos con llaves `{}`, así como en c# y java por ejemplo y luego definimos adentro nuestros campos, constructores, propiedades y funciones.
+
+```javascript
+
+class User {
+    # fields
+    private name: string;
+    private lastName: string;
+    
+    # Constructor
+    constructor(name: string, lastName: string){
+        this.name = name;
+        this.lastName = lastName;
+    }
+
+    # Properties
+    get getName(): string {
+        return this.name;
+    }
+
+    set setName(value : string): string {
+        if(value === undefined) throw 'Ingrese un valor válido';
+        this.name = value;
+    }
+
+    #Functions
+    fullName(){
+        return this.name + ' ' + this.lastName
+    }
+}
+
+const newUser = new User('Juanin','JanJarri');
+console.log('El nuevo usuario es:', newUser.fullName())
+
+```
+En el ejemplo anterior se define un método `constructor()` que recibe los parámetros `name: String, lastName: String`, estos parámetros son asignados a los valores internos de la clase utilizando el método `this` para referenciarlos.
+
+Además las `Properties` nos permiten obtener y asignar datos de variables o métodos internas de la clase.   En el ejemplo el método `setName()` permite asignar el valor recibido como parámetro a la propiedad interna llamada `name`.   El método `getName()` permite obtener el valor de la propiedad interna 'name'
+
+Las `Functions` nos permiten ejecutar funciones o métodos internos de las clase, en el ejemplo el metódo `fullName()` devuelve la unión de las propiedades internas `name` más `lastName`.
+
+Para crear una instancia de la clase `User` definimos la siguiente constante `const newUser = new User('Juanin','JanJarri');`  En estas lineas de código se puede apreciar que al crear esta instancia se envían los parámetros `'Juanin','JanJarri'` al constructor para inicializar la clase con esos valores.
+
 ## Interfaces
 
 En oportunidades llamadas firmas, es el mecanismo que usa Typescript para definir tipos en las clases.   Permiten definir la estructura o el tipo de objetos más complejos.  
@@ -136,14 +184,14 @@ let firstLake: Lakes = {
     countries: ['Kazakhstan', 'Russia', 'Turkmenistan', 'Azerbaijan', 'Iran']
 }
 ```
-Como puede ver, no importa el orden en el que asignes. Sin embargo, no puede omitir un valor. 
-Deberá asignar un valor a cada propiedad para evitar errores al compilar el código. 
+Como puede ver, no importa el orden en el que asigne un valor a estas propiedades. Sin embargo, no puedes omitir un valor. 
+Deberás asignar un valor a cada propiedad para evitar errores al compilar el código. 
 
 De esta manera, TypeScript se asegura de que no se pierda ninguno de los valores requeridos por error. 
 
 
 ### Propiedades opcionales
-A veces, es posible que necesite una propiedad solo para algunos objetos específicos. 
+A veces, es posible que necesites una propiedad solo para algunos objetos específicos. 
 
 Por ejemplo, supongamos que desea agregar una propiedad para especificar los meses en los que se congela un lago. Si agrega la propiedad directamente a la interfaz, como hemos hecho hasta ahora, obtendrá un error para otros lagos que no se congelan y por lo tanto no tienen la propiedad `frozen`.  De manera similar, si agrega esa propiedad a los lagos que están congelados pero no en la declaración de la interfaz, aún obtendrá un error.
 
@@ -159,6 +207,8 @@ interface Lakes {
     countries: string[]
 }
 ```
+
+
 
 ## Playground
 <iframe width="830" height="467" src="https://www.typescriptlang.org/play?#code/PTAEHUFMBsGMHsC2lQBd5oBYoCoE8AHSAZVgCcBLA1UABWgEM8BzM+AVwDsATAGiwoBnUENANQAd0gAjQRVSQAUCEmYKsTKGYUAbpGF4OY0BoadYKdJMoL+gzAzIoz3UNEiPOofEVKVqAHSKymAAmkYI7NCuqGqcANag8ABmIjQUXrFOKBJMggBcISGgoAC0oACCoASMFmgY7p7ehCTkVOle4jUMdRLYTqCc8LEZzCZmoNJODPHFZZXVtZYYkAAeRJTInDQS8po+rf40gnjbDKv8LqD2jpbYoACqAEoAMsK7sUmxkGSCc+VVQQuaTwVb1UBrDYULY7PagbgUZLJH6QbYmJAECjuMigZEMVDsJzCFLNXxtajBBCcQQ0MwAUVWDEQNUgADVHBQGNJ3KAALygABEAAkYNAMOB4GRogLFFTBPB3AExcwABT0xnM9zsyhc9wASmCKhwDQ8ZC8iElzhB7Bo3zcZmY7AYzEg-Fg0HUiS58D0Ii8AoZTJZggFSRxAvADlQAHJhAA5SASAVBFQAeW+ZF2gldWkgx1QjgUrmkeFATgtOlGWH0KAQiBhwiudokkuiIgMHBx3RYbC43CCJSAA" frameborder="0"></iframe>

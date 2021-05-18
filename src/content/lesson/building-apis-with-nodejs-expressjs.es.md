@@ -58,11 +58,11 @@ app.listen(4000, function(){
 ## Expressjs Hello-Wold explicado
 
 ```javascript
-const express = require('express'); //aquí importamos la librería Expressjs en nuestro archivo.
-const app = express();              //aquí creamos una nueva instancia del servidor Expressjs.
+const express = require('express'); #aquí importamos la librería Expressjs en nuestro archivo.
+const app = express(); #aquí creamos una nueva instancia del servidor Expressjs.
 
-app.get('/', (req, res)=>{          //aquí definimos el primer path de la API: GET /
-    res.send("Hello World!")        //expressjs devolverá "Hello World, esto podría ser un string HTML o un string JSON.
+app.get('/', (req, res)=>{  #aquí definimos el primer path de la API: GET /
+    res.send("Hello World!")  #expressjs devolverá "Hello World, esto podría ser un string HTML o un string JSON.
 })
 
 
