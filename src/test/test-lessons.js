@@ -36,10 +36,10 @@ const validateLessons = (report) => {
         const { slug, title, date, tags, status, authors, subtitle, ...rest } = fm(content).attributes;
         
         if(fileName.indexOf('.es') > -1){
-        if(!report.names.includes(originalSlug)){
-            if(status!='draft') throw TestError(l,`Lesson must have an english version ${originalSlug}`);
-            else addWarning(l,`Lesson must have an english version ${originalSlug}`)
-        } 
+            if(!report.names.includes(originalSlug)){
+                if(status!='draft') throw TestError(l,`Lesson must have an english version ${originalSlug}`);
+                else throw TestError(l,`Lesson must have an english version ${originalSlug}`)
+            } 
         } 
         
         if(!title) throw TestError(l,'Missing lesson title'.red);
