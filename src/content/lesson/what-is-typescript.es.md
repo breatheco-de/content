@@ -22,7 +22,7 @@ name = 33
 console.log(typeof name)
 // "number"
 ```
-## ¿Qué es typeScript?
+## ¿Qué es TypeScript?
 
 Typescript es un lenguaje de programación que agregar nuevas funcionalidades a Javascript, esto es conocido como un superset.   Un superset se escribe tomando como base otro lenguaje de programación aplicando mejoras en el lenguaje original.   Por esta razón Typescript se escribió sobre javascript para agrega nuevas funcionalidades que veres más adelante.
 
@@ -159,7 +159,7 @@ En oportunidades llamadas firmas, es el mecanismo que usa Typescript para defini
 
 La forma en que se utiliza una interface es muy similar a como se define una clase, pero solo se declaran atributos y métodos y su implementación. 
 
-Al igual que los tipos de variables simples, estos objetos también deberán seguir un conjunto de reglas creadas por ti. Esto puede ayudarlo a escribir código con más confianza y con menos posibilidades de error.
+Al igual que los tipos de variables simples, estos objetos también deberán seguir un conjunto de reglas creadas por ti. Esto puede ayudarte a escribir código con más confianza y con menos posibilidades de error.
 
 En el siguiente ejemplo definimos una interface llamada `Lakes`:
 
@@ -185,7 +185,7 @@ let firstLake: Lakes = {
     countries: ['Kazakhstan', 'Russia', 'Turkmenistan', 'Azerbaijan', 'Iran']
 }
 ```
-Como puedes ver, no importa el orden en el que asigne un valor a estas propiedades. Sin embargo, no puedes omitir un valor. 
+Como puedes ver, no importa el orden en el que asignes un valor a estas propiedades. Sin embargo, no puedes omitir un valor. 
 Deberás asignar un valor a cada propiedad para evitar errores al compilar el código. 
 
 De esta manera, TypeScript se asegura de que no se pierda ninguno de los valores requeridos por error. 
