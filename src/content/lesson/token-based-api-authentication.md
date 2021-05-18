@@ -66,6 +66,8 @@ value = "alex"
 unique_hash = hash_function(value)
 ```
 
+Explanation: the function `hash_function` will always return the exact same `unique_hash` if the same value is given, take a look at this demonstration, start typing on the input:
+
 *With Javascript* ![JWT Token Generation with Node.js](../../assets/images/js.png)
 
 ```javascript
@@ -83,7 +85,7 @@ const unique_hash = jwt.sign(payload,
 });
 ```
 
-Explanation: the function `hash_function` will always return the exact same `unique_hash` if the same value is given, take a look at this demonstration, start typing on the input:
+Explanation: the function `jwt.sign` will always return the exact same `unique_hash` if the same value is given, take a look at this demonstration, start typing on the input:
 
 <iframe src="https://full-stack-assets.breatheco.de/live-demos/security/hashing/" height="300" title="Hashing functions example"></iframe>
 
