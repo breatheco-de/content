@@ -57,7 +57,7 @@ There are several types of tokens you can use for your Autentication system like
 
 A hash is a **unique** alphanumeric number that gets generated from a specific seed or **value**, for example:
 
-*With Python* ![JWT Token Generation with Python](../../assets/images/php.png)
+*With Python* ![JWT Token Generation with Python](../../assets/images/python.png)
 
 ```py
 import hash_function
