@@ -22,11 +22,11 @@ There are several ways to create an authentication layer in web applications but
 
 ## What is API Authentication?
 
-In plan english authentication means being able to identify who is making requests to your API; You normally implement an authentication layer in your application because you want:
+In plain English authentication means being able to identify who is making requests to your API; You normally implement an authentication layer in your application because you want:
 
 - Users to be able to log in and log out.
 - Privacy protection: Restrict access to information based on the user role. For example: Only I should be able to update my email and password, only I should review my medical health history.
-- Limit user permissions: Restrict access to certain functionalities, for example: A user needs to pay to download a book, or not being able to comment on a forum unles you log in, etc.
+- Limit user permissions: Restrict access to certain functionalities, for example: A user needs to pay to download a book, or not being able to comment on a forum unless you log in, etc.
 
 To explain in detail "Token Based API Authentication" it's better to start explaining about tokens.
 
@@ -47,7 +47,7 @@ Tokens used for authentication need to be more that normal just numbers, they ne
 - Non-consecutive, that will make them very predictable, hackers will guess the next one.
 - Infinite (almost): What will happen if you run out of tokens? Can you imagine MasterCard running out of credit card numbers?
 - Non-reusable: There are cases of re-usable tokens, but in general once a token is generated no one else should every use it but you.
-- Validatable: The token must follow some hidden pattern (encripcion?) that allows validating the token without compromising the owner or author.
+- Validatable: The token must follow some hidden pattern (encryption) that allows validating the token without compromising the owner or author.
 
 ### Generating tokens
 
@@ -57,6 +57,8 @@ There are several types of tokens you can use for your Autentication system like
 
 A hash is a **unique** alphanumeric number that gets generated from a specific seed or **value**, for example:
 
+*With Python* ![JWT Token Generation with Python](../../assets/images/python.png)
+
 ```py
 import hash_function
 
@@ -65,6 +67,25 @@ unique_hash = hash_function(value)
 ```
 
 Explanation: the function `hash_function` will always return the exact same `unique_hash` if the same value is given, take a look at this demonstration, start typing on the input:
+
+*With Javascript* ![JWT Token Generation with Node.js](../../assets/images/js.png)
+
+```javascript
+const jwt = require('jsonwebtoken');
+
+
+const payload = {
+    user_email:'hola@4geeks.co',
+    rol: 'admin'
+}
+const unique_hash = jwt.sign(payload,
+'secret-key',
+{
+    expiresIn: '1000'
+});
+```
+
+Explanation: the function `jwt.sign` will always return the exact same `unique_hash` if the same value is given, take a look at this demonstration, start typing on the input:
 
 <iframe src="https://full-stack-assets.breatheco.de/live-demos/security/hashing/" height="300" title="Hashing functions example"></iframe>
 
@@ -95,7 +116,7 @@ The most simple way to implement autentication in your database and API:
 
 ### Every token is a session
 
-The momend you generate the token you can decide if you want it to expire, same way web sessions expire when you log in into your online bank account.
+The moment you generate the token you can decide if you want it to expire, same way web sessions expire when you log in into your online bank account.
 
 When a client successfully authenticates it will receive that unique token and it will be able to attached to the request headers of every request it makes from that moment on, that token will be the "User session".
 
@@ -134,4 +155,9 @@ fetch('https://myApi.com/path/to/endpoint', {
 #### If you are using Python Flask framework
 
 I strongly recomend using [Flask JWT Extended](https://github.com/vimalloc/flask-jwt-extended).
+
+#### If you are using Node Express
+
+Generate tokens with [Node JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme).
+Also use Express JWT to enfore the private endpoints [Express JWT](https://github.com/auth0/node-jsonwebtoken#readme).
 
