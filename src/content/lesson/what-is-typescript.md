@@ -1,6 +1,6 @@
 ---
-title: "¿Qué es Typescript? Aprenderás a Programar usando este superSet de javascript"
-subtitle: "Ya sabes JavaScript, ya es hora que aprendas a programar utilizando TypesCript para llevar tus desarrollos javascript al siguiente nivel."
+title: "What is Typescript?"
+subtitle: "It's recomended to know Javascript in general before reading this lesson, Typescript will take your Javacript knowledge to the next level super-sayayin :)"
 cover_local: "../../assets/images/typescript.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
