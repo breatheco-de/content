@@ -12,11 +12,11 @@ status: "published"
 ## Why do Developers love the Command Line?
 ***
 
-At first, everybody hated the command line.  After years of experience, it became an acquired taste.
+At first everybody hated the command line.  After years of experience it became an acquired taste.
 
-But why do developers like it?   Well, the list is infinite, but here are a few important reasons:
+But why do developers like it?   Well, the list is infinite but here are a few important reasons:
 
-+ If you don’t master the command line, you won’t be able to use any of these: GIT, MySQL, Webpack, Node.js, Grunt, Vagrant, Babel, React, Angular, Apache, etc.
++ If you don’t master the command line you won’t be able to use any of these: GIT, MySQL, Webpack, Node.js, Grunt, Vagrant, Babel, React, Angular, Apache, etc.
 + As a developer, it’s the one thing you need to have available.  Computers don’t come with Atom, Sublime Text (or any other fancy IDE).  Sometimes – like production servers – you are not allowed to install anything and **the system does not even have a visual interface** – just the command line.
 + It is super powerful.  You can do a lot more in a lot less time, for example: bulk delete, rename, find a file, edit a file, etc.
 + It forces you to use the keyboard.  Since you cannot use the mouse, it makes you faster.  You make less mistakes and the environment is exactly the same on every computer.
@@ -43,9 +43,9 @@ The last thing we have to add is the "argument." In this case, the "argument" wi
 ## What can you do in the Terminal?
 ***
 
-Your computer has files, directories and applications.  Your command line is able to deal with the three of them.  Use commands to move within the files and directories (like the `cd` command).  Every application that you install comes with a set of commands that become available at the moment you install the app (like the GIT command).
+Your computer has files, directories and applications.  Your command line is able to deal with all three of them.  Use commands to move within the files and directories (like the `cd` command).  Every application that you install comes with a set of commands that become available at the moment you install the app (like the GIT command).
 
-## Here is how the File System Looks in a Visual Interface vs the Terminal:
+## Here is how the File System looks in a Visual Interface vs the Terminal:
 
 ![the command line the terminal](../../assets/images/182ea93c-9d7d-4c8d-8153-9c1756d8cd1f.png)
 
@@ -54,7 +54,7 @@ There are 4 important things to notice here:
 + You can use one dot `.` to refer to all the files and folders in the hierarchy.
 + You can also use two dots `..` to refer to the parent directory.
 + You can use the forward slash `/` to navigate further down in the hierarchy directories.
-+ Hidden files:  Usually a file has a name and an extension *(filename.extension)*.  If a file has no name, but only an extension, it will, by default, be hidden in the visual interface.
++ Hidden files:  Usually a file has a name and an extension *(filename.extension)*.  If a file has no name but only an extension it will by default be hidden in the visual interface.
 
 
 ## Commands to Work with the File System:
@@ -196,7 +196,7 @@ nano path/to/the/textfile.txt
 ```
 When nano opens, it will show a top bar with the current version of the nano application; the name of the file being edited; and, a status telling you if the files were modified or not.
 
-At the bottom, you will see the most often used commands to use nano, such as: quit, where is, help, etc.
+At the bottom you will see the most often used commands to use nano such as: quit, where is, help, etc.
 
 ![the command line the terminal](../../assets/images/6128e9f7-b460-4b10-80e4-34057b7d4df9.png)
 
