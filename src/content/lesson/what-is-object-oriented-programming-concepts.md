@@ -188,19 +188,19 @@ Perhaps you may feel that it is pointless to use "getters" and "setters" for eve
   
 *Here is another example of a "getter/setter" in real-life:*
 
-![what is object oriented programming concepts](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abcJS.png)
+![what is object oriented programming concepts](../../assets/images/js.png)
 
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Object-Oriented-Javascript?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Object-Oriented-Javascript?lite=true">Click here to open demo in a new window</a></small></div>
 
-![what is object oriented programming concepts](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81PYTHON.png)
+![what is object oriented programming concepts](../../assets/images/python.png)
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Python-Class-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <div align="right"><small>
 <a href="https://repl.it/@4GeeksAcademy/Python-Class-Example?lite=true">Click here to open demo in new window</a></small></div>
 
-![what is object oriented programming concepts](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600fPHP.png)
+![what is object oriented programming concepts](../../assets/images/php.png)
 <iframe src="https://repl.it/G1cx/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <div align="right"><small><a href="https://repl.it/G1cx/0?lite=true">Click here to open demo in a new window</a></small></div>
@@ -233,17 +233,17 @@ In [object-oriented programming](https://searchmicroservices.techtarget.com/defi
 "Car" is a classification of "Four-Wheeler."  Here, "Car" acquires the properties of a "Four-Wheeler."  Other classifications could be a Jeep, Tempo, van etc. "Four-Wheeler" defines a class of vehicles that has four wheels, a specific range of engine power, load carrying capacity etc.  "Car" (termed as a sub-class) acquires these properties from "Four-Wheeler" (termed as a super-class), and has SOME specific properties that are different from other classifications of "Four Wheeler," such as luxury, comfort, shape, size, usage, etc.
 
 "Car" can have further classification such as "Open Car," "Small Car," "Large Car," etc, which will acquire the properties from BOTH "Four-Wheeler" AND "Car" – but will still have some specific properties.  This way the level of hierarchy can be extended to any level.
-![what is object oriented programming concepts](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abcJS.png)
+![what is object oriented programming concepts](../../assets/images/js.png)
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/ObjectOriented2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/ObjectOriented2?lite=true">Click here to open demo in a new window</a></small></div>
 
-![what is object oriented programming concepts](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600fPHP.png)
+![what is object oriented programming concepts](../../assets/images/php.png)
 <iframe src="https://repl.it/G1cq/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <div align="right"><small ><a href="https://repl.it/G1cq/0?lite=true">Click here to open demo in a new window</a></small></div>
 
-![what is object oriented programming concepts](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81PYTHON.png)
+![what is object oriented programming concepts](../../assets/images/python.png)
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Python-Class-Inheritance?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Python-Class-Inheritance?lite=true">Click here to open demo in a new window</a></small></div>
