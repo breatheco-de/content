@@ -3,7 +3,7 @@ title: "Learn in Public"
 subtitle: "The most effective way to bootstrap your career"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
-status: "draft"
+status: "published"
 date: "2020-10-19T16:36:30+00:00"
 tags: ["react","controlled inputs","uncontrolled inputs"]
 canonical: ""
