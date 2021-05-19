@@ -58,7 +58,7 @@ Sabemos como enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseñar
 
 2. **Pregunta ¿Para qué?** Podemos enseñarte y decir mucho, pero necesitamos que hagas preguntas cuando empieces a dudar de nuestros métodos. Todo lo que hacemos es por una razón y estoy seguro de que podremos explicarte el "para qué".
 
-3. **Sé humilde:** Hay muchos estudiantes que han completado el curso con éxito siguiendo el método. Algunos trabajan en Google, Amazon u otra gran empresa a nivel mundial. Por favor sé humilde e itenta seguir el curso como es. Puedes hablar con nosotros si tienes alguna idea sobre alguna mejora, tambien tenemos la humildad para ser abiertos e intentar algo nuevo que podría funcionar.
+3. **Sé humilde:** Hay muchos estudiantes que han completado el curso con éxito siguiendo el método. Algunos trabajan en Google, Amazon u otra gran empresa a nivel mundial. Por favor sé humilde e intenta seguir el curso como es. Puedes hablar con nosotros si tienes alguna idea sobre alguna mejora, también tenemos la humildad para ser abiertos e intentar algo nuevo que podría funcionar.
 
 #### Pared 3: Inactividad 😴 
 
