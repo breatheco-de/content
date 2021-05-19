@@ -57,6 +57,8 @@ There are several types of tokens you can use for your Autentication system like
 
 A hash is a **unique** alphanumeric number that gets generated from a specific seed or **value**, for example:
 
+*With Python* ![JWT Token Generation with Python](../../assets/images/python.png)
+
 ```py
 import hash_function
 
@@ -65,6 +67,25 @@ unique_hash = hash_function(value)
 ```
 
 Explanation: the function `hash_function` will always return the exact same `unique_hash` if the same value is given, take a look at this demonstration, start typing on the input:
+
+*With Javascript* ![JWT Token Generation with Node.js](../../assets/images/js.png)
+
+```javascript
+const jwt = require('jsonwebtoken');
+
+
+const payload = {
+    user_email:'hola@4geeks.co',
+    rol: 'admin'
+}
+const unique_hash = jwt.sign(payload,
+'secret-key',
+{
+    expiresIn: '1000'
+});
+```
+
+Explanation: the function `jwt.sign` will always return the exact same `unique_hash` if the same value is given, take a look at this demonstration, start typing on the input:
 
 <iframe src="https://full-stack-assets.breatheco.de/live-demos/security/hashing/" height="300" title="Hashing functions example"></iframe>
 
@@ -134,4 +155,9 @@ fetch('https://myApi.com/path/to/endpoint', {
 #### If you are using Python Flask framework
 
 I strongly recomend using [Flask JWT Extended](https://github.com/vimalloc/flask-jwt-extended).
+
+#### If you are using Node Express
+
+Generate tokens with [Node JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme).
+Also use Express JWT to enfore the private endpoints [Express JWT](https://github.com/auth0/node-jsonwebtoken#readme).
 
