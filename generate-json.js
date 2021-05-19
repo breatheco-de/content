@@ -73,7 +73,7 @@ walk('src/content/lesson/', function(err, results) {
     try{
         const lessons = buildLessonsData(results);
         createContentJSON(lessons, "lessons");
-        console.log("The content.json file was created!");
+        console.log("The /public/static/api/lessons.json file was created!");
         process.exit(0);
     }
     catch(error){

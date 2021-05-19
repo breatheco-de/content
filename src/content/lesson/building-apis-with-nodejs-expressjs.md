@@ -4,12 +4,12 @@ subtitle: "Expressjs permite construir API REST de una forma rápida, minimalist
 cover_local: "../../assets/images/node-expressjs.png"
 textColor: "white"
 date: "2021-04-17T16:36:31+00:00"
-status: "published"
+status: "draft"
 tags: ["Expressjs","nodejs","REST","API"]
 
 ---
 
-Si no sabes qué es una API REST, recomiendo [leer sobre esto aquí](./understanding-rest-apis).
+Si no sabes qué es una API REST, recomiendo [leer sobre esto aquí](http://content.breatheco.de/lesson/understanding-rest-apis).
 
 A modo de breve resumen, construir una API de forma REST significa que tienes que construir sus endpoints de URL agrupados por **"recursos"**. Un recurso es algo que quieres gestionar, por ejemplo: un estudiante, un usuario, un auto, etc. Un recurso es algo similar a una tabla de base de datos, pero los llamamos "recursos" debido a algunas excepciones.
 
@@ -27,17 +27,17 @@ Aquí hay un ejemplo de endpoints RESTful API para gestionar **Estudiantes**:
 Echa un vistazo a las URL, ellas siguen un patrón. Después de un tiempo, los endpoints hablarán por sí mismos, tendrán sentido y podrás adivinar a lo que hacen o incluso adivinar algunos endpoints. Esa es la idea.
 
 [[info]]
-| :point_up: Puede leer más sobre las API REST en [esta lección de BreatheCode](./understanding-rest-apis).<br /> Aquí hay un video de 8 minutos que explica REST: https://www.youtube.com/watch?v=7YcW25PHnAA
+| :point_up: Puede leer más sobre las API REST en [esta lección de BreatheCode](http://content.breatheco.de/lesson/understanding-rest-apis).<br /> Aquí hay un video de 8 minutos que explica REST: https://www.youtube.com/watch?v=7YcW25PHnAA
 
 ## Ahora hablemos sobre Expressjs
 
-Expressjs es la librería que nos permite construir un servidor web API de una forma rápida, minimalista y flexible utilizando nodejs.  El primer paso para utilizarla es realizando la instalación en tu proyecto, para esto en tu terminal debes ejecutar:
+Expressjs es librería que nos permite construir un servidor web API de una forma rápida, minimalista y flexible utilizando nodejs.  El primer paso para utilizarla es realizando la instalación en tu proyecto, para esto en tu terminal debes ejecutar:
 
 ```
 $ npm install express --save
 ```
 
-Una vez finalizada la instalación crearemos un archivo server.js en donde agregaremos las siguientes líneas.  El computador comenzará a escuchar las solicitudes HTTP:
+Una vez finalizada la instalación podemos crearas un archivo server.js ya agregaremos las siguientes líneas, el computar comenzará a escuchar las solicitudes HTTP:
 
 ```javascript
 const express = require('express');
@@ -77,10 +77,9 @@ En Expressjs podemos agregar nuevos endpoints utilizando la variable `app` que e
 - res : Es un objeto que representa la respuesta HTTP que envía la aplicación Express cuando recibe una solicitud HTTP
 
 En el siguiente link puedes acceder a la documentación de (Expressjs)[http://expressjs.com/es/api.html]
-
 ## Agregando nuevos endpoints
 
-Si deseas agregar otro endpoint a tu API que se ejecute cuando un cliente haga el `GET/person`, tendrás que agregar otro bloque de código como este:
+Si deseas agregar otro endpoint a tu API que se ejecuta cuando un cliente haga el `GET/person`, tendrás que agregar otro bloque de código como este:
 
 ```javascript
 app.get('/', (req, res)=>{  #aquí definimos el primer path de la API: GET /
@@ -129,6 +128,7 @@ app.get('/person', (req, res)=>{
 
 El código de respuesta es 200 por defecto, y 500 si hay un error desconocido. Si deseas responder al cliente con un código diferente, deberás especificarlo así:
 
+
 ```javascript
 const express = require('express');
 app.get('/person', (req, res)=>{
@@ -141,7 +141,7 @@ app.get('/person', (req, res)=>{
 
 ## Manejo de errores y validaciones
 
-Pero ¿y si la solicitud viene con errores? Por ejemplo: si tenemos un endpoint para crear una persona y debemos especificar el `first_name` y el `last_name`, pero solo se encontró el `first_name` en la solicitud, así es como lo validaríamos:
+Pero ¿y si la solicitud viene con errores? Por ejemplo: si tenemos un endpoint para crear una persona y debemos especificar el first_name Y el last_name, pero solo se encontró el first_name en la solicitud, así es como lo validaríamos:
 
 
 ```javascript
@@ -172,18 +172,18 @@ app.post('/person', (req, res) => {
 La librería `express-validator` nos entrega una forma más cómoda para el manejo de las validaciones, pueden obtener más información de como usarla visitando su documentación  [https://express-validator](https://express-validator.github.io/docs/) 
 
 
-## Middlewares
+## Midlewares
 
-Un middleware es una función que tiene acceso al objeto de solicitud o request, al objeto de respuesta o response y a la siguiente función de middleware a ejecutarse en el ciclo de solictud/respuesta.  Una vez que nuestro middleware termine su ejecución es importante ejecutar la función `next()` o la solicitud quedara colgada.
+Un midleware es una función que tiene acceso al objeto de solicitud o request, al objeto de respuesta o response y a la siguiente función de midleware a ejecutarse en el ciclo de solictud/respuesta.  Una vez que nuestro midleware termine su ejecución es importante ejecutar la función `next()` o la solicitud quedara colgada.
 
-A continuación un ejemplo de un middleware que imprimirá por consola la fecha y hora en la que ocurren las consultas a la API
+A continuación un ejemplo de un midleware que imprimirá por consola la fecha y hora en la que ocurren las consultas a la API
 
 ```javascript
 const express = require('express');
 
 app.use(function (req, res, next) {
   console.log('Time:', Date.now());
-  next();  // aquí invoca al siguiente middleware
+  next();  # aquí invoca al siguiente midleware
 });
 
 ```
