@@ -1,6 +1,6 @@
 ---
 title: "Aprende en público"
-subtitle: "La forma más eficaz de comenzar tu carrera ¡Es tiempo!"
+subtitle: "La forma más eficaz de potenciar tu carrera ¡Ya es tiempo!"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
 status: "published"
