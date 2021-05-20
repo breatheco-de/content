@@ -28,7 +28,7 @@ GIT is more than just a "set of commands" that you have to learn.  Throughout th
 ## Why Bother to use GIT?
 ***
 
-Being the only developer in a project is a [utopia](http://www.thefreedictionary.com/Utopic).  Normally, you collaborate with other developers, and, without GIT, that becomes a big problem.  That’s why we need a *repository* of information to centralize and manage changes.  With a *repository* we are addressing the following:
+Being the only developer in a project is an [utopia](http://www.thefreedictionary.com/Utopic).  Normally, you collaborate with other developers, and, without GIT, that becomes a big problem.  That’s why we need a *repository* of information to centralize and manage changes.  With a *repository* we are addressing the following:
 
 + If two developers work on **the same page (file)**, GIT will compare both versions and will *(try to)* merge them into a new one.
 + Downloading and integrating someone else’s code (or any code) into your project without much hassle and doing so automatically.
