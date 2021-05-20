@@ -16,7 +16,7 @@ tags: ["javascript"]
 
 **Coding is making *the computer* "obey"…**
 
-Everybody uses computers for different reasons.  Some computers are created to help people in their office (like personal computers), others to keep a room in a specific temperature (like [the NEST](https://nest.com/es/)), others are made to walk on Mars, and so many more things.
+Everybody uses computers for different reasons: some computers are created to help people in their office (like personal computers), others to keep a room in a specific temperature (like [the NEST](https://nest.com/es/)), others are made to walk on Mars, and so many more things.
 
 No matter what the computer is made for, the very base of its existence is the same: to follow commands.  In this chapter you will learn 5 basic things you’ll need to understand any modern computer through code.
 
@@ -76,7 +76,7 @@ As we learned above, we use the keyword `var` to declare a variable.  There are 
 ***Var***:  Its scope is within the function in which it is declared in.  This means that the variable will stay the same throughout the whole function even if there is more than one block of code in the function.
 
 [[info]]
-|:link: [Read more about `*var*`, `let`, and `const`](http://wesbos.com/let-vs-const/)
+|:link: [Read more about `*var*`, `*let*`, and `*const*`](http://wesbos.com/let-vs-const/)
 
 Variable values are subject to change over time.  To retrieve a variable value you can print the value on the screen at any time.  Each language has its own methods to print; this is how you do it in JavaScript:
 

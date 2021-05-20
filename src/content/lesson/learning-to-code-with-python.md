@@ -3,7 +3,7 @@ title: "Learning to code with Python"
 subtitle: "Python is the fastest-growing programing language in the world, it does almost everything you can think of and the best news is that it's one of the easiest to learn"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-status: "pending_translation"
+status: "published"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["javascript"]
 
@@ -25,8 +25,8 @@ Variables are not a new concept, anybody who knows math is familiar with the con
 
 A variable is a container in which you can store any data.  For example, you can have the following variable:
 
-```javascript
-var age = 24;
+```python
+age = 24;
 ```
 
 ![what is javascript](../../assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
@@ -35,8 +35,8 @@ With virtually any programming language you can create as many variables as you 
 
 The **variable name** is the most effective way we have to describe the variable content, so use it wisely.  It is important to choose a name that clearly tells you (and other coders) about the data that is being stored in the variable.  If we choose a bad or an ambiguous name, our code will be almost impossible to understand, ergo it becomes unusable.  For example, let’s say we change the name of our "age" variable to `a`, that would be:
 
-```javascript
-var a = 24 ;
+```python
+a = 24 ;
 ```
 
 As you can see above, the new variable name does not tell us anything about the data that is being stored and why we are using it.
@@ -48,29 +48,30 @@ Choosing the name for your variable really matters, so we beg you not to use gen
 
 As developers, we can set the value of a variable at any time using the `=` operator.  You do not have to set a value when you first declare a variable.  You can set, or re-set (override) the value as many times as you want, whenever you want.  The value will always be the last one you set.  Below are a few examples on how to set values to variables:
 
-```javascript
-var a = 24;
-  a = 25;
-  a = 80;
-
-var b ;
-  b = 9 ;
-  b = 108 ;
+```python
+a = 24;
+a = 25;
+a = 80;
 ```
 
-### `var` vs.  `let`  vs. `const`
+### No special keywords to declare a variable
 ***
 
-As we learned above, we use the keyword `var` to declare a variable.  There are two other keywords that we can also use to declare variables: ***const & let*** .  The main differences between these types of variables have to do with scope.
+Other languages lik javascript make you use a special statement before the variable name in order to "declare" the variable for the first time like this:
 
-***Const***:  This keyword is used when the value stays constant throughout the life of the script.  The value of the variable declared with this keyword can never be changed.  If you try to change it, it will result in an error.
+```javascript
+let age = 12;
+```
 
-***Let***:  The values are only limited to the scope of the code block (anything between curly brackets) that it is declared in.  If a function has more than one code block, the variable will be considered a different variable in each block.
+Other -strongly typed- languages like Typescript also make you declare the type of value that the variable will contain inside:
 
-***Var***:  Its scope is within the function in which it is declared in.  This means that the variable will stay the same throughout the whole function even if there is more than one block of code in the function.
+```typescript
+let age : number = 12;
+```
 
-[[info]]
-|:link: [Read more about `*var*`, `let`, and `const`](http://wesbos.com/let-vs-const/)
+> Note: This means that the variable age will always contain a number inside.
+
+But Python does not need any type declaration or special keywords, just type `age = 12` and that will be your new variable `age` with value 12.
 
 Variable values are subject to change over time.  To retrieve a variable value you can print the value on the screen at any time.  Each language has its own methods to print; this is how you do it in JavaScript:
 
@@ -89,10 +90,9 @@ Variables can have different types of values.  Some of them are available only i
 |Boolean         |True \| False         |Booleans are meant for logical operations.  If you ask a computer something like: "Does X equal 3?"  It will answer with a boolean (true or false).    |
 |String        |Any series of characters     |Strings are the only way we have to store words (series of characters).  Note: strings need to be encased within quotation marks.    |
 |Number    |Only numbers     |Integer numbers, negative numbers, decimal numbers, floats, etc.  All possible types of numbers.<br>Note: If you enclose a number within quotation marks, JavaScript will treat it as a string.    |
-|Undefined     |The void     |When a variable has no value assigned, it is undefined.     |
-|Array     |A list of any type of value    |A succession of any type of values.  They can be mixed types of values; for example: [2, 3, ‘Word’, 2, 1, null, 232, 5, 3, 23, 234, 5, ‘hello’].     |
+|List     |A list or array of any type of value    |A succession of any type of values.  They can be mixed types of values; for example: [2, 3, ‘Word’, 2, 1, null, 232, 5, 3, 23, 234, 5, ‘hello’].     |
 |Objects    |Any object    |You can create you own data-types with more complex operations.  We will talk more about this later.    |
-|Null     |Only null    |Is used to specify when the database or any other function does not return anything.   |
+|None     |Only null    |Is used to specify when the database or any other function does not return anything.   |
 
 <iframe src="https://repl.it/F05K/3?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
@@ -132,11 +132,9 @@ Then, you will open a curly bracket and write the code that your function must a
 
 ![learn to code in javascript](../../assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif)
 
-```javascript
-function multiply (param1, param2)
-{
-    return (param1 * param2);
-}
+```python
+def multiply (param1, param2):
+    return param1 * param2;
 ```
 <iframe src="https://repl.it/F10t/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
@@ -172,6 +170,7 @@ For example, if I want a computer to give candy only to kids older than 13 years
 
 |**Operation**  |**Syntaxis**   |**Examples**   |
 |:--------------|:--------------|:--------------|
+|Is none or null|is None        |`if author is None:` |
 |Equal to       |==             |Is 5 == 5? True!<br>Is 5 == 4? False!<br>Is 5 == '5'? True!    |
 |Not Equal to   |!=             |Is 5 != 5? False!<br>Is 5 != '5'? False!<br>Is 1 != 'Hello' True!   |
 |Greater than   |>              |Is 5 > 5? False!<br>Is 6 > 3? True!    |
