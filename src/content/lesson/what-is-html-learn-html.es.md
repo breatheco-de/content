@@ -33,7 +33,7 @@ Originalmente, lo navegadores solo podían interpretar HTML, las páginas web er
 
 ¿Recuerdas que Internet trabaja solo con texto?
 
-En ese sentido, HTML es un lenguaje que utiliza `<tags>` para representar los elementos que debe contener el sitio web. Una etiqueta no es más que una palabra que comienza y termina con los caracteres `<` y `>` respectivamente.
+En ese sentido, HTML es un lenguaje que utiliza `<tags>` (etiquetas) para representar los elementos que debe contener el sitio web. Una etiqueta no es más que una palabra que comienza y termina con los caracteres `<` y `>` respectivamente.
 
 
 Todas las `<tags>`o etiquetas deben abrirse y cerrarse. Para cerrarlas, colocas la misma palabra pero utilizando el símbolo `/>`.
@@ -48,9 +48,9 @@ Una vez definida la  `<tag>`, podemos describir con más detalle su comportamien
 
 
 
-En teoría,tu debes utilizar [una de estas tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true), no puedes inventar tus propias etiquetas porque el navegador no sabría cómo interpretarlas. Sí, debes el significado de cada**tag HTML** para utilizarlas sabiamente… ¡pero no te preocupes que no hay muchas! 🙂
+En teoría, tú debes utilizar [una de estas tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true), no puedes inventar tus propias etiquetas porque el navegador no sabría cómo interpretarlas. Sí, debes conocer el significado de cada **etiqueta HTML** para utilizarlas sabiamente… ¡pero no te preocupes que no hay muchas! 🙂
 
-Para el headinf principal o título más grande se utiliza la etiqueta `<h1>`. Por ejemplo: una tienda en línea podría tener una sección para la categoría de electrónicos, en ese caso un título coherente seria “Artículos Electrónicos” y la tag  `<h1>` lo escribiríamos de la siguiente manera:
+Para el título principal, o el título más grande, se utiliza la etiqueta `<h1>`. Por ejemplo: una tienda en línea podría tener una sección para la categoría de electrónicos, en ese caso un título coherente seria “Artículos Electrónicos” y la tag  `<h1>` la escribiríamos de la siguiente manera:
 
 
 ```html
@@ -62,12 +62,12 @@ Para el headinf principal o título más grande se utiliza la etiqueta `<h1>`. P
 Por último, es importante que una tag pueda tener una o más tags en su contenido.  Por ejemplo, si quisiéramos darle un estilo en cursiva a la palabra “electrónicos” debemos acompañar esa palabra con la etiqueta `<i>`:
 
 ```html
- <h1>Artículos<i>Electrónicos</i> Tags</h1>
+ <h1>Artículos <i>Electrónicos</i> - Tags</h1>
 ```
 
- ## Espacios en Blanco y Saltos de Linea
+ ## Espacios vacíos y saltos de linea
  ***
- Los espacios en blanco y los saltos de línea son ignorados por el navegador al momento de interpretar el texto. Si escribimos cinco espacios en blanco seguidos o uno solo, el navegador lo interpretará de la misma manera. Si queremos un salto de linea, debemos usar el tag `<br>`.  Si queremos mas "espacio" necesitamos insertar un `&nbsp;` por cada espacio en blanco (si, sabemos que es raro, pero es así).
+Los espacios vacíos (o en blanco) y los saltos de línea son omitidos por el navegador al momento de interpretar el texto. Si escribimos cinco espacios en blanco seguidos, o uno solo, el navegador lo interpretará de la misma manera. Si queremos un salto de linea, debemos usar la etiqueta `<br>`.  Si queremos más "espacio", necesitamos insertar `&nbsp;` por cada espacio en blanco (sí, es raro, pero es así).
 
 **Estas tres alternativas se van a ver iguales (espacios y saltos de lineas van a ser ignorados):**
 ```html
@@ -83,31 +83,31 @@ Por último, es importante que una tag pueda tener una o más tags en su conteni
 ```
 
 
-# Estructura de Página
+# Estructura de página
 ***
-Todas las páginas deben empezar con la declaración del  `<DOCTYPE! Html>`, seguida por las tags `<HEAD>` y por último del `<BODY>`. Estas tags **obligatoriamente** contienen otras tags dentro de ellas que son anidadas, y eso es así porque separan la página en dos pedazos principales: el HEAD y el BODY:
+Todas las páginas deben empezar con la declaración del  `<DOCTYPE! Html>`, seguida por las etiquetas que contiend el `<head>` y por último el contenido del `<body>`. Estas tags **obligatoriamente** contienen otras tags dentro de ellas que son anidadas, y eso es así porque separan la página en dos pedazos principales: el HEAD (la cabeza) y el BODY (el cuerpo):
 
 
 ```html{numberLines: true}
-<! –- Siempre debemos empezar con una tag HTML para demostrarle al navegador que este es un documento en formato HTML. — >
+<!– Siempre debemos empezar con una tag HTML para demostrarle al navegador que este es un documento en formato HTML. —>
 <!DOCTYPE html>
 <html>
    <head>
-   <! — Dentro de la tag head vamos a definir toda la información que requiere el navegador ANTES de empezar a interpretar la página. –>
+   <!— Dentro de la tag head vamos a definir toda la información que requiere el navegador ANTES de empezar a interpretar la página. –>
    </head>
    <body>
-   <!–Dentro de la tag body vamos a definir el contenido de la página.–>
+   <!– Dentro de la tag body vamos a definir el contenido de la página. –>
    </body>
 </html>
 ```
 
-Vamos a simular el pensamiento de un navegador: Imaginemos que un usuario en su navegador (lado del cliente) está solicitando visualizar la página web: “breatheco.de”
+Vamos a simular el pensamiento de un navegador: Imaginemos que una persona en su navegador (lado del cliente) está solicitando visualizar la página web: “breatheco.de”
 
-+ El servidor abrirá un archivo HTML por defecto en el servidor, el cual probablemente sea: index.html.
++ El servidor abrirá un archivo HTML por defecto en el servidor. Probablemente sea index.html.
 + Luego, leerá el contenido y lo interpretará como un HTML (porque la extensión del archivo es index.html).
-+ El usuario no verá el texto que contiene el archivo, en cambio verá una interpretación visual de ese texto.
++ La persona no verá el texto que contiene el archivo, en cambio verá una interpretación visual de ese texto.
 
- Como ya sabemos, dicha página va a contener POR LO MENOS los siguientes tags:
+ Como ya sabemos, dicha página va a contener, por lo menos, los siguientes tags:
 
   ![learn html](../../assets/images/e8d3d49d-8c7e-4bc2-88e0-15b95a8ccc54.png)
 
@@ -117,7 +117,7 @@ Vamos a simular el pensamiento de un navegador: Imaginemos que un usuario en su 
 |Head       |`<head>`   |Todo lo que esté dentro del HEAD no lo verá el usuario. Es la parte de la página en donde le dices al navegador en qué idioma está hecha la página, de qué se trata, cargas las fuentes (font type) necesarias, defines el ícono que va a tener la pestaña en el navegador y muchas otras cosas realmente importantes.   |
 |Body       |`<body>`   |Aquí vas a colocar todo el contenido del documento que verá el usuario final.<br>Si esto fuera MS Word, el body marcaría el inicio de tu página, la primera línea del texto del documento.
 
-# El \<HEAD\> es como el sobre de una carta.
+# El \<head\> es como el sobre de una carta.
 ***
 Leemos el sobre de una carta para conocer información sobre la carta en sí misma, no sobre el contenido. En el sobre puedes enterarte de quién la escribió, en que idioma está, de dónde viene, etc.
 
@@ -131,17 +131,17 @@ En el caso de HTML, `<head>` puede contener los siguientes tags (entre otros men
 |Style      |`<style>`   |Si no queremos o no podemos importar una hoja de estilo CSS, también tenemos la posibilidad de definir estilos en el propio documento HTML dentro de este tag. Es una práctica que no recomendamos en casi ningún escenario, solo deberías usarla cuando te veas obligado.   |
 |Script     |`<script>`   |Se utiliza para agregar código JavaScript a la página. Todo el código JavaScript debe estar siempre contenido dentro de estas etiquetas que también se puede utilizar en el BODY si así lo deseamos. La diferencia es que cualquier código JavaScript que coloquemos en una etiqueta style ubicada en el body, no estará disponible al momento de iniciar la ejecución de la página (justo en eso es que nos ayuda el HEAD).   |
 
-# El \<body\> es Similar a cualquier Documento de MS Word
+# El \<body\> es similar a cualquier documento de MS Word
 
-Ok, ahora que conocimos la estructura general y necesaria de la página, vamos a revisar cuáles son los tags que podemos y debemos utilizar para definir el contenido de la misma.
+Bien, ahora que conocimos la estructura general y necesaria de la página, vamos a revisar cuáles son los tags que podemos y debemos utilizar para definir el contenido de la misma.
 
-Recuerda -por quinceava vez- que una página web es un… ¡documento de texto! Así es, si pensaste la respuesta antes de leerla… ¡estás entendiendo! y si no es así pues no te preocupes, que no conozco a nadie que haya entendido HTML y CSS tan rápidamente ;).
+Recuerda -por quinceava vez- que una página web es un… ¡documento de texto! Así es. si has pensado en la respuesta antes de leerla… ¡estás entendiendo! y si no es así, pues no te preocupes, que no conozco a nadie que haya entendido HTML y CSS tan rápidamente ;).
 
-Veamos ahora como se compara un website a un documento de word:
+Veamos ahora en qué se compara un website con un documento de Word:
 
 <before-after width="500px" before="../../assets/images/f2021d8d-193d-4482-b189-ae0005b1bd88.png" after="../../assets/images/8e339149-97ae-4b15-ba59-a3ddf3777525.png" /></before-after>
 
-Las tags mas utilizadas dentro del `<body>` de un documento HTML son las siguientes:
+Las etiquetas más utilizadas dentro del `<body>` de un documento HTML son las siguientes:
 
 |**Nombre**   |**Tags**   |**Descripción**   |
 |:----------|:----------|:-----------------|
@@ -158,11 +158,11 @@ Las tags mas utilizadas dentro del `<body>` de un documento HTML son las siguien
 [[info]]
 |:link: [Haz clic aquí](https://www.w3schools.com/tags/ref_byfunc.asp), para más tags HTML.
 
-# Los Atributos (Propiedades)
+# Los atributos (propiedades)
 ***
 Ya sabemos que cada  `<tag>` tiene un comportamiento diferente. Gracias a ellas podemos cambiar el tamaño de la letra - como ocurre con los headings - agregar márgenes entre párrafos, enumerar elementos, etc.
 
-Si quieres especificar más cel comportamiento de un tag en particular, puedes utilizar sus atributos. Para usarlos debes definirlos en el tag de apertura así:
+Si quieres especificar más el comportamiento de una etiqueta en particular, puedes utilizar sus atributos. Para usarlos debes definirlos en el tag de apertura así:
 
 ```html
 <img src="http://www.mydomain.com/myimage.png" />
@@ -177,7 +177,7 @@ Por eso hemos creado una serie de ejercicios que te explicarán mejor cada una d
 
 ## Aplausos, ¡Ya sabes HTML!!!
 ***
-¡¡Estamos Orgullosos!!! 🙂
+¡¡Estamos orgullos@s!!! 🙂
 
 Acabas de aprender lo esencial para realizar una página web como se hacía en 1999. Ahora tenemos unas pocas semanas mas para ponerte al día con todo lo que ha pasado en estos últimos 20 años.  ¡Ya puedes decir que sabes hacer un website!
 
