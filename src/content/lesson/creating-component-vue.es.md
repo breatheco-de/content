@@ -13,7 +13,7 @@ tags: ["vue", "component"]
 ## **¿Qué son los componentes y para que sirven?**
 ***
 
-Los componentes de Vue son partes o secciones de código HTML, los cuales, es probable que se pueda reutilizar dentro del mismo proyecto. Esto se puede ejemplificar comparando nuestro proyecto con un edificio, en el cual nosotros sabemos que debemos incluir cierto tipo de ventana en todos los pisos. No nos dedicaríamos ha diseñar cada una de esas ventanas que deben ser iguales, si no que ese trabajo se hace una sola vez y se vuelve a comprar la misma ventana diseñada anteriormente. Los componentes buscan evitar duplicar nuestro código que se puede reutilizar. Para esto, además, Vue le añade ciertas características y funcionalidades a nuestro componente mediante su compilador.
+Los componentes de Vue son partes o secciones de código HTML, los cuales, es probable que se puedan reutilizar dentro del mismo proyecto. Esto se puede ejemplificar comparando nuestro proyecto con un edificio, en el cual nosotros sabemos que debemos incluir cierto tipo de ventana en todos los pisos. No nos dedicaríamos a diseñar cada una de esas ventanas que deben ser iguales, si no que ese trabajo se hace una sola vez y se vuelve a comprar la misma ventana diseñada anteriormente. Los componentes buscan evitar duplicar nuestro código que se puede reutilizar. Para esto, además, Vue le añade ciertas características y funcionalidades a nuestro componente mediante su compilador.
 
 Para comenzar a utilizar Vue y crear nuestro primer componente vamos a hacerlo en una primera etapa de la manera más básica en la que se puede incluir esta librería a un sitio HTML y luego mostraremos un ejemplo en un proyecto basado en Vue que tenga el boilerplate generado por vue-cli.
 
@@ -22,7 +22,7 @@ Para comenzar a utilizar Vue y crear nuestro primer componente vamos a hacerlo e
 
 ### Componentes Vue en proyecto HTML
 
-Debemos incluir la librería de Vue, para esto podemos descargarla directamente desde la pagina oficial o podemos utilizar el CDN que proporcionan. Se recomienda incluirlo en la etiqueta `<header>`.
+Debemos incluir la librería de Vue, para esto podemos descargarla directamente desde la página oficial o podemos utilizar el CDN que proporcionan. Se recomienda incluirlo en la etiqueta `<header>`.
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -34,7 +34,7 @@ Una vez incluida la librería debemos incluir el tag HTML donde queremos que se 
 <div id="app"></div>
 ``` 
 
-Luego crearemos un nuevo archivo JavaScript, pueden llamarlo como gusten, en nuestro caso le pondremos el nombre de index.js. Este archivo se debe incluir en la pagina HTML donde esta cargada la librería. Se debe agregar después de la librería de Vue, de recomendación antes del cierre del tag `<body>`. Este seria nuestro caso:
+Luego crearemos un nuevo archivo JavaScript, pueden llamarlo como gusten, en nuestro caso le pondremos el nombre de index.js. Este archivo se debe incluir en la página HTML donde esta cargada la librería. Se debe agregar después de la librería de Vue, de recomendación antes del cierre del tag `<body>`. Este sería nuestro caso:
 
 ```html
 <script src="./index.js"></script>
@@ -50,16 +50,16 @@ new Vue({
 
 Esto indica que estamos creando una nueva instancia de Vue, la cual recibe opciones que se pasan en formato de objeto, además a la propiedad **el** de las opciones le asignamos el identificador del tag HTML en el cual se renderizará. Al ser un id se le antepone un símbolo **#**.
 
-Si vemos la pagina HTML y revisamos la consola en el inspector de elementos, podemos ver el mensaje “You are running Vue in development mode.”. Esto nos indica que se incluyo con éxito Vue.
+Si vemos la pagina HTML y revisamos la consola en el inspector de elementos, podemos ver el mensaje “You are running Vue in development mode.”. Esto nos indica que se incluyó con éxito Vue.
 
-Con lo anterior realizado ya podemos comenzara crear y utilizar componentes de Vue. Para esto debemos comenzar definiendo un nombre de componente y su contenido HTML a mostrar (template):
+Con lo anterior realizado ya podemos comenzar a crear y utilizar componentes de Vue. Para esto debemos comenzar definiendo un nombre de componente y su contenido HTML a mostrar (template):
 
 ``` js
 Vue.component('my-component', {
     template: '<div>A custom component</div>'
 })
 ```
-En el ejemplo anterior el componente esta definido con el nombre de my-component, este es el nombre con el que utilizaremos nuestro componente, el cual, al ser definido con Vue.component se denomina componente global, esto quiere decir que se puede ocupar en toda la aplicación sin necesidad de una importación explicita. Para poder visualizarlo en nuestra pagina HTML debemos incluir una etiqueta con el nombre de nuestro componente (my-component) donde queremos que se muestre, pero siempre dentro del contenedor en el cual se renderiza nuestra instancia de Vue. En nuestro ejemplo es la etiqueta con el id **app**.
+En el ejemplo anterior el componente esta definido con el nombre de my-component, este es el nombre con el que utilizaremos nuestro componente, el cual, al ser definido con Vue.component se denomina componente global, esto quiere decir que se puede ocupar en toda la aplicación sin necesidad de una importación explícita. Para poder visualizarlo en nuestra página HTML debemos incluir una etiqueta con el nombre de nuestro componente (my-component) donde queremos que se muestre, pero siempre dentro del contenedor en el cual se renderiza nuestra instancia de Vue. En nuestro ejemplo es la etiqueta con el id **app**.
 
 ``` html
 <div id="app">
@@ -67,12 +67,12 @@ En el ejemplo anterior el componente esta definido con el nombre de my-component
 </div>
 ```
 
-Como resultado, nuestra pagina mostrara el mensaje “A custom component”.
+Como resultado, nuestra página mostrará el mensaje “A custom component”.
 Si queremos utilizar Single File Components será necesario agregar una configuración de webpack y de recomendación con babel.
 
 ### Componentes Vue en proyecto con vue-cli
 
-Si ya tenias un proyecto existente o iniciaste un proyecto nuevo con vue-cli, ya tienes lo necesario para comenzar a crear y utilizar tus componentes.
+Si ya tenías un proyecto existente o iniciaste un proyecto nuevo con vue-cli, ya tienes lo necesario para comenzar a crear y utilizar tus componentes.
 
 Con vue-cli cada componente se maneja en un archivo independiente (**Single File Component**), pero igualmente se pueden definir componentes globales. Inicialmente existe el archivo src/App.vue el cual se carga al inicio. Dentro de este ya existe la utilización del componente src/components/HelloWorld.vue.
 
@@ -182,7 +182,7 @@ Y en su utilización (App.vue) se vería similar a esto:
 </template>
 ```
 
-De esta manera se le esta definiendo en el componente “padre” o “contenedor” cual es el texto que se mostrara en el botón. Para utilizar más props en la etiqueta MyComponent, simplemente debemos sepáralos con un espacio, como cualquier atributo de una etiqueta de HTML, como por ejemplo id, class y name.
+De esta manera se le esta definiendo en el componente “padre” o “contenedor” cuál es el texto que se mostrará en el botón. Para utilizar más props en la etiqueta MyComponent, simplemente debemos separarlos con un espacio, como cualquier atributo de una etiqueta de HTML, como por ejemplo id, class y name.
 
 Como ultima característica de los componentes de Vue a revisar, mostraremos un ejemplo de uso de `slot`.
 
