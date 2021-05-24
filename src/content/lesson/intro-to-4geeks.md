@@ -27,7 +27,7 @@ We are about to change the way you learn, the way you approach life, the way you
 
 ### We are here to tear down the 💻 3 Walls Towards Code 
 
-During the past years we have identified specific reasons that cause students stop trying to be a developer or fail to complete the course or get a job. 
+During the past years we have identified specific reasons that cause students to stop trying to be a developer or fail to complete the course or get a job. 
 
 #### Wall #1: Confidence 🥺 (Impostor syndrome)
 
@@ -41,7 +41,7 @@ Every average person can learn to code to a point of being useful, coding gets m
 
 ##### 📝 Recipe to avoid loosing confidence
 
-1. **Avoid being stuck to long:** Coding is tricky because you may be very close to solving a problem but you are stuck and you don't realize it. Or maybe you don't know how to start a problem but a quick 5 min talk with a mentor will clear the way. You need to ask for help no longer than 15 mins after trying on your own.
+1. **Avoid being stuck too long:** Coding is tricky because you may be very close to solving a problem but you are stuck and you don't realize it. Or maybe you don't know how to start a problem but a quick 5 min talk with a mentor will clear the way. You need to ask for help no longer than 15 mins after trying on your own.
 
 2. **Talk to other students:** You may think you are the only one that does not understand, but if you talk to a couple of class-mates you'll see they are just like you, it will give you the confidence to ask questions.
 
