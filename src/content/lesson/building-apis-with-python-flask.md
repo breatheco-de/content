@@ -122,7 +122,7 @@ def handle_person():
     return resp
 ```
 
-Another way of chainging the response code using a comma `,`:
+Another way of changing the response code is by using a comma `,`:
 
 ```python
 @app.route("/person")
