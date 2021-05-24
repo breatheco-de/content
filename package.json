@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-default",
   "engines": {
-    "node": "10.x"
+    "node": "14.x"
   },
   "description": "BreatheCode's Content Platform",
   "version": "0.0.1",
