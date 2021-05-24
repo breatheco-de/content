@@ -11,18 +11,20 @@ const icons = {
 const isBrowser = typeof window !== "undefined"
 
 export const LanguageSwitcher = ({ current, translations }) => {
+    
     const CurrentIcon = icons[current];
     return (<div className="language-switcher">
         <ul>
         {
             Object.entries(translations).filter(lang => lang[0] !== current).map( lang => {
-                let plain = () => {
+                let query = () => {
                     if(isBrowser){
-                        return window.localStorage.getItem("plain")
+                        const querystring = window.location.search
+                        return querystring
                     }
                 }
                 const LangIcon = icons[lang[0]];
-                return (<li><Link to={"/"+lang[1]+`${plain() ? "?plain=true": ""}`}><LangIcon /></Link></li>);
+                return (<li><Link to={"/"+lang[1]+ `/${query()}`}><LangIcon /></Link></li>);
             })
         }
         </ul>
