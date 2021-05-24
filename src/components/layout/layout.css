@@ -2,6 +2,16 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  
+  /* I removed horizontal scrolling, because a
+     property in bootstrap goes out of screen size 
+     - csav
+  */
+  overflow-x: clip;
+}
+
+.navbarFont {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji
 }
 body {
   margin: 0;
