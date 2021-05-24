@@ -234,7 +234,7 @@ console.log(myPomise);
 + ***reject***: it returns an already rejected promise with a reason.
 
 ```javascript
-	Promise.reject(new Error("I was rejected")).then(error => console.log(error));
+	Promise.reject(new Error("I was rejected")).catch(error => console.log(error));
 ```
 ***
 
