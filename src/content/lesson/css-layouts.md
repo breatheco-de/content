@@ -86,7 +86,7 @@ In order for a website to look like today’s websites, we have to redesign the 
 |Relative    |Similar to absolute. The main difference here is that its position in the HTML document is not ignored.  The box will be located in accordance to the top, left, right and bottom attributes – relative to its main (boss/principal/father) element as the starting point.    |
 |Fixed     |If you fix an element, it means that it will always remain in the same position.  When the user scrolls in any direction, the element will stay in the very same position. Fixed could be used on PopUps, menu, etc.    |
 
-Wait!!  If you don’t get what we just explained, well…… there's nothing to worry (at this current stage).  This is one of those things we need you to practice a lot.  There is no other way. 🙁
+Wait!!  If you don’t get what we just explained, well... there's nothing to worry (at this current stage).  This is one of those things we need you to practice a lot.  There is no other way. 🙁
 
 ## The Display Attribute
 ***

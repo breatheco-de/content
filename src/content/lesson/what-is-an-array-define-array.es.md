@@ -26,7 +26,7 @@ Dominar el uso de los `arrays y bucles` es una de las 5 habilidades fundamentale
 
 Un array es, normalmente, cualquier lista o colección de valores. Las reglas sobre cómo agregar o eliminar elementos de esa lista pueden cambiar de un lenguaje de programación a otro. Pero - en general - son la única forma en que los desarrolladores pueden crear elementos.
  
-los arrays son la única forma que tenemos para enumerar cosas - independientemente de la aplicación con la que estés trabajando, siempre tendrás cosas que enumerar. Por ejemplo: lista de estudiantes, lista de artistas, lista de transacciones ... ¡cualquier cosa!
+Los arrays son la única forma que tenemos para enumerar cosas - independientemente de la aplicación con la que estés trabajando, siempre tendrás cosas que enumerar. Por ejemplo: lista de estudiantes, lista de artistas, lista de transacciones ... ¡cualquier cosa!
 
 Este tipo de datos hace muchas más cosas que los otros. Las listas son la única forma de almacenar más de un tipo de datos en la misma variable.
 
@@ -62,7 +62,7 @@ var myArray = new Array(1,2,3,4,5); //¡No uses esto! Lea a continuación para s
 ## Acceder a los elementos de un array
 ***
 
-Si quieres, puedes restablecer o actualizar cualquier items dentro de un array usando el índice o index así:
+Si quieres, puedes restablecer o actualizar cualquier ítem dentro de un array usando el índice o index así:
 
 ```javascript
     console.log(myArray[0]);  //Esto imprimirá el 1er elemento en la consola.
@@ -183,7 +183,7 @@ Retorna un nuevo array con una versión más pequeña del arreglo original. Debe
 #### Splice
 
 
-Actualiza el array actual dejando todo menos la versión más pequeña que desea eliminar. Debes especificar los índices de inicio y término del pedazo que quieres eliminar.
+Actualiza el array actual dejando todo menos la versión más pequeña que deseas eliminar. Debes especificar los índices de inicio y término del pedazo que quieres eliminar.
 
 ![qué es un array](../../assets/images/7e098348-df50-442b-801e-ac9d098fbc09.png)
 
