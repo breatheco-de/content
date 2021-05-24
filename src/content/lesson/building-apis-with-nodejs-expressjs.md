@@ -4,7 +4,7 @@ subtitle: "Expressjs permite construir API REST de una forma rápida, minimalist
 cover_local: "../../assets/images/node-expressjs.png"
 textColor: "white"
 date: "2021-04-17T16:36:31+00:00"
-status: "draft"
+status: "published"
 tags: ["Expressjs","nodejs","REST","API"]
 
 ---

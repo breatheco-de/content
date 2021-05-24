@@ -4,7 +4,7 @@ subtitle: "TypeOrm  permite construir API REST de una forma rápida, minimalista
 cover_local: "../../assets/images/node-typeorm.png"
 textColor: "white"
 date: "2021-04-17T16:36:31+00:00"
-status: "draft"
+status: "published"
 tags: ["typeOrm","Expressjs","nodejs","REST","API"]
 
 ---
