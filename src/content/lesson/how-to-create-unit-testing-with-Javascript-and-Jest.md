@@ -19,7 +19,7 @@ There are several ways to test your applications, but unit tests are the most po
  
 ## What is Unit Testing?
 
-Unit testing is the process of dividing your code in small functions and testing each of those functions separately. For example:
+Unit testing is the process of dividing your code into small functions and testing each of those functions separately. For example:
 
 Assuming you are building a function that `sums` two numbers like this:
 
@@ -49,9 +49,9 @@ Note: Unit tests don't care about the content of the `sum` function, it only car
 
 Another novelty of ES6 are the "Arrow function". The way to create these functions is as follows: First we will define the list of parameters, if necessary, between parentheses followed by the => symbol and the {} to indicate the instructions to be carried out.
 
-In addition to the syntax that is different from the previous ones, this type of functions have the following characteristics.
+In addition to the syntax that is different from the previous ones, these type of functions have the following characteristics.
 
-The "arrow functions" do not create their own context when executed. Unlike the "function expression" or the "function declaration" that creates its own context.
+The "arrow functions" does not create their own context when executed. Unlike the "function expression" or the "function declaration" that creates its own context.
 
 The "arrow functions" are anonymous.
 
@@ -62,7 +62,7 @@ If when defining the function we do not use the symbol of the curly braces. The 
 
 ## Benefits of using Unit Testing:
 
-+ **you can find and prevent bugs easily** If there is a problem in the future you'll be to identify the cause a lot faster than having to trough all the code. Also your end-user will be very happy not have a buggy product.
++ **you can find and prevent bugs easily** If there is a problem in the future you'll be to identify the cause a lot faster than having to trough all the code. Also your end-user will be very happy to not have a buggy product.
 
 + **Unit Testing saves time....and money** When writing Unit tests you may identify many possible bugs and fix them right away, instead of fixing them in different stages of the product.
 
@@ -74,7 +74,7 @@ If when defining the function we do not use the symbol of the curly braces. The 
 
 ## Writing your first unit test with Jest
 
-Jest is the most popular unit testing framework in javascript, used by big companies like airbnb, twitter, spotify and has plugins that integrate amazingly with front-end frameworks like React, Vue, Angular, etc.
+Jest is the most popular unit testing framework in javascript, it is used by big companies like airbnb, twitter, spotify and has plugins that integrate amazingly with front-end frameworks like React, Vue, Angular, etc.
 
 It requires almost 0 configuration to start using it, it is extremely fast and the error or feedback messages are very clear.
 
@@ -96,7 +96,7 @@ test('The string HELLO should return true', () => {
      expect(result).toBe(true);
 })
 ```
-Here we are testing the function for the input `HELLO`, But doing only one test will not be enough, you have to test all the possible scenarios.
+Here we are testing the function for the input `HELLO`, But doing only one test will not be enough, you have to test all possible scenarios.
 
 ## Testing for failure
 
