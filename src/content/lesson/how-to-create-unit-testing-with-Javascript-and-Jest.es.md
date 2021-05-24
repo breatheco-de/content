@@ -19,7 +19,7 @@ Hay varias maneras de probar tus aplicaciones, pero las pruebas unitarias son la
  
 ## ¿Qué son las pruebas unitarias?
 
-Las pruebas unitarias son el proceso de dividir su código en pequeñas funciones y probar cada una de esas funciones por separado. Por ejemplo:
+Las pruebas unitarias son el proceso de dividir tu código en pequeñas funciones y probar cada una de esas funciones por separado. Por ejemplo:
 
 Supongamos que estás construyendo una función `sum` que suma dos números:
 
@@ -54,7 +54,7 @@ Nota: Las pruebas unitarias no se preocupan por el contenido de la función `sum
 
 + Unas buenas pruebas unitarias sirven como **documentación y definen** lo que se supone que debe hacer tu código.
 
-+ **Las pruebas unitarias mejoran el trabajo en equipo**. Podrá seguir la lógica detrás de su código y tu equipo será capaz de coordinar su código en consecuencia. Al revisar los códigos de los demás, el trabajo en equipo es más ágil.
++ **Las pruebas unitarias mejoran el trabajo en equipo**. Podrán seguir la lógica detrás de tu código y tu equipo será capaz de coordinar su código en consecuencia. Al revisar los códigos de los demás, el trabajo en equipo es más ágil.
 
 
 ## Escribiendo tu primera prueba unitaria con Jest
@@ -81,7 +81,7 @@ test('The string HELLO should return true', () => {
      expect(result).toBe(true);
 })
 ```
-Aquí estamos probando la función para la entrada `HELLO`, Pero hacer sólo una prueba no es suficiente, tienes que probar todos los escenarios posibles.
+Aquí estamos probando la función para la entrada `HELLO`, pero hacer sólo una prueba no es suficiente, tienes que probar todos los escenarios posibles.
 
 ## Probando fallas
 
@@ -92,8 +92,8 @@ En lugar de probar el escenario ideal, intenta pensar en posibles entradas extra
 
 La única manera de asegurarte de que tu función `isUpperCase` funciona es probar todas las entradas posibles:
 
-1. ¿Qué ocurre si le pasas una palabra en mayúsculas?
-2. ¿Qué ocurre si le pasas una palabra en minúsculas?
+1. ¿Qué ocurre si le pasas una palabra en mayúscula?
+2. ¿Qué ocurre si le pasas una palabra en minúscula?
 3. ¿Qué ocurre si le pasas una palabra mixta (mayúscula y minúscula)?
 4. ¿Qué ocurre si le pasas un número en lugar de un string?
 5. ¿Qué ocurre si le pasas un booleano en lugar de un string?
@@ -137,7 +137,7 @@ Aquí hay un ejemplo funcionando:
 
 ## Todas las posibles preguntas (aserciones) que puedes hacer
 
-Hemos estado usando `expect(something).toBe(something)` pero Jest tiene muchas funciones `expect` posible que te ayudarán con tus pruebas, por ejemplo: 
+Hemos estado usando `expect(something).toBe(something)` pero Jest tiene muchas funciones `expect` posibles que te ayudarán con tus pruebas, por ejemplo: 
 
 | Descripción | Sintaxis |
 | ----------- | ------ |
