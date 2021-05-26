@@ -27,7 +27,7 @@ No matter what the computer is made for, the very base of its existence is the s
 
 <div align="right"><small><a href="https://www.youtube.com/embed/Q-eob0WBKs0">Click here to open video in a new window</a></small></div>
 
-Variables are not a new concept, anybody who knows math is familiar with the concept of variables.
+Variables are not a new concept, anybody who knows math is familiar with the concept of variables
 
 A variable is a container in which you can store any data.  For example, you can have the following variable:
 
