@@ -192,7 +192,7 @@ Actualiza el array actual dejando todo menos la versión más pequeña que desea
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Slice-vs-Splice">Haz clic para abrir la demo en una ventana nueva</a></small></div>
 
 [[info]]
-| :point_up: Splice puede aceptar tantos parámentos opcionales como se quiera y estos sustituirán la parte del array que ha sido eliminada.  De esta forma el primer parámetro indica el índice desde el cual empieza a borrar, el segundo parámetro cuantos elementos borrarás y del tercero los elementos que se insertan a partir de la posición que se indica en el primer parámetro.
+| :point_up: Splice puede aceptar tantos parámetros opcionales como se quiera y estos sustituirán la parte del array que ha sido eliminada.  De esta forma el primer parámetro indica el índice desde el cual empieza a borrar, el segundo parámetro cuantos elementos borrarás y del tercero los elementos que se insertan a partir de la posición que se indica en el primer parámetro.
 
 Ejemplo:
 ```javascript
