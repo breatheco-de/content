@@ -9,7 +9,7 @@ tags: ["Flask","python","REST","API"]
 
 ---
 
-By now you should know already what a REST api is, if you don't I recomend you [read about it here](http://content.breatheco.de/lesson/understanding-rest-apis).
+By now you should know already what a REST api is, if you don't I recommend you [read about it here](http://content.breatheco.de/lesson/understanding-rest-apis).
 
 As a very brief summary, building an API in a RESTful way means that you have to build your URL endpoints grouped by **"resources"**. A resource is something you want to manage, e.g: Student, User, Car, etc. A resource is something similar to a database table but we call them "resources" because of a few exceptions.
 
@@ -33,7 +33,7 @@ Take a look at the URL's they follow a pattern, after a while the endpoints will
 
 Flask is amazing! It is very similar to Node.js Express Server and that makes it even cooler because you will be able to work with both technologies without much of a learning curve.
 
-Flask is a library for creating web servers and API's, basically when you run a python script that contains the following lines, the computar will start listening for HTTP requests:
+Flask is a library for creating web servers and API's, basically when you run a python script that contains the following lines, the computer will start listening for HTTP requests:
 
 ```python
 from flask import Flask
@@ -48,7 +48,7 @@ app.run(host='0.0.0.0')
 [Click to test this code live](https://repl.it/@4GeeksAcademy/Flask-Hello-World)
 
 
-## Flask Hello-Wold explained
+## Flask Hello-World explained
 
 ```python
 from flask import Flask #here we import the Flask library into our file
@@ -107,7 +107,7 @@ def handle_person():
 
 ## The Response Code
 
-The response code is 200 by default, and 500 if there is an uknown error. If you want to respond to the client with a different code you will have to specify it like this:
+The response code is 200 by default, and 500 if there is an unknown error. If you want to respond to the client with a different code you will have to specify it like this:
 
 ```python
 from flask import Flask, jsonify
@@ -118,11 +118,11 @@ def handle_person():
       "details": "Hey, there has been an error on your request"
     }
     resp = jsonify(content)
-    resp.status_code = 400 # here we chage the status code to 400 (typical code for request errors)
+    resp.status_code = 400 # here we change the status code to 400 (typical code for request errors)
     return resp
 ```
 
-Another way of chainging the response code using a comma `,`:
+Another way of changing the response code using a comma `,`:
 
 ```python
 @app.route("/person")
@@ -164,7 +164,7 @@ from flask_sqlalchemy import SQLAlchemy
 db = SQLAlchemy()
 ```
 
-Once is imported, you can start declaring your database models like this:
+Once it is imported, you can start declaring your database models like this:
 
 ```python
 class Person(db.Model):

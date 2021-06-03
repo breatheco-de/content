@@ -99,7 +99,7 @@ body {
 }
 ```
 
-También pudedes cambiar el color de un sólo `<a>`. Para hacer esto, debes definir la propiedad de `clase` o un `id` de la etiqueta HTML que define ese link en particular `<a id="anchor1">`. Las clases se usan más que los IDs debido a que las clases son reutilizables y los IDs se usan más en Javascript. Una vez que esa etiqueta tenga un clase, entonces puedes ir a tu hoja de estilos y definir un `color` de la siguiente manera:
+También puedes cambiar el color de un sólo `<a>`. Para hacer esto, debes definir la propiedad de `clase` o un `id` de la etiqueta HTML que define ese link en particular `<a id="anchor1">`. Las clases se usan más que los IDs debido a que las clases son reutilizables y los IDs se usan más en Javascript. Una vez que esa etiqueta tenga un clase, entonces puedes ir a tu hoja de estilos y definir un `color` de la siguiente manera:
 
 ```css
 #anchor1{

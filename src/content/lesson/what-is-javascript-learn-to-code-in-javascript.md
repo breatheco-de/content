@@ -16,7 +16,7 @@ tags: ["javascript"]
 
 **Coding is making *the computer* "obey"…**
 
-Everybody uses computers for different reasons.  Some computers are created to help people in their office (like personal computers), others to keep a room in a specific temperature (like [the NEST](https://nest.com/es/)), others are made to walk on Mars, and so many more things.
+Everybody uses computers for different reasons: some computers are created to help people in their office (like personal computers), others to keep a room in a specific temperature (like [the NEST](https://nest.com/es/)), others are made to walk on Mars, and so many more things.
 
 No matter what the computer is made for, the very base of its existence is the same: to follow commands.  In this chapter you will learn 5 basic things you’ll need to understand any modern computer through code.
 
@@ -27,7 +27,7 @@ No matter what the computer is made for, the very base of its existence is the s
 
 <div align="right"><small><a href="https://www.youtube.com/embed/Q-eob0WBKs0">Click here to open video in a new window</a></small></div>
 
-Variables are not a new concept, anybody who knows math is familiar with the concept of variables.
+Variables are not a new concept, anybody who knows math is familiar with the concept of variables
 
 A variable is a container in which you can store any data.  For example, you can have the following variable:
 
@@ -37,7 +37,7 @@ var age = 24;
 
 ![what is javascript](../../assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
 
-With virtually any programming language you can create as many variables as you want or need.  To start you have to **declare that variable’s name** using the term: *var* followed by a _unique_ name (relative to the document/project).
+With virtually any programming language you can create as many variables as you want or need.  To start you have to **declare that variable’s name** using the term: *var* followed by a _unique_ name (relative to the document-project).
 
 The **variable name** is the most effective way we have to describe the variable content, so use it wisely.  It is important to choose a name that clearly tells you (and other coders) about the data that is being stored in the variable.  If we choose a bad or an ambiguous name, our code will be almost impossible to understand, ergo it becomes unusable.  For example, let’s say we change the name of our "age" variable to `a`, that would be:
 
@@ -76,7 +76,7 @@ As we learned above, we use the keyword `var` to declare a variable.  There are 
 ***Var***:  Its scope is within the function in which it is declared in.  This means that the variable will stay the same throughout the whole function even if there is more than one block of code in the function.
 
 [[info]]
-|:link: [Read more about `*var*`, `let`, and `const`](http://wesbos.com/let-vs-const/)
+|:link: [Read more about `*var*`, `*let*`, and `*const*`](http://wesbos.com/let-vs-const/)
 
 Variable values are subject to change over time.  To retrieve a variable value you can print the value on the screen at any time.  Each language has its own methods to print; this is how you do it in JavaScript:
 
@@ -199,7 +199,7 @@ You can group the logical operations in parentheses, and also use nested parenth
 ## Control the Flow of Your Code
 ***
 
-Okay, now is when everything starts getting fun!  To control your application’s flow you will have several options, and you are going to use each of them every single day.  So, you must become comfortable using them.
+Okay, now is when everything starts getting fun!  To control your applications flow you will have several options, and you are going to use each of them every single day.  So, you must become comfortable using them.
 
 ### If…else…
 

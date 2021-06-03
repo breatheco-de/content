@@ -23,17 +23,17 @@ You are also here because you need help, not only technical help but also spirit
 
 > The biggest wall to become a developer is not in the syllabus or content but in your mind.
 
-We are about to change the way your learn, they way you approach life, they way you sell yourself (therefore see yourself), we are tearing down old misconceptions about yourself, others and your professional life.
+We are about to change the way you learn, the way you approach life, the way you sell yourself (therefore see yourself), we are tearing down old misconceptions about yourself, others and your professional life.
 
 ### We are here to tear down the 💻 3 Walls Towards Code 
 
-During the past years we have identified specific reasons that cause students stop trying to be a developer, or fail to complete the course, or get a job. 
+During the past years we have identified specific reasons that cause students to stop trying to be a developer or fail to complete the course or get a job. 
 
 #### Wall #1: Confidence 🥺 (Impostor syndrome)
 
 ![Impostor Syndrome](../../assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png)
 
-At some point in our lives (some more than others) we all have thought we are the most stupid person in a room, if we keep thinking that for a long time and we don't get comfortable on any discipline we may even think that we are not that smart. BULLSHIT! You are a part of this school, we do not accept people that we don't think are smart enough to make a living as a developer, you need to belive that, specially on tough times!
+At some point in our lives (some more than others) we all have thought we are the most stupid person in a room, if we keep thinking that for a long time and we don't get comfortable on any discipline we may even think that we are not that smart. BULLSHIT! You are a part of this school, we do not accept people that we don't think are smart enough to make a living as a developer, you need to believe that, especially on tough times!
 
 > If a particular exercise or project is hard, instead of thinking you are not good at this, look for new ways of absorbing the content. Talk to a mentor and we'll give you exactly what you need.
 
@@ -41,7 +41,7 @@ Every average person can learn to code to a point of being useful, coding gets m
 
 ##### 📝 Recipe to avoid loosing confidence
 
-1. **Avoid being stuck to long:** Coding is tricky because you may be very close to solving a problem but you are stuck and you don't realize it. Or maybe you don't know how to start a problem but a quick 5 min talk with a mentor will clear the way. You need to ask for help no longer than 15 mins after trying on your own.
+1. **Avoid being stuck too long:** Coding is tricky because you may be very close to solving a problem but you are stuck and you don't realize it. Or maybe you don't know how to start a problem but a quick 5 min talk with a mentor will clear the way. You need to ask for help no longer than 15 mins after trying on your own.
 
 2. **Talk to other students:** You may think you are the only one that does not understand, but if you talk to a couple of class-mates you'll see they are just like you, it will give you the confidence to ask questions.
 

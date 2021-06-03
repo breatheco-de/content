@@ -181,7 +181,7 @@ Keep in mind that any network call could fail because of many reasons, we should
 
 ## Promises
 ***
-A promise is nothing more than the result of an asynchronous operation. It represents the completion or failure of that result in from of object provided by the promise.
+A promise is nothing more than the result of an asynchronous operation. It represents the completion or failure of that result in form of object provided by the promise.
 
 #### A promise has 3 different states:
 + ***Pending***: promise result has not been determined yet because the asynchronous operation has not been completed.
@@ -191,15 +191,15 @@ A promise is nothing more than the result of an asynchronous operation. It repre
 
 ***This is how a promise can be created*** 
 ```javascript
-var myPomise = new Promise(function(resolve, reject) {
+var myPromise = new Promise(function(resolve, reject) {
   setTimeout(function() {
     resolve("I was resolved");
   }, 300);
 });
-myPomise.then((obj) => {
+myPromise.then((obj) => {
   console.log(obj);
 });
-console.log(myPomise);
+console.log(myPromise);
 
 /*CONSOLE OUTPUT:
 	>promise object //it will return a promise object
@@ -234,7 +234,7 @@ console.log(myPomise);
 + ***reject***: it returns an already rejected promise with a reason.
 
 ```javascript
-	Promise.reject(new Error("I was rejected")).then(error => console.log(error));
+	Promise.reject(new Error("I was rejected")).catch(error => console.log(error));
 ```
 ***
 

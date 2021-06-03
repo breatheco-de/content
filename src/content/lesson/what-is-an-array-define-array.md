@@ -94,9 +94,9 @@ var myArray = ['Pedro','Juan','Maria'];
     console.log(myArray); //this will print ['Pedro','Juan','Maria','Chris'];
 ```
 
-But…what if I want to add Chris in the second position?
+But… what if I want to add Chris in the second position?
 
-Then…you need to create a new empty array and start pushing the elements in the order that you need them.  In this case it will be:
+Then… you need to create a new empty array and start pushing the elements in the order that you need them.  In this case it will be:
 
 ```javascript
 var myArray = ['Pedro','Juan','Maria'];
