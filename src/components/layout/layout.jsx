@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import SEO from '../seo';
 import Navbar from '../Navbar.js';
+import Footer from '../Footer.js';
 import { StaticQuery, graphql } from 'gatsby';
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -36,6 +37,7 @@ export const Layout = ({ children, seo }) => (
             {children}
             </div>
         </div>
+        <Footer/>
       </div>
    )}}
  />
