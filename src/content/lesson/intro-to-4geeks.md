@@ -23,7 +23,7 @@ You are also here because you need help, not only technical help but also spirit
 
 > The biggest wall to become a developer is not in the syllabus or content but in your mind.
 
-We are about to change the way your learn, they way you approach life, they way you sell yourself (therefore see yourself), we are tearing down old misconceptions about yourself, others and your professional life.
+We are about to change the way you learn, the way you approach life, the way you sell yourself (therefore see yourself), we are tearing down old misconceptions about yourself, others and your professional life.
 
 ### We are here to tear down the 💻 3 Walls Towards Code 
 
@@ -33,7 +33,7 @@ During the past years we have identified specific reasons that cause students to
 
 ![Impostor Syndrome](../../assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png)
 
-At some point in our lives (some more than others) we all have thought we are the most stupid person in a room, if we keep thinking that for a long time and we don't get comfortable on any discipline we may even think that we are not that smart. BULLSHIT! You are a part of this school, we do not accept people that we don't think are smart enough to make a living as a developer, you need to believe that, specially on tough times!
+At some point in our lives (some more than others) we all have thought we are the most stupid person in a room, if we keep thinking that for a long time and we don't get comfortable on any discipline we may even think that we are not that smart. BULLSHIT! You are a part of this school, we do not accept people that we don't think are smart enough to make a living as a developer, you need to believe that, especially on tough times!
 
 > If a particular exercise or project is hard, instead of thinking you are not good at this, look for new ways of absorbing the content. Talk to a mentor and we'll give you exactly what you need.
 
@@ -75,7 +75,7 @@ These are not small numbers, 60% in a day and 90% if you don't practice for a we
 
 3. **Don't miss class:** Missing classes is our biggest concern, we are very concerned about attendancy because it has show that is the #1 deterrent to your motivation, missing two classes in a row is the perfect storm. You will need to have 1-on-1 mentoring and double the hours thru that week to avoid staying behind.
 
-4. **Get involved:** Just coming to class will not be enough, humans are emotional creatures, information attaches better to your brain when you are engaged, emotional, coming to events and study groups, publicly speaking about it, etc. 
+4. **Get involved:** Just coming to class will not be enough, humans are beautiful emotional creatures, information attaches better to your brain when you are engaged, emotional, coming to events and study groups, publicly speaking about it, etc. 
 
 ## What next?
 
