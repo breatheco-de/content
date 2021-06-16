@@ -108,7 +108,7 @@ var myNewArray = [];
 ## Eliminando Elementos (función pop)
 ***
 
-Eliminar un elemento tiene exactamente las mismas limitaciones que al agregar un elemento: solo puedes eliminar un elemento de la última posición con la función pull (). Si deseas eliminar un elemento diferente, deberás crear un nuevo array sin ese elemento en particular.
+Eliminar un elemento tiene exactamente las mismas limitaciones que al agregar un elemento: solo puedes eliminar un elemento de la última posición con el método pop(). Si deseas eliminar un elemento diferente, deberás crear un nuevo array sin ese elemento en particular.
 
 ```javascript
 var myArray = ['Pedro','Chris','Juan','Maria'];

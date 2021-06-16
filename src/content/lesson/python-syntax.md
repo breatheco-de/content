@@ -95,18 +95,6 @@ from package1.module2 import function1
 
 What NPM is for Javascript, PIP is for Python.  Both beasts are amazing but very different inside.  The biggest difference being that NPM packages are downloaded locally to a "node_modules" folder while PIP packages are installed on the entire machine – outside the project folder.  Another small difference is that NPM uses a package.json and PIP uses a requirements.txt file.
 
-<br>
-<br>
-
-#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) With Python
-
-```python
-# In python subtracting strings will throw an error, instead you should do: 
-
-result = int('5') - int('2') 
-#result now is equal to 3
-
-```
 
 <br>
 <br>

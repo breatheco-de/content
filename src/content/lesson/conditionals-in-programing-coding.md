@@ -131,6 +131,6 @@ let age = 14;
 let alertHTMLCode = (age < 16) ? "<div>Warning! You cannot drive</div>" : "";
 ```
 
-Now our `alertHTMLCode` variable will be empty if the user age is less than 16, if it's more it will contain the entire HTML.
+Now our `alertHTMLCode` variable will be empty if the user age is greater than 16, if it's less it will contain the entire HTML.
 
 <script async src="//jsfiddle.net/BreatheCode/bycgsnqt/7/embed/js,html,result/"></script>
