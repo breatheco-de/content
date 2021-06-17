@@ -5,14 +5,14 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/breatheco-de/content.git)
 
-CMS for the BreatheCode Platform
+CMS for the #BreatheCode Platform
 
-Here is an API of all  the lessons on the platform: https://content.breatheco.de/static/api/lessons.json
+Here is an API of all the lessons on the platform: https://content.breatheco.de/static/api/lessons.json
 
 ## Requirements:
 
 #### 1) Markdown based
-All the content must be markdown based, to create new articles all you have to do is add a new .md file in markdown syntax.
+All the content must be markdown based, to create new articles all you must do is add a new .md file in markdown syntax.
 
 #### 2) About the URLS
 
@@ -34,19 +34,19 @@ Note: more types of content can be added in the future.
 This list of contents is just a draft, some can be deleted or more can be added.
 
   1. Lessons: Long articles explaining big concepts like: HTML, JS Events, CSS Selectors, etc.
-  2. Error: Explanation of a particular error that typically occurs when coding, for example: "Cannot do .map of undefined"
+  2. Error: Explanation of a particular error that typically occurs when coding, for example: "Cannot do map of undefined"
   3. How To: Small articles/videos on different shot how to's, like: How to start a new react.js project.
 
 ### Tagging content:
 
-Contents can be tagged on the header of the markdown file, you can add as many tags as you want and later people will be able to search by tag.
+Contents can be tagged on the header of the markdown file; you can add as many tags as you want and later people will be able to search by tag.
 
 There are two types of tags: Technology and Category.
 
 
 ### Command Line Interface:
 
-A small command-line tool has been developed to help manage the lessons
+A small command-line tool has been developed to help manage the lessons.
 
 ```
 $ node ./src/utils/cli.js update_lesson --slug all --statusTo draft --statusFrom null
