@@ -94,18 +94,6 @@ Lo que es NPM es para Javascript, PIP es para Python. Ambas bestias son increíb
 <br>
 <br>
 
-#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
-
-```python
-# En Python sustraer strings producirá un error, en lugar de eso debes hacer:
-
-result = int('5') - int('2'); 
-#el resultado ahora es igual a 3
-```
-
-<br>
-<br>
-
 
 ### Analizando tipos de datos
 ***

@@ -1,6 +1,6 @@
 ---
 title: " Understanding Rest APIs"
-subtitle: "It seems to be only the beginning of the API revolution! The path of humanity drives towards the API's architecture...you can learn any language or tool, but this is one of those few specialties that will guarantee you a well paid job for the next 60 years, So get comfortable with REST API. :)"
+subtitle: "It seems to be only the beginning of the API revolution! The path of humanity drives towards the API's architecture...you can learn any language or tool, but this is one of those few specialties that will guarantee you a well paid job for the next 60 years, so get comfortable with REST API. :)"
 cover_local: "../../assets/images/b929f233-00b2-406f-87a5-ee74146cfd85.jpeg"
 video: "https://www.youtube.com/watch?v=s7wmiS2mSXY"
 textColor: "white"
