@@ -81,7 +81,7 @@ export const ContextWrapper = (props) => {
 		todos: ["Make the bed", "Take out the trash"]
 	});
 	const [ actions, setActions ] = useState({
-		addTask: title => this.setState({ todos: this.state.todos.concat(title) })
+		addTask: title => setStore({ ...store, todos: store.todos.concat(title) })
 	});
 	
 	return (
