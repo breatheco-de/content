@@ -15,7 +15,7 @@ In this article I'm going to try explain why it works and how you can do it.
 
 ## What is Learn In Public
 
-Learning in private: The traditional educational system is designed to be a private experience, you read books, attend to class, complete projects and assesments, and you graduate at some point, we are so used to this workflow that its already embeded into our student heart.
+Learning in private: The traditional educational system is designed to be a private experience, you read books, attend to class, complete projects and assessments, and you graduate at some point, we are so used to this workflow that its already embedded   into our student heart.
 
 When you learn in public you make social media, your notebook and discussion forum, you write about what you just learn in different ways like blog posts, tweets, newsletters, drawings, meme's, etc.
 
@@ -24,9 +24,9 @@ When you learn in public you make social media, your notebook and discussion for
 - When you write things down, your brain absorbs better.
 - Talking about it forces you to organize your thoughts and understand it better.
 - Your family and friends will start trusting your skills: After a while, they will start seeing you as an small expert on the matter, they will come to you for advice, recomendations or to hire your services.
-- Sharing is a support system: The impostor sindrome is no joke, when you are open and share your struggles publicly you will find others (probably many others) like you, it will calm you down because you know its normal and it will give you the strenght to continue. 
+- Sharing is a support system: The impostor syndrome is no joke, when you are open and share your struggles publicly you will find others (probably many others) like you. It will calm you down because you know its normal and it will give you the strenght to continue. 
 - Rank better on the job portals: Websites like LinkedIn make your profile more visible when you publish often, boosting your reach exponentially.
-- Recruiters will find you: Time after time at @4geeksAcademy we have find out that students learning in public get hired a lot faster, recruiters eventually start find out and contact them with job opportunities.
+- Recruiters will find you: Time after time at @4geeksAcademy we have noticed that students learning in public get hired a lot faster. Recruiters eventually notice and contact them with job opportunities.
 
 ## How to start learning in public?
 
@@ -35,7 +35,7 @@ When you learn in public you make social media, your notebook and discussion for
 - Every time you build a project make sure to publish it on your social networks, [here is an example post from one of 4Geeks Academy students](https://www.linkedin.com/feed/update/urn:li:activity:6750086679345815552/).
 - Join [#100DaysOfCode](https://www.100daysofcode.com/) and be public on twitter, instagram and/or LinkedIn about it, there is a lot people following that challenge and you can join the discussion and collaboration!
 - Open a youtube channel: Start publishing videos about your learning process.
-- Start a blog: Use medium (recommended), reddit or build your own blog platform and start publishing weekly posts about the thinkgs you are learning.
+- Start a blog: Use medium (recommended), reddit or build your own blog platform and start publishing weekly posts about the things you are learning.
 - Reach out to developers you admire: If you liked a video, write something to the author; If you like a library, make a Pull Request fixing a misspell or enhancing the documentation or coding a new feature!
 - Join events and conferences: Meet with other developers and oportunities will start coming in.
 
