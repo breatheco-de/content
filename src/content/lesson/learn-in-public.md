@@ -15,7 +15,7 @@ In this article I'm going to try explain why it works and how you can do it.
 
 ## What is Learn In Public
 
-Learning in private: The traditional educational system is designed to be a private experience, you read books, attend to class, complete projects and assesments, and you graduate at some point, we are so used to this workflow that its already embeded into our student heart.
+Learning in private: The traditional educational system is designed to be a private experience, you read books, attend to class, complete projects and assessments, and you graduate at some point, we are so used to this workflow that its already embedded   into our student heart.
 
 When you learn in public you make social media, your notebook and discussion forum, you write about what you just learn in different ways like blog posts, tweets, newsletters, drawings, meme's, etc.
 
