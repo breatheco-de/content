@@ -120,7 +120,7 @@ ReactDOM.render(<MyView />, document.querySelector("#app"));
 ```js
 // Step 4: Add the Context.Consumer tag to any component
 
-import React from 'react';
+import React, { useContext } from 'react';
 import { AppContext } from 'path/to/AppContext.js';
 
 export const TodoList = () => {
