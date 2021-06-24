@@ -118,39 +118,16 @@ ReactDOM.render(<MyView />, document.querySelector("#app"));
 // Step 4: Add the Context.Consumer tag to any component
 
 import React from 'react';
-
 import { AppContext } from 'path/to/AppContext.js';
 
-export const TodoList = () => (
-	<AppContext.Consumer>
-	    { (context) => (
-		<div>
-			{context.store.todos.map((task, i) => (<li>{task}</li>))}
-			<button onClick={() => context.actions.addTask("I am the task " + context.todos.length)}> + add </button>
-		</div>
-	    )}
-	</AppContext.Consumer>
-);
+export const TodoList = () => {
+	const context = useContext(AppContext)
+	return <div>
+		{context.store.todos.map((task, i) => (<li>{task}</li>))}
+		<button onClick={() => context.actions.addTask("I am the task " + context.todos.length)}> + add </button>
+	</div>
+}
 ```
-
-OR
-
-```js
-import React from 'react';
-import { AppContext } from 'path/to/AppContext.js';
-
-export const TodoList = () => (
-	<AppContext.Consumer>
-	    { ({ store, actions}) => ( //Object deconstruction for faster coding
-		<div>
-			{store.todos.map((task, i) => (<li>{task}</li>))}
-			<button onClick={() => actions.addTask("I am the task " + context.todos.length)}> + add </button>
-		</div>
-	    )}
-	</AppContext.Consumer>
-);
-```
-
 
 ## Test the code live
 
