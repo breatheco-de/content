@@ -118,41 +118,18 @@ ReactDOM.render(<MyView />, document.querySelector("#app"));
 - **Paso 4**: Ahora podemos crear el componente ```TodoList``` sabiendo que podemos usar el ```Context.Consumer``` para leer el store desde el **global state** (no se necesitan props). En este caso el componente renderizará los to-dos y también podrá añadir nuevas tareas a lista.
 
 ```js
-// Step 4: Agrega la etiqueta Context.Consumer a cualquier componente
+// Step 4: Add the Context.Consumer tag to any component
 
 import React from 'react';
-
 import { AppContext } from 'path/to/AppContext.js';
 
-export const TodoList = () => (
-	<AppContext.Consumer>
-	    { (context) => (
-		<div>
-			{context.store.todos.map((task, i) => (<li>{task}</li>))}
-			<button onClick={() => context.actions.addTask("I am the task " + context.todos.length)}> + add </button>
-		</div>
-	    )}
-	</AppContext.Consumer>
-);
-```
-
-O
-
-```js
-import React from 'react';
-
-import { AppContext } from 'path/to/AppContext.js';
-
-export const TodoList = () => (
-	<AppContext.Consumer>
-	    { ({ store, actions}) => ( //Object deconstruction for faster coding
-		<div>
-			{store.todos.map((task, i) => (<li>{task}</li>))}
-			<button onClick={() => actions.addTask("I am the task " + context.todos.length)}> + add </button>
-		</div>
-	    )}
-	</AppContext.Consumer>
-);
+export const TodoList = () => {
+	const context = useContext(AppContext)
+	return <div>
+		{context.store.todos.map((task, i) => (<li>{task}</li>))}
+		<button onClick={() => context.actions.addTask("I am the task " + context.todos.length)}> + add </button>
+	</div>
+}
 ```
 
 
