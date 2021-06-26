@@ -149,7 +149,7 @@ INSERT INTO USER (ssn,username,email) VALUES ('234-45-3342','alesanchezr','a@bre
 
 #### UPDATE:
 
-Actualiza un registro o una fila de una tabla específica. Debes proporcionar una o varias condiciones para identificar las filas específicas que desea actualizar
+Actualiza un registro o una fila de una tabla específica. Debes proporcionar una o varias condiciones para identificar las filas específicas que desea actualizar.
 
 ```sql
 UPDATE table_name SET column1 = value1 WHERE [condition]
