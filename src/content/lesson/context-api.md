@@ -76,25 +76,19 @@ import React from 'react';
 
 export const AppContext = React.createContext(null);
 
-export class ContextWrapper extends React.Component {
-	constructor() {
-	    super();
-	    this.state = {
-		store: {
-			todos: ["Make the bed", "Take out the trash"]
-		},
-		actions: {
-			addTask: title => this.setState({ todos: this.state.todos.concat(title) })
-		}
-	    };
-	}
-	render() {
-		return (
-		<AppContext.Provider value={this.state}>
-	        	{this.props.children}
+export const ContextWrapper = (props) => {
+	const [ store, setStore ] = useState({
+		todos: ["Make the bed", "Take out the trash"]
+	});
+	const [ actions, setActions ] = useState({
+		addTask: title => setStore({ ...store, todos: store.todos.concat(title) })
+	});
+	
+	return (
+		<AppContext.Provider value={{ store, actions }}>
+			{props.children}
 		</AppContext.Provider>
-		);
-	}
+	);
 }
 ```
 
@@ -123,41 +117,18 @@ ReactDOM.render(<MyView />, document.querySelector("#app"));
 ```js
 // Step 4: Add the Context.Consumer tag to any component
 
-import React from 'react';
-
+import React, { useContext } from 'react';
 import { AppContext } from 'path/to/AppContext.js';
 
-export const TodoList = () => (
-	<AppContext.Consumer>
-	    { (context) => (
-		<div>
-			{context.store.todos.map((task, i) => (<li>{task}</li>))}
-			<button onClick={() => context.actions.addTask("I am the task " + context.todos.length)}> + add </button>
-		</div>
-	    )}
-	</AppContext.Consumer>
-);
+export const TodoList = () => {
+	const context = useContext(AppContext)
+	return <div>
+		{context.store.todos.map((task, i) => (<li>{task}</li>))}
+		<button onClick={() => context.actions.addTask("I am the task " + context.todos.length)}> + add </button>
+	</div>
+}
 ```
-
-OR
-
-```js
-import React from 'react';
-import { AppContext } from 'path/to/AppContext.js';
-
-export const TodoList = () => (
-	<AppContext.Consumer>
-	    { ({ store, actions}) => ( //Object deconstruction for faster coding
-		<div>
-			{store.todos.map((task, i) => (<li>{task}</li>))}
-			<button onClick={() => actions.addTask("I am the task " + context.todos.length)}> + add </button>
-		</div>
-	    )}
-	</AppContext.Consumer>
-);
-```
-
 
 ## Test the code live
 
-<iframe src="https://codesandbox.io/embed/w75wq6v01k?hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<iframe src="https://codesandbox.io/embed/w75wq6v01k?fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
