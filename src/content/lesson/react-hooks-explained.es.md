@@ -63,7 +63,7 @@ Básicamente, `mySuperVariable` se inicializa con `null` y luego tu podrás rest
 | 3. Mostrar una entrada en la pantalla: La mejor práctica para obtener el contenido de cualquier entrada es almacenarla en una variable del state, esto se denomina "Entrada controlada", [haz clic aquí para ver un ejemplo de entrada controlada](https://codesandbox.io/s/brave-albattani-irhy7?fontsize=14) | ![Controlled Input con React](https://ucarecdn.com/d1347307-d440-464f-a793-7a457e9903ad/controlledinputreact.gif) |
 | 4. Apertura/cierre (mostrar / ocultar): un caso típico es tener un diálogo que hace una pregunta o tal vez algún formulario de suscripción a un boletín, [haz click aquí para ver el ejemplo](https://codesandbox.io/s/modal-window-component-with-hooks-vb6de?fontsize=14). | ![Ventana modal utilizando react hooks](https://ucarecdn.com/03d2c2c4-f510-4088-9bb0-1665dbfe8a68/modalwindowhooks.gif) |
 
-| 5. Miles de otras posibles aplicasiones. | |
+| 5. Miles de otras posibles aplicaciones. | |
 
 Vamos a explicar este hook con una pequeña ventana modal de ejemplo, aquí está el código:
 
