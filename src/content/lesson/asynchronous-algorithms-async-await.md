@@ -344,7 +344,7 @@ const handlingAllPromises = async () => {
 A good way of handling errors in async functions is to use the try ... catch statements.
 
 ```javascript
-async function handeErrors() {
+async function handleErrors() {
   let msg;
   try {
     msg = await promise1(); //notice this method is already written in your application
