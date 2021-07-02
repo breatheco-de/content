@@ -42,7 +42,7 @@ if (expresion) {
 }
 ```
 
-Se evalua la expresión indicada en la sentencia if. En el caso de que la expresión sea true se ejecutará el bloque de sentencias then y en el caso de que la expresión sea false se ejecutará el bloque de sentencias else.
+Se evalúa la expresión indicada en la sentencia if. En el caso de que la expresión sea true se ejecutará el bloque de sentencias then y en el caso de que la expresión sea false se ejecutará el bloque de sentencias else.
 
 La parte del else no tiene por qué existir. En este caso tendríamos una sentencia if-then.
 
