@@ -71,7 +71,7 @@ Para que un sitio web se vea como los sitios web de la actualidad, tenemos que r
 |Relative    |Similar a absolute.  La principal diferencia es que no se ignora su posición en el documento.  La caja a la que le apliques este atributo se va a ubicar de acuerdo a los atributos top, left, right y bottom, pero tomando como referencia a su elemento padre (el elemento donde está contenida) como punto de partida.    |
 |Fixed     |Se utiliza cuando queremos que un elemento permanezca en la misma posición mientras el usuario navega dentro de la página.  Si haces scroll, el elemento permanecerá en la misma posición. Fixed se puede utilizar para las ventanas modales (PopUps), menú de navegación, etc.    |
 
-Espera!!  Si no entendiste bien lo que acabamos de decir, bueno……realmente no importa (en este punto).  Este es una de las cosas que necesitamos que practiques mucho para entenderla.  No hay otra opción. 🙁
+¡¡Espera!!  Si no entendiste bien lo que acabamos de decir, bueno... realmente no importa (en este punto).  Esta es una de las cosas que necesitamos que practiques mucho para entenderla.  No hay otra opción. 🙁
 
 ## Atributo: Display
 ***
