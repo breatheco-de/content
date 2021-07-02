@@ -79,7 +79,7 @@ The whole idea is to have a library of hundreds of functions and use them as we 
 
 ## But, why using Functions instead of just doing everything in one big chunk of code?
 
-Coding is very abstract and it happens a lot that you have no idea what your wrote yesterday. Before functions existed, algorithms were this huge never-ending series of lines of code where developers would have a hard time and get lost.  It is hard for your brain to follow a procedure/algorithm of great length; the more lines of code, the more abstract it becomes.
+Coding is very abstract and it happens a lot that you have no idea what you wrote yesterday. Before functions existed, algorithms were this huge never-ending series of lines of code where developers would have a hard time and get lost.  It is hard for your brain to follow a procedure/algorithm of great length; the more lines of code, the more abstract it becomes.
 
 By using functions you have the following advantages:
 
