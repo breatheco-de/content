@@ -26,7 +26,7 @@ A web developer makes around $65k per year in the US. In Florida, numbers are a 
     <img class="my-class" src="../../assets/images/75ca521c-2ea0-4a7d-ad05-6717200d8553.png" width="300">
 </p>
 
-Around 90% of our students find a job after graduation. It normally takes 100 days to land your first job, and we will not rest until we make that happen. 
+Around 90% of our students find a job after graduation. It normally takes 100 days to land your first job, and we will not rest until we make that happen :) 
 <p style="text-align:center">
     <img class="my-class" src="../../assets/images/18da88b0-403c-4330-a7d6-661307f062e5.png" width="300">
 </p>
