@@ -39,7 +39,7 @@ At some point in our lives (some more than others) we all have thought we are th
 
 Every average person can learn to code to a point of being useful, coding gets more complicated when you specialize further in your career (Like A.I., Robotics, etc.), but you can make good money without having to study Math, without being good at numbers or without learning as fast as others (we may be able to fix that, by the way).
 
-##### 📝 Recipe to avoid loosing confidence
+##### 📝 Recipe to avoid losing confidence
 
 1. **Avoid being stuck too long:** Coding is tricky because you may be very close to solving a problem but you are stuck and you don't realize it. Or maybe you don't know how to start a problem but a quick 5 min talk with a mentor will clear the way. You need to ask for help no longer than 15 mins after trying on your own.
 
@@ -53,7 +53,7 @@ During all your life you've learned the same way, the educational system has put
 
 We know how to train you: we have done it over and over again, but we'll train in such a different way that you may not like it at first, it's only normal that your mind will want to go back to learning "slow but safe", without having to be uncomfortable or constantly challenged by our system.
 
-##### 📝 Recipe to avoid loosing trust in our methods
+##### 📝 Recipe to avoid losing trust in our methods
 
 1. **Follow the method!** How can you know if it works if you don't try it properly? Do the homework BEFORE coming to class (flipped classroom), follow the syllabus in the recommended order, do the small exercises before jumping to the projects, come to every class, don't read books that will slow you down, etc.
 
