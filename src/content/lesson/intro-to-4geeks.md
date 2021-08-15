@@ -13,11 +13,11 @@ cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 
 Welcome!! 🤩👏 My name is Alejandro and I'm writing these words after years of teaching code and changing lives. Please I beg you to read until the end, I will try my best not to bore you!
 
-## What you already know
+## What you already know?
 
 You are here to develop your coding skills to a point were you can be useful to society in order to: 1️⃣ Get a job, 2️⃣ Create your own company or/and 3️⃣ Adapt better to the now world.
 
-## What you did not know
+## What you did not know?
 
 You are also here because you need help, not only technical help but also spiritual help, and I say this in the most pragmatic way possible.
 
@@ -39,7 +39,7 @@ At some point in our lives (some more than others) we all have thought we are th
 
 Every average person can learn to code to a point of being useful, coding gets more complicated when you specialize further in your career (Like A.I., Robotics, etc.), but you can make good money without having to study Math, without being good at numbers or without learning as fast as others (we may be able to fix that, by the way).
 
-##### 📝 Recipe to avoid loosing confidence
+##### 📝 Recipe to avoid losing confidence
 
 1. **Avoid being stuck too long:** Coding is tricky because you may be very close to solving a problem but you are stuck and you don't realize it. Or maybe you don't know how to start a problem but a quick 5 min talk with a mentor will clear the way. You need to ask for help no longer than 15 minutes after trying on your own.
 
