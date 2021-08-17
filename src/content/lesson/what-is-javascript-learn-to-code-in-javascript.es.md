@@ -78,7 +78,7 @@ Como aprendimos anteriormente, usamos la palabra clave `var` para declarar una v
 [[info]]
 |:link: [Lee más sobre `*var*`, `let` y `const`](http://wesbos.com/let-vs-const/)
 
-Los valores de las variables están sujetos a cambios en el tiempo. Para recuperar un valor variable, puede imprimir el valor en la pantalla en cualquier momento. Cada idioma tiene sus propios métodos para imprimir; así es como lo haces en JavaScript:
+Los valores de las variables están sujetos a cambios en el tiempo. Para recuperar un valor variable, puede imprimir el valor en la pantalla en cualquier momento. Cada lenguaje de programación tiene sus propios métodos para imprimir; así es como lo haces en JavaScript:
 
 <iframe src="https://repl.it/F0R2/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
@@ -97,7 +97,7 @@ Las variables pueden tener diferentes tipos de valores. Algunos de ellos están 
 |Número    |Solo números     |Números enteros, números negativos, números decimales, decimales, etc. Todos los tipos posibles de números. <br> Nota: Si incluye un número entre comillas, JavaScript lo tratará como una cadena. |
 |Indefinido     |El vacío     |Cuando una variable no tiene un valor asignado, queda indefinida.   |
 |Array    |Una lista con cualquier tipo de valores.   |Una sucesión de cualquier tipo de valores. Pueden ser tipos mixtos de valores; por ejemplo: [2, 3, ‘Word’, 2, 1, null, 232, 5, 3, 23, 234, 5, ‘hello’].     |
-|Objetos    |Cualquier objeto    |Puedes crear tus propios tipos de datos con operaciones más complejas. Hablaremos más sobre esto más adelante.  |
+|Objetos    |Cualquier objeto    |Puedes crear tus propios tipos de datos con operaciones más complejas. Hablaremos sobre este tema más a profundidad, más adelante.  |
 |Nulo     |Sólo nulo    |Se utiliza para especificar cuándo la base de datos o cualquier otra función no devuelve nada.   |
 
 <iframe src="https://repl.it/F05K/3?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
@@ -115,7 +115,7 @@ Las variables pueden tener diferentes tipos de valores. Algunos de ellos están 
 + Los números son fáciles - puedes hacer cualquier operación matemática que desees.
 + Los strings se pueden concatenar (fusionar), dividir, convertir a mayúsculas o minúsculas, etc.
 + No se puede hacer mucho con los tipos de datos nulos, booleanos o indefinidos.
-+ Hablaremos de Arrays y Objetos en una otra sección. Requieren de mucha más atención.
++ Hablaremos de Arrays y Objetos en otra sección. Requieren de mucha más atención.
 
 ## Funciones
 ***
