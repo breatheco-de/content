@@ -92,9 +92,9 @@ You can **move the head** if you want.  It does not necessarily have to always b
 
 Heads mark the beginning of a revision history.  In GIT, we call the "revision history" a "branch," and it is possible to have several revision histories.
 
-By default, every repository has one branch called Master, with its corresponding HEAD that points to the last commit of that branch.
+By default, every repository has one branch called Master (or Main), with its corresponding HEAD that points to the last commit of that branch.
 
-Example: Let’s say that you are starting to develop the "Login" feature/functionality of a website.  You can create a new "branch" of the repository called "login" so that your commits are not part of the main revision history of the project.  Once you are comfortable with your code, you can then *merge* your branch and delete your head.  This will reset the main HEAD of the master branch to the last commit you made and add your new code to the main branch (master) of the repository.
+Example: Let’s say that you are starting to develop the "Login" feature/functionality of a website.  You can create a new "branch" of the repository called "login" so that your commits are not part of the main revision history of the project.  Once you are comfortable with your code, you can then *merge* your branch and delete your head.  This will reset the main HEAD of the master (or main) branch to the last commit you made and add your new code to the master (or main) branch of the repository.
 
 ![how to use git](../../assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif)
 
