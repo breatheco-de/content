@@ -289,9 +289,7 @@ for(items in perro){
 }
 ```
 
-## Entonces ... dime, ¿te gustó la programción?
+## Entonces ... dime, ¿te gustó la programación?
 ***
 
 La programación es como Taco Bell: siempre se usan los mismos ingredientes pero se mezclan de diferentes maneras. Sabes cómo escribir código, pero ... ¿sabes cómo resolver problemas reales?
-
-
