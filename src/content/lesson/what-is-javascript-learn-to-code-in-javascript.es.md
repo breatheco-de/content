@@ -67,7 +67,7 @@ var b ;
 ### `var` vs.  `let`  vs. `const`
 ***
 
-Como aprendimos anteriormente, usamos la palabra clave `var` para declarar una variable. Hay otras dos palabras claves que también podemos usar para declarar variables: ***const & let***. Las principales diferencias entre estos tipos de variables tienen que ver con subtitle alcance.
+Como aprendimos anteriormente, usamos la palabra clave `var` para declarar una variable. Hay otras dos palabras claves que también podemos usar para declarar variables: ***const & let***. Las principales diferencias entre estos tipos de variables tienen que ver con el alcance.
 
 ***Const***:  Esta palabra clave se utiliza cuando el valor permanece constante durante toda la vida del script. El valor de la variable declarada con esta palabra clave nunca se puede cambiar. Si intentas cambiarlo, se producirá un error.
 
