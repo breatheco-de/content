@@ -1,21 +1,19 @@
 ---
-title: "Introduction to 4Geeks Academy"
-subtitle: "I hope you read this entire article, this reading summarizes in 8 min the recipe to take full advantage of the academy. The most effective way!"
-textColor: "white"
-status: "published"
-tags: ["best practices"]
-authors: ["alesanchezr"]
-date: "2020-10-19T16:36:31+00:00"
+Title: "Introduction to 4Geeks Academy"
+Subtitle: "I hope you read this entire article, this reading summarizes in 8 min the recipe to take full advantage of the academy. The most effective way!"
+Text Color: "white"
+Status: "published"
+Tags: ["best practices"]
+Authors: ["alesanchezr"]
+Date: "2020-10-19T16:36:31+00:00"
 canonical: ""
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
-
 ---
-
 Welcome!! 🤩👏 My name is Alejandro and I'm writing these words after years of teaching code and changing lives. Please I beg you to read until the end, I will try my best not to bore you!
 
 ## What you already know
 
-You are here to develop your coding skills to a point were you can be useful to society in order to: 1️⃣ Get a job, 2️⃣ Create your own company or/and 3️⃣ Adapt better to the now world.
+You are here to develop your coding skills to a point where you can be useful to society in order to: 1️⃣ Get a job, 2️⃣ Create your own company or/and 3️⃣ Adapt better to the now world.
 
 ## What you did not know
 
@@ -25,7 +23,7 @@ You are also here because you need help, not only technical help but also spirit
 
 We are about to change the way you learn, the way you approach life, the way you sell yourself (therefore see yourself), we are tearing down old misconceptions about yourself, others and your professional life.
 
-### We are here to tear down the 💻 3 Walls Towards Code 
+### We are here to tear down the 💻 3 walls towards code 
 
 During the past years we have identified specific reasons that cause students to stop trying to be a developer or fail to complete the course or get a job. 
 
@@ -49,11 +47,11 @@ Every average person can learn to code to a point of being useful, coding gets m
 
 #### Wall #2: Trust ✝
 
-During all your life you've learned the same way, the educational system has put you in a box and trained you to learn slowly, limiting you ability to adapt to the new world of skilled fast-learning and self-learning professionals.
+During all your life you've learned the same way, the educational system has put you in a box and trained you to learn slowly, limiting your ability to adapt to the new world of skilled fast-learning and self-learning professionals.
 
 We know how to train you: we have done it over and over again, but we'll train in such a different way that you may not like it at first, it's only normal that your mind will want to go back to learning "slow but safe", without having to be uncomfortable or constantly challenged by our system.
 
-##### 📝 Recipe to avoid loosing trust in our methods
+##### 📝 Recipe to avoid losing trust in our methods
 
 1. **Follow the method!** How can you know if it works if you don't try it properly? Do the homework BEFORE coming to class (flipped classroom), follow the syllabus in the recommended order, do the small exercises before jumping to the projects, come to every class, don't read books that will slow you down, etc.
 
@@ -65,19 +63,19 @@ We know how to train you: we have done it over and over again, but we'll train i
 
 This is a boot-camp, it does not matter if you do it on a full-time or part-time way, you need to set the boot-camp mindset and work every day like it's the last. The Human brain absorbs 80% more we it feels challenged and scared, if you idle for a day the brain relaxes and [it's proven](https://www.youtube.com/watch?v=h5PLO4XAXhs) that you usually forget 60% of recently acquired information in just 1 day unless you use it again and again for a sequence of 7 days (at least).  
 
-These are not small numbers, 60% in a day and 90% if you don't practice for a week. You are waisting your time and money if you don't take the course serious! 
+These are not small numbers, 60% in a day and 90% if you don't practice for a week. You are wasting your time and money if you don't take the course serious! 
 
 ##### 📝 Recipe to avoid inactivity
 
 1. **Talk to your spouse, partner and family:** You need a break from almost everything, we know life it's challenging enough already to be adding more responsibilities, but this is only for a short period of your time. Rewards are endless. Everyone needs to fall inline! Try opening up the most time you can, having a private desk to work without distraction, etc. Your home has to be in sync with this moment of your life.
 
-2. **Talk to your boss:** You may need a few extra hours, weekend time, etc. Be smart about it or he/she could sabotage it because he is afraid of loosing you.
+2. **Talk to your boss:** You may need a few extra hours, weekend time, etc. Be smart about it or he/she could sabotage it because he is afraid of losing you.
 
-3. **Don't miss class:** Missing classes is our biggest concern, we are very concerned about attendancy because it has show that is the #1 deterrent to your motivation, missing two classes in a row is the perfect storm. You will need to have 1-on-1 mentoring and double the hours thru that week to avoid staying behind.
+3. **Don't miss class:** Missing classes is our biggest concern, we are very concerned about attendance because it has shown that is the #1 deterrent to your motivation, missing two classes in a row is the perfect storm. You will need to have 1-on-1 mentoring and double the hours thru that week to avoid staying behind.
 
 4. **Get involved:** Just coming to class will not be enough, humans are beautiful emotional creatures, information attaches better to your brain when you are engaged, emotional, coming to events and study groups, publicly speaking about it, etc. 
 
-## What next?
+## What's next?
 
 Please make sure you understand how the academy works:
 
