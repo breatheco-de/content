@@ -1,11 +1,11 @@
 ---
-title: "Introduction to 4Geeks Academy"
-subtitle: "I hope you read this entire article, this reading summarizes in 8 min the recipe to take full advantage of the academy. The most effective way!"
-textColor: "white"
-status: "published"
-tags: ["best practices"]
-authors: ["alesanchezr"]
-date: "2020-10-19T16:36:31+00:00"
+Title: "Introduction to 4Geeks Academy"
+Subtitle: "I hope you read this entire article, this reading summarizes in 8 min the recipe to take full advantage of the academy. The most effective way!"
+Text Color: "white"
+Status: "published"
+Tags: ["best practices"]
+Authors: ["alesanchezr"]
+Date: "2020-10-19T16:36:31+00:00"
 canonical: ""
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 
@@ -15,7 +15,7 @@ Welcome!! 🤩👏 My name is Alejandro and I'm writing these words after years 
 
 ## What you already know
 
-You are here to develop your coding skills to a point were you can be useful to society in order to: 1️⃣ Get a job, 2️⃣ Create your own company or/and 3️⃣ Adapt better to the now world.
+You are here to develop your coding skills to a point where you can be useful to society in order to: 1️⃣ Get a job, 2️⃣ Create your own company or/and 3️⃣ Adapt better to the now world.
 
 ## What you did not know
 
@@ -25,7 +25,7 @@ You are also here because you need help, not only technical help but also spirit
 
 We are about to change the way you learn, the way you approach life, the way you sell yourself (therefore see yourself), we are tearing down old misconceptions about yourself, others and your professional life.
 
-### We are here to tear down the 💻 3 Walls Towards Code 
+### We are here to tear down the 💻 3 walls towards code 
 
 During the past years we have identified specific reasons that cause students to stop trying to be a developer or fail to complete the course or get a job. 
 
@@ -39,7 +39,7 @@ At some point in our lives (some more than others) we all have thought we are th
 
 Every average person can learn to code to a point of being useful, coding gets more complicated when you specialize further in your career (Like A.I., Robotics, etc.), but you can make good money without having to study Math, without being good at numbers or without learning as fast as others (we may be able to fix that, by the way).
 
-##### 📝 Recipe to avoid loosing confidence
+##### 📝 Recipe to avoid losing confidence
 
 1. **Avoid being stuck too long:** Coding is tricky because you may be very close to solving a problem but you are stuck and you don't realize it. Or maybe you don't know how to start a problem but a quick 5 min talk with a mentor will clear the way. You need to ask for help no longer than 15 minutes after trying on your own.
 
@@ -49,11 +49,11 @@ Every average person can learn to code to a point of being useful, coding gets m
 
 #### Wall #2: Trust ✝
 
-During all your life you've learned the same way, the educational system has put you in a box and trained you to learn slowly, limiting you ability to adapt to the new world of skilled fast-learning and self-learning professionals.
+During all your life you've learned the same way, the educational system has put you in a box and trained you to learn slowly, limiting your ability to adapt to the new world of skilled fast-learning and self-learning professionals.
 
 We know how to train you: we have done it over and over again, but we'll train in such a different way that you may not like it at first, it's only normal that your mind will want to go back to learning "slow but safe", without having to be uncomfortable or constantly challenged by our system.
 
-##### 📝 Recipe to avoid loosing trust in our methods
+##### 📝 Recipe to avoid losing trust in our methods
 
 1. **Follow the method!** How can you know if it works if you don't try it properly? Do the homework BEFORE coming to class (flipped classroom), follow the syllabus in the recommended order, do the small exercises before jumping to the projects, come to every class, don't read books that will slow you down, etc.
 
@@ -71,9 +71,9 @@ These are not small numbers, 60% in a day and 90% if you don't practice for a we
 
 1. **Talk to your spouse, partner and family:** You need a break from almost everything, we know life it's challenging enough already to be adding more responsibilities, but this is only for a short period of your time. Rewards are endless. Everyone needs to fall inline! Try opening up the most time you can, having a private desk to work without distraction, etc. Your home has to be in sync with this moment of your life.
 
-2. **Talk to your boss:** You may need a few extra hours, weekend time, etc. Be smart about it or he/she could sabotage it because he is afraid of loosing you.
+2. **Talk to your boss:** You may need a few extra hours, weekend time, etc. Be smart about it or he/she could sabotage it because he is afraid of losing you.
 
-3. **Don't miss class:** Missing classes is our biggest concern, we are very concerned about attendancy because it has show that is the #1 deterrent to your motivation, missing two classes in a row is the perfect storm. You will need to have 1-on-1 mentoring and double the hours thru that week to avoid staying behind.
+3. **Don't miss class:** Missing classes is our biggest concern, we are very concerned about attendancy because it has shown that is the #1 deterrent to your motivation, missing two classes in a row is the perfect storm. You will need to have 1-on-1 mentoring and double the hours thru that week to avoid staying behind.
 
 4. **Get involved:** Just coming to class will not be enough, humans are beautiful emotional creatures, information attaches better to your brain when you are engaged, emotional, coming to events and study groups, publicly speaking about it, etc. 
 
@@ -92,4 +92,5 @@ Please make sure you understand how the academy works:
 | ---   | ----      |
 | **Sleep:** Having a good sleep is as important as coming to class, coding is 100% intellectual, having a sharp mind is everything. | ![Sleep](../../assets/images/d29be460-cc2e-42e6-bf92-f9516fd7b21a.jpeg) |
 | **Learn how to ask:** The biggest challenge you have to address at first is learning [how to ask a question](https://content.breatheco.de/how-to/ask), picking the right works, know exactly want you want to know is the best skill for any developer. | ![How to ask](../../assets/images/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c.jpeg) |
-| **Ask questions:** Its a win-win, preparing the question will teach you, we get feedback from your understanding, it the biggest boost for your learning process. It's what you are paying for. | ![Ask questions](../../assets/images/5e975e91-1447-4117-b50b-b00df99a88a5.jpeg) |
+| **Ask questions:** It’s a win-win, preparing the question will teach you, we get feedback from your understanding, it the biggest boost for your learning process. It's what you are paying for. | ![Ask questions](../../assets/images/5e975e91-1447-4117-b50b-b00df99a88a5.jpeg) |
+
