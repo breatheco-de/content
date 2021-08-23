@@ -36,7 +36,7 @@ With virtually any programming language you can create as many variables as you 
 The **variable name** is the most effective way we have to describe the variable content, so use it wisely.  It is important to choose a name that clearly tells you (and other coders) about the data that is being stored in the variable.  If we choose a bad or an ambiguous name, our code will be almost impossible to understand, ergo it becomes unusable.  For example, let’s say we change the name of our "age" variable to `a`, that would be:
 
 ```python
-a = 24 ;
+a = 24 
 ```
 
 As you can see above, the new variable name does not tell us anything about the data that is being stored and why we are using it.
@@ -49,24 +49,24 @@ Choosing the name for your variable really matters, so we beg you not to use gen
 As developers, we can set the value of a variable at any time using the `=` operator.  You do not have to set a value when you first declare a variable.  You can set, or re-set (override) the value as many times as you want, whenever you want.  The value will always be the last one you set.  Below are a few examples on how to set values to variables:
 
 ```python
-a = 24;
-a = 25;
-a = 80;
+a = 24
+a = 25
+a = 80
 ```
 
 ### No special keywords to declare a variable
 ***
 
-Other languages lik javascript make you use a special statement before the variable name in order to "declare" the variable for the first time like this:
+Other languages like javascript make you use a special statement before the variable name in order to "declare" the variable for the first time like this:
 
-```javascript
-let age = 12;
+```py
+let age = 12
 ```
 
 Other -strongly typed- languages like Typescript also make you declare the type of value that the variable will contain inside:
 
-```typescript
-let age : number = 12;
+```py
+let age : number = 12
 ```
 
 > Note: This means that the variable age will always contain a number inside.
@@ -134,7 +134,7 @@ Then, you will open a curly bracket and write the code that your function must a
 
 ```python
 def multiply (param1, param2):
-    return param1 * param2;
+  print param1 * param2
 ```
 <iframe src="https://repl.it/F10t/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
@@ -200,12 +200,11 @@ The first tool you have is the `if…else` conditional.  It is very easy.  You c
 
 The `if` statement allows you to execute a piece of code if certain conditions are met (or are true).  The "else" statement will execute an alternate piece of code in case the condition is false.
 
-```javascript
-if (number < 18) {
-    document.write("Hello");
-} else {
-     document.write("Good bye!");
-}
+```py
+if (number < 18): 
+  print("Hello")
+ else 
+  print("Good bye!")
 ```
 
 ## Switch
@@ -230,15 +229,15 @@ Imagine you are inside an elevator – the elevator needs to loop throughout the
 
 A `while` loop will execute a block of code as long as a condition is true.  Once the condition returns false, the loop will stop executing the block of code.
 
-```javascript
-var sum = 0;
-var number = 1;
-while (number <= 50) {
-  sum += number;
-  number++;
-}
-console.log("Sum = " + sum);
+```py
+var sum = 0
+var number = 1
+while (number <= 50):
+  sum += number
+  number += 1
+print("Sum = " + sum);
 ```
+
 
 ## For
 ***
@@ -252,33 +251,34 @@ Note:  When looping, make sure that the statement will eventually return false s
 <div align="right"><small><a href="https://www.youtube.com/embed/TSMzvFwpE_A">Click here to open video in a new window</a></small></div>
 
 
-```javascript
-for (var i = 0; i < 10; i++) {
-    document.write("This is number" + " " + i);
-}
+```python
+for i in range(10):
+  print("this is number", i)
+
 ```
 
 ## For..in
 ***
 
 `For…in` loops can be to used to loop through the properties of an object.  Within the parentheses, you can set any name to represent the information within the object, and then include the name of the object:
+```py
+for var in object:
+# code block to be executed
+```
 
-for (var in object)<br> {
-code block to be executed
-}
-
-```javascript
-var dog = {
+```python
+var dog = [
   species: "Great Dane",
   size: "Extra Large",
-  age: 3 ,
+  age: "3" ,
   name: "Rocky"
+]
 
-}
 
-for(items in dog){
-  console.log(dog[items]);
-}
+
+for items in dog:
+  print(dog[items])
+
 ```
 
 ## So.. tell me, did you like coding?

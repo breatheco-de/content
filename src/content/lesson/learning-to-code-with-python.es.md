@@ -27,7 +27,7 @@ Las variables no son un concepto nuevo, cualquier que sepa matemáticas está fa
 Una variable es un contenedor en el que puedes almacenar cualquier dato. Por ejemplo puedes tener la siguiente variable:
 
 ```python
-var edad = 24;
+var edad = 24
 ```
 
 ![qué es javascript](../../assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
@@ -36,8 +36,8 @@ Casi con cualquier lenguaje de programación puedes crear tantas variables como 
 
 El **nombre de la variable** es la manera más efectiva de describir el contenido de una variable, úsalo con sabiduría. Es importante escoger un nombre que claramente te indique (a ti y a otros programadores) sobre los datos que están siendo almacenados en la variable. Si escogemos un nombre malo o ambigüo, nuestro código será casi imposible de entender, ergo se vuelve inutilizable. Por ejemplo digamos que le cambiamos el nombre a nuestra variable "edad" a "a":
 
-```javascript
-var a = 24 ;
+```py
+var a = 24 
 ```
 
 Como puedes ver, el nuevo nombre de la variable no nos dice nada sobre el dato que está siendo almacenado y por qué lo están usando.
@@ -49,14 +49,14 @@ Escoger el nombre de tu variable es muy importante, así que por favor no uses n
 
 Como desarrolladores, podemos establecer el valor de una variable usando el operador `=`. No tienes que establecer el valor de una variable cuando la declaras por primera vez. Puedes establecer o re-establecer (sobreescribir) el valor tantas veces como quieras y cuando quieras. El valor siempre el último que estableciste. A continuación hay algunos ejemplos sobre cómo establecer valores a las variables:
 
-```javascript
-var a = 24;
-  a = 25;
-  a = 80;
+```py
+var a = 24
+  a = 25
+  a = 80
 
-var b ;
-  b = 9 ;
-  b = 108 ;
+var b 
+  b = 9 
+  b = 108 
 ```
 
 ### `var` vs.  `let`  vs. `const`
@@ -133,11 +133,10 @@ Luego, abrirás una llave y escribirás el código que tu función siempre debe 
 
 ![learn to code in javascript](../../assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif)
 
-```javascript
-function multiply (param1, param2)
-{
-    return (param1 * param2);
-}
+```python
+def multiply(param1, param2):
+  print (param1 * param2)
+
 ```
 <iframe src="https://repl.it/F10t/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
@@ -201,12 +200,12 @@ Bien, ahora es cuando todo empieza a ponerse divertido! Para controlar el flujo 
 La primera herramienta que tienes es el condicional `if ... else`. Es muy fácil. Puedes decirle a la computadora que omita cualquier parte de tu código dependiendo del valor actual de tus variables.
 
 La instrucción `if` te permite ejecutar un fragmento de código si se cumplen ciertas condiciones (o si son verdaderas). La declaración "else" ejecutará un fragmento de código alternativo en caso de que la condición sea falsa.
-```javascript
-if (number < 18) {
-    document.write("Hello");
-} else {
-     document.write("Good bye!");
-}
+
+```python
+if (number < 18): 
+  print("Hello")
+  else 
+  print("Good bye!")
 ```
 
 ## Switch
@@ -232,14 +231,14 @@ Imagina que estás dentro de un ascensor: el ascensor debe girar en bucle por lo
 Un bucle `while` ejecutará un bloque de código siempre que una condición sea verdadera. Una vez que la condición sea falsa, el bucle dejará de ejecutar
 el bloque de código.
 
-```javascript
-var sum = 0;
-var number = 1;
-while (number <= 50) {
-  sum += number;
-  number++;
-}
-console.log("Sum = " + sum);
+```py
+var sum = 0
+var number = 1
+while (number <= 50):
+  sum += number
+  number += 1
+
+print("Sum = " + sum);
 ```
 
 ## For
@@ -254,33 +253,32 @@ Nota: cuando realices un bucle, asegúrate de que la declaración finalmente dev
 <div align="right"><small><a href="https://www.youtube.com/embed/TSMzvFwpE_A">Haz clic aquí para abrir el video en una nueva ventana</a></small></div>
 
 
-```javascript
-for (var i = 0; i < 10; i++) {
-    document.write("This is number" + " " + i);
-}
+```python
+for i in range(10):
+    print("this is number", i)
+
 ```
 
 ## For..in
 ***
 
 Los bucles `For… in` pueden usarse para recorrer con un bucle las propiedades de un objeto. Dentro de los paréntesis, puedes establecer cualquier nombre para representar la información dentro del objeto, y luego incluir el nombre del objeto:
+```py
+for var in object:
+# bloque de código a ejecutarse
+```
 
-for (var in object)<br> {
-bloque de código a ejecutarse
-}
-
-```javascript
-var dog = {
-  species: "Great Dane",
-  size: "Extra Large",
-  age: 3 ,
+```python
+dog = [
+  species : "Great Dane",
+  size : "Extra Large",
+  age: "3",
   name: "Rocky"
+]
 
-}
+for items in dog:
+  print(dog[items])
 
-for(items in dog){
-  console.log(dog[items]);
-}
 ```
 
 ## Entonces ... dime, ¿te gustó la programción?
