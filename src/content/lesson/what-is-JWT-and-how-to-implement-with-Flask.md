@@ -158,7 +158,7 @@ const login = (username, password) => {
           body: JSON.stringify({ username: "joe", password: "1234" }) 
      })
          .then(resp => {
-              if(resp.ok) resp.json()
+              if(resp.ok) return resp.json()
               else if(resp.status === 401){
                     console.log("Invalid credentials")
               }
