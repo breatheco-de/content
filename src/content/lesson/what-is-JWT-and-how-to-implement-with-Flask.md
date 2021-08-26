@@ -186,10 +186,13 @@ const getMyTasks = (username, password) => {
 
      fetch(`https://your_api.com/protected`, {
         method: 'GET',
-        headers: { 'Authorization': 'Bearer '+token } // ⬅ authorization token
+        headers: { 
+          "Content-Type": "application/json"
+          'Authorization': 'Bearer '+token // ⬅⬅⬅ authorization token
+        } 
      })
          .then(resp => {
-              if(resp.ok) resp.json();
+              if(resp.ok) return resp.json();
               else if(resp.status === 403){
                    console.log("Missing or invalid token");
               }
