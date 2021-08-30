@@ -112,7 +112,7 @@ def create_token():
     username = request.json.get("username", None)
     password = request.json.get("password", None)
     # Query your database for username and password
-    user = User.filter.query(username=username, password=password).first()
+    user = User.query.filter_by(username=username, password=password).first()
     if user is None:
         # the user was not found on the database
         return jsonify({"msg": "Bad username or password"}), 401
@@ -152,9 +152,13 @@ Based on the endpoints we build on earlier we have to `POST /token` with the use
 
 ```js
 const login = (username, password) => {
-     fetch(`https://your_api.com/token`)
+     fetch(`https://your_api.com/token`, { 
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ username: "joe", password: "1234" }) 
+     })
          .then(resp => {
-              if(resp.ok) resp.json()
+              if(resp.ok) return resp.json()
               else if(resp.status === 401){
                     console.log("Invalid credentials")
               }
@@ -182,10 +186,13 @@ const getMyTasks = (username, password) => {
 
      fetch(`https://your_api.com/protected`, {
         method: 'GET',
-        headers: { 'Authorization': 'Bearer '+token } // ⬅ authorization token
+        headers: { 
+          "Content-Type": "application/json"
+          'Authorization': 'Bearer '+token // ⬅⬅⬅ authorization token
+        } 
      })
          .then(resp => {
-              if(resp.ok) resp.json();
+              if(resp.ok) return resp.json();
               else if(resp.status === 403){
                    console.log("Missing or invalid token");
               }
