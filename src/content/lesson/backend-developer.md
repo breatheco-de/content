@@ -42,7 +42,7 @@ In addition to the document content and the content-type, the server also append
 
 #### Server Response Codes
 
-|**Content-type**   |**Description**   |
+|**Response code**   |**Description**   |
 |:------------------|:-----------------|
 |2xx Success      |200 OK, 201 Created, 204 No Content, 203 Non-Authoritative Information    |
 |3xx Redirection    |301 Moved Permanently, 307 Temporary Redirect, 304 Not Modified    |
