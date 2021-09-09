@@ -54,7 +54,7 @@ Con los tokens JWT no necesitas una base de datos, el propio token contiene toda
 
 ![Autentication workflow](../../assets/images/jwt-vs-bearer-token.png)
 
-## ## Estructura del token JWT
+## Estructura del token JWT
 
 ![Autentication workflow](../../assets/images/jwt-token-structure.png)
 
