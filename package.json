@@ -9,6 +9,7 @@
   "dependencies": {
     "@breathecode/ui-components": "^1.1.75",
     "bootstrap": "^4.4.1",
+    "colors": "^1.4.0",
     "css-element-queries": "^1.2.3",
     "gatsby": "^2.24.80",
     "gatsby-link": "^2.2.28",
