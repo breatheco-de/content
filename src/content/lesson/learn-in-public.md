@@ -57,4 +57,4 @@ I hope I made my case!!
 
 ## Keep it up!
 
-If you want to read more about Learning in public I recomend reading [this article and all the amazing sources mentioned at the end of that article](https://www.swyx.io/learn-in-public/).
+If you want to read more about Learning in public I recomend reading [this article and all the amazing sources mentioned at the end](https://www.swyx.io/learn-in-public/).
