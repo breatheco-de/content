@@ -63,7 +63,7 @@ We know how to train you: we have done it over and over again, but we'll train i
 
 #### Wall #3: Inactivity 😴 
 
-This is a boot-camp, it does not matter if you do it on a full-time or part-time way, you need to set the boot-camp mindset and work every day like it's the last. The Human brain absorbs 80% more we it feels challenged and scared, if you idle for a day the brain relaxes and [it's proven](https://www.youtube.com/watch?v=h5PLO4XAXhs) that you usually forget 60% of recently acquired information in just 1 day unless you use it again and again for a sequence of 7 days (at least).  
+This is a boot-camp, it does not matter if you do it on a full-time or part-time way, you need to set the boot-camp mindset and work every day like it's the last. The Human brain absorbs 80% more if we feel challenged and scared, if you idle for a day the brain relaxes and [it's proven](https://www.youtube.com/watch?v=h5PLO4XAXhs) that you usually forget 60% of recently acquired information in just 1 day unless you use it again and again for a sequence of 7 days (at least).  
 
 These are not small numbers, 60% in a day and 90% if you don't practice for a week. You are waisting your time and money if you don't take the course serious! 
 
