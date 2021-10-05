@@ -156,7 +156,7 @@ We have been using `expect(something).toBe(something)` but jest has a lot of pos
 | Description | Syntax |
 | ----------- | ------ |
 | Expect the opposite | expect(false).not.toBe(true) |
-| Expect string to contain another string | expect("hello world").stringContaining("world) |
+| Expect string to contain another string | expect("hello world").stringContaining("world") |
 | Expect variable to be defined | expect(variable_name).toBeDefined() |
 | Expect array to contain another | expect(['a','b','c','e']).toEqual(expect.arrayContaining(['b','c'])) |
 
