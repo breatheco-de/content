@@ -25,7 +25,7 @@ If you want to retrieve an input value in simple Javascript/HTML you can do some
 const value = document.querySelector('#first_name').value;
 ```
 
-But with React the solution is not that simple; the only way to keep data that may change over time inside react components are using the famous `state`.
+But with React the solution is not that simple; the only way to keep data that may change over time inside react components is using the famous `state`.
 
 ## What is a Controlled Input
 
