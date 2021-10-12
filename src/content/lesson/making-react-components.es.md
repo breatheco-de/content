@@ -37,7 +37,7 @@ class Navbar extends React.Component{
 }
 ```
 [[warning]
-| :point_up: Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+| :point_up: Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que los componentes de clase están considerados como legacy (deprecados).
 
 
 ## Usando un Componente
