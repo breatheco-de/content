@@ -130,7 +130,7 @@ test('Testing for Hello (mixed)', () => {
 })
 // Third test possibility
 test('Testing for hello (lower)', () => {
-     const result = isUpperCase('Hello');
+     const result = isUpperCase('hello');
      expect(result).toBe(false);
 })
 // Forth test possibility
