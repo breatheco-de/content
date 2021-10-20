@@ -315,23 +315,23 @@ After you fix the conflicts, you can `git add` the files and `git commit` everyt
 
 To make a copy of a remote repository for your own use, run git clone [remote-specification].
 
-For example, if the remote repository is located in `git@github.com:alesanchezr/myfistrepo.git`, you would run:
+For example, if the remote repository is located in `git@github.com:alesanchezr/myfirstrepo.git`, you would run:
 
 ```bash
-git clone git@github.com:alesanchezr/myfistrepo.git
+git clone git@github.com:alesanchezr/myfirstrepo.git
 ```
 
 This would do the following:
 
 + Create a directory `myfirstrepo` and initialize a repository in it.
 + Copy all the commit objects from the project into the new repository.
-+ **Add a remote repository** reference named `origin` to the new repository, and associate *origin* with `git@github.com:alesanchezr/myfistrepo.git` as described below. (Like *master*, *origin* is a default name used by Git.)
++ **Add a remote repository** reference named `origin` to the new repository, and associate *origin* with `git@github.com:alesanchezr/myfirstrepo.git` as described below. (Like *master*, *origin* is a default name used by Git.)
 + **Add remote heads** named `origin/\[head-name\]` that correspond to the heads in the remote repository.
 + Set up one head in the repository to **track** the corresponding `origin/\[current-head-name\]` head, namely the one that was currently active in the repository being cloned.
   
 A **remote repository reference** is an alias GIT uses to refer to the remote repository.  Generally it will be *origin*.  Among other things, GIT internally associates the *remote-specification* with the remote repository reference, so you will never need to refer to the original repository again.
 
-From now one, you will be able to say `origin` instead of `git@github.com:alesanchezr/myfistrepo.git`.
+From now one, you will be able to say `origin` instead of `git@github.com:alesanchezr/myfirstrepo.git`.
 
 A branch that **tracks** a remote branch retains an internal reference to the remote branch.  This is a convenience that allows you to avoid typing the name of the remote branch in many situations, as will be described below.
 
