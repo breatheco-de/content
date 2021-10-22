@@ -104,7 +104,6 @@ Variables can have different types of values.  Some of them are available only i
 
 
 ## Operations
-***
 
 What operations can I do to variables?  Depending on the data-type you have a few different possibilities:
 
@@ -114,7 +113,6 @@ What operations can I do to variables?  Depending on the data-type you have a fe
 + We will talk about Lists, Tuples and Dict's in a different section.  They require a lot more attention.
 
 ## Functions
-***
 
 Functions are pieces of code that can be re-used several times during runtime regardless of their position in the code.  There are hundreds of reasons to use functions, but here are the 2 most important ones:
 
@@ -122,7 +120,6 @@ Functions are pieces of code that can be re-used several times during runtime re
 + Re-use: Any normal development will take at least 5,000 lines of code.  It is redundant and inefficent to keep writing the same code over and over again.
 
 ## Declaring a Function
-***
 
 To declare a function in Python you have to start using the word `def` followed by the name you want for that function and a colon `:` aftewars.
 
@@ -142,7 +139,6 @@ def multiply (param1, param2):
 Note: please note that the indentation (white spaces) on the left side of the line number two are rally important, all the contnet of the function must be indented to the right.
 
 ## Parameters and Function Scope
-***
 
 The scope of a variable determines where that variable is available to be used.  There are two main types of scopes:
 
@@ -171,7 +167,6 @@ print(name) # This will print "Bob" as well.
 ```
 
 ## Logical Operations
-***
 
 Computers think of everything in black or white.  Everything is either True or False.  All the decisions in a computer are reduced into a simple **Boolean**.  You can prepare a computer to solve particular problems if you write code that asks the proper questions required to solve that problem.
 
@@ -203,7 +198,6 @@ You can group the logical operations in parentheses, and also use nested parenth
 
 
 ## Control the Flow of Your Code
-***
 
 Okay, now is when everything starts getting fun!  To control your application’s flow you will have several options, and you are going to use each of them every single day.  So, you must to become comfortable using them.
 
@@ -227,7 +221,6 @@ Python does not have a switch statement like some other languages like Javascrip
 
 
 ## While
-***
 
 It is possible to loop a segment of your code as many times as you want or need.  Loops are one of the most important tools for developers these days.
 
@@ -244,7 +237,6 @@ print("Sum = " + sum);
 ```
 
 ## For
-***
 
 `For` is similar to the `while,` with the only difference being that you have to specify the stopping condition from the beginning.  For that reason, `for` is a little more organized and easier to understand.
 
@@ -273,7 +265,6 @@ for key in dog:
 ```
 
 ## So.. tell me, did you like coding?
-***
 
 Coding is like Taco Bell:  you always use the same ingredients except they are just mixed in different ways.  You know how to write code, but…do you know how to solve real problems?
 
