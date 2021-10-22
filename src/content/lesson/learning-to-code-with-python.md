@@ -138,9 +138,8 @@ Then, you jump the line (hit enter) and write the code that your function must a
 def multiply (param1, param2):
     return param1 * param2;
 ```
-<iframe src="https://repl.it/F10t/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<div align="right"><small><a href="https://repl.it/F10t/0?lite=true">Click to open demo in a new window</a></small></div>
+Note: please note that the indentation (white spaces) on the left side of the line number two are rally important, all the contnet of the function must be indented to the right.
 
 ## Parameters and Function Scope
 ***
@@ -151,13 +150,25 @@ The scope of a variable determines where that variable is available to be used. 
 
 A local variable is available only inside the scope of the nearest curly brackets.  For example, variables that are passed as parameters into functions are only available within the content of that particular function.
 
+```python
+def print_your_name():
+    name = "Bob"
+    print(name) # This will print "Bob"
+    
+print(name) # This will not print "Bob" because name does not exist on this scope.
+```
+
 ### Global Variables
 
 If you declare a variable at the beginning of your code, it will be available throughout the entire code – including during the content of any particular function.
 
-<iframe src="https://repl.it/F10t/2?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
-
-<div align="right"><small><a href="https://repl.it/F10t/2?lite=true">Click to open demo in a new window</a></small></div>
+```python
+name = "Bob"
+def print_your_name():
+    print(name) # This will print "Bob"
+    
+print(name) # This will print "Bob" as well.
+```
 
 ## Logical Operations
 ***
@@ -202,25 +213,17 @@ The first tool you have is the `if…else` conditional.  It is very easy.  You c
 
 The `if` statement allows you to execute a piece of code if certain conditions are met (or are true).  The "else" statement will execute an alternate piece of code in case the condition is false.
 
-```javascript
-if (number < 18) {
-    document.write("Hello");
-} else {
-     document.write("Good bye!");
-}
+```python
+if number < 18:
+    print("Hello");
+else:
+    print("Good bye!");
+
 ```
 
 ## Switch
-***
 
-Similar to if…else… but a little bit more organized.  Here you will specify all of the possible case scenarios – including the `default scenario` that will occur if none of the other scenarios happen.
-
-<iframe src="https://repl.it/F2EK/5?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
-
-<div align="right"><small><a href="https://repl.it/F2EK/5?lite=true">Click to open demo in a new window</a></small></div>
-
-[[info]]
-|Use `switch` instead of `if` when:<br><br>• You are comparing multiple possible conditions of an expression and the expression itself is non-trivial.<br>• You have multiple values that may require the same code.<br>• You have some values that will require essentially all of another value’s execution, plus only a few statements.<br><br>Use `if` instead of `switch` when:<br><br>• You want to test for the truthfulness of an expression.<br>• You only have a single affirmative test.<br>• You need to evaluate different expressions for each branch.
+Python does not have a switch statement like some other languages like Javascript, Java or Php.
 
 
 ## While
@@ -232,14 +235,12 @@ Imagine you are inside an elevator – the elevator needs to loop throughout the
 
 A `while` loop will execute a block of code as long as a condition is true.  Once the condition returns false, the loop will stop executing the block of code.
 
-```javascript
-var sum = 0;
-var number = 1;
-while (number <= 50) {
-  sum += number;
-  number++;
-}
-console.log("Sum = " + sum);
+```python
+sum = 0
+while sum <= 50:
+  sum += 1
+
+print("Sum = " + sum);
 ```
 
 ## For
@@ -249,38 +250,26 @@ console.log("Sum = " + sum);
 
 Note:  When looping, make sure that the statement will eventually return false so that you avoid an infinite loop.  In an infinite loop, the code executes indefinitely and will cause your browser to crash.
 
-<iframe width="578" height="325" src="https://www.youtube.com/embed/TSMzvFwpE_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<div align="right"><small><a href="https://www.youtube.com/embed/TSMzvFwpE_A">Click here to open video in a new window</a></small></div>
-
-
-```javascript
-for (var i = 0; i < 10; i++) {
-    document.write("This is number" + " " + i);
-}
+```python
+for i in range(10):
+    print(i)
 ```
 
-## For..in
-***
+## Looping a dictionary (or map)
 
-`For…in` loops can be to used to loop through the properties of an object.  Within the parentheses, you can set any name to represent the information within the object, and then include the name of the object:
+In python you can store a group of related values in key => value pairs like this:
 
-for (var in object)<br> {
-code block to be executed
-}
-
-```javascript
+```python
 var dog = {
-  species: "Great Dane",
-  size: "Extra Large",
-  age: 3 ,
-  name: "Rocky"
-
+  "breed": "Great Dane",
+  "size": "Extra Large",
+  "age": 3 ,
+  "name": "Rocky"
 }
 
-for(items in dog){
-  console.log(dog[items]);
-}
+for key in dog:
+  print(dog[key])
+
 ```
 
 ## So.. tell me, did you like coding?
