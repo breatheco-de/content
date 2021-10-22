@@ -26,17 +26,21 @@ Variables are not a new concept, anybody who knows math is familiar with the con
 A variable is a container in which you can store any data.  For example, you can have the following variable:
 
 ```python
-age = 24;
+age = 24
 ```
 
 ![what is javascript](../../assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
 
-With virtually any programming language you can create as many variables as you want or need.  To start you have to **declare that variable’s name** using the term: *var* followed by a _unique_ name (relative to the document/project).
-
-The **variable name** is the most effective way we have to describe the variable content, so use it wisely.  It is important to choose a name that clearly tells you (and other coders) about the data that is being stored in the variable.  If we choose a bad or an ambiguous name, our code will be almost impossible to understand, ergo it becomes unusable.  For example, let’s say we change the name of our "age" variable to `a`, that would be:
+With virtually any programming language you can create as many variables as you want or need, all you have to do is type one word in your editor and that will become your variable, for example, this is how we declare a variable "name":
 
 ```python
-a = 24 ;
+name = "Alex"
+```
+
+The **variable name** is the most effective way we have to describe the variable content, so use it wisely.  It is important to choose a name that clearly tells you (and other coders) about the data that is being stored in the variable.  If we choose a bad or an ambiguous name, our code will be almost impossible to understand, ergo it becomes unusable.  For example, let’s say we change the name of our "name" variable to `myVar`, that would be:
+
+```python
+myVar = "Alex"
 ```
 
 As you can see above, the new variable name does not tell us anything about the data that is being stored and why we are using it.
@@ -44,18 +48,18 @@ As you can see above, the new variable name does not tell us anything about the 
 Choosing the name for your variable really matters, so we beg you not to use generic names.  Be descriptive!  A vague name will make it difficult to understand the purpose of the variable, especially for other coders (including your future self).
 
 ## Assigning a Value to Variables
-***
 
-As developers, we can set the value of a variable at any time using the `=` operator.  You do not have to set a value when you first declare a variable.  You can set, or re-set (override) the value as many times as you want, whenever you want.  The value will always be the last one you set.  Below are a few examples on how to set values to variables:
+As developers, we can set the value of a variable at any time using the `=` operator.  You have to set a value when you first declare a variable, but re-set (override) its value as many times as you want, whenever you want.  The value will always be the last one you set.  Below are a few examples on how to set values to variables:
 
 ```python
-a = 24;
-a = 25;
-a = 80;
+name = "Bob"
+name = "Joe"
+name = "Rita"
 ```
 
+Note: the variable name in this code will end up having the value `Rita`, it will be as if `Bob` and `Joe` never existed.
+
 ### No special keywords to declare a variable
-***
 
 Other languages lik javascript make you use a special statement before the variable name in order to "declare" the variable for the first time like this:
 
@@ -71,33 +75,31 @@ let age : number = 12;
 
 > Note: This means that the variable age will always contain a number inside.
 
-But Python does not need any type declaration or special keywords, just type `age = 12` and that will be your new variable `age` with value 12.
+But Python does not need any type declaration or special keywords, just type `name = "Rita"` and that will be your new variable `name` with value `Rita`.
 
-Variable values are subject to change over time.  To retrieve a variable value you can print the value on the screen at any time.  Each language has its own methods to print; this is how you do it in JavaScript:
+Variable values are subject to change over time.  To retrieve a variable value you can print the value on the screen at any time.  Each language has its own methods to print; this is how you do it in Python:
 
-<iframe src="https://repl.it/F0R2/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```python
+name = "Rita"
+print("My name is "+name)
 
-<div align="right"><small><a href="https://repl.it/F0R2/1?lite=true" >Click to open demo in a new window</a></small></div>
-
-
+# The command line output for this code will be "My name is Rita"
+```
 
 ## Data Types
-***
+
 Variables can have different types of values.  Some of them are available only in specific programming languages, but almost all of them have the following types
 
-|**Data-Type**   |**Posible Values**   |**Description**   |
-|:---------------|:--------------------|:-----------------|
-|Boolean         |True \| False         |Booleans are meant for logical operations.  If you ask a computer something like: "Does X equal 3?"  It will answer with a boolean (true or false).    |
-|String        |Any series of characters     |Strings are the only way we have to store words (series of characters).  Note: strings need to be encased within quotation marks.    |
-|Number    |Only numbers     |Integer numbers, negative numbers, decimal numbers, floats, etc.  All possible types of numbers.<br>Note: If you enclose a number within quotation marks, JavaScript will treat it as a string.    |
-|List     |A list or array of any type of value    |A succession of any type of values.  They can be mixed types of values; for example: [2, 3, ‘Word’, 2, 1, null, 232, 5, 3, 23, 234, 5, ‘hello’].     |
-|Objects    |Any object    |You can create you own data-types with more complex operations.  We will talk more about this later.    |
-|None     |Only null    |Is used to specify when the database or any other function does not return anything.   |
-
-<iframe src="https://repl.it/F05K/3?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
-
-<div align="right"><small><a href="https://repl.it/F05K/3?lite=true">Click to open demo in a new window</a></small></div>
-
+|**Data-Type**  |**Posible Types**                  |**Possible values**                            |
+|:--------------|:----------------------------------|:----------------------------------------------|
+| Nothing       |`None`                             | `x=None`                                      |
+| Text Type     |`str`                              | `x="bob"`                                     |
+| Numeric Types |`int`, `float`, `complex`          | `x=2`, `x=2.012`, `x = 1j`                    |
+| Sequence Types|`list`, `tuple`, `range`           |`x=[34,32,54]`,`x=(34,32,54)`,`x=range(6)`     |
+| Mapping Type  |`dict`                             |`x={"name": "Bob", "last_name": "Dylan"}       |
+| Set Types     |`set`, `frozenset`                 |`x={"apple", "banana", "cherry"}               |
+| Boolean Type  |`bool`                             |`x=True` or `x=False`                          |
+| Binary Types  |`bytes`,`bytearray`, `memoryview`  |`to big to display, we will not be using them` |       
 
 
 
@@ -108,8 +110,8 @@ What operations can I do to variables?  Depending on the data-type you have a fe
 
 + Numbers are easy – you can do whatever math operation you want.
 + Strings can be concatenated (merged), split, converted to Upper or Lower Case, etc.
-+ You cannot do much to Null, Booleans and Undefined data-types.
-+ We will talk about Arrays and Objects in a different section.  They require a lot more attention.
++ You cannot do much to None variables or Booleans.
++ We will talk about Lists, Tuples and Dict's in a different section.  They require a lot more attention.
 
 ## Functions
 ***
@@ -122,11 +124,11 @@ Functions are pieces of code that can be re-used several times during runtime re
 ## Declaring a Function
 ***
 
-To declare a function in JavaScript you have to start using the word `function` followed by the name you want for that function.
+To declare a function in Python you have to start using the word `def` followed by the name you want for that function and a colon `:` aftewars.
 
 You must then specify the parameters (inputs) that the function is going to have within parentheses.
 
-Then, you will open a curly bracket and write the code that your function must always perform.  Once you are finished, you then close the curly bracket and now your function is ready to be used!
+Then, you jump the line (hit enter) and write the code that your function must always perform.  
 
 **Note:**  To return something you use the `return` word at any time within the content of your function (between the curly brackets).
 
