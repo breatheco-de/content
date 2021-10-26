@@ -23,7 +23,7 @@ status: "published"
 
 GIT is a great technology, please take time to learn it.  DON’T procrastinate because you cannot avoid it.  You will be using it every day, several times a day. So you’d better learn and be comfortable with it.
 
-GIT is more than just a "set of commands" that you have to learn.  Throughout the years, we have learned that the best way to teach GIT is by understanding the concepts and meaning of the technology first rather than just giving you a list of commands to use.
+GIT is more than just a "set of commands" that you have to learn.  Throughout the years, we've learned that the best way to teach GIT is by understanding the concepts and meaning of the technology first rather than just giving you a list of commands to use.
 
 ## Why Bother to use GIT?
 ***
