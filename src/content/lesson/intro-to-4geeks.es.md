@@ -1,6 +1,6 @@
 ---
 title: "Introducción a 4Geeks Academy"
-subtitle: "Espero que leas este artículo completo, este artículo tiene una receta de 8 minutos para sacarle el máximo de provecho a la academia. ¡De la manera más efectiva"
+subtitle: "Espero que leas este artículo completo, este artículo tiene una receta de 8 minutos para sacarle el máximo de provecho a la academia. ¡De la manera más efectiva!"
 textColor: "white"
 status: "published"
 tags: ["best practices"]
@@ -50,7 +50,7 @@ Cualquier persona en general puede aprender a programar, la programación se vue
 
 Durante toda tu vida has aprendido de la misma manera, el sistema de educación te ha puesto en una caja y te ha enseñado a aprender lentamente limitando tu habilidad para adaptarte al nuevo mundo de profesionales que aprenden con rapidez y que son autodidactas.
 
-Sabemos como enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseñaremos de una manera tan diferente que puede no gustarte al principio, es normal que tu mente quiera vover al aprendizaje "lento pero seguro", sin tener que sentirte incómodo o constantemente desafiado por nuestro sistema.
+Sabemos como enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseñaremos de una manera tan diferente que puede no gustarte al principio, es normal que tu mente quiera volver al aprendizaje "lento pero seguro", sin tener que sentirte incómodo o constantemente desafiado por nuestro sistema.
 
 ##### 📝 Receta para evitar perder la confianza en nuestros métodos  
 
@@ -68,7 +68,7 @@ Estos números no son pequeños, 60% en un día y 90% si no practicas en una sem
 
 ##### 📝 Receta para evitar la inactividad
 
-1. **Habla con tu pareja, amigo y familia:** Necesitas un descanso de prácticamente todo. Sabemos que la vida ya es lo suficientemente complicada para además añadirle más responsabilidades, pero este es sólo un breve periodo de tu tiempo. La recompensa es eterna ¡Todos deben alinearse! Intenta matenerte abierto, tener un escritorio para trabajar sin distracciones, etc. Tu hogar debe estar sincronizado con este momento de tu vida.
+1. **Habla con tu pareja, amigo y familia:** Necesitas un descanso de prácticamente todo. Sabemos que la vida ya es lo suficientemente complicada para además añadirle más responsabilidades, pero este es sólo un breve periodo de tu tiempo. La recompensa es eterna ¡Todos deben alinearse! Intenta mantenerte abierto, tener un escritorio para trabajar sin distracciones, etc. Tu hogar debe estar sincronizado con este momento de tu vida.
 
 2. **Habla con tu jefe:** Puede que necesites un par de horas extras, tiempo durante el fin de semana, etc. Sé inteligente o puede que tu jefe te sabotee.
 
@@ -82,7 +82,7 @@ Asegúrate de entender bien cómo funciona la academia:
 
 1. **Plataforma:** BreatheCode, el Programa (aprende a seguirlo), GeekPal, GeekForce, las lecciones, ejercicios, proyectos y recursos.
 2. **Las personas:** ¡Somos más de 1.000 personas! Líderes, mentores, los [egresados y los estudiantes](http://sep.4geeksacademy.com/), están aquí para ayudarte y no nos iremos a ningún lado. Haz networking, amigos ¡Aprovecha!
-3. **La comunidad:** La comunidades no sólo dan, no sólo trabajan preparando eventos, apoya a otros estudiantes, da primero y recibirás después. Slack, GeekTalks, Workshops, Grupos de Estudio.
+3. **La comunidad:** Las comunidades no solo, no solo trabajan preparando eventos, apoya a otros estudiantes, da primero y recibirás después. Slack, GeekTalks, Workshops, Grupos de Estudio.
 
 
 ## Mejores prácticas mientras aprendes a programar
