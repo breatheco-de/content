@@ -103,7 +103,7 @@ Simple. Think of it in separate steps.
 
 **Now that you have seen the basics, we can make more advanced requests. **
 
-The default request method is a "GET" mehod; which is what we have seen so far. The most used methods and what they represent are: 
+The default request method is a "GET" method; which is what we have seen so far. The most used methods and what they represent are: 
 **GET**: Read/Retrieve
 **PUT**: Edit/Update
 **POST**: Create 
