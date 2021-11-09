@@ -93,7 +93,7 @@ If you think about it, functions are the equivalent of books. They store knowled
 
 All functions must start and end somewhere, that its called **the scope of the function**. You can delimit the boundries using curly brackets like this:
 
-```python{numberLines: true} 
+```python{numberLines: true}  //this doesn't show on the code at the theory
 
 # this part of the code is OUTSIDE the 'multiply' function 
 
