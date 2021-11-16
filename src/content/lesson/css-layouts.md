@@ -115,7 +115,7 @@ Ok, now… to understand what we just explained, there is no other choice but…
 
 Float is a simple but very useful attribute.  Float works by telling a box to move as far as possible to one side: left or right.  Once you assign the float property to an element, it will look for the best space to be accommodated – trying to coexist with the elements that surround it.
 
-Float is very much used in blogs when you want to add images to your articles.  It is very good in such cases, because once the photo is moved to one side, the text of the article will find its place around the image in a very natural way.
+Float is very much used in blogs when you want to add images to your articles.  It is very good in such cases, because once the photo is moved to one side, the text of the article will find it's place around the image in a very natural way.
 
 <iframe src="https://www.youtube.com/embed/htdLSAZ2ZH8" frameborder="0" allowfullscreen ></iframe>
 
