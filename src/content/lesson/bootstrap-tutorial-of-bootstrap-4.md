@@ -260,7 +260,7 @@ Bootstrap official documentation is amazing!  We don’t need to start copying a
 + [Utilities or Helper classes:](https://getbootstrap.com/docs/4.1/utilities/borders/) Very useful and constantly used classes to do stuff like centering the text, centering a column or container, adding a background, etc.
 
 [[warning]] 
-| :point_up: Bootstrap versions & download
+| :point_up: Bootstrap versions & download.
 
 Bootstrap has many versions, always check if you are using the last version of Bootstrap on your project, here you can find all the available versions: [https://getbootstrap.com/docs/versions/](https://getbootstrap.com/docs/versions/).
 
