@@ -21,7 +21,7 @@ You are here to develop your coding skills to a point were you can be useful to 
 
 You are also here because you need help, not only technical help but also spiritual help, and I say this in the most pragmatic way possible.
 
-> The biggest wall to become a developer is not in the syllabus or content but in your mind.
+> The biggest wall to become a developer isn't in the syllabus or content but in your mind.
 
 We are about to change the way you learn, the way you approach life, the way you sell yourself (therefore see yourself), we are tearing down old misconceptions about yourself, others and your professional life.
 
