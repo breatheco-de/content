@@ -82,7 +82,7 @@ The heads of the repository are like the "revision history of the project."  A r
 
 Every time you make a new commit, the head will move to that new commit.  This way you are able to have access to the entire project history of commits.
 
-You can **move the head** if you want.  It does not necessarily have to always be the last commit, but you must remember that you can only review commits that came before the commit to which the head is pointing at.  **Commits made after the commit to which the head is pointing at are not possible to be reviewed.**
+You can **move the head** if you want.  It does not necessarily have to always be the last commit, but you must remember that you can only review commits that came before the commit to which the head is pointing at.  **Commits made after the commit to which the head or heads are pointing at are not possible to be reviewed.**
 
 ![how to use git ](../../assets/images/79da625d-d7bc-409a-a044-9e60ae6a1a2b.png)
 
