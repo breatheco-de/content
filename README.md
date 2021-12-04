@@ -72,7 +72,7 @@ Will try to clean and fix any possible issues on the lessons, for example: Date 
 
 | PARAM         | DESCRIPTION |
 | ---------     | ----------- |
-| --slug        | Every lesson has a slug that identifies it, you can pass `all` if you want to update all at once |
+| --slug        | Every lesson has a slug that identifies it, you can pass `all'    if you want to update all at once |
 | --type  | external_images or uploadcare |
 
 #### Method: localize_images
