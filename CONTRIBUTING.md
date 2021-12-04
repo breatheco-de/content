@@ -72,7 +72,7 @@ Will look like this: `python>print("Hello")`
 
 ***Multiline syntax Highlighting***
 
-Start your code with three tildes like this: `
+lo que sea : `
 
 ![Syntax Highlighting Breathecode](https://ucarecdn.com/8e196eb9-9aaa-41b1-a0f9-a62c1375ccfa/Screenshot20191121at73857PM.png)
 
