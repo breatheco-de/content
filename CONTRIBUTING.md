@@ -66,7 +66,7 @@ Example:
 
 Start your inline code with the language followed by the `>` character, for example:
 ```txt
-python>print("hello")
+python>print("Hello")
 ```
 Will look like this: `python>print("Hello")`
 
@@ -76,15 +76,7 @@ Start your code with three tildes like this: `
 
 ![Syntax Highlighting Breathecode](https://ucarecdn.com/8e196eb9-9aaa-41b1-a0f9-a62c1375ccfa/Screenshot20191121at73857PM.png)
 
-Will look like this:
-
-```html
-<strong>Hello</strong>
-<p></p>
-```
-
-***Adding Line Numbers***
-
+Will look like thi
 To add line numbers just add `{numberLines: true}` after your language declaration like this:
 
 !(Adding line numbers to the code)[https://ucarecdn.com/20c9d797-9a40-4a0e-90a2-0ae0600f0fe0/Screenshot20191121at75439PM.png]
