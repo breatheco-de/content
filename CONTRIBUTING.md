@@ -18,7 +18,7 @@ Fork this project and clone it to have it on your local environment.
 - Published: already finished but you can still make small changes like fixing grammar errors.
 - Draft: someone is already working on it but it's not finished yet.
 - Unassigned: no one has picked that article or started working on it.
-- Pending translation: there is already a version in another language and we need the translation for that particular language
+- Pending translation: there is already a version in another language and we need the translation for that particular language.
 
 ### Writing a new article
 
