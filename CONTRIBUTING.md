@@ -6,7 +6,7 @@ This project was build in gatsby.js v2, you can contribute by **coding a feature
 
 First pick the issue that you would like to resolve from [this list](https://github.com/breatheco-de/content/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22). Please don't resolve anything that its not an issue, if you would like to propose new enhancements or report bugs you can create the issue first to discuss it with the project maintainers and other members of the community.
 
-Once you have the issue that you like to solve, add a comment letting anyone know that you are going to be working on it.
+
 
 Fork this project and clone it to have it on your local environment.
 
