@@ -92,8 +92,4 @@ To add line numbers just add `{numberLines: true}` after your language declarati
 
 ```html{numberLines: true}
 
-<p>This is some very big code</p>
 
-<p>With lots of lines of code</p>
-
-```
