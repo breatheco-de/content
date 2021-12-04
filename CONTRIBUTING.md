@@ -94,6 +94,6 @@ To add line numbers just add `{numberLines: true}` after your language declarati
 
 <p>This is some very big code</p>
 
-<p>With lots of lines of code</p>
+<p>Sergio</p>
 
 ```
