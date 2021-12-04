@@ -1,6 +1,6 @@
 # How to contribute to this project
 
-This project was build in gatsby.js v2, you can contribute by **coding a feature**, **fixing a bug** or **writing an article**.
+Hi, this project was build in gatsby.js v2, you can contribute by **coding a feature**, **fixing a bug** or **writing an article**.
 
 ## If you want to contribute by `coding` or `fixing a bug`
 
@@ -20,7 +20,7 @@ Fork this project and clone it to have it on your local environment.
 - Unassigned: no one has picked that article or started working on it.
 - Pending translation: there is already a version in another language and we need the translation for that particular language
 
-### Writing a new article
+### Writing a new article!!!
 
 Pick one of the `unasigned` or `pending_translation` articles from [this list](https://github.com/breatheco-de/content/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) and comment on the issue to start working on it.
 
@@ -34,14 +34,14 @@ We have also create some special icons and components that you can also use insi
 |:link: for links of websites with information  
 
 
-[[warning]]
+:warning:
 | :point_up:
  to warn students about important details
 
 [[demo]]
 | :point_up: For live demos 
 
-[[info]]
+[info]
 | :tv: for external videos
 
 [[info]]
