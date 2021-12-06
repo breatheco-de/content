@@ -45,7 +45,7 @@ We have also create some special icons and components that you can also use insi
 | :tv: for external videos
 
 [[info]]
-| :point_up: for Aditional info 
+| :point_up: for Additional info 
 
 #### Before and after
 
