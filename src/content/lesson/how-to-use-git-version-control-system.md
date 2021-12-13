@@ -121,7 +121,7 @@ After you have made some changes to the files of the project, you may want to sa
 
 To create a commit, you will need to do two things:
 
-+ **Tell GIT which files to include in the commit**, with `git add`.  If a file has not changed since the previous commit (the "parent" commit), GIT will automatically include it in the commit you are about to perform.   You will only need to add files that you have newly created or modified.  Note that it adds directories recursively, so `git add` . will add everything that has changed.
++ **Tell GIT which files to include in the commit**, with `git add .`  If a file has not changed since the previous commit (the "parent" commit), GIT will automatically include it in the commit you are about to perform.   You will only need to add files that you have newly created or modified.  Note that it adds directories recursively, so `git add .` will add everything that has changed.
 + **Call `git commit` to create the commit object.**  The new commit object will have the current HEAD as its parent (after the commit is completed, HEAD will point to the new commit object).
   
 Say you create three commits this way…your repository will look like this:
