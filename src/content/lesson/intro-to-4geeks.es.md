@@ -82,7 +82,7 @@ Asegúrate de entender bien cómo funciona la academia:
 
 1. **Plataforma:** BreatheCode, el Programa (aprende a seguirlo), GeekPal, GeekForce, las lecciones, ejercicios, proyectos y recursos.
 2. **Las personas:** ¡Somos más de 1.000 personas! Líderes, mentores, los [egresados y los estudiantes](http://sep.4geeksacademy.com/), están aquí para ayudarte y no nos iremos a ningún lado. Haz networking, amigos ¡Aprovecha!
-3. **La comunidad:** Las comunidades no solo, no solo trabajan preparando eventos, apoya a otros estudiantes, da primero y recibirás después. Slack, GeekTalks, Workshops, Grupos de Estudio.
+3. **La comunidad:** Las comunidades no solo entregan, no solo trabajan preparando eventos. Apoya a otros estudiantes, da primero y recibirás después. Slack, GeekTalks, Workshops, Grupos de Estudio.
 
 
 ## Mejores prácticas mientras aprendes a programar
