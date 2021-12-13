@@ -19,7 +19,7 @@ Mastering the use of lists and loops is one of the 5 fundamental skills of build
 
 ## What are Functions?
 
-Basically, a function is a bunch of code wrapped between brackets that you can run anytime whenever you dice.  For example:
+Basically, a function is a bunch of code wrapped between brackets that you can run anytime whenever you like.  For example:
 
 ```javascript 
 //the function name is "multiply" and receives 2 param: a & b 
