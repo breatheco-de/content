@@ -17,7 +17,7 @@ These two guys working on Twitter were suffering the same problems we have been 
 
 ![bootstrap 4](../../assets/images/335ed387-cbf9-4ffa-9529-1ccf2084e393.jpeg)
 
-Besides, Bootstrap gives you a dozen of new elements that you would normally want to use but don’t actually exist in CSS+HTML: The Bootstrap components.
+Besides, Bootstrap gives you a dozen of new elements that you would normally want to use but don’t actually exist in CSS+HTML: The Bootstrap componets.
 
 ## Layouts: Solving the Box Model
 
