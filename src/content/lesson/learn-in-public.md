@@ -33,10 +33,10 @@ When you learn in public you make social media, your notebook and discussion for
 - Create accounts in some of your prefered social networks like: LinkedIn (strongly recommended), Twitter, Instagram, Reddit, etc.
 - Make sure your profile in those accounts looks good: A professional profile, describing yourself as a developer.
 - Every time you build a project make sure to publish it on your social networks, [here is an example post from one of 4Geeks Academy students](https://www.linkedin.com/feed/update/urn:li:activity:6750086679345815552/).
-- Join [#100DaysOfCode](https://www.100daysofcode.com/) and be public on twitter, instagram and/or LinkedIn about it, there is a lot people following that challenge and you can join the discussion and collaboration!
+- Join [#100DaysOfCode](https://www.100daysofcode.com/) and be public on twitter, instagram and/or LinkedIn about it, there are a lot people following that challenge and you can join the discussion and collaboration!
 - Open a youtube channel: Start publishing videos about your learning process.
 - Start a blog: Use medium (recommended), reddit or build your own blog platform and start publishing weekly posts about the things you are learning.
-- Reach out to developers you admire: If you liked a video, write something to the author; If you like a library, make a Pull Request fixing a misspell or enhancing the documentation or coding a new feature!
+- Reach out to developers you admire: If you liked a video, write something to the author; If you like a library, make a Pull Request fixing a misspelling, or enhancing the documentation or coding a new feature!
 - Join events and conferences: Meet with other developers and oportunities will start coming in.
 
 ## Reasons you have to procrastinate about this:
@@ -57,4 +57,4 @@ I hope I made my case!!
 
 ## Keep it up!
 
-If you want to read more about Learning in public I recomend reading [this article and all the amazing sources mentioned at the end of that article](https://www.swyx.io/learn-in-public/).
+If you want to read more about Learning in public I recommend reading [this article and all the amazing sources mentioned at the end of that article](https://www.swyx.io/learn-in-public/).
