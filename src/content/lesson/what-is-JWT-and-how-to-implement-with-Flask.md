@@ -12,7 +12,7 @@ status: "published"
 [[info]]
 | 📹 Here is a video explaining the JWT authentication [implementation using React.js, Context API and Python Flask](https://youtu.be/8-W2O_R95Pk).
 
-Almost every [API needs an authentication layer](/lesson/token-based-api-authentication), and there are mamy ways to tackle that problem, today we are going to be implementing JWT token into our Flask API.
+Almost every [API needs an authentication layer](/lesson/token-based-api-authentication), and there are many ways to tackle that problem, today we are going to be implementing JWT token into our Flask API.
 
 
 ## How API Authentication works
