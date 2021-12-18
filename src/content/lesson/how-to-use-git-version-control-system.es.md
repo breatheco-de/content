@@ -114,7 +114,10 @@ Después de realizar algunos cambios en los archivos del proyecto, es posible qu
 
 Para crear un commit, tendrás que hacer dos cosas:
 
-+ **Indicale a GIT qué archivos incluir en el commit**, con `git add`.  Si un archivo no ha cambiado desde el commit anterior (el commit "principal"), GIT lo incluirá automáticamente en el commit que estás a punto de realizar.  Solo deberás agregar los archivos que hayas creado o modificado recientemente.  Ten en cuenta que agrega directorios de forma recurrente, así que `git add` agregará todo lo que ha cambiado.
++ **Indicale a GIT qué archivos incluir en el commit**, con `git add`.  Si un archivo **no** ha cambiado desde el commit anterior (el commit "padre"), GIT lo incluirá automáticamente en el commit que estás a punto de realizar.  Solo deberás agregar **explícitamente** los archivos que hayas creado o modificado recientemente.  
+
+Ten en cuenta que agrega directorios de forma recurrente, así que `git add .` agregará todo lo que ha cambiado ( el `.` quiere decir todo lo que se encuentra en la carpeta actual).
+
 + **Llama a `git commit` para crear el objeto de confirmación.** El nuevo commit object tendrá el HEAD actual como su principal (después de que se complete el commit, el HEAD apuntará al nuevo commit object).
   
 Digamos que creas tres confirmaciones de esta manera ... tu repositorio se verá así:
@@ -267,7 +270,11 @@ Por ejemplo, cuando usas un repositorio de github.com, puedes encontrar el contr
 
 Si estás trabajando en un repositorio local y deseas conectarlo a un repositorio remoto, puedes agregar un remoto. Primero, busca la URL remota en el repositorio remoto.
 
-Una vez que conozcas la URL remota, puedes agregarla a tu proyecto. Debes elegir un alias para el control remoto; de forma predeterminada, usamos normalmente "origen". Agrega el control remoto ejecutando el siguiente comando:
+Una vez que conozcas la URL remota, puedes agregarla a tu proyecto. 
+
+Debes elegir un alias para el control remoto - de forma predeterminada, usamos normalmente `origin`,  pero ésta es solo una palabra arbitraria y puedes usar cualquier otra. 
+
+Agrega el remoto ejecutando el siguiente comando:
 
 ```bash
 git remote add origin [remote-url]
@@ -281,7 +288,7 @@ git remote get-url origin
 Digamos que tienes una rama en tu repositorio local llamada "nueva rama". Esa rama se puede subir haciendo lo siguiente:
 
 ```bash
-git push origin [new-branch]
+git push origin development
 ```
 
 Si otra persona TAMBIÉN ha presionado algunos cambios a esa rama, GIT rechazará el push y te dirá que primero descargues esos cambios en tu repositorio local antes de continuar.
