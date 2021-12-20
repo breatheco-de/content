@@ -47,7 +47,7 @@ const buildLessonsData = (lessons) => lessons
     return {
         slug: path.basename(lesson, '.md'),
         status: status || 'published', authors: authors || null,
-        title, date, tags, lang, translations, subtitle
+        title, date, tags, lang, translations, subtitle, fileName,
     };
 });
 
