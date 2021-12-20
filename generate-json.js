@@ -47,7 +47,7 @@ const buildLessonsData = (lessons) => lessons
 
     return {
         slug: attributes.slug || path.basename(lesson, '.md'),
-        fileName: lesson,
+        fileName: path.basename(lesson),
         status: status || 'published', authors: authors || null,
         title, date, tags, lang, translations, subtitle,
     };
