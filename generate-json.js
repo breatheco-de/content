@@ -34,7 +34,8 @@ const buildLessonsData = (lessons) => lessons
   })
   .map(lesson => {
     const content = fs.readFileSync(lesson, 'utf8');
-    const { title, date, tags, status, subtitle, authors } = fm(content).attributes;
+    const attributes = fm(content).attributes;
+    const { title, date, tags, status, subtitle, authors } = attributes;
     
     if(!title) throw new Error('Missing title on '+lesson);
     if(!date) throw new Error('Missing date on '+title);
@@ -45,9 +46,10 @@ const buildLessonsData = (lessons) => lessons
     const translations = lessons.filter(l => l.includes(fileName)).map((l) => { return getLanguage(l) }).filter(l => l !== lang);
 
     return {
-        slug: path.basename(lesson, '.md'),
+        slug: attributes.slug || path.basename(lesson, '.md'),
+        fileName: lesson,
         status: status || 'published', authors: authors || null,
-        title, date, tags, lang, translations, subtitle, fileName,
+        title, date, tags, lang, translations, subtitle,
     };
 });
 
