@@ -14,7 +14,7 @@ Dominar el uso de las condiciones es una de las 5 habilidades fundamentales de c
 
 1. Variables.
 2. `Condicionales`.
-3. Arrays(Arreglos).
+3. Arrays(Arreglos)/objetos.
 4. Loops(Bucles).
 5. Funciones.
 
