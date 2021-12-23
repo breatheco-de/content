@@ -44,9 +44,10 @@ const buildLessonsData = (lessons) => lessons
     const fileName = path.basename(lesson, '.md').split('.')[0];
     const lang = getLanguage(lesson);
     const translations = lessons.filter(l => l.includes(fileName)).map((l) => { return getLanguage(l) }).filter(l => l !== lang);
-
+    
+    const slug = attributes.slug || path.basename(lesson, '.md');
     return {
-        slug: attributes.slug || path.basename(lesson, '.md'),
+        slug: slug.substring(slug.indexOf("]")+1), //removing status from file name, e.g: "[unassigned]hello.md" will be "hello.md"
         fileName: path.basename(lesson),
         status: status || 'published', authors: authors || null,
         title, date, tags, lang, translations, subtitle,
