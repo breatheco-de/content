@@ -36,14 +36,14 @@ When you learn in public you make social media, your notebook and discussion for
 - Join [#100DaysOfCode](https://www.100daysofcode.com/) and be public on twitter, instagram and/or LinkedIn about it, there are a lot people following that challenge and you can join the discussion and collaboration!
 - Open a youtube channel: Start publishing videos about your learning process.
 - Start a blog: Use medium (recommended), reddit or build your own blog platform and start publishing weekly posts about the things you are learning.
-- Reach out to developers you admire: If you liked a video, write something to the author; If you like a library, make a Pull Request fixing a misspelling, or enhancing the documentation or coding a new feature!
+- Reach out to developers you admire: If you liked a video, write something to the author. If you like a library, make a Pull Request fixing a misspelling, or enhancing the documentation or coding a new feature!
 - Join events and conferences: Meet with other developers and oportunities will start coming in.
 
 ## Reasons you have to procrastinate about this:
 
 ### I don't have anything to say
 
-I really doubt that, learning to code is hard and people read a lot about it and they need emotional support, just like with your testimonial you are helping and lot's of people who will be interested in learning more about your story.
+I really doubt that, learning to code is hard and people read a lot about it and they need emotional support, just like with your testimonial you are helping a lot of people who will be interested in learning more about your story.
 
 ### I'm no expert
 
