@@ -16,7 +16,7 @@ Trabajar con eventos es una forma totalmente nueva de **controlar el flujo de un
 
 ¿Qué es un evento?
 
-Un evento es algo que sucede! Como **hacer clic** en un botón, **presionar** una tecla en el teclado, **pasar** un div con el mouse, etc.
+Un evento es algo que sucede Como **hacer clic** en un botón, **presionar** una tecla en el teclado, **pasar** un div con el mouse, etc.
 
 Tu trabajo como desarrollador es prepararte para esos eventos y **definir las funciones** que van a manejar esos eventos.
 
@@ -144,7 +144,7 @@ La función .addEventListener es perfecta para esto porque se puede usar en cual
 
 Al usar la función .addEventListener, debe especificar qué **evento** quiere escuchar, y **la función controladora** que se llamará cada vez que ese evento se active en ese elemento DOM.
 
-Por ejemplo, este código está creando una lista de nombres, y cada ancla de eliminación en cada fila está escuchando el evento "click" solo para esa fila.
+Por ejemplo: este código está creando una lista de nombres, y cada ancla de eliminación en cada fila está escuchando el evento "click" solo para esa fila.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/1nhjc4t0/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
