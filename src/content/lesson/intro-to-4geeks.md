@@ -39,7 +39,7 @@ At some point in our lives (some more than others) we all have thought we are th
 
 Every average person can learn to code to a point of being useful, coding gets more complicated when you specialize further in your career (Like A.I., Robotics, etc.), but you can make good money without having to study Math, without being good at numbers or without learning as fast as others (we may be able to fix that, by the way).
 
-##### 📝 Recipe to avoid loosing confidence
+##### 📝 Recipe to avoid losing confidence
 
 1. **Avoid being stuck too long:** Coding is tricky because you may be very close to solving a problem but you are stuck and you don't realize it. Or maybe you don't know how to start a problem but a quick 5 min talk with a mentor will clear the way. You need to ask for help no longer than 15 minutes after trying on your own.
 
@@ -53,7 +53,7 @@ During all your life you've learned the same way, the educational system has put
 
 We know how to train you: we have done it over and over again, but we'll train in such a different way that you may not like it at first, it's only normal that your mind will want to go back to learning "slow but safe", without having to be uncomfortable or constantly challenged by our system.
 
-##### 📝 Recipe to avoid loosing trust in our methods
+##### 📝 Recipe to avoid losing trust in our methods
 
 1. **Follow the method!** How can you know if it works if you don't try it properly? Do the homework BEFORE coming to class (flipped classroom), follow the syllabus in the recommended order, do the small exercises before jumping to the projects, come to every class, don't read books that will slow you down, etc.
 
@@ -71,7 +71,7 @@ These are not small numbers, 60% in a day and 90% if you don't practice for a we
 
 1. **Talk to your spouse, partner and family:** You need a break from almost everything, we know life it's challenging enough already to be adding more responsibilities, but this is only for a short period of your time. Rewards are endless. Everyone needs to fall in line! Try opening up the most time you can, having a private desk to work without distraction, etc. Your home has to be in sync with this moment of your life.
 
-2. **Talk to your boss:** You may need a few extra hours, weekend time, etc. Be smart about it or he/she could sabotage it because he is afraid of loosing you.
+2. **Talk to your boss:** You may need a few extra hours, weekend time, etc. Be smart about it or he/she could sabotage it because he is afraid of losing you.
 
 3. **Don't miss class:** Missing classes is our biggest concern, we are very concerned about attendancy because it has show that is the #1 deterrent to your motivation, missing two classes in a row is the perfect storm. You will need to have 1-on-1 mentoring and double the hours thru that week to avoid staying behind.
 
