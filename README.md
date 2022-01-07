@@ -34,7 +34,7 @@ Note: more types of content can be added in the future.
 This list of contents is just a draft, some can be deleted or more can be added.
 
   1. Lessons: Long articles explaining big concepts like: HTML, JS Events, CSS Selectors, etc.
-  2. Error: Explanation of a particular error that typically occurs when coding, for example: "Cannot do map of undefined"
+  2. Error: Explanation of a particular error that typically occurs when coding, for example: "Cannot do map of undefined".
   3. How To: Small articles/videos on different shot how to's, like: How to start a new react.js project.
 
 ### Tagging content:

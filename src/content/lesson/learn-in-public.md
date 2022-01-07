@@ -11,13 +11,13 @@ canonical: ""
 ---
 
 If you are interested in learning to code efficiently but fast, you should do it in public, this is not a theory but a fact.  
-In this article I'm going to try explain why it works and how you can do it.
+In this article, I'm going to try explain why it works and how you can do it.
 
 ## What is Learn In Public
 
 Learning in private: The traditional educational system is designed to be a private experience, you read books, attend to class, complete projects and assessments, and you graduate at some point, we are so used to this workflow that it's already embedded into our student's hearts.
 
-When you learn in public you make social media, your notebook and discussion forum, you write about what you just learn in different ways like blog posts, tweets, newsletters, drawings, memes, etc.
+When you learn in public, you make social media, your notebook and discussion forum, you write about what you just learnt in different ways like blog posts, tweets, newsletters, drawings, memes, etc.
 
 ## Why is this so important?
 
