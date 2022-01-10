@@ -121,7 +121,8 @@ After you have made some changes to the files of the project, you may want to sa
 
 To create a commit, you will need to do two things:
 
-+ **Tell GIT which files to include in the commit**, with `git add`.  If a file has not changed since the previous commit (the "parent" commit), GIT will automatically include it in the commit you are about to perform.   You will only need to add files that you have newly created or modified.  Note that it adds directories recursively, so `git add` . will add everything that has changed.
++ **Tell GIT which files to include in the commit**, with `git add`.  If a file has ***not*** changed since the previous commit (the "parent" commit), GIT will automatically include it in the commit you are about to perform. You will only need to ***explicitly*** add files that you have newly created or modified.  Note that it adds directories recursively, so `git add . ` will add everything that has changed (the ` . ` signifies everything in the current folder).
+
 + **Call `git commit` to create the commit object.**  The new commit object will have the current HEAD as its parent (after the commit is completed, HEAD will point to the new commit object).
   
 Say you create three commits this way…your repository will look like this:
@@ -274,7 +275,12 @@ For example, when using a repository from github.com, you can find the remote in
 
 If you are working on a local repository and you want to connect it to a remote repository, you can add a remote.  First, look for the remote URL in the remote repository.
 
-Once you know the remote URL, you can add it to your project.  You have to pick an alias for the remote – by default we normally use "origin."  Add the remote by executing the following command:
+Once you know the remote URL, you can add it to your project.  
+
+You have to pick an alias for the remote – we normally use `origin`, but it is just an arbitrary word and you can use anything.  
+In our boilerplates you will already have an origin set-up from the boilerplate's repository. In those cases you would need to use another term (e.g. `new` or `new-origin`, etc). 
+
+Add the remote by executing the following command:
 
 ```bash
 git remote add origin [remote-url]
@@ -303,7 +309,7 @@ After you solve any and all conflicts, you can go ahead and try to *git push* ag
 Let’s say that there is a branch in the remote repository called "development."  You can download this branch into your own repository by performing the following command:
 
 ```bash
-git pull origin new-branch
+git pull origin development
 ```
 
 The `git pull` command will try to merge all the incoming files into your local branch.  If it finds any conflicting code, it will give you an error and ask you to resolve those conflicts.
@@ -315,30 +321,30 @@ After you fix the conflicts, you can `git add` the files and `git commit` everyt
 
 To make a copy of a remote repository for your own use, run git clone [remote-specification].
 
-For example, if the remote repository is located in `git@github.com:alesanchezr/myfistrepo.git`, you would run:
+For example, if the remote repository is located in `git@github.com:alesanchezr/myfirstrepo.git`, you would run:
 
 ```bash
-git clone git@github.com:alesanchezr/myfistrepo.git
+git clone git@github.com:alesanchezr/myfirstrepo.git
 ```
 
 This would do the following:
 
 + Create a directory `myfirstrepo` and initialize a repository in it.
 + Copy all the commit objects from the project into the new repository.
-+ **Add a remote repository** reference named `origin` to the new repository, and associate *origin* with `git@github.com:alesanchezr/myfistrepo.git` as described below. (Like *master*, *origin* is a default name used by Git.)
++ **Add a remote repository** reference named `origin` to the new repository, and associate *origin* with `git@github.com:alesanchezr/myfirstrepo.git` as described below. (Like *master*, *origin* is a default name used by Git.)
 + **Add remote heads** named `origin/\[head-name\]` that correspond to the heads in the remote repository.
 + Set up one head in the repository to **track** the corresponding `origin/\[current-head-name\]` head, namely the one that was currently active in the repository being cloned.
   
 A **remote repository reference** is an alias GIT uses to refer to the remote repository.  Generally it will be *origin*.  Among other things, GIT internally associates the *remote-specification* with the remote repository reference, so you will never need to refer to the original repository again.
 
-From now one, you will be able to say `origin` instead of `git@github.com:alesanchezr/myfistrepo.git`.
+From now one, you will be able to say `origin` instead of `git@github.com:alesanchezr/myfirstrepo.git`.
 
 A branch that **tracks** a remote branch retains an internal reference to the remote branch.  This is a convenience that allows you to avoid typing the name of the remote branch in many situations, as will be described below.
 
 The important thing to note is that you now have a complete copy of your friend’s entire repository.  When you branch, commit, merge, or otherwise operate on the repository, you operate only on your own repository.  GIT only interacts with your friend’s repository when you specifically ask it to do so.
 
 [[info]]
-|:link: Say your friend’s repository looks like this:<br>Here is a list of other great resources to learn GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br>You should especially try these two:<br>• https://try.github.io<br>• http://learngitbranching.js.org/
+|:link: Say your friend’s repository looks like this:<br>Here is a list of other great resources to learn GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br>You should especially try these two:<br>• https://try.github.io<br>• http://learngitbranching.js.org/ .
   
   
 
