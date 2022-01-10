@@ -256,7 +256,7 @@ div class="modal" tabindex="-1" role="dialog">
 ## Lo que realmente necesitas saber sobre Bootstrap
 ***
 
-La documentación oficial de Bootstrap es increible!! No necesitamos copiar y pegar todos los post.  Por favor visita los siguientes sitios web y enfócate en leer estos temas:
+La documentación oficial de Bootstrap es increible! No necesitamos copiar y pegar todos los post.  Por favor visita los siguientes sitios web y enfócate en leer estos temas:
 
 + [The grid system.](https://getbootstrap.com/docs/4.1/layout/grid/)
 + [Styling Forms.](https://getbootstrap.com/docs/4.1/components/forms/)
