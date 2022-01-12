@@ -70,7 +70,7 @@
     "front-matter": "^3.2.1",
     "gatsby-remark-copy-linked-files": "^2.3.19",
     "image-scraper": "^0.2.1",
-    "markdown-it": "^8.4.2",
+    "markdown-it": "^12.3.2",
     "markdown-it-fontawesome": "^0.3.0",
     "mime-types": "^2.1.27",
     "node-html-to-image": "^2.1.1",
