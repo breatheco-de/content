@@ -216,7 +216,7 @@ git merge [head]
 git pull . [head]
 ```
 
-These commands perform the following operations.  Let the current head be called *current*, and the head to be merged called *merge*
+These commands perform the following operations.  Let the current head be called *current*, and the head to be merged called *merge*:
 
 + Identify the common ancestor of *current* and *merge*.  Call it *ancestor-commit*.
 + Deal with the easy cases.  If the *ancestor-commit* equals merge, then do nothing.  If *ancestor-commit* equals current, then do a **fast forward merge.**
