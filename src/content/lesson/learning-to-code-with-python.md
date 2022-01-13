@@ -1,4 +1,4 @@
----
+git checkout master---
 title: "Learning to code with Python"
 subtitle: "Python is the fastest-growing programing language in the world, it does almost everything you can think of and the best news is that it's one of the easiest to learn"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
@@ -26,17 +26,22 @@ Variables are not a new concept, anybody who knows math is familiar with the con
 A variable is a container in which you can store any data.  For example, you can have the following variable:
 
 ```python
-age = 24;
+age = 24
 ```
 
 ![what is javascript](../../assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
 
-With virtually any programming language you can create as many variables as you want or need.  To start you have to **declare that variable’s name** using the term: *var* followed by a _unique_ name (relative to the document/project).
+With virtually any programming language you can create as many variables as you want or need, all you have to do is type one word in your editor and that will become your variable, for example, this is how we declare a variable "name":
 
-The **variable name** is the most effective way we have to describe the variable content, so use it wisely.  It is important to choose a name that clearly tells you (and other coders) about the data that is being stored in the variable.  If we choose a bad or an ambiguous name, our code will be almost impossible to understand, ergo it becomes unusable.  For example, let’s say we change the name of our "age" variable to `a`, that would be:
+```python
+name = "Alex"
+```
+
+The **variable name** is the most effective way we have to describe the variable content, so use it wisely.  It is important to choose a name that clearly tells you (and other coders) about the data that is being stored in the variable.  If we choose a bad or an ambiguous name, our code will be almost impossible to understand, ergo it becomes unusable.  For example, let’s say we change the name of our "name" variable to `myVar`, that would be:
 
 ```python
 a = 24 
+myVar = "Alex"
 ```
 
 As you can see above, the new variable name does not tell us anything about the data that is being stored and why we are using it.
@@ -44,18 +49,21 @@ As you can see above, the new variable name does not tell us anything about the 
 Choosing the name for your variable really matters, so we beg you not to use generic names.  Be descriptive!  A vague name will make it difficult to understand the purpose of the variable, especially for other coders (including your future self).
 
 ## Assigning a Value to Variables
-***
 
-As developers, we can set the value of a variable at any time using the `=` operator.  You do not have to set a value when you first declare a variable.  You can set, or re-set (override) the value as many times as you want, whenever you want.  The value will always be the last one you set.  Below are a few examples on how to set values to variables:
+As developers, we can set the value of a variable at any time using the `=` operator.  You have to set a value when you first declare a variable, but re-set (override) its value as many times as you want, whenever you want.  The value will always be the last one you set.  Below are a few examples on how to set values to variables:
 
 ```python
 a = 24
 a = 25
 a = 80
+name = "Bob"
+name = "Joe"
+name = "Rita"
 ```
 
+Note: the variable name in this code will end up having the value `Rita`, it will be as if `Bob` and `Joe` never existed.
+
 ### No special keywords to declare a variable
-***
 
 Other languages like javascript make you use a special statement before the variable name in order to "declare" the variable for the first time like this:
 
@@ -71,48 +79,44 @@ let age : number = 12
 
 > Note: This means that the variable age will always contain a number inside.
 
-But Python does not need any type declaration or special keywords, just type `age = 12` and that will be your new variable `age` with value 12.
+But Python does not need any type declaration or special keywords, just type `name = "Rita"` and that will be your new variable `name` with value `Rita`.
 
-Variable values are subject to change over time.  To retrieve a variable value you can print the value on the screen at any time.  Each language has its own methods to print; this is how you do it in JavaScript:
+Variable values are subject to change over time.  To retrieve a variable value you can print the value on the screen at any time.  Each language has its own methods to print; this is how you do it in Python:
 
-<iframe src="https://repl.it/F0R2/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```python
+name = "Rita"
+print("My name is "+name)
 
-<div align="right"><small><a href="https://repl.it/F0R2/1?lite=true" >Click to open demo in a new window</a></small></div>
-
-
+# The command line output for this code will be "My name is Rita"
+```
 
 ## Data Types
-***
+
 Variables can have different types of values.  Some of them are available only in specific programming languages, but almost all of them have the following types
 
-|**Data-Type**   |**Posible Values**   |**Description**   |
-|:---------------|:--------------------|:-----------------|
-|Boolean         |True \| False         |Booleans are meant for logical operations.  If you ask a computer something like: "Does X equal 3?"  It will answer with a boolean (true or false).    |
-|String        |Any series of characters     |Strings are the only way we have to store words (series of characters).  Note: strings need to be encased within quotation marks.    |
-|Number    |Only numbers     |Integer numbers, negative numbers, decimal numbers, floats, etc.  All possible types of numbers.<br>Note: If you enclose a number within quotation marks, JavaScript will treat it as a string.    |
-|List     |A list or array of any type of value    |A succession of any type of values.  They can be mixed types of values; for example: [2, 3, ‘Word’, 2, 1, null, 232, 5, 3, 23, 234, 5, ‘hello’].     |
-|Objects    |Any object    |You can create you own data-types with more complex operations.  We will talk more about this later.    |
-|None     |Only null    |Is used to specify when the database or any other function does not return anything.   |
-
-<iframe src="https://repl.it/F05K/3?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
-
-<div align="right"><small><a href="https://repl.it/F05K/3?lite=true">Click to open demo in a new window</a></small></div>
-
+|**Data-Type**  |**Posible Types**                  |**Possible values**                            |
+|:--------------|:----------------------------------|:----------------------------------------------|
+| Nothing       |`None`                             | `x=None`                                      |
+| Text Type     |`str`                              | `x="bob"`                                     |
+| Numeric Types |`int`, `float`, `complex`          | `x=2`, `x=2.012`, `x = 1j`                    |
+| Sequence Types|`list`, `tuple`, `range`           |`x=[34,32,54]`,`x=(34,32,54)`,`x=range(6)`     |
+| Mapping Type  |`dict`                             |`x={"name": "Bob", "last_name": "Dylan"}       |
+| Set Types     |`set`, `frozenset`                 |`x={"apple", "banana", "cherry"}               |
+| Boolean Type  |`bool`                             |`x=True` or `x=False`                          |
+| Binary Types  |`bytes`,`bytearray`, `memoryview`  |`to big to display, we will not be using them` |       
 
 
 
 ## Operations
-***
 
 What operations can I do to variables?  Depending on the data-type you have a few different possibilities:
 
 + Numbers are easy – you can do whatever math operation you want.
 + Strings can be concatenated (merged), split, converted to Upper or Lower Case, etc.
-+ You cannot do much to Null, Booleans and Undefined data-types.
-+ We will talk about Arrays and Objects in a different section.  They require a lot more attention.
++ You cannot do much to None variables or Booleans.
++ We will talk about Lists, Tuples and Dict's in a different section.  They require a lot more attention.
 
 ## Functions
-***
 
 Functions are pieces of code that can be re-used several times during runtime regardless of their position in the code.  There are hundreds of reasons to use functions, but here are the 2 most important ones:
 
@@ -120,13 +124,12 @@ Functions are pieces of code that can be re-used several times during runtime re
 + Re-use: Any normal development will take at least 5,000 lines of code.  It is redundant and inefficent to keep writing the same code over and over again.
 
 ## Declaring a Function
-***
 
-To declare a function in JavaScript you have to start using the word `function` followed by the name you want for that function.
+To declare a function in Python you have to start using the word `def` followed by the name you want for that function and a colon `:` aftewars.
 
 You must then specify the parameters (inputs) that the function is going to have within parentheses.
 
-Then, you will open a curly bracket and write the code that your function must always perform.  Once you are finished, you then close the curly bracket and now your function is ready to be used!
+Then, you jump the line (hit enter) and write the code that your function must always perform.  
 
 **Note:**  To return something you use the `return` word at any time within the content of your function (between the curly brackets).
 
@@ -136,12 +139,10 @@ Then, you will open a curly bracket and write the code that your function must a
 def multiply (param1, param2):
   print param1 * param2
 ```
-<iframe src="https://repl.it/F10t/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<div align="right"><small><a href="https://repl.it/F10t/0?lite=true">Click to open demo in a new window</a></small></div>
+Note: please note that the indentation (white spaces) on the left side of the line number two are rally important, all the contnet of the function must be indented to the right.
 
 ## Parameters and Function Scope
-***
 
 The scope of a variable determines where that variable is available to be used.  There are two main types of scopes:
 
@@ -149,16 +150,27 @@ The scope of a variable determines where that variable is available to be used. 
 
 A local variable is available only inside the scope of the nearest curly brackets.  For example, variables that are passed as parameters into functions are only available within the content of that particular function.
 
+```python
+def print_your_name():
+    name = "Bob"
+    print(name) # This will print "Bob"
+    
+print(name) # This will not print "Bob" because name does not exist on this scope.
+```
+
 ### Global Variables
 
 If you declare a variable at the beginning of your code, it will be available throughout the entire code – including during the content of any particular function.
 
-<iframe src="https://repl.it/F10t/2?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
-
-<div align="right"><small><a href="https://repl.it/F10t/2?lite=true">Click to open demo in a new window</a></small></div>
+```python
+name = "Bob"
+def print_your_name():
+    print(name) # This will print "Bob"
+    
+print(name) # This will print "Bob" as well.
+```
 
 ## Logical Operations
-***
 
 Computers think of everything in black or white.  Everything is either True or False.  All the decisions in a computer are reduced into a simple **Boolean**.  You can prepare a computer to solve particular problems if you write code that asks the proper questions required to solve that problem.
 
@@ -190,7 +202,6 @@ You can group the logical operations in parentheses, and also use nested parenth
 
 
 ## Control the Flow of Your Code
-***
 
 Okay, now is when everything starts getting fun!  To control your application’s flow you will have several options, and you are going to use each of them every single day.  So, you must to become comfortable using them.
 
@@ -200,28 +211,20 @@ The first tool you have is the `if…else` conditional.  It is very easy.  You c
 
 The `if` statement allows you to execute a piece of code if certain conditions are met (or are true).  The "else" statement will execute an alternate piece of code in case the condition is false.
 
-```py
-if (number < 18): 
-  print("Hello")
- else 
-  print("Good bye!")
+```python
+if number < 18:
+    print("Hello")
+else:
+    print("Good bye!")
+
 ```
 
 ## Switch
-***
 
-Similar to if…else… but a little bit more organized.  Here you will specify all of the possible case scenarios – including the `default scenario` that will occur if none of the other scenarios happen.
-
-<iframe src="https://repl.it/F2EK/5?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
-
-<div align="right"><small><a href="https://repl.it/F2EK/5?lite=true">Click to open demo in a new window</a></small></div>
-
-[[info]]
-|Use `switch` instead of `if` when:<br><br>• You are comparing multiple possible conditions of an expression and the expression itself is non-trivial.<br>• You have multiple values that may require the same code.<br>• You have some values that will require essentially all of another value’s execution, plus only a few statements.<br><br>Use `if` instead of `switch` when:<br><br>• You want to test for the truthfulness of an expression.<br>• You only have a single affirmative test.<br>• You need to evaluate different expressions for each branch.
+Python does not have a switch statement like some other languages like Javascript, Java or Php.
 
 
 ## While
-***
 
 It is possible to loop a segment of your code as many times as you want or need.  Loops are one of the most important tools for developers these days.
 
@@ -229,60 +232,44 @@ Imagine you are inside an elevator – the elevator needs to loop throughout the
 
 A `while` loop will execute a block of code as long as a condition is true.  Once the condition returns false, the loop will stop executing the block of code.
 
-```py
-var sum = 0
-var number = 1
-while (number <= 50):
-  sum += number
-  number += 1
-print("Sum = " + sum);
+```python
+sum = 0
+while sum <= 50:
+  sum += 1
+
+print("Sum = " + sum)
 ```
 
 
 ## For
-***
 
 `For` is similar to the `while,` with the only difference being that you have to specify the stopping condition from the beginning.  For that reason, `for` is a little more organized and easier to understand.
 
 Note:  When looping, make sure that the statement will eventually return false so that you avoid an infinite loop.  In an infinite loop, the code executes indefinitely and will cause your browser to crash.
 
-<iframe width="578" height="325" src="https://www.youtube.com/embed/TSMzvFwpE_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<div align="right"><small><a href="https://www.youtube.com/embed/TSMzvFwpE_A">Click here to open video in a new window</a></small></div>
-
-
 ```python
 for i in range(10):
-  print("this is number", i)
-
+    print(i)
 ```
 
-## For..in
-***
+## Looping a dictionary (or map)
 
-`For…in` loops can be to used to loop through the properties of an object.  Within the parentheses, you can set any name to represent the information within the object, and then include the name of the object:
-```py
-for var in object:
-# code block to be executed
-```
+In python you can store a group of related values in key => value pairs like this:
 
 ```python
-var dog = [
-  species: "Great Dane",
-  size: "Extra Large",
-  age: "3" ,
-  name: "Rocky"
-]
+var dog = {
+  "breed": "Great Dane",
+  "size": "Extra Large",
+  "age": 3 ,
+  "name": "Rocky"
+}
 
-
-
-for items in dog:
-  print(dog[items])
+for key in dog:
+  print(dog[key])
 
 ```
 
 ## So.. tell me, did you like coding?
-***
 
 Coding is like Taco Bell:  you always use the same ingredients except they are just mixed in different ways.  You know how to write code, but…do you know how to solve real problems?
 
