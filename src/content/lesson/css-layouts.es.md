@@ -48,6 +48,20 @@ En el siguiente ejemplo puedes ver como dividir en dos el contenido de una pági
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/">Haz clic aquí para abrir la demo en una nueva ventana</a></small></div>
 
+## Propiedad box-sizing 
+
+Esta importante propiedad está relaciones con el modelo de cajas y define la manera en que se calcula la altura y el ancho del elemento: debiese incluir el boder, padding y puede que incluya o no el margin.
+
++ Si el valor es **content-box**, ancho y altura solo aplican al contenido (`content`) del elemento.
++ Si el valor es **border-box**, ancho y altura aplican a todas las partes del elemento: content, padding and borders. 
+
+
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/zvL6aet3/2/embed/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<div align="right"><small><a href="https://jsfiddle.net/BreatheCode/zvL6aet3/">Click here to open demo in a new window</a></small></div>
+
+
+
 # Ancho y Altura de las Cajas
 ***
 
@@ -87,12 +101,14 @@ Es común encontrar este atributo en los menús de navegación, para los activit
 
 |**Nombre**   |**Descripción**   |
 |:----------|:-----------------|
-|Inline     |Es el valor por defecto de las etiquetas`<strong>`, `<i>`, `<a>`, `<span>`, etc.  Los elementos se comportarán como un texto y no tendrán límites definidos (ni width, ni heigh).    |
+|
+|Es el valor por defecto de las etiquetas`<strong>`, `<i>`, `<a>`, `<span>`, etc.  Los elementos se comportarán como un texto y no tendrán límites definidos (ni width, ni heigh).    |
 |Block   |Es el valor por defecto que tienen las etiquetas `<div>`, `<p>`, `<h>`, etc.  El elemento ocupará toda la línea de la página desplazando a los demás elementos por encima o por debajo de él.    |
 |Inline-Block    |Lo mejor de ambos mundos.  Sirve para tener varios contenedores en una misma línea pero cada uno respetando sus límites (width y heigh).  Gracias a él existen páginas como Pinterest que permiten ver el diseño masonery.   |
+|Flex    |Presentada hace poco años atrás, viene a arreglar los mayores problemas con display. Flex se utiliza para que las cajas sean flexibles. Cuando aplicas `display:flex`a un div, todos los hijos podrán compartir una misma fila. |
 |None    |Hace que el elemento se oculte (invisible) y no ocupe ningún espacio dentro del documento.   |
 
-Para entender display perfectamente lo mejor es… ¡ponernos a prácticar!.
+Para entender display a cabalidad lo mejor es… ¡que nos pongamos a prácticar!.
 
 ## Atributo: Float
 ***
