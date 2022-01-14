@@ -101,7 +101,7 @@ Es común encontrar este atributo en los menús de navegación, para los activit
 
 |**Nombre**   |**Descripción**   |
 |:----------|:-----------------|
-|Inline |Es el valor por defecto de las etiquetas`<strong>`, `<i>`, `<a>`, `<span>`, etc.  Los elementos se comportarán como un texto y no tendrán límites definidos (ni width, ni heigh).    |
+|Inline   |Es el valor por defecto de las etiquetas`<strong>`, `<i>`, `<a>`, `<span>`, etc.  Los elementos se comportarán como un texto y no tendrán límites definidos (ni width, ni heigh).    |
 |Block   |Es el valor por defecto que tienen las etiquetas `<div>`, `<p>`, `<h>`, etc.  El elemento ocupará toda la línea de la página desplazando a los demás elementos por encima o por debajo de él.    |
 |Inline-Block    |Lo mejor de ambos mundos.  Sirve para tener varios contenedores en una misma línea pero cada uno respetando sus límites (width y heigh).  Gracias a él existen páginas como Pinterest que permiten ver el diseño masonery.   |
 |Flex    |Presentada hace poco años atrás, viene a arreglar los mayores problemas con display. Flex se utiliza para que las cajas sean flexibles. Cuando aplicas `display:flex`a un div, todos los hijos podrán compartir una misma fila. |
