@@ -121,7 +121,8 @@ After you have made some changes to the files of the project, you may want to sa
 
 To create a commit, you will need to do two things:
 
-+ **Tell GIT which files to include in the commit**, with `git add`.  If a file has not changed since the previous commit (the "parent" commit), GIT will automatically include it in the commit you are about to perform.   You will only need to add files that you have newly created or modified.  Note that it adds directories recursively, so `git add` . will add everything that has changed.
++ **Tell GIT which files to include in the commit**, with `git add`.  If a file has ***not*** changed since the previous commit (the "parent" commit), GIT will automatically include it in the commit you are about to perform. You will only need to ***explicitly*** add files that you have newly created or modified.  Note that it adds directories recursively, so `git add . ` will add everything that has changed (the ` . ` signifies everything in the current folder).
+
 + **Call `git commit` to create the commit object.**  The new commit object will have the current HEAD as its parent (after the commit is completed, HEAD will point to the new commit object).
   
 Say you create three commits this way…your repository will look like this:
@@ -215,7 +216,7 @@ git merge [head]
 git pull . [head]
 ```
 
-These commands perform the following operations.  Let the current head be called *current*, and the head to be merged called *merge*
+These commands perform the following operations.  Let the current head be called *current*, and the head to be merged called *merge*:
 
 + Identify the common ancestor of *current* and *merge*.  Call it *ancestor-commit*.
 + Deal with the easy cases.  If the *ancestor-commit* equals merge, then do nothing.  If *ancestor-commit* equals current, then do a **fast forward merge.**
@@ -274,7 +275,12 @@ For example, when using a repository from github.com, you can find the remote in
 
 If you are working on a local repository and you want to connect it to a remote repository, you can add a remote.  First, look for the remote URL in the remote repository.
 
-Once you know the remote URL, you can add it to your project.  You have to pick an alias for the remote – by default we normally use "origin."  Add the remote by executing the following command:
+Once you know the remote URL, you can add it to your project.  
+
+You have to pick an alias for the remote – we normally use `origin`, but it is just an arbitrary word and you can use anything.  
+In our boilerplates you will already have an origin set-up from the boilerplate's repository. In those cases you would need to use another term (e.g. `new` or `new-origin`, etc). 
+
+Add the remote by executing the following command:
 
 ```bash
 git remote add origin [remote-url]
@@ -303,7 +309,7 @@ After you solve any and all conflicts, you can go ahead and try to *git push* ag
 Let’s say that there is a branch in the remote repository called "development."  You can download this branch into your own repository by performing the following command:
 
 ```bash
-git pull origin new-branch
+git pull origin development
 ```
 
 The `git pull` command will try to merge all the incoming files into your local branch.  If it finds any conflicting code, it will give you an error and ask you to resolve those conflicts.
