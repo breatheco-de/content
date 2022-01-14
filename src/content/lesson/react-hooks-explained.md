@@ -120,6 +120,7 @@ export default Clock;
 3. Showing an input on the screen: The best practice to get the content from any input is by storing it on a state variable- this is called "Controlled Input", 
 
     ![Controlled input field](https://s10.gifyu.com/images/ezgif.com-gif-maker-399b80fa21c077ab6.gif) [![Edit controlledinput](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/controlledinput-rbh0m?fontsize=14&hidenavigation=1&theme=dark)
+    
 ```jsx
 const ControlledInputForm = (props) => {
   //     holds the value of the input
@@ -146,8 +147,8 @@ const ControlledInputForm = (props) => {
   );
 };
 ControlledInputForm.propTypes = {};
-
 export default ControlledInputForm;
+
 ```
 
 4. Opening/Closing (show/hide): A typical use case is having a dialog that asks a question or allows a user to sign up for a newsletter.
@@ -189,6 +190,8 @@ ReactDOM.render(<Modal />, document.getElementById("root"));
 | 5. Thousands of other possible applications. | |
 
 Let's explain this hook with a small Modal window example. Here is the live code:
+
+<iframe src="https://codesandbox.io/embed/goofy-sutherland-vb6de?fontsize=14" title="Modal with hooks" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 To implement a "Modal Window" we decided to create a hooked variable called `opened` that is `true` if the modal window has to be shown to the user.
 
