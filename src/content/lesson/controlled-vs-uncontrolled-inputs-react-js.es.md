@@ -20,7 +20,7 @@ Si quieres recuperar un valor de una entrada en JavaScript / HTML simple, puede 
 ```jsx
 
 // Suponiendo que tienes esta entrada con un ID=first_name:
-<input type="text id="first_name" /> 
+<input type="text" id="first_name" /> 
 
 // En javascript puedes usar:
 const value = document.querySelector('#first_name').value;
