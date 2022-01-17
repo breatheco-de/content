@@ -122,7 +122,7 @@ var myNewArray = [];
     console.log(myNewArray); //esto imprimirá ['Pedro','Juan','Maria'];
 ```
 
-## Removing/Adding from the Beginning
+## Eliminando/Añadiendo desde el Principio
 ***
 
 Los métodos shift y unshift son como push y pop con la diferencia de que solo funciona desde al principio de la lista.
