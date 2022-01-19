@@ -50,16 +50,16 @@ En el siguiente ejemplo puedes ver como dividir en dos el contenido de una pági
 
 ## Propiedad box-sizing 
 
-Esta importante propiedad está relaciones con el modelo de cajas y define la manera en que se calcula la altura y el ancho del elemento: debiese incluir el boder, padding y puede que incluya o no el margin.
+Esta importante propiedad está relacionada con el modelo de cajas y define la manera en que se calcula la altura y el ancho del elemento: debiese incluir el `border`, `padding` y puede que incluya o no el `margin`.
 
 + Si el valor es **content-box**, ancho y altura solo aplican al contenido (`content`) del elemento.
+
 + Si el valor es **border-box**, ancho y altura aplican a todas las partes del elemento: content, padding and borders. 
 
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/zvL6aet3/2/embed/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="https://jsfiddle.net/BreatheCode/zvL6aet3/">Click here to open demo in a new window</a></small></div>
-
 
 
 # Ancho y Altura de las Cajas
