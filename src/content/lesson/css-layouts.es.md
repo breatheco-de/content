@@ -50,22 +50,22 @@ En el siguiente ejemplo puedes ver como dividir en dos el contenido de una pági
 
 ## Propiedad box-sizing 
 
-Esta importante propiedad está relacionada con el modelo de cajas y define la manera en que se calcula la altura y el ancho del elemento: debiese incluir el `border`, `padding` y puede que incluya o no el `margin`.
+Esta importante propiedad está relacionada con el modelo de cajas y define la manera en que se calcula la altura y el ancho del elemento: debiese incluir el `border`, `padding` y puede que incluir o no el `margin`.
 
 + Si el valor es **content-box**, ancho y altura solo aplican al contenido (`content`) del elemento.
 
-+ Si el valor es **border-box**, ancho y altura aplican a todas las partes del elemento: content, padding and borders. 
++ Si el valor es **border-box**, ancho y altura aplican a todas las partes del elemento: `content`, `padding` and `borders`. 
 
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/zvL6aet3/2/embed/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="https://jsfiddle.net/BreatheCode/zvL6aet3/">Click here to open demo in a new window</a></small></div>
+<div align="right"><small><a href="https://jsfiddle.net/BreatheCode/zvL6aet3/">Hax clic aquí para abrir el demo en una nueva ventana página</a></small></div>
 
 
 # Ancho y Altura de las Cajas
 ***
 
-Todas las cajas tienen dos atributos que definen su tamaño: width (ancho) y height (altura). En algunos casos se ajustan automáticamente, pero en otros debemos asignarlos manualmente o colocarlos porcentualmente (relativo al contenido padre por ejemplo).
+Todas las cajas tienen dos atributos que definen su tamaño: `width` (ancho) y `height` (altura). En algunos casos se ajustan automáticamente, pero en otros debemos asignarlos manualmente o colocarlos porcentualmente (relativo al contenido padre por ejemplo).
 
 ## Atributo: Posición
 ***
@@ -104,10 +104,10 @@ Es común encontrar este atributo en los menús de navegación, para los activit
 |Inline   |Es el valor por defecto de las etiquetas`<strong>`, `<i>`, `<a>`, `<span>`, etc.  Los elementos se comportarán como un texto y no tendrán límites definidos (ni width, ni heigh).    |
 |Block   |Es el valor por defecto que tienen las etiquetas `<div>`, `<p>`, `<h>`, etc.  El elemento ocupará toda la línea de la página desplazando a los demás elementos por encima o por debajo de él.    |
 |Inline-Block    |Lo mejor de ambos mundos.  Sirve para tener varios contenedores en una misma línea pero cada uno respetando sus límites (width y heigh).  Gracias a él existen páginas como Pinterest que permiten ver el diseño masonery.   |
-|Flex    |Presentada hace poco años atrás, viene a arreglar los mayores problemas con display. Flex se utiliza para que las cajas sean flexibles. Cuando aplicas `display:flex`a un div, todos los hijos podrán compartir una misma fila. |
-|None    |Hace que el elemento se oculte (invisible) y no ocupe ningún espacio dentro del documento.   |
+|Flex    |Presentada hace poco años atrás, viene a arreglar los mayores problemas con display. Flex se utiliza para que las cajas sean flexibles. Cuando aplicas `display:flex` a un div, todos sus hijos podrán compartir una misma fila. |
+|None    |Hace que el elemento se oculte (sea invisible) y no ocupe ningún espacio dentro del documento.   |
 
-Para entender display a cabalidad lo mejor es… ¡que nos pongamos a prácticar!.
+Para entender display a cabalidad lo mejor es… ¡que nos pongamos a practicar!.
 
 ## Atributo: Float
 ***
