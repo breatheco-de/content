@@ -38,7 +38,7 @@ The whole idea is to have a library of hundreds of functions and use them as we 
 
 ```
 let resultOfMultiplication = multiply(2,4);
-// resultOfMultiplication will be 2
+// resultOfMultiplication will be 8
 ```
 
 ## But, why using Functions instead of just doing everything in one big chunk of code?
