@@ -88,7 +88,7 @@ Variable values are subject to change over time.  To retrieve a variable value y
 
 ## Data Types
 ***
-Variables can have different types of values.  Some of them are available only in specific programming languages, but almost all of them have the following types
+Variables might have different types of values.  Some of them are available only in specific programming languages, but almost all of them have the following types
 
 |**Data-Type**   |**Posible Values**   |**Description**   |
 |:---------------|:--------------------|:-----------------|
