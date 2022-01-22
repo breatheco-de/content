@@ -189,20 +189,43 @@ function myEventHandler(eventObj)
 
 
 Depending on the type of event, you will have additional properties that will give you very useful information about what happened when the event was triggered.
-One of the most important such additional properties is the **target.value** property of the event objects related to input fields, which allows us to capture and save user input from input elements.
+
+One of the most important such additional properties is the **target.value** property of the event objects related to input fields. It allows us to capture and save user input from input elements.
+
+You can do it by passing the 'event' argument in the inline `onchange` event's handler function: 
 
 ```html
 
-<input type="text" onchange="myClickHandler();" />
+<input type="text" onchange="myChangeHandler(event)" /> 
  
 <script>
-const myClickHandler = (e) => {
+const myChangeHandler = (e) => {
     console.log(e.target.value);
      // Will print on the console whatever the user types into the input field 
 }
 </script>
 
 ```
+
+Or, you can do it with `addEventListener`:
+
+*index.html:*
+```html
+     <input type="text" />
+```
+
+*index.js:*
+```javascript
+     //index.js file:
+     const myChangeHandler = (e) => {
+          console.log(e.target.value);
+     }
+
+     document.querySelector("input").addEventListener('change', myChangeHandler);
+
+```
+
+Notice that in **addEventListener()** we only reference the function (`myChangeHandler`) and not actually call it (`myChangeHandler()`). If you call it, it will automatically run when the page loads and not wait for an event to be triggered, which is highly undesirable. Therefore we do not need to pass the **Event object** as an argument there (there are no parentheses). The event object is passed automtically by addEventListener to the handler function. 
 
 
 ### Additional information for **mouse events**
@@ -234,7 +257,7 @@ const myClickHandler = (e) => {
 ## Removing the Listeners
 ***
 
-But what if I don’t want to continue listening?  All modern browsers remove the events listeners when you delete the DOM element in which they were applied.  If you don’t want to delete the DOM element, you can remove the listener manually using the .removeEventListener function.
+But what if I don’t want to continue listening?  All modern browsers remove the events listeners when you delete the DOM element in which they were applied.  If you don’t want to delete the DOM element, you can remove the listener manually using the `.removeEventListener()` function.
 
 ```javascript
 
@@ -242,7 +265,7 @@ element.removeEventListener(type, eventHandlerFunction);
 
 ```
 
-You have to use the exact same parameters in the removeEventListener function as the ones you used in the addEventListener function.
+You have to use the exact same parameters in the *removeEventListener* function as the ones you used in the *addEventListener* function.
 
 Here is an example:
 
