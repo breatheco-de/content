@@ -265,7 +265,7 @@ for (var i = 0; i < 10; i++) {
 }
 ```
 
-## For..in
+## For...in
 ***
 
 `For…in` loops can be to used to loop through the properties of an object.  Within the parentheses, you can set any name to represent the information within the object, and then include the name of the object:
@@ -288,7 +288,7 @@ for(items in dog){
 }
 ```
 
-## So.. tell me, did you like coding?
+## So... tell me, did you like coding?
 ***
 
 Coding is like Taco Bell:  you always use the same ingredients except they are just mixed in different ways.  You know how to write code, but…do you know how to solve real problems?
