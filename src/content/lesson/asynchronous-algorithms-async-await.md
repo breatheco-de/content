@@ -11,7 +11,7 @@ tags: ["async","await","promise","asynchronous"]
 ---
 
 ## Asynchronous Programming with JavaScript 
-***
+
 Up to this point, we have used JavaScript code to run simple web applications, which includes: using variables, calling functions and playing with the ***DOM***. On functions, specifically, we even passed functions into another functions  (***callback functions***) and there's more to talk about this.
 
 Let's start by stating that JavaScript is synchronous and single-threaded by definition, i.e: the code is executed from line 1 until the last one, one at a time and in order(ish). Take a look at this example:
@@ -117,17 +117,16 @@ Now, let's assume that we need to load some files from a server, specifically, i
 #### Synchronous image loading
 
 ```javascript
-1    function fetchingImages(){
-3	console.log("Load them!");
-4	//SOME CODE TO LOAD IMAGES
-5	console.log("Images loaded!");
-6    }
-7    function userIsWaiting(){
-8	console.log("I don't like waiting");
-9    }
-10   fetchingImages();
-11   userIsWaiting();
-12
+function fetchingImages(){
+	console.log("Load them!");
+	//SOME CODE TO LOAD IMAGES
+	console.log("Images loaded!");
+}
+function userIsWaiting(){
+	console.log("I don't like waiting");
+}
+fetchingImages();
+userIsWaiting();
 
 /*CONSOLE OUTPUT:
 	> Load them! 			//user starts waiting
@@ -145,22 +144,22 @@ In a real life website, users will have to wait for a long time to see something
 Asynchronous programming is a way to process lines of code and handle the result without affecting the main thread.
 
 ```javascript
-1    function fetchingImages(){
-3	console.log("Load them!");
-4	fetch("the_url_of_the_image").then( (response) => {
-5		if(response.ok){ 
-6			console.log("Images Loaded!!");
-7		} else {
-8			console.log("Uh-oh something went wrong");
-9		}
-10	});
-11   }
-12   function userIsWaiting(){
-13	console.log("I don't like waiting");
-14   }
-15   fetchingImages();
-16   userIsWaiting();
-17
+    function fetchingImages(){
+	console.log("Load them!");
+	fetch("the_url_of_the_image").then( (response) => {
+		if(response.ok){ 
+			console.log("Images Loaded!!");
+		} else {
+			console.log("Uh-oh something went wrong");
+		}
+ 	});
+    }
+    function userIsWaiting(){
+ 	console.log("I don't like waiting");
+    }
+    fetchingImages();
+    userIsWaiting();
+ 
 
 /*CONSOLE OUTPUT:
 	> Load them! 					//user starts waiting
