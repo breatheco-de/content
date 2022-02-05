@@ -51,7 +51,7 @@ By using functions you have the following advantages:
 + Re-use your code by calling the function several times, dramatically reducing your code length.
 + Organize your code: function names will tell you what that piece of code does, you can have all the functions in a separate file and re-use it in all your future developments.
 
-If you think about it, functions are the equivalent of books. The store knowledge and ways of doing things and in future developments you just re-use them instead of having to figure out everything all over again.
+If you think about it, functions are the equivalent of books. They store knowledge and ways of doing things and in future developments you just re-use them instead of having to figure out everything all over again.
 
 ## The Function Scope
 
