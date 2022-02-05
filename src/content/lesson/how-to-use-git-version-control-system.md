@@ -216,7 +216,7 @@ git merge [head]
 git pull . [head]
 ```
 
-These commands perform the following operations.  Let the current head be called *current*, and the head to be merged called *merge*
+These commands perform the following operations.  Let the current head be called *current*, and the head to be merged called *merge*:
 
 + Identify the common ancestor of *current* and *merge*.  Call it *ancestor-commit*.
 + Deal with the easy cases.  If the *ancestor-commit* equals merge, then do nothing.  If *ancestor-commit* equals current, then do a **fast forward merge.**
@@ -314,7 +314,7 @@ git pull origin development
 
 The `git pull` command will try to merge all the incoming files into your local branch.  If it finds any conflicting code, it will give you an error and ask you to resolve those conflicts.
 
-After you fix the conflicts, you can `git add` the files and `git commit` everything to keep a clean error-free copy of your code in the repository.
+After you fix the conflicts, you can `git add` the files and `git commit` everything to keep a cle an error-free copy of your code in the repository.
 
 ## Cloning the Repository (git clone)
 ***
