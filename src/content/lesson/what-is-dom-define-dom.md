@@ -159,7 +159,7 @@ document.getElementsByTagName("div")[0].innerHTML = "abc";
 
 There are 2 functions we can use for that: **appendChild** and **insertBefore.**
 
-Lets say that you have selected a `<div>` with the id=**"myFirstId"** and you want to add a new h1 inside of that div.
+Lets say that you have selected a `<div>` with the id=**"myFirstDiv"** and you want to add a new h1 inside of that div.
 
 **You can use the appendChild function like this:**
 

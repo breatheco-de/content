@@ -1,5 +1,5 @@
 ---
-title: "Conditionals in Programming or Coding"
+title: "Conditionals in Programming with Javascript"
 subtitle: "Using conditions to control the flow of your code and make the computer obey"
 date: "2020-10-19T16:36:31+00:00"
 authors: ["alesanchezr"]
@@ -14,7 +14,7 @@ Mastering the use of conditions is one of the 5 fundamental skills of building a
 
 1. Variables.
 2. `Conditionals`.
-3. Arrays.
+3. Arrays/Objects.
 4. Loops.
 5. Functions.
 
