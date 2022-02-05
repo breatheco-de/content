@@ -237,7 +237,7 @@ bloque de código a ejecutarse
 }
 
 ```python
-var dog = {
+dog = {
   "species": "Great Dane",
   "size": "Extra Large",
   "age": 3 ,
