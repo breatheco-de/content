@@ -89,14 +89,14 @@ Todas las páginas deben empezar con la declaración del  `<DOCTYPE! Html>`, seg
 
 
 ```html{numberLines: true}
-<!– Siempre debemos empezar con una tag HTML para demostrarle al navegador que este es un documento en formato HTML. —>
+<!-- Siempre debemos empezar con una tag HTML para demostrarle al navegador que este es un documento en formato HTML. -->
 <!DOCTYPE html>
 <html>
    <head>
-   <!— Dentro de la tag head vamos a definir toda la información que requiere el navegador ANTES de empezar a interpretar la página. –>
+   <!-- Dentro de la tag head vamos a definir toda la información que requiere el navegador ANTES de empezar a interpretar la página. -->
    </head>
    <body>
-   <!– Dentro de la tag body vamos a definir el contenido de la página. –>
+   <!-- Dentro de la tag body vamos a definir el contenido de la página. -->
    </body>
 </html>
 ```
