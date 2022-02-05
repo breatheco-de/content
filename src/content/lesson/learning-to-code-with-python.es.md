@@ -124,7 +124,6 @@ def multiply (param1, param2):
 <div align="right"><small><a href="https://repl.it/F10t/0?lite=true">Haz clic aquí para abrir el video en una nueva ventana</a></small></div>
 
 ## Parámetros y alcance de la Función
-***
 
 El alcance de una variable determina dónde está disponible esa variable para ser utilizada. Hay dos tipos principales de alcances:
 
@@ -171,7 +170,6 @@ Puedes agrupar las operaciones lógicas entre paréntesis y también usar parén
 
 
 ## Controla el Flujo de Tú Código
-***
 
 Bien, ahora es cuando todo empieza a ponerse divertido! Para controlar el flujo de tu aplicación, tienes varias opciones y las utilizarás cada día. Por lo tanto, debes sentirte cómodo usándolas.
 
@@ -188,7 +186,6 @@ else:
 ```
 
 ## Switch
-***
 
 Python no cuenta con la capacidad de hacer `switch` como otros lenguajes (js, c#, etc.)
 
