@@ -18,7 +18,7 @@ A: Sorting algorithms is one of the first lessons in Computer Science because it
 A: There is more than we can count, the top 10 in popularity are:
 
 ### Bubble Sorting
-It's the simplest of the sorting algorithms. It repeatedly swap adjacent elements to arrange them ascendingly, the algorithm has a "`wall`" that represents the last position to be compared, the wall keeps moving from left to right, shrinking the comparison size until the entire list is sorted.
+It's the simplest of the sorting algorithms. It repeatedly swap adjacent elements to arrange them ascendingly, the algorithm has a "`wall`" that represents the last position to be compared, the wall keeps moving from right to left, shrinking the comparison size until the entire list is sorted.
 
 ![Bubble Sort Explained](../../assets/images/2fef4d85-686b-4bf0-a505-45d3de178fd5.gif)
 
