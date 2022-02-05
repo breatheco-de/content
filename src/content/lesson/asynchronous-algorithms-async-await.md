@@ -42,15 +42,15 @@ Things get more complicated when calling functions inside functions, as we can s
 #### Calling functions
 
 ```javascript
-1    function runFirst(){
-2	console.log("I want to run first");
-3	runSecond();
-4	console.log("I also want to run when runFirst runs");
-5    }
-6    function runSecond(){
-7	console.log("Where am I running?");
-8    }
-9   runFirst();
+    function runFirst(){
+	console.log("I want to run first");
+	runSecond();
+	console.log("I also want to run when runFirst runs");
+    }
+    function runSecond(){
+	console.log("Where am I running?");
+    }
+   runFirst();
 
 /*
 CONSOLE OUTPUT:
