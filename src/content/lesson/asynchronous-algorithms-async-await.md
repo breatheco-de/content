@@ -19,14 +19,14 @@ Let's start by stating that JavaScript is synchronous and single-threaded by def
 #### Synchronous (default)
 
 ```javascript
-1    function runFirst(){
-2 	console.log("first");
-3    }
-4    function runSecond(){
-5 	console.log("second");
-6    }
-7    runSecond();
-8    runFirst();
+    function runFirst(){
+ 	console.log("first");
+    }
+    function runSecond(){
+ 	console.log("second");
+    }
+    runSecond();
+    runFirst();
 
 /*
 CONSOLE OUTPUT:
