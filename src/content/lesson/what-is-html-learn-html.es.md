@@ -85,7 +85,7 @@ Los espacios vacíos (o en blanco) y los saltos de línea son omitidos por el na
 
 # Estructura de página
 ***
-Todas las páginas deben empezar con la declaración del  `<DOCTYPE! Html>`, seguida por las etiquetas que contiend el `<head>` y por último el contenido del `<body>`. Estas tags **obligatoriamente** contienen otras tags dentro de ellas que son anidadas, y eso es así porque separan la página en dos pedazos principales: el HEAD (la cabeza) y el BODY (el cuerpo):
+Todas las páginas deben empezar con la declaración del  `<DOCTYPE! Html>`, seguida por las etiquetas que contiene el `<head>` y por último el contenido del `<body>`. Estas tags **obligatoriamente** contienen otras tags dentro de ellas que son anidadas, y eso es así porque separan la página en dos pedazos principales: el HEAD (la cabeza) y el BODY (el cuerpo):
 
 
 ```html{numberLines: true}

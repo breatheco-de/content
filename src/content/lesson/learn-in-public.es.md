@@ -37,7 +37,7 @@ Cuando aprendes en público, conviertes las redes sociales en tu cuaderno de not
 - Cada vez que construyas un proyecto asegúrate de publicarlo en tus redes sociales, [aquí tienes un ejemplo de publicación de uno de los alumnos de la Academia 4Geeks](https://www.linkedin.com/feed/update/urn:li:activity:6750086679345815552/).
 - Únete a [#100DaysOfCode](https://www.100daysofcode.com/) y hazlo público en twitter, instagram y/o LinkedIn, ¡hay mucha gente siguiendo ese reto, puedes unirte a la discusión y colaboración!
 - Crea un canal de youtube: Empieza a publicar vídeos sobre tu proceso de aprendizaje.
-- Crea un blog: Utiliza medium (recomendado), redit o construye tu propia plataforma de blog y comienza a publicar posts semanales sobre lo que estás aprendiendo.
+- Crea un blog: Utiliza Medium (recomendado), Reddit o construye tu propia plataforma de blog y comienza a publicar posts semanales sobre lo que estás aprendiendo.
 - Acércate a los desarrolladores que admiras: Si te ha gustado un vídeo, escríbele algo al autor.  Si te gusta una librería ¡haz un Pull Request corrigiendo un error ortográfico o mejorando la documentación o codificando una nueva característica!
 - Participa en eventos y conferencias: Reúnete con otros desarrolladores y las oportunidades empezarán a llegar.
 

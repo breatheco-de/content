@@ -161,7 +161,7 @@ We already know each `<tag>`'s behavior.  Thanks to tags we can change the font 
 
 If you wish to further specify how you want the behavior of a specific tag to be, you can use its attributes. To use them, you must define the attributes in the opening tag, like this:
 ```html
-<img src="http://www.mydomain.com/myimage.png" \>
+<img src="http://www.mydomain.com/myimage.png" />
 ```
 
 In this case, we are assigning the "src" property to the `<img>` tag which will indicate the path or URL of the image to be displayed in this container.
