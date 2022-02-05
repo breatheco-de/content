@@ -74,7 +74,7 @@ If when defining the function we do not use the symbol of the curly braces. The 
 
 ## Writing your first unit test with Jest
 
-Jest is the most popular unit testing framework in javascript, it is used by big companies like airbnb, twitter, spotify and has plugins that integrate amazingly with front-end frameworks like React, Vue, Angular, etc.
+Jest is the most popular unit testing framework in javascript, it is used by big companies like Airbnb, Twitter, Spotify and has plugins that integrate amazingly with front-end frameworks like React, Vue, Angular, etc.
 
 It requires almost 0 configuration to start using it, it is extremely fast and the error or feedback messages are very clear.
 
