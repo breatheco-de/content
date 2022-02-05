@@ -38,12 +38,12 @@ The whole idea is to have a library of hundreds of functions and use them as we 
 
 ```
 let resultOfMultiplication = multiply(2,4);
-// resultOfMultiplication will be 2
+// resultOfMultiplication will be 8
 ```
 
 ## But, why using Functions instead of just doing everything in one big chunk of code?
 
-Coding is very abstract and it happens a lot that you have no idea what your wrote yesterday. Before functions existed, algorithms were this huge never-ending series of lines of code where developers would have a hard time and get lost.  It is hard for your brain to follow a procedure/algorithm of great length; the more lines of code, the more abstract it becomes.
+Coding is very abstract and usually, you forget what you wrote yesterday. Before functions existed, algorithms were this huge never-ending series of lines of code where developers would have a hard time and get lost.  It is hard for your brain to follow a procedure/algorithm of great length; the more lines of code, the more abstract it becomes.
 
 By using functions you have the following advantages:
 
@@ -51,7 +51,7 @@ By using functions you have the following advantages:
 + Re-use your code by calling the function several times, dramatically reducing your code length.
 + Organize your code: function names will tell you what that piece of code does, you can have all the functions in a separate file and re-use it in all your future developments.
 
-If you think about it, functions are the equivalent of books. The store knowledge and ways of doing things and in future developments you just re-use them instead of having to figure out everything all over again.
+If you think about it, functions are the equivalent of books. They store knowledge and ways of doing things and in future developments you just re-use them instead of having to figure out everything all over again.
 
 ## The Function Scope
 
