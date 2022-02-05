@@ -28,7 +28,7 @@ Cada incremento se llama "sprint" y tiene los siguientes pasos:
 
 + Comienza en el momento en que escribes **los requisitos de tu aplicación.**
 + Continúa con un plan general aproximado (solo para tener una idea inexacta de la fecha de vencimiento, las tecnologías principales, etc.).
-+ Entonces **continua con el diseño** (interfaces de usuario y arquitectura técnica).
++ Entonces **continúa con el diseño** (interfaces de usuario y arquitectura técnica).
 + Pasamos al desarrollo (escribir código).
 + Terminando con las pruebas y la entrega… y luego empezar de nuevo.
 
