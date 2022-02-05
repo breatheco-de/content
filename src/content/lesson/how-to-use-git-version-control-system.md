@@ -314,7 +314,7 @@ git pull origin development
 
 The `git pull` command will try to merge all the incoming files into your local branch.  If it finds any conflicting code, it will give you an error and ask you to resolve those conflicts.
 
-After you fix the conflicts, you can `git add` the files and `git commit` everything to keep a clean error-free copy of your code in the repository.
+After you fix the conflicts, you can `git add` the files and `git commit` everything to keep a cle an error-free copy of your code in the repository.
 
 ## Cloning the Repository (git clone)
 ***

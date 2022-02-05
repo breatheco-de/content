@@ -179,6 +179,44 @@ function myEventHandler(eventObj)
 
 Dependiendo del tipo de evento, tendrá propiedades adicionales que le darán información muy útil sobre lo que sucedió cuando se activó el evento.
 
+Una de las propiedades adicionales más importantes es la propiedad **target.value** de los objetos de evento relacionados con los campos de entrada (input). Nos permite capturar y guardar la entrada del usuario de los elementos de entrada.
+
+Puede hacerlo pasando el argumento 'evento' en la función de controlador de eventos en línea `onchange`:
+
+```html
+
+<input type="text" onchange="myChangeHandler(event)" /> 
+ 
+<script>
+const myChangeHandler = (e) => {
+    console.log(e.target.value);
+     // Imprimirá en la consola lo que el usuario escriba en el campo de entrada
+}
+</script>
+
+```
+
+O puedes hacerlo con `addEventListener`:
+
+*index.html:*
+```html
+     <input type="text" />
+```
+
+*index.js:*
+```javascript
+     //index.js file:
+     const myChangeHandler = (e) => {
+          console.log(e.target.value);
+     }
+
+     document.querySelector("input").addEventListener('change', myChangeHandler);
+
+```
+
+Ten en cuenta que en **addEventListener()** solo hacemos referencia a la función (`myChangeHandler`) y **no** la llamamos (`myChangeHandler()`). Si la llamas, se ejecutará automáticamente cuando se cargue la página y no esperará a que se gatille/desencadene un evento y ese no es el objetivo. Por lo tanto, no necesitamos pasar el **objeto de evento (event object)** como argumento allí (no hay paréntesis). **AddEventListener** pasa automáticamente el objeto de evento a la función que lo controlav (handler function).
+
+
 ### Información Adicional para ** Eventos del Mouse **
 
 |**Propiedades**    |**Descripción**    |

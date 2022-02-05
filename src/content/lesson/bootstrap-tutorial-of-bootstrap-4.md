@@ -13,7 +13,7 @@ status: "published"
 
 There is light at the end of the tunnel and it is NOT Chuck Norris holding a flashlight.  Finally, someone fixed CSS.  This is a library made by [Mark Otto](https://twitter.com/mdo?lang=en) and [Jacob Thornton](https://twitter.com/fat) – normal people – developers like you and me, and they did great!
 
-These two guys working on Twitter were suffering the same problems we have been with HTML and CSS.  Fed up with the situation, they decided to build a **base CSS Sheet designed to be imported into any website**.  It makes every front-end development work 4x’s easier.
+These two guys working on Twitter were suffering the same problems we have been dealing with in HTML and CSS.  Fed up with the situation, they decided to build a **base CSS Sheet designed to be imported into any website**.  It makes every front-end development work 4x’s easier.
 
 ![bootstrap 4](../../assets/images/335ed387-cbf9-4ffa-9529-1ccf2084e393.jpeg)
 
@@ -97,7 +97,7 @@ We are going to set the layout (using the sm, md and lg column classes) for  two
 
 ## Basic Bootstrap 4 Skeleton
 
-We already know the basic HTML5 skeleton any website needs to have.  Now you just have to add a few lines in your skeleton to make it "Bootstrap compatible":
+We already know the basic HTML5 skeleton that any website needs to have.  Now you just have to add a few lines in your skeleton to make it "Bootstrap compatible":
 
 ```html{numberLines: true}
 <!doctype html>
@@ -133,7 +133,7 @@ The Bootstrap Javascript functionality requires the jQuery and Popper Javascript
 
 ## Bootstrap 4 Components
 
-HTML is so basic, it only has a few tags – we know that already.  But when you browse the web today, you see a different thing… websites today have menus, icons, load-bars, navbars, labels, etc.  Where are those tags?  None of those tags are defined in HTML!
+HTML is so basic that it only has a few tags – we know that already.  But when you browse the web today you see a different thing: websites today have menus, icons, load-bars, navbars, labels, etc.  Where are those tags?  None of those tags are defined in HTML!
 
 Every developer has to fake these additional elements every time they create a new website.  They have to do everything from scratch, and it takes a lot of time.
 
@@ -187,11 +187,11 @@ Here is an example of how a NavBar may look on a website:
 
 #### The Card
 
-This is probably the most used Bootstrap component, every website has a few cards because it is ideal to list items in a beautiful way. Some examples of the Card used can be:
+This is probably the most used Bootstrap component, every website has a few cards because they are ideal for listing items in a beautiful way. Some examples of the Card used can be:
 
-+ The "team" section of a website where you list the different employees.
++ The "team" section of a website, where you list the different employees.
 + The typical Pinterest wall.
-+ Any social media feed like Instagram, Facebook, twitter, etc.
++ The feed in any social media like Instagram, Facebook, twitter, etc.
 
 Here is an example of how a "The Card" may look on a website:
 
@@ -205,7 +205,7 @@ Here is an example of how a "The Card" may look on a website:
   <img class="card-img-top" src="..." alt="Card image cap">
   <div class="card-body">
     <h4 class="card-title">Card title</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">Some quick example text to insert on the card title and make up the bulk of the card's content.</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
@@ -262,9 +262,9 @@ Bootstrap official documentation is amazing!  We don’t need to start copying a
 [[warning]] 
 | :point_up: Bootstrap versions & download
 
-Bootstrap has many versions, always check if you are using the last version of Bootstrap on your project, here you can find all the available versions: [https://getbootstrap.com/docs/versions/](https://getbootstrap.com/docs/versions/).
+Bootstrap has many versions, always check if you are using the latest version of Bootstrap on your project, here you can find all the available versions: [https://getbootstrap.com/docs/versions/](https://getbootstrap.com/docs/versions/).
 
 
 We recommend using a CDN to import bootstrap in your HTML like this one: [https://www.bootstrapcdn.com/](https://www.bootstrapcdn.com/)
 
-If you are migrating your project to a newer Bootstrap version remenber to check its the documentation.
+If you are migrating your project to a newer Bootstrap version remember to check its documentation.
