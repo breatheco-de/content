@@ -25,7 +25,7 @@ Por otro lado, Python es el lenguaje de back-end de más rápido crecimiento en 
 
 Cuando lo comparas con otros lenguajes de back-end, Python lidera en casi todas las funciones que ofrece: Data Science, AI, desarrollos de API, desarrollos web, etc.
 
-**Estos son algunas de las razones por las cuales Python has llegado hasta este punto:**
+**Estas son algunas de las razones por las cuales Python ha llegado hasta este punto:**
 
 
 |**Simplicidad**   |**Rendimiento**    |
@@ -90,18 +90,6 @@ from . import
 ***
 
 Lo que es NPM es para Javascript, PIP es para Python. Ambas bestias son increíbles pero muy diferentes por dentro. La mayor diferencia es que los paquetes NPM se descargan localmente a una carpeta "node_modules" mientras que los paquetes PIP se instalan en toda la máquina, fuera de la carpeta del proyecto. Otra pequeña diferencia es que NPM usa package.json y PIP usa un archivo requirements.txt.
-
-<br>
-<br>
-
-#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
-
-```python
-# En Python sustraer strings producirá un error, en lugar de eso debes hacer:
-
-result = int('5') - int('2'); 
-#el resultado ahora es igual a 3
-```
 
 <br>
 <br>
@@ -276,7 +264,7 @@ print(myList)
 ['The', 'earth', 'revolves', 'around', 'sun']
 ```
 
-### Funciones paraclasificar Listas
+### Funciones para clasificar Listas
 ***
 
 #### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python

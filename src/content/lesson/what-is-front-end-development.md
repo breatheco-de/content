@@ -34,7 +34,7 @@ For example:
 
 The front-end world is huge – you can specialize in anything you want but there are some important concepts you need to know well in order to begin your specialization:
 
-+ **Rendering**: This is the process of creating the HTML+CSS needed to display any data or information on the website.  For example: rendering an employee is a process of showing an employee on your website.
++ **Rendering**: This is the process of creating the HTML + CSS needed to display any data or information on the website.  For example: rendering an employee is a process of showing an employee on your website.
 + **Runtime**: This is the timeline of your website from the moment it finishes loading up to the moment that the user exits.
 + **Debugging**: This is the process of fixing the code.
   

@@ -86,14 +86,14 @@ All pages must begin with the `<DOCTYPE! Html>` statement followed by `<html>`, 
 
 
 ```html{numberLines: true}
-<! –- We must always begin with an HTML label to show the browser that this is a document with an HTML format. — >
+<!-- We must always begin with an HTML label to show the browser that this is a document with an HTML format. -->
 <!DOCTYPE html>
 <html>
    <head>
-   <! — Inside the head tag we will define all the information the browser needs in order to start interpreting the page. –>
+   <!-- Inside the head tag we will define all the information the browser needs in order to start interpreting the page. -->
    </head>
    <body>
-   <!–Inside the body we will define the content of the page.–>
+   <!-- Inside the body we will define the content of the page. -->
    </body>
 </html>
 ```
@@ -161,7 +161,7 @@ We already know each `<tag>`'s behavior.  Thanks to tags we can change the font 
 
 If you wish to further specify how you want the behavior of a specific tag to be, you can use its attributes. To use them, you must define the attributes in the opening tag, like this:
 ```html
-<img src="http://www.mydomain.com/myimage.png" \>
+<img src="http://www.mydomain.com/myimage.png" />
 ```
 
 In this case, we are assigning the "src" property to the `<img>` tag which will indicate the path or URL of the image to be displayed in this container.

@@ -6,11 +6,10 @@ textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["arreglo","matriz"]
 status: "published"
-
+video: "https://www.loom.com/share/bb0aa485cc334afbb8ff6ef1d9c6ac5b"
 ---
 
 ## ¿Por qué están los arrrays en una lección separada?
-***
 
 ¡Porque los arrays son impresionantes! ¡Los necesitas! Y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂
 
@@ -40,12 +39,10 @@ Cada array tiene los mismos conceptos básicos:
 
 ![qué es un array](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
 
-
 [[info]]
 | :point_up: Las posiciones de un array comienzan en **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
 
 ## ¿Cómo declarar un array?
-***
 
 Hay muchas formas de declarar un arreglo o lista: 
 
@@ -60,7 +57,6 @@ var myArray = new Array(1,2,3,4,5); //¡No uses esto! Lea a continuación para s
 | :point_up: No declares los Arrays con la sintaxis `new Array ()` - no se comportará correctamente [haz clic aquí para conocer los detalles(https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
 
 ## Acceder a los elementos de un array
-***
 
 Si quieres, puedes restablecer o actualizar cualquier ítem dentro de un array usando el índice o index así:
 
@@ -72,7 +68,6 @@ var aux = myArray[5];
 ```
 
 ## Actualizar Elementos en el Arreglo
-***
 
 Si lo deseas, puedes restablecer o actualizar cualquier elemento dentro de un arreglo usando el índice o index así:
 
@@ -81,7 +76,6 @@ myArray[5] = 'cualquier valor';
 //Esto establecerá el valor 'cualquier valor' en el sexto elemento del array.
 ```
 ## Añadiendo elementos (función push)
-***
 
 La única forma de agregar un nuevo elemento es al final de la lista, y deberás usar la función push () para eso.
 
@@ -106,9 +100,8 @@ var myNewArray = [];
 
 ```
 ## Eliminando Elementos (función pop)
-***
 
-Eliminar un elemento tiene exactamente las mismas limitaciones que al agregar un elemento: solo puedes eliminar un elemento de la última posición con la función pull (). Si deseas eliminar un elemento diferente, deberás crear un nuevo array sin ese elemento en particular.
+Eliminar un elemento tiene exactamente las mismas limitaciones que al agregar un elemento: solo puedes eliminar un elemento de la última posición con el método pop(). Si deseas eliminar un elemento diferente, deberás crear un nuevo array sin ese elemento en particular.
 
 ```javascript
 var myArray = ['Pedro','Chris','Juan','Maria'];
@@ -122,8 +115,7 @@ var myNewArray = [];
     console.log(myNewArray); //esto imprimirá ['Pedro','Juan','Maria'];
 ```
 
-## Removing/Adding from the Beginning
-***
+## Eliminando/Añadiendo desde el Principio
 
 Los métodos shift y unshift son como push y pop con la diferencia de que solo funciona desde al principio de la lista.
 
@@ -140,7 +132,6 @@ var myArray = ['Chris','Bob','Pedro','Juan','Maria'];
 
 
 ## Bucle en Arreglo
-***
 
 A veces, cuando trabajes con arrays, tendrás que hacer un bucle. Por ejemplo: ordenándolos manualmente; voltearlos, eliminar un elemento de una posición particular, etc.
 
@@ -153,8 +144,11 @@ var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
 }
 ```
 
+
+[[info]]
+| 🎥 [En el siguiente enlace](https://www.loom.com/share/bb0aa485cc334afbb8ff6ef1d9c6ac5b) puedes encontrar un video explicando las diferentes maneras de recorrer un arreglo
+
 ## For…in… 
-***
 
 Hay una gran adaptación de la  sentencia **for** para iterar listas o arrays, así:
 
@@ -167,12 +161,10 @@ var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
 ```
 
 ## Eliminando de un array 
-***
 
 Las variables pueden tener diferentes tipos de valores. Algunos de ellas están disponibles solo en lenguajes de programación específicos, pero casi todos tienen los siguientes tipos:
 
 ### Splice and Slice
-***
 
 Es posible cortar un array en pedazos muy rápido, con las funciones de splice y slice.
 
@@ -210,7 +202,6 @@ console.log(y); // [14, 3, 'a', 3245, 234, 52, 345, 3, 45, 23, 77]
 [Consulta la documentación](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 
 ## Ordenando arrays
-***
 
 Es muy común la necesidad de ordenar arrays. Por ejemplo: ordenar una lista de estudiantes por nombre. Tienes dos funciones para ordenar en JavaScript:
 
