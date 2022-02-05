@@ -12,7 +12,7 @@ status: "published"
 [[info]]
 | 📹 Here is a video explaining the JWT authentication [implementation using React.js, Context API and Python Flask](https://youtu.be/8-W2O_R95Pk).
 
-Almost every [API needs an authentication layer](/lesson/token-based-api-authentication), and there are mamy ways to tackle that problem, today we are going to be implementing JWT token into our Flask API.
+Almost every [API needs an authentication layer](/lesson/token-based-api-authentication), and there are many ways to tackle that problem, today we are going to be implementing JWT token into our Flask API.
 
 
 ## How API Authentication works
@@ -112,7 +112,7 @@ def create_token():
     username = request.json.get("username", None)
     password = request.json.get("password", None)
     # Query your database for username and password
-    user = User.filter.query(username=username, password=password).first()
+    user = User.query.filter_by(username=username, password=password).first()
     if user is None:
         # the user was not found on the database
         return jsonify({"msg": "Bad username or password"}), 401
@@ -151,22 +151,27 @@ On the front-end side we need two main steps: Creating a new token (a.k.a: login
 Based on the endpoints we build on earlier we have to `POST /token` with the username and password information in the request body.
 
 ```js
-const login = (username, password) => {
-     fetch(`https://your_api.com/token`)
-         .then(resp => {
-              if(resp.ok) resp.json()
-              else if(resp.status === 401){
-                    console.log("Invalid credentials")
-              }
-              else if(resp.status === 400){
-                 console.log("Invalid email or password format")
-              }else throw Error('Uknon error')
-         })
-         .then(data => {
-             // save your token in the localStorage
-             localStorage.setItem("jwt-token", data.token);
-         })
-         .catch(error => console.error("There has been an uknown error", error))
+const login = async (username, password) => {
+     const resp = await fetch(`https://your_api.com/token`, { 
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ username: "joe", password: "1234" }) 
+     })
+
+     if(!resp.ok) throw Error("There was a problem in the login request")
+
+     if(resp.status === 401){
+          throw("Invalid credentials")
+     }
+     else if(resp.status === 400){
+          throw ("Invalid email or password format")
+     }
+     const data = await resp.json()
+     // save your token in the localStorage
+    //also you should set your user into the store using the setStore function
+     localStorage.setItem("jwt-token", data.token);
+
+     return data
 }
 ```
 
@@ -176,28 +181,30 @@ Let's suppose I am using the front-end application and I just logged in, but now
 
 ```js
 // assuming "/protected" is a private endpoint
-const getMyTasks = (username, password) => {
+const getMyTasks = await (username, password) => {
      // retrieve token form localStorage
      const token = localStorage.getItem('jwt-token');
 
-     fetch(`https://your_api.com/protected`, {
+     const resp = await fetch(`https://your_api.com/protected`, {
         method: 'GET',
-        headers: { 'Authorization': 'Bearer '+token } // ⬅ authorization token
+        headers: { 
+          "Content-Type": "application/json"
+          'Authorization': 'Bearer '+token // ⬅⬅⬅ authorization token
+        } 
      })
-         .then(resp => {
-              if(resp.ok) resp.json();
-              else if(resp.status === 403){
-                   console.log("Missing or invalid token");
-              }
-              else{
-                   throw Error('Uknon error');
-              }
-         })
-         .then(data => {
-             // success
-             console.log("This is the data your requested", data);
-         })
-         .catch(error => console.error("There has been an uknown error", error));
+     if(!resp.ok) throw Error("There was a problem in the login request")
+
+     else if(resp.status === 403){
+         throw Error("Missing or invalid token");
+     }
+     else{
+         throw Error('Uknon error');
+     }
+
+     const data = await resp.json();
+     console.log("This is the data you requested", data);
+     return data
+
 }
 ```
 

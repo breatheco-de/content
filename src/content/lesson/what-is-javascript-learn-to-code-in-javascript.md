@@ -1,6 +1,6 @@
 ---
 title: "What is JavaScript? Learn to Code in JavaScript"
-subtitle: "Get to know what is JavaScript, Everybody is talking about it and by now you probably know its time to learn to code in JavaScript in order to get things to the next level."
+subtitle: "Get to know what is JavaScript, everybody is talking about it and by now you probably know its time to learn to code in JavaScript in order to get things to the next level."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 status: "pending_translation"
@@ -123,7 +123,7 @@ What operations can I do to variables?  Depending on the data-type you have a fe
 Functions are pieces of code that can be re-used several times during runtime regardless of their position in the code.  There are hundreds of reasons to use functions, but here are the 2 most important ones:
 
 + Divide and conquer: It is always easier to split your problems into several smaller problems.  This will become your biggest challenge when solving complex problems.  Functions will be your best tools for abstraction.
-+ Re-use: Any normal development will take at least 5,000 lines of code.  It is redundant and inefficent to keep writing the same code over and over again.
++ Re-use: Any normal development will take at least 5,000 lines of code.  It is redundant and inefficient to keep writing the same code over and over again.
 
 ## Declaring a Function
 ***

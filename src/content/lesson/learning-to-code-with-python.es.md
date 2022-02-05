@@ -20,14 +20,14 @@ Python es el primer lenguaje que debieras aprender, pero evidentente no el únic
 
 <iframe width="830" height="467" src="https://www.youtube.com/embed/Q-eob0WBKs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<div align="right"><small><a href="https://www.youtube.com/embed/Q-eob0WBKs0">Haz clic aquí para abrir la demo en otra ventana/a></small></div>
+<div align="right"><small><a href="https://www.youtube.com/embed/Q-eob0WBKs0">Haz clic aquí para abrir la demo en otra ventana</a></small></div>
 
 Las variables no son un concepto nuevo, cualquier que sepa matemáticas está familiriarizado con el condepto de variables.
 
 Una variable es un contenedor en el que puedes almacenar cualquier dato. Por ejemplo puedes tener la siguiente variable:
 
 ```python
-var edad = 24;
+edad = 24
 ```
 
 ![qué es javascript](../../assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
@@ -36,8 +36,8 @@ Casi con cualquier lenguaje de programación puedes crear tantas variables como 
 
 El **nombre de la variable** es la manera más efectiva de describir el contenido de una variable, úsalo con sabiduría. Es importante escoger un nombre que claramente te indique (a ti y a otros programadores) sobre los datos que están siendo almacenados en la variable. Si escogemos un nombre malo o ambigüo, nuestro código será casi imposible de entender, ergo se vuelve inutilizable. Por ejemplo digamos que le cambiamos el nombre a nuestra variable "edad" a "a":
 
-```javascript
-var a = 24 ;
+```python
+a = 24
 ```
 
 Como puedes ver, el nuevo nombre de la variable no nos dice nada sobre el dato que está siendo almacenado y por qué lo están usando.
@@ -45,33 +45,15 @@ Como puedes ver, el nuevo nombre de la variable no nos dice nada sobre el dato q
 Escoger el nombre de tu variable es muy importante, así que por favor no uses nombres genéricos ¡Sé descriptivo! Un nombre vago hará difìcil de comprender el propósito de la variable, especialmente para otros programadores (incluyéndote a ti). 
 
 ## Asignándole un valor a las variables
-***
+
 
 Como desarrolladores, podemos establecer el valor de una variable usando el operador `=`. No tienes que establecer el valor de una variable cuando la declaras por primera vez. Puedes establecer o re-establecer (sobreescribir) el valor tantas veces como quieras y cuando quieras. El valor siempre el último que estableciste. A continuación hay algunos ejemplos sobre cómo establecer valores a las variables:
 
-```javascript
-var a = 24;
-  a = 25;
-  a = 80;
-
-var b ;
-  b = 9 ;
-  b = 108 ;
+```python
+a = 24
+a = 25
+a = 80
 ```
-
-### `var` vs.  `let`  vs. `const`
-***
-
-Como ya lo aprendimos, usamos la palabra reservada `var`para declara una variable. Hay otras dos palabras reservadas que también podemos usar para declarar variables ***const y let***. Las principales diferencias entre estos tipos de variables tienen que ver con su alcance.
-
-***Const***:  Palabra reservada que se usa cuando el valor es constante durante toda la vida del script. El valor de la variable declarada con esta palabra reservada nunca se puede cambiar y si lo intentas, te dará un error
-
-***Let***:  Loa valores están limitados al alcance del bloque de código (cualquier cosa dentro de las llaves) dentro del cual están declarados. Si una función tiene más de un bloque de codigo, la variable se considerará como una variable distinta en cada bloque de código.
-
-***Var***:  Su alcance se limita a la función en donde está declarada. Esto significa que la variable permanecerá igual durante toda la función aunque haya más de un bloque de código en la función.
-
-[[info]]
-|:link: [Lee más sobre`*var*`, `let`, y `const`](http://wesbos.com/let-vs-const/)
 
 Los valores de las variables están sujetos a cambio a largo del tiempo. Para recuperar el valor de una variables puedes imprimir su valor en la pantalla en cualquier momento. Cada lenguaje tiene sus propios métodos para imprimir. En python usamos `print`
 
@@ -83,7 +65,7 @@ Los valores de las variables están sujetos a cambio a largo del tiempo. Para re
 
 
 ## Tipos de datos
-***
+
 Las variables pueden tener diferentes tipos de valores:
 
 |**Data-Type**   |**Posible sValores**   |**Descripción**   |
@@ -101,8 +83,8 @@ Las variables pueden tener diferentes tipos de valores:
 <div align="right"><small><a href="https://repl.it/F05K/3?lite=true">Click aquí para abrir el video en una nueva ventana</a></small></div>
 
 
-# Operaciones
-***
+## Operaciones
+
 
 ¿Qué operaciones puedo hacer con las variables? Dependiendo del tipo de datos tienes algunas posibilidades diferentes:
 
@@ -112,7 +94,7 @@ Las variables pueden tener diferentes tipos de valores:
 + Hablaremos de Arreglos y Objetos en una otra sección. Requieren de mucha más atención.
 
 ## Funciones
-***
+
 
 Las funciones son pedazos de código que se pueden reutilizar varias veces durante el tiempo de ejecución, independiente de su posición en el código. Hay cientos de razones para usar funciones, pero aquí están las 2 más importantes:
 
@@ -121,7 +103,7 @@ Las funciones son pedazos de código que se pueden reutilizar varias veces duran
 
 
 ## Declarar una Función
-***
+
 
 Para declarar una función en JavaScript, debes comenzar a utilizar la palabra `function` seguida del nombre que le quieres dar a esa función.
 
@@ -133,18 +115,15 @@ Luego, abrirás una llave y escribirás el código que tu función siempre debe 
 
 ![learn to code in javascript](../../assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif)
 
-```javascript
-function multiply (param1, param2)
-{
-    return (param1 * param2);
-}
+```python
+def multiply (param1, param2):
+    return (param1 * param2)
 ```
 <iframe src="https://repl.it/F10t/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <div align="right"><small><a href="https://repl.it/F10t/0?lite=true">Haz clic aquí para abrir el video en una nueva ventana</a></small></div>
 
 ## Parámetros y alcance de la Función
-***
 
 El alcance de una variable determina dónde está disponible esa variable para ser utilizada. Hay dos tipos principales de alcances:
 
@@ -161,7 +140,6 @@ Si declaras una variable al comienzo de tu código, estará disponible  lo largo
 <div align="right"><small><a href="https://repl.it/F10t/2?lite=true">Click aquí para abrir el video en una nueva ventana</a></small></div>
 
 ## Operaciones lógicas
-***
 
 Las computadoras piensan todo en blanco o negro. Todo es verdadero o falso. Todas las decisiones en una computadora se reducen a un simple **booleano**. Puedes preparar una computadora para resolver problemas particulares si escribes un código que haga las preguntas adecuadas para resolver ese problema.
 
@@ -169,7 +147,7 @@ Por ejemplo, si quiero una computadora para dar dulces sólo a niños mayores de
 
  **¿La edad de este niño es mayor de 13 años? ¿Sí o no?**
 
-**En JavaScript, puedes indicarle a la computadora que realice las siguientes operaciones lógicas:**
+**En python, puedes indicarle a la computadora que realice las siguientes operaciones lógicas:**
 
 |**Operación**  |**Sintaxis**   |**Ejemplos**   |
 |:--------------|:--------------|:--------------|
@@ -186,13 +164,12 @@ Puedes agrupar las operaciones lógicas entre paréntesis y también usar parén
 
 |**Operación**   |**Sintaxis**   |**Ejemplos**   |
 |:---------------|:--------------|:--------------|
-|AND             |&&             |Con AND, ambos lados TIENEN QUE SER TRUE para que todo se convierta en verdadero.<br>Es (5 == 5 && 3 > 1) ? True!<br>Es ('Ramon' == 'Pedro' && 2 == 2) ? False!    |
-|OR     |\|\|     |Es ('Oscar' != 'Maria' OR 2 != 2)? True!<br>Es (5 == '5' AND 'Ramon' != 'Pedro') OR (2 == 2)? True!   |
-|NOT     |!     |NOT será exactamente lo contrario del resultado del operador lógico:<br>Es !(5 > 5)? True!<br>Is !(True)? False!    |
+|AND             |`and`             |Con AND, ambos lados TIENEN QUE SER TRUE para que todo se convierta en verdadero.<br>Es (5 == 5 and 3 > 1) ? True!<br>Es ('Ramon' == 'Pedro' and 2 == 2) ? False!    |
+|OR     |`or`     |Es ('Oscar' != 'Maria' or 2 != 2)? True!<br>Es (5 == '5' and 'Ramon' != 'Pedro') or (2 == 2)? True!   |
+|NOT     |`not`     |NOT será exactamente lo contrario del resultado del operador lógico:<br>Es not (5 > 5)? True!<br>Is not (True)? False!    |
 
 
 ## Controla el Flujo de Tú Código
-***
 
 Bien, ahora es cuando todo empieza a ponerse divertido! Para controlar el flujo de tu aplicación, tienes varias opciones y las utilizarás cada día. Por lo tanto, debes sentirte cómodo usándolas.
 
@@ -201,29 +178,18 @@ Bien, ahora es cuando todo empieza a ponerse divertido! Para controlar el flujo 
 La primera herramienta que tienes es el condicional `if ... else`. Es muy fácil. Puedes decirle a la computadora que omita cualquier parte de tu código dependiendo del valor actual de tus variables.
 
 La instrucción `if` te permite ejecutar un fragmento de código si se cumplen ciertas condiciones (o si son verdaderas). La declaración "else" ejecutará un fragmento de código alternativo en caso de que la condición sea falsa.
-```javascript
-if (number < 18) {
-    document.write("Hello");
-} else {
-     document.write("Good bye!");
-}
+```python
+if number < 18:
+     print("Hello");
+else:
+     print("Good bye!")
 ```
 
 ## Switch
-***
 
-Similar a if ... else ... pero un poco más organizado. Aquí especificarás todos los escenarios de casos posibles, incluido el "escenario predeterminado" que ocurrirá si no sucede ninguno de los otros escenarios.
-
-<iframe src="https://repl.it/F2EK/5?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
-
-<div align="right"><small><a href="https://repl.it/F2EK/5?lite=true">]Haz clic aquí para abrir el video en una nueva ventana</a></small></div>
-
-[[info]]
-|Usa `switch` en lugar de` if` cuando: <br> <br> • Estés comparando varias condiciones posibles de una expresión y la expresión en sí no es trivial. • Si tienes múltiples valores que pueden requerir el mismo código . <br> • Si tienes algunos valores que requerirán esencialmente toda la ejecución de otro valor, además de sóo unas pocas declaraciones. <br> <br> Utiliza `if` en lugar de` switch` cuando: <br> <br> • Deseas probar la veracidad de una expresión. <br> • Solo tienes una única prueba afirmativa. <br> • Necesitas evaluar diferentes expresiones para cada rama.
-
+Python no cuenta con la capacidad de hacer `switch` como otros lenguajes (js, c#, etc.)
 
 ## While
-***
 
 Es posible hacer un bucle de un segmento de su código tantas veces como deseeso necesites Los bucles son una de las herramientas más importantes para los desarrolladores en estos días.
 
@@ -232,18 +198,17 @@ Imagina que estás dentro de un ascensor: el ascensor debe girar en bucle por lo
 Un bucle `while` ejecutará un bloque de código siempre que una condición sea verdadera. Una vez que la condición sea falsa, el bucle dejará de ejecutar
 el bloque de código.
 
-```javascript
-var sum = 0;
-var number = 1;
-while (number <= 50) {
-  sum += number;
-  number++;
-}
-console.log("Sum = " + sum);
+```python
+sum = 0;
+number = 1;
+while number <= 50:
+  sum += number
+  number += 1
+
+print("Sum = " + sum)
 ```
 
-## For
-***
+## For loop
 
 `For` es similar a` while,` con la única diferencia de que debes especificar la condición para que se detenga desde un principio. Por esa razón, `for` es un poco más organizado y más fácil de entender.
 
@@ -254,14 +219,13 @@ Nota: cuando realices un bucle, asegúrate de que la declaración finalmente dev
 <div align="right"><small><a href="https://www.youtube.com/embed/TSMzvFwpE_A">Haz clic aquí para abrir el video en una nueva ventana</a></small></div>
 
 
-```javascript
-for (var i = 0; i < 10; i++) {
-    document.write("This is number" + " " + i);
-}
+```python
+for i in range(10):
+  print("This is number" + " " + i)
+
 ```
 
 ## For..in
-***
 
 Los bucles `For… in` pueden usarse para recorrer con un bucle las propiedades de un objeto. Dentro de los paréntesis, puedes establecer cualquier nombre para representar la información dentro del objeto, y luego incluir el nombre del objeto:
 
@@ -269,21 +233,19 @@ for (var in object)<br> {
 bloque de código a ejecutarse
 }
 
-```javascript
-var dog = {
-  species: "Great Dane",
-  size: "Extra Large",
-  age: 3 ,
-  name: "Rocky"
-
+```python
+dog = {
+  "species": "Great Dane",
+  "size": "Extra Large",
+  "age": 3 ,
+  "name": "Rocky"
 }
 
-for(items in dog){
-  console.log(dog[items]);
-}
+for(items in dog):
+  print(dog[items])
+
 ```
 
 ## Entonces ... dime, ¿te gustó la programción?
-***
 
 La programación es como Taco Bell: siempre se usan los mismos ingredientes pero se mezclan de diferentes maneras. Sabes cómo escribir código, pero ... ¿sabes cómo resolver problemas reales?
