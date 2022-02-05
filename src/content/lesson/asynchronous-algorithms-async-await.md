@@ -76,21 +76,21 @@ But wait, there's more... We could even pass a *function* as an argument to anot
 #### Callback functions
 
 ```javascript
-1    function runFirst(someFunction){
-2	console.log("I want to run first");
-3	someFunction();
-4	runSecond();
-5	console.log("I also want to run when runFirst runs");
-6    }
-7    function runSecond(){
-8	console.log("Where am I running?");
-9    }
-10   runFirst(aThirdOne);
-11
-12   function aThirdOne(){
-13	console.log("this is crazy");
-14   }
-15
+    function runFirst(someFunction){
+	console.log("I want to run first");
+	someFunction();
+	runSecond();
+	console.log("I also want to run when runFirst runs");
+    }
+    function runSecond(){
+	console.log("Where am I running?");
+    }
+    runFirst(aThirdOne);
+ 
+    function aThirdOne(){
+ 	console.log("this is crazy");
+    }
+ 
 
 /*
 CONSOLE OUTPUT:
