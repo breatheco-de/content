@@ -61,7 +61,7 @@ Note: the variable name in this code will end up having the value `Rita`, it wil
 
 ### No special keywords to declare a variable
 
-Other languages lik javascript make you use a special statement before the variable name in order to "declare" the variable for the first time like this:
+Other languages like javascript make you use a special statement before the variable name in order to "declare" the variable for the first time like this:
 
 ```javascript
 let age = 12;
