@@ -42,7 +42,7 @@ Every array has the same basic concepts:
 
 
 [[info]]
-| :point_up:Array positions start a **zero (0)**; the first element is the element in the position **zero (0)**
+| :point_up:Array positions start at **zero (0)**; the first element is the element in the position **zero (0)**
 
 ## How to Declare an Array?
 ***

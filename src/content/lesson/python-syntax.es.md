@@ -25,7 +25,7 @@ Por otro lado, Python es el lenguaje de back-end de más rápido crecimiento en 
 
 Cuando lo comparas con otros lenguajes de back-end, Python lidera en casi todas las funciones que ofrece: Data Science, AI, desarrollos de API, desarrollos web, etc.
 
-**Estos son algunas de las razones por las cuales Python has llegado hasta este punto:**
+**Estas son algunas de las razones por las cuales Python ha llegado hasta este punto:**
 
 
 |**Simplicidad**   |**Rendimiento**    |
@@ -264,7 +264,7 @@ print(myList)
 ['The', 'earth', 'revolves', 'around', 'sun']
 ```
 
-### Funciones paraclasificar Listas
+### Funciones para clasificar Listas
 ***
 
 #### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python

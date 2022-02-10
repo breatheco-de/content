@@ -122,6 +122,8 @@ export default Clock;
     ![Controlled input field](https://s10.gifyu.com/images/ezgif.com-gif-maker-399b80fa21c077ab6.gif) [![Edit controlledinput](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/controlledinput-rbh0m?fontsize=14&hidenavigation=1&theme=dark)
     
 ```jsx
+import React, { useEffect, useState } from "react";
+
 const ControlledInputForm = (props) => {
   //     holds the value of the input
   const [currentValue, setValue] = useState("");
@@ -139,10 +141,6 @@ const ControlledInputForm = (props) => {
         value={currentValue}
         placeholder="Please type your name"
       />
-
-      <SyntaxHighlighter language="javascript" style={dark}>
-        {codeSnippet}
-      </SyntaxHighlighter>
     </div>
   );
 };
