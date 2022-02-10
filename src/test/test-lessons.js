@@ -2,7 +2,7 @@ const fs = require('fs');
 const _path = require('path');
 const fm = require('front-matter');
 const moment = require('moment');
-var colors = require('colors');
+const colors = require('colors');
 const { POSSIBLE_STATUS } = require("../utils/variables")
 const { walk, indexContent } = require('../utils/files')
 

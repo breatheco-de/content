@@ -78,7 +78,7 @@ ls -l ./applications
 
 **The change directory command**
 
-Navigate between two different directories.
+Travel between two different directories.
 
 ```bash
 cd /path/to/directory

@@ -93,7 +93,7 @@ div * p {
 }
 ```
 
-Puedes llevar esto tan lejos como quieras - los siguientes objetivos son los "nietos" de la div.  Encontrarás este método de encadenamiento frecuentemente en los trucos de depuración de CSS.
+Puedes llevar esto tan lejos como quieras - los siguientes objetivos son los "nietos" del div.  Encontrarás este método de encadenamiento frecuentemente en los trucos de depuración de CSS.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
