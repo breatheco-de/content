@@ -15,7 +15,7 @@ Welcome!! 🤩👏 My name is Alejandro and I'm writing these words after years 
 
 ## What you already know
 
-You are here to develop your coding skills to a point were you can be useful to society in order to: 1️⃣ Get a job, 2️⃣ Create your own company or/and 3️⃣ Adapt better to the new world.
+You are here to develop your coding skills to a point where you can be useful to society in order to: 1️⃣ Get a job, 2️⃣ Create your own company or/and 3️⃣ Adapt better to the now world.
 
 ## What you did not know
 
@@ -49,7 +49,7 @@ Every average person can learn to code to a point of being useful, coding gets m
 
 #### Wall #2: Trust ✝
 
-During all your life you've learned the same way, the educational system has put you in a box and trained you to learn slowly, limiting you ability to adapt to the new world of skilled fast-learning and self-learning professionals.
+During all your life you've learned the same way, the educational system has put you in a box and trained you to learn slowly, limiting your ability to adapt to the new world of skilled fast-learning and self-learning professionals.
 
 We know how to train you: we have done it over and over again, but we'll train in such a different way that you may not like it at first, it's only normal that your mind will want to go back to learning "slow but safe", without having to be uncomfortable or constantly challenged by our system.
 
@@ -73,7 +73,7 @@ These are not small numbers, 60% in a day and 90% if you don't practice for a we
 
 2. **Talk to your boss:** You may need a few extra hours, weekend time, etc. Be smart about it or he/she could sabotage it because he is afraid of losing you.
 
-3. **Don't miss class:** Missing classes is our biggest concern, we are very concerned about attendancy because it has show that is the #1 deterrent to your motivation, missing two classes in a row is the perfect storm. You will need to have 1-on-1 mentoring and double the hours thru that week to avoid staying behind.
+3. **Don't miss class:** Missing classes is our biggest concern, we are very concerned about attendance because it has shown that is the #1 deterrent to your motivation, missing two classes in a row is the perfect storm. You will need to have 1-on-1 mentoring and double the hours thru that week to avoid staying behind.
 
 4. **Get involved:** Just coming to class will not be enough, humans are beautiful emotional creatures, information attaches better to your brain when you are engaged, emotional, coming to events and study groups, publicly speaking about it, etc. 
 
