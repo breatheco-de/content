@@ -18,7 +18,7 @@ Fork this project and clone it to have it on your local environment.
 - Published: already finished but you can still make small changes like fixing grammar errors.
 - Draft: someone is already working on it but it's not finished yet.
 - Unassigned: no one has picked that article or started working on it.
-- Pending translation: there is already a version in another language and we need the translation for that particular language
+- Pending translation: there is already a version in another language and we need the translation for that particular language.
 
 ### Writing a new article
 
@@ -30,21 +30,21 @@ We have also create some special icons and components that you can also use insi
 
 #### Special Icons
 
-[[info]]
+:information_source:
 |:link: for links of websites with information  
 
 
-[[warning]]
+:warning:
 | :point_up:
  to warn students about important details
 
-[[demo]]
+:information_source:
 | :point_up: For live demos 
 
-[[info]]
+:information_source:
 | :tv: for external videos
 
-[[info]]
+:information_source:
 | :point_up: for Aditional info 
 
 #### Before and after

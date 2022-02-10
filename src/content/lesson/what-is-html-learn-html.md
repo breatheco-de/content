@@ -86,14 +86,14 @@ All pages must begin with the `<DOCTYPE! Html>` statement followed by `<html>`, 
 
 
 ```html{numberLines: true}
-<! –- We must always begin with an HTML label to show the browser that this is a document with an HTML format. — >
+<!-- We must always begin with an HTML label to show the browser that this is a document with an HTML format. -->
 <!DOCTYPE html>
 <html>
    <head>
-   <! — Inside the head tag we will define all the information the browser needs in order to start interpreting the page. –>
+   <!-- Inside the head tag we will define all the information the browser needs in order to start interpreting the page. -->
    </head>
    <body>
-   <!–Inside the body we will define the content of the page.–>
+   <!-- Inside the body we will define the content of the page. -->
    </body>
 </html>
 ```
