@@ -30,21 +30,21 @@ We have also create some special icons and components that you can also use insi
 
 #### Special Icons
 
-[[info]]
+:information_source:
 |:link: for links of websites with information  
 
 
-[[warning]]
+:warning:
 | :point_up:
  to warn students about important details
 
-[[demo]]
+:information_source:
 | :point_up: For live demos 
 
-[[info]]
+:information_source:
 | :tv: for external videos
 
-[[info]]
+:information_source:
 | :point_up: for Aditional info 
 
 #### Before and after

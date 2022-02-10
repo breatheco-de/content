@@ -269,8 +269,7 @@ La documentación oficial de Bootstrap es increible!! No necesitamos copiar y pe
 Bootstrap tiene varias versiones, siempre verifica que estés usando la última versión de Bootstrap en tu proyecto. Aquí podrás encontrar todas las versiones disponibles:[https://getbootstrap.com/docs/versions/](https://getbootstrap.com/docs/versions/).
 
 
-Te recomendamos que uses el CDN para importar bootstrap en tu archivo HTML, de este modo:
-We recomend using a CDN to import bootstrap in your HTML like this one: [https://www.bootstrapcdn.com/](https://www.bootstrapcdn.com/)
+Te recomendamos que uses el CDN para importar bootstrap en tu archivo HTML, de este modo: [https://www.bootstrapcdn.com/](https://www.bootstrapcdn.com/)
 
 Si estás migrando tu proyecto a nueva versión de Bootstrap, recuerda siempre verificar su documentación.
 
