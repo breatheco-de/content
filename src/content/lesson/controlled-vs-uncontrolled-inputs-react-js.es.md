@@ -1,5 +1,5 @@
 ---
-title: "Qué son las entradas controlodas o no controladas en React.js"
+title: "Qué son las entradas controladas o no controladas en React.js"
 subtitle: "Hacer formularios en React.js es algo que puede resultar un tanto engorroso"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
@@ -20,7 +20,7 @@ Si quieres recuperar un valor de una entrada en JavaScript / HTML simple, puede 
 ```jsx
 
 // Suponiendo que tienes esta entrada con un ID=first_name:
-<input type="text id="first_name" /> 
+<input type="text" id="first_name" /> 
 
 // En javascript puedes usar:
 const value = document.querySelector('#first_name').value;

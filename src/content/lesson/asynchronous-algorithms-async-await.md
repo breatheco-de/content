@@ -11,7 +11,7 @@ tags: ["async","await","promise","asynchronous"]
 ---
 
 ## Asynchronous Programming with JavaScript 
-***
+
 Up to this point, we have used JavaScript code to run simple web applications, which includes: using variables, calling functions and playing with the ***DOM***. On functions, specifically, we even passed functions into another functions  (***callback functions***) and there's more to talk about this.
 
 Let's start by stating that JavaScript is synchronous and single-threaded by definition, i.e: the code is executed from line 1 until the last one, one at a time and in order(ish). Take a look at this example:
@@ -19,14 +19,14 @@ Let's start by stating that JavaScript is synchronous and single-threaded by def
 #### Synchronous (default)
 
 ```javascript
-1    function runFirst(){
-2 	console.log("first");
-3    }
-4    function runSecond(){
-5 	console.log("second");
-6    }
-7    runSecond();
-8    runFirst();
+    function runFirst(){
+ 	console.log("first");
+    }
+    function runSecond(){
+ 	console.log("second");
+    }
+    runSecond();
+    runFirst();
 
 /*
 CONSOLE OUTPUT:
@@ -42,15 +42,15 @@ Things get more complicated when calling functions inside functions, as we can s
 #### Calling functions
 
 ```javascript
-1    function runFirst(){
-2	console.log("I want to run first");
-3	runSecond();
-4	console.log("I also want to run when runFirst runs");
-5    }
-6    function runSecond(){
-7	console.log("Where am I running?");
-8    }
-9   runFirst();
+    function runFirst(){
+	console.log("I want to run first");
+	runSecond();
+	console.log("I also want to run when runFirst runs");
+    }
+    function runSecond(){
+	console.log("Where am I running?");
+    }
+   runFirst();
 
 /*
 CONSOLE OUTPUT:
@@ -76,21 +76,21 @@ But wait, there's more... We could even pass a *function* as an argument to anot
 #### Callback functions
 
 ```javascript
-1    function runFirst(someFunction){
-2	console.log("I want to run first");
-3	someFunction();
-4	runSecond();
-5	console.log("I also want to run when runFirst runs");
-6    }
-7    function runSecond(){
-8	console.log("Where am I running?");
-9    }
-10   runFirst(aThirdOne);
-11
-12   function aThirdOne(){
-13	console.log("this is crazy");
-14   }
-15
+    function runFirst(someFunction){
+	console.log("I want to run first");
+	someFunction();
+	runSecond();
+	console.log("I also want to run when runFirst runs");
+    }
+    function runSecond(){
+	console.log("Where am I running?");
+    }
+    runFirst(aThirdOne);
+ 
+    function aThirdOne(){
+ 	console.log("this is crazy");
+    }
+ 
 
 /*
 CONSOLE OUTPUT:
@@ -117,17 +117,16 @@ Now, let's assume that we need to load some files from a server, specifically, i
 #### Synchronous image loading
 
 ```javascript
-1    function fetchingImages(){
-3	console.log("Load them!");
-4	//SOME CODE TO LOAD IMAGES
-5	console.log("Images loaded!");
-6    }
-7    function userIsWaiting(){
-8	console.log("I don't like waiting");
-9    }
-10   fetchingImages();
-11   userIsWaiting();
-12
+function fetchingImages(){
+	console.log("Load them!");
+	//SOME CODE TO LOAD IMAGES
+	console.log("Images loaded!");
+}
+function userIsWaiting(){
+	console.log("I don't like waiting");
+}
+fetchingImages();
+userIsWaiting();
 
 /*CONSOLE OUTPUT:
 	> Load them! 			//user starts waiting
@@ -145,22 +144,22 @@ In a real life website, users will have to wait for a long time to see something
 Asynchronous programming is a way to process lines of code and handle the result without affecting the main thread.
 
 ```javascript
-1    function fetchingImages(){
-3	console.log("Load them!");
-4	fetch("the_url_of_the_image").then( (response) => {
-5		if(response.ok){ 
-6			console.log("Images Loaded!!");
-7		} else {
-8			console.log("Uh-oh something went wrong");
-9		}
-10	});
-11   }
-12   function userIsWaiting(){
-13	console.log("I don't like waiting");
-14   }
-15   fetchingImages();
-16   userIsWaiting();
-17
+    function fetchingImages(){
+	console.log("Load them!");
+	fetch("the_url_of_the_image").then( (response) => {
+		if(response.ok){ 
+			console.log("Images Loaded!!");
+		} else {
+			console.log("Uh-oh something went wrong");
+		}
+ 	});
+    }
+    function userIsWaiting(){
+ 	console.log("I don't like waiting");
+    }
+    fetchingImages();
+    userIsWaiting();
+ 
 
 /*CONSOLE OUTPUT:
 	> Load them! 					//user starts waiting

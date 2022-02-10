@@ -19,14 +19,12 @@ status: "published"
 
 
 ## GIT is a MUST!
-***
 
 GIT is a great technology, please take time to learn it.  DON’T procrastinate because you cannot avoid it.  You will be using it every day, several times a day. So you’d better learn and be comfortable with it.
 
 GIT is more than just a "set of commands" that you have to learn.  Throughout the years, we have learned that the best way to teach GIT is by understanding the concepts and meaning of the technology first rather than just giving you a list of commands to use.
 
 ## Why Bother to use GIT?
-***
 
 Being the only developer in a project is an [utopia](http://www.thefreedictionary.com/Utopic).  Normally, you collaborate with other developers, and, without GIT, that becomes a big problem.  That’s why we need a *repository* of information to centralize and manage changes.  With a *repository* we are addressing the following:
 
@@ -40,7 +38,6 @@ Being the only developer in a project is an [utopia](http://www.thefreedictionar
 The purpose of GIT is to interact with the repository of a project (a set of files) as they change over time.
 
 ## Architecture of a Repository
-***
 
 A GIT **repository** is comprised of the following:
 
@@ -61,7 +58,6 @@ The GIT repository is stored in the same directory as the project itself in a -h
  </p>
 
 ## Commit Objects
-***
 
 A **commit object** contains three things:
 
@@ -76,7 +72,6 @@ The parent commit objects are those commits that came first.  Generally a commit
 At the beginning, a project always has one commit object with no parents.  This is the first commit that is made to the project repository.
 
 ## A Head Object is a List of Commits
-***
 
 The heads of the repository are like the "revision history of the project."  A revision history is a list of commit objects that altogether contain all the changes that you and your other team members have made to the project files.
 
@@ -88,7 +83,6 @@ You can **move the head** if you want.  It does not necessarily have to always b
 
 
 ## You can have Several Heads (Branches)
-***
 
 Heads mark the beginning of a revision history.  In GIT, we call the "revision history" a "branch," and it is possible to have several revision histories.
 
@@ -115,13 +109,13 @@ git init
 This will create a .git directory in the \[project\] directory.  Make sure that the folder was successfully created (you can run the command `ls -l` to read the directory content in the command line).
 
 ## Committing Changes into the Repository
-***
 
 After you have made some changes to the files of the project, you may want to save/submit those changes into the repository.  This is called a "commit."
 
 To create a commit, you will need to do two things:
 
-+ **Tell GIT which files to include in the commit**, with `git add .`  If a file has not changed since the previous commit (the "parent" commit), GIT will automatically include it in the commit you are about to perform.   You will only need to add files that you have newly created or modified.  Note that it adds directories recursively, so `git add .` will add everything that has changed.
++ **Tell GIT which files to include in the commit**, with `git add .`  If a file has **not** changed since the previous commit (the "parent" commit), GIT will automatically include it in the commit you are about to perform. You will only need to ***explicitly*** add files that you have newly created or modified.  Note that it adds directories recursively, so `git add .` will add everything that has changed (the ` . ` signifies everything in the current folder).
+
 + **Call `git commit` to create the commit object.**  The new commit object will have the current HEAD as its parent (after the commit is completed, HEAD will point to the new commit object).
   
 Say you create three commits this way…your repository will look like this:
@@ -143,7 +137,6 @@ git diff [file] //to see exactly what I modified.
 git commit -a -m [message] //to commit.
 ```
 ## Referring to a Commit
-***
 
 Now that you’ve created commits, how do you refer to a specific commit?  GIT provides many ways to do so.  Here are a few:
 
@@ -154,7 +147,6 @@ Now that you’ve created commits, how do you refer to a specific commit?  GIT p
 
 
  ## Creating a Branch
- ***
 
  To create a branch, let’s say your repository looks like this:
 
@@ -183,7 +175,6 @@ Now our commit tree looks like this:
 ![how to use git](../../assets/images/924b8807-6a06-44e7-87a1-8c93d983d873.png)
 
 ## Switching Between Branches
-***
 
 In order to start working on that new branch, you need to set the current head to the head we just created.  This is done with git checkout:
 
@@ -204,7 +195,6 @@ After checking out the *\[new-head\]* head, you will fix the headers.  Now you c
 ![git8](../../assets/images/0352d1b1-0914-4d0f-9379-c47e7895ccb9.png)
 
 ## Merging 
-***
 
 After you have finished implementing a new feature in a branch, you will want to bring that new feature into the main branch, so that everyone can use it.  You can do so with the `git merge` or `git pull` command.
 
@@ -215,7 +205,7 @@ git merge [head]
 git pull . [head]
 ```
 
-These commands perform the following operations.  Let the current head be called *current*, and the head to be merged called *merge*
+These commands perform the following operations.  Let the current head be called *current*, and the head to be merged called *merge*:
 
 + Identify the common ancestor of *current* and *merge*.  Call it *ancestor-commit*.
 + Deal with the easy cases.  If the *ancestor-commit* equals merge, then do nothing.  If *ancestor-commit* equals current, then do a **fast forward merge.**
@@ -228,14 +218,12 @@ These commands perform the following operations.  Let the current head be called
 | :point_up:GIT can get very confused if there are uncommitted changes in the files when you ask it to perform a merge.  So, make sure to commit whatever changes you have made so far before you merge.
 
 ## Resolving Conflicts
-***
 
 A conflict arises if the commit to be merged into has a change in one specific place, and the current commit has a change in the exact same specific place. GIT has no way of telling which change should take precedence.
 
 To resolve the commit, edit the files to fix the conflicting changes.  Then run `git add` to add the resolved files.  Next, run `git commit` to commit the repaired merge.  GIT remembers that you were in the middle of a merge, so it sets the parents of the commit correctly.
 
 ## GIT Collaboration
-***
 
 GIT can function without needing to connect to an external server because all the git files are located inside of the .git folder.
 
@@ -244,16 +232,14 @@ However, this means that, in order to manipulate the repository, you need to als
 To share work among developers, GIT uses a **distributed model** of version control. **It assumes no central repository**.  It is possible, of course, to use one repository as the "central" one, but it is important to understand the distributed model first.
 
 ## Distributed Version Control
-***
 
 Say you and your friend want to work on the same project.  Your friend already has done some work on it.  There are three tasks you need to perform to figure out how to do so:
 
-+ Get a copy of your friend’s up to date repository (git clone).
++ Get a copy of your friend’s up-to-date repository (git clone).
 + Get the changes your friend makes into your own repository (git pull).
 + Let your friend know about changes you made (git push).
 
 ## Remote Specification
-***
 
 GIT provides a number of transport protocols for sharing repository information, such as SSH and HTTP.  We will be using SSH.
 
@@ -270,11 +256,15 @@ For example, when using a repository from github.com, you can find the remote in
 ![git9](../../assets/images/47f7c628-5efe-4888-b67c-ca90611e788e.gif)
 
 ## Adding a Remote
-***
 
 If you are working on a local repository and you want to connect it to a remote repository, you can add a remote.  First, look for the remote URL in the remote repository.
 
-Once you know the remote URL, you can add it to your project.  You have to pick an alias for the remote – by default we normally use "origin."  Add the remote by executing the following command:
+Once you know the remote URL, you can add it to your project.  
+
+You have to pick an alias for the remote – we normally use `origin`, but it is just an arbitrary word and you can use anything.  
+In our boilerplates you will already have an origin set-up from the boilerplate's repository. In those cases you would need to use another term (e.g. `new` or `new-origin`, etc). 
+
+Add the remote by executing the following command:
 
 ```bash
 git remote add origin [remote-url]
@@ -283,7 +273,6 @@ git remote get-url origin
 ```
 
 ## Pushing (uploading) to the Remote
-***
 
 Lets say you have a branch in your local repository called "new-branch."  That branch can be uploaded doing the following:
 
@@ -298,20 +287,18 @@ You will have to (1) download the files, (2) merge them into your code and (3) r
 After you solve any and all conflicts, you can go ahead and try to *git push* again.
 
 ## Pulling (downloading) from the Remote
-***
 
 Let’s say that there is a branch in the remote repository called "development."  You can download this branch into your own repository by performing the following command:
 
 ```bash
-git pull origin new-branch
+git pull origin development
 ```
 
 The `git pull` command will try to merge all the incoming files into your local branch.  If it finds any conflicting code, it will give you an error and ask you to resolve those conflicts.
 
-After you fix the conflicts, you can `git add` the files and `git commit` everything to keep a clean error-free copy of your code in the repository.
+After you fix the conflicts, you can `git add` the files and `git commit` everything to keep a cle an error-free copy of your code in the repository.
 
 ## Cloning the Repository (git clone)
-***
 
 To make a copy of a remote repository for your own use, run git clone [remote-specification].
 
