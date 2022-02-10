@@ -27,10 +27,10 @@ Es bastante código ¿VERDAD?
 <br>
 <br>
 
-## Entonces.. ¿que es React?
+## Entonces... ¿que es React?
 ***
 
-React JSS se define a sí mismo como una librería de front-end para interfaces de usuario (UIs). Básicamente, React propone una nueva forma de crear sitios web al rediseñar todo el flujo de trabajo de codificación y hacer que los sitios web sean más rápidos.
+React.js se define a sí mismo como una librería de front-end para interfaces de usuario (UIs). Básicamente, React propone una nueva forma de crear sitios web al rediseñar todo el flujo de trabajo de codificación y hacer que los sitios web sean más rápidos.
 
 #### No Más DOM
 
@@ -82,7 +82,7 @@ return <h1 id="name"> {person.name == "John" ? "John" : "Tom" } </h1>; //funcion
 ## Ahora Todo es un Componente
 ***
 
-¿Ruerdas los componentes de Bootstrap?
+¿Recuerdas los componentes de Bootstrap?
 
 React lleva ese concepto más allá al dividir y encapsular todo tu sitio web en componentes más pequeños. Estos componentes se pueden basar en el uso de las estructuras JS familiares de `función` o `clase`.
 
@@ -177,7 +177,7 @@ export class MyCard extends React.Component{
 }
 ```
 [[warning]]
-| ☝️ This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+| ☝️ Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
 
 ## El componente PRINCIPAL 
 ***
@@ -298,7 +298,7 @@ Cada clase debe tener una función llamada **render.** Esto devolverá el códig
 Cada componente viene con un objeto global (compartido solo dentro del mismo Componente) que tiene el único propósito de almacenar los datos necesarios para representarlo. Por ejemplo, digamos que estoy desarrollando un componente de reloj que tiene que imprimir la hora actual cada segundo. Necesitaría la hora actual en el estado del componente ... el código se verá algo así:
 
 [[info]]
-| :point_up: La siguiente demostración actualiza la hora actual en cada segundo:
+|  👆 La siguiente demostración actualiza la hora actual en cada segundo:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/r80q431L/10/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/r80q431L/10/embedded/js,html,result/">Click to open demo in a new window</a></small></div>
