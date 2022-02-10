@@ -42,7 +42,7 @@ Además del contenido del documento y del content-type, el servidor también agr
 
 #### Códigos de Respuesta del Servidor
 
-|**Content-type**   |**Descripción**   |
+|**Código de respuesta**   |**Descripción**   |
 |:------------------|:-----------------|
 |2xx Success      |200 OK, 201 Creado, 204 No hay Contenido, 203 Información no autorizada  |
 |3xx Redirection    |301 Movido Permanentemente, 307 Redirecionado Temporalmente, 304 No Modificado    |
