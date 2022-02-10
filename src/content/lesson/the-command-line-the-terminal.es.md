@@ -20,7 +20,7 @@ Al principio, todos odiaban la línea de comando. Tras años de experiencia, se 
 Pero ¿por qué les gusta a los desarrolladores? Bueno, la lista es infinita, pero aquí hay algunas razones importantes:
 
 + Si no dominas la línea de comandos, no podrás usar ninguno de estos: GIT, MySQL, Webpack, Node.js, Grunt, Vagrant, Babel, React, Angular, Apache, etc.
-+ Como desarrollador, es lo único que necesitas tener disponible. Las computadoras no vienen con Atom, Sublime text (o cualquier otro IDE de lujo). A veces - como los servidores de producción - no puedes instalar nada y **el sistema ni siquiera tiene una interfaz visual** - solo la línea de comandos.
++ Como desarrollador, es lo único que necesitas tener disponible. Las computadoras no vienen con Atom, Sublime text (o cualquier otro IDE de lujo). A veces - como los servidores de producción - no puedes instalar nada y **el sistema ni siquiera tiene una interfaz visual** - sólo la línea de comandos.
 + Es super poderosa. Puedes hacer mucho más en mucho menos tiempo, por ejemplo: eliminar de forma masiva, cambiar el nombre, buscar un archivo, editar un archivo, etc.
 + Te obliga a usar el teclado. Como no puedes usar el mouse, te hace más rápido. Cometes menos errores y el entorno es exactamente el mismo en todas las computadoras.
 
@@ -31,15 +31,15 @@ La consola es realmente simple: es una pantalla negra que siempre está esperand
 
 Pero, ¿qué es un *comando*?
 
-Es algo así como "imprimir" o "mostrar" o "eliminar", pero abreviado. Por ejemplo, si quieres decirle a la consola que liste todos los archivos en un directorio en particular, tiene que usar el comando `ls` así:
+Es algo así como "imprimir" o "mostrar" o "eliminar", pero abreviado. Por ejemplo, si quieres decirle a la consola que liste todos los archivos en un directorio en particular, tienes que usar el comando `ls` así:
 
 ```bash
 ls -l /path/to/directory
 ```
 
-Todos los comandos tienen tres partes: la ** utilidad **, los ** marcadores ** y los ** argumentos **. La utilidad siempre es lo primero. Las otras dos partes tienen reglas diferentes y, dependiendo del comando que estés utilizando, es posible que no tengan que usar ningún marcador o argumento.
+Todos los comandos tienen tres partes: la ** utilidad **, los ** marcadores ** y los ** argumentos **. La utilidad siempre es lo primero. Las otras dos partes tienen reglas diferentes y, dependiendo del comando que estés utilizando, es posible que no tengas que usar ningún marcador o argumento.
 
-En este caso particular, usamos la "marcador" `-l` para especificar que queremos una versión "larga" de la lista de archivos (con más detalles).
+En este caso particular, usamos el "marcador" `-l` para especificar que queremos una versión "larga" de la lista de archivos (con más detalles).
 
 Lo último que tenemos que agregar es el "argumento". En este caso, el "argumento" será la ruta del directorio del cual queremos listar los archivos.
 
@@ -56,7 +56,7 @@ Hay 4 cosas importantes que notar aquí:
 
 + Puedes usar un punto `.` para referirte a todos los archivos y carpetas en la jerarquía.
 + También puedes usar dos puntos `..` para referirte al directorio padre.
-+ Puede usar la barra diagonal `/` para navegar más hacia abajo en los directorios jerárquicos.
++ Puedes usar la barra diagonal `/` para navegar más hacia abajo en los directorios jerárquicos.
 + Archivos ocultos: por lo general, un archivo tiene un nombre y una extensión *(filename.extension)*. Si un archivo no tiene nombre y sólo una extensión, estará, por defecto, oculto en la interfaz visual.
 
 
@@ -184,7 +184,7 @@ Esto te ayudará a ahorrar tiempo y a cometer menos errores al escribir:
 ## Editando archivos en el terminal:
 ***
 
-Esta es una de las cosas que no puedes evitar hacer en el terminal. Como desarrollador, tendrás que editar archivos en el terminal con más frecuencia de lo que crees. Por eso es mejor que esté preparado para usar la  [VI Aplicación o la Aplicación Nano](https://askubuntu.com/questions/726669/difference-between-nano-and-vim)  Hablaremos sobre Nano y sus comandos (sí, aquí el editor de texto se abre dentro de la línea de comandos y se ejecuta usando comandos).
+Esta es una de las cosas que no puedes evitar hacer en la terminal. Como desarrollador, tendrás que editar archivos en la terminal con más frecuencia de lo que crees. Por eso es mejor que esté preparado para usar la  [VI Aplicación o la Aplicación Nano](https://askubuntu.com/questions/726669/difference-between-nano-and-vim)  Hablaremos sobre Nano y sus comandos (sí, aquí el editor de texto se abre dentro de la línea de comandos y se ejecuta usando comandos).
 
 ### El comando  `nano`
 
