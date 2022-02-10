@@ -74,7 +74,7 @@ If when defining the function we do not use the symbol of the curly braces. The 
 
 ## Writing your first unit test with Jest
 
-Jest is the most popular unit testing framework in javascript, it is used by big companies like airbnb, twitter, spotify and has plugins that integrate amazingly with front-end frameworks like React, Vue, Angular, etc.
+Jest is the most popular unit testing framework in javascript, it is used by big companies like Airbnb, Twitter, Spotify and has plugins that integrate amazingly with front-end frameworks like React, Vue, Angular, etc.
 
 It requires almost 0 configuration to start using it, it is extremely fast and the error or feedback messages are very clear.
 
@@ -130,7 +130,7 @@ test('Testing for Hello (mixed)', () => {
 })
 // Third test possibility
 test('Testing for hello (lower)', () => {
-     const result = isUpperCase('Hello');
+     const result = isUpperCase('hello');
      expect(result).toBe(false);
 })
 // Forth test possibility
@@ -156,7 +156,7 @@ We have been using `expect(something).toBe(something)` but jest has a lot of pos
 | Description | Syntax |
 | ----------- | ------ |
 | Expect the opposite | expect(false).not.toBe(true) |
-| Expect string to contain another string | expect("hello world").stringContaining("world) |
+| Expect string to contain another string | expect("hello world").stringContaining("world") |
 | Expect variable to be defined | expect(variable_name).toBeDefined() |
 | Expect array to contain another | expect(['a','b','c','e']).toEqual(expect.arrayContaining(['b','c'])) |
 

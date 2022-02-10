@@ -56,12 +56,135 @@ Basically mySuperVariable will be initialized with `null`, and then you will be 
 
 ### Possible uses for </strong>the ` useState` hook</strong>
 
-|  |  |  |
-| ----------- | ---- |
-| 1. Counting: Displaying the number of likes on the screen and being able to increase or decrease when the user clicks, [click here for demo](https://codesandbox.io/s/wild-pond-soxu8?fontsize=14) | ![React Counter with Hooks](https://ucarecdn.com/af747595-cf02-42ca-a6bf-00c0c512ef40/reactcounterhooks.gif) |
-| 2. Timer/Clock: You can use the system time to show the current time on the screen, but since time changes all the time, we store it with a state variable, [click here for demo](https://codesandbox.io/s/hungry-paper-kkh7g?fontsize=14) | ![Building a timer with react hooks](https://ucarecdn.com/763d40a2-d4ea-4cf5-a2cd-dc777f71efcb/timerreacthooks.gif) |
-| 3. Showing an input on the screen: The best practice to get the content from any input is by storing it on a state variable- this is called "Controlled Input", [click here for a controlled input example](https://codesandbox.io/s/brave-albattani-irhy7?fontsize=14) | ![Controlled Input With React](https://ucarecdn.com/d1347307-d440-464f-a793-7a457e9903ad/controlledinputreact.gif) |
-| 4. Opening/Closing (show/hide): A typical use case is having a dialog that asks a question or allows a user to sign up for a newsletter, [click here for the example.](https://codesandbox.io/s/modal-window-component-with-hooks-vb6de?fontsize=14). | ![Modal Window using react hooks](https://ucarecdn.com/03d2c2c4-f510-4088-9bb0-1665dbfe8a68/modalwindowhooks.gif) |
+ 1. Counting: Displaying the number of likes on the screen and being able to increase or decrease when the user clicks.
+ ![React Counter with Hooks](https://s10.gifyu.com/images/countergif.gif) 
+ [![Edit Simple counter using useState and react hooks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/simple-counter-using-usestate-and-react-hooks-soxu8?fontsize=14&hidenavigation=1&theme=dark)
+
+```jsx
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
+import "./styles.css";
+
+const Counter = () => {
+  //initilize a count variable at 0, the setCount function
+  // will be used to re-set the "count" value.
+  const [count, setCount] = useState(0);
+  return (
+    <div>
+      <h2>{count} likes</h2>
+      {/* Reset count to its previous value + 1 */}
+      <span onClick={() => setCount(count + 1)}>👍🏽</span>
+      {/* Reset count to its previous value - 1 */}
+      <span onClick={() => setCount(count - 1)}>👎🏽</span>
+      <h3>Like or dislike to increase/decrease</h3>
+    </div>
+  );
+};
+
+ReactDOM.render(<Counter />, document.getElementById("root"));
+```
+
+
+2. Timer/Clock: You can use the system time to show the current time on the screen, but since time changes all the time, we store it with a state variable.
+
+   ![Building a timer with react hooks](https://s10.gifyu.com/images/ezgif.com-gif-maker-435c19aa6749269d2.gif) [![Edit React js Clock](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-js-clock-7zefj?fontsize=14&hidenavigation=1&theme=dark)
+
+```jsx
+import React, { useEffect, useState } from "react";
+
+
+const Clock = (props) => {
+  const [time, setTime] = useState(new Date().toLocaleTimeString());
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTime(new Date().toLocaleTimeString());
+    }, 1000);
+    return () => clearInterval(interval);
+  }, []);
+
+ 
+  return (
+    <div>
+      <h1>{time}</h1>
+    </div>
+  );
+};
+
+Clock.propTypes = {};
+
+export default Clock;
+```
+
+
+3. Showing an input on the screen: The best practice to get the content from any input is by storing it on a state variable- this is called "Controlled Input", 
+
+    ![Controlled input field](https://s10.gifyu.com/images/ezgif.com-gif-maker-399b80fa21c077ab6.gif) [![Edit controlledinput](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/controlledinput-rbh0m?fontsize=14&hidenavigation=1&theme=dark)
+    
+```jsx
+import React, { useEffect, useState } from "react";
+
+const ControlledInputForm = (props) => {
+  //     holds the value of the input
+  const [currentValue, setValue] = useState("");
+  return (
+    <div>
+      <h2>Your name is: {currentValue ? currentValue : "Not defined"}</h2>
+
+      {/* 
+       This is a controlled input because its value is in sync 
+       with the stated variable currentValue  
+     */}
+      <input
+        type="text"
+        onChange={(e) => setValue(e.target.value)}
+        value={currentValue}
+        placeholder="Please type your name"
+      />
+    </div>
+  );
+};
+ControlledInputForm.propTypes = {};
+export default ControlledInputForm;
+
+```
+
+4. Opening/Closing (show/hide): A typical use case is having a dialog that asks a question or allows a user to sign up for a newsletter.
+
+![Modal Window using react hooks](https://s10.gifyu.com/images/ezgif.com-gif-maker-51e6b7321e3cfd394.gif) [![Edit Modal window component with hooks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/modal-window-component-with-hooks-vb6de?fontsize=14&hidenavigation=1&theme=dark). 
+```jsx
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
+import "./styles.css";
+
+const Modal = () => {
+  /**
+   *  Using the useState hook, you have to pay atention to 3 elements:
+   *  - opened: a variable that will change over time (can have any name)
+   *  - setOpened:  a function that resets the value of opened (can by any name)
+   *  - useState: this is the hook, it has to be setState and it receives the initial value for "opened"
+   */
+  const [opened, setOpened] = useState(true);
+
+  //if opened === true, I show the modal, else i show the button to open the modal
+  return opened ? (
+    <div>
+      <h1>Hello BreatheCode</h1>
+      <button type="button" onClick={() => setOpened(false)}>
+        Close
+      </button>
+    </div>
+  ) : (
+    <button type="button" onClick={() => setOpened(true)}>
+      Open
+    </button>
+  );
+};
+
+ReactDOM.render(<Modal />, document.getElementById("root"));
+
+```
+
 | 5. Thousands of other possible applications. | |
 
 Let's explain this hook with a small Modal window example. Here is the live code:
