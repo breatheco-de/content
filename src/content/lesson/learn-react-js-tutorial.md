@@ -74,72 +74,77 @@ return <h1 id="name"> {person.name == "John" ? "John" : "Tom" } </h1>; //works i
 | :point_up: Review the differences between expressions and statements :link:[HERE](https://medium.com/launch-school/javascript-expressions-and-statements-4d32ac9c0e74)
 
 
-<br>
-<br>
-
-## Your Entire Website is now a Component
+## Everything Is Now a Component
 ***
 
-The first thing you will do when building big React applications is to define one big, "primary" component that will contain all your application's other components inside.  Then, you need to inject that component into the website DOM with the method ReactDOM.render(), like so:
+Remember the Bootstap components?  
 
-```jsx {numberLines: true}
-import React from 'react'; //mandatory import of the react package
-import ReactDOM from 'react-dom'; //mandatory import of the react-dom package
+React takes that concept further by dividing and encapsulating your entire website into smaller components. These components can be based on using the familiar JS structures of `function` or `class`. 
 
-//creating our React component
-class MyBigComponent extends React.Component{ 
-    return (<div>Hello World<div>);
-}
+Here is how we declare a React component as a function, which is what we will stick to during this course:
 
-[[warning]]
-| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
-
-
-
-// implied is that there is a container div with the id 'app' in your original website's HTML body  
-ReactDOM.render(<MyBigComponent />, document.querySelector('#app'));
-// your entire react application will be inserted into that div
-```
-<br>
-<br>
-
-## Everything else is also a component
-***
-
-Remember the Bootstap components?  React takes that concept further by dividing and encapsulating your entire website into smaller components. These components can be based on using the familiar JS structures of `function` or `class`. 
-Each component then can be rendered by calling its `<tag>` which looks just like the HTML tags but always starting with a capital letter.  The difference is that now the name of the `<tag>` is the name of the React component that you have created, and using the tag gives you access to the look and behavior that you have programmed in your component.  
-
-For example, lets looks at the **Bootstrap card:**
-
-![learn react js tutorial](../../assets/images/73edbb82-467c-4522-af7d-79c33bb270e2.png)
-
-And how we can recreate the same component in a React app.
 
 ```jsx {numberLines: true}
 import React from 'react';
 
-//here we created the component MyCard as a function 
-//it will render a similar to the Bootstrap card anywhere where you call <MyCard />
+function MyComponent(){
+    return (
+        //Some html code should go here
+    );
+}
+
+```
+
+Now let's say that we want this component to return a **Bootstrap card:** every time we call it. 
+
+![learn react js tutorial](../../assets/images/73edbb82-467c-4522-af7d-79c33bb270e2.png)
+
+Here is a how we do that in a React app.
+
+```jsx {numberLines: true}
+import React from 'react';
+
+//we renamed the component to MyCard 
+
 function MyCard(){
     return (
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div className="card" style={{width: "18rem"}}> //Notice some html attributes change their names or values in order to work in React
+          <img className="card-img-top" src="..." alt="Card image cap" /> //We should now take care to always close self-closing tags
+          <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Go somewhere</a>
           </div>
         </div>
     );
 }
 
-<MyCard /> //this tag will render your above component in any other component/file
-
 ```
 
 [[info]]
-| :point_up: Each component in React needs to have a render method that returns HTML
+| :point_up: Each component in React needs to have a render method that returns a block of HTML code
 
+
+Each component can be rendered by calling its `<tag>` which looks just like the HTML tags but always starting with a capital letter.  The difference is that now the name of the `<tag>` is the name of the React component (*e.g. <MyCard />*) that **you** have created, and using the tag gives you access to the look and behavior that you have programmed in your own component.  
+
+The above component will now **render** (display on the page) a Bootstrap card anywhere where you call <MyCard /> like this:
+
+```jsx 
+    <MyCard />
+```
+
+Usually we call components within the return section of another component:
+
+```jsx {numberLines: true}
+import React from 'react';
+
+function MyComponent(){
+    return (
+        <MyCard />
+    );
+}
+
+```
 
 ### React Components can be **Functions** or **Classes**
 
@@ -173,18 +178,75 @@ export class MyCard extends React.Component{
 
 
 
+## The MAIN Component
+***
 
-### Doing Website Layouts with React
+With React the entire application is considered one component.
 
-A "Layout" in React is basically the combination of two or more components (referred to as **components**) into a parent component (referred to as a **view**).  
+The first thing you will do when building big React applications is to define one big component, which we call **primary** or **main**. It will hold your entire application.
 
-**For example:**  Let's say you have a [one page website](https://onepagelove.com/what-is-a-one-page-website) with three sections: Home, About Us and Contact Us.  The "React" way of doing that will be by creating a bigger **view** component that contains each **component** (section), like this:
+Then, you need to inject this main component into the website DOM with the method ReactDOM.render(), like so:
 
 ```jsx {numberLines: true}
-import React from 'react';
+import React from 'react'; //mandatory import of the react package
+import ReactDOM from 'react-dom'; //mandatory import of the react-dom package
 
-//create your first component 
-export class EntireWebsiteLayout extends React.Component{
+//creating our React component
+function MyMainComponent (){ 
+    return <div>Hello World<div>;
+}
+
+  
+ReactDOM.render(<MyMainComponent />, document.querySelector('#app'));
+// Implied is that there is a container div with the id 'app' in your original website's HTML body
+// Through <MyMainComponent /> your entire react application will be inserted into that location of the DOM
+```
+
+Because `<MyMainComponent />` in this example is the main component, all other components of your application will need to be called inside this main component or in its descendants (children, grandchildren, etc). Any components not being called in the main component or in its descendants will never appear in the DOM and consequently - not dhow on your webpage.
+
+
+```jsx 
+function GrandchildComponent (){ 
+    return " Hello, I'm the Grandchild ";
+}
+
+function ChildComponent (){ 
+    return (
+        <p>
+            <h3>Hello I'm the Child, and below is the Grandchild</h3>
+            <GrandchildComponent />
+        </p>
+    );
+}
+
+function RandomComponent (){ 
+    return " Hello, I'm just a random component that will not be rendered =( ";
+}
+
+function MyMainComponent (){ 
+    return <ChildComponent />;
+}
+
+  
+ReactDOM.render(<MyMainComponent />, document.querySelector('#app'));
+
+```
+
+In this example, `<ChildComponent />` and `<GrandchildComponent />` will end up in the DOM and will render because they are called within the main component or a descendant. `<RandomComponent />` on the other hand, will never be shown on the page because it is not being called in that way. 
+ 
+
+
+## Doing Website Layouts with React
+
+A "Layout" in React is basically the combination of two or more components (referred to as **components** proper) into a parent component (referred to as a **view**).  
+
+**For example:**  
+
+Let's say you have a [one page website](https://onepagelove.com/what-is-a-one-page-website) with three sections: `Home`, `About Us` and `Contact Us`.  The "React" way of doing that will be by creating a bigger **view** component that contains each component (section), like this:
+
+```jsx {numberLines: true}
+
+export function EntireWebsiteLayout (){
     
     render(){
         return (
@@ -196,7 +258,9 @@ export class EntireWebsiteLayout extends React.Component{
         );
     }
 }
+//It is implied that the Home, AboutUs and ContactUs components have already been defined.
 ```
+
 [[warning]]
 | :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
 
