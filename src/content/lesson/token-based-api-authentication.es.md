@@ -47,7 +47,7 @@ Los tokens utilizados para la autenticación tienen que ser algo más que númer
 
 - No consecutivos: eso los hará muy predecibles, los hackers adivinarán el siguiente.
 - Infinitos (casi): ¿Qué ocurrirá si te quedas sin tokens? ¿Te imaginas que MasterCard se quedara sin números de tarjetas de crédito?
-- No reutilizables: Hay casos de tokens reutilizables, pero en general, una vez que se genera un token, nadie más debería usarlo que tú.
+- No reutilizables: Hay casos de tokens reutilizables, pero en general, una vez que se genera un token, nadie más que tú debería usarlo
 - Validable: El token debe seguir algún patrón oculto (¿encriptación?) que permita validar el token sin comprometer al propietario o al autor.
 
 ### Generando de tokens
