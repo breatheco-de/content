@@ -137,7 +137,7 @@ from flask_jwt_extended import jwt_required, get_jwt_identity
 def protected():
     # Access the identity of the current user with get_jwt_identity
     current_user_id = get_jwt_identity()
-    user = User.filter.get(current_user_id)
+    user = User.query.get(current_user_id)
     
     return jsonify({"id": user.id, "username": user.username }), 200
 ```
