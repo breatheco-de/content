@@ -77,7 +77,7 @@ These are not small numbers, 60% in a day and 90% if you don't practice for a we
 
 4. **Get involved:** Just coming to class will not be enough, humans are beautiful emotional creatures, information attaches better to your brain when you are engaged, emotional, coming to events and study groups, publicly speaking about it, etc. 
 
-## What's next?
+## What is next?
 
 Please make sure you understand how the academy works:
 
