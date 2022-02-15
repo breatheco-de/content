@@ -120,7 +120,7 @@ Ahora, supongamos que necesitamos cargar algunos archivos desde un servidor, esp
 
 ```javascript
 1    function cargarImagen(){
-3	console.log("¡Cárgarla!");
+3	console.log("¡Cárgala!");
 4	//código para cargar una imagen
 5	console.log("¡Imagen cargada!");
 6    }

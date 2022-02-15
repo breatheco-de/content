@@ -26,7 +26,7 @@ But why do developers like it?   Well, the list is infinite but here are a few i
 
 The console is really simple: it’s a black screen that’s always expecting a *command*.  After you type the desired command and press the `return` key, the computer executes it and shows some feedback with the resulting output on the screen.  A simple Question <> Answer interface.
 
-But what is a *command*?
+But, what is a *command*?
 
 It is something like "print," or "show," or "delete," but abbreviated.  For example, if you want to tell the console to list all of the files in a particular directory, you have to use the `ls` command like this:
 
@@ -78,7 +78,7 @@ ls -l ./applications
 
 **The change directory command**
 
-Navigate between two different directories.
+Travel between two different directories.
 
 ```bash
 cd /path/to/directory

@@ -41,8 +41,7 @@ The **store** is now the most delicate piece of data in our application, and it 
 
 ![Flux](../../assets/images/flux-simple-f8-diagram-1300w.png)
 
-![In-Depth Overview of Flux Architecture]
-(https://facebook.github.io/flux/docs/in-depth-overview)
+![In-Depth Overview of Flux Architecture](https://facebook.github.io/flux/docs/in-depth-overview)
 
 We must split the **store** from the **actions** and the **views** (components) and make sure that the views call actions to update the store. *We will never directly change the store from a view*. I know, I'm being redundant on purpose...
 
@@ -50,7 +49,7 @@ We must split the **store** from the **actions** and the **views** (components) 
 
 + We're going to implement a *single point of truth* for the whole react application: ***global state***.
 + This state will contain the *data* and *functions* to set the new state: ***```store```*** and ***```actions```*** .
-+ We're going to deliver it throughout the whole application using the *context*: ***Context.Provider*** and ***Context.Consumer***
++ We're going to deliver it throughout the whole application using the *context*: ***Context.Provider*** and ***Context.Consumer*** (if using *classes* as React components) or ***useContext()*** hook (if using *functions* as React components)
 
 ### Simple implementation
 
@@ -92,7 +91,7 @@ export const ContextWrapper = (props) => {
 }
 ```
 
-- **Step 3 (Views)**:  Now your main component can be wrapped inside `ContextWrapper` so that all children components will have access to the `Context.Consumer`. For this quick example we will be using the `<TodoList />` component as our main component (the declaration is on the last step).
+- **Step 3 (Views)**:  Now your main component can be wrapped inside `ContextWrapper` so that all children components will have access to the **Context**. For this quick example we will be using the `<TodoList />` component as our main component (the declaration is on the last step).
 
 *index.js*
 ```js
@@ -112,46 +111,48 @@ ReactDOM.render(<MyView />, document.querySelector("#app"));
 
 ```
 
-- **Step 4**: Now we can create the ```TodoList``` component knowing that we can use the ```Context.Consumer``` to read the store from the **global state** (no props necessary). In this case the component will render the to-do's and also be able to add new tasks to the list.
+- **Step 4**: Now we can create the ```TodoList``` component knowing that we can use the ```Context.Consumer``` (in classes) or `useContext()` hook (in functions) to read the store from the **global state** (no props necessary). 
+
+   In this case the component will render the to-do's and also be able to add new tasks to the list.
 
 ```js
 // Step 4: Add the Context.Consumer tag to any component
 
-import React from 'react';
-
+import React, { useContext } from 'react';
 import { AppContext } from 'path/to/AppContext.js';
 
-export const TodoList = () => (
-	<AppContext.Consumer>
-	    { (context) => (
-		<div>
-			{context.store.todos.map((task, i) => (<li>{task}</li>))}
-			<button onClick={() => context.actions.addTask("I am the task " + context.todos.length)}> + add </button>
-		</div>
-	    )}
-	</AppContext.Consumer>
-);
+export const TodoList = () => {
+	const context = useContext(AppContext);
+	return <div>
+		{context.store.todos.map((task, i) => (<li>{task}</li>))}
+		<button onClick={() => context.actions.addTask("I am the task " + context.todos.length)}> + add </button>
+	</div>
+}
 ```
 
-OR
+Very often we will use the hook that you see above 
 
-```js
-import React from 'react';
-import { AppContext } from 'path/to/AppContext.js';
-
-export const TodoList = () => (
-	<AppContext.Consumer>
-	    { ({ store, actions}) => ( //Object deconstruction for faster coding
-		<div>
-			{store.todos.map((task, i) => (<li>{task}</li>))}
-			<button onClick={() => actions.addTask("I am the task " + context.todos.length)}> + add </button>
-		</div>
-	    )}
-	</AppContext.Consumer>
-);
+```javascript
+	const context = useContext(AppContext);
+	return <div>
+		{context.store.todos.map((task, i) => (<li>{task}</li>))}
+		<button onClick={() => context.actions.addTask("I am the task " + context.todos.length)}> + add </button>
+	</div>
 ```
+
+in its destructured variant. Pay attention how that also simplifies the way we then access the store:
+
+```javascript
+	const {store, actions} = useContext(AppContext);
+	return <div>
+		{store.todos.map((task, i) => (<li>{task}</li>))}
+		<button onClick={() => actions.addTask("I am the task " + context.todos.length)}> + add </button>
+	</div>
+```
+
+
 
 
 ## Test the code live
 
-<iframe src="https://codesandbox.io/embed/w75wq6v01k?hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<iframe src="https://codesandbox.io/embed/w75wq6v01k?fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>

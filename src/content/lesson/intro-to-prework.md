@@ -20,18 +20,18 @@ A web developer makes around $65k per year in the US. In Florida, numbers are a 
 
 ## About 4Geeks Academy
 
-4Geeks Academy is a Miami based Coding School. We started in 2015 and now we have more than 650 graduates, 6 open campuses across USA, Latinamerica and now Europe. We are Licensed by the Florida Department of Education and we were named as one of the best 10 coding Schools in the US by Newsweek. 
+4Geeks Academy is a Miami based Coding School. We started in 2015 and now we have more than 650 graduates, 6 open campuses across USA, Latin America and now Europe. We are Licensed by the Florida Department of Education and we were named as one of the best 10 coding Schools in the US by Newsweek. 
 
 <p style="text-align:center">
     <img class="my-class" src="../../assets/images/75ca521c-2ea0-4a7d-ad05-6717200d8553.png" width="300">
 </p>
 
-Around 90% of our students find a job after graduation. It normally takes 100 days to land your first job, and we will not rest until we make that happen. 
+Around 90% of our students find a job after graduation. It normally takes 100 days to land your first job, and we will not rest until we make that happen :) 
 <p style="text-align:center">
     <img class="my-class" src="../../assets/images/18da88b0-403c-4330-a7d6-661307f062e5.png" width="300">
 </p>
 
-4Geeks stands out because of several reasons: 1. Our memberships: GeekPAL (You always have a Mentor available to support your learning process 24/7 and customized), and GeekFORCE (we will make sure that you land a job, that you have a strong profile and that you make a career out of the Bootcamp); 2. Our passion for teaching Coding. 3. Our outcomes: here is a report (from  April 2019) to check it out: https://www.4geeksacademy.co/wp-content/uploads/2020/03/4Geeks-Outcomes-Report-.pdf. 
+4Geeks stands out for several reasons: 1. Our memberships: GeekPAL (You always have a Mentor available to support your learning process 24/7 and customized), and GeekFORCE (we will make sure that you land a job, that you have a strong profile and that you make a career out of the Bootcamp); 2. Our passion for teaching Coding. 3. Our outcomes: here is a report (from  April 2019) to check it out: https://www.4geeksacademy.co/wp-content/uploads/2020/03/4Geeks-Outcomes-Report-.pdf. 
 
 If you want to know more, get in contact with us or apply, please send us an email at: Info@4geeksacademy.com
 
