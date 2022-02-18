@@ -269,7 +269,7 @@ In our boilerplates you will already have an origin set-up from the boilerplate'
 Add the remote by executing the following command:
 
 ```bash
-git remote add new-origin [the-remote-url]
+git remote add origin [the-remote-url]
 //to make sure the remote has been properly set we can get the url value
 git remote get-url origin
 ```
