@@ -241,12 +241,12 @@ Say you and your friend want to work on the same project.  Your friend already h
 
 ## Remote Specification
 
-GIT provides a number of transport protocols for sharing repository information, such as SSH and HTTP.  We will be using SSH.
+GIT provides a number of transport protocols for sharing repository information, such as SSH and HTTP.  We will be using only HTTP, because SSH is more advanced and requires extra setup.
 
-To start working in collaboration with remote projects, we will need to know the remote URL of the project.  When using SSH, the remote will look like this:
+To start working in collaboration with remote projects, we will need to know the remote URL of the project.  When using HTTP, the remote will look like this:
 
 ```bash
-git@domain_name.com:user_name/repository_name.git
+https://github.com/<github-username>/repository-name.git
 ``` 
 
 ### Github.com
@@ -261,13 +261,15 @@ If you are working on a local repository and you want to connect it to a remote 
 
 Once you know the remote URL, you can add it to your project.  
 
-You have to pick an alias for the remote – we normally use `origin`, but it is just an arbitrary word and you can use anything.  
-In our boilerplates you will already have an origin set-up from the boilerplate's repository. In those cases you would need to use another term (e.g. `new` or `new-origin`, etc). 
+You have to pick an alias for the remote – we normally use `origin`, but it is just an arbitrary word and you can use anything. 
+
+:warning:
+In our boilerplates you will already have an origin set-up from the boilerplate's repository. In those cases you should not remove the original origin, but would need to use another term (e.g. `new` or `new-origin`, etc) to add your new remote. 
 
 Add the remote by executing the following command:
 
 ```bash
-git remote add origin [remote-url]
+git remote add new-origin [the-remote-url]
 //to make sure the remote has been properly set we can get the url value
 git remote get-url origin
 ```
