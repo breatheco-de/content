@@ -13,7 +13,7 @@ status: "published"
 
 Completing a stylesheet is like having a little war between selectors, – you are constantly overriding previously defined styles with new ones:
 
-```css{numberLines: true}
+```css
 //You first might want all the H2 tags to be font-size: 14px; and color: blue;
 h2{
     font-size: 14px;

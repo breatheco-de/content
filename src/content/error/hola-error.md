@@ -74,7 +74,7 @@ We are going to set the layout (using the sm, md and lg column classes) for  two
 
 ![bootstrap 4](../../assets/images/e15c594c-9b46-4c27-bf5a-a5bbb5ef952a.png)
 
-```html{numberLines: true}
+```html
 <!-- Stack the columns on mobile by making one full-width and the other half-width --> 
 <div class="row">
   <div class="col-12 col-md-8">.col-12 .col-md-8</div>
@@ -99,7 +99,7 @@ We are going to set the layout (using the sm, md and lg column classes) for  two
 
 We already know the basic HTML5 skeleton any website needs to have.  Now you just have to add a few lines in your skeleton to make it "Bootstrap compatible":
 
-```html{numberLines: true}
+```html
 <!doctype html>
 <html lang="en">
   <head>
@@ -155,7 +155,7 @@ Here is an example of how a NavBar may look on a website:
 [[info]]
 | :link:[**Read more about the NavBar here**](https://getbootstrap.com/docs/4.0/components/navbar/)
 
-```html{numberLines: true}
+```html
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">Website Brand</a>
@@ -200,7 +200,7 @@ Here is an example of how a "The Card" may look on a website:
 [[info]]
 | :link: [**Read more about the card here**](https://getbootstrap.com/docs/4.0/components/card/)
 
-```html{numberLines: true}
+```html
 <div class="card" style="width: 20rem;">
   <img class="card-img-top" src="..." alt="Card image cap">
   <div class="card-body">
@@ -224,7 +224,7 @@ Here is how a modal looks by default on Bootstrap.
 [[info]]
 | :link:[**Read more about modal here**](https://getbootstrap.com/docs/4.0/components/modal/)
 
-```html{numberLines: true}
+```html
 div class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">

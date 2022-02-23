@@ -71,7 +71,7 @@ We recommend [the Google CDN:](https://developers.google.com/speed/libraries/) l
 
 ![what is jquery vs javascript](../../assets/images/b5e8d1ef-5385-4923-aaf9-b24130405a9a.gif)
 
-```html{numberLines: true}
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -427,7 +427,7 @@ For example, if you want to remove one specific class from an element you will h
 ##### ![what is jquery vs javascript](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) With vanilla JavaScript
 
 
-```javascript{numberLines: true}
+```javascript
 var request = new XMLHttpRequest();
 request.open(‘GET’, ‘/my/url’, true);
 request.onload = function() {
@@ -446,7 +446,7 @@ request.send();
 
 ##### ![what is jquery vs javascript](../../assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) With jQuery
 
-```javascript{numberLines: true}
+```javascript
 $.ajax({
   type: ‘GET’,
   url: ‘/my/url’,
@@ -465,7 +465,7 @@ $.ajax({
 ##### ![what is jquery vs javascript](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) With vanilla JavaScript
 
 
-```javascript{numberLines: true}
+```javascript
 var http = new XMLHttpRequest();
 var url = "/my/url";
 var params = "lorem=ipsum&name=binny";
@@ -482,7 +482,7 @@ http.send(params);
 
 ##### ![what is jquery vs javascript](../../assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) With jQuery
 
-```javascript{numberLines: true}
+```javascript
 $.ajax({
   type: ‘POST’,
   url: ‘/my/url’,

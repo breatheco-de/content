@@ -298,7 +298,7 @@ Python trae un nuevo tipo de tipo de datos llamado "Tupla". Piense en ello como 
 
 #### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
 
-```javascript{numberLines: true}
+```javascript
 //Hay dos maneras de declarar un objeto
 
 //Como un objeto literal
@@ -319,7 +319,7 @@ obj.lastname = "Perez";
 
 #### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
 
-```python{numberLines: true}
+```python
 # En Python tenemos Clases y Diccionarios.
 
 # Así es como tu declaras y usas un diccionario.

@@ -74,7 +74,7 @@ Vamos a configurar el diseño (usando las clases de columnas xs, sm, md y lg) pa
 
 ![bootstrap 4](../../assets/images/e15c594c-9b46-4c27-bf5a-a5bbb5ef952a.png)
 
-```html{numberLines: true}
+```html
 <!-- Apila las columnas en el móvil ocupando el ancho completo y el otro medio ancho --> 
 <div class="row">
   <div class="col-12 col-md-8">.col-12 .col-md-8</div>
@@ -100,7 +100,7 @@ Vamos a configurar el diseño (usando las clases de columnas xs, sm, md y lg) pa
 
 Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web debe tener. Ahora solo debes agregar unas lineas en tu esqueleto para hacerlo compatible con Bootstrap:
 
-```html{numberLines: true}
+```html
 <!doctype html>
 <html lang="en">
   <head>
@@ -158,7 +158,7 @@ Aquí hay un ejemplo de como se ve un NavBar en un sitio web:
 [[info]]
 | :link:[**Lee más sobre el "NavBar" aquí**](https://getbootstrap.com/docs/4.0/components/navbar/)
 
-```html{numberLines: true}
+```html
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">Website Brand</a>
@@ -203,7 +203,7 @@ Aquí hay un ejemplo de como puede verse un sitio web con una "Card":
 [[info]]
 | :link: [**Lee más sobre la "Card" aquí**](https://getbootstrap.com/docs/4.0/components/card/)
 
-```html{numberLines: true}
+```html
 <div class="card" style="width: 20rem;">
   <img class="card-img-top" src="..." alt="Card image cap">
   <div class="card-body">
@@ -227,7 +227,7 @@ Así es como se ve modal por defecto con Bootstrap.
 [[info]]
 | :link:[**Lee más sobre el "Modal" aquí**](https://getbootstrap.com/docs/4.0/components/modal/)
 
-```html{numberLines: true}
+```html
 div class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">

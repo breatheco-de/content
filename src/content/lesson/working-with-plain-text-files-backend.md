@@ -38,7 +38,7 @@ BTC,2019-10-29,9455.7246926058,9228.0745024715,9551.7787262272,9125.7784571584
 
 You can read the file with any backend programing language and interpret it based on the positions of the values:
 
-```python{numberLines: true}
+```python
 import csv, json
 
 file = open("bitcoin_prices.csv", "r") 
@@ -67,7 +67,7 @@ That variable is being stored in the RAM memory until you decide to save it to a
 
 You can save that variable into a `todos.csv` file with the following python code:
 
-```python{numberLines: true}
+```python
 todos = ['make the bed', 'do the laundry', 'finish homework']
 
 todos_as_csv = ','.join(todos) # convert the list into a string
@@ -95,7 +95,7 @@ make the bed, do the laundry, finish homework
 
 ### Converting from CSV Text to Python Object in memory
 
-```python{numberLines: true}
+```python
 import csv
 file = open("bitcoin_prices.csv", "r") 
 file_content = csv.reader(file)
@@ -107,7 +107,7 @@ for row in file_content:
 
 ### Converting from JSON Text to Python Object in memory
 
-```python{numberLines: true}
+```python
 import json
 filePointer = open("bitcoin_prices.json", "r") 
 data = json.load(filePointer)
@@ -120,7 +120,7 @@ for row in data:
 
 ### Converting from Yaml Text to Python Object in memory
 
-```python{numberLines: true}
+```python
 import yml #you have to install pip package pyyaml
 
 filePointer = open("bitcoin_prices.yml", "r") 

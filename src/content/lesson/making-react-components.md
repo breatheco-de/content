@@ -13,7 +13,7 @@ status: "published"
 
 React.js separates your code into little pieces called Components which can be created/defined as a **class** or as a **function**.  Each component is like a smaller React app that has its own logic and has a final purpose, which is to display or **render** something (e.g: a bootstrap navbar, a dropdown list, a model, a dynamic form, image gallery, subscribe form, almost everything can be designed and coded as a React Component). To do that every React component needs to have a `return` statement which returns some JSX code (HTML + embeded JS). 
 
-```jsx {numberLines: true}
+```jsx 
 // a function component 
 function NavBar(props){
     return (<nav className="navbar navbar-light bg-light">
@@ -115,7 +115,7 @@ The state is always located inside of the `constructor()` method of the class co
 
 When speaking about modifying the value of the state, you have to remember that the state should not be mutated directly. It should only be modified by calling the specially designated method this.setState(). In it you will have to pass a new/updated state object that will replace the previous state values. For example:
 
-```jsx {numberLines: true} 
+```jsx  
 
 // a direct assignment of this.state is only allowed in the constructor method of your class; anywhere else it may cause an error in your stored data
 constructor(){

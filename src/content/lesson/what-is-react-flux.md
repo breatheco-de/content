@@ -70,7 +70,7 @@ To code the delete functionality, we have to update 4 mains files: (1) The Compo
 
 #### 2) Then we need to code our action inside the MyActions.js file like this:
 
-```javascript{numberLines: true}
+```javascript
 MyActions.js
 
 // In this case, we decided that this function (a.k.a action) will receive the ID of the task to be deleted. 
@@ -93,7 +93,7 @@ class MyActions extends Flux.Actions{
 
 #### 3) Update the store to handle that new dispatched action
 
-```javascript{numberLines: true}
+```javascript
 // Inside the todoStore we have a HandleActions method that contains the logic to handle each dispatched action. 
 // We have to add a new case to the switch with the name 'DELETE_TODO'  
 // it has to mach the name of the action that was dispatched. 
@@ -111,7 +111,7 @@ handleActions(action) {
 
 #### 4) Inside the To-Do Store, implement the actual logic for deleting the task and emitting the changes
 
-```javascript{numberLines: true}
+```javascript
 // Anywhere on your TodoStore class, add a new method that finally deletes the task from the todo list. 
 // in this case we are using the filter function because it returns the same array but only with 
 // the elements that match the logical question inside the filter (task.id != id) 

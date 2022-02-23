@@ -88,7 +88,7 @@ React lleva ese concepto más allá al dividir y encapsular todo tu sitio web en
 
 Así es como declaramos un componente de React como una función, que es en lo que nos centraremos durante este curso:
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react';
 
 function MyComponent(){
@@ -105,7 +105,7 @@ Ahora digamos que queremos que este componente devuelva una **Bootstrap card:** 
 
 Así es como lo hacemos en una app React
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react';
 
 //Renombramos el componente a MyCard 
@@ -139,7 +139,7 @@ El componente anterior ahora **renderizará** (se mostrará en la página) una B
 
 Por lo general, llamamos componentes dentro de de la sección return de otro componente:
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react';
 
 function MyComponent(){
@@ -156,7 +156,7 @@ El componente React más simple es solo una función que devuelve algo de HTML. 
 
 Aquí hay un ejemplo del mismo componente `<MyCard />`, pero ahora declarado como una clase:
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react';
 
 //Aquí creamos el componente Modal como una clase. 
@@ -188,7 +188,7 @@ Lo primero que harás al crear grandes aplicaciones React es definir un gran com
 
 Luego, debes inyectar este componente principal en el DOM del sitio web con el método ReactDOM.render(), así:
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react'; // import obligtorio del react package
 import ReactDOM from 'react-dom'; //import obligtorio del react-dom package
 
@@ -245,7 +245,7 @@ Un "Layout" o diseño en React es básicamente la combinación de dos o más com
 
 Supongamos que tiene un [sitio web de una página](https://onepagelove.com/what-is-a-one-page-website) con tres secciones: `Home`, `About Us` y `Contact Us`. La forma "React" de hacerlo será creando un componente de **view** o **vista** más grande que contiene cada componente (sección), así:
 
-```jsx {numberLines: true}
+```jsx 
 
 export function EntireWebsiteLayout (){
     

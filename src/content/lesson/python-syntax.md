@@ -308,7 +308,7 @@ Python brings a new kind of data-type called a "Tuple". Think about it like a su
 
 #### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
 
-```javascript{numberLines: true}
+```javascript
 //There are two ways of declaring an object 
 
 //Like an object literal 
@@ -329,7 +329,7 @@ obj.lastname = "Perez";
 
 #### ![python syntaxpython syntaxpython tutorial python class](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) With Python
 
-```python{numberLines: true}
+```python
 # In Python we have Classes and Dictionaries 
 
 # Here is how you declare and use a dictionary 

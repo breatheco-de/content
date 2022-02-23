@@ -65,7 +65,7 @@ The best practice is always creating one component called ` <Layout /> ` which w
 
 This is an example of the same e-commerce sitemap but now using React Router v4:
 
-```jsx {numberLines: true}
+```jsx 
 
 //this component Layout will take care of routing the URLs with all my application views 
 

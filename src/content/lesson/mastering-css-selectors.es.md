@@ -13,7 +13,7 @@ status: "published"
 
 Completar una hoja de estilo es como tener una pequeña guerra entre selectores, estás constantemente anulando los estilos previamente definidos con nuevos:
 
-```css{numberLines: true}
+```css
 //Primero dices que quieres que todas las H2 tags sean font-size: 14px y de color: azul;
 h2{
     font-size: 14px;

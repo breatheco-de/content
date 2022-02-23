@@ -87,7 +87,7 @@ Returns an array with all the instances representing each paragraph element in t
 
 Returns an array with all the elements that have name="name_value" in the name property of their HTML tag in the HTML document.
 
-```javascript{numberLines: true}
+```javascript
 var elem = document.getElementById("xyz");
 elem.style.color="red";   // change color to red  
 
@@ -118,7 +118,7 @@ The best way to retrieve the child elements of any DOM element is by using its c
 
 This returns an array with all the element’s children elements.
 
-```javascript{numberLines: true}
+```javascript
 var x = document.getElementById("myDIV");
 x.querySelector(".random").style.background = "green";
 //get the first #myDIV child with the .random class  

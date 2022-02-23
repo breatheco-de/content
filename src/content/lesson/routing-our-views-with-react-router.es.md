@@ -62,7 +62,7 @@ La mejor práctica es siempre crear un componente llamado `<Layout />` que se en
 
 Este es un ejemplo del mismo mapa del sitio de comercio electrónico pero ahora utilizando React Router v4:
 
-```jsx{numberLines: true}
+```jsx
 //Este componente Layout se encargará de enrutar las URL con todas las vistas de mi aplicación
 export class Layout extends Flux.View {
     render() {

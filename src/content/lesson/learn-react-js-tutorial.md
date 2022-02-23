@@ -84,7 +84,7 @@ React takes that concept further by dividing and encapsulating your entire websi
 Here is how we declare a React component as a function, which is what we will stick to during this course:
 
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react';
 
 function MyComponent(){
@@ -101,7 +101,7 @@ Now let's say that we want this component to return a **Bootstrap card:** every 
 
 Here is a how we do that in a React app.
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react';
 
 //we renamed the component to MyCard 
@@ -135,7 +135,7 @@ The above component will now **render** (display on the page) a Bootstrap card a
 
 Usually we call components within the return section of another component:
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react';
 
 function MyComponent(){
@@ -153,7 +153,7 @@ The most simple React component is just a function that returns some HTML.  You 
 Here is an example of the same `<MyCard />` component, but now declared as a class:
 
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react';
 
 //here we created the component MyCard as a class 
@@ -187,7 +187,7 @@ The first thing you will do when building big React applications is to define on
 
 Then, you need to inject this main component into the website DOM with the method ReactDOM.render(), like so:
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react'; //mandatory import of the react package
 import ReactDOM from 'react-dom'; //mandatory import of the react-dom package
 
@@ -244,7 +244,7 @@ A "Layout" in React is basically the combination of two or more components (refe
 
 Let's say you have a [one page website](https://onepagelove.com/what-is-a-one-page-website) with three sections: `Home`, `About Us` and `Contact Us`.  The "React" way of doing that will be by creating a bigger **view** component that contains each component (section), like this:
 
-```jsx {numberLines: true}
+```jsx 
 
 export function EntireWebsiteLayout (){
     

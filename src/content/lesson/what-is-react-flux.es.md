@@ -75,7 +75,7 @@ Para codificar la función para eliminar tareas, tenemos que actualizar 4 archiv
 
 #### 2) Luego necesitamos codificar nuestra acción dentro del archivo MyActions.js de esta forma:
 
-```javascript{numberLines: true}
+```javascript
 MyActions.js
 
 // En este caso, decidimos que esta función (conocida como action) recibirá el ID de la tarea que se eliminará.
@@ -100,7 +100,7 @@ class MyActions extends Flux.Actions{
 #### 3) Actualizar el store para manejar la nueva acción enviada
 
 
-```javascript{numberLines: true}
+```javascript
 // Dentro de todoStore tenemos un método HandleActions que contiene la lógica para manejar cada acción distribuida. 
 // Tenemos que agregar un nuevo caso al switch con el nombre 'DELETE_TODO'  
 // Tiene que coincidir con el nombre de la acción que se envió. 
@@ -118,7 +118,7 @@ handleActions(action) {
 
 #### 4) Dentro del To-Do Store, implementa la lógica real para eliminar la tarea y emitir los cambios
 
-```javascript{numberLines: true}
+```javascript
 
 // En cualquier lugar de tu clase TodoStore, agrega un nuevo método que finalmente elimine la tarea del to-do list. 
 // En este caso estamos usando la función de filter porque devuelve el mismo array pero sólo con

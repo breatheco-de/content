@@ -85,12 +85,12 @@ Will look like this:
 
 ***Adding Line Numbers***
 
-To add line numbers just add `{numberLines: true}` after your language declaration like this:
+To add line numbers just add `` after your language declaration like this:
 
 !(Adding line numbers to the code)[https://ucarecdn.com/20c9d797-9a40-4a0e-90a2-0ae0600f0fe0/Screenshot20191121at75439PM.png]
 
 
-```html{numberLines: true}
+```html
 
 <p>This is some very big code</p>
 

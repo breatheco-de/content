@@ -49,7 +49,7 @@ Si lo piensas bien, las funciones son equivalentes a los libros. Almacenan conoc
 
 Todas las funciones deben comenzar y terminar en algún lugar, esto se llama **el alcance de la función**. Puedes delimitar los límites usando llaves de esta forma:
 
-```javascript{numberLines: true} 
+```javascript 
 
 //esta parte del código está FUERA de la función 'multiply'
 
@@ -67,7 +67,7 @@ function multiply(a, b) {
 
 Cualquier variable que declare dentro de la función no estará disponible fuera de ella.
 
-```javascript{numberLines: true}
+```javascript
 function multiply(a, b) {
 
    let myVariable = 'hello';
@@ -116,7 +116,7 @@ Recuerda asignarle a la función los parámetros que debe recibir. En nuestro ej
 
 Puedes combinar funciones como quieras y tener llamadas encadenadas como esta:
 
-```javascript{numberLines: true} 
+```javascript 
 function sum(a,b){
    return a+b;
 }

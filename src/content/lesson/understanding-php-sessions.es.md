@@ -25,7 +25,7 @@ Lo bueno de las sesiones en PHP es que le permiten guardar información en el se
 
 Cuando quieras iniciar una sesión nueva o una creada anteriormente, debes escribir session_start(); en tu archivo PHP. Esto hace que PHP lea el ID de sesión del usuario y cargue los datos en la memoria RAM. Una vez cargado, es accesible a través del array súper global $_SESSION. Desde allí, puedes modificar los contenidos de $_SESSION.
 
-```php{numberLines: true}
+```php
 //inicia la sesión
 session_start();
 
@@ -48,7 +48,7 @@ Ahora que la sesión está disponible, podemos asumir que las variables de la se
 
 **Por Ejemplo:**  Si estamos implementando un Carrito de compras, podemos almacenar la lista de productos en un array $ _SESSION [‘productos’]. Si el usuario agrega un nuevo producto, simplemente lo agregamos al array. Podemos imprimir la lista en cualquier momento.
 
-```php{numberLines: true}
+```php
 //inicia la sesión siempre antes de usar cualquier variable $ _SESSION
 session_start();
 if(!isset($_SESSION['products'])) $_SESSION['products'] = array();
@@ -113,7 +113,7 @@ Las sesiones parecen un concepto bastante simple, y lo son. Pero, tienes que tom
 
  Considerar cuando expira una sesión es muy importante si tratas con usuarios que han iniciado sesión en su sitio web o aplicación. Si un usuario inicia sesión en su sitio en un cibercafé y luego sale de la cafetería sin cerrar sesión, ¿cómo puedes evitar que el siguiente usuario en esa computadora siga teniendo acceso a la sesión del usuario anterior? Bueno, para eso, puedes usar el siguiente código:
 
-```php{numberLines: true}
+```php
 session_start();
 // establecer el tiempo de espera (en segundos)
 $inactive = 600;
