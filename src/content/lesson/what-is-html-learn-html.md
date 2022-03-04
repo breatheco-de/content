@@ -59,7 +59,7 @@ For the main heading of the document, the tag we use is `<h1>`.  For example: An
 Finally, tags can contain one or more tags within them. For example, if we would want to give <i>italic style</i> to the word "electronics" we would wrap the word with the tag `<i>`:
 
 ```html
- <h1><i>Electronics</i> Tags</h1>
+ <h1><i>Electronics</i></h1>
 ```
 
  ## Blank Spaces and Line Jumps
