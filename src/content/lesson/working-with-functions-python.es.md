@@ -133,7 +133,7 @@ print(myVariable)
 | :point_up: Es muy importante recordar que una vez que use la instrucción `return`, la función dejará de ejecutarse, si hay algún código después de esa instrucción, nunca se ejecutará.
 
 
-```python{numberLines: true}
+```python
 def multiplicar(a, b):
    miVariable = 'hello'
    return a * b

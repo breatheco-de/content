@@ -85,7 +85,7 @@ Finally, tags can contain one or more tags within them. For example, if we would
 All pages must begin with the `<DOCTYPE! Html>` statement followed by `<html>`, then the `<HEAD>` and the `<BODY>` tags.  These tags **must** contain other tags within them (nested tags), and they will split the page in 2 main parts: the HEAD and the BODY:
 
 
-```html{numberLines: true}
+```html
 <!-- We must always begin with an HTML label to show the browser that this is a document with an HTML format. -->
 <!DOCTYPE html>
 <html>

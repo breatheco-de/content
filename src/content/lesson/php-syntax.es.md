@@ -58,7 +58,7 @@ console.log(arrayValue);
 
 #### ![php syntax](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) Con PHP
 
-```php{numberLines: true}
+```php
 $simpleValue = ‘Hello’;
 echo $simpleValue;   //esto imprimirá el contenido
 $arrayValue = array(‘Hello’,23,76,’World’,43);
@@ -84,7 +84,7 @@ PHP comenzó como un lenguaje de programación funcional y aún tiene muchas cos
 
 #### ![php syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
 
-```javascript{numberLines: true}
+```javascript
 for(var i = 0; i<myArray.length; i++){
 console.log(myArray[i];
 }
@@ -146,7 +146,7 @@ myArray.reverse();  //ordena un array descendentemente
 
 #### ![php syntax](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) Con PHP
 
-```php{numberLines: true}
+```php
 $myArray = array(2,5,1,4,7);
 sort($myArray);
 print_r($myArray);  //ordenar los array en orden ascendente 
@@ -219,7 +219,7 @@ Esto es casi idéntico a la declaración switch en JavaScript:
 
 #### ![php syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
 
-```javascript{numberLines: true}
+```javascript
 favcolor = "red";
 switch (favcolor) {
     case "red":
@@ -238,7 +238,7 @@ switch (favcolor) {
 
 #### ![php syntax](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) Con PHP
 
-```php{numberLines: true}
+```php
 <?php
     $favcolor = "red";
     switch ($favcolor) {

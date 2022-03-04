@@ -14,7 +14,7 @@ status: "published"
 
 React.js separa tu código en pequeñas partes llamadas Componentes que pueden crearse / definirse como **class** o como **function**.  Cada componente es como una aplicación de React más pequeña que tiene su propia lógica y tiene un propósito final que es renderizar algo. Por ejemplo: un `navbar` de bootstrap, una _dropdown list_ (lista desplegable), un modelo, un formulario dinámico, galería de imágenes, formulario de suscripción, casi todo puede diseñarse y codificarse como un componente React). Para hacer eso, el componente de React debe tener un `return` que devuelva código JSX (HTML + JS anidado).
 
-```jsx{numberLines: true}
+```jsx
 
 import React from 'react';
 
@@ -110,7 +110,7 @@ Es una variable de **class** (disponible en toda la clase que usa esto) que nece
 
 Sin embargo, hay una trampa. El estado no se puede cambiar, lo que significa que no se puede editar, por lo que debemos anularlo mediante la función *** this.setState () *** que recibe el nuevo objeto de estado (que reemplaza al anterior).
 
-```jsx{numberLines: true}
+```jsx
 // ¡INCORRECTO! Nunca actualizar el estado directamente 
 this.state.foo = "bar";
 

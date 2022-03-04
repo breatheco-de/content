@@ -75,7 +75,7 @@ The next example is a style sheet defining 3 different groups of styles (selecto
 
 You need to match HTML elements to groups of styles and use "selectors" to bind the HTML elements to the CSS groups of rules.
 
-```css{numberLines: true}
+```css
 #id-selector {
    color: red;
    font-size: 12px;

@@ -89,7 +89,7 @@ Los espacios vacíos (o en blanco) y los saltos de línea son omitidos por el na
 Todas las páginas deben empezar con la declaración del  `<DOCTYPE! Html>`, seguida por las etiquetas que contienen el `<head>` y por último el contenido del `<body>`. Estas tags **obligatoriamente** contienen otras tags dentro de ellas que son anidadas, y eso es así porque separan la página en dos pedazos principales: el HEAD (la cabeza) y el BODY (el cuerpo):
 
 
-```html{numberLines: true}
+```html
 <!-- Siempre debemos empezar con una tag HTML para demostrarle al navegador que este es un documento en formato HTML. -->
 <!DOCTYPE html>
 <html>

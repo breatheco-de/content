@@ -87,7 +87,7 @@ Devuelve un array con todas las instancias que representan cada elemento de pár
 
 Devuelve un array con todos los elementos que tienen nombre = "nombre_valor" en su propiedad de nombre de su etiqueta HTML en el documento HTML.
 
-```javascript{numberLines: true}
+```javascript
 var elem = document.getElementById("xyz");
 elem.style.color="red";   // cambia el color a rojo  
 
@@ -119,7 +119,7 @@ La mejor manera de recuperar los elementos secundarios de cualquier elemento DOM
 
 Esto devuelve un array con todos los elementos secundarios del elemento.
 
-```javascript{numberLines: true}
+```javascript
 var x = document.getElementById("myDIV");
 x.querySelector(".random").style.background = "green";
 //busca el primer hijo de #myDIV con la clase .random 

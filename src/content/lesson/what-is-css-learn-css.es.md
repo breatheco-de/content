@@ -74,7 +74,7 @@ El siguiente ejemplo, es una hoja de estilos que define 3 grupos diferentes de e
 
 Debes hacer coincidir los elementos HTML con los grupos de estilos y usar "selectors" para vincular los elementos HTML a los grupos de reglas CSS.
 
-```css{numberLines: true}
+```css
 #selector1 {
    color: red;
    font-size: 12px;
