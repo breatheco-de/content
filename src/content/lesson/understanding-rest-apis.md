@@ -36,7 +36,7 @@ Every API is comprised of 3 main components:   (1) The functions/methods that yo
 The API methods of a web application depend entirely on the purpose/business of the website:
 
 + If you are building the API for a product like Uber, some of your methods will be: Sign up, Request a trip, Rate a driver, Cancel a trip, etc.
-+ If you are building an API for something like AirBnB, some of your methods will be: Book listing, Search for listing, Cancel trip, etc.
++ If you are building an API for something like AirBnB, some of your methods will be:  Book listing, Search for listing, Cancel trip, etc.
 
 ## The REST standard
 ***
