@@ -70,7 +70,7 @@ The ls command is used for listing all the files and directories form the curren
 
 ```bash
 ls -l ./applications
-#show the files and folder inside "appications" 
+#show the files and folder inside "applications" 
 #the -l is for asking a more detailed output information on the files.
 ```
 
