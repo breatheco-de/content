@@ -55,7 +55,7 @@ If you think about it, functions are the equivalent of books. They store knowled
 
 ## The Function Scope
 
-All functions must start and end somewhere, that its called **the scope of the function**. You can delimit the boundries using curly brackets like this:
+All functions must start and end somewhere, that its called **the scope of the function**. You can delimit the boundaries using curly brackets like this:
 
 ```javascript 
 
