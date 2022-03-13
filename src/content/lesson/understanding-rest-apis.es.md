@@ -40,7 +40,7 @@ Cada API consta de 3 componentes principales:
 Los métodos de la API de una aplicación web dependen completamente del propósito / negocio del sitio web:
 
 + Si estás creando la API para un producto como Uber, algunos de sus métodos serán: registrarse, solicitar un viaje, calificar un conductor, cancelar un viaje, etc.
-+ Si estás creando una API para algo como AirBnB, algunos de sus métodos serán: listado de libros, búsqueda de listado, cancelar viaje, etc.
++ Si estás creando una API para algo como AirBnB, algunos de sus métodos serán: listado de reservas, búsqueda de listado, cancelar viaje, etc.
 
 ## El estándar REST
 ***
