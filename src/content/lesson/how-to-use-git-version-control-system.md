@@ -122,7 +122,7 @@ Say you create three commits this way…your repository will look like this:
 
 ![how to use git](../../assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png)
 
-Other commands that are useful at this point:
+Other commands that are are used very often at this point:
 
 + `git log` shows a log of all commits starting from *HEAD* back to the initial commit.  It can do more than that, of course.
 + `git status` shows which files have changed between the current project state and *HEAD*.  Files are put in one of three categories: (1) New files that haven’t been added (with git add), (2) Modified files that haven’t been added, and (3) Files that have been added.
