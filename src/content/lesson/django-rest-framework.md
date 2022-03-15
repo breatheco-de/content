@@ -21,7 +21,7 @@ Django is THE TOOL for web development.  It is not just a library – it is doze
 + Documentation and community: The django community is so big that you will not have any trouble finding answers, tutorials, etc.
 
 ## The Django Architecture
-***
+
 
 Just like any other framework, Django proposes a specific architecture to build your software and we have to learn, adopt and master all of it if we want to become Senior Full-Stack Developers (using Django):
 
@@ -39,7 +39,7 @@ BreatheCode is a big django website with several applications inside:
 All of those apps can be a part of a big website called "BreatheCode Platform".
 
 ## Creating a New Project
-***
+
 
 to start a new project all you have to do is:
 
@@ -67,7 +67,7 @@ The `manage.py` file outside is a CLI tool to be able to control and use Django 
 
 
 ## Creating the First Application
-***
+
 
 Now that we have a big project (website) it is time to start adding applications to it.  To create your first Django application, type the following command:
 
@@ -110,7 +110,7 @@ The Manage.py file is an amazing command line tool that will help you a lot.  It
 
 
 ## Django Architecture to build RESTful APIs
-***
+
 
 We are going to be building a REST Based API, but don’t be afraid of the name – the REST standard basically was built as an extremely simple API.
 

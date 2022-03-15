@@ -17,7 +17,7 @@ Python y Javascript son amigos. Juntos forman el mejor equipo posible para reali
 <br>
 
 ## ¿Por qué Python?
-***
+
 
 Con Javascript, estabas vinculado y limitado al navegador, no puedes acceder al computador del cliente y es básicamente un lenguaje de renderización. Pero Python es diferente ... al ser un lenguaje de backend, se ejecuta en tu propio servidor, lo que significa que tiene acceso y puedes controlar toda la computadora con él. Tienes acceso a cualquier aplicación que se ejecute en la misma computadora. Tienes acceso a la consola. Tiene acceso a la red a la que está conectada la computadora y mucho más.
 
@@ -41,7 +41,7 @@ Cuando lo comparas con otros lenguajes de back-end, Python lidera en casi todas 
 <br>
 
 ## Sintaxis de Javascript vs Python
-***
+
 
 Python y Javascript se complementan entre sí, pero en cuanto a funcionalidad, no tienen NADA en común - no tienen el mismo propósito, no hacen las mismas cosas, provienen de diferentes orígenes, etc.
 
@@ -51,7 +51,7 @@ Lo único que recordarás de Javascript es lo básico de cualquier lenguaje de p
 <br>
 
 ### Tipos de Datos
-***
+
 
 Sólo hay unas pocas diferencias; Aquí está la explicación:
 
@@ -69,7 +69,7 @@ Sólo hay unas pocas diferencias; Aquí está la explicación:
 <br>
 
 ## Paquetes (Importando desde otros archivos)
-***
+
 
 En Javascript, puedes importar variables de otros archivos con el comando ***import*** o ***require***, pero tienes que **exportar** los archivos de las variables primero.
 
@@ -87,7 +87,7 @@ from . import
 <br>
 
 ## Gestores de Paquetes
-***
+
 
 Lo que es NPM es para Javascript, PIP es para Python. Ambas bestias son increíbles pero muy diferentes por dentro. La mayor diferencia es que los paquetes NPM se descargan localmente a una carpeta "node_modules" mientras que los paquetes PIP se instalan en toda la máquina, fuera de la carpeta del proyecto. Otra pequeña diferencia es que NPM usa package.json y PIP usa un archivo requirements.txt.
 
@@ -96,7 +96,7 @@ Lo que es NPM es para Javascript, PIP es para Python. Ambas bestias son increíb
 
 
 ### Analizando tipos de datos
-***
+
 
 Javascript es tan flexible que no tienes que prestar mucha atención a los tipos de datos. A Python no le gusta eso... en Python, te acostumbrarás a declarar variables y convertirlas entre tipos de datos.
 
@@ -121,7 +121,7 @@ result = int('5') - int('2');
 
 
 ### Valores de Impresión
-***
+
 
 Python tiene "print" para escribir en un documento o en la consola. Recuerda que, dado que Python - como cualquier otro lenguaje de back-end - se ejecuta antes del evento de preload, no tiene acceso a la consola de Javascript.
 
@@ -162,7 +162,7 @@ print(arrayValue); //Esto funcionará, imprimiendo el contenido del arreglo en u
 <br>
 
 ### Función Lambda vs Función de flecha
-***
+
 
 Finalmente, en ES2015, Javascript incluye las "funciones arrow". Esa es una manera muy fácil y liviana de declarar y usar funciones. Python, por otro lado, tiene algo similar llamado funciones lambda que básicamente te permiten usar pequeñas funciones anónimas en línea como accesos directos.
 
@@ -205,7 +205,7 @@ print(namesArray)
 <br>
 
 ### Lista de bucles (similar a arrays)
-***
+
 
 #### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
 
@@ -236,7 +236,7 @@ for color in colors:
 <br>
 
 ### Adición y Eliminación de Elementos
-***
+
 
 <br>
 <br>
@@ -264,7 +264,7 @@ print(myList)
 ```
 
 ### Funciones para clasificar Listas
-***
+
 
 #### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
 

@@ -39,7 +39,7 @@ Cada lista tiene los mismos conceptos básicos:
 > :point_up: Las posiciones de la comienzan con **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
 
 ## ¿Como Declarar una Lista?
-***
+
 
 Utilizando corchetes de la siguiente manera:
 
@@ -133,7 +133,7 @@ Una de las funcionalidades mas útiles de `del` es que puedes eliminar muchos el
 ```
 
 ## Iterando sobre una lista (bucles)
-***
+
 
 Normalmente, cuando trabajes con listas, tendrás que recorrer todos los items. Por ejemplo: ordenándolos manualmente; cambiar su orden, filtrarlos, etc.
 

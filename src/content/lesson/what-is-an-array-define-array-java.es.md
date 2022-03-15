@@ -19,7 +19,7 @@ Dominar el uso de los arreglos y bucles es una de las 5 habilidades fundamentale
 
 
 ## ¿Por qué están los arreglos en una lección separada?
-***
+
 
 ¡Porque los arreglos son impresionantes! ¡Los necesitas! Y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂
 
@@ -44,7 +44,7 @@ Cada arreglo tiene los mismos conceptos básicos:
 > :point_up: Las posiciones del arreglo comienzan con **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
 
 ## ¿Como Declarar un Arreglo?
-***
+
 
 + **Arreglos unidimencionales (Vectores,Arrays,arreglos)**
 La sintaxis para declarar e inicializar un vector es la siguiente:
@@ -77,7 +77,7 @@ nombre_variable = new tipo_de_dato[dimensión]; // se inicializa
 ```
 
 ## Acceder a los Elementos en el Arreglo
-***
+
 
 Para acceder a un elemento específico en una lista, necesita un índice. Un índice es un valor entero que representa la posición del arreglo a la que desea acceder.
 
@@ -98,7 +98,7 @@ Se está obteniendo el elemento de la posición 3 y se almacena en la variable d
 
 
 ## Actualizar Elementos en el Arreglo
-***
+
 
 
 Un arreglo se maneja a través de posiciones, empezando desde la posición cero y para obtener/almacenar uno de sus elementos se utiliza un índice (una variable), el índice indica la posición del elemento en el arreglo a la que se quiere acceder.
@@ -135,7 +135,7 @@ array = new char[10];
 ```
 
 ## Eliminando Elementos (Libreria Apache Commons Lang)
-***
+
 
 Para eliminar fácilmente un elemento, puede usar la biblioteca Lang de Apache Commons y especialmente el método estático removeElement() de la clase ArrayUtils . A continuación un ejemplo:
 
@@ -186,7 +186,7 @@ Arrays.sort(numeros);
 
 
 ## Bucle en Arreglo
-***
+
 
 A veces, cuando trabajes con arreglos, tendrás que hacer un bucle. Por ejemplo: ordenándolos manualmente; voltearlos, eliminar un elemento de una posición particular, etc.
 
@@ -200,7 +200,7 @@ Para crear tu bucle, necesitarás usar Array.length para obtener el tamaño actu
 ```
 
 ## For each
-***
+
 
 Hay una gran adaptación de **sentencia for** para hacer que se formen listas de bucles o arreglos,
 esta gran adaptación es el ideal para recorrer colecciones de objetos sean del tipo que sean (arrays, ArrayList, HashMap, …) y en este caso hay que definir un iterador que nos devolverá un elemento de la colección en cada iteración y la colección que se quiere recorrer.
@@ -278,7 +278,7 @@ Otra cosa muy importante a la hora de trabajar con los ArrayList son los "Iterad
     }
 ```
 ## Map en Java
-***
+
 
 La Interface Map (java.io.Map) en Java, nos permite representar una estructura de datos para almacenar pares "clave/valor"; de tal manera que para una clave solamente tenemos un valor. Esta estructura de datos también es conocida en otros lenguajes de programación como "Diccionarios".
 los Maps en java permiten añadir, eliminar y modificar elementos de forma trasparente para el programador.

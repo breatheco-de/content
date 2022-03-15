@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## Why do Developers love the Command Line?
-***
+
 
 At first everybody hated the command line.  After years of experience it became an acquired taste.
 
@@ -22,7 +22,7 @@ But why do developers like it?   Well, the list is infinite but here are a few i
 + It forces you to use the keyboard.  Since you cannot use the mouse, it makes you faster.  You make less mistakes and the environment is exactly the same on every computer.
 
 ## How does it Work?
-***
+
 
 The console is really simple: it’s a black screen that’s always expecting a *command*.  After you type the desired command and press the `return` key, the computer executes it and shows some feedback with the resulting output on the screen.  A simple Question <> Answer interface.
 
@@ -41,7 +41,7 @@ In this particular case, we use the `-l` "flag" to specify that we want a "long"
 The last thing we have to add is the "argument." In this case, the "argument" will be the path of the directory from which we want to list the files from.
 
 ## What can you do in the Terminal?
-***
+
 
 Your computer has files, directories and applications.  Your command line is able to deal with all three of them.  Use commands to move within the files and directories (like the `cd` command).  Every application that you install comes with a set of commands that become available at the moment you install the app (like the GIT command).
 
@@ -58,7 +58,7 @@ There are 4 important things to notice here:
 
 
 ## Commands to Work with the File System:
-***
+
 
 Here is a small selection of the most used commands by a software developer.
 
@@ -167,7 +167,7 @@ find . -name *.mp3
 ```
 
 ## Tips & Tricks
-***
+
 
 These will help you save time and make less mistakes when typing:
 
@@ -178,7 +178,7 @@ These will help you save time and make less mistakes when typing:
 + Use the `clear` command to "clean" the current console (it is just a scroll, but a very useful one).
 
 ## Editing Files in the Terminal:
-***
+
 
 This is one of the things that you cannot avoid doing in the terminal.  As a developer, you will have to edit files in the terminal more often than you think.   That’s why you’d better be prepared to use either the [VI Application or the Nano Application.](https://askubuntu.com/questions/726669/difference-between-nano-and-vim)  We will talk about Nano and its commands (yes, here the text editor opens inside the command line and runs using commands).
 

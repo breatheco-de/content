@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## Sesiones de Servidor
-***
+
 
 Hasta hoy, todo lo que codificamos en PHP se ejecuta una vez cuando llamamos al archivo PHP: las variables nacen, se usan y mueren durante la misma actualización de la página. Si actualizo de nuevo el sitio web, volverá a empezar.
 
@@ -21,7 +21,7 @@ Una sesión es un concepto antiguo. No solo se utiliza en el desarrollo web de b
 Lo bueno de las sesiones en PHP es que le permiten guardar información en el servidor durante horas o incluso días. Son la única forma de tener aplicaciones sin estado: aplicaciones que pueden vivir durante más de una actualización de una sola página.
 
 ## ¿Cómo Empezamos una Sesión?
-***
+
 
 Cuando quieras iniciar una sesión nueva o una creada anteriormente, debes escribir session_start(); en tu archivo PHP. Esto hace que PHP lea el ID de sesión del usuario y cargue los datos en la memoria RAM. Una vez cargado, es accesible a través del array súper global $_SESSION. Desde allí, puedes modificar los contenidos de $_SESSION.
 
@@ -42,7 +42,7 @@ if(!isset($_SESSION['user']))
 ```
 
 ## Uso de las variables de sesión
-***
+
 
 Ahora que la sesión está disponible, podemos asumir que las variables de la sesión también están disponibles. Puedes trabajar con ellas de la misma manera en que usarías cualquier otra variable simple.
 
@@ -67,7 +67,7 @@ else
 ```
 
 ## Cerrando la Sesion
-***
+
 
 
 Es una buena práctica cerrar la sesión una vez que hayas terminado de actualizar el array $ _SESSION. Esto obligará a PHP a guardar todo (al igual que el COMMIT en la base de datos o en GIT).
@@ -86,7 +86,7 @@ session_close();
 > :point_up: Nota: session_start() no se puede llamar una vez que se ha iniciado una salida. Se mostrará una advertencia y es posible que la sesión se pierda. Si ves el error "No se puede enviar el limitador de caché de sesión", verifica que no haya una salida en el navegador. Un problema común es un espacio o pestaña no deseado en el tamaño exagerado de las etiquetas PHP.
 
 ## Destruyendo la Sesión
-***
+
 
 Un buen ejemplo de cómo destruir una sesión es el típico "sign out" o "cierre de sesión" de cualquier sitio web. Eso destruirá todas las variables de la sesión (limpiando cualquier evidencia de que el usuario haya estado allí).
 
@@ -104,7 +104,7 @@ session_destroy();
 ```
 
 ## Consideraciones de Seguridad
-***
+
 
 Las sesiones parecen un concepto bastante simple, y lo son. Pero, tienes que tomar esto:
 

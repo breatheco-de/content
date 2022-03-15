@@ -70,7 +70,7 @@ El primer párrafo de la lista está precedido por el div, por lo que no se modi
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/">Click para abrir el demo en una nueva ventana</a></small></div>
 
 ## El todopoderoso asterisco
-***
+
 
 ```css
 #someDiv * {

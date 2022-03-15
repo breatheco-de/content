@@ -12,7 +12,7 @@ status: "published"
 Remember how we always say that programming is like Taco Bell?  It’s always the same ingredients, except just used in a different way!  In this particular case, we are going to be relying heavily on Events to create our entire application architecture.
 
 ## Why do we need Flux?
-***
+
 
 We know you are still in the process of learning React.  States and props can be confusing, and now, with Flux, things are going to get a little bit harder.  But it’s for a good cause!
 
@@ -37,7 +37,7 @@ Views (Components)     |Every React Component that calls any Flux action is call
 |Stores        |The store contains all the application data.  It handles everything incoming from the dispatcher and determines the way data should be stored and retrieved.            |
 
 ## Building our first User History with Flux
-***
+
 
 The following project is a To-Do List application with 2 main user stories:
 
@@ -53,7 +53,7 @@ To code the delete functionality, we have to update 4 mains files: (1) The Compo
 ![react flux](../../assets/images/77c93bfa-92cb-44e3-a7c5-c959e27c5ccc.jpeg)
 
 ## Lets Implement the Delete Task Functionality
-***
+
 
 #### 1) What user action starts the functionality?
 
@@ -132,7 +132,7 @@ class TodoStore extends EventEmitter {
 
 
 ## The Result
-***
+
 
 Finally, we have a new functionality implemented into our project.  To keep adding more functionalities, you just have to start the Flux coding workflow from step 1 all over again.
 

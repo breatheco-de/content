@@ -10,14 +10,14 @@ status: "published"
 ---
 
 ## What is Front-End Web Development?
-***
+
 
 In just a few words front-end development is creating HTML dynamically using JavaScript.
 
 Using all your algorithmic knowledge (loops, conditionals, etc.), you can now let the computer generate HTML code based on different types of events (user interactions, or system events) that occur during the life of any website.
 
 ## Combining HTML+CSS+JavaScript
-***
+
 
 With JavaScript, you are now able to update the HTML or the CSS of your website whenever you want.
 
@@ -30,7 +30,7 @@ For example:
 + The sky is the limit!  Front-end web developers can create games, websites and applications for any type of industry.
 
 ## The most Important Terms
-***
+
 
 The front-end world is huge – you can specialize in anything you want, but there are some important concepts you need to know well in order to begin your specialization:
 

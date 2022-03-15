@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## Server Sessions
-***
+
 
 Until today, everything we code in PHP runs one time when we call the PHP file: variables are born, are used and die during the same page refresh.  If I refresh the website again it will start all over again.
 
@@ -21,7 +21,7 @@ A session is an old concept.   It is not only used in back-end web development. 
 The cool thing about sessions in PHP is that they allow you to save information on the server for hours or even days.  They are the only way to have non-stateless applications: applications that can live for more than one single page refresh.
 
 ## How do we Start a Session?
-***
+
 
 When you want to start either a new or a previously created session, you have to type session_start(); in your PHP file.  This causes PHP to read the user’s session id and load the data into the RAM memory.  Once loaded, it is accessible via the $_SESSION super global array.  From there, you can modify the contents of $_SESSION.
 
@@ -42,7 +42,7 @@ if(!isset($_SESSION['user']))
 ```
 
 ## Using the Session Variables
-***
+
 
 Now that the session is available, we can assume that the session variables are available as well.  You can work with them the same way you would use any other simple variable.
 
@@ -67,7 +67,7 @@ else
 ```
 
 ## Closing the Session
-***
+
 
 
 It is good practice to close the session once you have finished updating the $_SESSION array.  This will force PHP to save everything  (just like the COMMIT in the database or in GIT).
@@ -86,7 +86,7 @@ session_close();
 > :point_up: Note: session_start() cannot be called once an output has started.  A warning will be displayed, and it is possible that the session could be lost.  If you are seeing the error "Cannot send session cache limiter," check to make sure that no output is going to the browser.  A common problem is an unwanted space or tab at the outsize of the PHP tags.
 
 ## Destroying the Session
-***
+
 
 A good example of destroying a session is the typical "sign out" from any website.  That will destroy all the session variables (cleaning any and all evidence that the user was ever there).
 
@@ -104,7 +104,7 @@ session_destroy();
 ```
 
 ## Security Considerations
-***
+
 
 Sessions seem like a pretty simple concept, and they are.  But, you have to take this:
 

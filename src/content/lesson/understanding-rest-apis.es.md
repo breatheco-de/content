@@ -12,7 +12,7 @@ status: "published"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QsrWtqnQGMc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## ¿Qué es un API?
-***
+
 
 Una API es el intermediario de la mayoría de las aplicaciones modernas. API significa: Application Programming Interface (Interfaz de Programación de Aplicaciones). Vamos a desglosarla mirando cada una de sus partes:
 
@@ -42,7 +42,7 @@ Los métodos de la API de una aplicación web dependen completamente del propós
 + Si estás creando una API para algo como AirBnB, algunos de sus métodos serán: listado de reservas, búsqueda de listado, cancelar viaje, etc.
 
 ## El estándar REST
-***
+
 
 Hay docenas de formas de crear una API, pero el estándar REST ha llegado a dominarlas todas. Si realmente quieres ser un desarrollador web, tienes que sentirse muy cómodo con REST.
 

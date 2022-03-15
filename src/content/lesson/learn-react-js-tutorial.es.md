@@ -28,7 +28,7 @@ Es bastante código ¿VERDAD?
 <br>
 
 ## Entonces... ¿que es React?
-***
+
 
 React.js se define a sí mismo como una librería de front-end para interfaces de usuario (UIs). Básicamente, React propone una nueva forma de crear sitios web al rediseñar todo el flujo de trabajo de codificación y hacer que los sitios web sean más rápidos.
 
@@ -78,7 +78,7 @@ return <h1 id="name"> {person.name == "John" ? "John" : "Tom" } </h1>; //funcion
 <br>
 
 ## Ahora Todo es un Componente
-***
+
 
 ¿Recuerdas los componentes de Bootstrap?
 
@@ -176,7 +176,7 @@ export class MyCard extends React.Component{
 > :point_up:  Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
 
 ## El componente PRINCIPAL 
-***
+
 
 Con React, toda la aplicación se considera un componente.
 
@@ -269,7 +269,7 @@ Cada componente tendrá método de renderizado. El documento HTML resultante, es
 ![learn react js tutorial](../../assets/images/6c7d3747-482a-480d-b5be-fdbf095292f3.png)
 
 ## El Ejemplo de YouTube.com
-***
+
 
 En la estructura de tu aplicación, puedes tomar un destacador y comenzar a marcar todos los componentes que tendrá tu aplicación. Los más fáciles son los componentes típicos de Bootstrap: NavBar, Card, etc. También debieras definir tus propios componentes.
 

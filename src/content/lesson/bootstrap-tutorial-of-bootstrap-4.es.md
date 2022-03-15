@@ -20,7 +20,7 @@ Dos chicos, mientras trabajaban en Twitter, estaban sufriendo los mismos problem
 Además, Bootstrap te da una gran cantidad de elementos nuevos que vas a querer usar siempre y que actualmente no existen en CSS+HTML: Los componentes de Bootstrap.
 
 ## Layouts: Solucionado el modelo de cajas
-***
+
 
 Uno de los defectos en CSS, es la forma en que funcionan los layouts: trabajar con **float**,  **display** y **position** ¡es lo peor! Así es como Bootstrap lo soluciona:
 
@@ -94,7 +94,7 @@ Vamos a configurar el diseño (usando las clases de columnas xs, sm, md y lg) pa
 ```
 
 ## Estructura básica de Bootstrap 4
-***
+
 
 Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web debe tener. Ahora solo debes agregar unas lineas en tu esqueleto para hacerlo compatible con Bootstrap:
 
@@ -130,7 +130,7 @@ La funcionalidad de Javascript en Bootstrap requiere que se incluyean las librer
 > :link: Encuentra aquí [increíbles archivos de Bootstrap para que puedas empezar.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
 ## Componentes de Bootstrap 4
-***
+
 
 HTML es súper básico, sólo tiene un par de etiquetas - ya los sabíamos. Pero cuando revisas la web hoy en día, ves otra cosa… actualmente las páginas web tienen menús, iconos, barras de carga, etc. ¿Dónde están esas etiquetas? ¡Ninguna de ellas está definida en HTML!
 
@@ -142,7 +142,7 @@ Cuando importas Bootstrap en tu página web, tendrás un nuevo conjunto de compo
 
 
 ### Estos son los componentes más usados e importantes de Bootstrap:
-***
+
 
 #### Barra de navegación o NavBar
 
@@ -247,7 +247,7 @@ div class="modal" tabindex="-1" role="dialog">
 > :point_up: Importante! El Modal necesita Javascript para poder funcionar.  Recuerda incluir los archivos de Javascript necesarios en el típico esqueleto de Bootstrap: jQuery, Popper and Bootstrap.js
 
 ## Lo que realmente necesitas saber sobre Bootstrap
-***
+
 
 La documentación oficial de Bootstrap es increible!! No necesitamos copiar y pegar todos los post.  Por favor visita los siguientes sitios web y enfócate en leer estos temas:
 
@@ -267,7 +267,7 @@ Te recomendamos que uses el CDN para importar bootstrap en tu archivo HTML, de e
 Si estás migrando tu proyecto a nueva versión de Bootstrap, recuerda siempre verificar su documentación.
 
 ## Gana RE2PECT.
-***
+
 
 El éxito no llega de la noche a la mañana.  Este es tu primer logro.  Déjame pregunterte ¿te sientes capaz de usar HTML, CSS, Layouts y Bootstrap?  ¡No te mientas!
 

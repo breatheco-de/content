@@ -16,12 +16,12 @@ status: "published"
  Hacer más cosas con menos código.
 
  ### Qué es jQuery?
- ***
+
 
 jQuery es una librería (conjunto de funciones) disponible para los desarrolladores de JavaScript para hacerles la vida más fácil (como el objeto Math que usamos para Math.random). **jQuery NO es otro idioma.** Es lo mismo que JavaScript, y no es necesario que lo uses si no lo deseas.
 
  ### Por qué jQuery
- ***
+
 
 Cuando jQuery era lo nuevo (hace 10 años), a la gente le encantaba. Hizo mucho más fácil el uso de JS. Nos enseñó algunos trucos nuevos e hizo que AJAX y  animaciones muy simples (¡lo cual fue bastante complicado cuando la mayor parte del mundo estaba en IE6!).
 
@@ -42,7 +42,7 @@ Query puede hacer 5 cosas realmente bien, y esas 5 cosas llevaron a jQuery al pu
 + **Plugins:** Hay miles de plugins de jQuery. Enriquecen la funcionalidad web con características muy interesantes; hacer y compartir complementos es probablemente la mejor característica que jQuery puede proporcionar a los desarrolladores web.
 
 ### Instalación
-***
+
 
 Dado que jQuery es una libreria, debe instalarse como una libreria de JavaScript. Todas las librerias de JavaScript se deben importar utilizando la etiqueta `<script>`, como esto:
 
@@ -84,7 +84,7 @@ Recomendamos [el CDN de Google:](https://developers.google.com/speed/libraries/)
 ```
 
 ### La Sintaxis
-***
+
 
 **¡jQuery es parte de JavaScript!** La sintaxis de jQuery puede ser complicada al principio, pero después de unos días entenderás que **es la misma sintaxis de JavaScript** pero se usa de una manera diferente.
 
@@ -142,7 +142,7 @@ functionName(settingsObj);
 > :point_up: Si usa jQuery, debe sentirse cómodo utilizando parámetros como el "Settings Object."
 
 ### Evento Ready
-***
+
 
 Tenemos una sección que habla solo de eventos, pero es una buena idea hablar sobre el "evento ready" en este momento porque es una de las primeras líneas de código escritas en casi todos los sitios web que usan jQuery.
 
@@ -155,7 +155,7 @@ $( document ).ready(function() {
 ```
 
 ### Trabajando con los Elementos DOM
-***
+
 
 jQuery realmente ayuda cuando se trabaja con clases porque la única forma de actualizar una clase con vanilla JS es usando el atributo .className del elemento DOM (que es un string).
 
@@ -301,7 +301,7 @@ $(el).attr(‘tabindex’, 3);
 > :point_up:  Estas son las funciones más utilizadas cuando se trabaja con el DOM. Ten en cuenta que hay MUCHAS más funciones disponibles y que es una buena idea revisarlas todas. Además, se están creando nuevas funciones a medida que JavaScript continúa evolucionando.
 
 ### Trabajando con Estilos
-***
+
 
 jQuery realmente ayuda cuando se trabaja con clases porque la única forma de actualizar una clase con vanilla JS es mediante el uso del atributo .className del elemento DOM (que es un string).
 
@@ -374,7 +374,7 @@ var classes = el.className.split(‘ ‘);
 > :point_up:  Estas son las funciones más utilizadas para trabajar con estilos, hay muchas más funciones y es una buena idea revisar el resto de ellas.
 
 ### Trabajando con eventos
-***
+
 
 Ya sabes mucho acerca de los eventos porque pasamos por la lección de Eventos de JavaScript anteriormente durante este curso.
 
@@ -408,7 +408,7 @@ $(‘.btn’).on( "click", function(){
 > :link: Para continuar leyendo sobre eventos recomendamos [esta lectura.](https://learn.jquery.com/events/event-basics/)
 
 ### Trabajando con Ajax
-***
+
 
 jQuery realmente ayuda cuando se trabaja con clases porque la única forma de actualizar una clase con vanilla JS es usando el atributo .className del elemento DOM (que es una cadena).
 

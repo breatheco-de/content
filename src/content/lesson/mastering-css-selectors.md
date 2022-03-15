@@ -67,7 +67,7 @@ The first paragraph in the list is preceded by the div, so it remains unchanged.
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/">Click to open demo in a new window</a></small></div>
 
 ## The Almighty Asterisk
-***
+
 
 ```css
 #someDiv * {
@@ -97,7 +97,7 @@ You can take this as far as you want – the following targets the "grandchildre
 
 
 ## Attribute Value Selector
-***
+
 
 ```css
 a[href='http://4geeksacademy.com/'] {color: blue;}
@@ -110,7 +110,7 @@ If we want to change the font color of the "Design Shack" link, we could use :ps
 
 
 ## Arbitrary Substring Attribute Value Selector
-***
+
 
 ```css
 div[id*='section'] {color: red;}
@@ -122,7 +122,7 @@ The following code targets any div with the word "section" in the title.  It can
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 # Pseudo Class Selectors
-***
+
 
 
 ### Link-related pseudo selectors 

@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## What is a "User Story"?
-***
+
 
 <iframe width="1185" height="667" src="https://www.youtube.com/embed/LGeDZmrWwsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -25,7 +25,7 @@ Describing a feature seems easy, but it can be challenging:  Where should you st
 User stories have become very popular as a feature-based-documentation-standard because they cut all the fat from the process.  The are straightforward, easy to understand by everyone involved (not just the developers), and easy to test.
 
 ### What is so Special about them?
-***
+
 
 A user story is like having a conversation with your future user.  They must be written in standard non-technical English for 12 year old kids with a low attention span:
 
@@ -37,7 +37,7 @@ A user story is like having a conversation with your future user.  They must be 
 ![user stories examples](../../assets/images/032a818d-e4d7-4276-8195-ce5d8a3edcf6.png)
 
 ### How should you Write the User Stories?
-***
+
 
 It is so simple that it becomes tricky…the most important thing is to: (1) Maintain simplistic language, (2) Keep it short, and, (3) Specify:
 
@@ -98,7 +98,7 @@ To write great acceptance criteria, we need to think not only about the usual ex
 + I cannot pay with a VISA card with a wrong number
 
 ## Don’t get Obsessed!
-***
+
 
 Please, this is a course about full-stack web development.  You don’t have to write the best stories ever made.  Perfect does not ship!  Take some time to think about your stories, but don’t get stuck during the process.
 

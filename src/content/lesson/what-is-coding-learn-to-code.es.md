@@ -18,7 +18,7 @@ Su código tendrá una línea de "comienzo" y una línea de "final", y la comput
 Ya que estamos construyendo pequeños algoritmos básicos (por ahora) vamos a utilizar un simulador de línea de comandos de computadora en [c9](https://aws.amazon.com/es/cloud9/?origin=c9io) y [repl.it](https://repl.it/) para interactuar con nuestro programa.
 
 ## La Linea de Comamdo
-***
+
 
 Las computadoras no necesitan interfaces visuales, los humanos sí. Pero ahora te estás convirtiendo en un desarrollador y tienes más cosas en común con las computadoras todos los días: la "línea de comando" será una de ellas. Por favor mira este simulador de terminal de computadora y ejecuta el código. La computadora imprimirá el resultado después de ejecutar el algoritmo en el terminal en la parte inferior de la ventana:
 
@@ -32,7 +32,7 @@ Las computadoras no necesitan interfaces visuales, los humanos sí. Pero ahora t
 > :point_up: ¿Qué sucedió aquí? <br> Cuando presionó "ejecutar", el algoritmo comenzó a ejecutarse, y la única acción que realizó fue imprimir la oración: "Hola, humano ... ¿cuáles son sus órdenes para hoy?"
 
 ## El Tiempo de Ejecución 
-***
+
 
 El tiempo de ejecución es el lugar más abstracto que encontrará en toda su vida. Es similar a la mente de un artista justo antes de que llegue a la epifanía ... bueno, lo siento, nos hemos sobrepasado un poco aquí ... pongámoslo en palabras sencillas:
 
@@ -47,7 +47,7 @@ Esto es lo que parece un "error de tiempo de ejecución" (un error que se produc
 
 
 ## El Lenguaje
-***
+
 
 Las computadoras hablan solo un idioma: ** Assembly **. Pero usar el lenguaje ensamblador es difícil porque es la base de todo. Tienes que ocuparte de cosas básicas como limpiar la memoria de la computadora, convertir los caracteres de cadena en su representación binaria, etc. Es por eso que los desarrolladores crearon capas de abstracción: para evitar realizar las actividades básicas todos los días. Al final, todo el código que escriba se convertirá en "Assembly" (pero no tienes que preocuparte por eso).
 

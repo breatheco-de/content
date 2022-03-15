@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## Welcome to CSS!!
-***
+
 We are sure that after diving deep into HTML, everything looks kind of ugly, fixed, and rigid. We have to remember that HTML was created by CERN scientists, and they’re not – usually – the funniest kind of people (although they are the same exact scientists that 
 [discovered The Higgs Boson](https://www.youtube.com/watch?v=0CugLD9HF94), and we do have to bow to our knees for that).  However, HTML is still ugly, and it’s ugly because it was created for a different purpose than the one HTML meets today.
 
@@ -24,7 +24,7 @@ But… The Internet is more beautiful than that. When the internet became popula
 Ironically, the same scientists at CERN who created HTML had to think about how to improve it. They were given the task to make it more beautiful. It was at this time that [Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie) proposed the first version of CHSS in 1994, which was later adapted to become CSS1.
 
 ## So, What is CSS and why does it matter??
-***
+
 
 ![what is css](../../assets/images/8c9fea86-c56c-486f-8b64-4322338076f7.jpeg)
 
@@ -42,7 +42,7 @@ Can you imagine the potential?  You can make almost everything look different!
 
 
 ## How do I apply styles to HTML?
-***
+
 
 Quite simple: You have to write your styles in a special syntax called "CSS" and save it on documents with the extension CSS.  Then, you apply the styles to the document using the `<link>` or the `<style>` tag.
 
@@ -56,7 +56,7 @@ Let’s review those 2 tags in more detail:
 > :point_up:Just like it happens with HTML docs (ending with .html) CSS docs (style sheets) end with extension `.css`.
 
 ## CSS Syntax
-***
+
 
 The CSS syntax is nothing similar to HTML syntax, it is its own specific programming language.  CSS does not use tags! To work with a website you have to shift your mindset several times because you will be working with several languages at the same time, and each one has its own syntax.
 
@@ -87,7 +87,7 @@ tag-selector
 }
 ```
 ## Wait… What is a "Selector"??
-***
+
 
 A selector is a way to refer or identify one or more HTML elements. For example, if you want to change the color of your web to red, you must do it as it follows:
 
@@ -148,7 +148,7 @@ With these 4 ways to select you are covering 99% of your needs; here what is imp
 There are other specific and advanced selectors. You are probably going to use them when you start building something more challenging.
 
 ## Conflicts and correspondence
-***
+
 
 What happens if an element of the page is selected in two different selectors and has the green font color assigned to one definition and red in the other? In other words, if we have told the browser to find two different colors, what color will it end up getting?
 
@@ -159,7 +159,7 @@ You have to have a very good understanding of the CSS hierarchy in order to unde
 The browser gives priority to more specific selectors like `#id` than the more general selectors like tags. In the following example, we changed the color of all the `<li>` (the items in the list) to blue, but then we changed the text of the second element to red. In this way we demonstrate that the ID selector will always prevail over selecting all the elements with the same tag.
 
 ## Properties
-***
+
 
 We have already seen that a CSS style sheet is nothing more than a list that defines the properties that we want to assign to different elements of the page. Now we have to learn what properties we can assign to these elements.
 

@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## Beyond the Console!
-***
+
 
 Nobody likes applications that are based on the console... Can you imagine using Uber from the command line???
 
@@ -21,7 +21,7 @@ $ "uber" request-trip --from home --to work --pool
 Thankfully we have the browsers!  They let us render our application in a visual interface that we call a website.
 
 ## The Website DOM
-***
+
 
 As you know already, the responsibility of the browser is to transform HTML/CSS code into visual elements.  Those elements are mapped into a hierarchy that is stored in RAM memory and it’s called The DOM.
 
@@ -36,7 +36,7 @@ NOTE:  Please always remember that all the JavaScript code that you write in you
 ```
 
 ## How to Update your Website DOM
-***
+
 
 There are several ways to manipulate the DOM, but the most simple one is **document.write**.  Every time you create a document.write you will be writing onto the HTML whatever string you decide to pass as a parameter to the write function.
 
@@ -48,7 +48,7 @@ It does not matter where you write the code.  The only thing that matters is tha
 
 
 ## The DOM is Spectacular!
-***
+
 
 From the moment a website starts being loaded, the browser creates a hierarchy that is called The DOM.  Each HTML element you coded in your HTML document as a developer has a place in that hierarchy and you can access it using JavaScript anytime you want during the runtime.
 
@@ -63,7 +63,7 @@ From the moment a website starts being loaded, the browser creates a hierarchy t
 <div align="right"><small><a href="https://www.youtube.com/embed/Ibxagg2ep5g">Click here to open video in a new window</a></small></div>
 
 ## How do I access any Object in the DOM?
-***
+
 
 Just like we did with CSS, we can select any element in the document.  There are 4 methods that allow us to search for whatever we want:
 
@@ -103,7 +103,7 @@ xyz[0].style.color="red";   // make the first one red
 ```
 
 ## Accessing the Element’s Child
-***
+
 
 It is very common to need to change an element’s child.  For example:
 
@@ -138,7 +138,7 @@ trArray[3].style.background = "red";
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/">Click to open demo in a new window</a></small></div>
 
 ## The innerHTML
-***
+
 
 As you already know, each element in the HTML document can have some sort of HTML content.  It does not matter if it is a `<P>`, `<DIV>`,`<A>` or any other HTML element; it can have its own innerHTML combined with more HTML content.
 
@@ -154,7 +154,7 @@ document.getElementsByTagName("div")[0].innerHTML = "abc";
 > :point_up: You can find other 2 properties on the internet: nodeValue and textContent, but they are not really universally used and they are more limited in functionality.
 
 ## Adding Elements to the Document
-***
+
 
 There are 2 functions we can use for that: **appendChild** and **insertBefore.**
 
@@ -183,7 +183,7 @@ list.insertBefore(newItem, list.childNodes[0]);  //adding the newItem before the
 ```
 
 ## Removing Elements from the Document
-***
+
 
 The **removeChild** function is great to remove an element from the DOM, and, consequentially, from the HTML document as well.  You will have to specify who is the parent of the element that you are trying to delete.
 
@@ -201,7 +201,7 @@ while (element.firstChild) {
 > :point_up: This is the only function supported by all browsers; don’t use .remove() if you care about Explorer.
 
 ## Changing the Attributes
-***
+
 
 To change any attribute of any object in the DOM, we need to use the .attribute property just like this:
 
@@ -212,7 +212,7 @@ element.attribute = "whatever";
 ```
 
 ## Changing the Styles
-***
+
 
 You can also change any CSS rule or property applied to the HTML elements by using the **.style** attribute – like this:
 
@@ -225,7 +225,7 @@ element.style.background = "blue";
 
 
 ## Further reading
-***
+
 
 For more information about accessing the DOM, see: https://developer.mozilla.org/en-US/docs/Web/API/Document
 

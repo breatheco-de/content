@@ -16,7 +16,7 @@ Not so long ago, browsers were very dumb.  All they did was render HTML document
 All the work was done by the server: since there was no JavaScript, the DOM could not be updated during the website runtime.  That means that the initial HTML source code that the browser received while loading the website was also going to be the LAST version of it.  **No DOM modifications**.
 
 ### The Client-Server Architecture
-***
+
 
 [Remember how the internet works?](https://www.youtube.com/watch?v=UiBT3Kj8KBM)  Every domain points to a single IP address/server, and that server is ready to give back a **text answer** to any HTTP request that comes from any client.
 
@@ -53,7 +53,7 @@ In addition to the document content and the content-type, the server also append
 > :link: Here you can find more detailed information about [server response codes.](https://www.restapitutorial.com/httpstatuscodes.html)
 
 ### The Role of the Back-End Language
-***
+
 
 The cool thing about a back-end language is that it runs on a real machine (not in a browser like the front-end language).  With a back-end language you can do things like:
 
@@ -67,7 +67,7 @@ The cool thing about a back-end language is that it runs on a real machine (not 
 + You can combine any of the operations already mentioned in your own back-end application flow.
   
 ###  So.. what does a Back-End Web Developer do?
-***
+
 
 As a back-end developer, you will need to write all the code to generate and/or to respond to those static and dynamic documents as clients request them.
 

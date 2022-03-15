@@ -38,7 +38,7 @@ The API methods of a web application depend entirely on the purpose/business of 
 + If you are building an API for something like AirBnB, some of your methods will be: Book listing, Search for listing, Cancel trip, etc.
 
 ## The REST standard
-***
+
 
 There are dozens of ways of creating an API, but the REST standard has come to rule them all.  If you are serious about being a web developer, you have to be very comfortable with REST.
 

@@ -21,7 +21,7 @@ Django es LA HERRAMIENTA para el desarrollo web. No es sólo una librería - son
 + Documentación y comunidad: la comunidad de django es tan grande que no tendrás problemas para encontrar respuestas, tutoriales, etc.
 
 ## La Arquitectura de Django
-***
+
 
 Al igual que cualquier otro marco, Django propone una arquitectura específica para construir tu software y tenemos que aprender, adoptar y dominar todo esto si queremos convertirnos en Desarrolladores Senior Full Stack (usando Django):
 
@@ -39,7 +39,7 @@ BreatheCode es un gran sitio web de django con varias aplicaciones dentro:
 Todas esas aplicaciones pueden ser parte de un gran sitio web llamado "Plataforma BreatheCode".
 
 ## Creando un Nuevo Projecto
-***
+
 
 para comenzar un proyecto todo lo que debes hacer es:
 
@@ -69,7 +69,7 @@ El archivo `manage.py` que está afuera es una herramienta CLI para poder contro
 
 
 ## Creando la Primera Applicación
-***
+
 
 Ahora que tenemos un gran proyecto (sitio web) es hora de comenzar a agregarle aplicaciones. Para crear tu primera aplicación Django, escribe el siguiente comando:
 
@@ -112,7 +112,7 @@ El archivo Manage.py es una increíble herramienta de línea de comando que te a
 
 
 ## Arquitectura de Django para construir API RESTful
-***
+
 
 Vamos a construir una API basada en REST, pero no tengas miedo del nombre - el estándar REST básicamente se construyó como una API extremadamente simple.
 

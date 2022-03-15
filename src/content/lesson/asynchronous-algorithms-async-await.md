@@ -179,14 +179,14 @@ In this case, we used the Fetch API to load the images and *then* (after getting
 Keep in mind that any network call could fail because of many reasons, we should always be prepared for failure.
 
 ## Promises
-***
+
 A promise is nothing more than the result of an asynchronous operation. It represents the completion or failure of that result in form of object provided by the promise.
 
 #### A promise has 3 different states:
 + ***Pending***: promise result has not been determined yet because the asynchronous operation has not been completed.
 + ***Fulfilled***: it is when asynchronous operation is finished and the promise returned a value as an object.
 + ***Rejected***: it takes place when the operation failed.
-***
+
 
 ***This is how a promise can be created*** 
 ```javascript
@@ -205,7 +205,7 @@ console.log(myPromise);
 	>"I was resolved"
 */
 ```
-***
+
 ### Resolve and Reject functions
 + ***Resolve*** is used to change the status of a promise from pending to fulfilled.
 +  ***Reject*** is used to change the status from pending to rejected.
@@ -228,14 +228,14 @@ console.log(myPromise);
 		var myResolvedPromise =  Promise.resolve("I was resolved with this value");
 	*/
 ```
-***
+
 
 + ***reject***: it returns an already rejected promise with a reason.
 
 ```javascript
 	Promise.reject(new Error("I was rejected")).catch(error => console.log(error));
 ```
-***
+
 
 + ***then***: this method return a promise and it can take up to 2 arguments. One for the resolved promise and one for the rejected promise. Above there is an example that uses ***then*** method and takes one argument.
 
@@ -245,7 +245,7 @@ console.log(myPromise);
 	});
 	promise.then(value => console.log(value));
 ```
-***
+
 + ***catch***: returns a promise and deals with rejected operations. It is very handy when trying to debug or showing errors.
 
 ```javascript
@@ -254,10 +254,10 @@ console.log(myPromise);
 	});
 	promise.catch(error => console.log(error));
 ```
-***
+
 
 ## Async/await
-***
+
 + ***Async/await*** is a way to write asynchronous code. 
 + ***Async*** is a JavaScript function and can contain an ***await*** expression.
 + ***Await*** pauses the execution of async function and waits for a Promise's result.
@@ -326,7 +326,7 @@ handlingAllPromises();
 ```javascript
 	var [first, second, third] = await Promise.all([promise1(), promise2(), promise3()]);
 ```
-***
+
 ### Also you can do async functions as arrow functions
 ```javascript
 const handlingAllPromises = async () => {
@@ -337,7 +337,7 @@ const handlingAllPromises = async () => {
   console.log(third);
 }
 ```
-***
+
 ### How to handle errors in async functions?
 A good way of handling errors in async functions is to use the try ... catch statements.
 
@@ -352,7 +352,7 @@ async function handeErrors() {
   }
 }
 ```
-***
+
 ### Fetch api is promise based. Guess what? You can use it in your async functions too!! 
 ```javascript
 async  function fetchData(endpoint) { 
@@ -368,6 +368,6 @@ fetchData(http://dummyData/api/allUsers); //this is an example endpoint
 	>[1, 2, 3, 4] //here we get all users ID from the database
 */
 ```
-***
+
 ## In conclusion
 You have the ability to create awesome and faster web applications. In addition, users and faster tasks no longer need to wait for slow tasks to be finished,  thanks to ***asynchronous programming***. 

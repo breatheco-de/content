@@ -12,7 +12,7 @@ tags: ["async","await","promise","asynchronous"]
 ---
 
 ## Programación Asíncrona con JavaScript
-***
+
 
 Hasta ahora, hemos utilizado código JavaScript para ejecutar aplicaciones web simples, que incluyen: usar variables, llamar a funciones y jugar con el ***DOM***. En las funciones, específicamente, incluso pasamos funciones a otras funciones (***funciones callback***) y hay mucho más que hablar al respecto. 
 
@@ -182,7 +182,7 @@ En este caso, utilizamos la Fetch API para cargar las imágenes y *luego* (despu
 Tenga en cuenta que cualquier peticion (request) http puede fallar por diversas razones, siempre debemos estar preparados para la falla.
 
 ## Promesas
-***
+
 Una promesa no es más que el resultado de una operación asíncrona. Representa la finalización o el fracaso de ese resultado en un objeto proporcionado por la promesa.
 
 #### Una promesa (promise) tiene 3 estados diferentes:
@@ -190,7 +190,7 @@ Una promesa no es más que el resultado de una operación asíncrona. Representa
 + ***Pendiente***: el resultado de la promesa aún no se ha determinado porque la operación asíncrona no se ha completado.
 + ***Cumplida***: es cuando la operación asíncrona finaliza y la promesa devuelve un valor como un objeto.
 + ***Rechazada***: tiene lugar cuando la operación falló.
-***
+
 
 ***Así es como se puede crear una promesa.*** 
 
@@ -210,7 +210,7 @@ console.log(myPomise);
 	>"Estaba resuelto"
 */
 ```
-***
+
 ### Resolve y reject funciones
 
 + ***Resolve*** se utiliza para cambiar el estado de una promesa de pendiente a cumplida.
@@ -235,14 +235,14 @@ console.log(myPomise);
 		var myResolvedPromise =  Promise.resolve("Yo estaba resuelto con este valor");
 	*/
 ```
-***
+
 
 + ***reject***: devuelve una promesa rechazada por un motivo.
 
 ```javascript
 	Promise.reject(new Error("fui rechazado")).then(error => console.log(error));
 ```
-***
+
 
 + ***then***: este método devuelve una promesa y puede tomar hasta 2 argumentos. Una para la promesa resuelta y otra para la promesa rechazada. Arriba hay un ejemplo que usa el método ***then*** y toma un argumento.
 ```javascript
@@ -251,7 +251,7 @@ console.log(myPomise);
 	});
 	promise.then(value => console.log(value));
 ```
-***
+
 + ***catch***: devuelve una promesa y se ocupa de las operaciones rechazadas. Es muy útil cuando se trata de depurar o mostrar errores.
 ```javascript
 	var promise =  new  Promise(function(resolve,reject){
@@ -259,10 +259,10 @@ console.log(myPomise);
 	});
 	promise.catch(error => console.log(error));
 ```
-***
+
 
 ## Async/await
-***
+
 + ***Async/await***Es una forma de escribir código asíncrono.
 + ***Async*** es una función de JavaScript y puede contener una expresión ***await***.
 + ***Await*** pausa la ejecución de la función asíncrona y espera el resultado de una promesa.
@@ -332,7 +332,7 @@ handlingAllPromises();
 ```javascript
 	var [first, second, third] = await Promise.all([promise1(), promise2(), promise3()]);
 ```
-***
+
 ### También puedes hacer funciones asíncronas como funciones de flecha(arrow).
 
 ```javascript
@@ -344,7 +344,7 @@ const handlingAllPromises = async () => {
   console.log(third);
 }
 ```
-***
+
 ### ¿Cómo manejar errores en funciones asíncronas?
 
 Una buena manera de manejar los errores en las funciones asíncronas es usar las sentencias try... catch.
@@ -360,7 +360,7 @@ async function handeErrors() {
   }
 }
 ```
-***
+
 ### Fetch API se basa en la promesa. ¿Adivina qué? Puedes usarlo en tus funciones asíncronas también !!
 ```javascript
 async  function fetchData(endpoint) { 
@@ -376,6 +376,6 @@ fetchData(http://dummyData/api/allUsers); //este es un ejemplo de endpoint
 	>[1, 2, 3, 4] //Aquí obtenemos todos los usuarios ID de la base de datos
 */
 ```
-***
+
 ## En conclusión
 Tienes la capacidad de crear aplicaciones web increíbles y más rápidas. Además, los usuarios y las tareas más rápidas ya no tienen que esperar a que finalicen las tareas lentas, gracias a la ***programación asíncrona***.

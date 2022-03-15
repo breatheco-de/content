@@ -273,7 +273,7 @@ console.log(auxCar.brand);
 ```
 
 ## All the other Operations
-***
+
 
 All the other operations are pretty much the same as in JavaScript.  Just use the dollar `$` sign at the beginning of each variable, and use the arrow to access object properties instead of the dot `.`
 

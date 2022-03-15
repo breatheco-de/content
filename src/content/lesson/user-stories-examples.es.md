@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## Que es una Historia de usuario("User Story")?
-***
+
 
 <iframe width="1185" height="667" src="https://www.youtube.com/embed/LGeDZmrWwsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -25,7 +25,7 @@ Describir una característica parece fácil, pero puede ser desafiante: ¿dónde
 Las historias de usuarios se han vuelto muy populares como estándar de documentación basado en características, se enfoca en lo esencial. Son fáciles de entender por todos los involucrados (no solo los desarrolladores) y fáciles de probar.
 
 ### ¿Qué es tan Especial de ellas?
-***
+
 
 Una historia de usuario es como tener una conversación con su futuro usuario. Deben estar escritos en elenguaje no técnico estándar para niños de 12 años con poca capacidad de atención:
 
@@ -37,7 +37,7 @@ Una historia de usuario es como tener una conversación con su futuro usuario. D
 ![ejemplos de historias de usuarios](../../assets/images/032a818d-e4d7-4276-8195-ce5d8a3edcf6.png)
 
 ### ¿Cómo debes escribir las historias de usuario?
-***
+
 
 Es tan simple que se vuelve complicado ... lo más importante es: (1) Mantener un lenguaje simple, (2) Ser breve, y, (3) Ser específico:
 
@@ -98,7 +98,7 @@ Para escribir excelentes criterios de aceptación, debemos pensar no sólo en el
 + No puedo pagar con una tarjeta VISA con un número equivocado
 
 ## ¡No te obsesiones!
-***
+
 
 Por favor, este es un programa sobre desarrollo web full stack. No tienes que escribir las mejores historias jamás hechas. ¡Inténtalo! Tómate un tiempo para pensar en tus historias, pero no te quedes estancado durante el proceso.
 

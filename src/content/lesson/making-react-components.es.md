@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## En React.js todo es un `<Componente />`
-***
+
 
 React.js separa tu código en pequeñas partes llamadas Componentes que pueden crearse / definirse como **class** o como **function**.  Cada componente es como una aplicación de React más pequeña que tiene su propia lógica y tiene un propósito final que es renderizar algo. Por ejemplo: un `navbar` de bootstrap, una _dropdown list_ (lista desplegable), un modelo, un formulario dinámico, galería de imágenes, formulario de suscripción, casi todo puede diseñarse y codificarse como un componente React). Para hacer eso, el componente de React debe tener un `return` que devuelva código JSX (HTML + JS anidado).
 
@@ -70,7 +70,7 @@ function Home(props){
 ```
 
 ## Las Props
-***
+
 
 A veces un componente necesita información dinámica para mostrar. Por ejemplo, necesitamos nuestro componente `<Navbar />` para mostrar la lista de enlaces disponibles y el logo de la marca. Podemos incluir esa información dentro de la llamada del componente `<Navbar />` de la misma manera que lo hacemos en las etiquetas HTML.
 
@@ -100,7 +100,7 @@ Y, por último, debemos indicarle a React dónde debe renderizar ese componente 
 
 
 ## El Estado del Componente
-***
+
 
 ¿Pero qué pasa si mi componente cambia con el tiempo? Por ejemplo, un componente `<Reloj />` deberá actualizarse cada segundo y mostrar la hora actual. Para hacerlo, tenemos el estado y solo se puede utilizar en componentes que se han declarado como una clase.
 
@@ -137,7 +137,7 @@ Aquí hay un ejemplo del componente `<Clock />` del que acabamos de hablar:
 
 
 ## pero espera, deberia usar Function o Class?
-***
+
 
 ¡Ambos! Depende de cuán complejo sea su componente:
 

@@ -27,7 +27,7 @@ We all can agree that this is A LOT, right!?
 <br>
 
 ## So.. what is React?
-***
+
 
 React JS defines itself as a front-end library for building interactive user interfaces (UIs). As such, it proposes a new way of building websites by redesigning the entire coding workflow as well as making websites faster.
 
@@ -73,7 +73,7 @@ return <h1 id="name"> {person.name == "John" ? "John" : "Tom" } </h1>; //works i
 
 
 ## Everything Is Now a Component
-***
+
 
 Remember the Bootstap components?  
 
@@ -175,7 +175,7 @@ export class MyCard extends React.Component{
 
 
 ## The MAIN Component
-***
+
 
 With React the entire application is considered one component.
 
@@ -268,7 +268,7 @@ Each component will have render method.  The final resulting HTML document will 
 ![learn react js tutorial](../../assets/images/6c7d3747-482a-480d-b5be-fdbf095292f3.png)
 
 ## The YouTube.com Example
-***
+
 
 On your application wireframe, you can grab a highlighter and start marking all the components your application is going to have.  The easy ones are the typical Bootstrap components: Navbar, Card, etc.  You should also define your own components.
 

@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## What is React Router?
-***
+
 
 React Router is a JS library available through NPM that helps mainly with 2 problems:
 
@@ -24,7 +24,7 @@ $ npm install --save react-router
 ```
 
 ## Why do I need this?
-***
+
 
 Stop reading if you are not building entire applications using React – you don’t need React-Router for single page applications or small components.
 
@@ -36,7 +36,7 @@ For example, we need the following application URLs to match the following compo
 
 
 ## Defining your Application Routes
-***
+
 
 What pages/views do you want your app to have? You can always start with the basic ones:
 
@@ -49,7 +49,7 @@ The rest of the pages depend on your application and on how you want your users 
 ![react router](../../assets/images/205cd2de-dfae-4712-a5e4-1c922994e60d.png)
 
 ## Mapping your Views to URLs
-***
+
 
 This is the sitemap for any typical e-commerce website:
 
@@ -57,7 +57,7 @@ This is the sitemap for any typical e-commerce website:
 ![react router](../../assets/images/9021be43-57ae-4667-8c1a-435b8521ce59.png)
 
 ## Coding your Application Routes
-***
+
 
 Once you have finished mapping your application views with URLs, you can start coding everything and that is when React-Router comes in!
 
@@ -110,7 +110,7 @@ There are 3 components to understand here:
 This route is telling React that when the URL matches "sign-up", the component Signup should be displayed.
 
 ## Anchors ` <a> ` are now a Problem
-***
+
 
 Anchors take users to other websites or URLs – and that is amazing for simple plain HTML+JS – but, now we DON’T want our users to be taken to other websites or URLs.  We want them to remain in the same tab but be able to load the next page without having to refresh.  We have two possible approaches of doing that:
 
@@ -135,7 +135,7 @@ React Router created a component that we can use instead of ` <a> `
 ```
 
 ## Live Example:
-***
+
 
 Here is a live example using everything that we’ve learned in this reading. Please click and play to understand it, learn it and replicate it:
 

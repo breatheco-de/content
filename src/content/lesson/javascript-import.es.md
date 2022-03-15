@@ -18,7 +18,7 @@ Gracias a Webpack, podemos dividir nuestro código en archivos pequeños como qu
 De hecho, ya lo hemos estado haciendo cuando importamos nuestros estilos, bootstrap o jQuery desde index.js.
 
 ## Así es como funciona "importar" y "exportar":
-***
+
 
 + Utiliza la palabra **importar** para traer variables, clases o funciones de otros archivos.
 + Usted usa la palabra **exportar** para exponer variables, clases o funciones que serán utilizadas por otros archivos.
@@ -32,7 +32,7 @@ Por ejemplo, aquí estamos importando una función de otro archivo:
 
 
 ## Exportación por Defecto
-***
+
 
 Hay una pequeña variación que puede encontrar en Internet que se llama **"exportación predeterminada"**: esta es solo una forma de exportar una cosa por defecto a su archivo.
 
@@ -64,7 +64,7 @@ export default multiplyFunction;
 
 
 ## Ejemplo Final:
-***
+
 
 Aquí hay una pequeña demostración de todos los tipos de importación / exportación que trabajan en el mismo proyecto.
 
