@@ -38,8 +38,7 @@ Hay muchas estructuras de datos conocidas y también puedes crear las tuyas. Par
 | Graph o grafos| Los grafos son una estructura de datos en la cual cualquier elemento (llamado node) puede apuntar hacia cualquier otro node. Puedes usar grafos para representar jerarquías, calles de una ciudad, etc. | Los grafos son muy eficientes porque te permiten apuntar directamente a otros nodes en vez de tener que hacerle un bucle a una secuencia, por ejemplo Google Maps Traffic usa graphs para calcular la hora estimada de llegada |
 | Tree o árbol| Trees son un tipo de grafos con jerarquía (padres e hijos), todo empieza en el node superior y puedes usar `python>node.childs()` para obtener los hijos de cualquier elemento y seguir profundizando en la jerarquía. Los trees son eficientes en muchas jerarquías de la vida real en nuestro presente como por ej: representar a una familia, el directorio de archivos de un computador, el menu de un sitio web, etc. |
 
-[[info]]
-| :point_up: Hay otros tipos de estructuras de datos y también puedes crear tus propias estructuras pero abordamos estos casos porque representan la gran mayoría de las situaciones de la vida real que encontrarás mientras programas.
+> :point_up: Hay otros tipos de estructuras de datos y también puedes crear tus propias estructuras pero abordamos estos casos porque representan la gran mayoría de las situaciones de la vida real que encontrarás mientras programas.
 
 ##  Array
 

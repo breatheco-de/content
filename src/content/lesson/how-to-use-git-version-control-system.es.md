@@ -10,8 +10,7 @@ status: "published"
 
 ---
 
-[[demo]]
-| :point_up: También hemos preparado un tutorial interactivo sobre GIT. [Haga clic aquí para tomarlo!](https://4geeksacademy.github.io/git-interactive-tutorial/)
+> :point_up: También hemos preparado un tutorial interactivo sobre GIT. [Haga clic aquí para tomarlo!](https://4geeksacademy.github.io/git-interactive-tutorial/)
 
 ## GIT es una necesidad!
 ***
@@ -91,8 +90,7 @@ Ejemplo: Digamos que estás comenzando a desarrollar la característica / funcio
 
 ![how to use git](../../assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif)
 
-[[info]]
-| :point_up:** Nota sobre la terminología: ** Los términos "rama" y "head" son casi sinónimos en GIT. Cada rama está representada por un head, y cada head representa una rama. A veces, "rama" se usará para referirse a un head y el historial completo de commits que preceden a ese head, mientras que "head" se usará para referirse exclusivamente a un solo commit object (el commit más reciente en la rama).
+> :point_up:** Nota sobre la terminología: ** Los términos "rama" y "head" son casi sinónimos en GIT. Cada rama está representada por un head, y cada head representa una rama. A veces, "rama" se usará para referirse a un head y el historial completo de commits que preceden a ese head, mientras que "head" se usará para referirse exclusivamente a un solo commit object (el commit más reciente en la rama).
 
  ## Comenzando un Nuevo Repo** `git init`
  ***
@@ -188,8 +186,7 @@ Este comando hace lo siguiente:
 + Apunta al *HEAD* del commit object especificado por *\[head-name \]*.
 + Vuelve a escribir todos los archivos en el directorio para que coincidan con los archivos almacenados en la nueva *HEAD* commit.
   
-[[info]]
-| :point_up:**Nota importante:** Si hay cambios sin commits al ejecutar git checkout, GIT se comportará de manera muy extraña. La extrañeza es predecible y, a veces, útil, pero es mejor evitarla. Todo lo que tienes que hacer, por supuesto, es confirmar todos los cambios nuevos antes de revisar el nuevo head.
+> :point_up:**Nota importante:** Si hay cambios sin commits al ejecutar git checkout, GIT se comportará de manera muy extraña. La extrañeza es predecible y, a veces, útil, pero es mejor evitarla. Todo lo que tienes que hacer, por supuesto, es confirmar todos los cambios nuevos antes de revisar el nuevo head.
 
 Después de revisar el head *\ [new-head \]*, fijarás los head.  Ahora puedes agregar los cambios y realizar commit como se indica arriba. El repositorio resultante se ve así:
 
@@ -216,8 +213,7 @@ Estos comandos realizan las siguientes operaciones. Deja que el head actual se l
 + Si no hubo conflictos, crea un nuevo commit con dos padres: *current* y *merge.* Establece current (y *HEAD*) para que apunte a este nuevo commit, y actualiza acordemente los archivos de trabajo para el proyecto.
 + Si hubo un conflicto, inserta apropiadamente los marcadores de conflicto e informa al usuario.  Ningún commit es creado.
 
-[[warning]]
-| :point_up: GIT puede ser muy confuso si hay cambios sin commit en los archivos cuando le pides que realice una fusión o merge.  Por lo tanto, asegúrate de hacer commit a los cambios que hayas realizado hasta ahora antes de fusionar.
+> :point_up:  GIT puede ser muy confuso si hay cambios sin commit en los archivos cuando le pides que realice una fusión o merge.  Por lo tanto, asegúrate de hacer commit a los cambios que hayas realizado hasta ahora antes de fusionar.
 
 
 ## Resolviendo conflictos
@@ -330,8 +326,7 @@ Una rama que **rastrea** una rama remota conserva una referencia interna a la ra
 
 Lo importante a tener en cuenta es que ahora tienes una copia completa del repositorio completo de tu amigo. Cuando se ramifica, confirma (commit), fusiona u opera de otra manera en el repositorio, operas solo en tu propio repositorio. GIT solo interactúa con el repositorio de tu amigo cuando le pidas específicamente que lo haga.
 
-[[info]]
-|:link:El repositorio de tu amigo dice así: <br> Aquí hay una lista de otros excelentes recursos para aprender GIT.: http://sixrevisions.com/resources/git-tutorials-beginners/<br>Especialmente deberías probar estos dos:<br>• https://try.github.io<br>• http://learngitbranching.js.org/
+> :link:El repositorio de tu amigo dice así: <br> Aquí hay una lista de otros excelentes recursos para aprender GIT.: http://sixrevisions.com/resources/git-tutorials-beginners/<br>Especialmente deberías probar estos dos:<br>• https://try.github.io<br>• http://learngitbranching.js.org/
   
   
 

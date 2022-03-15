@@ -190,11 +190,9 @@ Podemos colocar el cuantificador después de los patrones de caracteres que quer
 <div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVCbk4lNURvdiUyOGVtYmVyJTI5JTNG&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLiBUaGUgYmVzdCBkYXRlIHRvIGdyb3cgb2xpdmVzIGlzIG9uIE5vdmVtYmVyIHRoZSAyNHRoLCBub3Qgb24gTm92ZW1iZXIgdGhlIDNyZC4%3D">Haz clic aquí para abrir la demo en una nueva ventana</a></small></div>
 
 
-[[demo]]
-| :point_up: Aquí hay dos herramientas increíbles para construir y probar expresiones regulares. https://regex101.com/ and http://regexr.com/
+> :point_up: Aquí hay dos herramientas increíbles para construir y probar expresiones regulares. https://regex101.com/ and http://regexr.com/
 
-[[demo]]
-| :point_up:Aquí hay un tutorial interactivo para aprender expresiones regulares: https://regexone.com/
+> :point_up:Aquí hay un tutorial interactivo para aprender expresiones regulares: https://regexone.com/
 
 
 

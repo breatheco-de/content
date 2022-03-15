@@ -267,8 +267,7 @@ console.log(myPomise);
 + ***Async*** es una función de JavaScript y puede contener una expresión ***await***.
 + ***Await*** pausa la ejecución de la función asíncrona y espera el resultado de una promesa.
 
-[[Warning]]
-| Recuerda que las expresiones await sólo son válidas dentro de funciones asíncronas. Si las usas fuera, tendrás un error de sintaxis.
+> :point_up: Recuerda que las expresiones await sólo son válidas dentro de funciones asíncronas. Si las usas fuera, tendrás un error de sintaxis.
 
 ```javascript
 function returnedPromiseHere() {

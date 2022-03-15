@@ -41,8 +41,7 @@ Every array has the same basic concepts:
 ![what is an array define array](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
 
 
-[[info]]
-| :point_up:Array positions start at **zero (0)**; the first element is the element in the position **zero (0)**
+> :point_up:Array positions start at **zero (0)**; the first element is the element in the position **zero (0)**
 
 ## How to Declare an Array?
 ***
@@ -56,8 +55,7 @@ var myArray = new Array(1,2,3,4,5); //Don't use this! Read below to learn why.
 ```
 
 
-[[warning]]
-| :point_up:Don't declare the Arrays with the `new Array()` syntax – it will not behave properly  [click here to learn the details](https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
+> :point_up: Don't declare the Arrays with the `new Array()` syntax – it will not behave properly  [click here to learn the details](https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
 
 ## Access Items in the Array
 ***
@@ -195,8 +193,7 @@ Will update the current array leaving everything but the smaller version that yo
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Slice-vs-Splice">Click to open demo in a new window</a></small></div>
 
 
-[[info]]
-| :point_up:  Splice can accept as many optional paramenters as wanted and those will substitute the part of the array that has been deleted. The first parameter is the index where the deletion starts, the second how many elements will be deleted and from the third onward the elements inserted after the position set by the first parameter.
+> :point_up:  Splice can accept as many optional paramenters as wanted and those will substitute the part of the array that has been deleted. The first parameter is the index where the deletion starts, the second how many elements will be deleted and from the third onward the elements inserted after the position set by the first parameter.
 
 Example:
 ```javascript

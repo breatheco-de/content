@@ -41,8 +41,7 @@ Cada arreglo tiene los mismos conceptos básicos:
 ![what is an array define array](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
 
 
-[[info]]
-| :point_up: Las posiciones del arreglo comienzan con **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
+> :point_up: Las posiciones del arreglo comienzan con **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
 
 ## ¿Como Declarar un Arreglo?
 ***
@@ -95,8 +94,7 @@ Para obtener un elemento desde un vector, se lo realiza de la siguiente forma:
 ```
 Se está obteniendo el elemento de la posición 3 y se almacena en la variable de tipo entero llamada valor.
 
-[[info]]
-| :point_up: Cuando la dimensión de un arreglo es demasiado grande, se puede llenar o imprimir el contenido de un vector utilizando un ciclo for.
+> :point_up: Cuando la dimensión de un arreglo es demasiado grande, se puede llenar o imprimir el contenido de un vector utilizando un ciclo for.
 
 
 ## Actualizar Elementos en el Arreglo
@@ -118,8 +116,7 @@ miArreglo[1]=7;
 ```
 Lo que hicimos fue asignar en la posición 1 del vector, el elemento 7.
 
-[[info]]
-| :point_up:Tomar en cuenta que se puede utilizar directamente la posición (como en el ejemplo anterior) para acceder a un elemento, pero lo más común es utilizar una variable, como se verá más adelante.
+> :point_up:Tomar en cuenta que se puede utilizar directamente la posición (como en el ejemplo anterior) para acceder a un elemento, pero lo más común es utilizar una variable, como se verá más adelante.
 
 Otra forma de inicializar un vector, es dándole sus elementos respectivos al momento de declararlo, en este caso no declaramos la dimensión, si no que el compilador asigna la dimensión de acuerdo a los elementos con los que se inicializa el vector:
 ```java

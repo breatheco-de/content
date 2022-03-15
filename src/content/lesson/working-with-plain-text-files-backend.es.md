@@ -25,8 +25,7 @@ Digamos que tienes los precios de bitcoin del último día en un archivo `bitcoi
     after="../../assets/images/709ff7ce-f7f6-4b16-a172-521fe1787733bitcoing_prices_table.png" 
 />
 
-[[info]]
-| :tv: Video de 5 minutos en donde se explica [qué es un archivo CSV](https://www.youtube.com/watch?v=_blfh7uR05A)
+> :tv: Video de 5 minutos en donde se explica [qué es un archivo CSV](https://www.youtube.com/watch?v=_blfh7uR05A)
 
 Básicamente, cada línea en el archivo CSV representa un precio, por ejemplo:
 

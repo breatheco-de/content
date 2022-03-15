@@ -31,8 +31,7 @@ Esto sucede todo el tiempo y, en algún momento, puede ser difícil anular los e
 
 Estos selectores "muy específicos" te ayudarán mucho.  ¡Serán tu mejor herramienta para luchar contra tu guerra de estilos!
 
-[[info]]
-| :tv: &nbsp;[Aquí hay un vídeo muy bueno (3:40 min) explicando especificidad.](https://www.youtube.com/watch?v=In78mSOHmls)
+> :tv: &nbsp;[Aquí hay un vídeo muy bueno (3:40 min) explicando especificidad.](https://www.youtube.com/watch?v=In78mSOHmls)
 
 ## El selector de hijos
 
@@ -212,8 +211,7 @@ Puedes aplicar estilos a los elementos según su posición.
 |[:visited](https://www.w3schools.com/cssref/sel_visited.asp)   |a:visited   |Selecciona todos los enlaces visitados   |
 
 
-[[info]]
-|:link: Esta es una excelente lectura sobre los selectores de CSS: [Los 30 selectores de CSS que debes memorizar](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+> :link: Esta es una excelente lectura sobre los selectores de CSS: [Los 30 selectores de CSS que debes memorizar](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 
 
 

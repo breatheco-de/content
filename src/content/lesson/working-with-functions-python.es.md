@@ -48,8 +48,7 @@ resultado2 = multiplicar(5,2)
 print(str(resultado1)) # imprime 10
 ```
 
-[[info]]
-| :tv: Haz clic aquí para ver un [video explicativo sobre funciones](https://www.youtube.com/watch?v=_C7Uj7O5o_Q) (10min)
+> :tv: Haz clic aquí para ver un [video explicativo sobre funciones](https://www.youtube.com/watch?v=_C7Uj7O5o_Q) (10min)
 
 ### Segundo ejemplo sobre funciones
 
@@ -90,8 +89,7 @@ Al utilizar funciones tienes las siguientes ventajas:
 3. **Reutiliza tu código** llamando a la función varias veces, reduciendo drásticamente la longitud de tu código.
 4. **Organiza tu código**: los nombres de las funciones te dirán qué hace esa parte del código, puedes tener todas las funciones en un archivo separado y reutilizarlas en todos sus desarrollos futuros.
 
-[[info]]
-| :point_up: Si lo piensas bien, las funciones son equivalentes a los libros. Almacenan funciones y formas de hacer las cosas y en futuros desarrollos simplemente los reutilizas en lugar de tener que resolver todo de nuevo.
+> :point_up: Si lo piensas bien, las funciones son equivalentes a los libros. Almacenan funciones y formas de hacer las cosas y en futuros desarrollos simplemente los reutilizas en lugar de tener que resolver todo de nuevo.
 
 ## El Alcance de la Función
 
@@ -129,8 +127,7 @@ def multiplicar(a, b):
 print(myVariable)
 ```
 
-[[warning]]
-| :point_up: Es muy importante recordar que una vez que use la instrucción `return`, la función dejará de ejecutarse, si hay algún código después de esa instrucción, nunca se ejecutará.
+> :point_up:  Es muy importante recordar que una vez que use la instrucción `return`, la función dejará de ejecutarse, si hay algún código después de esa instrucción, nunca se ejecutará.
 
 
 ```python
@@ -194,8 +191,7 @@ segundo = suma(1,1)
 print(str(multiplicar(primero, segundo))
 ```
 
-[[demo]]
-| :point_up: [Ve este ejemplo en vivo en replit](https://repl.it/@4GeeksAcademy/nested-function-calling-python)
+> :point_up: [Ve este ejemplo en vivo en replit](https://repl.it/@4GeeksAcademy/nested-function-calling-python)
 
 ## Veamos un ejemplo:
 

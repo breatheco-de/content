@@ -44,8 +44,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 |Mousemove     |If the user moves the mouse    |
 |Mousedown or Mouseup     |If the user presses or releases the mouse.    |
 
-[[demo]]
-| :point_up: Play with this demo here 
+> :point_up: Play with this demo here 
 
 <iframe width="100%" height="300" frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/mouse.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -61,8 +60,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 |PageHide<br>PageShow    |When the user focuses in a different window/tab; or when the user comes back from a different window/tab.     |
 |Resize    |When the window is resized.      |
 
-[[demo]]
-| :point_up: Play with this demo here 
+> :point_up: Play with this demo here 
 
 <iframe width="100%" height="300" frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/frame.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -78,8 +76,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 |Change       |The event occurs when the content of a form element, the selection, or the checked state have changed (for `<input>`, `<keygen>`, `<select>`, and `<textarea>`)
      |
 
-[[demo]]
-| :point_up: Play with this demo here 
+> :point_up: Play with this demo here 
 
 <iframe width="100%" height="300"  frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/forms.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -93,8 +90,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 |Keydown	     |When the user presses the keyboard key.    |
 |Keypress       |When the user presses and releases the keyboard key.  The difference from keydown/up is that Keypress only works on character keys.  For example, it does not work on the up|down|left|right arrows.     |
 
-[[demo]]
-| :point_up: Play with this demo here 
+> :point_up: Play with this demo here 
 
 <iframe width="100%" height="300"  frameborder="1"src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/keyboard.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -102,8 +98,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 
 
 
-[[info]]
-|:link: Here [you can find a list with all the other less common events](https://www.w3schools.com/jsref/dom_obj_event.asp) that you have at your disposal.  Read them quickly, and be aware of them for future reference during your life as a developer.
+> :link: Here [you can find a list with all the other less common events](https://www.w3schools.com/jsref/dom_obj_event.asp) that you have at your disposal.  Read them quickly, and be aware of them for future reference during your life as a developer.
 
 ## Listening for events
 ***
@@ -251,8 +246,7 @@ Notice that in **addEventListener()** we only reference the function (`myChangeH
 |deltaX, deltaY   |Returns the vertical or horizontal scroll amount of a mouse wheel (y-axis) or (x-axis).     |
 |deltaMode       |Returns a number that represents the unit of measurements for delta values (pixels, lines or pages).      |
 
-[[info]]
-| :link: There is a lot more information you can get from the event object, but we are focusing on the most used properties.  For a bigger list of properties please read [this guide.](https://www.w3schools.com/jsref/dom_obj_event.asp)
+> :link: There is a lot more information you can get from the event object, but we are focusing on the most used properties.  For a bigger list of properties please read [this guide.](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
 ## Removing the Listeners
 ***

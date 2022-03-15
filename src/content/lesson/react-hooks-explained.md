@@ -214,8 +214,7 @@ const MyComponent = () => {
     return <Some HTML>;
 }
 ```
-[[info]]
-| :point_up: Please notice the `[]` as the second parameter of the useEffect.
+> :point_up: Please notice the `[]` as the second parameter of the useEffect.
 
 #### 2) Every time (or some times) after the component re-renders.
 ```jsx
@@ -230,8 +229,7 @@ const MyComponent = () => {
     return <Some HTML>;
 }
 ```
-[[info]]
-| :point_up: This useEffect does not have an empty array `[]` as second parameter.
+> :point_up: This useEffect does not have an empty array `[]` as second parameter.
 
 #### 3) When the component will unmount or stop being rendered (like the good old componentWillUnmount function used by class components).
 ```jsx
@@ -271,8 +269,8 @@ const Todos = (props) => {
     return <ul>{tasks.map(t => <li>{t.label}</li>)}</ul>;
 }
 ```
-[[demo]]
-| Review the code in depth and live demo by [clicking here](https://codesandbox.io/s/xenodochial-varahamihira-egh86?fontsize=14)
+
+> :point_up: Review the code in depth and live demo by [clicking here](https://codesandbox.io/s/xenodochial-varahamihira-egh86?fontsize=14)
 
 ## Further Reading
 For more information, including [how to build your own hooks](https://reactjs.org/docs/hooks-custom.html), check out: [Official React Documentation](https://reactjs.org/docs/hooks-overview.html)

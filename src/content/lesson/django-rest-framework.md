@@ -76,8 +76,7 @@ $ python manage.py startapp [app1_name]
 ```
 
 
-[[warning]]
-| :point_up: <span style="color:white"> To run this command, you have to be standing in the same folder as the manage.py file.  You can use the CD command to move to that same folder.</span>
+> :point_up:  <span style="color:white"> To run this command, you have to be standing in the same folder as the manage.py file.  You can use the CD command to move to that same folder.</span>
 
 #### Again, don’t be afraid of the generated files!
 
@@ -115,8 +114,7 @@ The Manage.py file is an amazing command line tool that will help you a lot.  It
 
 We are going to be building a REST Based API, but don’t be afraid of the name – the REST standard basically was built as an extremely simple API.
 
-[[info]]
-| :point_up: :tv: You can read more about REST APIs on this BreatheCode Lesson.<br> <br>Here is a cool 8 min video explaining REST: https://www.youtube.com/watch?v=7YcW25PHnAA
+> :point_up: :tv: You can read more about REST APIs on this BreatheCode Lesson.<br> <br>Here is a cool 8 min video explaining REST: https://www.youtube.com/watch?v=7YcW25PHnAA
 
 
 ### Here is how Django handles any API HTTP Request:
@@ -197,9 +195,7 @@ urlpatterns = [
 
 The urls.py file contains an array ***PATHs***.  Each path starts with a ***URL*** pattern, followed by the ***VIEW*** that is supposed to manage that path and 2 optional parameters: ***NAME:*** To identify the path; and ***KWARGS*** : a list of values that can be passed to the ***VIEW***.
 
-[[info]]
-| :tv: <span style="color:white">Here is a 5 video series that explains django APIs in an amazing way:</span> https://www.youtube.com/watch?v=Yw7gETuRKjw&index=37&list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK
+> :tv: <span style="color:white">Here is a 5 video series that explains django APIs in an amazing way:</span> https://www.youtube.com/watch?v=Yw7gETuRKjw&index=37&list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK
 
 
-[[info]]
-|:link: This website contains amazing Django resources: http://awesome-django.com
+> :link: This website contains amazing Django resources: http://awesome-django.com

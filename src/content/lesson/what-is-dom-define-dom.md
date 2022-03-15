@@ -151,8 +151,7 @@ document.getElementsByTagName("div")[0].innerHTML = "abc";
 // innerHTML can be used to insert plain text content or HTML, this creates a list inside a div element 
 ```
 
-[[warning]]
-| :point_up:You can find other 2 properties on the internet: nodeValue and textContent, but they are not really universally used and they are more limited in functionality.
+> :point_up: You can find other 2 properties on the internet: nodeValue and textContent, but they are not really universally used and they are more limited in functionality.
 
 ## Adding Elements to the Document
 ***
@@ -199,8 +198,7 @@ while (element.firstChild) {
 ```
 
 
-[[warning]]
-| :point_up:This is the only function supported by all browsers; don’t use .remove() if you care about Explorer.
+> :point_up: This is the only function supported by all browsers; don’t use .remove() if you care about Explorer.
 
 ## Changing the Attributes
 ***

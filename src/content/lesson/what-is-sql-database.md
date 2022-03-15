@@ -33,8 +33,7 @@ SELECT username FROM user WHERE email='info@breatheco.de'
 
 In this example, we are asking the database for all the users with the email equal to "info@breatheco.de"
 
-[[warning]]
-| :point_up: If you want to earn a developer’s respect, you need to be comfortable with SQL.  You will use it A LOT when working with data.
+> :point_up:  If you want to earn a developer’s respect, you need to be comfortable with SQL.  You will use it A LOT when working with data.
 
 ## Defining your Database
 ***
@@ -298,8 +297,7 @@ The syntax for SET TRANSACTION is as follows:
 SET TRANSACTION [ READ WRITE | READ ONLY ];
 ```
 
-[[info]]
-|:link:https://www.tutorialspoint.com/sql/sql-syntax.htm
+> :link:https://www.tutorialspoint.com/sql/sql-syntax.htm
 
 
 

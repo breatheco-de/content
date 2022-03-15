@@ -20,8 +20,7 @@ An API is the middleman of most modern applications.  API stands for: Applicatio
 |:-----------------:|:-----------------:|:---------------:|
 If you have a smartphone, you are well acquainted with what applications are (the tools, games, social networks and other software that we use everyday).      |Programming is how engineers create all of the software that make our lives so much easier.      |An interface is a common boundary shared by two applications or programs that allow both to communicate with one another.     |
 
-[[info]]
-| :point_up:Essentially, an API is a way for programmers to communicate with a particular application.
+> :point_up:Essentially, an API is a way for programmers to communicate with a particular application.
 
 ### This is the API for using a Phone:
 

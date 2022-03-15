@@ -33,8 +33,7 @@ Puedes decirle a un <h1> que se vea igualito que un <h2> sin que el usuario
 se de cuenta de que, a simple vista, son distintos.
 ```
 
-[[demo]]
-| :point_up: Para entender el potencial de CSS, [haz clic aquí para ver un live demo!](http://assets.breatheco.de/live-demos/css/bootstrap/)
+> :point_up: Para entender el potencial de CSS, [haz clic aquí para ver un live demo!](http://assets.breatheco.de/live-demos/css/bootstrap/)
 
 ¡Puedes imaginar el potencial?  ¡Puedes hacer que casi todo se vea diferente!
 
@@ -52,8 +51,7 @@ Vamos a repasar estas tags con más detalle:
 |Link       |link          |Tiene como finalidad enlazar a la página con hojas de estilos CSS. Para utilizarla debes especificar tres propiedades dentro de la etiqueta `pyton>rel="stylesheet" type="text/css"` y por último `pyton>href="with document route css"`<br>`pyton>link rel="stylesheet" type="text/css" href="theme.css">`   |
 |Style   |style   |Si no queremos o no podemos importar una hoja de estilo CSS, tenemos la posibilidad de definir estilos en el HEAD del documento HTML. Simplemente definimos el tag style y procedemos a escribir los estilos que queremos para las etiquetas.<br>`pyton><style>`<br>`pyton>h1 {color:red;}`<br>`pyton>p {color:blue;}`<br>`pyton></style>`   |
 
-[[info]]
-| :point_up: Asi como los documentos HTML terminan con la extensión .html, los documentos CSS (las hojas de estilo) terminan con la `extensión .css`.
+> :point_up: Asi como los documentos HTML terminan con la extensión .html, los documentos CSS (las hojas de estilo) terminan con la `extensión .css`.
 
 ## Sintaxis de CSS
 ***
@@ -66,8 +64,7 @@ Una hoja de estilos CSS es una gran lista de definiciones de estilos para cada e
 
 Revisa la animación para entenderlo mejor.
 
-[[info]]
-| :point_up: Los espacios son ignorados, pero puedes utilizarlos para hacer más legible tu código.
+> :point_up: Los espacios son ignorados, pero puedes utilizarlos para hacer más legible tu código.
 
 
 El siguiente ejemplo, es una hoja de estilos que define 3 grupos diferentes de estilos (selector1, selector2, selector3); y cada uno de estos grupos se le han aplicado diferentes reglas como: color, tamaño de letra o color de fondo.

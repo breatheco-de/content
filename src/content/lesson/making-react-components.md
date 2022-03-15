@@ -31,8 +31,7 @@ class Navbar extends React.Component{
     }
 }
 ```
-[[warning]]
-| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+> :point_up:  This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
 
 
 ## Using a Component
@@ -102,8 +101,7 @@ In another example, let's say that you are developing a `<Clock />` component th
 
 In order for the state to keep a web page up-to-date, it is programmed to re-render the DOM every time it is modified. So you can probably already see how you can take advantage of this feature - by keeping your current time inside of the state and reassigning it with the most current time on every second. Like so:
 
-[[info]]
-| :point_up:The following demo updates the current time on every second:
+> :point_up:The following demo updates the current time on every second:
 
 <iframe src="https://codesandbox.io/embed/zw852wvqp4?autoresize=1&amp;hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
@@ -213,8 +211,7 @@ ReactDOM.render(
 
 ```
 
-[[warning]]
-| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+> :point_up:  This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
 
 
 
@@ -362,7 +359,6 @@ class MyComponent{
     }
 ```              
 
-[[info]]
-|:link: Here you can find [more information about all the React JS lifecycle methods.](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
+> :link: Here you can find [more information about all the React JS lifecycle methods.](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
 
 

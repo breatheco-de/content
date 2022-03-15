@@ -24,7 +24,7 @@ Para poder instalar la herramienta Node Version Manager en un entorno Windows de
   3. **Asistente de instalación**
  Cuando se abre el asistente de instalación, dale clic al botón ***next*** un par de veces y, al final verás un botón ***install*** al cual también que darle clic. Después de eso, solo espera a que la barra de progreso **termine**.
  
-[[warning]] | Recuerda no tocar la configuración predeterminada ¡Sigue dándole clic a next!!
+> :point_up: Recuerda no tocar la configuración predeterminada ¡Sigue dándole clic a next!!
 
 ***
   4. **Línea de comando**

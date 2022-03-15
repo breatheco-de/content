@@ -9,8 +9,7 @@ status: "published"
 
 ---
 
-[[info]]
-| :point_up: Since in the previous chapter we equated houses, stores and buildings to web pages, then we could say HTML is the blueprints.
+> :point_up: Since in the previous chapter we equated houses, stores and buildings to web pages, then we could say HTML is the blueprints.
 
 
 # HTML is the Website Skeleton
@@ -152,8 +151,7 @@ The most frequent tags used inside the `<body>` of an HTML document are:
 |Line jump   |br   |To jump or skip the text to the next line (similar to a `shift+enter` in MS Word.)<br>`<br></br>`   |
 |Tables   |table   |Tables were designed to present data in a more read-friendly and neatly way.  It has headers (th), rows (tr) and columns (td).<br><br>`<table>`<br>`<tr><th>Column 1</th><th>Column 2</th></tr>`<br>`<tr><td>Data 1</td><td>Data A</td></tr>`<br>`<tr><td>Data 2</td><td>Data B</td></tr><br>`<br>`<tr><td>Data 3</td><td>Data C</td></tr>`<br>`</table>`   |
 
-[[info]]
-|:link: [Click here](https://www.w3schools.com/tags/ref_byfunc.asp), for more HTML tags
+> :link: [Click here](https://www.w3schools.com/tags/ref_byfunc.asp), for more HTML tags
 
 # The Attribute (Properties)
 ***

@@ -29,8 +29,7 @@ Las computadoras no necesitan interfaces visuales, los humanos sí. Pero ahora t
 
 
 
-[[warning]]
-| :point_up:¿Qué sucedió aquí? <br> Cuando presionó "ejecutar", el algoritmo comenzó a ejecutarse, y la única acción que realizó fue imprimir la oración: "Hola, humano ... ¿cuáles son sus órdenes para hoy?"
+> :point_up: ¿Qué sucedió aquí? <br> Cuando presionó "ejecutar", el algoritmo comenzó a ejecutarse, y la única acción que realizó fue imprimir la oración: "Hola, humano ... ¿cuáles son sus órdenes para hoy?"
 
 ## El Tiempo de Ejecución 
 ***

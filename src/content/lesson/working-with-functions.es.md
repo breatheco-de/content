@@ -80,8 +80,7 @@ console.log(myVariable); // este console.log no funcionará, generará un error,
 ```
 
 
-[[warning]]
-| :point_up: Es muy importante recordar que una vez que use la instrucción `return`, la función dejará de ejecutarse, si hay algún código después de esa instrucción, nunca se ejecutará.
+> :point_up:  Es muy importante recordar que una vez que use la instrucción `return`, la función dejará de ejecutarse, si hay algún código después de esa instrucción, nunca se ejecutará.
 
 ## Funciones Anónimas
 
@@ -136,8 +135,7 @@ let secondSum = sum(1,1);
 console.log(multiply(firstSum, secondSum));
 ```
 
-[[demo]]
-| :point_up: [Ver este ejemplo en vivo en replit](https://repl.it/@4GeeksAcademy/Nested-Function-Calling)
+> :point_up: [Ver este ejemplo en vivo en replit](https://repl.it/@4GeeksAcademy/Nested-Function-Calling)
 
 ## Veamos un ejemplo:
 

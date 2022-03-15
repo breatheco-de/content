@@ -157,8 +157,7 @@ You don’t have to be configuring Webpack all the time.  You can include the co
 
 You can also find and download online configurations that are already completed and fine-tuned for various different application architectures that are out there: React, Angular, Vanilla JS, WordPress, etc.
 
-[[info]]
-|:link: We have prepared a GIT repository with several configurations depending on your needs – [<button>click me!</button>](https://github.com/alesanchezr/webpack-tutorial)
+> :link: We have prepared a GIT repository with several configurations depending on your needs – [<button>click me!</button>](https://github.com/alesanchezr/webpack-tutorial)
 
 
 

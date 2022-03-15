@@ -38,8 +38,7 @@ Every list has the same basic concepts:
 ![what is an list define list](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
 
 
-[[info]]
-| :point_up:List positions start a **zero (0)**; the first element is the element in the position **zero (0)**
+> :point_up:List positions start a **zero (0)**; the first element is the element in the position **zero (0)**
 
 ## How to Declare a List?
 ***

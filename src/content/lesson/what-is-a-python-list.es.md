@@ -36,8 +36,7 @@ Cada lista tiene los mismos conceptos básicos:
 
 ![¿qué es una lista?](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
 
-[[info]]
-| :point_up: Las posiciones de la comienzan con **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
+> :point_up: Las posiciones de la comienzan con **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
 
 ## ¿Como Declarar una Lista?
 ***
@@ -95,8 +94,7 @@ La ventaja de utilizar insert es que te permite seleccionar la posicion donde de
     print(myList); # esto imprimirá ['Pedro','Chris','Juan','Maria'];
 ```
 
-[[info]]
-| :point_up: La funcion `insert` es mucho mas lenta que `append`, deberias tratar de eviarla.
+> :point_up: La funcion `insert` es mucho mas lenta que `append`, deberias tratar de eviarla.
 
 ## Eliminando items de una lista con Python(función pop, remove, delete)
 

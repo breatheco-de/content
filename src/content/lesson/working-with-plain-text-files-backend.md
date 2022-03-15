@@ -26,8 +26,7 @@ Let's say that you have the bitcoin prices from the last day in a `bitcoin_price
     after="../../assets/images/709ff7ce-f7f6-4b16-a172-521fe1787733bitcoing_prices_table.png" 
 />
 
-[[info]]
-| :tv: Five minute video explaining [what is a CSV file](https://www.youtube.com/watch?v=_blfh7uR05A)
+> :tv: Five minute video explaining [what is a CSV file](https://www.youtube.com/watch?v=_blfh7uR05A)
 
 Basically, every line in the CSV file represents one price, for example:
 

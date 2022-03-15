@@ -44,11 +44,9 @@ const bubbleSort = (arr) => {
 };
 ```
 
-[[info]]
-| :tv: En este enlace, encontrarás [una muy buen video de 2 minutos con una explicación](https://www.youtube.com/watch?v=xli_FI7CuzA).
+> :tv: En este enlace, encontrarás [una muy buen video de 2 minutos con una explicación](https://www.youtube.com/watch?v=xli_FI7CuzA).
 
-[[info]]
-| :tv: Aquí hay un verdadero [grupo extraño de búlgaros](https://www.youtube.com/watch?v=lyZQPjUT5B4&t=1s) bailando el algoritmo bubble-sort.
+> :tv: Aquí hay un verdadero [grupo extraño de búlgaros](https://www.youtube.com/watch?v=lyZQPjUT5B4&t=1s) bailando el algoritmo bubble-sort.
 
 ### Ordenando con selection
 
@@ -73,8 +71,7 @@ const selectSort = (arr) => {
 	return arr;
 };
 ```
-[[info]]
-| :tv: En este enlace, encontrarás [una muy buena explicación en un video de 3 minutos](https://www.youtube.com/watch?v=g-PGLbMth_g) sobre el algoritmo de clasificación por selección.
+> :tv: En este enlace, encontrarás [una muy buena explicación en un video de 3 minutos](https://www.youtube.com/watch?v=g-PGLbMth_g) sobre el algoritmo de clasificación por selección.
 
 ### Ordenando con el  Cocktail Shaker
 
@@ -104,8 +101,7 @@ const shakerSort = (arr) => {
   return arr;
 }
 ```
-[[info]]
-| :tv: En este enlace, encontrarás [una muy buena explicación en un video de 3 minutos](https://www.youtube.com/watch?v=g-PGLbMth_g) sobre el algoritmo para ordenar Cocktail Shaker.
+> :tv: En este enlace, encontrarás [una muy buena explicación en un video de 3 minutos](https://www.youtube.com/watch?v=g-PGLbMth_g) sobre el algoritmo para ordenar Cocktail Shaker.
 
 ### Ordenando con Insertion
 
@@ -128,8 +124,7 @@ const insertionSort = (arr) => {
 };
 ```
 
-[[info]]
-| :tv: En este enlace, encontrarás [una muy buena explicación en un video de 3 minutos](https://www.youtube.com/watch?v=JU767SDMDvA) sobre el algoritmo para ordenar Insertion.
+> :tv: En este enlace, encontrarás [una muy buena explicación en un video de 3 minutos](https://www.youtube.com/watch?v=JU767SDMDvA) sobre el algoritmo para ordenar Insertion.
 
 ### Ordenando con Merge
 
@@ -137,8 +132,7 @@ Merge es un algoritmo más difícil porque usa [recursividad](https://www.youtub
 
 ![Ordenando con Merge](../../assets/images/e8781e98-0f8c-4035-8017-33ca217eb39c.gif)
 
-[[info]]
-| :tv: En este enlace, encontrarás [una muy buena explicación en un video de 4 minutos](https://www.youtube.com/watch?v=JU767SDMDvA) sobre el algoritmo de Merge
+> :tv: En este enlace, encontrarás [una muy buena explicación en un video de 4 minutos](https://www.youtube.com/watch?v=JU767SDMDvA) sobre el algoritmo de Merge
 
 ### Ordenando con quicksort
 
@@ -160,8 +154,7 @@ La función `quickSort` invoca una función recursiva,` quickSortHelper`. `quick
 
 ![Algoritmo Quicksort](../../assets/images/c60c4713-aa60-4fbc-9d97-f893b5947e7f.gif)
 
-[[info]]
-| :tv: En este enlace, encontrarás [una muy buena explicación de video de 4 minutos](https://www.youtube.com/watch?v=Hoixgm4-P4M) sobre el algoritmo de clasificación rápida.
+> :tv: En este enlace, encontrarás [una muy buena explicación de video de 4 minutos](https://www.youtube.com/watch?v=Hoixgm4-P4M) sobre el algoritmo de clasificación rápida.
 
 ## Recursos Adicionales
 

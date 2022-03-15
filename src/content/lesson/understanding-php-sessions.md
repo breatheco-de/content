@@ -83,8 +83,7 @@ session_close();
 ```
 
 
-[[info]]
-| :point_up: Note: session_start() cannot be called once an output has started.  A warning will be displayed, and it is possible that the session could be lost.  If you are seeing the error "Cannot send session cache limiter," check to make sure that no output is going to the browser.  A common problem is an unwanted space or tab at the outsize of the PHP tags.
+> :point_up: Note: session_start() cannot be called once an output has started.  A warning will be displayed, and it is possible that the session could be lost.  If you are seeing the error "Cannot send session cache limiter," check to make sure that no output is going to the browser.  A common problem is an unwanted space or tab at the outsize of the PHP tags.
 
 ## Destroying the Session
 ***
@@ -132,8 +131,7 @@ $_SESSION["timeout"] = time();
 
 ```
 
-[[info]]
-| :point_up: The code ensures that if there is no activity for more than 600 seconds (10 minutes), the request is redirected to the logout page which would successfully logout the user.
+> :point_up: The code ensures that if there is no activity for more than 600 seconds (10 minutes), the request is redirected to the logout page which would successfully logout the user.
 
 ### Regenerate the Session ID
 

@@ -157,8 +157,7 @@ No tienes que estar configurando Webpack todo el tiempo.  Puedes incluir el arch
 
 También puedes encontrar y descargar configuraciones en línea que ya están completadas y ajustadas para varias arquitecturas de diferentes aplicaciones que están disponibles: React, Angular, Vanilla JS, WordPress, etc.
 
-[[info]]
-|:link: Hemos preparado un repositorio GIT con varias configuraciones dependiendo de tus necesidades – [<button>¡Haz clic!</button>](https://github.com/alesanchezr/webpack-tutorial)
+> :link: Hemos preparado un repositorio GIT con varias configuraciones dependiendo de tus necesidades – [<button>¡Haz clic!</button>](https://github.com/alesanchezr/webpack-tutorial)
 
 
 

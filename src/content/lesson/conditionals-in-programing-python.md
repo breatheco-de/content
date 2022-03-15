@@ -34,8 +34,7 @@ else:
   
 ![Condicionales](../../assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png)
 
-[[info]]
-|:link: Using `switch` is not available in python.
+> :link: Using `switch` is not available in python.
 
 ## What is a logical expression in Python?
 

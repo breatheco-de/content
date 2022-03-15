@@ -98,8 +98,7 @@ Al crear cualquier Diagrama de Clase de tu aplicación, debes tener en cuenta lo
 + Para cada clase, se debe especificar el número mínimo de propiedades (las propiedades innecesarias harán que el diagrama sea complicado).
 + Usa notas cuando sea necesario para describir algún aspecto del diagrama.  Al finalizar el dibujo, debe ser comprensible para el desarrollador / codificador.
 
-[[warning]]
-| :point_up:Es importante decir que no hay soluciones correctas o incorrectas para este tipo de problemas.  Debes permanecer confiado y atenerte a tu estrategia.  Sin embargo, asegúrate de tomarte el tiempo suficiente para diseñar una buena estrategia antes de agregar algún código – de lo contrario, será difícil cambiar las cosas durante el desarrollo de aplicaciones grandes (con muchas clases).
+> :point_up: Es importante decir que no hay soluciones correctas o incorrectas para este tipo de problemas.  Debes permanecer confiado y atenerte a tu estrategia.  Sin embargo, asegúrate de tomarte el tiempo suficiente para diseñar una buena estrategia antes de agregar algún código – de lo contrario, será difícil cambiar las cosas durante el desarrollo de aplicaciones grandes (con muchas clases).
 
 ### Construyendo un sitio web de concesionarios de autos
 
@@ -157,8 +156,7 @@ Las propiedades se declaran al comienzo de cada clase (globalmente dentro de los
 
 Todas las propiedades de clase tienen una visibilidad pública por defecto; puedes cambiar su visibilidad a privada si te parece mejor:*
 
-[[warning]]
-| :point_up:*JavaScript y Python no tienen propiedades privadas o públicas – todos son públicas por defecto.  Es una buena práctica usar el símbolo de guión bajo para simular el mismo comportamiento.
+> :point_up: *JavaScript y Python no tienen propiedades privadas o públicas – todos son públicas por defecto.  Es una buena práctica usar el símbolo de guión bajo para simular el mismo comportamiento.
 
 ***
 
@@ -206,8 +204,7 @@ Quizas puedas sentir que no tiene sentido usar "getters" y "setters" para cada p
 
 <div align="right"><small><a href="https://repl.it/G1cx/0?lite=true">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
 
-[[warning]]
-| :point_up:Algunos lenguajes, como PHP, tienen sus propias funciones mágicas __get y __set para implementar getters y setters.  Sin embargo, esto no es una buena idea debido a problemas de rendimiento.  Es una mejor idea crear tus propias funciones "get/set" de acuerdo con las necesidades de tu proyecto.  [Aquí está el razonamiento detrás de esto.](https://stackoverflow.com/questions/6184337/best-practice-php-magic-methods-set-and-get)
+> :point_up: Algunos lenguajes, como PHP, tienen sus propias funciones mágicas __get y __set para implementar getters y setters.  Sin embargo, esto no es una buena idea debido a problemas de rendimiento.  Es una mejor idea crear tus propias funciones "get/set" de acuerdo con las necesidades de tu proyecto.  [Aquí está el razonamiento detrás de esto.](https://stackoverflow.com/questions/6184337/best-practice-php-magic-methods-set-and-get)
 
 
 

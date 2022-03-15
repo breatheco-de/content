@@ -33,8 +33,7 @@ SELECT username FROM user WHERE email='info@breatheco.de'
 
 En este ejemplo, solicitamos a la base de datos todos los usuarios con el correo electrónico igual a "info@breatheco.de"
 
-[[warning]]
-| :point_up: Si deseas ganarte el respeto de un desarrollador, necesitas sentirte cómodo con SQL.  Lo usarás MUCHO cuando trabajes con datos.
+> :point_up:  Si deseas ganarte el respeto de un desarrollador, necesitas sentirte cómodo con SQL.  Lo usarás MUCHO cuando trabajes con datos.
 
 ## Definiendo tu Base de Datos 
 ***
@@ -298,8 +297,7 @@ La sintaxis para SET TRANSACTION es la siguiente:
 SET TRANSACTION [ READ WRITE | READ ONLY ];
 ```
 
-[[info]]
-|:link:https://www.tutorialspoint.com/sql/sql-syntax.html
+> :link:https://www.tutorialspoint.com/sql/sql-syntax.html
 
 
 

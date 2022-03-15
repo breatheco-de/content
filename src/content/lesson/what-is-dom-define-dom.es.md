@@ -151,8 +151,7 @@ document.getElementsByTagName("div")[0].innerHTML = "abc";
 // innerHTML puede usarse para insertar contenido de texto o HTML, esto crea una lista dentro de un elemento div
 ```
 
-[[warning]]
-| :point_up: Puedes encontrar 2 propiedades más en internet: nodeValue y textContent, pero en realidad no son muy utilizadas y tienen una funcionalidad más limitada.
+> :point_up:  Puedes encontrar 2 propiedades más en internet: nodeValue y textContent, pero en realidad no son muy utilizadas y tienen una funcionalidad más limitada.
 
 ## Añadiendo Elementos al Documento
 ***
@@ -200,8 +199,7 @@ while (element.firstChild) {
 ```
 
 
-[[warning]]
-| :point_up:Esta es la única función soportada por todos los navegadores; no uses .remove () si te importa Explorer.
+> :point_up: Esta es la única función soportada por todos los navegadores; no uses .remove () si te importa Explorer.
 
 ## Cambiando los Atributos
 ***

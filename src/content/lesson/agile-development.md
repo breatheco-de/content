@@ -14,8 +14,7 @@ status: "published"
 
 Junior developers understand the basic tricks of coding (for, while, if..else, function, variables, etc.).  But Senior developers can see the big picture and make an application from start to finish.  This course is an attempt at making you see the big picture and start building very professional apps right away!
 
-[[info]]
-| :point_up:If you are still not comfortable with looping, please talk to your instructor to take action right away.
+> :point_up:If you are still not comfortable with looping, please talk to your instructor to take action right away.
 
 ## Big Applications are made in Small Increments
 ***
@@ -45,8 +44,7 @@ Erase from your mind any website development workflow that you’ve learned on y
 + Some of them are able to work 100% offline (without internet).
 
 
-[[info]]
-| :point_up:Actually, a web application can be relatively easily exported into a mobile, table or desktop application.
+> :point_up:Actually, a web application can be relatively easily exported into a mobile, table or desktop application.
 
 ## Our Professional Development Workflow
 ***

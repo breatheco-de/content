@@ -67,11 +67,9 @@ return <h1 id="name"> {person.name == "John" ? "John" : "Tom" } </h1>; //works i
 ```
 
 
-[[info]]
-| :point_up: Familiarize yourself with ternary conditional operations :link:[HERE](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+> :point_up: Familiarize yourself with ternary conditional operations :link:[HERE](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
-[[info]]
-| :point_up: Review the differences between expressions and statements :link:[HERE](https://medium.com/launch-school/javascript-expressions-and-statements-4d32ac9c0e74)
+> :point_up: Review the differences between expressions and statements :link:[HERE](https://medium.com/launch-school/javascript-expressions-and-statements-4d32ac9c0e74)
 
 
 ## Everything Is Now a Component
@@ -121,8 +119,7 @@ function MyCard(){
 
 ```
 
-[[info]]
-| :point_up: Each component in React needs to have a render method that returns a block of HTML code
+> :point_up: Each component in React needs to have a render method that returns a block of HTML code
 
 
 Each component can be rendered by calling its `<tag>` which looks just like the HTML tags but always starting with a capital letter.  The difference is that now the name of the `<tag>` is the name of the React component (*e.g. <MyCard />*) that **you** have created, and using the tag gives you access to the look and behavior that you have programmed in your own component.  
@@ -173,8 +170,7 @@ export class MyCard extends React.Component{
     }
 }
 ```
-[[warning]]
-| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+> :point_up:  This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
 
 
 
@@ -261,8 +257,7 @@ export function EntireWebsiteLayout (){
 //It is implied that the Home, AboutUs and ContactUs components have already been defined.
 ```
 
-[[warning]]
-| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+> :point_up:  This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
 
 Those components which serve to hold the layout of each of your web pages, and are not re-used for anything else is what we will call "Views", and the typical components that we can re-use multiple times with different input (like a card or a button component) we will call "Components" in the organization of our application's folders.
 
@@ -324,9 +319,7 @@ Every component works like a mini-application.  You are able to control and defi
 
 ![learn react js tutorial](../../assets/images/245ba798-e840-42d8-8391-7388159ccfeb.png)
 
-[[info]]
-|:link:[Here you will find](https://reactjs.org/docs/react-component.html#the-component-lifecycle) a more detailed explanation of each available life-cycle method.
+> :link:[Here you will find](https://reactjs.org/docs/react-component.html#the-component-lifecycle) a more detailed explanation of each available life-cycle method.
 
-[[info]]
-|:tv:[Here is an interactive chart](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+> :tv:[Here is an interactive chart](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 

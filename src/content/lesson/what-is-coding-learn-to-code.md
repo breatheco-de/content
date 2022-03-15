@@ -29,8 +29,7 @@ Computers don’t need visual interfaces, humans do.  But now you are becoming a
 
 
 
-[[warning]]
-| :point_up:What happened here?<br>When you pressed "run" the algorithm started executing, and the only action it performed was to print the sentence: "Hello, human… what are your orders for today?" 
+> :point_up: What happened here?<br>When you pressed "run" the algorithm started executing, and the only action it performed was to print the sentence: "Hello, human… what are your orders for today?" 
 
 ## The Runtime 
 ***

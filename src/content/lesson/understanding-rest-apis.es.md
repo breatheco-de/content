@@ -20,8 +20,7 @@ Una API es el intermediario de la mayoría de las aplicaciones modernas. API sig
 |:-----------------:|:-----------------:|:---------------:|
 Si tienes un teléfono inteligente, estás familiarizado con las aplicaciones (herramientas, juegos, redes sociales y otro softwares que usamos todos los días).    |Programar es la forma en que los ingenieros crean todo el software que tanto facilitan nuestra vida.   |Una interfaz es un límite común compartido por dos aplicaciones o programas que permiten que ambos se comuniquen entre sí.
 
-[[info]]
-| :point_up: Esencialmente, una API es una forma para que los programadores se comuniquen con una aplicación en particular.
+> :point_up: Esencialmente, una API es una forma para que los programadores se comuniquen con una aplicación en particular.
 
 ### Esta es la API para usar un teléfono:
 

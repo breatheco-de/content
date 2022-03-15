@@ -69,11 +69,9 @@ return <h1 id="name"> {person.name == "John" ? "John" : "Tom" } </h1>; //funcion
 ```
 
 
-[[info]]
-| :point_up: Familiarizate con las operaciones condicionales ternarias :link:[AQUÏ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+> :point_up: Familiarizate con las operaciones condicionales ternarias :link:[AQUÏ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
-[[info]]
-| :point_up: Revisa las diferencias entre expresiones y declaraciones :link:[AQUÏ](https://medium.com/launch-school/javascript-expressions-and-statements-4d32ac9c0e74)
+> :point_up: Revisa las diferencias entre expresiones y declaraciones :link:[AQUÏ](https://medium.com/launch-school/javascript-expressions-and-statements-4d32ac9c0e74)
 
 
 <br>
@@ -125,8 +123,7 @@ function MyCard(){
 
 ```
 
-[[info]]
-| 👆 Cada componente en React debe tener un método de renderizado que devuelva un bloque de código HTML
+> 👆 Cada componente en React debe tener un método de renderizado que devuelva un bloque de código HTML
 
 
 Cada componente se puede renderizar llamando a su `<tag>`, que se parece a las etiquetas HTML pero siempre comienza con una letra mayúscula. La diferencia es que ahora el nombre de la `<tag>` es el nombre del componente React (*p. ej., <MyCard />*) que **tú** ha creado, y usar la tag te da acceso a la apariencia y comportamiento que has programado en tu propio componente.
@@ -176,8 +173,7 @@ export class MyCard extends React.Component{
     }
 }
 ```
-[[warning]]
-| ☝️ Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+> :point_up:  Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
 
 ## El componente PRINCIPAL 
 ***
@@ -262,8 +258,7 @@ export function EntireWebsiteLayout (){
 //Está implícito que los componentes Home, AboutUs y ContactUs ya han sido definidos
 ```
 
-[[warning]]
-| ☝️ Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+> :point_up:  Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
 
 Esos componentes que sirven para sostener el layout o diseño de tus páginas web, no se utilizarán para nada más es lo que llamamos "views o vistas", y los típicos componentes que podemos reutilizar muchas veces con diferente input ( como componente button o card) les llamaremos "components o componentes" dentro de las carpetas de nuestra aplicación.
 
@@ -297,8 +292,7 @@ Cada clase debe tener una función llamada **render.** Esto devolverá el códig
 
 Cada componente viene con un objeto global (compartido solo dentro del mismo Componente) que tiene el único propósito de almacenar los datos necesarios para representarlo. Por ejemplo, digamos que estoy desarrollando un componente de reloj que tiene que imprimir la hora actual cada segundo. Necesitaría la hora actual en el estado del componente ... el código se verá algo así:
 
-[[info]]
-|  👆 La siguiente demostración actualiza la hora actual en cada segundo:
+>  👆 La siguiente demostración actualiza la hora actual en cada segundo:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/r80q431L/10/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/r80q431L/10/embedded/js,html,result/">Click to open demo in a new window</a></small></div>
@@ -333,8 +327,6 @@ Cada componente funciona como una mini aplicación. Puedes controlar y definir e
 
 ![tutorial react js](../../assets/images/245ba798-e840-42d8-8391-7388159ccfeb.png)
 
-[[info]]
-|🔗 [Aquí encontrarás](https://reactjs.org/docs/react-component.html#the-component-lifecycle) una explicación más detallada de cada método de ciclo de vida disponible.
+> 🔗 [Aquí encontrarás](https://reactjs.org/docs/react-component.html#the-component-lifecycle) una explicación más detallada de cada método de ciclo de vida disponible.
 
-[[info]]
-|📺 [Y aqui tienes un diagrama interactivo que lo explica](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+> 📺 [Y aqui tienes un diagrama interactivo que lo explica](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)

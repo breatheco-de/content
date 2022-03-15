@@ -50,8 +50,7 @@ Además del contenido del documento y del content-type, el servidor también agr
 |5xx Server Error     |500 Error Interno del Servidor, 503 Servicio No Disponible    |
 
 
-[[info]]
-|:link: Aquí puedes encontrar información más detallada sobre [Códigos de Respuesta del Servidor.](https://www.restapitutorial.com/httpstatuscodes.html)
+> :link: Aquí puedes encontrar información más detallada sobre [Códigos de Respuesta del Servidor.](https://www.restapitutorial.com/httpstatuscodes.html)
 
 ### El Rol del Lenguaje Back-End
 ***

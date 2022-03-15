@@ -50,8 +50,7 @@ In addition to the document content and the content-type, the server also append
 |5xx Server Error     |500 Internal Server Error, 503 Service Unavailable    |
 
 
-[[info]]
-|:link: Here you can find more detailed information about [server response codes.](https://www.restapitutorial.com/httpstatuscodes.html)
+> :link: Here you can find more detailed information about [server response codes.](https://www.restapitutorial.com/httpstatuscodes.html)
 
 ### The Role of the Back-End Language
 ***

@@ -9,8 +9,7 @@ status: "published"
 
 ---
 
-[[info]]
-| :point_up: Esta lección es para usuarios de WebPack y [módulos ECMAScript (ESM).;](https://nodejs.org/api/esm.html) hay otra forma de trabajar con módulos usando la [sintaxis de CommonJS] (https://requirejs.org/docs/commonjs.html) que no cubriremos.
+> :point_up: Esta lección es para usuarios de WebPack y [módulos ECMAScript (ESM).;](https://nodejs.org/api/esm.html) hay otra forma de trabajar con módulos usando la [sintaxis de CommonJS] (https://requirejs.org/docs/commonjs.html) que no cubriremos.
 
 Todo nuestro código JS no puede estar en el mismo archivo; Eso hará que sea difícil de leer y casi imposible de mantener.
 

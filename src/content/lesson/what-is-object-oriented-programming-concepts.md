@@ -97,8 +97,7 @@ When building any Class Diagram of your application, you should take these follo
 + For each class, the minimum number of properties should be specified (unnecessary properties will make the diagram complicated).
 + Use notes when ever required to describe some aspect of the diagram.  At the completion of the drawing, it should be understandable to the developer/coder.
 
-[[warning]]
-| :point_up:It is important to say that there are no right or wrong solutions for these kinds of problems.  You must remain confident and stick to your strategy.  However, make sure you take enough time to design a good one before adding some code – otherwise it will become difficult to change things up during the development of big applications (with lots of classes) .
+> :point_up: It is important to say that there are no right or wrong solutions for these kinds of problems.  You must remain confident and stick to your strategy.  However, make sure you take enough time to design a good one before adding some code – otherwise it will become difficult to change things up during the development of big applications (with lots of classes) .
 
 ### Building a Car Dealer Website
 
@@ -156,8 +155,7 @@ The properties are declared at the beginning of each class (globally within the 
 
 All class properties have a Public visibility by default; you can change their visibility to private if you think it best:*
 
-[[warning]]
-| :point_up:*JavaScript and Python don’t have private or public properties – they are all public by default.  It is in good practice to use the underscore symbol to simulate the same behavior.
+> :point_up: *JavaScript and Python don’t have private or public properties – they are all public by default.  It is in good practice to use the underscore symbol to simulate the same behavior.
 
 ***
 
@@ -205,8 +203,7 @@ Perhaps you may feel that it is pointless to use "getters" and "setters" for eve
 
 <div align="right"><small><a href="https://repl.it/G1cx/0?lite=true">Click here to open demo in a new window</a></small></div>
 
-[[warning]]
-| :point_up:Some languages, like PHP, have their own __get and __set magic functions to implement getters and setters.  However, this is not a good idea because of performance issues.  It is a better idea to create your own "get/set" functions according to your project needs.  [Here is the reasoning behind it.](https://stackoverflow.com/questions/6184337/best-practice-php-magic-methods-set-and-get)
+> :point_up: Some languages, like PHP, have their own __get and __set magic functions to implement getters and setters.  However, this is not a good idea because of performance issues.  It is a better idea to create your own "get/set" functions according to your project needs.  [Here is the reasoning behind it.](https://stackoverflow.com/questions/6184337/best-practice-php-magic-methods-set-and-get)
 
 
 

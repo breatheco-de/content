@@ -205,8 +205,7 @@ print(namesArray)
 ```
 
 
-[[info]]
-| :tv: Here is a weird but amazing video explaining lambda functions: https://www.youtube.com/watch?v=25ovCm9jKfA
+> :tv: Here is a weird but amazing video explaining lambda functions: https://www.youtube.com/watch?v=25ovCm9jKfA
 
 <br>
 <br>
@@ -290,8 +289,7 @@ myArray.sort(key=lambda person: person['name'])
 ```
 
 
-[[info]]
-| :tv: Let’s summon Socratica again to understand sorting in Python: https://www.youtube.com/watch?v=QtwhlHP_tqc
+> :tv: Let’s summon Socratica again to understand sorting in Python: https://www.youtube.com/watch?v=QtwhlHP_tqc
 
 ### The Switch Statement
 
@@ -301,8 +299,7 @@ myArray.sort(key=lambda person: person['name'])
 
 Python brings a new kind of data-type called a "Tuple". Think about it like a super slim and fast performance List.  But, like always, to increase performance we need to decrease functionality.
 
-[[info]]
-| :tv: This is a mandatory video explaining the difference between them: https://www.youtube.com/watch?v=NI26dqhs2Rk
+> :tv: This is a mandatory video explaining the difference between them: https://www.youtube.com/watch?v=NI26dqhs2Rk
 
 ### Objects
 
@@ -349,8 +346,7 @@ obj.lastname = "Perez"
 ```
 
 
-[[info]]
-| :tv: Socratica, our great evolved specimen & friend, explains Objects in a great way: https://www.youtube.com/watch?v=apACNr7DC_s
+> :tv: Socratica, our great evolved specimen & friend, explains Objects in a great way: https://www.youtube.com/watch?v=apACNr7DC_s
 
 
 

@@ -10,12 +10,10 @@ status: "published"
 
 ---
 
-[[demo]]
-| :point_up: We have also prepared an interactive tutorial about GIT [click here to take it!](https://4geeksacademy.github.io/git-interactive-tutorial/)
+> :point_up: We have also prepared an interactive tutorial about GIT [click here to take it!](https://4geeksacademy.github.io/git-interactive-tutorial/)
 
 
-[[demo]]
-| 📹 This is [an amazing video explaining git and github](https://www.youtube.com/watch?v=BCQHnlnPusY)
+> 📹 This is [an amazing video explaining git and github](https://www.youtube.com/watch?v=BCQHnlnPusY)
 
 
 ## GIT is a MUST!
@@ -92,8 +90,7 @@ Example: Let’s say that you are starting to develop the "Login" feature/functi
 
 ![how to use git](../../assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif)
 
-[[info]]
-| :point_up:**Note on Terminology:** The terms "branch" and "head" are nearly synonymous in GIT.  Every branch is represented by one head, and every head represents one branch.  Sometimes, "branch" will be used to refer to a head and the entire history of commits preceding that head, whereas "head" will be used to refer exclusively to a single commit object (the most recent commit in the branch).
+> :point_up:**Note on Terminology:** The terms "branch" and "head" are nearly synonymous in GIT.  Every branch is represented by one head, and every head represents one branch.  Sometimes, "branch" will be used to refer to a head and the entire history of commits preceding that head, whereas "head" will be used to refer exclusively to a single commit object (the most recent commit in the branch).
 
  ## Starting a New Repo** `git init`
  ***
@@ -187,8 +184,7 @@ This command does the following:
 + Points *HEAD* to the commit object specified by *\[head-name\]*.
 + Rewrites all the files in the directory to match the files stored in the new *HEAD* commit.
   
-[[info]]
-| :point_up:**Important note:**  If there are any uncommitted changes when you run git checkout, GIT will behave very strangely.  The strangeness is predictable and sometimes useful, but it is best to avoid it.  All you need to do, of course, is commit all the new changes before checking out the new head.
+> :point_up:**Important note:**  If there are any uncommitted changes when you run git checkout, GIT will behave very strangely.  The strangeness is predictable and sometimes useful, but it is best to avoid it.  All you need to do, of course, is commit all the new changes before checking out the new head.
 
 After checking out the *\[new-head\]* head, you will fix the headers.  Now you can add and commit the changes as above.  The resulting repository looks like this:
 
@@ -214,8 +210,7 @@ These commands perform the following operations.  Let the current head be called
 + If there were no conflicts, create a new commit with two parents: *current* and *merge.*  Set current (and *HEAD*) to point to this new commit, and update the working files for the project accordingly.
 + If there was a conflict, insert appropriate conflict markers and inform the user.  No commit is created.
 
-[[warning]]
-| :point_up:GIT can get very confused if there are uncommitted changes in the files when you ask it to perform a merge.  So, make sure to commit whatever changes you have made so far before you merge.
+> :point_up: GIT can get very confused if there are uncommitted changes in the files when you ask it to perform a merge.  So, make sure to commit whatever changes you have made so far before you merge.
 
 ## Resolving Conflicts
 
@@ -326,8 +321,7 @@ A branch that **tracks** a remote branch retains an internal reference to the re
 
 The important thing to note is that you now have a complete copy of your friend’s entire repository.  When you branch, commit, merge, or otherwise operate on the repository, you operate only on your own repository.  GIT only interacts with your friend’s repository when you specifically ask it to do so.
 
-[[info]]
-|:link: Say your friend’s repository looks like this:<br>Here is a list of other great resources to learn GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br>You should especially try these two:<br>• https://try.github.io<br>• http://learngitbranching.js.org/ .
+> :link: Say your friend’s repository looks like this:<br>Here is a list of other great resources to learn GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br>You should especially try these two:<br>• https://try.github.io<br>• http://learngitbranching.js.org/ .
   
   
 

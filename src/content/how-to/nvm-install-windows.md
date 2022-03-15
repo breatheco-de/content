@@ -25,7 +25,7 @@ In order to install Node Version Manager tool in Windows environment we need to 
   3. **Installation Wizard**
  When the installation wizard opens, hit the ***next*** button a bunch of times, and at the end you will see an ***install*** button that you will hit too. After that, just wait for the progress bar to ***finish***. 
  
-[[warning]] | ?? Remember not to touch any default configuration. Always keep hitting next!!!
+> :point_up: ?? Remember not to touch any default configuration. Always keep hitting next!!!
 ***
   4. **Command Prompt**
 Once it is installed, open Windows Command Prompt. If you have any issues finding the command line, just type ***CMD*** in Windows search bar at the bottom-left corner of your desktop. 

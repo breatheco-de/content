@@ -35,8 +35,7 @@ You could tell a <h1> to look just like a <h2> without the user
 realizing that, at first glance, they are different.
 ```
 
-[[demo]]
-| :point_up:To understand the potential of CSS, [click here to see a live demo!](http://assets.breatheco.de/live-demos/css/bootstrap/)
+> :point_up:To understand the potential of CSS, [click here to see a live demo!](http://assets.breatheco.de/live-demos/css/bootstrap/)
 
 Can you imagine the potential?  You can make almost everything look different!
 
@@ -54,8 +53,7 @@ Let’s review those 2 tags in more detail:
 |Link       |link          |The purpose is to link the page with CSS stylesheets.  To use it, you must specify three attributes within the tag: `rel="stylesheet" type="text/css"` and finally `href="with document route css"`<br>like so: `<link rel="stylesheet" type="text/css" href="theme.css">`   |
 |Style   |style   |If we do not want or can’t import a CSS style sheet, we have the alternative to define styles in the HEAD of the HTML document.  We simply define the style tag and proceed to write the styles we want for the tags.<br>`<style>`<br>`h1 { color:red; }`<br>`p { color:blue; }`<br>`</style>` |
 
-[[info]]
-| :point_up:Just like it happens with HTML docs (ending with .html) CSS docs (style sheets) end with extension `.css`.
+> :point_up:Just like it happens with HTML docs (ending with .html) CSS docs (style sheets) end with extension `.css`.
 
 ## CSS Syntax
 ***
@@ -68,8 +66,7 @@ A CSS style sheet is a huge list of style definitions for each HTML element.  Fi
 
 Watch the previous animation for a better understanding.
 
-[[info]]
-| :point_up:Spaces are ignored, but you need to use them to make your code easy to read.
+> :point_up:Spaces are ignored, but you need to use them to make your code easy to read.
 
 The next example is a style sheet defining 3 different groups of styles (selector1, selector2, selector3); and each of these groups has different rules applied like: color, font size and background color.
 

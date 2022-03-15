@@ -9,8 +9,7 @@ status: "published"
 
 ---
 
-[[warning]]
-| :point_up: Los usuarios de Windows no tienen la misma línea de comando. Por favor ve a [Cloud 9](https://aws.amazon.com/es/cloud9/?origin=c9io) y trabaja desde allí.
+> :point_up:  Los usuarios de Windows no tienen la misma línea de comando. Por favor ve a [Cloud 9](https://aws.amazon.com/es/cloud9/?origin=c9io) y trabaja desde allí.
 
 ## ¿Por qué los Desarrolladores aman la Línea de Comando?
 ***
@@ -140,8 +139,7 @@ rmdir path/of/targetdirectory/mydirectory
 ```
 
 
-[[warning]]
-| :point_up:Sólo eliminará los directorios vacíos, para vaciar todos los archivos del directorio usa el comando rm. Pro-tip: puedes usar `rm`. para borrar todos los archivos dentro de un directorio simultáneamente; utilízalo con precaución.
+> :point_up: Sólo eliminará los directorios vacíos, para vaciar todos los archivos del directorio usa el comando rm. Pro-tip: puedes usar `rm`. para borrar todos los archivos dentro de un directorio simultáneamente; utilízalo con precaución.
 
 ### El comando  `cp`
 
@@ -203,8 +201,7 @@ En la parte inferior, verás los comandos más utilizados para usar nano, tales 
 
 ![the command line the terminal](../../assets/images/6128e9f7-b460-4b10-80e4-34057b7d4df9.png)
 
-[[demo]]
-| :point_up:Este sitio web tiene un montón de pequeños mini desafíos para ayudarte a practicar la línea de comandos: <br>https://cmdchallenge.com/
+> :point_up:Este sitio web tiene un montón de pequeños mini desafíos para ayudarte a practicar la línea de comandos: <br>https://cmdchallenge.com/
 
 
 

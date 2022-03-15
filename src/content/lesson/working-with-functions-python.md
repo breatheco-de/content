@@ -48,8 +48,7 @@ result2 = multiply(5,2)
 print(str(result2)) # Output: 10
 ```
 
-[[info]]
-| :tv: Click here to [watch a short video explaining functions](https://www.youtube.com/watch?v=NE97ylAnrz4) (9min)
+> :tv: Click here to [watch a short video explaining functions](https://www.youtube.com/watch?v=NE97ylAnrz4) (9min)
 
 ### Second example about functions
 
@@ -112,8 +111,7 @@ print(str(multiply(34, 2)))
 ```
 
 
-[[warning]]
-| :point_up: Any variables that you declare inside the function will not be available outside of it.
+> :point_up:  Any variables that you declare inside the function will not be available outside of it.
 
 ```python
 def multiply(a, b):
@@ -126,8 +124,7 @@ print(myVariable)
 ```
 
 
-[[warning]]
-| :point_up: It is very important to remember that once you use the `return` statement the function will stop executing, if there is any code after that statement it will never be executed.
+> :point_up:  It is very important to remember that once you use the `return` statement the function will stop executing, if there is any code after that statement it will never be executed.
 
 ## Lambda functions (one line functions) in Python
 
@@ -182,8 +179,7 @@ secondSum = sum(1,1)
 print(multiply(firstSum, secondSum))
 ```
 
-[[demo]]
-| :point_up: [View this example live at replit](https://repl.it/@4GeeksAcademy/Nested-Function-Calling-Python)
+> :point_up: [View this example live at replit](https://repl.it/@4GeeksAcademy/Nested-Function-Calling-Python)
 
 ## Let’s see an Example:
 

@@ -14,8 +14,7 @@ status: "published"
 
 Los programadores junior entienden los trucos básicos de programar (for, while, if..else, function, variables, etc.).  Pero los programadores Senior pueden ver el panorama general y crear una aplicación de principio a fin.  Este curso es un intento de hacerte ver el panorama general y comenzar a crear aplicaciones muy profesionales de inmediato.
 
-[[info]]
-| :point_up: Si aún no te sientes cómodo con los bucles, habla con tu profesor para hacer algo al respecto de inmediato.
+> :point_up: Si aún no te sientes cómodo con los bucles, habla con tu profesor para hacer algo al respecto de inmediato.
 
 ## Las grandes aplicaciones se hacen con pequeños incrementos.
 ***
@@ -45,8 +44,7 @@ Borra de tu mente el flujo de trabajo de desarrollo de cualquier sitio web que h
 + Algunos de ellas pueden trabajar 100% sin conexión (sin internet).
 
 
-[[info]]
-| :point_up: En realidad, una aplicación web se puede exportar con relativa facilidad a una aplicación móvil, tablet o desktop.
+> :point_up: En realidad, una aplicación web se puede exportar con relativa facilidad a una aplicación móvil, tablet o desktop.
 
 ## Nuestro flujo de trabajo desarrollado profesionalmente
 ***

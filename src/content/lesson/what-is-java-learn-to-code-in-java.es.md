@@ -479,8 +479,7 @@ switch (expresion) {
       bloque_por_defecto;
 }
 ```
-[[info]]
-|Usa `switch` en lugar de` if` cuando: <br> <br> • Estás comparando varias condiciones posibles de una expresión y la expresión en sí no es trivial. • Tienes múltiples valores que pueden requerir el mismo código . <br> • Tienes algunos valores que requerirán esencialmente toda la ejecución de otro valor, más solo unas pocas declaraciones. <br> <br> Utiliza `if` en lugar de` switch` cuando: <br> <br> • Deseas probar la veracidad de una expresión. <br> • Solo tienes una única prueba afirmativa. <br> • Necesitas evaluar diferentes expresiones para cada rama.
+> Usa `switch` en lugar de` if` cuando: <br> <br> • Estás comparando varias condiciones posibles de una expresión y la expresión en sí no es trivial. • Tienes múltiples valores que pueden requerir el mismo código . <br> • Tienes algunos valores que requerirán esencialmente toda la ejecución de otro valor, más solo unas pocas declaraciones. <br> <br> Utiliza `if` en lugar de` switch` cuando: <br> <br> • Deseas probar la veracidad de una expresión. <br> • Solo tienes una única prueba afirmativa. <br> • Necesitas evaluar diferentes expresiones para cada rama.
 
 
 + **Sentencias de Bucle**

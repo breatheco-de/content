@@ -191,11 +191,9 @@ We can place the quantifier after the character patterns that we want to repeat.
 <div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVCbk4lNURvdiUyOGVtYmVyJTI5JTNG&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLiBUaGUgYmVzdCBkYXRlIHRvIGdyb3cgb2xpdmVzIGlzIG9uIE5vdmVtYmVyIHRoZSAyNHRoLCBub3Qgb24gTm92ZW1iZXIgdGhlIDNyZC4%3D">Click to open demo in a new window</a></small></div>
 
 
-[[demo]]
-| :point_up:Here are two amazing tools to build, & test Regular Expressions.https://regex101.com/ and http://regexr.com/
+> :point_up:Here are two amazing tools to build, & test Regular Expressions.https://regex101.com/ and http://regexr.com/
 
-[[demo]]
-| :point_up:Here is an interactive tutorial to learn regular expressions:https://regexone.com/
+> :point_up:Here is an interactive tutorial to learn regular expressions:https://regexone.com/
 
 
 

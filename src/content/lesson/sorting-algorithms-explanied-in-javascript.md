@@ -43,11 +43,9 @@ const bubbleSort = (arr) => {
 };
 ```
 
-[[info]]
-| :tv: In this link, you will find [a relly good 2 min video explanation](https://www.youtube.com/watch?v=xli_FI7CuzA).
+> :tv: In this link, you will find [a relly good 2 min video explanation](https://www.youtube.com/watch?v=xli_FI7CuzA).
 
-[[info]]
-| :tv: Here is a really [weird group of bulgarian's](https://www.youtube.com/watch?v=lyZQPjUT5B4&t=1s) dancing the bubble-sort algorithm.
+> :tv: Here is a really [weird group of bulgarian's](https://www.youtube.com/watch?v=lyZQPjUT5B4&t=1s) dancing the bubble-sort algorithm.
 
 ### Selection Sorting
 
@@ -72,8 +70,7 @@ const selectSort = (arr) => {
 	return arr;
 };
 ```
-[[info]]
-| :tv: In this link, you will find [a relly good 3 min video explanation](https://www.youtube.com/watch?v=g-PGLbMth_g) about the selection sort algorithm.
+> :tv: In this link, you will find [a relly good 3 min video explanation](https://www.youtube.com/watch?v=g-PGLbMth_g) about the selection sort algorithm.
 
 ### Cocktail Shaker Sorting
 
@@ -103,8 +100,7 @@ const shakerSort = (arr) => {
   return arr;
 }
 ```
-[[info]]
-| :tv: In this link, you will find [a relly good 3 min video explanation](https://www.youtube.com/watch?v=Xmx_6YRBaq8&t=18s) about the Cocktail Shaker Sort algorithm.
+> :tv: In this link, you will find [a relly good 3 min video explanation](https://www.youtube.com/watch?v=Xmx_6YRBaq8&t=18s) about the Cocktail Shaker Sort algorithm.
 
 ### Insertion Sort
 
@@ -127,8 +123,7 @@ const insertionSort = (arr) => {
 };
 ```
 
-[[info]]
-| :tv:** In this link, you will find [a relly good 3 min video explanation](https://www.youtube.com/watch?v=JU767SDMDvA) about the insertion sort algorithm.
+> :tv:** In this link, you will find [a relly good 3 min video explanation](https://www.youtube.com/watch?v=JU767SDMDvA) about the insertion sort algorithm.
 
 ### Merge Sort
 
@@ -136,8 +131,7 @@ Merge sort is a more difficult algorithm because it uses [recursivity](https://w
 
 ![Merge sort](../../assets/images/e8781e98-0f8c-4035-8017-33ca217eb39c.gif)
 
-[[info]]
-| :tv: In this link, you will find [a relly good 4 min video explanation](https://www.youtube.com/watch?v=JU767SDMDvA) about the merge sort algorithm.
+> :tv: In this link, you will find [a relly good 4 min video explanation](https://www.youtube.com/watch?v=JU767SDMDvA) about the merge sort algorithm.
 
 ### Quick Sort
 
@@ -159,8 +153,7 @@ The  `quickSort`  function invokes a recursive function,  `quickSortHelper`.  `q
 
 ![Quicksort Algorithm](../../assets/images/c60c4713-aa60-4fbc-9d97-f893b5947e7f.gif)
 
-[[info]]
-| :tv: In this link, you will find [a relly good 4 min video explanation](https://www.youtube.com/watch?v=Hoixgm4-P4M) about the Quick Sort algorithm.
+> :tv: In this link, you will find [a relly good 4 min video explanation](https://www.youtube.com/watch?v=Hoixgm4-P4M) about the Quick Sort algorithm.
 
 ## Aditional Resources
 

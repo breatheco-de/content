@@ -60,13 +60,11 @@ It’s very easy to decide how your website will render in different screen size
 |:---------|:--------|:----|
 |Means that this element should behave like a Bootstrap column.   |Means that I am specifying only for the devices with a "medium" sized screen.   |Specifies how many slots I want this column to take (remember you can take a max of 12 slots per row).   |
 
-[[info]]
-| :point_up:Bootstrap device sizes:   |Phones   |Big-phone/small-tablet   |Tablets   |Desktops   |Extra-large desktops   |
+> :point_up:Bootstrap device sizes:   |Phones   |Big-phone/small-tablet   |Tablets   |Desktops   |Extra-large desktops   |
 |:----------|:---------------|:-------------|:-----------|:------------|:---------|
 | &nbsp;           |Nothing    |sm       |md       |lg      |xl        |
 
-[[warning]]
-| :point_up:Note: if you don’t specify the screen size (ex. by using 'sm', 'md', or 'xl'), the website will be rendered for mobile phones by default.
+> :point_up: Note: if you don’t specify the screen size (ex. by using 'sm', 'md', or 'xl'), the website will be rendered for mobile phones by default.
 
 ## Defining Mobile, Tablet, and Desktop at the same time
 
@@ -128,8 +126,7 @@ Remember, Bootstrap is just a stylesheet.  That’s why it is very simple to inc
 
 The Bootstrap Javascript functionality requires the jQuery and Popper Javascript libraries to be included first.  You don’t need to know the details about this yet.  Just include the JS libraries using the script tag and later you will understand.
 
-[[info]]
-|:link: Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+> :link: Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
 ## Bootstrap 4 Components
 
@@ -152,8 +149,7 @@ Here is an example of how a NavBar may look on a website:
 
 ![bootstrap tutorial](../../assets/images/6351de1c-6d90-4502-8823-4b751981db9f.png)
 
-[[info]]
-| :link:[**Read more about the NavBar here**](https://getbootstrap.com/docs/4.0/components/navbar/)
+> :link:[**Read more about the NavBar here**](https://getbootstrap.com/docs/4.0/components/navbar/)
 
 ```html
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -197,8 +193,7 @@ Here is an example of how a "The Card" may look on a website:
 
 ![bootstrap 4](../../assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png)
 
-[[info]]
-| :link: [**Read more about the card here**](https://getbootstrap.com/docs/4.0/components/card/)
+> :link: [**Read more about the card here**](https://getbootstrap.com/docs/4.0/components/card/)
 
 ```html
 <div class="card" style="width: 20rem;">
@@ -221,8 +216,7 @@ Here is how a modal looks by default on Bootstrap.
 
 ![bootstrap 4](../../assets/images/6bcba673-a543-4bf1-a80b-083914b91bef.png)
 
-[[info]]
-| :link:[**Read more about modal here**](https://getbootstrap.com/docs/4.0/components/modal/)
+> :link:[**Read more about modal here**](https://getbootstrap.com/docs/4.0/components/modal/)
 
 ```html
 div class="modal" tabindex="-1" role="dialog">
@@ -247,8 +241,7 @@ div class="modal" tabindex="-1" role="dialog">
 ```
 
 
-[[warning]]
-| :point_up:Important! The Modal needs Javascript in order to work. Remember to include the three Javascript files that are needed in a typical Bootstrap Skeleton: jQuery, Popper and Bootstrap.js
+> :point_up: Important! The Modal needs Javascript in order to work. Remember to include the three Javascript files that are needed in a typical Bootstrap Skeleton: jQuery, Popper and Bootstrap.js
 
 ## What you really need to know about Bootstrap
 

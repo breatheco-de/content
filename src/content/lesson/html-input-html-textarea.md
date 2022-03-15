@@ -81,8 +81,7 @@ The two most important attributes that need to be set into the `<form>` tag are 
 |:----------------------|:-----------------------|
 |All form data is encoded into the URL.  This means that it will append all the information of the form to the end of the destination URL, for example: http://www.mydestinationurl.com?input_name1=value1&input_name2&value2….   |The data will be hidden from the end-user.  The URL will remain as it was defined in the "action" attribute and only a developer will be able to request the form information.   |
 
-[[warning]]
-| :point_up:If you are going to use the `python><input type="file">` the only method supported is POST.
+> :point_up: If you are going to use the `python><input type="file">` the only method supported is POST.
 
 
 

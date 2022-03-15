@@ -39,8 +39,7 @@ Cada array tiene los mismos conceptos básicos:
 
 ![qué es un array](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
 
-[[info]]
-| :point_up: Las posiciones de un array comienzan en **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
+> :point_up: Las posiciones de un array comienzan en **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
 
 ## ¿Cómo declarar un array?
 
@@ -53,8 +52,7 @@ var myArray = new Array(1,2,3,4,5); //¡No uses esto! Lea a continuación para s
 ```
 
 
-[[warning]]
-| :point_up: No declares los Arrays con la sintaxis `new Array ()` - no se comportará correctamente [haz clic aquí para conocer los detalles(https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
+> :point_up:  No declares los Arrays con la sintaxis `new Array ()` - no se comportará correctamente [haz clic aquí para conocer los detalles(https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
 
 ## Acceder a los elementos de un array
 
@@ -145,8 +143,7 @@ var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
 ```
 
 
-[[info]]
-| 🎥 [En el siguiente enlace](https://www.loom.com/share/bb0aa485cc334afbb8ff6ef1d9c6ac5b) puedes encontrar un video explicando las diferentes maneras de recorrer un arreglo
+> 🎥 [En el siguiente enlace](https://www.loom.com/share/bb0aa485cc334afbb8ff6ef1d9c6ac5b) puedes encontrar un video explicando las diferentes maneras de recorrer un arreglo
 
 ## For…in… 
 
@@ -183,8 +180,7 @@ Actualiza el array actual dejando todo menos la versión más pequeña que desea
 
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Slice-vs-Splice">Haz clic para abrir la demo en una ventana nueva</a></small></div>
 
-[[info]]
-| :point_up: Splice puede aceptar tantos parámetros opcionales como se quiera y estos sustituirán la parte del array que ha sido eliminada.  De esta forma el primer parámetro indica el índice desde el cual empieza a borrar, el segundo parámetro cuantos elementos borrarás y del tercero los elementos que se insertan a partir de la posición que se indica en el primer parámetro.
+> :point_up: Splice puede aceptar tantos parámetros opcionales como se quiera y estos sustituirán la parte del array que ha sido eliminada.  De esta forma el primer parámetro indica el índice desde el cual empieza a borrar, el segundo parámetro cuantos elementos borrarás y del tercero los elementos que se insertan a partir de la posición que se indica en el primer parámetro.
 
 Ejemplo:
 ```javascript

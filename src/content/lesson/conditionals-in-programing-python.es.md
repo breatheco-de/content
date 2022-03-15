@@ -35,8 +35,7 @@ else:
 ![Condicionales](../../assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png)
 
 
-[[info]]
-|:link: El uso de switch no esta disponible en python
+> :link: El uso de switch no esta disponible en python
 
 
 ## Primero veamos ¿qué es una expresión lógica en Python?

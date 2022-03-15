@@ -83,8 +83,7 @@ session_close();
 ```
 
 
-[[info]]
-| :point_up: Nota: session_start() no se puede llamar una vez que se ha iniciado una salida. Se mostrará una advertencia y es posible que la sesión se pierda. Si ves el error "No se puede enviar el limitador de caché de sesión", verifica que no haya una salida en el navegador. Un problema común es un espacio o pestaña no deseado en el tamaño exagerado de las etiquetas PHP.
+> :point_up: Nota: session_start() no se puede llamar una vez que se ha iniciado una salida. Se mostrará una advertencia y es posible que la sesión se pierda. Si ves el error "No se puede enviar el limitador de caché de sesión", verifica que no haya una salida en el navegador. Un problema común es un espacio o pestaña no deseado en el tamaño exagerado de las etiquetas PHP.
 
 ## Destruyendo la Sesión
 ***
@@ -132,8 +131,7 @@ $_SESSION["timeout"] = time();
 
 ```
 
-[[info]]
-| :point_up: El código garantiza que si no hay actividad durante más de 600 segundos (10 minutos), la solicitud se redirige a la página de cierre de sesión, lo que cerraría con éxito la sesión del usuario.
+> :point_up: El código garantiza que si no hay actividad durante más de 600 segundos (10 minutos), la solicitud se redirige a la página de cierre de sesión, lo que cerraría con éxito la sesión del usuario.
 
 ### Regenera la ID de sesión
 

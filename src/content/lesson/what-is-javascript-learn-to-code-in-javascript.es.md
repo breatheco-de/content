@@ -75,8 +75,7 @@ Como aprendimos anteriormente, usamos la palabra clave `var` para declarar una v
 
 ***Var***:  Su alcance está dentro de la función en la que se declara. Esto significa que la variable se mantendrá igual durante toda la función, incluso si hay más de un bloque de código en la función.
 
-[[info]]
-|:link: [Lee más sobre `*var*`, `let` y `const`](http://wesbos.com/let-vs-const/)
+> :link: [Lee más sobre `*var*`, `let` y `const`](http://wesbos.com/let-vs-const/)
 
 Los valores de las variables están sujetos a cambios en el tiempo. Para recuperar un valor variable, puede imprimir el valor en la pantalla en cualquier momento. Cada lenguaje de programación tiene sus propios métodos para imprimir; así es como lo haces en JavaScript:
 
@@ -223,8 +222,7 @@ Similar a if ... else ... pero un poco más organizado. Aquí especificarás tod
 
 <div align="right"><small><a href="https://repl.it/F2EK/5?lite=true">]Haz clic aquí para abrir el video en una nueva ventana</a></small></div>
 
-[[info]]
-|Usa `switch` en lugar de` if` cuando: <br> <br> • Estés comparando varias condiciones posibles de una expresión y la expresión en sí no es trivial. • Si tienes múltiples valores que pueden requerir el mismo código . <br> • Si tienes algunos valores que requerirán esencialmente toda la ejecución de otro valor, además de unas pocas declaraciones. <br> <br> Utiliza `if` en lugar de` switch` cuando: <br> <br> • Deseas probar la veracidad de una expresión. <br> • Solo tienes una única prueba afirmativa. <br> • Necesitas evaluar diferentes expresiones para cada rama.
+> Usa `switch` en lugar de` if` cuando: <br> <br> • Estés comparando varias condiciones posibles de una expresión y la expresión en sí no es trivial. • Si tienes múltiples valores que pueden requerir el mismo código . <br> • Si tienes algunos valores que requerirán esencialmente toda la ejecución de otro valor, además de unas pocas declaraciones. <br> <br> Utiliza `if` en lugar de` switch` cuando: <br> <br> • Deseas probar la veracidad de una expresión. <br> • Solo tienes una única prueba afirmativa. <br> • Necesitas evaluar diferentes expresiones para cada rama.
 
 
 ## While

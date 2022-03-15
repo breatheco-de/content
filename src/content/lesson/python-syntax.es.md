@@ -199,8 +199,7 @@ print(namesArray)
 ```
 
 
-[[info]]
-| :tv: Aquí hay un video extraño pero sorprendente que explica las funciones lambda: https://www.youtube.com/watch?v=25ovCm9jKfA
+> :tv: Aquí hay un video extraño pero sorprendente que explica las funciones lambda: https://www.youtube.com/watch?v=25ovCm9jKfA
 
 <br>
 <br>
@@ -280,8 +279,7 @@ myArray.sort(key=lambda person: person['name'])
 ```
 
 
-[[info]]
-| :tv: Llamemos a Socratica de nuevo para entender la clasificación en Python: https://www.youtube.com/watch?v=QtwhlHP_tqc
+> :tv: Llamemos a Socratica de nuevo para entender la clasificación en Python: https://www.youtube.com/watch?v=QtwhlHP_tqc
 
 ### La Declaración switch
 
@@ -291,8 +289,7 @@ myArray.sort(key=lambda person: person['name'])
 
 Python trae un nuevo tipo de tipo de datos llamado "Tupla". Piense en ello como una lista de rendimiento super delgado y rápido. Pero, como siempre, para aumentar el rendimiento necesitamos disminuir la funcionalidad.
 
-[[info]]
-| :tv: Este es un video obligatorio que explica la diferencia entre ellos: https://www.youtube.com/watch?v=NI26dqhs2Rk
+> :tv: Este es un video obligatorio que explica la diferencia entre ellos: https://www.youtube.com/watch?v=NI26dqhs2Rk
 
 ### Objetos
 
@@ -339,8 +336,7 @@ obj.lastname = "Perez"
 ```
 
 
-[[info]]
-| :tv: Socratica, nuestro gran espécimen y amigo evolucionado, explica Objetos de una manera excelente: https://www.youtube.com/watch?v=apACNr7DC_s
+> :tv: Socratica, nuestro gran espécimen y amigo evolucionado, explica Objetos de una manera excelente: https://www.youtube.com/watch?v=apACNr7DC_s
 
 
 

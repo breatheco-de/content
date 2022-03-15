@@ -9,8 +9,7 @@ status: "published"
 
 ---
 
-[[warning]]
-| :point_up:A partir del 1 de enero de 2017, 4Geeks ha decidido dejar de enseñar jQuery porque creemos que ya no es necesario para alguien que se convertirá en un desarrollador front-end. Sin embargo, estamos dejando las lecciones y los ejercicios aquí por si deseas aprenderlas por tu cuenta.
+> :point_up: A partir del 1 de enero de 2017, 4Geeks ha decidido dejar de enseñar jQuery porque creemos que ya no es necesario para alguien que se convertirá en un desarrollador front-end. Sin embargo, estamos dejando las lecciones y los ejercicios aquí por si deseas aprenderlas por tu cuenta.
 
  ## Aprende la biblioteca jQuery
 
@@ -140,8 +139,7 @@ functionName(settingsObj);
   //Se llama la función con 3 parámetros dentro de settingsObj 
 ```
 
-[[info]]
-| :point_up: Si usa jQuery, debe sentirse cómodo utilizando parámetros como el "Settings Object."
+> :point_up: Si usa jQuery, debe sentirse cómodo utilizando parámetros como el "Settings Object."
 
 ### Evento Ready
 ***
@@ -300,8 +298,7 @@ $(el).attr(‘tabindex’, 3);
 ```
 
 
-[[warning]]
-| :point_up: Estas son las funciones más utilizadas cuando se trabaja con el DOM. Ten en cuenta que hay MUCHAS más funciones disponibles y que es una buena idea revisarlas todas. Además, se están creando nuevas funciones a medida que JavaScript continúa evolucionando.
+> :point_up:  Estas son las funciones más utilizadas cuando se trabaja con el DOM. Ten en cuenta que hay MUCHAS más funciones disponibles y que es una buena idea revisarlas todas. Además, se están creando nuevas funciones a medida que JavaScript continúa evolucionando.
 
 ### Trabajando con Estilos
 ***
@@ -374,8 +371,7 @@ var classes = el.className.split(‘ ‘);
   $(el).toggleClass(className);
   ```
 
-[[warning]]
-| :point_up: Estas son las funciones más utilizadas para trabajar con estilos, hay muchas más funciones y es una buena idea revisar el resto de ellas.
+> :point_up:  Estas son las funciones más utilizadas para trabajar con estilos, hay muchas más funciones y es una buena idea revisar el resto de ellas.
 
 ### Trabajando con eventos
 ***
@@ -409,8 +405,7 @@ $(‘.btn’).on( "click", function(){
 });
 ```
 
-[[info]]
-|:link: Para continuar leyendo sobre eventos recomendamos [esta lectura.](https://learn.jquery.com/events/event-basics/)
+> :link: Para continuar leyendo sobre eventos recomendamos [esta lectura.](https://learn.jquery.com/events/event-basics/)
 
 ### Trabajando con Ajax
 ***
@@ -419,8 +414,7 @@ jQuery realmente ayuda cuando se trabaja con clases porque la única forma de ac
 
 Por ejemplo, si deseas eliminar una clase específica de un elemento, tendrás que obtener el valor del atributo de clase como un string y luego crear una nuevo string - como el primero - pero sin esa clase en particular.
 
-[[warning]]
-| :point_up: AJAX se cubrirá en profundidad en otra lección, aquí solo presentaremos la sintaxis de la función ajax.
+> :point_up:  AJAX se cubrirá en profundidad en otra lección, aquí solo presentaremos la sintaxis de la función ajax.
 
 #### Solicitud GET
 
