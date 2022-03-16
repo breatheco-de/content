@@ -62,7 +62,7 @@ If when defining the function we do not use the symbol of the curly braces. The 
 
 ## Benefits of using Unit Testing:
 
-+ **you can find and prevent bugs easily** If there is a problem in the future you'll be to identify the cause a lot faster than having to trough all the code. Also your end-user will be very happy to not have a buggy product.
++ **You can find and prevent bugs easily** If there is a problem in the future you'll be to identify the cause a lot faster than having to trough all the code. Also your end-user will be very happy to not have a buggy product.
 
 + **Unit Testing saves time....and money** When writing Unit tests you may identify many possible bugs and fix them right away, instead of fixing them in different stages of the product.
 
