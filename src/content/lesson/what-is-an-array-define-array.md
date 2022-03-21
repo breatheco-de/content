@@ -2,7 +2,7 @@
 title: "It's Time To Learn What is an Array"
 subtitle: "Can you work with arrays ? if you can't,  don't worry here you will learn what is an array and how to work with them"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
-textColor: "white"
+textColor: "white"****
 date: "2020-10-19T16:36:31+00:00"
 tags: ["array"]
 status: "published"
@@ -14,13 +14,13 @@ status: "published"
 
 Because arrays are awesome!  You need them!  And we need to focus a lot on them in order to prepare you for real life 🙂
 
-Mastering the use of arrays and loops is one of the 5 fundamental skills of building algoritms:
+Mastering the use of arrays and loops is one of the 5 fundamental skills of building algorithms:
 
 1. Variables.
 2. Conditionals.
 3. `Arrays`.
 4. `Loops`.
-5. Functions.
+5. Functions.****
 
 **No no no…Wait:  Arrays?  What?**
 
