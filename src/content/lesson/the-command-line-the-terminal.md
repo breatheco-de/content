@@ -159,7 +159,7 @@ cp path/to/file.ext path/to/new/file.ext
 Finds a file in the given directory and with the given specifications.
 
 ```bash
-find / -name game
+find / -name game (sin /)
 #find all files containing the exact name "game" that are inside the root folder. 
 
 find . -name *.mp3
