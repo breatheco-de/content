@@ -121,7 +121,7 @@ Let’s assign "first" as the ID of the first cell in the next table, and then w
 
 ### Class selector
 
-|**Selector**   |**Description**   |**Example**   |
+|**Selector**   |**Description**   |**Exampl**   |
 |:-------------|:-----------------|:-------------|
 |.classname   |There is an attribute in HTML called "class", which allows us to group different tags within one logical group.  With CSS we can use `.` (dot) as a selector of every element using the class name to select all html elements with that class attribute.   |`.classname { color: #BDBDBD; }`   |
 
