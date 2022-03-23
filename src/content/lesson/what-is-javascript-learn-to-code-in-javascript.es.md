@@ -198,7 +198,7 @@ Puedes agrupar las operaciones lógicas entre paréntesis y también usar parén
 ## Controla el Flujo de Tú Código
 
 
-Bien, ahora es cuando todo empieza a ponerse divertido! Para controlar el flujo de tu aplicación, tienes varias opciones y las utilizarás cada día. Por lo tanto, debes sentirte cómodo usándolas.
+Bien, ¡ahora es cuando todo empieza a ponerse divertido! Para controlar el flujo de tu aplicación, tienes varias opciones y las utilizarás cada día. Por lo tanto, debes sentirte cómodo usándolas.
 
 ### If…else…
 
