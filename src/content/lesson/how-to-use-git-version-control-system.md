@@ -63,7 +63,8 @@ A **commit object** contains three things:
 + References to **parent commit objects.**
 + An **SHA1 name:** a 40-character string that uniquely identifies the commit object.  The name is composed of a hash of relevant aspects of the commit; this way identical commits will always have the same name.
 
-![how to use git](https://breatheco.de/wp-content/uploads/2017/03/commit-object.png)
+![how to use git](https://breatheco.de/wp-content/uploads/2017/03/commit-object.png) 
+**Imagen de la linea 66 no se ve**
 
 The parent commit objects are those commits that came first.  Generally a commit object will have one parent commit.  One generally takes a project in a given state (commit), makes a few changes, and saves the new state (commit) of the project.
 
