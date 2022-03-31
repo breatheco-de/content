@@ -54,7 +54,7 @@ There are 4 important things to notice here:
 + You can use one dot `.` to refer to all the files and folders in the hierarchy.
 + You can also use two dots `..` to refer to the parent directory.
 + You can use the forward slash `/` to navigate further down in the hierarchy directories.
-+ Hidden files:  Usually a file has a name and an extension *(filename.extension)*.  If a file has no name but only an extension it will by default be hidden in the visual interface.
++ Hidden files:  Usually a file has a name and an extension *(filename.extension)*.  If a file has no name but only an extension, it will by default be hidden in the visual interface.
 
 
 ## Commands to Work with the File System:
