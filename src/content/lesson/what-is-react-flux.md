@@ -111,7 +111,7 @@ handleActions(action) {
 #### 4) Inside the To-Do Store, implement the actual logic for deleting the task and emitting the changes
 
 ```javascript
-// Anywhere on your TodoStore class, add a new method that finally deletes the task from the todo list. 
+// Anywhere on your To-do Store class, add a new method that finally deletes the task from the to-do list. 
 // in this case we are using the filter function because it returns the same array but only with 
 // the elements that match the logical question inside the filter (task.id != id) 
 
