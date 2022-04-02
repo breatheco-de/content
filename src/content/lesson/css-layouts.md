@@ -24,7 +24,7 @@ We need to use boxes for it.  A box is a container with a specific width and hei
 
 All website content should be wrapped within boxes (div, header, footer, etc.). Boxes are invisible by default so, in order to make them visible, you have to either set a background color or a border.  The following image shows how many invisible boxes a normal website has:
 
-<before-after width="500px"
+<BeforeAfter width="500px"
     before="../../assets/images/40818d0d-60c6-4ef3-a488-834f21ddebf1.png" after="../../assets/images/0c89a48e-d488-4e5c-807a-fd6b9a9179f6.png" />
 
 #### Box Attributes
@@ -56,7 +56,7 @@ This important property is connected to box model and it defines how the height 
 + If the value is **border-box**, width and height apply to all parts of the elements: content, padding and borders. 
 
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/zvL6aet3/2/embed/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/zvL6aet3/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="https://jsfiddle.net/BreatheCode/zvL6aet3/">Click here to open demo in a new window</a></small></div>
 
