@@ -55,6 +55,7 @@ For the main heading of the document, the tag we use is `<h1>`.  For example: An
 
 
 ##### Nested Tags :
+
 Finally, tags can contain one or more tags within them. For example, if we would want to give <i>italic style</i> to the word "electronics" we would wrap the word with the tag `<i>`:
 
 ```html
@@ -66,13 +67,19 @@ Finally, tags can contain one or more tags within them. For example, if we would
  The browser ignores blank spaces and end of lines. If we want to jump one line, we have to use the `<br>` tag.  If we want more "spaces" we need to insert the command `&nbsp;` per each blank space (yes, we know it’s weird, but it is what it is).
 
 **The following three alternatives will look the same (spaces and jumps of line will be ignored):**
+
 ```html
 <tag>Hello</tag><tag>World</tag>
 ```
+
+Line jumps are ignored:
+
 ```html
 <tag>Hello</tag>
 <tag>World</tag>
 ```
+
+Spaces are ignored:
 
 ```html
 <tag>Hello</tag>               <tag>World</tag>
