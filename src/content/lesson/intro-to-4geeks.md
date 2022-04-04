@@ -27,7 +27,7 @@ We are about to change the way you learn, the way you approach life, the way you
 
 ### We are here to tear down the 💻 3 Walls Towards Code 
 
-During the past years we have identified specific reasons that cause students to stop trying to be a developer or fail to complete the course or get a job. 
+During the past years we have identified specific reasons, that cause students to stop trying to be a developer or fail to complete the course or get a job. 
 
 #### Wall #1: Confidence ❓ (Impostor syndrome)
 
