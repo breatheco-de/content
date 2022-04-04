@@ -1,6 +1,6 @@
 ---
 title: "La Línea de Comando (conocida como: La Terminal) "
-subtitle: "Los Desarrolladores gastan horas cada día usando la línea de comandos (conocido como: La Terminal). Acepta la realidad y vuélvete más poderoso que nunca"
+subtitle: "Los Desarrolladores gastan horas cada día usando la línea de comandos (conocida como: La Terminal). Acepta la realidad y vuélvete más poderoso que nunca"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
