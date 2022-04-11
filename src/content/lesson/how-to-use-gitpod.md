@@ -22,7 +22,7 @@ When you open a Github repository using Gitpod, you will be "renting" a computer
 1. Github does not work on its own, it needs to start from a coding repository.
 2. We strongly recomend you download the [Gitpod Chrome Extension](https://www.gitpod.io/docs/browser-extension/) it will make your workflow easier and faster.
 3. Once you download and install the extension, you will find a green button called "Gitpod" on every github repository.
-![Gitpod button](../../assets/github-gitpod.png)
+![Gitpod button](../../assets/images/github-gitpod.png)
 4. If you press on this button, it will open the repository files on Gitpod's VSCode coding editor.
 
 
