@@ -22,7 +22,7 @@ When you open a Github repository using Gitpod, you will be "renting" a computer
 1. Github does not work on its own, it needs to start from a coding repository.
 2. We strongly recomend you download the [Gitpod Chrome Extension](https://www.gitpod.io/docs/browser-extension/) it will make your workflow easier and faster.
 3. Once you download and install the extension, you will find a green button called "Gitpod" on every github repository.
-![Gitpod button](assets/github-gitpod.png)
+![Gitpod button](../../assets/github-gitpod.png)
 4. If you press on this button, it will open the repository files on Gitpod's VSCode coding editor.
 
 
@@ -30,7 +30,7 @@ When you open a Github repository using Gitpod, you will be "renting" a computer
 
 We will be using the terminal sometimes, you can always find or open the terminal by clicking on the hamburger menu on the top left, and looking to the "terminal" => "new terminal" option.
 
-![Gitpod button](assets/terminal.png)
+![Gitpod button](../../assets/images/terminal.png?raw=true)
 
 ### What is the terminal or command line?
 
@@ -39,4 +39,4 @@ But in Gitpod is will be the only way we have to control the -linux- computer.
 
 You don't have to learn the terminal command's yet, but [we strongly recomend to read this lesson](https://content.breatheco.de/en/lesson/the-command-line-the-terminal) to get familiar and know it's functions and limitations.
 
-![Gitpod button](assets/terminal-command.png)
+![Gitpod button](../../assets/images/terminal-command.png?raw=true)
