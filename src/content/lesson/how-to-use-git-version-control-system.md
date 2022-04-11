@@ -149,7 +149,7 @@ Now that you’ve created commits, how do you refer to a specific commit?  GIT p
 
  ![how to use git](../../assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png)
 
- Lets jump back to commit (2) and start new work from there.  You will first need to know how to reference the commit.  You can use `git log` to get the SHA1 name of (2)
+ Let's jump back to commit (2) and start new work from there.  You will first need to know how to reference the commit.  You can use `git log` to get the SHA1 name of (2)
 
 ```bash
  git log
@@ -228,7 +228,7 @@ To share work among developers, GIT uses a **distributed model** of version cont
 
 ## Distributed Version Control
 
-Say you and your friend want to work on the same project.  Your friend already has done some work on it.  There are three tasks you need to perform to figure out how to do so:
+Say you and your friend wants to work on the same project.  Your friend already has done some work on it.  There are three tasks you need to perform to figure out how to do so:
 
 + Get a copy of your friend’s up-to-date repository (git clone).
 + Get the changes your friend makes into your own repository (git pull).
