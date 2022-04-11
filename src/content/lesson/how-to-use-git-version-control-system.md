@@ -230,9 +230,9 @@ To share work among developers, GIT uses a **distributed model** of version cont
 
 Say you and your friend want to work on the same project.  Your friend already has done some work on it.  There are three tasks you need to perform to figure out how to do so:
 
-+ Get a copy of your friend’s up-to-date repository (git clone).
-+ Get the changes your friend makes into your own repository (git pull).
-+ Let your friend know about changes you made (git push).
+1. Get a copy of your friend’s up-to-date repository (git clone).
+2. Get the changes your friend makes into your own repository (git pull).
+3. Let your friend know about changes you made (git push).
 
 ## Remote Specification
 
