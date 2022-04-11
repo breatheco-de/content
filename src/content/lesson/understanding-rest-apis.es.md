@@ -12,7 +12,7 @@ status: "published"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QsrWtqnQGMc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## ¿Qué es un API?
-***
+
 
 Una API es el intermediario de la mayoría de las aplicaciones modernas. API significa: Application Programming Interface (Interfaz de Programación de Aplicaciones). Vamos a desglosarla mirando cada una de sus partes:
 
@@ -20,8 +20,7 @@ Una API es el intermediario de la mayoría de las aplicaciones modernas. API sig
 |:-----------------:|:-----------------:|:---------------:|
 Si tienes un teléfono inteligente, estás familiarizado con las aplicaciones (herramientas, juegos, redes sociales y otro softwares que usamos todos los días).    |Programar es la forma en que los ingenieros crean todo el software que tanto facilitan nuestra vida.   |Una interfaz es un límite común compartido por dos aplicaciones o programas que permiten que ambos se comuniquen entre sí.
 
-[[info]]
-| :point_up: Esencialmente, una API es una forma para que los programadores se comuniquen con una aplicación en particular.
+> :point_up: Esencialmente, una API es una forma para que los programadores se comuniquen con una aplicación en particular.
 
 ### Esta es la API para usar un teléfono:
 
@@ -40,10 +39,10 @@ Cada API consta de 3 componentes principales:
 Los métodos de la API de una aplicación web dependen completamente del propósito / negocio del sitio web:
 
 + Si estás creando la API para un producto como Uber, algunos de sus métodos serán: registrarse, solicitar un viaje, calificar un conductor, cancelar un viaje, etc.
-+ Si estás creando una API para algo como AirBnB, algunos de sus métodos serán: listado de libros, búsqueda de listado, cancelar viaje, etc.
++ Si estás creando una API para algo como AirBnB, algunos de sus métodos serán: listado de reservas, búsqueda de listado, cancelar viaje, etc.
 
 ## El estándar REST
-***
+
 
 Hay docenas de formas de crear una API, pero el estándar REST ha llegado a dominarlas todas. Si realmente quieres ser un desarrollador web, tienes que sentirse muy cómodo con REST.
 

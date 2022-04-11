@@ -23,8 +23,7 @@ Puedes dividir un proceso de autenticación estándar en 5 pasos principales:
 
 ![Autentication workflow](../../assets/images/authentication-diagram.png)
 
-[[info]]
-| :point_up: i no sabes lo que es un token, te recomiendo [esta lectura](/lesson/token-based-api-authentication).
+> :point_up: i no sabes lo que es un token, te recomiendo [esta lectura](/lesson/token-based-api-authentication).
 
 ## ¿Qué es JWT?
 
@@ -37,8 +36,7 @@ Hay muchas formas de crear tokens: Basic, Bearer, JWT, etc. Todas ellas son dife
 |  Token JWT    | eyJhbGciOiJIUzI1NiIsInR5c.eyJzdWIiOFt2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpM |
 
 
-[[info]]
-| :point_up: Como puedes ver, los Tokens JWT son más grandes que los otros dos tipos de token.
+> :point_up: Como puedes ver, los Tokens JWT son más grandes que los otros dos tipos de token.
 
 **JSON Web Token o JWT es un estándar abierto para crear tokens**
 

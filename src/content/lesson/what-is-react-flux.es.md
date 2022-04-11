@@ -12,7 +12,7 @@ status: "published"
 ¿Recuerdas que siempre decimos que la programación es como Taco Bell?  ¡Siempre son los mismos ingredientes utilizados de una manera diferente!  En este caso particular, vamos a confiar mucho en los Eventos para crear toda la arquitectura de la aplicación.
 
 ## ¿Por qué necesitamos Flux?
-***
+
 
 Sabemos que todavía estás aprendiendo React.  Los states (estados) y las props (propiedades) pueden ser confusos, y ahora, con Flux, las cosas se van a poner un poco más difíciles ¡Pero es por una buena causa!
 
@@ -40,7 +40,7 @@ Vistas/Views (Components)     |Cada componente React que llama a cualquier acci�
 | Store     |El store contiene todos los datos de la aplicación.  Maneja todo lo que recibe el despachador y determina la forma en que se deben almacenar y recuperar los datos.            |
 
 ## Construyendo nuestra primera historia de usuario con Flux
-***
+
 
 El siguiente proyecto es una aplicación de To-Do List (lista de tareas) con 2 historias de usuario principales:
 
@@ -56,7 +56,7 @@ Para codificar la función para eliminar tareas, tenemos que actualizar 4 archiv
 ![react flux](../../assets/images/77c93bfa-92cb-44e3-a7c5-c959e27c5ccc.jpeg)
 
 ## Permite implementar la función eliminar tarea
-***
+
 
 #### 1) ¿Qué acción del usuario inicia la función?
 
@@ -75,7 +75,7 @@ Para codificar la función para eliminar tareas, tenemos que actualizar 4 archiv
 
 #### 2) Luego necesitamos codificar nuestra acción dentro del archivo MyActions.js de esta forma:
 
-```javascript{numberLines: true}
+```javascript
 MyActions.js
 
 // En este caso, decidimos que esta función (conocida como action) recibirá el ID de la tarea que se eliminará.
@@ -93,14 +93,13 @@ class MyActions extends Flux.Actions{
 ```
 
 
-[[warning]]
-| :point_up:Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+> :point_up: Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
 
 
 #### 3) Actualizar el store para manejar la nueva acción enviada
 
 
-```javascript{numberLines: true}
+```javascript
 // Dentro de todoStore tenemos un método HandleActions que contiene la lógica para manejar cada acción distribuida. 
 // Tenemos que agregar un nuevo caso al switch con el nombre 'DELETE_TODO'  
 // Tiene que coincidir con el nombre de la acción que se envió. 
@@ -118,7 +117,7 @@ handleActions(action) {
 
 #### 4) Dentro del To-Do Store, implementa la lógica real para eliminar la tarea y emitir los cambios
 
-```javascript{numberLines: true}
+```javascript
 
 // En cualquier lugar de tu clase TodoStore, agrega un nuevo método que finalmente elimine la tarea del to-do list. 
 // En este caso estamos usando la función de filter porque devuelve el mismo array pero sólo con
@@ -137,12 +136,11 @@ class TodoStore extends EventEmitter {
 }
 ```
 
-[[warning]]
-| :point_up:Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+> :point_up: Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
 
 
 ## El Resultado
-***
+
 
 Finalmente, tenemos una nueva función implementada en nuestro proyecto.  Para seguir agregando más funciones, sólo tienes que iniciar de nuevo el flujo de trabajo de codificación de Flux desde el paso 1.
 

@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## Formularios HTML
-***
+
 
 Esta lección es muy fácil de entender - pero es esencial debido a que en este nuevo conocimiento, se transmitirá toda la interactividad de Internet. Hay algunas etiquetas HTML adicionales que debemos analizar antes de terminar el Pre-Work: son las primeras formas posibles de interacción que se introdujeron en HTML: las entradas o inputs y los formularios.
 
@@ -40,7 +40,7 @@ La siguiente es una lista de todos los elementos posibles que podemos usar para 
 |Select |`python><select>`   |Pide al usuario que elija uno o más elementos de una lista de opciones.<br>`python><select name="color" /> <option value="red">Red </option> <option value="yellow">Yellow</option> <select />`   |
 
 ## Atributos del Input o Entrada
-***
+
 
 Al igual que cualquier otra etiqueta HTML, las etiquetas de input tienen varios atributos que se pueden configurar para describir su comportamiento de manera más específica:
 
@@ -68,7 +68,7 @@ Al igual que cualquier otra etiqueta HTML, las etiquetas de input tienen varios 
 ```
 
 ## Las formas METHOD y ACTION
-***
+
 
 
 Los dos atributos más importantes que deben establecerse en la etiqueta `<form>` son la action y el method:
@@ -81,6 +81,5 @@ Los dos atributos más importantes que deben establecerse en la etiqueta `<form>
 |:----------------------|:-----------------------|
 |Todos los datos del formulario están codificados en la URL. Esto significa que adjuntará toda la información del formulario al final de la URL de destino, por ejemplo: http://www.mydestinationurl.com?input_name1=value1&input_name2&value2…..   |Los datos se ocultarán al usuario final. La URL permanecerá como se definió en el atributo "acción" y solo un desarrollador podrá solicitar la información del formulario.   |
 
-[[warning]]
-| :point_up:Si vas a utilizar el `python> <input type =" file ">` el único método admitido es POST.
+> :point_up: Si vas a utilizar el `python> <input type =" file ">` el único método admitido es POST.
 

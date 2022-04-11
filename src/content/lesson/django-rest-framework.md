@@ -21,7 +21,7 @@ Django is THE TOOL for web development.  It is not just a library – it is doze
 + Documentation and community: The django community is so big that you will not have any trouble finding answers, tutorials, etc.
 
 ## The Django Architecture
-***
+
 
 Just like any other framework, Django proposes a specific architecture to build your software and we have to learn, adopt and master all of it if we want to become Senior Full-Stack Developers (using Django):
 
@@ -39,7 +39,7 @@ BreatheCode is a big django website with several applications inside:
 All of those apps can be a part of a big website called "BreatheCode Platform".
 
 ## Creating a New Project
-***
+
 
 to start a new project all you have to do is:
 
@@ -67,7 +67,7 @@ The `manage.py` file outside is a CLI tool to be able to control and use Django 
 
 
 ## Creating the First Application
-***
+
 
 Now that we have a big project (website) it is time to start adding applications to it.  To create your first Django application, type the following command:
 
@@ -76,8 +76,7 @@ $ python manage.py startapp [app1_name]
 ```
 
 
-[[warning]]
-| :point_up: <span style="color:white"> To run this command, you have to be standing in the same folder as the manage.py file.  You can use the CD command to move to that same folder.</span>
+> :point_up:  <span style="color:white"> To run this command, you have to be standing in the same folder as the manage.py file.  You can use the CD command to move to that same folder.</span>
 
 #### Again, don’t be afraid of the generated files!
 
@@ -111,12 +110,11 @@ The Manage.py file is an amazing command line tool that will help you a lot.  It
 
 
 ## Django Architecture to build RESTful APIs
-***
+
 
 We are going to be building a REST Based API, but don’t be afraid of the name – the REST standard basically was built as an extremely simple API.
 
-[[info]]
-| :point_up: :tv: You can read more about REST APIs on this BreatheCode Lesson.<br> <br>Here is a cool 8 min video explaining REST: https://www.youtube.com/watch?v=7YcW25PHnAA
+> :point_up: :tv: You can read more about REST APIs on this BreatheCode Lesson.<br> <br>Here is a cool 8 min video explaining REST: https://www.youtube.com/watch?v=7YcW25PHnAA
 
 
 ### Here is how Django handles any API HTTP Request:
@@ -197,9 +195,7 @@ urlpatterns = [
 
 The urls.py file contains an array ***PATHs***.  Each path starts with a ***URL*** pattern, followed by the ***VIEW*** that is supposed to manage that path and 2 optional parameters: ***NAME:*** To identify the path; and ***KWARGS*** : a list of values that can be passed to the ***VIEW***.
 
-[[info]]
-| :tv: <span style="color:white">Here is a 5 video series that explains django APIs in an amazing way:</span> https://www.youtube.com/watch?v=Yw7gETuRKjw&index=37&list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK
+> :tv: <span style="color:white">Here is a 5 video series that explains django APIs in an amazing way:</span> https://www.youtube.com/watch?v=Yw7gETuRKjw&index=37&list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK
 
 
-[[info]]
-|:link: This website contains amazing Django resources: http://awesome-django.com
+> :link: This website contains amazing Django resources: http://awesome-django.com

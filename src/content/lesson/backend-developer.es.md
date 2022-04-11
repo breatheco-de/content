@@ -16,7 +16,7 @@ No hace mucho tiempo, los navegadores eran muy tontos. Todo lo que hacían era r
 Todo el trabajo era realizado por el servidor: como no había JavaScript, el DOM no podía actualizarse mientras se ejecutaba el sitio web. Eso significa que el código fuente HTML inicial que recibía el navegador al cargar el sitio web también era la última versión del mismo. **No habían modificaciones en el DOM**.
 
 ### La Arquitectura del Cliente-Servidor
-***
+
 
 [¿Recuerdas cómo funciona el internet?](https://www.youtube.com/watch?v=UiBT3Kj8KBM) Cada dominio apunta a una única dirección IP / servidor, y ese servidor está listo para devolver una **respuesta de texto** a cualquier solicitud HTTP que provenga de cualquier cliente.
 
@@ -50,11 +50,10 @@ Además del contenido del documento y del content-type, el servidor también agr
 |5xx Server Error     |500 Error Interno del Servidor, 503 Servicio No Disponible    |
 
 
-[[info]]
-|:link: Aquí puedes encontrar información más detallada sobre [Códigos de Respuesta del Servidor.](https://www.restapitutorial.com/httpstatuscodes.html)
+> :link: Aquí puedes encontrar información más detallada sobre [Códigos de Respuesta del Servidor.](https://www.restapitutorial.com/httpstatuscodes.html)
 
 ### El Rol del Lenguaje Back-End
-***
+
 
 Lo bueno de un lenguaje de back-end es que se ejecuta en una máquina real (no en un navegador como el lenguaje de front-end). Con un lenguaje back-end puedes hacer cosas como:
 
@@ -68,7 +67,7 @@ Lo bueno de un lenguaje de back-end es que se ejecuta en una máquina real (no e
 + Puedes combinar cualquiera de las operaciones ya mencionadas en tu propio flujo de aplicación de back-end.
   
 ###  Entonces.. ¿qué hace un desarrollador Web de Back-End?
-***
+
 
 Como desarrollador Back-End, deberás escribir todo el código para generar y / o responder a esos documentos estáticos y dinámicos según lo soliciten los clientes.
 

@@ -10,7 +10,7 @@ tags: ["modelo de cajas","CSS","HTML"]
 ---
 
 ## El Modelo de Cajas
-***
+
 
 Probablemente, el concepto más difícil de entender de CSS es la diagramación y posicionamiento de los elementos de una página web.  Esto pasa porque CSS no fue hecho para visualizar documentos tan avanzados e interactivos como los que vemos en la actualidad.
 
@@ -24,7 +24,7 @@ Necesitamos usar cajas para eso. Una caja es un contenedor con un ancho y una al
 
 Todo el contenido del sitio web debe estar envuelto dentro de una caja (div, header, footer, etc.). Las cajas son invisibles por defecto, por lo tanto para hacerlas visibles, debes establecer un color de fondo o un borde.  La siguiente imagen muestra cuántas cajas invisibles tiene un sitio web normal:
 
-<before-after width="500px"
+<BeforeAfter width="500px"
     before="../../assets/images/40818d0d-60c6-4ef3-a488-834f21ddebf1.png" after="../../assets/images/0c89a48e-d488-4e5c-807a-fd6b9a9179f6.png" />
 
 #### Atributos de una caja: ¿De qué está compuesta?
@@ -57,18 +57,18 @@ Esta importante propiedad está relacionada con el modelo de cajas y define la m
 + Si el valor es **border-box**, ancho y altura aplican a todas las partes del elemento: `content`, `padding` and `borders`. 
 
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/zvL6aet3/2/embed/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/zvL6aet3/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="https://jsfiddle.net/BreatheCode/zvL6aet3/">Hax clic aquí para abrir el demo en una nueva ventana página</a></small></div>
 
 
 # Ancho y Altura de las Cajas
-***
+
 
 Todas las cajas tienen dos atributos que definen su tamaño: `width` (ancho) y `height` (altura). En algunos casos se ajustan automáticamente, pero en otros debemos asignarlos manualmente o colocarlos porcentualmente (relativo al contenido padre por ejemplo).
 
 ## Atributo: Posición
-***
+
 
 El navegador es el responsable de asignar posiciones a todos los elementos de una página, pero, como ya sabemos, las posiciones que poseen los elementos son bastante limitadas y hacen que los documentos se vean feos y anticuados.
 
@@ -88,7 +88,7 @@ Para que un sitio web se vea como los sitios web de la actualidad, tenemos que r
 ¡¡Espera!!  Si no entendiste bien lo que acabamos de decir, bueno... realmente no importa (en este punto).  Esta es una de las cosas que necesitamos que practiques mucho para entenderla.  No hay otra opción. 🙁
 
 ## Atributo: Display
-***
+
 
 Las valores de la propiedad `display` son mucho más avanzados que simplemente mostrar o ocultar elementos.  En realidad, la propiedad `display` modifica la forma en la que se visualiza un documento.
 
@@ -110,7 +110,7 @@ Es común encontrar este atributo en los menús de navegación, para los activit
 Para entender display a cabalidad lo mejor es… ¡que nos pongamos a practicar!.
 
 ## Atributo: Float
-***
+
 
 Es un atributo sencillo pero muy útil.  Sirve para decirle a una caja que se desplace lo máximo posible hacia algún lado: izquierda o derecha.  Una vez que le asignes la propiedad float a algún elemento, este buscará el mejor espacio para acomodarse, intentando convivir con los elementos que lo rodean.
 
@@ -127,7 +127,7 @@ Es muy utilizado en blogs cuando quieres agregar imágenes a tus artículos.  Es
 
 
 ## Pensemos en la UI/UX por un momento
-***
+
 
 ¡Es tiempo de hacer yoga! Dejemos de programar y comencemos a pensar sobre la especie humana, ¿cómo actúan los seres humanos? ¿cómo se comportan? ¿qué les gusta? ¿dónde hacen click?
 
@@ -143,12 +143,12 @@ Algunos sitios web tienen un excelente contenido pero un mal diseño que limita 
 + **Sentido Común:** Este es el más complicado, pero nunca sabrás que funciona mejor hasta que lo pruebas.  Quizás mover el menú de la parte de arriba a la izquierda incrementará la interacción de los usuarios.  Debes estar en una constante búsqueda de “la verdad” respecto al comportamiento del usuario.
   
 ## Ejemplos de diseño:
-***
+
 
 Los siguientes ejemplos reúnen un gran porcentaje de los diseños más usados en la web.  Entiéndelos bien ya que seguro los vas a usar durante el resto de tu vida como desarrollador.  A veces usarás diferentes enfoques para lograr varias cosas a la vez.
 
 ### Contenido Centrado
-***
+
 
 Facebook es así: un sitio web con su contenido centrado con un ancho máximo para el contenido.  Esto quiere decir que no importa si la computadora del usuario tiene 4000px de ancho, el ancho del sitio web se detendrá al llegar a su ancho máximo y el resto de la página será blanca.
 
@@ -163,7 +163,7 @@ Este es el código exacto que se necesita para que el contenido del sitio web es
 
 
 ### Left Sidebar fija.
-***
+
 
 Las barras laterales a la izquierda fijas son geniales cuando tienes una pantalla ancha (landscape).  Puedes tener un menú, publicidad, hoja informativa invitándote a participar y a inscribirte, formulario de registro, etc.  Pero aun queda suficiente espacio para el contenido.  En la actualidad, casi todas las páginas web usan barras laterales a la izquierda fijas, algunas también tienen barras a la derecha fijas.
 
@@ -174,7 +174,7 @@ De hecho, en este pre-work la barra está a la izquierda.  Es la mejor opción p
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/">Click aqui para abrir demo en una nueva ventana</a></small></div>
 
 ### Menú principal con Left Sidebar
-***
+
 
 Es casi lo mismo, pero en vez de tener barras laterales a la izquierda como el menú principal, vamos a utilizarlas para contenido complementario.  El menú principal debe estar en la caja de arriba porque es lo primero que los usuarios ven cuando entran a la página web.
 
@@ -183,7 +183,7 @@ Es casi lo mismo, pero en vez de tener barras laterales a la izquierda como el m
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/">Click aqui para abrir demo en una nueva ventana</a></small></div>
 
 ### Responsive Masonry
-***
+
 
 Pinterest hizo este diseño universalmente conocido. Mediante el uso de esta “innovador” UI, se convirtieron en uno de los sitios webs más visitados en el mundo.  Masonry distribuye las cajas de un manera óptima, primero trata de cubrir toda la fila añadiendo cajas a la derecha (añadiéndolas al final), y después salta a la fila siguiente cuando ya no hay espacio suficiente disponible.
 
@@ -194,7 +194,7 @@ Otra genialidad sobre Masonry es que cada caja puede tener su propia altura, cos
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/">Click aqui para abrir demo en una nueva ventana</a></small></div>
 
 ### Popups / Ventanas Modales / Alertas
-***
+
 
 La alerta predeterminada de JavaScript es vieja y fea, además de limitada [(click aquí para verla)](https://www.w3schools.com/js/js_popup.asp). A nadie le gusta usarla, eso es porque los desarrolladores siempre quieren construir sus propios modales.
 
@@ -210,7 +210,7 @@ Para replicar el comportamiento de esta alerta tienes que:
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/8co2hnj1/1/embedded/html,css,result/">Haz click aqui para abrir demo en una nueva ventana</a></small></div>
 
 ## Demostración en vivo: Juega con la Caja
-***
+
 
 Utiliza los sliders de la barra de herramientas izquierda para modificar el margin, padding, border radius o cualquier otra regla de CSS que este disponible en el demo:
 
@@ -218,7 +218,7 @@ Utiliza los sliders de la barra de herramientas izquierda para modificar el marg
 
 
 ## Hay Mucho Más que Aprender sobre Diseños
-***
+
 
 Tendrás que aprender “en el camino”, porque hay una infinidad de combinaciones que puedes crear para el diseño de una página web.  Lo que realmente importa, es que entiendas completamente el display, absolute, float y las reglas del overflow.
 

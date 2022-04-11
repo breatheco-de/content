@@ -28,7 +28,7 @@ Es bastante código ¿VERDAD?
 <br>
 
 ## Entonces... ¿que es React?
-***
+
 
 React.js se define a sí mismo como una librería de front-end para interfaces de usuario (UIs). Básicamente, React propone una nueva forma de crear sitios web al rediseñar todo el flujo de trabajo de codificación y hacer que los sitios web sean más rápidos.
 
@@ -69,18 +69,16 @@ return <h1 id="name"> {person.name == "John" ? "John" : "Tom" } </h1>; //funcion
 ```
 
 
-[[info]]
-| :point_up: Familiarizate con las operaciones condicionales ternarias :link:[AQUÏ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+> :point_up: Familiarizate con las operaciones condicionales ternarias :link:[AQUÏ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
-[[info]]
-| :point_up: Revisa las diferencias entre expresiones y declaraciones :link:[AQUÏ](https://medium.com/launch-school/javascript-expressions-and-statements-4d32ac9c0e74)
+> :point_up: Revisa las diferencias entre expresiones y declaraciones :link:[AQUÏ](https://medium.com/launch-school/javascript-expressions-and-statements-4d32ac9c0e74)
 
 
 <br>
 <br>
 
 ## Ahora Todo es un Componente
-***
+
 
 ¿Recuerdas los componentes de Bootstrap?
 
@@ -88,7 +86,7 @@ React lleva ese concepto más allá al dividir y encapsular todo tu sitio web en
 
 Así es como declaramos un componente de React como una función, que es en lo que nos centraremos durante este curso:
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react';
 
 function MyComponent(){
@@ -105,7 +103,7 @@ Ahora digamos que queremos que este componente devuelva una **Bootstrap card:** 
 
 Así es como lo hacemos en una app React
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react';
 
 //Renombramos el componente a MyCard 
@@ -125,8 +123,7 @@ function MyCard(){
 
 ```
 
-[[info]]
-| 👆 Cada componente en React debe tener un método de renderizado que devuelva un bloque de código HTML
+> 👆 Cada componente en React debe tener un método de renderizado que devuelva un bloque de código HTML
 
 
 Cada componente se puede renderizar llamando a su `<tag>`, que se parece a las etiquetas HTML pero siempre comienza con una letra mayúscula. La diferencia es que ahora el nombre de la `<tag>` es el nombre del componente React (*p. ej., <MyCard />*) que **tú** ha creado, y usar la tag te da acceso a la apariencia y comportamiento que has programado en tu propio componente.
@@ -139,7 +136,7 @@ El componente anterior ahora **renderizará** (se mostrará en la página) una B
 
 Por lo general, llamamos componentes dentro de de la sección return de otro componente:
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react';
 
 function MyComponent(){
@@ -156,7 +153,7 @@ El componente React más simple es solo una función que devuelve algo de HTML. 
 
 Aquí hay un ejemplo del mismo componente `<MyCard />`, pero ahora declarado como una clase:
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react';
 
 //Aquí creamos el componente Modal como una clase. 
@@ -176,11 +173,10 @@ export class MyCard extends React.Component{
     }
 }
 ```
-[[warning]]
-| ☝️ Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+> :point_up:  Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
 
 ## El componente PRINCIPAL 
-***
+
 
 Con React, toda la aplicación se considera un componente.
 
@@ -188,7 +184,7 @@ Lo primero que harás al crear grandes aplicaciones React es definir un gran com
 
 Luego, debes inyectar este componente principal en el DOM del sitio web con el método ReactDOM.render(), así:
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react'; // import obligtorio del react package
 import ReactDOM from 'react-dom'; //import obligtorio del react-dom package
 
@@ -245,7 +241,7 @@ Un "Layout" o diseño en React es básicamente la combinación de dos o más com
 
 Supongamos que tiene un [sitio web de una página](https://onepagelove.com/what-is-a-one-page-website) con tres secciones: `Home`, `About Us` y `Contact Us`. La forma "React" de hacerlo será creando un componente de **view** o **vista** más grande que contiene cada componente (sección), así:
 
-```jsx {numberLines: true}
+```jsx 
 
 export function EntireWebsiteLayout (){
     
@@ -262,8 +258,7 @@ export function EntireWebsiteLayout (){
 //Está implícito que los componentes Home, AboutUs y ContactUs ya han sido definidos
 ```
 
-[[warning]]
-| ☝️ Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+> :point_up:  Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
 
 Esos componentes que sirven para sostener el layout o diseño de tus páginas web, no se utilizarán para nada más es lo que llamamos "views o vistas", y los típicos componentes que podemos reutilizar muchas veces con diferente input ( como componente button o card) les llamaremos "components o componentes" dentro de las carpetas de nuestra aplicación.
 
@@ -274,7 +269,7 @@ Cada componente tendrá método de renderizado. El documento HTML resultante, es
 ![learn react js tutorial](../../assets/images/6c7d3747-482a-480d-b5be-fdbf095292f3.png)
 
 ## El Ejemplo de YouTube.com
-***
+
 
 En la estructura de tu aplicación, puedes tomar un destacador y comenzar a marcar todos los componentes que tendrá tu aplicación. Los más fáciles son los componentes típicos de Bootstrap: NavBar, Card, etc. También debieras definir tus propios componentes.
 
@@ -297,8 +292,7 @@ Cada clase debe tener una función llamada **render.** Esto devolverá el códig
 
 Cada componente viene con un objeto global (compartido solo dentro del mismo Componente) que tiene el único propósito de almacenar los datos necesarios para representarlo. Por ejemplo, digamos que estoy desarrollando un componente de reloj que tiene que imprimir la hora actual cada segundo. Necesitaría la hora actual en el estado del componente ... el código se verá algo así:
 
-[[info]]
-|  👆 La siguiente demostración actualiza la hora actual en cada segundo:
+>  👆 La siguiente demostración actualiza la hora actual en cada segundo:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/r80q431L/10/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/r80q431L/10/embedded/js,html,result/">Click to open demo in a new window</a></small></div>
@@ -333,8 +327,6 @@ Cada componente funciona como una mini aplicación. Puedes controlar y definir e
 
 ![tutorial react js](../../assets/images/245ba798-e840-42d8-8391-7388159ccfeb.png)
 
-[[info]]
-|🔗 [Aquí encontrarás](https://reactjs.org/docs/react-component.html#the-component-lifecycle) una explicación más detallada de cada método de ciclo de vida disponible.
+> 🔗 [Aquí encontrarás](https://reactjs.org/docs/react-component.html#the-component-lifecycle) una explicación más detallada de cada método de ciclo de vida disponible.
 
-[[info]]
-|📺 [Y aqui tienes un diagrama interactivo que lo explica](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+> 📺 [Y aqui tienes un diagrama interactivo que lo explica](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)

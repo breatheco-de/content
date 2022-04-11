@@ -86,8 +86,7 @@ print("El string empieza " + pregunta[0])
 print("El string termina con  " + pregunta[size - 1])
 # Resultado: El string termina con ? 
 
-[[info]]
-| :point_up: Este método de extracción es muy similar al usado para extraer un elemento ubicado enu na posición en pqrticular en una lista de Python.
+> :point_up: Este método de extracción es muy similar al usado para extraer un elemento ubicado enu na posición en pqrticular en una lista de Python.
 
 También puedes extraer varios caracteres a la vez. El rango del método comienza con el índice del primer caracter que vas a extraer y termina con el índice DESPUÉS del último carater que vas a extraer:
 
@@ -127,8 +126,7 @@ string_en_minuscula = lower(string1) # Lo convierte a minúsculas.
 string_en_mayuscula = upper(string2) # Lo convierte a mayúsculas.
 ```
 
-[[info]]
-| :point_up: Es una buena práctica siempre pasar a minuscula los strings antes de compararlos con otros y así evitar errores.
+> :point_up: Es una buena práctica siempre pasar a minuscula los strings antes de compararlos con otros y así evitar errores.
 
 ### Convertir strings a números o visceversa
 

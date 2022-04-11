@@ -12,7 +12,7 @@ status: "published"
 Remember how we always say that programming is like Taco Bell?  It’s always the same ingredients, except just used in a different way!  In this particular case, we are going to be relying heavily on Events to create our entire application architecture.
 
 ## Why do we need Flux?
-***
+
 
 We know you are still in the process of learning React.  States and props can be confusing, and now, with Flux, things are going to get a little bit harder.  But it’s for a good cause!
 
@@ -37,7 +37,7 @@ Views (Components)     |Every React Component that calls any Flux action is call
 |Stores        |The store contains all the application data.  It handles everything incoming from the dispatcher and determines the way data should be stored and retrieved.            |
 
 ## Building our first User History with Flux
-***
+
 
 The following project is a To-Do List application with 2 main user stories:
 
@@ -53,7 +53,7 @@ To code the delete functionality, we have to update 4 mains files: (1) The Compo
 ![react flux](../../assets/images/77c93bfa-92cb-44e3-a7c5-c959e27c5ccc.jpeg)
 
 ## Lets Implement the Delete Task Functionality
-***
+
 
 #### 1) What user action starts the functionality?
 
@@ -70,7 +70,7 @@ To code the delete functionality, we have to update 4 mains files: (1) The Compo
 
 #### 2) Then we need to code our action inside the MyActions.js file like this:
 
-```javascript{numberLines: true}
+```javascript
 MyActions.js
 
 // In this case, we decided that this function (a.k.a action) will receive the ID of the task to be deleted. 
@@ -86,14 +86,13 @@ class MyActions extends Flux.Actions{
     }
 }
 ```
-[[warning]]
-| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+> :point_up:  This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
 
 
 
 #### 3) Update the store to handle that new dispatched action
 
-```javascript{numberLines: true}
+```javascript
 // Inside the todoStore we have a HandleActions method that contains the logic to handle each dispatched action. 
 // We have to add a new case to the switch with the name 'DELETE_TODO'  
 // it has to mach the name of the action that was dispatched. 
@@ -111,7 +110,7 @@ handleActions(action) {
 
 #### 4) Inside the To-Do Store, implement the actual logic for deleting the task and emitting the changes
 
-```javascript{numberLines: true}
+```javascript
 // Anywhere on your TodoStore class, add a new method that finally deletes the task from the todo list. 
 // in this case we are using the filter function because it returns the same array but only with 
 // the elements that match the logical question inside the filter (task.id != id) 
@@ -129,12 +128,11 @@ class TodoStore extends EventEmitter {
 }
 ```
 
-[[warning]]
-| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+> :point_up:  This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
 
 
 ## The Result
-***
+
 
 Finally, we have a new functionality implemented into our project.  To keep adding more functionalities, you just have to start the Flux coding workflow from step 1 all over again.
 

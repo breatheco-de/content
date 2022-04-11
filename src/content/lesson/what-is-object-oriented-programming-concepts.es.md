@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## ¿Qué es Programación Orientada a Objetos?
-***
+
 
 Todo lo que hemos codificado hasta ahora gira en torno a funciones (es decir, bloques de declaraciones que manipulan datos).  Esto se denomina modo de programación ***orientada a procedimientos***.  Hay otra forma de organizar tu código, que es combinar datos y funcionalidad, y envolverlo dentro de algo llamado un objeto.  Esta forma de codificación es llamada modo de programación ***orientada a objetos***, y es ideal para escribir aplicaciones grandes.
 
@@ -19,7 +19,7 @@ Todo lo que hemos codificado hasta ahora gira en torno a funciones (es decir, bl
 El universo está hecho de diferentes objetos como: el sol, la tierra, la luna, las sillas y los locos.  Del mismo modo, podemos imaginar que nuestro automóvil está formado por diferentes objetos, como el volante, el aire acondicionado, el motor, etc.  De la misma manera, hay conceptos de programación orientados a objetos que asumen que todo es un objeto e implementan un software para diferentes objetos.
 
 ### ¿Por qué usar la Programación Orientada a Objetos?
-***
+
 
 Hay dos tipos de personas en este mundo:
 
@@ -40,7 +40,7 @@ Crear un programa de una forma orientada a objetos puede ser más lento al princ
 ¡Pero oye!…no necesitas ser una de esas personas que deben "amar" u "odiar" todo.  En su lugar, trata de entender que todo tiene sus pros y sus contras.  Conviértete en un maestro en esta técnica y úsala sabiamente.
 
 ## Objetos y clases
-***
+
 
 Las clases y los objetos son los dos aspectos principales de la programación orientada a objetos.  Una **clase** crea un *nuevo tipo (de objeto)* en donde **los objetos** son **instancias** particulares de una clase particular.
 
@@ -51,11 +51,11 @@ Las clases y los objetos son los dos aspectos principales de la programación or
 ![conceptos sobre programación orientada a objetos](../../assets/images/ed2a2bfb-95eb-473f-af7c-aa9f1d4c055e.jpeg)
 
 ## Clases Definitorias (abstracción)
-***
+
 
 Cada aplicación y sitio web que vayas a construir debe tener su propio conjunto de clases.  Las clases dependerán de la lógica de negocios detrás del sitio web (en última instancia, se trata del cliente y las necesidades que están tratando de resolver).
 
-***
+
 
 ### Las clases tienen Propiedades (también conocidas como Atributos) que las describen…
 
@@ -63,7 +63,7 @@ Por ejemplo: Una clase de persona tiene: color de piel, raza, nombre, número de
 
 ![conceptos sobre programación orientada a objetos](../../assets/images/10ce9a67-1060-4550-a824-5087688d0630.png)
 
-***
+
 
 ### Algunas propiedades pueden ser una clase en lugar de ser un tipo de datos simple…
 
@@ -73,7 +73,7 @@ Una mejor solución será usar clases de fecha predefinidas (pre-defined Date Cl
 
 ![conceptos sobre programación orientada a objetos](../../assets/images/6f07bc8b-6d21-46e6-8710-34992df2508b.png)
 
-***
+
 
 ### Las clases pueden tener propiedades calculadas
 
@@ -85,7 +85,7 @@ Algunas propiedades son calculadas durante el tiempo de ejecución cada vez que 
 
 
 ## ¡Vamos a hacer nuestro primer diagrama de clase!
-***
+
 
 ¡Vamos a hacer nuestro primer diagrama de clase!
 Digamos que estás diseñando el modelo orientado a objetos de un nuevo sitio web, y tu cliente desea crear un carrito de compras.  Esto es fácil porque este tipo de sitios web se hacen todos los días (en realidad, será más inteligente y más eficiente clonar un modelo ya hecho; sin embargo, por el bien de esta lección, vamos a continuar con nuestro ejemplo).
@@ -98,8 +98,7 @@ Al crear cualquier Diagrama de Clase de tu aplicación, debes tener en cuenta lo
 + Para cada clase, se debe especificar el número mínimo de propiedades (las propiedades innecesarias harán que el diagrama sea complicado).
 + Usa notas cuando sea necesario para describir algún aspecto del diagrama.  Al finalizar el dibujo, debe ser comprensible para el desarrollador / codificador.
 
-[[warning]]
-| :point_up:Es importante decir que no hay soluciones correctas o incorrectas para este tipo de problemas.  Debes permanecer confiado y atenerte a tu estrategia.  Sin embargo, asegúrate de tomarte el tiempo suficiente para diseñar una buena estrategia antes de agregar algún código – de lo contrario, será difícil cambiar las cosas durante el desarrollo de aplicaciones grandes (con muchas clases).
+> :point_up: Es importante decir que no hay soluciones correctas o incorrectas para este tipo de problemas.  Debes permanecer confiado y atenerte a tu estrategia.  Sin embargo, asegúrate de tomarte el tiempo suficiente para diseñar una buena estrategia antes de agregar algún código – de lo contrario, será difícil cambiar las cosas durante el desarrollo de aplicaciones grandes (con muchas clases).
 
 ### Construyendo un sitio web de concesionarios de autos
 
@@ -125,7 +124,7 @@ Los clientes tienen nombres de usuario, nombres, apellidos.  Cars tienen color, 
 Los diagramas de clase también deben expresar la forma en que las clases se relacionan entre sí y las funciones que tienen  (incluyendo las funciones "getter" y "setter").
 
 ## Escribiendo una Clase (sintaxis)
-***
+
 
 Para declarar una clase necesitamos usar la palabra "class" en cualquier lugar de nuestro código, seguido del nombre de la clase que queremos asignarle.  Comienza y termina cada clase con corchetes.
 
@@ -134,7 +133,7 @@ Las propiedades se declaran al comienzo de cada clase; globalmente dentro de los
 Justo después de las propiedades, tienes que declarar las funciones.
 
 ## El constructor de clase
-***
+
 
 
 El "constructor de clase" es la primera función que se llama en toda la clase.  Se llama tan pronto como se crea el objeto.  Es una buena práctica asignar valores iniciales a las propiedades de la clase dentro de su método de construcción.
@@ -144,12 +143,12 @@ Llamamos al constructor una de las "funciones mágicas."  Son "mágicas" porque 
 Las funciones mágicas siempre comienzan con dos guiones bajos, y el __construct() .  Usamos __construct() para hacer algo tan pronto como creamos un objeto fuera de una clase.  Una función de este tipo se llama un constructor.  Usualmente usamos el constructor para establecer un valor para una propiedad.
 
 ## El Operador "this" o "self"
-***
+
 
 El "this" (en JavaScript y PHP) o "self" (en Python) indica que estamos utilizando los métodos y propiedades específicos de la clase, y nos permite tener acceso a ellos dentro del alcance de la clase específica.
 
 ## Sintaxis de Propiedades de Clase
-***
+
 
 Las propiedades se declaran al comienzo de cada clase (globalmente dentro de los paréntesis de esa clase en particular).  Justo después de las propiedades, también tiene que declarar las propiedades calculadas.
 
@@ -157,16 +156,15 @@ Las propiedades se declaran al comienzo de cada clase (globalmente dentro de los
 
 Todas las propiedades de clase tienen una visibilidad pública por defecto; puedes cambiar su visibilidad a privada si te parece mejor:*
 
-[[warning]]
-| :point_up:*JavaScript y Python no tienen propiedades privadas o públicas – todos son públicas por defecto.  Es una buena práctica usar el símbolo de guión bajo para simular el mismo comportamiento.
+> :point_up: *JavaScript y Python no tienen propiedades privadas o públicas – todos son públicas por defecto.  Es una buena práctica usar el símbolo de guión bajo para simular el mismo comportamiento.
 
-***
+
 
 #### Propiedades Públicas
 
 Propiedades a las que se puede acceder desde fuera de la clase usando el operador ->.
 
-***
+
 
 #### Propiedades Privadas
 
@@ -176,7 +174,7 @@ Para acceder a una propiedad privada necesitas crear dos funciones: ***una capta
 + La función getter será responsable de acceder al valor internamente y devolverlo a quien lo solicite.
 + La función setter es responsable de asignar el valor dado (como parámetro) a la propiedad privada interna.
 
-***
+
 
 ### ¿Cuál es el punto de usar "getters" y "setters"?
 
@@ -206,13 +204,12 @@ Quizas puedas sentir que no tiene sentido usar "getters" y "setters" para cada p
 
 <div align="right"><small><a href="https://repl.it/G1cx/0?lite=true">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
 
-[[warning]]
-| :point_up:Algunos lenguajes, como PHP, tienen sus propias funciones mágicas __get y __set para implementar getters y setters.  Sin embargo, esto no es una buena idea debido a problemas de rendimiento.  Es una mejor idea crear tus propias funciones "get/set" de acuerdo con las necesidades de tu proyecto.  [Aquí está el razonamiento detrás de esto.](https://stackoverflow.com/questions/6184337/best-practice-php-magic-methods-set-and-get)
+> :point_up: Algunos lenguajes, como PHP, tienen sus propias funciones mágicas __get y __set para implementar getters y setters.  Sin embargo, esto no es una buena idea debido a problemas de rendimiento.  Es una mejor idea crear tus propias funciones "get/set" de acuerdo con las necesidades de tu proyecto.  [Aquí está el razonamiento detrás de esto.](https://stackoverflow.com/questions/6184337/best-practice-php-magic-methods-set-and-get)
 
 
 
 ## Agrupación (Dividir y Conquistar)
-***
+
 
 ***Agrupación*** es el proceso de combinar datos y funciones en una sola unidad llamada "clase".
 
@@ -225,7 +222,7 @@ Por ejemplo, un conductor de automóvil no necesita saber cómo funciona un moto
 Al ocultar la complejidad del auto al usuario, cualquier persona, no solo un mecánico, puede conducir un automóvil.  De la misma manera, ocultar la compleja funcionalidad de tu objeto al usuario le permite a CUALQUIERA usarlo y encontrar formas de reutilizarlo en el futuro (independientemente de su conocimiento del funcionamiento interno). Este concepto de mantener los detalles de la implementación ocultos del resto del sistema es clave para el diseño orientado a objetos.
 
 ## Herencia
-***
+
 
 En [programación orientada a objetos](https://searchmicroservices.techtarget.com/definition/object-oriented-programming-OOP), herencia significa que al definir una [clase](https://whatis.techtarget.com/definition/class) de [objetos](https://searchmicroservices.techtarget.com/definition/object), cualquier subclase definida puede heredar las definiciones de una o más clases generales.  Esto significa que, para el programador, un objeto en una subclase no necesita llevar su propia definición de datos y métodos que son genéricos para la clase (o clases) de la que forma parte.  Esto no solo acelera el desarrollo del programa; también garantiza una validez inherente al objeto de subclase definido (lo que funciona y es consistente acerca de la clase también funcionará para la subclase).
 

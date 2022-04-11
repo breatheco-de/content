@@ -26,8 +26,7 @@ Aquí hay un ejemplo de endpoints RESTful API para gestionar **Estudiantes**:
 
 Echa un vistazo a las URL, ellas siguen un patrón. Después de un tiempo, los endpoints hablarán por sí mismos, tendrán sentido y podrás adivinar a lo que hacen o incluso adivinar algunos endpoints. Esa es la idea.
 
-[[info]]
-| :point_up: Puede leer más sobre las API REST en [esta lección de BreatheCode](http://content.breatheco.de/lesson/understanding-rest-apis).<br /> Aquí hay un video de 8 minutos que explica REST: https://www.youtube.com/watch?v=7YcW25PHnAA
+> :point_up: Puede leer más sobre las API REST en [esta lección de BreatheCode](http://content.breatheco.de/lesson/understanding-rest-apis).<br /> Aquí hay un video de 8 minutos que explica REST: https://www.youtube.com/watch?v=7YcW25PHnAA
 
 ## Ahora hablemos sobre Flask
 

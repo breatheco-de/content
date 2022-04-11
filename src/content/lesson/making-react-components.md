@@ -13,7 +13,7 @@ status: "published"
 
 React.js separates your code into little pieces called Components which can be created/defined as a **class** or as a **function**.  Each component is like a smaller React app that has its own logic and has a final purpose, which is to display or **render** something (e.g: a bootstrap navbar, a dropdown list, a model, a dynamic form, image gallery, subscribe form, almost everything can be designed and coded as a React Component). To do that every React component needs to have a `return` statement which returns some JSX code (HTML + embeded JS). 
 
-```jsx {numberLines: true}
+```jsx 
 // a function component 
 function NavBar(props){
     return (<nav className="navbar navbar-light bg-light">
@@ -31,8 +31,7 @@ class Navbar extends React.Component{
     }
 }
 ```
-[[warning]]
-| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+> :point_up:  This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
 
 
 ## Using a Component
@@ -102,8 +101,7 @@ In another example, let's say that you are developing a `<Clock />` component th
 
 In order for the state to keep a web page up-to-date, it is programmed to re-render the DOM every time it is modified. So you can probably already see how you can take advantage of this feature - by keeping your current time inside of the state and reassigning it with the most current time on every second. Like so:
 
-[[info]]
-| :point_up:The following demo updates the current time on every second:
+> :point_up:The following demo updates the current time on every second:
 
 <iframe src="https://codesandbox.io/embed/zw852wvqp4?autoresize=1&amp;hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
@@ -115,7 +113,7 @@ The state is always located inside of the `constructor()` method of the class co
 
 When speaking about modifying the value of the state, you have to remember that the state should not be mutated directly. It should only be modified by calling the specially designated method this.setState(). In it you will have to pass a new/updated state object that will replace the previous state values. For example:
 
-```jsx {numberLines: true} 
+```jsx  
 
 // a direct assignment of this.state is only allowed in the constructor method of your class; anywhere else it may cause an error in your stored data
 constructor(){
@@ -213,8 +211,7 @@ ReactDOM.render(
 
 ```
 
-[[warning]]
-| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+> :point_up:  This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
 
 
 
@@ -362,7 +359,6 @@ class MyComponent{
     }
 ```              
 
-[[info]]
-|:link: Here you can find [more information about all the React JS lifecycle methods.](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
+> :link: Here you can find [more information about all the React JS lifecycle methods.](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
 
 

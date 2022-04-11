@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## Why are Arrays in a Separate Lesson?
-***
+
 
 Because arrays are awesome!  You need them!  And we need to focus a lot on them in order to prepare you for real life 🙂
 
@@ -41,11 +41,10 @@ Every array has the same basic concepts:
 ![what is an array define array](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
 
 
-[[info]]
-| :point_up:Array positions start at **zero (0)**; the first element is the element in the position **zero (0)**
+> :point_up:Array positions start at **zero (0)**; the first element is the element in the position **zero (0)**
 
 ## How to Declare an Array?
-***
+
 
 These are different examples of list declarations:
 
@@ -56,11 +55,10 @@ var myArray = new Array(1,2,3,4,5); //Don't use this! Read below to learn why.
 ```
 
 
-[[warning]]
-| :point_up:Don't declare the Arrays with the `new Array()` syntax – it will not behave properly  [click here to learn the details](https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
+> :point_up: Don't declare the Arrays with the `new Array()` syntax – it will not behave properly  [click here to learn the details](https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
 
 ## Access Items in the Array
-***
+
 
 To access a specific element in a list, you need an `index`.  We call `index` the integer value that represents the position of the element you want to access/get/retrieve.
 
@@ -74,7 +72,7 @@ var aux = myArray[5];
 ```
 
 ## Update Items in the Array
-***
+
 
 If you want, you can reset or update any item inside of an array using the index like this:
 
@@ -84,7 +82,7 @@ myArray[5] = 'Whatever value';
 ```
 
 ## Adding Elements (push function)
-***
+
 
 The only way to add a new element is at the end of the list, and you will need to use the push() function for that.
 
@@ -110,7 +108,7 @@ var myNewArray = [];
 ```
 
 ## Removing Elements (pop function)
-***
+
 
 Removing an element has the exact same limitations as in adding an element: you can only remove an element from the last position using the pop() method.  If you want to remove a different element, you will need to create a new array without that particular element.
 
@@ -127,7 +125,7 @@ var myNewArray = [];
 ```
 
 ## Removing/Adding from the Beginning
-***
+
 
 The shift and unshift methods are just like push and pop but with the difference that they will only work from the very beginning of the list.
 
@@ -143,7 +141,7 @@ var myArray = ['Chris','Bob','Pedro','Juan','Maria'];
 ```
 
 ## Looping an Array
-***
+
 
 Sometimes, when working with arrays, you will need to loop them.  For example: sorting them manually; flipping them; deleting an element from a particular position, etc.
 
@@ -157,7 +155,7 @@ var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
 ```
 
 ## For…in… 
-***
+
 
 There is a great adaptation of the **for ** statement to make it loop lists or arrays, like this:
 
@@ -170,12 +168,12 @@ var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
 ```
 
 ## Removing from an Array
-***
+
 
 Variables can have different types of values.  Some of them are available only in specific programming languages, but, almost all of them have the following types:
 
 ### Splice and Slice
-***
+
 
 It is possible to cut an array in pieces very fast, with the splice and slice functions.
 
@@ -195,8 +193,7 @@ Will update the current array leaving everything but the smaller version that yo
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Slice-vs-Splice">Click to open demo in a new window</a></small></div>
 
 
-[[info]]
-| :point_up:  Splice can accept as many optional paramenters as wanted and those will substitute the part of the array that has been deleted. The first parameter is the index where the deletion starts, the second how many elements will be deleted and from the third onward the elements inserted after the position set by the first parameter.
+> :point_up:  Splice can accept as many optional paramenters as wanted and those will substitute the part of the array that has been deleted. The first parameter is the index where the deletion starts, the second how many elements will be deleted and from the third onward the elements inserted after the position set by the first parameter.
 
 Example:
 ```javascript
@@ -215,7 +212,7 @@ console.log(y); // [14, 3, 'a', 3245, 234, 52, 345, 3, 45, 23, 77]
 
 
 ## Sorting the Arrays
-***
+
 
 It is very common needing to sorting arrays.  For example: sorting a list of students by name.  You have two functions for sorting in JavaScript:
 

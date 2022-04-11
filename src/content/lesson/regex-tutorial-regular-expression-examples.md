@@ -11,7 +11,7 @@ status: "published"
 ---
 
 ## What is a Regular Expression (Regex)?
-***
+
 
 Basically, a regular expression is a pattern describing a certain amount of text.  For example, you know that emails are always like:
 
@@ -22,7 +22,7 @@ Basically, a regular expression is a pattern describing a certain amount of text
 The process of describing the pattern of an email is the same process you will follow when you want to create a regular expression.  The only difference will be the syntax.
 
 ## Why Use Regex?
-***
+
 
 All major programming languages use regular expressions (C++, PHP, .NET, Java, JavaScript, Python, Ruby, and many others).  As a web developer, you have to always be working with strings to validate the user’s inputted data, to validate URL formats, to replace words in paragraphs, etc.  These are the main uses for regular expressions:
 
@@ -34,12 +34,12 @@ All major programming languages use regular expressions (C++, PHP, .NET, Java, J
 + and more…
 
 ## Building and Testing Regular Expressions
-***
+
 
 Never start creating a Regex without having a live testing tool – it can get very complicated very easily.  The best way is to use the "divide and conquer" strategy (again) – split your Regex into several smaller Regex’s, and then combine them all.
 
 ## The Patterns Syntax
-***
+
 
 This is a regular expression that checks for an email pattern:
 
@@ -149,7 +149,7 @@ If you prefer, you can use these shortcuts in your regular expressions:
 
 
 ## Grouping or Enclosing Regular Expressions with `python>()`
-***
+
 
 We always talk about "divide and conquer," right?  Well, your best friend for that will be the parenthesis operator `python>( )`.  We are now able to group any pattern just like we do in math.
 
@@ -162,7 +162,7 @@ For example, this Regex accepts one or many repetitions of the `ab` string follo
 <div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bGklNUIlNUV2JTVEZQ%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLg%3D%3D">Click to open demo in a new window</a></small></div>
 
 ## Using Quantifier in Regular Expressions 
-***
+
 
 Sometimes, you don’t want to specify the number of characters that a Regex can have.  For example, a domain name can have between 1 to maybe 100 characters…who knows?
 
@@ -191,16 +191,14 @@ We can place the quantifier after the character patterns that we want to repeat.
 <div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVCbk4lNURvdiUyOGVtYmVyJTI5JTNG&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLiBUaGUgYmVzdCBkYXRlIHRvIGdyb3cgb2xpdmVzIGlzIG9uIE5vdmVtYmVyIHRoZSAyNHRoLCBub3Qgb24gTm92ZW1iZXIgdGhlIDNyZC4%3D">Click to open demo in a new window</a></small></div>
 
 
-[[demo]]
-| :point_up:Here are two amazing tools to build, & test Regular Expressions.https://regex101.com/ and http://regexr.com/
+> :point_up:Here are two amazing tools to build, & test Regular Expressions.https://regex101.com/ and http://regexr.com/
 
-[[demo]]
-| :point_up:Here is an interactive tutorial to learn regular expressions:https://regexone.com/
+> :point_up:Here is an interactive tutorial to learn regular expressions:https://regexone.com/
 
 
 
 ## Some very useful Regular Expressions
-***
+
 
 Lets face it:  regular expressions are something you will use every once in a while (unless you specialize in a very particular area of the web development world).  The syntax is easy to forget, and you probably are going to find your Regex’s from the internet a lot of the time.  The important thing here is that you understand them and that you are able to play with them whenever you need to.
 

@@ -60,13 +60,11 @@ It’s very easy to decide how your website will render in different screen size
 |:---------|:--------|:----|
 |Means that this element should behave like a Bootstrap column.   |Means that I am specifying only for the devices with a "medium" sized screen.   |Specifies how many slots I want this column to take (remember you can take a max of 12 slots per row).   |
 
-[[info]]
-| :point_up:Bootstrap device sizes:   |Phones   |Big-phone/small-tablet   |Tablets   |Desktops   |Extra-large desktops   |
+> :point_up:Bootstrap device sizes:   |Phones   |Big-phone/small-tablet   |Tablets   |Desktops   |Extra-large desktops   |
 |:----------|:---------------|:-------------|:-----------|:------------|:---------|
 | &nbsp;           |Nothing    |sm       |md       |lg      |xl        |
 
-[[warning]]
-| :point_up:Note: if you don’t specify the screen size (ex. by using 'sm', 'md', or 'xl'), the website will be rendered for mobile phones by default.
+> :point_up: Note: if you don’t specify the screen size (ex. by using 'sm', 'md', or 'xl'), the website will be rendered for mobile phones by default.
 
 ## Defining Mobile, Tablet, and Desktop at the same time
 
@@ -74,7 +72,7 @@ We are going to set the layout (using the sm, md and lg column classes) for  two
 
 ![bootstrap 4](../../assets/images/e15c594c-9b46-4c27-bf5a-a5bbb5ef952a.png)
 
-```html{numberLines: true}
+```html
 <!-- Stack the columns on mobile by making one full-width and the other half-width --> 
 <div class="row">
   <div class="col-12 col-md-8">.col-12 .col-md-8</div>
@@ -99,7 +97,7 @@ We are going to set the layout (using the sm, md and lg column classes) for  two
 
 We already know the basic HTML5 skeleton any website needs to have.  Now you just have to add a few lines in your skeleton to make it "Bootstrap compatible":
 
-```html{numberLines: true}
+```html
 <!doctype html>
 <html lang="en">
   <head>
@@ -128,8 +126,7 @@ Remember, Bootstrap is just a stylesheet.  That’s why it is very simple to inc
 
 The Bootstrap Javascript functionality requires the jQuery and Popper Javascript libraries to be included first.  You don’t need to know the details about this yet.  Just include the JS libraries using the script tag and later you will understand.
 
-[[info]]
-|:link: Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+> :link: Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
 ## Bootstrap 4 Components
 
@@ -152,10 +149,9 @@ Here is an example of how a NavBar may look on a website:
 
 ![bootstrap tutorial](../../assets/images/6351de1c-6d90-4502-8823-4b751981db9f.png)
 
-[[info]]
-| :link:[**Read more about the NavBar here**](https://getbootstrap.com/docs/4.0/components/navbar/)
+> :link:[**Read more about the NavBar here**](https://getbootstrap.com/docs/4.0/components/navbar/)
 
-```html{numberLines: true}
+```html
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">Website Brand</a>
@@ -197,10 +193,9 @@ Here is an example of how a "The Card" may look on a website:
 
 ![bootstrap 4](../../assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png)
 
-[[info]]
-| :link: [**Read more about the card here**](https://getbootstrap.com/docs/4.0/components/card/)
+> :link: [**Read more about the card here**](https://getbootstrap.com/docs/4.0/components/card/)
 
-```html{numberLines: true}
+```html
 <div class="card" style="width: 20rem;">
   <img class="card-img-top" src="..." alt="Card image cap">
   <div class="card-body">
@@ -221,10 +216,9 @@ Here is how a modal looks by default on Bootstrap.
 
 ![bootstrap 4](../../assets/images/6bcba673-a543-4bf1-a80b-083914b91bef.png)
 
-[[info]]
-| :link:[**Read more about modal here**](https://getbootstrap.com/docs/4.0/components/modal/)
+> :link:[**Read more about modal here**](https://getbootstrap.com/docs/4.0/components/modal/)
 
-```html{numberLines: true}
+```html
 div class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -247,8 +241,7 @@ div class="modal" tabindex="-1" role="dialog">
 ```
 
 
-[[warning]]
-| :point_up:Important! The Modal needs Javascript in order to work. Remember to include the three Javascript files that are needed in a typical Bootstrap Skeleton: jQuery, Popper and Bootstrap.js
+> :point_up: Important! The Modal needs Javascript in order to work. Remember to include the three Javascript files that are needed in a typical Bootstrap Skeleton: jQuery, Popper and Bootstrap.js
 
 ## What you really need to know about Bootstrap
 

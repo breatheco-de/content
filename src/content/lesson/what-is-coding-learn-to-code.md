@@ -18,7 +18,7 @@ Your code will have a "beginning" line and an "ending" line, and the computer wi
 Since we are building small basic algorithms (for now) we are going to be using a computer command line simulator on [c9](https://aws.amazon.com/es/cloud9/?origin=c9io) and [repl.it](https://repl.it/) to interact with our program.
 
 ## The Command Line
-***
+
 
 Computers don’t need visual interfaces, humans do.  But now you are becoming a developer and you have more things in common with computers every day – the "command line" will be one of them.  Please look at this computer terminal simulator and run the code.  The computer will print the result after running the algorithm in the terminal at the bottom of the window:
 
@@ -29,11 +29,10 @@ Computers don’t need visual interfaces, humans do.  But now you are becoming a
 
 
 
-[[warning]]
-| :point_up:What happened here?<br>When you pressed "run" the algorithm started executing, and the only action it performed was to print the sentence: "Hello, human… what are your orders for today?" 
+> :point_up: What happened here?<br>When you pressed "run" the algorithm started executing, and the only action it performed was to print the sentence: "Hello, human… what are your orders for today?" 
 
 ## The Runtime 
-***
+
 
 The runtime is the most abstract place you will find in your entire life.  It is similar to the mind of an artist just before he gets to the epiphany…okay, sorry, we got a little overexcited here…let’s put it in plain words:
 
@@ -48,7 +47,7 @@ This is what a "runtime error" (an error that occurs during runtime) looks like:
 
 
 ## The Language
-***
+
 
 Computers speak only one language: **Assembly**.  But using the assembly language is hard because it is the very base of everything.  You have to take care of basic things like cleaning the computer memory, converting string characters into their binary representation, etc.  That is why developers created layers of abstraction: to avoid doing basic activities every day.  In the end, all the code you type is going to be converted into "Assembly" (but you don’t have to care about that).
 

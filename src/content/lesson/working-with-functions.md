@@ -55,9 +55,9 @@ If you think about it, functions are the equivalent of books. They store knowled
 
 ## The Function Scope
 
-All functions must start and end somewhere, that its called **the scope of the function**. You can delimit the boundries using curly brackets like this:
+All functions must start and end somewhere, that its called **the scope of the function**. You can delimit the boundaries using curly brackets like this:
 
-```javascript{numberLines: true} 
+```javascript 
 
 //this part of the code is OUTSIDE the 'multiply' function 
 
@@ -76,7 +76,7 @@ function multiply(a, b) {
 
 Any variables that you declare inside the function will not be available outside of it.
 
-```javascript{numberLines: true}
+```javascript
 function multiply(a, b) {
 
    let myVariable = 'hello';
@@ -91,8 +91,7 @@ console.log(myVariable);
 ```
 
 
-[[warning]]
-| :point_up: It is very important to remember that once you use the `return` statement the function will stop executing, if there is any code after that statement it will never be executed.
+> :point_up:  It is very important to remember that once you use the `return` statement the function will stop executing, if there is any code after that statement it will never be executed.
 
 ## Anonymous Functions
 
@@ -127,7 +126,7 @@ Please remember to assign the function whatever parameters it should receive.  I
 
 You can combine functions however you want and have chained calls like this:
 
-```javascript{numberLines: true} 
+```javascript 
 function sum(a,b){
    return a+b;
 }
@@ -147,8 +146,7 @@ let secondSum = sum(1,1);
 console.log(multiply(firstSum, secondSum));
 ```
 
-[[demo]]
-| :point_up: [View this example live at replit](https://repl.it/@4GeeksAcademy/Nested-Function-Calling)
+> :point_up: [View this example live at replit](https://repl.it/@4GeeksAcademy/Nested-Function-Calling)
 
 ## Let’s see an Example:
 

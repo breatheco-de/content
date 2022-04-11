@@ -41,7 +41,7 @@ Pero eso es solo el comienzo, porque ahora que Webpack tiene el control sobre to
 La lista es interminable – será mejor que continuemos o estaremos aquí todo el día 🙂
 
 ## Esto es lo que necesitas saber para comenzar a utilizar Webpack ahora mismo.
-***
+
   
 <br />
 <br /> 
@@ -151,14 +151,13 @@ Arriba, le estamos diciendo a Webpack que el css-loader cargará cualquier archi
 De aquí en adelante, depende de ti – solo sigue instalando plugins y aprendiendo a configurarlos en tu archivo webpack.config.js . [Aquí hay una lista más detallada de los fantásticos plugins que puedes usar:](https://github.com/webpack-contrib/awesome-webpack)
 
 ## Configuración Básica 
-***
+
 
 No tienes que estar configurando Webpack todo el tiempo.  Puedes incluir el archivo de configuración en tu repositorio – de esta forma todo se sincroniza entre todos los entornos y desarrolladores.  También puedes guardar algunos archivos webpack.config.js como plantillas para futuros proyectos.
 
 También puedes encontrar y descargar configuraciones en línea que ya están completadas y ajustadas para varias arquitecturas de diferentes aplicaciones que están disponibles: React, Angular, Vanilla JS, WordPress, etc.
 
-[[info]]
-|:link: Hemos preparado un repositorio GIT con varias configuraciones dependiendo de tus necesidades – [<button>¡Haz clic!</button>](https://github.com/alesanchezr/webpack-tutorial)
+> :link: Hemos preparado un repositorio GIT con varias configuraciones dependiendo de tus necesidades – [<button>¡Haz clic!</button>](https://github.com/alesanchezr/webpack-tutorial)
 
 
 

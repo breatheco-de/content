@@ -9,8 +9,7 @@ status: "published"
 
 ---
 
-[[info]]
-| 📹 Here is a video explaining the JWT authentication [implementation using React.js, Context API and Python Flask](https://youtu.be/8-W2O_R95Pk).
+> 📹 Here is a video explaining the JWT authentication [implementation using React.js, Context API and Python Flask](https://youtu.be/8-W2O_R95Pk).
 
 Almost every [API needs an authentication layer](/lesson/token-based-api-authentication), and there are many ways to tackle that problem, today we are going to be implementing JWT token into our Flask API.
 
@@ -27,8 +26,7 @@ You can divide a standard authentication process in 5 main steps:
 
 ![Autentication workflow](../../assets/images/authentication-diagram.png)
 
-[[info]]
-| :point_up: If you don't know what a token is, I would recomend [this reading](/lesson/token-based-api-authentication).
+> :point_up: If you don't know what a token is, I would recomend [this reading](/lesson/token-based-api-authentication).
 
 ## What is JWT?
 
@@ -40,8 +38,7 @@ There are many ways to create tokens: Basic, Bearer, JWT, etc. All of them are d
 | Bearer Token  | YWxlc2FuY2hlenI6NzE0YmZhNDNlN2MzMTJiZTk5OWQwYWZlYTg5MTQ4ZTc=            |
 | JWT Token     | eyJhbGciOiJIUzI1NiIsInR5c.eyJzdWIiOFt2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpM |
 
-[[info]]
-| :point_up: As you can see, JWT Tokens are bigger than the other two types of token.
+> :point_up: As you can see, JWT Tokens are bigger than the other two types of token.
 
 **JSON Web Token or JWT is an open standard to create tokens**
 

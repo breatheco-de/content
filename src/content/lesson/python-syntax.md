@@ -17,7 +17,7 @@ Python and Javascript are friends.  Together they make the best possible team to
 <br>
 
 ## Why Python?
-***
+
 
 With Javascript, you were tied and limited to the browser, you can’t access the client’s computer, and it is basically a rendering language.  But Python is different - being a backend language, it runs on your own server – meaning you have access to and can control the entire computer with it.  You have access to any application running on the same computer.   You have access to the console.  You have access to the network where the computer is connected to, and much more.
 
@@ -41,7 +41,7 @@ When you compare it to other back-end languages, Python is leading in almost eve
 <br>
 
 ## Javascript vs Python Syntax
-***
+
 
 Python and Javascript complement each other.  In terms of functionality they have NOTHING in common – they don’t serve the same purpose, they don’t do the same things, they come from different backgrounds, etc.
 
@@ -51,7 +51,7 @@ The things that you will be familiar from Javascript are the basics of any progr
 <br>
 
 ### Data-types
-***
+
 
 There are only a few differences; here is the explanation:
 
@@ -69,7 +69,7 @@ There are only a few differences; here is the explanation:
 <br>
 
 ## Packages (Importing from other files)
-***
+
 
 In Javascript, you can import variables from other files using the ***import*** or ***require*** command, but you need to **export** the variables files first.
 
@@ -91,7 +91,7 @@ from package1.module2 import function1
 <br>
 
 ## Package Managers
-***
+
 
 What NPM is for Javascript, PIP is for Python.  Both beasts are amazing but very different inside.  The biggest difference being that NPM packages are downloaded locally to a "node_modules" folder while PIP packages are installed on the entire machine – outside the project folder.  Another small difference is that NPM uses a package.json and PIP uses a requirements.txt file.
 
@@ -101,7 +101,7 @@ What NPM is for Javascript, PIP is for Python.  Both beasts are amazing but very
 
 
 ### Casting (parsing) Data-Types
-***
+
 
 Javascript is so flexible that you don’t have to pay much attention to data types.   Python does not like that - in Python, you will get used to casting variables and converting them in between data-types.
 
@@ -127,7 +127,7 @@ result = int('5') - int('2')
 
 
 ### Printing Values
-***
+
 
 Python has "print" for writing either into a document or into the console. Remember that, since Python – like any other back-end language – runs before the preload event, it does not have access to the Javascript console.
 
@@ -168,7 +168,7 @@ print(arrayValue) //this will work, printing the content of the array in a forma
 <br>
 
 ### The Lambda Function vs Arrow Function
-***
+
 
 Finally, in ES2015, Javascript included the "arrow functions."  That is a very easy and light way to declare and use functions.  Python, on the other hand, has something similar called lambda functions that basically let you use little inline anonymous functions as shortcuts.
 
@@ -205,14 +205,13 @@ print(namesArray)
 ```
 
 
-[[info]]
-| :tv: Here is a weird but amazing video explaining lambda functions: https://www.youtube.com/watch?v=25ovCm9jKfA
+> :tv: Here is a weird but amazing video explaining lambda functions: https://www.youtube.com/watch?v=25ovCm9jKfA
 
 <br>
 <br>
 
 ### Looping lists (similar to arrays)
-***
+
 
 #### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With  JavaScript
 
@@ -245,7 +244,7 @@ for color in colors:
 <br>
 
 ### Adding and Removing Items
-***
+
 
 <br>
 <br>
@@ -275,7 +274,7 @@ print(myList)
 ```
 
 ### Sorting Functions for Lists
-***
+
 
 #### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) With Python
 
@@ -290,8 +289,7 @@ myArray.sort(key=lambda person: person['name'])
 ```
 
 
-[[info]]
-| :tv: Let’s summon Socratica again to understand sorting in Python: https://www.youtube.com/watch?v=QtwhlHP_tqc
+> :tv: Let’s summon Socratica again to understand sorting in Python: https://www.youtube.com/watch?v=QtwhlHP_tqc
 
 ### The Switch Statement
 
@@ -301,14 +299,13 @@ myArray.sort(key=lambda person: person['name'])
 
 Python brings a new kind of data-type called a "Tuple". Think about it like a super slim and fast performance List.  But, like always, to increase performance we need to decrease functionality.
 
-[[info]]
-| :tv: This is a mandatory video explaining the difference between them: https://www.youtube.com/watch?v=NI26dqhs2Rk
+> :tv: This is a mandatory video explaining the difference between them: https://www.youtube.com/watch?v=NI26dqhs2Rk
 
 ### Objects
 
 #### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
 
-```javascript{numberLines: true}
+```javascript
 //There are two ways of declaring an object 
 
 //Like an object literal 
@@ -329,7 +326,7 @@ obj.lastname = "Perez";
 
 #### ![python syntaxpython syntaxpython tutorial python class](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) With Python
 
-```python{numberLines: true}
+```python
 # In Python we have Classes and Dictionaries 
 
 # Here is how you declare and use a dictionary 
@@ -349,8 +346,7 @@ obj.lastname = "Perez"
 ```
 
 
-[[info]]
-| :tv: Socratica, our great evolved specimen & friend, explains Objects in a great way: https://www.youtube.com/watch?v=apACNr7DC_s
+> :tv: Socratica, our great evolved specimen & friend, explains Objects in a great way: https://www.youtube.com/watch?v=apACNr7DC_s
 
 
 

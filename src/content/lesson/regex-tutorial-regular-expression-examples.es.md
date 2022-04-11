@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## ¿Qué es una Expresión Regular (Regex)?
-***
+
 
 Básicamente, una expresión regular es un patrón que describe una cierta cantidad de texto. Por ejemplo, sabes que los correos electrónicos son siempre como:
 
@@ -21,7 +21,7 @@ Básicamente, una expresión regular es un patrón que describe una cierta canti
 El proceso de describir el patrón de un correo electrónico es el mismo proceso que seguirá cuando desee crear una expresión regular. La única diferencia será la sintaxis.
 
 ## ¿Por qué Usar Regex?
-***
+
 
 Todos los principales lenguajes de programación utilizan expresiones regulares (C ++, PHP, .NET, Java, JavaScript, Python, Ruby y muchos otros). Como desarrollador web, siempre debes trabajar con strings para validar los datos ingresados por el usuario, validar formatos de URL, reemplazar palabras en párrafos, etc. Estos son los usos principales de las expresiones regulares:
 
@@ -33,12 +33,12 @@ Todos los principales lenguajes de programación utilizan expresiones regulares 
 + y más…
 
 ## Construyendo y probando expresiones regulares
-***
+
 
 Nunca comiences a crear un Regex sin tener una herramienta de prueba en vivo, ya que puede complicarse con mucha facilidad. La mejor manera es usar la estrategia "divide y vencerás" (otra vez): divide tu Regex en varios Regex más pequeños, y luego combínalos todos.
 
 ## La Sintaxis de los Patrones
-***
+
 
 Esta es una expresión regular que busca un patrón de correo electrónico:
 
@@ -148,7 +148,7 @@ Si lo prefieres, puedes usar estos accesos directos en tus expresiones regulares
 
 
 ## Agrupar o encerrar expresiones regulares con `python>()`
-***
+
 
 Siempre hablamos de "divide y vencerás", ¿verdad? Bueno, tu mejor amigo para eso será el operador de paréntesis `python> ()`. Ahora podemos agrupar cualquier patrón como lo hacemos en matemáticas.
 
@@ -161,7 +161,7 @@ Por ejemplo, este Regex acepta una o muchas repeticiones del string `ab` seguido
 <div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bGklNUIlNUV2JTVEZQ%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLg%3D%3D">Haz clic aquí para abrir la demo en una nueva ventana</a></small></div>
 
 ## Usando el cuantificador en expresiones regulares
-***
+
 
 A veces, no desea especificar el número de caracteres que puede tener un Regex. Por ejemplo, un nombre de dominio puede tener entre 1 y quizás 100 caracteres ... ¿quién sabe?
 
@@ -190,16 +190,14 @@ Podemos colocar el cuantificador después de los patrones de caracteres que quer
 <div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVCbk4lNURvdiUyOGVtYmVyJTI5JTNG&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLiBUaGUgYmVzdCBkYXRlIHRvIGdyb3cgb2xpdmVzIGlzIG9uIE5vdmVtYmVyIHRoZSAyNHRoLCBub3Qgb24gTm92ZW1iZXIgdGhlIDNyZC4%3D">Haz clic aquí para abrir la demo en una nueva ventana</a></small></div>
 
 
-[[demo]]
-| :point_up: Aquí hay dos herramientas increíbles para construir y probar expresiones regulares. https://regex101.com/ and http://regexr.com/
+> :point_up: Aquí hay dos herramientas increíbles para construir y probar expresiones regulares. https://regex101.com/ and http://regexr.com/
 
-[[demo]]
-| :point_up:Aquí hay un tutorial interactivo para aprender expresiones regulares: https://regexone.com/
+> :point_up:Aquí hay un tutorial interactivo para aprender expresiones regulares: https://regexone.com/
 
 
 
 ## Algunas Expresiones Regulares muy útiles
-***
+
 
 Afrontémoslo: las expresiones regulares son algo que utilizarás de vez en cuando (a menos que te especialices en un área muy particular del mundo del desarrollo web). La sintaxis es fácil de olvidar y es probable que encuentres tu Regex en Internet la mayor parte del tiempo. Lo importante aquí es que los entiendas y que puedas jugar con ellos cuando lo necesites.
 

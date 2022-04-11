@@ -27,7 +27,7 @@ We all can agree that this is A LOT, right!?
 <br>
 
 ## So.. what is React?
-***
+
 
 React JS defines itself as a front-end library for building interactive user interfaces (UIs). As such, it proposes a new way of building websites by redesigning the entire coding workflow as well as making websites faster.
 
@@ -67,15 +67,13 @@ return <h1 id="name"> {person.name == "John" ? "John" : "Tom" } </h1>; //works i
 ```
 
 
-[[info]]
-| :point_up: Familiarize yourself with ternary conditional operations :link:[HERE](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+> :point_up: Familiarize yourself with ternary conditional operations :link:[HERE](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
-[[info]]
-| :point_up: Review the differences between expressions and statements :link:[HERE](https://medium.com/launch-school/javascript-expressions-and-statements-4d32ac9c0e74)
+> :point_up: Review the differences between expressions and statements :link:[HERE](https://medium.com/launch-school/javascript-expressions-and-statements-4d32ac9c0e74)
 
 
 ## Everything Is Now a Component
-***
+
 
 Remember the Bootstap components?  
 
@@ -84,7 +82,7 @@ React takes that concept further by dividing and encapsulating your entire websi
 Here is how we declare a React component as a function, which is what we will stick to during this course:
 
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react';
 
 function MyComponent(){
@@ -101,7 +99,7 @@ Now let's say that we want this component to return a **Bootstrap card:** every 
 
 Here is a how we do that in a React app.
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react';
 
 //we renamed the component to MyCard 
@@ -121,8 +119,7 @@ function MyCard(){
 
 ```
 
-[[info]]
-| :point_up: Each component in React needs to have a render method that returns a block of HTML code
+> :point_up: Each component in React needs to have a render method that returns a block of HTML code
 
 
 Each component can be rendered by calling its `<tag>` which looks just like the HTML tags but always starting with a capital letter.  The difference is that now the name of the `<tag>` is the name of the React component (*e.g. <MyCard />*) that **you** have created, and using the tag gives you access to the look and behavior that you have programmed in your own component.  
@@ -135,7 +132,7 @@ The above component will now **render** (display on the page) a Bootstrap card a
 
 Usually we call components within the return section of another component:
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react';
 
 function MyComponent(){
@@ -153,7 +150,7 @@ The most simple React component is just a function that returns some HTML.  You 
 Here is an example of the same `<MyCard />` component, but now declared as a class:
 
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react';
 
 //here we created the component MyCard as a class 
@@ -173,13 +170,12 @@ export class MyCard extends React.Component{
     }
 }
 ```
-[[warning]]
-| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+> :point_up:  This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
 
 
 
 ## The MAIN Component
-***
+
 
 With React the entire application is considered one component.
 
@@ -187,7 +183,7 @@ The first thing you will do when building big React applications is to define on
 
 Then, you need to inject this main component into the website DOM with the method ReactDOM.render(), like so:
 
-```jsx {numberLines: true}
+```jsx 
 import React from 'react'; //mandatory import of the react package
 import ReactDOM from 'react-dom'; //mandatory import of the react-dom package
 
@@ -244,7 +240,7 @@ A "Layout" in React is basically the combination of two or more components (refe
 
 Let's say you have a [one page website](https://onepagelove.com/what-is-a-one-page-website) with three sections: `Home`, `About Us` and `Contact Us`.  The "React" way of doing that will be by creating a bigger **view** component that contains each component (section), like this:
 
-```jsx {numberLines: true}
+```jsx 
 
 export function EntireWebsiteLayout (){
     
@@ -261,8 +257,7 @@ export function EntireWebsiteLayout (){
 //It is implied that the Home, AboutUs and ContactUs components have already been defined.
 ```
 
-[[warning]]
-| :point_up: This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+> :point_up:  This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
 
 Those components which serve to hold the layout of each of your web pages, and are not re-used for anything else is what we will call "Views", and the typical components that we can re-use multiple times with different input (like a card or a button component) we will call "Components" in the organization of our application's folders.
 
@@ -273,7 +268,7 @@ Each component will have render method.  The final resulting HTML document will 
 ![learn react js tutorial](../../assets/images/6c7d3747-482a-480d-b5be-fdbf095292f3.png)
 
 ## The YouTube.com Example
-***
+
 
 On your application wireframe, you can grab a highlighter and start marking all the components your application is going to have.  The easy ones are the typical Bootstrap components: Navbar, Card, etc.  You should also define your own components.
 
@@ -324,9 +319,7 @@ Every component works like a mini-application.  You are able to control and defi
 
 ![learn react js tutorial](../../assets/images/245ba798-e840-42d8-8391-7388159ccfeb.png)
 
-[[info]]
-|:link:[Here you will find](https://reactjs.org/docs/react-component.html#the-component-lifecycle) a more detailed explanation of each available life-cycle method.
+> :link:[Here you will find](https://reactjs.org/docs/react-component.html#the-component-lifecycle) a more detailed explanation of each available life-cycle method.
 
-[[info]]
-|:tv:[Here is an interactive chart](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+> :tv:[Here is an interactive chart](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 

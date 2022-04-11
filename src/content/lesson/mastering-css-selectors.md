@@ -13,7 +13,7 @@ status: "published"
 
 Completing a stylesheet is like having a little war between selectors, – you are constantly overriding previously defined styles with new ones:
 
-```css{numberLines: true}
+```css
 //You first might want all the H2 tags to be font-size: 14px; and color: blue;
 h2{
     font-size: 14px;
@@ -31,8 +31,7 @@ This happens all the time and, at some point it, can be challenging to override 
 
 This "very specific" selectors will help you a lot.  They will be your best weapon when fighting your styles war!
 
-[[info]]
-| :tv: &nbsp;[Here is a super cool video (3:40 min) explaining specificity.](https://www.youtube.com/watch?v=In78mSOHmls)
+> :tv: &nbsp;[Here is a super cool video (3:40 min) explaining specificity.](https://www.youtube.com/watch?v=In78mSOHmls)
 
 ## The Child Selector
 
@@ -68,7 +67,7 @@ The first paragraph in the list is preceded by the div, so it remains unchanged.
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/">Click to open demo in a new window</a></small></div>
 
 ## The Almighty Asterisk
-***
+
 
 ```css
 #someDiv * {
@@ -98,7 +97,7 @@ You can take this as far as you want – the following targets the "grandchildre
 
 
 ## Attribute Value Selector
-***
+
 
 ```css
 a[href='http://4geeksacademy.com/'] {color: blue;}
@@ -111,7 +110,7 @@ If we want to change the font color of the "Design Shack" link, we could use :ps
 
 
 ## Arbitrary Substring Attribute Value Selector
-***
+
 
 ```css
 div[id*='section'] {color: red;}
@@ -123,7 +122,7 @@ The following code targets any div with the word "section" in the title.  It can
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 # Pseudo Class Selectors
-***
+
 
 
 ### Link-related pseudo selectors 
@@ -214,8 +213,7 @@ You can apply styles to elements based on their position.
 |[:visited](https://www.w3schools.com/cssref/sel_visited.asp)   |a:visited   |Selects all visited links   |
 
 
-[[info]]
-|:link: Great reading about CSS Selectors: [The 30 CSS selectors you must memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+> :link: Great reading about CSS Selectors: [The 30 CSS selectors you must memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 
 
 

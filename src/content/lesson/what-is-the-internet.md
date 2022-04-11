@@ -21,8 +21,7 @@ The scientific community started using it for the famous [“Peer Reviews”](ht
 
 For this reason, they worked on something as similar as possible to a Microsoft Word document or any other word processor.
 
-[[info]]
-|:link: If you wish to find out more about the history of the Internet, we recommend [this super cool 2 min video;](https://www.youtube.com/watch?v=h8K49dD52WA)] if you would rather read about it, [click on this link.](https://www.internetsociety.org/internet/history-internet/brief-history-internet/)
+> :link: If you wish to find out more about the history of the Internet, we recommend [this super cool 2 min video;](https://www.youtube.com/watch?v=h8K49dD52WA)] if you would rather read about it, [click on this link.](https://www.internetsociety.org/internet/history-internet/brief-history-internet/)
 
 
 >To summarize:
@@ -79,8 +78,7 @@ If you’ve been reading and have understood everything so far, you must be wond
 
 Well, browsers are equipped with "magical" windows. If you see through those windows you will see the world as it is: No Text!!  The browser must perform all the functions that all other applications in your computer will accomplish. Like representing images, videos, text, sounds, etc., the browser is so great that there are even computers – like the Google Chromecast – that only come with a browser.
 
-[[info]]
-| :tv: [Click here](https://www.youtube.com/watch?v=0QRO3gKj3qw) to access a video that explains how a Google Chrome Book works.
+> :tv: [Click here](https://www.youtube.com/watch?v=0QRO3gKj3qw) to access a video that explains how a Google Chrome Book works.
 
 ## The Client and The Server
 

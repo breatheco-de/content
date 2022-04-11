@@ -9,11 +9,10 @@ status: "published"
 
 ---
 
-[[warning]]
-| :point_up: Los usuarios de Windows no tienen la misma línea de comando. Por favor ve a [Cloud 9](https://aws.amazon.com/es/cloud9/?origin=c9io) y trabaja desde allí.
+> :point_up:  Los usuarios de Windows no tienen la misma línea de comando. Por favor ve a [Cloud 9](https://aws.amazon.com/es/cloud9/?origin=c9io) y trabaja desde allí.
 
 ## ¿Por qué los Desarrolladores aman la Línea de Comando?
-***
+
 
 Al principio, todos odiaban la línea de comando. Tras años de experiencia, se convirtió en un gusto adquirido.
 
@@ -25,7 +24,7 @@ Pero ¿por qué les gusta a los desarrolladores? Bueno, la lista es infinita, pe
 + Te obliga a usar el teclado. Como no puedes usar el mouse, te hace más rápido. Cometes menos errores y el entorno es exactamente el mismo en todas las computadoras.
 
 ## ¿Cómo Funciona?
-***
+
 
 La consola es realmente simple: es una pantalla negra que siempre está esperando un * comando *. Después de escribir el comando deseado y de haber presionado la tecla `enter`, la computadora lo ejecuta y muestra algún feedback con el resultado en la pantalla. Una pregunta simple <> Interfaz de respuesta.
 
@@ -44,7 +43,7 @@ En este caso particular, usamos el "marcador" `-l` para especificar que queremos
 Lo último que tenemos que agregar es el "argumento". En este caso, el "argumento" será la ruta del directorio del cual queremos listar los archivos.
 
 ## ¿Qué puedes hacer en la terminal?
-***
+
 
 Tu computadora tiene archivos, directorios y aplicaciones. Tu línea de comando es capaz de lidiar con los tres. Usa comandos para moverte dentro de los archivos y directorios (como el comando `cd`). Cada aplicación que instales viene con un conjunto de comandos que están disponibles a partir del momento en que instales la aplicación (como el comando GIT).
 
@@ -61,7 +60,7 @@ Hay 4 cosas importantes que notar aquí:
 
 
 ## Comandos para trabajar con el sistema de archivos:
-***
+
 
 Aquí hay una pequeña selección de los comandos más utilizados por un desarrollador de software.
 
@@ -140,8 +139,7 @@ rmdir path/of/targetdirectory/mydirectory
 ```
 
 
-[[warning]]
-| :point_up:Sólo eliminará los directorios vacíos, para vaciar todos los archivos del directorio usa el comando rm. Pro-tip: puedes usar `rm`. para borrar todos los archivos dentro de un directorio simultáneamente; utilízalo con precaución.
+> :point_up: Sólo eliminará los directorios vacíos, para vaciar todos los archivos del directorio usa el comando rm. Pro-tip: puedes usar `rm`. para borrar todos los archivos dentro de un directorio simultáneamente; utilízalo con precaución.
 
 ### El comando  `cp`
 
@@ -171,7 +169,7 @@ find . -name *.mp3
 ```
 
 ## Consejos y Trucos
-***
+
 
 Esto te ayudará a ahorrar tiempo y a cometer menos errores al escribir:
 
@@ -182,7 +180,7 @@ Esto te ayudará a ahorrar tiempo y a cometer menos errores al escribir:
 + Usa el comando `clear` para "limpiar" la consola actual (es solo un desplazamiento, pero muy útil)
 
 ## Editando archivos en el terminal:
-***
+
 
 Esta es una de las cosas que no puedes evitar hacer en la terminal. Como desarrollador, tendrás que editar archivos en la terminal con más frecuencia de lo que crees. Por eso es mejor que esté preparado para usar la  [VI Aplicación o la Aplicación Nano](https://askubuntu.com/questions/726669/difference-between-nano-and-vim)  Hablaremos sobre Nano y sus comandos (sí, aquí el editor de texto se abre dentro de la línea de comandos y se ejecuta usando comandos).
 
@@ -203,8 +201,7 @@ En la parte inferior, verás los comandos más utilizados para usar nano, tales 
 
 ![the command line the terminal](../../assets/images/6128e9f7-b460-4b10-80e4-34057b7d4df9.png)
 
-[[demo]]
-| :point_up:Este sitio web tiene un montón de pequeños mini desafíos para ayudarte a practicar la línea de comandos: <br>https://cmdchallenge.com/
+> :point_up:Este sitio web tiene un montón de pequeños mini desafíos para ayudarte a practicar la línea de comandos: <br>https://cmdchallenge.com/
 
 
 

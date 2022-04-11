@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## Bienvenido a CSS!!
-***
+
 Luego de sumergirnos en el mundo de HTML todo empieza a parecer feo, rígido y cuadrado. Después de todo hay que recordar que HTML fue hecho por científicos, no estamos diciendo que es feo por eso, seguramente hay científicos que hacen cosas hermosas (además, fueron los mismos científicos que [decubrieron el Bosón de Higgs](https://www.youtube.com/watch?v=0CugLD9HF94) y por eso hay que alabarlos hasta nuestra muerte), pero… definitivamente… es así de feo porque fue hecho por científicos con un propósito muy diferente al que HTML cumple hoy en día.
 
 ![what is css](../../assets/images/6891485c-2a5a-4722-a7dc-f108993c18ba.jpeg)
@@ -22,7 +22,7 @@ Peeeero… El internet es mas hermoso que eso. La cosa se puso seria cuando Inte
 Irónicamente, los mismos científicos de CERN que crearon HTML, tuvieron que ponerse a pensar en cómo mejorar lo que habían hecho y se dieron a la tarea de embellecerlo. En este momento fue cuando [Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie), propuso la primera versión de CSS en 1994, que luego fue adaptado hasta convertirse en CSS1.
 
 ## Entonces, ¿qué hace CSS? y ¿para qué sirve?
-***
+
 
 ![what is css](../../assets/images/8c9fea86-c56c-486f-8b64-4322338076f7.jpeg)
 
@@ -33,15 +33,14 @@ Puedes decirle a un <h1> que se vea igualito que un <h2> sin que el usuario
 se de cuenta de que, a simple vista, son distintos.
 ```
 
-[[demo]]
-| :point_up: Para entender el potencial de CSS, [haz clic aquí para ver un live demo!](http://assets.breatheco.de/live-demos/css/bootstrap/)
+> :point_up: Para entender el potencial de CSS, [haz clic aquí para ver un live demo!](http://assets.breatheco.de/live-demos/css/bootstrap/)
 
 ¡Puedes imaginar el potencial?  ¡Puedes hacer que casi todo se vea diferente!
 
 
 
 ## ¿Cómo aplico estilos a un HTML?
-***
+
 
 Sencillo, Debes escribir tus estilos con una sintaxis especial denominada "CSS" y y guardar el documento con la extensión CSS. Luego, para aplicar los estilos al documento usamos las tags del HTML que estaban relacionadas con CSS: `<style>` y `<link>` .
 
@@ -52,11 +51,10 @@ Vamos a repasar estas tags con más detalle:
 |Link       |link          |Tiene como finalidad enlazar a la página con hojas de estilos CSS. Para utilizarla debes especificar tres propiedades dentro de la etiqueta `pyton>rel="stylesheet" type="text/css"` y por último `pyton>href="with document route css"`<br>`pyton>link rel="stylesheet" type="text/css" href="theme.css">`   |
 |Style   |style   |Si no queremos o no podemos importar una hoja de estilo CSS, tenemos la posibilidad de definir estilos en el HEAD del documento HTML. Simplemente definimos el tag style y procedemos a escribir los estilos que queremos para las etiquetas.<br>`pyton><style>`<br>`pyton>h1 {color:red;}`<br>`pyton>p {color:blue;}`<br>`pyton></style>`   |
 
-[[info]]
-| :point_up: Asi como los documentos HTML terminan con la extensión .html, los documentos CSS (las hojas de estilo) terminan con la `extensión .css`.
+> :point_up: Asi como los documentos HTML terminan con la extensión .html, los documentos CSS (las hojas de estilo) terminan con la `extensión .css`.
 
 ## Sintaxis de CSS
-***
+
 
 La sintaxis de CSS no tiene absolutamente nada que ver con la sintaxis de HTML, es su propio lenguaje de programación específico. CSS ¡no utiliza etiquetas! Para trabajar un sitio web tienes que cambiar el switch en tu mente a menudo, porque trabajarás con varios lenguajes a la vez y cada uno tiene su propia sintaxis.
 
@@ -66,15 +64,14 @@ Una hoja de estilos CSS es una gran lista de definiciones de estilos para cada e
 
 Revisa la animación para entenderlo mejor.
 
-[[info]]
-| :point_up: Los espacios son ignorados, pero puedes utilizarlos para hacer más legible tu código.
+> :point_up: Los espacios son ignorados, pero puedes utilizarlos para hacer más legible tu código.
 
 
 El siguiente ejemplo, es una hoja de estilos que define 3 grupos diferentes de estilos (selector1, selector2, selector3); y cada uno de estos grupos se le han aplicado diferentes reglas como: color, tamaño de letra o color de fondo.
 
 Debes hacer coincidir los elementos HTML con los grupos de estilos y usar "selectors" para vincular los elementos HTML a los grupos de reglas CSS.
 
-```css{numberLines: true}
+```css
 #selector1 {
    color: red;
    font-size: 12px;
@@ -89,7 +86,7 @@ selector3
 }
 ```
 ## Pero, ¿qué es un “selector”?
-***
+
 
 Un selector es una manera de referirse o identificar uno o varios elementos de HTML. Por ejemplo, si quieres cambiar el color de una página web a rojo debes hacerlo de la siguiente manera:
 
@@ -150,7 +147,7 @@ Con estas 4 maneras de seleccionar vas a cubrir el 99% de tus necesidades, lo im
 Hay otros selectores más específicos y avanzados. Probablemente lo usarás cuando estés realizando creando algo más desafiante.
 
 ## Conflictos y herencia
-***
+
 
 ¿Qué pasa si un elemento de la página está eleccionado por dos selectores y tiene asignado el color de letra verde en una definición y rojo en la otra? Es decir, si le decimos al navegador dos colores diferentes, ¿qué color utilizará al final?
 
@@ -161,7 +158,7 @@ Tienes que entender muy bien la jerarquía de CSS para comprender como los eleme
 El navegador le da prioridad a los selectores más específicos, como al `#id`, que a los selectores generales, como los tags (etiquetas). En el siguiente ejemplo, cambiamos el color de todos los  `<li>`  (los elementos de la lista) a azul, y luego cambiamos el texto del segundo elemento a color rojo. De esta manera demostramos que el selector ID siempre prevalece por encima de los otros elementos, esto se debe a que pertenecen a la misma etiqueta.
 
 ## Propiedades
-***
+
 
 Ya vimos que una hoja de estilos CSS no es más que una lista que define las propiedades que queremos asignar a los diferentes elementos de la página. Ahora veremos cuáles podemos asignar a estos elementos.
 

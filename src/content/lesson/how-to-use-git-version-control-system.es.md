@@ -10,18 +10,17 @@ status: "published"
 
 ---
 
-[[demo]]
-| :point_up: También hemos preparado un tutorial interactivo sobre GIT. [Haga clic aquí para tomarlo!](https://4geeksacademy.github.io/git-interactive-tutorial/)
+> :point_up: También hemos preparado un tutorial interactivo sobre GIT. [Haga clic aquí para tomarlo!](https://4geeksacademy.github.io/git-interactive-tutorial/)
 
 ## GIT es una necesidad!
-***
+
 
 GIT es una gran tecnología, toma el tiempo para aprenderla. NO lo postergues porque no puedes evitarlo. Lo usarás todos los días, varias veces al día. Así que es mejor que aprendas y te sientas cómodo con eso.
 
 GIT es más que un "conjunto de comandos" que tienes que aprender. A lo largo de los años, hemos aprendido que la mejor manera de enseñar GIT es mediante la comprensión de los conceptos y el significado de la tecnología, en lugar de dar una lista de los comandos que se debe usar.
 
 ## ¿Por qué molestarse en usar GIT?
-***
+
 
 Ser el único desarrollador en un proyecto es una [utopía](https://dle.rae.es/utop%C3%ADa). Normalmente, colaboras con otros desarrolladores y, sin GIT, eso se convierte en un gran problema. Es por eso que necesitamos un *repositorio* de información para centralizar y gestionar los cambios. Con un *repositorio* nos dirigimos a lo siguiente:
 
@@ -35,7 +34,7 @@ Ser el único desarrollador en un proyecto es una [utopía](https://dle.rae.es/u
 El propósito de GIT es interactuar con el repositorio de un proyecto (un conjunto de archivos) a medida que cambian con el tiempo.
 
 ## Arquitectura de un repositorio
-***
+
 
 Un **repositorio** GIT se compone de lo siguiente:
 
@@ -56,7 +55,7 @@ El repositorio de GIT se almacena dentro del mismo directorio que se encuentra e
  </p>
 
 ## Commit Objects
-***
+
 
 Un **commit objects** contiene tres cosas:
 
@@ -69,7 +68,7 @@ Los commit objects padre son aquellas confirmaciones que vinieron primero.  Gene
 Al principio, un proyecto siempre tiene un commit object sin padre. Este es el primer commit que se realiza en el repositorio del proyecto.
 
 ## Un Head es una Lista de Commits.
-***
+
 
 Los heads de un repositorio son como el "historial de revisión de un proyecto." Un historial de revisión es una lista de commit objects que contienen todos los cambios que tú y los demás miembros de su equipo han realizado en los archivos del proyecto.
 
@@ -81,7 +80,7 @@ Puedes **mover el head** si quieres. No necesariamente tiene que ser siempre el 
 
 
 ## Puedes tener varios Heads (Ramas o Branches)
-***
+
 
 Heads marca el comienzo de un historial de revisión. En GIT, llamamos al "historial de revisión" a un "branch o rama," y es posible tener varios historiales de revisión.
 
@@ -91,11 +90,10 @@ Ejemplo: Digamos que estás comenzando a desarrollar la característica / funcio
 
 ![how to use git](../../assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif)
 
-[[info]]
-| :point_up:** Nota sobre la terminología: ** Los términos "rama" y "head" son casi sinónimos en GIT. Cada rama está representada por un head, y cada head representa una rama. A veces, "rama" se usará para referirse a un head y el historial completo de commits que preceden a ese head, mientras que "head" se usará para referirse exclusivamente a un solo commit object (el commit más reciente en la rama).
+> :point_up:** Nota sobre la terminología: ** Los términos "rama" y "head" son casi sinónimos en GIT. Cada rama está representada por un head, y cada head representa una rama. A veces, "rama" se usará para referirse a un head y el historial completo de commits que preceden a ese head, mientras que "head" se usará para referirse exclusivamente a un solo commit object (el commit más reciente en la rama).
 
  ## Comenzando un Nuevo Repo** `git init`
- ***
+
 
 Puedes crear un nuevo repositorio cuando lo desees durante el proyecto - ¡no tiene que estar al principio! Lo único esencial para hacer esto es que el proyecto no tenga otro repositorio ya creado.
 
@@ -108,7 +106,7 @@ git init
 Esto creará un directorio .git en el directorio \ [proyecto \]. Asegúrate de que la carpeta se haya creado correctamente (puedes ejecutar el comando `ls -l` para leer el contenido del directorio en la línea de comandos).
 
 ## Confirmando cambios en el repositorio
-***
+
 
 Después de realizar algunos cambios en los archivos del proyecto, es posible que desees guardar / enviar esos cambios al repositorio. Esto se llama "commit".
 
@@ -136,7 +134,7 @@ git diff [file] //Para ver exactamente lo que modifiqué.
 git commit -a -m [message] //para hacer commit.
 ```
 ## Refiriéndose a un Commit
-***
+
 
 Ahora que has creado commits, ¿cómo se hace referencia a un commit específico? GIT proporciona muchas maneras de hacerlo. Aquí hay algunas:
 
@@ -146,7 +144,7 @@ Ahora que has creado commits, ¿cómo se hace referencia a un commit específico
 + Relativo a un commit.  Colocando el símbolo de intercalación (^) después del nombre del commit devuelve al padre de ese commit.  Por ejemplo, *HEAD^* es el padre del actual head commit.
 
  ## Creando una Rama
- ***
+
 
 Para crear una rama, digamos que su repositorio se ve así:
 
@@ -175,7 +173,7 @@ Ahora nuestro árbol de commit se ve así:
 ![how to use git](../../assets/images/924b8807-6a06-44e7-87a1-8c93d983d873.png)
 
 ## Cambiando Entre Ramas
-***
+
 
 Para comenzar a trabajar en esa nueva rama, debes establecer el head actual en el head que acabamos de crear. Esto se hace con git checkout:
 
@@ -188,15 +186,14 @@ Este comando hace lo siguiente:
 + Apunta al *HEAD* del commit object especificado por *\[head-name \]*.
 + Vuelve a escribir todos los archivos en el directorio para que coincidan con los archivos almacenados en la nueva *HEAD* commit.
   
-[[info]]
-| :point_up:**Nota importante:** Si hay cambios sin commits al ejecutar git checkout, GIT se comportará de manera muy extraña. La extrañeza es predecible y, a veces, útil, pero es mejor evitarla. Todo lo que tienes que hacer, por supuesto, es confirmar todos los cambios nuevos antes de revisar el nuevo head.
+> :point_up:**Nota importante:** Si hay cambios sin commits al ejecutar git checkout, GIT se comportará de manera muy extraña. La extrañeza es predecible y, a veces, útil, pero es mejor evitarla. Todo lo que tienes que hacer, por supuesto, es confirmar todos los cambios nuevos antes de revisar el nuevo head.
 
 Después de revisar el head *\ [new-head \]*, fijarás los head.  Ahora puedes agregar los cambios y realizar commit como se indica arriba. El repositorio resultante se ve así:
 
 ![git8](../../assets/images/0352d1b1-0914-4d0f-9379-c47e7895ccb9.png)
 
 ## Fusionando
-***
+
 
 Una vez que hayas terminado de implementar una nueva función en una rama, querrás traer esa nueva función a la rama principal, para que todos puedan usarla. Puedes hacerlo con el comando `git merge` o` git pull`.
 
@@ -216,19 +213,18 @@ Estos comandos realizan las siguientes operaciones. Deja que el head actual se l
 + Si no hubo conflictos, crea un nuevo commit con dos padres: *current* y *merge.* Establece current (y *HEAD*) para que apunte a este nuevo commit, y actualiza acordemente los archivos de trabajo para el proyecto.
 + Si hubo un conflicto, inserta apropiadamente los marcadores de conflicto e informa al usuario.  Ningún commit es creado.
 
-[[warning]]
-| :point_up: GIT puede ser muy confuso si hay cambios sin commit en los archivos cuando le pides que realice una fusión o merge.  Por lo tanto, asegúrate de hacer commit a los cambios que hayas realizado hasta ahora antes de fusionar.
+> :point_up:  GIT puede ser muy confuso si hay cambios sin commit en los archivos cuando le pides que realice una fusión o merge.  Por lo tanto, asegúrate de hacer commit a los cambios que hayas realizado hasta ahora antes de fusionar.
 
 
 ## Resolviendo conflictos
-***
+
 
 Surge un conflicto si el commit a fusionar tiene un cambio en un lugar específico, y el commit actual tiene un cambio en el mismo lugar específico. GIT no tiene manera de decir qué cambio debe tener prioridad.
 
 Para resolver el commit, edita los archivos para corregir los cambios en conflicto.  Luego ejecuta `git add` para agregar los archivos resueltos.  A continuación, ejecuta `git commit` para confirmar la fusión reparada.  GIT recuerda que estabas en medio de una fusión, por lo que establece correctamente los padres del commit.
 
 ## Colaboración GIT
-***
+
 
 GIT puede funcionar sin necesidad de conectarse a un servidor externo porque todos los archivos git se encuentran dentro de la carpeta .git.
 
@@ -237,7 +233,7 @@ Sin embargo, esto significa que, para manipular el repositorio, también necesit
 Para compartir el trabajo entre los desarrolladores, GIT utiliza un **modelo distribuido** de control de versiones. **No asume ningún repositorio central**. Es posible, por supuesto, usar un repositorio como el "central", pero es importante entender primero el modelo distribuido.
 
 ## Control de Versiones Distribuido
-***
+
 
 Digamos que tu y tu amigo quieren trabajar en el mismo proyecto. Tu amigo ya ha hecho algún trabajo en ello. Hay tres tareas que debes realizar para descubrir cómo hacerlo:
 
@@ -246,7 +242,7 @@ Digamos que tu y tu amigo quieren trabajar en el mismo proyecto. Tu amigo ya ha 
 + Hazle saber a tu amigo sobre los cambios que hiciste (git push).
 
 ## Especificación remota
-***
+
 
 GIT proporciona una serie de protocolos de transporte para compartir información del repositorio, como SSH y HTTP. Estaremos utilizando SSH.
 
@@ -263,7 +259,7 @@ Por ejemplo, cuando usas un repositorio de github.com, puedes encontrar el contr
 ![git9](../../assets/images/47f7c628-5efe-4888-b67c-ca90611e788e.gif)
 
 ## Añadiendo un Control Remoto
-***
+
 
 Si estás trabajando en un repositorio local y deseas conectarlo a un repositorio remoto, puedes agregar un remoto. Primero, busca la URL remota en el repositorio remoto.
 
@@ -276,7 +272,7 @@ git remote get-url origin
 ```
 
 ## Pushing (cargando) del Remoto
-***
+
 
 Digamos que tienes una rama en tu repositorio local llamada "nueva rama". Esa rama se puede subir haciendo lo siguiente:
 
@@ -291,7 +287,7 @@ Deberás (1) descargar los archivos, (2) combinarlos en tu código y (3) resolve
 Después de resolver el o los conflictos, puedes seguir adelante e intentar *git push* nuevamente.
 
 ## Pulling (descargando) del Remoto
-***
+
 
 Digamos que hay una rama en el repositorio remoto llamada "desarrollo". Puedes descargar esta rama en tu propio repositorio ejecutando el siguiente comando:
 
@@ -304,7 +300,7 @@ El comando `git pull` intentará fusionar todos los archivos entrantes en tu ram
 Después de solucionar los conflictos, puedes usar `git add` en los archivos y `git commit` para mantener una copia limpia y sin errores de tu código en el repositorio.
 
 ## Clonando el Repositorio (git clone)
-***
+
 
 Para hacer una copia de un repositorio remoto para tu propio uso, ejecuta git clone [remote-specification].
 
@@ -330,8 +326,7 @@ Una rama que **rastrea** una rama remota conserva una referencia interna a la ra
 
 Lo importante a tener en cuenta es que ahora tienes una copia completa del repositorio completo de tu amigo. Cuando se ramifica, confirma (commit), fusiona u opera de otra manera en el repositorio, operas solo en tu propio repositorio. GIT solo interactúa con el repositorio de tu amigo cuando le pidas específicamente que lo haga.
 
-[[info]]
-|:link:El repositorio de tu amigo dice así: <br> Aquí hay una lista de otros excelentes recursos para aprender GIT.: http://sixrevisions.com/resources/git-tutorials-beginners/<br>Especialmente deberías probar estos dos:<br>• https://try.github.io<br>• http://learngitbranching.js.org/
+> :link:El repositorio de tu amigo dice así: <br> Aquí hay una lista de otros excelentes recursos para aprender GIT.: http://sixrevisions.com/resources/git-tutorials-beginners/<br>Especialmente deberías probar estos dos:<br>• https://try.github.io<br>• http://learngitbranching.js.org/
   
   
 

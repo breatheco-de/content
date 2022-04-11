@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## Event Driven Programming
-***
+
 
 Working with events is a totally new way of **controlling the flow of an application.**  It is the first time that your code will not be executed in a linear flow which is how JavaScript is generally programmed to execute - from the first line of code to the last.  
 Instead, your code will now be executed **asynchronously** (i.e. some pieces of code will not work when the rest of the surrounding code is being executed, but only when they are explicitly triggered). Who knows what comes first???
@@ -30,7 +30,7 @@ Sometimes it is the website user, sometimes it is the browser, sometimes it is a
 There are dozens of events being triggered every minute, but you don’t have to do anything about it (not if you don’t want to).  They are available to you depending on the type of application that you want to do.
 
 ## Types of Events
-***
+
 
 Here are some of the types of events that are constantly being triggered (and you can listen to them):
 
@@ -44,8 +44,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 |Mousemove     |If the user moves the mouse    |
 |Mousedown or Mouseup     |If the user presses or releases the mouse.    |
 
-[[demo]]
-| :point_up: Play with this demo here 
+> :point_up: Play with this demo here 
 
 <iframe width="100%" height="300" frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/mouse.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -61,8 +60,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 |PageHide<br>PageShow    |When the user focuses in a different window/tab; or when the user comes back from a different window/tab.     |
 |Resize    |When the window is resized.      |
 
-[[demo]]
-| :point_up: Play with this demo here 
+> :point_up: Play with this demo here 
 
 <iframe width="100%" height="300" frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/frame.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -78,8 +76,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 |Change       |The event occurs when the content of a form element, the selection, or the checked state have changed (for `<input>`, `<keygen>`, `<select>`, and `<textarea>`)
      |
 
-[[demo]]
-| :point_up: Play with this demo here 
+> :point_up: Play with this demo here 
 
 <iframe width="100%" height="300"  frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/forms.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -93,8 +90,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 |Keydown	     |When the user presses the keyboard key.    |
 |Keypress       |When the user presses and releases the keyboard key.  The difference from keydown/up is that Keypress only works on character keys.  For example, it does not work on the up|down|left|right arrows.     |
 
-[[demo]]
-| :point_up: Play with this demo here 
+> :point_up: Play with this demo here 
 
 <iframe width="100%" height="300"  frameborder="1"src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/keyboard.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -102,11 +98,10 @@ Here are some of the types of events that are constantly being triggered (and yo
 
 
 
-[[info]]
-|:link: Here [you can find a list with all the other less common events](https://www.w3schools.com/jsref/dom_obj_event.asp) that you have at your disposal.  Read them quickly, and be aware of them for future reference during your life as a developer.
+> :link: Here [you can find a list with all the other less common events](https://www.w3schools.com/jsref/dom_obj_event.asp) that you have at your disposal.  Read them quickly, and be aware of them for future reference during your life as a developer.
 
 ## Listening for events
-***
+
 
 Now that you know the main events that exist out there, you can start listening for them during the runtime. The only way to react to any event is by listening for that event and assigning a function that will handle the event however you need.
 
@@ -117,7 +112,7 @@ Let’s repeat: To **react** you need to **listen…**. And to listen you need t
 You can add an event listener in 2 different ways:
 
 ## Adding Listeners from the HTML
-***
+
 
 For example, if you want to start listening when the user clicks on a particular button all you have to do is specify the "onclick" attribute to that specific HTML `<button>` tag, like this:
 
@@ -137,7 +132,7 @@ function myClickHandler(){
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/b7c6gmnd/1/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen">Click here to open demo in a new window</a></small></div>
 
 ## Adding Listeners from JavaScript (during runtime)
-***
+
 
 Sometimes the DOM element doesn’t exist from the beginning.  Maybe they are created after a database call or after the user did something.  To solve that problem, you need to start listening after the new elements are created.
 
@@ -152,7 +147,7 @@ For example, the code below is creating a list of names and each LI in it is lis
 <div align="right"><small><a href="//jsfiddle.net/gmihov001/kh4n57wo/29/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen">Click here to open demo in a new window</a></small></div>
 
 ##  The Event Object
-***
+
 
 Event handler functions can receive one optional parameter in their declaration, which most developers name **event**, **evt**, or simply **e**. This parameter is always filled with the "Event object" which gets sent by default from every event and contains important information about the event that was triggered, the element where it occured, its value etc.
 
@@ -251,11 +246,10 @@ Notice that in **addEventListener()** we only reference the function (`myChangeH
 |deltaX, deltaY   |Returns the vertical or horizontal scroll amount of a mouse wheel (y-axis) or (x-axis).     |
 |deltaMode       |Returns a number that represents the unit of measurements for delta values (pixels, lines or pages).      |
 
-[[info]]
-| :link: There is a lot more information you can get from the event object, but we are focusing on the most used properties.  For a bigger list of properties please read [this guide.](https://www.w3schools.com/jsref/dom_obj_event.asp)
+> :link: There is a lot more information you can get from the event object, but we are focusing on the most used properties.  For a bigger list of properties please read [this guide.](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
 ## Removing the Listeners
-***
+
 
 But what if I don’t want to continue listening?  All modern browsers remove the events listeners when you delete the DOM element in which they were applied.  If you don’t want to delete the DOM element, you can remove the listener manually using the `.removeEventListener()` function.
 

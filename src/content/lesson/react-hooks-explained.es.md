@@ -90,8 +90,7 @@ const MyComponent = () => {
     return <Some HTML>;
 }
 ```
-[[info]]
-| :point_up: Considera al `[]` como el segundo parámetro de useEffect.
+> :point_up: Considera al `[]` como el segundo parámetro de useEffect.
 
 #### 2) Cada vez (o algunas veces) después de que el componente se vuelva a renderizar.
 ```jsx
@@ -106,8 +105,7 @@ const MyComponent = () => {
     return <Some HTML>;
 }
 ```
-[[info]]
-| :point_up: Este useEffect no tiene un array vacío `[]` como segundo parámetro.
+> :point_up: Este useEffect no tiene un array vacío `[]` como segundo parámetro.
 
 #### 3) Cuando el componente se de o dejará de renderizarse (como la buena y vieja función componentWillUnmount).
 ```jsx
@@ -147,5 +145,4 @@ const Todos = (props) => {
     return <ul>{tasks.map(t => <li>{t.label}</li>)}</ul>;
 }
 ```
-[[demo]]
-| Revisa el código en profundidad y la demo en vivo [haciendo clic aquí](https://codesandbox.io/s/xenodochial-varahamihira-egh86?fontsize=14)
+> :point_up: Revisa el código en profundidad y la demo en vivo [haciendo clic aquí](https://codesandbox.io/s/xenodochial-varahamihira-egh86?fontsize=14)

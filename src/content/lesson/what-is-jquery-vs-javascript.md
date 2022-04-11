@@ -9,20 +9,19 @@ status: "published"
 
 ---
 
-[[warning]]
-| :point_up:As of January 1, 2017, 4Geeks has decided to stop teaching jQuery because we think it is no longer necessary for someone to become a front-end developer.  However, we are leaving the lessons and replit’s here if you would like to learn it on your own.
+> :point_up: As of January 1, 2017, 4Geeks has decided to stop teaching jQuery because we think it is no longer necessary for someone to become a front-end developer.  However, we are leaving the lessons and replit’s here if you would like to learn it on your own.
 
  ## Learn the jQuery Library
 
  Do more stuff with less code.
 
  ### What is jQuery?
- ***
+
 
  jQuery is a library (set of functions) available to JavaScript developers to make their lives easier (just like the Math object that we use for Math.random).  **jQuery is NOT another language.**  It is the same as JavaScript, and you don’t need to use it if you don’t want to.
 
  ### Why jQuery
- ***
+
 
  When jQuery was the new thing (10 years ago), people loved it.  It made cross-browser JS so much easier.  It taught us a few new tricks and it made AJAX and animations dead simple (which was pretty tricky back when most of the world was on IE6!).
 
@@ -43,7 +42,7 @@ Query can do 5 things really well, and those 5 things brought jQuery to the poin
 + **Plugins:** There are thousands of jQuery plugins out there.  They enrich web functionality with very cool features; making and sharing plugins is probably the best feature jQuery can provide to web developers.
 
 ### Installation
-***
+
 
 Since jQuery is a library, it needs to be installed as a JavaScript library.  All JavaScript libraries need to be imported using the `<script>` tag – like this:
 
@@ -71,7 +70,7 @@ We recommend [the Google CDN:](https://developers.google.com/speed/libraries/) l
 
 ![what is jquery vs javascript](../../assets/images/b5e8d1ef-5385-4923-aaf9-b24130405a9a.gif)
 
-```html{numberLines: true}
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -85,7 +84,7 @@ We recommend [the Google CDN:](https://developers.google.com/speed/libraries/) l
 ```
 
 ### The Syntax
-***
+
 
 **jQuery is a part of JavaScript!**  jQuery syntax can be tricky at the beginning, but after a few days you will understand that **it is  the same JavaScript** syntax but just being used in a different way.
 
@@ -140,11 +139,10 @@ functionName(settingsObj);
   //Function call with 3 parameters inside the settingsObj 
 ```
 
-[[info]]
-| :point_up: If you use jQuery, you need to be comfortable using parameters like the "Settings Object."
+> :point_up: If you use jQuery, you need to be comfortable using parameters like the "Settings Object."
 
 ### The Ready Event
-***
+
 
 We have a section that talks just about events, but it is a good idea to talk about the "ready event" right now because it is one of the first lines of code written on almost every website that uses jQuery.
 
@@ -157,7 +155,7 @@ $( document ).ready(function() {
 ```
 
 ### Working with DOM Elements
-***
+
 
 jQuery really helps when working with classes because the only way to update a class with vanilla JS is using the .className attribute of the DOM element (that is a string).
 
@@ -300,11 +298,10 @@ $(el).attr(‘tabindex’, 3);
 ```
 
 
-[[warning]]
-| :point_up: These are the most used functions when working with the DOM.  Please be advised that there are A LOT more functions available and that it is a good idea to eventually review all of them.  Also, new functions are being created as JavaScript continues to evolve.
+> :point_up:  These are the most used functions when working with the DOM.  Please be advised that there are A LOT more functions available and that it is a good idea to eventually review all of them.  Also, new functions are being created as JavaScript continues to evolve.
 
 ### Working with Styles
-***
+
 
 jQuery really helps when working with classes because the only way to update a class with vanilla JS is by using the .className attribute of the DOM element (which is a string).
 
@@ -374,11 +371,10 @@ var classes = el.className.split(‘ ‘);
   $(el).toggleClass(className);
   ```
 
-[[warning]]
-| :point_up:This are the most used functions to work with styles, there are a lot more functions and is a good idea to eventually review the rest of them.
+> :point_up: This are the most used functions to work with styles, there are a lot more functions and is a good idea to eventually review the rest of them.
 
 ### Working with events
-***
+
 
 You already know a lot about events because we went through the Javascript Events lesson earlier during this course.
 
@@ -409,25 +405,23 @@ $(‘.btn’).on( "click", function(){
 });
 ```
 
-[[info]]
-|:link: To continue reading about events we recommend [this reading.](https://learn.jquery.com/events/event-basics/)
+> :link: To continue reading about events we recommend [this reading.](https://learn.jquery.com/events/event-basics/)
 
 ### Working with Ajax
-***
+
 
 jQuery really helps when working with classes because the only way to update a class with vanilla JS is using the .className attribute of the DOM element (that is a string).
 
 For example, if you want to remove one specific class from an element you will have to get the value of the class attribute as a string and create a new string just like the first one but without that particular class.
 
-[[warning]]
-| :point_up: AJAX is going to be covered deeply in another lesson, here we are only going to introduce the syntax of ajax function.
+> :point_up:  AJAX is going to be covered deeply in another lesson, here we are only going to introduce the syntax of ajax function.
 
 #### GET request
 
 ##### ![what is jquery vs javascript](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) With vanilla JavaScript
 
 
-```javascript{numberLines: true}
+```javascript
 var request = new XMLHttpRequest();
 request.open(‘GET’, ‘/my/url’, true);
 request.onload = function() {
@@ -446,7 +440,7 @@ request.send();
 
 ##### ![what is jquery vs javascript](../../assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) With jQuery
 
-```javascript{numberLines: true}
+```javascript
 $.ajax({
   type: ‘GET’,
   url: ‘/my/url’,
@@ -465,7 +459,7 @@ $.ajax({
 ##### ![what is jquery vs javascript](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) With vanilla JavaScript
 
 
-```javascript{numberLines: true}
+```javascript
 var http = new XMLHttpRequest();
 var url = "/my/url";
 var params = "lorem=ipsum&name=binny";
@@ -482,7 +476,7 @@ http.send(params);
 
 ##### ![what is jquery vs javascript](../../assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) With jQuery
 
-```javascript{numberLines: true}
+```javascript
 $.ajax({
   type: ‘POST’,
   url: ‘/my/url’,

@@ -21,8 +21,7 @@ La comunidad científica lo utilizó para los famosos  ["Peer Reviews"](https://
 
 Por esta razón buscaron hacer algo que se asemejara lo más posible a un documento de MS Word o cualquier procesador de texto.
 
-[[info]]
-| :point_up: Si quieres seguir leyendo sobre la historia de internet te recomendamos ["este video super cool"](https://www.youtube.com/watch?v=BWb6ri3ePew)
+> :point_up: Si quieres seguir leyendo sobre la historia de internet te recomendamos ["este video super cool"](https://www.youtube.com/watch?v=BWb6ri3ePew)
 
 
 > Entonces, la forma más sencilla de ver Internet es como una red de documentos compartidos. Documentos que alguna vez fueron publicaciones científicas 
@@ -80,8 +79,7 @@ Si has estado leyendo y has entendido todo hasta ahora, debes estar pensando:
 
 Bueno, no te preocupes! Los navegadores están equipados con ventanas mágicas. Si ves a través de esas ventanas, verás el mundo tal como está: ¡Sin texto! El navegador debe realizar todas las funciones que todas las demás aplicaciones de su computadora realizarán. Al igual que la representación de imágenes, videos, texto, sonidos, etc., el navegador es tan grande que incluso hay computadoras, como Google Chromecast, que solo vienen con un navegador.
 
-[[info]]
-| :tv: [Click aqui](https://www.youtube.com/watch?v=0QRO3gKj3qw) para acceder a un video que explica cómo funciona un Chromebook de Google.
+> :tv: [Click aqui](https://www.youtube.com/watch?v=0QRO3gKj3qw) para acceder a un video que explica cómo funciona un Chromebook de Google.
 
 ## El Cliente y El Servidor
 

@@ -9,8 +9,7 @@ status: "published"
 
 ---
 
-[[info]]
-| :point_up: Esta lección es para usuarios de WebPack y [módulos ECMAScript (ESM).;](https://nodejs.org/api/esm.html) hay otra forma de trabajar con módulos usando la [sintaxis de CommonJS] (https://requirejs.org/docs/commonjs.html) que no cubriremos.
+> :point_up: Esta lección es para usuarios de WebPack y [módulos ECMAScript (ESM).;](https://nodejs.org/api/esm.html) hay otra forma de trabajar con módulos usando la [sintaxis de CommonJS] (https://requirejs.org/docs/commonjs.html) que no cubriremos.
 
 Todo nuestro código JS no puede estar en el mismo archivo; Eso hará que sea difícil de leer y casi imposible de mantener.
 
@@ -19,7 +18,7 @@ Gracias a Webpack, podemos dividir nuestro código en archivos pequeños como qu
 De hecho, ya lo hemos estado haciendo cuando importamos nuestros estilos, bootstrap o jQuery desde index.js.
 
 ## Así es como funciona "importar" y "exportar":
-***
+
 
 + Utiliza la palabra **importar** para traer variables, clases o funciones de otros archivos.
 + Usted usa la palabra **exportar** para exponer variables, clases o funciones que serán utilizadas por otros archivos.
@@ -33,7 +32,7 @@ Por ejemplo, aquí estamos importando una función de otro archivo:
 
 
 ## Exportación por Defecto
-***
+
 
 Hay una pequeña variación que puede encontrar en Internet que se llama **"exportación predeterminada"**: esta es solo una forma de exportar una cosa por defecto a su archivo.
 
@@ -65,7 +64,7 @@ export default multiplyFunction;
 
 
 ## Ejemplo Final:
-***
+
 
 Aquí hay una pequeña demostración de todos los tipos de importación / exportación que trabajan en el mismo proyecto.
 

@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## The Box Model
-***
+
 
 CSS Layouts and the positioning of elements are probably one of the most challenging concepts in CSS; both were meant for older, less advanced and less rich websites.
 
@@ -24,7 +24,7 @@ We need to use boxes for it.  A box is a container with a specific width and hei
 
 All website content should be wrapped within boxes (div, header, footer, etc.). Boxes are invisible by default so, in order to make them visible, you have to either set a background color or a border.  The following image shows how many invisible boxes a normal website has:
 
-<before-after width="500px"
+<BeforeAfter width="500px"
     before="../../assets/images/40818d0d-60c6-4ef3-a488-834f21ddebf1.png" after="../../assets/images/0c89a48e-d488-4e5c-807a-fd6b9a9179f6.png" />
 
 #### Box Attributes
@@ -56,7 +56,7 @@ This important property is connected to box model and it defines how the height 
 + If the value is **border-box**, width and height apply to all parts of the elements: content, padding and borders. 
 
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/zvL6aet3/2/embed/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/zvL6aet3/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="https://jsfiddle.net/BreatheCode/zvL6aet3/">Click here to open demo in a new window</a></small></div>
 
@@ -64,12 +64,12 @@ This important property is connected to box model and it defines how the height 
 
 
 # Width and Height
-***
+
 
 Every box has width and height.  You can set these properties to be relative to their parent content (another box or even the body), but, in some cases, we have to set their value manually.
 
 ## The Position Attribute
-***
+
 
 The browser is responsible for assigning positions to all elements of a page.   However, as we know, the positions brought by the elements are quite limited and make the documents look both ugly and antiquated.
 
@@ -89,7 +89,7 @@ In order for a website to look like today’s websites, we have to redesign the 
 Wait!!  If you don’t get what we just explained, well... there's nothing to worry (at this current stage).  This is one of those things we need you to practice a lot.  There is no other way. 🙁
 
 ## The Display Attribute
-***
+
 
 The values of the `display` property are much more advanced than just showing or hiding elements.  Actually, the `display` property changes the way in which a document can be visualized.
 
@@ -111,7 +111,7 @@ It is common to find this attribute in menus, social network activity feeds, etc
 Ok, now… to understand what we just explained, there is no other choice but… Practice!
 
 ## The Float Attribute
-***
+
 
 Float is a simple but very useful attribute.  Float works by telling a box to move as far as possible to one side: left or right.  Once you assign the float property to an element, it will look for the best space to be accommodated – trying to coexist with the elements that surround it.
 
@@ -128,7 +128,7 @@ Float is very much used in blogs when you want to add images to your articles.  
 
 
 ## Think about UI/UX for a second
-***
+
 
 It’s yoga time, let’s stop the coding and think about mankind for a minute.  How do humans act?  How do they behave?  What do they like?  Where do they click?
 
@@ -144,12 +144,12 @@ Some websites have great content, but, unfortunately, they also have poor layout
 + **Common Sense:** This is a tricky one, but you will never know what works best until you try.  Perhaps moving a website menu from the top to the left will increase user engagement.  You must always be in constant search for "the truth" about your user behavior.
   
 # Layout Examples:
-***
+
 
 The following examples gather a large percentage of the most used layouts on the web.  Understand them well because you will probably use them throughout the rest of your life as a developer.  Sometimes you will use a mixed approach to accomplish several things at the same time.
 
 ### Centered Content
-***
+
 
 Facebook is like this: a centered content website has a max-width for the content.  This means that it doesn’t matter if the client computer has a 4000px width –  the website width will stop at "max-width" and the rest of the page will be white.
 
@@ -164,7 +164,7 @@ Here is the exact code needed for website content to always be aligned at the ce
 
 
 ### Left Sidebar Fixed
-***
+
 
 Left sidebars are great when you have a wide screen (landscape).  You can have a menu, some ads, a newsletter sign-up call to action, login form, etc.  And you can still have enough space for content!  Almost every website uses a left sidebar these days, some of them include also a right sidebar.
 
@@ -175,7 +175,7 @@ This pre-work website has a left sidebar, and it's a great option for us because
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 ### Top Menu with Left Sidebar
-***
+
 
 This is almost the same, but instead of having the left-sidebar as the primary menu, you will use it for complementary content.  The main menu should be at the top box because is the first thing users see when they land on the website.
 
@@ -184,7 +184,7 @@ This is almost the same, but instead of having the left-sidebar as the primary m
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/">Click here to open live demo in a new window</a></small></div>
 
 ## Responsive Masonry
-***
+
 
 Pinterest made this layout universally known.  By using this "innovative" UI, they became one of the most visited websites in the world.  Masonry distributes the containers in an optimal way: first fills the whole row by appending boxes to the right (adding them at the end), and then jumping to the next row when there is no longer space available.
 
@@ -195,7 +195,7 @@ Another great thing about Masonry is that each box can have its own height.   Th
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ovp1nj3s/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 ## Popups / Modal Windows / Alerts
-***
+
 
 The default Javascript alert is ugly and limited [(click here to check it out)](https://www.w3schools.com/js/js_popup.asp). Nobody likes to use them, that’s why developers usually build their own modals.
 
@@ -211,7 +211,7 @@ To replicate the alert behavior you have to:
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/8co2hnj1/1/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 # Live Demo: Play with the Box
-***
+
 
 Use the sliders on the left toolbar to change the margin, padding, border radios or any other CSS Rule available in the demo:
 
@@ -219,7 +219,7 @@ Use the sliders on the left toolbar to change the margin, padding, border radios
 
 
 ## There is Much More to Know about Layouts
-***
+
 
 You will have to be learning "on the go" because there is an infinite amount of combinations you can create for a website layout.  What really matters is that you fully understand the display, absolute, float and overflow rules.
 

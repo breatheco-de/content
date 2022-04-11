@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## Why are Databases Important?
-***
+
 
 Databases are the best way to store data, and everyday there is more and more data!  The next hundred years are years of data-mining, machine learning and a lot of automation.  The only way to achieve that is by mastering the databases.
 
@@ -21,7 +21,7 @@ At the beginning, information was saved into more simple files like .csv (comma 
 At some point, our friend [Edgar](https://en.wikipedia.org/wiki/Edgar_F._Codd) decided to re-design those files and created a standard way of storing data into files focused on performance and integrity.  He partnered with mister [Donald](https://en.wikipedia.org/wiki/Donald_D._Chamberlin) and together they created a language called SQL (Structured Query Language) –  which was designed to work with data in a more user-friendly way.
 
 ## What is SQL?
-***
+
 
 SQL is the most used language when you want to speak to a database directly.   It stands for: Structured Query Language, and is simply a computer language for storing, manipulating and retrieving data that is stored in [relational databases](https://en.wikipedia.org/wiki/Relational_model).
 
@@ -33,11 +33,10 @@ SELECT username FROM user WHERE email='info@breatheco.de'
 
 In this example, we are asking the database for all the users with the email equal to "info@breatheco.de"
 
-[[warning]]
-| :point_up: If you want to earn a developer’s respect, you need to be comfortable with SQL.  You will use it A LOT when working with data.
+> :point_up:  If you want to earn a developer’s respect, you need to be comfortable with SQL.  You will use it A LOT when working with data.
 
 ## Defining your Database
-***
+
 
 Databases house collections of data called tables. Everything gets stored in tables with rows and columns, just like spreadsheets. Each column represents common attributes for the rows they intersect with, which are instances of the data.
 
@@ -85,7 +84,7 @@ A Public Library database probably has one table called Author (containing the i
 &nbsp;
 &nbsp;
 ## The SQL Syntax: Working the Tables
-***
+
 
 There are 3 main operations you can do to a table: Create, Update or Delete a table.  In SQL, those operations are called Create, Alter and Drop.  Remember that these operations are used to manipulate the structure of the database – not the data that it contains.
 
@@ -119,7 +118,7 @@ DROP TABLE CUSTOMERS;
 ```
 
 ## The SQL Syntax: Manipulating Data
-***
+
 
 When using SQL, you have 4 main commands to manipulate data: Select, Insert, Update and Delete.
 
@@ -173,7 +172,7 @@ DELETE FROM user WHERE ssn = '342-45-6732'
 ```
 
 ## Maintaining Data Integrity
-***
+
 
 Keeping the integrity of the data is hard!  Databases with a lot of activities and users normally struggle to keep data integrity.  Sometimes the data is so delicate and sensitive that adding a zero to a simple integer could end up making someone a millionaire!
 
@@ -193,7 +192,7 @@ We can classify the integrity problems in 4 types:
 + **Use transactions (commit and rollback):**  We will talk about that below; transactions are a good way of going back in time if something went wrong.
 
 ## SQL Transactions
-***
+
 
 A transaction is a group of one or more SQL operations (inserts, deletes, updates, creates, drops, etc.).
 
@@ -207,7 +206,7 @@ For example, let say that a Bank Client is moving money from one account to anot
 What if the first operation was successful but the second one failed?  You need to "undo" the first one or the user will lose the money forever.
 
 ## Every Transaction should be:
-***
+
 
 Transactions have the following four standard properties, usually referred to by the acronym ACID:
 
@@ -217,7 +216,7 @@ Transactions have the following four standard properties, usually referred to by
 + **Durability:**  ensures that the result or effect of a committed transaction persists in case of a system failure.
   
 ## Controlling SQL Transactions
-***
+
 
 These are the following commands used to control transactions:
 
@@ -298,8 +297,7 @@ The syntax for SET TRANSACTION is as follows:
 SET TRANSACTION [ READ WRITE | READ ONLY ];
 ```
 
-[[info]]
-|:link:https://www.tutorialspoint.com/sql/sql-syntax.htm
+> :link:https://www.tutorialspoint.com/sql/sql-syntax.htm
 
 
 

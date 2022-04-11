@@ -10,12 +10,10 @@ status: "published"
 
 ---
 
-[[demo]]
-| :point_up: We have also prepared an interactive tutorial about GIT [click here to take it!](https://4geeksacademy.github.io/git-interactive-tutorial/)
+> :point_up: We have also prepared an interactive tutorial about GIT [click here to take it!](https://4geeksacademy.github.io/git-interactive-tutorial/)
 
 
-[[demo]]
-| 📹 This is [an amazing video explaining git and github](https://www.youtube.com/watch?v=BCQHnlnPusY)
+> 📹 This is [an amazing video explaining git and github](https://www.youtube.com/watch?v=BCQHnlnPusY)
 
 
 ## GIT is a MUST!
@@ -26,7 +24,7 @@ GIT is more than just a "set of commands" that you have to learn.  Throughout th
 
 ## Why Bother to use GIT?
 
-Being the only developer in a project is an [utopia](http://www.thefreedictionary.com/Utopic).  Normally, you collaborate with other developers, and, without GIT, that becomes a big problem.  That’s why we need a *repository* of information to centralize and manage changes.  With a *repository* we are addressing the following:
+Being the only developer in a project is a [utopia](http://www.thefreedictionary.com/Utopic).  Normally, you collaborate with other developers, and, without GIT, that becomes a big problem.  That’s why we need a *repository* of information to centralize and manage changes.  With a *repository* we are addressing the following:
 
 + If two developers work on **the same page (file)**, GIT will compare both versions and will *(try to)* merge them into a new one.
 + Downloading and integrating someone else’s code (or any code) into your project without much hassle and doing so automatically.
@@ -92,11 +90,10 @@ Example: Let’s say that you are starting to develop the "Login" feature/functi
 
 ![how to use git](../../assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif)
 
-[[info]]
-| :point_up:**Note on Terminology:** The terms "branch" and "head" are nearly synonymous in GIT.  Every branch is represented by one head, and every head represents one branch.  Sometimes, "branch" will be used to refer to a head and the entire history of commits preceding that head, whereas "head" will be used to refer exclusively to a single commit object (the most recent commit in the branch).
+> :point_up:**Note on Terminology:** The terms "branch" and "head" are nearly synonymous in GIT.  Every branch is represented by one head, and every head represents one branch.  Sometimes, "branch" will be used to refer to a head and the entire history of commits preceding that head, whereas "head" will be used to refer exclusively to a single commit object (the most recent commit in the branch).
 
  ## Starting a New Repo** `git init`
- ***
+
 
  You can create a new repository whenever you want during the project – it does not have to be at the beginning!  The only essential thing to do this is that the project has no other repository that has already been created.
 
@@ -187,8 +184,7 @@ This command does the following:
 + Points *HEAD* to the commit object specified by *\[head-name\]*.
 + Rewrites all the files in the directory to match the files stored in the new *HEAD* commit.
   
-[[info]]
-| :point_up:**Important note:**  If there are any uncommitted changes when you run git checkout, GIT will behave very strangely.  The strangeness is predictable and sometimes useful, but it is best to avoid it.  All you need to do, of course, is commit all the new changes before checking out the new head.
+> :point_up:**Important note:**  If there are any uncommitted changes when you run git checkout, GIT will behave very strangely.  The strangeness is predictable and sometimes useful, but it is best to avoid it.  All you need to do, of course, is commit all the new changes before checking out the new head.
 
 After checking out the *\[new-head\]* head, you will fix the headers.  Now you can add and commit the changes as above.  The resulting repository looks like this:
 
@@ -214,8 +210,7 @@ These commands perform the following operations.  Let the current head be called
 + If there were no conflicts, create a new commit with two parents: *current* and *merge.*  Set current (and *HEAD*) to point to this new commit, and update the working files for the project accordingly.
 + If there was a conflict, insert appropriate conflict markers and inform the user.  No commit is created.
 
-[[warning]]
-| :point_up:GIT can get very confused if there are uncommitted changes in the files when you ask it to perform a merge.  So, make sure to commit whatever changes you have made so far before you merge.
+> :point_up: GIT can get very confused if there are uncommitted changes in the files when you ask it to perform a merge.  So, make sure to commit whatever changes you have made so far before you merge.
 
 ## Resolving Conflicts
 
@@ -241,12 +236,12 @@ Say you and your friend want to work on the same project.  Your friend already h
 
 ## Remote Specification
 
-GIT provides a number of transport protocols for sharing repository information, such as SSH and HTTP.  We will be using SSH.
+GIT provides a number of transport protocols for sharing repository information, such as SSH and HTTP.  We will be using only HTTP, because SSH is more advanced and requires extra setup.
 
-To start working in collaboration with remote projects, we will need to know the remote URL of the project.  When using SSH, the remote will look like this:
+To start working in collaboration with remote projects, we will need to know the remote URL of the project.  When using HTTP, the remote will look like this:
 
 ```bash
-git@domain_name.com:user_name/repository_name.git
+https://github.com/<github-username>/repository-name.git
 ``` 
 
 ### Github.com
@@ -261,13 +256,15 @@ If you are working on a local repository and you want to connect it to a remote 
 
 Once you know the remote URL, you can add it to your project.  
 
-You have to pick an alias for the remote – we normally use `origin`, but it is just an arbitrary word and you can use anything.  
-In our boilerplates you will already have an origin set-up from the boilerplate's repository. In those cases you would need to use another term (e.g. `new` or `new-origin`, etc). 
+You have to pick an alias for the remote – we normally use `origin`, but it is just an arbitrary word and you can use anything. 
+
+:warning:
+In our boilerplates you will already have an origin set-up from the boilerplate's repository. In those cases you should not remove the original origin, but would need to use another term (e.g. `new` or `new-origin`, etc) to add your new remote. 
 
 Add the remote by executing the following command:
 
 ```bash
-git remote add origin [remote-url]
+git remote add origin [the-remote-url]
 //to make sure the remote has been properly set we can get the url value
 git remote get-url origin
 ```
@@ -296,7 +293,7 @@ git pull origin development
 
 The `git pull` command will try to merge all the incoming files into your local branch.  If it finds any conflicting code, it will give you an error and ask you to resolve those conflicts.
 
-After you fix the conflicts, you can `git add` the files and `git commit` everything to keep a cle an error-free copy of your code in the repository.
+After you fix the conflicts, you can `git add` the files and `git commit` everything to keep a clean error-free copy of your code in the repository.
 
 ## Cloning the Repository (git clone)
 
@@ -324,8 +321,7 @@ A branch that **tracks** a remote branch retains an internal reference to the re
 
 The important thing to note is that you now have a complete copy of your friend’s entire repository.  When you branch, commit, merge, or otherwise operate on the repository, you operate only on your own repository.  GIT only interacts with your friend’s repository when you specifically ask it to do so.
 
-[[info]]
-|:link: Say your friend’s repository looks like this:<br>Here is a list of other great resources to learn GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br>You should especially try these two:<br>• https://try.github.io<br>• http://learngitbranching.js.org/ .
+> :link: Say your friend’s repository looks like this:<br>Here is a list of other great resources to learn GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br>You should especially try these two:<br>• https://try.github.io<br>• http://learngitbranching.js.org/ .
   
   
 

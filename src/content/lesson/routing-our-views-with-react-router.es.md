@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## ¿Qué es React Router?
-***
+
 
 React Router, una librería JS disponible a través de NPM que ayuda principalmente con 2 problemas:
 
@@ -22,7 +22,7 @@ $ npm install --save react-router
 ```
 
 ## ¿Por qué necesito esto?
-***
+
 
 Deja de leer si no estás creando aplicaciones completas usando React, no necesitas React-Router para aplicaciones de una sola página o componentes pequeños.
 
@@ -34,7 +34,7 @@ Por ejemplo, necesitamos las siguientes URL de aplicación para que coincidan co
 
 
 ## Definiendo tus Rutas de Aplicación
-***
+
 
 ¿Qué páginas/vistas quieres que tenga tu aplicación? Siempre puedes empezar con lo básico:
 
@@ -46,7 +46,7 @@ El resto de las páginas dependen de tu aplicación y de cómo quieres que los u
 ![react router](../../assets/images/205cd2de-dfae-4712-a5e4-1c922994e60d.png)
 
 ## Mapeando tus Vistas a URLs
-***
+
 
 Este es el mapa del sitio para cualquier sitio web de comercio electrónico típico:
 
@@ -54,7 +54,7 @@ Este es el mapa del sitio para cualquier sitio web de comercio electrónico típ
 ![react router](../../assets/images/9021be43-57ae-4667-8c1a-435b8521ce59.png)
 
 ## Programación de tus Rutas de Aplicación
-***
+
 
 Una vez que hayas terminado de asignar las vistas de la aplicación con las URL, puedes comenzar a programar todo, ¡y aquí es cuando entra en juego React-Router!
 
@@ -62,7 +62,7 @@ La mejor práctica es siempre crear un componente llamado `<Layout />` que se en
 
 Este es un ejemplo del mismo mapa del sitio de comercio electrónico pero ahora utilizando React Router v4:
 
-```jsx{numberLines: true}
+```jsx
 //Este componente Layout se encargará de enrutar las URL con todas las vistas de mi aplicación
 export class Layout extends Flux.View {
     render() {
@@ -104,7 +104,7 @@ Hay 3 componentes que entender aquí:
 Esta ruta le dice a React que cuando la URL coincida con "sign-up", debería mostrarse el componente Signup.
 
 ## Las Etiquetas o Anclas `<a>` ahora son un problema
-***
+
 
 Los anclajes llevan a los usuarios a otros sitios web o URL - y eso es sorprendente para un HTML + JS basico - pero ahora NO queremos que nuestros usuarios sean llevados a otros sitios web o URL. Queremos que permanezcan en la misma pestaña pero cargando la página siguiente sin tener que actualizar. Tenemos dos formas posibles de hacer eso:
 
@@ -125,7 +125,7 @@ React Router siempre pasa una prop a cada vista un elemento llamada "history" qu
 ```
 
 ## Ejemplo en Vivo:
-***
+
 
 Aquí hay un ejemplo en vivo que utiliza todo lo que hemos aprendido durante esta lectura, haz clic y juega para entenderlo, aprenderlo y repetirlo:
 

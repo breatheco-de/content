@@ -38,11 +38,10 @@ Every list has the same basic concepts:
 ![what is an list define list](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
 
 
-[[info]]
-| :point_up:List positions start a **zero (0)**; the first element is the element in the position **zero (0)**
+> :point_up:List positions start a **zero (0)**; the first element is the element in the position **zero (0)**
 
 ## How to Declare a List?
-***
+
 
 These are different examples of list declarations:
 
@@ -54,7 +53,7 @@ mySet = {"Apple", "Orange", "Donkey"} # This is a "set" - a more limited, unorde
 ```
 
 ## Access Items in the List
-***
+
 
 To access a specific element in a list, you need an `index`.  We call `index` the integer value that represents the position of the element you want to access/get/retrieve.
 
@@ -71,7 +70,7 @@ print(myList[len(myList) - 1]);  # print the last element on the console
 
 
 ## Update Items in the List
-***
+
 
 If you want you can reset or update any item inside of a list using its index like this:
 
@@ -81,7 +80,7 @@ If you want you can reset or update any item inside of a list using its index li
 ```
 
 ## Adding Elements to Python Lists (append and insert)
-***
+
 
 ### Using `append` in Python Lists
 
@@ -138,7 +137,7 @@ It will allow you to delete many items at once, you have to specify starting pos
 ```
 
 ## Looping a List
-***
+
 
 Normally, when you manipulate lists, you have to loop all the items. For example: order them manually, flip them, filter them, etc.
 There are many ways you can loop an entire list but the most used one is the `for`  loop.

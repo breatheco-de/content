@@ -9,8 +9,7 @@ status: "published"
 
 ---
 
-[[info]]
-| :point_up: Si en el capítulo anterior decíamos que las casas, tiendas y edificios son páginas web, entonces el código HTML sería los planos del edificio.
+> :point_up: Si en el capítulo anterior decíamos que las casas, tiendas y edificios son páginas web, entonces el código HTML sería los planos del edificio.
 
 
 ## HTML es el esqueleto del sitio web
@@ -70,13 +69,19 @@ Por último, es importante que una tag pueda tener una o más tags en su conteni
 Los espacios vacíos (o en blanco) y los saltos de línea son omitidos por el navegador al momento de interpretar el texto. Si escribimos cinco espacios en blanco seguidos, o uno solo, el navegador lo interpretará de la misma manera. Si queremos un salto de linea, debemos usar la etiqueta `<br>`.  Si queremos más "espacio", necesitamos insertar `&nbsp;` por cada espacio en blanco (sí, es raro, pero es así).
 
 **Estas tres alternativas se van a ver iguales (espacios y saltos de lineas van a ser ignorados):**
+
 ```html
 <tag>Hello</tag><tag>World</tag>
 ```
+
+Los saltos de linea son ignorados:
+
 ```html
 <tag>Hello</tag>
 <tag>World</tag>
 ```
+
+Los espacios son ignorados:
 
 ```html
 <tag>Hello</tag>               <tag>World</tag>
@@ -89,7 +94,7 @@ Los espacios vacíos (o en blanco) y los saltos de línea son omitidos por el na
 Todas las páginas deben empezar con la declaración del  `<DOCTYPE! Html>`, seguida por las etiquetas que contienen el `<head>` y por último el contenido del `<body>`. Estas tags **obligatoriamente** contienen otras tags dentro de ellas que son anidadas, y eso es así porque separan la página en dos pedazos principales: el HEAD (la cabeza) y el BODY (el cuerpo):
 
 
-```html{numberLines: true}
+```html
 <!-- Siempre debemos empezar con una tag HTML para demostrarle al navegador que este es un documento en formato HTML. -->
 <!DOCTYPE html>
 <html>
@@ -156,8 +161,7 @@ Las etiquetas más utilizadas dentro del `<body>` de un documento HTML son las s
 |Salto de Linea  |br   | 	Para saltar el texto o contenido a la línea siguiente (similar al `shift+enter` en MS Word.)<br>`<br></br>`   |
 |Tablas   |table   |Las tablas fueron diseñadas para presentar datos de una forma legible y coherente. Tienen una headers (th), filas (tr) y columnas (td).<br><br>`<table>`<br>`<tr><th>Columna 1</th><th>Columna 2</th></tr>`<br>`<tr><td>Datos 1</td><td>Data A</td></tr>`<br>`<tr><td>Datos 2</td><td>Datos B</td></tr><br>`<br>`<tr><td>Datos 3</td><td>Datos C</td></tr>`<br>`</table>`   |
 
-[[info]]
-|:link: [Haz clic aquí](https://www.w3schools.com/tags/ref_byfunc.asp), para más tags HTML.
+> :link: [Haz clic aquí](https://www.w3schools.com/tags/ref_byfunc.asp), para más tags HTML.
 
 ## Los atributos (propiedades)
 

@@ -10,19 +10,19 @@ status: "published"
 ---
 
 ## Pero, Qué es java?
-***
+
 “Java es un lenguaje de programación y una plataforma informática comercializada por primera vez en 1995 por Sun Microsystems”, así de fácil resume la propia web de Java qué es esta tecnología.
 
 Nació con el objetivo de ser un lenguaje de programación de estructura sencilla que pudiera ser ejecutado en diversos sistemas operativos. 
 
 ## Pero, Qué que sirve?
-***
+
 + Java sirve para crear aplicaciones y procesos en una gran diversidad de dispositivos.
 + Se base en **programación orientada a objetivos**
 + permite ejecutar un mismo programa en diversos sistemas operativos y ejecutar el código en sistemas remotos de manera segura.
 
 ## Diferencias entre Java y JavaScript
-***
+
 La similitud en el nombre entre Java y JavaScript genera que en ocasiones se confundan. En cambio, ambos son totalmente diferentes. 
 
 Mostrando algunas de sus diferencias
@@ -35,7 +35,7 @@ Mostrando algunas de sus diferencias
 |Es fuertemente tipado |Es débilmente tipado|
 
 ## Variables
-***
+
 
 <iframe width="830" height="467" src="https://www.youtube.com/embed/Q-eob0WBKs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -129,7 +129,7 @@ Algunas reglas no escritas, pero que se han asumido por convención son:
 + Si la constante está compuesta de dos palabras, estas se separan con un subrayado **(pe. LETRA_PI)**.
 
 ## Literales en Java
-***
+
 
 Los valores literales son aquellos que podemos asignar a las variables. Dependiendo del tipo de variable podremos asignar unos valores u otros.
 
@@ -199,7 +199,7 @@ String variableString = “cadena”;
 ```
 
 ## Tipos de Datos Primitivos en Java
-***
+
 
 Como ya hemos comentado Java es un lenguaje de tipado estático. Es decir, se define el tipo de dato de la variable a la hora de definir esta. Es por ello que todas las variables tendrán un tipo de dato asignado.
 
@@ -220,7 +220,7 @@ El lenguaje Java da de base una serie de tipos de datos primitivos.
 <iframe height="400px" width="100%" src="https://repl.it/repls/TreasuredHeartyProfessionals?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Expresiones, sentencias y bloques en Java
-***
+
 
 Un programa en Java se compone de un conjunto de sentencias que se ejecutan para resolver un problema. Las sentencias son el elemento básico de ejecución de los programa Java.
 
@@ -299,7 +299,7 @@ if (expresion) {
 ```
 
 ## Operadores de Asignación y Aritméticos Java
-***
+
 
 + **Operador de Asignación**
 
@@ -479,8 +479,7 @@ switch (expresion) {
       bloque_por_defecto;
 }
 ```
-[[info]]
-|Usa `switch` en lugar de` if` cuando: <br> <br> • Estás comparando varias condiciones posibles de una expresión y la expresión en sí no es trivial. • Tienes múltiples valores que pueden requerir el mismo código . <br> • Tienes algunos valores que requerirán esencialmente toda la ejecución de otro valor, más solo unas pocas declaraciones. <br> <br> Utiliza `if` en lugar de` switch` cuando: <br> <br> • Deseas probar la veracidad de una expresión. <br> • Solo tienes una única prueba afirmativa. <br> • Necesitas evaluar diferentes expresiones para cada rama.
+> Usa `switch` en lugar de` if` cuando: <br> <br> • Estás comparando varias condiciones posibles de una expresión y la expresión en sí no es trivial. • Tienes múltiples valores que pueden requerir el mismo código . <br> • Tienes algunos valores que requerirán esencialmente toda la ejecución de otro valor, más solo unas pocas declaraciones. <br> <br> Utiliza `if` en lugar de` switch` cuando: <br> <br> • Deseas probar la veracidad de una expresión. <br> • Solo tienes una única prueba afirmativa. <br> • Necesitas evaluar diferentes expresiones para cada rama.
 
 
 + **Sentencias de Bucle**
@@ -532,5 +531,5 @@ Las sentencias de ramificación en Java son: `break` y `continue`.
 En el caso de break nos sirve para salir de bloque de sentencias, mientras que continue sirve para ir directamente al siguiente bloque.
 
 ## Entonces ... dime, ¿te gustó El lenguaje Java?
-***
+
 Java es mas que otro lenguaje de programacion con instrucciones divertidas que podemos ir descubriendo duranto a lo largo del curso

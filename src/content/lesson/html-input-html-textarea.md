@@ -10,7 +10,7 @@ tags: ["HTML","inputs","forms"]
 ---
 
 ## HTML Forms
-***
+
 
 This lesson is very easy to understand – but it is essential in that in this new knowledge, all of the interactivity of the internet will be relayed.  There are a few additional HTML tags that we need to discuss before finishing the Pre-Work: they are the first possible ways of interaction that were introduced in HTML: The Inputs and Forms.
 
@@ -40,7 +40,7 @@ The following is a list of all the possible elements we can use to receive any i
 |Select   |`python><select>`   |Asks the user to pick one or more elements from a list of options.<br>`python><select name="color" /> <option value="red">Red </option> <option value="yellow">Yellow</option> <select />`   |
 
 ## Input Attributes
-***
+
 
 Just like any other HTML tag, the input tags have several attributes that can be set to describe their behavior in more specific ways:
 
@@ -68,7 +68,7 @@ Just like any other HTML tag, the input tags have several attributes that can be
 ```
 
 ## The forms METHOD and ACTION
-***
+
 
 
 The two most important attributes that need to be set into the `<form>` tag are action and method:
@@ -81,8 +81,7 @@ The two most important attributes that need to be set into the `<form>` tag are 
 |:----------------------|:-----------------------|
 |All form data is encoded into the URL.  This means that it will append all the information of the form to the end of the destination URL, for example: http://www.mydestinationurl.com?input_name1=value1&input_name2&value2….   |The data will be hidden from the end-user.  The URL will remain as it was defined in the "action" attribute and only a developer will be able to request the form information.   |
 
-[[warning]]
-| :point_up:If you are going to use the `python><input type="file">` the only method supported is POST.
+> :point_up: If you are going to use the `python><input type="file">` the only method supported is POST.
 
 
 

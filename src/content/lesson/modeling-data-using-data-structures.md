@@ -37,8 +37,7 @@ There are many publicly known data-structures and you can also create your own, 
 | Graph | Graphs are data structures where any element (called node) can have a pointer to any other node, you can use graphs to represent hiearchies, streets in a city, etc. | Graphs are very efficient because they let you point directly to other nodes instead of having to loop in a sequence, for example Google Maps Traffic uses graphs to calculate the Estimated Time of Arrival  |
 | Tree | Trees are a type of Graph with hierarchy (parents and childs), everything starts at the top node and you can use `python>node.childs()` to get the childs of any element and keep drilling down the hierarchy. | Trees are efficient in many scenarios where real life hierarchies are present like: Representing a family, The File Directory of any computer, Website Menu, etc. |
 
-[[info]]
-| :point_up: There are other types of data structures and you can also create your own structures but we are covering these cases because they represent the strong mayority of the real-life situations you are going to encouncer while coding.
+> :point_up: There are other types of data structures and you can also create your own structures but we are covering these cases because they represent the strong mayority of the real-life situations you are going to encouncer while coding.
 
 ## The Array
 

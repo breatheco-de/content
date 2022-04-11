@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## What is Object Oriented Programming
-***
+
 
 Everything we have coded up until now revolves around functions (i.e. blocks of statements which manipulate data).  This is called the ***procedure-oriented*** way of programming.  There is another way of organizing your code, which is to combine data and functionality, and wrap it inside something called an  object.  This way of coding its called the ***object-oriented*** way of programming, and is ideal when writing large applications.
 
@@ -19,7 +19,7 @@ Everything we have coded up until now revolves around functions (i.e. blocks of 
 The universe is made of different objects like: the sun, earth, moon, chairs and crazy people.  Similarly, we can imagine that our car is made up of different objects, like: steering wheel, air conditioner, engine etc.  In that same way, there are object oriented programming concepts which assume that everything is an object, and implements a software for different objects.
 
 ### Why use OO Programing?
-***
+
 
 There are two kinds of people in this world:
 
@@ -40,7 +40,7 @@ Creating a program in an object-oriented way can be slower at the beginning beca
 But hey!!…you don’t need to be one of those people that must "love" or "hate" everything.  Instead, try to understand that everything has pros and cons.  Become a master in this technique and use it wisely.
 
 ## This is all about Objects and Classes
-***
+
 
 Classes and objects are the two main aspects of object oriented programming.  A **class** creates a *new type (of object)* where **objects** are particular **instances** of a particular class.
 
@@ -51,11 +51,11 @@ Classes and objects are the two main aspects of object oriented programming.  A 
 ![what is object oriented programming concepts](../../assets/images/ed2a2bfb-95eb-473f-af7c-aa9f1d4c055e.jpeg)
 
 ## Defining Classes (abstraction)
-***
+
 
 Every application and website that you are going to build needs to have its own set of classes.  Which classes will depend on the business logic behind the website (it’s ultimately all about the client and the need(s) that they are trying to resolve).
 
-***
+
 
 ### Classes have Properties (a.k.a attributes) that Describe them…
 
@@ -63,7 +63,7 @@ For example: A Person class has: skin color, race, name, social-security number,
 
 ![what is object oriented programming concepts](../../assets/images/10ce9a67-1060-4550-a824-5087688d0630.png)
 
-***
+
 
 ### Some Properties can be a Class instead of being a simple Data-Type…
 
@@ -73,7 +73,7 @@ A better solution will be to use pre-defined Date classes or functions that come
 
 ![what is object oriented programming concepts](../../assets/images/6f07bc8b-6d21-46e6-8710-34992df2508b.png)
 
-***
+
 
 ### Classes can have Calculated Properties
 
@@ -84,7 +84,7 @@ Some properties are calculated during runtime every time we need them.  For exam
 
 
 ## Lets do our first Class-Diagram!
-***
+
 
 Lets do our first Class-Diagram!
 Let say that you are designing the object oriented model of a new website, and your client wants to create a shopping cart.  This is easy because these types of websites are being made every day (it will actually be both wiser and more efficient to clone an already-made model; however, for the sake of this lesson, we are going to continue with our example).
@@ -97,8 +97,7 @@ When building any Class Diagram of your application, you should take these follo
 + For each class, the minimum number of properties should be specified (unnecessary properties will make the diagram complicated).
 + Use notes when ever required to describe some aspect of the diagram.  At the completion of the drawing, it should be understandable to the developer/coder.
 
-[[warning]]
-| :point_up:It is important to say that there are no right or wrong solutions for these kinds of problems.  You must remain confident and stick to your strategy.  However, make sure you take enough time to design a good one before adding some code – otherwise it will become difficult to change things up during the development of big applications (with lots of classes) .
+> :point_up: It is important to say that there are no right or wrong solutions for these kinds of problems.  You must remain confident and stick to your strategy.  However, make sure you take enough time to design a good one before adding some code – otherwise it will become difficult to change things up during the development of big applications (with lots of classes) .
 
 ### Building a Car Dealer Website
 
@@ -124,7 +123,7 @@ Clients have usernames, names, lastNames.  Cars have color, brand, price, etc.  
 Class diagrams also need to express the way classes relate to each other and the functions they have (including "getter" and "setter" functions).
 
 ## Writing a Class (syntax)
-***
+
 
 To declare a class we need to use the word "class" anywhere in our code followed by the class name that we want to assign to it.  Start and finish each class with brackets.
 
@@ -133,7 +132,7 @@ The properties are declared at the beginning of each class; globally within the 
 Right after the properties, you have to declare the functions.
 
 ## The Class Constructor
-***
+
 
 
 The "class constructor" is the first function that gets called in the entire class.  It gets called as soon as the object is created.  It is very good practice to assign initial values to the class properties inside its constructor method.
@@ -143,12 +142,12 @@ We call the constructor one of the "magic functions."  They are "magical" becaus
 Magic functions always start with two underscores, and the __construct() .  We use __construct() in order to do something as soon as we create an object out of a class.  A function of this kind is called a constructor.  Usually we use the constructor to set a value to a property.
 
 ## The "this" or "self" Operator
-***
+
 
 The "this" (in JavaScript and PHP) or "self" (in Python) indicates that we are using the class specific methods and properties, and allows us to have access to them within the class specific scope.
 
 ## Class Properties Syntax
-***
+
 
 The properties are declared at the beginning of each class (globally within the brackets of that particular class).  Right after the properties, you have to declare the calculated properties as well.
 
@@ -156,16 +155,15 @@ The properties are declared at the beginning of each class (globally within the 
 
 All class properties have a Public visibility by default; you can change their visibility to private if you think it best:*
 
-[[warning]]
-| :point_up:*JavaScript and Python don’t have private or public properties – they are all public by default.  It is in good practice to use the underscore symbol to simulate the same behavior.
+> :point_up: *JavaScript and Python don’t have private or public properties – they are all public by default.  It is in good practice to use the underscore symbol to simulate the same behavior.
 
-***
+
 
 #### Public Properties
 
 Properties that can be accessed from outside the class using the -> operator.
 
-***
+
 
 #### Private Properties
 
@@ -175,7 +173,7 @@ To  access a private property you need to create two functions: ***a getter and 
 + The getter function will be responsible for accessing the value internally and returning it to whoever called upon it.
 + The setter function is responsible for assigning the given value (as a parameter) to the internal private property.
 
-***
+
 
 ### What is the Point of Using "getters" and "setters"?
 
@@ -205,13 +203,12 @@ Perhaps you may feel that it is pointless to use "getters" and "setters" for eve
 
 <div align="right"><small><a href="https://repl.it/G1cx/0?lite=true">Click here to open demo in a new window</a></small></div>
 
-[[warning]]
-| :point_up:Some languages, like PHP, have their own __get and __set magic functions to implement getters and setters.  However, this is not a good idea because of performance issues.  It is a better idea to create your own "get/set" functions according to your project needs.  [Here is the reasoning behind it.](https://stackoverflow.com/questions/6184337/best-practice-php-magic-methods-set-and-get)
+> :point_up: Some languages, like PHP, have their own __get and __set magic functions to implement getters and setters.  However, this is not a good idea because of performance issues.  It is a better idea to create your own "get/set" functions according to your project needs.  [Here is the reasoning behind it.](https://stackoverflow.com/questions/6184337/best-practice-php-magic-methods-set-and-get)
 
 
 
 ## Encapsulation (Divide and Conquer)
-***
+
 
 ***Encapsulation*** is the process of combining data and functions into a single unit called a "class."
 
@@ -224,7 +221,7 @@ For example, a car driver doesn’t need to know how an internal combustion engi
 Hiding the complexity of the car from the user allows anyone, not just a mechanic, to drive a car.  In the same way, hiding the complex functionality of your object from the user allows ANYONE to use it and to find ways to reuse it in the future (regardless of their knowledge of the internal workings).  This concept of keeping implementation details hidden from the rest of the system is key to object-oriented design.
 
 ## Inheritance
-***
+
 
 In [object-oriented programming](https://searchmicroservices.techtarget.com/definition/object-oriented-programming-OOP), inheritance is the concept that when a [class](https://whatis.techtarget.com/definition/class) of [objects](https://searchmicroservices.techtarget.com/definition/object) is defined, any subclass that is defined can inherit the definitions of one or more general classes.  This means that, for the programmer, an object in a subclass need not carry its own definition of data and methods that are generic to the class (or classes) of which it is a part.  This not only speeds up program development; it also ensures an inherent validity to the defined subclass object (what works and is consistent about the class will also work for the subclass).
 

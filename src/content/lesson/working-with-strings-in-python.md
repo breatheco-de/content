@@ -38,8 +38,7 @@ age = "23" # <--- this is still a string (it's within quotes)
 
 When coding a web application, everything the user types in forms it's considered a `string`, even if the user types the number `2` (two) it will still be considered the string `"2"`  and not a real number, the developer will have to explicitely convert or parse that string into a number using the function `int()`  or `float()`.
 
-[[info]]
-|:link: How to [convert strings into integers with python](https://guide.freecodecamp.org/python/how-to-convert-strings-into-integers-in-python/) (3 min read).
+> :link: How to [convert strings into integers with python](https://guide.freecodecamp.org/python/how-to-convert-strings-into-integers-in-python/) (3 min read).
 
 The most common use for a string is printing it using the function `print`
 
@@ -91,8 +90,7 @@ print("The strings ends with " + question[size - 1])
 
 ```
 
-[[info]]
-| :point_up: This method of character extraction on strings is very similar to the one used on lists to extract an element from a particular position in the list.   
+> :point_up: This method of character extraction on strings is very similar to the one used on lists to extract an element from a particular position in the list.   
 
 You can also extract several characters at once. The range of the method starts with the index of the first character to be extracted and ends with the index AFTER the last character to be extracted:
 
@@ -130,8 +128,7 @@ lowercased_string = name1.lower() # will convert to lowercase
 uppercased_string = name2.upper() # will convert to uppercase
 ```
 
-[[info]]
-| :point_up: it is good practice to always lowercase strings before comparing them with others, that way we will avoid missing case sensitive differences.
+> :point_up: it is good practice to always lowercase strings before comparing them with others, that way we will avoid missing case sensitive differences.
 
 ### Convert strings to numbers (and vice versa)
 

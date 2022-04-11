@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## Programación orientada a Eventos
-***
+
 
 Trabajar con eventos es una forma totalmente nueva de **controlar el flujo de una aplicación.** Es la primera vez que tu código no se ejecutará en un flujo lineal. En su lugar, se ejecutará de forma asíncrona. ¿Quién sabe qué es lo primero?
 
@@ -29,7 +29,7 @@ A veces es el usuario del sitio web, a veces es el navegador, a veces es otra ap
 Hay docenas de eventos que se activan cada minuto, pero no tienes que hacer nada al respecto (no si no quieres). Están disponibles para usted según el tipo de aplicación que desee hacer.
 
 ## Tipos de Eventos
-***
+
 
 Estos son algunos de los tipos de eventos que se activan constantemente (y usted puede escucharlos):
 
@@ -43,8 +43,7 @@ Estos son algunos de los tipos de eventos que se activan constantemente (y usted
 |Mousemove     |Si el usuario mueve el mouse.   |
 |Mousedown or Mouseup     |Si el usuario presiona o suelta el mouse.    |
 
-[[demo]]
-| :point_up: Juega con esta demo aquí
+> :point_up: Juega con esta demo aquí
 
 <iframe width="100%" height="300" frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/mouse.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -60,8 +59,7 @@ Estos son algunos de los tipos de eventos que se activan constantemente (y usted
 |PageHide<br>PageShow    |Cuando el usuario se enfoca en una ventana / pestaña diferente; o cuando el usuario vuelve de una ventana / pestaña diferente.  |
 |Resize    |Cuando la ventana se redimensiona.     |
 
-[[demo]]
-| :point_up: Juega con esta demo aquí
+> :point_up: Juega con esta demo aquí
 
 <iframe width="100%" height="300" frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/frame.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -77,8 +75,7 @@ Estos son algunos de los tipos de eventos que se activan constantemente (y usted
 |Change       |El evento ocurre cuando el contenido de un elemento del formulario, la selección o el estado previamente establecido han cambiado (para `<input>`, `<keygen>`, `<select>`, y `<textarea>`)
      |
 
-[[demo]]
-| :point_up: Juega con esta demo aquí 
+> :point_up: Juega con esta demo aquí 
 
 <iframe width="100%" height="300"  frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/forms.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -92,8 +89,7 @@ Estos son algunos de los tipos de eventos que se activan constantemente (y usted
 |Keydown	     |Cuando el usuario presiona la tecla del teclado.    |
 |Keypress       |Cuando el usuario presiona y suelta la tecla del teclado. La diferencia de keydown / up es que Keypress solo funciona con teclas de caracteres. Por ejemplo, no funciona en las flechas arriba | abajo | izquierda | derecha. |
 
-[[demo]]
-| :point_up:Juega con esta demo aquí
+> :point_up:Juega con esta demo aquí
 
 <iframe width="100%" height="300"  frameborder="1"src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/keyboard.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -101,11 +97,10 @@ Estos son algunos de los tipos de eventos que se activan constantemente (y usted
 
 
 
-[[info]]
-|:link: Aquí [puedes encontrar una lista con todos los otros eventos menos comunes](https://www.w3schools.com/jsref/dom_obj_event.asp) que tiene a su disposición.  Léalos rápidamente y sé consciente de ellos para futuras referencias durante tu vida como desarrollador.
+> :link: Aquí [puedes encontrar una lista con todos los otros eventos menos comunes](https://www.w3schools.com/jsref/dom_obj_event.asp) que tiene a su disposición.  Léalos rápidamente y sé consciente de ellos para futuras referencias durante tu vida como desarrollador.
 
 ## Escuchando los Eventos
-***
+
 
 Ahora que sabes qué eventos hay, puedes comenzar a escucharlos cuando lo desees durante el tiempo de ejecución.  La única forma de reaccionar ante cualquier evento es escuchar ese evento y asignar una función que maneje el evento como lo necesite.
 
@@ -116,7 +111,7 @@ Repitamos: Para **reaccionar** necesitas **escuchar…** Y para escuchar necesit
 Puedes agregar un detector de eventos de 2 maneras diferentes:
 
 ## Añadiendo Listeners desde el HTML
-***
+
 
 Por ejemplo, si desea empezar a escuchar cuando el usuario hace clic en un botón en particular todo lo que tiene que hacer es especificar el atributo "onclick" para esa etiqueta HTML específica `< button>`, así:
 
@@ -136,7 +131,7 @@ function myClickHandler(){
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/b7c6gmnd/1/embedded/js,html,result/" allowfullscreen="allowfullscreen">Haga clic aquí para abrir la demostración en una nueva ventana.</a></small></div>
 
 ## Añadiendo Listeners desde JavaScript (durante el tiempo de ejecución)
-***
+
 
 A veces el elemento DOM no existe desde el principio. Tal vez se crean después de una llamada a la base de datos o después de que el usuario haya hecho algo. Para resolver ese problema, debe comenzar a escuchar después de crear los nuevos elementos.
 
@@ -151,7 +146,7 @@ Por ejemplo, este código está creando una lista de nombres, y cada ancla de el
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/1nhjc4t0/1/embedded/js,html,result/">Haga clic aquí para abrir la demostración en una nueva ventana.</a></small></div>
 
 ## El Objeto del Evento
-***
+
 
 Los controladores de eventos pueden tener un parámetro opcional en la declaración de la función.  Este parámetro siempre se llena con un objeto "Evento" que contiene mucha información sobre el evento que se activó para obtener esta función llamada.
 
@@ -240,11 +235,10 @@ Ten en cuenta que en **addEventListener()** solo hacemos referencia a la funció
 |deltaX, deltaY   |Devuelve la cantidad de desplazamiento vertical u horizontal de una rueda del ratón ( eje y) o (eje x)   |
 |deltaMode       |Devuelve un número que representa la unidad de mediciones de valores delta (píxeles, líneas o páginas)    |
 
-[[info]]
-| :link: Hay mucha más información que puede obtener del objeto de evento, pero nos estamos enfocando en las propiedades más utilizadas. Para una lista más grande de propiedades por favor lea [this guide.](https://www.w3schools.com/jsref/dom_obj_event.asp)
+> :link: Hay mucha más información que puede obtener del objeto de evento, pero nos estamos enfocando en las propiedades más utilizadas. Para una lista más grande de propiedades por favor lea [this guide.](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
 ## Eliminar los Listeners (receptores)
-***
+
 
 Qué pasa si no quiero seguir escuchando? Todos los navegadores modernos eliminan los oyentes de eventos cuando se elimina el elemento DOM en el que se aplicaron. Pero si no desea eliminar el elemento DOM, puede eliminar el oyente de forma manual utilizando la función .removeEventListener.
 

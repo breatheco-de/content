@@ -10,7 +10,7 @@ status: "published"
 ---
 
 ## ¿Por qué son importantes las bases de datos?
-***
+
 
 Las bases de datos son la mejor manera de almacenar datos, y ¡cada día hay más y más datos!  Los próximos serán años de data-mining, machine learning y mucha automatización.  La única forma de lograrlo es dominando las bases de datos.
 
@@ -21,7 +21,7 @@ Al principio, la información se guardaba en archivos más simples como .csv (se
 En algún momento, nuestro amigo [Edgar](https://en.wikipedia.org/wiki/Edgar_F._Codd) decidió rediseñar esos archivos y creó una forma estándar de almacenar datos en archivos centrados en el rendimiento y la integridad.  Se asoció con el señor [Donald](https://en.wikipedia.org/wiki/Donald_D._Chamberlin) y juntos crearon un lenguaje llamado SQL –  que fue diseñado para trabajar con datos de una manera muy amigable.
 
 ## ¿Qué es SQL?
-***
+
 
 SQL es el lenguaje más utilizado cuando se desea hablar directamente con una base de datos.  Significa: Structured Query Language (Lenguaje de Consulta Estructurada) y es un lenguaje informático para almacenar, manipular y recuperar datos que se almacenan en [bases de datos relacionales](https://en.wikipedia.org/wiki/Base_de_datos_relacional).
 
@@ -33,11 +33,10 @@ SELECT username FROM user WHERE email='info@breatheco.de'
 
 En este ejemplo, solicitamos a la base de datos todos los usuarios con el correo electrónico igual a "info@breatheco.de"
 
-[[warning]]
-| :point_up: Si deseas ganarte el respeto de un desarrollador, necesitas sentirte cómodo con SQL.  Lo usarás MUCHO cuando trabajes con datos.
+> :point_up:  Si deseas ganarte el respeto de un desarrollador, necesitas sentirte cómodo con SQL.  Lo usarás MUCHO cuando trabajes con datos.
 
 ## Definiendo tu Base de Datos 
-***
+
 
 Las bases de datos son similares en apariencia a las hojas de cálculo: todo se almacena en tablas con filas y columnas. Cada columna representa atributos comunes en las filas en las que intersectan, que son instancias de datos.
 
@@ -85,7 +84,7 @@ Una base de datos de la Biblioteca Pública probablemente tenga una tabla llamad
 &nbsp;
 &nbsp;
 ## La Sintaxis de  SQL: Trabajando con Tablas
-***
+
 
 Hay 3 operaciones principales que se pueden hacer en una tabla: Crear, actualizar o eliminar una tabla. En SQL, esas operaciones se llaman Create, Alter y Dro. Recuerda que estas operaciones se utilizan para manipular la estructura de la base de datos, no la información que contiene.
 
@@ -119,7 +118,7 @@ DROP TABLE CUSTOMERS;
 ```
 
 ## La Sintaxis SQL: Manipulando Datos
-***
+
 
 Cuando usas SQL, tienes 4 comandos principales para manipular datos: SELECT, INSERT, UPDATE y DELETE.
 
@@ -173,7 +172,7 @@ DELETE FROM user WHERE ssn = '342-45-6732'
 ```
 
 ## Mantener la Integridad de los Datos
-***
+
 
 ¡Mantener la integridad de los datos es difícil! Las bases de datos con muchas actividades y usuarios normalmente luchan por mantener la integridad de los datos. ¡A veces los datos son tan delicados y sensibles que agregar un cero a un entero simplemente podría terminar haciendo millonario a alguien!
 
@@ -193,7 +192,7 @@ Nosotros podemos clasificar los problemas de integridad en 4 tipos:
 + **Usar transacciones (commit y rollback):** Hablaremos de eso a continuación; Las transacciones son una buena manera de retroceder en el tiempo si algo sale mal.
 
 ## Transacciones SQL
-***
+
 
 Una transacción es un grupo de una o más operaciones SQL (insertar, eliminar, actualizar, crear, etc.).
 
@@ -207,7 +206,7 @@ Por ejemplo, supongamos que un Cliente del Banco está transfiriendo dinero de u
 ¿Qué pasa si la primera operación fue exitosa pero la segunda falló? Debe "deshacer" la primera o el usuario perderá el dinero para siempre
 
 ## Cada transacción debería ser:
-***
+
 
 Las transacciones tienen las siguientes cuatro propiedades estándar, generalmente referidas por el acrónimo ACID:
 
@@ -217,7 +216,7 @@ Las transacciones tienen las siguientes cuatro propiedades estándar, generalmen
 + **Durability:**  garantiza que el resultado o efecto de una transacción confirmada persista en caso de falla del sistema.
   
 ## Controlado las Transacciones SQL
-***
+
 
 Estos son los comandos utilizados para controlar las transacciones:
 
@@ -298,8 +297,7 @@ La sintaxis para SET TRANSACTION es la siguiente:
 SET TRANSACTION [ READ WRITE | READ ONLY ];
 ```
 
-[[info]]
-|:link:https://www.tutorialspoint.com/sql/sql-syntax.html
+> :link:https://www.tutorialspoint.com/sql/sql-syntax.html
 
 
 

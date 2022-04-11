@@ -49,7 +49,7 @@ Si lo piensas bien, las funciones son equivalentes a los libros. Almacenan conoc
 
 Todas las funciones deben comenzar y terminar en algún lugar, esto se llama **el alcance de la función**. Puedes delimitar los límites usando llaves de esta forma:
 
-```javascript{numberLines: true} 
+```javascript 
 
 //esta parte del código está FUERA de la función 'multiply'
 
@@ -67,7 +67,7 @@ function multiply(a, b) {
 
 Cualquier variable que declare dentro de la función no estará disponible fuera de ella.
 
-```javascript{numberLines: true}
+```javascript
 function multiply(a, b) {
 
    let myVariable = 'hello';
@@ -80,8 +80,7 @@ console.log(myVariable); // este console.log no funcionará, generará un error,
 ```
 
 
-[[warning]]
-| :point_up: Es muy importante recordar que una vez que use la instrucción `return`, la función dejará de ejecutarse, si hay algún código después de esa instrucción, nunca se ejecutará.
+> :point_up:  Es muy importante recordar que una vez que use la instrucción `return`, la función dejará de ejecutarse, si hay algún código después de esa instrucción, nunca se ejecutará.
 
 ## Funciones Anónimas
 
@@ -116,7 +115,7 @@ Recuerda asignarle a la función los parámetros que debe recibir. En nuestro ej
 
 Puedes combinar funciones como quieras y tener llamadas encadenadas como esta:
 
-```javascript{numberLines: true} 
+```javascript 
 function sum(a,b){
    return a+b;
 }
@@ -136,8 +135,7 @@ let secondSum = sum(1,1);
 console.log(multiply(firstSum, secondSum));
 ```
 
-[[demo]]
-| :point_up: [Ver este ejemplo en vivo en replit](https://repl.it/@4GeeksAcademy/Nested-Function-Calling)
+> :point_up: [Ver este ejemplo en vivo en replit](https://repl.it/@4GeeksAcademy/Nested-Function-Calling)
 
 ## Veamos un ejemplo:
 

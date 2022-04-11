@@ -10,11 +10,11 @@ status: "published"
 ---
 
 ## En React.js todo es un `<Componente />`
-***
+
 
 React.js separa tu código en pequeñas partes llamadas Componentes que pueden crearse / definirse como **class** o como **function**.  Cada componente es como una aplicación de React más pequeña que tiene su propia lógica y tiene un propósito final que es renderizar algo. Por ejemplo: un `navbar` de bootstrap, una _dropdown list_ (lista desplegable), un modelo, un formulario dinámico, galería de imágenes, formulario de suscripción, casi todo puede diseñarse y codificarse como un componente React). Para hacer eso, el componente de React debe tener un `return` que devuelva código JSX (HTML + JS anidado).
 
-```jsx{numberLines: true}
+```jsx
 
 import React from 'react';
 
@@ -36,8 +36,8 @@ class Navbar extends React.Component{
     }
 }
 ```
-[[warning]
-| :point_up: Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que los componentes de clase están considerados como legacy (deprecados).
+
+> :point_up: Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que los componentes de clase están considerados como legacy (deprecados).
 
 
 ## Usando un Componente
@@ -70,7 +70,7 @@ function Home(props){
 ```
 
 ## Las Props
-***
+
 
 A veces un componente necesita información dinámica para mostrar. Por ejemplo, necesitamos nuestro componente `<Navbar />` para mostrar la lista de enlaces disponibles y el logo de la marca. Podemos incluir esa información dentro de la llamada del componente `<Navbar />` de la misma manera que lo hacemos en las etiquetas HTML.
 
@@ -100,7 +100,7 @@ Y, por último, debemos indicarle a React dónde debe renderizar ese componente 
 
 
 ## El Estado del Componente
-***
+
 
 ¿Pero qué pasa si mi componente cambia con el tiempo? Por ejemplo, un componente `<Reloj />` deberá actualizarse cada segundo y mostrar la hora actual. Para hacerlo, tenemos el estado y solo se puede utilizar en componentes que se han declarado como una clase.
 
@@ -110,7 +110,7 @@ Es una variable de **class** (disponible en toda la clase que usa esto) que nece
 
 Sin embargo, hay una trampa. El estado no se puede cambiar, lo que significa que no se puede editar, por lo que debemos anularlo mediante la función *** this.setState () *** que recibe el nuevo objeto de estado (que reemplaza al anterior).
 
-```jsx{numberLines: true}
+```jsx
 // ¡INCORRECTO! Nunca actualizar el estado directamente 
 this.state.foo = "bar";
 
@@ -133,12 +133,11 @@ Aquí hay un ejemplo del componente `<Clock />` del que acabamos de hablar:
 
 <div align="right"><small><a href="https://codesandbox.io/embed/zw852wvqp4?autoresize=1&amp;hidenavigation=1">Click here to open demo in a new window</a></small></div>
 
-[[warning]]
-| :point_up:Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+> :point_up: Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
 
 
 ## pero espera, deberia usar Function o Class?
-***
+
 
 ¡Ambos! Depende de cuán complejo sea su componente:
 
@@ -248,10 +247,7 @@ class MyComponent {
     }
 ```        
 
-[[info]]
+> :link: Aquí puedes encontrar [más información sobre todos los métodos de ciclo de vida de React JS.](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
 
-|:link: Aquí puedes encontrar [más información sobre todos los métodos de ciclo de vida de React JS.](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
-
-[[warning]]
-| :point_up:Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+> :point_up: Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
 
