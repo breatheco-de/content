@@ -30,7 +30,7 @@ When you open a Github repository using Gitpod, you will be "renting" a computer
 
 We will be using the terminal sometimes, you can always find or open the terminal by clicking on the hamburger menu on the top left, and looking to the "terminal" => "new terminal" option.
 
-![Gitpod button](../../assets/images/terminal.png?raw=true)
+![Gitpod button](../../assets/images/terminal.png)
 
 ### What is the terminal or command line?
 
@@ -39,4 +39,4 @@ But in Gitpod is will be the only way we have to control the -linux- computer.
 
 You don't have to learn the terminal command's yet, but [we strongly recomend to read this lesson](https://content.breatheco.de/en/lesson/the-command-line-the-terminal) to get familiar and know it's functions and limitations.
 
-![Gitpod button](../../assets/images/terminal-command.png?raw=true)
+![Gitpod button](../../assets/images/terminal-command.png)
