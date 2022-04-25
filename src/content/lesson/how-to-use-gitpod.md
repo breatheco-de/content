@@ -37,12 +37,13 @@ You need reliable internet: Otherwise, you can get disconnected while coding (an
 We recognize the tradeoffs, but our students and the academy get so much value from Gitpod that we are happy to bear the disadvantages.
 
 ## How does Gitpod work?
-After you sign up to Gitpod, you will find [your workspaces](https://gitpod.io/workspaces) empty.
-Every workspace is a -virtual- computer.
-The only way to create a new workspace is to specify a Github repository folder (if you don't know what Github is, think of it as an online hard drive of code, where every folder is a project you are coding).
-Once the new workspace opens, it will create an empty computer for you, but it will also download to this new computer the files from the Github repository folder you specified (your code).
-Finally, it will open a coding editor (probably VSCode, the most used coding IDE in the world) and a terminal to start coding as if the workspace was on your local computer in the first place.
-If you go back to [your workspaces](https://gitpod.io/workspaces), you will find all the computers you have created and be able to `re-open them` changes you made to the files will stay forever, you will not lose any data as long as you RE-OPEN the same workspace you where working on in the first place.
+
+- After you sign up to Gitpod, you will find [your workspaces](https://gitpod.io/workspaces) empty.  
+- Every workspace is a -virtual- computer.  
+- The only way to create a new workspace is to specify a Github repository folder (if you don't know what Github is, think of it as an online hard drive of code, where every folder is a project you are coding).  
+- Once the new workspace opens, it will create an empty computer for you, but it will also download to this new computer the files from the Github repository folder you specified (your code).  
+- Finally, it will open a coding editor (probably VSCode, the most used coding IDE in the world) and a terminal to start coding as if the workspace was on your local computer in the first place.  
+- If you go back to [your workspaces](https://gitpod.io/workspaces), you will find all the computers you have created and be able to `re-open them` changes you made to the files will stay forever, you will not lose any data as long as you RE-OPEN the same workspace you where working on in the first place.  
 
 ![How gitpod works](https://github.com/alesanchezr/content/blob/master/src/assets/images/how-gitpod-works.jpeg?raw=true)
 
@@ -57,7 +58,7 @@ It's a computer; all the updates you make to your code will stay on the same wor
 We strongly recommend downloading the [Gitpod Chrome Extension](https://www.gitpod.io/docs/browser-extension/). It will make your workflow easier and faster.
 
 Once you download and install the extension, you will find a green button called "Gitpod" on every GitHub repository.
-![Gitpod button](../../assets/images/GitHub-gitpod.png)
+![Gitpod button](../../assets/images/github-gitpod.png)
 
 Pressing on this button will open the repository files on a new workspace, and you will be able to start coding on VSCode.
 
@@ -75,5 +76,7 @@ As a coder, you need to use the computer terminal sometimes; you can always find
 Every computer has a terminal, and you use it to do almost everything you want: Open an application, create a file, folder, etc. However, in Gitpod, the terminal will only control the virtual computer.
 
 You don't have to learn the terminal command's yet, but [we strongly recommend reading this lesson](https://content.breatheco.de/en/lesson/the-command-line-the-terminal) to get familiar and know its functions and limitations.
+
+![terminal command](../../assets/images/terminal-command.png?raw=true)
 
 That is it! It's time to start using Gitpod!
