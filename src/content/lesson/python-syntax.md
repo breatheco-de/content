@@ -79,7 +79,7 @@ print("Hello "+name+" how are you?")
 
 If you don't remember or don't know, data types are the types of information you can store in a variable: Numbers, text, lists, etc. Every programming language has its types of data. In Python, these are the types (there are more types that we will review later on):
 
-| Group type 		| Type |
+| Group type 		| Type 					| Description |
 | -----------------	| ------------------------------------- | ----------------------------- |
 | Text Type		| str					| words, paragraphrs, etc. 	|
 | Numeric Types	| int, float, complex	| math operations, etc.		|
@@ -92,7 +92,7 @@ If you don't remember or don't know, data types are the types of information you
 
 It's important to highlight that the string `"1"` is not the same as the number `1`, so if you want to sum `"1" + 1`, the result will not be 2. Instead, the computer will raise an error.
 
-** Why ? **
+**Why?**
 
 Because types matter, you have to be consistent with the types, if you want to sum the string "5" with the string "2" you have to convert them to integers first like this:
 
