@@ -80,7 +80,7 @@ print("Hello "+name+" how are you?")
 If you don't remember or don't know, data types are the types of information you can store in a variable: Numbers, text, lists, etc. Every programming language has its types of data. In Python, these are the types (there are more types that we will review later on):
 
 | Group type 		| Type |
-| -----------------	|
+| -----------------	| ------------------------------------- | ----------------------------- |
 | Text Type		| str					| words, paragraphrs, etc. 	|
 | Numeric Types	| int, float, complex	| math operations, etc.		|
 | Sequence Types	| list, tuple, range		| multiple values at once one after the other	|
