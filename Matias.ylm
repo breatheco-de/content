@@ -1,0 +1,60 @@
+Contacto:
+  Nombre: Matias Muñoz Saavedra
+  e-mail: xxxx@gmail.com
+  Fecha de Nacimiento: 02/05/1987
+  Trabajo: Jede de Operaciones en Quasar Expeditions
+  Ubicación:
+    Dirección: Pakistan 5473, Lo Prado.
+    Ciudad: Santiago
+    Pais: Chile
+  Celular: xxxxx
+Experiencia:
+- Compañía: Quasar Expeditions
+  Puesto: Jefe de Operaciones
+  Fecha: Enero 2015
+    Sumario: |
+        
+        xxxx
+        
+  - Compañía: xxxx
+  Puesto: xxxx
+  Fecha: xxxx
+    Sumario: |
+        
+        xxxx
+  
+
+
+Perfiles:
+- Red Social: Facebook
+  url: https://facebook.com/xxx
+- Red Social: Twitter
+  url: https://twitter.com/xxxx
+- Red Social: LinkedIn
+  url: https://xxxxx
+Educacion:
+- : Titulo: Ingeniero Comerial
+  Fecha Inicio: xxxxx
+  Feca Termino: xxxx
+  Universidad: xxxx
+  Pagina Web: xxxx
+Skilss:
+- Nombre: Python
+  Nivel: 00
+- Nombre: Flask
+  Nivel: 00
+- Nombre: Scrum
+  level: 00
+- Nombre: Java
+  Nivel: 00
+Idiomas:
+- Nombre: Ingles
+  Nivel: Intermedio-Avanzado
+Proyectos:
+- Nombre: xx
+  Descripcion: cccc
+  url: ccc
+Hobbies:
+- Nombre: xxxx
+- Nombre: xxxx
+
