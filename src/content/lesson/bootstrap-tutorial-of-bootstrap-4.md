@@ -50,7 +50,7 @@ Just like we did in the Layout chapter of the course, let’s create one page wi
 
 ## Bootstrap is 100% Responsive
 
-It’s very easy to decide how your website will render in different screen sizes; when you add each column into the rows you need to assign a class with the following format:
+It’s very easy to decide how your website will render in different screen sizes; when you add each column into the rows you need to assign a class with the following format:)
 
 ```html
 <div class="col–md–x">
