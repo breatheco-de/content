@@ -126,7 +126,7 @@ Other commands that are useful at this point:
 + `git diff` shows the difference between HEAD and the current project state.  With the --cached option, it compares added files against HEAD; otherwise it compares files not yet added.*
 + `git mv` and `git rm` mark files to be moved (renamed) and removed, respectively, much like `git add`.
 
-My personal workflow usually looks this:  I first do some programming, and, afterwards, I end up updating some files, then I run the following commands:
+My personal workflow usually looks like this:  I first do some programming, and, afterwards, I end up updating some files, then I run the following commands:
 
 ```bash
 git status //to see what files I changed.
