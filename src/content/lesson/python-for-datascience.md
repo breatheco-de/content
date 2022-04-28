@@ -52,23 +52,47 @@ We will be using A LOT of 3rd party code and functions (from other people); it's
 
 If you don't know how to code, it's better to forget about data science for a second and start learning Python from scratch: 
 What are variables: integer, float, string, null (or None), boolean.
-Listing: list, tuple, sequence, matrix, and how to loop or iterate the structures.
-Conditions: if-else statement with logical operations for comparisons.
-Functions: normal and lambda functions to encapsulate, organize and re-use code.
-Classes: Creating custom data structures helps encapsulate, organize, and re-use even more than using classes.
+
+- **Listing**: list, tuple, sequence, matrix, and how to loop or iterate the structures.
+- **Conditions**: if-else statement with logical operations for comparisons.
+- **Functions**: normal and lambda functions to encapsulate, organize and re-use code.
+- **Classes**: Creating custom data structures helps encapsulate, organize, and re-use even more than using classes.
 
 ### The approach
 
 Since we are focused on using Python for data science, we will be working with massive amounts of data; I strongly recommend starting your training focusing on exercises and projects about the following:
-Looping an extensive list of data.
-Filtering a big list of data, removing null values.
-Mapping lists of values from one format to another.
-Dealing with matrixes.
+
+- Looping an extensive list of data.  
+- Filtering a big list of data, removing null values.  
+- Mapping lists of values from one format to another.  
+- Dealing with matrixes. 
+- Ploting data to charts. 
 
 ### The libraries
 
-Start with Numpy: because it's the bare bones, all the other libraries either work on top of Numpy or are compatible with it. In addition, Numpy comes with The Array and a series of functions to save you lots of time and processing power for the typical operations when dealing with big chunks of data.
+- **Start with Numpy**: because it's the bare bones, all the other libraries either work on top of Numpy or are compatible with it. In addition, Numpy comes with The Array and a series of functions to save you lots of time and processing power for the typical operations when dealing with big chunks of data.
 
-Continue with Pandas and Seaborn: built on top of Numpy, the panda's library incorporates "The DataFrame" object; Simplifying the import, export, and transformation of multidimensional datasets.
+- **Continue with Pandas and Seaborn**: built on top of Numpy, the panda's library incorporates "The DataFrame" object; Simplifying the import, export, and transformation of multidimensional datasets.
 
-Chart your DataFrame with Matplotlib: This library is responsible for the majority of the data visualizations you see in the world of data science: From a simple bar chart to histograms, it allows to use of arrays, data frames, and algebra to create data visualizations. 
+- Chart your DataFrame with **Matplotlib**: This library is responsible for the majority of the data visualizations you see in the world of data science: From a simple bar chart to histograms, it allows to use of arrays, data frames, and algebra to create data visualizations. 
+
+- Use statistic functions with **stats**: This library includes the most common statistics functions like mean, std, variance, correlation, etc.
+
+- Create models with **scikit learn**.
+
+### Performance
+
+Big O?
+
+### Jupyter vs Python files
+
+Do not!
+
+### Package Manager and setup environs
+
+
+### Typical data-science project structure
+
+Cookiecutter
+
+
