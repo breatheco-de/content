@@ -1,6 +1,6 @@
 ---
 title: "How to use Gitpod"
-subtitle: "Learn the basics of Gitpod and learn why using this cloud editor is the most convinient way to code today"
+subtitle: "Learn the basics of Gitpod and learn why using this cloud editor is the most convenient way to code today"
 cover_local: "../../assets/images/gitpod.jpeg"
 textColor: "white"
 status: "draft"
@@ -23,16 +23,16 @@ __Computers on demand, with VSCode already installed__
 
 No need to install anything: The most frequent wall for learning how to code is the configuration: To complete this course, you would need to install: Git, node, nvm, python, MySQL, Postgress, c++, VSCode, Learnpack, Vercel, Heroku, etc.
 
-No more compatibility problems: Have you tried installing python on your computer? There are 100 ways to do it. Depending on your operating system and other factors, you will encounter problems while installing it because you will follow a procedure written by someone with a different computer.
+No more compatibility problems: Have you tried installing python on your computer? There are 100 ways to do it. Depending on your operating system and other factors, you will encounter problems while installing it, because you will follow a procedure written by someone with a different computer.
 
 Enhanced learning: At 4Geeks, we have deep integration with Gitpod; it helps us measure the student activity and progress, make our courses interactive, with automatic grading and many other features that we would not be able to run locally on your computer.
 
-Github integration: It is essential to learn and use Github today; developers use it daily, and employers expect developers to be fluent in Git and Github. Gitpod is built around Github, forcing you to learn it and start using it immediately. Helping you become good at it.
+Github integration: It is essential to learn and use Github today; developers use it daily and their employers expect them to be fluent in Git and Github. Gitpod is built around Github, forcing you to learn it and start using it immediately. Helping you become good at it.
 
 ## What are Gitpod disadvantages?
 
 It's slower than local: Coding locally is faster because you don't have to wait a couple of minutes for the virtual computers to get created. 
-You need reliable internet: Otherwise, you can get disconnected while coding (and you may have to way until you get back online).
+You need reliable internet: Otherwise, you can get disconnected while coding (and you may have to wait until you get back online).
 
 We recognize the tradeoffs, but our students and the academy get so much value from Gitpod that we are happy to bear the disadvantages.
 
@@ -43,7 +43,7 @@ We recognize the tradeoffs, but our students and the academy get so much value f
 - The only way to create a new workspace is to specify a Github repository folder (if you don't know what Github is, think of it as an online hard drive of code, where every folder is a project you are coding).  
 - Once the new workspace opens, it will create an empty computer for you, but it will also download to this new computer the files from the Github repository folder you specified (your code).  
 - Finally, it will open a coding editor (probably VSCode, the most used coding IDE in the world) and a terminal to start coding as if the workspace was on your local computer in the first place.  
-- If you go back to [your workspaces](https://gitpod.io/workspaces), you will find all the computers you have created and be able to `re-open them` changes you made to the files will stay forever, you will not lose any data as long as you RE-OPEN the same workspace you where working on in the first place.  
+- If you go back to [your workspaces](https://gitpod.io/workspaces), you will find all the computers you have created and be able to `re-open them`. Changes you made to the files will stay forever, you will not lose any data as long as you RE-OPEN the same workspace you where working on in the first place.  
 
 ![How gitpod works](https://github.com/alesanchezr/content/blob/master/src/assets/images/how-gitpod-works.jpeg?raw=true)
 
@@ -67,13 +67,13 @@ Once you finish for the day, you can abandon your computer. However, if you want
 
 ## The terminal
 
-As a coder, you need to use the computer terminal sometimes; you can always find or open the terminal by clicking on the hamburger menu on the top left and looking to the "terminal" => "new terminal" option.
+As a coder, you need to use the computer terminal sometimes; you can always find or open the terminal by clicking on the hamburger menu on the top left and selecting the "terminal" => "new terminal" option.
 
 ![Gitpod button](../../assets/images/terminal.png)
 
 ### What is the terminal or command line?
 
-Every computer has a terminal, and you use it to do almost everything you want: Open an application, create a file, folder, etc. However, in Gitpod, the terminal will only control the virtual computer.
+Every computer has a terminal, and you use it to do almost everything you want: open an application, create a file, folder, etc. However, in Gitpod, the terminal will only control the virtual computer.
 
 You don't have to learn the terminal command's yet, but [we strongly recommend reading this lesson](https://content.breatheco.de/en/lesson/the-command-line-the-terminal) to get familiar and know its functions and limitations.
 
