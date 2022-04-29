@@ -119,6 +119,7 @@ It will remove the last element only!
 ### Using Remove
 
 It will let you remove the first occurence of an element by its name.
+
 ```python
     # If you want to delete 'Chris', you need to do the following: 
     myList = ['Pedro','Chris','Juan','Maria','Chris']
