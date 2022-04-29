@@ -73,27 +73,21 @@ Para hacer una pregunta, tenemos las siguientes comparaciones: `==`, `>`, `<`, `
 Otra forma de escribir el algoritmo es combinar preguntas en la misma condición utilizando los operadores `AND` y` OR`:
 
 ```python
-if estoy_caliente == false AND me_duele_la_cabeza:
-    if me_arrollo_un_carro == true:
-        print("Tú no tienes fiebre")
-    else:
-        print("Si tienes fiebre")
-}
-    else:
-    print("No tienes fiebre")
+siento_que_me_atropello_un_carro = True
+me_atropello_un_carro = False
+
+if siento_que_me_atropello_un_carro and me_atropello_un_carro:
+    print("You don't have a flu")
+elif siento_que_me_atropello_un_carro:
+    print("You have a flu")
 ```
 
+Como puedes ver usamos `elif` por primera vez, para codificar más rápido. Otro truco que puedes usar es el siguiente;  
 
-Si siento_que_me_atropelló_un_auto and me atropelló_un_auto
-   print("Tú no tienes gripe")
-    elif siento_que_me_atropelló_un_auto
-        print("Si tienes gripe")
-        
-        
-Como puedes ver usamos `elif` por primera vez, para codificar más rápido. Otro truco que puedes usar es el siguiente;
-
-En vez de `if(siento_que_me_atropelló_un_auto == true` escribe `if(siento_que_me_atropelló_un_auto)`
-En vez de `me_atropelló_un_auto == false` escribe `if(!me_atropelló_un_auto)`
+| Original | Equivalente |
+| --- | --- |
+| En lugar de `if(siento_que_me_atropello_un_carro == true)` | escribes `if(siento_que_me_atropello_un_carro)`  |
+| En lugar de `if(me_atropello_un_carro == false)` | escribes `if(!me_atropello_un_carro)` |
 
 ## If...else en Python
 
