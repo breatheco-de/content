@@ -97,11 +97,16 @@ We like using Jupyter as a communication tool, mainly to tell stories to managem
 
 ### Package Manager and setup environs
 
-If we are not going to be using Jupyter notebooks as much as other datascientis, we need to become very good at setting up environments, downloading using python packages
+If we are not going to be using Jupyter notebooks as much as other datascientis, we need to become very good at setting up Python environments, downloading python packages, using the PIP package manager, etc.
+
+- Pyenv for Python Versions: There are multiple versions of python and you need to get used to switch between versions because some times you are trying to use newer features or maybe old deprecated ones.
+- Pip: This is the "package manager" for Python, it allows you to download and use Numpy, Pandas and many other awesome libraries.
+- Virtual environment: every project could have a different python version, that is why you need to create virtual enviroments to isolate your projects from each other.
+- Pipenv: Is an awsome tool that simplifies the user of PIP and Virtual Env.
 
 
 ### Typical data-science project structure
 
-Cookiecutter
+We will be using a template for our projects called [Cookie Cutter Datascience](https://drivendata.github.io/cookiecutter-data-science/). Using a template is always a good idea to organize your peroject files and workflow. You can read the documentation and watch [this video on how it works](https://www.youtube.com/watch?v=nExL0SgKsDY).
 
 
