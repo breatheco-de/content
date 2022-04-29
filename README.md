@@ -5,7 +5,7 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/breatheco-de/content.git)
 
-CMS for the #BreatheCode Platform
+CMS for the #BreatheCode PlatforM
 
 Here is an API of all the lessons on the platform: https://content.breatheco.de/static/api/lessons.json
 
