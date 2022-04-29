@@ -214,7 +214,7 @@ There are hundreds – even thousands – of CSS properties, but depending on th
 
 
 
- [Follow this link to see a detailed list of CSS properties from W3Schools.](https://www.w3schools.com/cssref/)
+ [Follow this link to see a detailed list of CSS properties from W3Schools](https://www.w3schools.com/cssref)
 
 
 
