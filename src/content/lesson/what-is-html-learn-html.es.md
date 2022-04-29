@@ -28,14 +28,15 @@ Originalmente, lo navegadores solo podían interpretar HTML, las páginas web er
 
 ![qué es html](../../assets/images/78296f64-547f-4928-a8da-14cb24e836b9.gif)
 
-
-
 ¿Recuerdas que Internet trabaja solo con texto?
+ 
+En ese sentido, HTML es un leguage que utiliza etiquetas (`<tags>`) para representar los elementos que una página web debería de tener. Un tag es simplemente una palabra que comienza con `< >` y termina con `</ >`. Todos los tags se deben de abrir y cerrar, (los tags de cierre siempre preceden al elemento con `/`)
 
-En ese sentido, HTML es un lenguaje que utiliza `<tags>` (etiquetas) para representar los elementos que debe contener el sitio web. Una etiqueta no es más que una palabra que comienza y termina con los caracteres `<` y `>` respectivamente.
+Hay 2 dipos diferentes de tags:
 
++ Tags con contenido: cuando hay contenido entre ambos tags, debes de cerrarlos con (`</tag>`). Por ejemplo, para marcar un tag de texto como un párrafo, debes empezar con con (`<p>`) y cerrarlo al final con (`</p>`). 
 
-Todas las `<tags>`o etiquetas deben abrirse y cerrarse. Para cerrarlas, colocas la misma palabra pero utilizando el símbolo `/>`.
++ Tags sin contenido: son tags independientes sin tags de cierre (`</ >`). Por ejemplo, el tag para un salto de línea es (`<br>`).
 
 ## Atributos
 
