@@ -78,21 +78,35 @@ Since we are focused on using Python for data science, we will be working with m
 
 - Use statistic functions with **stats**: This library includes the most common statistics functions like mean, std, variance, correlation, etc.
 
-- Create models with **scikit learn**.
+- Create models with **scikit learn**: Simple and efficient tools for predictive data analysis. Built on NumPy, SciPy, and matplotlib.
+  
 
 ### Performance
 
-Big O?
+When creating algorithms for websites, API's, networks, robots or other applications; You don't necessarily about performace because you can always upgrade your server or your CPU. Obviusly performance it's still an important variable, but you can have a slow website or you can pay a lot more to "speed it up".
+
+On the other hand, when building AI's, performance is a big concern. You could say that "processing power" is the biggest limitation this field has right now. There is so much data and models need so much training that current technology cannot keep up. 
+
+That is why you should know a little about `Big O` and optimizing algorithms for space and time.
 
 ### Jupyter vs Python files
 
-Do not!
+Most -if not all- of the python courses about machine learning heavily use Jupyter Notebooks to build and clean your data and run the models. At 4Geeks we don't like this approach much, we prefer to stay working on `.py` files and work on coding editos like VSCode, Pycharm, etc. like software engineers do in all the other fields were python is used.
+
+We like using Jupyter as a communication tool, mainly to tell stories to management, show the strategy and some brainstorming.
 
 ### Package Manager and setup environs
+
+If we are not going to be using Jupyter notebooks as much as other datascientis, we need to become very good at setting up Python environments, downloading python packages, using the PIP package manager, etc.
+
+- Pyenv for Python Versions: There are multiple versions of python and you need to get used to switch between versions because some times you are trying to use newer features or maybe old deprecated ones.
+- Pip: This is the "package manager" for Python, it allows you to download and use Numpy, Pandas and many other awesome libraries.
+- Virtual environment: every project could have a different python version, that is why you need to create virtual enviroments to isolate your projects from each other.
+- Pipenv: Is an awsome tool that simplifies the user of PIP and Virtual Env.
 
 
 ### Typical data-science project structure
 
-Cookiecutter
+We will be using a template for our projects called [Cookie Cutter Datascience](https://drivendata.github.io/cookiecutter-data-science/). Using a template is always a good idea to organize your peroject files and workflow. You can read the documentation and watch [this video on how it works](https://www.youtube.com/watch?v=nExL0SgKsDY).
 
 

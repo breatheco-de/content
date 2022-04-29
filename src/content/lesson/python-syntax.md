@@ -38,10 +38,10 @@ When you compare it to other backend languages, Python is leading in almost ever
 
 ### Printing a value
 
-An essential thing you can do in any programming language is print some message on the terminal. In Python you can use the `print` statement:
+An essential thing you can do in any programming language is print some messages on the terminal. In Python you can use the `print` statement:
 
 ```python
-print("Hello, this is some message you can show to the user")
+print("Hello, this is a message you can show to the user")
 ```
 
 ### Declaring a variable
@@ -81,7 +81,7 @@ If you don't remember or don't know, data types are the types of information you
 
 | Group type 		| Type 					| Description |
 | -----------------	| ------------------------------------- | ----------------------------- |
-| Text Type		| str					| words, paragraphrs, etc. 	|
+| Text Type		| str					| words, paragraphs, etc. 	|
 | Numeric Types	| int, float, complex	| math operations, etc.		|
 | Sequence Types	| list, tuple, range		| multiple values at once one after the other	|
 | Mapping Type	| dict				| multiple values without sequence	|
@@ -104,7 +104,7 @@ result = int('5') - int('2')
 
 ```
 
-On the other hand, if you sum the string `"5"` with the str `"2"`, the result will be ` "52" ` because that is the default operation for summing strings: Concatenation.
+On the other hand, if you sum the string `"5"` with the string `"2"`, the result will be ` "52" ` because that is the default operation for summing strings: Concatenation.
 
 > We will talk more about concatenation in another lesson
 
@@ -149,7 +149,7 @@ The first line is `name = "Taylor"` and its executed first; the last line with t
 
 ### Conditionals
 
-Conditions are fantastic because they let you skip or conditionally execute parts or your algorithms, making them very flexible and intelligent. For example, we could conditionally print "Miss" or "Mrs" depending on the relationship status:
+Conditions are fantastic because they let you skip or conditionally execute parts of your algorithms, making them very flexible and intelligent. For example, we could conditionally print "Miss" or "Mrs" depending on the relationship status:
 
 ```python
 relationship_status = "married"
@@ -166,7 +166,7 @@ Note: The `if...else...` statement reads like English. Also, to make comparisons
 
 ### Logical Operations and Expressions
 
-Computers think of everything in black or white. Everything is either True or False. All the decisions in a computer are reduced into a simple **Boolean**. You can prepare a computer to solve particular problems if you write code that asks the proper questions required to solve that problem.
+Computers think of everything in black or white. Everything is either True or False. All the decisions in a computer are reduced into a simple **Boolean**. You can prepare a computer to solve particular problems, if you write code that asks the proper questions required to solve that problem.
 
 For example, if I want a computer to give candy only to kids older than 13 years of age, I can instruct the computer to ask:
 
@@ -196,7 +196,9 @@ You can group the logical operations in parentheses, and also use nested parenth
 ## Control the Flow of Your Code
 
 Okay, now is when everything starts getting fun! To control your applications flow, you'll have several options, and you are going to use each of them every single day. So, you must become comfortable using them.
+
 ### Conditionals: If…else…
+
 The first tool you have is the if…else conditional. You can tell the computer to skip any part of your code depending on the current value of your variables.
 The if statement allows you to execute a piece of code if certain conditions are met (or are true). The "else" statement will execute an alternate piece of code in case the condition is false.
 
@@ -228,4 +230,4 @@ Note: the above code will print each name on the console.
 
 ## Ready to start learning?
 
-Please don't get overwhelmed because we will be going over each of these concepts in the following lessons, and you will get more opportunities to practice, learn and unleash your brain potential!
+Please don't get overwhelmed because we will be going over each of these concepts in the following lessons. You will get more opportunities to practice, learn and unleash your brain´s potential!
