@@ -254,7 +254,7 @@ La documentación oficial de Bootstrap es increible!! No necesitamos copiar y pe
 + [The grid system.](https://getbootstrap.com/docs/4.1/layout/grid/)
 + [Styling Forms.](https://getbootstrap.com/docs/4.1/components/forms/)
 + [List of components available to use on your website.](https://getbootstrap.com/docs/4.1/components/alerts/)
-+ [Utilities or Helper classes:](https://getbootstrap.com/docs/4.1/utilities/borders/) Very useful and constantly used classes to do stuff like centering the text, centering a column or container, adding a background, etc.
++ [Utilities or Helper classes:](https://getbootstrap.com/docs/4.1/utilities/borders/) Clases muy útiles para hacer cosas como centrar el texto, centrar una columna o contenedor, agregar un fondo, etc.
 
  
 | :point_up : Versiones de Bootstrap y su descarga: 
