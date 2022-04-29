@@ -116,7 +116,7 @@ def handle_person():
     contenido = {
       "detalles": "Hubo un error en la solicitud"
     }
-    resp = jsonify(content)
+    resp = jsonify(contenido)
     resp.status_code = 400 # aquí cambiamos el código de estado a 400 (código muy común en caso de errores de solicitud)
     return resp
 ```
