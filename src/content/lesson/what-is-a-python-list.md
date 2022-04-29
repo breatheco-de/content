@@ -130,6 +130,7 @@ It will let you remove the first occurence of an element by its name.
 ### Using Delete
 
 It will allow you to delete many items at once, you have to specify starting possition and ending possition.
+
 ```python
     # If you want to delete 'Chris', you need to do the following: 
     myList = ['Pedro','Chris','Juan','Maria','Pepe','Mario','Bob']
@@ -181,3 +182,5 @@ for i in range(1, 6, 2): # range(start value, end value (non inclusive), increme
 # The positions is 3 for the element Bob
 # The positions is 5 for the element Kyle
 ```
+
+.
