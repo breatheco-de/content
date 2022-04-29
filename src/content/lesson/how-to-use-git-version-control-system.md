@@ -216,7 +216,7 @@ These commands perform the following operations.  Let the current head be called
 
 A conflict arises if the commit to be merged into has a change in one specific place, and the current commit has a change in the exact same specific place. GIT has no way of telling which change should take precedence.
 
-To resolve the commit, edit the files to fix the conflicting changes.  Then run `git add` to add the resolved files.  Next, run `git commit` to commit the repaired merge.  GIT remembers that you were in the middle of a merge, so it sets the parents of the commit correctly.
+To resolve the conflict, edit the files to fix the conflicting changes.  Then run `git add` to add the resolved files.  Next, run `git commit` to commit the repaired merge.  GIT remembers that you were in the middle of a merge, so it sets the parents of the commit correctly.
 
 ## GIT Collaboration
 
