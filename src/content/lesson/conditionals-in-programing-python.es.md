@@ -104,6 +104,7 @@ if (edad < 18):
 print("Es mayor de edad")
 else:
   print("No es mayor de edad")
+```
 
 También puedes anidar condiciones if...else una sobre la otra, de esta forma:
 
