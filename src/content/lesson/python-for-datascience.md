@@ -69,6 +69,6 @@ Dealing with matrixes.
 
 Start with Numpy: because it's the bare bones, all the other libraries either work on top of Numpy or are compatible with it. In addition, Numpy comes with The Array and a series of functions to save you lots of time and processing power for the typical operations when dealing with big chunks of data.
 
-Continue with Pandas and Seaborn: built on top of Numpy, the panda's library incorporates "The DataFrame" object; Simplifying the import, export, and transformation of multidimensional datasets.
+Continue with Pandas and Seaborn: built on top of Numpy, the panda's library incorporates "The DataFrame" object; simplifying the import, export, and transformation of multidimensional datasets.
 
 Chart your DataFrame with Matplotlib: This library is responsible for the majority of the data visualizations you see in the world of data science: From a simple bar chart to histograms, it allows to use of arrays, data frames, and algebra to create data visualizations. 
