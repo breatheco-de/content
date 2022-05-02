@@ -126,7 +126,7 @@ Other commands that are useful at this point:
 + `git diff` shows the difference between HEAD and the current project state.  With the --cached option, it compares added files against HEAD; otherwise it compares files not yet added.*
 + `git mv` and `git rm` mark files to be moved (renamed) and removed, respectively, much like `git add`.
 
-My personal workflow usually looks this:  I first do some programming, and, afterwards, I end up updating some files, then I run the following commands:
+My personal workflow usually looks like this:  I first do some programming, and, afterwards, I end up updating some files, then I run the following commands:
 
 ```bash
 git status //to see what files I changed.
@@ -149,7 +149,7 @@ Now that you’ve created commits, how do you refer to a specific commit?  GIT p
 
  ![how to use git](../../assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png)
 
- Lets jump back to commit (2) and start new work from there.  You will first need to know how to reference the commit.  You can use `git log` to get the SHA1 name of (2)
+ Let's jump back to commit (2) and start new work from there.  You will first need to know how to reference the commit.  You can use `git log` to get the SHA1 name of (2)
 
 ```bash
  git log
@@ -216,7 +216,7 @@ These commands perform the following operations.  Let the current head be called
 
 A conflict arises if the commit to be merged into has a change in one specific place, and the current commit has a change in the exact same specific place. GIT has no way of telling which change should take precedence.
 
-To resolve the commit, edit the files to fix the conflicting changes.  Then run `git add` to add the resolved files.  Next, run `git commit` to commit the repaired merge.  GIT remembers that you were in the middle of a merge, so it sets the parents of the commit correctly.
+To resolve the conflict, edit the files to fix the conflicting changes.  Then run `git add` to add the resolved files.  Next, run `git commit` to commit the repaired merge.  GIT remembers that you were in the middle of a merge, so it sets the parents of the commit correctly.
 
 ## GIT Collaboration
 
@@ -228,7 +228,7 @@ To share work among developers, GIT uses a **distributed model** of version cont
 
 ## Distributed Version Control
 
-Say you and your friend want to work on the same project.  Your friend already has done some work on it.  There are three tasks you need to perform to figure out how to do so:
+Say you and your friend wants to work on the same project.  Your friend already has done some work on it.  There are three tasks you need to perform to figure out how to do so:
 
 + Get a copy of your friend’s up-to-date repository (git clone).
 + Get the changes your friend makes into your own repository (git pull).
