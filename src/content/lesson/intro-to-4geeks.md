@@ -45,7 +45,7 @@ Every average person can learn to code to a point of being useful, coding gets m
 
 2. **Talk to other students:** You may think you are the only one that does not understand, but if you talk to a couple of class-mates you'll see they are just like you, it will give you the confidence to ask any questions.
 
-3. **Talk to the mentors:** A voice of experience is always effective, you have alumni and teachers that struggled before and are also struggling right now! They can help you during dark times, we are not only talking about giving you coding solutions, but giving you strategies to succeed in your (coding?) life.
+3. **Talk to the mentors:** A voice of experience is always effective, you have alumne and teachers that struggled before and are also struggling right now! They can help you during dark times, we are not only talking about giving you coding solutions, but giving you strategies to succeed in your (coding?) life.
 
 #### Wall #2: Trust ✝
 
