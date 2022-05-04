@@ -51,7 +51,7 @@ Once a `<tag>` is defined, we can describe in detail its behavior by assigning a
 
 In theory, you have to use [one of these tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true), don’t make up your own tags because the browser won’t know how to interpret them. You must **learn HTML's** tags meanings, and their functionality, in order to put them to good use… but don’t worry, there aren’t that many! 🙂
 
-For the main heading of the document, the tag we use is `<h1>`.  For example: An online store has an "Electronics" category. The title to such category would be "Electronics" and the `<h1>` tag would be written as follows:
+For the main heading of the document, the tag we use is `<h1>`.  For example: an online store has an "Electronics" category. The title to such category would be "Electronics" and the `<h1>` tag would be written as follows:
 
 ```html
  <h1>Electronics</h1>
