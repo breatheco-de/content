@@ -19,7 +19,7 @@ Learning in private: The traditional educational system is designed to be a priv
 
 When you learn in public, you make social media, your notebook and discussion forum, you write about what you just learned in different ways like blog posts, tweets, newsletters, drawings, memes, etc.
 
-## Why is this so important?
+## Why is this so important? 
 
 - When you write things down, your brain absorbs better.
 - Talking about it forces you to organize your thoughts and understand it better.
@@ -43,7 +43,7 @@ When you learn in public, you make social media, your notebook and discussion fo
 
 ### I don't have anything to say
 
-I really doubt that, learning to code is hard and people read a lot about it and they need emotional support, just like with your testimonial you are helping a lot of people who will be interested in learning more about your story.
+I really doubt that, learning to code is hard and people read a lot about it and they need emotional support, just like with your testimonial you are helping a lot of people who will be interested in learning more about your story.//
 
 ### I'm no expert
 
