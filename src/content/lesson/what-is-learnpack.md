@@ -31,6 +31,8 @@ After clicking on "start exercises" a new Gitpod computer will open, and LearnPa
 All LearnPack tutorials come in steps; you will find the instructions on the right side and a button to continue to the `next ->` step.
 > Important note: If you cannot find the instructions on the right, you can start the exercises again by typing: `LearnPack start` on the terminal.
 
+![Learnpack explanation](../../assets/images/learnpack-explanation.png)
+
 ## Restarting LearnPack
 
 If you cannot find the instructions on the right side, try restarting LearnPack by typing the following command on the terminal:
