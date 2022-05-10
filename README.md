@@ -1,4 +1,4 @@
-# Content
+#### Content
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
 
 [![buddy pipeline](https://app.buddy.works/breathecode/content/pipelines/pipeline/149869/badge.svg?token=7fd65f24ee0daa2c60600820880d585a0bf52da8e65b5ef1f886615b58237012 "buddy pipeline")](https://app.buddy.works/breathecode/content/pipelines/pipeline/149869)
@@ -11,10 +11,10 @@ Here is an API of all the lessons on the platform: https://content.breatheco.de/
 
 ## Requirements:
 
-#### 1) Markdown based
+##### 1) Markdown based
 All the content must be markdown based, to create new articles all you must do is add a new .md file in markdown syntax.
 
-#### 2) About the URLS
+##### 2) About the URLS
 
 The CMS needs to be able to generate URLs with the following format:
 ```
@@ -29,7 +29,7 @@ For example:
 
 Note: more types of content can be added in the future.
 
-### 3) Types of content:
+#### 3) Types of content:
 
 This list of contents is just a draft, some can be deleted or more can be added.
 
@@ -37,14 +37,14 @@ This list of contents is just a draft, some can be deleted or more can be added.
   2. Error: Explanation of a particular error that typically occurs when coding, for example: "Cannot do map of undefined".
   3. How To: Small articles/videos on different shot how to's, like: How to start a new react.js project.
 
-### Tagging content:
+#### Tagging content:
 
 Contents can be tagged on the header of the markdown file; you can add as many tags as you want and later people will be able to search by tag.
 
 There are two types of tags: Technology and Category.
 
 
-### Command Line Interface:
+#### Command Line Interface:
 
 A small command-line tool has been developed to help manage the lessons.
 
@@ -65,15 +65,15 @@ Will try to clean and fix any possible issues on the lessons, for example: Date 
 | PARAM         | DESCRIPTION |
 | ---------     | ----------- |
 | --slug        | Every lesson has a slug that identifies it, you can pass `all` if you want to update all at once |
-| --statusTo    | change the status of one or all the lessons to a particular one |
-| --statusFrom  | only apply changes to lessons with specified status |
+| --statusTo    | Change the status of one or all the lessons to a particular one |
+| --statusFrom  | Only apply changes to lessons with specified status |
 
 #### Method: download_images
 
 | PARAM         | DESCRIPTION |
 | ---------     | ----------- |
 | --slug        | Every lesson has a slug that identifies it, you can pass `all` if you want to update all at once |
-| --type  | external_images or uploadcare |
+| --type        | External_images or uploadcare |
 
 #### Method: localize_images
 
@@ -82,10 +82,10 @@ Rename the remote image url's with local images (if available), this method is i
 | PARAM         | DESCRIPTION |
 | ---------     | ----------- |
 | --slug        | Every lesson has a slug that identifies it, you can pass `all` if you want to update all at once |
-| --statusTo    | change the status of one or all the lessons to a particular one |
-| --statusFrom  | only apply changes to lessons with specified status |
+| --statusTo    | Change the status of one or all the lessons to a particular one |
+| --statusFrom  | Only apply changes to lessons with specified status |
 
-## Contributors
+#### Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
 
