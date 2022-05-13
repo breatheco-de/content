@@ -117,8 +117,8 @@ Te permitirá eliminar la primera ocurrencia de un elemento por su nombre.
 ```python
     #Si deseas eliminar 'Chris', necesitas hacer lo siguiente: 
     myList = ['Pedro','Chris','Juan','Maria']
-    myNewArray.remove(2)
-    print(myList) # esto imprimirá ['Pedro','Chris','Juan'];
+    myNewArray.remove(1)
+    print(myList) # esto imprimirá ['Pedro','Juan','Maria'];
 ```
 
 ### Eliminando elementos de una lista con Delete
