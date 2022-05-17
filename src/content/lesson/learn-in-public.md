@@ -24,7 +24,7 @@ When you learn in public, you make social media, your notebook and discussion fo
 - When you write things down, your brain absorbs better.
 - Talking about it forces you to organize your thoughts and understand it better.
 - Your family and friends will start trusting your skills: After a while, they will start seeing you as an small expert on the matter, they will come to you for advice, recommendations or to hire your services.
-- Sharing is a support system: The impostor syndrome is no joke, when you are open and share your struggles publicly you will find others (probably many others) like you. It will calm you down because you know its normal and it will give you the strength to continue. 
+- Sharing is a support system: The imposter syndrome is no joke, when you are open and share your struggles publicly you will find others (probably many others) like you. It will calm you down because you know its normal and it will give you the strength to continue. 
 - Rank better on the job portals: Websites like LinkedIn make your profile more visible when you publish often, boosting your reach exponentially.
 - Recruiters will find you: Time after time at @4geeksAcademy we have noticed that students learning in public get hired a lot faster. Recruiters eventually notice and contact them with job opportunities.
 
