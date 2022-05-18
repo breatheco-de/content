@@ -35,7 +35,7 @@ During the past years we have identified specific reasons that cause students to
 
 At some point in our lives (some more than others) we all have thought we were the most stupid person in a room, if we keep thinking that for a long time and we don't get comfortable on any discipline we may even think that we are not that smart. BULLSHIT! You are a part of this school, we do not accept people that we don't think are smart enough to make a living as a developer, you need to believe that, especially on tough times!
 
-> If a particular exercise or project is hard, instead of thinking you are not good at this, look for new ways of absorbing the content. Talk to a mentor and we'll give you exactly what you need.
+> If a particular exercise or project is hard, instead of thinking you are not good at this, look for new ways of absorbing the content. Talk to a mentor and we'll give you exactly what you need..
 
 Every average person can learn to code to a point of being useful, coding gets more complicated when you specialize further in your career (Like A.I., Robotics, etc.), but you can make good money without having to study Math, without being good at numbers or without learning as fast as others (we may be able to fix that, by the way).
 
