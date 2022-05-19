@@ -58,7 +58,9 @@ Siempre puedes usar diferentes versiones de node y este comando te permite salta
 ```bash
 nvm use 8.15.0
 ```
+
 ### o tambien:
+
 ```
 nvm use 10.15.1
 ```
