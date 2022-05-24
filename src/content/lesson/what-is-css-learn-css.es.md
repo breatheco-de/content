@@ -130,7 +130,7 @@ En el siguiente ejemplo le estamos aplicando una clase "odd" a las celdas impare
 
 |**Selector**   |**Descripción**   |**Ejemplo**   |
 |:--------------|:-----------------|:-------------|
-|Tipo de Elemento (tag)   |Permite aplicar estilos a los links, títulos, etc. En el siguiente ejemplo cambiaremos el color de texto a todos los tag links `pyton><a>` de la página.   |`pyton>a{ color: #BDBDBD; }`   |
+|Tipo de Elemento (tag)   |Permite aplicar estilos a los links, títulos, etc. En el siguiente ejemplo cambiaremos el color de texto a todos los tag links `python><a>` de la página.   |`python>a{ color: #BDBDBD; }`   |
 
 En el siguiente ejemplo vamos a colocar fondo verde a todos los td (celdas) de la tabla:
 
