@@ -17,7 +17,7 @@ In this article, I'm going to try to explain why it works and how you can do it.
 
 Learning in private: The traditional educational system is designed to be a private experience, you read books, attend to class, complete projects and assessments, and you graduate at some point, we are so used to this workflow that it's already embedded into our student's hearts.
 
-When you learn in public, you make social media, your notebook and discussion forum, you write about what you just learned in different ways like blog posts, tweets, newsletters, drawings, memes, etc.
+When you learn in public you: create in social media, you write in notebooks and discussion forums, you also write about what you just learned in different ways like blog posts, tweets, newsletters, drawings, memes, etc.
 
 ## Why is this so important?
 
@@ -32,7 +32,7 @@ When you learn in public, you make social media, your notebook and discussion fo
 
 - Create accounts in some of your preferred social networks like: LinkedIn (strongly recommended), Twitter, Instagram, Reddit, etc.
 - Make sure your profile in those accounts looks good: A professional profile, describing yourself as a developer.
-- Every time you build a project make sure to publish it on your social networks, [here is an example post from one of 4Geeks Academy students](https://www.linkedin.com/feed/update/urn:li:activity:6750086679345815552/).
+- Every time you build a project make sure to publish it on your social networks.
 - Join [#100DaysOfCode](https://www.100daysofcode.com/) and be public on twitter, instagram and/or LinkedIn about it, there are a lot people following that challenge and you can join the discussion and collaboration!
 - Open a youtube channel: Start publishing videos about your learning process.
 - Start a blog: Use medium (recommended), reddit or build your own blog platform and start publishing weekly posts about the things you are learning.
