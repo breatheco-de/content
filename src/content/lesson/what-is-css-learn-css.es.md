@@ -126,6 +126,8 @@ Asignemos "primer" como ID de la primera celda en la siguiente tabla, y luego co
 
 En el siguiente ejemplo le estamos aplicando una clase "odd" a las celdas impares de esta tabla, y luego con CSS le asignamos el fondo amarillo a la clase .odd:
 
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/rdLkmx1t/11/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 ### Selector por etiqueta (Tag)
 
 |**Selector**   |**Descripción**   |**Ejemplo**   |
@@ -133,6 +135,8 @@ En el siguiente ejemplo le estamos aplicando una clase "odd" a las celdas impare
 |Tipo de Elemento (tag)   |Permite aplicar estilos a los links, títulos, etc. En el siguiente ejemplo cambiaremos el color de texto a todos los tag links `pyton><a>` de la página.   |`pyton>a{ color: #BDBDBD; }`   |
 
 En el siguiente ejemplo vamos a colocar fondo verde a todos los td (celdas) de la tabla:
+
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/y89Lgwb0/11/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### Multiselector
 
