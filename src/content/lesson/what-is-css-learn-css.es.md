@@ -153,7 +153,7 @@ Hay otros selectores más específicos y avanzados. Probablemente lo usarás cua
 ## Conflictos y herencia
 
 
-¿Qué pasa si un elemento de la página está eleccionado por dos selectores y tiene asignado el color de letra verde en una definición y rojo en la otra? Es decir, si le decimos al navegador dos colores diferentes, ¿qué color utilizará al final?
+¿Qué pasa si un elemento de la página está seleccionado por dos selectores y tiene asignado el color de letra verde en una definición y rojo en la otra? Es decir, si le decimos al navegador dos colores diferentes, ¿qué color utilizará al final?
 
 ![Aprende CSS](../../assets/images/08e78606-102f-4bc2-a066-7c26ae9400d5.png)
 
