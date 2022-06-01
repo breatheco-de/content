@@ -26,7 +26,7 @@ A web developer makes around $65k per year in the US. In Florida, numbers are a 
     <img class="my-class" src="../../assets/images/75ca521c-2ea0-4a7d-ad05-6717200d8553.png" width="300">
 </p>
 
-Around 90% of our students find a job after graduation. It normally takes 100 days to land your first job, and we will not rest until we make that happen :) 
+Around 90% of our students find a job after graduation. It normally takes 100 days to land your first job, and we will not rest until we make that happen. :) 
 <p style="text-align:center">
     <img class="my-class" src="../../assets/images/18da88b0-403c-4330-a7d6-661307f062e5.png" width="300">
 </p>
@@ -58,7 +58,7 @@ Your journey has already begun and you should know that we are following every s
 ## But what if you already know? 
 <hr>
 
-There are some of you who already have some coding experience (mostly with HTML and CSS), and some of you with no experience at all.  That’s the main reason why this stage of the program is known as the **Pre-Work**.  We need to assess the level of experience of each member of the program.  The Pre-Work also enables us to to get to know you, your learning process, and your learning curve better, allowing us to help guide you towards achieving the best possible results.
+There are some of you who already have some coding experience (mostly with HTML and CSS), and some of you with no experience at all.  That’s the main reason why this stage of the program is known as the **Pre-Work**.  We need to assess the level of experience of each member of the program.  The Pre-Work also enables us to get to know you, your learning process, and your learning curve better, allowing us to help guide you towards achieving the best possible results.
 
 And this is all because we need to be sure that you have what it takes to complete the program.  It’s going to be intense, and you will feel exhausted, but don’t fret on it.  We have been doing this for a while and we feel you!
 
