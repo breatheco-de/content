@@ -44,9 +44,9 @@ Por otro lado, las columnas fueron hechas para vivir dentro de las filas (como p
 
 Tal cual como lo hicimos en el capítulo sobre diseños, vamos a crear una página con dos grandes secciones, una barra lateral a la derecha y un contenido principal a la izquierda:
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/th7uLrow/4/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/th7uLrow/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/th7uLrow/4/embedded/html,css,result/">Click aquí para ver el demo en una ventana nueva</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/th7uLrow/6/embedded/html,css,result/">Click aquí para ver el demo en una ventana nueva</a></small></div>
 
 ## Bootstrap es 100% adaptable
 
@@ -146,7 +146,7 @@ Cuando importas Bootstrap en tu página web, tendrás un nuevo conjunto de compo
 
 #### Barra de navegación o NavBar
 
-Esto es tan popular que se encuentra en el 99% de los menús de todos los sitios web.  Normalmente contiene el logo de la compañia y una series de links - dependiendo de la lógica de negocio de la página. 
+Esto es tan popular que se encuentra en el 99% de los menús de todos los sitios web.  Normalmente contiene el logo de la compañía y una series de links - dependiendo de la lógica de negocio de la página. 
 
 Aquí hay un ejemplo de como se ve un NavBar en un sitio web:
 
