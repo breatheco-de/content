@@ -126,6 +126,8 @@ Asignemos "primer" como ID de la primera celda en la siguiente tabla, y luego co
 
 En el siguiente ejemplo le estamos aplicando una clase "odd" a las celdas impares de esta tabla, y luego con CSS le asignamos el fondo amarillo a la clase .odd:
 
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/rdLkmx1t/11/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 ### Selector por etiqueta (Tag)
 
 |**Selector**   |**Descripción**   |**Ejemplo**   |
@@ -133,6 +135,8 @@ En el siguiente ejemplo le estamos aplicando una clase "odd" a las celdas impare
 |Tipo de Elemento (tag)   |Permite aplicar estilos a los links, títulos, etc. En el siguiente ejemplo cambiaremos el color de texto a todos los tag links `pyton><a>` de la página.   |`pyton>a{ color: #BDBDBD; }`   |
 
 En el siguiente ejemplo vamos a colocar fondo verde a todos los td (celdas) de la tabla:
+
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/y89Lgwb0/11/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### Multiselector
 
@@ -149,7 +153,7 @@ Hay otros selectores más específicos y avanzados. Probablemente lo usarás cua
 ## Conflictos y herencia
 
 
-¿Qué pasa si un elemento de la página está eleccionado por dos selectores y tiene asignado el color de letra verde en una definición y rojo en la otra? Es decir, si le decimos al navegador dos colores diferentes, ¿qué color utilizará al final?
+¿Qué pasa si un elemento de la página está seleccionado por dos selectores y tiene asignado el color de letra verde en una definición y rojo en la otra? Es decir, si le decimos al navegador dos colores diferentes, ¿qué color utilizará al final?
 
 ![Aprende CSS](../../assets/images/08e78606-102f-4bc2-a066-7c26ae9400d5.png)
 
