@@ -1,357 +1,229 @@
 ---
-title: "Entendiendo la Sintaxis de Python"
-subtitle: "Desata tu poder aprendiendo con esta lección, usando uno de los Reyes del Desarrollo de Back-End. Ahora podrás integrar AI, Big Data, Aprendizaje automático, APIs e integrar aplicaciones de terceros en la tuya. Disfrute de esta lección sobre la sintaxis de Python"
-cover_local: "../../assets/images/576d4b0e-8b35-493d-879c-4d8f914c585f.png"
-textColor: "white"
+title: "Introduction to Python"
+subtitle: "Learn the basics of python syntax, loops, data-types and conditionals"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["python"]
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+textColor: "white"
 status: "published"
+author: ["alesanchezr"]
+syntax: ["python"]
+tags: ["Conditionals","Logical operators","If...else","Conditions","Python"]
 
 ---
 
-El título de esta lección debería ser "De Python a JS", porque así es como evolucionó la historia. Python nació primero y es mucho más maduro. Con Python, eres capaz de hacer muchas más cosas porque es un lenguaje de backend y tiene librerias y herramientas para cualquier cosa que puedas imaginar.
+# Introducción a Python
 
-Python y Javascript son amigos. Juntos forman el mejor equipo posible para realizar cualquier desarrollo importante que puedas imaginar.
+Esta lección tiene como objetivo ayudar a familiarizarte con la sintaxis básica de Python y como hacer cosas esenciales como imprimir algo en un terminal, manipular cadenas y entender como se usan las variables, funciones, operaciones lógicas y condicionales. Esta debería ser la primera lección a leer en tu viaje con python.
 
-<br>
-<br>
+Por favor sepa que hay otras lecciones explicando cada concepto en detalle; esto es solamente un resumen básico para ayudarte a obtener una visión general sobre el tema.
 
 ## ¿Por qué Python?
 
+Python es el lenguaje backend de más rápido crecimiento en el mundo. Es el lenguaje más versátil y fácil de codificar, con una de las comunidades más sólidas.
 
-Con Javascript, estabas vinculado y limitado al navegador, no puedes acceder al computador del cliente y es básicamente un lenguaje de renderización. Pero Python es diferente ... al ser un lenguaje de backend, se ejecuta en tu propio servidor, lo que significa que tiene acceso y puedes controlar toda la computadora con él. Tienes acceso a cualquier aplicación que se ejecute en la misma computadora. Tienes acceso a la consola. Tiene acceso a la red a la que está conectada la computadora y mucho más.
+Cuando lo comparas con otro lenguaje backend, Python es líder en casi todas las funcionalidades que ofrece: ciencia de datos, IA, desarrollos de API, desarrollos web, redes, automatización, etc.
 
-Por otro lado, Python es el lenguaje de back-end de más rápido crecimiento en el mundo. Es el lenguaje más versátil y fácil de codificar con una de las comunidades más sólidas.
+**Estas son algunas de las razones por las cuales Python ha llegado a este punto:**
 
-Cuando lo comparas con otros lenguajes de back-end, Python lidera en casi todas las funciones que ofrece: Data Science, AI, desarrollos de API, desarrollos web, etc.
-
-**Estas son algunas de las razones por las cuales Python ha llegado hasta este punto:**
-
-
-|**Simplicidad**   |**Rendimiento**    |
+|**Simplicidad**   |**Actuación**    |
 |:---------------:|:------------------:|
-|Python estaba destinado a ser simple y fácil. Aquí está el manifiesto de Python: <br> https://en.wikipedia.org/wiki/Zen_of_Python <br> <br> **Nota:** Ya no hay más punto y coma o corchetes, o declarar variables, o la confusa funcionalidad del "this".   |Python es más rápido que Java, PHP, Ruby y el 90% de los otros lenguajes backend. Sólo los lenguajes de bajo nivel como C ++ (difícil de usar) o muy especializados como Node.js pueden superarlo. <br> <br> La escalabilidad de Python se ha demostrado una y otra vez con aplicaciones como el motor de búsqueda de Google, Youtube, Google Apps, etc.  |
+| Python fué creado con la finalidad de ser simple y fácil. Aquí está el manifiesto de Python:<br>https://en.wikipedia.org/wiki/Zen_of_Python<br><br>**Nota:** No más puntos y comas ni llaves, o declaración de variables, ni la confusa funcionalidad "this" (esto).     | Python es mas rápido que Java, PHP, Ruby y 90% de otros lenguajes backend. Solo lenguajes de bajo nivel como C++ (difícil de usar) o muy especializado como Node.js pueden vencerlo.<br><br>La escalabilidad de Python ha sido probada una y otra vez con aplicaciones como Google Search Engine, Youtube, Google Apps, etc.     |
 
 
 |**Comunidad**   |**Herramientas**    |
 |:---------------:|:------------------:|
-|Python es el idioma oficial de Google. También es uno de los idiomas más antiguos con comunidades enormes alrededor de cada una de sus librerias\herramientas. MIT lo usa para enseñar código. La NASA para construir cohetes. Quora, Facebook, Yahoo, Amazon, etc. ¡Casi todas las grandes empresas del mundo tienen que usarlo!      |La mayoría de las librerias de Python son las mejores en lo que hacen: [MathLab] (https://www.mathworks.com/help/matlab/matlab-engine-for-python.html?requestedDomain=true) (para procesamiento de datos) , [Pandas] (https://pandas.pydata.org/) (big data), [Web.py] (http://webpy.org/) (servidor web), [Django] (https: // www .djangoproject.com /) (web framework), [PyBrain] (http://pybrain.org/) (AI), [TensorFlow] (https://www.tensorflow.org/) (Machine Learning), etc. ¡Podríamos estar aquí todo el día! Lo más sorprendente es que estas librerías sólo están a una "pip install" (como cuando usamos NPM con JS).  |
+|Python es el lenguaje oficial de Google. También es uno de los lenguajes mas antiguos con comunidades muy grandes en torno a cada una de sus librerías/herramientas. MIT lo utiliza para codificar. La NASA para construir cohetes. Quora, Facebook, Yahoo, Amazon, etc. Casi todas las grandes compañías del mundo deben usarlo!      |La mayoría de las librerías de python son las mejores en lo que hacen: [MathLab](https://www.mathworks.com/help/matlab/matlab-engine-for-python.html?requestedDomain=true) (para procesamiento de datos), [Pandas](https://pandas.pydata.org/) (grandes datos), [Web.py](http://webpy.org/) (servidor web), [Django](https://www.djangoproject.com/) (marco de trabajo web), [PyBrain](http://pybrain.org/) (IA), [TensorFlow](https://www.tensorflow.org/) (Aprendizaje de máquinas), etc.  ¡Podríamos estar en esto todo el día! Lo más asombroso es que estas librerías estan a un paso de su instalación (al igual que cuando se usa NPM con JS).|
 
-<br>
-<br>
+## Python Syntax
 
-## Sintaxis de Javascript vs Python
+### Imprimiendo un valor
 
-
-Python y Javascript se complementan entre sí, pero en cuanto a funcionalidad, no tienen NADA en común - no tienen el mismo propósito, no hacen las mismas cosas, provienen de diferentes orígenes, etc.
-
-Lo único que recordarás de Javascript es lo básico de cualquier lenguaje de programación: bucle, uso de condicionales, variables, clases, funciones y objetos.
-
-<br>
-<br>
-
-### Tipos de Datos
-
-
-Sólo hay unas pocas diferencias; Aquí está la explicación:
-
-|**En Javascript**      |**En Python**       |
-|:----------------------|:-------------------|
-|Número            |Python tiene el mismo tipo de datos "Número" pero puede aceptar más opciones que JS, como fracciones (2/3) o números complejos.<br> `python>myNumber = 23.23;  //decimal`<br>`python> myNumber = 54;  //entero` <br>`python>myNumber = 12.00;  //decimal (incluso con 00 como decimales). `    |
-|Undefined/Null ahora es: ***None***    |El tipo de datos ***undefined*** no está disponible en Python. Aquí "undefined" y "null" son el mismo tipo de datos: ***None.***<br> `python>myNumber;  // None no está definido`       |
-|Array  |En Python, los array se denominan "List o listas" y son similares a los array de JS, pero son mucho más flexibles y fáciles de utilizar..<br>`python>myArray = ['Juan','John','Steven']; //array de índices numéricos`       |
-|Objeto       |En Javascript, los objetos y los diccionarios son casi lo mismo. Puede hacer lo que quiera con un objeto porque no tienes que declarar primero su Clase y atenerse a su definición.<br> `python>var myCar = {}`<br> `python>myCar.color = 'blue';` <br><br>Python, por otro lado, separa el tipo de datos Diccionario del tipo de datos Objeto. Los objetos no pueden ser declarados informalmente. Primero debes definir su clase antes de poder crear una instancia de ellos.<br><br>`python>class Car(object):`<br>`python>def __init__(self, color):`<br>`python>self.color = i` <br>`python>myCar = Car('blue')`       |
-|Conjunto y Tupla     |Javascript no tiene nada similar, pueden ser muy útiles: las tuplas se ordenan; los conjuntos son secuencias inmutables de valores.   |
-|String     |Es lo mismo en Python.    |
-
-
-<br>
-<br>
-
-## Paquetes (Importando desde otros archivos)
-
-
-En Javascript, puedes importar variables de otros archivos con el comando ***import*** o ***require***, pero tienes que **exportar** los archivos de las variables primero.
-
-En Python, puedes hacer de cualquier carpeta un paquete creando un archivo *\__init\__.py* dentro de ella. Luego, puedes importar lo que quieras en esa carpeta sin tener que exportar explícitamente nada.
-
-<br>
-<br>
-
-#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
+Una cosa esencial que puedes hacer en cualquier lenguaje de programación es imprimir algunos mensajes en el terminal. En Python puedes usar la instrucción `print` (imprimir):
 
 ```python
-from . import
-```
-<br>
-<br>
-
-## Gestores de Paquetes
-
-
-Lo que es NPM es para Javascript, PIP es para Python. Ambas bestias son increíbles pero muy diferentes por dentro. La mayor diferencia es que los paquetes NPM se descargan localmente a una carpeta "node_modules" mientras que los paquetes PIP se instalan en toda la máquina, fuera de la carpeta del proyecto. Otra pequeña diferencia es que NPM usa package.json y PIP usa un archivo requirements.txt.
-
-<br>
-<br>
-
-
-### Analizando tipos de datos
-
-
-Javascript es tan flexible que no tienes que prestar mucha atención a los tipos de datos. A Python no le gusta eso... en Python, te acostumbrarás a declarar variables y convertirlas entre tipos de datos.
-
-#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
-
-```javascript
-var result = '5' - '2'; 
-//el resultado ahora es igual a 3
+print("Hola, este es un mensaje que le puedes enseñar al usuario")
 ```
 
-#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
+### Declarando una variable
+
+Como la mayoría de los lenguajes de programación (o matemáticas), Python te permite almacenar datos en variables para poder utilizarlo posteriormente; las variables son una herramienta poderosa porque le permite a tu código ser reutilizado para cualquier valor de variable en el futuro, por ejemplo: para calcular un área cuadrada lo que tienes que hacer es:
 
 ```python
-#  En Python sustraer strings producirá un error, en lugar de eso debes hacer esto:
-
-result = int('5') - int('2'); 
-#el resultado ahora es igual a 3
+area = ancho * ancho
 ```
-
-<br>
-<br>
-
-
-### Valores de Impresión
-
-
-Python tiene "print" para escribir en un documento o en la consola. Recuerda que, dado que Python - como cualquier otro lenguaje de back-end - se ejecuta antes del evento de preload, no tiene acceso a la consola de Javascript.
-
-<br>
-<br>
-
-
-#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
-
-```javascript
-var simpleValue = ‘hello’;
-console.log(simpleValue);
-//Esto imprimirá el contenido de la variable.
-var arrayValue = [‘Hello’,23, 76, ‘World’,43];
-console.log(arrayValue);
-//Esto imprimirá el contenido del array y sus elementos.
-```
-
-
-#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
+Tu código calculará el `área` sin importar el valor del `ancho`:
 
 ```python
-simpleValue = ‘Hello’;
-print(simpleValue);  //Esto imprimirá el contenido.
-arrayValue =[‘Hello’,23,76,’World’,43];
-print(arrayValue); //Esto funcionará, imprimiendo el contenido del arreglo en un formato como este: [‘Hello’,23,76,’World’,43]
-```
-  
+# si el ancho es=6 en el futuro
+area = 6 * 6
 
-
-
-
-<br>
-<br>
-
-
-<br>
-<br>
-
-### Función Lambda vs Función de flecha
-
-
-Finalmente, en ES2015, Javascript incluye las "funciones arrow". Esa es una manera muy fácil y liviana de declarar y usar funciones. Python, por otro lado, tiene algo similar llamado funciones lambda que básicamente te permiten usar pequeñas funciones anónimas en línea como accesos directos.
-
-<br>
-<br>
-
-#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
-
-```javascript
-
-# Usando un función de flecha para mapear una lista 
-
-var peopleArray = [{ name: "Mario Peres" },{ name: "Emilio Peres" },{ name: "Yusaiba Peres" }];
-var returningMapObject = peopleArray.map(person => person.name);
-console.log(returningMapObject);
-
+# si el ancho es=7 en el futuro
+area = 7 * 7
 ```
 
-<br>
-<br>
+> Las variables hacen tu código reutilizable y más dinámico.
 
-#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
+### Imprimiendo una variable
+
+También puedes imprimir (`print`) el valor almacenado en una variable, o incluso concatenarlo a otra cadena usando el operador más `+`:
 
 ```python
-
-# Usando lambda para mapear una lista
-
-peopleArray = [{ "name": "Mario Peres" },{ "name": "Emilio Peres" },{ "name": "Yusaiba Peres" }]
-returningMapObject = map(lambda obj: obj['name'], peopleArray)
-namesArray = list(returningMapObject)
-print(namesArray)
-
-# ahora namesArray es una lista de nombres como ["Mario Peres","Emilio Peres","Yusaiba Peres"]
+nombre = "Bob"
+# imprime solo el nombre
+print(nombre) 
+# o imprime un saludo que también incluya el nombre
+print("hola "+nombre+" ¿cómo estas?")
 ```
 
+### Tipos de datos
 
-> :tv: Aquí hay un video extraño pero sorprendente que explica las funciones lambda: https://www.youtube.com/watch?v=25ovCm9jKfA
-
-<br>
-<br>
-
-### Lista de bucles (similar a arrays)
+Si no sabes o no lo recuerdas, los tipos de datos son tipos de información que puedes almacenar en una variable: números, texto, listas, etc. Cada lenguaje de programación tiene sus propios tipos de datos. En Python, estos son los tipos (hay mas tipos que revisaremos mas adelante):
 
 
-#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
+| Tipo de Grupo		| Tipo				| Descripción |
+| -----------------	| ------------------------------------- | ----------------------------- |
+| Tipos de Texto		| str					| palabras, párrafos, etc. 	|
+| Tipos Numéricos	| int, float, complex	| operaciones matemáticas, etc.		|
+| Tipos de Secuencia	| list, tuple, range		|varios valores a la vez uno tras otro|
+| Tipos Mapping	| dict				| múltiples valores sin secuencia	|
+| Tipo Boolean 	| bool				| Solo `Verdadero` o `Falso` |
 
-```javascript
-//haciendo un bucle foreach en js 
-myArray.forEach(function(item,index,array) {
-    console.log(item);
-});
 
-//haciendo un bucle for en js
-for(var i = 0; i < myArray.length; i++){
-    console.log(myArray[i]);
-}
-```
+### Casting (análisis) de tipos de datos
 
-<br>
-<br>
+Es importante resaltar que la cadena `"1"` no es lo mismo que el número `1`, entonces, si quieres sumar `"1" + 1`, el resultado no será 2. En cambio, la computadora generará un error.
 
-#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
+**¿Por qué?**
+
+Porque los tipos importan, tienes que ser consistente con ellos, si quieres sumar la cadena `5` con la cadena `2`, tienes que convertirlos en enteros primero, así:
 
 ```python
-colors = ["red", "green", "blue", "purple"]
-for color in colors:
-    print(color)
+# En python, restar cadenas generará un error, en su lugar, deberías hacer: 
+result = int('5') - int('2')
+# El resultado ahora es igual a 3
 ```
+Por otra parte, si quieres sumar la cadena `"5"` con la cadena `"2"`, el resultado será `"52"` porque esa es la operación predeterminada para sumar cadenas: Concatenación.
 
-<br>
-<br>
+> Hablaremos mas sobre concatenación en otra lección.
 
-### Adición y Eliminación de Elementos
+### Listas y Touples 
 
+Todos los principales lenguajes de programación tienen formas de almacenar listas de valores juntos; estos se llaman `arrays` (matrices) o `listas` (listas).
 
-<br>
-<br>
-
-#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
-
-```javascript
-var myArray = [‘Academy’, ‘Coding’];
-myArray.push(‘4Geeks’);  //Añadiendo un item
-//para eliminar el elemento en la posición INDEX
-myArray.splice(index, 1);
-```
-
-#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
+Una lista de Python es una sucesión ordenada de valores, por ejemplo:
 
 ```python
-myList = ['The', 'earth', 'revolves', 'around', 'sun']
-myList.insert(0,"Yes")
-print(myList)
-# Salida: ['Yes', 'The', 'earth', 'revolves', 'around', 'sun'] 
-
-myList.remove("Yes")
-print(myList)
-['The', 'earth', 'revolves', 'around', 'sun']
+edades = [23,45,34,2,65,7,32,54,3,3,6,4]
+nombres ["Maria", "Willy", "Anyka", "Shan"]
 ```
-
-### Funciones para clasificar Listas
-
-
-#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
+Es importante recordar que el orden importa. Cada uno de los valores en una lista tiene una posición que siempre va a ser la misma. Puedes recuperar cualquier valor interno usando la posición que toman en la lista, por ejemplo:
 
 ```python
-# Orden ascendente
-a = [5, 2, 3, 1, 4]
-a.sort()
-
-# Ordenar la lista de objetos usando un parámetro "key"
-myArray = [{ "name": "Mario Peres" },{ "name": "Emilio Peres" },{ "name": "Yusaiba Peres" }]
-myArray.sort(key=lambda person: person['name'])
+print(edades[0]) # imprimirá 23 porque su posición es 0
+print(edades[4]) # imprimirá 65 porque su posición es 4
 ```
+> Importante: las listas comienzan en la posición 0.
 
+Las listas se utilizan ampliamente en todos los lenguajes de programación, especialmente en Python, porque Machine Learning utiliza enormes listas de información.
 
-> :tv: Llamemos a Socratica de nuevo para entender la clasificación en Python: https://www.youtube.com/watch?v=QtwhlHP_tqc
+> Nota: vamos a discutir las listas en detalle pronto.
 
-### La Declaración switch
-
-**Ahora hay una manera de hacer "switch"… pero ¿a quién le importa? 🙂**
-
-### Listas vs Tuplas
-
-Python trae un nuevo tipo de tipo de datos llamado "Tupla". Piense en ello como una lista de rendimiento super delgado y rápido. Pero, como siempre, para aumentar el rendimiento necesitamos disminuir la funcionalidad.
-
-> :tv: Este es un video obligatorio que explica la diferencia entre ellos: https://www.youtube.com/watch?v=NI26dqhs2Rk
-
-### Objetos
-
-#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
-
-```javascript
-//Hay dos maneras de declarar un objeto
-
-//Como un objeto literal
-var obj = { "name": "Mario", "lastname": "Perez" };
-
-//Como una Clase 
-class Person{
-    constructor(){
-         this.name = "";
-         this.lastname = "";
-    }
-}
-
-var obj = new Person();
-obj.name = "Mario";
-obj.lastname = "Perez";
-```
-
-#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
+## Algoritmos de Python
+ 
+Después de conocer lo básico de Python puedes empezar a construir algoritmos:
+Un algoritmo es una sucesión de líneas de código con un propósito en común.
+Las líneas de código van de arriba a abajo (desde la línea 1 hasta la ínea N)
+Por ejemplo, el siguiente es un algoritmo muy sencillo que imprime el nombre completo del nombre y apellido dados.
 
 ```python
-# En Python tenemos Clases y Diccionarios.
+nombre = "Taylor"
+apellido = "Swift"
+print("Miss "+nombre+" "+apellido) # imprime Miss Taylor Swift
+```
+La primera línea es `nombre = "Taylor"` y se ejecuta primero; la última línea con la instrucción `print` ya sabe el valor del `nombre` porque fue completado primero (línea anterior)
 
-# Así es como tu declaras y usas un diccionario.
-obj = {}
-obj['name'] = "Mario"
-obj['lastname'] = "Perez"
+### Condicionales
 
-# Así es como declaras y usas una clase.
-class Person:
-    def __init__(self):
-        name = ''
-        lastname = ''
+Las condiciones son fantásticas porque te permiten saltar o condicionalmente ejecutar partes de tu algoritmo, haciéndolos bastante flexibles e inteligentes. Por ejemplo, podríamos condicionalmente imprimir "Miss" (señorita) o "Mrs" (señora), dependiendo del estado de su relación:
 
-obj = Person()
-obj.name = "Mario"
-obj.lastname = "Perez"
+```python
+estado_de _relación = "casada"
+nombre = "Taylor"
+apellido = "Swift"
+
+if estado_de_relación == "soltera":
+	print("Miss "+nombre + " " + apellido) # imprime Miss Taylor Swift
+else:
+	print("Mrs "+nombre + " " + apellido) # imprime Mrs Taylor Swift
+```
+Nota: La instrucción `if (si)...else (otro)...` se lee como en inglés. También, para hacer comparaciones, debes utilizar dos signos de igual `==` en vez de uno, y a eso se le llama **Expresión Lógica**
+
+### Operaciones Lógicas y Expresiones
+
+Las computadoras piensan todo en blanco o negro. Todo es o Verdadero o Falso. Todas las decisiones en una computadora se reducen a un simple  **Boolean**. Puedes preparar una computadora para resolver problemas particulares, si escribes un código que haga las preguntas adecuadas requeridas para resolver ese problema.
+
+Por ejemplo, si quiero que una computadora le de caramelos solamente a niños mayores de 13 años, puedo indicarle a la computadora que pregunte:
+
+ **¿Es este niño mayor de 13 años? ¿si o no?**
+
+**En Python, puedes indicarle a la computadora que haga las siguienes operaciones lógicas** 
+
+|**Operación**  |**Syntaxis**   |**Examples**   |
+|:--------------|:--------------|:--------------|
+|Igual a       |==             |¿Es 5 == 5? ¡Cierto!<br>¿Es 5 == 4? Falso!<br>¿Es 5 == '5'? ¡Cierto!    |
+|No igual a    |!=             |¿Es 5 != 5? ¡Falso!<br>¿Es 5 != '5'? ¡Falso!<br>¿Es 1 != 'Hello' ¡Cierto!   |
+|Mayor que  |>              |¿Es 5 > 5? ¡Falso!<br>¿Es 6 > 3? ¡Cierto!    |
+|Menor que      |<              |¿Es 6 < 12? ¡Cierto!            |
+|Mayor o igual a  |>=             |¿Es 6 <= 6? ¡Cierto!<br>¿Es 3 <= 6? ¡Cierto!    |
+|Menor o igual a   |<=            |Ya entiendes la idea 🙂       |
+
+Para crear operaciones realmente útiles, puedes combinar varias operaciones en la misma pregunta utilizando AND (y), OR (o) y NOT (no).
+
+Puedes agrupar las operaciones lógicas en paréntesis, y tambien utilizar paréntesis anidados para varias operaciones al mismo tiempo.
+
+|**Operación**   |**Sintaxis**   |**Ejemplos**   |
+|:---------------|:--------------|:--------------|
+|AND             |and             |Con AND, ambas partes DEBEN SER VERDADERAS de manera que todo se vuelva verdadero.<br>¿Es (5 == 5 and 3 > 1) ? ¡Verdadero!<br>¿Es ('Ramon' == 'Pedro' and 2 == 2) ? ¡Falso!    |
+|OR     |\|\|     |¿Es ('Oscar' or 'Maria' or 2 != 2)? ¡Verdadero!<br>¿Es (5 == '5' and 'Ramon' != 'Pedro') or (2 == 2)? ¡Verdadero!   |
+|NOT     |!     |NOT será el resultado opuesto al resultado del operador lógico:<br>¿Es !(5 > 5)? ¡Verdadero!<br>¿Es !(verdadero)? ¡Falso!    |
+
+## Controla el Flujo de Tu Código
+
+Okey, ahora es cuando todo se empieza a poner ¡divertido! Para controlar el flujo de tus aplicaciones, vas a tener muchas opciones y vas a usar cada una de ellas todos los días. Entonces, debes sentirte cómodo usándolas. 
+
+### Condicionales: If…else…
+
+La primera herramienta que tienes es el condicional `if…else`. Puedes decirle a la computadora que se salte cualquier parte de tu código dependiendo del valor actual de tus variables.
+
+La declaración "If" te permite ejecutar un pedazo de código si se cumplen ciertas condiciones (o son verdaderas). La declaración "else" va a ejecutar un pedazo de código alternativo en caso de que la condición sea falsa.
+
+```python
+if numero < 18:
+    print("Esto se mostrará si el número es menor que 18")
+else:
+     print("El número es mayor o igual que 18")
 ```
 
+### Loops (bucles)
 
-> :tv: Socratica, nuestro gran espécimen y amigo evolucionado, explica Objetos de una manera excelente: https://www.youtube.com/watch?v=apACNr7DC_s
+El último truco que veremos hoy son los **loops**. Los loops son asombrosos porque te permiten repetir la ejecución de una o más líneas de código sin tener que escribir la misma línea varias veces:
 
+```python
+for n in range(10):
+	print("Esta línea se imprimirá 10 veces")
+```
 
+También puedes hacerle loops a listas de valores:
 
+```python
+nombres= ["Bobby", "Diddi", "Kaylor"]
+for n in nombres:
+	print("El siguiente nombre es "+n)
+```
 
+Nota: el código anterior imprimirá cada nombre en la consola.
 
+## ¿Listo para comenzar a aprender?
 
-
-
-
-
-
-
-
-
-
-
-
+Por favor, no te abrumes, porque repasaremos cada uno de estos conceptos en las siguientes lecciones. ¡Obtendrás más oportunidades para practicar, aprender y liberar el potencial de tu mente!
 
