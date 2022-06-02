@@ -15,7 +15,10 @@ Welcome!! 🤩👏 My name is Alejandro and I'm writing these words after years 
 
 ## What you already know
 
-You are here to develop your coding skills to a point where you can be useful to society in order to: 1️⃣ Get a job, 2️⃣ Create your own company or/and 3️⃣ Adapt better to the now world.
+You are here to develop your coding skills to a point where you can be useful to society in order to:
+1. Get a job
+2. Create your own company or/and 
+3. Adapt better to the now world.
 
 ## What you did not know
 
