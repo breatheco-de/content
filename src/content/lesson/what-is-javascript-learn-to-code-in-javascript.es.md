@@ -205,6 +205,7 @@ Bien, ¡ahora es cuando todo empieza a ponerse divertido! Para controlar el fluj
 La primera herramienta que tienes es el condicional `if ... else`. Es muy fácil. Puedes decirle a la computadora que omita cualquier parte de tu código dependiendo del valor actual de tus variables.
 
 La instrucción `if` te permite ejecutar un fragmento de código si se cumplen ciertas condiciones (o si son verdaderas). La declaración "else" ejecutará un fragmento de código alternativo en caso de que la condición sea falsa.
+
 ```javascript
 if (number < 18) {
     document.write("Hola");
