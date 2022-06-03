@@ -25,9 +25,10 @@ Stack Overflow es una de las páginas más importantes en el mundo de la program
 Si preguntas simplemente lo primero que se te pasa por la mente es probable que no obtengas una respuesta rápidamente, la persona que lea tu pregunta va a tener muchas dudas al respecto, probablemente tengas que aclarar infinidad de cosas.
 
 Comparemos estas dos preguntas:
+
 ```md
 1. ¿Como puedo agregar un item a un array?
-2. Estoy intentando agregar un item a un array de la siguiente manera: blablabla... Este es mi código (sreenshot o pantallazo) pero no esta funcionando, ¿Ven algo malo?
+2. Estoy intentando agregar un item a un array de la siguiente manera: blablabla... Este es mi código (screenshot o pantallazo) pero no esta funcionando, ¿Ven algo malo?
 ```
 
 ¿Notas como la segunda pregunta es mucho más sencilla de responder? Probablemente tengas una respuesta en unos pocos minutos dado que sera muy sencillo revisar tu código y darte feedback en unas pocas lineas. ¿Quién sabe? ¡Tal vez es solo un error de tipeo!
