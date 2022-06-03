@@ -80,14 +80,14 @@ Estos números no son pequeños, 60% en un día y 90% si no practicas en una sem
 
 Asegúrate de entender bien cómo funciona la academia:
 
-1. **Plataforma:** BreatheCode, el Programa (aprende a seguirlo), GeekPal, GeekForce, las lecciones, ejercicios, proyectos y recursos.
+1. **Plataforma:** 4Geeks.com, el Programa (aprende a seguirlo), GeekPal, GeekForce, las lecciones, ejercicios, proyectos y recursos.
 2. **Las personas:** ¡Somos más de 1.000 personas! Líderes, mentores, los [egresados y los estudiantes](http://sep.4geeksacademy.com/), están aquí para ayudarte y no nos iremos a ningún lado. Haz networking, amigos ¡Aprovecha!
 3. **La comunidad:** La comunidades no sólo dan, no sólo trabajan preparando eventos, apoya a otros estudiantes, da primero y recibirás después. Slack, GeekTalks, Workshops, Grupos de Estudio.
 
 
 ## Mejores prácticas mientras aprendes a programar
 
-| **No leas (demasiado):** programar es como un deporte, la mejor forma de mejorar es practicando. Aprender haciendo. |     ![Es práctica](../../assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg) |
+| **No leas (demasiado):** Programar es como un deporte, la mejor forma de mejorar es practicando. Aprender haciendo. |     ![Es práctica](../../assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg) |
 | ---   | ----      |
 | **Duerme:** Dormir bien es tan importante como ir a clases, la programación es 100% intelectual, tener una mente fresca lo es todo. | ![Duerme](../../assets/images/d29be460-cc2e-42e6-bf92-f9516fd7b21a.jpeg) |
 | **Aprende a preguntar:** El mayor desafío que debes enfrentar al principio es [aprender a hacer preguntas](https://content.breatheco.de/how-to/ask), escoger las palabras adecuadas. Saber exactamente qué necesitas saber es la mejor habilidad para cualquier desarrollador/a. | ![Aprende a preguntar](../../assets/images/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c.jpeg) |

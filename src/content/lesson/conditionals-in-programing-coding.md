@@ -92,7 +92,7 @@ As you can see here we are using ` else if` together for the first time, for fas
 | instead of `if(feelsLikeHitByTrain == true)` | you write `if(feelsLikeHitByTrain)`  |
 | instead of `if(feelsLikeHitByTrain == false)` | you write `if(!feelsLikeHitByTrain)` |
 
-## ` >` and ` <` Greather Than or Lower Than Operators
+## ` >` and ` <` Greater Than or Lower Than Operators
 
 In the particular case you are comparing numbers, to find out if one of the compared numbers is greater or lesser than the other:
 
