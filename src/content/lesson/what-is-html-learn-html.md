@@ -30,11 +30,15 @@ Originally, browsers only knew how to interpret HTML.  Websites were simple and 
 
 Remember when we said the Internet is all text?
 
-In that sense, HTML is a language that uses `<tags>` to represent the elements that a web page must-have. A tag is just a word that begins and ends with `<` and `/>`, respectively.
+In that sense, HTML is a language that uses `<tags>` to represent the elements that a web page must-have. A tag is just a word that begins with `< >` and ends with `</ >`.
+ All tags must open and close (closing tags always proceed the element with a `/`).
 
+ There are 2 different types of tags:
 
++ Container tags:  when there is content between both tags, you should close it with (`</tag>`). For example, to markup a section of text as a paragraph, you open the tag with (`<p>`) and close it at the end with (`</p>`).
 
-All tags must open and close. To close a tag you must place the same word or letter you used to open it but using `/>`.
++ Non-container tags: they are standalone tags without closing tags (`</ >`). For example, the tag for a line break is (`<br>`).
+
 
 ### Attributes
 
