@@ -37,7 +37,7 @@ In that sense, HTML is a language that uses `<tags>` to represent the elements t
 
 + Container tags:  when there is content between both tags, you should close it with (`</tag>`). For example, to markup a section of text as a paragraph, you open the tag with (`<p>`) and close it at the end with (`</p>`).
 
-+ Non container tags: they are standalone tags without closing tags (`</ >`). For example, the tag for a line break is (`<br>`).
++ Non-container tags: they are standalone tags without closing tags (`</ >`). For example, the tag for a line break is (`<br>`).
 
 
 ### Attributes
