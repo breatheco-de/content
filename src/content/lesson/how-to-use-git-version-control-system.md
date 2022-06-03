@@ -90,7 +90,7 @@ Example: Let’s say that you are starting to develop the "Login" feature/functi
 
 ![how to use git](../../assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif)
 
-> :point_up:**Note on Terminology:** The terms "branch" and "head" are nearly synonymous in GIT.  Every branch is represented by one head, and every head represents one branch.  Sometimes, "branch" will be used to refer to a head and the entire history of commits preceding that head, whereas "head" will be used to refer exclusively to a single commit object (the most recent commit in the branch).
+> :point_up:**Note on Terminology:** The terms "branch" and "head" are nearly synonyms in GIT.  Every branch is represented by one head, and every head represents one branch.  Sometimes, "branch" will be used to refer to a head and the entire history of commits preceding that head, whereas "head" will be used to refer exclusively to a single commit object (the most recent commit in the branch).
 
  ## Starting a New Repo** `git init`
 
