@@ -44,9 +44,9 @@ Por otro lado, las columnas fueron hechas para vivir dentro de las filas (como p
 
 Tal cual como lo hicimos en el capítulo sobre diseños, vamos a crear una página con dos grandes secciones, una barra lateral a la derecha y un contenido principal a la izquierda:
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/th7uLrow/4/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/th7uLrow/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/th7uLrow/4/embedded/html,css,result/">Click aquí para ver el demo en una ventana nueva</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/th7uLrow/6/embedded/html,css,result/">Click aquí para ver el demo en una ventana nueva</a></small></div>
 
 ## Bootstrap es 100% adaptable
 
@@ -125,7 +125,7 @@ Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web debe tener. Aho
 
 Recuerda, Bootstrap es solo una hoja de estilos. Es por eso que es muy simple agregarlo a tu sitio web. Utiliza el `<link>` tag para incluir los estilos, y si quieres para usar la etiqueta de javascript `<script>` y así incluir los archivos de javascript de Bootstrap.
 
-La funcionalidad de Javascript en Bootstrap requiere que se incluyean las librerias propias de jQuery y Javascript primero pero no te preocupes por esto aún.   Sólo incluye las librerias de JS usando la etiqueta script y más adelante lo entenderás.
+La funcionalidad de Javascript en Bootstrap requiere que se incluyan las librerias propias de jQuery y Javascript primero pero no te preocupes por esto aún.   Sólo incluye las librerias de JS usando la etiqueta script y más adelante lo entenderás.
 
 > :link: Encuentra aquí [increíbles archivos de Bootstrap para que puedas empezar.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
@@ -146,7 +146,7 @@ Cuando importas Bootstrap en tu página web, tendrás un nuevo conjunto de compo
 
 #### Barra de navegación o NavBar
 
-Esto es tan popular que se encuentra en el 99% de los menús de todos los sitios web.  Normalmente contiene el logo de la compañia y una series de links - dependiendo de la lógica de negocio de la página. 
+Esto es tan popular que se encuentra en el 99% de los menús de todos los sitios web.  Normalmente contiene el logo de la compañía y una series de links - dependiendo de la lógica de negocio de la página. 
 
 Aquí hay un ejemplo de como se ve un NavBar en un sitio web:
 
@@ -254,7 +254,7 @@ La documentación oficial de Bootstrap es increible!! No necesitamos copiar y pe
 + [The grid system.](https://getbootstrap.com/docs/4.1/layout/grid/)
 + [Styling Forms.](https://getbootstrap.com/docs/4.1/components/forms/)
 + [List of components available to use on your website.](https://getbootstrap.com/docs/4.1/components/alerts/)
-+ [Utilities or Helper classes:](https://getbootstrap.com/docs/4.1/utilities/borders/) Very useful and constantly used classes to do stuff like centering the text, centering a column or container, adding a background, etc.
++ [Utilities or Helper classes:](https://getbootstrap.com/docs/4.1/utilities/borders/) Clases muy útiles para hacer cosas como centrar el texto, centrar una columna o contenedor, agregar un fondo, etc.
 
  
 | :point_up : Versiones de Bootstrap y su descarga: 
