@@ -127,6 +127,8 @@ Let’s assign "first" as the ID of the first cell in the next table, and then w
 
 In the next example we are applying an "odd" class to the cells of this table, and then with CSS we are assigning the yellow background to class .odd:
 
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/rdLkmx1t/11/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 ### Tag selection
 
 |**Selector**   |**Description**   |**Example**   |
@@ -134,6 +136,8 @@ In the next example we are applying an "odd" class to the cells of this table, a
 |Element (tag) type   |This makes it possible to apply styles to links, titles, etc.  In the next example we shall change the text color of every link tag `<a>` on the page.   |`a { color: #BDBDBD; }`   |
 
 Next, we are adding color (green) to the  background of each `td` (cells) of the table:
+
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/y89Lgwb0/11/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### Multiselector
 
