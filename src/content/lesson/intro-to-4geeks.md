@@ -81,14 +81,14 @@ These are not small numbers, 60% in a day and 90% if you don't practice for a we
 
 Please make sure you understand how the academy works:
 
-1. **Platform:** BreatheCode, The Syllabus (learn how to follow it), GeekPal, GeekForce, the lessons, exercises, projects and assets.
+1. **Platform:** 4Geeks.com, The Syllabus (learn how to follow it), GeekPal, GeekForce, the lessons, exercises, projects and assets.
 2. **The people:** We are more than one thousand people now! Leaders, Mentors, the [Alumni and Students](http://sep.4geeksacademy.com/), we are here to help and we are here to stay. Network, make friends, take advantage!
 3. **The community:** Communities are not one way, they just don't work like that to the events, support other students, give first and you will receive later. Slack, GeekTalks, Workshops, Group Studies.
 
 
 ## Best Practices while starting to learn code
 
-| **Don't read (much):** Coding is like sport, the best what to get better is through practice. Learn by doing |    ![Its practice](../../assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg) |
+| **Don't read (much):** Coding is like sport, the best way to get better is through practice. Learn by doing |    ![Its practice](../../assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg) |
 | ---   | ----      |
 | **Sleep:** Having a good sleep is as important as coming to class, coding is 100% intellectual, having a sharp mind is everything. | ![Sleep](../../assets/images/d29be460-cc2e-42e6-bf92-f9516fd7b21a.jpeg) |
 | **Learn how to ask:** The biggest challenge you have to address at first is learning [how to ask a question](https://content.breatheco.de/how-to/ask), picking the right works, know exactly want you want to know is the best skill for any developer. | ![How to ask](../../assets/images/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c.jpeg) |
