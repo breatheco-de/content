@@ -30,11 +30,15 @@ Originally, browsers only knew how to interpret HTML.  Websites were simple and 
 
 Remember when we said the Internet is all text?
 
-In that sense, HTML is a language that uses `<tags>` to represent the elements that a web page must-have. A tag is just a word that begins and ends with `<` and `/>`, respectively.
+In that sense, HTML is a language that uses `<tags>` to represent the elements that a web page must-have. A tag is just a word that begins with `< >` and ends with `</ >`.
+ All tags must open and close (closing tags always proceed the element with a `/`).
 
+ There are 2 different types of tags:
 
++ Container tags:  when there is content between both tags, you should close it with (`</tag>`). For example, to markup a section of text as a paragraph, you open the tag with (`<p>`) and close it at the end with (`</p>`).
 
-All tags must open and close. To close a tag you must place the same word or letter you used to open it but using `/>`.
++ Non-container tags: they are standalone tags without closing tags (`</ >`). For example, the tag for a line break is (`<br>`).
+
 
 ### Attributes
 
@@ -55,6 +59,7 @@ For the main heading of the document, the tag we use is `<h1>`.  For example: An
 
 
 ##### Nested Tags :
+
 Finally, tags can contain one or more tags within them. For example, if we would want to give <i>italic style</i> to the word "electronics" we would wrap the word with the tag `<i>`:
 
 ```html
@@ -66,13 +71,19 @@ Finally, tags can contain one or more tags within them. For example, if we would
  The browser ignores blank spaces and end of lines. If we want to jump one line, we have to use the `<br>` tag.  If we want more "spaces" we need to insert the command `&nbsp;` per each blank space (yes, we know it’s weird, but it is what it is).
 
 **The following three alternatives will look the same (spaces and jumps of line will be ignored):**
+
 ```html
 <tag>Hello</tag><tag>World</tag>
 ```
+
+Line jumps are ignored:
+
 ```html
 <tag>Hello</tag>
 <tag>World</tag>
 ```
+
+Spaces are ignored:
 
 ```html
 <tag>Hello</tag>               <tag>World</tag>
@@ -125,7 +136,7 @@ In the case of HTML, the `<head>` can contain the following tags (among other le
 |Meta   |`<meta>`   |Meta tags describe documents.  They are used to specify things like: the author, title, date, keywords, descriptions, etc.   Search engines love these tags because they allow an easier comprehension of the content before it is read.   |
 |Link   |`<link>`   |Used for linking the page with the CSS style sheets.  In the CSS chapter you will learn how to create style sheets and you will be able to import them using the Link tag.   |
 |Style   |`<style>`   |If we can’t or don’t want to import a CSS style sheet, we may also define styles directly on the HTML document inside the Style tag.  This is a practice we rarely recommend and should only be used when you don’t have any other choice.   |
-|Script   |`<script>`   |Used to add JavaScript code to the page.  All JavaScript code must be contained in these tags. They can also be used in the BODY, if desired.  The difference is that any JavaScript code that we place in a style tag in the BODY won’t be available when the page begins to run (that’s exactly why the is HEAD is so useful).   |
+|Script   |`<script>`   |Used to add JavaScript code to the page.  All JavaScript code must be contained in these tags. They can also be used in the BODY, if desired.  The difference is that any JavaScript code that we place in a style tag in the BODY won’t be available when the page begins to run (that’s exactly why the HEAD is so useful).   |
 
 ### The \<body\> is Similar to any MS Word Document
 

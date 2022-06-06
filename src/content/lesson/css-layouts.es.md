@@ -24,7 +24,7 @@ Necesitamos usar cajas para eso. Una caja es un contenedor con un ancho y una al
 
 Todo el contenido del sitio web debe estar envuelto dentro de una caja (div, header, footer, etc.). Las cajas son invisibles por defecto, por lo tanto para hacerlas visibles, debes establecer un color de fondo o un borde.  La siguiente imagen muestra cuántas cajas invisibles tiene un sitio web normal:
 
-<before-after width="500px"
+<BeforeAfter width="500px"
     before="../../assets/images/40818d0d-60c6-4ef3-a488-834f21ddebf1.png" after="../../assets/images/0c89a48e-d488-4e5c-807a-fd6b9a9179f6.png" />
 
 #### Atributos de una caja: ¿De qué está compuesta?
@@ -57,7 +57,7 @@ Esta importante propiedad está relacionada con el modelo de cajas y define la m
 + Si el valor es **border-box**, ancho y altura aplican a todas las partes del elemento: `content`, `padding` and `borders`. 
 
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/zvL6aet3/2/embed/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/zvL6aet3/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="https://jsfiddle.net/BreatheCode/zvL6aet3/">Hax clic aquí para abrir el demo en una nueva ventana página</a></small></div>
 
