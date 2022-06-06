@@ -33,7 +33,7 @@ During the past years we have identified specific reasons that cause students to
 
 ![Impostor Syndrome](../../assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png)
 
-At some point in our lives (some more than others) we all have thought we were the most stupid person in a room, if we keep thinking that for a long time and we don't get comfortable on any discipline we may even think that we are not that smart. BULLSHIT! You are a part of this school, we do not accept people that we don't think are smart enough to make a living as a developer, you need to believe that, especially on tough times!
+At some point in our lives (some more than others) we all have thought we were the most stupid person in a room, if we keep thinking that for a long time and we don't get comfortable on any discipline we may even think that we are not that smart. You are a part of this school, we do not accept people that we don't think are smart enough to make a living as a developer, you need to believe that, especially on tough times!
 
 > If a particular exercise or project is hard, instead of thinking you are not good at this, look for new ways of absorbing the content. Talk to a mentor and we'll give you exactly what you need.
 
@@ -92,4 +92,4 @@ Please make sure you understand how the academy works:
 | ---   | ----      |
 | **Sleep:** Having a good sleep is as important as coming to class, coding is 100% intellectual, having a sharp mind is everything. | ![Sleep](../../assets/images/d29be460-cc2e-42e6-bf92-f9516fd7b21a.jpeg) |
 | **Learn how to ask:** The biggest challenge you have to address at first is learning [how to ask a question](https://content.breatheco.de/how-to/ask), picking the right works, know exactly want you want to know is the best skill for any developer. | ![How to ask](../../assets/images/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c.jpeg) |
-| **Ask questions:** Its a win-win, preparing the question will teach you, we get feedback from your understanding, it the biggest boost for your learning process. It's what you are paying for. | ![Ask questions](../../assets/images/5e975e91-1447-4117-b50b-b00df99a88a5.jpeg) |
+| **Ask questions:** It's a win-win, preparing the question will teach you, we get feedback from your understanding, it the biggest boost for your learning process. It's what you are paying for. | ![Ask questions](../../assets/images/5e975e91-1447-4117-b50b-b00df99a88a5.jpeg) |
