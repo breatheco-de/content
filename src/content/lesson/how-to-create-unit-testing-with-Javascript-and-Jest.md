@@ -10,7 +10,7 @@ status: "published"
 
 Humans make mistakes, all the time. As you progress in your development career you will be more at peace with that.
 
-Senior developers understand their code will has bugs (no matter how smart you are) and the only way to ship quality is by writing additional code to test the original code, we call that "unit testing", in this article you will learn why and how to do it.
+Senior developers understand their code will have bugs (no matter how smart you are) and the only way to ship quality is by writing additional code to test the original code, we call that "unit testing", in this article you will learn why and how to do it.
 
 There are several ways to test your applications, but unit tests are the most powerful tool a developer has to ensure high quality code.
 
@@ -47,11 +47,11 @@ Note: Unit tests don't care about the content of the `sum` function, it only car
 
 ## Arrow function.
 
-Another novelty of ES6 are the "Arrow function". The way to create these functions is as follows: First we will define the list of parameters, if necessary, between parentheses followed by the => symbol and the {} to indicate the instructions to be carried out.
+Another novelty of ES6 are the "Arrow functions". The way to create these functions is as follows: First we will define the list of parameters, if necessary, between parentheses followed by the => symbol and the {} to indicate the instructions to be carried out.
 
 In addition to the syntax that is different from the previous ones, these type of functions have the following characteristics.
 
-The "arrow functions" does not create their own context when executed. Unlike the "function expression" or the "function declaration" that creates its own context.
+The "arrow functions" do not create their own context when executed. Unlike the "function expression" or the "function declaration" that creates its own context.
 
 The "arrow functions" are anonymous.
 
@@ -62,15 +62,15 @@ If when defining the function we do not use the symbol of the curly braces. The 
 
 ## Benefits of using Unit Testing:
 
-+ **you can find and prevent bugs easily** If there is a problem in the future you'll be to identify the cause a lot faster than having to trough all the code. Also your end-user will be very happy to not have a buggy product.
++ **you can find and prevent bugs easily** If there is a problem in the future you'll be able to identify the cause a lot faster than having to go through all the code. Also your end-user will be very happy to not have a buggy product.
 
 + **Unit Testing saves time....and money** When writing Unit tests you may identify many possible bugs and fix them right away, instead of fixing them in different stages of the product.
 
-+ **Your code is more reliable and reusable** When your code is divided in units or components where each one has their responsability or function, your code becomes more reliable and it gives you more confidence. Since you have already tested you can reuse it: is clean and efficient and you can migrate your and tests to a new project.
++ **Your code is more reliable and reusable** When your code is divided in units or components where each one has their responsability or function, your code becomes more reliable and it gives you more confidence. Since you have already tested you can reuse it: it is clean and efficient and you can migrate your code and tests to a new project.
 
-+ Good Unit tests serves as **documentation and defines** what your code is suppose to do.
++ Good Unit tests serve as **documentation and define** what your code is suppose to do.
 
-+ **Unit Testing improves teamwork**. Your will able to follow the logic behind your code and your team will be able coordinate their code accordingly. By reviewing each other's codes teamwork is more agile.
++ **Unit Testing improves teamwork**. You will be able to follow the logic behind your code and your team will be able coordinate their code accordingly. By reviewing each other's code teamwork is more agile.
 
 ## Writing your first unit test with Jest
 
@@ -80,7 +80,7 @@ It requires almost 0 configuration to start using it, it is extremely fast and t
 
 ### Example Syntax
 
-The following function returns `true` if the give input string is uppercase, otherwise it returns `false`:
+The following function returns `true` if the given input string is uppercase, otherwise it returns `false`:
 
 ```js
 function isUpperCase(sentence){
@@ -100,18 +100,18 @@ Here we are testing the function for the input `HELLO`, But doing only one test 
 
 ## Testing for failure
 
-It's better to find all the bugs now instead of later (in production), that's why you have to build your tests trying to **break you functions**.
+It's better to find all the bugs now instead of later (in production), that's why you have to build your tests trying to **break your functions**.
 Instead of testing the ideal scenario try thinking about weird possible inputs you can pass to you function.
 
 ## Planning your tests
 
 The only way to make sure your `isUpperCase` function works is to try every possible input:
 
-1. What happens if you pass a uppercase word?
+1. What happens if you pass an uppercase word?
 2. What happens if you pass a lowercase word?
 3. What happens if you pass a mixed (uppercase and lowercase) word?
-4. What happens if you pass a number instead of string?
-5. What happens if you pass a boolean instead of string?
+4. What happens if you pass a number instead of a string?
+5. What happens if you pass a boolean instead of a string?
 
 ![unit test scenarios](../../assets/images/unit-test-scenarios.png)
 

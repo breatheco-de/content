@@ -59,7 +59,7 @@ El índice siempre debe comenzar en cero (0). Eso significa que una lista de 2 e
 ```python
     print(myList[0])  # Esto imprimirá el 1er elemento en la consola.
     aux = myList[5]
-    print(aux); # Esto imprimirá el 4to elemento en la consola.
+    print(aux); # Esto imprimirá el 6to elemento en la consola.
     print(myList[myList.length-1]);  #vEsto imprimirá el último elemento en la consola.
 ```
 
