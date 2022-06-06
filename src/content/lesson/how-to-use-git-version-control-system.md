@@ -115,7 +115,7 @@ To create a commit, you will need to do two things:
 
 + **Call `git commit` to create the commit object.**  The new commit object will have the current HEAD as its parent (after the commit is completed, HEAD will point to the new commit object).
   
-Say you create three commits this way…your repository will look like this:
+Say you create three commits this way… your repository will look like this:
 
 ![how to use git](../../assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png)
 
@@ -230,9 +230,9 @@ To share work among developers, GIT uses a **distributed model** of version cont
 
 Say you and your friend wants to work on the same project.  Your friend already has done some work on it.  There are three tasks you need to perform to figure out how to do so:
 
-+ Get a copy of your friend’s up-to-date repository (git clone).
-+ Get the changes your friend makes into your own repository (git pull).
-+ Let your friend know about changes you made (git push).
+1. Get a copy of your friend’s up-to-date repository (git clone).
+2. Get the changes your friend makes into your own repository (git pull).
+3. Let your friend know about changes you made (git push).
 
 ## Remote Specification
 
