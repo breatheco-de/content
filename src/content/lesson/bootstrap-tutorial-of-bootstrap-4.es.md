@@ -213,7 +213,7 @@ Aquí hay un ejemplo de como puede verse un sitio web con una "Card":
 
 #### El Modal
 
-Todo el mundo odia el modal, es dmuy molesto, ¡siempre pregunta si te quieres incribir a una revista! 🙂
+Todo el mundo odia el modal, es muy molesto, ¡siempre pregunta si te quieres incribir a una revista! 🙂
 
 Así es como se ve modal por defecto con Bootstrap.
 
