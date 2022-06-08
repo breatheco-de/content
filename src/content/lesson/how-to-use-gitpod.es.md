@@ -79,7 +79,7 @@ Cada computadora tiene un terminal, y lo utilizas para hacer prácticamente todo
 
 Aún no requieres aprender los comandos del terminal, pero [te recomendamos leer esta lección](https://content.breatheco.de/en/lesson/the-command-line-the-terminal), para que te familiarices y conozcas sus funciones y limitantes.
 
-!Comando del terminal](../../assets/images/terminal-command.png?raw=true)
+!Comando del terminal](../../assets/images/terminal-command.png)
 
 ¡Eso es todo! ¡Es hora de que comiences a usar Gitpod!
 
