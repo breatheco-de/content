@@ -28,7 +28,7 @@ Every API is comprised of 3 main components:   (1) The functions/methods that yo
 
 |**Functions/Methods:**   |**Communication format**   |
 |:------------------------|:--------------------------|
-|`python>Make a call`<br>`python>Hangup a call`<br>`python>Talk to the operator`<br>`python>Dial something on the keypad`    |Noise (sounds)!  There is a sound for everything (even on modern phones).  You hear a tone when you are about to make a call, when pressing any key, etc.  The phone system listens to the changes of the tone of the noise.     |
+|`Make a call`<br>`Hangup a call`<br>`Talk to the operator`<br>`Dial something on the keypad`    |Noise (sounds)!  There is a sound for everything (even on modern phones).  You hear a tone when you are about to make a call, when pressing any key, etc.  The phone system listens to the changes of the tone of the noise.     |
 
 ### What about a Web Application?
 
