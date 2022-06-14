@@ -56,18 +56,18 @@ REST works over HTTP – that means that everything is text based.  It uses the 
 
 The [HTTP status codes](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) provide metadata in the response to the state of the requested resources.  They are part of what makes the Web a platform for building distributed systems.  They are divided into the following categories:
 
-+ `python>1xx` – Metadata
-+ `python>2xx` – Everything is fine
-+ `python>3xx` – Redirection
-+ `python>4xx` – Client did something wrong
-+ `python>5xx` – Server did something wrong
++ `1xx` – Metadata
++ `2xx` – Everything is fine
++ `3xx` – Redirection
++ `4xx` – Client did something wrong
++ `5xx` – Server did something wrong
 
 ### URIs (Uniform Resource Identifiers)
 
 URIs differentiate one resource from another.  To access and manipulate a resource, it needs to have at least one address.
 
-They are composed of a `python>protocol` + `python>host` + `python>path`.
-E.g: `python>https://api.uber.com/v1.2/products`
+They are composed of a `protocol` + `host` + `path`.
+E.g: `https://api.uber.com/v1.2/products`
 
 Clients should not be coupled to particular resource URIs as they can be changed at the server’s discretion.  This is where hypermedia has the greatest advantages, as it offers a way to decouple clients from specific URIs and add semantics to the application protocol.
 
