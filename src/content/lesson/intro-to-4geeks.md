@@ -57,7 +57,7 @@ We know how to train you: we have done it over and over again, but we'll train i
 
 1. **Follow the method!** How can you know if it works if you don't try it properly? Do the homework BEFORE coming to class (flipped classroom), follow the syllabus in the recommended order, do the small exercises before jumping to the projects, come to every class, don't read books that will slow you down, etc.
 
-2. **Ask Why?** There is only so much we can say, we need you raise your concerns in a private way immediately the moment you start double guessing our methods, we do everything for a reason and I'm confident that we are going to be able to explain "the why".
+2. **Ask Why?** There is only so much we can say, we need you to raise your concerns in a private way immediately the moment you start double guessing our methods, we do everything for a reason and I'm confident that we are going to be able to explain "the why".
 
 3. **Humble yourself:** There are lots of smart students that have successfully completed the course following the method, some of them work at Google, Amazon and other big all around the world companies. Please be humble enough to try and follow the course as it is. And discuss any ways of improvement with us, we are also humble enough to be open to try things that may work.
 
