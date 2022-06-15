@@ -32,7 +32,7 @@ Cada API consta de 3 componentes principales:
 
 |**Funciones/Métodos:**   |**Formato de Comunicación**   |
 |:------------------------|:--------------------------|
-|`python>Haz una llamada`<br>`python>Cuelga una llamada`<br>`python>Hablar con el operador`<br>`python>Marca algo en el teclado`    |Ruido (sonidos)!  Hay un sonido para todo (incluso en los teléfonos modernos). Escucharás un tono cuando realices una llamada, cuando presionas una tecla, etc. El sistema del teléfono escucha los cambios de tono del sonido.     |
+|`Haz una llamada`<br>`Cuelga una llamada`<br>`Hablar con el operador`<br>`Marca algo en el teclado`    |Ruido (sonidos)!  Hay un sonido para todo (incluso en los teléfonos modernos). Escucharás un tono cuando realices una llamada, cuando presionas una tecla, etc. El sistema del teléfono escucha los cambios de tono del sonido.     |
 
 ### ¿Qué pasa con una Aplicación Web?
 
@@ -60,18 +60,18 @@ REST funciona a través de HTTP - lo que significa que todo está basado en text
 
 Los [códigos de estado HTTP](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) entregan metadatos en la respuesta al estado de los recursos solicitados. Son parte de lo que hace de la Web una plataforma para construir sistemas distribuidos. Se dividen en las siguientes categorías:
 
-+ `python>1xx` – Metadata
-+ `python>2xx` – Todo esta bien
-+ `python>3xx` – Redirección
-+ `python>4xx` – Cliente hizo algo mal
-+ `python>5xx` – Servidor hizo algo mal
++ `1xx` – Metadata
++ `2xx` – Todo esta bien
++ `3xx` – Redirección
++ `4xx` – Cliente hizo algo mal
++ `5xx` – Servidor hizo algo mal
 
 ### URIs (Identificadores de Recursos Uniformes )
 
 Los URI diferencian un recurso de otro. Para acceder y manipular un recurso, debes tener al menos una dirección.
 
-Ellos estan compuestos por un `python>protocolo` + `python>host` + `python>path`.
-Ejemplo: `python>https://api.uber.com/v1.2/products`
+Ellos estan compuestos por un `protocolo` + `host` + `path`.
+Ejemplo: `https://api.uber.com/v1.2/products`
 
 Los clientes no deben estar acoplados a una URI de recursos particulares, ya que pueden cambiarse a discreción del servidor. Aquí es donde la hipermedia tiene las mayores ventajas, ya que ofrece una forma de desacoplar a los clientes de URIs específicas y agregar semántica al protocolo de la aplicación.
 

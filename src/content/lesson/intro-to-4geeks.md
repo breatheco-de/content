@@ -1,6 +1,6 @@
 ---
 title: "Introduction to 4Geeks Academy"
-subtitle: "I hope you read this entire article, this reading summarizes in 8 min the recipe to take full advantage of the academy. The most effective way!"
+subtitle: "I hope you read this entire article, this reading summarizes in 8 minutes the recipe to take full advantage of the academy. The most effective way!"
 textColor: "white"
 status: "published"
 tags: ["best practices"]
@@ -33,7 +33,7 @@ During the past years we have identified specific reasons that cause students to
 
 ![Impostor Syndrome](../../assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png)
 
-At some point in our lives (some more than others) we all have thought we were the most stupid person in a room, if we keep thinking that for a long time and we don't get comfortable on any discipline we may even think that we are not that smart. You are a part of this school, we do not accept people that we don't think are smart enough to make a living as a developer, you need to believe that, especially on tough times!
+At some point in our lives (some more than others) we all have thought we were the most stupid person in a room. If we kept thinking like that for a long time and we don't get comfortable on any discipline, we may even think that we are not that smart. You are a part of this school, we do not accept people that we don't think are smart enough to make a living as a developer. You need to believe that, especially on tough times!
 
 > If a particular exercise or project is hard, instead of thinking you are not good at this, look for new ways of absorbing the content. Talk to a mentor and we'll give you exactly what you need.
 
@@ -41,7 +41,7 @@ Every average person can learn to code to a point of being useful, coding gets m
 
 ##### 📝 Recipe to avoid losing confidence
 
-1. **Avoid being stuck too long:** Coding is tricky because you may be very close to solving a problem but you are stuck and you don't realize it. Or maybe you don't know how to start a problem but a quick 5 min talk with a mentor will clear the way. You need to ask for help no longer than 15 minutes after trying on your own.
+1. **Avoid being stuck too long:** Coding is tricky because you may be very close to solving a problem but you are stuck and you don't realize it. Or maybe you don't know how to start solving problem, but a quick 5 min talk with a mentor will clear the way. You need to ask for help no longer than 15 minutes after trying on your own.
 
 2. **Talk to other students:** You may think you are the only one that does not understand, but if you talk to a couple of class-mates you'll see they are just like you, it will give you the confidence to ask any questions.
 
@@ -57,7 +57,7 @@ We know how to train you: we have done it over and over again, but we'll train i
 
 1. **Follow the method!** How can you know if it works if you don't try it properly? Do the homework BEFORE coming to class (flipped classroom), follow the syllabus in the recommended order, do the small exercises before jumping to the projects, come to every class, don't read books that will slow you down, etc.
 
-2. **Ask Why?** There is only so much we can say, we need you raise your concerns in a private way immediately the moment you start double guessing our methods, we do everything for a reason and I'm confident that we are going to be able to explain "the why".
+2. **Ask Why?** There is only so much we can say, we need you to raise your concerns in a private way immediately the moment you start double guessing our methods, we do everything for a reason and I'm confident that we are going to be able to explain "the why".
 
 3. **Humble yourself:** There are lots of smart students that have successfully completed the course following the method, some of them work at Google, Amazon and other big all around the world companies. Please be humble enough to try and follow the course as it is. And discuss any ways of improvement with us, we are also humble enough to be open to try things that may work.
 
@@ -65,7 +65,7 @@ We know how to train you: we have done it over and over again, but we'll train i
 
 This is a boot-camp, it does not matter if you do it on a full-time or part-time way, you need to set the boot-camp mindset and work every day like it's the last. The Human brain absorbs 80% more if we feel challenged and scared, if you idle for a day the brain relaxes and [it's proven](https://www.youtube.com/watch?v=h5PLO4XAXhs) that you usually forget 60% of recently acquired information in just 1 day unless you use it again and again for a sequence of 7 days (at least).  
 
-These are not small numbers, 60% in a day and 90% if you don't practice for a week. You are wasting your time and money if you don't take the course serious! 
+These are not small numbers, 60% in a day and 90% if you don't practice for a week. You are wasting your time and money if you don't take the course seriously! 
 
 ##### 📝 Recipe to avoid inactivity
 
