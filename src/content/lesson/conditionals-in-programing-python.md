@@ -39,7 +39,7 @@ else:
 ## What is a logical expression in Python?
 
 Logical expressions let you conditionally skip a series of lines of your code.
-The best wat to understand them, is to think of them like questions you can ask to the computer about your variables, for example:
+The best way to understand them, is to think of them like questions you can ask to the computer about your variables, for example:
 
 1. `if user_age > 21:`
 2. `if day == "tuesday"`
