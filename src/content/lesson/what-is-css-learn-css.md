@@ -89,7 +89,7 @@ tag-selector
 ## Wait… What is a "Selector"??
 
 
-A selector is a way to refer or identify one or more HTML elements. For example, if you want to change the color of your web to red, you must do it as it follows:
+A selector is a way to refer or identify one or more HTML elements. For example, if you want to change the color of your website to red, you must do it as it follows:
 
 ```css
 body {

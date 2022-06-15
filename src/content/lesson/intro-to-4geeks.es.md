@@ -14,7 +14,7 @@ cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 
 ## Lo que ya sabes
 
-Estas aquí para aprender a desarrollar tus habilidades para codificar hasta un nivel en el puedas: 1️⃣ Conseguir trabajo, 2️⃣ Crear tu propia empresa y/o 3️⃣ Adaptarte mejor al nuevo mundo. 
+Estas aquí para aprender a desarrollar tus habilidades para codificar hasta un nivel en el que puedas: 1️⃣ Conseguir trabajo, 2️⃣ Crear tu propia empresa y/o 3️⃣ Adaptarte mejor al nuevo mundo. 
 
 ## Lo que ya sabías
 
@@ -40,7 +40,7 @@ Cualquier persona en general puede aprender a programar, la programación se vue
 
 ##### 📝 Receta para no perder la confianza en ti
 
-1. **Evita estar atascado durante mucho tiempo:** Codificar puede complicarse porque puedes estar a punto de resolver el problema y quedarte atascado sin ver la respuesta. Quizás no sepas como empezar a resolver un problema y una conversación de 5 minutos con mentor te aclarará la mente.
+1. **Evita estar atascado durante mucho tiempo:** Codificar puede complicarse porque puedes estar a punto de resolver el problema y quedarte atascado sin ver la respuesta. Quizás no sepas como empezar a resolver un problema y una conversación de 5 minutos con un mentor te aclarará la mente.
 
 2. **Habla con otros estudiantes:** Puede que pienses que eres el único que no entiende, pero si hablas con otros compañeros verás que no eres sólo tu y te dará confianza para hacer preguntas.
 
@@ -64,7 +64,7 @@ Sabemos como enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseñar
 
 Este es un campo de entrenamiento, no importa si lo haces full-time o part-time, debes tener una mentalidad de entrenamiento y trabajar cada día como si fuera el último. El cerebro humano absorbe 80% más cuando se siente desafiado y asustado, si descansas un día el cerebro se relaja y [está demostrado](https://www.youtube.com/watch?v=h5PLO4XAXhs) que usualmente se olvida del 60% de la información recientemente adquirida a menos que la uses, de forma repetida y constante durante un periodo de 7 días (por lo menos).
 
-Estos números no son pequeños, 60% en un día y 90% si no practicas en una semana ¡Estás perdiendo tu tiempo y dinero si no te lo tomas en serio!
+Estos números no son pequeños, 60% en un día y 90% si no prácticas en una semana ¡Estás perdiendo tu tiempo y dinero si no te lo tomas en serio!
 
 ##### 📝 Receta para evitar la inactividad
 
@@ -74,7 +74,7 @@ Estos números no son pequeños, 60% en un día y 90% si no practicas en una sem
 
 3. **No faltes a clases:** Que faltes a clases es nuestra mayor preocupación, estamos muy preocupados de la asistencia porque ha demostrado ser el disuasivo #1 para tu motivación, faltar a dos clases seguidas genera la tormenta perfecta. Necesitarás mentoría uno a uno y doblar las horas de práctica esa semana para evitar retrasarte.
 
-4. **Involúcrate:** Asistir a clases no es suficiente, los seres humanos son emocionales, integran mejor la información cuando estás comprometido, emocional, asistiendo a eventos y estudiando en grupos, hablando públicamente al respecto, etc.
+4. **Involúcrate:** Asistir a clases no es suficiente, los seres humanos son emocionales, integran mejor la información cuando están comprometidos emocionalmete, asistiendo a eventos y estudiando en grupos, hablando públicamente al respecto, etc.
 
 ## ¿Qué sigue?
 

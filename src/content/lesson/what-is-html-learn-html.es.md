@@ -19,7 +19,7 @@ Todas las páginas web tienen HTML, es la estructura base de TODO. Imagínatelo 
 
 HTML te permite dividir la información del sitio web en partes: header, title, content, footer, subtitle, etc. Luego, con CSS, podrás hacer la página hermosa y con JavaScript la harás interactiva.
 
-Originalmente, lo navegadores solo podían interpretar HTML, las páginas web eran sencillas y no se usaba CSS o JavaScript.  Un sitio web era un simple documento de texto plano con los elementos típicos que cualquier documento de Word tiene: títulos, listas de viñetas, párrafos, etc.
+Originalmente, los navegadores solo podían interpretar HTML, las páginas web eran sencillas y no se usaba CSS o JavaScript.  Un sitio web era un simple documento de texto plano con los elementos típicos que cualquier documento de Word tiene: títulos, listas de viñetas, párrafos, etc.
 
 ![qué es html](../../assets/images/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc.png)
 
