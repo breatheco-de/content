@@ -21,7 +21,7 @@ Estas aquí para aprender a desarrollar tus habilidades para codificar hasta un 
 También estas aquí porque necesitas ayuda, no sólo técnica sino también espiritual. Digo esto de la manera más pragmática posible.
 
 > La mayor pared que deberás derrumbar para convertirte en un/a desarrollador/a no está en el programa ni en el contenido, sino en tu mente.
-Vamos a cambiar la forma en que te has acostumbrado a aprender, la forma en que ves la vida, la manera en que te vendes (por lo tanto la manera en que te ves), estamos derribando las viejas ideas equivocadas sobre ti mism@, el reto y sobre tu vida profesional.
+Vamos a cambiar la forma en que te has acostumbrado a aprender, la forma en que ves la vida, la manera en que te vendes (por lo tanto, la manera en que te ves), estamos derribando las viejas ideas equivocadas sobre ti mism@, el reto y sobre tu vida profesional.
 
 ### Estamos aquí para derribar 3 💻 Paredes respecto al Código
 
@@ -50,7 +50,7 @@ Cualquier persona en general puede aprender a programar, la programación se vue
 
 Durante toda tu vida has aprendido de la misma manera, el sistema de educación te ha puesto en una caja y te ha enseñado a aprender lentamente limitando tu habilidad para adaptarte al nuevo mundo de profesionales que aprenden con rapidez y que son autodidactas.
 
-Sabemos cómo enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseñaremos de una manera tan diferente que puede no gustarte al principio, es normal que tu mente quiera volver al aprendizaje "lento pero seguro", sin tener que sentirte incómodo o constantemente desafiado por nuestro sistema.
+Sabemos como enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseñaremos de una manera tan diferente que puede no gustarte al principio, es normal que tu mente quiera volver al aprendizaje "lento pero seguro", sin tener que sentirte incómodo o constantemente desafiado por nuestro sistema.
 
 ##### 📝 Receta para evitar perder la confianza en nuestros métodos  
 
