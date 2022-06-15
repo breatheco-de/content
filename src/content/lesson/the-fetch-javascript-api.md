@@ -123,17 +123,17 @@ Next we update our code to include it.
 Simple. Think of it in separate steps.
 
 1) Fetch the resource at the given path.
-(**Fetch** gets the path to the resource and returns a **promise** that will resolve to a response object.)  
+(**Fetch** gets the path to the resource and returns a **promise** that will resolve to a response object).  
   
 2) Then validate the response.
-(This checks to see if the response is valid (200s). If not, skip to step 5.)
+(This checks to see if the response is valid (200s). If not, skip to step 5).
 
-3) Read the response as JSON
+3) Read the response as JSON.
 
 4) Log the result
-(The result being the JSON data received from the body of the response.)
+(The result being the JSON data received from the body of the response).
 
-5) Catch any errors
+5) Catch any errors.
 
 **Now that you have seen the basics, we can compose more advanced fetches. **
 
