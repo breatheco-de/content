@@ -128,7 +128,7 @@ We are going to be building a REST Based API, but don’t be afraid of the name 
 
 + Finally, the APIView should return a Response object that contains the JSON Object prepared by the serializer.
 
-<before-after width="900px"
+<BeforeAfter width="900px"
     before="../../assets/images/c7e96be7-a7b6-4b6d-83a2-535b22fdc3b0.png" after="../../assets/images/88f6b44f-01dc-4a13-ba1f-fbab5280d510.png" />
 
 ### urls.py: The URL Dispatcher
