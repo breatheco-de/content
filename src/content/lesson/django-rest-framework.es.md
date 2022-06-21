@@ -25,7 +25,7 @@ Django es LA HERRAMIENTA para el desarrollo web. No es sólo una librería - son
 
 Al igual que cualquier otro marco, Django propone una arquitectura específica para construir tu software y tenemos que aprender, adoptar y dominar todo esto si queremos convertirnos en Desarrolladores Senior Full Stack (usando Django):
 
-<before-after
+<BeforeAfter
     before="../../assets/images/61212ca7-cde0-43c1-8267-a1101a95da2c.png" after="../../assets/images/80444105-0d6a-4a93-beb1-090b84b03376.png" />
 
 El primer concepto a aprender es la diferencia entre sitio web v/s App.  Un buen Ejemplo puede ser BreatheCo.de

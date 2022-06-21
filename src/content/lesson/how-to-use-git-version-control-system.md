@@ -63,7 +63,7 @@ A **commit object** contains three things:
 + References to **parent commit objects.**
 + An **SHA1 name:** a 40-character string that uniquely identifies the commit object.  The name is composed of a hash of relevant aspects of the commit; this way identical commits will always have the same name.
 
-![how to use git](https://breatheco.de/wp-content/uploads/2017/03/commit-object.png)
+![how to use git](../../assets/images/commit-object2.png?raw=true)
 
 The parent commit objects are those commits that came first.  Generally a commit object will have one parent commit.  One generally takes a project in a given state (commit), makes a few changes, and saves the new state (commit) of the project.
 
@@ -90,7 +90,7 @@ Example: Let’s say that you are starting to develop the "Login" feature/functi
 
 ![how to use git](../../assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif)
 
-> :point_up:**Note on Terminology:** The terms "branch" and "head" are nearly synonymous in GIT.  Every branch is represented by one head, and every head represents one branch.  Sometimes, "branch" will be used to refer to a head and the entire history of commits preceding that head, whereas "head" will be used to refer exclusively to a single commit object (the most recent commit in the branch).
+> :point_up:**Note on Terminology:** The terms "branch" and "head" are nearly synonyms in GIT.  Every branch is represented by one head, and every head represents one branch.  Sometimes, "branch" will be used to refer to a head and the entire history of commits preceding that head, whereas "head" will be used to refer exclusively to a single commit object (the most recent commit in the branch).
 
  ## Starting a New Repo** `git init`
 
@@ -115,7 +115,7 @@ To create a commit, you will need to do two things:
 
 + **Call `git commit` to create the commit object.**  The new commit object will have the current HEAD as its parent (after the commit is completed, HEAD will point to the new commit object).
   
-Say you create three commits this way…your repository will look like this:
+Say you create three commits this way… your repository will look like this:
 
 ![how to use git](../../assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png)
 
@@ -230,9 +230,9 @@ To share work among developers, GIT uses a **distributed model** of version cont
 
 Say you and your friend wants to work on the same project.  Your friend already has done some work on it.  There are three tasks you need to perform to figure out how to do so:
 
-+ Get a copy of your friend’s up-to-date repository (git clone).
-+ Get the changes your friend makes into your own repository (git pull).
-+ Let your friend know about changes you made (git push).
+1. Get a copy of your friend’s up-to-date repository (git clone).
+2. Get the changes your friend makes into your own repository (git pull).
+3. Let your friend know about changes you made (git push).
 
 ## Remote Specification
 

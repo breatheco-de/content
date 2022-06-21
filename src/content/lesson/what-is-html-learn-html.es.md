@@ -19,7 +19,7 @@ Todas las páginas web tienen HTML, es la estructura base de TODO. Imagínatelo 
 
 HTML te permite dividir la información del sitio web en partes: header, title, content, footer, subtitle, etc. Luego, con CSS, podrás hacer la página hermosa y con JavaScript la harás interactiva.
 
-Originalmente, lo navegadores solo podían interpretar HTML, las páginas web eran sencillas y no se usaba CSS o JavaScript.  Un sitio web era un simple documento de texto plano con los elementos típicos que cualquier documento de Word tiene: títulos, listas de viñetas, párrafos, etc.
+Originalmente, los navegadores solo podían interpretar HTML, las páginas web eran sencillas y no se usaba CSS o JavaScript.  Un sitio web era un simple documento de texto plano con los elementos típicos que cualquier documento de Word tiene: títulos, listas de viñetas, párrafos, etc.
 
 ![qué es html](../../assets/images/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc.png)
 
@@ -65,9 +65,9 @@ Por último, es importante que una tag pueda tener una o más tags en su conteni
  <h1>Artículos <i>Electrónicos</i> - Tags</h1>
 ```
 
- ## Espacios vacíos y saltos de linea
+ ## Espacios vacíos y saltos de línea
 
-Los espacios vacíos (o en blanco) y los saltos de línea son omitidos por el navegador al momento de interpretar el texto. Si escribimos cinco espacios en blanco seguidos, o uno solo, el navegador lo interpretará de la misma manera. Si queremos un salto de linea, debemos usar la etiqueta `<br>`.  Si queremos más "espacio", necesitamos insertar `&nbsp;` por cada espacio en blanco (sí, es raro, pero es así).
+Los espacios vacíos (o en blanco) y los saltos de línea son omitidos por el navegador al momento de interpretar el texto. Si escribimos cinco espacios en blanco seguidos, o uno solo, el navegador lo interpretará de la misma manera. Si queremos un salto de línea, debemos usar la etiqueta `<br>`.  Si queremos más "espacio", necesitamos insertar `&nbsp;` por cada espacio en blanco (sí, es raro, pero es así).
 
 **Estas tres alternativas se van a ver iguales (espacios y saltos de lineas van a ser ignorados):**
 
@@ -142,7 +142,7 @@ En el caso de HTML, `<head>` puede contener los siguientes tags (entre otros men
 
 Bien, ahora que conocimos la estructura general y necesaria de la página, vamos a revisar cuáles son los tags que podemos y debemos utilizar para definir el contenido de la misma.
 
-Recuerda -por quinceava vez- que una página web es un… ¡documento de texto! Así es. si has pensado en la respuesta antes de leerla… ¡estás entendiendo! y si no es así, pues no te preocupes, que no conozco a nadie que haya entendido HTML y CSS tan rápidamente ;).
+Recuerda -por quinceava vez- que una página web es un… ¡documento de texto! Así es. Si has pensado en la respuesta antes de leerla… ¡estás entendiendo! y si no es así, pues no te preocupes, que no conozco a nadie que haya entendido HTML y CSS tan rápidamente ;).
 
 Veamos ahora en qué se compara un website con un documento de Word:
 

@@ -26,7 +26,7 @@ function multiply(a, b) {
 + **Debe devolver algo.**  De forma predeterminada, en javascript, todas las funciones devuelven "undefined", pero debes reemplazarlo y siempre devolver algo útil. En este ejemplo, queremos devolver el resultado de una multiplicación de a & b.
 + **Las funciones pueden tener parámetros.**  Un "parámetro" es una variable que la función puede recibir al principio de su código (como a y b en nuestro ejemplo).
 
-La idea es tener una libreria con cientos de funciones y usarlas como nos plazca, declaras todas tus funciones y luego empiezas a usarlas y reutilizarlas todo el tiempo.
+La idea es tener una librería con cientos de funciones y usarlas como nos plazca, declaras todas tus funciones y luego empiezas a usarlas y reutilizarlas todo el tiempo.
 
 ```
 let resultOfMultiplication = multiply(2,4);
