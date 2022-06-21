@@ -78,7 +78,7 @@ El primer párrafo de la lista está precedido por el div, por lo que no se modi
 }
 ```
 
-El CSS anterior convierte a todos los elementos dentro de un div rojo específico - esto incluye elementos como enlaces que tienen un color predeterminado establecido a otra cosa y no se verían afectados simplemente por apuntar al div.
+El CSS anterior convierte a todos los elementos dentro de un div rojo específico, esto incluye elementos como enlaces que tienen un color predeterminado establecido a otra cosa y no se verían afectados simplemente por apuntar al div.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/79254pm6/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -103,7 +103,7 @@ Puedes llevar esto tan lejos como quieras - los siguientes objetivos son los "ni
 ```css
 a[href='http://4geeksacademy.com/'] {color: blue;}
 ```
-Si queremos cambiar el color de fuente del enlace "Design Shack", podríamos usar: pseudo selectores.  Sin embargo, hacerlo supondría que la lista se mantenga en ese orden y que el soporte del navegador no es el mejor.  En su lugar, lo que podemos hacer es usar un selector de atributos para dirigirnos al "href" específico en el que estamos interesados.  
+Si queremos cambiar el color de fuente del enlace "Design Shack", podríamos usar: pseudo selectores. Sin embargo, hacerlo supondría que la lista se mantenga en ese orden y que el soporte del navegador no es el mejor. En su lugar, lo que podemos hacer es usar un selector de atributos para dirigirnos al "href" específico en el que estamos interesados.  
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -115,7 +115,7 @@ Si queremos cambiar el color de fuente del enlace "Design Shack", podríamos usa
 ```css
 div[id*='section'] {color: red;}
 ```
-El siguiente código apunta a cualquier div con la palabra "section" en el título.  Puede ser la "section3" o la "section-Four", no importa.  Mientras contenga la cadena indicada, se aplicarán los estilos posteriores.
+El siguiente código apunta a cualquier div con la palabra "section" en el título. Puede ser la "section3" o la "section-Four", no importa. Mientras contenga la cadena indicada, se aplicarán los estilos posteriores.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
