@@ -12,11 +12,11 @@ tags: ["javascript"]
 ## But, What is coding?
 
 
-**Coding is not HTML, CSS or Position and Display…** Those languages were not designed for developers, they are just the only way we have to render stuff in a browser.
+**Coding is not HTML, CSS or Position and Display…** Those languages were not designed for developers, they are just the way we have to render stuff in a browser.
 
 **Coding is making *the computer* "obey"…**
 
-Everybody uses computers for different reasons: some computers are created to help people in their office (like personal computers), others to keep a room in a specific temperature (like [the NEST](https://nest.com/es/)), others are made to walk on Mars and so many more things.
+Everybody uses computers for different reasons: some computers are created to help people in their office (like personal computers), others to keep a room in a specific temperature (like [the NEST](https://nest.com/es/)), others are made to walk on Mars and so many more tasks.
 
 No matter what the computer is made for, the very base of its existence is the same: to follow commands.  In this chapter you will learn 5 basic things you’ll need to understand any modern computer through code.
 
@@ -37,7 +37,7 @@ var age = 24;
 
 ![what is javascript](../../assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
 
-With virtually any programming language you can create as many variables as you want or need.  To start you have to **declare that variable’s name** using the term: *var* followed by a _unique_ name (relative to the document-project).
+With virtually any programming language you can create as many variables as you want or need.  To start, you have to **declare that variable’s name** using the term: *var* followed by a _unique_ name (relative to the document-project).
 
 The **variable name** is the most effective way we have to describe the variable content, so use it wisely.  It is important to choose a name that clearly tells you (and other coders) about the data that is being stored in the variable.  If we choose a bad or an ambiguous name, our code will be almost impossible to understand, ergo it becomes unusable.  For example, let’s say we change the name of our "age" variable to `a`, that would be:
 
@@ -67,7 +67,7 @@ var b ;
 ### `var` vs.  `let`  vs. `const`
 
 
-As we learned above, we use the keyword `var` to declare a variable.  There are two other keywords that we can also use to declare variables: ***const & let*** .  The main differences between these types of variables have to do with scope.
+As we learned above, we use the keyword `var` to declare a variable.  There are two other keywords that we can also use to declare variables: ***const & let*** .  The main difference between these types of variables have to do with scope.
 
 ***Const***:  This keyword is used when the value stays constant throughout the life of the script.  The value of the variable declared with this keyword can never be changed.  If you try to change it, it will result in an error.
 
@@ -77,7 +77,7 @@ As we learned above, we use the keyword `var` to declare a variable.  There are 
 
 > :link: [Read more about `*var*`, `*let*`, and `*const*`](http://wesbos.com/let-vs-const/)
 
-Variable values are subject to change over time.  To retrieve a variable value you can print the value on the screen at any time.  Each language has its own methods to print; this is how you do it in JavaScript:
+Variable values are subject to change over time.  To retrieve a variable's value you can print the value on the screen at any time.  Each language has its own methods to print; this is how you do it in JavaScript:
 
 <iframe src="https://repl.it/F0R2/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
