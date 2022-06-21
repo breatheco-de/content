@@ -142,7 +142,7 @@ En el caso de HTML, `<head>` puede contener los siguientes tags (entre otros men
 
 Bien, ahora que conocimos la estructura general y necesaria de la página, vamos a revisar cuáles son los tags que podemos y debemos utilizar para definir el contenido de la misma.
 
-Recuerda -por quinceava vez- que una página web es un… ¡documento de texto! Así es. si has pensado en la respuesta antes de leerla… ¡estás entendiendo! y si no es así, pues no te preocupes, que no conozco a nadie que haya entendido HTML y CSS tan rápidamente ;).
+Recuerda -por quinceava vez- que una página web es un… ¡documento de texto! Así es. Si has pensado en la respuesta antes de leerla… ¡estás entendiendo! y si no es así, pues no te preocupes, que no conozco a nadie que haya entendido HTML y CSS tan rápidamente ;).
 
 Veamos ahora en qué se compara un website con un documento de Word:
 
