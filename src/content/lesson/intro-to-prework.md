@@ -7,7 +7,6 @@ date: "2020-10-19T16:36:31+00:00"
 tags: ["prework"]
 status: "published"
 
----
 
 ## About Coding 
 
