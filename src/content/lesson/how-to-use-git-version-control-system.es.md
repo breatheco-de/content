@@ -282,7 +282,7 @@ Digamos que tienes una rama en tu repositorio local llamada "nueva rama". Esa ra
 git push origin [new-branch]
 ```
 
-Si otra persona TAMBIÉN ha presionado algunos cambios a esa rama, GIT rechazará el push y te dirá que primero descargues esos cambios en tu repositorio local antes de continuar.
+Si otra persona TAMBIÉN ha "pusheado" (usando `git push`) algunos cambios a esa rama, GIT rechazará el push y te dirá que primero descargues esos cambios en tu repositorio local antes de continuar.
 
 Deberás (1) descargar los archivos, (2) combinarlos en tu código y (3) resolver cualquier conflicto que pueda haber aparecido.
 
