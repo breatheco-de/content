@@ -35,7 +35,7 @@ let resultOfMultiplication = multiply(2,4);
 
 ## Pero, ¿por qué usar Funciones en lugar de simplemente hacer todo en una gran pedazo de código?
 
-La codificación es muy abstracta y sucede mucho que no tienes idea de lo que escribiste ayer. Antes de que existieran las funciones, los algoritmos eran esta enorme serie interminable de líneas de código donde los desarrolladores tenían dificultades y se perderían. Es difícil para tu cerebro seguir un procedimiento / algoritmo de gran longitud; mientras más líneas de código, más abstracto se vuelve.
+La codificación es muy abstracta y sucede mucho que no tienes idea de lo que escribiste ayer. Antes de que existieran las funciones, los algoritmos eran esta enorme serie interminable de líneas de código donde los desarrolladores tenían dificultades y se perdían. Es difícil para tu cerebro seguir un procedimiento / algoritmo de gran longitud; mientras más líneas de código, más abstracto se vuelve.
 
 Al utilizar funciones tienes las siguientes ventajas:
 
