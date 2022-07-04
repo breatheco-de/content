@@ -61,7 +61,7 @@ A **commit object** contains three things:
 
 + A set of **files**, reflecting the state of a project at a given point in time.
 + References to **parent commit objects.**
-+ An **SHA1 name:** a 40-character string that uniquely identifies the commit object.  The name is composed of a hash of relevant aspects of the commit; this way identical commits will always have the same name.
++ A **SHA1 name:** a 40-character string that uniquely identifies the commit object.  The name is composed of a hash of relevant aspects of the commit; this way identical commits will always have the same name.
 
 ![how to use git](../../assets/images/commit-object2.png?raw=true)
 
