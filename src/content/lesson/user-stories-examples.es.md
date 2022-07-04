@@ -4,7 +4,7 @@ subtitle: "Antes de avanzar hacia el desarrollo, necesitamos una estrategia (His
 cover_local: "../../assets/images/980ce2e0-b73e-4019-8e97-3510e3028e10.jpeg"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["user story"]
+tags: ["agile-methodologies", "scrum"]
 status: "published"
 
 ---
