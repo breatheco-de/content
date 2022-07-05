@@ -5,7 +5,7 @@ subtitle: "How to build your first resume as a software developer"
 cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
 textColor: "white"
 date: "2020-10-19T16:36:30+00:00"
-tags: []
+tags: ["resume-building"]
 status: "draft"
 
 ---
