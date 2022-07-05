@@ -2,7 +2,7 @@
 title: "Cómo instalar node y npm en un Mac (mojave)"
 subtitle: " Guìa no oficial para instalar node.js y npm en un mac (probada con versiòn MacOS mojave)"
 date: "2020-10-19T16:36:30+00:00"
-tags: ["node","npm","osx"]
+tags: ["node","npm","osx", "nvm"]
 authors: ["alesanchezr"]
 textColor: "white"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
