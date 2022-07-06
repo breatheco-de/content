@@ -7,7 +7,7 @@ textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
 authors: ["alesanchezr"]
 status: "published"
-tags: ["reactjs","javascript","react.js","react hooks","react useState","react useEffect"]
+tags: ["reactjs","javascript","front-end"]
 
 ---
 
