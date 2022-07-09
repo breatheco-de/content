@@ -39,14 +39,14 @@ This list of contents is just a draft, some can be deleted or more can be added.
 
 ### Tagging content:
 
-Contents can be tagged on the header of the markdown file; you can add as many tags as you want and later people will be able to search by tag.
+Contents can be tagged on the header of the markdown file; you can add as many tags as you want and then people will be able to search by tag.
 
 There are two types of tags: Technology and Category.
 
 
 ### Command Line Interface:
 
-A small command-line tool has been developed to help manage the lessons.
+A small command-line tool has been developed to help manage lessons.
 
 ```
 $ node ./src/utils/cli.js update_lesson --slug all --statusTo draft --statusFrom null
