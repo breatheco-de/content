@@ -96,7 +96,7 @@ Vamos a configurar el diseño (usando las clases de columnas xs, sm, md y lg) pa
 ## Estructura básica de Bootstrap 4
 
 
-Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web debe tener. Ahora solo debes agregar unas líneas en tu esqueleto para hacerlo compatible con Bootstrap:
+Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web debe tener. Ahora solo debes agregar unas líneas en tu esqueleto para hacerlo compatible con Bootstrap::
 
 ```html
 <!doctype html>
