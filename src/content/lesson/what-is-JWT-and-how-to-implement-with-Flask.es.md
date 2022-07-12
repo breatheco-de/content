@@ -147,7 +147,7 @@ const login = async (username, password) => {
      const resp = await fetch(`https://your_api.com/token`, { 
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ username: "joe", password: "1234" }) 
+          body: JSON.stringify({ username: username, password: password }) 
      })
 
      if(!resp.ok) throw Error("There was a problem in the login request")
