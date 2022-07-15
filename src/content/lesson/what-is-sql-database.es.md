@@ -70,7 +70,7 @@ El ejemplo perfecto es la base de datos de seguridad social, probablemente esta 
 
 **Una a muchos:**
 
-La base de datos de las Grandes Ligas en Baseball probablemente tiene una tabla llamada Jugadores (con la lista de todos los jugadores activos) y otra tabla llamada Equipos con la lista de todos los equipos activos. Ambas mesas están conectadas porque **un equipo tiene muchos jugadores, pero un jugador puede estar en un solo equipo.**
+La base de datos de las Grandes Ligas en Baseball probablemente tiene una tabla llamada Jugadores (con la lista de todos los jugadores activos) y otra tabla llamada Equipos con la lista de todos los equipos activos. Ambas tablas están conectadas porque **un equipo tiene muchos jugadores, pero un jugador puede estar en un solo equipo.**
 
 ![Bases de datos SQL](../../assets/images/374d53ac-092f-4f34-a6f1-76bfaa5bd676.png)
 
