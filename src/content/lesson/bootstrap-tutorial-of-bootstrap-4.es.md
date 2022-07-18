@@ -30,7 +30,7 @@ Los creadores de Bootstrap, replicaron el mismo concepto que tienen las `<tables
 
 ```html
 Esto es una fila: <div class="row">
-Esto es una columna: <div class"col–sm–x">
+Esto es una columna: <div class="col–sm–x">
 ```
 ![bootstrap tutorial](../../assets/images/3884f515-dd7a-48f2-b238-9e2ec26de02d.png)
 
