@@ -48,8 +48,8 @@ Vamos a repasar estas tags con más detalle:
 
 |**Nombre**   |**Etiqueta**   |**Descripción**   |
 |:----------|:-------------|:------------------|
-|Link       |link          |Tiene como finalidad enlazar a la página con hojas de estilos CSS. Para utilizarla debes especificar tres propiedades dentro de la etiqueta `pyton>rel="stylesheet" type="text/css"` y por último `pyton>href="with document route css"`<br>`pyton>link rel="stylesheet" type="text/css" href="theme.css">`   |
-|Style   |style   |Si no queremos o no podemos importar una hoja de estilo CSS, tenemos la posibilidad de definir estilos en el HEAD del documento HTML. Simplemente definimos el tag style y procedemos a escribir los estilos que queremos para las etiquetas.<br>`pyton><style>`<br>`pyton>h1 {color:red;}`<br>`pyton>p {color:blue;}`<br>`pyton></style>`   |
+|Link       |link          |Tiene como finalidad enlazar a la página con hojas de estilos CSS. Para utilizarla debes especificar tres propiedades dentro de la etiqueta `pyton>rel="stylesheet" type="text/css"` y por último `href="with document route css"`<br>`link rel="stylesheet" type="text/css" href="theme.css">`   |
+|Style   |style   |Si no queremos o no podemos importar una hoja de estilo CSS, tenemos la posibilidad de definir estilos en el HEAD del documento HTML. Simplemente definimos el tag style y procedemos a escribir los estilos que queremos para las etiquetas.<br>`<style>`<br>`h1 {color:red;}`<br>`p {color:blue;}`<br>`</style>`   |
 
 > :point_up: Asi como los documentos HTML terminan con la extensión .html, los documentos CSS (las hojas de estilo) terminan con la `extensión .css`.
 
@@ -132,7 +132,7 @@ En el siguiente ejemplo le estamos aplicando una clase "odd" a las celdas impare
 
 |**Selector**   |**Descripción**   |**Ejemplo**   |
 |:--------------|:-----------------|:-------------|
-|Tipo de Elemento (tag)   |Permite aplicar estilos a los links, títulos, etc. En el siguiente ejemplo cambiaremos el color de texto a todos los tag links `python><a>` de la página.   |`python>a{ color: #BDBDBD; }`   |
+|Tipo de Elemento (tag)   |Permite aplicar estilos a los links, títulos, etc. En el siguiente ejemplo cambiaremos el color de texto a todos los tag links `<a>` de la página.   |`a{ color: #BDBDBD; }`   |
 
 En el siguiente ejemplo vamos a colocar fondo verde a todos los td (celdas) de la tabla:
 
