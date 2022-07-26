@@ -98,7 +98,7 @@ person = Person.query.get(3)
 
 ### DELETE: Removing a Database Record.
 
-All you have to do is create a new Person object, add it into the database session and commit!
+All you have to do is select the instance of a Person you would like to delete (ie. by it's id) and delete it by typing db.session.delete(who)
 
 ```py
 person = Person.query.get(3)
@@ -106,7 +106,7 @@ db.session.delete(person)
 db.session.commit()
 ```
 
-### UDPATE: Updating a Record
+### UPDATE: Updating a Record
 
 To update you need first to retrieve/select the record from the database, then you can update whatever property you like and commit again.
 
