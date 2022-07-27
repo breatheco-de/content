@@ -59,7 +59,7 @@ p + p {
 }
 ```
 
-Usamos el selector de parientes adyacentes para cambiar el segundo y tercer párrafo a rojo.  Esto parece muy complicado, ¿no es así? Instintivamente, esperaríamos que el primer párrafo también fuera rojo.  Después de todo, el primer párrafo está en el mismo nivel del árbol que los dos siguiente y, tiene parientes.
+Usamos el selector de parientes adyacentes para cambiar el segundo y tercer párrafo a rojo.  Esto parece muy complicado, ¿no es así? Instintivamente, esperaríamos que el primer párrafo también fuera rojo.  Después de todo, el primer párrafo está en el mismo nivel del árbol que los dos siguientes.
 
 Sin embargo, este selector solo se aplica a elementos que están precedidos por otra cosa.  En este caso, solo se aplicará a los párrafos precedidos directamente por un párrafo pariente.
 
