@@ -41,11 +41,11 @@ Every average person can learn to code to a point of being useful, coding gets m
 
 ##### 📝 Recipe to avoid losing confidence
 
-1. **Avoid being stuck too long:** Coding is tricky because you may be very close to solving a problem but you are stuck and you don't realize it. Or maybe you don't know how to start solving problem, but a quick 5 min talk with a mentor will clear the way. You need to ask for help no longer than 15 minutes after trying on your own.
+1. **Avoid being stuck too long:** coding is tricky because you may be very close to solving a problem but you are stuck and you don't realize it. Or maybe you don't know how to start solving problem, but a quick 5 min talk with a mentor will clear the way. You need to ask for help no longer than 15 minutes after trying on your own.
 
-2. **Talk to other students:** You may think you are the only one that does not understand, but if you talk to a couple of class-mates you'll see they are just like you, it will give you the confidence to ask any questions.
+2. **Talk to other students:** you may think you are the only one that does not understand, but if you talk to a couple of class-mates you'll see they are just like you, it will give you the confidence to ask any questions.
 
-3. **Talk to the mentors:** A voice of experience is always effective, you have alumni and teachers that struggled before and are also struggling right now! They can help you during dark times, we are not only talking about giving you coding solutions, but giving you strategies to succeed in your (coding?) life.
+3. **Talk to the mentors:** a voice of experience is always effective, you have alumni and teachers that struggled before and are also struggling right now! They can help you during dark times, we are not only talking about giving you coding solutions, but giving you strategies to succeed in your (coding?) life.
 
 #### Wall #2: Trust ✝
 
@@ -59,7 +59,7 @@ We know how to train you: we have done it over and over again, but we'll train i
 
 2. **Ask Why?** There is only so much we can say, we need you to raise your concerns in a private way immediately the moment you start double guessing our methods, we do everything for a reason and I'm confident that we are going to be able to explain "the why".
 
-3. **Humble yourself:** There are lots of smart students that have successfully completed the course following the method, some of them work at Google, Amazon and other big all around the world companies. Please be humble enough to try and follow the course as it is. And discuss any ways of improvement with us, we are also humble enough to be open to try things that may work.
+3. **Humble yourself:** there are lots of smart students that have successfully completed the course following the method, some of them work at Google, Amazon and other big all around the world companies. Please be humble enough to try and follow the course as it is. And discuss any ways of improvement with us, we are also humble enough to be open to try things that may work.
 
 #### Wall #3: Inactivity 😴 
 
@@ -69,27 +69,27 @@ These are not small numbers, 60% in a day and 90% if you don't practice for a we
 
 ##### 📝 Recipe to avoid inactivity
 
-1. **Talk to your spouse, partner and family:** You need a break from almost everything, we know life it's challenging enough already to be adding more responsibilities, but this is only for a short period of your time. Rewards are endless. Everyone needs to fall in line! Try opening up the most time you can, having a private desk to work without distraction, etc. Your home has to be in sync with this moment of your life.
+1. **Talk to your spouse, partner and family:** you need a break from almost everything, we know life it's challenging enough already to be adding more responsibilities, but this is only for a short period of your time. Rewards are endless. Everyone needs to fall in line! Try opening up the most time you can, having a private desk to work without distraction, etc. Your home has to be in sync with this moment of your life.
 
-2. **Talk to your boss:** You may need a few extra hours, weekend time, etc. Be smart about it or he/she could sabotage it because he is afraid of losing you.
+2. **Talk to your boss:** you may need a few extra hours, weekend time, etc. Be smart about it or he/she could sabotage it because he is afraid of losing you.
 
-3. **Don't miss class:** Missing classes is our biggest concern, we are very concerned about attendance because it has shown that is the #1 deterrent to your motivation, missing two classes in a row is the perfect storm. You will need to have 1-on-1 mentoring and double the hours thru that week to avoid staying behind.
+3. **Don't miss class:** missing classes is our biggest concern, we are very concerned about attendance because it has shown that is the #1 deterrent to your motivation, missing two classes in a row is the perfect storm. You will need to have 1-on-1 mentoring and double the hours thru that week to avoid staying behind.
 
-4. **Get involved:** Just coming to class will not be enough, humans are beautiful emotional creatures, information attaches better to your brain when you are engaged, emotional, coming to events and study groups, publicly speaking about it, etc. 
+4. **Get involved:** just coming to class will not be enough, humans are beautiful emotional creatures, information attaches better to your brain when you are engaged, emotional, coming to events and study groups, publicly speaking about it, etc. 
 
 ## What's next?
 
 Please make sure you understand how the academy works:
 
 1. **Platform:** 4Geeks.com, The Syllabus (learn how to follow it), GeekPal, GeekForce, the lessons, exercises, projects and assets.
-2. **The people:** We are more than one thousand people now! Leaders, Mentors, the [Alumni and Students](http://sep.4geeksacademy.com/), we are here to help and we are here to stay. Network, make friends, take advantage!
-3. **The community:** Communities are not one way, they just don't work like that to the events, support other students, give first and you will receive later. Slack, GeekTalks, Workshops, Group Studies.
+2. **The people:** we are more than one thousand people now! Leaders, Mentors, the [Alumni and Students](http://sep.4geeksacademy.com/), we are here to help and we are here to stay. Network, make friends, take advantage!
+3. **The community:** communities are not one way, they just don't work like that to the events, support other students, give first and you will receive later. Slack, GeekTalks, Workshops, Group Studies.
 
 
 ## Best Practices while starting to learn code
 
-| **Don't read (much):** Coding is like sport, the best way to get better is through practice. Learn by doing |    ![Its practice](../../assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg) |
+| **Don't read (much):** coding is like sport, the best way to get better is through practice. Learn by doing |    ![Its practice](../../assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg) |
 | ---   | ----      |
-| **Sleep:** Having a good sleep is as important as coming to class, coding is 100% intellectual, having a sharp mind is everything. | ![Sleep](../../assets/images/d29be460-cc2e-42e6-bf92-f9516fd7b21a.jpeg) |
+| **Sleep:** having a good sleep is as important as coming to class, coding is 100% intellectual, having a sharp mind is everything. | ![Sleep](../../assets/images/d29be460-cc2e-42e6-bf92-f9516fd7b21a.jpeg) |
 | **Learn how to ask:** The biggest challenge you have to address at first is learning [how to ask a question](https://content.breatheco.de/how-to/ask), picking the right works, know exactly want you want to know is the best skill for any developer. | ![How to ask](../../assets/images/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c.jpeg) |
-| **Ask questions:** It's a win-win, preparing the question will teach you, we get feedback from your understanding, it the biggest boost for your learning process. It's what you are paying for. | ![Ask questions](../../assets/images/5e975e91-1447-4117-b50b-b00df99a88a5.jpeg) |
+| **Ask questions:** it's a win-win, preparing the question will teach you, we get feedback from your understanding, it the biggest boost for your learning process. It's what you are paying for. | ![Ask questions](../../assets/images/5e975e91-1447-4117-b50b-b00df99a88a5.jpeg) |
