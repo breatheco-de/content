@@ -69,7 +69,7 @@ And this is all because we need to be sure that you have what it takes to comple
 ## This course works, but you have to trust us
 <hr>
 
-The human brain requires a lot of energy to make any decision, especially when lots of variables are taking part in the equation.  This course will be hard because we are re-designing the way you make these decisions. You will have to think similar to the way computers think. Do not worry though, a time will come when everything you do will become an acquired behavior.
+The human brain requires a lot of energy to make any decision, especially when lots of variables are taking part in the equation.  This course will be hard because we are re-designing the way you make these decisions. You will have to think similar to the way computers think. Do not worry though, a time will come when everything you do will become an acquired behaviour.
 
 If you feel overwhelmed and confused, <span style="color:#993300">**ask for help!!**</span> And, **keep up the hard work –** you will make it!  All the lessons are cumulative – meaning every exercise will require you to use all your skills you have learned in the past.
 
