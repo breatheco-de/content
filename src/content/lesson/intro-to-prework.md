@@ -38,7 +38,7 @@ If you want to know more, get in contact with us or apply, please send us an ema
 ## Flipped Around
 
 
-There are a lot coding courses out there... some are even free. If you joined 4Geeks Academy, it’s because you are just like us. You truly believe that hard-to-learn skills like coding require much more than just online articles/videos or tutorials that make coding look extremely easy.
+There are a lot of coding courses out there... some are even free. If you joined 4Geeks Academy, it’s because you are just like us. You truly believe that hard-to-learn skills like coding require much more than just online articles/videos or tutorials that make coding look extremely easy.
 
 Coding is hard because it can only be learned by large amounts of practice, face-to-face mentoring, and real life challenges.
 
