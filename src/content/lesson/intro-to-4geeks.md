@@ -11,7 +11,7 @@ cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 
 ---
 
-Welcome!! 🤩👏 My name is Alejandro and I'm writing these words after years of teaching code and changing lives. Please I beg you to read until the end, I will try my best not to bore you!
+Welcome!! 🤩👏 My name is Alejandro and I am writing these words after years of teaching code and changing lives. Please I beg you to read until the end, I will try my best not to bore you!
 
 ## What you already know
 
@@ -19,7 +19,7 @@ You are here to develop your coding skills to a point where you can be useful to
 
 ## What you did not know
 
-You are also here because you need help, not only technical help, but also spiritual help, and I say this in the most pragmatic way possible.
+You are also here because you need helpzzz, not only technical help, but also spiritual help, and I say this in the most pragmatic way possible.
 
 > The biggest wall to become a developer is not in the syllabus or content but in your mind.
 
