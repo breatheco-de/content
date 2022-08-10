@@ -185,7 +185,7 @@ We are so PROUD! 🙂
 
 You just learned how a website was built in 1999.  Now we only have a few more weeks to catch up on everything else that happened in the last 20 years.
 
-HTML has a lot more tags.  There's also a new version called HTML5.  But again, don’t worry, you’ll **learn HTML** and how to build beautiful (thanks to CSS) and interacting (thanks to formularies and JavaScript) websites in the next few lessons.  That’s why we are here!!
+HTML has a lot more tags.  There's also a new version called HTML5.  But again, don’t worry, you’ll **learn HTML** and how to build beautiful (thanks to CSS) and interacting (thanks to formularies and JavaScript) websites in the next few lessons.  That’s why we are here!!!
 
 ![learn html](../../assets/images/ed1c57e1-5c67-4bf1-96ed-1fb2353fb2ca.gif)
 
