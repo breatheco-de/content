@@ -69,7 +69,7 @@ Por último, es importante que una tag pueda tener una o más tags en su conteni
 
 Los espacios vacíos (o en blanco) y los saltos de línea son omitidos por el navegador al momento de interpretar el texto. Si escribimos cinco espacios en blanco seguidos, o uno solo, el navegador lo interpretará de la misma manera. Si queremos un salto de línea, debemos usar la etiqueta `<br>`.  Si queremos más "espacio", necesitamos insertar `&nbsp;` por cada espacio en blanco (sí, es raro, pero es así).
 
-**Estas tres alternativas se van a ver iguales (espacios y saltos de lineas van a ser ignorados):**
+**Estas tres alternativas se van a ver iguales (espacios y saltos de líneas van a ser ignorados):**
 
 ```html
 <tag>Hello</tag><tag>World</tag>
