@@ -65,10 +65,11 @@ Example:
 ***For inline syntax Highlighting***
 
 Start your inline code with the language followed by the `>` character, for example:
-```txt
-python>print("hello")
+
+```python
+print("hello")
 ```
-Will look like this: `python>print("Hello")`
+Will look like this: `print("Hello")`
 
 ***Multiline syntax Highlighting***
 

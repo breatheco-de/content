@@ -86,12 +86,12 @@ Verás una nueva carpeta con el nombre de tu aplicación y muchos archivos dentr
 
 ![Django Rest Framework](../../assets/images/c7eb4466-eaa5-4d33-8181-5b4c5df4e7f8.png)
 
-+ `python>__init__:`  Le dice a Python que esta carpeta es un paquete.
-+ `python>admin.py:`  Aquí podemos agregar modelos en la interfaz de administración para poder CRUD esos modelos.
-+ `python>models.py: `  Aquí tendremos que definir nuestro modelo de base de datos (todas las estructuras de objetos que queremos almacenar en una base de datos).
-+ `python>apps.py:`  No toques esto - describe qué aplicaciones que tenemos.
-+ `python>tests.py:`  Aquí puedes escribir tu aplicación  [unit tests.](https://en.wikipedia.org/wiki/Unit_testing)
-+ `python>views.py: `  Aquí tienes que describir cómo se construirán sus archivos HTML o JSON.
++ `__init__:`  Le dice a Python que esta carpeta es un paquete.
++ `admin.py:`  Aquí podemos agregar modelos en la interfaz de administración para poder CRUD esos modelos.
++ `models.py: `  Aquí tendremos que definir nuestro modelo de base de datos (todas las estructuras de objetos que queremos almacenar en una base de datos).
++ `apps.py:`  No toques esto - describe qué aplicaciones que tenemos.
++ `tests.py:`  Aquí puedes escribir tu aplicación  [unit tests.](https://en.wikipedia.org/wiki/Unit_testing)
++ `views.py: `  Aquí tienes que describir cómo se construirán sus archivos HTML o JSON.
 
 Vamos a discutir todos estos archivos más detalladamente a continuación.
 
@@ -105,10 +105,10 @@ El archivo Manage.py es una increíble herramienta de línea de comando que te a
 
 |&nbsp;     |&nbsp;      |
 |:----------|:-----------|
-|Crea usuarios administradores para tus aplicaciones.      |`python>$ python manage.py createsuperuser`         |
-|Ejecutando el servidor de desarrollo de Python         |`python>$ python manage.py runserver $IP:$PORT`     |
-|Haciendo migraciones                            |`python>$ python manage.py makemigrations [your_appliation_name]`        |
-|Ejecutando migraciones                            |`python>$ python manage.py migrate`           |
+|Crea usuarios administradores para tus aplicaciones.      |`$ python manage.py createsuperuser`         |
+|Ejecutando el servidor de desarrollo de Python         |`$ python manage.py runserver $IP:$PORT`     |
+|Haciendo migraciones                            |`$ python manage.py makemigrations [your_appliation_name]`        |
+|Ejecutando migraciones                            |`$ python manage.py migrate`           |
 
 
 ## Arquitectura de Django para construir API RESTful

@@ -33,9 +33,9 @@ There are only a few differences – here is the explanation:
 
 |**In JavaScript**    |**In PHP**       |
 |:--------------------|:----------------|
-|Number    |Instead of one number data-type, you now have two: Integer and Float. An integer does not have decimals:<br>`python>$myNumber = 23.23;  //float `<br>`python>$myNumber = 54;  //integer `<br>`python>$myNumber = 12.00;  //float (even with 00 as decimals).`     |
-|Undefined       |The undefined data-type is not available in PHP.  Here undefined and null are the same data-type.<br>`python>$myNumber;  //is null because it was not defined`     |
-|Array     |They have both numerical index arrays and associative arrays.  The difference is that JavaScript calls "Dictionaries" the PHP associative arrays.<br>`python>$array = array('Juan','John','Steven');  //array of numeric indexes`<br> `python>$array = array('SSN-55532323' => 'Juan', 'SSN-99948334' => 'John', 'SSN-99330323' => 'Steven');` <br> //associative array, using strings as indexes instead of integers.    |
+|Number    |Instead of one number data-type, you now have two: Integer and Float. An integer does not have decimals:<br>`$myNumber = 23.23;  //float `<br>`$myNumber = 54;  //integer `<br>`$myNumber = 12.00;  //float (even with 00 as decimals).`     |
+|Undefined       |The undefined data-type is not available in PHP.  Here undefined and null are the same data-type.<br>`$myNumber;  //is null because it was not defined`     |
+|Array     |They have both numerical index arrays and associative arrays.  The difference is that JavaScript calls "Dictionaries" the PHP associative arrays.<br>`$array = array('Juan','John','Steven');  //array of numeric indexes`<br> `$array = array('SSN-55532323' => 'Juan', 'SSN-99948334' => 'John', 'SSN-99330323' => 'Steven');` <br> //associative array, using strings as indexes instead of integers.    |
 |String     |Is the same in PHP.      |
 
 
