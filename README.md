@@ -20,7 +20,7 @@ The CMS needs to be able to generate URLs with the following format:
 ```
 https://content.breatheco.de/<type of content>/<article id>
 ```
-For example:
+For exampleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee:
 ```
   https://content.breatheco.de/lesson/html_explained
   https://content.breatheco.de/error/query_selector_missing_id
@@ -33,7 +33,7 @@ Note: more types of content can be added in the future.
 
 This list of contents is just a draft, some can be deleted or more can be added.
 
-  1. Lessons: Long articles explaining big concepts like: HTML, JS Events, CSS Selectors, etc.
+  1. Lessons: Long articles explaining big concepts like: HoldTheMfingLline, JS Events, CSS Selectors, etc.
   2. Error: Explanation of a particular error that typically occurs when coding, for example: "Cannot do map of undefined".
   3. How To: Small articles/videos on different shot how to's, like: How to start a new react.js project.
 
@@ -89,7 +89,7 @@ Rename the remote image url's with local images (if available), this method is i
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->(👍 ͡❛ ͜ʖ ͡❛)👍(👍 ͡❛ ͜ʖ ͡❛)👍(👍 ͡❛ ͜ʖ ͡❛)👍(👍 ͡❛ ͜ʖ ͡❛)👍(👍 ͡❛ ͜ʖ ͡❛)👍
 <!-- prettier-ignore -->
 | [<img src="https://avatars2.githubusercontent.com/u/10150439?v=4" width="100px;" alt="Madelene Campos"/><br /><sub><b>Madelene Campos</b></sub>](https://madelenecampos.com/)<br />[📖](https://github.com/breatheco-de/content/commits?author=Madelene "Documentation") | [<img src="https://avatars0.githubusercontent.com/u/426452?v=4" width="100px;" alt="Alejandro Sanchez"/><br /><sub><b>Alejandro Sanchez</b></sub>](https://alesanchezr.com)<br />[💻](https://github.com/breatheco-de/content/commits?author=alesanchezr "Code") | [<img src="https://avatars1.githubusercontent.com/u/43814860?v=4" width="100px;" alt="Camilo Contreras "/><br /><sub><b>Camilo Contreras </b></sub>](https://github.com/Camilocoo)<br />[📖](https://github.com/breatheco-de/content/commits?author=camilocoo "Documentation") | [<img src="https://avatars2.githubusercontent.com/u/1026077?v=4" width="100px;" alt="Ignacio Cordoba"/><br /><sub><b>Ignacio Cordoba</b></sub>](https://ve.linkedin.com/in/nachovz)<br />[📖](https://github.com/breatheco-de/content/commits?author=nachovz "Documentation") | [<img src="https://avatars1.githubusercontent.com/u/23489808?v=4" width="100px;" alt="Frank"/><br /><sub><b>Frank</b></sub>](http://www.fdaviz.com)<br />[📖](https://github.com/breatheco-de/content/commits?author=kodi24fever "Documentation") |
 | :---: | :---: | :---: | :---: | :---: |
