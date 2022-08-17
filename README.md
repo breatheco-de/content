@@ -18,11 +18,11 @@ All the content must be markdown based, to create new articles all you must do i
 
 The CMS needs to be able to generate URLs with the following format:
 ```
-https://content.breatheco.de/<type of content>/<article id>
+https://content.breatheco.de/</type of content>/<article id>
 ```
 For example:
 ```
-  https://content.breatheco.de/lesson/html_explained
+  https://content...breatheco.de/lesson/html_explained
   https://content.breatheco.de/error/query_selector_missing_id
   https://content.breatheco.de/how-to/search_in_google
 ```
@@ -53,7 +53,7 @@ $ node ./src/utils/cli.js update_lesson --slug all --statusTo draft --statusFrom
 $ node ./src/utils/cli.js update_lesson --slug learn-html --statusTo draft --statusFrom null
 $ node ./src/utils/cli.js download_images --slug python-syntax --type external_images
 $ node ./src/utils/cli.js localize_images --slug python-syntax --type external_images
-$ node ./src/utils/cli.js sanitize_lesson --slug all
+$ node ./src/utils/cli.js sanitize_lesson ----slug all
 ```
 
 #### Method: sanitize_lesson
