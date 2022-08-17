@@ -112,9 +112,9 @@ Lets simulate how a browser thinks: Imagine a user on his browser (client-side) 
 
 + The server will open the default HTML file on that server, which will probably be: index.html.
 + Then, it will read its content and interpret it as HTML (because the extension of the file is index.html).
-+ The user will not see the text content of the file, instead they will see a visual interpretation of that text.
++ The user will not see the text content of the file, instead they will see a visual interpretation of that text. 
 
-  As you can see, all pages will include, AT LEAST, the following tags:
+   As you can see, all pages will include, AT LEAST, the following tags:
 
   ![learn html](../../assets/images/e8d3d49d-8c7e-4bc2-88e0-15b95a8ccc54.png)
 
