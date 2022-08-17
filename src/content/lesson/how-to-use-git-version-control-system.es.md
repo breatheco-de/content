@@ -84,7 +84,7 @@ Puedes **mover el head** si quieres. No necesariamente tiene que ser siempre el 
 ## Puedes tener varios Heads (Ramas o Branches)
 
 
-Heads marca el comienzo de un historial de revisión. En GIT, llamamos al "historial de revisión" a un "branch o rama," y es posible tener varios historiales de revisión.
+Heads marca el comienzo de un historial de revisión. En GIT, un historial de revisión se llama "branch" o "rama", y es posible tener varios historiales de revisión.
 
 Por defecto, cada repositorio tiene una rama o branch llamada Master, con su HEAD correspondiente que apunta al último commit de esa rama.
 

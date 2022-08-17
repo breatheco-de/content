@@ -34,9 +34,9 @@ Sólo hay algunas diferencias, aquí está la explicación:
 |**En JavaScript**    |**En PHP**       |
 |:--------------------|:----------------|
 
-|Números    |En lugar de un número de tipo de datos, ahora tienesdos: Integer y Float. Un integer o entero no tiene decimales:<br>`python>$myNumber = 23.23;  //decimal python>$myNumber = 54;  //entero`<br>` python>$myNumber = 12.00;  //decimal (incluso con 00 como decimales).`     |
-|Indefinido o Undefined       |El tipo de datos no definido no está disponible en PHP. Aquí undefined y null son el mismo tipo de datos.<br>`python>$myNumber;  // null porque no estaba defined`     |
-|Arreglos o Array     |Ambos tienen arrays de índices numéricos y arreglos asociativas. La diferencia es que JavaScript llama "Diccionarios" a los arrays asociativos de PHP.<br>`python>$array = array('Juan','John','Steven');  //array de índices numéricos`<br> `python>$array = array('SSN-55532323' => 'Juan', 'SSN-99948334' => 'John', 'SSN-99330323' => 'Steven');` <br> //array asociativo, utilizando string como índices en lugar de números enteros.   |
+|Números    |En lugar de un número de tipo de datos, ahora tienesdos: Integer y Float. Un integer o entero no tiene decimales:<br>`$myNumber = 23.23;  //decimal $myNumber = 54;  //entero`<br>` $myNumber = 12.00;  //decimal (incluso con 00 como decimales).`     |
+|Indefinido o Undefined       |El tipo de datos no definido no está disponible en PHP. Aquí undefined y null son el mismo tipo de datos.<br>`$myNumber;  // null porque no estaba defined`     |
+|Arreglos o Array     |Ambos tienen arrays de índices numéricos y arreglos asociativas. La diferencia es que JavaScript llama "Diccionarios" a los arrays asociativos de PHP.<br>`$array = array('Juan','John','Steven');  //array de índices numéricos`<br> `$array = array('SSN-55532323' => 'Juan', 'SSN-99948334' => 'John', 'SSN-99330323' => 'Steven');` <br> //array asociativo, utilizando string como índices en lugar de números enteros.   |
 |String     |Es lo mismo en PHP.      |
 
 

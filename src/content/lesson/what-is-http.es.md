@@ -91,8 +91,8 @@ La respuesta contiene el recurso solicitado. La primera línea es muy importante
 Los códigos de estado HTTP,[puedes leer más al respecto aquí](https://developer.mozilla.org/es/docs/Web/HTTP/Status), entregan metadatos en la respuesta al estado de los recursos solicitados. Son parte de lo que hace de la Web una plataforma para construir sistemas distribuidos. Se dividen en las siguientes categorías:
 
 
-+ `python>1xx` – Metadata
-+ `python>2xx` – Todo esta bien
-+ `python>3xx` – Redirección
-+ `python>4xx` – Cliente hizo algo mal
-+ `python>5xx` – Servidor hizo algo mal
++ `1xx` – Metadata
++ `2xx` – Todo esta bien
++ `3xx` – Redirección
++ `4xx` – Cliente hizo algo mal
++ `5xx` – Servidor hizo algo mal
