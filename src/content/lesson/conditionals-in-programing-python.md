@@ -82,7 +82,7 @@ Our job as developers is to sit down and try to prepare a strategy and come up w
 
 ## Logical Operators in Python
 
-Mostly all the questions can be asked using the following comparisons: `==`, `>`, `<`, `!=`, `python> is None`, `python> is not None`, `in`:
+Mostly all the questions can be asked using the following comparisons: `==`, `>`, `<`, `!=`, ` is None`, ` is not None`, `in`:
 
 | Operator      | Example       | Description  |
 | ----          | ----          | --------  |
