@@ -86,7 +86,7 @@ cd /path/to/directory
 
 ### The `mv` command
 
-**The move command?**
+**The move command**
 
 Move a file to another folder or directory.  Just like dragging a file located on a PC desktop to a folder stored within the "Documents" folder.
 
