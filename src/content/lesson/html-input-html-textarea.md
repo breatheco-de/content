@@ -30,14 +30,14 @@ The following is a list of all the possible elements we can use to receive any i
 
 |**Name**   |**Declaration**   |**Description**   |
 |:----------|:-----------------|:-----------------|
-|Text       |`python><input type="text">`   |The text input is meant to receive any small string of characters such as: Username, Name, Last Name, Date of birth, etc.<br>`python><input type="text" name="Name" />name="comments"><textarea/>`   |
-|Textarea   |`python><textarea>`   |The textarea is ideal for long text inputs.  Its main difference from the text input is its ability to allow for multiple lines.<br>`python><textarea name="comments"><textarea/>`   |
-|Password   |`python><input type="password" />`   |This is just like an input type="text" but with the only difference that the characters are hidden like bullets – the user cannot see what  they are typing.<br>`python><input type="password" name="password" />`   |
-|Radiobutton   |`python><input type="radio">`   |Allows the user to select only one of all the inputs with the same name.<br>`python><input type="radio" name="color" value="red" />` <br> `python><input type="radio" name="color" value="green" />`   |
-|Checkbox   |`python><input type="check">`   |You have to use brackets in the name of the input to allow the user to select multiple options at the same time.<br>`python><input type="check" name="color[]" value="green" />`<br> `python><input type="check" name="color[]" value="blue" />`   |
-|File   |`python><input type="file">`   |This is the only way to work with files.  Eg: It’s what websites use when they ask you to upload a picture.<br>`python><input type="file" name="photo" value="" />`   |
-|Submit Button   |`python><input type="submit">`   |When the form is ready to be sent, the user presses this "submit" button and everything is then sent to the server for processing.<br>`python><input type="submit" value="Send Form" />`   |
-|Select   |`python><select>`   |Asks the user to pick one or more elements from a list of options.<br>`python><select name="color" /> <option value="red">Red </option> <option value="yellow">Yellow</option> <select />`   |
+|Text       |`<input type="text">`   |The text input is meant to receive any small string of characters such as: Username, Name, Last Name, Date of birth, etc.<br>`<input type="text" name="Name" />name="comments"><textarea/>`   |
+|Textarea   |`<textarea>`   |The textarea is ideal for long text inputs.  Its main difference from the text input is its ability to allow for multiple lines.<br>`<textarea name="comments"><textarea/>`   |
+|Password   |`<input type="password" />`   |This is just like an input type="text" but with the only difference that the characters are hidden like bullets – the user cannot see what  they are typing.<br>`<input type="password" name="password" />`   |
+|Radiobutton   |`<input type="radio">`   |Allows the user to select only one of all the inputs with the same name.<br>`<input type="radio" name="color" value="red" />` <br> `<input type="radio" name="color" value="green" />`   |
+|Checkbox   |`<input type="check">`   |You have to use brackets in the name of the input to allow the user to select multiple options at the same time.<br>`<input type="check" name="color[]" value="green" />`<br> `<input type="check" name="color[]" value="blue" />`   |
+|File   |`<input type="file">`   |This is the only way to work with files.  Eg: It’s what websites use when they ask you to upload a picture.<br>`<input type="file" name="photo" value="" />`   |
+|Submit Button   |`<input type="submit">`   |When the form is ready to be sent, the user presses this "submit" button and everything is then sent to the server for processing.<br>`<input type="submit" value="Send Form" />`   |
+|Select   |`<select>`   |Asks the user to pick one or more elements from a list of options.<br>`<select name="color" /> <option value="red">Red </option> <option value="yellow">Yellow</option> <select />`   |
 
 ## Input Attributes
 
@@ -81,7 +81,7 @@ The two most important attributes that need to be set into the `<form>` tag are 
 |:----------------------|:-----------------------|
 |All form data is encoded into the URL.  This means that it will append all the information of the form to the end of the destination URL, for example: http://www.mydestinationurl.com?input_name1=value1&input_name2&value2….   |The data will be hidden from the end-user.  The URL will remain as it was defined in the "action" attribute and only a developer will be able to request the form information.   |
 
-> :point_up: If you are going to use the `python><input type="file">` the only method supported is POST.
+> :point_up: If you are going to use the `<input type="file">` the only method supported is POST.
 
 
 

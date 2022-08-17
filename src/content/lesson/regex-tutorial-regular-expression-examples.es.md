@@ -14,7 +14,7 @@ status: "published"
 
 Básicamente, una expresión regular es un patrón que describe una cierta cantidad de texto. Por ejemplo, sabes que los correos electrónicos son siempre como:
 
-`python>username@domain.extension`
+`username@domain.extension`
 
 **Si queremos describir el patrón de un correo electrónico, diríamos algo como esto:** Comenzando con un nombre de usuario (una combinación de letras y números), seguido de un símbolo `arroba` **@**, seguido del dominio (otra combinación de letras y números) seguido de la extensión (que comienza con un punto `.` seguido de una combinación de letras solamente).
 
@@ -67,11 +67,11 @@ Cualquier sucesión de caracteres es una simple expresión regular. Si usamos la
 
 ### El Caracter `.`
 
-**El caracter `python>.` representa…**
+**El caracter `.` representa…**
 
-Cualquier caracter o símbolo disponible. Si dices `python> ab.ve`, estás diciendo algo que comienza con` python> ab` y termina con `python> ve`
+Cualquier caracter o símbolo disponible. Si dices ` ab.ve`, estás diciendo algo que comienza con` ab` y termina con ` ve`
 
-Puedes usar el `.` tantas veces como quieras; la expresión regular reemplazará el `python> .` con cualquier carácter tantas veces como aparezca el` .`
+Puedes usar el `.` tantas veces como quieras; la expresión regular reemplazará el ` .` con cualquier carácter tantas veces como aparezca el` .`
 
 **Usa el contenedor de la derecha para jugar con otras sucesiones simples de caracteres.**
 
@@ -82,21 +82,21 @@ Puedes usar el `.` tantas veces como quieras; la expresión regular reemplazará
 
 ### El Caracter Rango `[ ]`
 
-**El caracter  `python>[ ]` representa…**
+**El caracter  `[ ]` representa…**
 
 Un grupo de posibles caracteres. A veces, nos gustaría ser un poco más específicos... aquí es donde los **rangos** son útiles. Especificamos un rango de caracteres encerrándolos entre corchetes ([]).
 
-También puede usar el `python> []` para alinear números o letras con un guión intermedio. El guión representa un rango de números o caracteres. Por ejemplo:
+También puede usar el ` []` para alinear números o letras con un guión intermedio. El guión representa un rango de números o caracteres. Por ejemplo:
 
-+ `python>[0-9]` representa cualquier número entre 0 y 9.
-+ `python>[a-z]` representa cualquier letra en minúscula
-+ `python>[A-Z]` Representar cualquier letra en mayúsculas.
++ `[0-9]` representa cualquier número entre 0 y 9.
++ `[a-z]` representa cualquier letra en minúscula
++ `[A-Z]` Representar cualquier letra en mayúsculas.
   
 También puedes combinar rangos de caracteres de esta forma:
 
-+ Cualquier letra en mayúsculas o minúsculas: `python>[a-zA-Z]`
-+ Números del 1 al 5 y también del 9: `python>[1-59]`
-+ Números del 1 al 5, letras de la a la f y también la X mayúscula:`python>[1-5a-fX]`
++ Cualquier letra en mayúsculas o minúsculas: `[a-zA-Z]`
++ Números del 1 al 5 y también del 9: `[1-59]`
++ Números del 1 al 5, letras de la a la f y también la X mayúscula:`[1-5a-fX]`
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=dCU1QmVvJTVEZA%3D%3D&amp;c=V2hlbiB0b2RheSBpcyBvdmVyIFRlZCB3aWxsIGhhdmUgYSB0ZWRpb3VzIHRpbWUgdGlkeWluZyB1cC4%3D"></iframe>
 
@@ -115,13 +115,13 @@ También puedes combinar rangos de caracteres de esta forma:
 
 Estamos negando el rango. Por ejemplo:
 
-+ Todos los términos que comienzan con `python> li` y terminan con` python> e` pero no tienen `python> i` o` python> v` en el interior: `python> li [^ v] e`
++ Todos los términos que comienzan con `li` y terminan con `e` pero no tienen ` i` o `v` en el interior: ` li [^ v] e`
   
-**Si colocamos `python> ^` al comienzo de una expresión regular:**
+**Si colocamos ` ^` al comienzo de una expresión regular:**
 
 + Estamos diciendo que solo queremos probar el Regex desde el principio del string (no se evaluarán los substrings - partes más pequeñas de la cadena):
 
-+ Un string que comienza con http: `python>^http`
++ Un string que comienza con http: `^http`
 
 
 
@@ -130,15 +130,15 @@ Estamos negando el rango. Por ejemplo:
 
 <div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bGklNUIlNUV2JTVEZQ%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBhbiBvbGl2ZSBvaWwsIGFsd2F5cyBhZGRpbmcgZ29vZCB0YXN0ZSB0byB3aGF0IGhlIGRvZXMu">Haz clic aquí para abrir la demo en una nueva ventana</a></small></div>
 
-### Atajos para los dígitos `python> \d` y Palabras `python> \w`
+### Atajos para los dígitos ` \d` y Palabras ` \w`
 
 Si lo prefieres, puedes usar estos accesos directos en tus expresiones regulares:
 
 |**Operador**    |**Descripción**    |
 |:---------------|:-------------------|
-|\w              |Coincide con cualquier caracter de palabra (igual a `python>[a-zA-Z0-9_])`     |
+|\w              |Coincide con cualquier caracter de palabra (igual a `[a-zA-Z0-9_])`     |
 |\W                |Coincide con cualquier otra cosa que no sea una letra, dígito o subrayado     |
-|\d             |Coincide con cualquier dígito decimal. Equivalente a `python>[0-9]`       |
+|\d             |Coincide con cualquier dígito decimal. Equivalente a `[0-9]`       |
 |\D             |Coincide con cualquier cosa que no sea un dígito decimal    |
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVDdyUyMA%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLg%3D%3D"></iframe>
@@ -147,14 +147,14 @@ Si lo prefieres, puedes usar estos accesos directos en tus expresiones regulares
 
 
 
-## Agrupar o encerrar expresiones regulares con `python>()`
+## Agrupar o encerrar expresiones regulares con `()`
 
 
-Siempre hablamos de "divide y vencerás", ¿verdad? Bueno, tu mejor amigo para eso será el operador de paréntesis `python> ()`. Ahora podemos agrupar cualquier patrón como lo hacemos en matemáticas.
+Siempre hablamos de "divide y vencerás", ¿verdad? Bueno, tu mejor amigo para eso será el operador de paréntesis ` ()`. Ahora podemos agrupar cualquier patrón como lo hacemos en matemáticas.
 
 Ahora que podemos agrupar, podemos multiplicar (repetir) nuestros patrones, negarlos, etc.
 
-Por ejemplo, este Regex acepta una o muchas repeticiones del string `ab` seguido de una letra `python> c` al final: `python> (ab) * c`
+Por ejemplo, este Regex acepta una o muchas repeticiones del string `ab` seguido de una letra ` c` al final: ` (ab) * c`
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bGklNUIlNUV2JTVEZQ%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLg%3D%3D"></iframe>
 
@@ -174,7 +174,7 @@ El cuantificador nos permite aumentar el número de veces que un caracter puede 
 + {3,7} – el caracter ocurre entre 3 y 7 veces.
 + {2,} – el caracter aparece al menos 2 veces.
 
-## Usando el cuantificador en  `python>*` `python>+` `python>?`
+## Usando el cuantificador en  `*` `+` `?`
 
 Podemos colocar el cuantificador después de los patrones de caracteres que queremos repetir. Aquí hay algunos casos y ejemplos:
 
@@ -182,7 +182,7 @@ Podemos colocar el cuantificador después de los patrones de caracteres que quer
 |:----------------|:-----------------|
 |+                |Uno o varios Por ejemplo: <br> Términos con la letra `o` al menos una vez; `o +` |
 |*                |Cero o muchos <br> Por ejemplo, los términos que comienzan con la letra "a" (en minúsculas) seguidos de **cero o muchos** caracteres de cualquier tipo, excepto el espacio en blanco: `a [^] *`   |
-|?                 |Cero o uno. Por ejemplo: Buscar el string de noviembre con o sin el método abreviado: `python> [nN] ov (ember)? ` |
+|?                 |Cero o uno. Por ejemplo: Buscar el string de noviembre con o sin el método abreviado: ` [nN] ov (ember)? ` |
 
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVCbk4lNURvdiUyOGVtYmVyJTI5JTNG&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBvbGl2ZSBvaWwgJiM4MjExOyBhbHdheXMgYWRkaW5nIGdvb2QgdGFzdGUgdG8gd2hhdCB0aGV5IGRvLiBUaGUgYmVzdCBkYXRlIHRvIGdyb3cgb2xpdmVzIGlzIG9uIE5vdmVtYmVyIHRoZSAyNHRoLCBub3Qgb24gTm92ZW1iZXIgdGhlIDNyZC4%3D"></iframe>

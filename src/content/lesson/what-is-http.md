@@ -84,10 +84,10 @@ HTTP status codes, [you can read more about it here](https://developer.mozilla.o
 distributed systems. They fall into the following categories:
 
 
-+ `python>1xx` - Metadata.
-+ `python>2xx` - Everything is ok.
-+ `python>3xx` - Redirection
-+ `python>4xx` - Client did something wrong
-+ `python>5xx` - Server did something wrong
++ `1xx` - Metadata.
++ `2xx` - Everything is ok.
++ `3xx` - Redirection
++ `4xx` - Client did something wrong
++ `5xx` - Server did something wrong
 
 
