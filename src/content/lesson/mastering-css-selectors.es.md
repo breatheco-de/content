@@ -29,7 +29,7 @@ h2{
 
 Esto sucede todo el tiempo y, en algún momento, puede ser difícil anular los estilos anteriores.  Debes organizar tus estilos adecuadamente y empezar desde lo menos específico hasta los más especifico. 
 
-Estos selectores "muy específicos" te ayudarán mucho.  ¡Serán tu mejor herramienta para luchar contra tu guerra de estilos!
+Estos selectores "muy específicos" te ayudarán mucho. ¡Serán tu mejor herramienta para luchar contra tu guerra de estilos!
 
 > :tv: &nbsp;[Aquí hay un vídeo muy bueno (3:40 min) explicando especificidad.](https://www.youtube.com/watch?v=In78mSOHmls)
 
