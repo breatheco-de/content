@@ -1,5 +1,5 @@
 ---
-title: "How to clone a project on Github"
+title: "How to clone a github repository"
 subtitle: "Cloning is the fastes way to download a project or code, in this lessons we will explain how to clone and the difference it has with forking"
 tags: ["git","github"]
 date: "2020-10-19T16:36:30+00:00"
