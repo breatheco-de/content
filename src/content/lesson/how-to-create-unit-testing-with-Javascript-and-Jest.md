@@ -68,7 +68,7 @@ If when defining the function we do not use the symbol of the curly braces. The 
 
 + **Your code is more reliable and reusable** When your code is divided in units or components where each one has their responsability or function, your code becomes more reliable and it gives you more confidence. Since you have already tested you can reuse it: it is clean and efficient and you can migrate your code and tests to a new project.
 
-+ Good Unit tests serve as **documentation and define** what your code is suppose to do.
++ Good Unit tests serve as **documentation and define** what your code is supposed to do.
 
 + **Unit Testing improves teamwork**. You will be able to follow the logic behind your code and your team will be able coordinate their code accordingly. By reviewing each other's code teamwork is more agile.
 
