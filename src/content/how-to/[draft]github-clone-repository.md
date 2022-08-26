@@ -65,3 +65,17 @@ To clone a Github repository, we do as follows:
  <p align="center">
   <img src="https://lh3.googleusercontent.com/I1ot6XpCG_VdxVua7-fz1znESDqAfQYHd2eWAOezWwmHzChgIzFdJGZbm_uOUpPpxY39i0IFayoVHaU3LbwaW-bX6otK1E_iylifvxCLGIymZo-4WexEgkmCND8O9tWVGdINIRt-u2eUsQxYjTPozTDdaEQq6BJMwGUfn6GMJYzgljgjpH1q-tjVtOctPIic82O_xrM0cdmJ-ryPMhAybMT_5-KILeQbU_52xApPFy2EFLkg_wJoT7WeA8qTHrz_fNsyrIwpzvw7IvCckDDXMd6OfG9S0RWNiFXC45jdqezWrwgpBW5WbZ0182spZqacaDfoj0BurZ25UHCO_zgFoJXQFoViow2gJnMo7TsPSmMYCsqc3W5_MdDLCBNgNn46CGWJni9aco9JOl8EXj10tmvcD5l1sKxfshzToG2W0DdkkHIofPdub8ubRpBu2g1Zd2mzl7LGWi00KKmXr2lj24jf8FavvZp6CkgB_fWLQeITG2ZLD8iLFLEN5Ci2R86wiZ4vMRXDIk7pkdRzlcAAgqlAK2zdqmYHl0SrxNokO4pw7_8wQThvq8KMfKEEyjHm8Op2tIKlQT1DDeySx8F-_o_1biPK0HAdDOwcdDMNWz8yEqBHmDrGCdfev6WtvLYz1cak2gbpTdoP6JoOI0_OJK9E7LfGMjGYmAyUhNMQSnynLD4IFnrnuIUqWKXN6TUEvgrb_9xHrV78bHTjLxDumfeiYvfrC0pLbMBUc06etCLWM_5S-Yx-_kgAeUL9neJYvmhuSIubP0QEa0YNAe2g4UtCtBcrQ9qnEe0=w613-h219-no?authuser=0" width='600px'/>
 </p>
+
+It is important to understand that you can clone any repository not only from github, but from any other site if you have the git URL. Remember that you clone a repository with the `git clone <url>` command.
+
+## Clone vs Fork
+
+How much control and independence you desire over the codebase once you've copied it determines how Git clone and fork difference from each other. You can fork or clone any publicly accessible Git repository.
+
+The quick answer is, by **forking**, you can make your own copy of a repository somewhere else (for example, GitHub). Owning a copy of the repository means that you can make changes to it without affecting the original repository.
+
+**Cloning** creates a local, as opposed to a personal, copy of a repository. Imagine doing that by downloading a repository to your computer's local storage. Clones have references to their original repositories, unlike forks.
+
+ <p align="center">
+  <img src="https://lh3.googleusercontent.com/bLyo9cLsA7fNA5Wk9wJlv0Su6G3KcuONxu9gzItnN9u4MBDrwPk8iehigzRvz6PAWONiDpL2ap-kfcHRc4OXw12t-D3M4QZTs9rGmLUKNYn2OnVyyC6RBt7cyGBjycbiTq8ue6fqIemqoCSMgi_9G12ZEMStWYA1VDyRzmH1ory2QUdZwz2c2zH-jzpV2r3Ndy04nId3wQ-7ZI-4P-2qcQ7AEj6PAkyAsseqLZW3N7i9pVudpmMVDdwvQXygpgR35xGgOc1CZ5dwtn-BYCq4m-wPssliymgSwR2gdd4NejbT6tjeD4ArOqDp6L5WE86KKXo6OmG5hZ1qrLgNutuy_H4yxOkjUSDFn5xWQBoLQqtQZDLgVn955gZnWW_UePlita9Lcnt0Uhjfwt_6cKVE3ZbR5nx60jUFjKKYl9UC_p4AjiRuMuQV3FUJ46SeX0mveL8hTj-IXYK3L5MO2lxV0_PZUyt-kr7I3rK5zOWazKyT8K0ku_cbifpOrPFEWVgP8fcCiR-xTg5DkJi5Y5uC8bYF0GIuPBdbCl8gzcE95Dqdc5_uZD68eX58iTDP6vgZ5gsjEK6Y2gk2Auuv0W478LNlBNxKS4ny7cWwHcGaSUfCyRyNHM0vhwbtv_JwbaKIf4sZfhtdn3RQTdMwNl-NgBJxrw5sVcSyLWSdamy7nLHLaFyMf2EEhKUqTF2jo4Fni_PXlV0XAppuw35efmCyu71-6Z0P9tv8Z6-75sk-qFtos_1CTl_fwTeCGzYTeX5fnS1ie8bJYuOQ0AQGBWHO8aGUoFv10qyVpeo=w801-h676-no?authuser=0" width='700px'/>
+</p>
