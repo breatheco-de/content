@@ -1,6 +1,6 @@
 ---
 title: "Dominando los Selectores de CSS"
-subtitle: "Además de dominar las propiedades display y position, aprender a usar selectores de CSS es la habilidad más importante que necesitas desarrollar. No tienes que recordar su sintaxis pero si tenerlos en tu radar para poder desarrollar las estrategias correctas al construir tu hoja de estilos CSS. "
+subtitle: "Además de dominar las propiedades display y position, aprender a usar selectores de CSS es la habilidad más importante que necesitas desarrollar. No tienes que recordar su sintaxis, pero si tenerlos en tu radar para poder desarrollar las estrategias correctas al construir tu hoja de estilos CSS. "
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
@@ -45,7 +45,7 @@ Esta declaración toma las etiquetas de párrafo que son hijos del div y las con
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/">Click aquí para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/">Clic aquí para abrir demo en una nueva ventana</a></small></div>
 
 
 
@@ -59,7 +59,7 @@ p + p {
 }
 ```
 
-Usamos el selector de parientes adyacentes para cambiar el segundo y tercer párrafo a rojo.  Esto parece muy complicado, ¿no es así? Instintivamente, esperaríamos que el primer párrafo también fuera rojo.  Después de todo, el primer párrafo está en el mismo nivel del árbol que los dos siguiente y, tiene parientes.
+Usamos el selector de parientes adyacentes para cambiar el segundo y tercer párrafo a rojo.  Esto parece muy complicado, ¿no es así? Instintivamente, esperaríamos que el primer párrafo también fuera rojo.  Después de todo, el primer párrafo está en el mismo nivel del árbol que los dos siguientes y, tiene parientes.
 
 Sin embargo, este selector solo se aplica a elementos que están precedidos por otra cosa.  En este caso, solo se aplicará a los párrafos precedidos directamente por un párrafo pariente.
 
@@ -67,7 +67,7 @@ El primer párrafo de la lista está precedido por el div, por lo que no se modi
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/">Click para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/">Clic para abrir el demo en una nueva ventana</a></small></div>
 
 ## El todopoderoso asterisco
 
@@ -82,7 +82,7 @@ El CSS anterior convierte a todos los elementos dentro de un div rojo específic
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/79254pm6/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/79254pm6/2/embedded/html,css,result/">Haz click aquí para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/79254pm6/2/embedded/html,css,result/">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
 
 
 
@@ -92,11 +92,11 @@ div * p {
 }
 ```
 
-Puedes llevar esto tan lejos como quieras - los siguientes objetivos son los "nietos" del div.  Encontrarás este método de encadenamiento frecuentemente en los trucos de depuración de CSS.
+Puedes llevar esto tan lejos como quieras - los siguientes objetivos son los "nietos" del div. Encontrarás este método de encadenamiento frecuentemente en los trucos de depuración de CSS.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/">Haz click para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/">Haz clic para abrir el demo en una nueva ventana</a></small></div>
 
 ## Selector de valor de atributo
 
@@ -107,7 +107,7 @@ Si queremos cambiar el color de fuente del enlace "Design Shack", podríamos usa
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/">Click para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/">Clic para abrir el demo en una nueva ventana</a></small></div>
 
 
 ## Selector de valor de atributo de subcadena arbitraria
@@ -119,7 +119,7 @@ El siguiente código apunta a cualquier div con la palabra "section" en el títu
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/">Haz click aquí para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
 
 ## Pseudoselectores
 
@@ -133,13 +133,13 @@ a:active{color: red;}
 Puedes cambiar los colores de cualquier elemento del sitio web, dependiendo de su estado:
 
 + `:link` será el predeterminado.
-+ `:visited` es auto-explicativo.
++ `:visited` es autoexplicativo.
 + `:hover` cuando el cursor está encima.
-+ `:active` cuando el cursor hace click en él. 
++ `:active` cuando el cursor hace clic en él. 
   
   <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/">Haz click aquí para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
 
   
 ### Pseudoselectores relacionados con campos de formulario
@@ -155,11 +155,11 @@ input:focus{font-size: 2em;}
 input:enabled{ border: 2px solid black;}
 ```
 
-Es muy importante tomarse el tiempo suficiente para darle estilo a nuestros formularios.  El estilo es la mejor manera de decirle al usuario que un campo está desactivado, marcado o que tiene el cursor enfocado en un campo en particular.
+Es muy importante tomarse el tiempo suficiente para darle estilo a nuestros formularios. El estilo es la mejor manera de decirle al usuario que un campo está desactivado, marcado o que tiene el cursor enfocado en un campo en particular.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/">Haz click aquí para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
 
 ### Pseudoselectores según posición 
 
