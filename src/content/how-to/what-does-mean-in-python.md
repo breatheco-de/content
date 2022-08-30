@@ -2,6 +2,20 @@
 
 The double slash `//` operator in Python is used to divide a number by its floor. The first number is divided by the second number using the `//` operator, and the result is rounded to the nearest integer (or whole number). Floor division merely differs from ordinary division in that it always produces the largest integer.
 
+```python
+num1 = 19
+num2 = 5
+num3 = num1 / num2
+num4 = num1 // num2
+
+print("normal division of", num1, "by", num2, "=", num3)
+print("floor division of", num1, "by", num2, "=", num4)
+
+# Output: 
+# normal division of 19 by 5 = 3.8
+# floor division of 19 by 5 = 3
+```
+
 <p align="center">
   <img src="https://i.ytimg.com/vi/mv5uHSXLkhs/maxresdefault.jpg" width='450px'/>
 </p>
@@ -21,6 +35,7 @@ The double slash `//` operator in Python is used to divide a number by its floor
 ## Syntax of the Floor Division <a name="syntax"></a>
 
 The syntax for using the floor division is given as follows:
+
 ```py
 quotient = divident // divisor
 ```
