@@ -43,7 +43,7 @@ When you learn in public you: create in social media, you write in notebooks and
 
 ### I don't have anything to say
 
-I really doubt that, learning to code is hard and people read a lot about it and they need emotional support, just like with your testimonial you are helping a lot of people who will be interested in learning more about your story.
+I really doubt that, learning to code is hard and people read a lot about it and they need emotional support. By sharing your testimonial, you are helping a lot of people who will be interested in hearing your story.
 
 ### I'm no expert
 
