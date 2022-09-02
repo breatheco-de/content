@@ -11,7 +11,7 @@ canonical: ""
 ---
 
 If you are interested in learning to code efficiently but fast, you should do it in public; this is not a theory but a fact.  
-In this article, I'm going to try to explain why it works and how you can do it.
+In this article, I'm going to try to explain why it works and how you can do it!
 
 ## What is Learn In Public
 
