@@ -10,41 +10,20 @@ You can contribute by writing an article, fixing a bug, etc.
 
 ### Writing a new article
 
-Pick one of the `unasigned` or `pending_translation` articles from [this list](https://github.com/breatheco-de/content/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) and comment on the issue to start working on it.
+After you have been asked to write a piece of content:
 
-Follow Github markdown syntax to write your article, we recommend using a text editor that supports markdown like stack edit.
+1. Fork this respository.
+2. Commit you new article into any of the subdirectories withing the content folder (depending on what assignment are you writing).
+3. Create a Pull Request into this repository.
 
-We have also create some special icons and components that you can also use inside your article content:
+## Guidelines
 
-#### Before and after
+- Do not use HTML, [only markdown basic syntax](https://www.markdownguide.org/basic-syntax).
+- Write your own content from scratch, do not copy and paste from another website (even if you are meant to rephrease it later).
+- Include images and links to any of the public 4Geeks.com URLs, here is a list of recomended ways to link.
 
-Example:
 
-```html
-<before-after 
-    before="https://ucarecdn.com/3681f907-21eb-4e0e-828e-f7e2690e8942/" after="https://ucarecdn.com/d6648701-2af4-4e2d-890c-17ed222bb66c/" />
-```
+## Recomended ways to link articles
 
-#### Images
-
-```
-<img src="https://path/to/image.png">
-```
-
-#### Syntax Highlighting
-
-```python
-`print("hello")`
-```
-Will look like this: `print("Hello")`
-
-#### Multiline syntax Highlighting
-
-Start your code with three tildes like this: `
-
-Will look like this:
-
-```html
-<strong>Hello</strong>
-<p></p>
-```
+- Find a [cool exercise]([https://4geeks.com/interactive-coding-tutorials](https://4geeks.com/interactive-exercises) that people can build to practice related to the article and technologies you are talking about, include the project landing page.
+- Find a [cool project](https://4geeks.com/interactive-coding-tutorials) that people can build to practice related to the article and technologies you are talking about, include the project landing page.
