@@ -1,6 +1,6 @@
 ---
 title: "How to clone a github repository"
-subtitle: "Cloning is the fastes way to download a project or code, in this lessons we will explain how to clone and the difference it has with forking"
+subtitle: "Cloning is the fastest way to download a project or code, in this lessons we will explain how to clone and the difference it has with forking"
 tags: ["git","github"]
 date: "2020-10-19T16:36:30+00:00"
 authors: []
@@ -25,21 +25,19 @@ So why cloning a repository you may ask? Cloning a project has many benefits as:
 
 And all this without the need to be connected to the internet. We will only need internet connection when we want to "share" our work with someone else or we want to upload our work to GitHub.
 
-<p align="center">
-  <img src="https://c.tenor.com/AQM9IEdO0K8AAAAd/clone.gif" width='400px'/>
-</p>
+
+ ![Cloning Thing GIF](https://c.tenor.com/AQM9IEdO0K8AAAAd/clone.gif)
+
 
 ## Steps to Clone a GitHub Repository (Using the terminal)
 For this example, we will clone one of 4Geeks popular repositories that is [4Geeks react-flask-hello](https://github.com/4GeeksAcademy/react-flask-hello). The steps to clone this repository are as follows:
 
- 1. **Determine or locate where you want to clone the desired repository**
+ 1. **Determine or locate where you want to clone the desired repository** |
  Locate the folder in your computer where you want to save the repository, or you can create a new one. Let’s say we want to save our repository in a folder called `my-first-cloned-repo` as shown below
 
-<p align="center">
-	<img src="https://i.imgur.com/lAV0nLj.jpg" width='400px'/>
-</p>
+![Locating Folder](https://i.imgur.com/lAV0nLj.jpg)
 	 
- 2. **Open the terminal**
+ 2. **Open the terminal** |
 You can use the **Git Bash** terminal or any **IDE (Integrated Development Environment) or Code Editor** terminal.  With the terminal open, input `cd` and add/copy the directory/folder location/path. Since we want to save the repository in our folder `my-first-cloned-repo`, let's copy the folder's path `C:\Users\rafam\Programming Projects\my-first-cloned-repo` and paste it in the terminal, you can also drag and drop the folder in the terminal and press enter
 ```bash session
 # Git Bash Terminal:
@@ -50,16 +48,12 @@ $ cd 'C:\Users\rafam\Programming Projects\my-first-cloned-repo' #Press Enter
 rafam@LAPTOP-LLV85FV6 MINGW64 ~/Programming Projects/my-first-cloned-repo
 ```
 
- 3. **Go to the [4Geeks react-flask-hello](https://github.com/4GeeksAcademy/react-flask-hello) repository in GitHub**
+ 3. **Go to the [4Geeks react-flask-hello](https://github.com/4GeeksAcademy/react-flask-hello) repository in GitHub** |
  Once you are located in the [4Geeks react-flask-hello](https://github.com/4GeeksAcademy/react-flask-hello) repository in GitHub, we need to click the **Code** button to display the clone options and then click the **Copy** button which is highlighted (shown below) and next to the repo URL:
 	 
-<p align="center">
-   <img src="https://i.imgur.com/xu3Psl0.png" width='750px' />
-</p>
+![4Geeks Repo Example Pic 1](https://i.imgur.com/xu3Psl0.png)
 
-<p align="center">
-	<img src="https://i.imgur.com/QPEPsZE.png" width='750px'/>
-</p>
+![4Geeks Repo Example Pic 2](https://i.imgur.com/QPEPsZE.png)
 
  4. **Go to the terminal and use the git clone command typing `git clone` along with the copied URL**
 ```bash session
@@ -101,9 +95,7 @@ By **Forking**, you can make your own copy of a repository somewhere else (for e
 
 **Cloning** creates a local copy of a repository. Imagine doing that by downloading a repository to your computer's local storage. Clones have references to their original repositories, unlike forks.
 
- <p align="center">
-	 <img src="https://i.imgur.com/eSN0n99.jpg" width='700px' />
-</p>
+ ![Clone vs Fork](https://i.imgur.com/eSN0n99.jpg)
 
 ## How to Fork a Repository
 
@@ -113,24 +105,20 @@ The steps to fork the repository are the following:
 
  1. Go to the GitHub repository [4Geeks react-flask-hello](https://github.com/4GeeksAcademy/react-flask-hello)
  2. Click the **Fork** button located in the top right corner of the page
-<p align="center">
-	<img src="https://i.imgur.com/0qzfYg0.png" width="700px" />
-</p>
+
+![Fork Steps 2](https://i.imgur.com/0qzfYg0.png)
 
  3. Then, an owner must be selected for the forked repository clicking the **Select an owner** button, then choose the **Repository name**. You can also add a description (optional) to your fork if desired.
-<p align="center">
-	<img src="https://i.imgur.com/XeJ0BPJ.png" width="700px" />
-</p>
+
+![Fork Steps 3](https://i.imgur.com/XeJ0BPJ.png)
 
  4. Below the description field, there is a checkbox (**Copy the `main` branch only**) that allows you to only copy the main branch, if you want to copy the whole repository with all of its branches, then this box should be unmarked. 
-<p align="center">
-	<img src="https://i.imgur.com/4C9aXVJ.png" width="700px" />
-</p>
+ 
+![Fork Steps 4](https://i.imgur.com/4C9aXVJ.png)
 
 5. You can now click **Create Fork** and it'll be done
-<p align="center">
-	<img src="https://i.imgur.com/sm1x81i.png" width="600px" />
-</p>
+
+![Fork Steps 5](https://i.imgur.com/sm1x81i.png)
 
 ## How to clone using the GitHub app instead of the terminal
 
@@ -138,19 +126,14 @@ You can also use the GitHub Desktop App to clone a repository to your computer, 
  
  1. Go to the desired GitHub repository, let's use the [4Geeks react-flask-hello](https://github.com/4GeeksAcademy/react-flask-hello) repo again. Click on the **Code** button to display the options and proceed to click the **Open with GitHub Desktop** button
 
-<p align="center">
-	<img src="https://i.imgur.com/KPFvgCO.png"  width="500px"/>
-</p>
+![GitHub App Steps 1](https://i.imgur.com/KPFvgCO.png)
 
- 3. The GitHub Desktop App will automatically open in your computer and a window called **Clone a repository** will be displayed. Here you can confirm the repository to be cloned and you can change the local path where the repository will be saved by clicking the **Choose...** button, or you can just copy the path and paste it in the corresponding field
+ 2. The GitHub Desktop App will automatically open in your computer and a window called **Clone a repository** will be displayed. Here you can confirm the repository to be cloned and you can change the local path where the repository will be saved by clicking the **Choose...** button, or you can just copy the path and paste it in the corresponding field
 
-<p align="center">
-	<img src="https://i.imgur.com/mMS54sJ.png" width="500px" />
-</p>
+![GitHub App Steps 2](https://i.imgur.com/mMS54sJ.png)
 
- 4. You can now proceed to click the **Clone** button and the repository will be cloned in the desired path/directory
- <p align="center">
-	<img src="https://i.imgur.com/UVc92fA.png" width="500px" />
-</p>
+ 3. You can now proceed to click the **Clone** button and the repository will be cloned in the desired path/directory
+
+![GitHub App Steps 3](https://i.imgur.com/UVc92fA.png)
 
 The following video describes the step by step of everything that has been explained in this **GitHub Clone Repository** article
