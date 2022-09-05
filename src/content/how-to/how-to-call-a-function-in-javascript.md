@@ -3,29 +3,27 @@ The most common scenario in software development or projects is that they have a
 
 Since we know that this is something that will surely happen in our development process, it is a good idea to include these repetitive tasks in a module or code blocks and reuse them when necessary, these modules or code blocks are called **functions**. 
 
-<p align="center">
-  <img src="https://www.tutorialstonight.com/assets/js/javascript-function.png" width='500px'/>
-</p>
+![enter image description here](https://www.tutorialstonight.com/assets/js/javascript-function.png)
 
 So, **how to call a function in Javascript?** Before answering this question, we need to understand how to write a function. Let's see the general syntax of a function in the following example:
 
 ```js
-function sayHi() {
-	return alert("Hi");
+function helloWorld() {
+	console.log("Hello World");
 	//You can add more statements here
 }
 ```
-To declare a function, first we need to write the **keyword `function`**,  since this is a Javascript keyword, it must be always written in lowercase (otherwise we will get an error). Next to the keyword, we will write the **function's name**, in this case is **`sayHi`**, next to the name we have the **parentheses `()`**, where the parameters to be used in the function will be contained (in this case we don't have any parameters but we always need to write both parentheses after the function's name). Last but not least, we have the **curly braces `{}`**, where the body or statements of the function will be written.
+To declare a function, first we need to write the **keyword `function`**,  since this is a Javascript keyword, it must be always written in lowercase (otherwise we will get an error). Next to the keyword, we will write the **function's name**, in this case is **`helloWorld`**, next to the name we have the **parentheses `()`**, where the parameters to be used in the function will be contained (in this case we don't have any parameters but we always need to write both parentheses after the function's name). Last but not least, we have the **curly braces `{}`**, where the body or statements of the function will be written.
 
 If we run the code as it is, nothing will happen since we just declared the function. If we want to execute the function we need to call it. A simple way to call the previous function is the following:
 
 ```js
-function sayHi() {
-	return alert("Hi");
+function helloWorld() {
+	console.log("Hello World");
 }
-sayHi(); //We are calling the function here
+helloWorld(); //We are calling the function here
 ```
-To call a function we just need to write our function's name alongside the parentheses (this is a must) with the corresponding parameters, have in mind that any function's name is case sensitive, so we need to write the function's name in the correct case to call the right function. Now, if we run the code, we will get an alert with the message `"Hi"`.
+To call a function we just need to write our function's name alongside the parentheses (this is a must) with the corresponding parameters, have in mind that any function's name is case sensitive, so we need to write the function's name in the correct case to call the right function. Now, if we run the code, we will get a `Hello World` message in our console.
 
 And what if we are a bit lazy to think of a name for our function? Good news, we can declare functions without giving them a name, these functions are called **anonymous**
 
@@ -59,9 +57,8 @@ A class is like a template for creating objects, objects created from the class 
 
 To have a clearer idea, imagine that the class is a cookie mold, the mold represents the class from which you can build or make objects, which in this example would be cookies. Although all the cookies are the same in terms of their shape, each one has different decorations, these decorations would be the properties or attributes of each object.
 
-<p align="center">
-  <img src="https://i.imgur.com/rutzmFZ.jpg" width='600px' /></a>
-</p>
+![enter image description here](https://i.imgur.com/rutzmFZ.jpg)
+
 
 Each class internally has a constructor to create the attributes of each object and as an additional feature, a class has methods, and methods are nothing more than functions that an object can have. Let see the following example:
 ```js
@@ -155,27 +152,28 @@ Both of our human's countries change since we called our `setCountry(newCountry)
 Another alternative to write a function in Javascript is the **Arrow Function** that is a shorter way to write a conventional function. Before explaining how to call an arrow function, let's see how we can convert a conventional function to an arrow function, let's use one of the functions used previously:
 
 ```js
-function sayHi() {
-	return alert("Hi");
+function helloWorld() {
+	console.log("Hello World");
 }
 
 //1. The first step is to remove the function keyword, since in an arrow function, this keyword is assumed
 //2. Then we need to assign the function to a variable
 //3. And then after the parameters (parentheses) we need to add the arrow (=>) like this:
 
-let sayHi = () => {
-	return alert("Hi");
+let helloWorld = () => {
+	console.log("Hello World");
 }
 
 //4. Since this is a single line function, we can simplify this function more by removing the curly braces {}, like this:
 
-let sayHi = () => alert("Hi"); 
-//As you can see there is no return word, since everything that comes after the arrow is assumed to be returned
+let helloWorld = () => console.log("Hello World"); 
 ```
 
 As you may already know, if we run the code like this, you guessed it, nothing happens. We need to call the function, and we can call an arrow function the same way as a conventional function:
 
 ```js
-let sayHi = () => alert("Hi"); 
-sayHi(); //We are calling the function here
+let helloWorld = () => console.log("Hello World");
+helloWorld(); //We are calling the function here
 ```
+
+We hope that this information serves you well on how to call a function in javascript, keep coding!
