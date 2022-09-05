@@ -4,9 +4,7 @@ One of the many operators in Python is the double slash `//` operator, which ref
 
 You may be wondering, if the result will always be an integer, where does this operator round the result? The double slash `//` has the same function as the Python method math.floor (which we will discuss later), as its name implies, rounds the result down (rounds to its floor) to the closest integer.
 
-<p align="center">
-  <img src="https://i.ytimg.com/vi/mv5uHSXLkhs/maxresdefault.jpg" width='450px'/>
-</p>
+![Floor Division Example](https://i.ytimg.com/vi/mv5uHSXLkhs/maxresdefault.jpg)
 
 In this article we will review more thoroughly how the **Floor Division** differs from a normal division, how the `//` operator works with different types of numbers (negative numbers and decimal numbers) and some extra methods similar to a Floor Division.
 
@@ -139,6 +137,6 @@ print(math.ceil(11.0)) #Output 11
 ```
 
 ## Summary <a name="summary"></a>
-The next video will be of great help to better understand what was explained in this article
+The next video will be of great help to better understand what was explained in this **What Does // Mean in Python?** article
 
 [![Python Floor Division Tutorial (Double Forward Slash)](https://res.cloudinary.com/marcomontalbano/image/upload/v1661366456/video_to_markdown/images/youtube--tFdVvNbV9-E-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=tFdVvNbV9-E "Python Floor Division Tutorial (Double Forward Slash)")
