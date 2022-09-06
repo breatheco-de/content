@@ -6,7 +6,7 @@ You may be wondering, if the result will always be an integer, where does this o
 
 ![Floor Division Example](https://i.ytimg.com/vi/mv5uHSXLkhs/maxresdefault.jpg)
 
-In this article we will review more thoroughly how the **Floor Division** differs from a normal division, how the `//` operator works with different types of numbers (negative numbers and decimal numbers) and some extra methods similar to a Floor Division.
+In this article, we will review more thoroughly how the **Floor Division** differs from a normal division, how the `//` operator works with different types of numbers (negative numbers and decimal numbers) and some extra methods similar to a Floor Division.
 
 ## What Does `//` Mean in Python? Points of Interest
 
@@ -44,7 +44,7 @@ print("floor division of", num1, "by", num2, "=", result2)
 
 ## Working with Negative Numbers in Floor Divisions <a name="negative"></a>
 
-To understand how to work with negative numbers using floor division, we need to understand that the **floor of a positive number** is different from the **floor of a negative number**. For example, the floor of `3.4` is `3`, but the floor of `-3.4` is `-4`, not `3`. For greater understanding we could say that the floor of a positive number would be the integer below, and that the floor of a negative number would be the integer that is above (maintaining the negative sign).
+To understand how to work with negative numbers using floor division, we need to understand that the **floor of a positive number** is different from the **floor of a negative number**. For example, the floor of `3.4` is `3`, but the floor of `-3.4` is `-4`, not `3`. For greater understanding, we could say that the floor of a positive number would be the integer below and that the floor of a negative number would be the integer that is above (maintaining the negative sign).
 
 We can see another example as follows using the same numbers as before:
 
@@ -67,7 +67,7 @@ print("floor division of", num3, "by", num2, "=", result3)
 ```
 
 ## Working with Floats in Floor Divisions <a name="floats"></a>
-When we work with float numbers using floor division, the result will always be a float number, and as we already know, the result will be the nearest integer rounded to its floor, but in this case it will be represented by a float number.
+When we work with float numbers using floor division, the result will always be a float number, and as we already know, the result will be the nearest integer rounded to its floor, but in this case, it will be represented by a float number.
 
 Let's have a look at the following float-based floor division example:
 
@@ -92,12 +92,12 @@ print("floor division of", num5, "by", num6, "=", result3)
 # floor division of 13.4 by 3 = 4.0
 ```
 
-As a result, the floor division operation is carried out using floats, and float with integer returns the value rounded down to the nearest integer represented by the floats.
+As a result, the floor division operation is carried out using floats, and a float with an integer returns the value rounded down to the nearest integer represented by the floats.
 
 
 ## Similar Methods of a Floor Division <a name="similar"></a>
 
-In Python there are several methods similar to operations with `//` (floor division). But, how would these other methods be useful to us? It all depends on our use case, in some situations we will find ourselves needing to handle only integers in our projects, and since floor division operations can get both integers and floats, we could use a hand in these cases.
+In Python, there are several methods similar to operations with `//` (floor division). But, how would these other methods be useful to us? It all depends on our use case, in some situations we will find ourselves needing to handle only integers in our projects, and since floor division operations can get both integers and floats, we could use a hand in these cases.
 
 This is where these two additional methods come in, which are `math.floor()` and `math.ceil`, they will allow us to manipulate the result so that it is always an integer.
 
