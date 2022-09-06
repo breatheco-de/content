@@ -110,11 +110,11 @@ The steps to fork the repository are the following:
 
  3. Then, an owner must be selected for the forked repository by clicking the **Select an owner** button, then choosing the **Repository name**. You can also add a description (optional) to your fork if desired.
 
-![Fork Steps 3](https://i.imgur.com/XeJ0BPJ.png)
+![Fork Steps 3](https://imgur.com/4gqX7LM.png)
 
  4. Below the description field, there is a checkbox (**Copy the `main` branch only**) that allows you to only copy the main branch, if you want to copy the whole repository with all of its branches, then this box should be unmarked. 
  
-![Fork Steps 4](https://i.imgur.com/4C9aXVJ.png)
+![Fork Steps 4](https://imgur.com/8CRRVxR.png)
 
 5. You can now click **Create Fork** and it'll be done
 
