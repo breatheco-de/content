@@ -1,6 +1,6 @@
 ---
-title: "Construyendo APIs REST utilizando Expressjs"
-subtitle: "Expressjs permite construir API REST de una forma rápida, minimalista y flexible"
+title: "Building APIs with nodejs Expressjs"
+subtitle: "Expressjs allows you to build REST APIs in a fast, minimalist and flexible way"
 cover_local: "../../assets/images/node-expressjs.png"
 textColor: "white"
 date: "2021-04-17T16:36:31+00:00"
@@ -9,34 +9,34 @@ tags: ["Expressjs","nodejs","REST","API"]
 
 ---
 
-Si no sabes qué es una API REST, recomiendo [leer sobre esto aquí](http://content.breatheco.de/lesson/understanding-rest-apis).
+If you don't know what a REST API is, we recommend you to [read about it here](http://content.breatheco.de/lesson/understanding-rest-apis).
 
-A modo de breve resumen, construir una API de forma REST significa que tienes que construir sus endpoints de URL agrupados por **"recursos"**. Un recurso es algo que quieres gestionar, por ejemplo: un estudiante, un usuario, un auto, etc. Un recurso es algo similar a una tabla de base de datos, pero los llamamos "recursos" debido a algunas excepciones.
+As a short summary, building an API in a REST way means that you have to build its URL endpoints grouped by **"resources"**. A resource is something you want to manage, for example: a student, a user, a car, etc. A resource is somewhat similar to a database table, but we call them "resources" because of a few exceptions.
 
-Aquí hay un ejemplo de endpoints RESTful API para gestionar **Estudiantes**:
+Here is an example of RESTful API endpoints to manage **Students**:
 
-| Método | URL | Descripción |
+| Method | URL | Description |
 | ------ | --- | ----------- |
-| GET    | /estudiante | Debería devolver todos los estudiantes |
-| GET    | /estudiante/1 | Debería devolver un solo estudiante con el id=1 |
-| GET    | /cohort/1/estudiantes | Debería devolver todos los estudiantes de la clase con el id=1 |
-| POST   | /estudiante | Debería crear un nuevo estudiante |
-| PUT    | /estudiante/1 | Debería actualizar la información del estudiante con el id=1 |
-| DELETE | /estudiante/1 | Debería eliminar al estudiante con el id=1 |
+| GET    | /student | It should return all students |
+| GET    | /student/1 | It should return a single student with id=1 |
+| GET    | /cohort/1/students | It should return all students in the class with id=1 |
+| POST   | /student | It should create a new student |
+| PUT    | /student/1 | It should update the student information with the id=1 |
+| DELETE | /student/1 | It should remove the student with id=1 |
 
-Echa un vistazo a las URL, ellas siguen un patrón. Después de un tiempo, los endpoints hablarán por sí mismos, tendrán sentido y podrás adivinar a lo que hacen o incluso adivinar algunos endpoints. Esa es la idea.
+Take a look at the URLs, they follow a pattern. After a while, the endpoints will speak for themselves, they will make sense and you will be able to guess what they do or even guess some endpoints. That's the idea.
 
-> :point_up: Puede leer más sobre las API REST en [esta lección de BreatheCode](http://content.breatheco.de/lesson/understanding-rest-apis).<br /> Aquí hay un video de 8 minutos que explica REST: https://www.youtube.com/watch?v=7YcW25PHnAA
+> :point_up: You can read more about REST APIs in [this BreatheCode lesson](http://content.breatheco.de/lesson/understanding-rest-apis).<br /> Here is an 8 minute video explaining REST: https://www.youtube.com/watch?v=7YcW25PHnAA
 
-## Ahora hablemos sobre Expressjs
+## Now let's talk about Expressjs
 
-Expressjs es librería que nos permite construir un servidor web API de una forma rápida, minimalista y flexible utilizando nodejs.  El primer paso para utilizarla es realizando la instalación en tu proyecto, para esto en tu terminal debes ejecutar:
+Expressjs is a library that allows us to build a web API server in a fast, minimalist and flexible way using nodejs. The first step to use it is performing the installation in your project, for this in your terminal you must execute:
 
 ```
 $ npm install express --save
 ```
 
-Una vez finalizada la instalación podemos crearas un archivo server.js ya agregaremos las siguientes líneas, el computar comenzará a escuchar las solicitudes HTTP:
+Once the installation is finished we can create a server.js file and we will add the following lines, the compute will start listening to HTTP requests:
 
 ```javascript
 const express = require('express');
@@ -48,70 +48,71 @@ app.get('/', (req, res)=>{
 
 
 app.listen(4000, function(){
+    console.log('API running on port 4000');
+})
+```
+[Click to test this code live.](https://replit.com/@ManuelOrtega3/Expressjs-Hello-World)
+
+
+## Expressjs Hello-Wold explained
+
+```javascript
+const express = require('express'); #here we are importing the Expressjs library in our file.
+const app = express(); #here we create a new Expressjs server instance.
+
+app.get('/', (req, res)=>{  #here we define the first API path: GET /
+    res.send("Hello World!")  #expressjs will return "Hello World, esto podría ser un string HTML o un string JSON.
+})
+
+
+app.listen(4000, function(){  #to finish we start the server on localhost.
     console.log('API en ejecución en el puerto 4000');
 })
 ```
-[Haz clic para probar este código en vivo.](https://replit.com/@ManuelOrtega3/Expressjs-Hello-World)
+In Expressjs we can add new endpoints using the variable `app` which is the instance we defined in expressjs and adding the http method where our endpoint will be available `app.get('/', (req, res)=>{}` , as you can see we will have a callback function that will receive 2 parameters `req, res`, the detail of these parameters is as follows:
 
+- req : It is an object that represents the HTTP request and gives us information about the request such as the body, query params, HTTP headers.
 
-## Expressjs Hello-Wold explicado
+- res : It is an object that represents the HTTP response that the Express application sends when it receives an HTTP request.
 
-```javascript
-const express = require('express'); #aquí importamos la librería Expressjs en nuestro archivo.
-const app = express(); #aquí creamos una nueva instancia del servidor Expressjs.
+In the following link you can access the documentation of [Expressjs](http://expressjs.com/es/api.html) 
 
-app.get('/', (req, res)=>{  #aquí definimos el primer path de la API: GET /
-    res.send("Hello World!")  #expressjs devolverá "Hello World, esto podría ser un string HTML o un string JSON.
-})
+## Adding new endpoints
 
-
-app.listen(4000, function(){  #finalmente iniciamos el servidor en el localhost.
-    console.log('API en ejecución en el puerto 4000');
-})
-```
-En Expressjs podemos agregar nuevos endpoints utilizando la variable `app` que es la instancia que definimos de expressjs y agregando el método http donde se encontrará disponible nuestro endpoint `app.get('/', (req, res)=>{}`, como puedes ver tendremos una función de devolución de llamada que recibirá 2 parámetros `req, res`.   El detalle de estos parámetros es el siguiente:
-
-- req : Es un objeto que representa la solicitud HTTP y nos entrega información del request como el body, query params, HTTP headers.
-
-- res : Es un objeto que representa la respuesta HTTP que envía la aplicación Express cuando recibe una solicitud HTTP
-
-En el siguiente link puedes acceder a la documentación de (Expressjs)[http://expressjs.com/es/api.html]
-## Agregando nuevos endpoints
-
-Si deseas agregar otro endpoint a tu API que se ejecuta cuando un cliente haga el `GET/person`, tendrás que agregar otro bloque de código como este:
+If you want to add another endpoint to your API that is executed when a client does the `GET/person`, you will need to add another block of code like this:
 
 ```javascript
-app.get('/', (req, res)=>{  #aquí definimos el primer path de la API: GET /
-    res.send("Hello World!")  #expressjs devolverá "Hello World, esto podría ser un string HTML o un string JSON.
+app.get('/', (req, res)=>{  #here we define the first API path: GET /
+    res.send("Hello World!")  #expressjs will return "Hello World, esto podría ser un string HTML o un string JSON.
 })
 ```
 
-## Especificando el método: GET, PUT, POST, DELETE
+## Specifying the method: GET, PUT, POST, DELETE
 
-Si deseas que tu endpoint responda a POST, PUT o DELETE, puedes especificarlo de la siguiente manera:
+If you want your endpoint to respond to POST, PUT or DELETE, you can specify it as follows:
 
 ```javascript
 const express = require('express');
 const app = express();
 
-app.get('/', (req, res)=>{  #aquí definimos el primer path de la API: GET /
+app.get('/', (req, res)=>{  #here we define the first API path: GET /
     res.send("Se recibió un GET")
 })
 
-app.post('/', (req, res)=>{  #aquí definimos el primer path de la API: POST /
+app.post('/', (req, res)=>{  #here we define the first API path: POST /
     res.send("Se recibió un POST")
 })
 
-app.listen(4000, function(){  #finalmente iniciamos el servidor en el localhost.
-    console.log('API en ejecución en el puerto 4000');
+app.listen(4000, function(){  #to finish we start the server on localhost.
+    console.log('API running on port 4000');
 })
 ```
 
-## Respondiendo un cuerpo JSON
+## Responding to a JSON body
 
-La respuesta puede ser básicamente lo que quieras siempre que sea un string: HTML, JSON, CSS, imágenes, etc. Solo asegúrate de convertir en string lo que quieras responder.
+The response can be basically anything you want as long as it's a string: HTML, JSON, CSS, images, etc. Just make sure to string whatever you want to reply to.
 
-En el siguiente ejemplo, estamos utilizando el método JSON.stringify para convertir un objeto llamado `person1` en en un string JSON antes de devolverlo al cliente.
+In the following example, we are using the JSON.stringify method to convert an object named `person1` to a JSON string before returning it to the client.
 
 ```javascript
 const express = require('express');
@@ -123,9 +124,9 @@ app.get('/person', (req, res)=>{
 })
 ```
 
-## El código de respuesta
+## The response code
 
-El código de respuesta es 200 por defecto, y 500 si hay un error desconocido. Si deseas responder al cliente con un código diferente, deberás especificarlo así:
+The response code is 200 by default, and 500 if there is an unknown error. If you want to reply to the client with a different code, you'll need to specify it like so:
 
 
 ```javascript
@@ -134,20 +135,20 @@ app.get('/person', (req, res)=>{
     const contenido = {
       "detalles": "Hubo un error en la solicitud"
     }
-    res.status(400).json(contenido); # aquí cambiamos el código de estado a 400 (código muy común en caso de errores de solicitud)
+    res.status(400).json(contenido); #here we change the status code to 400 (very common code in case of request errors)
 })
 ```
 
-## Manejo de errores y validaciones
+## Error handling and validations
 
-Pero ¿y si la solicitud viene con errores? Por ejemplo: si tenemos un endpoint para crear una persona y debemos especificar el first_name Y el last_name, pero solo se encontró el first_name en la solicitud, así es como lo validaríamos:
+But what if the request comes with errors? For example: if we have an endpoint to create a person and we need to specify the first_name AND the last_name, but only the first_name was found in the request, this is how we would validate it:
 
 
 ```javascript
 const express = require('express');
 
-app.use(express.json()) // Permite parsear el contenido en un tipo application/json
-app.use(express.urlencoded({ extended: true })) // Permite parsear el contenido en un tipo application/x-www-form-urlencoded
+app.use(express.json()) // Allows to parse the content in an application/json type
+app.use(express.urlencoded({ extended: true })) // Allows parsing the content into an application/x-www-form-urlencoded type
 
 
 app.post('/person', (req, res) => {
@@ -168,27 +169,27 @@ app.post('/person', (req, res) => {
     return res.status(400).json(body);
 })
 ```
-La librería `express-validator` nos entrega una forma más cómoda para el manejo de las validaciones, pueden obtener más información de como usarla visitando su documentación  [https://express-validator](https://express-validator.github.io/docs/) 
+The `express-validator` library gives us a more comfortable way to handle validations, you can get more information on how to use it by visiting its documentation [https://express-validator](https://express-validator.github.io/docs/) 
 
 
-## Midlewares
+## Middlewares
 
-Un midleware es una función que tiene acceso al objeto de solicitud o request, al objeto de respuesta o response y a la siguiente función de midleware a ejecutarse en el ciclo de solictud/respuesta.  Una vez que nuestro midleware termine su ejecución es importante ejecutar la función `next()` o la solicitud quedara colgada.
+A middleware is a function that has access to the request object, the response object, and the next middleware function to be executed in the request/response cycle. Once our middleware finishes its execution it is important to execute the `next()` function or the request will hang.
 
-A continuación un ejemplo de un midleware que imprimirá por consola la fecha y hora en la que ocurren las consultas a la API
+Below is an example of a middleware that will print in the console the date and time in which the API queries occur:
 
 ```javascript
 const express = require('express');
 
 app.use(function (req, res, next) {
   console.log('Time:', Date.now());
-  next();  # aquí invoca al siguiente midleware
+  next();  #here invoke the following middleware
 });
 
 ```
 
-## ¿Listo para empezar a codificar?
+## Ready to start coding?
 
-Hemos preparado este ejemplo de codificación en vivo que puede ejecutar tu mismo en Gitpod y utilizarlo como base para su proyecto.
+We have prepared this live coding example that you can run yourself on Gitpod and use as the basis for your project.
 
 Expressjs Rest Hello: [https://github.com/4GeeksAcademy/expressjs-rest-hello](https://github.com/4GeeksAcademy/expressjs-rest-hello)
