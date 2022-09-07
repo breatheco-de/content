@@ -17,28 +17,28 @@ In other words, cloning a repository means downloading a complete copy of it to 
 
 So why cloning a repository you may ask? Cloning a project has many benefits as:
 
-- Browse the history of the project, and see how it has evolved
-- See the changes that have occurred in the code
-- Know who and when has modified the code
-- Access the branches of the project and create your own
-- Start modifying the code, save the changes and add your work to the existing one
+- Browse the history of the project, and see how it has evolved.
+- See the changes that have occurred in the code.
+- Know who has modified the code and when.
+- Access the branches of the project and create your own.
+- Start modifying the code, save the changes and add your work to the existing one.
 
-And all this without the need to be connected to the internet. We will only need internet connection when we want to "share" our work with someone else or we want to upload our work to GitHub.
+And all this without the need to be connected to the internet. We will only need an internet connection when we want to "share" our work with someone else or we want to upload our work to GitHub.
 
 
  ![Cloning Thing GIF](https://c.tenor.com/AQM9IEdO0K8AAAAd/clone.gif)
 
 
 ## Steps to Clone a GitHub Repository (Using the terminal)
-For this example, we will clone one of 4Geeks popular repositories that is [4Geeks react-flask-hello](https://github.com/4GeeksAcademy/react-flask-hello). The steps to clone this repository are as follows:
+For this example, we will clone one of 4Geeks popular repositories, that is [4Geeks react-flask-hello](https://github.com/4GeeksAcademy/react-flask-hello). The steps to clone this repository are as follows:
 
  1. **Determine or locate where you want to clone the desired repository** |
- Locate the folder on your computer where you want to save the repository, or you can create a new one. Let’s say we want to save our repository in a folder called `my-first-cloned-repo` as shown below
+ Locate the folder on your computer where you want to save the repository, or you can create a new one. Let’s say we want to save our repository in a folder called `my-first-cloned-repo` as shown below.
 
 ![Locating Folder](https://i.imgur.com/lAV0nLj.jpg)
 	 
  2. **Open the terminal** |
-You can use the **Git Bash** terminal or any **IDE (Integrated Development Environment) or Code Editor** terminal.  With the terminal open, input `cd` and add/copy the directory/folder location/path. Since we want to save the repository in our folder `my-first-cloned-repo`, let's copy the folder's path `C:\Users\rafam\Programming Projects\my-first-cloned-repo` and paste it into the terminal, you can also drag and drop the folder in the terminal and press enter
+You can use the **Git Bash** terminal or any **IDE (Integrated Development Environment) or Code Editor** terminal.  With the terminal opened, input `cd` and add/copy the directory/folder location/path. Since we want to save the repository in our folder `my-first-cloned-repo`, let's copy the folder's path `C:\Users\rafam\Programming Projects\my-first-cloned-repo` and paste it on the terminal, you can also drag and drop the folder on the terminal and press enter
 ```bash session
 # Git Bash Terminal:
 
@@ -49,13 +49,13 @@ rafam@LAPTOP-LLV85FV6 MINGW64 ~/Programming Projects/my-first-cloned-repo
 ```
 
  3. **Go to the [4Geeks react-flask-hello](https://github.com/4GeeksAcademy/react-flask-hello) repository in GitHub** |
- Once you are located in the [4Geeks react-flask-hello](https://github.com/4GeeksAcademy/react-flask-hello) repository in GitHub, we need to click the **Code** button to display the clone options and then click the **Copy** button which is highlighted (shown below) and next to the repo URL:
+ Once you are located in the [4Geeks react-flask-hello](https://github.com/4GeeksAcademy/react-flask-hello) repository in GitHub, you need to click the **Code** button to display the clone options and then click the **Copy** button which is highlighted (shown below) and next to the repo URL:
 	 
 ![4Geeks Repo Example Pic 1](https://i.imgur.com/xu3Psl0.png)
 
 ![4Geeks Repo Example Pic 2](https://i.imgur.com/QPEPsZE.png)
 
- 4. **Go to the terminal and use the git clone command typing `git clone` along with the copied URL**
+ 4. **Go to the terminal and use the git clone command by typing `git clone` along with the copied URL**
 ```bash session
 # Git Bash Terminal:
 
@@ -85,7 +85,7 @@ Receiving objects: 100% (1024/1024), 8.86 MiB | 7.31 MiB/s, done.
 Resolving deltas: 100% (521/521), done.
 ```
 
-It is important to understand that you can clone any repository not only from GitHub, but from any other site if you have the git URL. Remember that you clone a repository with the `git clone <url>` command.
+It is important to understand that you can clone any repository not only from GitHub, but from any other site, if you have the git URL. Remember that you clone a repository with the `git clone <url>` command.
 
 ## Clone vs Fork
 
@@ -99,7 +99,7 @@ By **Forking**, you can make your own copy of a repository somewhere else (for e
 
 ## How to Fork a Repository
 
-So you want to make your own copy of a repository, let's make a copy of the repository that we cloned in the example above [4Geeks react-flask-hello](https://github.com/4GeeksAcademy/react-flask-hello).
+So you want to make your own copy of a repository, let's make a copy of the one that we cloned in the example above [4Geeks react-flask-hello](https://github.com/4GeeksAcademy/react-flask-hello).
 
 The steps to fork the repository are the following:
 
@@ -108,7 +108,7 @@ The steps to fork the repository are the following:
 
 ![Fork Steps 2](https://i.imgur.com/0qzfYg0.png)
 
- 3. Then, an owner must be selected for the forked repository by clicking the **Select an owner** button, then choosing the **Repository name**. You can also add a description (optional) to your fork if desired.
+ 3. Then, an owner must be selected for the forked repository by clicking the **Select an owner** button and choosing the **Repository name**. You can also add a description (optional) to your fork if desired.
 
 ![Fork Steps 3](https://imgur.com/4gqX7LM.png)
 
@@ -124,11 +124,11 @@ The steps to fork the repository are the following:
 
 You can also use the GitHub Desktop App to clone a repository to your computer, once you have downloaded the **GitHub Desktop App** here https://desktop.github.com/, and being signed to the GitHub website and Desktop App, then you can follow these steps:
  
- 1. Go to the desired GitHub repository, let's use the [4Geeks react-flask-hello](https://github.com/4GeeksAcademy/react-flask-hello) repo again. Click on the **Code** button to display the options and proceed to click the **Open with GitHub Desktop** button
+ 1. Go to the desired GitHub repository, let's use the [4Geeks react-flask-hello](https://github.com/4GeeksAcademy/react-flask-hello) repo again. Click on the **Code** button to display the options and proceed to click the **Open with GitHub Desktop** button.
 
 ![GitHub App Steps 1](https://i.imgur.com/KPFvgCO.png)
 
- 2. The GitHub Desktop App will automatically open on your computer and a window called **Clone a repository** will be displayed. Here you can confirm the repository to be cloned and you can change the local path where the repository will be saved by clicking the **Choose...** button, or you can just copy the path and paste it into the corresponding field
+ 2. The GitHub Desktop App will automatically open on your computer and a window called **Clone a repository** will be displayed. Here you can confirm the repository to be cloned and you can change the local path where the repository will be saved by clicking the **Choose...** button, or you can just copy the path and paste it in the corresponding field.
 
 ![GitHub App Steps 2](https://i.imgur.com/mMS54sJ.png)
 
@@ -136,4 +136,4 @@ You can also use the GitHub Desktop App to clone a repository to your computer, 
 
 ![GitHub App Steps 3](https://i.imgur.com/UVc92fA.png)
 
-The following video describes the step by step of everything that has been explained in this **GitHub Clone Repository** article
+The following video describes the step by step of everything that has been explained in this **GitHub Clone Repository** article:
