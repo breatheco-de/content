@@ -23,7 +23,7 @@ function helloWorld() {
 }
 helloWorld(); //We are calling the function here
 ```
-To call a function we just need to write our function's name alongside the parentheses (this is a must) with the corresponding parameters, have in mind that any function's name is case sensitive, so we need to write the function's name in the correct case to call the right function. Now, if we run the code, we will get a `Hello World` message in our console.
+To call a function we just need to write our function's name alongside the parentheses (this is a must) with the corresponding parameters. Have in mind that any function's name is case sensitive, so we need to write the function's name in the correct case to call the right function. Now, if we run the code, we will get a `Hello World` message in our console.
 
 And what if we are a bit lazy to think of a name for our function? Good news, we can declare functions without giving them a name, these functions are called **anonymous**
 
@@ -35,7 +35,7 @@ function() {
 	console.log("Hello World");
 }
 ```
-As you already know, if we run the code as it is, nothing will happen. To call this anonymous function, first, we need to store the same in a variable like this:
+As you already know, if we run the code as it is, nothing will happen. To call this anonymous function, first we need to store the same in a variable like this:
 ```js
 const greet = function() {
 	console.log("Hello World");
@@ -50,7 +50,7 @@ greet(); //We are calling the function here
 ```
 It is highly recommended to store anonymous functions in a variable declared by the keyword `const`, this is to avoid changing its value later on in our program. 
 
-There is another type of function in Javascript called **Class** that is very similar to a normal function but differs in some points from it. Let's see what is a **Class** in Javascript and how we call this type of function.
+There is another type of function in Javascript called **Class**, that is very similar to a normal function but differs in some points from it. Let's see what is a **Class** in Javascript and how we call this type of function.
 
 ## How to Call a Function in Javascript? (Class Functions)
 A class is like a template for creating objects, objects created from the class will have the same characteristics and are known as attributes and methods.
@@ -74,7 +74,7 @@ class Human{
 	}
 }
 ```
-First, we have a function called `Human` that receives `country` and `language` as parameters. Then we simply add the `country` and `language` that comes as a parameter to the instance that is created through that constructor function writing `this.` before each parameter.
+First, we have a function called `Human` that receives `country` and `language` as parameters. Then we simply add the `country` and `language` that come as a parameter to the instance that is created through that constructor function writing `this.` before each parameter.
 
 Now to get the same result but with a different structure, we have a class, using the **keyword `class`** followed by the name of our object (always starting with a capital letter). Unlike the function, here we have to explicitly declare the `constructor` and its parameters.
 
