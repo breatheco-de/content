@@ -66,7 +66,7 @@ The  `separator` will specify the character where we want to split our original 
 #Let's say that our original string is being separated by commas instead of spaces
 stringName = "My,name,is,Rigoberto"
 
-#If we indicate the comma "," as the separator inside the parantheses of the .split() method we get:
+#If we indicate the comma "," as the separator inside the parentheses of the .split() method we get:
 listName = stringName.split(",")
 
 print(listName) #Output: ["My", "name", "is", "Rigoberto"]
