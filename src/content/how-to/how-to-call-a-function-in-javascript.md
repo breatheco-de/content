@@ -160,19 +160,19 @@ function helloWorld() {
 //2. Then we need to assign the function to a variable
 //3. And then after the parameters (parentheses) we need to add the arrow (=>) like this:
 
-let helloWorld = () => {
+const helloWorld = () => {
 	console.log("Hello World");
 }
 
 //4. Since this is a single line function, we can simplify this function more by removing the curly braces {}, like this:
 
-let helloWorld = () => console.log("Hello World"); 
+const helloWorld = () => console.log("Hello World"); 
 ```
 
 As you may already know, if we run the code like this, you guessed it, nothing happens. We need to call the function, and we can call an arrow function the same way as a conventional function:
 
 ```js
-let helloWorld = () => console.log("Hello World");
+const helloWorld = () => console.log("Hello World");
 helloWorld(); //We are calling the function here
 ```
 
