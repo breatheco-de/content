@@ -1,4 +1,4 @@
----
+a---
 title: "¿Qué es JavaScript? Aprende a Programar en JavaScript"
 subtitle: "Aprende qué es JavaScript, todos están hablando de ello y, probablemente, ya sepas que es hora de aprender a programar en JavaScript para llevar las cosas al siguiente nivel."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
@@ -12,7 +12,7 @@ status: "published"
 ## ¿Qué es programar?
 
 
-**La programación no es HTML, CSS o Position y Display ...** Esos idiomas no fueron diseñados para desarrolladores, son la única forma en que tenemos que renderizar cosas en un navegador.
+**La programación no es HTML, CSS o Position y Display ...** Esos lenguajes no fueron diseñados para desarrolladores, son la única forma en que tenemos que renderizar cosas en un navegador.
 
 **La Programación es hacer *que el computador* "obedezca"…**
 
