@@ -234,7 +234,7 @@ class Order(db.Model):
 	client_id = db.Column(db.String(50), db.ForeignKey('clients.client_id')
 	invoice = db.Column(db.Integer)
 ```
-There is no word in SQLAlchemy that allows us to perform a `RIGHT OUTER JOIN` since the `outerjoin` word refers to a `LEFT OUTER JOIN` by default.  If we want to perform a `RIGHT OUTER JOIN`, we just need to flip the order of our tables, in other words, **`Table 1 RIGHT OUTER JOIN Table 2`** is equivalent of **`Table 2 LEFT OUTER JOIN Table 1`**, so the query should look like this:
+There is no word in SQLAlchemy that allows us to perform a `RIGHT OUTER JOIN` since the `outerjoin` word refers to a `LEFT OUTER JOIN` by default.  If we want to perform a `RIGHT OUTER JOIN`, we just need to flip the order of our tables, in other words, **`Table 1 RIGHT OUTER JOIN Table 2`** is equivalent to **`Table 2 LEFT OUTER JOIN Table 1`**, so the query should look like this:
 
 ```py
 results = db.session.query(table2, table1).join(table1).all()
