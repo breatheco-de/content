@@ -139,4 +139,4 @@ print(math.ceil(11.0)) #Output 11
 ## Summary <a name="summary"></a>
 The next video will be of great help to better understand what was explained in this **What Does // Mean in Python?** article
 
-[![Python Floor Division Tutorial (Double Forward Slash)](../../assets/python-floor-division-video.jpg)](https://www.youtube.com/watch?v=tFdVvNbV9-E "Python Floor Division Tutorial (Double Forward Slash)")
+[![Python Floor Division Tutorial (Double Forward Slash)](../../assets/images/python-floor-division-video.jpg)](https://www.youtube.com/watch?v=tFdVvNbV9-E "Python Floor Division Tutorial (Double Forward Slash)")
