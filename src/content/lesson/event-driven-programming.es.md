@@ -209,7 +209,7 @@ O puedes hacerlo con `addEventListener`:
 
 ```
 
-Ten en cuenta que en **addEventListener()** solo hacemos referencia a la función (`myChangeHandler`) y **no** la llamamos (`myChangeHandler()`). Si la llamas, se ejecutará automáticamente cuando se cargue la página y no esperará a que se gatille/desencadene un evento y ese no es el objetivo. Por lo tanto, no necesitamos pasar el **objeto de evento (event object)** como argumento allí (no hay paréntesis). **AddEventListener** pasa automáticamente el objeto de evento a la función que lo controlav (handler function).
+Ten en cuenta que en **addEventListener()** solo hacemos referencia a la función (`myChangeHandler`) y **no** la llamamos (`myChangeHandler()`). Si la llamas, se ejecutará automáticamente cuando se cargue la página y no esperará a que se gatille/desencadene un evento y ese no es el objetivo. Por lo tanto, no necesitamos pasar el **objeto de evento (event object)** como argumento allí (no hay paréntesis). **AddEventListener** pasa automáticamente el objeto de evento a la función que lo controla (handler function).
 
 
 ### Información Adicional para ** Eventos del Mouse **
