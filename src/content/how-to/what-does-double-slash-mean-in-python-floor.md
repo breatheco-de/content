@@ -2,6 +2,20 @@
 
 One of the many operators in Python is the double slash `//` operator, which refers to an integer division (or a division with no remainder/decimals) which is called **Floor Division**. When dividing two numbers using this `//` operator, the result will always be an integer, ignoring the decimal part of the result. 
 
+```py
+num1 = 19
+num2 = 5
+result1 = num1 / num2
+result2 = num1 // num2
+
+print("normal division of", num1, "by", num2, "=", result1)
+print("floor division of", num1, "by", num2, "=", result2)
+
+# Output: 
+# normal division of 19 by 5 = 3.8
+# floor division of 19 by 5 = 3
+```
+
 The double slash `//` has the same function as the Python method math.floor (which we will discuss later), as its name implies, rounds the result down (rounds to its floor) to the closest integer.
 
 ![Floor Division Example](../../assets/images/python-floor-division.jpg)
