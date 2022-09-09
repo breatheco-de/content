@@ -12,7 +12,7 @@ status: "published"
 > :point_up: Since in the previous chapter we equated houses, stores and buildings to web pages, then we could say HTML is the blueprints.
 
 
-## HTML is the Website Skeleton
+## HTML is the Website Skeletons
 
 
 All web pages have HTML – it’s the structure of EVERYTHING. Think of it as the columns at a construction site.
