@@ -17,7 +17,7 @@ La gente dice que React.js hace que las cosas fáciles sean difíciles y que las
 
 2. ¿Por qué es tan difícil pasar datos entre componentes? También conocidas props. Las props o propiedades se usan cuando quieres pasar datos entre un padre y un hijo ¿Pero que pasa si tenemos que ir más lejos? Es un infierno.
 
-3. ¿¿Redux (https://redux.js.org/)?? Es demasiado.
+3. ¿Redux (https://redux.js.org/)? Es demasiado.
 
 La context API está aquí para resolver algunos de esos enigmas:
 
