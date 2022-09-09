@@ -21,7 +21,7 @@ The scientific community started using it for the famous [“Peer Reviews”](ht
 
 For this reason, they worked on something as similar as possible to a Microsoft Word document or any other word processor.
 
-> :link: If you wish to find out more about the history of the Internet, we recommend [this super cool 2 min video;](https://www.youtube.com/watch?v=h8K49dD52WA)] if you would rather read about it, [click on this link.](https://www.internetsociety.org/internet/history-internet/brief-history-internet/)
+> :link: If you wish to find out more about the history of the Internet, we recommend [this super cool 2 min video ;](https://www.youtube.com/watch?v=h8K49dD52WA)] if you would rather read about it, [click on this link.](https://www.internetsociety.org/internet/history-internet/brief-history-internet/)
 
 
 >To summarize:
