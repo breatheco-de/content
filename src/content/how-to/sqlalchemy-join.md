@@ -1,6 +1,15 @@
 # SQLAlchemy JOIN
 
-Throughout our development process, we will find ourselves with the need to consult information belonging to different tables of a database. Something that is very useful for this is the union of tables in order to make the consultation of any required information much easier. Here is where the **`JOIN`** clause comes into action. Before understanding how to work with Python and SQLAlchemy Joins, let's explain the definition of a **`JOIN`** in SQL.  
+To perform a basic **`join`** using **SQLAlchemy/Flask** and **Python**, you need to write your query as follows:
+
+```py
+results = db.session.query(table1, table2).join(table2).all()
+```
+This will perform an **`INNER JOIN`** using both tables. If you are wondering what is an **`INNER JOIN`**? You can read more about of what a **`join`** is and several **`join`** methods using **SQLAlchemy/Flask** and **Python** in the following section.
+
+## SQLAlchemy JOIN Fundamentals
+
+Throughout our development process, we will find ourselves with the need to consult information belonging to different tables of a database. Something very useful for this is the union of tables to make the consultation of any required information much easier. Here is where the **`JOIN`** clause comes into action. Before understanding how to work with Python and SQLAlchemy Joins, let's explain the definition of a **`JOIN`** in SQL.  
 
 An **SQL `JOIN`** clause is used to join rows from two or more tables, based on a related column between them (key fields).  You can read more about the definition of a **`JOIN`** here https://www.w3schools.com/sql/sql_join.asp.
 
@@ -144,13 +153,13 @@ class Order(db.Model):
 
 Now, in our query, instead of writing the word `join`, we need to write the word `outerjoin` which by default is a `LEFT OUTER JOIN` in SQLAlchemy:
 
- - `INNER JOIN` query:
+ - **`INNER JOIN`** query:
 
 ```py
 results = db.session.query(table1, table2).join(table2).all()
 ```
 
- - `LEFT OUTER JOIN` query:
+ - **`LEFT OUTER JOIN`** query:
 ```py
 results = db.session.query(table1, table2).outerjoin(table2).all()
 ```
@@ -191,7 +200,7 @@ See that now ***Mark White*** appears on the results with no order, in this way 
 
 ### RIGHT OUTER JOIN:
 
-A **`RIGHT JOIN`**will give priority to the table on the right, giving us all of its rows, and will still look for matching rows on the left table. In other words, we’ll get all the information from the right table and **only the matching information** from the left one.
+A **`RIGHT JOIN`** will give priority to the table on the right, giving us all of its rows, and will still look for matching rows on the left table. In other words, we’ll get all the information from the right table and **only the matching information** from the left one.
 
 ![RIGHT JOIN example](https://www.w3resource.com/sql/joins/joins-output/sql-right-jon.gif)
 
@@ -234,10 +243,10 @@ class Order(db.Model):
 	client_id = db.Column(db.String(50), db.ForeignKey('clients.client_id')
 	invoice = db.Column(db.Integer)
 ```
-There is no word in SQLAlchemy that allows us to perform a `RIGHT OUTER JOIN` since the `outerjoin` word refers to a `LEFT OUTER JOIN` by default.  If we want to perform a `RIGHT OUTER JOIN`, we just need to flip the order of our tables, in other words, **`Table 1 RIGHT OUTER JOIN Table 2`** is equivalent to **`Table 2 LEFT OUTER JOIN Table 1`**, so the query should look like this:
+There is no word in SQLAlchemy that allows us to perform a `RIGHT OUTER JOIN` since the `outerjoin` word refers to a `LEFT OUTER JOIN` by default.  If we want to perform a `RIGHT OUTER JOIN`, we just need to flip the order of our tables, in other words, **`Table 1 RIGHT OUTER JOIN Table 2`** is equivalent of **`Table 2 LEFT OUTER JOIN Table 1`**, so the query should look like this:
 
 ```py
-results = db.session.query(table2, table1).join(table1).all()
+results = db.session.query(table2, table1).outerjoin(table1).all()
 ```
 We then proceed to write our query and print the results as follows:
 ```py
@@ -272,4 +281,50 @@ Sheryl Loan 444
 NULL		555
 ```
 See that now Order ***555*** appears on the results with no client assigned to it, in this way we have all the information from the right table plus the matching information from the left table.
+
+### FULL OUTER JOIN:
+An **`OUTER JOIN`** or **`FULL OUTER JOIN`** will combine the results of a `LEFT JOIN` and a `RIGHT JOIN`, giving us all the rows from the first and second tables. If there is no match in one of the table rows, there will be a `NULL` on that side of the table's result.
+
+![FULL OUTER JOIN example](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_axXDbw-j6BMEu9DwjZyiAMGzG-g0DMkKI9MaPB7uQbf7_4TbLObZKK3IajH2fUDFlcU&usqp=CAU)
+
+There is no word in SQLAlchemy that allows us to perform a `FULL OUTER JOIN` since the `outerjoin` word refers to a `LEFT OUTER JOIN` by default. If we want to perform a `FULL OUTER JOIN`, we just need to add `full=True` statement in our query as follows:
+
+```py
+results = db.session.query(table2, table1).outerjoin(table1, full=True).all()
+```
+We then proceed to write our query and print the results as follows:
+```py
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+
+db = SQLAlchemy()
+
+class Client(db.Model):
+	client_id = db.Column(db.Integer, primary_key=True)
+	name = db.Column(db.String(50))
+	phone = db.Column(db.Integer)
+
+class Order(db.Model):
+	order_id = db.Column(db.Integer, primary_key=True)
+	client_id = db.Column(db.String(50), db.ForeignKey('clients.client_id')
+	invoice = db.Column(db.Integer)
+
+results = db.session.query(Order, Client).outerjoin(Client, full=True).all()
+
+#Printing the results:
+for client, order in results:
+	print(client.name, order.order_id)
+```
+After printing the results and running the code in a bash terminal we get:
+
+```bash session
+Brandon Hughes 111
+Bryan Owens 222
+Bryan Owens 333
+Sheryl Loan 444
+NULL		555
+Mark White  NULL
+```
+
+As mentioned before, we see that we get all the information from both tables including the unmatched results from table 1 and table 2.
 
