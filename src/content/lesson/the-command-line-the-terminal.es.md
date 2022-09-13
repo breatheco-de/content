@@ -36,7 +36,7 @@ Es algo así como "imprimir" o "mostrar" o "eliminar", pero abreviado. Por ejemp
 ls -l /path/to/directory
 ```
 
-Todos los comandos tienen tres partes: la ** utilidad **, los ** marcadores ** y los ** argumentos **. La utilidad siempre es lo primero. Las otras dos partes tienen reglas diferentes y, dependiendo del comando que estés utilizando, es posible que no tengas que usar ningún marcador o argumento.
+Todos los comandos tienen tres partes: la ** Utilidad **, los ** marcadores ** y los ** argumentos **. La utilidad siempre es lo primero. Las otras dos partes tienen reglas diferentes y, dependiendo del comando que estés utilizando, es posible que no tengas que usar ningún marcador o argumento.
 
 En este caso particular, usamos el "marcador" `-l` para especificar que queremos una versión "larga" de la lista de archivos (con más detalles).
 
