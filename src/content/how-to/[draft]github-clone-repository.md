@@ -15,6 +15,8 @@ You can **clone a git repository** as simply as follows:
 ```bash session
 $ git clone <git-repository-url>
 ```
+> Note: <git-repository-url> should be replaced by the link of the repository that you want to clone, like this: `git clone https://github.com/4GeeksAcademy/html-hello` 
+
 Cloning a repository creates a local copy of the desired project/repository on your computer, which syncs between the two locations (Remote-Local).
 
 In other words, cloning a repository means downloading a complete copy of it to your computer. And what does a complete copy mean? Well, it means that after cloning a repository you will have the entire history of the repository on your computer.
