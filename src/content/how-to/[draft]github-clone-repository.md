@@ -18,7 +18,7 @@ $ git clone <git-repository-url>
 `<git-repository-url>` should be replaced by the link of the repository that you want to clone, like this: 
 
 ```bash
-git clone https://github.com/4GeeksAcademy/html-hello
+$ git clone https://github.com/4GeeksAcademy/html-hello
 ```
 
 Cloning a repository creates a local copy of the desired project/repository on your computer, which syncs between the two locations (Remote-Local).
