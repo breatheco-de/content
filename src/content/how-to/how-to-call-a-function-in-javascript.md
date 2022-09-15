@@ -1,11 +1,16 @@
 # How to Call a Function in Javascript
 Let's see a basic example of **how to call a function in Javascript** as follows:
+
 ```js
+// Function's declaration
 function helloWorld() {
 	console.log("Hello World");
 }
+
+// Calling the function
 helloWorld();
 ```
+
 To call a function we just need to write our function's name alongside the parentheses (this is a must) with the corresponding parameters, have in mind that any function's name is case sensitive, so we need to write the function's name in the correct case to call the right function. Now, if we run the code, we will get a `Hello World` message in our console.
 
 If more insight is needed to understand how a function works or how it is called, let's dive in on what a function is and its many forms with various examples.
