@@ -91,7 +91,7 @@ listName = stringName.split(", ")
 
 print(listName)  #Output: ["My", "name", "is", "Rigoberto"]
 ```
-Othwerise we would get this space in our list items. And the `maxsplit` will specify how many splits we want to perform in our string:
+Otherwise we would get this space in our list of items. And the `maxsplit` will specify how many splits we want to perform in our string:
 
   
 
