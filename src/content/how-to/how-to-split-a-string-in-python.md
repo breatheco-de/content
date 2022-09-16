@@ -49,6 +49,7 @@ listName = stringName.split()
 
 print(listName)  #Output: ["M", "y", "na" , "me", "is", "Rigoberto"]
 ```
+
 And what if we want to specify which parameter to use to split our strings instead of any whitespace? Or if we want to specify how many splits or divisions we want to do to our strings? Let's look at these cases below.
 
   
@@ -83,6 +84,7 @@ listName = stringName.split(", ")
 
 print(listName)  #Output: ["My", "name", "is", "Rigoberto"]
 ```
+
 Otherwise we would get this space in our list of items. And the `maxsplit` will specify how many splits we want to perform in our string:
 
   
@@ -93,6 +95,7 @@ listName = stringName.split(",", 1)
 
 print(listName)  #Output: ["My", "name,is,Rigoberto"]
 ```
+
 And if we want to make two splits:
 
 ```py
@@ -101,8 +104,6 @@ listName = stringName.split(",", 2)
 
 print(listName)  #Output: ["My", "name", "is,Rigoberto"]
 ```
-
-  
 
 ## How to Split a String in Python. Alternatives Methods
 
@@ -149,6 +150,7 @@ listName = stringName.rsplit(",", 1)
 
 print(listName)  #Output: ["My,name,is", "Rigoberto"]
 ```
+
 Here is the difference between the conventional `.split()` method and the `.rsplit()` method, when a `maxsplit` parameter is specified, the `.split()` method splits the string starting from the left and the `.rsplit()` method splits the string starting from the right.
 
 
@@ -196,7 +198,6 @@ listName1 = stringName.splitlines(0)
 
 print(listName1)  #Output: ["My","name", "is", Rigoberto"]
 ```
-  
 
 - If we write **any positive or negative numbers**, it will include the line breaks in our results
 ```py
