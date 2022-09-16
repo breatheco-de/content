@@ -12,15 +12,7 @@ In this article, we will dive into the many ways **how to split a string in Pyth
 
 ![Python Split String](https://806230.smushcdn.com/1739487/wp-content/uploads/2021/02/split-min-768x484.png?lossy=0&strip=1&webp=1)
 
-## How to Split a String in Python. Points of Interest
-
-- [How to Split a String in Python, **`.split()`** Method](#split)
-- [Syntax of the **`.split()`** Method](#syntax)
-- [How to Split a String in Python. Alternatives Methods](#alternative)
-- [`.rsplit()` Method in Python](#rsplit)
-- [`.splitlines()` Method in Python](#splitlines)
-
-## How to Split a String in Python, **`.split()`** Method <a name="split"></a>
+## How to Split a String in Python, **`.split()`** Method
 
 The `.split()` method, by default, converts a string into a list of strings in which the elements of said list will be the words of our original string. Let's see a basic example as follows:
 
@@ -61,7 +53,7 @@ And what if we want to specify which parameter to use to split our strings inste
 
   
 
-## Syntax of the **`.split()`** Method <a name="syntax"></a>
+## Syntax of the **`.split()`** Method
 
 The `.split()` method accepts two parameters, the `separator` and the `maxsplit` parameters. These parameters will help us answer our two previous questions. So, the `.split()` method can be written as follows:
 
@@ -112,12 +104,12 @@ print(listName)  #Output: ["My", "name", "is,Rigoberto"]
 
   
 
-## How to Split a String in Python. Alternatives Methods <a name="alternative"></a>
+## How to Split a String in Python. Alternatives Methods
 
 Although the `.split()` method in Python is quite useful for managing and manipulating strings in many situations, there are other methods for separating strings, which work in different ways than the conventional `.split()` method called `.rsplit()` and `.splitlines()`.
 
 
-### `.rsplit()` Method in Python <a name="rsplit"></a>
+### `.rsplit()` Method in Python
 
 Unlike the conventional `.split()` method, the `.rsplit()` method splits the string from the right (the conventional `.split()` method does it from the left) at the specified separator and also returns a list of strings that contains the words of our original string. For example:
 
