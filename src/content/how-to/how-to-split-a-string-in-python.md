@@ -152,7 +152,7 @@ print(listName)  #Output: ["My,name,is", "Rigoberto"]
 Here is the difference between the conventional `.split()` method and the `.rsplit()` method, when a `maxsplit` parameter is specified, the `.split()` method splits the string starting from the left and the `.rsplit()` method splits the string starting from the right.
 
 
-### `.splitlines()` Method in Python <a name="splitlines"></a>
+### `.splitlines()` Method in Python
 
   
 
