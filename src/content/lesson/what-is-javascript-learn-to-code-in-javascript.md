@@ -69,15 +69,15 @@ var b ;
 
 As we learned above, we use the keyword `var` to declare a variable.  There are two other keywords that we can also use to declare variables: ***const & let*** .  The main difference between these types of variables have to do with scope.
 
-***Const***:  This keyword is used when the value stays constant throughout the life of the script.  The value of the variable declared with this keyword can never be changed.  If you try to change it, it will result in an error.
+***Const***:  This keyword is used when the value stays constant throughout the life of the script.  The value of the variable declared with this keyword can never be changed.  If you try to do so, it will result in an error.
 
-***Let***:  The values are only limited to the scope of the code block (anything between curly brackets) that it is declared in.  If a function has more than one code block, the variable will be considered a different variable in each block.
+***Let***:  The values are only limited to the scope of the code block (anything between curly brackets) in which it is declared in.  If a function has more than one code block, the variable will be considered a different variable in each block.
 
-***Var***:  Its scope is within the function in which it is declared in.  This means that the variable will stay the same throughout the whole function even if there is more than one block of code in the function.
+***Var***:  Its scope is within the function in which it is declared in.  This means that the variable will remain the same throughout the whole function even if there is more than one block of code in the function.
 
 > :link: [Read more about `*var*`, `*let*`, and `*const*`](http://wesbos.com/let-vs-const/)
 
-Variable values are subject to change over time.  To retrieve a variable's value you can print the value on the screen at any time.  Each language has its own methods to print; this is how you do it in JavaScript:
+Variable values are subject to change over time.  To retrieve a variable's value you can print the value on the screen at any time.  Each language has its own printing methods; this is how you do it in JavaScript:
 
 <iframe src="https://repl.it/F0R2/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
@@ -87,7 +87,7 @@ Variable values are subject to change over time.  To retrieve a variable's value
 
 ## Data Types
 
-Variables can have different types of values.  Some of them are available only in specific programming languages, but almost all of them have the following types
+Variables can have different types of values.  Some of them are available in specific programming languages only, but almost all of them have the following types
 
 |**Data-Type**   |**Posible Values**   |**Description**   |
 |:---------------|:--------------------|:-----------------|
@@ -119,9 +119,9 @@ What operations can I do to variables?  Depending on the data-type you have a fe
 ## Functions
 
 
-Functions are pieces of code that can be re-used severa times during runtime regardless of their position in the code.  There are hundreds of reasons to use functions, but here are the 2 most important ones:
+Functions are pieces of code that can be re-used several times during runtime regardless of their position in the code.  There are hundreds of reasons to use functions, but here are the 2 most important ones:
 
-+ Divide and conquer: It is always easier to split your problems into several smaller problems.  This will become your biggest challenge when solving complex problems.  Functions will be your best tools for abstraction.
++ Divide and conquer: It is always easier to breakdown your problems into several smaller problems.  This will become your biggest challenge when solving complex problems.  Functions will be your best tools for abstraction.
 + Re-use: Any normal development will take at least 5,000 lines of code.  It is redundant and inefficient to keep writing the same code over and over again.
 
 ## Declaring a Function
