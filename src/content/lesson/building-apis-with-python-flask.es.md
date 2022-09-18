@@ -64,7 +64,7 @@ En Flask podemos agregar nuevos endpoints utilizando el decorador `@ app.route`,
 
 ## Agregando nuevos endpoints
 
-Si deseas agregar otro endpoint a tu API que se ejecuta cuando un cliente haga el `GET/person`, tendrás que agregar otro bloque de código como este:
+Si deseas agregar otro endpoint a tu API que se ejecuta cuando un cliente haga el " `GET/person` ", tendrás que agregar otro bloque de código como este:
 
 ```py
 @app.route("/person") #aquí especificamos la ruta para el endpoint.
