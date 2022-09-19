@@ -155,7 +155,7 @@ Para crear una rama, digamos que su repositorio se ve así:
 Vamos a saltar al commit (2) e iniciar un nuevo trabajo desde allí. Primero deberás saber cómo hacer referencia al commit. Puedes usar `git log` para obtener el nombre SHA1 de (2)
 
 ```bash
- git log
+git log
 commit df73f34fac344778e1f5a836fb88a897e0b8d491
 Author: Alejandro Sanchez <a@stcsolutions.com.ve>
 Date: Wed Mar 8 13:18:37 2017 -0500
