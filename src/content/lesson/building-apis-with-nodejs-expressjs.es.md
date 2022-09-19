@@ -75,7 +75,7 @@ En Expressjs podemos agregar nuevos endpoints utilizando la variable `app` que e
 
 - res : Es un objeto que representa la respuesta HTTP que envía la aplicación Express cuando recibe una solicitud HTTP
 
-En el siguiente link puedes acceder a la documentación de (Expressjs)[http://expressjs.com/es/api.html]
+En el siguiente link puedes acceder a la documentación de [Expressjs.](http://expressjs.com/es/api.html)
 
 ## Agregando nuevos endpoints
 
