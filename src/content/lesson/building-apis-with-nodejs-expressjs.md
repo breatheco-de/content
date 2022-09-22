@@ -57,15 +57,15 @@ app.listen(4000, function(){
 ## Expressjs Hello-Wold explained
 
 ```javascript
-const express = require('express'); #here we are importing the Expressjs library in our file.
+const express = require('express'); // here we are importing the Expressjs library in our file.
 const app = express(); #here we create a new Expressjs server instance.
 
-app.get('/', (req, res)=>{  #here we define the first API path: GET /
-    res.send("Hello World!")  #expressjs will return "Hello World, this could be an HTML string or a JSON string.
+app.get('/', (req, res)=>{  // here we define the first API path: GET /
+    res.send("Hello World!")  // expressjs will return "Hello World, this could be an HTML string or a JSON string.
 })
 
 
-app.listen(4000, function(){  #to finish we start the server on localhost.
+app.listen(4000, function(){  // to finish we start the server on localhost.
     console.log('API en ejecución en el puerto 4000');
 })
 ```
@@ -82,8 +82,8 @@ In the following link you can access the documentation of [Expressjs.](http://ex
 If you want to add another endpoint to your API that is executed when a client does the `GET/person`, you will need to add another block of code like this:
 
 ```javascript
-app.get('/', (req, res)=>{  #here we define the first API path: GET /
-    res.send("Hello World!")  #expressjs will return "Hello World, this could be an HTML string or a JSON string.
+app.get('/', (req, res)=>{  // here we define the first API path: GET /
+    res.send("Hello World!")  // expressjs will return "Hello World, this could be an HTML string or a JSON string.
 })
 ```
 
@@ -95,15 +95,15 @@ If you want your endpoint to respond to POST, PUT or DELETE, you can specify it 
 const express = require('express');
 const app = express();
 
-app.get('/', (req, res)=>{  #here we define the first API path: GET /
+app.get('/', (req, res)=>{  // here we define the first API path: GET /
     res.send("Se recibió un GET")
 })
 
-app.post('/', (req, res)=>{  #here we define the first API path: POST /
+app.post('/', (req, res)=>{  // here we define the first API path: POST /
     res.send("Se recibió un POST")
 })
 
-app.listen(4000, function(){  #to finish we start the server on localhost.
+app.listen(4000, function(){  // to finish we start the server on localhost.
     console.log('API en ejecución en el puerto 4000');
 })
 ```
@@ -135,7 +135,7 @@ app.get('/person', (req, res)=>{
     const contenido = {
       "detalles": "Hubo un error en la solicitud"
     }
-    res.status(400).json(contenido); #here we change the status code to 400 (very common code in case of request errors)
+    res.status(400).json(contenido); //here we change the status code to 400 (very common code in case of request errors)
 })
 ```
 
@@ -182,7 +182,7 @@ const express = require('express');
 
 app.use(function (req, res, next) {
   console.log('Time:', Date.now());
-  next();  # aquí invoca al siguiente midleware
+  next();  // aquí invoca al siguiente midleware
 });
 
 ```
