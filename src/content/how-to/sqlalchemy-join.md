@@ -60,6 +60,7 @@ FROM table1
 INNER JOIN table2
 ON table1.common_field = table2.common_field;
 ```
+
 ![INNER JOIN example](https://simplesqltutorials.com/wp-content/uploads/2021/03/inner-join-diagram.jpg)
 
 Now that we know what a **`JOIN`** clause is in SQL, we can move on to exploring how to work with JOINs using SQLAlchemy, Flask, and Python.
@@ -84,6 +85,7 @@ class Order(db.Model):
 	client_id = db.Column(db.String(50), db.ForeignKey('clients.client_id')
 	invoice = db.Column(db.Integer)
 ```
+
 With the models/tables ready, we proceed to write our query (syntax) as follows:
 
 ```py
@@ -91,6 +93,7 @@ results = db.session.query(table1, table2).join(table2).all()
 ```
 
 Following this syntax, let's now join the **Client** table with the **Order** table as follows:
+
 ```py
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
@@ -113,9 +116,10 @@ results = db.session.query(Client, Order).join(Order).all()
 for client, order in results:
 	print(client.name, order.order_id)
 ```
+
 After printing the results and running the code in a bash terminal we get:
 
-```bash session
+```
 Brandon Hughes 111
 Bryan Owens 222
 Bryan Owens 333
@@ -134,6 +138,7 @@ There are multiple types of **`OUTER JOINs`**, and depending on which table or t
 ![LEFT OUTER JOIN example](https://www.w3resource.com/sql/joins/joins-output/sql-left-jon.png)
 
 Let's use the same tables used in the **SQLAlchemy/Flask** and **Python** **`INNER JOIN`** example previously:
+
 ```py
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
@@ -160,10 +165,13 @@ results = db.session.query(table1, table2).join(table2).all()
 ```
 
  - **`LEFT OUTER JOIN`** query:
+
 ```py
 results = db.session.query(table1, table2).outerjoin(table2).all()
 ```
+
 We then proceed to write our query and print the results as follows:
+
 ```py
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
@@ -186,9 +194,10 @@ results = db.session.query(Client, Order).outerjoin(Order).all()
 for client, order in results:
 	print(client.name, order.order_id)
 ```
+
 After printing the results and running the code in a bash terminal we get:
 
-```bash session
+```
 Brandon Hughes 111
 Bryan Owens 222
 Bryan Owens 333
@@ -227,6 +236,7 @@ For the next example, let's add an order that for some reason does not have a cl
 |  555     | 05        | 001     |
 
 Using these tables in **SQLAlchemy/Flask** and **Python** as follows:
+
 ```py
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
@@ -243,12 +253,14 @@ class Order(db.Model):
 	client_id = db.Column(db.String(50), db.ForeignKey('clients.client_id')
 	invoice = db.Column(db.Integer)
 ```
+
 There is no word in SQLAlchemy that allows us to perform a `RIGHT OUTER JOIN` since the `outerjoin` word refers to a `LEFT OUTER JOIN` by default.  If we want to perform a `RIGHT OUTER JOIN`, we just need to flip the order of our tables, in other words, **`Table 1 RIGHT OUTER JOIN Table 2`** is equivalent of **`Table 2 LEFT OUTER JOIN Table 1`**, so the query should look like this:
 
 ```py
 results = db.session.query(table2, table1).outerjoin(table1).all()
 ```
 We then proceed to write our query and print the results as follows:
+
 ```py
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
@@ -271,9 +283,10 @@ results = db.session.query(Order, Client).outerjoin(Client).all()
 for client, order in results:
 	print(client.name, order.order_id)
 ```
+
 After printing the results and running the code in a bash terminal we get:
 
-```bash session
+```
 Brandon Hughes 111
 Bryan Owens 222
 Bryan Owens 333
@@ -315,9 +328,10 @@ results = db.session.query(Order, Client).outerjoin(Client, full=True).all()
 for client, order in results:
 	print(client.name, order.order_id)
 ```
+
 After printing the results and running the code in a bash terminal we get:
 
-```bash session
+```
 Brandon Hughes 111
 Bryan Owens 222
 Bryan Owens 333
