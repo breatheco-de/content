@@ -58,7 +58,7 @@ app.listen(4000, function(){
 
 ```javascript
 const express = require('express'); #aquí importamos la librería Expressjs en nuestro archivo.
-const app = express(); #aquí creamos una nueva instancia del servidor Expressjs.
+const app = express(); #aquí creamos una nueva instancia del servidor Express.js.
 
 app.get('/', (req, res)=>{  #aquí definimos el primer path de la API: GET /
     res.send("Hello World!")  #expressjs devolverá "Hello World, esto podría ser un string HTML o un string JSON.
@@ -75,7 +75,7 @@ En Expressjs podemos agregar nuevos endpoints utilizando la variable `app` que e
 
 - res : Es un objeto que representa la respuesta HTTP que envía la aplicación Express cuando recibe una solicitud HTTP
 
-En el siguiente link puedes acceder a la documentación de (Expressjs)[http://expressjs.com/es/api.html]
+En el siguiente link puedes acceder a la documentación de [Express.js](http://expressjs.com/es/api.html)
 
 ## Agregando nuevos endpoints
 
