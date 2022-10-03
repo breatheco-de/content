@@ -126,7 +126,7 @@ Otra forma de cambiar el código de respuesta usando una coma `,`:
 ```py
 @app.route("/person")
 def handle_person():
-    contenido = {
+    content = {
        "detalles": "Hubo un error en la solicitud"
     }
     return jsonify(content), 400
