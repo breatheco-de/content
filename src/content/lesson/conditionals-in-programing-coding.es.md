@@ -134,7 +134,7 @@ Los ternarios se usan MUCHO en estos días porque te ahorran mucho tiempo.
 
 ## Renderizando Condicionales
 
-Otro gran uso de las condiciones es generar HTML basado en ciertas condiciones, por ejemplo, digamos que tenemos un bootstrap Alert que estamos a punto de presentar en el sitio web:
+Otro gran uso de las condiciones es generar HTML basado en ciertas condiciones, por ejemplo, digamos que tenemos un bootstrap Alert que estamos a punto de representar en el sitio web:
 
 ```js
 let alertHTMLCode = "<div>Cuidado! Tu no puedes manejar</div>";
