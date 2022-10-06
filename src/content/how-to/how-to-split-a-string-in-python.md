@@ -1,3 +1,13 @@
+---
+title: "How to Split a String in Python"
+subtitle: "Knowing how to manipulate strings this way will be of great use to us in our programming journey. In this article, we will dive into the many ways how to split a string in Python."
+tags: ["python","string concatenation",]
+date: "2020-10-19T16:36:30+00:00"
+authors: []
+status: "published"
+
+---
+
 # How to Split a String in Python
 This is how you split a string in python using the **`.split()`** method:
 ```py
