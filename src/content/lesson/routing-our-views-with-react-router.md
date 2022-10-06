@@ -67,21 +67,12 @@ export const Layout = () => {
     return (
         <div>
             <BrowserRouter>
-                <div>
-                    <Switch>
-                        <Route exact path="/" component={Home} />
-                        <Route exact path="/home" component={Home} />
-                        <Route exact path="/log-in" component={Login} />
-                        <Route exact path="/sign-up" component={Signup} />
-                        <Route exact path="/remind" component={Remind} />
-                        <Route exact path="/products" component={Products} />
-                        <Route exact path="/category/:category_id" component={Category} />
-                        <Route exact path="/product/:product_id" component={SingleProduct} />
-                        <Route exact path="/checkout" component={Checkout} />
-                        <Route exact path="/profile/:user_id" component={Profile} />
-                        <Route render={() => <h1>Not found!</h1>} />
-                    </Switch>
-                </div>
+                <Routes>
+                    <Route element={<Home />} path="/" />
+                    <Route element={<Demo />} path="/demo" />
+                    <Route element={<Single />} path="/single/:theid" />
+                    <Route element={<h1>Not found!</h1>} />
+                </Routes>
             </BrowserRouter>
         </div>
     );
@@ -89,7 +80,7 @@ export const Layout = () => {
 
 ```
 
-There are 3 components to understand here:
+There are 4 components to understand here:
 
 * `<BrowserRouter>` - every time you open a new BrowserRouter tag you are basically telling React that everything that is inside must be conditionally rendered, based on particular Routes (URLs).
 * `<Switch>` - works similar to the switch statement in Javascript but for Routes... It tells React that the only first `<Route>` that matches the URL will be displayed.
@@ -113,12 +104,20 @@ React Router created a component that we can use instead of ` <a> `
 <Link to="/login">Take me to login</Link>
 ```
 
-### 2. Using this.props.history.push(‘new/url/here’);
+### 2. Using history.push(‘new/url/here’);
 
-   React Router always passes to each view a prop called "history" which contains a lot of useful information to use when routing users.  One of its many useful utilities is the "push" function that basically redirects the user to a given path.
+React Router always passes to each view a prop called "history" which contains a lot of useful information to use when routing users.  One of its many useful utilities is the "push" function that basically redirects the user to a given path.
+
+You can access the history object by using `useHistory` hook like this:
+
+```js
+import { useHistory } from "react-router-dom";
+```
+
+Then, anywhere in any of your components, you can programatically redirect users to another URL like this:
 
 ```jsx
-<button onClick={() => this.props.history.push("/login")}>Take me to login</button>
+<button onClick={() => history.push("/login")}>Take me to login</button>
 ```
 
 ## Live Example:
