@@ -1,3 +1,13 @@
+---
+title: "How to Call a Function in Javascript"
+subtitle: "To call a function we just need to write our function's name alongside the parentheses with the corresponding parameters."
+tags: ["javascript","javascript functions","functions"]
+date: "2020-10-19T16:36:30+00:00"
+authors: []
+status: "published"
+
+---
+
 # How to Call a Function in Javascript
 Let's see a basic example of **how to call a function in Javascript** as follows:
 
