@@ -26,7 +26,7 @@ $ npm install --save react-router
 
 Deja de leer si no estás creando aplicaciones completas usando React, no necesitas React-Router para aplicaciones de una sola página o componentes pequeños.
 
-Para el resto de nosotros que creamos aplicaciones web reales, necesitamos conectar varias vistas (componentes React) en una sola aplicación grande. Ese proceso se llama "enrutamiento".
+Para el resto de nosotros que creamos aplicaciones web reales, necesitamos conectar varias vistas (componentes React) en una sola aplicación grande. Ese proceso se llama  "routing" (enrutamiento).
 
 Por ejemplo, necesitamos las siguientes URL de aplicación para que coincidan con los siguientes componentes:
 
@@ -41,20 +41,18 @@ Por ejemplo, necesitamos las siguientes URL de aplicación para que coincidan co
 + Home: Lo que sus usuarios públicos ven cuando llegan a tudominio.com
 + Login/Signup/Forgot: Un formulario de inicio de sesión y un formulario de registro y el formulario de recordatorio de contraseña.
 + Private: Lo que sus usuarios privados ven justo después de iniciar sesión.
+
 El resto de las páginas dependen de tu aplicación y de cómo quieres que los usuarios naveguen por tu sitio.
 
 ![react router](../../assets/images/205cd2de-dfae-4712-a5e4-1c922994e60d.png)
 
 ## Mapeando tus Vistas a URLs
 
-
 Este es el mapa del sitio para cualquier sitio web de comercio electrónico típico:
-
 
 ![react router](../../assets/images/9021be43-57ae-4667-8c1a-435b8521ce59.png)
 
-## Programación de tus Rutas de Aplicación
-
+## Codificando tus Rutas de Aplicación
 
 Una vez que hayas terminado de asignar las vistas de la aplicación con las URL, puedes comenzar a programar todo, ¡y aquí es cuando entra en juego React-Router!
 
@@ -64,6 +62,7 @@ Este es un ejemplo del mismo mapa del sitio de comercio electrónico pero ahora 
 
 ```jsx
 //Este componente Layout se encargará de enrutar las URL con todas las vistas de mi aplicación
+
 export class Layout extends Flux.View {
     render() {
         return (
@@ -94,7 +93,7 @@ export class Layout extends Flux.View {
 Hay 3 componentes que entender aquí:
 
 + `<BrowserRouter>` : Cada vez que abres una nueva etiqueta de BrowserRouter, básicamente le estás diciendo a React que todo lo que está en el medio debe ser condicionalmente renderizado en base a <Routes> particulares (URL).
-+ `<Switch>` : Funciona de manera similar a la instrucción de cambio en Javascript pero para Rutas ... Le dice a React que se mostrará la única `<Route>` que coincide con la URL que se mostrará.
++ `<Switch>` : Funciona de manera similar a la instrucción de cambio en Javascript pero para Rutas... Le dice a React que se mostrará la única `<Route>` que coincide con la URL que se mostrará.
 + `<Route>` : Es la forma en que React-Router tiene que mapear rutas con componentes, por ejemplo:
 
 ```jsx
@@ -103,8 +102,7 @@ Hay 3 componentes que entender aquí:
 
 Esta ruta le dice a React que cuando la URL coincida con "sign-up", debería mostrarse el componente Signup.
 
-## Las Etiquetas o Anclas `<a>` ahora son un problema
-
+## Las anclas `<a>` ahora son un problema
 
 Los anclajes llevan a los usuarios a otros sitios web o URL - y eso es sorprendente para un HTML + JS basico - pero ahora NO queremos que nuestros usuarios sean llevados a otros sitios web o URL. Queremos que permanezcan en la misma pestaña pero cargando la página siguiente sin tener que actualizar. Tenemos dos formas posibles de hacer eso:
 
@@ -125,7 +123,6 @@ React Router siempre pasa una prop a cada vista un elemento llamada "history" qu
 ```
 
 ## Ejemplo en Vivo:
-
 
 Aquí hay un ejemplo en vivo que utiliza todo lo que hemos aprendido durante esta lectura, haz clic y juega para entenderlo, aprenderlo y repetirlo:
 
