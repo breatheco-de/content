@@ -1,3 +1,13 @@
+---
+title: "SQLAlchemy JOIN"
+subtitle: "the union of tables is very useful for consulting information belonging to different tables of a database, to make the consultation of any required information much easier. Here is where the JOIN clause comes into action."
+tags: ["sqlalchemy","sql","sql-join"]
+date: "2020-10-19T16:36:30+00:00"
+authors: []
+status: "published"
+
+---
+
 # SQLAlchemy JOIN
 
 To perform a basic **`join`** using **SQLAlchemy/Flask** and **Python**, you need to write your query as follows:
