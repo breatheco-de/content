@@ -23,3 +23,9 @@ Please read carefully the following task list and mark the checkboxes as you com
 - [ ] Check this [Interview prep document](https://docs.google.com/document/d/1lt_p8gabmN3oxbAv7kCh52NZZiRj-S_tlRMhWGL_VDE/edit?usp=sharing). It contains several interview questions, use it to prepare for you next Mock interview.   
 - [ ] Read the [Comprehensive Playbook to crush any interview](https://drive.google.com/file/d/1Jmv8_YT2HI4ZA_Od7DrOHPtVT3aRc55T/view).  
 - [ ] Check the [technical interview prep in Notion](technical interview prep).  
+
+## Lets start practicing
+
+- [ ] Check [this document](this document) and prepare for your Mock session.  
+- [ ] Book your `behavioral mock interview` with our mentors.  
+- [ ] Book your `tech interview` with our mentors.  
