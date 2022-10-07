@@ -7,7 +7,7 @@ tags: ["job hunting", "career support"]
 
 ---
 
-Get ready for your job hunt 
+## Get ready for your job hunt 
 
 Being prepared for a job hunt means more than just having a good resume and online presence, it means being ready to proactively look for jobs that match your expectations, skills set and long-term career goals. Setting realistic and achievable expectations in the early stages of your career is key to find launch your career in tech. 
 
