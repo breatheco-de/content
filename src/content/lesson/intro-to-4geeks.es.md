@@ -35,7 +35,7 @@ Durante los años que han pasado hemos identificado razones específicas por la 
 En algún momento de nuestras vidas (en alguno más que otros) podemos haber pensado que no somos la persona más lista de una sala. Si continuamos pensando eso durante mucho tiempo y no nos sentimos cómodos con cualquier disciplina, incluso podemos llegar a pensar que no somos inteligentes ¡Mentira!¡Nada que ver! Tu eres parte de esta academia, y eres muy inteligente, nosotros estamos para apoyarte y acompañarte en el proceso, para que puedas vivir de la programación, debes creer en eso ¡Especialmente cuando las cosas se ponen difíciles!
 
 > Si algún ejercicio o proyecto en particular te parece difícil, en vez de pensar que no sirves para esto, busca nuevas maneras de absorber el contenido. Habla con un mentor y te daremos exactamente lo que necesitas.
-Cualquier persona en general puede aprender a programar, la programación se vuelve más complicada cuando te especializas más en tu carrera (Inteligencia Artificial, Robótica, etc.) Puedes ganar una buena cantidad dinero sin tener que haber estudiado Matemáticas, sin ser bueno con los números o sin aprender tan rápido como otros.
+Cualquier persona en general puede aprender a programar, la programación se vuelve más complicada cuando te especializas más en tu carrera (Inteligencia Artificial, Robótica, etc.) Puedes ganar una buena cantidad dinero sin tener que haber estudiado matemáticas, sin ser bueno con los números o sin aprender tan rápido como otros.
 
 
 ##### 📝 Receta para no perder la confianza en ti
