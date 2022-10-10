@@ -1,3 +1,13 @@
+---
+title: "SQLAlchemy JOIN"
+subtitle: "the union of tables is very useful for consulting information belonging to different tables of a database, to make the consultation of any required information much easier. Here is where the JOIN clause comes into action."
+tags: ["sqlalchemy","sql","sql-join"]
+date: "2020-10-19T16:36:30+00:00"
+authors: []
+status: "published"
+
+---
+
 # SQLAlchemy JOIN
 
 To perform a basic **`join`** using **SQLAlchemy/Flask** and **Python**, you need to write your query as follows:
@@ -25,7 +35,7 @@ Let's see a basic example of a common **`JOIN`** between two tables, **Clients**
 |  04       | Sheryl Lohan     | 123 456 4567 |
 
  - **Orders**
- 
+
 | order_id | client_id | invoice |
 |----------|-----------|---------|
 |  111     | 03        | 654     |
@@ -119,7 +129,7 @@ for client, order in results:
 
 After printing the results and running the code in a bash terminal we get:
 
-```
+```code
 Brandon Hughes 111
 Bryan Owens 222
 Bryan Owens 333
@@ -164,7 +174,7 @@ Now, in our query, instead of writing the word `join`, we need to write the word
 results = db.session.query(table1, table2).join(table2).all()
 ```
 
- - **`LEFT OUTER JOIN`** query:
+- **`LEFT OUTER JOIN`** query:
 
 ```py
 results = db.session.query(table1, table2).outerjoin(table2).all()
@@ -197,7 +207,7 @@ for client, order in results:
 
 After printing the results and running the code in a bash terminal we get:
 
-```
+```code
 Brandon Hughes 111
 Bryan Owens 222
 Bryan Owens 333
@@ -226,7 +236,7 @@ For the next example, let's add an order that for some reason does not have a cl
 
 
  - **Orders**
- 
+
 | order_id | client_id | invoice |
 |----------|-----------|---------|
 |  111     | 03        | 654     |
@@ -286,7 +296,7 @@ for client, order in results:
 
 After printing the results and running the code in a bash terminal we get:
 
-```
+```code
 Brandon Hughes 111
 Bryan Owens 222
 Bryan Owens 333
@@ -331,7 +341,7 @@ for client, order in results:
 
 After printing the results and running the code in a bash terminal we get:
 
-```
+```code
 Brandon Hughes 111
 Bryan Owens 222
 Bryan Owens 333
@@ -341,4 +351,3 @@ Mark White  NULL
 ```
 
 As mentioned before, we see that we get all the information from both tables including the unmatched results from table 1 and table 2.
-
