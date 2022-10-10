@@ -86,9 +86,9 @@ Puedes **mover el head** si quieres. No necesariamente tiene que ser siempre el 
 
 Heads marca el comienzo de un historial de revisión. En GIT, un historial de revisión se llama "branch" o "rama", y es posible tener varios historiales de revisión.
 
-Por defecto, cada repositorio tiene una rama o branch llamada Master, con su HEAD correspondiente que apunta al último commit de esa rama.
+Por defecto, cada repositorio tiene una rama o branch llamada main, con su HEAD correspondiente que apunta al último commit de esa rama.
 
-Ejemplo: Digamos que estás comenzando a desarrollar la característica / funcionalidad de "inicio de sesión" de un sitio web. Puedes crear una nueva "rama" del repositorio llamada "inicio de sesión", para que sus commits no formen parte del historial de revisión principal del proyecto. Una vez que te sientas cómodo con tu código, puedes *fusionar* tu rama y eliminar su head.  Esto restablecerá la HEAD principal de la rama maestra (Branch master) al último commit realizado, y agregará tu nuevo código a la rama principal (master) del repositorio.
+Ejemplo: Digamos que estás comenzando a desarrollar la característica / funcionalidad de "inicio de sesión" de un sitio web. Puedes crear una nueva "rama" del repositorio llamada "inicio de sesión", para que sus commits no formen parte del historial de revisión principal del proyecto. Una vez que te sientas cómodo con tu código, puedes *fusionar* tu rama y eliminar su head.  Esto restablecerá la HEAD principal de la rama maestra (Branch main) al último commit realizado, y agregará tu nuevo código a la rama principal (main) del repositorio.
 
 ![how to use git](../../assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif)
 
@@ -142,7 +142,7 @@ Ahora que has creado commits, ¿cómo se hace referencia a un commit específico
 
 + Por su nombre SHA1 (que puedes obtener de `git log`).
 + Por los primeros caracteres de su nombre SHA1.
-+ Por un head. Por ejemplo, `HEAD` se refiere al commit object al que hace referencia *HEAD*. También se puede utilizar el nombre (como master).
++ Por un head. Por ejemplo, `HEAD` se refiere al commit object al que hace referencia *HEAD*. También se puede utilizar el nombre (como main).
 + Relativo a un commit.  Colocando el símbolo de intercalación (^) después del nombre del commit devuelve al padre de ese commit.  Por ejemplo, *HEAD^* es el padre del actual head commit.
 
  ## Creando una Rama
@@ -316,7 +316,7 @@ Esto haría lo siguiente:
 
 + Crear un directorio `myfirstrepo` e inicializar un repositorio en él.
 + Copiar todos los commit objects del proyecto en el nuevo repositorio.
-+ **Agregar un repositorio remoto** denominado `origin` referente al nuevo repositorio, y asociar *origin* con` git@github.com: alesanchezr / myfistrepo.git` como se describe a continuación. (Así como *master*, *origin* es un nombre predeterminado usado por Git).
++ **Agregar un repositorio remoto** denominado `origin` referente al nuevo repositorio, y asociar *origin* con` git@github.com: alesanchezr / myfistrepo.git` como se describe a continuación. (Así como *main*, *origin* es un nombre predeterminado usado por Git).
 + ** Agregar heads remotos ** llamadas `origen / \ [head-name \]` que corresponden a los heads en el repositorio remoto.
 + Configurar una head en el repositorio para **rastrear** el head `origin / \ [current-head-name \]` correspondiente, es decir, el que estaba actualmente activo en el repositorio que se está clonando.
   
