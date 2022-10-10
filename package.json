@@ -6,9 +6,6 @@
   "description": "BreatheCode's Content Platform",
   "version": "0.0.1",
   "author": "Alejandro Sanchez <aalejo@gmail.com>",
-  "dependencies": {
-    "colors": "^1.4.0"
-  },
   "keywords": [
     "gatsby"
   ],
@@ -23,6 +20,7 @@
   },
   "devDependencies": {
     "axios": "^0.21.1",
+    "colors": "^1.4.0",
     "front-matter": "^3.2.1",
     "mime-types": "^2.1.27",
     "precommit": "^1.2.2",
