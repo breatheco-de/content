@@ -1,3 +1,13 @@
+---
+title: "What Does // Mean in Python?"
+subtitle: "One of the many operators in Python is the double slash // operator, which refers to an integer division or a division with no remainder/decimals. That is called Floor Division."
+tags: ["python","floor division"]
+date: "2020-10-19T16:36:30+00:00"
+authors: []
+status: "published"
+
+---
+
 # What Does // Mean in Python?
 
 One of the many operators in Python is the double slash `//` operator, which refers to an integer division (or a division with no remainder/decimals) which is called **Floor Division**. When dividing two numbers using this `//` operator, the result will always be an integer, ignoring the decimal part of the result. 
