@@ -37,7 +37,7 @@ Todas las cajas/contenedores deben tener los siguientes atributos:
 |Relleno (Padding)   |Espacio libre opcional existente entre el contenido y el borde.   |
 |Borde (Border)	   |Línea que encierra completamente la caja y su contenido.   |
 |Imagen de Fondo (Background image)   |Imagen que se muestra detrás del contenido de la caja.   |
-|Color de Fondo (Background color)   |Además de la imagen de fondo, puedew tener un color de fondo detrás del contenido y de la imagen de fondo.   |
+|Color de Fondo (Background color)   |Además de la imagen de fondo, puede tener un color de fondo detrás del contenido y de la imagen de fondo.   |
 |Margen (Margin)   |Separación opcional existente entre la caja y el resto de los elementos a su alrededor.   |
 
 ![css layout](../../assets/images/153d2a7c-b648-4d75-920b-940102f18eaa.gif) 
