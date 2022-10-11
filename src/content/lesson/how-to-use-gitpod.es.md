@@ -34,18 +34,16 @@ Integración de Github: Es esencial aprender como utilizar Github hoy en día; l
 
 Es mas lento que local: Codificar localmente es más rápido porque no vas a tener que esperar un par de minutos para que la computadora virtual sea creada.
 
-Necesitas tener un internet confiable: Caso contrario, te puedes desconectar mientras estés codificando (y tendrás que esperar hasta que vuelvas a estar en línea).
-
-Reconocemos las trabas, pero nuestros estudiantes y la academia adquiere tanto valor de Gitpod, que estamos contentos de lidiar con las desventajas.
+Necesitas tener un internet confiable: Caso contrario, te puedes desconectar mientras estés codificando (y tendrás que esperar hasta que vuelvas a estar en línea).Reconocemos las trabas, pero nuestros estudiantes y la academia adquiere tanto valor de Gitpod, que estamos contentos de lidiar con las desventajas.
 
 ## ¿Cómo funciona Gitpod?
 
-+ Luego de registrarte en Gitpod, vas a encontar tus [your workspaces](https://gitpod.io/workspaces) (espacios de trabajo) vacíos.  
-+ Cada espacio de trabajo es una computadora -virtual-.
-+ La única manera de crear un nuevo espacio de trabajo es especificar una carpeta de un repositorio de Github. (Si no sabes que es Github, piensa en ello como un disco duro en línea de código, donde cada carpeta es un proyecto que estás codificando).
-+ Una vez que se abra el espacio de trabajo, creará una computadora vacía para ti, pero también va a descargar a esta nueva computadora los archivos de la carpeta del repositorio de Github que especificaste (tu código).
-+ Finalmente, se abrirá un editor de código (probablemente VSCode, el IDE de codificación mas utilizado en el mundo) y un terminal para empezar a codificar como si en principio, tu espacio de trabajo estuviese en tu computador local.
-+ Si vuelves a [your workspaces](https://gitpod.io/workspaces), vas a encontar todas las computadoras que has creado y podrás `re-abrirlas`. Los cambios que hiciste a los archivos perduraran por siempre, no vas a perder ninguna data mientras que hayas re-abierto, en principio, el mismo espacio de trabajo donde estabas trabajando. 
+1.-Luego de registrarte en Gitpod, vas a encontar tus [your workspaces](https://gitpod.io/workspaces) (espacios de trabajo) vacíos.  
+2.-Cada espacio de trabajo es una computadora -virtual-.
+3.-La única manera de crear un nuevo espacio de trabajo es especificar una carpeta de un repositorio de Github. (Si no sabes que es Github, piensa en ello como un disco duro en línea de código, donde cada carpeta es un proyecto que estás codificando).
+4.-Una vez que se abra el espacio de trabajo, creará una computadora vacía para ti, pero también va a descargar a esta nueva computadora los archivos de la carpeta del repositorio de Github que especificaste (tu código).
+5.-Finalmente, se abrirá un editor de código (probablemente VSCode, el IDE de codificación mas utilizado en el mundo) y un terminal para empezar a codificar como si en principio, tu espacio de trabajo estuviese en tu computador local.
+6.-Si vuelves a [your workspaces](https://gitpod.io/workspaces), vas a encontar todas las computadoras que has creado y podrás `re-abrirlas`. Los cambios que hiciste a los archivos perduraran por siempre, no vas a perder ninguna data mientras que hayas re-abierto, en principio, el mismo espacio de trabajo donde estabas trabajando. 
   
 ![Como funciona Github](https://github.com/alesanchezr/content/blob/master/src/assets/images/how-gitpod-works.jpeg?raw=true)
 
@@ -81,5 +79,5 @@ Aún no requieres aprender los comandos del terminal, pero [te recomendamos leer
 
 ![Comando del terminal](../../assets/images/terminal-command.png)
 
-¡Eso es todo! ¡Es hora de que comiences a usar Gitpod!
+¡Es hora de que comiences a usar Gitpod!
 
