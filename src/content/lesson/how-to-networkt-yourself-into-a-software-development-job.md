@@ -34,6 +34,6 @@ This lesson was designed to be followed as a task list, you can mark the checkbo
 
 You can use LinkedIn, email or reconnect personally with anyone who might help you move your career along.  
 
-- [ ] Open the Networking Templates page and find some message templates for user groups, recruiters and hiring managers. Use them when contacting your new acquaintances. 
+- [ ] Open the [Networking Templates page](https://www.notion.so/4geeksacademy/Networking-Templates-fbe549a745da42c7a50d0e094fd44aea) and find some message templates for user groups, recruiters and hiring managers. Use them when contacting your new acquaintances. 
 - [ ] Create a plan to message recruiters, hiring managers and peers via email and/or LinkedIn. Try to message at least 5 people per week from the list. Make sure to set a system that will remind you to connect with those people on a regular basis. 
 
