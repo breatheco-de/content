@@ -1,6 +1,5 @@
 ---
-slug: "how-to-networkt-yourself-into-a-software-development-job"
-title: "How to network yourself into a software development job""
+title: "How to network yourself into a software development job"
 subtitle: "Learn how to use networking to your advantage when looking for a software development job"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 status: "unassigned"
