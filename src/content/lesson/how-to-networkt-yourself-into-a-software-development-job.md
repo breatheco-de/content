@@ -13,27 +13,27 @@ Networking is a very important aspect of anyone’s career. When looking for a j
 
 ## 📝 Instructions 
 
-This lesson was designed to be followed as a task list, you can mark the checkboxes as you complete them. Take into consideration that this tasks will always be ongoing, you have to keep networking until you find a job:
+This lesson was designed to be followed as a task list, you can mark the checkboxes as you complete them. Take into consideration that these tasks will always be ongoing, you have to keep networking until you find a job:
 
 - [ ] Research about sites where you can connect with other software engineers. 
-- [ ] We recommend you to register on these site and register on user groups: 
-- [ ] Reddit 
-- [ ] LinkedIn 
-- [ ] Discord 
-- [ ] Slack channels 
-- [ ] Meetup 
-- [ ] Whatsapp groups 
-- [ ] Connect with anyone who can directly impact your job search and help you move the needle closer to you goal.  
+- [ ] We recommend you register on these sites and register on user groups: 
+- [ ] Reddit.
+- [ ] LinkedIn. 
+- [ ] Discord. 
+- [ ] Slack channels. 
+- [ ] Meetup.
+- [ ] Whatsapp groups. 
+- [ ] Connect with anyone who can directly impact your job search and help you move the needle closer to your goal.  
 
-- Recruiters, hiring managers and executives 
-- Former colleagues 
-- Friends 
-- Alumni from college, bootcamps 
-- Acquaintances 
-- User groups 
+- Recruiters, hiring managers and executives.
+- Former colleagues.
+- Friends.
+- Alumni from college, bootcamps. 
+- Acquaintances. 
+- User groups.
 
 You can use LinkedIn, email or reconnect personally with anyone who might help you move your career along.  
 
 - [ ] Open the [Networking Templates page](https://www.notion.so/4geeksacademy/Networking-Templates-fbe549a745da42c7a50d0e094fd44aea) and find some message templates for user groups, recruiters and hiring managers. Use them when contacting your new acquaintances. 
-- [ ] Create a plan to message recruiters, hiring managers and peers via email and/or LinkedIn. Try to message at least 5 people per week from the list. Make sure to set a system that will remind you to connect with those people on a regular basis. 
+- [ ] Create a plan to message recruiters, hiring managers and peers via email and/or LinkedIn. Try to message at least 5 people per week from the list. Make sure to set up a system that will remind you to connect with those people on a regular basis. 
 
