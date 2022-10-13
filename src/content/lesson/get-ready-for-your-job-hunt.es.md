@@ -1,6 +1,6 @@
 ---
-title: "Get ready for your Job Hunt"
-subtitle: "Now that you have an optimized profile, it's time to get ready to start applying. Having a job-hunt strategy drastically increases the chances to land interviews."
+title: "Prepárate para tu búsqueda de empleo"
+subtitle: "Ahora que tienes un perfil optimizado, es hora de prepararse para comenzar a aplicar. Tener una estrategia de búsqueda de empleo aumenta drásticamente las posibilidades de conseguir entrevistas."
 status: "published"
 date: "2022-10-07T16:36:30+00:00"
 tags: ["job hunting", "career support"]
