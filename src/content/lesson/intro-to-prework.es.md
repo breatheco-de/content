@@ -14,7 +14,7 @@ status: "published"
 
 Hay muchos cursos de programación por ahí; algunos incluso son gratis.  Si te uniste a 4Geeks Academy, es porque eres como nosotros.  Realmente crees que las habilidades dificiles de aprender como programar requieren mucho más que solo articulos y videos online o tutoriales que hacen parecer todo facíl..
 
-Programar es dificil porque sólo se puede aprender con infinitas cantidades de práctica, tutoría uno a uno y desafios de la vida real.
+Programar es difícil porque sólo se puede aprender con infinitas cantidades de práctica, tutoría uno a uno y desafios de la vida real.
 
 Entonces, se nos ocurrió esta plataforma en línea.  Estos contenidos te guiaran a lo largo del programa.  Habrá una infinita cantidad de ejercicios/projectos.  La clase se enfocará en capacitarte.  Te presentaremos un desafio tras otro, pero siempre bajo la supervisión de un senior que observará y te ayudará en todo tu proceso.  BreatheCode es el lugar para leer, aprender y practicar hasta que grabes todo de forma permanente en tu cerebro.
 
