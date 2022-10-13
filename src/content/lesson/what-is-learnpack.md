@@ -41,4 +41,4 @@ If you cannot find the instructions on the right, you can start the exercises ag
 $ learnpack start
 ```
 
-> Note: If that does not work, try `ctrl` + `shit` + `p` to open the VSCode command palette and type/look for "Open Instructions" to reopen the right sidebar.
+> Note: If that does not work, try `ctrl` + `shift` + `p` to open the VSCode command palette and type/look for "Open Instructions" to reopen the right sidebar.
