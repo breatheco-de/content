@@ -58,7 +58,7 @@ Once you have finished mapping your application views with URLs, you can start c
 
 The best practice is always creating one component called ` <Layout /> ` which will take care of routing the users to the specific views they should see, depending on each of the particular URLs.
 
-This is an example of the same e-commerce sitemap but now using React Router v4:
+This is an example of the same e-commerce sitemap but now using React Router v6:
 
 ```jsx 
 //this component Layout will take care of routing the URLs with all my application views 
@@ -83,7 +83,7 @@ export const Layout = () => {
 There are 4 components to understand here:
 
 * `<BrowserRouter>` - every time you open a new BrowserRouter tag you are basically telling React that everything that is inside must be conditionally rendered, based on particular Routes (URLs).
-* `<Switch>` - works similar to the switch statement in Javascript but for Routes... It tells React that the only first `<Route>` that matches the URL will be displayed.
+* `<Routes>` - works similar to the switch statement in Javascript but for Routes... It tells React that the only first `<Route>` that matches the URL will be displayed.
 * `<Route>` - it’s the way of React-Router to map routes with components, for example:
 
 ```jsx
@@ -127,12 +127,3 @@ Here is a live example using everything that we’ve learned in this reading. Pl
 <iframe src="https://codesandbox.io/embed/0okp853rxn?autoresize=1&amp;module=%2Fsrc%2FLayout.jsx&amp;moduleview=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 <div align="right"><small><a href="https://codesandbox.io/embed/0okp853rxn?autoresize=1&amp;module=%2Fsrc%2FLayout.jsx&amp;moduleview=1">Click here to open demo in a new window</a></small></div>
-
-
-
-
-
-
-
-
-
