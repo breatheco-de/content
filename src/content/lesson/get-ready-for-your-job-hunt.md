@@ -15,5 +15,5 @@ Being successful in the job hunt also means being equipped with the skills to se
 
 Readings: 
 
-[ ] Read this [Job Search lesson](https://www.notion.so/4geeksacademy/Job-search-006637b5e9384a6599bd96f7cb7c1f3a).  
-[ ] Check and register in the platforms recommended in the lesson 
+- [ ] Read this [Job Search lesson](https://www.notion.so/4geeksacademy/Job-search-006637b5e9384a6599bd96f7cb7c1f3a).  
+- [ ] Check and register in the platforms recommended in the lesson 
