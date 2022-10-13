@@ -87,7 +87,7 @@ There are 4 components to understand here:
 * `<Route>` - it’s the way of React-Router to map routes with components, for example:
 
 ```jsx
-<Route exact path="/sign-up" component={Signup} />
+<Route path="/sign-up" element={<Signup />} />
 ```
 
 This route is telling React that when the URL matches "sign-up", the component Signup should be displayed.
