@@ -108,16 +108,19 @@ React Router created a component that we can use instead of ` <a> `
 
 React Router always passes to each view a prop called "history" which contains a lot of useful information to use when routing users.  One of its many useful utilities is the "push" function that basically redirects the user to a given path.
 
-You can access the history object by using `useHistory` hook like this:
+You can access the history object by using `useNavigate` hook like this:
 
 ```js
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
+// inside the component you declare the navigate this way:
+const navigate = useNavigate();
 ```
 
 Then, anywhere in any of your components, you can programatically redirect users to another URL like this:
 
 ```jsx
-<button onClick={() => history.push("/login")}>Take me to login</button>
+<button onClick={() => navigate("/login")}>Take me to login</button>
 ```
 
 ## Live Example:
