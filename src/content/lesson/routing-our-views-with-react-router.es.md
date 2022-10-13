@@ -86,7 +86,7 @@ Hay 3 componentes que entender aquí:
 + `<Route>` : Es la forma en que React-Router tiene que mapear rutas con componentes, por ejemplo:
 
 ```jsx
-<Route exact path="/sign-up" element={<Signup />} />
+<Route path="/sign-up" element={<Signup />} />
 ```
 
 Esta ruta le dice a React que cuando la URL coincida con "sign-up", debería mostrarse el componente Signup.
@@ -126,12 +126,3 @@ Aquí hay un ejemplo en vivo que utiliza todo lo que hemos aprendido durante est
 <iframe src="https://codesandbox.io/embed/0okp853rxn?autoresize=1&amp;module=%2Fsrc%2FLayout.jsx&amp;moduleview=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 <div align="right"><small><a href="https://codesandbox.io/embed/0okp853rxn?autoresize=1&amp;module=%2Fsrc%2FLayout.jsx&amp;moduleview=1">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
-
-
-
-
-
-
-
-
-
