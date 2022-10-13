@@ -63,41 +63,30 @@ Este es un ejemplo del mismo mapa del sitio de comercio electrónico pero ahora 
 ```jsx
 //Este componente Layout se encargará de enrutar las URL con todas las vistas de mi aplicación
 
-export class Layout extends Flux.View {
-    render() {
-        return (
-            <div>
-                <BrowserRouter>
-                    <div>
-                        <Switch>
-                            <Route exact path="/" component={Home} />
-                            <Route exact path="/home" component={Home} />
-                            <Route exact path="/log-in" component={Login} />
-                            <Route exact path="/sign-up" component={Signup} />
-                            <Route exact path="/remind" component={Remind} />
-                            <Route exact path="/products" component={Products} />
-                            <Route exact path="/category/:category_id" component={Category} />
-                            <Route exact path="/product/:product_id" component={SingleProduct} />
-                            <Route exact path="/checkout" component={Checkout} />
-                            <Route exact path="/profile/:user_id" component={Profile} />
-                            <Route render={() => <h1>Not found!</h1>} />
-                        </Switch>
-                    </div>
-                </BrowserRouter>
-            </div>
-        );
-    }
+export const Layout = () => {
+    return (
+        <div>
+            <BrowserRouter>
+                <Routes>
+                    <Route element={<Home />} path="/" />
+                    <Route element={<Demo />} path="/demo" />
+                    <Route element={<Single />} path="/single/:theid" />
+                    <Route element={<h1>Not found!</h1>} />
+                </Routes>
+            </BrowserRouter>
+        </div>
+    );
 }
 ```
 
 Hay 3 componentes que entender aquí:
 
 + `<BrowserRouter>` : Cada vez que abres una nueva etiqueta de BrowserRouter, básicamente le estás diciendo a React que todo lo que está en el medio debe ser condicionalmente renderizado en base a <Routes> particulares (URL).
-+ `<Switch>` : Funciona de manera similar a la instrucción de cambio en Javascript pero para Rutas... Le dice a React que se mostrará la única `<Route>` que coincide con la URL que se mostrará.
++ `<Routes>` : Funciona de manera similar a la instrucción de cambio en Javascript pero para Rutas... Le dice a React que se mostrará la única `<Route>` que coincide con la URL que se mostrará.
 + `<Route>` : Es la forma en que React-Router tiene que mapear rutas con componentes, por ejemplo:
 
 ```jsx
-<Route exact path="/sign-up" component={Signup} />
+<Route exact path="/sign-up" element={<Signup />} />
 ```
 
 Esta ruta le dice a React que cuando la URL coincida con "sign-up", debería mostrarse el componente Signup.
@@ -114,12 +103,20 @@ React Router creó un componente que podemos usar en lugar de `<a>`
 <Link to="/login">Take me to login</Link>
 ```
 
-### 2. Usando this.props.history.push(‘new/url/here’);
+### 2. Usando history.push(‘new/url/here’);
 
 React Router siempre pasa una prop a cada vista un elemento llamada "history" que contiene muchas información útiles para usar cuando se enruta a los usuarios. Una de las muchas utilidades es la función "push" que básicamente redirige al usuario a la ruta dada.
+    
+Puedes acceder al objeto de history usando el hook de react `useHistory` de esta manera:
+
+```js
+import { useHistory } from "react-router-dom";
+```
+
+Luego, en cualquier parte de cualquiera de tus componentes, puedes redireccionar a los usuarios de forma programática de la siguiente manera:
 
 ```jsx
-<button onClick={() => this.props.history.push("/login")}>Take me to login</button>
+<button onClick={() => history.push("/login")}>Take me to login</button>
 ```
 
 ## Ejemplo en Vivo:
