@@ -13,7 +13,7 @@ La creación de redes es un aspecto muy importante de la carrera de cualquier pe
 
 ## 📝 Instrucciones
 
-Esta lección fue diseñada para ser seguida como una lista de tareas, puedes marcar las casillas de verificación a medida que las completes. Ten en cuenta que estas tareas siempre serán continuas, debes seguir trabajando en red hasta que encuentres un trabajo:
+Esta lección fue diseñada para ser seguida como una lista de tareas, puedes marcar las casillas de verificación a medida que las completes. Ten en cuenta que estas tareas siempre serán continuas, debes seguir trabajando en tus redes hasta que encuentres un trabajo:
 
 - [ ] Investiga sobre sitios donde puedas conectarte con otros ingenieros de software.
 - [ ] Te recomendamos registrarte en estos sitios y registrarte en grupos de usuarios: 
