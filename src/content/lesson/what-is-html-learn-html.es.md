@@ -175,9 +175,9 @@ Si quieres especificar más el comportamiento de una etiqueta en particular, pue
 ```
 
 
-En este caso, estamos asignándole a la etiqueta `<img>` la propiedad "src" que indica cuál es la ruta de la imagen que debe visualizarse en este contenedor.
+En este caso, estamos asignándole a la etiqueta `<img>` la propiedad "src" que indica cual es la ruta de la imagen que debe visualizarse en este contenedor.
 
-Cada etiqueta tiene sus propiedades no tienes que memorizarlas, siempre las conseguirás rápidamente en Internet- pero si es bueno que revises las más importantes para que las tengas a disposición en tu mente.
+Cada etiqueta tiene sus propiedades (no tienes que memorizarlas, siempre las conseguirás rápidamente en Internet), pero si es bueno que revises las más importantes para que las tengas a disposición en tu mente.
 
 Por eso hemos creado una serie de ejercicios que te explicarán mejor cada una de las propiedades importantes de los elementos más utilizados de HTML.  
 
