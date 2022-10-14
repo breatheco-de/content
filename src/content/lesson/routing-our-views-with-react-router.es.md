@@ -126,6 +126,6 @@ Luego, en cualquier parte de cualquiera de tus componentes, puedes redireccionar
 
 Aquí hay un ejemplo en vivo que utiliza todo lo que hemos aprendido durante esta lectura, haz clic y juega para entenderlo, aprenderlo y repetirlo:
 
-<iframe src="https://codesandbox.io/embed/0okp853rxn?autoresize=1&amp;module=%2Fsrc%2FLayout.jsx&amp;moduleview=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<iframe src="https://codesandbox.io/embed/react-router-flux-forked-790l4t?autoresize=1&module=%2Fsrc%2FLayout.jsx&moduleview=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-<div align="right"><small><a href="https://codesandbox.io/embed/0okp853rxn?autoresize=1&amp;module=%2Fsrc%2FLayout.jsx&amp;moduleview=1">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="https://codesandbox.io/embed/react-router-flux-forked-790l4t?autoresize=1&module=%2Fsrc%2FLayout.jsx&moduleview=1">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
