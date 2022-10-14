@@ -40,4 +40,4 @@ Si no puedes encontrar las instrucciones a la derecha, puedes empezar los ejerci
 $ learnpack start
 ```
 
-> Nota: Si eso no funciona, intenta con `ctrl` + `shit` + `p` para abrir la paleta de comandos de VSCode y teclea/busca "Abrir instrucciones" para volver a abrir la barra lateral derecha.
+> Nota: Si eso no funciona, intenta con `ctrl` + `shift` + `p` para abrir la paleta de comandos de VSCode y teclea/busca "Abrir instrucciones" para volver a abrir la barra lateral derecha.

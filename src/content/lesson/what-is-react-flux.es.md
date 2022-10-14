@@ -32,9 +32,6 @@ Aquí hay una lista de todas las ventajas de usarlo:
 
 |&nbsp;     |&nbsp;       |
 |:-----------|:----------------|
-
-
-
 Vistas/Views (Components)     |Cada componente React que llama a cualquier acción Flux es llamada una vista.  La razón para llamar a esos componentes de una manera diferente es porque se supone que los componentes de React se comunican entre sí a través de sus accesorios (sin Flux).<br> <br>Una vez que un componente React esté vinculado de forma rígida a Flux, no podrá reutilizar ese componente en el futuro (en este o en cualquier otro desarrollo).       |
 |Acciones (Actions)       |Las acciones pueden ser activadas por componentes (cuando el usuario hace click o interactúa con la aplicación) o por el sistema (por ejemplo, la funcionalidad de guardado automático).  Las acciones son el primer paso de cualquier flujo de trabajo de Flux y siempre deben enviarse a la tienda.      |
 | Store     |El store contiene todos los datos de la aplicación.  Maneja todo lo que recibe el despachador y determina la forma en que se deben almacenar y recuperar los datos.            |
