@@ -59,4 +59,4 @@ No lo hagas todo, puedes elegir una o dos cosas que te gusten. Incluso si estás
 
 ## ¡Sigue así!
 
-Si quieres leer más sobre el aprendizaje en público te recomiendo que leas [este artículo y todas las increíbles fuentes mencionadas al final de ese artículo](https://www.swyx.io/learn-in-public/).
+Si quieres leer más sobre el aprendizaje en público, te recomiendo que leas [este artículo y todas las increíbles fuentes mencionadas al final del mismo](https://www.swyx.io/learn-in-public/).
