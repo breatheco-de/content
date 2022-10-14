@@ -47,7 +47,7 @@ var a = 24 ;
 
 Como puedes ver arriba, el nuevo nombre de la variable no nos dice nada sobre los datos que se almacenan y por qué los estamos utilizando.
 
-La elección del nombre para tu variable realmente importa, por lo que por favor no uses nombres genéricos. ¡Se descriptivo! Un nombre vago hará que sea difícil comprender del propósito de la variable, especialmente para otros programadores (incluido tu futuro yo).
+La elección del nombre para tu variable realmente importa, por lo que por favor no uses nombres genéricos. ¡Sé descriptivo! Un nombre vago hará que sea difícil comprender del propósito de la variable, especialmente para otros programadores (incluido tu futuro yo).
 
 ## Asignando un valor a las variables
 
