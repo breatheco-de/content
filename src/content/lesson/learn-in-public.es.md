@@ -45,7 +45,7 @@ Cuando aprendes en público, conviertes las redes sociales en tu cuaderno de not
 
 ### No tengo nada que decir
 
-Realmente lo dudo, aprender a codificar es difícil y la gente lee mucho sobre ello y necesita apoyo emocional, sólo con tu testimonio estás ayudando a muchos y mucha gente estará interesada en conocer tu historia.
+Realmente lo dudo, aprender a codificar es difícil y la gente lee mucho sobre ello y necesita apoyo emocional, solo con tu testimonio estás ayudando a muchos y mucha gente estará interesada en conocer tu historia.
 
 ### No soy un experto
 
