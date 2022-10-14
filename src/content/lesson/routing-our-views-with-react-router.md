@@ -127,6 +127,6 @@ Then, anywhere in any of your components, you can programatically redirect users
 
 Here is a live example using everything that we’ve learned in this reading. Please click and play to understand it, learn it and replicate it:
 
-<iframe src="https://codesandbox.io/embed/react-router-flux-forked-790l4t?autoresize=1&amp;module=%2Fsrc%2FLayout.jsx&amp;moduleview=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<iframe src="https://codesandbox.io/embed/infallible-glitter-soi3js?autoresize=1&amp;module=%2Fsrc%2FLayout.jsx&amp;moduleview=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-<div align="right"><small><a href="https://codesandbox.io/embed/react-router-flux-forked-790l4t?autoresize=1&amp;module=%2Fsrc%2FLayout.jsx&amp;moduleview=1">Click here to open demo in a new window</a></small></div>
+<div align="right"><small><a href="https://codesandbox.io/embed/infallible-glitter-soi3js?autoresize=1&amp;module=%2Fsrc%2FLayout.jsx&amp;moduleview=1">Click here to open demo in a new window</a></small></div>
