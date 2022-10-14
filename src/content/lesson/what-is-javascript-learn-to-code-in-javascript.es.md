@@ -12,7 +12,7 @@ status: "published"
 ## ¿Qué es programar?
 
 
-**La programación no es HTML, CSS o Position y Display ...** Esos idiomas no fueron diseñados para desarrolladores, son la única forma en que tenemos que renderizar cosas en un navegador.
+**La programación no es HTML, CSS o Position y Display ...** Esos lenguajes no fueron diseñados para desarrolladores, son la única forma en que tenemos que renderizar cosas en un navegador.
 
 **La Programación es hacer *que el computador* "obedezca"…**
 
