@@ -263,7 +263,7 @@ console.log(myPomise);
 
 ## Async/await
 
-+ ***Async/await*** Es una forma de escribir código asíncrono.
++ ***Async/await*** es una forma de escribir código asíncrono.
 + ***Async*** es una función de JavaScript y puede contener una expresión ***await***.
 + ***Await*** pausa la ejecución de la función asíncrona y espera el resultado de una promesa.
 
