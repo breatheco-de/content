@@ -85,7 +85,7 @@ La codificación es muy abstracta y sucede mucho que no tienes idea de lo que es
 Al utilizar funciones tienes las siguientes ventajas:
 
 1. **Dividir y conquistar**: divide tu algoritmo en sub-algoritmos más pequeños y concéntrate en un problema a la vez.
-2. **Menos código**: Mientras menos codigo mejor, cuando usas funciones estas pensando en reutilizar en lugar de copiar y pegar.
+2. **Menos código**: mientras menos codigo mejor, cuando usas funciones estas pensando en reutilizar en lugar de copiar y pegar.
 3. **Reutiliza tu código** llamando a la función varias veces, reduciendo drásticamente la longitud de tu código.
 4. **Organiza tu código**: los nombres de las funciones te dirán qué hace esa parte del código, puedes tener todas las funciones en un archivo separado y reutilizarlas en todos sus desarrollos futuros.
 
