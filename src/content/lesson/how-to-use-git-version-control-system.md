@@ -29,7 +29,7 @@ Being the only developer in a project is a [utopia](http://www.thefreedictionary
 + If two developers work on **the same page (file)**, GIT will compare both versions and will *(try to)* merge them into a new one.
 + Downloading and integrating someone else’s code (or any code) into your project without much hassle and doing so automatically.
 + If both developers updated the exact same code, GIT will ask **the last** editing developer to solve any possible conflict.
-+ The code is backed-up all the time with the latest version as the principal.
++ The code is backed up all the time with the latest version as the principal.
 + Each developer has their own version of the project locally for as long as they want.
 + Working with remote teams.
 
