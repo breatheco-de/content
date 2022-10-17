@@ -124,7 +124,7 @@ Digamos que creas tres confirmaciones de esta manera ... tu repositorio se verá
 Otros comandos que son útiles en este punto:
 
 + `git log` muestra un registro de todos los commits desde *HEAD* hasta el commit inicial. Puede hacer más que eso, por supuesto.
-+ `git status` muestra qué archivos han cambiado entre el estado actual del proyecto y el *HEAD*. Los archivos se clasifican en una de las tres categorías: (1) Archivos nuevos que no se han agregado (con git add), (2) Archivos modificados que no se han agregado y (3) Archivos que se han agregado
++ `git status` muestra qué archivos han cambiado entre el estado actual del proyecto y el *HEAD*. Los archivos se clasifican en una de las tres categorías: (1) Archivos nuevos que no se han agregado (con git add), (2) Archivos modificados que no se han agregado y (3) Archivos que se han agregado.
 + `git diff` muestra la diferencia entre el HEAD y el estado actual del proyecto. Con la opción --cached, compara archivos agregados contra HEAD; de lo contrario, compara los archivos que aún no se han agregado.*
 + `git mv` y `git rm` marcan los archivos para ser movidos (renombrados) y eliminados, respectivamente, de forma muy similar a `git add`.
 
