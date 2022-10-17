@@ -235,7 +235,7 @@ Ten en cuenta que en **addEventListener()** solo hacemos referencia a la funció
 |deltaX, deltaY   |Devuelve la cantidad de desplazamiento vertical u horizontal de una rueda del ratón ( eje y) o (eje x)   |
 |deltaMode       |Devuelve un número que representa la unidad de mediciones de valores delta (píxeles, líneas o páginas)    |
 
-> :link: Hay mucha más información que puede obtener del objeto de evento, pero nos estamos enfocando en las propiedades más utilizadas. Para una lista más grande de propiedades por favor lea [this guide.](https://www.w3schools.com/jsref/dom_obj_event.asp)
+> :link: Hay mucha más información que puede obtener del objeto de evento, pero nos estamos enfocando en las propiedades más utilizadas. Para una lista más grande de propiedades por favor lea [esta guía.](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
 ## Eliminar los Listeners (receptores)
 
