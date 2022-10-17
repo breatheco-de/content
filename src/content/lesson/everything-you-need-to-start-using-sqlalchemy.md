@@ -98,7 +98,7 @@ person = Person.query.get(3)
 
 ### DELETE: Removing a Database Record.
 
-All you have to do is select the instance of a Person you would like to delete (ie. by it's id) and delete it by typing db.session.delete(who)
+All you have to do is select the instance of a Person you would like to delete (ie. by it's id) and delete it by typing db.session.delete(person)
 
 ```py
 person = Person.query.get(3)
