@@ -11,7 +11,7 @@ canonical: ""
 
 ---
 
-Si estás interesado en aprender a codificar de forma eficiente pero rápida, tienes que hacerlo en público, esto no es una teoría sino un hecho.  
+Si estás interesado en aprender a codificar de forma eficiente pero rápida, tienes que hacerlo en público. Esto no es una teoría sino un hecho.  
 
 En este artículo voy a intentar explicarte por qué funciona y cómo puedes hacerlo.
 
