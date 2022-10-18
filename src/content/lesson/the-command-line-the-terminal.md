@@ -66,7 +66,7 @@ Here is a small selection of the most used commands by a software developer.
 
 **The list command**
 
-The ls command is used for listing all the files and directories from the current position.
+The ls command is used for listing all the files and directories that form the current position.
 
 ```bash
 ls -l ./applications
