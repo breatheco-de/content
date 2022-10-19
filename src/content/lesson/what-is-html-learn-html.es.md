@@ -48,7 +48,7 @@ Una vez definida la  `<tag>`, podemos describir con más detalle su comportamien
 
 
 
-En teoría, tú debes utilizar [una de estas tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true), no puedes inventar tus propias etiquetas porque el navegador no sabría cómo interpretarlas. Sí, debes conocer el significado de cada **etiqueta HTML** para utilizarlas sabiamente… ¡pero no te preocupes que no hay muchas! 🙂
+En teoría, tú debes utilizar [una de estas tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true), no puedes inventar tus propias etiquetas porque el navegador no sabría cómo interpretarlas. Sí, debes conocer el significado de cada **etiqueta HTML** para utilizarlas sabiamente… ¡Pero no te preocupes que no hay muchas! 🙂
 
 Para el título principal, o el título más grande, se utiliza la etiqueta `<h1>`. Por ejemplo: una tienda en línea podría tener una sección para la categoría de electrónicos, en ese caso un título coherente seria “Artículos Electrónicos” y la tag  `<h1>` la escribiríamos de la siguiente manera:
 
