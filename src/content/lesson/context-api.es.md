@@ -39,7 +39,7 @@ Cada vez que los datos del **proveedor** cambian, todos los **consumidores** rec
 
 ## Flujo de datos unidireccional
 
-El **store** es ahora la pieza más delicada de información de nuestra aplicación, y es muy suceptible a malos usos, es decir un cambio malo y toda la aplicación se vendrá abajo. Para evitar este posible escenario debemos asegurarnos que la información de nuestro store sea read-only para los consumidores, y que sólo pueda *actualizarse* nuevamente con un conjunto limitado de funciones. Como un state normal, no *cambiamos* el state, establecemos uno nuevo. Este paradigma aequitectónico se llama Flux.
+El **store** es ahora la pieza más delicada de información de nuestra aplicación, y es muy suceptible a malos usos, es decir un cambio malo y toda la aplicación se vendrá abajo. Para evitar este posible escenario debemos asegurarnos que la información de nuestro store sea read-only para los consumidores, y que sólo pueda *actualizarse* nuevamente con un conjunto limitado de funciones. Como un state normal, no *cambiamos* el state, establecemos uno nuevo. Este paradigma arquitectónico se llama Flux.
 
 ![Flux](https://facebook.github.io/flux/img/overview/flux-simple-f8-diagram-1300w.png)
 

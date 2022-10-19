@@ -1,6 +1,6 @@
 ---
-title: "Bootstrap Tutorial: Learn Bootstrap 4 in 10 minutes"
-subtitle: "After decades of struggling, the light has arrived!! With this Bootstrap tutorial, designing a website will be a piece of cake. It's almost stupid, and, also impossible to think about doing a website without a CSS framework like Bootstrap 4 ."
+title: "Bootstrap Tutorial: Learn Bootstrap 5 in 10 minutes"
+subtitle: "After decades of struggling, the light has arrived!! With this Bootstrap tutorial, designing a website will be a piece of cake. It's almost stupid, and, also impossible to think about doing a website without a CSS framework like Bootstrap 5."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:30+00:00"
@@ -15,7 +15,7 @@ There is light at the end of the tunnel and it is NOT Chuck Norris holding a fla
 
 These two guys working on Twitter were suffering the same problems we have been dealing with in HTML and CSS.  Fed up with the situation, they decided to build a **base CSS Sheet designed to be imported into any website**.  It makes every front-end development work 4x’s easier.
 
-![bootstrap 4](../../assets/images/335ed387-cbf9-4ffa-9529-1ccf2084e393.jpeg)
+![bootstrap 5](../../assets/images/335ed387-cbf9-4ffa-9529-1ccf2084e393.jpeg)
 
 Besides, Bootstrap gives you a dozen of new elements that you would normally want to use but don’t actually exist in CSS+HTML: The Bootstrap components.
 
@@ -60,9 +60,9 @@ It’s very easy to decide how your website will render in different screen size
 |:---------|:--------|:----|
 |Means that this element should behave like a Bootstrap column.   |Means that it is specified for only for the devices with a "medium" sized screen.   |Specifies how many slots I want this column to take (remember you can take a max of 12 slots per row).   |
 
-> :point_up:Bootstrap device sizes:   |Phones   |Big-phone/small-tablet   |Tablets   |Desktops   |Extra-large desktops   |
-|:----------|:---------------|:-------------|:-----------|:------------|:---------|
-| &nbsp;           |Nothing    |sm       |md       |lg      |xl        |
+> :point_up:Bootstrap device sizes:   |Phones   |Big-phone/small-tablet   |Tablets   |Desktops   |Extra-large desktops   |Extra extra large   |
+|:----------|:---------------|:-------------|:-----------|:------------|:---------|:--------|
+| &nbsp;           |Nothing    |sm       |md       |lg      |xl        |xxl      |
 
 > :point_up: Note: if you don’t specify the screen size (ex. by using 'sm', 'md', or 'xl'), the website will be rendered for mobile phones by default.
 
@@ -70,7 +70,7 @@ It’s very easy to decide how your website will render in different screen size
 
 We are going to set the layout (using the sm, md and lg column classes) for  two rows in all the devices at the same time:
 
-![bootstrap 4](../../assets/images/e15c594c-9b46-4c27-bf5a-a5bbb5ef952a.png)
+![bootstrap 5](../../assets/images/e15c594c-9b46-4c27-bf5a-a5bbb5ef952a.png)
 
 ```html
 <!-- Stack the columns on mobile by making one full-width and the other half-width --> 
@@ -93,7 +93,7 @@ We are going to set the layout (using the sm, md and lg column classes) for  two
 </div>
 ```
 
-## Basic Bootstrap 4 Skeleton
+## Basic Bootstrap 5 Skeleton
 
 We already know the basic HTML5 skeleton that any website needs to have.  Now you just have to add a few lines in your skeleton to make it "Bootstrap compatible":
 
@@ -106,7 +106,8 @@ We already know the basic HTML5 skeleton that any website needs to have.  Now yo
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
 
     <title>Hello, world!</title>
   </head>
@@ -114,21 +115,21 @@ We already know the basic HTML5 skeleton that any website needs to have.  Now yo
     <h1>Hello, world!</h1>
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
   </body>
 </html>
 ```
 
 Remember, Bootstrap is just a stylesheet.  That’s why it is very simple to include in your website.  You use the `<link>` tag to include the styles, and, optionally, use the javascript `<script>` tag to include the Bootstrap Javascript files.
 
-The Bootstrap Javascript functionality requires the jQuery and Popper Javascript libraries to be included first.  You don’t need to know the details about this yet.  Just include the JS libraries using the script tag and later you will understand.
+The Bootstrap Javascript functionality requires the Popper Javascript library to be included first.  You don’t need to know the details about this yet.  Just include the JS libraries using the script tag and later you will understand.
 
-> :link: Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+> :link: Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 
-## Bootstrap 4 Components
+## Bootstrap 5 Components
 
 HTML is so basic that it only has a few tags – we know that already.  But when you browse the web today you see a different thing: websites today have menus, icons, load-bars, navbars, labels, etc.  Where are those tags?  None of those tags are defined in HTML!
 
@@ -136,7 +137,7 @@ Every developer has to fake these additional elements every time they create a n
 
 When you import Bootstrap into your website, you will have a new set of components at your disposal.  This is just a small part of those elements:
 
-![bootstrap 4](../../assets/images/8e9ff37a-28f7-4179-8f5d-9278ff7efd55.png)
+![bootstrap 5](../../assets/images/8e9ff37a-28f7-4179-8f5d-9278ff7efd55.png)
 
 
 ### These are the most Important and Used Components in this Bootstrap tutorial:
@@ -149,41 +150,41 @@ Here is an example of how a NavBar may look on a website:
 
 ![bootstrap tutorial](../../assets/images/6351de1c-6d90-4502-8823-4b751981db9f.png)
 
-> :link:[**Read more about the NavBar here**](https://getbootstrap.com/docs/4.0/components/navbar/)
+> :link:[**Read more about the NavBar here**](https://getbootstrap.com/docs/5.2/components/navbar/)
 
 ```html
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">Website Brand</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">
-                                <a class="btn btn-success">Create a new post</a>
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Settings
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Website Brand</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <a class="btn btn-success">Create a new post</a>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Settings
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 ```
 
 #### The Card
 
-This is probably the most used Bootstrap component; every website has a few cards because they are ideal for listing items in a beautiful way. Some examples of the Card being used can be:
+This is probably the most used Bootstrap component, every website has a few cards because they are ideal for listing items in a beautiful way. Some examples of the Card used can be:
 
 + The "team" section of a website, where you list the different employees.
 + The typical Pinterest wall.
@@ -191,16 +192,18 @@ This is probably the most used Bootstrap component; every website has a few card
 
 Here is an example of how a "The Card" may look on a website:
 
-![bootstrap 4](../../assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png)
+![bootstrap 5](../../assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png)
 
-> :link: [**Read more about the card here**](https://getbootstrap.com/docs/4.0/components/card/)
+> :link: [**Read more about the card here**](https://getbootstrap.com/docs/5.2/components/card/)
 
 ```html
-<div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
   <div class="card-body">
-    <h4 class="card-title">Card title</h4>
-    <p class="card-text">Some quick example text to insert on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">
+      Some quick example text to build on the card title and make up the bulk of the card's content.
+    </p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
@@ -214,26 +217,24 @@ Everyone hates a modal, it is super annoying, always asking you to subscribe to 
 
 Here is how a modal looks by default on Bootstrap.
 
-![bootstrap 4](../../assets/images/6bcba673-a543-4bf1-a80b-083914b91bef.png)
+![bootstrap 5](../../assets/images/6bcba673-a543-4bf1-a80b-083914b91bef.png)
 
-> :link:[**Read more about modal here**](https://getbootstrap.com/docs/4.0/components/modal/)
+> :link:[**Read more about modal here**](https://getbootstrap.com/docs/5.2/components/modal/)
 
 ```html
-div class="modal" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
+<div class="modal" tabindex="-1">
+  <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <p>Modal body text goes here.</p>
       </div>
       <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -241,16 +242,16 @@ div class="modal" tabindex="-1" role="dialog">
 ```
 
 
-> :point_up: Important! The Modal needs Javascript in order to work. Remember to include the three Javascript files that are needed in a typical Bootstrap Skeleton: jQuery, Popper and Bootstrap.js
+> :point_up: Important! The Modal needs Javascript in order to work. Remember to include the three Javascript files that are needed in a typical Bootstrap Skeleton: JS, Popper and Bootstrap.js
 
 ## What you really need to know about Bootstrap
 
 Bootstrap official documentation is amazing!  We don’t need to start copying and pasting all their posts.  Please visit the following and focus on reading these topics:
 
-+ [The grid system.](https://getbootstrap.com/docs/4.1/layout/grid/)
-+ [Styling Forms.](https://getbootstrap.com/docs/4.1/components/forms/)
-+ [List of components available to use on your website.](https://getbootstrap.com/docs/4.1/components/alerts/)
-+ [Utilities or Helper classes:](https://getbootstrap.com/docs/4.1/utilities/borders/) Very useful and constantly used classes to do stuff like centering the text, centering a column or container, adding a background, etc.
++ [The grid system.](https://getbootstrap.com/docs/5.2/layout/grid/)
++ [Styling Forms.](https://getbootstrap.com/docs/5.2/forms/overview/)
++ [List of components available to use on your website.](https://getbootstrap.com/docs/5.2/components/alerts/)
++ [Utilities or Helper classes:](https://getbootstrap.com/docs/5.2/utilities/borders/) Very useful and constantly used classes to do stuff like centering the text, centering a column or container, adding a background, etc.
 
 > :point_up: Bootstrap versions & download
 

@@ -24,7 +24,7 @@ En general, las props son suficiente para crear un componente sorprendente, pero
 
 A medida que tengas más experiencia, comprenderás mejor cuándo usar Hooks. Si no los necesitas, ¡NO los uses! ¡Cuanto menos mejor!
 
-### Todas las aplicaciones necesitan al menos un <strong>useState</strong> y un <strong>useEffect</strong>. Para usar hooks, PRIMERO DEBEMOS IMPORTARLOS al inicio de nuestro archivo. Por ejemplo si necesitaramos usar un useState, haríamos lo siguiente:
+### Todas las aplicaciones necesitan al menos un <strong>useState</strong> y un <strong>useEffect</strong>. Para usar hooks, PRIMERO DEBEMOS IMPORTARLOS al inicio de nuestro archivo. Por ejemplo si necesitáramos usar un useState, haríamos lo siguiente:
 
 ```jsx
 import React, { useState } from 'react';

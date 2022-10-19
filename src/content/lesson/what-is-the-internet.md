@@ -78,7 +78,7 @@ If you’ve been reading and have understood everything so far, you must be wond
 
 Well, browsers are equipped with "magical" windows. If you see through those windows you will see the world as it is: No Text!!  The browser must perform all the functions that all other applications in your computer will accomplish. Like representing images, videos, text, sounds, etc., the browser is so great that there are even computers – like the Google Chromecast – that only come with a browser.
 
-> :tv: [Click here](https://www.youtube.com/watch?v=0QRO3gKj3qw) to access a video that explains how a Google Chrome Book works.
+> :tv: [Click here](https://www.youtube.com/watch?v=83Y4jEgnaAA) to access a video that explains how a Google Chrome Book works.
 
 ## The Client and The Server
 

@@ -30,7 +30,7 @@ Los creadores de Bootstrap, replicaron el mismo concepto que tienen las `<tables
 
 ```html
 Esto es una fila: <div class="row">
-Esto es una columna: <div class"col–sm–x">
+Esto es una columna: <div class="col–sm–x">
 ```
 ![bootstrap tutorial](../../assets/images/3884f515-dd7a-48f2-b238-9e2ec26de02d.png)
 
@@ -269,7 +269,7 @@ Si estás migrando tu proyecto a nueva versión de Bootstrap, recuerda siempre v
 ## Gana RE2PECT.
 
 
-El éxito no llega de la noche a la mañana.  Este es tu primer logro.  Déjame pregunterte ¿te sientes capaz de usar HTML, CSS, Layouts y Bootstrap?  ¡No te mientas!
+El éxito no llega de la noche a la mañana.  Este es tu primer logro.  Déjame preguntarte ¿te sientes capaz de usar HTML, CSS, Layouts y Bootstrap?  ¡No te mientas!
 
 No más Lecciones sobre este tema - es momento de entregar.  Es hora de enfocarse en el proyecto de clase.  Recuerda honrar los valores de los desarrolladores. Calma.
 
