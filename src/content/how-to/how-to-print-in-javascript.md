@@ -104,7 +104,9 @@ const Print = () =>{
 
 Let´s check the code above in details:
 
-`let contentToBePrinted = document.querySelector(“.class” OR “#id”).innerHTML;`
+```js
+let contentToBePrinted = document.querySelector(“.class” OR “#id”).innerHTML;
+```
 Here we store the content of the class or id we want to print on a variable.
 
 `let  websiteContent = document.body.innerHTML;`
