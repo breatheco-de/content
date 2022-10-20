@@ -1,3 +1,13 @@
+---
+title: "How to Reverse a List in Python?"
+subtitle: "Reversing a list is a very common operation in the day of a programmer. We can do it with the most common ways are the reverse() method and with a syntax trick."
+tags: ["python", "list", "reverse a list"]
+date: "2022-10-20T16:36:30+00:00"
+authors: []
+status: "published"
+
+---
+
 # How to Reverse a List in Python
 
 Here is a simple way to reverse a list in Python using the `.reverse()` method:
@@ -9,7 +19,7 @@ mylist.reverse()
 print(mylist) #Output: ["g", "f", "d", "c", "b", "a"]
 ```
 
-Reversing a list is a very common operation in the day of a programmer, you will find cases in which you will need a list similar to the original one with the same elements, but in a different order, in this case, we could say that we would be "flipping" the list in question.  
+Reversing a list is a very common operation in the day of a programmer, you will find cases in which you will need a list similar to the original one with the same elements, but in a different order, in this case, we could say that we would be "flipping" the list of interest.  
 
 ![Python Reverse List](https://files.realpython.com/media/Reverse-a-List-in-Python_Watermarked.7002d78bbb86.jpg)
 
@@ -101,6 +111,7 @@ print(mylist_copy) #Output: [6, 5, 4, 3, 2, 1]
 See that putting the 2 columns `::` without any start or end gives us the whole list, and if we specify a step of `-1` this would return the whole list but flipped. This is how this "trick" works.
 
 ## Summary
+
 To summarize a little bit of what has been explained in this article, we were able to see 3 ways to reverse lists in Python. You may be wondering what the best option is or in what situations it is better to use a certain option to reverse lists in Python, and we hope that the following summary will help you define your preferred way or method:
 
  1. **`.reverse()` Method**: this option will reverse a list in place, to use it you just need to type your list name alongside the `.reverse()` word like this `list.reverse()`. This method modifies the original list and won't create a copy of it.
