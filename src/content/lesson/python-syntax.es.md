@@ -13,7 +13,7 @@ tags: ["Conditionals","Logical operators","If...else","Conditions","Python"]
 
 # Introducción a Python
 
-Esta lección tiene como objetivo ayudar a familiarizarte con la sintaxis básica de Python y como hacer cosas esenciales como imprimir algo en un terminal, manipular cadenas y entender como se usan las variables, funciones, operaciones lógicas y condicionales. Esta debería ser la primera lección a leer en tu viaje con python.
+Esta lección tiene como objetivo ayudar a familiarizarte con la sintaxis básica de Python y cómo hacer cosas esenciales como imprimir algo en un terminal, manipular cadenas y entender como se usan las variables, funciones, operaciones lógicas y condicionales. Esta debería ser la primera lección a leer en tu viaje con python.
 
 Por favor sepa que hay otras lecciones explicando cada concepto en detalle; esto es solamente un resumen básico para ayudarte a obtener una visión general sobre el tema.
 
