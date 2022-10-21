@@ -60,11 +60,12 @@ It’s very easy to decide how your website will render in different screen size
 |:---------|:--------|:----|
 |Means that this element should behave like a Bootstrap column.   |Means that it is specified for only for the devices with a "medium" sized screen.   |Specifies how many slots I want this column to take (remember you can take a max of 12 slots per row).   |
 
-> :point_up:Bootstrap device sizes:   |Phones   |Big-phone/small-tablet   |Tablets   |Desktops   |Extra-large desktops   |Extra extra large   |
+
+Bootstrap device sizes:   |Phones   |Big-phone/small-tablet   |Tablets   |Desktops   |Extra-large desktops   |Extra extra large   |
 |:----------|:---------------|:-------------|:-----------|:------------|:---------|:--------|
 | &nbsp;           |Nothing    |sm       |md       |lg      |xl        |xxl      |
 
-> :point_up: Note: if you don’t specify the screen size (ex. by using 'sm', 'md', or 'xl'), the website will be rendered for mobile phones by default.
+>👆 Note: if you don’t specify the screen size (ex. by using 'sm', 'md', or 'xl'), the website will be rendered for mobile phones by default.
 
 ## Defining Mobile, Tablet, and Desktop at the same time
 
@@ -127,7 +128,7 @@ Remember, Bootstrap is just a stylesheet.  That’s why it is very simple to inc
 
 The Bootstrap Javascript functionality requires the Popper Javascript library to be included first.  You don’t need to know the details about this yet.  Just include the JS libraries using the script tag and later you will understand.
 
-> :link: Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+> 🔗 Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 
 ## Bootstrap 5 Components
 
@@ -150,7 +151,7 @@ Here is an example of how a NavBar may look on a website:
 
 ![bootstrap tutorial](../../assets/images/6351de1c-6d90-4502-8823-4b751981db9f.png)
 
-> :link:[**Read more about the NavBar here**](https://getbootstrap.com/docs/5.2/components/navbar/)
+> 🔗 [**Read more about the NavBar here**](https://getbootstrap.com/docs/5.2/components/navbar/)
 
 ```html
 <nav class="navbar navbar-expand-lg bg-light">
@@ -194,7 +195,7 @@ Here is an example of how a "The Card" may look on a website:
 
 ![bootstrap 5](../../assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png)
 
-> :link: [**Read more about the card here**](https://getbootstrap.com/docs/5.2/components/card/)
+> 🔗 [**Read more about the card here**](https://getbootstrap.com/docs/5.2/components/card/)
 
 ```html
 <div class="card" style="width: 18rem;">
@@ -215,11 +216,11 @@ Here is an example of how a "The Card" may look on a website:
 
 Everyone hates a modal, it is super annoying, always asking you to subscribe to a newsletter! 🙂
 
-Here is how a modal looks by default on Bootstrap.
+Here is how a modal look by default on Bootstrap.
 
 ![bootstrap 5](../../assets/images/6bcba673-a543-4bf1-a80b-083914b91bef.png)
 
-> :link:[**Read more about modal here**](https://getbootstrap.com/docs/5.2/components/modal/)
+>  🔗 [**Read more about modal here**](https://getbootstrap.com/docs/5.2/components/modal/)
 
 ```html
 <div class="modal" tabindex="-1">
@@ -242,7 +243,7 @@ Here is how a modal looks by default on Bootstrap.
 ```
 
 
-> :point_up: Important! The Modal needs Javascript in order to work. Remember to include the three Javascript files that are needed in a typical Bootstrap Skeleton: JS, Popper and Bootstrap.js
+> ☝️ Important! The Modal needs Javascript in order to work. Remember to include the three Javascript files that are needed in a typical Bootstrap Skeleton: JS, Popper and Bootstrap.js
 
 ## What you really need to know about Bootstrap
 
@@ -253,7 +254,7 @@ Bootstrap official documentation is amazing!  We don’t need to start copying a
 + [List of components available to use on your website.](https://getbootstrap.com/docs/5.2/components/alerts/)
 + [Utilities or Helper classes:](https://getbootstrap.com/docs/5.2/utilities/borders/) Very useful and constantly used classes to do stuff like centering the text, centering a column or container, adding a background, etc.
 
-> :point_up: Bootstrap versions & download
+> ☝️ Bootstrap versions & download
 
 Bootstrap has many versions, always check if you are using the latest version of Bootstrap on your project, here you can find all the available versions: [https://getbootstrap.com/docs/versions/](https://getbootstrap.com/docs/versions/).
 
