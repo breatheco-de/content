@@ -15,7 +15,7 @@ Welcome!! 🤩👏 My name is Alejandro and I'm writing these words after years 
 
 ## What you already know
 
-You are here to develop your coding skills to a point where you can be useful to society in order to: 1️⃣ Get a job, 2️⃣ Create your own company or/and 3️⃣ Adapt better to the now world.
+You are here to develop your coding skills to a point where you can be useful to society in order to: 1️⃣ Get a job, 2️⃣ Create your own company, 3️⃣ Adapt better to the now world.
 
 ## What you did not know
 
@@ -33,7 +33,7 @@ During the past years we have identified specific reasons that cause students to
 
 ![Impostor Syndrome](../../assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png)
 
-At some point in our lives (some more than others) we all have thought we were the most stupid person in a room. If we kept thinking like that for a long time and we don't get comfortable on any discipline, we may even think that we are not that smart. You are a part of this school, we do not accept people that we don't think are smart enough to make a living as a developer. You need to believe that, especially on tough times!
+At some point in our lives (some more than others) we all have thought we were the dumbest person in a room. If we keep thinking like that for a long time and we don't get comfortable with any discipline, we may even think that we are not that smart. Not at all! That's a lie! You are a part of this school, we do not accept people that we don't think are smart enough to make a living as a developer. You need to believe that, especially in tough times!
 
 > If a particular exercise or project is hard, instead of thinking you are not good at this, look for new ways of absorbing the content. Talk to a mentor and we'll give you exactly what you need.
 
@@ -59,7 +59,7 @@ We know how to train you: we have done it over and over again, but we'll train i
 
 2. **Ask Why?** There is only so much we can say, we need you to raise your concerns in a private way immediately the moment you start double guessing our methods, we do everything for a reason and I'm confident that we are going to be able to explain "the why".
 
-3. **Humble yourself:** There are lots of smart students that have successfully completed the course following the method, some of them work at Google, Amazon and other big all around the world companies. Please be humble enough to try and follow the course as it is. And discuss any ways of improvement with us, we are also humble enough to be open to try things that may work.
+3. **Humble yourself:** There are lots of smart students that have successfully completed the course following the method, some of them work at Google, Amazon and other big all around the world companies. Please be humble enough to try and follow the course as it is. You can talk to us if you have any ideas for improvements; we are also humble enough to be open and try something new that might work.
 
 #### Wall #3: Inactivity 😴 
 
