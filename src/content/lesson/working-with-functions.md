@@ -36,7 +36,7 @@ function multiply(a, b) {
 
 The whole idea is to have a library of hundreds of functions and use them as we please, you declare all your functions and later you start using and re-using them all the time.
 
-```
+```javascript
 let resultOfMultiplication = multiply(2,4);
 // resultOfMultiplication will be 8
 ```
