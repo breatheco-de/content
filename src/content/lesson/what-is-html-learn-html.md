@@ -9,15 +9,15 @@ status: "published"
 
 ---
 
-> :point_up: Since in the previous chapter we equated houses, stores and buildings to web pages, then we could say HTML is the blueprints.
+> :point_up: Since in the previous chapter we equated houses, stores and buildings to web pages; then we could say HTML is the blueprints.
 
 
-## HTML is the Website Skeleton
+### HTML is the Website Skeleton
 
 
-All web pages have HTML – it’s the structure of EVERYTHING. Think of it as the columns at a construction site.
+All web pages have HTML. It’s the structure of EVERYTHING. Think of it as the columns at a construction site.
 
-HTML allows you to divide the website information into parts – similar to the basic parts of a document: header, title, content, footnote, subtitle, etc.  Then, with CSS, you can make your page beautiful, and, with JavaScript, make it interactive.
+HTML allows you to divide the website information into parts (similar to the basic parts of a document): header, title, content, footnote, subtitle, etc.  Then, with CSS you can make your page beautiful, and, with JavaScript, make it interactive.
 
 Originally, browsers only knew how to interpret HTML.  Websites were simple and neither CSS or JavaScript were used. A website was a simple plain-text document with the typical elements any Word Document has: headings, bullet-point lists, paragraphs, etc.
 
@@ -48,8 +48,7 @@ Once a `<tag>` is defined, we can describe in detail its behavior by assigning a
 <a href="google.com">Click here and it will take you to Google.com</a>
 ```
 
-
-In theory, you have to use [one of these tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true), don’t make up your own tags because the browser won’t know how to interpret them. You must **learn HTML's** tags meanings, and their functionality, in order to put them to good use… but don’t worry, there aren’t that many! 🙂
+In theory, you have to use [one of these tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true). Don’t make up your own tags because the browser won’t know how to interpret them. You must **learn HTML's** tags meanings, and their functionality, in order to put them to good use… But don’t worry, there aren’t that many! 🙂
 
 For the main heading of the document, the tag we use is `<h1>`.  For example: An online store has an "Electronics" category. The title to such category would be "Electronics" and the `<h1>` tag would be written as follows:
 
@@ -57,8 +56,7 @@ For the main heading of the document, the tag we use is `<h1>`.  For example: An
  <h1>Electronics</h1>
 ```
 
-
-##### Nested Tags :
+### Nested Tags
 
 Finally, tags can contain one or more tags within them. For example, if we would want to give <i>italic style</i> to the word "electronics" we would wrap the word with the tag `<i>`:
 
@@ -68,7 +66,7 @@ Finally, tags can contain one or more tags within them. For example, if we would
 
  ## Blank Spaces and Line Jumps
 
- The browser ignores blank spaces and end of lines. If we want to jump one line, we have to use the `<br>` tag.  If we want more "spaces" we need to insert the command `&nbsp;` per each blank space (yes, we know it’s weird, but it is what it is).
+ Empty (or blank) spaces and line breaks are ignored by the browser when rendering the text. If we write five blank spaces in a row, or just one, the browser will interpret it the same way. If we want a line break, we must use the `<br>` tag. If we want more "space", we need to insert `&nbsp;` for each whitespace (yes, we know it’s weird, but it is what it is).
 
 **The following three alternatives will look the same (spaces and jumps of line will be ignored):**
 
@@ -144,7 +142,7 @@ Ok, now that we are familiar with the general and necessary structure of the pag
 
 Remember – for the fifteenth time – that a web page is… a text document!  That’s right, if you knew the answer before you read it you are getting it! And, if not, don’t worry.  We’ve never known of anyone learning HTML and CSS rather quickly ;).
 
-Lets see how a website compares to a Word document:
+Let's see how a website compares to a Word document:
 
 <before-after width="500px" before="../../assets/images/f2021d8d-193d-4482-b189-ae0005b1bd88.png" after="../../assets/images/8e339149-97ae-4b15-ba59-a3ddf3777525.png" /></before-after>
 
@@ -169,13 +167,14 @@ The most frequent tags used inside the `<body>` of an HTML document are:
 We already know each `<tag>`'s behavior.  Thanks to tags we can change the font size – as is the case with headings –, add margins between paragraphs, list elements, etc.
 
 If you wish to further specify how you want the behavior of a specific tag to be, you can use its attributes. To use them, you must define the attributes in the opening tag, like this:
+
 ```html
 <img src="http://www.mydomain.com/myimage.png" />
 ```
 
 In this case, we are assigning the "src" property to the `<img>` tag which will indicate the path or URL of the image to be displayed in this container.
 
-Each tag has its own properties – you do not have to memorize them, you will always find them quickly over the Internet – but, it is good that you know the most important ones so that you have them ready in your mind at any time.
+Each tag has its own properties (you do not have to memorize them, you will always find them quickly over the Internet), but it is good that you know the most important ones so that you have them ready in your mind at any time.
 
 That’s why we have created a series of exercises that will better explain each of the important properties of the most used HTML elements.
 
@@ -183,7 +182,7 @@ That’s why we have created a series of exercises that will better explain each
 
 We are so PROUD! 🙂
 
-You just learned how a website was built in 1999.  Now we only have a few more weeks to catch up on everything else that happened in the last 20 years.
+You just learned how a website was built in 1999.  Now we only have a few more weeks to catch up on everything else that happened in the last 20 years. Now you can say that you know how to make a website!
 
 HTML has a lot more tags.  There's also a new version called HTML5.  But again, don’t worry, you’ll **learn HTML** and how to build beautiful (thanks to CSS) and interacting (thanks to formularies and JavaScript) websites in the next few lessons.  That’s why we are here!!
 
