@@ -101,25 +101,36 @@ const Print = () =>{
 	document.body.innerHTML = websiteContent;
 }
 ```
+
 Let´s check the code above in details:
+
 ```javascript
-let contentToBePrinted = document.querySelector(“.class” OR “#id”).innerHTML;```
+let contentToBePrinted = document.querySelector(“.class” OR “#id”).innerHTML;
+```
+
 Here we store the content of the class or id we want to print on a variable.
+
 ```javascript 
-let  websiteContent = document.body.innerHTML;```
+let  websiteContent = document.body.innerHTML;
+```
 
 Now we store in a variable the whole body structure and content
+
 ```javascript
 document.body.innerHTML = contentToBePrinted;
 ```
  Then, we assign the stored value of `contentToBePrinted` to the document body which will be printed
+ 
 ```javascript
 window.print();
 ```
+
 We are now actually executing the print method on the window
+
 ```javascript 
 document.body.innerHTML = websiteContent; 
 ```
+
 We restore our website content and structure 
 
 <a name="conclusion"></a>
