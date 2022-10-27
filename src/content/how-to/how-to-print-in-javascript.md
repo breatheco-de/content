@@ -22,8 +22,6 @@ window.print()
 - [How to print in JavaScript only the part of the content we want?](#HowTo)
 - [Conclusion](#conclusion)
 
-
-
 <a name="howToPrint"></a>
 ## window.print()
 
@@ -39,9 +37,9 @@ window.print()
 This method will open up the print dialog for the current document and gives you all the options as it would if you use ctr+p or click print on the browser menu. It will print the full document, from top to bottom.
 
 <a name="events"></a>
-## Events: afterprint and beforeprint 
+## Events: beforeprint and afterprint
 
-The `afterprint` and `beforeprint` events allows changes to happen on the page printing  target. Let´s say you gave a banner or publicity even a sidebar or the footer and you don’t want it to be printed, you can use these events to hide and restore them.
+The `beforeprint` and `afterprint` events allows changes to happen on the page printing  target. Let´s say you gave a banner or publicity even a sidebar or the footer and you don’t want it to be printed, you can use these events to hide and restore them.
 
 As mentioned before, it´s an event, so we use it as one:
 
@@ -53,7 +51,7 @@ onbeforeprint = (event) => { };
 Usually, you´ll  want to use a `@media_print` CSS instead, but there are times these events are the right way to go.
 
 <a name="Using@media_print"></a>
-## Using @media_print: 
+## Using @media print: 
 
 Media types are used to describe general categories of the devices consuming our website. As developers, we design website focused on screens but there´s more than just screens, like printers or screen-readers!
 
@@ -67,18 +65,22 @@ Using this CSS rule, you can target and specify how you want your website to vis
 
 ```css
 @media print{
-nav{
-	display: none;
-}
-aside { 
-display: none;
-}
-a{
-text-decoration: none;
-color: black;
-}
-.myclass {
-	background-color:  white; 
+	nav{
+		display: none;
+	}
+	
+	aside { 
+		display: none;
+	}
+	
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	
+	.myclass {
+		background-color:  white; 
+	}
 }
 ```
 
