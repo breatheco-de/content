@@ -19,9 +19,7 @@ mylist.reverse()
 print(mylist) #Output: ["g", "f", "d", "c", "b", "a"]
 ```
 
-Reversing a list is a very common operation in the day of a programmer, you will find cases in which you will need a list similar to the original one with the same elements, but in a different order, in this case, we could say that we would be "flipping" the list of interest.  
-
-![Python Reverse List](https://files.realpython.com/media/Reverse-a-List-in-Python_Watermarked.7002d78bbb86.jpg)
+Reversing a list is a very common operation in the day of a programmer, you will find cases in which you will need a list similar to the original one with the same elements, but in a different order, in this case, we could say that we would be "flipping" the list of interest.
 
 For these cases, Python has various methods and ways to "flip" or "reverse" a list. Let's see more information on these methods/ways in the following sections.
 
