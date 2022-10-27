@@ -20,7 +20,7 @@ countries_length = len(countries)
 print(countries_length) #Output: 5 
 ```
 
-This is a simple way to get the length of a Python list, let's dive into how the `len()` function works and which other methods can we use to get the length of a list in Python in the following sections.
+This is a simple way to get the length of a Python list, let's dive into how the `len()` function works and which other methods we can use to get the length of a list in Python in the following sections.
 
 ![Measuring](https://media.tenor.com/AFJK9BNwiZIAAAAC/harry-styles-tape-measure.gif)
 
@@ -68,11 +68,11 @@ After importing this method into our code, to use `length_hint()` we simply have
 ```py
 from operator import length_hint 
 
-ourList = [1, 2, 3, 4, 5, 6]
+our_list = [1, 2, 3, 4, 5, 6]
 
-ourList_length = length_hint(ourList)
+our_list_length = length_hint(our_list)
 
-print("The length of our list is: " + str(ourList_length)) #Output: The length of our list is: 6
+print("The length of our list is: " + str(our_list_length)) #Output: The length of our list is: 6
 ```
 
 You can also use the `length_hint()` method to check the length of a string as follows:
@@ -80,11 +80,11 @@ You can also use the `length_hint()` method to check the length of a string as f
 ```py
 from operator import length_hint 
 
-ourStr = "Hello Rigoberto"
+our_str = "Hello Rigoberto"
 
-ourStr_length = length_hint(ourStr)
+our_str_length = length_hint(our_str)
 
-print("The length of our string is: " + str(ourStr_length)) #Output: The length of our string is: 15
+print("The length of our string is: " + str(our_str_length)) #Output: The length of our string is: 15
 ```
 
 ## How to Get Python List Length Using the "Naive" Method <a name="naive"></a>
