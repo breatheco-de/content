@@ -1,3 +1,13 @@
+---
+title: "How to Get Python List Length?"
+subtitle: "A simple way to get the length of any Python list is using the `len()` function."
+tags: ["python", "list", "list length"]
+date: "2020-10-19T16:36:30+00:00"
+authors: []
+status: "published"
+
+---
+
 # How to Get Python List Length
 
 A simple way to get the length of any Python list is using the `len()` function as follows:
