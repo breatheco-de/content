@@ -2,8 +2,6 @@
 
 Need to update to your current Python version on Windows and don't know where to start? Don't worry, the following article will explain step by step how you can update to the version of Python you want.
 
-![Updating Python](https://www.imymac.com/images/technology/how-to-update-python-on-mac.jpg)
-
 Currently, there is no "automatic" way to do it, to perform the update we must do it "manually" by going to the official Python website to start. Let's see step by step how to perform this update:
 
 ## How to Update Python on Windows (Download from Website)
