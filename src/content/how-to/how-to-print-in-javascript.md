@@ -1,6 +1,6 @@
 ---
 title: "How to print in javascript"
-subtitle: ""
+subtitle: "The code to open the print dialog in JavaScript is window.print(). This method will open up the print dialog for the current document and gives you all the options"
 tags: ["javascript"]
 date: "2020-10-19T16:36:30+00:00"
 authors: []
