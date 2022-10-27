@@ -16,12 +16,6 @@ The code to open the print dialog in JavaScript is as follows:
 window.print()
 ```
 
-- [window.print()](#window-print-method)
-- [Events: afterprint and beforeprint](#events-beforeprint-and-afterprint)
-- [Using @media_print](#using-media-print)
-- [How to print in JavaScript only the part of the content we want?](#how-to-print-in-javascript-only-the-part-of-the-content-we-want)
-- [Conclusion](#conclusion)
-
 ## Window Print Method
 
 **Syntax:**
