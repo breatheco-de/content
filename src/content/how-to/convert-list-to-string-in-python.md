@@ -1,3 +1,13 @@
+---
+title: "Convert List to String in Python
+subtitle: "A simple way to convert a list to a string in Python using the join() method."
+tags: ["python", "list"]
+date: "2020-10-19T16:36:30+00:00"
+authors: []
+status: "published"
+
+---
+
 # Convert List to String in Python
 
 Let's see a simple way to convert a list to a string in Python using the `.join()` method as follows:
@@ -8,8 +18,6 @@ cool_names = ["Danny", "Peter", "Johanna"]
 print(", ".join(cool_names)) #Output: Danny, Peter, Johanna 
 ```
 This is the most simple way to convert a list to a string in Python, in the following sections we will describe how the `.join()` method works, as well as check other ways to convert a list to a string in Python.
-
-![List](https://media4.giphy.com/media/RjDIwuXYPzrAEjb6HP/giphy.gif)
 
 - [Convert List to String in Python Using `.join()`](#join)
 - [Convert List to String in Python Using `.join()` and `.map()`](#map)
@@ -29,7 +37,7 @@ string_pets = " ".join(pets) #This is joining the elements of our list and separ
 print(string_pets) #Output: Dog Cat Parrot Hamster 
 ```
 
-it is important to mention that the iterable only takes **string type values**. If we have a list with any `int`, we'll have an error:
+It is important to mention that the iterable only takes **string type values**. If we have a list with any `int`, we'll have an error:
 
 ```py
 list1 = ["Hello", "People", 1, 9, "Greet"]
