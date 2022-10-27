@@ -16,14 +16,13 @@ The code to open the print dialog in JavaScript is as follows:
 window.print()
 ```
 
-- [window.print()](#howToPrint)
-- [Events: afterprint and beforeprint](#events)
-- [Using @media_print](#Using@media_print)
-- [How to print in JavaScript only the part of the content we want?](#HowTo)
+- [window.print()](#window-print-method)
+- [Events: afterprint and beforeprint](#events-beforeprint-and-afterprint)
+- [Using @media_print](#using-media-print)
+- [How to print in JavaScript only the part of the content we want?](#how-to-print-in-javascript-only-the-part-of-the-content-we-want)
 - [Conclusion](#conclusion)
 
-<a name="howToPrint"></a>
-## window.print()
+## Window Print Method
 
 **Syntax:**
 
@@ -36,8 +35,7 @@ window.print()
 
 This method will open up the print dialog for the current document and gives you all the options as it would if you use ctr+p or click print on the browser menu. It will print the full document, from top to bottom.
 
-<a name="events"></a>
-## Events: beforeprint and afterprint
+## Events beforeprint and afterprint
 
 The `beforeprint` and `afterprint` events allows changes to happen on the page printing  target. Let´s say you gave a banner or publicity even a sidebar or the footer and you don’t want it to be printed, you can use these events to hide and restore them.
 
@@ -50,8 +48,7 @@ onbeforeprint = (event) => { };
 ```
 Usually, you´ll  want to use a `@media_print` CSS instead, but there are times these events are the right way to go.
 
-<a name="Using@media_print"></a>
-## Using @media print: 
+## Using @media print 
 
 Media types are used to describe general categories of the devices consuming our website. As developers, we design website focused on screens but there´s more than just screens, like printers or screen-readers!
 
@@ -88,8 +85,8 @@ This way we are designing how our website will look like once it´s printed and 
 
 Remember, in-line styles will override, as usually, all CSS rules we established on our `@media print`!
 
-<a name="HowTo"></a>
-## How to print in JavaScript only the part of the content we want?  
+## How to print in JavaScript only the part of the content we want?
+
 So far, we´ve learned how to print in JavaScript using with the `window.print()` method and that we can use `beforeprint` and `afterprint` to change the composition of our website before and after the printing event executes. We also covered how to, using `@media print`, hide or modify CSS rules of the elements in our website for printing purposes. The only question left to answer is: How to print only a part of the website, let´s say, the main article where the news is.
 
 We can achieve this by using just a tiny little bit of JavaScript:
@@ -135,8 +132,8 @@ document.body.innerHTML = websiteContent;
 
 We restore our website content and structure 
 
-<a name="conclusion"></a>
-## Conclusion: 
+## Conclusion
+
 We´ve covered how to code in JavaScript using the `window.print()` method in different ways (printing the full website or just a part of it). We mentioned events linked to printing, with which we can modify with JavaScript the structure of the website `beforeprint` and `afterprint` We´ve discussed how to modify the CSS only for printing purposes and gave examples on how to do all that.
 
 I hope you enjoyed the reading and keep on the Geek side!
