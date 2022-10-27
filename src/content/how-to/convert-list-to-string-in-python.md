@@ -1,5 +1,5 @@
 ---
-title: "Convert List to String in Python
+title: "Convert List to String in Python"
 subtitle: "A simple way to convert a list to a string in Python using the join() method."
 tags: ["python", "list"]
 date: "2020-10-19T16:36:30+00:00"
