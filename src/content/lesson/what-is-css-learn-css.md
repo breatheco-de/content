@@ -11,13 +11,9 @@ status: "published"
 
 ## Welcome to CSS!!
 
-We are sure that after diving deep into HTML, everything looks kind of ugly, fixed, and rigid. We have to remember that HTML was created by CERN scientists, and they’re not – usually – the funniest kind of people (although they are the same exact scientists that 
-[discovered The Higgs Boson](https://www.youtube.com/watch?v=0CugLD9HF94), and we do have to bow to our knees for that).  However, HTML is still ugly, and it’s ugly because it was created for a different purpose than the one HTML meets today.
+We are sure that after diving deep into HTML, everything looks kind of ugly, fixed, and rigid. We have to remember that HTML was created by CERN scientists, and they’re not – usually – the funniest kind of people (although they are the same exact scientists that [discovered The Higgs Boson](https://www.youtube.com/watch?v=0CugLD9HF94); and we do have to bow to our knees for that). However, HTML is still ugly, and it’s ugly because it was created for a different purpose than the one HTML meets today.
 
 ![what is css](../../assets/images/6891485c-2a5a-4722-a7dc-f108993c18ba.jpeg)
-
-
-
 
 But… The Internet is more beautiful than that. When the internet became popular, it stopped to be only a privilege for scientists and the army, and evolved to become **Part of our world!!**
 
@@ -25,26 +21,21 @@ Ironically, the same scientists at CERN who created HTML had to think about how 
 
 ## So, What is CSS and why does it matter??
 
-
 ![what is css](../../assets/images/8c9fea86-c56c-486f-8b64-4322338076f7.jpeg)
 
-The main objective for his creation was to apply styles to HTML documents. The idea is to let you tell the browser how to display an HTML document: how to render its tags; in what color; margins; typography; icons; borders; etc. You can even redefine the original behaviors of the existing tags at your will. Eg:
+The main objective for his creation was to apply styles to HTML documents. The idea is to let you tell the browser how to display an HTML document: how to render its tags, in what color, margins, typography, icons, borders, etc. You can even redefine the original behaviors of the existing tags at your will. Eg:
 
 ```html
-You could tell a <h1> to look just like a <h2> without the user 
-realizing that, at first glance, they are different.
+You could tell a <h1> to look just like a <h2> without the user realizing that, at first glance, they are different.
 ```
 
 > :point_up:To understand the potential of CSS, [click here to see a live demo!](http://assets.breatheco.de/live-demos/css/bootstrap/)
 
-Can you imagine the potential?  You can make almost everything look different!
-
-
+Can you imagine the potential? You can make almost everything look different!
 
 ## How do I apply styles to HTML?
 
-
-Quite simple: You have to write your styles in a special syntax called "CSS" and save it on documents with the extension CSS.  Then, you apply the styles to the document using the `<link>` or the `<style>` tag.
+Quite simple, you have to write your styles in a special syntax called "CSS" and save it on documents with the extension CSS.  Then, you apply the styles to the document using the `<link>` or the `<style>` tag.
 
 Let’s review those 2 tags in more detail:
 
@@ -53,10 +44,9 @@ Let’s review those 2 tags in more detail:
 |Link       |link          |The purpose is to link the page with CSS stylesheets.  To use it, you must specify three attributes within the tag: `rel="stylesheet" type="text/css"` and finally `href="with document route css"`<br>like so: `<link rel="stylesheet" type="text/css" href="theme.css">`   |
 |Style   |style   |If we do not want or can’t import a CSS style sheet, we have the alternative to define styles in the HEAD of the HTML document.  We simply define the style tag and proceed to write the styles we want for the tags.<br>`<style>`<br>`h1 { color:red; }`<br>`p { color:blue; }`<br>`</style>` |
 
-> :point_up:Just like it happens with HTML docs (ending with .html) CSS docs (style sheets) end with extension `.css`.
+> :point_up: Just like it happens with HTML docs (ending with .html) CSS docs (style sheets) end with extension `.css`.
 
 ## CSS Syntax
-
 
 The CSS syntax is nothing similar to HTML syntax, it is its own specific programming language.  CSS does not use tags! To work with a website you have to shift your mindset several times because you will be working with several languages at the same time, and each one has its own syntax.
 
@@ -86,8 +76,8 @@ tag-selector
    font-size: 15px;
 }
 ```
-## Wait… What is a "Selector"??
 
+## Wait… What is a "Selector"??
 
 A selector is a way to refer or identify one or more HTML elements. For example, if you want to change the color of your website to red, you must do it as it follows:
 
@@ -104,7 +94,7 @@ You could also change the color of a single anchor `<a>`. To do that, you must d
    color: red;
 }
 ```
-The next table shows a list of all possible types of selectors available to use in CSS. Please take your time to review it carefully. Your understanding here is key to continue with CSS, since you need to understand every possible style you can apply to an HTML doc:
+The next tables show a list of all possible types of selectors available to use in CSS. Please take your time to review them carefully. Your understanding here is key to continue with CSS, since you need to understand every possible style you can apply to an HTML doc:
 
 ### ID Selector
 
@@ -117,7 +107,6 @@ Let’s assign "first" as the ID of the first cell in the next table, and then w
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/1b78wna2/8/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/1b78wna2/8/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
-
 
 ### Class selector
 
