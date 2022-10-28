@@ -34,8 +34,8 @@ Will try to clean and fix any possible issues on the lessons, for example: Date 
 
 | PARAM         | DESCRIPTION |
 | ---------     | ----------- |
-| --slug        | Every lesson has a slug that identifies it, you can pass `all` if you want to update all at once |
-| --statusTo    | change the status of one or all the lessons to a particular one |
+| --slug        | Every lesson has a slug that identifies it, you can pass `all` if you quieres to update all at once |
+| --statusTo    | change the status of one or all the lecciones to a particular one |
 | --statusFrom  | only apply changes to lessons with specified status |
 
 ### Method: download_images
@@ -47,7 +47,7 @@ Will try to clean and fix any possible issues on the lessons, for example: Date 
 
 ### Method: localize_images
 
-Rename the remote image url's with local images (if available), this method is ideal to run after `download_images`
+Rename the remote image url's with local images (if available), this method is ideal to run after `download_images` 
 
 | PARAM         | DESCRIPTION |
 | ---------     | ----------- |
