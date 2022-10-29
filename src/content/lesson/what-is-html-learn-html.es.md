@@ -48,9 +48,9 @@ Una vez definida la  `<tag>`, podemos describir con más detalle su comportamien
 
 
 
-En teoría, tú debes utilizar [una de estas tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true), no puedes inventar tus propias etiquetas porque el navegador no sabría cómo interpretarlas. Sí, debes conocer el significado de cada **etiqueta HTML** para utilizarlas sabiamente… ¡pero no te preocupes que no hay muchas! 🙂
+En teoría, tú debes utilizar [una de estas tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true), no puedes inventar tus propias etiquetas porque el navegador no sabría cómo interpretarlas. Sí, debes conocer el significado de cada **etiqueta HTML** para utilizarlas sabiamente… ¡Pero no te preocupes que no hay muchas! 🙂
 
-Para el título principal, o el título más grande, se utiliza la etiqueta `<h1>`. Por ejemplo: una tienda en línea podría tener una sección para la categoría de electrónicos, en ese caso un título coherente seria “Artículos Electrónicos” y la tag  `<h1>` la escribiríamos de la siguiente manera:
+Para el título principal, o el título más grande, se utiliza la etiqueta `<h1>`.Por ejemplo: una tienda en línea podría tener una sección para la categoría de electrónicos, en ese caso un título coherente seria “Artículos Electrónicos” y la tag  `<h1>` la escribiríamos de la siguiente manera:
 
 
 ```html
@@ -142,7 +142,7 @@ En el caso de HTML, `<head>` puede contener los siguientes tags (entre otros men
 
 Bien, ahora que conocimos la estructura general y necesaria de la página, vamos a revisar cuáles son los tags que podemos y debemos utilizar para definir el contenido de la misma.
 
-Recuerda -por quinceava vez- que una página web es un… ¡documento de texto! Así es. Si has pensado en la respuesta antes de leerla… ¡estás entendiendo! y si no es así, pues no te preocupes, que no conozco a nadie que haya entendido HTML y CSS tan rápidamente ;).
+Recuerda -por quinceava vez- que una página web es un… ¡Documento de texto! Así es. Si has pensado en la respuesta antes de leerla… ¡Estás entendiendo!, y si no es así, pues no te preocupes, que no conozco a nadie que haya entendido HTML y CSS tan rápidamente ;).
 
 Veamos ahora en qué se compara un website con un documento de Word:
 
@@ -175,7 +175,7 @@ Si quieres especificar más el comportamiento de una etiqueta en particular, pue
 ```
 
 
-En este caso, estamos asignándole a la etiqueta `<img>` la propiedad "src" que indica cual es la ruta de la imagen que debe visualizarse en este contenedor.
+En este caso, estamos asignándole a la etiqueta `<img>` la propiedad "src" que indica cuál es la ruta de la imagen que debe visualizarse en este contenedor.
 
 Cada etiqueta tiene sus propiedades (no tienes que memorizarlas, siempre las conseguirás rápidamente en Internet), pero si es bueno que revises las más importantes para que las tengas a disposición en tu mente.
 
