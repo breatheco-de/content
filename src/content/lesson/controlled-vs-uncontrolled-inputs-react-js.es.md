@@ -10,7 +10,7 @@ canonical: ""
 
 ---
 
-Esta lección habla un poco más sobre **cómo trabajar con entradas e n react** que sobre **qué es una entrada controlada**. Es mejor explicar las razones por las que las necesitamos y por qué las **entradas controladas** se consideran el mejor enfoque en las aplicaciones React.js.
+Esta lección habla un poco más sobre **cómo trabajar con entradas en react** que sobre **qué es una entrada controlada**. Es mejor explicar las razones por las que las necesitamos y por qué las **entradas controladas** se consideran el mejor enfoque en las aplicaciones React.js.
 
 
 ## Entradas en Javascript Vanilla.js simple

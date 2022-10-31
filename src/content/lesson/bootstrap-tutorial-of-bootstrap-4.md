@@ -183,7 +183,7 @@ Here is an example of how a NavBar may look on a website:
 
 #### The Card
 
-This is probably the most used Bootstrap component, every website has a few cards because they are ideal for listing items in a beautiful way. Some examples of the Card used can be:
+This is probably the most used Bootstrap component; every website has a few cards because they are ideal for listing items in a beautiful way. Some examples of the Card being used can be:
 
 + The "team" section of a website, where you list the different employees.
 + The typical Pinterest wall.

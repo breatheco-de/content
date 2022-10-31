@@ -22,7 +22,7 @@ __Computadoras bajo demanda, con VSCode ya instalado__
 
 ## ¿Por qué Gitpod?
 
-No necesitas instalar nada: el obstáculo mas frecuente para aprender a codificar es la configuración: para completar este curso, deberás instalar: Git, node, nvm, python, MySQL, Postgress, c++, VSCode, Learnpack, Vercel, Heroku, etc.
+No necesitas instalar nada: el obstáculo más frecuente para aprender a codificar es la configuración: para completar este curso, deberás instalar: Git, node, nvm, python, MySQL, Postgress, c++, VSCode, Learnpack, Vercel, Heroku, etc.
 
 No mas problemas de compatibilidad: ¿Has intentado instalar Python en tu computadora? Hay 100 maneras de hacerlo. Dependiendo de tu sistema operativo y otros factores, vas a encontrar problemas durante su instalación, porque vas a seguir un procedimiento escrito por alguien con una computadora diferente.
 

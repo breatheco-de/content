@@ -69,7 +69,7 @@ Recomendamos encarecidamente el uso de [la librería JWT extendida](https://gith
 
 ### 1) Incluir la librería JWT en la configuración de tu aplicación Flask
 
-``py
+```py
 from flask_jwt_extended import JWTManager
 
 # ya debes tener esta línea en tu proyecto
@@ -79,7 +79,7 @@ app = Flask(__name__)
 # Configura la extensión Flask-JWT-Extended
 app.config["JWT_SECRET_KEY"] = "super-secret" # ¡Cambia las palabras "super-secret" por otra cosa!
 jwt = JWTManager(app)
-``
+```
 
 ### 2) Crear un endpoint para generar nuevos tokens
 

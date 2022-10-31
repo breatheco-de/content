@@ -37,7 +37,7 @@ Todas las cajas/contenedores deben tener los siguientes atributos:
 |Relleno (Padding)   |Espacio libre opcional existente entre el contenido y el borde.   |
 |Borde (Border)	   |Línea que encierra completamente la caja y su contenido.   |
 |Imagen de Fondo (Background image)   |Imagen que se muestra detrás del contenido de la caja.   |
-|Color de Fondo (Background color)   |Además de la imagen de fondo, puedew tener un color de fondo detrás del contenido y de la imagen de fondo.   |
+|Color de Fondo (Background color)   |Además de la imagen de fondo, puede tener un color de fondo detrás del contenido y de la imagen de fondo.   |
 |Margen (Margin)   |Separación opcional existente entre la caja y el resto de los elementos a su alrededor.   |
 
 ![css layout](../../assets/images/153d2a7c-b648-4d75-920b-940102f18eaa.gif) 
@@ -81,7 +81,7 @@ Para que un sitio web se vea como los sitios web de la actualidad, tenemos que r
 |**Nombre**   |**Descripción**   |
 |:----------|:-----------------|
 |Static     |No provoca ningún posicionamiento especial de los elementos y por tanto, los atributos top, left, right y bottom no se tendrán en cuenta.    |
-|Absolute    |Cuando le dices a una caja que su posición es absolute (o absoluta), igualmente debes definir las reglas top, bottom, left y right.  Aquí le estás pidiendo a la caja que ignore su posición dentro del documento.  Su nueva posición se basará en las reglas (top, lef, right y bottom que especificaste en el CSS).    |
+|Absolute    |Cuando le dices a una caja que su posición es absolute (o absoluta), igualmente debes definir las reglas top, bottom, left y right.  Aquí le estás pidiendo a la caja que ignore su posición dentro del documento.  Su nueva posición se basará en las reglas (top, left, right y bottom que especificaste en el CSS).    |
 |Relative    |Similar a absolute.  La principal diferencia es que no se ignora su posición en el documento.  La caja a la que le apliques este atributo se va a ubicar de acuerdo a los atributos top, left, right y bottom, pero tomando como referencia a su elemento padre (el elemento donde está contenida) como punto de partida.    |
 |Fixed     |Se utiliza cuando queremos que un elemento permanezca en la misma posición mientras el usuario navega dentro de la página.  Si haces scroll, el elemento permanecerá en la misma posición. Fixed se puede utilizar para las ventanas modales (PopUps), menú de navegación, etc.    |
 

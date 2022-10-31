@@ -12,16 +12,16 @@ status: "published"
 ## Why do Developers love the Command Line?
 
 
-At first everybody hated the command line.  After years of experience it became an acquired taste.
+At first, everybody hated the command line. After years of experience, it became an acquired taste.
 
-But why do developers like it?   Well, the list is infinite but here are a few important reasons:
+But why do developers like it? Well, the list is infinite, but here are a few important reasons:
 
 + If you don’t master the command line you won’t be able to use any of these: GIT, MySQL, Webpack, Node.js, Grunt, Vagrant, Babel, React, Angular, Apache, etc.
 + As a developer, it’s the one thing you need to have available.  Computers don’t come with Atom, Sublime Text (or any other fancy IDE).  Sometimes – like production servers – you are not allowed to install anything and **the system does not even have a visual interface** – just the command line.
 + It is super powerful.  You can do a lot more in a lot less time, for example: bulk delete, rename, find a file, edit a file, etc.
-+ It forces you to use the keyboard.  Since you cannot use the mouse, it makes you faster.  You make less mistakes and the environment is exactly the same on every computer.
++ It forces you to use the keyboard.  Since you cannot use the mouse, it makes you faster.  You make fewer mistakes and the environment is exactly the same on every computer.
 
-## How does it Work?
+## How does it work?
 
 
 The console is really simple: it’s a black screen that’s always expecting a *command*.  After you type the desired command and press the `return` key, the computer executes it and shows some feedback with the resulting output on the screen.  A simple Question <> Answer interface.
@@ -43,7 +43,7 @@ The last thing we have to add is the "argument." In this case, the "argument" wi
 ## What can you do in the Terminal?
 
 
-Your computer has files, directories and applications.  Your command line is able to deal with all three of them.  Use commands to move within the files and directories (like the `cd` command).  Every application that you install comes with a set of commands that become available at the moment you install the app (like the GIT command).
+Your computer has files, directories, and applications.  Your command line is able to deal with all three of them.  Use commands to move within the files and directories (like the `cd` command).  Every application that you install comes with a set of commands that become available at the moment you install the app (like the GIT command).
 
 ## Here is how the File System looks in a Visual Interface vs the Terminal:
 
@@ -66,7 +66,7 @@ Here is a small selection of the most used commands by a software developer.
 
 **The list command**
 
-The ls command is used for listing all the files and directories form the current position.
+The ls command is used for listing all the files and directories that form the current position.
 
 ```bash
 ls -l ./applications
@@ -135,7 +135,6 @@ rmdir mydirectory
 rmdir path/of/targetdirectory/mydirectory
 #remove mydirectory from "targetdirectory" 
 ```
-
 
 > :point_up: It will only remove empty directories, to empty all directory files use the rm -r command (-r flag forces the remove command to delete the directory and all the files within it). Pro-tip: you can use `rm` . to delete all of the files inside a directory simultaneously; use with caution.
 

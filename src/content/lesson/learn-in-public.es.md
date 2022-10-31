@@ -11,13 +11,13 @@ canonical: ""
 
 ---
 
-Si estás interesado en aprender a codificar de forma eficiente pero rápida, tienes que hacerlo en público, esto no es una teoría sino un hecho.  
+Si estás interesado en aprender a codificar de forma eficiente pero rápida, tienes que hacerlo en público. Esto no es una teoría sino un hecho.  
 
 En este artículo voy a intentar explicarte por qué funciona y cómo puedes hacerlo.
 
 ## ¿Qué es aprender en público?
 
-Aprender en privado: El sistema educativo tradicional está diseñado para ser una experiencia privada: lees libros, asistes a clases, haces tareas y evaluaciones, y te gradúas en algún momento, estamos tan acostumbrados a este flujo de trabajo que está en nuestro corazón de estudiante.
+Aprender en privado. El sistema educativo tradicional está diseñado para ser una experiencia privada: lees libros, asistes a clases, haces tareas, evaluaciones y te gradúas en algún momento. Estamos tan acostumbrados a este flujo de trabajo que está en nuestro corazón de estudiante.
 
 Cuando aprendes en público, conviertes las redes sociales en tu cuaderno de notas y tu foro de discusión, escribes sobre lo que acabas de aprender de diferentes maneras como entradas de blog, tweets, boletines, dibujos, memes, etc.
 
@@ -45,7 +45,7 @@ Cuando aprendes en público, conviertes las redes sociales en tu cuaderno de not
 
 ### No tengo nada que decir
 
-Realmente lo dudo, aprender a codificar es difícil y la gente lee mucho sobre ello y necesita apoyo emocional, sólo con tu testimonio estás ayudando a muchos y mucha gente estará interesada en conocer tu historia.
+Realmente lo dudo, aprender a codificar es difícil y la gente lee mucho sobre ello y necesita apoyo emocional, solo con tu testimonio estás ayudando a muchos y mucha gente estará interesada en conocer tu historia.
 
 ### No soy un experto
 
@@ -55,8 +55,8 @@ Nadie lo es. Llevo 20 años codificando y sigo pensando que no soy un experto, a
 
 No lo hagas todo, puedes elegir una o dos cosas que te gusten. Incluso si estás aprendiendo en privado tienes que tomar notas y terminar los proyectos de codificación y los desafíos, ¿por qué no darte un poco de tiempo extra para publicarlos? Creo que vale la pena el 100% de tu tiempo. 
 
-¡espero haber expuesto mi caso!
+¡Espero haber expuesto mi caso!
 
 ## ¡Sigue así!
 
-Si quieres leer más sobre el aprendizaje en público te recomiendo que leas [este artículo y todas las increíbles fuentes mencionadas al final de ese artículo](https://www.swyx.io/learn-in-public/).
+Si quieres leer más sobre el aprendizaje en público, te recomiendo que leas [este artículo y todas las increíbles fuentes mencionadas al final del mismo](https://www.swyx.io/learn-in-public/).

@@ -108,7 +108,7 @@ All pages must begin with the `<DOCTYPE! Html>` statement followed by `<html>`, 
 </html>
 ```
 
-Lets simulate how a browser thinks: Imagine a user on his browser (client-side) who types the URL: breatheco.de
+Let's simulate how a browser thinks: Imagine a user on his browser (client-side) who types the URL: breatheco.de
 
 + The server will open the default HTML file on that server, which will probably be: index.html.
 + Then, it will read its content and interpret it as HTML (because the extension of the file is index.html).

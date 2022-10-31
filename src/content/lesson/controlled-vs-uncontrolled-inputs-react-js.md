@@ -10,7 +10,7 @@ canonical: ""
 
 ---
 
-This lesson is more about **how to work with inputs in react** than **what is a controlled input** its better to explain the reasons we need it and why **controlled inputs** is considered the best approach in React.js applications.
+This lesson is more about **how to work with inputs in react** than **what is a controlled input**. It's better to explain the reasons we need it and why **controlled inputs** are considered the best approach in React.js applications.
 
 ## Inputs in Vanilla.js simple Javascript
 

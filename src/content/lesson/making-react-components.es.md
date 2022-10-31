@@ -210,7 +210,7 @@ Como una **Función**
 
 Las propiedades se reciben como la primer parámetro de la función:
  
-<br><br>`python>function MyComponent(props){`<br> &nbsp;  &nbsp; &nbsp; &nbsp; `python>return Hello {props.name};` <br> `python>}`     
+<br><br>`function MyComponent(props){`<br> &nbsp;  &nbsp; &nbsp; &nbsp; `return Hello {props.name};` <br> `}`     
 
 Como una **Clase**   
 

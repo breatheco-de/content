@@ -77,9 +77,9 @@ Si has estado leyendo y has entendido todo hasta ahora, debes estar pensando:
 
 ### Si Internet es todo texto ... entonces, cuando esté navegando, solo veré texto. ¡¡¡Que horrible!!!
 
-Bueno, no te preocupes! Los navegadores están equipados con ventanas mágicas. Si ves a través de esas ventanas, verás el mundo tal como está: ¡Sin texto! El navegador debe realizar todas las funciones que todas las demás aplicaciones de su computadora realizarán. Al igual que la representación de imágenes, videos, texto, sonidos, etc., el navegador es tan grande que incluso hay computadoras, como Google Chromecast, que solo vienen con un navegador.
+Bueno, ¡no te preocupes! Los navegadores están equipados con ventanas mágicas. Si ves a través de esas ventanas, verás el mundo tal como está: ¡Sin texto! El navegador debe realizar todas las funciones que todas las demás aplicaciones de su computadora realizarán. Al igual que la representación de imágenes, videos, texto, sonidos, etc., el navegador es tan grande que incluso hay computadoras, como Google Chromecast, que solo vienen con un navegador.
 
-> :tv: [Click aqui](https://www.youtube.com/watch?v=0QRO3gKj3qw) para acceder a un video que explica cómo funciona un Chromebook de Google.
+> :tv: [Click aqui](https://www.youtube.com/watch?v=83Y4jEgnaAA) para acceder a un video que explica cómo funciona un Chromebook de Google.
 
 ## El Cliente y El Servidor
 

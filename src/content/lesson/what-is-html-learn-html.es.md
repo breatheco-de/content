@@ -24,13 +24,13 @@ Originalmente, los navegadores solo podían interpretar HTML, las páginas web e
 ![qué es html](../../assets/images/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc.png)
 
 
-## Sintáxis del HTML: Todo es `<Tags> ` o etiquetas.
+## Sintáxis del HTML: Todo es `<Tags>` o etiquetas.
 
 ![qué es html](../../assets/images/78296f64-547f-4928-a8da-14cb24e836b9.gif)
 
 ¿Recuerdas que Internet trabaja solo con texto?
  
-En ese sentido, HTML es un leguage que utiliza etiquetas (`<tags>`) para representar los elementos que una página web debería de tener. Un tag es simplemente una palabra que comienza con `< >` y termina con `</ >`. Todos los tags se deben de abrir y cerrar, (los tags de cierre siempre preceden al elemento con `/`)
+En ese sentido, HTML es un lenguage que utiliza etiquetas (`<tags>`) para representar los elementos que una página web debería de tener. Un tag es simplemente una palabra que comienza con `< >` y termina con `</ >`. Todos los tags se deben de abrir y cerrar, (los tags de cierre siempre preceden al elemento con `/`)
 
 Hay 2 dipos diferentes de tags:
 
@@ -69,7 +69,7 @@ Por último, es importante que una tag pueda tener una o más tags en su conteni
 
 Los espacios vacíos (o en blanco) y los saltos de línea son omitidos por el navegador al momento de interpretar el texto. Si escribimos cinco espacios en blanco seguidos, o uno solo, el navegador lo interpretará de la misma manera. Si queremos un salto de línea, debemos usar la etiqueta `<br>`.  Si queremos más "espacio", necesitamos insertar `&nbsp;` por cada espacio en blanco (sí, es raro, pero es así).
 
-**Estas tres alternativas se van a ver iguales (espacios y saltos de lineas van a ser ignorados):**
+**Estas tres alternativas se van a ver iguales (espacios y saltos de líneas van a ser ignorados):**
 
 ```html
 <tag>Hello</tag><tag>World</tag>
@@ -177,7 +177,7 @@ Si quieres especificar más el comportamiento de una etiqueta en particular, pue
 
 En este caso, estamos asignándole a la etiqueta `<img>` la propiedad "src" que indica cual es la ruta de la imagen que debe visualizarse en este contenedor.
 
-Cada etiqueta tiene sus propiedades -no tienes que memorizarlas, siempre las conseguirás rápidamente en Internet- pero si es bueno que revises las más importantes para que las tengas a disposición en tu mente.
+Cada etiqueta tiene sus propiedades (no tienes que memorizarlas, siempre las conseguirás rápidamente en Internet), pero si es bueno que revises las más importantes para que las tengas a disposición en tu mente.
 
 Por eso hemos creado una serie de ejercicios que te explicarán mejor cada una de las propiedades importantes de los elementos más utilizados de HTML.  
 
@@ -185,7 +185,7 @@ Por eso hemos creado una serie de ejercicios que te explicarán mejor cada una d
 
 ¡¡Estamos orgullos@s!!! 🙂
 
-Acabas de aprender lo esencial para realizar una página web como se hacía en 1999. Ahora tenemos unas pocas semanas mas para ponerte al día con todo lo que ha pasado en estos últimos 20 años.  ¡Ya puedes decir que sabes hacer un website!
+Acabas de aprender lo esencial para realizar una página web como se hacía en 1999. Ahora tenemos unas pocas semanas más para ponerte al día con todo lo que ha pasado en estos últimos 20 años.  ¡Ya puedes decir que sabes hacer un website!
 
 HTML tiene muchísimos más tags y también tiene una nueva versión llamada HTML5. Otra vez, no te preocupes, todo eso lo **aprenderás** en las próximas lecciones para que hagas páginas web hermosas (gracias a CSS) y con interacción (Gracias a los formularios y JavaScript) ¡¡Para eso es que estamos acá!!
 

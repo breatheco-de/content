@@ -20,7 +20,7 @@ Dominar el uso de listas y bucles es una de las 5 habilidades fundamentales para
 
 ## ¿Qué son las Funciones?
 
-Básicamente, una función un conjunto de lineas de código agrupadas para cumplir un objectivo específico, por ejemplo veamos esta función para multiplicar dos números:
+Básicamente, una función un conjunto de lineas de código agrupadas para cumplir un objetivo específico, por ejemplo veamos esta función para multiplicar dos números:
 
 ```python
 def multiplicar(a,b):
@@ -35,7 +35,7 @@ Analizando el código de arriba tenemos las siguientes conclusiones:
 - Para crear una función debemos utilizar la sentencia `def`.
 - Luego de `def` colocamos el nombre que le queremos dar a la función (en este caso "multiplicar").
 - Después del nombre debemos colocar entre paréntesis los parámetros o entradas que tendrá la función separados por coma (en este caso `a` y `b`). Puedes escoger el nombre de los   parámetros pero siempre deben tener el mismo orden.
-- Tenemos que terminar la linea con dos puntos `:`, de esa forma el computador sabrá que vamos a empezar a programar una función (algoritmo).
+- Tenemos que terminar la línea con dos puntos `:`, de esa forma el computador sabrá que vamos a empezar a programar una función (algoritmo).
 - Por ultimo debemos añadir un `return`(es una buena práctica), toda función debe retornar algo, asi sea `None`, en este caso retornamos la multiplicación entre los parámetros A y B (entradas).
 
 De ahora en adelante cada vez que quiera multiplicar dos numeros puedo re-utilizar la función `multiplicar` de la siguiente manera, cuantas veces lo necesites:
@@ -73,7 +73,7 @@ def calcular_costo(numero_de_invitados):
 
 1. **Cada función debe tener un propósito.** (un objetivo) (como nuestra función "multiplicar"). El propósito de la función es calcular la multiplicación entre dos números dados.
 2. **Debe tener un nombre único.**  En este caso particular, nuestra función se llama "multiplicar", que es un gran nombre porque sabes exactamente qué hace la función, es explícita.
-3. **Debe devolver algo**  De forma predeterminada, en Python, todas las funciones devuelven `None`, pero debes reemplazarlo y siempre devolver algo útil. En este ejemplo, queremos devolver el resultado de una multiplicación de a & b.
+3. **Debe devolver algo.**  De forma predeterminada, en Python, todas las funciones devuelven `None`, pero debes reemplazarlo y siempre devolver algo útil. En este ejemplo, queremos devolver el resultado de una multiplicación de a & b.
 4. **Las funciones pueden tener parámetros.**  Un "parámetro" es una variable que la función puede recibir al principio de su código (como a y b en nuestro ejemplo).
 
 La idea es tener una librería de cientos de funciones y usarlas como nos plazca, declaras todas tus funciones y luego empiezas a usarlas y reutilizarlas todo el tiempo.
@@ -85,8 +85,8 @@ La codificación es muy abstracta y sucede mucho que no tienes idea de lo que es
 Al utilizar funciones tienes las siguientes ventajas:
 
 1. **Dividir y conquistar**: divide tu algoritmo en sub-algoritmos más pequeños y concéntrate en un problema a la vez.
-2. **Menos código**: Mientras menos codigo mejor, cuando usas funciones estas pensando en reutilizar en lugar de copiar y pegar.
-3. **Reutiliza tu código** llamando a la función varias veces, reduciendo drásticamente la longitud de tu código.
+2. **Menos código**: mientras menos codigo mejor, cuando usas funciones estas pensando en reutilizar en lugar de copiar y pegar.
+3. **Reutiliza tu código**: llamando a la función varias veces, reduciendo drásticamente la longitud de tu código.
 4. **Organiza tu código**: los nombres de las funciones te dirán qué hace esa parte del código, puedes tener todas las funciones en un archivo separado y reutilizarlas en todos sus desarrollos futuros.
 
 > :point_up: Si lo piensas bien, las funciones son equivalentes a los libros. Almacenan funciones y formas de hacer las cosas y en futuros desarrollos simplemente los reutilizas en lugar de tener que resolver todo de nuevo.
