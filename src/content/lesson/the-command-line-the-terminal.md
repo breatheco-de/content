@@ -147,8 +147,8 @@ Don’t confuse this command with the clipboard copy functionality – it has no
 *cp* will copy an entire file and create a new one with whatever name you decide it should have.
 
 ```bash
-cp path/to/file.ext path/to/new/file.ext
-#copy file.ext and create a new file.ext with the same content.
+cp path/to/file.ext path/to/new/file.txt
+#copy file.txt and create a new file.txt with the same content.
 ```
 
 ### The `find` command
