@@ -24,7 +24,7 @@ Originalmente, los navegadores solo podían interpretar HTML, las páginas web e
 ![qué es html](../../assets/images/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc.png)
 
 
-## Sintáxis del HTML: Todo es `<Tags> ` o etiquetas.
+## Sintáxis del HTML: Todo es `<Tags>` o etiquetas.
 
 ![qué es html](../../assets/images/78296f64-547f-4928-a8da-14cb24e836b9.gif)
 

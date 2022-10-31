@@ -35,7 +35,7 @@ Analizando el código de arriba tenemos las siguientes conclusiones:
 - Para crear una función debemos utilizar la sentencia `def`.
 - Luego de `def` colocamos el nombre que le queremos dar a la función (en este caso "multiplicar").
 - Después del nombre debemos colocar entre paréntesis los parámetros o entradas que tendrá la función separados por coma (en este caso `a` y `b`). Puedes escoger el nombre de los   parámetros pero siempre deben tener el mismo orden.
-- Tenemos que terminar la linea con dos puntos `:`, de esa forma el computador sabrá que vamos a empezar a programar una función (algoritmo).
+- Tenemos que terminar la línea con dos puntos `:`, de esa forma el computador sabrá que vamos a empezar a programar una función (algoritmo).
 - Por ultimo debemos añadir un `return`(es una buena práctica), toda función debe retornar algo, asi sea `None`, en este caso retornamos la multiplicación entre los parámetros A y B (entradas).
 
 De ahora en adelante cada vez que quiera multiplicar dos numeros puedo re-utilizar la función `multiplicar` de la siguiente manera, cuantas veces lo necesites:

@@ -152,7 +152,7 @@ The most frequent tags used inside the `<body>` of an HTML document are:
 
 |**Name**   |**Tags**   |**Description**   |
 |:----------|:----------|:-----------------|
-| Head       |H1, H2, H3, etc.   |They define the headings and subheadings of the page (the heading is not the same as the title; the title is used by the browser and it’s defined with the title tag).<br>`<h1>This is a heading</h1>`   |
+| Heading       |H1, H2, H3, etc.   |They define the headings and subheadings of the page (the heading is not the same as the title; the title is used by the browser and it’s defined with the title tag).<br>`<h1>This is a heading</h1>`   |
 |Paragraph   |P   |This tag separates the text content with an upper and lower margin.  It helps simulate the behavior of a Word document.`<p>example of a paragraph</p>`   |
 |List   |UL, OL   |Lists are of huge importance in a document and they are widely used.  With HTML we have two main tags to list content items:<br><br> <li>OL (ordered list): List with numbers (numbers at the beginning of the item)</li><br><li>UL (unordered list): List without numbers (bullets before items).<br><br>`<ol>`<br>`<li>Element 1</li>`<br>`<li>Element 2</li>`<br>`</ol>`   |
 |Image  |img   |It allows us to add images to the document (they could be in PNG, JPEG, GIF and SVG formats, basically) .<br>`<img src="url of the image"/>`

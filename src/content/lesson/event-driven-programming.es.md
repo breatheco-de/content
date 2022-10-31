@@ -55,7 +55,7 @@ Estos son algunos de los tipos de eventos que se activan constantemente (y usted
 |:----------------|:-----------------|
 |Load	           |El navegador ha terminado de cargar el sitio web.  |
 |Error            |El evento ocurre cuando se produce un error al cargar un archivo externo (como un CSS o un JavaScript).
-|Scroll         |El evento ocurre cuando se produce un error al cargar un archivo externo (como un CSS o un JavaScript). |
+|Scroll         |El evento se produce cuando la vista del documento o un elemento es deslizado. |
 |PageHide<br>PageShow    |Cuando el usuario se enfoca en una ventana / pestaña diferente; o cuando el usuario vuelve de una ventana / pestaña diferente.  |
 |Resize    |Cuando la ventana se redimensiona.     |
 
@@ -254,7 +254,7 @@ En este código, se añade un detector de eventos para el evento click, pero lue
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/">Haga clic aquí para abrir la demo en una nueva ventana.</p></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/">Haga clic aquí para abrir la demo en una nueva ventana.</a></small></div>
 
 
 

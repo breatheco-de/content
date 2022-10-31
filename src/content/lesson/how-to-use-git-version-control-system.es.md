@@ -22,14 +22,14 @@ GIT es más que un "conjunto de comandos" que tienes que aprender. A lo largo de
 ## ¿Por qué molestarse en usar GIT?
 
 
-Ser el único desarrollador en un proyecto es una [utopía](https://dle.rae.es/utop%C3%ADa). Normalmente, colaboras con otros desarrolladores y, sin GIT, eso se convierte en un gran problema. Es por eso que necesitamos un *repositorio* de información para centralizar y gestionar los cambios. Con un *repositorio* nos dirigimos a lo siguiente:
+Ser el único desarrollador en un proyecto es una [utopía](https://dle.rae.es/utop%C3%ADa). Normalmente, colaboras con otros desarrolladores y, sin GIT, eso se convierte en un gran problema. Es por eso que necesitamos un *repositorio* de información para centralizar y gestionar los cambios. Con un *repositorio* nos referimos a lo siguiente:
 
 + Si dos desarrolladores trabajan en **la misma página (archivo)**, GIT comparará ambas versiones y las fusionará *(intentará)* en una nueva.
 + Descargar e integrar el código de otra persona (o cualquier otro código) en su proyecto sin mayores problemas y hacerlo de forma automática.
 + Si ambos desarrolladores actualizaron exactamente el mismo código, GIT le pedirá a **el último** editor de edición que resuelva cualquier posible conflicto.
 + El código está respaldado todo el tiempo con la última versión como principal.
 + Cada desarrollador tiene su propia versión del proyecto a nivel local durante el tiempo que deseen.
-+ Trabajando con equipos remotos.
++ Permite trabajar en equipos remotos.
 
 El propósito de GIT es interactuar con el repositorio de un proyecto (un conjunto de archivos) a medida que cambian con el tiempo.
 
