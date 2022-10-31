@@ -15,7 +15,7 @@ In this article, I'm going to try to explain why it works and how you can do it.
 
 ## What is Learn In Public
 
-Learning in private: The traditional educational system is designed to be a private experience, you read books, attend to class, complete projects and assessments, and you graduate at some point, we are so used to this workflow that it's already embedded into our student's hearts.
+Learning in private: The traditional educational system is designed to be a private experience. You read books, attend to classes, complete projects and assessments, then you graduate at some point. We are so used to this workflow that it's already embedded into our student's hearts.
 
 When you learn in public you: create in social media, you write in notebooks and discussion forums, you also write about what you just learned in different ways like blog posts, tweets, newsletters, drawings, memes, etc.
 
@@ -51,7 +51,7 @@ Nobody is! I've been coding for 20 years and I still think I'm no expert, by sho
 
 ### I don't have time
 
-You don't do it all, you can just pick one or two things you might enjoy doing. Even if you are learning privately you have to take notes and finish coding projects and challenges, why not taking some extra time to publish them? I think it's 100% worth your time.
+You don't do it all, you can just pick one or two things you might enjoy doing. Even if you are learning privately you have to take notes, finish coding projects, and challenge yourself, why not taking some extra time to publish them? I think it's 100% worth your time.
 
 I hope I made my case!!
 

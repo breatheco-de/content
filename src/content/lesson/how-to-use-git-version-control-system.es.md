@@ -22,14 +22,14 @@ GIT es más que un "conjunto de comandos" que tienes que aprender. A lo largo de
 ## ¿Por qué molestarse en usar GIT?
 
 
-Ser el único desarrollador en un proyecto es una [utopía](https://dle.rae.es/utop%C3%ADa). Normalmente, colaboras con otros desarrolladores y, sin GIT, eso se convierte en un gran problema. Es por eso que necesitamos un *repositorio* de información para centralizar y gestionar los cambios. Con un *repositorio* nos dirigimos a lo siguiente:
+Ser el único desarrollador en un proyecto es una [utopía](https://dle.rae.es/utop%C3%ADa). Normalmente, colaboras con otros desarrolladores y, sin GIT, eso se convierte en un gran problema. Es por eso que necesitamos un *repositorio* de información para centralizar y gestionar los cambios. Con un *repositorio* nos referimos a lo siguiente:
 
 + Si dos desarrolladores trabajan en **la misma página (archivo)**, GIT comparará ambas versiones y las fusionará *(intentará)* en una nueva.
 + Descargar e integrar el código de otra persona (o cualquier otro código) en su proyecto sin mayores problemas y hacerlo de forma automática.
 + Si ambos desarrolladores actualizaron exactamente el mismo código, GIT le pedirá a **el último** editor de edición que resuelva cualquier posible conflicto.
 + El código está respaldado todo el tiempo con la última versión como principal.
 + Cada desarrollador tiene su propia versión del proyecto a nivel local durante el tiempo que deseen.
-+ Trabajando con equipos remotos.
++ Permite trabajar en equipos remotos.
 
 El propósito de GIT es interactuar con el repositorio de un proyecto (un conjunto de archivos) a medida que cambian con el tiempo.
 
@@ -84,7 +84,7 @@ Puedes **mover el head** si quieres. No necesariamente tiene que ser siempre el 
 ## Puedes tener varios Heads (Ramas o Branches)
 
 
-Heads marca el comienzo de un historial de revisión. En GIT, llamamos al "historial de revisión" a un "branch o rama," y es posible tener varios historiales de revisión.
+Heads marca el comienzo de un historial de revisión. En GIT, un historial de revisión se llama "branch" o "rama", y es posible tener varios historiales de revisión.
 
 Por defecto, cada repositorio tiene una rama o branch llamada Master, con su HEAD correspondiente que apunta al último commit de esa rama.
 
@@ -124,7 +124,7 @@ Digamos que creas tres confirmaciones de esta manera ... tu repositorio se verá
 Otros comandos que son útiles en este punto:
 
 + `git log` muestra un registro de todos los commits desde *HEAD* hasta el commit inicial. Puede hacer más que eso, por supuesto.
-+ `git status` muestra qué archivos han cambiado entre el estado actual del proyecto y el *HEAD*. Los archivos se clasifican en una de las tres categorías: (1) Archivos nuevos que no se han agregado (con git add), (2) Archivos modificados que no se han agregado y (3) Archivos que se han agregado
++ `git status` muestra qué archivos han cambiado entre el estado actual del proyecto y el *HEAD*. Los archivos se clasifican en una de las tres categorías: (1) Archivos nuevos que no se han agregado (con git add), (2) Archivos modificados que no se han agregado y (3) Archivos que se han agregado.
 + `git diff` muestra la diferencia entre el HEAD y el estado actual del proyecto. Con la opción --cached, compara archivos agregados contra HEAD; de lo contrario, compara los archivos que aún no se han agregado.*
 + `git mv` y `git rm` marcan los archivos para ser movidos (renombrados) y eliminados, respectivamente, de forma muy similar a `git add`.
 
@@ -209,7 +209,7 @@ git pull . [head]
 Estos comandos realizan las siguientes operaciones. Deja que el head actual se llame *current* y que el head que se va a fusionar se llame *merge*
 
 + Identifica el ancestro común de *current* y *merge*. Llámalo *ancestro-commit*.
-+ Tratar con los casos fáciles. Si el *ancestor-commit* es igual a merge, entonces no hagas nada. Si el *ancestro-commit* es igual al actual, entonces has un **adelanto del merge.**
++ Tratar con los casos fáciles. Si el *ancestor-commit* es igual a merge, entonces no hagas nada. Si el *ancestro-commit* es igual al actual, entonces haz un **adelanto del merge.**
 + De lo contrario, determina los cambios entre *ancestor-commit* y *merge*
 + Intenta fusionar esos cambios dentro de los archivos en *current*.
 + Si no hubo conflictos, crea un nuevo commit con dos padres: *current* y *merge.* Establece current (y *HEAD*) para que apunte a este nuevo commit, y actualiza acordemente los archivos de trabajo para el proyecto.

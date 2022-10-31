@@ -91,7 +91,7 @@ def handle_person():
 
 La respuesta puede ser básicamente lo que quieras siempre que sea un string: HTML, JSON, CSS, imágenes, etc. Solo asegúrate de convertir en string lo que quieras responder.
 
-En el siguiente ejemplo, estamos utilizando el método jsonify para convertir un diccionario llamado `person1` en en un string JSON antes de devolverlo al cliente.
+En el siguiente ejemplo, estamos utilizando el método jsonify para convertir un diccionario llamado `person1` en un string JSON antes de devolverlo al cliente.
 
 ```py
 from flask import Flask, jsonify

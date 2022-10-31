@@ -209,7 +209,7 @@ O puedes hacerlo con `addEventListener`:
 
 ```
 
-Ten en cuenta que en **addEventListener()** solo hacemos referencia a la función (`myChangeHandler`) y **no** la llamamos (`myChangeHandler()`). Si la llamas, se ejecutará automáticamente cuando se cargue la página y no esperará a que se gatille/desencadene un evento y ese no es el objetivo. Por lo tanto, no necesitamos pasar el **objeto de evento (event object)** como argumento allí (no hay paréntesis). **AddEventListener** pasa automáticamente el objeto de evento a la función que lo controlav (handler function).
+Ten en cuenta que en **addEventListener()** solo hacemos referencia a la función (`myChangeHandler`) y **no** la llamamos (`myChangeHandler()`). Si la llamas, se ejecutará automáticamente cuando se cargue la página y no esperará a que se gatille/desencadene un evento y ese no es el objetivo. Por lo tanto, no necesitamos pasar el **objeto de evento (event object)** como argumento allí (no hay paréntesis). **AddEventListener** pasa automáticamente el objeto de evento a la función que lo controla (handler function).
 
 
 ### Información Adicional para ** Eventos del Mouse **
@@ -235,7 +235,7 @@ Ten en cuenta que en **addEventListener()** solo hacemos referencia a la funció
 |deltaX, deltaY   |Devuelve la cantidad de desplazamiento vertical u horizontal de una rueda del ratón ( eje y) o (eje x)   |
 |deltaMode       |Devuelve un número que representa la unidad de mediciones de valores delta (píxeles, líneas o páginas)    |
 
-> :link: Hay mucha más información que puede obtener del objeto de evento, pero nos estamos enfocando en las propiedades más utilizadas. Para una lista más grande de propiedades por favor lea [this guide.](https://www.w3schools.com/jsref/dom_obj_event.asp)
+> :link: Hay mucha más información que puede obtener del objeto de evento, pero nos estamos enfocando en las propiedades más utilizadas. Para una lista más grande de propiedades por favor lea [esta guía.](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
 ## Eliminar los Listeners (receptores)
 
@@ -254,7 +254,7 @@ En este código, se añade un detector de eventos para el evento click, pero lue
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/">Haga clic aquí para abrir la demo en una nueva ventana.</p></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/">Haga clic aquí para abrir la demo en una nueva ventana.</a></small></div>
 
 
 
