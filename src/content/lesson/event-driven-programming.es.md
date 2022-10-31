@@ -55,7 +55,7 @@ Estos son algunos de los tipos de eventos que se activan constantemente (y usted
 |:----------------|:-----------------|
 |Load	           |El navegador ha terminado de cargar el sitio web.  |
 |Error            |El evento ocurre cuando se produce un error al cargar un archivo externo (como un CSS o un JavaScript).
-|Scroll         |El evento ocurre cuando se produce un error al cargar un archivo externo (como un CSS o un JavaScript). |
+|Scroll         |El evento se produce cuando la vista del documento o un elemento es deslizado. |
 |PageHide<br>PageShow    |Cuando el usuario se enfoca en una ventana / pestaña diferente; o cuando el usuario vuelve de una ventana / pestaña diferente.  |
 |Resize    |Cuando la ventana se redimensiona.     |
 
