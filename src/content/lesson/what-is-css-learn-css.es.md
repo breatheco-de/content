@@ -134,7 +134,7 @@ En el siguiente ejemplo vamos a colocar fondo verde a todos los td (celdas) de l
 
 |**Selector**   |**Descripción**   |**Ejemplo**  |
 |:--------------|:-----------------|:-------------|
-|selector1,selector2   |Si separas varios selectores por coma `,`, puedes asignar múltiples selectores a la vez para ahorrar texto. En el siguiente ejemplo e decimos a todos los h1 y a los elementos de clase .impar que queremos su texto de color rojo.  |`h1, .impar { color: #BDBDBD; }`   |
+|selector1,selector2   |Si separas varios selectores por coma `,`, puedes asignar múltiples selectores a la vez para ahorrar texto. En el siguiente ejemplo le decimos a todos los **h1** y a los elementos de clase **.odd**, que queremos su texto de color rojo.  |`h1, .odd{ color: #BDBDBD; }`   |
 
 ### Selectores avanzados
 
@@ -144,66 +144,68 @@ Hay otros selectores más específicos y avanzados. Probablemente lo usarás cua
 
 ## Conflictos y herencia
 
-
 ¿Qué pasa si un elemento de la página está seleccionado por dos selectores y tiene asignado el color de letra verde en una definición y rojo en la otra? Es decir, si le decimos al navegador dos colores diferentes, ¿qué color utilizará al final?
 
 ![Aprende CSS](../../assets/images/08e78606-102f-4bc2-a066-7c26ae9400d5.png)
 
 Tienes que entender muy bien la jerarquía de CSS para comprender como los elementos **heredan, sobre escriben y hasta anulan estilos entre ellos.**
 
-El navegador le da prioridad a los selectores más específicos, como al `#id`, que a los selectores generales, como los tags (etiquetas). En el siguiente ejemplo, cambiamos el color de todos los  `<li>`  (los elementos de la lista) a azul, y luego cambiamos el texto del segundo elemento a color rojo. De esta manera demostramos que el selector ID siempre prevalece por encima de los otros elementos, esto se debe a que pertenecen a la misma etiqueta.
+El navegador le da prioridad a los selectores más específicos, como al `#id`, que a los selectores generales, como los tags. En el siguiente ejemplo, cambiamos el color de todos los  `<li>`  (los elementos de la lista) a azul, y luego cambiamos el texto del segundo elemento a color rojo. De esta manera demostramos que el selector ID siempre prevalece por encima de los otros elementos, esto se debe a que pertenecen al  mismo tag.
 
 ## Propiedades
-
 
 Ya vimos que una hoja de estilos CSS no es más que una lista que define las propiedades que queremos asignar a los diferentes elementos de la página. Ahora veremos cuáles podemos asignar a estos elementos.
 
 Hay cientos - sino miles - de propiedades, pero dependiendo del tipo de elemento/etiqueta que queremos definir, sabremos en cuáles debemos enfocarnos.
 
-#### Editando tipografía
+#### Editor de tipografía
+
 |Propiedad   |Descripción   |Valores   |
 |:----------|:-------------|:----------|
-|[font-family](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-family)   |tipo de letra (fuente) | [ name-font \| generic-family ]*   |
+|[font-family](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-family)   |tipo de letra (fuente) | [ nombre-fuente \| familia-genérica ]*   |
 |[font-size](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-size)   |tamaño de letra   | tamaño-absoluto \| tamaño-relativo \| distancia \| porcentaje   |
-|[font-style](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-style)   |inclinación (italics)   |normal \| italic \| oblique   |
+|[font-style](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-style)   |inclinación (italics)   |normal \| itálica \| oblicuo   |
 
-#### Editando texto
+#### Editor de texto
 
 |Propiedad   |Descripción   |Valores   |
 |:----------|:-------------|:-----------|
 |[color](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#color)   |color del texto   |color   |
-|[letter-spacing](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#letter-spacing)   |espacio entre caracteres  |normal \| distance   |
+|[letter-spacing](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#letter-spacing)   |espacio entre caracteres  |normal \| distancia   |
 |[line-height](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#line-height)   |espacio entre líneas  |normal \| número \| distancia \| porcentaje   |
-|[text-align](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-align)   |alineación del texto |center \| justify \| left \| right |
-|[text-decoration](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-decoration)   |decoración del texto  |none \| blink \| line-through \| overline \| underline   |
-|[text-transform](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-transform)   |mayúsculas / minúsculas   |none \| capitalize \| lowercase \| uppercase   |
+|[text-align](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-align)   |alineación del texto |centrado \| justificado \| izquierda \| derecha |
+|[text-decoration](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-decoration)   |decoración del texto  |ninguno \| blink \| línea directa \| ínea superior \| subrayar   |
+|[text-transform](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-transform)   |mayúsculas / minúsculas   | ninguno \| capitalizar \| minúsculas \| mayúscula   |
 
-#### Editando listas 
+#### Editor de listas 
 
 |Propiedad   |Descripción   |Valores   |
 |:-----------|:-------------|:--------|
-|[list-style](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style)   |propiedad compuesta (suma de toda combinación de propiedades)   |list-style-image\|\| list-style-position \|\| list-style-type   |
-|[list-style-image](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-image)   |imagen del marcador  |none \| uri   |
-|[list-style-position](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-position)   |posición del marcador |inside \| outside  |
-|[list-style-type](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-type)  |tipo de marcador |none \| circle \| disc \| square \| decimal \| decimal-leading-zero \| lower-alpha \| upper-alpha \| lower-greek \| lower-latin \| upper-latin \| lower-roman \| upper-roman \| armenian \| georgian \| hebrew(-) \| cjk-ideographic(-) \| hiragana (-) \| katakana (-) \| hiragana-iroha(-) \| katakana-iroha(-)  |
+|[list-style](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style)   |propiedad compuesta (suma de toda combinación de propiedades)   |imagen-estilo-lista\|\| posición-estilo-lista \|\| tipo-estilo-lista   |
+|[list-style-image](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-image)   |imagen del marcador  |ninguno \| uri   |
+|[list-style-position](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-position)   |posición del marcador |dentro \| fuera  |
+|[list-style-type](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-type)  |tipo de marcador |ninguno \| círculo \| disco \| cuadrado \| decimal \| decimal-primero-cero \| alfa inferior \| alfa-superior \| bajo griego \| latín inferior \| latín superior \| bajo-romano \| alto-romano \| armenio \| georgiano \| hebreo(-) \| cjk-ideográfico(-) \| hiragana (-) \| katakana (-) \| hiragana-iroha(-) \| katakana-iroha(-)  |
 
-#### Editando tablas
+#### Editor de tablas
 
 |Propiedad  |Descripción   |Valores   |
 |:----------|:-------------|:-----------|
-|[border-collapse](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#border-collapse)   |modo de bordes  |collapse \| separate   |
-|[border-spacing](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#border-spacing)   |separación entre celdas |distance \| distance   |
-[caption-side](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#caption-side)   |posición de la leyenda   |top \| bottom \| left(-) \| right(-)   |
-|[empty-cells](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#empty-cells)   |borde de casillas vacías   |	hide \| show   |
-|[table-layout](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#table-layout)   |algoritmo ancho de tabla   |auto \| fixed   |
+|[border-collapse](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#border-collapse)   |modo borde |collapse \| separar  |
+|[border-spacing](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#border-spacing)   |separación entre celdas |distancia \| distancia   |
+[caption-side](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#caption-side)   |posición de la leyenda   |arriba \| abajo \| izquierda(-) \| derecha(-)   |
+|[empty-cells](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#empty-cells)   |borde de casillas vacías   |	esconder \| mostrar   |
+|[table-layout](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#table-layout)   |algoritmo ancho de tabla   |automático \| fijado   |
 
-#### Editando fondos (background) 
+#### Editor de fondos (background) 
 
 |Propiedad   |Descripción   |Valores   |
 |:----------|:-------------|:----------|
-|[background-color](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-color)   |color de fondo   |transparent | color   |
-|[background-image](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-image)   |imagen de fondo  |none \| uri   |
-|[background-position](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-position)   |posición de la imagen de fondo   |\[ \[ left \| center \| right \| distancia \| porcentaje] [ top \| center \| bottom \| distancia \| porcentaje] \]? \| [ [ left \| center \| right ] \|\| [ top \| center \| bottom ] ]   |
-|[background-repeat](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-repeat)  |repetición de la imagen de fondo   |no-repeat \| repeat \| repeat-x \| repeat-y \| space(3) \| round(3)   |
-|[background-size(3)](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-size)   |tamaño de la imagen de fondo   |auto \| [ distance \| percentage ] {2} \| contain \| cover   |
+|[background-color](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-color)   |color de fondo   |transparente | color   |
+|[background-image](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-image)   |imagen de fondo  |ninguno \| uri   |
+|[background-position](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-position)   |posición de la imagen de fondo   |\[ \[ izquierda \| centro \| derecha \| distancia \| porcentaje] [ subir \| centro \| abajo \| distancia \| porcentaje] \]? \| [ [ izquierda \| centro \| derecha] \|\| [ arriba \| centro \| abajo ] ]   |
+|[background-repeat](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-repeat)  |repetición de la imagen de fondo   |sin repetición \| repetir \| repetir-x \| repetir-y \| espacio(3) \| ronda(3)  |
+|[background-size(3)](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-size)   |tamaño de la imagen de fondo   |automático \| [ distancia \| porcentaje ] {2} \| contener \| cubrir   |
 
+> 💡 Sugerencia:
+
+ + [Sigue este enlace para ver una lista detallada de las propiedades CSS de W3Schools](https://www.w3schools.com/cssref)

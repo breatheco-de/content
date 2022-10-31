@@ -132,7 +132,7 @@ Next, we are adding color (green) to the  background of each `td` (cells) of the
 
 |**Selector**   |**Description**   |**Examples**  |
 |:--------------|:-----------------|:-------------|
-|selector1,selector2   |If you separate multiple selectors with a comma`,`, you can assign multiple selectors at the same time to save text. In the following example, we tell every `h1, .odd{ color: #BDBDBD; }` class elements to turn red.   |`h1, .odd{ color: #BDBDBD; }`   |
+|selector1,selector2   |If you separate multiple selectors with a comma`,` you can assign multiple selectors at the same time to save text. In the following example we give tenths to all **h1** and **.odd** class elements, that we want their text to be red.   |`h1, .odd{ color: #BDBDBD; }`   |
 
 ### Advanced Selectors
 
@@ -142,17 +142,15 @@ There are other specific and advanced selectors. You are probably going to use t
 
 ## Conflicts and correspondence
 
-
 What happens if an element of the page is selected in two different selectors and has the green font color assigned to one definition and red in the other? In other words, if we have told the browser to find two different colors, what color will it end up getting?
 
 ![learn css](../../assets/images/08e78606-102f-4bc2-a066-7c26ae9400d5.png)
 
-You have to have a very good understanding of the CSS hierarchy in order to understand how the elements **correspond, overwrite and even null styles between them.**
+You must have a very good understanding of the CSS hierarchy in order to understand how the elements **correspond, overwrite and even null styles between them.**
 
 The browser gives priority to more specific selectors like `#id` than the more general selectors like tags. In the following example, we changed the color of all the `<li>` (the items in the list) to blue, but then we changed the text of the second element to red. In this way we demonstrate that the ID selector will always prevail over selecting all the elements with the same tag.
 
 ## Properties
-
 
 We have already seen that a CSS style sheet is nothing more than a list that defines the properties that we want to assign to different elements of the page. Now we have to learn what properties we can assign to these elements.
 
@@ -206,8 +204,9 @@ There are hundreds – even thousands – of CSS properties, but depending on th
 |[background-size(3)](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-size)   |background image size   |auto \| [ distance \| percentage ] {2} \| contain \| cover   |
 
 
+> 💡 Suggestion: 
 
- [Follow this link to see a detailed list of CSS properties from W3Schools](https://www.w3schools.com/cssref)
+ + [Follow this link to see a detailed list of CSS properties from W3Schools](https://www.w3schools.com/cssref)
 
 
 
