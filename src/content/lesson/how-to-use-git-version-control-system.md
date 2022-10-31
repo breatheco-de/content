@@ -1,6 +1,6 @@
 ---
 title: "How to use GIT: Version Control System"
-subtitle: "Learn how to use GIT with an interactive tutorial, video and great article. Without GIT you won't be able to work at any company, and you won't be able to use anyone's code."
+subtitle: "Learn how to use GIT with an interactive tutorial, video, and great article. Without GIT you won't be able to work at any company, and you won't be able to use anyone's code."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 thumb: "https://breatheco.de/wp-content/uploads/2017/03/commit-object.png"
@@ -18,7 +18,7 @@ status: "published"
 
 ## GIT is a MUST!
 
-GIT is a great technology, please take time to learn it.  DON’T procrastinate because you cannot avoid it.  You will be using it every day, several times a day. So you’d better learn and be comfortable with it.
+GIT is a great technology, please take the time to learn it.  DON’T procrastinate because you cannot avoid it.  You will be using it every day, several times a day. So you’d better learn and be comfortable with it.
 
 GIT is more than just a "set of commands" that you have to learn.  Throughout the years, we have learned that the best way to teach GIT is by understanding the concepts and meaning of the technology first rather than just giving you a list of commands to use.
 
@@ -42,7 +42,7 @@ A GIT **repository** is comprised of the following:
 + A set of **commit objects**.
 + A set of references to commit objects, called **heads**.
 
-<p align="center">
+<p>
  <img height="200px" src="../../assets/images/a4fc1953-3c91-4bf4-a70a-ab4778b3277b.png" alt="how to use git" />
 </p>
 
@@ -51,7 +51,7 @@ The GIT repository is stored in the same directory as the project itself in a -h
 + There is only one .git directory – located in the root directory of the project.
 + The repository is stored within the project.
 
-<p align="center">
+<p>
  <img height="200px" src="../../assets/images/62897396-651c-4bdb-8604-dfe1898e57bd.png" alt="git folder inside directory" />
  </p>
 
@@ -65,7 +65,7 @@ A **commit object** contains three things:
 
 ![how to use git](../../assets/images/commit-object2.png?raw=true)
 
-The parent commit objects are those commits that came first.  Generally a commit object will have one parent commit.  One generally takes a project in a given state (commit), makes a few changes, and saves the new state (commit) of the project.
+The parent commit objects are those commits that came first.  Generally, a commit object will have one parent commit.  One generally takes a project in a given state (commit), makes a few changes, and saves the new state (commit) of the project.
 
 At the beginning, a project always has one commit object with no parents.  This is the first commit that is made to the project repository.
 
@@ -126,7 +126,7 @@ Other commands that are useful at this point:
 + `git diff` shows the difference between HEAD and the current project state.  With the --cached option, it compares added files against HEAD; otherwise it compares files not yet added.*
 + `git mv` and `git rm` mark files to be moved (renamed) and removed, respectively, much like `git add`.
 
-My personal workflow usually looks like this:  I first do some programming, and, afterwards, I end up updating some files, then I run the following commands:
+My personal workflow usually looks like this:  I first do some programming, and, afterward, I end up updating some files, then I run the following commands:
 
 ```bash
 git status //to see what files I changed.
@@ -220,7 +220,7 @@ To resolve the conflict, edit the files to fix the conflicting changes.  Then ru
 
 ## GIT Collaboration
 
-GIT can function without needing to connect to an external server because all the git files are located inside of the .git folder.
+GIT can function without needing to connect to an external server because all the git files are located inside the .git folder.
 
 However, this means that, in order to manipulate the repository, you need to also have access to the working files.  This means that two GIT developers cannot, by default, share a repository.
 
@@ -246,7 +246,7 @@ https://github.com/<github-username>/repository-name.git
 
 ### Github.com
 
-For example, when using a repository from github.com, you can find the remote in the repository home page:
+For example, when using a repository from github.com, you can find the remote on the repository home page:
 
 ![git9](../../assets/images/47f7c628-5efe-4888-b67c-ca90611e788e.gif)
 
@@ -259,7 +259,7 @@ Once you know the remote URL, you can add it to your project.
 You have to pick an alias for the remote – we normally use `origin`, but it is just an arbitrary word and you can use anything. 
 
 :warning:
-In our boilerplates you will already have an origin set-up from the boilerplate's repository. In those cases you should not remove the original origin, but would need to use another term (e.g. `new` or `new-origin`, etc) to add your new remote. 
+In our boilerplates, you will already have an origin set-up from the boilerplate's repository. In those cases you should not remove the original origin, but would need to use another term (e.g. `new` or `new-origin`, etc) to add your new remote. 
 
 Add the remote by executing the following command:
 
@@ -271,7 +271,7 @@ git remote get-url origin
 
 ## Pushing (uploading) to the Remote
 
-Lets say you have a branch in your local repository called "new-branch."  That branch can be uploaded doing the following:
+Let's say you have a branch in your local repository called "new-branch."  That branch can be uploaded doing the following:
 
 ```bash
 git push origin [new-branch]
@@ -315,37 +315,10 @@ This would do the following:
   
 A **remote repository reference** is an alias GIT uses to refer to the remote repository.  Generally it will be *origin*.  Among other things, GIT internally associates the *remote-specification* with the remote repository reference, so you will never need to refer to the original repository again.
 
-From now one, you will be able to say `origin` instead of `git@github.com:alesanchezr/myfirstrepo.git`.
+From now on, you will be able to say `origin` instead of `git@github.com:alesanchezr/myfirstrepo.git`.
 
 A branch that **tracks** a remote branch retains an internal reference to the remote branch.  This is a convenience that allows you to avoid typing the name of the remote branch in many situations, as will be described below.
 
 The important thing to note is that you now have a complete copy of your friend’s entire repository.  When you branch, commit, merge, or otherwise operate on the repository, you operate only on your own repository.  GIT only interacts with your friend’s repository when you specifically ask it to do so.
 
 > :link: Say your friend’s repository looks like this:<br>Here is a list of other great resources to learn GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br>You should especially try these two:<br>• https://try.github.io<br>• http://learngitbranching.js.org/ .
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
