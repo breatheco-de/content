@@ -96,7 +96,7 @@ Vamos a configurar el diseño (usando las clases de columnas xs, sm, md y lg) pa
 ## Estructura básica de Bootstrap 4
 
 
-Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web debe tener. Ahora solo debes agregar unas lineas en tu esqueleto para hacerlo compatible con Bootstrap:
+Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web debe tener. Ahora solo debes agregar unas líneas en tu esqueleto para hacerlo compatible con Bootstrap::
 
 ```html
 <!doctype html>
@@ -132,7 +132,7 @@ La funcionalidad de Javascript en Bootstrap requiere que se incluyan las libreri
 ## Componentes de Bootstrap 4
 
 
-HTML es súper básico, sólo tiene un par de etiquetas - ya los sabíamos. Pero cuando revisas la web hoy en día, ves otra cosa… actualmente las páginas web tienen menús, iconos, barras de carga, etc. ¿Dónde están esas etiquetas? ¡Ninguna de ellas está definida en HTML!
+HTML es súper básico, sólo tiene un par de etiquetas - ya los sabíamos. Pero cuando revisas la web hoy en día, ves otra cosa… actualmente las páginas web tienen menús, íconos, barras de carga, etc. ¿Dónde están esas etiquetas? ¡Ninguna de ellas está definida en HTML!
 
 Todos los desarrolladores tienen que simular estos elementos adicionales cada vez que crean un sitio web, tienen que hacer todo desde cero y eso toma muchísimo tiempo.
 
