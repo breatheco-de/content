@@ -136,8 +136,7 @@ rmdir path/of/targetdirectory/mydirectory
 #remove mydirectory from "targetdirectory" 
 ```
 
-
-> :point_up: It will only remove empty directories. To empty all directory files, use the rm command. Pro-tip: you can use `rm` . to delete all of the files inside a directory simultaneously; use with caution.
+> :point_up: It will only remove empty directories, to empty all directory files use the rm -r command (-r flag forces the remove command to delete the directory and all the files within it). Pro-tip: you can use `rm` . to delete all of the files inside a directory simultaneously; use with caution.
 
 ### The `cp` command
 
