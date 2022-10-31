@@ -254,7 +254,7 @@ En este código, se añade un detector de eventos para el evento click, pero lue
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/">Haga clic aquí para abrir la demo en una nueva ventana.</small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/">Haga clic aquí para abrir la demo en una nueva ventana.</a></small></div>
 
 
 
