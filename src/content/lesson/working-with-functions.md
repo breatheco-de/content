@@ -36,7 +36,7 @@ function multiply(a, b) {
 
 The whole idea is to have a library of hundreds of functions and use them as we please, you declare all your functions and later you start using and re-using them all the time.
 
-```
+```javascript
 let resultOfMultiplication = multiply(2,4);
 // resultOfMultiplication will be 8
 ```
@@ -55,7 +55,7 @@ If you think about it, functions are the equivalent of books. They store knowled
 
 ## The Function Scope
 
-All functions must start and end somewhere, that its called **the scope of the function**. You can delimit the boundaries using curly brackets like this:
+All functions must start and end somewhere, that it's called **the scope of the function**. You can delimit the boundaries using curly brackets like this:
 
 ```javascript 
 

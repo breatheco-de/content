@@ -167,7 +167,7 @@ var divElem = document.getElementById("myFirstDiv");
 var myNewHOne = document.createElement("H1");
 var t = document.createTextNode("Hello World");
 myNewHOne.appendChild(t);  // Tengo que agregar contenido al h1  
-divElem.appendChild(myNewHOne); // Esto añade el h1 al elemenro original
+divElem.appendChild(myNewHOne); // Esto añade el h1 al elemento original
 ```
 
 Ahora, digamos que tenemos una ul con 2 elementos, pero queremos insertar un nuevo `<li>` al principio de esa lista.

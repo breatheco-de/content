@@ -87,7 +87,7 @@ Variable values are subject to change over time.  To retrieve a variable's value
 
 ## Data Types
 
-Variables can have different types of values.  Some of them are available only in specific programming languages, but almost all of them have the following types
+Variables can have different types of values.  Some of them are available only in specific programming languages, but almost all of them have the following types:
 
 |**Data-Type**   |**Posible Values**   |**Description**   |
 |:---------------|:--------------------|:-----------------|
@@ -96,7 +96,7 @@ Variables can have different types of values.  Some of them are available only i
 |Number    |Only numbers     |Integer numbers, negative numbers, decimal numbers, floats, etc.  All possible types of numbers.<br>Note: If you enclose a number within quotation marks, JavaScript will treat it as a string.    |
 |Undefined     |The void     |When a variable has no value assigned, it is undefined.     |
 |Array     |A list of any type of value    |A succession of any type of values.  They can be mixed types of values; for example: [2, 3, ‘Word’, 2, 1, null, 232, 5, 3, 23, 234, 5, ‘hello’].     |
-|Objects    |Any object    |You can create you own data-types with more complex operations.  We will talk more about this later.    |
+|Objects    |Any object    |You can create your own data-types with more complex operations.  We will talk more about this later.    |
 |Null     |Only null    |Is used to specify when the database or any other function does not return anything.   |
 
 <iframe src="https://repl.it/F05K/3?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>

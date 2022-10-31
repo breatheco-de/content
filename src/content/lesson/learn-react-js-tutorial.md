@@ -198,7 +198,7 @@ ReactDOM.render(<MyMainComponent />, document.querySelector('#app'));
 // Through <MyMainComponent /> your entire react application will be inserted into that location of the DOM
 ```
 
-Because `<MyMainComponent />` in this example is the main component, all other components of your application will need to be called inside this main component or in its descendants (children, grandchildren, etc). Any components not being called in the main component or in its descendants will never appear in the DOM and consequently - not dhow on your webpage.
+Because `<MyMainComponent />` in this example is the main component, all other components of your application will need to be called inside this main component or in its descendants (children, grandchildren, etc). Any components not being called in the main component or in its descendants will never appear in the DOM and consequently - not shown on your webpage.
 
 
 ```jsx 

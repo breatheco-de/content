@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-## Bienvenido a CSS!!
+## ¡¡Bienvenido a CSS!!
 
 Luego de sumergirnos en el mundo de HTML todo empieza a parecer feo, rígido y cuadrado. Después de todo hay que recordar que HTML fue hecho por científicos, no estamos diciendo que es feo por eso, seguramente hay científicos que hacen cosas hermosas (además, fueron los mismos científicos que [decubrieron el Bosón de Higgs](https://www.youtube.com/watch?v=0CugLD9HF94) y por eso hay que alabarlos hasta nuestra muerte), pero… definitivamente… es así de feo porque fue hecho por científicos con un propósito muy diferente al que HTML cumple hoy en día.
 
@@ -132,6 +132,7 @@ En el siguiente ejemplo le estamos aplicando una clase "odd" a las celdas impare
 
 |**Selector**   |**Descripción**   |**Ejemplo**   |
 |:--------------|:-----------------|:-------------|
+
 |Tipo de Elemento (tag)   |Permite aplicar estilos a los links, títulos, etc. En el siguiente ejemplo cambiaremos el color de texto a todos los tag links `<a>` de la página.   |`a{ color: #BDBDBD; }`   |
 
 En el siguiente ejemplo vamos a colocar fondo verde a todos los td (celdas) de la tabla:
