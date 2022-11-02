@@ -13,7 +13,7 @@ Mastering the use of conditions is one of the 5 fundamental skills of building a
 
 
 1. Variables.
-2. `Conditionals`.
+2. Conditionals.
 3. Arrays.
 4. Loops.
 5. Functions.
