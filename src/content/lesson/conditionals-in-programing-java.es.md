@@ -13,7 +13,7 @@ status: "published"
 Dominar el uso de las condiciones es una de las 5 habilidades fundamentales de construir algoritmos:
 
 1. Variables.
-2. `Condicionales`.
+2. Condicionales.
 3. Arrays(Arreglos).
 4. Loops(Bucles).
 5. Funciones.
