@@ -357,7 +357,7 @@ async function handeErrors() {
 ```javascript
 async  function fetchData(endpoint) { 
 	const response = await  fetch(endpoint); //notice the use of fetch api
-	let data = await res.json();
+	let data = await response.json();
 	data = data.map(user => user.ID); 
 	console.log(data); 
 }
