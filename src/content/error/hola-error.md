@@ -48,7 +48,7 @@ Just like we did in the Layout chapter of the course, let’s create one page wi
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/th7uLrow/4/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
-## Bootstrap is 100% Responsive
+## Bootstrap is 100% Responsive.
 
 It’s very easy to decide how your website will render in different screen sizes; when you add each column into the rows you need to assign a class with the following format:
 
