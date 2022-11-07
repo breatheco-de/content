@@ -213,7 +213,7 @@ console.log(myPomise);
 
 ### Resolve y reject funciones
 
-+ ***Resolve*** se utiliza para cambiar el estado de una promesa de pendiente a cumplida.
++ ***Resolve*** se utiliza para cambiar el estado de una promesa dependiente a cumplida.
 + ***Reject*** se utiliza para cambiar el estado de pendiente a rechazado.
 
 
