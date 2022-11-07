@@ -80,7 +80,7 @@ Pero espera, hay más... Incluso podríamos pasar una *función* como argumento 
 ```javascript
 1    function correPrimero(unaFuncion){
 2	console.log("Quiero correr primero");
-3	unaFuncion();
+3	correPrimero();
 4	correSegundo();
 5	console.log("También quiero correr cuando se ejecute correPrimero");
 6    }
