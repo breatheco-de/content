@@ -20,20 +20,20 @@ h2{
     color: blue;
 }
 
-//Pero luego tienes una página muy particular donde el fondo también es azul, así que necesitas que tus encabezados sean blancos;
+//Pero luego tienes una página muy particular donde el fondo también es azul, así que necesitas que tus encabezados sean blancos
 
 h2{
     color: white;
 }
 ```
 
-Esto sucede todo el tiempo y, en algún momento, puede ser difícil anular los estilos anteriores.  Debes organizar tus estilos adecuadamente y empezar desde lo menos específico hasta los más especifico. 
+Esto sucede todo el tiempo y, en algún punto, puede ser difícil anular los estilos anteriores.  Debes organizar tus estilos adecuadamente y empezar desde lo menos específico hasta los más especifico. 
 
-Estos selectores "muy específicos" te ayudarán mucho.  ¡Serán tu mejor herramienta para luchar contra tu guerra de estilos!
+Estos selectores "muy específicos" te ayudarán mucho. ¡Serán tu mejor herramienta para luchar contra tu guerra de estilos!
 
 > :tv: &nbsp;[Aquí hay un vídeo muy bueno (3:40 min) explicando especificidad.](https://www.youtube.com/watch?v=In78mSOHmls)
 
-## El selector de hijos
+## El Selector Child (hijos)
 
 ```css
 #someDiv > p {
@@ -41,14 +41,11 @@ Estos selectores "muy específicos" te ayudarán mucho.  ¡Serán tu mejor herra
 }
 ```
 
-Esta declaración toma las etiquetas de párrafo que son hijos del div y las convierte en azules.  Ten en cuenta que solo funciona para los *hijos* de ese div, no necesariamente para todos los descendientes.  Exploremos esto más a fondo con el siguiente ejemplo.
+Esta declaración toma los tags de párrafo que son hijos (children) del `div` y los convierte en azules. Ten en cuenta que solo funciona para los *hijos* de ese div, no necesariamente para todos los descendientes. Exploremos esto más a fondo con el siguiente ejemplo.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/">Clic aquí para abrir demo en una nueva ventana</a></small></div>
-
-
-
 
 
 ## El selector de parientes adyacentes (hermanos)
@@ -59,11 +56,11 @@ p + p {
 }
 ```
 
-Usamos el selector de parientes adyacentes para cambiar el segundo y tercer párrafo a rojo.  Esto parece muy complicado, ¿no es así? Instintivamente, esperaríamos que el primer párrafo también fuera rojo.  Después de todo, el primer párrafo está en el mismo nivel del árbol que los dos siguientes y, tiene parientes.
+Usamos el selector de parientes adyacentes para cambiar el segundo y tercer párrafo a rojo. Esto parece muy complicado, ¿no es así? Instintivamente, esperaríamos que el primer párrafo también fuera rojo. Después de todo, el primer párrafo está en el mismo nivel del árbol que los dos siguientes y, tiene parientes.
 
-Sin embargo, este selector solo se aplica a elementos que están precedidos por otra cosa.  En este caso, solo se aplicará a los párrafos precedidos directamente por un párrafo pariente.
+Sin embargo, este selector solo se aplica a elementos que están precedidos por otra cosa. En este caso, solo se aplicará a los párrafos precedidos directamente por un párrafo pariente.
 
-El primer párrafo de la lista está precedido por el div, por lo que no se modifica.
+El primer párrafo de la lista está precedido por el `div`, por lo que no se modifica.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -92,7 +89,7 @@ div * p {
 }
 ```
 
-Puedes llevar esto tan lejos como quieras - los siguientes objetivos son los "nietos" del div. Encontrarás este método de encadenamiento frecuentemente en los trucos de depuración de CSS.
+Puedes llevar esto tan lejos como quieras; los siguientes objetivos son los "nietos" del div. Encontrarás este método de encadenamiento frecuentemente en los trucos de depuración de CSS.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -103,7 +100,7 @@ Puedes llevar esto tan lejos como quieras - los siguientes objetivos son los "ni
 ```css
 a[href='http://4geeksacademy.com/'] {color: blue;}
 ```
-Si queremos cambiar el color de fuente del enlace "Design Shack", podríamos usar: pseudo selectores. Sin embargo, hacerlo supondría que la lista se mantenga en ese orden y que el soporte del navegador no es el mejor. En su lugar, lo que podemos hacer es usar un selector de atributos para dirigirnos al "href" específico en el que estamos interesados.  
+Si queremos cambiar el color de fuente del enlace "Design Shack", podríamos usar: pseudo selectores. Sin embargo, hacerlo supondría que la lista se mantenga en ese orden y que el soporte del navegador no es el mejor. En su lugar, lo que podemos hacer es usar un selector de atributos para dirigirnos al `href` específico en el que estamos interesados.  
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -115,13 +112,13 @@ Si queremos cambiar el color de fuente del enlace "Design Shack", podríamos usa
 ```css
 div[id*='section'] {color: red;}
 ```
-El siguiente código apunta a cualquier div con la palabra "section" en el título. Puede ser la "section3" o la "section-Four", no importa. Mientras contenga la cadena indicada, se aplicarán los estilos posteriores.
+El siguiente código apunta a cualquier `div` con la palabra "section" en el título. Puede ser la "section3" o la "section-Four", no importa. Mientras contenga la cadena indicada, se aplicarán los estilos posteriores.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
 
-## Pseudoselectores
+## Pseudoclases
 
 ### Pseudoselectores relacionados con enlaces 
 ```css
@@ -142,7 +139,7 @@ Puedes cambiar los colores de cualquier elemento del sitio web, dependiendo de s
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
 
   
-### Pseudoselectores relacionados con campos de formulario
+### Pseudoselectores relacionados con la entrada (input)
 
 ```css
 input{padding: 5px;}
@@ -155,7 +152,7 @@ input:focus{font-size: 2em;}
 input:enabled{ border: 2px solid black;}
 ```
 
-Es muy importante tomarse el tiempo suficiente para darle estilo a nuestros formularios. El estilo es la mejor manera de decirle al usuario que un campo está desactivado, marcado o que tiene el cursor enfocado en un campo en particular.
+Es muy importante tomarse el tiempo suficiente para darle estilo a nuestros formularios. El Styling (estilo) es la mejor manera de decirle al usuario que un campo está desactivado, marcado o que tiene el cursor enfocado en un campo en particular.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -174,7 +171,7 @@ Puedes aplicar estilos a los elementos según su posición.
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/0nzat2h8/1/embedded/html,css,result/">Presiona aquí para abrir la demo en una nueva ventana</a></small></div>
 
-### Aquí hay una lista de los pseudoselectores más usados:
+### Aquí hay una lista de las Pseudo-Clases más usadas:
 
 |**Selector**   |**Ejemplo**   |**Descripción del Ejemplo**   |
 |:--------------|:-------------|:-------------------------|
