@@ -47,7 +47,7 @@ The previous example was a simple condition, but in real life picking what to we
 
 ![Hit by a flu or have a cold](../../assets/images/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800.jpeg)
 
-If you want to represent this algorithm in Javascript it will look something like this:
+If you wanted to represent this algorithm in Javascript it would look something like this:
 
 ```js
 let feelsLikeHitByTrain = true;
