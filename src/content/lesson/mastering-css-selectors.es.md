@@ -27,7 +27,7 @@ h2{
 }
 ```
 
-Esto sucede todo el tiempo y, en algún momento, puede ser difícil anular los estilos anteriores.  Debes organizar tus estilos adecuadamente y empezar desde lo menos específico hasta los más especifico. 
+Esto sucede todo el tiempo y, en algún momento, puede ser difícil anular los estilos anteriores.  Debes organizar tus estilos adecuadamente y empezar desde lo menos específico hasta los más específico. 
 
 Estos selectores "muy específicos" te ayudarán mucho.  ¡Serán tu mejor herramienta para luchar contra tu guerra de estilos!
 
