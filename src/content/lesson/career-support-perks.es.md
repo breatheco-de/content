@@ -22,6 +22,6 @@ Estas no son plataformas regulares de búsqueda de empleo, son plataformas exclu
 - [ ] [YearOne](https://app.joinyearone.io/users/sign_in): to conecta con una comunidad de pares y trabajo para personas que ingresan a la tecnología.
 - [ ] [PowderKeg](https://powderkeg.com/tech-jobs/): Una plataforma de búsqueda de empleo enfocada en ayudar a las personas a encontrar trabajos cerca de ellos y lanzar la carrera de nuevos profesionales tecnológicos.
 - [ ] [GoGig](http://my.gogig.com/): Te ayuda a buscar un trabajo de forma anónima y a conectarse directa e indirectamente con los empleadores.
-- [ ] Si quieres ser agregado a nuestro [Talent Pipeline](https://4geeksacademy.notion.site/Talent-Pipeline-4Geeks-Academy-USA-ef91aba17f9c4964bf7972396d190bdf). Asegúrate de haber completado [este formulario](https://docs.google.com/forms/d/11SZSOhKwl9awWHtKSWMDcv9JSbfTKiKoFu-cTN0NX0I/edit#responses). 
+- [ ] Si quieres ser agregado a nuestro [Talent Pipeline](https://4geeksacademy.notion.site/Talent-Pipeline-4Geeks-Academy-USA-ef91aba17f9c4964bf7972396d190bdf). Asegúrate de haber completado [este formulario](https://marketing892162.typeform.com/to/edk5gbk0). 
 
 > Nuestro canal de talento es una base de datos que compartimos constantemente con socios de contratación y reclutadores. Nos ha ayudado a conectarte con pasantías y oportunidades laborales.
