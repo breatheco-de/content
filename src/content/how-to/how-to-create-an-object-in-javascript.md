@@ -15,7 +15,7 @@ Creating an object in JavaScript may be achieved by different means, this exampl
 ```javascript
 function Geek(tech, years) {
 	this.tech = tech;
-	this.years = years
+	this.years = years;
 }
 
 const geek1 = new Geek("javascript", 3)
@@ -28,11 +28,6 @@ Output: Geek { tech: 'javascript', years: 3 }
 Output: Geek { tech: 'node', years: 2 }
 */
 ```
-
-- Object with literal syntax
-- Object with new keyword
-- Object.create()
-- Object.assign()
 
 ## Object with literal syntax:
 This is the simpliest way to create an object, the downside is that you´ll need to set the properties for each of the objects you want to create manually. The example is as follows:
@@ -64,7 +59,7 @@ console.log(geek)
 // Output: {}
 ```
 
-Ok, we craated an empty object, now let´s give it some properties:
+Ok, we created an empty object, now let´s give it some properties:
 
 ```javascript
 geek.tech = "javascript"
@@ -84,7 +79,7 @@ Using a user defined constructor function we take care of a problem that happens
 ```javascript
 function Geek(tech, years) {
 	this.tech = tech;
-	this.years = years
+	this.years = years;
 }
 
 /*
@@ -95,16 +90,16 @@ Every time we´ll execute the `Geek()` function, we´ll pass the value of the pr
 
 ## Object.create()
 
- MDN describes this method as 
- >(...) a method that creates a new object, using an existing object as prototype (...)
+Object.create() receives an obj as prototype (or blueplrint) and creates a new object from it
  
 ### Syntax:
  ```javascript
  Object.create(proto, propertiesObject)
  ```
+ 
 ### Parameters:
-`proto`:  the object used as prototype
-`propertiesObject` (optional): If specified and not undefined, the properties you want to add to the new object
+- `proto`:  the object used as prototype
+- `propertiesObject` (optional): If specified and not undefined, the properties you want to add to the new object
 
 An example will be most welcome to make all that more understandable, here it is:
 
@@ -114,11 +109,12 @@ First we create our prototype obj (parent object, or anyway you feel more comfor
 const geekForce = { company: "4 Geeks Academy"}
 ```
 
-We use the `Object.create()`method, and as first argument we pass the `geekForce` object, then we follow the syntax: 
+We use the `Object.create()` method, and as first argument we pass the `geekForce` object, then we follow the syntax:
+
 ```javascript
 { 
-	property-name: {value: "property-value"},
-	other-property-name: {value: "other-property-value"}
+	propertyName: {value: "property-value"},
+	otherPropertyName: {value: "other-property-value"}
 }
 ```
 
@@ -134,7 +130,7 @@ const geek1 = Object.create(geekForce, {
 })
 ```
 
-now, let´s see the properties we just added
+Now, let´s see the properties we just added
 
 ```javascript
 console.log(geek1.tech)
@@ -165,6 +161,6 @@ console.log(geekForce)
 //Output: { company: '4 Geeks Academy', geekTech: 'javascript' }
 ```
 
-We explored different ways on how to create objects in javascript, from the most straightforward one, to dynamic and the using other object as a prototype and creating an object out of other objects. 
+We explored different ways on how to create objects in javascript, from the most straightforward one to a dynamic way, and using other object as a prototype creating an object from other objects.
 
 Hope you enjoyed the reading and keep on the geek side.
