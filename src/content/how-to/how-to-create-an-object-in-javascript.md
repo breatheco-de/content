@@ -1,6 +1,6 @@
 ---
 title: "How to Create an object in Javascript"
-subtitle: ""
+subtitle: "There are many ways to create objects in javascript, we can use the new keyword or create it with literal syntax, here you can see more examples."
 tags: ["javascript","javascript objects"]
 date: "2020-10-19T16:36:30+00:00"
 authors: []
@@ -30,6 +30,7 @@ Output: Geek { tech: 'node', years: 2 }
 ```
 
 ## Object with literal syntax:
+
 This is the simpliest way to create an object, the downside is that you´ll need to set the properties for each of the objects you want to create manually. The example is as follows:
 
 ```javascript
