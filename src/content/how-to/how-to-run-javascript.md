@@ -26,10 +26,10 @@ If you are in the need to interact for debugging or testing a running web app on
 
 ### How to access the browser console/terminal
 
-- left click anywhere in the browser window
-- Inspect 
-- The inspector displays and on the top of the tab displayed, click console
-- Start writing your javascript code
+- Press left click anywhere in the browser window.
+- Select inspect.
+- Once the inspector is displayed, then on the top of the tab, click console.
+- Start writing your javascript code.
 
 Here´s an example:
 
@@ -37,11 +37,11 @@ Here´s an example:
 
 ## Using the command line
 
-If don´t want to use the browser built-in terminal, you can always choose the command line to run javascript. For the command line to be able to execute javascript code, you´ll need to install NodeJS (or just Node as referred usually).
+If you don´t want to use the browser built-in terminal, you can always choose the command line to run javascript. For the command line to be able to execute javascript code, you´ll need to install NodeJS (or just Node as referred usually).
 
 ### What´s NodeJS?
 
-Node.js® is an open-source, cross-platform JavaScript runtime environment that allows us to execute and write javascript for front-end, back-end  o full-stack apps. Node it´s the go-to solution for most cases when we want to develop web apps for most developers (myself included).
+Node.js is a JavaScript engine that allows us to execute and write javascript for front-end, back-end  o full-stack apps. Node it´s the go-to solution for most cases when we want to develop web apps for most developers (myself included).
 
 ### Installing NodeJS
 
@@ -63,7 +63,7 @@ Now we started the node environment and we have access to javascript. Here´s an
 
 ![How to run javascript from the command line](../../assets/images/how_to_run_javascript_2.png)
 
-## Using and IDE for developing
+## Using an IDE for developing
 
 So, I understand that you want to run javascript locally for developing purposes, let´s dig in in how to start a javascript project from your favorite IDE. We´ll be using Visual Code, but the process is the same for all of them.
 
@@ -74,9 +74,9 @@ We already covered how to install NodeJS, the javascript engine we´ll need to e
 - Create the folder you want to store your project (example, `mkdir nodeTest`)
 - Access the folder with `cd nodeTest`
 - Write `npm init -y` 
-- -  `npm` stands form Node Package Manager 
-- - `init` stands for initialize/initiate  
-- -  `-y` is to apply the default values and start, you can change them later or run the code without the `-y` and see for yourself the given options
+    -  `npm` stands form Node Package Manager
+    - `init` stands for initialize/initiate
+    - `-y` is to apply the default values and start, you can change them later or run the code without the `-y` and see for yourself the given options
 
 After it finishes, a `package.json` will show on your files, and if you open it, it´ll have all the data we manually specified by omitting the `-y` flag or the generic information which can be edited anytime we want.
 
