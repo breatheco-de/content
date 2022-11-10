@@ -8,23 +8,10 @@ status: "draft"
 
 ---
 
----
-title: "How to run javascript"
-subtitle: ""
-tags: ["javascript"]
-date: "2020-10-19T16:36:30+00:00"
-authors: ["Javier Seiglie"]
-status: "draft"
-
----
-
-# How to run javascript
-
 The most common and useful javascript expression would be:  
 
 ```javascript
-	console.log("4 Geeks javascript")
-	// Output: 4 Geek javascript
+node ./filename.js
 ```
 
 There are many ways to execute javascript locally, without the need of internet or hosting our web apps on a server. Here are a few ways to do this:
@@ -37,7 +24,7 @@ There are many ways to execute javascript locally, without the need of internet 
 
 If you are in the need to interact for debugging or testing a running web app on a server, or locally, you can make use of the built-in browser console. 
 
-###How to access the browser console/terminal
+### How to access the browser console/terminal
 
 - left click anywhere in the browser window
 - Inspect 
@@ -46,7 +33,7 @@ If you are in the need to interact for debugging or testing a running web app on
 
 Here´s an example:
 
-[![How to run javascript on browser terminal](./src/assets/images/how_to_run_javascript_1.png "How to run javascript on browser terminal")](./src/assets/images/how_to_run_javascript_1.png "How to run javascript on browser terminal")
+![How to run javascript on browser terminal](../../assets/images/how_to_run_javascript_1.png)
 
 ## Using the command line
 
