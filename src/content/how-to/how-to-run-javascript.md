@@ -1,6 +1,6 @@
 ---
 title: "How to run javascript"
-subtitle: ""
+subtitle: "The most common way to run javascript, would be running the file from the terminal using: node filename.js"
 tags: ["javascript"]
 date: "2020-10-19T16:36:30+00:00"
 authors: ["Javier Seiglie"]
@@ -8,7 +8,7 @@ status: "draft"
 
 ---
 
-The most common and useful javascript expression would be:  
+The most common way to run a javascript file would be:  
 
 ```javascript
 node ./filename.js
