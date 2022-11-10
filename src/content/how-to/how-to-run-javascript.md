@@ -92,6 +92,9 @@ To run your app, you can do it by writing on the terminal:
 ```javascript
  $ node local
 ```
+
+![how to run javascript with node](../../assets/images/how_to_run_javascript_3.png)
+
 Remember to take out the `$` when writing on the terminal.
 
 We use `node` to summon our node engine and we tell which file we want to run, in this how-to we named our file `local`, that’s why `node local`. 
@@ -99,10 +102,8 @@ We use `node` to summon our node engine and we tell which file we want to run, i
 Well now, even if we manage to execute our app, this is not the most common way to do it. Remember the `package.json` we created with `npm init -y`? Well, we´re editing it now to run our app. We need to add to our `package.json` the following:
 
 ```json
-  $ "start": "node local"
+    "start": "node local"
 ```
-
-![how to run javascript with node](../../assets/images/how_to_run_javascript_3.png)
 
 We´ll add it on the `"scripts"` section, `start` will be the keyword we´ll use to tell node to run `local`, our javascript file we created on the previous steps. 
 
