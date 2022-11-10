@@ -8,8 +8,6 @@ status: "draft"
 
 ---
 
-# How to create an object in javascript
-
 Creating an object in JavaScript may be achieved by different means, this example allows us to create the object and stablish its properties 
 
 ```javascript
