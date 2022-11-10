@@ -61,7 +61,7 @@ We downloaded and installed NodeJS on our system, now let´s run some javascript
 
 Now we started the node environment and we have access to javascript. Here´s an example of javascript executed on the command line
 
-[![How to run javascript from the command line](./src/assets/images/how_to_run_javascript_2.png "How to run javascript from the command line")](./src/assets/images/how_to_run_javascript_2.png "How to run javascript from the command line")
+![How to run javascript from the command line](../../assets/images/how_to_run_javascript_2.png)
 
 ## Using and IDE for developing
 
@@ -102,7 +102,7 @@ Well now, even if we manage to execute our app, this is not the most common way 
   $ "start": "node local"
 ```
 
-[![how to run javascript with node](./src/content/how-to/how_to_run_javascript_3.png "how to run javascript with node")](./src/content/how-to/how_to_run_javascript_3.png "how to run javascript with node")
+![how to run javascript with node](../../assets/images/how_to_run_javascript_3.png)
 
 We´ll add it on the `"scripts"` section, `start` will be the keyword we´ll use to tell node to run `local`, our javascript file we created on the previous steps. 
 
@@ -130,7 +130,7 @@ Here´s a visual example of how the `package.json` file:
 
 Now, every time we run `npm run start`,  node will run our `local.js` file.
 
-[![How to run javascript with npm](./src/content/how-to/how_to_run_javascript_4.png "How to run javascript with npm")](./src/content/how-to/how_to_run_javascript_4.png "How to run javascript with npm")
+![How to run javascript with npm](../../assets/images/how_to_run_javascript_4.png)
 
 
 We covered how to run javascript in different environments, from the browser´s console to a fully installed NodeJS running with Visual Code (or the IDE of your choice). 
