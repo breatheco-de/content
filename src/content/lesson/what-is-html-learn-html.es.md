@@ -48,7 +48,7 @@ Una vez definida la  `<tag>`, podemos describir con más detalle su comportamien
 
 
 
-En teoría, tú debes utilizar [una de estas tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true), no puedes inventar tus propias etiquetas porque el navegador no sabría cómo interpretarlas. Sí, debes conocer el significado de cada **etiqueta HTML** para utilizarlas sabiamente… ¡pero no te preocupes que no hay muchas! 🙂
+En teoría, tú debes utilizar [una de estas tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true), no puedes inventar tus propias etiquetas porque el navegador no sabría cómo interpretarlas. Sí, debes conocer el significado de cada **etiqueta HTML** para utilizarlas sabiamente… ¡Pero no te preocupes que no hay muchas! 🙂
 
 Para el título principal, o el título más grande, se utiliza la etiqueta `<h1>`. Por ejemplo: una tienda en línea podría tener una sección para la categoría de electrónicos, en ese caso un título coherente seria “Artículos Electrónicos” y la tag  `<h1>` la escribiríamos de la siguiente manera:
 
@@ -142,7 +142,7 @@ En el caso de HTML, `<head>` puede contener los siguientes tags (entre otros men
 
 Bien, ahora que conocimos la estructura general y necesaria de la página, vamos a revisar cuáles son los tags que podemos y debemos utilizar para definir el contenido de la misma.
 
-Recuerda -por quinceava vez- que una página web es un… ¡documento de texto! Así es. Si has pensado en la respuesta antes de leerla… ¡estás entendiendo! y si no es así, pues no te preocupes, que no conozco a nadie que haya entendido HTML y CSS tan rápidamente ;).
+Recuerda -por quinceava vez- que una página web es un… ¡Documento de texto! Así es. Si has pensado en la respuesta antes de leerla… ¡Estás entendiendo!, y si no es así, pues no te preocupes, que no conozco a nadie que haya entendido HTML y CSS tan rápidamente ;).
 
 Veamos ahora en qué se compara un website con un documento de Word:
 
@@ -156,10 +156,10 @@ Las etiquetas más utilizadas dentro del `<body>` de un documento HTML son las s
 |Párrafo   |P   |Esta etiqueta separa el texto que contiene con un margen superior e inferior. De esta manera simula exactamente el comportamiento de un párrafo en un documento.`<p>ejemplo de un párrafo</p>`   |
 |Lista   |UL, OL   |Las listas son fundamentales en un documento, en el caso de HTML tenemos dos tags que podemos usar para listar contenido:<br><br> <li>OL: Que nos da una lista numerada (pone numeritos delante).</li><br><li>UL: Que nos da una lista sin números (pone puntos por delante).<br><br>`<ol>`<br>`<li>Elemento 1</li>`<br>`<li>Elemento 2</li>`<br>`</ol>`   |
 |Imagen  |img   |Nos permite agregar imágenes al documento, pueden ser imágenes PNG, JPEG, GIF y SVG principalmente .<br>`<img src="url of the image"/>`
-|Link (Anchor)   |a   |A veces queremos conectar una o mas páginas entre ellas, enviar al usuario a otra página para continuar con el flujo o incluso poder enviarlo a otra sección del mismo documento (tal como ocurre en el menú de este curso). Para eso está la tag “Anchor”.<br>`<a href="url to resend">this is a heading</a>`   |
+|Link (Anchor)   |a   |A veces queremos conectar una o más páginas entre ellas, enviar al usuario a otra página para continuar con el flujo o incluso poder enviarlo a otra sección del mismo documento (tal como ocurre en el menú de este curso). Para eso está la tag “Anchor”.<br>`<a href="url to resend">this is a heading</a>`   |
 |Negrita   |strong o b   |Para resaltar un texto en negritas.<br>`<strong>este es un heading</strong>`   |
 |Cursiva   |i   |Para colocar un texto en formato cursiva. <br>`<i>este es un heading</i>`   |
-|Salto de Linea  |br   | 	Para saltar el texto o contenido a la línea siguiente (similar al `shift+enter` en MS Word.)<br>`<br></br>`   |
+|Salto de Línea  |br   | 	Para saltar el texto o contenido a la línea siguiente (similar al `shift+enter` en MS Word.)<br>`<br></br>`   |
 |Tablas   |table   |Las tablas fueron diseñadas para presentar datos de una forma legible y coherente. Tienen una headers (th), filas (tr) y columnas (td).<br><br>`<table>`<br>`<tr><th>Columna 1</th><th>Columna 2</th></tr>`<br>`<tr><td>Datos 1</td><td>Data A</td></tr>`<br>`<tr><td>Datos 2</td><td>Datos B</td></tr><br>`<br>`<tr><td>Datos 3</td><td>Datos C</td></tr>`<br>`</table>`   |
 
 > :link: [Haz clic aquí](https://www.w3schools.com/tags/ref_byfunc.asp), para más tags HTML.
@@ -175,7 +175,7 @@ Si quieres especificar más el comportamiento de una etiqueta en particular, pue
 ```
 
 
-En este caso, estamos asignándole a la etiqueta `<img>` la propiedad "src" que indica cual es la ruta de la imagen que debe visualizarse en este contenedor.
+En este caso, estamos asignándole a la etiqueta `<img>` la propiedad "src" que indica cuál es la ruta de la imagen que debe visualizarse en este contenedor.
 
 Cada etiqueta tiene sus propiedades (no tienes que memorizarlas, siempre las conseguirás rápidamente en Internet), pero si es bueno que revises las más importantes para que las tengas a disposición en tu mente.
 

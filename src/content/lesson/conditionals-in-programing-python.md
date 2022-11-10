@@ -16,7 +16,7 @@ tags: ["Conditionals","Logical operators","If...else","Conditions","Python"]
 There are 5 skills you need to master in your toolset for building algorithms with python:
 
 1. Variables.
-2. `Conditionals`.
+2. Conditionals.
 3. Lists (or arrays).
 4. Loops.
 5. Functions.

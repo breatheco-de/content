@@ -13,7 +13,7 @@ status: "published"
 Mastering the use of conditions is one of the 5 fundamental skills of building algorithms:
 
 1. Variables.
-2. `Conditionals`.
+2. Conditionals.
 3. Arrays/Objects.
 4. Loops.
 5. Functions.
