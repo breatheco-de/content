@@ -160,3 +160,5 @@ names.extend(ages.values())
 
 print(names) #Output: ["Charlie", "Melissa", "Jake", 15, 50, 8]
 ```
+
+In this article we could see that the Python List Extend method is used in different ways depending on the type of data we are working with in our projects, make sure you are aware of this in your future projects!
