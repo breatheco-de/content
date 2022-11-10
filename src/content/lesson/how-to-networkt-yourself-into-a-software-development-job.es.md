@@ -1,5 +1,5 @@
 ---
-title: "Como "venderte" para conseguir trabajo como programador"
+title: "Como 'venderte' para conseguir trabajo como programador"
 subtitle: "Aprende a utilizar las redes a tu favor cuando busques un trabajo de desarrollo de software"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 status: "unassigned"
