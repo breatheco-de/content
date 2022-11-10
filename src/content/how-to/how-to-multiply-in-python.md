@@ -8,26 +8,16 @@ status: "draft"
 
 ---
 
-# How to Multiply in Python
+Short answer:
 
-Short answer: 
 ```python
-num1*num2
+result = 3 * 2
+print(result) # 6
 ```
-
-- Multiply numbers with the * operator
-- Multiply numbers without the * operator
-- Multiply as a power operation alternative
-- Multiply strings
-- Multiply lists of numbers with * operator
-- Multiply lists of numbers with numpy
-- Multiply lists of numbers with lambda and reduce
-- Multiply lists of numbers with math.prod()
 
 # Multiply numbers with the * operator:
 
-The most common way to multiply 2 (or more) numbers would be using the operator **(*)**  this is the sintax to use it:
-
+The most common way to multiply 2 (or more) numbers would be using the operator **(*)**  this is the syntax to use it:
 
 syntax: `num1*num2`
 
@@ -37,8 +27,7 @@ Complete example:
 def multiply (num1, num2):
 	return num1*num2
 
-print(multiply(3, 2))
-#Output: 6
+print(multiply(3, 2)) # Output: 6
 ```
 But how could we achieve this without using this operator?
 
@@ -54,8 +43,7 @@ def multWithout(num1, num2):
         result +=num1
     return result
 
-print(multWithout(2,10))
-#Output: 20
+print(multWithout(2,10)) # Output: 20
 ```
 We created a function that receives 2 numbers, we declared a variable `result` and start is as "0" to store our values  and we´ll loop as many times as `num2`. For each itaration result will be updated adding `num1` to the stored ammount. 
 
@@ -71,9 +59,9 @@ def powerMult(num1, num2):
         result *= num1 
     return result
 
-print(mult2(3, 3))
-# 27
+print(mult2(3, 3)) # 27
 ```
+
 # Multiply strings
 
 Multiplying strings will follow the same structure, here´s an example:
@@ -82,15 +70,14 @@ Multiplying strings will follow the same structure, here´s an example:
 def multString (str, num):
     return  str*num
 
-print(multString("How to multiply in python ", 2))
-#Output: How to multiply in python How to multiply in python 
+print(multString("How to multiply in python ", 2)) # Output: How to multiply in python How to multiply in python 
 ```
 
 The function `multString` recevies 2 elements, the string we want to multiply and the second element will be the ammount of times it will repeat (multiply).
 
 # Multiply lists of numbers with * operator
 
-The way to multiply an arr using the * operator will ask to loop through the given array and multiply each element storing the value on a `result` variable to return it. 
+The way to multiply a list using the `*` operator will ask to loop through the given array and multiply each element storing the value on a `result` variable to return it. 
 
 ```python
 arr = [1, 2, 3, 4, 5]
@@ -103,8 +90,7 @@ def multiplyList(list):
         result = result * x
     return result
 
-print (multiplyList(arr))
-#Output: 120
+print (multiplyList(arr)) # Output: 120
 ```
 
 # Multiply lists of numbers with numpy
@@ -121,10 +107,10 @@ def multNumpy(arr):
 print(multNumpy(arr))
 #Output: 120
 ```
-Firsdt we need to `import numpy` to be able to use it, and then with `numpy.prod()` we pass the element we want to multiply (in this case, our array of numbers)
+First we need to `import numpy` to be able to use it, and then with `numpy.prod()` we pass the element we want to multiply (in this case, our array of numbers)
 
 
-# Multiply lists of numbers with lambda and reduce
+# Multiply lists of numbers with reduce
 
 Lambda is one of the most used methods in the python library, here´s how to use it along with `reduce` to multiply lists
 
@@ -133,7 +119,7 @@ from functools import reduce
 arr = [1, 2, 3, 4, 5]
 
 def MultListLambaReduce(arr):
-    return reduce((lambda x, y: x* y), arr)
+    return reduce((lambda x, y: x * y), arr)
 
 print(MultListLambaReduce(arr))
 #Output: 120
@@ -150,9 +136,9 @@ arr = [1, 2, 3, 4, 5]
 def multProd(arr):
     return math.prod(arr)
 
-#Output: 120
+print(multProd(arr)) # Output: 120
 ```
 
 We covered different ways to multiply in python numbers, strings and lists (arrays of numbers) with different methos, from the most simple and usual one, as simple as using the **(*)** operator, to more complex ones using libraries like `numpy` or `math`.
 
-Hope you enjoy your reading and keep on the Geek side.
+Hope you enjoyed your reading and keep on the Geek side.
