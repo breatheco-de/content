@@ -15,7 +15,7 @@ result = 3 * 2
 print(result) # 6
 ```
 
-# Multiply numbers with the * operator:
+## Multiply numbers with the * operator:
 
 The most common way to multiply 2 (or more) numbers would be using the operator **(*)**  this is the syntax to use it:
 
@@ -32,7 +32,7 @@ print(multiply(3, 2)) # Output: 6
 But how could we achieve this without using this operator?
 
 
-# Multiply numbers without the * operator:
+## Multiply numbers without the * operator:
 
 Let´s say that you dont want to use the  **(*)** operator. Here´s the way  to do it:
 
@@ -48,7 +48,7 @@ print(multWithout(2,10)) # Output: 20
 We created a function that receives 2 numbers, we declared a variable `result` and start is as "0" to store our values  and we´ll loop as many times as `num2`. For each itaration result will be updated adding `num1` to the stored ammount. 
 
 
-# Multiply as a power operation alternative
+## Multiply as a power operation alternative
 
 The process would be pretty much alike, but the `result` variable would start as 1, since we will be multiplying instead of adding and as we all know, multiplying with "0" is not a very good idea.
 
@@ -62,7 +62,7 @@ def powerMult(num1, num2):
 print(mult2(3, 3)) # 27
 ```
 
-# Multiply strings
+## Multiply strings
 
 Multiplying strings will follow the same structure, here´s an example:
 
@@ -75,7 +75,7 @@ print(multString("How to multiply in python ", 2)) # Output: How to multiply in 
 
 The function `multString` recevies 2 elements, the string we want to multiply and the second element will be the ammount of times it will repeat (multiply).
 
-# Multiply lists of numbers with * operator
+## Multiply lists of numbers with * operator
 
 The way to multiply a list using the `*` operator will ask to loop through the given array and multiply each element storing the value on a `result` variable to return it. 
 
@@ -93,7 +93,7 @@ def multiplyList(list):
 print (multiplyList(arr)) # Output: 120
 ```
 
-# Multiply lists of numbers with numpy
+## Multiply lists of numbers with numpy
 
 Numpy is a library widely used by many programmers to handle  complex mathematics operations. Here´s how to use it to multiply lists:
 
@@ -110,7 +110,7 @@ print(multNumpy(arr))
 First we need to `import numpy` to be able to use it, and then with `numpy.prod()` we pass the element we want to multiply (in this case, our array of numbers)
 
 
-# Multiply lists of numbers with reduce
+## Multiply lists of numbers with reduce
 
 Lambda is one of the most used methods in the python library, here´s how to use it along with `reduce` to multiply lists
 
@@ -125,7 +125,7 @@ print(MultListLambaReduce(arr))
 #Output: 120
 ```
 
-# Multiply lists of numbers with math.prod()
+## Multiply lists of numbers with math.prod()
 
 Using the `math` library you can multiply a list of numbers, here´s an example:
 
