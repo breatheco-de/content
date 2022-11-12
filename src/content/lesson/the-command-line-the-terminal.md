@@ -12,19 +12,19 @@ status: "published"
 ## Why do Developers love the Command Line?
 
 
-At first, everybody hated the command line. After years of experience, it became an acquired taste.
+At first, everybody hated the command line. However, after years of experience, it became an acquired taste.
 
 But why do developers like it? Well, the list is infinite, but here are a few important reasons:
 
 + If you don’t master the command line you won’t be able to use any of these: GIT, MySQL, Webpack, Node.js, Grunt, Vagrant, Babel, React, Angular, Apache, etc.
 + As a developer, it’s the one thing you need to have available.  Computers don’t come with Atom, Sublime Text (or any other fancy IDE).  Sometimes – like production servers – you are not allowed to install anything and **the system does not even have a visual interface** – just the command line.
-+ It is super powerful.  You can do a lot more in a lot less time, for example: bulk delete, rename, find a file, edit a file, etc.
-+ It forces you to use the keyboard.  Since you cannot use the mouse, it makes you faster.  You make fewer mistakes and the environment is exactly the same on every computer.
++ It is very powerful.  You can do a lot more in a lot less time; for example: bulk delete, rename, find a file, edit a file, etc.
++ It forces you to use the keyboard.  Since you cannot use the mouse, it makes you faster.  You make fewer mistakes, and the environment is exactly the same on every computer.
 
 ## How does it work?
 
 
-The console is really simple: it’s a black screen that’s always expecting a *command*.  After you type the desired command and press the `return` key, the computer executes it and shows some feedback with the resulting output on the screen.  A simple Question <> Answer interface.
+The console is very simple: it’s a black screen that’s always expecting a *command*.  After you type the desired command and press the `return` key, the computer executes it and shows some feedback with the resulting output on the screen.  A simple Question <> Answer interface.
 
 But, what is a *command*?
 
@@ -51,10 +51,10 @@ Your computer has files, directories, and applications.  Your command line is ab
 
 There are 4 important things to notice here:
 
-+ You can use one dot `.` to refer to all the files and folders in the hierarchy.
++ You can use one dot `.` to refer to all of the files and folders in the hierarchy.
 + You can also use two dots `..` to refer to the parent directory.
-+ You can use the forward slash `/` to navigate further down in the hierarchy directories.
-+ Hidden files:  Usually a file has a name and an extension *(filename.extension)*.  If a file has no name but only an extension it will by default be hidden in the visual interface.
++ You can use the forward slash `/` to navigate further down in the hierarchy of directories.
++ Hidden files:  Usually a file has a name and an extension *(filename.extension)*.  If a file has no name but only an extension it will be hidden by default in the visual interface.
 
 
 ## Commands to Work with the File System:
@@ -64,7 +64,7 @@ Here is a small selection of the most used commands by a software developer.
 
 ### The `ls` command
 
-**The list command**
+**The 'list' command**
 
 The ls command is used for listing all the files and directories that form the current position.
 
@@ -76,7 +76,7 @@ ls -l ./applications
 
 ### The `cd` command
 
-**The change directory command**
+**The 'change directory' command**
 
 Travel between two different directories.
 
@@ -86,9 +86,9 @@ cd /path/to/directory
 
 ### The `mv` command
 
-**The move command?**
+**The 'move' command**
 
-Move a file to another folder or directory.  Just like dragging a file located on a PC desktop to a folder stored within the "Documents" folder.
+Move a file to another folder or directory.  It's just like dragging a file located on a PC desktop to a folder stored within the "Documents" folder.
 
 ```bash
 mv /path/to/file.txt /math/to/destination/file.txt
@@ -96,9 +96,9 @@ mv /path/to/file.txt /math/to/destination/file.txt
 
 ### The `rm` command
 
-**The remove command**
+**The 'remove' command**
 
-This deletes files (not directories).
+It deletes files (not directories).
 
 ```bash
 rm file1.txt file2.txt file3.txt file4.txt
@@ -110,9 +110,9 @@ rm -r dbstore/
 
 ### The `mkdir` command
 
-**The make directory command**
+**The 'make directory' command**
 
-Makes a new directory.  Just like making a new directory within a PC or Mac desktop environment, the mkdir command makes new directories in a Linux environment.
+It makes a new directory.  Just like making a new folder within a PC or Mac desktop environment, the mkdir command makes new directories in a Linux environment.
 
 ```bash
 mkdir newdirectoryname
@@ -124,7 +124,7 @@ mkdir path/of/new/newdirectoryname
 
 ### The `rmdir` command
 
-**The remove directory command**
+**The 'remove directory' command**
 
 It deletes a directory (not files).
 
@@ -140,7 +140,7 @@ rmdir path/of/targetdirectory/mydirectory
 
 ### The `cp` command
 
-**The Copy File command**
+**The 'copy file' command**
 
 Don’t confuse this command with the clipboard copy functionality – it has nothing to do with it.
 
@@ -153,7 +153,7 @@ cp path/to/file.ext path/to/new/file.txt
 
 ### The `find` command
 
-**The find command**
+**The 'find' command**
 
 Finds a file in the given directory and with the given specifications.
 
@@ -171,8 +171,8 @@ find . -name *.mp3
 These will help you save time and make less mistakes when typing:
 
 + To cancel a command that is being executed, press `Control`+`C`
-+ To autocomplete a file or folder name, use the `tab` key.
-+ To repeat any command you have used in the past, use the `up` arrow and it will show you each command, one by one.
++ To autocomplete a file or folder name, use the `Tab` key.
++ To repeat any command you have used in the past, use the `Up` arrow and it will show you each command, one by one.
 + To go to the home user folder, use the `~` key like this: cd ~
 + Use the `clear` command to "clean" the current console (it is just a scroll, but a very useful one).
 
@@ -192,7 +192,7 @@ nano path/to/the/textfile.txt
 #open a text editor to start editing the content of textfile.txt 
 #if textfile.txt does not exists it will create it!
 ```
-When nano opens, it will show a top bar with the current version of the nano application; the name of the file being edited; and, a status telling you if the files were modified or not.
+When nano opens, it will show a top bar with the current version of the nano application; the name of the file being edited; and, a status telling you whether the files were modified or not.
 
 At the bottom you will see the most often used commands to use nano such as: quit, where is, help, etc.
 
