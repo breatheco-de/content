@@ -31,7 +31,7 @@ Originally, browsers only knew how to interpret HTML.  Websites were simple and 
 Remember when we said the Internet is all text?
 
 In that sense, HTML is a language that uses `<tags>` to represent the elements that a web page must-have. A tag is just a word that begins with `< >` and ends with `</ >`.
- All tags must open and close (closing tags always proceed the element with a `/`).
+ All tags must open and close (closing tags always proceed with the element  `/` ).
 
  There are 2 different types of tags:
 
@@ -68,9 +68,9 @@ Finally, tags can contain one or more tags within them. For example, if we would
 
  ## Blank Spaces and Line Jumps
 
- The browser ignores blank spaces and end of lines. If we want to jump one line, we have to use the `<br>` tag.  If we want more "spaces" we need to insert the command `&nbsp;` per each blank space (yes, we know it’s weird, but it is what it is).
+ The browser ignores blank spaces and the end of the lines. If we want to jump one line, we have to use the `<br>` tag.  If we want more "spaces" we need to insert the command `&nbsp;` per each blank space (yes, we know it’s weird, but it is what it is).
 
-**The following three alternatives will look the same (spaces and jumps of line will be ignored):**
+**The following three alternatives will look the same (spaces and jumps of the line will be ignored):**
 
 ```html
 <tag>Hello</tag><tag>World</tag>
