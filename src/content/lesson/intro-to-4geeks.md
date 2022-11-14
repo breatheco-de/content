@@ -51,7 +51,7 @@ Every average person can learn to code to a point of being useful, coding gets m
 
 During all your life you've learned the same way, the educational system has put you in a box and trained you to learn slowly, limiting your ability to adapt to the new world of skilled fast-learning and self-learning professionals.
 
-We know how to train you: we have done it over and over again, but we'll train in such a different way that you may not like it at first, it's only normal that your mind will want to go back to learning "slow but safe", without having to be uncomfortable or constantly challenged by our system.
+We know how to train you: we have done it over and over again, but we'll train in such a different way that you may not like it at first. It's only normal that your mind will want to go back to learning "slow but safe", without having to be uncomfortable or constantly challenged by our system.
 
 ##### 📝 Recipe to avoid losing trust in our methods
 
