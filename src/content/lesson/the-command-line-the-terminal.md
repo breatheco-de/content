@@ -28,7 +28,7 @@ The console is really simple: it’s a black screen that’s always expecting a 
 
 But, what is a *command*?
 
-It is something like "print," or "show," or "delete," but abbreviated.  For example, if you want to tell the console to list all of the files in a particular directory, you have to use the `ls` command like this:
+It´s something like "print," or "show," or "delete," but abbreviated.  For example, if you want to tell the console to list all of the files in a particular directory, you have to use the `ls` command like this:
 
 ```bash
 ls -l /path/to/directory
