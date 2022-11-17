@@ -3,7 +3,7 @@ title: "What is JavaScript? Learn to Code in JavaScript"
 subtitle: "Get to know what is JavaScript, everybody is talking about it and by now you probably know its time to learn to code in JavaScript in order to get things to the next level."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-status: "pending_translation"
+status: "published"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["javascript"]
 
