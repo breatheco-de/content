@@ -7,7 +7,7 @@ status: "published"
 date: "2020-10-19T16:36:30+00:00"
 tags: ["react-js"]
 canonical: ""
-
+## EN EL SITIO WEB 4GEEKS.COM MODULO TODOLIST, NO SE VISUALIZA EL CONTENIDO. REVISAR Y CORREGIR.!
 ---
 
 This lesson is more about **how to work with inputs in react** than **what is a controlled input**. It's better to explain the reasons we need it and why **controlled inputs** are considered the best approach in React.js applications.
