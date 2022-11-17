@@ -17,24 +17,27 @@ Tor stands for "The Onion Router" and is a free and open-source software for ano
 
 ## How does Tor hides the user?
 
-The Onion Router directs the user internet traffic through a free, complex and global volunteer overlay network that has more than 7000 relays. Making use of these extend network, it conceals all the user sensitive data as location, internet usage and many more giving 
+The Onion Router directs the user internet traffic through a free, complex and global volunteer overlay network that has more than 7000 relays. Making use of this extend network, it conceals all the user sensitive data as location, internet usage and many more giving.
 
-## Disabling javascript in Tor
+## Disabling Javascript in Tor
 
 Since Tor makes it easier to actually keep our personal information safe, it should allow us to disable Javascript and prevent scripts from executing and "stealing" our data. How to disable Javascript in tor?
 
 First things first, we need to download the Tor browser app:
 
-- Direct yourself to: https://www.torproject.org/es/download/ 
-- Select your Operating System (OS)
-- Once downloaded, run the installer
-- Next, next, next...
-- Start Tor browser
+- Direct yourself to: https://www.torproject.org/es/download/
 
-Tor will boot up and ask to connect to The Onion Router, accept it, wait for it to finish and then, try it out or keep reading and lets dig in in how to desable javascript in Tor.
+- Select your Operating System (OS).
+
+- Once downloaded, run the installer.
+
+- Next, next, next...
+
+- Start Tor browser.
+
+Tor will boot up and ask to connect to The Onion Router, accept it, wait for it to finish and then, try it out or keep reading and lets dig in how to desable Javascript in Tor.
 
 - Acces to the tor browser `menu`
-
 ![How to disable Javascript in tor?](https://i.imgur.com/B4iGKlY.png)
 
 - Select `Settings`
