@@ -1,12 +1,8 @@
 ---
 title: "Como utilizar Gitpod"
 subtitle: "Aprende lo essencial para utilizar Gitpod correctamente y porqué este editor de código en la nube es la forma más conveniente de programar hoy en día"
-cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/gitpod.jpeg?raw=true"
-textColor: "white"
-status: "draft"
-date: "2022-01-15T16:36:30+00:00"
 tags: ["gitpod"]
-canonical: ""
+
 ---
 
 ## ¿Qué es Gitpod?
@@ -71,7 +67,7 @@ Una vez que finalices por el día, puedes abandonar tu computadora. Sin embargo,
 
 Como programador, necesitarás usar el terminal de la computadora algunas veces; siempre puedes encontrar o abrir el terminal, dándole clic al menú tipo hamburguesa en la parte superior izquierda y seleccionando la opción "terminal" => "new terminal" 
 
-![Botón de Gitpod](https://storage.googleapis.com/breathecode-asset-images/62a6f61382443c1863a7e20a4b550e2d62216781cff482e3685dfd87f14252a1.png?raw=true)
+![Botón de Gitpod](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/terminal.png?raw=true)
 
 ### ¿Qué es un terminal o línea de comando? 
 
