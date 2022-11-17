@@ -54,11 +54,11 @@ Now that we have NodeJS installed on our system, we can run Javascript locally a
 
 - Open a new `Terminal`.
 
-![How to run javascript on Visual Studio](https://i.imgur.com/N6WmTra)
+![How to run javascript on Visual Studio](https://i.imgur.com/N6WmTra.png)
 
 - Write on the terminal `npm init -y`.
 
-![How to run javascript on Visual Studio](https://i.imgur.com/uasJ5gf)
+![How to run javascript on Visual Studio](https://i.imgur.com/uasJ5gf.png)
 
 - `npm` stands for `Node Package Manager`
 
@@ -66,21 +66,21 @@ Now that we have NodeJS installed on our system, we can run Javascript locally a
 
 - `-y` is to pass as a default all values.
 
-![How to run javascript on Visual Studio](https://i.imgur.com/TYoUFhv)
+![How to run javascript on Visual Studio](https://i.imgur.com/TYoUFhv.png)
 
 - If successful, a `package.json` file will be created on your project folder.
 
-![How to run javascript on Visual Studio](https://i.imgur.com/MBA5Wm2)
+![How to run javascript on Visual Studio](https://i.imgur.com/MBA5Wm2.png)
 
 - Right click on the file explorer (where the `package.json` is displayed) and select new file.
 
 - We are naming it `app.js` (js is a Javascript extension).
 
-![How to run javascript on Visual Studio](https://i.imgur.com/G0g9IEF)
+![How to run javascript on Visual Studio](https://i.imgur.com/G0g9IEF.png)
 
 - Now let´s write some Javascript code on our `app.js` file.
 
-![How to run javascript on Visual Studio](https://i.imgur.com/ENyFTGP)
+![How to run javascript on Visual Studio](https://i.imgur.com/ENyFTGP.png)
 
 - Go on, write on the terminal: 
 
@@ -92,7 +92,7 @@ $ node app
 
 And you´ll see on the terminal the `console.log()` message displayed. 
 
-![How to run javascript on Visual Studio](https://i.imgur.com/8bFzbEo)
+![How to run javascript on Visual Studio](https://i.imgur.com/8bFzbEo.png)
 
 Still, I prefer to do it another way, since it allows for a more robust and personalized way to run our `app.js` file.
 
