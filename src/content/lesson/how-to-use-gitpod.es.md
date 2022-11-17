@@ -1,7 +1,7 @@
 ---
-title: "How to use Gitpod"
-subtitle: "Learn the basics of Gitpod and learn why using this cloud editor is the most convenient way to code today"
-cover_local: "../../assets/images/gitpod.jpeg"
+title: "Como utilizar Gitpod"
+subtitle: "Aprende lo essencial para utilizar Gitpod correctamente y porqué este editor de código en la nube es la forma más conveniente de programar hoy en día"
+cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/gitpod.jpeg?raw=true"
 textColor: "white"
 status: "draft"
 date: "2022-01-15T16:36:30+00:00"
@@ -61,7 +61,7 @@ Es una computadora; todas las actualizaciones que le hagas a tu código permanec
 Nosotros altamente recomendamos bajar la [extensión de Gitpod en Chrome](https://www.gitpod.io/docs/browser-extension/). Hará que tu flujo de trabajo sea más fácil y rápido.
 
 Una vez que bajes e instales la extensión, vas a encontar un botón verde llamado "Gitpod" en todos los repositorios de Github.
-![Botón de Gitpod](../../assets/images/github-gitpod.png)
+![Botón de Gitpod](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/github-gitpod.png?raw=true)
 
 Presionando en este botón se abrirán los archivos del repositorio en un nuevo espacio de trabajo y vas a poder comenzar a codificar en VSCode.
 
@@ -71,7 +71,7 @@ Una vez que finalices por el día, puedes abandonar tu computadora. Sin embargo,
 
 Como programador, necesitarás usar el terminal de la computadora algunas veces; siempre puedes encontrar o abrir el terminal, dándole clic al menú tipo hamburguesa en la parte superior izquierda y seleccionando la opción "terminal" => "new terminal" 
 
-![Botón de Gitpod](../../assets/images/terminal.png)
+![Botón de Gitpod](https://storage.googleapis.com/breathecode-asset-images/62a6f61382443c1863a7e20a4b550e2d62216781cff482e3685dfd87f14252a1.png?raw=true)
 
 ### ¿Qué es un terminal o línea de comando? 
 
@@ -79,7 +79,7 @@ Cada computadora tiene un terminal, y lo utilizas para hacer prácticamente todo
 
 Aún no requieres aprender los comandos del terminal, pero [te recomendamos leer esta lección](https://content.breatheco.de/en/lesson/the-command-line-the-terminal), para que te familiarices y conozcas sus funciones y limitantes.
 
-![Comando del terminal](../../assets/images/terminal-command.png)
+![Comando del terminal](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/terminal-command.png?raw=true)
 
 ¡Eso es todo! ¡Es hora de que comiences a usar Gitpod!
 
