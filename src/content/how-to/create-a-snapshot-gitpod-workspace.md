@@ -6,29 +6,29 @@ authors: []
 
 ---
 
-El siguiente artículo describe cómo es el proceso de la entrega de proyectos para que un mentor lo revise en [4Geeks.com](https://4geeks.com/).
+The following article describes what the project submission process looks like for a mentor to review at [4Geeks.com](https://4geeks.com/).
 
 ## Snapshots
 
-Para proceder a la entrega de un proyecto debes enviarnos un snapshot, esto es una función que incluye Gitpod y que nos permitirá revisar tu código una vez lo culmines. Si tienes curiosidad de cómo funciona y por qué fue creado, [acá](https://www.gitpod.io/docs/configure/workspaces/collaboration) te dejamos un link. 
+To proceed with the delivery of a project you must send us a snapshot, this is a function that Gitpod includes and that will allow us to review your code once you finish it. If you are curious about how it works and why it was created, [here](https://www.gitpod.io/docs/configure/workspaces/collaboration) we leave you a link.
 
-### Pasos a seguir
+### Steps to follow
 
-1. Ingresa al workspace (Gitpod) del proyecto que deseas entregar. 
-2. Haz click en el menú (las tres rayitas), al lado de Explorer y se deplegará una opciones.
+1. Enter the workspace (Gitpod) of the project you want to deliver.
+2. Click on the menu (the three lines), next to Explorer and an option will be displayed.
 
 ![gitpod1](https://storage.googleapis.com/breathecode-asset-images/7e130553ca7ae37935149326b300406627326603f12621e25845745cca53b0ba.png)
 
-3. Selecciona la opción: Gitpod: Share Workspace Snapshot 
+3. Select the option: Gitpod. Share Workspace Snapshot.
 
 ![gitpod2](https://i.imgur.com/vouchzg.png)
 
-4. Abajo en la esquina inferior derecha aparecerá un mensaje indicando que se está creando el snapshot 
+4. Down in the lower right corner a message will appear indicating that the snapshot is being created.
 
 ![gitpod3](https://i.imgur.com/ELVK28B.png)
 
-5. Una vez creado te dará la opción de copiar el link.
+5. Once created it will give you the option to copy the link.
 
 ![gitpod4](https://i.imgur.com/ciPSSu9.png)
 
-6. Copia y pega ese link en la entrega del proyecto y envía tu código a revisión de forma exitosa.  
+6. Copy and paste that link into the project submission and successfully submit your code for review.
