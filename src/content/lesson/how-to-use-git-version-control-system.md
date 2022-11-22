@@ -105,7 +105,7 @@ git init
 
 This will create a .git directory in the \[project\] directory.  Make sure that the folder was successfully created (you can run the command `ls -l` to read the directory content in the command line).
 
-## Committing Changes into the Repository
+## Committing Changes into the Repository.
 
 After you have made some changes to the files of the project, you may want to save/submit those changes into the repository.  This is called a "commit."
 
