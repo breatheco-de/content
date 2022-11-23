@@ -49,7 +49,7 @@ In the following example, we divided the website content into 2 different areas.
 
 ## The box-sizing property
 
-This important property is connected to box model and it defines how the height and width of the element are calculated: should include the border, padding and margin or not. 
+This important property is connected to the box model and it defines how the height and width of the element are calculated: should include the border, padding and margin or not. 
 
 + If the value is **content-box**, width and height will only be applied to the content of the element.
 + If the value is **border-box**, width and height apply to all parts of the elements: content, padding and borders. 
