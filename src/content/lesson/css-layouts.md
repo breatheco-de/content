@@ -176,7 +176,7 @@ This pre-work website has a left sidebar, and it's a great option for us because
 ### Top Menu with Left Sidebar
 
 
-This is almost the same, but instead of having the left-sidebar as the primary menu, you will use it for complementary content.  The main menu should be at the top box because is the first thing users see when they land on the website.
+This is almost the same, but instead of having the left-sidebar as the primary menu, you will use it for complementary content.  The main menu should be at the top box because it is the first thing users see when they land on the website.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
