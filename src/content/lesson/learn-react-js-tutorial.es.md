@@ -134,7 +134,7 @@ El componente anterior ahora **renderizará** (se mostrará en la página) una B
     <MyCard />
 ```
 
-Por lo general, llamamos componentes dentro de de la sección return de otro componente:
+Por lo general, llamamos componentes dentro de la sección return de otro componente:
 
 ```jsx 
 import React from 'react';
