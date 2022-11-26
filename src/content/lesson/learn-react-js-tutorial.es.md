@@ -27,7 +27,7 @@ Es bastante código ¿VERDAD?
 <br>
 <br>
 
-## Entonces... ¿que es React?
+## Entonces... ¿Qué es React?
 
 
 React.js se define a sí mismo como una librería de front-end para interfaces de usuario (UIs). Básicamente, React propone una nueva forma de crear sitios web al rediseñar todo el flujo de trabajo de codificación y hacer que los sitios web sean más rápidos.
