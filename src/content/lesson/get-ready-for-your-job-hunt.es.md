@@ -15,5 +15,5 @@ Tener éxito en la búsqueda de trabajo también significa estar equipado con la
 
 Lecturas: 
 
-- [ ] Lee esta [lección de búsqueda de empleo](https://www.notion.so/4geeksacademy/Job-search-006637b5e9384a6599bd96f7cb7c1f3a).  
+- [ ] Lee esta [lección de búsqueda de empleo](https://www.notion.so/4geeksacademy/Job-Search-B-squeda-de-Empleo-132aeee3fdc34553a37f7a580bf712ac).  
 - [ ] Consulta y regístrate en las plataformas recomendadas en la lección.
