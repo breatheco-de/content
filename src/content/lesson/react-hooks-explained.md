@@ -231,7 +231,7 @@ const MyComponent = () => {
 ```
 > :point_up: This useEffect does not have an empty array `[]` as second parameter.
 
-#### 3) When the component will unmount or stop being rendered (like the good old componentWillUnmount function used by class components).
+#### 3) When the component will unmount or stop being rendered (like the good old [componentWillUnmount](https://reactjs.org/docs/react-component.html#unsafe_componentwillmount) function used by class components).
 ```jsx
 const MyComponent = () => {
     useEffect(() =>
