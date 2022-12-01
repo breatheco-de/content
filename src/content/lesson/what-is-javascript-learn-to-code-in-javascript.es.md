@@ -284,7 +284,7 @@ var perro = {
 }
 
 for(items in perro){
-  console.log(dog[items]);
+  console.log(perro[items]);
 }
 ```
 
