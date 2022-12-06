@@ -47,7 +47,7 @@ app.run(host='0.0.0.0')
 [Haz clic para probar este código en vivo.](https://repl.it/@4GeeksAcademy/Flask-Hello-World)
 
 
-## Flask Hello-Wold explicado
+## Flask Hello-World explicado
 
 ```py
 from flask import Flask #aquí importamos la librería Flask en nuestro archivo.
