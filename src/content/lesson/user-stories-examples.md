@@ -66,7 +66,7 @@ Feel free to use slight deviations of this template using synonyms:
 
 ### Tools for Writing User Stories
 
-There are millions of tools; we have Googled some: [click here to access. ](http://lmgtfy.com/?q=free+tools+to+write+user+stories) Some are free, and some cost money, but throughout the years we have decided to do them ourselves using index cards.  If you insist on using something digital, you should use [this document](https://docs.google.com/spreadsheets/d/1Lj6NBXGLgAY-dyCHkVQIJdG6IbqrGRw6p6k3q-jb7tE/edit?usp=sharing) template that we have prepared for you.
+There tons of tools; we have Googled some: [click here to access. ](http://lmgtfy.com/?q=free+tools+to+write+user+stories) Some are free, and some cost money, but throughout the years we have decided to do them ourselves using index cards.  If you insist on using something digital, you should use [this document](https://docs.google.com/spreadsheets/d/1Lj6NBXGLgAY-dyCHkVQIJdG6IbqrGRw6p6k3q-jb7tE/edit?usp=sharing) template that we have prepared for you.
 
 ### Use Index Cards and a Sharpie
 
