@@ -43,7 +43,7 @@ Hay 2 dipos diferentes de tags:
 Una vez definida la  `<tag>`, podemos describir con más detalle su comportamiento asignándole atributos a esas `<tag>`.  Por ejemplo, si queremos que nuestro documento/página HTML tenga un link a otra página, utilizamos la etiqueta `<a>` y le asignamos un atributo llamado **href**, que permite especificar el URL de la otra página a la que queremos hacer el enlace.
 
 ```html
-<a href="google.com">Haz clic aquí para ir a Google.com</a>
+<a href="google.com">Haz clic aquí para ir a google.com</a>
 ```
 
 
