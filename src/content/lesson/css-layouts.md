@@ -16,7 +16,7 @@ CSS Layouts and the positioning of elements are probably one of the most challen
 ![css layout](../../assets/images/dccad91a-93b3-49c9-a437-6612087b9ee4.png)   
 
 #### Layout
-Let’s go back to HTML: How can I create documents with 2 columns?  We know that some scientific documents have several columns, but how can I replicate that in a website?
+Let’s go back to HTML: How can we create documents with 2 columns?  We know that some scientific documents have several columns, but how can we replicate that on a website?
 
 We need to use boxes for it.  A box is a container with a specific width and height.  Boxes are containers that bring order into the HTML/CSS world.  By far, the most used tag for a box is `<div>`.
 
