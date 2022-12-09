@@ -32,7 +32,7 @@ Originalmente, los navegadores solo podían interpretar HTML, las páginas web e
  
 En ese sentido, HTML es un lenguage que utiliza etiquetas (`<tags>`) para representar los elementos que una página web debería de tener. Un tag es simplemente una palabra que comienza con `< >` y termina con `</ >`. Todos los tags se deben de abrir y cerrar, (los tags de cierre siempre preceden al elemento con `/`)
 
-Hay 2 dipos diferentes de tags:
+Hay 2 tipos diferentes de tags:
 
 + Tags con contenido: cuando hay contenido entre ambos tags, debes de cerrarlos con (`</tag>`). Por ejemplo, para marcar un tag de texto como un párrafo, debes empezar con con (`<p>`) y cerrarlo al final con (`</p>`). 
 
