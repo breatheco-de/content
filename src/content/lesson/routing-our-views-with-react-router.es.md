@@ -81,15 +81,15 @@ export const Layout = () => {
 
 Hay 3 componentes que entender aquí:
 
-+ `<BrowserRouter>` : Cada vez que abres una nueva etiqueta de BrowserRouter, básicamente le estás diciendo a React que todo lo que está en el medio debe ser condicionalmente renderizado en base a <Routes> particulares (URL).
-+ `<Routes>` : Funciona de manera similar a la instrucción de cambio en Javascript pero para Rutas... Le dice a React que se mostrará la única `<Route>` que coincide con la URL que se mostrará.
-+ `<Route>` : Es la forma en que React-Router tiene que mapear rutas con componentes, por ejemplo:
++ `<BrowserRouter>` : Cada vez que abres una nueva etiqueta de BrowserRouter, básicamente le estás diciendo a React que todo lo que está en el medio debe ser condicionalmente renderizado en base a `<Routes>` particulares (URLs).
++ `<Routes>` : Funciona de manera similar a la instrucción `switch` en Javascript pero para Rutas... Le dice a React que muestre la única `<Route>` que coincide con la URL mostrada.
++ `<Route>` : Es la forma en que React-Router mapea rutas con componentes, por ejemplo:
 
 ```jsx
 <Route path="/sign-up" element={<Signup />} />
 ```
 
-Esta ruta le dice a React que cuando la URL coincida con "sign-up", debería mostrarse el componente Signup.
+Esta ruta le dice a React que: cuando la URL coincida con "sign-up", debería mostrarse el componente Signup.
 
 ## Las anclas `<a>` ahora son un problema
 
