@@ -29,7 +29,7 @@ h2{
 
 This happens all the time and, at some point it, can be challenging to override previous styles.  You must organize your styles properly and start from the least specific to the most specific.
 
-This "very specific" selectors will help you a lot.  They will be your best weapon when fighting your styles war!
+These "very specific" selectors will help you a lot.  They will be your best weapon when fighting your styles war!
 
 > :tv: &nbsp;[Here is a super cool video (3:40 min) explaining specificity.](https://www.youtube.com/watch?v=In78mSOHmls)
 
