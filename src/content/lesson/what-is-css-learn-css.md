@@ -104,7 +104,7 @@ You could also change the color of a single anchor `<a>`. To do that, you must d
    color: red;
 }
 ```
-The next table shows a list of all possible types of selectors available to use in CSS. Please take your time to review it carefully. Your understanding here is key to continue with CSS, since you need to understand every possible style you can apply to an HTML doc:
+The next table shows a list of all possible types of selectors available to use in CSS. It would be ideal if you take your time to survey it carefully. Your understanding here is key to continue with CSS, since you need to understand every possible style you can apply to an HTML doc:
 
 ### ID Selector
 
