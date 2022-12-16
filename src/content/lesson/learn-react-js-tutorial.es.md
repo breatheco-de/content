@@ -260,7 +260,7 @@ export function EntireWebsiteLayout (){
 
 > :point_up:  Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
 
-Esos componentes que sirven para sostener el layout o diseño de tus páginas web, no se utilizarán para nada más es lo que llamamos "views o vistas", y los típicos componentes que podemos reutilizar muchas veces con diferente input ( como componente button o card) les llamaremos "components o componentes" dentro de las carpetas de nuestra aplicación.
+Aquellos componentes que sirven para sostener el layout o diseño de tus páginas web, y que no se utilizarán para nada más, es a lo que llamamos "views o vistas". Los típicos componentes que podemos reutilizar muchas veces con diferente input ( como componente button o card), les llamaremos "components o componentes" dentro de las carpetas de nuestra aplicación.
 
 **Así es como React renderizará tu layout:**
 
