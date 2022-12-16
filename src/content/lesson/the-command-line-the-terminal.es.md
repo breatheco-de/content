@@ -11,7 +11,7 @@ status: "published"
 
 > :point_up:  Los usuarios de Windows no tienen la misma línea de comando. Por favor ve a [Cloud 9](https://aws.amazon.com/es/cloud9/?origin=c9io) y trabaja desde allí.
 
-## ¿Por qué los Desarrolladores aman la Línea de Comando?
+## ¿Por qué los desarrolladores aman la línea de comando?
 
 
 Al principio, todos odiaban la línea de comando. Tras años de experiencia, se convirtió en un gusto adquirido.
@@ -23,7 +23,7 @@ Pero ¿por qué les gusta a los desarrolladores? Bueno, la lista es infinita, pe
 + Es super poderosa. Puedes hacer mucho más en mucho menos tiempo, por ejemplo: eliminar de forma masiva, cambiar el nombre, buscar un archivo, editar un archivo, etc.
 + Te obliga a usar el teclado. Como no puedes usar el mouse, te hace más rápido. Cometes menos errores y el entorno es exactamente el mismo en todas las computadoras.
 
-## ¿Cómo Funciona?
+## ¿Cómo funciona?
 
 
 La consola es realmente simple: es una pantalla negra que siempre está esperando un * comando *. Después de escribir el comando deseado y de haber presionado la tecla `enter`, la computadora lo ejecuta y muestra algún feedback con el resultado en la pantalla. Una pregunta simple <> Interfaz de respuesta.
@@ -168,7 +168,7 @@ find . -name *.mp3
 #encuentra todos los archivos que contengan la extensión "mp3" dentro del directorio actual y en el de su padre.
 ```
 
-## Consejos y Trucos
+## Consejos y trucos
 
 
 Esto te ayudará a ahorrar tiempo y a cometer menos errores al escribir:
