@@ -10,7 +10,7 @@ canonical: ""
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 ---
 
-¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor lean hasta el final, ¡trataré de no aburrirlos!
+¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro he redactado estas palabras despues de haber enseñado y generado un impacto en tantas vidas. Por favor lean hasta el final, ¡trataré de no aburrirlos!
 
 ## Lo que ya sabes
 
