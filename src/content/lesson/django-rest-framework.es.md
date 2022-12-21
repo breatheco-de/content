@@ -12,9 +12,9 @@ status: "published"
 ### ¿Porqué Django?
 
 
-A estas alturas, como desarrollador, probablemente te hayas dado cuenta de la importancia de las librerías de terceros para ayudarte a tí mismo a través de la programación. El 99.99% de todo lo que estás a punto de codificar ya ha sido construido. Existe una herramienta para todo y, como desarrolladores, nuestro trabajo es seleccionarlas con inteligencia e integrarlas de manera coherente para resolver un problema en particular.
+A estas alturas, como desarrollador, probablemente te hayas dado cuenta de la importancia de las librerías de terceros para ayudarte a ti mismo a través de la programación. El 99.99% de todo lo que estás a punto de codificar ya ha sido construido. Existe una herramienta para todo y, como desarrolladores, nuestro trabajo es seleccionarlas con inteligencia e integrarlas de manera coherente para resolver un problema en particular.
 
-Django es LA HERRAMIENTA para el desarrollo web. No es sólo una librería - son docenas de librerías agrupadas. Es una serie de "mejores prácticas" y formas eficientes de trabajar. Estas son algunas de las características más sorprendentes:
+Django es LA HERRAMIENTA para el desarrollo web. No es solo una librería - son docenas de librerías agrupadas. Es una serie de "mejores prácticas" y formas eficientes de trabajar. Estas son algunas de las características más sorprendentes:
 
 + Viene con un servidor de desarrollo (configuración mínima) que te permite comenzar a codificar de inmediato.
 + Tiene una interfaz de línea de comandos (manage.py) que acelera el proceso de desarrollo.
@@ -68,7 +68,7 @@ Después de ejecutar el comando, se creará una carpeta de proyecto con al menos
 El archivo `manage.py` que está afuera es una herramienta CLI para poder controlar y usar Django desde la línea de comandos. Lo usarás a diario.
 
 
-## Creando la Primera Applicación
+## Creando la Primera Aplicación
 
 
 Ahora que tenemos un gran proyecto (sitio web) es hora de comenzar a agregarle aplicaciones. Para crear tu primera aplicación Django, escribe el siguiente comando:
@@ -123,7 +123,7 @@ Vamos a construir una API basada en REST, pero no tengas miedo del nombre - el e
 
 + La primera parte del código que trata con la Solicitud será el Distribuidor de URL (urls.py). Su objetivo principal es comprender qué APIView correspondiente debe instanciarse en función de la URL que se llamó y, finalmente, llamar al método GET, POST, PUT o DELETE de esa APIView según el tipo de solicitud.
 
-+ Como segundo paso, APIView recibe los parámetros de la URL (si los hay) a través de los parámetros del método y luego ejecuta cualquier lógica codificada para procesar la solicitud o las interacciones del modelo de la base de datos. Por ejemplo: Obteniendo alguna información de la base de datos; guardando o borrando alguna otra información; enviando correos eletrónicos etc.
++ Como segundo paso, APIView recibe los parámetros de la URL (si los hay) a través de los parámetros del método y luego ejecuta cualquier lógica codificada para procesar la solicitud o las interacciones del modelo de la base de datos. Por ejemplo: Obteniendo alguna información de la base de datos; guardando o borrando alguna otra información; enviando correos electrónicos etc.
 
 + El siguiente paso, debe ser decidir qué JSON debe retornarse dentro del "Body" de la Respuesta. Para eso tenemos el "serializer".
 
