@@ -51,7 +51,7 @@ Nobody is! I've been coding for 20 years and I still think I'm no expert, by sho
 
 ### I don't have time
 
-You don't do it all, you can just pick one or two things you might enjoy doing. Even if you are learning privately you have to take notes, finish coding projects, and challenge yourself, why not taking some extra time to publish them? I think it's 100% worth your time.
+You don't need to do it all, you can just pick one or two things you might enjoy doing. Even if you are learning privately you have to take notes, finish coding projects, and challenge yourself, why not taking some extra time to publish them? I think it's 100% worth your time.
 
 I hope I made my case!!
 
