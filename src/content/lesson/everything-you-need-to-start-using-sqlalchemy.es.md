@@ -68,11 +68,10 @@ class Person(Base):
 
     # el metodo serialize convierte el objeto en un diccionario
     def serialize(self):
-        return {
-            "id": self.id,
-            "name": self.name
-        }
-  ```
+        return {"id": self.id,
+                "name": self.name}
+ 
+ ```
 
 ### INSERT: Insertando un registro en la base de datos
 
@@ -100,6 +99,7 @@ all_people = list(map(lambda x: x.serialize(), all_people))
 
 # aquí es cómo se busca a una persona con id = 3 (solo funciona con las primary key)
 person = Person.query.get(3)
+
 ```
 
 ### DELETE: Eliminando un registro de la base de datos.
@@ -110,7 +110,8 @@ Todo lo que tiene que hacer es crear un nuevo objeto Person, agregarlo a la sesi
 person = Person.query.get(3)
 person.delete()
 db.session.commit()
-  ```
+
+```
 
 ### UDPATE: Actualizar un registro.
 
@@ -119,6 +120,7 @@ Para actualizar, primero necesitas devolver/seleccionar el registro de la base d
 person = Person.query.get(3)
 person.name = "Bob"
 db.session.commit()
+
 ```
 
 ## Transacciones
