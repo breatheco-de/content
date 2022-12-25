@@ -126,9 +126,9 @@ if (goingOut){
 
 Otro gran truco para una codificación más rápida es usar ternarios que básicamente nos permiten codificar todo en una sola línea:
 ```js
-const flu = (sientoQueMeAtropelloUnTren && !youWereHitByTrain) ? verdadero : falso;
+const flu = (sientoQueMeAtropelloUnTren && !meAtropelloUnTren) ? verdadero : falso;
 ```
-En este ejemplo, la variable `flu` solo será verdadera si` sientoQueMeAtropelloUnTren == verdadero` y `sientoQueMeAtropelloUnTren == falso` al mismo tiempo. Si esa pregunta no es cierta, entonces flu será falso.
+En este ejemplo, la variable `flu` solo será verdadera si` sientoQueMeAtropelloUnTren == verdadero` y `meAtropelloUnTren == falso` al mismo tiempo. Si esa pregunta no es cierta, entonces flu será falso.
 
 Los ternarios se usan MUCHO en estos días porque te ahorran mucho tiempo.
 
