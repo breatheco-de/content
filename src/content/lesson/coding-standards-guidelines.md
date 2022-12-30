@@ -1,7 +1,7 @@
 ---
 title: "General Coding Standards and Guidelines"
 subtitle: "The project assignments are an important part of our learning method, this lessons will show you what to expect and why the matter so much."
-tags: ["4geeks method"]
+tags: ["4geeks method", "coding standards"]
 
 ---
 
