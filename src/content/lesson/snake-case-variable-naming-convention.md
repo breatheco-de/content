@@ -5,6 +5,10 @@ tags: ["coding guidelines"]
 
 ---
 
+We are not here to defend the case for why using conventions; there is a whole different article about that that you can read here: [Variable Naming Conventions](https://4geeks.com/lesson/variable-naming-conventions) as a part of our [coding standas and guidelines](https://4geeks.com/lesson/coding-standards-guidelines) series of lessons.
+
+The Snake Case or `snake_case` is one of the most used naming conventions because it makes variables really easy to read; you can argue that `snake_case` is more readable to the eyes than `cameCase`.
+
 ## How to use Snake Case?
 
 - Start with a letter
