@@ -108,7 +108,7 @@ Todas las páginas deben empezar con la declaración del  `<DOCTYPE! Html>`, seg
 </html>
 ```
 
-Vamos a simular el pensamiento de un navegador: Imaginemos que una persona en su navegador (lado del cliente) está solicitando visualizar la página web: “breatheco.de”
+Vamos a simular el pensamiento de un navegador: Imaginemos que una persona en su navegador (lado del cliente) está solicitando visualizar la página web: “4Geeks.com”
 
 + El servidor abrirá un archivo HTML por defecto en el servidor. Probablemente sea index.html.
 + Luego, leerá el contenido y lo interpretará como un HTML (porque la extensión del archivo es index.html).
