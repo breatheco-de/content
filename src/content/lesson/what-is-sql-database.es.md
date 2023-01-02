@@ -196,7 +196,7 @@ Nosotros podemos clasificar los problemas de integridad en 4 tipos:
 
 Una transacción es un grupo de una o más operaciones SQL (insertar, eliminar, actualizar, crear, etc.).
 
-Una transacción agrupa varias operaciones en una porque todas dependen unas de otras. Debe tener la garantía de que si una de esas operaciones falla, la base de datos "deshacerá" todo lo que hizo dentro de la misma transacción.
+Una transacción agrupa varias operaciones en una porque todas dependen unas de otras. Debe tener la garantía de que si una de esas operaciones falla, la base de datos deshará todo lo que hizo dentro de la misma transacción.
 
 Por ejemplo, supongamos que un Cliente del Banco está transfiriendo dinero de una cuenta a otra. Esta transacción implica dos operaciones:
 
