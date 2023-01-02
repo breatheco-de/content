@@ -222,11 +222,11 @@ const MyComponent = () => {
 ```jsx
 const MyComponent = () => {
     useEffect(() =>
-        // this will run every time the component re-renders
+        // esto se ejecutará cada vez que el componente se vuelva a renderizar
         if(some_condition){
-            //this will run only if some_condition is true
+            //esto se ejecutará solo si alguna_condición es verdadera
         }
-    );// <------ PLEASE NOTICE THE EMPTY ARRAY IS GONE!
+    );// <------ ¡TEN EN CUENTA QUE EL ARREGLO VACÍO SE HA IDO!
 
     return <Some HTML>;
 }

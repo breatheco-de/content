@@ -42,12 +42,13 @@ Now let's learn how to use them :)
 ## The `useState` hook:
 
 The most important hook, almost unavoidable! The <strong>useState</strong> helps you initialize a variable and change its value over time without the need of parent components. This is how you can use it:
+
 ```jsx
 //       variable name      setter name               initial value (any value)
 const [ mySuperVariable, mySuperFunction ] = useState(          null        );
 ```
 
-Basically mySuperVariable will be initialized with `null`, and then you will be able to re-set its value by calling `mySuperFunction` like this:
+Basically `mySuperVariable` will be initialized with `null`, and then you will be able to re-set its value by calling `mySuperFunction` like this:
 
 ```jsx
 // here we are re-setting the value of mySuperVariable = 'hello' when the user clicks on a button:
@@ -186,7 +187,7 @@ ReactDOM.render(<Modal />, document.getElementById("root"));
 
 ```
 
-| 5. Thousands of other possible applications. | |
+ 5. Thousands of other possible applications. 
 
 Let's explain this hook with a small Modal window example. Here is the live code:
 
