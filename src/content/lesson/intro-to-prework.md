@@ -1,7 +1,7 @@
 ---
 title: "Intro to Pre-Work"
 subtitle: "We know what we are doing, you should know too.  Learn the process we have polished to make you learn 2 years of content in just a few weeks."
-cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png?raw=true"
+cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png?raw=true"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["prework"]
