@@ -47,7 +47,7 @@ const validateLessons = (report) => {
         if(rest.cover && rest.cover.indexOf("../") > -1) throw TestError(l,'The cover attribute can only be used for remote images, if the image is local please use cover_local instead'.red);
         else if(rest.cover_local){
             if(rest.cover_local.indexOf("../") == -1) throw TestError(l,'The cover_local attribute can only be used for local images, if the image is remote please use cover instead'.red);
-            const _p = "../"+rest.cover_local.replace("../../","").substring(0, rest.cover_local.indexOf("?") > -1 && rest.cover_local.indexOf("?"));
+            const _p = "../"+rest.cover_local.substring(0, rest.cover_local.indexOf("?") > -1 && rest.cover_local.indexOf("?")).replace("../../","");
             if(!fs.existsSync(_path.join(__dirname, _p))) throw TestError(l,`This image from cover_local could not be found: ${_p}`.red);
         }
         
