@@ -32,7 +32,7 @@ Durante los años que han pasado hemos identificado razones específicas por la 
 
 ![Síndrome del Impostor](../../assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png)
 
-En algún momento de nuestras vidas (en alguno más que otros) podemos haber pensado que no somos la persona más lista de una sala. Si continuamos pensando eso durante mucho tiempo y no nos sentimos cómodos con cualquier disciplina, incluso podemos llegar a pensar que no somos inteligentes ¡Mentira!¡Nada que ver! Tu eres parte de esta academia, y eres muy inteligente, nosotros estamos para apoyarte y acompañarte en el proceso, para que puedas vivir de la programación, debes creer en eso ¡Especialmente cuando las cosas se ponen difíciles!
+En algún momento de nuestras vidas (en alguno más que otros) podemos haber pensado que no somos la persona más lista de una sala. Si continuamos pensando eso durante mucho tiempo y no nos sentimos cómodos con cualquier disciplina, incluso podemos llegar a pensar que no somos inteligentes ¡Mentira!¡Nada que ver! Tú eres parte de esta academia, y eres muy inteligente, nosotros estamos para apoyarte y acompañarte en el proceso, para que puedas vivir de la programación, debes creer en eso ¡Especialmente cuando las cosas se ponen difíciles!
 
 > Si algún ejercicio o proyecto en particular te parece difícil, en vez de pensar que no sirves para esto, busca nuevas maneras de absorber el contenido. Habla con un mentor y te daremos exactamente lo que necesitas.
 Cualquier persona en general puede aprender a programar, la programación se vuelve más complicada cuando te especializas más en tu carrera (Inteligencia Artificial, Robótica, etc.) Puedes ganar una buena cantidad dinero sin tener que haber estudiado matemáticas, sin ser bueno con los números o sin aprender tan rápido como otros.
@@ -42,7 +42,7 @@ Cualquier persona en general puede aprender a programar, la programación se vue
 
 1. **Evita estar atascado durante mucho tiempo:** Codificar puede complicarse porque puedes estar a punto de resolver el problema y quedarte atascado sin ver la respuesta. Quizás no sepas como empezar a resolver un problema y una conversación de 5 minutos con un mentor te aclarará la mente.
 
-2. **Habla con otros estudiantes:** Puede que pienses que eres el único que no entiende, pero si hablas con otros compañeros verás que no eres sólo tu y te dará confianza para hacer preguntas.
+2. **Habla con otros estudiantes:** Puede que pienses que eres el único que no entiende, pero si hablas con otros compañeros verás que no eres sólo tú y te dará confianza para hacer preguntas.
 
 3. **Habla con los mentores:** Una voz con experiencia siempre es buena, hay egresados y profesores que ya han pasado por momentos difíciles o que están con dificultades ¡en este mismo momento!
 
@@ -54,7 +54,7 @@ Sabemos como enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseñar
 
 ##### 📝 Receta para evitar perder la confianza en nuestros métodos  
 
-1. **¡Sigue el método!** ¿Cómo sabes que no funciona si no lo intentas adecuadamente? ¡Haz las tareas ANTES de ir a clases! Sigue el programa en el orden recomendado, haz los pequeños ejercicios antes de saltar a los proyectos, asiste a cada clase, no leas libros que te retrasarán. etc.
+1. **¡Sigue el método!** ¿Cómo sabes que no funciona si no lo intentas adecuadamente? ¡Haz las tareas ANTES de ir a clases! Sigue el programa en el orden recomendado, haz los pequeños ejercicios antes de saltar a los proyectos, asiste a cada clase, no leas libros que te retrasarán, etc.
 
 2. **Pregunta ¿Para qué?** Podemos enseñarte y decir mucho, pero necesitamos que hagas preguntas cuando empieces a dudar de nuestros métodos. Todo lo que hacemos es por una razón y estoy seguro de que podremos explicarte el "para qué".
 
@@ -64,7 +64,7 @@ Sabemos como enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseñar
 
 Este es un campo de entrenamiento, no importa si lo haces full-time o part-time, debes tener una mentalidad de entrenamiento y trabajar cada día como si fuera el último. El cerebro humano absorbe 80% más cuando se siente desafiado y asustado, si descansas un día el cerebro se relaja y [está demostrado](https://www.youtube.com/watch?v=h5PLO4XAXhs) que usualmente se olvida del 60% de la información recientemente adquirida a menos que la uses, de forma repetida y constante durante un periodo de 7 días (por lo menos).
 
-Estos números no son pequeños, 60% en un día y 90% si no prácticas en una semana ¡Estás perdiendo tu tiempo y dinero si no te lo tomas en serio!
+Estos números no son pequeños, 60% en un día y 90% si no practicas en una semana ¡Estás perdiendo tu tiempo y dinero si no te lo tomas en serio!
 
 ##### 📝 Receta para evitar la inactividad
 
