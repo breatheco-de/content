@@ -29,6 +29,18 @@ Poor code readability can lead to a number of problems that can cost a company m
 
 In this lesson, we will go over a few tips you can follow to improve readability in your code. 
 
+### Choose variable names wisely
+
+Were do I start? This is one of the most difficult tasks in coding. 
+
+- Choose descriptive and meaningful names.
+- Limit the use of most abbreviations or acronyms.
+- Use [variable naming conventions](/lesson/variable-naming-conventions) like camelCase or snake_case.
+- Avoid using single-letter names
+- Keep names short, but not too short: concise, but still descriptive.
+
+![good vs bad variable names](https://storage.googleapis.com/media-breathecode/54d66f16a9ce92ebbc05807f763dc5975d51280817415c98f02ab893ffa3eb05)
+
 ### Split your code in smaller functions
 
 Instead of nesting blocks of code, consider refactoring the code into smaller functions and calling those functions at the appropriate times. This can reduce the overall depth of nesting in your code.
