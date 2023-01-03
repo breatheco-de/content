@@ -137,14 +137,14 @@ Los ternarios se usan MUCHO en estos días porque te ahorran mucho tiempo.
 Otro gran uso de las condiciones es generar HTML basado en ciertas condiciones, por ejemplo, digamos que tenemos un bootstrap Alert que estamos a punto de presentar en el sitio web:
 
 ```js
-let alertHTMLCode = "<div>Cuidado! Tu no puedes manejar</div>";
+let alertHTMLCode = "<div>Cuidado! Tú no puedes manejar</div>";
 ```
 
 Si queremos que esta alerta se muestre solo si el usuario es menor de 16 años, podríamos hacer algo como:
 
 ```js
 let age = 14;
-let alertHTMLCode = (age < 16) ? "<div>Cuidado! Tu no puedes manejar</div>" : "";
+let alertHTMLCode = (age < 16) ? "<div>Cuidado! Tú no puedes manejar</div>" : "";
 ```
 
 Ahora nuestra variable `alertHTMLCode` estará vacía si la edad del usuario es mayor de 16 años, si es menor, contendrá todo el HTML.
