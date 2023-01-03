@@ -7,7 +7,7 @@ tags: ["coding guidelines"]
 
 Did you know that in 1999, NASA's Mars Climate Orbiter was destroyed due to a software bug caused by low code readability costing $320 million?
 
-Having readable code is probably the #1 priority for companies these days; It's so remarkable that, without knowing, when you improve readability, you are also applying almost every other metric about best practices in the market.
+Having readable code is probably one of the top priority for companies these days; It's so remarkable that, without knowing, when you improve readability, you are also applying almost every other metric about [coding standards and guidelines](/lessons/technology/coding-standard-guidelines) in the industry.
 
 > 🤯 "Any fool can write code that a computer can understand. Good programmers write code that humans can understand." - Martin Fowler 
 
