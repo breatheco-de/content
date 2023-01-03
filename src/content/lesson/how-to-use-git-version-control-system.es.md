@@ -72,7 +72,7 @@ Al principio, un proyecto siempre tiene un commit object sin padre. Este es el p
 ## Un Head es una Lista de Commits.
 
 
-Los heads de un repositorio son como el "historial de revisión de un proyecto." Un historial de revisión es una lista de commit objects que contienen todos los cambios que tú y los demás miembros de su equipo han realizado en los archivos del proyecto.
+Los heads de un repositorio son como el "historial de revisión de un proyecto." Un historial de revisión es una lista de commit objects que contienen todos los cambios que tú y los demás miembros de tu equipo han realizado en los archivos del proyecto.
 
 Cada vez que hagas un nuevo commit, el head se moverá a ese nuevo commit. De esta manera tú puedes tener acceso a todo el historial de commits del proyecto.
 
