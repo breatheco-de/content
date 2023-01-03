@@ -5,14 +5,33 @@ tags: ["4geeks method", "coding standards"]
 
 ---
 
-Limited use of globals:
+## Global variables
 These rules tell about which types of data that can be declared global and the data that can’t be.
 
-Naming conventions for local variables, global variables, constants and functions:
+## Variable Names
 Some of the naming conventions are given below:
+
 - Meaningful and understandable variables name helps anyone to understand the reason of using it.
-- General variables should be named in camelCase for [Javascript, Node, Java, Ruby, etc.](https://en.wikipedia.org/wiki/Snake_case), in `snake_case` for python
-- Constant variables are named in CAPIAL LETTERS.
+- General variables should be named in camelCase for [Javascript, Node, Java, Ruby, etc.](https://en.wikipedia.org/wiki/Snake_case), in `snake_case` for python, etc. Here you can you can read more about [variable naming conventions](/lesson/variable-naming-conventions).
+- Constant variables are named in CAPITAL LETTERS.
 - It is better to avoid the use of digits in variable names.
 - The names of the function should be written in camel case starting with small letters.
 - The name of the function must describe the reason of using the function clearly and briefly.
+
+## Indentation
+
+## Errors an exceptions
+
+## Readability
+
+### Avoid nesting
+
+When possible avoid using nested functions like:
+
+```js
+if (isOldEnough){
+    if (hasGreatScore){
+        if ($stuff = get_some_stuff()){
+            if (fwrite($fp, $stuff)){
+```
+
