@@ -71,7 +71,7 @@ Other cases to avoid long lines of code:
 - Don't write nested code, it may seem clever at the moment, but it makes code hard to read and debug.
 - Use list comprehensions sparingly.
 
-## Low redability can get you fired
+## Low readability can get you fired
 
 Software developers are expected to produce high-quality code that is reliable, maintainable, and free of errors or bugs.
 
