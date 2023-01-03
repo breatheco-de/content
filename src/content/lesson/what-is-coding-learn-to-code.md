@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-Algorithms are amazing.  They can serve several purposes, but, as web developers, we will use our algorithms to build HTML code and tell our programs how to react to the user interactions.
+Algorithms are amazing.  They can serve several purposes, but, as web developers, we will use our algorithms to build HTML code and tell our programs how to react to the users interactions.
 
 ### You code runs line by line…
 
