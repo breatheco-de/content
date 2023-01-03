@@ -75,7 +75,7 @@ Los espacios vacíos (o en blanco) y los saltos de línea son omitidos por el na
 <tag>Hello</tag><tag>World</tag>
 ```
 
-Los saltos de linea son ignorados:
+Los saltos de línea son ignorados:
 
 ```html
 <tag>Hello</tag>
