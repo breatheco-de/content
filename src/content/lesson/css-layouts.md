@@ -37,6 +37,7 @@ All box containers can have the following attributes:
 |Background color   |In addition to the background image, you can also have a background color behind both the content and the background image.   |
 |Margin   |Optional space that can be added between this particular box and other elements around.   |
 
+
 ![css layout](../../assets/images/153d2a7c-b648-4d75-920b-940102f18eaa.gif) 
 
 In the following example, we divided the website content into 2 different areas. The left side will be a sidebar and the right side will have the main content of the website.
