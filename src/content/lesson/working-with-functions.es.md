@@ -21,7 +21,7 @@ function multiply(a, b) {
 }
 ```
 
-+ **Cada función debe tener un propósito.** (un objetivo) (como nuestra función "multiplicar"). El propósito de la función es calcular la multiplicación entre dos números dados.
++ **Cada función debe tener un propósito** (un objetivo) (como nuestra función "multiplicar"). El propósito de la función es calcular la multiplicación entre dos números dados.
 + **Debe tener un nombre único.**  En este caso particular, nuestra función se llama "multiplicar", que es un gran nombre porque sabes exactamente de qué se tratan las funciones, es explícito.
 + **Debe devolver algo.**  De forma predeterminada, en javascript, todas las funciones devuelven "undefined", pero debes reemplazarlo y siempre devolver algo útil. En este ejemplo, queremos devolver el resultado de una multiplicación de a & b.
 + **Las funciones pueden tener parámetros.**  Un "parámetro" es una variable que la función puede recibir al principio de su código (como a y b en nuestro ejemplo).
@@ -65,7 +65,7 @@ function multiply(a, b) {
 //esta parte del código está FUERA de la función 'multiply'
 ```
 
-Cualquier variable que declare dentro de la función no estará disponible fuera de ella.
+Cualquier variable que se declare dentro de la función, no estará disponible fuera de ella.
 
 ```javascript
 function multiply(a, b) {
