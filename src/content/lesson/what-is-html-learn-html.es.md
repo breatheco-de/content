@@ -30,7 +30,7 @@ Originalmente, los navegadores solo podían interpretar HTML, las páginas web e
 
 ¿Recuerdas que Internet trabaja solo con texto?
  
-En ese sentido, HTML es un lenguage que utiliza etiquetas (`<tags>`) para representar los elementos que una página web debería de tener. Un tag es simplemente una palabra que comienza con `< >` y termina con `</ >`. Todos los tags se deben de abrir y cerrar, (los tags de cierre siempre preceden al elemento con `/`)
+En ese sentido, HTML es un lenguaje que utiliza etiquetas (`<tags>`) para representar los elementos que una página web debería de tener. Un tag es simplemente una palabra que comienza con `< >` y termina con `</ >`. Todos los tags se deben de abrir y cerrar, (los tags de cierre siempre preceden al elemento con `/`)
 
 Hay 2 tipos diferentes de tags:
 
