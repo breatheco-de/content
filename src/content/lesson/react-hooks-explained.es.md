@@ -43,8 +43,8 @@ Ahora aprendamos a utilizarlos :)
 El hook más importante, ¡casi inevitable! El <strong>useState</strong> te ayuda a inicializar una variable y cambiar su valor con el tiempo sin recurrir a los componentes padres.
 
 ```jsx
-//      Nombre de variable      nombre del colocador           valor inicial (cualquier valor)
-const [ mySuperVariable, mySuperFunction ] = useState(          null        );
+//    Nombre de variable    nombre del setter           valor inicial (cualquier valor)
+const [ mySuperVariable, setMySuperFunction ] = useState(          null        );
 ```
 
 Básicamente, `mySuperVariable` se inicializa con `null` y luego tu podrás restablecer su valor llamando a `mySuperFunction` de esta forma:
