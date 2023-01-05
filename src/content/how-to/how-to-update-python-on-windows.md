@@ -7,7 +7,7 @@ status: "draft"
 
 ---
 
-![How to update Python on Windows](https://i.imgur.com/YkEZaRM.jpeg)
+![How to update Python on Windows](https://storage.googleapis.com/breathecode-asset-images/e64f0678f4427ebe61277aa4fa0f5900b43b95a4ff91aef59e74cf0fd92cdabe.jpeg)
 
 Ever wonder how to update Python on Windows, follow this simple step-by-step guide and you´ll have the latest version in no time.
 
@@ -25,13 +25,13 @@ Ever wonder how to update Python on Windows, follow this simple step-by-step gui
 
 - A new page will open and display all the information regarding the latest realease (at the time of writing this article, latest version is 3.11.1) and scroll down until you find the following table
 
-![How to update Python on Windows](https://i.imgur.com/95svxsj.jpg)
+![How to update Python on Windows](https://storage.googleapis.com/breathecode-asset-images/ce14a7241f38b8592dc1ad69486dd5bcc96594cd7f5c011519630b813ca2959f.jpg)
 
 - Select the Windows Isntaller (64-bit) option to start download and once finished, execute the installer.
 
 - The installer will detect, if you have already a Python version installed and prompt if you wish t update the current version to the one provided by the installer. Select `update` and gives permissions to the installer when asked to. 
 
-![How to update Python on Windows](https://i.imgur.com/YkEZaRM.jpeg)
+![How to update Python on Windows](https://storage.googleapis.com/breathecode-asset-images/e64f0678f4427ebe61277aa4fa0f5900b43b95a4ff91aef59e74cf0fd92cdabe.jpeg)
 
 
 Hope you enjoyed the reading and keep on the Geeks side!
