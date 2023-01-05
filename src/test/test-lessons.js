@@ -57,7 +57,7 @@ const validateLessons = (report) => {
         if(!moment(date).isValid()) throw TestError(`Invalid lesson date: ${date}`.red);
 
         if(status=='published' || !status){
-        if(!subtitle || subtitle == '' || subtitle.length < 50 || subtitle.length > 340) throw TestError(l,`The lesson must have a subtitle within 50 and 340 characters, ${subtitle.length} found`.red);
+        if(!subtitle || subtitle == '' || subtitle.length < 50 || subtitle.length > 340) throw TestError(l,`The lesson must have a subtitle within 50 and 340 characters, ${subtitle?.length} found`.red);
         }
         if(slug && slugs.includes(slug)) throw TestError(l,`Duplicated lesson slug: ${slug} in two or more lessons in: ${path}`.red);
         slugs.push(slug);
