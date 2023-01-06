@@ -9,6 +9,12 @@ tags: ["4geeks method", "coding standards"]
 
 Studies have shown that developers who use best practices when coding are up to 40% more productive than those who do not, and that code with good practices is up to 50% cheaper to maintain than code with poor practices. 
 
+Also, companies and governments lose a lot of money every day because developers don't follow the best practices and guidelines, here are some examples you can read more about:
+
+- NASA's Mars Climate Orbiter was lost because the team was not using a consistent metric system in the codebase; which lead to a confusion in the calculations, losing $320 million.
+- The Ariane 5 rocket explosion by ESA was caused by bad code very difficult to read, $370 million lost.
+- The US stock market Flash Crash in 2010, undisclosed significant financial losses.
+
 This lesson is a compilation of best practices that we promote at 4Geeks, it has been created and grown with contributions from all the community mentors and 
 
 ## Global variables
