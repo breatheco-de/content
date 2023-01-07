@@ -157,7 +157,7 @@ The most frequent tags used inside the `<body>` of an HTML document are:
 |List   |UL, OL   |Lists are of huge importance in a document and they are widely used.  With HTML we have two main tags to list content items:<br><br> <li>OL (ordered list): List with numbers (numbers at the beginning of the item)</li><br><li>UL (unordered list): List without numbers (bullets before items).<br><br>`<ol>`<br>`<li>Element 1</li>`<br>`<li>Element 2</li>`<br>`</ol>`   |
 |Image  |img   |It allows us to add images to the document (they could be in PNG, JPEG, GIF and SVG formats, basically) .<br>`<img src="url of the image"/>`
 |Link (Anchor)   |a   |Sometimes we want to connect one or more pages with another one, or send the user to a new page, or even send the user to another section within the same page (just as with the Menu of this course).  That’s what the anchor tag is made for.<br>`<a href="url to resend">this is a heading</a>`   |
-|Bold   |strong o b   |To highlight content using bold text.<br>`<strong>this is a heading</strong>`   |
+|Bold   |strong   |To highlight content using bold text.<br>`<strong>this is a heading</strong>`   |
 |Italics   |i   |To have the text in italics.<br>`<i>this is a heading</i>`   |
 |Line jump   |br   |To jump or skip the text to the next line (similar to a `shift+enter` in MS Word.)<br>`<br></br>`   |
 |Tables   |table   |Tables were designed to present data in a more read-friendly and neatly way.  It has headers (th), rows (tr) and columns (td).<br><br>`<table>`<br>`<tr><th>Column 1</th><th>Column 2</th></tr>`<br>`<tr><td>Data 1</td><td>Data A</td></tr>`<br>`<tr><td>Data 2</td><td>Data B</td></tr><br>`<br>`<tr><td>Data 3</td><td>Data C</td></tr>`<br>`</table>`   |
