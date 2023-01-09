@@ -14,7 +14,7 @@ status: "published"
 
 Because arrays are awesome!  You need them!  And we need to focus a lot on them in order to prepare you for real life 🙂
 
-Mastering the use of arrays and loops is one of the 5 fundamental skills of building algoritms:
+Mastering the use of arrays and loops is one of the 5 fundamental skills of building algorithms:
 
 1. Variables.
 2. Conditionals.

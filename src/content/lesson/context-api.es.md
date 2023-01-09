@@ -99,7 +99,7 @@ export const ContextWrapper = (props) => {
 
 - **Paso 3 (Vistas)**: Ahora podemos contener al componente principal dentro del `ContextWrapper` para que todos sus componentes hijos tengan accceso al `Context.Consumer`. En este breve ejemplo usaremos el componente `<TodoList />` como componente principal (la declaración está en el último paso).
 
-``js
+```js
 // Step 3: Ubica tu comoponente principal dentro del contenedor ContextWrapper,
 
 import React from 'react';
@@ -114,7 +114,7 @@ const MyView = () => (
 
 ReactDOM.render(<MyView />, document.querySelector("#app"));
 
-``
+```
 - **Paso 4**: Ahora podemos crear el componente ```TodoList``` sabiendo que podemos usar el ```Context.Consumer``` para leer el store desde el **global state** (no se necesitan props). En este caso el componente renderizará los to-dos y también podrá añadir nuevas tareas a lista.
 
 ```js

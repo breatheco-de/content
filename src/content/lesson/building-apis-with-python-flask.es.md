@@ -32,7 +32,7 @@ Echa un vistazo a las URL, ellas siguen un patrón. Después de un tiempo, los e
 
 ¡Flask es increíble! Es muy similar al Servidor Express Node.js y eso lo hace aún más genial porque podrás trabajar con ambas tecnologías sin mucha curva de aprendizaje.
 
-Flask es una librería para crear un servidor web y APIs. Básicamente, cuando ejecutas un script de Python que contiene las siguientes líneas, el computar comenzará a escuchar las solicitudes HTTP:
+Flask es una librería para crear un servidor web y APIs. Básicamente, cuando ejecutas un script de Python que contiene las siguientes líneas, el computador comenzará a escuchar las solicitudes HTTP:
 
 ```py
 from flask import Flask
@@ -47,7 +47,7 @@ app.run(host='0.0.0.0')
 [Haz clic para probar este código en vivo.](https://repl.it/@4GeeksAcademy/Flask-Hello-World)
 
 
-## Flask Hello-Wold explicado
+## Flask Hello-World explicado
 
 ```py
 from flask import Flask #aquí importamos la librería Flask en nuestro archivo.
@@ -144,7 +144,7 @@ def create_person():
         if body is None:
             return "The request body is null", 400
         if 'first_name' not in body:
-            return 'Especificar first_name',400
+            return 'Especificar first_name', 400
         if 'email' not in body:
             return 'Especificar last_name', 400
 

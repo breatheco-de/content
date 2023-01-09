@@ -8,8 +8,6 @@ status: "published"
 
 ---
 
-# Convert List to String in Python
-
 Let's see a simple way to convert a list to a string in Python using the `.join()` method as follows:
 
 ```py

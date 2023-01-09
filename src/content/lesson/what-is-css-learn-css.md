@@ -11,13 +11,9 @@ status: "published"
 
 ## Welcome to CSS!!
 
-We are sure that after diving deep into HTML, everything looks kind of ugly, fixed, and rigid. We have to remember that HTML was created by CERN scientists, and they’re not – usually – the funniest kind of people (although they are the same exact scientists that 
-[discovered The Higgs Boson](https://www.youtube.com/watch?v=0CugLD9HF94), and we do have to bow to our knees for that).  However, HTML is still ugly, and it’s ugly because it was created for a different purpose than the one HTML meets today.
+We are sure that after diving deep into HTML, everything looks kind of ugly, fixed, and rigid. We have to remember that HTML was created by CERN scientists, and they’re not – usually – the funniest kind of people (although they are the same exact scientists that [discovered The Higgs Boson](https://www.youtube.com/watch?v=0CugLD9HF94); and we do have to bow to our knees for that). However, HTML is still ugly, and it’s ugly because it was created for a different purpose than the one HTML meets today.
 
 ![what is css](../../assets/images/6891485c-2a5a-4722-a7dc-f108993c18ba.jpeg)
-
-
-
 
 But… The Internet is more beautiful than that. When the internet became popular, it stopped to be only a privilege for scientists and the army, and evolved to become **Part of our world!!**
 
@@ -25,26 +21,21 @@ Ironically, the same scientists at CERN who created HTML had to think about how 
 
 ## So, What is CSS and why does it matter??
 
-
 ![what is css](../../assets/images/8c9fea86-c56c-486f-8b64-4322338076f7.jpeg)
 
-The main objective for his creation was to apply styles to HTML documents. The idea is to let you tell the browser how to display an HTML document: how to render its tags; in what color; margins; typography; icons; borders; etc. You can even redefine the original behaviors of the existing tags at your will. Eg:
+The main objective for his creation was to apply styles to HTML documents. The idea is to let you tell the browser how to display an HTML document: how to render its tags, in what color, margins, typography, icons, borders, etc. You can even redefine the original behaviors of the existing tags at your will. Eg:
 
 ```html
-You could tell a <h1> to look just like a <h2> without the user 
-realizing that, at first glance, they are different.
+You could tell a <h1> to look just like a <h2> without the user realizing that, at first glance, they are different.
 ```
 
 > :point_up:To understand the potential of CSS, [click here to see a live demo!](http://assets.breatheco.de/live-demos/css/bootstrap/)
 
-Can you imagine the potential?  You can make almost everything look different!
-
-
+Can you imagine the potential? You can make almost everything look different!
 
 ## How do I apply styles to HTML?
 
-
-Quite simple: You have to write your styles in a special syntax called "CSS" and save it on documents with the extension CSS.  Then, you apply the styles to the document using the `<link>` or the `<style>` tag.
+Quite simple, you have to write your styles in a special syntax called "CSS" and save it on documents with the extension CSS.  Then, you apply the styles to the document using the `<link>` or the `<style>` tag.
 
 Let’s review those 2 tags in more detail:
 
@@ -53,10 +44,9 @@ Let’s review those 2 tags in more detail:
 |Link       |link          |The purpose is to link the page with CSS stylesheets.  To use it, you must specify three attributes within the tag: `rel="stylesheet" type="text/css"` and finally `href="with document route css"`<br>like so: `<link rel="stylesheet" type="text/css" href="theme.css">`   |
 |Style   |style   |If we do not want or can’t import a CSS style sheet, we have the alternative to define styles in the HEAD of the HTML document.  We simply define the style tag and proceed to write the styles we want for the tags.<br>`<style>`<br>`h1 { color:red; }`<br>`p { color:blue; }`<br>`</style>` |
 
-> :point_up:Just like it happens with HTML docs (ending with .html) CSS docs (style sheets) end with extension `.css`.
+> :point_up: Just like it happens with HTML docs (ending with .html) CSS docs (style sheets) end with extension `.css`.
 
 ## CSS Syntax
-
 
 The CSS syntax is nothing similar to HTML syntax, it is its own specific programming language.  CSS does not use tags! To work with a website you have to shift your mindset several times because you will be working with several languages at the same time, and each one has its own syntax.
 
@@ -86,8 +76,8 @@ tag-selector
    font-size: 15px;
 }
 ```
-## Wait… What is a "Selector"??
 
+## Wait… What is a "Selector"??
 
 A selector is a way to refer or identify one or more HTML elements. For example, if you want to change the color of your website to red, you must do it as it follows:
 
@@ -104,7 +94,7 @@ You could also change the color of a single anchor `<a>`. To do that, you must d
    color: red;
 }
 ```
-The next table shows a list of all possible types of selectors available to use in CSS. Please take your time to review it carefully. Your understanding here is key to continue with CSS, since you need to understand every possible style you can apply to an HTML doc:
+The next tables show a list of all possible types of selectors available to use in CSS. Please take your time to review them carefully. Your understanding here is key to continue with CSS, since you need to understand every possible style you can apply to an HTML doc:
 
 ### ID Selector
 
@@ -117,7 +107,6 @@ Let’s assign "first" as the ID of the first cell in the next table, and then w
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/1b78wna2/8/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/1b78wna2/8/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
-
 
 ### Class selector
 
@@ -143,7 +132,7 @@ Next, we are adding color (green) to the  background of each `td` (cells) of the
 
 |**Selector**   |**Description**   |**Examples**  |
 |:--------------|:-----------------|:-------------|
-|selector1,selector2   |If you separate multiple selectors with a comma`,`, you can assign multiple selectors at the same time to save text. In the following example, we tell every `h1, .odd{ color: #BDBDBD; }` class elements to turn red.   |`h1, .odd{ color: #BDBDBD; }`   |
+|selector1,selector2   |If you separate multiple selectors with a comma`,` you can assign multiple selectors at the same time to save text. In the following example we give tenths to all **h1** and **.odd** class elements, that we want their text to be red.   |`h1, .odd{ color: #BDBDBD; }`   |
 
 ### Advanced Selectors
 
@@ -153,17 +142,15 @@ There are other specific and advanced selectors. You are probably going to use t
 
 ## Conflicts and correspondence
 
-
 What happens if an element of the page is selected in two different selectors and has the green font color assigned to one definition and red in the other? In other words, if we have told the browser to find two different colors, what color will it end up getting?
 
 ![learn css](../../assets/images/08e78606-102f-4bc2-a066-7c26ae9400d5.png)
 
-You have to have a very good understanding of the CSS hierarchy in order to understand how the elements **correspond, overwrite and even null styles between them.**
+You must have a very good understanding of the CSS hierarchy in order to understand how the elements **correspond, overwrite and even null styles between them.**
 
 The browser gives priority to more specific selectors like `#id` than the more general selectors like tags. In the following example, we changed the color of all the `<li>` (the items in the list) to blue, but then we changed the text of the second element to red. In this way we demonstrate that the ID selector will always prevail over selecting all the elements with the same tag.
 
 ## Properties
-
 
 We have already seen that a CSS style sheet is nothing more than a list that defines the properties that we want to assign to different elements of the page. Now we have to learn what properties we can assign to these elements.
 
@@ -217,8 +204,9 @@ There are hundreds – even thousands – of CSS properties, but depending on th
 |[background-size(3)](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-size)   |background image size   |auto \| [ distance \| percentage ] {2} \| contain \| cover   |
 
 
+> 💡 Suggestion: 
 
- [Follow this link to see a detailed list of CSS properties from W3Schools](https://www.w3schools.com/cssref)
+ + [Follow this link to see a detailed list of CSS properties from W3Schools](https://www.w3schools.com/cssref)
 
 
 

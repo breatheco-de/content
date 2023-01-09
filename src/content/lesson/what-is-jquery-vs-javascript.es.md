@@ -27,7 +27,7 @@ Cuando jQuery era lo nuevo (hace 10 años), a la gente le encantaba. Hizo mucho 
 
 Luego vino La Época de los Smartphone. Esto fue desastre para jQuery. Gracias a las CPU más lentas e inferiores con menos memoria y, a menudo, con menos ancho de banda, los teléfonos inteligentes simplemente no funcionaron para cargar adecuadamente jQuery - especialmente si sólo usaba el 10%.
 
-Hoy, los navegadores han acordado algunas de las cosas que jQuery El Negociador lees había estado ayudando desde el principio. Así que activa y rápidamente recortaron la grasa.
+Hoy, los navegadores han acordado algunas de las cosas que jQuery El Negociador les había estado ayudando desde el principio. Así que activa y rápidamente recortaron la grasa.
 
 ¿Todavía necesitamos jQuery? Tal vez no. El uso de su libbrerí está claramente disminuyendo, pero aún duplica a cualquiera de sus parientes (Angular, React, etc.), ¡y Bootstrap todavía lo usa mucho!
 

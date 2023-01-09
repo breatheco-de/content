@@ -211,13 +211,3 @@ You can apply styles to elements based on their position.
 
 
 > :link: Great reading about CSS Selectors: [The 30 CSS selectors you must memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
-
-
-
-
-
-
-
-
-
-
