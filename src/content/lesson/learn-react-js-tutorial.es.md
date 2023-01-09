@@ -27,12 +27,12 @@ Es bastante código ¿VERDAD?
 <br>
 <br>
 
-## Entonces... ¿que es React?
+## Entonces... ¿Qué es React?
 
 
 React.js se define a sí mismo como una librería de front-end para interfaces de usuario (UIs). Básicamente, React propone una nueva forma de crear sitios web al rediseñar todo el flujo de trabajo de codificación y hacer que los sitios web sean más rápidos.
 
-#### No Más DOM
+#### No más DOM
 
 A partir de ahora, React.js se hará cargo del DOM, tu trabajo es crear el suyo propio y definir cómo deben mostrarse o representarse.
 
@@ -134,7 +134,7 @@ El componente anterior ahora **renderizará** (se mostrará en la página) una B
     <MyCard />
 ```
 
-Por lo general, llamamos componentes dentro de de la sección return de otro componente:
+Por lo general, llamamos componentes dentro de la sección return de otro componente:
 
 ```jsx 
 import React from 'react';
@@ -329,4 +329,4 @@ Cada componente funciona como una mini aplicación. Puedes controlar y definir e
 
 > 🔗 [Aquí encontrarás](https://reactjs.org/docs/react-component.html#the-component-lifecycle) una explicación más detallada de cada método de ciclo de vida disponible.
 
-> 📺 [Y aqui tienes un diagrama interactivo que lo explica](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+> 📺 [Y aquí tienes un diagrama interactivo que lo explica](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)

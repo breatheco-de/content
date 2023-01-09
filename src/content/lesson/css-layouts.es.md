@@ -57,7 +57,7 @@ Esta importante propiedad está relacionada con el modelo de cajas y define la m
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/zvL6aet3/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="https://jsfiddle.net/BreatheCode/zvL6aet3/">Hax clic aquí para abrir el demo en una nueva ventana página</a></small></div>
+<div align="right"><small><a href="https://jsfiddle.net/BreatheCode/zvL6aet3/">Haz clic aquí para abrir el demo en una nueva ventana página</a></small></div>
 
 # Ancho y Altura de las Cajas
 
@@ -90,7 +90,7 @@ Es común encontrar este atributo en los menús de navegación, para los activit
 
 <iframe src="https://www.youtube.com/embed/pgCLHD4FNjg" frameborder="0" allowfullscreen></iframe>
 
-<div align="right"><small><a href="https://www.youtube.com/embed/pgCLHD4FNjg">Haz click aqui para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="https://www.youtube.com/embed/pgCLHD4FNjg">Haz click aquí para abrir demo en una nueva ventana</a></small></div>
 
 
 |**Nombre**   |**Descripción**   |
@@ -101,7 +101,7 @@ Es común encontrar este atributo en los menús de navegación, para los activit
 |Flex    |Presentada hace poco años atrás, viene a arreglar los mayores problemas con display. Flex se utiliza para que las cajas sean flexibles. Cuando aplicas `display:flex` a un div, todos sus hijos podrán compartir una misma fila. |
 |None    |Hace que el elemento se oculte (sea invisible) y no ocupe ningún espacio dentro del documento.   |
 
-Para entender display a cabalidad lo mejor es… ¡que nos pongamos a practicar!.
+Para entender display a cabalidad lo mejor es… ¡Que nos pongamos a practicar!.
 
 ## Atributo: Float
 
@@ -111,7 +111,7 @@ Float es muy utilizado en blogs cuando quieres agregar imágenes a tus artículo
 
 <iframe src="https://www.youtube.com/embed/htdLSAZ2ZH8" frameborder="0" allowfullscreen ></iframe>
 
-<div align="right"><small><a href="https://www.youtube.com/embed/htdLSAZ2ZH8">Haz click aqui para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="https://www.youtube.com/embed/htdLSAZ2ZH8">Haz click aquí para abrir demo en una nueva ventana</a></small></div>
 
 |**Nombre**   |**Descripción**   |
 |:----------|:-----------------|
@@ -147,7 +147,7 @@ Este es el código exacto que se necesita para que el contenido del sitio web es
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/">Click aqui para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/">Click aquí para abrir demo en una nueva ventana</a></small></div>
 
 ### Left Sidebar fija.
 
@@ -157,7 +157,7 @@ De hecho, en este pre-work la barra está a la izquierda.  Es la mejor opción p
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/">Click aqui para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/">Click aquí para abrir demo en una nueva ventana</a></small></div>
 
 ### Menú superior con barra lateral izquierda
 
@@ -165,7 +165,7 @@ Es casi lo mismo, pero en vez de tener barras laterales a la izquierda como el m
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/">Click aqui para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/">Click aquí para abrir demo en una nueva ventana</a></small></div>
 
 ### Responsive Masonry
 
@@ -175,7 +175,7 @@ Otra genialidad sobre Masonry es que cada caja puede tener su propia altura, cos
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/">Click aqui para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/">Click aquí para abrir demo en una nueva ventana</a></small></div>
 
 ### Popups / Ventanas Modales / Alertas
 

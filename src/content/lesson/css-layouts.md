@@ -23,8 +23,7 @@ We need to use boxes for it. A box is a container with a specific width and heig
 
 All website content should be wrapped within boxes (div, header, footer, etc.). Boxes are invisible by default so, in order to make them visible, you have to either set a background color or a border. The following image shows how many invisible boxes a normal website has:
 
-<BeforeAfter width="500px"
-    before="../../assets/images/40818d0d-60c6-4ef3-a488-834f21ddebf1.png" after="../../assets/images/0c89a48e-d488-4e5c-807a-fd6b9a9179f6.png" />
+<BeforeAfter width="500px" before="../../assets/images/40818d0d-60c6-4ef3-a488-834f21ddebf1.png" after="../../assets/images/0c89a48e-d488-4e5c-807a-fd6b9a9179f6.png" />
 
 #### Box Attributes
 
@@ -38,6 +37,7 @@ All box containers can have the following attributes:
 |Background image   |The image that is shown behind the box content.   |
 |Background color   |In addition to the background image, you can also have a background color behind both the content and the background image.   |
 |Margin   |Optional space that can be added between this particular box and other elements around.   |
+
 
 ![css layout](../../assets/images/153d2a7c-b648-4d75-920b-940102f18eaa.gif) 
 
@@ -119,6 +119,7 @@ Float is very much used in blogs when you want to add images to your articles. I
 |right   |Moves the element as far to the right as possible.   |
 
 ## Think about UI/UX for a second
+
 
 It’s yoga time, let’s stop the coding and think about mankind for a minute. How do humans act? How do they behave? What do they like? Where do they click?
 

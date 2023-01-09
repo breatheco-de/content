@@ -3,7 +3,7 @@ title: "What is JavaScript? Learn to Code in JavaScript"
 subtitle: "Get to know what is JavaScript, everybody is talking about it and by now you probably know its time to learn to code in JavaScript in order to get things to the next level."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
-status: "pending_translation"
+status: "published"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["javascript"]
 
@@ -27,7 +27,7 @@ No matter what the computer is made for, the very base of its existence is the s
 
 <div align="right"><small><a href="https://www.youtube.com/embed/Q-eob0WBKs0">Click here to open video in a new window</a></small></div>
 
-Variables are not a new concept, anybody who knows math is familiar with the concept of variables
+Variables are not a new concept, anybody who knows math is familiar with the concept of variables.
 
 A variable is a container in which you can store any data.  For example, you can have the following variable:
 
@@ -119,7 +119,7 @@ What operations can I do to variables?  Depending on the data-type you have a fe
 ## Functions
 
 
-Functions are pieces of code that can be re-used severa times during runtime regardless of their position in the code.  There are hundreds of reasons to use functions, but here are the 2 most important ones:
+Functions are pieces of code that can be re-used several times during runtime regardless of their position in the code.  There are hundreds of reasons to use functions, but here are the 2 most important ones:
 
 + Divide and conquer: It is always easier to split your problems into several smaller problems.  This will become your biggest challenge when solving complex problems.  Functions will be your best tools for abstraction.
 + Re-use: Any normal development will take at least 5,000 lines of code.  It is redundant and inefficient to keep writing the same code over and over again.

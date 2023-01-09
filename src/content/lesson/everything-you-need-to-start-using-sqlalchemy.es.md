@@ -162,7 +162,7 @@ Cuando usas este comando puedes ponerle un **name** o nombre a los diferente est
 ![SQL](../../assets/images/sql-1.png)
 
 Digamos que vamos a comer pizza y nuestra pizza tiene tres ingredientes de base:
-mozzarella, tomate y aceitunas.  Nuestra tabla se llamaria 'PIZZA' y se vería de la siguiente manera:
+mozzarella, tomate y aceitunas.  Nuestra tabla se llamaría 'PIZZA' y se vería de la siguiente manera:
 
 ![SQL](../../assets/images/sql-2.png)
 

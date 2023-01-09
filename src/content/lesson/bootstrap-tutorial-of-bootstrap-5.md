@@ -11,7 +11,7 @@ status: "published"
 
 ## Bootstrap fixed all CSS major problems
 
-There is light at the end of the tunnel and it is NOT Chuck Norris holding a flashlight.  Finally, someone fixed CSS.  This is a library made by [Mark Otto](https://twitter.com/mdo?lang=en) and [Jacob Thornton](https://twitter.com/fat) – normal people – developers like you and me, and they did great!
+There is light at the end of the tunnel, and it is NOT Chuck Norris holding a flashlight.  Finally, someone fixed CSS.  This is a library made by [Mark Otto](https://twitter.com/mdo?lang=en) and [Jacob Thornton](https://twitter.com/fat) – normal people – developers like you and me, and they did great!
 
 These two guys working on Twitter were suffering the same problems we have been dealing with in HTML and CSS.  Fed up with the situation, they decided to build a **base CSS Sheet designed to be imported into any website**.  It makes every front-end development work 4x’s easier.
 
@@ -124,7 +124,7 @@ We already know the basic HTML5 skeleton that any website needs to have.  Now yo
 </html>
 ```
 
-Remember, Bootstrap is just a stylesheet.  That’s why it is very simple to include in your website.  You use the `<link>` tag to include the styles, and, optionally, use the javascript `<script>` tag to include the Bootstrap Javascript files.
+Remember, Bootstrap is just a stylesheet.  That’s why it is very simple to include in your website. You use the `<link>` tag to include the styles and optionally use the javascript `<script>` tag to include the Bootstrap Javascript files.
 
 The Bootstrap Javascript functionality requires the Popper Javascript library to be included first.  You don’t need to know the details about this yet.  Just include the JS libraries using the script tag and later you will understand.
 
