@@ -3,13 +3,11 @@ title: "What Does // Mean in Python?"
 subtitle: "The double slash `//` operator in Python is used to divide a number by its floor."
 textColor: "white"
 date: "2022-09-08T16:36:30+00:00"
-tags: ["responsive"]
+tags: ["python"]
 status: "published"
 cover_local: "../../assets/images/python-floor-division.jpg"
 
 ---
-
-# What Does // Mean in Python?
 
 The double slash `//` operator in Python is used to divide a number by its floor. The first number is divided by the second number using the `//` operator, and the result is rounded to the nearest integer (or whole number). Floor division merely differs from ordinary division in that it always produces the largest integer.
 

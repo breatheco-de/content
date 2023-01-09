@@ -11,7 +11,7 @@ status: "published"
 
 ## Bootstrap fixed all CSS major problems
 
-There is light at the end of the tunnel and it is NOT Chuck Norris holding a flashlight.  Finally, someone fixed CSS.  This is a library made by [Mark Otto](https://twitter.com/mdo?lang=en) and [Jacob Thornton](https://twitter.com/fat) – normal people – developers like you and me, and they did great!
+There is light at the end of the tunnel, and it is NOT Chuck Norris holding a flashlight.  Finally, someone fixed CSS.  This is a library made by [Mark Otto](https://twitter.com/mdo?lang=en) and [Jacob Thornton](https://twitter.com/fat) – normal people – developers like you and me, and they did great!
 
 These two guys working on Twitter were suffering the same problems we have been dealing with in HTML and CSS.  Fed up with the situation, they decided to build a **base CSS Sheet designed to be imported into any website**.  It makes every front-end development work 4x’s easier.
 
@@ -60,11 +60,12 @@ It’s very easy to decide how your website will render in different screen size
 |:---------|:--------|:----|
 |Means that this element should behave like a Bootstrap column.   |Means that it is specified for only for the devices with a "medium" sized screen.   |Specifies how many slots I want this column to take (remember you can take a max of 12 slots per row).   |
 
-> :point_up:Bootstrap device sizes:   |Phones   |Big-phone/small-tablet   |Tablets   |Desktops   |Extra-large desktops   |Extra extra large   |
+
+Bootstrap device sizes:   |Phones   |Big-phone/small-tablet   |Tablets   |Desktops   |Extra-large desktops   |Extra extra large   |
 |:----------|:---------------|:-------------|:-----------|:------------|:---------|:--------|
 | &nbsp;           |Nothing    |sm       |md       |lg      |xl        |xxl      |
 
-> :point_up: Note: if you don’t specify the screen size (ex. by using 'sm', 'md', or 'xl'), the website will be rendered for mobile phones by default.
+>👆 Note: if you don’t specify the screen size (ex. by using 'sm', 'md', or 'xl'), the website will be rendered for mobile phones by default.
 
 ## Defining Mobile, Tablet, and Desktop at the same time
 
@@ -123,11 +124,11 @@ We already know the basic HTML5 skeleton that any website needs to have.  Now yo
 </html>
 ```
 
-Remember, Bootstrap is just a stylesheet.  That’s why it is very simple to include in your website.  You use the `<link>` tag to include the styles, and, optionally, use the javascript `<script>` tag to include the Bootstrap Javascript files.
+Remember, Bootstrap is just a stylesheet.  That’s why it is very simple to include in your website. You use the `<link>` tag to include the styles and optionally use the javascript `<script>` tag to include the Bootstrap Javascript files.
 
 The Bootstrap Javascript functionality requires the Popper Javascript library to be included first.  You don’t need to know the details about this yet.  Just include the JS libraries using the script tag and later you will understand.
 
-> :link: Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+> 🔗 Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 
 ## Bootstrap 5 Components
 
@@ -150,25 +151,32 @@ Here is an example of how a NavBar may look on a website:
 
 ![bootstrap tutorial](../../assets/images/6351de1c-6d90-4502-8823-4b751981db9f.png)
 
-> :link:[**Read more about the NavBar here**](https://getbootstrap.com/docs/5.2/components/navbar/)
+> 🔗 [**Read more about the NavBar here**](https://getbootstrap.com/docs/5.2/components/navbar/)
 
 ```html
 <nav class="navbar navbar-expand-lg bg-light">
     <div class="container">
-        <a class="navbar-brand" href="#">Website Brand</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand d-flex align-items-center gap-1" href="#">
+            <i class="fa-brands fa-instagram"></i>
+            <span>Instagram</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav align-items-center">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">
-                        <a class="btn btn-success">Create a new post</a>
+                        <span class="btn btn-success">
+                            Create a new post
+                        </span>
                     </a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Settings
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menu
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="#">Action</a>
@@ -194,7 +202,7 @@ Here is an example of how a "The Card" may look on a website:
 
 ![bootstrap 5](../../assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png)
 
-> :link: [**Read more about the card here**](https://getbootstrap.com/docs/5.2/components/card/)
+> 🔗 [**Read more about the card here**](https://getbootstrap.com/docs/5.2/components/card/)
 
 ```html
 <div class="card" style="width: 18rem;">
@@ -215,11 +223,11 @@ Here is an example of how a "The Card" may look on a website:
 
 Everyone hates a modal, it is super annoying, always asking you to subscribe to a newsletter! 🙂
 
-Here is how a modal looks by default on Bootstrap.
+Here is how a modal look by default on Bootstrap.
 
 ![bootstrap 5](../../assets/images/6bcba673-a543-4bf1-a80b-083914b91bef.png)
 
-> :link:[**Read more about modal here**](https://getbootstrap.com/docs/5.2/components/modal/)
+>  🔗 [**Read more about modal here**](https://getbootstrap.com/docs/5.2/components/modal/)
 
 ```html
 <div class="modal" tabindex="-1">
@@ -242,7 +250,7 @@ Here is how a modal looks by default on Bootstrap.
 ```
 
 
-> :point_up: Important! The Modal needs Javascript in order to work. Remember to include the three Javascript files that are needed in a typical Bootstrap Skeleton: JS, Popper and Bootstrap.js
+> ☝️ Important! The Modal needs Javascript in order to work. Remember to include the three Javascript files that are needed in a typical Bootstrap Skeleton: JS, Popper and Bootstrap.js
 
 ## What you really need to know about Bootstrap
 
@@ -250,10 +258,10 @@ Bootstrap official documentation is amazing!  We don’t need to start copying a
 
 + [The grid system.](https://getbootstrap.com/docs/5.2/layout/grid/)
 + [Styling Forms.](https://getbootstrap.com/docs/5.2/forms/overview/)
-+ [List of components available to use on your website.](https://getbootstrap.com/docs/5.2/components/alerts/)
-+ [Utilities or Helper classes:](https://getbootstrap.com/docs/5.2/utilities/borders/) Very useful and constantly used classes to do stuff like centering the text, centering a column or container, adding a background, etc.
++ [List of components available to use on your website.](https://getbootstrap.com/docs/5.2/components/accordion/)
++ [Utilities or Helper classes:](https://getbootstrap.com/docs/5.2/utilities/background/) Very useful and constantly used classes to do stuff like centering the text, centering a column or container, adding a background, etc.
 
-> :point_up: Bootstrap versions & download
+> ☝️ Bootstrap versions & download
 
 Bootstrap has many versions, always check if you are using the latest version of Bootstrap on your project, here you can find all the available versions: [https://getbootstrap.com/docs/versions/](https://getbootstrap.com/docs/versions/).
 

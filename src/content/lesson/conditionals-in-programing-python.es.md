@@ -16,7 +16,7 @@ status: "published"
 Dominar el uso de las condiciones es una de las 5 habilidades fundamentales de construir algoritmos:
 
 1. Variables.
-2. `Condicionales`.
+2. Condicionales.
 3. Arrays(Arreglos).
 4. Loops(Bucles).
 5. Funciones.
@@ -30,6 +30,7 @@ if color == 'blue':
     # haz algo
 else:
     # haz otra cosa
+
 ```
   
 ![Condicionales](../../assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png)
@@ -52,6 +53,7 @@ Para poder hacer una pregunta, primero tienes que tener información almacenada 
 # se utiliza dos veces igual (=) cuando quieres comparar en lugar de asigner el valor
 if edad == 25:
     print("Eres mayor de edad!!")
+
 ```
 
 ### Operadores lógicos en Python
@@ -80,14 +82,15 @@ if siento_que_me_atropello_un_carro and me_atropello_un_carro:
     print("You don't have a flu")
 elif siento_que_me_atropello_un_carro:
     print("You have a flu")
+
 ```
 
 Como puedes ver usamos `elif` por primera vez, para codificar más rápido. Otro truco que puedes usar es el siguiente;  
 
 | Original | Equivalente |
 | --- | --- |
-| En lugar de `if(siento_que_me_atropello_un_carro == true)` | escribes `if(siento_que_me_atropello_un_carro)`  |
-| En lugar de `if(me_atropello_un_carro == false)` | escribes `if(!me_atropello_un_carro)` |
+| En lugar de `if siento_que_me_atropello_un_carro == true` | escribes `if siento_que_me_atropello_un_carro`  |
+| En lugar de `if me_atropello_un_carro == false` | escribes `if !me_atropello_un_carro` |
 
 ## If...else en Python
 
@@ -95,15 +98,16 @@ También puedes usar la expresión `else` para referirte a la negación de la pr
 
 ```python
 if color "azul":
-  # Descarta esta prenda de vestir
+    # Descarta esta prenda de vestir
 else:
-  # Guárdala en mi armario
+    # Guárdala en mi armario
   
 edad = 12
 if (edad < 18):
-print("Es mayor de edad")
+    print("Es mayor de edad")
 else:
-  print("No es mayor de edad")
+    print("No es mayor de edad")
+
 ```
 
 También puedes anidar condiciones if...else una sobre la otra, de esta forma:
@@ -111,19 +115,20 @@ También puedes anidar condiciones if...else una sobre la otra, de esta forma:
 ```python
 if edad > 16: 
     # No puedes hacer nada
-elif: age < 18:
-  # A estas alturas, ya sabemos que mayor de 15 por que sino no hubiese ingresado a la primera condición.
-elif: age < 21:
-  # Si el algoritmo ingresa aquí, sabemos que es mayor de 17 
+elif age < 18:
+    # A estas alturas, ya sabemos que mayor de 15 por que sino no hubiese ingresado a la primera condición.
+elif age < 21:
+    # Si el algoritmo ingresa aquí, sabemos que es mayor de 17 
 else:
-  #Si el algoritmo ingresa aquí, sabemos que es  mayor de 20
-  
-  
+    # Si el algoritmo ingresa aquí, sabemos que es  mayor de 20
+
+
 edad = 12
 if (edad < 18):
- print("Es mayor de edad")
+    print("Es mayor de edad")
 else:
-  print("No es mayor de edad")
+    print("No es mayor de edad")
+
 ```
 
 Aquí hay otro ejemplo que ejecuta un algoritmo para saber si un número tiene centenas:
@@ -131,16 +136,17 @@ Aquí hay otro ejemplo que ejecuta un algoritmo para saber si un número tiene c
 ```python
 valor = 14
 
-if (valor < 10):
-  print("El valor es una unidad")
-elif (valor < 100):
-  print("El valor es una decena")
-elif (valor < 1000):
-  print("El valor es una centena")
-elif (valor < 10000):
-  print("El valor es un millar")
+if valor < 10:
+    print("El valor es una unidad")
+elif valor < 100:
+    print("El valor es una decena")
+elif valor < 1000:
+    print("El valor es una centena")
+elif valor < 10000:
+    print("El valor es un millar")
 else:
-  print("Es un número grande")
+    print("Es un número grande")
+
 ```
 
 ## El `switch`
