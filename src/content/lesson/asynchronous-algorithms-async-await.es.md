@@ -133,7 +133,7 @@ Ahora, supongamos que necesitamos cargar algunos archivos desde un servidor, esp
 
 /*RESULTADO CONSOLA
 	> ¡Cárgala! 			//el usuario comienza a esperar
-					//ahora el usuario tiene que esperar a que lleguen las imagen, hora: desconocido... navegador: congelado :(
+					//ahora el usuario tiene que esperar a que lleguen las imágenes, hora: desconocido... navegador: congelado :(
 	> ¡Imagen cargada!		//después ?? segundos
 	> No me gusta esperar 		//No queremos que los usuarios esperen tanto tiempo para ver las imágenes.
 */

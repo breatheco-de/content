@@ -70,7 +70,7 @@ The ls command is used for listing all the files and directories that form the c
 
 ```bash
 ls -l ./applications
-#show the files and folder inside "appications" 
+#show the files and folder inside "applications" 
 #the -l is for asking a more detailed output information on the files.
 ```
 
@@ -136,8 +136,7 @@ rmdir path/of/targetdirectory/mydirectory
 #remove mydirectory from "targetdirectory" 
 ```
 
-
-> :point_up: It will only remove empty directories. To empty all directory files, use the rm command. Pro-tip: you can use `rm` . to delete all of the files inside a directory simultaneously; use with caution.
+> :point_up: It will only remove empty directories, to empty all directory files use the rm -r command (-r flag forces the remove command to delete the directory and all the files within it). Pro-tip: you can use `rm` . to delete all of the files inside a directory simultaneously; use with caution.
 
 ### The `cp` command
 
@@ -148,8 +147,8 @@ Don’t confuse this command with the clipboard copy functionality – it has no
 *cp* will copy an entire file and create a new one with whatever name you decide it should have.
 
 ```bash
-cp path/to/file.ext path/to/new/file.ext
-#copy file.ext and create a new file.ext with the same content.
+cp path/to/file.ext path/to/new/file.txt
+#copy file.txt and create a new file.txt with the same content.
 ```
 
 ### The `find` command

@@ -11,7 +11,7 @@ status: "published"
 
 ## Todo cobra sentido si retrocedemos en el tiempo…
 
-Si todo es un documento de texto ¿Cómo es posible tener sitios web tan increibles como Facebook, Youtube, etc?
+Si todo es un documento de texto ¿Cómo es posible tener sitios web tan increíbles como Facebook, Youtube, etc?
 
 Los sitios web de hoy son muy diferentes a los de antes; no tienen los mismos elementos, pero si retrocedemos un poco en el pasado y exploramos el comienzo de Internet, todo tendrá sentido.
 

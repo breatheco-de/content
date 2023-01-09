@@ -1,5 +1,5 @@
 ---
-title: "Cómo conectarte a ti mismo en un trabajo de desarrollo de software"
+title: "Como 'venderte' para conseguir trabajo como programador"
 subtitle: "Aprende a utilizar las redes a tu favor cuando busques un trabajo de desarrollo de software"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 status: "unassigned"
@@ -34,6 +34,6 @@ Esta lección fue diseñada para ser seguida como una lista de tareas, puedes ma
 
 Puedes usar LinkedIn, correo electrónico o volver a conectarte personalmente con cualquier persona que pueda ayudarte a avanzar en tu carrera.
 
-- [ ] Abre la [página Plantillas de red](https://www.notion.so/4geeksacademy/Networking-Templates-fbe549a745da42c7a50d0e094fd44aea) y encuentra algunas plantillas de mensajes para grupos de usuarios, reclutadores y gerentes de contratación. Úsalos cuando contactes a tus nuevos conocidos. 
+- [ ] Abre la [página Plantillas de red](https://4geeksacademy.notion.site/Networking-Templates-Plantillas-para-hacer-Networking-b6135733d1824793ba7006c72f8e03e8) y encuentra algunas plantillas de mensajes para grupos de usuarios, reclutadores y gerentes de contratación. Úsalos cuando contactes a tus nuevos conocidos. 
 - [ ] Crea un plan para enviar mensajes a reclutadores, gerentes de contratación y compañeros a través de correo electrónico y/o LinkedIn. Intenta enviar mensajes a por lo menos 5 personas por semana de la lista. Asegúrate de configurar un sistema que te recuerde conectarte con esas personas regularmente.      
 

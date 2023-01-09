@@ -23,7 +23,6 @@ Originalmente, los navegadores solo podían interpretar HTML. Las páginas web e
 
 ![qué es html](../../assets/images/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc.png)
 
-
 ### Sintáxis del HTML: Todo es `<Tags> ` (etiquetas).
 
 ![qué es html](../../assets/images/78296f64-547f-4928-a8da-14cb24e836b9.gif)
@@ -32,7 +31,7 @@ Originalmente, los navegadores solo podían interpretar HTML. Las páginas web e
  
 En ese sentido, HTML es un lenguage que utiliza `<tags>` para representar los elementos que una página web debería de tener. Un tag es simplemente una palabra que comienza con `< >` y termina con `</ >`. Todos los tags se deben de abrir y cerrar, (los tags de cierre siempre preceden al elemento con `/`)
 
-Hay 2 dipos diferentes de tags:
+Hay 2 tipos diferentes de tags:
 
 + Tags de contenedor: cuando hay contenido entre ambos tags, debes de cerrarlos con (`</tag>`). Por ejemplo, para marcar un tag de texto como un párrafo, debes empezar con con (`<p>`) y cerrarlo al final con (`</p>`). 
 
@@ -43,7 +42,7 @@ Hay 2 dipos diferentes de tags:
 Una vez definido los `<tag>`, podemos describir con más detalle su comportamiento asignándole atributos a esos `<tag>`.  Por ejemplo, si queremos que nuestro documento/página HTML tenga un link a otra página, utilizamos el tag `<a>` y le asignamos un atributo llamado **href**, que permite especificar el URL de la otra página a la que queremos hacer el enlace.
 
 ```html
-<a href="google.com">Haz clic aquí para ir a Google.com</a>
+<a href="google.com">Haz clic aquí para ir a google.com</a>
 ```
 
 En teoría, tú debes utilizar [uno de estos tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true). No puedes inventar tus propios tags porque el navegador no sabría cómo interpretarlas. Debes conocer el significado de cada **tag HTML** para utilizarlos sabiamente… ¡Pero no te preocupes, que no hay muchos! 🙂
@@ -72,7 +71,7 @@ Los espacios vacíos (o en blanco) y los saltos de línea son omitidos por el na
 <tag>Hello</tag><tag>World</tag>
 ```
 
-Los saltos de linea son ignorados:
+Los saltos de línea son ignorados:
 
 ```html
 <tag>Hello</tag>
@@ -104,7 +103,7 @@ Todas las páginas deben empezar con la declaración del  `<DOCTYPE! Html>` segu
 </html>
 ```
 
-Vamos a simular el pensamiento de un navegador: Imaginemos que una persona en su navegador (lado del cliente) está solicitando visualizar la página web: “breatheco.de”
+Vamos a simular el pensamiento de un navegador: Imaginemos que una persona en su navegador (lado del cliente) está solicitando visualizar la página web: “4Geeks.com”
 
 + El servidor abrirá un archivo HTML por defecto en el servidor. Probablemente sea index.html.
 + Luego, leerá el contenido y lo interpretará como un HTML (porque la extensión del archivo es index.html).
@@ -155,7 +154,7 @@ Los tags más utilizados dentro del `<body>` de un documento HTML son los siguie
 |Link (Anchor)   |a   |A veces queremos conectar una o mas páginas entre ellas, enviar al usuario a otra página para continuar con el flujo o incluso poder enviarlo a otra sección del mismo documento (tal como ocurre en el menú de este curso). Para eso está el tag “Anchor”.<br>`<a href="url to resend">this is a heading</a>`   |
 |Negrita   |strong o b   |Para resaltar un texto en negritas.<br>`<strong>este es un heading</strong>`   |
 |Cursiva   |i   |Para colocar un texto en formato cursiva. <br>`<i>este es un heading</i>`   |
-|Salto de Linea  |br   | 	Para saltar el texto o contenido a la línea siguiente (similar al `shift+enter` en MS Word.)<br>`<br></br>`   |
+|Salto de Línea  |br   | 	Para saltar el texto o contenido a la línea siguiente (similar al `shift+enter` en MS Word.)<br>`<br></br>`   |
 |Tablas   |table   |Las tablas fueron diseñadas para presentar datos de una forma legible y coherente. Tienen una headers (th), filas (tr) y columnas (td).<br><br>`<table>`<br>`<tr><th>Columna 1</th><th>Columna 2</th></tr>`<br>`<tr><td>Datos 1</td><td>Data A</td></tr>`<br>`<tr><td>Datos 2</td><td>Datos B</td></tr><br>`<br>`<tr><td>Datos 3</td><td>Datos C</td></tr>`<br>`</table>`   |
 
 > :link: [Haz clic aquí](https://www.w3schools.com/tags/ref_byfunc.asp), para más tags HTML.

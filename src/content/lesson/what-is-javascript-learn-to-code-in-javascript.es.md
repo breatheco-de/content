@@ -37,7 +37,7 @@ var age = 24;
 
 ![what is javascript](../../assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
 
-Prácticamente con cualquier lenguaje de programación, puedes crear tantas variables como desee o necesite. Para comenzar, debe **declarar el nombre de esa variable** usando el término: *var* seguido de un nombre _único_ (relativo al documento/proyecto).
+Prácticamente con cualquier lenguaje de programación, puedes crear tantas variables como desees o necesites. Para comenzar, debe **declarar el nombre de esa variable** usando el término: *var* seguido de un nombre _único_ (relativo al documento/proyecto).
 
 El **nombre de la variable** es la forma más efectiva que tenemos de describir el contenido de la variable, así que úsalo sabiamente. Es importante elegir un nombre que te indique claramente (a ti y los otros programadores) los datos que se almacenan en la variable. Si elegimos un nombre malo o ambiguo, nuestro código será casi imposible de entender, ergo se volverá inutilizable. Por ejemplo, digamos que cambiamos el nombre de nuestra variable "age" a `a`, sería:
 
@@ -284,7 +284,7 @@ var perro = {
 }
 
 for(items in perro){
-  console.log(dog[items]);
+  console.log(perro[items]);
 }
 ```
 

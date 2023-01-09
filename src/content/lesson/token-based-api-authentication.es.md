@@ -50,7 +50,7 @@ Los tokens utilizados para la autenticación tienen que ser algo más que númer
 - No reutilizables: Hay casos de tokens reutilizables, pero en general, una vez que se genera un token, nadie más que tú debería usarlo
 - Validable: El token debe seguir algún patrón oculto (¿encriptación?) que permita validar el token sin comprometer al propietario o al autor.
 
-### Generando de tokens
+### Generando tokens
 
 Hay varios tipos de tokens que puedes usar para tu sistema de autenticación como Basic, Bearer, o JWT. La mayoría de ellos utilizan algoritmos de criptografía avanzada que no vamos a tratar en esta lección (puedes ver este [increíble vídeo para aprender más](https://www.youtube.com/watch?v=4zahvcJ9glg)). En su lugar, vamos a hablar de hash.
 
