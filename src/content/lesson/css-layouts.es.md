@@ -59,7 +59,7 @@ Esta importante propiedad está relacionada con el modelo de cajas y define la m
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/zvL6aet3/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="https://jsfiddle.net/BreatheCode/zvL6aet3/">Hax clic aquí para abrir el demo en una nueva ventana página</a></small></div>
+<div align="right"><small><a href="https://jsfiddle.net/BreatheCode/zvL6aet3/">Haz clic aquí para abrir el demo en una nueva ventana página</a></small></div>
 
 
 # Ancho y Altura de las Cajas
@@ -76,7 +76,7 @@ Para que un sitio web se vea como los sitios web de la actualidad, tenemos que r
 
 <iframe src="https://www.youtube.com/embed/hFvOgu3bcOk" frameborder="0" allowfullscreen ></iframe>
 
-<div align="right"><small><a href="https://www.youtube.com/embed/hFvOgu3bcOk">Click aqui para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="https://www.youtube.com/embed/hFvOgu3bcOk">Click aquí para abrir demo en una nueva ventana</a></small></div>
 
 |**Nombre**   |**Descripción**   |
 |:----------|:-----------------|
@@ -90,13 +90,13 @@ Para que un sitio web se vea como los sitios web de la actualidad, tenemos que r
 ## Atributo: Display
 
 
-Las valores de la propiedad `display` son mucho más avanzados que simplemente mostrar o ocultar elementos.  En realidad, la propiedad `display` modifica la forma en la que se visualiza un documento.
+Los valores de la propiedad `display` son mucho más avanzados que simplemente mostrar o ocultar elementos.  En realidad, la propiedad `display` modifica la forma en la que se visualiza un documento.
 
 Es común encontrar este atributo en los menús de navegación, para los activity feeds de las redes sociales, etc.
 
 <iframe src="https://www.youtube.com/embed/pgCLHD4FNjg" frameborder="0" allowfullscreen></iframe>
 
-<div align="right"><small><a href="https://www.youtube.com/embed/pgCLHD4FNjg">Haz click aqui para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="https://www.youtube.com/embed/pgCLHD4FNjg">Haz click aquí para abrir demo en una nueva ventana</a></small></div>
 
 
 |**Nombre**   |**Descripción**   |
@@ -104,10 +104,10 @@ Es común encontrar este atributo en los menús de navegación, para los activit
 |Inline   |Es el valor por defecto de las etiquetas`<strong>`, `<i>`, `<a>`, `<span>`, etc.  Los elementos se comportarán como un texto y no tendrán límites definidos (ni width, ni heigh).    |
 |Block   |Es el valor por defecto que tienen las etiquetas `<div>`, `<p>`, `<h>`, etc.  El elemento ocupará toda la línea de la página desplazando a los demás elementos por encima o por debajo de él.    |
 |Inline-Block    |Lo mejor de ambos mundos.  Sirve para tener varios contenedores en una misma línea pero cada uno respetando sus límites (width y heigh).  Gracias a él existen páginas como Pinterest que permiten ver el diseño masonery.   |
-|Flex    |Presentada hace poco años atrás, viene a arreglar los mayores problemas con display. Flex se utiliza para que las cajas sean flexibles. Cuando aplicas `display:flex` a un div, todos sus hijos podrán compartir una misma fila. |
+|Flex    |Presentada hace pocos años atrás, viene a arreglar los mayores problemas con display. Flex se utiliza para que las cajas sean flexibles. Cuando aplicas `display:flex` a un div, todos sus hijos podrán compartir una misma fila. |
 |None    |Hace que el elemento se oculte (sea invisible) y no ocupe ningún espacio dentro del documento.   |
 
-Para entender display a cabalidad lo mejor es… ¡que nos pongamos a practicar!.
+Para entender display a cabalidad lo mejor es… ¡Que nos pongamos a practicar!.
 
 ## Atributo: Float
 
@@ -118,7 +118,7 @@ Es muy utilizado en blogs cuando quieres agregar imágenes a tus artículos.  Es
 
 <iframe src="https://www.youtube.com/embed/htdLSAZ2ZH8" frameborder="0" allowfullscreen ></iframe>
 
-<div align="right"><small><a href="https://www.youtube.com/embed/htdLSAZ2ZH8">Haz click aqui para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="https://www.youtube.com/embed/htdLSAZ2ZH8">Haz click aquí para abrir demo en una nueva ventana</a></small></div>
 
 |**Nombre**   |**Descripción**   |
 |:----------|:-----------------|
@@ -129,7 +129,7 @@ Es muy utilizado en blogs cuando quieres agregar imágenes a tus artículos.  Es
 ## Pensemos en la UI/UX por un momento
 
 
-¡Es tiempo de hacer yoga! Dejemos de programar y comencemos a pensar sobre la especie humana, ¿cómo actúan los seres humanos? ¿cómo se comportan? ¿qué les gusta? ¿dónde hacen click?
+¡Es tiempo de hacer yoga! Dejemos de programar y comencemos a pensar sobre la especie humana, ¿Cómo actúan los seres humanos? ¿Cómo se comportan? ¿Qué les gusta? ¿Dónde hacen click?
 
 Este curso no es sobre la interfaz y la experiencia de los usuarios, pero los desarrolladores web tendemos a subestimar este tema.  Es importante tomarse el tiempo necesario para diseñar el flujo de navegación del sitio web, la posición del menú, los elementos UI, etc.  Aquí tenemos algunos ejemplos de diseños:
 
@@ -158,7 +158,7 @@ Este es el código exacto que se necesita para que el contenido del sitio web es
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/">Click aqui para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/">Click aquí para abrir demo en una nueva ventana</a></small></div>
 
 
 
@@ -171,7 +171,7 @@ De hecho, en este pre-work la barra está a la izquierda.  Es la mejor opción p
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/">Click aqui para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/0jxvfwad/embedded/html,css,result/">Click aquí para abrir demo en una nueva ventana</a></small></div>
 
 ### Menú principal con Left Sidebar
 
@@ -180,18 +180,18 @@ Es casi lo mismo, pero en vez de tener barras laterales a la izquierda como el m
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/">Click aqui para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/">Click aquí para abrir demo en una nueva ventana</a></small></div>
 
 ### Responsive Masonry
 
 
-Pinterest hizo este diseño universalmente conocido. Mediante el uso de esta “innovador” UI, se convirtieron en uno de los sitios webs más visitados en el mundo.  Masonry distribuye las cajas de un manera óptima, primero trata de cubrir toda la fila añadiendo cajas a la derecha (añadiéndolas al final), y después salta a la fila siguiente cuando ya no hay espacio suficiente disponible.
+Pinterest hizo este diseño universalmente conocido. Mediante el uso de esta “innovador” UI, se convirtieron en uno de los sitios webs más visitados en el mundo.  Masonry distribuye las cajas de una manera óptima, primero trata de cubrir toda la fila añadiendo cajas a la derecha (añadiéndolas al final), y después salta a la fila siguiente cuando ya no hay espacio suficiente disponible.
 
 Otra genialidad sobre Masonry es que cada caja puede tener su propia altura, cosa que es muy difícil en CSS porque los navegadores antiguos no soportan esas características y tendrás que usar JavaScript para arreglarlo.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/">Click aqui para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ovp1nj3s/5/embedded/html,css,result/">Click aquí para abrir demo en una nueva ventana</a></small></div>
 
 ### Popups / Ventanas Modales / Alertas
 
@@ -212,7 +212,7 @@ Para replicar el comportamiento de esta alerta tienes que:
 ## Demostración en vivo: Juega con la Caja
 
 
-Utiliza los sliders de la barra de herramientas izquierda para modificar el margin, padding, border radius o cualquier otra regla de CSS que este disponible en el demo:
+Utiliza los sliders de la barra de herramientas izquierda para modificar el margin, padding, border radius o cualquier otra regla de CSS que esté disponible en el demo:
 
 <iframe src="https://assets.breatheco.de/live-demos/css/box-model/" width="100%" height="465" frameborder="0" scrolling="no" style="border:0px; overflow: hidden;"></iframe>
 
@@ -222,7 +222,7 @@ Utiliza los sliders de la barra de herramientas izquierda para modificar el marg
 
 Tendrás que aprender “en el camino”, porque hay una infinidad de combinaciones que puedes crear para el diseño de una página web.  Lo que realmente importa, es que entiendas completamente el display, absolute, float y las reglas del overflow.
 
-No te preocupes, amigo mio.  Hay un recurso llamado `Bootstrap` que está hecho para facilitar el diseño.  Aprenderás esto en la próxima lección.
+No te preocupes, amigo mío.  Hay un recurso llamado `Bootstrap` que está hecho para facilitar el diseño.  Aprenderás esto en la próxima lección.
 
 ![css layout](../../assets/images/91aa197c-b2cb-4717-b41f-0f7b579aab25.gif)
   

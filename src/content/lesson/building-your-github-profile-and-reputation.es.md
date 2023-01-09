@@ -16,9 +16,9 @@ cover_local: "../../assets/images/githubbackground.jpg"
 
 Github es una red social para desarrolladores, pero problablemente no del tipo de red social al cual estas acostumbrado/a en el día a día:
 
-- Puedes postear una foto de lo que estés a punto de comer.
-- Puedes postear documentos en cualquier formato (txt, html, css, xls, png, jpeg, etc.).
-- Puedes postear mensajes en tu status como en Twitter, Instagram, etc.
+- No puedes postear una foto de lo que estés a punto de comer.
+- No puedes postear documentos en cualquier formato (txt, html, css, xls, png, jpeg, etc.).
+- No puedes postear mensajes en tu status como en Twitter, Instagram, etc.
 - Debes usar un programa y protocolo especial llamado [GIT](https://www.youtube.com/watch?v=BCQHnlnPusY).
 - Lleva un registro de tu actividad como desarrollador y no se puede hacer trampa.
 
@@ -35,7 +35,7 @@ Github es el portafolio personal #1 para los desarrolladores, la mejor manera de
 Asegúrate de que tenga tu estilo personal, pero en general puedes concentrarte en tratar de seguir la siguientes directrices:
 
 - [ ] Escribe una breve biografía enfocada principalmente en ti como desarrollador y en tus habilidades especiales.
-- [ ] En tu página de perfil, incluye enlaces a tu sitio web personal, perfil de Linkedin, correo electrónico y quien llevatus redes sociales, si corresponde.
+- [ ] En tu página de perfil, incluye enlaces a tu sitio web personal, perfil de Linkedin, correo electrónico y tus redes sociales, si son relevantes.
 - [ ] Añade una foto o avatar.
 - [ ] Comienza a hacer "commits" y haz "push" desde el primer día en la academia: Github registra e informa públicamente tu actividad como desarrollador en algo llamado [Gráfico de actividad de Github](https://help.github.com/en/articles/viewing-contributions-on-your-profile#contributions-calendar) que es imposible de falsificar. Es por eso que te recomendamos que empieces a hacer "commit" y a colaborar desde el primer día.
 - [ ] Cada repositorio que quieras destacar y publicitar debe incluir:  

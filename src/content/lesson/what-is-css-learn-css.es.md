@@ -42,7 +42,7 @@ se de cuenta de que, a simple vista, son distintos.
 ## ¿Cómo aplico estilos a un HTML?
 
 
-Sencillo, Debes escribir tus estilos con una sintaxis especial denominada "CSS" y y guardar el documento con la extensión CSS. Luego, para aplicar los estilos al documento usamos las tags del HTML que estaban relacionadas con CSS: `<style>` y `<link>` .
+Sencillo, Debes escribir tus estilos con una sintaxis especial denominada "CSS" y guardar el documento con la extensión CSS. Luego, para aplicar los estilos al documento usamos las tags del HTML que estaban relacionadas con CSS: `<style>` y `<link>` .
 
 Vamos a repasar estas tags con más detalle:
 
@@ -132,6 +132,7 @@ En el siguiente ejemplo le estamos aplicando una clase "odd" a las celdas impare
 
 |**Selector**   |**Descripción**   |**Ejemplo**   |
 |:--------------|:-----------------|:-------------|
+
 |Tipo de Elemento (tag)   |Permite aplicar estilos a los links, títulos, etc. En el siguiente ejemplo cambiaremos el color de texto a todos los tag links `<a>` de la página.   |`a{ color: #BDBDBD; }`   |
 
 En el siguiente ejemplo vamos a colocar fondo verde a todos los td (celdas) de la tabla:

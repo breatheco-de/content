@@ -22,14 +22,14 @@ GIT es más que un "conjunto de comandos" que tienes que aprender. A lo largo de
 ## ¿Por qué molestarse en usar GIT?
 
 
-Ser el único desarrollador en un proyecto es una [utopía](https://dle.rae.es/utop%C3%ADa). Normalmente, colaboras con otros desarrolladores y, sin GIT, eso se convierte en un gran problema. Es por eso que necesitamos un *repositorio* de información para centralizar y gestionar los cambios. Con un *repositorio* nos dirigimos a lo siguiente:
+Ser el único desarrollador en un proyecto es una [utopía](https://dle.rae.es/utop%C3%ADa). Normalmente, colaboras con otros desarrolladores y, sin GIT, eso se convierte en un gran problema. Es por eso que necesitamos un *repositorio* de información para centralizar y gestionar los cambios. Con un *repositorio* nos referimos a lo siguiente:
 
 + Si dos desarrolladores trabajan en **la misma página (archivo)**, GIT comparará ambas versiones y las fusionará *(intentará)* en una nueva.
 + Descargar e integrar el código de otra persona (o cualquier otro código) en su proyecto sin mayores problemas y hacerlo de forma automática.
 + Si ambos desarrolladores actualizaron exactamente el mismo código, GIT le pedirá a **el último** editor de edición que resuelva cualquier posible conflicto.
 + El código está respaldado todo el tiempo con la última versión como principal.
 + Cada desarrollador tiene su propia versión del proyecto a nivel local durante el tiempo que deseen.
-+ Trabajando con equipos remotos.
++ Permite trabajar en equipos remotos.
 
 El propósito de GIT es interactuar con el repositorio de un proyecto (un conjunto de archivos) a medida que cambian con el tiempo.
 
@@ -72,7 +72,7 @@ Al principio, un proyecto siempre tiene un commit object sin padre. Este es el p
 ## Un Head es una Lista de Commits.
 
 
-Los heads de un repositorio son como el "historial de revisión de un proyecto." Un historial de revisión es una lista de commit objects que contienen todos los cambios que tú y los demás miembros de su equipo han realizado en los archivos del proyecto.
+Los heads de un repositorio son como el "historial de revisión de un proyecto." Un historial de revisión es una lista de commit objects que contienen todos los cambios que tú y los demás miembros de tu equipo han realizado en los archivos del proyecto.
 
 Cada vez que hagas un nuevo commit, el head se moverá a ese nuevo commit. De esta manera tú puedes tener acceso a todo el historial de commits del proyecto.
 
@@ -114,7 +114,7 @@ Después de realizar algunos cambios en los archivos del proyecto, es posible qu
 
 Para crear un commit, tendrás que hacer dos cosas:
 
-+ **Indicale a GIT qué archivos incluir en el commit**, con `git add`.  Si un archivo no ha cambiado desde el commit anterior (el commit "principal"), GIT lo incluirá automáticamente en el commit que estás a punto de realizar.  Solo deberás agregar los archivos que hayas creado o modificado recientemente.  Ten en cuenta que agrega directorios de forma recurrente, así que `git add` agregará todo lo que ha cambiado.
++ **Indícale a GIT qué archivos incluir en el commit**, con `git add`.  Si un archivo no ha cambiado desde el commit anterior (el commit "principal"), GIT lo incluirá automáticamente en el commit que estás a punto de realizar.  Solo deberás agregar los archivos que hayas creado o modificado recientemente.  Ten en cuenta que agrega directorios de forma recurrente, así que `git add` agregará todo lo que ha cambiado.
 + **Llama a `git commit` para crear el objeto de confirmación.** El nuevo commit object tendrá el HEAD actual como su principal (después de que se complete el commit, el HEAD apuntará al nuevo commit object).
   
 Digamos que creas tres confirmaciones de esta manera ... tu repositorio se verá así:

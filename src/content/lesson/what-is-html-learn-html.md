@@ -19,7 +19,7 @@ All web pages have HTML – it’s the structure of EVERYTHING. Think of it as t
 
 HTML allows you to divide the website information into parts – similar to the basic parts of a document: header, title, content, footnote, subtitle, etc.  Then, with CSS, you can make your page beautiful, and, with JavaScript, make it interactive.
 
-Originally, browsers only knew how to interpret HTML.  Websites were simple and neither CSS or JavaScript were used. A website was a simple plain-text document with the typical elements any Word Document has: headings, bullet-point lists, paragraphs, etc.
+Originally, browsers only knew how to interpret HTML.  Websites were simple and neither CSS nor JavaScript were used. A website was a simple plain-text document with the typical elements any Word Document has: headings, bullet-point lists, paragraphs, etc.
 
 ![what is html](../../assets/images/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc.png)
 
@@ -31,7 +31,7 @@ Originally, browsers only knew how to interpret HTML.  Websites were simple and 
 Remember when we said the Internet is all text?
 
 In that sense, HTML is a language that uses `<tags>` to represent the elements that a web page must-have. A tag is just a word that begins with `< >` and ends with `</ >`.
- All tags must open and close (closing tags always proceed the element with a `/`).
+ All tags must open and close (closing tags always precede the element with a `/`).
 
  There are 2 different types of tags:
 
@@ -49,9 +49,9 @@ Once a `<tag>` is defined, we can describe in detail its behavior by assigning a
 ```
 
 
-In theory, you have to use [one of these tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true), don’t make up your own tags because the browser won’t know how to interpret them. You must **learn HTML's** tags meanings, and their functionality, in order to put them to good use… but don’t worry, there aren’t that many! 🙂
+In theory, you have to use [one of these tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true)(don’t make up your own tags because the browser won’t know how to interpret them). You must **learn HTML's** tags meanings, and their functionality, in order to put them to good use… but don’t worry, there aren’t that many! 🙂
 
-For the main heading of the document, the tag we use is `<h1>`.  For example: An online store has an "Electronics" category. The title to such category would be "Electronics" and the `<h1>` tag would be written as follows:
+For the main heading of the document, the tag we use is `<h1>`.  For example: An online store has an "Electronics" category. The title to that category would be "Electronics" and the `<h1>` tag would be written as follows:
 
 ```html
  <h1>Electronics</h1>
@@ -60,7 +60,7 @@ For the main heading of the document, the tag we use is `<h1>`.  For example: An
 
 ##### Nested Tags :
 
-Finally, tags can contain one or more tags within them. For example, if we would want to give <i>italic style</i> to the word "electronics" we would wrap the word with the tag `<i>`:
+Finally, tags can contain one or more tags within them. For example, if we want to give an <i>italic style</i> to the word "electronics" we would wrap the word with the tag `<i>`:
 
 ```html
  <h1><i>Electronics</i></h1>
@@ -108,7 +108,7 @@ All pages must begin with the `<DOCTYPE! Html>` statement followed by `<html>`, 
 </html>
 ```
 
-Let's simulate how a browser thinks: Imagine a user on his browser (client-side) who types the URL: breatheco.de
+Let's simulate how a browser thinks: Imagine a user on his browser (client-side) who types the URL: 4Geeks.com
 
 + The server will open the default HTML file on that server, which will probably be: index.html.
 + Then, it will read its content and interpret it as HTML (because the extension of the file is index.html).
@@ -126,7 +126,7 @@ Let's simulate how a browser thinks: Imagine a user on his browser (client-side)
 
 ### The \<HEAD\> is like the Envelope of a Letter.
 
-We read the envelope of a letter to find information about the letter, but not of its content. Here you can find who wrote the letter, in what language is it written, where is it from, etc.
+We read the envelope of a letter to find information about the letter, but not of its content. Here you can find who wrote the letter, in what language it is written, where it is from, etc.
 
 In the case of HTML, the `<head>` can contain the following tags (among other less important ones):
 
@@ -140,9 +140,9 @@ In the case of HTML, the `<head>` can contain the following tags (among other le
 
 ### The \<body\> is Similar to any MS Word Document
 
-Ok, now that we are familiar with the general and necessary structure of the page, lets review the tags we can and must use to define the content of the page.
+Ok, now that we are familiar with the general and necessary structure of the page, let's review the tags we can and must use to define the content of the page.
 
-Remember – for the fifteenth time – that a web page is… a text document!  That’s right, if you knew the answer before you read it you are getting it! And, if not, don’t worry.  We’ve never known of anyone learning HTML and CSS rather quickly ;).
+Remember – for the fifteenth time – that a web page is… a text document!  If you knew the answer before you read it you are getting it! And, if not, don’t worry.  We’ve never known of anyone learning HTML and CSS rather quickly ;).
 
 Lets see how a website compares to a Word document:
 
@@ -152,7 +152,7 @@ The most frequent tags used inside the `<body>` of an HTML document are:
 
 |**Name**   |**Tags**   |**Description**   |
 |:----------|:----------|:-----------------|
-| Head       |H1, H2, H3, etc.   |They define the headings and subheadings of the page (the heading is not the same as the title; the title is used by the browser and it’s defined with the title tag).<br>`<h1>This is a heading</h1>`   |
+| Heading       |H1, H2, H3, etc.   |They define the headings and subheadings of the page (the heading is not the same as the title; the title is used by the browser and it’s defined with the title tag).<br>`<h1>This is a heading</h1>`   |
 |Paragraph   |P   |This tag separates the text content with an upper and lower margin.  It helps simulate the behavior of a Word document.`<p>example of a paragraph</p>`   |
 |List   |UL, OL   |Lists are of huge importance in a document and they are widely used.  With HTML we have two main tags to list content items:<br><br> <li>OL (ordered list): List with numbers (numbers at the beginning of the item)</li><br><li>UL (unordered list): List without numbers (bullets before items).<br><br>`<ol>`<br>`<li>Element 1</li>`<br>`<li>Element 2</li>`<br>`</ol>`   |
 |Image  |img   |It allows us to add images to the document (they could be in PNG, JPEG, GIF and SVG formats, basically) .<br>`<img src="url of the image"/>`
@@ -175,7 +175,7 @@ If you wish to further specify how you want the behavior of a specific tag to be
 
 In this case, we are assigning the "src" property to the `<img>` tag which will indicate the path or URL of the image to be displayed in this container.
 
-Each tag has its own properties – you do not have to memorize them, you will always find them quickly over the Internet – but, it is good that you know the most important ones so that you have them ready in your mind at any time.
+Each tag has its own properties – you do not have to memorize them, you will always find them quickly over the Internet – but it is good to know the most important ones so that you have them ready in your mind at any time.
 
 That’s why we have created a series of exercises that will better explain each of the important properties of the most used HTML elements.
 

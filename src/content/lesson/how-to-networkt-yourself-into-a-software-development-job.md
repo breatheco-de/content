@@ -9,7 +9,7 @@ tags: ["markdown", "Networking", "software-developer-resume"]
 
 ---
 
-Networking is a very important aspect of anyone’s career. When looking for a job networking is key to having access to positions that are not posted online as well as getting recommendations from people who are in the tech field. Nowadays online and in-person networking is the best strategy to securing a position in the field. Networking is also about meeting engineers that can help you learn new skills, collaborate on new projects and give you advice. 
+Networking is a very important aspect of anyone’s career. When looking for a job, networking is key to having access to positions that are not posted online as well as getting recommendations from people who are in the tech field. Nowadays online and in-person networking is the best strategy to securing a position in the field. Networking is also about meeting engineers that can help you learn new skills, collaborate on new projects and give you advice. 
 
 ## 📝 Instructions 
 
@@ -34,6 +34,6 @@ This lesson was designed to be followed as a task list, you can mark the checkbo
 
 You can use LinkedIn, email or reconnect personally with anyone who might help you move your career along.  
 
-- [ ] Open the [Networking Templates page](https://www.notion.so/4geeksacademy/Networking-Templates-fbe549a745da42c7a50d0e094fd44aea) and find some message templates for user groups, recruiters and hiring managers. Use them when contacting your new acquaintances. 
+- [ ] Open the [Networking Templates page](https://4geeksacademy.notion.site/Networking-Templates-Plantillas-para-hacer-Networking-b6135733d1824793ba7006c72f8e03e8) and find some message templates for user groups, recruiters and hiring managers. Use them when contacting your new acquaintances. 
 - [ ] Create a plan to message recruiters, hiring managers and peers via email and/or LinkedIn. Try to message at least 5 people per week from the list. Make sure to set up a system that will remind you to connect with those people on a regular basis. 
 
