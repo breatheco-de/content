@@ -1,6 +1,6 @@
 ---
 title: "4Geeks Method: The Project Assignments"
-subtitle: "The project assignments are an important part of our learning method, this lessons will show you what to expect and why the matter so much."
+subtitle: "The project assignments are an important part of our learning method, this lessons will show you what to expect and why they matter so much."
 tags: ["4geeks method"]
 
 ---
@@ -30,14 +30,14 @@ Each assignment you deliver will be manually reviewed by a mentor. The mentor wi
 
 This feedback back will focus mainly on the [coding guidelines you can read here](/lesson/coding-standards-guidelines), but here is a brief summary of the criteria:
 
-- Code Style & Cleanness
-- Variable names
-- Best Practices
-- Refactoring Suggestions
+- Code Style & Cleanness.
+- Variable names.
+- Best Practices.
+- Refactoring Suggestions.
 
 ### Live class code review
 Every now and then, we dedicate parts of the live classes to review previous code in several formats:
-Group review: During class, you will be put in teams with one mentor to review project solutions from you or your classmates. 
+Group review. During class, you will be put in teams with one mentor to review project solutions from you or your classmates. 
 The discussion will focus on the [coding guidelines](https://4geeks.com/lesson/coding-standards-guidelines).
 
 ## What if you are stuck on a project?
