@@ -28,7 +28,7 @@ No siempre es posible y es difícil de implementar, pero hacemos un esfuerzo sig
 ### Comentarios del mentor
 Cada tarea que entregues será revisada manualmente por un mentor. El mentor escaneará tu código y te dará su opinión a través de GitHub o como un mensaje dentro de 4Geeks.com.
 
-Estos comentarios se centrarán principalmente en las [directrices de codificación que puedes leer aquí](/lesson/coding-standards-guidelines), pero aquí hay un breve resumen de los criterios:
+Estos comentarios se centrarán principalmente en las directrices de codificación que puedes [leer aquí](https://4geeks.com/lesson/coding-standards-guidelines), pero aquí hay un breve resumen de los criterios:
 
 - Estilo de código y limpieza.
 - Nombres de variables.

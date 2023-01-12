@@ -28,7 +28,7 @@ It's not always possible, and it's tough to implement, but we make a significant
 ### Mentor feedback
 Each assignment you deliver will be manually reviewed by a mentor. The mentor will scan your code and give you feedback via GitHub or as a message inside 4Geeks.com.
 
-This feedback back will focus mainly on the [coding guidelines you can read here](/lesson/coding-standards-guidelines), but here is a brief summary of the criteria:
+This feedback back will focus mainly on the coding guidelines, you can [read them here](https://4geeks.com/lesson/coding-standards-guidelines), but here is a brief summary of the criteria:
 
 - Code Style & Cleanness.
 - Variable names.
@@ -38,7 +38,6 @@ This feedback back will focus mainly on the [coding guidelines you can read here
 ### Live class code review
 Every now and then, we dedicate parts of the live classes to review previous code in several formats:
 Group review. During class, you will be put in teams with one mentor to review project solutions from you or your classmates. 
-The discussion will focus on the [coding guidelines](https://4geeks.com/lesson/coding-standards-guidelines).
 
 ## What if you are stuck on a project?
 There are many ways to get unstuck: 
