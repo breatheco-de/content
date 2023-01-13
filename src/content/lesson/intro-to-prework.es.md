@@ -9,16 +9,16 @@ status: "published"
 
 ---
 
-## Dandole la Vuelta
+## Dándole la Vuelta
 
 
-Hay muchos cursos de programación por ahí; algunos incluso son gratis.  Si te uniste a 4Geeks Academy, es porque eres como nosotros.  Realmente crees que las habilidades dificiles de aprender como programar requieren mucho más que solo articulos y videos online o tutoriales que hacen parecer todo facíl..
+Hay muchos cursos de programación por ahí; algunos incluso son gratis.  Si te uniste a 4Geeks Academy, es porque eres como nosotros.  Realmente crees que las habilidades difíciles de aprender como programar requieren mucho más que solo artículos y videos online o tutoriales que hacen parecer todo fácil.
 
 Programar es difícil porque sólo se puede aprender con infinitas cantidades de práctica, tutoría uno a uno y desafíos de la vida real.
 
-Entonces, se nos ocurrió esta plataforma en línea.  Estos contenidos te guiaran a lo largo del programa.  Habrá una infinita cantidad de ejercicios/projectos.  La clase se enfocará en capacitarte.  Te presentaremos un desafio tras otro, pero siempre bajo la supervisión de un senior que observará y te ayudará en todo tu proceso.  BreatheCode es el lugar para leer, aprender y practicar hasta que grabes todo de forma permanente en tu cerebro.
+Entonces, se nos ocurrió esta plataforma en línea.  Estos contenidos te guiaran a lo largo del programa.  Habrá una infinita cantidad de ejercicios/proyectos.  La clase se enfocará en capacitarte.  Te presentaremos un desafío tras otro, pero siempre bajo la supervisión de un senior que observará y te ayudará en todo tu proceso.  BreatheCode es el lugar para leer, aprender y practicar hasta que grabes todo de forma permanente en tu cerebro.
 
-## ¿Así Que Prefieres No Leer Mucho!?
+## ¿Así Que Prefieres No Leer Mucho?
 
 Quieres aprender la habilidad más requerida dentro de los próximos 30 años, pero sin leer en absoluto – lo entendemos.
 
@@ -45,7 +45,7 @@ El cerebro humano requiere mucha energía para tomar cualquier decisión, especi
 
 Si te sientes abrumado y confundido, <span style="color:#993300">**¡¡pide ayuda!!**</span> Y, **continúa con el trabajo duro –** ¡lo lograrás!  Todas las lecciones son acumulativas, lo que significa que cada ejercicio requerirá que uses todo lo que has aprendido en el pasado.
 
-### Por Favor Pide Ayuda!
+### ¡Por Favor Pide Ayuda!
 
 ¿Has leído sobre Einstein?  Las personas realmente inteligentes son las que siempre hacen más preguntas. No tienen miedo a no saber o cometer errores. La única manera en que realmente podemos ayudarte es si nos pides ayuda. Para poder hacerlo, cuando estés estancado y hayas intentado resolver tu duda por tu cuenta durante algunos minutos, pregunta en nuestro canal de Slack [#Public_Support](https://4geeksacademy.slack.com/archives/CAZ9W99U4), pero antes lee estos consejos sobre [¿Cómo hacer preguntas de programación?](https://content.breatheco.de/how-to/ask). 
 
