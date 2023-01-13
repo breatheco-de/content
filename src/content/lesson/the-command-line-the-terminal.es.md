@@ -143,7 +143,7 @@ rmdir path/of/targetdirectory/mydirectory
 
 ### El comando  `cp`
 
-**El comando Copiar archivo**
+**El comando copiar archivo**
 
 No confundas este comando con la funcionalidad de copiar del portapapeles, no tiene nada que ver con eso.
 
