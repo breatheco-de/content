@@ -21,7 +21,7 @@ Let’s go back to HTML: How can I create documents with 2 columns?  We know tha
 
 We need to use boxes for it. A box is a container with a specific width and height. Boxes are containers that bring order into the HTML/CSS world.  By far, the most used tag for a box is `<div>`.
 
-All website content should be wrapped within boxes (div, header, footer, etc.). Boxes are invisible by default so, in order to make them visible, you have to either set a background color or a border. The following image shows how many invisible boxes a normal website has:
+All website content should be wrapped within boxes (div, header, footer, etc.). Boxes are invisible by default, so in order to make them visible, you have to either set a background color or a border.  The following image shows how many invisible boxes a normal website has:
 
 <BeforeAfter width="500px" before="../../assets/images/40818d0d-60c6-4ef3-a488-834f21ddebf1.png" after="../../assets/images/0c89a48e-d488-4e5c-807a-fd6b9a9179f6.png" />
 
