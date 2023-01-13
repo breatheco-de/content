@@ -17,7 +17,7 @@ To proceed with the delivery of a project you must send us a snapshot, this is a
 1. Enter the workspace (Gitpod) of the project you want to deliver.
 2. Click on the menu (the three lines), next to Explorer and an option will be displayed.
 
-![gitpod1](https://storage.googleapis.com/breathecode-asset-images/7e130553ca7ae37935149326b300406627326603f12621e25845745cca53b0ba.png)
+![gitpod1](https://i.imgur.com/0fn9NgK.png)
 
 3. Select the option: Gitpod. Share Workspace Snapshot.
 

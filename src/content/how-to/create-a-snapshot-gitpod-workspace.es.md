@@ -23,7 +23,7 @@ Para proceder a la entrega de un proyecto debes enviarnos un snapshot, esto es u
 
 ![gitpod2](https://i.imgur.com/vouchzg.png)
 
-4. Abajo en la esquina inferior derecha aparecerá un mensaje indicando que se está creando el snapshot 
+4. Abajo en la esquina inferior derecha aparecerá un mensaje indicando que se está creando el snapshot.
 
 ![gitpod3](https://i.imgur.com/ELVK28B.png)
 
