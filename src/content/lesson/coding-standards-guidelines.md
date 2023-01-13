@@ -11,17 +11,17 @@ Studies have shown that developers who use best practices when coding are up to 
 
 Also, companies and governments lose a lot of money every day because developers don't follow the best practices and guidelines, here are some examples you can read more about:
 
-- NASA's Mars Climate Orbiter was lost because the team was not using a consistent metric system in the codebase; which lead to a confusion in the calculations, losing $320 million.
-- The Ariane 5 rocket explosion by ESA was caused by bad code very difficult to read, $370 million lost.
-- The US stock market Flash Crash in 2010, undisclosed significant financial losses.
+- NASA's Mars Climate Orbiter was lost because the team was not using consistent metric system in the codebase; which lead to a confusion in the calculations, losing $320 million.
+- The Ariane 5 rocket explosion by ESA was caused by bad code very difficult to read, and $370 million was lost
+- The US stock market Flash Crash in 2010, with undisclosed significant financial losses.
 
-This lesson is a compilation of best practices that we promote at 4Geeks, it has been created and grown with contributions from all the community mentors and 
+This lesson is a compilation of best practices that we promote at 4Geeks, it has been created and grown with contributions from all the community mentors.
 
 ## Global variables
 It's best to avoid using global variables whenever possible, use more function arguments and return values to share data between different parts of a program. This can help to make code more maintainable, testable, and reliable.
 
 1. Global variables can be accessed from anywhere in the code, making it more difficult to track down bugs and understand how the code is working.
-2. It's harder to isolate problems when multiple parts of the code are interacting with the same global variables
+2. It's harder to isolate problems when multiple parts of the code are interacting with the same global variables.
 3. Changes to a global variable can have unintended consequences in other parts of the code.
 
 ![don't use global variables](https://breathecode.herokuapp.com/v1/media/file/dont-use-global-variables-png?)
@@ -29,8 +29,8 @@ It's best to avoid using global variables whenever possible, use more function a
 ## Variable Names
 Some of the naming conventions are given below:
 
-- Meaningful and understandable variables name helps anyone to understand the reason of using it.
-- General variables should be named in camelCase for [Javascript, Node, Java, Ruby, etc.](https://en.wikipedia.org/wiki/Snake_case), in `snake_case` for python, etc. Here you can you can read more about [variable naming conventions](/lesson/variable-naming-conventions).
+- Meaningful and understandable variables name helps anyone to understand the reason for using them.
+- General variables should be named in camelCase for [Javascript, Node, Java, Ruby, etc.](https://en.wikipedia.org/wiki/Snake_case), in `snake_case` for python, etc. Here you can read more about [variable naming conventions](https://4geeks.com/lesson/variable-naming-conventions).
 - Constant variables are named in CAPITAL LETTERS.
 - It is better to avoid the use of digits in variable names.
 - The names of the function should be written in camel case starting with small letters.
@@ -59,9 +59,9 @@ Keep names short, but not too short:
 
 ## Indentation
 
-Use a prettier or automatic indentation tool. If that is not possible (because of some weird reason), make sure to manually indent every single:
+Use a prettier or more automatic indentation tool. If that is not possible (because of some weird reason), make sure to manually indent every single:
 
-- Pick how many spaces you will be using (2 or 4 spaces per single indent).
+- Pick how many spaces you will use (2 or 4 spaces per single indent).
 - Use a consistent indentation style.
 - Indent code blocks: Code blocks, such as those inside of a function or loop, should be indented to visually distinguish them from the surrounding code.
 
@@ -75,7 +75,7 @@ if (condition) {
 }
 ```
 
-## Errors an exceptions
+## Errors and exceptions
 When code, some of the errors are hidden to developers unless exceptions are actively handled, for this reason, we decided to include this guideline into the list.
 
 - Use try-except and try-catch blocks to handle exceptions.
@@ -85,12 +85,10 @@ When code, some of the errors are hidden to developers unless exceptions are act
 
 ## Readability
 
-> 🤯 Did you know that in 1999, NASA's Mars Climate Orbiter was destroyed due to a software bug caused by low code readability costing $320 million?
-
 Creating code that is easy to read is essential for producing high-quality software that is reliable, maintainable, and easy to modify or update. We have a whole article in [code readability](/lesson/what-is-and-how-to-improve-code-readability) but here is a very short summary of the best practices:
 
 - Choose variable names wisely.
-- Split your code in smaller functions.
+- Split your code into smaller functions.
 - Avoid using else statements.
 - Pay good attention to indentation.
 - Don't over-comment your code.
