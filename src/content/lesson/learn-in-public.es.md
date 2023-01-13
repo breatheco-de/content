@@ -43,11 +43,11 @@ Cuando aprendes en público, conviertes las redes sociales en tu cuaderno de not
 
 ## Razones por las que tienes que procrastinar esto:
 
-### No tengo nada que decir
+### No tengo nada que decir.
 
 Realmente lo dudo, aprender a codificar es difícil y la gente lee mucho sobre ello y necesita apoyo emocional, solo con tu testimonio estás ayudando a muchos y mucha gente estará interesada en conocer tu historia.
 
-### No soy un experto
+### No soy un experto.
 
 Nadie lo es. Llevo 20 años codificando y sigo pensando que no soy un experto, al mostrar tu perspectiva sobre los temas que acabas de aprender estás ayudando a otros aficionados en su camino.
 
