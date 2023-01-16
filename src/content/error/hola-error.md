@@ -210,7 +210,7 @@ Here is an example of how a "The Card" may look on a website:
 
 #### The Modal
 
-Everyone hates a modal, it is super annoying, always asking you to subscribe to a newsletter! 🙂
+Maybe everyone hates a modal, it is super annoying, always asking you to subscribe to a newsletter! 🙂
 
 Here is how a modal looks by default on Bootstrap.
 
