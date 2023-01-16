@@ -104,7 +104,9 @@ As a second source of information, and especially if the error is a `4xx`, you c
 #### Reading the backend terminal
 
 If you have an error while running a script (not a server), it's a backend error.
+
 If you are running a server, the error may be a poorly formatted request coming from the front end; that's why it's a good idea to check for the request body and the status code on the developer tools network tag first.
+
 If the request payload, URL, and headers are OK, it's a backend error.
 
 #### Reading the server request log
@@ -117,10 +119,10 @@ Lastly, if you have an error on a web server (like Express, Flask, Django, etc.)
 
 If you followed the previous steps correctly, you know to what part of your code is your bug related. So stay focused, and don't guess! You have handy information about your bug; use it and pull that thread. For example: 
 
-a. Stop thinking about the back end if your bug is in the front end or vice-versa.
-b. Wrong Syntax or TypeError? Syntax errors usually tell you which line has the issue. So look for that info and read the surrounding lines of code.
-c. The Network tag has request status code 4xx? Go and fix the code crafting the request.
-d. The Network tag has request status code 5xx? Go and read the backend terminal for Syntax or Database errors.
+a. Stop thinking about the back end if your bug is in the front end or vice-versa.  
+b. Wrong Syntax or TypeError? Syntax errors usually tell you which line has the issue. So look for that info and read the surrounding lines of code.  
+c. The Network tag has request status code 4xx? Go and fix the code crafting the request.  
+d. The Network tag has request status code 5xx? Go and read the backend terminal for Syntax or Database errors.  
 
 ## Trial an error until you fix it
 
