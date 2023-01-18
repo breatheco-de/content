@@ -14,11 +14,11 @@ cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 
 ## Lo que ya sabes
 
-Estas aquí para aprender a desarrollar tus habilidades para codificar hasta un nivel en el que puedas: 1️⃣ Conseguir trabajo, 2️⃣ Crear tu propia empresa, 3️⃣ Adaptarte mejor al nuevo mundo. 
+Estás aquí para aprender a desarrollar tus habilidades para codificar hasta un nivel en el que puedas: 1️⃣ Conseguir trabajo, 2️⃣ Crear tu propia empresa, 3️⃣ Adaptarte mejor al nuevo mundo. 
 
 ## Lo que  sabías
 
-También estas aquí porque necesitas ayuda, no solo técnica sino también espiritual. Digo esto de la manera más pragmática posible.
+También estás aquí porque necesitas ayuda, no solo técnica sino también espiritual. Digo esto de la manera más pragmática posible.
 
 > La mayor pared que deberás derrumbar para convertirte en un desarrollador no está en el programa ni en el contenido, sino en tu mente.
 
