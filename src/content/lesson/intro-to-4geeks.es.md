@@ -76,7 +76,7 @@ Estos números no son pequeños, 60% en un día y 90% si no practicas en una sem
 
 3. **No faltes a clases:** Que faltes a clases es nuestra mayor preocupación, estamos muy preocupados de la asistencia porque ha demostrado ser el disuasivo #1 para tu motivación, faltar a dos clases seguidas genera la tormenta perfecta. Necesitarás mentoría uno a uno y doblar las horas de práctica esa semana para evitar retrasarte.
 
-4. **Involúcrate:** Asistir a clases no es suficiente, los seres humanos son emocionales, integran mejor la información cuando están comprometidos emocionalmete, asistiendo a eventos y estudiando en grupos, hablando públicamente al respecto, etc.
+4. **Involúcrate:** Asistir a clases no es suficiente, los seres humanos son emocionales, integran mejor la información cuando están comprometidos emocionalmente, asistiendo a eventos y estudiando en grupos, hablando públicamente al respecto, etc.
 
 ## ¿Qué sigue?
 
