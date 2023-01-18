@@ -11,9 +11,9 @@ status: "published"
 
 ## About Coding 
 
-We all know the importance, growth and impact of the tech industry nowadays. More and more developers are needed everywhere. Just in the US, the Bureau of Labor Statistics projects to have more than a million open jobs by 2024, for software developers. 
+We all know the importance, growth, and impact of the tech industry nowadays. More and more developers are needed everywhere. Just in the US, the Bureau of Labor Statistics projects to have more than a million open jobs by 2024, software developers.
 
-A web developer makes around $65k per year in the US. In Florida, numbers are a little bit lower since the cost of living and payroll standards. In 2020 a web developer makes around $56k, and a junior one is around $50k per year in Florida. According to recent reports, a Bootcamp graduate make $20k more than before joining the coding Bootcamp: 
+A web developer makes around $65k per year in the US. In Florida, numbers are a little bit lower than the cost of living and payroll standards. In 2020 a web developer makes around $56k, and a junior one is around $50k per year in Florida. According to recent reports, a Bootcamp graduate makes $20k more than before joining the coding Bootcamp:
 <p style="text-align:center">
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/c98f9241-0c8f-46d9-91e6-a093276ac2a3.png?raw=true" width="300">
 </p>
