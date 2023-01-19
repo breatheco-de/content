@@ -31,7 +31,7 @@ To update Python on a Windows Operating System to the latest, we can choose 2 wa
 
 - The installer we´ll find it on [python.org](https://www.python.org/downloads/windows/ "python.org")
 - Select `Latest Python 3 Release - Python 3.11.1` (if there's a new version when you read this article, it won't be Python 3.11.1)
-- Scroll until you find a table with all the version availeable and select the one that suits you the best (in our case `Windows installer (64-bit)`)
+- Scroll until you find a table with all the version available and select the one that suits you the best (in our case `Windows installer (64-bit)`)
 - Once downloaded run the installer and follow instructions. If there's not a installed Python version already, it'll install this version. If there's a Python version already installed, it'll upgrade it. 
 - You can verify your installation/upgrade by opening `CMD` or `PowerShell` terminal and typing `python -V`
 
@@ -40,11 +40,11 @@ python -V
 #Output: Python 3.11.0
 ```
 
-For a more in-depth guide regarding this procedure, please head to our [step-by-step guide ](https://4geeks.com/how-to/how-to-update-python-on-windows "step-by-step guide ") where we cover with pictures of every step.
+For a more in-depth guide regarding this procedure, please head to our step-by-step guide on [how to update python on windows](https://4geeks.com/how-to/how-to-update-python-on-windows) where we cover with pictures of every step.
 
 #### Update Python version using Chocolatey Package Manager
 
-Chocolatey Package Manager has become a favorite among Windows users when handling Pythoon versions or adding other software to our System using PowerShell.
+Chocolatey Package Manager has become a favorite among Windows users when handling Python versions or adding other software to our System using PowerShell.
 
 ##### Installing Chocolatey
 
