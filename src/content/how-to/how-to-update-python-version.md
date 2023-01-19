@@ -2,7 +2,7 @@
 title: "How to update Python version?"
 subtitle: "On this step-by-step guide you'll find how to update python version on all mayor Operating Systems (Windows, MacOS and Linux) making use of Chocolatey, Homebrew and Deadsnakes as well with the option to download and install from python.org"
 tags: ["python"]
-authors: [@javierseiglie]
+authors: [javierseiglie]
 status: "draft"
 
 ---
