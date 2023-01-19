@@ -25,11 +25,11 @@ sudo apt install python3.9
 To update Python on a Windows Operating System to the latest, we can choose 2 ways, it's up to you which want you want to follow:
 
 1. Downloading the Python installer of the version we want
-2. Making use of Windows Chocolatey, a powerfull package manager 
+2. Making use of Windows Chocolatey, a powerful package manager 
 
 #### Update by downloading the Python version
 
-- The installer we´ll find it on [python.org](https://www.python.org/downloads/windows/ "python.org")
+- The installer we'll find it on [python.org](https://www.python.org/downloads/windows/ "python.org")
 - Select `Latest Python 3 Release - Python 3.11.1` (if there's a new version when you read this article, it won't be Python 3.11.1)
 - Scroll until you find a table with all the version available and select the one that suits you the best (in our case `Windows installer (64-bit)`)
 - Once downloaded run the installer and follow instructions. If there's not a installed Python version already, it'll install this version. If there's a Python version already installed, it'll upgrade it. 
@@ -80,7 +80,7 @@ python is not installed. Installing
 Progress: Downloading python3 3.11.0... 90%
 ```
 
-Let's verify that the install and upgrade was succesfull with the command we used earlier
+Let's verify that the install and upgrade was successful with the command we used earlier
 
 ```powershell
 python -V
@@ -106,7 +106,9 @@ WARNING: Python 2.7 is not recommended. This version is included in macOS for co
 It means that you need to update your python version ASAP, so let´s get into it.
 
 There are 2 options to update Python on MacOs:
+
 1. Download and install the version from python
+
 2. Use Homebrew to intall pyenv package manager and then install the Python version(s) you want
 
 #### Update by downloading
