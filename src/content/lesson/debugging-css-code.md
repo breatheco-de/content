@@ -1,3 +1,9 @@
+---
+title: "Debugging CSS Code"
+subtitle: "Debugging css code faster and more efficiently. Save more than 50% of your debugging time when coding CSS."
+tags: ["debugging", "web development", "html/css"]
+
+--- 
 # Debugging CSS code
 
 This guide is meant to teach you how to fix bugs in your CSS code. If you are not sure if your error is in your HTML, y recommend reading: [What is debugging and how to master it](https://4geeks.com/lesson/what-is-debugging-code).
@@ -70,7 +76,7 @@ Do not use the **position property** for layouts, use `display: flex;` instead.
 
 I use the position rule for little things like attaching a notification bubble to an icon, here is a 5 min video on how absolute vs relative work.
 
-[![position relative vs absolute in css](https://cdn.loom.com/sessions/thumbnails/3715da41c2ec45be8711c4f8944e406b-with-play.gif)](https://www.loom.com/share/3715da41c2ec45be8711c4f8944e406b)
+[![position relative vs absolute in css](https://storage.googleapis.com/breathecode-asset-images/09bb8857a98f0284c10bfb7ff7f343718e6fd1e2ad247920aacb71a71687d0c3.gif)](https://www.loom.com/share/3715da41c2ec45be8711c4f8944e406b)
 
 ## The Flex Box for doing layouts
 The most powerful tool for building layouts is the flexbox. [Here is a 5 min video on how it works](https://www.youtube.com/watch?v=ZRc2vUF92e8).
