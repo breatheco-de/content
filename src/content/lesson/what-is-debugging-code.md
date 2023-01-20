@@ -138,7 +138,7 @@ The last step is obviously fixing the bug; it may take a while, and you may have
 I have prepared very straightforward cheat sheets to debug the most common errors you will find while coding web applications and APIs as a junior developer.
 
 - [Debugging HTML code errors](https://4geeks.com/en/lesson/debugging-html-code).
-- Debugging CSS code errors.
+- [Debugging CSS code errors](https://4geeks.com/en/lesson/debugging-css-code).
 - Debugging Javascript Front End Errors.
 - Debugging React.js Front End Errors.
 - Debugging Python Script backend errors.
