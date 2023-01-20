@@ -3,7 +3,7 @@ title: "Debugging HTML Code"
 subtitle: "Debugging code faster and more efficiently. Save more than 50% of your debugging time when coding HTML."
 tags: ["debugging", "web development", "html/css"]
 
----
+--- 
 # Debugging HTML code
 
 HTML Code is difficult to debug initially, but it's easy to grasp if you follow this recipe. You only need to know 2-3 things before starting to code or debug in HTML that will make you a master. Yes, it's that easy, so don't worry and keep reading.
@@ -94,7 +94,7 @@ HTML tags have attributes, for example, the `<img>` tag has `src` attribute: `<i
 
 Two find those errors: The best tool is the syntax highlighter. It will show weird coloring; look at this image for a better understanding.
 
-![how missing quotes look in your syntax highlighter](https://storage.googleapis.com/breathecode-asset-images/150fb586068562a94c16393d2ee1369df1fc54e875f88274e5269b9f706fd63a.png)
+![how missing quotes look in your syntax highlighter](https://i.imgur.com/JzNqq1W.png)
 
 ### Bad `<link>` or `<script>` tag url
 
@@ -104,6 +104,6 @@ When linking your HTML to a separate CSS Stylesheet or Javascript Script, you wi
 
 How do you know your link tag is wrong? The Dev Tools Inspector console will show a 404 error like this (look at the image below):
 
-![error stylesheet not loading on your website](https://i.imgur.com/djhOBGs.png)
+![error stylesheet not loading on your website](https://storage.googleapis.com/breathecode-asset-images/ec4a60f3823464d8fcb8a861b8bf3c786a65015e6ce66f63d17ff11bb161c0a3.png)
 
 > **Note**: It shows the URL it used to retrieve your stylesheet; check that the URL is OK.
