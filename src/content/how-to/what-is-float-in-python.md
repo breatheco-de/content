@@ -1,6 +1,6 @@
 ---
 title: "What is float in python?"
-subtitle: "The double slash `//` operator in Python is used to divide a number by its floor."
+subtitle: "A float type variable is used to store real numbers with fractions (or floating point numbers). The float() method returns a float number from any received integer, numeric string or even a boolean!"
 tags: ["python"]
 authors: [javierseiglie]
 status: "draft"
