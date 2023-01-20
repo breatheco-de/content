@@ -69,10 +69,11 @@ Debugging becomes more challenging as your application grows into more pieces th
 
 I'm going to assume the worst: You have no idea when the bug first appeared and have made many changes since the last time you ran your application. So these are the clues you have to start debugging:
 
-In the front end:
+**In the front end:**
 Check for an error message in the developer console.
 Check for a request error in the network tab.
-In the backend:
+
+**In the backend:**
 If you are building on a server: Check for the request log.
 Check for exceptions in the terminal.
 
@@ -136,7 +137,8 @@ The last step is obviously fixing the bug; it may take a while, and you may have
 
 I have prepared very straightforward cheat sheets to debug the most common errors you will find while coding web applications and APIs as a junior developer.
 
-- Debugging HTML/CSS errors.
+- [Debugging HTML code errors](https://4geeks.com/en/lesson/debugging-html-code).
+- Debugging CSS code errors.
 - Debugging Javascript Front End Errors.
 - Debugging React.js Front End Errors.
 - Debugging Python Script backend errors.
