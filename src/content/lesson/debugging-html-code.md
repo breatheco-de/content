@@ -1,6 +1,14 @@
+---
+title: "Debugging HTML Code"
+subtitle: "Debugging code faster and more efficiently. Save more than 50% of your debugging time when coding HTML."
+tags: ["debugging", "web development", "html/css"]
+
+---
 # Debugging HTML code
 
 HTML Code is difficult to debug initially, but it's easy to grasp if you follow this recipe. You only need to know 2-3 things before starting to code or debug in HTML that will make you a master. Yes, it's that easy, so don't worry and keep reading.
+
+If you are interested in debugging other languages or technologies where is our full guide about [What is debugging](https://) and how to become a master in debugging when coding front end and backend web development.
 
 ## Preventing errors
 
@@ -86,7 +94,7 @@ HTML tags have attributes, for example, the `<img>` tag has `src` attribute: `<i
 
 Two find those errors: The best tool is the syntax highlighter. It will show weird coloring; look at this image for a better understanding.
 
-![how missing quotes look in your syntax highlighter](https://i.imgur.com/JzNqq1W.png)
+![how missing quotes look in your syntax highlighter](https://storage.googleapis.com/breathecode-asset-images/150fb586068562a94c16393d2ee1369df1fc54e875f88274e5269b9f706fd63a.png)
 
 ### Bad `<link>` or `<script>` tag url
 
