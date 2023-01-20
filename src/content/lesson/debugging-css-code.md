@@ -16,11 +16,13 @@ Your coding editor has syntax highlighting that will help you recognize syntax e
 The Developer Tool: It has two sections that you need to learn and use pretty well:
 
 ### a) The `elements` tab
+
 Shows the HTML tag in your website and which selectors it has. You can look at the class or ID attributes on each tag.
 
 ![The elements tab on the developer tools website inspector](https://i.imgur.com/oJoH8C3.png)
 
 ### b) The `Styles` tab within the `elements` tab
+
 If you click on one of the tags, the "`styles`" tab will show which styles are being applied to it.
 
 ![Styles tab inside the developer tools website inspector](https://i.imgur.com/UM926NI.png)
@@ -33,9 +35,9 @@ These are some of the most difficult errors to debug:
 Do you remember any time in your developer history when you tried applying a style to one element, but nothing was happening? No matter what you did, the element kept the same.
 
 This can happen for several reasons:
-You are using the wrong selector.
-You are misspelling in the selector.
-There is another style overriding yours (styling conflict).
+- You are using the wrong selector.
+- You are misspelling in the selector.
+- There is another style overriding yours (styling conflict).
 
 #### Follow these steps to fix the error
 
@@ -83,5 +85,6 @@ The most powerful tool for building layouts is the flexbox. [Here is a 5 min vid
 
 ## Master the CSS Selectors
 Please take some time to master the basic and advanced CSS selectors; here are some resources:
-Here is a 5min video on the [basics of CSS Selectors](https://www.youtube.com/watch?v=0Wt1n0wvSe8).
-Here is a 5min read to understand all the [advanced selectors](https://4geeks.com/lesson/mastering-css-selectors) that will help you clean your code. Better code.
+
+- Here is a 5min video on the [basics of CSS Selectors](https://www.youtube.com/watch?v=0Wt1n0wvSe8).
+- Here is a 5min read to understand all the [advanced selectors](https://4geeks.com/lesson/mastering-css-selectors) that will help you clean your code. Better code.
