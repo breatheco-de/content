@@ -21,14 +21,14 @@ Comencemos diciendo que JavaScript por defecto es síncrono y con una sola secue
 #### Sincróno(por defecto)
 
 ```javascript
-1    function ejecutarPrimero(){
-2 	console.log("primero");
-3    }
-4    function ejecutarSegundo(){
-5 	console.log("segundo");
-6    }
-7    ejecutarSegundo();
-8    ejecutarPrimero();
+function ejecutarPrimero(){
+	console.log("primero");
+}
+function ejecutarSegundo(){
+	console.log("segundo");
+}
+ejecutarSegundo();
+ejecutarPrimero();
 
 /*
 RESULTADO EN CONSOLA:
@@ -44,15 +44,15 @@ Las cosas se complican más cuando se llaman funciones dentro de funciones, como
 #### Funciones de Llamada
 
 ```javascript
-1    function correPrimero(){
-2	console.log("Quiero correr primero");
-3	correSegundo();
-4	console.log("Yo también quiero correr cuando correPrimero corra");
-5    }
-6    function correSegundo(){
-7	console.log("¿Donde estoy corriendo?");
-8    }
-9   correPrimero();
+function correPrimero(){
+	console.log("Quiero correr primero");
+	correSegundo();
+	console.log("Yo también quiero correr cuando correPrimero corra");
+}
+function correSegundo(){
+	console.log("¿Donde estoy corriendo?");
+}
+correPrimero();
 
 /*
 RESULTADO CONSOLA:
@@ -78,21 +78,21 @@ Pero espera, hay más... Incluso podríamos pasar una *función* como argumento 
 #### Funciones de Devolución de Llamada
 
 ```javascript
-1    function correPrimero(unaFuncion){
-2	console.log("Quiero correr primero");
-3	unaFuncion();
-4	correSegundo();
-5	console.log("También quiero correr cuando se ejecute correPrimero");
-6    }
-7    function correSegundo(){
-8	console.log("¿Donde estoy corriendo?");
-9    }
-10   correPrimero(unaTercera);
-11
-12   function unaTercera(){
-13	console.log("Esto es una locura");
-14   }
-15
+function correPrimero(unaFuncion){
+	console.log("Quiero correr primero");
+	unaFuncion();
+	correSegundo();
+	console.log("También quiero correr cuando se ejecute correPrimero");
+}
+function correSegundo(){
+	console.log("¿Donde estoy corriendo?");
+}
+correPrimero(unaTercera);
+
+function unaTercera(){
+	console.log("Esto es una locura");
+}
+
 
 /*
 RESULTADO CONSOLA:
@@ -119,17 +119,16 @@ Ahora, supongamos que necesitamos cargar algunos archivos desde un servidor, esp
 #### Carga síncrona de imágenes.
 
 ```javascript
-1    function cargarImagen(){
-3	console.log("¡Cárgala!");
-4	//código para cargar una imagen
-5	console.log("¡Imagen cargada!");
-6    }
-7    function usuarioEsperando(){
-8	console.log("No me gusta esperar");
-9    }
-10   cargarImagen ();
-11   usuarioEsperando ();
-12
+function cargarImagen(){
+	console.log("¡Cárgala!");
+	//código para cargar una imagen
+	console.log("¡Imagen cargada!");
+}
+function usuarioEsperando(){
+	console.log("No me gusta esperar");
+}
+cargarImagen ();
+usuarioEsperando ();
 
 /*RESULTADO CONSOLA
 	> ¡Cárgala! 			//el usuario comienza a esperar
