@@ -19,14 +19,14 @@ Let's start by stating that JavaScript is synchronous and single-threaded by def
 #### Synchronous (default)
 
 ```javascript
-    function runFirst(){
- 	console.log("first");
-    }
-    function runSecond(){
- 	console.log("second");
-    }
-    runSecond();
-    runFirst();
+function runFirst(){
+	console.log("first");
+}
+function runSecond(){
+	console.log("second");
+}
+runSecond();
+runFirst();
 
 /*
 CONSOLE OUTPUT:
@@ -42,15 +42,15 @@ Things get more complicated when calling functions inside functions, as we can s
 #### Calling functions
 
 ```javascript
-    function runFirst(){
+function runFirst(){
 	console.log("I want to run first");
 	runSecond();
 	console.log("I also want to run when runFirst runs");
-    }
-    function runSecond(){
+}
+function runSecond(){
 	console.log("Where am I running?");
-    }
-   runFirst();
+}
+runFirst();
 
 /*
 CONSOLE OUTPUT:
@@ -76,20 +76,20 @@ But wait, there's more... We could even pass a *function* as an argument to anot
 #### Callback functions
 
 ```javascript
-    function runFirst(someFunction){
+function runFirst(someFunction){
 	console.log("I want to run first");
 	someFunction();
 	runSecond();
 	console.log("I also want to run when runFirst runs");
-    }
-    function runSecond(){
+}
+function runSecond(){
 	console.log("Where am I running?");
-    }
-    runFirst(aThirdOne);
- 
-    function aThirdOne(){
- 	console.log("this is crazy");
-    }
+}
+runFirst(aThirdOne);
+
+function aThirdOne(){
+	console.log("this is crazy");
+}
  
 
 /*
@@ -144,7 +144,7 @@ In a real life website, users will have to wait for a long time to see something
 Asynchronous programming is a way to process lines of code and handle the result without affecting the main thread.
 
 ```javascript
-    function fetchingImages(){
+function fetchingImages(){
 	console.log("Load them!");
 	fetch("the_url_of_the_image").then( (response) => {
 		if(response.ok){ 
@@ -152,13 +152,13 @@ Asynchronous programming is a way to process lines of code and handle the result
 		} else {
 			console.log("Uh-oh something went wrong");
 		}
- 	});
-    }
-    function userIsWaiting(){
- 	console.log("I don't like waiting");
-    }
-    fetchingImages();
-    userIsWaiting();
+	});
+}
+function userIsWaiting(){
+	console.log("I don't like waiting");
+}
+fetchingImages();
+userIsWaiting();
  
 
 /*CONSOLE OUTPUT:
@@ -214,45 +214,45 @@ console.log(myPromise);
 ### Important methods to know when using promises
 + ***resolve***: it returns a promise object that has the status of resolved with a value.
 ```javascript
-	//here Promise represents the Promise object.
-	Promise.resolve("I was resolved with this value").then(value => console.log(value));
-	
-	/*CONSOLE OUTPUT:
-	>"I was resolved with this value"
-	
-	***********
-		a better recommended approach will be initializing a variable 
-		equals to the resolved Promise.
-		
-	--- sample: 
-		var myResolvedPromise =  Promise.resolve("I was resolved with this value");
-	*/
+//here Promise represents the Promise object.
+Promise.resolve("I was resolved with this value").then(value => console.log(value));
+
+/*CONSOLE OUTPUT:
+>"I was resolved with this value"
+
+***********
+	a better recommended approach will be initializing a variable 
+	equals to the resolved Promise.
+
+--- sample: 
+	var myResolvedPromise =  Promise.resolve("I was resolved with this value");
+*/
 ```
 
 
 + ***reject***: it returns an already rejected promise with a reason.
 
 ```javascript
-	Promise.reject(new Error("I was rejected")).catch(error => console.log(error));
+Promise.reject(new Error("I was rejected")).catch(error => console.log(error));
 ```
 
 
 + ***then***: this method return a promise and it can take up to 2 arguments. One for the resolved promise and one for the rejected promise. Above there is an example that uses ***then*** method and takes one argument.
 
 ```javascript
-	var promise =  new  Promise(function(resolve,reject){
-		resolve("I was resolved and you can see me when you use then method");
-	});
-	promise.then(value => console.log(value));
+var promise =  new  Promise(function(resolve,reject){
+	resolve("I was resolved and you can see me when you use then method");
+});
+promise.then(value => console.log(value));
 ```
 
 + ***catch***: returns a promise and deals with rejected operations. It is very handy when trying to debug or showing errors.
 
 ```javascript
-	var promise =  new  Promise(function(resolve,reject){
-		reject("I was rejected and you can see me when you use catch method");
-	});
-	promise.catch(error => console.log(error));
+var promise =  new  Promise(function(resolve,reject){
+	reject("I was rejected and you can see me when you use catch method");
+});
+promise.catch(error => console.log(error));
 ```
 
 
