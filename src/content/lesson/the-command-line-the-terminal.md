@@ -12,7 +12,7 @@ status: "published"
 ## Why do Developers love the Command Line?
 
 
-At first, everybody hated the command line. After years of experience, it became an acquired taste.
+At first, the command line may have been widely disliked by many. But over time, it has become a preferred tool for many developers.
 
 But why do developers like it? Well, the list is infinite, but here are a few important reasons:
 
