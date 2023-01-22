@@ -76,9 +76,7 @@ CSS has some hard-to-understand topics that can follow you for years and create 
 
 Do not use the **position property** for layouts, use `display: flex;` instead.
 
-I use the position rule for little things like attaching a notification bubble to an icon, here is a 5 min video on how absolute vs relative work.
-
-[![position relative vs absolute in css](https://storage.googleapis.com/breathecode-asset-images/09bb8857a98f0284c10bfb7ff7f343718e6fd1e2ad247920aacb71a71687d0c3.gif)](https://www.loom.com/share/3715da41c2ec45be8711c4f8944e406b)
+I use the position rule for little things like attaching a notification bubble to an icon, here is a 5 min video on [how absolute vs relative work](https://www.loom.com/share/3715da41c2ec45be8711c4f8944e406b).
 
 ## The Flex Box for doing layouts
 The most powerful tool for building layouts is the flexbox. [Here is a 5 min video on how it works](https://www.youtube.com/watch?v=ZRc2vUF92e8).
