@@ -60,9 +60,11 @@ Es muy fácil decidir como se verá tu página web en pantallas de diferente tam
 |:---------|:--------|:----|
 |Significa que este elemento debe comportarse como una columna de Bootstrap.   |Significa que estoy especificando sólo para dispositivos con tamaño de pantalla mediano.   |Especifica cuantos espacios quiero que abarque la columna (recuerda que puede abarcar max 12 espacios por fila).   |
 
-> :point_up:Bootstrap device sizes:   |Smartphones   |Big-phone/small-tablet   |Tablets   |Desktops   |Extra-large desktops   |
-|:----------|:---------------|:-------------|:-----------|:------------|:---------|
-| &nbsp;           |Nothing    |sm       |md       |lg      |xl        |
+Bootstrap device sizes:   
+
+| Smartphones   | Big-phone/small-tablet   | Tablets  | Desktops   | Extra-large desktops |
+|:------------- |:------------------------ |:-------- |:---------- |:-------------------- |
+| Nothing       | sm                       | md       | lg         | xl                   |
 
 > :point_up: Nota: si no especificas el tamaño de pantalla (ej. usando 'sm', 'md', or 'xl'), el sitio web va a renderizar para teléfonos móviles por defecto.
 
