@@ -41,7 +41,7 @@ This can happen for several reasons:
 
 #### Follow these steps to fix the error
 
-Open the developer tools `elements`
+Open the developer tools `elements`.
 Click on the HTML tag you want to inspect.
 Look at the `style` tab, which shows the styles applied to the element.
 Check if your selector and rules are on the list of styles applied to the tag.
@@ -70,6 +70,7 @@ If one style is being overridden by another, they will both show, but one will b
 > Note: In the image above, the `color` CSS rule is being overridden twice.
 
 ## Other things to prevent
+
 CSS has some hard-to-understand topics that can follow you for years and create a lot of bugs, so please beware and take the time to understand them well.
 
 ## Absolute vs Relative positioning
@@ -79,9 +80,11 @@ Do not use the **position property** for layouts, use `display: flex;` instead.
 I use the position rule for little things like attaching a notification bubble to an icon, here is a 5 min video on [how absolute vs relative work](https://www.loom.com/share/3715da41c2ec45be8711c4f8944e406b).
 
 ## The Flex Box for doing layouts
+
 The most powerful tool for building layouts is the flexbox. [Here is a 5 min video on how it works](https://www.youtube.com/watch?v=ZRc2vUF92e8).
 
 ## Master the CSS Selectors
+
 Please take some time to master the basic and advanced CSS selectors; here are some resources:
 
 - Here is a 5min video on the [basics of CSS Selectors](https://www.youtube.com/watch?v=0Wt1n0wvSe8).
