@@ -9,7 +9,7 @@ We all make a lot of mistakes when coding. This is a reality that every senior d
 
 ## It's OK to make mistakes
 
-> 🤯 I have measured my "error rate"; I know I make > 100 mistakes during an honest day of coding (and I have been coding for 23 years, since the year 2000). 
+ I have measured my "error rate"; I know I make > 100 mistakes during an honest day of coding (and I have been coding for 23 years, since the year 2000). 
 
 These mistakes can be very simple, like misspelling a line of code, or more elaborate rabbit holes, like writing some code that leads to a memory overflow. I'm not scared of making these mistakes because I have a very effective and fast way of identifying and fixing bugs.
 
