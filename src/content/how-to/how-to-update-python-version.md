@@ -20,14 +20,14 @@ sudo apt update
 sudo apt install python3.9
 ```
 
-### Updating Python on Windows OS:
+## Updating Python on Windows OS:
 
 To update Python on a Windows Operating System to the latest, we can choose 2 ways, it's up to you which want you want to follow:
 
 1. Downloading the Python installer of the version we want
 2. Making use of Windows Chocolatey, a powerful package manager 
 
-#### Update by downloading the Python version
+### Update by downloading the Python version
 
 - The installer we'll find it on [python.org](https://www.python.org/downloads/windows/ "python.org")
 - Select `Latest Python 3 Release - Python 3.11.1` (if there's a new version when you read this article, it won't be Python 3.11.1)
@@ -42,11 +42,11 @@ python -V
 
 For a more in-depth guide regarding this procedure, please head to our step-by-step guide on [how to update python on windows](https://4geeks.com/how-to/how-to-update-python-on-windows) where we cover with pictures of every step.
 
-#### Update Python version using Chocolatey Package Manager
+### Update Python version using Chocolatey Package Manager
 
 Chocolatey Package Manager has become a favorite among Windows users when handling Python versions or adding other software to our System using PowerShell.
 
-##### Installing Chocolatey
+#### Installing Chocolatey
 
 - Open the PowerShell as administrator. On your start menu type `powershell` and select `Run as Administrator`
 
@@ -64,7 +64,7 @@ Chocolatey v1.2.0
 Please run 'choco -?' or 'choco <command> -?' for help menu.
 ```
 
-#### Updating Python with Chocolatey
+### Updating Python with Chocolatey
 
 Having Chocolatey installed in our System, upgrading Python is now as simple as typing:
 `choco upgrade python -y`
@@ -87,11 +87,11 @@ python -V
 #Output: Python 3.11.0
 ```
 
-### Updating Python on MacOS
+## Updating Python on MacOS
 
 Even if almost the entire Python community has moved to Python 3.X, MacOS still comes with version 2.9. To use the latest Python version you'll need to install it manually.
 
-#### Checking python version on MacOS:
+### Checking python version on MacOS:
 
 Let´s first check if your System is indeed using the version 2.9 or a later one. 
 
@@ -111,14 +111,14 @@ There are 2 options to update Python on MacOs:
 
 2. Use Homebrew to intall pyenv package manager and then install the Python version(s) you want
 
-#### Update by downloading
+### Update by downloading
 
 - Head to [python.org](https://www.python.org/downloads/macos/ "python.org")
 - Select the latest version (`Latest Python 3 Release - Python 3.11.1` latest version when writing this article ) or scroll until you find the version you want.
 - Once download finishes, run the installer
 - Verify the installation opening the terminal and typing the following command `python -V`
 
-#### Getting ready to upgrade with Homebrew:
+### Getting ready to upgrade with Homebrew:
 
 To handle our Python development enviorments and Python version we use `Homebrew`, a powerfull package manager for all Mac Operating Systems.
 
@@ -131,7 +131,7 @@ Most probably, you´ll be prompted for `sudo` (Super User-level access) and to g
 
 Now that we installed Homebrew on our System, we´ll install `pyenv` to manage our Python versions more efficiently.
 
-#### Installing pyenv
+### Installing pyenv
 
 What `pyenv` will allow us to do, is to switch between different Python versions (remember, Python 4 will come out soon, yay!)
 
@@ -140,7 +140,7 @@ What `pyenv` will allow us to do, is to switch between different Python versions
 
 It´s done! We now have pyenv installed and now we'll make a new Python installation or upgrade it.
 
-#### Installing/Updating Python on pyenv 
+### Installing/Updating Python on pyenv 
 
 Thanks to pyenv we now can install Python with a simple one liner:
 
@@ -150,7 +150,7 @@ pyenv install 3.9.9
 
 It´s not mandatory to use version 3.9.9, you can instead pass any version you wish to install.
 
-#### Installation errors
+### Installation errors
 
 If you receive an error regarding `C compiler cannot create executables` most probably is XCode related and if you upgrade your MacOS to Big Sur, then probabilities goes higher.
 
@@ -159,11 +159,11 @@ Fixing this problem ain´t a big problem, but will take as much time as your int
 - Download the latest version of [Apple's Xcode here](https://developer.apple.com/download/ "Apple's Xcode here")
 - Re-run the previous commands `pyenv install 3.9.9` and it should work just fine
 
-#### Set up your MacOS path for pyenv (Bash)
+### Set up your MacOS path for pyenv (Bash)
 
 To use our pyenv we need to update our `.bash_profile` with the following commands:
 
-##### With `/bin` directory
+#### With `/bin` directory
 -  ```bash 
  echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
  ```
@@ -171,7 +171,7 @@ To use our pyenv we need to update our `.bash_profile` with the following comman
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
  ```
 
-##### Without `/bin` directory
+#### Without `/bin` directory
 If your System doesn't have a `/bin` directory in the `pyenv_root` folder most probably, you only have `/shims` directory. If it´s the case, you'll need this commands instead
 
 - ```bash
@@ -181,7 +181,7 @@ If your System doesn't have a `/bin` directory in the `pyenv_root` folder most p
 echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bash_profile
 ```
 
-##### Reseting the terminal to get the changes
+#### Reseting the terminal to get the changes
 
 We need to reset the terminal in order for all this changes to be accesible.
 
@@ -191,7 +191,7 @@ To reset the terminal, just type:
 reset
 ```
 
-### Update Python on Linux
+## Update Python on Linux
 
 We´ll be using deadsnakes ppa (Personal Package Archives) that'll allows us to have multiple python versions installed on our System at the same time.
 
