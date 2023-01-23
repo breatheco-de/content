@@ -144,22 +144,3 @@ He preparado hojas de trucos muy sencillas para depurar los errores más comunes
 - Depuración de errores de backend de API de Python Flask.
 
 > 📄 Nota: Haga clic en cualquiera de los elementos anteriores para aprender sobre la depuración de cada tecnología.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
