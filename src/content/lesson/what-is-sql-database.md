@@ -96,7 +96,7 @@ Creates a new table, a view of a table, or another object in the database.
 CREATE TABLE IF NOT EXISTS `chat_group` (
   `chat_group_id` int(10) UNSIGNED NOT NULL,
   `name` varchar(20) NOT NULL,
-  `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+  `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY('chat_group_id')
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
