@@ -1,5 +1,5 @@
 ---
-title: "It's Time To Learn What is an Array"
+title: "It's Time To Learn About Arrays"
 subtitle: "Can you work with arrays ? if you can't,  don't worry here you will learn what is an array and how to work with them"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
