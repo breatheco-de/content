@@ -1,6 +1,6 @@
 ---
 title: "How to use GIT: Version Control System"
-subtitle: "Learn how to use GIT with an interactive tutorial, video, and great article. Without GIT you won't be able to work at any company, and you won't be able to use anyone's code."
+subtitle: "Learn how to use GIT with an interactive tutorial, a video, and a great article. Without GIT you won't be able to work at any company or use anyone's code."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 thumb: "https://breatheco.de/wp-content/uploads/2017/03/commit-object.png"
@@ -10,10 +10,10 @@ status: "published"
 
 ---
 
-> :point_up: We have also prepared an interactive tutorial about GIT [click here to take it!](https://4geeksacademy.github.io/git-interactive-tutorial/)
+> :point_up: We have also prepared an interactive tutorial about GIT. [Click here to take it!](https://4geeksacademy.github.io/git-interactive-tutorial/)
 
 
-> 📹 This is [an amazing video explaining git and github](https://www.youtube.com/watch?v=BCQHnlnPusY)
+> 📹 This is [an amazing video explaining GIT and GitHub](https://www.youtube.com/watch?v=BCQHnlnPusY)
 
 
 ## GIT is a MUST!
@@ -24,7 +24,7 @@ GIT is more than just a "set of commands" that you have to learn.  Throughout th
 
 ## Why Bother to use GIT?
 
-Being the only developer in a project is a [utopia](http://www.thefreedictionary.com/Utopic).  Normally, you collaborate with other developers, and, without GIT, that becomes a big problem.  That’s why we need a *repository* of information to centralize and manage changes.  With a *repository* we are addressing the following:
+Being the only developer in a project is an [utopia](http://www.thefreedictionary.com/Utopic).  Normally, you collaborate with other developers, and, without GIT, that becomes a big problem.  That’s why we need a *repository* of information to centralize and manage changes.  With a *repository* we are addressing the following:
 
 + If two developers work on **the same page (file)**, GIT will compare both versions and will *(try to)* merge them into a new one.
 + Downloading and integrating someone else’s code (or any code) into your project without much hassle and doing so automatically.
@@ -73,7 +73,7 @@ At the beginning, a project always has one commit object with no parents.  This 
 
 The heads of the repository are like the "revision history of the project."  A revision history is a list of commit objects that altogether contain all the changes that you and your other team members have made to the project files.
 
-Every time you make a new commit, the head will move to that new commit.  This way you are able to have access to the entire project history of commits.
+Every time you make a new commit, the head will move to that new commit.  This way, you are able to have access to the entire project history of commits.
 
 You can **move the head** if you want.  It does not necessarily have to always be the last commit, but you must remember that you can only review commits that came before the commit to which the head is pointing at.  **Commits made after the commit to which the head is pointing at are not possible to be reviewed.**
 
@@ -90,7 +90,7 @@ Example: Let’s say that you are starting to develop the "Login" feature/functi
 
 ![how to use git](../../assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif)
 
-> :point_up:**Note on Terminology:** The terms "branch" and "head" are nearly synonyms in GIT.  Every branch is represented by one head, and every head represents one branch.  Sometimes, "branch" will be used to refer to a head and the entire history of commits preceding that head, whereas "head" will be used to refer exclusively to a single commit object (the most recent commit in the branch).
+> :point_up:**Note on terminology:** The terms "branch" and "head" are nearly synonyms in GIT.  Every branch is represented by one head, and every head represents one branch.  Sometimes, "branch" will be used to refer to a head and the entire history of commits preceding that head, whereas "head" will be used to refer exclusively to a single commit object (the most recent commit in the branch).
 
  ## Starting a New Repo** `git init`
 
@@ -126,7 +126,7 @@ Other commands that are useful at this point:
 + `git diff` shows the difference between HEAD and the current project state.  With the --cached option, it compares added files against HEAD; otherwise it compares files not yet added.*
 + `git mv` and `git rm` mark files to be moved (renamed) and removed, respectively, much like `git add`.
 
-My personal workflow usually looks like this:  I first do some programming, and, afterward, I end up updating some files, then I run the following commands:
+My personal workflow usually looks like this:  I first do some programming, and, afterwards, I end up updating some files, then I run the following commands:
 
 ```bash
 git status //to see what files I changed.
@@ -135,11 +135,11 @@ git commit -a -m [message] //to commit.
 ```
 ## Referring to a Commit
 
-Now that you’ve created commits, how do you refer to a specific commit?  GIT provides many ways to do so.  Here are a few:
+Now that you’ve created commits, how do you refer to a specific commit?  GIT provides many ways to do so.  Here there are a few:
 
 + By its SHA1 name (which you can get from `git log`).
 + By the first few characters of its SHA1 name.
-+ By a head.  For example, `HEAD` refers to the commit object referenced by *HEAD*.  You can also use the name (such as master).
++ By a head.  For example, `HEAD` refers to the commit object referenced by *HEAD*.  You can also use the name (such as `master`).
 + Relative to a commit.  Putting a caret (^) after a commit name retrieves the parent of that commit.  For example, *HEAD^* is the parent of the current head commit.
 
 
@@ -149,7 +149,7 @@ Now that you’ve created commits, how do you refer to a specific commit?  GIT p
 
  ![how to use git](../../assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png)
 
- Let's jump back to commit (2) and start new work from there.  You will first need to know how to reference the commit.  You can use `git log` to get the SHA1 name of (2)
+ Let's jump back to commit (2) and start a new work from there.  You will first need to know how to reference the commit.  You can use `git log` to get the SHA1 name of (2)
 
 ```bash
  git log
@@ -173,7 +173,7 @@ Now our commit tree looks like this:
 
 ## Switching Between Branches
 
-In order to start working on that new branch, you need to set the current head to the head we just created.  This is done with git checkout:
+In order to start working on that new branch, you need to set the current HEAD to the HEAD we just created.  This is done with git checkout:
 
 ```bash
 git checkout [head-name]
@@ -184,15 +184,15 @@ This command does the following:
 + Points *HEAD* to the commit object specified by *\[head-name\]*.
 + Rewrites all the files in the directory to match the files stored in the new *HEAD* commit.
   
-> :point_up:**Important note:**  If there are any uncommitted changes when you run git checkout, GIT will behave very strangely.  The strangeness is predictable and sometimes useful, but it is best to avoid it.  All you need to do, of course, is commit all the new changes before checking out the new head.
+> :point_up:**Important note:**  If there are any uncommitted changes when you run git checkout, GIT will behave very strangely.  The strangeness is predictable and sometimes useful, but it is best to avoid it.  All you need to do, of course, is commit all the new changes before checking out the new HEAD.
 
-After checking out the *\[new-head\]* head, you will fix the headers.  Now you can add and commit the changes as above.  The resulting repository looks like this:
+After checking out the *\[new-head\]* head, you will fix the headers.  Now you can add and commit the changes as mentioned above.  The resulting repository looks like this:
 
 ![git8](../../assets/images/0352d1b1-0914-4d0f-9379-c47e7895ccb9.png)
 
 ## Merging 
 
-After you have finished implementing a new feature in a branch, you will want to bring that new feature into the main branch, so that everyone can use it.  You can do so with the `git merge` or `git pull` command.
+After you have finished implementing a new feature in a branch, you will want to bring that new feature into the main branch so that everyone can use it.  You can do so with the `git merge` or `git pull` command.
 
 The syntax for the command is as follows:
 
@@ -228,17 +228,17 @@ To share work among developers, GIT uses a **distributed model** of version cont
 
 ## Distributed Version Control
 
-Say you and your friend wants to work on the same project.  Your friend already has done some work on it.  There are three tasks you need to perform to figure out how to do so:
+Say you and your friend want to work on the same project.  Your friend has already done some work on it.  There are three tasks you need to perform to figure out how to do so:
 
 1. Get a copy of your friend’s up-to-date repository (git clone).
-2. Get the changes your friend makes into your own repository (git pull).
-3. Let your friend know about changes you made (git push).
+2. Get the changes your friend made into your own repository (git pull).
+3. Let your friend know about the changes you made (git push).
 
 ## Remote Specification
 
 GIT provides a number of transport protocols for sharing repository information, such as SSH and HTTP.  We will be using only HTTP, because SSH is more advanced and requires extra setup.
 
-To start working in collaboration with remote projects, we will need to know the remote URL of the project.  When using HTTP, the remote will look like this:
+To start working in collaboration with remote projects, we need to know the remote URL of the project.  When using HTTP, the remote will look like this:
 
 ```bash
 https://github.com/<github-username>/repository-name.git
@@ -259,7 +259,7 @@ Once you know the remote URL, you can add it to your project.
 You have to pick an alias for the remote – we normally use `origin`, but it is just an arbitrary word and you can use anything. 
 
 :warning:
-In our boilerplates, you will already have an origin set-up from the boilerplate's repository. In those cases you should not remove the original origin, but would need to use another term (e.g. `new` or `new-origin`, etc) to add your new remote. 
+In our boilerplates, you will already have an origin set-up from the boilerplate's repository. In those cases, you should not remove the original origin, but will need to use another term (e.g. `new` or `new-origin`, etc) to add your new remote. 
 
 Add the remote by executing the following command:
 
