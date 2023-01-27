@@ -98,7 +98,7 @@ Vamos a configurar el diseño (usando las clases de columnas xs, sm, md y lg) pa
 ## Estructura básica de Bootstrap 4
 
 
-Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web debe tener. Ahora solo debes agregar unas líneas en tu esqueleto para hacerlo compatible con Bootstrap::
+Ya sabemos sobre el esqueleto básico de HTML5 que todo sitio web debe tener. Ahora solo debes agregar unas líneas en tu esqueleto para hacerlo compatible con Bootstrap::
 
 ```html
 <!doctype html>
@@ -127,7 +127,7 @@ Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web debe tener. Aho
 
 Recuerda, Bootstrap es solo una hoja de estilos. Es por eso que es muy simple agregarlo a tu sitio web. Utiliza el `<link>` tag para incluir los estilos, y si quieres para usar la etiqueta de javascript `<script>` y así incluir los archivos de javascript de Bootstrap.
 
-La funcionalidad de Javascript en Bootstrap requiere que se incluyan las librerias propias de jQuery y Javascript primero pero no te preocupes por esto aún.   Sólo incluye las librerias de JS usando la etiqueta script y más adelante lo entenderás.
+La funcionalidad de Javascript en Bootstrap requiere que se incluyan las librerías propias de jQuery y Javascript primero pero no te preocupes por esto aún.   Sólo incluye las librerías de JS usando la etiqueta script y más adelante lo entenderás.
 
 > :link: Encuentra aquí [increíbles archivos de Bootstrap para que puedas empezar.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
@@ -148,9 +148,9 @@ Cuando importas Bootstrap en tu página web, tendrás un nuevo conjunto de compo
 
 #### Barra de navegación o NavBar
 
-Esto es tan popular que se encuentra en el 99% de los menús de todos los sitios web.  Normalmente contiene el logo de la compañía y una series de links - dependiendo de la lógica de negocio de la página. 
+Esto es tan popular que se encuentra en el 99% de los menús de todos los sitios web.  Normalmente contiene el logo de la compañía y unas series de links - dependiendo de la lógica de negocio de la página. 
 
-Aquí hay un ejemplo de como se ve un NavBar en un sitio web:
+Aquí hay un ejemplo de cómo se ve un NavBar en un sitio web:
 
 ![bootstrap tutorial](../../assets/images/6351de1c-6d90-4502-8823-4b751981db9f.png)
 
@@ -201,7 +201,7 @@ Este es probablemente el componente de Bootstrap más usado, cada sitio web tien
 + Un típico muro de Pinterest.
 + Cualquier historia de una red social como Instagram, Facebook, twitter, etc.
 
-Aquí hay un ejemplo de como puede verse un sitio web con una "Card":
+Aquí hay un ejemplo de cómo puede verse un sitio web con una "Card":
 
 ![bootstrap 4](../../assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png)
 
@@ -222,7 +222,7 @@ Aquí hay un ejemplo de como puede verse un sitio web con una "Card":
 
 #### El Modal
 
-Todo el mundo odia el modal, es muy molesto, ¡siempre pregunta si te quieres incribir a una revista! 🙂
+Todo el mundo odia el modal, es muy molesto, ¡siempre pregunta si te quieres inscribir a una revista! 🙂
 
 Así es como se ve modal por defecto con Bootstrap.
 
@@ -258,7 +258,7 @@ div class="modal" tabindex="-1" role="dialog">
 ## Lo que realmente necesitas saber sobre Bootstrap
 
 
-La documentación oficial de Bootstrap es increible!! No necesitamos copiar y pegar todos los post.  Por favor visita los siguientes sitios web y enfócate en leer estos temas:
+La documentación oficial de Bootstrap es increíble!! No necesitamos copiar y pegar todos los post.  Por favor visita los siguientes sitios web y enfócate en leer estos temas:
 
 + [The grid system.](https://getbootstrap.com/docs/4.1/layout/grid/)
 + [Styling Forms.](https://getbootstrap.com/docs/4.1/components/forms/)
