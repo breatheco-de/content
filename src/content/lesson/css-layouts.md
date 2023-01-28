@@ -41,7 +41,7 @@ All box containers can have the following attributes:
 
 ![css layout](../../assets/images/153d2a7c-b648-4d75-920b-940102f18eaa.gif) 
 
-In the following example, we divided the website content into 2 different areas. The left side will be the **The menu** and the right side will have **The content** of the website. We put a red color to the **#div1** of the menu, and a blue color to the **#div2** of the content so that the example is easier to understand.
+In the following example, we divided the website content into 2 different areas. The left side will be the **El menu** and the right side will have **The content** of the website. We put a red color to the **#div1** of the menu, and a blue color to the **#div2** of the content so that the example is easier to understand.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
