@@ -50,7 +50,7 @@ Tal como hicimos en el capítulo Layout del curso, creemos una página con 2 sec
 
 ## Bootstrap es 100% receptivo
 
-Es muy fácil decidir cómo se representará tu sitio web en diferentes tamaños de pantalla; cuando agregas cada columna a las filas, debes asignar una clase con el siguiente formato:
+Es muy fácil decidir cómo se representará tu sitio web en diferentes tamaños de pantalla, cuando agregas cada columna a las filas, debes asignar una clase con el siguiente formato:
 
 ```html
 <div class="col–md–x">
