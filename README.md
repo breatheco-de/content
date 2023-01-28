@@ -2,6 +2,8 @@
 
 ## Types of content:
 
+(marco here making the pull request)
+
 This list of contents is just a draft, some can be deleted or more can be added.
 
   1. Lessons: Long articles explaining big concepts like: HTML, JS Events, CSS Selectors, etc.
