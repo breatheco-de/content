@@ -275,7 +275,7 @@ Te recomendamos que uses el CDN para importar bootstrap en tu archivo HTML, de e
 
 Si estás migrando tu proyecto a nueva versión de Bootstrap, recuerda siempre verificar su documentación.
 
-## Gana RE2PECT.
+## Gana RESPECT.
 
 
 El éxito no llega de la noche a la mañana.  Este es tu primer logro.  Déjame preguntarte ¿te sientes capaz de usar HTML, CSS, Layouts y Bootstrap?  ¡No te mientas!
