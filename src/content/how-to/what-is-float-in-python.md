@@ -4,6 +4,7 @@ subtitle: "A float type variable is used to store real numbers with fractions (o
 tags: ["python"]
 authors: [javierseiglie]
 status: "draft"
+
 ---
 
 
