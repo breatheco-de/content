@@ -55,7 +55,7 @@ En Mac, abre el código fuente presionando simultáneamente las teclas `⌥ Opti
 
 Todos los principales navegadores tienen herramientas de desarrollo, la primera pestaña en las herramientas de desarrollo se llama "inspector" y contiene -casi- todo lo que necesitas para solucionar tus errores.
 
-![html code inspector](https://i.imgur.com/Fca0Hkm.gif)
+![html code inspector](https://storage.googleapis.com/breathecode-asset-images/5a332fb4d6bd6dd11f8eda2d8ad3263397b12b6478598a3f1f9d9538d2084868.gif)
 
 El inspector de herramientas de desarrollo muestra una `versión en vivo` de tu código en lugar de tu código fuente original. Esta "versión en vivo" se llama "DOM". Es lo que el navegador pudo interpretar de tu código. Estos son algunos casos que hacen que el inspector sea excelente:
 
