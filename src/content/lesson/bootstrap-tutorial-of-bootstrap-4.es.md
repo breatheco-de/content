@@ -46,7 +46,7 @@ Tal cual como lo hicimos en el capítulo sobre diseños, vamos a crear una pági
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/th7uLrow/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/th7uLrow/6/embedded/html,css,result/">Click aquí para ver el demo en una ventana nueva</a></small></div>
+<div class="align-content-right"><small><a href="//jsfiddle.net/BreatheCode/th7uLrow/6/embedded/html,css,result/">Click aquí para ver el demo en una ventana nueva</a></small></div>
 
 ## Bootstrap es 100% adaptable
 
