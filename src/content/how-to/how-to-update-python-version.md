@@ -2,7 +2,7 @@
 title: "How to update Python version?"
 subtitle: "On this step-by-step guide you'll find how to update python version on all mayor Operating Systems (Windows, MacOS and Linux) making use of Chocolatey, Homebrew and Deadsnakes as well with the option to download and install from python.org"
 tags: ["python"]
-authors: [javierseiglie]
+authors: ["javierseiglie"]
 status: "draft"
 
 ---
@@ -20,6 +20,8 @@ sudo apt update
 sudo apt install python3.9
 ```
 
+At this point you should know what is Python and what is its use, but if you want to learn more, you can read this [Introduction to Python](https://4geeks.com/lesson/intro-to-python) so you can refresh the content on your head and find some interesting info.
+
 ## Updating Python on Windows OS:
 
 To update Python on a Windows Operating System to the latest, we can choose 2 ways, it's up to you which want you want to follow:
@@ -29,7 +31,7 @@ To update Python on a Windows Operating System to the latest, we can choose 2 wa
 
 ### Update by downloading the Python version
 
-- The installer we'll find it on [python.org](https://www.python.org/downloads/windows/ "python.org")
+- The installer we'll find it on [python.org](https://www.python.org/downloads/windows/)
 - Select `Latest Python 3 Release - Python 3.11.1` (if there's a new version when you read this article, it won't be Python 3.11.1)
 - Scroll until you find a table with all the version available and select the one that suits you the best (in our case `Windows installer (64-bit)`)
 - Once downloaded run the installer and follow instructions. If there's not a installed Python version already, it'll install this version. If there's a Python version already installed, it'll upgrade it. 
@@ -113,7 +115,7 @@ There are 2 options to update Python on MacOs:
 
 ### Update by downloading
 
-- Head to [python.org](https://www.python.org/downloads/macos/ "python.org")
+- Head to [python.org](https://www.python.org/downloads/macos)
 - Select the latest version (`Latest Python 3 Release - Python 3.11.1` latest version when writing this article ) or scroll until you find the version you want.
 - Once download finishes, run the installer
 - Verify the installation opening the terminal and typing the following command `python -V`
@@ -156,7 +158,7 @@ If you receive an error regarding `C compiler cannot create executables` most pr
 
 Fixing this problem ain´t a big problem, but will take as much time as your internet speed will allow it. 
 
-- Download the latest version of [Apple's Xcode here](https://developer.apple.com/download/ "Apple's Xcode here")
+- Download the latest version of [Apple's Xcode here](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
 - Re-run the previous commands `pyenv install 3.9.9` and it should work just fine
 
 ### Set up your MacOS path for pyenv (Bash)
@@ -211,4 +213,4 @@ sudo apt install python3.11.1
 python3.11.1
 ```
 
-Hope you enjoy the reading and keep on the Geek side!
+If you want to grow as a developer you can check this [4Geeks](https://4geeks.com/) Lesson titled [Learn to Code with Python](https://4geeks.com/lesson/learning-to-code-with-python). Hope you enjoy the reading and keep on the Geek side!
