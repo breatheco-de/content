@@ -11,12 +11,11 @@ status: "published"
 
 ## Dándole la Vuelta
 
-
-Hay muchos cursos de programación por ahí; algunos incluso son gratis.  Si te uniste a 4Geeks Academy, es porque eres como nosotros.  Realmente crees que las habilidades difíciles de aprender como programar requieren mucho más que solo artículos y videos online o tutoriales que hacen parecer todo fácil.
-
+Hay muchos cursos de programación por ahí; algunos incluso son gratis. Si te uniste a 4Geeks Academy, es porque eres como nosotros. Realmente crees que las habilidades difíciles de aprender como programar requieren mucho más que solo artículos y videos online o tutoriales que hacen parecer todo fácil..
 Programar es difícil porque sólo se puede aprender con infinitas cantidades de práctica, tutoría uno a uno y desafíos de la vida real.
 
-Entonces, se nos ocurrió esta plataforma en línea.  Estos contenidos te guiaran a lo largo del programa.  Habrá una infinita cantidad de ejercicios/proyectos.  La clase se enfocará en capacitarte.  Te presentaremos un desafío tras otro, pero siempre bajo la supervisión de un senior que observará y te ayudará en todo tu proceso.  BreatheCode es el lugar para leer, aprender y practicar hasta que grabes todo de forma permanente en tu cerebro.
+Entonces, se nos ocurrió esta plataforma en línea. Estos contenidos te guiarán a lo largo del programa. Habrá una infinita cantidad de ejercicios/proyectos. La clase se enfocará en capacitarte. Te presentamos un desafío tras otro, pero siempre bajo la supervisión de un senior que observará y te ayudará en todo tu proceso. Breathe Code es el lugar para leer, aprender y practicar hasta que grabes todo de forma permanente en tu cerebro.
+
 
 ## ¿Así Que Prefieres No Leer Mucho?
 
