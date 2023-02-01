@@ -123,7 +123,7 @@ Another important use of conditionals is to generate HTML based on certain condi
 let alertHTMLCode = "<div>Warning! You cannot drive</div>";
 ```
 
-If we want this alert to show only if the user is younger that 16 years old we could do something like:
+If we want this alert to show only if the user is younger than 16 years old we could do something like:
 
 ```js
 let age = 14;
