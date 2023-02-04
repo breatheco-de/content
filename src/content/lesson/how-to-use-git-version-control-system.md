@@ -319,6 +319,6 @@ From now on, you will be able to say `origin` instead of `git@github.com:alesanc
 
 A branch that **tracks** a remote branch retains an internal reference to the remote branch.  This is a convenience that allows you to avoid typing the name of the remote branch in many situations, as will be described below.
 
-The important thing to note is that you now have a complete copy of your friend’s entire repository.  When you branch, commit, merge, or otherwise operate on the repository, you operate only on your own repository.  GIT only interacts with your friend’s repository when you specifically ask it to do so.
+The important thing to note is that you now have a complete copy of your friend’s entire repository.  When you branch, commit, merge, or otherwise operate on the repository, you operate only on your own repository.  GIT only interacts with your friend’s repository when you specifically ask it to do so. ;)
 
 > :link: Say your friend’s repository looks like this:<br>Here is a list of other great resources to learn GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br>You should especially try these two:<br>• https://try.github.io<br>• http://learngitbranching.js.org/ .
