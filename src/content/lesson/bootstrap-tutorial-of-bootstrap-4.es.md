@@ -1,5 +1,5 @@
 ---
-title: "Tutorial de Bootstrap: Aprende Bootstrap 4 en 10 minutos"
+title: "Tutorial de Bootstrap: Aprende Bootstrap 5 en 10 minutos"
 subtitle: "¡Después de decadas de lucha, la luz ha llegado! Con este tutorial de Bootstrap, diseñar un sitio web va a ser pan comido. Es absurdo, y casi imposible, pensar en hacer un sitio web sin un framework de CSS como Bootstrap."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
@@ -95,10 +95,10 @@ Vamos a configurar el diseño (usando las clases de columnas xs, sm, md y lg) pa
 </div>
 ```
 
-## Estructura básica de Bootstrap 4
+## Estructura básica de Bootstrap 5
 
 
-Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web debe tener. Ahora solo debes agregar unas líneas en tu esqueleto para hacerlo compatible con Bootstrap::
+Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web debe tener. Ahora solo debes agregar unas líneas en tu esqueleto para hacerlo compatible con Bootstrap:
 
 ```html
 <!doctype html>
@@ -131,7 +131,7 @@ La funcionalidad de Javascript en Bootstrap requiere que se incluyan las libreri
 
 > :link: Encuentra aquí [increíbles archivos de Bootstrap para que puedas empezar.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
-## Componentes de Bootstrap 4
+## Componentes de Bootstrap 5
 
 
 HTML es súper básico, sólo tiene un par de etiquetas - ya los sabíamos. Pero cuando revisas la web hoy en día, ves otra cosa… actualmente las páginas web tienen menús, íconos, barras de carga, etc. ¿Dónde están esas etiquetas? ¡Ninguna de ellas está definida en HTML!
