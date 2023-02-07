@@ -66,6 +66,44 @@ print(x==z) #output -> true
 print(x==1) #output -> true
 ```
 
+## Implementation
+
+### Using the == operator on loops
+
+Let's say that we have a list of names and we want to find if **one** name is present.
+
+```python
+# We will loop through the list with a `for loop` to find if Jane is on the provided list
+# The function will receive 2 elements, the list (array) and the name to find on the list
+# If the name is on the list, we will return the name and it's position on the list 
+
+names= ["James", "Willy", "Jane", "Barbara", "Pete", "Barbara"]
+
+def findName(arr, nameToSearch):
+    for x in range(len(arr)):
+        if arr[x] == nameToSearch:
+            return (str(arr[x]) + " at position " + str(x))
+
+print(findName(names, "Jane"))
+#Output-> Jane at position 2
+```
+
+Another example, now we'll be using a **while loop**. This time we'll be helping a rocking band to start a song!
+
+```python
+# We will create a function for a band to start rocking
+# We will recive the ammount of beats to wait to start rocking
+# With a while loop, until we reach the number of beats, we will show the classic "and 1..., and 2..., etc..."
+def offBeat(numOfBeats):
+  x=1
+  while x <=numOfBeats:
+    print("and " + str(x)+"... ")
+    x+=1
+      
+offBeat(4)
+#Output-> and 1... and 2... and 3... and 4...
+```
+
 #### [**Related: Why 4Geeks Academy teaches Python as a Backend Language**](https://4geeksacademy.com/us/python-bootcamp/why-we-teach-python-4geeks)
 
 Visit [4Geeks](https://4geeks.com/) to learn about Python and solutions to your possible errors. Hope you enjoy the reading and keep on the Geek side!
