@@ -12,7 +12,7 @@ with docstring method
 '''
 ```
 
-## Commenting one line
+## Commenting one line in Python
 
 The standard way to comment a line of code on python will be with the `#` char. 
 
@@ -23,7 +23,7 @@ print("But I will!")
 #Output-> Bit I will!
 ```
 
-## Commenting more than one line using `#`
+## Commenting more than one line in Python using `#`
 
 As you may already be thinking, if by using the `#`char we comment one line, we can spawn them to comment more lines? and the answer is yes! You can do just that.
 
@@ -34,7 +34,7 @@ print("But I will! I'm still the best")
 #Output-> Bit I will! I'm still the best
 ```
 
-## Commenting multiple lines with docstring method:
+## Commenting multiple lines with docstring method in Python:
 
 Docstring is the way to go if you want to comment a block of code on Python, since we are missing the `/**commented text**/` found on other languages as JavaScript, C#, etc.
 
@@ -76,7 +76,9 @@ print(addNumbers(2, 3))
 #Output-> 5
 ```
 
-## Commenting multiple lines on different IDEs:
+#### [**Related: Why 4Geeks Academy teaches Python as a Backend Language**](https://4geeksacademy.com/us/python-bootcamp/why-we-teach-python-4geeks)
+
+## Commenting multiple lines in Python on different IDEs:
 
 IDE makes our life as developers much easier with keyboard shortcuts and there's one that helps us to comment multiple lines with a single command
 
@@ -88,4 +90,4 @@ IDE makes our life as developers much easier with keyboard shortcuts and there's
 
 **Note:** These commands will place a `#` char on the beggining of all the lines selected to comment, will not insert a `docstring`.
 
-Hope you enjoy the reading and keep on the Geek side!
+You can check more of our articles at [4Geeks](4geeks.com) to learn more or solve issues with you coding. Hope you enjoy the reading and keep on the Geek side!

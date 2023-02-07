@@ -8,6 +8,7 @@ status: "draft"
 
 ---
 
+The double equal sign are used to compare two values. In logical operators, it will return `True` if both values are equal, otherwise it will return `False`
 
 ```python
 x = 5
@@ -26,14 +27,14 @@ print(x==z)
 The equal sign `=` in Python, as many other programming languages is used to **assign** a value to a variable and the most important important word is **assign**.
 
 ```python 
-#crating a variable and assigning a value with the = symbol
+# creating a variable and assigning a value with the = symbol
 x = "Geek!"
 print(x) #Output-> Geek!
 ```
 
 ## The double equal `==` operator 
 
-Although, when we use in human language "equals to" we are referring to comparison and the answer is always **yes or no** (this shirt color is equal to this short color). Now, since we used already the `=` to **asign** a value, we still need to compare (with logical thinking) if some data stored in a variable is equal to other data and thats where the `==` comes in our rescue.
+Although, when we use in human language "equals to" we are referring to comparison and the answer is always **yes or no** (this shirt color is equal to this short color). Now, since we used already the `=` to **assign** a value, we still need to compare (with logical thinking) if some data stored in a variable is equal to other data and thats where the `==` comes in our rescue.
 
 ```python
 x = 5
@@ -65,4 +66,6 @@ print(x==z) #output -> true
 print(x==1) #output -> true
 ```
 
-Hope you enjoy the reading and keep on the Geek side!
+#### [**Related: Why 4Geeks Academy teaches Python as a Backend Language**](https://4geeksacademy.com/us/python-bootcamp/why-we-teach-python-4geeks)
+
+Visit [4Geeks](https://4geeks.com/) to learn about Python and solutions to your possible errors. Hope you enjoy the reading and keep on the Geek side!
