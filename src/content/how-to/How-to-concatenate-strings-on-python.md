@@ -1,5 +1,5 @@
 ---
-title: "How to concatenate Strings in Python"
+title: "How to concatenate Strings on Python"
 subtitle: "On how to concatenate Strings in Python we explore different ways to concatenate and your choosing will depend on your style and needs. We can concatenate using the + operator, f-Strings method, .format(), the % Operator and we can repeat a string by the means of the * Operator."
 tags: ["python"]
 
