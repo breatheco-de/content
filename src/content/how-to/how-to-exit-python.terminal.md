@@ -1,6 +1,6 @@
 ---
 title: "How to exit Python in terminal"
-subtitle: "Exiting Python from the terminal can be achieved in 3 different ways. The exit and quit commands will exit python and you can as well exit by using keyboard shortcuts as ctr+z and ctr+d on Windows and Unix Based Systems respectively"
+subtitle: "Exiting Python from the terminal can be achieved in 3 different ways. The exit and quit commands will exit python and you can as well exit by using keyboard shortcuts as ctrl+z and ctrl+d on Windows and Unix Based Systems respectively"
 tags: ["python", "exit"]
 date: "2023-02-06T16:36:30+00:00"
 authors: ['Javier Seiglie']
