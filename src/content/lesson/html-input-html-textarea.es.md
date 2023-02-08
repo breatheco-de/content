@@ -12,7 +12,7 @@ status: "published"
 ## Formularios HTML
 
 
-Esta lección es muy fácil de entender - pero es esencial debido a que en este nuevo conocimiento, se transmitirá toda la interactividad de Internet. Hay algunas etiquetas HTML adicionales que debemos analizar antes de terminar el Pre-Work: son las primeras formas posibles de interacción que se introdujeron en HTML: las entradas o inputs y los formularios.
+Esta lección es muy fácil de entender, pero es esencial debido a que en este nuevo conocimiento, se transmitirá toda la interactividad de Internet. Hay algunas etiquetas HTML adicionales que debemos analizar antes de terminar el Pre-Work: son las primeras formas posibles de interacción que se introdujeron en HTML: las entradas o inputs y los formularios.
 
 Como siempre, comparemos nuestro sitio web con un documento de MS Word ... En algún momento, los científicos necesitaban crear formularios como los que llenamos cuando pagamos nuestros impuestos: con espacios en blanco disponibles para que el usuario los llene con su Nombre, Apellido, Fecha de nacimiento, etc.
 
