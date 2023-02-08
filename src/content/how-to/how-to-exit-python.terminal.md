@@ -43,13 +43,13 @@ Use quit() or Ctrl-Z plus Return to exit
 
 Keyboard shortcuts are a common use among us developers because they save time and make you work faster. Here you have the shortcuts for Windows and Unix Systems (Linux and MacOs).
 
-#### Using ctr+z on Windows
+#### Using ctrl+z on Windows
 
 As stated before, on the message that you receive when passing `exit` without the `()`, `control + z` will exit Python from the terminal as well. 
 
 Before pressing `ctrl+z` to exit Python just make sure your Python terminal is the selected windows, and then press `ctrl`, hold it down and press `z` and then `Return`.
 
-#### Using ctr+d on MacOs and Linux
+#### Using ctrl+d on MacOs and Linux
 
 On Unix systems such as MacOs or Linux, `ctrl+z` will not exit Python on the terminal. 
 
