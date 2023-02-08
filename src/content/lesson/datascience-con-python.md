@@ -1,6 +1,6 @@
 ---
-title: "Python for Data Science"
-subtitle: "Python is a multipurpose language, in this lesson you will understand how it's used in the datascience world"
+title: "Data Science con Python"
+subtitle: "Python es un lenguaje multipropósito, en esta lección comprenderás cómo se usa en el mundo de la Ciencia de Datos"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
 status: "draft"
