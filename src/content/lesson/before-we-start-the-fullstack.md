@@ -26,7 +26,7 @@ The upcoming material assumes that you have a good level of understanding of the
 
 ## Things you should know about CSS
 
-- What is CSS, and what is it used for? Thank's to CSS, we can select specific elements in the HTML and style them with colors, etc.
+- What is CSS, and what is it used for? Thanks to CSS, we can select specific elements in the HTML and style them with colors, etc.
 - Why is discouraged the use of the `#id` selector? Because it's too specific, it goes against reusability.
 - When should I use the `#id` selector? Never, we will use `#id`s only when coding in javascript.
 - Why are stylesheets supposed to be written from the most generic to the most specific styles? Because you will write way fewer lines of code that way, you also avoid lots of bugs or fights between your selectors.
