@@ -11,10 +11,9 @@ status: "published"
 
 ## Formularios HTML
 
-
 Esta lección es muy fácil de entender, pero es esencial debido a que en este nuevo conocimiento, se transmitirá toda la interactividad de Internet. Hay algunas etiquetas HTML adicionales que debemos analizar antes de terminar el Pre-Work: son las primeras formas posibles de interacción que se introdujeron en HTML: las entradas o inputs y los formularios.
 
-Como siempre, comparemos nuestro sitio web con un documento de MS Word ... En algún momento, los científicos necesitaban crear formularios como los que llenamos cuando pagamos nuestros impuestos: con espacios en blanco disponibles para que el usuario los llene con su Nombre, Apellido, Fecha de nacimiento, etc.
+Como siempre, comparemos nuestro sitio web con un documento de MS Word... En algún momento, los científicos necesitaban crear formularios como los que llenamos cuando pagamos nuestros impuestos: con espacios en blanco disponibles para que el usuario los llene con su Nombre, Apellido, Fecha de nacimiento, etc.
 
 ![html textarea html input](../../assets/images/12ff6e40-706f-47ff-9ada-53dada968eaf.png)
 
@@ -41,21 +40,20 @@ La siguiente es una lista de todos los elementos posibles que podemos usar para 
 
 ## Atributos del Input o Entrada
 
-
 Al igual que cualquier otra etiqueta HTML, las etiquetas de input tienen varios atributos que se pueden configurar para describir su comportamiento de manera más específica:
 
-`VALUE`:  Puede especificar un valor predeterminado que debe tener el input antes de que el usuario la complete:
+`VALUE`: Puedes especificar un valor predeterminado que debe tener el input antes de que el usuario la complete:
 
 ```html
 <input type="text" name="firstname" value="John">
 ```
-`READ ONLY`:  Determina si el usuario puede cambiar el valor del input.
+`READ ONLY`: Determina si el usuario puede cambiar el valor del input.
 
 ```html
 <input type="text" name="firstname" value="John" readonly>
 ```
 
-`DISABLED`:  Determina si el input será gris y de solo lectura. Los inputs deshabilitados no se envían al servidor: actúan como si nunca hubieran existido.
+`DISABLED`: Determina si el input será gris y de solo lectura. Los inputs deshabilitados no se envían al servidor: actúan como si nunca hubieran existido.
 
 ```html
 <input type="text" name="firstname" value="John" disabled>
@@ -70,16 +68,15 @@ Al igual que cualquier otra etiqueta HTML, las etiquetas de input tienen varios 
 ## Las formas METHOD y ACTION
 
 
-
 Los dos atributos más importantes que deben establecerse en la etiqueta `<form>` son la action y el method:
 
 **Action**: Es la URL donde se enviarán los datos recopilados del formulario.
 
-**Method**: Puede ser "POST" o "GET" - las principales diferencias serán: (1) Cómo se enviarán los datos recopilados a la página de destino una vez que lleguemos allí y (2) Cómo se envían los datos del formulario al servidor .
+**Method**: Puede ser "POST" o "GET". Las principales diferencias serán: (1) Cómo se enviarán los datos recopilados a la página de destino una vez que lleguemos allí y (2) Cómo se envían los datos del formulario al servidor.
 
 |**Usando el método GET**   |**Usando el método POST**   |
 |:----------------------|:-----------------------|
-|Todos los datos del formulario están codificados en la URL. Esto significa que adjuntará toda la información del formulario al final de la URL de destino, por ejemplo: http://www.mydestinationurl.com?input_name1=value1&input_name2&value2…..   |Los datos se ocultarán al usuario final. La URL permanecerá como se definió en el atributo "acción" y solo un desarrollador podrá solicitar la información del formulario.   |
+|Todos los datos del formulario están codificados en la URL. Esto significa que adjuntará toda la información del formulario al final de la URL de destino, por ejemplo: http://www.mydestinationurl.com?input_name1=value1&input_name2&value2….  |Los datos se ocultarán al usuario final. La URL permanecerá como se definió en el atributo "acción" y solo un desarrollador podrá solicitar la información del formulario.   |
 
 > :point_up: Si vas a utilizar el ` <input type =" file ">` el único método admitido es POST.
 
