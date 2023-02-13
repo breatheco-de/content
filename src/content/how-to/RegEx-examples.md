@@ -24,7 +24,7 @@ Creating a RegEx pattern can be tricky, if you're not familiarized with Regular 
 
 Emails are one of the data we receive and have to validate, that's why we are stating our examples with an email pattern that will match any valid email inside a text.
 
-###RegEx email inside text
+### RegEx email inside text
 
 Javascript
 ```javascript
