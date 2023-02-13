@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-## Que es una Historia de usuario("User Story")?
+## ¿Qué es una Historia de usuario("User Story")?
 
 
 <iframe width="1185" height="667" src="https://www.youtube.com/embed/LGeDZmrWwsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
