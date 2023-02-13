@@ -14,6 +14,7 @@ print(square)
 #Output-> 36
 ```
 
+
 There are many ways to power a number. In this article we'll explore 4 of them for you to choose the one you like the most. Let's dig in.
 
 ## Creating the function ourself:
