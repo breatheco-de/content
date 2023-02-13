@@ -149,7 +149,7 @@ Now that you’ve created commits, how do you refer to a specific commit?  GIT p
 
  ![how to use git](../../assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png)
 
- Let's jump back to commit (2) and start new work from there.  You will first need to know how to reference the commit.  You can use `git log` to get the SHA1 name of (2)
+ Let's jump back to commit (2) and start new work from there.  You will first need to know how to reference the commit.  You can use `git log` to get the SHA1 name of (2).
 
 ```bash
  git log
