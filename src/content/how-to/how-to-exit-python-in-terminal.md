@@ -8,6 +8,8 @@ status: "draft"
 
 ---
 
+From using the quit() and exit() functions to keyboard shortcuts, this article covers everything you need to know to exit [Python](https://4geeks.com/lesson/intro-to-python) in the terminal. So if you're looking for a comprehensive guide on exiting Python in the terminal, be sure to give this article a read!
+
 ```python
 exit()
 ```
@@ -57,4 +59,4 @@ The keyboard shortcut for exiting Python on this systems would be `ctrl + d` and
 
 We will do as we did with the Windows shortcut. Press and hold `ctrl` and then press `d` to exit Python from the terminal making sure the terminal is the selected window.
 
-Hope you enjoy the reading and keep on the Geek side!
+You can read more related topics at [4Geeks](https://4geeks.com/). Hope you enjoy the reading and keep on the Geek side!
