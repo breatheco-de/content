@@ -123,8 +123,8 @@ public class Main {
     	} else {
       		System.out.println("Match not found");
     		}
-  		}
-	}
+  	}
+}
 
 // Outputs Match found
 ```
