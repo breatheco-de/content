@@ -34,7 +34,7 @@ console.log(findEsPhoneNumber(list_of_numbers))
 
 If you ever played cards, and I'm sure you have, then you've stumbled with the joker card, that can take the value of any other card. A **wildcard** is just like that, a joker, and has the same capabilities, to be able to be anything! 
 
-The **wildcard** symbol is the dot `.`. Each dot will represent a new 
+The **wildcard** symbol is the dot `.`. Each dot will represent a new character.
 
 For what are used these **wildcards**? Simple! Let's say, you received a list of numbers that are not organized by their respective countries, but you only care for the ones in Spain and you know that Spain's international code is (+34). Using **wildcards** RegEx allows us to filter all numbers that start with +34 and take the 9 or 10 numbers that come right after the 4 (remember the space included sometimes between numbers) from the list. In a heartbeat it's done, and you have the data you wanted.
 
