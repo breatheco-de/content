@@ -14,8 +14,7 @@ print(square)
 #Output-> 36
 ```
 
-
-There are many ways to power a number. In this article we'll explore 4 of them for you to choose the one you like the most. Let's dig in.
+Whether you're a beginner or an experienced programmer, this article provides a comprehensive guide to squaring numbers in [Python](https://4geeks.com/lesson/intro-to-python). The step-by-step instructions and clear explanations make it easy to understand and apply the concepts. So if you're interested in learning how to square numbers in Python, be sure to give this article a read!
 
 ## Creating the function ourself:
 
@@ -71,4 +70,4 @@ print(squareMathPow(5,2))
 #Output-> 25
 ```
 
-Hope you enjoyed the reading and keep on the Geek side!
+You can find more of these articles at [4Geeks](https://4geeks.com/). Hope you enjoyed the reading and keep on the Geek side!
