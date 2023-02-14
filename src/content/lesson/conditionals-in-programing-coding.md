@@ -18,7 +18,7 @@ Mastering the use of conditions is one of the 5 fundamental skills of building a
 4. Loops.
 5. Functions.
 
-> :point_up: [Here is a great video explainin conditionals](https://www.youtube.com/watch?v=Lp-Du2fKoug&list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET)
+> :point_up: [Here is a great video explaining conditionals](https://www.youtube.com/watch?v=Lp-Du2fKoug&list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET)
 
 Conditions are the only way developers have to tell the computer how to make decisions in real time, very similar to how our brains work.
 
