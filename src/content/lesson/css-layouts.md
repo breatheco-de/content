@@ -67,7 +67,7 @@ All boxes have two attributes that define their size: `width` and `height`. In s
 
 The browser is responsible for assigning positions to all elements of a page. However, as we know, the positions brought by the elements are quite limited and make the documents look both ugly and antiquated.
 
-In order for a website to look like today’s websites, we have to redesign the entire page positioning.  This is achieved by using both the "`position`" property  and the "`display`" property  (which we will learn later on) so that we can replicate whatever layout imaginable by the most avid designer.
+In order for a website to look like today’s websites, we have to redesign the entire page positioning.  This is achieved by using both the `position` property  and the `display` property  (which we will learn later on) so that we can replicate whatever layout imaginable by the most avid designer.
 
 <iframe src="https://www.youtube.com/embed/hFvOgu3bcOk" frameborder="0" allowfullscreen ></iframe>
 
@@ -203,7 +203,7 @@ Use the sliders on the left toolbar to change the margin, padding, border radios
 
 You will have to be learning "on the go" because there is an infinite amount of combinations you can create for a website layout. What really matters is that you fully understand the display, absolute, float and overflow rules.
 
-Hay un recurso llamado `Bootstrap` que está hecho para facilitar el diseño. Aprenderás esto en la próxima lección.
+There's a framework called `Bootstrap` which makes layout design easier. You will learn this in the next lesson.
 
 ![css layout](../../assets/images/91aa197c-b2cb-4717-b41f-0f7b579aab25.gif)
 
