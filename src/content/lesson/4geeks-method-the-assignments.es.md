@@ -52,5 +52,5 @@ Hay muchas maneras de despegarse:
 Cuanto más activo seas durante el curso, más lo aprovecharás:
 
 - Asegúrate de entregar la mayoría o todos los proyectos.
-- Exígele a los mentores que los revisen si aún no lo han hecho.
+- Exígele a los mentores que lo revisen si aún no lo han hecho.
 - La comunicación constante con tus mentores es clave.
