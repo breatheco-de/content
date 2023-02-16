@@ -8,6 +8,8 @@ status: "draft"
 
 ---
 
+There are in Python a few ways to exit the terminal. We are choosing the **exit()** method because it doesn't prompt for confirmation and the method name is self explanatory.
+
 ```python
 exit()
 ```
