@@ -208,9 +208,9 @@ Ellos hacen lo mismo, excepto que Reverse lo hace al revés. Ambos ordenan usand
 ```javascript
 var frutas = ["Banana", "Naranja", "Manzana", "Mango"];
     frutas.sort();
-    console.log(frutas); //[ 'Manzana', 'Banana', 'Mango', 'Naranja' ] 
+    console.log(frutas); //[ 'Banana', 'Mango', 'Manzana', 'Naranja' ] 
     frutas.reverse();
-    console.log(frutas); //[ 'Naranja', 'Mango', 'Banana', 'Manzana' ]
+    console.log(frutas); //[ 'Naranja','Manzana', 'Mango', 'Banana' ]
 ```
 
 ### Ordenando números
