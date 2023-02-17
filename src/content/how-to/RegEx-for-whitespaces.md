@@ -1,7 +1,7 @@
 ---
 title: "RegEx for whitespaces"
 subtitle: "On RegEx for whitespaces we'll be discussing the different ways to detect whitespaces using regular expressions. RegEx has more than one way to search in a given text for these characters ("\s", "\s+", "\t", and more )and we'll be giving an example with the most used one.
-tags: ["python","JavaScript","Java", "RegEx", "Regular Expressions", "whitespace"]
+tags: ["Python","JavaScript","Java", "RegEx", "Regular Expressions", "whitespace", "snippet"]
 date: "2023-02-16T16:36:30+00:00"
 authors: [javierseiglie]
 status: "draft"

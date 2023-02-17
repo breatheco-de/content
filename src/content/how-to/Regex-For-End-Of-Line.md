@@ -1,7 +1,7 @@
 ---
 title: "RegEx for end of line"
 subtitle: "On RegEx for end of line we cover how to search, using a regular expression, the last word/pattern on a text making use of the $ symbol. We cover how to achieve this on Javascript, Python and Java, 3 of the most used languages in the world for developing apps"
-tags: ["python","JavaScript","Java", "RegEx", "Regular Expressions"]
+tags: ["Python","JavaScript","Java", "RegEx", "Regular Expressions"]
 date: "2023-02-08T16:36:30+00:00"
 authors: [javierseiglie]
 status: "draft"
