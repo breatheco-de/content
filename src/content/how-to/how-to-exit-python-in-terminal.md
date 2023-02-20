@@ -8,7 +8,7 @@ status: "draft"
 
 ---
 
-From using the quit() and exit() functions to keyboard shortcuts, this article covers everything you need to know to exit [Python](https://4geeks.com/lesson/intro-to-python) in the terminal. So if you're looking for a comprehensive guide on exiting Python in the terminal, be sure to give this article a read!
+There are in [Python](https://4geeks.com/lesson/intro-to-python) a few ways to exit the terminal. We are choosing the **exit()** method because it doesn't prompt for confirmation and the method name is self explanatory.
 
 ```python
 exit()
