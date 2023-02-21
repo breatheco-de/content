@@ -11,16 +11,16 @@ Here is a way to install python on windows, mac or linux (commands vary dependin
 
 ```bash
 # On windows Powershell
-choco upgrade python -y
+$ choco upgrade python -y
 
 # MacOs homebrew with pipenv
 # you would need to install python first
-pyenv install 3.9.2 
+$ pyenv install 3.9.2 
 
 # linux
-sudo add-apt-repository ppa:deadsnakes/ppa
-sudo apt update
-sudo apt install python3.9
+$ sudo add-apt-repository ppa:deadsnakes/ppa
+$ sudo apt update
+$ sudo apt install python3.9
 ```
 
 During the rest of the article you want check details on the rest of the installation steps depending on your operating system.
@@ -41,7 +41,7 @@ To update Python on a Windows Operating System to the latest, we can choose one 
 - You can verify your installation/upgrade by opening `CMD` or `PowerShell` terminal and typing `python -V`
 
 ```cmd
-python -V
+$ python -V
 # Output: Python 3.11.0
 ```
 
@@ -132,6 +132,7 @@ There are 2 options to update Python on MacOs:
 To handle our Python development enviorments and Python version we use `Homebrew`, a powerfull package manager for all Mac Operating Systems.
 
 - Install homebrew with the following command:
+
 ```bash
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
