@@ -18,7 +18,7 @@ Como siempre, comparemos nuestro sitio web con un documento de MS Word ... En al
 
 ![html textarea html input](../../assets/images/12ff6e40-706f-47ff-9ada-53dada968eaf.png)
 
-Los elementos que el usuario completa en un formulario se denominan `<inputs>` y siempre tienen que estar envueltos dentro de una etiqueta `<form>`. También puedes utilizar todas las demás etiquetas HTML que aprendimos en las lecciones anteriores sin ningún problema.
+Los elementos que el usuario completa en un formulario se denominan `<input>` y siempre tienen que estar envueltos dentro de una etiqueta `<form>`. También puedes utilizar todas las demás etiquetas HTML que aprendimos en las lecciones anteriores sin ningún problema.
 
 Aquí hay un ejemplo de un formulario simple en HTML:
 
