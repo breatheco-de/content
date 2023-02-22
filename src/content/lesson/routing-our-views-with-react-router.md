@@ -17,6 +17,9 @@ React Router is a JS library available through NPM that helps mainly with 2 prob
 + Conditional display for React components based on the current website URL.
 + Web application navigation without having to refresh.
 
+
+This is how you would install react router in your project:
+
 ```bash
 $ npm install --save react-router
 ```

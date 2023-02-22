@@ -9,7 +9,7 @@ status: "published"
 video: "https://www.loom.com/share/bb0aa485cc334afbb8ff6ef1d9c6ac5b"
 ---
 
-## ¿Por qué están los arrrays en una lección separada?
+## ¿Por qué están los arrays en una lección separada?
 
 ¡Porque los arrays son impresionantes! ¡Los necesitas! Y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂
 

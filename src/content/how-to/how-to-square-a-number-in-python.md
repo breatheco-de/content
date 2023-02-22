@@ -8,13 +8,13 @@ status: "draft"
 
 ---
 
+The most stright forward way to square a number in [Python](https://4geeks.com/lesson/intro-to-python) would be to use the built-in **pow** (power) method. It will receive two parameters, the number to square and the ammount of times to power that number.
+
 ```python
 square = pow(6, 2)
 print(square)
 #Output-> 36
 ```
-
-There are many ways to power a number. In this article we'll explore 4 of them for you to choose the one you like the most. Let's dig in.
 
 ## Creating the function ourself:
 
@@ -70,4 +70,4 @@ print(squareMathPow(5,2))
 #Output-> 25
 ```
 
-Hope you enjoyed the reading and keep on the Geek side!
+You can find more of these articles at [4Geeks](https://4geeks.com/). Hope you enjoyed the reading and keep on the Geek side!
