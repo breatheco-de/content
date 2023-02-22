@@ -1,7 +1,7 @@
 
-Welcome to the 4Geeks Academy Code of
-Conduct and Ethics. This is how we work
+# Welcome to the 4Geeks Academy Code of Conduct and Ethics. 
 
+This is how we work.
 
 Being a member of the 4geeks Academy team comes with a lot of good things and responsibility. Our culture of our work environment is made of how each and every one of us act, speak and behave, every day.
 
