@@ -11,7 +11,7 @@ video: "https://www.loom.com/share/bb0aa485cc334afbb8ff6ef1d9c6ac5b"
 
 ## ¿Por qué están los arrays en una lección separada?
 
-¡Porque los arrays son impresionantes! ¡Los necesitas! Y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂
+¡Porque los arrays son impresionantes!¡Los necesitas! Y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂
 
 Dominar el uso de los `arrays y bucles` es una de las 5 habilidades fundamentales para construir algoritmos:
 
@@ -21,11 +21,11 @@ Dominar el uso de los `arrays y bucles` es una de las 5 habilidades fundamentale
 4. `Loops (Bucles)`.
 5. Funciones.
 
-**No no no…Espera:  ¿Array?  ¿Qué?**
+**No no no… Espera... ¿Array? ¿Qué?**
 
-Un array es, normalmente, cualquier lista o colección de valores. Las reglas sobre cómo agregar o eliminar elementos de esa lista pueden cambiar de un lenguaje de programación a otro. Pero - en general - son la única forma en que los desarrolladores pueden crear elementos.
+Un array es, normalmente, cualquier lista o colección de valores. Las reglas sobre cómo agregar o eliminar elementos de esa lista pueden cambiar de un lenguaje de programación a otro. Pero (en general) son la única forma en que los desarrolladores pueden crear elementos.
  
-Los arrays son la única forma que tenemos para enumerar cosas - independientemente de la aplicación con la que estés trabajando, siempre tendrás cosas que enumerar. Por ejemplo: lista de estudiantes, lista de artistas, lista de transacciones ... ¡cualquier cosa!
+Los arrays son la única forma que tenemos para enumerar cosas; independientemente de la aplicación con la que estés trabajando, siempre tendrás cosas que enumerar. Por ejemplo, lista de estudiantes, lista de artistas, lista de transacciones... ¡Cualquier cosa!
 
 Este tipo de datos hace muchas más cosas que los otros. Las listas son la única forma de almacenar más de un tipo de datos en la misma variable.
 
@@ -52,11 +52,13 @@ var myArray = new Array(1,2,3,4,5); //¡No uses esto! Lea a continuación para s
 ```
 
 
-> :point_up:  No declares los Arrays con la sintaxis `new Array ()` - no se comportará correctamente [haz clic aquí para conocer los detalles(https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript)
+> :point_up: No declares los Arrays con la sintaxis `new Array ()`, no se comportará correctamente [haz clic aquí para conocer los detalles](https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript).
 
 ## Acceder a los elementos de un array
 
-Si quieres, puedes restablecer o actualizar cualquier ítem dentro de un array usando el índice o index así:
+Para acceder a un elemento específico en una lista, necesitas un `índice`. Llamamos `índice` al valor entero que representa la posición del elemento que desea acceder/obtener/recuperar.
+
+El índice siempre debe comenzar en cero (0). Esto significa que una matriz de 2 elementos puede tener índice = 0 o índice = 1. Intentar obtener la segunda posición devolverá "indefinido" porque significará que estamos intentando acceder al tercer elemento (que no existe). Por ejemplo, para obtener cualquier elemento en la matriz, puede hacer lo siguiente:
 
 ```javascript
     console.log(myArray[0]);  //Esto imprimirá el 1er elemento en la consola.
@@ -83,7 +85,7 @@ var myArray = ['Pedro','Juan','Maria'];
     console.log(myArray); //esto imprimirá ['Pedro','Juan','Maria','Chris'];
 ```
 
-Pero… ¿y si quiero agregar a Chris en la segunda posición?
+Pero… ¿Y si quiero agregar a Chris en la segunda posición?
 
 Entonces… necesitas crear un nuevo arreglo vacío y comenzar a empujar los elementos en el orden en que los necesita. En este caso será:
 
@@ -97,6 +99,7 @@ var myNewArray = [];
     console.log(myNewArray); //esto imprimirá  ['Pedro','Chris','Juan','Maria'];
 
 ```
+
 ## Eliminando Elementos (función pop)
 
 Eliminar un elemento tiene exactamente las mismas limitaciones que al agregar un elemento: solo puedes eliminar un elemento de la última posición con el método pop(). Si deseas eliminar un elemento diferente, deberás crear un nuevo array sin ese elemento en particular.
@@ -128,12 +131,11 @@ var myArray = ['Chris','Bob','Pedro','Juan','Maria'];
     console.log(myArray); //esto imprimirá ['Bob','Pedro','Juan','Maria'];
 ```
 
-
 ## Bucle en Arreglo
 
-A veces, cuando trabajes con arrays, tendrás que hacer un bucle. Por ejemplo: ordenándolos manualmente; voltearlos, eliminar un elemento de una posición particular, etc.
+A veces, cuando trabajes con arrays, tendrás que hacer un bucle. Por ejemplo, ordenándolos manualmente; voltearlos, eliminar un elemento de una posición particular, etc.
 
-Para crear tu bucle, necesitarás usar Array.length para obtener el tamaño actual del array. La mayoría de las veces, los elementos del arreglo cambian durante el tiempo de ejecución. Esta es la razón por la que la única forma de obtener el tamaño del array será usar la función array.length, así:
+Para crear tu bucle, necesitarás usar `Array.length` para obtener el tamaño actual del array. La mayoría de las veces, los elementos del arreglo cambian durante el tiempo de ejecución. Esta es la razón por la que la única forma de obtener el tamaño del array será usar la función `array.length`, así:
 
 ```javascript
 var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
@@ -159,9 +161,9 @@ var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
 
 ## Eliminando de un array 
 
-Las variables pueden tener diferentes tipos de valores. Algunos de ellas están disponibles solo en lenguajes de programación específicos, pero casi todos tienen los siguientes tipos:
+Las variables pueden tener diferentes tipos de valores. Algunas de ellas están disponibles solo en lenguajes de programación específicos, pero casi todos tienen los siguientes tipos:
 
-### Splice and Slice
+### Splice y Slice
 
 Es posible cortar un array en pedazos muy rápido, con las funciones de splice y slice.
 
@@ -171,7 +173,6 @@ Retorna un nuevo array con una versión más pequeña del arreglo original. Debe
 
 #### Splice
 
-
 Actualiza el array actual dejando todo menos la versión más pequeña que deseas eliminar. Debes especificar los índices de inicio y término del pedazo que quieres eliminar.
 
 ![qué es un array](../../assets/images/7e098348-df50-442b-801e-ac9d098fbc09.png)
@@ -180,7 +181,7 @@ Actualiza el array actual dejando todo menos la versión más pequeña que desea
 
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Slice-vs-Splice">Haz clic para abrir la demo en una ventana nueva</a></small></div>
 
-> :point_up: Splice puede aceptar tantos parámetros opcionales como se quiera y estos sustituirán la parte del array que ha sido eliminada.  De esta forma el primer parámetro indica el índice desde el cual empieza a borrar, el segundo parámetro cuantos elementos borrarás y del tercero los elementos que se insertan a partir de la posición que se indica en el primer parámetro.
+> :point_up: Splice puede aceptar tantos parámetros opcionales como se quiera y estos sustituirán la parte del array que ha sido eliminada. De esta forma el primer parámetro indica el índice desde el cual empieza a borrar, el segundo parámetro cuantos elementos borrarás y del tercero los elementos que se insertan a partir de la posición que se indica en el primer parámetro.
 
 Ejemplo:
 ```javascript
@@ -201,7 +202,7 @@ console.log(y); // [14, 3, 'a', 3245, 234, 52, 345, 3, 45, 23, 77]
 
 Es muy común la necesidad de ordenar arrays. Por ejemplo: ordenar una lista de estudiantes por nombre. Tienes dos funciones para ordenar en JavaScript:
 
-Sort y Reverse
+### Sort y Reverse
 
 Ellos hacen lo mismo, excepto que Reverse lo hace al revés. Ambos ordenan usando la lógica de comparación de string, lo que significa que el string "25" es más grande que "100", porque "2" es más grande que "1".
 
