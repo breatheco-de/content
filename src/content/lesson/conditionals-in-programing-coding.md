@@ -13,7 +13,7 @@ status: "published"
 Mastering the use of conditions is one of the 5 fundamental skills of building algorithms:
 
 1. Variables.
-2. Conditionals.
+2. Conditionals. 
 3. Arrays/Objects.
 4. Loops.
 5. Functions.
@@ -22,8 +22,7 @@ Mastering the use of conditions is one of the 5 fundamental skills of building a
 
 Conditions are the only way developers have to tell the computer how to make decisions in real time, very similar to how our brains work.
 
-Let's say we are building a program to help us pick what to wear and we hate the color blue. We can tell the computer to avoid blue using a condition like this:
-  
+Let's say we are building a program to help us pick what to wear, and we hate the color blue. We can tell the computer to avoid blue using a condition like this:
   
 `If` ***color*** is not **blue**, then... do something.  
 `Else`... do nothing or exit.
@@ -34,16 +33,16 @@ And this is how we would write this in Javascript:
 
 ```js
 if(color != 'blue'){
-    //any code here will run when color is different than blue
+    //any code here will run when the color is different than blue
 }
 else{
-    //it will only run this code if color is blue.
+    //it will only run this code if the color is blue.
 }
 ```
 
 ## It is all about the question: What to ask?
 
-The previous example was a simple condition, but in real life picking what to wear involves a combination of several conditions to make the final decision, for example: Let's look at this algorithm that tells if you have a flu.
+The previous example was a simple condition, but in real life picking what to wear involves a combination of several conditions to make the final decision, for example: Let's look at this algorithm that tells if you have the flu.
 
 ![Hit by a flu or have a cold](../../assets/images/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800.jpeg)
 
@@ -67,11 +66,12 @@ else{
 ```
 
 Basically, this algorithm has two variables to consider: ` feelsLikeHitByTrain ` and ` youWereHitByTrain `.
+
 Our job as developers is to sit down and try to prepare a strategy and come up with an algorithm that solves a problem.
 
 ## ` AND` and ` OR` operators
 
-Another way to write the algorithm is to combine two questions in the same condition using the `AND` and `OR` operators which in Javascript are represented with `&&` for AND and `||` for OR:
+Another way to write the algorithm is to combine two questions in the same condition using the `AND` and `OR` operators, which in Javascript are represented with `&&` for **AND** and `||` for **OR**:
 
 ```js
 if(feelsLikeHitByTrain == false || youWereHitByTrain == true){
@@ -85,7 +85,7 @@ else{
 }
 ```
 
-As you can see here we are using ` else if` together for the first time, for faster coding. Another trick you can use for faster coding:
+As you can see here, we are using  `else if` together for the first time, for faster coding. Another trick you can use for faster coding:
 
 | Original | Equivalent |
 | --- | --- |
@@ -94,7 +94,7 @@ As you can see here we are using ` else if` together for the first time, for fas
 
 ## ` >` and ` <` Greater Than or Lower Than Operators
 
-In the particular case you are comparing numbers, to find out if one of the compared numbers is greater or lesser than the other:
+In this particular case, you are comparing numbers, to find out if one of the compared numbers is greater or lesser than the other:
 
 ```js
 if(age < 16){
@@ -108,12 +108,13 @@ else if(age >= 16){
 ## Ternary (inline conditions)
 
 Another great trick for faster coding is using ternaries that basically allow us to code everything in just one line:
+
 ```js
 const flu = (feelsLikeHitByTrain && !youWereHitByTrain) ? true : false;
 ```
-In this example the variable `flu` will only be true if ` feelsLikeHitByTrain==true` and ` youWereHitByTrain==false` at the same time. If that question is not true, then ` flu` will be false.
+In this example, the variable `flu` will only be true if ` feelsLikeHitByTrain==true` and ` youWereHitByTrain==false` are at the same time. If that question is not true, then ` flu` will be false.
 
-Ternaries are being used A LOT these days because they save you a lot of time and we will also be able to use them later in jsx code (React).
+Ternaries are being used A LOT these days because they save you a lot of time, and we will also be able to use them later in jsx code (React).
 
 ## Conditional Rendering
 
@@ -123,7 +124,7 @@ Another important use of conditionals is to generate HTML based on certain condi
 let alertHTMLCode = "<div>Warning! You cannot drive</div>";
 ```
 
-If we want this alert to show only if the user is younger that 16 years old we could do something like:
+If we want this alert to show only if the user is younger than 16 years old, we could do something like:
 
 ```js
 let age = 14;
