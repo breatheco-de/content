@@ -66,4 +66,4 @@ La Compañía se reserva el derecho de cambiar estas condiciones de vez en cuand
 
 Estos términos y condiciones forman parte del Acuerdo entre el Cliente y nosotros. Su acceso a este sitio web y/o la realización de una reserva o Acuerdo indica su comprensión, acuerdo y aceptación de la Notificación de Exención de Responsabilidad y de los Términos y Condiciones completos contenidos en este documento. Sus derechos estatutarios de consumidor no se ven afectados.
 
-© 4Geeks Academy, L.L.C 2019 All Rights Reserved
+© 4Geeks Academy, L.L.C 2019 Todos los derechos reservados.
