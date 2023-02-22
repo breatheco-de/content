@@ -26,7 +26,7 @@ Ser el único desarrollador en un proyecto es una [utopía](https://dle.rae.es/u
 
 + Si dos desarrolladores trabajan en **la misma página (archivo)**, GIT comparará ambas versiones y las fusionará *(intentará)* en una nueva.
 + Descargar e integrar el código de otra persona (o cualquier otro código) en su proyecto sin mayores problemas y hacerlo de forma automática.
-+ Si ambos desarrolladores actualizaron exactamente el mismo código, GIT le pedirá a **el último** editor de edición que resuelva cualquier posible conflicto.
++ Si ambos desarrolladores actualizaron exactamente el mismo código, GIT le pedirá  **al último** editor de edición que resuelva cualquier posible conflicto.
 + El código está respaldado todo el tiempo con la última versión como principal.
 + Cada desarrollador tiene su propia versión del proyecto a nivel local durante el tiempo que deseen.
 + Permite trabajar en equipos remotos.
