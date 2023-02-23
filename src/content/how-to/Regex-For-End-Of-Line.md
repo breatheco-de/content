@@ -36,7 +36,7 @@ We decided to write 2 times the word **examples** because we'll be asking the th
 
 Javascript is the language of the web, and RegEx is used constantly in form validations and data validation.
 
-### Using EOL Using EOL RegEx on JavaScript  with String methods
+### Using EOL RegEx on JavaScript  with String methods
 
 The String Object in JavaScript allows us to use `match()`, `matchAll()`,  `replace()`, `replaceAll()`, `search()`, and `split()`. All these methods follow the same syntax, as String methods, you access them using the dot (`.`).
 
