@@ -1,7 +1,7 @@
 ---
 title: "RegEx wildcard"
 subtitle: "On RegEx wildcard we cover how to use the dot symbol as a wildcard on regular expressions on Javascript and Python with a working code example"
-tags: ["Python", "JavaScript", "RegEx", "Regular Expression", "wildcard", "snippet"]
+tags: ["Python", "JavaScript", "RegEx", "Regular Expression"]
 date: "2023-02-11T16:36:30+00:00"
 authors: [javierseiglie]
 status: "draft"
