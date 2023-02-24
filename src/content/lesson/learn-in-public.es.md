@@ -11,7 +11,7 @@ canonical: ""
 
 ---
 
-Si estás interesado en aprender a codificar de forma eficiente pero rápida, tienes que hacerlo en público. Esto no es una teoría sino un hecho.  
+Si estás interesado en aprender a codificar de forma eficiente, pero rápida, tienes que hacerlo en público. Esto no es una teoría, sino un hecho.  
 
 En este artículo voy a intentar explicarte por qué funciona y cómo puedes hacerlo.
 
@@ -36,9 +36,9 @@ Cuando aprendes en público, conviertes las redes sociales en tu cuaderno de not
 - Asegúrate de que tu perfil en esas cuentas se vea bien: Un perfil profesional, que te describa bien como desarrollador.
 - Cada vez que construyas un proyecto asegúrate de publicarlo en tus redes sociales, [aquí tienes un ejemplo de publicación de uno de los alumnos de la Academia 4Geeks](https://www.linkedin.com/feed/update/urn:li:activity:6750086679345815552/).
 - Únete a [#100DaysOfCode](https://www.100daysofcode.com/) y hazlo público en Twitter, Instagram y/o LinkedIn, ¡hay mucha gente siguiendo ese reto, puedes unirte a la discusión y colaboración!
-- Crea un canal de youtube: Empieza a publicar vídeos sobre tu proceso de aprendizaje.
+- Crea un canal de Youtube: Empieza a publicar vídeos sobre tu proceso de aprendizaje.
 - Crea un blog: Utiliza Medium (recomendado), Reddit o construye tu propia plataforma de blog y comienza a publicar posts semanales sobre lo que estás aprendiendo.
-- Acércate a los desarrolladores que admiras: Si te ha gustado un vídeo, escríbele algo al autor.  Si te gusta una librería ¡haz un Pull Request corrigiendo un error ortográfico o mejorando la documentación o codificando una nueva característica!
+- Acércate a los desarrolladores que admiras: Si te ha gustado un vídeo, escríbele algo al autor.  Si te gusta una librería, ¡haz un Pull Request corrigiendo un error ortográfico o mejorando la documentación o codificando una nueva característica!
 - Participa en eventos y conferencias: Reúnete con otros desarrolladores y las oportunidades empezarán a llegar.
 
 ## Razones por las que tienes que procrastinar esto:

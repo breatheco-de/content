@@ -1,4 +1,13 @@
-Bienvenidos al Código de Conducta y Ética de 4Geeks Academy. Esta es la forma en que trabajamos
+---
+title: "Código de Conducta y Ética de 4Geeks Academy"
+subtitle: "Ser miembro del equipo de 4geeks Academy conlleva muchas cosas buenas y responsabilidades. Nuestra cultura y nuestro ambiente de trabajo está compuesto por la forma en que cada uno de nosotros actuamos, hablamos y nos comportamos, todos los días."
+tags: ["4geeks"]
+
+---
+
+# Bienvenidos al Código de Conducta y Ética de 4Geeks Academy
+
+Esta es la forma en que trabajamos.
 
 Ser miembro del equipo de 4geeks Academy conlleva muchas cosas buenas y responsabilidades. Nuestra cultura y nuestro ambiente de trabajo está compuesto por la forma en que cada uno de nosotros actuamos, hablamos y nos comportamos, todos los días.
 

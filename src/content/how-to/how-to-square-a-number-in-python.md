@@ -16,8 +16,6 @@ print(square)
 #Output-> 36
 ```
 
-There are many ways to power a number. In this article we'll explore 4 of them for you to choose the one you like the most. Let's dig in.
-
 ## Creating the function ourself:
 
 The first method we are presenting is exactly, creating a function that will return the squared number that receive. 
@@ -72,4 +70,8 @@ print(squareMathPow(5,2))
 #Output-> 25
 ```
 
+<<<<<<< HEAD
 Hope you enjoyed the reading and keep on the Geek side!
+=======
+You can find more of these articles at [4Geeks](https://4geeks.com/). Hope you enjoyed the reading and keep on the Geek side!
+>>>>>>> 861f5abfb6c6de34cfe290e2ae0068d96af20482
