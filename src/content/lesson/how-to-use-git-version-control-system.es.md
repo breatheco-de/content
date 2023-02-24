@@ -223,7 +223,7 @@ Para compartir el trabajo entre los desarrolladores, GIT utiliza un **modelo dis
 
 ## Control de Versiones Distribuido
 
-Digamos que tu y tu amigo quieren trabajar en el mismo proyecto. Tu amigo ya ha hecho algún trabajo en ello. Hay tres tareas que debes realizar para descubrir cómo hacerlo:
+Digamos que tú y tu amigo quieren trabajar en el mismo proyecto. Tu amigo ya ha hecho algún trabajo en ello. Hay tres tareas que debes realizar para descubrir cómo hacerlo:
 
 + Obtén una copia del repositorio actualizado de tu amigo (git clone).
 + Obtén los cambios que realiza tu amigo en su propio repositorio (git pull).
