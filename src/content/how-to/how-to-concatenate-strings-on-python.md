@@ -5,6 +5,8 @@ tags: ["python"]
 
 ---
 
+The most human like for writing and reading when we are making a string concatenation would be to use the **format string** method. Making use of the `f""` method, you can use variables just by calling them inside brakets `{}`.
+
 ```python 
 str1 = "Hello"
 str2 = "Geeks"
