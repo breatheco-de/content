@@ -59,7 +59,7 @@ Al igual que cualquier otra etiqueta HTML, las etiquetas de input tienen varios 
 <input type="text" name="firstname" value="John" disabled>
 ```
 
-`SIZE`: El número máximo de caracteres permitidos para ese input.
+`SIZE`: Tamaño del input.
 
 ```html
 <input type="text" name="firstname" value="John" size="40">
