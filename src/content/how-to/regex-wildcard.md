@@ -8,6 +8,8 @@ status: "draft"
 
 ---
 
+The wildcards allows us to not know the characters, numbers and everything in between and still be able to match our expressions with the result we desire. Here is a quick example of how to use it
+
 ```javascript 
 
 const url = "https://www.4geeks.com/how-to"
