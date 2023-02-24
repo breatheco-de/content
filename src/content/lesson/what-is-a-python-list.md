@@ -1,7 +1,7 @@
 ---
 title: "Working with Lists in Python"
 subtitle: "Lists are the first type of data-structures that Python has to store multiple values at once, they are very powerful and heavily used in every day operations for any type of program in any industry"
-cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png?raw=true"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["list"]
@@ -9,16 +9,7 @@ status: "published"
 
 ---
 
-## Introduction to Python lists
-
-Mastering the use of lists and loops is one of the 5 fundamental skills of building algorithms:
-
-1. Variables.
-2. Conditionals.
-3. `Lists`.
-4. `Loops`.
-5. Functions.
-
+If you want to know how to create lists, access elements within lists, manipulate lists, and perform common operations such as sorting, filtering, and transforming, this is an article for you. Whether you're a beginner or an experienced programmer, this article provides a comprehensive guide. The step-by-step [instructions for python](https://4geeks.com/lesson/intro-to-python) lists and clear explanations make it easy to understand and apply the concepts.
 
 ## What is a List?
 
@@ -35,7 +26,7 @@ Every list has the same basic concepts:
 
 **Index:** is the position of the element.
 
-![what is an list define list](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
+![what is an list define list](https://storage.googleapis.com/breathecode-asset-images/a9f6a0d4a2fc4db11ce30aabf3e189f7beb32273a7f9a2ba5e19b765846d4ce9.png?raw=true)
 
 
 > :point_up:List positions start a **zero (0)**; the first element is the element in the position **zero (0)**
@@ -183,4 +174,4 @@ for i in range(1, 6, 2): # range(start value, end value (non inclusive), increme
 # The positions is 5 for the element Kyle
 ```
 
-.
+You can read more related articles at [4Geeks](https://4geeks.com/) and keep on the Geek side!

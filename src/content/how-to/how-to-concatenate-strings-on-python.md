@@ -1,6 +1,6 @@
 ---
 title: "How to concatenate Strings on Python"
-subtitle: "On how to concatenate Strings in Python we explore different ways to concatenate and your choosing will depend on your style and needs. We can concatenate using the + operator, f-Strings method, .format(), the % Operator and we can repeat a string by the means of the * Operator."
+subtitle: "On how to concatenate Strings in Python we explore different ways to concatenate and your choosing will depend on your style and needs."
 tags: ["python"]
 
 ---
@@ -15,7 +15,7 @@ print(f"{str1} from {int1} {str2} Academy!")
 #Output -> Hello from 4 Geeks Academy!
 ```
 
-String concatenation is a common action we, as developers, have to deal with in almost any project. This is the reason why we can achieve this `union of texts` in different ways, depending on style and the need of the data we are presenting in our project.
+String concatenation is a common action we, as [software developers](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), have to deal with in almost any project. This is the reason why we can achieve this `union of texts` in different ways, depending on style and the need of the data we are presenting in our project.
 
 ## Concatenate using the + operator
 
@@ -75,7 +75,7 @@ TypeError: can only concatenate str (not "int") to str
 
 ## Concatenate using the f-Strings
 
-Python f-Strings (formatted string literals) makes writing strings in a more clear and understanding way for humans. This option was introduced on Python 3.6 so keep in mind backward compatibility when using it.
+Python f-Strings (formatted string literals) makes writing strings in a more clear and understanding way for humans. This option was [introduced on Python](https://4geeks.com/lesson/intro-to-python) 3.6 so keep in mind backward compatibility when using it.
 
 This is one of the most used methods among experienced developers because of the ease to insert `variables` into the **square brackets**. The variable(s) will be evaluated and a string representation will be displayed. 
 
@@ -144,4 +144,4 @@ print(str1*3)
 If you format the **string** variable correctly (leaving a space at the end of the sentence/word), this is the best way to repeat a line of text as many times as you may need.
 
 
-Hope you enjoyed the reading and keep on the Geek side!
+You can read more related topics at [4Geeks](https://4geeks.com/lesson/intro-to-python). Hope you enjoyed the reading and keep on the Geek side!
