@@ -1,3 +1,10 @@
+---
+title: "4Geeks Academy Terms and Conditions"
+subtitle: "In this article the terms and conditions of 4Geeks Academy will be described."
+tags: ["4geeks"]
+
+---
+
 # 4Geeks Academy
 
 ## Website usage terms and conditions
