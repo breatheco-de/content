@@ -39,7 +39,7 @@ Un **repositorio** GIT se compone de lo siguiente:
 + Un conjunto de referencias para comentar objetos, llamados **heads**.
 
 <p align="center">
- <img height="200px" src="../../assets/images/a4fc1953-3c91-4bf4-a70a-ab4778b3277b.png" alt="how to use git" />
+ <img height="200px" src="http://blastcoding.com/wp-content/uploads/2016/11/git-staging-area-1.png" alt="how to use git" />
 </p>
 
 El repositorio de GIT se almacena dentro del mismo directorio que se encuentra el proyecto en un subdirectorio -oculto- llamado .git:
