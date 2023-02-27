@@ -8,11 +8,7 @@ status: "draft"
 
 ---
 
-
-```javascript
-
-
-```
+Regex, short for regular expressions, is a powerful tool used for text processing and manipulation in programming. It allows developers to define patterns of characters that can be used to match specific strings of text. This can be incredibly useful for tasks such as data validation, parsing, and searching. Regex is used in a wide range of programming languages, including JavaScript, Python, and Ruby. For those looking to learn more about regex, a [regex tutorial](https://4geeks.com/lesson/regex-tutorial-regular-expression-examples) is a great place to start. A good tutorial will cover the basics of regex syntax, provide examples of common use cases, and offer best practices for working with regular expressions. By learning regex, programmers can enhance their skills and write more efficient and effective code.
 
 ## What are Regular Expressions (RegEx) patterns?
 
@@ -276,4 +272,4 @@ print(checkUrl("4geeks")) #Output -> False
 
 In both cases we are returning a boolean (`true/false`) if the url is valid.
 
-Hope you enjoyed the reading and keep on the Geek side!
+You can learn more about this topic and others related at [4Geeks](https://4geeks.com/). Hope you enjoyed the reading and keep on the Geek side!
