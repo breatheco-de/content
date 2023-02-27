@@ -31,7 +31,7 @@ Every list has the same basic concepts:
 
 > :point_up:List positions start a **zero (0)**; the first element is the element in the position **zero (0)**
 
-## How to Declare a List?
+## How to Declare a Python List?
 
 
 These are different examples of list declarations:
