@@ -9,9 +9,9 @@ status: "published"
 
 ---
 
-If you want to know how to create lists, access elements within lists, manipulate lists, and perform common operations such as sorting, filtering, and transforming, this is an article for you. Whether you're a beginner or an experienced programmer, this article provides a comprehensive guide. The step-by-step [instructions for python](https://4geeks.com/lesson/intro-to-python) lists and clear explanations make it easy to understand and apply the concepts.
+If you want to know how to create lists, access elements within lists, manipulate lists, and perform common operations such as sorting, filtering, and transforming, this article is for you. Whether you're a beginner or an experienced programmer, this article provides a comprehensive guide. The step-by-step [instructions for python](https://4geeks.com/lesson/intro-to-python) lists and clear explanations make it easy to understand and apply the concepts.
 
-## What is a List?
+## What is a Python List?
 
 A list is, normally, any collection of values.  The rules of how to add or remove elements from that list can change from one programming language to another.  But – generally – they are the only ways for developers to create elements.
 Lists are not the only way we have to list store multiple values at once but it is the most used tool for that purpose. For example: list of students, list of artists, list of transactions…anything!
