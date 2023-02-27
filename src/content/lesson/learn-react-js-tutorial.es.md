@@ -29,12 +29,11 @@ Es bastante código ¿VERDAD?
 
 ## Entonces... ¿Qué es React?
 
-
 React.js se define a sí mismo como una librería de front-end para interfaces de usuario (UIs). Básicamente, React propone una nueva forma de crear sitios web al rediseñar todo el flujo de trabajo de codificación y hacer que los sitios web sean más rápidos.
 
 #### No más DOM
 
-A partir de ahora, React.js se hará cargo del DOM, tu trabajo es crear el suyo propio y definir cómo deben mostrarse o representarse.
+A partir de ahora, React.js se hará cargo del DOM; tu trabajo es crear tus propios `<Tags>` y definir cómo deben mostrarse o representarse (render).
 
 #### Todo es componente
 
@@ -60,7 +59,7 @@ Si tienes que usar código JS dentro de tu bloque HTML, simplemente debes envolv
 return <h1 id="name"> {person.name} </h1>;
 ```
 
-Recuerda que en JSX/React el código dinámico JS dentro del código de HTML (como el anterior) siempre debe evaluarse como una expresión. Es por eso que no podemos usar declaraciones JS dentro de las llaves, como la declaración if..else por ejemplo. En su lugar debemos usar una expresión ternaria que tiene el mismo efecto.
+Recuerda, que en JSX/React el código dinámico JS dentro del código de HTML (como el anterior) siempre debe evaluarse como una expresión. Es por eso que no podemos usar declaraciones JS dentro de las llaves, como la declaración if..else por ejemplo. En su lugar debemos usar una expresión ternaria que tiene el mismo efecto.
  
 ```jsx
 return <h1 id="name"> {if(person.name == "John") "John"; else "Tom" } </h1>; //no funciona en JSX
@@ -73,12 +72,7 @@ return <h1 id="name"> {person.name == "John" ? "John" : "Tom" } </h1>; //funcion
 
 > :point_up: Revisa las diferencias entre expresiones y declaraciones :link:[AQUÏ](https://medium.com/launch-school/javascript-expressions-and-statements-4d32ac9c0e74)
 
-
-<br>
-<br>
-
 ## Ahora Todo es un Componente
-
 
 ¿Recuerdas los componentes de Bootstrap?
 
@@ -123,8 +117,7 @@ function MyCard(){
 
 ```
 
-> 👆 Cada componente en React debe tener un método de renderizado que devuelva un bloque de código HTML
-
+> 👆 Cada componente en React debe tener un método de renderizado que devuelva un bloque de código HTML.
 
 Cada componente se puede renderizar llamando a su `<tag>`, que se parece a las etiquetas HTML pero siempre comienza con una letra mayúscula. La diferencia es que ahora el nombre de la `<tag>` es el nombre del componente React (*p. ej., <MyCard />*) que **tú** has creado, y usar la tag te da acceso a la apariencia y comportamiento que has programado en tu propio componente.
 
@@ -173,10 +166,10 @@ export class MyCard extends React.Component{
     }
 }
 ```
-> :point_up:  Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+
+> :point_up: Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
 
 ## El componente PRINCIPAL 
-
 
 Con React, toda la aplicación se considera un componente.
 
@@ -193,7 +186,7 @@ function MyMainComponent (){
     return <div>Hello World<div>;
 }
 
-  
+
 ReactDOM.render(<MyMainComponent />, document.querySelector('#app'));
 // Está implícito que hay un contenedor div con el id 'app' en el cuerpo HTML de tu sitio web original
 // A través de <MyMainComponent /> toda tu aplicación react se insertará en esa ubicación del DOM
@@ -229,10 +222,8 @@ ReactDOM.render(<MyMainComponent />, document.querySelector('#app'));
 
 ```
 
-En este ejemplo, `<ChildComponent />` y `<GrandchildComponent />` terminarán en el DOM y se renderizarán porque se les llama dentro del componente principal o un descendiente. `<RandomComponent />` por otro lado, nunca se mostrará en la página porque no se llama de esa manera. 
+En este ejemplo, `<ChildComponent />` y `<GrandchildComponent />` terminarán en el DOM y se renderizarán porque se les llama dentro del componente principal o un descendiente. `<RandomComponent />` Por otro lado, nunca se mostrará en la página porque no se llama de esa manera. 
  
-
-
 ## Hacer diseños de sitios web con React
 
 Un "Layout" o diseño en React es básicamente la combinación de dos o más componentes (llamados **componentes** propiamente tales) en un componente principal (llamado **view** o **vista**).
@@ -258,9 +249,9 @@ export function EntireWebsiteLayout (){
 //Está implícito que los componentes Home, AboutUs y ContactUs ya han sido definidos
 ```
 
-> :point_up:  Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
+> :point_up: Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar ya que lo componentes de clase están considerados como legacy(deprecados).
 
-Esos componentes que sirven para sostener el layout o diseño de tus páginas web, no se utilizarán para nada más es lo que llamamos "views o vistas", y los típicos componentes que podemos reutilizar muchas veces con diferente input ( como componente button o card) les llamaremos "components o componentes" dentro de las carpetas de nuestra aplicación.
+Esos componentes que sirven para sostener el layout o diseño de tus páginas web, no se utilizarán para nada más, es lo que llamamos "views o vistas", y los típicos componentes que podemos reutilizar muchas veces con diferente input (como componente button o card) les llamaremos "components o componentes" dentro de las carpetas de nuestra aplicación.
 
 **Así es como React renderizará tu layout:**
 
@@ -269,7 +260,6 @@ Cada componente tendrá método de renderizado. El documento HTML resultante, es
 ![learn react js tutorial](../../assets/images/6c7d3747-482a-480d-b5be-fdbf095292f3.png)
 
 ## El Ejemplo de YouTube.com
-
 
 En la estructura de tu aplicación, puedes tomar un destacador y comenzar a marcar todos los componentes que tendrá tu aplicación. Los más fáciles son los componentes típicos de Bootstrap: NavBar, Card, etc. También debieras definir tus propios componentes.
 
@@ -281,12 +271,15 @@ En este caso, hemos decidido crear los siguientes componentes basados en el siti
 + `<VideoCard />`: Mostrará una miniatura de video a la izquierda con una pequeña descripción a la derecha y llevará a las personas a esa página de video cuando se haga clic.
 + `<VideoTitle />`: Renderizará el titulo del video.
 + etc.
-Una vez que hayas terminado de identificar tus componentes, es hora de comenzar a programar.  Crea una nueva clase de Javascript en un archivo separado para cada uno de esos componentes.
+
+Una vez que hayas terminado de identificar tus componentes, es hora de comenzar a programar. Crea una nueva clase de Javascript en un archivo separado para cada uno de esos componentes.
 
 Cada clase debe tener una función llamada **render.** Esto devolverá el código HTML que el componente generará en el documento del sitio web.
 
 <before-after width="400px"
     before="../../assets/images/e590a615-2c9d-4671-8483-99dbdd90cd41.png" after="../../assets/images/78aedd23-b5dd-4d1e-b693-b3268f4734fa.png" />
+
+## Aspectos esenciales de un componente React
 
 ### El Estado del Componente
 
@@ -307,8 +300,8 @@ Cualquier componente puede tener propiedades, al igual que en HTML. Por ejemplo,
 
 En React, podemos establecer las propiedades de la misma manera y nuestros componentes podrán leerlas y mostrar diferentes cosas basadas en las props que se le están pasando.
 
-```html
-<!-- Aquí podemos inventar una nueva propiedad 'textColor', pero ahora tendremos que asegurarnos de codificar su comportamiento --> 
+```jsx
+// Aquí podemos inventar una nueva propiedad 'textColor', pero ahora tendremos que asegurarnos de codificar su comportamiento
 <ClockComponent textColor="red" />
 ```
 
@@ -319,7 +312,6 @@ En el código anterior, hemos inventado una nueva propiedad para el ejemplo Cloc
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/r80q431L/8/embedded/js,html,result/">Haz clic para abrir el demo</a></small></div>
 
 Un componente real de alta calidad sólo debe comunicarse con otros componentes a través de sus propiedades. De esta manera podremos reutilizar ese componente muchas veces en el futuro (de manera similar a como funcionan las funciones y los parámetros).
-
 
 ### Ciclo de Vida de un Componente
 
