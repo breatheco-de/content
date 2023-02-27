@@ -8,6 +8,8 @@ status: "draft"
 
 ---
 
+Regular expressions, commonly known as regex, are a powerful tool used in programming and text processing. They allow developers to define patterns of characters that can be used to match and manipulate strings of text. Regex is used in a wide range of applications, such as data validation, search functionality, and parsing. A [regex tutorial](https://4geeks.com/lesson/regex-tutorial-regular-expression-examples) is a useful resource for those looking to learn more about this tool. A good tutorial typically covers the basics of regex syntax, provides examples of common use cases, and offers tips and tricks for working with regular expressions. By mastering regex, programmers can improve their efficiency and productivity, and write more sophisticated and flexible code.
+
 ```javascript
 const regex = new RegExp("examples$")
 const text = "Examples for RegExp 4 Geeks Academy Regex examples"
@@ -135,4 +137,4 @@ Now that we have our pattern, the `matcher()` method will search for it on the g
 
 Finally, the `find()` method returns a boolean if the pattern was found or not.
 
-Hope you enjoyed the reading and keep on the Geek Side
+You can read more about this topic and other related at [4Geeks](https://4geeks.com/). Hope you enjoyed the reading and keep on the Geek Side!
