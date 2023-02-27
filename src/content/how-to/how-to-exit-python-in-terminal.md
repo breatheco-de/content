@@ -8,13 +8,13 @@ status: "draft"
 
 ---
 
-In Python there are a few ways to exit the terminal. We are choosing the **exit()** method because it doesn't prompt for confirmation and the method name is self explanatory.
+In Python there are a few ways to exit the terminal. We are going to show you the **exit()** method because it doesn't prompt for confirmation and the method name is self explanatory.
 
 ```python
 exit()
 ```
 
-## Using Exit()
+## Exit Python in terminal
 
 To exit Python on terminal, can be achieved in 3 ways:
 
