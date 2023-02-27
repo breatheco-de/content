@@ -18,7 +18,7 @@ print(square)
 
 ## Creating the function ourself:
 
-The first method we are presenting is exactly, creating a function that will return the squared number that receive. 
+The first method we are presenting is exactly creating a function that will return the squared number that receive. 
 
 As you should already know, a squared number is the number multiplyed by itself, so, let say the square of `2` would be `4` because `2*2=4`. If we were to choose `5`, we would receive `25` and so on.
 
@@ -70,8 +70,4 @@ print(squareMathPow(5,2))
 #Output-> 25
 ```
 
-<<<<<<< HEAD
-Hope you enjoyed the reading and keep on the Geek side!
-=======
 You can find more of these articles at [4Geeks](https://4geeks.com/). Hope you enjoyed the reading and keep on the Geek side!
->>>>>>> 861f5abfb6c6de34cfe290e2ae0068d96af20482
