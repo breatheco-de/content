@@ -139,7 +139,7 @@ Ahora que has creado commits, ¿cómo se hace referencia a un commit específico
 
 ## Creando una Rama
 
-Para crear una rama, digamos que su repositorio se ve así:
+Para crear una rama, digamos que tu repositorio se ve así:
 
 ![how to use git](../../assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png)
 
