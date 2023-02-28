@@ -14,7 +14,7 @@ If you are interested in learning to code efficiently but fast, you should do it
 
 In this article, I'm going to try to explain why it works and how you can do it.
 
-## What is Learn In Public
+## What is Learn In Public?
 
 Learning in private: The traditional educational system is designed to be a private experience. You read books, attend classes, complete projects and assessments, and then at some point you graduate. We are so used to this workflow that it's already embedded into our student's hearts.
 
