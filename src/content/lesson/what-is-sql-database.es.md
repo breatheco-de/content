@@ -42,7 +42,7 @@ Las bases de datos son similares en apariencia a las hojas de cálculo: todo se 
 
 ####  ¿Qué es una tabla?
 
-Cada tabla es una entidad de información con “Personas”, “Autos”, “Eventos”, etc.  Las filas contienen la información actual del asunto - así que si tenemos una tabla llamada "Personas", puede contener columnas para "Nombre", "Apellido" y para un "id". Una fila tendría los valores correspondientes a la columna, como "Luis", "Perez" y "42".  La tabla es la **única estructura** capaz de almacenar datos via SQL.
+Cada tabla es una entidad de información con “Personas”, “Autos”, “Eventos”, etc.  Las filas contienen la información actual del asunto - así que si tenemos una tabla llamada "Personas", puede contener columnas para "Nombre", "Apellido" y para un "id". Una fila tendría los valores correspondientes a la columna, como "Luis", "Perez" y "42".  La tabla es la **única estructura** capaz de almacenar datos vía SQL.
 
 ####  ¿Qué es una columna/campo?
 
