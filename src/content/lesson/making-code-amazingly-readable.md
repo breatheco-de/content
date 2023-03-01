@@ -7,17 +7,17 @@ tags: ["coding guidelines"]
 
 Did you know that in 1999, NASA's Mars Climate Orbiter was destroyed due to a software bug caused by low code readability costing $320 million?
 
-Having readable code is probably one of the top priority for companies these days; It's so remarkable that, without knowing, when you improve readability, you are also applying almost every other metric about [coding standards and guidelines](/lessons/technology/coding-standard-guidelines) in the industry.
+Having readable code is probably one of the top priorities for companies these days; it's so remarkable that, without knowing, when you improve readability, you are also applying almost every other metric about [coding standards and guidelines](/lessons/technology/coding-standard-guidelines) in the industry.
 
 > 🤯 "Any fool can write code that a computer can understand. Good programmers write code that humans can understand." - Martin Fowler 
 
-Code readability refers to how easy any person can understand the purpose, structure, and operation of a piece of code. Code that is easy to read and understand is more maintainable and easier to modify or update, and it is less likely to contain errors or bugs.
+Code readability refers to how easily any person can understand the purpose, structure, and operation of a piece of code. Code that is easy to read and understand is more maintainable and easier to modify or update, and it is less likely to contain errors or bugs.
 
 > 🤯 "Code is read much more often than it is written." - Guido van Rossum (creator of the Python programming language)
 
 ## Low readability costs a lot of money 
 
-Poor code readability can lead to a number of problems that can cost a company money:
+Poor code readability can lead to several problems that can cost a company money:
 
 **Increased debugging time:** If code is difficult to read and understand, it can take longer to identify and fix bugs, which can increase the amount of time and resources needed to debug the code. This can lead to increased project costs and delays.
 
@@ -25,13 +25,13 @@ Poor code readability can lead to a number of problems that can cost a company m
 
 **Increased risk of errors:** If code is difficult to read and understand, it is more likely that errors or bugs will be introduced as the code is modified or updated. These errors can cause the program to malfunction, leading to lost productivity and potentially lost revenue.
 
-## Tips you can follow to improve code readability
+## Tips you can follow to improve the code readability
 
-In this lesson, we will go over a few tips you can follow to improve readability in your code. 
+In this lesson, we will go over a few tips you can follow to improve the readability of your code. 
 
 ### Choose variable names wisely
 
-Were do I start? This is one of the most difficult tasks in coding. 
+Where do I start? This is one of the most difficult tasks in coding. 
 
 - Choose descriptive and meaningful names.
 - Limit the use of most abbreviations or acronyms.
@@ -41,13 +41,13 @@ Were do I start? This is one of the most difficult tasks in coding.
 
 ![good vs bad variable names](https://storage.googleapis.com/media-breathecode/54d66f16a9ce92ebbc05807f763dc5975d51280817415c98f02ab893ffa3eb05)
 
-### Split your code in smaller functions
+### Split your code into smaller functions
 
 Instead of nesting blocks of code, consider refactoring the code into smaller functions and calling those functions at the appropriate times. This can reduce the overall depth of nesting in your code.
 
 ![Encapsulate in smaller functions](https://storage.googleapis.com/media-breathecode/29539a612aa4bc57c236e82838d5f105246de972d622792441efe4d642c31b84)
 
-### Avoid using else statement
+### Avoid using the `else` statement
 
 It's better to combine your conditions in related logical operations.
 
@@ -63,9 +63,9 @@ I challenge you to find the problem!
 
 ### You don't need that many comments
 
-When you are about to add a comment, think for a second: Do I really need this comment? Can I increase readably to avoid it?
+When you are about to add a comment, think for a second: Do I need this comment? Can I increase readability to avoid it?
 
-99% of the time, there is not need for comments if your code has a good readability and follows best practices.
+99% of the time, there is no need for comments if your code has good readability and follows best practices.
 
 ![Avoid unnecessary comments when coding](https://storage.googleapis.com/media-breathecode/bac5b919aa2338754568a68cdb2054a1f47d7be0599d7feb33a8b0968d68004c)
 
