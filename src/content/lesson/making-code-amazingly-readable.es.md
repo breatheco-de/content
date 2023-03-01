@@ -7,7 +7,7 @@ tags: ["coding guidelines"]
 
 ¿Sabías que en 1999, el Mars Climate Orbiter de la NASA fue destruido debido a un error de software causado por la baja legibilidad del código que costó $320 millones?
 
-Tener un código legible es probablemente una de las principales prioridades para las empresas en estos días; es tan notable que, sin saberlo, cuando mejora la legibilidad, también está aplicando casi todas las demás métricas sobre [estándares y pautas de codificación](/lecciones/tecnología/pautas-estándar-de-codificación) en la industria.
+Tener un código legible es probablemente una de las principales prioridades para las empresas en estos días; es tan notable que, sin saberlo, cuando mejora la legibilidad, también está aplicando casi todas las demás métricas sobre [estándares y pautas de codificación](https://4geeks.com/es/lesson/estandares-y-lineamientos-de-codigo) en la industria.
 
 > 🤯 "Cualquier tonto puede escribir código que una computadora pueda entender. Los buenos programadores escriben código que los humanos pueden entender". -Martin Fowler
 
