@@ -12,7 +12,7 @@ tags: ["async","await","promise","asynchronous"]
 
 ## Asynchronous Programming with JavaScript 
 
-Up to this point, we have used JavaScript code to run simple web applications, which includes: using variables, calling functions and playing with the ***DOM***. On functions, specifically, we even passed functions into another functions  (***callback functions***) and there's more to talk about this.
+Up to this point, we have used JavaScript code to run simple web applications, which include: using variables, calling functions, and playing with the ***DOM***. On functions, specifically, we even passed functions into another function (***callback functions***) and there's more to talk about this.
 
 Let's start by stating that JavaScript is synchronous and single-threaded by definition, i.e: the code is executed from line 1 until the last one, one at a time and in order(ish). Take a look at this example:
 
@@ -35,7 +35,7 @@ CONSOLE OUTPUT:
 */
 ```
 
-In here: line 5 runs before line 2 because we're calling ```runSecond()``` (line 7) before ```runFirst()``` (line 8). Breaking the order by commanding the computer to *call* (or execute) the code block within a function.
+Here: line 5 runs before line 2 because we're calling ```runSecond()``` (line 7) before ```runFirst()``` (line 8). Breaking the order by commanding the computer to *call* (or execute) the code block within a function.
 
 Things get more complicated when calling functions inside functions, as we can see here:
 
@@ -69,7 +69,7 @@ This happens because the ***call stack*** in JavaScript keeps track of the funct
 + Second ```console.log``` executed (line 7).
 + Once ```runSecond()``` finishes, ```runFirst()``` starts again, executing the rest of its code, the last ```console.log``` (line 4).
 
-F U N!
+F U N !
 
 But wait, there's more... We could even pass a *function* as an argument to another function (nope, this is not a typo). The *function* sent as a parameter it is called a **callback function**. Take a look:
 
@@ -105,10 +105,10 @@ CONSOLE OUTPUT:
 
 Explanation time!
 
-We've added a new function ```aThirdOne()``` (line 12), which console-logs: "this is crazy"; but we are not calling it directly, instead, we are passing the its name as a parameter to ```runFirst()``` (line 10). 
+We've added a new function ```aThirdOne()``` (line 12), which console-logs: "this is crazy"; but we are not calling it directly, instead, we are passing its name as a parameter to ```runFirst()``` (line 10). 
 ```runFirst(someFunction)``` it's now expecting a value (line 1) which will be called as if it were a function (line 3).
 **Note that the name is different because we pass the value, not the variable name.** 
-This produces a new print in the console: "this is crazy", before we call ```runSecond()``` (line 4).  
+This produces a new print in the console: "this is crazy" before we call ```runSecond()``` (line 4).  
 
 ...*jump around!, jump around!, jump around!, Jump up, jump up and get down!*... 
 
@@ -130,7 +130,7 @@ userIsWaiting();
 
 /*CONSOLE OUTPUT:
 	> Load them! 			//user starts waiting
-					//now user has to wait for the images to arrive, time: unknown... browser: frozen :(
+					//now the user has to wait for the images to arrive, time: unknown... browser: frozen :(
 	> Images loaded! 		//after ?? seconds
 	> I don't like waiting 		//we don't want users to wait that long to see images
 */
@@ -169,7 +169,7 @@ userIsWaiting();
 */
 ```
 
-Javascript offers a handful of predefined asynchronous functions which we can use to solve any possible scenario. Some of them are:
+Javascript offers a handful of predefined asynchronous functions that we can use to solve any possible scenario. Some of them are:
 
 + [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch): used to load files asynchronously.
 + [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout): used to set timers between blocks of code.
@@ -180,11 +180,11 @@ Keep in mind that any network call could fail because of many reasons, we should
 
 ## Promises
 
-A promise is nothing more than the result of an asynchronous operation. It represents the completion or failure of that result in form of object provided by the promise.
+A promise is nothing more than the result of an asynchronous operation. It represents the completion or failure of that result in form of the object provided by the promise.
 
 #### A promise has 3 different states:
 + ***Pending***: promise result has not been determined yet because the asynchronous operation has not been completed.
-+ ***Fulfilled***: it is when asynchronous operation is finished and the promise returned a value as an object.
++ ***Fulfilled***: it is when the asynchronous operation is finished and the promise returned a value as an object.
 + ***Rejected***: it takes place when the operation failed.
 
 
@@ -210,8 +210,8 @@ console.log(myPromise);
 + ***Resolve*** is used to change the status of a promise from pending to fulfilled.
 +  ***Reject*** is used to change the status from pending to rejected.
 
-
 ### Important methods to know when using promises
+
 + ***resolve***: it returns a promise object that has the status of resolved with a value.
 ```javascript
 //here Promise represents the Promise object.
@@ -229,38 +229,35 @@ Promise.resolve("I was resolved with this value").then(value => console.log(valu
 */
 ```
 
-
 + ***reject***: it returns an already rejected promise with a reason.
 
 ```javascript
 Promise.reject(new Error("I was rejected")).catch(error => console.log(error));
 ```
 
-
-+ ***then***: this method return a promise and it can take up to 2 arguments. One for the resolved promise and one for the rejected promise. Above there is an example that uses ***then*** method and takes one argument.
++ ***then***: this method returns a promise and it can take up to 2 arguments. One for the resolved promise and one for the rejected promise. Above there is an example that uses the ***then*** method and takes one argument.
 
 ```javascript
 var promise =  new  Promise(function(resolve,reject){
-	resolve("I was resolved and you can see me when you use then method");
+	resolve("I was resolved, and you can see me when you use the then method");
 });
 promise.then(value => console.log(value));
 ```
 
-+ ***catch***: returns a promise and deals with rejected operations. It is very handy when trying to debug or showing errors.
++ ***catch***: returns a promise and deals with rejected operations. It is very handy when trying to debug or show errors.
 
 ```javascript
 var promise =  new  Promise(function(resolve,reject){
-	reject("I was rejected and you can see me when you use catch method");
+	reject("I was rejected, and you can see me when you use catch method");
 });
 promise.catch(error => console.log(error));
 ```
-
 
 ## Async/await
 
 + ***Async/await*** is a way to write asynchronous code. 
 + ***Async*** is a JavaScript function and can contain an ***await*** expression.
-+ ***Await*** pauses the execution of async function and waits for a Promise's result.
++ ***Await*** pauses the execution of the async function and waits for a Promise's result.
 
 > :point_up: Remember that await expressions are only valid inside async functions. If you use them outside you will have a syntax error.
 
@@ -287,6 +284,7 @@ useAsyncFunction();
 	>"I had to wait for await to finish"
 */
 ```
+
 ### Async becomes powerful when there are multiples steps in action:
 
 ```javascript
@@ -322,12 +320,15 @@ async function handlingAllPromises() {
 }
 handlingAllPromises();
 ```
+
 #### In the example above instead of awaiting for a promise every new line, we could use the Promise.all method and wait for all the promises to be fulfilled.
+
 ```javascript
 	var [first, second, third] = await Promise.all([promise1(), promise2(), promise3()]);
 ```
 
 ### Also you can do async functions as arrow functions
+
 ```javascript
 const handlingAllPromises = async () => {
   var [first, second, third] = await Promise.all([promise1(), promise2(), promise3()]);
@@ -339,7 +340,8 @@ const handlingAllPromises = async () => {
 ```
 
 ### How to handle errors in async functions?
-A good way of handling errors in async functions is to use the try ... catch statements.
+
+A good way of handling errors in async functions is to use the try... catch statements.
 
 ```javascript
 async function handeErrors() {
@@ -354,6 +356,7 @@ async function handeErrors() {
 ```
 
 ### Fetch api is promise based. Guess what? You can use it in your async functions too!! 
+
 ```javascript
 async  function fetchData(endpoint) { 
 	const response = await  fetch(endpoint); //notice the use of fetch api
@@ -370,4 +373,5 @@ fetchData(http://dummyData/api/allUsers); //this is an example endpoint
 ```
 
 ## In conclusion
+
 You have the ability to create awesome and faster web applications. In addition, users and faster tasks no longer need to wait for slow tasks to be finished,  thanks to ***asynchronous programming***. 
