@@ -13,15 +13,15 @@ tags: ["reactjs","javascript","front-end"]
 
 ## Why hooks?
 
-Functional components passing props are amazing because they are simple, perform fast, and require little code- but they can lead to the much dreaded "wrapper hell" in the quest for maintaining encapsulated components. On the other hand, class components are often confusing to work with for both humans and machines- they often lack a positive developer experience, which makes it more difficult creating a more positive user experience as well. Hooks provide a way for us to use state and lifecycle methods with minimal code- like giving your components super powers!
+Functional components passing props are amazing because they are simple, perform fast, and require little code, but they can lead to the much dreaded "wrapper hell" in the quest for maintaining encapsulated components. On the other hand, class components are often confusing to work with for both humans and machines, they often lack a positive developer experience, which makes it more difficult to create a more positive user experience as well. Hooks provide a way for us to use state and lifecycle methods with minimal code, like giving your components superpowers!
 
-### My components need super powers?
+### Do my components need superpowers?
 
 In general, using props is enough to create an amazing component, but sometimes you need more. Here are some really useful examples to know when to use hooks:
 
 1. If you want to open or close a modal or dialog- use the **useState** hook.
 2. If you want to fetch some data only at the beginning of the program execution, use the **useEffect** hook.
-3. If you want to share information within all components, use the **useContext** hook. We will talk more about the useContext hook on a separate lesson.
+3. If you want to share information within all components, use the **useContext** hook. We will talk more about the useContext hook in a separate lesson.
 
 Through experience, you will learn when to use a hook. If you don't think you need them, DON'T use them! The less the better.
 
@@ -31,7 +31,7 @@ Through experience, you will learn when to use a hook. If you don't think you ne
 import React, { useState } from 'react';
 ```
 
-And if we want to use useEffect as well, we can include like this:
+And if we want to use useEffect as well, we can include this:
 
 ```jsx
 import React, { useState, useEffect } from 'react';
@@ -41,7 +41,7 @@ Now let's learn how to use them :)
 
 ## The `useState` hook:
 
-The most important hook, almost unavoidable! The <strong>useState</strong> helps you initialize a variable and change its value over time without the need of parent components. This is how you can use it:
+The most important hook, is almost unavoidable! The <strong>useState</strong> helps you initialize a variable and change its value over time without the need for parent components. This is how you can use it:
 
 ```jsx
 //       variable name      setter name               initial value (any value)
@@ -85,7 +85,6 @@ const Counter = () => {
 ReactDOM.render(<Counter />, document.getElementById("root"));
 ```
 
-
 2. Timer/Clock: You can use the system time to show the current time on the screen, but since time changes all the time, we store it with a state variable.
 
    ![Building a timer with react hooks](https://s10.gifyu.com/images/ezgif.com-gif-maker-435c19aa6749269d2.gif) [![Edit React js Clock](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-js-clock-7zefj?fontsize=14&hidenavigation=1&theme=dark)
@@ -117,8 +116,7 @@ Clock.propTypes = {};
 export default Clock;
 ```
 
-
-3. Showing an input on the screen: The best practice to get the content from any input is by storing it on a state variable- this is called "Controlled Input". 
+3. Showing an input on the screen: The best practice to get the content from any input is by storing it on a state variable, this is called "Controlled Input". 
 
     ![Controlled input field](https://s10.gifyu.com/images/ezgif.com-gif-maker-399b80fa21c077ab6.gif) [![Edit controlledinput](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/controlledinput-rbh0m?fontsize=14&hidenavigation=1&theme=dark)
     
@@ -161,14 +159,14 @@ import "./styles.css";
 
 const Modal = () => {
   /**
-   *  Using the useState hook, you have to pay atention to 3 elements:
-   *  - opened: a variable that will change over time (can have any name)
-   *  - setOpened:  a function that resets the value of opened (can by any name)
-   *  - useState: this is the hook, it has to be setState and it receives the initial value for "opened"
+   *  Using the useState hook, you have to pay attention to 3 elements:
+   * - opened: a variable that will change over time (can have any name)
+   * - setOpened: a function that resets the value of opened (can by any name)
+   * - useState: this is the hook, it has to be setState and it receives the initial value for "opened"
    */
   const [opened, setOpened] = useState(true);
 
-  // if opened === true, I show the modal, else i show the button to open the modal
+  // if opened === true, I show the modal, else I show the button to open the modal
   return opened ? (
     <div>
       <h1>Hello BreatheCode</h1>
@@ -187,7 +185,7 @@ ReactDOM.render(<Modal />, document.getElementById("root"));
 
 ```
 
- 5. Thousands of other possible applications. 
+5. Thousands of other possible applications. 
 
 Let's explain this hook with a small Modal window example. Here is the live code:
 
@@ -280,4 +278,5 @@ const Todos = (props) => {
 > :point_up: Review the code in depth and live demo by [clicking here](https://codesandbox.io/s/xenodochial-varahamihira-egh86?fontsize=14)
 
 ## Further Reading
+
 For more information, including [how to build your own hooks](https://reactjs.org/docs/hooks-custom.html), check out: [Official React Documentation](https://reactjs.org/docs/hooks-overview.html)
