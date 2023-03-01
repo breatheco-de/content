@@ -1,4 +1,9 @@
-Bienvenidos al Código de Conducta y Ética de 4Geeks Academy. Esta es la forma en que trabajamos
+---
+title: "Código de conducta y ética de la Academia 4Geeks"
+subtitle: "En este artículo explicaremos en detalle los términos de conducta y condiciones de la academia 4geeks"
+author: "mriciglianoc"
+
+--- 
 
 Ser miembro del equipo de 4geeks Academy conlleva muchas cosas buenas y responsabilidades. Nuestra cultura y nuestro ambiente de trabajo está compuesto por la forma en que cada uno de nosotros actuamos, hablamos y nos comportamos, todos los días.
 
