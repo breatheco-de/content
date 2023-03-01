@@ -373,22 +373,3 @@ class MyComponent{
 ```   
 
 > :link: Here you can find [more information about all the React JS lifecycle methods.](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
