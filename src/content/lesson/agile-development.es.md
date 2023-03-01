@@ -26,7 +26,7 @@ En lugar de desarrollar una gran aplicación, desarrollarás y entregarás una s
 Cada incremento se llama "sprint" y tiene los siguientes pasos:
 
 + Comienza en el momento en que escribes **los requisitos de tu aplicación.**
-+ Continúa con un plan general aproximado (solo para tener una idea inexacta de la fecha de vencimiento, las tecnologías principales, etc.).
++ Continúa con un plan general aproximado (solo para tener una idea inexacta de la fecha de vencimiento, las tecnologías principales, etc).
 + Entonces **continúa con el diseño** (interfaces de usuario y arquitectura técnica).
 + Pasamos al desarrollo (escribir código).
 + Terminando con las pruebas y la entrega… y luego empezar de nuevo.
@@ -37,7 +37,7 @@ Los programadores junior se sienten cómodos haciendo bucles y usando condiciona
 ## Las aplicaciones web son solo otro tipo de aplicaciones…
 
 
-Borra de tu mente el flujo de trabajo de desarrollo de cualquier sitio web que hayas aprendido por su cuenta.  Crear aplicaciones web requiere de su propio flujo de trabajo desarrollado profesionalmente el cual debe aprenderse y seguirse. Las aplicaciones web no son lo mismo que los sitios web - aunque se crean bajo el mismo lenguaje.  En realidad, las aplicaciones web tienen más en común con las aplicaciones móviles o de escritorio que con los sitios web:
+Borra de tu mente el flujo de trabajo de desarrollo de cualquier sitio web que hayas aprendido por su cuenta. Crear aplicaciones web requiere de su propio flujo de trabajo desarrollado profesionalmente el cual debe aprenderse y seguirse. Las aplicaciones web no son lo mismo que los sitios web - aunque se crean bajo el mismo lenguaje. En realidad, las aplicaciones web tienen más en común con las aplicaciones móviles o de escritorio que con los sitios web:
 
 + Las aplicaciones web se comprimen en un solo archivo ejecutable.
 + Deben ser instaladas o importadas.

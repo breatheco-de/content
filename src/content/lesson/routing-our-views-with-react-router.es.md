@@ -17,6 +17,8 @@ React Router, una librería JS disponible a través de NPM que ayuda principalme
 + Visualización condicional para los componentes React basados en la URL del sitio web actual.
 + Navegación de aplicaciones web sin necesidad de actualizar.
 
+El siguiente commando de terminal te permite installar React Router en tu proyecto:
+
 ```bash
 $ npm install --save react-router
 ```

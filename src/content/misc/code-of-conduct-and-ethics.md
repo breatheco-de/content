@@ -10,7 +10,7 @@ Being a member of the 4geeks Academy team comes with a lot of good things and re
 This is our Code of Conduct and Ethics, it is based on our policies and our Values: CODING. PASSION. LEARNING. INNOVATION. Above all, it describes our top rules and how to make sure we follow them:
 
 1. Do the right thing. Always act with honesty and integrity. Maintain high moral and ethical standards. You are the Culture: role model the Behavior you Want to see.
-2. Be kind. Treat people with respect, regardless of who they are and Where do they come from? Be decent and courteous in all relationships. 
+2. Be kind. Treat people with respect, regardless of who they are, and Where do they come from? Be decent and courteous in all relationships. 
 3. Play fair. Try to balance the interests of the entire community (stakeholders, teachers, students, users, employees, freelancers and the general public). We are all 4geeks!
 4. Assume your responsibilities and the consequences of your actions, we are here to learn and grow.
 5. Communicate constantly, and what you don't know: ask.
@@ -30,7 +30,7 @@ to your position. You cannot knowingly misrepresent or omit (or cause others to 
 
 ## Conflicts of Interest
 
-At times you may face conflicting loyalties between personal or professional benefits for you, your friends or family, and 4Geeks Academy. You must avoid situations that create a real or perceived conflict of interest between you and 4Geeks Academy at all times. Any situation that involves, or might later involve a conflict of interest, should be disclosed promptly to 4Geeks Academy. Some practical examples of conflicts of interest can be found in our Contracts. To the extent that you find yourself with a question, please feel free to reach out culture@4geeksacademy.com and our legal team is happy to help. 
+At times, you may face conflicting loyalties between personal or professional benefits for you, your friends or family, and 4Geeks Academy. You must avoid situations that create a real or perceived conflict of interest between you and 4Geeks Academy at all times. Any situation that involves, or might later involve, a conflict of interest, should be disclosed promptly to 4Geeks Academy. Some practical examples of conflicts of interest can be found in our Contracts. To the extent that you find yourself with a question, please feel free to reach out culture@4geeksacademy.com and our legal team is happy to help. 
 
 In case you have doubts about presenting a conflict of interest, we will always be willing to discuss any situation you want.
 

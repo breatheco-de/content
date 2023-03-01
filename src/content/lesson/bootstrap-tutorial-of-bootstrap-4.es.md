@@ -26,7 +26,7 @@ Uno de los defectos en CSS, es la forma en que funcionan los layouts: trabajar c
 
 ## Ahora todo está dividido en Filas y Columnas
 
-Los creadores de Bootstrap, replicaron el mismo concepto que tienen las `<tables>`, pero en vez de usar tablas usaron `<div>` (contenedores de cajas). Ellos no podían crear sus propias etiquetas en HTML, porque eso requiere una nueva versión de HTML e iba a hacer a Bootstrap incompatible con los navegadores actuales. Las etiquetas debían ser las mismas - por eso decidieron anular el comportamiento que tiene un `<div>` por defecto con las clases.
+Los creadores de Bootstrap, replicaron el mismo concepto que tienen las `<table>`, pero en vez de usar tablas usaron `<div>` (contenedores de cajas). Ellos no podían crear sus propias etiquetas en HTML, porque eso requiere una nueva versión de HTML e iba a hacer a Bootstrap incompatible con los navegadores actuales. Las etiquetas debían ser las mismas - por eso decidieron anular el comportamiento que tiene un `<div>` por defecto con las clases.
 
 ```html
 Esto es una fila: <div class="row">
@@ -98,7 +98,7 @@ Vamos a configurar el diseño (usando las clases de columnas xs, sm, md y lg) pa
 ## Estructura básica de Bootstrap 4
 
 
-Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web debe tener. Ahora solo debes agregar unas líneas en tu esqueleto para hacerlo compatible con Bootstrap::
+Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web debe tener. Ahora solo debes agregar unas líneas en tu esqueleto para hacerlo compatible con Bootstrap:
 
 ```html
 <!doctype html>

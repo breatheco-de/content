@@ -3,8 +3,6 @@ title: "Código de conducta y ética de la Academia 4Geeks"
 subtitle: "En este artículo explicaremos en detalle los términos de conducta y condiciones de la academia 4geeks"
 author: "mriciglianoc"
 
---- 
-
 Ser miembro del equipo de 4geeks Academy conlleva muchas cosas buenas y responsabilidades. Nuestra cultura y nuestro ambiente de trabajo está compuesto por la forma en que cada uno de nosotros actuamos, hablamos y nos comportamos, todos los días.
 
 Este es nuestro Código de Conducta y Ética, está basado en nuestras políticas y nuestros Valores: CODIFICACIÓN. PASIÓN. APRENDIZAJE. INNOVACIÓN. Sobre todo, describe nuestras principales reglas y cómo asegurarnos de seguirlas:
@@ -68,15 +66,15 @@ Mantengamos siempre nuestros registros y reportes honestos y precisos. Todos nue
 
 ## Protección y uso adecuado de los activos de 4Geeks Academy
 
-Es parte de todas nuestras descripciones de trabajo proteger los activos de 4geeks Academy y garantizar que se utilicen eficientemente. Tenga cuidado con el despilfarro y el descuido, y si sospecha de fraude o robo, denúncielo ¡inmediatamente! 4Geeks Academy es propietaria del equipo que le entregan, cuentas de correo electrónico, software, otros dispositivos y materiales de TI. Son para su uso, pero son propiedad de la empresa, trátelos como tales.
+Es parte de todas nuestras descripciones de trabajo, proteger los activos de 4geeks Academy y garantizar que se utilicen eficientemente. Tenga cuidado con el despilfarro y el descuido, y si sospecha de fraude o robo, denúncielo ¡inmediatamente! 4Geeks Academy es propietaria del equipo que le entregan, cuentas de correo electrónico, software, otros dispositivos y materiales de TI. Son para su uso, pero son propiedad de la empresa, trátelos como tales.
 
 El incumplimiento del Código puede dar lugar a medidas disciplinarias o incluso a la terminación del contrato de empleo.
 
 ## Disciplina Laboral
 
-Pertenecer a 4Geeks representa la oportunidad de ser parte de una oprganización que está seriamente comprometida en minimizar los obstáculos de entrada al mundo de la programación y la tecnología. En una apuesta educativa que es reconocida internacionalmente, líder del mercado en todos los Países donde tiene sedes, con productos de envergadura, historias de éxito por montones, talentos en muchas disciplinas y en más de 20 ciudades del mundo. 
+Pertenecer a 4Geeks representa la oportunidad de ser parte de una organización que está seriamente comprometida en minimizar los obstáculos de entrada al mundo de la programación y la tecnología. En una apuesta educativa que es reconocida internacionalmente, líder del mercado en todos los Países donde tiene sedes, con productos de envergadura, historias de éxito por montones, talentos en muchas disciplinas y en más de 20 ciudades del mundo. 
 
-Debemos portar el el logo con orgullo y con confianza. Tenemos sedes en muchos lugares Europa, Norte, Centro y Sudamérica. Hemos graduado a miles de personas y hemos ayudado a que cambien sus vidas. Nuestras mismas carreras y trayectoria ha mejorado y crecido a partir de nuestro desempeño en 4Geeks. 
+Debemos portar el logo con orgullo y con confianza. Tenemos sedes en muchos lugares, Europa, Norte, Centro y Sudamérica. Hemos graduado a miles de personas y hemos ayudado a que cambien sus vidas. Nuestras mismas carreras y trayectoria ha mejorado y crecido a partir de nuestro desempeño en 4Geeks. 
 
 Por esto, debemos, a partir de ahora, comprometernos con lo siguiente:
 
@@ -84,7 +82,7 @@ Por esto, debemos, a partir de ahora, comprometernos con lo siguiente:
 
 - Si en alguna Ciudad coinciden y residen al menos 3 integrantes del equipo de 4Geeks (full-time), las jornadas de trabajo deberán ser, al menos, 50% del tiempo en persona.
 
-- Cada una de esos grupos de personas tendrán derecho a una jornada de disfrute mensual (almuerzo, cena, Bar, cine, entre otros) y una anual adicional.
+- Cada uno de esos grupos de personas tendrán derecho a una jornada de disfrute mensual (almuerzo, cena, Bar, cine, entre otros) y una anual adicional.
 
 - Las personas con accesos complicados a servicios básicos (internet, electricidad, agua) deberán trabajar 100% del tiempo en persona con jornadas de trabajo diarias de al menos siete (7) horas. Esto aplicará también para personas que dependan de equipos de trabajo propiedad de 4Geeks.
 
@@ -92,10 +90,11 @@ Por esto, debemos, a partir de ahora, comprometernos con lo siguiente:
 
 - El 25% del salario de cada uno debe estar medido y pagado en función de los KPI’s definidos y evaluados mensualmente.
 
-- La falta en el cumpliento de entregables y responsabilidades claramente asignadas a cada uno de los miembros será considerada como falta grave. 3 faltas graves darán derecho a despido justificado e inmediato de la organización.
+- La falta en el cumplimiento de entregables y responsabilidades claramente asignadas a cada uno de los miembros será considerada como falta grave. 3 faltas graves darán derecho a despido justificado e inmediato de la organización.
 
 - Debemos ser responsables de nuestro desempeño y el de nuestro equipo. Los miembros de un equipo son responsables del cumplimiento de los objetivos mancomunados, por lo que se debe promover la responsabilidad y seguimiento colectivo del cumplimiento de los objetivos.
 
 - Debemos tener identificadas cuáles son nuestras responsabilidades, entregables y líderes inmediatos.
 
 - Debemos reportar fallas corporativas, individuales y requerimientos de trabajo óptimo.
+
