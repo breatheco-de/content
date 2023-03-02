@@ -16,7 +16,7 @@ Hay muchos cursos de programación por ahí; algunos incluso son gratis.  Si te 
 
 Programar es difícil porque sólo se puede aprender con infinitas cantidades de práctica, tutoría uno a uno y desafíos de la vida real.
 
-Entonces, se nos ocurrió esta plataforma en línea.  Estos contenidos te guiaran a lo largo del programa.  Habrá una infinita cantidad de ejercicios/proyectos.  La clase se enfocará en capacitarte.  Te presentaremos un desafío tras otro, pero siempre bajo la supervisión de un senior que observará y te ayudará en todo tu proceso.  BreatheCode es el lugar para leer, aprender y practicar hasta que grabes todo de forma permanente en tu cerebro.
+Entonces, se nos ocurrió esta plataforma en línea.  Estos contenidos te guiaran a lo largo del programa.  Habrá una infinita cantidad de ejercicios/proyectos.  La clase se enfocará en capacitarte.  Te presentaremos un desafío tras otro, pero siempre bajo la supervisión de un senior que observará y te ayudará en todo tu proceso.  4Geeks es el lugar para leer, aprender y practicar hasta que grabes todo de forma permanente en tu cerebro.
 
 ## ¿Así Que Prefieres No Leer Mucho?
 
@@ -41,7 +41,7 @@ Realmente necesitamos conocerte mejor.  Necesitamos estar seguros de que tienes 
 
 ## Este Curso Funciona, pero Debes Confiar en Nosotros
 
-El cerebro humano requiere mucha energía para tomar cualquier decisión, especialmente cuando muchas variables participan en la ecuación.  Este curso es dificil porque estamos rediseñando la forma en que se toma decisiones: tendrás que pensar de manera similar a cómo piensan las computadoras.  Llegará un momento en el que todo se convertirá en un comportamiento adquirido.
+El cerebro humano requiere mucha energía para tomar cualquier decisión, especialmente cuando muchas variables participan en la ecuación.  Este curso es difícil porque estamos rediseñando la forma en que se toma decisiones: tendrás que pensar de manera similar a cómo piensan las computadoras.  Llegará un momento en el que todo se convertirá en un comportamiento adquirido.
 
 Si te sientes abrumado y confundido, <span style="color:#993300">**¡¡pide ayuda!!**</span> Y, **continúa con el trabajo duro –** ¡lo lograrás!  Todas las lecciones son acumulativas, lo que significa que cada ejercicio requerirá que uses todo lo que has aprendido en el pasado.
 
@@ -57,7 +57,7 @@ Si al preguntar aún no has resuelto tus dudas ¡no te preocupes! Si estás insc
 
 ## Herramientas de Programación
 
-Cuando comenzamos la Academia, cada estudiante tenia la libertad de instalar su propio conjunto de herramientas y programas de programación. Sin embargo, descubrimos que cada estudiante comenzó a perder muchísimo tiempo instalando y configurando cada programa.  Invertían más tiempo haciendo eso que aprendiendo realmente a programar.
+Cuando comenzamos la Academia, cada estudiante tenía la libertad de instalar su propio conjunto de herramientas y programas de programación. Sin embargo, descubrimos que cada estudiante comenzó a perder muchísimo tiempo instalando y configurando cada programa.  Invertían más tiempo haciendo eso que aprendiendo realmente a programar.
 
 Entonces, ¡ahora depende sólo de nosotros! Hemos decidido qué lista de programas necesitas – algunos de ellos son obligatorios – para usar/descargar durante el programa. No te preocupes, ¡¡estarás feliz con nosotros!!
 
@@ -74,7 +74,7 @@ Sí, sí, sabemos que algunos de ustedes ya tienen sus propias herramientas, per
 | HERRAMIENTAS OBLIGATORIAS                                 | OTROS MATERIALES DE APOYO  |
 | --------------------------------------------------------  | ------------------------  |
 | [Your Email (desktop/mobile)](#)                          | [StackOverflow](https://stackoverflow.com) |
-| [Breatheco.de](https://breatheco.de/en/my-courses/)       | [w3Schools.com](https://w3schools.com) |
-| [Github.com](https://github.com)                          | [Net Ninja JS Tutorial](https://www.youtube.com/watch?v=qoSksQ4s_hg) |
-| [Slack.com (desktop & mobile)](4geeksacademy.slack.com)   |   |
-| [Gitpod](https://gitpod.io/)           |  |
+| [Github.com](https://github.com)                          | [w3Schools.com](https://w3schools.com) |
+| [Slack.com (desktop & mobile)](4geeksacademy.slack.com)   | [Net Ninja JS Tutorial](https://www.youtube.com/watch?v=qoSksQ4s_hg) |
+| [Gitpod](https://gitpod.io/)                              |   |
+
