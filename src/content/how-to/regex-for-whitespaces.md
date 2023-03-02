@@ -8,7 +8,7 @@ status: "draft"
 
 ---
 
-A regular expression (also called regex or regexp) is a way to describe a pattern. It is used to locate or validate specific strings or patterns of text in a sentence, document, or any other character input. You can learn more about Regular Expressions in this [RegEx Tutorial](https://4geeks.com/lesson/regex-tutorial-regular-expression-examples). Regular expressions use both basic and special characters. It can be used for many different purposes, one of them is to detect whitspaces. There are several ways on regular expressions to detect whitespaces, the most used one would be the **\s** or **\s+** since they detect not just whitespaces made by the space bar, but with tab and return key (line jump).
+A regular expression (also called regex or regexp) is a way to describe a pattern. It is used to locate or validate specific strings or patterns of text in a sentence, document, or any other character input. You can learn more about Regular Expressions in this [RegEx Tutorial](https://4geeks.com/lesson/regex-tutorial-regular-expression-examples). Regular expressions use both basic and special characters. It can be used for many different purposes, one of them is to detect whitespaces. There are several ways on regular expressions to detect whitespaces, the most used one would be the **\s** or **\s+** since they detect not just whitespaces made by the space bar, but with tab and return key (line jump).
 
 ```javascript
 //Has white spaces
