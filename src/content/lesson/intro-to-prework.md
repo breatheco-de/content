@@ -48,7 +48,7 @@ Coding is hard because it can only be learned by large amounts of practice, face
 
 So, we here at 4Geeks came up with this online platform.  This content we have designed for you will guide you throughout our program.  There will be many, many exercises and projects yet this class will focus on enabling you to become a better coder.  
 
-We will present you with one challenge after another, but a trusty senior developer will always be looking at your process to assist you and help you out.  BreatheCode is the place to read, learn and practice code until you permanently affix everything into your brain.
+We will present you with one challenge after another, but a trusty senior developer will always be looking at your process to assist you and help you out.  4Geeks is the place to read, learn and practice code until you permanently affix everything into your brain.
 
 ## But you don't want to read everything, right!?!?
 
