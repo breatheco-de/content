@@ -3,7 +3,7 @@ title: "How to update Python in Terminal?"
 subtitle: "In our step-by-step guide on how to update Python in terminal, we explore the most straight forward methods to successfully update Python version in Linux, MacOs and Windows systems"
 tags: ["python","terminal"]
 authors: ["javierseiglie"]
-status: "draft"
+status: "published"
 
 ---
 
