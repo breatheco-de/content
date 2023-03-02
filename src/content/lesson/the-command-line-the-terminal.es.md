@@ -28,7 +28,7 @@ La consola es realmente simple: es una pantalla negra que siempre está esperand
 
 Pero, ¿qué es un *comando*?
 
-Es algo así como "imprimir" o "mostrar" o "eliminar", pero abreviado. Por ejemplo, si quieres decirle a la consola que liste todos los archivos en un directorio en particular, tienes que usar el comando `ls` así:
+Es algo así como "imprimir", "mostrar", o "eliminar" pero abreviado. Por ejemplo, si quieres decirle a la consola que liste todos los archivos en un directorio en particular, tienes que usar el comando `ls` así:
 
 ```bash
 ls -l /path/to/directory
@@ -44,7 +44,7 @@ Lo último que tenemos que agregar es el "argumento". En este caso, el "argument
 
 Tu computadora tiene archivos, directorios y aplicaciones. Tu línea de comando es capaz de lidiar con los tres. Usa comandos para moverte dentro de los archivos y directorios (como el comando `cd`). Cada aplicación que instales viene con un conjunto de comandos que están disponibles a partir del momento en que instales la aplicación (como el comando GIT).
 
-## Así es cómo se ve el sistema de archivos en una interfaz visual v/s la terminal:
+## Así es cómo se ve el sistema de archivos en una interfaz visual versus la terminal:
 
 ![the command line the terminal](../../assets/images/182ea93c-9d7d-4c8d-8153-9c1756d8cd1f.png)
 
