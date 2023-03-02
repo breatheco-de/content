@@ -20,7 +20,7 @@ print(square)
 
 The first method we are presenting is exactly creating a function that will return the squared number that receive. 
 
-As you should already know, a squared number is the number multiplyed by itself, so, let say the square of `2` would be `4` because `2*2=4`. If we were to choose `5`, we would receive `25` and so on.
+As you should already know, a squared number is the number multiplied by itself, so, let say the square of `2` would be `4` because `2*2=4`. If we were to choose `5`, we would receive `25` and so on.
 
 So, keeping that in mind, we can create our function:
 
