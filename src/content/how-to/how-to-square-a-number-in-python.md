@@ -16,13 +16,15 @@ print(square)
 #Output-> 36
 ```
 
-## Creating the function ourself:
+## Creating the square function ourselves:
 
-The first method we are presenting is exactly creating a function that will return the squared number that receive. 
+The first method we are presenting is exactly creating a function that will return the squared number of whatever number it receives: if it recieves `x` we will return `x * x`. 
 
-As you should already know, a squared number is the number multiplied by itself, so, let say the square of `2` would be `4` because `2*2=4`. If we were to choose `5`, we would receive `25` and so on.
+As you should already know, a squared number is the number multiplied by itself.
 
-So, keeping that in mind, we can create our function:
+Let say the square of `2` would be `4` because `2*2=4`. If we were to choose `5`, we would receive `25` and so on.
+
+Keeping that in mind, we can create our function:
 
 ```python
 def square(num):
@@ -44,21 +46,9 @@ print(squareOperator(4))
 #Output-> 16
 ```
 
-## Using the power() function:
-
-As the power operator, the power() function comes built-in and ready to work on Python. The syntax is as simple as:
-
-```python
-def squarePow(base, power):
-    return base ** power
-
-print(squarePow(5, 2))
-#Output-> 25
-```
-
 ## Using the math.pow():
 
-The only difference between the `math.pow()` and `pow` resides in the first needs the math module imported returns always a float number, even if the result of the operation has not a floating point (if you want to learn more about Float numbers, check [What is a float in Python](https://4geeks.com/how-to/what-is-float-in-python "What is a float in Python")).
+The only difference between the `math.pow()` and `pow` resides in the first needs the math module imported and it always return a float number, even if the result of the operation has not a floating point or decimals (if you want to learn more about Float numbers, check [What is a float in Python](https://4geeks.com/how-to/what-is-float-in-python "What is a float in Python")).
 
 ```python
 import math
@@ -67,6 +57,17 @@ def squareMathPow(base, power):
     return math.pow(base, power)
 
 print(squareMathPow(5,2))
+#Output-> 25
+```
+
+## Using the Numpy np.power() function:
+
+We can also use a built-in function in the numpy library. The syntax is as simple as:
+
+```python
+import numpy as np
+
+print(np.power(5, 2))
 #Output-> 25
 ```
 
