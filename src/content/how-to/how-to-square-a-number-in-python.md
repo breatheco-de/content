@@ -16,6 +16,8 @@ print(square)
 #Output-> 36
 ```
 
+There are many ways or reasons to square a number in python: Using function power(), mathod.pow() and others, here is a more details explanation:
+
 ## Creating the square function ourselves:
 
 The first method we are presenting is exactly creating a function that will return the squared number of whatever number it receives: if it recieves `x` we will return `x * x`. 
