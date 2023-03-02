@@ -26,7 +26,7 @@ The console is really simple: it’s a black screen that’s always expecting a 
 
 But, what is a *command*?
 
-It is something like "print, "show," or "delete," but abbreviated. For example, if you want to tell the console to list all the files in a particular directory, you have to use the `ls` command like this:
+It is something like "print", "show", or "delete" but abbreviated. For example, if you want to tell the console to list all the files in a particular directory, you have to use the `ls` command like this:
 
 ```bash
 ls -l /path/to/directory
@@ -65,7 +65,7 @@ The ls command is used for listing all the files and directories that form the c
 
 ```bash
 ls -l ./applications
-#show the files and folder inside "applications" 
+#shows the files and folder inside "applications" 
 #the -l is for asking more detailed output information on the files.
 ```
 
@@ -97,10 +97,10 @@ This deletes files (not directories).
 
 ```bash
 rm file1.txt file2.txt file3.txt file4.txt
-#removes all the four files 
+#removes these four files 
 
 rm -r dbstore/
-#delete all the files and sub-directories recursively within the "dbstore" directory.
+#deletes all the files and sub-directories recursively within the "dbstore" directory.
 ```
 
 ### The `mkdir` command
@@ -111,10 +111,10 @@ Makes a new directory.  Just like making a new directory within a PC or Mac desk
 
 ```bash
 mkdir newdirectoryname
-#create newdirectoryname in the current directory. 
+#creates newdirectoryname in the current directory. 
 
 mkdir path/of/new/newdirectoryname 
-#create newdirectoryname inside /path/of/new/
+#creates newdirectoryname inside /path/of/new/
 ```
 
 ### The `rmdir` command
@@ -125,10 +125,10 @@ It deletes a directory (not files).
 
 ```bash
 rmdir mydirectory
-#remove mydirectory if it's in the current directory. 
+#removes mydirectory if it's in the current directory. 
 
 rmdir path/of/targetdirectory/mydirectory
-#remove mydirectory from "targetdirectory" 
+#removes mydirectory from "targetdirectory" 
 ```
 
 > :point_up: It will only remove empty directories, to empty all directory files use the rm -r command (-r flag forces the remove command to delete the directory and all the files within it). Pro-tip: you can use `rm`. to delete all of the files inside a directory simultaneously; use with caution.
@@ -154,10 +154,10 @@ Finds a file in the given directory with the given specifications.
 
 ```bash
 find / -name game
-#find all files containing the exact name "game" that is inside the root folder. 
+#finds all files containing the exact name "game" that is inside the root folder. 
 
 find . -name *.mp3
-#find all files containing the extension "mp3" within the current directory and its parent.
+#finds all files containing the extension "mp3" within the current directory and its parent.
 ```
 
 ## Tips & Tricks
@@ -182,7 +182,7 @@ When working with the command line, sometimes you will have to open a file to re
 
 ```bash
 nano path/to/the/textfile.txt
-#open a text editor to start editing the content of textfile.txt 
+#opens a text editor to start editing the content of textfile.txt 
 #if textfile.txt does not exist it will create it!
 ```
 When nano opens, it will show a top bar with the current version of the nano application; the name of the file being edited; and, a status telling you if the files were modified or not.
