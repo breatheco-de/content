@@ -10,13 +10,15 @@ status: "draft"
 
 In Python there are a few ways to exit the terminal. We are going to show you the **exit()** method because it doesn't prompt for confirmation and the method name is self explanatory.
 
+Type the following on your terminal:
+
 ```python
 exit()
 ```
 
-## Exit Python in terminal
+## Other ways to exit the python terminal
 
-To exit Python on terminal, can be achieved in 3 ways:
+But there are other ways to achieve this:
 
 ### Exit()
 
@@ -41,6 +43,7 @@ The command `quit()` follows the same syntax as `exit()`. You'll need to add the
 ```python
 Use quit() or Ctrl-Z plus Return to exit
 ```
+
 ### Using shortcuts
 
 Keyboard shortcuts are a common use among us developers because they save time and make you work faster. Here you have the shortcuts for Windows and Unix Systems (Linux and MacOs).
