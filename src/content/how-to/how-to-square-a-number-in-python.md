@@ -20,7 +20,7 @@ There are many ways or reasons to square a number in python: Using function powe
 
 ## Creating the square function ourselves:
 
-The first method we are presenting is exactly creating a function that will return the squared number of whatever number it receives: if it recieves `x` we will return `x * x`. 
+The first method we are presenting is exactly creating a function that will return the squared number of whatever number it receives: if it receives `x` we will return `x * x`. 
 
 As you should already know, a squared number is the number multiplied by itself.
 
