@@ -21,7 +21,7 @@ The scientific community started using it for the famous [“Peer Reviews”](ht
 
 For this reason, they worked on something as similar as possible to a Microsoft Word document or any other word processor.
 
-> :link: If you wish to find out more about the history of the Internet, we recommend [this super cool 2 min video;](https://www.youtube.com/watch?v=h8K49dD52WA)] if you would rather read about it, [click on this link.](https://www.internetsociety.org/internet/history-internet/brief-history-internet/)
+> :link: If you wish to find out more about the history of the Internet, we recommend [this super cool 3 min video;](https://www.youtube.com/watch?v=h8K49dD52WA)] if you would rather read about it, [click on this link.](https://www.internetsociety.org/internet/history-internet/brief-history-internet/)
 
 
 >To summarize:
@@ -38,7 +38,7 @@ As it is to be expected, if you wish to share documents, all you need is text.  
 
 What this means is that: everything is text.  For example, if you wish to send a photograph to your grandmother through an email, this is more or less what happens:
 
-+ The picture becomes text (at this point, it's text that you wont be able to understand).
++ The picture becomes text (at this point, it's text that you won't be able to understand).
 + It gets transmitted through the Internet as text.  If a hacker intercepts this, what they would see is a bunch of symbols/letters/numbers one after the other.
 + That long sequence of characters arrives at your grandmother’s computer.
 + Your grandmother double clicks the photo and the program she uses to see the photo transforms the text back into an image understandable to a human.
@@ -78,7 +78,7 @@ If you’ve been reading and have understood everything so far, you must be wond
 
 Well, browsers are equipped with "magical" windows. If you see through those windows you will see the world as it is: No Text!!  The browser must perform all the functions that all other applications in your computer will accomplish. Like representing images, videos, text, sounds, etc., the browser is so great that there are even computers – like the Google Chromecast – that only come with a browser.
 
-> :tv: [Click here](https://www.youtube.com/watch?v=83Y4jEgnaAA) to access a video that explains how a Google Chrome Book works.
+> :tv: [Click here](https://www.youtube.com/watch?v=83Y4jEgnaAA) to access a video that explains how a Google ChromeBook works.
 
 ## The Client and The Server
 
@@ -103,6 +103,6 @@ So…lets summarize:
  
 | The Server   |      The Client       |
 |----------|:-------------:|
-|The server’s mission is to deliver all the text/information the client needs to render the website properly. It has a close relationship with the database (which manages and processes the data). It handles a high volume of information and is prepared to answer thousands of clients requests at the same time.<br><br>The most frequent languages used are PHP, Python, Ruby and Java.<br><br>Little by little, the server has come to delegate part of its load. It handles fewer things now than before, but the ones it still handles are repeated many times. There are even services like Parse.com or Firebase.com that have created tools that allow developers to create web apps without even using their own server.<br><br>All the code that runs on the side of the server is called “The Back-End.”  Back-End developers must strengthen their knowledge in databases, Bid Data, Data Mining, Security, Web Sockets, Web Services, API’s, etc. |The client includes all code that runs on the computer or device of the client. The most frequent languages are: HTML5, CSS3, JavaScript.<br><br>Originally, the code that resided in the client didn’t do much because the documents were very simple. But things have changed; technology has given more relevance to the client to a point in which today there are thousands of apps that have more code on the client’s side than on the server side.<br><br>Running the code on the client side frees load off the server. After all, there is ONLY ONE server per THOUSANDS of clients.<br><br>All code on the side of the client is called “The Front-End.”<br><br>Front End developers are mostly dedicated to JavaScript, and maybe diagramming websites with HTML5 or CSS3 (designers may also do this last part).  This means that they must integrate multiple API’s, manage almost all the data processing on the client side (to avoid having too many interactions with the server), graph data, 3D modeling, games, jQuery plugins, AJAX, etc. |
+|The server’s mission is to deliver all the text/information the client needs to render the website properly. It has a close relationship with the database (which manages and processes the data). It handles a high volume of information and is prepared to answer thousands of clients requests at the same time.<br><br>The most frequent languages used are PHP, Python, Ruby and Java.<br><br>Little by little, the server has come to delegate part of its load. It handles fewer things nowadays than before, but the ones it still handles are repeated many times. There are even services like Parse.com or Firebase.com that have created tools that allow developers to create web apps without even using their own server.<br><br>All the code that runs on the side of the server is called “The Back-End.”  Back-End developers must strengthen their knowledge in databases, Big Data, Data Mining, Security, Web Sockets, Web Services, API’s, etc. |The client includes all code that runs on the computer or device of the client. The most frequent languages are: HTML5, CSS3, JavaScript.<br><br>Originally, the code that resided in the client didn’t do much because the documents were very simple. But things have changed; technology has given more relevance to the client to a point in which today there are thousands of apps that have more code on the client’s side than on the server side.<br><br>Running the code on the client side frees load off the server. After all, there is ONLY ONE server per THOUSANDS of clients.<br><br>All code on the side of the client is called “The Front-End.”<br><br>Front End developers are mostly dedicated to JavaScript, and maybe diagramming websites with HTML5 or CSS3 (designers may also do this last part).  This means that they must integrate multiple API’s, manage almost all the data processing on the client side (to avoid having too many interactions with the server), graph data, 3D modeling, games, jQuery plugins, AJAX, etc. |
 
     
