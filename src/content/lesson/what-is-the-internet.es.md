@@ -1,6 +1,6 @@
 ---
 title: "¿Qué es el Internet?"
-subtitle: "Qué es el Internet: Todo lo que se ve en internet es un documento de texto. ¡Todo! Como desarrolladores, todo lo que hacemos es generar trozos de texto basados en un conjunto de criterios. Si entiendes este simple concepto, el cielo será el limite."
+subtitle: "Qué es el Internet: Todo lo que se ve en internet es un documento de texto. ¡Todo! Como desarrolladores, todo lo que hacemos es generar trozos de texto basados en un conjunto de criterios. Si entiendes este simple concepto, el cielo será el límite."
 cover_local: "../../assets/images/05a36362-c09f-4961-a7b9-8e3132a902b1.jpeg"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
@@ -46,7 +46,7 @@ Lo que esto quiere decir es que: **todo es texto**. Pues sí, si quieres enviarl
 
 ![what is the internet](../../assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif)
   
-<small style="color:grey">Imagen 1: Los 4 pasos necesarios para enviar imágenes a través de Internet: primero se convierte en texto, luego viaja, luego llega a la computadora de la abuela, la abuela abre la imagen y la imagen muestra ... ¡finalmente, la abuela está feliz mirando a su nieto! </small>
+<small style="color:grey">Imagen 1: Los 4 pasos necesarios para enviar imágenes a través de Internet: primero se convierte en texto, luego viaja, luego llega a la computadora de la abuela, la abuela abre la imagen y la imagen se muestra... ¡finalmente, la abuela está feliz mirando a su nieto! </small>
 
 ## Pero, ¿cómo viajan las imágenes (y esas cosas)?
 
@@ -62,7 +62,7 @@ Todo está conectado. La mejor manera de entender esto es comparándolo con el s
 <iframe width="807" height="453" src="https://www.youtube.com/embed/UiBT3Kj8KBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p style="text-align:center;"><small>
-<strong>Video:</strong>Video de 2 minutos explicando cómo funciona internet.
+<strong>Video: </strong>Video de 2 minutos explicando cómo funciona internet.
 </small><p>
 
 ## El Navegador Web
@@ -75,11 +75,11 @@ Los sitios web residen en los servidores. Cuando los usuarios desean visitar sit
 
 Si has estado leyendo y has entendido todo hasta ahora, debes estar pensando:
 
-### Si Internet es todo texto ... entonces, cuando esté navegando, solo veré texto. ¡¡¡Que horrible!!!
+### Si Internet es todo texto... entonces, cuando esté navegando, solo veré texto. ¡¡¡Que horrible!!!
 
 Bueno, ¡no te preocupes! Los navegadores están equipados con ventanas mágicas. Si ves a través de esas ventanas, verás el mundo tal como está: ¡Sin texto! El navegador debe realizar todas las funciones que todas las demás aplicaciones de su computadora realizarán. Al igual que la representación de imágenes, videos, texto, sonidos, etc., el navegador es tan grande que incluso hay computadoras, como Google Chromecast, que solo vienen con un navegador.
 
-> :tv: [Click aqui](https://www.youtube.com/watch?v=83Y4jEgnaAA) para acceder a un video que explica cómo funciona un Chromebook de Google.
+> :tv: [Click aquí](https://www.youtube.com/watch?v=83Y4jEgnaAA) para acceder a un video que explica cómo funciona un ChromeBook de Google.
 
 ## El Cliente y El Servidor
 
@@ -91,7 +91,7 @@ Como desarrollador, debes codificar todo lo que el navegador necesitará para vi
 
 Entonces, ¿qué hace el servidor?
 
-Bueno, hace mucho! El servidor es responsable de preparar el texto que será leído por el navegador. Los tres retos principales para el servidor son:
+¡Bueno, hace mucho! El servidor es responsable de preparar el texto que será leído por el navegador. Los tres retos principales para el servidor son:
 
 + **Velocidad:** para cada servidor, hay miles de clientes. El servidor debe ser muy rápido para responder a cada cliente lo más rápido posible.
 + **Concurrencia:** no solo hay miles de clientes, cada cliente solicita un texto al mismo tiempo que muchos otros. El servidor debe ser capaz de responder a muchas demandas simultáneamente.
@@ -103,6 +103,6 @@ Entonces… resumamos:
  
 | El Servidor   |      El Cliente       |
 |----------|:-------------:|
-La misión del servidor es entregar todo el texto / información que el cliente necesita para representar correctamente el sitio web. Tiene una relación cercana con la base de datos (que administra y procesa los datos). Maneja un gran volumen de información y está preparado para responder a miles de solicitudes de clientes al mismo tiempo. <br> <br> Los idiomas más utilizados son PHP, Python, Ruby y Java. <br> Poco a poco , el servidor ha venido a delegar parte de su carga. Maneja menos cosas ahora que antes, pero las que aún maneja se repiten muchas veces. Incluso hay servicios como Parse.com o Firebase.com que han creado herramientas que permiten a los desarrolladores crear aplicaciones web sin siquiera usar su propio servidor. <br> <br> Todo el código que se ejecuta en el lado del servidor se llama " El Back-End ". Los desarrolladores de back-end deben reforzar su conocimiento en bases de datos, datos de licitación, minería de datos, seguridad, sockets web, servicios web, API's, etc. |El cliente incluye todo el código que se ejecuta en la computadora o dispositivo del cliente. Los idiomas más frecuentes son: HTML5, CSS3, JavaScript. <br> <br> Originalmente, el código que residía en el cliente no hacía mucho porque los documentos eran muy simples. Pero las cosas han cambiado; La tecnología le ha dado más relevancia al cliente en un punto en el que hoy en día hay miles de aplicaciones que tienen más código en el lado del cliente que en el lado del servidor. <br> <br> La ejecución del código en el lado del cliente libera la carga de el servidor. Después de todo, solo hay UN servidor por MILES de clientes. <br> <br> Todo el código en el lado del cliente se llama "The Front-End". Los desarrolladores de Front End están dedicados principalmente a JavaScript , y tal vez diagramando sitios web con HTML5 o CSS3 (los diseñadores también pueden hacer esta última parte). Esto significa que deben integrar múltiples API, administrar casi todo el procesamiento de datos en el lado del cliente (para evitar tener demasiadas interacciones con el servidor), datos gráficos, modelado 3D, juegos, complementos de jQuery, AJAX, etc. |
+La misión del servidor es entregar todo el texto / información que el cliente necesita para representar correctamente el sitio web. Tiene una relación cercana con la base de datos (que administra y procesa los datos). Maneja un gran volumen de información y está preparado para responder a miles de solicitudes de clientes al mismo tiempo. <br> <br> Los idiomas más utilizados son PHP, Python, Ruby y Java. <br> Poco a poco, el servidor ha venido a delegar parte de su carga. Maneja menos cosas ahora que antes, pero las que aún maneja se repiten muchas veces. Incluso hay servicios como Parse.com o Firebase.com que han creado herramientas que permiten a los desarrolladores crear aplicaciones web sin siquiera usar su propio servidor. <br> <br> Todo el código que se ejecuta en el lado del servidor se llama "El Back-End". Los desarrolladores de Back-End deben reforzar su conocimiento en bases de datos, datos de licitación, minería de datos, seguridad, sockets web, servicios web, API's, etc. |El cliente incluye todo el código que se ejecuta en la computadora o dispositivo del cliente. Los idiomas más frecuentes son: HTML5, CSS3, JavaScript. <br> <br> Originalmente, el código que residía en el cliente no hacía mucho porque los documentos eran muy simples. Pero las cosas han cambiado; La tecnología le ha dado más relevancia al cliente en un punto en el que hoy en día hay miles de aplicaciones que tienen más código en el lado del cliente que en el lado del servidor. <br> <br> La ejecución del código en el lado del cliente libera la carga del servidor. Después de todo, solo hay UN servidor por MILES de clientes. <br> <br> Todo el código en el lado del cliente se llama "El Front-End". Los desarrolladores de Front-End están dedicados principalmente a JavaScript , y tal vez diagramando sitios web con HTML5 o CSS3 (los diseñadores también pueden hacer esta última parte). Esto significa que deben integrar múltiples API, administrar casi todo el procesamiento de datos en el lado del cliente (para evitar tener demasiadas interacciones con el servidor), datos gráficos, modelado 3D, juegos, complementos de jQuery, AJAX, etc. |
 
     
