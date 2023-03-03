@@ -28,7 +28,7 @@ La mayoría de los tutoriales de LearnPack vienen con un botón etiquetado: "Nue
 
 Luego de darle clic en "Nuevo ejercicio" una nueva computadora de Gitpod se abrirá, y LearnPack va a empezar a correr inmediatamente.  
 
-Todos los tutoriales de LearnPack  vienen en pasos; vas a encotrar las instrucciones del lado derecho y un botón para continuar al siguiente paso " `next ->`"
+Todos los tutoriales de LearnPack  vienen en pasos; vas a encontrar las instrucciones del lado derecho y un botón para continuar al siguiente paso " `next ->`"
 
 ![Learnpack explanation](../../assets/images/learnpack-explanation.e.png)
 
