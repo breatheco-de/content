@@ -96,7 +96,7 @@ Well, it does a lot! The server is responsible for preparing the text that will 
 + **Concurrence:** not only there are thousands of clients, each client requests text at the same time as many others. The server must be able to respond to many demands simultaneously.
 + **Efficiency:** at times, clients have demands that are very hard to resolve – even if it is only one client.  Imagine for a second that you are using Google Maps to figure out how long it takes to travel from Mexico City to Santiago de Chile.  The server has to check traffic data, routes, accidents and run some sort of algorithm to obtain the route and estimated time of arrival (ETA). Even if the result is a simple chain of characters like “two days, 2 hours and 30 minutes,” the server had to make thousands of calculations to arrive to that conclusion.
 
-So…lets summarize:
+So… lets summarize:
 
 ![what is the internet](../../assets/images/57821cbc-5ba0-4e1c-9b90-7f1df7c637fa.gif)
 
