@@ -14,7 +14,7 @@ tags: ["HTML","inputs","forms"]
 
 This lesson is very easy to understand, but it is essential in that in this new knowledge, all of the interactivity of the internet will be relayed. There are a few additional HTML tags that we need to discuss before finishing the Pre-Work; they are the first possible ways of interaction that were introduced in HTML: The Inputs and Forms.
 
-Like always, let’s compare our website with an MS Word document…At some point scientists needed to create forms just like the ones we fill out when we pay our taxes: with blank spaces available for the user to fill in with their Name, Last Name, Date of Birth, etc.
+Like always, let’s compare our website with an MS Word document… At some point scientists needed to create forms just like the ones we fill out when we pay our taxes: with blank spaces available for the user to fill in with their Name, Last Name, Date of Birth, etc.
 
 ![html textarea html input](../../assets/images/12ff6e40-706f-47ff-9ada-53dada968eaf.png)
 
