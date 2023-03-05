@@ -35,5 +35,6 @@ Ever wonder how to update Python on Windows, follow this simple step-by-step gui
 
 ![How to update Python on Windows](https://i.imgur.com/YkEZaRM.jpeg)
 
+You can check the following article about [how to update python version](https://4geeks.com/how-to/how-to-update-python-version) to learn how to update python on different operative systems.
 
 To learn more about python and what you can do with this language you can check the blog at [4Geeks](https://4geeks.com). Hope you enjoyed the reading and keep on the Geeks side!
