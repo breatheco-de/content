@@ -26,13 +26,13 @@ End Of Line (EOL) refers to the last word on a string, even if the text spawns m
 
 const text = "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem *Ipsum*."
 ```
-When we want to refer to EOL on a Regular Expression we use the `$` symbol
+When we want to refer to EOL in a Regular Expression we use the `$` symbol
 
 We'll be using the following text in our exercises:
 
 `examples for RegExp 4 Geeks Academy Regex examples`
 
-We decided to write 2 times the word **examples** because we'll be asking the the one at the end of line. 
+We decided to write 2 times the word **examples** because we'll be asking the one at the end of the line. 
 
 ## Using EOL RegEx on JavaScript
 
@@ -59,7 +59,7 @@ console.log(found)
 //  groups: undefined
 // ]
 ```
-As you can see in the example, we are using `text.match()` and passing `search` as a parameter and it throws the word we are searching, the location and the text where it was given. 
+As you can see in the example, we are using `text.match()` and passing `search` as a parameter and it throws the word we are searching, the location, and the text where it was given. 
 
 ### The String search() method
 
@@ -79,7 +79,7 @@ When we use the search() method, we are only asking for the position of the give
 
 The RegEx Object is built in JavaScript and allows us to make use of its methods to search for patterns returning a boolean value.
 
-Since we are using the RegEx object, we need to call it, and access it's methods with the `.` and then we pass the text we want to match the pattern to.
+Since we are using the RegEx object, we need to call it, and access its methods with the `.` and then we pass the text we want to match the pattern to.
 
 ```javascript
 const regex = new RegExp("examples$")
@@ -90,7 +90,7 @@ console.log("regex", regex.test(text))
 
 ## Using EOL RegEx on Python
 
-Python comes with the module `re` built-in that stands for RegExp. As a module, we need to import it before being able to access its method using the dot `.` notation.
+Python comes with the module `re` built-in which stands for RegExp. As a module, we need to import it before being able to access its method using the dot `.` notation.
 
 ```python
 import re
@@ -109,7 +109,7 @@ The output throws the starting and end position of the match, and the match valu
 
 ## Using EOL RegEx on Java
 
-Java has on the `util` module, a `RegEx` submodule that has a `Matcher` method will be used to demonstrate how to use EOL on Java. The `Matcher` method works together with a `Pattern` method. 
+Java has on the `util` module, a `RegEx` submodule that has a `Matcher` method that will be used to demonstrate how to use EOL on Java. The `Matcher` method works together with a `Pattern` method. 
 
 ```java
 import java.util.regex.Matcher;
@@ -131,7 +131,7 @@ public class Main {
 // Outputs Match found
 ```
 
-The `Pattern.Compile()`method creates the pattern to look for (in our case, EOL). The first parameter tells the class the pattern we are searching for, and the second parameter has a flag, making our search case sensitive (the second parameter is optional).
+The `Pattern.Compile()`method creates the pattern to look for (in our case, EOL). The first parameter tells the class the pattern we are searching for, and the second parameter has a flag, making our search case-sensitive (the second parameter is optional).
 
 Now that we have our pattern, the `matcher()` method will search for it on the given string returning an object with the search information.
 
