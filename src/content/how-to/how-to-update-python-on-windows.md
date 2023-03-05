@@ -7,6 +7,8 @@ status: "draft"
 
 ---
 
+Python is a widely-used programming language that is popular among developers and data scientists alike. It is known for its simplicity, versatility, and strong community support. If you are a Python user, it is important to keep your installation up-to-date in order to take advantage of the latest features and security patches. In this article, we will provide a step-by-step guide on how to update Python, starting with a brief [introduction to Python](https://4geeks.com/lesson/intro-to-python) for those who may be new to the language. Whether you are a beginner or an experienced Python user, following these steps will ensure that your Python installation is always up-to-date and running smoothly.
+
 ![How to update Python on Windows](https://i.imgur.com/YkEZaRM.jpeg)
 
 Ever wonder how to update Python on Windows, follow this simple step-by-step guide and you´ll have the latest version in no time.
@@ -21,7 +23,7 @@ Ever wonder how to update Python on Windows, follow this simple step-by-step gui
 
 - The website will display all Python releases for Windows (Stable and Pre-release). If you are looking to experiment with some features not released on a stable version, select the `Pre-Release` or, and most recommended, clikc on `Latest Python 3 Release` hyperlink just below `Python Releases for Windows`
 
-![How to update Python on Windows](https://storage.googleapis.com/breathecode-asset-images/7a6a8368ec1cc378fafe89add70df0f68791b500b4326b8b07be494577d844a5.jpg)
+![How to update Python on Windows](https://i.imgur.com/Y04fCDf.jpg)
 
 - A new page will open and display all the information regarding the latest realease (at the time of writing this article, latest version is 3.11.1) and scroll down until you find the following table
 
@@ -34,4 +36,4 @@ Ever wonder how to update Python on Windows, follow this simple step-by-step gui
 ![How to update Python on Windows](https://i.imgur.com/YkEZaRM.jpeg)
 
 
-Hope you enjoyed the reading and keep on the Geeks side!
+To learn more about python and what you can do with this language you can check the blog at [4Geeks](https://4geeks.com). Hope you enjoyed the reading and keep on the Geeks side!
