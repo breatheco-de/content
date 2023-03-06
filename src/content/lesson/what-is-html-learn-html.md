@@ -90,7 +90,7 @@ Spaces are ignored:
 
 ## Page Structure
 
-All pages must begin with the `<!DOCTYPE html>` statement followed by `<html>`, then the `<HEAD>` and the `<BODY>` tags.  These tags **must** contain other tags within them (nested tags), and they will split the page in 2 main parts: the HEAD and the BODY:
+All pages must begin with the `<!DOCTYPE html>` statement followed by `<html>`, then the `<head>` and the `<body>` tags.  These tags **must** contain other tags within them (nested tags), and they will split the page in 2 main parts: the HEAD and the BODY:
 
 
 ```html
@@ -158,7 +158,7 @@ The most frequent tags used inside the `<body>` of an HTML document are:
 |Bold   |strong o b   |To highlight content using bold text.<br>`<strong>this is a heading</strong>`   |
 |Italics   |i   |To have the text in italics.<br>`<i>this is a heading</i>`   |
 |Line jump   |br   |To jump or skip the text to the next line (similar to a `shift+enter` in MS Word.)<br>`<br></br>`   |
-|Tables   |table   |Tables were designed to present data in a more read-friendly and neatly way.  It has headers (th), rows (tr) and columns (td).<br><br>`<table>`<br>`<tr><th>Column 1</th><th>Column 2</th></tr>`<br>`<tr><td>Data 1</td><td>Data A</td></tr>`<br>`<tr><td>Data 2</td><td>Data B</td></tr><br>`<br>`<tr><td>Data 3</td><td>Data C</td></tr>`<br>`</table>`   |
+|Tables   |table   |Tables were designed to present data in a more read-friendly and neatly way.  It has headers (th), rows (tr) and columns (td).<br><br>`<table>`<br>`<tr><th>Column 1</th><th>Column 2</th></tr>`<br>`<tr><td>Data 1</td><td>Data A</td></tr>`<br>`<tr><td>Data 2</td><td>Data B</td></tr>`<br>`<tr><td>Data 3</td><td>Data C</td></tr>`<br>`</table>`   |
 
 > :link: [Click here](https://www.w3schools.com/tags/ref_byfunc.asp), for more HTML tags
 
