@@ -90,7 +90,7 @@ Spaces are ignored:
 
 ## Page Structure
 
-All pages must begin with the `<DOCTYPE! Html>` statement followed by `<html>`, then the `<HEAD>` and the `<BODY>` tags.  These tags **must** contain other tags within them (nested tags), and they will split the page in 2 main parts: the HEAD and the BODY:
+All pages must begin with the `<!DOCTYPE html>` statement followed by `<html>`, then the `<HEAD>` and the `<BODY>` tags.  These tags **must** contain other tags within them (nested tags), and they will split the page in 2 main parts: the HEAD and the BODY:
 
 
 ```html
