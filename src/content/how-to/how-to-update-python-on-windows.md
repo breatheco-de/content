@@ -7,9 +7,11 @@ status: "draft"
 
 ---
 
-Python is a widely-used programming language that is popular among developers and data scientists alike. It is known for its simplicity, versatility, and strong community support. If you are a Python user, it is important to keep your installation up-to-date in order to take advantage of the latest features and security patches. In this article, we will provide a step-by-step guide on how to update Python, starting with a brief [introduction to Python](https://4geeks.com/lesson/intro-to-python) for those who may be new to the language. Whether you are a beginner or an experienced Python user, following these steps will ensure that your Python installation is always up-to-date and running smoothly.
+<!-- TODO (Writer): First the article should ask if it's already installed. Then it should ask how it was installed, what version you have and what versions are available to update to. You can use this article for internal linking https://4geeks.com/how-to/how-to-check-python-version --> 
 
-![How to update Python on Windows](https://storage.googleapis.com/breathecode-asset-images/e64f0678f4427ebe61277aa4fa0f5900b43b95a4ff91aef59e74cf0fd92cdabe.jpeg)
+In this article, we will provide a step-by-step guide on how to update Python, starting with a brief [introduction to Python](https://4geeks.com/lesson/intro-to-python) for those who may be new to the language. Whether you are a beginner or an experienced Python user, following these steps will ensure that your Python installation is always up-to-date and running smoothly.
+
+![How to update Python on Windows](https://i.imgur.com/YkEZaRM.jpeg)
 
 Ever wonder how to update Python on Windows, follow this simple step-by-step guide and you´ll have the latest version in no time.
 
@@ -21,19 +23,21 @@ Ever wonder how to update Python on Windows, follow this simple step-by-step gui
 
 ![Update Python on Windows](https://i.imgur.com/IC72ZMt.jpg)
 
-- The website will display all Python releases for Windows (Stable and Pre-release). If you are looking to experiment with some features not released on a stable version, select the `Pre-Release` or, and most recommended, clikc on `Latest Python 3 Release` hyperlink just below `Python Releases for Windows`
+- The website will display all Python releases for Windows (Stable and Pre-release). If you are looking to experiment with some features not released on a stable version, select the `Pre-Release` or, and most recommended, click on `Latest Python 3 Release` hyperlink just below `Python Releases for Windows`
 
 ![Windows Python updating](https://i.imgur.com/Y04fCDf.jpg)
 
-- A new page will open and display all the information regarding the latest realease (at the time of writing this article, latest version is 3.11.1) and scroll down until you find the following table
+- A new page will open and display all the information regarding the latest release (at the time of writing this article, latest version is 3.11.1) and scroll down until you find the following table
 
-![Python Update on Windows](https://i.imgur.com/95svxsj.jpg)
+![Python Update on Windows](https://storage.googleapis.com/breathecode-asset-images/ce14a7241f38b8592dc1ad69486dd5bcc96594cd7f5c011519630b813ca2959f.jpg)
 
-- Select the Windows Isntaller (64-bit) option to start download and once finished, execute the installer.
+- Select the Windows Installer (64-bit) option to start download and once finished, execute the installer.
 
 - The installer will detect, if you have already a Python version installed and prompt if you wish t update the current version to the one provided by the installer. Select `update` and gives permissions to the installer when asked to. 
 
-![Python how to update on Windows](https://storage.googleapis.com/breathecode-asset-images/e64f0678f4427ebe61277aa4fa0f5900b43b95a4ff91aef59e74cf0fd92cdabe.jpeg)
+![Python how to update on Windows](https://i.imgur.com/YkEZaRM.jpeg)
+
+Python is a widely-used programming language that is popular among developers and data scientists alike. It is known for its simplicity, versatility, and strong community support. If you are a Python user, it is important to keep your installation up-to-date in order to take advantage of the latest features and security patches. 
 
 You can check the following article about [how to update python version](https://4geeks.com/how-to/how-to-update-python-version) to learn how to update python on different operative systems.
 
