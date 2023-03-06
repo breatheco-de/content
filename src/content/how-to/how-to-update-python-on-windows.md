@@ -9,7 +9,9 @@ status: "draft"
 
 <!-- TODO (Writer): First the article should ask if it's already installed. Then it should ask how it was installed, what version you have and what versions are available to update to. You can use this article for internal linking https://4geeks.com/how-to/how-to-check-python-version --> 
 
-In this article, we will provide a step-by-step guide on how to update Python, starting with a brief [introduction to Python](https://4geeks.com/lesson/intro-to-python) for those who may be new to the language. Whether you are a beginner or an experienced Python user, following these steps will ensure that your Python installation is always up-to-date and running smoothly.
+In this article, we will provide a step-by-step guide on how to update Python. Whether you are a beginner or an experienced Python user, following these steps will ensure that your Python installation is always up-to-date and running smoothly.
+
+> If you don't know Python, you can start with a brief [introduction to Python](https://4geeks.com/lesson/intro-to-python)
 
 ![How to update Python on Windows](https://i.imgur.com/YkEZaRM.jpeg)
 
@@ -25,11 +27,11 @@ Ever wonder how to update Python on Windows, follow this simple step-by-step gui
 
 - The website will display all Python releases for Windows (Stable and Pre-release). If you are looking to experiment with some features not released on a stable version, select the `Pre-Release` or, and most recommended, click on `Latest Python 3 Release` hyperlink just below `Python Releases for Windows`
 
-![Windows Python updating](https://i.imgur.com/Y04fCDf.jpg)
+![Windows Python updating](https://storage.googleapis.com/breathecode-asset-images/7a6a8368ec1cc378fafe89add70df0f68791b500b4326b8b07be494577d844a5.jpg)
 
 - A new page will open and display all the information regarding the latest release (at the time of writing this article, latest version is 3.11.1) and scroll down until you find the following table
 
-![Python Update on Windows](https://storage.googleapis.com/breathecode-asset-images/ce14a7241f38b8592dc1ad69486dd5bcc96594cd7f5c011519630b813ca2959f.jpg)
+![Python Update on Windows](https://i.imgur.com/95svxsj.jpg)
 
 - Select the Windows Installer (64-bit) option to start download and once finished, execute the installer.
 
