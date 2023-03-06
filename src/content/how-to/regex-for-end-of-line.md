@@ -19,7 +19,7 @@ console.log("regex", regex.test(text))
 
 ## What is End Of Line (EOL) in Regular Expressions (RegEx)
 
-End Of Line (EOL) refers to the last word on a string, even if the text spawns more than one visual line, the very last word on the text. 
+End Of Line (EOL) refers to the last word on a string, even if the text spawns more than one visual line, End of Line will refer to the very last word on the text. 
 
 ```javascript
 //EOL in this example would be "*Ipsum*."
