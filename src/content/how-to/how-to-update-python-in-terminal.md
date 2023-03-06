@@ -20,9 +20,7 @@ brew install python
 
 ### Update python on windows
 
-To update Python on Windows you should download the Python version you want to upgrade to from [python.org](https://www.python.org/ "python.org"). For this matter, you can follow our full step-by-step guide [here](https://4geeks.com/how-to/how-to-update-python-on-windows "here").
-
-In case you already have installed different Python versions and want to update the version of a virtual environment, you can do it by using the following command:
+To [update Python on Windows](https://4geeks.com/how-to/how-to-update-python-on-windows) you should download the Python version you want to upgrade to from [python.org](https://www.python.org/ "python.org"). In case you already have installed different Python versions and want to update the version of a virtual environment, you can do it by using the following command:
 
 ```cmd
 python -m venv --upgrade VIRTUAL-ENVIRONMENT-PATH-HERE
@@ -103,4 +101,4 @@ Once the installation finishes, you'll have the latest Python version installed 
 python3 --version
 ```
 
-Hope you enjoy the reading and keep on the Geek side
+You can check this article to learn [how to update python versions](https://4geeks.com/how-to/how-to-update-python-version) for different operative systems. Hope you enjoy the reading and keep on the Geek side.
