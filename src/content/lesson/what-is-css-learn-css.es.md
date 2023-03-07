@@ -88,7 +88,7 @@ selector3
 ## Pero, ¿qué es un “selector”?
 
 
-Un selector es una manera de referirse o identificar uno o varios elementos de HTML. Por ejemplo, si quieres cambiar el color de una página web a rojo debes hacerlo de la siguiente manera:
+Un "selector" es una manera de referirse o identificar uno o varios elementos de HTML. Por ejemplo, si quieres cambiar el color de una página web a rojo debes hacerlo de la siguiente manera:
 
 ```css
 body {
