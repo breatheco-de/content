@@ -58,7 +58,7 @@ Watch the previous animation for a better understanding.
 
 > :point_up:Spaces are ignored, but you need to use them to make your code easy to read.
 
-The next example is a style sheet defining 3 different groups of styles (#id-selector, .class-selector, and tag-selector); and each of these groups has different rules applied like: color, font size and, background color.
+The next example is a style sheet defining 3 different groups of styles (#id-selector, .class-selector, and tag-selector); and each of these groups has different rules applied like: color, font size, and background color.
 
 You need to match HTML elements to groups of styles and use "selectors" to bind the HTML elements to the CSS groups of rules.
 
