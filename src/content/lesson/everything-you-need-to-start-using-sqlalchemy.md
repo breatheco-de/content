@@ -1,7 +1,7 @@
 ---
 slug: "everything-you-need-to-start-using-sqlalchemy"
 title: "Everything you need to know about SQLAlchemy"
-subtitle: "SQLAlchemy is the most populer ORM for Python, start using it in 8min"
+subtitle: "SQLAlchemy is the most popular ORM for Python, start using it in 8min"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 date: "2020-10-19T16:36:31+00:00"
 textColor: "white"
@@ -25,7 +25,7 @@ With ORM you won't have to type SQL again (95% of the time) and you will be able
 
 ### Example:
 
-To insert an user with SQL you have to type:
+To insert a user with SQL, you have to type:
 
 ```sql
 INSERT INTO user (name, last_name) VALUES ('Bob', 'Ross');
@@ -38,14 +38,18 @@ user = User()
 user.name = 'Bob'
 user.last_name = 'Ross'
 
+# add the user to the database
+db.session.commit()
+
+# similar to the Git commit what it does is save all the changes you have made
 db.session.commit()
 ```
+
 You can just say: `db.session.commit()` and all the things you have done in your code will be translated into SQL language code.
 
 ## Let's review the most typical database operation
 
 ## Creating our database
-
 
 The first step will be defining our model
 
@@ -57,7 +61,7 @@ class Person(Base):
     id = Column(Integer, primary_key=True)
     name = Column(String(250), nullable=False)
 
-
+    # the serialize method converts the object to a dictionary
     def serialize(self):
         return {
             "id": self.id,
@@ -68,7 +72,7 @@ class Person(Base):
 ### INSERT: Inserting a Database Record
 
 All you have to do is create a new Person object, add it into the database session and commit!
-Just replace `<username_value>` and `<email_value>` with the real values you want added below.
+Just replace `<username_value>` and `<email_value>` with the real values you want, added below.
 
 ```py
 person = Person(username=<username_value>, email=<email_value>)
@@ -98,7 +102,7 @@ person = Person.query.get(3)
 
 ### DELETE: Removing a Database Record.
 
-All you have to do is select the instance of a Person you would like to delete (ie. by it's id) and delete it by typing db.session.delete(person)
+All you have to do is select the instance of a Person you would like to delete (i.e. by its id) and delete it by typing `db.session.delete(person)`.
 
 ```py
 person = Person.query.get(3)
@@ -115,10 +119,10 @@ person = Person.query.get(3)
 person.name = "Bob"
 db.session.commit()
 ```
+
 ## Transactions
 
-A transaction is a sequence of operations (like INSERT, UPDATE, SELECT) made on your database. In order for a transaction to be completed a number of operations within a group must be successful. If one operation fails, the whole transaction fails.
-
+A transaction is a sequence of operations (like INSERT, UPDATE, SELECT) made on your database. In order for a transaction to be completed, a number of operations within a group must be successful. If one operation fails, the whole transaction fails.
 
 Transactions have the following 4 standard properties(known as ACID properties):
 
@@ -128,38 +132,40 @@ A transaction ends with COMMIT or ROLLBACK.
 
 ### COMMIT: session.commit() 
 
-COMMIT command is used to permanently save any transaction into the database.
+The COMMIT command is used to permanently save any transaction into the database.
 
 When you use INSERT, UPDATE or DELETE, the changes made by these commands are not permanent, the changes made by these commands can be undone or "rolled back". 
 
-If you use the COMMIT command though the changes to your database are permanent.
+If you use the COMMIT command, though, the changes to your database are permanent.
 
 ### ROLLBACK
 
-It restores the database to last your last COMMIT. You can also use it with SAVEPOINT command to jump to a savepoint in a ongoing transaction.
+It restores the database to last your last COMMIT. You can also use it with SAVEPOINT command to jump to a savepoint in an ongoing transaction.
 
-Also, if you use UPDATE to make changes to your database, you can undo them by using the ROLLBACK command but only if you haven't commited those changes like this:
-
+Also, if you use UPDATE to make changes to your database, you can undo them by using the ROLLBACK command but only if you haven't committed those changes like this:
 
 ```jsx
 db.session.rollback()
 ```
+
 ### CHECKPOINT OR SAVEPOINT
 
 This command is used to temporarily to save a transaction so that you can go back to a certain point by using the ROLLBACK command whenever needed, you can use like this:
+
 ```jsx
 db.session.begin_nested()
 ```
+
 This command may be called many times, and it will issue a new CHECKPOINT with an ID.
 
 ![SQL](../../assets/images/sql-1.png)
 
-Now let's say we go out to have some pizza. Our pizza comes with three ingredients basic ingredients:
+Now, let's say we go out to have some pizza. Our pizza comes with three ingredients basic ingredients:
 mozzarella, tomato, olives. Our table called 'PIZZA' would look like this: 
 
 ![SQL](../../assets/images/sql-2.png)
 
-But we have a list of extra ingredients we can add to it: first we choose meat but then we change our mind and we want to add mushrooms instead. We would also like to add some pepperoni and bacon. Let see how could we do that:
+But we have a list of extra ingredients we can add to it: first we choose meat, but then we change our mind, and we want to add mushrooms instead. We would also like to add some pepperoni and bacon. Let see, how could we do that:
 
 ```jsx
 # we insert a new ingredient into out pizza
@@ -204,7 +210,7 @@ and our pizza looks like this:
 
 ![SQL](../../assets/images/sql-4.png)
 
-....I'm a bit hungry after reading this lesson!! aren't you??
+... I'm a bit hungry after reading this lesson!! Aren't you??
 
 
 
