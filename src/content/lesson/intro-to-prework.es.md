@@ -26,7 +26,7 @@ Hemos hecho un gran esfuerzo para resumir las cosas. Todo lo que encontrarás aq
 
 El Pre-Work es probablemente la fase más importante para convertirse en un desarrollador web.  ¡Aquí entenderás la base de tus habilidades y aprenderás a amarla como nosotros!
 
-![short attention meme](https://github.com/breatheco-de/content/blob/master/src/assetss/images/angry-baby.jpeg?raw=true)
+![short attention meme](https://github.com/breatheco-de/content/blob/master/src/assets/images/angry-baby.jpeg?raw=true)
 
 ## Pero y ¿Si crees Que Ya Sabes?
 <hr>
