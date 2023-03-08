@@ -228,7 +228,7 @@ Ten en cuenta que en **addEventListener()** solo hacemos referencia a la funció
 |**Propiedades**    |**Descripción**    |
 |:---------------|:------------------|
 |keyCode        |Devuelve el código de caracteres Unicode de la tecla que activa el evento.    |
-|shiftKey, altKey or ctrlKey     |Devuelve si el `shift`,`alt` o `ctrl` se pulsan con el evento clave fue provocada.    |
+|shiftKey, altKey or ctrlKey     |Devuelve si el `shift`,`alt` o `ctrl` se pulsan cuando el evento clave fue provocado.    |
 
 ### Información adicional para **eventos de rueda**
 

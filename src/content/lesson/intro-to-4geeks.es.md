@@ -37,7 +37,7 @@ En algún momento de nuestras vidas (en alguno más que otros) podemos haber pen
 
 > Si algún ejercicio o proyecto en particular te parece difícil, en vez de pensar que no sirves para esto, busca nuevas maneras de absorber el contenido. Habla con un mentor y te daremos exactamente lo que necesitas.
 
-Cualquier persona en general puede aprender a programar, la programación se vuelve más complicada cuando te especializas más en tu carrera (Inteligencia Artificial, Robótica, etc.) Puedes ganar una buena cantidad dinero sin tener que haber estudiado matemáticas, sin ser bueno con los números o sin aprender tan rápido como otros (es posible que podamos arreglar eso, por cierto). 
+Cualquier persona en general puede aprender a programar, la programación se vuelve más complicada cuando te especializas más en tu carrera (Inteligencia Artificial, Robótica, etc.) Puedes ganar una buena cantidad de dinero sin tener que haber estudiado matemáticas, sin ser bueno con los números o sin aprender tan rápido como otros (es posible que podamos arreglar eso, por cierto). 
 
 
 ##### 📝 Receta para no perder la confianza en ti

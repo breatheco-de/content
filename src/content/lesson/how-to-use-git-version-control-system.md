@@ -12,15 +12,13 @@ status: "published"
 
 > :point_up: We have also prepared an interactive tutorial about GIT [click here to take it!](https://4geeksacademy.github.io/git-interactive-tutorial/)
 
-
 > 📹 This is [an amazing video explaining git and github](https://www.youtube.com/watch?v=BCQHnlnPusY)
-
 
 ## GIT is a MUST!
 
 GIT is a great technology, please take the time to learn it. DON’T procrastinate because you cannot avoid it. You will be using it every day, several times a day. So you’d better learn and be comfortable with it.
 
-GIT is more than just a "set of commands" that you have to learn. Throughout the years, we have learned that the best way to teach GIT is by understanding the concepts and meaning of the technology first rather than just giving you a list of commands to use.
+GIT is more than just a "set of commands" that you have to learn. Throughout the years, we have learned that the best way to teach GIT is by understanding the concepts and meaning of the technology first, rather than just giving you a list of commands to use.
 
 ## Why Bother to use GIT?
 
@@ -37,7 +35,7 @@ The purpose of GIT is to interact with the repository of a project (a set of fil
 
 ## Architecture of a Repository
 
-A GIT **repository** is comprised of the following:
+A GIT **repository** comprises the following:
 
 + A set of **commit objects**.
 + A set of references to commit objects, called **heads**.
@@ -61,7 +59,7 @@ A **commit object** contains three things:
 
 + A set of **files**, reflecting the state of a project at a given point in time.
 + References to **parent commit objects.**
-+ A **SHA1 name:** a 40-character string that uniquely identifies the commit object.  The name is composed of a hash of relevant aspects of the commit; this way identical commits will always have the same name.
++ A **SHA1 name:** a 40-character string that uniquely identifies the commit object.  The name is composed of a hash of relevant aspects of the commit; this way, identical commits will always have the same name.
 
 ![how to use git](../../assets/images/commit-object2.png?raw=true)
 
@@ -71,9 +69,9 @@ At the beginning, a project always has one commit object with no parents. This i
 
 ## A Head Object is a List of Commits
 
-The heads of the repository are like the "revision history of the project". A revision history is a list of commit objects that altogether contain all the changes that you and your other team members have made to the project files.
+The heads of the repository are like the "revision history of the project." A revision history is a list of commit objects that altogether contains all the changes that you and your other team members have made to the project files.
 
-Every time you make a new commit, the head will move to that new commit. This way you are able to have access to the entire project history of commits.
+Every time you make a new commit, the head will move to that new commit. This way, you are able to have access to the entire project history of commits.
 
 You can **move the head** if you want. It does not necessarily have to always be the last commit, but you must remember that you can only review commits that came before the commit to which the head is pointing at. **Commits made after the commit to which the head is pointing at are not possible to be reviewed.**
 
@@ -89,7 +87,7 @@ For example: Let’s say that you are starting to develop the "Login" feature/fu
 
 ![how to use git](../../assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif)
 
-> :point_up: **Note on Terminology:** The terms "branch" and "head" are nearly synonyms in GIT.  Every branch is represented by one head, and every head represents one branch. Sometimes, "branch" will be used to refer to a head and the entire history of commits preceding that head, whereas "head" will be used to refer exclusively to a single commit object (the most recent commit in the branch).
+> :point_up: **Note on Terminology:** The terms "branch" and "head" are nearly synonyms in GIT. Every branch is represented by one head, and every head represents one branch. Sometimes, "branch" will be used to refer to a head and the entire history of commits preceding that head, whereas "head" will be used to refer exclusively to a single commit object (the most recent commit in the branch).
 
  ## Starting a New Repo** `git init`
 
@@ -121,7 +119,7 @@ Other commands that are useful at this point:
 
 + `git log` shows a log of all commits starting from *HEAD* back to the initial commit. It can do more than that, of course.
 + `git status` shows which files have changed between the current project state and *HEAD*.  Files are put in one of three categories: (1) New files that haven’t been added (with git add), (2) Modified files that haven’t been added, and (3) Files that have been added.
-+ `git diff` shows the difference between HEAD and the current project state.  With the --cached option, it compares added files against HEAD; otherwise it compares files not yet added.*
++ `git diff` shows the difference between HEAD and the current project state.  With the --cached option, it compares added files against HEAD; otherwise, it compares files not yet added.*
 + `git mv` and `git rm` mark files to be moved (renamed) and removed, respectively, much like `git add`.
 
 My personal workflow usually looks like this: I first do some programming, and, afterward, I end up updating some files, then I run the following commands:
@@ -227,7 +225,7 @@ To share work among developers, GIT uses a **distributed model** of version cont
 
 ## Distributed Version Control
 
-Say you and your friend wants to work on the same project. Your friend already has done some work on it. There are three tasks you need to perform to figure out how to do so:
+Say you and your friend want to work on the same project. Your friend has already done some work on it. There are three tasks you need to perform to figure out how to do so:
 
 1. Get a copy of your friend’s up-to-date repository (git clone).
 2. Get the changes your friend makes into your own repository (git pull).
@@ -237,7 +235,7 @@ Say you and your friend wants to work on the same project. Your friend already h
 
 GIT provides a number of transport protocols for sharing repository information, such as SSH and HTTP. We will be using only HTTP, because SSH is more advanced and requires extra setup.
 
-To start working in collaboration with remote projects, we will need to know the remote URL of the project.  When using HTTP, the remote will look like this:
+To start working in collaboration with remote projects, we will need to know the remote URL of the project. When using HTTP, the remote will look like this:
 
 ```bash
 https://github.com/<github-username>/repository-name.git
@@ -251,12 +249,14 @@ For example, when using a repository from github.com, you can find the remote on
 
 ## Adding a Remote
 
-If you are working on a local repository and you want to connect it to a remote repository, you can add a remote. First, look for the remote URL in the remote repository.
+If you are working on a local repository, and you want to connect it to a remote repository, you can add a remote.  First, look for the remote URL in the remote repository.
 
-Once you know the remote URL, you can add it to your project. You have to pick an alias for the remote, we normally use `origin`, but it is just an arbitrary word and you can use anything. 
+Once you know the remote URL, you can add it to your project.  
+
+You have to pick an alias for the remote, we normally use `origin`, but it is just an arbitrary word, and you can use anything. 
 
 :warning:
-In our boilerplates, you will already have an origin set-up from the boilerplate's repository. In those cases you should not remove the original origin but would need to use another term (e.g. `new` or `new-origin`, etc) to add your new remote. 
+In our boilerplates, you will already have an origin set-up from the boilerplate's repository. In those cases you should not remove the original origin, but would need to use another term (e.g. `new` or `new-origin`, etc.) to add your new remote. 
 
 Add the remote by executing the following command:
 
@@ -276,7 +276,7 @@ git push origin [new-branch]
 
 If someone else has ALSO pushed some changes to that branch, GIT will reject the push and will tell you to first download those changes to your local repository before continuing.
 
-You will have to (1) download the files, (2) merge them into your code and (3) resolve any conflicts that may have appeared.
+You will have to (1) download the files, (2) merge them into your code, and (3) resolve any conflicts that may have appeared.
 
 After you solve any and all conflicts, you can go ahead and try to *git push* again.
 
@@ -288,9 +288,9 @@ Let’s say that there is a branch in the remote repository called "development.
 git pull origin development
 ```
 
-The `git pull` command will try to merge all the incoming files into your local branch.  If it finds any conflicting code, it will give you an error and ask you to resolve those conflicts.
+The `git pull` command will try to merge all the incoming files into your local branch. If it finds any conflicting code, it will give you an error and ask you to resolve those conflicts.
 
-After you fix the conflicts, you can `git add` the files and `git commit` everything to keep a clean error-free copy of your code in the repository.
+After you fix the conflicts, you can `git add` the files and `git commit` everything to keep a clean, error-free copy of your code in the repository.
 
 ## Cloning the Repository (git clone)
 

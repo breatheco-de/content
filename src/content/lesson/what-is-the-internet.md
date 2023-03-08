@@ -11,7 +11,7 @@ status: "published"
 
 ## It all makes sense when we go back in time…
 
-If everything is a text document, how is it possible to have websites so amazing like Facebook, Youtube, etc?
+If everything is a text document, how is it possible to have websites so amazing like Facebook, YouTube, etc?
 
 Today’s websites are very different than before; they don’t have the same elements, but if we go back a bit in the past and explore the beginning of the Internet, it will all make sense.
 

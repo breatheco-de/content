@@ -8,6 +8,7 @@ status: "draft"
 
 ---
 
+If you're looking to improve your regular expression skills, one technique you should definitely learn about is negative lookahead. This powerful feature allows you to match text that is not followed by a specific pattern of characters. In this [regex tutorial](https://4geeks.com/lesson/regex-tutorial-regular-expression-examples), we will provide a thorough explanation of negative lookahead and demonstrate how it can be used in a variety of regular expression examples. Whether you're working on data mining, text parsing, or any other application that involves pattern matching, negative lookahead is a tool that can help you to achieve more accurate and precise results. So if you want to take your regular expression skills to the next level, be sure to check out our article on regex negative lookahead and start incorporating this technique into your coding workflow today!
 
 Negative lookahead assertions are one of the most important things to keep in mind when creating practical regular expressions. The negative lookahead will look for a targeted group after the match.
 
@@ -39,7 +40,7 @@ We have the `pattern-to-match` that will be the one first to look by the regex e
 
 ## Negative lookahead example
 
-Let's say we have a table that looks like the one we are providing and we want to look for only the developers that are Full Stack. Since we are using negative lookahead, we will need to define what we **DON'T** want. We are looking for Full so we will say to return the elements that are not **front** (if we have a list of front and full stack developers and we say we don't want the front developers, we are saying we want the **full** stack developers). 
+Let's say we have a table that looks like the one we are providing and we want to look for only the developers that are Full Stack. Since we are using negative lookahead, we will need to define what we **DON'T** want. We are looking for Full so we will say to return the elements that are not **front** (if we have a list of front and full stack developers and we say we don't want the front developers, we are saying we want the [full stack developers](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer)). 
 
 ### Javascript
 
@@ -144,4 +145,4 @@ As you can probably notice, the only differences are:
 - Changed the `?!` for `?=`, so the regex engine will return a match when the `element-to-look-after-match` is found.
 - Changed the `element-to-look-after-match`  from `Front` to `Full`  that is exactly what we want to look for.
 
-Hope you enjoyed the reading and keep on the Geek side!
+You can check more topics like this at [4Geeks](https://4geeks.com/). Hope you enjoyed the reading and keep on the Geek side!
