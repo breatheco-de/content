@@ -1,6 +1,6 @@
 ---
 title: "¿Qué es HTML? Es tiempo de aprender HTML y su estructura"
-subtitle: "Pero ¿qué es HTML realmente? HTML es para las páginas web lo que son los pilares para los edificios.  Aqui aprenderás lo básico de HTML - la base de la web."
+subtitle: "Pero ¿qué es HTML realmente? HTML es para las páginas web lo que son los pilares para los edificios.  Aquí aprenderás lo básico de HTML - la base de la web."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
@@ -33,9 +33,9 @@ En ese sentido, HTML es un lenguaje que utiliza etiquetas (`<tags>`) para repres
 
 Hay 2 tipos diferentes de tags:
 
-+ Tags de contenedor: cuando hay contenido entre ambos tags, debes de cerrarlos con (`</tag>`). Por ejemplo, para marcar un tag de texto como un párrafo, debes empezar con con (`<p>`) y cerrarlo al final con (`</p>`). 
++ Tags con contenido: cuando hay contenido entre ambos tags, debes de cerrarlos con (`</tag>`). Por ejemplo, para marcar un tag de texto como un párrafo, debes empezar con (`<p>`) y cerrarlo al final con (`</p>`). 
 
-+ Tags sin contenedor: son tags independientes sin tags de cierre (`</ >`). Por ejemplo, el tag para un salto de línea es (`<br>`).
++ Tags sin contenido: son tags independientes sin tags de cierre (`</ >`). Por ejemplo, el tag para un salto de línea es (`<br>`).
 
 ### Atributos
 
@@ -87,7 +87,7 @@ Los espacios son ignorados:
 
 ## Estructura de página
 
-Todas las páginas deben empezar con la declaración del  `<DOCTYPE! Html>` seguido por los tags `<html>`, luego `<head>` y por último `<body>`. Estos tags **deben** contener otros tags dentro de ellos (etiquetas anidadas), y eso es así porque separarán la página en dos pedazos principales: el HEAD (la cabeza) y el BODY (el cuerpo):
+Todas las páginas deben empezar con la declaración del  `<!DOCTYPE html>` seguido por los tags `<html>`, luego `<head>` y por último `<body>`. Estos tags **deben** contener otros tags dentro de ellos (etiquetas anidadas), y eso es así porque separarán la página en dos pedazos principales: el HEAD (la cabeza) y el BODY (el cuerpo):
 
 
 ```html
@@ -147,15 +147,15 @@ Los tags más utilizados dentro del `<body>` de un documento HTML son los siguie
 
 |**Nombre**   |**Tags**   |**Descripción**   |
 |:----------|:----------|:-----------------|
-| Head       |H1, H2, H3, etc.   |Define los headings y subheadings de la página (los headings no son lo mismo que el título; el título es utilizado por el navegador y se define en el tag title).<br> `<h1>Este es un heading</h1>`   |
-|Párrafo   |P   |Este tag separa el texto que contiene con un margen superior e inferior. De esta manera simula exactamente el comportamiento de un párrafo en un documento.`<p>ejemplo de un párrafo</p>`   |
+| Heading       |H1, H2, H3, etc.   |Define los headings y subheadings de la página (los headings no son lo mismo que el título; el título es utilizado por el navegador y se define en el tag title).<br> `<h1>Este es un heading</h1>`   |
+|Párrafo   |P   |Este tag separa el texto que contiene con un margen superior e inferior. De esta manera simula exactamente el comportamiento de un párrafo en un documento Word.`<p>ejemplo de un párrafo</p>`   |
 |Lista   |UL, OL   |Las listas son fundamentales en un documento, en el caso de HTML tenemos dos tags que podemos usar para listar contenido:<br><br> <li>OL: Que nos da una lista numerada (pone numeritos delante).</li><br><li>UL: Que nos da una lista sin números (pone puntos por delante).<br><br>`<ol>`<br>`<li>Elemento 1</li>`<br>`<li>Elemento 2</li>`<br>`</ol>`   |
-|Imagen  |img   |Nos permite agregar imágenes al documento, pueden ser imágenes PNG, JPEG, GIF y SVG principalmente .<br>`<img src="url of the image"/>`
-|Link (Anchor)   |a   |A veces queremos conectar una o mas páginas entre ellas, enviar al usuario a otra página para continuar con el flujo o incluso poder enviarlo a otra sección del mismo documento (tal como ocurre en el menú de este curso). Para eso está el tag “Anchor”.<br>`<a href="url to resend">this is a heading</a>`   |
+|Imagen  |img   |Nos permite agregar imágenes al documento, pueden ser imágenes PNG, JPEG, GIF y SVG principalmente.<br>`<img src="url of the image"/>`
+|Link (Anchor)   |a   |A veces queremos conectar una o más páginas entre ellas, enviar al usuario a otra página para continuar con el flujo o incluso poder enviarlo a otra sección del mismo documento (tal como ocurre en el menú de este curso). Para eso está el tag “Anchor”.<br>`<a href="url to resend">this is a heading</a>`   |
 |Negrita   |strong o b   |Para resaltar un texto en negritas.<br>`<strong>este es un heading</strong>`   |
 |Cursiva   |i   |Para colocar un texto en formato cursiva. <br>`<i>este es un heading</i>`   |
 |Salto de Línea  |br   | 	Para saltar el texto o contenido a la línea siguiente (similar al `shift+enter` en MS Word.)<br>`<br></br>`   |
-|Tablas   |table   |Las tablas fueron diseñadas para presentar datos de una forma legible y coherente. Tienen una headers (th), filas (tr) y columnas (td).<br><br>`<table>`<br>`<tr><th>Columna 1</th><th>Columna 2</th></tr>`<br>`<tr><td>Datos 1</td><td>Data A</td></tr>`<br>`<tr><td>Datos 2</td><td>Datos B</td></tr><br>`<br>`<tr><td>Datos 3</td><td>Datos C</td></tr>`<br>`</table>`   |
+|Tablas   |table   |Las tablas fueron diseñadas para presentar datos de una forma legible y coherente. Tienen tags de headers (th), filas (tr) y columnas (td).<br><br>`<table>`<br>`<tr><th>Columna 1</th><th>Columna 2</th></tr>`<br>`<tr><td>Datos 1</td><td>Data A</td></tr>`<br>`<tr><td>Datos 2</td><td>Datos B</td></tr>`<br>`<tr><td>Datos 3</td><td>Datos C</td></tr>`<br>`</table>`   |
 
 > :link: [Haz clic aquí](https://www.w3schools.com/tags/ref_byfunc.asp), para más tags HTML.
 

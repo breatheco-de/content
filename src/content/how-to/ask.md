@@ -33,7 +33,7 @@ Do you notice how the second question is much easier to answer? You will probabl
 
 Use screenshots to keep color highlighting and formatting as you see it. Pasting in "text snippets" can cause more confusion for those trying to help you. If you do paste in text through slack, make sure to use "attach file".
 
-You can use some plugin for Google Chrome like [Awesome Screenshot] (https://www.awesomescreenshot.com/).
+You can use a plugin for Google Chrome such as [Awesome Screenshot] (https://www.awesomescreenshot.com/).
 
 ### 3. Be specific
 
@@ -43,10 +43,10 @@ You can use some plugin for Google Chrome like [Awesome Screenshot] (https://www
 
 Take around 20 minutes to try and solve the problem yourself by using terminal responses, searching online, and developing a strategy for testing within your code. Finding the specific answer will help you during that problem, but creating an effective problem solving strategy will serve you time and time again!
 
-### 5. Use the slack channel instead of email, or anything else
+### 5. Use the slack channel instead of email
 
 Slack is the perfect tool for this, you can even start an instant video call with the responder. Avoid using traditional less effective methods like phone or sms.
 
-Enter the # public-support channel which is where you will be served more quickly.
+Enter the # public-support channel which is where you will be served quicker.
 
 ![Slack en 4Geeks Academy](../../assets/images/5a432982-f8b2-42bb-89c5-3c82a8e53d10.jpeg)

@@ -11,16 +11,17 @@ status: "published"
 
 ## About Coding 
 
-We all know the importance, growth, and impact of the tech industry nowadays. More and more developers are needed everywhere. Just in the US, the Bureau of Labor Statistics projects to have more than a million open jobs by 2024 for software developers.
+We all know the importance, growth, and impact of the tech industry nowadays. More and more developers are needed everywhere. Just in the US, the Bureau of Labor Statistics projects to have more than a million open jobs by 2024, for software developers. 
 
-A web developer makes around $65k per year in the US. In Florida, numbers are a little bit lower than the cost of living and payroll standards. In 2020 a web developer makes around $56k, and a junior one is around $50k per year in Florida. According to recent reports, a Bootcamp graduate makes $20k more than before joining the coding Bootcamp:
+A web developer makes around $65k per year in the US. In Florida, numbers are a little bit lower due to the cost of living and payroll standards. In 2020 a web developer makes around $56k, and a junior one is around $50k per year in Florida. According to recent reports, a Bootcamp graduate makes $20k more than before joining the coding Bootcamp: 
+
 <p style="text-align:center">
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/c98f9241-0c8f-46d9-91e6-a093276ac2a3.png?raw=true" width="300">
 </p>
 
 ## About 4Geeks Academy
 
-4Geeks Academy is a Miami based Coding School. We started in 2015, and now we have more than 4000 graduates, 6 open campuses across the USA, Latin America and Europe. We are licensed by the Florida Department of Education, and we were named as one of the best 10 coding Schools in the US [by Newsweek and other awards](https://4geeksacademy.com/us/awards). 
+4Geeks Academy is a Miami-based Coding School. We started in 2015 and now we have more than 4000 graduates and 6 open campuses across the USA, Latin America, and Europe. We are Licensed by the Florida Department of Education and we were named as one of the best 10 coding Schools in the US [by Newsweek and other awards](https://4geeksacademy.com/us/awards). 
 
 <p style="text-align:center">
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/75ca521c-2ea0-4a7d-ad05-6717200d8553.png?raw=true" width="300">
@@ -31,7 +32,11 @@ Around 90% of our students find a job after graduation. It normally takes 100 da
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/18da88b0-403c-4330-a7d6-661307f062e5.png?raw=true" width="300">
 </p>
 
-4Geeks stands out for several reasons: 1. Our memberships: GeekPAL (You always have a Mentor available to support your learning process 24/7 and customized), and GeekFORCE (we will make sure that you land a job, that you have a strong profile and that you make a career out of the Bootcamp); 2. Our passion for teaching Coding. 3. Our outcomes: here is a report (from  April 2019) to check it out: https://www.4geeksacademy.co/wp-content/uploads/2020/03/4Geeks-Outcomes-Report-.pdf. 
+4Geeks stands out for several reasons: 
+
+1. Our memberships: GeekPAL (You always have a Mentor available to support your learning process 24/7 and customized), and GeekFORCE (we will make sure that you land a job, that you have a strong profile and that you make a career out of the Bootcamp)
+2. Our passion for teaching Coding.
+3. Our outcomes: here is a report (from  April 2019) to check it out: https://www.4geeksacademy.co/wp-content/uploads/2020/03/4Geeks-Outcomes-Report-.pdf
 
 If you want to know more, get in contact with us or apply, please email us at: Info@4geeksacademy.com
 
@@ -39,11 +44,11 @@ If you want to know more, get in contact with us or apply, please email us at: I
 
 There are a lot of coding courses out there... some are even free. If you joined 4Geeks Academy, it’s because you are just like us. You truly believe that hard-to-learn skills like coding require much more than just online articles/videos or tutorials that make coding look extremely easy.
 
-Coding is hard because it can only be learned by large amounts of practice, face-to-face mentoring, and real life challenges.
+Coding is hard because it can only be learned by large amounts of practice, face-to-face mentoring, and real-life challenges.
 
 So, we here at 4Geeks came up with this online platform. This content we have designed for you will guide you throughout our program. There will be many, many exercises and projects yet this class will focus on enabling you to become a better coder.  
 
-We will present you with one challenge after another, but a trusty senior developer will always be looking at your process to assist you and help you out.  BreatheCode is the place to read, learn and practice code until you permanently affix everything into your brain.
+We will present you with one challenge after another, but a trusty senior developer will always be looking at your process to assist you and help you out.  4Geeks is the place to read, learn and practice code until you permanently affix everything into your brain.
 
 ## But you don't want to read everything, right!?!?
 
@@ -67,11 +72,11 @@ And this is all because we need to be sure that you have what it takes to comple
 
 The human brain requires a lot of energy to make any decision, especially when lots of variables are taking part in the equation. This course will be hard because we are re-designing the way you make these decisions. You will have to think similar to the way computers think. Do not worry though, a time will come when everything you do will become an acquired behavior.
 
-If you feel overwhelmed and confused, <span style="color:#993300">**ask for help!!**</span> And, **keep up the hard work –** you will make it! All the lessons are cumulative, meaning every exercise will require you to use all your skills you have learned in the past.
+If you feel overwhelmed and confused, <span style="color:#993300">**ask for help!!**</span> And, **keep up the hard work –** you will make it!  All the lessons are cumulative – meaning every exercise will require you to use all the skills you have learned in the past.
 
 ### Please Ask for Help!!
 
-Have you heard of Einstein? Really smart people are always the ones who ask more questions. They are not afraid of not knowing or making mistakes. The only way we can really help you is if you accept our mentorship by asking for help. To be able to do this, when you are stuck and have tried to solve on your own for a few minutes, ask on our Slack channel [#Public_Support](https://4geeksacademy.slack.com/archives/CAZ9W99U4), but first read these tips about [ How to ask programming questions?](Https://content.breatheco.de/en/how-to/ask).
+Have you heard of Einstein?  Really smart people are always the ones who ask more questions. They are not afraid of not knowing or making mistakes. The only way we can really help you is if you accept our mentorship by asking for help. To be able to do this, when you are stuck and have tried to solve a problem on your own for a few minutes, ask on our Slack channel [#Public_Support](https://4geeksacademy.slack.com/archives/CAZ9W99U4), but first read these tips about [ How to ask programming questions?](Https://content.breatheco.de/en/how-to/ask).
 
 <p style="text-align:center">
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/5f5f59bc-9efa-4ee9-bce6-6af9eedb4738.jpeg?raw=true" width="300">
@@ -97,8 +102,8 @@ Yeah, yeah, we know some of you already have your own tools, but let’s keep th
 | MANDATORY TOOLS                                           | OTHER LEARNING RESOURCES  |
 | --------------------------------------------------------  | ------------------------  |
 | [Your Email (desktop/mobile)](#)                          | [StackOverflow](https://stackoverflow.com) |
-| [Breatheco.de](https://breatheco.de/en/my-courses/)       | [w3Schools.com](https://w3schools.com) |
-| [Github.com](https://github.com)                          | [Net Ninja JS Tutorial](https://www.youtube.com/watch?v=qoSksQ4s_hg) |
-| [Slack.com (desktop & mobile)](4geeksacademy.slack.com)   |   |
-| [Gitpod](https://gitpod.io/)           |  |
+| [Github.com](https://github.com)                          | [w3Schools.com](https://w3schools.com) |
+| [Slack.com (desktop & mobile)](4geeksacademy.slack.com)   | [Net Ninja JS Tutorial](https://www.youtube.com/watch?v=qoSksQ4s_hg) |
+| [Gitpod](https://gitpod.io/)                              |   |
+
 

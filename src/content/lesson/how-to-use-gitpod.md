@@ -29,7 +29,7 @@ Enhanced learning: At 4Geeks, we have deep integration with Gitpod; it helps us 
 
 Github integration: It is essential to learn and use Github today; developers use it daily and their employers expect them to be fluent in Git and Github. Gitpod is built around Github, forcing you to learn it and start using it immediately. Helping you become good at it.
 
-## What are Gitpod disadvantages?
+## What are Gitpod's disadvantages?
 
 It's slower than local: Coding locally is faster because you don't have to wait a couple of minutes for the virtual computers to get created. 
 You need reliable internet: Otherwise, you can get disconnected while coding (and you may have to wait until you get back online).
@@ -43,13 +43,13 @@ We recognize the tradeoffs, but our students and the academy get so much value f
 - The only way to create a new workspace is to specify a Github repository folder (if you don't know what Github is, think of it as an online hard drive of code, where every folder is a project you are coding).  
 - Once the new workspace opens, it will create an empty computer for you, but it will also download to this new computer the files from the Github repository folder you specified (your code).  
 - Finally, it will open a coding editor (probably VSCode, the most used coding IDE in the world) and a terminal to start coding as if the workspace was on your local computer in the first place.  
-- If you go back to [your workspaces](https://gitpod.io/workspaces), you will find all the computers you have created and be able to `re-open them`. Changes you made to the files will stay forever, you will not lose any data as long as you RE-OPEN the same workspace you where working on in the first place.  
+- If you go back to [your workspaces](https://gitpod.io/workspaces), you will find all the computers you have created and be able to `re-open them`. Changes you made to the files will stay forever, you will not lose any data as long as you RE-OPEN the same workspace you were working on in the first place.  
 
 ![How gitpod works](https://github.com/alesanchezr/content/blob/master/src/assets/images/how-gitpod-works.jpeg?raw=true)
 
 #### What is a workspace?
 
-It's a computer; all the updates you make to your code will stay on the same workspace forever. You can go back to your list of workspaces anytime and delete, rename or pin each of the workspaces.
+It's a computer; all the updates you make to your code will stay on the same workspace forever. You can go back to your list of workspaces anytime and delete, rename, or pin each of the workspaces.
 
 > When you open a Github repository using Gitpod, you will be "renting" a computer with access to the most popular coding editor in the world: VSCode.
 
@@ -62,7 +62,7 @@ Once you download and install the extension, you will find a green button called
 
 Pressing on this button will open the repository files on a new workspace, and you will be able to start coding on VSCode.
 
-Once you finish for the day, you can abandon your computer. However, if you want to keep working on the same code tomorrow, you will have to find the workspace on ["You Workspaces"](https://gitpod.io/workspaces) and re-open it from there.
+Once you finish for the day, you can abandon your computer. However, if you want to keep working on the same code tomorrow, you will have to find the workspace on ["Your Workspaces"](https://gitpod.io/workspaces) and re-open it from there.
 
 
 ## The terminal
@@ -73,9 +73,9 @@ As a coder, you need to use the computer terminal sometimes; you can always find
 
 ### What is the terminal or command line?
 
-Every computer has a terminal, and you use it to do almost everything you want: open an application, create a file, folder, etc. However, in Gitpod, the terminal will only control the virtual computer.
+Every computer has a terminal, and you can use it to do almost everything you want: open an application, create a file, folder, etc. However, in Gitpod, the terminal will only control the virtual computer.
 
-You don't have to learn the terminal command's yet, but [we strongly recommend reading this lesson](https://content.breatheco.de/en/lesson/the-command-line-the-terminal) to get familiar and know its functions and limitations.
+You don't have to learn the terminal commands yet, but [we strongly recommend reading this lesson](https://content.breatheco.de/en/lesson/the-command-line-the-terminal) to get familiar with it and understand its functions and limitations.
 
 ![terminal command](../../assets/images/terminal-command.png)
 

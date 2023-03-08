@@ -15,7 +15,7 @@ We are sure that after diving deep into HTML, everything looks kind of ugly, fix
 
 ![what is css](../../assets/images/6891485c-2a5a-4722-a7dc-f108993c18ba.jpeg)
 
-But… The Internet is more beautiful than that. When the internet became popular, it stopped to be only a privilege for scientists and the army, and evolved to become **Part of our world!!**
+But… The Internet is more beautiful than that. When the internet became popular, it stopped being only a privilege for scientists and the army, and evolved to become **Part of our world!!**
 
 Ironically, the same scientists at CERN who created HTML had to think about how to improve it. They were given the task to make it more beautiful. It was at this time that [Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie) proposed the first version of CHSS in 1994, which was later adapted to become CSS1.
 
@@ -52,13 +52,13 @@ The CSS syntax is nothing similar to HTML syntax, it is its own specific program
 
 ![learn css](../../assets/images/4a25cfd5-e8ab-4abb-b4f8-148d376b3f3d.gif)
 
-A CSS style sheet is a huge list of style definitions for each HTML element.  First you must specify which element – or group of elements – you are going to style; this is called SELECTOR.  Then you have to put a key `{` to indicate that you are going to start defining each attribute and its respective value, and you end that with another key `}`.  You should always finish each attribute definition with a semicolon `;`.
+A CSS style sheet is a huge list of style definitions for each HTML element.  First, you must specify which element – or group of elements – you are going to style; this is called SELECTOR.  Then you have to put a key `{` to indicate that you are going to start defining each attribute and its respective value, and you end that with another key `}`.  You should always finish each attribute definition with a semicolon `;`.
 
 Watch the previous animation for a better understanding.
 
 > :point_up:Spaces are ignored, but you need to use them to make your code easy to read.
 
-The next example is a style sheet defining 3 different groups of styles (selector1, selector2, selector3); and each of these groups has different rules applied like: color, font size and background color.
+The next example is a style sheet defining 3 different groups of styles (#id-selector, .class-selector, and tag-selector); and each of these groups has different rules applied like: color, font size, and background color.
 
 You need to match HTML elements to groups of styles and use "selectors" to bind the HTML elements to the CSS groups of rules.
 
@@ -79,7 +79,7 @@ tag-selector
 
 ## Wait… What is a "Selector"??
 
-A selector is a way to refer or identify one or more HTML elements. For example, if you want to change the color of your website to red, you must do it as it follows:
+A selector is a way to refer to or identify one or more HTML elements. For example, if you want to change the color of your website to red, you must do as it follows:
 
 ```css
 body {
@@ -94,7 +94,7 @@ You could also change the color of a single anchor `<a>`. To do that, you must d
    color: red;
 }
 ```
-The next tables show a list of all possible types of selectors available to use in CSS. Please take your time to review them carefully. Your understanding here is key to continue with CSS, since you need to understand every possible style you can apply to an HTML doc:
+The next tables show a list of all possible types of selectors available to use in CSS. Please take your time to review them carefully. Your understanding here is key to continue with CSS since you need to understand every possible style you can apply to an HTML doc:
 
 ### ID Selector
 
@@ -132,7 +132,7 @@ Next, we are adding color (green) to the  background of each `td` (cells) of the
 
 |**Selector**   |**Description**   |**Examples**  |
 |:--------------|:-----------------|:-------------|
-|selector1,selector2   |If you separate multiple selectors with a comma`,` you can assign multiple selectors at the same time to save text. In the following example we give tenths to all **h1** and **.odd** class elements, that we want their text to be red.   |`h1, .odd{ color: #BDBDBD; }`   |
+|selector1, selector2   |If you separate multiple selectors with a comma`,` you can assign multiple selectors at the same time to save text. In the following example we give tenths to all **h1** and **.odd** class elements, that we want their text to be red.   |`h1, .odd{ color: #BDBDBD; }`   |
 
 ### Pseudo selectors 
 
@@ -166,7 +166,7 @@ What happens if an element of the page is selected in two different selectors an
 
 ![learn css](../../assets/images/08e78606-102f-4bc2-a066-7c26ae9400d5.png)
 
-You must have a very good understanding of the CSS hierarchy in order to understand how the elements **correspond, overwrite and even null styles between them.**
+You must have a very good understanding of the CSS hierarchy in order to understand how the elements **correspond, overwrite, and even null styles between them.**
 
 The browser gives priority to more specific selectors like `#id` than the more general selectors like tags. In the following example, we changed the color of all the `<li>` (the items in the list) to blue, but then we changed the text of the second element to red. In this way we demonstrate that the ID selector will always prevail over selecting all the elements with the same tag.
 
@@ -183,7 +183,7 @@ There are hundreds – even thousands – of CSS properties, but depending on th
 |[font-size](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-size)   |size of the font   |absolute-size \| relative-size \| distance \| percentage   |
 |[font-style](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-style)   |inclination (italics)   |normal \| italic \| oblique   |
 
-#### Text editor
+#### Text editing
 
 |Property   |Description   |Values   |
 |:----------|:-------------|:-----------|
@@ -198,7 +198,7 @@ There are hundreds – even thousands – of CSS properties, but depending on th
 
 |Property   |Description   |Values   |
 |:-----------|:-------------|:--------|
-|[list-style](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style)   |compound property (sum of every property combination)   |list-style-image\|\| list-style-position \|\| list-style-type   |
+|[list-style](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style)   |compound property (sum of every property combination)   |list-style-image \|\| list-style-position \|\| list-style-type   |
 |[list-style-image](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-image)   |marker image   |none \| uri   |
 |[list-style-position](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-position)   |marker position   |inside \| outside  |
 |[list-style-type](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-type)  |marker type   |none \| circle \| disc \| square \| decimal \| decimal-leading-zero \| lower-alpha \| upper-alpha \| lower-greek \| lower-latin \| upper-latin \| lower-roman \| upper-roman \| armenian \| georgian \| hebrew(-) \| cjk-ideographic(-) \| hiragana (-) \| katakana (-) \| hiragana-iroha(-) \| katakana-iroha(-)  |
@@ -217,11 +217,11 @@ There are hundreds – even thousands – of CSS properties, but depending on th
 
 |Property   |Description   |Values   |
 |:----------|:-------------|:----------|
-|[background-color](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-color)   |background color   |transparent | color   |
+|[background-color](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-color)   |background color   |transparent \| color   |
 |[background-image](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-image)   |background image   |none \| uri   |
-|[background-position](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-position)   |background image position   |\[ \[ left \| center \| right \| distance \| percentage] [ top \| center \| bottom \| distancia \| porcentaje] \]? \| [ [ left \| center \| right ] \|\| [ top \| center \| bottom ] ]   |
-|[background-repeat](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-repeat)  |background repetition   |no-repeat \| repeat \| repeat-x \| repeat-y \| space(3) \| round(3)   |
-|[background-size(3)](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-size)   |background image size   |auto \| [ distance \| percentage ] {2} \| contain \| cover   |
+|[background-position](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-position)   |background image position   |\[ \[ left \| center \| right \| distance \| percentage] [ top \| center \| bottom \| distance \| percentage] \]? \| [ [ left \| center \| right ] \|\| [ top \| center \| bottom ] ]   |
+|[background-repeat](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-repeat)  |background repetition   |no-repeat \| repeat \| repeat-x \| repeat-y \| space \| round   |
+|[background-size](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-size)   |background image size   |auto \| [ distance \| percentage ] {2} \| contain \| cover   |
 
 
 > 💡 Suggestion: 
