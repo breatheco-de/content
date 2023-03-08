@@ -84,9 +84,9 @@ db.session.commit()
 ### SELECT: Buscando o recuperando registros
 
 Hay 3 formas para devolver data de la base de datos:
-    1. Obten todos los registros de una tabla/modelo en particular usando `MyModel.query.all()`
-    2. Obten un único registro en función de su clave principal mediante `MyModel.query.get(id)`
-    3. Obten un grupo de registros en función de una consulta `Person.query.filter_by(arg1=value, arg2=value, ...)`
+    1. Obtén todos los registros de una tabla/modelo en particular usando `MyModel.query.all()`
+    2. Obtén un único registro en función de su clave principal mediante `MyModel.query.get(id)`
+    3. Obtén un grupo de registros en función de una consulta `Person.query.filter_by(arg1=value, arg2=value, ...)`
 
 ```py
 # aquí es como se buscan todas las personas
