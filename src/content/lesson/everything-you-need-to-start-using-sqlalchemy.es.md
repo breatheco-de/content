@@ -168,7 +168,7 @@ mozzarella, tomate y aceitunas.  Nuestra tabla se llamaría 'PIZZA' y se vería 
 
 Pero tenemos una lista de ingredientes extra que podemos añadirle: escogemos carne pero luego cambiamos de parecer y queremos champiñones. También nos gustaría añadirle pepperoni y tocino. Veamos como se vería nuestra transacción:
 
-```jsx
+```py
 # we insert a new ingredient into out pizza
 ingredient = Ingredient()
 ingredient.name = 'meat'
