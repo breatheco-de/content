@@ -1,7 +1,7 @@
 ---
 slug: "the-fetch-javascript-api"
 title: "The Fetch API"
-subtitle: "Have you heard of Fetch? In these lessons, you will learn how to request information from APIs and make use of that data with the most used technology for that purpose - the JS Fetch API."
+subtitle: "Have you heard of Fetch? In this lesson, you will learn how to request information from APIs and make use of that data with the most used technology for that purpose - the JS Fetch API."
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 authors: ["Guensie"]
 textColor: "white"
