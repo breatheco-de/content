@@ -157,7 +157,7 @@ The most frequent tags used inside the `<body>` of an HTML document are:
 |Link (Anchor)   |a   |Sometimes we want to connect one or more pages with another one, or send the user to a new page, or even send the user to another section within the same page (just as with the Menu of this course).  That’s what the anchor tag is made for.<br>`<a href="url to resend">this is a heading</a>`   |
 |Bold   |strong o b   |To highlight content using bold text.<br>`<strong>this is a heading</strong>`   |
 |Italics   |i   |To have the text in italics.<br>`<i>this is a heading</i>`   |
-|Line jump   |br   |To jump or skip the text to the next line (similar to a `shift+enter` in MS Word.)<br>`<br></br>`   |
+|Line jump   |br   |To jump or skip the text to the next line (similar to a `shift+enter` in MS Word.)<br>`<br>`   |
 |Tables   |table   |Tables were designed to present data in a more read-friendly and neatly way.  It has headers (th), rows (tr) and columns (td).<br><br>`<table>`<br>`<tr><th>Column 1</th><th>Column 2</th></tr>`<br>`<tr><td>Data 1</td><td>Data A</td></tr>`<br>`<tr><td>Data 2</td><td>Data B</td></tr>`<br>`<tr><td>Data 3</td><td>Data C</td></tr>`<br>`</table>`   |
 
 > :link: [Click here](https://www.w3schools.com/tags/ref_byfunc.asp), for more HTML tags
