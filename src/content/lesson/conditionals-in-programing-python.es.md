@@ -41,9 +41,9 @@ else:
 
 La forma más fácil de entender expresiones lógicas (al menos para esta lectura en particular), es pensar en ellas como en preguntas que le puedes hacer al computador sobre nuestras variables, por ejemplo:
 
-1. `if edad_usuario > 21:`
-2. `if dia == "martes"`
-3. `if modelo_carro == "toyota" y num_de_cauchos == 6:`
+1. Si el usuario es mayor de edad.
+2. Si hoy es martes.
+3. Miles de otras preguntas.
 
 Para hacer una pregunta, o excusar condicionalmente un conjunto particular de líneas, primero necesitas tener datos (información) almacenados en variables útiles, arriba teníamos las variables `edad_usuario`, `dia`, `modelo_carro` y `num_de_cauchos`.
 
