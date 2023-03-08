@@ -203,7 +203,7 @@ Use the sliders on the left toolbar to change the margin, padding, border radios
 
 You will have to be learning "on the go" because there is an infinite amount of combinations you can create for a website layout. What really matters is that you fully understand the display, absolute, float and overflow rules.
 
-There is a lesson called `Bootstrap` that was made to facilitate design. You'll learn this in the next lesson. 
+There is a lesson called `Bootstrap` that was made to facilitate the design. You'll learn this in the next lesson.
 
 ![css layout](../../assets/images/91aa197c-b2cb-4717-b41f-0f7b579aab25.gif)
 
