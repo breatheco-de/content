@@ -166,7 +166,7 @@ else:
 
 ```
 
-## La sentencia `switch` en Python
+## El `switch` en Python
 
 Python no tiene una sentencia `switch`.
 
