@@ -176,7 +176,7 @@ Hay que saber qué preguntas hacer. El ejemplo anterior era una condición simpl
 
 Veamos este algoritmo que le dice a una computadora cómo decidir qué ponerse durante el día de San Valentín:
 
-![What ot ware in valentines day](../../assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg)
+![Qué hacer en San Valentín](../../assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg)
 
 ```python
 if voy_a_salir:
