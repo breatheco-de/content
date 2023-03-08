@@ -144,7 +144,7 @@ It restores the database to last your last COMMIT. You can also use it with SAVE
 
 Also, if you use UPDATE to make changes to your database, you can undo them by using the ROLLBACK command but only if you haven't committed those changes like this:
 
-```jsx
+```py
 db.session.rollback()
 ```
 
@@ -167,7 +167,7 @@ mozzarella, tomato, olives. Our table called 'PIZZA' would look like this:
 
 But we have a list of extra ingredients we can add to it: first we choose meat, but then we change our mind, and we want to add mushrooms instead. We would also like to add some pepperoni and bacon. Let see, how could we do that:
 
-```jsx
+```py
 # we insert a new ingredient into out pizza
 ingredient = Ingredient()
 ingredient.name = 'meat'
@@ -203,7 +203,7 @@ Now our 'PIZZA' has the following ingredients:
 
 Now we have decided we no longer want bacon, so we use ROLLBACK:
 
-```jsx
+```py
 checkpoint_b.rollback()
 ```
 and our pizza looks like this:
