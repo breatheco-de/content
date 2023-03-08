@@ -9,7 +9,7 @@ We all make a lot of mistakes when coding. This is a reality that every senior d
 
 ## It's OK to make mistakes
 
-> 🤯 I have measured my "error rate"; I know I make > 100 mistakes during an honest day of coding (and I have been coding for 23 years, since the year 2000). 
+ I have measured my "error rate"; I know I make > 100 mistakes during an honest day of coding (and I have been coding for 23 years, since the year 2000). 
 
 These mistakes can be very simple, like misspelling a line of code, or more elaborate rabbit holes, like writing some code that leads to a memory overflow. I'm not scared of making these mistakes because I have a very effective and fast way of identifying and fixing bugs.
 
@@ -27,7 +27,7 @@ Junior Web Developers. There are so many types of bugs and debugging techniques 
 
 I know you are here to learn how to fix errors. Still, it's worth mentioning that most junior developer bugs can be prevented using automated code formatters, linters, autocompletion tools, writing with high [code readability](https://4geeks.com/lesson/what-is-and-how-to-improve-code-readability) and best practices. 
 
-> 📄 Here is a guide about [coding standards and guidelines](/lesson/coding-standards-guidelines) that will help you have clean code and prevent errors.
+> 📄 Here is a guide about [coding standards and guidelines](https://4geeks.com/lesson/coding-standards-guidelines) that will help you have clean code and prevent errors.
 
  <quote>If debugging is the process of removing software bugs, then programming must be the process of putting them in. -- Edsger Dijkstra</quote>
 
@@ -69,10 +69,11 @@ Debugging becomes more challenging as your application grows into more pieces th
 
 I'm going to assume the worst: You have no idea when the bug first appeared and have made many changes since the last time you ran your application. So these are the clues you have to start debugging:
 
-In the front end:
+**In the front end:**
 Check for an error message in the developer console.
 Check for a request error in the network tab.
-In the backend:
+
+**In the backend:**
 If you are building on a server: Check for the request log.
 Check for exceptions in the terminal.
 
@@ -136,7 +137,8 @@ The last step is obviously fixing the bug; it may take a while, and you may have
 
 I have prepared very straightforward cheat sheets to debug the most common errors you will find while coding web applications and APIs as a junior developer.
 
-- Debugging HTML/CSS errors.
+- [Debugging HTML code errors](https://4geeks.com/en/lesson/debugging-html-code).
+- [Debugging CSS code errors](https://4geeks.com/en/lesson/debugging-css-code).
 - Debugging Javascript Front End Errors.
 - Debugging React.js Front End Errors.
 - Debugging Python Script backend errors.

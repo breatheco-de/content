@@ -60,9 +60,11 @@ It’s very easy to decide how your website will render in different screen size
 |:---------|:--------|:----|
 |Means that this element should behave like a Bootstrap column.   |Means that it is specified for only for the devices with a "medium" sized screen.   |Specifies how many slots I want this column to take (remember you can take a max of 12 slots per row).   |
 
-> :point_up:Bootstrap device sizes:   |Phones   |Big-phone/small-tablet   |Tablets   |Desktops   |Extra-large desktops   |
-|:----------|:---------------|:-------------|:-----------|:------------|:---------|
-| &nbsp;           |Nothing    |sm       |md       |lg      |xl        |
+Bootstrap device sizes:   
+
+|Phones   |Big-phone/small-tablet   |Tablets   |Desktops   |Extra-large desktops   |
+|:----------|:---------------|:-------------|:-----------|:------------|
+| Nothing    |sm       |md       |lg      |xl        |
 
 > :point_up: Note: if you don’t specify the screen size (ex. by using 'sm', 'md', or 'xl'), the website will be rendered for mobile phones by default.
 
@@ -122,9 +124,9 @@ We already know the basic HTML5 skeleton that any website needs to have.  Now yo
 </html>
 ```
 
-Remember, Bootstrap is just a stylesheet.  That’s why it is very simple to include in your website.  You use the `<link>` tag to include the styles, and, optionally, use the javascript `<script>` tag to include the Bootstrap Javascript files.
+Remember, Bootstrap is just a stylesheet.  That’s why it is very simple to include in your website.  You use the `<link>` tag to include the styles, and, optionally, use the JavaScript `<script>` tag to include the Bootstrap JavaScript files.
 
-The Bootstrap Javascript functionality requires the jQuery and Popper Javascript libraries to be included first.  You don’t need to know the details about this yet.  Just include the JS libraries using the script tag and later you will understand.
+The Bootstrap JavaScript functionality requires the jQuery and Popper JavaScript libraries to be included first.  You don’t need to know the details about this yet.  Just include the JS libraries using the script tag and later you will understand.
 
 > :link: Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 

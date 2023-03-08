@@ -134,6 +134,26 @@ Next, we are adding color (green) to the  background of each `td` (cells) of the
 |:--------------|:-----------------|:-------------|
 |selector1,selector2   |If you separate multiple selectors with a comma`,` you can assign multiple selectors at the same time to save text. In the following example we give tenths to all **h1** and **.odd** class elements, that we want their text to be red.   |`h1, .odd{ color: #BDBDBD; }`   |
 
+### Pseudo selectors 
+
+```css
+a:link{color: green;}
+a:visited{color: yellow;}
+a:hover{color: blue;}
+a:active{color: red;}
+```
+
+You can assign a different color to any link on the website, depending on its status:
+
++ `:link` default color, before clicking on it.
++ `:visited` after clicking the link.
++ `:hover` when the cursor is over the link.
++ `:active` when the cursor is clicking on the link.
+  
+  <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
+
 ### Advanced Selectors
 
 With these 4 ways to select you are covering 99% of your needs; here what is important is to plan which will be on your Style sheet.

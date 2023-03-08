@@ -1,19 +1,17 @@
 ---
 title: "Building your Github profile and reputation"
 subtitle: "Having a great resume takes hours to build, even if its fake. But having a great Github takes months or years. You better start working on it now."
-textColor: "white"
 authors: ["alesanchezr"]
 status: "published"
-date: "2020-10-19T16:36:31+00:00"
 tags: ["github","job hunting","resume building"]
 thumb: "https://i.imgur.com/F03qoZF.png"
-cover_local: "../../assets/images/githubbackground.jpg"
+cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/githubbackground.jpg?raw=true"
 
 ---
 
 ## Introduction to Github (skip it if you know it already)
 
-![Github Screenshot](../../assets/images/4889ebd9-201f-46c7-a1fb-d3d8c2f4493e.png)
+![Github Screenshot](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/4889ebd9-201f-46c7-a1fb-d3d8c2f4493e.png?raw=true)
 
 Github is a social network for developers, but probably not the type of social network you use every day:
 - You can't post a picture of what you are about to eat.
@@ -53,4 +51,4 @@ Make sure to give your own personal style, but in general you can focus on tryin
 
 ### An Example Profile: Dan Abramov
 
-![Dan Abramov Github Profile](../../assets/images/danabramov.png)
+![Dan Abramov Github Profile](https://storage.googleapis.com/breathecode-asset-images/f6113918657d155554bd6e84b66cb092cb0816ab454e470bc3481c716de10497.png?raw=true)

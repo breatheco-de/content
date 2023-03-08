@@ -5,7 +5,7 @@ tags: ["coding standard guidelines"]
 
 ---
 
-As you become a more senior software developer, you understand better the importance of readability in your code. Variable naming conventions are -mostly- public standards and rules on how to name your variables when coding.
+As you become a [senior software developer](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), you understand better the importance of readability in your code. Variable naming conventions are -mostly- public standards and rules on how to name your variables when coding.
 
 This article will explore the most popular naming conventions, when to use them, and why.
 
@@ -13,7 +13,7 @@ This article will explore the most popular naming conventions, when to use them,
 
 Absolutely yes!! Not using conventions when coding can be compared to not following the driving laws: You can drive your car without following them, but everyone will scream at you and think you are a jerk, and of course, you will receive a ticket eventually.
 
-Software Developers that don't use naming conventions will become isolated from the coding community, and their code contributions will be ignored because the code is hard to understand. As a result, they will not be hired by most companies or will be fired when the company finds out.
+[Software Developers](https://4geeks.com/read/full-stack) that don't use naming conventions will become isolated from the coding community, and their code contributions will be ignored because the code is hard to understand. As a result, they will not be hired by most companies or will be fired when the company finds out.
 
 ## The most crucial naming conventions
 
