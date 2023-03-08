@@ -57,7 +57,7 @@ There are 4 important things to notice here:
 
 Here is a small selection of the most used commands by a software developer.
 
-### The `ls` command
+### The ls command
 
 **The list command**
 
@@ -69,7 +69,7 @@ ls -l ./applications
 #the -l is for asking more detailed output information on the files.
 ```
 
-### The `cd` command
+### The cd command
 
 **The change directory command**
 
@@ -79,7 +79,7 @@ Travel between two different directories.
 cd /path/to/directory
 ```
 
-### The `mv` command
+### The mv command
 
 **The move command?**
 
@@ -89,7 +89,7 @@ Move a file to another folder or directory.  Just like dragging a file located o
 mv /path/to/file.txt /math/to/destination/file.txt
 ```
 
-### The `rm` command
+### The rm command
 
 **The remove command**
 
@@ -103,7 +103,7 @@ rm -r dbstore/
 #delete all the files and sub-directories recursively within the "dbstore" directory.
 ```
 
-### The `mkdir` command
+### The mkdir command
 
 **The make directory command**
 
@@ -117,7 +117,7 @@ mkdir path/of/new/newdirectoryname
 #create newdirectoryname inside /path/of/new/
 ```
 
-### The `rmdir` command
+### The rmdir command
 
 **The remove directory command**
 
@@ -133,7 +133,7 @@ rmdir path/of/targetdirectory/mydirectory
 
 > :point_up: It will only remove empty directories, to empty all directory files use the rm -r command (-r flag forces the remove command to delete the directory and all the files within it). Pro-tip: you can use `rm`. to delete all of the files inside a directory simultaneously; use with caution.
 
-### The `cp` command
+### The cp command
 
 **The Copy File command**
 
@@ -146,7 +146,7 @@ cp path/to/file.ext path/to/new/file.txt
 #copy file.txt and create a new file.txt with the same content.
 ```
 
-### The `find` command
+### The find command
 
 **The find command**
 
@@ -174,7 +174,7 @@ These will help you save time and make fewer mistakes when typing:
 
 This is one of the things that you cannot avoid doing in the terminal.  As a developer, you will have to edit files in the terminal more often than you think. That’s why you’d better be prepared to use either the [VI Application or the Nano Application.](https://askubuntu.com/questions/726669/difference-between-nano-and-vim)  We will talk about Nano and its commands (yes, here the text editor opens inside the command line and runs using commands).
 
-### The `nano` command
+### The nano command
 
 **It’s not really a command, actually the name of "Nano" is a text editor application.**
 
@@ -192,44 +192,3 @@ At the bottom you will see the most often used commands to use nano such as: qui
 ![the command line the terminal](../../assets/images/6128e9f7-b460-4b10-80e4-34057b7d4df9.png)
 
 > :point_up: This website has a ton of great mini-challenges to help you practice the command line: <br>https://cmdchallenge.com/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
