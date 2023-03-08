@@ -2,6 +2,7 @@
 title: "4Geeks Academy Code of Conduct and Ethics"
 subtitle: "In this article we will explain in detail the terms of conduct and conditions of 4geeks academy"
 author: "mriciglianoc"
+tags: ["4Geeks"]
 
 --- 
 
