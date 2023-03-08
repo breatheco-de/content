@@ -51,6 +51,6 @@ Asegúrate de que tenga tu estilo personal, pero en general puedes concentrarte 
 - [ ] Necesitas ser un miembro [desarrollador de github](https://developer.github.com/program/). Puedes unirte gratis y obtendrás una insignia en tu perfil.
 - [ ] Evita usar los términos "desarrollador nuevo", "desarrollador junior", "recién graduado" o algo similar en tu introducción o biografía.
 
-## Un perfil de ejemplo: Dan Abramov
+## Un perfil de ejemplo: 
 
-![Perfil de Github de Dan Abramov ](../../assets/images/danabramov.png)
+![Perfil de Github](https://breathecode.herokuapp.com/v1/media/file/ejemplo-readme-png)

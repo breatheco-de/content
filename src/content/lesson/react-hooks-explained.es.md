@@ -22,7 +22,7 @@ En general, las props son suficiente para crear un componente sorprendente, pero
 2. Si quieres obtener algunos datos solo al comienzo de la ejecución del programa, usa el hook **useEffect**.
 3. Si quieres compartir información dentro de todos los componentes, usa el hook **useContext**.
 
-A medida que tengas más experiencia, comprenderás mejor cuándo usar Hooks. Si no los necesitas, ¡NO los uses! ¡Cuanto menos mejor!
+A medida que tengas más experiencia, comprenderás mejor cuándo usar Hooks. Si no los necesitas, ¡NO los uses!¡Cuanto menos mejor!
 
 ### Todas las aplicaciones necesitan al menos un <strong>useState</strong> y un <strong>useEffect</strong>. Para usar hooks, PRIMERO DEBEMOS IMPORTARLOS al inicio de nuestro archivo. Por ejemplo si necesitáramos usar un useState, haríamos lo siguiente:
 
@@ -50,7 +50,7 @@ const [ mySuperVariable, setMySuperFunction ] = useState(          null        )
 Básicamente, `mySuperVariable` se inicializa con `null` y luego tu podrás restablecer su valor llamando a `mySuperFunction` de esta forma:
 
 ```jsx
-// aqui estamos restableciendo el valor de mySuperVariable = 'hello' cuando el usuario hace clic en un botón
+// aquí estamos restableciendo el valor de mySuperVariable = 'hello' cuando el usuario hace clic en un botón
 <button onClick={() => mySuperFunction('hello')}></button>
 ```
 
@@ -184,7 +184,7 @@ ReactDOM.render(<Modal />, document.getElementById("root"));
 
 ```
 
- 5. Miles de otras aplicaciones posibles. 
+5. Miles de otras aplicaciones posibles. 
 
 Expliquemos este hook con un pequeño ejemplo de ventana modal. Aquí está el código en vivo:
 

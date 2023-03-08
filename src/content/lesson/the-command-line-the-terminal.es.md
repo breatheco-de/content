@@ -13,7 +13,6 @@ status: "published"
 
 ## ¿Por qué los Desarrolladores aman la Línea de Comando?
 
-
 Al principio, todos odiaban la línea de comando. Tras años de experiencia, se convirtió en un gusto adquirido.
 
 Pero ¿por qué les gusta a los desarrolladores? Bueno, la lista es infinita, pero aquí hay algunas razones importantes:
@@ -24,7 +23,6 @@ Pero ¿por qué les gusta a los desarrolladores? Bueno, la lista es infinita, pe
 + Te obliga a usar el teclado. Como no puedes usar el mouse, te hace más rápido. Cometes menos errores y el entorno es exactamente el mismo en todas las computadoras.
 
 ## ¿Cómo Funciona?
-
 
 La consola es realmente simple: es una pantalla negra que siempre está esperando un * comando *. Después de escribir el comando deseado y de haber presionado la tecla `enter`, la computadora lo ejecuta y muestra algún feedback con el resultado en la pantalla. Una pregunta simple <> Interfaz de respuesta.
 
@@ -44,7 +42,6 @@ Lo último que tenemos que agregar es el "argumento". En este caso, el "argument
 
 ## ¿Qué puedes hacer en la terminal?
 
-
 Tu computadora tiene archivos, directorios y aplicaciones. Tu línea de comando es capaz de lidiar con los tres. Usa comandos para moverte dentro de los archivos y directorios (como el comando `cd`). Cada aplicación que instales viene con un conjunto de comandos que están disponibles a partir del momento en que instales la aplicación (como el comando GIT).
 
 ## Así es cómo se ve el sistema de archivos en una interfaz visual v/s la terminal:
@@ -58,9 +55,7 @@ Hay 4 cosas importantes que notar aquí:
 + Puedes usar la barra diagonal `/` para navegar más hacia abajo en los directorios jerárquicos.
 + Archivos ocultos: por lo general, un archivo tiene un nombre y una extensión *(filename.extension)*. Si un archivo no tiene nombre y sólo una extensión, estará, por defecto, oculto en la interfaz visual.
 
-
 ## Comandos para trabajar con el sistema de archivos:
-
 
 Aquí hay una pequeña selección de los comandos más utilizados por un desarrollador de software.
 
@@ -138,7 +133,6 @@ rmdir path/of/targetdirectory/mydirectory
 #eliminar mydirectory de "targetdirectory" 
 ```
 
-
 > :point_up: Sólo eliminará los directorios vacíos, para vaciar todos los archivos del directorio usa el comando rm. Pro-tip: puedes usar `rm`. para borrar todos los archivos dentro de un directorio simultáneamente; utilízalo con precaución.
 
 ### El comando  `cp`
@@ -170,7 +164,6 @@ find . -name *.mp3
 
 ## Consejos y Trucos
 
-
 Esto te ayudará a ahorrar tiempo y a cometer menos errores al escribir:
 
 + Para cancelar un comando que se está ejecutando, presiona `Control` +` C`
@@ -180,7 +173,6 @@ Esto te ayudará a ahorrar tiempo y a cometer menos errores al escribir:
 + Usa el comando `clear` para "limpiar" la consola actual (es solo un desplazamiento, pero muy útil)
 
 ## Editando archivos en el terminal:
-
 
 Esta es una de las cosas que no puedes evitar hacer en la terminal. Como desarrollador, tendrás que editar archivos en la terminal con más frecuencia de lo que crees. Por eso es mejor que esté preparado para usar la  [Vi Aplicación o la Aplicación Nano](https://askubuntu.com/questions/726669/difference-between-nano-and-vim)  Hablaremos sobre Nano y sus comandos (sí, aquí el editor de texto se abre dentro de la línea de comandos y se ejecuta usando comandos).
 
@@ -195,13 +187,13 @@ nano path/to/the/textfile.txt
 #abre un editor de texto para comenzar a editar el contenido de textfile.txt
 #Si textfile.txt no existe ¡lo creará!
 ```
-Cuando nano se abra, verás una barra superior con la versión actual de la aplicación nano; el nombre del archivo que se está editando; y, un estado indicándote si los archivos fueron modificados o no.
+Cuando nano se abra, verás una barra superior con la versión actual de la aplicación nano, el nombre del archivo que se está editando, y un estado indicándote si los archivos fueron modificados o no.
 
 En la parte inferior, verás los comandos más utilizados para usar nano, tales como: quit, where is, help, etc.
 
 ![the command line the terminal](../../assets/images/6128e9f7-b460-4b10-80e4-34057b7d4df9.png)
 
-> :point_up:Este sitio web tiene un montón de pequeños mini desafíos para ayudarte a practicar la línea de comandos: <br>https://cmdchallenge.com/
+> :point_up: Este sitio web tiene un montón de pequeños mini desafíos para ayudarte a practicar la línea de comandos: <br>https://cmdchallenge.com/
 
 
 

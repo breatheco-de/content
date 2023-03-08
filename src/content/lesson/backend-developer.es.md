@@ -38,7 +38,7 @@ Junto con el contenido del documento generado, el servidor también puede especi
 |multipart/form-data     |Los tipo multipart/form-data pueden usarse cuando se envia el contenido completo de un formulario HTML desde un navegador al servidor.    |
 |application/json     |Una respuesta en formato JSON    |
 
-Además del contenido del documento y del content-type, el servidor también agrega un código de respuesta al header o encabezado. Hay docenas de códigos de respuesta, pero estos son los más populares:
+Además del contenido del documento y el content-type, el servidor también agrega un código de respuesta al header o encabezado. Hay docenas de códigos de respuesta, pero estos son los más populares:
 
 #### Códigos de Respuesta del Servidor
 

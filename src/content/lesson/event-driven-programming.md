@@ -11,13 +11,13 @@ status: "published"
 
 ## Event Driven Programming
 
+Working with events is a totally new way of **controlling the flow of an application.**  It is the first time that your code will not be executed in a linear flow which is how JavaScript is generally programmed to execute, from the first line of code to the last.  
 
-Working with events is a totally new way of **controlling the flow of an application.**  It is the first time that your code will not be executed in a linear flow which is how JavaScript is generally programmed to execute - from the first line of code to the last.  
-Instead, your code will now be executed **asynchronously** (i.e. some pieces of code will not work when the rest of the surrounding code is being executed, but only when they are explicitly triggered). Who knows what comes first???
+Instead, your code will now be executed **asynchronously** (i.e. some pieces of code will not work when the rest of the surrounding code is being executed, but only when they are explicitly triggered). Who knows what comes first?
 
 ### What is an Event?
 
-An event is something that happens during the runtime of your web application! Such as **clicking** on a button, **pressing** a key on the keyboard, **hovering** a div with your mouse, etc.
+An event is something that happens during the runtime of your web application! Such as **clicking** on a button **pressing** a key on the keyboard, **hovering** a `div` with your mouse, etc.
 
 Your job as a developer is to prepare for those events and define **handler functions** - the actions that are going to be handling each event.
 
@@ -27,10 +27,9 @@ Your job as a developer is to prepare for those events and define **handler func
 
 Sometimes it is the website user, sometimes it is the browser, sometimes it is another application letting you know something, sometimes the developer triggers events related to the business logic, etc.
 
-There are dozens of events being triggered every minute, but you don’t have to do anything about it (not if you don’t want to).  They are available to you depending on the type of application that you want to do.
+There are dozens of events being triggered every minute, but you don’t have to do anything about it (not if you don’t want to). They are available to you depending on the type of application that you want to do.
 
 ## Types of Events
-
 
 Here are some of the types of events that are constantly being triggered (and you can listen to them):
 
@@ -57,7 +56,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 |Load	           |The browser has finished loading the website.    |
 |Error            |The event occurs when an error occurs while loading an external file (like a CSS or a JavaScript).
 |Scroll         |When the element or window gets scrolled.     |
-|PageHide<br>PageShow    |When the user focuses in a different window/tab; or when the user comes back from a different window/tab.     |
+|PageHide<br>PageShow    |When the user focuses on a different window/tab; or when the user comes back from a different window/tab.     |
 |Resize    |When the window is resized.      |
 
 > :point_up: Play with this demo here 
@@ -71,9 +70,9 @@ Here are some of the types of events that are constantly being triggered (and yo
 |**Data-Type**    |**Description**    |
 |:----------------|:-----------------|
 |Submit	    |The event occurs when a form is submitted.     |
-|Focusin and Focusout     |The event occurs when the pointer is moved onto an element or onto one of the element’s children.    |
+|Focusin and Focusout     |The event occur when the pointer is moved onto an element or onto one of the element’s children.    |
 |Input       |The event occurs when an element gets user input.     |
-|Change       |The event occurs when the content of a form element, the selection, or the checked state have changed (for `<input>`, `<keygen>`, `<select>`, and `<textarea>`)
+|Change       |The event occurs when the content of a form element, the selection, or the checked state has changed (for `<input>`, `<keygen>`, `<select>`, and `<textarea>`)
      |
 
 > :point_up: Play with this demo here 
@@ -96,14 +95,11 @@ Here are some of the types of events that are constantly being triggered (and yo
 
 <div align="right"><small><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/keyboard.html">Click here to open demo in a new window</a></small></div>
 
-
-
-> :link: Here [you can find a list with all the other less common events](https://www.w3schools.com/jsref/dom_obj_event.asp) that you have at your disposal.  Read them quickly, and be aware of them for future reference during your life as a developer.
+> :link: Here [you can find a list with all the other less common events](https://www.w3schools.com/jsref/dom_obj_event.asp) that you have at your disposal. Read them quickly, and be aware of them for future reference during your life as a developer.
 
 ## Listening for events
 
-
-Now that you know the main events that exist out there, you can start listening for them during the runtime. The only way to react to any event is by listening for that event and assigning a function that will handle the event however you need.
+Now that you know the main events that exist out there, you can start listening to them during the runtime. The only way to react to any event is by listening for that event and assigning a function that will handle the event however you need.
 
 Let’s repeat: To **react** you need to **listen…**. And to listen you need to specify a **handler** function. We call that construct an **Event Listener**. 
 
@@ -111,10 +107,9 @@ Let’s repeat: To **react** you need to **listen…**. And to listen you need t
 
 You can add an event listener in 2 different ways:
 
-## Adding Listeners from the HTML
+## Adding Listeners from the HTML 
 
-
-For example, if you want to start listening when the user clicks on a particular button all you have to do is specify the "onclick" attribute to that specific HTML `<button>` tag, like this:
+For example, if you want to start listening when the user clicks on a particular button all you have to do is specify the "onclick" attribute to that specific HTML `<button>` tag, like this: 
 
 ```html
 <!–- myClickHandler is a javascript function that will handle the event -–>
@@ -133,14 +128,13 @@ function myClickHandler(){
 
 ## Adding Listeners from JavaScript (during runtime)
 
+Sometimes the DOM element doesn’t exist from the beginning. Maybe they are created after a database call or after the user did something. To solve that problem, you need to start listening after the new elements are created.
 
-Sometimes the DOM element doesn’t exist from the beginning.  Maybe they are created after a database call or after the user did something.  To solve that problem, you need to start listening after the new elements are created.
+The `.addEventListener` function is perfect for this because it can be used in any DOM element during runtime.
 
-The .addEventListener function is perfect for this because it can be used in any DOM element during runtime.
+When using the `.addEventListener` function, you have to specify what **event** you want to listen to, and **the handler function** that will be called every time that event is triggered on that DOM element.
 
-When using the addEventListener function, you have to specify what **event** you want to listen to, and **the handler function** that will be called every time that event is triggered on that DOM element.
-
-For example, the code below is creating a list of names and each LI in it is listening for the "click" event, which then triggers removal of the same LI:
+For example, the code below is creating a list of names, and each LI in it is listening for the "click" event, which then triggers the removal of the same LI:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/gmihov001/kh4n57wo/29/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -148,8 +142,7 @@ For example, the code below is creating a list of names and each LI in it is lis
 
 ##  The Event Object
 
-
-Event handler functions can receive one optional parameter in their declaration, which most developers name **event**, **evt**, or simply **e**. This parameter is always filled with the "Event object" which gets sent by default from every event and contains important information about the event that was triggered, the element where it occured, its value etc.
+Event **handler** functions can receive one optional parameter in their declaration, which most developers name **event**, **evt**, or simply **e**. This parameter is always filled with the "Event object" which gets sent by default from every event and contains important information about the event that was triggered, the element where it occurred, its value, etc.
 
 No matter what type of event (mouse-related, keyboard-related, frame-related), the event object is always going to have at least the following properties:
 
@@ -166,7 +159,7 @@ function myEventHandler(eventObj)
     eventObj.preventDefault();
      //will prevent the default action of the event if allowed
     eventObj.stopPropagation();
-     //will prevent propagation of the event if allowed
+     //will prevent the propagation of the event if allowed
      
 }
 
@@ -178,14 +171,13 @@ function myEventHandler(eventObj)
 |:---------------|:------------------|
 |Target            |Returns the DOM element that triggered the event.      |
 |Type              |The type of event: click, mouseover, load, etc.      |
-|Cancelable       |If you can stop the default action of the event or not.    |
-|preventDefault()  |If the event is cancelable, this method stops the default action of it - for example preventing a "submit" event of a form will result in the form not being submitted which can be useful if the form has errors that need to be corrected etc.    |
-|stopPropagation()  |Stops an event from propagating (i.e. from triggering the same event in nested or parent elements)
-
+|Cancelable       |If you can stop the event's default action or not.    |
+|preventDefault()  |If the event is cancelable, this method stops the default action of it; for example, preventing a "submit" event of a form will result in the form not being submitted which can be useful if the form has errors that need to be corrected, etc.    |
+|stopPropagation()  |Stops an event from propagating (i.e. from triggering the same event in nested or parent elements).
 
 Depending on the type of event, you will have additional properties that will give you very useful information about what happened when the event was triggered.
 
-One of the most important such additional properties is the **target.value** property of the event objects related to input fields. It allows us to capture and save user input from input elements.
+One of the most important such additional properties is the **target.value** property of the event objects related to input fields. It allows us to capture and save the user input from input elements.
 
 You can do it by passing the 'event' argument in the inline `onchange` event's handler function: 
 
@@ -220,15 +212,14 @@ Or, you can do it with `addEventListener`:
 
 ```
 
-Notice that in **addEventListener()** we only reference the function (`myChangeHandler`) and not actually call it (`myChangeHandler()`). If you call it, it will automatically run when the page loads and not wait for an event to be triggered, which is highly undesirable. Therefore we do not need to pass the **Event object** as an argument there (there are no parentheses). The event object is passed automtically by addEventListener to the handler function. 
-
+Notice that in **addEventListener()** we only reference the function (`myChangeHandler`) and do not actually call it (`myChangeHandler()`). If you call it, it will automatically run when the page loads and not wait for an event to be triggered, which is highly undesirable. Therefore we do not need to pass the **Event object** as an argument there (there are no parentheses). The event object is passed automtically by addEventListener to the handler function. 
 
 ### Additional information for **mouse events**
 
 |**Property**    |**Description**    |
 |:---------------|:------------------|
-|clientX, clientY    |Returns the horizontal or vertical coordinate of the mouse pointer – relative to the current window – when the mouse event was triggered.    |
-|pageX, pageY       |Returns the horizontal or vertical coordinate of the mouse pointer – relative to the document – when the mouse event was triggered.       |
+|clientX, clientY    |Returns the horizontal or vertical coordinate of the mouse pointer, relative to the current window, when the mouse event was triggered.    |
+|pageX, pageY       |Returns the horizontal or vertical coordinate of the mouse pointer, relative to the document, when the mouse event was triggered.       |
 |which      |Returns which mouse button was pressed when the mouse event was triggered.       |
 
 ### Additional information for **keyboard events**  
@@ -238,20 +229,18 @@ Notice that in **addEventListener()** we only reference the function (`myChangeH
 |keyCode        |Returns the Unicode character code of the key that triggered the event.     |
 |shiftKey, altKey or ctrlKey     |Returns whether the `shift`,`alt` or `ctrl`key was pressed when the key event was triggered.     |
 
-
 ### Additional information for **wheel events**
 
 |**Property**    |**Description**    |
 |:---------------|:------------------|
 |deltaX, deltaY   |Returns the vertical or horizontal scroll amount of a mouse wheel (y-axis) or (x-axis).     |
-|deltaMode       |Returns a number that represents the unit of measurements for delta values (pixels, lines or pages).      |
+|deltaMode       |Returns a number that represents the unit of measurement for delta values (pixels, lines, or pages).      |
 
-> :link: There is a lot more information you can get from the event object, but we are focusing on the most used properties.  For a bigger list of properties please read [this guide.](https://www.w3schools.com/jsref/dom_obj_event.asp)
+> :link: There is a lot more information you can get from the event object, but we are focusing on the most used properties. For a bigger list of properties please read [this guide.](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
 ## Removing the Listeners
 
-
-But what if I don’t want to continue listening?  All modern browsers remove the events listeners when you delete the DOM element in which they were applied.  If you don’t want to delete the DOM element, you can remove the listener manually using the `.removeEventListener()` function.
+But what if I don’t want to continue listening? All modern browsers remove the events listeners when you delete the DOM element in which they were applied. If you don’t want to delete the DOM element, you can remove the listener manually using the `.removeEventListener()` function.
 
 ```javascript
 
@@ -263,7 +252,7 @@ You have to use the exact same parameters in the *removeEventListener* function 
 
 Here is an example:
 
-In this code, we are adding an event listener to the click event.  Afterwards, the first time the click listener gets called, the handler function removes the event listener from the button.  That’s why upon the second time the button gets clicked, nothing happens.
+In this code, we are adding an event listener to the click event. Afterward, the first time the click listener gets called, the handler function removes the event listener from the button. That’s why the second time the button gets clicked, nothing happens.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
