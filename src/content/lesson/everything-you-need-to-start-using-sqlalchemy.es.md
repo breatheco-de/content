@@ -211,23 +211,4 @@ y nuestra 'PIZZA' se ve así:
 
 ![SQL](../../assets/images/sql-4.png)
 
-.... me ha dado hambre luego de leer esta lección ¿¿tú no tienes hambre??
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
+...me ha dado hambre luego de leer esta lección ¿¿tú no tienes hambre??
