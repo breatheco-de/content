@@ -29,7 +29,7 @@ Digamos que estamos construyendo un programa para ayudarnos a elegir qué almace
 if color == 'blue':
     # haz algo
 else:
-    # haz otra cosa o no hagas nada
+    # haz otra cosa
 
 ```
   
