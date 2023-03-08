@@ -253,7 +253,7 @@ If you are working on a local repository, and you want to connect it to a remote
 
 Once you know the remote URL, you can add it to your project.  
 
-You have to pick an alias for the remote – we normally use `origin`, but it is just an arbitrary word, and you can use anything. 
+You have to pick an alias for the remote, we normally use `origin`, but it is just an arbitrary word, and you can use anything. 
 
 :warning:
 In our boilerplates, you will already have an origin set-up from the boilerplate's repository. In those cases you should not remove the original origin, but would need to use another term (e.g. `new` or `new-origin`, etc.) to add your new remote. 
