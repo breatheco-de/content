@@ -8,7 +8,7 @@ status: "published"
 
 ---
 
-![Image Resume](../../assets/images/resume.png)
+![Image Resume](https://breathecode.herokuapp.com/v1/media/file/resume-png)
 
 ## Experiencia laboral
 

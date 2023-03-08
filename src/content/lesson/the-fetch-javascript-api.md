@@ -207,5 +207,5 @@ fetch(https://example.com/users)
   .catch(error => console.log(error));
 ```
 
-Note that a Header method will throw a TypeError if the name used is not a valid HTTP header name. A list of valid headers can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+Note that a Header method will throw a TypeError if the name used is not a valid HTTP header name. A list of valid headers can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers).
 

@@ -43,6 +43,19 @@ Nota: Las pruebas unitarias no se preocupan por el contenido de la función `sum
 
 ![unit testing examples](../../assets/images/unit-test1.png)
 
+## Función Flecha
+
+Otra novedad de ES6 son las "Funciones de Flecha". La forma de crear estas funciones es la siguiente: Primero, definiremos la lista de parámetros, si es necesario, entre paréntesis seguido del símbolo => y las llaves {} para indicar las instrucciones a realizar.
+
+Además de la sintaxis que es diferente a las anteriores, este tipo de funciones tienen las siguientes características.
+
+Las "funciones de flecha" no crean su propio contexto al ser ejecutadas. A diferencia de la "expresión de función" o la "declaración de función" que sí crea su propio contexto.
+
+Las "funciones de flecha" son anónimas.
+
+El objeto argumentos no está en el contexto de la función.
+
+Si al definir la función, no usamos el símbolo de las llaves. La función devolverá como resultado de la función el resultado de la ejecución de la instrucción que hayamos indicado
 
 ## Beneficios de utilizar las pruebas unitarias:
 
@@ -56,12 +69,11 @@ Nota: Las pruebas unitarias no se preocupan por el contenido de la función `sum
 
 + **Las pruebas unitarias mejoran el trabajo en equipo**. Podrán seguir la lógica detrás de tu código y tu equipo será capaz de coordinar su código en consecuencia. Al revisar los códigos de los demás, el trabajo en equipo es más ágil.
 
-
 ## Escribiendo tu primera prueba unitaria con Jest
 
-Jest es el framework de pruebas unitarias más popular en javascript, utilizado por grandes empresas como airbnb, twitter, spotify y cuenta con plugins que se integran increíblemente con frameworks de front-end como React, Vue, Angular, etc.
+Jest es el framework de pruebas unitarias más popular en Javascript, utilizado por grandes empresas como Airbnb, Twitter, Spotify y cuenta con plugins que se integran increíblemente con frameworks de front-end como React, Vue, Angular, etc.
 
-Requiere de casi 0 configuración para empezar a usarlo, es extremadamente rápido y los mensajes de error o de feedback son muy claros.
+Requiere de casi 0 configuraciones para empezar a usarlo, es extremadamente rápido y los mensajes de error o de feedback son muy claros.
 
 ### Ejemplo de Sintaxis
 

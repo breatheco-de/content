@@ -1,7 +1,13 @@
+---
+title: "4Geeks Academy Code of Conduct and Ethics"
+subtitle: "Being a member of the 4geeks Academy team comes with a lot of good things and responsibility. Our culture of our work environment is made of how each and every one of us act, speak and behave, every day."
+tags: ["4geeks"]
 
-Welcome to the 4Geeks Academy Code of
-Conduct and Ethics. This is how we work
+---
 
+# Welcome to the 4Geeks Academy Code of Conduct and Ethics. 
+
+This is how we work.
 
 Being a member of the 4geeks Academy team comes with a lot of good things and responsibility. Our culture of our work environment is made of how each and every one of us act, speak and behave, every day.
 
@@ -17,7 +23,6 @@ our top rules and how to make sure we follow them:
 
 Failing to follow the Code may lead to disciplinary action, or even termination of
 employment.
-
 
 Compliance with Laws, Rules and Regulations
 
@@ -40,14 +45,11 @@ to your position. You cannot knowingly misrepresent or omit (or cause others to 
 same) material facts about Spotify to others, especially auditors, government regulators
 and self-regulatory organizations.
 
-
-
 Conflicts of Interest
 
 At times you may face conflicting loyalties between personal or professional benefits for you, your friends or family, and 4Geeks Academy. You must avoid situations that create a real or perceived conflict of interest between you and 4Geeks Academy at all times. Any situation that involves, or might later involve a conflict of interest, should be disclosed promptly to 4Geeks Academy. Some practical examples of conflicts of interest can be found in our Contracts. To the extent that you find yourself with a question, please feel free to reach out culture@4geeksacademy.com and our legal team is happy to help. 
 
 In case you have doubts about presenting a conflict of interest, we will always be willing to discuss any situation you want.
-
 
 Corporate Opportunities
 
@@ -55,10 +57,6 @@ You owe a duty to 4Geeks Academy to advance its business interests whenever poss
 cannot take any opportunity for yourself that arises through 4Geeks Academy’s business
 relationships or that is discovered through the use of 4Geeks Academy’s property or information. You cannot use our property and resources for your personal gain and you cannot compete
 against 4Geeks Academy. 
-
-
-
-
 
 Confidentiality
 
@@ -69,8 +67,6 @@ can be of use to competitors or harmful to 4geeks Academy if it’s disclosed. I
 information that others, like users, artists, vendors or partners, have trusted us with.
 This rule applies even after your employment here ends. Confidentiality provisions are
 part of each employee’s employment contracts and professional services contracts, so please do refer back to your documents.
-
-
 
 Fair competition
 
@@ -103,7 +99,6 @@ If you believe that anyone at 4geeks Academy has engaged in conduct that violate
 regulation, or this Code, we want to know as quickly as possible! Report your concern to
 xx@4geeks.co. You should also feel free to raise any issue with your managers.
 
-
 Non-Retaliation
 
 Please always feel safe and free to speak up about misconduct. We all rely on every
@@ -114,13 +109,10 @@ utterly forbidden at 4geeks Academy to retaliate against you in any way. All we 
 sure that a violation has occurred, it just means that you believe whatever you report is
 Truthful.
 
-
 Safety and Healthy
 
 Violence, threatening behavior, or use of illegal drugs is never allowed in our house.
 Neither is reporting to work under the influence of alcohol or illegal drugs. 
-
-
 
 Record-Keeping 
 
@@ -133,30 +125,33 @@ It’s part of all our job descriptions to protect 4geeks Academy assets and ens
 efficiently. Be mindful of waste and carelessness and if you suspect fraud or theft, report
 it immediately! 4Geeks Academy owns the equipment you are given, email accounts, software, other IT devices and materials. They are for your use but they are all company property, please treat them as such.
 
-
-
 Failing to follow the Code may lead to disciplinary action, or even termination of
 employment.
 
-
-
-
 Working Discipline
 
+Being part of 4Geeks represents the opportunity to be part of an organization that is seriously committed to minimizing the entry barriers to the world of programming and technology. In an educational bet that is internationally recognized, market leader in all the countries where it has offices, with large products, success stories by the dozen, talents in many disciplines and in more than 20 cities in the world.
 
-Pertenecer a 4Geeks representa la oportunidad de ser parte de una oprganización que está seriamente comprometida en minimizar los obstáculos de entrada al mundo de la programación y la tecnología. En una apuesta educativa que es reconocida internacionalmente, líder del mercado en todos los Países donde tiene sedes, con productos de envergadura, historias de éxito por montones, talentos en muchas disciplinas y en más de 20 ciudades del mundo. 
+We must wear the logo with pride and confidence. We have offices in many places in Europe, North, Central and South America. We have graduated thousands of people and have helped to change their lives. Our own careers and trajectories have improved and grown from our performance at 4Geeks.
 
-Debemos portar el el logo con orgullo y con confianza. Tenemos sedes en muchos lugares Europa, Norte, Centro y Sudamérica. Hemos graduado a miles de personas y hemos ayudado a que cambien sus vidas. Nuestras mismas carreras y trayectoria ha mejorado y crecido a partir de nuestro desempeño en 4Geeks. 
+For this reason, we must now commit to the following:
 
-Por esto, debemos, a partir de ahora, comprometernos con lo siguiente:
+Workdays of at least thirty-six (36) hours per week;
+If in any city at least 3 members of the 4Geeks team (full-time) coincide and reside, the working days must be at least 50% of the time in person;
+Each of these groups of people will have the right to a monthly enjoyment day (lunch, dinner, bar, cinema, among others) and an additional annual one;
+People with complicated access to basic services (internet, electricity, water) must work 100% of the time in person with daily working days of at least seven (7) hours. This will also apply to people who depend on work teams owned by 4Geeks;
+All team members must know their monthly KPI's and must be measured by their immediate superiors for the same. The fulfillment of 100% of the objectives will give rise to monthly bonuses for all those who achieve it;
+25% of the salary of each must be measured and paid according to the KPI's defined and evaluated monthly;
+The failure to comply with deliverables and responsibilities clearly assigned to each of the members will be considered as a serious fault. 3 serious faults will entitle to justified and immediate dismissal from the organization;
+We must be responsible for our performance and that of our team. Team members are responsible for the fulfillment of the joint objectives, so responsibility and collective monitoring of the fulfillment of the objectives must be promoted;
+We must have identified what our responsibilities, deliverables and immediate leaders are;
+We must report corporate, individual failures and requirements for optimal work;
 
-Jornadas de trabajo de al menos treinta y seis (36) horas a la semana;
-Si en alguna Ciudad coinciden y residen al menos 3 integrantes del equipo de 4Geeks (full-time), las jornadas de trabajo deberán ser, al menos, 50% del tiempo en persona;
-Cada una de esos grupos de personas tendrán derecho a una jornada de disfrute mensual (almuerzo, cena, Bar, cine, entre otros) y una anual adicional;
-Las personas con accesos complicados a servicios básicos (internet, electricidad, agua) deberán trabajar 100% del tiempo en persona con jornadas de trabajo diarias de al menos siete (7) horas. Esto aplicará también para personas que dependan de equipos de trabajo propiedad de 4Geeks;
-Todos los miembros del equipo deben conocer sus KPI mensuales y deben ser medidos por los mismos por sus superiores inmediatos. El cumplimiento del 100% de los objetivos dará lugar a bonos mensuales para todas las personas que así lo logren;
-El 25% del salario de cada uno debe estar medido y pagado en función de los KPI’s definidos y evaluados mensualmente;
-La falta en el cumpliento de entregables y responsabilidades claramente asignadas a cada uno de los miembros será considerada como falta grave. 3 faltas graves darán derecho a despido justificado e inmediato de la organización;
-Debemos ser responsables de nuestro desempeño y el de nuestro equipo. Los miembros de un equipo son responsables del cumplimiento de los objetivos mancomunados, por lo que se debe promover la responsabilidad y seguimiento colectivo del cumplimiento de los objetivos;
-Debemos tener identificadas cuáles son nuestras responsabilidades, entregables y líderes inmediatos;
-Debemos reportar fallas corporativas, individuales y requerimientos de trabajo óptimo;
+
+
+
+
+
+
+
+
