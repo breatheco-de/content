@@ -59,7 +59,7 @@ Hay 4 cosas importantes que notar aquí:
 
 Aquí hay una pequeña selección de los comandos más utilizados por un desarrollador de software.
 
-### El comando `ls` 
+### El comando ls
 
 **El comando de lista**
 
@@ -71,7 +71,7 @@ ls -l ./applications
 # El -l es para recibir una información más detallada sobre los archivos.
 ```
 
-### El comando `cd`
+### El comando cd
 
 **El comando para cambiar de directorio**
 
@@ -81,7 +81,7 @@ Navega entre dos directorios diferentes.
 cd /path/to/directory
 ```
 
-### El comando `mv`
+### El comando mv
 
 **¿El comando mover?**
 
@@ -91,7 +91,7 @@ Mueve un archivo a otra carpeta o directorio, como por ejemplo arrastrar un arch
 mv /path/to/file.txt /math/to/destination/file.txt
 ```
 
-### El comando `rm`
+### El comando rm
 
 **El comando eliminar**
 
@@ -105,7 +105,7 @@ rm -r dbstore/
 #elimina todos los archivos y subdirectorios recursivamente dentro del directorio "dbstore".
 ```
 
-### El comando  `mkdir`
+### El comando mkdir
 
 **El comando crear directorio**
 
@@ -119,7 +119,7 @@ mkdir path/of/new/newdirectoryname
 #crear newdirectoryname dentro de /path/of/new/
 ```
 
-### El comando  `rmdir` command
+### El comando rmdir command
 
 **El comando eliminar directorio**
 
@@ -135,7 +135,7 @@ rmdir path/of/targetdirectory/mydirectory
 
 > :point_up: Sólo eliminará los directorios vacíos, para vaciar todos los archivos del directorio usa el comando rm. Pro-tip: puedes usar `rm`. para borrar todos los archivos dentro de un directorio simultáneamente; utilízalo con precaución.
 
-### El comando  `cp`
+### El comando cp
 
 **El comando copiar archivo**
 
@@ -148,7 +148,7 @@ cp path/to/file.ext path/to/new/file.ext
 #Copia file.ext y crea un nuevo file.ext con el mismo contenido.
 ```
 
-### El comando `find`
+### El comando find
 
 **El comando encontrar**
 
@@ -176,7 +176,7 @@ Esto te ayudará a ahorrar tiempo y a cometer menos errores al escribir:
 
 Esta es una de las cosas que no puedes evitar hacer en la terminal. Como desarrollador, tendrás que editar archivos en la terminal con más frecuencia de lo que crees. Por eso es mejor que esté preparado para usar la  [Vi Aplicación o la Aplicación Nano](https://askubuntu.com/questions/726669/difference-between-nano-and-vim)  Hablaremos sobre Nano y sus comandos (sí, aquí el editor de texto se abre dentro de la línea de comandos y se ejecuta usando comandos).
 
-### El comando  `nano`
+### El comando nano
 
 **No es realmente un comando, sino una aplicación de edición de texto con el nombre de "Nano".**
 
@@ -194,44 +194,3 @@ En la parte inferior, verás los comandos más utilizados para usar nano, tales 
 ![the command line the terminal](../../assets/images/6128e9f7-b460-4b10-80e4-34057b7d4df9.png)
 
 > :point_up: Este sitio web tiene un montón de pequeños mini desafíos para ayudarte a practicar la línea de comandos: <br>https://cmdchallenge.com/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
