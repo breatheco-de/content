@@ -33,7 +33,7 @@ Para explicar en detalle la "Autenticación de una API basada en tokens" es mejo
 
 ## ¿Qué es un token de seguridad?
 
-IA grandes rasgos, un token es un "número que prueba algo", por ejemplo: Cuando terminas de hacer una transferencia bancaria, el banco envía un "token" de confirmación que sirve como prueba para validar que la transacción existe y es válida. Ese número de confirmación podría llamarse también **token de confirmación`**.
+A grandes rasgos, un token es un "número que prueba algo", por ejemplo: Cuando terminas de hacer una transferencia bancaria, el banco envía un "token" de confirmación que sirve como prueba para validar que la transacción existe y es válida. Ese número de confirmación podría llamarse también **token de confirmación`**.
 
 Otros ejemplos de tokens cotidianos:
 

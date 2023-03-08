@@ -3,10 +3,11 @@ title: "How to update Python in Terminal?"
 subtitle: "In our step-by-step guide on how to update Python in terminal, we explore the most straight forward methods to successfully update Python version in Linux, MacOs and Windows systems"
 tags: ["python","terminal"]
 authors: ["javierseiglie"]
-status: "draft"
+status: "published"
 
 ---
 
+In order to update python verion on the terminal, you can use these commands depending on your operating system:
 
 ```bash
 #Linux
@@ -17,12 +18,11 @@ sudo apt install python3.11
 brew install python
 ```
 
+Here is a detailed guide about [how to update python version](https://4geeks.com/how-to/how-to-update-python-version) in other operating systems. In this article, we are going to focus on how to install it on the terminal.
 
-### Update python on windows
+## Update Python on Windows
 
-To update Python on Windows you should download the Python version you want to upgrade to from [python.org](https://www.python.org/ "python.org"). For this matter, you can follow our full step-by-step guide [here](https://4geeks.com/how-to/how-to-update-python-on-windows "here").
-
-In case you already have installed different Python versions and want to update the version of a virtual environment, you can do it by using the following command:
+To [update Python on Windows](https://4geeks.com/how-to/how-to-update-python-on-windows) you should download the Python version you want to upgrade to from [python.org](https://www.python.org/ "python.org"). In case you already have installed different Python versions and want to update the version of a virtual environment, you can do it by using the following command:
 
 ```cmd
 python -m venv --upgrade VIRTUAL-ENVIRONMENT-PATH-HERE
@@ -35,7 +35,7 @@ To select which Python version we want to use, it's as simple as as writing `py 
 	py -3.11 # Selects Python version 3.11
 ```
 
-### Updating Python on Linux
+## Updating Python on Linux
 
 Before getting into upgrading Python, we need to know if it's already installed (no use to upgrade something that doesn't exist). To check if Python is installed type the following:
 
@@ -57,7 +57,7 @@ sudo apt install software-properties-common
 
 Once we have downloaded the necessary files to install Python latest version, we can install it using `apt-get` (recommended) or using the source code.
 
-#### Update with Apt-Get
+### Update with Apt-Get
 
 There's no need to reinvent the wheel, `Apt-Get` it's a package manager built in Linux that will make our life easier while installing. 
 
@@ -87,7 +87,7 @@ To verify this selection, write:
 python -version
 ```
 
-### Updating Python on MacOs
+## Updating Python on MacOs
 
 Updating Python on MacOs is more straight forward. In MacOs systems you can as well have different Python versions installed at the same time. This makes it simpler to update it by visiting  [python.org](https://www.python.org/downloads/mac-osx/ "python.org") MacOs download page, select the installer to download and run it.
 
@@ -103,4 +103,4 @@ Once the installation finishes, you'll have the latest Python version installed 
 python3 --version
 ```
 
-Hope you enjoy the reading and keep on the Geek side
+Hope you enjoy the reading and keep on the Geek side.

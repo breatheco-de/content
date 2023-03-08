@@ -18,7 +18,7 @@ Cuando trabajas de manera remota, debes tener mucho cuidado con la manera en que
 
 Créeme cuando te digo que los siguientes pasos te permitirán obtener respuestas adecuadas en un par de minutos en vez de tener que repetir la pregunta una y otra vez.
 
-Stack Overflow es una de las páginas más importantes en el mundo de la programación y ha publicado el siguiente manual sobre como hacer preguntas: [how to ask questions by stack overflow](https://stackoverflow.com/help/how-to-ask).
+Stack Overflow es una de las páginas más importantes en el mundo de la programación y ha publicado el siguiente manual sobre como hacer preguntas: [how to ask questions by stack overflow](https://stackoverflow.com/help/how-to-ask). En el mismo, aprenderás como expresarte correctamente para tu futuro como programador!
 
 ### 1. Prepara tu pregunta 
 
@@ -28,14 +28,14 @@ Comparemos estas dos preguntas:
 
 ```md
 1. ¿Como puedo agregar un item a un array?
-2. Estoy intentando agregar un item a un array de la siguiente manera: blablabla... Este es mi código (screenshot o pantallazo) pero no esta funcionando, ¿Ven algo malo?
+2. Estoy intentando agregar un item a un array de la siguiente manera: Este es mi código (screenshot o pantallazo) pero no esta funcionando, ¿Ven algo malo?
 ```
 
-¿Notas como la segunda pregunta es mucho más sencilla de responder? Probablemente tengas una respuesta en unos pocos minutos dado que sera muy sencillo revisar tu código y darte feedback en unas pocas lineas. ¿Quién sabe? ¡Tal vez es solo un error de tipeo!
+¿Notas como la segunda pregunta es mucho más sencilla de responder? Probablemente tengas una respuesta en unos pocos minutos dado que será muy sencillo revisar tu código y darte feedback en unas pocas líneas. ¿Quién sabe? ¡Tal vez es solo un error de tipeo!
 
 ### 2. Toma fotos y un pantallazo en lugar de copiar y pegar tu código.
 
-Usa pantallazos para mantener los colores y el formato. Pegar pedazos de código o de texto puede generar más confusión para quienes te están tratando de ayudar. Si pegas código en Slack, aségurate de usar "adjuntar archivo".
+Usa pantallazos para mantener los colores y el formato. Pegar pedazos de código o de texto puede generar más confusión para quienes te están tratando de ayudar. Si pegas código en Slack, aségurate de usar la opción "bloque de código".
 
 Puedes utilizar algun plugin para Google Chrome como [Awesome Screenshot](https://www.awesomescreenshot.com/).
 

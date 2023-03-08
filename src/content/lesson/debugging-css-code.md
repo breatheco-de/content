@@ -65,7 +65,7 @@ When using the **elements tab** on the developer tools, click on any element, an
 
 If one style is being overridden by another, they will both show, but one will be crossed over with a line.
 
-![CSS Specificity war](https://i.imgur.com/Gp7hOvA.png)
+![CSS Specificity war](https://storage.googleapis.com/breathecode-asset-images/5ee0ed4c5601a9e40b006ae708a405ff48511b3423449968a029ee5a56fe8777.png)
 
 > Note: In the image above, the `color` CSS rule is being overridden twice.
 

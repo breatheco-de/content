@@ -13,10 +13,9 @@ tags: ["async","await","promise","asynchronous"]
 
 ## Programación Asíncrona con JavaScript
 
-
 Hasta ahora, hemos utilizado código JavaScript para ejecutar aplicaciones web simples, que incluyen: usar variables, llamar a funciones y jugar con el ***DOM***. En las funciones, específicamente, incluso pasamos funciones a otras funciones (***funciones callback***) y hay mucho más que hablar al respecto. 
 
-Comencemos diciendo que JavaScript por defecto es síncrono y con una sola secuencia, es decir: el código se ejecuta desde la línea 1 hasta el último, uno a la vez y en ese orden normalmente. Échale un vistazo a éste ejemplo:
+Comencemos diciendo que JavaScript por defecto es síncrono y con una sola secuencia, es decir: el código se ejecuta desde la línea 1 hasta el último, uno a la vez y en ese orden normalmente. Échale un vistazo a este ejemplo:
 
 #### Sincróno(por defecto)
 
@@ -50,7 +49,7 @@ function correPrimero(){
 	console.log("Yo también quiero correr cuando correPrimero corra");
 }
 function correSegundo(){
-	console.log("¿Donde estoy corriendo?");
+	console.log("¿Dónde estoy corriendo?");
 }
 correPrimero();
 
@@ -171,14 +170,14 @@ usuarioEsperando();
 */
 ```
 
-Javascript ofrece varias funciones asíncronas predefinidas que podemos utilizar para resolver cualquier escenario posible. Algunos de ellas son:
+Javascript ofrece varias funciones asíncronas predefinidas que podemos utilizar para resolver cualquier escenario posible. Algunas de ellas son:
 
 + [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch): se utiliza para cargar archivos de forma asíncrona.
 + [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout): se utiliza para establecer temporizadores entre bloques de código.
 
 En este caso, utilizamos la Fetch API para cargar las imágenes y *luego* (después de obtener una respuesta desde backend) escribimos algunos comentarios sobre el proceso.
 
-Tenga en cuenta que cualquier peticion (request) http puede fallar por diversas razones, siempre debemos estar preparados para la falla.
+Ten en cuenta que cualquier peticion (request) http puede fallar por diversas razones, siempre debemos estar preparados para la falla.
 
 ## Promesas
 
@@ -210,11 +209,10 @@ console.log(myPomise);
 */
 ```
 
-### Resolve y reject funciones
+### Funciones Resolve y Reject 
 
 + ***Resolve*** se utiliza para cambiar el estado de una promesa de pendiente a cumplida.
 + ***Reject*** se utiliza para cambiar el estado de pendiente a rechazado.
-
 
 ### Métodos importantes que debemos conocer al usar promesas.
 
@@ -235,15 +233,14 @@ console.log(myPomise);
 	*/
 ```
 
-
 + ***reject***: devuelve una promesa rechazada por un motivo.
 
 ```javascript
 	Promise.reject(new Error("fui rechazado")).then(error => console.log(error));
 ```
 
-
 + ***then***: este método devuelve una promesa y puede tomar hasta 2 argumentos. Una para la promesa resuelta y otra para la promesa rechazada. Arriba hay un ejemplo que usa el método ***then*** y toma un argumento.
+
 ```javascript
 	var promise =  new  Promise(function(resolve,reject){
 		resolve("Estaba resuelto y puedes verme cuando usas el método.");
@@ -258,7 +255,6 @@ console.log(myPomise);
 	});
 	promise.catch(error => console.log(error));
 ```
-
 
 ## Async/await
 
@@ -291,6 +287,7 @@ useAsyncFunction();
 	>"Tuve que esperar a que terminara"
 */
 ```
+
 ### Async se vuelve poderoso cuando hay varios pasos en acción:
 
 ```javascript
@@ -326,6 +323,7 @@ async function handlingAllPromises() {
 }
 handlingAllPromises();
 ```
+
 #### En el ejemplo anterior, en lugar de esperar una promesa en cada nueva línea, podríamos usar el método Promise.all y esperar a que se cumplan todas las promesas.
 
 ```javascript
@@ -360,7 +358,8 @@ async function handeErrors() {
 }
 ```
 
-### Fetch API se basa en la promesa. ¿Adivina qué? Puedes usarlo en tus funciones asíncronas también !!
+### Fetch API se basa en la promesa. ¿Adivina qué? ¡Puedes usarlo en tus funciones asíncronas también!
+
 ```javascript
 async  function fetchData(endpoint) { 
 	const response = await  fetch(endpoint); //nota el uso de fetch api
@@ -377,4 +376,5 @@ fetchData(http://dummyData/api/allUsers); //este es un ejemplo de endpoint
 ```
 
 ## En conclusión
+
 Tienes la capacidad de crear aplicaciones web increíbles y más rápidas. Además, los usuarios y las tareas más rápidas ya no tienen que esperar a que finalicen las tareas lentas, gracias a la ***programación asíncrona***.
