@@ -191,7 +191,7 @@ Los encabezados se pueden enviar en una solicitud y recibir en una respuesta.
 Por lo tanto, puedes usar los encabezados de la respuesta que recibes del servidor, para verificar el tipo de contenido de su cuerpo y asegurarte de recibir el formato correcto antes de seguir adelante en el proceso. Un ejemplo de esto sería:
 
 ```js
-fetch(https://example.com/users)
+fetch('https://example.com/users')
 .then(response => {
     var contentType = response.headers.get("content-type");
     if(contentType && contentType.includes("application/json")) {
