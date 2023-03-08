@@ -30,7 +30,7 @@ La principal razón por la que se creó fue para aplicar estilos a los documento
 
 ```html
 Puedes decirle a un <h1> que se vea igualito que un <h2> sin que el usuario
-se de cuenta de que, a simple vista, son distintos.
+se dé cuenta de que, a simple vista, son distintos.
 ```
 
 > :point_up: Para entender el potencial de CSS, [haz clic aquí para ver un live demo!](http://assets.breatheco.de/live-demos/css/bootstrap/)
@@ -42,21 +42,21 @@ se de cuenta de que, a simple vista, son distintos.
 ## ¿Cómo aplico estilos a un HTML?
 
 
-Sencillo, Debes escribir tus estilos con una sintaxis especial denominada "CSS" y y guardar el documento con la extensión CSS. Luego, para aplicar los estilos al documento usamos las tags del HTML que estaban relacionadas con CSS: `<style>` y `<link>` .
+Sencillo, Debes escribir tus estilos con una sintaxis especial denominada "CSS" y guardar el documento con la extensión CSS. Luego, para aplicar los estilos al documento usamos las tags del HTML que estaban relacionadas con CSS: `<style>` y `<link>` .
 
 Vamos a repasar estas tags con más detalle:
 
 |**Nombre**   |**Etiqueta**   |**Descripción**   |
 |:----------|:-------------|:------------------|
-|Link       |link          |Tiene como finalidad enlazar a la página con hojas de estilos CSS. Para utilizarla debes especificar tres propiedades dentro de la etiqueta `pyton>rel="stylesheet" type="text/css"` y por último `href="with document route css"`<br>`link rel="stylesheet" type="text/css" href="theme.css">`   |
+|Link       |link          |Tiene como finalidad enlazar a la página con hojas de estilos CSS. Para utilizarla debes especificar tres propiedades dentro de la etiqueta `rel="stylesheet" type="text/css"` y por último `href="with document route css"`<br>`link rel="stylesheet" type="text/css" href="theme.css">`   |
 |Style   |style   |Si no queremos o no podemos importar una hoja de estilo CSS, tenemos la posibilidad de definir estilos en el HEAD del documento HTML. Simplemente definimos el tag style y procedemos a escribir los estilos que queremos para las etiquetas.<br>`<style>`<br>`h1 {color:red;}`<br>`p {color:blue;}`<br>`</style>`   |
 
-> :point_up: Asi como los documentos HTML terminan con la extensión .html, los documentos CSS (las hojas de estilo) terminan con la `extensión .css`.
+> :point_up: Así como los documentos HTML terminan con la extensión .html, los documentos CSS (las hojas de estilo) terminan con la `extensión .css`.
 
 ## Sintaxis de CSS
 
 
-La sintaxis de CSS no tiene absolutamente nada que ver con la sintaxis de HTML, es su propio lenguaje de programación específico. CSS ¡no utiliza etiquetas! Para trabajar un sitio web tienes que cambiar el switch en tu mente a menudo, porque trabajarás con varios lenguajes a la vez y cada uno tiene su propia sintaxis.
+La sintaxis de CSS no tiene absolutamente nada que ver con la sintaxis de HTML, es su propio lenguaje de programación específico. CSS ¡no utiliza etiquetas! Para trabajar con un sitio web tienes que cambiar el switch en tu mente a menudo, porque trabajarás con varios lenguajes a la vez y cada uno tiene su propia sintaxis.
 
 ![aprende CSS](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/4a25cfd5-e8ab-4abb-b4f8-148d376b3f3d.gif?raw=true)
 
@@ -67,20 +67,20 @@ Revisa la animación para entenderlo mejor.
 > :point_up: Los espacios son ignorados, pero puedes utilizarlos para hacer más legible tu código.
 
 
-El siguiente ejemplo, es una hoja de estilos que define 3 grupos diferentes de estilos (selector1, selector2, selector3); y cada uno de estos grupos se le han aplicado diferentes reglas como: color, tamaño de letra o color de fondo.
+El siguiente ejemplo, es una hoja de estilos que define 3 grupos diferentes de estilos (#id-selector, .class-selector, tag-selector); y a cada uno de estos grupos se le han aplicado diferentes reglas como: color, tamaño de letra o color de fondo.
 
 Debes hacer coincidir los elementos HTML con los grupos de estilos y usar "selectors" para vincular los elementos HTML a los grupos de reglas CSS.
 
 ```css
-#selector1 {
+#id-selector {
    color: red;
    font-size: 12px;
 }
-.selector2 {
+.class-selector {
    color: blue;
    background: green;
 }
-selector3 
+tag-selector 
 {
    font-size: 15px;
 }
@@ -96,10 +96,10 @@ body {
 }
 ```
 
-También puedes cambiar el color de un sólo `<a>`. Para hacer esto, debes definir la propiedad de `clase` o un `id` de la etiqueta HTML que define ese link en particular `<a id="anchor1">`. Las clases se usan más que los IDs debido a que las clases son reutilizables y los IDs se usan más en Javascript. Una vez que esa etiqueta tenga un clase, entonces puedes ir a tu hoja de estilos y definir un `color` de la siguiente manera:
+También puedes cambiar el color de un sólo `<a>`. Para hacer esto, debes definir la propiedad de `clase` o un `id` de la etiqueta HTML que define ese link en particular `<a class="anchor1">`. Las clases se usan más que los IDs debido a que las clases son reutilizables y los IDs se usan más en Javascript. Una vez que esa etiqueta tenga una clase, entonces puedes ir a tu hoja de estilos y definir un `color` de la siguiente manera:
 
 ```css
-#anchor1{
+.anchor1 {
    color: red;
 }
 ```
@@ -111,7 +111,7 @@ La siguiente tabla contiene una lista de todos los posibles selectores disponibl
 |:--------------|:-----------------|:-------------|
 |#element_id    |Permite aplicarle estilos a un elemento en particular.   |`#element_id { color: red; }`   |
 
-Asignemos "primer" como ID de la primera celda en la siguiente tabla, y luego con CSS especificaremos que el "primer" ID debe tener un fondo amarillo:
+Asignemos "first" como ID de la primera celda en la siguiente tabla, y luego con CSS especificaremos que el "first" ID debe tener un fondo amarillo:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/1b78wna2/8/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -122,7 +122,7 @@ Asignemos "primer" como ID de la primera celda en la siguiente tabla, y luego co
 
 |**Selector**   |**Descripción**   |**Ejemplo**   |
 |:-------------|:-----------------|:-------------|
-|.classname   |Existe un propiedad en HTML que se llama "clase" y permite agrupar diferentes etiquetas en un grupo lógico. En CSS se puede utilizar `.` (punto) para seleccionar todos los elementos que usen esa clase para seleccionar todos los elementos html con el propiedad de esa clase.   |`.classname { color: #BDBDBD; }`   |
+|.classname   |Existe un atributo en HTML que se llama "class" y permite agrupar diferentes etiquetas en un grupo lógico. En CSS se puede utilizar `.` (punto) para seleccionar todos los elementos que usen esa clase para seleccionar todos los elementos html con el atributo de esa clase.   |`.classname { color: #BDBDBD; }`   |
 
 En el siguiente ejemplo le estamos aplicando una clase "odd" a las celdas impares de esta tabla, y luego con CSS le asignamos el fondo amarillo a la clase .odd:
 
@@ -132,7 +132,6 @@ En el siguiente ejemplo le estamos aplicando una clase "odd" a las celdas impare
 
 |**Selector**   |**Descripción**   |**Ejemplo**   |
 |:--------------|:-----------------|:-------------|
-
 |Tipo de Elemento (tag)   |Permite aplicar estilos a los links, títulos, etc. En el siguiente ejemplo cambiaremos el color de texto a todos los tag links `<a>` de la página.   |`a{ color: #BDBDBD; }`   |
 
 En el siguiente ejemplo vamos a colocar fondo verde a todos los td (celdas) de la tabla:
@@ -143,7 +142,7 @@ En el siguiente ejemplo vamos a colocar fondo verde a todos los td (celdas) de l
 
 |**Selector**   |**Descripción**   |**Ejemplo**  |
 |:--------------|:-----------------|:-------------|
-|selector1,selector2   |Si separas varios selectores por coma `,`, puedes asignar múltiples selectores a la vez para ahorrar texto. En el siguiente ejemplo e decimos a todos los h1 y a los elementos de clase .impar que queremos su texto de color rojo.  |`h1, .impar { color: #BDBDBD; }`   |
+|selector1, selector2   |Si separas varios selectores por coma `,`, puedes asignar múltiples selectores a la vez para ahorrar texto. En el siguiente ejemplo le decimos a todos los h1 y a los elementos de clase .impar que queremos su texto de color rojo.  |`h1, .impar { color: #BDBDBD; }`   |
 
 ### Pseudoselectores relacionados con enlaces 
 
@@ -154,7 +153,7 @@ a:hover{color: blue;}
 a:active{color: red;}
 ```
 
-Puedes cambiar los colores de cualquier elemento del sitio web, dependiendo de su estado:
+Puedes cambiar los colores de cualquier elemento `<a>` de un sitio web, dependiendo de su estado:
 
 + `:link` será el predeterminado.
 + `:visited` es autoexplicativo.
@@ -201,7 +200,7 @@ Hay cientos - sino miles - de propiedades, pero dependiendo del tipo de elemento
 |Propiedad   |Descripción   |Valores   |
 |:----------|:-------------|:-----------|
 |[color](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#color)   |color del texto   |color   |
-|[letter-spacing](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#letter-spacing)   |espacio entre caracteres  |normal \| distance   |
+|[letter-spacing](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#letter-spacing)   |espacio entre caracteres  |normal \| distancia   |
 |[line-height](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#line-height)   |espacio entre líneas  |normal \| número \| distancia \| porcentaje   |
 |[text-align](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-align)   |alineación del texto |center \| justify \| left \| right |
 |[text-decoration](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-decoration)   |decoración del texto  |none \| blink \| line-through \| overline \| underline   |
@@ -211,7 +210,7 @@ Hay cientos - sino miles - de propiedades, pero dependiendo del tipo de elemento
 
 |Propiedad   |Descripción   |Valores   |
 |:-----------|:-------------|:--------|
-|[list-style](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style)   |propiedad compuesta (suma de toda combinación de propiedades)   |list-style-image\|\| list-style-position \|\| list-style-type   |
+|[list-style](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style)   |propiedad compuesta (suma de toda combinación de propiedades)   |list-style-image \|\| list-style-position \|\| list-style-type   |
 |[list-style-image](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-image)   |imagen del marcador  |none \| uri   |
 |[list-style-position](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-position)   |posición del marcador |inside \| outside  |
 |[list-style-type](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-type)  |tipo de marcador |none \| circle \| disc \| square \| decimal \| decimal-leading-zero \| lower-alpha \| upper-alpha \| lower-greek \| lower-latin \| upper-latin \| lower-roman \| upper-roman \| armenian \| georgian \| hebrew(-) \| cjk-ideographic(-) \| hiragana (-) \| katakana (-) \| hiragana-iroha(-) \| katakana-iroha(-)  |
@@ -221,7 +220,7 @@ Hay cientos - sino miles - de propiedades, pero dependiendo del tipo de elemento
 |Propiedad  |Descripción   |Valores   |
 |:----------|:-------------|:-----------|
 |[border-collapse](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#border-collapse)   |modo de bordes  |collapse \| separate   |
-|[border-spacing](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#border-spacing)   |separación entre celdas |distance \| distance   |
+|[border-spacing](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#border-spacing)   |separación entre celdas |distancia \| distancia   |
 [caption-side](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#caption-side)   |posición de la leyenda   |top \| bottom \| left(-) \| right(-)   |
 |[empty-cells](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#empty-cells)   |borde de casillas vacías   |	hide \| show   |
 |[table-layout](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#table-layout)   |algoritmo ancho de tabla   |auto \| fixed   |
@@ -230,9 +229,9 @@ Hay cientos - sino miles - de propiedades, pero dependiendo del tipo de elemento
 
 |Propiedad   |Descripción   |Valores   |
 |:----------|:-------------|:----------|
-|[background-color](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-color)   |color de fondo   |transparent | color   |
+|[background-color](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-color)   |color de fondo   |transparent \| color   |
 |[background-image](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-image)   |imagen de fondo  |none \| uri   |
 |[background-position](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-position)   |posición de la imagen de fondo   |\[ \[ left \| center \| right \| distancia \| porcentaje] [ top \| center \| bottom \| distancia \| porcentaje] \]? \| [ [ left \| center \| right ] \|\| [ top \| center \| bottom ] ]   |
-|[background-repeat](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-repeat)  |repetición de la imagen de fondo   |no-repeat \| repeat \| repeat-x \| repeat-y \| space(3) \| round(3)   |
-|[background-size(3)](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-size)   |tamaño de la imagen de fondo   |auto \| [ distance \| percentage ] {2} \| contain \| cover   |
+|[background-repeat](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-repeat)  |repetición de la imagen de fondo   |no-repeat \| repeat \| repeat-x \| repeat-y \| space \| round   |
+|[background-size](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-size)   |tamaño de la imagen de fondo   |auto \| [ distancia \| porcentaje ] {2} \| contain \| cover   |
 
