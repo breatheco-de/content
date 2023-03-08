@@ -36,7 +36,7 @@ Hay algunos de ustedes que ya tienen alguna experiencia con la programación (pr
 Realmente necesitamos conocerte mejor.  Necesitamos estar seguros de que tienes lo necesario para completar el programa.  Va a ser intenso, y te sentirás agotado, pero no te preocupes. ¡Hemos estado haciendo esto por un tiempo y te entendemos perfectamente!
 
 <p style="text-align:center">
-    <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/assets/images/bd90ba64-ded5-4fb2-b23f-7d297125e3a5.jpeg?raw=true" width="300">
+    <img class="my-class" src="../../assets/images/bd90ba64-ded5-4fb2-b23f-7d297125e3a5.jpeg?raw=true" width="300">
 </p>
 
 ## Este Curso Funciona, pero Debes Confiar en Nosotros
@@ -52,7 +52,7 @@ Si te sientes abrumado y confundido, <span style="color:#993300">**¡¡pide ayud
 Si al preguntar aún no has resuelto tus dudas ¡no te preocupes! Si estás inscrito en nuestros programas de 9 o 16 semanas, tendrás acceso a mentorías ilimitadas, [mira aquí cómo funcionan](https://storage.cloud.google.com/4geeks-academy-website/syllabus/madrid-spain/madrid-infografia-mentorias.pdf)
 
 <p style="text-align:center">
-    <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/assets/images/5f5f59bc-9efa-4ee9-bce6-6af9eedb4738.jpeg?raw=true" width="300">
+    <img class="my-class" src="../../assets/images/5f5f59bc-9efa-4ee9-bce6-6af9eedb4738.jpeg?raw=true" width="300">
 </p>
 
 ## Herramientas de Programación
@@ -64,7 +64,7 @@ Entonces, ¡ahora depende sólo de nosotros! Hemos decidido qué lista de progra
 Sí, sí, sabemos que algunos de ustedes ya tienen sus propias herramientas, pero tengamos esa conversación otro momento.  Por ahora, sigue de cerca nuestras sugerencias y danos la oportunidad de decirte cómo hacerlo todo. 
 
 <p style="text-align:center">
-    <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/assets/images/59bf0e4e-f5cf-410c-b2bc-fdc7472e7cdc.jpeg?raw=true" width="180">
+    <img class="my-class" src="../../assets/images/59bf0e4e-f5cf-410c-b2bc-fdc7472e7cdc.jpeg?raw=true" width="180">
 </p>
 <p style="text-align:center;">
     <sub><sup>Shuhari es un concepto de arte marcial japonés, y describe las etapas de aprendizaje para dominarlo, [click aqui para leer más](https://google.co.ve)</sup></sub>
