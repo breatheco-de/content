@@ -154,7 +154,7 @@ print(arrayValue); //Esto funcionará, imprimiendo el contenido del arreglo en u
 
 ### Función Lambda vs Función de flecha
 
-Finalmente, en ES2015, Javascript incluye las "funciones arrow". Esa es una manera muy fácil y liviana de declarar y usar funciones. Python, por otro lado, tiene algo similar llamado funciones **"lambda"** que básicamente te permiten usar pequeñas funciones anónimas en línea como accesos directos.
+Finalmente, en ES2015, Javascript incluye las "funciones flecha". Esa es una manera muy fácil y liviana de declarar y usar funciones. Python, por otro lado, tiene algo similar llamado funciones **"lambda"** que básicamente te permiten usar pequeñas funciones anónimas en línea como accesos directos.
 
 <br>
 <br>
@@ -163,7 +163,7 @@ Finalmente, en ES2015, Javascript incluye las "funciones arrow". Esa es una mane
 
 ```javascript
 
-# Usando una función arrow (flecha) para mapear una lista 
+# Usando una función flecha (arrow function) para mapear una lista 
 
 var peopleArray = [{ name: "Mario Peres" },{ name: "Emilio Peres" },{ name: "Yusaiba Peres" }];
 var returningMapObject = peopleArray.map(person => person.name);
