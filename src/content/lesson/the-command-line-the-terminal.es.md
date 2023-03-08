@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-> :point_up:  Los usuarios de Windows no tienen la misma línea de comando. Por favor ve a [Cloud 9](https://aws.amazon.com/es/cloud9/?origin=c9io) y trabaja desde allí.
+> :point_up:  Los usuarios de Windows no tienen la misma línea de comando pero igual deberias aprenderlos ya que son muy utilizados en los servidores cuando publiques tu pagina y en Gitpod, Codespaces, Cloud9, etc. Puedes utilizar [Git SCM](https://git-scm.com/downloads) para probar los comandos.
 
 ## ¿Por qué los Desarrolladores aman la Línea de Comando?
 
