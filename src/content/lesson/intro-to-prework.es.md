@@ -67,7 +67,7 @@ Sí, sí, sabemos que algunos de ustedes ya tienen sus propias herramientas, per
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/assets/images/59bf0e4e-f5cf-410c-b2bc-fdc7472e7cdc.jpeg?raw=true" width="180">
 </p>
 
-    <sub><sup>Shuhari es un concepto de arte marcial japonés, y describe las etapas del aprendizaje hasta su maestría, [click aqui para leer más.](https://es.wikipedia.org/wiki/Shuhari)</sup></sub>
+<sub><sup>Shuhari es un concepto de arte marcial japonés, y describe las etapas del aprendizaje hasta su maestría, [click aqui para leer más.](https://es.wikipedia.org/wiki/Shuhari)</sup></sub>
 
 
 
