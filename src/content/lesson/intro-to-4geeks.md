@@ -73,9 +73,9 @@ These are not small numbers, 60% in a day and 90% if you don't practice for a we
 
 2. **Talk to your boss:** You may need a few extra hours, weekend time, etc. Be smart about it or he/she could sabotage it because he is afraid of losing you.
 
-3. **Don't miss class:** Missing classes is our biggest concern, we are very concerned about attendance because it has shown that is the #1 deterrent to your motivation, missing two classes in a row is the perfect storm. You will need to have 1-on-1 mentoring and double the hours thru that week to avoid staying behind.
+3. **Don't miss class:** Missing classes is our biggest concern, we are very concerned about attendance because it has shown that it is the #1 deterrent to your motivation. Missing two classes in a row is the perfect storm. You will need to have 1-on-1 mentoring and double the hours through that week to avoid staying behind.
 
-4. **Get involved:** Just coming to class will not be enough, humans are beautiful emotional creatures, information attaches better to your brain when you are engaged, emotional, coming to events and study groups, publicly speaking about it, etc. 
+4. **Get involved:** Just coming to class will not be enough! Humans are beautiful emotional creatures. Information attaches better to your brain when you are engaged, emotional, coming to events and study groups, publicly speaking about it, etc. 
 
 ## What's next?
 
