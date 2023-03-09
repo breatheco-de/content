@@ -66,15 +66,14 @@ Sí, sí, sabemos que algunos de ustedes ya tienen sus propias herramientas, per
 <p style="text-align:center">
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/assets/images/59bf0e4e-f5cf-410c-b2bc-fdc7472e7cdc.jpeg?raw=true" width="180">
 </p>
-<p style="text-align:center;">
-    <sub><sup>Shuhari es un concepto de arte marcial japonés, y describe las etapas de aprendizaje para dominarlo, [click aqui para leer más](https://google.co.ve)</sup></sub>
-</p>
+
+    <sub><sup>Shuhari es un concepto de arte marcial japonés, y describe las etapas del aprendizaje hasta su maestría, [click aqui para leer más.](https://es.wikipedia.org/wiki/Shuhari)</sup></sub>
+
 
 
 | HERRAMIENTAS OBLIGATORIAS                                 | OTROS MATERIALES DE APOYO  |
 | --------------------------------------------------------  | ------------------------  |
-| [Your Email (desktop/mobile)](#)                          | [StackOverflow](https://stackoverflow.com) |
-| [Github.com](https://github.com)                          | [w3Schools.com](https://w3schools.com) |
-| [Slack.com (desktop & mobile)](4geeksacademy.slack.com)   | [Net Ninja JS Tutorial](https://www.youtube.com/watch?v=qoSksQ4s_hg) |
-| [Gitpod](https://gitpod.io/)                              |   |
+| [Github.com](https://github.com)                          | [StackOverflow](https://stackoverflow.com) |
+| [Slack.com (desktop & mobile)](4geeksacademy.slack.com)   | [w3Schools.com](https://w3schools.com) |
+| [Gitpod](https://gitpod.io/) o [Codespaces](https://github.com/features/codespaces) | [Net Ninja JS Tutorial](https://www.youtube.com/watch?v=qoSksQ4s_hg) |
 
