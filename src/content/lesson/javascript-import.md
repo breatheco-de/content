@@ -13,26 +13,22 @@ status: "published"
 
 All of our JS code cannot be on the same file; that will make it hard to read and almost impossible to maintain.
 
-Thanks to Webpack, we can split our code in small files however we want and then we are able to reference other files from our current one.
+Thanks to Webpack, we can split our code into small files however we want, and then we are able to reference other files from our current one.
 
-We have actually been doing that already when we import our styles, bootstrap or jQuery from the index.js.
+We have actually been doing that already when we import our styles, bootstrap, or jQuery from the index.js.
 
 ## This is how "import" and "export" works:
 
-
-+ You use the word **import** to bring variables, classes or functions from other files.
++ You use the word **import** to bring variables, classes, or functions from other files.
 + You use the word **export** to expose variables, classes or functions to be used by other files.
 
 For example, here we are importing a function from another file:
-
 
 ![javascript import](../../assets/images/f7b8c75d-e7d4-481e-8346-b95d54a235f6.png)
 
 ![javascript import](../../assets/images/2cdb146a-d6f7-4591-96fc-e50aef07aca5.png)
 
-
 ## Exporting by default
-
 
 There is one small variation that you can find over the internet that is called **"export default"** – this is just a way of exporting one thing by default onto your file.
 
@@ -60,10 +56,7 @@ let multiplyFunction = function(a,b){
 export default multiplyFunction;
 ```
 
-
-
 ## Final Example:
-
 
 Here is a small demonstration of all the import/export types working on the same project.
 

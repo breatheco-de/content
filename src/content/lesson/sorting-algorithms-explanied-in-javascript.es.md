@@ -9,7 +9,7 @@ tags: ["sorting","algorithms","javascript"]
 
 ---
 
-Ordenar es una tarea costosa para la CPU de la computadora, depende de la cantidad de datos y la forma en que están organizados los datos inicialmente. Esta combinación de posibilidades hizo que los desarrolladores crearan varias soluciones algorítmicas que se pueden aplicar a cada idioma.
+Ordenar es una tarea costosa para la CPU de la computadora, depende de la cantidad de datos y la forma en que están organizados los datos inicialmente. Esta combinación de posibilidades hizo que los desarrolladores crearan varias soluciones algorítmicas que se pueden aplicar a cada lenguaje de programación.
 
 ## P: Busqué en Google y encontré un `.sort ()`, entonces, ¿por qué debería hacerlo manualmente?
 R: Ordenar algoritmos es una de las primeras lecciones en Informática, ya que te ayuda a pensar como un computador. Es una gran práctica comprender completamente los conceptos de algoritmos y códigos.

@@ -27,7 +27,7 @@ Junior Web Developers. There are so many types of bugs and debugging techniques 
 
 I know you are here to learn how to fix errors. Still, it's worth mentioning that most junior developer bugs can be prevented using automated code formatters, linters, autocompletion tools, writing with high [code readability](https://4geeks.com/lesson/what-is-and-how-to-improve-code-readability) and best practices. 
 
-> 📄 Here is a guide about [coding standards and guidelines](/lesson/coding-standards-guidelines) that will help you have clean code and prevent errors.
+> 📄 Here is a guide about [coding standards and guidelines](https://4geeks.com/lesson/coding-standards-guidelines) that will help you have clean code and prevent errors.
 
  <quote>If debugging is the process of removing software bugs, then programming must be the process of putting them in. -- Edsger Dijkstra</quote>
 

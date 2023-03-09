@@ -2,8 +2,9 @@
 title: "What is float in python?"
 subtitle: "A float type variable is used to store real numbers with fractions (or floating point numbers). The float() method returns a float number from any received integer, numeric string or even a boolean!"
 tags: ["python"]
-authors: [javierseiglie]
+authors: ["javierseiglie"]
 status: "draft"
+
 ---
 
 
@@ -14,7 +15,7 @@ print(float(x))
 #Output -> 10.0
 ```
 
-### What is a Float?
+## What is a Float in Python?
 
 Float is a type of variable present in all programming languages that it´s used to store real numbers with fractions (or floating point numbers). Based on this, we can differentiate in it's composition an Integer type number separated by a `.` (dot) from the fractional parts. It´s represented as a 64-bit double-presicion value being it´s maximum value 1.8 * 10<sup>308</sup>. 
 
@@ -36,6 +37,8 @@ float()
 ```
 
 Float() will accept any `numeric` value (inside it's limit), `inf`, `infinity` or `NaN`  and return the floating point value if possible.
+
+#### [**Related: Why to Learn Python as a Backend Language**](https://4geeksacademy.com/us/python-bootcamp/why-we-teach-python-4geeks)
 
 ### Using float() with different types of data
 
@@ -114,4 +117,4 @@ print(float(10**432))
 # OverflowError: int too large to convert to float
 ```
 
-Hope you enjoyed the reading and keep on the Geek side!
+To [learn to Code with Python](https://4geeks.com/lesson/learning-to-code-with-python) take a look at our Courses in [4Geeks](https://4geeks.com/). Hope you enjoyed the reading and keep on the Geek side!

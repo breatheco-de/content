@@ -11,11 +11,11 @@ cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 
 ---
 
-Welcome!! 🤩👏 My name is Alejandro and I'm writing these words after years of teaching code and changing lives. Please, I beg you to read until the end, I will try my best not to bore you!
+Welcome!! 🤩👏 My name is Alejandro and I'm typing these words after years of teaching code and changing lives. Please, I beg you to read until the end, I will try my best not to bore you!
 
 ## What you already know
 
-You are here to develop your coding skills to a point where you can be useful to society in order to: 1️⃣ Get a job, 2️⃣ Create your own company, 3️⃣ Adapt better to the now world.
+You are here to develop your coding skills to a point where you can be useful to society in order to: 1️⃣ Get a job, 2️⃣ Create your own company, 3️⃣ Adapt better to the current world.
 
 ## What you did not know
 
