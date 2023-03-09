@@ -28,6 +28,12 @@ Github is now the developers #1 portfolio, the best way to get noticed and build
    2. Easy to understand and fast to read.  
    3. Amazing look (you never have a 2nd time to give the first impression).  
 
+Whether you are a junior, or senior software developer, GitHub is one of the best tools you can adopt to showcase your hard/soft skills, executed projects, personal research, and even past college assignment.
+
+It is now **no longer sufficient** to tell recruiters what you can do with your competence in Python, Java, or JavaScript. In today's competitive programming world, recruiters now want developers to **show them** what they have done or are currently up to.
+
+Many years ago having a portfolio website used to be essential for finding a job. **This is no longer the case** and this is the reason why. **Having a GitHub account is significantly more important these days**. Every company expects you to have a GitHub and experience using GIT and version control. These have become the standards for programming now.
+
 ## Making Your Github Profile Shine
 
 Make sure to give your own personal style, but in general you can focus on trying to comply with the following guidelines:
