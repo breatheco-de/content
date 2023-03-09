@@ -88,7 +88,7 @@ console.log("regex", regex.test(text))
 //Output -> true
 ```
 
-## Using EOL RegEx on Python
+## Using End Of Line RegEx on Python
 
 Python comes with the module `re` built-in which stands for RegExp. As a module, we need to import it before being able to access its method using the dot `.` notation.
 
