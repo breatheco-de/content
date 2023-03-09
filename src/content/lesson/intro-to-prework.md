@@ -83,7 +83,6 @@ Have you heard of Einstein?  Really smart people are always the ones who ask mor
 </p>
 
 ## Coding Tools
-<hr>
 
 When we started the academy, each student had the freedom to install their own set of coding tools and programs. However, we soon discovered that students waste too much time installing and setting up each program. They invested more time doing that than actually learning to program.
 
@@ -94,9 +93,8 @@ Yeah, yeah, we know some of you already have your own tools, but let’s keep th
 <p style="text-align:center">
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/59bf0e4e-f5cf-410c-b2bc-fdc7472e7cdc.jpeg?raw=true" width="180">
 </p>
-<p style="text-align:center;">
-    <sub><sup>Shuhari is a Japanese martial art concept, and describes the stages of learning to mastery, [click here to read more](https://google.co.ve)</sup></sub>
-</p>
+    <sub><sup>Shuhari is a Japanese martial art concept, and describes the stages of learning to mastery, [click here to read more](https://en.wikipedia.org/wiki/Shuhari)</sup></sub>
+
 
 
 | MANDATORY TOOLS                                           | OTHER LEARNING RESOURCES  |
