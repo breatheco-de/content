@@ -28,7 +28,7 @@ Comparemos estas dos preguntas:
 
 ```md
 1. ¿Cómo puedo agregar un item a un array?
-2. Estoy intentando agregar un item a un array de la siguiente manera: blablabla... Este es mi código (screenshot o pantallazo) pero no está funcionando, ¿Ven algo malo?
+2. Estoy intentando agregar un item a un array de la siguiente manera: Este es mi código (screenshot o pantallazo) pero no está funcionando, ¿Ven algo malo?
 ```
 
 ¿Notas como la segunda pregunta es mucho más sencilla de responder? Probablemente tengas una respuesta en unos pocos minutos dado que será muy sencillo revisar tu código y darte feedback en unas pocas líneas. ¿Quién sabe? ¡Tal vez es solo un error de tipeo!
