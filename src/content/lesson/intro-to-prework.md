@@ -94,7 +94,7 @@ Yeah, yeah, we know some of you already have your own tools, but let’s keep th
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/59bf0e4e-f5cf-410c-b2bc-fdc7472e7cdc.jpeg?raw=true" width="180">
 </p>
 
-Shuhari is a Japanese martial art concept, and describes the stages of learning to mastery, [click here to read more.](https://en.wikipedia.org/wiki/Shuhari)
+<sup><sub>Shuhari is a Japanese martial art concept, and describes the stages of learning to mastery, [click here to read more.](https://en.wikipedia.org/wiki/Shuhari)</sub></sup>
 
 
 | MANDATORY TOOLS                                           | OTHER LEARNING RESOURCES  |
