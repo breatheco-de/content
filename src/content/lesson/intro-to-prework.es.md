@@ -29,7 +29,6 @@ El Pre-Work es probablemente la fase más importante para convertirse en un desa
 ![short attention meme](https://github.com/breatheco-de/content/blob/master/src/assets/images/angry-baby.jpeg?raw=true)
 
 ## Pero y ¿Si crees Que Ya Sabes?
-<hr>
 
 Hay algunos de ustedes que ya tienen alguna experiencia con la programación (principalmente con HTML y CSS), y algunos de ustedes sin ninguna experiencia en lo absoluto.  Esa es la razón principal por la que esta etapa se conoce como **Pre-Work**.  Necesitamos evaluar el nivel de experiencia de cada participante del programa.  El Pre-Work también nos permite conocerte. Conocer sobre tu proceso y curva de aprendizaje, nos ayuda a guiarte hacia la obtención de los mejores resultados posibles.
 
