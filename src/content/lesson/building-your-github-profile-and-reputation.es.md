@@ -30,6 +30,12 @@ Github es el portafolio personal #1 para los desarrolladores, la mejor manera de
    2. Fácil de entender y rápido de leer.
    3. Aspecto increíble (nunca tienes una segunda vez para dar la primera impresión).
 
+Tanto si eres un desarrollador de software junior, como senior, GitHub es una de las mejores herramientas que puedes adoptar para mostrar tus habilidades duras/blandas, proyectos ejecutados, investigación personal, e incluso tareas pasadas de la universidad.
+
+Ahora **ya no es suficiente** decir a los reclutadores lo que puedes hacer con Python, Java o JavaScript. En el mundo de la programación actual, los reclutadores quieren que los desarrolladores les muestren lo que han hecho o lo que están haciendo.
+
+Hace muchos años, tener un sitio web con un portafolio era esencial para encontrar trabajo. **Esto ya no es así** y esta es la razón. **Tener una cuenta en GitHub es mucho más importante hoy en día**. Todas las empresas esperan que tengas una cuenta en GitHub y experiencia en el uso de GIT y control de versiones. Estos se han convertido en los estándares para la programación de hoy en día.
+
 ### Sacándole provecho a tu perfil
 
 Asegúrate de que tenga tu estilo personal, pero en general puedes concentrarte en tratar de seguir la siguientes directrices:

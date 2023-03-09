@@ -21,7 +21,7 @@ Volvamos a HTML:  ¿Cómo puede crear un documento con dos columnas? Sabemos que
 
 Necesitamos usar boxes (cajas) para eso. Una caja es un contenedor con un ancho y una altura específica. Las cajas tienden a ser contenedores rígidos que ponen orden en el mundo HTML/CSS. El tag más utilizada para una caja es `<div>`.
 
-Todo el contenido del sitio web debe estar envuelto dentro de una caja (div, header, footer, etc). Las cajas son invisibles por defecto, por lo tanto para hacerlas visibles, debes establecer un color de fondo o un borde. La siguiente imagen muestra cuántas cajas invisibles tiene un sitio web normal:
+Todo el contenido del sitio web debe estar envuelto dentro de una caja (div, header, footer, etc). Las cajas son invisibles por defecto, por lo tanto, para hacerlas visibles, debes establecer un color de fondo o un borde. La siguiente imagen muestra cuántas cajas invisibles tiene un sitio web normal:
 
 <BeforeAfter width="500px"
     before="../../assets/images/40818d0d-60c6-4ef3-a488-834f21ddebf1.png" after="../../assets/images/0c89a48e-d488-4e5c-807a-fd6b9a9179f6.png" />
@@ -61,7 +61,7 @@ Esta importante propiedad está relacionada con el modelo de cajas y define la m
 
 # Ancho y Altura de las Cajas
 
-Todas las cajas tienen dos atributos que definen su tamaño: `width` (ancho) y `height` (altura). En algunos casos se ajustan automáticamente, pero en otros debemos asignarlos manualmente o colocarlos porcentualmente (relativo al contenido padre por ejemplo).
+Todas las cajas tienen dos atributos que definen su tamaño: `width` (ancho) y `height` (altura). En algunos casos se ajustan automáticamente, pero en otros debemos asignarlos manualmente o colocarlos porcentualmente (relativo al contenido padre, por ejemplo).
 
 ## Atributo: Posición
 
@@ -84,7 +84,7 @@ Para que un sitio web se vea como los sitios web de la actualidad, tenemos que r
 
 ## Atributo: Display
 
-Las valores de la propiedad `display` son mucho más avanzados que simplemente mostrar o ocultar elementos.  En realidad, la propiedad `display` modifica la forma en la que se visualiza un documento.
+Las valores de la propiedad `display` son mucho más avanzados que simplemente mostrar u ocultar elementos.  En realidad, la propiedad `display` modifica la forma en la que se visualiza un documento.
 
 Es común encontrar este atributo en los menús de navegación, para los activity feeds de las redes sociales, etc.
 

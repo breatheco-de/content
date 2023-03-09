@@ -108,7 +108,7 @@ else if(age >= 16){
 Otro gran truco para una codificación más rápida es usar ternarios que básicamente nos permiten codificar todo en una sola línea:
 
 ```js
-const flu = (sientoQueMeAtropelloUnTren && !youWereHitByTrain) ? true : false;
+const flu = (sientoQueMeAtropelloUnTren && !meAtropelloUnTren) ? true : false;
 ```
 En este ejemplo, la variable `flu` solo será verdadera si` sientoQueMeAtropelloUnTren == verdadero` y `sientoQueMeAtropelloUnTren == falso` al mismo tiempo. Si esa pregunta no es cierta, entonces `flu` será falso.
 
