@@ -29,7 +29,6 @@ El Pre-Work es probablemente la fase más importante para convertirse en un desa
 ![short attention meme](https://github.com/breatheco-de/content/blob/master/src/assets/images/angry-baby.jpeg?raw=true)
 
 ## Pero y ¿Si crees Que Ya Sabes?
-<hr>
 
 Hay algunos de ustedes que ya tienen alguna experiencia con la programación (principalmente con HTML y CSS), y algunos de ustedes sin ninguna experiencia en lo absoluto.  Esa es la razón principal por la que esta etapa se conoce como **Pre-Work**.  Necesitamos evaluar el nivel de experiencia de cada participante del programa.  El Pre-Work también nos permite conocerte. Conocer sobre tu proceso y curva de aprendizaje, nos ayuda a guiarte hacia la obtención de los mejores resultados posibles.
 
@@ -66,15 +65,14 @@ Sí, sí, sabemos que algunos de ustedes ya tienen sus propias herramientas, per
 <p style="text-align:center">
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/assets/images/59bf0e4e-f5cf-410c-b2bc-fdc7472e7cdc.jpeg?raw=true" width="180">
 </p>
-<p style="text-align:center;">
-    <sub><sup>Shuhari es un concepto de arte marcial japonés, y describe las etapas de aprendizaje para dominarlo, [click aqui para leer más](https://google.co.ve)</sup></sub>
-</p>
+
+<sub><sup>Shuhari es un concepto de arte marcial japonés, y describe las etapas del aprendizaje hasta su maestría, [click aqui para leer más.](https://es.wikipedia.org/wiki/Shuhari)</sup></sub>
+
 
 
 | HERRAMIENTAS OBLIGATORIAS                                 | OTROS MATERIALES DE APOYO  |
 | --------------------------------------------------------  | ------------------------  |
-| [Your Email (desktop/mobile)](#)                          | [StackOverflow](https://stackoverflow.com) |
-| [Github.com](https://github.com)                          | [w3Schools.com](https://w3schools.com) |
-| [Slack.com (desktop & mobile)](4geeksacademy.slack.com)   | [Net Ninja JS Tutorial](https://www.youtube.com/watch?v=qoSksQ4s_hg) |
-| [Gitpod](https://gitpod.io/)                              |   |
+| [Github.com](https://github.com)                          | [StackOverflow](https://stackoverflow.com) |
+| [Slack.com (desktop & mobile)](4geeksacademy.slack.com)   | [w3Schools.com](https://w3schools.com) |
+| [Gitpod](https://gitpod.io/) o [Codespaces](https://github.com/features/codespaces) | [Net Ninja JS Tutorial](https://www.youtube.com/watch?v=qoSksQ4s_hg) |
 

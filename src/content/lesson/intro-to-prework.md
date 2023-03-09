@@ -46,7 +46,7 @@ There are a lot of coding courses out there... some are even free. If you joined
 
 Coding is hard because it can only be learned by large amounts of practice, face-to-face mentoring, and real-life challenges.
 
-So, we here at 4Geeks came up with this online platform. This content we have designed for you will guide you throughout our program. There will be many, many exercises and projects yet this class will focus on enabling you to become a better coder.  
+So, we here at 4Geeks came up with this online platform. This content we have designed for you will guide you throughout our program. There will be many, many exercises and projects to come, and this course will focus on enabling you to become a better coder.  
 
 We will present you with one challenge after another, but a trusty senior developer will always be looking at your process to assist you and help you out.  4Geeks is the place to read, learn and practice code until you permanently affix everything into your brain.
 
@@ -83,7 +83,6 @@ Have you heard of Einstein?  Really smart people are always the ones who ask mor
 </p>
 
 ## Coding Tools
-<hr>
 
 When we started the academy, each student had the freedom to install their own set of coding tools and programs. However, we soon discovered that students waste too much time installing and setting up each program. They invested more time doing that than actually learning to program.
 
@@ -94,16 +93,15 @@ Yeah, yeah, we know some of you already have your own tools, but let’s keep th
 <p style="text-align:center">
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/59bf0e4e-f5cf-410c-b2bc-fdc7472e7cdc.jpeg?raw=true" width="180">
 </p>
-<p style="text-align:center;">
-    <sub><sup>Shuhari is a Japanese martial art concept, and describes the stages of learning to mastery, [click here to read more](https://google.co.ve)</sup></sub>
-</p>
+
+<sup><sub>Shuhari is a Japanese martial art concept, and describes the stages of learning to mastery, [click here to read more.](https://en.wikipedia.org/wiki/Shuhari)</sub></sup>
 
 
 | MANDATORY TOOLS                                           | OTHER LEARNING RESOURCES  |
 | --------------------------------------------------------  | ------------------------  |
-| [Your Email (desktop/mobile)](#)                          | [StackOverflow](https://stackoverflow.com) |
-| [Github.com](https://github.com)                          | [w3Schools.com](https://w3schools.com) |
-| [Slack.com (desktop & mobile)](4geeksacademy.slack.com)   | [Net Ninja JS Tutorial](https://www.youtube.com/watch?v=qoSksQ4s_hg) |
-| [Gitpod](https://gitpod.io/)                              |   |
+| [Github.com](https://github.com)                          | [StackOverflow](https://stackoverflow.com) |
+| [Slack.com (desktop & mobile)](4geeksacademy.slack.com)   | [w3Schools.com](https://w3schools.com) |
+| [Gitpod](https://gitpod.io/) or [Codespaces](https://github.com/features/codespaces) | [Net Ninja JS Tutorial](https://www.youtube.com/watch?v=qoSksQ4s_hg) |
+
 
 
