@@ -34,7 +34,7 @@ We'll be using the following text in our exercises:
 
 We decided to write 2 times the word **examples** because we'll be asking the one at the end of the line. 
 
-## Using EOL RegEx on JavaScript
+## Using EOL RegEx in JavaScript
 
 Javascript is the language of the web, and RegEx is used constantly in form validations and data validation.
 
@@ -75,7 +75,7 @@ console.log(found)
 
 When we use the search() method, we are only asking for the position of the given expression, that's why we receive only the position where the pattern is found. 
 
-### Using EOL RegEx on JavaScript with RegEx Object
+### Using EOL RegEx in JavaScript with RegEx Object
 
 The RegEx Object is built in JavaScript and allows us to make use of its methods to search for patterns returning a boolean value.
 
@@ -88,7 +88,7 @@ console.log("regex", regex.test(text))
 //Output -> true
 ```
 
-## Using End Of Line RegEx on Python
+## Using RegEx for End Of Line in Python
 
 Python comes with the module `re` built-in which stands for RegExp. As a module, we need to import it before being able to access its method using the dot `.` notation.
 
@@ -107,7 +107,7 @@ print(find("examples$", str))
 The output throws the starting and end position of the match, and the match value.
 
 
-## Using EOL RegEx on Java
+## Using EOL RegEx in Java
 
 Java has on the `util` module, a `RegEx` submodule that has a `Matcher` method that will be used to demonstrate how to use EOL on Java. The `Matcher` method works together with a `Pattern` method. 
 
