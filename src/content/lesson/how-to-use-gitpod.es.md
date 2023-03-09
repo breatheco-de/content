@@ -13,7 +13,6 @@ Lo utilizamos para proveer computadoras similares a todos nuestros estudiantes; 
 
 Piensa en Gitpod como una **máquina virtual** que circula en la internet; cuando creas un archivo en Gitpod, no se guarda localmente en tu computadora; quedará guardado en línea, y vas a necesitar de internet para recuperarlo de nuevo al día siguiente.
 
-
 __Computadoras bajo demanda, con VSCode ya instalado__
 
 ## ¿Por qué Gitpod?
@@ -43,14 +42,13 @@ Reconocemos las trabas, pero nuestros estudiantes y la academia adquiere tanto v
 + Finalmente, se abrirá un editor de código (probablemente VSCode, el IDE de codificación más utilizado en el mundo) y un terminal para empezar a codificar como si en principio, tu espacio de trabajo estuviese en tu computador local.
 + Si vuelves a [your workspaces](https://gitpod.io/workspaces), vas a encontar todas las computadoras que has creado y podrás `re-abrirlas`. Los cambios que hiciste a los archivos perdurarán por siempre, no vas a perder ninguna data mientras que hayas re-abierto, en principio, el mismo espacio de trabajo que estabas usando. 
   
-![Como funciona Github](https://storage.googleapis.com/breathecode-asset-images/ff8575efe4b9bddbb3f3addc51e4e9769c53fe871bf2d168caac48df4f8b992c.jpeg?raw=true)
+![Como funciona Github](https://raw.githubusercontent.com/alesanchezr/content/master/src/assets/images/how-gitpod-works.jpeg)
 
 #### ¿Qué es un espacio de trabajo?
 
 Es una computadora; todas las actualizaciones que le hagas a tu código permanecerán en ese mismo espacio de trabajo por siempre. Puedes volver a tu lista de espacios de trabajo en cualquier momento y eliminar, renombrar o fijar cada uno de ellos.
 
 > Cuando abres un repositorio de Github en Gitpod, vas a estar "rentando" una computadora con acceso a uno de los editores de código más populares en el mundo: VSCode.
-
 
 ### Corriendo un proyecto en Gitpod
 
@@ -67,7 +65,7 @@ Una vez que finalices por el día, puedes abandonar tu computadora. Sin embargo,
 
 Como programador, necesitarás usar el terminal de la computadora algunas veces; siempre puedes encontrar o abrir el terminal, dándole clic al menú tipo hamburguesa en la parte superior izquierda y seleccionando la opción "terminal" => "new terminal" 
 
-![Botón de Gitpod](https://storage.googleapis.com/breathecode-asset-images/62a6f61382443c1863a7e20a4b550e2d62216781cff482e3685dfd87f14252a1.png?raw=true)
+![Botón de Gitpod](https://github.com/Lorenagubaira/content/blob/master/src/assets/images/terminal.png)
 
 ### ¿Qué es un terminal o línea de comando? 
 
