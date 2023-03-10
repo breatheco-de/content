@@ -174,7 +174,7 @@ These will help you save time and make fewer mistakes when typing:
 
 ## Editing Files in the Terminal:
 
-This is one of the things that you cannot avoid doing in the terminal.  As a developer, you will have to edit files in the terminal more often than you think. That’s why you’d better be prepared to use either the [VI Application or the Nano Application.](https://askubuntu.com/questions/726669/difference-between-nano-and-vim)  We will talk about Nano and its commands (yes, here the text editor opens inside the command line and runs using commands).
+This is one of the things that you cannot avoid doing in the terminal.  As a developer, you will have to edit files in the terminal more often than you think. That’s why you’d better be prepared to use either the [VIM Application or the Nano Application.](https://askubuntu.com/questions/726669/difference-between-nano-and-vim)  We will talk about Nano and its commands (yes, here the text editor opens inside the command line and runs using commands).
 
 ### The nano command
 
