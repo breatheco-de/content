@@ -13,7 +13,7 @@ status: "published"
 
 CSS Layouts and the positioning of elements are probably one of the most challenging concepts in CSS; both were meant for older, less advanced and less rich websites.
 
-![css layout](../../assets/images/dccad91a-93b3-49c9-a437-6612087b9ee4.png)   
+![css layout](https://github.com/breatheco-de/content/raw/master/src/assets/images/dccad91a-93b3-49c9-a437-6612087b9ee4.png)   
 
 #### Layout
 
@@ -23,7 +23,7 @@ We need to use boxes for it. A box is a container with a specific width and heig
 
 All website content should be wrapped within boxes (div, header, footer, etc.). Boxes are invisible by default, so in order to make them visible, you have to either set a background color or a border.  The following image shows how many invisible boxes a normal website has:
 
-<BeforeAfter width="500px" before="../../assets/images/40818d0d-60c6-4ef3-a488-834f21ddebf1.png" after="../../assets/images/0c89a48e-d488-4e5c-807a-fd6b9a9179f6.png" />
+<BeforeAfter width="500px" before="https://github.com/breatheco-de/content/raw/master/src/assets/images/40818d0d-60c6-4ef3-a488-834f21ddebf1.png" after="https://github.com/breatheco-de/content/raw/master/src/assets/images/0c89a48e-d488-4e5c-807a-fd6b9a9179f6.png" />
 
 #### Box Attributes
 
@@ -39,7 +39,7 @@ All box containers can have the following attributes:
 |Margin   |Optional space that can be added between this particular box and other elements around.   |
 
 
-![css layout](../../assets/images/153d2a7c-b648-4d75-920b-940102f18eaa.gif) 
+![css layout](https://github.com/breatheco-de/content/raw/master/src/assets/images/153d2a7c-b648-4d75-920b-940102f18eaa.gif) 
 
 In the following example, we divided the website content into 2 different areas. The left side will be the **The menu** and the right side will have **The content** of the website. We put a red color to the **#div1** of the menu, and a blue color to the **#div2** of the content so that the example is easier to understand.
 
@@ -125,7 +125,7 @@ It’s yoga time, let’s stop the coding and think about mankind for a minute. 
 
 This course is not just about user interface (UI) and experience (UX). Web developers tend to underestimate this matter. It is important to take enough time to design the website navigation flow, the menu position, UI elements, etc.  Here you have some layout examples:
 
-![css layout](../../assets/images/ce06fb9d-bc8c-4191-ae12-a2ec4ac6fa1f.png)
+![css layout](https://github.com/breatheco-de/content/raw/master/src/assets/images/ce06fb9d-bc8c-4191-ae12-a2ec4ac6fa1f.png)
 
 Some websites have great content, but, unfortunately, they also have poor layouts that limit their potential for success. These are the main criteria to consider when choosing your layout:
 
@@ -144,7 +144,7 @@ Facebook is like this: a centered content website has a max-width for the conten
 
 Here is the exact code needed for website content to always be aligned at the center of the screen:
 
-![css layout](../../assets/images/ca5d4285-c151-4b30-a4a2-c6b35510188b.png)
+![css layout](https://github.com/breatheco-de/content/raw/master/src/assets/images/ca5d4285-c151-4b30-a4a2-c6b35510188b.png)
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -205,7 +205,7 @@ You will have to be learning "on the go" because there is an infinite amount of 
 
 There is a lesson called `Bootstrap` that was made to facilitate the design. You'll learn this in the next lesson.
 
-![css layout](../../assets/images/91aa197c-b2cb-4717-b41f-0f7b579aab25.gif)
+![css layout](https://github.com/breatheco-de/content/raw/master/src/assets/images/91aa197c-b2cb-4717-b41f-0f7b579aab25.gif)
 
 
   
