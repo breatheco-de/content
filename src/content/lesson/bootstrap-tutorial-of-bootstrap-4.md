@@ -58,7 +58,7 @@ It’s very easy to decide how your website will render in different screen size
 
 |**Col**   |**md**   |**x**
 |:---------|:--------|:----|
-|Means that this element should behave like a Bootstrap column.   |Means that it is specified for only for the devices with a "medium" sized screen.   |Specifies how many slots I want this column to take (remember you can take a max of 12 slots per row).   |
+|Means that this element should behave like a Bootstrap column.   |Means that it is specified only for the devices with a "medium" sized screen.   |Specifies how many slots I want this column to take (remember you can take a max of 12 slots per row).   |
 
 Bootstrap device sizes:   
 
