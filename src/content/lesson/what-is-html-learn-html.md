@@ -130,11 +130,11 @@ In the case of HTML, the `<head>` can contain the following tags (among other le
 
 |**Name**   |**Tag**   |**Description**   |
 |:----------|:---------|:-----------------|
-|Title   |`<title>`   |The title appears in the browser’s window, and it’s also used when you share the page through social media: Twitter, Instagram, Facebook, etc.  All these networks use the title of the page as the excerpt when a user copies the URL of your page to share on their wall.   |
+|Title   |`<title>`   |The title appears in the browser’s window, and it’s also used when you share the page through social media: Twitter, Instagram, Facebook, etc.  All these networks use the title of the page as a summary when a user copies the URL of your page to share on their wall.   |
 |Meta   |`<meta>`   |Meta tags describe documents.  They are used to specify things like: the author, title, date, keywords, descriptions, etc.   Search engines love these tags because they allow an easier comprehension of the content before it is read.   |
 |Link   |`<link>`   |Used for linking the page with the CSS style sheets.  In the CSS chapter you will learn how to create style sheets and you will be able to import them using the Link tag.   |
 |Style   |`<style>`   |If we can’t or don’t want to import a CSS style sheet, we may also define styles directly on the HTML document inside the Style tag.  This is a practice we rarely recommend and should only be used when you don’t have any other choice.   |
-|Script   |`<script>`   |Used to add JavaScript code to the page.  All JavaScript code must be contained in these tags. They can also be used in the BODY, if desired.  The difference is that any JavaScript code that we place in a style tag in the BODY won’t be available when the page begins to run (that’s exactly why the HEAD is so useful).   |
+|Script   |`<script>`   |Used to add JavaScript code to the page.  All JavaScript code must be contained in these tags. They can also be used in the BODY, if desired.  The difference is that any JavaScript code that we place in a script tag in the BODY won’t be available when the page begins to run (that’s exactly why the HEAD is so useful).   |
 
 ### The \<body\> is Similar to any MS Word Document
 
@@ -150,15 +150,15 @@ The most frequent tags used inside the `<body>` of an HTML document are:
 
 |**Name**   |**Tags**   |**Description**   |
 |:----------|:----------|:-----------------|
-| Heading       |H1, H2, H3, etc.   |They define the headings and subheadings of the page (the heading is not the same as the title; the title is used by the browser and it’s defined with the title tag).<br>`<h1>This is a heading</h1>`   |
-|Paragraph   |P   |This tag separates the text content with an upper and lower margin.  It helps simulate the behavior of a Word document.`<p>example of a paragraph</p>`   |
-|List   |UL, OL   |Lists are of huge importance in a document and they are widely used.  With HTML we have two main tags to list content items:<br><br> <li>OL (ordered list): List with numbers (numbers at the beginning of the item)</li><br><li>UL (unordered list): List without numbers (bullets before items).<br><br>`<ol>`<br>`<li>Element 1</li>`<br>`<li>Element 2</li>`<br>`</ol>`   |
-|Image  |img   |It allows us to add images to the document (they could be in PNG, JPEG, GIF and SVG formats, basically) .<br>`<img src="url of the image"/>`
-|Link (Anchor)   |a   |Sometimes we want to connect one or more pages with another one, or send the user to a new page, or even send the user to another section within the same page (just as with the Menu of this course).  That’s what the anchor tag is made for.<br>`<a href="url to resend">this is a heading</a>`   |
-|Bold   |strong o b   |To highlight content using bold text.<br>`<strong>this is a heading</strong>`   |
-|Italics   |i   |To have the text in italics.<br>`<i>this is a heading</i>`   |
+| Heading       |h1, h2, ..., h6.   |They define the headings and subheadings of the page (the heading is not the same as the title; the title is used by the browser and it’s defined with the title tag).<br>`<h1>This is a heading</h1>`   |
+|Paragraph   |p   |This tag separates the text content with an upper and lower margin.  In this way it helps simulate the behavior of a Word paragraph.`<p>example of a paragraph</p>`   |
+|List   |ul, ol   |Lists are of huge importance in a document and they are widely used.  With HTML we have two main tags to list content items:<br><br> <li>OL (ordered list): List with numbers (numbers at the beginning of the item)</li><br><li>UL (unordered list): List without numbers (bullets before items).<br><br>`<ol>`<br>`<li>Element 1</li>`<br>`<li>Element 2</li>`<br>`</ol>`   |
+|Image  |img   |It allows us to add images to the document (they could be PNG, JPEG, GIF and SVG formats, basically) .<br>`<img src="url of the image"/>`
+|Link (Anchor)   |a   |Sometimes we want to connect one or more pages with another one, or send the user to a new page, or even send the user to another section within the same page (just like the Menu of this course).  That’s what the anchor tag is made for.<br>`<a href="url to resend">text to be clicked</a>`   |
+|Bold   |strong or b   |To highlight content using bold text.<br>`<strong>this text is bold</strong>`   |
+|Italics   |i   |To have the text in italics.<br>`<i>this text is in italics</i>`   |
 |Line jump   |br   |To jump or skip the text to the next line (similar to a `shift+enter` in MS Word.)<br>`<br>`   |
-|Tables   |table   |Tables were designed to present data in a more read-friendly and neatly way.  It has headers (th), rows (tr) and columns (td).<br><br>`<table>`<br>`<tr><th>Column 1</th><th>Column 2</th></tr>`<br>`<tr><td>Data 1</td><td>Data A</td></tr>`<br>`<tr><td>Data 2</td><td>Data B</td></tr>`<br>`<tr><td>Data 3</td><td>Data C</td></tr>`<br>`</table>`   |
+|Tables   |table   |Tables were designed to present data in a more read-friendly and neatly way.  It has headers (th), rows (tr) and cells (td).<br><br>`<table>`<br>`<tr><th>Column 1</th><th>Column 2</th></tr>`<br>`<tr><td>Data 1</td><td>Data A</td></tr>`<br>`<tr><td>Data 2</td><td>Data B</td></tr>`<br>`<tr><td>Data 3</td><td>Data C</td></tr>`<br>`</table>`   |
 
 > :link: [Click here](https://www.w3schools.com/tags/ref_byfunc.asp), for more HTML tags
 
@@ -178,7 +178,7 @@ Each tag has its own properties (you do not have to memorize them, you will alwa
 
 That’s why we have created a series of exercises that will better explain each of the important properties of the most used HTML elements.
 
-## Clap, Clap, Clap.  You are one step closer to learning HTML!
+## 👏👏👏 You are one step closer to learning HTML!
 
 We are so PROUD! 🙂
 
