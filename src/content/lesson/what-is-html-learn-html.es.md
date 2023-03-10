@@ -155,7 +155,7 @@ Los tags más utilizados dentro del `<body>` de un documento HTML son los siguie
 |Negrita   |`<strong>` o `<b>`   |Para resaltar un texto en negritas.<br>`<strong>texto en negritas</strong>`   |
 |Cursiva   |`<i>`   |Para colocar un texto en formato cursiva. <br>`<i>texto en cursiva</i>`   |
 |Salto de Línea  |`<br>`   | 	Para saltar el texto o contenido a la línea siguiente (similar al `shift+enter` en MS Word.)<br>`<br>`   |
-|Tablas   |`<table>`   |Las tablas fueron diseñadas para presentar datos de una forma legible y coherente. Tienen tags de headers (th), filas (tr) y celdas (td).<br><br>`<table>`<br>`<tr><th>Columna 1</th><th>Columna 2</th></tr>`<br>`<tr><td>Datos 1</td><td>Data A</td></tr>`<br>`<tr><td>Datos 2</td><td>Datos B</td></tr>`<br>`<tr><td>Datos 3</td><td>Datos C</td></tr>`<br>`</table>`   |
+|Tablas   |`<table>`   |Las tablas fueron diseñadas para presentar datos de una forma legible y coherente. Tienen tags de headers (th), filas (tr) y celdas (td).<br><br>`<table>`<br>`<tr><th>Columna 1</th><th>Columna 2</th></tr>`<br>`<tr><td>Datos 1</td><td>Datos A</td></tr>`<br>`<tr><td>Datos 2</td><td>Datos B</td></tr>`<br>`<tr><td>Datos 3</td><td>Datos C</td></tr>`<br>`</table>`   |
 
 > :link: [Haz clic aquí](https://www.w3schools.com/tags/ref_byfunc.asp), para más tags HTML.
 
