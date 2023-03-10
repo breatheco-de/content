@@ -101,7 +101,7 @@ You can take this as far as you want; the following targets the "grandchildren" 
 ```css
 a[href='http://4geeksacademy.com/'] {color: blue;}
 ```
-If we want to change the font color of the "Design Shack" link, we could use :pseudo selectors.  However, doing so would assume that the list stays in that order, and, browser support isn’t the best.Instead, what we can do is use an attribute selector to target the specific `href` that we’re interested in.
+If we want to change the font color of the "Design Shack" link, we could use :pseudo selectors.  However, doing so would assume that the list stays in that order, and, browser support isn’t the best. Instead, what we can do is use an attribute selector to target the specific `href` that we’re interested in.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
