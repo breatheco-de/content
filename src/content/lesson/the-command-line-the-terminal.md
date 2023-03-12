@@ -88,7 +88,7 @@ cd /path/to/directory
 Move a file to another folder or directory.  Just like dragging a file located on a PC desktop to a folder stored within the "Documents" folder.
 
 ```bash
-mv /path/to/file.txt /math/to/destination/file.txt
+mv /path/to/file.txt /path/to/destination/file.txt
 ```
 
 ### The rm command
