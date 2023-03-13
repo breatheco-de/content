@@ -33,7 +33,7 @@ else:
 
 ```
   
-![Condicionales](../../assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png)
+![Condicionales](https://github.com/breatheco-de/content/blob/master/src/assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png?raw=true)
 
 > :link: El uso de `switch` no esta disponible en python
 
@@ -61,7 +61,7 @@ if edad == 25:
 
 El ejemplo anterior era una condición simple, pero en la vida real elegir qué ponerse implica una combinación de varias condiciones para tomar la decisión final, por ejemplo: Veamos este algoritmo que te dice si tienes gripe.
 
-![Hit by car or have a flu](../../assets/images/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800.jpeg)
+![Hit by car or have a flu](https://github.com/breatheco-de/content/blob/master/src/assets/images/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800.jpeg?raw=true)
 
 Si desea representar este algoritmo en Python, se verá así:
 
@@ -176,7 +176,7 @@ Hay que saber qué preguntas hacer. El ejemplo anterior era una condición simpl
 
 Veamos este algoritmo que le dice a una computadora cómo decidir qué ponerse durante el día de San Valentín:
 
-![Qué hacer en San Valentín](../../assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg)
+![Qué hacer en San Valentín](https://github.com/breatheco-de/content/blob/master/src/assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg?raw=true)
 
 ```python
 if voy_a_salir:
