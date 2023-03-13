@@ -24,13 +24,13 @@ En lugar de mirar un video o leer un artículo, LearnPack presentará pequeños 
 
 La mayoría de los tutoriales de LearnPack vienen con un botón etiquetado: "Nuevo ejercicio" o "Continuar ejercicio"
 
-![Learnpack Alert on 4geeks.com](../../assets/images/learnpack-alert.e.png)
+![Learnpack Alert on 4geeks.com](https://github.com/breatheco-de/content/blob/master/src/assets/images/learnpack-alert.e.png?raw=true)
 
 Luego de darle clic en "Nuevo ejercicio" una nueva computadora de Gitpod se abrirá, y LearnPack va a empezar a correr inmediatamente.  
 
 Todos los tutoriales de LearnPack  vienen en pasos; vas a encontrar las instrucciones del lado derecho y un botón para continuar al siguiente paso " `next ->`"
 
-![Learnpack explanation](../../assets/images/learnpack-explanation.e.png)
+![Learnpack explanation](https://github.com/breatheco-de/content/blob/master/src/assets/images/learnpack-explanation.e.png)
 
 ## Reiniciando LearnPack
 
