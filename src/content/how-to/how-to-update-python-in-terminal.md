@@ -7,7 +7,7 @@ status: "published"
 
 ---
 
-In order to update python verion on the terminal, you can use these commands depending on your operating system:
+In order to update python version on the terminal, you can use these commands depending on your operating system:
 
 ```bash
 #Linux
