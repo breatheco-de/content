@@ -82,7 +82,7 @@ At the end you will have a huge "to-do list," with the stories moving from "To-d
 
 ### When is a Story really "Done"?
 
-If stories  are short and sweet – how are we suppose to know all the different acceptance criteria?  On the back of each story we will have to enter some "acceptance criteria" that we can check at the end when the developer thinks the feature is done.
+If stories  are short and sweet – how are we supposed to know all the different acceptance criteria?  On the back of each story we will have to enter some "acceptance criteria" that we can check at the end when the developer thinks the feature is done.
 
 To write great acceptance criteria, we need to think not only about the usual expected behavior in the application, but also about any cases where the app should fail (for example: When you specify a wrong password, when your credit card is rejected, etc.).
 
