@@ -1,14 +1,14 @@
 ---
 title: "What does double equal sign mean in Python?"
-subtitle: "One of the logic operator in Python is the double equal sign. This operator is used to check if one value is equal to another given value and it'll check value and type of the data"
+subtitle: "One of the logic operator in Python is the double equal sign. This operator is used to check if one value is equal to another, sensitive to the value type."
 tags: ["python"]
 date: "2020-10-19T16:36:30+00:00"
-authors: [javierseiglie]
+authors: ["javierseiglie"]
 status: "draft"
 
 ---
 
-The double equal sign are used to compare two values. In logical operators, it will return `True` if both values are equal, otherwise it will return `False`
+In Python the double equal sign is used to compare two values. You can use it to check if two values are equal, as you can see in the following example:
 
 ```python
 x = 5
@@ -22,95 +22,86 @@ print(x==z)
 #output -> true
 ```
 
-## The equal `=` sign in Python:
+## The double equal sign in Python (`==`)
 
-The equal sign `=` in Python, as many other programming languages is used to **assign** a value to a variable and the most important important word is **assign**.
+To compare if two values are equal, you can use the **Double equal sign**, here is a quick example of how it works:
+```python
+x = 5
+y = '5'
+z = 5
+
+print(x==y) 
+#output -> False
+
+print(x==z) 
+#output -> True
+```
+
+In the example we have three different variables which values seems to be the same, but one of them `y` has a different type (It's a string) so we can say it's different. When comparing if `x` is equal to `y` it returns `False` because even though the value is the same, but the data type isn't. Then when comparing if `x` is equal to `z`, it returns `True` as both have the same value and data type.
+
+## The equal sign in Python (`=`)
+
+The equal sign `=` in Python (Only one equal sign), as in many other programming languages is used to **assign** a value, most commonly used to assign a value to a variable.
 
 ```python 
 # creating a variable and assigning a value with the = symbol
-x = "Geek!"
-print(x) #Output-> Geek!
+x = "4Geeks!"
+print(x) #Output-> 4Geeks!
 ```
 
-## The double equal `==` operator 
+In the previous example, the equal sign `=` is being used to assign `"4Geeks!"` to the variable `x`. Then when printing the value of `x` we are confirming that we assigned it correctly.
 
-Although, when we use in human language "equals to" we are referring to comparison and the answer is always **yes or no** (this shirt color is equal to this short color). Now, since we used already the `=` to **assign** a value, we still need to compare (with logical thinking) if some data stored in a variable is equal to other data and thats where the `==` comes in our rescue.
+## Use Cases
 
-```python
-x = 5
-y= '5'
-z = 5
+### Using the double equal sign on conditions:
 
-print(x==y) 
-#output -> false
+The double equal sign operator can be used in conditions to check if two values are equal, here is an example:
 
-print(x==z) 
-#output -> true
+```
+name = input("What is your name?")
+
+if name == "Rigoberto":
+     print("Hello Rigoberto welcome to your office at 4Geeks!")
+else:
+		 print("Only Rigoberto has access to this office.")
 ```
 
-If you look closely, you´ll see that despite `x` and `y` having the same value, it stills return `false`... Why is that? The double equal logic operator checks for the value and the type of the data compared one another. In our previous example we used a number (`Int` in this case, but could be a `float` to name just one) and compare it with a `String`. Since the type of data is not the same, Python will return as `false` and only return `true` when both, the **value** and the **type** are the same as when compared `x` with `z`.
+In the previous example, we are asking the user for its name and if it is equal to Rigoberto, we allow them to access the office with a good welcoming message.
 
-Keep in mind, the **double equal** sign in Python, as in many other programming languages is for comparing 2 elemens and the only possible return is **true** or **false** (boolean). 
+### Using the double equal sign on for loops:
+
+Double equal sign (`==`) can be used in for loops to check for a specific value in a list. On this example we will loop through a list of names and if the name we're looking for is found, we will print it.
 
 ```python
-x= 1
-y= '1'
-z= 1
-#returns false
-print(x==y) #output -> false 
-print(x=='1') #output -> false
-print(x=='p') #output -> false
-print(x=='1') #output -> false
-#returns true
-print(x==z) #output -> true
-print(x==1) #output -> true
+names = ["James", "Willy", "Jane", "Barbara", "Pete", "Julia"]
+favorite_name = "Jane"
+
+for x in range(len(arr)):
+    if arr[x] == favorite_name:
+        print(arr[x] + " at position " + str(x))
+        #Output-> Jane at position 2
 ```
 
-## Implementation
+### Using the double equal sign on while loops:
 
-### Using the == operator on loops
-
-Let's say that we have a list of names and we want to find if **one** name is present.
+This time we'll be checking if we have something to eat (fruits, vegetables, etc...) in the fridge using a while loop!
 
 ```python
-# We will loop through the list with a `for loop` to find if Jane is on the provided list
-# The function will receive 2 elements, the list (array) and the name to find on the list
-# If the name is on the list, we will return the name and it's position on the list 
-
-names= ["James", "Willy", "Jane", "Barbara", "Pete", "Julia"]
-
-def findName(arr, nameToSearch):
-    for x in range(len(arr)):
-        if arr[x] == nameToSearch:
-            return (str(arr[x]) + " at position " + str(x))
-
-print(findName(names, "Jane"))
-#Output-> Jane at position 2
-```
-
-Another example, now we'll be using a **while loop**. This time we'll be checking if we have something to eat (fruits, vegetables, etc...) in the fridge!
-
-```python
-# We will create a function to search in our fridge
-# We will recive **one** eatable item (fruit, vegetable, etc) and search for it
-
-fridge = ['apple', 'banana', 'cherry', 'date']
+fridge_items = ['apple', 'banana', 'cherry', 'date']
 food = 'banana'
-
 found = False
+position = 0
 
-while found == False:
-    for item in fridge:
-        if item == food:
-            found = True
-            print(f"We have {food} in the fridge. Enjoy!")
-            break
-    if not found:
-        print(f"We are out of {food}, go and buy some or try something else")
-        break
-
+while position < len(fridge_items):
+     if fridge_items[position] == food:
+         found = True
+         print("We have " + food + " in the fridge. Enjoy!")
+         break
+		 position++
 ```
 
-#### [**Related: Why 4Geeks Academy teaches Python as a Backend Language**](https://4geeksacademy.com/us/python-bootcamp/why-we-teach-python-4geeks)
+On this example we have a list of fridge_items and a food we are looking for in the list. If the food is found, then we print a message and break the while loop.
+
+#### [**Related: Why 4Geeks Academy teaches Python as a Back End Language**](https://4geeksacademy.com/us/python-bootcamp/why-we-teach-python-4geeks)
 
 Visit [4Geeks](https://4geeks.com/) to learn about Python and solutions to your possible errors. Hope you enjoy the reading and keep on the Geek side!
