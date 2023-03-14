@@ -8,7 +8,7 @@ status: "draft"
 
 ---
 
-The most straight forward way to square a number in Python would be to use the built-in **pow** (power) method. It will receive two parameters, the number to square and the ammount of times to power that number.  
+The most straight forward way to square a number in Python would be to use the built-in **pow** (power) method. It will receive two parameters, the number to square and the amount of times to power that number.  
 
 ```python
 square = pow(6, 2)
