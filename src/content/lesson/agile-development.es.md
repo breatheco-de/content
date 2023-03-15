@@ -49,7 +49,7 @@ Borra de tu mente el flujo de trabajo de desarrollo de cualquier sitio web que h
 ## Nuestro flujo de trabajo desarrollado profesionalmente
 
 
-![agile development](https://storage.googleapis.com/breathecode-asset-images/52403a0c564fb58c8fc2ccf226950a3359d1f3e01153e1ed7c51b7337af7178f.png?raw=true)
+![agile development](https://storage.googleapis.com/breathecode-asset-images/52403a0c564fb58c8fc2ccf226950a3359d1f3e01153e1ed7c51b7337af7178f.png)
 
 |1. Comenzaremos a hacer las especificaciones.     |2. Construimos nuestra aplicación web      |3. Finalmente construimos la base de datos y la API.  |
 |:------------------|:--------------|:-----------------|
