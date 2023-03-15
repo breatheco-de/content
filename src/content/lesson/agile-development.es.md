@@ -2,7 +2,7 @@
 slug: "Desarrollo-agil"
 title: "Introducción al desarrollo profesional y ágil."
 subtitle: "Todo lo que aprendiste se debe unir. ¡Hagamos nuestra primera aplicación profesional completa usando el método de desarrollo ágil!"
-cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
+cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg?raw=true"
 textColor: "white"
 date: "2020-10-19T16:36:30+00:00"
 tags: ["desarrollo agil"]
@@ -21,7 +21,7 @@ Los programadores junior entienden los trucos básicos de programar (for, while,
 
 En lugar de desarrollar una gran aplicación, desarrollarás y entregarás una serie de pequeñas aplicaciones que al final se convertirán en una gran aplicación.  Eso es lo que se llama desarrollo ágil.
 
-![agile development](../../assets/images/7f627fe6-aa37-4450-bbff-dc4ea0ce8309.jpeg)
+![agile development](https://storage.googleapis.com/breathecode-asset-images/21303b761de82935e371474a87d17b3f2ebff44ca7fbc1df7c3184e88a8f7033.jpeg)
 
 Cada incremento se llama "sprint" y tiene los siguientes pasos:
 
@@ -49,7 +49,7 @@ Borra de tu mente el flujo de trabajo de desarrollo de cualquier sitio web que h
 ## Nuestro flujo de trabajo desarrollado profesionalmente
 
 
-![agile development](../../assets/images/2b3ed62a-070f-4e7f-9572-34628ffb40d9.png)
+![agile development](https://storage.googleapis.com/breathecode-asset-images/52403a0c564fb58c8fc2ccf226950a3359d1f3e01153e1ed7c51b7337af7178f.png?raw=true)
 
 |1. Comenzaremos a hacer las especificaciones.     |2. Construimos nuestra aplicación web      |3. Finalmente construimos la base de datos y la API.  |
 |:------------------|:--------------|:-----------------|
