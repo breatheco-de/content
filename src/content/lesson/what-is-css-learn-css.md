@@ -17,7 +17,7 @@ We are sure that after diving deep into HTML, everything looks kind of ugly, fix
 
 But… The Internet is more beautiful than that. When the internet became popular, it stopped being only a privilege for scientists and the army, and evolved to become **Part of our world!!**
 
-Ironically, the same scientists at CERN who created HTML had to think about how to improve it. They were given the task to make it more beautiful. It was at this time that [Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie) proposed the first version of CHSS in 1994, which was later adapted to become CSS1.
+Ironically, the same scientists at CERN who created HTML had to think about how to improve it. They were given the task to make it more beautiful. It was at this time that [Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie) proposed the first version of CSS in 1994, which was later adapted to become CSS1.
 
 ## So, What is CSS and why does it matter??
 
@@ -44,7 +44,7 @@ Let’s review those 2 tags in more detail:
 |Link       |link          |The purpose is to link the page with CSS stylesheets.  To use it, you must specify three attributes within the tag: `rel="stylesheet" type="text/css"` and finally `href="with document route css"`<br>like so: `<link rel="stylesheet" type="text/css" href="theme.css">`   |
 |Style   |style   |If we do not want or can’t import a CSS style sheet, we have the alternative to define styles in the HEAD of the HTML document.  We simply define the style tag and proceed to write the styles we want for the tags.<br>`<style>`<br>`h1 { color:red; }`<br>`p { color:blue; }`<br>`</style>` |
 
-> :point_up: Just like it happens with HTML docs (ending with .html) CSS docs (style sheets) end with extension `.css`.
+> :point_up: Just like it happens with HTML docs (ending with `.html`) CSS docs (style sheets) end with extension `.css`
 
 ## CSS Syntax
 
@@ -87,10 +87,10 @@ body {
 }
 ```
 
-You could also change the color of a single anchor `<a>`. To do that, you must define a `class` or an `id` attribute of the HTML tag defining that particular link `<a class="anchor1">`. Classes are preferred for use with CSS over IDs due to the fact that the former are reusable and the latter are more often used in conjunction with JavaScript. Once a tag has a class, then you can go to your style sheet and define the `color` rule as follows:
+You could also change the color of a single anchor `<a>`. To do that, you must define a `class` or an `id` attribute of the HTML tag defining that particular link `<a class="anchor1">`. Classes are preferred for use with CSS over IDs due to the fact that the former are reusable and the latter are more often used in conjunction with JavaScript. Once the tag has a class, then you can go to your style sheet and define the `color` rule as follows:
 
 ```css
-.anchor1{
+.anchor1 {
    color: red;
 }
 ```

@@ -131,7 +131,7 @@ En el caso de HTML, `<head>` puede contener los siguientes tags (entre otros men
 |Meta       |`<meta>`   |Los meta tags describen al documento. Se utilizan para especificar cosas como: autor, título, fecha, palabras clave, descripción, etc. Los buscadores aman los meta tags porque les permite entender mejor el contenido antes de leerlo.   |
 |Link       |`<link>`   |Tiene como finalidad enlazar a la página con hojas de estilos CSS. Cuando veamos el capítulo de CSS, aprenderemos a crear hojas de estilos y podremos importarlas utilizando este tag.   |
 |Style      |`<style>`   |Si no queremos o no podemos importar una hoja de estilo CSS, también tenemos la posibilidad de definir estilos en el propio documento HTML dentro de este tag. Es una práctica que no recomendamos en casi ningún escenario, solo deberías usarla cuando te veas obligado.   |
-|Script     |`<script>`   |Se utiliza para agregar código JavaScript a la página. Todo el código JavaScript debe estar siempre contenido dentro de estos tags que también se puede utilizar en el BODY si así lo deseamos. La diferencia es que cualquier código JavaScript que coloquemos en un tag de style (estilo) ubicada en el body, no estará disponible al momento de iniciar la ejecución de la página (justo en eso es que nos ayuda el HEAD).   |
+|Script     |`<script>`   |Se utiliza para agregar código JavaScript a la página. Todo el código JavaScript debe estar siempre contenido dentro de estos tags que también se puede utilizar en el BODY si así lo deseamos. La diferencia es que cualquier código JavaScript que coloquemos en un tag de `<script>` ubicado en el body, no estará disponible al momento de iniciar la ejecución de la página (justo en eso es que nos ayuda el HEAD).   |
 
 ### El \<body\> es similar a cualquier documento de MS Word
 
@@ -147,15 +147,15 @@ Los tags más utilizados dentro del `<body>` de un documento HTML son los siguie
 
 |**Nombre**   |**Tags**   |**Descripción**   |
 |:----------|:----------|:-----------------|
-| Heading       |H1, H2, H3, etc.   |Define los headings y subheadings de la página (los headings no son lo mismo que el título; el título es utilizado por el navegador y se define en el tag title).<br> `<h1>Este es un heading</h1>`   |
-|Párrafo   |P   |Este tag separa el texto que contiene con un margen superior e inferior. De esta manera simula exactamente el comportamiento de un párrafo en un documento Word.`<p>ejemplo de un párrafo</p>`   |
-|Lista   |UL, OL   |Las listas son fundamentales en un documento, en el caso de HTML tenemos dos tags que podemos usar para listar contenido:<br><br> <li>OL: Que nos da una lista numerada (pone numeritos delante).</li><br><li>UL: Que nos da una lista sin números (pone puntos por delante).<br><br>`<ol>`<br>`<li>Elemento 1</li>`<br>`<li>Elemento 2</li>`<br>`</ol>`   |
-|Imagen  |img   |Nos permite agregar imágenes al documento, pueden ser imágenes PNG, JPEG, GIF y SVG principalmente.<br>`<img src="url of the image"/>`
-|Link (Anchor)   |a   |A veces queremos conectar una o más páginas entre ellas, enviar al usuario a otra página para continuar con el flujo o incluso poder enviarlo a otra sección del mismo documento (tal como ocurre en el menú de este curso). Para eso está el tag “Anchor”.<br>`<a href="url to resend">this is a heading</a>`   |
-|Negrita   |strong o b   |Para resaltar un texto en negritas.<br>`<strong>este es un heading</strong>`   |
-|Cursiva   |i   |Para colocar un texto en formato cursiva. <br>`<i>este es un heading</i>`   |
-|Salto de Línea  |br   | 	Para saltar el texto o contenido a la línea siguiente (similar al `shift+enter` en MS Word.)<br>`<br></br>`   |
-|Tablas   |table   |Las tablas fueron diseñadas para presentar datos de una forma legible y coherente. Tienen tags de headers (th), filas (tr) y columnas (td).<br><br>`<table>`<br>`<tr><th>Columna 1</th><th>Columna 2</th></tr>`<br>`<tr><td>Datos 1</td><td>Data A</td></tr>`<br>`<tr><td>Datos 2</td><td>Datos B</td></tr>`<br>`<tr><td>Datos 3</td><td>Datos C</td></tr>`<br>`</table>`   |
+| Heading       |`<h1>`, `<h2>`, ..., `<h6>`   |Define los headings y subheadings de la página (los headings no son lo mismo que el título; el título es utilizado por el navegador y se define en el tag title).<br> `<h1>Este es un heading</h1>`   |
+|Párrafo   |`<p>`   |Este tag separa el texto que contiene con un margen superior e inferior. De esta manera simula exactamente el comportamiento de un párrafo en un documento Word.`<p>ejemplo de un párrafo</p>`   |
+|Lista   |`<ul>`, `<ol>`   |Las listas son fundamentales en un documento, en el caso de HTML tenemos dos tags que podemos usar para listar contenido:<br><br> <li>OL: Nos da una lista numerada (pone numeros delante).</li><br><li>UL: Nos da una lista sin números (pone puntos por delante).<br><br>`<ol>`<br>`<li>Elemento 1</li>`<br>`<li>Elemento 2</li>`<br>`</ol>`   |
+|Imagen  |`<img>`   |Nos permite agregar imágenes al documento, pueden ser imágenes PNG, JPEG, GIF y SVG principalmente.<br>`<img src="url de la imagen"/>`
+|Link (Anchor)   |`<a>`   |A veces queremos conectar una o más páginas entre ellas, enviar al usuario a otra página o incluso poder enviarlo a otra sección del mismo documento (tal como ocurre con el menú de este curso). Para eso está el tag “Anchor”.<br>`<a href="url de la pagina web">texto a clickear</a>`   |
+|Negrita   |`<strong>` o `<b>`   |Para resaltar un texto en negritas.<br>`<strong>texto en negritas</strong>`   |
+|Cursiva   |`<i>`   |Para colocar un texto en formato cursiva. <br>`<i>texto en cursiva</i>`   |
+|Salto de Línea  |`<br>`   | 	Para saltar el texto o contenido a la línea siguiente (similar al `shift+enter` en MS Word.)<br>`<br>`   |
+|Tablas   |`<table>`   |Las tablas fueron diseñadas para presentar datos de una forma legible y coherente. Tienen tags de headers (th), filas (tr) y celdas (td).<br><br>`<table>`<br>`<tr><th>Columna 1</th><th>Columna 2</th></tr>`<br>`<tr><td>Datos 1</td><td>Datos A</td></tr>`<br>`<tr><td>Datos 2</td><td>Datos B</td></tr>`<br>`<tr><td>Datos 3</td><td>Datos C</td></tr>`<br>`</table>`   |
 
 > :link: [Haz clic aquí](https://www.w3schools.com/tags/ref_byfunc.asp), para más tags HTML.
 
@@ -175,7 +175,7 @@ Cada tag tiene sus propiedades (no tienes que memorizarlas, siempre las consegui
 
 Por eso hemos creado una serie de ejercicios que te explicarán mejor cada una de las propiedades importantes de los elementos más utilizados de HTML.  
 
-## Clap, clap, clap. ¡Estás un paso más cerca de aprender HTML!  
+## 👏👏👏 ¡Estás un paso más cerca de aprender HTML!  
 
 ¡Estamos muy orgullosos! 🙂
 

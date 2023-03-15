@@ -174,7 +174,7 @@ Esto te ayudará a ahorrar tiempo y a cometer menos errores al escribir:
 
 ## Editando archivos en el terminal:
 
-Esta es una de las cosas que no puedes evitar hacer en la terminal. Como desarrollador, tendrás que editar archivos en la terminal con más frecuencia de lo que crees. Por eso es mejor que esté preparado para usar la  [Vi Aplicación o la Aplicación Nano.](https://askubuntu.com/questions/726669/difference-between-nano-and-vim)  Hablaremos sobre Nano y sus comandos (sí, aquí el editor de texto se abre dentro de la línea de comandos y se ejecuta usando comandos).
+Esta es una de las cosas que no puedes evitar hacer en la terminal. Como desarrollador, tendrás que editar archivos en la terminal con más frecuencia de lo que crees. Por eso es mejor que estés preparado para usar la  [Aplicación VIM o la Aplicación Nano.](https://askubuntu.com/questions/726669/difference-between-nano-and-vim)  Hablaremos sobre Nano y sus comandos (sí, aquí el editor de texto se abre dentro de la línea de comandos y se ejecuta usando comandos).
 
 ### El comando nano
 
