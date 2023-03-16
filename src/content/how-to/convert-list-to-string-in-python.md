@@ -18,6 +18,8 @@ print(", ".join(cool_names)) #Output: Danny, Peter, Johanna
 
 This is the most simple way to convert a list to a string in Python, in the following sections we will describe how the `.join()` method works, as well as check other ways to convert a list to a string in Python.
 
+> 🔗 If you need more knowledge on [python lists](https://4geeks.com/lesson/what-is-a-python-list), here is a great article.
+
 ## Using a join
 
 The join method is quite simple, it takes an iterable (in this case it would be our list), which joins each element of our list and returns these elements as a string. This method is usually used together with a separator, which as we saw in the previous example was `”, “`. Basically, to use this method, we just have to pass our list as an iterable together with the separator we want to use, like this `”separator”.join(list_name)`. Let's see another example of how to use the `join()` method as follows:
