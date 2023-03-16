@@ -55,7 +55,7 @@ In mac, open the source code by simultaneously pressing the `⌥ Option` + `⌘ 
 
 Every major browser has Developer Tools, the first tab in the developer tools is called the "inspector", and it contains -almost- everything you need to fix your bugs.
 
-![html code inspector](https://i.imgur.com/Fca0Hkm.gif)
+![html code inspector](https://github.com/breatheco-de/content/blob/master/src/assets/images/Fca0Hkm.gif?raw=true)
 
 The Dev Tools Inspector shows a `live version` of your code instead of your original source code. This "live version" is called "The DOM". It's what the browser was able to interpret from your code. These are some cases that make the inspector great:
 
@@ -87,7 +87,7 @@ The code editor might highlight the entire block of code that follows the unclos
 You can also see the error in the terminal if you use plugins like [prettier](https://prettier.io/).
 If you click on an opening tag, the editor will also highlight the closing tag.
 
-![how unclosed tags errors show up](https://i.imgur.com/oJEe61z.png)
+![how unclosed tags errors show up](https://github.com/breatheco-de/content/blob/master/src/assets/images/oJEe61z.png?raw=true)
 
 ### Missing quotes
 
@@ -95,7 +95,7 @@ HTML tags have attributes, for example, the `<img>` tag has `src` attribute: `<i
 
 Two find those errors: The best tool is the syntax highlighter. It will show weird coloring; look at this image for a better understanding.
 
-![how missing quotes look in your syntax highlighter](https://storage.googleapis.com/breathecode-asset-images/150fb586068562a94c16393d2ee1369df1fc54e875f88274e5269b9f706fd63a.png)
+![how missing quotes look in your syntax highlighter](https://github.com/breatheco-de/content/blob/master/src/assets/images/JzNqq1W.png?raw=true)
 
 ### Bad `<link>` or `<script>` tag url
 
