@@ -105,6 +105,6 @@ When linking your HTML to a separate CSS Stylesheet or Javascript Script, you wi
 
 How do you know your link tag is wrong? The Dev Tools Inspector console will show a 404 error like this (look at the image below):
 
-![error stylesheet not loading on your website](https://storage.googleapis.com/breathecode-asset-images/ec4a60f3823464d8fcb8a861b8bf3c786a65015e6ce66f63d17ff11bb161c0a3.png)
+![error stylesheet not loading on your website](https://github.com/breatheco-de/content/blob/master/src/assets/images/wrong-stylesheet-404.png?raw=true)
 
 > **Note**: It shows the URL it used to retrieve your stylesheet; check that the URL is OK.
