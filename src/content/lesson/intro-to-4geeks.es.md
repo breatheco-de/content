@@ -12,7 +12,7 @@ cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 
 ¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor lean hasta el final, ¡trataré de no aburrirlos!
 
-## Lo que ya sabes
+## Lo que ya sabes ##
 
 Estás aquí para aprender a desarrollar tus habilidades para codificar hasta un nivel en el que puedas: 1️⃣ Conseguir trabajo, 2️⃣ Crear tu propia empresa, 3️⃣ Adaptarte mejor al nuevo mundo. 
 
