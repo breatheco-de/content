@@ -33,7 +33,7 @@ print("Hello my name is " + name +  " and I'm a developer")
 
 ## Concatenate strings using the += Operator
 
-We can use the += Operator to concatenate strings as well, it's pretty similar to using the `+` Operator, but different since we are adding text to a variable.
+We can use the += Operator to concatenate strings as well, it's pretty similar to using the `+` Operator, but different since what we are concatenating will modify the value of the .
 
 ```python
 #Concatenate using the += operator
