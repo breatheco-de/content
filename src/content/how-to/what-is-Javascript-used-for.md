@@ -13,13 +13,15 @@ JavaScript es un lenguaje de programación interpretado que se utiliza principal
 
 JavaScript es un lenguaje orientado a objetos que se basa en el estándar ECMAScript. Es compatible con la mayoría de los navegadores web modernos y se puede utilizar tanto en el lado del cliente como en el lado del servidor utilizando Node.js].
 
-En resumen, [JavaScript](https://4geeks.com/technology/javascript) je de programación utilizado para agregar interactividad y dinamismo a las páginas web, lo que permite a los desarrolladores crear aplicaciones web complejas y ricas en características
+En resumen, [JavaScript](https://4geeks.com/technology/javascript) es un lenguaje de programación utilizado para agregar interactividad y dinamismo a las páginas web, lo que permite a los desarrolladores crear aplicaciones web complejas y ricas en características.
 
-### Javascript como solución para desarrollo web Front 
+## ¿Qué usos tiene JavaScript?
+
+### JavaScript como solución para desarrollo front-end
 
 Empezamos por la funcionalidad más conocida de javascript en la web, la cual es hacer que las aplicaciones web sean dinámicas. 
 
-Una página web sin javascript es como un documento Word, te mostrará información mediante el uso de tecnologías como HTML y CSS, pero la interacción del usuario será muy reducida o completamente nula.  
+Una página web sin javascript es como un documento Word, te mostrará información mediante el uso de tecnologías como HTML y [CSS](https://4geeks.com/es/lesson/what-is-css-learn-css-es), pero la interacción del usuario será muy reducida o completamente nula.  
 
 Todo lo que se puede denominar "contenido dinámico" tiene a Javascript como su motor. Ya sea desde la manipulación del DOM hasta el manejo de eventos (hacer click sobre un elemento, salirse de un elemento, modificar el contenido de un elemento), todo se realiza a través de javascript. 
 
@@ -27,17 +29,17 @@ Entendamos contenido dinámico no solo a lo que pueda cambiar dentro de la pági
 
 Las posibilidades de Javascript son infinitas en el mundo del Front, por eso es el lenguaje más utilizado para este fin. 
 
-### Javascript como solución para desarrollo web Back 
+### Javascript como solución para desarrollo back-end
 
 Desde hace muchos años, gracias a NodeJs, se puede usar Javascript como solución para el back-end de nuestras aplicaciones web. Entre las librerías más destacadas se encuentra **Express** que junto a NodeJs hacen que ejecutar javascript en el servidor sea muy sencillo, rápido y potente.   
 
-Cuando hablamos de Javascript como herramienta para le back, estamos hablando de usar este lenguaje de programación en el servidor, siendo con este lenguaje que se reciben, procesan y envían los datos desde el servidor que se mostraran en la página web. 
+Cuando hablamos de Javascript como herramienta para los [derrolladores back-end](https://4geeks.com/es/lesson/backend-developer-es), estamos hablando de usar este lenguaje de programación en el servidor, siendo con este lenguaje que se reciben, procesan y envían los datos desde el servidor que se mostraran en la página web. 
 
 ### Javascript como solución para desarrollo de aplicaciones móviles  
 
 El desarrollo de aplicaciones móviles ha ido ganando cada vez más seguidores por la popularidad de los dispositivos móviles. Gracias al desarrollo de librerías como React Native e Ionic ahora es posible utilizar Javascript como el lenguaje de desarrollo para este tipo de aplicaciones. 
 
-Otra de las ventajas que posee el uso de Javascript en el desarrollo de aplicaciones móviles, es que no tienes que segmentarte en Android o IOS. Usualmente para el desarrollo de aplicaciones para el sistema Android está relacionado con Java o Kotlin, mientras que para aplicaciones del AppStore se usan Swift o Objective-C. Haciendo uso de la librearía de Javascript **React Native** tus aplicaciones puedes ser ejecutadas en ambos sistemas!
+Otra de las ventajas que posee el uso de Javascript en el desarrollo de aplicaciones móviles, es que no tienes que segmentarte en Android o IOS. Usualmente para el desarrollo de aplicaciones para el sistema Android está relacionado con [Java](https://www.java.com/es/) o Kotlin, mientras que para aplicaciones del AppStore se usan Swift o Objective-C. Haciendo uso de la librearía de Javascript **React Native** tus aplicaciones puedes ser ejecutadas en ambos sistemas!
 
 ### Javascript como solución para desarrollo de videojuegos 
 
@@ -47,12 +49,10 @@ Haciendo uso de javascript se puede lograr crear juegos que se ejecuten en el na
 
 Cada vez son más los desarrolladores que apuestan por la VR y la AR, ya que cada una responde a necesidades diferentes y se prevé que, en el futuro, estén cada vez más presentes en nuestras vidas.  
 
-Javascript puede ser utilizado para la creación de contenido de ambas ramas mediante el uso de librerías como **Three.js** o **A-Frame**, para mencionar dos.  
+Javascript puede ser utilizado para la creación de contenido de ambas ramas mediante el uso de librerías como **Three.js** o **A-Frame**, para mencionar dos. 
 
 ### Javascript como solución para desarrollo de Inteligencia Artificial (IA) 
 
 Como no íbamos a tocar el tema que está ahora mismo en la boca de todos. Javascript también ha logrado tomar una parte de la tarta de IA haciendo uso de la librería TensorFlow, el cual hace posible utilizar machine learning a desarrolladores de Javascript para predecir eventos basándose en datos almacenados. 
 
-Es muy probable que de seguir investigando, encontremos otros ámbitos donde se este utilizando Javascript ya que es un lenguaje extremadamente flexible, potente y con muchos seguidores.
-
-Espero que hayan disfrutado de la lectura y mantenganse en el lado Geek!
+Es muy probable que de seguir investigando, encontremos otros ámbitos donde se este utilizando Javascript ya que es un lenguaje extremadamente flexible, potente y con muchos seguidores. Si sigues interesado en conocer más sobre este y otros lenguajes de programación puedes revisar este artículo sobre [aprender a programar desde cero](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero).
