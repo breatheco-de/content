@@ -5,37 +5,31 @@ tags: ["python"]
 
 ---
 
-The most human like for writing and reading when we are making a string concatenation would be to use the **format string** method. Making use of the `f""` method, you can use variables just by calling them inside brakets `{}`.
+String concatenation is the process of adding two strings together in one. The easiest way to concatenate strings in Python would be to use the **format string** method. This method consists on adding the letter "f" before the string quote marks like this `f"Hello world"` , then you can concatenate variables by calling them between brackets `{}` inside the string quote marks. Here is an example of how to use it:
 
 ```python 
-str1 = "Hello"
-str2 = "Geeks"
-int1 = 4
-print(f"{str1} from {int1} {str2} Academy!")
-#Output -> Hello from 4 Geeks Academy!
+name = "4Geeks"
+
+print(f"Hello from {name}!")
+#Output -> Hello from 4Geeks!
 ```
 
-String concatenation is a common action we, as [software developers](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), have to deal with in almost any project. This is the reason why we can achieve this `union of texts` in different ways, depending on style and the need of the data we are presenting in our project.
+In the previous example, we are using the variable `name` to concatenate it to the string. 
+
+String concatenation is a common action we, as [software developers](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), have to deal with in almost any project. There are many ways you can concatenate strings, you can use any of them so pick the one that suits you the most.
 
 ## Concatenate using the + operator
 
-Making use of the `+` operator is the classic way to concatenate strings. You "add" the variable to your text but remember always to make use of spaces for the string rendering to be as you want.
-
-Implementation: 
+The most familiar way to concatenate strings for most people is the `+` operator. Check this example that explains how it works:
 
 ```python
-#Concatenate using the + operator
-str1 = "Geeks"
-print("Showing the str1 variable: " + str1 +  " using the + operator")
-#Output-> Showing the str1 variable: Geeks using the + operator
+name = "Alex"
+
+print("Hello my name is " + name +  " and I'm a developer")
+#Output-> Hello my name is Alex and I'm a developer
 ```
 
-Take note that there's a space between "variable: " and " using". If we wouldn't place that space, the output would look like this:
-
-```python
-#Output-> Showing the str1 variable:Geeksusing the + operator
-```
-The + operator will "add" the variable to the text and will not add spaces.
+> Notice the space after `is` and before `and` , if we didn't added them, then the output would have looked like this: `Hello my name isAlexand I'm a developer`. Remember to add the spaces when needed.
 
 ## Concatenate using the += Operator
 
@@ -52,7 +46,7 @@ print(text)
 
 Since we are "adding" string values to our variable **text**, these values will be concatenated as they are, no space will be automatically added.
 
-### Concatenate a int or foat value with text with str()
+### Concatenate a int or float value with text with str()
 
 Numbers and strings are data type completely different. When we want to add a number (int, float, etc) to a string, we will need to use the `str()` to convert that number.
 
