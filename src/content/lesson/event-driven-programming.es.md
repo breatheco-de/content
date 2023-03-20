@@ -37,7 +37,7 @@ Estos son algunos de los tipos de eventos que se activan constantemente (y usted
 
 |**Tipo de Datos**    |**Descripción**    |
 |:----------------|:-----------------|
-|Clic           |Cuando el usuario hace clic con el mouse o el dedo en cualquier elemento HTML.   |
+|Click           |Cuando el usuario hace clic con el mouse o el dedo en cualquier elemento HTML.   |
 |Mouseover,<br>Mouseout    |El evento ocurre cuando el puntero se mueve hacia dentro (para el mouseover) o hacia afuera (para el mouseout) un elemento, o uno de sus hijos.    |
 |contextmenu    |Cuando el usuario hace clic derecho en el mouse.    |
 |Mousemove     |Si el usuario mueve el mouse.   |
