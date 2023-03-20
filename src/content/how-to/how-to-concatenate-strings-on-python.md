@@ -18,7 +18,7 @@ In the previous example, we are using the variable `name` to concatenate it to t
 
 String concatenation is a common action we, as [software developers](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), have to deal with in almost any project. There are many ways you can concatenate strings, you can use any of them so pick the one that suits you the most.
 
-## Concatenate using the + operator
+## Concatenate strings on Python using the + operator
 
 The most familiar way to concatenate strings for most people is the `+` operator. Check this example that explains how it works:
 
@@ -31,7 +31,7 @@ print("Hello my name is " + name +  " and I'm a developer")
 
 > Notice the space after `is` and before `and` , if we didn't added them, then the output would have looked like this: `Hello my name isAlexand I'm a developer`. Remember to add the spaces when needed.
 
-## Concatenate using the += Operator
+## Concatenate strings using the += Operator
 
 We can use the += Operator to concatenate strings as well, it's pretty similar to using the `+` Operator, but different since we are adding text to a variable.
 
@@ -67,7 +67,7 @@ TypeError: can only concatenate str (not "int") to str
 ```
 
 
-## Concatenate using the f-Strings
+## Concatenate strings on Python using the f-Strings
 
 Python f-Strings (formatted string literals) makes writing strings in a more clear and understanding way for humans. This option was [introduced on Python](https://4geeks.com/lesson/intro-to-python) 3.6 so keep in mind backward compatibility when using it.
 
