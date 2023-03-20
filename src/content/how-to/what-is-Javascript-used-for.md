@@ -1,5 +1,5 @@
 ---
-title: "What is Javascript used for?"
+title: "¿Para que sirve Javascript?"
 subtitle: "Javascript has been sitting on the throne of web apps ever since it was created, but that's not the only use we can get out of this great language. Javascript can be used as well for developing mobile apps on Android and IOS, videogames, VR, AR and much more"
 tags: ["javascript"]
 authors: ["javierseiglie"]
@@ -7,8 +7,13 @@ status: "draft"
 
 ---
 
+JavaScript desde sus comienzos en el año 1995, se ha posicionado como el principal lenguaje de la web siendo capaz de manejar tanto la parte del front como del back. Ahora, ¿Es esa su única función? En el artículo vamos a ir repasando los diferentes escenarios en los cuales se puede implementar Javascript. Si no eres familiar con esta tecnología puedes revisar este artículo para [aprender a programar con JavaScript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) y así conocer a fondo esta tecnología.
 
-Javascript desde sus comienzos en el año 1995, se ha posicionado como el principal lenguaje de la web siendo capaz de manejar tanto la parte del front como del back. Ahora, ¿Es esa su única función? En el artículo vamos a ir repasando los diferentes escenarios en los cuales se puede implementar Javascript. 
+JavaScript es un lenguaje de programación interpretado que se utiliza principalmente para crear contenido interactivo en páginas web, controlar multimedia, animar imágenes y realizar validaciones de formularios. Fue creado originalmente por Brendan Eich en Netscape Communications Corporation en 1995 y actualmente es uno de los lenguajes de programación más populares del mundo.
+
+JavaScript es un lenguaje orientado a objetos que se basa en el estándar ECMAScript. Es compatible con la mayoría de los navegadores web modernos y se puede utilizar tanto en el lado del cliente como en el lado del servidor utilizando Node.js].
+
+En resumen, [JavaScript](https://4geeks.com/technology/javascript) je de programación utilizado para agregar interactividad y dinamismo a las páginas web, lo que permite a los desarrolladores crear aplicaciones web complejas y ricas en características
 
 ### Javascript como solución para desarrollo web Front 
 
