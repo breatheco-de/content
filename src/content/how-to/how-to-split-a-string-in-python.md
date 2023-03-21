@@ -12,7 +12,7 @@ status: "published"
 
 This is how you split a string in python using the **`.split()`** method:
 ```py
-string1 =  "This string will be splitted"  
+string1 =  "This string will be splitted"
 listName = string1.split()
 
 print(listName)  #Output: ["This", "string", "will", "be", "splitted"]
@@ -116,7 +116,7 @@ print(listName)  #Output: ["My", "name", "is,Rigoberto"]
 ```
 
 
-#### **Related: [Why 4Geeks Academy teaches Python as Backend Language?](https://4geeksacademy.com/us/python-bootcamp/why-we-teach-python-4geeks)**
+#### **Related: [Why 4Geeks Academy teaches Python as Back End Language?](https://4geeksacademy.com/us/python-bootcamp/why-we-teach-python-4geeks)**
 
 ## How to Split a String in Python. Alternatives Methods
 
