@@ -65,7 +65,7 @@ Una vez que finalices por el día, puedes abandonar tu computadora. Sin embargo,
 
 Como programador, necesitarás usar el terminal de la computadora algunas veces; siempre puedes encontrar o abrir el terminal, dándole clic al menú tipo hamburguesa en la parte superior izquierda y seleccionando la opción "terminal" => "new terminal" 
 
-![Botón de Gitpod](https://github.com/Lorenagubaira/content/blob/master/src/assets/images/terminal.png)
+![Botón de Gitpod](https://storage.googleapis.com/breathecode-asset-images/62a6f61382443c1863a7e20a4b550e2d62216781cff482e3685dfd87f14252a1.png)
 
 ### ¿Qué es un terminal o línea de comando? 
 
@@ -73,7 +73,7 @@ Cada computadora tiene un terminal, y lo utilizas para hacer prácticamente todo
 
 Aún no requieres aprender los comandos del terminal, pero [te recomendamos leer esta lección](https://content.breatheco.de/en/lesson/the-command-line-the-terminal), para que te familiarices y conozcas sus funciones y limitantes.
 
-![Comando del terminal](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/terminal-command.png?raw=true)
+![Comando del terminal](https://storage.googleapis.com/breathecode-asset-images/e7094b073128ec4ae46e3fd9568cbb7c85d860ef7bd28375fdd5a06041d22e2c.png?raw=true)
 
 ¡Eso es todo! ¡Es hora de que comiences a usar Gitpod!
 
