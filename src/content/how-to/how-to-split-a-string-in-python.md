@@ -20,9 +20,7 @@ print(listName)  #Output: ["This", "string", "will", "be", "splitted"]
 
 The use of alphanumeric or string-type values is highly necessary for any programming language, as you may already know, these values in Python are called Strings. Knowing how to manipulate this type of String values will be of great use to us in our programming journey since it will allow us to manage the values according to our needs, either to search for a value contained in the Strings, obtain a specific part of it, change certain parts, among others. You can check this article, to learn how to [manipulate strings in python](https://4geeks.com/lesson/working-with-strings-in-python), and if you already did in this article, we will dive into the many ways **how to split a string in Python**
 
-So what is splitting a string? As you read it, it's just taking one string and breaking it into two or more strings, you start with one and end with several other strings.  
-
-![Python Split String](https://806230.smushcdn.com/1739487/wp-content/uploads/2021/02/split-min-768x484.png?lossy=0&strip=1&webp=1)
+So what is splitting a string? As you read it, it's just taking one string and breaking it into two or more strings, you start with one and end with several other strings.
 
 ## How to Split a String in Python, **`.split()`** Method
 
