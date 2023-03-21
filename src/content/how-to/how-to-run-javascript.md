@@ -33,7 +33,7 @@ If you are in the need to interact for debugging or testing a running web app on
 
 Here´s an example:
 
-![How to run javascript on browser terminal](https://github.com/breatheco-de/content/blob/master/src/assets/images/how_to_run_javascript_1.png)
+![How to run javascript on browser terminal](https://github.com/breatheco-de/content/blob/master/src/assets/images/how_to_run_javascript.png)
 
 ## Using the command line
 
@@ -61,7 +61,7 @@ We downloaded and installed NodeJS on our system, now let´s run some javascript
 
 Now we started the node environment and we have access to javascript. Here´s an example of javascript executed on the command line
 
-![How to run javascript from the command line](../../assets/images/how_to_run_javascript_2.png)
+![How to run javascript from the command line](https://github.com/breatheco-de/content/blob/master/src/content/how-to/../../assets/images/how_to_run_javascript_2.png?raw=true)
 
 ## Using an IDE for developing
 
@@ -93,7 +93,7 @@ To run your app, you can do it by writing on the terminal:
  $ node local
 ```
 
-![how to run javascript with node](../../assets/images/how_to_run_javascript_3.png)
+![how to run javascript with node](https://storage.googleapis.com/breathecode-asset-images/812399add1205d4524aaedb0bb6e850a63fb5a7f828286b1b77e11cabdcccfc4.png?raw=true)
 
 Remember to take out the `$` when writing on the terminal.
 
@@ -131,7 +131,7 @@ Here´s a visual example of how the `package.json` file:
 
 Now, every time we run `npm run start`,  node will run our `local.js` file.
 
-![How to run javascript with npm](../../assets/images/how_to_run_javascript_4.png)
+![How to run javascript with npm](https://github.com/breatheco-de/content/blob/master/src/content/how-to/../../assets/images/how_to_run_javascript_4.png?raw=true)
 
 
 We covered how to run javascript in different environments, from the browser´s console to a fully installed NodeJS running with Visual Code (or the IDE of your choice). 
