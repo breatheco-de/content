@@ -33,7 +33,7 @@ If you are in the need to interact for debugging or testing a running web app on
 
 Here´s an example:
 
-![How to run javascript on browser terminal](../../assets/images/how_to_run_javascript.png)
+![How to run javascript on browser terminal](../../assets/images/how_to_run_javascript_1.png)
 
 ## Using the command line
 
