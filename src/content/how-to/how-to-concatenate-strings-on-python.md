@@ -5,6 +5,8 @@ tags: ["python"]
 
 ---
 
+
+
 String concatenation is the process of adding two strings together in one. The easiest way to concatenate strings in Python would be to use the **format string** method. This method consists on adding the letter "f" before the string quote marks like this `f"Hello world"` , then you can concatenate variables by calling them between brackets `{}` inside the string quote marks. Here is an example of how to use it:
 
 ```python 
@@ -14,7 +16,7 @@ print(f"Hello from {name}!")
 #Output -> Hello from 4Geeks!
 ```
 
-In the previous example, we are using the variable `name` to concatenate it to the string. 
+In the previous example, we are using the variable `name` to concatenate it to the string.
 
 String concatenation is a common action we, as [software developers](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), have to deal with in almost any project. There are many ways you can concatenate strings, you can use any of them so pick the one that suits you the most.
 
@@ -31,7 +33,7 @@ print("Hello my name is " + name +  " and I'm a developer")
 
 > Notice the space after `is` and before `and` , if we didn't added them, then the output would have looked like this: `Hello my name isAlexand I'm a developer`. Remember to add the spaces when needed.
 
-## Concatenate strings using the += Operator
+## Concatenate strings using the += operator
 
 We can use the += Operator to concatenate strings as well, it's pretty similar to using the `+` Operator, but different since what we are concatenating will modify the value of the original string.
 
@@ -46,7 +48,7 @@ print(text)
 
 Since we are "adding" string values to our variable **text**, these values will be concatenated as they are, no space will be automatically added.
 
-### Concatenate a int or float value with text with str()
+### Concatenate an int or float value with text with str()
 
 Numbers and strings are data type completely different. When we want to add a number (int, float, etc) to a string, we will need to use the `str()` to convert that number.
 
@@ -110,7 +112,7 @@ print(text)
 
 As you can see, the result returned is the expected, but with spacing between words.
 
-## Concatenate using %
+## Concatenate using % operator
 
 The `%` operator is an older way to concatenate strings that work very similar to the '.format()` method. We use `%s` as placeholders for different values, as we did with the curly brackets in previous examples.
 
