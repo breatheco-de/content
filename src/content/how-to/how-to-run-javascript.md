@@ -33,7 +33,7 @@ If you are in the need to interact for debugging or testing a running web app on
 
 Here´s an example:
 
-![How to run javascript on browser terminal](https://github.com/breatheco-de/content/blob/master/src/assets/images/how_to_run_javascript.png)
+![How to run javascript on browser terminal](https://github.com/breatheco-de/content/blob/master/src/assets/images/how_to_run_javascript_1.png)
 
 ## Using the command line
 
@@ -93,7 +93,7 @@ To run your app, you can do it by writing on the terminal:
  $ node local
 ```
 
-![how to run javascript with node](https://storage.googleapis.com/breathecode-asset-images/812399add1205d4524aaedb0bb6e850a63fb5a7f828286b1b77e11cabdcccfc4.png?raw=true)
+![how to run javascript with node](https://github.com/breatheco-de/content/blob/master/src/content/how-to/../../assets/images/how_to_run_javascript_3.png?raw=true)
 
 Remember to take out the `$` when writing on the terminal.
 
