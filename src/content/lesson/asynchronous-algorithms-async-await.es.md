@@ -77,21 +77,21 @@ Pero espera, hay más... Incluso podríamos pasar una *función* como argumento 
 #### Funciones de Devolución de Llamada
 
 ```javascript
-function correPrimero(unaFuncion){
-	console.log("Quiero correr primero");
-	unaFuncion();
-	correSegundo();
-	console.log("También quiero correr cuando se ejecute correPrimero");
-}
-function correSegundo(){
-	console.log("¿Donde estoy corriendo?");
-}
-correPrimero(unaTercera);
-
-function unaTercera(){
-	console.log("Esto es una locura");
-}
-
+1    function correPrimero(unaFuncion){
+2	console.log("Quiero correr primero");
+3	correPrimero();
+4	correSegundo();
+5	console.log("También quiero correr cuando se ejecute correPrimero");
+6    }
+7    function correSegundo(){
+8	console.log("¿Donde estoy corriendo?");
+9    }
+10   correPrimero(unaTercera);
+11
+12   function unaTercera(){
+13	console.log("Esto es una locura");
+14   }
+15
 
 /*
 RESULTADO CONSOLA:
