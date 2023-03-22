@@ -80,7 +80,6 @@ from package1 import module1
 
 from package1.module2 import function1
 
-
 ```
 
 <br>
@@ -109,8 +108,8 @@ var result = '5' - '2';
 ```python
 #  En Python sustraer strings producirá un error, en lugar de eso debes hacer esto:
 
-result = int('5') - int('2'); 
-#el resultado ahora es igual a 3
+result = int('5') - int('2')  # el resultado ahora es igual a 3
+
 ```
 
 <br>
@@ -139,10 +138,11 @@ console.log(arrayValue);
 #### ![python syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) Con Python
 
 ```python
-simpleValue = ‘Hello’;
-print(simpleValue);  //Esto imprimirá el contenido.
-arrayValue =[‘Hello’,23,76,’World’,43];
-print(arrayValue); //Esto funcionará, imprimiendo el contenido del arreglo en un formato como este: [‘Hello’,23,76,’World’,43]
+simple_value = ‘Hello’
+print(simple_value)  # Esto imprimirá el contenido.
+list_value = [‘Hello’, 23, 76, ’World’, 43]
+print(list_value)  # Esto funcionará, imprimiendo el contenido de la lista en un formato como este: [‘Hello’, 23, 76, ’World’, 43]
+
 ```
 
 <br>
@@ -180,12 +180,13 @@ console.log(returningMapObject);
 
 # Usando lambda para mapear una lista
 
-peopleArray = [{ "name": "Mario Peres" },{ "name": "Emilio Peres" },{ "name": "Yusaiba Peres" }]
-returningMapObject = map(lambda obj: obj['name'], peopleArray)
-namesArray = list(returningMapObject)
-print(namesArray)
+people_list = [{"name": "Mario Peres"}, {"name": "Emilio Peres"}, {"name": "Yusaiba Peres"}]
+returning_map_object = map(lambda obj: obj['name'], people_array)
+names_list = list(returning_map_object)
+print(names_list)
 
-# ahora namesArray es una lista de nombres como ["Mario Peres","Emilio Peres","Yusaiba Peres"]
+# ahora names_list es una lista de nombres como ["Mario Peres", "Emilio Peres", "Yusaiba Peres"]
+
 ```
 
 > :tv: Aquí hay un video extraño pero sorprendente que explica las funciones lambda: https://www.youtube.com/watch?v=25ovCm9jKfA
@@ -218,6 +219,7 @@ for(var i = 0; i < myArray.length; i++){
 colors = ["red", "green", "blue", "purple"]
 for color in colors:
     print(color)
+
 ```
 
 <br>
@@ -240,14 +242,13 @@ myArray.splice(index, 1);
 #### ![python syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) Con Python
 
 ```python
-myList = ['The', 'earth', 'revolves', 'around', 'sun']
-myList.insert(0,"Yes")
-print(myList)
-# Salida: ['Yes', 'The', 'earth', 'revolves', 'around', 'sun'] 
+my_list = ['The', 'earth', 'revolves', 'around', 'sun']
+my_list.insert(0,"Yes")
+print(my_list)  # Salida: ['Yes', 'The', 'earth', 'revolves', 'around', 'sun'] 
 
-myList.remove("Yes")
-print(myList)
-['The', 'earth', 'revolves', 'around', 'sun']
+my_list.remove("Yes")
+print(my_list)  # Salida: ['The', 'earth', 'revolves', 'around', 'sun']
+
 ```
 
 ### Funciones para clasificar Listas
@@ -256,12 +257,13 @@ print(myList)
 
 ```python
 # Orden ascendente
-a = [5, 2, 3, 1, 4]
-a.sort()
+number_list = [5, 2, 3, 1, 4]
+number_list.sort()
 
 # Ordenar la lista de objetos usando un parámetro "key"
-myArray = [{ "name": "Mario Peres" },{ "name": "Emilio Peres" },{ "name": "Yusaiba Peres" }]
-myArray.sort(key=lambda person: person['name'])
+my_list = [{"name": "Mario Peres"}, {"name": "Emilio Peres"}, {"name": "Yusaiba Peres"}]
+my_list.sort(key=lambda person: person['name'])
+
 ```
 
 > :tv: Llamemos a Socratica de nuevo para entender la clasificación en Python: https://www.youtube.com/watch?v=QtwhlHP_tqc
@@ -305,9 +307,9 @@ obj.lastname = "Perez";
 # En Python tenemos Clases y Diccionarios.
 
 # Así es como tu declaras y usas un diccionario.
-obj = {}
-obj['name'] = "Mario"
-obj['lastname'] = "Perez"
+my_dict = {}
+my_dict['name'] = "Mario"
+my_dict['lastname'] = "Perez"
 
 # Así es como declaras y usas una clase.
 class Person:
@@ -315,27 +317,89 @@ class Person:
         name = ''
         lastname = ''
 
-obj = Person()
-obj.name = "Mario"
-obj.lastname = "Perez"
+my_person = Person()
+my_person.name = "Mario"
+my_person.lastname = "Perez"
+
 ```
 
 > :tv: Socratica, nuestro gran espécimen y amigo evolucionado, explica Objetos de una manera excelente: https://www.youtube.com/watch?v=apACNr7DC_s
 
 
+<br>
+<br>
+
+# PEPs - Python Enhancement Proposals
+
+Las PEPs son “propuestas de mejora de Python” desarrolladas, aprobadas y publicadas por la comunidad de Python y no son opcionales.
+
+Hay algunas que debemos conocer desde el inicio de nuestro aprendizaje. 
+
+[PEPs](https://www.python.org/dev/peps/)
 
 
+## PEP 8 - Style Guide for Python Code
+
+Una en particular es la PEP8. La PEP8 es la "Guía de estilo de código para Python". Si bien es una guía, en la comunidad Python es muy, pero muy utilizada y si no la utilizas adecuadamente, quien lea tu código lo sabrá inmediatamente.
+
+A continuación vamos a listar algunos ejemplos (no todos):
+
+### PEP 8: variables
+
+Utilizar nombres descriptivos (siempre) y en minúsculas. Para nombres compuestos, separar las palabras con guiones bajos.
+
+```python
+mi_variable = 12
 
 
+```
 
+### PEP 8: constantes
 
+Utilizar nombres descriptivos y en mayúsculas separando palabras con guiones bajos. 
 
+```python
+MI_CONSTANTE = 12
 
+```
 
+### PEP 8: operadores
 
+Siempre colocar un espacio en blanco, antes y después de un operador
 
+```python
+monto_bruto = 175
+tasa_interes = 12
+monto_interes = monto_bruto * tasa_interes / 100
+tasa_bonificacion = 5
+importe_bonificacion = monto_bruto * tasa_bonificacion / 100
+monto_neto = (monto_bruto - importe_bonificacion) + monto_interes
 
+```
 
+### PEP 8: comentarios
 
+Los comentarios en la misma línea del código deben separarse con dos espacios en blanco y luego del símbolo # debe ir un solo espacio en blanco. 
 
+```python
+age = 15  # edad de María
+
+```
+
+### PEP 8: indentación
+
+Una indentación de 4 (cuatro) espacios en blanco indica que las instrucciones identadas forman parte de una misma estructura de control o bloque.
+```python
+numero = 50
+if numero < 100:
+    print('Hola')
+    print('Menor que 100')
+elif numero < 200:
+    print('Chao')
+    print('Mayor a 200')
+else:
+    print('Adiós')
+    print('mayor o igual a 100 y menor o igual que 200')
+
+```
 
