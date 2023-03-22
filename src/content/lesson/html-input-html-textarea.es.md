@@ -36,7 +36,7 @@ La siguiente es una lista de todos los elementos posibles que podemos usar para 
 |Checkbox   |`<input type="checkbox">`   |Debes usar corchetes en el nombre del input para permitir que el usuario seleccione múltiples opciones al mismo tiempo.<br>`<input type="checkbox" name="color[]" value="green" />`<br> `<input type="checkbox" name="color[]" value="blue" />`   |
 |Archivo   |`<input type="file">`   |Esta es la única manera de trabajar con archivos. Por ejemplo: es lo que usan los sitios web cuando te piden que subas una foto.<br>`<input type="file" name="photo" value="" />`   |
 |Botón de Enviar   |`<input type="submit">`   |Cuando el formulario está listo para ser enviado, el usuario presiona este botón "enviar" y todo se envía al servidor para su procesamiento.<br>`<input type="submit" value="Send Form" />`   |
-|Select |`<select>`   |Pide al usuario que elija uno o más elementos de una lista de opciones.<br>`<select name="color" /> <option value="red">Red </option> <option value="yellow">Yellow</option> <select />`   |
+|Select |`<select>`   |Pide al usuario que elija uno o más elementos de una lista de opciones.<br>`<select name="color"> <option value="red">Red </option> <option value="yellow">Yellow</option> <select/>`   |
 
 ## Atributos del Input o Entrada
 
