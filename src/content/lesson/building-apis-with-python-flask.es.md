@@ -50,14 +50,15 @@ app.run(host='0.0.0.0')
 ## Flask Hello-World explicado
 
 ```py
-from flask import Flask #aquí importamos la librería Flask en nuestro archivo.
-app = Flask(__name__) #aquí creamos una nueva instancia del servidor Flask.
+from flask import Flask  # Aquí importamos la librería Flask en nuestro archivo.
+app = Flask(__name__)  # Aquí creamos una nueva instancia del servidor Flask.
 
-@app.route("/") #aquí definimos el primer path de la API: GET /
-def hello(): #este método se llamará cuando el cliente haga el request
-    return "Hello World!" #flask devolverá "Hello World, esto podría ser un string HTML o un string JSON.
+@app.route("/")  # Aquí definimos el primer path de la API: GET /
+def hello()  # Este método se llamará cuando el cliente haga el request
+    return "Hello World!"  # Aquí flask devolverá "Hello World, esto podría ser un string HTML o un string JSON.
 
-app.run(host='0.0.0.0') #finalmente iniciamos el servidor en el localhost.
+app.run(host='0.0.0.0')  # Finalmente iniciamos el servidor en el localhost.
+
 ```
 
 En Flask podemos agregar nuevos endpoints utilizando el decorador `@ app.route`, no te preocupes si esta es la primera vez que ves un decorador, el concepto es muy simple y [aquí hay un video de 5 minutos explicándolo](https://www.youtube.com/watch?v=7ipNLN9y-nc).
@@ -67,9 +68,10 @@ En Flask podemos agregar nuevos endpoints utilizando el decorador `@ app.route`,
 Si deseas agregar otro endpoint a tu API que se ejecuta cuando un cliente haga el `GET/person`, tendrás que agregar otro bloque de código como este:
 
 ```py
-@app.route("/person") #aquí especificamos la ruta para el endpoint.
-def handle_person(): #aquí declaramos una función que se llamará cuando se realice una request a esa url
-    return "Hello Person!" #aquí especificamos el string que queremos responder al cliente.
+@app.route("/person")  # Aquí especificamos la ruta para el endpoint.
+def handle_person()  # Aquí declaramos una función que se llamará cuando se realice una request a esa url
+    return "Hello Person!"  # Aquí especificamos el string que queremos responder al cliente.
+
 ```
 
 ## Especificando el método: GET, PUT, POST, DELETE
@@ -79,12 +81,13 @@ Si deseas que tu endpoint responda a POST, PUT o DELETE, puedes especificarlo en
 ```py
 from flask import Flask, request
 
-@app.route("/person", methods=['POST', 'GET']) # aquí especificamos que estos endpoints aceptan solicitudes POST y GET.
+@app.route("/person", methods=['POST', 'GET'])  # Aquí especificamos que estos endpoints aceptan solicitudes POST y GET.
 def handle_person():
-  if request.method == 'POST': # podemos entender qué tipo de request estamos manejando usando un condicional
-    return "Se recibió un POST"
-  else:
-    return "Se recibió un GET"
+    if request.method == 'POST':  # Podemos entender qué tipo de request estamos manejando usando un condicional
+        return "Se recibió un POST"
+    else:
+        return "Se recibió un GET"
+
 ```
 
 ## Respondiendo un cuerpo JSON
@@ -98,10 +101,9 @@ from flask import Flask, jsonify
 
 @app.route("/person")
 def handle_person():
-    person1 = {
-      "name": "Bob"
-    }
+    person1 = {"name": "Bob"}
     return jsonify(person1)
+
 ```
 
 ## El código de respuesta
@@ -113,12 +115,11 @@ from flask import Flask, jsonify
 
 @app.route("/person")
 def handle_person():
-    contenido = {
-      "detalles": "Hubo un error en la solicitud"
-    }
-    resp = jsonify(contenido)
-    resp.status_code = 400 # aquí cambiamos el código de estado a 400 (código muy común en caso de errores de solicitud)
-    return resp
+    contenido = {"detalles": "Hubo un error en la solicitud"}
+    respuesta = jsonify(contenido)
+    respuesta.status_code = 400  # Aquí cambiamos el código de estado a 400 (código muy común en caso de errores de solicitud)
+    return respuesta
+
 ```
 
 Otra forma de cambiar el código de respuesta usando una coma `,`:
@@ -126,10 +127,9 @@ Otra forma de cambiar el código de respuesta usando una coma `,`:
 ```py
 @app.route("/person")
 def handle_person():
-    contenido = {
-       "detalles": "Hubo un error en la solicitud"
-    }
+    contenido = {"detalles": "Hubo un error en la solicitud"}
     return jsonify(content), 400
+
 ```
 
 ## Manejo de errores y validaciones
@@ -140,15 +140,14 @@ Pero ¿y si la solicitud viene con errores? Por ejemplo: si tenemos un endpoint 
 @app.route('/person', methods=['POST'])
 def create_person():
     # POST request
-        body = request.get_json() # obtener el request body de la solicitud
-        if body is None:
-            return "The request body is null", 400
-        if 'first_name' not in body:
-            return 'Especificar first_name', 400
-        if 'email' not in body:
-            return 'Especificar last_name', 400
-
-        return "ok", 200
+    body = request.get_json()  # Obtener el request body de la solicitud
+    if body is None:
+        return "The request body is null", 400
+    if 'first_name' not in body:
+        return 'Especificar first_name',400
+    if 'email' not in body:
+        return 'Especificar last_name', 400
+    return "ok", 200
 ```
 
 ## Definiendo un modelo
@@ -161,6 +160,7 @@ Para integrar con SQLAlchemy, todo lo que tienes que hacer es instalar el paquet
 ```py
 from flask_sqlalchemy import SQLAlchemy
 db = SQLAlchemy()
+
 ```
 
 Una vez que se importa, puedes comenzar a declarar tus modelos de base de datos de esta manera:
@@ -175,11 +175,10 @@ class Person(db.Model):
         return '<Person %r>' % self.username
 
     def serialize(self):
-        return {
-            "username": self.username,
-            "email": self.email
-        }
-  ```
+        return {"username": self.username,
+                "email": self.email}
+
+```
 
  Puedes añadir tantos modelos como quieras.
 
