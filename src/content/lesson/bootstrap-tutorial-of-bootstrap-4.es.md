@@ -15,7 +15,7 @@ Hay una luz al final del túnel y no es Chuck Norris con una linterna. ¡Finalme
 
 Dos chicos, mientras trabajaban en Twitter, estaban sufriendo los mismos problemas que nosotros con HTML y CSS. Hartos de esta situación (como tú y yo), decidieron crear una **hoja base que puede importarse en cualquier sitio web**. Esto hizo el trabajo de todos los desarrolladores front-end 4 veces más fácil.
 
-![bootstrap 4](../../assets/images/335ed387-cbf9-4ffa-9529-1ccf2084e393.jpeg)
+![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/335ed387-cbf9-4ffa-9529-1ccf2084e393.jpeg?raw=true)
 
 Además, Bootstrap te da una gran cantidad de elementos nuevos que vas a querer usar siempre y que actualmente no existen en CSS+HTML: Los componentes de Bootstrap.
 
@@ -26,19 +26,19 @@ Uno de los defectos en CSS, es la forma en que funcionan los layouts: trabajar c
 
 ## Ahora todo está dividido en Filas y Columnas
 
-Los creadores de Bootstrap, replicaron el mismo concepto que tienen las `<tables>`, pero en vez de usar tablas usaron `<div>` (contenedores de cajas). Ellos no podían crear sus propias etiquetas en HTML, porque eso requiere una nueva versión de HTML e iba a hacer a Bootstrap incompatible con los navegadores actuales. Las etiquetas debían ser las mismas - por eso decidieron anular el comportamiento que tiene un `<div>` por defecto con las clases.
+Los creadores de Bootstrap, replicaron el mismo concepto que tienen las `<table>`, pero en vez de usar tablas usaron `<div>` (contenedores de cajas). Ellos no podían crear sus propias etiquetas en HTML, porque eso requiere una nueva versión de HTML e iba a hacer a Bootstrap incompatible con los navegadores actuales. Las etiquetas debían ser las mismas - por eso decidieron anular el comportamiento que tiene un `<div>` por defecto con las clases.
 
 ```html
 Esto es una fila: <div class="row">
-Esto es una columna: <div class"col–sm–x">
+Esto es una columna: <div class="col–sm–x">
 ```
-![bootstrap tutorial](../../assets/images/3884f515-dd7a-48f2-b238-9e2ec26de02d.png)
+![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/3884f515-dd7a-48f2-b238-9e2ec26de02d.png?raw=true)
 
 Bootstrap ha dividido el ancho de la pantalla en  `12 slots` (espacios) - cada uno de ellos con un ancho de fila total  de 8.33%. El tamaño de una columna, puede ir de entre 1 y 12 slots o espacios.
 
 Por otro lado, las columnas fueron hechas para vivir dentro de las filas (como pasa entre `<td>` y `<tr>`),  siempre necesitas abrir una fila antes de abrir una columna.  Todas las columnas en una fila deben sumar un máximo de 12 espacios.
 
-![bootstrap tutorial](../../assets/images/1b7f5dc4-029a-475d-8bfd-fac1b739966c.png)
+![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/1b7f5dc4-029a-475d-8bfd-fac1b739966c.png?raw=true)
 
 ## Nuestro primer ejemplo de diseño:
 
@@ -60,9 +60,11 @@ Es muy fácil decidir como se verá tu página web en pantallas de diferente tam
 |:---------|:--------|:----|
 |Significa que este elemento debe comportarse como una columna de Bootstrap.   |Significa que estoy especificando sólo para dispositivos con tamaño de pantalla mediano.   |Especifica cuantos espacios quiero que abarque la columna (recuerda que puede abarcar max 12 espacios por fila).   |
 
-> :point_up:Bootstrap device sizes:   |Smartphones   |Big-phone/small-tablet   |Tablets   |Desktops   |Extra-large desktops   |
-|:----------|:---------------|:-------------|:-----------|:------------|:---------|
-| &nbsp;           |Nothing    |sm       |md       |lg      |xl        |
+Bootstrap device sizes:   
+
+| Smartphones   | Big-phone/small-tablet   | Tablets  | Desktops   | Extra-large desktops |
+|:------------- |:------------------------ |:-------- |:---------- |:-------------------- |
+| Nothing       | sm                       | md       | lg         | xl                   |
 
 > :point_up: Nota: si no especificas el tamaño de pantalla (ej. usando 'sm', 'md', or 'xl'), el sitio web va a renderizar para teléfonos móviles por defecto.
 
@@ -70,7 +72,7 @@ Es muy fácil decidir como se verá tu página web en pantallas de diferente tam
 
 Vamos a configurar el diseño (usando las clases de columnas xs, sm, md y lg) para estas dos filas en todos los dispositivos al mismo tiempo:
 
-![bootstrap 4](../../assets/images/e15c594c-9b46-4c27-bf5a-a5bbb5ef952a.png)
+![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/e15c594c-9b46-4c27-bf5a-a5bbb5ef952a.png?raw=true)
 
 ```html
 <!-- Apila las columnas en el móvil ocupando el ancho completo y el otro medio ancho --> 
@@ -95,8 +97,8 @@ Vamos a configurar el diseño (usando las clases de columnas xs, sm, md y lg) pa
 
 ## Estructura básica de Bootstrap 4
 
+Ya sabemos sobre el esqueleto básico de HTML5 que todo sitio web debe tener. Ahora solo debes agregar unas líneas en tu esqueleto para hacerlo compatible con Bootstrap:
 
-Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web debe tener. Ahora solo debes agregar unas lineas en tu esqueleto para hacerlo compatible con Bootstrap:
 
 ```html
 <!doctype html>
@@ -125,20 +127,20 @@ Ya sabemos sobre el esqueleto basico de HTML5 que todo sitio web debe tener. Aho
 
 Recuerda, Bootstrap es solo una hoja de estilos. Es por eso que es muy simple agregarlo a tu sitio web. Utiliza el `<link>` tag para incluir los estilos, y si quieres para usar la etiqueta de javascript `<script>` y así incluir los archivos de javascript de Bootstrap.
 
-La funcionalidad de Javascript en Bootstrap requiere que se incluyan las librerias propias de jQuery y Javascript primero pero no te preocupes por esto aún.   Sólo incluye las librerias de JS usando la etiqueta script y más adelante lo entenderás.
+La funcionalidad de Javascript en Bootstrap requiere que se incluyan las librerías propias de jQuery y Javascript primero pero no te preocupes por esto aún.   Sólo incluye las librerías de JS usando la etiqueta script y más adelante lo entenderás.
 
 > :link: Encuentra aquí [increíbles archivos de Bootstrap para que puedas empezar.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
 ## Componentes de Bootstrap 4
 
 
-HTML es súper básico, sólo tiene un par de etiquetas - ya los sabíamos. Pero cuando revisas la web hoy en día, ves otra cosa… actualmente las páginas web tienen menús, iconos, barras de carga, etc. ¿Dónde están esas etiquetas? ¡Ninguna de ellas está definida en HTML!
+HTML es súper básico, sólo tiene un par de etiquetas - ya los sabíamos. Pero cuando revisas la web hoy en día, ves otra cosa… actualmente las páginas web tienen menús, íconos, barras de carga, etc. ¿Dónde están esas etiquetas? ¡Ninguna de ellas está definida en HTML!
 
 Todos los desarrolladores tienen que simular estos elementos adicionales cada vez que crean un sitio web, tienen que hacer todo desde cero y eso toma muchísimo tiempo.
 
 Cuando importas Bootstrap en tu página web, tendrás un nuevo conjunto de componentes a tu disposición. Esta es una pequeña parte de esos elementos:
 
-![bootstrap 4](../../assets/images/8e9ff37a-28f7-4179-8f5d-9278ff7efd55.png)
+![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/8e9ff37a-28f7-4179-8f5d-9278ff7efd55.png?raw=true)
 
 
 ### Estos son los componentes más usados e importantes de Bootstrap:
@@ -146,42 +148,49 @@ Cuando importas Bootstrap en tu página web, tendrás un nuevo conjunto de compo
 
 #### Barra de navegación o NavBar
 
-Esto es tan popular que se encuentra en el 99% de los menús de todos los sitios web.  Normalmente contiene el logo de la compañía y una series de links - dependiendo de la lógica de negocio de la página. 
+Esto es tan popular que se encuentra en el 99% de los menús de todos los sitios web.  Normalmente contiene el logo de la compañía y unas series de links - dependiendo de la lógica de negocio de la página. 
 
-Aquí hay un ejemplo de como se ve un NavBar en un sitio web:
+Aquí hay un ejemplo de cómo se ve un NavBar en un sitio web:
 
-![bootstrap tutorial](../../assets/images/6351de1c-6d90-4502-8823-4b751981db9f.png)
+![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/6351de1c-6d90-4502-8823-4b751981db9f.png?raw=true)
 
 > :link:[**Lee más sobre el "NavBar" aquí**](https://getbootstrap.com/docs/4.0/components/navbar/)
 
 ```html
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">Website Brand</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">
-                                <a class="btn btn-success">Create a new post</a>
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Settings
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <i class="fa-brands fa-instagram mr-1"></i>
+      <span>Instagram</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">
+            <span class="btn btn-success">
+              Create a new post
+            </span>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-secondary" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+             <i class="fa-solid fa-gear"></i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 ```
 
 #### Card
@@ -192,9 +201,9 @@ Este es probablemente el componente de Bootstrap más usado, cada sitio web tien
 + Un típico muro de Pinterest.
 + Cualquier historia de una red social como Instagram, Facebook, twitter, etc.
 
-Aquí hay un ejemplo de como puede verse un sitio web con una "Card":
+Aquí hay un ejemplo de cómo puede verse un sitio web con una "Card":
 
-![bootstrap 4](../../assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png)
+![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png?raw=true)
 
 > :link: [**Lee más sobre la "Card" aquí**](https://getbootstrap.com/docs/4.0/components/card/)
 
@@ -213,11 +222,11 @@ Aquí hay un ejemplo de como puede verse un sitio web con una "Card":
 
 #### El Modal
 
-Todo el mundo odia el modal, es muy molesto, ¡siempre pregunta si te quieres incribir a una revista! 🙂
+Todo el mundo odia el modal, es muy molesto, ¡siempre pregunta si te quieres inscribir a una revista! 🙂
 
 Así es como se ve modal por defecto con Bootstrap.
 
-![bootstrap 4](../../assets/images/6bcba673-a543-4bf1-a80b-083914b91bef.png)
+![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/6bcba673-a543-4bf1-a80b-083914b91bef.png?raw=true)
 
 > :link:[**Lee más sobre el "Modal" aquí**](https://getbootstrap.com/docs/4.0/components/modal/)
 
@@ -249,7 +258,7 @@ div class="modal" tabindex="-1" role="dialog">
 ## Lo que realmente necesitas saber sobre Bootstrap
 
 
-La documentación oficial de Bootstrap es increible!! No necesitamos copiar y pegar todos los post.  Por favor visita los siguientes sitios web y enfócate en leer estos temas:
+La documentación oficial de Bootstrap es increíble!! No necesitamos copiar y pegar todos los post.  Por favor visita los siguientes sitios web y enfócate en leer estos temas:
 
 + [The grid system.](https://getbootstrap.com/docs/4.1/layout/grid/)
 + [Styling Forms.](https://getbootstrap.com/docs/4.1/components/forms/)
@@ -266,7 +275,7 @@ Te recomendamos que uses el CDN para importar bootstrap en tu archivo HTML, de e
 
 Si estás migrando tu proyecto a nueva versión de Bootstrap, recuerda siempre verificar su documentación.
 
-## Gana RE2PECT.
+## Gana RESPECT.
 
 
 El éxito no llega de la noche a la mañana.  Este es tu primer logro.  Déjame preguntarte ¿te sientes capaz de usar HTML, CSS, Layouts y Bootstrap?  ¡No te mientas!

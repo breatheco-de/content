@@ -10,7 +10,7 @@ status: "published"
 
 Below is an example of a great resume for you first coding job, during this article we go over each part of the document with explanations and examples:
 
-![Image Resume](../../assets/images/resume2.png)
+![Image Resume](https://github.com/breatheco-de/content/blob/master/src/assets/images/resume2.png?raw=true)
 
 ## Employment History
 

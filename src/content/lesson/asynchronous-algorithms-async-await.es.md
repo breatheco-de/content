@@ -13,22 +13,21 @@ tags: ["async","await","promise","asynchronous"]
 
 ## Programación Asíncrona con JavaScript
 
-
 Hasta ahora, hemos utilizado código JavaScript para ejecutar aplicaciones web simples, que incluyen: usar variables, llamar a funciones y jugar con el ***DOM***. En las funciones, específicamente, incluso pasamos funciones a otras funciones (***funciones callback***) y hay mucho más que hablar al respecto. 
 
-Comencemos diciendo que JavaScript por defecto es síncrono y con una sola secuencia, es decir: el código se ejecuta desde la línea 1 hasta el último, uno a la vez y en ese orden normalmente. Échale un vistazo a éste ejemplo:
+Comencemos diciendo que JavaScript por defecto es síncrono y con una sola secuencia, es decir: el código se ejecuta desde la línea 1 hasta el último, uno a la vez y en ese orden normalmente. Échale un vistazo a este ejemplo:
 
 #### Sincróno(por defecto)
 
 ```javascript
-1    function ejecutarPrimero(){
-2 	console.log("primero");
-3    }
-4    function ejecutarSegundo(){
-5 	console.log("segundo");
-6    }
-7    ejecutarSegundo();
-8    ejecutarPrimero();
+function ejecutarPrimero(){
+	console.log("primero");
+}
+function ejecutarSegundo(){
+	console.log("segundo");
+}
+ejecutarSegundo();
+ejecutarPrimero();
 
 /*
 RESULTADO EN CONSOLA:
@@ -44,15 +43,15 @@ Las cosas se complican más cuando se llaman funciones dentro de funciones, como
 #### Funciones de Llamada
 
 ```javascript
-1    function correPrimero(){
-2	console.log("Quiero correr primero");
-3	correSegundo();
-4	console.log("Yo también quiero correr cuando correPrimero corra");
-5    }
-6    function correSegundo(){
-7	console.log("¿Donde estoy corriendo?");
-8    }
-9   correPrimero();
+function correPrimero(){
+	console.log("Quiero correr primero");
+	correSegundo();
+	console.log("Yo también quiero correr cuando correPrimero corra");
+}
+function correSegundo(){
+	console.log("¿Dónde estoy corriendo?");
+}
+correPrimero();
 
 /*
 RESULTADO CONSOLA:
@@ -80,7 +79,7 @@ Pero espera, hay más... Incluso podríamos pasar una *función* como argumento 
 ```javascript
 1    function correPrimero(unaFuncion){
 2	console.log("Quiero correr primero");
-3	unaFuncion();
+3	correPrimero();
 4	correSegundo();
 5	console.log("También quiero correr cuando se ejecute correPrimero");
 6    }
@@ -119,21 +118,20 @@ Ahora, supongamos que necesitamos cargar algunos archivos desde un servidor, esp
 #### Carga síncrona de imágenes.
 
 ```javascript
-1    function cargarImagen(){
-3	console.log("¡Cárgala!");
-4	//código para cargar una imagen
-5	console.log("¡Imagen cargada!");
-6    }
-7    function usuarioEsperando(){
-8	console.log("No me gusta esperar");
-9    }
-10   cargarImagen ();
-11   usuarioEsperando ();
-12
+function cargarImagen(){
+	console.log("¡Cárgala!");
+	//código para cargar una imagen
+	console.log("¡Imagen cargada!");
+}
+function usuarioEsperando(){
+	console.log("No me gusta esperar");
+}
+cargarImagen ();
+usuarioEsperando ();
 
 /*RESULTADO CONSOLA
 	> ¡Cárgala! 			//el usuario comienza a esperar
-					//ahora el usuario tiene que esperar a que lleguen las imagen, hora: desconocido... navegador: congelado :(
+					//ahora el usuario tiene que esperar a que lleguen las imágenes, hora: desconocido... navegador: congelado :(
 	> ¡Imagen cargada!		//después ?? segundos
 	> No me gusta esperar 		//No queremos que los usuarios esperen tanto tiempo para ver las imágenes.
 */
@@ -172,14 +170,14 @@ usuarioEsperando();
 */
 ```
 
-Javascript ofrece varias funciones asíncronas predefinidas que podemos utilizar para resolver cualquier escenario posible. Algunos de ellas son:
+Javascript ofrece varias funciones asíncronas predefinidas que podemos utilizar para resolver cualquier escenario posible. Algunas de ellas son:
 
 + [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch): se utiliza para cargar archivos de forma asíncrona.
 + [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout): se utiliza para establecer temporizadores entre bloques de código.
 
 En este caso, utilizamos la Fetch API para cargar las imágenes y *luego* (después de obtener una respuesta desde backend) escribimos algunos comentarios sobre el proceso.
 
-Tenga en cuenta que cualquier peticion (request) http puede fallar por diversas razones, siempre debemos estar preparados para la falla.
+Ten en cuenta que cualquier peticion (request) http puede fallar por diversas razones, siempre debemos estar preparados para la falla.
 
 ## Promesas
 
@@ -211,11 +209,10 @@ console.log(myPomise);
 */
 ```
 
-### Resolve y reject funciones
+### Funciones Resolve y Reject 
 
 + ***Resolve*** se utiliza para cambiar el estado de una promesa de pendiente a cumplida.
 + ***Reject*** se utiliza para cambiar el estado de pendiente a rechazado.
-
 
 ### Métodos importantes que debemos conocer al usar promesas.
 
@@ -236,15 +233,14 @@ console.log(myPomise);
 	*/
 ```
 
-
 + ***reject***: devuelve una promesa rechazada por un motivo.
 
 ```javascript
 	Promise.reject(new Error("fui rechazado")).then(error => console.log(error));
 ```
 
-
 + ***then***: este método devuelve una promesa y puede tomar hasta 2 argumentos. Una para la promesa resuelta y otra para la promesa rechazada. Arriba hay un ejemplo que usa el método ***then*** y toma un argumento.
+
 ```javascript
 	var promise =  new  Promise(function(resolve,reject){
 		resolve("Estaba resuelto y puedes verme cuando usas el método.");
@@ -259,7 +255,6 @@ console.log(myPomise);
 	});
 	promise.catch(error => console.log(error));
 ```
-
 
 ## Async/await
 
@@ -292,6 +287,7 @@ useAsyncFunction();
 	>"Tuve que esperar a que terminara"
 */
 ```
+
 ### Async se vuelve poderoso cuando hay varios pasos en acción:
 
 ```javascript
@@ -327,6 +323,7 @@ async function handlingAllPromises() {
 }
 handlingAllPromises();
 ```
+
 #### En el ejemplo anterior, en lugar de esperar una promesa en cada nueva línea, podríamos usar el método Promise.all y esperar a que se cumplan todas las promesas.
 
 ```javascript
@@ -361,7 +358,8 @@ async function handeErrors() {
 }
 ```
 
-### Fetch API se basa en la promesa. ¿Adivina qué? Puedes usarlo en tus funciones asíncronas también !!
+### Fetch API se basa en la promesa. ¿Adivina qué? ¡Puedes usarlo en tus funciones asíncronas también!
+
 ```javascript
 async  function fetchData(endpoint) { 
 	const response = await  fetch(endpoint); //nota el uso de fetch api
@@ -378,4 +376,5 @@ fetchData(http://dummyData/api/allUsers); //este es un ejemplo de endpoint
 ```
 
 ## En conclusión
+
 Tienes la capacidad de crear aplicaciones web increíbles y más rápidas. Además, los usuarios y las tareas más rápidas ya no tienen que esperar a que finalicen las tareas lentas, gracias a la ***programación asíncrona***.

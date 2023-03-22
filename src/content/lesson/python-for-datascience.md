@@ -104,7 +104,6 @@ If we are not going to be using Jupyter notebooks as much as other datascientis,
 - Virtual environment: every project could have a different python version, that is why you need to create virtual enviroments to isolate your projects from each other.
 - Pipenv: Is an awsome tool that simplifies the user of PIP and Virtual Env.
 
-
 ### Typical data-science project structure
 
 We will be using a template for our projects called [Cookie Cutter Datascience](https://drivendata.github.io/cookiecutter-data-science/). Using a template is always a good idea to organize your peroject files and workflow. You can read the documentation and watch [this video on how it works](https://www.youtube.com/watch?v=nExL0SgKsDY).
