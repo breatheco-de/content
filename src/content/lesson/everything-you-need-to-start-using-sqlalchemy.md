@@ -39,7 +39,7 @@ user.name = 'Bob'
 user.last_name = 'Ross'
 
 # add the user to the database
-db.session.commit()
+db.session.add(user)
 
 # similar to the Git commit what it does is save all the changes you have made
 db.session.commit()
