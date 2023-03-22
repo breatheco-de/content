@@ -11,14 +11,13 @@ status: "published"
 
 ## Formularios HTML
 
+Esta lección es muy fácil de entender, pero es esencial debido a que en este nuevo conocimiento, se transmitirá toda la interactividad de Internet. Hay algunas etiquetas HTML adicionales que debemos analizar antes de terminar el Pre-Work: son las primeras formas posibles de interacción que se introdujeron en HTML: las entradas o inputs y los formularios.
 
-Esta lección es muy fácil de entender - pero es esencial debido a que en este nuevo conocimiento, se transmitirá toda la interactividad de Internet. Hay algunas etiquetas HTML adicionales que debemos analizar antes de terminar el Pre-Work: son las primeras formas posibles de interacción que se introdujeron en HTML: las entradas o inputs y los formularios.
+Como siempre, comparemos nuestro sitio web con un documento de MS Word... En algún momento, los científicos necesitaban crear formularios como los que llenamos cuando pagamos nuestros impuestos: con espacios en blanco disponibles para que el usuario los llene con su Nombre, Apellido, Fecha de nacimiento, etc.
 
-Como siempre, comparemos nuestro sitio web con un documento de MS Word ... En algún momento, los científicos necesitaban crear formularios como los que llenamos cuando pagamos nuestros impuestos: con espacios en blanco disponibles para que el usuario los llene con su Nombre, Apellido, Fecha de nacimiento, etc.
+![html textarea html input](https://github.com/breatheco-de/content/blob/master/src/assets/images/12ff6e40-706f-47ff-9ada-53dada968eaf.png?raw=true)
 
-![html textarea html input](../../assets/images/12ff6e40-706f-47ff-9ada-53dada968eaf.png)
-
-Los elementos que el usuario completa en un formulario se denominan `<inputs>` y siempre tienen que estar envueltos dentro de una etiqueta `<form>`. También puedes utilizar todas las demás etiquetas HTML que aprendimos en las lecciones anteriores sin ningún problema.
+Los elementos que el usuario completa en un formulario se denominan `<input>` y siempre tienen que estar envueltos dentro de una etiqueta `<form>`. También puedes utilizar todas las demás etiquetas HTML que aprendimos en las lecciones anteriores sin ningún problema.
 
 Aquí hay un ejemplo de un formulario simple en HTML:
 
@@ -34,28 +33,27 @@ La siguiente es una lista de todos los elementos posibles que podemos usar para 
 |Textarea |`<textarea>`   |El área de texto es ideal para inputs de texto largos. Su principal diferencia respecto al input de texto es su capacidad de permitir múltiples líneas.<br>`<textarea name="comments"><textarea/>`   |
 |Contraseña   |`<input type="password" />`   |Esto es como un tipo de input = "texto" pero con la única diferencia de que los caracteres están ocultos como viñetas: el usuario no puede ver lo que están escribiendo.<br>`<input type="password" name="password" />`   |
 |Radiobutton   |`<input type="radio">`   |Permite al usuario seleccionar sólo una de todos los inputs con el mismo nombre.<br>`<input type="radio" name="color" value="red" />` <br> `<input type="radio" name="color" value="green" />`   |
-|Checkbox   |`<input type="check">`   |Debes usar corchetes en el nombre del input para permitir que el usuario seleccione múltiples opciones al mismo tiempo.<br>`<input type="check" name="color[]" value="green" />`<br> `<input type="check" name="color[]" value="blue" />`   |
+|Checkbox   |`<input type="checkbox">`   |Debes usar corchetes en el nombre del input para permitir que el usuario seleccione múltiples opciones al mismo tiempo.<br>`<input type="checkbox" name="color[]" value="green" />`<br> `<input type="checkbox" name="color[]" value="blue" />`   |
 |Archivo   |`<input type="file">`   |Esta es la única manera de trabajar con archivos. Por ejemplo: es lo que usan los sitios web cuando te piden que subas una foto.<br>`<input type="file" name="photo" value="" />`   |
 |Botón de Enviar   |`<input type="submit">`   |Cuando el formulario está listo para ser enviado, el usuario presiona este botón "enviar" y todo se envía al servidor para su procesamiento.<br>`<input type="submit" value="Send Form" />`   |
-|Select |`<select>`   |Pide al usuario que elija uno o más elementos de una lista de opciones.<br>`<select name="color" /> <option value="red">Red </option> <option value="yellow">Yellow</option> <select />`   |
+|Select |`<select>`   |Pide al usuario que elija uno o más elementos de una lista de opciones.<br>`<select name="color"> <option value="red">Red </option> <option value="yellow">Yellow</option> <select/>`   |
 
 ## Atributos del Input o Entrada
 
-
 Al igual que cualquier otra etiqueta HTML, las etiquetas de input tienen varios atributos que se pueden configurar para describir su comportamiento de manera más específica:
 
-`VALUE`:  Puede especificar un valor predeterminado que debe tener el input antes de que el usuario la complete:
+`VALUE`: Puedes especificar un valor predeterminado que debe tener el input antes de que el usuario la complete:
 
 ```html
 <input type="text" name="firstname" value="John">
 ```
-`READ ONLY`:  Determina si el usuario puede cambiar el valor del input.
+`READ ONLY`: Determina si el usuario puede cambiar el valor del input.
 
 ```html
 <input type="text" name="firstname" value="John" readonly>
 ```
 
-`DISABLED`:  Determina si el input será gris y de solo lectura. Los inputs deshabilitados no se envían al servidor: actúan como si nunca hubieran existido.
+`DISABLED`: Determina si el input será gris y de solo lectura. Los inputs deshabilitados no se envían al servidor: actúan como si nunca hubieran existido.
 
 ```html
 <input type="text" name="firstname" value="John" disabled>
@@ -70,16 +68,15 @@ Al igual que cualquier otra etiqueta HTML, las etiquetas de input tienen varios 
 ## Las formas METHOD y ACTION
 
 
-
 Los dos atributos más importantes que deben establecerse en la etiqueta `<form>` son la action y el method:
 
 **Action**: Es la URL donde se enviarán los datos recopilados del formulario.
 
-**Method**: Puede ser "POST" o "GET" - las principales diferencias serán: (1) Cómo se enviarán los datos recopilados a la página de destino una vez que lleguemos allí y (2) Cómo se envían los datos del formulario al servidor .
+**Method**: Puede ser "POST" o "GET". Las principales diferencias serán: (1) Cómo se enviarán los datos recopilados a la página de destino una vez que lleguemos allí y (2) Cómo se envían los datos del formulario al servidor.
 
 |**Usando el método GET**   |**Usando el método POST**   |
 |:----------------------|:-----------------------|
-|Todos los datos del formulario están codificados en la URL. Esto significa que adjuntará toda la información del formulario al final de la URL de destino, por ejemplo: http://www.mydestinationurl.com?input_name1=value1&input_name2&value2…..   |Los datos se ocultarán al usuario final. La URL permanecerá como se definió en el atributo "acción" y solo un desarrollador podrá solicitar la información del formulario.   |
+|Todos los datos del formulario están codificados en la URL. Esto significa que adjuntará toda la información del formulario al final de la URL de destino, por ejemplo: http://www.mydestinationurl.com?input_name1=value1&input_name2&value2….  |Los datos se ocultarán al usuario final. La URL permanecerá como se definió en el atributo "acción" y solo un desarrollador podrá solicitar la información del formulario.   |
 
 > :point_up: Si vas a utilizar el ` <input type =" file ">` el único método admitido es POST.
 

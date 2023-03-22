@@ -29,7 +29,7 @@ A variable is a container in which you can store any data.  For example, you can
 age = 24
 ```
 
-![what is javascript](../../assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
+![what is python](https://github.com/breatheco-de/content/blob/master/src/assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif?raw=true)
 
 With virtually any programming language you can create as many variables as you want or need, all you have to do is type one word in your editor and that will become your variable, for example, this is how we declare a variable "name":
 
@@ -63,13 +63,13 @@ Note: the variable name in this code will end up having the value `Rita`, it wil
 
 Other languages like javascript make you use a special statement before the variable name in order to "declare" the variable for the first time like this:
 
-```javascript
-let age = 12;
+```python
+age = 12;
 ```
 
 Other -strongly typed- languages like Typescript also make you declare the type of value that the variable will contain inside:
 
-```typescript
+```python
 let age : number = 12;
 ```
 
@@ -116,7 +116,7 @@ What operations can I do to variables?  Depending on the data-type you have a fe
 
 Functions are pieces of code that can be re-used several times during runtime regardless of their position in the code.  There are hundreds of reasons to use functions, but here are the 2 most important ones:
 
-+ Divide and conquer: It is always easier to split your problems into several smaller problems.  This will become your biggest challenge when solving complex problems.  Functions will be your best tools for abstraction.
++ Divide and conquer: It is always easier to split your problems into several smaller problems. This will become your biggest challenge when solving complex problems.  Functions will be your best tools for abstraction.
 + Re-use: Any normal development will take at least 5,000 lines of code.  It is redundant and inefficent to keep writing the same code over and over again.
 
 ## Declaring a Function
@@ -129,7 +129,7 @@ Then, you jump the line (hit enter) and write the code that your function must a
 
 **Note:**  To return something you use the `return` word at any time within the content of your function (between the curly brackets).
 
-![learn to code in javascript](../../assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif)
+![learn to code in javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif?raw=true)
 
 ```python
 def multiply (param1, param2):
@@ -174,7 +174,7 @@ For example, if I want a computer to give candy only to kids older than 13 years
 
  **Is this kid’s age greater than 13?  Yes or no?**
 
-**In JavaScript, you can instruct the computer to do the following logical operations:**
+**In Python, you can instruct the computer to do the following logical operations:**
 
 |**Operation**  |**Syntaxis**   |**Examples**   |
 |:--------------|:--------------|:--------------|
@@ -192,9 +192,9 @@ You can group the logical operations in parentheses, and also use nested parenth
 
 |**Operation**   |**Syntaxis**   |**Examples**   |
 |:---------------|:--------------|:--------------|
-|AND             |&&             |With AND, both sides HAVE TO BE TRUE in order for everything to become true.<br>Is (5 == 5 && 3 > 1) ? True!<br>Is ('Ramon' == 'Pedro' && 2 == 2) ? False!    |
-|OR     |\|\|     |Is ('Oscar' != 'Maria' OR 2 != 2)? True!<br>Is (5 == '5' AND 'Ramon' != 'Pedro') OR (2 == 2)? True!   |
-|NOT     |!     |NOT will be the exact opposite of the result of the logical operator:<br>Is !(5 > 5)? True!<br>Is !(True)? False!    |
+|AND             |and             |With AND, both sides HAVE TO BE TRUE in order for everything to become true.<br>Is (5 == 5 && 3 > 1) ? True!<br>Is ('Ramon' == 'Pedro' && 2 == 2) ? False!    |
+|OR     |or     |Is ('Oscar' != 'Maria' or 2 != 2)? True!<br>Is (5 == '5' and 'Ramon' != 'Pedro') or (2 == 2)? True!   |
+|NOT     |not    |NOT will be the exact opposite of the result of the logical operator:<br>Is not (5 > 5)? True!<br>Is not (True)? False!    |
 
 
 ## Control the Flow of Your Code
@@ -252,7 +252,7 @@ for i in range(10):
 In python you can store a group of related values in key => value pairs like this:
 
 ```python
-var dog = {
+dog = {
   "breed": "Great Dane",
   "size": "Extra Large",
   "age": 3 ,

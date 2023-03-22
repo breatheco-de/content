@@ -30,9 +30,9 @@ Una variable es un contenedor en el que puedes almacenar cualquier dato. Por eje
 edad = 24
 ```
 
-![qué es javascript](../../assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
+![qué es javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif?raw=true)
 
-Casi con cualquier lenguaje de programación puedes crear tantas variables como quieras o necesites. Para empazar debes **declarar el nombre de esa variable** usando el término *var* seguido de un nombre _único_ (relativo al documento/proyecto).
+Casi con cualquier lenguaje de programación puedes crear tantas variables como quieras o necesites. Para empazar, en python debes **declarar el nombre de esa variable** con un nombre _único_ (relativo al valor o lo que reciba).
 
 El **nombre de la variable** es la manera más efectiva de describir el contenido de una variable, úsalo con sabiduría. Es importante escoger un nombre que claramente te indique (a ti y a otros programadores) sobre los datos que están siendo almacenados en la variable. Si escogemos un nombre malo o ambigüo, nuestro código será casi imposible de entender, ergo se vuelve inutilizable. Por ejemplo digamos que le cambiamos el nombre a nuestra variable "edad" a "a":
 
@@ -113,7 +113,7 @@ Luego, abrirás una llave y escribirás el código que tu función siempre debe 
 
 **Nota:**  Para retornar algo, usa la palabra `return` en cualquier momento dentro del contenido de su función (dentro de las llaves).
 
-![learn to code in javascript](../../assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif)
+![learn to code in javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif?raw=true)
 
 ```python
 def multiply (param1, param2):
@@ -229,7 +229,7 @@ for i in range(10):
 
 Los bucles `For… in` pueden usarse para recorrer con un bucle las propiedades de un objeto. Dentro de los paréntesis, puedes establecer cualquier nombre para representar la información dentro del objeto, y luego incluir el nombre del objeto:
 
-for (var in object)<br> {
+for (variable in object)<br> {
 bloque de código a ejecutarse
 }
 
@@ -241,7 +241,7 @@ dog = {
   "name": "Rocky"
 }
 
-for(items in dog):
+for items in dog:
   print(dog[items])
 
 ```
