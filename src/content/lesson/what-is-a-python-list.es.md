@@ -122,7 +122,7 @@ Te permitirá eliminar la primera ocurrencia de un elemento por su nombre.
 ```python
 # Si deseas eliminar 'Chris', necesitas hacer lo siguiente: 
 my_list = ['Pedro', 'Chris', 'Juan', 'Maria']
-my_new_array.remove('Chris')
+my_list.remove('Chris')
 print(my_list)  # esto imprimirá ['Pedro', 'Juan', 'Maria']
 
 ```
@@ -159,7 +159,7 @@ A veces es útil recorrer un arreglo utilizando la posicion:
 
 ```python
 for i in range(0, len(my_list)):
-    print("La posicion es " + str(i) + " para el elemento " + myList[i])
+    print("La posicion es " + str(i) + " para el elemento " + my_list[i])
 
 # Imprimira lo siquiente
 # - La posicion es 0 para el elemento Pedro
@@ -169,5 +169,3 @@ for i in range(0, len(my_list)):
 
 ```
 
-
-   
