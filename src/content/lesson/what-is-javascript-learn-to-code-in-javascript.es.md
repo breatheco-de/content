@@ -11,17 +11,15 @@ status: "published"
 
 ## ¿Qué es programar?
 
-
-**La programación no es HTML, CSS o Position y Display ...** Esos lenguajes no fueron diseñados para desarrolladores, son la única forma en que tenemos que renderizar cosas en un navegador.
+**La programación no es HTML, CSS o Position y Display...** Esos lenguajes no fueron diseñados para desarrolladores, son la única forma en que tenemos que renderizar cosas en un navegador.
 
 **La Programación es hacer *que el computador* "obedezca"…**
 
-Todo el mundo usa los computadores por diferentes razones. Algunos computadores se crean para ayudar a las personas en su oficina (como los computadores personales), otras para mantener una habitación a una temperatura específica (como [NEST](https://nest.com/es/)), otros están hechas para caminar en Marte, y muchas más cosas.
+Todo el mundo usa los computadores por diferentes razones. Algunos computadores se crean para ayudar a las personas en su oficina (como los computadores personales), otros para mantener una habitación a una temperatura específica (como [NEST](https://nest.com/es/)), otros están hechos para caminar en Marte, y muchas más cosas.
 
 No importa para qué está hecho el computador, la base de su existencia es la misma: seguir los comandos. En este capítulo, aprenderás 5 cosas básicas que necesitarás para entender cualquier computador moderno a través del código.
 
 ## Variables
-
 
 <iframe width="830" height="467" src="https://www.youtube.com/embed/Q-eob0WBKs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -29,15 +27,15 @@ No importa para qué está hecho el computador, la base de su existencia es la m
 
 Las variables no son un concepto nuevo, cualquiera que sepa matemáticas está familiarizado con el concepto de variables.
 
-Una variable es un contenedor en el que puede almacenar cualquier dato. Por ejemplo, puedes tener la siguiente variable:
+Una variable es un contenedor en el que se puede almacenar cualquier dato. Por ejemplo, puedes tener la siguiente variable:
 
 ```javascript
 var age = 24;
 ```
 
-![what is javascript](../../assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
+![what is javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif?raw=true)
 
-Prácticamente con cualquier lenguaje de programación, puedes crear tantas variables como desee o necesite. Para comenzar, debe **declarar el nombre de esa variable** usando el término: *var* seguido de un nombre _único_ (relativo al documento/proyecto).
+Prácticamente con cualquier lenguaje de programación, puedes crear tantas variables como desees o necesites. Para comenzar, debes **declarar el nombre de esa variable** usando el término: *var* seguido de un nombre _único_ (relativo al documento/proyecto).
 
 El **nombre de la variable** es la forma más efectiva que tenemos de describir el contenido de la variable, así que úsalo sabiamente. Es importante elegir un nombre que te indique claramente (a ti y los otros programadores) los datos que se almacenan en la variable. Si elegimos un nombre malo o ambiguo, nuestro código será casi imposible de entender, ergo se volverá inutilizable. Por ejemplo, digamos que cambiamos el nombre de nuestra variable "age" a `a`, sería:
 
@@ -47,7 +45,7 @@ var a = 24 ;
 
 Como puedes ver arriba, el nuevo nombre de la variable no nos dice nada sobre los datos que se almacenan y por qué los estamos utilizando.
 
-La elección del nombre para tu variable realmente importa, por lo que por favor no uses nombres genéricos. ¡Sé descriptivo! Un nombre vago hará que sea difícil comprender del propósito de la variable, especialmente para otros programadores (incluido tu futuro yo).
+La elección del nombre para tu variable realmente importa, por lo que por favor no uses nombres genéricos. ¡Sé descriptivo! Un nombre vago hará que sea difícil comprender el propósito de la variable, especialmente para otros programadores (incluido tu futuro yo).
 
 ## Asignando un valor a las variables
 
@@ -66,14 +64,13 @@ var b ;
 
 ### `var` vs.  `let`  vs. `const`
 
-
 Como aprendimos anteriormente, usamos la palabra clave `var` para declarar una variable. Hay otras dos palabras claves que también podemos usar para declarar variables: ***const & let***. Las principales diferencias entre estos tipos de variables tienen que ver con el alcance.
 
-***Const***:  Esta palabra clave se utiliza cuando el valor permanece constante durante toda la vida del script. El valor de la variable declarada con esta palabra clave nunca se puede cambiar. Si intentas cambiarlo, se producirá un error.
+***Const***: Esta palabra clave se utiliza cuando el valor permanece constante durante toda la vida del script. El valor de la variable declarada con esta palabra clave nunca se puede cambiar. Si intentas cambiarlo, se producirá un error.
 
-***Let***:  Los valores solo están limitados al alcance del bloque de código (cualquier cosa entre llaves) en el que se declara. Si una función tiene más de un bloque de código, la variable se considerará una variable diferente en cada bloque.
+***Let***: Los valores solo están limitados al alcance del bloque de código (cualquier cosa entre llaves) en el que se declara. Si una función tiene más de un bloque de código, la variable se considerará una variable diferente en cada bloque.
 
-***Var***:  Su alcance está dentro de la función en la que se declara. Esto significa que la variable se mantendrá igual durante toda la función, incluso si hay más de un bloque de código en la función.
+***Var***: Su alcance está dentro de la función en la que se declara. Esto significa que la variable se mantendrá igual durante toda la función, incluso si hay más de un bloque de código en la función.
 
 > :link: [Lee más sobre `*var*`, `let` y `const`](http://wesbos.com/let-vs-const/)
 
@@ -103,11 +100,7 @@ Las variables pueden tener diferentes tipos de valores. Algunos de ellos están 
 
 <div align="right"><small><a href="https://repl.it/F05K/3?lite=true">Haz clic aquí para abrir el video en una nueva ventana</a></small></div>
 
-
-
-
 ## Operaciones
-
 
 ¿Qué operaciones puedo hacer con las variables? Dependiendo del tipo de datos tienes varias posibilidades:
 
@@ -118,7 +111,6 @@ Las variables pueden tener diferentes tipos de valores. Algunos de ellos están 
 
 ## Funciones
 
-
 Las funciones son pedazos de código que se pueden reutilizar varias veces durante el tiempo de ejecución, independiente de su posición en el código. Hay cientos de razones para usar funciones, pero aquí están las 2 más importantes:
 
 + Dividir para conquistar: siempre es más fácil dividir tus problemas en varios problemas más pequeños. Esto se convertirá en tu mayor desafío a la hora de resolver problemas complejos. Las funciones serán tus mejores herramientas para la abstracción.
@@ -126,16 +118,15 @@ Las funciones son pedazos de código que se pueden reutilizar varias veces duran
 
 ## Declarar una Función
 
-
 Para declarar una función en JavaScript, debes comenzar a utilizar la palabra `function` seguida del nombre que le quieres dar a esa función.
 
 Luego debes especificar los parámetros (entradas) que tendrá la función entre paréntesis.
 
 Luego, abrirás una llave y escribirás el código que tu función siempre debe realizar. Una vez que hayas terminado, cierra la llave y ahora tu función está lista para ser utilizada.
 
-**Nota:**  Para retornar algo, usa la palabra `return` en cualquier momento dentro del contenido de su función (dentro de las llaves).
+**Nota:** Para retornar algo, usa la palabra `return` en cualquier momento dentro del contenido de su función (dentro de las llaves).
 
-![learn to code in javascript](../../assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif)
+![learn to code in javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif?raw=true)
 
 ```javascript
 function multiplicar (param1, param2)
@@ -148,7 +139,6 @@ function multiplicar (param1, param2)
 <div align="right"><small><a href="https://repl.it/F10t/0?lite=true">Haz clic aquí para abrir el video en una nueva ventana</a></small></div>
 
 ## Parámetros y alcance de la Función
-
 
 El alcance de una variable determina dónde está disponible esa variable para ser utilizada. Hay dos tipos principales de alcances:
 
@@ -166,12 +156,11 @@ Si declaras una variable al comienzo de tu código, estará disponible a lo larg
 
 ## Operaciones lógicas
 
-
 Los computadores piensan todo en blanco o negro. Todo es verdadero o falso. Todas las decisiones en un computador se reducen a un simple **booleano**. Puedes preparar un computador para resolver problemas particulares si escribes un código que haga las preguntas adecuadas para resolver ese problema.
 
 Por ejemplo, si quiero un computador para dar dulces sólo a niños mayores de 13 años de edad, puedo indicarle al computador que pregunte:
 
- **¿La edad de este niño es mayor de 13 años? ¿Sí o no?**
+**¿La edad de este niño es mayor de 13 años? ¿Sí o no?**
 
 **En JavaScript, puedes indicarle a la computadora que realice las siguientes operaciones lógicas:**
 
@@ -194,15 +183,13 @@ Puedes agrupar las operaciones lógicas entre paréntesis y también usar parén
 |OR     |\|\|     |Es ('Oscar' != 'Maria' OR 2 != 2)? True!<br>Es (5 == '5' AND 'Ramon' != 'Pedro') OR (2 == 2)? True!   |
 |NOT     |!     |NOT será exactamente lo contrario del resultado del operador lógico:<br>Es !(5 > 5)? True!<br>Is !(True)? False!    |
 
-
 ## Controla el Flujo de Tú Código
-
 
 Bien, ¡ahora es cuando todo empieza a ponerse divertido! Para controlar el flujo de tu aplicación, tienes varias opciones y las utilizarás cada día. Por lo tanto, debes sentirte cómodo usándolas.
 
 ### If…else…
 
-La primera herramienta que tienes es el condicional `if ... else`. Es muy fácil. Puedes decirle a la computadora que omita cualquier parte de tu código dependiendo del valor actual de tus variables.
+La primera herramienta que tienes es el condicional `if... else`. Es muy fácil. Puedes decirle a la computadora que omita cualquier parte de tu código dependiendo del valor actual de tus variables.
 
 La instrucción `if` te permite ejecutar un fragmento de código si se cumplen ciertas condiciones (o si son verdaderas). La declaración "else" ejecutará un fragmento de código alternativo en caso de que la condición sea falsa.
 
@@ -233,8 +220,7 @@ Es posible hacer un bucle de un segmento de su código tantas veces como desees 
 
 Imagina que estás dentro de un ascensor: el ascensor debe girar en bucle por los pisos hasta que alcance el piso específico que deseas.
 
-Un bucle `while` ejecutará un bloque de código siempre que una condición sea verdadera. Una vez que la condición sea falsa, el bucle dejará de ejecutar
-el bloque de código.
+Un bucle `while` ejecutará un bloque de código siempre que una condición sea verdadera. Una vez que la condición sea falsa, el bucle dejará de ejecutar el bloque de código.
 
 ```javascript
 var sum = 0;
@@ -248,11 +234,10 @@ console.log("Sum = " + sum);
 
 ## For
 
+El `For` es similar a` while,` con la única diferencia de que debes especificar la condición para que se detenga desde un principio. Por esa razón, `for` es un poco más organizado y más fácil de entender.
 
-`For` es similar a` while,` con la única diferencia de que debes especificar la condición para que se detenga desde un principio. Por esa razón, `for` es un poco más organizado y más fácil de entender.
 
-
-Nota: cuando realices un bucle, asegúrate de que la declaración finalmente devuelva falso para evitar un bucle infinito. En un bucle infinito, el código se ejecuta indefinidamente y hará que tu navegador se bloquee.
+***Nota: cuando realices un bucle, asegúrate de que la declaración finalmente devuelva falso para evitar un bucle infinito. En un bucle infinito, el código se ejecuta indefinidamente y hará que tu navegador se bloquee.***
 
 <iframe width="578" height="325" src="https://www.youtube.com/embed/TSMzvFwpE_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -266,7 +251,6 @@ for (var i = 0; i < 10; i++) {
 ```
 
 ## For..in
-
 
 Los bucles `For… in` pueden usarse para recorrer con un bucle las propiedades de un objeto. Dentro de los paréntesis, puedes establecer cualquier nombre para representar la información dentro del objeto, y luego incluir el nombre del objeto:
 
@@ -284,11 +268,10 @@ var perro = {
 }
 
 for(items in perro){
-  console.log(dog[items]);
+  console.log(perro[items]);
 }
 ```
 
-## Entonces ... dime, ¿te gustó la programación?
+## Entonces ... Dime, ¿te gustó la programación?
 
-
-La programación es como Taco Bell: siempre se usan los mismos ingredientes pero se mezclan de diferentes maneras. Sabes cómo escribir código, pero ... ¿sabes cómo resolver problemas reales?
+La programación es como Taco Bell: siempre se usan los mismos ingredientes pero se mezclan de diferentes maneras. Sabes cómo escribir código, pero... ¿sabes cómo resolver problemas reales?

@@ -1,7 +1,7 @@
 ---
 title: "Working with Lists in Python"
 subtitle: "Lists are the first type of data-structures that Python has to store multiple values at once, they are very powerful and heavily used in every day operations for any type of program in any industry"
-cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png?raw=true"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["list"]
@@ -9,18 +9,9 @@ status: "published"
 
 ---
 
-## Introduction to Python lists
+If you want to know how to create lists, access elements within lists, manipulate lists, and perform common operations such as sorting, filtering, and transforming, this article is for you. Whether you're a beginner or an experienced programmer, this article provides a comprehensive guide. The step-by-step [instructions for python](https://4geeks.com/lesson/intro-to-python) lists and clear explanations make it easy to understand and apply the concepts.
 
-Mastering the use of lists and loops is one of the 5 fundamental skills of building algorithms:
-
-1. Variables.
-2. Conditionals.
-3. `Lists`.
-4. `Loops`.
-5. Functions.
-
-
-## What is a List?
+## What is a Python List?
 
 A list is, normally, any collection of values.  The rules of how to add or remove elements from that list can change from one programming language to another.  But – generally – they are the only ways for developers to create elements.
 Lists are not the only way we have to list store multiple values at once but it is the most used tool for that purpose. For example: list of students, list of artists, list of transactions…anything!
@@ -35,12 +26,12 @@ Every list has the same basic concepts:
 
 **Index:** is the position of the element.
 
-![what is an list define list](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
+![what is an list define list](https://storage.googleapis.com/breathecode-asset-images/a9f6a0d4a2fc4db11ce30aabf3e189f7beb32273a7f9a2ba5e19b765846d4ce9.png?raw=true)
 
 
 > :point_up:List positions start a **zero (0)**; the first element is the element in the position **zero (0)**
 
-## How to Declare a List?
+## How to Declare a Python List?
 
 
 These are different examples of list declarations:
@@ -183,4 +174,4 @@ for i in range(1, 6, 2): # range(start value, end value (non inclusive), increme
 # The positions is 5 for the element Kyle
 ```
 
-.
+You can read more related articles at [4Geeks](https://4geeks.com/) and keep on the Geek side!

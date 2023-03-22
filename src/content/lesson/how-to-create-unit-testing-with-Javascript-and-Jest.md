@@ -14,7 +14,7 @@ Senior developers understand their code will have bugs (no matter how smart you 
 
 There are several ways to test your applications, but unit tests are the most powerful tool a developer has to ensure high quality code.
 
-![Write Code to test code](../../assets/images/6b4upqv6at321.jpg)
+![Write Code to test code](https://github.com/breatheco-de/content/blob/master/src/assets/images/6b4upqv6at321.jpg?raw=true)
 
  
 ## What is Unit Testing?
@@ -43,13 +43,13 @@ test('12 and 5 should return 17', () => {
 
 Note: Unit tests don't care about the content of the `sum` function, it only cares about the OUTPUT of the function with a given INPUT.
 
-![unit testing examples](../../assets/images/unit-test1.png)
+![unit testing examples](https://github.com/breatheco-de/content/blob/master/src/assets/images/unit-test1.png?raw=true)
 
-## Arrow function.
+## Arrow function
 
-Another novelty of ES6 are the "Arrow functions". The way to create these functions is as follows: First we will define the list of parameters, if necessary, between parentheses followed by the => symbol and the {} to indicate the instructions to be carried out.
+Another novelty of ES6 is the "Arrow functions". The way to create these functions is as follows: First, we will define the list of parameters, if necessary, between parentheses followed by the => symbol and the {} to indicate the instructions to be carried out.
 
-In addition to the syntax that is different from the previous ones, these type of functions have the following characteristics.
+In addition to the syntax that is different from the previous ones, this type of functions have the following characteristics.
 
 The "arrow functions" do not create their own context when executed. Unlike the "function expression" or the "function declaration" that creates its own context.
 
@@ -57,30 +57,29 @@ The "arrow functions" are anonymous.
 
 The arguments object is not in the context of the function.
 
-If when defining the function we do not use the symbol of the curly braces. The function will return as a result of the function the result of the execution of the instruction that we have indicated.
-
+If when defining the function, we do not use the symbol of the curly braces. The function will return as a result of the function the result of the execution of the instruction that we have indicated.
 
 ## Benefits of using Unit Testing:
 
-+ **you can find and prevent bugs easily** If there is a problem in the future you'll be able to identify the cause a lot faster than having to go through all the code. Also your end-user will be very happy to not have a buggy product.
++ **you can find and prevent bugs easily** If there is a problem in the future, you'll be able to identify the cause a lot faster than having to go through all the code. Also, your end-user will be very happy to not have a buggy product.
 
 + **Unit Testing saves time....and money** When writing Unit tests you may identify many possible bugs and fix them right away, instead of fixing them in different stages of the product.
 
-+ **Your code is more reliable and reusable** When your code is divided in units or components where each one has their responsability or function, your code becomes more reliable and it gives you more confidence. Since you have already tested you can reuse it: it is clean and efficient and you can migrate your code and tests to a new project.
++ **Your code is more reliable and reusable** When your code is divided into units or components where each one has its responsibility or function, your code becomes more reliable, and it gives you more confidence. Since you have already tested, you can reuse it: it is clean and efficient, and you can migrate your code and tests to a new project.
 
 + Good Unit tests serve as **documentation and define** what your code is supposed to do.
 
-+ **Unit Testing improves teamwork**. You will be able to follow the logic behind your code and your team will be able coordinate their code accordingly. By reviewing each other's code teamwork is more agile.
++ **Unit Testing improves teamwork**. You will be able to follow the logic behind your code, and your team will be able to coordinate their code accordingly. By reviewing each other's code, teamwork is more agile.
 
 ## Writing your first unit test with Jest
 
-Jest is the most popular unit testing framework in javascript, it is used by big companies like Airbnb, Twitter, Spotify and has plugins that integrate amazingly with front-end frameworks like React, Vue, Angular, etc.
+Jest is the most popular unit testing framework in Javascript, it is used by big companies like Airbnb, Twitter, and Spotify and has plugins that integrate amazingly with front-end frameworks like React, Vue, Angular, etc.
 
-It requires almost 0 configuration to start using it, it is extremely fast and the error or feedback messages are very clear.
+It requires almost 0 configurations to start using it, it is extremely fast and the error or feedback messages are very clear.
 
 ### Example Syntax
 
-The following function returns `true` if the given input string is uppercase, otherwise it returns `false`:
+The following function returns `true` if the given input string is uppercase, otherwise, it returns `false`:
 
 ```js
 function isUpperCase(sentence){
@@ -101,7 +100,7 @@ Here we are testing the function for the input `HELLO`, But doing only one test 
 ## Testing for failure
 
 It's better to find all the bugs now instead of later (in production), that's why you have to build your tests trying to **break your functions**.
-Instead of testing the ideal scenario try thinking about weird possible inputs you can pass to you function.
+Instead of testing the ideal scenario, try thinking about weird possible inputs you can pass to your function.
 
 ## Planning your tests
 
@@ -113,7 +112,7 @@ The only way to make sure your `isUpperCase` function works is to try every poss
 4. What happens if you pass a number instead of a string?
 5. What happens if you pass a boolean instead of a string?
 
-![unit test scenarios](../../assets/images/unit-test-scenarios.png)
+![unit test scenarios](https://github.com/breatheco-de/content/blob/master/src/assets/images/unit-test-scenarios.png?raw=true)
 
 Here is the code for each test we should build:
 
@@ -134,7 +133,7 @@ test('Testing for hello (lower)', () => {
      expect(result).toBe(false);
 })
 // Forth test possibility
-test('Boolean shoud return false', () => {
+test('Boolean should return false', () => {
      const result = isUpperCase(true);
      expect(result).toBe(false);
 })
@@ -160,4 +159,4 @@ We have been using `expect(something).toBe(something)` but jest has a lot of pos
 | Expect variable to be defined | expect(variable_name).toBeDefined() |
 | Expect array to contain another | expect(['a','b','c','e']).toEqual(expect.arrayContaining(['b','c'])) |
 
-Note: [Here you can find all the posible `expect` functions you can use.](https://jestjs.io/docs/en/expect)
+Note: [Here you can find all the possible `expect` functions you can use.](https://jestjs.io/docs/en/expect)

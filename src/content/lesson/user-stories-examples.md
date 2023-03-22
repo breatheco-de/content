@@ -34,7 +34,7 @@ A user story is like having a conversation with your future user.  They must be 
 
 13#### Here are some Examples:
 
-![user stories examples](../../assets/images/032a818d-e4d7-4276-8195-ce5d8a3edcf6.png)
+![user stories examples](https://github.com/breatheco-de/content/blob/master/src/assets/images/032a818d-e4d7-4276-8195-ce5d8a3edcf6.png?raw=true)
 
 ### How should you Write the User Stories?
 
@@ -66,11 +66,11 @@ Feel free to use slight deviations of this template using synonyms:
 
 ### Tools for Writing User Stories
 
-There are millions of tools; we have Googled some: [click here to access. ](http://lmgtfy.com/?q=free+tools+to+write+user+stories) Some are free, and some cost money, but throughout the years we have decided to do them ourselves using index cards.  If you insist on using something digital, you should use [this document](https://docs.google.com/spreadsheets/d/1Lj6NBXGLgAY-dyCHkVQIJdG6IbqrGRw6p6k3q-jb7tE/edit?usp=sharing) template that we have prepared for you.
+There tons of tools; we have Googled some: [click here to access. ](http://lmgtfy.com/?q=free+tools+to+write+user+stories) Some are free, and some cost money, but throughout the years we have decided to do them ourselves using index cards.  If you insist on using something digital, you should use [this document](https://docs.google.com/spreadsheets/d/1Lj6NBXGLgAY-dyCHkVQIJdG6IbqrGRw6p6k3q-jb7tE/edit?usp=sharing) template that we have prepared for you.
 
 ### Use Index Cards and a Sharpie
 
-![user stories examples](../../assets/images/94f4a28c-a93c-4e05-9f86-ce64abc2ff7b.png)
+![user stories examples](https://github.com/breatheco-de/content/blob/master/src/assets/images/94f4a28c-a93c-4e05-9f86-ce64abc2ff7b.png?raw=true)
 
 The theory is simple – if you use any larger than a 3" x 5" index card, you will write too much.  Likewise, if you use anything smaller than a marker (such as a ball point pen) – you will write too much.
 
@@ -78,11 +78,11 @@ User stories are suppose to be short and sweet.  They are suppose to aid in furt
 
 At the end you will have a huge "to-do list," with the stories moving from "To-do" to "Doing" and, finally, to "Done."  Each story will be assigned to one developer at the beginning of each planning meeting.
 
-![user stories examples](../../assets/images/faaa70b0-5343-43f0-8565-994c9b40ab8b.jpeg)
+![user stories examples](https://github.com/breatheco-de/content/blob/master/src/assets/images/faaa70b0-5343-43f0-8565-994c9b40ab8b.jpeg?raw=true)
 
 ### When is a Story really "Done"?
 
-If stories  are short and sweet – how are we suppose to know all the different acceptance criteria?  On the back of each story we will have to enter some "acceptance criteria" that we can check at the end when the developer thinks the feature is done.
+If stories  are short and sweet – how are we supposed to know all the different acceptance criteria?  On the back of each story we will have to enter some "acceptance criteria" that we can check at the end when the developer thinks the feature is done.
 
 To write great acceptance criteria, we need to think not only about the usual expected behavior in the application, but also about any cases where the app should fail (for example: When you specify a wrong password, when your credit card is rejected, etc.).
 

@@ -9,7 +9,7 @@ status: "draft"
 
 To disable Javascrpt in Tor browser, you´ll have to go to `Settings` -> `Privacy and Security` -> scroll down until `Security level` and select the option you want, each will be most strict than the other.
 
-![How to disable Javascript in tor?](https://i.imgur.com/M74DGwZ.png)
+![How to disable Javascript in tor?](https://i.imgur.com/M74DGwZ.png?raw=true)
 
 ## What is Tor?
 
@@ -38,13 +38,13 @@ First things first, we need to download the Tor browser app:
 Tor will boot up and ask to connect to The Onion Router, accept it, wait for it to finish and then, try it out or keep reading and lets dig in how to desable Javascript in Tor.
 
 - Acces to the tor browser `menu`
-![How to disable Javascript in tor?](https://i.imgur.com/B4iGKlY.png)
+![How to disable Javascript in tor?](https://i.imgur.com/B4iGKlY.png?raw=true)
 
 - Select `Settings`
-![How to disable Javascript in tor?](https://i.imgur.com/fD0WERK.png)
+![How to disable Javascript in tor?](https://i.imgur.com/fD0WERK.png?raw=true)
 
 - Select `Privacy and Security`
-![How to disable Javascript in tor?](https://i.imgur.com/KtBo0OQ.png)
+![How to disable Javascript in tor?](https://i.imgur.com/KtBo0OQ.png?raw=true)
 
 
 - Select the security level:
@@ -58,7 +58,7 @@ It´ll desable Javascript on http requests and block some of the websites featur
 - Safest:
  Desable javascript from all websites (http and https), desables images, videos, math symbols and some fonts.
 
-![How to disable Javascript in tor?](https://i.imgur.com/M74DGwZ.png)
+![How to disable Javascript in tor?](https://i.imgur.com/M74DGwZ.png?raw=true)
 
 The process for most Browsers will be pretty much alike, so feel free to tickle the privacy options of your preferred one now that you know how to disable javascript.
 

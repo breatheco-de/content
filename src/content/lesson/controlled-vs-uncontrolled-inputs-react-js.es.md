@@ -12,10 +12,9 @@ canonical: ""
 
 Esta lección habla un poco más sobre **cómo trabajar con entradas en react** que sobre **qué es una entrada controlada**. Es mejor explicar las razones por las que las necesitamos y por qué las **entradas controladas** se consideran el mejor enfoque en las aplicaciones React.js.
 
-
 ## Entradas en Javascript Vanilla.js simple
 
-Si quieres recuperar un valor de una entrada en JavaScript / HTML simple, puede hacer algo como esto:
+Si quieres recuperar un valor de una entrada en JavaScript/HTML simple, puedes hacer algo como esto:
 
 ```jsx
 
@@ -25,7 +24,8 @@ Si quieres recuperar un valor de una entrada en JavaScript / HTML simple, puede 
 // En javascript puedes usar:
 const value = document.querySelector('#first_name').value;
 ```
-Pero con React la solución no es tan simple; la única forma de mantener los datos que pueden cambiar con el tiempo dentro de los componentes de React es usando el famoso `state` o "estado".
+
+Pero con React la solución no es tan simple; la única forma de mantener los datos que pueden cambiar con el tiempo dentro de los componentes de React es usando el famoso `state` (estado).
 
 ## ¿Qué es una entrada controlada?
 
@@ -40,7 +40,6 @@ const AnyComponent = () => {
 ```
 
 Cuando usas la propiedad de entrada `onChange` junto con la propiedad` value`, básicamente estás forzando el valor de la entrada a estar completamente sincronizado por dos vías con la variable `inputValue` de estado hooked. 
-
 
 1. Si se llamas a la función onChange => se actualizará inputValue.
 2. Si la variable `inputValue` se actualiza => la entrada también cambiará su valor.
@@ -74,4 +73,4 @@ Puedes ver un ejemplo en vivo aquí:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/yjcwozed/embedded/js,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-[Clic para agrandar∫](https://jsfiddle.net/BreatheCode/yjcwozed/)
+[Clic para agrandar](https://jsfiddle.net/BreatheCode/yjcwozed/)
