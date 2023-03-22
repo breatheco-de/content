@@ -48,7 +48,7 @@ Vamos a repasar estas tags con más detalle:
 
 |**Nombre**   |**Etiqueta**   |**Descripción**   |
 |:----------|:-------------|:------------------|
-|Link       |link          |Tiene como finalidad enlazar a la página con hojas de estilos CSS. Para utilizarla debes especificar tres propiedades dentro de la etiqueta `rel="stylesheet" type="text/css"` y por último `href="with document route css"`<br>`link rel="stylesheet" type="text/css" href="theme.css">`   |
+|Link       |link          |Tiene como finalidad enlazar a la página con hojas de estilos CSS. Para utilizarla debes especificar tres propiedades dentro de la etiqueta `rel="stylesheet" type="text/css"` y por último `href="with document route css"`<br>`<link rel="stylesheet" type="text/css" href="theme.css">`   |
 |Style   |style   |Si no queremos o no podemos importar una hoja de estilo CSS, tenemos la posibilidad de definir estilos en el HEAD del documento HTML. Simplemente definimos el tag style y procedemos a escribir los estilos que queremos para las etiquetas.<br>`<style>`<br>`h1 {color:red;}`<br>`p {color:blue;}`<br>`</style>`   |
 
 > :point_up: Así como los documentos HTML terminan con la extensión `.html`, los documentos CSS (las hojas de estilo) terminan con la extensión `.css`
