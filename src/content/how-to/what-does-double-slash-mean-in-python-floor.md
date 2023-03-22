@@ -1,3 +1,13 @@
+---
+title: "What Does // Mean in Python?"
+subtitle: "One of the many operators in Python is the double slash // operator, which refers to an integer division or a division with no remainder/decimals. That is called Floor Division."
+tags: ["python","floor division"]
+date: "2020-10-19T16:36:30+00:00"
+authors: []
+status: "published"
+
+---
+
 # What Does // Mean in Python?
 
 One of the many operators in Python is the double slash `//` operator, which refers to an integer division (or a division with no remainder/decimals) which is called **Floor Division**. When dividing two numbers using this `//` operator, the result will always be an integer, ignoring the decimal part of the result. 
@@ -18,7 +28,7 @@ print("floor division of", num1, "by", num2, "=", result2)
 
 The double slash `//` has the same function as the Python method math.floor (which we will discuss later), as its name implies, rounds the result down (rounds to its floor) to the closest integer.
 
-![Floor Division Example](../../assets/images/python-floor-division.jpg)
+![Floor Division Example](https://github.com/breatheco-de/content/blob/master/src/assets/images/python-floor-division.jpg?raw=true)
 
 In this article, we will review more thoroughly how the **Floor Division** differs from a normal division, how the `//` operator works with different types of numbers (negative numbers and decimal numbers) and some extra methods similar to a Floor Division.
 
@@ -143,4 +153,4 @@ print(math.ceil(11.0)) #Output 11
 ## Summary
 The next video will be of great help to better understand what was explained in this **What Does // Mean in Python?** article
 
-[![Python Floor Division Tutorial (Double Forward Slash)](../../assets/images/python-floor-division-video.jpg)](https://www.youtube.com/watch?v=tFdVvNbV9-E "Python Floor Division Tutorial (Double Forward Slash)")
+[![Python Floor Division Tutorial (Double Forward Slash)](https://github.com/breatheco-de/content/blob/master/src/assets/images/python-floor-division-video.jpg?raw=true)](https://www.youtube.com/watch?v=tFdVvNbV9-E "Python Floor Division Tutorial (Double Forward Slash)")

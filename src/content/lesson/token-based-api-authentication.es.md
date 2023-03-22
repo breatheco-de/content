@@ -33,7 +33,7 @@ Para explicar en detalle la "Autenticación de una API basada en tokens" es mejo
 
 ## ¿Qué es un token de seguridad?
 
-IA grandes rasgos, un token es un "número que prueba algo", por ejemplo: Cuando terminas de hacer una transferencia bancaria, el banco envía un "token" de confirmación que sirve como prueba para validar que la transacción existe y es válida. Ese número de confirmación podría llamarse también **token de confirmación`**.
+A grandes rasgos, un token es un "número que prueba algo", por ejemplo: Cuando terminas de hacer una transferencia bancaria, el banco envía un "token" de confirmación que sirve como prueba para validar que la transacción existe y es válida. Ese número de confirmación podría llamarse también **token de confirmación`**.
 
 Otros ejemplos de tokens cotidianos:
 
@@ -50,7 +50,7 @@ Los tokens utilizados para la autenticación tienen que ser algo más que númer
 - No reutilizables: Hay casos de tokens reutilizables, pero en general, una vez que se genera un token, nadie más que tú debería usarlo
 - Validable: El token debe seguir algún patrón oculto (¿encriptación?) que permita validar el token sin comprometer al propietario o al autor.
 
-### Generando de tokens
+### Generando tokens
 
 Hay varios tipos de tokens que puedes usar para tu sistema de autenticación como Basic, Bearer, o JWT. La mayoría de ellos utilizan algoritmos de criptografía avanzada que no vamos a tratar en esta lección (puedes ver este [increíble vídeo para aprender más](https://www.youtube.com/watch?v=4zahvcJ9glg)). En su lugar, vamos a hablar de hash.
 
@@ -94,7 +94,7 @@ La forma más sencilla de implementar la autenticación en tu base de datos y en
 4. El endpoint `POST /token` devolverá el token al front-end si todo está bien.
 5. Luego, en cada uno de los otros endpoints de tu base de datos tendrás que validar si el token existe en el header de la petición y si existe, tendrás que validarlo.
 
-![Autentication workflow](../../assets/images/authentication-diagram.png)
+![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/authentication-diagram.png?raw=true)
 
 ### Every token is a session
 

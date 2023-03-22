@@ -58,5 +58,5 @@ Las computadoras hablan solo un idioma: ** Assembly **. Pero usar el lenguaje en
 + Hay 430 ofertas de trabajo abiertas en Chile [solicitando JavaScript ahora mismo. (indeed.cl)](https://www.indeed.cl/trabajo?q=Javascript&l=Santiago+de+Chile,+Regi%C3%B3n+Metropolitana&_ga=2.235233217.1570091263.1548440267-10910977.1548440267), 2 veces más que PHP y 4 veces más que Ruby.
 ¿Necesitas más pruebas? Podemos seguir hablando todo el día. ¡Solo al escribir esta lección me siento ansioso porque JavaScript es tan universal que necesitas aprenderlo ahora mismo!
 
-![what is coding learn to code](../../assets/images/b88d7b26-2786-4a3a-b6ee-4b6b84ad6ecf.png)
+![what is coding learn to code](https://github.com/breatheco-de/content/blob/master/src/assets/images/b88d7b26-2786-4a3a-b6ee-4b6b84ad6ecf.png?raw=true)
   

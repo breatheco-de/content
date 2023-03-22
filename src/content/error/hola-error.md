@@ -1,6 +1,6 @@
 ---
 title: "This is an example error for any student to understand how to fix"
-subtitle: "Each documented error must have a was yo fix it, that way the student will be able to make progress pretty fast"
+subtitle: "Each documented error must have a way to fix it, that way the student will be able to make progress pretty fast"
 tags: ["animals","alejandro"]
 authors: ["alesanchezr"]
 textColor: "white"
@@ -16,7 +16,7 @@ There is light at the end of the tunnel and it is NOT Chuck Norris holding a fla
 
 These two guys working on Twitter were suffering the same problems we have been with HTML and CSS.  Fed up with the situation, they decided to build a **base CSS Sheet designed to be imported into any website**.  It makes every front-end development work 4x’s easier.
 
-![bootstrap 4](../../assets/images/335ed387-cbf9-4ffa-9529-1ccf2084e393.jpeg)
+![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/335ed387-cbf9-4ffa-9529-1ccf2084e393.jpeg?raw=true)
 
 Besides, Bootstrap gives you a dozen of new elements that you would normally want to use but don’t actually exist in CSS+HTML: The Bootstrap components.
 
@@ -32,13 +32,13 @@ Bootstrap creators replicated the same concept that `<tables>` had, but instead 
 This is a row: <div class="row">
 This is a column: <div class="col–sm–x">
 ```
-![bootstrap tutorial](../../assets/images/3884f515-dd7a-48f2-b238-9e2ec26de02d.png)
+![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/3884f515-dd7a-48f2-b238-9e2ec26de02d.png?raw=true)
 
 Bootstrap has divided the width of the screen in `12 slots` – each of them with 8,33% of the total width of the row.  The size of 1 column, can be between 1 and 12 slots.
 
 On the flip side, columns were made to live within the rows (just like what happens between `<td>` and `<tr>`).   You always need to open a row before opening a column.  All columns in a row must always add up to a maximum of 12 slots.
 
-![bootstrap tutorial](../../assets/images/1b7f5dc4-029a-475d-8bfd-fac1b739966c.png)
+![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/1b7f5dc4-029a-475d-8bfd-fac1b739966c.png?raw=true)
 
 ## Our first Layout example:
 
@@ -70,7 +70,7 @@ It’s very easy to decide how your website will render in different screen size
 
 We are going to set the layout (using the sm, md and lg column classes) for  two rows in all the devices at the same time:
 
-![bootstrap 4](../../assets/images/e15c594c-9b46-4c27-bf5a-a5bbb5ef952a.png)
+![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/e15c594c-9b46-4c27-bf5a-a5bbb5ef952a.png?raw=true)
 
 ```html
 <!-- Stack the columns on mobile by making one full-width and the other half-width --> 
@@ -136,7 +136,7 @@ Every developer has to fake these additional elements every time they create a n
 
 When you import Bootstrap into your website, you will have a new set of components at your disposal.  This is just a small part of those elements:
 
-![bootstrap 4](../../assets/images/8e9ff37a-28f7-4179-8f5d-9278ff7efd55.png)
+![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/8e9ff37a-28f7-4179-8f5d-9278ff7efd55.png?raw=true)
 
 
 ### These are the most Important and Used Components in this Bootstrap tutorial:
@@ -147,7 +147,7 @@ This is so popular that it’s in the menu of 99% of all websites.  It normally 
 
 Here is an example of how a NavBar may look on a website:
 
-![bootstrap tutorial](../../assets/images/6351de1c-6d90-4502-8823-4b751981db9f.png)
+![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/6351de1c-6d90-4502-8823-4b751981db9f.png?raw=true)
 
 > :link:[**Read more about the NavBar here**](https://getbootstrap.com/docs/4.0/components/navbar/)
 
@@ -191,7 +191,7 @@ This is probably the most used Bootstrap component, every website has a few card
 
 Here is an example of how a "The Card" may look on a website:
 
-![bootstrap 4](../../assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png)
+![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png?raw=true)
 
 > :link: [**Read more about the card here**](https://getbootstrap.com/docs/4.0/components/card/)
 
@@ -214,7 +214,7 @@ Everyone hates a modal, it is super annoying, always asking you to subscribe to 
 
 Here is how a modal looks by default on Bootstrap.
 
-![bootstrap 4](../../assets/images/6bcba673-a543-4bf1-a80b-083914b91bef.png)
+![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/6bcba673-a543-4bf1-a80b-083914b91bef.png?raw=true)
 
 > :link:[**Read more about modal here**](https://getbootstrap.com/docs/4.0/components/modal/)
 

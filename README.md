@@ -28,7 +28,7 @@ $ node ./src/utils/cli.js sanitize_lesson --slug all
 
 ### Method: sanitize_lesson
 
-Will try to clean and fix any possible issues on the lessons, for example: Date formats
+Will try to clean and fix any possible issues on the lessons, for example: Date formats.
 
 ### Method: update_lesson
 
@@ -47,7 +47,7 @@ Will try to clean and fix any possible issues on the lessons, for example: Date 
 
 ### Method: localize_images
 
-Rename the remote image url's with local images (if available), this method is ideal to run after `download_images`
+Rename the remote image url's with local images (if available), this method is ideal to run after `download_images`.
 
 | PARAM         | DESCRIPTION |
 | ---------     | ----------- |

@@ -1,3 +1,13 @@
+---
+title: "SQLAlchemy JOIN"
+subtitle: "the union of tables is very useful for consulting information belonging to different tables of a database, to make the consultation of any required information much easier. Here is where the JOIN clause comes into action."
+tags: ["sqlalchemy","sql","sql-join"]
+date: "2020-10-19T16:36:30+00:00"
+authors: []
+status: "published"
+
+---
+
 # SQLAlchemy JOIN
 
 To perform a basic **`join`** using **SQLAlchemy/Flask** and **Python**, you need to write your query as follows:
@@ -61,7 +71,7 @@ INNER JOIN table2
 ON table1.common_field = table2.common_field;
 ```
 
-![INNER JOIN example](https://simplesqltutorials.com/wp-content/uploads/2021/03/inner-join-diagram.jpg)
+![INNER JOIN example](https://simplesqltutorials.com/wp-content/uploads/2021/03/inner-join-diagram.jpg?raw=true)
 
 Now that we know what a **`JOIN`** clause is in SQL, we can move on to exploring how to work with JOINs using SQLAlchemy, Flask, and Python.
 
@@ -135,7 +145,7 @@ There are multiple types of **`OUTER JOINs`**, and depending on which table or t
  ### LEFT OUTER JOIN:
  Unlike an **`INNER JOIN`**, where we only look for matching rows in both tables, a **`LEFT JOIN`** will give priority to the table on the left, giving us all of its rows, and will still look for matching rows on the right table. In other words, we'll get all the information from the left table and **only the matching information** from the right table.
 
-![LEFT OUTER JOIN example](https://www.w3resource.com/sql/joins/joins-output/sql-left-jon.png)
+![LEFT OUTER JOIN example](https://www.w3resource.com/sql/joins/joins-output/sql-left-jon.png?raw=true)
 
 Let's use the same tables used in the **SQLAlchemy/Flask** and **Python** **`INNER JOIN`** example previously:
 
@@ -211,7 +221,7 @@ See that now ***Mark White*** appears on the results with no order, in this way 
 
 A **`RIGHT JOIN`** will give priority to the table on the right, giving us all of its rows, and will still look for matching rows on the left table. In other words, we’ll get all the information from the right table and **only the matching information** from the left one.
 
-![RIGHT JOIN example](https://www.w3resource.com/sql/joins/joins-output/sql-right-jon.gif)
+![RIGHT JOIN example](https://www.w3resource.com/sql/joins/joins-output/sql-right-jon.gif?raw=true)
 
 For the next example, let's add an order that for some reason does not have a client assigned to it, so the tables should look like this:
 

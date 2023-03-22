@@ -3,13 +3,11 @@ title: "What Does // Mean in Python?"
 subtitle: "The double slash `//` operator in Python is used to divide a number by its floor."
 textColor: "white"
 date: "2022-09-08T16:36:30+00:00"
-tags: ["responsive"]
+tags: ["python"]
 status: "published"
 cover_local: "../../assets/images/python-floor-division.jpg"
 
 ---
-
-# What Does // Mean in Python?
 
 The double slash `//` operator in Python is used to divide a number by its floor. The first number is divided by the second number using the `//` operator, and the result is rounded to the nearest integer (or whole number). Floor division merely differs from ordinary division in that it always produces the largest integer.
 
@@ -185,4 +183,4 @@ Although lines with the `//` operator are easy to read, it may be preferable to 
 
 Last but not least, here is a video which briefly explains what was described in this article:
 
-[![Python Floor Division Tutorial (Double Forward Slash)](https://res.cloudinary.com/marcomontalbano/image/upload/v1661366456/video_to_markdown/images/youtube--tFdVvNbV9-E-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=tFdVvNbV9-E "Python Floor Division Tutorial (Double Forward Slash)")
+[![Python Floor Division Tutorial (Double Forward Slash)](https://res.cloudinary.com/marcomontalbano/image/upload/v1661366456/video_to_markdown/images/youtube--tFdVvNbV9-E-c05b58ac6eb4c4700831b2b3070cd403.jpg?raw=true)](https://www.youtube.com/watch?v=tFdVvNbV9-E "Python Floor Division Tutorial (Double Forward Slash)")

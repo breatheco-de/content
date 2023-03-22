@@ -1,16 +1,26 @@
-# How to Split a String in Python
+---
+title: "How to Split a String in Python"
+subtitle: "Knowing how to manipulate strings this way will be of great use to us in our programming journey. In this article, we will dive into the many ways how to split a string in Python."
+tags: ["python","string concatenation",]
+date: "2020-10-19T16:36:30+00:00"
+authors: []
+status: "published"
+
+---
+
+## How to Split a String in Python
+
 This is how you split a string in python using the **`.split()`** method:
 ```py
-string1 =  "This string will be splitted"  
+string1 =  "This string will be splitted"
 listName = string1.split()
 
 print(listName)  #Output: ["This", "string", "will", "be", "splitted"]
 ```
-The use of alphanumeric or string-type values is highly necessary for any programming language, as you may already know, these values in Python are called Strings. Knowing how to manipulate this type of String values will be of great use to us in our programming journey since it will allow us to manage the values according to our needs, either to search for a value contained in the Strings, obtain a specific part of it, change certain parts, among others.
 
-In this article, we will dive into the many ways **how to split a string in Python**. So what is splitting a string? As you read it, it's just taking one string and breaking it into two or more strings, you start with one and end with several other strings.  
+The use of alphanumeric or string-type values is highly necessary for any programming language, as you may already know, these values in Python are called Strings. Knowing how to manipulate this type of String values will be of great use to us in our programming journey since it will allow us to manage the values according to our needs, either to search for a value contained in the Strings, obtain a specific part of it, change certain parts, among others. You can check this article, to learn how to [manipulate strings in python](https://4geeks.com/lesson/working-with-strings-in-python), and if you already did in this article, we will dive into the many ways **how to split a string in Python**
 
-![Python Split String](https://806230.smushcdn.com/1739487/wp-content/uploads/2021/02/split-min-768x484.png?lossy=0&strip=1&webp=1)
+So what is splitting a string? As you read it, it's just taking one string and breaking it into two or more strings, you start with one and end with several other strings.
 
 ## How to Split a String in Python, **`.split()`** Method
 
@@ -49,6 +59,7 @@ listName = stringName.split()
 
 print(listName)  #Output: ["M", "y", "na" , "me", "is", "Rigoberto"]
 ```
+
 And what if we want to specify which parameter to use to split our strings instead of any whitespace? Or if we want to specify how many splits or divisions we want to do to our strings? Let's look at these cases below.
 
   
@@ -83,6 +94,7 @@ listName = stringName.split(", ")
 
 print(listName)  #Output: ["My", "name", "is", "Rigoberto"]
 ```
+
 Otherwise we would get this space in our list of items. And the `maxsplit` will specify how many splits we want to perform in our string:
 
   
@@ -93,6 +105,7 @@ listName = stringName.split(",", 1)
 
 print(listName)  #Output: ["My", "name,is,Rigoberto"]
 ```
+
 And if we want to make two splits:
 
 ```py
@@ -102,7 +115,8 @@ listName = stringName.split(",", 2)
 print(listName)  #Output: ["My", "name", "is,Rigoberto"]
 ```
 
-  
+
+#### **Related: [Why 4Geeks Academy teaches Python as Back End Language?](https://4geeksacademy.com/us/python-bootcamp/why-we-teach-python-4geeks)**
 
 ## How to Split a String in Python. Alternatives Methods
 
@@ -149,6 +163,7 @@ listName = stringName.rsplit(",", 1)
 
 print(listName)  #Output: ["My,name,is", "Rigoberto"]
 ```
+
 Here is the difference between the conventional `.split()` method and the `.rsplit()` method, when a `maxsplit` parameter is specified, the `.split()` method splits the string starting from the left and the `.rsplit()` method splits the string starting from the right.
 
 
@@ -196,7 +211,6 @@ listName1 = stringName.splitlines(0)
 
 print(listName1)  #Output: ["My","name", "is", Rigoberto"]
 ```
-  
 
 - If we write **any positive or negative numbers**, it will include the line breaks in our results
 ```py
@@ -211,3 +225,5 @@ print(listName3)  #Output: ["My\n","name\n", "is\n", Rigoberto"]
 print(listName4)  #Output: ["My\n","name\n", "is\n", Rigoberto"]
 print(listName5)  #Output: ["My\n","name\n", "is\n", Rigoberto"]
 ```
+
+Check [4Geeks](https://4geeks.com/) to learn more and keep on the Geek Side!
