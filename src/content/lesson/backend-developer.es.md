@@ -13,16 +13,15 @@ status: "published"
 
 No hace mucho tiempo, los navegadores eran muy tontos. Todo lo que hacían era renderizar documentos HTML en una versión muy básica de HTML. No había CSS, ni JS. ¡Eso significa que los desarrolladores web front-end no existían!
 
-Todo el trabajo era realizado por el servidor: como no había JavaScript, el DOM no podía actualizarse mientras se ejecutaba el sitio web. Eso significa que el código fuente HTML inicial que recibía el navegador al cargar el sitio web también era la última versión del mismo. **No habían modificaciones en el DOM**.
+Todo el trabajo era realizado por el servidor: como no había JavaScript, el DOM no podía actualizarse mientras se ejecutaba el sitio web. Eso significa que el código fuente HTML inicial que recibía el navegador al cargar el sitio web también era la última versión del mismo. **No había modificaciones en el DOM**.
 
 ### La Arquitectura del Cliente-Servidor
 
-
-[¿Recuerdas cómo funciona el internet?](https://www.youtube.com/watch?v=UiBT3Kj8KBM) Cada dominio apunta a una única dirección IP / servidor, y ese servidor está listo para devolver una **respuesta de texto** a cualquier solicitud HTTP que provenga de cualquier cliente.
+[¿Recuerdas cómo funciona el internet?](https://www.youtube.com/watch?v=UiBT3Kj8KBM) Cada dominio apunta a una única dirección IP/servidor, y ese servidor está listo para devolver una **respuesta de texto** a cualquier solicitud HTTP que provenga de cualquier cliente.
 
 **Piensa en el servidor como un "generador de documentos".** Puede ser una imagen, un video, un documento de texto, JSON, HTML, CSS, etc. La responsabilidad del servidor es responder con contenido cada vez que el cliente lo solicite.
 
-![backend developer](../../assets/images/2c0000ef-2907-43cb-80ed-2ba4f194b83e.gif)
+![backend developer](https://github.com/breatheco-de/content/blob/master/src/assets/images/2c0000ef-2907-43cb-80ed-2ba4f194b83e.gif?raw=true)
 
 Junto con el contenido del documento generado, el servidor también puede especificar con qué tipo de contenido está respondiendo, permitiendo que el navegador lea e interprete la respuesta de manera precisa. Los formatos de respuesta disponibles pueden ser cientos, pero estos son los más comunes:
 
@@ -38,7 +37,7 @@ Junto con el contenido del documento generado, el servidor también puede especi
 |multipart/form-data     |Los tipo multipart/form-data pueden usarse cuando se envia el contenido completo de un formulario HTML desde un navegador al servidor.    |
 |application/json     |Una respuesta en formato JSON    |
 
-Además del contenido del documento y del content-type, el servidor también agrega un código de respuesta al header o encabezado. Hay docenas de códigos de respuesta, pero estos son los más populares:
+Además del contenido del documento y el content-type, el servidor también agrega un código de respuesta al header o encabezado. Hay docenas de códigos de respuesta, pero estos son los más populares:
 
 #### Códigos de Respuesta del Servidor
 
@@ -49,27 +48,24 @@ Además del contenido del documento y del content-type, el servidor también agr
 |4xx Client Error    |404 No Encontrado, 400 Mala Solicitud, 403 Prohibido, 401 Sin Autorización    |
 |5xx Server Error     |500 Error Interno del Servidor, 503 Servicio No Disponible    |
 
-
 > :link: Aquí puedes encontrar información más detallada sobre [Códigos de Respuesta del Servidor.](https://www.restapitutorial.com/httpstatuscodes.html)
 
 ### El Rol del Lenguaje Back-End
 
-
 Lo bueno de un lenguaje de back-end es que se ejecuta en una máquina real (no en un navegador como el lenguaje de front-end). Con un lenguaje back-end puedes hacer cosas como:
 
 + Generar Documentos PDF’s, Word or Excel.
-+ Conectarte a una o varias bases de datos al mismo tiempo y recuperar / procesar los datos.
++ Conectarte a una o varias bases de datos al mismo tiempo y recuperar/procesar los datos.
 + Transmitir video y archivos de audio.
-+ Abrir / crear / eliminar archivos locales de la máquina y actualizarlos con contenido nuevo.
++ Abrir/crear/eliminar archivos locales de la máquina y actualizarlos con contenido nuevo.
 + Comprimir imágenes, videos o cualquier tipo de archivo.
 + Acceder a cualquier programa instalado en la máquina local y utilizarlo para tu sitio web (por ejemplo, puedes abrir el programa zip y extraer un archivo zip).
 + Interactuar con cualquier hardware conectado al servidor principal (como una máquina expendedora, un lector de huellas digitales, lentes de realidad virtual, un lector de tarjetas de crédito, etc.).
 + Puedes combinar cualquiera de las operaciones ya mencionadas en tu propio flujo de aplicación de back-end.
   
-###  Entonces.. ¿qué hace un desarrollador Web de Back-End?
+### Entonces.. ¿qué hace un desarrollador Web de Back-End?
 
-
-Como desarrollador Back-End, deberás escribir todo el código para generar y / o responder a esos documentos estáticos y dinámicos según lo soliciten los clientes.
+Como desarrollador Back-End, deberás escribir todo el código para generar y/o responder a esos documentos estáticos y dinámicos según lo soliciten los clientes.
 
 El código de un desarrollador web de back-end debe cumplir con 4 requisitos principales:
 

@@ -36,7 +36,7 @@ So why cloning a repository you may ask? Cloning a project has many benefits as:
 And all this without the need to be connected to the internet. We will only need an internet connection when we want to "share" our work with someone else or we want to upload our work to GitHub. 
   
 
-![Cloning Thing GIF](https://c.tenor.com/AQM9IEdO0K8AAAAd/clone.gif)
+![Cloning Thing GIF](https://c.tenor.com/AQM9IEdO0K8AAAAd/clone.gif?raw=true)
 
 In the following section, we will dive in on more detailed examples of **how to clone a github repository** and also **how to fork any github repository**.
 
@@ -46,7 +46,7 @@ For this example, we will clone one of 4Geeks popular repositories, that is [4Ge
 1. **Determine or locate where you want to clone the desired repository** |
 Locate the folder on your computer where you want to save the repository, or you can create a new one. Let’s say we want to save our repository in a folder called `my-first-cloned-repo` as shown below.
 
-![Locating Folder](https://i.imgur.com/lAV0nLj.jpg)
+![Locating Folder](https://i.imgur.com/lAV0nLj.jpg?raw=true)
 
 2. **Open the terminal** |
 You can use the **Git Bash** terminal or any **IDE (Integrated Development Environment) or Code Editor** terminal. With the terminal opened, input `cd` and add/copy the directory/folder location/path. Since we want to save the repository in our folder `my-first-cloned-repo`, let's copy the folder's path `C:\Users\rafam\Programming Projects\my-first-cloned-repo` and paste it on the terminal, you can also drag and drop the folder on the terminal and press enter
@@ -60,9 +60,9 @@ rafam@LAPTOP-LLV85FV6 MINGW64 ~/Programming Projects/my-first-cloned-repo
 3. **Go to the [4Geeks react-flask-hello](https://github.com/4GeeksAcademy/react-flask-hello) repository in GitHub** |
 Once you are located in the [4Geeks react-flask-hello](https://github.com/4GeeksAcademy/react-flask-hello) repository in GitHub, you need to click the **Code** button to display the clone options and then click the **Copy** button which is highlighted (shown below) and next to the repo URL:
 
-![4Geeks Repo Example Pic 1](https://i.imgur.com/xu3Psl0.png)
+![4Geeks Repo Example Pic 1](https://i.imgur.com/xu3Psl0.png?raw=true)
 
-![4Geeks Repo Example Pic 2](https://i.imgur.com/QPEPsZE.png)
+![4Geeks Repo Example Pic 2](https://i.imgur.com/QPEPsZE.png?raw=true)
 
 4. **Go to the terminal and use the git clone command by typing `git clone` along with the copied URL**
 
@@ -113,7 +113,7 @@ By **Forking**, you can make your own copy of a repository somewhere else (for e
 
   
 
-![Clone vs Fork](https://i.imgur.com/eSN0n99.jpg)
+![Clone vs Fork](https://i.imgur.com/eSN0n99.jpg?raw=true)
 
   
 
@@ -135,7 +135,7 @@ The steps to fork the repository are the following:
 
   
 
-![Fork Steps 2](https://i.imgur.com/0qzfYg0.png)
+![Fork Steps 2](https://i.imgur.com/0qzfYg0.png?raw=true)
 
   
 
@@ -143,13 +143,13 @@ The steps to fork the repository are the following:
 
   
 
-![Fork Steps 3](https://imgur.com/4gqX7LM.png)
+![Fork Steps 3](https://imgur.com/4gqX7LM.png?raw=true)
 
   
 
 4. Below the description field, there is a checkbox (**Copy the `main` branch only**) that allows you to only copy the main branch, if you want to copy the whole repository with all of its branches, then this box should be unmarked.
 
-![Fork Steps 4](https://imgur.com/8CRRVxR.png)
+![Fork Steps 4](https://imgur.com/8CRRVxR.png?raw=true)
 
   
 
@@ -157,7 +157,7 @@ The steps to fork the repository are the following:
 
   
 
-![Fork Steps 5](https://i.imgur.com/sm1x81i.png)
+![Fork Steps 5](https://i.imgur.com/sm1x81i.png?raw=true)
 
   
 
@@ -171,7 +171,7 @@ You can also use the GitHub Desktop App to clone a repository to your computer, 
 
   
 
-![GitHub App Steps 1](https://i.imgur.com/KPFvgCO.png)
+![GitHub App Steps 1](https://i.imgur.com/KPFvgCO.png?raw=true)
 
   
 
@@ -179,7 +179,7 @@ You can also use the GitHub Desktop App to clone a repository to your computer, 
 
   
 
-![GitHub App Steps 2](https://i.imgur.com/mMS54sJ.png)
+![GitHub App Steps 2](https://i.imgur.com/mMS54sJ.png?raw=true)
 
   
 
@@ -187,7 +187,7 @@ You can also use the GitHub Desktop App to clone a repository to your computer, 
 
   
 
-![GitHub App Steps 3](https://i.imgur.com/UVc92fA.png)
+![GitHub App Steps 3](https://i.imgur.com/UVc92fA.png?raw=true)
 
   
 

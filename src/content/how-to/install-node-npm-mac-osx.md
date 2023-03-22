@@ -10,7 +10,7 @@ status: "published"
 
 ---
 
-There are several ways to install node on any mac, but my recomendation will be to install it using brew and nvm.  
+There are several ways to install node on any mac, but my recommendation will be to install it using brew and nvm.  
 I think that is the best approach for several reasons:
 
 1. You will find that some times you want to switch between several versions of node depending on the libraries that you use, you dont want to be stuck in just one version.

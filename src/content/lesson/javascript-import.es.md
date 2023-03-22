@@ -19,25 +19,20 @@ De hecho, ya lo hemos estado haciendo cuando importamos nuestros estilos, bootst
 
 ## Así es como funciona "importar" y "exportar":
 
-
 + Utiliza la palabra **importar** para traer variables, clases o funciones de otros archivos.
 + Usted usa la palabra **exportar** para exponer variables, clases o funciones que serán utilizadas por otros archivos.
 
 Por ejemplo, aquí estamos importando una función de otro archivo:
 
+![javascript import](https://github.com/breatheco-de/content/blob/master/src/assets/images/f7b8c75d-e7d4-481e-8346-b95d54a235f6.png?raw=true)
 
-![javascript import](../../assets/images/f7b8c75d-e7d4-481e-8346-b95d54a235f6.png)
-
-![javascript import](../../assets/images/2cdb146a-d6f7-4591-96fc-e50aef07aca5.png)
-
+![javascript import](https://github.com/breatheco-de/content/blob/master/src/assets/images/2cdb146a-d6f7-4591-96fc-e50aef07aca5.png?raw=true)
 
 ## Exportación por Defecto
-
 
 Hay una pequeña variación que puede encontrar en Internet que se llama **"exportación predeterminada"**: esta es solo una forma de exportar una cosa por defecto a su archivo.
 
 Solo puede exportar la variable **ONE** de forma predeterminada, y no tiene que usar los corchetes mientras se importa.
-
 
 ### Importando por defecto
 
@@ -61,10 +56,7 @@ let multiplyFunction = function(a,b){
 export default multiplyFunction;
 ```
 
-
-
 ## Ejemplo Final:
-
 
 Aquí hay una pequeña demostración de todos los tipos de importación / exportación que trabajan en el mismo proyecto.
 

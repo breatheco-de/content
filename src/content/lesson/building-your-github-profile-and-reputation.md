@@ -1,19 +1,17 @@
 ---
 title: "Building your Github profile and reputation"
 subtitle: "Having a great resume takes hours to build, even if its fake. But having a great Github takes months or years. You better start working on it now."
-textColor: "white"
 authors: ["alesanchezr"]
 status: "published"
-date: "2020-10-19T16:36:31+00:00"
 tags: ["github","job hunting","resume building"]
 thumb: "https://i.imgur.com/F03qoZF.png"
-cover_local: "../../assets/images/githubbackground.jpg"
+cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/githubbackground.jpg?raw=true"
 
 ---
 
 ## Introduction to Github (skip it if you know it already)
 
-![Github Screenshot](../../assets/images/4889ebd9-201f-46c7-a1fb-d3d8c2f4493e.png)
+![Github Screenshot](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/4889ebd9-201f-46c7-a1fb-d3d8c2f4493e.png?raw=true)
 
 Github is a social network for developers, but probably not the type of social network you use every day:
 - You can't post a picture of what you are about to eat.
@@ -29,6 +27,12 @@ Github is now the developers #1 portfolio, the best way to get noticed and build
    1. Easy to browse by a potential employer.  
    2. Easy to understand and fast to read.  
    3. Amazing look (you never have a 2nd time to give the first impression).  
+
+Whether you are a junior, or senior software developer, GitHub is one of the best tools you can adopt to showcase your hard/soft skills, executed projects, personal research, and even past college assignment.
+
+It is now **no longer sufficient** to tell recruiters what you can do with your competence in Python, Java, or JavaScript. In today's competitive programming world, recruiters now want developers to **show them** what they have done or are currently up to.
+
+Many years ago having a portfolio website used to be essential for finding a job. **This is no longer the case** and this is the reason why. **Having a GitHub account is significantly more important these days**. Every company expects you to have a GitHub and experience using GIT and version control. These have become the standards for programming now.
 
 ## Making Your Github Profile Shine
 
@@ -53,4 +57,4 @@ Make sure to give your own personal style, but in general you can focus on tryin
 
 ### An Example Profile: Dan Abramov
 
-![Dan Abramov Github Profile](../../assets/images/danabramov.png)
+![Dan Abramov Github Profile](https://storage.googleapis.com/breathecode-asset-images/f6113918657d155554bd6e84b66cb092cb0816ab454e470bc3481c716de10497.png?raw=true)

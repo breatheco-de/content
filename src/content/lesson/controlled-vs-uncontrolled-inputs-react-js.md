@@ -1,6 +1,6 @@
 ---
 title: "What are controlled and/or uncontrolled inputs in React.js"
-subtitle: "Doing forms in React.js are one of those things that can be a little anoying"
+subtitle: "Doing forms in React.js is one of those things that can be a little anoying"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
 status: "published"
@@ -18,18 +18,18 @@ If you want to retrieve an input value in simple Javascript/HTML you can do some
 
 ```jsx
 
-// Asuming you have this input with the ID=first_name:
+// Assuming you have this input with the ID=first_name:
 <input type="text" id="first_name" /> 
 
 // With javascript you can use:
 const value = document.querySelector('#first_name').value;
 ```
 
-But with React the solution is not that simple; the only way to keep data that may change over time inside react components is using the famous `state`.
+But with React the solution is not that simple; the only way to keep data that may change over time inside React components is by using the famous `state`.
 
 ## What is a Controlled Input
 
-A controlled input is just another input with the difference that the value of it is in sync with the state of a component, something like this:
+A controlled input is just another input with the difference that its value is in sync with the state of a component, something like this:
 
 ```jsx
 const AnyComponent = () => {

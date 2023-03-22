@@ -31,7 +31,7 @@ The most common scenario in software development or projects is that they have a
 
 Since we know that this is something that will surely happen in our development process, it is a good idea to include these repetitive tasks in a module or code block and reuse them when necessary, these modules or code blocks are called **functions**. 
 
-![enter image description here](https://www.tutorialstonight.com/assets/js/javascript-function.png)
+![enter image description here](https://www.tutorialstonight.com/assets/js/javascript-function.png?raw=true)
 
 So, **how to call a function in Javascript?** Before answering this question, we need to understand how to write a function. Let's see the general syntax of a function in the following example:
 
@@ -85,7 +85,7 @@ A class is like a template for creating objects, objects created from the class 
 
 To have a clearer idea, imagine that the class is a cookie mold, the mold represents the class from which you can build or make objects, which in this example would be cookies. Although all the cookies are the same in terms of their shape, each one has different decorations, these decorations would be the properties or attributes of each object.
 
-![enter image description here](https://i.imgur.com/rutzmFZ.jpg)
+![enter image description here](https://i.imgur.com/rutzmFZ.jpg?raw=true)
 
 
 Each class internally has a constructor to create the attributes of each object and as an additional feature, a class has methods, and methods are nothing more than functions that an object can have. Let's see the following example:
