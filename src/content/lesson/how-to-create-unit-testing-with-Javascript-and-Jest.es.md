@@ -29,7 +29,7 @@ function sum(number1, number2){
     return number1 + number2;
 }
 ```
-Una prueba unitaria para esta función solo se preocupa de la entrada y de la salida, **Con una entrada determinada, debería haber una salida esperada**: Si le pasa `12`y `5` como entradas a la función, debería salir (devolver) el número `17`.
+Una prueba unitaria para esta función solo se preocupa de la entrada y de la salida. **Con una entrada determinada, debería haber una salida esperada**: Si le pasa `12`y `5` como entradas a la función, debería salir (devolver) el número `17`.
 
 El framework de pruebas Jest de Javascript introduce una función especial llamada `expect` para permitirnos realizar las pruebas unitarias, aquí hay un ejemplo de cómo usar `expect` para crear nuestras pruebas unitarias.
 
