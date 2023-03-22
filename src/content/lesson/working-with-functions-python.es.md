@@ -123,7 +123,7 @@ def multiplicar(a, b):
    mi_variable = 'hello'
    return a * b
 
-# este print no funcionará, generará un error, porque my_variable fue 
+# este print no funcionará, generará un error, porque mi_variable fue 
 # declarado dentro de la función multiplicar, por lo tanto no está disponible fuera de su alcance.
 print(my_variable)
 
