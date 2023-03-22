@@ -14,7 +14,7 @@ Los desarrolladores Senior entienden que su código tendrá errores (no importa 
 
 Hay varias maneras de probar tus aplicaciones, pero las pruebas unitarias son la herramienta más poderosa que tiene un desarrollador para asegurar un código de alta calidad.
 
-![Write Code to test code](../../assets/images/6b4upqv6at321.jpg)
+![Write Code to test code](https://github.com/breatheco-de/content/blob/master/src/assets/images/6b4upqv6at321.jpg?raw=true)
 
  
 ## ¿Qué son las pruebas unitarias?
@@ -29,7 +29,7 @@ function sum(number1, number2){
     return number1 + number2;
 }
 ```
-Una prueba unitaria para esta función solo se preocupa de la entrada y de la salida, **Con una entrada determinada, debería haber una salida esperada**: Si le pasa `12`y `5` como entradas a la función, debería salir (devolver) el número `17`.
+Una prueba unitaria para esta función solo se preocupa de la entrada y de la salida. **Con una entrada determinada, debería haber una salida esperada**: Si le pasa `12`y `5` como entradas a la función, debería salir (devolver) el número `17`.
 
 El framework de pruebas Jest de Javascript introduce una función especial llamada `expect` para permitirnos realizar las pruebas unitarias, aquí hay un ejemplo de cómo usar `expect` para crear nuestras pruebas unitarias.
 
@@ -41,8 +41,21 @@ test('12 and 5 should return 17', () => {
 ```
 Nota: Las pruebas unitarias no se preocupan por el contenido de la función `sum`, sólo se preocupan por la SALIDA de la función con una ENTRADA determinada.
 
-![unit testing examples](../../assets/images/unit-test1.png)
+![unit testing examples](https://github.com/breatheco-de/content/blob/master/src/assets/images/unit-test1.png?raw=true)
 
+## Función Flecha
+
+Otra novedad de ES6 son las "Funciones de Flecha". La forma de crear estas funciones es la siguiente: Primero, definiremos la lista de parámetros, si es necesario, entre paréntesis seguido del símbolo => y las llaves {} para indicar las instrucciones a realizar.
+
+Además de la sintaxis que es diferente a las anteriores, este tipo de funciones tienen las siguientes características.
+
+Las "funciones de flecha" no crean su propio contexto al ser ejecutadas. A diferencia de la "expresión de función" o la "declaración de función" que sí crea su propio contexto.
+
+Las "funciones de flecha" son anónimas.
+
+El objeto argumentos no está en el contexto de la función.
+
+Si al definir la función, no usamos el símbolo de las llaves. La función devolverá como resultado de la función el resultado de la ejecución de la instrucción que hayamos indicado
 
 ## Beneficios de utilizar las pruebas unitarias:
 
@@ -56,12 +69,11 @@ Nota: Las pruebas unitarias no se preocupan por el contenido de la función `sum
 
 + **Las pruebas unitarias mejoran el trabajo en equipo**. Podrán seguir la lógica detrás de tu código y tu equipo será capaz de coordinar su código en consecuencia. Al revisar los códigos de los demás, el trabajo en equipo es más ágil.
 
-
 ## Escribiendo tu primera prueba unitaria con Jest
 
-Jest es el framework de pruebas unitarias más popular en javascript, utilizado por grandes empresas como airbnb, twitter, spotify y cuenta con plugins que se integran increíblemente con frameworks de front-end como React, Vue, Angular, etc.
+Jest es el framework de pruebas unitarias más popular en Javascript, utilizado por grandes empresas como Airbnb, Twitter, Spotify y cuenta con plugins que se integran increíblemente con frameworks de front-end como React, Vue, Angular, etc.
 
-Requiere de casi 0 configuración para empezar a usarlo, es extremadamente rápido y los mensajes de error o de feedback son muy claros.
+Requiere de casi 0 configuraciones para empezar a usarlo, es extremadamente rápido y los mensajes de error o de feedback son muy claros.
 
 ### Ejemplo de Sintaxis
 
@@ -99,7 +111,7 @@ La única manera de asegurarte de que tu función `isUpperCase` funciona es prob
 5. ¿Qué ocurre si le pasas un booleano en lugar de un string?
 
 
-![unit test scenarios](../../assets/images/unit-test-scenarios.png)
+![unit test scenarios](https://github.com/breatheco-de/content/blob/master/src/assets/images/unit-test-scenarios.png?raw=true)
 
 Aquí está el código para cada prueba que debemos construir:
 

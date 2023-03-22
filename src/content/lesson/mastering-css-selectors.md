@@ -11,7 +11,7 @@ status: "published"
 
 ## Why Do We Need to Learn about Selectors?
 
-Completing a stylesheet is like having a little war between selectors, – you are constantly overriding previously defined styles with new ones:
+Completing a stylesheet is like having a little war between selectors, you are constantly overriding previously defined styles with new ones:
 
 ```css
 //You first might want all the H2 tags to be font-size: 14px; and color: blue;
@@ -29,7 +29,7 @@ h2{
 
 This happens all the time and, at some point it, can be challenging to override previous styles.  You must organize your styles properly and start from the least specific to the most specific.
 
-This "very specific" selectors will help you a lot.  They will be your best weapon when fighting your styles war!
+This "very specific" selectors will help you a lot. They will be your best weapon when fighting your styles war!
 
 > :tv: &nbsp;[Here is a super cool video (3:40 min) explaining specificity.](https://www.youtube.com/watch?v=In78mSOHmls)
 
@@ -41,7 +41,7 @@ This "very specific" selectors will help you a lot.  They will be your best weap
 }
 ```
 
-This statement takes the paragraph tags that are children of the div and turns them blue.  Note that it only works for the *children* of that div – not necessarily for all of the descendants.  Let’s explore this further with the following example.
+This statement takes the paragraph tags that are children of the `div` and turns them blue. Note that it only works for the *children* of that div, not necessarily for all of the descendants. Let’s explore this further with the following example.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -56,11 +56,11 @@ p + p {
 }
 ```
 
-We used the adjacent sibling selector to change the second and third paragraph to red.  This seems very tricky, doesn’t it?  Instinctively, we would expect the first paragraph to be red as well.  After all, the first paragraph is on the same level as the next two, and, has siblings.
+We used the adjacent sibling selector to change the second and third paragraph to red. This seems very tricky, doesn’t it? Instinctively, we would expect the first paragraph to be red as well.  After all, the first paragraph is on the same level as the next two, and, has siblings.
 
-However, this selector only applies to elements that are preceded by something else.  In this instance, only the paragraphs preceded directly by a sibling paragraph will be targeted.
+However, this selector only applies to elements that are preceded by something else. In this instance, only the paragraphs preceded directly by a sibling paragraph will be targeted.
 
-The first paragraph in the list is preceded by the div, so it remains unchanged.
+The first paragraph in the list is preceded by the `div`, so it remains unchanged.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -75,7 +75,7 @@ The first paragraph in the list is preceded by the div, so it remains unchanged.
 }
 ```
 
-The previous CSS code turns red every element inside a specific div – this includes items such as links, that have a default color set to something else and wouldn’t be affected by simply targeting the div.
+The previous CSS code turns red every element inside a specific div, this includes items such as links, that have a default color set to something else and wouldn’t be affected by simply targeting the div.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/79254pm6/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -89,7 +89,7 @@ div * p {
 }
 ```
 
-You can take this as far as you want – the following targets the "grandchildren" of the div.  You will find this chaining method used frequently in CSS debugging tricks.
+You can take this as far as you want; the following targets the "grandchildren" of the div.  You will find this chaining method used frequently in CSS debugging tricks.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -98,11 +98,10 @@ You can take this as far as you want – the following targets the "grandchildre
 
 ## Attribute Value Selector
 
-
 ```css
 a[href='http://4geeksacademy.com/'] {color: blue;}
 ```
-If we want to change the font color of the "Design Shack" link, we could use :pseudo selectors.  However, doing so would assume that the list stays in that order, and, browser support isn’t the best.  Instead, what we can do is use an attribute selector to target the specific `href` that we’re interested in.
+If we want to change the font color of the "Design Shack" link, we could use :pseudo selectors.  However, doing so would assume that the list stays in that order, and, browser support isn’t the best. Instead, what we can do is use an attribute selector to target the specific `href` that we’re interested in.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -115,15 +114,13 @@ If we want to change the font color of the "Design Shack" link, we could use :ps
 ```css
 div[id*='section'] {color: red;}
 ```
-The following code targets any div with the word "section" in the title.  It can be "section3" or "section-Four" – it doesn’t matter.  As long as it contains the indicated string, the subsequent styles will apply.
+The following code targets any `div` with the word "section" in the title. It can be "section3" or "section-Four", it doesn’t matter.  As long as it contains the indicated string, the subsequent styles will apply.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 # Pseudo Class Selectors
-
-
 
 ### Link-related pseudo selectors 
 ```css
@@ -158,7 +155,7 @@ input:focus{font-size: 2em;}
 input:enabled{ border: 2px solid black;}
 ```
 
-It is very important to take enough time to style our forms.  Styling is the best way to tell the user that one input is either disabled, checked, or that the cursor is over a particular input.
+It is very important to take enough time to style our forms. Styling is the best way to tell the user that one input is either disabled, checked, or that the cursor is over a particular input.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -214,13 +211,3 @@ You can apply styles to elements based on their position.
 
 
 > :link: Great reading about CSS Selectors: [The 30 CSS selectors you must memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
-
-
-
-
-
-
-
-
-
-

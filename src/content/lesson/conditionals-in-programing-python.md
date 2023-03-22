@@ -13,15 +13,15 @@ tags: ["Conditionals","Logical operators","If...else","Conditions","Python"]
 
 ## Introduction to conditionals in Python
 
-There are 5 skills you need to master in your toolset for building algorithms with python:
+There are 5 skills you need to master in your tool set for building algorithms with python:
 
 1. Variables.
-2. `Conditionals`.
+2. Conditionals.
 3. Lists (or arrays).
 4. Loops.
 5. Functions.
 
-The use of `conditionals` is the easies way we have to make decisions when coding our algorithms.
+The use of `conditionals` is the easiest way we have to make decisions when coding our algorithms.
 
 Let's say we are building a program to help us pick what to wear, but we hate the blue color, we could tell the computer to avoid that color using a statement like this:  
 
@@ -32,14 +32,14 @@ else:
     #do something else or do nothing
 ```
   
-![Condicionales](../../assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png)
+![Condicionales](https://github.com/breatheco-de/content/blob/master/src/assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png?raw=true)
 
 > :link: Using `switch` is not available in python.
 
 ## What is a logical expression in Python?
 
 Logical expressions let you conditionally skip a series of lines of your code.
-The best wat to understand them, is to think of them like questions you can ask to the computer about your variables, for example:
+The best way to understand them, is to think of them like questions you can ask the computer about your variables, for example:
 
 1. `if user_age > 21:`
 2. `if day == "tuesday"`
@@ -47,12 +47,12 @@ The best wat to understand them, is to think of them like questions you can ask 
 
 In order to ask a question, or conditionally excuse a particular set of lines, you first need to have data (information) stored on useful variables, above we had the variables `user_age`, `day`, `car_model` and `number_of_tires`.
 
-If we don't have the information pre-stored in variables we are not able to ask any question, it is all about strategy and planning!
+If we don't have the information pre-stored in variables we are not able to ask any questions, it is all about strategy and planning!
 
 For example, if we have the user's age stored in a variable `age` then, and only then, we are able to code for something like:
 
 ```python
-# We use two equal signs when we want to compare two variables for equality
+# We use two equal signs (==) when we want to compare two variables for equality
 if age == 21:
     print("You are old enough!!")
 ```
@@ -61,9 +61,9 @@ if age == 21:
 
 The previous example was a simple condition, but in real life picking what to wear involves a combination of several conditions to make the final decision, for example: Let's look at this algorithm that tells you if you have the flu
 
-![Hit by car or have a flu](../../assets/images/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800.jpeg)
+![Hit by car or have a flu](https://github.com/breatheco-de/content/blob/master/src/assets/images/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800.jpeg?raw=true)
 
-If you want to represent this algorithm in Python it will look something like this:
+If you want to represent this algorithm in Python, it will look something like this:
 
 ```python
 feels_like_hit_by_train = True
@@ -77,6 +77,7 @@ if feels_like_hit_by_train == True:
 else:
     print("You don't have a flu")
 ```
+
 Basically, this algorithm has two variables to consider: `feels_like_hit_by_train` and `you_were_hit_by_train`.
 Our job as developers is to sit down and try to prepare a strategy and come up with an algorithm that solves a problem.
 
@@ -94,9 +95,9 @@ Mostly all the questions can be asked using the following comparisons: `==`, `>`
 | `is None`     | `if a is None`    | This is self-explanatory, isn't it?   |
 | `in`          | `if name in ['bob','maria','nancy']`  | If the value of name is contained inside the list of names   |
 
-### `AND` & `OR` Operators in python
+### `AND` & `OR` Operators in Python
 
-Another way to write the algorithm is to combine to questions in the same condition using the `and` and `or`:
+Another way to write the algorithm is to combine questions in the same condition using the `AND` and `OR`:
 
 ```python
 feels_like_hit_by_train = True
@@ -108,17 +109,16 @@ elif feels_like_hit_by_train:
     print("You have a flu")
 ```
 
-As you can see here we are using `elif` together for the first time, for faster coding. Another trick you can use for faster coding:
+As you can see we are using `elif` together for the first time, for faster coding. Another trick you can use for faster coding:
 
 | Original | Equivalent |
 | --- | --- |
 | instead of `if(feels_like_hit_by_train == true)` | you write `if(feels_like_hit_by_train)`  |
 | instead of `if(you_were_hit_by_train == false)` | you write `if(!you_were_hit_by_train)` |
 
-
 ## If...else in Python
 
-You can also use the `else`  expression to refer to the negation of the first condition:
+You can also use the `else` expression to refer to the negation of the first condition:
 
 ```python
 if color == "blue":
@@ -161,21 +161,20 @@ elif value < 1000:
 elif value < 10000:
   print("thousands")
 else:
-  print("hundrends of thousands or maybe more")
+  print("hundrends of thousands, or maybe more")
 ```
 
 ## The `switch` statement in Python
 
 Python does not have a `switch` statement.
 
-
 ## Conclusion
 
-It's all about what question to ask: The previous example was a simple condition, but real life is not that simple. There are lots of nested conditions and complicated flows that will challenge your skills to the limit. For example:
+It's all about what question to ask. The previous example was a simple condition, but real life is not that simple. There are lots of nested conditions and complicated flows that will challenge your skills to the limit. For example:
 
 This will be the algorithm to pick what to wear on Valentine's Day:
 
-![What to ware in valentine's day](../../assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg)
+![What to ware in valentine's day](https://github.com/breatheco-de/content/blob/master/src/assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg?raw=true)
 
 ```python
 if going_out:

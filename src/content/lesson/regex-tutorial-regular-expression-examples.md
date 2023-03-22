@@ -1,7 +1,7 @@
 ---
 title: "Regex Tutorial: Learn With Regular Expression Examples"
 subtitle: "Regular Expressions are the best way to identify patterns within strings. They can seem difficult and annoying, but once you know how to use them, they're amazing! In this Regex Tutorial you will learn with Regular Expression Examples"
-cover_local: "../../assets/images/bf7bc7e6-c89c-4f97-9377-e30e369ba796.gif"
+cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/bf7bc7e6-c89c-4f97-9377-e30e369ba796.gif?raw=true"
 textColor: "white"
 authors: ["alesanchezr"]
 date: "2020-10-19T16:36:31+00:00"
@@ -24,7 +24,7 @@ The process of describing the pattern of an email is the same process you will f
 ## Why Use Regex?
 
 
-All major programming languages use regular expressions (C++, PHP, .NET, Java, JavaScript, Python, Ruby, and many others).  As a web developer, you have to always be working with strings to validate the user’s inputted data, to validate URL formats, to replace words in paragraphs, etc.  These are the main uses for regular expressions:
+All major programming languages use regular expressions (C++, PHP, .NET, Java, JavaScript, Python, Ruby, and many others).  As a [web developer](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), you have to always be working with strings to validate the user’s inputted data, to validate URL formats, to replace words in paragraphs, etc.  These are the main uses for regular expressions:
 
 + **Search** for particular items within a large body of text.  For example, you may wish to identify all email addresses in some content using a text editor.
 + **Replace** particular items.  For example, you may wish to clean up some poorly formatted HTML by replacing all uppercase tags with lowercase equivalents in a text editor.
@@ -35,11 +35,9 @@ All major programming languages use regular expressions (C++, PHP, .NET, Java, J
 
 ## Building and Testing Regular Expressions
 
-
 Never start creating a Regex without having a live testing tool – it can get very complicated very easily.  The best way is to use the "divide and conquer" strategy (again) – split your Regex into several smaller Regex’s, and then combine them all.
 
 ## The Patterns Syntax
-
 
 This is a regular expression that checks for an email pattern:
 
@@ -108,8 +106,6 @@ You can also combine ranges of characters like this:
 <div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVCYS16QS1aJTVE&amp;c=V2hlbiB0b2RheSBpcyBvdmVyIFRlZCB3aWxsIGhhdmUgYSB0ZWRpb3VzIHRpbWUgdGlkeWluZyB1cC4%3D">Click to open demo in a new window</a></small></div>
 
 
-
-
 ### The `^` (caret) Character: Negation or Beginning of a Term
 
 **If we place `^` at the beginning of a [range]:**
@@ -123,8 +119,6 @@ We are negating the range.  For example:
 + We are saying that we want to only test the Regex from the beginning of the string (no substrings – smaller parts of the string – will be tested):
 
 + A string starting with http: `^http`
-
-
 
 
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="200px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=bGklNUIlNUV2JTVEZQ%3D%3D&amp;c=QSBkZXZlbG9wZXIgbGl2ZXMgbGlrZSBhbiBvbGl2ZSBvaWwsIGFsd2F5cyBhZGRpbmcgZ29vZCB0YXN0ZSB0byB3aGF0IGhlIGRvZXMu"></iframe>
@@ -195,10 +189,7 @@ We can place the quantifier after the character patterns that we want to repeat.
 
 > :point_up:Here is an interactive tutorial to learn regular expressions:https://regexone.com/
 
-
-
 ## Some very useful Regular Expressions
-
 
 Lets face it:  regular expressions are something you will use every once in a while (unless you specialize in a very particular area of the web development world).  The syntax is easy to forget, and you probably are going to find your Regex’s from the internet a lot of the time.  The important thing here is that you understand them and that you are able to play with them whenever you need to.
 
@@ -206,7 +197,7 @@ Here are some pre-made Regex’s:
 
 #### Regular Expression for: Validating an Email
 
-![regex tutorial regular expression examples](../../assets/images/39f93d0d-248e-4e94-b402-b744c4b06a4d.png)
+![regex tutorial regular expression examples](https://storage.googleapis.com/breathecode-asset-images/9f0dfcac7485b60618e760410dfa3947e1394bdc76a9c0d458b90a7986a71db8.png?raw=true)
 
 We begin by telling the parser to find the beginning of the string (^).
 
@@ -225,8 +216,6 @@ Finally, we want the end of the string ($).
 <div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTVCJTVDdy5fJTI1JTJCLSU1RCUyQiU0MCU1QiU1Q3cuLSU1RCUyQiU1Qy4lNUJhLXpBLVolNUQlN0IyJTJDNCU3RA%3D%3D&amp;c=U3RyaW5nIHRoYXQgbWF0Y2hlczo8L3A%2BCjxwPmpvaG5AZG9lLmNvbTxiciAvPgpTdHJpbmcgdGhhdCBkb2VzbiYjODIxNzt0IG1hdGNoOjwvcD4KPHA%2Bam9obkBkb2Uuc29tZXRoaW5nIChUTEQgaXMgdG9vIGxvbmcp">Click to open demo in a new window</a></small></div>
 
 
-
-
 #### Regular Expression for: Matching a URL
 
 This Regex is almost like taking the ending part of the above Regex, slapping it between "http://" and some file structure at the end.  It sounds a lot simpler than it really is.  To start off, we must search for the beginning of the line with the caret.
@@ -242,15 +231,3 @@ Finally, we end with the end of the line.
 <iframe style="border:0; overflow:hidden;" frameborder="0" width="100%" height="400px" src="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTI4aHR0cHMlM0YlM0ElNUMlMkYlNUMlMkYlMjklM0YlMjglNUIlNUNkYS16JTVDLi0lNUQlMkIlMjklNUMuJTI4JTVCYS16JTVDLiU1RCU3QjIlMkM2JTdEJTI5JTI4JTVCJTVDJTJGJTVDdyUyMCU1Qy4tJTVEJTJBJTI5JTJBJTVDJTJGJTNG&amp;c=U3RyaW5nIHRoYXQgbWF0Y2hlczo8L3A%2BCjxwPmh0dHA6Ly9uZXQudHV0c3BsdXMuY29tL2Fib3V0PC9wPgo8cD5TdHJpbmcgdGhhdCBkb2VzbiYjODIxNzt0IG1hdGNoOjwvcD4KPHA%2BaHR0cDovL2dvb2dsZS5jb20vc29tZS9maWxlIS5odG1sIChjb250YWlucyBhbiBleGNsYW1hdGlvbiBwb2ludCk%3D"></iframe>
 
 <div align="right"><small><a href="https://assets.breatheco.de/live-demos/js/regex-tester/?encoded=true&amp;e=JTI4aHR0cHMlM0YlM0ElNUMlMkYlNUMlMkYlMjklM0YlMjglNUIlNUNkYS16JTVDLi0lNUQlMkIlMjklNUMuJTI4JTVCYS16JTVDLiU1RCU3QjIlMkM2JTdEJTI5JTI4JTVCJTVDJTJGJTVDdyUyMCU1Qy4tJTVEJTJBJTI5JTJBJTVDJTJGJTNG&amp;c=U3RyaW5nIHRoYXQgbWF0Y2hlczo8L3A%2BCjxwPmh0dHA6Ly9uZXQudHV0c3BsdXMuY29tL2Fib3V0PC9wPgo8cD5TdHJpbmcgdGhhdCBkb2VzbiYjODIxNzt0IG1hdGNoOjwvcD4KPHA%2BaHR0cDovL2dvb2dsZS5jb20vc29tZS9maWxlIS5odG1sIChjb250YWlucyBhbiBleGNsYW1hdGlvbiBwb2ludCk%3D">Click to open demo in a new window</a></small></div>
-
-
-
-
-
-
-
-
-
-
-
-

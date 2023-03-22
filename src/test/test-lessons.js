@@ -47,7 +47,7 @@ const validateLessons = (report) => {
         if(rest.cover && rest.cover.indexOf("../") > -1) throw TestError(l,'The cover attribute can only be used for remote images, if the image is local please use cover_local instead'.red);
         else if(rest.cover_local){
             if(rest.cover_local.indexOf("../") == -1) throw TestError(l,'The cover_local attribute can only be used for local images, if the image is remote please use cover instead'.red);
-            const _p = "../"+rest.cover_local.replace("../../","");
+            const _p = "../"+rest.cover_local.substring(0, rest.cover_local.indexOf("?") > -1 && rest.cover_local.indexOf("?")).replace("../../","");
             if(!fs.existsSync(_path.join(__dirname, _p))) throw TestError(l,`This image from cover_local could not be found: ${_p}`.red);
         }
         
@@ -57,7 +57,7 @@ const validateLessons = (report) => {
         if(!moment(date).isValid()) throw TestError(`Invalid lesson date: ${date}`.red);
 
         if(status=='published' || !status){
-        if(!subtitle || subtitle == '' || subtitle.length < 50 || subtitle.length > 340) throw TestError(l,`The lesson must have a subtitle within 50 and 340 characters, ${subtitle.length} found`.red);
+        if(!subtitle || subtitle == '' || subtitle.length < 50 || subtitle.length > 340) throw TestError(l,`The lesson must have a subtitle within 50 and 340 characters, ${subtitle?.length} found`.red);
         }
         if(slug && slugs.includes(slug)) throw TestError(l,`Duplicated lesson slug: ${slug} in two or more lessons in: ${path}`.red);
         slugs.push(slug);
