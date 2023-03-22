@@ -61,7 +61,7 @@ El índice siempre debe comenzar en cero (0). Eso significa que una lista de 2 e
 print(my_list[0])  # Esto imprimirá el 1er elemento en la consola.
 aux = my_list[5]
 print(aux)  # Esto imprimirá el 6to elemento en la consola.
-print(my_list[len(myList)-1])  # Esto imprimirá el último elemento en la consola.
+print(my_list[len(my_list)-1])  # Esto imprimirá el último elemento en la consola.
 
 ```
 
