@@ -125,7 +125,7 @@ def multiplicar(a, b):
 
 # este print no funcionará, generará un error, porque mi_variable fue 
 # declarado dentro de la función multiplicar, por lo tanto no está disponible fuera de su alcance.
-print(my_variable)
+print(mi_variable)
 
 ```
 
