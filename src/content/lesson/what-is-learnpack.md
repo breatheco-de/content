@@ -25,13 +25,13 @@ Instead of watching a video or reading an article, LearnPack will present small 
 
 Most LearnPack tutorials will come with a button labeled: "Start new exercise" or "continue exercise".
 
-![Learnpack Alert on 4geeks.com](../../assets/images/learnpack-alert.png)
+![Learnpack Alert on 4geeks.com](https://github.com/breatheco-de/content/blob/master/src/assets/images/learnpack-alert.png)
 
 After clicking on "Start new exercise" a new Gitpod computer will open, and LearnPack will start running immediately. 
 
 All LearnPack tutorials come in steps; you will find the instructions on the right side and a button to continue to the `next ->` step.
 
-![Learnpack explanation](../../assets/images/learnpack-explanation.png)
+![Learnpack explanation](https://github.com/breatheco-de/content/blob/master/src/assets/images/learnpack-explanation.png)
 
 ## Restarting LearnPack
 

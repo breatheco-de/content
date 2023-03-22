@@ -46,7 +46,7 @@ Tu computadora tiene archivos, directorios y aplicaciones. Tu línea de comando 
 
 ## Así es cómo se ve el sistema de archivos en una interfaz visual versus la terminal:
 
-![the command line the terminal](../../assets/images/182ea93c-9d7d-4c8d-8153-9c1756d8cd1f.png)
+![the command line the terminal](https://github.com/breatheco-de/content/blob/master/src/assets/images/182ea93c-9d7d-4c8d-8153-9c1756d8cd1f.png)
 
 Hay 4 cosas importantes que notar aquí:
 
@@ -191,6 +191,6 @@ Cuando nano se abra, verás una barra superior con la versión actual de la apli
 
 En la parte inferior, verás los comandos más utilizados para usar nano, tales como: quit, where is, help, etc.
 
-![the command line the terminal](../../assets/images/6128e9f7-b460-4b10-80e4-34057b7d4df9.png)
+![the command line the terminal](https://github.com/breatheco-de/content/blob/master/src/assets/images/6128e9f7-b460-4b10-80e4-34057b7d4df9.png)
 
 > :point_up: Este sitio web tiene un montón de pequeños mini desafíos para ayudarte a practicar la línea de comandos: <br>https://cmdchallenge.com/

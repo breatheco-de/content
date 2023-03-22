@@ -26,7 +26,7 @@ Digamos que estamos construyendo un programa para ayudarnos a elegir qué almace
 `If` ***color*** is not **blue**, then... do something.  
 `Else`... do nothing or exit.
   
-![Condicionales](../../assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png)
+![Condicionales](https://github.com/breatheco-de/content/blob/master/src/assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png)
 
 Las sentencias de decisión son: `if-then-else` y `switch`.
 
@@ -176,7 +176,7 @@ System.out.println(sMes);
 
 El ejemplo anterior era una condición simple, pero en la vida real, elegir qué hacer implica una combinación de varias condiciones para tomar la decisión final, por ejemplo: Veamos este algoritmo que le dice a una computadora cómo decidir qué ponerse durante el día de San Valentín:
 
-![What ot ware in valentines day](../../assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg)
+![What ot ware in valentines day](https://github.com/breatheco-de/content/blob/master/src/assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg)
 
 Si quieres representar este algoritmo en Java, se verá algo así:
 

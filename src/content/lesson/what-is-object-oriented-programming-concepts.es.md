@@ -48,7 +48,7 @@ Las clases y los objetos son los dos aspectos principales de la programación or
 
 > Digamos que tienes un auto nuevo con patente/matrícula XHR-ABM.  Ese objeto específico será la instancia de un objeto con la clase auto.
 
-![conceptos sobre programación orientada a objetos](../../assets/images/ed2a2bfb-95eb-473f-af7c-aa9f1d4c055e.jpeg)
+![conceptos sobre programación orientada a objetos](https://github.com/breatheco-de/content/blob/master/src/assets/images/ed2a2bfb-95eb-473f-af7c-aa9f1d4c055e.jpeg)
 
 ## Clases Definitorias (abstracción)
 
@@ -61,7 +61,7 @@ Cada aplicación y sitio web que vayas a construir debe tener su propio conjunto
 
 Por ejemplo: Una clase de persona tiene: color de piel, raza, nombre, número de seguridad social, etc.  Todas las propiedades tienen un tipo de datos, como: Integer, String, Float, Null, Arrays.
 
-![conceptos sobre programación orientada a objetos](../../assets/images/10ce9a67-1060-4550-a824-5087688d0630.png)
+![conceptos sobre programación orientada a objetos](https://github.com/breatheco-de/content/blob/master/src/assets/images/10ce9a67-1060-4550-a824-5087688d0630.png)
 
 
 
@@ -71,7 +71,7 @@ Si queremos almacenar la fecha de nacimiento de la persona utilizando tipos de d
 
 Una mejor solución será usar clases de fecha predefinidas (pre-defined Date Classes) o funciones que vienen con la mayoría de los lenguajes de programación de back-end, por ejemplo [PHP Date](https://www.w3schools.com/php/php_date.asp) o [Python datetime.](https://www.pythonforbeginners.com/basics/python-datetime-time-examples)
 
-![conceptos sobre programación orientada a objetos](../../assets/images/6f07bc8b-6d21-46e6-8710-34992df2508b.png)
+![conceptos sobre programación orientada a objetos](https://github.com/breatheco-de/content/blob/master/src/assets/images/6f07bc8b-6d21-46e6-8710-34992df2508b.png)
 
 
 
@@ -80,7 +80,7 @@ Una mejor solución será usar clases de fecha predefinidas (pre-defined Date Cl
 Algunas propiedades son calculadas durante el tiempo de ejecución cada vez que las necesitamos.  Por ejemplo: edad.  El problema con la edad es que cambia con el tiempo.  Por eso no es una buena idea almacenar la edad actual del usuario.   En su lugar, es mejor declarar una propiedad calculada llamada "Edad" y declarar una función que calcula la edad actual del usuario en función de su fecha de nacimiento (birthDate).
 
 
-![conceptos sobre programación orientada a objetos](../../assets/images/a2a08a9f-5a5c-415e-93d6-c8a45aecb23d.png)
+![conceptos sobre programación orientada a objetos](https://github.com/breatheco-de/content/blob/master/src/assets/images/a2a08a9f-5a5c-415e-93d6-c8a45aecb23d.png)
 
 
 
@@ -117,7 +117,7 @@ Los clientes tienen nombres de usuario, nombres, apellidos.  Cars tienen color, 
 
 ### Nuestro modelo de clase se ve así:
 
-![conceptos sobre programación orientada a objetos](../../assets/images/61908aa1-63a5-40b1-8a53-8c7b202d4ef3.png)
+![conceptos sobre programación orientada a objetos](https://github.com/breatheco-de/content/blob/master/src/assets/images/61908aa1-63a5-40b1-8a53-8c7b202d4ef3.png)
 
 ### Escribiendo las funciones, relaciones y herencia.
 
@@ -187,19 +187,19 @@ Quizas puedas sentir que no tiene sentido usar "getters" y "setters" para cada p
   
 *Aquí hay otro ejemplo de un "getter/setter" en la vida real:*
 
-![conceptos sobre programación orientada a objetos](../../assets/images/js.png)
+![conceptos sobre programación orientada a objetos](https://github.com/breatheco-de/content/blob/master/src/assets/images/js.png)
 
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Object-Oriented-Javascript?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Object-Oriented-Javascript?lite=true">Click aquí para abrir el demo en una nueva ventana</a></small></div>
 
-![conceptos sobre programación orientada a objetos](../../assets/images/python.png)
+![conceptos sobre programación orientada a objetos](https://github.com/breatheco-de/content/blob/master/src/assets/images/python.png)
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Python-Class-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <div align="right"><small>
 <a href="https://repl.it/@4GeeksAcademy/Python-Class-Example?lite=true">Click aquí para abrir el demo en una nueva ventana</a></small></div>
 
-![conceptos sobre programación orientada a objetos](../../assets/images/php.png)
+![conceptos sobre programación orientada a objetos](https://github.com/breatheco-de/content/blob/master/src/assets/images/php.png)
 <iframe src="https://repl.it/G1cx/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <div align="right"><small><a href="https://repl.it/G1cx/0?lite=true">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
@@ -231,17 +231,17 @@ En [programación orientada a objetos](https://searchmicroservices.techtarget.co
 "Car" es una clasificación de "Four-Wheeler."  Aquí, "Car" adquiere las propiedades de un "Four-Wheeler."  Otras clasificaciones pueden ser un Jeep, Tempo, van etc. "Four-Wheeler" define una clase de vehículos que tiene cuatro ruedas, un rango específico de potencia del motor, capacidad de carga, etc.  "Car" (denominado como una subclase) adquiere estas propiedades de "Four-Wheeler" (denominado como una superclase), y tiene ALGUNAS propiedades específicas que son diferentes de otras clasificaciones de "Four Wheeler", como lujo, confort, forma , tamaño, uso, etc.
 
 "Car" puede tener una clasificación adicional como "Open Car," "Small Car," "Large Car," etc, que van a adquerir las propiedades de AMBOS "Four-Wheeler" Y "Car" – pero aún tendrá algunas propiedades específicas.  De esta manera, el nivel de jerarquía se puede extender a cualquier nivel.
-![conceptos sobre programación orientada a objetos](../../assets/images/js.png)
+![conceptos sobre programación orientada a objetos](https://github.com/breatheco-de/content/blob/master/src/assets/images/js.png)
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/ObjectOriented2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/ObjectOriented2?lite=true">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
 
-![conceptos sobre programación orientada a objetos](../../assets/images/php.png)
+![conceptos sobre programación orientada a objetos](https://github.com/breatheco-de/content/blob/master/src/assets/images/php.png)
 <iframe src="https://repl.it/G1cq/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <div align="right"><small ><a href="https://repl.it/G1cq/0?lite=true">Haz Clic aquí para abrir el demo en una nueva ventana</a></small></div>
 
-![conceptos sobre programación orientada a objetos](../../assets/images/python.png)
+![conceptos sobre programación orientada a objetos](https://github.com/breatheco-de/content/blob/master/src/assets/images/python.png)
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Python-Class-Inheritance?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Python-Class-Inheritance?lite=true">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>

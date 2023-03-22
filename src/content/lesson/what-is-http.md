@@ -16,7 +16,7 @@ HTTP stands for Hypertext Transfer Protocol. It is a set of communication rules 
 Basically, it is protocol to transfer text that operates through requests between a client and a server. HTTP is the term used to describe this simple text-based language. No matter how it is developed, the server's goal will always be to understand and return plain text responses.
 
 
-  ![what is http?](../../assets/images/http-3.png)
+  ![what is http?](https://github.com/breatheco-de/content/blob/master/src/assets/images/http-3.png)
 
 ## How does HTTP work?
 

@@ -21,12 +21,12 @@ HTML allows you to divide the website information into parts (similar to the bas
 
 Originally, browsers only knew how to interpret HTML.  Websites were simple and neither CSS nor JavaScript were used. A website was a simple plain-text document with the typical elements any Word Document has: headings, bullet-point lists, paragraphs, etc.
 
-![what is html](../../assets/images/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc.png)
+![what is html](https://github.com/breatheco-de/content/blob/master/src/assets/images/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc.png)
 
 
 ### HTML Syntax: It’s All `<Tags>`.
 
-![what is html](../../assets/images/78296f64-547f-4928-a8da-14cb24e836b9.gif)
+![what is html](https://github.com/breatheco-de/content/blob/master/src/assets/images/78296f64-547f-4928-a8da-14cb24e836b9.gif)
 
 Remember when we said the Internet is all text?
 
@@ -114,7 +114,7 @@ Let's simulate how a browser thinks: Imagine a user on his browser (client-side)
 
   As you can see, all pages will include, AT LEAST, the following tags:
 
-  ![learn html](../../assets/images/e8d3d49d-8c7e-4bc2-88e0-15b95a8ccc54.png)
+  ![learn html](https://github.com/breatheco-de/content/blob/master/src/assets/images/e8d3d49d-8c7e-4bc2-88e0-15b95a8ccc54.png)
 
 |**Name**   |**Tags**   |**Description**   |
 |:----------|:----------|:-----------------|
@@ -186,5 +186,5 @@ You just learned how a website was built in 1999.  Now we only have a few more w
 
 HTML has a lot more tags.  There's also a new version called HTML5.  But again, don’t worry, you’ll **learn HTML** and how to build beautiful (thanks to CSS) and interactive (thanks to forms and JavaScript) websites in the next few lessons.  That’s why we are here!!
 
-![learn html](../../assets/images/ed1c57e1-5c67-4bf1-96ed-1fb2353fb2ca.gif)
+![learn html](https://github.com/breatheco-de/content/blob/master/src/assets/images/ed1c57e1-5c67-4bf1-96ed-1fb2353fb2ca.gif)
 

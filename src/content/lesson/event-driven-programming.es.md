@@ -21,7 +21,7 @@ Un evento es algo que sucede! Como **hacer clic** en un botón, **presionar** un
 
 Tu trabajo como desarrollador es prepararte para esos eventos y **definir las funciones** que van a manejar esos eventos.
 
-![event driven programming](../../assets/images/1c00bd95-1359-4fd5-8399-b1b80a769009.png)
+![event driven programming](https://github.com/breatheco-de/content/blob/master/src/assets/images/1c00bd95-1359-4fd5-8399-b1b80a769009.png)
 
 ### ¿Pero quién desencadena estos eventos?
 
@@ -105,7 +105,7 @@ Ahora que sabes qué eventos hay, puedes comenzar a escucharlos cuando lo desees
 
 Repitamos: Para **reaccionar** necesitas **escuchar…** Y para escuchar necesitas especificar una función **handler**. Llamamos a esa construcción un **Event Listener**.
 
-![events driven programming](../../assets/images/9fa13314-24cc-4a4b-9676-e60616f73602.gif)
+![events driven programming](https://github.com/breatheco-de/content/blob/master/src/assets/images/9fa13314-24cc-4a4b-9676-e60616f73602.gif)
 
 Puedes agregar un detector de eventos de 2 maneras diferentes:
 

@@ -29,7 +29,7 @@ A variable is a container in which you can store any data.  For example, you can
 age = 24
 ```
 
-![what is python](../../assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
+![what is python](https://github.com/breatheco-de/content/blob/master/src/assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
 
 With virtually any programming language you can create as many variables as you want or need, all you have to do is type one word in your editor and that will become your variable, for example, this is how we declare a variable "name":
 
@@ -129,7 +129,7 @@ Then, you jump the line (hit enter) and write the code that your function must a
 
 **Note:**  To return something you use the `return` word at any time within the content of your function (between the curly brackets).
 
-![learn to code in javascript](../../assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif)
+![learn to code in javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif)
 
 ```python
 def multiply (param1, param2):

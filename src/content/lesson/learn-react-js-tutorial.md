@@ -92,7 +92,7 @@ function MyComponent(){
 
 Now let's say that we want this component to return a **Bootstrap card:** every time we call it. 
 
-![learn react js tutorial](../../assets/images/73edbb82-467c-4522-af7d-79c33bb270e2.png)
+![learn react js tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/73edbb82-467c-4522-af7d-79c33bb270e2.png)
 
 Here is how we do that in a React app.
 
@@ -253,7 +253,7 @@ Those components which serve to hold the layout of each of your web pages, and a
 
 Each component will have a render method. The final resulting HTML document will be comprised with the merge of all the outputs that all the components have on their render methods. Checkout the following illustration to get an idea.
 
-![learn react js tutorial](../../assets/images/6c7d3747-482a-480d-b5be-fdbf095292f3.png)
+![learn react js tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/6c7d3747-482a-480d-b5be-fdbf095292f3.png)
 
 ## The YouTube.com Example
 
@@ -313,7 +313,7 @@ A real high quality component must communicate with other components only throug
 
 Every component works like a mini-application. You are able to control and define your component workflow based on a series of available methods that you can declare and code according to your needs.
 
-![learn react js tutorial](../../assets/images/245ba798-e840-42d8-8391-7388159ccfeb.png)
+![learn react js tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/245ba798-e840-42d8-8391-7388159ccfeb.png)
 
 > :link: [Here you will find](https://reactjs.org/docs/react-component.html#the-component-lifecycle) a more detailed explanation of each available life-cycle method.
 

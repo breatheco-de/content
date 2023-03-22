@@ -14,7 +14,7 @@ Los desarrolladores Senior entienden que su código tendrá errores (no importa 
 
 Hay varias maneras de probar tus aplicaciones, pero las pruebas unitarias son la herramienta más poderosa que tiene un desarrollador para asegurar un código de alta calidad.
 
-![Write Code to test code](../../assets/images/6b4upqv6at321.jpg)
+![Write Code to test code](https://github.com/breatheco-de/content/blob/master/src/assets/images/6b4upqv6at321.jpg)
 
  
 ## ¿Qué son las pruebas unitarias?
@@ -41,7 +41,7 @@ test('12 and 5 should return 17', () => {
 ```
 Nota: Las pruebas unitarias no se preocupan por el contenido de la función `sum`, sólo se preocupan por la SALIDA de la función con una ENTRADA determinada.
 
-![unit testing examples](../../assets/images/unit-test1.png)
+![unit testing examples](https://github.com/breatheco-de/content/blob/master/src/assets/images/unit-test1.png)
 
 ## Función Flecha
 
@@ -111,7 +111,7 @@ La única manera de asegurarte de que tu función `isUpperCase` funciona es prob
 5. ¿Qué ocurre si le pasas un booleano en lugar de un string?
 
 
-![unit test scenarios](../../assets/images/unit-test-scenarios.png)
+![unit test scenarios](https://github.com/breatheco-de/content/blob/master/src/assets/images/unit-test-scenarios.png)
 
 Aquí está el código para cada prueba que debemos construir:
 

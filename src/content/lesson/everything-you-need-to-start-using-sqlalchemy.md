@@ -126,7 +126,7 @@ A transaction is a sequence of operations (like INSERT, UPDATE, SELECT) made on 
 
 Transactions have the following 4 standard properties(known as ACID properties):
 
-![Transactions](../../assets/images/tran-1.png)
+![Transactions](https://github.com/breatheco-de/content/blob/master/src/assets/images/tran-1.png)
 
 A transaction ends with COMMIT or ROLLBACK. 
 
@@ -158,12 +158,12 @@ db.session.begin_nested()
 
 This command may be called many times, and it will issue a new CHECKPOINT with an ID.
 
-![SQL](../../assets/images/sql-1.png)
+![SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-1.png)
 
 Now, let's say we go out to have some pizza. Our pizza comes with three ingredients basic ingredients:
 mozzarella, tomato, olives. Our table called 'PIZZA' would look like this: 
 
-![SQL](../../assets/images/sql-2.png)
+![SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-2.png)
 
 But we have a list of extra ingredients we can add to it: first we choose meat, but then we change our mind, and we want to add mushrooms instead. We would also like to add some pepperoni and bacon. Let see, how could we do that:
 
@@ -199,7 +199,7 @@ db.session.add(ingredient)
 
 Now our 'PIZZA' has the following ingredients:
 
-![SQL](../../assets/images/sql-3.png)
+![SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-3.png)
 
 Now we have decided we no longer want bacon, so we use ROLLBACK:
 
@@ -208,7 +208,7 @@ checkpoint_b.rollback()
 ```
 and our pizza looks like this:
 
-![SQL](../../assets/images/sql-4.png)
+![SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-4.png)
 
 ... I'm a bit hungry after reading this lesson!! Aren't you??
 

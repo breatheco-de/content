@@ -94,7 +94,7 @@ La forma más sencilla de implementar la autenticación en tu base de datos y en
 4. El endpoint `POST /token` devolverá el token al front-end si todo está bien.
 5. Luego, en cada uno de los otros endpoints de tu base de datos tendrás que validar si el token existe en el header de la petición y si existe, tendrás que validarlo.
 
-![Autentication workflow](../../assets/images/authentication-diagram.png)
+![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/authentication-diagram.png)
 
 ### Every token is a session
 

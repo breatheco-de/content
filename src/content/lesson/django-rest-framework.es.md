@@ -57,7 +57,7 @@ Eso creará una nueva carpeta en su directorio actual con el nombre del proyecto
 
 Después de ejecutar el comando, se creará una carpeta de proyecto con al menos 4 archivos dentro:
 
-![Django Rest Framework](../../assets/images/f9bc68cd-e407-4d55-afd6-ba95b0c8bc02.png)
+![Django Rest Framework](https://github.com/breatheco-de/content/blob/master/src/assets/images/f9bc68cd-e407-4d55-afd6-ba95b0c8bc02.png)
 
 + `__init__:` un archivo vacío que cualquier carpeta debe tener dentro para ser considerado un paquete de python.
 + `settings:` contiene todas las variables de configuración para su proyecto -  más adelante hablaremos más sobre este archivo.
@@ -84,7 +84,7 @@ $ python manage.py startapp [app_name]
 
 Verás una nueva carpeta con el nombre de tu aplicación y muchos archivos dentro. Revisémoslos:
 
-![Django Rest Framework](../../assets/images/c7eb4466-eaa5-4d33-8181-5b4c5df4e7f8.png)
+![Django Rest Framework](https://github.com/breatheco-de/content/blob/master/src/assets/images/c7eb4466-eaa5-4d33-8181-5b4c5df4e7f8.png)
 
 + `__init__:`  Le dice a Python que esta carpeta es un paquete.
 + `admin.py:`  Aquí podemos agregar modelos en la interfaz de administración para poder CRUD esos modelos.
@@ -97,7 +97,7 @@ Vamos a discutir todos estos archivos más detalladamente a continuación.
 
 Para resumir y continuar con nuestro ejemplo del "Proyecto BreatheCode", esta es la forma en que la estructura de archivos de su proyecto puede verse después de tener varias aplicaciones dentro de un gran proyecto.
 
-![Django Rest Framework](../../assets/images/e59de5e1-2751-4286-adfb-69c047e93058.png)
+![Django Rest Framework](https://github.com/breatheco-de/content/blob/master/src/assets/images/e59de5e1-2751-4286-adfb-69c047e93058.png)
 
 ### Manage.py (Django CLI)
 

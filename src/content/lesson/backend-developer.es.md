@@ -21,7 +21,7 @@ Todo el trabajo era realizado por el servidor: como no había JavaScript, el DOM
 
 **Piensa en el servidor como un "generador de documentos".** Puede ser una imagen, un video, un documento de texto, JSON, HTML, CSS, etc. La responsabilidad del servidor es responder con contenido cada vez que el cliente lo solicite.
 
-![backend developer](../../assets/images/2c0000ef-2907-43cb-80ed-2ba4f194b83e.gif)
+![backend developer](https://github.com/breatheco-de/content/blob/master/src/assets/images/2c0000ef-2907-43cb-80ed-2ba4f194b83e.gif)
 
 Junto con el contenido del documento generado, el servidor también puede especificar con qué tipo de contenido está respondiendo, permitiendo que el navegador lea e interprete la respuesta de manera precisa. Los formatos de respuesta disponibles pueden ser cientos, pero estos son los más comunes:
 

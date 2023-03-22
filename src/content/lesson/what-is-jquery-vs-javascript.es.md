@@ -60,7 +60,7 @@ Para descargar jQuery, anda a code.jquery.com y elige la última versión MINIFI
 
 Luego, usa la etiqueta `<script>` para importar ese archivo a tu sitio web. Coloca la etiqueta `<script>` dentro de la etiqueta `<head>` **antes de cualquier otra etiqueta JavaScript.**
 
-![jquery1](../../assets/images/b5b7f158-1aca-43f0-821a-fc39e6d583e3.gif)
+![jquery1](https://github.com/breatheco-de/content/blob/master/src/assets/images/b5b7f158-1aca-43f0-821a-fc39e6d583e3.gif)
 
 ##### 2) Usa un CDN 
 
@@ -68,7 +68,7 @@ Las redes de distribución de contenido son servidores que se utilizan específi
 
 Recomendamos [el CDN de Google:](https://developers.google.com/speed/libraries/) busque jQuery y copie el `<script>` de la última versión de jQuery disponible. Pegue esa etiqueta de secuencia de comandos ** antes de cualquier otra etiqueta de secuencia de comandos de JavaScript dentro de su sitio web ** `<head>`.
 
-![what is jquery vs javascript](../../assets/images/b5e8d1ef-5385-4923-aaf9-b24130405a9a.gif)
+![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/b5e8d1ef-5385-4923-aaf9-b24130405a9a.gif)
 
 ```html
 <!DOCTYPE html>
@@ -165,14 +165,14 @@ Por ejemplo, si deseas eliminar una clase específica de un elemento, primero te
 &nbsp;
 #### Selecciona Elementos del DOM
 
-##### ![qué es jquery vs javascript](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
+##### ![qué es jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
 
 ```javascript
 var elm = document.getElementById(‘elementId’);
 var elmArray = document.getElementsByClassName(‘elementId’);
 ```
 
-##### ![what is jquery vs javascript](../../assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
 
 ```javascript
 var elem = $(‘#elementId’);
@@ -183,7 +183,7 @@ var elemArray = $(‘.elm_class’);
 &nbsp;
 #### Crear un nuevo elemento DOM
 
-##### ![what is jquery vs javascript](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
 
 
 ```javascript
@@ -192,7 +192,7 @@ myAnchor.href="http://google.com";
 myAnchor.target="_blank";
 ```
 
-##### ![what is jquery vs javascript](../../assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
 
 ```javascript
 var attributesObj = {
@@ -205,14 +205,14 @@ $(‘<a>’,attributesObj);  //el attributesObj es opcional
 &nbsp;
 #### Append Child
 
-##### ![what is jquery vs javascript](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
 
 
 ```javascript
 parent.appendChild(el);
 ```
 
-##### ![what is jquery vs javascript](../../assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
 
 ```javascript
 $(parent).append(el);
@@ -224,14 +224,14 @@ $(parent).append(el);
 
 Vanilla JS no tiene una función remove (). Tendrás que llamar a una función removeChild desde el elemento padre del elemento.
 
-##### ![what is jquery vs javascript](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
 
 
 ```javascript
 elm.parentNode.removeChild(elm);
 ```
 
-##### ![what is jquery vs javascript](../../assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
 
 ```javascript
 $( ".hello" ).remove(); //Elimina todos los elementos con la clase clase hello 
@@ -242,14 +242,14 @@ var elements = $( ".hello" ).detach(); //Elimina los elementos del DOM pero los 
 &nbsp;
 #### Reemplazar Elemento
 
-##### ![what is jquery vs javascript](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
 
 
 ```javascript
 elm.parentNode.replaceChild(myNewHeading, elm); //being myNewHeding a DOM element
 ```
 
-##### ![what is jquery vs javascript](../../assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
 
 ```javascript
 $( "#div1" ).replaceWith( "<h1>This is a new heding</h1>" );
@@ -259,7 +259,7 @@ $( "#div1" ).replaceWith( "<h1>This is a new heding</h1>" );
 &nbsp;
 #### Traverse childs
 
-##### ![what is jquery vs javascript](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
 
 
 ```javascript
@@ -270,7 +270,7 @@ childs.forEach(function(elm, index){
 });
 ```
 
-##### ![what is jquery vs javascript](../../assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
 
 ```javascript
 $(css_selector).find(selector).each(function(index, elm){
@@ -282,7 +282,7 @@ $(css_selector).find(selector).each(function(index, elm){
 &nbsp;
 #### Obtener/Establecer atributo
 
-##### ![what is jquery vs javascript](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
 
 
 ```javascript
@@ -290,7 +290,7 @@ el.getAttribute(‘tabindex’);
 el.setAttribute(‘tabindex’, 3);
 ```
 
-##### ![what is jquery vs javascript](../../assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
 
 ```javascript
 $(el).attr(‘tabindex’);
@@ -307,13 +307,13 @@ jQuery realmente ayuda cuando se trabaja con clases porque la única forma de ac
 
 Por ejemplo, si deseas eliminar una clase específica de un elemento, tendrás que obtener el valor del atributo de clase como un string y luego crear una nuevo string - como el primero - pero sin esa clase en particular.
 
-![what is jquery vs javascript](../../assets/images/655a85b3-660f-45bf-8563-2bcbe13bf0e5.gif)
+![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/655a85b3-660f-45bf-8563-2bcbe13bf0e5.gif)
 
 &nbsp;
 &nbsp;
 #### Añadir/Eliminar clase CSS
 
-##### ![what is jquery vs javascript](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
 
 
 ```javascript
@@ -321,7 +321,7 @@ el.className += ‘ ‘ + className; //añadir
 el.className = el.className.replace("classname", ""); //eliminar
 ```
 
-##### ![what is jquery vs javascript](../../assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
 
 ```javascript
 $(el).addClass(className);
@@ -331,7 +331,7 @@ $(el).removeClass(className);
 &nbsp;
 #### Obtener/Establecer reglas de estilo CSS
 
-##### ![what is jquery vs javascript](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
 
 
 ```javascript
@@ -339,7 +339,7 @@ el.style.borderWidth = ’20px’;
 getComputedStyle(el)[ruleName];
 ```
 
-##### ![what is jquery vs javascript](../../assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
 
 ```javascript
 $(el).css(‘border-width’, ’20px’);
@@ -350,7 +350,7 @@ $(el).css(ruleName);
 &nbsp;
 #### Toggle Class
 
-##### ![what is jquery vs javascript](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
 
 
 ```javascript
@@ -365,7 +365,7 @@ var classes = el.className.split(‘ ‘);
   el.className = classes.join(‘ ‘);
   ```
 
-  ##### ![jquery](../../assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) With jQuery
+  ##### ![jquery](https://github.com/breatheco-de/content/blob/master/src/assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) With jQuery
 
   ```javascript
   $(el).toggleClass(className);
@@ -385,7 +385,7 @@ jQuery no agrega mucho valor al trabajar con eventos, tenemos los mismos concept
 
 La única gran ventaja cuando se trabaja con eventos jQuery es el selector jQuery, ya que ahora puede adjuntar un listener a varios objetos al mismo tiempo sin tener que recorrerlos todos. Por ejemplo, intentemos agregar un listener de sonido al evento de clic en todos los elementos con la clase ".btn"
 
-##### ![javascript](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
+##### ![javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
 
 
 ```javascript
@@ -397,7 +397,7 @@ alert(‘s’);
 });
 ```
 
-##### ![what is jquery vs javascript](../../assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
 
 ```javascript
 $(‘.btn’).on( "click", function(){
@@ -418,7 +418,7 @@ Por ejemplo, si deseas eliminar una clase específica de un elemento, tendrás q
 
 #### Solicitud GET
 
-##### ![what is jquery vs javascript](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
 
 
 ```javascript
@@ -438,7 +438,7 @@ request.onerror = function() {
 request.send();
 ```
 
-##### ![what is jquery vs javascript](../../assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
 
 ```javascript
 $.ajax({
@@ -456,7 +456,7 @@ $.ajax({
 &nbsp;
 #### Solicitud POST
 
-##### ![what is jquery vs javascript](../../assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/51a4c486-2a08-4471-b2b5-80e32ce41abc.png) Con vanilla JavaScript
 
 
 ```javascript
@@ -474,7 +474,7 @@ alert(http.responseText);
 http.send(params);
 ```
 
-##### ![what is jquery vs javascript](../../assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
+##### ![what is jquery vs javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/2e1dfd98-a969-4ad1-8ed3-23626f07be1d.png) Con jQuery
 
 ```javascript
 $.ajax({

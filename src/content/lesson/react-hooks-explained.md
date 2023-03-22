@@ -197,7 +197,7 @@ If the user clicks on "close", we simply use the hook function `setOpened` to ch
 
 ## The `useEffect` hook:
 
-![useEffect hook for the component lifecycle](../../assets/images/945ae0a2-2495-4955-9e9a-46fdd3efc682componentlifecyclehooks.png)
+![useEffect hook for the component lifecycle](https://github.com/breatheco-de/content/blob/master/src/assets/images/945ae0a2-2495-4955-9e9a-46fdd3efc682componentlifecyclehooks.png)
 
 useEffect is another amazing hook that you will use if you want to execute some code after the component renders, for example:
 

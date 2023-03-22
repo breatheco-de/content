@@ -59,7 +59,7 @@ Un **commit objects** contiene tres cosas:
 + Referencias al **commit objects padre.**
 + Un **nombre SHA1:** es una cadena de 40 caracteres que identifica de forma única el commit object. El nombre se compone de un conjunto de aspectos relevantes del commit; De esta manera, los commit idénticos siempre tendrán el mismo nombre.
  
-![how to use git](../../assets/images/commit-object2.png?raw=true)
+![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/commit-object2.png?raw=true)
 
 Los commit objects padre son aquellas confirmaciones que vinieron primero. Generalmente un commit object tendrá un commit padre. En general, uno toma un proyecto en un estado determinado (commit), realiza algunos cambios y guarda el nuevo estado (commit) del proyecto.
 
@@ -73,7 +73,7 @@ Cada vez que hagas un nuevo commit, el head se moverá a ese nuevo commit. De es
 
 Puedes **mover el head** si quieres. No necesariamente tiene que ser siempre el último commit, pero debes recordar que sólo puedes revisar los commits que vinieron antes del commit al que apunta el head. **No se pueden revisar los commits hechos después del commit al que apunta el head.**
 
-![how to use git ](../../assets/images/79da625d-d7bc-409a-a044-9e60ae6a1a2b.png)
+![how to use git ](https://github.com/breatheco-de/content/blob/master/src/assets/images/79da625d-d7bc-409a-a044-9e60ae6a1a2b.png)
 
 ## Puedes tener varios Heads (Ramas o Branches)
 
@@ -83,7 +83,7 @@ Por defecto, cada repositorio tiene una rama o branch llamada Master, con su HEA
 
 Ejemplo: Digamos que estás comenzando a desarrollar la característica/funcionalidad de "inicio de sesión" de un sitio web. Puedes crear una nueva "rama" del repositorio llamada "inicio de sesión", para que sus commits no formen parte del historial de revisión principal del proyecto. Una vez que te sientas cómodo con tu código, puedes *fusionar* tu rama y eliminar su head. Esto restablecerá la HEAD principal de la rama maestra (Branch master) al último commit realizado, y agregará tu nuevo código a la rama principal (master) del repositorio.
 
-![how to use git](../../assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif)
+![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif)
 
 > :point_up: **Nota sobre la terminología:** Los términos "branch" y "head" son casi sinónimos en GIT. Cada branch (rama) está representada por un head, y cada head representa una rama. A veces, "rama" se usará para referirse a un head y el historial completo de commits que preceden a ese head, mientras que "head" se usará para referirse exclusivamente a un solo commit object (el commit más reciente en la rama).
 
@@ -111,7 +111,7 @@ Para crear un commit, tendrás que hacer dos cosas:
   
 Digamos que creas tres confirmaciones de esta manera... tu repositorio se verá así:
 
-![how to use git](../../assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png)
+![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png)
 
 Otros comandos que son útiles en este punto:
 
@@ -141,7 +141,7 @@ Ahora que has creado commits, ¿cómo se hace referencia a un commit específico
 
 Para crear una rama, digamos que tu repositorio se ve así:
 
-![how to use git](../../assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png)
+![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png)
 
 Vamos a saltar al commit (2) e iniciar un nuevo trabajo desde allí. Primero deberás saber cómo hacer referencia al commit. Puedes usar `git log` para obtener el nombre SHA1 de (2)
 
@@ -163,7 +163,7 @@ Este comando creará un nuevo head con el nombre dado y apuntará ese head al co
 
 Ahora nuestro árbol de commit se ve así:
 
-![how to use git](../../assets/images/924b8807-6a06-44e7-87a1-8c93d983d873.png)
+![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/924b8807-6a06-44e7-87a1-8c93d983d873.png)
 
 ## Cambiando Entre Ramas
 
@@ -182,7 +182,7 @@ Este comando hace lo siguiente:
 
 Después de revisar el head *\ [new-head \]*, fijarás los head. Ahora puedes agregar los cambios y realizar commit como se indica arriba. El repositorio resultante se ve así:
 
-![git8](../../assets/images/0352d1b1-0914-4d0f-9379-c47e7895ccb9.png)
+![git8](https://github.com/breatheco-de/content/blob/master/src/assets/images/0352d1b1-0914-4d0f-9379-c47e7895ccb9.png)
 
 ## Fusionando
 
@@ -243,7 +243,7 @@ git@domain_name.com:user_name/repository_name.git
 
 Por ejemplo, cuando usas un repositorio de github.com, puedes encontrar el control remoto en la página de inicio del repositorio:
 
-![git9](../../assets/images/47f7c628-5efe-4888-b67c-ca90611e788e.gif)
+![git9](https://github.com/breatheco-de/content/blob/master/src/assets/images/47f7c628-5efe-4888-b67c-ca90611e788e.gif)
 
 ## Añadiendo un Control Remoto
 

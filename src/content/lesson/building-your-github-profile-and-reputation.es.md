@@ -12,7 +12,7 @@ cover_local: "../../assets/images/githubbackground.jpg"
 
 ## Introducción a Github (si ya lo conoces, lee la siguiente sección)
 
-![Pantallazo Github](../../assets/images/4889ebd9-201f-46c7-a1fb-d3d8c2f4493e.png)
+![Pantallazo Github](https://github.com/breatheco-de/content/blob/master/src/assets/images/4889ebd9-201f-46c7-a1fb-d3d8c2f4493e.png)
 
 Github es una red social para desarrolladores, pero problablemente no del tipo de red social al cual estas acostumbrado/a en el día a día:
 

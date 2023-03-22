@@ -56,7 +56,7 @@ Remember everything is just text!  You can and should play with the generated fi
 
 After running the command, a project folder will be created with at least 4 files inside:
 
-![Django Rest Framework](../../assets/images/f9bc68cd-e407-4d55-afd6-ba95b0c8bc02.png)
+![Django Rest Framework](https://github.com/breatheco-de/content/blob/master/src/assets/images/f9bc68cd-e407-4d55-afd6-ba95b0c8bc02.png)
 
 + `__init__:` an empty file that any folder needs to have inside to be considered a python package.
 + `settings:` contains all the configuration variables for your project – we will address this file further later.
@@ -82,7 +82,7 @@ $ python manage.py startapp [app1_name]
 
 You will see a new folder with your application name and a bunch of new files inside.  Let’s review them:
 
-![Django Rest Framework](../../assets/images/c7eb4466-eaa5-4d33-8181-5b4c5df4e7f8.png)
+![Django Rest Framework](https://github.com/breatheco-de/content/blob/master/src/assets/images/c7eb4466-eaa5-4d33-8181-5b4c5df4e7f8.png)
 
 + `__init__:`  Tells Python that this folder is a package.
 + `admin.py:`  Here we can add models into the admin interface to be able to CRUD those models.
@@ -95,7 +95,7 @@ Lets discuss all of these in more detail below.
 
 To summarize, and continuing with our "BreatheCode Project" example, this is how your project file structure may look after you have several apps inside one big project.
 
-![Django Rest Framework](../../assets/images/e59de5e1-2751-4286-adfb-69c047e93058.png)
+![Django Rest Framework](https://github.com/breatheco-de/content/blob/master/src/assets/images/e59de5e1-2751-4286-adfb-69c047e93058.png)
 
 ### Manage.py (Django CLI)
 

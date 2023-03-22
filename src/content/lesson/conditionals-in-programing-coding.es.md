@@ -25,7 +25,7 @@ Digamos que estamos construyendo un programa para ayudarnos a elegir qué vestir
 `If` ***color*** is not **blue**, then... do something.  
 `Else`... do nothing or exit.
   
-![Condicionales](../../assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png)
+![Condicionales](https://github.com/breatheco-de/content/blob/master/src/assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png)
 
 Y así es como escribiríamos esto en Javascript:
 
@@ -42,7 +42,7 @@ else{
 
 El ejemplo anterior era una condición simple, pero en la vida real elegir qué guardar implica una combinación de varias condiciones para tomar la decisión final, por ejemplo: veamos este algoritmo que indica si tienes gripe.
 
-![Hit by a flu or have a cold](../../assets/images/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800.jpeg)
+![Hit by a flu or have a cold](https://github.com/breatheco-de/content/blob/master/src/assets/images/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800.jpeg)
 
 Si desea representar este algoritmo en Javascript, se verá más o menos así:
 

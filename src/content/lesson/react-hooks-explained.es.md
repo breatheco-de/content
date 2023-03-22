@@ -196,7 +196,7 @@ Si el usuario hace clic en "close" (cerrar), simplemente usamos la función hook
 
 ## El hook `useEffect`:
 
-![useEffect hook for the component lifecycle](../../assets/images/945ae0a2-2495-4955-9e9a-46fdd3efc682componentlifecyclehooks.png)
+![useEffect hook for the component lifecycle](https://github.com/breatheco-de/content/blob/master/src/assets/images/945ae0a2-2495-4955-9e9a-46fdd3efc682componentlifecyclehooks.png)
 
 useEffect es otro hook increíble que usarás si deseas ejecutar algún código después de que el componente se renderice, por ejemplo:
 

@@ -21,7 +21,7 @@ All the work was done by the server: since there was no JavaScript, the DOM coul
 
 **Think about the server like a "document generator."** It can be an image, a video, a text document, JSON, HTML, CSS, etc. The server’s responsibility is to respond with content each time a client requests it.
 
-![backend developer](../../assets/images/2c0000ef-2907-43cb-80ed-2ba4f194b83e.gif)
+![backend developer](https://github.com/breatheco-de/content/blob/master/src/assets/images/2c0000ef-2907-43cb-80ed-2ba4f194b83e.gif)
 
 Along with the generated document content, the server can also specify what type of content is responding, allowing the browser to read and interpret the response in an accurate way. The response formats available can be hundreds, but these are the most common:
 

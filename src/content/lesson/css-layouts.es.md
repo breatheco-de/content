@@ -13,7 +13,7 @@ tags: ["modelo de cajas","CSS","HTML"]
 
 Probablemente, el concepto más difícil de entender de CSS es la diagramación y posicionamiento de los elementos de una página web. Esto pasa porque CSS no fue hecho para visualizar documentos tan avanzados e interactivos como los que vemos en la actualidad.
 
-![css layout](../../assets/images/dccad91a-93b3-49c9-a437-6612087b9ee4.png)   
+![css layout](https://github.com/breatheco-de/content/blob/master/src/assets/images/dccad91a-93b3-49c9-a437-6612087b9ee4.png)   
 
 #### Diagramación
 
@@ -39,7 +39,7 @@ Todas las cajas/contenedores deben tener los siguientes atributos:
 |Color de Fondo (Background color)   |Además de la imagen de fondo, puede tener un color de fondo detrás del contenido y de la imagen de fondo.   |
 |Margen (Margin)   |Separación opcional existente entre la caja y el resto de los elementos a su alrededor.   |
 
-![css layout](../../assets/images/153d2a7c-b648-4d75-920b-940102f18eaa.gif) 
+![css layout](https://github.com/breatheco-de/content/blob/master/src/assets/images/153d2a7c-b648-4d75-920b-940102f18eaa.gif) 
 
 En el siguiente ejemplo puedes ver como dividir en dos el contenido de una página web. El lado izquierdo será **El menú** y el lado derecho tendrá **El contenido** del sitio web. Colocamos color rojo al **#div1** del menú, y color azul al **#div2** del contenido para que el ejemplo sea más fácil de entender.
 
@@ -124,7 +124,7 @@ Float es muy utilizado en blogs cuando quieres agregar imágenes a tus artículo
 
 Este curso no es sobre la interfaz (UI) y la experiencia (UX)de los usuarios. Los desarrolladores web tendemos a subestimar este tema. Es importante tomarse el tiempo necesario para diseñar el flujo de navegación del sitio web, la posición del menú, los elementos UI, etc. Aquí tenemos algunos ejemplos de diseños:
 
-![css layout](../../assets/images/ce06fb9d-bc8c-4191-ae12-a2ec4ac6fa1f.png)
+![css layout](https://github.com/breatheco-de/content/blob/master/src/assets/images/ce06fb9d-bc8c-4191-ae12-a2ec4ac6fa1f.png)
 
 Algunos sitios web tienen un excelente contenido pero un mal diseño que limita su potencial para el éxito. Estos son los principales criterios que debes considerar antes de elegir un diseño:
 
@@ -143,7 +143,7 @@ Facebook es así: un sitio web con su contenido centrado con un ancho máximo pa
 
 Este es el código exacto que se necesita para que el contenido del sitio web esté siempre centrado:
 
-![css layout](../../assets/images/ca5d4285-c151-4b30-a4a2-c6b35510188b.png)
+![css layout](https://github.com/breatheco-de/content/blob/master/src/assets/images/ca5d4285-c151-4b30-a4a2-c6b35510188b.png)
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -204,7 +204,7 @@ Tendrás que ir aprendiendo “en el camino”, porque hay una infinidad de comb
 
 No te preocupes, amigo mio. Hay un recurso llamado `Bootstrap` que está hecho para facilitar el diseño.  Aprenderás esto en la próxima lección.
 
-![css layout](../../assets/images/91aa197c-b2cb-4717-b41f-0f7b579aab25.gif)
+![css layout](https://github.com/breatheco-de/content/blob/master/src/assets/images/91aa197c-b2cb-4717-b41f-0f7b579aab25.gif)
   
 
 

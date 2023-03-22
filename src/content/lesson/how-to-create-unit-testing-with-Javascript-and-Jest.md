@@ -14,7 +14,7 @@ Senior developers understand their code will have bugs (no matter how smart you 
 
 There are several ways to test your applications, but unit tests are the most powerful tool a developer has to ensure high quality code.
 
-![Write Code to test code](../../assets/images/6b4upqv6at321.jpg)
+![Write Code to test code](https://github.com/breatheco-de/content/blob/master/src/assets/images/6b4upqv6at321.jpg)
 
  
 ## What is Unit Testing?
@@ -43,7 +43,7 @@ test('12 and 5 should return 17', () => {
 
 Note: Unit tests don't care about the content of the `sum` function, it only cares about the OUTPUT of the function with a given INPUT.
 
-![unit testing examples](../../assets/images/unit-test1.png)
+![unit testing examples](https://github.com/breatheco-de/content/blob/master/src/assets/images/unit-test1.png)
 
 ## Arrow function
 
@@ -112,7 +112,7 @@ The only way to make sure your `isUpperCase` function works is to try every poss
 4. What happens if you pass a number instead of a string?
 5. What happens if you pass a boolean instead of a string?
 
-![unit test scenarios](../../assets/images/unit-test-scenarios.png)
+![unit test scenarios](https://github.com/breatheco-de/content/blob/master/src/assets/images/unit-test-scenarios.png)
 
 Here is the code for each test we should build:
 

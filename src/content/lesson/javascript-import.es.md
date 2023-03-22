@@ -24,9 +24,9 @@ De hecho, ya lo hemos estado haciendo cuando importamos nuestros estilos, bootst
 
 Por ejemplo, aquí estamos importando una función de otro archivo:
 
-![javascript import](../../assets/images/f7b8c75d-e7d4-481e-8346-b95d54a235f6.png)
+![javascript import](https://github.com/breatheco-de/content/blob/master/src/assets/images/f7b8c75d-e7d4-481e-8346-b95d54a235f6.png)
 
-![javascript import](../../assets/images/2cdb146a-d6f7-4591-96fc-e50aef07aca5.png)
+![javascript import](https://github.com/breatheco-de/content/blob/master/src/assets/images/2cdb146a-d6f7-4591-96fc-e50aef07aca5.png)
 
 ## Exportación por Defecto
 

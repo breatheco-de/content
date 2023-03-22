@@ -24,7 +24,7 @@ Webpack es esta cosa que agarra todas las piezas de tu aplicación (archivos, im
 
 Luego, el navegador podrá solicitar (GET) ese archivo y mostrar / renderizar todo el sitio web ... ¡eso es todo!  Es muy similar a lo que sucede con los archivos ".exe" en Windows: toda tu aplicación está dentro del archivo .exe, y luego simplemente haces doble clic en él.
 
-![qué es webpack](../../assets/images/bdd432f7-adef-4023-976e-1ebd6abe70f7.gif)
+![qué es webpack](https://github.com/breatheco-de/content/blob/master/src/assets/images/bdd432f7-adef-4023-976e-1ebd6abe70f7.gif)
 
 ### Pero ¿por qué me importa el agrupamiento?
 

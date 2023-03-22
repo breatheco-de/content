@@ -24,7 +24,7 @@ Webpack is this thing that grabs all your application pieces (Files, Images, Fon
 
 Then, the browser will be able to request (GET) that one file and display/render the whole website… that’s it!  It’s very similar to what happens with the ".exe" files in windows – all of your application is inside the .exe file, and then you just double-click it.
 
-![what is webpack](../../assets/images/bdd432f7-adef-4023-976e-1ebd6abe70f7.gif)
+![what is webpack](https://github.com/breatheco-de/content/blob/master/src/assets/images/bdd432f7-adef-4023-976e-1ebd6abe70f7.gif)
 
 ### But why do I care about Bundling?
 

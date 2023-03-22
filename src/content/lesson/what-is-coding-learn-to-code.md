@@ -58,5 +58,5 @@ Today you will learn to code speaking JavaScript!
 + There are 302 open jobs in Miami [asking for JavaScript right now (indeed.com)](https://www.indeed.com/q-javascript-l-Miami,-FL-jobs.html), 2x’s more than PHP and 3 times more than Ruby.
 Need more proof?  We can keep talking all day.  Only by writing this lesson do I get anxious because JavaScript is so universal that you need to learn it right now!!!
 
-![what is coding learn to code](../../assets/images/b88d7b26-2786-4a3a-b6ee-4b6b84ad6ecf.png)
+![what is coding learn to code](https://github.com/breatheco-de/content/blob/master/src/assets/images/b88d7b26-2786-4a3a-b6ee-4b6b84ad6ecf.png)
   

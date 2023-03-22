@@ -15,7 +15,7 @@ Hay luz al final del túnel y NO es Chuck Norris sosteniendo una linterna. Final
 
 Estos dos muchachos que trabajaban en Twitter sufrían los mismos problemas con los que hemos estado lidiando en HTML y CSS. Hartos de la situación, decidieron construir una **Hoja CSS básica diseñada para ser importada a cualquier sitio web**. Hace que cada trabajo de desarrollo front-end sea 4x más fácil.
 
-![bootstrap 5](../../assets/images/335ed387-cbf9-4ffa-9529-1ccf2084e393.jpeg)
+![bootstrap 5](https://github.com/breatheco-de/content/blob/master/src/assets/images/335ed387-cbf9-4ffa-9529-1ccf2084e393.jpeg)
 
 Además, Bootstrap te ofrece una docena de elementos nuevos que normalmente querrías usar pero que en realidad no existen en CSS+HTML: los componentes de Bootstrap.
 
@@ -32,13 +32,13 @@ Los creadores de Bootstrap replicaron el mismo concepto que tenía `<table>`, pe
 Esta es una fila: <div class="row">
 Esta es una columna: <div class="col–sm–x">
 ```
-![bootstrap tutorial](../../assets/images/3884f515-dd7a-48f2-b238-9e2ec26de02d.png)
+![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/3884f515-dd7a-48f2-b238-9e2ec26de02d.png)
 
 Bootstrap ha dividido el ancho de la pantalla en `12 espacios`, cada uno de ellos con el 8,33% del ancho total de la fila. El tamaño de 1 columna, puede ser entre 1 y 12 ranuras.
 
 Por otro lado, las columnas se crearon para vivir dentro de las filas (al igual que ocurre entre `<td>` y `<tr>`). Siempre necesitas abrir una fila antes de abrir una columna. Todas las columnas en una fila siempre deben sumar un máximo de 12 espacios.
 
-![bootstrap tutorial](../../assets/images/1b7f5dc4-029a-475d-8bfd-fac1b739966c.png)
+![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/1b7f5dc4-029a-475d-8bfd-fac1b739966c.png)
 
 ## Nuestro primer ejemplo de layout:
 
@@ -71,7 +71,7 @@ Es muy fácil decidir cómo se representará tu sitio web en diferentes tamaños
 
 Vamos a configurar el layout (usando las clases de columna sm, md y lg) para dos filas en todos los dispositivos al mismo tiempo:
 
-![bootstrap 5](../../assets/images/e15c594c-9b46-4c27-bf5a-a5bbb5ef952a.png)
+![bootstrap 5](https://github.com/breatheco-de/content/blob/master/src/assets/images/e15c594c-9b46-4c27-bf5a-a5bbb5ef952a.png)
 
 ```html
 <!-- Apila las columnas en el móvil haciendo una de ancho completo y la otra de medio ancho --> 
@@ -138,7 +138,7 @@ Cada desarrollador tiene que falsificar estos elementos adicionales cada vez que
 
 Cuando importes Bootstrap a tu sitio web, tendrá un nuevo conjunto de componentes a su disposición. Esta es solo una pequeña parte de esos elementos:
 
-![bootstrap 5](../../assets/images/8e9ff37a-28f7-4179-8f5d-9278ff7efd55.png)
+![bootstrap 5](https://github.com/breatheco-de/content/blob/master/src/assets/images/8e9ff37a-28f7-4179-8f5d-9278ff7efd55.png)
 
 
 ### Estos son los componentes más importantes y usados ​​en este tutorial de Bootstrap:
@@ -149,7 +149,7 @@ Esto es tan popular que está en el menú del 99% de todos los sitios web. Norma
 
 Este es un ejemplo de cómo puede verse una NavBar en un sitio web:
 
-![bootstrap tutorial](../../assets/images/6351de1c-6d90-4502-8823-4b751981db9f.png)
+![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/6351de1c-6d90-4502-8823-4b751981db9f.png)
 
 > 🔗 [**Lee más sobre la NavBar aquí**](https://getbootstrap.com/docs/5.2/components/navbar/)
 
@@ -200,7 +200,7 @@ Este es probablemente el componente Bootstrap más utilizado, cada sitio web tie
 
 Aquí hay un ejemplo de cómo se puede ver "The Card" en un sitio web:
 
-![bootstrap 5](../../assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png)
+![bootstrap 5](https://github.com/breatheco-de/content/blob/master/src/assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png)
 
 > 🔗 [**Lee más sobre The Card aquí**](https://getbootstrap.com/docs/5.2/components/card/)
 
@@ -223,7 +223,7 @@ Todo el mundo odia un modal, es súper molesto, ¡siempre te pide que te suscrib
 
 Así es como se ve un modal por defecto en Bootstrap.
 
-![bootstrap 5](../../assets/images/6bcba673-a543-4bf1-a80b-083914b91bef.png)
+![bootstrap 5](https://github.com/breatheco-de/content/blob/master/src/assets/images/6bcba673-a543-4bf1-a80b-083914b91bef.png)
 
 > 🔗 [**Lea más sobre Modal aquí**](https://getbootstrap.com/docs/5.2/components/modal/)
 

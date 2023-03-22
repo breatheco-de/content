@@ -21,7 +21,7 @@ Junior developers understand the basic tricks of coding (for, while, if..else, f
 
 Instead of developing a big application, you will develop and deliver a series of small applications that in the end will become a big application.  That’s what is called Agile Development.
 
-![agile development](../../assets/images/7f627fe6-aa37-4450-bbff-dc4ea0ce8309.jpeg)
+![agile development](https://github.com/breatheco-de/content/blob/master/src/assets/images/7f627fe6-aa37-4450-bbff-dc4ea0ce8309.jpeg)
 
 Each increment is called a "sprint" and has the following steps:
 
@@ -49,7 +49,7 @@ Erase from your mind any website development workflow that you’ve learned on y
 ## Our Professional Development Workflow
 
 
-![agile development](../../assets/images/2b3ed62a-070f-4e7f-9572-34628ffb40d9.png)
+![agile development](https://github.com/breatheco-de/content/blob/master/src/assets/images/2b3ed62a-070f-4e7f-9572-34628ffb40d9.png)
 
 |1. We will start doing the Specs     |2. We build our Web Application       |3. Finally we build the Database and API     |
 |:------------------|:--------------|:-----------------|

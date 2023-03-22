@@ -44,7 +44,7 @@ Sólo hay algunas diferencias, aquí está la explicación:
 
 Console.log es sorprendente en JS, pero en PHP, tendrás que usar echo para tipos de datos simples, y print_r para imprimir tipos de datos más complejos (como arrays y objetos).
 
-#### ![php syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
+#### ![php syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
 
 ```javascript
 var simpleValue = ‘hello’;
@@ -56,7 +56,7 @@ console.log(arrayValue);
 
 ```
 
-#### ![php syntax](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) Con PHP
+#### ![php syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) Con PHP
 
 ```php
 $simpleValue = ‘Hello’;
@@ -82,7 +82,7 @@ PHP comenzó como un lenguaje de programación funcional y aún tiene muchas cos
 
 ### Blucles de arrays
 
-#### ![php syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
+#### ![php syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
 
 ```javascript
 for(var i = 0; i<myArray.length; i++){
@@ -108,7 +108,7 @@ print_r($value);
 
 ### Adición y Eliminación de Elementos
 
-#### ![php syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
+#### ![php syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
 
 ```javascript
 var myArray = [‘Academy’, ‘Coding’];
@@ -117,7 +117,7 @@ myArray.push(‘4Geeks’); //Añadiendo un item
 myArray.splice(index, 1);
 ```
 
-#### ![php syntax](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) Con PHP
+#### ![php syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) Con PHP
 
 ```php
 $myArray = array(‘Academy’,’Coding’);
@@ -144,7 +144,7 @@ myArray.reverse();  //ordena un array descendentemente
 
 ```
 
-#### ![php syntax](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) Con PHP
+#### ![php syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) Con PHP
 
 ```php
 $myArray = array(2,5,1,4,7);
@@ -217,7 +217,7 @@ Arreglo
 
 Esto es casi idéntico a la declaración switch en JavaScript:
 
-#### ![php syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
+#### ![php syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
 
 ```javascript
 favcolor = "red";
@@ -236,7 +236,7 @@ switch (favcolor) {
 }
 ```
 
-#### ![php syntax](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) Con PHP
+#### ![php syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) Con PHP
 
 ```php
 <?php
@@ -261,14 +261,14 @@ switch (favcolor) {
 
 Cuando trabajamos con objetos, tenemos que usar el operador "->" en lugar de "." para acceder a las propiedades del objeto.
 
-#### ![php syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
+#### ![php syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
 
 ```javascript
 var auxCar = new Car();
 console.log(auxCar.brand);
 ```
 
-#### ![tutorial php](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) Con PHP
+#### ![tutorial php](https://github.com/breatheco-de/content/blob/master/src/assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) Con PHP
 
 ```php
 <?php

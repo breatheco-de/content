@@ -205,7 +205,7 @@ Aquí hay algunos Regex pre-hechos:
 
 #### Expresión regular para: validar un correo electrónico
 
-![regex tutorial regular expression examples](../../assets/images/39f93d0d-248e-4e94-b402-b744c4b06a4d.png)
+![regex tutorial regular expression examples](https://github.com/breatheco-de/content/blob/master/src/assets/images/39f93d0d-248e-4e94-b402-b744c4b06a4d.png)
 
 Comenzamos diciéndole al analizador que encuentre el principio de la cadena (^).
 

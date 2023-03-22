@@ -21,11 +21,11 @@ HTML te permite dividir la información del sitio web en partes (similar a las p
 
 Originalmente, los navegadores solo podían interpretar HTML. Las páginas web eran sencillas y no se usaba CSS o JavaScript. Un sitio web era un simple documento de texto plano con los elementos típicos que cualquier documento de Word tiene: títulos, listas de viñetas, párrafos, etc.
 
-![qué es html](../../assets/images/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc.png)
+![qué es html](https://github.com/breatheco-de/content/blob/master/src/assets/images/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc.png)
 
 ### Sintáxis del HTML: Todo es `<Tags> ` (etiquetas).
 
-![qué es html](../../assets/images/78296f64-547f-4928-a8da-14cb24e836b9.gif)
+![qué es html](https://github.com/breatheco-de/content/blob/master/src/assets/images/78296f64-547f-4928-a8da-14cb24e836b9.gif)
 
 ¿Recuerdas que Internet trabaja solo con texto?
 
@@ -111,7 +111,7 @@ Vamos a simular el pensamiento de un navegador: Imaginemos que una persona en su
 
  Como ya sabemos, dicha página va a contener, por lo menos, los siguientes tags:
 
-  ![learn html](../../assets/images/e8d3d49d-8c7e-4bc2-88e0-15b95a8ccc54.png)
+  ![learn html](https://github.com/breatheco-de/content/blob/master/src/assets/images/e8d3d49d-8c7e-4bc2-88e0-15b95a8ccc54.png)
 
 |**Nombre**   |**Tags**   |**Descripción**   |
 |:----------|:----------|:-----------------|
@@ -184,5 +184,5 @@ Acabas de aprender lo esencial para realizar una página web como se hacía en 1
 HTML tiene muchísimos más tags y también tiene una nueva versión llamada HTML5. Otra vez, no te preocupes, todo eso lo **aprenderás** en las próximas lecciones para que hagas páginas web hermosas (gracias a CSS) y con interacción (Gracias a los formularios y JavaScript) ¡¡Para eso es que estamos acá!!
 
 
-![learn html](../../assets/images/ed1c57e1-5c67-4bf1-96ed-1fb2353fb2ca.gif)
+![learn html](https://github.com/breatheco-de/content/blob/master/src/assets/images/ed1c57e1-5c67-4bf1-96ed-1fb2353fb2ca.gif)
 

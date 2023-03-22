@@ -38,7 +38,7 @@ Cada arreglo tiene los mismos conceptos básicos:
 
 **Index:** es la posición del elemento.
 
-![what is an array define array](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
+![what is an array define array](https://github.com/breatheco-de/content/blob/master/src/assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
 
 
 > :point_up: Las posiciones del arreglo comienzan con **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**

@@ -35,7 +35,7 @@ Cada vez que los datos del **proveedor** cambian, todos los **consumidores** rec
 
 > Todo el mundo tiene acceso al contexto global ahora.
 
-![Explicación Context API](../../assets/images/72fe5361-5b2a-460f-8c2a-2d376616abf6.png)
+![Explicación Context API](https://github.com/breatheco-de/content/blob/master/src/assets/images/72fe5361-5b2a-460f-8c2a-2d376616abf6.png)
 
 ## Flujo de datos unidireccional
 

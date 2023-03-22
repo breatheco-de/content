@@ -33,7 +33,7 @@ Una variable es un contenedor en el que se puede almacenar cualquier dato. Por e
 var age = 24;
 ```
 
-![what is javascript](../../assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
+![what is javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
 
 Prácticamente con cualquier lenguaje de programación, puedes crear tantas variables como desees o necesites. Para comenzar, debes **declarar el nombre de esa variable** usando el término: *var* seguido de un nombre _único_ (relativo al documento/proyecto).
 
@@ -126,7 +126,7 @@ Luego, abrirás una llave y escribirás el código que tu función siempre debe 
 
 **Nota:** Para retornar algo, usa la palabra `return` en cualquier momento dentro del contenido de su función (dentro de las llaves).
 
-![learn to code in javascript](../../assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif)
+![learn to code in javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif)
 
 ```javascript
 function multiplicar (param1, param2)

@@ -21,7 +21,7 @@ Puedes dividir un proceso de autenticación estándar en 5 pasos principales:
 4. Si se encuentra un usuario, genera un `token` para ese usuario y responde status_code=200 al front-end.
 5. El front-end utilizará ese `token` a partir de ahora para realizar cualquier solicitud futura.
 
-![Autentication workflow](../../assets/images/authentication-diagram.png)
+![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/authentication-diagram.png)
 
 > :point_up: i no sabes lo que es un token, te recomiendo [esta lectura](/lesson/token-based-api-authentication).
 
@@ -50,11 +50,11 @@ En pocas palabras: JWT es una alternativa increíble porque el `Token básico`o 
 
 Con los tokens JWT no necesitas una base de datos, el propio token contiene toda la información necesaria.
 
-![Autentication workflow](../../assets/images/jwt-vs-bearer-token.png)
+![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-vs-bearer-token.png)
 
 ## Estructura del token JWT
 
-![Autentication workflow](../../assets/images/jwt-token-structure.png)
+![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-token-structure.png)
 
 Puedes observar que el string o cadena está dividida en tres secciones separadas por un (.). Cada sección tiene su significado:
 | Section name   |                                                                      |

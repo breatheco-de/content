@@ -35,13 +35,13 @@ Every time the data stored within the **Provider** changes, all the **Consumers*
 
 > Everyone has access to the global context now.
 
-![Context API Explanation](../../assets/images/72fe5361-5b2a-460f-8c2a-2d376616abf6.png)
+![Context API Explanation](https://github.com/breatheco-de/content/blob/master/src/assets/images/72fe5361-5b2a-460f-8c2a-2d376616abf6.png)
 
 ## Unidirectional data flow
 
 The **store** is now the most delicate piece of data in our application, and it is susceptible to bad usage, i.e. one bad change and the whole application will crash. To avoid this possible scenario, we have to make sure the store's data is read-only for the consumers, and can be *updated* anew by a limited set of functions. Just like the regular state, we don't *change* the state, we set it anew. This architecture paradigm is called Flux.
 
-![Flux](../../assets/images/flux-simple-f8-diagram-1300w.png)
+![Flux](https://github.com/breatheco-de/content/blob/master/src/assets/images/flux-simple-f8-diagram-1300w.png)
 
 ![In-Depth Overview of Flux Architecture](https://facebook.github.io/flux/docs/in-depth-overview)
 

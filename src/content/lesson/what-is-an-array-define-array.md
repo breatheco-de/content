@@ -38,7 +38,7 @@ Every array has the same basic concepts:
 
 **Index:** is the position of the element.
 
-![what is an array define array](../../assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
+![what is an array define array](https://github.com/breatheco-de/content/blob/master/src/assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
 
 > :point_up: Array positions start at **zero (0)**; the first element is the element in the position **zero (0)**
 
@@ -173,7 +173,7 @@ Will return a new array with a smaller version of the original array. You have t
 
 Will update the current array leaving everything but the smaller version that you want to remove. You will need to specify the starting and ending indexes from where you want to remove them.
 
-![what is an array define array](../../assets/images/7e098348-df50-442b-801e-ac9d098fbc09.png)
+![what is an array define array](https://github.com/breatheco-de/content/blob/master/src/assets/images/7e098348-df50-442b-801e-ac9d098fbc09.png)
 
 <iframe src="https://repl.it/F9V5/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 

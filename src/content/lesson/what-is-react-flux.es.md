@@ -25,7 +25,7 @@ Aquí hay una lista de todas las ventajas de usarlo:
 + **Controla la forma en que fluirán los datos de tu aplicación:** no importa si los datos fueron ingresados por el usuario o provienen de una base de datos; todo estará disponible de forma clara y accesible.
 + Diferencia sus componentes en **vistas vs componentes reutilizables:** sus componentes seguirán siendo abstraídos desde la lógica de tu aplicación, haciéndolos 100% reutilizables para futuras aplicaciones.
 
-![React Flux](../../assets/images/aa1a5994-8de9-4d24-99ce-3a0d686c30bd.png)
+![React Flux](https://github.com/breatheco-de/content/blob/master/src/assets/images/aa1a5994-8de9-4d24-99ce-3a0d686c30bd.png)
 
 ### Flux divide la aplicación en 3 capas:
 
@@ -46,7 +46,7 @@ Para codificar la función para eliminar tareas, tenemos que actualizar 4 archiv
 
 > *Al final, trabajar con Flux tiene que convertirse en algo tan automático como andar en bicicleta.*
 
-![react flux](../../assets/images/77c93bfa-92cb-44e3-a7c5-c959e27c5ccc.jpeg)
+![react flux](https://github.com/breatheco-de/content/blob/master/src/assets/images/77c93bfa-92cb-44e3-a7c5-c959e27c5ccc.jpeg)
 
 ## Permite implementar la función eliminar tarea
 

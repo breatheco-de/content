@@ -43,7 +43,7 @@ There are only a few differences – here is the explanation:
 
 Console.log is amazing in JS, but in PHP, you will have to use echo for simple data-types, and print_r to print more complex data-types (like arrays and objects).
 
-#### ![php syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
+#### ![php syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
 
 ```javascript
 var simpleValue = ‘hello’;
@@ -54,7 +54,7 @@ console.log(arrayValue);
 //This will print the content of the array and its elements.
 ```
 
-#### ![php syntax](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) With PHP
+#### ![php syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) With PHP
 
 ```php
 $simpleValue = ‘Hello’;
@@ -78,7 +78,7 @@ PHP started as a functional-programming language and still has a lot of things t
 
 ### Looping Arrays
 
-#### ![php syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
+#### ![php syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
 
 ```javascript
 for(var i = 0; i<myArray.length; i++){
@@ -103,7 +103,7 @@ print_r($value);
 
 ### Adding and Removing Items
 
-#### ![php syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
+#### ![php syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
 
 ```javascript
 var myArray = [‘Academy’, ‘Coding’];
@@ -112,7 +112,7 @@ myArray.push(‘4Geeks’); //Adding an item
 myArray.splice(index, 1);
 ```
 
-#### ![php syntax](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) With PHP
+#### ![php syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) With PHP
 
 ```php
 $myArray = array(‘Academy’,’Coding’);
@@ -124,7 +124,7 @@ $myArray = array_values($myArray);
 
 ### Sorting Functions for Arrays
 
-#### ![php syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
+#### ![php syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
 
 ```javascript
 const myArray = [2,5,1,4,7];
@@ -139,7 +139,7 @@ myArray.reverse();  //sorts array in descending order
 
 ```
 
-#### ![php syntax](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) With PHP
+#### ![php syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) With PHP
 
 ```php
 $myArray = array(2,5,1,4,7);
@@ -212,7 +212,7 @@ Array
 
 This is almost identical to the switch statement in JavaScript:
 
-#### ![php syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
+#### ![php syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
 
 ```javascript
 favcolor = "red";
@@ -231,7 +231,7 @@ switch (favcolor) {
 }
 ```
 
-#### ![php syntax](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) With PHP
+#### ![php syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) With PHP
 
 ```php
 <?php
@@ -256,14 +256,14 @@ switch (favcolor) {
 
 When working with objects, we have to use the operator "->" instead of "." to access the object properties.
 
-#### ![php syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
+#### ![php syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) With JavaScript
 
 ```javascript
 var auxCar = new Car();
 console.log(auxCar.brand);
 ```
 
-#### ![what is php tutorial](../../assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) With PHP
+#### ![what is php tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/54a062a9-1b37-4d49-ae22-a23d91ad600f.png) With PHP
 
 ```php
 <?php

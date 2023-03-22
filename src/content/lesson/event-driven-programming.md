@@ -21,7 +21,7 @@ An event is something that happens during the runtime of your web application! S
 
 Your job as a developer is to prepare for those events and define **handler functions** - the actions that are going to be handling each event.
 
-![event driven programming](../../assets/images/1c00bd95-1359-4fd5-8399-b1b80a769009.png)
+![event driven programming](https://github.com/breatheco-de/content/blob/master/src/assets/images/1c00bd95-1359-4fd5-8399-b1b80a769009.png)
 
 ### But who Triggers these Events?
 
@@ -103,7 +103,7 @@ Now that you know the main events that exist out there, you can start listening 
 
 Let’s repeat: To **react** you need to **listen…**. And to listen you need to specify a **handler** function. We call that construct an **Event Listener**. 
 
-![events driven programming](../../assets/images/9fa13314-24cc-4a4b-9676-e60616f73602.gif)
+![events driven programming](https://github.com/breatheco-de/content/blob/master/src/assets/images/9fa13314-24cc-4a4b-9676-e60616f73602.gif)
 
 You can add an event listener in 2 different ways:
 

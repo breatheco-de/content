@@ -127,7 +127,7 @@ Una transacción es una secuencia de operaciones (como INSERT, UPDATE, SELECT) r
 
 Las transacciones tienen las siguientes 4 propiedades estándar (conocidas como propiedades ACID: español significa Atomicidad, Consistencia, Aislamiento y Durabilidad )
 
-![Transactions](../../assets/images/tran-1.png)
+![Transactions](https://github.com/breatheco-de/content/blob/master/src/assets/images/tran-1.png)
 
 Una transacción termina con COMMIT o ROLLBACK. 
 
@@ -159,12 +159,12 @@ db.session.begin_nested()
 
 Este comando se puede llamar muchas veces y emitirá un nuevo PUNTO DE CONTROL con una ID.
 
-![SQL](../../assets/images/sql-1.png)
+![SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-1.png)
 
 Digamos que vamos a comer pizza y nuestra pizza tiene tres ingredientes de base:
 mozzarella, tomate y aceitunas.  Nuestra tabla se llamaría 'PIZZA' y se vería de la siguiente manera:
 
-![SQL](../../assets/images/sql-2.png)
+![SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-2.png)
 
 Pero tenemos una lista de ingredientes extra que podemos añadirle: escogemos carne pero luego cambiamos de parecer y queremos champiñones. También nos gustaría añadirle pepperoni y tocino. Veamos como se vería nuestra transacción:
 
@@ -200,7 +200,7 @@ db.session.add(ingredient)
 
 Ahora nuestra 'Pizza' tiene los siguientes ingredientes:
 
-![SQL](../../assets/images/sql-3.png)
+![SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-3.png)
 
 Ahora acabamos de decir que ya no queremos tocino, asi que usamos ROLLBACK:
 
@@ -209,6 +209,6 @@ ROLLBACK TO B;
 ```
 y nuestra 'PIZZA' se ve así:
 
-![SQL](../../assets/images/sql-4.png)
+![SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-4.png)
 
 ...me ha dado hambre luego de leer esta lección ¿¿tú no tienes hambre??
