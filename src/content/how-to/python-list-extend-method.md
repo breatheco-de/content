@@ -32,7 +32,7 @@ print(names) #Output: ["Rigoberto", "Alan", "Barry", "Annessia", "Dorothy", "Ste
 
 This is a simple way to add elements to a list, let's see more information on how the Python list extend method works and its use cases in the following sections.
 
-![extended list](https://cantswingacat.co.uk/wp-content/uploads/2019/08/spongebob-list-gif.gif)
+![extended list](https://cantswingacat.co.uk/wp-content/uploads/2019/08/spongebob-list-gif.gif?raw=true)
 
 ## Python List Extend Method (Adding a List)
 

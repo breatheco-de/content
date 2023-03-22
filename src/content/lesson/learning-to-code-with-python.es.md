@@ -30,7 +30,7 @@ Una variable es un contenedor en el que puedes almacenar cualquier dato. Por eje
 edad = 24
 ```
 
-![qué es javascript](../../assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
+![qué es javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif?raw=true)
 
 Casi con cualquier lenguaje de programación puedes crear tantas variables como quieras o necesites. Para empazar, en python debes **declarar el nombre de esa variable** con un nombre _único_ (relativo al valor o lo que reciba).
 
@@ -113,7 +113,7 @@ Luego, abrirás una llave y escribirás el código que tu función siempre debe 
 
 **Nota:**  Para retornar algo, usa la palabra `return` en cualquier momento dentro del contenido de su función (dentro de las llaves).
 
-![learn to code in javascript](../../assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif)
+![learn to code in javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif?raw=true)
 
 ```python
 def multiply (param1, param2):

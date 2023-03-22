@@ -12,7 +12,7 @@ cover_local: "../../assets/images/githubbackground.jpg"
 
 ## Introducción a Github (si ya lo conoces, lee la siguiente sección)
 
-![Pantallazo Github](../../assets/images/4889ebd9-201f-46c7-a1fb-d3d8c2f4493e.png)
+![Pantallazo Github](https://github.com/breatheco-de/content/blob/master/src/assets/images/4889ebd9-201f-46c7-a1fb-d3d8c2f4493e.png?raw=true)
 
 Github es una red social para desarrolladores, pero problablemente no del tipo de red social al cual estas acostumbrado/a en el día a día:
 
@@ -29,6 +29,12 @@ Github es el portafolio personal #1 para los desarrolladores, la mejor manera de
    1. Fácil de navegar por un potencial empleador.  
    2. Fácil de entender y rápido de leer.
    3. Aspecto increíble (nunca tienes una segunda vez para dar la primera impresión).
+
+Tanto si eres un desarrollador de software junior, como senior, GitHub es una de las mejores herramientas que puedes adoptar para mostrar tus habilidades duras/blandas, proyectos ejecutados, investigación personal, e incluso tareas pasadas de la universidad.
+
+Ahora **ya no es suficiente** decir a los reclutadores lo que puedes hacer con Python, Java o JavaScript. En el mundo de la programación actual, los reclutadores quieren que los desarrolladores les muestren lo que han hecho o lo que están haciendo.
+
+Hace muchos años, tener un sitio web con un portafolio era esencial para encontrar trabajo. **Esto ya no es así** y esta es la razón. **Tener una cuenta en GitHub es mucho más importante hoy en día**. Todas las empresas esperan que tengas una cuenta en GitHub y experiencia en el uso de GIT y control de versiones. Estos se han convertido en los estándares para la programación de hoy en día.
 
 ### Sacándole provecho a tu perfil
 
@@ -51,6 +57,6 @@ Asegúrate de que tenga tu estilo personal, pero en general puedes concentrarte 
 - [ ] Necesitas ser un miembro [desarrollador de github](https://developer.github.com/program/). Puedes unirte gratis y obtendrás una insignia en tu perfil.
 - [ ] Evita usar los términos "desarrollador nuevo", "desarrollador junior", "recién graduado" o algo similar en tu introducción o biografía.
 
-## Un perfil de ejemplo: Dan Abramov
+## Un perfil de ejemplo: 
 
-![Perfil de Github de Dan Abramov ](../../assets/images/danabramov.png)
+![Perfil de Github](https://breathecode.herokuapp.com/v1/media/file/ejemplo-readme-png)

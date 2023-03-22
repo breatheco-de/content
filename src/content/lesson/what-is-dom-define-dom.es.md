@@ -11,19 +11,17 @@ status: "published"
 
 ## ¡Más allá de la consola!
 
-
-A nadie le gustan las aplicaciones basadas en la consola ... ¿te imaginas usar Uber desde la línea de comando?
+A nadie le gustan las aplicaciones basadas en la consola... ¿Te imaginas usar Uber desde la línea de comando?
 
 ```javascript
-$ "uber" request-trip --from home --to work --pool
+$ "uber" request-trip --from home-- to work --pool
 ```
 
 ¡Gracias a Dios que tenemos los navegadores! Nos permiten representar nuestra aplicación en una interfaz visual que llamamos un sitio web.
 
 ## El Sitio Web DOM
 
-
-Como ya sabes, la responsabilidad del navegador es transformar el código HTML / CSS en elementos visuales. Esos elementos se asignan a una jerarquía que se almacena en la memoria RAM y se llama El DOM.
+Como ya sabes, la responsabilidad del navegador es transformar el código HTML/CSS en elementos visuales. Esos elementos se asignan a una jerarquía que se almacena en la memoria RAM y se llama El DOM.
 
 Con JavaScript podemos manipular el DOM (elementos del sitio web) durante el tiempo de ejecución (durante el ciclo de vida de la aplicación).
 
@@ -37,8 +35,7 @@ NOTA: Por favor recuerda siempre que todo el código JavaScript que escribas en 
 
 ## Cómo actualizar tu DOM del sitio web
 
-
-Hay varias formas de manipular el DOM, pero la más sencilla es **document.write** Cada vez que cree un documento.write, escribirá en el HTML el string que decidas pasar como parámetro a la función de escritura .
+Hay varias formas de manipular el DOM, pero la más sencilla es **document.write** Cada vez que cree un documento.write, escribirá en el HTML el string que decidas pasar como parámetro a la función de escritura.
 
 No importa donde escribas el código. Lo único que importa es que esté dentro de una etiqueta `<script>` Por ejemplo:
 
@@ -48,13 +45,11 @@ No importa donde escribas el código. Lo único que importa es que esté dentro 
 
 ## ¡El DOM es Espectacular!
 
-
-
 Desde el momento en que un sitio web comienza a cargarse, el navegador crea una jerarquía que se llama The DOM. Cada elemento HTML que programaste en su documento HTML como desarrollador, tiene un lugar en esa jerarquía y puedes acceder a él utilizando JavaScript en cualquier momento durante el tiempo de ejecución.
 
 + Cada elemento HTML tiene un objeto en la jerarquía de documentos.
 + El DOM se genera durante el tiempo de ejecución.
-+ Cada navegador intenta replicar el DOM exactamente de la misma manera, pero hay algunas diferencias entre ellos. Es por eso que algunas cosas funcionan en un navegador pero no en otros.
++ Cada navegador intenta replicar el DOM exactamente de la misma manera, pero hay algunas diferencias entre ellos. Es por eso que algunas cosas funcionan en un navegador, pero no en otros.
 + JavaScript es el único idioma capaz de acceder a DOM durante el tiempo de ejecución.
 + El "Inspector de Google" es la mejor representación de The DOM en la actualidad.
 
@@ -64,12 +59,11 @@ Desde el momento en que un sitio web comienza a cargarse, el navegador crea una 
 
 ## ¿Cómo accedo a cualquier objeto en el DOM?
 
-
 Al igual que hicimos con CSS, podemos seleccionar cualquier elemento en el documento. Hay 4 métodos que nos permiten buscar lo que queramos:
 
 ### document.querySelector("css-element-selector")
 
-Devuelve una instancia de **el primer elemento** encontrado que se ajusta al selector de CSS que especificó
+Devuelve una instancia **del primer elemento** encontrado que se ajusta al selector de CSS que especificó
 
 ### document.getElementById("elementId")
 
@@ -104,14 +98,12 @@ xyz[0].style.color="red";   // el primero será rojo
 
 ## Accediendo al Hijo del elemento
 
-
 Es muy común tener que cambiar el hijo de un elemento. Por ejemplo:
 
-+ Actualizar todos los LI hijos de una UL especifica para hacer que su fondo sea rojo.
++ Actualizar todos los `<li>` hijos de una `<ul>` especifica para hacer que su fondo sea rojo.
 + Eliminar la primera fila `<tr>` de una `<table>`.
 + Ocultar a todos los hijos con una clase específica.
-
-
++ ¡Y la lista continúa!
   
 La mejor manera de recuperar los elementos secundarios de cualquier elemento DOM es mediante el uso de sus propiedades childNodes de esta forma:
 
@@ -137,12 +129,11 @@ trArray[3].style.background = "red";
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/">Haz clic aquí para abrir una demo en una nueva ventana</a></small></div>
 
-## The innerHTML
-
+## El innerHTML
 
 Como ya sabe, cada elemento del documento HTML puede tener algún tipo de contenido HTML. No importa si es un `<P>`, `<DIV>`, `<A>` o cualquier otro elemento HTML; puede tener su propio innerHTML combinado con más contenido HTML.
 
-![qué es el dom](../../assets/images/2387325b-338c-4c18-bb0f-2f95ed28901f.png)
+![qué es el dom](https://github.com/breatheco-de/content/blob/master/src/assets/images/2387325b-338c-4c18-bb0f-2f95ed28901f.png?raw=true)
 
 La propiedad .innerHTML te brinda la capacidad de recuperar o configurar el contenido de cualquier elemento que tenga en su JavaScript. Por ejemplo:
 
@@ -151,10 +142,9 @@ document.getElementsByTagName("div")[0].innerHTML = "abc";
 // innerHTML puede usarse para insertar contenido de texto o HTML, esto crea una lista dentro de un elemento div
 ```
 
-> :point_up:  Puedes encontrar 2 propiedades más en internet: nodeValue y textContent, pero en realidad no son muy utilizadas y tienen una funcionalidad más limitada.
+> :point_up: Puedes encontrar 2 propiedades más en internet: nodeValue y textContent, pero en realidad no son muy utilizadas y tienen una funcionalidad más limitada.
 
 ## Añadiendo Elementos al Documento
-
 
 Hay 2 funciones que podemos usar para eso: **appendChild** y **insertBefore.**
 
@@ -170,7 +160,7 @@ myNewHOne.appendChild(t);  // Tengo que agregar contenido al h1
 divElem.appendChild(myNewHOne); // Esto añade el h1 al elemento original
 ```
 
-Ahora, digamos que tenemos una ul con 2 elementos, pero queremos insertar un nuevo `<li>` al principio de esa lista.
+Ahora, digamos que tenemos una `<ul>` con 2 elementos, pero queremos insertar un nuevo `<li>` al principio de esa lista.
 
 **Podemos usar la función insertBefore para ese caso así:**
 
@@ -180,11 +170,9 @@ var textnode = document.createTextNode("Water");
 newItem.appendChild(textnode);
 var list = document.getElementById("myList");
 list.insertBefore(newItem, list.childNodes[0]);  //añadir el newItem antes del PRIMER hijo de la lista.
-
 ```
 
 ## Eliminar elementos del documento
-
 
 La función **removeChild** es excelente para eliminar un elemento del DOM y, por lo tanto, también del documento HTML. Deberás especificar quién es el elemento padre del elemento que estás intentando eliminar.
 
@@ -198,13 +186,11 @@ while (element.firstChild) {
 }
 ```
 
-
-> :point_up: Esta es la única función soportada por todos los navegadores; no uses .remove () si te importa Explorer.
+> :point_up: Esta es la única función soportada por todos los navegadores; no uses `.remove ()` si te importa Explorer.
 
 ## Cambiando los Atributos
 
-
-Para cambiar cualquier atributo de cualquier objeto en el DOM, necesitamos usar la propiedad .attribute así:
+Para cambiar cualquier atributo de cualquier objeto en el DOM, necesitamos usar la propiedad `.attribute` así:
 
 ```javascript
 // cambiando atributos 
@@ -213,7 +199,6 @@ element.attribute = "whatever";
 ```
 
 ## Cambiando los Estilos
-
 
 También Puedes cambiar cualquier regla o propiedad CSS aplicada a los elementos HTML utilizando el atributo **.style**, como este:
 
@@ -224,6 +209,9 @@ element.style.color = "red";
 element.style.background = "blue";
 ```
 
+## Otras lecturas
+
+Para obtener más información sobre cómo acceder al DOM, consulte: https://developer.mozilla.org/en-US/docs/Web/API/Document 
 
 
 

@@ -9,6 +9,14 @@ status: "published"
 
 ---
 
+Dominar el uso de listas y bucles es una de las 5 habilidades fundamentales para construir algoritmos:
+
+1. Variables.
+2. Condicionales.
+3. Listas.
+4. Bucles.
+5. `Funciones`.
+
 ## ¿Qué son las Funciones?
 
 Básicamente, una función es un montón de código envuelto entre paréntesis que puedes ejecutar en cualquier momento cada vez que quieras. Por ejemplo:
@@ -21,19 +29,19 @@ function multiply(a, b) {
 }
 ```
 
-+ **Cada función debe tener un propósito.** (un objetivo) (como nuestra función "multiplicar"). El propósito de la función es calcular la multiplicación entre dos números dados.
-+ **Debe tener un nombre único.**  En este caso particular, nuestra función se llama "multiplicar", que es un gran nombre porque sabes exactamente de qué se tratan las funciones, es explícito.
-+ **Debe devolver algo.**  De forma predeterminada, en javascript, todas las funciones devuelven "undefined", pero debes reemplazarlo y siempre devolver algo útil. En este ejemplo, queremos devolver el resultado de una multiplicación de a & b.
-+ **Las funciones pueden tener parámetros.**  Un "parámetro" es una variable que la función puede recibir al principio de su código (como a y b en nuestro ejemplo).
++ **Cada función debe tener un propósito** (un objetivo) (como nuestra función "multiplicar"). El propósito de la función es calcular la multiplicación entre dos números dados.
++ **Debe tener un nombre único.** En este caso particular, nuestra función se llama "multiplicar", que es un gran nombre porque sabes exactamente de qué se tratan las funciones, es explícito.
++ **Debe devolver algo.** De forma predeterminada, en javascript, todas las funciones devuelven "undefined", pero debes reemplazarlo y siempre devolver algo útil. En este ejemplo, queremos devolver el resultado de una multiplicación de a & b.
++ **Las funciones pueden tener parámetros.** Un "parámetro" es una variable que la función puede recibir al principio de su código (como a y b en nuestro ejemplo).
 
 La idea es tener una librería con cientos de funciones y usarlas como nos plazca, declaras todas tus funciones y luego empiezas a usarlas y reutilizarlas todo el tiempo.
 
-```
+```javascript
 let resultOfMultiplication = multiply(2,4);
-// resultOfMultiplication will be 2
+// resultOfMultiplication will be 8
 ```
 
-## Pero, ¿por qué usar Funciones en lugar de simplemente hacer todo en una gran pedazo de código?
+## Pero, ¿Por qué usar Funciones en lugar de simplemente hacer todo en una gran pedazo de código?
 
 La codificación es muy abstracta y sucede mucho que no tienes idea de lo que escribiste ayer. Antes de que existieran las funciones, los algoritmos eran esta enorme serie interminable de líneas de código donde los desarrolladores tenían dificultades y se perderían. Es difícil para tu cerebro seguir un procedimiento / algoritmo de gran longitud; mientras más líneas de código, más abstracto se vuelve.
 
@@ -65,7 +73,7 @@ function multiply(a, b) {
 //esta parte del código está FUERA de la función 'multiply'
 ```
 
-Cualquier variable que declare dentro de la función no estará disponible fuera de ella.
+Cualquier variable que se declare dentro de la función, no estará disponible fuera de ella.
 
 ```javascript
 function multiply(a, b) {
@@ -75,12 +83,12 @@ function multiply(a, b) {
    return a * b;
 }
 
-console.log(myVariable); // este console.log no funcionará, generará un error, porque myVariable está declarada dentro de la función multiplicar, por lo tanto no está disponible                           // fuera.
+console.log(myVariable); 
+// este console.log no funcionará, generará un error, porque myVariable está declarada dentro de la función multiplicar, por lo tanto no está disponible fuera.
 
 ```
 
-
-> :point_up:  Es muy importante recordar que una vez que use la instrucción `return`, la función dejará de ejecutarse, si hay algún código después de esa instrucción, nunca se ejecutará.
+> :point_up: Es muy importante recordar que una vez que use la instrucción `return`, la función dejará de ejecutarse, si hay algún código después de esa instrucción, nunca se ejecutará.
 
 ## Funciones Anónimas
 
@@ -123,9 +131,7 @@ function multiply(a,b){
    return a*b;
 }
 
-
 console.log(multiply(sum(3,5),sum(1,1)));
-
 
 // Las ejecuciones van de adentro hacia afuera. 
 // Primero, se calculará la suma de 3 + 5 y 1 + 1. 

@@ -11,13 +11,11 @@ status: "published"
 
 ## ¿Qué es el Desarrollo Web Front-End?
 
-
 En pocas palabras, es crear HTML dinámicamente usando JavaScript.
 
 Al usar todo tu conocimiento algorítmico (bucles, condicionales, etc.), ahora puedes permitir que la computadora genere código HTML basado en diferentes tipos de eventos (interacciones del usuario o eventos del sistema) que ocurren durante la vida de cualquier sitio web.
 
 ## Combinando HTML+CSS+JavaScript
-
 
 Con JavaScript, ahora puedes actualizar el HTML o el CSS de tu sitio web cuando lo desees.
 
@@ -27,10 +25,9 @@ Por ejemplo:
 + Podrás hacer preguntas al usuario y mostrar cualquier cosa en el sitio web de acuerdo con su respuesta.
 + Podrás redireccionar al usuario a otro sitio web después de 5 segundos.
 + Podrás crear juegos como: Tic-Tac-Toe, Hangman, etc.
-+ ¡El cielo es el límite!  Desarrolladores de Front-end pueden crear juegos, sitios web y aplicaciones para cualquier tipo de industria.
++ ¡El cielo es el límite! Desarrolladores de Front-end pueden crear juegos, sitios web y aplicaciones para cualquier tipo de industria.
 
 ## Los términos más importantes
-
 
 El mundo de front-end es enorme – puedes especializarte en lo que quieras, pero hay algunos conceptos importantes que debes conocer bien para comenzar tu especialización:
 

@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-El título de esta lección debería ser "De Python a JS", porque así es como evolucionó la historia. Python nació primero y es mucho más maduro. Con Python, eres capaz de hacer muchas más cosas porque es un lenguaje de backend y tiene librerias y herramientas para cualquier cosa que puedas imaginar.
+El título de esta lección debería ser "De Python a JS", porque así es como evolucionó la historia. Python nació primero y es mucho más maduro. Con Python, eres capaz de hacer muchas más cosas porque es un lenguaje de backend y tiene librerías y herramientas para cualquier cosa que puedas imaginar.
 
 Python y Javascript son amigos. Juntos forman el mejor equipo posible para realizar cualquier desarrollo importante que puedas imaginar.
 
@@ -18,8 +18,7 @@ Python y Javascript son amigos. Juntos forman el mejor equipo posible para reali
 
 ## ¿Por qué Python?
 
-
-Con Javascript, estabas vinculado y limitado al navegador, no puedes acceder al computador del cliente y es básicamente un lenguaje de renderización. Pero Python es diferente ... al ser un lenguaje de backend, se ejecuta en tu propio servidor, lo que significa que tiene acceso y puedes controlar toda la computadora con él. Tienes acceso a cualquier aplicación que se ejecute en la misma computadora. Tienes acceso a la consola. Tiene acceso a la red a la que está conectada la computadora y mucho más.
+Con Javascript, estabas vinculado y limitado al navegador, no puedes acceder al computador del cliente y es básicamente un lenguaje de renderización. Pero Python es diferente, al ser un lenguaje de backend, se ejecuta en tu propio servidor, lo que significa que tiene acceso y puedes controlar toda la computadora con él. Tienes acceso a cualquier aplicación que se ejecute en la misma computadora. Tienes acceso a la consola. Tiene acceso a la red a la que está conectada la computadora y mucho más.
 
 Por otro lado, Python es el lenguaje de back-end de más rápido crecimiento en el mundo. Es el lenguaje más versátil y fácil de codificar con una de las comunidades más sólidas.
 
@@ -27,10 +26,9 @@ Cuando lo comparas con otros lenguajes de back-end, Python lidera en casi todas 
 
 **Estas son algunas de las razones por las cuales Python ha llegado hasta este punto:**
 
-
 |**Simplicidad**   |**Rendimiento**    |
 |:---------------:|:------------------:|
-|Python estaba destinado a ser simple y fácil. Aquí está el manifiesto de Python: <br> https://en.wikipedia.org/wiki/Zen_of_Python <br> <br> **Nota:** Ya no hay más punto y coma o corchetes, o declarar variables, o la confusa funcionalidad del "this".   |Python es más rápido que Java, PHP, Ruby y el 90% de los otros lenguajes backend. Sólo los lenguajes de bajo nivel como C ++ (difícil de usar) o muy especializados como Node.js pueden superarlo. <br> <br> La escalabilidad de Python se ha demostrado una y otra vez con aplicaciones como el motor de búsqueda de Google, Youtube, Google Apps, etc.  |
+|Python estaba destinado a ser simple y fácil. Aquí está el manifiesto de Python: <br> https://en.wikipedia.org/wiki/Zen_of_Python <br> <br> **Nota:** Ya no hay más punto y coma o corchetes, o declarar variables, o la confusa funcionalidad del "this".   |Python es más rápido que Java, PHP, Ruby y el 90% de los otros lenguajes backend. Solo los lenguajes de bajo nivel como C ++ (difícil de usar) o muy especializados como Node.js pueden superarlo. <br> <br> La escalabilidad de Python se ha demostrado una y otra vez con aplicaciones como el motor de búsqueda de Google, Youtube, Google Apps, etc.  |
 
 
 |**Comunidad**   |**Herramientas**    |
@@ -42,8 +40,7 @@ Cuando lo comparas con otros lenguajes de back-end, Python lidera en casi todas 
 
 ## Sintaxis de Javascript vs Python
 
-
-Python y Javascript se complementan entre sí, pero en cuanto a funcionalidad, no tienen NADA en común - no tienen el mismo propósito, no hacen las mismas cosas, provienen de diferentes orígenes, etc.
+Python y Javascript se complementan entre sí, pero en cuanto a funcionalidad, no tienen NADA en común, no tienen el mismo propósito, no hacen las mismas cosas, provienen de diferentes orígenes, etc.
 
 Lo único que recordarás de Javascript es lo básico de cualquier lenguaje de programación: bucle, uso de condicionales, variables, clases, funciones y objetos.
 
@@ -52,8 +49,7 @@ Lo único que recordarás de Javascript es lo básico de cualquier lenguaje de p
 
 ### Tipos de Datos
 
-
-Sólo hay unas pocas diferencias; Aquí está la explicación:
+Solo hay unas pocas diferencias; aquí está la explicación:
 
 |**En Javascript**      |**En Python**       |
 |:----------------------|:-------------------|
@@ -70,7 +66,6 @@ Sólo hay unas pocas diferencias; Aquí está la explicación:
 
 ## Paquetes (Importando desde otros archivos)
 
-
 En Javascript, puedes importar variables de otros archivos con el comando ***import*** o ***require***, pero tienes que **exportar** los archivos de las variables primero.
 
 En Python, puedes hacer de cualquier carpeta un paquete creando un archivo *\__init\__.py* dentro de ella. Luego, puedes importar lo que quieras en esa carpeta sin tener que exportar explícitamente nada.
@@ -78,36 +73,38 @@ En Python, puedes hacer de cualquier carpeta un paquete creando un archivo *\__i
 <br>
 <br>
 
-#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
+#### ![python syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) Con Python
 
 ```python
-from . import
+from package1 import module1
+
+from package1.module2 import function1
+
+
 ```
+
 <br>
 <br>
 
 ## Gestores de Paquetes
 
-
-Lo que es NPM es para Javascript, PIP es para Python. Ambas bestias son increíbles pero muy diferentes por dentro. La mayor diferencia es que los paquetes NPM se descargan localmente a una carpeta "node_modules" mientras que los paquetes PIP se instalan en toda la máquina, fuera de la carpeta del proyecto. Otra pequeña diferencia es que NPM usa package.json y PIP usa un archivo requirements.txt.
+Lo que es NPM es para Javascript, PIP es para Python. Ambas bestias son increíbles pero muy diferentes por dentro. La mayor diferencia es que los paquetes NPM se descargan localmente a una carpeta "node_modules" mientras que los paquetes PIP se instalan en toda la máquina, fuera de la carpeta del proyecto. Otra pequeña diferencia es que NPM usa `package.json` y PIP usa un archivo requirements.txt.
 
 <br>
 <br>
-
 
 ### Analizando tipos de datos
 
-
 Javascript es tan flexible que no tienes que prestar mucha atención a los tipos de datos. A Python no le gusta eso... en Python, te acostumbrarás a declarar variables y convertirlas entre tipos de datos.
 
-#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
+#### ![python syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png?raw=true) Con JavaScript
 
 ```javascript
 var result = '5' - '2'; 
 //el resultado ahora es igual a 3
 ```
 
-#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
+#### ![python syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) Con Python
 
 ```python
 #  En Python sustraer strings producirá un error, en lugar de eso debes hacer esto:
@@ -119,17 +116,15 @@ result = int('5') - int('2');
 <br>
 <br>
 
-
 ### Valores de Impresión
 
-
-Python tiene "print" para escribir en un documento o en la consola. Recuerda que, dado que Python - como cualquier otro lenguaje de back-end - se ejecuta antes del evento de preload, no tiene acceso a la consola de Javascript.
+Python tiene "print" para escribir en un documento o en la consola. Recuerda que, dado que Python, como cualquier otro lenguaje de back-end, se ejecuta antes del evento de preload, no tiene acceso a la consola de Javascript.
 
 <br>
 <br>
 
 
-#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
+#### ![python syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png?raw=true) Con JavaScript
 
 ```javascript
 var simpleValue = ‘hello’;
@@ -141,7 +136,7 @@ console.log(arrayValue);
 ```
 
 
-#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
+#### ![python syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) Con Python
 
 ```python
 simpleValue = ‘Hello’;
@@ -149,10 +144,6 @@ print(simpleValue);  //Esto imprimirá el contenido.
 arrayValue =[‘Hello’,23,76,’World’,43];
 print(arrayValue); //Esto funcionará, imprimiendo el contenido del arreglo en un formato como este: [‘Hello’,23,76,’World’,43]
 ```
-  
-
-
-
 
 <br>
 <br>
@@ -163,17 +154,16 @@ print(arrayValue); //Esto funcionará, imprimiendo el contenido del arreglo en u
 
 ### Función Lambda vs Función de flecha
 
-
-Finalmente, en ES2015, Javascript incluye las "funciones arrow". Esa es una manera muy fácil y liviana de declarar y usar funciones. Python, por otro lado, tiene algo similar llamado funciones lambda que básicamente te permiten usar pequeñas funciones anónimas en línea como accesos directos.
+Finalmente, en ES2015, Javascript incluye las "funciones flecha". Esa es una manera muy fácil y liviana de declarar y usar funciones. Python, por otro lado, tiene algo similar llamado funciones **"lambda"** que básicamente te permiten usar pequeñas funciones anónimas en línea como accesos directos.
 
 <br>
 <br>
 
-#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
+#### ![python syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png?raw=true) Con JavaScript
 
 ```javascript
 
-# Usando un función de flecha para mapear una lista 
+# Usando una función flecha (arrow function) para mapear una lista 
 
 var peopleArray = [{ name: "Mario Peres" },{ name: "Emilio Peres" },{ name: "Yusaiba Peres" }];
 var returningMapObject = peopleArray.map(person => person.name);
@@ -184,7 +174,7 @@ console.log(returningMapObject);
 <br>
 <br>
 
-#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
+#### ![python syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) Con Python
 
 ```python
 
@@ -198,7 +188,6 @@ print(namesArray)
 # ahora namesArray es una lista de nombres como ["Mario Peres","Emilio Peres","Yusaiba Peres"]
 ```
 
-
 > :tv: Aquí hay un video extraño pero sorprendente que explica las funciones lambda: https://www.youtube.com/watch?v=25ovCm9jKfA
 
 <br>
@@ -206,8 +195,7 @@ print(namesArray)
 
 ### Lista de bucles (similar a arrays)
 
-
-#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
+#### ![python syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png?raw=true) Con JavaScript
 
 ```javascript
 //haciendo un bucle foreach en js 
@@ -224,7 +212,7 @@ for(var i = 0; i < myArray.length; i++){
 <br>
 <br>
 
-#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
+#### ![python syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) Con Python
 
 ```python
 colors = ["red", "green", "blue", "purple"]
@@ -237,11 +225,10 @@ for color in colors:
 
 ### Adición y Eliminación de Elementos
 
-
 <br>
 <br>
 
-#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
+#### ![python syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png?raw=true) Con JavaScript
 
 ```javascript
 var myArray = [‘Academy’, ‘Coding’];
@@ -250,7 +237,7 @@ myArray.push(‘4Geeks’);  //Añadiendo un item
 myArray.splice(index, 1);
 ```
 
-#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
+#### ![python syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) Con Python
 
 ```python
 myList = ['The', 'earth', 'revolves', 'around', 'sun']
@@ -265,8 +252,7 @@ print(myList)
 
 ### Funciones para clasificar Listas
 
-
-#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
+#### ![python syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) Con Python
 
 ```python
 # Orden ascendente
@@ -278,7 +264,6 @@ myArray = [{ "name": "Mario Peres" },{ "name": "Emilio Peres" },{ "name": "Yusai
 myArray.sort(key=lambda person: person['name'])
 ```
 
-
 > :tv: Llamemos a Socratica de nuevo para entender la clasificación en Python: https://www.youtube.com/watch?v=QtwhlHP_tqc
 
 ### La Declaración switch
@@ -287,13 +272,13 @@ myArray.sort(key=lambda person: person['name'])
 
 ### Listas vs Tuplas
 
-Python trae un nuevo tipo de tipo de datos llamado "Tupla". Piense en ello como una lista de rendimiento super delgado y rápido. Pero, como siempre, para aumentar el rendimiento necesitamos disminuir la funcionalidad.
+Python trae un nuevo tipo de datos llamado "Tupla". Piensa en ello como una lista de rendimiento super delgado y rápido. Pero, como siempre, para aumentar el rendimiento necesitamos disminuir la funcionalidad.
 
 > :tv: Este es un video obligatorio que explica la diferencia entre ellos: https://www.youtube.com/watch?v=NI26dqhs2Rk
 
 ### Objetos
 
-#### ![python syntax](../../assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png) Con JavaScript
+#### ![python syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png?raw=true) Con JavaScript
 
 ```javascript
 //Hay dos maneras de declarar un objeto
@@ -314,7 +299,7 @@ obj.name = "Mario";
 obj.lastname = "Perez";
 ```
 
-#### ![python syntax](../../assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png) Con Python
+#### ![python syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) Con Python
 
 ```python
 # En Python tenemos Clases y Diccionarios.
@@ -334,7 +319,6 @@ obj = Person()
 obj.name = "Mario"
 obj.lastname = "Perez"
 ```
-
 
 > :tv: Socratica, nuestro gran espécimen y amigo evolucionado, explica Objetos de una manera excelente: https://www.youtube.com/watch?v=apACNr7DC_s
 

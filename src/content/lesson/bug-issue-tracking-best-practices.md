@@ -2,7 +2,7 @@
 slug: "bug-issue-tracking-best-practices"
 title: "Bug and issue tracking best practices"
 subtitle: "All you've learned needs to be put together. Lets make our first entire professional application using the Agile Development method!"
-cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
+cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg?raw=true"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["agile development"]
@@ -16,7 +16,7 @@ All apps have lots of bugs, even if you are the most brilliant developer on eart
 
 ## Types of testing
 
-![Types of Testing](../../assets/images/types-of-testing.png)
+![Types of Testing](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/types-of-testing.png?raw=true)
 
 There are so many different ways something may go wrong.  
 Companies have big teams with dozens of people behind the quality teams because thorough testing is complicated. 
@@ -52,7 +52,7 @@ We will focus on two types of testing: **Unit Testing** and **Story Testing** as
 
 ## Steps to implement Story Tests
 
-![Quality Assurance Lifecycle](../../assets/images/quality-assurance-cycle.png)
+![Quality Assurance Lifecycle](https://storage.googleapis.com/breathecode-asset-images/e71efaba3bf6f66502bf08e8c1c0c4e244b421afbb748b6d91ac31f9338389ab.png?raw=true)
 
 Write down all user stories and acceptance criteria before coding.
 Make sure everyone agrees.
@@ -73,7 +73,7 @@ Usually a user story can be structured like this:
 As a [role], I can [feature] so that [reason]
 ```
 
-You can read more about user stories [here](https://content.breatheco.de/en/lesson/user-stories-examples) and [here](https://www.softwaretestinghelp.com/user-story-acceptance-criteria/):
+Here you can read more about [user stories examples](https://content.breatheco.de/en/lesson/user-stories-examples) and here about [user story acceptance](https://www.softwaretestinghelp.com/user-story-acceptance-criteria/).
 
 ## Example bug report template
 
