@@ -49,4 +49,4 @@ Slack is the perfect tool for this, you can even start an instant video call wit
 
 Enter the #public-support channel which is where you will be served quicker.
 
-![Slack en 4Geeks Academy](https://github.com/breatheco-de/content/blob/master/src/assets/images/5a432982-f8b2-42bb-89c5-3c82a8e53d10.jpeg)
+![Slack en 4Geeks Academy](https://github.com/breatheco-de/content/blob/master/src/assets/images/5a432982-f8b2-42bb-89c5-3c82a8e53d10.jpeg?raw=true)

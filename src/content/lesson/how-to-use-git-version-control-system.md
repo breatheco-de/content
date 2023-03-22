@@ -75,7 +75,7 @@ Every time you make a new commit, the head will move to that new commit. This wa
 
 You can **move the head** if you want. It does not necessarily have to always be the last commit, but you must remember that you can only review commits that came before the commit to which the head is pointing at. **Commits made after the commit to which the head is pointing at are not possible to be reviewed.**
 
-![how to use git ](https://github.com/breatheco-de/content/blob/master/src/assets/images/79da625d-d7bc-409a-a044-9e60ae6a1a2b.png)
+![how to use git ](https://github.com/breatheco-de/content/blob/master/src/assets/images/79da625d-d7bc-409a-a044-9e60ae6a1a2b.png?raw=true)
 
 ## You can have Several Heads (Branches)
 
@@ -85,7 +85,7 @@ By default, every repository has one branch called Master, with its correspondin
 
 For example: Let’s say that you are starting to develop the "Login" feature/functionality of a website. You can create a new "branch" of the repository called "login" so that your commits are not part of the main revision history of the project. Once you are comfortable with your code, you can then *merge* your branch and delete your head. This will reset the main HEAD of the master branch to the last commit you made and add your new code to the main branch (master) of the repository.
 
-![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif)
+![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif?raw=true)
 
 > :point_up: **Note on Terminology:** The terms "branch" and "head" are nearly synonyms in GIT. Every branch is represented by one head, and every head represents one branch. Sometimes, "branch" will be used to refer to a head and the entire history of commits preceding that head, whereas "head" will be used to refer exclusively to a single commit object (the most recent commit in the branch).
 
@@ -113,7 +113,7 @@ To create a commit, you will need to do two things:
   
 Say you create three commits this way… your repository will look like this:
 
-![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png)
+![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png?raw=true)
 
 Other commands that are useful at this point:
 
@@ -143,7 +143,7 @@ Now that you’ve created commits, how do you refer to a specific commit? GIT pr
 
 To create a branch, let’s say your repository looks like this:
 
-![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png)
+![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png?raw=true)
 
 Let's jump back to commit (2) and start new work from there. You will first need to know how to reference the commit. You can use `git log` to get the SHA1 name of (2)
 
@@ -166,7 +166,7 @@ This command will create a new head with the given name, and point that head at 
 
 Now our commit tree looks like this:
 
-![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/924b8807-6a06-44e7-87a1-8c93d983d873.png)
+![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/924b8807-6a06-44e7-87a1-8c93d983d873.png?raw=true)
 
 ## Switching Between Branches
 
@@ -185,7 +185,7 @@ This command does the following:
 
 After checking out the *\[new-head\]* head, you will fix the headers. Now you can add and commit the changes as above. The resulting repository looks like this:
 
-![git8](https://github.com/breatheco-de/content/blob/master/src/assets/images/0352d1b1-0914-4d0f-9379-c47e7895ccb9.png)
+![git8](https://github.com/breatheco-de/content/blob/master/src/assets/images/0352d1b1-0914-4d0f-9379-c47e7895ccb9.png?raw=true)
 
 ## Merging 
 
@@ -245,7 +245,7 @@ https://github.com/<github-username>/repository-name.git
 
 For example, when using a repository from github.com, you can find the remote on the repository home page:
 
-![git9](https://github.com/breatheco-de/content/blob/master/src/assets/images/47f7c628-5efe-4888-b67c-ca90611e788e.gif)
+![git9](https://github.com/breatheco-de/content/blob/master/src/assets/images/47f7c628-5efe-4888-b67c-ca90611e788e.gif?raw=true)
 
 ## Adding a Remote
 

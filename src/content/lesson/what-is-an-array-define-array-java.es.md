@@ -38,7 +38,7 @@ Cada arreglo tiene los mismos conceptos básicos:
 
 **Index:** es la posición del elemento.
 
-![what is an array define array](https://github.com/breatheco-de/content/blob/master/src/assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
+![what is an array define array](https://github.com/breatheco-de/content/blob/master/src/assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png?raw=true)
 
 
 > :point_up: Las posiciones del arreglo comienzan con **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
@@ -67,7 +67,7 @@ De acuerdo a lo anterior en un vector podemos almacenar elementos de cualquier t
 
 La declaración anterior de un vector en memoria se vería algo parecido a la siguiente imagen.
 
-![what is an array define array](https://www.ecodeup.com/wp-content/uploads/2016/09/arreglo-vector-en-java.jpg)
+![what is an array define array](https://www.ecodeup.com/wp-content/uploads/2016/09/arreglo-vector-en-java.jpg?raw=true)
 
 También podemos declarar e inicializar en en 2 sentencias:
 ```java

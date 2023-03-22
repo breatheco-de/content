@@ -42,7 +42,7 @@ Reconocemos las trabas, pero nuestros estudiantes y la academia adquiere tanto v
 + Finalmente, se abrirá un editor de código (probablemente VSCode, el IDE de codificación más utilizado en el mundo) y un terminal para empezar a codificar como si en principio, tu espacio de trabajo estuviese en tu computador local.
 + Si vuelves a [your workspaces](https://gitpod.io/workspaces), vas a encontar todas las computadoras que has creado y podrás `re-abrirlas`. Los cambios que hiciste a los archivos perdurarán por siempre, no vas a perder ninguna data mientras que hayas re-abierto, en principio, el mismo espacio de trabajo que estabas usando. 
   
-![Como funciona Github](https://raw.githubusercontent.com/alesanchezr/content/master/src/assets/images/how-gitpod-works.jpeg)
+![Como funciona Github](https://raw.githubusercontent.com/alesanchezr/content/master/src/assets/images/how-gitpod-works.jpeg?raw=true)
 
 #### ¿Qué es un espacio de trabajo?
 
@@ -65,7 +65,7 @@ Una vez que finalices por el día, puedes abandonar tu computadora. Sin embargo,
 
 Como programador, necesitarás usar el terminal de la computadora algunas veces; siempre puedes encontrar o abrir el terminal, dándole clic al menú tipo hamburguesa en la parte superior izquierda y seleccionando la opción "terminal" => "new terminal" 
 
-![Botón de Gitpod](https://storage.googleapis.com/breathecode-asset-images/62a6f61382443c1863a7e20a4b550e2d62216781cff482e3685dfd87f14252a1.png)
+![Botón de Gitpod](https://storage.googleapis.com/breathecode-asset-images/62a6f61382443c1863a7e20a4b550e2d62216781cff482e3685dfd87f14252a1.png?raw=true)
 
 ### ¿Qué es un terminal o línea de comando? 
 

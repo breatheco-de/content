@@ -57,7 +57,7 @@ Básicamente, `mySuperVariable` se inicializa con `null` y luego tu podrás rest
 ### Posible usos para </strong>el hook ` useState` </strong>
 
 1. Conteo: Mostrar el número de me gusta en la pantalla y poder aumentar o disminuir cuando el usuario hace clic.
- ![Contador de reacción con ganchos](https://s10.gifyu.com/images/countergif.gif)
+ ![Contador de reacción con ganchos](https://s10.gifyu.com/images/countergif.gif?raw=true)
  [![Editar contador simple usando useState y ganchos de reacción](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/simple-counter-using-usestate-and-react-hooks-soxu8?fontsize=14&hidenavigation=1&theme=dark)
 
 ```jsx
@@ -86,7 +86,7 @@ ReactDOM.render(<Counter />, document.getElementById("root"));
 
 2. Temporizador/Reloj: Puedes usar la hora del sistema para mostrar la hora actual en la pantalla, pero como la hora cambia todo el tiempo, la almacenamos con una variable de estado.
 
-![Building a timer with react hooks](https://s10.gifyu.com/images/ezgif.com-gif-maker-435c19aa6749269d2.gif) [![Edit React js Clock](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-js-clock-7zefj?fontsize=14&hidenavigation=1&theme=dark)
+![Building a timer with react hooks](https://s10.gifyu.com/images/ezgif.com-gif-maker-435c19aa6749269d2.gif?raw=true) [![Edit React js Clock](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-js-clock-7zefj?fontsize=14&hidenavigation=1&theme=dark)
 
 ```jsx
 import React, { useEffect, useState } from "react";
@@ -117,7 +117,7 @@ export default Clock;
 
 3. Mostrar una entrada en la pantalla: La mejor práctica para obtener el contenido de cualquier entrada es almacenarlo en una variable de estado, esto se denomina "Entrada Controlada".
 
- ![Controlled input field](https://s10.gifyu.com/images/ezgif.com-gif-maker-399b80fa21c077ab6.gif) [![Edit controlledinput](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/controlledinput-rbh0m?fontsize=14&hidenavigation=1&theme=dark)
+ ![Controlled input field](https://s10.gifyu.com/images/ezgif.com-gif-maker-399b80fa21c077ab6.gif?raw=true) [![Edit controlledinput](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/controlledinput-rbh0m?fontsize=14&hidenavigation=1&theme=dark)
 
  ```jsx
 import React, { useEffect, useState } from "react";
@@ -149,7 +149,7 @@ export default ControlledInputForm;
 
 4. Apertura/Cierre (mostrar/ocultar): un caso de uso típico es tener un cuadro de diálogo que hace una pregunta o permite que un usuario se suscriba a un boletín informativo.
 
-![Modal Window using react hooks](https://s10.gifyu.com/images/ezgif.com-gif-maker-51e6b7321e3cfd394.gif) [![Edit Modal window component with hooks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/modal-window-component-with-hooks-vb6de?fontsize=14&hidenavigation=1&theme=dark). 
+![Modal Window using react hooks](https://s10.gifyu.com/images/ezgif.com-gif-maker-51e6b7321e3cfd394.gif?raw=true) [![Edit Modal window component with hooks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/modal-window-component-with-hooks-vb6de?fontsize=14&hidenavigation=1&theme=dark). 
 
 ```jsx
 import React, { useState } from "react";
@@ -196,7 +196,7 @@ Si el usuario hace clic en "close" (cerrar), simplemente usamos la función hook
 
 ## El hook `useEffect`:
 
-![useEffect hook for the component lifecycle](https://github.com/breatheco-de/content/blob/master/src/assets/images/945ae0a2-2495-4955-9e9a-46fdd3efc682componentlifecyclehooks.png)
+![useEffect hook for the component lifecycle](https://github.com/breatheco-de/content/blob/master/src/assets/images/945ae0a2-2495-4955-9e9a-46fdd3efc682componentlifecyclehooks.png?raw=true)
 
 useEffect es otro hook increíble que usarás si deseas ejecutar algún código después de que el componente se renderice, por ejemplo:
 

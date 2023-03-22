@@ -58,7 +58,7 @@ Basically `mySuperVariable` will be initialized with `null`, and then you will b
 ### Possible uses for </strong>the ` useState` hook</strong>
 
  1. Counting: Displaying the number of likes on the screen and being able to increase or decrease when the user clicks.
- ![React Counter with Hooks](https://s10.gifyu.com/images/countergif.gif) 
+ ![React Counter with Hooks](https://s10.gifyu.com/images/countergif.gif?raw=true) 
  [![Edit Simple counter using useState and react hooks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/simple-counter-using-usestate-and-react-hooks-soxu8?fontsize=14&hidenavigation=1&theme=dark)
 
 ```jsx
@@ -87,7 +87,7 @@ ReactDOM.render(<Counter />, document.getElementById("root"));
 
 2. Timer/Clock: You can use the system time to show the current time on the screen, but since time changes all the time, we store it with a state variable.
 
-   ![Building a timer with react hooks](https://s10.gifyu.com/images/ezgif.com-gif-maker-435c19aa6749269d2.gif) [![Edit React js Clock](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-js-clock-7zefj?fontsize=14&hidenavigation=1&theme=dark)
+   ![Building a timer with react hooks](https://s10.gifyu.com/images/ezgif.com-gif-maker-435c19aa6749269d2.gif?raw=true) [![Edit React js Clock](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-js-clock-7zefj?fontsize=14&hidenavigation=1&theme=dark)
 
 ```jsx
 import React, { useEffect, useState } from "react";
@@ -118,7 +118,7 @@ export default Clock;
 
 3. Showing an input on the screen: The best practice to get the content from any input is by storing it on a state variable, this is called "Controlled Input". 
 
-    ![Controlled input field](https://s10.gifyu.com/images/ezgif.com-gif-maker-399b80fa21c077ab6.gif) [![Edit controlledinput](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/controlledinput-rbh0m?fontsize=14&hidenavigation=1&theme=dark)
+    ![Controlled input field](https://s10.gifyu.com/images/ezgif.com-gif-maker-399b80fa21c077ab6.gif?raw=true) [![Edit controlledinput](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/controlledinput-rbh0m?fontsize=14&hidenavigation=1&theme=dark)
     
 ```jsx
 import React, { useEffect, useState } from "react";
@@ -150,7 +150,7 @@ export default ControlledInputForm;
 
 4. Opening/Closing (show/hide): A typical use case is having a dialog that asks a question or allows a user to sign up for a newsletter.
 
-![Modal Window using react hooks](https://s10.gifyu.com/images/ezgif.com-gif-maker-51e6b7321e3cfd394.gif) [![Edit Modal window component with hooks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/modal-window-component-with-hooks-vb6de?fontsize=14&hidenavigation=1&theme=dark). 
+![Modal Window using react hooks](https://s10.gifyu.com/images/ezgif.com-gif-maker-51e6b7321e3cfd394.gif?raw=true) [![Edit Modal window component with hooks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/modal-window-component-with-hooks-vb6de?fontsize=14&hidenavigation=1&theme=dark). 
 
 ```jsx
 import React, { useState } from "react";
@@ -197,7 +197,7 @@ If the user clicks on "close", we simply use the hook function `setOpened` to ch
 
 ## The `useEffect` hook:
 
-![useEffect hook for the component lifecycle](https://github.com/breatheco-de/content/blob/master/src/assets/images/945ae0a2-2495-4955-9e9a-46fdd3efc682componentlifecyclehooks.png)
+![useEffect hook for the component lifecycle](https://github.com/breatheco-de/content/blob/master/src/assets/images/945ae0a2-2495-4955-9e9a-46fdd3efc682componentlifecyclehooks.png?raw=true)
 
 useEffect is another amazing hook that you will use if you want to execute some code after the component renders, for example:
 

@@ -24,7 +24,7 @@ You can divide a standard authentication process in 5 main steps:
 4. If a user is found, it generates a `token` for that user and responds status_code=200 back to the front end.
 5. The front-end will use that `token` from now on to make any future request.
 
-![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/authentication-diagram.png)
+![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/authentication-diagram.png?raw=true)
 
 > :point_up: If you don't know what a token is, I would recomend [this reading](/lesson/token-based-api-authentication).
 
@@ -52,11 +52,11 @@ In a nutshell: JWT is an amazing alternative because `Basic Token` is to simple 
 
 With JWT Tokens you don't need a database, the token itself contains all the information needed.
 
-![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-vs-bearer-token.png)
+![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-vs-bearer-token.png?raw=true)
 
 ## Structure of the JWT Token
 
-![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-token-structure.png)
+![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-token-structure.png?raw=true)
 
 You may notice that the string is divided in three sections separated by a (.). Each section has it meaning:
 

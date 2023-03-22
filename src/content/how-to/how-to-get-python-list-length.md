@@ -22,7 +22,7 @@ print(countries_length) #Output: 5
 
 This is a simple way to get the length of a Python list, let's dive into how the `len()` function works and which other methods we can use to get the length of a list in Python in the following sections.
 
-![Measuring](https://media.tenor.com/AFJK9BNwiZIAAAAC/harry-styles-tape-measure.gif)
+![Measuring](https://media.tenor.com/AFJK9BNwiZIAAAAC/harry-styles-tape-measure.gif?raw=true)
 
 - [How to Get Python List Length Using the `len()` Function](#how-to-get-python-list-length-using-the-len-function)
 - [How to Get Python List Length Using the `length_hint()` Method](#how-to-get-python-list-length-using-the-length_hint-method)

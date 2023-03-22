@@ -37,7 +37,7 @@ Cada array tiene los mismos conceptos básicos:
 
 **Index:** es la posición del elemento.
 
-![qué es un array](https://github.com/breatheco-de/content/blob/master/src/assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
+![qué es un array](https://github.com/breatheco-de/content/blob/master/src/assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png?raw=true)
 
 > :point_up: Las posiciones de un array comienzan en **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
 
@@ -175,7 +175,7 @@ Retorna un nuevo array con una versión más pequeña del arreglo original. Debe
 
 Actualiza el array actual dejando todo menos la versión más pequeña que deseas eliminar. Debes especificar los índices de inicio y término del pedazo que quieres eliminar.
 
-![qué es un array](https://github.com/breatheco-de/content/blob/master/src/assets/images/7e098348-df50-442b-801e-ac9d098fbc09.png)
+![qué es un array](https://github.com/breatheco-de/content/blob/master/src/assets/images/7e098348-df50-442b-801e-ac9d098fbc09.png?raw=true)
 
 <iframe src="https://repl.it/F9V5/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 

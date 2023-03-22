@@ -35,13 +35,13 @@ Cada vez que los datos del **proveedor** cambian, todos los **consumidores** rec
 
 > Todo el mundo tiene acceso al contexto global ahora.
 
-![Explicación Context API](https://github.com/breatheco-de/content/blob/master/src/assets/images/72fe5361-5b2a-460f-8c2a-2d376616abf6.png)
+![Explicación Context API](https://github.com/breatheco-de/content/blob/master/src/assets/images/72fe5361-5b2a-460f-8c2a-2d376616abf6.png?raw=true)
 
 ## Flujo de datos unidireccional
 
 El **store** es ahora la pieza más delicada de información de nuestra aplicación, y es muy suceptible a malos usos, es decir, un cambio malo y toda la aplicación se vendrá abajo. Para evitar este posible escenario debemos asegurarnos que la información de nuestro store sea read-only para los consumidores, y que solo pueda *actualizarse* nuevamente con un conjunto limitado de funciones. Como un state normal, no *cambiamos* el state, establecemos uno nuevo. Este paradigma arquitectónico se llama Flux.
 
-![Flux](https://facebook.github.io/flux/img/overview/flux-simple-f8-diagram-1300w.png)
+![Flux](https://facebook.github.io/flux/img/overview/flux-simple-f8-diagram-1300w.png?raw=true)
 
 ![Profundizando en la arquitectura de Flux](https://facebook.github.io/flux/docs/in-depth-overview)
 

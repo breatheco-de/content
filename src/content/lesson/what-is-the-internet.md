@@ -28,7 +28,7 @@ For this reason, they worked on something as similar as possible to a Microsoft 
 >
 >The easiest way to think of the Internet is as a network of shared documents that were once rigid, formal scientific publications and, nowadays, are interactive, exciting and spectacular.
 
-![what is the internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/ffe440de-8746-4ab5-81cc-37ef107155e9.jpeg)
+![what is the internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/ffe440de-8746-4ab5-81cc-37ef107155e9.jpeg?raw=true)
 
 
 ## Everything is Text (HTTP)
@@ -43,7 +43,7 @@ What this means is that: everything is text.  For example, if you wish to send a
 + That long sequence of characters arrives at your grandmother’s computer.
 + Your grandmother double clicks the photo and the program she uses to see the photo transforms the text back into an image understandable to a human.
 
-![what is the internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif)
+![what is the internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif?raw=true)
   
 <small style="color:grey">Image 1: The 4 steps needed to send images over the internet: first it turns to text, then it travels, then it arrives at grandma's computer, grandma opens the picture and the picture shows… lastly, grandma is happy looking at her grandson's photo!</small>
 
@@ -98,7 +98,7 @@ Well, it does a lot! The server is responsible for preparing the text that will 
 
 So… lets summarize:
 
-![what is the internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/57821cbc-5ba0-4e1c-9b90-7f1df7c637fa.gif)
+![what is the internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/57821cbc-5ba0-4e1c-9b90-7f1df7c637fa.gif?raw=true)
 
  
 | The Server   |      The Client       |

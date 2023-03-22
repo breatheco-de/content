@@ -21,7 +21,7 @@ R: Hay más de los que podemos contar, los 10 más populares son:
 
 Es el más simple de los algoritmos para ordenar. Intercambia repetidamente elementos adyacentes para organizarlos de forma ascendente, el algoritmo tiene un `"wall"` o muro que representa la última posición que se va a comparar, el muro sigue moviéndose de izquierda a derecha, reduciendo el tamaño de comparación hasta que se ordena la lista completa.
 
-![Bubble Sort Explained](https://github.com/breatheco-de/content/blob/master/src/assets/images/2fef4d85-686b-4bf0-a505-45d3de178fd5.gif)
+![Bubble Sort Explained](https://github.com/breatheco-de/content/blob/master/src/assets/images/2fef4d85-686b-4bf0-a505-45d3de178fd5.gif?raw=true)
 
 En Javascript:
 ```js
@@ -52,7 +52,7 @@ const bubbleSort = (arr) => {
 
 `Selection` también tiene un muro, pero en este caso, marca el comienzo del bucle, el algoritmo busca el elemento más pequeño y lo intercambia con el inicial, luego mueve el muro una posición hacia la derecha para no ver de nuevo ese mismo artículo.
 
-![Selection explicado](https://github.com/breatheco-de/content/blob/master/src/assets/images/ddb1ff5a-621c-4945-9164-20c1a7f5d388.gif)
+![Selection explicado](https://github.com/breatheco-de/content/blob/master/src/assets/images/ddb1ff5a-621c-4945-9164-20c1a7f5d388.gif?raw=true)
 
 En javascript
 ```js
@@ -77,7 +77,7 @@ const selectSort = (arr) => {
 
 Cocktail Shaker funciona en ambos frentes al mismo tiempo: busca el de mayor valor escaneando de izquierda a derecha y también el más pequeño cuando vuelve de derecha a izquierda. Tiene 2 muros (uno para cada lado de la lista), y ambos muros siguen encogiéndose hasta que chocan entre sí, cuando eso sucede, el array está completamente ordenado.
 
-![Selección explicada](https://github.com/breatheco-de/content/blob/master/src/assets/images/6d44c6a9-7f32-4b0e-86d7-1a210c3a5f4a.gif)
+![Selección explicada](https://github.com/breatheco-de/content/blob/master/src/assets/images/6d44c6a9-7f32-4b0e-86d7-1a210c3a5f4a.gif?raw=true)
 En javascript:
 ```js
 const shakerSort = (arr) => {
@@ -107,7 +107,7 @@ const shakerSort = (arr) => {
 
 Ordenar con Insertion implica pasar por una pila, tomar un elemento, compararlo con el primero, intercambiar lugares si un elemento es más grande que otro y continuar este proceso hasta que el elemento mínimo se encuentre en la ubicación correcta.
 
-![algoritmo Insertion](https://github.com/breatheco-de/content/blob/master/src/assets/images/38fed925-cf75-4f94-bdd7-abcce659fdac.gif)
+![algoritmo Insertion](https://github.com/breatheco-de/content/blob/master/src/assets/images/38fed925-cf75-4f94-bdd7-abcce659fdac.gif?raw=true)
 En javascript:
 ```js
 const insertionSort = (arr) => {
@@ -130,7 +130,7 @@ const insertionSort = (arr) => {
 
 Merge es un algoritmo más difícil porque usa [recursividad](https://www.youtube.com/watch?v=KEEKn7Me-ms). Es un ejemplo de un algoritmo para ordenar del tipo dividir y conquistar, divide el array desordenado en dos partes y luego recursivamente aplica merge a estos arrays a estos sub-array hasta quedar con un montón de arrays con un solo elemento. Luego, compara los arrays de un solo elemento entre sí antes de combinarlos en un array ordenado de dos elementos (y así sucesivamente). Terminará con una solo array ordenado de longitud n.
 
-![Ordenando con Merge](https://github.com/breatheco-de/content/blob/master/src/assets/images/e8781e98-0f8c-4035-8017-33ca217eb39c.gif)
+![Ordenando con Merge](https://github.com/breatheco-de/content/blob/master/src/assets/images/e8781e98-0f8c-4035-8017-33ca217eb39c.gif?raw=true)
 
 > :tv: En este enlace, encontrarás [una muy buena explicación en un video de 4 minutos](https://www.youtube.com/watch?v=JU767SDMDvA) sobre el algoritmo de Merge
 
@@ -138,21 +138,21 @@ Merge es un algoritmo más difícil porque usa [recursividad](https://www.youtub
 
 Utiliza la misma estrategia de "divide y vencerás" para obtener las mismas ventajas. Primero selecciona un valor, que se llama el **valor de pivote**. La función del valor pivote es ayudar a dividir la lista. La posición actual donde el valor pivote pertenece a la lista final ordenada, comúnmente llamada **punto de división**, se usará para dividir la lista para las llamadas subsiguientes a la ordenación rápida.
 
-![../_images/firstsplit.png](http://interactivepython.org/courselib/static/pythonds/_images/firstsplit.png)
+![../_images/firstsplit.png](http://interactivepython.org/courselib/static/pythonds/_images/firstsplit.png?raw=true)
 
 La partición comienza al ubicar dos marcadores de posición, llamémoslos `leftmark` y` rightmark`, al principio y al final de los elementos restantes de la lista (posiciones 1 y 8). El objetivo del proceso de partición es mover los elementos que están en el lado incorrecto con respecto al valor de pivote y al mismo tiempo converger en el punto de división.
 
-![../_images/partitionA.png](http://interactivepython.org/courselib/static/pythonds/_images/partitionA.png)
+![../_images/partitionA.png](http://interactivepython.org/courselib/static/pythonds/_images/partitionA.png?raw=true)
 
 Comenzamos incrementando `leftmark` hasta que localizamos un valor que es mayor que el valor de pivote. Luego disminuimos `rightmark` hasta que encontramos un valor que es menor que el valor de pivote. En este punto, hemos descubierto dos elementos que están fuera de lugar con respecto al punto de división final. Para nuestro ejemplo, esto ocurre en 93 y 20. Ahora podemos intercambiar estos dos elementos y luego repetir el proceso nuevamente.
 
 Cuando `rightmark` se vuelve menor que` leftmark`, paramos. La posición de `rightmark` es ahora el punto de división. El valor de pivote se puede intercambiar con el contenido del punto de división y el valor de pivote ahora está en su lugar. Además, todos los elementos a la izquierda del punto de división son menores que el valor de pivote, y todos los elementos a la derecha del punto de división son mayores que el valor de pivote. La lista ahora se puede dividir en el punto de división y la ordenación rápida se puede invocar recursivamente en las dos mitades.
 
-![../_images/partitionB.png](http://interactivepython.org/courselib/static/pythonds/_images/partitionB.png)
+![../_images/partitionB.png](http://interactivepython.org/courselib/static/pythonds/_images/partitionB.png?raw=true)
 
 La función `quickSort` invoca una función recursiva,` quickSortHelper`. `quickSortHelper` comienza con el mismo caso base que Merge. Si la longitud de la lista es menor o igual a uno, ya está ordenada. Si es mayor, puede particionarse y ordenarse recursivamente. La función `partition` implementa el proceso descrito anteriormente.
 
-![Algoritmo Quicksort](https://github.com/breatheco-de/content/blob/master/src/assets/images/c60c4713-aa60-4fbc-9d97-f893b5947e7f.gif)
+![Algoritmo Quicksort](https://github.com/breatheco-de/content/blob/master/src/assets/images/c60c4713-aa60-4fbc-9d97-f893b5947e7f.gif?raw=true)
 
 > :tv: En este enlace, encontrarás [una muy buena explicación de video de 4 minutos](https://www.youtube.com/watch?v=Hoixgm4-P4M) sobre el algoritmo de clasificación rápida.
 

@@ -20,13 +20,13 @@ La herramienta de desarrollador: Tiene dos secciones que necesitas aprender y us
 
 Muestra el tag HTML en tu sitio web y los selectores que tiene. Puedes mirar los atributos de clase o ID en cada tag.
 
-![La pestaña elementos en el inspector de sitios web de la herramienta de desarrollador](https://i.imgur.com/oJoH8C3.png)
+![La pestaña elementos en el inspector de sitios web de la herramienta de desarrollador](https://i.imgur.com/oJoH8C3.png?raw=true)
 
 ### b) La pestaña `Styles` dentro de la pestaña `elements`
 
 Si haces clic en uno de los tags, la pestaña "`styles`" mostrará qué estilos se están aplicando a ella.
 
-![Pestaña Estilos dentro del inspector de sitios web de la herramienta de desarrollador](https://i.imgur.com/UM926NI.png)
+![Pestaña Estilos dentro del inspector de sitios web de la herramienta de desarrollador](https://i.imgur.com/UM926NI.png?raw=true)
 
 ## Errores más difíciles de encontrar y depurar
 Estos son algunos de los errores más difíciles de depurar:
@@ -56,7 +56,7 @@ Usa la pestaña **elemento** de las herramientas de desarrollador y busca el tag
 
 Si no ves tu estilo CSS, es probablemente por un error de ortografía o una lógica de selector defectuosa. Aquí hay un ejemplo en la imagen de abajo:
 
-![misspelling on css selector](https://storage.googleapis.com/breathecode-asset-images/misspelling-on-css-selector.gif)
+![misspelling on css selector](https://storage.googleapis.com/breathecode-asset-images/misspelling-on-css-selector.gif?raw=true)
 
 > Nota: La clase `blue` se escribió mal con `bluee`, por lo que los estilos no se aplicaron.
 
@@ -66,7 +66,7 @@ Cuando uses la pestaña **elements** de las herramientas de desarrollador, haz c
 
 Si un estilo se ve anulado por otro, ambos se mostrarán, pero uno estará tachado con una línea.
 
-![CSS Specificity war](https://i.imgur.com/Gp7hOvA.png)
+![CSS Specificity war](https://i.imgur.com/Gp7hOvA.png?raw=true)
 
 > Nota: En la imagen de arriba, la regla CSS color se anula dos veces.
 

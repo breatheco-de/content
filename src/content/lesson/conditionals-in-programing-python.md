@@ -32,7 +32,7 @@ else:
     #do something else or do nothing
 ```
   
-![Condicionales](https://github.com/breatheco-de/content/blob/master/src/assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png)
+![Condicionales](https://github.com/breatheco-de/content/blob/master/src/assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png?raw=true)
 
 > :link: Using `switch` is not available in python.
 
@@ -61,7 +61,7 @@ if age == 21:
 
 The previous example was a simple condition, but in real life picking what to wear involves a combination of several conditions to make the final decision, for example: Let's look at this algorithm that tells you if you have the flu
 
-![Hit by car or have a flu](https://github.com/breatheco-de/content/blob/master/src/assets/images/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800.jpeg)
+![Hit by car or have a flu](https://github.com/breatheco-de/content/blob/master/src/assets/images/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800.jpeg?raw=true)
 
 If you want to represent this algorithm in Python, it will look something like this:
 
@@ -174,7 +174,7 @@ It's all about what question to ask. The previous example was a simple condition
 
 This will be the algorithm to pick what to wear on Valentine's Day:
 
-![What to ware in valentine's day](https://github.com/breatheco-de/content/blob/master/src/assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg)
+![What to ware in valentine's day](https://github.com/breatheco-de/content/blob/master/src/assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg?raw=true)
 
 ```python
 if going_out:

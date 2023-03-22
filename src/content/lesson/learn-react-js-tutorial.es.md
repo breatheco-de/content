@@ -93,7 +93,7 @@ function MyComponent(){
 
 Ahora digamos que queremos que este componente devuelva una **Bootstrap card:** cada vez que lo llamemos. 
 
-![learn react js tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/73edbb82-467c-4522-af7d-79c33bb270e2.png)
+![learn react js tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/73edbb82-467c-4522-af7d-79c33bb270e2.png?raw=true)
 
 Así es como lo hacemos en una app React
 
@@ -257,7 +257,7 @@ Esos componentes que sirven para sostener el layout o diseño de tus páginas we
 
 Cada componente tendrá método de renderizado. El documento HTML resultante, estará compuesto por la combinación de todos las salidas que todos los componentes tienen en sus métodos de renderizado. Échale un vistazo a la siguiente imagen para tener una idea.
 
-![learn react js tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/6c7d3747-482a-480d-b5be-fdbf095292f3.png)
+![learn react js tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/6c7d3747-482a-480d-b5be-fdbf095292f3.png?raw=true)
 
 ## El Ejemplo de YouTube.com
 
@@ -317,7 +317,7 @@ Un componente real de alta calidad sólo debe comunicarse con otros componentes 
 
 Cada componente funciona como una mini aplicación. Puedes controlar y definir el flujo de trabajo de sus componentes en función de una serie de métodos disponibles que puede declarar y codificar de acuerdo con sus necesidades.
 
-![tutorial react js](https://github.com/breatheco-de/content/blob/master/src/assets/images/245ba798-e840-42d8-8391-7388159ccfeb.png)
+![tutorial react js](https://github.com/breatheco-de/content/blob/master/src/assets/images/245ba798-e840-42d8-8391-7388159ccfeb.png?raw=true)
 
 > 🔗 [Aquí encontrarás](https://reactjs.org/docs/react-component.html#the-component-lifecycle) una explicación más detallada de cada método de ciclo de vida disponible.
 

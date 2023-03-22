@@ -55,7 +55,7 @@ En Mac, abre el código fuente presionando simultáneamente las teclas `⌥ Opti
 
 Todos los principales navegadores tienen herramientas de desarrollo, la primera pestaña en las herramientas de desarrollo se llama "inspector" y contiene -casi- todo lo que necesitas para solucionar tus errores.
 
-![html code inspector](https://i.imgur.com/Fca0Hkm.gif)
+![html code inspector](https://i.imgur.com/Fca0Hkm.gif?raw=true)
 
 El inspector de herramientas de desarrollo muestra una `versión en vivo` de tu código en lugar de tu código fuente original. Esta "versión en vivo" se llama "DOM". Es lo que el navegador pudo interpretar de tu código. Estos son algunos casos que hacen que el inspector sea excelente:
 
@@ -87,7 +87,7 @@ El editor de código podría resaltar todo el bloque de código que sigue al tag
 También puedes ver el error en el terminal si usas complementos como [prettier](https://prettier.io/).
 Si haces clic en un tag de apertura, el editor también resaltará el tag de cierre.
 
-![cómo aparecen los errores de tags no cerrados](https://i.imgur.com/oJEe61z.png)
+![cómo aparecen los errores de tags no cerrados](https://i.imgur.com/oJEe61z.png?raw=true)
 
 ### Tags sin comillas
 
@@ -96,7 +96,7 @@ Desafortunadamente, a veces cometemos errores al abrir o cerrar esos tags.
 
 Para encontrar esos errores: la mejor herramienta es el resaltador de sintaxis. Mostrará un color extraño; mira esta imagen para una mejor comprensión.
 
-![cómo se ven las comillas faltantes en tu resaltador de sintaxis](https://i.imgur.com/JzNqq1W.png)
+![cómo se ven las comillas faltantes en tu resaltador de sintaxis](https://i.imgur.com/JzNqq1W.png?raw=true)
 
 ### Mala URL de tag `<link>` o `<script>`
 
@@ -106,6 +106,6 @@ Cuando vinculas tu HTML a una hoja de estilos CSS o un script Javascript separad
 
 ¿Cómo sabes que tu tag de enlace está mal? La consola del inspector de herramientas de desarrollo mostrará un error 404 como este (mira la imagen a continuación):
 
-![error al cargar la hoja de estilos en tu sitio web](https://storage.googleapis.com/breathecode-asset-images/ec4a60f3823464d8fcb8a861b8bf3c786a65015e6ce66f63d17ff11bb161c0a3.png)
+![error al cargar la hoja de estilos en tu sitio web](https://storage.googleapis.com/breathecode-asset-images/ec4a60f3823464d8fcb8a861b8bf3c786a65015e6ce66f63d17ff11bb161c0a3.png?raw=true)
 
 > **Nota**: Muestra la URL que usó para recuperar tu hoja de estilos; verifica que la URL esté bien.

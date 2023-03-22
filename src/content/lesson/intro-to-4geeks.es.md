@@ -31,7 +31,7 @@ Durante los años que han pasado hemos identificado razones específicas por la 
 
 #### Pared #1: Confianza ❓ (Síndrome del impostor)
 
-![Síndrome del Impostor](https://github.com/breatheco-de/content/blob/master/src/assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png)
+![Síndrome del Impostor](https://github.com/breatheco-de/content/blob/master/src/assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png?raw=true)
 
 En algún momento de nuestras vidas (en alguno más que otros) podemos haber pensado que no somos la persona más lista de una sala. Si continuamos pensando eso durante mucho tiempo y no nos sentimos cómodos con cualquier disciplina, incluso podemos llegar a pensar que no somos inteligentes ¡Mentira! ¡Nada que ver! Eres parte de esta academia, no aceptamos personas que no creemos que sean lo suficientemente inteligentes como para ganarse la vida como desarrolladores. ¡Tienes que creer eso, especialmente en tiempos difíciles!
 
@@ -89,8 +89,8 @@ Asegúrate de entender bien cómo funciona la academia:
 
 ## Mejores prácticas mientras aprendes a programar
 
-| **No leas (demasiado):** Programar es como un deporte, la mejor forma de mejorar es practicando. Aprender haciendo. |     ![Es práctica](https://github.com/breatheco-de/content/blob/master/src/assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg) |
+| **No leas (demasiado):** Programar es como un deporte, la mejor forma de mejorar es practicando. Aprender haciendo. |     ![Es práctica](https://github.com/breatheco-de/content/blob/master/src/assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg?raw=true) |
 | ---   | ----      |
-| **Duerme:** Dormir bien es tan importante como ir a clases, la programación es 100% intelectual, tener una mente fresca lo es todo. | ![Duerme](https://github.com/breatheco-de/content/blob/master/src/assets/images/d29be460-cc2e-42e6-bf92-f9516fd7b21a.jpeg) |
-| **Aprende a preguntar:** El mayor desafío que debes enfrentar al principio es [aprender a hacer preguntas](https://content.breatheco.de/how-to/ask), escoger las palabras adecuadas. Saber exactamente qué necesitas saber es la mejor habilidad para cualquier desarrollador/a. | ![Aprende a preguntar](https://github.com/breatheco-de/content/blob/master/src/assets/images/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c.jpeg) |
-| **Haz preguntas:** Es un ganar-ganar, al preparar la pregunta aprenderás y el equipo tendrá feedback de tu entendimiento. Es el mejor incentivo para tu proceso de aprendizaje. Es para lo que estás pagando. | ![Haz preguntas](https://github.com/breatheco-de/content/blob/master/src/assets/images/5e975e91-1447-4117-b50b-b00df99a88a5.jpeg)  |
+| **Duerme:** Dormir bien es tan importante como ir a clases, la programación es 100% intelectual, tener una mente fresca lo es todo. | ![Duerme](https://github.com/breatheco-de/content/blob/master/src/assets/images/d29be460-cc2e-42e6-bf92-f9516fd7b21a.jpeg?raw=true) |
+| **Aprende a preguntar:** El mayor desafío que debes enfrentar al principio es [aprender a hacer preguntas](https://content.breatheco.de/how-to/ask), escoger las palabras adecuadas. Saber exactamente qué necesitas saber es la mejor habilidad para cualquier desarrollador/a. | ![Aprende a preguntar](https://github.com/breatheco-de/content/blob/master/src/assets/images/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c.jpeg?raw=true) |
+| **Haz preguntas:** Es un ganar-ganar, al preparar la pregunta aprenderás y el equipo tendrá feedback de tu entendimiento. Es el mejor incentivo para tu proceso de aprendizaje. Es para lo que estás pagando. | ![Haz preguntas](https://github.com/breatheco-de/content/blob/master/src/assets/images/5e975e91-1447-4117-b50b-b00df99a88a5.jpeg?raw=true)  |

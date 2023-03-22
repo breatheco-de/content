@@ -30,7 +30,7 @@ Para el resto de nosotros que creamos aplicaciones web reales, necesitamos conec
 
 Por ejemplo, necesitamos las siguientes URL de aplicación para que coincidan con los siguientes componentes:
 
-![react router](https://github.com/breatheco-de/content/blob/master/src/assets/images/6fd2b44b-598b-4ddb-85ba-9c32b086127f.png)
+![react router](https://github.com/breatheco-de/content/blob/master/src/assets/images/6fd2b44b-598b-4ddb-85ba-9c32b086127f.png?raw=true)
 
 ## Definiendo tus Rutas de Aplicación
 
@@ -42,13 +42,13 @@ Por ejemplo, necesitamos las siguientes URL de aplicación para que coincidan co
 
 El resto de las páginas dependen de tu aplicación y de cómo quieres que los usuarios naveguen por tu sitio.
 
-![react router](https://github.com/breatheco-de/content/blob/master/src/assets/images/205cd2de-dfae-4712-a5e4-1c922994e60d.png)
+![react router](https://github.com/breatheco-de/content/blob/master/src/assets/images/205cd2de-dfae-4712-a5e4-1c922994e60d.png?raw=true)
 
 ## Mapeando tus Vistas a URLs
 
 Este es el mapa del sitio para cualquier sitio web de comercio electrónico típico:
 
-![react router](https://github.com/breatheco-de/content/blob/master/src/assets/images/9021be43-57ae-4667-8c1a-435b8521ce59.png)
+![react router](https://github.com/breatheco-de/content/blob/master/src/assets/images/9021be43-57ae-4667-8c1a-435b8521ce59.png?raw=true)
 
 ## Codificando tus Rutas de Aplicación
 

@@ -31,7 +31,7 @@ During the past years we have identified specific reasons that cause students to
 
 #### Wall #1: Confidence ❓ (Impostor syndrome)
 
-![Impostor Syndrome](https://storage.googleapis.com/breathecode-asset-images/1977c52fc0ca45e6b8963a795a8148ba5165dc1f2b9b869a04aa5bb71f50b37e.png)
+![Impostor Syndrome](https://storage.googleapis.com/breathecode-asset-images/1977c52fc0ca45e6b8963a795a8148ba5165dc1f2b9b869a04aa5bb71f50b37e.png?raw=true)
 
 At some point in our lives (some more than others) we all have thought we were the dumbest person in a room. If we keep thinking like that for a long time and we don't get comfortable with any discipline, we may even think that we are not that smart. Not at all! That's a lie! You are a part of this school, we do not accept people that we don't think are smart enough to make a living as a developer. You need to believe that, especially in tough times!
 

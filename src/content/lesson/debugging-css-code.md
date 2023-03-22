@@ -19,13 +19,13 @@ The Developer Tool: It has two sections that you need to learn and use pretty we
 
 Shows the HTML tag in your website and which selectors it has. You can look at the class or ID attributes on each tag.
 
-![The elements tab on the developer tools website inspector](https://i.imgur.com/oJoH8C3.png)
+![The elements tab on the developer tools website inspector](https://i.imgur.com/oJoH8C3.png?raw=true)
 
 ### b) The `Styles` tab within the `elements` tab
 
 If you click on one of the tags, the "`styles`" tab will show which styles are being applied to it.
 
-![Styles tab inside the developer tools website inspector](https://i.imgur.com/UM926NI.png)
+![Styles tab inside the developer tools website inspector](https://i.imgur.com/UM926NI.png?raw=true)
 
 ## Most difficult errors to find and debug
 These are some of the most difficult errors to debug:
@@ -55,7 +55,7 @@ Use the developer tools **elements tab** and look for the tag you want to review
 
 If you don't see your CSS Style, it's probably because of a misspelling or a flawed selector logic. Here is an example in the image below:
 
-![misspelling on css selector](https://storage.googleapis.com/breathecode-asset-images/misspelling-on-css-selector.gif)
+![misspelling on css selector](https://storage.googleapis.com/breathecode-asset-images/misspelling-on-css-selector.gif?raw=true)
 
 > Note: The class `blue` was misspelled with `bluee`, so the styles were not being applied.
 
@@ -65,7 +65,7 @@ When using the **elements tab** on the developer tools, click on any element, an
 
 If one style is being overridden by another, they will both show, but one will be crossed over with a line.
 
-![CSS Specificity war](https://storage.googleapis.com/breathecode-asset-images/5ee0ed4c5601a9e40b006ae708a405ff48511b3423449968a029ee5a56fe8777.png)
+![CSS Specificity war](https://storage.googleapis.com/breathecode-asset-images/5ee0ed4c5601a9e40b006ae708a405ff48511b3423449968a029ee5a56fe8777.png?raw=true)
 
 > Note: In the image above, the `color` CSS rule is being overridden twice.
 

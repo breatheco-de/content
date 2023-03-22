@@ -30,7 +30,7 @@ For the rest of us building real web applications, we need to connect several vi
 
 For example, we need the following application URLs to match the following components:
 
-![react router](https://github.com/breatheco-de/content/blob/master/src/assets/images/6fd2b44b-598b-4ddb-85ba-9c32b086127f.png)
+![react router](https://github.com/breatheco-de/content/blob/master/src/assets/images/6fd2b44b-598b-4ddb-85ba-9c32b086127f.png?raw=true)
 
 ## Defining your Application Routes
 
@@ -42,13 +42,13 @@ What pages/views do you want your app to have? You can always start with the bas
 
 The rest of the pages depend on your application and on how you want your users to navigate through your site.
 
-![react router](https://github.com/breatheco-de/content/blob/master/src/assets/images/205cd2de-dfae-4712-a5e4-1c922994e60d.png)
+![react router](https://github.com/breatheco-de/content/blob/master/src/assets/images/205cd2de-dfae-4712-a5e4-1c922994e60d.png?raw=true)
 
 ## Mapping your Views to URLs
 
 This is the sitemap for any typical e-commerce website:
 
-![react router](https://github.com/breatheco-de/content/blob/master/src/assets/images/9021be43-57ae-4667-8c1a-435b8521ce59.png)
+![react router](https://github.com/breatheco-de/content/blob/master/src/assets/images/9021be43-57ae-4667-8c1a-435b8521ce59.png?raw=true)
 
 ## Coding your Application Routes
 

@@ -21,7 +21,7 @@ Los programadores junior entienden los trucos básicos de programar (for, while,
 
 En lugar de desarrollar una gran aplicación, desarrollarás y entregarás una serie de pequeñas aplicaciones que al final se convertirán en una gran aplicación.  Eso es lo que se llama desarrollo ágil.
 
-![agile development](https://storage.googleapis.com/breathecode-asset-images/21303b761de82935e371474a87d17b3f2ebff44ca7fbc1df7c3184e88a8f7033.jpeg)
+![agile development](https://storage.googleapis.com/breathecode-asset-images/21303b761de82935e371474a87d17b3f2ebff44ca7fbc1df7c3184e88a8f7033.jpeg?raw=true)
 
 Cada incremento se llama "sprint" y tiene los siguientes pasos:
 
@@ -49,7 +49,7 @@ Borra de tu mente el flujo de trabajo de desarrollo de cualquier sitio web que h
 ## Nuestro flujo de trabajo desarrollado profesionalmente
 
 
-![agile development](https://storage.googleapis.com/breathecode-asset-images/52403a0c564fb58c8fc2ccf226950a3359d1f3e01153e1ed7c51b7337af7178f.png)
+![agile development](https://storage.googleapis.com/breathecode-asset-images/52403a0c564fb58c8fc2ccf226950a3359d1f3e01153e1ed7c51b7337af7178f.png?raw=true)
 
 |1. Comenzaremos a hacer las especificaciones.     |2. Construimos nuestra aplicación web      |3. Finalmente construimos la base de datos y la API.  |
 |:------------------|:--------------|:-----------------|

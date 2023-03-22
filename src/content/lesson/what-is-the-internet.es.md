@@ -28,7 +28,7 @@ Por esta razón buscaron hacer algo que se asemejara lo más posible a un docume
 > rígidas y formales que hoy vemos como documentos interactivos, emocionantes y espectaculares.
 
 
-![What is the internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/ffe440de-8746-4ab5-81cc-37ef107155e9.jpeg)
+![What is the internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/ffe440de-8746-4ab5-81cc-37ef107155e9.jpeg?raw=true)
 
 
 ## Todo es texto (HTTP)
@@ -44,7 +44,7 @@ Lo que esto quiere decir es que: **todo es texto**. Pues sí, si quieres enviarl
 + Tu abuela hace doble clic en la foto y el programa que está usando para ver la foto transforma ese texto nuevamente en una imagen comprensible para un humano.
 
 
-![what is the internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif)
+![what is the internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif?raw=true)
   
 <small style="color:grey">Imagen 1: Los 4 pasos necesarios para enviar imágenes a través de Internet: primero se convierte en texto, luego viaja, luego llega a la computadora de la abuela, la abuela abre la imagen y la imagen se muestra... ¡finalmente, la abuela está feliz mirando a su nieto! </small>
 
@@ -98,7 +98,7 @@ Entonces, ¿qué hace el servidor?
 + **Eficiencia:** a veces, los clientes tienen demandas que son muy difíciles de resolver, incluso si se trata de un solo cliente. Imagina por un segundo que está utilizando Google Maps para averiguar cuánto tiempo se tarda en viajar de Caracas a Santiago de Chile. El servidor debe verificar los datos de tráfico, las rutas, los accidentes y ejecutar algún tipo de algoritmo para obtener el tiempo estimado de llegada (ETA). Incluso si el resultado es una simple cadena de caracteres como "dos días, 2 horas y 30 minutos", el servidor tuvo que hacer miles de cálculos para llegar a esa conclusión.
 Entonces… resumamos:
 
-![what is the internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/57821cbc-5ba0-4e1c-9b90-7f1df7c637fa.gif)
+![what is the internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/57821cbc-5ba0-4e1c-9b90-7f1df7c637fa.gif?raw=true)
 
  
 | El Servidor   |      El Cliente       |
