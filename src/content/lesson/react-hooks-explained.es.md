@@ -251,7 +251,7 @@ const MyComponent = () => {
 ## Construyendo una lista Todo usando solo los hooks `useState` y `useEffect`
 
 <p align="center">
-    <img src="../../assets/images/41f4a2be-380f-47af-acab-d479acf80921todolisthooks.gif">
+    <img src="https://github.com/breatheco-de/content/blob/master/src/assets/images/41f4a2be-380f-47af-acab-d479acf80921todolisthooks.gif?raw=true">
 </p>
 
 Por ejemplo, supongamos que estoy creando una lista de tareas (Todo) y tengo que cargar la lista de tareas desde una API. Tendré que buscar la información justo después de que el componente se renderice por primera vez:
