@@ -234,7 +234,7 @@ Supongamos que tiene un [sitio web de una página](https://onepagelove.com/what-
 
 ```jsx 
 
-export function EntireWebsiteLayout (){
+export class EntireWebsiteLayout extends React.Component{
     
     render(){
         return (
