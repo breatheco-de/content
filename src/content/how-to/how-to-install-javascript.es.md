@@ -19,16 +19,16 @@ NodeJs es el entorno de ejecución para JavaScript que se utiliza tanto para el 
 
 ## Instalar NodeJs
 
-El primer paso para añadir NodeJs en nuestro sistema sería acceder a [este link](https://nodejs.org/es/download "este link") y seleccionar el Sistema Operativo para comenzar la descarga
+El primer paso para añadir NodeJs en nuestro sistema sería acceder a [este link](https://nodejs.org/es/download) y seleccionar el Sistema Operativo para comenzar la descarga
 
-![](https://i.imgur.com/8eIqVlp.png)
+![Instalar NodeJS](https://i.imgur.com/8eIqVlp.png)
 
 ### Windows
 
 Para completar la instalación en Windows, deberás seguir los pasos descritos en el instalador. No requiere ninguna configuración mientras se está instalando, así que será "siguiente", "siguiente", "siguiente", "terminar".
 
 Para verificar que se ha instalado correctamente:
-- Accedemos al CMD (buscar en las aplicaciones CMD o apretar `win` + `r` y escribir `cmd` )
+- Accedemos a la línea de comandos (buscar en las aplicaciones CMD o apretar `win` + `r` y escribir `cmd` )
 - escribir `node --version`
 
 De haberse instalado correctamente, debería de aparecernos una respuesta parecida a la que se muestra a continuación.
@@ -39,7 +39,7 @@ v18.15.0
 
 ### MacOS
 
-#### Instalando NodeJs mediante descarga desde NodeJs.org
+#### Instalando NodeJs mediante descarga desde nodejs.org
 
 Una vez accedemos a la zona de descarga (el link mas arriba), seleccionamos `Instalador MacOs` y lo descargamos.
 
@@ -49,7 +49,7 @@ Debido a que no requiere ningún tipo de modificación mientras se instala, solo
 
 Si deseas realizar la instalación desde la terminal, podrías hacerlo mediante el manejador de paquetes **homebrew**.
 
-Para realizar de instalación deberemos de escribir en la terminal 
+Para realizar la instalación debemos ejecutar el siguiente comando en la terminalÑ 
 
 ```bash
 brew install node
@@ -71,12 +71,11 @@ v18.15.0
 
 ### Linux
 
-Debido a que Linux viene un muchos sabores, hablaremos de como instalar NodeJs en Ubuntu solamente.
+Debido a que Linux viene en muchos sabores, hablaremos de como instalar NodeJs en Ubuntu solamente.
 
 #### Instalar NodeJs con APT
 
 Nota importante: Debido a que estaremos haciendo uso del **súper usuario** para realizar las instalaciones, es muy probable que se le pida la contraseña para completar los pasos.
-
 
 Cada vez que vamos a añadir un nuevo software a nuestro sistema basado en Linux, debemos actualizar nuestros indices de paquetes locales y después podremos instalar el paquete que deseamos, en este caso `nodejs`.
 
@@ -86,7 +85,7 @@ sudo apt upgrade
 sudo apt install nodejs
 ```
 
-Deberemos de instalar **npm** (Node Package Manager) para manejar los paquetes de NodeJs, ya que no viene incluida en la versión descrita.
+Debemos de instalar **npm** (Node Package Manager) para manejar los paquetes de NodeJs, ya que no viene incluida en la versión descrita.
 
 ```bash
 sudo apt install npm
@@ -116,7 +115,7 @@ Ahora estamos listos para añadir el repositorio de NodeJs, recuerda cambiar `se
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 ```
 
-Una vez que se haya añadido el repositorio de nuestra elección, deberemos de proceder a instalar.
+Una vez que se haya añadido el repositorio de nuestra elección, debemos de proceder a instalar.
 
 ```bash
 sudo apt-get install nodejs
@@ -152,7 +151,7 @@ Este será el código js que estará en nuestro archivo app.js:
 console.log("I can run now outside of the browser!")
 ```
 
-Para ejecutar este código, deberemos de abrir la terminal o CMD (si estás utilizando Windows) y escribir `node` y seguido donde se encuentra nuestro archivo js que queremos ejecutar.
+Para ejecutar este código, debemos de abrir la terminal o CMD (si estás utilizando Windows) y escribir `node` y seguido donde se encuentra nuestro archivo js que queremos ejecutar.
 
 **Ejemplo** supongamos que tenemos nuestro archivo app.js en la unidad `C:` carpeta `test`
 
