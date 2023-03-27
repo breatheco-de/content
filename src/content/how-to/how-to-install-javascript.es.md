@@ -8,8 +8,7 @@ status: "draft"
 
 ---
 
-
-Debido a que JavaScript es un lenguaje que se ejecuta principalmente en los navegadores (Chrome, Mozilla, Edge, etc), si queremos instalarlo en el sistema, tenemos que instalar NodeJs.
+[Aprender a programar con Javascript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) es una excelente opción para aquellos que desean iniciarse en el mundo de la programación web. Javascript es un lenguaje de programación versátil y muy utilizado, lo que lo convierte en una herramienta muy valiosa para cualquier desarrollador web. Si llegaste hasta aquí y todavía no conoces en detalle Javascript te invito a leer esta guía sobre [qué es Javascript](https://) y esta otra para que aprendas [para qué sirve Javascript](https://). Debido a que JavaScript es un lenguaje que se ejecuta principalmente en los navegadores (Chrome, Mozilla, Edge, etc), si queremos instalarlo en el sistema, tenemos que instalar NodeJs.
 
 ![NodeJs](https://i.imgur.com/zPghTHs.png "NodeJs")
 
@@ -139,7 +138,7 @@ De haberse instalado correctamente, se mostrará la siguiente información, para
 ```bash
 whereis node
 whereis npm
-``
+```
 Con estos comandos conoceremos donde están instalados los paquetes.
 
 ## Ejecutar JavaScript
@@ -168,4 +167,4 @@ De haberse pasado la dirección correcta donde se encuentra el archivo, se mostr
 I can run now outside of the browser!
 ```
 
-Hope you enjoyed the reading and keep on the Geeks side!
+Puedes leer contenido relacionado y mucho mas en el blog de [4Geeks](www.4geeks.com).
