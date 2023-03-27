@@ -3,7 +3,6 @@ title: "¿Para qué sirve Python?"
 subtitle: "Python se ha vuelto cada vez más popular y se usa en numerosas ramas de nuestra vida diaria. Algunas de las ramas son Aprendizaje automático, Ciencia de datos, Medicina, Introducción a la programación, entre una larga lista de otras."
 tags: ["python"]
 authors: ["javierseiglie"]
-status: "draft"
 
 ---
 
