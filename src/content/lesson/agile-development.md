@@ -37,7 +37,7 @@ Junior developers are comfortable looping and using conditionals (if, else).
 ## The Web Applications are just another type of Apps…
 
 
-Erase from your mind any website development workflow that you’ve learned on your own.   Creating web applications requires its own professional development workflow that needs to be learn and followed.  Web applications are not the same as websites – even though they are built using the same languages.  Actually, web applications have more in common with mobile or desktop applications than with websites:
+Erase from your mind any website development workflow that you’ve learned on your own.   Creating web applications requires its own professional development workflow that needs to be learn and followed.  Web applications are not the same as websites – even though they are built using the same languages.  Actually, web applications have more in common with mobile or desktop applications than with actual websites:
 
 + Web applications are compressed into a single executable file.
 + They need to be installed or imported.
