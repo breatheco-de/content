@@ -67,13 +67,13 @@ unique_hash = hash_function(value)
 
 Explicación: la función `hash_function` siempre devolverá exactamente el mismo `unique_hash` si se da el mismo valor, echa un vistazo a esta demostración, empieza a escribir en la entrada:
 
+<!--hide-->
 <iframe src="https://full-stack-assets.breatheco.de/live-demos/security/hashing/" height="300" title="Hashing functions example"></iframe>
+<!--endhide-->
 
 Nota: Hay varias funciones de hashing populares: MD5, Sha1, Sha256, Sha256, etc. 
 
 #### ¿Qué es lo que hace que las funciones hash sean tan geniales?
-
-
 
 Las funciones hashing se han convertido en la mejor forma de generar tokens en el mundo de la seguridad porque
 
