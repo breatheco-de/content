@@ -69,7 +69,7 @@ At the beginning, a project always has one commit object with no parents. This i
 
 ## A Head Object is a List of Commits
 
-The heads of the repository are like the "revision history of the project." A revision history is a list of commit objects that altogether contains all the changes that you and your other team members have made to the project files.
+The Heads of the repository are like the "revision history of the project." A revision history is a list of commit objects that altogether contains all the changes that you and your other team members have made to the project files.
 
 Every time you make a new commit, the head will move to that new commit. This way, you are able to have access to the entire project history of commits.
 
