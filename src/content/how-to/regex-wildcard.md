@@ -30,7 +30,7 @@ If you ever played cards, and I'm sure you have, then you've stumbled with the j
 
 The **wildcard** symbol is the dot `.`. Each dot will represent a new character.
 
-For what are used these **wildcards**? Simple! Let's say, you received a list of urls and you want to display only the ones that have a correct structure. 
+For what are used these **wildcards**? Simple! Let's say, you received a list of URLs and you want to display only the ones that have a correct structure. 
 
 Let's understand how a url is composed using as example `https:\\www.4geeks.com`:
 
