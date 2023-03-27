@@ -4,19 +4,18 @@ subtitle: "Every good web developer needs to run Javacript on it's developing ma
 tags: ["javascript", "nodejs", "install", "windows", "macos", "linux"]
 date: "2023-03-27T16:36:30+00:00"
 authors: ["Javier Seiglie"]
-status: "draft"
 
 ---
 
-[Aprender a programar con Javascript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) es una excelente opción para aquellos que desean iniciarse en el mundo de la programación web. Javascript es un lenguaje de programación versátil y muy utilizado, lo que lo convierte en una herramienta muy valiosa para cualquier desarrollador web. Si llegaste hasta aquí y todavía no conoces en detalle Javascript te invito a leer esta guía sobre [qué es Javascript](https://) y esta otra para que aprendas [para qué sirve Javascript](https://). Debido a que JavaScript es un lenguaje que se ejecuta principalmente en los navegadores (Chrome, Mozilla, Edge, etc), si queremos instalarlo en el sistema, tenemos que instalar NodeJs.
+[Aprender a programar con Javascript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) es una excelente opción para aquellos que desean iniciarse en el mundo de la programación web. Javascript es un lenguaje de programación versátil y muy utilizado, lo que lo convierte en una herramienta muy valiosa para cualquier desarrollador web. Si llegaste hasta aquí y todavía no conoces en detalle Javascript te invito a leer esta guía relacionado a [para qué sirve Javascript](https://). Debido a que JavaScript es un lenguaje que se ejecuta principalmente en los navegadores (Chrome, Mozilla, Edge, etc), si queremos usarlo en el sistema, debemos instalar NodeJS.
 
 ![NodeJs](https://i.imgur.com/zPghTHs.png "NodeJs")
 
 ## ¿Qué es NodeJs?
 
-Cuando hablamos de instalar JavaScript en nuestro sistema, lo que estamos diciendo es que queremos instalar el entorno que nos permite desarrollar en JavaScript y justo ahí es donde nos encontramos con NodeJs.
+Cuando hablamos de instalar JavaScript en nuestro sistema, nos referimos a instalar el entorno que nos permite desarrollar en JavaScript y justo ahí es donde nos encontramos con NodeJs.
 
-NodeJs es el entorno de ejecución para JavaScript que se utiliza tanto para el desarrollo de aplicaciones web de front como el back. Fue creado con la versión 8 del motor que utiliza Chrome para procesar código JavaScript (recordemos que este lenguaje está diseñado para ser ejecutado en navegadores). 
+NodeJs es el entorno de ejecución para JavaScript que se utiliza tanto para el desarrollo de aplicaciones web de [Front End](https://4geeks.com/es/lesson/what-is-front-end-development-es) como de [Back End](https://4geeks.com/es/lesson/backend-developer-es). Fue creado con la versión 8 del motor que utiliza Chrome para procesar código JavaScript (recordemos que este lenguaje está diseñado para ser ejecutado en navegadores). 
 
 ## Instalar NodeJs
 
