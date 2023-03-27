@@ -1,6 +1,6 @@
 ---
 title: "¿Para que sirve Javascript?"
-subtitle: "JavaScript ha estado sentado en el trono de las aplicaciones web desde que se creó, pero ese no es el único uso que podemos darle a este gran lenguaje. JavaScript también se puede usar para desarrollar aplicaciones móviles en Android e IOS, videojuegos, VR, AR y mucho más."
+subtitle: "Descubre para qué sirve Javascript y cómo este lenguaje de programación es esencial para crear páginas web interactivas. ¡Aprende más aquí!"
 tags: ["javascript"]
 authors: ["javierseiglie"]
 
