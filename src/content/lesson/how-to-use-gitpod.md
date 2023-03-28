@@ -45,7 +45,7 @@ We recognize the tradeoffs, but our students and the academy get so much value f
 - Finally, it will open a coding editor (probably VSCode, the most used coding IDE in the world) and a terminal to start coding as if the workspace was on your local computer in the first place.  
 - If you go back to [your workspaces](https://gitpod.io/workspaces), you will find all the computers you have created and be able to `re-open them`. Changes you made to the files will stay forever, you will not lose any data as long as you RE-OPEN the same workspace you were working on in the first place.  
 
-![How gitpod works](https://storage.googleapis.com/breathecode-asset-images/ff8575efe4b9bddbb3f3addc51e4e9769c53fe871bf2d168caac48df4f8b992c.jpeg?raw=true)
+![How gitpod works](https://storage.googleapis.com/breathecode-asset-images/ff8575efe4b9bddbb3f3addc51e4e9769c53fe871bf2d168caac48df4f8b992c.jpeg)
 
 #### What is a workspace?
 
@@ -58,7 +58,7 @@ It's a computer; all the updates you make to your code will stay on the same wor
 We strongly recommend downloading the [Gitpod Chrome Extension](https://www.gitpod.io/docs/browser-extension/). It will make your workflow easier and faster.
 
 Once you download and install the extension, you will find a green button called "Gitpod" on every GitHub repository.
-![Gitpod button](https://storage.googleapis.com/breathecode-asset-images/15d7c805161244a5a38d7bbf82fb8d355073ad7ac195088a453fba5777c3ef99.png?raw=true)
+![Gitpod button](https://storage.googleapis.com/breathecode-asset-images/15d7c805161244a5a38d7bbf82fb8d355073ad7ac195088a453fba5777c3ef99.png)
 
 Pressing on this button will open the repository files on a new workspace, and you will be able to start coding on VSCode.
 
@@ -69,7 +69,7 @@ Once you finish for the day, you can abandon your computer. However, if you want
 
 As a coder, you need to use the computer terminal sometimes; you can always find or open the terminal by clicking on the hamburger menu on the top left and selecting the "terminal" => "new terminal" option.
 
-![Gitpod button](https://storage.googleapis.com/breathecode-asset-images/62a6f61382443c1863a7e20a4b550e2d62216781cff482e3685dfd87f14252a1.png?raw=true)
+![Gitpod button](https://github.com/breatheco-de/content/blob/master/src/assets/images/terminal.png?raw=true)
 
 ### What is the terminal or command line?
 
@@ -77,6 +77,6 @@ Every computer has a terminal, and you can use it to do almost everything you wa
 
 You don't have to learn the terminal commands yet, but [we strongly recommend reading this lesson](https://content.breatheco.de/en/lesson/the-command-line-the-terminal) to get familiar with it and understand its functions and limitations.
 
-![terminal command](https://storage.googleapis.com/breathecode-asset-images/e7094b073128ec4ae46e3fd9568cbb7c85d860ef7bd28375fdd5a06041d22e2c.png?raw=true)
+![terminal command](https://github.com/breatheco-de/content/blob/master/src/assets/images/terminal-command.png?raw=true)
 
 That is it! It's time to start using Gitpod!
