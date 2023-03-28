@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-> :point_up:  Windows users don't use the same terminal commands but you should learn and practice them anyway because they are heavily used when publishing your apps on any web hosting, Gitpod, Codespaces, Cloud9, etc. You can use [Git SCM](https://git-scm.com/downloads) to create a similar terminal on your computer.
+> :point_up:  Windows users don't use the same terminal commands, but you should learn and practice them anyway because they are heavily used when publishing your apps on any web hosting, Gitpod, Codespaces, Cloud9, etc. You can use [Git SCM](https://git-scm.com/downloads) to create a similar terminal on your computer.
 
 ## Why do Developers love the Command Line?
 
@@ -67,7 +67,7 @@ The ls command is used for listing all the files and directories that form the c
 
 ```bash
 ls -l ./applications
-#shows the files and folder inside "applications" 
+#shows the files and folders inside "applications" 
 #the -l is for asking more detailed output information on the files.
 ```
 
@@ -185,7 +185,7 @@ When working with the command line, sometimes you will have to open a file to re
 ```bash
 nano path/to/the/textfile.txt
 #opens a text editor to start editing the content of textfile.txt 
-#if textfile.txt does not exist it will create it!
+#if textfile.txt does not exist, it will create it!
 ```
 When nano opens, it will show a top bar with the current version of the nano application; the name of the file being edited; and, a status telling you if the files were modified or not.
 
