@@ -25,7 +25,7 @@ Aquí hay un ejemplo de un formulario simple en HTML:
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/L62c4yud/1/embedded/html,result/">Click to open demo in a new window</a></small></div>
 
-La siguiente es una lista de todos los elementos posibles que podemos usar para recibir cualquier entrada o input del usuario:
+La siguiente es una lista de todos los elementos posibles que podemos usar para recibir cualquier entrada o input de los usuarios:
 
 |**Name**   |**Declaration**   |**Description**   |
 |:----------|:-----------------|:-----------------|
