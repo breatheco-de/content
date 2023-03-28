@@ -15,4 +15,4 @@ Check our [Partners page](https://4geeksacademy.notion.site/Partners-Page-Nuestr
 
 - [ ] If you want to be added to our [Talent Pipeline](https://4geeksacademy.notion.site/Talent-Pipeline-1180362c34e048f78cb9deed8085f90d). Please make sure you’ve filled [this form](https://4geeksacademy.notion.site/Talent-Pipeline-Form-Formulario-de-Talent-Pipeline-91a850d9b1e94fa099799ba7d63bf51b). 
 
-> Our Talent pipeline is a database that we are constantly sharing with hiring partners and recruiters. It has helped us connect you to internship and job opportunities.  
+> Our Talent pipeline is a database that we are constantly sharing with hiring partners and recruiters. It has helped us connect you to job opportunities.  
