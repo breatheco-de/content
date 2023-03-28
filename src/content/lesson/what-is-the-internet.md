@@ -1,10 +1,11 @@
 ---
 title: "What is The Internet?"
-subtitle: "What is the internet: Everything you see on the internet is a text document. Everything!! As developers, all we do is generate chunks of text based on a set of criteria. If you understand this simple concept, the sky will be the limit."
+subtitle: "What is the Internet: Everything you see on the Internet is a text document. Everything!! As developers, all we do is generate chunks of text based on a set of criteria. If you understand this simple concept, the sky will be the limit."
 cover_local: "../../assets/images/05a36362-c09f-4961-a7b9-8e3132a902b1.jpeg"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["internet"]
+tags: ["
+"]
 status: "published"
 
 ---
@@ -45,7 +46,7 @@ What this means is that: everything is text.  For example, if you wish to send a
 
 ![what is the internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif?raw=true)
   
-<small style="color:grey">Image 1: The 4 steps needed to send images over the internet: first it turns to text, then it travels, then it arrives at grandma's computer, grandma opens the picture and the picture shows… lastly, grandma is happy looking at her grandson's photo!</small>
+<small style="color:grey">Image 1: The 4 steps needed to send images over the Internet: first it turns to text, then it travels, then it arrives at grandma's computer, grandma opens the picture and the picture shows… lastly, grandma is happy looking at her grandson's photo!</small>
 
 ## But How Do Pictures (and stuff) Travel?
 
@@ -61,7 +62,7 @@ Everything is connected.  The best way to understand this is by comparing it to 
 <iframe width="807" height="453" src="https://www.youtube.com/embed/UiBT3Kj8KBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p style="text-align:center;"><small>
-<strong>Video:</strong> 2 min video explaining how the internet works.
+<strong>Video:</strong> 2 min video explaining how the Internet works.
 </small><p>
 
 ## The Web Browser
