@@ -57,4 +57,4 @@ Make sure to give your own personal style, but in general you can focus on tryin
 
 ### An Example Profile: Dan Abramov
 
-![Dan Abramov Github Profile](https://storage.googleapis.com/breathecode-asset-images/f6113918657d155554bd6e84b66cb092cb0816ab454e470bc3481c716de10497.png?raw=true)
+![Dan Abramov Github Profile](https://raw.githubusercontent.com/breatheco-de/content/master/src/assets/images/b04c5254-086a-4b9f-8b86-0cf95fcc3fcddanabramov.png)
