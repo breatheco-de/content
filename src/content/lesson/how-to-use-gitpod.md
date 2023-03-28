@@ -45,7 +45,7 @@ We recognize the tradeoffs, but our students and the academy get so much value f
 - Finally, it will open a coding editor (probably VSCode, the most used coding IDE in the world) and a terminal to start coding as if the workspace was on your local computer in the first place.  
 - If you go back to [your workspaces](https://gitpod.io/workspaces), you will find all the computers you have created and be able to `re-open them`. Changes you made to the files will stay forever, you will not lose any data as long as you RE-OPEN the same workspace you were working on in the first place.  
 
-![How gitpod works](https://storage.googleapis.com/breathecode-asset-images/ff8575efe4b9bddbb3f3addc51e4e9769c53fe871bf2d168caac48df4f8b992c.jpeg)
+![How gitpod works](https://raw.githubusercontent.com/alesanchezr/content/master/src/assets/images/how-gitpod-works.jpeg)
 
 #### What is a workspace?
 
@@ -58,7 +58,7 @@ It's a computer; all the updates you make to your code will stay on the same wor
 We strongly recommend downloading the [Gitpod Chrome Extension](https://www.gitpod.io/docs/browser-extension/). It will make your workflow easier and faster.
 
 Once you download and install the extension, you will find a green button called "Gitpod" on every GitHub repository.
-![Gitpod button](https://storage.googleapis.com/breathecode-asset-images/15d7c805161244a5a38d7bbf82fb8d355073ad7ac195088a453fba5777c3ef99.png)
+![Gitpod button](https://raw.githubusercontent.com/breatheco-de/content/master/src/assets/images/github-gitpod.png)
 
 Pressing on this button will open the repository files on a new workspace, and you will be able to start coding on VSCode.
 
