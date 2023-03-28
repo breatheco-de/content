@@ -119,7 +119,7 @@ mkdir path/of/new/newdirectoryname
 #crear newdirectoryname dentro de /path/of/new/
 ```
 
-### El comando  `rmdir`
+### El comando rmdir
 
 **El comando eliminar directorio**
 
@@ -133,7 +133,7 @@ rmdir path/of/targetdirectory/mydirectory
 #eliminar mydirectory de "targetdirectory" 
 ```
 
-> :point_up: Sólo eliminará los directorios vacíos, para vaciar todos los archivos del directorio usa el comando rm. Pro-tip: puedes usar `rm`. para borrar todos los archivos dentro de un directorio simultáneamente; utilízalo con precaución.
+> :point_up: Sólo eliminará los directorios vacíos, para vaciar todos los archivos del directorio usa el comando rm. Pro-tip: puedes usar `rm *` para borrar todos los archivos dentro de un directorio simultáneamente; utilízalo con precaución.
 
 ### El comando cp
 
@@ -141,7 +141,7 @@ rmdir path/of/targetdirectory/mydirectory
 
 No confundas este comando con la funcionalidad de copiar del portapapeles, no tiene nada que ver con eso.
 
-* cp * copiará un archivo completo y creará uno nuevo con el nombre que decidas que deba tener.
+`cp` copiará un archivo completo y creará uno nuevo con el nombre que decidas que deba tener.
 
 ```bash
 cp path/to/file.ext path/to/new/file.ext
@@ -166,10 +166,10 @@ find . -name *.mp3
 
 Esto te ayudará a ahorrar tiempo y a cometer menos errores al escribir:
 
-+ Para cancelar un comando que se está ejecutando, presiona `Control` +` C`
++ Para cancelar un comando que se está ejecutando, presiona `ctrl`+`c`
 + Para completar automáticamente el nombre de un archivo o carpeta, usa la tecla `tab`.
 + Para repetir cualquier comando que hayas usado en el pasado, usa la flecha `up`(arriba) y te mostrará cada comando, uno por uno.
-+ Para ir a la carpeta principal del usuario, usa la tecla `~`, así: cd ~
++ Para ir a la carpeta principal del usuario, usa la tecla `~`, así: `cd ~`
 + Usa el comando `clear` para "limpiar" la consola actual (es solo un desplazamiento, pero muy útil)
 
 ## Editando archivos en el terminal:
@@ -189,7 +189,7 @@ nano path/to/the/textfile.txt
 ```
 Cuando nano se abra, verás una barra superior con la versión actual de la aplicación nano, el nombre del archivo que se está editando, y un estado indicándote si los archivos fueron modificados o no.
 
-En la parte inferior, verás los comandos más utilizados para usar nano, tales como: quit, where is, help, etc.
+En la parte inferior, verás los comandos más utilizados para usar nano, tales como: exit, where is, get help, etc.
 
 ![the command line the terminal](https://github.com/breatheco-de/content/blob/master/src/assets/images/6128e9f7-b460-4b10-80e4-34057b7d4df9.png?raw=true)
 
