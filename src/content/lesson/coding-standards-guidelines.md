@@ -87,7 +87,7 @@ When code, some of the errors are hidden to developers unless exceptions are act
 
 Creating code that is easy to read is essential for producing high-quality software that is reliable, maintainable, and easy to modify or update. We have a whole article in [code readability](/lesson/what-is-and-how-to-improve-code-readability) but here is a very short summary of the best practices:
 
-- Choose variable names wisely.
+- Choose variable names wisely &.
 - Split your code into smaller functions.
 - Avoid using else statements.
 - Pay good attention to indentation.
