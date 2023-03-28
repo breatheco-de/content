@@ -19,7 +19,7 @@ Pero ¿por qué les gusta a los desarrolladores? Bueno, la lista es infinita, pe
 
 + Si no dominas la línea de comandos, no podrás usar ninguno de estos: GIT, MySQL, Webpack, Node.js, Grunt, Vagrant, Babel, React, Angular, Apache, etc.
 + Como desarrollador, es lo único que necesitas tener disponible. Las computadoras no vienen con Atom, Sublime text (o cualquier otro IDE de lujo). A veces como los servidores de producción (no puedes instalar nada y **el sistema ni siquiera tiene una interfaz visual**) sólo la línea de comandos.
-+ Es super poderosa. Puedes hacer mucho más en mucho menos tiempo, por ejemplo: eliminar de forma masiva, cambiar el nombre, buscar un archivo, editar un archivo, etc.
++ Es súper poderosa. Puedes hacer mucho más en mucho menos tiempo, por ejemplo: eliminar de forma masiva, cambiar el nombre, buscar un archivo, editar un archivo, etc.
 + Te obliga a usar el teclado. Como no puedes usar el mouse, te hace más rápido. Cometes menos errores y el entorno es exactamente el mismo en todas las computadoras.
 
 ## ¿Cómo Funciona?
