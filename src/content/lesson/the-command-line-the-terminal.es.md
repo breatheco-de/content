@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-> :point_up:  Los usuarios de Windows no tienen la misma línea de comando pero igual deberias aprenderlos ya que son muy utilizados en los servidores cuando publiques tu pagina y en Gitpod, Codespaces, Cloud9, etc. Puedes utilizar [Git SCM](https://git-scm.com/downloads) para probar los comandos.
+> :point_up:  Los usuarios de Windows no tienen la misma línea de comando, pero igual deberías aprenderlos ya que son muy utilizados en los servidores cuando publiques tu página y también en Gitpod, Codespaces, Cloud9, etc. Puedes utilizar [Git SCM](https://git-scm.com/downloads) para probar los comandos.
 
 ## ¿Por qué los Desarrolladores aman la Línea de Comando?
 
@@ -18,8 +18,8 @@ Al principio, todos odiaban la línea de comando. Tras años de experiencia, se 
 Pero ¿por qué les gusta a los desarrolladores? Bueno, la lista es infinita, pero aquí hay algunas razones importantes:
 
 + Si no dominas la línea de comandos, no podrás usar ninguno de estos: GIT, MySQL, Webpack, Node.js, Grunt, Vagrant, Babel, React, Angular, Apache, etc.
-+ Como desarrollador, es lo único que necesitas tener disponible. Las computadoras no vienen con Atom, Sublime text (o cualquier otro IDE de lujo). A veces como los servidores de producción (no puedes instalar nada y **el sistema ni siquiera tiene una interfaz visual**) sólo la línea de comandos.
-+ Es super poderosa. Puedes hacer mucho más en mucho menos tiempo, por ejemplo: eliminar de forma masiva, cambiar el nombre, buscar un archivo, editar un archivo, etc.
++ Como desarrollador, es lo único que necesitas tener disponible. Las computadoras no vienen con Atom, Sublime text (o cualquier otro IDE de lujo). A veces como los servidores de producción (no puedes instalar nada y **el sistema ni siquiera tiene una interfaz visual**) solo la línea de comandos.
++ Es superpoderosa. Puedes hacer mucho más en mucho menos tiempo, por ejemplo: eliminar de forma masiva, cambiar el nombre, buscar un archivo, editar un archivo, etc.
 + Te obliga a usar el teclado. Como no puedes usar el mouse, te hace más rápido. Cometes menos errores y el entorno es exactamente el mismo en todas las computadoras.
 
 ## ¿Cómo Funciona?
@@ -53,7 +53,7 @@ Hay 4 cosas importantes que notar aquí:
 + Puedes usar un punto `.` para referirte a todos los archivos y carpetas en la jerarquía.
 + También puedes usar dos puntos `..` para referirte al directorio padre.
 + Puedes usar la barra diagonal `/` para navegar más hacia abajo en los directorios jerárquicos.
-+ Archivos ocultos: por lo general, un archivo tiene un nombre y una extensión *(filename.extension)*. Si un archivo no tiene nombre y sólo una extensión, estará, por defecto, oculto en la interfaz visual.
++ Archivos ocultos: por lo general, un archivo tiene un nombre y una extensión *(filename.extension)*. Si un archivo no tiene nombre y solo una extensión, estará, por defecto, oculto en la interfaz visual.
 
 ## Comandos para trabajar con el sistema de archivos:
 
@@ -68,7 +68,7 @@ El comando ls se usa para listar todos los archivos y directorios que forman la 
 ```bash
 ls -l ./applications
 # muestra los archivos y carpetas dentro de "applications".
-# El -l es para recibir una información más detallada sobre los archivos.
+# el -l es para recibir una información más detallada sobre los archivos.
 ```
 
 ### El comando cd
@@ -133,7 +133,7 @@ rmdir path/of/targetdirectory/mydirectory
 #eliminar mydirectory de "targetdirectory" 
 ```
 
-> :point_up: Sólo eliminará los directorios vacíos, para vaciar todos los archivos del directorio usa el comando rm. Pro-tip: puedes usar `rm *` para borrar todos los archivos dentro de un directorio simultáneamente; utilízalo con precaución.
+> :point_up: Solo eliminará los directorios vacíos, para vaciar todos los archivos del directorio usa el comando `rm`. Pro-tip: puedes usar `rm *` para borrar todos los archivos dentro de un directorio simultáneamente; utilízalo con precaución.
 
 ### El comando cp
 
@@ -145,7 +145,7 @@ No confundas este comando con la funcionalidad de copiar del portapapeles, no ti
 
 ```bash
 cp path/to/file.ext path/to/new/file.ext
-#Copia file.ext y crea un nuevo file.ext con el mismo contenido.
+#copia file.ext y crea un nuevo file.ext con el mismo contenido.
 ```
 
 ### El comando find
@@ -185,11 +185,11 @@ Cuando trabajes con la línea de comandos, a veces tendrás que abrir un archivo
 ```bash
 nano path/to/the/textfile.txt
 #abre un editor de texto para comenzar a editar el contenido de textfile.txt
-#Si textfile.txt no existe ¡lo creará!
+#si textfile.txt no existe ¡lo creará!
 ```
 Cuando nano se abra, verás una barra superior con la versión actual de la aplicación nano, el nombre del archivo que se está editando, y un estado indicándote si los archivos fueron modificados o no.
 
-En la parte inferior, verás los comandos más utilizados para usar nano, tales como: exit, where is, get help, etc.
+En la parte inferior verás los comandos más utilizados para usar nano, tales como: exit, where is, get help, etc.
 
 ![the command line the terminal](https://github.com/breatheco-de/content/blob/master/src/assets/images/6128e9f7-b460-4b10-80e4-34057b7d4df9.png?raw=true)
 
