@@ -17,7 +17,7 @@ Luego de sumergirnos en el mundo de HTML todo empieza a parecer feo, rígido y c
 
 
 
-Peeeero… El internet es mas hermoso que eso. La cosa se puso seria cuando Internet empezó a hacerse más y más popular. Dejó de ser utilizado únicamente por la comunidad científica y el ejército; **¡comenzó a ser adoptado por todo el mundo!**
+Peeeero… El internet es más hermoso que eso. La cosa se puso seria cuando Internet empezó a hacerse más y más popular. Dejó de ser utilizado únicamente por la comunidad científica y el ejército; **¡comenzó a ser adoptado por todo el mundo!**
 
 Irónicamente, los mismos científicos de CERN que crearon HTML, tuvieron que ponerse a pensar en cómo mejorar lo que habían hecho y se dieron a la tarea de embellecerlo. En este momento fue cuando [Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie), propuso la primera versión de CSS en 1994, que luego fue adaptado hasta convertirse en CSS1.
 
@@ -29,8 +29,7 @@ Irónicamente, los mismos científicos de CERN que crearon HTML, tuvieron que po
 La principal razón por la que se creó fue para aplicar estilos a los documentos de HTML. La idea es que puedas decirle al navegador cómo debe visualizar un documento HTML: cómo deben verse sus etiquetas, colores, márgenes, tipografía, iconos, bordes, etc. Incluso puedes redefinir a tu antojo los comportamientos originales de esas etiquetas ya existentes. Ej:
 
 ```html
-Puedes decirle a un <h1> que se vea igualito que un <h2> sin que el usuario
-se dé cuenta de que, a simple vista, son distintos.
+Puedes decirle a un <h1> que se vea igualito que un <h2> sin que el usuario se dé cuenta de que, a simple vista, son distintos.
 ```
 
 > :point_up: Para entender el potencial de CSS, [haz clic aquí para ver un live demo!](http://assets.breatheco.de/live-demos/css/bootstrap/)
@@ -48,7 +47,7 @@ Vamos a repasar estas tags con más detalle:
 
 |**Nombre**   |**Etiqueta**   |**Descripción**   |
 |:----------|:-------------|:------------------|
-|Link       |link          |Tiene como finalidad enlazar a la página con hojas de estilos CSS. Para utilizarla debes especificar tres propiedades dentro de la etiqueta `rel="stylesheet" type="text/css"` y por último `href="with document route css"`<br>`<link rel="stylesheet" type="text/css" href="theme.css">`   |
+|Link       |link          |Tiene como finalidad enlazar a la página con hojas de estilos CSS. Para utilizarla debes especificar tres propiedades dentro de la etiqueta `rel="stylesheet" type="text/css"` y por último `href="with document route css"`<br>`<link rel="stylesheet" type="text/css" href="theme.css"/>`   |
 |Style   |style   |Si no queremos o no podemos importar una hoja de estilo CSS, tenemos la posibilidad de definir estilos en el HEAD del documento HTML. Simplemente definimos el tag style y procedemos a escribir los estilos que queremos para las etiquetas.<br>`<style>`<br>`h1 {color:red;}`<br>`p {color:blue;}`<br>`</style>`   |
 
 > :point_up: Así como los documentos HTML terminan con la extensión `.html`, los documentos CSS (las hojas de estilo) terminan con la extensión `.css`
@@ -122,7 +121,7 @@ Asignemos "first" como ID de la primera celda en la siguiente tabla, y luego con
 
 |**Selector**   |**Descripción**   |**Ejemplo**   |
 |:-------------|:-----------------|:-------------|
-|.classname   |Existe un atributo en HTML que se llama "class" y permite agrupar diferentes etiquetas en un grupo lógico. En CSS se puede utilizar `.` (punto) para seleccionar todos los elementos que usen esa clase para seleccionar todos los elementos html con el atributo de esa clase.   |`.classname { color: #BDBDBD; }`   |
+|.classname   |Existe un atributo en HTML que se llama "class" y permite agrupar diferentes etiquetas en un grupo lógico. En CSS se puede utilizar `.` (punto) como un selector de todos los elementos que usen esa clase y seleccionar todos los elementos html con el atributo de esa clase.   |`.classname { color: #BDBDBD; }`   |
 
 En el siguiente ejemplo le estamos aplicando una clase "odd" a las celdas impares de esta tabla, y luego con CSS le asignamos el fondo amarillo a la clase .odd:
 
@@ -134,7 +133,7 @@ En el siguiente ejemplo le estamos aplicando una clase "odd" a las celdas impare
 |:--------------|:-----------------|:-------------|
 |Tipo de Elemento (tag)   |Permite aplicar estilos a los links, títulos, etc. En el siguiente ejemplo cambiaremos el color de texto a todos los tag links `<a>` de la página.   |`a { color: #BDBDBD; }`   |
 
-En el siguiente ejemplo vamos a colocar fondo verde a todos los td (celdas) de la tabla:
+En el siguiente ejemplo vamos a colocar fondo verde a todos los `td` (celdas) de la tabla:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/y89Lgwb0/11/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -142,7 +141,7 @@ En el siguiente ejemplo vamos a colocar fondo verde a todos los td (celdas) de l
 
 |**Selector**   |**Descripción**   |**Ejemplo**  |
 |:--------------|:-----------------|:-------------|
-|selector1, selector2   |Si separas varios selectores por coma `,`, puedes asignar múltiples selectores a la vez para ahorrar texto. En el siguiente ejemplo le decimos a todos los h1 y a los elementos de clase .impar que queremos su texto de color rojo.  |`h1, .impar { color: #BDBDBD; }`   |
+|selector1, selector2   |Si separas varios selectores por coma `,` puedes asignar múltiples selectores a la vez para ahorrar texto. En el siguiente ejemplo le decimos a todos los h1 y a los elementos de clase .impar que queremos su texto de color rojo.  |`h1, .impar { color: #BDBDBD; }`   |
 
 ### Pseudoselectores relacionados con enlaces 
 
@@ -191,7 +190,7 @@ Hay cientos - sino miles - de propiedades, pero dependiendo del tipo de elemento
 #### Editando tipografía
 |Propiedad   |Descripción   |Valores   |
 |:----------|:-------------|:----------|
-|[font-family](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-family)   |tipo de letra (fuente) | [ name-font \| generic-family ]*   |
+|[font-family](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-family)   |tipo de letra (fuente) | name-font \| generic-family    |
 |[font-size](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-size)   |tamaño de letra   | tamaño-absoluto \| tamaño-relativo \| distancia \| porcentaje   |
 |[font-style](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-style)   |inclinación (italics)   |normal \| italic \| oblique   |
 
@@ -203,7 +202,7 @@ Hay cientos - sino miles - de propiedades, pero dependiendo del tipo de elemento
 |[letter-spacing](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#letter-spacing)   |espacio entre caracteres  |normal \| distancia   |
 |[line-height](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#line-height)   |espacio entre líneas  |normal \| número \| distancia \| porcentaje   |
 |[text-align](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-align)   |alineación del texto |center \| justify \| left \| right |
-|[text-decoration](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-decoration)   |decoración del texto  |none \| blink \| line-through \| overline \| underline   |
+|[text-decoration](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-decoration)   |decoración del texto  |none \| line-through \| overline \| underline   |
 |[text-transform](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-transform)   |mayúsculas / minúsculas   |none \| capitalize \| lowercase \| uppercase   |
 
 #### Editando listas 
@@ -211,7 +210,7 @@ Hay cientos - sino miles - de propiedades, pero dependiendo del tipo de elemento
 |Propiedad   |Descripción   |Valores   |
 |:-----------|:-------------|:--------|
 |[list-style](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style)   |propiedad compuesta (suma de toda combinación de propiedades)   |list-style-image \|\| list-style-position \|\| list-style-type   |
-|[list-style-image](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-image)   |imagen del marcador  |none \| uri   |
+|[list-style-image](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-image)   |imagen del marcador  |none \| url   |
 |[list-style-position](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-position)   |posición del marcador |inside \| outside  |
 |[list-style-type](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-type)  |tipo de marcador |none \| circle \| disc \| square \| decimal \| decimal-leading-zero \| lower-alpha \| upper-alpha \| lower-greek \| lower-latin \| upper-latin \| lower-roman \| upper-roman \| armenian \| georgian \| hebrew(-) \| cjk-ideographic(-) \| hiragana (-) \| katakana (-) \| hiragana-iroha(-) \| katakana-iroha(-)  |
 
@@ -221,7 +220,7 @@ Hay cientos - sino miles - de propiedades, pero dependiendo del tipo de elemento
 |:----------|:-------------|:-----------|
 |[border-collapse](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#border-collapse)   |modo de bordes  |collapse \| separate   |
 |[border-spacing](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#border-spacing)   |separación entre celdas |distancia \| distancia   |
-[caption-side](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#caption-side)   |posición de la leyenda   |top \| bottom \| left(-) \| right(-)   |
+[caption-side](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#caption-side)   |posición de la leyenda   |top \| bottom    |
 |[empty-cells](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#empty-cells)   |borde de casillas vacías   |	hide \| show   |
 |[table-layout](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#table-layout)   |algoritmo ancho de tabla   |auto \| fixed   |
 
@@ -230,8 +229,8 @@ Hay cientos - sino miles - de propiedades, pero dependiendo del tipo de elemento
 |Propiedad   |Descripción   |Valores   |
 |:----------|:-------------|:----------|
 |[background-color](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-color)   |color de fondo   |transparent \| color   |
-|[background-image](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-image)   |imagen de fondo  |none \| uri   |
-|[background-position](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-position)   |posición de la imagen de fondo   |\[ \[ left \| center \| right \| distancia \| porcentaje] [ top \| center \| bottom \| distancia \| porcentaje] \]? \| [ [ left \| center \| right ] \|\| [ top \| center \| bottom ] ]   |
+|[background-image](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-image)   |imagen de fondo  |none \| url   |
+|[background-position](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-position)   |posición de la imagen de fondo   | \[left \| center \| right \| distancia \| porcentaje] [top \| center \| bottom \| distancia \| porcentaje]   |
 |[background-repeat](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-repeat)  |repetición de la imagen de fondo   |no-repeat \| repeat \| repeat-x \| repeat-y \| space \| round   |
-|[background-size](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-size)   |tamaño de la imagen de fondo   |auto \| [ distancia \| porcentaje ] {2} \| contain \| cover   |
+|[background-size](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-size)   |tamaño de la imagen de fondo   |auto \| [distancia \| porcentaje] \| contain \| cover   |
 
