@@ -273,7 +273,7 @@ After you finish identifying your components, it is time to start coding. Create
 Each class needs to have a function called **render.**  This will return the HTML code that the component will output into the website document.
 
 <before-after width="400px"
-    before="../../assets/images/e590a615-2c9d-4671-8483-99dbdd90cd41.png" after="../../assets/images/78aedd23-b5dd-4d1e-b693-b3268f4734fa.png" />
+    before="https://github.com/breatheco-de/content/blob/master/src/assets/images/e590a615-2c9d-4671-8483-99dbdd90cd41.png?raw=true" after="https://github.com/breatheco-de/content/blob/master/src/assets/images/78aedd23-b5dd-4d1e-b693-b3268f4734fa.png?raw=true" />
 
 ## Essential aspects of a React component
 

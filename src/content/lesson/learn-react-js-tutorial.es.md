@@ -277,7 +277,7 @@ Una vez que hayas terminado de identificar tus componentes, es hora de comenzar 
 Cada clase debe tener una función llamada **render.** Esto devolverá el código HTML que el componente generará en el documento del sitio web.
 
 <before-after width="400px"
-    before="../../assets/images/e590a615-2c9d-4671-8483-99dbdd90cd41.png" after="../../assets/images/78aedd23-b5dd-4d1e-b693-b3268f4734fa.png" />
+    before="https://github.com/breatheco-de/content/blob/master/src/assets/images/e590a615-2c9d-4671-8483-99dbdd90cd41.png?raw=true" after="https://github.com/breatheco-de/content/blob/master/src/assets/images/78aedd23-b5dd-4d1e-b693-b3268f4734fa.png?raw=true" />
 
 ## Aspectos esenciales de un componente React
 
