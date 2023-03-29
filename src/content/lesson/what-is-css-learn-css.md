@@ -198,30 +198,30 @@ There are hundreds – even thousands – of CSS properties, but depending on th
 
 |Property   |Description   |Values   |
 |:-----------|:-------------|:--------|
-|[list-style](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style)   |compound property (sum of every property combination)   |list-style-image \|\| list-style-position \|\| list-style-type   |
-|[list-style-image](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-image)   |marker image   |none \| url   |
-|[list-style-position](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-position)   |marker position   |inside \| outside  |
-|[list-style-type](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-type)  |marker type   |none \| circle \| disc \| square \| decimal \| decimal-leading-zero \| lower-alpha \| upper-alpha \| lower-greek \| lower-latin \| upper-latin \| lower-roman \| upper-roman \| armenian \| georgian \| hebrew(-) \| cjk-ideographic(-) \| hiragana (-) \| katakana (-) \| hiragana-iroha(-) \| katakana-iroha(-)  |
+|[list-style](https://www.w3schools.com/cssref/pr_list-style.php)   |compound property (sum of every property combination)   |list-style-image \|\| list-style-position \|\| list-style-type   |
+|[list-style-image](https://www.w3schools.com/cssref/pr_list-style-image.php)   |marker image   |none \| url   |
+|[list-style-position](https://www.w3schools.com/cssref/pr_list-style-position.php)   |marker position   |inside \| outside  |
+|[list-style-type](https://www.w3schools.com/cssref/pr_list-style-type.php)  |marker type   |none \| circle \| disc \| square \| decimal \| decimal-leading-zero \| lower-alpha \| upper-alpha \| lower-greek \| lower-latin \| upper-latin \| lower-roman \| upper-roman \| armenian \| georgian \| hebrew(-) \| cjk-ideographic(-) \| hiragana (-) \| katakana (-) \| hiragana-iroha(-) \| katakana-iroha(-)  |
 
 #### Table editing
 
 |Property  |Description   |Values   |
 |:----------|:-------------|:-----------|
-|[border-collapse](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#border-collapse)   |border mode   |collapse \| separate   |
-|[border-spacing](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#border-spacing)   |space between cells   |distance \| distance   |
-[caption-side](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#caption-side)   |caption position   |top \| bottom    |
-|[empty-cells](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#empty-cells)   |empty box border   |	hide \| show   |
-|[table-layout](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#table-layout)   |	algorithm width of the table   |auto \| fixed   |
+|[border-collapse](https://www.w3schools.com/cssref/pr_border-collapse.php)   |border mode   |collapse \| separate   |
+|[border-spacing](https://www.w3schools.com/cssref/pr_border-spacing.php)   |space between cells   |distance \| distance   |
+[caption-side](https://www.w3schools.com/cssref/pr_tab_caption-side.php)   |caption position   |top \| bottom    |
+|[empty-cells](https://www.w3schools.com/cssref/pr_tab_empty-cells.php)   |empty box border   |	hide \| show   |
+|[table-layout](https://www.w3schools.com/cssref/pr_tab_table-layout.php)   |	algorithm width of the table   |auto \| fixed   |
 
 #### Background editing 
 
 |Property   |Description   |Values   |
 |:----------|:-------------|:----------|
-|[background-color](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-color)   |background color   |transparent \| color   |
-|[background-image](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-image)   |background image   |none \| url   |
-|[background-position](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-position)   |background image position   | \[left \| center \| right \| distance \| percentage] [top \| center \| bottom \| distance \| percentage] |
-|[background-repeat](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-repeat)  |background repetition   |no-repeat \| repeat \| repeat-x \| repeat-y \| space \| round   |
-|[background-size](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-size)   |background image size   |auto \| [distance \| percentage] \| contain \| cover   |
+|[background-color](https://www.w3schools.com/cssref/pr_background-color.php)   |background color   |transparent \| color   |
+|[background-image](https://www.w3schools.com/cssref/pr_background-image.php)   |background image   |none \| url   |
+|[background-position](https://www.w3schools.com/cssref/pr_background-position.php)   |background image position   | \[left \| center \| right \| distance \| percentage] [top \| center \| bottom \| distance \| percentage] |
+|[background-repeat](https://www.w3schools.com/cssref/pr_background-repeat.php)  |background repetition   |no-repeat \| repeat \| repeat-x \| repeat-y \| space \| round   |
+|[background-size](https://www.w3schools.com/cssref/css3_pr_background-size.php)   |background image size   |auto \| [distance \| percentage] \| contain \| cover   |
 
 
 > 💡 Suggestion: 
