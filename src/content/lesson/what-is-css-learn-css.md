@@ -179,20 +179,20 @@ There are hundreds – even thousands – of CSS properties, but depending on th
 #### Typography editing
 |Property   |Description   |Values   |
 |:----------|:-------------|:----------|
-|[font-family](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-family)   |font type (font) |  name-font \| generic-family    |
-|[font-size](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-size)   |size of the font   |absolute-size \| relative-size \| distance \| percentage   |
-|[font-style](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-style)   |inclination (italics)   |normal \| italic \| oblique   |
+|[font-family](https://www.w3schools.com/cssref/pr_font_font-family.php)   |font type (font) |  name-font \| generic-family    |
+|[font-size](https://www.w3schools.com/cssref/pr_font_font-size.php)   |size of the font   |absolute-size \| relative-size \| distance \| percentage   |
+|[font-style](https://www.w3schools.com/cssref/pr_font_font-style.php)   |inclination (italics)   |normal \| italic \| oblique   |
 
 #### Text editing
 
 |Property   |Description   |Values   |
 |:----------|:-------------|:-----------|
-|[color](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#color)   |text color   |color   |
-|[letter-spacing](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#letter-spacing)   |space between letters   |normal \| distance   |
-|[line-height](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#line-height)   |space between lines   |normal \| number \| distance \| percentage   |
-|[text-align](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-align)   |text alignment   |center \| justify \| left \| right   |
-|[text-decoration](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-decoration)   |text ornament   |none \| line-through \| overline \| underline   |
-|[text-transform](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-transform)   |capital / small fonts   |none \| capitalize \| lowercase \| uppercase   |
+|[color](https://www.w3schools.com/cssref/pr_text_color.php)   |text color   |color   |
+|[letter-spacing](https://www.w3schools.com/cssref/pr_text_letter-spacing.php)   |space between letters   |normal \| distance   |
+|[line-height](https://www.w3schools.com/cssref/pr_dim_line-height.php)   |space between lines   |normal \| number \| distance \| percentage   |
+|[text-align](https://www.w3schools.com/cssref/pr_text_text-align.php)   |text alignment   |center \| justify \| left \| right   |
+|[text-decoration](https://www.w3schools.com/cssref/pr_text_text-decoration.php)   |text ornament   |none \| line-through \| overline \| underline   |
+|[text-transform](https://www.w3schools.com/cssref/pr_text_text-transform.php)   |capital / small fonts   |none \| capitalize \| lowercase \| uppercase   |
 
 #### List editing 
 
