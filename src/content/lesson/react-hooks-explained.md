@@ -253,7 +253,7 @@ const MyComponent = () => {
 ## Building a Todo List Using just `useState` and `useEffect` Hooks
 
 <p align="center">
-    <img src="../../assets/images/41f4a2be-380f-47af-acab-d479acf80921todolisthooks.gif">
+    <img src="https://github.com/breatheco-de/content/blob/master/src/assets/images/41f4a2be-380f-47af-acab-d479acf80921todolisthooks.gif?raw=true">
 </p>
 
 For example, let's say I'm building a todo list, and I have to load the list of tasks from an API. I will have to fetch the information right after the component renders for the first time:
