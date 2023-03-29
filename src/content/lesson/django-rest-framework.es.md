@@ -130,7 +130,7 @@ Vamos a construir una API basada en REST, pero no tengas miedo del nombre - el e
 + Finalmente, APIView debe retornar un objeto de respuesta que contenga el objeto JSON preparado por el serializer.
 
 <BeforeAfter width="900px"
-    before="https://github.com/Lorenagubaira/content/blob/master/src/assets/images/c7e96be7-a7b6-4b6d-83a2-535b22fdc3b0.png?raw=true" after="https://github.com/Lorenagubaira/content/blob/master/src/assets/images/88f6b44f-01dc-4a13-ba1f-fbab5280d510.png?raw=true" />
+    before="https://github.com/breatheco-de/content/blob/master/src/assets/images/c7e96be7-a7b6-4b6d-83a2-535b22fdc3b0.png?raw=true" after="https://github.com/breatheco-de/content/blob/master/src/assets/images/88f6b44f-01dc-4a13-ba1f-fbab5280d510.png?raw=true" />
 
 ### urls.py: El Distribuidor de URL
 
