@@ -16,7 +16,7 @@ A estas alturas, probablemente hayas sentido lo desorganizado y difícil que pue
 Webpack es una de esas cosas que odias las primeras veces y luego no puedes vivir sin él por el resto de tu vida.  ¡Por primera vez la codificación, Javascript realmente se siente increíble, limpia y profesional!
 
 <before-after width="400px"
-    before="../../assets/images/bc337938-55c4-40e2-a370-5d69bf084a3b.png" after="../../assets/images/41afcd74-81dd-4e6e-98ee-fc2642a07e7f.png" />
+    before="https://github.com/breatheco-de/content/blob/master/src/assets/images/bc337938-55c4-40e2-a370-5d69bf084a3b.png?raw=true" after="https://github.com/breatheco-de/content/blob/master/src/assets/images/41afcd74-81dd-4e6e-98ee-fc2642a07e7f.png?raw=true" />
 
 ### Pero, ¿qué es Webpack?
 
