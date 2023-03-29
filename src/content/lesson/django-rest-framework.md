@@ -26,7 +26,7 @@ Django is THE TOOL for web development.  It is not just a library – it is doze
 Just like any other framework, Django proposes a specific architecture to build your software and we have to learn, adopt and master all of it if we want to become Senior Full-Stack Developers (using Django):
 
 <before-after 
-    before="../../assets/images/61212ca7-cde0-43c1-8267-a1101a95da2c.png" after="../../assets/images/80444105-0d6a-4a93-beb1-090b84b03376.png" />
+    before="https://github.com/Lorenagubaira/content/blob/master/src/assets/images/61212ca7-cde0-43c1-8267-a1101a95da2c.png?raw=true" after="https://github.com/Lorenagubaira/content/blob/master/src/assets/images/80444105-0d6a-4a93-beb1-090b84b03376.png?raw=true" />
 
 The first important concept to learn is Website vs App.  A great example can be BreatheCo.de
 
@@ -129,7 +129,7 @@ We are going to be building a REST Based API, but don’t be afraid of the name 
 + Finally, the APIView should return a Response object that contains the JSON Object prepared by the serializer.
 
 <BeforeAfter width="900px"
-    before="../../assets/images/c7e96be7-a7b6-4b6d-83a2-535b22fdc3b0.png" after="../../assets/images/88f6b44f-01dc-4a13-ba1f-fbab5280d510.png" />
+    before="https://github.com/breatheco-de/content/blob/master/src/assets/images/c7e96be7-a7b6-4b6d-83a2-535b22fdc3b0.png?raw=true" after="https://github.com/breatheco-de/content/blob/master/src/assets/images/88f6b44f-01dc-4a13-ba1f-fbab5280d510.png?raw=true" />
 
 ### urls.py: The URL Dispatcher
 
