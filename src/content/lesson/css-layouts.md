@@ -121,7 +121,7 @@ Float is very much used in blogs when you want to add images to your articles. I
 ## Think about UI/UX for a second
 
 
-It’s yoga time, let’s stop the coding and think about mankind for a minute. How do humans act? How do they behave? What do they like? Where do they click?
+It’s yoga time! Let’s stop the coding and think about mankind for a minute. How do humans act? How do they behave? What do they like? Where do they click?
 
 This course is not just about user interface (UI) and experience (UX). Web developers tend to underestimate this matter. It is important to take enough time to design the website navigation flow, the menu position, UI elements, etc.  Here you have some layout examples:
 
