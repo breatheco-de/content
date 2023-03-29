@@ -12,26 +12,26 @@ cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 
 ---
 
-First of all, please ask questions!!!!!! We cannot encourage this enough- asking questions is the best way for all of us to learn and understand. For your programming teacher, student's questions are a great source of information to understand areas of weakness, level of understanding and pace of learning. Questions are also the most powerful way to seek an end to frustration.
+First of all, please ask questions!!!!!! We cannot encourage this enough - asking questions is the best way for all of us to learn and understand. For your programming teacher, student's questions are a great source of information to understand areas of weakness, level of understanding and pace of learning. Questions are also the most powerful way to seek an end to frustration.
 
 ## It takes a bit of time (and patience!) to ask the right question
 
 When working remotely, you have to pay lots of attention to the way you communicate your ideas, questions, etc.
 
-Believe me when I tell you that following these steps you will get straight answers in a matter of minutes instead of having to go back and forth. Here is a guide on [how to ask questions by stack overflow](https://stackoverflow.com/help/how-to-ask).
+Believe me when I tell you that following these steps will get you straight answers in a matter of minutes instead of having to go back and forth. Here is a guide on [how to ask questions by stack overflow](https://stackoverflow.com/help/how-to-ask).
 
 ### 1. Prepare your question
 
 Let's compare these two questions:
 ```md
-1. How can I add one item to an array?
-2. I'm trying to add an item to an array in JavaScript, this is my code but it's not working (include a screenshot), what am I doing wrong?
+How can I add one item to an array?
+I'm trying to add an item to an array in JavaScript, this is my code but it's not working (include a screenshot), what am I doing wrong?
 ```
 Do you notice how the second question is much easier to answer? You will probably get an answer in a few minutes since it will be very easy to review your code and give you feedback in a few lines. Who knows? Maybe the coding error is just a typo!
 
 ### 2. Take a picture or screenshot to share what you've tried (instead of using copy and paste)
 
-Use screenshots to keep color highlighting and formatting as you see it. Pasting in "text snippets" can cause more confusion for those trying to help you. If you do paste in text through slack, make sure to use "attach file".
+Use screenshots to keep color highlighting and formatting as you see it. Pasting in "text snippets" can cause more confusion for those trying to help you. If you do paste in text through slack, make sure to use "code block".
 
 You can use a plugin for Google Chrome such as [Awesome Screenshot](https://www.awesomescreenshot.com/).
 
