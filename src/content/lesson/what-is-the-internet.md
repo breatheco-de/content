@@ -1,10 +1,11 @@
 ---
 title: "What is The Internet?"
-subtitle: "What is the internet: Everything you see on the internet is a text document. Everything!! As developers, all we do is generate chunks of text based on a set of criteria. If you understand this simple concept, the sky will be the limit."
+subtitle: "What is the Internet: Everything you see on the Internet is a text document. Everything!! As developers, all we do is generate chunks of text based on a set of criteria. If you understand this simple concept, the sky will be the limit."
 cover_local: "../../assets/images/05a36362-c09f-4961-a7b9-8e3132a902b1.jpeg"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["internet"]
+tags: ["
+"]
 status: "published"
 
 ---
@@ -45,7 +46,7 @@ What this means is that: everything is text.  For example, if you wish to send a
 
 ![what is the internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif?raw=true)
   
-<small style="color:grey">Image 1: The 4 steps needed to send images over the internet: first it turns to text, then it travels, then it arrives at grandma's computer, grandma opens the picture and the picture shows… lastly, grandma is happy looking at her grandson's photo!</small>
+<small style="color:grey">Image 1: The 4 steps needed to send images over the Internet: first it turns to text, then it travels, then it arrives at grandma's computer, grandma opens the picture and the picture shows… lastly, grandma is happy looking at her grandson's photo!</small>
 
 ## But How Do Pictures (and stuff) Travel?
 
@@ -61,7 +62,7 @@ Everything is connected.  The best way to understand this is by comparing it to 
 <iframe width="807" height="453" src="https://www.youtube.com/embed/UiBT3Kj8KBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p style="text-align:center;"><small>
-<strong>Video:</strong> 2 min video explaining how the internet works.
+<strong>Video:</strong> 2 min video explaining how the Internet works.
 </small><p>
 
 ## The Web Browser
@@ -101,8 +102,8 @@ So… lets summarize:
 ![what is the internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/57821cbc-5ba0-4e1c-9b90-7f1df7c637fa.gif?raw=true)
 
  
-| The Server   |      The Client       |
-|----------|:-------------:|
-|The server’s mission is to deliver all the text/information the client needs to render the website properly. It has a close relationship with the database (which manages and processes the data). It handles a high volume of information and is prepared to answer thousands of clients requests at the same time.<br><br>The most frequent languages used are PHP, Python, Ruby and Java.<br><br>Little by little, the server has come to delegate part of its load. It handles fewer things nowadays than before, but the ones it still handles are repeated many times. There are even services like Parse.com or Firebase.com that have created tools that allow developers to create web apps without even using their own server.<br><br>All the code that runs on the side of the server is called “The Back-End.”  Back-End developers must strengthen their knowledge in databases, Big Data, Data Mining, Security, Web Sockets, Web Services, API’s, etc. |The client includes all code that runs on the computer or device of the client. The most frequent languages are: HTML5, CSS3, JavaScript.<br><br>Originally, the code that resided in the client didn’t do much because the documents were very simple. But things have changed; technology has given more relevance to the client to a point in which today there are thousands of apps that have more code on the client’s side than on the server side.<br><br>Running the code on the client side frees load off the server. After all, there is ONLY ONE server per THOUSANDS of clients.<br><br>All code on the side of the client is called “The Front-End.”<br><br>Front End developers are mostly dedicated to JavaScript, and maybe diagramming websites with HTML5 or CSS3 (designers may also do this last part).  This means that they must integrate multiple API’s, manage almost all the data processing on the client side (to avoid having too many interactions with the server), graph data, 3D modeling, games, jQuery plugins, AJAX, etc. |
+| The Server | The Client |
+|------------|------------|
+| The server’s mission is to deliver all the text/information the client needs to render the website properly. It has a close relationship with the database (which manages and processes the data). It handles a high volume of information and is prepared to answer thousands of clients requests at the same time.<br><br>The most frequent languages used are PHP, Python, Ruby and Java.<br><br>Little by little, the server has come to delegate part of its load. It handles fewer things nowadays than before, but the ones it still handles are repeated many times. There are even services like Parse.com or Firebase.com that have created tools that allow developers to create web apps without even using their own server.<br><br>All the code that runs on the side of the server is called “The Back-End.”  Back-End developers must strengthen their knowledge of databases, Big Data, Data Mining, Security, Web Sockets, Web Services, API’s, etc. | The client includes all the code that runs on the computer or device of the client. The most frequent languages are: HTML5, CSS3, JavaScript.<br><br>Originally, the code that resided in the client didn’t do much because the documents were very simple. But things have changed; technology has given more relevance to the client to a point in which today there are thousands of apps that have more code on the client’s side than on the server side.<br><br>Running the code on the client side frees load off the server. After all, there is ONLY ONE server per THOUSANDS of clients.<br><br>All code on the side of the client is called “The Front-End.”<br><br>Front End developers are mostly dedicated to JavaScript, and maybe diagramming websites with HTML5 or CSS3 (designers may also do this last part).  This means that they must integrate multiple API’s, manage almost all the data processing on the client side (to avoid having too many interactions with the server), graph data, 3D modeling, games, jQuery plugins, AJAX, etc. |
 
     
