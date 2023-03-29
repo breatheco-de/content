@@ -38,17 +38,18 @@ Un **repositorio** GIT se compone de lo siguiente:
 + Un conjunto de **objetos de confirmación (commit object)**.
 + Un conjunto de referencias para comentar objetos, llamados **heads**.
 
-<p align="center">
- <img height="200px" src="../../assets/images/a4fc1953-3c91-4bf4-a70a-ab4778b3277b.png" alt="how to use git" />
+<p>
+ <img height="200px" src="https://github.com/breatheco-de/content/blob/master/src/assets/images/a4fc1953-3c91-4bf4-a70a-ab4778b3277b.png?raw=true" alt="how to use git" />
 </p>
+
 
 El repositorio de GIT se almacena dentro del mismo directorio que se encuentra el proyecto en un subdirectorio -oculto- llamado .git:
 
 + Solo hay un directorio .git - ubicado en el directorio raíz del proyecto.
 + El repositorio se almacena dentro del proyecto.
 
-<p align="center">
- <img height="200px" src="../../assets/images/62897396-651c-4bdb-8604-dfe1898e57bd.png" alt="git folder inside directory" />
+<p>
+ <img height="200px" src="https://github.com/breatheco-de/content/blob/master/src/assets/images/62897396-651c-4bdb-8604-dfe1898e57bd.png?raw=true" alt="git folder inside directory" />
  </p>
 
 ## Commit Objects
