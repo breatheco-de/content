@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-> :point_up:  Windows users don't use the same terminal commands but you should learn and practice them anyway because they are heavily used when publishing your apps on any web hosting, Gitpod, Codespaces, Cloud9, etc. You can use [Git SCM](https://git-scm.com/downloads) to create a similar terminal on your computer.
+> :point_up:  Windows users don't use the same terminal commands, but you should learn and practice them anyway because they are heavily used when publishing your apps on any web hosting, Gitpod, Codespaces, Cloud9, etc. You can use [Git SCM](https://git-scm.com/downloads) to create a similar terminal on your computer.
 
 ## Why do Developers love the Command Line?
 
@@ -67,7 +67,7 @@ The ls command is used for listing all the files and directories that form the c
 
 ```bash
 ls -l ./applications
-#shows the files and folder inside "applications" 
+#shows the files and folders inside "applications" 
 #the -l is for asking more detailed output information on the files.
 ```
 
@@ -133,7 +133,7 @@ rmdir path/of/targetdirectory/mydirectory
 #removes mydirectory from "targetdirectory" 
 ```
 
-> :point_up: It will only remove empty directories, to empty all directory files use the rm -r command (-r flag forces the remove command to delete the directory and all the files within it). Pro-tip: you can use `rm`. to delete all of the files inside a directory simultaneously; use with caution.
+> :point_up: It will only remove empty directories, to empty all directory files use the `rm -r` command (-r flag forces the remove command to delete the directory and all the files within it). Pro-tip: you can use `rm *` to delete all of the files inside a directory simultaneously; use with caution.
 
 ### The cp command
 
@@ -141,7 +141,7 @@ rmdir path/of/targetdirectory/mydirectory
 
 Don’t confuse this command with the clipboard copy functionality – it has nothing to do with it.
 
-*cp* will copy an entire file and create a new one with whatever name you decide it should have.
+`cp` will copy an entire file and create a new one with whatever name you decide it should have.
 
 ```bash
 cp path/to/file.ext path/to/new/file.txt
@@ -166,10 +166,10 @@ find . -name *.mp3
 
 These will help you save time and make fewer mistakes when typing:
 
-+ To cancel a command that is being executed, press `Control`+`C`
++ To cancel a command that is being executed, press `ctrl`+`c`
 + To autocomplete a file or folder name, use the `tab` key.
 + To repeat any command you have used in the past, use the `up` arrow, and it will show you each command, one by one.
-+ To go to the home user folder, use the `~` key like this: cd ~
++ To go to the home user folder, use the `~` key like this: `cd ~`
 + Use the `clear` command to "clean" the current console (it is just a scroll, but a very useful one).
 
 ## Editing Files in the Terminal:
@@ -185,11 +185,11 @@ When working with the command line, sometimes you will have to open a file to re
 ```bash
 nano path/to/the/textfile.txt
 #opens a text editor to start editing the content of textfile.txt 
-#if textfile.txt does not exist it will create it!
+#if textfile.txt does not exist, it will create it!
 ```
 When nano opens, it will show a top bar with the current version of the nano application; the name of the file being edited; and, a status telling you if the files were modified or not.
 
-At the bottom you will see the most often used commands to use nano such as: quit, where is, help, etc.
+At the bottom you will see the most often used commands in nano such as: exit, where is, get help, etc.
 
 ![the command line the terminal](https://github.com/breatheco-de/content/blob/master/src/assets/images/6128e9f7-b460-4b10-80e4-34057b7d4df9.png?raw=true)
 
