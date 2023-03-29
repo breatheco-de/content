@@ -23,7 +23,7 @@ Originalmente, los navegadores solo podían interpretar HTML. Las páginas web e
 
 ![qué es html](https://github.com/breatheco-de/content/blob/master/src/assets/images/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc.png?raw=true)
 
-### Sintáxis del HTML: Todo es `<Tags> ` (etiquetas).
+### Sintaxis del HTML: Todo es `<Tags> ` (etiquetas).
 
 ![qué es html](https://github.com/breatheco-de/content/blob/master/src/assets/images/78296f64-547f-4928-a8da-14cb24e836b9.gif?raw=true)
 
@@ -39,7 +39,7 @@ Hay 2 tipos diferentes de tags:
 
 ### Atributos
 
-Una vez definido los `<tag>`, podemos describir con más detalle su comportamiento asignándole atributos a esos `<tag>`.  Por ejemplo, si queremos que nuestro documento/página HTML tenga un link a otra página, utilizamos el tag `<a>` y le asignamos un atributo llamado **href**, que permite especificar el URL de la otra página a la que queremos hacer el enlace.
+Una vez definidos los `<tag>`, podemos describir con más detalle su comportamiento asignándole atributos a esos `<tag>`.  Por ejemplo, si queremos que nuestro documento/página HTML tenga un link a otra página, utilizamos el tag `<a>` y le asignamos un atributo llamado **href**, que permite especificar el URL de la otra página a la que queremos hacer el enlace.
 
 ```html
 <a href="google.com">Haz clic aquí para ir a google.com</a>
@@ -55,7 +55,7 @@ Para el título (el heading) principal del documento, se utiliza el tag `<h1>`. 
 
 ### Tags Anidadas
 
-Por último, es importante que un tag pueda tener uno o más tags en su contenido.  Por ejemplo, si quisiéramos darle un <i>estilo en cursiva</i> a la palabra “electrónicos” debemos acompañar esa palabra con el tag `<i>`:
+Por último, es importante saber que un tag puede tener uno o más tags en su contenido.  Por ejemplo, si quisiéramos darle un <i>estilo en cursiva</i> a la palabra “electrónicos” debemos acompañar esa palabra con el tag `<i>`:
 
 ```html
  <h1><i>Electrónicos</i></h1>
@@ -149,7 +149,7 @@ Los tags más utilizados dentro del `<body>` de un documento HTML son los siguie
 |:----------|:----------|:-----------------|
 | Heading       |`<h1>`, `<h2>`, ..., `<h6>`   |Define los headings y subheadings de la página (los headings no son lo mismo que el título; el título es utilizado por el navegador y se define en el tag title).<br> `<h1>Este es un heading</h1>`   |
 |Párrafo   |`<p>`   |Este tag separa el texto que contiene con un margen superior e inferior. De esta manera simula exactamente el comportamiento de un párrafo en un documento Word.`<p>ejemplo de un párrafo</p>`   |
-|Lista   |`<ul>`, `<ol>`   |Las listas son fundamentales en un documento, en el caso de HTML tenemos dos tags que podemos usar para listar contenido:<br><br> <li>OL: Nos da una lista numerada (pone numeros delante).</li><br><li>UL: Nos da una lista sin números (pone puntos por delante).<br><br>`<ol>`<br>`<li>Elemento 1</li>`<br>`<li>Elemento 2</li>`<br>`</ol>`   |
+|Lista   |`<ul>`, `<ol>`   |Las listas son fundamentales en un documento, en el caso de HTML tenemos dos tags que podemos usar para listar contenido:<br><br> <li>OL: Nos da una lista numerada (pone números delante).</li><br><li>UL: Nos da una lista no numerada (pone viñetas por delante).<br><br>`<ol>`<br>`<li>Elemento 1</li>`<br>`<li>Elemento 2</li>`<br>`</ol>`   |
 |Imagen  |`<img>`   |Nos permite agregar imágenes al documento, pueden ser imágenes PNG, JPEG, GIF y SVG principalmente.<br>`<img src="url de la imagen"/>`
 |Link (Anchor)   |`<a>`   |A veces queremos conectar una o más páginas entre ellas, enviar al usuario a otra página o incluso poder enviarlo a otra sección del mismo documento (tal como ocurre con el menú de este curso). Para eso está el tag “Anchor”.<br>`<a href="url de la pagina web">texto a clickear</a>`   |
 |Negrita   |`<strong>` o `<b>`   |Para resaltar un texto en negritas.<br>`<strong>texto en negritas</strong>`   |
