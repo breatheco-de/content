@@ -14,9 +14,9 @@ status: "published"
 
 Hay muchos cursos de programación por ahí; algunos incluso son gratis.  Si te uniste a 4Geeks Academy, es porque eres como nosotros.  Realmente crees que las habilidades difíciles de aprender como programar requieren mucho más que solo artículos y videos online o tutoriales que hacen parecer todo fácil.
 
-Programar es difícil porque sólo se puede aprender con infinitas cantidades de práctica, tutoría uno a uno y desafíos de la vida real.
+Programar es difícil porque solo se puede aprender con infinitas cantidades de práctica, tutoría uno a uno y desafíos de la vida real.
 
-Entonces, se nos ocurrió esta plataforma en línea.  Estos contenidos te guiaran a lo largo del programa.  Habrá una infinita cantidad de ejercicios/proyectos.  La clase se enfocará en capacitarte.  Te presentaremos un desafío tras otro, pero siempre bajo la supervisión de un senior que observará y te ayudará en todo tu proceso.  4Geeks es el lugar para leer, aprender y practicar hasta que grabes todo de forma permanente en tu cerebro.
+Entonces, se nos ocurrió esta plataforma en línea.  Estos contenidos te guiarán a lo largo del programa.  Habrá una infinita cantidad de ejercicios/proyectos.  La clase se enfocará en capacitarte.  Te presentaremos un desafío tras otro, pero siempre bajo la supervisión de un senior que observará y te ayudará en todo tu proceso.  4Geeks es el lugar para leer, aprender y practicar hasta que grabes todo de forma permanente en tu cerebro.
 
 ## ¿Así Que Prefieres No Leer Mucho?
 
@@ -46,9 +46,9 @@ Si te sientes abrumado y confundido, <span style="color:#993300">**¡¡pide ayud
 
 ### ¡Por Favor Pide Ayuda!
 
-¿Has leído sobre Einstein?  Las personas realmente inteligentes son las que siempre hacen más preguntas. No tienen miedo a no saber o cometer errores. La única manera en que realmente podemos ayudarte es si nos pides ayuda. Para poder hacerlo, cuando estés estancado y hayas intentado resolver tu duda por tu cuenta durante algunos minutos, pregunta en nuestro canal de Slack [#Public_Support](https://4geeksacademy.slack.com/archives/CAZ9W99U4), pero antes lee estos consejos sobre [¿Cómo hacer preguntas de programación?](https://content.breatheco.de/how-to/ask). 
+¿Has leído sobre Einstein?  Las personas realmente inteligentes son las que siempre hacen más preguntas. No tienen miedo a no saber o cometer errores. La única manera en que realmente podemos ayudarte es si nos pides ayuda. Para poder hacerlo, cuando estés estancado y hayas intentado resolver tu duda por tu cuenta durante algunos minutos, pregunta en nuestro canal de Slack [#Public_Support](https://4geeksacademy.slack.com/archives/CAZ9W99U4), pero antes lee estos consejos sobre [¿Cómo hacer preguntas de programación?](https://4geeks.com/es/how-to/como-hacer-preguntas-de-programacion). 
 
-Si al preguntar aún no has resuelto tus dudas ¡no te preocupes! Si estás inscrito en nuestros programas de 9 o 16 semanas, tendrás acceso a mentorías ilimitadas, [mira aquí cómo funcionan](https://storage.cloud.google.com/4geeks-academy-website/syllabus/madrid-spain/madrid-infografia-mentorias.pdf)
+Si al preguntar aún no has resuelto tus dudas ¡no te preocupes! Si estás inscrito en nuestros programas de 9 o 16 semanas, tendrás acceso a mentorías ilimitadas, [mira aquí cómo funcionan](https://storage.cloud.google.com/4geeks-academy-website/syllabus/madrid-spain/madrid-infografia-mentorias.pdf).
 
 <p style="text-align:center">
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/assets/images/5f5f59bc-9efa-4ee9-bce6-6af9eedb4738.jpeg?raw=true" width="300">
@@ -58,7 +58,7 @@ Si al preguntar aún no has resuelto tus dudas ¡no te preocupes! Si estás insc
 
 Cuando comenzamos la Academia, cada estudiante tenía la libertad de instalar su propio conjunto de herramientas y programas de programación. Sin embargo, descubrimos que cada estudiante comenzó a perder muchísimo tiempo instalando y configurando cada programa.  Invertían más tiempo haciendo eso que aprendiendo realmente a programar.
 
-Entonces, ¡ahora depende sólo de nosotros! Hemos decidido qué lista de programas necesitas – algunos de ellos son obligatorios – para usar/descargar durante el programa. No te preocupes, ¡¡estarás feliz con nosotros!!
+Entonces, ¡ahora depende solo de nosotros! Hemos decidido qué lista de programas necesitas – algunos de ellos son obligatorios – para usar/descargar durante el programa. No te preocupes, ¡¡estarás feliz con nosotros!!
 
 Sí, sí, sabemos que algunos de ustedes ya tienen sus propias herramientas, pero tengamos esa conversación otro momento.  Por ahora, sigue de cerca nuestras sugerencias y danos la oportunidad de decirte cómo hacerlo todo. 
 
