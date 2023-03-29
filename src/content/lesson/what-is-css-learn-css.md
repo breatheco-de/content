@@ -26,7 +26,7 @@ Ironically, the same scientists at CERN who created HTML had to think about how 
 The main objective for his creation was to apply styles to HTML documents. The idea is to let you tell the browser how to display an HTML document: how to render its tags, in what color, margins, typography, icons, borders, etc. You can even redefine the original behaviors of the existing tags at your will. Eg:
 
 ```html
-You could tell a <h1> to look just like a <h2> without the user realizing that, at first glance, they are different.
+You could tell an <h1> to look just like an <h2> without the user realizing that, at first glance, they are different.
 ```
 
 > :point_up:To understand the potential of CSS, [click here to see a live demo!](http://assets.breatheco.de/live-demos/css/bootstrap/)
@@ -39,10 +39,10 @@ Quite simple, you have to write your styles in a special syntax called "CSS" and
 
 Let’s review those 2 tags in more detail:
 
-|**Name**   |**Display**   |**Description**   |
+|**Name**   |**Tag**   |**Description**   |
 |:----------|:-------------|:------------------|
-|Link       |link          |The purpose is to link the page with CSS stylesheets.  To use it, you must specify three attributes within the tag: `rel="stylesheet" type="text/css"` and finally `href="with document route css"`<br>like so: `<link rel="stylesheet" type="text/css" href="theme.css">`   |
-|Style   |style   |If we do not want or can’t import a CSS style sheet, we have the alternative to define styles in the HEAD of the HTML document.  We simply define the style tag and proceed to write the styles we want for the tags.<br>`<style>`<br>`h1 { color:red; }`<br>`p { color:blue; }`<br>`</style>` |
+|Link       |`<link>`          |The purpose is to link the page with CSS stylesheets.  To use it, you must specify three attributes within the tag: `rel="stylesheet" type="text/css"` and finally `href="with document route css"`<br>like so: `<link rel="stylesheet" type="text/css" href="theme.css"/>`   |
+|Style   |`<style>`   |If we do not want or can’t import a CSS style sheet, we have the alternative to define styles in the HEAD of the HTML document.  We simply define the style tag and proceed to write the styles we want for the tags.<br>`<style>`<br>`h1 { color:red; }`<br>`p { color:blue; }`<br>`</style>` |
 
 > :point_up: Just like it happens with HTML docs (ending with `.html`) CSS docs (style sheets) end with extension `.css`
 
@@ -87,7 +87,7 @@ body {
 }
 ```
 
-You could also change the color of a single anchor `<a>`. To do that, you must define a `class` or an `id` attribute of the HTML tag defining that particular link `<a class="anchor1">`. Classes are preferred for use with CSS over IDs due to the fact that the former are reusable and the latter are more often used in conjunction with JavaScript. Once the tag has a class, then you can go to your style sheet and define the `color` rule as follows:
+You could also change the color of a single anchor `<a>`. To do that, you must define a `class` or an `id` attribute of the HTML tag defining that particular link `<a class="anchor1">`. Classes are a preferred use with CSS over IDs due to the fact that the former are reusable and the latter are more often used in conjunction with JavaScript. Once the tag has a class, then you can go to your style sheet and define the `color` rule as follows:
 
 ```css
 .anchor1 {
@@ -132,7 +132,7 @@ Next, we are adding color (green) to the  background of each `td` (cells) of the
 
 |**Selector**   |**Description**   |**Examples**  |
 |:--------------|:-----------------|:-------------|
-|selector1, selector2   |If you separate multiple selectors with a comma`,` you can assign multiple selectors at the same time to save text. In the following example we give tenths to all **h1** and **.odd** class elements, that we want their text to be red.   |`h1, .odd{ color: #BDBDBD; }`   |
+|selector1, selector2   |If you separate multiple selectors with a comma `,` you can assign multiple selectors at the same time to save text. In the following example we tell all the **h1** and **.odd** class elements, that we want their text to be red.   |`h1, .odd{ color: #BDBDBD; }`   |
 
 ### Pseudo selectors 
 
@@ -179,7 +179,7 @@ There are hundreds – even thousands – of CSS properties, but depending on th
 #### Typography editing
 |Property   |Description   |Values   |
 |:----------|:-------------|:----------|
-|[font-family](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-family)   |font type (font) | [ name-font \| generic-family ]*   |
+|[font-family](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-family)   |font type (font) |  name-font \| generic-family    |
 |[font-size](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-size)   |size of the font   |absolute-size \| relative-size \| distance \| percentage   |
 |[font-style](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-style)   |inclination (italics)   |normal \| italic \| oblique   |
 
@@ -191,7 +191,7 @@ There are hundreds – even thousands – of CSS properties, but depending on th
 |[letter-spacing](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#letter-spacing)   |space between letters   |normal \| distance   |
 |[line-height](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#line-height)   |space between lines   |normal \| number \| distance \| percentage   |
 |[text-align](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-align)   |text alignment   |center \| justify \| left \| right   |
-|[text-decoration](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-decoration)   |text ornament   |none \| blink \| line-through \| overline \| underline   |
+|[text-decoration](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-decoration)   |text ornament   |none \| line-through \| overline \| underline   |
 |[text-transform](http://www.mclibre.org/consultar/htmlcss/css/css-texto.html#text-transform)   |capital / small fonts   |none \| capitalize \| lowercase \| uppercase   |
 
 #### List editing 
@@ -199,7 +199,7 @@ There are hundreds – even thousands – of CSS properties, but depending on th
 |Property   |Description   |Values   |
 |:-----------|:-------------|:--------|
 |[list-style](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style)   |compound property (sum of every property combination)   |list-style-image \|\| list-style-position \|\| list-style-type   |
-|[list-style-image](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-image)   |marker image   |none \| uri   |
+|[list-style-image](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-image)   |marker image   |none \| url   |
 |[list-style-position](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-position)   |marker position   |inside \| outside  |
 |[list-style-type](http://www.mclibre.org/consultar/htmlcss/css/css-listas.html#list-style-type)  |marker type   |none \| circle \| disc \| square \| decimal \| decimal-leading-zero \| lower-alpha \| upper-alpha \| lower-greek \| lower-latin \| upper-latin \| lower-roman \| upper-roman \| armenian \| georgian \| hebrew(-) \| cjk-ideographic(-) \| hiragana (-) \| katakana (-) \| hiragana-iroha(-) \| katakana-iroha(-)  |
 
@@ -209,7 +209,7 @@ There are hundreds – even thousands – of CSS properties, but depending on th
 |:----------|:-------------|:-----------|
 |[border-collapse](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#border-collapse)   |border mode   |collapse \| separate   |
 |[border-spacing](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#border-spacing)   |space between cells   |distance \| distance   |
-[caption-side](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#caption-side)   |legend position   |top \| bottom \| left(-) \| right(-)   |
+[caption-side](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#caption-side)   |caption position   |top \| bottom    |
 |[empty-cells](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#empty-cells)   |empty box border   |	hide \| show   |
 |[table-layout](http://www.mclibre.org/consultar/htmlcss/css/css-tablas.html#table-layout)   |	algorithm width of the table   |auto \| fixed   |
 
@@ -218,10 +218,10 @@ There are hundreds – even thousands – of CSS properties, but depending on th
 |Property   |Description   |Values   |
 |:----------|:-------------|:----------|
 |[background-color](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-color)   |background color   |transparent \| color   |
-|[background-image](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-image)   |background image   |none \| uri   |
-|[background-position](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-position)   |background image position   |\[ \[ left \| center \| right \| distance \| percentage] [ top \| center \| bottom \| distance \| percentage] \]? \| [ [ left \| center \| right ] \|\| [ top \| center \| bottom ] ]   |
+|[background-image](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-image)   |background image   |none \| url   |
+|[background-position](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-position)   |background image position   | \[left \| center \| right \| distance \| percentage] [top \| center \| bottom \| distance \| percentage] |
 |[background-repeat](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-repeat)  |background repetition   |no-repeat \| repeat \| repeat-x \| repeat-y \| space \| round   |
-|[background-size](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-size)   |background image size   |auto \| [ distance \| percentage ] {2} \| contain \| cover   |
+|[background-size](http://www.mclibre.org/consultar/htmlcss/css/css-fondos.html#background-size)   |background image size   |auto \| [distance \| percentage] \| contain \| cover   |
 
 
 > 💡 Suggestion: 
