@@ -25,8 +25,8 @@ Django es LA HERRAMIENTA para el desarrollo web. No es solo una librería - son 
 
 Al igual que cualquier otro marco, Django propone una arquitectura específica para construir tu software y tenemos que aprender, adoptar y dominar todo esto si queremos convertirnos en Desarrolladores Senior Full Stack (usando Django):
 
-<BeforeAfter
-    before="../../assets/images/61212ca7-cde0-43c1-8267-a1101a95da2c.png" after="../../assets/images/80444105-0d6a-4a93-beb1-090b84b03376.png" />
+<before-after 
+    before="https://github.com/Lorenagubaira/content/blob/master/src/assets/images/61212ca7-cde0-43c1-8267-a1101a95da2c.png?raw=true" after="https://github.com/Lorenagubaira/content/blob/master/src/assets/images/80444105-0d6a-4a93-beb1-090b84b03376.png?raw=true" />
 
 El primer concepto a aprender es la diferencia entre sitio web v/s App.  Un buen Ejemplo puede ser BreatheCo.de
 
@@ -129,8 +129,8 @@ Vamos a construir una API basada en REST, pero no tengas miedo del nombre - el e
 
 + Finalmente, APIView debe retornar un objeto de respuesta que contenga el objeto JSON preparado por el serializer.
 
-<before-after width="900px"
-    before="../../assets/images/c7e96be7-a7b6-4b6d-83a2-535b22fdc3b0.png" after="../../assets/images/88f6b44f-01dc-4a13-ba1f-fbab5280d510.png" />
+<BeforeAfter width="900px"
+    before="https://github.com/Lorenagubaira/content/blob/master/src/assets/images/c7e96be7-a7b6-4b6d-83a2-535b22fdc3b0.png?raw=true" after="https://github.com/Lorenagubaira/content/blob/master/src/assets/images/88f6b44f-01dc-4a13-ba1f-fbab5280d510.png?raw=true" />
 
 ### urls.py: El Distribuidor de URL
 
