@@ -1,4 +1,3 @@
-## What is GitHub Codespaces
 
 Modern companies no longer allow developers to work on their local computers; they use provisioning tools. Codespaces is Github's offer for provisioning coding environments. 
 
