@@ -47,9 +47,9 @@ When you open a Github repository using Codespaces, you will be "renting" a comp
 ## Running a project on Codespaces
 
 Go to any GitHub repository and you will be able to open a codespace of it by clicking on the code -> codespaces button, look at this image:
-![open repository codespace](https://github.com/breatheco-de/content/blob/master/src/assets/images/open-codespace.png)
+![open repository codespace](https://github.com/breatheco-de/content/blob/master/src/assets/images/open-codespace.png?raw=true)
 
-The terminal
+## The terminal
 
 As a coder, you need to use the computer terminal sometimes; you can always find or open the terminal by clicking on the hamburger menu on the top left and selecting the "terminal" => "new terminal" option.
 
