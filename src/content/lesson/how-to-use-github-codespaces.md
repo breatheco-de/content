@@ -27,12 +27,16 @@ GitHub calls every coding environment a "codespace". If you start working on a p
 
 > 💻 Every codespace is a -virtual- computer.
 
-Your list of current codespaces (computers) is here: [github.com/codespaces](https://github.com/codespaces). (It's probably empty since you are just learning about it).
-The recommended way to create a new codespace is from a GitHub repository (if you need to learn what Github is, think of it as an online hard drive of code, where every folder is one of your coding projects).
+- Your list of current codespaces (computers) is here: [github.com/codespaces](https://github.com/codespaces). (It's probably empty since you are just learning about it).
+- The recommended way to create a new codespace is from a GitHub repository (if you need to learn what Github is, think of it as an online hard drive of code, where every folder is one of your coding projects).
+
 ![open a codespace](https://github.com/breatheco-de/content/blob/master/src/assets/images/create-codespace.gif?raw=true)
-Once the new codespace opens, it will create an empty computer for you, but it will also download the files from the Github repository folder you specified (your code) to this new computer.
-Finally, it will open a coding editor (probably VSCode, the most used coding IDE in the world) and a terminal to start coding as if the codespace was on your local computer in the first place.
-If you go back to [your codespaces](https://github.com/codespaces), you will find all the computers you have created and be able to re-open them. Changes you made to the files will stay for a few days; you will retain all data as long as you RE-OPEN the same workspace you were working on in the first place.
+
+- Once the new codespace opens, it will create an empty computer for you, but it will also download the files from the Github repository folder you specified (your code) to this new computer.
+
+- Finally, it will open a coding editor (probably VSCode, the most used coding IDE in the world) and a terminal to start coding as if the codespace was on your local computer in the first place.
+
+- If you go back to [your codespaces](https://github.com/codespaces), you will find all the computers you have created and be able to re-open them. Changes you made to the files will stay for a few days; you will retain all data as long as you RE-OPEN the same workspace you were working on in the first place.
 
 ## What is a Github Codespace?
 
