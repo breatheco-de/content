@@ -128,7 +128,7 @@ test('Testing for Hello (mixed)', () => {
 })
 // Tercera prueba posible
 test('Testing for hello (lower)', () => {
-     const result = isUpperCase('Hello');
+     const result = isUpperCase('hello');
      expect(result).toBe(false);
 })
 // Cuarta prueba posible
