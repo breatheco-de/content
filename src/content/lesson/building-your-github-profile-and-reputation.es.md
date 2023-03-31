@@ -45,10 +45,10 @@ Asegúrate de que tenga tu estilo personal, pero en general puedes concentrarte 
 - [ ] Añade una foto o avatar.
 - [ ] Comienza a hacer "commits" y haz "push" desde el primer día en la academia: Github registra e informa públicamente tu actividad como desarrollador en algo llamado [Gráfico de actividad de Github](https://help.github.com/en/articles/viewing-contributions-on-your-profile#contributions-calendar) que es imposible de falsificar. Es por eso que te recomendamos que empieces a hacer "commit" y a colaborar desde el primer día.
 - [ ] Cada repositorio que quieras destacar y publicitar debe incluir:  
-    1. Un detallado README.md
+    1. Un README.md detallado
     2. Demostración en vivo (github pages), capturas de pantalla y gifs.
-    3. Un código muy organizado y limpio y comentarios.
-- [ ] Tu proyecto más importante, el que más te enorgullece, debe estar en la primera sección.
+    3. Un código muy organizado y limpio con comentarios.
+- [ ] Tu proyecto más importante, el que más te enorgullece, debe estar destacado.
 - [ ] Contribuye en a lo menos a 5 proyectos externos. Encuentra proyectos open-source que te gusten y haz contribuciones. En los siguientes enlaces encontrarás proyectos e indicaciones sobre cómo contribuir: 
     - https://www.firsttimersonly.com/
     - http://yourfirstpr.github.io/
@@ -59,4 +59,4 @@ Asegúrate de que tenga tu estilo personal, pero en general puedes concentrarte 
 
 ## Un perfil de ejemplo: 
 
-![Perfil de Github](https://breathecode.herokuapp.com/v1/media/file/ejemplo-readme-png)
+![Dan Abramov Github Profile](https://raw.githubusercontent.com/breatheco-de/content/master/src/assets/images/b04c5254-086a-4b9f-8b86-0cf95fcc3fcddanabramov.png)
