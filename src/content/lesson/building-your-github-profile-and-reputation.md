@@ -42,7 +42,7 @@ Make sure to give your own personal style, but in general you can focus on tryin
 - [ ] On your profile page, include links to your personal website, Linkedin profile, email and social media handle, if relevant.
 - [ ] Add a picture or avatar.
 - [ ] Start committing and pushing from day one: Github tracks and publicly reports your activity as a developer in something called [The Github Activity Graph](https://help.github.com/en/articles/viewing-contributions-on-your-profile#contributions-calendar) it's impossible to fake. That is why we encourage you to start committing and collaborating since day one.
-- [ ] For each repository your want to pin and promote you upload must include:  
+- [ ] **For each repository your want to pin and promote your upload must include:**  
     1. A detailed README.md
     2. Live demo (Github pages), screenshots, and gifs.
     3. Very organized, clean code and comments.
