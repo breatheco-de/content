@@ -27,7 +27,7 @@ Most LearnPack tutorials will come with a button labeled: "Start new exercise" o
 
 ![Learnpack Alert on 4geeks.com](https://github.com/breatheco-de/content/blob/master/src/assets/images/learnpack-alert.png?raw=true)
 
-After clicking on "Start new exercise" a new Gitpod computer will open, and LearnPack will start running immediately. 
+After clicking on "Start new exercise" a new coding environment will open, and LearnPack will start running immediately. 
 
 All LearnPack tutorials come in steps; you will find the instructions on the right side and a button to continue to the `next ->` step.
 
