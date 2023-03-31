@@ -1,10 +1,10 @@
 # Welcome to GitHub
 
-This lesson will define Github, explain it, and review its essential features. Hopefully, by the end of the article, you will be as excited as we are about Github.
+This lesson will define Github.com, explain it, and review its essential features. Hopefully, by the end of the article, you will be as excited as we are about Github.
 
 ## What is GitHub
 
-GitHub is the epicenter of your software developer journey; you'll be interacting with GitHub so much that we cannot even list all the things you can do; here are a few examples:
+GitHub.com is the epicenter of your software developer journey; you'll be interacting with GitHub so much that we cannot even list all the things you can do; here are a few examples:
 
 - GitHub is where you save your code every night: Like a hard drive.
 - It's your professional portfolio: Like a resume.
