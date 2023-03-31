@@ -5,11 +5,12 @@ This lesson will define Github, explain it, and review its essential features. H
 ## What is GitHub
 
 GitHub is the epicenter of your software developer journey; you'll be interacting with GitHub so much that we cannot even list all the things you can do; here are a few examples:
-GitHub is where you save your code every night: Like a hard drive.
-It's your professional portfolio: Like a resume.
-It's the technology needed to collaborate with other developers.
-Your GitHub profile is reviewed by recruiters when considering hiring you.
-You can also meet other developers and cool projects or libraries: Like Linked in.
+
+- GitHub is where you save your code every night: Like a hard drive.
+- It's your professional portfolio: Like a resume.
+- It's the technology needed to collaborate with other developers.
+- Your GitHub profile is reviewed by recruiters when considering hiring you.
+- You can also meet other developers and cool projects or libraries: Like Linked in.
 
 > Github is `LinkedIn + Google Drive` but for developers.
 
