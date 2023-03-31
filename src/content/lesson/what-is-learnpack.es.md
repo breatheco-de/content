@@ -26,7 +26,7 @@ La mayoría de los tutoriales de LearnPack vienen con un botón etiquetado: "Nue
 
 ![Learnpack Alert on 4geeks.com](https://github.com/breatheco-de/content/blob/master/src/assets/images/learnpack-alert.e.png?raw=true)
 
-Luego de darle clic en "Nuevo ejercicio" una nueva computadora de Gitpod se abrirá, y LearnPack va a empezar a correr inmediatamente.  
+Luego de darle clic en "Nuevo ejercicio" una nueva computadora se abrirá, y LearnPack va a empezar a correr inmediatamente.  
 
 Todos los tutoriales de LearnPack  vienen en pasos; vas a encontrar las instrucciones del lado derecho y un botón para continuar al siguiente paso " `next ->`"
 
