@@ -16,9 +16,10 @@ GitHub.com is the epicenter of your software developer journey; you'll be intera
 
 ## Your GitHub Profile
 
-This is [4Geeks Academy's main GitHub profile][https://github.com/4geeksacademy/] on Github (Please click to follow us 🙂 on the top right of the page!).
+This is [4Geeks Academy's main GitHub profile](https://github.com/4geeksacademy/) on Github (Please click to follow us 🙂 on the top right of the page!).
 
-Everyone has a profile located at: `https://github.com/<your username>`. For example: mine is github.com/alesanchezr (follow me 🙂!)
+Everyone has a profile located at: `https://github.com/<your username>`. 
+For example: mine is [github.com/alesanchezr](https://github.com/alesanchezr) (follow me 🙂!)
 
 In this image, you will find the essential parts of your profile.
 ![Github Profile Explanation](https://github.com/breatheco-de/content/blob/master/src/assets/images/github-profile.png?raw=true).
