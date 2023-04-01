@@ -1,6 +1,6 @@
 ---
-title: "How to clone a github repository"
-subtitle: "Cloning is the fastest way to download a project or code, in this lessons we will explain how to clone and the difference it has with forking"
+title: "Cómo clonar un repositorio de github"
+subtitle: "La clonación es la forma más rápida de descargar un proyecto o código, en esta lección explicaremos cómo clonar y la diferencia que tiene con el forking."
 tags: ["git","github"]
 date: "2020-10-19T16:36:30+00:00"
 authors: []
