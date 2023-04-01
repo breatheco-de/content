@@ -89,7 +89,7 @@ For example: Let’s say that you are starting to develop the "Login" feature/fu
 
 > :point_up: **Note on Terminology:** The terms "branch" and "head" are nearly synonyms in GIT. Every branch is represented by one head, and every head represents one branch. Sometimes, "branch" will be used to refer to a head and the entire history of commits preceding that head, whereas "head" will be used to refer exclusively to a single commit object (the most recent commit in the branch).
 
- ## Starting a New Repo** `git init`
+ ## Starting a New Repo `git init`
 
 You can create a new repository whenever you want during the project, it does not have to be at the beginning! The only essential thing to do is that the project has no other repository that has already been created.
 
