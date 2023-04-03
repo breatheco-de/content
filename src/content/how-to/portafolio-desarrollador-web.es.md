@@ -6,7 +6,6 @@ title: "Impulsa tu marca personal como desarrollador con tu portafolio web"
 
 ---
 
-
 En la actualidad el desarrollo web se ha convertido en una de las profesiones con mayor demanda en el mundo, dado que los desarrolladores de esta área son una pieza clave para las empresas y organizaciones, debido al aumento de la digitalización y la necesidad de tener presencia en línea.
 
 El desarrollo web abarca una amplia gama de habilidades y tecnologías que permiten tanto crear como mantener sitios y aplicaciones en internet. Cabe destacar que el desarrollo de una plataforma web va desde la experiencia de usuario (UX) hasta la gestión de bases de datos, además, los desarrolladores pueden especializarse en [ desarrollo front-end](https://4geeks.com/es/lesson/what-is-front-end-development-es) (el lado del cliente), [desarrollo back-end](https://4geeks.com/es/lesson/backend-developer-es) (el lado del servidor) o [full-stack developers](https://4geeksacademy.com/us/full-stack-developer/full-stack-developer) (ambos lados).
@@ -31,13 +30,13 @@ En lugar de mostrar todos tus proyectos elige los que mejor representen tus habi
 1. **Muestra tu proceso:**
 Los empleadores y clientes quieren saber cómo abordas los problemas y cómo llegas a soluciones efectivas. Muestra tu proceso a través de diseños, bocetos y documentación de desarrollo. Incluye capturas de pantalla y detalles sobre cómo abordaste y resolviste los desafíos que encontraste durante el proceso.
 
-1. **Crea una estructura clara y fácil de navegar:**
+2. **Crea una estructura clara y fácil de navegar:**
 Tu portafolio debe ser fácil de navegar y entender. Agrupa tus proyectos por categorías, tecnologías o habilidades que muestran. Agrega descripciones claras para cada proyecto y enfatiza los resultados alcanzados. También debes incluir un apartado con información sobre ti mismo: tu educación, habilidades y experiencia laboral.
 
-1. **Destaca tus habilidades y tecnologías utilizadas:**
+3. **Destaca tus habilidades y tecnologías utilizadas:**
 Además de mostrar tus proyectos, es importante destacar las tecnologías que utilizaste para crearlos. Esto ayuda a los empleadores y clientes a entender tus áreas de especialización y experiencia. Incluye una sección de habilidades en tu portafolio y enumera los lenguajes de programación, marcos, herramientas que utilizas y de las cuales posees gran dominio.
 
-1. **Mantén tu portafolio actualizado:**
+4. **Mantén tu portafolio actualizado:**
 Tu portafolio no es una tarea que se completa una vez y ya está. Debes mantenerlo actualizado y añadir nuevos proyectos y habilidades a medida que los adquieres. Si no has trabajado en ningún proyecto recientemente, crea algunos proyectos personales para demostrar tus habilidades. También debes asegurarte de que tu sitio web esté actualizado y optimizado para los motores de búsqueda.
 
 ## Algunos portafolios web:
@@ -47,7 +46,6 @@ A la hora de crear tu portafolio web, el límite es tu imaginación y para compr
 * [Jacek Jeznach](https://jacekjeznach.com/) -  Desarrollador Front-End / WordPress Expert.
 * [Dejan Markovic](https://dejan.works/) -  Product designer, UI, UX.
 * [Bruno Simon](https://bruno-simon.com/) - Desarrollador Full-stack.
-
 
 Un portafolio bien diseñado puede ser una herramienta poderosa para destacar en tu carrera profesional. Ya sea que estés buscando un nuevo trabajo, buscando clientes para tu negocio independiente o simplemente buscando aumentar tu presencia en línea, un portafolio bien hecho puede ayudarte a destacar en un mercado cada vez más competitivo.
 
