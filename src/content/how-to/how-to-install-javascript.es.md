@@ -165,4 +165,4 @@ De haberse pasado la dirección correcta donde se encuentra el archivo, se mostr
 I can run now outside of the browser!
 ```
 
-Puedes leer contenido relacionado y mucho mas en el blog de [4Geeks](www.4geeks.com).
+Puedes leer contenido relacionado y mucho mas en el blog de [4Geeks](www.4geeks.com/es/how-to).
