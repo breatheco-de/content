@@ -183,7 +183,7 @@ import ReactDOM from 'react-dom'; //import obligtorio del react-dom package
 
 //creando nuestro componente React 
 function MyMainComponent (){ 
-    return <div>Hello World<div>;
+    return <div>Hello World</div>;
 }
 
 
