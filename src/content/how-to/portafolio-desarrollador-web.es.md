@@ -3,10 +3,9 @@ author: "castilloabraham"
 excerpt: "En el desarrollo web es de importe tener un portafolio en línea, te especialices en Front-End, Back-End o Full-Stack se recomienda incluir frecuentemente tus proyectos o trabajos para mostrar tu trayectoria, además de destacar las destrezas que vas adquiriendo. El primer paso para crear tu portafolio es elegir una plataforma, luego solo debes añadir tu contenido."
 template: "post"
 title: "Impulsa tu marca personal como desarrollador con tu portafolio web"
+
 ---
 
-
-# Impulsa tu marca personal como desarrollador con tu portafolio web
 
 En la actualidad el desarrollo web se ha convertido en una de las profesiones con mayor demanda en el mundo, dado que los desarrolladores de esta área son una pieza clave para las empresas y organizaciones, debido al aumento de la digitalización y la necesidad de tener presencia en línea.
 
