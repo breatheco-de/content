@@ -23,7 +23,7 @@ El primer paso para añadir NodeJs en nuestro sistema sería acceder a [este lin
 
 ![Instalar NodeJS](https://i.imgur.com/8eIqVlp.png)
 
-### Windows
+### Como insatalar Javascript en Windows?
 
 Para completar la instalación en Windows, deberás seguir los pasos descritos en el instalador. No requiere ninguna configuración mientras se está instalando, así que será "siguiente", "siguiente", "siguiente", "terminar".
 
@@ -37,7 +37,7 @@ De haberse instalado correctamente, debería de aparecernos una respuesta pareci
 v18.15.0
 ```
 
-### MacOS
+### Como insatalar Javascript en MacOS?
 
 #### Instalando NodeJs mediante descarga desde nodejs.org
 
@@ -69,7 +69,7 @@ Para verificar la instalación, ya sea mediante la descarga desde NodeJs, Homebr
 v18.15.0
 ```
 
-### Linux
+### Como insatalar Javascript en Linux?
 
 Debido a que Linux viene en muchos sabores, hablaremos de como instalar NodeJs en Ubuntu solamente.
 
