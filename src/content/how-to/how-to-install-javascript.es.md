@@ -17,13 +17,13 @@ Cuando hablamos de instalar JavaScript en nuestro sistema, nos referimos a insta
 
 NodeJs es el entorno de ejecución para JavaScript que se utiliza tanto para el desarrollo de aplicaciones web de [Front End](https://4geeks.com/es/lesson/what-is-front-end-development-es) como de [Back End](https://4geeks.com/es/lesson/backend-developer-es). Fue creado con la versión 8 del motor que utiliza Chrome para procesar código JavaScript (recordemos que este lenguaje está diseñado para ser ejecutado en navegadores). 
 
-## Instalar NodeJs
+## Como instalar Javascript (NodeJs)
 
 El primer paso para añadir NodeJs en nuestro sistema sería acceder a [este link](https://nodejs.org/es/download) y seleccionar el Sistema Operativo para comenzar la descarga
 
 ![Instalar NodeJS](https://i.imgur.com/8eIqVlp.png)
 
-### Como instalar Javascript en Windows?
+### Windows
 
 Para completar la instalación en Windows, deberás seguir los pasos descritos en el instalador. No requiere ninguna configuración mientras se está instalando, así que será "siguiente", "siguiente", "siguiente", "terminar".
 
@@ -37,7 +37,7 @@ De haberse instalado correctamente, debería de aparecernos una respuesta pareci
 v18.15.0
 ```
 
-### Como instalar Javascript en MacOS?
+### MacOS
 
 #### Instalando NodeJs mediante descarga desde nodejs.org
 
@@ -69,7 +69,7 @@ Para verificar la instalación, ya sea mediante la descarga desde NodeJs, Homebr
 v18.15.0
 ```
 
-### Como instalar Javascript en Linux?
+### Linux
 
 Debido a que Linux viene en muchos sabores, hablaremos de como instalar NodeJs en Ubuntu solamente.
 
