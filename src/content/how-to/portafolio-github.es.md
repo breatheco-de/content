@@ -1,12 +1,10 @@
 ---
 author: "castilloabraham"
-excerpt: "Un Github es una plataforma que permite colaborar y compartir los trabajos y proyectos entre desarrolladores, siendo una herramienta de tanta utilidad es clave para tener mayor presencia en línea, y es de gran importancia la actualización del mismo. Los GitHubs son ideales para la creación de tu portafolio web, aprovecha esa herramienta para potenciar tu futuro."
+excerpt: "Aprende con nosotros como crear un Portfolio usando GitHub y sobresaltar entre el resto de candidatos mientras buscas un nuevo trabajo."
 template: "post"
-title: "GitHub, el mejor amigo a la hora de potenciar tu carrera profesional"
+title: "Como crear un Portfolio usando GitHub?"
 
 ---
-
-# GitHub, el mejor amigo a la hora de potenciar tu carrera profesional
 
 ¿Alguna vez has trabajado en un proyecto de software con otros desarrolladores y has tenido dificultades para coordinar los cambios en el código fuente? ¿Te has preguntado cómo sería colaborar en proyectos de software con desarrolladores de todo el mundo en tiempo real? En el 2008 se creó GitHub, con el fin de abordar esta problemática, esta es una plataforma de alojamiento de código fuente que permite a los desarrolladores colaborar y compartir su trabajo con otros.
 
