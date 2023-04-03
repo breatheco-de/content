@@ -3,6 +3,7 @@ author: "castilloabraham"
 excerpt: "Un Github es una plataforma que permite colaborar y compartir los trabajos y proyectos entre desarrolladores, siendo una herramienta de tanta utilidad es clave para tener mayor presencia en línea, y es de gran importancia la actualización del mismo. Los GitHubs son ideales para la creación de tu portafolio web, aprovecha esa herramienta para potenciar tu futuro."
 template: "post"
 title: "GitHub, el mejor amigo a la hora de potenciar tu carrera profesional"
+
 ---
 
 # GitHub, el mejor amigo a la hora de potenciar tu carrera profesional
