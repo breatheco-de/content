@@ -13,7 +13,7 @@ tags: ["javascript"]
 
 **Coding is not HTML, CSS or Position and Display…** Those languages were not designed for developers, they are just the way we have to render stuff in a browser.
 
-**Coding is making *the computer* "obey"…**
+**Coding is making *the computer* " to obey"…**
 
 Everybody uses computers for different reasons: some computers are created to help people in their office (like personal computers), others to keep a room at a specific temperature (like [the NEST](https://nest.com/es/)), others are made to walk on Mars and so many more tasks.
 
