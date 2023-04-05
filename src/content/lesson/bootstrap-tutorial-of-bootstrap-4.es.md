@@ -34,7 +34,7 @@ Esto es una columna: <div class="col–sm–x">
 ```
 ![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/3884f515-dd7a-48f2-b238-9e2ec26de02d.png?raw=true)
 
-Bootstrap ha dividido el ancho de la pantalla en  `12 slots` (espacios) - cada uno de ellos con un ancho de fila total  de 8.33%. El tamaño de una columna, puede ir de entre 1 y 12 slots o espacios.
+Bootstrap ha dividido el ancho de la pantalla en  `12 slots` (espacios) -cada uno de ellos con un ancho de fila total  de 8.33%-. El tamaño de una columna, puede ir de entre 1 y 12 slots o espacios.
 
 Por otro lado, las columnas fueron hechas para vivir dentro de las filas (como pasa entre `<td>` y `<tr>`),  siempre necesitas abrir una fila antes de abrir una columna.  Todas las columnas en una fila deben sumar un máximo de 12 espacios.
 
@@ -134,7 +134,7 @@ La funcionalidad de Javascript en Bootstrap requiere que se incluyan las librer�
 ## Componentes de Bootstrap 4
 
 
-HTML es súper básico, sólo tiene un par de etiquetas - ya los sabíamos. Pero cuando revisas la web hoy en día, ves otra cosa… actualmente las páginas web tienen menús, íconos, barras de carga, etc. ¿Dónde están esas etiquetas? ¡Ninguna de ellas está definida en HTML!
+HTML es súper básico, sólo tiene un par de etiquetas -ya los sabíamos-. Pero cuando revisas la web hoy en día, ves otra cosa… actualmente las páginas web tienen menús, íconos, barras de carga, etc. ¿Dónde están esas etiquetas? ¡Ninguna de ellas está definida en HTML!
 
 Todos los desarrolladores tienen que simular estos elementos adicionales cada vez que crean un sitio web, tienen que hacer todo desde cero y eso toma muchísimo tiempo.
 
@@ -280,7 +280,7 @@ Si estás migrando tu proyecto a nueva versión de Bootstrap, recuerda siempre v
 
 El éxito no llega de la noche a la mañana.  Este es tu primer logro.  Déjame preguntarte ¿te sientes capaz de usar HTML, CSS, Layouts y Bootstrap?  ¡No te mientas!
 
-No más Lecciones sobre este tema - es momento de entregar.  Es hora de enfocarse en el proyecto de clase.  Recuerda honrar los valores de los desarrolladores. Calma.
+No más Lecciones sobre este tema -es momento de entregar-.  Es hora de enfocarse en el proyecto de clase.  Recuerda honrar los valores de los desarrolladores. Calma.
 
 <iframe src="https://www.youtube.com/embed/RqHNyyvfafE" frameborder="0" allowfullscreen></iframe>
 
