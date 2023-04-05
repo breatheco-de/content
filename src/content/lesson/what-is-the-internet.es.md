@@ -67,7 +67,7 @@ Todo está conectado. La mejor manera de entender esto es comparándolo con el s
 
 ## El Navegador Web
 
-¿Recuerdas cómo dijimos que los servidores son los lotes de construcción? Bueno, para alojar un sitio web, los servidores deben cumplir todos los requisitos necesarios para que la página web no se bloquee (al igual que los lotes de construcción).
+¿Te acuerdas de cómo dijimos que los servidores son los lotes de construcción? Bueno, para alojar un sitio web, los servidores deben cumplir todos los requisitos necesarios para que la página web no se bloquee (al igual que los lotes de construcción).
 
 Los sitios web residen en los servidores. Cuando los usuarios desean visitar sitios web, deben ingresar la dirección URL en su navegador. Esto los llevará al vestíbulo o entrada de la página web (que se llama "index.html").
 
