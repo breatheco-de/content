@@ -134,7 +134,7 @@ La funcionalidad de Javascript en Bootstrap requiere que se incluyan las librer�
 ## Componentes de Bootstrap 4
 
 
-HTML es súper básico, sólo tiene un par de etiquetas - ya los sabíamos. Pero cuando revisas la web hoy en día, ves otra cosa… actualmente las páginas web tienen menús, íconos, barras de carga, etc. ¿Dónde están esas etiquetas? ¡Ninguna de ellas está definida en HTML!
+HTML es súper básico, sólo tiene un par de etiquetas (ya los sabíamos). Pero cuando revisas la web hoy en día, ves otra cosa… actualmente las páginas web tienen menús, íconos, barras de carga, etc. ¿Dónde están esas etiquetas? ¡Ninguna de ellas está definida en HTML!
 
 Todos los desarrolladores tienen que simular estos elementos adicionales cada vez que crean un sitio web, tienen que hacer todo desde cero y eso toma muchísimo tiempo.
 
@@ -266,7 +266,7 @@ La documentación oficial de Bootstrap es increíble!! No necesitamos copiar y p
 + [Utilities or Helper classes:](https://getbootstrap.com/docs/4.1/utilities/borders/) Clases muy útiles para hacer cosas como centrar el texto, centrar una columna o contenedor, agregar un fondo, etc.
 
  
-| :point_up : Versiones de Bootstrap y su descarga: 
+Versiones de Bootstrap y su descarga: 
 
 Bootstrap tiene varias versiones, siempre verifica que estés usando la última versión de Bootstrap en tu proyecto. Aquí podrás encontrar todas las versiones disponibles:[https://getbootstrap.com/docs/versions/](https://getbootstrap.com/docs/versions/).
 
