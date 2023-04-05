@@ -26,7 +26,7 @@ Uno de los defectos en CSS, es la forma en que funcionan los layouts: trabajar c
 
 ## Ahora todo está dividido en Filas y Columnas
 
-Los creadores de Bootstrap, replicaron el mismo concepto que tienen las `<table>`, pero en vez de usar tablas usaron `<div>` (contenedores de cajas). Ellos no podían crear sus propias etiquetas en HTML, porque eso requiere una nueva versión de HTML e iba a hacer a Bootstrap incompatible con los navegadores actuales. Las etiquetas debían ser las mismas - por eso decidieron anular el comportamiento que tiene un `<div>` por defecto con las clases.
+Los creadores de Bootstrap, replicaron el mismo concepto que tienen las `<table>`, pero en vez de usar tablas usaron `<div>` (contenedores de cajas). Ellos no podían crear sus propias etiquetas en HTML, porque eso requiere una nueva versión de HTML e iba a hacer a Bootstrap incompatible con los navegadores actuales. Las etiquetas debían ser las mismas, por eso decidieron anular el comportamiento que tiene un `<div>` por defecto con las clases.
 
 ```html
 Esto es una fila: <div class="row">
