@@ -199,7 +199,7 @@ Este es probablemente el componente de Bootstrap más usado, cada sitio web tien
 
 + La sección de "equipo" de un sitio web donde listas los distintos empleados.
 + Un típico muro de Pinterest.
-+ Cualquier historia de una red social como Instagram, Facebook, twitter, etc.
++ Cualquier historia de una red social como Instagram, Facebook, Twitter, etc../workspace/content/src/content/lesson/bootstrap-tutorial-of-bootstrap-4.es.md
 
 Aquí hay un ejemplo de cómo puede verse un sitio web con una "Card":
 
