@@ -32,7 +32,7 @@ Cuando aprendes en público, conviertes las redes sociales en tu cuaderno de not
 
 ## ¿Cómo empezar a aprender en público?
 
-- Crea cuentas en algunas de tus redes sociales preferidas como: LinkedIn (muy recomendable), Twitter, Instagram, Redit, etc.
+- Crea cuentas en algunas de tus redes sociales preferidas como: LinkedIn (muy recomendable), Twitter, Instagram, Reddit, etc.
 - Asegúrate de que tu perfil en esas cuentas se vea bien: Un perfil profesional, que te describa bien como desarrollador.
 - Cada vez que construyas un proyecto asegúrate de publicarlo en tus redes sociales, [aquí tienes un ejemplo de publicación de uno de los alumnos de la Academia 4Geeks](https://www.linkedin.com/feed/update/urn:li:activity:6750086679345815552/).
 - Únete a [#100DaysOfCode](https://www.100daysofcode.com/) y hazlo público en Twitter, Instagram y/o LinkedIn, ¡hay mucha gente siguiendo ese reto, puedes unirte a la discusión y colaboración!
