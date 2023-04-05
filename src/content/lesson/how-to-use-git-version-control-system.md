@@ -306,7 +306,7 @@ This would do the following:
 
 + Create a directory `myfirstrepo` and initialize a repository in it.
 + Copy all the commit objects from the project into the new repository.
-+ **Add a remote repository** reference named `origin` to the new repository, and associate *origin* with `git@github.com:alesanchezr/myfirstrepo.git` as described below. (Like *master*, *origin* is a default name used by Git).
++ **Add a remote repository** reference named `origin` to the new repository, and associate *origin* with `git@github.com:alesanchezr/myfirstrepo.git` as described below. (like *master*, *origin* is a default name used by Git).
 + **Add remote heads** named `origin/\[head-name\]` that correspond to the heads in the remote repository.
 + Set up one head in the repository to **track** the corresponding `origin/\[current-head-name\]` head, namely the one that was currently active in the repository being cloned.
   
