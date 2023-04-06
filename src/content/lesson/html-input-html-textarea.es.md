@@ -27,7 +27,7 @@ Aquí hay un ejemplo de un formulario simple en HTML:
 
 La siguiente es una lista de todos los elementos posibles que podemos usar para recibir cualquier entrada o input del usuario:
 
-|**Name**   |**Declaration**   |**Description**   |
+|**Nombre**   |**Declaración**   |**Descripción**   |
 |:----------|:-----------------|:-----------------|
 |Texto      |`<input type="text">`   |El input de texto está destinada a recibir cualquier pequeño string de caracteres como: nombre de usuario, nombre, apellido, fecha de nacimiento, etc.<br>`<input type="text" name="Name" />name="comments"><textarea/>`   |
 |Textarea |`<textarea>`   |El área de texto es ideal para inputs de texto largos. Su principal diferencia respecto al input de texto es su capacidad de permitir múltiples líneas.<br>`<textarea name="comments"><textarea/>`   |
