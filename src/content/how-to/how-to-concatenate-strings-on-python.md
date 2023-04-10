@@ -37,32 +37,32 @@ print("Hello my name is " + name +  " and I'm a developer")
 
 ## Concatenate strings using the += operator
 
-We can use the += Operator to concatenate strings as well, it's pretty similar to using the `+` Operator, but different since what we are concatenating will modify the value of the original string.
+We can use the `+=` operator to concatenate strings as well, it's pretty similar to using the `+` operator, but in this we will modify the value of the original string.
 
 ```python
 #Concatenate using the += operator
-text = "Python"
-str1 = "<3"
-text+= str1
-print(text)
-#Output-> Python<3
+fullname = "Alex "
+lastname = "Smith"
+fullname += lastname
+print(fullname)
+#Output-> Alex Smith
 ```
 
-Since we are "adding" string values to our variable **text**, these values will be concatenated as they are, no space will be automatically added.
+> Notice that there is a space inside the string, otherwise fullname's value would be "AlexSmith". Remember to add the spaces when needed.
 
-### Concatenate an int or float value with text with str()
+### Concatenate an int or float value with text using str()
 
-Numbers and strings are data type completely different. When we want to add a number (int, float, etc) to a string, we will need to use the `str()` to convert that number.
+Numbers and strings are data type completely different. When we want to add a number (int, float, etc) to a string, we will need to use the `str()` to convert that number into a string.
 
 ```python
-#Concatenate using the + Operator with numbers
-str1 = "Geeks"
-int1 = 4
-print("At " + str(int1) + " " + str1 +  " Academy we love Python! <3")
-#Output-> At 4 Geeks Academy we love python! <3
+# Concatenate using the + Operator with numbers
+geeks_word = "Geeks"
+geeks_number = 4
+print("At " + str(geeks_number) + geeks_word +  " Academy we love Python! <3")
+#Output-> At 4Geeks Academy we love python! <3
 ```
 
-As stated above, we are adding spaces for the render to respect writing rules (all words and numbers separated from one another).
+As stated above, we are adding spaces for the render to respect writing rules.
 
 If we would not convert the `int1` number variable to a **string**, we would receive the following error letting you know you are trying to concatenate an Integer with a String.
 
@@ -70,62 +70,59 @@ If we would not convert the `int1` number variable to a **string**, we would rec
 TypeError: can only concatenate str (not "int") to str
 ```
 
-
 ## Concatenate strings on Python using the f-Strings
 
-Python f-Strings (formatted string literals) makes writing strings in a more clear and understanding way for humans. This option was [introduced on Python](https://4geeks.com/lesson/intro-to-python) 3.6 so keep in mind backward compatibility when using it.
+Python f-Strings (formatted string literals) makes writing strings faster and much easier. This option was [introduced on Python](https://4geeks.com/lesson/intro-to-python) 3.6 so keep in mind backward compatibility when using it.
 
-This is one of the most used methods among experienced developers because of the ease to insert `variables` into the **square brackets**. The variable(s) will be evaluated and a string representation will be displayed. 
+This is one of the most used methods among experienced developers because of the ease to insert `variables` into the **curly brackets**. The variable(s) will be evaluated and a string representation will be displayed. 
 
 Implementation: 
 
 ```python
 #Concatenate using the f-Strings method
-str1 = "Geeks"
-print(f"Showing the str1 variable: {str1} using f-String")
-#Output-> Showing the str1 variable: Geeks using f-String
+geek_word = "Geeks"
+print(f"Showing the geek_word variable: {geek_word} using f-String")
+#Output-> Showing the geek_word variable: Geeks using f-String
 ```
 
 Making use of the `f-Strings` concatenation, we don't need to convert numbers (Int, Float, etc) to string to be able to display them inside the curly brackets.
 
 ```python
 #Concatenate using the f-Strings method with numbers 
-str1 = "Geeks"
-int1 = 4
-print(f"At {int1} {str1} Academy we love Python! <3")
-#Output-> At 4 Geeks Academy we love python! <3
+geek_word = "Geeks"
+geek_number = 4
+print(f"At {geek_number}{geek_word} Academy we love Python! <3")
+#Output-> At 4Geeks Academy we love python! <3
 ```
 
 ## Concatenate using .format()
 
 Another way to concatenate in Python is by making use of the `format()` method. It works similar to `f-Strings` since they both use curly brackets `{}` to insert variables but is available from version 2.7.
 
-This method doesn't need for the number values to be converted into strings.
+This method doesn't need either to convert the number values into strings.
 
 ```python
 #Concatenate using the .format() method
-str1 = "Geeks"
-str2 = "Academy"
-int1 = 4
-text = "{}{}{}".format(int1, str1, str2)
+geek_word = "Geeks"
+geek_number = 4
+text = "{}{} Academy".format(geek_number, geek_word)
 print(text)
 #Output-> 4GeeksAcademy
 ```
 
-As you can see, the result returned is the expected, but with spacing between words.
+As you can see, the result returned is the expected, but without spacing between words.
 
 ## Concatenate using % operator
 
-The `%` operator is an older way to concatenate strings that work very similar to the '.format()` method. We use `%s` as placeholders for different values, as we did with the curly brackets in previous examples.
+The `%` operator is an older way to concatenate strings that work very similar to the `.format()` method. We use `%s` as placeholders for different values, as we did with the curly brackets in previous examples.
 
 ```python
 #Concatenate using the % Operator
-str1 = "Geeks"
-str2 = "Academy"
-int1 = 4
-text = "%s%s%s" % (int1, str1, str2)
+geek_word = "Geeks"
+geek_number = 4
+text = "%s%s Academy" % (geek_number, geek_word)
 print(text)
-#Output-> 4GeeksAcademy
+#Output-> 4Geeks Academy
 ```
 
 ## Concatenate using the * Operator 
@@ -134,12 +131,11 @@ The use of the `*` Operator is not a concatenation in the way we have been doing
 
 ```python
 #Concatenate using the * Operator
-str1 = "4 Geeks Academy "
+str1 = "4Geeks Academy "
 print(str1*3)
-#Output-> 4 Geeks Academy 4 Geeks Academy 4 Geeks Academy 
+#Output-> 4Geeks Academy 4Geeks Academy 4Geeks Academy 
 ```
 
-If you format the **string** variable correctly (leaving a space at the end of the sentence/word), this is the best way to repeat a line of text as many times as you may need.
+> If you format the **string** variable correctly (leaving a space at the end of the sentence/word), this is the best way to repeat a line of text as many times as you may need.
 
-
-You can read more related topics at [4Geeks](https://4geeks.com/lesson/intro-to-python). Hope you enjoyed the reading and keep on the Geek side!
+You can read more related topics at [4Geeks](https://4geeks.com). Hope you enjoyed the reading and keep on the Geek side!
