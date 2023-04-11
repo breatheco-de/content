@@ -11,8 +11,6 @@ status: "published"
 
 ---
 
-# Fetch API
-
 **Un vistazo rápido a la API con Fetch**
 
 Piensa en un **fetch** como una acción simple. Tú das una **solicitud** y recibes una **respuesta**. Fetch Api nos brinda el **método** **fetch ()** , que nos permite acceder a esas solicitudes y respuestas, utilizando javascript.
