@@ -10,8 +10,6 @@ tags: ["async","await","promise","asynchronous"]
 
 ---
 
-## Asynchronous Programming with JavaScript 
-
 Up to this point, we have used JavaScript code to run simple web applications, which include: using variables, calling functions, and playing with the ***DOM***. On functions, specifically, we even passed functions into another function (***callback functions***) and there's more to talk about this.
 
 Let's start by stating that JavaScript is synchronous and single-threaded by definition, i.e: the code is executed from line 1 until the last one, one at a time and in order(ish). Take a look at this example:
