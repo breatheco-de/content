@@ -42,7 +42,7 @@ The following project is a To-Do List application with 2 main user stories:
 + Create task (already developed and working).
 + Delete Task.
 
-To code the delete functionality, we have to update 4 mains files: (1) The Component (for when the user clicks on the track), (2) The Actions, (3) The Store (two times), and, (4) The Component one last time.  Its only 3 files and 5 updates. And you have to do that for every user story that you are going to build into your application.
+To code the delete functionality, we have to update 4 mains files: (1) The Component (for when the user clicks on the track), (2) The Actions, (3) The Store (two times), and, (4) The Component one last time.  It's only 3 files and 5 updates. And you have to do that for every user story that you are going to build into your application.
 
 > *In the end, working with Flux has to become something as automatic as riding a bike.*
 
