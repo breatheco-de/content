@@ -118,6 +118,8 @@ In the next example we are applying an "odd" class to the cells of this table, a
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/rdLkmx1t/11/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/rdLkmx1t/11/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
+
 ### Tag selection
 
 |**Selector**   |**Description**   |**Example**   |
@@ -127,6 +129,8 @@ In the next example we are applying an "odd" class to the cells of this table, a
 Next, we are adding color (green) to the  background of each `td` (cells) of the table:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/y89Lgwb0/11/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/y89Lgwb0/11/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 ### Multiselector
 
@@ -169,6 +173,10 @@ What happens if an element of the page is selected in two different selectors an
 You must have a very good understanding of the CSS hierarchy in order to understand how the elements **correspond, overwrite, and even null styles between them.**
 
 The browser gives priority to more specific selectors like `#id` than the more general selectors like tags. In the following example, we changed the color of all the `<li>` (the items in the list) to blue, but then we changed the text of the second element to red. In this way we demonstrate that the ID selector will always prevail over selecting all the elements with the same tag.
+
+<iframe width="100%" height="300" src="//jsfiddle.net/josemoracard/p6mbve3k/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<div align="right"><small><a href="//jsfiddle.net/josemoracard/p6mbve3k/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 ## Properties
 
