@@ -39,7 +39,7 @@ Parameters:
 
 ## How to Use JavaScript Array Slice?
 
-Using the `slice` method in JavaScript is simple. Let’s explore different use cases:
+Using the `slice` method in [JavaScript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript) is simple. Let’s explore different use cases:
 
 ```jsx
 const courses = ["JavaScript", "Python", "Java", "C#", "Ruby"];
@@ -106,4 +106,4 @@ The `slice` method is a great useful tool in JavaScript. It can help us to write
 
 ## Conclusion
 
-The **`.slice()`** method is a powerful method that can be used to create a copy of an array or return a portion of the original array. It is important to know that the returned array is a shallow copy, which means that the slice method does not alter the original array, and can make working with arrays more easier and manageable.
+The **`.slice()`** method is a powerful method that can be used to create a copy of an array or return a portion of the original array. It is important to know that the returned array is a shallow copy, which means that the slice method does not alter the original array, and can make working with arrays more easier and manageable. You can learn more about this topic and others at the blog of [4Geeks](https://4geeks.com/).
