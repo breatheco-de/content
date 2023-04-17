@@ -6,7 +6,7 @@ authors: ["julianvillalba"]
 
 ---
 
-Arrays are an essential and useful data structure of any programming language. They allow you to store and manipulate large amount of data easily. JavaScript has several methods that make working with arrays straightforward. One of the most useful methods is the **slice** method.
+Arrays are an essential and useful data structure of any programming language, they allow you to store and manipulate large amount of data easily. JavaScript has several methods that make working with arrays straightforward, you can learn more about [arrays in JavaScript](https://4geeks.com/lesson/what-is-an-array-define-array) at 4Geeks. One of the most useful methods is the **slice** method.
 
 ## Array.slice()
 
