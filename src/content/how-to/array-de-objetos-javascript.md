@@ -2,7 +2,7 @@
 title: "¿Qué es y Cómo hacer un Array de objetos en Javascript?"
 subtitle: "Aprende cómo trabajar con Array de Objetos en Javascript con 4Geeks. Domina las técnicas para manipular datos complejos y mejorar tus habilidades."
 tags: ["javascript"]
-authors: ["javierseiglie"]
+authors: ["diegorojas"]
 
 ---
 
