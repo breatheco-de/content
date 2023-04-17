@@ -1,3 +1,11 @@
+---
+title: "¿Qué es y Cómo hacer un Array de objetos en Javascript?"
+subtitle: "Aprende cómo trabajar con Array de Objetos en Javascript con 4Geeks. Domina las técnicas para manipular datos complejos y mejorar tus habilidades."
+tags: ["javascript"]
+authors: ["javierseiglie"]
+
+---
+
 ## Que es un array de objetos
 
 En JavaScript, un array es una estructura de datos que se utiliza para almacenar una colección de elementos del mismo tipo. Los elementos dentro de un array se organizan en una secuencia ordenada y se acceden mediante un índice numérico.Los [arrays en JavaScript](https://4geeks.com/es/lesson/array-arreglo-en-javascript) pueden contener cualquier tipo de dato, incluso otros arrays. 
