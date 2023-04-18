@@ -13,7 +13,7 @@ In this article, we will provide a step-by-step guide on how to update Python. W
 
 > If you don't know Python, you can start with a brief [introduction to Python](https://4geeks.com/lesson/intro-to-python)
 
-![How to update Python on Windows](https://i.imgur.com/YkEZaRM.jpeg?raw=true)
+![How to update Python on Windows](https://github.com/breatheco-de/content/blob/master/src/assets/images/upgrade-to-python-3.11.1.jpeg?raw=true)
 
 Ever wonder how to update Python on Windows, follow this simple step-by-step guide and you´ll have the latest version in no time.
 
