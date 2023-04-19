@@ -18,7 +18,7 @@ If you want to get started in the tech industry, you are in the right place. On 
 
 Javascript is one of the most popular programming languages in the world. That means that there are tons of resources available online, like tutorials, documentation, and communities where you can ask for help. Plus, learning a popular language like Javascript can be a great way to set yourself up for success in the job market.
 
-But there's more to it than that. JavaScript runs right in your web browser, this makes it a really powerful tool for creating interactive, dynamic websites. Think about all the cool things you've seen on the web, from animations and games to interactive forms and data visualizations. A lot of those things are made possible with JavaScript. It is a great language for beginners, it has a relatively simple syntax, which means it's easier to read and write than some other languages. Plus, it's really versatile (you can use it for everything from simple website interactions to complex web applications).
+But there's more to it than that. Javascript runs right in your web browser, this makes it a really powerful tool for creating interactive, dynamic websites. Think about all the cool things you've seen on the web, from animations and games to interactive forms and data visualizations. A lot of those things are made possible with Javascript. It is a great language for beginners, it has a relatively simple syntax, which means it's easier to read and write than some other languages. Plus, it's really versatile (you can use it for everything from simple website interactions to complex web applications).
 
 ## About 4Geeks
 
