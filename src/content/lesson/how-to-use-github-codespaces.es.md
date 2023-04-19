@@ -61,28 +61,3 @@ Todo computador tiene una terminal, y puedes usarla para hacer casi todo lo que 
 No tienes que aprender los comandos de la terminal todavía, pero [recomendamos encarecidamente leer esta lección](https://4geeks.com/lesson/the-command-line-the-terminal) para familiarizarte con ella y entender sus funciones y limitaciones.
 
 ![terminal command](https://github.com/breatheco-de/content/blob/master/src/assets/images/terminal-command.png?raw=true)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
