@@ -204,14 +204,17 @@ Es muy común la necesidad de ordenar arrays. Por ejemplo: ordenar una lista de 
 
 ### Sort y Reverse
 
-Ellos hacen lo mismo, excepto que Reverse lo hace al revés. Ambos ordenan usando la lógica de comparación de string, lo que significa que el string "25" es más grande que "100", porque "2" es más grande que "1".
+Hacen algo parecido aunque no exactamente igual. Sort ordena alfabéticamente los elementos del Array y Reverse ordena los elementos al revés de cómo estaban originalmente. Para que quede más claro mira las diferencias de los resultados de usar Reverse antes y después de Sort.
+Ambos ordenan usando la lógica de comparación de string, lo que significa que el string "25" es más grande que "100", porque "2" es más grande que "1".
 
 ```javascript
 var frutas = ["Banana", "Naranja", "Manzana", "Mango"];
-    frutas.sort();
-    console.log(frutas); //[ 'Manzana', 'Banana', 'Mango', 'Naranja' ] 
     frutas.reverse();
-    console.log(frutas); //[ 'Naranja', 'Mango', 'Banana', 'Manzana' ]
+    console.log(frutas);//[ 'Mango', 'Manzana', 'Naranja', 'Banana' ]
+    frutas.sort();
+    console.log(frutas); //[ 'Banana', 'Mango', 'Manzana', 'Naranja' ]
+    frutas.reverse();
+    console.log(frutas); //[ 'Naranja', 'Manzana', 'Mango', 'Banana' ]
 ```
 
 ### Ordenando números
