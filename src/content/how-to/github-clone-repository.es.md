@@ -10,6 +10,7 @@ status: "draft"
 ---
 
 # Clonar un repositorio de GitHub
+
 Puedes **clonar un repositorio git** de la siguiente manera:
 
 ```bash session
@@ -145,35 +146,3 @@ También puedes usar la aplicación de escritorio de GitHub para clonar un repos
 ![GitHub App Steps 3](https://i.imgur.com/UVc92fA.png?raw=true)
 
 El siguiente video describe paso a paso todo lo que se ha explicado en este artículo **GitHub Clone Repository**:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
