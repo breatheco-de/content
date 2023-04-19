@@ -10,7 +10,7 @@ GitHub.com is the epicenter of your software developer journey; you'll be intera
 - It's your professional portfolio: Like a resume.
 - It's the technology needed to collaborate with other developers.
 - Your GitHub profile is reviewed by recruiters when considering hiring you.
-- You can also meet other developers and cool projects or libraries: Like Linked in.
+- You can also meet other developers and cool projects or libraries: Similar to Linked in.
 
 > Github is `LinkedIn + Google Drive` but for developers.
 
@@ -22,7 +22,7 @@ Everyone has a profile located at: `https://github.com/<your username>`.
 For example: mine is [github.com/alesanchezr](https://github.com/alesanchezr) (follow me 🙂!)
 
 In this image, you will find the essential parts of your profile.
-![Github Profile Explanation](https://github.com/breatheco-de/content/blob/master/src/assets/images/github-profile.png?raw=true).
+![Github Profile Explanation](https://github.com/breatheco-de/content/blob/master/src/assets/images/github-profile.png?raw=true)
 
 > Note: there are many ways to [make your GitHub profile amazing](https://4geeks.com/lesson/building-your-github-profile-and-reputation).
 
@@ -33,12 +33,12 @@ Github's original purpose (before turning into a social network and many other t
 > A repository is just a folder with code inside. For example, this repository contains [all the code for the React.js library](https://github.com/facebook/react).
 
 ![The typical Github Repository Page](https://raw.githubusercontent.com/breatheco-de/knowledge-base/main/images/breatheco-de-exercise-postcard-The-ideal-first-project-for-anyone-interested-in-practicing-HTML-CSS-with-a-real-life-example-.png)
-Above you can see explanation of the typical Github Repository Page
+Above you can see an explanation of the typical Github Repository Page
 
-Everything in Github revolves around code repositories:
+### Everything in Github revolves around code repositories:
 
 1. You can create new repositories for every project you start, and upload your code into that repo.
-2. Share the repo with everyone, people 👍🏼 like it, 📣 comment on it, open tickets about bug fixes, ask new features, etc.
+2. Share the repo with everyone, people 👍🏼 like it, 📣 comment on it, open tickets about bug fixes, ask for new features, etc.
 3. Give access to other developers to edit your code inside your repository.
 4. Any stranger can download your code, make changes and propose the changes for your approval.
 5. Many other fabulous things you will discover.
@@ -47,7 +47,7 @@ Everything in Github revolves around code repositories:
 
 The Github Star ⭐️ is the primary way to bookmark other people's repositories; it is a good idea to bookmark a repo because you will probably lose track of it; there are millions of amazing repos. You can categorize them.
 
-We recommend you bookmark most of the academy repositories as you will need and use them a lot. Here is a few of them:
+We recommend you bookmark most of the academy repositories, as you will need and use them a lot. Here are a few of them:
 
 - [The main academy repository](https://github.com/4GeeksAcademy/About-4Geeks-Academy).
 - [All the interactive tutorials](https://github.com/4GeeksAcademy/Interactive-Tutorials).
@@ -60,5 +60,5 @@ Open Source has become one of the main drivers in today's world; Github has ways
 - There is a search on the top navbar.
 - You can search for tags or technologies.
 - There is a feed of activity, and you can see what other devs you follow are doing.
-- Some people curate repos: Here's an [awesome list or repos](https://github.com/topics/awesome).
+- Some people curate repos: Here's an [awesome list of repos](https://github.com/topics/awesome).
 - You can also see trending repos and recommendations in the feed.
