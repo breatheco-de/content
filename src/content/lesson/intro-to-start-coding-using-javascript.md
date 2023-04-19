@@ -1,5 +1,5 @@
 ---
-title: "Introduciton to Start Coding Using Javascript"
+title: "Introduction to Start Coding Using Javascript"
 subtitle: "You will learn all about the fundamentals of Javascript, starting with the basics of syntax, conditionals, functions, and arrays."
 tags: ["javascript"]
 authors: ["tomasgonzaleza"]
@@ -7,7 +7,7 @@ authors: ["tomasgonzaleza"]
 ---
 
 <!--hide-->
-# Introduciton to Start Coding Using Javascript
+# Introduction to Start Coding Using Javascript
 <!--endhide-->
 
 We all know the importance, growth, and impact of the tech industry nowadays. More and more developers are needed everywhere. Just in the US, the Bureau of Labor Statistics projects to have more than a million open jobs by 2024, for software developers.
