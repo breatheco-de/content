@@ -10,19 +10,21 @@ authors: ["diegorojas"]
 
 En JavaScript, un array es una estructura de datos que se utiliza para almacenar una colección de elementos del mismo tipo. Los elementos dentro de un array se organizan en una secuencia ordenada y se acceden mediante un índice numérico. Los [arrays en Javascript](https://4geeks.com/es/lesson/array-arreglo-en-javascript) pueden contener cualquier tipo de dato, incluso otros arrays. 
 
-Un array de objetos en Javascript es una estructura de datos muy útil que te permite almacenar varios objetos en una sola variable. Esto convierte a esta estructura de almacenamiento en una herramienta muy útil y ampliamente utilizada a la hora de trabajar con datos complejos.
 
-Por ejemplo, si deseas crear una aplicación que te permita enviar y recibir mensajes, puedes crear un array de objetos para almacenar los mensajes junto con sus propiedades en el mismo.
 
-En este ejemplo se muestra como se crearía esta estructura:
+En javascript un array de objetos es una estructura de datos muy útil que permite almacenar varios objetos en una sola variable, cada uno de estos objetos con sus propios valores y métodos. Esto convierte a esta estructura de datos en una herramienta muy útil y ampliamente utilizada en la programación.
+
+
+Por ejemplo. Si deseas crear una aplicación de chat que te permite enviar y recibir mensajes, puedes hacer uso de esta estructura de datos para almacenar los diferentes mensajes y los usuarios que están conversando.
+
 
 ```js
-let usersConversation = [
+var usersConversation = [
   {
     id: 1,
     user_name: "Paul",
-    sent_date: "02/03/2023",
-    sent_by: "alex@email.com",
+    send: "02/03/2023",
+    send_by: "alex@email.com",
     received: "03/03/2023",
     viewed: true,
     message: "Hola Paul, ¿Cómo estás?",
@@ -30,8 +32,8 @@ let usersConversation = [
   {
     id: 2,
     user_name: "Alex",
-    sent_date: "03/03/2023",
-    sent_by: "paul@email.com",
+    send: "03/03/2023",
+    send_by: "paul@email.com",
     received: "04/03/2023",
     viewed: false,
     message: "Hola Alex, muy bien gracias y tú",
@@ -39,37 +41,55 @@ let usersConversation = [
 ];
 ```
 
-En el ejemplo anterior podemos ver como se debería crear un array de objetos donde cada objeto representa un mensaje, en el array se ve la conversación entre dos personas **Paul** y **Alex**, cada objeto contiene información relevante sobre el mensaje como **id**, para identificar cada mensaje, **user_name** es el usuario que recibe el mensaje, **sent_date**, indica el día en que se envió el mensaje, **sent_by** es el usuario que envió el mensaje, **received** indica la fecha en la que se recibió el mensaje, **viewed** indica si ya se leyó el mensaje y por último la propiedad **message** que es el mensaje en sí.
 
-Como vemos en el ejemplo un array de objetos puede ser un estructura de almacenaje muy útil a la hora de guardar información y trabajar con una amplia cantidad de datos.
+En el ejemplo anterior vemos cómo podemos crear un array de objetos para representar una conversación. En el array se muestra la conversación entre dos personas **Paul** y **Alex**, cada uno de los objetos contiene información sobre el mensaje, la propiedad **Id** te permite identificar cada uno de los mensajes individualmente, la propiedad **user_name** te permite saber quién es el usuario que recibe el mensaje, la propiedad **send** indica la fecha en que se envió el mensaje, la propiedad **send_by** indica el usuario que envió el mensaje, la propiedad **received** indica la fecha en que se recibió el mensaje, la propiedad **viewed** indica si ya se leyó el mensaje, y por último la propiedad **message** que indica el mensaje enviado.
+
+
+Como vemos en el ejemplo un array de objetos puede ser un estructura de almacenaje muy útil a la hora de guardar información y trabajar con una amplia cantidad de datos. En este caso en particular una conversación entre dos personas puede llegar a tener cientos o hasta miles de mensajes y al almacenarlos en un array de objetos nos permite trabajar con ellos y modificarlos de una forma más sencilla.
+
 
 ## Crear un array de objetos
 
-Para crear un array de objetos en javascript primero necesitas saber como crear un array.
+
+Para crear un array de objetos en javascript primero necesitas saber como crear un array y un objeto. A continuación veremos una corta explicación sobre cómo se pueden crear estas estructuras en javascript.
+
 
 #### Crear un array
 
+
 Para crear un array existen dos formas de hacerlo.
+
 
 Ejemplo:
 
+
 ```js
-let arrayOne = [1, 2, 3, 4, 5];
-let arrayTwo = new Array(1, 2, 3, 4, 5);
+var arrayOne = [1, 2, 3, 4, 5];
+var arrayTwo = new Array(1, 2, 3, 4, 5);
+
 
 console.log(arrayOne); // --> [1, 2, 3, 4, 5]
 console.log(arrayTwo); // --> [1, 2, 3, 4, 5]
 ```
 
-En este ejemplo vemos como para crear un [array en Javascript](https://4geeks.com/es/lesson/array-arreglo-en-javascript) existen dos formas, la primera es crear una variable y asignarle como valor un par de corchetes `[]` esto creará un array vacío por defecto, la segunda forma es crear una variable y asignarle como valor la palabra reservada de Javascript **`new Array()`** esto también creará un array.
 
-> Es importante resaltar que ya no se suele utilizar la palabra reservada **`new Array()`** para crear un array es más común hacerlo usando los corchetes `[]` ya que es más sencillo, fácil de entender y funcionan igual.
+En este ejemplo vemos como para crear un array en javascript existen dos formas, la primera es crear una variable y asignarle como valor un par de corchetes `[]`esto creará un array por defecto, la segunda forma es crear una variable y asignarle como valor la palabra reservada de javascript **`new Array()`** esto también creará un array.
+
+
+Es importante resaltar que ya no se suele utilizar la palabra reservada **`new Array()`**, para crear un array es más común hacerlo usando los corchetes `[]` ya que es más sencillo, fácil de entender y funcionan de la misma manera.
+
+
+Si deseas conocer más información sobre arrays y sus métodos en este link [javascript arrays](https://www.google.com/url?q=https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) encontrarás la documentación oficial de javascript.
+
 
 #### Crear un objéto
 
+
 Para crear un objeto también existen dos formas de hacer.
 
+
 Ejemplo:
+
 
 ```js
 const objectOne = { name: "Paul", age: 23 };
@@ -77,31 +97,42 @@ const objectTwo = new Object();
 objectTwo.name = "Alex";
 objectTwo.age = 40;
 
+
 console.log(objectOne); // --> { name: "Paul", age: 23: }
 console.log(objectTwo); // --> { name: "Alex": age: 40 }
 ```
 
-En este ejemplo vemos las dos formas en las que puedes crear un objeto en javascript, la primera es crear una variable y asignarle como valor un par de llaves **{}** esto creará un objeto por defecto, la segunda forma es crear una variable y asignarle como valor la palabra reservada de [Javascript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) **`new Object()`** esto también creará un objeto.
 
-> Es importante señalar que la palabra reservada **`new Object()`** ya no se suele utilizar para crear un objeto ya que como vimos en el ejemplo anterior es más sencillo, y fácil de entender hacerlo utilizando la sintaxis de llaves.
+En este ejemplo vemos las dos formas en las que puedes crear un objeto en javascript, la primera es crear una variable y asignarle como valor un par de llaves **{}** esto creará un objeto por defecto, la segunda forma es crear una variable y asignarle como valor la palabra reservada de javascript **`new Object()`** esto también creará un objeto.
+
+
+Es importante señalar que la palabra reservada **`new Object()`** ya no se suele utilizar para crear un objeto ya que como vimos en el ejemplo anterior es más sencillo, y fácil de entender hacerlo utilizando la sintaxis de llaves.
+
+
+Si deseas conocer más información sobre objetos en javascript en este link [javascript objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) puedes encontrar la documentación oficial.
 
 
 #### Crear array de objétos
 
-Ahora que ya sabes como crear un array y un objeto pasemos a ver como crear un array de objetos en Javascript.
+
+Ahora veamos cómo crear un array de objetos.
+
 
 ```js
 const newChat = [
   {
-    id: 105,
+        id: 105,
     user_name: "Paul",
-    send: "07/03/2023",
+         send: "07/03/2023",
     send_by: "alex@email.com",
     received: "07/03/2023",
     viewed: true,
     message: "Hola Paul, ¿puedes decirme a que hora es la reunion de hoy?",
     group_name: "work",
-    group_users: ["alex@email.com", "paul@email.com"],
+    group_users: [
+      { id: 1, email: "alex@email.com" },
+      { id: 2, email: "paul@email.com" },
+    ],
   },
   {
     id: 175,
@@ -112,7 +143,10 @@ const newChat = [
     viewed: true,
     message: "Hola Alex, claro! la reunion es a la 7:00am.",
     group_name: "work",
-    group_users: ["alex@email.com", "paul@email.com"],
+    group_users: [
+      { id: 1, email: "alex@email.com" },
+      { id: 2, email: "paul@email.com" },
+    ],
   },
   {
     id: 133,
@@ -123,23 +157,26 @@ const newChat = [
     viewed: true,
     message: "Okey perfeco, gracias.",
     group_name: "work",
-    group_users: ["alex@email.com", "paul@email.com"],
-  }
+    group_users: [
+      { id: 1, email: "alex@email.com" },
+      { id: 2, email: "paul@email.com" },
+    ],
+  },
 ];
 ```
 
-En este ejemplo vemos cómo se creá un **array** que representa un chat con **objetos** dentro donde cada uno representa un mensaje. Dentro de los corchetes `{}` se colocar la **propiedad** que sería el equivalente a una **variable** y a la **propiedad** se le asigna un valor como vemos en el ejemplo anterior. Este valor puede ser cualquier cosa ya sea un **string**, **number**, **boolean**, un **método** que sería el equivalente a una **función** o incluso un nuevo **array de objetos**.
 
-Si te interesa conocer más información sobre arrays u objetos, abajo podrás ver los links a la documentación oficial de javascript.
+En este ejemplo podemos ver cómo se creá un array de objetos que representa una conversación entre dos personas donde cada uno de los objetos representa cada mensaje con sus propiedades y valores. Las propiedades en un objeto son el equivalente a variables a las cuales se les puede asignar un valor. Este valor puede ser de cualquier tipo desde un valor **numérico**, una **cadena de texto**, un valor **booleano** o incluso un nuevo **array de objetos**
 
-- [javascript arrays](https://www.google.com/url?q=https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-- [javascript objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
 ## Ordenar array de objetos
 
-Existen diferentes formas para ordenar un array de objetos en Javascript.
+
+Existen diferentes formas para ordenar un array de objetos en javascripts.
+
 
 #### Método sort
+
 
 ```js
 const arrayExample = [
@@ -149,20 +186,31 @@ const arrayExample = [
   { id: 3, name: "example three" },
 ];
 
+
 const arrayOrdered = arrayExample.sort((a, b) => a.id - b.id);
 ```
 
-En este ejemplo vemos una de las formas más utilizadas para ordenar un array de objetos que es haciendo uso del método `sort()` de Javascript. Si queremos ordenar un array de **números** o de **strings** el método `sort()` no necesita parámetros ya que este los ordena por defecto de forma ascendente en el caso de los **números** y de forma alfabética ascendente de la `A` a la `Z` en el caso de los **strings**. 
 
-Por otro lado, para ordenar un **array de objetos** si es necesário pasarle argumentos. Este método recibe una función de comparación como parámetro para indicar cómo se debe hacer la comparación. Esta función recibe dos parámetros usualmente llamados **`a y b`** que representan los elementos que serán comparados. La función debe devolver un valor **negativo** si **`a`** debe ir antes que **`b`**, un valor **positivo** si **`b`** debe ir antes que **`a`**, o **cero** si los dos elementos son iguales.
+En este ejemplo vemos una de las formas más utilizadas para ordenar un array de objetos que es haciendo uso del método `sort()` de javascript. Para ordenar un array de objetos este método recibe un función de comparación como parámetro. Esta función recibe dos parámetros usualmente llamados **a** y **b** estos parámetros representan los elementos que serán comparados. La función de comparación debe retornar un valor **negativo** en el caso de que **a** tenga que aparecer antes que **b**, en el caso de que **b** tenga que aparecer antes que **a** esta función debe retornar un valor **positivo**, y si los dos elementos son iguales entonces debe retornar **cero**.
 
-Si quieres conocer más información sobre el [método **`sort()`** de Javascript](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) en este link encontrarás la documentación.
+
+En el ejemplo vemos como para ordenar el array accedemos al objeto en la propiedad **Id** para ordenarlo de forma numérica ascendente.
+
+
+Si quieres conocer más información sobre el método **`sort()`** de javascript abajo encontrarás el link a la documentación oficial.
+
+
+[método sort](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+
 
 #### Algoritmo Bubble sort
 
+
 Otra forma de ordenar un array de objetos es haciendo uso del algoritmo de ordenamiento conocido como **Bubble Sort**.
 
+
 Ejemplo:
+
 
 ```javascript
 const arrayExample = [
@@ -171,6 +219,7 @@ const arrayExample = [
   { id: 4, name: "example four" },
   { id: 3, name: "example three" },
 ];
+
 
 function sortArray(arr) {
   for (let i = 0; i < arr.length; i++) {
@@ -187,18 +236,32 @@ function sortArray(arr) {
   return arr;
 }
 
-const orderedArray = sortArray(arrayExample);
+
+const arrayOrdered = sortArray(arrayExample);
+console.log(arrayOrdered);
 ```
 
-En este ejemplo creamos una función y le pasamos el array que queremos ordenar, en la función iteramos el array dos veces usando un `for loop` que usualmente se utiliza para recorrer arrays, esta es la sintaxis más común para crear un bubble sort pero hay varias formas de hacerlo, esta función retorna el array ordenado que se guarda en la constante `orderedArray`.
 
-El algoritmo **Bubble sort** compara cada par de elementos adyacentes y los intercambia si están en el orden incorrecto. Este proceso se repite varias veces hasta que se recorre todo el array y no se hacen intercambios en la última iteración.
+En este ejemplo creamos una función y le pasamos el array que queremos ordenar, en la función iteramos el array dos veces haciendo uso de un `for loop`, en cada iteración pregunta si el valor actual es mayor que el siguiente, de ser así realiza el intercambio. Esta una de las sintaxis más comunes para crear un **Bubble sort** pero hay varias formas de hacerlo, esta función retorna el array ordenado que se guarda en la constante `arrayOrdered`.
+
+
+El algoritmo **Bubble sort** compara cada par de elementos, en el caso de que los elementos estén en el orden incorrecto hace el intercambio de lo contrario el algoritmo los deja como estaban. Este proceso se repite varias veces hasta que se recorre el array por completo y todos los elementos están bien ordenados.
+
+
+Si quieres conocer más información sobre el algoritmo **Bubble sort** abajo tienes el link a un artículo donde se explica su funcionamiento con mas detalle.
+
+
+[bubble sort](https://www.google.com/url?q=https://3con14.biz/js/tips-and-tricks/17-ordenamiento-por-burbuja.html&sa=D&source=docs&ust=1680028109981729&usg=AOvVaw3jkBU6eF2LiKnfpwa9OvdD)
+
 
 #### Algoritmo Quick Sort
 
+
 Otro algoritmo que puedes usar para ordenar un array de objetos en javascript es el algoritmo **Quick Sort**
 
+
 Ejemplo:
+
 
 ```javascript
 const arrayExample = [
@@ -208,13 +271,17 @@ const arrayExample = [
   { id: 3, name: "example three" },
 ];
 
+
 const quickSort = (array) => {
   if (array.length <= 1) return array;
+
 
   const left = [];
   const right = [];
 
+
   const firstValue = array.shift();
+
 
   array.forEach((element) => {
     if (element.id < firstValue.id) {
@@ -224,25 +291,38 @@ const quickSort = (array) => {
     }
   });
 
+
   return [...quickSort(left), firstValue, ...quickSort(right)];
 };
+
 
 const arrayOrded = quickSort(arrayExample);
 ```
 
+
 Este algoritmo ordena los array de una forma muy interesante, Para ordenar un array lo que hace el **Quick sort** es hacer uso de la técnica divide y conquista. Primero selecciona un valor del array, luego divide el array en dos sub-arrays: uno con los elementos mayores que el valor seleccionado y otro con los elementos menores que este. Luego, aplica recursivamente el mismo proceso a cada sub-array hasta que todos los elementos estén ordenados.
 
-El algoritmo de **Quick sort** es un algoritmo que te permite ordenar un array de una forma más eficiente que el **Bubble sort** en algunos casos, ya que el algoritmo **Bubble sort** tiene un complejidad de tiempo de **`O(n^2)`** lo que significa que el tiempo de ejecución aumenta proporcionalmente al cuadrado del tamaño del array. Por otro lado, el algoritmo **Quick sort** tiene una complejidad de tiempo de **`O(n log n)`**, lo que significa que el tiempo de ejecución aumenta proporcionalmente al del tamaño del array. Sin embargo hay casos en los que el **Bubble sort** puede ser más eficiente, especialmente en arrays pequeños.
 
-Es importante señalar que el método **`sort()`** de javascript hace uso del algoritmo **Quick sort** o **Merge sort** dependiendo del navegador para ordenar los array.
+El algoritmo the **Quick sort** es un algoritmo que te permite ordenar un array de una forma más eficiente que el **Bubble sort** en la mayoría de los casos. ya que el algoritmo **Bubble sort** tiene un complejidad de tiempo de **`O(n^2)`** lo que significa que el tiempo de ejecución aumenta proporcionalmente al cuadrado del tamaño del array. Por otro lado, el algoritmo **Quick sort** tiene una complejidad de tiempo de **`O(n log n)`**, lo que significa que el tiempo de ejecución aumenta proporcionalmente al del tamaño del array. Sin embargo hay casos en los que el **Bubble sort** puede ser más eficiente, especialmente en arrays pequeños.
+
+
+Si quieres conocer más información sobre el algoritmo **Quick sort** abajo encontrarás el link a un artículo donde explican más a detalle este algoritmo.
+
+
+[quick sort](https://www.genbeta.com/desarrollo/implementando-el-algoritmo-quicksort)
+
 
 ## Recorrer Array de objetos Javascript
 
-Para recorrer un array de objetos tenemos varias formas de hacerlo
+
+Para recorrer un array de objetos en javascript tenemos varias formas de hacerlo.
+
 
 #### Método forEach
 
-El método **`forEach()`** es una de las formas más utilizadas a la hora de recorrer un array en javascript.
+
+El método **`forEach()`** es una de las formas usualmente más utilizadas a la hora de recorrer un array en javascript.
+
 
 ```js
 const array = [
@@ -252,43 +332,24 @@ const array = [
   { id: 4, name: "exp four" },
 ];
 
+
 array.forEach((item, index) => {
-  console.log(item); // { id: 1, name: "exp one" } en la primera iteración
-  console.log(index); // 0, 1, 2, 3
+  // Aquí va tu código
 });
 ```
 
-En el ejemplo anterior vemos como el método **`forEach()`** te permite recorrer un array. este método recibe una función como parámetro, esta función recibe dos parámetros generalmente llamados **ítem** y **index**, el parámetro **ítem** representa el objeto del array en cada iteración, el parámetro **index** es un variable que aumenta de valor en cada iteración lo cual puede ser muy útil en algunos casos, por ejemplo: si quisiera modificar cada uno de los objetos en el array podrías hacerlo de la siguiente manera.
 
-```js
-const array = [
-  { id: 1, name: "exp one" },
-  { id: 2, name: "exp two" },
-  { id: 3, name: "exp three" },
-  { id: 4, name: "exp four" },
-];
+En el ejemplo anterior vemos como el método `forEach()` te permite recorrer un array. Este método recibe una función como parámetro, esta función recibe dos parámetros generalmente llamados **ítem** e **index**. Es importante resaltar que estos parámetros puede llamarse de cualquier forma no tienen que tener estos nombres. El parámetro **ítem** representa el objeto dentro del array y el parámetro **index** representa una variable que aumenta de valor en cada iteración lo cual puede ser muy útil en algunos casos.
 
-array.forEach((item, index) => {
-  array[index].name = array[index].name + " " + "modified";
-});
-```
 
-En este ejemplo la constante **array** quedaría de la siguiente manera.
+Si deseas conocer más información sobre el método `forEach()` puedes encontrar la documentación oficial en el siguiente link [método forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach).
 
-```js
-const array = [
-  { id: 1, name: "exp one modified" },
-  { id: 2, name: "exp two modified" },
-  { id: 3, name: "exp three modified" },
-  { id: 4, name: "exp four modified" },
-];
-```
 
-Con este ejemplo hacemos uso del método **`forEach()`** y le pasamos una función con dos parámetros, el objeto **"ítem"** y la variable autoincremental **"index"**. Para modificar el array accedemos al array en la posición **index**, en la primera iteración **index** sería **0** luego **1**, **2** etc..., y luego para modificarlo accedemos al **objeto** en la propiedad **name**, recordemos que para acceder a la propiedad de un objeto en Javascript hay dos formas de hacerlo una de ellas es **dot notation** (**`objeto.name`**), y la otra es **bracket notation** (**`objeto["name"]`**). De esta forma **`array[index].name`** en la primera iteración sería **"exp one"**.
+#### For loop
 
-####  For loop
 
 Otra forma de recorrer un array es haciendo uso de un **for loop**.
+
 
 ```js
 const array = [
@@ -298,21 +359,151 @@ const array = [
   { id: 3, name: "exp three" },
 ];
 
+
 for (let i = 0; i < array.length; i++) {
   // Aquí va tu código
-
-  console.log(array[i]); // { id: 2, name: "exp one" } en la primera iteración
-  console.log(i); // 0, 1, 2, 3
 }
 ```
 
-El **for loop** necesita varios parámetros, el primero es la variable de control autoincremental usualmente llamada **i**, luego necesita una condición de salida en este caso que **i** sea menor que el **lago del array**, y luego recibe el parámetro que aumenta de valor a la variable de control **i**, generalmente **`i++`** que es lo mismo que **`i = i + 1`**, luego dentro de la llaves `{}` puedes escribir el código que deseas realizar en cada iteración como se muestra en el ejemplo anterior.
 
-Si deseas conocer más información sobre el método **forEach** o el **for loop** abajo encontrarás los links a la documentación oficial de javascript.
+El **for loop** necesita varios parámetros, el primero es la variable de control usualmente llamada **I**, luego necesita una condición de salida, en este caso que la variable **i** sea menor que el lago del array, y por último recibe el parámetro que aumenta de valor a la variable de control **I**, luego dentro de la llaves `{}` puedes escribir el código que deseas realizar en cada iteración como se muestra en el ejemplo anterior.
 
-- [método forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-- [for loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
 
-En resumen un array de objetos es una estructura de datos muy útil que te permite almacenar y manipular conjuntos de datos complejos en tu código. Con un array de objetos puedes acceder a cada elemento individualmente, iterar sobre el array, filtrar los datos y muchas cosas más. Es importante resaltar que hay mas formas de trabajar con arrays de objetos que las mencionadas en este articulo. 
+El **for loop** es una estructura de código muy útil y ampliamente utilizada que te permite recorrer arrays de una forma muy eficiente.
 
-Puedes encontrar más información en la [pagina oficial de Javascript](https://developer.mozilla.org/es/docs/Web/JavaScript). Puedes leer más sobre esto y muchos otros temas en el blog de [4Geeks](https://4geeks.com/how-to).
+
+Si deseas conocer más información sobre el **for loop** en el siguiente link encontrarás la documentación oficial de javascript [for loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+
+
+## Ordenar Alfabéticamente un Array de Objetos
+
+
+Para ordenar un array de objetos alfabéticamente tambien podemos hacerlo de varias formas.
+
+
+#### Ordenar alfabéticamente con el método sort
+
+
+Una de las formas más óptimas para ordenar un array de objetos alfabéticamente en javascript es haciendo uso del método **`sort()`**.
+
+
+```javascript
+const arrayFruits = [
+  { id: 1, name: "manzana", sabor: "dulce" },
+  { id: 3, name: "naranja", sabor: "ácido o cítrico" },
+  { id: 4, name: "pera", sabor: "dulce" },
+  { id: 2, name: "limón", sabor: "ácido o cítrico" },
+  { id: 5, name: "coco", sabor: "ligeramente dulce" },
+];
+
+
+const arrayFruitsOrdered = arrayFruits.sort((a, b) => {
+  if (a.name < b.name) {
+    return -1;
+  } else if (a.name > b.name) {
+    return 1;
+  } else {
+    return 0;
+  }
+});
+```
+
+
+Este código retornaría el array ordenado que sería guardado en la variable **arrayFruitsOrdered** la cual se vería de la siguiente forma.
+
+
+```js
+[
+  { id: 5, name: "coco", sabor: "ligeramente dulce" },
+  { id: 2, name: "limón", sabor: "ácido o cítrico" },
+  { id: 1, name: "manzana", sabor: "dulce" },
+  { id: 3, name: "naranja", sabor: "ácido o cítrico" },
+  { id: 4, name: "pera", sabor: "dulce" },
+];
+```
+
+
+En este ejemplo vemos cómo para ordenar alfabéticamente un array de objetos haciendo uso del método `sort()`. Debemos pasarle una función como parámetro. Esta función recibe dos parámetros usualmente llamados **(a, b)** ,estos parámetros representan los elementos que serán comparados. En cada iteración compara los elementos, si los elementos no están en la posición correcta entonces procede a hacer el intercambio.
+
+
+Otra forma de ordenar un array de objetos alfabéticamente es haciendo uso nuevamente de los algoritmos **Bubble sort** y **Quick sort**.
+
+
+#### Ordenar alfabéticamente Bubble sort
+
+
+```js
+const arrayFruits = [
+  { id: 1, name: "manzana", sabor: "dulce" },
+  { id: 3, name: "naranja", sabor: "ácido o cítrico" },
+  { id: 4, name: "pera", sabor: "dulce" },
+  { id: 2, name: "limón", sabor: "ácido o cítrico" },
+  { id: 5, name: "coco", sabor: "ligeramente dulce" },
+];
+
+
+function sortArray(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr.length - i - 1; j++) {
+      console.log("i", i);
+      console.log("j", j);
+      if (arr[j].name > arr[j + 1].name) {
+        const aux = arr[j];
+        arr[j] = arr[j + 1];
+        arr[j + 1] = aux;
+      }
+    }
+  }
+  return arr;
+}
+
+
+const arrayOrdered = sortArray(arrayFruits);
+```
+
+
+En este ejemplo para ordenar alfabéticamente el array de frutas que se encuentra en la parte superior. Creamos una función y le pasamos ese arreglo, esta función realiza la iteración del array y retorna el array ordenado alfabéticamente de la **A** a la **Z**. Luego este array ordenado se guarda en la constante **arrayOrdered**.
+
+
+#### Ordenar alfabéticamente Quick sort
+
+
+```js
+const quickSort = (array) => {
+  if (array.length <= 1) return array;
+
+
+  const left = [];
+  const right = [];
+
+
+  const firstValue = array.shift();
+
+
+  array.forEach((element) => {
+    if (element.name < firstValue.name) {
+      left.push(element);
+    } else if (element.id >= firstValue.id) {
+      right.push(element);
+    }
+  });
+
+
+  return [...quickSort(left), firstValue, ...quickSort(right)];
+};
+
+
+const arrayOrdered = quickSort(arrayFruits);
+```
+
+
+En este ejemplo creamos una función que recibe como parámetro el array que queremos ordenar. Esta función realiza la iteración y retorna el array ordenado alfabéticamente el cual se guarda en la constante **arrayOrdered**.
+
+
+Para ordenar un array de strings la comparación se realiza de esta forma. Compara la primera letra del **string** actual con la primera letra del siguiente **string**. Ejemplo, en la palabra **coco** y la palabra **mango** compara la letra **c** con la letra **m**, en este caso como la letra **c** aparece primero en el alfabeto que la letra **m** entonces la palabra **coco** es mayor que la palabra **mango**.
+
+
+## Conclusión
+
+
+En resumen un array de objetos es una estructura de datos muy útil que te permite almacenar y manipular una amplia cantidad de datos complejos en tu código. Con un array de objetos puedes acceder a cada elemento individualmente, iterar el array, filtrar cada uno los datos y muchas otras cosas más. Es importante resaltar que existen más formas de manipular un array de objetos que las mencionadas en este artículo. Puedes encontrar más información sobre este tema en la página oficial de javascript [documentación javascript](https://developer.mozilla.org/es/docs/Web/JavaScript).
