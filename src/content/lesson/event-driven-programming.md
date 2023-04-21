@@ -17,7 +17,7 @@ Instead, your code will now be executed **asynchronously** (i.e. some pieces of 
 
 ### What is an Event?
 
-An event is something that happens during the runtime of your web application! Such as **clicking** on a button **pressing** a key on the keyboard, **hovering** a `div` with your mouse, etc.
+An event is something that happens during the runtime of your web application! Such as **clicking** on a button, **pressing** a key on the keyboard, **hovering** a `div` with your mouse, etc.
 
 Your job as a developer is to prepare for those events and define **handler functions** - the actions that are going to be handling each event.
 
