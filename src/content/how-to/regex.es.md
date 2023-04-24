@@ -1,4 +1,10 @@
-# Las expresiones regulares
+---
+title: "Ejemplos Expresiones Regulares"
+subtitle: "Explora Ejemplos de Expresiones Regulares y aprende cómo utilizarlas para buscar patrones y manipular cadenas de texto de manera efectiva."
+tags: ["expresiones regulares"]
+authors: ["yamilmelian"]
+
+---
 
 Las expresiones regulares, también conocida como regex, permiten buscar un patrón de caracteres en un texto. Son increíblemente útiles en programación, análisis de datos o en la administración de sistemas a través de la terminal.
 
@@ -6,7 +12,7 @@ Un ejemplo de la utilidad de las expresiones regulares sería buscar los número
 
 ^[1-9]{3}-[1-9]{3}-\([1-9]{3}\)$
 
-No te asustes. La primera vez que observas una expresión regular puede resultar confuso. En este artículo encontraras [ejemplos de expresiones regulares](#ejemplos-de-expresiones-regulares-resueltos). Al final del artículo encontrará un resumen de las reglas que sirven para formar expresiones regulares.
+No te asustes. La primera vez que observas una expresión regular puede resultar confuso. En este artículo encontraras [ejemplos de expresiones regulares](https://4geeks.com/es/lesson/regex-tutorial-regular-expression-ejemplo). Al final del artículo encontrará un resumen de las reglas que sirven para formar expresiones regulares.
 
 ## Reglas de las expresiones regulares:
 
@@ -139,3 +145,5 @@ console.log("El número de palabras que contiene texto es: ", texto.match(regex)
 * `+` coincide con uno o más caracteres de palabra.
 
 * `/g` es una bandera global que indica que se deben encontrar todas las coincidencias en la cadena de texto, en lugar de detenerse en la primera coincidencia encontrada.
+
+Puedes leer más sobre este tema y otros en el Blog de [4Geeks](https://4geeks.com/es/how-to).
