@@ -17,9 +17,9 @@ Para activar Javascript en tu navegador y poder disfrutar de los sitios webs de 
 
 Como ya conocemos, Javascript se sienta en el trono de la programación web, lo que significa que todas las paginas web hacen uso del este lenguaje de programación para poder realizar pedidos, mostrar dinamismo y permitir la intereacción del usuario con la misma. 
 
-Como en todos los lenguajes de programación, Javascript tambien ha sido elegido por muchos hackers para realizar ataques con el fin de obtener tu información personal, cuentas bancarias haciendo uso de metodos como Phishing y man-in-the-middle, solo para mencionar algunos. Por este motivo, algunos navegadores en algun momento, pueden desactivar la ejecución del Lenguage o nosotros mismos quizás en algún momento decidimos desactivarlo y ahora no recordamos como volverlo a activar.  En cualquiera de los casos, no te preocupes, aquí tienes una guía que mostrara cómo habilitar javascript en los navegadores Chrome, Brave y Firefox.
+Como en todos los lenguajes de programación, Javascript tambien ha sido elegido por muchos hackers para realizar ataques con el fin de obtener tu información personal, cuentas bancarias haciendo uso de metodos como Phishing y man-in-the-middle, solo para mencionar algunos. Por este motivo, algunos navegadores en algun momento o incluso nosotros mismos, podemos desactivar la ejecución del Lenguage. En cualquiera de los casos, no te preocupes, aquí tienes una guía que mostrar cómo habilitar javascript en los navegadores Chrome, Brave y Firefox.
 
-## Activar Jabascript en Chrome
+## Activar Javascript en Chrome
 
 Para activar Javascript en Chrome, puedes elegit entre estas dos opciones:
 
@@ -60,7 +60,7 @@ Del mismo modo, tienes dos caminos para habilitar javascript:
 
 Listo, ya tenemos Javascript activo en nuestro navegador! Ojo, a veces es necesario reiniciar el navegador para que los cambios surtan efecto.
 
-## Activar Jabascript en Firefox
+## Activar Javascript en Firefox
 
 Para activar Javascript en Firefox, es un tanto diferente a como es en Chrome o Brave. Deberás escribir `about:config` en la barra de direcciones y una vez accedas, Firefox te adevertira que tengas cuidado con lo que cambies. ya que el navegador puede tornarse inestable si cambiamos parametros que no debemos. Lo anterior no es un problema, ya que sólo estaremos modificando un valor, el que permite que Javascript se ejecute.
 
