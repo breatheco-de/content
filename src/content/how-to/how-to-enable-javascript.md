@@ -94,4 +94,4 @@ en Safari, la opción presente en los sistemas MacOs  podemos habilitar Javascri
 
 Solo nos quedaría confirmar los cambios reiniciamos el navegador y listo, ya tienes Javascript habilitado.
 
-Hope you enjoyed the reading and keep on the Geek side!
+Esperamos que la lectura haya sido útil!
