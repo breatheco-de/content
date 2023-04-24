@@ -1,16 +1,14 @@
 # Las expresiones regulares
 
-Las expresiones regulares, también conocida como regex, permiten buscar un patrón de caracteres en un texto. Son increíblemente útiles en programación, análisis de datos o en la administración de sistemas a través de la temida terminal.
+Las expresiones regulares, también conocida como regex, permiten buscar un patrón de caracteres en un texto. Son increíblemente útiles en programación, análisis de datos o en la administración de sistemas a través de la terminal.
 
-Un ejemplo de la utilidad de las expresiones regulares sería buscar los números telefónicos que aparecen en una hoja de cálculo con 10.000 filas. Realizar la tarea revisando fila a fila nos llevaría horas, sangre y sudor con el riesgo de equivocarnos. Con regex podemos hacerlo en segundos utilizando un patrón que coincida con los número de teléfono. Imaginemos que los números de teléfono de una región siguen un patrón 111-111-(111) donde 1 puede ser cualquier número del 1 al 9. Podemos definir la siguiente expresión regular:
+Un ejemplo de la utilidad de las expresiones regulares sería buscar los números telefónicos que aparecen en una hoja de cálculo con 10.000 filas. Realizar la tarea revisando fila a fila nos llevaría horas, y con el riesgo de equivocarnos. Con regex podemos hacerlo en segundos utilizando un patrón que coincida con los número de teléfono. Imaginemos que los números de teléfono de una región siguen un patrón 111-111-(111) donde 1 puede ser cualquier número del 1 al 9. Podemos definir la siguiente expresión regular:
 
 ^[1-9]{3}-[1-9]{3}-\([1-9]{3}\)$
 
-No te asustes. La primera vez que ves una expresión regular puede resultar confuso. En este artículo encontraras [ejemplos de expresiones regulares](#ejemplos-de-expresiones-regulares-resueltos). Al final del artículo encontrará un resumen de las reglas que sirven para formar expresiones regulares.
+No te asustes. La primera vez que observas una expresión regular puede resultar confuso. En este artículo encontraras [ejemplos de expresiones regulares](#ejemplos-de-expresiones-regulares-resueltos). Al final del artículo encontrará un resumen de las reglas que sirven para formar expresiones regulares.
 
 ## Reglas de las expresiones regulares:
-
-
 
 * `.` : Coincide con cualquier caracter salvo el salto de linea.
 
@@ -40,21 +38,19 @@ No te asustes. La primera vez que ves una expresión regular puede resultar conf
 
 ### Expresión regular literal:
 
-
-
 Son las más sencillas. Supongamos que queremos buscar la palabra “perro” la expresión regular sería:
 
-const texto= "El perro verde"; // El texto que queremos analizar
+const texto = "El perro verde"; // El texto que queremos analizar
 
 ``` 
-const regex= /perro/g; // Definimos la expresión regular. En JavaScript se usa el siguiente formato /aquí la expresion regular/. La g al final de la expresión regular la usamos para buscar todas las coincidencias de forma global
+const regex= /perro/g; // Definimos la expresión regular.
 
 const coincidencias= texto.match(regex) // Declaramos una variable a la que asignaremos las coincidencias
 
 console.log(coincidencias) //Mostramos por consola las coincidencias, en este caso: perro
 ``` 
 
-Esta expresión no coincidirá con Perro o perrO. Solo coincidirá con la palabra escrita en minúsculas.
+> Esta expresión no coincidirá con Perro o perrO. Solo coincidirá con la palabra escrita en minúsculas. En JavaScript se usa el siguiente formato /aquí la expresion regular/. La g al final de la expresión regular la usamos para buscar todas las coincidencias de forma global
 
 
 ### Patrones simples:
@@ -64,16 +60,14 @@ Ahora queremos una expresión regular que coincida tanto con perro como con Perr
 ``` 
 const texto= "Perro, gato, jirafa, perro, caballo, unicornio" // El texto que queremos analizar
 
-const regex= /[Pp]erro/g;  //Definimos la expresión regular. En JavaScript se usa el siguiente formato /aquí la expresion regular/ La g al final de la expresión regular la usamos para buscar todas las coincidencias de forma global
+const regex= /[Pp]erro/g;  //Definimos la expresión regular.
 
 const coincidencias= texto.match(regex) // Declaramos una variable a la que asignaremos las coincidencias
 
 console.log(coincidencias) //Mostramos por consola las coincidencias, en este caso: Perro, perro
 ``` 
 
-* Los corchetes [] permiten buscar cualquiera de los caracteres que se encuentre dentro. Por tanto [Pp] coincidirá tanto con p minúscula como con P mayúscula.
-
-
+> Los corchetes [] permiten buscar cualquiera de los caracteres que se encuentre dentro. Por tanto [Pp] coincidirá tanto con p minúscula como con P mayúscula.
 
 Otro ejemplo de un patrón simple de una expresión regular podría ser buscar en una base de datos usuarios cuyo nombre sea la palabra gato seguido de 1 o más números:
 
@@ -99,17 +93,18 @@ const texto= "Este es mi texto de prueba en el que voy a querer cambiar unas pal
 
 const regex= /(?<=texto )(.*)(?= en)/s;
 
-console.log(texto.replace(regex, 'modificado'));
-//El resultado será= Este es mi texto modificado...
-
+console.log(texto..match(regex)); // El resultado será "de prueba"
 ```
+
 * ´(?<=texto )´ es una expresión de retroceso positivo que coincide con cualquier cadena de caracteres que esté precedida por "texto ". En otras palabras, este grupo de captura busca "texto " en la cadena de texto pero no la incluye en la coincidencia. Esto se conoce como una coincidencia positiva sin captura.
 
-es una expresion de retroceso positivo que coincide con cualquier cadena de caracteres que esté seguido por 'en'. El grupo de caputa (.`*`)
+Es una expresion de retroceso positivo que coincide con cualquier cadena de caracteres que esté seguido por 'en'. El grupo de caputa (.`*`)
 
 * ´(.*)(?= en)´ es una expresion de retroceso positivo que coincide con cualquier cadena de caracteres que esté seguido por 'en'. El grupo de caputa (.`*`) captura cualquier carácter cero o más veces. Esto significa que la coincidencia será la menor cantidad posible de caracteres que satisface la expresión regular. El (?= en) asegura que la coincidencia termine justo antes de la cadena " en" en la cadena de texto, pero no la incluye en la coincidencia.
 
-* El flag ´s´ al final de la expresión regular es una modificación de la expresión regular que indica que el carácter especial . debe coincidir con cualquier carácter, incluyendo el carácter de nueva línea.
+* El flag ´s´ al final de la expresión regular es una modificación de la expresión regular que indica que el carácter especial `.` debe coincidir con cualquier carácter, incluyendo el carácter de nueva línea.
+
+#### Ejemplo de expresión regular usando el flag s
 
 ```
 const texto= "Este es mi texto de prueba en el que voy a querer cambiar unas palabras por otras. Simplemente buscado coincidencias";
@@ -117,13 +112,16 @@ const texto= "Este es mi texto de prueba en el que voy a querer cambiar unas pal
 const regex= /\./s;
 
 console.log("las coincidencias han sido: ", texto.match(regex).length);
-//El resultado será= las coincidencias han sido: 1.
+//El resultado será = "las coincidencias han sido: 1".
 
 ```
+
 * `\.`: En este caso utilizamos el caracter de escape `\` antes del punto para indicar que queremos buscar el punto en vez del caracter especial "`.`" 
+
 * Con este snippet podemos contar la cantidad de puntos que aparecen en un string.
 
-Otra variante del anterior sería:
+Otra variante del ejemplo anterior sería:
+
 ```
 const texto= "Este es mi texto de prueba en el que voy a querer cambiar unas palabras por otras. Simplemente buscado coincidencias";
 
@@ -133,6 +131,7 @@ console.log("El número de palabras que contiene texto es: ", texto.match(regex)
 //El resultado será= El número de palabras que contiene texto es: 20.
 
 ```
+
 * `\b` coincide con un límite de palabra, lo que significa que solo coincidirá con palabras completas, no con partes de palabras.
 
 * `\w` coincide con cualquier carácter de palabra, que incluye letras (mayúsculas y minúsculas), números y guiones bajos (_).
