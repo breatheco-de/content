@@ -35,7 +35,7 @@ console.log(searchAllButEnglish(list))
 */
 ```
 
-# Regex for No Match
+## Regex for No Match
 
 Las expresiones regulares son extremadamente utiles a la hora de buscar la información que necesitamos dentro de un texto pero por la naturaleza y el fin para el cual fueron creadas, no constan con un mecanismo "per se" para hacer un match y retornarnos esa información cuando no encuentra algo. 
 
@@ -112,6 +112,8 @@ print(searchAllButEnglish(test_str))
 ```
 
 
-Como se puede observar, aún pasandole lineas de textos donde 'English' se encuentra en diferentes posiciones, sigue devolviendonos solo los elementos que NO contiene el parámetro de búsqueda que hemos declarado con el Negative Lookahead. Este comportamiento se debe a la inclusión de los símbolos `^`, `$`, `.`. En Python recordar importar `re`, nuestro modulo de expresiones regulares.
+Como se puede observar, aún pasandole lineas de textos donde 'English' se encuentra en diferentes posiciones, sigue devolviendonos solo los elementos que NO contiene el parámetro de búsqueda que hemos declarado con el Negative Lookahead. Este comportamiento se debe a la inclusión de los símbolos `^`, `$`, `.`. 
 
-Hope you enjoyed the reading and keep on thje Geek side!
+> En Python recordar importar `re`, nuestro modulo de expresiones regulares.
+
+Esperamos que haya sido útil este artículo!
