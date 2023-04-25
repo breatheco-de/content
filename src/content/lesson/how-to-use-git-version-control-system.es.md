@@ -106,7 +106,7 @@ Después de realizar algunos cambios en los archivos del proyecto, es posible qu
 
 Para crear un commit, tendrás que hacer dos cosas:
 
-+ **Indícale a GIT qué archivos incluir en el commit**, con `git add`.  Si un archivo no ha cambiado desde el commit anterior (el commit "principal"), GIT lo incluirá automáticamente en el commit que estás a punto de realizar.  Solo deberás agregar los archivos que hayas creado o modificado recientemente.  Ten en cuenta que agrega directorios de forma recurrente, así que `git add` agregará todo lo que ha cambiado.
++ **Indícale a GIT qué archivos incluir en el commit**, con `git add`.  Si un archivo no ha cambiado desde el commit anterior (el commit "principal"), GIT lo incluirá automáticamente en el commit que estás a punto de realizar.  Solo deberás agregar los archivos que hayas creado o modificado recientemente.  Ten en cuenta que agrega directorios de forma recurrente, así que `git add .` agregará todo lo que ha cambiado. *En ingles está mejor explicado como usar git add .*
 
 + **Llama a `git commit` para crear el objeto de confirmación.** El nuevo commit object tendrá el HEAD actual como su principal (después de que se complete el commit, el HEAD apuntará al nuevo commit object).
   
