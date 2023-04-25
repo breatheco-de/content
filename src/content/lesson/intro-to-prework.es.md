@@ -40,7 +40,9 @@ Realmente necesitamos conocerte mejor.  Necesitamos estar seguros de que tienes 
 
 ## Este Curso Funciona, pero Debes Confiar en Nosotros
 
-El cerebro humano requiere mucha energía para tomar cualquier decisión, especialmente cuando muchas variables participan en la ecuación.  Este curso es difícil porque estamos rediseñando la forma en que se toma decisiones: tendrás que pensar de manera similar a cómo piensan las computadoras.  Llegará un momento en el que todo se convertirá en un comportamiento adquirido.
+El cerebro humano requiere mucha energía para tomar cualquier decisión, especialmente cuando muchas variables participan en la ecuación. 
+
+Este curso es difícil porque estamos rediseñando la forma en que se toma decisiones: tendrás que pensar de manera similar a cómo piensan las computadoras.  Llegará un momento en el que todo se convertirá en un comportamiento adquirido.
 
 Si te sientes abrumado y confundido, <span style="color:#993300">**¡¡pide ayuda!!**</span> Y, **continúa con el trabajo duro –** ¡lo lograrás!  Todas las lecciones son acumulativas, lo que significa que cada ejercicio requerirá que uses todo lo que has aprendido en el pasado.
 
