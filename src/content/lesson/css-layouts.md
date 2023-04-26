@@ -99,7 +99,7 @@ It is common to find this property in menus, social network activity feeds, etc.
 |Inline     |This is the default value of `<strong>`, `<i>`, `<a>`, `<span>`, and other common tags. The elements will behave like text and will not have defined limits (neither width nor height).    |
 |Block   |This is the default value of `<div>`, `<p>`, `<h1>-<h6>` tags, among others. The element will occupy the entire row of the site, and move other elements above or below it.    |
 |Inline-Block    |The best of both worlds. This value places the containers in the same row, but respecting each of their limits (width and height). Thanks to this value, sites like Pinterest use masonry design.   |
-|Flex    |Introduced just a couple of years ago, it comes to fix all the major problems with display to date. Flex is used to make boxes flexible. When you apply `display: flex` to a div, all the children will be able to share the same row.   |
+|Flex    |Introduced just a couple of years ago, it comes to fix all the major problems with display to date. Flex is used to make boxes flexible. When you apply `display: flex` to a `<div>`, all the children will be able to share the same row.   |
 |None    |Hides the element (making it invisible) and does not hold any space for it within the document.   |
 
 Ok, now… to understand what we just explained, there is no other choice but… Practice!
