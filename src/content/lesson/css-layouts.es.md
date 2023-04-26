@@ -112,6 +112,7 @@ Float es muy utilizado en blogs cuando quieres agregar imágenes a tus artículo
 <iframe src="https://www.youtube.com/embed/htdLSAZ2ZH8" frameborder="0" allowfullscreen ></iframe>
 
 <div align="right"><small><a href="https://www.youtube.com/embed/htdLSAZ2ZH8">Haz clic aquí para abrir el video en una nueva ventana</a></small></div>
+<br>
 
 |**Valor**   |**Descripción**   |
 |:----------|:-----------------|
