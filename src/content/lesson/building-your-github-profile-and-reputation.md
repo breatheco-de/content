@@ -15,7 +15,7 @@ cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/le
 
 Github is a social network for developers, but probably not the type of social network you use every day:
 - You can't post a picture of what you are about to eat.
-- You post text documents on any format (txt, html, css, xls, png, jpeg, etc.).
+- You post documents on any format (txt, html, css, xls, png, jpeg, etc.).
 - You can't post status messages like on Twitter, Instagram, etc.
 - You have to use a special program and protocol called [GIT](https://www.youtube.com/watch?v=BCQHnlnPusY).
 - It cannot be faked and it tracks your activity as a developer.
