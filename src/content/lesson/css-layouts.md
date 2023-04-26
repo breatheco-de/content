@@ -96,7 +96,7 @@ It is common to find this property in menus, social network activity feeds, etc.
 
 |**Value**   |**Description**   |
 |:----------|:-----------------|
-|Inline     |This is the default value of `<strong>`, `<i>`, `<a>`, `<span>`, and other common tags. The elements will behave like text and will not have defined limits (neither width, nor height).    |
+|Inline     |This is the default value of `<strong>`, `<i>`, `<a>`, `<span>`, and other common tags. The elements will behave like text and will not have defined limits (neither width nor height).    |
 |Block   |This is the default value of `<div>`, `<p>`, `<h1>-<h6>` tags, among others. The element will occupy the entire row of the site, and move other elements above or below it.    |
 |Inline-Block    |The best of both worlds. This value places the containers in the same row, but respecting each of their limits (width and height). Thanks to this value, sites like Pinterest use masonry design.   |
 |Flex    |Introduced just a couple of years ago, it comes to fix all the major problems with display to date. Flex is used to make boxes flexible. When you apply `display: flex` to a div, all the children will be able to share the same row.   |
@@ -197,7 +197,7 @@ To replicate the alert behavior you have to:
 
 ## Live Demo: Play with the Box
 
-Use the sliders on the left toolbar to change the margin, padding, border radius or any other CSS Rule available in the demo:
+Use the sliders on the left toolbar to change the margin, padding, border radius, or any other CSS Rule available in the demo:
 
 <iframe src="https://assets.breatheco.de/live-demos/css/box-model/" width="100%" height="465" frameborder="0" scrolling="no" style="border:0px; overflow: hidden;"></iframe>
 
