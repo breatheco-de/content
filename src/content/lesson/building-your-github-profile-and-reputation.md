@@ -1,6 +1,6 @@
 ---
 title: "Building your Github profile and reputation"
-subtitle: "Having a great resume takes hours to build, even if its fake. But having a great Github takes months or years. You better start working on it now."
+subtitle: "Having a great resume takes hours to build, even if it's fake. But having a great Github takes months or years. You better start working on it now."
 authors: ["alesanchezr"]
 status: "published"
 tags: ["github","job hunting","resume building"]
