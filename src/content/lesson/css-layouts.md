@@ -74,7 +74,7 @@ In order for a website to look like today's websites, we have to redesign the en
 <div align="right"><small><a href="https://www.youtube.com/embed/hFvOgu3bcOk">Click here to open video in a new window</a></small></div>
 <br>
 
-|**Name**   |**Description**   |
+|**Value**   |**Description**   |
 |:----------|:-----------------|
 |Static     |This does not involve any special positioning of the elements. As a consequence, the **top**, **left**, **right** and **bottom** properties are not considered.    |
 |Absolute    |When you tell a box that its position is absolute, you also need to define the **top**, **bottom**, **left**, and **right** rules. Here, you are asking the box to ignore where it was positioned in the HTML document. Its new position will be based on the rules (**top**, **left**, **right**, and **bottom** that you specified in the CSS).    |
@@ -94,7 +94,7 @@ It is common to find this property in menus, social network activity feeds, etc.
 <div align="right"><small><a href="https://www.youtube.com/embed/pgCLHD4FNjg">Click here to open video in a new window</a></small></div>
 <br>
 
-|**Name**   |**Description**   |
+|**Value**   |**Description**   |
 |:----------|:-----------------|
 |Inline     |This is the default value of `<strong>`, `<i>`, `<a>`, `<span>`, and other common tags. The elements will behave like text and will not have defined limits (neither width, nor height).    |
 |Block   |This is the default value of `<div>`, `<p>`, `<h1>-<h6>` tags, among others. The element will occupy the entire row of the site, and move other elements above or below it.    |
@@ -115,7 +115,7 @@ Float is very much used in blogs when you want to add images to your articles. I
 <div align="right"><small><a href="https://www.youtube.com/embed/htdLSAZ2ZH8">Click here to open video in a new window</a></small></div>
 <br>
 
-|**Name**   |**Description**   |
+|**Value**   |**Description**   |
 |:----------|:-----------------|
 |Left	    |Moves the element as far to the left as possible.   |
 |Right   |Moves the element as far to the right as possible.   |
