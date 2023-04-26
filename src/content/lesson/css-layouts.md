@@ -21,9 +21,9 @@ Let’s go back to HTML: How can I create documents with 2 columns? We know that
 
 We need to use boxes for it. A box is a container with a specific width and height. Boxes are containers that bring order into the HTML/CSS world.  By far, the most used tag for a box is `<div>`.
 
-All website content should be wrapped within boxes (div, header, footer, etc.). Boxes are invisible by default, so in order to make them visible, you have to either set a background color or a border.  The following image shows how many invisible boxes a normal website has:
+All website content should be wrapped within boxes (div, header, footer, etc.). Boxes are invisible by default, so in order to make them visible, you have to either set a background color or a border. The following image shows how many invisible boxes a normal website has:
 
-<BeforeAfter width="500px" before="https://storage.googleapis.com/breathecode-asset-images/3dbebe51957eddaddc33052a05b76c65458a5f1cec62159493f28b7d1f90b631.png" after="https://storage.googleapis.com/breathecode-asset-images/1d7f1747b12e28b783b8867feafa0a1aab2ad72bfc4b8175f3e7407fda167b55.png" />
+<before-after width="500px" before="https://storage.googleapis.com/breathecode-asset-images/3dbebe51957eddaddc33052a05b76c65458a5f1cec62159493f28b7d1f90b631.png" after="https://storage.googleapis.com/breathecode-asset-images/1d7f1747b12e28b783b8867feafa0a1aab2ad72bfc4b8175f3e7407fda167b55.png" /></before-after>
 
 ### Box Attributes
 
