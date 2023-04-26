@@ -203,7 +203,7 @@ Utiliza los sliders de la barra de herramientas izquierda para modificar el marg
 
 Tendrás que ir aprendiendo “en el camino”, porque hay una infinidad de combinaciones que puedes crear para el diseño de una página web. Lo que realmente importa, es que entiendas completamente las reglas display, position, float y overflow.
 
-No te preocupes, amigo mio. Hay un recurso llamado `Bootstrap` que está hecho para facilitar el diseño. Aprenderás esto en la próxima lección.
+No te preocupes, amigo mío. Hay un recurso llamado `Bootstrap` que está hecho para facilitar el diseño. Aprenderás esto en la próxima lección.
 
 ![css layout](https://github.com/breatheco-de/content/blob/master/src/assets/images/91aa197c-b2cb-4717-b41f-0f7b579aab25.gif?raw=true)
   
