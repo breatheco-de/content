@@ -169,7 +169,7 @@ This is almost the same, but instead of having the left-sidebar as the primary m
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/aLndw6e7/5/embedded/html,css,result/">Click here to open live demo in a new window</a></small></div>
 
-## Responsive Masonry
+### Responsive Masonry
 
 Pinterest made this layout universally known. By using this "innovative" UI, they became one of the most visited websites in the world. Masonry distributes the containers in an optimal way: first fills the whole row by appending boxes to the right (adding them at the end), and then jumping to the next row when there is no longer space available.
 
@@ -179,7 +179,7 @@ Another great thing about Masonry is that each box can have its own height. That
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/ovp1nj3s/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
-## Popups / Modal Windows / Alerts
+### Popups / Modal Windows / Alerts
 
 The default Javascript alert is ugly and limited [(click here to check it out)](https://www.w3schools.com/js/js_popup.asp). Nobody likes to use them, that’s why developers usually build their own modals.
 
