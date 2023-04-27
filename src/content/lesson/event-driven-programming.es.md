@@ -138,9 +138,9 @@ Al usar la función `.addEventListener`, debe especificar qué **evento** quiere
 
 Por ejemplo, el siguiente código está creando una lista de nombres, y cada LI está escuchando el evento "clic", que luego activa la eliminación del mismo LI:
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/1nhjc4t0/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/gmihov001/kh4n57wo/29/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/1nhjc4t0/1/embedded/js,html,result/">Haga clic aquí para abrir la demostración en una nueva ventana.</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/gmihov001/kh4n57wo/29/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen">Click here to open demo in a new window</a></small></div>
 
 ## El Objeto del Evento
 
