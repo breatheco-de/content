@@ -23,7 +23,7 @@ Necesitamos usar boxes (cajas) para eso. Una caja es un contenedor con un ancho 
 
 Todo el contenido del sitio web debe estar envuelto dentro de una caja (div, header, footer, etc). Las cajas son invisibles por defecto, por lo tanto, para hacerlas visibles, debes establecer un color de fondo o un borde. La siguiente imagen muestra cuántas cajas invisibles tiene un sitio web normal:
 
-<before-after width="500px" before="https://storage.googleapis.com/breathecode-asset-images/3dbebe51957eddaddc33052a05b76c65458a5f1cec62159493f28b7d1f90b631.png" after="https://storage.googleapis.com/breathecode-asset-images/1d7f1747b12e28b783b8867feafa0a1aab2ad72bfc4b8175f3e7407fda167b55.png" /></before-after>
+<before-after width="500px" before="https://github.com/breatheco-de/content/blob/master/src/assets/images/40818d0d-60c6-4ef3-a488-834f21ddebf1.png?raw=true" after="https://github.com/breatheco-de/content/blob/master/src/assets/images/0c89a48e-d488-4e5c-807a-fd6b9a9179f6.png?raw=true" /></before-after>
 
 ### Atributos de una caja
 
