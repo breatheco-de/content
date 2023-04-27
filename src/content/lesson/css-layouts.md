@@ -135,7 +135,7 @@ Some websites have great content, but, unfortunately, they also have poor layout
 + **Orientation:** If you are using a tablet or mobile phone, you can rotate your screen which will require the website width to adjust and become bigger (for landscape) or smaller (for portrait).
 + **Common Sense:** This is a tricky one, but you will never know what works best until you try. Perhaps moving a website menu from the top to the left will increase user engagement. You must always be in constant search for "the truth" about your user behavior.
   
-## Layout Examples:
+## Layout Examples
 
 The following examples gather a large percentage of the most used layouts on the web. Understand them well because you will probably use them throughout the rest of your life as a developer. Sometimes you will use a mixed approach to accomplish several things at the same time.
 
