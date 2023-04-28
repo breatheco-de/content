@@ -8,7 +8,7 @@
 			}
 		},
 		"comments": "4Geeks was really a great experience. The environment is very much everyone working together, with lots of opportunities to code as a group",
-		"lang": "us",
+		"lang": "en",
 		"total_raiting": 5,
 	},
 	{
@@ -20,19 +20,31 @@
 			}
 		},
 		"comments": "4geeks has some of the best and most supportive staff that I've ever experienced in my life. The 24/7 support chat and the 1-1 mentoring helped me make it through",
-		"lang": "us",
+		"lang": "en",
 		"total_raiting": 4.9,
 	},
 	{
 		"author": {
-			"first_name": "",
-			"last_name": "",
+			"first_name": "David",
+			"last_name": "Gomez Agudelo",
 			"profile": {
-				"avatar_url": ""
+				"avatar_url": "https://avatars.githubusercontent.com/u/87324616?v=4"
 			}
 		},
 		"comments": "",
-		"lang": "",
+		"lang": "us",
+		"total_raiting": 5,
+	},
+	{
+		"author": {
+			"first_name": "Paola",
+			"last_name": "Sánchez",
+			"profile": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/74715265?v=4"
+			}
+		},
+		"comments": "",
+		"lang": "en",
 		"total_raiting": 5,
 	},
 	{
@@ -44,19 +56,7 @@
 			}
 		},
 		"comments": "",
-		"lang": "",
-		"total_raiting": 5,
-	},
-	{
-		"author": {
-			"first_name": "",
-			"last_name": "",
-			"profile": {
-				"avatar_url": ""
-			}
-		},
-		"comments": "",
-		"lang": "",
+		"lang": "en",
 		"total_raiting": 5,
 	}
 ]
