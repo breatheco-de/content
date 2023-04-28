@@ -74,14 +74,14 @@ Para evaluar el estado de una respuesta puedes utilizar:
 	});
 ```
 
-**Ahora que esta pasando?**
+**¿Ahora qué está pasando?**
 
 1) Todavía estamos pasando la ruta (‘examples / example.json’) como parámetro.
 2) El **fetch** devuelve una **promesa** que eventualmente se convierte en la respuesta.
 3) Luego, la respuesta se pasa a .then para que se use de la manera que especificó.
 4) Tenemos una instrucción "if" que básicamente dice que si **response.ok** no es verdadero, emita un error con response.statusText, que luego activará .catch.
 
-**¿Porqué necesitamos esto?**
+**¿Por qué necesitamos esto?**
 
  Para evitar que las malas respuestas caigan de la cadena y rompan su código más adelante.
 
@@ -89,7 +89,7 @@ Para evaluar el estado de una respuesta puedes utilizar:
 
  El resultado será que la búsqueda no entregará nada y, sin embargo, el cliente no tendrá idea de que algo salió mal.
  
-**Ahora Qué?**
+**¿Ahora qué?**
 
 Ahora necesitamos "leer" la respuesta para acceder al cuerpo de la respuesta.
 
@@ -117,7 +117,7 @@ Actualicemos nuestro código para incluirlo.
     });
 ```
 
-**Ahora que esta pasando?**
+**¿Ahora qué está pasando?**
 
 Sencillo. Piénsalo en pasos separados.
 
