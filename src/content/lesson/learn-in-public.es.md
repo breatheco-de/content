@@ -41,7 +41,7 @@ Cuando aprendes en público, conviertes las redes sociales en tu cuaderno de not
 - Acércate a los desarrolladores que admiras: Si te ha gustado un vídeo, escríbele algo al autor.  Si te gusta una librería, ¡haz un Pull Request corrigiendo un error ortográfico o mejorando la documentación o codificando una nueva característica!
 - Participa en eventos y conferencias: Reúnete con otros desarrolladores y las oportunidades empezarán a llegar.
 
-## Razones por las que tienes que procrastinar esto:
+## Razones por las que no tienes que procrastinar esto:
 
 ### No tengo nada que decir
 
