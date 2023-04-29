@@ -28,7 +28,7 @@ $ node ./src/utils/cli.js sanitize_lesson --slug all
 
 ### Method: sanitize_lesson
 
-Will try to clean and fix any possible issues on the lessons, for example: Date formats.
+We'll try to clean and fix any possible issues on the lessons, for example: Date formats.
 
 ### Method: update_lesson
 
