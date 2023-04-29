@@ -101,6 +101,10 @@ git init
 
 This will create a .git directory in the \[project\] directory. Make sure that the folder was successfully created (you can run the command `ls -l` to read the directory content in the command line).
 
+```
+Git init should be done in the folder you intent to push, not on "Desktop" (which has all sorts of files you might not want to push).
+```
+
 ## Committing Changes into the Repository
 
 After you have made some changes to the files of the project, you may want to save/submit those changes into the repository. This is called a "commit."
