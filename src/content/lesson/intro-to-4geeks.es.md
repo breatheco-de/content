@@ -1,6 +1,6 @@
 ---
 title: "Introducción a 4Geeks Academy"
-subtitle: "Espero que leas este artículo completo, este artículo tiene una receta de 8 minutos para sacarle el máximo de provecho a la academia. ¡De la manera más efectiva"
+subtitle: "Espero que leas este artículo completo, este artículo tiene una receta de 8 minutos para sacarle el máximo de provecho a la academia. ¡De la manera más efectiva!"
 textColor: "white"
 status: "published"
 tags: ["best practices"]
