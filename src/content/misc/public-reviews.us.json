@@ -25,37 +25,37 @@
 	},
 	{
 		"author": {
-			"first_name": "David",
-			"last_name": "Gomez Agudelo",
+			"first_name": "Sean",
+			"last_name": "Cole",
 			"profile": {
-				"avatar_url": "https://avatars.githubusercontent.com/u/87324616?v=4"
+				"avatar_url": "https://avatars.githubusercontent.com/u/120532207?v=4"
 			}
 		},
-		"comments": "",
-		"lang": "us",
-		"total_raiting": 5,
-	},
-	{
-		"author": {
-			"first_name": "Paola",
-			"last_name": "Sánchez",
-			"profile": {
-				"avatar_url": "https://avatars.githubusercontent.com/u/74715265?v=4"
-			}
-		},
-		"comments": "",
+		"comments": "The number of opportunities to get assistance, either in coding or to get a career are hard to miss. You need help, just ask and you will get it!",
 		"lang": "en",
 		"total_raiting": 5,
 	},
 	{
 		"author": {
-			"first_name": "",
-			"last_name": "",
+			"first_name": "Jean",
+			"last_name": "St Cloud",
 			"profile": {
-				"avatar_url": ""
+				"avatar_url": "https://avatars.githubusercontent.com/u/110052742?v=4"
 			}
 		},
-		"comments": "",
+		"comments": "I've gotten further than I have ever gotten by myself watching videos on youtube or the classes I did in college. This has been amazing for my growth and interest in the development field",
+		"lang": "en",
+		"total_raiting": 4.5,
+	},
+	{
+		"author": {
+			"first_name": "John",
+			"last_name": "Critchlow",
+			"profile": {
+				"avatar_url": "https://avatars.githubusercontent.com/u/123122544?v=4"
+			}
+		},
+		"comments": "I think this is a solid platform to learn coding, it is worth every penny that is being spent. I already recommended it to friend and family.",
 		"lang": "en",
 		"total_raiting": 5,
 	}
