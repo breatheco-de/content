@@ -28,7 +28,7 @@ Los métodos de enseñanza tradicionales de hoy para lograr el dominio y la comp
 
 ## Lo que vas a aprender
 
-Aprenderás todo sobre los fundamentos de Javascript, comenzando con los conceptos básicos de sintaxis, condicionales, funciones y arrays. Cubriremos los conceptos básicos de variables, tipos de datos y objetos. Luego, aprenderás a definir funciones, cómo usar los parámetros correctamente, cómo llamarlos y comprender las funciones en profundidad. Aprenderemos todo sobre los arrays y cómo interactuar con ellos, bucles, filtrado y los métodos más importantes de los arrays. Y finalmente, sabemos que dominar cualquier habilidad requiere muchas horas de práctica, por eso vamos a concluir el curso con más de 160 ejercicios de Javascript que van desde tareas fáciles hasta tareas muy desafiantes.
+Aprenderás todo sobre los fundamentos de Javascript, comenzando con los conceptos básicos de sintaxis, condicionales, funciones y arrays. Cubriremos los conceptos básicos de variables, tipos de datos y objetos. Luego, aprenderás a definir funciones, cómo usar los parámetros correctamente, cómo llamarlos y comprender las funciones en profundidad. Aprenderemos todo sobre los arrays y cómo interactuar con ellos, recorrerlos, filtrarlos y los métodos más importantes de los arrays. Y finalmente, sabemos que dominar cualquier habilidad requiere muchas horas de práctica, por eso vamos a concluir el curso con más de 160 ejercicios de Javascript que van desde ejercicios fáciles hasta unos muy desafiantes.
 
 ### ¡Pide ayuda!
 
