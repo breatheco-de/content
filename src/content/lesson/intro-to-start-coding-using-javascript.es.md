@@ -1,5 +1,5 @@
 ---
-title: "Introducción a Comenzar a Programar Usando Javascript"
+title: "Introducción para Comenzar a Programar Usando Javascript"
 subtitle: "Aprenderás todo sobre los fundamentos de Javascript, comenzando con los conceptos básicos de sintaxis, condicionales, funciones y arrays."
 tags: ["javascript"]
 authors: ["tomasgonzaleza"]
@@ -10,25 +10,25 @@ authors: ["tomasgonzaleza"]
 # Introducción a Comenzar a Programar Usando Javascript
 <!--endhide-->
 
-Todos conocemos la importancia, el crecimiento y el impacto de la industria tecnológica en la actualidad. Cada vez se necesitan más desarrolladores en todas partes. Solo en los EE. UU., la Oficina de Estadísticas Laborales proyecta tener más de un millón de puestos de trabajo abiertos para 2024, para desarrolladores de software.
+Todos conocemos la importancia, el crecimiento y el impacto de la industria tecnológica en la actualidad. Cada vez se necesitan más desarrolladores en todas partes. Solamente en Estados Unidos, la Oficina de Estadísticas Laborales proyecta tener más de un millón de puestos de trabajo abiertos para desarrolladores de software en 2024.
 
-Si quieres iniciarte en la industria tecnológica, estás en el lugar correcto. En este curso, le presentaremos los conceptos básicos de la programación utilizando uno de los lenguajes de programación más populares, Javascript.
+Si quieres iniciarte en la industria tecnológica, estás en el lugar correcto. En este curso, te enseñaremos los conceptos básicos de la programación utilizando uno de los lenguajes de programación más populares, Javascript.
 
 ## ¿Por qué elegimos Javascript para este curso?
 
-Javascript es uno de los lenguajes de programación más populares del mundo. Eso significa que hay toneladas de recursos disponibles en línea, como tutoriales, documentación y comunidades donde puedes solicitar ayuda. Además, aprender un lenguaje popular como Javascript puede ser una excelente manera de prepararse para el éxito en el mercado laboral.
+Javascript es uno de los lenguajes de programación más populares del mundo. Eso significa que hay toneladas de recursos disponibles en línea, como tutoriales, documentación y comunidades donde puedes pedir ayuda. Además, aprender un lenguaje popular como Javascript puede ser una excelente manera de prepararte para el éxito en el mercado laboral.
 
-Pero hay más que eso. Javascript se ejecuta directamente en tu navegador web, lo que lo convierte en una herramienta realmente poderosa para crear sitios web interactivos y dinámicos. Piensa en todas las cosas geniales que has visto en la web, desde animaciones y juegos hasta formularios interactivos y visualizaciones de datos. Muchas de esas cosas son posibles con Javascript. Es un gran lenguaje para principiantes, tiene una sintaxis relativamente simple, lo que significa que es más fácil de leer y escribir que otros lenguajes. Además, es realmente versátil (puedes usarlo para todo, desde simples interacciones en sitios web hasta aplicaciones web complejas).
+Pero hay más que eso. Javascript se ejecuta directamente en tu navegador web, lo que lo convierte en una herramienta realmente poderosa para crear sitios web interactivos y dinámicos. Piensa en las cosas increíbles que has visto en la web, desde animaciones y juegos hasta formularios interactivos y visualizaciones de datos. Muchas de esas cosas son posibles gracias Javascript. Es un gran lenguaje para principiantes, tiene una sintaxis relativamente simple, lo que significa que es más fácil de leer y escribir que otros lenguajes. Además, es realmente versátil (puedes usarlo para todo, desde simples interacciones en sitios web hasta aplicaciones web complejas).
 
 ## Sobre 4Geeks
 
-4Geeks es una escuela de codificación con sede en Miami. Comenzamos en 2015 y ahora tenemos más de 4000 graduados y 6 campus abiertos en los EE. UU., América Latina y Europa. Estamos autorizados por el Departamento de Educación de Florida y fuimos nominados como una de las 10 mejores escuelas de codificación en los EE. UU. [por Newsweek y otros premios](https://4geeksacademy.com/us/awards).
+4Geeks es una academia de programación con sede en Miami. Comenzamos en 2015 y ahora tenemos más de 4000 graduados y 6 campus abiertos en Estados Unidos, Latinoamérica y Europa. Estamos autorizados por el Departamento de Educación de Florida y fuimos nominados como una de las 10 mejores escuelas de programación en los EE. UU. [por Newsweek y otros premios](https://4geeksacademy.com/us/awards).
 
 Los métodos de enseñanza tradicionales de hoy para lograr el dominio y la competencia técnica se centran principalmente en los fundamentos y los aspectos teóricos. Los bootcamps y otras aplicaciones o sitios web han surgido como una posible solución con entornos de aprendizaje interactivos, prácticos, atractivos y de ritmo más rápido, pero a menudo carecen de un enfoque o marco científico para optimizar la eficacia del aprendizaje. La codificación es la nueva normalidad, todo el mundo es capaz de hablar código y, a través de años de investigación científica, hemos determinado que el camino hacia la autosuficiencia en la codificación es altamente guiado, en vivo y en conjunto. Es por eso que se nos ocurrió una solución a la que todos pueden tener acceso, donde puedes aprender junto con otras personas en vivo y tener acceso a sesiones de tutoría cuando las necesites.
 
 ## Lo que vas a aprender
 
-Aprenderás todo sobre los fundamentos de Javascript, comenzando con los conceptos básicos de sintaxis, condicionales, funciones y arrays. Cubriremos los conceptos básicos de variables, tipos de datos y objetos. Luego, aprenderás a definir funciones, cómo usar los parámetros correctamente, cómo llamarlos y comprender las funciones en profundidad. Aprenderemos todo sobre los arrays y cómo interactuar con ellos, recorrerlos, filtrarlos y los métodos más importantes de los arrays. Y finalmente, sabemos que dominar cualquier habilidad requiere muchas horas de práctica, por eso vamos a concluir el curso con más de 160 ejercicios de Javascript que van desde ejercicios fáciles hasta unos muy desafiantes.
+Aprenderás todo sobre los fundamentos de Javascript, comenzando con los conceptos básicos de sintaxis, condicionales, funciones y arrays. Cubriremos los conceptos básicos de variables, tipos de datos y objetos. Luego, aprenderás a definir funciones, cómo usar los parámetros correctamente, cómo llamarlos y comprender las funciones en profundidad. Aprenderemos todo sobre los arrays y cómo interactuar con ellos, recorrerlos, filtrarlos y los métodos más importantes de los arrays. Por último, sabemos que dominar cualquier habilidad requiere muchas horas de práctica, por eso vamos a concluir el curso con más de 160 ejercicios de Javascript que van desde ejercicios fáciles hasta unos muy desafiantes.
 
 ### ¡Pide ayuda!
 
