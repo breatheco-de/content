@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-## Why Do We Need to Learn about Selectors?
+## Why Do We Need to Learn About Selectors?
 
 Completing a stylesheet is like having a little war between selectors, you are constantly overriding previously defined styles with new ones:
 
@@ -120,9 +120,9 @@ The following code targets any `div` with the word "section" in the title. It ca
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
-# Pseudo Class Selectors
+## Pseudo Class Selectors
 
-### Link-related pseudo selectors 
+### Link-related Pseudo Selectors 
 ```css
 a:link{color: green;}
 a:visited{color: yellow;}
@@ -142,7 +142,7 @@ You can assign a different color to any link on the website, depending on its st
 
 
   
-### Input-related pseudo selectors 
+### Input-related Pseudo Selectors 
 
 ```css
 input {padding: 5px;}
@@ -161,7 +161,7 @@ It is very important to take enough time to style our forms. Styling is the best
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
-### Position-based pseudo selectors 
+### Position-based Pseudo Selectors 
 
 ```css
 #myUL li:first-child {background: blue;}
@@ -174,7 +174,7 @@ You can apply styles to elements based on their position.
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/0nzat2h8/1/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
-### Here is a list of the most used Pseudo-Classes:
+### Here is a List of the Most Used Pseudo-Classes:
 
 |**Selector**   |**Example**   |**Example description**   |
 |:--------------|:-------------|:-------------------------|
@@ -210,4 +210,4 @@ You can apply styles to elements based on their position.
 |[:visited](https://www.w3schools.com/cssref/sel_visited.asp)   |a:visited   |Selects all visited links   |
 
 
-> :link: Great reading about CSS Selectors: [The 30 CSS selectors you must memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+> 🔗 Great reading about CSS Selectors: [The 30 CSS selectors you must memorize](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
