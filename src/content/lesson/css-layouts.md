@@ -145,7 +145,7 @@ Facebook is like this: a centered content website has a max-width for the conten
 
 Here is the exact code needed for website content to always be aligned at the center of the screen:
 
-![css layout](https://storage.googleapis.com/breathecode-asset-images/009d58a22e48cff0cf4bfe466a172d7bd2028dd115d01b6db91745ab46836663.png)
+![css layout](https://github.com/breatheco-de/content/blob/master/src/assets/images/ca5d4285-c151-4b30-a4a2-c6b35510188b.png?raw=true)
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
