@@ -1,6 +1,6 @@
 ---
 title: "Dominando los Selectores de CSS"
-subtitle: "Además de dominar las propiedades display y position, aprender a usar selectores de CSS es la habilidad más importante que necesitas desarrollar. No tienes que recordar su sintaxis, pero si tenerlos en tu radar para poder desarrollar las estrategias correctas al construir tu hoja de estilos CSS. "
+subtitle: "Además de dominar las propiedades display y position, aprender a usar selectores de CSS es la habilidad más importante que necesitas desarrollar. No tienes que recordar su sintaxis, pero sí tenerlos en tu radar para poder desarrollar las estrategias correctas al construir tu hoja de estilos CSS."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
@@ -9,29 +9,29 @@ status: "published"
 
 ---
 
-## ¿Por qué necesitamos aprender acerca de los selectores?
+## ¿Por qué Necesitamos Aprender Acerca de los Selectores?
 
 Completar una hoja de estilo es como tener una pequeña guerra entre selectores, estás constantemente anulando los estilos previamente definidos con nuevos:
 
 ```css
-//Primero dices que quieres que todas las H2 tags sean font-size: 14px y de color: azul;
-h2{
+/* Primero quieres que todas las H2 tags sean font-size: 14px y de color: blue; */
+h2 {
     font-size: 14px;
     color: blue;
 }
 
-//Pero luego tienes una página muy particular donde el fondo también es azul, así que necesitas que tus encabezados sean blancos
+/* Pero luego tienes una página muy particular donde el fondo también es azul, así que necesitas que tus encabezados sean blancos */
 
-h2{
+h2 {
     color: white;
 }
 ```
 
-Esto sucede todo el tiempo y, en algún punto, puede ser difícil anular los estilos anteriores.  Debes organizar tus estilos adecuadamente y empezar desde lo menos específico hasta los más especifico. 
+Esto sucede todo el tiempo y, en algún punto, puede ser difícil anular los estilos anteriores. Debes organizar tus estilos adecuadamente y empezar desde lo menos específico hasta los más especifico. 
 
 Estos selectores "muy específicos" te ayudarán mucho. ¡Serán tu mejor herramienta para luchar contra tu guerra de estilos!
 
-> :tv: &nbsp;[Aquí hay un vídeo muy bueno (3:40 min) explicando especificidad.](https://www.youtube.com/watch?v=In78mSOHmls)
+> 📺 &nbsp;[Aquí hay un vídeo muy bueno (3:40 min) explicando especificidad.](https://www.youtube.com/watch?v=In78mSOHmls)
 
 ## El Selector Child (hijos)
 
@@ -41,14 +41,14 @@ Estos selectores "muy específicos" te ayudarán mucho. ¡Serán tu mejor herram
 }
 ```
 
-Esta declaración toma los tags de párrafo que son hijos (children) del `div` y los convierte en azules. Ten en cuenta que solo funciona para los *hijos* de ese div, no necesariamente para todos los descendientes. Exploremos esto más a fondo con el siguiente ejemplo.
+Esta declaración toma los tags de párrafo que son hijos (children) del `div` y los pinta de azul. Ten en cuenta que solo funciona para los *hijos* de ese div, no necesariamente para todos los descendientes. Exploremos esto más a fondo con el siguiente ejemplo.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/">Clic aquí para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/">Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
 
 
-## El selector de parientes adyacentes (hermanos)
+## El Selector de Parientes Adyacentes (hermanos)
 
 ```css
 p + p {
@@ -64,10 +64,9 @@ El primer párrafo de la lista está precedido por el `div`, por lo que no se mo
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/">Clic para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/">Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
 
-## El todopoderoso asterisco
-
+## El Todopoderoso Asterisco
 
 ```css
 #someDiv * {
@@ -75,11 +74,11 @@ El primer párrafo de la lista está precedido por el `div`, por lo que no se mo
 }
 ```
 
-El CSS anterior convierte a todos los elementos dentro de un div rojo específico, esto incluye elementos como enlaces que tienen un color predeterminado establecido a otra cosa y no se verían afectados simplemente por apuntar al div.
+El CSS anterior convierte a todos los elementos dentro de un div específico a color rojo, esto incluye elementos como enlaces que tienen un color predeterminado establecido a otra cosa y no se verían afectados simplemente por apuntar al div.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/79254pm6/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/79254pm6/2/embedded/html,css,result/">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/79254pm6/2/embedded/html,css,result/">Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
 
 
 
@@ -93,21 +92,21 @@ Puedes llevar esto tan lejos como quieras; los siguientes objetivos son los "nie
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/">Haz clic para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/">Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
 
-## Selector de valor de atributo
+## Selector de Valor de Atributo
 
 ```css
 a[href='http://4geeksacademy.com/'] {color: blue;}
 ```
-Si queremos cambiar el color de fuente del enlace "Design Shack", podríamos usar: pseudo selectores. Sin embargo, hacerlo supondría que la lista se mantenga en ese orden y que el soporte del navegador no es el mejor. En su lugar, lo que podemos hacer es usar un selector de atributos para dirigirnos al `href` específico en el que estamos interesados.  
+Si queremos cambiar el color de fuente del enlace "4Geeks", podríamos usar pseudo selectores. Sin embargo, hacerlo supondría que la lista se mantenga en ese orden y que el soporte del navegador no es el mejor. En su lugar, lo que podemos hacer es usar un selector de atributos para dirigirnos al `href` específico en el que estamos interesados.  
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/">Clic para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/">Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
 
 
-## Selector de valor de atributo de subcadena arbitraria
+## Selector de Valor de Atributo de Subcadena Arbitraria
 
 ```css
 div[id*='section'] {color: red;}
@@ -116,17 +115,19 @@ El siguiente código apunta a cualquier `div` con la palabra "section" en el tí
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/uzw8jqc5/1/embedded/html,css,result/">Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
 
-## Pseudoclases
+## Selectores de Pseudoclases
 
-### Pseudoselectores relacionados con enlaces 
+### Pseudoselectores Relacionados con Enlaces
+
 ```css
 a:link{color: green;}
 a:visited{color: yellow;}
 a:hover{color: blue;}
 a:active{color: red;}
 ```
+
 Puedes cambiar los colores de cualquier elemento del sitio web, dependiendo de su estado:
 
 + `:link` será el predeterminado.
@@ -136,42 +137,42 @@ Puedes cambiar los colores de cualquier elemento del sitio web, dependiendo de s
   
   <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/">Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
 
   
-### Pseudoselectores relacionados con la entrada (input)
+### Pseudoselectores Relacionados con Campos de Entrada (input)
 
 ```css
-input{padding: 5px;}
-input:disabled{
+input {padding: 5px;}
+input:disabled {
     background: #ddd;
     color: #949494;
     border: 2px solid black;
 }
-input:focus{font-size: 2em;}
-input:enabled{ border: 2px solid black;}
+input:focus {font-size: 2em;}
+input:enabled {border: 2px solid black;}
 ```
 
 Es muy importante tomarse el tiempo suficiente para darle estilo a nuestros formularios. El Styling (estilo) es la mejor manera de decirle al usuario que un campo está desactivado, marcado o que tiene el cursor enfocado en un campo en particular.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/76yzfxL9/1/embedded/html,css,result/">Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
 
-### Pseudoselectores según posición 
+### Pseudoselectores Según Posición 
 
 ```css
-#myUL li:first-child{background: blue;}
-#myUL li:nth-child(3){background: orange;}
-#myUL li a:first-of-type{background: green;}
+#myUL li:first-child {background: blue;}
+#myUL li:nth-child(3) {background: orange;}
+#myUL li a:first-of-type {background: green;}
 ```
 Puedes aplicar estilos a los elementos según su posición. 
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/0nzat2h8/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/0nzat2h8/1/embedded/html,css,result/">Presiona aquí para abrir la demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/0nzat2h8/1/embedded/html,css,result/">Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
 
-### Aquí hay una lista de las Pseudo-Clases más usadas:
+### Aquí Hay Una Lista de las Pseudo-Clases más Usadas:
 
 |**Selector**   |**Ejemplo**   |**Descripción del Ejemplo**   |
 |:--------------|:-------------|:-------------------------|
@@ -208,7 +209,7 @@ Puedes aplicar estilos a los elementos según su posición.
 |[:visited](https://www.w3schools.com/cssref/sel_visited.asp)   |a:visited   |Selecciona todos los enlaces visitados   |
 
 
-> :link: Esta es una excelente lectura sobre los selectores de CSS: [Los 30 selectores de CSS que debes memorizar](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+> 🔗 Esta es una excelente lectura sobre los selectores de CSS: [Los 30 selectores de CSS que debes memorizar](https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 
 
 
