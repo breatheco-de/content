@@ -14,15 +14,15 @@ status: "published"
 Completing a stylesheet is like having a little war between selectors, you are constantly overriding previously defined styles with new ones:
 
 ```css
-//You first might want all the H2 tags to be font-size: 14px; and color: blue;
-h2{
+/* You first might want all the H2 tags to be font-size: 14px; and color: blue; */
+h2 {
     font-size: 14px;
     color: blue;
 }
 
-//But then you have a very particular page where the background is also blue, so you need your headings to be white
+/* But then you have a very particular page where the background is also blue, so you need your headings to be white */
 
-h2{
+h2 {
     color: white;
 }
 ```
@@ -145,14 +145,14 @@ You can assign a different color to any link on the website, depending on its st
 ### Input-related pseudo selectors 
 
 ```css
-input{padding: 5px;}
-input:disabled{
+input {padding: 5px;}
+input:disabled {
     background: #ddd;
     color: #949494;
     border: 2px solid black;
 }
-input:focus{font-size: 2em;}
-input:enabled{border: 2px solid black;}
+input:focus {font-size: 2em;}
+input:enabled {border: 2px solid black;}
 ```
 
 It is very important to take enough time to style our forms. Styling is the best way to tell the user that one input is either disabled, checked, or that the cursor is over a particular input.
