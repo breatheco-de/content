@@ -132,12 +132,12 @@ test('Testing for hello (lower)', () => {
      expect(result).toBe(false);
 })
 // Cuarta prueba posible
-test('Boolean shoud return false', () => {
+test('Boolean should return false', () => {
      const result = isUpperCase(true);
      expect(result).toBe(false);
 })
 // Quinta prueba posible
-test('Number shoud return false', () => {
+test('Number should return false', () => {
      const result = isUpperCase(12341234);
      expect(result).toBe(false);
 })
@@ -154,7 +154,7 @@ Hemos estado usando `expect(something).toBe(something)` pero Jest tiene muchas f
 | Descripción | Sintaxis |
 | ----------- | ------ |
 | Espera lo contrario| expect(false).not.toBe(true) |
-| Espera un string que contiene otro string | expect("hello world").stringContaining("world) |
+| Espera un string que contiene otro string | expect("hello world").stringContaining("world") |
 | Espera que se defina una variable | expect(variable_name).toBeDefined() |
 | Espera que un array contenga otro | expect(['a','b','c','e']).toEqual(expect.arrayContaining(['b','c'])) |
 
