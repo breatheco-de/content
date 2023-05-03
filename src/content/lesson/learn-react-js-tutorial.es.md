@@ -121,7 +121,7 @@ function MyCard(){
 
 Cada componente se puede renderizar llamando a su `<tag>`, que se parece a las etiquetas HTML pero siempre comienza con una letra mayúscula. La diferencia es que ahora el nombre de la `<tag>` es el nombre del componente React (*p. ej., <MyCard />*) que **tú** has creado, y usar la tag te da acceso a la apariencia y comportamiento que has programado en tu propio componente.
 
-El componente anterior ahora **renderizará** (se mostrará en la página) una Bootstrap card en cualquier lugar donde llames a <MyCard /> de esta manera:
+El componente anterior ahora **renderizará** (se mostrará en la página) una Bootstrap card en cualquier lugar donde lo llames; de esta manera:
 
 ```jsx 
     <MyCard />
