@@ -46,7 +46,7 @@ En el siguiente ejemplo puedes ver como dividir en dos el contenido de una pági
 
 <div align="right"><small><a href="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/">Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
 
-## Propiedad box-sizing 
+## Propiedad: box-sizing 
 
 Esta importante propiedad está relacionada con el modelo de cajas y define la manera en que se calcula la altura (height) y el ancho (width) del elemento: debiese incluir el `border`, `padding` y puede incluir (o no) el `margin`.
 
@@ -98,7 +98,7 @@ Es común encontrar esta propiedad en los menús de navegación, los activity fe
 |Inline   |Es el valor por defecto de `<strong>`, `<i>`, `<a>`, `<span>`, y otros tags comunes. Los elementos se comportarán como un texto y no tendrán límites definidos (ni width, ni height).    |
 |Block   |Es el valor por defecto que tienen los tags `<div>`, `<p>`, `<h1>-<h6>`, entre otros.  El elemento ocupará toda la línea de la página, desplazando a los demás elementos por encima o por debajo de él.    |
 |Inline-Block    |Lo mejor de ambos mundos. Sirve para tener varios contenedores en una misma línea, pero cada uno respetando sus límites (width y height). Gracias a él existen páginas como Pinterest que permiten ver el diseño *masonry*.   |
-|Flex    |Presentado hace pocos años atrás, viene a arreglar los mayores problemas con display. Flex se utiliza para que las cajas sean flexibles. Cuando aplicas `display: flex` a un `<div>`, todos sus hijos podrán compartir una misma fila. |
+|Flex    | Esta propiedad viene para arreglar los mayores problemas con display. Flex se utiliza para que las cajas sean flexibles. Cuando aplicas `display: flex` a un `<div>`, todos sus hijos podrán compartir una misma fila. |
 |None    |Hace que el elemento se oculte (sea invisible) y no ocupe ningún espacio dentro del documento.   |
 
 Para entender display a cabalidad lo mejor es… ¡Que nos pongamos a practicar!
@@ -201,7 +201,7 @@ Utiliza los sliders de la barra de herramientas izquierda para modificar el marg
 
 ## Hay Mucho Más que Aprender sobre Diseños
 
-Tendrás que ir aprendiendo “en el camino”, porque hay una infinidad de combinaciones que puedes crear para el diseño de una página web. Lo que realmente importa, es que entiendas completamente las reglas display, position, float y overflow.
+Tendrás que ir aprendiendo “en el camino”, porque hay una infinidad de combinaciones que puedes crear para el diseño de una página web. Lo que realmente importa, es que entiendas completamente las reglas display, position, float y flex.
 
 No te preocupes, amigo mío. Hay un recurso llamado `Bootstrap` que está hecho para facilitar el diseño. Aprenderás esto en la próxima lección.
 
