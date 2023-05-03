@@ -164,9 +164,9 @@ It is very important to take enough time to style our forms. Styling is the best
 ### Position-based pseudo selectors 
 
 ```css
-#myUL li:first-child{background: blue;}
-#myUL li:nth-child(3){background: orange;}
-#myUL li a:first-of-type{background: green;}
+#myUL li:first-child {background: blue;}
+#myUL li:nth-child(3) {background: orange;}
+#myUL li a:first-of-type {background: green;}
 ```
 You can apply styles to elements based on their position.
 
