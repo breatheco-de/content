@@ -99,7 +99,7 @@ It is common to find this property in menus, social network activity feeds, etc.
 |Inline     |This is the default value of `<strong>`, `<i>`, `<a>`, `<span>`, and other common tags. The elements will behave like text and will not have defined limits (neither width nor height).    |
 |Block   |This is the default value of `<div>`, `<p>`, `<h1>-<h6>` tags, among others. The element will occupy the entire row of the site, and move other elements above or below it.    |
 |Inline-Block    |The best of both worlds. This value places the containers in the same row, but respecting each of their limits (width and height). Thanks to this value, sites like Pinterest use masonry design.   |
-|Flex    |Introduced just a couple of years ago, it comes to fix all the major problems with display to date. Flex is used to make boxes flexible. When you apply `display: flex` to a `<div>`, all the children will be able to share the same row.   |
+|Flex    |This property comes to fix all the major problems with display to date. Flex is used to make boxes flexible. When you apply `display: flex` to a `<div>`, all the children will be able to share the same row.   |
 |None    |Hides the element (making it invisible) and does not hold any space for it within the document.   |
 
 Ok, now… to understand what we just explained, there is no other choice but… Practice!
@@ -203,11 +203,11 @@ Use the sliders on the left toolbar to change the margin, padding, border radius
 
 ## There is Much More to Know about Layouts
 
-You will have to be learning "on the go" because there is an infinite amount of combinations you can create for a website layout. What really matters is that you fully understand the display, position, float and overflow rules.
+You will have to be learning "on the go" because there is an infinite amount of combinations you can create for a website layout. What really matters is that you fully understand the display, position, float and flex rules.
 
 There is a lesson called `Bootstrap` that was made to facilitate the design. You'll learn this in the next lesson.
 
-![css layout](https://storage.googleapis.com/breathecode-asset-images/38445f32f192b190890d42c0eb1be1d2ec3087452c847383ecac76b62ba689bf.gif?raw=true)
+![css layout](https://github.com/breatheco-de/content/blob/master/src/assets/images/91aa197c-b2cb-4717-b41f-0f7b579aab25.gif?raw=true)
 
 
   
