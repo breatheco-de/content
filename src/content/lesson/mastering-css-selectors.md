@@ -31,7 +31,7 @@ This happens all the time and, at some point, it can be challenging to override 
 
 These "very specific" selectors will help you a lot. They will be your best weapon when fighting your styles war!
 
-> :tv: &nbsp;[Here is a super cool video (3:40 min) explaining specificity.](https://www.youtube.com/watch?v=In78mSOHmls)
+> 📺 &nbsp;[Here is a super cool video (3:40 min) explaining specificity.](https://www.youtube.com/watch?v=In78mSOHmls)
 
 ## The Child Selector
 
@@ -64,7 +64,7 @@ The first paragraph in the list is preceded by the `div`, so it remains unchange
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/">Click to open demo in a new window</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ubpr9mnz/2/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 ## The Almighty Asterisk
 
@@ -93,7 +93,7 @@ You can take this as far as you want; the following targets the "grandchildren" 
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/">Click to open demo in a new window</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/3f6Lbrvp/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 
 ## Attribute Value Selector
@@ -105,7 +105,7 @@ If we want to change the font color of the "4Geeks" link, we could use :pseudo s
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/">Click to open demo in a new window</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 
 ## Arbitrary Substring Attribute Value Selector
