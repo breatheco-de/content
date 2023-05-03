@@ -13,7 +13,7 @@ tags: ["javascript"]
 
 Python is the first language you should learn, but certainly not the only one.
 
-- MIT decided to teach python as first language because its syntax prevents for lots of errors, specially because it has identation and no semicolons.
+- MIT decided to teach python as first language because its syntax prevents for lots of errors, especially because it has identation and no semicolons.
 
 ## Variables
 
