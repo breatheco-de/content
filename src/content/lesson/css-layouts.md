@@ -13,7 +13,7 @@ status: "published"
 
 CSS Layouts and the positioning of elements are probably one of the most challenging concepts in CSS; both were meant for older, less advanced and less rich websites.
 
-![css layout](https://storage.googleapis.com/breathecode-asset-images/9e6bdbf24451045449a746db7d63e0fa9f9ee88d8c236f05a5585a0a4892c272.png)   
+![css layout](https://github.com/breatheco-de/content/blob/master/src/assets/images/dccad91a-93b3-49c9-a437-6612087b9ee4.png?raw=true)   
 
 ### Layout
 
@@ -39,7 +39,7 @@ All box containers can have the following attributes:
 |Margin   |Optional space that can be added between this particular box and other elements around.   |
 
 
-![css layout](https://storage.googleapis.com/breathecode-asset-images/dd9120e22a33900d5a59e93fb078fb05dadcbabe298e16add0d430d5209ad4e1.gif?raw=true) 
+![css layout](https://github.com/breatheco-de/content/blob/master/src/assets/images/153d2a7c-b648-4d75-920b-940102f18eaa.gif?raw=true) 
 
 In the following example, we divided the website content into 2 different areas. The left side will be **The menu** and the right side will have **The content** of the website. We put a red color to the **#div1** of the menu, and a blue color to the **#div2** of the content so that the example is easier to understand.
 
@@ -126,7 +126,7 @@ It’s yoga time, let’s stop the coding and think about mankind for a minute. 
 
 This course is not just about user interface (UI) and experience (UX). Web developers tend to underestimate this matter. It is important to take enough time to design the website navigation flow, the menu position, UI elements, etc.  Here you have some layout examples:
 
-![css layout](https://storage.googleapis.com/breathecode-asset-images/34b5a78ad137f2c170d7e1a8f711b285403e210da104e432036a3aa008036b78.png)
+![css layout](https://github.com/breatheco-de/content/blob/master/src/assets/images/ce06fb9d-bc8c-4191-ae12-a2ec4ac6fa1f.png?raw=true)
 
 Some websites have great content, but, unfortunately, they also have poor layouts that limit their potential for success. These are the main criteria to consider when choosing your layout:
 
