@@ -99,7 +99,7 @@ Puedes llevar esto tan lejos como quieras; los siguientes objetivos son los "nie
 ```css
 a[href='http://4geeksacademy.com/'] {color: blue;}
 ```
-Si queremos cambiar el color de fuente del enlace "4Geeks", podríamos usar :pseudo selectores. Sin embargo, hacerlo supondría que la lista se mantenga en ese orden y que el soporte del navegador no es el mejor. En su lugar, lo que podemos hacer es usar un selector de atributos para dirigirnos al `href` específico en el que estamos interesados.  
+Si queremos cambiar el color de fuente del enlace "4Geeks", podríamos usar pseudo selectores. Sin embargo, hacerlo supondría que la lista se mantenga en ese orden y que el soporte del navegador no es el mejor. En su lugar, lo que podemos hacer es usar un selector de atributos para dirigirnos al `href` específico en el que estamos interesados.  
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
