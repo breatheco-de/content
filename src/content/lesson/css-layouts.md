@@ -13,7 +13,7 @@ status: "published"
 
 CSS Layouts and the positioning of elements are probably one of the most challenging concepts in CSS; both were meant for older, less advanced and less rich websites.
 
-![css layout](https://storage.googleapis.com/breathecode-asset-images/9e6bdbf24451045449a746db7d63e0fa9f9ee88d8c236f05a5585a0a4892c272.png)   
+![css layout](https://github.com/breatheco-de/content/blob/master/src/assets/images/dccad91a-93b3-49c9-a437-6612087b9ee4.png?raw=true)   
 
 ### Layout
 
@@ -39,7 +39,7 @@ All box containers can have the following attributes:
 |Margin   |Optional space that can be added between this particular box and other elements around.   |
 
 
-![css layout](https://storage.googleapis.com/breathecode-asset-images/dd9120e22a33900d5a59e93fb078fb05dadcbabe298e16add0d430d5209ad4e1.gif?raw=true) 
+![css layout](https://github.com/breatheco-de/content/blob/master/src/assets/images/153d2a7c-b648-4d75-920b-940102f18eaa.gif?raw=true) 
 
 In the following example, we divided the website content into 2 different areas. The left side will be **The menu** and the right side will have **The content** of the website. We put a red color to the **#div1** of the menu, and a blue color to the **#div2** of the content so that the example is easier to understand.
 
@@ -99,7 +99,7 @@ It is common to find this property in menus, social network activity feeds, etc.
 |Inline     |This is the default value of `<strong>`, `<i>`, `<a>`, `<span>`, and other common tags. The elements will behave like text and will not have defined limits (neither width nor height).    |
 |Block   |This is the default value of `<div>`, `<p>`, `<h1>-<h6>` tags, among others. The element will occupy the entire row of the site, and move other elements above or below it.    |
 |Inline-Block    |The best of both worlds. This value places the containers in the same row, but respecting each of their limits (width and height). Thanks to this value, sites like Pinterest use masonry design.   |
-|Flex    |Introduced just a couple of years ago, it comes to fix all the major problems with display to date. Flex is used to make boxes flexible. When you apply `display: flex` to a `<div>`, all the children will be able to share the same row.   |
+|Flex    |This property comes to fix all the major problems with display to date. Flex is used to make boxes flexible. When you apply `display: flex` to a `<div>`, all the children will be able to share the same row.   |
 |None    |Hides the element (making it invisible) and does not hold any space for it within the document.   |
 
 Ok, now… to understand what we just explained, there is no other choice but… Practice!
@@ -126,7 +126,7 @@ It’s yoga time, let’s stop the coding and think about mankind for a minute. 
 
 This course is not just about user interface (UI) and experience (UX). Web developers tend to underestimate this matter. It is important to take enough time to design the website navigation flow, the menu position, UI elements, etc.  Here you have some layout examples:
 
-![css layout](https://storage.googleapis.com/breathecode-asset-images/34b5a78ad137f2c170d7e1a8f711b285403e210da104e432036a3aa008036b78.png)
+![css layout](https://github.com/breatheco-de/content/blob/master/src/assets/images/ce06fb9d-bc8c-4191-ae12-a2ec4ac6fa1f.png?raw=true)
 
 Some websites have great content, but, unfortunately, they also have poor layouts that limit their potential for success. These are the main criteria to consider when choosing your layout:
 
@@ -145,7 +145,7 @@ Facebook is like this: a centered content website has a max-width for the conten
 
 Here is the exact code needed for website content to always be aligned at the center of the screen:
 
-![css layout](https://storage.googleapis.com/breathecode-asset-images/009d58a22e48cff0cf4bfe466a172d7bd2028dd115d01b6db91745ab46836663.png)
+![css layout](https://github.com/breatheco-de/content/blob/master/src/assets/images/ca5d4285-c151-4b30-a4a2-c6b35510188b.png?raw=true)
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -203,11 +203,11 @@ Use the sliders on the left toolbar to change the margin, padding, border radius
 
 ## There is Much More to Know about Layouts
 
-You will have to be learning "on the go" because there is an infinite amount of combinations you can create for a website layout. What really matters is that you fully understand the display, position, float and overflow rules.
+You will have to be learning "on the go" because there is an infinite amount of combinations you can create for a website layout. What really matters is that you fully understand the display, position, float and flex rules.
 
 There is a lesson called `Bootstrap` that was made to facilitate the design. You'll learn this in the next lesson.
 
-![css layout](https://storage.googleapis.com/breathecode-asset-images/38445f32f192b190890d42c0eb1be1d2ec3087452c847383ecac76b62ba689bf.gif?raw=true)
+![css layout](https://github.com/breatheco-de/content/blob/master/src/assets/images/91aa197c-b2cb-4717-b41f-0f7b579aab25.gif?raw=true)
 
 
   
