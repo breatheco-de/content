@@ -27,9 +27,9 @@ h2{
 }
 ```
 
-This happens all the time and, at some point it, can be challenging to override previous styles.  You must organize your styles properly and start from the least specific to the most specific.
+This happens all the time and, at some point, it can be challenging to override previous styles. You must organize your styles properly and start from the least specific to the most specific.
 
-This "very specific" selectors will help you a lot. They will be your best weapon when fighting your styles war!
+These "very specific" selectors will help you a lot. They will be your best weapon when fighting your styles war!
 
 > :tv: &nbsp;[Here is a super cool video (3:40 min) explaining specificity.](https://www.youtube.com/watch?v=In78mSOHmls)
 
@@ -56,7 +56,7 @@ p + p {
 }
 ```
 
-We used the adjacent sibling selector to change the second and third paragraph to red. This seems very tricky, doesn’t it? Instinctively, we would expect the first paragraph to be red as well.  After all, the first paragraph is on the same level as the next two, and, has siblings.
+We used the adjacent sibling selector to change the second and third paragraphs to red. This seems very tricky, doesn’t it? Instinctively, we would expect the first paragraph to be red as well. After all, the first paragraph is on the same level as the next two, and, has siblings.
 
 However, this selector only applies to elements that are preceded by something else. In this instance, only the paragraphs preceded directly by a sibling paragraph will be targeted.
 
@@ -101,7 +101,7 @@ You can take this as far as you want; the following targets the "grandchildren" 
 ```css
 a[href='http://4geeksacademy.com/'] {color: blue;}
 ```
-If we want to change the font color of the "Design Shack" link, we could use :pseudo selectors.  However, doing so would assume that the list stays in that order, and, browser support isn’t the best. Instead, what we can do is use an attribute selector to target the specific `href` that we’re interested in.
+If we want to change the font color of the "4Geeks" link, we could use :pseudo selectors. However, doing so would assume that the list stays in that order, and, browser support isn’t the best. Instead, what we can do is use an attribute selector to target the specific `href` that we’re interested in.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ytw60q3d/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -152,7 +152,7 @@ input:disabled{
     border: 2px solid black;
 }
 input:focus{font-size: 2em;}
-input:enabled{ border: 2px solid black;}
+input:enabled{border: 2px solid black;}
 ```
 
 It is very important to take enough time to style our forms. Styling is the best way to tell the user that one input is either disabled, checked, or that the cursor is over a particular input.
