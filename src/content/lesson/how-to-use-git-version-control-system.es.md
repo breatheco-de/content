@@ -304,7 +304,7 @@ Esto haría lo siguiente:
 + Crear un directorio `myfirstrepo` e inicializar un repositorio en él.
 + Copiar todos los commit objects del proyecto en el nuevo repositorio.
 + **Agregar un repositorio remoto** denominado `origin` referente al nuevo repositorio, y asociar *origin* con` git@github.com: alesanchezr / myfistrepo.git` como se describe a continuación. (Así como *master*, *origin* es un nombre predeterminado usado por Git).
-+ ** Agregar heads remotos ** llamadas `origen / \ [head-name \]` que corresponden a los heads en el repositorio remoto.
++ **Agregar heads remotos** llamadas `origen / \ [head-name \]` que corresponden a los heads en el repositorio remoto.
 + Configurar una head en el repositorio para **rastrear** el head `origin / \ [current-head-name \]` correspondiente, es decir, el que estaba actualmente activo en el repositorio que se está clonando.
   
 Una **referencia del repositorio remoto** es un alias que GIT usa para referirse al repositorio remoto. Generalmente será *origen*. Entre otras cosas, GIT asocia internamente la *especificación remota* con la referencia del repositorio remoto, por lo que nunca más necesitarás volver al repositorio original.
