@@ -11,6 +11,8 @@ const even = (element) => element % 2 === 0;
 console.log(array.some(even));
 // Expected output: true
 ```
+This code uses the Some Method on the "myArray" array to check if at least one element in the array is even, and the function returns true when the condition is satisfied. Otherwise, it returns false.
+
 
 ## The Array Some Method
 
@@ -30,10 +32,9 @@ function isBiggerThan10(element, index, array) {
 [12, 5, 8, 1, 4].some(isBiggerThan10); // true
 
 ```
- 
- 
-#### Aray Some - Checking Existing Value
+The provided code checks if the value of the "element" argument is greater than 10 using the some method on two arrays of numbers, and returns a Boolean value of true or false accordingly
 
+#### Aray Some - Checking Existing Value
 
 ```js
 
@@ -47,6 +48,8 @@ checkFruitAvailability(fruits, "orange"); // false
 checkFruitAvailability(fruits, "banana"); // true
 
 ```
+
+In this example, we are using the some method to check if any element in the "arr" array is equal to the "val" argument. The Array some() executes a callback function that returns true if there is a fruit in the "myFruits" array that matches the value of the "val" argument, and false if there is not.
 
 Array Some/ Some Array Method shown in the examples provided, is just a method in JavaScript that we can use to check if any element in an array passes a specific test or condition needed. It always returns a Boolean value of true if at least one element in the array passes the test, and false if no elements pass the test. 
 
