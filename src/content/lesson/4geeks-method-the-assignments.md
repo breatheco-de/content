@@ -9,7 +9,7 @@ tags: ["4geeks method"]
 If you fully understand how our methodology works, what to expect about the projects you deliver, and why they are so important, you'll be more motivated to do the work and take advantage of it. 
 
 ## Why build projects?
-We want you to deliver a couple of projects every week. Building projects is all that matters in this course because:
+We want you to deliver a couple of projects every week. Building projects is all that matters in this course because
 Your employer will pay you to create projects.
 
 - Projects are the only way to showcase your experience.
