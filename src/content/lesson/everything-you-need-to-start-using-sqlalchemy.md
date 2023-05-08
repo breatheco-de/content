@@ -19,7 +19,7 @@ There are other alternatives to it like SQLAlchemy like Peewee, and other langua
 
 ## Why Use ORM?
 
-ORM's have gained popularity because dealing with SQL language directly requires a lot of effort in many cases. The goal of any ORM is to simplify the maintenance of your data. This is done by creating ***objects*** to deal with database interactions.
+ORMs have gained popularity because dealing with SQL language directly requires a lot of effort in many cases. The goal of any ORM is to simplify the maintenance of your data. This is done by creating ***objects*** to deal with database interactions.
 
 With ORM you won't have to type SQL again (95% of the time) and you will be able to work with objects.
 
