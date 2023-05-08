@@ -1,4 +1,12 @@
-##  Array vacío Javascript
+---
+title: "Todo lo que necesitas saber sobre Javascript Empty Array"
+subtitle: "Descubre cómo trabajar con arrays vacíos en Javascript. Aprende cómo crearlos, verificar si están vacíos y manipularlos de manera efectiva."
+tags: ["JavaScript","arrays"]
+authors: ["DF27ARTS"]
+
+---
+
+##  Array Vacío Javascript
 
 ```js
 // Array ejemplo
@@ -17,7 +25,7 @@ n.length = 0;
 console.log(n) // ( output ) []
 ```
 
-Existen ocasiones en Javascript en las que necesitamos vaciar un array o verificar si el array está vacío para poder trabajar con él. Tenemos varías formas de lograr este objetivo, veremos algunas de ellas a continuación.
+Existen ocasiones en Javascript en las que necesitamos vaciar un array o verificar si el array está vacío para poder trabajar con él. Tenemos varías formas de lograr este objetivo, veremos algunas de ellas a continuación. Si quieres conocer más sobre [qué es un array en Javascript](https://4geeks.com/es/lesson/array-arreglo-en-javascript) puedes leer nuestra guía en el Blog de [4Geeks](https://4geeks.com/).
 
 ## ¿Cómo comprobar que un array está vacío en Javascript?
 
@@ -37,7 +45,7 @@ En este ejemplo primero verificamos que el array sea de **tipo** array con la ex
 
 ## ¿Cómo vaciar un array en Javascript?
 
-Existen diferentes formas en las que podemos vaciar un array en Javascript. A continuación veremos algunas de ellas.
+Existen diferentes formas en las que podemos vaciar un array en [Javascript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript). A continuación veremos algunas de ellas.
 
 ### Reescribir la propiedad length
  
