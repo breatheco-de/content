@@ -51,12 +51,12 @@ Another way of using a for loop to get the identical result, yet without using t
     const result = [];
 
     for (let i = 0; i < myArr1.length; i++) {
-    for (let j = 0; j < myArr2.length; j++) {
-        if (myArr1[i] === myArr2[j]) {
-        result.push(myArr1[i]);
-        break;
+        for (let j = 0; j < myArr2.length; j++) {
+            if (myArr1[i] === myArr2[j]) {
+            result.push(myArr1[i]);
+            break;
+            }
         }
-    }
     }
 
     //Output:
