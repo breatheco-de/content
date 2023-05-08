@@ -1,8 +1,10 @@
-## JavaScript Array Some Method
+# JavaScript Array Some Method
+
+As one of the essential parts of programming languages Arrays Some Method is commonly used to test data
 
 ```js
 
-// Example 1 - Even numbers
+// Array Some Checking Even Numbers
 const myArray = [1, 2, 3, 4, 5];
 // Checking whether an element is even
 const even = (element) => element % 2 === 0;
@@ -10,15 +12,16 @@ console.log(array.some(even));
 // Expected output: true
 ```
 
-## What is Array Some Method?
+## The Array Some Method
 
 One of the most common arrays methods to test in JavaScript is the Array Some method. The some() method tests whether at least one element in the array passes the test executed by the provided function. It returns true if, in the array, it finds an element for which the provided function returns true; otherwise, it should return false.
 
 ## Examples
 Here are some examples of using Array Some method in JavaScript.
 
+#### Array Some - Value of Arrays
+
 ```js
-// Example 2 - Value of arrays
 function isBiggerThan10(element, index, array) {
   return element > 10;
 }
@@ -26,15 +29,22 @@ function isBiggerThan10(element, index, array) {
 [2, 5, 8, 1, 4].some(isBiggerThan10); // false
 [12, 5, 8, 1, 4].some(isBiggerThan10); // true
 
-// Example 3 - Existing Value
-const myFruits = ["apple", "banana", "mango",”passionfruit”];
+```
+ 
+ 
+#### Aray Some - Checking Existing Value
 
-function checkAvailability(arr, val) {
+
+```js
+
+const myFruits = ["apple", "banana", "mango", ”passionfruit”, "pineapple"];
+ 
+function checkFruitAvailability(arr, val) {
   return arr.some((arrVal) => val === arrVal);
 }
 
-checkAvailability(fruits, "kela"); // false
-checkAvailability(fruits, "banana"); // true
+checkFruitAvailability(fruits, "orange"); // false
+checkFruitAvailability(fruits, "banana"); // true
 
 ```
 
