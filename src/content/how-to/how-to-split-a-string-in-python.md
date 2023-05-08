@@ -8,9 +8,8 @@ status: "published"
 
 ---
 
-## How to Split a String in Python
-
 This is how you split a string in python using the **`.split()`** method:
+
 ```py
 string1 =  "This string will be splitted"
 listName = string1.split()
@@ -18,13 +17,15 @@ listName = string1.split()
 print(listName)  #Output: ["This", "string", "will", "be", "splitted"]
 ```
 
+## How to Split a String in Python
+
 The use of alphanumeric or string-type values is highly necessary for any programming language, as you may already know, these values in Python are called Strings. Knowing how to manipulate this type of String values will be of great use to us in our programming journey since it will allow us to manage the values according to our needs, either to search for a value contained in the Strings, obtain a specific part of it, change certain parts, among others. You can check this article, to learn how to [manipulate strings in python](https://4geeks.com/lesson/working-with-strings-in-python), and if you already did in this article, we will dive into the many ways **how to split a string in Python**
 
 So what is splitting a string? As you read it, it's just taking one string and breaking it into two or more strings, you start with one and end with several other strings.
 
 ## How to Split a String in Python, **`.split()`** Method
 
-The `.split()` method, by default, converts a string into a list of strings in which the elements of said list will be the words of our original string. Let's see a basic example as follows:
+The `.split()` method, by default, converts a string into a list of strings in which the elements of said list will be the words separated by a space in our original string. Let's see a basic example as follows:
 
 ```py
 stringName =  "My name is Rigoberto"
