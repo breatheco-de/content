@@ -1,33 +1,21 @@
 # Javascript Array Intersection
 
-As developers, we face multiple challenges daily in our job or personal projects. For instance, suppose that you are developing an eCommerce website and you need to compare products and customers' preferences, both of them stored in arrays. To achieve this, you can look for an intersection of the two arrays and suggest better options to customers. 
+As a developer, you're often faced with the challenge of comparing arrays to find common elements and perform a specific logic. Array intersection, the process of determining overlapping values in different arrays, can help you create a new array holding only common and non-duplicated elements. In this article, we'll explore multiple approaches to achieving array intersection using JavaScript.
 
-Commonly, in the previous scenario and many others you can imagine are part of those challenges that involve comparing arrays in Javascript to find common elements and performing a specific logic. Through this reading, you will understand multiple approaches to achieving array intersection using JavaScript and some use cases where it can come convenient.
+Here is a quick example of how it works:
 
-## Understanding what Javascript Array Intersection is
+    const arr1 = [1, 2, 3, 4, 5];
+    const arr2 = [3, 4, 5, 6, 7];
 
-It is the process of determining overlapping values in different arrays, so it creates a new array holding only common and non-duplicated elements.
+    const intersection = arr1.filter(value => arr2.includes(value));
 
-One example is having two arrays: `myArr1 = [1,2,3,4,5]` and `myArr2 = [3,4,5,6,7]`. Using the array intersection, it is possible to determine that the output will be `[3,4,5]` since those are the numbers that share in common both arrays. In the following section, you will check some methods you can use to achieve this goal.
+    console.log(intersection); // Output: [3, 4, 5]
 
 ## First approach: Get the intersection of multiple arrays using filter()
 
-The filter method in JavaScript enables the composition of a new array that contains the common elements present in two or more arrays based on the requirements specified in the method.
+The prevoius code example shows the filter method in JavaScript that enables the composition of a new array that contains the common elements present in two or more arrays based on the requirements specified in the method.
 
-    let myArr1 = [1,2,3,4,5] 
-
-    let myArr2 = [3,4,5,6,7]
-
-    let intersection = myArr1.filter(x => myArr2.includes(x));
-
-    //Output:
-
-    // intersection = [3,4,5]
-
-Besides that, you can check for the difference between arrays to know the elements that are not in myArr1 and myArr2, but this time using a different syntaxis: 
-
-    let myArr1 = [1,2,3,4,5]
-    let myArr2 = [3,4,5,6,7]
+Using a similar syntax, you can also check for the difference between arrays to know the elements that are not in myArr1 and myArr2:
 
     let difference = myArr1.filter(x => !myArr2.includes(x));
 
@@ -87,35 +75,13 @@ Set objects are collections that do not allow duplicated elements to be stored, 
 
     //Output:
     // [3,4,5]
+    
+By using the array intersection technique, you could easily determine the options that are common across all selected filters and only display products that meet those criteria. For example, if a user selects the "T-shirts" category, the "Red" color, and the "Large" size, you could use array intersection to find only the T-shirts that are available in red and in large size. This could improve the user experience and make the website more user-friendly.
 
-In the following section, I provide a real-world example where you could use this JavaScript array intersection and could potentialize a project. 
-
-## Real-world example using the intersection of multiple arrays
-
-Imagine that you are developing a website that will offer a search bar as a component for your visitors to find products easily by typing the name. Your objective is to implement an autocomplete feature that suggests search terms to users based on the keywords that have been looked up by other users in the past while navigating that website. So, how can you use arrays intersection to get this goal?
-
-First, you can store various words that users have looked up in the past.
- 
-    //Create an array to store search terms
-    let searchedKeywords = ['iphone', 'ipad', 'macbook 'ipod', 'imac', 'apple','watch', 'alexa', 'xiaomi', 'phillps'];
-
-Then,  take the input typed by the user in the search bar.
-
-    //Store user input in a variable
-    let userInput = "IP"
-
-Having both the array with all the values and the user input, you can apply an array intersection to autocomplete what the user is typing. In this example, we pass whatever the user input is to lowercase to match words in the array previously created. Also, we use the string method startsWith() to tell JavaScript to only find the intersection in those words that start with the specific user input (in this case "IP").
-
-    let filteredKeywords = searchedKeywords.filter(searchterm => searchterm.toLowerCase().startsWith(userInput.toLowerCase()));
-
-    //output
-    // ["iphone", "ipad", "ipod", "imac"]
-
-Lastly, the user will be able to see this autocomplete feature in action which will improve their user experience. All of this is due to this great JavaScript approach that can be easily implemented when needed.
 
 ## Conclusion
   
-In conclusion, you could see numerous methods to find the intersection between two or more arrays using filter(), includes(), for loops, and Set objects. Besides that, you saw a real-world example where this method is applied to get better results using the user input for an autocomplete feature. Rest assured this knowledge will help you at some point in your developer journey when working with data structures and you can revisit this article as many times as you need to review each explanation and example.
+In conclusion, you could see numerous methods to find the intersection between two or more arrays using filter(), includes(), for loops, and Set objects. Rest assured this knowledge will help you at some point in your developer journey when working with data structures and you can revisit this article as many times as you need to review each explanation and example.
 
 
 
