@@ -1,6 +1,12 @@
-# Expresiones Regulares JavaScript
+---
+title: "Todo lo que necesitas saber sobre las Expresiones Regulares Javascript"
+subtitle: "Aprende todo lo necesario sobre las expresiones regulares en JavaScript. Descubre cómo utilizarlas para validar, buscar y manipular patrones de texto en tus proyectos web."
+tags: ["JavaScript","regular-expressions"]
+authors: ["danielmoret"]
 
-Las expresiones regulares, también conocidas como **RegExp**, son patrones que se utilizan para validar y manipular texto, se pueden utilizar prácticamente en cualquier lenguaje, debido a que la mayoría de ellos cuenta con una librería o módulo que nos permite utilizarlas.
+---
+
+Las [expresiones regulares](https://4geeks.com/es/lesson/regex-tutorial-regular-expression-ejemplo), también conocidas como **RegExp**, son patrones que se utilizan para validar y manipular texto, se pueden utilizar prácticamente en cualquier lenguaje, debido a que la mayoría de ellos cuenta con una librería o módulo que nos permite utilizarlas.
 
 Seguramente has interactuado con expresiones regulares más de lo que te imaginas, ya que estas son muy útiles, uno de sus usos es validar entrada de datos de los usuarios. Por ejemplo, cuando nos solicitan que nuestra contraseña tenga caracteres especiales, mayúsculas, minúsculas y una longitud mínima de 8 caracteres, se puede usar una expresión regular para verificar que la cadena de texto introducida cumple con el patrón requerido.
 
@@ -64,7 +70,7 @@ Nos permite establecer un rango de caracteres o agrupar expresiones regulares.
 
 # Expresiones Regulares en JavaScript
 
-En Javascript hay dos formas de crear una expresión regular, a través de su constructor o simplemente colocando la expresión entre barras, ejemplo **/expReg/**.
+En [Javascript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) hay dos formas de crear una expresión regular, a través de su constructor o simplemente colocando la expresión entre barras, ejemplo **/expReg/**.
 ```js
 //Notación literal
 const expReg = /lorem/g
@@ -112,8 +118,8 @@ let cadena = "el cielo es azul"
 let resultado = cadena.replace(/azul/gi,"amarillo")
 console.log(resultado) //'el cielo es amarillo'
 ```
-Este método como podemos ver en el ejemplo, devuelve una cadena de texto nueva, donde se sustituyó cada grupo de caracteres que coincidiera con nuestra expresión regular, por los caracteres que se asignaron como reemplazo, en este caso azul por amarillo.
+Este método como podemos ver en el ejemplo, devuelve una cadena de texto nueva, donde se sustituyó cada grupo de caracteres que coincidiera con nuestra expresión regular, por los caracteres que se asignaron como reemplazo, en este caso azul por amarillo. Si quieres conocer mas [ejemplos sobre expresiones regulares](https://4geeks.com/es/how-to/ejemplos-expresiones-regulares) puedes revisar nuestro Blog.
 
 Si te parecen interesantes las expresiones regulares en JavaScript, te gustaría practicar o probarlas antes de implementarlas en tu código, existen herramientas en línea para validar expresiones regulares JavaScript online. Una es [regex101](https://regex101.com/)  donde podrás validar expresiones regulares en tiempo real, solo colocando tu expresión regular y la cadena de texto en donde la quieres aplicar.
 
-Las expresiones regulares aunque parecen muy complicadas al principio, son una herramienta muy importante de aprender, ya que se utilizan mucho a la hora de validar datos y te ayudará a ser un mejor programador.
+Las expresiones regulares aunque parecen muy complicadas al principio, son una herramienta muy importante de aprender, ya que se utilizan mucho a la hora de validar datos y te ayudará a ser un mejor programador. Puedes leer más sobre este tema y otros en el Blog de [4Geeks](https://4geeks.com/es/how-to).
