@@ -37,7 +37,7 @@ function isBiggerThan10(element, index, array) {
 
 ```js
 
-const myFruits = ["apple", "banana", "mango", ”passionfruit”, "pineapple"];
+const myFruits = ["apple", "banana", "mango", "passionfruit", "pineapple"];
  
 function checkFruitAvailability(arr, val) {
   return arr.some((arrVal) => val === arrVal);
