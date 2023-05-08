@@ -216,7 +216,7 @@ Here is an example of how a "The Card" may look on a website:
 
 Everyone hates a modal, it is super annoying, always asking you to subscribe to a newsletter! 🙂
 
-Here is how a modal looks by default on Bootstrap.
+Here is how a modal look by default on Bootstrap.
 
 ![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/6bcba673-a543-4bf1-a80b-083914b91bef.png?raw=true)
 
