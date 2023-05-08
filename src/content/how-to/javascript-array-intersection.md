@@ -11,9 +11,9 @@ Here is a quick example of how it works:
 
     console.log(intersection); // Output: [3, 4, 5]
 
-## First approach: Get the intersection of multiple arrays using filter()
+## Get the intersection of multiple arrays using filter()
 
-The prevoius code example shows the filter method in JavaScript that enables the composition of a new array that contains the common elements present in two or more arrays based on the requirements specified in the method.
+The previous code example shows the filter method in JavaScript that enables the composition of a new array that contains the common elements present in two or more arrays based on the requirements specified in the method.
 
 Using a similar syntax, you can also check for the difference between arrays to know the elements that are not in myArr1 and myArr2:
 
@@ -23,7 +23,7 @@ Using a similar syntax, you can also check for the difference between arrays to 
 
     //difference = [1,2]
 
-## Second approach: Get the intersection of multiple arrays using a for loop
+## Get the intersection of multiple arrays using a for loop
 
 This approach uses a for loop to iterate over an array to apply an array intersection to get every element in the first array. Then, it uses another method called 'includes()' to check if each element in the first array is included in the second one.
 
@@ -42,7 +42,7 @@ This approach uses a for loop to iterate over an array to apply an array interse
     //Output:
     // intersection = [3,4,5]
 
-Another way of using a for loop to get the identical result, yet without using the 'includes()' technique is utilizing a nested for loop, however, the [time complexity](https://www.mygreatlearning.com/blog/why-is-time-complexity-essential/#:~:text=Time%20complexity%20is%20defined%20as,of%20code%20in%20an%20algorithm.) in this scenario would be O(n^2), which might have a significant delay when looping over the arrays if your input is considered large.
+Another way of using a for loop to get the identical result, yet without using the 'includes()' technique is utilizing a nested for loop.
 
     let myArr1 = [1,2,3,4,5]
     let myArr2 = [3,4,5,6,7]
@@ -62,7 +62,7 @@ Another way of using a for loop to get the identical result, yet without using t
     //Output:
     // result = [3,4,5]
 
-## Third approach: Get the intersection of multiple arrays using the Set object
+## Get the intersection of multiple arrays using the Set object
 
 Set objects are collections that do not allow duplicated elements to be stored, hence each element inside will be unique. In this form, it is possible to identify the array intersection by removing duplicates. 
 
@@ -75,9 +75,29 @@ Set objects are collections that do not allow duplicated elements to be stored, 
 
     //Output:
     // [3,4,5]
-    
-By using the array intersection technique, you could easily determine the options that are common across all selected filters and only display products that meet those criteria. For example, if a user selects the "T-shirts" category, the "Red" color, and the "Large" size, you could use array intersection to find only the T-shirts that are available in red and in large size. This could improve the user experience and make the website more user-friendly.
 
+## Real-world example using the intersection of multiple arrays
+
+Imagine that you are developing a website that will offer a search bar as a component for your visitors to find products easily by typing the name. Your objective is to implement an autocomplete feature that suggests search terms to users based on the keywords that have been looked up by other users in the past while navigating that website. So, how can you use arrays intersection to get this goal?
+
+First, you can store various words that users have looked up in the past.
+ 
+    //Create an array to store search terms
+    let searchedKeywords = ['iphone', 'ipad', 'macbook 'ipod', 'imac', 'apple','watch', 'alexa', 'xiaomi', 'phillps'];
+
+Then,  take the input typed by the user in the search bar.
+
+    //Store user input in a variable
+    let userInput = "IP"
+
+Having both the array with all the values and the user input, you can apply an array intersection to autocomplete what the user is typing.
+
+    let filteredKeywords = searchedKeywords.filter(searchterm => searchterm.toLowerCase().startsWith(userInput.toLowerCase()));
+
+    //output
+    // ["iphone", "ipad", "ipod", "imac"]
+
+Lastly, the user will be able to see this autocomplete feature in action which will improve their user experience. All of this is due to this great JavaScript approach that can be easily implemented when needed.
 
 ## Conclusion
   
