@@ -18,7 +18,7 @@ The upcoming material assumes that you have a good level of understanding of the
   - How can I select an element to update its styles? [By using a selector](https://4geeks.com/lesson/what-is-css-learn-css#wait-what-is-a-selector).
   - The most simple thing like changing text color and manipulating fonts (size, family, etc). 
   - Changing the element's background color or image. 
-- Fully comprehend the `<div>` tag that inherently behaves as a "box" (which means that it has borders, with and height) and how to use `<div>` to separate your content visually.
+- Fully comprehend the `<div>` tag that inherently behaves as a "box" (which means that it has borders, width and height) and how to use `<div>` to separate your content visually.
 - How to create the most common website layouts using the `display: flex;` CSS rule.
   - How can you make a `<div>` be on the side of another? By applying `display: flex.` to a common immediate parent.
   - How can you make a sidebar layout?
