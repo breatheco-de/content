@@ -43,9 +43,8 @@ Using the `slice` method in [Javascript](https://4geeks.com/lesson/what-is-javas
 const courses = ["JavaScript", "Python", "Java", "C#", "Ruby"];
 const myCourses = courses.slice(1, 3);
 console.log(myCourses);
+// Output: ["Python", "Java"]
 ```
-
-Output: `["Python", "Java"]`
 
 We built an array of strings and named it `courses`. By using the slice method, we were able to slice the original array from index 1 up to (but not including) index 3. The `myCourses` returned array from the slice method contains the elements 1 and 2. It is important to note that arrays are **zero indexed**, ****which means the first element of an array is at index `0`.
 
@@ -55,19 +54,17 @@ Finding all the items from a selected index in an array till its end is simple. 
 const courses = ["JavaScript", "Python", "Java", "C#", "Ruby"];
 const myCourses = courses.slice(3);
 console.log(myCourses);
+// Output: ["C#", "Ruby"]
 ```
 
-Output: `["C#", "Ruby"]`
-
-By using the `slice` method with one argument, a brand-new array was created which containes the section from index 3 till the original array's end.
+By using the `slice` method with one argument, a brand-new array was created which contains the section from index 3 till the original array's end.
 
 If we `console.log()` the original array courses, we can note that the original array remains unchanged.
 
 ```jsx
 console.log(courses);
+// Output: ["JavaScript", "Python", "Java", "C#", "Ruby"]
 ```
-
-Output: `["JavaScript", "Python", "Java", "C#", "Ruby"]`
 
 The slice method also supports negative numbers as parameters to counts back from the end:
 
@@ -75,9 +72,8 @@ The slice method also supports negative numbers as parameters to counts back fro
 const courses = ["JavaScript", "Python", "Java", "C#", "Ruby"];
 const myCourses = courses.slice(-2);
 console.log(myCourses);
+// Output: ["C#", "Ruby"]
 ```
-
-Output: `["C#", "Ruby"]`
 
 In this solution the slice method returned an array with the last two elements from the original array.
 
@@ -87,9 +83,8 @@ Also, we can use two negative parameters to extract a portion of the array count
 const courses = ["JavaScript", "Python", "Java", "C#", "Ruby"];
 const myCourses = courses.slice(-3,-1);
 console.log(myCourses);
+// Output: ["Java", "C#"]
 ```
-
-Output: `["Java", "C#"]`
 
 In the previous snippet of code the slice method returned a sub-array from the original array counting from the back.
 
