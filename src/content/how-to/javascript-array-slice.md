@@ -1,5 +1,5 @@
 ---
-title: "Javascript Array Slice Method"
+title: "JavaScript Array Slice Method: A Comprehensive Guide"
 subtitle: "Master the art of slicing arrays in JavaScript with our comprehensive course. Learn how to extract, copy, and modify array elements like a pro. Enroll now!"
 tags: ["javascript"]
 authors: ["julianvillalba"]
@@ -32,65 +32,68 @@ slice(start, end)
 
 Parameters:
 
-- `start` (Optional) - The index where the extraction of the elements begins. If `start` is omitted, is `0` by default. Negative values count back from the end of the array.
+- `start` (Optional) - The index where the extraction of the elements begins. If `start` is omited, is `0` by default. Negative values count back from the end of the array.
 - `end` (Optional) - The index where the extraction of the elements ends. The element at this index is not included.
 
 ## How to Use Javascript Array Slice?
 
 Using the `slice` method in [Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript) is simple. Let's explore different use cases:
 
+### Slicing an array specifying start and end indexes
+
 ```jsx
 const courses = ["JavaScript", "Python", "Java", "C#", "Ruby"];
 const myCourses = courses.slice(1, 3);
-console.log(myCourses);
-// Output: ["Python", "Java"]
+console.log(myCourses); // Output: `["Python", "Java"]`
 ```
 
 We built an array of strings and named it `courses`. By using the slice method, we were able to slice the original array from index 1 up to (but not including) index 3. The `myCourses` returned array from the slice method contains the elements 1 and 2. It is important to note that arrays are **zero indexed**, ****which means the first element of an array is at index `0`.
+
+### Slicing an array from a start index till the end
 
 Finding all the items from a selected index in an array till its end is simple. We just omit the second argument and the task is complete:
 
 ```jsx
 const courses = ["JavaScript", "Python", "Java", "C#", "Ruby"];
 const myCourses = courses.slice(3);
-console.log(myCourses);
-// Output: ["C#", "Ruby"]
+console.log(myCourses); // Output: `["C#", "Ruby"]`
 ```
 
-By using the `slice` method with one argument, a brand-new array was created which contains the section from index 3 till the original array's end.
+By using the `slice` method with one argument, a brand-new array was created which containes the section from index 3 till the original array's end.
 
 If we `console.log()` the original array courses, we can note that the original array remains unchanged.
 
 ```jsx
-console.log(courses);
-// Output: ["JavaScript", "Python", "Java", "C#", "Ruby"]
+console.log(courses); // Output: `["JavaScript", "Python", "Java", "C#", "Ruby"]`
 ```
+
+### Using a negative parameter to slice an array counting back from the end
 
 The slice method also supports negative numbers as parameters to counts back from the end:
 
 ```jsx
 const courses = ["JavaScript", "Python", "Java", "C#", "Ruby"];
 const myCourses = courses.slice(-2);
-console.log(myCourses);
-// Output: ["C#", "Ruby"]
+console.log(myCourses); // Output: `["C#", "Ruby"]`
 ```
 
 In this solution the slice method returned an array with the last two elements from the original array.
+
+### Slicing an array using negative parameters
 
 Also, we can use two negative parameters to extract a portion of the array counting from the back:
 
 ```jsx
 const courses = ["JavaScript", "Python", "Java", "C#", "Ruby"];
 const myCourses = courses.slice(-3,-1);
-console.log(myCourses);
-// Output: ["Java", "C#"]
+console.log(myCourses); // Output: `["Java", "C#"]`
 ```
 
 In the previous snippet of code the slice method returned a sub-array from the original array counting from the back.
 
-## Advantages of the Slice Method in Javascript
+## Advantages of the Slice Method in JavaScript
 
-The `slice` method in Javascript is a great tool for writing organized, reader-friendly, and maintainable code. Its advantages make it really valuable to use, including:
+The `slice` method in JavaScript is a great tool for writing organized, reader-friendly, and maintainable code. Its advantages make it really valuable to use, including:
 
 - The `slice` method is a non-destructive way of creating a new array from the original one. It slices off a part of the referenced object without leaving any changes to it.
 - The `slice` method is incredibly easy to use as it only takes two arguments, streamlining the process for extracting desired elements from an array.
@@ -99,6 +102,6 @@ The `slice` method in Javascript is a great tool for writing organized, reader-f
 
 ## Conclusion
 
-Array manipulation is highly fundamental to any programming language, including Javascript. Arrays are extremely helpful in managing a large amount of data as they are highly versatile. Moreover, Javascript comes with various useful functions which make it easier to work with these arrays, you can learn more about [arrays in Javascript](https://4geeks.com/lesson/what-is-an-array-define-array) at 4Geeks.
+Array manipulation is highly fundamental to any programming language, including JavaScript. Arrays are extremely helpful in managing a large amount of data as they are highly versatile. Moreover, JavaScript comes with various useful functions which make it easier to work with these arrays, you can learn more about [arrays in Javascript](https://4geeks.com/lesson/what-is-an-array-define-array) at 4Geeks.
 
-The **`.slice()`** method is a useful tool for creating a duplicate of an array or to select parts of it. This powerful technique offers immense flexibility when dealing with arrays without affecting it. Utilizing arrays with this method makes working a lot smoother and more straightforward, improving efficiency. You can learn more about this topic and others at the blog of [4Geeks](https://4geeks.com/how-to).
+The **`.slice()`** method is a useful tool for creating a duplicate of an array or to select parts of it. This powerful technique offers immense flexibility when dealing with arrays without affecting it. Utilizing arrays with this method makes working a lot smoother and more straightforward, improving efficiency. To get a deep insight about how to call JavaScript functions and methods, check [how to call a function in Javascript](https://4geeks.com/how-to/how-to-call-a-function-in-javascript). You can learn more about this topic and others at the blog of [4Geeks](https://4geeks.com/how-to).
