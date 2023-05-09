@@ -1,5 +1,18 @@
 # Clonar un Array en Javascript
 
+El método ES6 es el más utilizado para clonar un array en Javascript ya que clona correctamente los elementos en arrays con más de un nivel de profundidad. Por ejemplo:
+
+```jsx
+names = [["Ana", "Clara", "Juan"],["Luis", "Alba", "Pilar"]];
+namesClone = [...names];
+
+namesClone[1] = "Alberto"
+namesClone[0][0] = "Alejandro"
+
+console.log(names); // Consola: [["Alejandro", "Clara", "Juan"],["Luis", "Alba", "Pilar"]]
+console.log(namesClone); // Consola: [["Alejandro", "Clara", "Juan"], "Alberto"]
+```
+
 Clonar un array en Javascript es una operación muy utilizada que permite crear un nuevo array con los mismos valores que el original. Sin embargo, existen muchas formas de clonar un array en Javascript, y cada método tiene sus propias ventajas y desventajas. En este artículo, exploraremos diferentes métodos y sus implicaciones en los objetos resultantes.
 
 ## Clonar un array en Javascript usando el Spread Operator o ES6
@@ -72,7 +85,7 @@ Para lograrlo, el método JSON.stringify convierte el array en un objeto de tipo
 
 ## Clonar un array en Javascript usando map()
 
-El método `map()` es en escencia una función de identidad matemática por lo que al aplicarla, siempre devuelve el mismo valor que se utilizó como argumento a menos de que se le aplique una transformación en el proceso. 
+El método `map()` es básicamente la forma abstracta de crear una función, por lo que siempre devuelve el mismo valor que se utilizó como argumento a menos de que se le aplique una transformación en el proceso. 
 
  `f( x ) = x    para todo x`
 
@@ -86,11 +99,11 @@ console.log(namesClone); // Consola: ["Ana", "Clara", "Juan"]
 
 Este método puede ser bastante útil cuando deseamos realizar un clon de un array y modificar sus elementos al mismo tiempo. Para ello, es necesario aplicar una función a cada elemento durante el proceso de clonado.
 
-Por ejemplo:
+Por ejemplo si queremos convertir en minúsculas cada palabra dentro del array:
 
 ```jsx
 names = ["Ana", "Clara", "Juan"];
-namesClone = names.map(lower(x) => x);
+namesClone = names.map(x => x.toLowerCase());
 console.log(namesClone); // Consola: ["Ana", "Clara", "Juan"]
 ```
 
@@ -130,4 +143,6 @@ namesClone = names.concat(["Pilar", "Clara", "Juan"])
 console.log(namesClone); // Consola: ["Luis", "Alba", "Ana", "Pilar", "Clara", "Juan"]
 ```
 
-En conclusión, clonar un array en Javascript puede realizarse de muchas maneras por lo que elegír el método adecuado siempre va a depender de qué es lo que queremos hacer con el array clonado y de qué tan idependientes queremos que sean el array original y el array clonado y así evitar errores silenciosos dentro del código.
+### Conclusión
+
+Clonar un array en Javascript puede realizarse de muchas maneras por lo que elegír el método adecuado siempre va a depender de qué es lo que queremos hacer con el array clonado y de qué tan idependientes queremos que sean el array original y el array clonado y así evitar errores silenciosos dentro del código.
