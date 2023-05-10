@@ -1,6 +1,6 @@
 # JavaScript Array Some Method
 
-As one of the daily basic parts of programming languages array some method in javascript is typically used for data testing. Take a look at the following examplew showing one way to use the `some()` Array in Javascript: 
+As one of the daily basic parts of programming languages array some method in javascript is typically used for data testing. Take a look at the following example showing one way to use the `some()` Array in Javascript: 
 
 ```js
 
@@ -22,7 +22,7 @@ Nowadays known as one of the most familiar [Arrays](https://4geeks.com/lesson/wh
 Here are some short demonstrations using the Array Some Method
 
 
-#### Some Array Javascript - Checking Existing Value
+#### Some Array Javascript - Checking Existing Value Example
 
 
 ```js
@@ -41,7 +41,7 @@ checkColor(myColorArray, "green"); // true
 In this snippet of code supplied, We are checking if any of the elements in the array are equal to the value. Array `some()` is performing a callback function that will always return true if there is a color in the `myColorArray` array that matches the value of the argument, and false if there is not such element in the array. 
 
 
-#### Some Array Javascript - Checking Value of Arrays
+#### Some Array Javascript - Checking Value of Arrays Example
 
 ```js
 
