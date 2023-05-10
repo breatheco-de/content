@@ -24,7 +24,7 @@ The first step to add NodeJs to our system would be to access [this link](https:
 
 ### Windows
 
-To complete the installation on Windows, you must follow the steps described in the installer. It doesn't require any configuration while it's installing, so it will be "following", "following", "following", "end".
+To complete the installation on Windows, you must follow the steps described in the installer. It doesn't require any configuration while it's installing, so it will be "next", "next", "next", "finish".
 
 To verify it has been installed correctly:
 - We access the command line (search in CMD applications or press `win` + `r` and type `cmd`)
@@ -36,13 +36,15 @@ If installed correctly, it should appear a response similar to the one shown bel
 v18.15.0
 ```
 
+> The version could be different.
+
 ### MacOS
 
 #### Installing NodeJs through download from nodejs.org
 
 Once we access the download area (the link above), we must select `macOS installer` and download it.
 
-Because it doesn't require any type of modification while installing, you will only have to start the installer and follow the steps ("following", "following", "following", "end".)
+Because it doesn't require any type of modification while installing, you will only have to start the installer and follow the steps ("next", "next", "next", "finish".)
 
 #### Installing NodeJs through homebrew
 
@@ -67,6 +69,8 @@ To verify the installation, either by downloading from NodeJs, Homebrew, or MacP
 ```bash
 v18.15.0
 ```
+
+> The version could be different.
 
 ### Linux
 
@@ -95,7 +99,7 @@ sudo apt install npm
 
 If we want to install a different version of NodeJs to the one we can install with the previous resource, we can use a PPA (Personal Package Archive) maintained by NodeSource. In the PPA you can find more versions of the package than in the Ubuntu repository.
 
-As we mentioned before, it is necessary to do an **update** and **upgrade** every time we want to install new packages to optimize the compatibility of the packages and use the last version of our programs and systems
+As we mentioned before, it is necessary to do an **update** and **upgrade** every time we want to install new packages to optimize the compatibility of the packages and use the last version of our programs and systems:
 
 ```bash
 sudo apt update
@@ -115,7 +119,7 @@ Now that we are ready to add the NodeJs repository, remember to change `setup_18
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 ```
 
-Once you have added the repository of your choice, we must proceed to install it.
+Once you have added the repository of your choice, we must proceed to install it:
 
 ```bash
 sudo apt-get install nodejs
@@ -167,6 +171,6 @@ If the correct address where the file is located has been passed, it will be dis
 I can run now outside of the browser!
 ```
 
-You can learn related content and much more on the blog of [4Geeks](www.4geeks.com/es/how-to).
+You can learn related content and much more on the blog of [4Geeks](www.4geeks.com/how-to).
 
 
