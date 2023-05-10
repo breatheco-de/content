@@ -1,8 +1,6 @@
 # JavaScript Array Some Method
 
-As one of the daily basic parts of programming languages array some method in javascript is typically used for data testing. Take a look at the following example: 
-
-#### Some Array Javascript - Even Numbers Checking
+As one of the daily basic parts of programming languages array some method in javascript is typically used for data testing. Take a look at the following examplew showing one way to use the `some()` Array in Javascript: 
 
 ```js
 
@@ -13,7 +11,7 @@ console.log(array.some(isEven));
 ```
 
 
-This code shown uses the Array Some Method on the `customArray` array to perform a checking condition and the `console.log()` to print the result. In this check, if at least one element in the array is an even number the function will print to the console true, otherwise, it will print false. 
+This code shown uses the Array Some Method on the `customArray` array to perform a event numbers checking condition and the `console.log()` to print the result. In this check, if at least one element in the array is an even number the function will print to the console true, otherwise, it will print false. 
 
 
 ## The Array Some Method in Javascript
@@ -64,6 +62,11 @@ Array Some Method or Array `some()` shown in the examples before, is just a way 
 
 ## Syntax
 Syntaxis for using the Array Some method is as follows:
+
+```js
+some(callbackFn)
+some(callbackFn, thisArg)
+```
 
 ### Parameters
 
