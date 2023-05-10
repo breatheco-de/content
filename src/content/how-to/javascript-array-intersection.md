@@ -97,7 +97,7 @@ Imagine that you are developing a website that will offer a search bar as a comp
 First, you can store various words that users have looked up in the past.
  ```js
     //Create an array to store search terms
-    let searchedKeywords = ['iphone', 'ipad', 'macbook 'ipod', 'imac', 'apple','watch', 'alexa', 'xiaomi', 'phillps'];
+    let searchedKeywords = ['iphone', 'ipad', 'macbook' 'ipod', 'imac', 'apple','watch', 'alexa', 'xiaomi', 'phillps'];
 ```
 Then,  take the input typed by the user in the search bar.
  ```js
