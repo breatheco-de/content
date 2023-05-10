@@ -88,7 +88,7 @@ Las variables pueden tener diferentes tipos de valores. Algunos de ellos están 
 
 |**Data-Type**   |**Posible Valores**   |**Descripción**   |
 |:---------------|:--------------------|:-----------------|
-|Booleano         |Verdadero \| Falso         |Los booleanos están destinados para operaciones lógicas. Si le preguntas a una computador algo como: "¿X es igual a 3?" Responderá con un booleano (verdadero o falso).   |
+|Booleano         |Verdadero \| Falso         |Los booleanos están destinados para operaciones lógicas. Si le preguntas a una computadora algo como: "¿X es igual a 3?" Responderá con un booleano (verdadero o falso).   |
 |String       |Cualquier serie de caracteres     |Los strings son la única forma en que tenemos que almacenar palabras (series de caracteres). Nota: los strings deben estar encerrados entre comillas.  |
 |Número    |Solo números     |Números enteros, números negativos, números decimales, decimales, etc. Todos los tipos posibles de números. <br> Nota: Si incluye un número entre comillas, JavaScript lo tratará como una cadena. |
 |Indefinido     |El vacío     |Cuando una variable no tiene un valor asignado, queda indefinida.   |
