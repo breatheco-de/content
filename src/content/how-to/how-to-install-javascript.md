@@ -6,7 +6,7 @@ date: "2023-03-27T16:36:30+00:00"
 authors: ["Javier Seiglie"]
 ---
 
-[Learn how to code in Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript) is an excellent option for those who want to get started in the coding world. Javascript is a versatile and widely used programming language, which makes it a handy tool for any web developer. If you got to this point and still don't know javascript in detail, I invite you to read this guide related to [what is Javascript used for](). Because Javascript is a programming language that runs mainly in browsers (Chrome, Mozilla, Edge, etc.), if we want to use it in the system, we must install NodeJS.
+[Learn how to code in Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript) is an excellent option for those who want to get started in the coding world. Javascript is a versatile and widely used programming language, which makes it a handy tool for any web developer. If you got to this point and still don't know javascript in detail, I invite you to read this guide related to what is Javascript used for. Because Javascript is a programming language that runs mainly in browsers (Chrome, Mozilla, Edge, etc.), if we want to use it in the system, we must install NodeJS.
 
 ![NodeJs](https://i.imgur.com/zPghTHs.png)
 
