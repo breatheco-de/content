@@ -1,19 +1,19 @@
 # Javascript array clear
 
-In this article, we'll look at some of the most popular and efficient ways to clear an array in JavaScript, as well as some advice and best practices to guide your decision-making.
-
-## **Methods:**
-
-### 1. **Assigning a new empty array**
+One of the most common methods to clean arrays in JS is to assign an empty array to our variable. Let's take a look at it.
 
 ```jsx
-let animals = ["dog", "cat", "bird", "horse", "cow"];
-animals = [];
+let colors = ["yellow", "green", "blue", "red", "black"];
+colors = [];
 ```
 
 This approach is fast, easy to understand, and works in all JavaScript environments. However, it creates a new array object and discards the old one, which can have performance implications if you're working with large arrays or need to maintain references to the original array.
 
-### 2. **Set the length of the array to zero.**
+In addition to allocating a new empty array, there are other methods available to solve this requirement. However, not all of them offer the same level of efficiency. Here are a few methods along with some data to help you make an informed decision.
+
+## **Methods:**
+
+### 1. **Set the length of the array to zero.**
 
 Another common approach to clearing an array in Javascript is to set its length to zero using the **`array.length`** property. This effectively removes all elements from the array.
 
@@ -24,7 +24,7 @@ animals.length = 0;
 
 This method is also fast, easy to understand, and works in all JavaScript environments. However, it can have unexpected side effects if you're not careful. For example, if there are any other references to the original array, they will not be updated by this method and may still hold references to the original array's values.
 
-### 3. Using the splice() method
+### 2. Using the splice() method
 
 The **`splice()`** is a javascript method that gives us the ability to add or delete elements from an array. To clean an array, use splice() with a beginning index of zero and a deleted number equal to the array's length.
 
@@ -35,7 +35,7 @@ animals.splice(0, animals.length);
 
 This method is also fast and generally supported, and it can be useful if you need to remove only a particular element of the array instead of clearing it entirely. However, if you're working with really large arrays, it may have some performance concerns because it needs iterating through every element in the array.
 
-### 4. Using a while loop
+### 3. Using a while loop
 
 You can clear an array by iterating over it using a while loop and removing each element from the array one at a time with the pop() method.
 
