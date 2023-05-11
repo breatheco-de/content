@@ -7,6 +7,13 @@ Con esta capacidad, RegEx permite una solución viable para los siguientes tipos
 2.	Formato de texto: tomando en cuenta los resultados de la búsqueda, es posible dar formato y modificar los resultados, como, por ejemplo, reemplazar una serie de caracteres en un texto, eliminar espacios en blanco y similares.
 3.	Automatizar tareas: se pueden utilizar para simplificar tareas de modificación y reemplazo por medio de la ejecución de scripts.
 
+Un caso práctico de uso para apreciar la utilidad de regex sería el siguiente
+
+      1\d{10}
+
+Con este _RegEx_ sería posible buscar buscar texto que tengan una longitud de 11 dígitos comenzando por 1
+
+
 ## Simbología básica 
 
 Las expresiones regulares funcionan por medio de un conjunto de símbolos y patrones en los cuales se especifican los parámetros de búsqueda a utilizar para obtener los resultados dentro de un documento de texto.
@@ -27,7 +34,7 @@ Los símbolos básicos de uso son los siguientes:
 
 Existen herramientas que son de mucha utilidad para familiarizarse con el uso de estos caracteres y la simbología que utiliza RegEx. Una de estas herramientas es el sitio de https://regexr.com/ que permite realizar pruebas de búsquedas con RegEx y validar los resultados devueltos.
 
-## Uso de expresiones regulares en linux
+## Funciones básicas de expresiones regulares en linux
 Esta simbología es de uso general y se puede utilizar en cualquier aplicación que pueda aprovechar RegEx en sus búsquedas. Para el caso particular de Linux, se utiliza en conjunto con comandos como grep, sed y awk. Cada uno de estos comandos tiene diferentes capacidades y su utilidad va ligada a la tarea que se desee realizar.
 
 * grep: busca líneas que coincidan con un patrón de expresiones regulares e imprime esas líneas en una salida. Es útil cuando necesitamos verificar rápidamente la existencia de un patrón particular en una entrada o archivo.
@@ -47,24 +54,23 @@ Esta simbología es de uso general y se puede utilizar en cualquier aplicación 
 > este ejemplo utiliza el método gsub para buscar las instancias de ERROR y reemplazar por CRITICAL, finalmente imprimiendo en pantalla las líneas con los resultados. Esto nos demuestra que awk es el más versátil de estos comandos a utilizar junto con las expresiones regulares, sin embargo, es importante tener en cuenta la sintaxis del lenguaje que utiliza.
 
 ## Ejemplos de expresiones regulares
-Consolidando todos estos puntos teóricos en un ejemplo para lograr comprender mejor estos temas tomemos el siguiente ejemplo.
+Consolidando todos estos puntos teóricos en ejemplos para lograr comprender mejor estos temas tomemos los siguientes ejemplos.
 
+### Estudio de errores
 Queremos realizar un estudio histórico de errores encontrados al momento de la ejecución en un sistema. Estos errores se guardan en un archivo llamado log.txt. El log guarda las incidencias con el formato ````YYYY/MM/DD````. El sistema tiene 15 años, pero nos interesan únicamente los errores del 2010 en adelante.
 
-Mediante el uso de RegEx podemos simplificar esta tarea. Es posible aprovechar los corchetes para definir nuestros años y así obtener los valores.
-
-Primero, sabemos que nos interesan años del 2010 al 2023, viendo estos dos valores, todos los años van a comenzar con ````20```` así que es un buen punto de partida.
-
-Para el tercer espacio, solo se cuenta con dos posibilidades, esto porque solo hay dos valores para la década. Utilizando los corchetes se puede realizar la búsqueda con ````[1-2]````
-
-Finalmente, para el último espacio, este puede tener cualquier valor del 0 al 9, de igual manera que para el espacio anterior la búsqueda se puede realizar con ````[0-9]````
-
-Juntando todo, el RegEx que nos ayudará a filtrar únicamente los valores de interés sería ````20[1-2][0-9]````
-
-Utilizaríamos grep ya que lo que queremos únicamente es ver, y no realizar ninguna modificación ni nada mas complejo para esta tarea. El comando sería
+Mediante el uso de RegEx podemos simplificar esta tarea. Es posible aprovechar los corchetes para definir nuestros años y así obtener los valores. Sabiendo que nos interesan años del 2010 al 2023 podemos utilizar ````20```` para comenzar a filtrar. Para el siguiente espacio podemos utilizar ````[1-2]```` ya que con estos valores definimos el valor de la década. Finalmente, en el último espacio, como se tienen todas las posibilidades de valores, utilizamos ````[0-9]````. Utilizando el comando grep para realizar la búsqueda, quedaría el comando:
 
         $ grep "20[1-2][0-9]" log.txt
 
-Esto devolvería exactamente las líneas del log que cuenten con los años relevantes. Es posible hacer la búsqueda un poco mas robusta agregando ````/```` ya que sabemos que el formato del log coloca ese separador entre el año y el mes.
+Esto devolvería exactamente las líneas del log que cuenten con los años relevantes. 
 
-Este es un ejemplo muy sencillo, pero que muestra las capacidades de filtrado y búsqueda de las expresiones regulares de una manera intuitiva y fácil de comprender. Es posible expandir esto y hacer muchas combinaciones con los símbolos y patrones para resolver muchas problemáticas.
+### Búsqueda de números telefónicos por país
+De un archivo llamado usuarios.txt, necesitamos obtener todos los números telefónicos de México. Las expresiones regulares se prestan para esto ya que los este tipo de datos cuenta con una estructura definida, 10 dígitos con el código de país.
+Teniendo esto en cuenta, el _RegEx_ que podemos utilizar junto con su comando sería:
+
+        $ grep "\+52 \d{10}" usuarios.txt
+
+Esto nos devolvería todos los números telefónicos de usuarios en México.
+
+Estos ejemplos sencillos muestran las capacidades de filtrado y búsqueda de las expresiones regulares de una manera intuitiva y fácil de comprender. Es posible expandir esto y hacer muchas combinaciones con los símbolos y patrones para resolver muchas problemáticas. Las expresiones regulares son una herramienta muy útil en nuestro arsenal que nos permiten simplificar búsquedas que serían demasiado complejas, y tomarían demasiado tiempo realizandolas de maneras mas tradicionales.
