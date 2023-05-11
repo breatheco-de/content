@@ -48,7 +48,7 @@ Son las más sencillas. Supongamos que queremos buscar la palabra “perro” la
 
 const texto = "El perro verde"; // El texto que queremos analizar
 
-``` 
+```js
 const regex= /perro/g; // Definimos la expresión regular.
 
 const coincidencias= texto.match(regex) // Declaramos una variable a la que asignaremos las coincidencias
@@ -63,7 +63,7 @@ console.log(coincidencias) //Mostramos por consola las coincidencias, en este ca
 
 Ahora queremos una expresión regular que coincida tanto con perro como con Perro:
 
-``` 
+```js
 const texto= "Perro, gato, jirafa, perro, caballo, unicornio" // El texto que queremos analizar
 
 const regex= /[Pp]erro/g;  //Definimos la expresión regular.
@@ -77,7 +77,7 @@ console.log(coincidencias) //Mostramos por consola las coincidencias, en este ca
 
 Otro ejemplo de un patrón simple de una expresión regular podría ser buscar en una base de datos usuarios cuyo nombre sea la palabra gato seguido de 1 o más números:
 
-``` 
+```js
 const usuarios= "david, maria5, juan3, gato123, PedroG, gato12345, gato, julian, gato1111" // El texto que queremos analizar
 
 const regex= /gato[1-9]+/g; 
@@ -94,7 +94,7 @@ console.log(coincidencias) //Mostramos por consola las coincidencias, en este ca
 
 ### Expresiones regulares complejas
 
-```
+```js
 const texto= "Este es mi texto de prueba en el que voy a querer cambiar unas palabras por otras. Simplemente buscado coincidencias";
 
 const regex= /(?<=texto )(.*)(?= en)/s;
@@ -112,7 +112,7 @@ Es una expresion de retroceso positivo que coincide con cualquier cadena de cara
 
 #### Ejemplo de expresión regular usando el flag s
 
-```
+```js
 const texto= "Este es mi texto de prueba en el que voy a querer cambiar unas palabras por otras. Simplemente buscado coincidencias";
 
 const regex= /\./s;
@@ -128,7 +128,7 @@ console.log("las coincidencias han sido: ", texto.match(regex).length);
 
 Otra variante del ejemplo anterior sería:
 
-```
+```js
 const texto= "Este es mi texto de prueba en el que voy a querer cambiar unas palabras por otras. Simplemente buscado coincidencias";
 
 const regex= /\w/g;
