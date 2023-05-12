@@ -3,8 +3,8 @@
 In the following coding snippet, you will see a quick example of how to get the intersection of two arrays:
 
 ```js
-let array1 = [1, 2,3, 4 ,5];
-let array2 = [3, 4,5, 6, 7];
+let array1 = [1, 2, 3, 4, 5];
+let array2 = [3, 4, 5, 6, 7];
 
 const filteredArray = array1.filter(value => array2.includes(value));
 
@@ -20,8 +20,8 @@ The previous code example shows the filter method in JavaScript that allows the 
 Using a similar syntax, you can also check for the difference between arrays to know the elements that are not in `myArr1` and `myArr2`:
 
 ```js
-let array1 =  [1, 2,3, 4 ,5];
-let array2 =  [3, 4,5, 6, 7];
+let array1 =  [1, 2, 3, 4, 5];
+let array2 =  [3, 4, 5, 6, 7];
 let difference = myArr1.filter(x => !myArr2.includes(x));
 
 console.log(difference); // Output = [1,2]
@@ -32,8 +32,8 @@ console.log(difference); // Output = [1,2]
 This time, we are going to use a for loop to iterate over an array to implement an array intersection and obtain every element in the first array. Then, it uses another method called `includes()` to verify if each element in the first array is included in second one.
 
 ```js
-let myArr1 = [1,2,3 ,4 ,5];
-let myArr2 = [3,4, 5,6 ,7];
+let myArr1 = [1, 2, 3, 4, 5];
+let myArr2 = [3, 4, 5, 6, 7];
 
 // We create  new array to store new numbers
 let new_arr = [];
@@ -44,7 +44,7 @@ for(let i = 0; i < myArr1.length; i++){
     }
 }
 
-console.log(new_arr) // Output = [3,4,5]
+console.log(new_arr); // Output = [3,4,5]
 ```
 
 In addition, another way of using a for loop to get the same exact result but without using the `includes()` method is using a nested for loop.
@@ -65,7 +65,7 @@ for(let i = 0; i < myArr1.length; i++){
     }
 }
 
-console.log(result) // Output = [3,4,5]    
+console.log(result); // Output = [3,4,5]    
 ```
 
 ## Javascript Array Intersection using the Set object
