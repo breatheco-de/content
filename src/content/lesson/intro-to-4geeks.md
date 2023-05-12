@@ -11,6 +11,8 @@ cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/le
 
 ---
 
+Just updating it to complete the exercise "Fix the Misspell Challenge"
+
 Welcome!! 🤩👏 My name is Alejandro and I'm typing these words after years of teaching code and changing lives. Please, I beg you to read until the end, I will try my best not to bore you!
 
 ## What you already know
