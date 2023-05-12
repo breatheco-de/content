@@ -7,7 +7,7 @@ status: "draft"
 
 ---
 
-<!-- TODO (Writer): First the article should ask if it's already installed. Then it should ask how it was installed, what version you have and what versions are available to update to.  You can use this article for internal linking https://4geeks.com/how-to/how-to-check-python-version --> 
+<!-- TODO (Writer): First the article should ask if it's already installed. Then it should ask how it was installed, what version you have and what versions are available to update to. You can use this article for internal linking https://4geeks.com/how-to/how-to-check-python-version --> 
 
 In this article, we will provide a step-by-step guide on how to update Python. Whether you are a beginner or an experienced Python user, following these steps will ensure that your Python installation is always up-to-date and running smoothly.
 
