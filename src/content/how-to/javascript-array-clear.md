@@ -2,7 +2,7 @@
 
 One of the most common methods to clean arrays in JS is to assign an empty array to our variable. Let's take a look at it.
 
-```jsx
+```js
 let colors = ["yellow", "green", "blue", "red", "black"];
 colors = [];
 ```
@@ -17,7 +17,7 @@ In addition to allocating a new empty array, there are other methods available t
 
 Another common approach to clearing an array in Javascript is to set its length to zero using the **`array.length`** property. This effectively removes all elements from the array.
 
-```jsx
+```js
 let animals = ["dog", "cat", "bird", "horse", "cow"];
 animals.length = 0;
 ```
@@ -28,7 +28,7 @@ This method is also fast, easy to understand, and works in all JavaScript enviro
 
 The **`splice()`** is a javascript method that gives us the ability to add or delete elements from an array. To clean an array, use splice() with a beginning index of zero and a deleted number equal to the array's length.
 
-```jsx
+```js
 let animals = ["dog", "cat", "bird", "horse", "cow"];
 animals.splice(0, animals.length);
 ```
@@ -39,7 +39,7 @@ This method is also fast and generally supported, and it can be useful if you ne
 
 You can clear an array by iterating over it using a while loop and removing each element from the array one at a time with the pop() method.
 
-```jsx
+```js
 let animals = ["dog", "cat", "bird", "horse", "cow"];
 while (animals.length) {
   animals.pop();
