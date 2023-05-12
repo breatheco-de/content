@@ -22,7 +22,7 @@ if (Array.isArray(n) && n.length === 0) {
 
 // Vaciar un array en javascript reescribiendo la propiedad length
 n.length = 0;
-console.log(n) // ( output ) []
+console.log(n) // output: []
 ```
 
 Existen ocasiones en Javascript en las que necesitamos vaciar un array o verificar si el array está vacío para poder trabajar con él. Tenemos varías formas de lograr este objetivo, veremos algunas de ellas a continuación. Si quieres conocer más sobre [qué es un array en Javascript](https://4geeks.com/es/lesson/array-arreglo-en-javascript) puedes leer nuestra guía en el Blog de [4Geeks](https://4geeks.com/).
