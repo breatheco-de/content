@@ -1,21 +1,18 @@
 # Clonar un Array en Javascript
 
-El método ES6 es el más utilizado para clonar un array en Javascript ya que clona correctamente los elementos en arrays con más de un nivel de profundidad. Por ejemplo:
+La manera más utilizada para clonar un array en Javascript es usando el operador de propagación, ya que clona correctamente los elementos en arrays con más de un nivel de profundidad. Por ejemplo:
 
 ```js
 names = [["Ana", "Clara", "Juan"],["Luis", "Alba", "Pilar"]];
 namesClone = [...names];
 
-namesClone[1] = "Alberto"
-namesClone[0][0] = "Alejandro"
-
 console.log(names); // Consola: [["Alejandro", "Clara", "Juan"],["Luis", "Alba", "Pilar"]]
-console.log(namesClone); // Consola: [["Alejandro", "Clara", "Juan"], "Alberto"]
+console.log(namesClone); // Consola: [["Alejandro", "Clara", "Juan"], ["Luis", "Alba", "Pilar"]]
 ```
 
 Clonar un array en Javascript es una operación muy utilizada que permite crear un nuevo array con los mismos valores que el original. Sin embargo, existen muchas formas de clonar un array en Javascript, y cada método tiene sus propias ventajas y desventajas. En este artículo, exploraremos diferentes métodos y sus implicaciones en los objetos resultantes.
 
-## Clonar un array en Javascript usando el Spread Operator o ES6
+## Clonar un array en Javascript usando el Spread Operator
 
 La forma más moderna y simple de clonar un array en Javascript es mediante el método ES6. Este método utiliza la sintaxis de propagación para crear un nuevo array copiando los valores que contiene el array original.
 
@@ -50,7 +47,7 @@ Si queremos referirnos al segundo elemento del primer array podemos hacerlo por 
 console.log(namesDeep[0][1]); //Consola: Clara
 ```
 
-Si utilizamos el método ES6 para clonar un array en Javascript con más de un nivel de profundidad, entonces el array resultante en su segundo nivel de profundidad no almacenará los valores, sino las referencias a estos arrays. 
+Si utilizamos el método del operador de propagación para clonar un array en Javascript con más de un nivel de profundidad, entonces el array resultante en su segundo nivel de profundidad no almacenará los valores, sino las referencias a estos arrays. 
 
 Esto significa que si se cambia el array resultante, entonces el array original, en su segundo nivel, también sufrirá ese cambio. Por ejemplo:
 
