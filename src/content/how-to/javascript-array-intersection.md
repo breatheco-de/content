@@ -11,8 +11,6 @@ Here is a quick example of how it works:
     const intersection = arr1.filter(value => arr2.includes(value));
 
     console.log(intersection); // Output: [3, 4, 5]
-    
-   
  ```
 
 ## Get the intersection of multiple arrays using filter()
