@@ -11,9 +11,9 @@ This approach is fast, easy to understand, and works in all JavaScript environme
 
 In addition to allocating a new empty array, there are other methods available to solve this requirement. However, not all of them offer the same level of efficiency. Here are a few methods along with some data to help you make an informed decision.
 
-## **Methods:**
+## Methods to Clear a Javascript Array
 
-### 1. **Set the length of the array to zero.**
+### 1. Set the length of the array to zero.
 
 Another common approach to clearing an array in Javascript is to set its length to zero using the **`array.length`** property. This effectively removes all elements from the array.
 
