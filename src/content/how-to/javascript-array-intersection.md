@@ -4,7 +4,6 @@ As a developer, you're often faced with the challenge of comparing arrays to fin
 
 Here is a quick example of how it works:
 
-
 ```js
     const arr1 = [1, 2, 3, 4, 5];
     const arr2 = [3, 4, 5, 6, 7];
