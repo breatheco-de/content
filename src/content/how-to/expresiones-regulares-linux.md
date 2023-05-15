@@ -1,4 +1,10 @@
-# Expresiones regulares en Linux
+---
+title: "¿Qué son las Expresiones Regulares en Linux y cómo utilizarlas?"
+subtitle: "Descubre qué son las expresiones regulares en Linux y cómo utilizarlas. Aprende sobre la sintaxis y las funciones de estas poderosas herramientas de búsqueda y manipulación de texto."
+tags: ["expresiones regulares"]
+authors: ["yamilmelian"]
+
+---
 
 Una de las funciones más comunes de las expresiones regulares en Linux es `grep`, esta permite la búsqueda de ciertos patrones y escritura de los mismos en otros archivos, aquíun ejemplo de como funcionan:
 
@@ -10,7 +16,7 @@ $ grep "ERROR" log.txt
 
 ## Utilidad de las expresiones regulares
 
-Las expresiones regulares son una herramienta versátil para resolver problemas relacionados con la búsqueda y edición de texto. Las expresiones regulares o _RegEx_ se pueden ver como un tipo de buscador con muchas capacidades complejas comparado a una herramienta básica. Una búsqueda sencilla está fijada en los caracteres que se colocan, y los resultados que devuelven son directamente relacionados 1 a 1 a la búsqueda. RegEx permite una capa adicional de capacidades que permite realizar búsquedas en base a parámetros y así devuelve una mayor variedad de resultados con estos patrones complejos.
+Las expresiones regulares son una herramienta versátil para resolver problemas relacionados con la búsqueda y edición de texto. Las [expresiones regulares](https://4geeks.com/es/lesson/expresiones-regulares-javascript) o _RegEx_ se pueden ver como un tipo de buscador con muchas capacidades complejas comparado a una herramienta básica. Una búsqueda sencilla está fijada en los caracteres que se colocan, y los resultados que devuelven son directamente relacionados 1 a 1 a la búsqueda. RegEx permite una capa adicional de capacidades que permite realizar búsquedas en base a parámetros y así devuelve una mayor variedad de resultados con estos patrones complejos.
 
 Con esta capacidad, RegEx permite una solución viable para los siguientes tipos de problemas:
 
@@ -44,7 +50,7 @@ Los símbolos básicos de uso son los siguientes:
 | `\|` | utilizado como _or_ busca el primero valor, o el segundo |
 | `?` | realiza la búsqueda con exactamente un caracter |
 
-Existen herramientas que son de mucha utilidad para familiarizarse con el uso de estos caracteres y la simbología que utiliza RegEx. Una de estas herramientas es el sitio de https://regexr.com/ que permite realizar pruebas de búsquedas con RegEx y validar los resultados devueltos.
+Existen herramientas que son de mucha utilidad para familiarizarse con el uso de estos caracteres y la simbología que utiliza RegEx. Una de estas herramientas es el sitio de [regex](https://regexr.com/) que permite realizar pruebas de búsquedas con RegEx y validar los resultados devueltos.
 
 ## Funciones básicas de las Expresiones Regulares en Linux
 Esta simbología es de uso general y se puede utilizar en cualquier aplicación que pueda aprovechar RegEx en sus búsquedas. Para el caso particular de Linux, se utiliza en conjunto con comandos como grep, sed y awk. Cada uno de estos comandos tiene diferentes capacidades y su utilidad va ligada a la tarea que se desee realizar.
@@ -81,7 +87,7 @@ awk '{gsub(/ERROR/, "CRITICAL")}{print}' log.txt
 
 ## Ejemplos de Expresiones Regulares en Linux
 
-Consolidando todos estos puntos teóricos en ejemplos para lograr comprender mejor estos temas tomemos los siguientes ejemplos.
+Consolidando todos estos puntos teóricos en ejemplos para lograr comprender mejor estos temas tomemos los siguientes [ejemplos de expresiones regulares](https://4geeks.com/es/lesson/regex-tutorial-regular-expression-ejemplo):
 
 ### Estudio de errores
 
@@ -107,3 +113,5 @@ $ grep "\+52 \d{10}" usuarios.txt
 > Este comando devuelve todos los números telefónicos de usuarios en México.
 
 Estos ejemplos sencillos muestran las capacidades de filtrado y búsqueda de las expresiones regulares de una manera intuitiva y fácil de comprender. Es posible expandir esto y hacer muchas combinaciones con los símbolos y patrones para resolver muchas problemáticas. Las expresiones regulares son una herramienta muy útil en nuestro arsenal que nos permiten simplificar búsquedas que serían demasiado complejas, y tomarían demasiado tiempo realizandolas de maneras mas tradicionales.
+
+Puedes leer más sobre este tema y otros en el Blog de [4Geeks](https://4geeks.com/es/how-to).
