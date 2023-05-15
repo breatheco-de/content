@@ -55,14 +55,13 @@ Las expresiones regulares se utilizan en la mayoría de los lenguajes de program
 
 ## ¿Cómo trabajar con expresiones regulares en PHP?
 
-Existen diferentes formas de trabajar con expresiones regulares en php, este lenguaje nos ofrece algunos **métodos** que nos permiten trabajar con ellas, existen varios métodos para trabajar con expresiones regulares veremos los tres más relevantes a continuación.
+Existen diferentes formas de trabajar con expresiones regulares en php, existen varios métodos para trabajar con expresiones regulares veremos los tres más relevantes a continuación.
 
 ## Método preg_match
 
-El método [preg_match](php.net/manual/es/function.preg-match.php) realiza una comparación entre una expresión regular y una cadena de texto y retorna la primera coincidencia.
+El método [preg_match](https://www.php.net/manual/es/function.preg-match.php) realiza una comparación entre una expresión regular y una cadena de texto y retorna la primera coincidencia.
 
 ```php
-
 $patron = "/PRUEBA/i";
 $texto = "Este texto es una prueba";
 
@@ -86,19 +85,15 @@ Array([0] =>
     [1] => 18
   )
 )
-
 ```
 
-Cómo se muestra en el ejemplo este método puede recibir varios parámetros pero no todos son obligatorios solo el primer y el segundo parámetro son obligatorios los demás son opcionales.
+> Cómo se muestra en el ejemplo este método puede recibir varios parámetros pero no todos son obligatorios solo el primer y el segundo parámetro son obligatorios los demás son opcionales.
 
 En este ejemplo la función **preg_match** retorna un `1` en caso de encontrar una coincidencia o retorna `0` en caso de lo contrario, este valor se guarda el la variable `$resultado`. La variable `$coincidencia` es un array que guarda la primera coincidencia que encuentra.
-
----
 
 Otro ejemplo en el que podemos hacer uso del método **preg_match** es para verificar un correo electrónico.
 
 ```php
-
 $patron = "/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/";
 $correo = "ejemplo@email.com";
 
@@ -107,16 +102,13 @@ if (preg_match($patron, $correo)) {
 } else {
     echo("El correo electrónico es invalido");
 };
-
 ```
 
-En este ejemplo verificamos si un correo electrónico es válido, si el correo electrónico coincide con el patrón de la **expresión regular** entonces entra en la estructura condicional de lo contrario significa que el correo electrónico no es válido.
+> En este ejemplo verificamos si un correo electrónico es válido, si el correo electrónico coincide con el patrón de la **expresión regular** entonces entra en la estructura condicional de lo contrario significa que el correo electrónico no es válido.
 
----
 Otro caso en el que podemos usar el método **preg_match** es para verificar un número telefónico.
 
 ```php
-
 $patron = '/^\+\d{2,3} \d{3} \d{3} \d{4}$/';
 $número = "+01 111 111 1111";
 
@@ -125,17 +117,15 @@ if (preg_match($patron, $número)) {
 } else {
     echo "El número telefónico es invalido";
 };
-
 ```
 
-Si el número de teléfono cumple con el patrón de la **expresión regular** `+00 000 000 0000` entonces entra en la estructura condicional, de lo contrario significa que el número es invalido. De está forma podemos tener control y trabajar solo con los números que coinciden con el patrón que deseamos.
+> Si el número de teléfono cumple con el patrón de la **expresión regular** `+00 000 000 0000` entonces entra en la estructura condicional, de lo contrario significa que el número es invalido. De está forma podemos tener control y trabajar solo con los números que coinciden con el patrón que deseamos.
 
 ## Método preg_match_all
 
 El método [preg_match_all](https://www.php.net/manual/es/function.preg-match-all.php) realiza una comparación global entre un patron de expresión regular y una cadena de texto y luego retorna todas las coincidencias.
 
 ```php
-
 $patron = "/\b(?![0-9]+\b)\p{L}+\b/ui"; // Patron para busca palabras
 $cadena = "Hola mundo, éste es un ejemplo 1234.";
 
@@ -160,19 +150,15 @@ Array
     [3] => Array([0] => un [1] => 14)
     [4] => Array([0] => ejemplo [1] => 17)
 )
-
 ```
 
 Cómo vemos en este ejemplo este método también puede recibir varios parámetros pero solo los dos primero son obligatorios los demás son opcionales.
 
 En este ejemplo el método **preg_match_all** retorna la cantidad de elementos que coinciden con el patrón de **expresiones regulares** que se guarda en la variable `$resultado`. Por otro lado, todas las coincidencias que encuentra las guarda en la variable `$coincidencias`.
 
----
-
 Otro ejemplo donde podemos usar el método **preg_match_all** es para buscar etiquetas HTML en una cadena de texto.
 
 ```php
-
 $texto = "<h1>Prueba</h1><p>Este es un párrafo de prueba.</p><img src='imagen.jpg'/>";
 $patron = "/<(\w+)[^>]*>/"; // Busca todas las etiquetas HTML de apertura
 
@@ -198,7 +184,6 @@ En este ejemplo usamos el método **preg_match_all** para buscar etiquetas de ap
 El método [preg_replace](https://www.php.net/manual/es/function.preg-replace.php) sustituye un patrón de caracteres en una cadena de texto por el valor que deseas asignarle.
 
 ```php
-
 $cadena_texto = "El color favorito de alex es el azul.";
 $patron = "/alex/i";
 $reemplazo = "tom";
@@ -211,26 +196,21 @@ $resultado = preg_replace(
 );
 
 echo $resultado; // (output) El color favorito de tom es el azul.
-
 ```
 
 Este método puede recibir hasta cuatro parámetros aunque solo tres de ellos son requeridos, el cuarto parámetro es opcional y representa la cantidad de elementos que se deben reemplazar, por defecto tiene el valor `-1` lo que significa que cambia todo los elementos que coincidan con el patrón proporcionado.
 
-en este ejemplo el método realiza el cambio y guarda el texto actualizado en la variable `$resultado`;
-
----
+En este ejemplo el método realiza el cambio y guarda el texto actualizado en la variable `$resultado`;
 
 Otra forma en la que podemos usar el método **preg_replace** es para reemplazar una etiqueta HTML por otra en una cadena de texto.
 
 ```php
-
 $cadena = "<p>Ejemplo uno</p>, <p>ejemplo dos</p>, <p>ejemplo tres</p>";
 $patron = "/<p>(.*?)<\/p>/";
 $reemplazo = "<span>$1</span>";
 
 $resultado = preg_replace($patron, $reemplazo, $cadena, $limite = 2);
 echo $resultado; // (output) "<span>Ejemplo uno/span>, <span>ejemplo dos</span>, <p>ejemplo dos</p>"
-
 ```
 
 En este ejemplo usamos el método **preg_replace** para reemplazar las etiquetas `<p>` en una cadena de texto por una etiqueta `<span>`.
