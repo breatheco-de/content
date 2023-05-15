@@ -1,8 +1,8 @@
 ---
 title: "¿Qué son las Expresiones Regulares en Linux y cómo utilizarlas?"
 subtitle: "Descubre qué son las expresiones regulares en Linux y cómo utilizarlas. Aprende sobre la sintaxis y las funciones de estas poderosas herramientas de búsqueda y manipulación de texto."
-tags: ["expresiones regulares"]
-authors: ["yamilmelian"]
+tags: ["expresiones regulares", "linux"]
+authors: ["Gilberto-MV"]
 
 ---
 
