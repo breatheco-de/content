@@ -1,8 +1,8 @@
 ---
-title: "Javascript Array Some Method: A Comprehensive Guide"
+title: "How to use the Javascript array some method?"
 subtitle: "Master the Javascript Array Some method with our comprehensive guide. Learn how to use this powerful tool for testing array elements and streamlining your code."
 tags: ["javascript"]
-authors: ["julianvillalba"]
+authors: ["Bran18"]
 
 ---
 
