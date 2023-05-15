@@ -1,4 +1,10 @@
-# Javascript Array Intersection
+---
+title: "Javascript Array Intersection: A Comprehensive Guide"
+subtitle: "Learn how to find the intersection of two or more arrays in Javascript. Discover different methods for finding common elements and optimizing your code."
+tags: ["javascript"]
+authors: ["julianvillalba"]
+
+---
 
 In the following coding snippet, you will see a quick example of how to get the intersection of two arrays:
 
@@ -11,7 +17,7 @@ const filteredArray = array1.filter(value => array2.includes(value));
 console.log(filteredArray); // Output: [3, 4, 5]
 ```
 
-As a developer, you're often faced with the challenge of comparing arrays to find common elements and perform a specific logic. Array intersection is the process of determining overlapping values in different arrays, it can help you create a new array holding only common and non-duplicated elements. In the following article, we'll see many approaches to understand array intersecion using JavaScript.
+As a developer, you're often faced with the challenge of comparing arrays to find common elements and perform a specific logic. Array intersection is the process of determining overlapping values in different arrays, it can help you create a new array holding only common and non-duplicated elements. In the following article, we'll see many approaches to understand array intersecion using [Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript).
 
 ## Javascript Array Intersection using filter()
 
@@ -113,4 +119,4 @@ Lastly, the user (or you) will have the chance to see this autocomplete feature 
 
 ## Conclusion
 
-You could see numerous methods to find the intersection between two or more arrays using filter(), includes(), for loops, and Set objects. Rest assured this knowledge will help you at some point in your developer journey when working with data structures and you can revisit this article as many times as you need to review each explanation and example.
+You could see numerous methods to find the intersection between two or more arrays using filter(), includes(), for loops, and Set objects. Rest assured this knowledge will help you at some point in your developer journey when working with data structures and you can revisit this article as many times as you need to review each explanation and example. You can learn more about [arrays in Javascript](https://4geeks.com/lesson/what-is-an-array-define-array) at the [4Geeks](https://4geeks.com/how-to) Blog.
