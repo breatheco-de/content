@@ -163,6 +163,8 @@ var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
 
 Las variables pueden tener diferentes tipos de valores. Algunas de ellas están disponibles solo en lenguajes de programación específicos, pero casi todos tienen los siguientes tipos:
 
+Esto no es una modificación, es una advertencia de que el parrafo de arriba no tiene sentido con la sección. O bien falta información.
+
 ### Splice y Slice
 
 Es posible cortar un array en pedazos muy rápido, con las funciones de splice y slice.
