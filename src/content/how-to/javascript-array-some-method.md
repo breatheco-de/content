@@ -1,4 +1,10 @@
-# JavaScript Array Some Method
+---
+title: "JavaScript Array Slice Method: A Comprehensive Guide"
+subtitle: "Master the art of slicing arrays in JavaScript with our comprehensive course. Learn how to extract, copy, and modify array elements like a pro. Enroll now!"
+tags: ["javascript"]
+authors: ["julianvillalba"]
+
+---
 
 As one of the daily basic parts of programming languages array some method in javascript is typically used for data testing. Take a look at the following example showing one way to use the Array `some()` method of Javascript: 
 
