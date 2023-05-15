@@ -17,7 +17,7 @@ const filteredArray = array1.filter(value => array2.includes(value));
 console.log(filteredArray); // Output: [3, 4, 5]
 ```
 
-As a developer, you're often faced with the challenge of comparing arrays to find common elements and perform a specific logic. Array intersection is the process of determining overlapping values in different arrays, it can help you create a new array holding only common and non-duplicated elements. In the following article, we'll see many approaches to understand array intersecion using [Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript).
+As a developer, you're often faced with the challenge of comparing arrays to find common elements and perform a specific logic. Array intersection is the process of determining overlapping values in different arrays, it can help you create a new array holding only common and non-duplicated elements. In the following article, we'll see many approaches to understand array intersection using [Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript).
 
 ## Javascript Array Intersection using filter()
 
@@ -92,7 +92,7 @@ console.log(intersection); // Output = [3, 4, 5]
 
 ## Real-world example using the Javascript Array Intersection
 
-Imagine that you are developing a website that will offer a search bar as a component for your visitors to find products easily by typing the name. Your objective is to implement an autocomplete feature that suggests search terms to users based on the keywords that have been looked up by other users in the past while navigating that website. So, how can you use arrays intersection to get this goal?
+Imagine that you are developing a website that will offer a search bar as a component for your visitors to find products easily by typing the name. Your objective is to implement an auto-complete feature that suggests search terms to users based on the keywords that have been looked up by other users in the past while navigating that website. So, how can you use arrays intersection to get this goal?
 
 First, you can store various words that users have looked up in the past.
 
@@ -108,14 +108,14 @@ Then, take the input typed by the user in the search bar.
 let userInput = "IP";
 ```
 
-Having both the array with all the values and the user input, you can apply an array intersection to autocomplete what the user is typing.
+Having both the array with all the values and the user input, you can apply an array intersection to auto-complete what the user is typing.
 
 ```js
 let filteredKW = searchedKW.filter(searchterm => searchterm.toLowerCase().startsWith(userInput.toLowerCase()));
 console.log(filteredKW) // Output = ["iphone", "ipad", "ipod", "imac"];
 ```
 
-Lastly, the user (or you) will have the chance to see this autocomplete feature in action which will improve their user experience significantly... All of this is due to this great JavaScript approach that can be easily be implemented when needed.
+Lastly, the user (or you) will have the chance to see this auto-complete feature in action which will improve their user experience significantly... All of this is due to this great JavaScript approach that can be easily be implemented when needed.
 
 ## Conclusion
 
