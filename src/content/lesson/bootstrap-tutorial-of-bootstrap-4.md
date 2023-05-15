@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-## Bootstrap fixed all CSS major problems
+##### Bootstrap fixed all CSS major problems
 
 There is light at the end of the tunnel and it is NOT Chuck Norris holding a flashlight.  Finally, someone fixed CSS.  This is a library made by [Mark Otto](https://twitter.com/mdo?lang=en) and [Jacob Thornton](https://twitter.com/fat) – normal people – developers like you and me, and they did great!
 
