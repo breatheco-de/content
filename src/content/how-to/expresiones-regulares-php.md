@@ -47,11 +47,11 @@ Las expresiones regulares se utilizan en la mayoría de los lenguajes de program
 
 |expresión regular | descripción |
 |-----------------|---------------|
-|/[a-z]/i |Esta expresión regular busca todas las letras de la "a" a la "z" en una cadena de texto y es insensible a mayúsculas o minúsculas. |
-|/[0-9]/ |Está expresión regular busca todos los números del "0" al "9" individualmente de una cadena de texto. |
-|/[^\w\s]/ |Está expresión regular busca todos los signos de una cadena de texto. |
-|/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/}|Esta expresión regular verifica que un correo electrónico tenga una estructura correcta y válida. |
-|/^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()-=_+{};:,<.>]).{8,20}$/|Esta expresión regular verificar que una contraseña sea segura con al menos, una letra mayúscula, un número, un símbolo, al menos 8 caracteres y menos de 20 caracteres. |
+|`/[a-z]/i` | Esta expresión regular busca todas las letras de la "a" a la "z" en una cadena de texto y es insensible a mayúsculas o minúsculas. |
+|`/[0-9]/` | Está expresión regular busca todos los números del "0" al "9" individualmente de una cadena de texto. |
+|`/[^\w\s]/` | Está expresión regular busca todos los signos de una cadena de texto. |
+|`/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/}` | Esta expresión regular verifica que un correo electrónico tenga una estructura correcta y válida. |
+|`/^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()-=_+{};:,<.>]).{8,20}$/` | Esta expresión regular verificar que una contraseña sea segura con al menos, una letra mayúscula, un número, un símbolo, al menos 8 caracteres y menos de 20 caracteres. |
 
 ## ¿Cómo trabajar con expresiones regulares en PHP?
 
