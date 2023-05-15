@@ -75,21 +75,21 @@ Pero espera, hay más... Incluso podríamos pasar una *función* como argumento 
 #### Funciones de Devolución de Llamada
 
 ```javascript
-1    function correPrimero(unaFuncion){
-2	console.log("Quiero correr primero");
-3	correPrimero();
-4	correSegundo();
-5	console.log("También quiero correr cuando se ejecute correPrimero");
-6    }
-7    function correSegundo(){
-8	console.log("¿Donde estoy corriendo?");
-9    }
-10   correPrimero(unaTercera);
-11
-12   function unaTercera(){
-13	console.log("Esto es una locura");
-14   }
-15
+    function correPrimero(unaFuncion){
+	console.log("Quiero correr primero");
+	unaFuncion();
+	correSegundo();
+	console.log("También quiero correr cuando se ejecute correPrimero");
+    }
+    function correSegundo(){
+	console.log("¿Donde estoy corriendo?");
+    }
+   correPrimero(unaTercera);
+
+   function unaTercera(){
+	console.log("Esto es una locura");
+   }
+
 
 /*
 RESULTADO CONSOLA:
@@ -164,7 +164,7 @@ usuarioEsperando();
 	> ¡Cárgala! 					//el usuario comienza a esperar
 	> No me gusta esperar 				//¡sin espera! DOM listo para ver
 							//... y ?? segundos más tarde
-	> ¡Cárgala!  OR Uh-oh algo salió mal 	//¡Imagen!... Mágico! || Oops, no hay imágenes
+	> ¡Imagen cargada!  OR Uh-oh algo salió mal 	//¡Imagen!... Mágico! || Oops, no hay imágenes
 */
 ```
 
@@ -191,15 +191,15 @@ Una promesa no es más que el resultado de una operación asíncrona. Representa
 ***Así es como se puede crear una promesa.*** 
 
 ```javascript
-var myPomise = new Promise(function(resolve, reject) {
+var myPromise = new Promise(function(resolve, reject) {
   setTimeout(function() {
-    resolve("Yo estaba resuelto");
+    resolve("Estaba resuelto");
   }, 300);
 });
-myPomise.then((obj) => {
+myPromise.then((obj) => {
   console.log(obj);
 });
-console.log(myPomise);
+console.log(myPromise);
 
 /*RESULTADO EN CONSOLA:
 	>Objeto de promesa // devolverá un objeto de promesa
