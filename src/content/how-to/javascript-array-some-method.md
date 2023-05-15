@@ -12,7 +12,7 @@ This code shown uses the Array Some Method on the `customArray` array to perform
 
 ## The Array Some Method in Javascript
 
-Nowadays known as one of the most familiar [Arrays](https://4geeks.com/lesson/what-is-an-array-define-array) methods to test in [Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript) we have the Array Some method. What `some()` method performs is testing whether at least one element of the array matches the test executed by our custom `function`. The Array Some Method will always return `true` if, it finds an element that matches the logic of the provided `function`; otherwise, it will should always return `false`.
+Nowadays known as one of the most familiar Arrays methods to test in [Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript) we have the Array Some method. What `some()` method performs is testing whether at least one element of the array matches the test executed by our custom `function`. The Array Some Method will always return `true` if, it finds an element that matches the logic of the provided `function`; otherwise, it will should always return `false`.
 
 ## Examples
 
@@ -47,7 +47,7 @@ function isBiggerThan30(element, index, array) {
 
 In the previous example we are checking if the value of the element argument is greater than 30 (`element > 30`) using the `some()` method on two similar arrays of `numbers`. If our condition is matched, the function will return a value of `true`, if not it will return `false`
 
-Array Some Method or Array `some()` shown in the examples before, is just a way used in [Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript) for programmers like you and me to perform condition checking. We can use it or call the array some method every single time that we require to perform a check on any element in an [array](https://4geeks.com/lesson/what-is-an-array-define-array). 
+Array Some Method or Array `some()` shown in the examples before, is just a way used in Javascript for programmers like you and me to perform condition checking. We can use it or call the array some method every single time that we require to perform a check on any element in an array. 
 
 ## Syntax
 
@@ -72,4 +72,4 @@ By understanding the parameters and syntax of the Array Some method, it will be 
 
 ## Conclusion
 
-[Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript) provides a powerful and useful method called Array Some that can be pretty useful to check if the elements of an array match some specific conditions. Array Some have pretty similar behavior to the Array Filter method, but, all we need to have into consideration while using the Array Some() is that the Array Some Method will always return `true` if at least one element in the array passes our condition or test. The Array Some Method is indeed an essential tool that lets/helps developers to write cleaner code and save a lot of debugging time. Remember that JavaScript comes with various useful functions which make it easier to work with, you can learn more about [Javascript Arrays](https://4geeks.com/lesson/what-is-an-array-define-array) at 4Geeks.
+Javascript provides a powerful and useful method called Array Some that can be pretty useful to check if the elements of an array match some specific conditions. Array Some have pretty similar behavior to the Array Filter method, but, all we need to have into consideration while using the Array Some() is that the Array Some Method will always return `true` if at least one element in the array passes our condition or test. The Array Some Method is indeed an essential tool that lets/helps developers to write cleaner code and save a lot of debugging time. Remember that JavaScript comes with various useful functions which make it easier to work with, you can learn more about [Javascript Arrays](https://4geeks.com/lesson/what-is-an-array-define-array) at 4Geeks.
