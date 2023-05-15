@@ -6,7 +6,7 @@ authors: ["Bran18"]
 
 ---
 
-As one of the daily basic parts of programming languages array some method in javascript is typically used for data testing. Take a look at the following example showing one way to use the Array `some()` method of Javascript: 
+As one of the daily basic parts of programming languages array some method in Javascript is typically used for data testing. Take a look at the following example showing one way to use the Array `some()` method of Javascript: 
 
 ```js
 const customArray = [2, 4, 6, 8, 10, 12, 14,];
