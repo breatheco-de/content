@@ -32,7 +32,7 @@ Las expresiones regulares funcionan por medio de un conjunto de símbolos y patr
 
 Los símbolos básicos de uso son los siguientes:
 
-| Símbolo | Descripción
+| Símbolo | Descripción | 
 |---|---|
 | `.` | se utiliza como comodín y devuelve cualquier caracter |
 | `^` | realiza la búsqueda con el inicio de la cadena |
