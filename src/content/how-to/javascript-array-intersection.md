@@ -1,8 +1,8 @@
 ---
-title: "Javascript Array Intersection: A Comprehensive Guide"
+title: "How to find the interception of Arrays in Javascript?"
 subtitle: "Learn how to find the intersection of two or more arrays in Javascript. Discover different methods for finding common elements and optimizing your code."
 tags: ["javascript"]
-authors: ["julianvillalba"]
+authors: ["jul1998"]
 
 ---
 
