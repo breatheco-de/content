@@ -1,8 +1,8 @@
 ---
 title: "¿Cómo clonar un arreglo o array en Javascript"
 subtitle: "Aprende cómo clonar un array en Javascript con diferentes métodos. Descubre la importancia de clonar un array y cómo hacerlo de forma eficiente para evitar efectos secundarios no deseados."
-tags: ["javascript"]
-authors: ["diegorojas"]
+tags: ["javascript", "arrays"]
+authors: ["valerybriz"]
 
 ---
 
