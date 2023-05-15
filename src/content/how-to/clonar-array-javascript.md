@@ -1,6 +1,12 @@
-# Clonar un Array en Javascript
+---
+title: "¿Cómo clonar un arreglo o array en Javascript"
+subtitle: "Aprende cómo clonar un array en Javascript con diferentes métodos. Descubre la importancia de clonar un array y cómo hacerlo de forma eficiente para evitar efectos secundarios no deseados."
+tags: ["javascript"]
+authors: ["diegorojas"]
 
-La manera más utilizada para clonar un array en Javascript es usando el operador de propagación, ya que clona correctamente los elementos en arrays con más de un nivel de profundidad. Por ejemplo:
+---
+
+La manera más utilizada para clonar un [array en Javascript](https://4geeks.com/es/lesson/array-arreglo-en-javascript) es usando el operador de propagación, ya que clona correctamente los elementos en arrays con más de un nivel de profundidad. Por ejemplo:
 
 ```js
 names = [["Ana", "Clara", "Juan"],["Luis", "Alba", "Pilar"]];
@@ -14,7 +20,7 @@ Clonar un array en Javascript es una operación muy utilizada que permite crear 
 
 ## Clonar un array en Javascript usando el Spread Operator
 
-La forma más moderna y simple de clonar un array en Javascript es mediante el método ES6. Este método utiliza la sintaxis de propagación para crear un nuevo array copiando los valores que contiene el array original.
+La forma más moderna y simple de clonar un array en [Javascript](https://4geeks.com/es/lesson/para-que-sirve-javascript) es mediante el método ES6. Este método utiliza la sintaxis de propagación para crear un nuevo array copiando los valores que contiene el array original.
 
 ```js
 names = ["Ana", "Clara", "Juan"];
@@ -106,7 +112,7 @@ console.log(namesClone); // Consola: ["Ana", "Clara", "Juan"]
 
 ## Clonar un array en Javascript usando slice()
 
-El método `slice()` funciona de una forma muy similar a los anteriores, excepto porque es posible indicarle la posición o índice inicial y el índice final de los objetos que queremos copiar dentro del array, de lo contrario si no le indicamos estos indices entonce realizará un clon incluyendo todos los objetos, por ejemplo:
+El [método `slice()` en Javascript](https://4geeks.com/lesson/javascript-array-slice) funciona de una forma muy similar a los anteriores, excepto porque es posible indicarle la posición o índice inicial y el índice final de los objetos que queremos copiar dentro del array, de lo contrario si no le indicamos estos indices entonce realizará un clon incluyendo todos los objetos, por ejemplo:
 
 ```js
 names = ["Ana", "Clara", "Juan"];
@@ -142,4 +148,4 @@ console.log(namesClone); // Consola: ["Luis", "Alba", "Ana", "Pilar", "Clara", "
 
 ### Conclusión
 
-Clonar un array en Javascript puede realizarse de muchas maneras por lo que elegír el método adecuado siempre va a depender de qué es lo que queremos hacer con el array clonado y de qué tan idependientes queremos que sean el array original y el array clonado y así evitar errores silenciosos dentro del código.
+Clonar un array en Javascript puede realizarse de muchas maneras por lo que elegír el método adecuado siempre va a depender de qué es lo que queremos hacer con el array clonado y de qué tan idependientes queremos que sean el array original y el array clonado y así evitar errores silenciosos dentro del código. Puedes leer sobre este tema y mucho mas en el blog de [4Geeks](https://4geeks.com/es/how-to).
