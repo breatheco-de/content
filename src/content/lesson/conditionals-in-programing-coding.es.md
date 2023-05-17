@@ -113,7 +113,7 @@ const flu = (sientoQueMeAtropelloUnTren && !meAtropelloUnTren) ? true : false;
 
 En este ejemplo, la variable `flu` solo será verdadera si `sientoQueMeAtropelloUnTren == true` y `meAtropelloUnTren == false` al mismo tiempo. Si esa pregunta no es cierta, entonces `flu` será falso.
 
-Los ternarios se usan MUCHO en estos días porque te ahorran mucho tiempo, y también podremos usarlos más adelante en código `jsx` (React).
+Los ternarios se usan MUCHO hoy día porque te ahorran mucho tiempo, y también podremos usarlos más adelante en código `jsx` (React).
 
 ## Renderizado Condicional
 
