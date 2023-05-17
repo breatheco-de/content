@@ -1,5 +1,5 @@
 ---
-title: "Condicionales en la programación o codificación con Javascript"
+title: "Condicionales en la programación con Javascript"
 subtitle: "Uso de condiciones para controlar el flujo de su código y hacer que la computadora obedezca"
 date: "2020-10-19T16:36:31+00:00"
 status: "published"
