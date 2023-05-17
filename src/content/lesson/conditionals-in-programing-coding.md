@@ -52,7 +52,7 @@ If you want to represent this algorithm in Javascript it will look something lik
 let feelsLikeHitByTrain = true;
 let youWereHitByTrain = false;
 
-if(feelsLikeHitByTrain == true ){
+if(feelsLikeHitByTrain == true) {
   if(youWereHitByTrain == true) {
     console.log("You don't have a flu");
   }
