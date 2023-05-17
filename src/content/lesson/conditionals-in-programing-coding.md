@@ -24,25 +24,25 @@ Conditions are the only way developers have to tell the computer how to make dec
 
 Let's say we are building a program to help us pick what to wear, and we hate the color blue. We can tell the computer to avoid blue using a condition like this:
   
-`If` ***color*** is not **blue**, then... do something.  
-`Else`... do nothing or exit.
+`if` **color** is not **blue**, then... do something.  
+`else`... do nothing or exit.
   
 ![Conditionals](https://github.com/breatheco-de/content/blob/master/src/assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png?raw=true)
 
 And this is how we would write this in Javascript:
 
 ```js
-if(color != 'blue'){
+if (color != 'blue') {
     //any code here will run when the color is different than blue
 }
-else{
+else {
     //it will only run this code if the color is blue.
 }
 ```
 
 ## It is all about the question: What to ask?
 
-The previous example was a simple condition, but in real life picking what to wear involves a combination of several conditions to make the final decision, for example: Let's look at this algorithm that tells if you have the flu.
+The previous example was a simple condition, but in real life picking what to wear involves a combination of several conditions to make the final decision, for example: Let's look at this algorithm that checks if you have the flu.
 
 ![Hit by a flu or have a cold](https://github.com/breatheco-de/content/blob/master/src/assets/images/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800.jpeg?raw=true)
 
@@ -52,35 +52,35 @@ If you want to represent this algorithm in Javascript it will look something lik
 let feelsLikeHitByTrain = true;
 let youWereHitByTrain = false;
 
-if(feelsLikeHitByTrain == true){
-  if(youWereHitByTrain == true){
+if(feelsLikeHitByTrain == true ){
+  if(youWereHitByTrain == true) {
     console.log("You don't have a flu");
   }
-  else{
+  else {
     console.log("You have a flu");
   }
 }
-else{
+else {
   console.log("You don't have a flu");
 }
 ```
 
-Basically, this algorithm has two variables to consider: ` feelsLikeHitByTrain ` and ` youWereHitByTrain `.
+Basically, this algorithm has two variables to consider: `feelsLikeHitByTrain` and `youWereHitByTrain`.
 
 Our job as developers is to sit down and try to prepare a strategy and come up with an algorithm that solves a problem.
 
-## ` AND` and ` OR` operators
+## `AND` and `OR` operators
 
 Another way to write the algorithm is to combine two questions in the same condition using the `AND` and `OR` operators, which in Javascript are represented with `&&` for **AND** and `||` for **OR**:
 
 ```js
-if(feelsLikeHitByTrain == false || youWereHitByTrain == true){
+if(feelsLikeHitByTrain == false || youWereHitByTrain == true) {
   console.log("You don't have a flu");
 }
-else if(feelsLikeHitByTrain == true && youWereHitByTrain == false){
+else if(feelsLikeHitByTrain == true && youWereHitByTrain == false) {
   console.log("You have a flu")
 }
-else{
+else {
   console.log("I have no idea");
 }
 ```
@@ -92,15 +92,15 @@ As you can see here, we are using  `else if` together for the first time, for fa
 | instead of `if(feelsLikeHitByTrain == true)` | you write `if(feelsLikeHitByTrain)`  |
 | instead of `if(feelsLikeHitByTrain == false)` | you write `if(!feelsLikeHitByTrain)` |
 
-## ` >` and ` <` Greater Than or Lower Than Operators
+## `>` and `<` Greater Than or Less Than Operators
 
 In this particular case, you are comparing numbers, to find out if one of the compared numbers is greater or lesser than the other:
 
 ```js
-if(age < 16){
+if(age < 16) {
   console.log("You cannot drive");
 }
-else if(age >= 16){
+else if(age >= 16) {
   console.log("You can drive");
 }
 ```
@@ -112,9 +112,9 @@ Another great trick for faster coding is using ternaries that basically allow us
 ```js
 const flu = (feelsLikeHitByTrain && !youWereHitByTrain) ? true : false;
 ```
-In this example, the variable `flu` will only be true if ` feelsLikeHitByTrain==true` and ` youWereHitByTrain==false` are at the same time. If that question is not true, then ` flu` will be false.
+In this example, the variable `flu` will only be true if `feelsLikeHitByTrain==true` and `youWereHitByTrain==false` are at the same time. If that question is not true, then `flu` will be false.
 
-Ternaries are being used A LOT these days because they save you a lot of time, and we will also be able to use them later in jsx code (React).
+Ternaries are being used A LOT these days because they save you a lot of time, and we will also be able to use them later in `jsx` code (React).
 
 ## Conditional Rendering
 
@@ -133,4 +133,6 @@ let alertHTMLCode = (age < 16) ? "<div>Warning! You cannot drive</div>" : "";
 
 Now our `alertHTMLCode` variable will be empty if the user age is greater than 16, if it's less it will contain the entire HTML.
 
-<script async src="//jsfiddle.net/BreatheCode/bycgsnqt/7/embed/js,html,result/"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/bycgsnqt/7/embedded/html,css,js,result" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/bycgsnqt/7/embedded/html,css,js,result">Click here to open demo in a new window</a></small></div>
