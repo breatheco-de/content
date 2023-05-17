@@ -13,8 +13,8 @@ tags: ["conditionals","logical operations","if else","conditions"]
 Dominar el uso de las condiciones es una de las 5 habilidades fundamentales de construir algoritmos:
 
 1. Variables.
-2. Condicionales.
-3. Arrays y Objetos.
+2. `Condicionales`.
+3. Arrays/Objetos.
 4. Loops(Bucles).
 5. Funciones.
 
