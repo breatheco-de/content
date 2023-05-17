@@ -191,7 +191,7 @@ Una promesa no es más que el resultado de una operación asíncrona. Representa
 ***Así es como se puede crear una promesa.*** 
 
 ```javascript
-var myPomise = new Promise(function(resolve, reject) {
+let myPomise = new Promise(function(resolve, reject) {
   setTimeout(function() {
     resolve("Yo estaba resuelto");
   }, 300);
@@ -227,7 +227,7 @@ console.log(myPomise);
 		igual a la promesa resuelta.
 		
 	--- ejemeplo: 
-		var myResolvedPromise =  Promise.resolve("Yo estaba resuelto con este valor");
+		let myResolvedPromise =  Promise.resolve("Yo estaba resuelto con este valor");
 	*/
 ```
 
@@ -240,7 +240,7 @@ console.log(myPomise);
 + ***then***: este método devuelve una promesa y puede tomar hasta 2 argumentos. Una para la promesa resuelta y otra para la promesa rechazada. Arriba hay un ejemplo que usa el método ***then*** y toma un argumento.
 
 ```javascript
-	var promise =  new  Promise(function(resolve,reject){
+	let promise =  new  Promise(function(resolve,reject){
 		resolve("Estaba resuelto y puedes verme cuando usas el método.");
 	});
 	promise.then(value => console.log(value));
@@ -248,7 +248,7 @@ console.log(myPomise);
 
 + ***catch***: devuelve una promesa y se ocupa de las operaciones rechazadas. Es muy útil cuando se trata de depurar o mostrar errores.
 ```javascript
-	var promise =  new  Promise(function(resolve,reject){
+	let promise =  new  Promise(function(resolve,reject){
 		reject("Me rechazaron y puedes verme cuando usas el método catch.");
 	});
 	promise.catch(error => console.log(error));
@@ -272,7 +272,7 @@ function returnedPromiseHere() {
 }
 async function useAsyncFunction() {
   console.log("Soy una tarea rapida");
-  var result = await returnedPromiseHere();
+  let result = await returnedPromiseHere();
   console.log(result);
   console.log("Tuve que esperar a que terminara");
 }
@@ -311,9 +311,9 @@ function promise3() {
   });
 }
 async function handlingAllPromises() {
-  var first = await promise1();
-  var second = await promise2();
-  var third = await promise3();
+  let first = await promise1();
+  let second = await promise2();
+  let third = await promise3();
   
   console.log(first);
   console.log(second);
@@ -325,14 +325,14 @@ handlingAllPromises();
 #### En el ejemplo anterior, en lugar de esperar una promesa en cada nueva línea, podríamos usar el método Promise.all y esperar a que se cumplan todas las promesas.
 
 ```javascript
-	var [first, second, third] = await Promise.all([promise1(), promise2(), promise3()]);
+	let [first, second, third] = await Promise.all([promise1(), promise2(), promise3()]);
 ```
 
 ### También puedes hacer funciones asíncronas como funciones de flecha(arrow).
 
 ```javascript
 const handlingAllPromises = async () => {
-  var [first, second, third] = await Promise.all([promise1(), promise2(), promise3()]);
+  let [first, second, third] = await Promise.all([promise1(), promise2(), promise3()]);
   
   console.log(first);
   console.log(second);
