@@ -176,7 +176,7 @@ Puedes agrupar las operaciones lógicas entre paréntesis y también usar parén
 |**Operación**   |**Sintaxis**   |**Ejemplos**   |
 |:---------------|:--------------|:--------------|
 |AND             |&&             |Con AND, ambos lados TIENEN QUE SER TRUE/VERDADERO para que todo se convierta en verdadero.<br>Es (5 == 5 && 3 > 1) ? True!<br>Es ('Ramon' == 'Pedro' && 2 == 2) ? False!    |
-|OR     |\|\|     |Con OR, si cualquiera de las operaciones devuelve TRUE, entonces el resultado final será TRUE<br>Es ('Oscar' != 'Maria' OR 2 != 2)? True!<br>Es (5 == '5' AND 'Ramon' != 'Pedro') OR (2 == 2)? True!   |
+|OR     |\|\|     |Con OR, si cualquiera de las operaciones devuelve TRUE, entonces el resultado final será TRUE.<br>Es ('Oscar' != 'Maria' OR 2 != 2)? True!<br>Es (5 == '5' AND 'Ramon' != 'Pedro') OR (2 == 2)? True!   |
 |NOT     |!     |NOT será exactamente lo contrario del resultado del operador lógico:<br>Es !(5 > 5)? True!<br>Is !(True)? False!    |
 
 ## Controla el Flujo de Tu Código
