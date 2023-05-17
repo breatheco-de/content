@@ -10,7 +10,7 @@ canonical: ""
 
 ---
 
-If you are interested in learning to code efficiently but fast, you should do it in public; this is not a theory but a fact.
+If you are interested in learning to code efficiently but fast, you should do it in public; this is not a theory but a fact. "this is my change"
 
 In this article, I'm going to try to explain why it works and how you can do it.
 
