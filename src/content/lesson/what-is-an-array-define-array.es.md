@@ -4,7 +4,7 @@ subtitle: "¿Puedes trabajar con arrays? Si no puedes, no te preocupes, aquí ap
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["arreglo","matriz"]
+tags: ["arreglo","matriz","array"]
 status: "published"
 video: "https://www.loom.com/share/bb0aa485cc334afbb8ff6ef1d9c6ac5b"
 ---
