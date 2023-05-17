@@ -35,7 +35,7 @@ Cada array tiene los mismos conceptos básicos:
 
 **La longitud (length):** es el tamaño o longitud del array (cuántos elementos tiene el array).
 
-**Indice (Index):** es la posición del elemento.
+**Índice (Index):** es la posición del elemento.
 
 ![qué es un array](https://github.com/breatheco-de/content/blob/master/src/assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png?raw=true)
 
