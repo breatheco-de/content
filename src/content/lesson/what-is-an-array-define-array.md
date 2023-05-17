@@ -1,6 +1,6 @@
 ---
 title: "It's Time To Learn What is an Array"
-subtitle: "Can you work with arrays ? if you can't,  don't worry here you will learn what is an array and how to work with them"
+subtitle: "Can you work with arrays? if you can't, don't worry here you will learn what an array is and how to work with them"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
@@ -12,7 +12,7 @@ status: "published"
 ## Why are Arrays in a Separate Lesson?
 
 
-Because arrays are awesome!  You need them!  And we need to focus a lot on them in order to prepare you for real life 🙂
+Because arrays are awesome! You need them! And we need to focus a lot on them in order to prepare you for real life 🙂
 
 Mastering the use of arrays and loops is one of the 5 fundamental skills of building algorithms:
 
@@ -22,11 +22,11 @@ Mastering the use of arrays and loops is one of the 5 fundamental skills of buil
 4. `Loops`.
 5. Functions.
 
-**No no no… Wait... Arrays? What?**
+**No, no, no... Wait... Arrays? What?**
 
 An array is, normally, any list or collection of values. The rules of how to add or remove elements from that list can change from one programming language to another. But (generally) they are the only ways for developers to create elements.
 
-Arrays are the only way we have to list stuff; regardless of the application you are working with, it will always have things to list. For example, list of students, list of artists, list of transactions… anything!
+Arrays are the only way we have to list stuff; regardless of the application you are working with, it will always have things to list. For example, list of students, list of artists, list of transactions... anything!
 
 This data-type does a lot more stuff than the others. Lists are the only way to store more than one data-type in the same variable.
 
@@ -69,7 +69,7 @@ var aux = myArray[5];
 
 ## Update Items in the Array
 
-If you want, you can reset or update any item inside of an array using the index like this:
+If you want, you can reset or update any item inside an array using the index like this:
 
 ```javascript
 myArray[5] = 'Whatever value';
@@ -86,9 +86,9 @@ var myArray = ['Pedro','Juan','Maria'];
     console.log(myArray); //this will print ['Pedro','Juan','Maria','Chris'];
 ```
 
-But… what if I want to add Chris in the second position?
+But... what if I want to add Chris in the second position?
 
-Then… you need to create a new empty array and start pushing the elements in the order that you need them. In this case, it will be:
+Then... you need to create a new empty array and start pushing the elements in the order that you need them. In this case, it will be:
 
 ```javascript
 var myArray = ['Pedro','Juan','Maria'];
@@ -98,7 +98,6 @@ var myNewArray = [];
     myNewArray.push('Juan');
     myNewArray.push('Maria');
     console.log(myNewArray); //this will print ['Pedro','Chris','Juan','Maria'];
-
 ```
 
 ## Removing Elements (pop function)
@@ -159,19 +158,15 @@ var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
 
 ## Removing from an Array
 
-Variables can have different types of values. Some of them are available only in specific programming languages, but, almost all of them have the following types:
+It is possible to cut an array in pieces very fast, with the `slice` and `splice` functions.
 
-### Splice and Slice
+### Slice
 
-It is possible to cut an array in pieces very fast, with the splice and slice functions.
+Will return a new array, you have to specify the starting and ending index from where you want to cut the array.
 
-#### Slice
+### Splice
 
-Will return a new array with a smaller version of the original array. You have to specify the starting and ending index from where you want to cut the array.
-
-#### Splice
-
-Will update the current array leaving everything but the smaller version that you want to remove. You will need to specify the starting and ending indexes from where you want to remove them.
+Will update the current array, returning the items you want to retrieve. You will need to specify the starting index and how many items you want to retrieve from said index.
 
 ![what is an array define array](https://github.com/breatheco-de/content/blob/master/src/assets/images/7e098348-df50-442b-801e-ac9d098fbc09.png?raw=true)
 
