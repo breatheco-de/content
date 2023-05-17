@@ -18,7 +18,7 @@ Mastering the use of arrays and loops is one of the 5 fundamental skills of buil
 
 1. Variables.
 2. Conditionals.
-3. `Arrays`/Objects.
+3. `Arrays`.
 4. `Loops`.
 5. Functions.
 
@@ -47,9 +47,9 @@ Every array has the same basic concepts:
 These are different examples of list declarations:
 
 ```javascript
-var myArray = []; //empty list 
-var myArray = ["Apple", "Orange", "Donkey"]; //with 3 string items. 
-var myArray = new Array(1,2,3,4,5); //Don't use this! Read below to learn why. 
+let myArray = []; //empty list 
+let myArray = ["Apple", "Orange", "Donkey"]; //with 3 string items. 
+let myArray = new Array(1,2,3,4,5); //Don't use this! Read below to learn why. 
 ```
 
 > :point_up: Don't declare the Arrays with the `new Array()` syntax, it will not behave properly [click here to learn the details](https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript).
@@ -62,7 +62,7 @@ The index always must start at zero (0). That means that an Array of 2 items can
 
 ```javascript
     console.log(myArray[0]);  //This will print the 1st element in the console 
-var aux = myArray[5];
+let aux = myArray[5];
     console.log(aux); //This will print the 6th element in the console 
     console.log(myArray[myArray.length-1]);  //This will print the last element of the array.
 ```
@@ -81,7 +81,7 @@ myArray[5] = 'Whatever value';
 The only way to add a new element is at the end of the list, and you will need to use the push() function for that.
 
 ```javascript
-var myArray = ['Pedro','Juan','Maria'];
+let myArray = ['Pedro','Juan','Maria'];
     myArray.push('Chris');
     console.log(myArray); //this will print ['Pedro','Juan','Maria','Chris'];
 ```
@@ -91,8 +91,8 @@ But... what if I want to add Chris in the second position?
 Then... you need to create a new empty array and start pushing the elements in the order that you need them. In this case, it will be:
 
 ```javascript
-var myArray = ['Pedro','Juan','Maria'];
-var myNewArray = [];
+let myArray = ['Pedro','Juan','Maria'];
+let myNewArray = [];
     myNewArray.push('Pedro');
     myNewArray.push('Chris');
     myNewArray.push('Juan');
@@ -105,11 +105,11 @@ var myNewArray = [];
 Removing an element has the exact same limitations as adding an element: you can only remove an element from the last position using the pop() method. If you want to remove a different element, you will need to create a new array without that particular element.
 
 ```javascript
-var myArray = ['Pedro','Chris','Juan','Maria'];
+let myArray = ['Pedro','Chris','Juan','Maria'];
     myArray.pop();
     console.log(myArray); //this will print ['Pedro','Chris','Juan']; 
 //If you want to remove 'Chris', you need to do the following: 
-var myNewArray = [];
+let myNewArray = [];
     myNewArray.push('Pedro');
     myNewArray.push('Juan');
     myNewArray.push('Maria');
@@ -121,12 +121,12 @@ var myNewArray = [];
 The shift and unshift methods are just like push and pop but with the difference that they will only work from the very beginning of the list.
 
 ```javascript
-var myArray = ['Juan','Maria'];
+let myArray = ['Juan','Maria'];
     myArray.unshift('Pedro');
     myArray.unshift('Chris','Bob');
     console.log(myArray); //this will print ['Chris','Bob','Pedro','Juan','Maria']; 
 //If you want to remove 'Chris', you need to do the following: 
-var myArray = ['Chris','Bob','Pedro','Juan','Maria'];
+let myArray = ['Chris','Bob','Pedro','Juan','Maria'];
     myArray.shift();
     console.log(myArray); //this will print ['Bob','Pedro','Juan','Maria'];
 ```
@@ -138,7 +138,7 @@ Sometimes, when working with arrays, you will need to loop them. For example, so
 In order to create your loop you will need to use `Array.length` to get the current size of the array. Most of the time the array items change during the runtime. This is why the only way to get the size of the array will be by using the `array.length` function, like this:
 
 ```javascript
-var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
+let myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
     for (let i = 0; i < myArray.length; i++) {
     console.log(myArray[i]); //this prints the value of the item in the position i 
 }
@@ -149,8 +149,8 @@ var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
 There is a great adaptation of the **for** statement to make it loop lists or arrays, like this:
 
 ```javascript
-var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
-    for (var index in myArray) {
+let myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
+    for (let index in myArray) {
     console.log(myArray[index]);
 }
 //this prints the value of the item in the position index
@@ -179,13 +179,13 @@ Will update the current array, returning the items you want to retrieve. You wil
 
 Example:
 ```javascript
-var y = [14, 3, 3245, 234, 52, 345, 3, 45, 23, 77];
+let y = [14, 3, 3245, 234, 52, 345, 3, 45, 23, 77];
 y.splice(2,4,'a');  //returns [3245, 234, 52, 345] 
 console.log(y); // [14, 3, 'a', 3, 45, 23, 77]
 ```
 We can use this function to insert elements:
 ```javascript
-var y = [14, 3, 3245, 234, 52, 345, 3, 45, 23, 77];
+let y = [14, 3, 3245, 234, 52, 345, 3, 45, 23, 77];
 y.splice(2,0,'a');  //returns [] 
 console.log(y); // [14, 3, 'a', 3245, 234, 52, 345, 3, 45, 23, 77]
 ```
@@ -201,7 +201,7 @@ It is very common needing to sort arrays. For example, sorting a list of student
 They do the same, except the reverse does it backward. They both sort using string comparison logic – which means that the string "25" is bigger than "100", because "2" is bigger than "1".
 
 ```javascript
-var fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
     fruits.sort();
     console.log(fruits); //[ 'Apple', 'Banana', 'Mango', 'Orange' ] 
     fruits.reverse();
@@ -215,7 +215,7 @@ If you want to sort real numbers, or if you want to use any other type of login 
 You have to define a function that will take care of the comparisons. The sort function will call your function on each comparison and will let your function decide who comes first between both of the elements that are being compared.
 
 ```javascript
-var points = [40, 100, 1, 5, 25, 10];
+let points = [40, 100, 1, 5, 25, 10];
     points.sort(function(a, b){return a – b});
     console.log(points); //[ 1, 5, 10, 25, 40, 100 ]
 ```
@@ -225,7 +225,7 @@ var points = [40, 100, 1, 5, 25, 10];
 Now that we know about the comparison function, we can use it to tell the sort function how to sort our own special objects, like here for example:
 
 ```javascript
-var cars = [
+let cars = [
     {type:"Volvo", year:2016},
     {type:"Saab", year:2001},
     {type:"BMW", year:2010}];
