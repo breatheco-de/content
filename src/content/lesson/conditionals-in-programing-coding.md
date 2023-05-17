@@ -32,7 +32,7 @@ Let's say we are building a program to help us pick what to wear, and we hate th
 And this is how we would write this in Javascript:
 
 ```js
-if (color != 'blue') {
+if(color != 'blue') {
     //any code here will run when the color is different than blue
 }
 else {
