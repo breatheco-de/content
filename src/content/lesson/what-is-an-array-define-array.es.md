@@ -17,7 +17,7 @@ Dominar el uso de los `arrays` y `bucles` es una de las 5 habilidades fundamenta
 
 1. Variables.
 2. Condicionales.
-3. `Arrays (Arreglos)`/Objetos.
+3. `Arrays (Arreglos)`.
 4. `Loops (Bucles)`.
 5. Funciones.
 
@@ -46,9 +46,9 @@ Cada array tiene los mismos conceptos básicos:
 Hay muchas formas de declarar un arreglo o lista: 
 
 ```javascript
-var myArray = []; //lista vacia
-var myArray = ["Apple", "Orange", "Donkey"]; //con 3 elementos tipo string.
-var myArray = new Array(1,2,3,4,5); //¡No uses esto! Lee a continuación para saber por qué.
+let myArray = []; //lista vacia
+let myArray = ["Apple", "Orange", "Donkey"]; //con 3 elementos tipo string.
+let myArray = new Array(1,2,3,4,5); //¡No uses esto! Lee a continuación para saber por qué.
 ```
 
 
@@ -62,7 +62,7 @@ El índice siempre debe comenzar en cero (0). Esto significa que una matriz de 2
 
 ```javascript
     console.log(myArray[0]); //Esto imprimirá el 1er elemento en la consola.
-var aux = myArray[5];
+let aux = myArray[5];
     console.log(aux); //Esto imprimirá el 6to elemento en la consola.
     console.log(myArray[myArray.length-1]); //Esto imprimirá el último elemento de la lista.
 ```
@@ -80,7 +80,7 @@ myArray[5] = 'cualquier valor';
 La única forma de agregar un nuevo elemento es al final de la lista, y deberás usar la función push() para eso.
 
 ```javascript
-var myArray = ['Pedro','Juan','Maria'];
+let myArray = ['Pedro','Juan','Maria'];
     myArray.push('Chris');
     console.log(myArray); //esto imprimirá ['Pedro','Juan','Maria','Chris'];
 ```
@@ -90,8 +90,8 @@ Pero… ¿Y si quiero agregar a Chris en la segunda posición?
 Entonces… necesitas crear un nuevo arreglo vacío y comenzar a empujar los elementos en el orden en que los necesitas. En este caso será:
 
 ```javascript
-var myArray = ['Pedro','Juan','Maria'];
-var myNewArray = [];
+let myArray = ['Pedro','Juan','Maria'];
+let myNewArray = [];
     myNewArray.push('Pedro');
     myNewArray.push('Chris');
     myNewArray.push('Juan');
@@ -105,11 +105,11 @@ var myNewArray = [];
 Eliminar un elemento tiene exactamente las mismas limitaciones que al agregar un elemento: solo puedes eliminar un elemento de la última posición con el método pop(). Si deseas eliminar un elemento diferente, deberás crear un nuevo array sin ese elemento en particular.
 
 ```javascript
-var myArray = ['Pedro','Chris','Juan','Maria'];
+let myArray = ['Pedro','Chris','Juan','Maria'];
     myArray.pop();
     console.log(myArray); //esto imprimirá ['Pedro','Chris','Juan']; 
 //Si deseas eliminar 'Chris', necesitas hacer lo siguiente: 
-var myNewArray = [];
+let myNewArray = [];
     myNewArray.push('Pedro');
     myNewArray.push('Juan');
     myNewArray.push('Maria');
@@ -121,12 +121,12 @@ var myNewArray = [];
 Los métodos shift y unshift son como push y pop con la diferencia de que solo funcionan desde el principio de la lista.
 
 ```javascript
-var myArray = ['Juan','Maria'];
+let myArray = ['Juan','Maria'];
     myArray.unshift('Pedro');
     myArray.unshift('Chris','Bob');
     console.log(myArray); //esto imprimirá ['Chris','Bob','Pedro','Juan','Maria']; 
 //Si deseas eliminar 'Chris', necesitas hacer lo siguiente: 
-var myArray = ['Chris','Bob','Pedro','Juan','Maria'];
+let myArray = ['Chris','Bob','Pedro','Juan','Maria'];
     myArray.shift();
     console.log(myArray); //esto imprimirá ['Bob','Pedro','Juan','Maria'];
 ```
@@ -138,7 +138,7 @@ A veces, cuando trabajes con arrays, tendrás que hacer un bucle. Por ejemplo, o
 Para crear tu bucle, necesitarás usar `Array.length` para obtener el tamaño actual del array. La mayoría de las veces, los elementos del arreglo cambian durante el tiempo de ejecución. Esta es la razón por la que la única forma de obtener el tamaño del array será usar la función `array.length`, así:
 
 ```javascript
-var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
+let myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
     for (i = 0; i < myArray.length; i++) {
     console.log(myArray[i]); //esto imprimirá el valor del elemento en la posición i
 }
@@ -152,8 +152,8 @@ var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
 Hay una gran adaptación de la sentencia **for** para iterar listas o arrays, así:
 
 ```javascript
-var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
-    for (var index in myArray) {
+let myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
+    for (let index in myArray) {
     console.log(myArray[index]);
 }
 //Esto imprime el valor del elemento en la posición index.
@@ -181,13 +181,13 @@ Actualiza el array actual, devolviendo los elementos que se desean obtener. Debe
 
 Ejemplo:
 ```javascript
-var y = [14, 3, 3245, 234, 52, 345, 3, 45, 23, 77];
+let y = [14, 3, 3245, 234, 52, 345, 3, 45, 23, 77];
 y.splice(2,4,'a');  //devuelve [3245, 234, 52, 345] 
 console.log(y); // [14, 3, 'a', 3, 45, 23, 77]
 ```
 Podemos usar esta función para insertar elementos:
 ```javascript
-var y = [14, 3, 3245, 234, 52, 345, 3, 45, 23, 77];
+let y = [14, 3, 3245, 234, 52, 345, 3, 45, 23, 77];
 y.splice(2,0,'a');  //devuelve [] 
 console.log(y); // [14, 3, 'a', 3245, 234, 52, 345, 3, 45, 23, 77]
 ```
@@ -203,7 +203,7 @@ Es muy común la necesidad de ordenar arrays. Por ejemplo: ordenar una lista de 
 Hacen lo mismo, excepto que Reverse lo hace al revés. Ambos ordenan usando la lógica de comparación de string, lo que significa que el string "25" es más grande que "100", porque "2" es más grande que "1".
 
 ```javascript
-var frutas = ["Banana", "Orange", "Apple", "Mango"];
+let frutas = ["Banana", "Orange", "Apple", "Mango"];
     frutas.sort();
     console.log(frutas); //[ 'Apple', 'Banana', 'Mango', 'Orange' ]
     frutas.reverse();
@@ -217,7 +217,7 @@ Si quieres ordenar números reales, o si deseas usar otro método para ordenar a
 Tienes que definir una función que se encargue de las comparaciones. La función sort llamará a tu función en cada comparación y permitirá que tu función decida quién es el primero entre los dos elementos que se comparan.
 
 ```javascript
-var puntos = [40, 100, 1, 5, 25, 10];
+let puntos = [40, 100, 1, 5, 25, 10];
     puntos.sort(function(a, b){return a – b});
     console.log(puntos); //[ 1, 5, 10, 25, 40, 100 ]
 ```
@@ -227,7 +227,7 @@ var puntos = [40, 100, 1, 5, 25, 10];
 Ahora que conocemos la función de comparación, podemos usarla para indicar a la función sort cómo ordenar nuestros propios objetos especiales, como aquí por ejemplo:
 
 ```javascript
-var autos = [
+let autos = [
     {tipo:"Volvo", año:2016},
     {tipo:"Saab", año:2001},
     {tipo:"BMW", año:2010}];
