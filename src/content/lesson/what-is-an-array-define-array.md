@@ -190,7 +190,7 @@ y.splice(2,0,'a');  //returns []
 console.log(y); // [14, 3, 'a', 3245, 234, 52, 345, 3, 45, 23, 77]
 ```
 
-[Take a look at the docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+[Take a look at the docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice).
 
 ## Sorting the Arrays
 
