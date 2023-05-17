@@ -28,7 +28,7 @@ An array is, normally, any list or collection of values. The rules of how to add
 
 Arrays are the only way we have to list stuff; regardless of the application you are working with, it will always have things to list. For example, list of students, list of artists, list of transactions... anything!
 
-This data-type does a lot more stuff than the others. Lists are the only way to store more than one data-type in the same variable.
+This data-type does a lot more stuff than the others. Lists are one of the only ways to store more than one data-type in the same variable.
 
 Every array has the same basic concepts:
 
