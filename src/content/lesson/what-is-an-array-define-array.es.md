@@ -61,9 +61,9 @@ Para acceder a un elemento específico en una lista, necesitas el `index`. Llama
 El índice siempre debe comenzar en cero (0). Esto significa que una matriz de 2 elementos puede tener `index=0` o `index=1`. Intentar obtener la segunda posición devolverá "indefinido" porque significará que estamos intentando acceder al tercer elemento (que no existe). Por ejemplo, para obtener cualquier elemento en la matriz, puedes hacer lo siguiente:
 
 ```javascript
-    console.log(myArray[0]); //Esto imprimirá el 1er elemento en la consola.
+    console.log(myArray[0]); // Esto imprimirá el 1er elemento en la consola.
 let aux = myArray[5];
-    console.log(aux); //Esto imprimirá el 6to elemento en la consola.
+    console.log(aux); // Esto imprimirá el 6to elemento en la consola.
     console.log(myArray[myArray.length-1]); //Esto imprimirá el último elemento de la lista.
 ```
 
@@ -73,7 +73,7 @@ Si lo deseas, puedes restablecer o actualizar cualquier elemento dentro de un ar
 
 ```javascript
 myArray[5] = 'cualquier valor';
-//Esto establecerá el valor 'cualquier valor' en el sexto elemento del array.
+// Esto establecerá el valor 'cualquier valor' en el sexto elemento del array.
 ```
 ## Añadiendo elementos (función push)
 
@@ -113,7 +113,7 @@ let myNewArray = [];
     myNewArray.push('Pedro');
     myNewArray.push('Juan');
     myNewArray.push('Maria');
-    console.log(myNewArray); //esto imprimirá ['Pedro','Juan','Maria'];
+    console.log(myNewArray); // esto imprimirá ['Pedro','Juan','Maria'];
 ```
 
 ## Eliminando/Añadiendo desde el Principio
@@ -203,16 +203,16 @@ Es muy común la necesidad de ordenar arrays. Por ejemplo: ordenar una lista de 
 Hacen lo mismo, excepto que Reverse lo hace al revés. Ambos ordenan usando la lógica de comparación de string, lo que significa que el string "25" es más grande que "100", porque "2" es más grande que "1".
 
 ```javascript
-let frutas = ["Banana", "Orange", "Apple", "Mango"];
+let frutas = ['Banana', 'Orange', 'Apple', 'Mango'];
     frutas.sort();
-    console.log(frutas); //[ 'Apple', 'Banana', 'Mango', 'Orange' ]
+    console.log(frutas); // ['Apple', 'Banana', 'Mango', 'Orange']
     frutas.reverse();
-    console.log(frutas); //[ 'Orange', 'Mango', 'Banana', 'Apple' ]
+    console.log(frutas); // ['Orange', 'Mango', 'Banana', 'Apple']
 ```
 
 ### Ordenando números
 
-Si quieres ordenar números reales, o si deseas usar otro método para ordenar arrays, debes usar una "función de comparación".
+Si quieres ordenar números reales, o si deseas ordenar arrays de manera diferente, debes usar una "función de comparación".
 
 Tienes que definir una función que se encargue de las comparaciones. La función sort llamará a tu función en cada comparación y permitirá que tu función decida quién es el primero entre los dos elementos que se comparan.
 
@@ -228,9 +228,9 @@ Ahora que conocemos la función de comparación, podemos usarla para indicar a l
 
 ```javascript
 let autos = [
-    {tipo:"Volvo", año:2016},
-    {tipo:"Saab", año:2001},
-    {tipo:"BMW", año:2010}];
+    {tipo:'Volvo', año:2016},
+    {tipo:'Saab', año:2001},
+    {tipo:'BMW', año:2010}];
     autos.sort(function(a, b){return a.año – b.año});
     console.log(autos); //[ { tipo: 'Saab', año: 2001 },{ tipo: 'BMW', año: 2010 },{ tipo: 'Volvo', año: 2016 } ]
 ```
