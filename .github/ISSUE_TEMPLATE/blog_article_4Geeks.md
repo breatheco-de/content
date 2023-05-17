@@ -7,6 +7,14 @@ assignees: ''
 
 ---
 
+## Article Structure:
+
+- 
+
+## Language:
+
+
+
 ## Meta Info
 
 - Number of words: `<Add here>` (recomendations: ~800 words for standard articles, 1500+ for topic cluster articles).
