@@ -210,7 +210,7 @@ let fruits = ["Banana", "Orange", "Apple", "Mango"];
 
 ### Sorting Numbers
 
-If you want to sort real numbers, or if you want to use any other type of login to sort arrays, you have to use a "comparison function."
+If you want to sort real numbers, or if you want to use any other type of sorting to sort arrays, you have to use a "comparison function."
 
 You have to define a function that will take care of the comparisons. The sort function will call your function on each comparison and will let your function decide who comes first between both of the elements that are being compared.
 
