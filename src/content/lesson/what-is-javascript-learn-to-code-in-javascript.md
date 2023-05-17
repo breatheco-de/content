@@ -11,9 +11,9 @@ tags: ["javascript"]
 
 ## But, What is coding?
 
-**Coding is not HTML, CSS or Position and Display…** Those languages were not designed for developers, they are just the way we have to render stuff in a browser.
+**Coding is not HTML, CSS or Position and Display...** Those languages were not designed for developers, they are just the way we have to render stuff in a browser.
 
-**Coding is making *the computer* "obey"…**
+**Coding is making *the computer* "obey"...**
 
 Everybody uses computers for different reasons: some computers are created to help people in their office (like personal computers), others to keep a room at a specific temperature (like [the NEST](https://nest.com/es/)), others are made to walk on Mars and so many more tasks.
 
@@ -35,15 +35,15 @@ var age = 24;
 
 ![what is javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif?raw=true)
 
-With virtually any programming language you can create as many variables as you want or need. To start, you have to **declare that variable’s name** using the term: *var* followed by a _unique_ name (relative to the document-project).
+With virtually any programming language you can create as many variables as you want or need. To start, you have to **declare that variable’s name** using the term: `var` followed by a _unique_ name (relative to the document-project).
 
-The **variable name** is the most effective way we have to describe the variable content, so use it wisely. It is important to choose a name that clearly tells you (and other coders) about the data that is being stored in the variable. If we choose a bad or ambiguous name, our code will be almost impossible to understand, ergo it becomes unusable. For example, let’s say we change the name of our "age" variable to `a`, that would be:
+The **variable's name** is the most effective way we have to describe the variable's content, so use it wisely. It is important to choose a name that clearly tells you (and other coders) about the data that is being stored in the variable. If we choose a bad or ambiguous name, our code will be almost impossible to understand, ergo it becomes unusable. For example, let’s say we change the name of our "age" variable to `a`, that would be:
 
 ```javascript
 var a = 24 ;
 ```
 
-As you can see above, the new variable name does not tell us anything about the data that is being stored and why we are using it.
+As you can see above, the new variable's name does not tell us anything about the data that is being stored and why we are using it.
 
 Choosing the name for your variable really matters, so we beg you not to use generic names. Be descriptive! A vague name will make it difficult to understand the purpose of the variable, especially for other coders (including your future self).
 
@@ -56,14 +56,14 @@ var a = 24;
   a = 25;
   a = 80;
 
-var b ;
-  b = 9 ;
-  b = 108 ;
+var b;
+  b = 9;
+  b = 108;
 ```
 
 ### `var` vs.  `let`  vs. `const`
 
-As we learned above, we use the keyword `var` to declare a variable. There are two other keywords that we can also use to declare variables: ***const & let*** . The main difference between these types of variables has to do with scope.
+As we learned above, we use the keyword `var` to declare a variable. There are two other keywords that we can also use to declare variables: ***const & let***. The main difference between these types of variables has to do with scope.
 
 ***Const***: This keyword is used when the value stays constant throughout the life of the script. The value of the variable declared with this keyword can never be changed. If you try to change it, it will result in an error.
 
@@ -71,9 +71,9 @@ As we learned above, we use the keyword `var` to declare a variable. There are t
 
 ***Var***: Its scope is within the function in which it is declared in. This means that the variable will stay the same throughout the whole function even if there is more than one block of code in the function.
 
-> :link: [Read more about `*var*`, `*let*`, and `*const*`](http://wesbos.com/let-vs-const/)
+> :link: [Read more about `var`, `let`, and `const`](http://wesbos.com/let-vs-const/)
 
-Variable values are subject to change over time. To retrieve a variable's value you can print the value on the screen at any time. Each language has its own methods to print; this is how you do it in JavaScript:
+Variable's values are subject to change over time. To retrieve a variable's value you can print the value on the screen at any time. Each language has its own methods to print; this is how you do it in JavaScript:
 
 <iframe src="https://repl.it/F0R2/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
@@ -83,7 +83,7 @@ Variable values are subject to change over time. To retrieve a variable's value 
 
 Variables can have different types of values. Some of them are available only in specific programming languages, but almost all of them have the following types:
 
-|**Data-Type**   |**Posible Values**   |**Description**   |
+|**Data-Type**   |**Possible Values**   |**Description**   |
 |:---------------|:--------------------|:-----------------|
 |Boolean         |True \| False         |Booleans are meant for logical operations.  If you ask a computer something like: "Does X equal 3?"  It will answer with a boolean (true or false).    |
 |String        |Any series of characters     |Strings are the only way we have to store words (series of characters).  Note: strings need to be encased within quotation marks.    |
@@ -108,7 +108,7 @@ What operations can I do to variables? Depending on the data-type you have a few
 
 ## Functions
 
-Functions are pieces of code that can be re-used several times during runtime regardless of their position in the code. There are hundreds of reasons to use functions, but here are the 2 most important ones:
+Functions are pieces of code that can be re-used several times during runtime, regardless of their position in the code. There are hundreds of reasons to use functions, but here are the 2 most important ones:
 
 + Divide and conquer: It is always easier to split your problems into several smaller problems. This will become your biggest challenge when solving complex problems. Functions will be your best tools for abstraction.
 + Re-use: Any normal development will take at least 5,000 lines of code. It is redundant and inefficient to keep writing the same code over and over again.
@@ -126,14 +126,10 @@ Then, you will open a curly bracket and write the code that your function must a
 ![learn to code in javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif?raw=true)
 
 ```javascript
-function multiply (param1, param2)
-{
+function multiply (param1, param2) {
     return (param1 * param2);
 }
 ```
-<iframe src="https://repl.it/F10t/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
-
-<div align="right"><small><a href="https://repl.it/F10t/0?lite=true">Click to open demo in a new window</a></small></div>
 
 ## Parameters and Function Scope
 
@@ -177,7 +173,7 @@ You can group the logical operations in parentheses, and also use nested parenth
 |**Operation**   |**Syntaxis**   |**Examples**   |
 |:---------------|:--------------|:--------------|
 |AND             |&&             |With AND, both sides HAVE TO BE TRUE in order for everything to become true.<br>Is (5 == 5 && 3 > 1) ? True!<br>Is ('Ramon' == 'Pedro' && 2 == 2) ? False!    |
-|OR     |\|\|     |Is ('Oscar' != 'Maria' OR 2 != 2)? True!<br>Is (5 == '5' AND 'Ramon' != 'Pedro') OR (2 == 2)? True!   |
+|OR     |\|\|     |With OR, if any of the operations return TRUE, then the final output will be TRUE.<br>Is ('Oscar' != 'Maria' OR 2 != 2)? True!<br>Is (5 == '5' AND 'Ramon' != 'Pedro') OR (2 == 2)? True!   |
 |NOT     |!     |NOT will be the exact opposite of the result of the logical operator:<br>Is !(5 > 5)? True!<br>Is !(True)? False!    |
 
 ## Control the Flow of Your Code
@@ -191,7 +187,7 @@ The first tool you have is the `if…else` conditional. It is very easy; you can
 The `if` statement allows you to execute a piece of code if certain conditions are met (or are true). The "else" statement will execute an alternate piece of code in case the condition is false.
 
 ```javascript
-if (number < 18) {
+if (number > 18) {
     document.write("Hello");
 } else {
      document.write("Good bye!");
@@ -228,13 +224,14 @@ console.log("Sum = " + sum);
 
 ## For
 
-`For` is similar to `while,` with the only difference being that you have to specify the stopping condition from the beginning. For that reason, `for` is a little more organized and easier to understand.
+`for` is similar to `while`, with the only difference being that you have to specify the stopping condition from the beginning. For that reason, `for` is a little more organized and easier to understand.
 
 ***Note: When looping, make sure that the statement will eventually return false so that you avoid an infinite loop. In an infinite loop, the code executes indefinitely and will cause your browser to crash.***
 
-<iframe width="578" height="325" src="https://www.youtube.com/embed/TSMzvFwpE_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/TSMzvFwpE_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <div align="right"><small><a href="https://www.youtube.com/embed/TSMzvFwpE_A">Click here to open video in a new window</a></small></div>
+<br>
 
 
 ```javascript
@@ -243,19 +240,19 @@ for (var i = 0; i < 10; i++) {
 }
 ```
 
-## For..in
+## For…in
 
-`For…in` loops can be used to loop through the properties of an object.  Within the parentheses, you can set any name to represent the information within the object, and then include the name of the object:
+`For…in` loops can be used to loop through the properties of an object. Within the parentheses, you can set any name to represent the information within the object, and then include the name of the object:
 
-for (var in object)<br> {
-code block to be executed
+> for (*var* in *object*) {<br>
+code block to be executed<br>
 }
 
 ```javascript
 var dog = {
   species: "Great Dane",
   size: "Extra Large",
-  age: 3 ,
+  age: 3,
   name: "Rocky"
 
 }
@@ -265,18 +262,9 @@ for(items in dog){
 }
 ```
 
-## So.. Tell me, did you like coding?
+## So... Tell me, did you like coding?
 
-Coding is like Taco Bell: you always use the same ingredients, except they are just mixed in different ways. You know how to write code, but… Do you know how to solve real problems?
-
-
-
-
-
-
-
-
-
+Coding is like Taco Bell: you always use the same ingredients, except they are just mixed in different ways. You know how to write code, but... Do you know how to solve real problems?
 
 
 
