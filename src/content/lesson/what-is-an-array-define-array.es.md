@@ -27,7 +27,7 @@ Un array es, normalmente, cualquier lista o colección de valores. Las reglas so
  
 Los arrays son la única forma que tenemos para enumerar cosas; independientemente de la aplicación con la que estés trabajando, siempre tendrás cosas que enumerar. Por ejemplo, lista de estudiantes, lista de artistas, lista de transacciones... ¡Cualquier cosa!
 
-Este tipo de datos hace muchas más cosas que los otros. Las listas son la única forma de almacenar más de un tipo de dato en la misma variable.
+Este tipo de datos hace muchas más cosas que los otros. Las listas son una de las pocas maneras de almacenar más de un tipo de dato en la misma variable.
 
 Cada array tiene los mismos conceptos básicos:
 
