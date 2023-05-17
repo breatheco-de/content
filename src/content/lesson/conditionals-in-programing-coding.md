@@ -33,10 +33,10 @@ And this is how we would write this in Javascript:
 
 ```js
 if(color != 'blue') {
-    //any code here will run when the color is different than blue
+    // any code here will run when the color is different than blue
 }
 else {
-    //it will only run this code if the color is blue.
+    // it will only run this code if the color is blue.
 }
 ```
 
