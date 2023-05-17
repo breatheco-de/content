@@ -48,7 +48,7 @@ These are different examples of list declarations:
 
 ```javascript
 var myArray = []; //empty list 
-var myArray = ["Apple", "Orange", "Donkey"]; //with 3 string items by default. 
+var myArray = ["Apple", "Orange", "Donkey"]; //with 3 string items. 
 var myArray = new Array(1,2,3,4,5); //Don't use this! Read below to learn why. 
 ```
 
