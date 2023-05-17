@@ -173,7 +173,7 @@ You can group the logical operations in parentheses, and also use nested parenth
 |**Operation**   |**Syntaxis**   |**Examples**   |
 |:---------------|:--------------|:--------------|
 |AND             |&&             |With AND, both sides HAVE TO BE TRUE in order for everything to become true.<br>Is (5 == 5 && 3 > 1) ? True!<br>Is ('Ramon' == 'Pedro' && 2 == 2) ? False!    |
-|OR     |\|\|     |With OR, if any of the operations return TRUE, then the final output will be TRUE<br>Is ('Oscar' != 'Maria' OR 2 != 2)? True!<br>Is (5 == '5' AND 'Ramon' != 'Pedro') OR (2 == 2)? True!   |
+|OR     |\|\|     |With OR, if any of the operations return TRUE, then the final output will be TRUE.<br>Is ('Oscar' != 'Maria' OR 2 != 2)? True!<br>Is (5 == '5' AND 'Ramon' != 'Pedro') OR (2 == 2)? True!   |
 |NOT     |!     |NOT will be the exact opposite of the result of the logical operator:<br>Is !(5 > 5)? True!<br>Is !(True)? False!    |
 
 ## Control the Flow of Your Code
