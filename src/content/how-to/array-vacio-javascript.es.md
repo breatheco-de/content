@@ -29,7 +29,7 @@ Existen ocasiones en Javascript en las que necesitamos vaciar un array o verific
 
 ## ¿Cómo comprobar que un array está vacío en Javascript?
 
-Sin duda la forma más segura de comprobar si un array está vacío es accediendo a la propiedad **length** del array. 
+Sin duda, la forma más segura de comprobar si un array está vacío es accediendo a la propiedad **length** del array. 
 
 ```js
 let n = [];
@@ -41,7 +41,7 @@ if ( Array.isArray(n) && n.length === 0 ) {
 };
 ```
 
-En este ejemplo primero verificamos que el array sea de **tipo** array con la expresión `Array.isArray(n)` ya que si fuese de otro tipo de dato por ejemplo un objeto **no** podríamos acceder a la propiedad **length**, luego verificamos que el array está vacío con la expresión `n.length === 0`.
+En este ejemplo primero verificamos que el array sea de **tipo** array con la expresión `Array.isArray(n)`, ya que si fuese de otro tipo de dato, por ejemplo un objeto **no** podríamos acceder a la propiedad **length**, luego verificamos que el array está vacío con la expresión `n.length === 0`.
 
 ## ¿Cómo vaciar un array en Javascript?
 
@@ -56,7 +56,7 @@ n.length = 0
 console.log( n ) // []
 ```
 
-la forma mas eficiente en terminos de ejecución a la hora de vaciar un array en Javascript es accediendo a la propiedad **length** del array y asignando el valor 0 esto borra todos los elementos del array y lo deja completamente vacío.
+La forma más eficiente en términos de ejecución a la hora de vaciar un array en Javascript es accediendo a la propiedad **length** del array y asignando el valor 0 esto borra todos los elementos del array y lo deja completamente vacío.
 
 ### Asignarle un nuevo array vacío
 
@@ -73,7 +73,7 @@ console.log(n) // (output) []
 console.log(m) // (output) TypeError: Assignment to constant variable.
 ```
 
-En este ejemplo le asignamos un nuevo array vacío ` [] ` a el array **n** lo cual elimina todos los elementos que tenía.
+En este ejemplo le asignamos un nuevo array vacío ` [] ` al array **n** lo cual elimina todos los elementos que tenía.
 
 > Es importante tener en cuenta que si usas la palabra reservada **const** para crear el array, esta sintaxis no funcionará para vaciar el array ya que las **constantes** no pueden ser modificadas como en el ejemplo del array **m**.
 
@@ -110,4 +110,4 @@ console.log(n)  // (output) [];
 
 Esta es otra forma en la que puedes vaciar un array en Javascript. Haciendo uso del método [pop](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/pop) y la estructura de bucle `while()` elimina todos los elementos del array uno por uno.
 
-En todos los ejemplos anteriores los elementos se eliminan del array pero no del espacio en memoria, estos elemento siguen estando en la memoría local pero al no tener ninguna referencia el recolector de basura **garbage collection** de javascript los termina eliminando. Es importante tener esto en cuenta ya que tener elementos en memoría pero sin referencia podría ralentizar la ejecución de tu código.
+En todos los ejemplos anteriores los elementos se eliminan del array, pero no del espacio en memoria, estos elementos siguen estando en la memoria local, pero al no tener ninguna referencia el recolector de basura **garbage collection** de javascript los termina eliminando. Es importante tener esto en cuenta, ya que tener elementos en memoria, pero sin referencia, podría ralentizar la ejecución de tu código.
