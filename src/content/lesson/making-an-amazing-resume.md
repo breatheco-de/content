@@ -22,7 +22,7 @@ Below is an example of a great resume for you first coding job, during this arti
 
 Previous experience makes everything, you need to be able to add some into your resume to look better, and this is an example of how your freelance job could look like:
 
-```
+```txt
 Title: 
 Freelance Web Developer at MyCompany Media
 
@@ -69,19 +69,19 @@ Each of your projects must have:
 
 These are the most important most wanted technologies:
 
-```
+```txt
 HTML5/CSS3, Bootstrap, Javascript ECMAScript 2020, Node.js, GIT/Github, Python, Flask, API's, React.js, Flux, SCRUM, SQL, SQLAlchemy, MySQL, Postgress API's
 ```
 
 You also learned these secondary technologies that my be use-full depending on what company you are applying to:
 
-```
+```txt
 Heroku, Markdown, Use Stories, Data-Structures, Data-Modeling, REST, MVC, Event oriented programing, The DOM.
 ```
 
 Additionally these are good technologies that we don't teach during the 16 weeks but will be easy to learn and add a lot of value to your resume:
 
-```
+```txt
 Unit testing, jQuery, Gatsby.js, SSR, AWS, Firbase, WordPress, React Native.
 ```
 
