@@ -1,6 +1,7 @@
 ## Expresiones regulares PHP
 
-> Validar un correo electrónico con expresiones regulares en PHP
+Las expresiones regulares en PHP se pueden utilizar para la validación y extracción de datos, la manipulación de cadenas y más! Aquí hay un ejemplo del uso de expresiones regulares en PHP para validar un correo electrónico:
+
 ```php
 $patron = "/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/";
 $correo = "ejemplo@email.com";
@@ -11,6 +12,7 @@ if (preg_match($patron, $correo)) {
     echo("El correo electrónico es invalido");
 };
 ```
+
 Este código es un buen ejemplo del uso que le puedes dar a las expresiones regulares en **php**, este ejemplo utiliza un estructura condicional `if()` para comprobar si una cadena de texto coincide con el patrón de un **correo electrónico**, de ser así entra en la estructura condicional de lo contrario significa que la cadena de texto no coincide con el patrón de **expresiones regulares**.
 
 ## ¿Qué son las expresiones regulares en PHP?
