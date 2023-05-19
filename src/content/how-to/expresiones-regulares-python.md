@@ -1,8 +1,23 @@
 # Expresiones Regulares Python
 
-Si eres programador seguramente has utilizado operaciones de búsqueda de subcadenas. Sin embargo, estas operaciones pueden volverse limitadas cuando se trata de patrones más complejos. Aquí es donde las expresiones regulares toman importancia. Las expresiones regulares son patrones de búsqueda que se utilizan para encontrar coincidencias en cadenas de texto. En este artículo, aprenderemos sobre las expresiones regulares en Python, desde su sintaxis básica hasta su aplicación en casos de uso comunes.
+Si eres programador seguramente has utilizado operaciones de búsqueda de subcadenas. Sin embargo, estas operaciones pueden volverse limitadas cuando se trata de patrones más complejos. Aquí es donde las expresiones regulares toman importancia. Las expresiones regulares son patrones de búsqueda que se utilizan para encontrar coincidencias en cadenas de texto.
 
-Las expresiones regulares, también conocidas como **RegExp**, son secuencias de caracteres que definen un patrón de búsqueda. En Python, las expresiones regulares se implementan a través del módulo **re**, el cual proporciona una amplia gama de métodos para trabajar con ellas. Estas expresiones son fundamentales para realizar búsquedas y manipular texto de manera eficiente.
+En este artículo, aprenderemos sobre las expresiones regulares en Python, desde su sintaxis básica hasta su aplicación en casos de uso comunes.En Python, las expresiones regulares se implementan a través del módulo **re**, el cual proporciona una amplia gama de métodos para trabajar con ellas.
+
+Un ejemplo sencillo de expresión regular en Python es aquel que busca todas las coincidencias de una letra específica en una cadena de texto
+
+```python
+import re
+
+texto = "El perro está en la calle"
+patron = "e"
+
+coincidencias = re.findall(patron, texto)
+print(coincidencias)  # ['e', 'e', 'e', 'e']
+
+```
+
+En este ejemplo, utilizamos la función findall() del módulo re para buscar todas las coincidencias de nuestra expresión regular en el texto. En este caso, buscamos todas las letras "e" en el texto y encontramos 4 coincidencias.
 
 
 ## Metacaracteres en expresiones regulares
