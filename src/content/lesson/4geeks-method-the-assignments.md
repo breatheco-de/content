@@ -5,7 +5,7 @@ tags: ["4geeks method"]
 
 ---
 
-## Why is this lesson here?
+## Why is this lesson here??
 If you fully understand how our methodology works, what to expect about the projects you deliver, and why they are so important, you'll be more motivated to do the work and take advantage of it. 
 
 ## Why build projects?
