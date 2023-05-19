@@ -187,7 +187,7 @@ nano path/to/the/textfile.txt
 #opens a text editor to start editing the content of textfile.txt 
 #if textfile.txt does not exist, it will create it!
 ```
-When nano opens, it will show a top bar with the current version of the nano application; the name of the file being edited; and, a status telling you if the files were modified or not.
+When nano opens, it will show a top bar with the current version of the nano application; the name of the file being edited; and a status telling you if the files were modified or not.
 
 At the bottom you will see the most often used commands in nano such as: exit, where is, get help, etc.
 
