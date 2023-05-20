@@ -24,7 +24,7 @@ myString.substring(indiceInicial, indiceFinal)
 
 ```
 
-### Donde:
+#### Donde:
 
 `indiceInicial` : Es la posición inicial de la porción que se desea extraer
 
@@ -61,7 +61,7 @@ console.log(myString.substring(1, 6)); // Consola: geeks
 
 La propiedad length, que tienen todos los objetos de tipo String, puede ser de mucha utilidad cuando estamos aplicando el método `substring()` ya que no necesitamos saber cual es la cantidad de posiciones entre el inicio de la cadena y la posición donde queremos iniciar la extracción, sino únicamente la cantidad de caracteres que queremos extraer al final de la cadena.
 
-Por ejemplo, si únicamente me interesan los últimos 6 caracteres :
+Por ejemplo, si únicamente nos interesan los últimos 6 caracteres :
 
 ```js
 let firstString = "Academia 4geeks";
@@ -78,3 +78,31 @@ console.log(thirdString.substring(thirdString.length - indiceInicial)); // Conso
 
 ```
 
+  
+### Otros ejemplos  
+
+```js
+let myString = "4geeks Academy";
+
+// Si queremos obtener unicamente el primer caracter
+let first_result = myString.substring(0, 1); 
+console.log(first_result); // Consola: 4
+
+// En el siguiente código extraemos los últimos 3 caracteres de la cadena
+let second_result = myString.substring(myString.length - 3);
+console.log(second_result); // Consola: emy
+
+// En el siguiente código extraemos el caracter en la posición myString.length -8
+let third_result = myString.substring(myString.length - 9, myString.length - 8)
+console.log(third_result) // Consola: s
+
+// En el siguiente código extraemos el caracter en el medio de la cadena
+let middleIndex = myString.length / 2
+let forth_result = myString.substring(middleIndex, middleIndex + 1)
+console.log(forth_result) // Consola: A
+
+```
+  
+  
+## Conclusión  
+El método `substring()` puede ser de mucha utilidad cuando manejamos cadenas de caracteres, por ello es muy importante saber utilizarlo tomando en cuenta las distintas opciones de parametrización que tiene disponibles.
