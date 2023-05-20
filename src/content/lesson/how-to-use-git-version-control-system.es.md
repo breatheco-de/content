@@ -88,7 +88,7 @@ Ejemplo: Digamos que estás comenzando a desarrollar la característica/funciona
 
 > :point_up: **Nota sobre la terminología:** Los términos "branch" y "head" son casi sinónimos en GIT. Cada branch (rama) está representada por un head, y cada head representa una rama. A veces, "rama" se usará para referirse a un head y el historial completo de commits que preceden a ese head, mientras que "head" se usará para referirse exclusivamente a un solo commit object (el commit más reciente en la rama).
 
- ## Comenzando un Nuevo Repo** `git init`
+ ## Comenzando un Nuevo Repo `git init`
 
 Puedes crear un nuevo repositorio cuando lo desees durante el proyecto, ¡no tiene que estar al principio! Lo único esencial para hacer esto es que el proyecto no tenga otro repositorio ya creado.
 
@@ -118,7 +118,7 @@ Otros comandos que son útiles en este punto:
 
 + `git log` muestra un registro de todos los commits desde *HEAD* hasta el commit inicial. Puede hacer más que eso, por supuesto.
 + `git status` muestra qué archivos han cambiado entre el estado actual del proyecto y el *HEAD*. Los archivos se clasifican en una de las tres categorías: (1) Archivos nuevos que no se han agregado (con git add), (2) Archivos modificados que no se han agregado y (3) Archivos que se han agregado.
-+ `git diff` muestra la diferencia entre el HEAD y el estado actual del proyecto. Con la opción --cached, compara archivos agregados contra HEAD; de lo contrario, compara los archivos que aún no se han agregado.*
++ `git diff` muestra la diferencia entre el HEAD y el estado actual del proyecto. Con la opción --cached, compara archivos agregados contra HEAD; de lo contrario, compara los archivos que aún no se han agregado.
 + `git mv` y `git rm` marcan los archivos para ser movidos (renombrados) y eliminados, respectivamente, de forma muy similar a `git add`.
 
 Mi flujo de trabajo personal generalmente tiene este aspecto: primero hago algo de programación y, luego, termino de actualizar algunos archivos y luego ejecuto los siguientes comandos:
