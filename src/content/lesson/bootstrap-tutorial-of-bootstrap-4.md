@@ -26,7 +26,7 @@ One of the broken things in CSS is the way that layouts work – working with **
 
 ## Everything is now divided into Rows and Columns.
 
-Bootstrap creators replicated the same concept that `<tables>` had, but instead of using tables, they used `<div>` (boxed containers).  They can’t create their own HTML tags because that would require a new HTML version and would make Bootstrap incompatible with current browsers.  Tags must stay the same – that’s why they decided to override the `<div>` default behaviors with classes.
+Bootstrap creators replicated the same concept that `<tables>` had, but instead of using tables, they used `<div>` (boxed containers).  They  couldn't create their own HTML tags because that would require a new HTML version, which would render Bootstrap incompatible with current browsers. The HTML tags must remain the same. That's why they decided to override the default behaviors of <div> using classes."
 
 ```html
 This is a row: <div class="row">
