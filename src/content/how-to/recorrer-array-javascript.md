@@ -123,3 +123,5 @@ while(numero >= 0) {
 
 alert(`La suma es ${suma}.`);
 ```
+
+Existen muchas maneras de utilizar estas herramientas iterativas en Javascript, desde recorrer arrays hasta objetos y para el caso particular de los while loops, repetir un bloque de código hasta que se cumpla una condición deseada.
