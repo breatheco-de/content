@@ -162,7 +162,7 @@ print(fdays +  " left until you level up!")
 
 Como debes de imaginar, cuando hacemos un programa, mezclamos diferentes tipos de variables, módulos y demás herramientas a nuestra disposición.
 
-En el siguiente ejemplo estaremos haciendo uso de objetos, listas, ciclos y módulo random. El ejemplo vendrá a solucionar un problema en el que a veces nos encontramos, no sabemos que ropa ponernos para salir. Este script, nos permitira a partir de una lista de elementos en nuestro armario, ayudarnos a seleccionar de manera aleatoria que ponernos.
+En el siguiente ejemplo estaremos haciendo uso de objetos, listas, ciclos y módulo random. El ejemplo vendrá a solucionar un problema en el que a veces nos encontramos, no sabemos que ropa ponernos para salir. Este script, nos permitirá a partir de una lista de elementos en nuestro armario, ayudarnos a seleccionar de manera aleatoria que ponernos.
 
 ```python
 import random
