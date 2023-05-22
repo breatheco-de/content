@@ -1,4 +1,14 @@
-El método de Javascript `substring()` es utilizado para devolver únicamente una parte de la cadena original partiendo desde el índice inicial establecido y continua hasta el final de la cadena. Opcionalmente se puede especificar el índice final como parámetro.
+---
+title: "Manipulando Texto con el Método substring en JavaScript"
+subtitle: "Aprende a utilizar el método substring en JavaScript para extraer partes específicas de una cadena de texto. Descubre cómo manipular eficientemente cadenas en tus proyectos web."
+tags: ["python","string concatenation",]
+date: "2020-10-19T16:36:30+00:00"
+authors: []
+status: "published"
+
+---
+
+El método de [Javascript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) `substring()` es utilizado para devolver únicamente una parte de la cadena original partiendo desde el índice inicial establecido y continua hasta el final de la cadena. Opcionalmente se puede especificar el índice final como parámetro.
 
 ```js
 let myString = "4geeks Academy";
@@ -101,4 +111,4 @@ console.log(forth_result) // Consola: A
   
 ## Conclusión 
 
-El método `substring()` puede ser de mucha utilidad cuando manejamos cadenas de caracteres, por ello es muy importante saber utilizarlo tomando en cuenta las distintas opciones de parametrización que tiene disponibles.
+El método `substring()` puede ser de mucha utilidad cuando manejamos cadenas de caracteres, por ello es muy importante saber utilizarlo tomando en cuenta las distintas opciones de parametrización que tiene disponibles. Si te interesa conocer más sobre  Javascript puedes revisar este artículo sobre [aprender a programar en Javascript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript), aquí puedes encontrar información muy interesante y aprende este lenguaje desde cero con ejemplos de código, videotutoriales y muchos más recursos que te serán muy útiles para practicar y conocer más sobre el lenguaje de programación Javascript. Puedes leer más sobre este y otros temas en el Blog de [4Geeks](https://4geeks.com/).
