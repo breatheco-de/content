@@ -24,11 +24,11 @@ myString.substring(indiceInicial, indiceFinal)
 
 ```
 
-#### Donde:
+#### Parámetros:
 
-`indiceInicial` : Es la posición inicial de la porción que se desea extraer
+`indiceInicial`: Es la posición inicial de la porción que se desea extraer.
 
-`indiceFinal` : Es la posición final de la porción que se desea extraer. Este parametro es opcional.
+`indiceFinal`: Es la posición final de la porción que se desea extraer. Este parámetro es opcional.
 
 ```js
 let myString = "4geeks Academy"; 
@@ -39,12 +39,11 @@ let indiceFinal = 6
 let result = myString.substring(indiceInicial, indiceFinal); 
   
 console.log(result); // Consola: 4geeks
-
 ```
 
-Algo importante a tomar en cuenta al momento de utilizar este método es que **el parametro indiceFinal es "exclusivo"** lo cual significa que debemos utilizar el ídice del último caracter que queremos incluir en la **substring más 1**.
+Algo importante a tomar en cuenta al momento de utilizar este método es que **el parámetro indiceFinal es **"exclusivo"** lo cual significa que debemos utilizar el índice del último caracter que queremos incluir en la substring **más 1**.
 
-En el siguiente ejemplo podremos notar como esto puede afectar el resultado, si tomamos en cuenta que los indices de la string `"4geeks"` llegan hasta el 5, donde el caracter `"4"` se ubica en el índice 0 y el último caracter `"s"` se ubica en el índice 5 quedando de la siguiente forma:
+En el siguiente ejemplo podremos notar como esto puede afectar el resultado, si tomamos en cuenta que los índices de la string `"4geeks"` llegan hasta el 5, donde el caracter `"4"` se ubica en el índice 0 y el último caracter `"s"` se ubica en el índice 5 quedando de la siguiente forma:
 
 ```js
 let myString = "4geeks"; 
@@ -52,14 +51,13 @@ let myString = "4geeks";
 // Entonces si utilizamos 5 como indiceFinal obtendremos:
 console.log(myString.substring(1, 5)); // Consola: geek
 
-//Mientras que si le sumamos: 5 + 1 el resultado será:
+// Mientras que si le sumamos: 5 + 1 el resultado será:
 console.log(myString.substring(1, 6)); // Consola: geeks
-
 ```
 
 ## Utilizando `substring()` de Javascript con la propiedad `length`
 
-La propiedad length, que tienen todos los objetos de tipo String, puede ser de mucha utilidad cuando estamos aplicando el método `substring()` ya que no necesitamos saber cual es la cantidad de posiciones entre el inicio de la cadena y la posición donde queremos iniciar la extracción, sino únicamente la cantidad de caracteres que queremos extraer al final de la cadena.
+La propiedad `length`, que tienen todos los objetos de tipo String, puede ser de mucha utilidad cuando estamos aplicando el método `substring()` ya que no necesitamos saber cual es la cantidad de posiciones entre el inicio de la cadena y la posición donde queremos iniciar la extracción, sino únicamente la cantidad de caracteres que queremos extraer al final de la cadena.
 
 Por ejemplo, si únicamente nos interesan los últimos 6 caracteres :
 
@@ -75,9 +73,7 @@ console.log(firstString.substring(firstString.length - indiceInicial)); // Conso
 console.log(secondString.substring(secondString.length - indiceInicial)); // Consola: 4geeks
 
 console.log(thirdString.substring(thirdString.length - indiceInicial)); // Consola: 4geeks
-
 ```
-
   
 ### Otros ejemplos  
 
@@ -100,9 +96,9 @@ console.log(third_result) // Consola: s
 let middleIndex = myString.length / 2
 let forth_result = myString.substring(middleIndex, middleIndex + 1)
 console.log(forth_result) // Consola: A
-
 ```
   
   
-## Conclusión  
+## Conclusión 
+
 El método `substring()` puede ser de mucha utilidad cuando manejamos cadenas de caracteres, por ello es muy importante saber utilizarlo tomando en cuenta las distintas opciones de parametrización que tiene disponibles.
