@@ -1,23 +1,24 @@
 # Expresiones Regulares Python
 
-Si eres programador seguramente has utilizado operaciones de búsqueda de subcadenas. Sin embargo, estas operaciones pueden volverse limitadas cuando se trata de patrones más complejos. Aquí es donde las expresiones regulares toman importancia. Las expresiones regulares son patrones de búsqueda que se utilizan para encontrar coincidencias en cadenas de texto.
+En Python, las expresiones regulares se implementan a través del módulo **re**, el cual proporciona una amplia gama de métodos para trabajar con ellas.
 
-En este artículo, aprenderemos sobre las expresiones regulares en Python, desde su sintaxis básica hasta su aplicación en casos de uso comunes.En Python, las expresiones regulares se implementan a través del módulo **re**, el cual proporciona una amplia gama de métodos para trabajar con ellas.
-
-Un ejemplo sencillo de expresión regular en Python es aquel que busca todas las coincidencias de una letra específica en una cadena de texto
+Un ejemplo de expresión regular en Python podria ser para buscar un número de teléfono en un texto.
 
 ```python
 import re
 
-texto = "El perro está en la calle"
-patron = "e"
+texto = "Hola, ¿cómo estás? Mi número de teléfono es 153156555."
 
-coincidencias = re.findall(patron, texto)
-print(coincidencias)  # ['e', 'e', 'e', 'e']
+# Buscar un número de teléfono en el texto.
+numero = re.search('\d{9}', texto)
 
+if numero:
+  print("Número encontrado:", numero.group())
+else:
+  print("No se encontró ningún número.")
 ```
 
-En este ejemplo, utilizamos la función findall() del módulo re para buscar todas las coincidencias de nuestra expresión regular en el texto. En este caso, buscamos todas las letras "e" en el texto y encontramos 4 coincidencias.
+En este ejemplo, utilizamos la función re.search() para buscar un número de teléfono en un texto. La expresión regular '\d{9}' busca una secuencia de 9 dígitos. Si se encuentra un número, se imprime en pantalla que se encontró. De lo contrario, se muestra un mensaje indicando que no se encontró ningún número.
 
 
 ## Metacaracteres en expresiones regulares
