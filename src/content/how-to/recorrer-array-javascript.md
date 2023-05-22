@@ -7,28 +7,46 @@ Los _for loops_ son una herramienta particularmente útil para realizar acciones
 Un ejemplo sencillo para visualizar estos dos conceptos en conjunto, podemos imaginarnos un array llamada `years` que contiene años donde ha ocurrido una operación.
 
 ```js
+const years = [2018, 2019, 2020, 2021, 2022];
+
 for (let i = 0; i < years.length; i++) {
     console.log(years[i]);
 }
+
+// Output:
+// 2018
+// 2019
+// 2020
+// 2021
+// 2022
 ```
-Este código imprime en la consola todos los valores guardados adentro de `years`
+Este código imprime en la consola todos los valores guardados adentro de `years`.
 
 ## Funciones para recorrer Arrays
-Javascript provee muchas herramientas para recorrer arrays, optimizando acciones sobre los mismos, a continuación, se mencionan los mas comunes y versátiles. 
+
+Javascript provee muchas herramientas para recorrer arrays, optimizando acciones sobre los mismos, a continuación, se mencionan los mas comunes y versátiles.
+
 ### For Loop
+
 Es el mas sencillo y genérico. Como se menciona anteriormente, permite ejecutar un bloque de código un numero determinado de veces. La sintaxis básica de un _for loop_ es el siguiente:
+
 ```js
 for (inicialización; condición; iteración) {
     código a ejecutar; 
 }
 ```
-El for loop tiene 4 elementos principales 
-1. Inicialización: se especifica la variable que controla la operación del for
+
+El for loop tiene 4 elementos principales:
+
+1. Inicialización: se especifica la variable que controla la operación del for.
 2. Condición: la condición controla cuando se deja de ejecutar el for.
-3. Iteración: determina la modificación sobre la variable control para controlar el flujo
+3. Iteración: determina la modificación sobre la variable control para controlar el flujo.
 4. Código: se programa el código que se va a ejecutar cada vez que la condición se siga cumpliendo.
+
 En este ejemplo se pondrá todo en práctica:
+
 Se tienen unos botones guardados dentro de un array `botones` y se quiere hacer click sobre todos los botones en el array
+
 ```js 
 for (let index = 0; index < botones.length; index++) {
     botones[index].click()
@@ -36,7 +54,9 @@ for (let index = 0; index < botones.length; index++) {
 ```
 
 ### For In
+
 For… In se utiliza principalmente para recorrer todas las propiedades de un objeto. 
+
 ```js
 const vehiculo = {
   marca: 'Toyota',
@@ -49,7 +69,6 @@ for (let prop in vehiculo) {
   console.log(prop + ': ' + vehiculo [prop]);
 }
 ```
-
 
 ### for of
 Es muy similar al for loop, sin embargo, es más amigable en su sintaxis, sin tener que lidiar con la inicialización, condiciones o iteraciones. For of itera sobre cada elemento iterable uno por uno, y ejecuta el código dentro del bloque. Por ejemplo, si queremos imprimir en consola los elementos de un array, podemos hacer lo siguiente: 
