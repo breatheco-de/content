@@ -1,6 +1,6 @@
 ---
 title: "¿Cómo usar Expresiones Regulares en PHP?"
-subtitle: "Aprovecha el poder de las expresiones regulares en PHP con nuestra guía completa. Aprende a utilizar regex para manipular y validar datos en tus proyectos de PHP."
+subtitle: "Aprende a utilizar expresiones regulares para manipular y validar datos en tus proyectos de PHP. Conoce los métodos más utilizados y la sintaxis para poder crear tus propias regex a través de ejemplos."
 tags: ["php","expresiones regulares"]
 authors: ["diegorojas"]
 status: "published"
