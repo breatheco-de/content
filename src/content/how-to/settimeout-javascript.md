@@ -1,6 +1,6 @@
 ## Método Settimeout Javascript
 
-El método `setTimeout()` de Javascript se utiliza para ejecutar una sintaxis de código después de un tiempo predeterminado. A continuación veremos un ejemplo de uso del método **setTimeout**  para crear un Temporizador.
+El método `setTimeout()` de Javascript se utiliza para ejecutar un bloque de código después de un tiempo predeterminado. A continuación veremos un ejemplo de uso del método **setTimeout**  para crear un Temporizador.
 
 ```js
 function  Temporizador(segundos) {
@@ -30,9 +30,9 @@ La función `Temporizador()` recibe como parámetro un **número** que represent
 
 ## ¿Qué es y para qué sirve el método setTimeout en Javascript?
 
-El método [setTimeout](https://developer.mozilla.org/es/docs/Web/API/setTimeout) de Javascript es un método que te permite ejecutar una porción de código después de un tiempo predeterminado. Este es un método muy útil que puedes usar para crear diversas funcionalidades como temporizadores, notificaciones, alarmas y muchas cosas más!, básicamente lo puedes usar cada vez que necesites retrasar el tiempo de ejecución de una sintaxis de código.
+El método [setTimeout](https://developer.mozilla.org/es/docs/Web/API/setTimeout) de Javascript es un método que te permite ejecutar una porción de código después de un tiempo predeterminado. Este es un método muy útil que puedes usar para crear diversas funcionalidades como temporizadores, notificaciones, alarmas y muchas cosas más! Básicamente lo puedes usar cada vez que necesites retrasar el tiempo de ejecución de un bloque de código.
 
- Este método recibe dos parámetros
+Este método recibe dos parámetros:
 
 ```js
 function  mostrarMensaje() {
@@ -47,7 +47,9 @@ setTimeout(
 
 El primer parámetro es la función con el código que deseas ejecutar después de que termine el tiempo de retraso indicado, esta función también puede ser una **arrow function** `setTimeout(() => console.log("Hola mundo!") , 1000)`.
 
-El segundo parámetro es el **retraso** en milisegundos que deseas implementar, este parámetro debe de ser de tipo **numérico**. Es importante señalar que los navegadores almacenan el retraso como un entero de 32 bits por esto debes tener cuidado de no usar retrasos mayores a **2147483647** milisegundos que es lo mismo que alrededor de **(24,8)** días ya que esto provoca un error en el sistema y la ejecución del código en el `setTimeout()` se realiza de forma inmediata como se muestra en el siguiente ejemplo.
+El segundo parámetro es el **retraso** en milisegundos que deseas implementar, este parámetro debe de ser de tipo **numérico**. 
+
+> Es importante señalar que los navegadores almacenan el retraso como un entero de 32 bits por esto debes tener cuidado de no usar retrasos mayores a **2147483647** milisegundos que es lo mismo que alrededor de **(24,8)** días ya que esto provoca un error en el sistema y la ejecución del código en el `setTimeout()` se realiza de forma inmediata como se muestra en el siguiente ejemplo.
 
 ```js
 console.time("Primer setTimeout");
@@ -94,12 +96,12 @@ El método `setTimeout()` retorna un número entero positivo que puede variar de
 
 En este ejemplo vemos que el código primero muestra en la consola el valor numérico que retorna el método `setTimeout()` y luego muestra el mensaje "Segundo setTimeout" pero el mensaje "Primer setTimeout" no lo muestra ya que el método `clearTimeout()` canceló la ejecución de este.
 
-
 ## Casos de uso del método setTimeout()
 
 El método `setTimeout()` tiene múltiples casos de uso, veremos algunos de ellos a continuación.
 
 ### Crear un Temporizador
+
 Uno de los usos más comunes que le puedes dar al método `setTimeout()` es para crear un **temporizador**
 
 > código HTML
@@ -202,6 +204,6 @@ Este ejemplo crea una pequeña animación con **HTML** y el método `setTimeout(
 
 ## Conclusión 
 
-En conclusión el método `setTimeout()` de javascript te permite ejecutar una porción de código en un tiempo predeterminado lo cual puede ser muy útil y tiene amplios usos en la programación, este método se puede usar de muchas formas y tiene multiples usos en este artículo se mencionan solo algunos de ellos, si queires conocer mas a profundidad este método te sugiero que visites la pagina oficial de mozilla javascript [metodo settimeout](https://developer.mozilla.org/es/docs/Web/API/setTimeout).
+En conclusión el método `setTimeout()` de javascript te permite ejecutar una porción de código en un tiempo predeterminado lo cual puede ser muy útil y tiene amplios usos en la programación, este método se puede usar de muchas formas y tiene multiples usos en este artículo se mencionan solo algunos de ellos, si quieres conocer más a profundidad este método te sugiero que visites la página oficial de mozilla javascript [método settimeout](https://developer.mozilla.org/es/docs/Web/API/setTimeout).
 
 Si te interesa conocer más sobre el lenguaje de programación Javascript en este link [aprende a programar](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) puedes encontrar información muy interesante y aprende este lenguaje desde cero con ejemplos de código, videotutoriales y muchos más recursos que te serán muy útiles para practicar y conocer más sobre el lenguaje de programación Javascript.
