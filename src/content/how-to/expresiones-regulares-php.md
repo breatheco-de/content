@@ -1,6 +1,15 @@
+---
+title: "Dominando las Expresiones Regulares en PHP: Guía Completa"
+subtitle: "Aprovecha el poder de las expresiones regulares en PHP con nuestra guía completa. Aprende a utilizar regex para manipular y validar datos en tus proyectos de PHP."
+tags: ["php","expresiones regulares",]
+authors: [diegorojas]
+status: "published"
+
+---
+
 ## Expresiones regulares PHP
 
-Las expresiones regulares en PHP se pueden utilizar para la validación y extracción de datos, la manipulación de cadenas y más! Aquí hay un ejemplo del uso de expresiones regulares en PHP para validar un correo electrónico:
+Las[ expresiones regulares](https://4geeks.com/es/lesson/regex-tutorial-regular-expression-ejemplo) en PHP se pueden utilizar para la validación y extracción de datos, la manipulación de cadenas y más! Aquí hay un ejemplo del uso de expresiones regulares en PHP para validar un correo electrónico:
 
 ```php
 $patron = "/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/";
@@ -201,5 +210,5 @@ El texto actualizado con las etiquetas `<span>` se guardan en la variable `$resu
 
 En resumen las expresiones regulares nos permiten definir patrones de coincidencia y aplicar estos patrones a cadenas de texto para verificar, extraer o modificar los caracteres que coinciden con este patrón.
 
-Es importante resaltar que existen más formas y métodos para trabajar con expresiones regulares que las mencionadas en este artículo. Este artículo ofrece ejemplos sencillos y fáciles de entender para que te familiarices con el concepto de expresiones regulares en PHP.
+Es importante resaltar que existen más formas y métodos para trabajar con expresiones regulares que las mencionadas en este artículo. Este artículo ofrece [ejemplos sencillos y fáciles de entender de expresiones regulares](https://4geeks.com/es/lesson/regex-tutorial-regular-expression-ejemplo) para que te familiarices con el concepto de expresiones regulares en PHP. Si deseas conocer mas sobre temas relacionados como las [expresiones regulares en Javascript](https://4geeks.com/es/lesson/expresiones-regulares-javascript) u otros puedes buscarlos en el [Blog de 4Geeks](https://4geeks.com/).
 
