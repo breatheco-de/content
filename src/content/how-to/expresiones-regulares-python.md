@@ -1,6 +1,6 @@
 # Expresiones Regulares Python
 
-Las expresiones regulares en Python se implementan a través del módulo **re**, el cual proporciona una amplia gama de métodos para trabajar con ellas.
+En ocasiones las operaciones de búsqueda de subcadenas pueden volverse limitadas cuando se trata de patrones más complejos. Aquí es donde las expresiones regulares toman importancia. Las expresiones regulares son patrones de búsqueda que se utilizan para encontrar coincidencias en cadenas de texto.
 
 Un ejemplo de expresión regular en Python podria ser para buscar un número de teléfono en un texto.
 
