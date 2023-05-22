@@ -1,12 +1,12 @@
 ---
 title: "¿Cómo utilizar el método setTimeout en JavaScript?"
-subtitle: "Descubre cómo utilizar el método setTimeout en JavaScript para ejecutar funciones después de un período de tiempo. Aprende a controlar el retraso en tus aplicaciones web."
+subtitle: "Descubre cómo usar el método setTimeout en JavaScript para ejecutar funciones después de un período de tiempo. Aprende a controlar el retraso en tus aplicaciones web."
 tags: ["javascript"]
 authors: []
 
 ---
 
-El método `setTimeout()` de [Javascript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) se utiliza para ejecutar un bloque de código después de un tiempo predeterminado. A continuación veremos un ejemplo de uso del método **setTimeout**  para crear un Temporizador.
+El método `setTimeout()` de [Javascript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) se utiliza para ejecutar un bloque de código después de un tiempo predeterminado. A continuación veremos un ejemplo de uso del método **setTimeout** para crear un Temporizador.
 
 ```js
 function  Temporizador(segundos) {
