@@ -1,13 +1,12 @@
 ---
-title: "¿Como programar en Python?"
-subtitle: "Aprende cómo con ejemplos sencillos como programar en Python"
+title: "¿Introducción a la Programación en Python: Guía para Principiantes?"
+subtitle: "Aprende los conceptos básicos de programación en Python con nuestra guía para principiantes. Descubre cómo escribir código Python, estructuras de datos, bucles y más."
 date: "2023-05-21T16:36:30+00:00"
 authors: ["javierseiglie"]
 tags: ["Ptyhon", "ejemplos",]
 status: "draft"
 
 ---
-
 
 Programar en Python, ya que es uno de los lenguajes que más se recomiendo para adentrarnos en el mundo de la programación, puede ser tan sencillo como:
 
@@ -19,15 +18,17 @@ print(2+2)
 #Output 4
 ```
 
-# Programar en Python
+## Programar en Python
 
-Python es un lenguaje de programación extremadamente potente, no por gusto es el más usado en la actualidad y al mismo tiempo, el lenguaje que más se recomienda como puerta de entrada al mundo del desarrollo de aplicaciones.
+[Python](https://4geeks.com/technology/python) es un lenguaje de programación extremadamente potente, no por gusto es el más usado en la actualidad y al mismo tiempo, el lenguaje que más se recomienda como puerta de entrada al mundo del desarrollo de aplicaciones.
 
-Desde hace un tiempo, Python se ha apoderado de muchas especializaciones a partir de su sencillez y potencia, pudiendo utilizar desde para la creación de aplicaciones webs, hasta para Machine Learning, AI y como herramienta para la investigación y desarrollo de tecnologías y técnicas en el ámbito médico.
+Desde hace un tiempo, Python se ha apoderado de muchas especializaciones a partir de su sencillez y potencia, pudiendo utilizar desde para la creación de aplicaciones webs, hasta para [Machine Learning](https://4geeksacademy.com/us/machine-learning-engineer/machine-learning-engineer), AI y como herramienta para la investigación y desarrollo de tecnologías y técnicas en el ámbito médico.
 
-Pero claro, si vamos a hablar de como programar con Python, no perseguiremos ejemplos tan específicos ni avanzados sino, miraremos ejemplos que sean más simples pero que entendiendo la base de los mismos, ya tendríamos para poder sentarnos a escribir nuestros primeros scripts.
+Pero claro, si vamos a hablar de [como programar con Python](https://4geeks.com/es/lesson/learning-to-code-with-python-es), no perseguiremos ejemplos tan específicos ni avanzados sino, miraremos ejemplos que sean más simples pero que entendiendo la base de los mismos, ya tendríamos para poder sentarnos a escribir nuestros primeros scripts.
 
-## Calculadora
+## ¿Qué se puede hacer con Python?
+
+### Calculadora
 
 Un ejemplo muy simple, sería utilizar a Python como nuestra calculadora personal, de forma tal que con el siguiente código: `print(2+2)`, Python nos devolvería 4, ¿Pero pudiéramos hacer unas operaciones más complejas?
 
@@ -43,7 +44,7 @@ print(((10+25)*12-5)/6)
 
 Como se puede observar, Python será capaz de realizar cálculos complejos mientras se escriban como mismo lo haríamos en matemática. Se respetarán los () y orden de ejecución de las operaciones.
 
-## Creando listas
+### Creando listas
 
 Normalmente, tener una lista de tareas que tenemos que realizar, resulta un método muy utilizado por todos cuando queremos darle orden de prioridad a las tareas que debemos realizar.
 
@@ -65,7 +66,7 @@ print(todoList[0])
 
 > Todos los lenguajes de programación hacen uso de variables, que son como pequeñas cajas donde vamos a guardar la información que necesitamos. En nuestro ejemplo, `todoList` es una variable que almacena una lista de tareas
 
-## Trabajando con ciclos
+### Trabajando con ciclos
 
 Es muy habitual encontrarnos con una tarea que requiere que hagamos lo mismo una cierta cantidad de veces, lo cual puede ser (y normalmente es) tedioso. 
 
@@ -202,6 +203,6 @@ Analizando el ejemplo:
 	- Cuando se termine el ciclo, habremos recibido un elemento para cada uno de las llaves y nos devolverá entonces la función "and that 's what you should wear today!"
 - El último paso sería ejecutar la función llamándola y pasandole nuestro armario para que pueda realizar las operaciones.
 
-Como pueden apreciar, Python nos permite realizar pequeños programas, tan simples como de una línea, como programas un poquito más complejos y otros, que no se cubrieron en este artículo, que serían ya programas de mucha mayor complejidad que al hacerse utilizando Python, permiten sencillez y al mismo tiempo robustez en el desarrollo y calidad de los programas.
+Como pueden apreciar, Python nos permite realizar pequeños programas, tan simples como de una línea, como programas un poquito más complejos y otros, que no se cubrieron en este artículo, que serían ya programas de mucha mayor complejidad que al hacerse utilizando Python, permiten sencillez y al mismo tiempo robustez en el desarrollo y calidad de los programas, puedes ller este artículo sobre [¿Para qué sirve Python?](https://4geeks.com/es/lesson/para-que-sirve-python) para tener una idea más amplia sobre todos sus usos.
 
-Hope you enjoy the reading and keep on the Geek side!
+Hope you enjoy the reading and keep on the Geek side with [4Geeks](https://4geeks.com/)!
