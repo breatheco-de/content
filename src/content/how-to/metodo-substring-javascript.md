@@ -1,6 +1,6 @@
 ---
-title: "Manipulando Texto con el Método substring en JavaScript"
-subtitle: "Aprende a utilizar el método substring en JavaScript para extraer partes específicas de una cadena de texto. Descubre cómo manipular eficientemente cadenas en tus proyectos web."
+title: "¿Cómo utilizar el Método substring en JavaScript?"
+subtitle: "Aprende a utilizar el método substring en JavaScript para extraer partes específicas de un string Descubre cómo manipular eficientemente strings en tus proyectos web."
 tags: ["python","string concatenation",]
 date: "2020-10-19T16:36:30+00:00"
 authors: []
