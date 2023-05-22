@@ -1,6 +1,12 @@
-## Método Settimeout Javascript
+---
+title: "¿Cómo utilizar el método setTimeout en JavaScript?"
+subtitle: "Descubre cómo utilizar el método setTimeout en JavaScript para ejecutar funciones después de un período de tiempo específico. Aprende a controlar el retraso en tus aplicaciones web."
+tags: ["javascript",]
+authors: []
 
-El método `setTimeout()` de Javascript se utiliza para ejecutar un bloque de código después de un tiempo predeterminado. A continuación veremos un ejemplo de uso del método **setTimeout**  para crear un Temporizador.
+---
+
+El método `setTimeout()` de [Javascript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) se utiliza para ejecutar un bloque de código después de un tiempo predeterminado. A continuación veremos un ejemplo de uso del método **setTimeout**  para crear un Temporizador.
 
 ```js
 function  Temporizador(segundos) {
@@ -204,6 +210,6 @@ Este ejemplo crea una pequeña animación con **HTML** y el método `setTimeout(
 
 ## Conclusión 
 
-En conclusión el método `setTimeout()` de javascript te permite ejecutar una porción de código en un tiempo predeterminado lo cual puede ser muy útil y tiene amplios usos en la programación, este método se puede usar de muchas formas y tiene multiples usos en este artículo se mencionan solo algunos de ellos, si quieres conocer más a profundidad este método te sugiero que visites la página oficial de mozilla javascript [método settimeout](https://developer.mozilla.org/es/docs/Web/API/setTimeout).
+En conclusión el método `setTimeout()` de javascript te permite ejecutar una porción de código en un tiempo predeterminado lo cual puede ser muy útil y tiene amplios usos en la programación, este método se puede usar de muchas formas y tiene multiples usos en este artículo se mencionan solo algunos de ellos, si quieres conocer más a profundidad este método te sugiero que visites la página oficial de mozilla javascript sobre el [método settimeout](https://developer.mozilla.org/es/docs/Web/API/setTimeout).
 
-Si te interesa conocer más sobre el lenguaje de programación Javascript en este link [aprende a programar](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) puedes encontrar información muy interesante y aprende este lenguaje desde cero con ejemplos de código, videotutoriales y muchos más recursos que te serán muy útiles para practicar y conocer más sobre el lenguaje de programación Javascript.
+Si te interesa conocer más sobre el lenguaje de programación Javascript puedes revisar este artículo sobre [aprende a programar en Javascript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript), aquí puedes encontrar información muy interesante y aprende este lenguaje desde cero con ejemplos de código, videotutoriales y muchos más recursos que te serán muy útiles para practicar y conocer más sobre el lenguaje de programación Javascript. Puedes leer más sobre este y otros temas en el Blog de [4Geeks](https://4geeks.com/).
