@@ -1,6 +1,6 @@
 # Expresiones Regulares Python
 
-En Python, las expresiones regulares se implementan a través del módulo **re**, el cual proporciona una amplia gama de métodos para trabajar con ellas.
+Las expresiones regulares en Python se implementan a través del módulo **re**, el cual proporciona una amplia gama de métodos para trabajar con ellas.
 
 Un ejemplo de expresión regular en Python podria ser para buscar un número de teléfono en un texto.
 
