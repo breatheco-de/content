@@ -5,7 +5,7 @@ cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 status: "published"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["javascript"]
+tags: ["javascript","variables"]
 
 ---
 
@@ -30,7 +30,7 @@ Variables are not a new concept, anybody who knows math is familiar with the con
 A variable is a container in which you can store any data. For example, you can have the following variable:
 
 ```javascript
-var age = 24;
+let age = 24;
 ```
 
 ![what is javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif?raw=true)
@@ -40,7 +40,7 @@ With virtually any programming language you can create as many variables as you 
 The **variable's name** is the most effective way we have to describe the variable's content, so use it wisely. It is important to choose a name that clearly tells you (and other coders) about the data that is being stored in the variable. If we choose a bad or ambiguous name, our code will be almost impossible to understand, ergo it becomes unusable. For example, let’s say we change the name of our "age" variable to `a`, that would be:
 
 ```javascript
-var a = 24 ;
+let a = 24 ;
 ```
 
 As you can see above, the new variable's name does not tell us anything about the data that is being stored and why we are using it.
@@ -52,11 +52,11 @@ Choosing the name for your variable really matters, so we beg you not to use gen
 As developers, we can set the value of a variable at any time using the `=` operator. You do not have to set a value when you first declare a variable. You can set, or re-set (override) the value as many times as you want, whenever you want. The value will always be the last one you set.  Below are a few examples of how to set values to variables:
 
 ```javascript
-var a = 24;
+let a = 24;
   a = 25;
   a = 80;
 
-var b;
+let b;
   b = 9;
   b = 108;
 ```
@@ -213,8 +213,8 @@ Imagine you are inside an elevator, the elevator needs to loop through the floor
 A `while` loop will execute a block of code as long as a condition is true.  Once the condition returns false, the loop will stop executing the block of code.
 
 ```javascript
-var sum = 0;
-var number = 1;
+let sum = 0;
+let number = 1;
 while (number <= 50) {
   sum += number;
   number++;
@@ -235,7 +235,7 @@ console.log("Sum = " + sum);
 
 
 ```javascript
-for (var i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
     document.write("This is number" + " " + i);
 }
 ```
@@ -244,12 +244,12 @@ for (var i = 0; i < 10; i++) {
 
 `For…in` loops can be used to loop through the properties of an object. Within the parentheses, you can set any name to represent the information within the object, and then include the name of the object:
 
-> for (*var* in *object*) {<br>
+> for (*property* in *object*) {<br>
 code block to be executed<br>
 }
 
 ```javascript
-var dog = {
+const dog = {
   species: "Great Dane",
   size: "Extra Large",
   age: 3,
