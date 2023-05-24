@@ -22,9 +22,9 @@ Dominar el uso de las funciones es una de las 5 habilidades fundamentales para c
 Básicamente, una función es un montón de código envuelto entre llaves que puedes ejecutar en cualquier momento cada vez que quieras. Por ejemplo:
 
 ```javascript 
-//el nombre de la función es "multiply" y recibe 2 parametros: a & b
+//el nombre de la función es "multiply" y recibe 2 parámetros: a & b
 function multiply(a, b) {
-    //la función devuelve la multiplicación de esos 2 parametros
+    //la función devuelve la multiplicación de esos 2 parámetros
    return a * b;
 }
 ```
