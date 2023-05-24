@@ -45,12 +45,21 @@ El for loop tiene 4 elementos principales:
 
 En este ejemplo se pondrá todo en práctica:
 
-Se tienen unos botones guardados dentro de un array `botones` y se quiere hacer click sobre todos los botones en el array
+Se tienen unos números guardados dentro de un array `numeros` y se quiere sumar 1 a todos los elementos dentro del array y luego imprimirlos a la consola 
 
 ```js 
-for (let index = 0; index < botones.length; index++) {
-    botones[index].click()
+let numeros = [5,8,13,6,9]
+
+for (let index = 0; index < numeros.length; index++) {
+    console.log(numeros[index]+1)
 }
+
+//output
+//6
+//9
+//14
+//7
+//10
 ```
 
 ### For In
@@ -68,6 +77,12 @@ const vehiculo = {
 for (let prop in vehiculo) {
   console.log(prop + ': ' + vehiculo [prop]);
 }
+
+//output
+//marca: Toyota
+//model: Corolla
+//año: 2016
+//cilindraje: 2000cc
 ```
 
 ### for of
@@ -77,26 +92,42 @@ const marcas = ['apple', 'google', 'meta'];
 for (let marca of marcas) {
   console.log(marca);
 }
+
 ```
 
 
 ### While
 While es muy similar a un for, con un detalle muy importante. While se controla mediante una condición únicamente. Es decir, mientras la condición se cumpla el while nunca deja de correr.
 ```js
-let controlador = true
-while (controlador) {
-  console.log(controlador);
-  controlador = false;
+let contador = 10
+while (contador > 0) {
+  console.log(contador);
+  contador--;
 }
+
+//output
+//10
+//9
+//8
+//7
+//6
+//5
+//4
+//3
+//2
+//1
 ```
 Esto hace que se pueda utilizar hasta lograr encontrar un valor o programarlo para una condición muy específica y dejar de correr hasta entonces, sin pensar en contadores necesariamente.
 Existe una variación llamada do…while, que funcionalmente es igual a while, solo que se asegura que el bloque de código se ejecute al menos 1 vez. Tomando el ejemplo anterior y modificando la sintaxis se utiliza de la siguiente manera: 
 ```js
-let controlador = true
+let contador = 0
 do {
-  console.log(controlador);
-  controlador = false;
-} while (controlador);
+  console.log(contador);
+  contador--;
+} while (contador > 0);
+
+//output
+//0
 ```
 
 ### Map
@@ -106,6 +137,13 @@ const marcas = ['apple', 'google', 'meta'];
 const marcas_descritas = marcas.map(function(marca) {
   return `${marca} es increíble`
 });
+
+console.log(marcas_descritas)
+
+//output
+//apple es increíble
+//google es increíble
+//meta es increíble
 ```
 
 ### For Each
@@ -115,6 +153,11 @@ const marcas = ['apple', 'google', 'meta'];
 marcas.forEach(function(marca) {
   console.log(marca)
 });
+
+//output
+//apple
+//google
+//meta
 ```
 
 ## Ejemplos de uso
@@ -127,6 +170,16 @@ const precios = [20.00, 30.00, 28.00, 36.00, 23.00, 55.00]
 const precios_ajustados = precios.map(function(precio){
   return precio*1.1
 })
+
+console.log(precios_ajustados)
+
+//output
+//22
+//33
+//30.8
+//39.6
+//25.3
+//60.5
 ```
 
 ### Sumar valores positivos
@@ -140,7 +193,10 @@ while(numero >= 0) {
     numero = parseInt(prompt('Ingrese un número: '));
 }
 
-alert(`La suma es ${suma}.`);
+console.log(`La suma es ${suma}.`);
+
+//output
+//la suma es {resultado de suma}
 ```
 
 Existen muchas maneras de utilizar estas herramientas iterativas en Javascript, desde recorrer arrays hasta objetos y para el caso particular de los while loops, repetir un bloque de código hasta que se cumpla una condición deseada.
