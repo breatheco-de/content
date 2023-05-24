@@ -29,7 +29,7 @@ La siguiente es una lista de todos los elementos posibles que podemos usar para 
 
 |**Name**   |**Declaration**   |**Description**   |
 |:----------|:-----------------|:-----------------|
-|Texto      |`<input type="text">`   |El input de texto está destinada a recibir cualquier pequeño string de caracteres como: nombre de usuario, nombre, apellido, fecha de nacimiento, etc.<br>`<input type="text" name="Name" />name="comments"><textarea/>`   |
+|Texto      |`<input type="text">`   |El input de texto está destinado a recibir cualquier pequeño string de caracteres como: nombre de usuario, nombre, apellido, fecha de nacimiento, etc.<br>`<input type="text" name="Name" />name="comments"><textarea/>`   |
 |Textarea |`<textarea>`   |El área de texto es ideal para inputs de texto largos. Su principal diferencia respecto al input de texto es su capacidad de permitir múltiples líneas.<br>`<textarea name="comments"><textarea/>`   |
 |Contraseña   |`<input type="password" />`   |Esto es como un tipo de input = "texto" pero con la única diferencia de que los caracteres están ocultos como viñetas: el usuario no puede ver lo que están escribiendo.<br>`<input type="password" name="password" />`   |
 |Radiobutton   |`<input type="radio">`   |Permite al usuario seleccionar sólo una de todos los inputs con el mismo nombre.<br>`<input type="radio" name="color" value="red" />` <br> `<input type="radio" name="color" value="green" />`   |
