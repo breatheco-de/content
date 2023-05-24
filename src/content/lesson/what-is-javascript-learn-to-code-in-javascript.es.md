@@ -4,7 +4,7 @@ subtitle: "Aprende qué es JavaScript, todos están hablando de ello y, probable
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["javascript"]
+tags: ["javascript","variables"]
 status: "published"
 
 ---
@@ -30,7 +30,7 @@ Las variables no son un concepto nuevo, cualquiera que sepa matemáticas está f
 Una variable es un contenedor en el que se puede almacenar cualquier dato. Por ejemplo, puedes tener la siguiente variable:
 
 ```javascript
-var age = 24;
+let age = 24;
 ```
 
 ![what is javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif?raw=true)
@@ -40,7 +40,7 @@ Prácticamente con cualquier lenguaje de programación, puedes crear tantas vari
 El **nombre de la variable** es la forma más efectiva que tenemos de describir el contenido de la variable, así que úsalo sabiamente. Es importante elegir un nombre que te indique claramente (a ti y los otros programadores) los datos que se almacenan en la variable. Si elegimos un nombre malo o ambiguo, nuestro código será casi imposible de entender, ergo se volverá inutilizable. Por ejemplo, digamos que cambiamos el nombre de nuestra variable "age" a `a`, sería:
 
 ```javascript
-var a = 24 ;
+let a = 24 ;
 ```
 
 Como puedes ver arriba, el nuevo nombre de la variable no nos dice nada sobre los datos que se almacenan y por qué los estamos utilizando.
@@ -53,11 +53,11 @@ La elección del nombre para tu variable realmente importa, por lo que por favor
 Como desarrolladores, podemos establecer el valor de una variable en cualquier momento utilizando el operador `=`. No es necesario establecer un valor cuando declaras una variable por primera vez. Puedes establecer, o restablecer (reasignar) el valor tantas veces como quieras, cuando lo quieras. El valor siempre será el último que establezcas. A continuación se muestran algunos ejemplos sobre cómo establecer valores en variables:
 
 ```javascript
-var a = 24;
+let a = 24;
   a = 25;
   a = 80;
 
-var b ;
+let b ;
   b = 9 ;
   b = 108 ;
 ```
@@ -219,8 +219,8 @@ Imagina que estás dentro de un ascensor: el ascensor debe girar en bucle por lo
 Un bucle `while` ejecutará un bloque de código siempre que una condición sea verdadera. Una vez que la condición sea falsa, el bucle dejará de ejecutar el bloque de código.
 
 ```javascript
-var sum = 0;
-var number = 1;
+let sum = 0;
+let number = 1;
 while (number <= 50) {
   sum += number;
   number++;
@@ -233,7 +233,7 @@ console.log("Sum = " + sum);
 El `for` es similar a `while`, con la única diferencia de que debes especificar la condición para que se detenga desde un principio. Por esa razón, `for` es un poco más organizado y más fácil de entender.
 
 
-***Nota: cuando realices un bucle, asegúrate de que la declaración finalmente devuelva falso para evitar un bucle infinito. En un bucle infinito, el código se ejecuta indefinidamente y hará que tu navegador se bloquee.***
+***Nota: cuando realices un bucle, asegúrate de que la declaración finalmente devuelva false para evitar un bucle infinito. En un bucle infinito, el código se ejecuta indefinidamente y hará que tu navegador se bloquee.***
 
 <iframe src="https://www.youtube.com/embed/TSMzvFwpE_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -241,7 +241,7 @@ El `for` es similar a `while`, con la única diferencia de que debes especificar
 <br>
 
 ```javascript
-for (var i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
     document.write("This is number" + " " + i);
 }
 ```
@@ -250,12 +250,12 @@ for (var i = 0; i < 10; i++) {
 
 Los bucles `For…in` pueden usarse para recorrer con un bucle las propiedades de un objeto. Dentro de los paréntesis, puedes establecer cualquier nombre para representar la información dentro del objeto, y luego incluir el nombre del objeto:
 
-> for (*var* in *object*) {<br>
+> for (*property* in *object*) {<br>
 bloque de código a ejecutarse<br>
 }
 
 ```javascript
-var perro = {
+const perro = {
   razas: "Gran Danés",
   tamaño: "Extra grande",
   edad: 3,
