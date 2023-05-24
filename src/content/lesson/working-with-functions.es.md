@@ -24,7 +24,7 @@ Básicamente, una función es un montón de código envuelto entre llaves que pu
 ```javascript 
 //el nombre de la función es "multiply" y recibe 2 parametros: a & b
 function multiply(a, b) {
-    //la función devuelve la multiplicación 
+    //la función devuelve la multiplicación de esos 2 parametros
    return a * b;
 }
 ```
@@ -84,7 +84,7 @@ function multiply(a, b) {
 }
 
 console.log(myVariable); 
-// este console.log no funcionará, generará un error, porque myVariable está declarada dentro de la función multiply, por lo tanto no está disponible fuera.
+// este console.log no funcionará, generará un error, porque myVariable está declarada dentro de la función "multiply", por lo tanto no está disponible fuera.
 
 ```
 
@@ -102,7 +102,7 @@ const multiply = function(a, b) {
 
 ## Llamar una Función 
 
-La única forma de llamar (usar) una función es poner paréntesis despues de nombrar la función:
+La única forma de llamar (usar) una función es poner paréntesis después de nombrar la función:
 
 ```javascript
 //Así es como se llama a una función sin parámetros.
