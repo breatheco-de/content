@@ -1,19 +1,19 @@
 ---
-subtitle: "Functions are not optional - they are probably the most used feature in any programming language. They let you separate your code in smaller mini-programs where each one takes care of its own thing. Divide and conquer!"
+subtitle: "Functions are not optional - they are probably the most used feature in any programming language. They let you separate your code into smaller mini-programs where each one takes care of its own thing. Divide and conquer!"
 title: "Working with Functions"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["reactjs"]
+tags: ["javascript","functions"]
 status: "published"
 
 ---
 
-Mastering the use of lists and loops is one of the 5 fundamental skills of building algorithms:
+Mastering the use of functions is one of the 5 fundamental skills of building algorithms:
 
 1. Variables.
 2. Conditionals.
-3. Lists.
+3. Arrays.
 4. Loops.
 5. `Functions`.
 
@@ -22,9 +22,9 @@ Mastering the use of lists and loops is one of the 5 fundamental skills of build
 Basically, a function is a bunch of code wrapped between brackets that you can run anytime, whenever you like. For example:
 
 ```javascript 
-//the function name is "multiply" and receives 2 param: a & b 
+//the function name is "multiply" and receives 2 parameters: a & b 
 function multiply(a, b) {
-    //the function returns the multiplication 
+    //the function returns the multiplication between those 2 parameters
    return a * b;
 }
 ```
@@ -47,7 +47,7 @@ Coding is very abstract and usually, you forget what you wrote yesterday. Before
 
 By using functions, you have the following advantages:
 
-+ Split and conquer: divide your algorithm into smaller sub-algorithms and focus on one problem at a time.
++ Divide and conquer: divide your algorithm into smaller sub-algorithms and focus on one problem at a time.
 + Re-use your code by calling the function several times, dramatically reducing your code length.
 + Organize your code: function names will tell you what that piece of code does, you can have all the functions in a separate file and re-use it in all your future developments.
 
@@ -84,18 +84,18 @@ function multiply(a, b) {
 }
 
 console.log(myVariable);
-// this console.log won't work it will trigger an error because myVariable was declared inside the function multiply, therefore it is not available outside. 
+// this console.log won't work, it will trigger an error because myVariable was declared inside the function multiply, therefore it is not available outside. 
 
 ```
 
-> :point_up: It is very important to remember that once you use the `return` statement the function will stop executing, if there is any code after that statement it will never be executed.
+> ☝ It is very important to remember that once you use the `return` statement the function will stop executing, if there is any code after that statement it will never be executed.
 
 ## Anonymous Functions
 
 You can declare functions without names, but only if you store them in variables like this:
 
 ```javascript
-var multiply = function(a, b) {
+const multiply = function(a, b) {
    return a * b;
 }
 ```
@@ -151,20 +151,21 @@ The following code has 3 functions declared:
      ...
 *}*
 
-*function <span style="color:purple"> getYoungest</span>(**array: ages**)*
-     ...
-*}*
-*function <span style="color:purple"> getPersonInfoByName</span>(**string: name**)*
+*function <span style="color:purple">getYoungest</span>(**array: ages**){*
      ...
 *}*
 
-As you can see, the function names are pretty specific on what the functions do, as well as the parameters assigned to them.
+*function <span style="color:purple">getPersonInfo</span>(**string: name**){*
+     ...
+*}*
 
-The function receives an array of:
+As you can see, the function names are pretty specific about what the functions do, as well as the parameters assigned to them.
+
+Here is the more detailed example:
 
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/FunctionsExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 Other important things to notice:
 
-+ We are calling the function getPersonInfoByName two times, without using functions, we would have to use more code because we would have no option to re-use the function.
-+ The function getAverage is to get the average value on a given array. It knows nothing else, and that is great! By separating your code into little functions, you can focus on one thing at a time.
++ We are calling the function `getPersonInfo` two times, without using functions we would have to use more code, because we would have no option to re-use the function.
++ The function `getAverage` is to get the average value on a given array. It knows nothing else, and that is great! By separating your code into little functions, you can focus on one thing at a time.
