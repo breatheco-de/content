@@ -167,5 +167,5 @@ Aqui podemos ver el ejemplo más en detalle:
 
 Otras cosas importantes a tener en cuenta:
 
-+ Estamos llamando a la función getPersonInfo dos veces, sin usar funciones tendríamos que usar más código porque no tendríamos ninguna opción para reutilizar la función.
-+ La función getAverage obtiene el valor promedio en un array dado ¡No sabe nada más y eso es genial! Al separar su código en pequeñas funciones, puede concentrarse en una cosa a la vez.
++ Estamos llamando a la función `getPersonInfo` dos veces, sin usar funciones tendríamos que usar más código porque no tendríamos ninguna opción para reutilizar la función.
++ La función `getAverage` obtiene el valor promedio en un array dado ¡No sabe nada más y eso es genial! Al separar su código en pequeñas funciones, puede concentrarse en una cosa a la vez.
