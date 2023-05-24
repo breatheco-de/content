@@ -167,5 +167,5 @@ Here is the more detailed example:
 
 Other important things to notice:
 
-+ We are calling the function getPersonInfo two times, without using functions we would have to use more code, because we would have no option to re-use the function.
-+ The function getAverage is to get the average value on a given array. It knows nothing else, and that is great! By separating your code into little functions, you can focus on one thing at a time.
++ We are calling the function `getPersonInfo` two times, without using functions we would have to use more code, because we would have no option to re-use the function.
++ The function `getAverage` is to get the average value on a given array. It knows nothing else, and that is great! By separating your code into little functions, you can focus on one thing at a time.
