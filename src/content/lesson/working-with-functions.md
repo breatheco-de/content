@@ -24,7 +24,7 @@ Basically, a function is a bunch of code wrapped between brackets that you can r
 ```javascript 
 //the function name is "multiply" and receives 2 parameters: a & b 
 function multiply(a, b) {
-    //the function returns the multiplication 
+    //the function returns the multiplication between those 2 parameters
    return a * b;
 }
 ```
