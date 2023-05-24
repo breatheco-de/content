@@ -14,10 +14,10 @@ let n = [ 1, 2, 3, "a", "b", "c" ];
 
 // Check if an array is empty in Javascript
 if (Array.isArray(n) && n.length === 0) {
-   console.log(“El array n está vacío”);
+   console.log(“The array n is empty”);
    
 } else {
-   console.log(“El array n NO esta vacío”);
+   console.log(“The array n is not empty”);
 };
 
 // Empty an array in Javascript  by rewriting the length property
@@ -35,9 +35,9 @@ The best way to check if an array is empty is by accessing the **length** proper
 let n = [];
 
 if ( Array.isArray(n) && n.length === 0 ) {
-   console.log(“El array n está vacío”);
+   console.log(“The array n is empty”);
 } else {
-   console.log(“El array n NO está vacío”);
+   console.log(“The array n is not empty”);
 };
 ```
 
