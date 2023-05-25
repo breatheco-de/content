@@ -70,14 +70,14 @@ const ciudades = [
   { id: 4, nombre: "Queens", temperatura: "27 grados" },
 ];
 
-const sumaDeLasTemperatura = ciudades.reduce((acumulador, ciudad, indice) => {
+const sumaDeLasTemperaturas = ciudades.reduce((acumulador, ciudad, indice) => {
   console.log(`La temperatura de la ciudad de ${ciudad.nombre} es de ${ciudad.temperatura}`);
 
   const temperaturaCiudad = Number(ciudad.temperatura.split(" ")[0]);
   return acumulador + temperaturaCiudad;
 }, 0);
 
-const temperaturaPromedio = sumaDeLasTemperatura / ciudades.length;
+const temperaturaPromedio = sumaDeLasTemperaturas / ciudades.length;
 
 console.log(`La temperatura promedio de los Estados Unidos es de ${temperaturaPromedio} grados`);
 ```
@@ -91,9 +91,10 @@ La temperatura de la ciudad de Queens es de 27 grados
 La temperatura promedio de los Estados Unidos es de 24.25 grados
 ```
 
-Supongamos que queremos buscar la temperatura promedio del país de los **Estados Unidos**, en este caso el método  `reduce()` nos permite sumar todos los valores de las temperaturas 
-de cada una de la ciudades y guarda el total en la variable **acumulador** luego retorna el valor de esta variable dividido por la cantidad de ciudades presentes en el array esto 
-nos retorna la temperatura promedio de este país.
+Supongamos que queremos buscar la temperatura promedio del país de los **Estados Unidos**, en este caso el método  `reduce()` nos permite sumar todos los valores de las temperaturas de cada una de la ciudades y guarda el total en la constante **sumaDeLasTemperaturas**.
+
+Luego guardamos el valor de esta constante dividido por la cantidad de ciudades presentes en el array **ciudades**, este valor se guarda en la constante **temperaturaPromedio** que tendrá como valor la temperatura promedio de este país.
+
 
 ### 2. Contar cuantas veces aparece un elemento en un array
 
