@@ -64,24 +64,20 @@ Como mencionamos anteriormente el método `reduce()` de javascript te permite ob
 
 ```js 
 const ciudades = [
-    { id:  1, ciudad:  "New york", temperatura:  "25 grados" },
-    { id:  2, ciudad:  "Los Ángeles", temperatura:  "30 grados" },
-    { id:  3, ciudad:  "Chicago", temperatura:  "15 grados" },
-    { id:  4, ciudad:  "Queens", temperatura:  "27 grados" }
+  { id: 1, nombre: "New york", temperatura: "25 grados" },
+  { id: 2, nombre: "Los Ángeles", temperatura: "30 grados" },
+  { id: 3, nombre: "Chicago", temperatura: "15 grados" },
+  { id: 4, nombre: "Queens", temperatura: "27 grados" },
 ];
 
-const temperaturaPromedio = ciudades.reduce((acumulador, ciudad, indice) => {
-    console.log(`La temperatura de la ciudad de ${ciudad.ciudad} es de ${ciudad.temperatura}`);
+const sumaDeLasTemperatura = ciudades.reduce((acumulador, ciudad, indice) => {
+  console.log(`La temperatura de la ciudad de ${ciudad.nombre} es de ${ciudad.temperatura}`);
 
-    const temperaturaCiudad = Number(ciudad.temperatura.split(" ")[0]);
-    acumulador += temperaturaCiudad;
-
-    if (indice === ciudades.length - 1) {
-        return acumulador / ciudades.length;
-    } else {
-        return acumulador;
-    }
+  const temperaturaCiudad = Number(ciudad.temperatura.split(" ")[0]);
+  return acumulador + temperaturaCiudad;
 }, 0);
+
+const temperaturaPromedio = sumaDeLasTemperatura / ciudades.length;
 
 console.log(`La temperatura promedio de los Estados Unidos es de ${temperaturaPromedio} grados`);
 ```
