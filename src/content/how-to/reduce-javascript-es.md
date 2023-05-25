@@ -78,7 +78,7 @@ El segundo parámetro es el valor inicial que toma el parámetro **acumulador** 
 
 ## Ejemplos de uso del método reduce()
 
-El método `reduce()` de Javascript tiene diversos casos de uso, desde obtener la suma total de los números de un array, obtener el valor promedio de la suma de los números de un array, filtrar los valores de un array entre muchas cosas más, veremos algunos ejemplos a continuación.
+El método `reduce()` de Javascript tiene diversos casos de uso como obtener la suma total de los números de un array, obtener el valor promedio de la suma de los números de un array, filtrar los valores de un array entre muchas cosas más, veremos algunos ejemplos a continuación.
 
 ### Obtener el valor promedio de un array
 
@@ -117,7 +117,7 @@ La temperatura de la ciudad de Queens es de 27 grados
 La temperatura promedio de los Estados Unidos es de 24.25 grados
 ```
 
-Supongamos que queremos buscar la temperatura promedio del país de los **Estados Unidos**,en este caso el método `reduce()` suma todos los valores de las temperaturas de cada una de la ciudades y guarda el total en la variable **acumulador** luego retorna el valor de esta variable dividido por la cantidad de ciudades en el array esto nos devuelve la temperatura promedio de este país.
+Supongamos que queremos buscar la temperatura promedio del país de los **Estados Unidos**, en este caso el método `reduce()` suma todos los valores de las temperaturas de cada una de la ciudades y guarda el total en la variable **acumulador** luego retorna el valor de esta variable dividido por la cantidad de ciudades en el array esto nos devuelve la temperatura promedio de este país.
 
 ### Contar cuantas veces aparece un elemento en un array
 
