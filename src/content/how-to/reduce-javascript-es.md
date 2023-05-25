@@ -70,7 +70,7 @@ Como vemos en este ejemplo el método `reduce()` de Javascript recibe dos parám
 
 El primer parámetro es la **función reductora** que puede recibir hasta cuatro parámetros aunque solo los dos primeros son necesarios los parámetros (**indice**  y  **array**) son opcionales y usualmente no se utilizan, esta función retorna el valor que recibe el parámetro **acumulador** en la última iteración.
 
-El segundo parámetro es el valor inicial que toma el parámetro **acumulador** de la función reductora, este valor puede ser de cualquier tipo de dato un número, una cadena de texto, un objeto o un array ya sea vacío o con valores iniciales dentro.  
+El segundo parámetro es el valor inicial que toma el parámetro **acumulador** de la función reductora, este valor puede ser de cualquier tipo de dato un número, una cadena de texto, un objeto o un array ya sea vacío o con valores iniciales adentro.  
 
 > Es importante señalar que aunque el segundo parámetro es opcional es recomendable por buenas prácticas colocarlo siempre ya 
 > que si no lo colocas el parámetro **acumulador** toma como valor inicial el primer valor del array y si le pasas un array vacío 
