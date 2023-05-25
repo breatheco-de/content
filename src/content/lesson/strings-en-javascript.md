@@ -8,20 +8,17 @@ Aquí un ejemplo de cómo luce un string en JavaScript:
 ```js
     let miString = "Esto es un string"
 ```
-Para saber más de JavaScript y cómo programar con este lenguaje, tenemos este detallado articulo sobre [qué es JavaScript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript
-) que te invitamos a visitarlo.
+Para saber más de JavaScript y cómo programar con este lenguaje, tenemos este detallado articulo sobre [qué es JavaScript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) que te invitamos a visitarlo.
 
 ## ¿Qué es un String en JavaScript?
 
-En simples palabras, un string es cualquier secuencia de letras cerradas entre comillas simples ('') o también, comillas dobles (""). Además, los strings pueden contener números, letras, símbolos e igualmente pueden haber strings vacíos que solo incluyen espacios en blanco, pero esto siempre dependerá de los objetivos que tenga el programador con algún string.
-
-Otro punto importante para recordar es que los strings en JavaScripts son inmutables, lo que implica que una vez declarados, no se pueden cambiar.
+En simples palabras, un string es cualquier secuencia de caracteres (letras, números, simbolos, etc) cerradas entre comillas simples ('') o también, comillas dobles (""). Además, los strings pueden contener números, letras, símbolos e igualmente pueden haber strings vacíos que solo incluyen espacios en blanco, pero esto siempre dependerá de los objetivos que tenga el programador con algún string.
 
 ## ¿Para qué sirven los strings en JavaScript?
 
-Este tipo de dato tiene muchos propósitos y funciones que se van a enlistar aquí abajo para dejar más claro el empleo de ellos:
+Este tipo de dato tiene muchos propósitos y funciones que se van a listar aquí abajo para dejar más claro la funcionalidad de ellos:
 
-1.	**Permite la interacción con el usuario**: Programadores pueden causar que los strings interactúen con los usuarios por medio de formularios, entradas de datos como el nombre, edad, apellido, etc. También es posible enviar mensajes por medio de las aplicaciones para avisar al usuario acerca algún tema en específico.
+1.  **Permite la interacción con el usuario**: Programadores pueden causar que los strings interactúen con los usuarios por medio de formularios, entradas de datos como el nombre, edad, apellido, etc. También es posible enviar mensajes por medio de las aplicaciones para avisar al usuario acerca algún tema en específico.
 2.	**Almacenamiento y manipulación de texto**: Mediante los strings es posible guardar y manipular información importante como nombres de usuario, mensajes o aplicar funciones como la unión de strings (concatenar), crear una subparte de un string principal(substring), buscar patrones en textos, extraer palabras clave con mayor facilidad y muchas otras más funciones. 
 3.	**Comunicación entre puntos**: Los strings son muy usados a la hora de querer comunicar información entre servidores o APIs, por ejemplo. Esto porque es fácil de procesar datos en forma de string para luego crear alguna lógica con programación.
 
