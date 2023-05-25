@@ -8,7 +8,7 @@ status: "draft"
 
 ---
 
-Programar en Python, ya que es uno de los lenguajes que más se recomiendo para adentrarnos en el mundo de la programación, puede ser tan sencillo como:
+Python es uno de los lenguajes que más se recomienda para adentrarnos en el mundo de la programación, programar en Python puede ser tan sencillo como:
 
 ```python
 
