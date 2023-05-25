@@ -12,7 +12,7 @@ Para saber más de JavaScript y cómo programar con este lenguaje, tenemos este 
 
 ## ¿Qué es un String en JavaScript?
 
-En simples palabras, un string es cualquier secuencia de caracteres (letras, números, simbolos, etc) cerradas entre comillas simples ('') o también, comillas dobles (""). Además, los strings pueden contener números, letras, símbolos e igualmente pueden haber strings vacíos que solo incluyen espacios en blanco, pero esto siempre dependerá de los objetivos que tenga el programador con algún string.
+En simples palabras, un string es cualquier secuencia de caracteres (letras, números, signos, etc) cerradas entre comillas simples ('') o también, comillas dobles (""). Además, los strings pueden contener números, letras, símbolos e igualmente pueden haber strings vacíos que solo incluyen espacios en blanco, pero esto siempre dependerá de los objetivos que tenga el programador con algún string.
 
 ## ¿Para qué sirven los strings en JavaScript?
 
@@ -24,7 +24,7 @@ Este tipo de dato tiene muchos propósitos y funciones que se van a listar aquí
 
 ## ¿Cómo declarar un string en Javascript?
 
-Es muy simple declarar un string en JavaScript. Lo que se debe hacer es digitar algún texto y encerrarlo ya sea con comillas simples o dobles (no habrá ninguna diferencia).
+Es muy simple declarar un string en JavaScript. Lo que se debe hacer es escribir algún texto (Puede contener letras, números, o signos) y encerrarlo ya sea con comillas simples o dobles (no habrá ninguna diferencia).
 
 ```js
     let mensajeEnString = "Hola Mundo! Esto es un string"
