@@ -6,7 +6,7 @@ En JavaScript, existe un tipo de dato llamado string y existe para representar t
 Aquí un ejemplo de cómo luce un string en JavaScript:
 
 ```js
-    let miString = "Esto es un string"
+let miString = "Esto es un string";
 ```
 Para saber más de JavaScript y cómo programar con este lenguaje, tenemos este detallado articulo sobre [qué es JavaScript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) que te invitamos a visitarlo.
 
@@ -27,43 +27,41 @@ Este tipo de dato tiene muchos propósitos y funciones que se van a listar aquí
 Es muy simple declarar un string en JavaScript. Lo que se debe hacer es escribir algún texto (Puede contener letras, números, o signos) y encerrarlo ya sea con comillas simples o dobles (no habrá ninguna diferencia).
 
 ```js
-    let mensajeEnString = "Hola Mundo! Esto es un string"
+    let mensajeEnString = "Hola Mundo! Esto es un string";
 
-    let otroMensaje = 'Otro mensaje, pero esta vez con comillas simples'
+    let otroMensaje = 'Otro mensaje, pero esta vez con comillas simples';
 ```
 
 A continuación, se mostrarán casos de uso con los strings.
 
 ## Concatenar strings en JavaScript
 
-La concatenación es el proceso de unir varios strings con el fin de crear un solo string. La manera de conseguir esto en JavaScript es de la siguiente manera:
+La concatenación es el proceso de unir varios strings en uno solo. En Javascript se puede lograr de la siguiente manera:
 
 ```js
-    let primerNombre = "Albert"
-    let segundoNombre "Einstein"
-    let nombreCompleto = primerNombre + segundoNombre
+let nombre = "Albert";
+let apellido "Einstein";
+let nombreCompleto = nombre + " " + apellido;
 
-    console.log(nombreCompleto)
+console.log(nombreCompleto)
 
-    //Resultado
-    //Albert Einstein 
-
+//Resultado: Albert Einstein 
 ```
 
-Como se ve en el ejemplo anterior, se utiliza el operado "+" con el fin de concatenar. Otra manera para lograr esto es utilizado comillas invertidas como se muestra en el ejemplo:
+> Nota que se concatenó un string con un espacio `" "` para separar `nombre` de `apellido`. Sino el resultado hubiese sido: `AlbertEinstein`
+
+Como se ve en el ejemplo anterior, se utiliza el operado "+" con el fin de concatenar. Otra manera para lograr esto es utilizado comillas invertidas (Backsticks) como se muestra en el ejemplo:
 
 ```js
-    let nombre = “Daniel”
-    let edad = 22
-    let pais = “Colombia”
+let nombre = “Daniel”;
+let edad = 22;
+let pais = “Colombia”;
 
-    let mensaje = `Mi nombre es ${nombre}. Tengo ${edad} años y vivo en ${pais}`
+let mensaje = `Mi nombre es ${nombre}. Tengo ${edad} años y vivo en ${pais}`;
 
-    console.log(mensaje)
+console.log(mensaje);
 
-    //Resultado:
-    // Mi nombre es Daniel. Tengo 22 años y vivo en Colombia
-
+// Resultado: Mi nombre es Daniel. Tengo 22 años y vivo en Colombia
 ```
 
 En este código, es más sencillo concatenar varios strings o incluso números utilzando los backsticks "\`".
@@ -73,73 +71,62 @@ En este código, es más sencillo concatenar varios strings o incluso números u
 Para comparar dos o mas strings, se utilizan los operadores de comparación "===" o de negación "!==". Esto retornar un valor booleano en caso de que sea verdadero o falso, permitiendo aplica alguna lógica en especifico dependiendo del resultado
 
 ```js
+let fruta1 = "manzana";
+let fruta2 = "naranja";
 
-    let fruta1 = "manzana"
-    let fruta2 = "naranja"
-
-    if (fruta1 === fruta2){
-        console.log("fruta1 y fruta2 son iguales")
-    }else{
-        console.log("fruta1 y fruta2 son diferentes")
-    }
-
+if (fruta1 === fruta2){
+    console.log("fruta1 y fruta2 son iguales");
+}else{
+    console.log("fruta1 y fruta2 son diferentes");
+}
 ```
 
-## Métodos de strings en JavaScript
+## Métodos de strings en Javascript
 
-Los strings en este lenguaje de programación poseen distintos métodos que podemos utilizar a nuestro favor para realizar diferentes tareas. Se mostrarán algunos ejemplos de estos métodos.
+Los strings en este lenguaje de programación poseen distintos métodos que podemos utilizar a nuestro favor para realizar diferentes tareas. Éstos son algunos de los métodos más utilizados en Javascript:
 
-## string.length
+### string.length
 
 Esta propiedad de los strings permite mostrar la cantidad de caracteres de un texto:
 ```js
-    let texto = "Este texto contiene 31 palabras"
-    console.log(texto.length)
+let texto = "Este texto contiene 33 caracteres";
+console.log(texto.length);
 
-    //Resultado
-    31
-
+//Resultado 33
 ```
 
 Es importante destacar que este método esta tomando en cuenta los espacios en blanco.
 
-## string.slice()
+### string.slice()
 
-Extrae una parte especifica de un string y retorna esta porción como un nuevo string. Este método toma dos parámetros los cuales son la posición inicial y la final (el final no se incluye):
+Extrae una parte especifica de un string y retorna esta porción como un nuevo string. Este método toma dos parámetros los cuales son la posición inicial y la final:
 
 ```js
+let texto = "Hola mundo!";
+console.log(texto.slice(2, 9));
 
-    let texto  = "Hola mundo!"
-    console.log(texto.slice(2, 9))
-
-    //Resultado
-    'la mund'
-
+//Resultado 'la mund'
 ```
 
-## string.replace()
+> Nota que si se incluye el caracter ubicado en la posicion del parámetro inicial, pero el del parámetro final no se incluye.
+
+### string.replace()
 
 El método replace() permite remplazar un valor especifico por otro en forma de string:
 
 ```js
-    let texto = "Me gusta las manzanas";
-    let textoNuevo = texto.replace("manzanas", "peras");
+let texto = "Me gusta las manzanas";
+let textoNuevo = texto.replace("manzanas", "peras");
 
-    console.log(textoNuevo)
+console.log(textoNuevo);
 
-    //Resultado
-    "Me gustan las peras"
-
+//Resultado "Me gustan las peras"
 ```
 
-Estos fueron solo algunos ejemplos de los muchos métodos y funciones que se pueden aplicar con los strings en JavaScript. Por medio de practica, se podrá saber cuando utilizar cada método en el momento idóneo y conseguir el objetivo deseado como programador.
+Estos fueron solo algunos ejemplos de los muchos métodos y funciones que se pueden aplicar con los strings en JavaScript. Por medio de práctica, se podrá saber cuando utilizar cada método en el momento idóneo y conseguir el objetivo deseado como programador.
 
 ## Conclusión 
 
 Como se pudo estudiar a lo largo de este artículo, los strings en JavaScript tienen un papel fundamental en la programación donde permite desde la interacción con los usuarios hasta procesar información y datos completos utilizando los métodos de string anteriormente mencionados y entro otros muchos más. 
 
-Si estás interesado en aprender más acerca de [JavaScript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript
-), por favor visita nuestro artículo para profundizar en este tema. Esperamos que te haya quedado claro que son los strings en JavaScript.
-
-
-
+Si estás interesado en aprender más acerca de [JavaScript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript), visita nuestro artículo para profundizar en este tema. Esperamos que te haya quedado claro que son los strings en JavaScript.
