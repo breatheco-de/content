@@ -121,7 +121,7 @@ Supongamos que queremos buscar la temperatura promedio del país de los **Estado
 
 ### Contar cuantas veces aparece un elemento en un array
 
-Otro de los usos del método  `reduce()` de Javascript es para contar cuantas veces aparece un elemento en un array.
+Otro de los usos del método `reduce()` de Javascript es para contar cuantas veces aparece un elemento en un array.
 
 ```js
 const  frutas  = [
@@ -160,7 +160,7 @@ En este ejemplo usamos el método `reduce()` para contar cuántas veces aparecen
 
 ### Obtener el valor máximo de un array
 
-Otro uso que le podemos dar al método `reduce()` de Javascript en para obtener el número más grande de un array.
+Otro uso que le podemos dar al método `reduce()` de Javascript es para obtener el número más grande de un array.
 
 ```js
 const numeros = [0, 2, 4, 500, 5, -2, -6, -1000, 2000];
