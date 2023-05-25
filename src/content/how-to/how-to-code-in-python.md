@@ -3,7 +3,7 @@ title: "¿Introducción a la Programación en Python: Guía para Principiantes?"
 subtitle: "Aprende los conceptos básicos de programación en Python con nuestra guía para principiantes. Descubre cómo escribir código Python, estructuras de datos, bucles y más."
 date: "2023-05-21T16:36:30+00:00"
 authors: ["javierseiglie"]
-tags: ["Ptyhon", "ejemplos",]
+tags: ["Python", "ejemplos",]
 status: "draft"
 
 ---
