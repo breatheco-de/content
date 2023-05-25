@@ -69,7 +69,7 @@ Como se ve en el ejemplo anterior, se utiliza el operado "+" con el fin de conca
 
 ```
 
-En este código, es más sencillo concatenar varios strings o incluso números utilzando " ` ".
+En este código, es más sencillo concatenar varios strings o incluso números utilzando los backsticks "\`".
 
 ## Comparar strings en JavasScript
 
