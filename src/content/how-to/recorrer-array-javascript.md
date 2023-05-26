@@ -64,34 +64,33 @@ for (let index = 0; index < numeros.length; index++) {
 
 ### For In
 
-For… In se utiliza principalmente para recorrer todas las propiedades de un objeto. 
+For… In se utiliza principalmente para iterar sobre las propiedades enumerables de un objeto o arreglo. 
 
 ```js
-const vehiculo = {
-  marca: 'Toyota',
-  model: 'Corolla',
-  año: 2016,
-  cilindraje : '2000cc'
-};
+const marcas = ['apple', 'google', 'meta'];
 
 for (let prop in vehiculo) {
-  console.log(prop + ': ' + vehiculo [prop]);
+  console.log(prop + ': ' + marcas [prop]);
 }
 
 //output
-//marca: Toyota
-//model: Corolla
-//año: 2016
-//cilindraje: 2000cc
+//"0: apple"
+//"1: google"
+//"2: meta"
 ```
 
-### for of
+### For Of
 Es muy similar al for loop, sin embargo, es más amigable en su sintaxis, sin tener que lidiar con la inicialización, condiciones o iteraciones. For of itera sobre cada elemento iterable uno por uno, y ejecuta el código dentro del bloque. Por ejemplo, si queremos imprimir en consola los elementos de un array, podemos hacer lo siguiente: 
 ```js
 const marcas = ['apple', 'google', 'meta'];
 for (let marca of marcas) {
   console.log(marca);
 }
+
+//output
+//"apple"
+//"google"
+//"meta"
 
 ```
 
@@ -118,16 +117,26 @@ while (contador > 0) {
 //1
 ```
 Esto hace que se pueda utilizar hasta lograr encontrar un valor o programarlo para una condición muy específica y dejar de correr hasta entonces, sin pensar en contadores necesariamente.
+
 Existe una variación llamada do…while, que funcionalmente es igual a while, solo que se asegura que el bloque de código se ejecute al menos 1 vez. Tomando el ejemplo anterior y modificando la sintaxis se utiliza de la siguiente manera: 
 ```js
-let contador = 0
+let contador = 10
 do {
   console.log(contador);
   contador--;
 } while (contador > 0);
 
 //output
-//0
+//10
+//9
+//8
+//7
+//6
+//5
+//4
+//3
+//2
+//1
 ```
 
 ### Map
@@ -141,9 +150,7 @@ const marcas_descritas = marcas.map(function(marca) {
 console.log(marcas_descritas)
 
 //output
-//apple es increíble
-//google es increíble
-//meta es increíble
+//["apple es increíble", "google es increíble", "meta es increíble"]
 ```
 
 ### For Each
@@ -155,9 +162,9 @@ marcas.forEach(function(marca) {
 });
 
 //output
-//apple
-//google
-//meta
+//"apple"
+//"google"
+//"meta"
 ```
 
 ## Ejemplos de uso
@@ -174,12 +181,7 @@ const precios_ajustados = precios.map(function(precio){
 console.log(precios_ajustados)
 
 //output
-//22
-//33
-//30.8
-//39.6
-//25.3
-//60.5
+//[22, 33, 30.80, 39.6, 25.3, 60.50]
 ```
 
 ### Sumar valores positivos
@@ -196,7 +198,8 @@ while(numero >= 0) {
 console.log(`La suma es ${suma}.`);
 
 //output
-//la suma es {resultado de suma}
+//Para este ejemplo imaginemos que el usuario ingresa 15 y -6
+//la suma es 15
 ```
 
 Existen muchas maneras de utilizar estas herramientas iterativas en Javascript, desde recorrer arrays hasta objetos y para el caso particular de los while loops, repetir un bloque de código hasta que se cumpla una condición deseada.
