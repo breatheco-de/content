@@ -15,7 +15,7 @@ tags: ["sql alchemy","python"]
 
 SQL Alchemy is an [Object-Relational Mapper / Mapping-tool](https://en.wikipedia.org/wiki/Object-relational_mapping), or ORM: a library that developers use to create databases and manipulate their data without the need of knowing/using SQL.
 
-There are other alternatives to it like SQLAlchemy like Peewee, and other languages have their own ORM's like PHP Eloquent or Java Hibernate.
+There are alternatives SQLAlchemy. Peewee is one example of an alternative.  Other languages have their own ORM's. PHP has Eloquent, and Java has Hibernate.
 
 ## Why Use ORM?
 
