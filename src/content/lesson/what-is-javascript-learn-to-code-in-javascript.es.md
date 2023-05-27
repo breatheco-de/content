@@ -17,7 +17,7 @@ status: "published"
 
 Todo el mundo usa los computadores por diferentes razones. Algunos computadores se crean para ayudar a las personas en su oficina (como los computadores personales), otros para mantener una habitación a una temperatura específica (como [NEST](https://nest.com/es/)), otros están hechos para caminar en Marte, y muchas más cosas.
 
-No importa para qué está hecho el computador, la base de su existencia es la misma: seguir los comandos. En este capítulo, aprenderás 5 cosas básicas que necesitarás para entender cualquier computador moderno a través del código.
+No importa para qué está hecho el computador, la base de su existencia es la misma: "seguir los comandos". En este capítulo, aprenderás 5 cosas básicas que necesitarás para entender cualquier computador moderno a través del código.
 
 ## Variables
 
