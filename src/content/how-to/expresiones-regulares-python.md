@@ -1,13 +1,13 @@
 # Expresiones Regulares Python
 
-En ocasiones las operaciones de búsqueda de subcadenas pueden volverse limitadas cuando se trata de patrones más complejos. Aquí es donde las expresiones regulares toman importancia. Las expresiones regulares son patrones de búsqueda que se utilizan para encontrar coincidencias en cadenas de texto.
+Las expresiones regulares en Python se utilizan para validar y manipular texto, ya que estas son patrones que nos ayudan a encontrar coincidencias en cadenas de texto.
 
-Un ejemplo de expresión regular en Python podria ser para buscar un número de teléfono en un texto.
+Un ejemplo de expresión regular en Python podría ser para buscar un número de teléfono en un texto.
 
 ```python
 import re
 
-texto = "Hola, ¿cómo estás? Mi número de teléfono es 153156555."
+saludo = "Hola, ¿cómo estás? Mi número de teléfono es 153156555."
 
 # Buscar un número de teléfono en el texto.
 numero = re.search('\d{9}', texto)
@@ -18,131 +18,121 @@ else:
   print("No se encontró ningún número.")
 ```
 
-En este ejemplo, utilizamos la función re.search() para buscar un número de teléfono en un texto. La expresión regular '\d{9}' busca una secuencia de 9 dígitos. Si se encuentra un número, se imprime en pantalla que se encontró. De lo contrario, se muestra un mensaje indicando que no se encontró ningún número.
-
+En este ejemplo utilizamos la función `search()`, la cual buscara en la cadena de texto `saludo` si hay alguna coincidencia con la expresión regular '\d{9}', si encuentra un número que coincida con el patrón de búsqueda, se imprime en pantalla que se encontró. De lo contrario, se muestra un mensaje indicando que no se encontró ningún número.
 
 ## Metacaracteres en expresiones regulares
 
-Antes de comenzar a explicar como se utilizan las expresiones regulares en Python, debemos conocer el significado de los caracteres especiales que son utilizados para armar nuestros patrones de búsqueda. Los metacaracteres son caracteres especiales que se utilizan en las expresiones regulares para definir patrones más complejos. Algunos de los metacaracteres más comunes en las expresiones regulares son
+Antes de comenzar a explicar como se utilizan las expresiones regulares en Python, debemos conocer el significado de los metacaracteres los cuales nos ayudaran a construir nuestras expresiones regulares y asi definir nuestros patrones de búsqueda, estos son algunos de ellos.
 
-**. :** representa cualquier caracter excepto el salto de línea
+| Caracter especial     | Ejemplo                             | Descripción                                                                                    |
+| --------------------- | ----------------------------------- | ---------------------------------------------------------------------------------------------- |
+| **^**                 | expReg = / **^** a/                 | El texto debe comenzar por “a”                                                                 |
+| **$**                 | expReg = /a **$**/                  | El texto debe terminar en “a”                                                                  |
+| **\***                | expReg = /a **\***/                 | El caracter “a” debe aparecer 0 o más veces                                                    |
+| **?**                 | expReg = /abc **?**/                | Se busca “abc” en todo el texto, para ser válido debe al menos encontrar “ab”, “c” es opcional |
+| **\d**                | expReg = /**\d**/                   | Busca cualquier dígito entre 0 y 9                                                             |
+| **[]**                | expReg = /[abc]/                    | Será válido si el texto contiene a,b o c                                                       |
+| **()**                | expReg = /([a-z] {2,} [0-9] {3,5})/ | Sirve para agrupar distintas expresiones regulares                                             |
+| **{n,m}** donde m > n | expReg = /a **{3,4}**/              | Será válido si en el texto hay alguna coincidencia, con “aaa” o “aaaa”                         |
 
-**^ :** representa el inicio de una línea
+## Métodos de expresiones regulares en python
 
-**$ :** representa el final de una línea
+Para poder utilizar las expresiones regulares en Python primero debemos importar en nuestro código el módulo `re`, de esta manera podemos empezar a utilizar los métodos proporcionados por este módulo, el cual nos permitirá empezar a manipular texto haciendo uso de estas.
 
-**\* :** representa cero o más repeticiones del carácter anterior
-
-**+ :** representa una o más repeticiones del carácter anterior
-
-**? :** representa cero o una repetición del carácter anterior
-
-**\d :** coincide con cualquier dígito numérico.
-
-**\w :** coincide con cualquier carácter alfanumérico.
-
-**[] :** representa un conjunto de caracteres posibles
-
-**| :** representa una alternativa entre dos patrones
-
-**() :** agrupan patrones juntos
-
-
-## Sintaxis básica de las expresiones regulares en Python
-
-En Python, las expresiones regulares se manejan mediante el módulo **re**. Para utilizar expresiones regulares en Python, primero debemos importar este módulo. Luego, podemos utilizar las funciones y métodos proporcionados por este módulo que nos permitirá buscar y manipular texto.
-
-Veamos un ejemplo básico de cómo utilizar expresiones regulares en Python utilizando el módulo **re**. Supongamos que queremos buscar la palabra "Python" en una cadena de texto. Podemos hacerlo de la siguiente manera:
+Existen distintos métodos para trabajar con expresiones regulares en Python, por ejemplo el método `search()`, el cual busca una coincidencia en la cadena de texto y retorna un `objeto Match` (objeto que contiene información de la búsqueda) si hay coincidencia, de lo contrario devolverá `None`, cabe destacar que este método solo retornara la primera coincidencia.
 
 ```python
 import re
 
-texto = "Python es uno de los lenguajes mas utilizados por los programadores"
+frases = ["Python es uno de los lenguajes mas utilizados por los programadores", "JavaScript es uno de los lenguajes mas utilizados por los programadores"]
 
 patron = "Python"
 
-if re.search(patron, texto):
-    print("Encontrado!")
-else:
-    print("No encontrado")
+for frase in frases:
+  busqueda = re.search(patron, frase)
+  if busqueda:
+     print("Encontrado!", busqueda.group())
+  else:
+    print("No encontrado", busqueda)
+
 ```
 
-En este ejemplo, utilizamos la función search() del módulo re para buscar la cadena de texto "Python" en la variable texto. La búsqueda comienza y se detiene en la primera coincidencia encontrada. Si la cadena se encuentra en el texto, la función devuelve un objeto que podemos utilizar para realizar distintas operaciones. En este caso, simplemente imprimimos "Encontrado!" si se encuentra la palabra y "No encontrado" si no se encuentra.
+Para este ejemplo, se utiliza la función `search()` para buscar la palabra `Python` en los elementos de la lista `frases`.En este caso, en la primera iteración del ciclo for se imprimirá por la terminal `Encontrado! Python`, mientras que en la segunda iteración se imprimirá `No encontrado None`.
 
-Supongamos que ahora queremos buscar todas las palabras que comienzan con "p" en un texto. Podemos hacerlo de la siguiente manera:
+Supongamos que ahora queremos buscar todas las palabras que comienzan con `"t"` en un texto. Podemos hacerlo de la siguiente manera:
 
 ```python
 import re
 
-texto = "python es un lenguaje de programación versátil y utilizado en diferentes áreas como desarrollo web, análisis de datos e intelegencia artificial"
+texto = "tres tristes tigres, tragaban trigo en un trigal, en tres tristes trastos, tragaban trigo tres tristes tigres."
 
-patron = r"\bp\w+"
+patron = r"\bt\w+"
 
 palabras = re.findall(patron, texto)
 
-print(palabras)  # ['python', 'programación']
+print(palabras)  # ['tres', 'tristes', 'tigres', 'tragaban', 'trigo', 'trigal', 'tres', 'tristes', 'trastos', 'tragaban', 'trigo', 'tres', 'tristes', 'tigres']
 ```
 
-Para este ejemplo, utilizamos el método findall() el cual retorna una lista de todas las palabras que coinciden con el patrón.
+Para este ejemplo, utilizamos el método `findall()` el cual retorna una lista de todas las palabras que coinciden con el patrón.
 
-Otro ejemplo, en este caso muy común en el desarrollo de aplicaciones, es cuando necesitamos validar si un correo electrónico es válido o no, para ello podemos hacer uso del método match, el cual intenta encontrar una coincidencia exacta entre el patrón y el inicio de la cadena. Si se encuentra una coincidencia, la función devuelve un objeto de coincidencia. En caso contrario, devuelve None.
+Otro ejemplo, en este caso muy común en el desarrollo de aplicaciones, es cuando necesitamos validar si un correo electrónico es válido o no, para ello podemos hacer uso del método `match`, el cual intenta encontrar una coincidencia exacta entre el patrón y el inicio de la cadena. Si se encuentra una coincidencia, la función devuelve un objeto de la coincidencia. En caso contrario, devuelve None.
 
 ```python
 import re
 
 def validar_correo(correo):
-    patron = r'^[\w\.-]+@[\w\.-]+\.\w+$'
-
+    patron = r'^(?=.*[a-zA-Z])[a-zA-Z0-9_.+-]+@(gmail|hotmail|outlook)\.(com)$'
+    test = re.match(patron, correo)
     if re.match(patron, correo):
         print("Dirección de correo válida.")
     else:
         print("Dirección de correo inválida.")
 
 
-validar_correo("hola@test.com") # Dirección de correo válida.
+validar_correo("carlos@gmail.com") # Dirección de correo válida.
 validar_correo("hola.com") # Dirección de correo inválida.
 ```
 
-También existen métodos para reemplazar ciertas palabras o caracteres por otros dentro de una cadena de texto, para ello podemos utilizar el método sub(), veamos un ejemplo.
+En este ejemplo por medio del método `match()` verificamos si el correo electrónico que le pasamos a la función `validar_correo` es un correo válido `gmail`, `hotmail` o `outlook`
+
+También existen métodos que nos permiten reemplazar palabras o caracteres por otros, que se encuentren dentro de una cadena de texto, para ello podemos utilizar el método `sub()`, veamos un ejemplo.
 
 ```python
 import re
 
-# Reemplazar todas las vocales en una cadena por el carácter 'X'
-cadena = "Hola, cómo estás?"
-resultado = re.sub('[aeiou]', 'X', cadena)
-print(resultado) #HXlX, cXmX XstXs?
+# Reemplazar todas las vocales de una cadena de texto por el carácter 'X'
+frase = "las vocales son a e i o u"
+resultado = re.sub('[aeiou]', 'X', frase)
+print(resultado) # lXs vXcXlXs sXn X X X X X
 
 ```
 
-En este ejemplo, utilizamos la expresión regular [aeiou] para encontrar todas las vocales en la cadena. Luego, usamos re.sub() para reemplazar cada vocal encontrada por el carácter 'X'. El resultado es la cadena modificada donde todas las vocales han sido reemplazadas.
+En el ejemplo se utiliza la expresión regular `/[aeiou]/` para detectar todas las vocales en la cadena de texto `frase`. Luego, usamos el método `sub()` para reemplazar cada vocal encontrada por el caracter `'X'`. La variable `resultado` será la cadena de texto `frase` modificada, donde todas las vocales han sido reemplazadas.
 
-En ocasiones necesitamos dividir algún texto en partes excluyendo algún tipo de delimitador, como puede ser un espacio vacío, una coma, un punto, etc. Podemos hacer uso del método split(), veamos un ejemplo
+En ocasiones necesitamos dividir algún texto en partes, excluyendo algún tipo de delimitador, como puede ser un espacio vacío, una coma, un punto, etc. Para ello podemos hacer uso del método `split()`, veamos un ejemplo.
 
 ```python
 import re
 
-# Dividir una cadena en palabras utilizando espacios y signos de puntuación como separadores
-cadena = "Hola, ¿cómo estás? ¡Espero que bien!"
-resultado = re.split('\W+', cadena)
-print(resultado) #['Hola', 'cómo', 'estás', 'Espero', 'que', 'bien', '']
+texto = "Hola, ¿cómo estás? Espero que bien"
+resultado = re.split('\W+', texto)
+print(resultado) # ['Hola', 'cómo', 'estás', 'Espero', 'que', 'bien']
 ```
 
-Al usar re.split(), obtenemos una lista con todas las palabras de la cadena, excluyendo los separadores.
-
+Al usar `split()`, obtenemos una lista con todas las palabras de la cadena, excluyendo todos los caracteres que non son alfanuméricos.
 
 ## Casos de uso comunes de las expresiones regulares en Python
 
 Luego de haber entendido como son las expresiones regulares con python y ver algunos ejemplos de como implementarlas, podemos enumerar algunos casos de uso comunes
 
 1. Validar formatos: Las expresiones regulares permiten verificar
-   si una cadena cumple con un formato específico, como direcciones de
+   si una cadena de texto cumple con un patrón específico, como direcciones de
    correo electrónico, números de teléfono o contraseñas.
 
-2. Extracción de información: Puedes utilizar expresiones regulares
+2. Extraer información: Se pueden utilizar expresiones regulares
    para extraer datos específicos de un texto, como fechas, URLs, nombres o números.
 
-3. Filtrado de contenido: Con las expresiones regulares, es posible
+3. Filtrar contenido: Con las expresiones regulares, es posible
    filtrar y eliminar contenido no deseado de un texto, como etiquetas
    HTML, caracteres especiales o espacios en blanco innecesarios.
 
