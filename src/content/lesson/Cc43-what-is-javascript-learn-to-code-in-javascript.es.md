@@ -162,9 +162,9 @@ Por ejemplo, si quiero un computador para dar dulces solo a niños mayores de 13
 
 |**Operación**  |**Sintaxis**   |**Ejemplos**   |
 |:--------------|:--------------|:--------------|
-|Igual a     |==             |Es 5 == 5? True!<br>Es 5 == 4? False!<br>Es 5 == '5'? True!    |
+|Igual a     |==             |Es 5 == 5? True!<br>Es 5 == 4? False!<br>Es 5 == '5'? True!  < br > Es 5 === '5 FALSO!   
 |No Igual a    |!=             |Es 5 != 5? False!<br>Es 5 != '5'? False!<br>Es 1 != 'Hello' True!   |
-|Mayor que   |>              |Es 5 > 5? False!<br>Es 6 > 3? True!    |
+|Mayor que   |>              |Es 5 > 5? False!<br>Es 6 > 3? True!    
 |Menos que    |<              |Es 6 < 12? True            |
 |Mayor o igual |>=             |Es 6 <= 6? True<br>Es 3 <= 6? True    |
 |Menor o igual  |<=            |Tienes la idea 🙂       |
