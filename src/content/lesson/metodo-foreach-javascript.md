@@ -15,11 +15,11 @@ animales.forEach(function (animal) {
 */
 ```
 
-Podemos ver como el método `forEach` iterra el array `animales` y aplica a cada uno de sus elementos la función que recibe como parámetro. Para este ejemplo la función simplemente muestra el valor de cada elemento del array en la consola.
+Podemos ver como el método `forEach` itera el array `animales` y aplica a cada uno de sus elementos la función que recibe como parámetro. Para este ejemplo la función simplemente muestra el valor de cada elemento del array en la consola.
 
 ## Sintaxis del método forEach en JavaScript
 
-Como se mencionó anteriormente, el método `forEach` recibe como parámetro una función que se ejecutará en cada uno de los elementos del array. Esta función también conocida como [función callback](https://developer.mozilla.org/es/docs/Glossary/Callback_function) puede recibir hasta tres parámetros: el valor del elemento actual, el índice del elemento actual y el array donde estamos ejecutando el método.
+Como se mencionó anteriormente, el método `forEach` recibe como parámetro una función que se ejecutará en cada uno de los elementos del array. Esta función también conocida como [función callback](https://developer.mozilla.org/es/docs/Glossary/Callback_function) puede recibir hasta tres parámetros: el valor del elemento actual, el índice del elemento actual y el array que se esta recorriendo.
 
 ```js
   array.forEach(function(elementoActual, indice, array))
