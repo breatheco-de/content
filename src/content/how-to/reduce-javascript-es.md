@@ -16,7 +16,7 @@ console.log("Suma total: ", sumaTotal);
 Suma total: 15
 ```
 
-En este ejemplo el método `reduce()` de javascript suma todos los números del array  **numeros** y luego guarda ese resultado en la constante **sumaTotal** para despues 
+En este ejemplo el método `reduce()` de javascript suma todos los números del array  **numeros** y luego guarda ese resultado en la constante **sumaTotal** para después 
 mostralo el resultado en la consola.
 
 ## ¿Cómo funciona el método reduce en Javascript?   
@@ -32,26 +32,42 @@ El método `reduce()` de Javascript recibe dos  parámetros:
 ```js
 const numeros = [1, 2, 3, 4, 5];  
 
-const sumaTotal = numeros.reduce(
-    function (acumulador, elemento, indice, array){
-        return acumulador + elemento;
-    }, 
-    0
-);
+function funcionReductora(acumulador, elemento, indice, array) {
+    return acumulador + elemento;
+}
+
+const valorInicial = 0;
+const sumaTotal = numeros.reduce(funcionReductora, valorInicial);
 
 console.log("Suma total: ", sumaTotal); // (output) Suma total: 15
 ```
 
+ - `funcionReductora`:  es la función reductora del array y recibe cuatro parámetros:
+   -  `acumulador`: es la variable que guarda el valor único que se reduce.
+   - `elemento`: es el elemento del array en cada iteración.
+   - `indice`:  es el índice de los elemento del array ( opcional ).
+   - `array`: es el array que deseas reducir ( opcional ).
 
-( 1 ). El primer parámetro que recibe el método `reduce()` de Javascript es la **función reductora** que puede recibir hasta cuatro parámetros y retorna un único valor. Estos parámetros son:
- - El parámetro ( **acumulador** ) es la variable que guarda el valor único que se reduce `15`.
- - El parámetro ( **elemento** ) es el elemento del array en cada iteración `1, 2, 3, 4, 5`.
- - El parámetro ( **indice** ) es el índice de los elemento del array `0, 1, 2, 3, 4` ( PARÁMETRO OPCIONAL ).
- - El parámetro ( **array** ) es el array que deseas reducir `[1, 2, 3, 4, 5]` ( PARÁMETRO OPCIONAL ).
+ - `valorInicial `: es el valor inicial que toma la función reductora, este valor puede ser de cualquier tipo de dato un número, una cadena de texto, un objeto o un nuevo array.  
 
-( 2 ). El segundo parámetro que recibe el método `reduce()` de Javascript es el valor inicial que toma la función reductora, este valor puede ser de cualquier tipo de dato un número, una cadena de texto, un objeto o un nuevo array.  
+> Aunque este segundo parámetro es opcional es una buena práctica colocarlo siempre ya que de no colocarlo la función reductora del método toma como valor inicial el primer valor del array que recorremos y si le pasas un array vacío te arroja un error.
 
-> Es importante señalar que aunque este segundo parámetro es opcional es recomendable por buenas prácticas colocarlo siempre ya que si no lo colocas el parámetro ( **acumulador** ) de la funcion reductora toma como valor inicial el primer valor del array y si le pasas un array vacío te arroja un error.
+En el siguiente ejemplo verás un poco mejor cómo funcionan estos parámetros.
+
+```js
+const numeros= [1, 2, 3, 4, 5];
+
+numeros.reduce((acumulador, elemento, indice, array) => {
+    console.log(`${acumulador}: este es el valor del acumulador en cada iteración`);
+    console.log(`${elemento}: este es el valor del elemento`);
+    console.log(`${indice}: este es el índice del elemento en el array`);
+    console.log(`${array}: este es el array que estamos recorriendo`);
+
+    return acumulador + elemento;
+}, 0);
+```
+
+En este ejemplo, la función reductora del método `reduce()` recibe los cuatro parámetros y simplemente muestra en la consola una cadena de texto que indica el valor de cada uno de los parámetros. Es importarte resaltar que de todos los parámetros que recibe la función reductora solo los parámetros **acumulador** y **elemento** se utilizan siempre, los parámetros **indice** y **array** son opcionales y solo se utilizan en ocasiones específicas.
 
 ## Ejemplos de uso del método reduce en Javascript
 
@@ -64,16 +80,16 @@ Como mencionamos anteriormente el método `reduce()` de javascript te permite ob
 
 ```js 
 const ciudades = [
-  { id: 1, nombre: "New york", temperatura: "25 grados" },
-  { id: 2, nombre: "Los Ángeles", temperatura: "30 grados" },
-  { id: 3, nombre: "Chicago", temperatura: "15 grados" },
-  { id: 4, nombre: "Queens", temperatura: "27 grados" },
+  { id: 1, nombre: "New york", temperatura: 25 },
+  { id: 2, nombre: "Los Ángeles", temperatura: 30 },
+  { id: 3, nombre: "Chicago", temperatura: 15 },
+  { id: 4, nombre: "Queens", temperatura: 27 }
 ];
 
 const sumaDeLasTemperaturas = ciudades.reduce((acumulador, ciudad, indice) => {
-  console.log(`La temperatura de la ciudad de ${ciudad.nombre} es de ${ciudad.temperatura}`);
+  console.log(`La temperatura de la ciudad de ${ciudad.nombre} es de ${ciudad.temperatura} grados`);
 
-  const temperaturaCiudad = Number(ciudad.temperatura.split(" ")[0]);
+  const temperaturaCiudad = ciudad.temperatura;
   return acumulador + temperaturaCiudad;
 }, 0);
 
@@ -165,3 +181,5 @@ la página oficial de Mozilla Javascript [metodo reduce](https://developer.mozil
 Si estas interesado en conocer más información sobre el lenguaje de programación Javascript te invito a que visites el siguiente articulo [aprende a programar](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) 
 de 4Geeks Academy en el cual encontrarás una gran cantidad de información sobre este lenguaje con ejemplos de código, videotutoriales y muchas cosas más que te ayudarán a mejorar tus 
 habilidades en Javascript.
+
+
