@@ -1,22 +1,25 @@
 # Foreach JavaScript
 
-El método `forEach` en JavaScript permite recorrer un array y aplicar en cada uno de sus elementos una acción en particular a través de una función.
+El método `forEach` en JavaScript permite recorrer un array y aplicar en cada uno de sus elementos una acción en particular a través de una función. Veamos un ejemplo.
 
 ```js
-const letras = ["a", "b", "c"];
+const animales = ["perro", "gato", "elefante"];
 
-letras.forEach(function (letra) {
-  console.log(letra);
+animales.forEach(function (animal) {
+  console.log(animal);
 });
+/*
+'perro'
+'gato'
+'elefante'
+*/
 ```
 
-En este ejemplo, el método `forEach` recorre el array `letras` y aplica la función que se le pasó como parámetro a cada uno de sus elementos. En este caso, la función simplemente muestra el valor de cada elemento en la consola.
-
-Foreach en JavaScript recibe como parámetro una función,también conocida como [función callback](https://developer.mozilla.org/es/docs/Glossary/Callback_function). Esta función puede recibir hasta tres parámetros, los cuales son en este mismo orden: el valor del elemento actual, el índice del elemento actual y el array donde estamos ejecutando el método.
+Podemos ver como el método `forEach` itera el array `animales` y aplica a cada uno de sus elementos la función que recibe como parámetro. Para este ejemplo la función simplemente muestra el valor de cada elemento del array en la consola.
 
 ## Sintaxis del método forEach en JavaScript
 
-Como se mencionó anteriormente, el método `forEach` recibe como parámetro una función que se ejecutará en cada uno de los elementos del array. Esta función puede recibir hasta tres parámetros:
+Como se mencionó anteriormente, el método `forEach` recibe como parámetro una función que se ejecutará en cada uno de los elementos del array. Esta función también conocida como [función callback](https://developer.mozilla.org/es/docs/Glossary/Callback_function) puede recibir hasta tres parámetros: el valor del elemento actual, el índice del elemento actual y el array que se esta recorriendo.
 
 ```js
   array.forEach(function(elementoActual, indice, array))
@@ -36,62 +39,52 @@ vocales.forEach(function (vocal, indice, arr) {
 });
 ```
 
-Para este ejemplo, la función que se le pasó como parámetro al método `forEach` en JavaScript recibe los tres parámetros que puede recibir. La función simplemente muestra en la consola una cadena de texto que indica el valor del elemento, su índice y el array completo. Sin embargo, cuando utilizamos el método forEach el parámetro que más se utiliza es el valor del elemento actual. Los parámetros del índice y el array son opcionales y son usados para casos específicos donde se requiere un mayor control o información adicional.
+En este ejemplo podemos observar, como hacer uso de los parámetros que recibe la función callback del método `forEach`, en este caso se imprime por consola una cadena de texto que indica el valor del elemento actual, su posición en el array y el array que se esta iterando.
 
 ## Casos de uso del método forEach en JavaScript
 
 El método `forEach` en JavaScript se utiliza comúnmente para ejecutar un bloque de código para cada elemento de un array. A continuación, veremos algunos casos de uso:
 
-1. **Modificar los valores de un array:** Podemos utilizar el método forEach para modificar los valores de un array. Por ejemplo, multiplicar por dos cada uno de los elementos de un array:
+1. **Modificar los valores de un array:** Podemos utilizar el método `forEach` para modificar los valores de un array. Por ejemplo, podríamos a partir de un array de nombres de personas generar un saludo para cada una.
 
 ```js
-let numeros = [1, 2, 3];
+let nombresPersonas = ["Ricardo", "Pepe", "Mauricio"];
 
-numeros.forEach(function (numero) {
-  numero = numero * 2;
+nombresPersonas.forEach(function (nombre) {
+  console.log(`Hola ${nombre}`);
 });
-
-console.log(numeros); // [2, 4, 6]
+/*
+'Hola Ricardo'
+'Hola Pepe'
+'Hola Mauricio'
+*/
 ```
 
-2. **Acciones en el DOM:** Si estamos trabajando con elementos del DOM, como una lista de elementos `<li>`, podemos utilizar `forEach` para agregar o eliminar clases, aplicar estilos o interactuar con ellos de alguna manera.
+2. **Manipulación del DOM:** Podemos generar una lista de productos de forma dinámica haciendo uso del método `forEach`
 
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-    <style>
-      .resaltado {
-        background-color: yellow;
-        font-weight: bold;
-      }
-    </style>
-  </head>
+  <head> </head>
   <body>
-    <h1>Mi lista de compras</h1>
-    <ul id="miLista">
-      <li>Manzanas</li>
-      <li>Pasta</li>
-      <li>Arroz</li>
-      <li>Mantequilla</li>
-    </ul>
+    <h1>Mi lista de Productos</h1>
+    <ul id="miLista"></ul>
 
     <script>
-      // Obtenemos todos los elementos <li> dentro de la lista
-      const listaElementos = document.querySelectorAll("#miLista");
+      const listaProductos = ["Celular", "Laptop", "Audifonos", "TV"];
+      let ul = document.querySelector("#miLista");
 
-      // Utilizamos forEach para recorrer cada elemento y agregar una clase
-      listaElementos.forEach(function (elemento) {
-        elemento.classList.add("resaltado");
+      listaProductos.forEach(function (producto) {
+        let li = document.createElement("li");
+        li.textContent = producto;
+        ul.appendChild(li);
       });
     </script>
   </body>
 </html>
 ```
 
-Podemos observar que tenemos una lista desordenada `<ul>` con tres elementos de lista `<li>`. Aplicamos el método `forEach` a la colección de elementos seleccionados y dentro de la función callback usamos `classList.add()` para agregar la clase "resaltado" a cada elemento.
-
-La clase `resaltado` está definida en el bloque de estilos CSS. Agrega un fondo amarillo y un texto en negrita a los elementos con esta clase. Así que al ejecutar el código, cada elemento de la lista tendrá esos estilos.
+Podemos observar que originalmente nuestro documento HTML solo cuenta con una lista desordenada `<ul>` vacia. Haciendo uso del método `forEach`, creamos una etiqueta `<li>` a partir del método `createElement()`, luego le añadimos texto a través de la propiedad `textContent` que en este caso sera el nombre del producto actual que se te iterando y por último añadimos la etiqueta `<li>` como hijo a la etiqueta `<ul>` haciendo uso de `appendChild`, obteniendo asi una lista dinámica en nuestro documento HTML.
 
 3. **Filtrar los elementos de un array:** El método `forEach` nos puede ayudar a la hora que necesitemos filtrar los elementos de un array. Por ejemplo, necesitamos filtrar todos los productos que tengan un precio superior a $100.
 
@@ -125,7 +118,7 @@ console.log(productosFiltrados);
 */
 ```
 
-4. **Actualizar propiedades de objetos en un array:** A través del método `forEach` podemos modificar propiedades de un grupo de objetos que se encuentran dentro de un array. Por ejemplo, de un arrays de estudiantes podemos modificar la nota de cada uno de ellos
+4. **Actualizar propiedades de objetos en un array:** Podemos hacer uso del método `forEach` para modificar propiedades de un grupo de objetos que se encuentran dentro de un array. Por ejemplo, de un arrays de estudiantes podemos modificar la nota de cada uno de ellos.
 
 ```js
 const estudiantes = [
@@ -148,23 +141,21 @@ console.log(estudiantes);
 */
 ```
 
-En este ejemplo, la función callback del método `forEach` le suma 5 a la nota de cada estudiante.
-
 5. **Calcular la suma de todos los elementos de un array:** Podemos utilizar el método `forEach` para sumar todos los elementos de un array.
 
 ```js
 const numeros = [1, 2, 3, 4, 5];
 let total = 0;
 
-numeros.forEach((elemento) => {
-  total += elemento;
+numeros.forEach((numero) => {
+  total += numero;
 });
 
 console.log(total); // 15
 ```
 
-Es importante mencionar que el método `forEach` no devuelve un array nuevo. Su propósito principal es realizar acciones sobre los elementos existentes en el array. Si necesitamos crear un nuevo array basado en la transformación de los elementos originales, podemos utilizar otros métodos como `map`, `filter` o `reduce`.
+Es importante conocer que el método `forEach` no retorna un array nuevo. Este tiene como función principal iterar y ejecutar una función sobre cada elemento del array. Si necesitas crear un nuevo array a partir de los elementos originales, podemos utilizar otros métodos como `map` o `filter`.
 
-El método `forEach` es una herramienta muy útil en JavaScript ya que nos permite iterar a través de arrays y realizar una acción especifica en cada elemento. Al comprender cómo utilizar el método y sus parámetros, puedes escribir un código más eficiente. Si te gustaría saber mas acerca de este método puedes visitar la documentación oficial de JavaScript [método forEach](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach).
+Si te gustaría saber mas acerca de este método puedes visitar la documentación oficial de JavaScript [método forEach](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach).
 
 Si leyendo este articulo te llamo la atención y te gustaría saber más sobre el lenguaje de programación JavaScript, puedes visitar este link [aprende a programar](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript), donde podrás aprender las bases del lenguaje, a través de conceptos simples, ejemplos de código, videotutoriales y muchos otros recursos que serán útiles para tu aprendizaje.
