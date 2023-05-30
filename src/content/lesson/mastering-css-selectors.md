@@ -9,6 +9,11 @@ status: "published"
 
 ---
 
+# Hello equation
+
+$$V_{sphere} = \frac{4}{3}\pi r^3$$
+
+
 ## Why Do We Need to Learn About Selectors?
 
 Completing a stylesheet is like having a little war between selectors, you are constantly overriding previously defined styles with new ones:
