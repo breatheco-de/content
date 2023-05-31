@@ -1,7 +1,7 @@
 ---
 title: "¿Cómo usar el método Foreach en Javascript?"
 subtitle: "Descubre cómo utilizar el método forEach en JavaScript para iterar y realizar operaciones en elementos de un arreglo."
-tags: ["javascript,arrays"]
+tags: ["javascript","arrays"]
 authors: ["diegorojas"]
 
 ---
