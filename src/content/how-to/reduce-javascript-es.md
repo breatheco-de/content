@@ -21,8 +21,7 @@ mostralo el resultado en la consola.
 
 ## ¿Cómo funciona el método reduce en Javascript?   
 
-El método [reduce](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) de javascript es un método de [arrays](https://4geeks.com/es/lesson/array-arreglo-en-javascript) 
-que te permite reducir un array a un solo valor, este array puede contener cualquier tipo de dato un número, un cadena de texto, un objeto o incluso un nuevo array. Este método es muy útil para sumar los números de un array, conseguir el valor promedio de la suma de los números de un array y muchas cosas más! Básicamente lo puedes usar para reducir o incluso para 
+El método [reduce](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) de javascript es un método de [arrays](https://4geeks.com/es/lesson/array-arreglo-en-javascript) que te permite reducir un array a un solo valor, este array puede contener cualquier tipo de dato un número, un cadena de texto, un objeto o incluso un nuevo array. Este método es muy útil para sumar los números de un array, conseguir el valor promedio de la suma de los números de un array y muchas cosas más! Básicamente lo puedes usar para reducir o incluso para 
 filtrar los elementos de un array.
 
 ## Sintaxis del método reduce de Javascript
