@@ -40,9 +40,9 @@ When you learn in public you: create in social media, you write in notebooks and
 - Reach out to developers you admire: If you liked a video, write something to the author. If you like a library, make a Pull Request fixing a misspelling, or enhancing the documentation or coding a new feature!
 - Join events and conferences: Meet with other developers and opportunities will start coming in.
 
-## Reasons you have to procrastinate about this:
+## Most common procrastination thoughts:
 
-### I don't have anything to say
+### I don't have anything to say in social media.
 
 I really doubt that, learning to code is hard and people read a lot about it and they need emotional support, just like with your testimonial you are helping a lot of people who will be interested in learning more about your story.
 
