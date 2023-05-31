@@ -26,19 +26,10 @@ filtrar los elementos de un array.
 
 ## Sintaxis del método reduce de Javascript
 
-El método `reduce()` de Javascript recibe dos  parámetros:
+El método `reduce()` de Javascript recibe dos parámetros:
 
 ```js
-const numeros = [1, 2, 3, 4, 5];  
-
-function funcionReductora(acumulador, elemento, indice, array) {
-    return acumulador + elemento;
-}
-
-const valorInicial = 0;
-const sumaTotal = numeros.reduce(funcionReductora, valorInicial);
-
-console.log("Suma total: ", sumaTotal); // (output) Suma total: 15
+Array.reduce(funcionReductora, valorInicial);
 ```
 
  - `funcionReductora`:  es la función reductora del array y recibe cuatro parámetros:
