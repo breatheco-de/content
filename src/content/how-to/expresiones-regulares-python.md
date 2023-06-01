@@ -2,7 +2,7 @@
 
 Las expresiones regulares en Python se utilizan para validar y manipular texto, ya que estas son patrones que nos ayudan a encontrar coincidencias en cadenas de texto.
 
-Un ejemplo de expresión regular en Python podría ser para buscar un número de teléfono en un texto.
+Un ejemplo de uso de una expresión regular en Python podría ser para buscar un número de teléfono en un texto.
 
 ```python
 import re
@@ -18,11 +18,11 @@ else:
   print("No se encontró ningún número.")
 ```
 
-En este ejemplo utilizamos la función `search()`, la cual buscara en la cadena de texto `saludo` si hay alguna coincidencia con la expresión regular '\d{9}', si encuentra un número que coincida con el patrón de búsqueda, se imprime en pantalla que se encontró. De lo contrario, se muestra un mensaje indicando que no se encontró ningún número.
+En este ejemplo utilizamos la función `search()`, la cual buscará en la cadena de texto `saludo` si hay alguna coincidencia con la expresión regular '\d{9}', si encuentra un número que coincida con el patrón de búsqueda, se imprime en pantalla que se encontró. De lo contrario, se muestra un mensaje indicando que no se encontró ningún número.
 
 ## Metacaracteres en expresiones regulares
 
-Antes de comenzar a explicar como se utilizan las expresiones regulares en Python, debemos conocer el significado de los metacaracteres los cuales nos ayudaran a construir nuestras expresiones regulares y asi definir nuestros patrones de búsqueda, estos son algunos de ellos.
+Antes de comenzar a explicar como se utilizan las expresiones regulares en Python, debemos conocer el significado de los metacaracteres los cuales nos ayudarán a construir nuestras expresiones regulares y asi definir nuestros patrones de búsqueda, estos son algunos de ellos.
 
 | Caracter especial     | Ejemplo                             | Descripción                                                                                    |
 | --------------------- | ----------------------------------- | ---------------------------------------------------------------------------------------------- |
@@ -35,7 +35,7 @@ Antes de comenzar a explicar como se utilizan las expresiones regulares en Pytho
 | **()**                | expReg = /([a-z] {2,} [0-9] {3,5})/ | Sirve para agrupar distintas expresiones regulares                                             |
 | **{n,m}** donde m > n | expReg = /a **{3,4}**/              | Será válido si en el texto hay alguna coincidencia, con “aaa” o “aaaa”                         |
 
-## Métodos de expresiones regulares en python
+## Métodos de Expresiones Regulares en Python
 
 Para poder utilizar las expresiones regulares en Python primero debemos importar en nuestro código el módulo `re`, de esta manera podemos empezar a utilizar los métodos proporcionados por este módulo, el cual nos permitirá empezar a manipular texto haciendo uso de estas.
 
@@ -95,7 +95,7 @@ validar_correo("hola.com") # Dirección de correo inválida.
 
 En este ejemplo por medio del método `match()` verificamos si el correo electrónico que le pasamos a la función `validar_correo` es un correo válido `gmail`, `hotmail` o `outlook`
 
-También existen métodos que nos permiten reemplazar palabras o caracteres por otros, que se encuentren dentro de una cadena de texto, para ello podemos utilizar el método `sub()`, veamos un ejemplo.
+También existen métodos que nos permiten reemplazar palabras o caracteres por otros, que se encuentren dentro de una cadena de texto, para ello podemos utilizar el método `sub()`, veamos un ejemplo:
 
 ```python
 import re
@@ -119,21 +119,16 @@ resultado = re.split('\W+', texto)
 print(resultado) # ['Hola', 'cómo', 'estás', 'Espero', 'que', 'bien']
 ```
 
-Al usar `split()`, obtenemos una lista con todas las palabras de la cadena, excluyendo todos los caracteres que non son alfanuméricos.
+Al usar `split()`, obtenemos una lista con todas las palabras de la cadena, excluyendo todos los caracteres que no son alfanuméricos.
 
 ## Casos de uso comunes de las expresiones regulares en Python
 
-Luego de haber entendido como son las expresiones regulares con python y ver algunos ejemplos de como implementarlas, podemos enumerar algunos casos de uso comunes
+Luego de haber entendido cómo utilizar las expresiones regulares en Python y ver algunos ejemplos de como implementarlas, podemos enumerar algunos casos de uso comunes, como lo son:
 
-1. Validar formatos: Las expresiones regulares permiten verificar
-   si una cadena de texto cumple con un patrón específico, como direcciones de
-   correo electrónico, números de teléfono o contraseñas.
+1. Validar formatos: Las expresiones regulares permiten verificar si una cadena de texto cumple con un patrón específico, como direcciones de correo electrónico, números de teléfono o contraseñas.
 
-2. Extraer información: Se pueden utilizar expresiones regulares
-   para extraer datos específicos de un texto, como fechas, URLs, nombres o números.
+2. Extraer información: Se pueden utilizar expresiones regulares para extraer datos específicos de un texto, como fechas, URLs, nombres o números.
 
-3. Filtrar contenido: Con las expresiones regulares, es posible
-   filtrar y eliminar contenido no deseado de un texto, como etiquetas
-   HTML, caracteres especiales o espacios en blanco innecesarios.
+3. Filtrar contenido: Con las expresiones regulares, es posible filtrar y eliminar contenido no deseado de un texto, como etiquetas HTML, caracteres especiales o espacios en blanco innecesarios.
 
 En resumen, las expresiones regulares en Python son una herramienta esencial para trabajar con texto y realizar operaciones avanzadas de búsqueda y manipulación. Con lo aprendido en este artículo, deberías ser capaz de utilizar expresiones regulares en tus propios proyectos de Python.
