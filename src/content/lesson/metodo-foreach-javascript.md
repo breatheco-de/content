@@ -6,7 +6,7 @@ authors: ["diegorojas"]
 
 ---
 
-El método `forEach` en [JavaScript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) permite recorrer un array y aplicar en cada uno de sus elementos una acción en particular a través de una función. Veamos un ejemplo.
+El método `forEach` en [JavaScript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) permite recorrer un array y aplicar en cada uno de sus elementos una acción en particular a través de una función. Veamos un ejemplo:
 
 ```js
 const animales = ["perro", "gato", "elefante"];
@@ -21,7 +21,7 @@ animales.forEach(function (animal) {
 */
 ```
 
-Podemos ver como el método `forEach` itera el array `animales` y aplica a cada uno de sus elementos la función que recibe como parámetro. Para este ejemplo la función simplemente muestra el valor de cada elemento del array en la consola.
+Podemos observar como el método `forEach` itera el array `animales` y aplica a cada uno de sus elementos la función que recibe como parámetro. Para este ejemplo la función simplemente muestra el valor de cada elemento del array en la consola.
 
 ## Sintaxis del método forEach en JavaScript
 
@@ -164,4 +164,4 @@ Es importante conocer que el método `forEach` no retorna un array nuevo. Este t
 
 Si te gustaría saber mas acerca de este método puedes visitar la documentación oficial de JavaScript para el [método forEach](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach).
 
-Si leyendo este articulo te llamo la atención y te gustaría saber más sobre el lenguaje de programación JavaScript, puedes visitar este link sobre [aprende a programar en javascript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript), donde podrás aprender las bases del lenguaje, a través de conceptos simples, ejemplos de código, videotutoriales y muchos otros recursos que serán útiles para tu aprendizaje.
+Si leyendo este articulo te llamo la atención y te gustaría saber más sobre el lenguaje de programación JavaScript, puedes visitar este link sobre [aprender a programar en javascript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript), donde podrás aprender las bases del lenguaje, a través de conceptos simples, ejemplos de código, videotutoriales y muchos otros recursos que serán útiles para tu aprendizaje.
