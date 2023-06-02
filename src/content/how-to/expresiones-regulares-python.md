@@ -18,7 +18,7 @@ else:
   print("No se encontró ningún número.")
 ```
 
-En este ejemplo utilizamos la función `search()`, la cual buscará en la cadena de texto `saludo` si hay alguna coincidencia con la expresión regular '\d{3}-\d{3}-\d{4}', si encuentra un número que coincida con el patrón de búsqueda, se imprime en pantalla que se encontró. De lo contrario, se muestra un mensaje indicando que no se encontró ningún número.
+En este ejemplo utilizamos la función `search()`, la cual buscará en la cadena de texto `saludo` si hay alguna coincidencia con la expresión regular `/\d{3}-\d{3}-\d{4}/`, si encuentra un número que coincida con el patrón de búsqueda, se imprime en pantalla que se encontró. De lo contrario, se muestra un mensaje indicando que no se encontró ningún número.
 
 ## Metacaracteres en expresiones regulares
 
