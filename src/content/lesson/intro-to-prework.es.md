@@ -1,6 +1,6 @@
 ---
 title: "Introducción al Pre Work"
-subtitle: "Nosotros sabemos lo que hacemos, tu deberias saberlo también.  Conoce el proceso que hemos pulido para que puedas aprender 2 años de contenido en unas pocas semanas."
+subtitle: "Nosotros sabemos lo que hacemos, tu deberías saberlo también.  Conoce el proceso que hemos pulido para que puedas aprender 2 años de contenido en unas pocas semanas."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-## Dándole la Vuelta
+## Dándole la vuelta
 
 
 Hay muchos cursos de programación por ahí; algunos incluso son gratis.  Si te uniste a 4Geeks Academy, es porque eres como nosotros.  Realmente crees que las habilidades difíciles de aprender como programar requieren mucho más que solo artículos y videos online o tutoriales que hacen parecer todo fácil.
@@ -18,7 +18,7 @@ Programar es difícil porque solo se puede aprender con infinitas cantidades de 
 
 Entonces, se nos ocurrió esta plataforma en línea.  Estos contenidos te guiarán a lo largo del programa.  Habrá una infinita cantidad de ejercicios/proyectos.  La clase se enfocará en capacitarte.  Te presentaremos un desafío tras otro, pero siempre bajo la supervisión de un senior que observará y te ayudará en todo tu proceso.  4Geeks es el lugar para leer, aprender y practicar hasta que grabes todo de forma permanente en tu cerebro.
 
-## ¿Así Que Prefieres No Leer Mucho?
+## ¿Así que prefieres no leer mucho?
 
 Quieres aprender la habilidad más requerida dentro de los próximos 30 años, pero sin leer en absoluto – lo entendemos.
 
@@ -28,7 +28,7 @@ El Pre-Work es probablemente la fase más importante para convertirse en un desa
 
 ![short attention meme](https://github.com/breatheco-de/content/blob/master/src/assets/images/angry-baby.jpeg?raw=true)
 
-## Pero y ¿Si crees Que Ya Sabes?
+## Pero y ¿Si crees que ya sabes?
 
 Hay algunos de ustedes que ya tienen alguna experiencia con la programación (principalmente con HTML y CSS), y algunos de ustedes sin ninguna experiencia en lo absoluto.  Esa es la razón principal por la que esta etapa se conoce como **Pre-Work**.  Necesitamos evaluar el nivel de experiencia de cada participante del programa.  El Pre-Work también nos permite conocerte. Conocer sobre tu proceso y curva de aprendizaje, nos ayuda a guiarte hacia la obtención de los mejores resultados posibles.
 
@@ -38,13 +38,13 @@ Realmente necesitamos conocerte mejor.  Necesitamos estar seguros de que tienes 
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/assets/images/bd90ba64-ded5-4fb2-b23f-7d297125e3a5.jpeg?raw=true" width="300">
 </p>
 
-## Este Curso Funciona, pero Debes Confiar en Nosotros
+## Este curso funciona, pero debes confiar en nosotros.
 
 El cerebro humano requiere mucha energía para tomar cualquier decisión, especialmente cuando muchas variables participan en la ecuación.  Este curso es difícil porque estamos rediseñando la forma en que se toma decisiones: tendrás que pensar de manera similar a cómo piensan las computadoras.  Llegará un momento en el que todo se convertirá en un comportamiento adquirido.
 
 Si te sientes abrumado y confundido, <span style="color:#993300">**¡¡pide ayuda!!**</span> Y, **continúa con el trabajo duro –** ¡lo lograrás!  Todas las lecciones son acumulativas, lo que significa que cada ejercicio requerirá que uses todo lo que has aprendido en el pasado.
 
-### ¡Por Favor Pide Ayuda!
+### ¡Por Favor pide ayuda!
 
 ¿Has leído sobre Einstein?  Las personas realmente inteligentes son las que siempre hacen más preguntas. No tienen miedo a no saber o cometer errores. La única manera en que realmente podemos ayudarte es si nos pides ayuda. Para poder hacerlo, cuando estés estancado y hayas intentado resolver tu duda por tu cuenta durante algunos minutos, pregunta en nuestro canal de Slack [#Public_Support](https://4geeksacademy.slack.com/archives/CAZ9W99U4), pero antes lee estos consejos sobre [¿Cómo hacer preguntas de programación?](https://4geeks.com/es/how-to/como-hacer-preguntas-de-programacion). 
 
