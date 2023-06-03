@@ -153,8 +153,24 @@ La gran mayoría de direcciones de email se componen esencialmente de 3 textos u
 - La segunda parte `([a-zA-Z0-9.-]+)` nuevamente permite cualquier letra minúscula o mayúscula, cualquier dígito del `0` al `9` pero ahora únicamente permitiremos los caracteres `.-` que puede contener el nombre de dominio antes del punto y finalmente también agregamos el caracter `+` para indicar que la longitud de esta parte puede ser mayor a 1.
 - La tercera parte `([a-zA-Z]{2,6})` se refiere al texto que va despues del punto en el nombre de dominio, por lo que vamos a permitir únicamente letras minusculas o mayúsculas y al cerrar el `]` agregamos la expresión `{2,6}` para indicar que este texto debe tener al menos 2 caracteres y no puede ser mayor de 6 caracteres.
 
-Como hemos visto anterioremente cada una de estas expresiones individuales debe de ir dentro de parentesis `()`.
+Como hemos visto anterioremente cada una de estas expresiones individuales debe de ir dentro de parentesis `()`.  
+  
+## Lista de metacaracteres para expresiones regulares en Java
+  
+Las expresiones regulares permiten el uso de ciertos caracteres especiales o "metacaracteres" que cuentan con un significado predefinido. Estos metacaracteres nos ayudan a simplificar la expresión regular.    
+Por ejemplo; en vez de utilizar la expresión `[a-zA-Z0-9_]` para indicar la busqueda de letras minúsculas y mayúsculas, dígitos del `0` al `9` y `_`, simplemente utilizamos la expresión `\\w` que contiene las mismas reglas.  
+A continuación podemos encontrar un listado de los metacaracteres más utilizados en Java:  
 
+|Caracter | Descripción |
+|:------:|--------------|
+| `.`	| Cualquier caracter. |
+| `\\d` | Dígitos. Equivalenta a `[0-9]` |
+| `\\D` |	Caracteres que no sean dígitos. Equivalente a `[^0-9]` |
+| `\\s` |	Espacio en blanco. Equivalente a `[\t\n\x0B\f\r]` que incluye, espacio, tab, nueva linea, tab vertical, salto de página y retorno de carrete. |
+| `\\S` |	Caracteres que no sean espacio en blanco. Equivalente a `[^\s]`. |
+| `\\w` |	Palabras o nombres de usuario. Equivalente a `[a-zA-Z_0-9]`. |
+| `\\W`	| Caracteres que no sean palabras. Equivalente a `[^\w]`. |
+  
 ## Casos de uso de las expresiones regulares en Java
 
 Algunos de los casos de uso más comunes para las expresiones regulares en Java son:
