@@ -11,7 +11,7 @@ status: "published"
 
 ## Bootstrap viene a arreglar el 90% de los problemas de CSS
 
-Hay una luz al final del túnel y no es Chuck Norris con una linterna. ¡Finalmente alguien arregló CSS!  Es una biblioteca hecha por [Mark Otto](https://twitter.com/mdo?lang=en) y [Jacob Thornton](https://twitter.com/fat)- personas normales, programadores como tú y como yo, y ¡es genial!
+Hay una luz al final del túnel y no es Chuck Norris con una linterna. ¡Finalmente alguien arregló CSS!  Es una biblioteca hecha por [Mark Otto](https://twitter.com/mdo?lang=en) y [Jacob Thornton](https://twitter.com/fat) personas normales, programadores como tú y como yo, y ¡es genial!
 
 Dos chicos, mientras trabajaban en Twitter, estaban sufriendo los mismos problemas que nosotros con HTML y CSS. Hartos de esta situación (como tú y yo), decidieron crear una **hoja base que puede importarse en cualquier sitio web**. Esto hizo el trabajo de todos los desarrolladores front-end 4 veces más fácil.
 
@@ -26,7 +26,7 @@ Uno de los defectos en CSS, es la forma en que funcionan los layouts: trabajar c
 
 ## Ahora todo está dividido en Filas y Columnas
 
-Los creadores de Bootstrap, replicaron el mismo concepto que tienen las `<table>`, pero en vez de usar tablas usaron `<div>` (contenedores de cajas). Ellos no podían crear sus propias etiquetas en HTML, porque eso requiere una nueva versión de HTML e iba a hacer a Bootstrap incompatible con los navegadores actuales. Las etiquetas debían ser las mismas - por eso decidieron anular el comportamiento que tiene un `<div>` por defecto con las clases.
+Los creadores de Bootstrap, replicaron el mismo concepto que tienen las `<table>`, pero en vez de usar tablas usaron `<div>` (contenedores de cajas). Ellos no podían crear sus propias etiquetas en HTML, porque eso requiere una nueva versión de HTML e iba a hacer a Bootstrap incompatible con los navegadores actuales. Las etiquetas debían ser las mismas, por eso decidieron anular el comportamiento que tiene un `<div>` por defecto con las clases.
 
 ```html
 Esto es una fila: <div class="row">
@@ -34,7 +34,7 @@ Esto es una columna: <div class="col–sm–x">
 ```
 ![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/3884f515-dd7a-48f2-b238-9e2ec26de02d.png?raw=true)
 
-Bootstrap ha dividido el ancho de la pantalla en  `12 slots` (espacios) - cada uno de ellos con un ancho de fila total  de 8.33%. El tamaño de una columna, puede ir de entre 1 y 12 slots o espacios.
+Bootstrap ha dividido el ancho de la pantalla en  `12 slots` (espacios) cada uno de ellos con un ancho de fila total  de 8.33%. El tamaño de una columna, puede ir de entre 1 y 12 slots o espacios.
 
 Por otro lado, las columnas fueron hechas para vivir dentro de las filas (como pasa entre `<td>` y `<tr>`),  siempre necesitas abrir una fila antes de abrir una columna.  Todas las columnas en una fila deben sumar un máximo de 12 espacios.
 
@@ -134,7 +134,7 @@ La funcionalidad de Javascript en Bootstrap requiere que se incluyan las librer�
 ## Componentes de Bootstrap 4
 
 
-HTML es súper básico, sólo tiene un par de etiquetas - ya los sabíamos. Pero cuando revisas la web hoy en día, ves otra cosa… actualmente las páginas web tienen menús, íconos, barras de carga, etc. ¿Dónde están esas etiquetas? ¡Ninguna de ellas está definida en HTML!
+HTML es súper básico, sólo tiene un par de etiquetas ya los sabíamos. Pero cuando revisas la web hoy en día, ves otra cosa… actualmente las páginas web tienen menús, íconos, barras de carga, etc. ¿Dónde están esas etiquetas? ¡Ninguna de ellas está definida en HTML!
 
 Todos los desarrolladores tienen que simular estos elementos adicionales cada vez que crean un sitio web, tienen que hacer todo desde cero y eso toma muchísimo tiempo.
 
@@ -148,7 +148,7 @@ Cuando importas Bootstrap en tu página web, tendrás un nuevo conjunto de compo
 
 #### Barra de navegación o NavBar
 
-Esto es tan popular que se encuentra en el 99% de los menús de todos los sitios web.  Normalmente contiene el logo de la compañía y unas series de links - dependiendo de la lógica de negocio de la página. 
+Esto es tan popular que se encuentra en el 99% de los menús de todos los sitios web.  Normalmente contiene el logo de la compañía y unas series de links dependiendo de la lógica de negocio de la página. 
 
 Aquí hay un ejemplo de cómo se ve un NavBar en un sitio web:
 
