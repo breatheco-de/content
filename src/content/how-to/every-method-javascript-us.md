@@ -1,6 +1,6 @@
 ## Method every() Javascript
 
-There are occasions when we need to check if all of the elements in an array meet a given condition, in this situation we can use the Javascript `every()` method to test if all of the elements satisfy this condition. In the following example, we use this method to test if all of the numbers of an array are greater than 10.
+Sometimes we need to check if all of the elements in an array meet a given condition, in this situation we can use the Javascript `every()` method to test if all of the elements satisfy this condition. In the following example, we use this method to test if all of the numbers of an array are greater than 10.
 
 ```js
 const arrayNumbersOne = [13, 15, 17, 25, 34];
@@ -13,7 +13,7 @@ console.log(resultArrayOne); // (output) true
 console.log(resultArrayTwo); // (output) false
 ```
 
-In this example with have two different arrays with numbers and we use the `every()` method to check if all the numbers are greater than 10. All the numbers in the first array are effectively greater than 10 so the callback function returns `true`, while the second one does not satisfy this condition so the callback function returns `false`.
+In this example with have two different arrays with numbers and we use the `every()` method to check if all the numbers are greater than 10. All the numbers in the first array are greater than 10 so the callback function returns `true`, while the second one does not satisfy this condition so the callback function returns `false`.
 
 ## How does the Javascript every method work?
 
