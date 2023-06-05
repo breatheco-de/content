@@ -80,3 +80,5 @@ Los dos atributos más importantes que deben establecerse en la etiqueta `<form>
 
 > :point_up: Si vas a utilizar el ` <input type =" file ">` el único método admitido es POST.
 
+:)
+
