@@ -7,6 +7,22 @@ Para poder aplicar una expresión regular en Java necesitamos escencialmente de 
     
 - Cadena de texto: Este será cualquier texto en el cual queremos realizar la búsqueda. Debe de ser de tipo `String`.
 
+## Lista de metacaracteres para expresiones regulares en Java
+  
+Las expresiones regulares permiten el uso de ciertos caracteres especiales o "metacaracteres" que cuentan con un significado predefinido. Estos metacaracteres nos ayudan a simplificar la expresión regular.    
+Por ejemplo; en vez de utilizar la expresión `[a-zA-Z0-9_]` para indicar la busqueda de letras minúsculas y mayúsculas, dígitos del `0` al `9` y `_`, simplemente utilizamos la expresión `\\w` que contiene las mismas reglas.  
+A continuación podemos encontrar un listado de los metacaracteres más utilizados en Java:  
+
+|Caracter | Descripción |
+|:------:|--------------|
+| `.`	| Cualquier caracter. |
+| `\\d` | Dígitos. Equivalenta a `[0-9]` |
+| `\\D` |	Caracteres que no sean dígitos. Equivalente a `[^0-9]` |
+| `\\s` |	Espacio en blanco. Equivalente a `[\t\n\x0B\f\r]` que incluye, espacio, tab, nueva linea, tab vertical, salto de página y retorno de carrete. |
+| `\\S` |	Caracteres que no sean espacio en blanco. Equivalente a `[^\s]`. |
+| `\\w` |	Palabras o nombres de usuario. Equivalente a `[a-zA-Z_0-9]`. |
+| `\\W`	| Caracteres que no sean palabras. Equivalente a `[^\w]`. |
+
 ## Expresiones regulares en Java utilizando la biblioteca java.util.regex
 
 Para poder aplicar expresiones regulares con la librería `java.util.regex`, primero, debemos utilizar el método `compile()` de la clase `Pattern` para registrar la expresión regular, luego con ayuda del método `matcher()` registramos el texto en el que realizaremos la búsqueda y finalmente utilizando la clase, `Matcher`, aplicaremos el método `find()` que realizará un scan en el texto previamente registrado, permitiendo encontrar multiples coincidencias.
@@ -154,22 +170,6 @@ La gran mayoría de direcciones de email se componen esencialmente de 3 textos u
 - La tercera parte `([a-zA-Z]{2,6})` se refiere al texto que va despues del punto en el nombre de dominio, por lo que vamos a permitir únicamente letras minusculas o mayúsculas y al cerrar el `]` agregamos la expresión `{2,6}` para indicar que este texto debe tener al menos 2 caracteres y no puede ser mayor de 6 caracteres.
 
 Como hemos visto anterioremente cada una de estas expresiones individuales debe de ir dentro de parentesis `()`.  
-  
-## Lista de metacaracteres para expresiones regulares en Java
-  
-Las expresiones regulares permiten el uso de ciertos caracteres especiales o "metacaracteres" que cuentan con un significado predefinido. Estos metacaracteres nos ayudan a simplificar la expresión regular.    
-Por ejemplo; en vez de utilizar la expresión `[a-zA-Z0-9_]` para indicar la busqueda de letras minúsculas y mayúsculas, dígitos del `0` al `9` y `_`, simplemente utilizamos la expresión `\\w` que contiene las mismas reglas.  
-A continuación podemos encontrar un listado de los metacaracteres más utilizados en Java:  
-
-|Caracter | Descripción |
-|:------:|--------------|
-| `.`	| Cualquier caracter. |
-| `\\d` | Dígitos. Equivalenta a `[0-9]` |
-| `\\D` |	Caracteres que no sean dígitos. Equivalente a `[^0-9]` |
-| `\\s` |	Espacio en blanco. Equivalente a `[\t\n\x0B\f\r]` que incluye, espacio, tab, nueva linea, tab vertical, salto de página y retorno de carrete. |
-| `\\S` |	Caracteres que no sean espacio en blanco. Equivalente a `[^\s]`. |
-| `\\w` |	Palabras o nombres de usuario. Equivalente a `[a-zA-Z_0-9]`. |
-| `\\W`	| Caracteres que no sean palabras. Equivalente a `[^\w]`. |
   
 ## Casos de uso de las expresiones regulares en Java
 
