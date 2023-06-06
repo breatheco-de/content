@@ -100,32 +100,32 @@ When possible avoid using nested functions like:
 
 ```python
 def calculate_discount(item, quantity):
-  if item.category == 'clothing':
-    if quantity >= 10:
-      return item.price * 0.9
+    if item.category == 'clothing':
+        if quantity >= 10:
+            return item.price * 0.9
+        else:
+            return item.price * 0.95
+    elif item.category == 'electronics':
+        if quantity >= 5:
+            return item.price * 0.8
+        else:
+            return item.price * 0.9
     else:
-      return item.price * 0.95
-  elif item.category == 'electronics':
-    if quantity >= 5:
-      return item.price * 0.8
-    else:
-      return item.price * 0.9
-  else:
-    return item.price
+        return item.price
 ```
 
 The code is nested too deeply and has a complex structure that can be difficult to follow. This can be improved by refactoring the code to use fewer levels of nesting, or by using early returns or refactoring the conditional statements to simplify the structure. Here is an example:
 
 ```python
 def calculate_discount(item, quantity):
-  if item.category != 'clothing' and item.category != 'electronics':
-    return item.price
-  
-  discount = 1.0
-  if item.category == 'clothing':
-    discount = 0.9 if quantity >= 10 else 0.95
-  else:
-    discount = 0.8 if quantity >= 5 else 0.9
-  
-  return item.price * discount
+    if item.category != 'clothing' and item.category != 'electronics':
+        return item.price
+
+    discount = 1.0
+    if item.category == 'clothing':
+        discount = 0.9 if quantity >= 10 else 0.95
+    else:
+        discount = 0.8 if quantity >= 5 else 0.9
+
+    return item.price * discount
 ```
