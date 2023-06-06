@@ -16,12 +16,19 @@ A continuación podemos encontrar un listado de los metacaracteres más utilizad
 |Caracter | Descripción |
 |:------:|--------------|
 | `.`	| Cualquier caracter. |
-| `\\d` | Dígitos. Equivalenta a `[0-9]` |
-| `\\D` |	Caracteres que no sean dígitos. Equivalente a `[^0-9]` |
-| `\\s` |	Espacio en blanco. Equivalente a `[\t\n\x0B\f\r]` que incluye, espacio, tab, nueva linea, tab vertical, salto de página y retorno de carrete. |
-| `\\S` |	Caracteres que no sean espacio en blanco. Equivalente a `[^\s]`. |
-| `\\w` |	Palabras o nombres de usuario. Equivalente a `[a-zA-Z_0-9]`. |
-| `\\W`	| Caracteres que no sean palabras. Equivalente a `[^\w]`. |
+| `[ ]` | Indica un rango de valores o una serie de caracteres específicos con los que debe coincidir. Ej: `[abc]` |
+| `^`   | Inicio de la cadena de caracteres. |
+| `-`   | Indica un rango de caracteres. Ej: `[a-z]` letras de la `a` a la `z` |
+| `?`   | Indica que los caracteres anteriores a este pueden coincidir 1 sola vez o ninguna. |
+| `+`   | Indica que los caracteres anteriores a este pueden coincidir 1 o multiples veces. |
+| `*`	| Indica que los caracteres anteriores a este pueden coincidir ninguna vez o multiples veces. |
+| `( )`	| Indica un grupo de expresiones regulares. |
+| `\`	| Caracter de escape, sirve para utilizar un metacaracter como si fuese un caracter normal. |
+| `$`	| Indica el final de la cadena de caracteres. |
+| `|`	| Coincide con una frase o caracter con ortografía alternativa. |
+| `??`	| Es coincidente con cierta parte de los caracteres o rangos de valores opcionales. |
+| `+?`	| Es coincidente con cierta parte de los caracteres o rangos de valores opcionales. La parte coincidente puede repetirse una o varias veces.|
+| `*?`	| Es coincidente con cierta parte de los caracteres o rangos de valores opcionales. La parte coincidente puede repetirse 0 o multiples veces. |
 
 ## Expresiones regulares en Java utilizando la biblioteca java.util.regex
 
