@@ -1,6 +1,13 @@
-## Method every() Javascript
+---
+title: "How to use the Javascript Array method Every?"
+subtitle: "Learn how to effectively use the Every method in JavaScript arrays. Discover its features, syntax, and practical examples to optimize your coding skills and data manipulations."
+tags: ["javascript","arrays"]
+authors: ["diegorojas"]
 
-Sometimes we need to check if all of the elements in an array meet a given condition, in this situation we can use the Javascript `every()` method to test if all of the elements satisfy this condition. In the following example, we use this method to test if all of the numbers of an array are greater than 10.
+---
+
+
+Sometimes we need to check if all of the elements in an array meet a given condition, in this situation we can use the [Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript) `every()` method to test if all of the elements satisfy this condition. In the following example, we use this method to test if all of the numbers of an array are greater than 10.
 
 ```js
 const arrayNumbersOne = [13, 15, 17, 25, 34];
@@ -165,6 +172,6 @@ The second event handler is the **onSubmit** function where first we check if al
 
 ## Conclusion
 
-In conclusion, the  `every()` method of Javascript will help you check if the elements inside an array satisfy a given condition, you can use this method in many different ways not only the ones presented in this article, if you want to know in more detail this method you can visit the official documentation of Mozilla Javascript [method every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every).
+In conclusion, the  `every()` method of JavaScript will help you check if the elements inside an array satisfy a given condition, you can use this method in many different ways not only the ones presented in this article, if you want to know in more detail this method you can visit the  [official documentation of Mozilla Javascript about the every method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every). You can check our website to learn about others methods like the [array some method in JavaScript](https://4geeks.com/how-to/javascript-array-some-method) or you can learn [how to find the interception of arrays in JavaScript](https://4geeks.com/how-to/javascript-array-intersection), all in the [4Geeks Blog](https://4geeks.com/).
 
-If you want to check your knowledge of the Javascript programming language, I highly recommend you to visit the page [learn to code](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript) where can learn this programming language even from scratch, this page has good explanations with code examples, video tutorials and, many other features that will help you understand or reinforce your knowledge in the programming language Javascript.
+If you want to check your knowledge of the JavaScript programming language, I highly recommend you to visit the page our article about [learn to code in JavaScript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript), where you can learn this programming language even from scratch, this page has good explanations with code examples, video tutorials and, many other features that will help you understand or reinforce your knowledge in the programming language JavaScript.
