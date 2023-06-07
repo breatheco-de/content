@@ -21,8 +21,8 @@ console.log("Suma total: ", sumaTotal);
 Suma total: 15
 ```
 
-En este ejemplo el método `reduce()` de javascript suma todos los números del array  **numeros** y luego guarda ese resultado en la constante **sumaTotal** para después 
-mostralo el resultado en la consola.
+En este ejemplo el método `reduce()` de javascript suma todos los números del array **números** y luego guarda ese resultado en la constante **sumaTotal** para después 
+mostrar el resultado en la consola.
 
 ## ¿Cómo funciona el método reduce en Javascript?   
 
