@@ -1,6 +1,6 @@
 ---
-title: "Coding tutorials with LearnPack"
-subtitle: "Everything you need to learn about LearnPack, our choosen tutorial engine for coding content"
+title: "Tutoriales de programación con LearnPack"
+subtitle: "Todo lo que necesitas saber sobre LearnPack, nuestro motor de tutoriales elegido para enseñarte"
 cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
 textColor: "white"
 date: "2020-10-19T16:36:30+00:00"
@@ -8,35 +8,35 @@ tags: ["learnpack"]
 status: "published"
 
 ---
-A lo largo de este curso vas a ver aquí y allá la palabra "LearnPack"; usarás LearnPack BASTANTE para practicar tutoriales de codificación y pequeños ejercicios. Este artículo es un intento de explicar qué es y cómo usarlo para que puedas ejecutar todos los tutoriales sin problemas.
+A lo largo de este curso vas a ver aquí y allá la palabra "LearnPack"; usarás LearnPack BASTANTE para practicar tutoriales de programación y pequeños ejercicios. Este artículo es un intento de explicar qué es y cómo usarlo para que puedas ejecutar todos los tutoriales sin problemas.
 
 ## ¿Qué es LearnPack?
 
-LearnPack es un administrador de paquetes (package manager) para tutoriales y ejercicios interactivos. Es como `Coursera.com` pero solo para codificar.
+LearnPack es un administrador de paquetes (package manager) para tutoriales y ejercicios interactivos. Es como `Coursera.com` pero solo para programar.
 
 ### ¿Qué hace que LearnPack sea tan único?
 
 En lugar de mirar un video o leer un artículo, LearnPack presentará pequeños desafíos de forma incremental; cada uno se calificará automáticamente para obtener comentarios instantáneos y una solución de tutorial en video (algunas veces).
 
-> Esta es la mejor manera de aprender habilidades relacionadas con la codificación.
+> Esta es la mejor manera de aprender habilidades relacionadas con la programación.
 
 ## Cómo usar LearnPack
 
 La mayoría de los tutoriales de LearnPack vienen con un botón etiquetado: "Nuevo ejercicio" o "Continuar ejercicio"
 
-![Learnpack Alert on 4geeks.com](https://github.com/breatheco-de/content/blob/master/src/assets/images/learnpack-alert.e.png?raw=true)
+![Alerta de LearnPack 4geeks.com](https://github.com/breatheco-de/content/blob/master/src/assets/images/learnpack-alert.e.png?raw=true)
 
 Luego de darle clic en "Nuevo ejercicio" una nueva computadora se abrirá, y LearnPack va a empezar a correr inmediatamente.  
 
 Todos los tutoriales de LearnPack  vienen en pasos; vas a encontrar las instrucciones del lado derecho y un botón para continuar al siguiente paso " `next ->`"
 
-![Learnpack explanation](https://github.com/breatheco-de/content/raw/master/src/assets/images/learnpack-explanation.e.png?raw=true)
+![Explicación de LearnPack](https://github.com/breatheco-de/content/raw/master/src/assets/images/learnpack-explanation.e.png?raw=true)
 
 ## Reiniciando LearnPack
 
-Si no puedes encontrar las instrucciones a la derecha, puedes empezar los ejercicios de nuevo escribiendo `LearnPack start` en el terminal.
+Si no puedes encontrar las instrucciones a la derecha, puedes empezar los ejercicios de nuevo escribiendo `learnpack start` en el terminal.
 
-```
+```bash
 $ learnpack start
 ```
 
