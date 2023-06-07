@@ -37,7 +37,7 @@ Entonces, ¿por qué clonar un repositorio te preguntarás? Clonar un proyecto t
 
 Y todo esto sin necesidad de estar conectado a internet. Solo necesitaremos una conexión a internet cuando queramos "compartir" nuestro trabajo con alguien más o cuando queramos subir nuestro trabajo a GitHub.
 
-![Clonación thing GIF](https://c.tenor.com/AQM9IEdO0K8AAAAd/clone.gif?raw=true)
+![GIF clonando algo](https://c.tenor.com/AQM9IEdO0K8AAAAd/clone.gif?raw=true)
 
 En la siguiente sección, profundizaremos en ejemplos más detallados de **cómo clonar un repositorio de github** y también **cómo hacerle fork cualquier repositorio de github**.
 
