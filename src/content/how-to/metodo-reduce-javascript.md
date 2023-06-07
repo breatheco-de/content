@@ -21,8 +21,7 @@ console.log("Suma total: ", sumaTotal);
 Suma total: 15
 ```
 
-En este ejemplo el método `reduce()` de javascript suma todos los números del array **números** y luego guarda ese resultado en la constante **sumaTotal** para después 
-mostrar el resultado en la consola.
+En este ejemplo el método `reduce()` de javascript suma todos los números del array **números** y luego guarda ese resultado en la constante **sumaTotal** para después mostrar el resultado en la consola.
 
 ## ¿Cómo funciona el método reduce en Javascript?   
 
@@ -65,8 +64,7 @@ En este ejemplo, la función reductora del método `reduce()` recibe los cuatro 
 
 ## Ejemplos de uso del método reduce en Javascript
 
-El método `reduce()` de Javascript tiene diversos casos de uso, desde obtener la suma total de los números de un array, obtener el valor promedio de la suma de los números de un array, 
-filtrar los valores de un array entre muchas cosas más, veremos algunos ejemplos a continuación.
+El método `reduce()` de Javascript tiene diversos casos de uso, desde obtener la suma total de los números de un array, obtener el valor promedio de la suma de los números de un array, filtrar los valores de un array entre muchas cosas más, veremos algunos ejemplos a continuación.
 
 ### 1. Obtener el valor promedio de un array
 
@@ -158,10 +156,7 @@ console.log("El número más grande del array es", numeroMaximo);
 El número más grande del array es 2000
 ```
 
-En este ejemplo hacemos uso del método `reduce()` de Javascript para encontrar el número más grande de un array, en la función reductora del array creamos una estructura condicional 
-**if** para verificar si el valor actual en la iteración es más grande que el valor inicial **numMax** el cual tiene un valor de `Number.NEGATIVE_INFINITY` que es el número negativo más 
-grande con el que puede trabajar Javascript, si el valor actual es más grande que la variable **numMax** entonces a esta variable le asignamos el valor actual, de esta forma la variable 
-**numMax** tendrá como valor el número más grande del array el cual retorna en la última iteración y se guarda en la constante **numeroMaximo**.
+En este ejemplo hacemos uso del método `reduce()` de Javascript para encontrar el número más grande de un array, en la función reductora del array creamos una estructura condicional **if** para verificar si el valor actual en la iteración es más grande que el valor inicial **numMax** el cual tiene un valor de `Number.NEGATIVE_INFINITY` que es el número negativo más grande con el que puede trabajar Javascript, si el valor actual es más grande que la variable **numMax** entonces a esta variable le asignamos el valor actual, de esta forma la variable **numMax** tendrá como valor el número más grande del array el cual retorna en la última iteración y se guarda en la constante **numeroMaximo**.
 
 ## Conclusión
 
