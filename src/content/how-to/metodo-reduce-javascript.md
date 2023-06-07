@@ -1,5 +1,5 @@
 ---
-title: "Dominando el Método Reduce en JavaScript: Simplifica Operaciones de Datos Complejas"
+title: "¿Cómo usar el método reduce en Javascript?"
 subtitle: "Aprende a simplificar operaciones de datos complejas con el método reduce en JavaScript. Descubre ejemplos prácticos y mejora tus habilidades de programación."
 tags: ["javascript","arrays"]
 authors: ["diegorojas"]
