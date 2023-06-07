@@ -1,4 +1,12 @@
-Las expresiones regulares (regex) en Java son sumamente útiles cuando queremos extraer cierta información de un texto por medio de patrones específicos de búsqueda. Al ser aplicados, estos patrones coincidirán con uno o más caracteres y nos darán como resultado únicamente la información que buscabamos.  
+---
+title: "Expresiones Regulares en Java: Guía Completa para su Uso"
+subtitle: "Aprende a utilizar expresiones regulares en Java para buscar y manipular patrones de texto. Descubre cómo aprovechar esta poderosa herramienta en tus proyectos de programación."
+tags: ["java","expresiones-regulares"]
+authors: ["diegorojas"]
+
+---
+
+Las [expresiones regulares](https://4geeks.com/es/lesson/regex-tutorial-regular-expression-ejemplo) (regex) en Java son sumamente útiles cuando queremos extraer cierta información de un texto por medio de patrones específicos de búsqueda. Al ser aplicados, estos patrones coincidirán con uno o más caracteres y nos darán como resultado únicamente la información que buscabamos.  
 
 Una expresion regular puede ser un caracter único como por ejemplo la letra `"a"` o puede ser mucho más complicado, como en este regex; `"^([a-zA-Z0-9._%-]+)@([a-zA-Z0-9.-]+).([a-zA-Z]{2,6})$"` en el que se definen una serie de reglas para encontrar direcciones de email.
 Para poder aplicar una expresión regular en Java necesitamos escencialmente de 2 partes:
@@ -37,7 +45,7 @@ Para poder aplicar expresiones regulares con la librería `java.util.regex`, pri
 Debido a que el método `find()` va escaneando el texto de principio a fin en busca de coincidencias, debemos utilizar un ciclo `while` si queremos obtener cada una de estas coincidencias, de lo contrario unicamente obtendremos la primera coincidencia.
 La clase `Matcher` también nos permite obtener el texto que ha coincidido con la búsqueda, por medio del método `group()`, así como el índice de inicio y final de la úbicación de este texto encontrado por medio de los métodos `start()` y `end()`.
 
-A continuación podemos ver un ejemplo en el cuál hacemos uso de todos estos métodos para obtener la información que buscamos a través de las expresiones regulares.
+A continuación podemos ver un [ejemplo de expresiones regulares](https://4geeks.com/es/how-to/ejemplos-expresiones-regulares) en el cuál hacemos uso de todos estos métodos para obtener la información que buscamos a través de las expresiones regulares.
 
 ```java
 import java.util.regex.Pattern;
@@ -190,4 +198,4 @@ Algunos de los casos de uso más comunes para las expresiones regulares en Java 
 
 ## Conclusión
 
-Las expresiones regulares son extremadamente útiles para extraer información de cualquier texto buscando una o más coincidencias de un patrón de búsqueda específico. Para poder utilizar de forma correcta estas expresiones es necesario conocer las distintas reglas que podemos aplicar dependiendo de cada caso de uso y así sacar el mayor provecho de esta herramienta.
+Las expresiones regulares son extremadamente útiles para extraer información de cualquier texto buscando una o más coincidencias de un patrón de búsqueda específico. Para poder utilizar de forma correcta estas expresiones es necesario conocer las distintas reglas que podemos aplicar dependiendo de cada caso de uso y así sacar el mayor provecho de esta herramienta. Puedes leer más sobre [expresiones regulares en Javascript](https://4geeks.com/es/lesson/expresiones-regulares-javascript) y sonbre las [expresiones regulares en Python](https://4geeks.com/es/lesson/expresiones-regulares-python) en el [Blog de 4Geeks](https://4geeks.com/).
