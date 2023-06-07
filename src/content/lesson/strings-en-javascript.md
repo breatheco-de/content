@@ -2,7 +2,7 @@
 title: "¿Qué es un string en Javascript?"
 subtitle: "Descubre qué es un string en JavaScript y cómo se utiliza para almacenar y manipular texto. Aprende los conceptos básicos y ejemplos prácticos en esta guía."
 tags: ["javascript","string-concatenation"]
-authors: ["diegorojas"]
+authors: ["jul1998"]
 
 ---
 
@@ -33,9 +33,9 @@ Este tipo de dato tiene muchos propósitos y funciones que se van a listar aquí
 Es muy simple declarar un [string en JavaScript](https://4geeks.com/es/lesson/working-with-strings-in-java-es). Lo que se debe hacer es escribir algún texto (Puede contener letras, números, o signos) y encerrarlo ya sea con comillas simples o dobles (no habrá ninguna diferencia).
 
 ```js
-    let mensajeEnString = "Hola Mundo! Esto es un string";
+let mensajeEnString = "Hola Mundo! Esto es un string";
 
-    let otroMensaje = 'Otro mensaje, pero esta vez con comillas simples';
+let otroMensaje = 'Otro mensaje, pero esta vez con comillas simples';
 ```
 
 A continuación, se mostrarán casos de uso con los strings.
