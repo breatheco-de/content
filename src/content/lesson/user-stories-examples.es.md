@@ -39,7 +39,10 @@ Una historia de usuario es como tener una conversación con su futuro usuario. D
 ### ¿Cómo debes escribir las historias de usuario?
 
 
-Es tan simple que se vuelve complicado ... lo más importante es: (1) Mantener un lenguaje simple, (2) Ser breve, y, (3) Ser específico:
+Es tan simple que se vuelve complicado ... lo más importante es: 
+(1) Mantener un lenguaje simple
+(2) Ser breve
+(3) Ser específico
 
 + **Rol:**  ¿Quién es capaz de usar la función?
 + **Característica:** ¿De qué se trata la característica?
