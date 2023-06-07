@@ -1,8 +1,14 @@
-# Expresiones Regulares Python
+---
+title: "Expresiones Regulares en Python: Domina la Potencia del Patrón de Búsqueda"
+subtitle: "Aprende a utilizar expresiones regulares en Python para buscar y manipular patrones de texto. Descubre cómo aprovechar esta poderosa herramienta."
+tags: ["python","expresiones-regulares"]
+authors: ["diegorojas"]
+
+---
 
 Las expresiones regulares en Python se utilizan para validar y manipular texto, ya que estas son patrones que nos ayudan a encontrar coincidencias en cadenas de texto.
 
-Un ejemplo de uso de una expresión regular en Python podría ser para buscar un número de teléfono en un texto.
+Un [ejemplo de uso de una expresión regular en Python](https://4geeks.com/es/lesson/regex-tutorial-regular-expression-ejemplo) podría ser para buscar un número de teléfono en un texto.
 
 ```python
 import re
@@ -123,7 +129,7 @@ Al usar `split()`, obtenemos una lista con todas las palabras de la cadena, excl
 
 ## Casos de uso comunes de las expresiones regulares en Python
 
-Luego de haber entendido cómo utilizar las expresiones regulares en Python y ver algunos ejemplos de como implementarlas, podemos enumerar algunos casos de uso comunes, como lo son:
+Luego de haber entendido cómo utilizar las expresiones regulares en [Python](https://4geeks.com/technology/python) y ver algunos ejemplos de como implementarlas, podemos enumerar algunos casos de uso comunes, como lo son:
 
 1. Validar formatos: Las expresiones regulares permiten verificar si una cadena de texto cumple con un patrón específico, como direcciones de correo electrónico, números de teléfono o contraseñas.
 
@@ -131,4 +137,4 @@ Luego de haber entendido cómo utilizar las expresiones regulares en Python y ve
 
 3. Filtrar contenido: Con las expresiones regulares, es posible filtrar y eliminar contenido no deseado de un texto, como etiquetas HTML, caracteres especiales o espacios en blanco innecesarios.
 
-En resumen, las expresiones regulares en Python son una herramienta esencial para trabajar con texto y realizar operaciones avanzadas de búsqueda y manipulación. Con lo aprendido en este artículo, deberías ser capaz de utilizar expresiones regulares en tus propios proyectos de Python.
+En resumen, las expresiones regulares en Python son una herramienta esencial para trabajar con texto y realizar operaciones avanzadas de búsqueda y manipulación. Con lo aprendido en este artículo, deberías ser capaz de utilizar expresiones regulares en tus propios proyectos de Python, si deseas conocer más sobre [qué es Python](https://4geeks.com/es/lesson/que-es-python-tutorial) puedes revisar el [Blog de 4Geeks](https://4geeks.com/).
