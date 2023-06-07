@@ -1,7 +1,12 @@
-## Método Reduce Javascript
+---
+title: "Dominando el Método Reduce en JavaScript: Simplifica Operaciones de Datos Complejas"
+subtitle: "Aprende a simplificar operaciones de datos complejas con el método reduce en JavaScript. Descubre ejemplos prácticos y mejora tus habilidades de programación."
+tags: ["javascript","arrays"]
+authors: ["diegorojas"]
 
-El método `reduce()` en Javascript te permite reducir los elementos de un array y retornar un valor único. A continuación veremos un ejemplo bastante común haciendo uso de este método 
-para conseguir el valor total de la suma de un array de números.
+---
+
+El método `reduce()` en [JavaScript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) te permite reducir los elementos de un array y retornar un valor único. A continuación veremos un ejemplo bastante común haciendo uso de este método para conseguir el valor total de la suma de un array de números.
 
 ```js
 const numeros = [1, 2, 3, 4, 5];
@@ -21,7 +26,7 @@ mostralo el resultado en la consola.
 
 ## ¿Cómo funciona el método reduce en Javascript?   
 
-El método [reduce](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) de javascript es un método de [arrays](https://4geeks.com/es/lesson/array-arreglo-en-javascript) que te permite reducir un array a un solo valor, este array puede contener cualquier tipo de dato un número, un cadena de texto, un objeto o incluso un nuevo array. Este método es muy útil para sumar los números de un array, conseguir el valor promedio de la suma de los números de un array y muchas cosas más! Básicamente lo puedes usar para reducir o incluso para 
+El [método reduce](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) es un método de [arrays en JavaScript](https://4geeks.com/es/lesson/array-arreglo-en-javascript) que te permite reducir un array a un solo valor, este array puede contener cualquier tipo de dato un número, un cadena de texto, un objeto o incluso un nuevo array. Este método es muy útil para sumar los números de un array, conseguir el valor promedio de la suma de los números de un array y muchas cosas más! Básicamente lo puedes usar para reducir o incluso para 
 filtrar los elementos de un array.
 
 ## Sintaxis del método reduce de Javascript
@@ -130,10 +135,7 @@ console.log(contador);
 }
 ```
 
-En este ejemplo usamos el método `reduce()` para contar cuántas veces aparecen cada uno de los elementos del array, primero le pasamos la función reductora y luego como segundo 
-parámetro le pasamos un objeto vacío como valor inicial `{}`, creamos una estructura condicional **if** en la función reductora y verificamos si el objeto **acumulador** no contiene la 
-propiedad actual en la iteración `!acumulador.hasOwnProperty(fruta)` de ser así creamos esa propiedad en el objeto y le asignamos el valor de 1 `acumulador[fruta] = 1`, de lo contrario 
-si el objeto ya contiene esa propiedad incrementamos el valor en esa propiedad `acumulador[fruta]++`, de esta forma contamos cuántas veces aparecen cada uno de los elementos en el array **frutas**.
+En este ejemplo usamos el método `reduce()` para contar cuántas veces aparecen cada uno de los elementos del array, primero le pasamos la función reductora y luego como segundo parámetro le pasamos un objeto vacío como valor inicial `{}`, creamos una estructura condicional **if** en la función reductora y verificamos si el objeto **acumulador** no contiene la propiedad actual en la iteración `!acumulador.hasOwnProperty(fruta)` de ser así creamos esa propiedad en el objeto y le asignamos el valor de 1 `acumulador[fruta] = 1`, de lo contrario si el objeto ya contiene esa propiedad incrementamos el valor en esa propiedad `acumulador[fruta]++`, de esta forma contamos cuántas veces aparecen cada uno de los elementos en el array **frutas**.
 
 ### 3. Obtener el valor máximo de un array
 
@@ -164,12 +166,8 @@ grande con el que puede trabajar Javascript, si el valor actual es más grande q
 
 ## Conclusión
 
-En conclusión el método `reduce()` de Javascript te permite reducir o filtrar un array de elementos y te devuelve un único valor, este método es muy útil y tiene muchas aplicación en la 
-programación con Javascript, además de ser uno de los métodos más importantes de este lenguaje. Si quieres conocer más información sobre este método te recomiendo que visites 
-la página oficial de Mozilla Javascript [metodo reduce](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce).
+En conclusión el método `reduce()` de Javascript te permite reducir o filtrar un array de elementos y te devuelve un único valor, este método es muy útil y tiene muchas aplicación en la programación con Javascript, además de ser uno de los métodos más importantes de este lenguaje. Si quieres conocer más información sobre este método te recomiendo que visites la [página oficial de Mozilla Javascript sobre el metodo reduce](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce).
 
-Si estas interesado en conocer más información sobre el lenguaje de programación Javascript te invito a que visites el siguiente articulo [aprende a programar](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) 
-de 4Geeks Academy en el cual encontrarás una gran cantidad de información sobre este lenguaje con ejemplos de código, videotutoriales y muchas cosas más que te ayudarán a mejorar tus 
-habilidades en Javascript.
+Si estas interesado en conocer más información sobre el lenguaje de programación Javascript te invito a que visites el siguiente articulo sobre [aprender a programar en JavaScript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) de 4Geeks Academy en el cual encontrarás una gran cantidad de información sobre este lenguaje con ejemplos de código, videotutoriales y muchas cosas más que te ayudarán a mejorar tus habilidades en Javascript.
 
 
