@@ -2,7 +2,7 @@
 title: "Expresiones Regulares en Java: Guía Completa para su Uso"
 subtitle: "Aprende a utilizar expresiones regulares en Java para buscar y manipular patrones de texto. Descubre cómo aprovechar esta poderosa herramienta en tus proyectos de programación."
 tags: ["java","expresiones-regulares"]
-authors: ["diegorojas"]
+authors: ["valerybriz"]
 
 ---
 
@@ -198,4 +198,4 @@ Algunos de los casos de uso más comunes para las expresiones regulares en Java 
 
 ## Conclusión
 
-Las expresiones regulares son extremadamente útiles para extraer información de cualquier texto buscando una o más coincidencias de un patrón de búsqueda específico. Para poder utilizar de forma correcta estas expresiones es necesario conocer las distintas reglas que podemos aplicar dependiendo de cada caso de uso y así sacar el mayor provecho de esta herramienta. Puedes leer más sobre [expresiones regulares en Javascript](https://4geeks.com/es/lesson/expresiones-regulares-javascript) y sonbre las [expresiones regulares en Python](https://4geeks.com/es/lesson/expresiones-regulares-python) en el [Blog de 4Geeks](https://4geeks.com/).
+Las expresiones regulares son extremadamente útiles para extraer información de cualquier texto buscando una o más coincidencias de un patrón de búsqueda específico. Para poder utilizar de forma correcta estas expresiones es necesario conocer las distintas reglas que podemos aplicar dependiendo de cada caso de uso y así sacar el mayor provecho de esta herramienta. Puedes leer más sobre [expresiones regulares en Javascript](https://4geeks.com/es/lesson/expresiones-regulares-javascript) y sonbre las [expresiones regulares en Python](https://4geeks.com/es/lesson/expresiones-regulares-python) en el [Blog de 4Geeks](https://4geeks.com/es/how-to).
