@@ -187,7 +187,7 @@ Después de revisar el head *\ [new-head \]*, fijarás los head. Ahora puedes ag
 
 ## Fusionando
 
-Una vez que hayas terminado de implementar una nueva función en una rama, querrás traer esa nueva función a la rama principal, para que todos puedan usarla. Puedes hacerlo con el comando `git merge` o` git pull`.
+Una vez que hayas terminado de implementar una nueva fusión en una rama, querrás traer esa nueva fusión a la rama principal, para que todos puedan usarla. Puedes hacerlo con el comando `git merge` o` git pull`.
 
 La sintaxis del comando es la siguiente:
 
