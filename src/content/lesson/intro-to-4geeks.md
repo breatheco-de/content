@@ -17,7 +17,7 @@ Welcome!! 🤩👏 My name is Alejandro and I'm typing these words after years o
 
 You are here to develop your coding skills to a point where you can be useful to society in order to: 1️⃣ Get a job, 2️⃣ Create your own company, 3️⃣ Adapt better to the current world.
 
-## What you did not know
+## What you did'nt know
 
 You are also here because you need help, not only technical help, but also spiritual help, and I say this in the most pragmatic way possible.
 
