@@ -162,7 +162,7 @@ Now, we can use the `git branch` command to start a new branch from that particu
 git branch [new-head-name] df73f34fac344778e1f5a836fb88a897e0b8d491
 ```
 
-This command will create a new head with the given name, and point that head at the requested commit object. If the commit object is left out, it will point to *HEAD*.
+This command will create a new head with the given name and point that head at the requested commit object. If the commit object is left out, it will point to *HEAD*.
 
 Now our commit tree looks like this:
 
