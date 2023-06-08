@@ -118,7 +118,7 @@ Otros comandos que son útiles en este punto:
 
 + `git log` muestra un registro de todos los commits desde *HEAD* hasta el commit inicial. Puede hacer más que eso, por supuesto.
 + `git status` muestra qué archivos han cambiado entre el estado actual del proyecto y el *HEAD*. Los archivos se clasifican en una de las tres categorías: (1) Archivos nuevos que no se han agregado (con git add), (2) Archivos modificados que no se han agregado y (3) Archivos que se han agregado.
-+ `git diff` muestra la diferencia entre el HEAD y el estado actual del proyecto. Con la opción --cached, compara archivos agregados contra HEAD; de lo contrario, compara los archivos que aún no se han agregado.*
++ `git diff` muestra la diferencia entre el HEAD y el estado actual del proyecto. Con la opción --cached, compara archivos agregados contra HEAD; de lo contrario, compara los archivos que aún no se han agregado.
 + `git mv` y `git rm` marcan los archivos para ser movidos (renombrados) y eliminados, respectivamente, de forma muy similar a `git add`.
 
 Mi flujo de trabajo personal generalmente tiene este aspecto: primero hago algo de programación y, luego, termino de actualizar algunos archivos y luego ejecuto los siguientes comandos:
@@ -187,7 +187,7 @@ Después de revisar el head *\ [new-head \]*, fijarás los head. Ahora puedes ag
 
 ## Fusionando
 
-Una vez que hayas terminado de implementar una nueva función en una rama, querrás traer esa nueva función a la rama principal, para que todos puedan usarla. Puedes hacerlo con el comando `git merge` o` git pull`.
+Una vez que hayas terminado de implementar una nueva fusión en una rama, querrás traer esa nueva fusión a la rama principal, para que todos puedan usarla. Puedes hacerlo con el comando `git merge` o` git pull`.
 
 La sintaxis del comando es la siguiente:
 
