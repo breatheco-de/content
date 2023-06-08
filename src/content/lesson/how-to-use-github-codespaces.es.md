@@ -16,7 +16,7 @@ La codificación en tu computadora local también trae limitaciones: las computa
 
 ## ¿Por qué los Codespaces?
 
-Los Codespaces es la oferta de Github para la provisión de entornos de codificación. Esto simplifica dramáticamente el proceso de codificación, especialmente para los nuevos codificadores.
+Los Codespaces es la oferta de Github para la provisión de entornos de codificación. Esto simplifica dramáticamente el proceso de codificación, especialmente para los nuevos codificadores
 
 Con los codespaces, puedes abrir cualquier repositorio en un entorno de codificación en la nube y comenzar o continuar codificando en segundos.
 
