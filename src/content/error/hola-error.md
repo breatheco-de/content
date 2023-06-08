@@ -254,7 +254,7 @@ Bootstrap official documentation is amazing!!  We don’t need to start copying 
 
 
 
-## Earn RE2PECT.
+## Earn RESPECT.
 
 Success does not come overnight.  This is your first real achievement.  Let me ask you, do you feel capable using HTML, CSS, Layouts and Bootstrap?  Don’t lie to yourself.
 
