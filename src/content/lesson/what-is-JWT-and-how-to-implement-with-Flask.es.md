@@ -23,7 +23,7 @@ Puedes dividir un proceso de autenticación estándar en 5 pasos principales:
 
 ![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/authentication-diagram.png?raw=true)
 
-> :point_up: i no sabes lo que es un token, te recomiendo [esta lectura](/lesson/token-based-api-authentication).
+> :point_up: iNo sabes lo que es un token, te recomiendo [esta lectura](/lesson/token-based-api-authentication).
 
 ## ¿Qué es JWT?
 
