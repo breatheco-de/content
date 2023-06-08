@@ -183,7 +183,7 @@ This command does the following:
   
 > :point_up: **Important note:** If there are any uncommitted changes when you run git checkout, GIT will behave very strangely. The strangeness is predictable and sometimes useful, but it is best to avoid it. All you need to do, of course, is commit all the new changes before checking out the new head.
 
-After checking out the *\[new-head\]* head, you will fix the headers. Now you can add and commit the changes as above. The resulting repository looks like this:
+After checking out the *\[new-head\]* head, you will fix the headers. Now, you can add and commit the changes as above. The resulting repository looks like this:
 
 ![git8](https://github.com/breatheco-de/content/blob/master/src/assets/images/0352d1b1-0914-4d0f-9379-c47e7895ccb9.png?raw=true)
 
