@@ -18,7 +18,7 @@ status: "published"
 
 Lo más difícil de hacer en software no es programar, ¡es diseñar el sistema! Y NO estamos hablando de diseño gráfico ... estamos hablando de la arquitectura, modelado de datos, requisitos del cliente, etc. Algunas de esas cosas son más difíciles que otras, pero hacer una lista de requisitos es probablemente una de las artes más difíciles.
 
-**¿Qué es una Característica?** Es una funcionalidad que tiene la aplicación! Por ejemplo: registrarse, votar, comprar, etc.
+**¿Qué es una Característica?** ¡Es una funcionalidad que tiene la aplicación! Por ejemplo: registrarse, votar, comprar, etc.
 
 Describir una característica parece fácil, pero puede ser desafiante: ¿dónde debería comenzar? ¿Qué tan detallado debe ser? ¿Qué tan técnico puedes ser? Pero, no te preocupes ... ¡las "Historias de usuario" han llegado al rescate!
 
