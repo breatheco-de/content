@@ -18,7 +18,7 @@ Like always, let’s compare our website with an MS Word document… At some poi
 
 ![html textarea html input](https://github.com/breatheco-de/content/blob/master/src/assets/images/12ff6e40-706f-47ff-9ada-53dada968eaf.png?raw=true)
 
-The elements that the user fills in a form are called `<input>` and they always have to be wrapped inside of a `<form>` tag. You can also use all the other HTML tags we learned in the previous lessons without any problems.
+The elements that the user fills in a form are called `<input>` and they always have to be wrapped inside a `<form>` tag. You can also use all the other HTML tags we learned in the previous lessons without any problems.
 
 Here is an example of a simple form in HTML:
 
