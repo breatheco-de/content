@@ -8,7 +8,7 @@ En esta lección, aprenderemos por qué los Entornos de Provisionamiento se est�
 
 ## ¿Por qué codificar en la nube en lugar de en tu computadora local?
 
-Codificar en la nube trae muchas limitaciones, como requerir y depender de una conexión a internet, pero la tendencia es clara; la mayoría de las empresas estarán usando entornos en la nube en los próximos años. Pero, ¿Por qué?
+Codificar en la nube trae muchas limitaciones, como requerir y depender de una conexión a internet, pero la tendencia es clara; la mayoría de las empresas estarán usando entornos en la nube en los próximos años. Pero, ¿por qué?
 
 > ¿Alguna vez has intentado seguir un tutorial en línea, pero después de seguir a fondo cada paso, el código aún no se ejecuta en tu computadora?
 
