@@ -27,7 +27,7 @@ The upcoming material assumes that you have a good level of understanding of the
 ## Things you should know about CSS
 
 - What is CSS, and what is it used for? Thanks to CSS, we can select specific elements in the HTML and style them with colors, etc.
-- Why is discouraged the use of the `#id` selector? Because it's too specific, it goes against reusability.
+- Why it is discouraged the use of the `#id` selector? Because it's too specific, it goes against reusability.
 - When should I use the `#id` selector? Never, we will use `#id`s only when coding in javascript.
 - Why are stylesheets supposed to be written from the most generic to the most specific styles? Because you will write way fewer lines of code that way, you also avoid lots of bugs or fights between your selectors.
 
@@ -52,7 +52,7 @@ The upcoming material assumes that you have a good level of understanding of the
 
 - Javascript is "event-oriented", which means your code will execute based on some user or browser event, for example: When the user clicks, when the website loads, when the user scrolls, when the website reloads, etc.
 - Javascript can create HTML and CSS the same way you do: You can tell JS to write any HTML you want. Basically, the code can "write itself" if you create a smart enough website.
-- Javascript code must always go in javascript files that end with `.js`. Other ways are discouraged 99% of the time.
+- Javascript code must always go in Javascript files that end with `.js`. Other ways are discouraged 99% of the time.
 - You can import js using the `<script>` tag.
 
 ## Welcome to web development
