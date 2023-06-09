@@ -12,7 +12,7 @@ status: "published"
 ## Why are Arrays in a Separate Lesson?
 
 
-Because arrays are awesome! You need them! And we need to focus a lot on them in order to prepare you for real life 🙂
+Because arrays are awesome! You need them! And we need to focus a lot on them in order to prepare you for real life. 🙂
 
 Mastering the use of arrays and loops is one of the 5 fundamental skills of building algorithms:
 
@@ -40,7 +40,7 @@ Every array has the same basic concepts:
 
 ![what is an array define array](https://github.com/breatheco-de/content/blob/master/src/assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png?raw=true)
 
-> :point_up: Array positions start at **zero (0)**; the first element is the element in the position **zero (0)**
+> :point_up: Array positions start at **zero (0)**; the first element is the element in the position **zero (0)**.
 
 ## How to Declare an Array?
 
