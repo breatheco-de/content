@@ -1,6 +1,6 @@
 ---
-title: "Construyendo tu perfil y reputación github"
-subtitle: "Toma horas armar un buen cv, incluso aunque sea falso- Tener un buen Github toma meses o años ¡Manos a la obra!"
+title: "Construyendo tu perfil y reputación Github"
+subtitle: "Toma horas armar un buen cv, incluso aunque sea falso. Tener un buen Github toma meses o años ¡Manos a la obra!"
 textColor: "white"
 authors: ["alesanchezr"]
 status: "published"
@@ -14,10 +14,10 @@ cover_local: "../../assets/images/githubbackground.jpg"
 
 ![Pantallazo Github](https://github.com/breatheco-de/content/blob/master/src/assets/images/4889ebd9-201f-46c7-a1fb-d3d8c2f4493e.png?raw=true)
 
-Github es una red social para desarrolladores, pero problablemente no del tipo de red social al cual estas acostumbrado/a en el día a día:
+Github es una red social para desarrolladores, pero probablemente no del tipo de red social a la cual estás acostumbrado/a en el día a día:
 
 - No puedes postear una foto de lo que estés a punto de comer.
-- No puedes postear documentos en cualquier formato (txt, html, css, xls, png, jpeg, etc.).
+- Puedes postear documentos en cualquier formato (txt, html, css, xls, png, jpeg, etc.).
 - No puedes postear mensajes en tu status como en Twitter, Instagram, etc.
 - Debes usar un programa y protocolo especial llamado [GIT](https://www.youtube.com/watch?v=BCQHnlnPusY).
 - Lleva un registro de tu actividad como desarrollador y no se puede hacer trampa.
@@ -36,15 +36,16 @@ Ahora **ya no es suficiente** decir a los reclutadores lo que puedes hacer con P
 
 Hace muchos años, tener un sitio web con un portafolio era esencial para encontrar trabajo. **Esto ya no es así** y esta es la razón. **Tener una cuenta en GitHub es mucho más importante hoy en día**. Todas las empresas esperan que tengas una cuenta en GitHub y experiencia en el uso de GIT y control de versiones. Estos se han convertido en los estándares para la programación de hoy en día.
 
-### Sacándole provecho a tu perfil
+## Sacándole provecho a tu perfil
 
-Asegúrate de que tenga tu estilo personal, pero en general puedes concentrarte en tratar de seguir la siguientes directrices:
+Asegúrate de que tenga tu estilo personal, pero en general puedes concentrarte en tratar de seguir las siguientes directrices:
 
 - [ ] Escribe una breve biografía enfocada principalmente en ti como desarrollador y en tus habilidades especiales.
 - [ ] En tu página de perfil, incluye enlaces a tu sitio web personal, perfil de Linkedin, correo electrónico y tus redes sociales, si son relevantes.
 - [ ] Añade una foto o avatar.
 - [ ] Comienza a hacer "commits" y haz "push" desde el primer día en la academia: Github registra e informa públicamente tu actividad como desarrollador en algo llamado [Gráfico de actividad de Github](https://help.github.com/en/articles/viewing-contributions-on-your-profile#contributions-calendar) que es imposible de falsificar. Es por eso que te recomendamos que empieces a hacer "commit" y a colaborar desde el primer día.
 - [ ] Cada repositorio que quieras destacar y publicitar debe incluir:  
+
     1. Un README.md detallado
     2. Demostración en vivo (github pages), capturas de pantalla y gifs.
     3. Un código muy organizado y limpio con comentarios.
@@ -54,9 +55,9 @@ Asegúrate de que tenga tu estilo personal, pero en general puedes concentrarte 
     - http://yourfirstpr.github.io/
     - https://www.codetriage.com/
     - https://github.com/MunGell/awesome-for-beginners
-- [ ] Necesitas ser un miembro [desarrollador de github](https://developer.github.com/program/). Puedes unirte gratis y obtendrás una insignia en tu perfil.
+- [ ] Necesitas ser un miembro [desarrollador de Github](https://developer.github.com/program/). Puedes unirte gratis y obtendrás una insignia en tu perfil.
 - [ ] Evita usar los términos "desarrollador nuevo", "desarrollador junior", "recién graduado" o algo similar en tu introducción o biografía.
 
-## Un perfil de ejemplo: 
+### Un perfil de ejemplo: 
 
 ![Dan Abramov Github Profile](https://raw.githubusercontent.com/breatheco-de/content/master/src/assets/images/b04c5254-086a-4b9f-8b86-0cf95fcc3fcddanabramov.png)

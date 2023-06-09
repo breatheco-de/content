@@ -184,6 +184,6 @@ class Person(db.Model):
 
 ## ¿Listo para empezar a codificar?
 
-Hemos preparado este ejemplo de codificación en vivo que puede ejecutar tu mismo en Gitpod y utilizarlo como base para su proyecto.
+Hemos preparado este ejemplo de codificación en vivo que puede ejecutar tu mismo en GitHub Codespaces o Gitpod y utilizarlo como base para su proyecto.
 
 Flask Rest Hello: [https://github.com/4GeeksAcademy/flask-rest-hello](https://github.com/4GeeksAcademy/flask-rest-hello)

@@ -17,7 +17,7 @@ status: "published"
 
 Haz un pasantía en cualquier compañía (aunque no te paguen) porque debes añadir eso en tu cv para estar en una mejor posición cuando busques empleo:
 
-```
+```txt
 Cargo: 
 Desarrollador Web Freelance en MyCompany Media
 
@@ -66,18 +66,18 @@ Nota: La calidad es más importante que la cantidad, dos o tres proyectos son su
 
 Estas son las tecnologías requeridas más importantes:
 
-```
+```txt
 HTML5/CSS3, Bootstrap, Javascript ECMAScript 2020, Node.js, GIT/Github, Python, Flask, API's, React.js, Flux, SCRUM, SQL, SQLAlchemy, MySQL, Postgress API's
 ```
 
 También has aprendido tecnologías secundarias que pueden ser útiles dependiendo de la compañía a la cual estas postulando:
 
-```
+```txt
 Heroku, Markdown, Use Stories, Data-Structures, Data-Modeling, REST, MVC, programación orientada a objetos, DOM.
 ```
 
 Adicionalmente estas son buenas tecnologías que no enseñamos durante las 16 semanas pero que son fáciles de aprender y añaden mucho valor a tu curriculum:
 
-```
+```txt
 Unit testing, jQuery, Gatsby.js, SSR, AWS, Firbase, WordPress, React Native.
 ```

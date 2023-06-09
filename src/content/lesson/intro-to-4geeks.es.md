@@ -1,6 +1,6 @@
 ---
 title: "Introducción a 4Geeks Academy"
-subtitle: "Espero que leas este artículo completo, este artículo tiene una receta de 8 minutos para sacarle el máximo de provecho a la academia. ¡De la manera más efectiva"
+subtitle: "Espero que leas este artículo completo, este artículo tiene una receta de 8 minutos para sacarle el máximo de provecho a la academia. ¡De la manera más efectiva!"
 textColor: "white"
 status: "published"
 tags: ["best practices"]
@@ -33,7 +33,7 @@ Durante los años que han pasado hemos identificado razones específicas por la 
 
 ![Síndrome del Impostor](https://github.com/breatheco-de/content/blob/master/src/assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png?raw=true)
 
-En algún momento de nuestras vidas (en alguno más que otros) podemos haber pensado que no somos la persona más lista de una sala. Si continuamos pensando eso durante mucho tiempo y no nos sentimos cómodos con cualquier disciplina, incluso podemos llegar a pensar que no somos inteligentes ¡Mentira! ¡Nada que ver! Eres parte de esta academia, no aceptamos personas que no creemos que sean lo suficientemente inteligentes como para ganarse la vida como desarrolladores. ¡Tienes que creer eso, especialmente en tiempos difíciles!
+En algún momento de nuestras vidas (en algunos más que otros) podemos haber pensado que no somos la persona más lista de una sala. Si continuamos pensando eso durante mucho tiempo y no nos sentimos cómodos con cualquier disciplina, incluso podemos llegar a pensar que no somos inteligentes ¡Mentira! ¡Nada que ver! Eres parte de esta academia, no aceptamos personas que no creemos que sean lo suficientemente inteligentes como para ganarse la vida como desarrolladores. ¡Tienes que creer eso, especialmente en tiempos difíciles!
 
 > Si algún ejercicio o proyecto en particular te parece difícil, en vez de pensar que no sirves para esto, busca nuevas maneras de absorber el contenido. Habla con un mentor y te daremos exactamente lo que necesitas.
 
@@ -62,11 +62,11 @@ Sabemos como enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseñar
 
 3. **Sé humilde:** Hay muchos estudiantes que han completado el curso con éxito siguiendo el método. Algunos trabajan en Google, Amazon u otra gran empresa a nivel mundial. Por favor sé humilde e intenta seguir el curso como es. Puedes hablar con nosotros si tienes alguna idea sobre alguna mejora; también tenemos la humildad para ser abiertos e intentar algo nuevo que podría funcionar.
 
-#### Pared 3: Inactividad 😴 
+#### Pared #3: Inactividad 😴 
 
 Este es un campo de entrenamiento, no importa si lo haces tiempo-completo o tiempo-parcial, debes tener una mentalidad de entrenamiento y trabajar cada día como si fuera el último. El cerebro humano absorbe 80% más cuando se siente desafiado y asustado, si descansas un día el cerebro se relaja y [está demostrado](https://www.youtube.com/watch?v=h5PLO4XAXhs) que usualmente se olvida del 60% de la información recientemente adquirida a menos que la uses, de forma repetida y constante durante un periodo de 7 días (por lo menos).
 
-Estos números no son pequeños, 60% en un día y 90% si no practicas en una semana ¡Estás perdiendo tu tiempo y dinero si no te lo tomas en serio!
+Estos números no son pequeños, 60% en un día y 90% si no prácticas en una semana ¡Estás perdiendo tu tiempo y dinero si no te lo tomas en serio!
 
 ##### 📝 Receta para evitar la inactividad
 

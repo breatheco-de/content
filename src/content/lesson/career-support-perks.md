@@ -16,3 +16,13 @@ Check our [Partners page](https://4geeksacademy.notion.site/Partners-Page-Nuestr
 - [ ] If you want to be added to our [Talent Pipeline](https://4geeksacademy.notion.site/Talent-Pipeline-1180362c34e048f78cb9deed8085f90d). Please make sure you’ve filled [this form](https://4geeksacademy.notion.site/Talent-Pipeline-Form-Formulario-de-Talent-Pipeline-91a850d9b1e94fa099799ba7d63bf51b). 
 
 > Our Talent pipeline is a database that we are constantly sharing with hiring partners and recruiters. It has helped us connect you to internship and job opportunities.  
+
+<h3>If you are a student at the USA campus, check out this video ⬇️</h3>
+
+[![Alt text](https://img.youtube.com/vi/9nZdfFl2_QE/0.jpg)](https://www.youtube.com/watch?v=9nZdfFl2_QE)
+
+Click [here](https://colabapp.paperform.co/) to apply!
+
+<details>
+ <summary>Learn more about Co.Lab</summary>
+  Co.Lab is an 8-week, team-based learning program, where you can take the skills you’ve gained through us to the next level. You're matched into a team with a product manager, designer, and another developer, and you work together to ship a real product. You'll also get access to dedicated mentorship plus over 20 classes that teach you how to communicate effectively as a team and more. Their project-based curriculum is a great way to gain real-world, collaborative experience in a safe learning environment.Their program is usually a paid program ($1000 per the whole training) but through our partnership with them we can sometimes get sponsorships.

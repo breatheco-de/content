@@ -318,4 +318,3 @@ Every component works like a mini-application. You are able to control and defin
 > :link: [Here you will find](https://reactjs.org/docs/react-component.html#the-component-lifecycle) a more detailed explanation of each available life-cycle method.
 
 > :tv: [Here is an interactive chart](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
-

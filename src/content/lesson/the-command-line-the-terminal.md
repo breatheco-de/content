@@ -42,7 +42,7 @@ The last thing we have to add is the "argument." In this case, the "argument" wi
 
 ## What can you do in the Terminal?
 
-Your computer has files, directories, and applications. Your command line is able to deal with all three of them. Use commands to move within the files and directories (like the `cd` command).  Every application that you install comes with a set of commands that become available at the moment you install the app (like the GIT command).
+Your computer has files, directories, and applications. Your command line is able to deal with all three of them. Use commands to move within the files and directories (like the `cd` command).  Every application that you install comes with a set of commands that become available the moment you install the app (like the GIT command).
 
 ## Here is how the File System looks in a Visual Interface vs the Terminal:
 
@@ -187,7 +187,7 @@ nano path/to/the/textfile.txt
 #opens a text editor to start editing the content of textfile.txt 
 #if textfile.txt does not exist, it will create it!
 ```
-When nano opens, it will show a top bar with the current version of the nano application; the name of the file being edited; and, a status telling you if the files were modified or not.
+When nano opens, it will show a top bar with the current version of the nano application; the name of the file being edited; and a status telling you if the files were modified or not.
 
 At the bottom you will see the most often used commands in nano such as: exit, where is, get help, etc.
 

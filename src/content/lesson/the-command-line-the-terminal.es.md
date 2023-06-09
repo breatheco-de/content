@@ -42,7 +42,7 @@ Lo último que tenemos que agregar es el "argumento". En este caso, el "argument
 
 ## ¿Qué puedes hacer en la terminal?
 
-Tu computadora tiene archivos, directorios y aplicaciones. Tu línea de comando es capaz de lidiar con los tres. Usa comandos para moverte dentro de los archivos y directorios (como el comando `cd`). Cada aplicación que instales viene con un conjunto de comandos que están disponibles a partir del momento en que instales la aplicación (como el comando GIT).
+Tu computadora tiene archivos, directorios y aplicaciones. Tu línea de comando es capaz de lidiar con los tres. Usa comandos para moverte dentro de los archivos y directorios (como el comando `cd` que es el acrónimo de change directory). Cada aplicación que instales viene con un conjunto de comandos que están disponibles a partir del momento en que instales la aplicación (como el comando GIT).
 
 ## Así es cómo se ve el sistema de archivos en una interfaz visual versus la terminal:
 
@@ -172,7 +172,7 @@ Esto te ayudará a ahorrar tiempo y a cometer menos errores al escribir:
 + Para ir a la carpeta principal del usuario, usa la tecla `~`, así: `cd ~`
 + Usa el comando `clear` para "limpiar" la consola actual (es solo un desplazamiento, pero muy útil)
 
-## Editando archivos en el terminal:
+## Editando archivos en la terminal:
 
 Esta es una de las cosas que no puedes evitar hacer en la terminal. Como desarrollador, tendrás que editar archivos en la terminal con más frecuencia de lo que crees. Por eso es mejor que estés preparado para usar la  [Aplicación VIM o la Aplicación Nano.](https://askubuntu.com/questions/726669/difference-between-nano-and-vim)  Hablaremos sobre Nano y sus comandos (sí, aquí el editor de texto se abre dentro de la línea de comandos y se ejecuta usando comandos).
 

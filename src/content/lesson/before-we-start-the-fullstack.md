@@ -18,7 +18,7 @@ The upcoming material assumes that you have a good level of understanding of the
   - How can I select an element to update its styles? [By using a selector](https://4geeks.com/lesson/what-is-css-learn-css#wait-what-is-a-selector).
   - The most simple thing like changing text color and manipulating fonts (size, family, etc). 
   - Changing the element's background color or image. 
-- Fully comprehend the `<div>` tag that inherently behaves as a "box" (which means that it has borders, with and height) and how to use `<div>` to separate your content visually.
+- Fully comprehend the `<div>` tag that inherently behaves as a "box" (which means that it has borders, width and height) and how to use `<div>` to separate your content visually.
 - How to create the most common website layouts using the `display: flex;` CSS rule.
   - How can you make a `<div>` be on the side of another? By applying `display: flex.` to a common immediate parent.
   - How can you make a sidebar layout?
@@ -29,7 +29,7 @@ The upcoming material assumes that you have a good level of understanding of the
 - What is CSS, and what is it used for? Thanks to CSS, we can select specific elements in the HTML and style them with colors, etc.
 - Why is discouraged the use of the `#id` selector? Because it's too specific, it goes against reusability.
 - When should I use the `#id` selector? Never, we will use `#id`s only when coding in javascript.
-- Why are stylesheets supposed to be written from the most generic to the most specific styles? Because you will write way fewer lines of code that way, you also avoid lots of bugs or fights between your selectors.
+- Why are stylesheets supposed to be written from the most generic to the most specific styles? Because you will write way fewer lines of code that way, you also avoid lots of bugs or conflicts between your selectors.
 
 ## Things you should know about programming
 

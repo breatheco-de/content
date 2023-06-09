@@ -7,7 +7,7 @@ authors: ["Javier Seiglie"]
 
 ---
 
-[Aprender a programar con Javascript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) es una excelente opción para aquellos que desean iniciarse en el mundo de la programación web. Javascript es un lenguaje de programación versátil y muy utilizado, lo que lo convierte en una herramienta muy valiosa para cualquier desarrollador web. Si llegaste hasta aquí y todavía no conoces en detalle Javascript te invito a leer esta guía relacionado a [para qué sirve Javascript](https://). Debido a que JavaScript es un lenguaje que se ejecuta principalmente en los navegadores (Chrome, Mozilla, Edge, etc), si queremos usarlo en el sistema, debemos instalar NodeJS.
+[Aprender a programar con Javascript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) es una excelente opción para aquellos que desean iniciarse en el mundo de la programación web. Javascript es un lenguaje de programación versátil y muy utilizado, lo que lo convierte en una herramienta muy valiosa para cualquier desarrollador web. Si llegaste hasta aquí y todavía no conoces en detalle Javascript te invito a leer esta guía relacionado a [para qué sirve Javascript](https://4geeks.com/es/how-to/para-que-sirve-javascript). Debido a que JavaScript es un lenguaje que se ejecuta principalmente en los navegadores (Chrome, Mozilla, Edge, etc), si queremos usarlo en el sistema, debemos instalar NodeJS.
 
 ![NodeJs](https://i.imgur.com/zPghTHs.png)
 
@@ -17,7 +17,7 @@ Cuando hablamos de instalar JavaScript en nuestro sistema, nos referimos a insta
 
 NodeJs es el entorno de ejecución para JavaScript que se utiliza tanto para el desarrollo de aplicaciones web de [Front End](https://4geeks.com/es/lesson/what-is-front-end-development-es) como de [Back End](https://4geeks.com/es/lesson/backend-developer-es). Fue creado con la versión 8 del motor que utiliza Chrome para procesar código JavaScript (recordemos que este lenguaje está diseñado para ser ejecutado en navegadores). 
 
-## Instalar NodeJs
+## Como instalar Javascript (NodeJs)
 
 El primer paso para añadir NodeJs en nuestro sistema sería acceder a [este link](https://nodejs.org/es/download) y seleccionar el Sistema Operativo para comenzar la descarga
 
@@ -165,4 +165,4 @@ De haberse pasado la dirección correcta donde se encuentra el archivo, se mostr
 I can run now outside of the browser!
 ```
 
-Puedes leer contenido relacionado y mucho mas en el blog de [4Geeks](www.4geeks.com).
+Puedes leer contenido relacionado y mucho mas en el blog de [4Geeks](www.4geeks.com/es/how-to).

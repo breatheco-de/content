@@ -11,8 +11,6 @@ status: "published"
 
 ---
 
-# Fetch API
-
 **Un vistazo rápido a la API con Fetch**
 
 Piensa en un **fetch** como una acción simple. Tú das una **solicitud** y recibes una **respuesta**. Fetch Api nos brinda el **método** **fetch ()** , que nos permite acceder a esas solicitudes y respuestas, utilizando javascript.
@@ -29,7 +27,7 @@ Veamos cómo se ve una solicitud **fetch** de búsqueda sencilla:
 	    });
 ```
 
-**¿Que está sucediendo aquí?**
+**¿Qué está sucediendo aquí?**
 
  1. Pasamos la ruta que queremos **fetch** (‘examples / examples.json’) como parámetro.
  2. La llamada devuelve una "**promesa**" que eventualmente se convierte en la respuesta. Tenga en cuenta que una "**promesa**" no es la respuesta real. Piense en ello como un proxy de la respuesta.
@@ -76,14 +74,14 @@ Para evaluar el estado de una respuesta puedes utilizar:
 	});
 ```
 
-**Ahora que esta pasando?**
+**¿Ahora qué está pasando?**
 
 1) Todavía estamos pasando la ruta (‘examples / example.json’) como parámetro.
 2) El **fetch** devuelve una **promesa** que eventualmente se convierte en la respuesta.
 3) Luego, la respuesta se pasa a .then para que se use de la manera que especificó.
 4) Tenemos una instrucción "if" que básicamente dice que si **response.ok** no es verdadero, emita un error con response.statusText, que luego activará .catch.
 
-**¿Porqué necesitamos esto?**
+**¿Por qué necesitamos esto?**
 
  Para evitar que las malas respuestas caigan de la cadena y rompan su código más adelante.
 
@@ -91,7 +89,7 @@ Para evaluar el estado de una respuesta puedes utilizar:
 
  El resultado será que la búsqueda no entregará nada y, sin embargo, el cliente no tendrá idea de que algo salió mal.
  
-**Ahora Qué?**
+**¿Ahora qué?**
 
 Ahora necesitamos "leer" la respuesta para acceder al cuerpo de la respuesta.
 
@@ -119,7 +117,7 @@ Actualicemos nuestro código para incluirlo.
     });
 ```
 
-**Ahora que esta pasando?**
+**¿Ahora qué está pasando?**
 
 Sencillo. Piénsalo en pasos separados.
 

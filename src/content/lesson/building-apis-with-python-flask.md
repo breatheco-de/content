@@ -185,6 +185,6 @@ class Person(db.Model):
 
 ## Ready to start coding?
 
-We have prepared this live coding example that you can run yourself in Gitpod and use it as a base for your project.
+We have prepared this live coding example that you can run yourself in GitHub Codespaces or Gitpod and use it as a base for your project.
 
 Flask Rest Hello: [https://github.com/4GeeksAcademy/flask-rest-hello](https://github.com/4GeeksAcademy/flask-rest-hello)
