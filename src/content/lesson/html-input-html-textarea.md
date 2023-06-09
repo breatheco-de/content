@@ -30,8 +30,10 @@ The following is a list of all the possible elements we can use to receive any i
 
 |**Name**   |**Declaration**   |**Description**   |
 |:----------|:-----------------|:-----------------|
-|Text       |`<input type="text">`   |The text input is meant to receive any small string of characters such as: Username, Name, Last Name, Date of birth, etc.<br>`<input type="text" name="Name" />name="comments"><textarea/>`   |
-|Textarea   |`<textarea>`   |The textarea is ideal for long text inputs. Its main difference from the text input is its ability to allow for multiple lines.<br>`<textarea name="comments"><textarea/>`   |
+
+<!-- I'm editing the closing <textarea> tag in line 35 & 36, removing "/>" inside <textarea> tag in line 35, and remove extra name property on line 35 (name="comments"), remove closing <textarea> tag after the <input> tag in line 35 -->
+|Text       |`<input type="text">`   |The text input is meant to receive any small string of characters such as: Username, Name, Last Name, Date of birth, etc.<br>`<input type="text" name="Name" />`   |
+|Textarea   |`<textarea>`   |The textarea is ideal for long text inputs. Its main difference from the text input is its ability to allow for multiple lines.<br>`<textarea name="comments"></textarea>`   |
 |Password   |`<input type="password" />`   |This is just like an input type="text" but with the only difference that the characters are hidden like bullets. The user cannot see what they are typing.<br>`<input type="password" name="password" />`   |
 |Radiobutton   |`<input type="radio">`   |Allows the user to select only one of all the inputs with the same name.<br>`<input type="radio" name="color" value="red" />` <br> `<input type="radio" name="color" value="green" />`   |
 |Checkbox   |`<input type="check">`   |You have to use brackets in the name of the input to allow the user to select multiple options at the same time.<br>`<input type="check" name="color[]" value="green" />`<br> `<input type="check" name="color[]" value="blue" />`   |
