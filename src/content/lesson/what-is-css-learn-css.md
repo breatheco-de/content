@@ -15,7 +15,7 @@ We are sure that after diving deep into HTML, everything looks kind of ugly, fix
 
 ![what is css](https://github.com/breatheco-de/content/blob/master/src/assets/images/6891485c-2a5a-4722-a7dc-f108993c18ba.jpeg?raw=true)
 
-But… The Internet is more beautiful than that. When the internet became popular, it stopped being only a privilege for scientists and the army, and evolved to become **Part of our world!!**
+But… The Internet is more beautiful than that. When the internet became popular, it stopped being only a privilege for scientists and the army, and evolved to become **part of our world!!**
 
 Ironically, the same scientists at CERN who created HTML had to think about how to improve it. They were given the task to make it more beautiful. It was at this time that [Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie) proposed the first version of CSS in 1994, which was later adapted to become CSS1.
 
@@ -52,7 +52,7 @@ The CSS syntax is nothing similar to HTML syntax, it is its own specific program
 
 ![learn css](https://github.com/breatheco-de/content/blob/master/src/assets/images/4a25cfd5-e8ab-4abb-b4f8-148d376b3f3d.gif?raw=true)
 
-A CSS style sheet is a huge list of style definitions for each HTML element.  First, you must specify which element – or group of elements – you are going to style; this is called SELECTOR.  Then you have to put a key `{` to indicate that you are going to start defining each attribute and its respective value, and you end that with another key `}`.  You should always finish each attribute definition with a semicolon `;`.
+A CSS style sheet is a huge list of style definitions for each HTML element.  First, you must specify which element – or group of elements – you are going to style; this is called a SELECTOR.  Then you have to put a key `{` to indicate that you are going to start defining each attribute and its respective value, and you end that with another key `}`.  You should always finish each attribute definition with a semicolon `;`.
 
 Watch the previous animation for a better understanding.
 
