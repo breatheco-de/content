@@ -27,7 +27,7 @@ Veamos cómo se ve una solicitud **fetch** de búsqueda sencilla:
 	    });
 ```
 
-**¿Que está sucediendo aquí?**
+**¿Qué está sucediendo aquí?**
 
  1. Pasamos la ruta que queremos **fetch** (‘examples / examples.json’) como parámetro.
  2. La llamada devuelve una "**promesa**" que eventualmente se convierte en la respuesta. Tenga en cuenta que una "**promesa**" no es la respuesta real. Piense en ello como un proxy de la respuesta.
