@@ -33,7 +33,7 @@ Durante los años que han pasado hemos identificado razones específicas por la 
 
 ![Síndrome del Impostor](https://github.com/breatheco-de/content/blob/master/src/assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png?raw=true)
 
-En algún momento de nuestras vidas (en alguno más que otros) podemos haber pensado que no somos la persona más lista de una sala. Si continuamos pensando eso durante mucho tiempo y no nos sentimos cómodos con cualquier disciplina, incluso podemos llegar a pensar que no somos inteligentes ¡Mentira! ¡Nada que ver! Eres parte de esta academia, no aceptamos personas que no creemos que sean lo suficientemente inteligentes como para ganarse la vida como desarrolladores. ¡Tienes que creer eso, especialmente en tiempos difíciles!
+En algún momento de nuestras vidas (en algunos más que otros) podemos haber pensado que no somos la persona más lista de una sala. Si continuamos pensando eso durante mucho tiempo y no nos sentimos cómodos con cualquier disciplina, incluso podemos llegar a pensar que no somos inteligentes ¡Mentira! ¡Nada que ver! Eres parte de esta academia, no aceptamos personas que no creemos que sean lo suficientemente inteligentes como para ganarse la vida como desarrolladores. ¡Tienes que creer eso, especialmente en tiempos difíciles!
 
 > Si algún ejercicio o proyecto en particular te parece difícil, en vez de pensar que no sirves para esto, busca nuevas maneras de absorber el contenido. Habla con un mentor y te daremos exactamente lo que necesitas.
 
