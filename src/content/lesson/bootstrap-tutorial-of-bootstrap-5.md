@@ -1,5 +1,5 @@
 ---
-title: "Bootstrap Tutorial: Learn Bootstrap 5 in 10 minutes"
+title: "Bootstrap Tutorial: Learn Bootstrap in 5-10 minutes"
 subtitle: "After decades of struggling, the light has arrived!! With this Bootstrap tutorial, designing a website will be a piece of cake. It's almost stupid, and, also impossible to think about doing a website without a CSS framework like Bootstrap 5."
 cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png?raw=true"
 textColor: "white"
@@ -71,7 +71,7 @@ Bootstrap device sizes:
 
 ## Defining Mobile, Tablet, and Desktop at the same time
 
-We are going to set the layout (using the sm, md and lg column classes) for  two rows in all the devices at the same time:
+We are going to set the layout (using the sm, md and lg column classes) for two rows in all the devices at the same time:
 
 ![bootstrap 5](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/e15c594c-9b46-4c27-bf5a-a5bbb5ef952a.png?raw=true)
 
@@ -212,7 +212,7 @@ Here is an example of how a "The Card" may look on a website:
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">
-      Some quick example text to build on the card title and make up the bulk of the card's content.
+      A quick example text to build on the card title and make up the bulk of the card's content.
     </p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
@@ -223,9 +223,9 @@ Here is an example of how a "The Card" may look on a website:
 
 #### The Modal
 
-Everyone hates a modal, it is super annoying, always asking you to subscribe to a newsletter! 🙂
+Everyone hates a modal. It is super annoying, always asking you to subscribe to a newsletter! 🙂
 
-Here is how a modal look by default on Bootstrap.
+Here is how a modal looks by default on Bootstrap.
 
 ![bootstrap 5](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/6bcba673-a543-4bf1-a80b-083914b91bef.png?raw=true)
 
@@ -265,9 +265,9 @@ Bootstrap official documentation is amazing!  We don’t need to start copying a
 
 > ☝️ Bootstrap versions & download
 
-Bootstrap has many versions, always check if you are using the latest version of Bootstrap on your project, here you can find all the available versions: [https://getbootstrap.com/docs/versions/](https://getbootstrap.com/docs/versions/).
+Bootstrap has many versions. Always check if you are using the latest version of Bootstrap on your project. Here you can find all the available versions: [https://getbootstrap.com/docs/versions/](https://getbootstrap.com/docs/versions/).
 
 
-We recommend using a CDN to import bootstrap in your HTML like this one: [https://www.bootstrapcdn.com/](https://www.bootstrapcdn.com/)
+We recommend using a CDN to import bootstrap into your HTML like this one: [https://www.bootstrapcdn.com/](https://www.bootstrapcdn.com/)
 
-If you are migrating your project to a newer Bootstrap version remember to check its documentation.
+If you are migrating your project to a newer Bootstrap version, remember to check its documentation.
