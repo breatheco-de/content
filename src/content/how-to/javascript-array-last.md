@@ -1,4 +1,4 @@
-# JavaScript Array Last
+# How to get the last element of an Array in Javascript?
 
 As one of the daily basic parts of programming languages nowadays array last element method in javascript is normally used for accessing the last element of a determinate array of elements. There are multiple ways to get the last element of the array in javascript, please take a look at the following example showing one easy way to get the last item in an array using [Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript):
 
