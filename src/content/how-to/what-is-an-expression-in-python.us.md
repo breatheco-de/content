@@ -9,10 +9,10 @@ number_pi = 3.1415926535 # a statement
 circumference = (number_pi * 2) * circle_radius # an expression
 rounded_circumference = round(circumference, 2)
 
-print(rounded_circumference) # (output) 25.13
+print(rounded_circumference) # Output: 25.13
 ```
 
-In this example, we use the Python expression `(number_pi * 2) * radius` to find the circumference of a circle, then we use the `round()` function to take the first two digits of the result, in this expression the number pi `3.1415926535` is multiplied by 2, and then that result is multiplied by the radius of the circle `4`, that gives us the circumference of the circle `25.13 cm`.
+In this example, we use the Python expression `(number_pi * 2) * circle_radius` to find the circumference of a circle, then we use the `round()` function to take the first two digits of the result, in this expression the number pi `3.1415926535` is multiplied by 2, and then that result is multiplied by the radius of the circle `4`, that gives us the circumference of the circle `25.13 cm`.
 
 ## What is an expression in Python programming?
 
@@ -83,10 +83,10 @@ circle_radius = 7
 number_pi = 3.14159
 
 total_area = round(number_pi * (circle_radius * 2), 2)
-print(total_area, "cm") # (output) 43.98 cm
+print(total_area, "cm") # Output: 43.98 cm
 ```
 
-Here we use the Python mathematical expression `number_pi * (circle_radius * 2)` to find the area of a circle with a radius of `7cm`, then we use the Python `round()` method to display only the first two numbers of the result and store that number in the variable **total_area**.
+Here we use the Python mathematical expression `number_pi * (circle_radius * 2)` to find the area of a circle with a radius of `7cm`, then we use the Python `round()` method to display only the first two numbers of the result and store that number in the variable `total_area`.
 
 ### 2. String concatenation
 
@@ -97,10 +97,10 @@ message_one = "Hello"
 message_two = "world!!!"
 
 full_message = message_one + " " + message_two
-print(full_message) # (output) Hello world!!!
+print(full_message) # Output: Hello world!!!
 ```
 
-In this example, we use the Python expression `message_one + " " + message_two` to concatenate two strings into one, first, we add the value of the variable **message_one** with an empty space `" "` then we add to it the value of the variable **message_two**.
+In this example, we use the Python expression `message_one + " " + message_two` to concatenate two strings into one, first, we add the value of the variable `message_one` with an empty space `" "` then we add to it the value of the variable `message_two`.
 
 ### 3. Conditional expression
 
@@ -111,29 +111,24 @@ x = 15
 z = 20
 
 max_number = x if x > z else z
-print(max_number) # (output) 20
+print(max_number) # Output: 20
 ```
 
-In this code, we want to assign the largest number between two variables to the variable **max_number**, for this, we use the Python expression `x if x > z else z` to assign it the largest of them, first, we create a condition, if the value of the variable **x** is greater than the value of the variable **z** we assign the value of **x** to the variable **max_number** `x if x > z`, but if the variable **x** is not greater than **z** then we assign the value of **z** to variable **max_number** `else z`, in this way we ensure that the variable **max_number** has the greater number of the two.
+In this code, we want to assign the largest number between two variables to the variable `max_number` in order to do that, we use the Python expression `x if x > z else z` to assign it the largest of them. First, we create a condition, if the value of the variable `x` is greater than the value of the variable `z` we assign the value of `x` to the variable `max_number` `x if x > z`, but if the variable `x` is not greater than `z` then we assign the value of `z` to variable `max_number` `else z`, in this way we ensure that the variable `max_number` has the greater number between the two.
 
 ### 4. List Comprehension
 
 You also can use an expression to create a list comprehension in Python.
 
-
 ```py
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 squared_even_numbers = [num**2 for num in numbers if num % 2 == 0]
 
-print(squared_even_numbers)
-```
-> ( output ) code:
-```py
-[4, 16, 36, 64, 100]
+print(squared_even_numbers) # Output: [4, 16, 36, 64, 100]
 ```
 
-In this example, we want to create an array that has all the even numbers squared from the array **numbers**, to do this, we create a list comprehension with the condition that is going to store in the new array only the even numbers in the array **numbers** with the expression `if num % 2 == 0` then we want to save those numbers squared, we do this with the expression `num**2 for num in numbers`, in this way, we store in the variable **squared_even_numbers** only the even numbers from the array **numbers**.
+In this example, we want to create an array that has all the even numbers squared from the array `numbers`, to do this, we create a list comprehension with the condition that is going to store in the new array only the even numbers in the array `numbers` with the expression `if num % 2 == 0` then we want to save those numbers squared, we do this with the expression `num**2 for num in numbers`, in this way, we store in the variable `squared_even_numbers` only the even numbers from the array `numbers`.
 
 ## Conclusion
 
-In conclusion, we can use an expression in Python to perform mathematical calculations, manipulate data, and many more things. There are many use cases for Python expressions not only the ones mentioned in this article. You will probably use Python expressions many times as you work with the Python programming language you can even make use of Python libraries such as [numpy](https://numpy.org/doc/) ( Numerical Python ) and Python expressions to perform more advanced or complex mathematical equations.
+We can use an expression in Python to perform mathematical calculations, manipulate data, and many more things. There are many use cases for Python expressions not only the ones mentioned in this article. You will probably use Python expressions many times as you work with the Python programming language you can even make use of Python libraries such as [numpy](https://numpy.org/doc/) (Numerical Python) and Python expressions to perform more advanced or complex mathematical equations.
