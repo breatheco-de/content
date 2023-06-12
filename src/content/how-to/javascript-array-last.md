@@ -1,6 +1,6 @@
 ---
 title: "How to get the last element of an Array in Javascript?"
-excerpt: "Learn different techniques to retrieve the last element of an array in JavaScript. You can access the last element by using the length property of arrays."
+subtitle: "Learn different techniques to retrieve the last element of an array in JavaScript. You can access the last element by using the length property of arrays."
 tags: ["javascript", "arrays"]
 authors: ["bran18"]
 
