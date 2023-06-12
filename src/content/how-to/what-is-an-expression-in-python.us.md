@@ -3,10 +3,10 @@
 An expression in Python is a combination of values, variables, operators, and function calls that produce a result. It represents a computation or a calculation. In the following example, we use an expression to find the circumference of a circle with a radius of 4cm.
 
 ```py
-circle_radius = 4 # a statements
-number_pi = 3.1415926535 # an expression
+circle_radius = 4 # a statement
+number_pi = 3.1415926535 # a statement
 
-circumference = (number_pi * 2) * circle_radius 
+circumference = (number_pi * 2) * circle_radius # an expression
 rounded_circumference = round(circumference, 2)
 
 print(rounded_circumference) # (output) 25.13
