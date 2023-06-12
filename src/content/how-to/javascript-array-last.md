@@ -1,12 +1,12 @@
 ---
 title: "How to get the last element of an Array in Javascript?"
-subtitle: "Learn different techniques to retrieve the last element of an array in JavaScript. Discover easy and efficient ways to access the final element."
-tags: ["javascript"]
-authors: ["julianvillalba"]
+subtitle: "Learn different techniques to retrieve the last element of an array in JavaScript. You can access the last element by using the length property of arrays."
+tags: ["javascript", "arrays"]
+authors: ["bran18"]
 
 ---
 
-As one of the daily basic parts of programming languages nowadays array last element method in javascript is normally used for accessing the last element of a determinate array of elements. There are multiple ways to get the last element of the array in javascript, please take a look at the following example showing one easy way to get the last item in an array using [Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript):
+As one of the daily basic parts of programming languages nowadays array last element method in Javascript is normally used for accessing the last element of a determinate array of elements. There are multiple ways to get the last element of the array in Javascript, please take a look at the following example showing one easy way to get the last item in an array using [Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript):
 
 ```js
 const colorsArray = ['purple', 'yellow', ‘orange’, 'blue' ‘red’, ];
@@ -14,7 +14,7 @@ const getLastItem = colorsArray[colorsArray.length - 1];
 console.log('The last element is: ', getLastItem);
 ```
 
-This code shown uses the Javascript Array Last Element on the custom `colorsArray` array to get the last item without even knowing beforehand how many items might it contains, we are using the `length` property to determine it, and since the array count always starts at 0, we can pick the last item by referencing the < array >.length - 1 item.
+This code shown uses the Javascript Array Last Element on the custom `colorsArray` array to get the last item without even knowing beforehand how many items might it contains, we are using the `length` property to determine it, and since the array count always starts at 0, we can pick the last item by referencing the `Array.length - 1` item.
 
 ## Javascript Array Last Element
 
@@ -49,7 +49,7 @@ console.log(getLastItem);
 //Expected Output: 28
 ```
 
-In this given code snippet, we are getting the last element of the `numbers` array using the `pop()` method. It removes the last element of an array, and returns it. If you pick this approach you must keep in mind that the `pop()` method modifies the original array. `pop()` has the fastest performance, so it is well known as the fastest way to get the last item from an array in javascript but, you can only use it if you are ok with modifying the array since this method removes the last element of the array.
+In this given code snippet, we are getting the last element of the `numbers` array using the `pop()` method. It removes the last element of an array, and returns it. If you pick this approach you must keep in mind that the `pop()` method modifies the original array. `pop()` has the fastest performance, so it is well known as the fastest way to get the last item from an array in Javascript but, you can only use it if you are ok with modifying the array since this method removes the last element of the array.
   
 ## Access the last element of an array using the length of the array
 
