@@ -3,26 +3,29 @@
 La librería de pandas en un recurso muy importante para un desarrollador a la hora de trabajar con una amplia cantidad de datos en Python, en este artículo veremos como instalar paso a paso esta librería en Windows, MacOS y Ubuntu ( Linux ).
 
 Comando para instalar pandas:
-```
+```bash
 pip install pandas
 ```
+
 Una vez termine la instalación verifica que pandas se instaló correctamente ejecutar el siguiente código en un entorno de desarrollo integrado como [visual studio code](https://code.visualstudio.com/docs).
+
 ```py
 import pandas as pd
-print(pd.__version__)
+print(pd.__version__) # Output: 1.5.2
 ```
-> ( output ) del código:
-```
-Tu versión de pandas, ejemplo: 1.5.2
-```
+
+> La versión de pandas puede variar, sin embargo se va a ver similar a este formato.
 
 O si quieres conocer más información puedes ejecutar el siguiente comando en la terminal que te mostrará información más detallada sobre esta librería.
 
+```bash
+$ pip show pandas
 ```
-pip show pandas
-```
+
 > ( output ) en la terminal:
-```
+
+
+```bash
 Name: pandas
 Version: 1.5.2
 Summary: Powerful data structures for data analysis, time series, and statistics
@@ -36,106 +39,36 @@ Requires: numpy, numpy, python-dateutil, pytz
 
 Esta información puede variar dependiendo de la versión de **Pandas** que tengas instalada y en que carpeta la hayas instalado.
 
-## ¿Cómo instalar Pandas en Python Windows?
+## ¿Cómo instalar Pandas?
 
-Para instalar Pandas en windows, primero debes asegurarte de que tienes instalado **Python** y el administrador de paquetes **pip** en tu ordenador, para esto debes abrir una terminal, presionan la tecla `windows + R` y escribe **"cmd"** esto te abrirá una terminal, luego escribe los siguientes comandos:
+Para instalar Pandas, primero debes asegurarte de que tienes instalado **Python** y el administrador de paquetes **pip** en tu ordenador, para esto debes abrir una terminal, luego ejecutar los siguientes comandos:
 
-```py
-# verifica si tienes Python instalado
-python --version
+```bash
+$ python --version # verifica si tienes Python instalado
 
-# Verifica si tienes el paquete pip instalado
-pip --version
+$ pip --version # Verifica si tienes el paquete pip instalado
 ```
 
-Si aún no tienes Python instalado, ingresa a la página [instalar python windows](https://www.python.org/downloads/windows/), escoje la versión de Python que quieres instalar y sigue las instrucciones.
+Si aún no tienes Python instalado, ingresa a la página [instalar python](https://www.python.org/downloads/), escoje la versión de Python que quieres instalar y sigue las instrucciones.
 
 Normalmente el paquete de **pip** ya viene instalado junto con Python pero si por alguna razón no lo tienes instalado o quieres actualizarlo puedes hacerlo con los siguientes comandos: 
 
-```
-> curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-> python get-pip.py
+```bash
+$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+$ python get-pip.py
 ```
 
 Ahora que ya confirmaste que tienes **Python** y el paquete **pip** instalados correctamente, ya puedes instalar la librería de **Pandas** en tu ordenador, para esto escribe en la terminal el siguiente comando:
 
-```
-pip install pandas
+```bash
+$ pip install pandas
 ```
 
 Una vez terminada la instalación puedes verificar que se instalo correctamente con el comando:
 
+```bash
+$ pip show pandas
 ```
-pip show pandas
-```
-
-## ¿Cómo instalar Pandas en Python MacOS?
-
-Para instalar **Pandas** en MacOS primero debes verificar si ya tienes instalado **Python** y el administrador de paquetes **pip** en tu ordenador, para esto debes abrir una terminal, usa la combinación `command + espacio` y luego escribe **"Terminal"** esto te abrirá una nueva terminal en ella escribe los comandos:
-
-```
-# verifica si tienes python instalado
-python --version
-
-# Verifica si tienes pip instalado
-pip --version
-```
-
-Si aún no tienes Python instalado puedes ingresar a la página [instalar python macos](https://www.python.org/downloads/macos/), escoje la versión de Python que quieres instalar y sigue las instrucciones.
-
-El paquete **pip** se instala por defecto junto con Python pero si aun no lo tienes instalado o si quieres actualizarlo, puedes hacerlo con los comandos:
-
-```
-> curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-> python get-pip.py
-```
-
-Ahora que ya tienes Python y el paquete de `pip` instalados, ya puedes instalar la librería de **Pandas** en tu computador, para esto puedes usar el comando:
-
-```
-pip install pandas
-```
-
-Terminada la instalación, puedes verificar que la librería se instalo correctamente con el comando:
-
-```
-pip show pandas
-```
-
-## ¿Cómo instalar Pandas en Python Ubuntu (Linux)?
-
-Para instalar la librería de **Pandas** en Ubuntu ( Linux ), primero debes asegurarte de que tienes instalado **Python** y el administrador de paquetes **pip** en tu ordenador, para esto debes abrir una terminal, usa la combinación `Ctrl + Alt + T` esto abrirá una nueva terminal, luego ingresa en la terminal los siguientes comandos:
-
-```
-# verificar si tienes python instalado
-python --version
-
-# Verificar si tienes pip instalado
-pip --version
-```
-
-Si aún no tienes Python instalado puedes ir a la pagina [instalar python linux](https://www.python.org/downloads/source/), escoje la versión que quieres instalar y sigue las instrucciones.
-
-El administrador de paquetes **pip** viene incluido por defecto cuando instalas Python, pero si por alguna razón no lo tienes instalado o quieres actualizarlo puedes hacerlo con los siguientes comandos:
-
-```py
-> sudo apt update
-> sudo apt install python3-pip
-```
-
-Una vez confirmes que tienes instalado Python y el paquete **pip** correctamente, ya puedes instalar **Pandas** en tu ordenador, para esto puedes escribir en la termial el comando:
-
-```
-pip3 install pandas
-```
-
-Una vez instalada, verifica que el paquete se instaló correctamente con el comando:
-
-```
-pip3 show pandas
-```
-
-> El comando `pip3 install pandas` es para la vesión de Python 3.0 si tienes una versión anterior como Python 2.0 utiliza el comando `pip install pandas`.
 
 ## ¿Qué es Pandas en Python?
 
