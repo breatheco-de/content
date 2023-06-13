@@ -23,7 +23,7 @@ Your job as a developer is to prepare for those events and define **handler func
 
 ![event driven programming](https://github.com/breatheco-de/content/blob/master/src/assets/images/1c00bd95-1359-4fd5-8399-b1b80a769009.png?raw=true)
 
-### But who Triggers these Events?
+### But who Triggers these Events??
 
 Sometimes it is the website user, sometimes it is the browser, sometimes it is another application letting you know something, sometimes the developer triggers events related to the business logic, etc.
 
