@@ -1,6 +1,13 @@
-## Expressions in Python
+---
+title: "What is an expression in Python?"
+subtitle: "Discover what expressions are in Python and how they play a crucial role in coding. Learn about their syntax, types, and practical examples to enhance your Python programming skills"
+tags: ["python"]
+authors: ["javierseiglie"]
+status: "draft"
 
-An expression in Python is a combination of values, variables, operators, and function calls that produce a result. It represents a computation or a calculation. In the following example, we use an expression to find the circumference of a circle with a radius of 4cm.
+---
+
+An expression in [Python](https://4geeks.com/lesson/intro-to-python) is a combination of values, variables, operators, and function calls that produce a result. It represents a computation or a calculation. In the following example, we use an expression to find the circumference of a circle with a radius of 4cm.
 
 ```py
 circle_radius = 4 # a statement
@@ -131,4 +138,4 @@ In this example, we want to create an array that has all the even numbers square
 
 ## Conclusion
 
-We can use an expression in Python to perform mathematical calculations, manipulate data, and many more things. There are many use cases for Python expressions not only the ones mentioned in this article. You will probably use Python expressions many times as you work with the Python programming language you can even make use of Python libraries such as [numpy](https://numpy.org/doc/) (Numerical Python) and Python expressions to perform more advanced or complex mathematical equations.
+We can use an expression in Python to perform mathematical calculations, manipulate data, and many more things. There are many use cases for Python expressions not only the ones mentioned in this article. You will probably use Python expressions many times as you work with the [Python programming language](https://4geeks.com/lesson/intro-to-python) you can even make use of [Python libraries](https://4geeks.com/lesson/intro-to-pandas) such as [numpy](https://numpy.org/doc/) (Numerical Python) and Python expressions to perform more advanced or complex mathematical equations. You can read more about this and other topics at [4Geek's Blog](https://4geeks.com/).
