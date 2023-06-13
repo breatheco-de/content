@@ -1,6 +1,12 @@
-## Instalar Pandas en Python
+---
+title: "¿Qué es Pandas en Python?"
+subtitle: "Aprende a instalar Pandas en Python de manera sencilla y rápida. Sigue nuestra guía paso a paso para configurar correctamente Pandas."
+tags: ["python","pandas"]
+authors: ["jul1998"]
 
-La librería de pandas en un recurso muy importante para un desarrollador a la hora de trabajar con una amplia cantidad de datos en Python, en este artículo veremos como instalar paso a paso esta librería en Windows, MacOS y Ubuntu ( Linux ).
+---
+
+La [librería de pandas en Python](https://4geeks.com/es/lesson/pandas-en-python) es un recurso muy importante para un desarrollador a la hora de trabajar con una amplia cantidad de datos en Python, en este artículo veremos como instalar paso a paso esta librería en Windows, MacOS y Ubuntu ( Linux ). Si quieres un [tutorial sobre Pandas python](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning), te invito a leer el Blog de [4Geeks](https://4geeks.com/), donde encontrarás mucha información relevante.
 
 Comando para instalar pandas:
 ```bash
@@ -49,7 +55,7 @@ $ python --version # verifica si tienes Python instalado
 $ pip --version # Verifica si tienes el paquete pip instalado
 ```
 
-Si aún no tienes Python instalado, ingresa a la página [instalar python](https://www.python.org/downloads/), escoje la versión de Python que quieres instalar y sigue las instrucciones.
+Si aún no tienes [Python](https://4geeks.com/es/lesson/que-es-python-tutorial) instalado, ingresa a la página [instalar python](https://www.python.org/downloads/), escoje la versión de Python que quieres instalar y sigue las instrucciones.
 
 Normalmente el paquete de **pip** ya viene instalado junto con Python pero si por alguna razón no lo tienes instalado o quieres actualizarlo puedes hacerlo con los siguientes comandos: 
 
@@ -72,7 +78,7 @@ $ pip show pandas
 
 ## ¿Qué es Pandas en Python?
 
-Pandas en una biblioteca de Python que te permite analizar y manipular datos, esta biblioteca es ampliamente utilizada en el desarrollo con Python en áreas como la ciencia de datos ( Data science ), Machine learning, Inteligencia artificial entre muchas otras. 
+Pandas en una biblioteca de Python que te permite analizar y manipular datos, esta biblioteca es ampliamente utilizada en el desarrollo con Python en áreas como la ciencia de datos (Data science), [Machine learning](https://4geeksacademy.com/us/machine-learning-engineer/machine-learning-engineer), Inteligencia artificial entre muchas otras. 
 
 Una ventaja de Pandas es que la puedes integrar con otras librerías de Python como la librería de NumPy, la integración de Pandas con NumPy te permite realizar análisis de datos y operaciones matematicas avanzadas junto con la visualización de datos de una forma más eficiente.
 
@@ -112,4 +118,4 @@ Con el comando `pip install --upgrade pandas` actualizarás **Pandas** en tu ord
 
 En conclusión pandas es una biblioteca muy útil a la hora de trabajar con datos en Python, esta biblioteca te permite analizar y manipular datos complejos además de que la puedes integrar con otras librerías de Python como NumPy para analizar y visualizar datos. Es una herramienta muy útil en áreas de desarrollo como Data Science, Machine Learning y básicamenta para cualquier programa que trabaje con una amplia cantidad de datos en Python.
 
-Si te interesa conocer más a fondo cómo puedes utilizar la biblioteca de **Pandas** en Machine Learning te recomiendo que visites la página [pandas machine learning](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning) de la academia de programación 4Geeks donde encontraras recursos muy utiles y explicaciones con ejemplos de código y videotutoriales que te ayudarán a enterder mejor esta librería y aprenderas a utilizar todas las caracteristicas mas importantes que ofrese.
+Si te interesa conocer más a fondo cómo puedes utilizar la biblioteca de **Pandas** en Machine Learning te recomiendo que visites el artículo sobre [pandas machine learning](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning), donde encontraras recursos muy utiles y explicaciones con ejemplos de código y videotutoriales que te ayudarán a enterder mejor esta librería y aprenderas a utilizar todas las caracteristicas mas importantes que ofrese.
