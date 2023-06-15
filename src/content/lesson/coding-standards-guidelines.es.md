@@ -62,7 +62,7 @@ Mantener los nombres cortos, pero no demasiado cortos:
 Usar una herramienta de indentación más bonita o automática. Si eso no es posible (por alguna razón extraña), asegúrate de indentar manualmente cada uno:
 
 - Elige cuántos espacios usarás (2 o 4 espacios por indentación).
-- En Python debes utilizar 4 espacios para la identacion [PEP8](https://peps.python.org/pep-0008/#indentation)
+- En Python se recomienda utilizar 4 espacios para la identacion [PEP8](https://peps.python.org/pep-0008/#indentation)
 - Usa un estilo de indentación consistente.
 - Indenta bloques de código: Los bloques de código, como los que se encuentran dentro de una función o bucle, deben indentarse para distinguirlos visualmente del código circundante.
 
