@@ -16,7 +16,7 @@ In this example, we use the Javascript array `fill()` method to fill an array th
 
 ## What is the Javascript fill method used for?
 
-The Javascript [fill](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill) method of [arrays](https://4geeks.com/lesson/what-is-an-array-define-array) changes all the elements in an array to a static value and returns a new array with the new values. This method has many use cases for example, you can use it to clear the values of an array or to initialize an array or a two-dimensional matrix with default values. !Basically, you can use this method whenever you want to change all the elements of an array to a single specific value.
+The Javascript [fill](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill) method of [arrays](https://4geeks.com/lesson/what-is-an-array-define-array) changes all the elements in an array to a static value and returns a new array with the new values. This method has many use cases for example, you can use it to clear the values of an array or to initialize an array or a two-dimensional matrix with default values. Basically, you can use this method whenever you want to change more than one of the elements of an array to a single specific value.
 
 This method receives three parameters:
 
