@@ -12,7 +12,7 @@ const array2 = numbers.fill(7);
 console.log(array2); // output: [ 7, 7, 7, 7, 7 ]
 ```
 
-In this example, we use the Javascript array `fill()` method to fill an array that contains `null` values with numbers. In the first array `array1` we filled only the first three values from the index `0`to the index `3` with the number `5`, in the second array `array2` we filled the whole array with the number `7`.
+In this example, we use the Javascript array `fill()` method to fill an array that contains `null` values with numbers. In the first array `array1` we filled only the first three values from the index `0` to the index `3` with the number `5`, in the second array `array2` we filled the whole array with the number `7`.
 
 ## What is the Javascript fill method used for?
 
