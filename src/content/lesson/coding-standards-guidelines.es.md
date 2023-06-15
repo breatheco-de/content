@@ -62,6 +62,7 @@ Mantener los nombres cortos, pero no demasiado cortos:
 Usar una herramienta de indentación más bonita o automática. Si eso no es posible (por alguna razón extraña), asegúrate de indentar manualmente cada uno:
 
 - Elige cuántos espacios usarás (2 o 4 espacios por indentación).
+- En Python se recomienda utilizar 4 espacios para la identacion [PEP8](https://peps.python.org/pep-0008/#indentation)
 - Usa un estilo de indentación consistente.
 - Indenta bloques de código: Los bloques de código, como los que se encuentran dentro de una función o bucle, deben indentarse para distinguirlos visualmente del código circundante.
 
@@ -100,32 +101,32 @@ Cuando sea posible, evita usar funciones anidadas como:
 
 ```python
 def calculate_discount(item, quantity):
-  if item.category == 'clothing':
-    if quantity >= 10:
-      return item.price * 0.9
+    if item.category == 'clothing':
+        if quantity >= 10:
+            return item.price * 0.9
+        else:
+            return item.price * 0.95
+    elif item.category == 'electronics':
+        if quantity >= 5:
+            return item.price * 0.8
+        else:
+            return item.price * 0.9
     else:
-      return item.price * 0.95
-  elif item.category == 'electronics':
-    if quantity >= 5:
-      return item.price * 0.8
-    else:
-      return item.price * 0.9
-  else:
-    return item.price
+        return item.price
 ```
 
 El código está demasiado anidado y tiene una estructura compleja que puede ser difícil de seguir. Esto se puede mejorar refactorizando el código para usar menos niveles de anidamiento, o usando retornos tempranos o refactorizando las declaraciones condicionales para simplificar la estructura. Aquí hay un ejemplo:
 
 ```python
 def calculate_discount(item, quantity):
-  if item.category != 'clothing' and item.category != 'electronics':
-    return item.price
-  
-  discount = 1.0
-  if item.category == 'clothing':
-    discount = 0.9 if quantity >= 10 else 0.95
-  else:
-    discount = 0.8 if quantity >= 5 else 0.9
-  
-  return item.price * discount
+    if item.category != 'clothing' and item.category != 'electronics':
+        return item.price
+
+    discount = 1.0
+    if item.category == 'clothing':
+        discount = 0.9 if quantity >= 10 else 0.95
+    else:
+        discount = 0.8 if quantity >= 5 else 0.9
+
+    return item.price * discount
 ```
