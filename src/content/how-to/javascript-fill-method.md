@@ -12,7 +12,7 @@ const array2 = numbers.fill(7);
 console.log(array2); // output: [ 7, 7, 7, 7, 7 ]
 ```
 
-In this example, we use the Javascript array `fill()` method to fill an array that contains `null` values with numbers, in the first array `array1` we filled only the first three values from the index `0`to the index `3` with the number `5`, in the second array `array2` we filled the whole array with the number `7`.
+In this example, we use the Javascript array `fill()` method to fill an array that contains `null` values with numbers. In the first array `array1` we filled only the first three values from the index `0`to the index `3` with the number `5`, in the second array `array2` we filled the whole array with the number `7`.
 
 ## What is the Javascript fill method used for?
 
@@ -76,7 +76,7 @@ console.log("arrayTwo: ", arrayTwo); // output: arrayTwo: [0, 0, 7, 7, 7, 0, 0]
 console.log("array: ", array); // output: array: [0, 0, 7, 7, 7, 0, 0]
 ```
 
- In this example, we create an array with 7 empty values with the syntax `Array(7)` then we call the `fill()` method on this array with the value of `0` to fill all the empty elements with this number and we store this new array in the constant `arrayOne` then we call the `fill()` method on this array with the value of `7` starting at the index `2` and ending at the index `5` and we store this new array in the constant `arrayTwo`, you can see that this array and the original array `originalArray` have the same values which mean that the `fill()` method unlike other methods like `filter()` does change the values in the original array. 
+In this example, we create an array with 7 empty values with the syntax `Array(7)` then we call the `fill()` method on this array with the value of `0` to fill all the empty elements with this number and we store this new array in the constant `arrayOne` then we call the `fill()` method on this array with the value of `7` starting at the index `2` and ending at the index `5` and we store this new array in the constant `arrayTwo`, you can see that this array and the original array `originalArray` have the same values which mean that the `fill()` method unlike other methods like `filter()` does change the values in the original array. 
 
 ## Use cases of the Javascript fill method 
 
@@ -122,7 +122,7 @@ console.log(newMatrix);
 ]
 ```
 
-In this example we want to create a two-dimensional matrix for the **tic tac toe** game, for this, we have to create an array with `3` empty values with the syntax `Array(3)` then we call the `fill()` method to fill these three values with three new arrays with empty values with the syntax `Array(3).fill(Array(3))` and then we call the `fill()` method on each of this arrays with the value `0` to initialized the two-dimensional matrix for the game, we do this with the syntax `Array(3).fill(0)`.
+In this example we want to create a two-dimensional matrix for the **tic tac toe** game. For this, we have to create an array with `3` empty values with the syntax `Array(3)` then we call the `fill()` method to fill these three values with three new arrays with empty values with the syntax `Array(3).fill(Array(3))` and then we call the `fill()` method on each of this arrays with the value `0` to initialized the two-dimensional matrix for the game, we do this with the syntax `Array(3).fill(0)`.
 
 ### 3. Create mock data 
 
@@ -153,7 +153,7 @@ console.log(mockToDos);
 ]
 ```
 
-In this example, we use the Javascript array method `fill()` to create mock data for a To-Do application, first, we create an array with 10 empty elements with the syntax `Array(10)` then we call the `fill()` method with an object as value, this object has an `id` property which is an increasing number also another property called `task` which is the task that you want to complete and finally the `done` property which confirms if you have already completed the task or not.
+In this example, we use the Javascript array method `fill()` to create mock data for a To-Do application. First, we create an array with 10 empty elements with the syntax `Array(10)` then we call the `fill()` method with an object as value, this object has an `id` property which is an increasing number also another property called `task` which is the task that you want to complete and finally the `done` property which confirms if you have already completed the task or not.
 
 ## Conclusion
 
