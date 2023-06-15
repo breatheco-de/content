@@ -82,7 +82,7 @@ Heads marca el comienzo de un historial de revisión. En GIT, un historial de re
 
 Por defecto, cada repositorio tiene una rama o branch llamada Master, con su HEAD correspondiente que apunta al último commit de esa rama.
 
-Ejemplo: Digamos que estás comenzando a desarrollar la característica/funcionalidad de "inicio de sesión" de un sitio web. Puedes crear una nueva "rama" del repositorio llamada "inicio de sesión", para que sus commits no formen parte del historial de revisión principal del proyecto. Una vez que te sientas cómodo con tu código, puedes *fusionar* tu rama y eliminar su head. Esto restablecerá la HEAD principal de la rama maestra (Branch master) al último commit realizado, y agregará tu nuevo código a la rama principal (master) del repositorio.
+Ejemplo: Digamos que estás comenzando a desarrollar la característica/funcionalidad de "inicio de sesión" de un sitio web. Puedes crear una nueva rama del repositorio llamada "inicio de sesión", para que sus commits no formen parte del historial de revisión principal del proyecto. Una vez que te sientas cómodo con tu código, puedes *fusionar* tu rama y eliminar su head. Esto restablecerá la HEAD principal de la rama maestra (Branch master) al último commit realizado, y agregará tu nuevo código a la rama principal (master) del repositorio.
 
 ![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif?raw=true)
 
