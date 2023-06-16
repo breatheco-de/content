@@ -10,6 +10,7 @@ canonical: ""
 cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg?raw=true"
 
 ---
+When you click your Course and you enter the "module map" the panel on your left donst change languages when you change from english to spanish, it always stay in english. 
 
 Welcome!! 🤩👏 My name is Alejandro and I'm typing these words after years of teaching code and changing lives. Please, I beg you to read until the end, I will try my best not to bore you!
 
