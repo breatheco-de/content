@@ -24,7 +24,7 @@ This method receives three parameters:
 array.fill(value, start, end)
 ```
 
- - `value`: this parameter is the value that you want to fill the array with, this value can be any type of data a `string`, a `number`, an `object`, an `array`, etc...
+ - `value`: this parameter is the value with which you want to fill the array, if this parameter is not passed the array will be filled with the value `undefined`, you can pass any type of data as a value, it can be a `string`, a `number`, an `object`, an `array`, etc...
  - `start`: this is the index at which to start filling the array (optional). 
     - if this value is a negative number it starts from the `array.length` backwards.
     - if this value is greater than `array.length` none of the values in the array are changed.
@@ -54,56 +54,55 @@ console.log([0, 0, 0].fill(4)); // output: [ 4, 4, 4 ]
 console.log([0, 0, 0].fill(4, 1)); // output: [ 0, 4, 4 ]
 console.log([0, 0, 0].fill(4, 1, 2)); // output: [ 0, 4, 0 ]
 console.log([0, 0, 0].fill(4, 1, 1)); // output: [ 0, 0, 0 ]
-console.log([0, 0, 0, 0, 0].fill(4, -3, -1)); // output: [ 0, 0, 4, 4, 0 ]
-console.log([0, 0, 0].fill(4, NaN, NaN)); // output: [ 0, 0, 0 ]
 console.log([0, 0, 0].fill(4, 4, 5)); // output: [ 0, 0, 0 ]
 console.log([0, 0, 0].fill(4, 1, 9)); // output: [ 0, 4, 4 ]
-console.log(Array(5).fill(4, 1, 3)); // output: [ <1 empty item>, 4, 4, <2 empty items> ]
+console.log([0, 0, 0].fill(4, NaN, NaN)); // output: [ 0, 0, 0 ]
+console.log([0, 0, 0, 0, 0].fill(4, -3, -1)); // output: [ 0, 0, 4, 4, 0 ]
+console.log(Array(5).fill(4, 1, 3)); // output: [ <1 empty item>, 4, 4, <2 empty items> ] 
 ```
 
-> Is important to know that the `fill()` method returns an array with the new values but this method also changes the values in the original array as shown in the following example:
+> Is important to remember that the `fill()` method returns a reference to the original modified array as shown in the next example:
 
 ```js
-const originalArray = Array(7);
-console.log("array: ", array); // output: array: [ <7 empty items> ]
+const arrayOne = [null, null, null, null, null];
+const arrayTwo = arrayOne.fill(2);
 
-const arrayOne = originalArray.fill(0);
-console.log("arrayOne: ", arrayOne); // output: arrayOne: [0, 0, 0, 0, 0, 0, 0]
+console.log("Original: ", arrayOne); // output: Original: [ 2, 2, 2, 2, 2 ]
+console.log("Modified: ", arrayTwo); // output: Modified: [ 2, 2, 2, 2, 2 ]
 
-const arrayTwo = arrayOne.fill(7, 2, 5);
-console.log("arrayTwo: ", arrayTwo); // output: arrayTwo: [0, 0, 7, 7, 7, 0, 0]
-
-console.log("array: ", array); // output: array: [0, 0, 7, 7, 7, 0, 0]
+console.log(arrayOne === arrayTwo); // output: true
 ```
 
-In this example, we create an array with 7 empty values with the syntax `Array(7)` then we call the `fill()` method on this array with the value of `0` to fill all the empty elements with this number and we store this new array in the constant `arrayOne` then we call the `fill()` method on this array with the value of `7` starting at the index `2` and ending at the index `5` and we store this new array in the constant `arrayTwo`, you can see that this array and the original array `originalArray` have the same values which mean that the `fill()` method unlike other methods like `filter()` does change the values in the original array. 
+In this code, we create an array `arrayOne` with 5 `null` elements. Then we call the `fill()` method to fill all the elements in this array with the number `2` and store the result in the constant `arrayTwo`. After calling the `fill()` method both the original and the modified arrays have the same values, this is because the `fill()` method changes the values of the original array `arrayOne` and returns a reference to it which is store in the second array `arrayTwo`. So if you compare the two arrays the result will be `true` because they both store a reference to the original modified array.
 
 ## Use cases of the Javascript fill method 
 
 The Javascript `fill()` method has multiple use cases, we'll see some of them in the next examples.
 
-### 1. Create an array filled with numbers
+### 1. Initialized an array with elements
 
-One way you can use this method is to create an array filled with sorted or random numbers.
+ The `fill()` method can be used to initialize an array with elements by default.
 
 ```js
-const randomNumbers = Array(10)
-    .fill()
-    .map(() =>  Math.round(Math.random() *  10));  
+const numbers = Array(10).fill().map((_, index) => index + 1);
 
-const sortedNumbers = Array(10)
-    .fill()
-    .map((_, index) =>  index);
-
-console.log(randomNumbers); // output: [6, 0, 2, 7, 1, 3, 4, 5, 10, 8]
-console.log(sortedNumbers); // output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+console.log(numbers); // output: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 ```
 
-Here we create two different arrays, the first array `randomNumbers` is an array filled with random numbers between 0 and 10, and the second array `sortedNumbers` is filled with sorted numbers, in both cases we call the Javascript `fill()` method without values this will fill the arrays with `undefined`. 
+In this example, we use the `fill()` method together with the `map()` method to initialize an array with numbers. First, we create an array with `10` empty elements and then we call the `fill()` method to fill the array with `10` iterable elements. After that, we use the `map()` method to assign the index of each element plus one as its value. For example, the index of the first element is `0` plus one equals `1` so the value of the first element of the array will be `1`, the index of the second element is `1` plus one equals `2` so the value of the second element will be `2`, and so on with all the elements of the array.
 
-To create the random numbers array we call the `map()` method to work with the array elements and then we assign a random number between 0 and 10 to each of them with the syntax `Math.round(Math.ramdom() * 10)`.
+This way to initialize an array with elements is especially important when you need to create an array with a massive amount of data, for example, the even numbers from `0` to `1000`.
 
-To create the sorted array we call the `map()` method and we assign the parameter `index` to each element of the array which crates an array with its index as values.
+```js
+const evenNumbers = Array(1000)
+    .fill()
+    .map((_, index) => index + 1)
+    .filter((num) => num % 2 === 0); 
+
+console.log(evenNumbers); // output: [ 2, 4, 6, 8 ... 998, 1000 ]
+```
+
+This example works the same as the previous one only that it uses the `filter()` method to filter all the even numbers of the array, with the syntax `num % 2 === 0`.
 
 ### 2. Initialize an empty two-dimensional matrix
 
@@ -153,7 +152,7 @@ console.log(mockToDos);
 ]
 ```
 
-In this example, we use the Javascript array method `fill()` to create mock data for a To-Do application. First, we create an array with 10 empty elements with the syntax `Array(10)` then we call the `fill()` method with an object as value, this object has an `id` property which is an increasing number also another property called `task` which is the task that you want to complete and finally the `done` property which confirms if you have already completed the task or not.
+In this example, we use the Javascript array method `fill()` to create mock data for a To-Do application. First, we create an array with 10 empty elements with the syntax `Array(10)` then we call the `fill()` method with an object as value, this object has an `id` property which is an increasing number also another property called `task` which is the task that you want to complete and finally the `done` property which indicates whether you have already completed the task or not.
 
 ## Conclusion
 
