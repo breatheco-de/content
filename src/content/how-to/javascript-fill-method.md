@@ -2,7 +2,7 @@
 title: "How to use the Javascript Fill Method?"
 subtitle: "Learn how to effectively use the Fill method in JavaScript arrays. Explore its syntax, parameters, and practical examples to efficiently populate arrays."
 tags: ["javascript","arrays"]
-authors: ["javierseiglie"]
+authors: ["DF27ARTS"]
 
 ---
 
