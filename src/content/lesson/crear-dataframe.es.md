@@ -5,43 +5,36 @@ Un `DataFrame` es una estructura de dos dimensiones, muy similar a una hoja de c
 ```python
 import pandas as pd
 
-lista_rrss = ['Facebook','Twitter','Instagram','Youtube']
+list_rrss = ['Facebook','Twitter','Instagram','Youtube']
 
-#Crear dataframe a partir de una lista
-df_rrss = pd.DataFrame(lista_rrss,
-columns=['Nombre'])
+# Crear dataframe a partir de una lista
+df_rrss = pd.DataFrame(list_rrss, columns=['Name'])
 
 print(df_rrss)
-
 ```
 
 > (output) de la variable `df_rrss`
 
-|     | Nombre    |
+|     |   Name    |
 | --- | --------- |
 | 0   | Facebook  |
 | 1   | Twitter   |
 | 2   | Instagram |
 | 3   | Youtube   |
 
-En este ejemplo, utilizamos la función `DataFrame()` para crear un `DataFrame` a partir de las lista `lista_rrss` y su resultado se guarda en la variable `df_rrss`, a la función `DataFrame()` en este caso le pasamos dos argumentos, la variable `lista_rrss` la cual serán los datos de el `DataFrame`y `columns` donde se especifica el nombre de las columnas, en este caso `Nombre`. Finalmente, se muestra por la terminal el `DataFrame`con los nombres de las redes sociales en la columna `Nombre`.
+En este ejemplo, utilizamos la función `DataFrame()` para crear un `DataFrame` a partir de las lista `list_rrss` y su resultado se guarda en la variable `df_rrss`, a la función `DataFrame()` en este caso le pasamos dos argumentos, la variable `list_rrss` la cual serán los datos del `DataFrame` y `columns` donde se especifica el nombre de las columnas, en este caso `Name`. Finalmente, se muestra por la terminal el `DataFrame` con los nombres de las redes sociales en la columna `Name`.
 
 ## DataFrame en Pandas
 
-Un `DataFrame` como se mencionó anteriormente es una estructura de dos dimensiones, para crear un `DataFrame` en Pandas, primero se necesita importar la biblioteca Pandas y luego utilizar la clase `pandas.DataFrame`.
-
-la clase `pandas.DataFrame` permite varios parámetros a la hora de crearse, veamos cuales son estos parámetros
+Un `DataFrame` como se mencionó anteriormente es una estructura de dos dimensiones, para crear un `DataFrame` en Pandas, primero se necesita importar la librería Pandas y luego utilizar la clase `pandas.DataFrame`. La clase `pandas.DataFrame` permite varios parámetros a la hora de crearse, veamos cuales son estos parámetros:
 
 ```python
-
 pandas.DataFrame(data, index, columns, dtype)
-
 ```
 
 - `data`: Representa los datos que utilizara el `DataFrame`, puede ser un objeto, una lista, un diccionario, otro `DataFrame`, entre otros.
-
 - `index`: Se utiliza cuando queremos especificar los índices del `DataFrame`, si no se le proporciona este parámetro por defecto genera índices numéricos.
-- ` colums`: Se utiliza cuando queremos especificar los nombres de las columnas del `DataFrame`, si no se le proporciona este paramentro por defecto genera índices numéricos.
+- `colums`: Se utiliza cuando queremos especificar los nombres de las columnas del `DataFrame`, si no se le proporciona este parámentro por defecto genera índices numéricos.
 - `dtype`: Se utiliza para especificar el tipo de datos de las columnas `DataFrame`, por ejemplo, `int`, `float`, `object`, etc. Si no se le proporciona este parámetro, por defecto infiere el tipo de dato a partir de los datos suministrados.
 
 Veamos un ejemplo donde hace uso de los parámetros antes mencionados:
@@ -49,30 +42,30 @@ Veamos un ejemplo donde hace uso de los parámetros antes mencionados:
 ```python
 import pandas as pd
 
-data_paises = {'Pais': ['España', 'Alemania', 'Reino Unido', 'Japon'],
-'Fecha': ['2022', '2022', '2020', '2021'],
-'Densidad': [94,234,275,332],
-'Poblacion': [47615034, 83794000,67081000,125507000]}
+countries = {'Pais': ['España', 'Alemania', 'Reino Unido', 'Japon'],
+date: ['2022', '2022', '2020', '2021'],
+density: [94,234,275,332],
+population: [47615034, 83794000,67081000,125507000]}
 
-indices = ['a', 'b', 'c','d']
-columnas = ['Pais', 'Fecha', 'Densidad', 'Poblacion']
+indexes = ['a', 'b', 'c','d']
+columns = ['Pais', 'Fecha', 'Densidad', 'Poblacion']
 
-df_data_paises = pd.DataFrame(data=data_paises, index=indices, columns=columnas, dtype=str)
+df_data_countries = pd.DataFrame(data=countries, index=indexes, columns=columns, dtype=str)
 
 print(df_data_paises)
 
 ```
 
-> (output) de la variable `df_data_paises`
+> (output) de la variable `df_data_countries`
 
-|     | Pais        | Fecha | Densidad | Poblacion |
-| --- | ----------- | ----- | -------- | --------- |
-| a   | España      | 2022  | 94       | 47615034  |
-| b   | Alemania    | 2022  | 234      | 83794000  |
-| c   | Reino Unido | 2020  | 275      | 67081000  |
-| d   | Japon       | 2021  | 332      | 125507000 |
+|     |   Country   | Date  | Density  | Population |
+| --- | ----------- | ----- | -------- | ---------- |
+| a   | España      | 2022  | 94       | 47615034   |
+| b   | Alemania    | 2022  | 234      | 83794000   |
+| c   | Reino Unido | 2020  | 275      | 67081000   |
+| d   | Japon       | 2021  | 332      | 125507000  |
 
-En este ejemplo se crea un `DataFrame` utilizando el diccionario `data_paises`, adicionalmente se especifican los índices y nombres de las columnas con las listas `indices` y `columnas` respectivamente.
+En este ejemplo se crea un `DataFrame` utilizando el diccionario `data_countries`, adicionalmente se especifican los índices y nombres de las columnas con las listas `indexes` y `columns` respectivamente.
 
 ## Formas de crear un DataFrame
 
@@ -84,9 +77,9 @@ Existen distintas maneras de crear un `DataFrame` en Python, a continuación exp
 import pandas as pd
 
 # Creacion de un dataframe vacio
-df = pd.DataFrame()
+df_jugadores = pd.DataFrame()
 
-print(df)
+print(df_jugadores)
 ```
 
 > (output) de la variable `df_jugadores`
@@ -388,4 +381,3 @@ print(df_jugadores.sort_values(by='Nombre', ascending=True))
 | 2   | Neymar Jr.        | Paris Saint-Germain | 56000000 |
 
 Podemos concluir que los `DataFrames` son una herramienta muy poderosa para trabajar con datos tabulares, ya que nos permite analizar y manipular gran cantidad de datos que en ocasiones son muy complejos, por lo que son ampliamente utilizados en áreas de desarrollo como son el Machine Learning, Data Science, Data Analysis, entre otras.
-
