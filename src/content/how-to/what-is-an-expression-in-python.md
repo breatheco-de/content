@@ -1,8 +1,8 @@
 ---
 title: "What is an expression in Python?"
-subtitle: "Discover what expressions are in Python and how they play a crucial role in coding. Learn about their syntax, types, and practical examples to enhance your Python programming skills"
+subtitle: "Discover what expressions are in Python and how they play a crucial role in coding. Learn about their syntax, types, and practical examples to enhance your Python programming skills."
 tags: ["python"]
-authors: ["javierseiglie"]
+authors: ["DF27ARTS"]
 
 ---
 
@@ -137,4 +137,4 @@ In this example, we want to create an array that has all the even numbers square
 
 ## Conclusion
 
-We can use an expression in Python to perform mathematical calculations, manipulate data, and many more things. There are many use cases for Python expressions not only the ones mentioned in this article. You will probably use Python expressions many times as you work with the [Python programming language](https://4geeks.com/lesson/intro-to-python) you can even make use of [Python libraries](https://4geeks.com/lesson/intro-to-pandas) such as [numpy](https://numpy.org/doc/) (Numerical Python) and Python expressions to perform more advanced or complex mathematical equations. You can read more about this and other topics at [4Geek's Blog](https://4geeks.com/).
+We can use an expression in Python to perform mathematical calculations, manipulate data, and many more things. There are many use cases for Python expressions not only the ones mentioned in this article. You will probably use Python expressions many times as you work with the [Python programming language](https://4geeks.com/lesson/intro-to-python) you can even make use of Python libraries such as [numpy](https://numpy.org/doc/) (Numerical Python) and Python expressions to perform more advanced or complex mathematical equations. You can read more about this and other topics at [4Geek's Blog](https://4geeks.com/).
