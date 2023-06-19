@@ -1,10 +1,6 @@
 # Javascript Flatten Array
 
-
-
-Have you ever thought “What does that even mean?” When someone asks you to ‘flatten’ an array? If so, You are in the correct place.
-Flatten array in javascript is just no more than the process of taking nested array elements and just putting them all into one “flat” array. 
-Pretty much all it does is turn some small arrays into one big array but, It can often get tricky of easily that it sounds. Take a look at the following examples demonstrating one of the most familiar ways to flatten an array in [Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript):
+Flatten array in Javascript is just no more than the process of taking nested array elements and just putting them all into one “flat” array. Pretty much all it does is turn some small arrays into one big array, but, It can often get tricky. Take a look at the following examples demonstrating one of the most familiar ways to flatten an array in [Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript):
 
 ```js
 let nestedArr = [
@@ -19,19 +15,17 @@ let flattenArray = [].concat.apply([], nestedArr);
 console.log(flattenArray)
 
 //Output:  [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-
 ```
 
-This code shown uses a combination of two [Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript) methods. We are using the `concat()` and the `apply()` passing two arguments to the apply method which are the empty array and the [Javascript Array](https://4geeks.com/lesson/what-is-an-array-define-array)  we declared above `nestedArr` then we concatenate all the elements handed into a new empty array bringing back a one-dimensional array.
-
+This code shown uses a combination of two [Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript) methods. We are using the `concat()` and the `apply()` passing two arguments to the apply method which are the empty array and the [Javascript Array](https://4geeks.com/lesson/what-is-an-array-define-array) we declared above `nestedArr` then we concatenate all the elements handed into a new empty array bringing back a one-dimensional array.
 
 ## Flatten Array Javascript
 
 Every time we require to flatten an array of arrays in Javascript we can follow different approaches, as [Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript) provides a collection of methods that can be used to reach our objective. One of the most commonly used are the following:
 
-- flat()
-- reduce()
-- concat()
+- `flat()`
+- `reduce()`
+- `concat()`
 
 Let's break this down into the next examples 
 
@@ -40,12 +34,12 @@ Let's break this down into the next examples
 #### Javascript Array Flatten - flat() Method
 
 ```js
-Let nestedArray : [[3, 2, 1, [3, 4]], [4, 6, 5], [], [9, 7, 8]]
+let nestedArray = [[3, 2, 1, [3, 4]], [4, 6, 5], [], [9, 7, 8]]
 const flattenArray = (nestedArray) => {
   return nestedArray.flat(Infinity); 
 }
 
-//Output: [3, 2, 1, 3, 4, 4, 6, 5, 9, 7, 8]
+// output: [3, 2, 1, 3, 4, 4, 6, 5, 9, 7, 8]
 
 ```
 
