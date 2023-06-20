@@ -15,7 +15,7 @@ print(df_rrss)
 
 > (output) de la variable `df_rrss`
 
-|     |   Name    |
+|     | Name      |
 | --- | --------- |
 | 0   | Facebook  |
 | 1   | Twitter   |
@@ -34,7 +34,7 @@ pandas.DataFrame(data, index, columns, dtype)
 
 - `data`: Representa los datos que utilizara el `DataFrame`, puede ser un objeto, una lista, un diccionario, otro `DataFrame`, entre otros.
 - `index`: Se utiliza cuando queremos especificar los índices del `DataFrame`, si no se le proporciona este parámetro por defecto genera índices numéricos.
-- `colums`: Se utiliza cuando queremos especificar los nombres de las columnas del `DataFrame`, si no se le proporciona este parámentro por defecto genera índices numéricos.
+- `columns`: Se utiliza cuando queremos especificar los nombres de las columnas del `DataFrame`, si no se le proporciona este parámentro por defecto genera índices numéricos.
 - `dtype`: Se utiliza para especificar el tipo de datos de las columnas `DataFrame`, por ejemplo, `int`, `float`, `object`, etc. Si no se le proporciona este parámetro, por defecto infiere el tipo de dato a partir de los datos suministrados.
 
 Veamos un ejemplo donde hace uso de los parámetros antes mencionados:
@@ -42,28 +42,28 @@ Veamos un ejemplo donde hace uso de los parámetros antes mencionados:
 ```python
 import pandas as pd
 
-countries = {'Pais': ['España', 'Alemania', 'Reino Unido', 'Japon'],
-date: ['2022', '2022', '2020', '2021'],
-density: [94,234,275,332],
-population: [47615034, 83794000,67081000,125507000]}
+data_countries = {'country': ['Spain', 'Germany', 'United Kingdom', 'Japan'],
+'date': ['2022', '2022', '2020', '2021'],
+'density': [94,234,275,332],
+'population': [47615034, 83794000,67081000,125507000]}
 
 indexes = ['a', 'b', 'c','d']
-columns = ['Pais', 'Fecha', 'Densidad', 'Poblacion']
+columns = ['country', 'date', 'density', 'population']
 
 df_data_countries = pd.DataFrame(data=countries, index=indexes, columns=columns, dtype=str)
 
-print(df_data_paises)
+print(df_data_countries)
 
 ```
 
 > (output) de la variable `df_data_countries`
 
-|     |   Country   | Date  | Density  | Population |
-| --- | ----------- | ----- | -------- | ---------- |
-| a   | España      | 2022  | 94       | 47615034   |
-| b   | Alemania    | 2022  | 234      | 83794000   |
-| c   | Reino Unido | 2020  | 275      | 67081000   |
-| d   | Japon       | 2021  | 332      | 125507000  |
+|     | country        | date | density | population |
+| --- | -------------- | ---- | ------- | ---------- |
+| a   | Spain          | 2022 | 94      | 47615034   |
+| b   | Germany        | 2022 | 234     | 83794000   |
+| c   | United Kingdom | 2020 | 275     | 67081000   |
+| d   | Japan          | 2021 | 332     | 125507000  |
 
 En este ejemplo se crea un `DataFrame` utilizando el diccionario `data_countries`, adicionalmente se especifican los índices y nombres de las columnas con las listas `indexes` y `columns` respectivamente.
 
@@ -77,12 +77,12 @@ Existen distintas maneras de crear un `DataFrame` en Python, a continuación exp
 import pandas as pd
 
 # Creacion de un dataframe vacio
-df_jugadores = pd.DataFrame()
+df= pd.DataFrame()
 
-print(df_jugadores)
+print(df)
 ```
 
-> (output) de la variable `df_jugadores`
+> (output) de la variable `df`
 
 Empty DataFrame
 Columns: []
@@ -93,51 +93,51 @@ Index: []
 ```python
 import pandas as pd
 
-lista_de_productos = [
+list_products = [
     ['iPhone 12', 100, 500],
     ['Samsung Galaxy S21', 200, 1000],
     ['Sony PlayStation 5', 150, 750],
     ['Nintendo Switch', 50, 250]
 ]
 
-df_lista_de_productos = pd.DataFrame(lista_de_productos, columns=['Producto', 'Cantidad', 'Precio'])
+df_list_products = pd.DataFrame(list_products, columns=['Product', 'Quantity', 'Price'])
 
-print(df_lista_de_productos)
+print(df_list_products)
 ```
 
-> (output) de la variable `df_lista_de_productos`
+> (output) de la variable `df_list_products`
 
-|     | Producto           | Cantidad | Precio |
-| --- | ------------------ | -------- | ------ |
-| 0   | iPhone 12          | 100      | 500    |
-| 1   | Samsung Galaxy S21 | 200      | 1000   |
-| 2   | Sony PlayStation 5 | 150      | 750    |
-| 3   | Nintendo Switch    | 50       | 25     |
+|     | Product            | Quantity | Price |
+| --- | ------------------ | -------- | ----- |
+| 0   | iPhone 12          | 100      | 500   |
+| 1   | Samsung Galaxy S21 | 200      | 1000  |
+| 2   | Sony PlayStation 5 | 150      | 750   |
+| 3   | Nintendo Switch    | 50       | 25    |
 
 ### Creación de un DataFrame desde un diccionario de listas
 
 ```python
 import pandas as pd
 
-personas_multimillonarias = {
-    'nombre': ['Jeff Bezos', 'Elon Musk', 'Bernard Arnault', 'Bill Gates'],
-    'edad': [59, 51, 74, 67],
-    'fortuna': [177000000000, 151000000000, 150000000000, 124000000000]
+billionaires = {
+    'name': ['Jeff Bezos', 'Elon Musk', 'Bernard Arnault', 'Bill Gates'],
+    'age': [59, 51, 74, 67],
+    'fortune': [177000000000, 151000000000, 150000000000, 124000000000]
 }
 
-df_personas_multimillonarias = pd.DataFrame(personas_multimillonarias)
+df_billionaires = pd.DataFrame(billionaires)
 
-print(df_personas_multimillonarias)
+print(df_billionaires)
 ```
 
-> (output) de la variable `df_personas_multimillonarias`
+> (output) de la variable `df_billionaires`
 
-|     | nombre          | edad | fortuna      |
-| --- | --------------- | ---- | ------------ |
-| 0   | Jeff Bezos      | 59   | 177000000000 |
-| 1   | Elon Musk       | 51   | 151000000000 |
-| 2   | Bernard Arnault | 74   | 150000000000 |
-| 3   | Bill Gates      | 67   | 124000000000 |
+|     | name            | age | fortune      |
+| --- | --------------- | --- | ------------ |
+| 0   | Jeff Bezos      | 59  | 177000000000 |
+| 1   | Elon Musk       | 51  | 151000000000 |
+| 2   | Bernard Arnault | 74  | 150000000000 |
+| 3   | Bill Gates      | 67  | 124000000000 |
 
 ### Creación de un dataframe a partir de una lista de diccionarios
 
@@ -145,30 +145,30 @@ print(df_personas_multimillonarias)
 import pandas as pd
 
 
-jugadores = [
-    {'Nombre': 'Lionel Messi', 'Equipo': 'Inter Miami CF', 'Salario': 67000000},
-    {'Nombre': 'Cristiano Ronaldo', 'Equipo': 'Al-Nassr', 'Salario': 62000000},
-    {'Nombre': 'Neymar Jr.', 'Equipo': 'Paris Saint-Germain', 'Salario': 56000000},
-    {'Nombre': 'Kylian Mbappé', 'Equipo': 'Paris Saint-Germain', 'Salario': 42000000},
-    {'Nombre': 'Mohamed Salah', 'Equipo': 'Liverpool', 'Salario': 40000000}
+players = [
+    {'Name': 'Lionel Messi', 'Team': 'Inter Miami CF', 'Salary': 67000000},
+    {'Name': 'Cristiano Ronaldo', 'Team': 'Al-Nassr', 'Salary': 62000000},
+    {'Name': 'Neymar Jr.', 'Team': 'Paris Saint-Germain', 'Salary': 56000000},
+    {'Name': 'Kylian Mbappé', 'Team': 'Paris Saint-Germain', 'Salary': 42000000},
+    {'Name': 'Mohamed Salah', 'Team': 'Liverpool', 'Salary': 40000000}
 ]
 
-df_jugadores = pd.DataFrame(jugadores, index=['primero', 'segundo', 'tercero', 'cuarto', 'quinto'])
+df_players = pd.DataFrame(players, index=['first', 'second', 'third', 'fourth', 'fifth'])
 
 
-print(df_jugadores)
+print(df_players)
 
 ```
 
-> (output) de la variable `df_jugadores`
+> (output) de la variable `df_players`
 
-|         | Nombre            | Equipo              | Salario  |
-| ------- | ----------------- | ------------------- | -------- |
-| primero | Lionel Messi      | Inter Miami CF      | 67000000 |
-| segundo | Cristiano Ronaldo | Al-Nassr            | 62000000 |
-| tercero | Neymar Jr.        | Paris Saint-Germain | 56000000 |
-| cuarto  | Kylian Mbappé     | Paris Saint-Germain | 42000000 |
-| quinto  | Mohamed Salah     | Liverpool           | 40000000 |
+|        | Name              | Team                | Salary   |
+| ------ | ----------------- | ------------------- | -------- |
+| first  | Lionel Messi      | Inter Miami CF      | 67000000 |
+| second | Cristiano Ronaldo | Al-Nassr            | 62000000 |
+| third  | Neymar Jr.        | Paris Saint-Germain | 56000000 |
+| fourth | Kylian Mbappé     | Paris Saint-Germain | 42000000 |
+| fifth  | Mohamed Salah     | Liverpool           | 40000000 |
 
 ## Métodos más importantes del dataframe
 
@@ -180,24 +180,24 @@ La clase `pandas.DataFrame` ofrece una amplia gama de métodos que pueden ser ú
 import pandas as pd
 
 
-jugadores = [
-    {'Nombre': 'Lionel Messi', 'Equipo': 'Inter Miami CF', 'Salario': 67000000},
-    {'Nombre': 'Cristiano Ronaldo', 'Equipo': 'Al-Nassr', 'Salario': 62000000},
-    {'Nombre': 'Neymar Jr.', 'Equipo': 'Paris Saint-Germain', 'Salario': 56000000},
-    {'Nombre': 'Kylian Mbappé', 'Equipo': 'Paris Saint-Germain', 'Salario': 42000000},
-    {'Nombre': 'Mohamed Salah', 'Equipo': 'Liverpool', 'Salario': 40000000}
+players = [
+    {'Name': 'Lionel Messi', 'Team': 'Inter Miami CF', 'Salary': 67000000},
+    {'Name': 'Cristiano Ronaldo', 'Team': 'Al-Nassr', 'Salary': 62000000},
+    {'Name': 'Neymar Jr.', 'Team': 'Paris Saint-Germain', 'Salary': 56000000},
+    {'Name': 'Kylian Mbappé', 'Team': 'Paris Saint-Germain', 'Salary': 42000000},
+    {'Name': 'Mohamed Salah', 'Team': 'Liverpool', 'Salary': 40000000}
 ]
 
 
-df_jugadores = pd.DataFrame(jugadores)
+df_players = pd.DataFrame(players)
 
 
-print(df_jugadores.head(2))
+print(df_players.head(2))
 ```
 
-> (output) de la variable `df_jugadores` aplicando el método `head()`
+> (output) de la variable `df_players` aplicando el método `head()`
 
-|     | Nombre            | Equipo         | Salario  |
+|     | Name              | Team           | Salary   |
 | --- | ----------------- | -------------- | -------- |
 | 0   | Lionel Messi      | Inter Miami CF | 67000000 |
 | 1   | Cristiano Ronaldo | Al-Nassr       | 62000000 |
@@ -207,23 +207,24 @@ print(df_jugadores.head(2))
 ```python
 import pandas as pd
 
-jugadores = [
-    {'Nombre': 'Lionel Messi', 'Equipo': 'Inter Miami CF', 'Salario': 67000000},
-    {'Nombre': 'Cristiano Ronaldo', 'Equipo': 'Al-Nassr', 'Salario': 62000000},
-    {'Nombre': 'Neymar Jr.', 'Equipo': 'Paris Saint-Germain', 'Salario': 56000000},
-    {'Nombre': 'Kylian Mbappé', 'Equipo': 'Paris Saint-Germain', 'Salario': 42000000},
-    {'Nombre': 'Mohamed Salah', 'Equipo': 'Liverpool', 'Salario': 40000000}
+
+players = [
+    {'Name': 'Lionel Messi', 'Team': 'Inter Miami CF', 'Salary': 67000000},
+    {'Name': 'Cristiano Ronaldo', 'Team': 'Al-Nassr', 'Salary': 62000000},
+    {'Name': 'Neymar Jr.', 'Team': 'Paris Saint-Germain', 'Salary': 56000000},
+    {'Name': 'Kylian Mbappé', 'Team': 'Paris Saint-Germain', 'Salary': 42000000},
+    {'Name': 'Mohamed Salah', 'Team': 'Liverpool', 'Salary': 40000000}
 ]
 
 
-df_jugadores = pd.DataFrame(jugadores)
+df_players = pd.DataFrame(players)
 
-print(df_jugadores.tail(2))
+print(df_players.tail(2))
 ```
 
-> (output) de la variable `df_jugadores` aplicando el método `tail()`
+> (output) de la variable `df_players` aplicando el método `tail()`
 
-|     | Nombre        | Equipo              | Salario  |
+|     | Name          | Team                | Salary   |
 | --- | ------------- | ------------------- | -------- |
 | 3   | Kylian Mbappé | Paris Saint-Germain | 42000000 |
 | 4   | Mohamed Salah | Liverpool           | 40000000 |
@@ -233,20 +234,18 @@ print(df_jugadores.tail(2))
 ```python
 import pandas as pd
 
-personas_multimillonarias = {
-    'nombre': ['Jeff Bezos', 'Elon Musk', 'Bernard Arnault', 'Bill Gates'],
-    'edad': [59, 51, 74, 67],
-    'fortuna': [177000000000, 151000000000, 150000000000, 124000000000]
+billionaires = {
+    'name': ['Jeff Bezos', 'Elon Musk', 'Bernard Arnault', 'Bill Gates'],
+    'age': [59, 51, 74, 67],
+    'fortune': [177000000000, 151000000000, 150000000000, 124000000000]
 }
 
+df_billionaires = pd.DataFrame(billionaires)
 
-df_personas_multimillonarias = pd.DataFrame(personas_multimillonarias)
-
-
-print(df_personas_multimillonarias.info())
+print(df_billionaires.info())
 ```
 
-> (output) de la variable `df_personas_multimillonarias` aplicando el método `info()`
+> (output) de la variable `df_billionaires` aplicando el método `info()`
 
 ```
 <class 'pandas.core.frame.DataFrame'>
@@ -254,9 +253,9 @@ RangeIndex: 4 entries, 0 to 3
 Data columns (total 3 columns):
  #   Column   Non-Null Count  Dtype
 ---  ------   --------------  -----
- 0   nombre   4 non-null      object
- 1   edad     4 non-null      int64
- 2   fortuna  4 non-null      int64
+ 0   name     4 non-null      object
+ 1   age      4 non-null      int64
+ 2   fortune  4 non-null      int64
 dtypes: int64(2), object(1)
 memory usage: 152.0+ bytes
 None
@@ -267,21 +266,21 @@ None
 ```python
 import pandas as pd
 
-personas_multimillonarias = {
-    'nombre': ['Jeff Bezos', 'Elon Musk', 'Bernard Arnault', 'Bill Gates'],
-    'edad': [59, 51, 74, 67],
-    'fortuna': [177000000000, 151000000000, 150000000000, 124000000000]
+billionaires = {
+    'name': ['Jeff Bezos', 'Elon Musk', 'Bernard Arnault', 'Bill Gates'],
+    'age': [59, 51, 74, 67],
+    'fortune': [177000000000, 151000000000, 150000000000, 124000000000]
 }
 
-df_personas_multimillonarias = pd.DataFrame(personas_multimillonarias)
+df_billionaires = pd.DataFrame(billionaires)
 
-print(df_personas_multimillonarias.describe())
+print(df_billionaires.describe())
 
 ```
 
-> (output) de la variable `df_personas_multimillonarias` aplicando el método `describe()`
+> (output) de la variable `df_billionaires` aplicando el método `describe()`
 
-|       | edad      | fortuna      |
+|       | age       | fortune      |
 | ----- | --------- | ------------ |
 | count | 4.000000  | 4.000000e+00 |
 | mean  | 62.750000 | 1.505000e+11 |
@@ -298,55 +297,52 @@ print(df_personas_multimillonarias.describe())
 import pandas as pd
 
 
-jugadores = [
-    {'Nombre': 'Lionel Messi', 'Equipo': 'Inter Miami CF', 'Salario': 67000000},
-    {'Nombre': 'Cristiano Ronaldo', 'Equipo': 'Al-Nassr', 'Salario': 62000000},
-    {'Nombre': 'Neymar Jr.', 'Equipo': 'Paris Saint-Germain', 'Salario': 56000000},
-    {'Nombre': 'Kylian Mbappé', 'Equipo': 'Paris Saint-Germain', 'Salario': 42000000},
-    {'Nombre': 'Mohamed Salah', 'Equipo': 'Liverpool', 'Salario': 40000000}
+players = [
+    {'Name': 'Lionel Messi', 'Team': 'Inter Miami CF', 'Salary': 67000000},
+    {'Name': 'Cristiano Ronaldo', 'Team': 'Al-Nassr', 'Salary': 62000000},
+    {'Name': 'Neymar Jr.', 'Team': 'Paris Saint-Germain', 'Salary': 56000000},
+    {'Name': 'Kylian Mbappé', 'Team': 'Paris Saint-Germain', 'Salary': 42000000},
+    {'Name': 'Mohamed Salah', 'Team': 'Liverpool', 'Salary': 40000000}
 ]
 
+df_players = pd.DataFrame(players, index=['first', 'second', 'third', 'fourth', 'fifth'])
 
-df_jugadores = pd.DataFrame(jugadores, index=['primero', 'segundo', 'tercero', 'cuarto', 'quinto'])
 
-
-print(df_jugadores.loc["primero":"tercero", "Nombre":"Equipo"])
+print(df_players.loc["first":"third", "Name":"Team"])
 
 ```
 
-> (output) de la variable `df_jugadores` aplicando el método `loc[row_indexer, col_indexer]`
+> (output) de la variable `df_players` aplicando el método `loc[row_indexer, col_indexer]`
 
-|         | Nombre            | Equipo              |
-| ------- | ----------------- | ------------------- |
-| primero | Lionel Messi      | Inter Miami CF      |
-| segundo | Cristiano Ronaldo | Al-Nassr            |
-| tercero | Neymar Jr.        | Paris Saint-Germain |
+|        | Name              | Team                |
+| ------ | ----------------- | ------------------- |
+| first  | Lionel Messi      | Inter Miami CF      |
+| second | Cristiano Ronaldo | Al-Nassr            |
+| third  | Neymar Jr.        | Paris Saint-Germain |
 
 - `iloc[row_indexer, col_indexer]`: Accede a un subconjunto de filas y columnas basándose en la posición de índice.
 
 ```python
 import pandas as pd
 
-personas_multimillonarias = {
-    'nombre': ['Jeff Bezos', 'Elon Musk', 'Bernard Arnault', 'Bill Gates'],
-    'edad': [59, 51, 74, 67],
-    'fortuna': [177000000000, 151000000000, 150000000000, 124000000000]
+billionaires = {
+    'name': ['Jeff Bezos', 'Elon Musk', 'Bernard Arnault', 'Bill Gates'],
+    'age': [59, 51, 74, 67],
+    'fortune': [177000000000, 151000000000, 150000000000, 124000000000]
 }
 
+df_billionaires = pd.DataFrame(billionaires)
 
-df_personas_multimillonarias = pd.DataFrame(personas_multimillonarias)
-
-print(df_personas_multimillonarias.iloc[0:3, 0:2])
-
+print(df_billionaires.iloc[0:3, 0:2])
 ```
 
-> (output) de la variable `df_personas_multimillonarias` aplicando el método `iloc[row_indexer, col_indexer]`
+> (output) de la variable `df_billionaires` aplicando el método `iloc[row_indexer, col_indexer]`
 
-|     | nombre          | edad |
-| --- | --------------- | ---- |
-| 0   | Jeff Bezos      | 59   |
-| 1   | Elon Musk       | 51   |
-| 2   | Bernard Arnault | 74   |
+|     | name            | age |
+| --- | --------------- | --- |
+| 0   | Jeff Bezos      | 59  |
+| 1   | Elon Musk       | 51  |
+| 2   | Bernard Arnault | 74  |
 
 - `sort_values(by)`: Este método permite ordenar el DataFrame por los valores de una columna o una lista de columnas.
 
@@ -354,25 +350,23 @@ print(df_personas_multimillonarias.iloc[0:3, 0:2])
 import pandas as pd
 
 
-jugadores = [
-    {'Nombre': 'Lionel Messi', 'Equipo': 'Inter Miami CF', 'Salario': 67000000},
-    {'Nombre': 'Cristiano Ronaldo', 'Equipo': 'Al-Nassr', 'Salario': 62000000},
-    {'Nombre': 'Neymar Jr.', 'Equipo': 'Paris Saint-Germain', 'Salario': 56000000},
-    {'Nombre': 'Kylian Mbappé', 'Equipo': 'Paris Saint-Germain', 'Salario': 42000000},
-    {'Nombre': 'Mohamed Salah', 'Equipo': 'Liverpool', 'Salario': 40000000}
+players = [
+    {'Name': 'Lionel Messi', 'Team': 'Inter Miami CF', 'Salary': 67000000},
+    {'Name': 'Cristiano Ronaldo', 'Team': 'Al-Nassr', 'Salary': 62000000},
+    {'Name': 'Neymar Jr.', 'Team': 'Paris Saint-Germain', 'Salary': 56000000},
+    {'Name': 'Kylian Mbappé', 'Team': 'Paris Saint-Germain', 'Salary': 42000000},
+    {'Name': 'Mohamed Salah', 'Team': 'Liverpool', 'Salary': 40000000}
 ]
 
+df_players = pd.DataFrame(players)
 
-df_jugadores = pd.DataFrame(jugadores)
-
-
-print(df_jugadores.sort_values(by='Nombre', ascending=True))
+print(df_players.sort_values(by='Name', ascending=True))
 
 ```
 
-> (output) de la variable `df_jugadores` aplicando el método `sort_values()`
+> (output) de la variable `df_players` aplicando el método `sort_values()`
 
-|     | Nombre            | Equipo              | Salario  |
+|     | Name              | Team                | Salary   |
 | --- | ----------------- | ------------------- | -------- |
 | 1   | Cristiano Ronaldo | Al-Nassr            | 62000000 |
 | 3   | Kylian Mbappé     | Paris Saint-Germain | 42000000 |
