@@ -179,7 +179,7 @@ Este comando hace lo siguiente:
 + Apunta al *HEAD* del commit object especificado por *\[head-name \]*.
 + Vuelve a escribir todos los archivos en el directorio para que coincidan con los archivos almacenados en la nueva *HEAD* commit.
   
-> :point_up: **Nota importante:** Si hay cambios sin commits al ejecutar git checkout, GIT se comportará de manera muy extraña. La extrañeza es predecible y, a veces, útil, pero es mejor evitarla. Todo lo que tienes que hacer, por supuesto, es confirmar todos los cambios nuevos antes de revisar el nuevo head.
+> :point_up: **Nota importante:** Si hay cambios sin commits al ejecutar git checkout, GIT se comportará de manera muy extraña. La extrañeza es predecible y a veces útil, pero es mejor evitarla. Todo lo que tienes que hacer, por supuesto, es confirmar todos los cambios nuevos antes de revisar el nuevo head.
 
 Después de revisar el head *\ [new-head \]*, fijarás los head. Ahora puedes agregar los cambios y realizar commit como se indica arriba. El repositorio resultante se ve así:
 
