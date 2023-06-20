@@ -82,7 +82,7 @@ Una base de datos de la Biblioteca Pública probablemente tenga una tabla llamad
 &nbsp;
 ## La Sintaxis de SQL: Trabajando con Tablas
 
-Hay 3 operaciones principales que se pueden hacer en una tabla: Crear, actualizar o eliminar una tabla. En SQL, esas operaciones se llaman Create, Alter y Dro. Recuerda que estas operaciones se utilizan para manipular la estructura de la base de datos, no la información que contiene.
+Hay 3 operaciones principales que se pueden hacer en una tabla: Crear, actualizar o eliminar una tabla. En SQL, esas operaciones se llaman Create, Alter y Drop. Recuerda que estas operaciones se utilizan para manipular la estructura de la base de datos, no la información que contiene.
 
 #### CREATE:
 
