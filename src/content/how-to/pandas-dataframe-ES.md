@@ -49,35 +49,35 @@ Debido a su facilidad para aplicar transformaciones y el análisis de los datos,
 
 Cada objeto DataFrame contiene los siguientes atributos:
 
-| Nombre | Descripción |
-| --- | --- |
-| columns | Este es el nombre de la columna o "título" de la misma. |
-| empty | Indica si el DataFrame está vacio o no. |
-| iloc | Localización basada en el indice. Sirve para seleccionar una posición dentro del DataFrame. |
-| index | Índice a nivel de la fila del DataFrame. |
-| loc | Localización basada en las filas y columnas. Sirve para seleccionar una posición por medio del nombre. |
-| shape | Devuelve una tupla que representa la dimensionalidad del DataFrame. |
+| Nombre | Tipo | Descripción |
+| --- | --- | --- |
+| columns | `list` | Este es el nombre de la columna o "título" de la misma. |
+| empty | `bool` | Indica si el DataFrame está vacio o no. |
+| iloc | `list` | Localización basada en el indice. Sirve para seleccionar una posición dentro del DataFrame. |
+| index | `list` | Índice a nivel de la fila del DataFrame. |
+| loc | `list` | Localización basada en las filas y columnas. Sirve para seleccionar una posición por medio del nombre. |
+| shape | `tuple` | Devuelve una tupla que representa la dimensionalidad del DataFrame. |
 
 ## Métodos de pandas.DataFrame más utilizados
 
 La clase DataFrame tiene una gran cantidad de métodos que son necesarios para realizar todo tipo de análisis y transformaciones basadas en los datos que contiene. A continuación podemos visualizar los métodos más utilizados en un DataFrame.
 
-- `read_csv()`: Sirve para cargar un archivo de tipo `csv` para generar un DataFrame
-- `agg()`: Aplicar una agregación utilizando 1 o más operaciones sobre un eje especificado. A este método se le envía como parametro una función que se aplicará a los datos, por ejemplo la función `sum()`.
-- `apply()`: Aplicar una sola función customizada al DataFrame. Es posible enviar argumentos en conjunto con la función.
-- `groupby()`: Es utilizado para agrupar el DataFrame utilizando 1 o más columnas. Usualmente se utiliza en conjunto con el método `agg()` para aplicar una agregación matemática basada en la agrupación.
-- `describe()`: Genera una serie de estadísticas descriptivas sobre los datos contenidos en el DataFrame.
-- `drop()`: Elimina del DataFrame las filas o columnas que se especifiquen, por ejemplo: `drop("id")`.
-- `drop_duplicates()`: Devuelve un DataFrame sin duplicados. La deduplicación puede estar basada en una o más columnas.
-- `dropna()`: Elimina las filas o columnas que contengan valores vacíos. En este caso es necesario establecer el eje al que se aplicará.
-- `fillna()`: Llena los valores NA/NaN con valores utilizando el método que se especifique.
-- `filter()`: Devuelve un subset del DataFrame con las filas o columnas especificadas acorde a las condiciones establecidas.
-- `head([n])`: Devuelve las primeras n filas del DataFrame.
-- `info()`: Imprime un resumen consiso de las cualidades del DataFrame basado en los datos que contiene.
-- `isnull()`: Identifica si las filas o columnas del DataFrame tienen valores nulos.
-- `join()`: Realiza un Join sobre las columnas especificadas del DataFrame al que se le aplica y otro DataFrame.
-- `to_csv()`: Escribe un archivo csv en la ruta especificada con los datos del DataFrame.
-- `to_parquet()`: Escribe un archivo parquet en la ruta especificada con los datos del DataFrame.
+- [`read_csv()`](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html#pandas.read_csv): Sirve para cargar un archivo de tipo `csv` para generar un DataFrame
+- [`agg()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.agg.html): Aplicar una agregación utilizando 1 o más operaciones sobre un eje especificado. A este método se le envía como parametro una función que se aplicará a los datos, por ejemplo la función `sum()`.
+- [`apply()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html): Aplicar una sola función customizada al DataFrame. Es posible enviar argumentos en conjunto con la función.
+- [`groupby()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html): Es utilizado para agrupar el DataFrame utilizando 1 o más columnas. Usualmente se utiliza en conjunto con el método `agg()` para aplicar una agregación matemática basada en la agrupación.
+- [`describe()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.describe.html): Genera una serie de estadísticas descriptivas sobre los datos contenidos en el DataFrame.
+- [`drop()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html): Elimina del DataFrame las filas o columnas que se especifiquen, por ejemplo: `drop("id")`.
+- [`drop_duplicates()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop_duplicates.html): Devuelve un DataFrame sin duplicados. La deduplicación puede estar basada en una o más columnas.
+- [`dropna()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html): Elimina las filas o columnas que contengan valores vacíos. En este caso es necesario establecer el eje al que se aplicará.
+- [`fillna()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.fillna.html): Llena los valores NA/NaN con valores utilizando el método que se especifique.
+- [`filter()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.filter.html): Devuelve un subset del DataFrame con las filas o columnas especificadas acorde a las condiciones establecidas.
+- [`head([n])`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html): Devuelve las primeras n filas del DataFrame.
+- [`info()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.info.html): Imprime un resumen consiso de las cualidades del DataFrame basado en los datos que contiene.
+- [`isnull()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.isnull.html): Identifica si las filas o columnas del DataFrame tienen valores nulos.
+- [`join()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.join.html): Realiza un Join sobre las columnas especificadas del DataFrame al que se le aplica y otro DataFrame.
+- [`to_csv()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_csv.html): Escribe un archivo csv en la ruta especificada con los datos del DataFrame.
+- [`to_parquet()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_parquet.html): Escribe un archivo parquet en la ruta especificada con los datos del DataFrame.
 
 ## ¿Cómo crear un DataFrame de Pandas en Python?
 
