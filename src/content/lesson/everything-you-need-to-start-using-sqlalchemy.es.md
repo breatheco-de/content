@@ -148,50 +148,52 @@ Del mismo modo, si usas UPDATE para hacer cambios en tu base de datos, puedes de
 db.session.rollback()
 ```
 
-### Comando SAVEPOINT 
+### SAVEPOINT: session.begin_nested()
 
-Este comando se usa para guardar temporalmente una transacción para así poder volver a cierto punto utilizando el comando ROLLBACK si así lo necesitas. Puedes usarlo así:
+El comando `SAVEPOINT` se usa para guardar temporalmente una transacción para así poder volver a cierto punto utilizando el comando ROLLBACK si así lo necesitas. Puedes usarlo así:
 
 ```py
 db.session.begin_nested()
 ```
 
-Este comando se puede llamar muchas veces y emitirá un nuevo PUNTO DE CONTROL con una ID.
+Este comando se puede llamar muchas veces, y con cada llamada se establece un punto de control llamado `checkpoint` y que lleva asociado un identificador único.
 
 ![SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-1.png?raw=true)
 
-Digamos que vamos a comer pizza y nuestra pizza tiene tres ingredientes de base:
-mozzarella, tomate y aceitunas.  Nuestra tabla se llamaría 'PIZZA' y se vería de la siguiente manera:
+Pongamos, por ejemplo, el caso de que queramos preparar una pizza y preparemos una base de datos en la que introducir los ingredientes que lleva. La base de esta pizza que queremos preparar lleva tres ingredientes: mozzarella, tomate y aceitunas. Nuestra tabla se va a llamar 'Pizza' y, después de insertar los ingredientes, se vería de la siguiente manera:
 
 ![SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-2.png?raw=true)
 
-Pero tenemos una lista de ingredientes extra que podemos añadirle: escogemos carne pero luego cambiamos de parecer y queremos champiñones. También nos gustaría añadirle pepperoni y tocino. Veamos como se vería nuestra transacción:
+Además, tenemos una lista de ingredientes extra que podemos añadir: escogemos carne primero, pero luego cambiamos de parecer y queremos reemplazarla por champiñones. También añadiremos pepperoni y beicon. Veamos como se haría esta transacción:
 
 ```py
-# we insert a new ingredient into out pizza
+# Supongamos que ya tenemos los ingredientes base añadidos con anterioridad
+
+# Ahora insertamos un nuevo ingrediente en la pizza, la carne
 ingredient = Ingredient()
 ingredient.name = 'meat'
 ingredient.id = 4
 db.session.add(ingredient)
 
-# now we COMMIT the transaction and save it into the database
+# Ahora hacemos COMMIT y lo guardamos en la base de datos, de tal forma que fijamos el ingrediente en la Pizza.
 db.session.commit()
 
+# Reemplazamos el cuarto ingrediente, que antes era la carne, por los champiñones.
 ingredient = Ingredient.query.get(4)
 ingredient.name = mushrooms
 
-# save a checkpoint
+# Guardamos un "checkpoint"
 checkpoint_a = db.session.begin_nested()
 
-# add pepperoni
+# Añadimos pepperoni en la pizza
 ingredient = Ingredient()
 ingredient.name = 'pepperoni'
 db.session.add(ingredient)
 
-# one last checkpoint before adding bacon ingredient
+# Un último "checkpoint" antes de añadir el beicon
 checkpoint_b = db.session.begin_nested()
 
-# add bacon
+# Insertamos el beicon
 ingredient = Ingredient()
 ingredient.name = 'bacon'
 db.session.add(ingredient)
@@ -201,13 +203,15 @@ Ahora nuestra 'Pizza' tiene los siguientes ingredientes:
 
 ![SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-3.png?raw=true)
 
-Ahora acabamos de decir que ya no queremos tocino, asi que usamos ROLLBACK:
+Sin embargo, antes de meterla en el horno hemos decidido que no queremos beicon, así que usamos el rollback:
 
-```jsx
-ROLLBACK TO B;
+```py
+db.session.rollback()
+# Vuelve atrás, hasta el checkpoint B, y no incluye el beicon
 ```
-y nuestra 'PIZZA' se ve así:
+
+Finalmente, nuestra 'PIZZA' se ve así:
 
 ![SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-4.png?raw=true)
 
-...me ha dado hambre luego de leer esta lección ¿¿tú no tienes hambre??
+... me ha dado hambre después de leer esta lección ¿¿tú no tienes hambre??
