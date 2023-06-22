@@ -15,7 +15,7 @@ tags: ["SQL Alchemy","Python"]
 
 SQLAlchemy es un [Object-Relational Mapper / Mapping-tool](https://en.wikipedia.org/wiki/Object-relational_mapping), o un ORM, es decir, una librería que los desarrolladores utilizan para crear bases de datos y manipular sus datos sin la necesidad de conocer / usar SQL.
 
-Existen otras alternativas como SQL Alchemy o Peewee, y otros lenguajes tienen sus propios ORMs como PHP Eloquent o Java Hibernate.
+Existen otras alternativas en Python como Peewee, y otros lenguajes tienen sus propios ORMs como PHP Eloquent o Java Hibernate.
 
 ## ¿Por qué usar un ORM?
 
@@ -39,71 +39,70 @@ user = User()
 user.name = 'Juan'
 user.last_name = 'McDonals'
 
-# agrega el user a la base de datos
+# Agrega el user a la base de datos
 db.session.add(user)
 
-# parecido al commit de GIT lo que hace es guardar todos los cambios que hayas hecho
+# Parecido al commit de GIT, lo que hace esta función es guardar todos los cambios que hayas hecho
 db.session.commit()
 ```
 
-Basta con que digas: `db.session.commit()` y todo lo que hayas hecho con tu código se traducirá a código de lenguaje SQL.
+Basta con que utilices la función `db.session.commit()` y todo lo que hayas hecho con tu código se traducirá a código de lenguaje SQL.
 
 ## Revisemos la operación de base de datos más típica
 
 ### Creando nuestra base de datos
 
-El primer paso sería definir nuestro modelo
+El primer paso sería definir nuestro modelo:
 
 ```py
 class Person(Base):
     __tablename__ = 'person'
     # Aquí definimos el nombre de la tabla person.
     # Ten en cuenta que cada columna es también un atributo normal de primera instancia de Python.
-    id = Column(Integer, primary_key=True)
-    name = Column(String(250), nullable=False)
+    id = Column(Integer, primary_key = True)
+    name = Column(String(250), nullable = False)
 
-    # el metodo serialize convierte el objeto en un diccionario
+    # El método serialize convierte el objeto en un diccionario
     def serialize(self):
         return {
             "id": self.id,
             "name": self.name
         }
-  ```
+```
 
 ### INSERT: Insertando un registro en la base de datos
 
-¡Todo lo que tiene que hacer es crear un nuevo objeto Person, agregarlo a la sesión de la base de datos y commit!
-Simplemente reemplaza `<username_value>` y `<email_value>` con los valores reales que deseaa agregar, a continuación.
+Para insertar un registro en la base de datos, es necesario, primero, contar con la instancia que se desea añadir. A continuación, agregarlo a la sesión de la base de datos y completar la acción con un commit. En el siguiente código se visualiza esta funcionalidad (reemplaza `<username_value>` y `<email_value>` con los valores reales que desees agregar):
 
 ```py
-person = Person(username=<username_value>, email=<email_value>)
+person = Person(username = <username_value>, email = <email_value>)
 db.session.add(person)
 db.session.commit()
-  ```
+```
 
-### SELECT: Buscando o recuperando registros
+### SELECT: Buscando o recuperando registros de la base de datos
 
-Hay 3 formas para devolver data de la base de datos:
-    1. Obtén todos los registros de una tabla/modelo en particular usando `MyModel.query.all()`
-    2. Obtén un único registro en función de su clave principal mediante `MyModel.query.get(id)`
-    3. Obtén un grupo de registros en función de una consulta `Person.query.filter_by(arg1=value, arg2=value, ...)`
+Hay 3 formas para devolver la información de la base de datos:
+  1. Obtener todos los registros de una tabla/modelo en particular usando `MyModel.query.all()`
+  2. Obtener un único registro en función de su clave principal mediante `MyModel.query.get(id)`
+  3. Obtener un grupo de registros en función de una consulta `Person.query.filter_by(arg1=value, arg2=value, ...)`
 
 ```py
-# aquí es como se buscan todas las personas
+# Obtener todos los registros de una tabla/modelo en particular, en este caso, de las personas
 all_people = Person.query.all()
 all_people = list(map(lambda x: x.serialize(), all_people))
 
-# aquí es como se busca un grupo de personas con name = alex
-all_people = Person.query.filter_by(name='alex')
-all_people = list(map(lambda x: x.serialize(), all_people))
-
-# aquí es cómo se busca a una persona con id = 3 (solo funciona con las primary key)
+# Obtener un único registro en función de su clave principal, que en este caso es el "id" de la persona (solo funciona con las primary key)
 person = Person.query.get(3)
+
+# Obtener un grupo de registros en función de una consulta, en este caso, que se llamen "alex"
+all_people = Person.query.filter_by(name = "alex")
+all_people = list(map(lambda x: x.serialize(), all_people))
 ```
 
 ### DELETE: Eliminando un registro de la base de datos.
 
-Todo lo que tienes que hacer es seleccionar la instancia de una Persona que te gustaría eliminar (es decir, por su id) y eliminarla escribiendo `db.session.delete(person)`.
+Para eliminar un registro de la base de datos es necesario seleccionar previamente la instancia que se desee suprimir (a través de su clave primaria, el id) y eliminarla utilizando `db.session.delete(person)`, de acuerdo al siguiente ejemplo:
 
 ```py
 person = Person.query.get(3)
@@ -113,7 +112,7 @@ db.session.commit()
 
 ### UDPATE: Actualizar un registro.
 
-Para actualizar, primero necesitas devolver/seleccionar el registro de la base de datos, luego puedes actualizar la propiedad que desees y hacer commit nuevamente.
+Para modificar un registro, hay que seleccionar previamente el mismo de la base de datos, luego puedes trabajar con él cambiando sus propiedades y hacer commit nuevamente, según el siguiente ejemplo:
 
 ```py
 person = Person.query.get(3)
@@ -123,9 +122,9 @@ db.session.commit()
 
 ## Transacciones
 
-Una transacción es una secuencia de operaciones (como INSERT, UPDATE, SELECT) realizadas en tu base de datos. Para que una transacción esté completa una cierta cantidad de operaciones dentro de un grupo deben ser exitosas. Si una operación falla, toda la transacción falla.
+Una transacción es una secuencia de operaciones (como INSERT, UPDATE, SELECT) realizadas en tu base de datos. Para que una transacción esté completa todas las operaciones deben ser exitosas. Si una operación falla, toda la transacción falla.
 
-Las transacciones tienen las siguientes 4 propiedades estándar (conocidas como propiedades ACID: español significa Atomicidad, Consistencia, Aislamiento y Durabilidad )
+Las transacciones tienen las siguientes 4 propiedades estándar (conocidas como propiedades ACID español significa Atomicidad, Consistencia, Aislamiento y Durabilidad )
 
 ![Transactions](https://github.com/breatheco-de/content/blob/master/src/assets/images/tran-1.png?raw=true)
 
