@@ -124,35 +124,35 @@ db.session.commit()
 
 Una transacción es una secuencia de operaciones (como INSERT, UPDATE, SELECT) realizadas en tu base de datos. Para que una transacción esté completa todas las operaciones deben ser exitosas. Si una operación falla, toda la transacción falla.
 
-Las transacciones tienen las siguientes 4 propiedades estándar (conocidas como propiedades ACID español significa Atomicidad, Consistencia, Aislamiento y Durabilidad )
+Todas las transacciones deben asegurar 4 propiedades principales (conocidas como propiedades ACID): atomicidad, consistencia, aislamiento y durabilidad.
 
 ![Transactions](https://github.com/breatheco-de/content/blob/master/src/assets/images/tran-1.png?raw=true)
 
-Una transacción termina con COMMIT o ROLLBACK. 
+Una transacción termina con `COMMIT` o `ROLLBACK`. 
 
 ### COMMIT: session.commit()
 
-El comando COMMIT se usa para guardar de manera permanente los cambios realizados en una transacción dentro de la base de datos. 
+El comando `COMMIT` se usa para guardar de manera permanente los cambios realizados en una transacción dentro de la base de datos. 
 
-Cuando usas INSERT, UPDATE o DELETE, los cambios realizados con estos comandos no son permanentes, los cambios hechos pueden desahacerse o "podemos volver atrás".
+Cuando usas INSERT, UPDATE o DELETE, los cambios realizados con estos comandos no son permanentes, los cambios hechos pueden desahacerse o, dicho con otras palabras, podemos volver atrás.
 
-Pero cuando usas el comando COMMIT los cambios en tu base de datos serán permanentes.  
+Sin embargo, cuando usas el comando COMMIT los cambios en tu base de datos serán permanentes.
 
-### Comando ROLLBACK 
+### ROLLBACK: session.rollback()
 
-Restaura tu base de datos hasta tu último COMMIT. También puedes usarlo con el comando SAVEPOINT para saltar a un punto que hayas guardado durante una transacción en curso.
+El comando `ROLLBACK` restaura tu base de datos hasta tu último COMMIT. También puedes usarlo con el comando SAVEPOINT para saltar a un punto que hayas guardado durante una transacción en curso.
 
 Del mismo modo, si usas UPDATE para hacer cambios en tu base de datos, puedes deshacerlos usando el comando ROLLBACK pero sólo si aún no has usado el comando COMMIT de esta forma:
 
-```jsx
+```py
 db.session.rollback()
 ```
 
 ### Comando SAVEPOINT 
 
-Este comando se usa para guardar temporalmente una transacción para así poder volver a cierto punto utilizando el comando ROLLBACK si así lo necesitas, puedes usarlo así:
+Este comando se usa para guardar temporalmente una transacción para así poder volver a cierto punto utilizando el comando ROLLBACK si así lo necesitas. Puedes usarlo así:
 
-```jsx
+```py
 db.session.begin_nested()
 ```
 
