@@ -47,7 +47,20 @@ db.session.commit()
 
 Basta con que utilices la función `db.session.commit()` y todo lo que hayas hecho con tu código se traducirá a código de lenguaje SQL.
 
-## Revisemos la operación de base de datos más típica
+## Revisemos las operaciones más típicas que se pueden realizar sobre una base de datos
+
+### Importando e inicializando la aplicación
+
+Para utilizar SQL Alchemy necesitamos instalar la librería `flask` de Python. Una vez lo hayamos hecho, estableceremos una conexión a la base de datos y definiremos el objeto `db`, que es lo más importante para empezar a trabajar con ella.
+
+```py
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////tmp/test.db'
+db = SQLAlchemy(app)
+```
 
 ### Creando nuestra base de datos
 
