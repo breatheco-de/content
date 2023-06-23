@@ -3,9 +3,9 @@ slug: "todo-lo-necesario-para-empezar-usar-sqlalchemy"
 title: "Todo lo que necesitas saber sobre SQLAlchemy"
 subtitle: "SQLAlchemy es el ORM más popular para Python, comience a usarlo en 8 minutos"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
-date: "2020-10-19T16:36:31+00:00"
+date: "2023-06-22T19:44:22+00:00"
 textColor: "white"
-authors: ["alesanchezr"]
+authors: ["alesanchezr", "cvazquezlos"]
 status: "published"
 tags: ["SQL Alchemy","Python"]
 
@@ -19,8 +19,7 @@ Existen otras alternativas en Python como Peewee, y otros lenguajes tienen sus p
 
 ## ¿Por qué usar un ORM?
 
-Los ORM han ganado popularidad debido a que lidiar con el lenguaje SQL directamente requiere de mucho esfuerzo en la mayoría de los casos. El objetivo del ORM entonces es simplificar la mantención de tus datos.
-Esto se hace creando ***objetos*** para tratar con las interacciones de la base de datos.
+Los ORM han ganado popularidad debido a que lidiar con el lenguaje SQL directamente requiere de mucho esfuerzo en la mayoría de los casos. El objetivo del ORM entonces es simplificar la mantención de tus datos. Esto se hace creando ***objetos*** para tratar con las interacciones de la base de datos.
 
 Básicamente, con ORM no tendrás que escribir SQL otra vez (95% del tiempo) y podrás trabajar con objetos.
 
@@ -57,7 +56,7 @@ El primer paso sería definir nuestro modelo:
 ```py
 class Person(Base):
     __tablename__ = 'person'
-    # Aquí definimos el nombre de la tabla person.
+    # Aquí definimos el nombre de la tabla 'Person'
     # Ten en cuenta que cada columna es también un atributo normal de primera instancia de Python.
     id = Column(Integer, primary_key = True)
     name = Column(String(250), nullable = False)
@@ -100,7 +99,7 @@ all_people = Person.query.filter_by(name = "alex")
 all_people = list(map(lambda x: x.serialize(), all_people))
 ```
 
-### DELETE: Eliminando un registro de la base de datos.
+### DELETE: Eliminando un registro de la base de datos
 
 Para eliminar un registro de la base de datos es necesario seleccionar previamente la instancia que se desee suprimir (a través de su clave primaria, el id) y eliminarla utilizando `db.session.delete(person)`, de acuerdo al siguiente ejemplo:
 
@@ -110,7 +109,7 @@ db.session.delete(person)
 db.session.commit()
 ```
 
-### UDPATE: Actualizar un registro.
+### UDPATE: Actualizar un registro
 
 Para modificar un registro, hay que seleccionar previamente el mismo de la base de datos, luego puedes trabajar con él cambiando sus propiedades y hacer commit nuevamente, según el siguiente ejemplo:
 
@@ -175,10 +174,10 @@ ingredient.name = 'meat'
 ingredient.id = 4
 db.session.add(ingredient)
 
-# Ahora hacemos COMMIT y lo guardamos en la base de datos, de tal forma que fijamos el ingrediente en la Pizza.
+# Ahora hacemos COMMIT y lo guardamos en la base de datos, de tal forma que fijamos el ingrediente en la Pizza
 db.session.commit()
 
-# Reemplazamos el cuarto ingrediente, que antes era la carne, por los champiñones.
+# Reemplazamos el cuarto ingrediente, que antes era la carne, por los champiñones
 ingredient = Ingredient.query.get(4)
 ingredient.name = mushrooms
 
@@ -206,11 +205,11 @@ Ahora nuestra 'Pizza' tiene los siguientes ingredientes:
 Sin embargo, antes de meterla en el horno hemos decidido que no queremos beicon, así que usamos el rollback:
 
 ```py
-db.session.rollback()
+checkpoint_b.rollback()
 # Vuelve atrás, hasta el checkpoint B, y no incluye el beicon
 ```
 
-Finalmente, nuestra 'PIZZA' se ve así:
+Finalmente, nuestra 'Pizza' se ve así:
 
 ![SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-4.png?raw=true)
 
