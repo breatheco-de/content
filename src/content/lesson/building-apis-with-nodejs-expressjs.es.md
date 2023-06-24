@@ -1,10 +1,10 @@
 ---
-title: "Construyendo APIs REST utilizando Expressjs"
-subtitle: "Expressjs permite construir API REST de una forma rápida, minimalista y flexible"
+Título: "Construyendo APIs REST utilizando Expressjs"
+Subtítulo: "Expressjs permite construir API REST de una forma rápida, minimalista y flexible"
 cover_local: "../../assets/images/node-expressjs.png"
-textColor: "white"
-date: "2021-04-17T16:36:31+00:00"
-status: "published"
+Color de texto: "blanco"
+Fecha: "2021-04-17T16:36:31+00:00"
+Status: "Publicado"
 tags: ["Expressjs","nodejs","REST","API"]
 
 ---
