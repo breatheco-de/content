@@ -97,7 +97,7 @@ df_users = df_users.drop(columns="Not_Useful_column")
 9      242      Emily   Johnson   19    777-888-9999    emily@hotmail.com
 ```
 
-The [drop](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html) method with the `columns="Not_Useful_column"` parameter removes the `Not_Useful_column` column from our example dataset, but it must be assigned back to the `df_users` variableto replace its values with those of the new dataset.
+The [drop](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html) method with the `columns="Not_Useful_column"` parameter removes the `Not_Useful_column` column from our example dataset, but it must be assigned back to the `df_users` variable to replace its values with those of the new dataset.
 
 ### 3. Correct syntax errors in columns
 
@@ -120,7 +120,7 @@ df_users["Name"] = df_users["Name"].str.strip("-_./[0-9]")
 9      242     Emily   Johnson   19    777-888-9999    emily@hotmail.com
 ```
 
-The `strip()` method removes empty values at the beginning and at the end of a string, if we pass a specific value as a parameter it will look for that value at the beginning or at the end and remove it. In this example, we call the `strip()` method in the `Name` column `df_users["Name"].str.strip()` and pass it as parameters the values that we want to remove in a string `-_./[0-9]`, then we access the dataset of the **Name** column `df_users["Name"]` and we assign the new value.
+The `strip()` method removes empty values at the beginning and at the end of a string, if we pass a specific value as a parameter it will look for that value at the beginning or at the end and remove it. In this example, we call the `strip()` method in the `Name` column `df_users["Name"].str.strip()` and pass it as parameters the values that we want to remove in a string `-_./[0-9]`, then we access the dataset of the `Name` column `df_users["Name"]` and we assign it the new values.
 
 Now that we have cleaned the `Name` column, we have to clean the `Last_name` column, as you can see in the dataset example, some of the values in the `Last_name` column do not have the first letter capitalized,
 to fix this use de following code:
@@ -144,7 +144,7 @@ df_users["Last_name"] = df_users["Last_name"].apply(
 9      242     Emily   Johnson   19    777-888-9999    emily@hotmail.com
 ```
 
-The [apply](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html) function is used to apply a `lambda` function to each element in a column of a dataset, in this example, it is used to apply a function to the `Last_name` column and capitalized the first letter of each string with the syntax `element[0:1].upper() + element[1:]` but we have to check that the current value is of type **string**, if it is not then we have to return the same value, this can be done with the syntax `if type(element) == str else element`.
+The [apply](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html) function is used to apply a `lambda` function to each element in a column of a dataset, in this example, it is used to apply a function to the `Last_name` column and capitalized the first letter of each string with the syntax `element[0:1].upper() + element[1:]` but we have to check that the current value is of type `string`, if it's not then we have to return the same value, this can be done with the syntax `if type(element) == str else element`.
 
 ### 4. Set a unique pattern for a column
 
@@ -171,7 +171,7 @@ df_users["Phone"] = df_users["Phone"].apply(
 9      242     Emily   Johnson   19  777-888-9999    emily@hotmail.com
 ```
 
-Here we want to establish the pattern `000-000-0000` on all the values in the `Phone` column, for this first, we have to delete all the values that are not a number with the [replace](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.replace.html) function and the syntax `r"[^0-9]",  '', regex=True`, after this, we want ot set the pattern on all the numbers in this column, for this, we use a `lambda` function and the f-string (format string) expression `f"{item[0:3]}-{item[3:6]}-{item[6:]}"` which is used to embed expressions inside string literals, but we do this only if the current value has a `string` type and have ten characters, as you can see in the index `5` of the column `Phone` we have a `None` value and in the index index `7` of the same column we have a number with only 9 digits, none of these characters meet the condition so they are replaced by a `None` value that will be removed later.
+Here we want to establish the pattern `000-000-0000` on all the values in the `Phone` column, for this first, we have to delete all the values that are not a number with the [replace](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.replace.html) function and the syntax `r"[^0-9]",  '', regex=True`, after this, we want to set this pattern on all the phone numbers in this column, for this, we use a `lambda` function and the f-string (format string) expression `f"{item[0:3]}-{item[3:6]}-{item[6:]}"` which is used to embed expressions inside string literals, but we do this only if the current value has a `string` type and have ten characters, as you can see in the index `5` of the `Phone` column we have a `None` value and in the index index `7` of the same column we have a number with only 9 digits, none of these characters meet the condition so they are replaced by a `None` value that will be removed later.
 
 ### 5. Delete rows with None values
 
@@ -198,7 +198,7 @@ df_users = df_users.reset_index(drop=True)
 
 The [dropna](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html) function deletes all the rows of a column containing `None` values and the [reset_index](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.reset_index.html) function with the `drop=True` parameter reset the index of the rows and delete the old ones.
 
-Now we have a perfectly clean and consistent dataset to start working with. This was a simple litter example of how to clean the data of a dataset.
+Now we have a perfectly clean and consistent dataset to start working with. This was a simple example of how to clean the data of a dataset.
 
 ## Conclusion
 
