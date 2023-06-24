@@ -1,9 +1,9 @@
 ---
-title: "Qué es webpack?"
-subtitle: "Para los desarrolladores senior, es imposible pensar en desarrollar una aplicación JS sin Webpack. Gracias a Webpack, desarrollar front-end se siente bien y profesional por primera vez. Así que es hora de aprender lo que es webpack"
+Título: "¿Qué es webpack?"
+Subtítulo: "Para los desarrolladores senior, es imposible pensar en desarrollar una aplicación JS sin Webpack. Gracias a Webpack, desarrollar front-end se siente bien y profesional por primera vez. Así que es hora de aprender lo que es webpack"
 cover_local: "../../assets/images/cdbe1bf9-2b6b-4c21-b127-eacc681d9c8d.png"
 textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
+Fecha: "2020-10-19T16:36:31+00:00"
 tags: ["webpack"]
 status: "published"
 
@@ -18,7 +18,7 @@ Webpack es una de esas cosas que odias las primeras veces y luego no puedes vivi
 <before-after width="400px"
     before="https://github.com/breatheco-de/content/blob/master/src/assets/images/bc337938-55c4-40e2-a370-5d69bf084a3b.png?raw=true" after="https://github.com/breatheco-de/content/blob/master/src/assets/images/41afcd74-81dd-4e6e-98ee-fc2642a07e7f.png?raw=true" />
 
-### Pero, ¿qué es Webpack?
+### Pero, ¿Qué es Webpack?
 
 Webpack es esta cosa que agarra todas las piezas de tu aplicación (archivos, imágenes, fuentes, JS, CSS, HTML, etc.) y las agrupa en un archivo grande.  De esa manera, puedes dividir tu aplicación en muchas partes y luego combinarlas al final del proceso de codificación.
 
@@ -26,7 +26,7 @@ Luego, el navegador podrá solicitar (GET) ese archivo y mostrar / renderizar to
 
 ![qué es webpack](https://github.com/breatheco-de/content/blob/master/src/assets/images/bdd432f7-adef-4023-976e-1ebd6abe70f7.gif?raw=true)
 
-### Pero ¿por qué me importa el agrupamiento?
+### Pero ¿Por qué me importa el agrupamiento?
 
 Básicamente, no hay forma de mantener una aplicación grande si no la divides en varios archivos más pequeños (dividir y conquistar).
 
