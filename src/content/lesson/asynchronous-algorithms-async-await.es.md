@@ -1,5 +1,5 @@
 ---
-slug: "asincrono-algoritmos-async-await"
+slug: "asíncrono-algoritmos-async-await"
 title: "Creando algoritmos asíncronos"
 subtitle: "Comprende la diferencia entre scripts síncronos y asíncronos, uso de Promises y master async y wait."
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
