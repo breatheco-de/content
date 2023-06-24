@@ -1,9 +1,9 @@
 ---
-title: "Tutorial de Bootstrap: Aprende Bootstrap 4 en 10 minutos"
-subtitle: "¡Después de decadas de lucha, la luz ha llegado! Con este tutorial de Bootstrap, diseñar un sitio web va a ser pan comido. Es absurdo, y casi imposible, pensar en hacer un sitio web sin un framework de CSS como Bootstrap."
+Titulo: "Tutorial de Bootstrap: Aprende Bootstrap 4 en 10 minutos"
+Subtitulo: "¡Después de decadas de lucha, la luz ha llegado! Con este tutorial de Bootstrap, diseñar un sitio web va a ser pan comido. Es absurdo, y casi imposible, pensar en hacer un sitio web sin un framework de CSS como Bootstrap."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
-textColor: "white"
-date: "2020-10-19T16:36:30+00:00"
+Color del texto: "white"
+Fecha: "2020-10-19T16:36:30+00:00"
 tags: ["bootstrap"]
 status: "published"
 
