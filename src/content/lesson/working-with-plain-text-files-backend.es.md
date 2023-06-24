@@ -1,11 +1,11 @@
 ---
-title: "Trabajando con archivos de texto"
-subtitle: "Almacenar y obtner informacin de archivos usando lenguajes de backend"
-authors: ["alesanchezr"]
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["marketing","query-string"]
-status: "published"
+Titulo: "Trabajando con archivos de texto"
+Subtitulo: "Almacenar y obtner informacin de archivos usando lenguajes de backend"
+Autores: ["alesanchezr"]
+Color de Text: "white"
+Fecha: "2020-10-19T16:36:31+00:00"
+Etiquetas: ["marketing","query-string"]
+Estado: "published"
 cover_local: "../../assets/images/storage_background.jpg"
 
 ---
@@ -14,7 +14,7 @@ cover_local: "../../assets/images/storage_background.jpg"
 
 Todo el disco duro de tu computador está compuesto por archivos, esta es la forma más básica para almacenar información, tu computadora se ejecuta en un `sistema de archivos (file system)` o en un `directorio de archivos (file directory)` que muestra cómo se almacenan y obtienen los datos.
 
-Usando un lenguaje de back-end puedes acceder a la mayoría de los archivos del computador, ¡y eso te da un poder casi infinito!
+Usando un lenguaje de Back-End puedes acceder a la mayoría de los archivos del computador, ¡y eso te da un poder casi infinito!
 
 ## Obteniendo datos de los archivos
 
@@ -34,7 +34,7 @@ Currency,Date,Closing Price (USD),24h Open (USD),24h High (USD),24h Low (USD)
 BTC,2019-10-29,9455.7246926058,9228.0745024715,9551.7787262272,9125.7784571584
 ```
 
-Puedes Puede leer el archivo con cualquier lenguaje de programación de backend e interpretarlo en función de las posiciones de los valores:
+Puedes Puede leer el archivo con cualquier lenguaje de programación de Back-End e interpretarlo en función de las posiciones de los valores:
 
 ```python
 import csv, json
