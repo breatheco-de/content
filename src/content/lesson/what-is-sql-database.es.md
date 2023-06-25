@@ -3,7 +3,7 @@ title: "Dominando Bases de Datos: ¿Qué es la Base de Datos SQL?"
 subtitle: "¿Estás listo para trabajar con datos? Aprende aquí sobre qué es la base de datos SQL y cómo trabajar con ella."
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
+date: "2023-06-26T00:35:31+00:00"
 tags: ["sql"]
 status: "published"
 
@@ -39,15 +39,15 @@ Las bases de datos son similares en apariencia a las hojas de cálculo: todo se 
 
 #### 1. Tablas
 
-En una base de datos, una tabla es una entidad de información con "Personas", "Coches", "Eventos", etc. Las filas contienen la información relativa a las características, siendo cada una de ellas una columna. Así, si tenemos una llamada llamada "Personas", puede contener columnas para "Nombre", "Apellidos", "DNI", etc. Una fila tendria los valores correspondientes a una persona. Por ejemplo, una fila podría ser "Luis", "Pérez Gómez", "123456789Z". La tabla es la **única estructura** capaz de almacenar datos vía SQL.
+En una base de datos, una `tabla` es una entidad de información con "Personas", "Coches", "Eventos", etc. Las filas contienen la información relativa a las características, siendo cada una de ellas una columna. Así, si tenemos una llamada llamada "Personas", puede contener columnas para "Nombre", "Apellidos", "DNI", etc. Una fila tendria los valores correspondientes a una persona. Por ejemplo, una fila podría ser "Luis", "Pérez Gómez", "123456789Z". La tabla es la **única estructura** capaz de almacenar datos vía SQL.
 
 #### 2. Filas
 
-Una tabla está compuesta por un conjunto de filas. Cada una de ellas es una instancia de la información. Así, en el ejemplo anterior, cada una de las filas sería una persona en específico que hemos almacenado en nuestra base de datos.
+Una tabla está compuesta por un conjunto de `filas`. Cada una de ellas es una instancia de la información. Así, en el ejemplo anterior, cada una de las filas sería una persona en específico que hemos almacenado en nuestra base de datos.
 
 #### 3. Columnas
 
-Una tabla está compuesta también por un conjunto de columnas. Cada una de ellas es una característica de la tabla en sí. Así, en el ejemplo anterior, cada una de las características de la persona será su Nombre, Apellidos y DNI. Cada característica llevará asociado un tipo de valor específico (string, entero, boolean, etc).
+Una tabla está compuesta también por un conjunto de `columnas`. Cada una de ellas es una característica de la tabla en sí. Así, en el ejemplo anterior, cada una de las características de la persona será su Nombre, Apellidos y DNI. Cada característica llevará asociado un tipo de valor específico (string, entero, boolean, etc).
 
 Una tabla puede contener un amplio conjunto de filas y columnas. De su tamaño dependerán los tiempos de acceso y ejecución de consultas.
 
@@ -59,7 +59,7 @@ Una tabla puede contener un amplio conjunto de filas y columnas. De su tamaño d
 
 ### Relaciones entre tablas
 
-Una base de datos es una colección de tablas interconectadas. La conexión entre dos tablas se denomina "relación" y puede ser una de las siguientes:
+Una base de datos es una colección de tablas interconectadas. La conexión entre dos tablas se denomina `relación` y puede ser una de las siguientes:
 
 **Una a una:**
 
@@ -73,7 +73,7 @@ La base de datos de las Grandes Ligas en Baseball probablemente tiene una tabla 
 
 ![Bases de datos SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/374d53ac-092f-4f34-a6f1-76bfaa5bd676.png?raw=true)
 
-**Muchos a Muchos:**
+**Muchos a muchos:**
 
 Una base de datos de la Biblioteca Pública probablemente tenga una tabla llamada Autor (que contiene la información de todos los autores con libros publicados), y también otra tabla con TODOS los libros que se han publicado. Ambas tablas están relacionadas porque **un autor puede tener muchos libros y un libro puede tener muchos autores.**
 
@@ -86,7 +86,7 @@ Una base de datos de la Biblioteca Pública probablemente tenga una tabla llamad
 
 #### Manipulando tablas
 
-Hay 3 operaciones principales que se pueden hacer en una tabla: Crear, actualizar o eliminar una tabla. En SQL, esas operaciones se llaman Create, Alter y Drop. Recuerda que estas operaciones se utilizan para manipular la estructura de la base de datos, no la información que contiene.
+Hay 3 operaciones principales que se pueden hacer en una tabla: Crear, actualizar o eliminar una tabla. En SQL, esas operaciones se llaman `CREATE`, `ALTER` y `DROP`. Recuerda que estas operaciones se utilizan para manipular la estructura de la base de datos, no la información que contiene.
 
 ##### CREATE:
 
@@ -134,7 +134,7 @@ SELECT column1, column2... columnN FROM table1 WHERE column1 = 3;
 SELECT ssn, username, email FROM USER WHERE ssn = '233-34-3453';
 ```
 
-v INSERT:
+##### INSERT:
 
 Crea una nueva fila/registro en la tabla. Se agregará al final.
 
