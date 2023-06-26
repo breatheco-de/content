@@ -73,7 +73,7 @@ df_users = df_users.drop_duplicates()
 9      242      Emily   Johnson   19    777-888-9999    emily@hotmail.com              None
 ```
 
-As you can see the function [drop_duplicates](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop_duplicates.html) removes all the duplicated rows, in our example dataset, the function successfully removes the rows at index `4` and `10`.
+As you can see the function [drop_duplicates](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop_duplicates.html) removes all the duplicated rows, in our example dataset, the function successfully removed the rows at index `4` and `10`.
 
 ### 2. Delete unnecessary columns
 
@@ -103,7 +103,7 @@ The [drop](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.ht
 Now that we have removed all the duplicated rows and unnecessary columns, we have to check column by column to see if any of them need to be corrected. Some of the values in the `Name` column have unnecessary symbols at the beginning or end of the name, we can correct these errors with the following code: 
 
 ```py
-df_users["Name"] = df_users["Name"].str.strip("-_./[0-9]")
+df_users["Name"] = df_users["Name"].str.strip("[-_./0-9]{1}")
 ```
 > df_users
 ```bash
@@ -119,7 +119,7 @@ df_users["Name"] = df_users["Name"].str.strip("-_./[0-9]")
 9      242     Emily   Johnson   19    777-888-9999    emily@hotmail.com
 ```
 
-The `strip()` method removes empty values at the beginning and at the end of a string, if we pass a specific value as a parameter it will look for that value at the beginning or at the end and remove it. In this example, we call the `strip()` method in the `Name` column `df_users["Name"].str.strip()` and pass it as parameters the values that we want to remove in a string `-_./[0-9]`, then we access the dataset of the `Name` column `df_users["Name"]` and we assign it the new values.
+The `strip()` method removes empty values at the beginning and at the end of a string, if we pass a specific value as a parameter it will look for that value at the beginning or at the end and remove it. In this example, we call the `strip()` method in the `Name` column `df_users["Name"].str.strip()` and pass it as parameters the values that we want to remove in a string `[-_./0-9]{1}`, then we access the dataset of the `Name` column `df_users["Name"]` and we assign it the new values.
 
 Now that we have cleaned the `Name` column, we have to clean the `Last_name` column, as you can see in the dataset example, some of the values in the `Last_name` column do not have the first letter capitalized,
 to fix this use de following code:
@@ -143,7 +143,7 @@ df_users["Last_name"] = df_users["Last_name"].apply(
 9      242     Emily   Johnson   19    777-888-9999    emily@hotmail.com
 ```
 
-The [apply](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html) function is used to apply a `lambda` function to each element in a column of a dataset, in this example, it is used to apply a function to the `Last_name` column and capitalized the first letter of each string with the syntax `element[0:1].upper() + element[1:]` but we have to check that the current value is of type `string`, if it's not then we have to return the same value, this can be done with the syntax `if type(element) == str else element`.
+The [apply](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html) function is used to apply a `lambda` function to each element in a column of a dataset, in this example, it is used to apply a function to the `Last_name` column that capitalize the first letter of each string with the syntax `element[0:1].upper() + element[1:]` but we have to check that the current value is of type `string`, if it's not then we have to return the same value, this can be done with the syntax `if type(element) == str else element`.
 
 ### 4. Set a unique pattern for a column
 
