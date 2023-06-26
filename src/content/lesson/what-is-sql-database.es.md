@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-# ¿Qué es SQL?
+## ¿Qué es SQL?
 
 SQL (*Structured Query Language*, Lenguaje de Consulta Estructurado) es el lenguaje más utilizado cuando se desea hablar directamente con una base de datos. Permite almacenar, manipular y recuperar datos que se almacenan en [bases de datos relacionales](https://en.wikipedia.org/wiki/Base_de_datos_relacional).
 

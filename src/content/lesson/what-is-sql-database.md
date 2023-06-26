@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-# What is SQL?
+## What is SQL?
 
 SQL (*Structured Query Language*) is the language most commonly used when you want to talk directly to a database. It allows you to store, manipulate and retrieve data that is stored in [relational databases](https://en.wikipedia.org/wiki/Base_de_datos_relacional).
 
