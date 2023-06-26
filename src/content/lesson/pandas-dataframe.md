@@ -7,7 +7,6 @@ authors: ["valerybriz"]
 ---
 
 En python existen una gran variedad de estructuras de datos y una de las más utilizadas, sin lugar a dudas, es la clase DataFrame de la [librería de pandas en Python](https://4geeks.com/es/lesson/pandas-en-python), la cual es preferida debido a sus multiples funcionalidades y su gran facilidad para aplicar transformaciones a los datos que contienen.
-    
 
 En este artículo exploraremos las partes que componen un DataFrame, sus atributos y los métodos más utilizados, así como algunas de las aplicaciones que tienen. Si quieres un [tutorial sobre Pandas python](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning), te invito a leer el Blog de [4Geeks](https://4geeks.com/), donde encontrarás mucha información relevante.
 
