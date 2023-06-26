@@ -1,6 +1,6 @@
 ---
 title: "¿Qué es un DataFrame en Pandas?"
-subtitle: "Descubre qué es un DataFrame en Pandas y cómo se utiliza para manejar datos tabulares en Python. Aprende sobre las funcionalidades, operaciones."
+subtitle: "Descubre qué es un DataFrame en Pandas y cómo se utiliza para manejar datos tabulares en Python. Aprende sobre las funcionalidades y operaciones."
 tags: ["python","pandas"]
 authors: ["valerybriz"]
 
