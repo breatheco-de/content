@@ -7,19 +7,19 @@ Una columna de _DataFrame_ en cuanto a la librería de _Pandas_ en _Python_, se 
 import pandas as pd
 
 # Crear un DataFrame de muestra
-data = {'Compania ': ['Facebook', 'Apple', 'Google', 'Neftlix'],
-        'Fundacion': [2004, 1976, 1998, 1997]}
+data = {'Company ': ['Facebook', 'Apple', 'Google', 'Neftlix'],
+        'Started At': [2004, 1976, 1998, 1997]}
 df = pd.DataFrame(data)
 
 # Agregar una nueva columna al DataFrame
-cotiza_en_bolsa = [True, True, True, True]  # Data de muestra para nueva columna
-df['cotiza_en_bolsa'] = cotiza_en_bolsa
+publicly_traded_company = [True, True, True, True]  # Data de muestra para nueva columna
+df['publicly_traded_company'] = publicly_traded_company
 
 # Imprimir el DataFrame actualizado
 print(df)
 
 # Resultado esperado
-#  Compania   Fundacion  cotiza_en_bolsa
+#   Company     Started At   publicly_traded_company
 #0  Facebook       2004             True
 #1     Apple       1976             True
 #2    Google       1998             True
@@ -29,9 +29,9 @@ print(df)
 
 El código anterior crea un conjunto de datos base, al cual posteriormente se le realiza la adición de la columna ```cotiza_en_bolsa``` junto con sus valores. Al imprimir el código, se puede apreciar como el conjunto de datos cuenta con la columna adicional.
 
-Este articulo profundiza en las maneras de añadir columnas _DataFrame_ en Python. Si quieres mas información de cómo utilizar Pandas en otras aplicaciones, puedes ir a: [Tutorial de Python Pandas]( https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning).
+Este articulo profundiza en las maneras de añadir columnas _DataFrame_ en Python. Si quieres más información de cómo utilizar Pandas en otras aplicaciones, puedes ir a: [Tutorial de Python Pandas]( https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning).
 
-## Columna DataFrame python
+## Columna DataFrame Python
 
 La forma de organización de información en un _DataFrame_ es con las filas organizadas de manera horizontal, mientras que las columnas se van colocando verticalmente. Esta estructura intuitiva permita una manipulación y almacenamiento eficiente de la información. Las columnas pueden contener diferentes tipos de datos como números, fechas, strings o booleanos, agregando a su versatilidad.
 
@@ -39,7 +39,7 @@ Los usos más comunes de los _DataFrame_ son la manipulación y el análisis de 
 
 ## Maneras de agregar DataFrames en Python
 
-Existen diferentes formas de agregar columnas a un _DataFrame_ de Pandas en Python. A continuación se muestran 3 de las maneras mas comunes de realizar este proceso:
+Existen diferentes formas de agregar columnas a un _DataFrame_ de Pandas en Python. A continuación se muestran 3 de las maneras más comunes de realizar este proceso:
 
 ### Asignación directa
 
@@ -126,7 +126,7 @@ Se tiene una lista de datos que lleva registro de una serie de errores ocurridos
 import pandas as pd
 
 # Crear un DataFrame 
-data = {Error: ['Car computer hacked', 'wheels misaligned', 'Windshield broken', 'Ran out of battery'],
+data = {Error: ['Car computer hacked', 'Wheels misaligned', 'Windshield broken', 'Ran out of battery'],
         'Date': ['1/2/2023', '26/2/2023', '4/4/2023', '6/22/2023']}
 df = pd.DataFrame(data)
 
@@ -139,7 +139,7 @@ print(df2)
 # Resultado esperado
 #            Error             Date      Severity
 #0    Car computer hacked    1/2/2023      high
-#1     wheels misaligned     26/2/2023    medium
+#1     Wheels misaligned     26/2/2023    medium
 #2     Windshield broken     4/4/2023      high
 #3    Ran out of battery     6/22/2023     low
 ```
