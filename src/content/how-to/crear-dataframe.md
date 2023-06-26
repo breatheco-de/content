@@ -1,6 +1,12 @@
-# Crear Dataframe
+---
+title: "¿Cómo crear un DataFrame?"
+subtitle: "Aprende a crear un DataFrame en Pandas en Python. Sigue nuestra guía paso a paso para cargar datos desde diferentes fuentes y construir un DataFrame con Pandas."
+tags: ["python","pandas"]
+authors: ["DF27ARTS"]
 
-Un `DataFrame` es una estructura de dos dimensiones, muy similar a una hoja de cálculo o una tabla en base de datos, veamos como crear un `DataFrame` a partir de una lista.
+---
+
+Un `DataFrame` es una estructura de dos dimensiones, muy similar a una hoja de cálculo o una tabla en base de datos, veamos como crear un `DataFrame` a partir de una lista. 
 
 ```python
 import pandas as pd
@@ -22,7 +28,7 @@ print(df_rrss)
 | 2   | Instagram |
 | 3   | Youtube   |
 
-En este ejemplo, utilizamos la función `DataFrame()` para crear un `DataFrame` a partir de las lista `list_rrss` y su resultado se guarda en la variable `df_rrss`, a la función `DataFrame()` en este caso le pasamos dos argumentos, la variable `list_rrss` la cual serán los datos del `DataFrame` y `columns` donde se especifica el nombre de las columnas, en este caso `Name`. Finalmente, se muestra por la terminal el `DataFrame` con los nombres de las redes sociales en la columna `Name`.
+En este ejemplo, utilizamos la función `DataFrame()` para crear un `DataFrame` a partir de las lista `list_rrss` y su resultado se guarda en la variable `df_rrss`, a la función `DataFrame()` en este caso le pasamos dos argumentos, la variable `list_rrss` la cual serán los datos del `DataFrame` y `columns` donde se especifica el nombre de las columnas, en este caso `Name`. Finalmente, se muestra por la terminal el `DataFrame` con los nombres de las redes sociales en la columna `Name`. Si quieres un [tutorial sobre Pandas python](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning), te invito a leer el Blog de [4Geeks](https://4geeks.com/), donde encontrarás mucha información relevante.
 
 ## DataFrame en Pandas
 
@@ -69,7 +75,7 @@ En este ejemplo se crea un `DataFrame` utilizando el diccionario `data_countries
 
 ## Formas de crear un DataFrame
 
-Existen distintas maneras de crear un `DataFrame` en Python, a continuación explicaremos algunas de ellas.
+Existen distintas maneras de crear un `DataFrame` en [Python](https://4geeks.com/es/lesson/que-es-python-tutorial), a continuación explicaremos algunas de ellas.
 
 ### Creación de un dataframe vacio
 
@@ -374,4 +380,4 @@ print(df_players.sort_values(by='Name', ascending=True))
 | 4   | Mohamed Salah     | Liverpool           | 40000000 |
 | 2   | Neymar Jr.        | Paris Saint-Germain | 56000000 |
 
-Podemos concluir que los `DataFrames` son una herramienta muy poderosa para trabajar con datos tabulares, ya que nos permite analizar y manipular gran cantidad de datos que en ocasiones son muy complejos, por lo que son ampliamente utilizados en áreas de desarrollo como son el Machine Learning, Data Science, Data Analysis, entre otras.
+Podemos concluir que los `DataFrames` son una herramienta muy poderosa para trabajar con datos tabulares, ya que nos permite analizar y manipular gran cantidad de datos que en ocasiones son muy complejos, por lo que son ampliamente utilizados en áreas de desarrollo como son el [Machine learning](https://4geeksacademy.com/us/machine-learning-engineer/machine-learning-engineer), Data Science, Data Analysis, entre otras. Si te interesa conocer más a fondo cómo puedes utilizar la biblioteca de **Pandas** en Machine Learning te recomiendo que visites el artículo sobre [pandas para machine learning](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning), donde encontraras recursos muy utiles y explicaciones con ejemplos de código y videotutoriales que te ayudarán a enterder mejor esta librería y aprenderas a utilizar todas las caracteristicas mas importantes que ofrese.
