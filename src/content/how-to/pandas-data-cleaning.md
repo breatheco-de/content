@@ -48,8 +48,7 @@ print(df_users)
 10      242      Emily   Johnson   19    777-888-9999    emily@hotmail.com              None
 ```
 
-Here we use the pandas `DataFrame()` function to create a mock dataset, this dataset contains 7 columns and 11 rows, the columns are, a `user_id` which is the user's unique id, a `Name` column, a `Last_name` column, the user's `age`, the user's `Phone` number, the user's `Email`, and finally a non-useful column called `Not_Useful_column` which we will use as an example of how to 
-delete an unnecessary column from a dataset.
+Here we use the pandas `DataFrame()` function to create a mock dataset, this dataset contains 7 columns and 11 rows, the columns are, a `user_id` which is the user's unique id, a `Name` column, a `Last_name` column, the user's `age`, the user's `Phone` number, the user's `Email`, and finally a non-useful column called `Not_Useful_column` which we will use as an example of how to delete an unnecessary column from a dataset.
 
 As you can see in the example dataset, the data has some inconsistencies in the columns, a few unnecessary symbols in the `Name` column, some values in the `Last_name` column are not capitalized, and each of the values in the `Phone` column have different syntaxis which makes it difficult to work with them.
 
