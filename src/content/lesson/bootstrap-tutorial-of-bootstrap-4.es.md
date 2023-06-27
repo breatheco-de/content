@@ -1,5 +1,5 @@
 ---
-title: "Tutorial de Bootstrap: Aprende Bootstrap 4 en 10 minutos"
+title: "Tutorial de Bootstrap: Aprende Bootstrap 5 en 10 minutos"
 subtitle: "¡Después de decadas de lucha, la luz ha llegado! Con este tutorial de Bootstrap, diseñar un sitio web va a ser pan comido. Es absurdo, y casi imposible, pensar en hacer un sitio web sin un framework de CSS como Bootstrap."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
@@ -15,7 +15,7 @@ Hay una luz al final del túnel y no es Chuck Norris con una linterna. ¡Finalme
 
 Dos chicos, mientras trabajaban en Twitter, estaban sufriendo los mismos problemas que nosotros con HTML y CSS. Hartos de esta situación (como tú y yo), decidieron crear una **hoja base que puede importarse en cualquier sitio web**. Esto hizo el trabajo de todos los desarrolladores front-end 4 veces más fácil.
 
-![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/335ed387-cbf9-4ffa-9529-1ccf2084e393.jpeg?raw=true)
+![bootstrap 5](https://github.com/breatheco-de/content/blob/master/src/assets/images/335ed387-cbf9-4ffa-9529-1ccf2084e393.jpeg?raw=true)
 
 Además, Bootstrap te da una gran cantidad de elementos nuevos que vas a querer usar siempre y que actualmente no existen en CSS+HTML: Los componentes de Bootstrap.
 
@@ -44,9 +44,9 @@ Por otro lado, las columnas fueron hechas para vivir dentro de las filas (como p
 
 Tal cual como lo hicimos en el capítulo sobre diseños, vamos a crear una página con dos grandes secciones, una barra lateral a la derecha y un contenido principal a la izquierda:
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/th7uLrow/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="https://jsfiddle.net/BreatheCode/th7uLrow/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/th7uLrow/6/embedded/html,css,result/">Click aquí para ver el demo en una ventana nueva</a></small></div>
+<div align="right"><small><a href="https://jsfiddle.net/BreatheCode/th7uLrow/6/embedded/html,css,result/">Click aquí para ver el demo en una ventana nueva</a></small></div>
 
 ## Bootstrap es 100% adaptable
 
@@ -62,9 +62,9 @@ Es muy fácil decidir como se verá tu página web en pantallas de diferente tam
 
 Bootstrap device sizes:   
 
-| Smartphones   | Big-phone/small-tablet   | Tablets  | Desktops   | Extra-large desktops |
-|:------------- |:------------------------ |:-------- |:---------- |:-------------------- |
-| Nothing       | sm                       | md       | lg         | xl                   |
+| Smartphones   | Big-phone/small-tablet   | Tablets  | Desktops   | Extra-large desktops | Extra-Extra-large desktops |
+|:------------- |:------------------------ |:-------- |:---------- |:-------------------- | :--------------------------|
+| Nothing       | sm                       | md       | lg         | xl                   | xxl
 
 > :point_up: Nota: si no especificas el tamaño de pantalla (ej. usando 'sm', 'md', or 'xl'), el sitio web va a renderizar para teléfonos móviles por defecto.
 
@@ -95,7 +95,7 @@ Vamos a configurar el diseño (usando las clases de columnas xs, sm, md y lg) pa
 </div>
 ```
 
-## Estructura básica de Bootstrap 4
+## Estructura básica de Bootstrap 5
 
 Ya sabemos sobre el esqueleto básico de HTML5 que todo sitio web debe tener. Ahora solo debes agregar unas líneas en tu esqueleto para hacerlo compatible con Bootstrap:
 
@@ -109,7 +109,7 @@ Ya sabemos sobre el esqueleto básico de HTML5 que todo sitio web debe tener. Ah
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
     <title>¡Hola, mundo!</title>
   </head>
@@ -117,10 +117,9 @@ Ya sabemos sobre el esqueleto básico de HTML5 que todo sitio web debe tener. Ah
     <h1>¡Hola, mundo!</h1>
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
   </body>
 </html>
 ```
@@ -129,9 +128,9 @@ Recuerda, Bootstrap es solo una hoja de estilos. Es por eso que es muy simple ag
 
 La funcionalidad de Javascript en Bootstrap requiere que se incluyan las librerías propias de jQuery y Javascript primero pero no te preocupes por esto aún.   Sólo incluye las librerías de JS usando la etiqueta script y más adelante lo entenderás.
 
-> :link: Encuentra aquí [increíbles archivos de Bootstrap para que puedas empezar.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+> :link: Encuentra aquí [increíbles archivos de Bootstrap para que puedas empezar.](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
-## Componentes de Bootstrap 4
+## Componentes de Bootstrap 5
 
 
 HTML es súper básico, sólo tiene un par de etiquetas - ya los sabíamos. Pero cuando revisas la web hoy en día, ves otra cosa… actualmente las páginas web tienen menús, íconos, barras de carga, etc. ¿Dónde están esas etiquetas? ¡Ninguna de ellas está definida en HTML!
@@ -140,7 +139,7 @@ Todos los desarrolladores tienen que simular estos elementos adicionales cada ve
 
 Cuando importas Bootstrap en tu página web, tendrás un nuevo conjunto de componentes a tu disposición. Esta es una pequeña parte de esos elementos:
 
-![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/8e9ff37a-28f7-4179-8f5d-9278ff7efd55.png?raw=true)
+![bootstrap 5](https://github.com/breatheco-de/content/blob/master/src/assets/images/8e9ff37a-28f7-4179-8f5d-9278ff7efd55.png?raw=true)
 
 
 ### Estos son los componentes más usados e importantes de Bootstrap:
@@ -154,7 +153,7 @@ Aquí hay un ejemplo de cómo se ve un NavBar en un sitio web:
 
 ![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/6351de1c-6d90-4502-8823-4b751981db9f.png?raw=true)
 
-> :link:[**Lee más sobre el "NavBar" aquí**](https://getbootstrap.com/docs/4.0/components/navbar/)
+> :link:[**Lee más sobre el "NavBar" aquí**](https://getbootstrap.com/docs/5.3/components/navbar/)
 
 ```html
 <nav class="navbar navbar-expand-lg bg-light">
@@ -205,7 +204,7 @@ Aquí hay un ejemplo de cómo puede verse un sitio web con una "Card":
 
 ![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png?raw=true)
 
-> :link: [**Lee más sobre la "Card" aquí**](https://getbootstrap.com/docs/4.0/components/card/)
+> :link: [**Lee más sobre la "Card" aquí**](https://getbootstrap.com/docs/5.3/components/card/)
 
 ```html
 <div class="card" style="width: 20rem;">
@@ -228,7 +227,7 @@ Así es como se ve modal por defecto con Bootstrap.
 
 ![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/6bcba673-a543-4bf1-a80b-083914b91bef.png?raw=true)
 
-> :link:[**Lee más sobre el "Modal" aquí**](https://getbootstrap.com/docs/4.0/components/modal/)
+> :link:[**Lee más sobre el "Modal" aquí**](https://getbootstrap.com/docs/5.3/components/modal/)
 
 ```html
 div class="modal" tabindex="-1" role="dialog">
@@ -260,10 +259,10 @@ div class="modal" tabindex="-1" role="dialog">
 
 ¡¡La documentación oficial de Bootstrap es increíble!! No necesitamos copiar y pegar todos los post.  Por favor visita los siguientes sitios web y enfócate en leer estos temas:
 
-+ [The grid system.](https://getbootstrap.com/docs/4.1/layout/grid/)
-+ [Styling Forms.](https://getbootstrap.com/docs/4.1/components/forms/)
-+ [List of components available to use on your website.](https://getbootstrap.com/docs/4.1/components/alerts/)
-+ [Utilities or Helper classes:](https://getbootstrap.com/docs/4.1/utilities/borders/) Clases muy útiles para hacer cosas como centrar el texto, centrar una columna o contenedor, agregar un fondo, etc.
++ [The grid system.](https://getbootstrap.com/docs/5.3/layout/grid/)
++ [Styling Forms.](https://getbootstrap.com/docs/5.3/components/forms/)
++ [List of components available to use on your website.](https://getbootstrap.com/docs/5.3/components/alerts/)
++ [Utilities or Helper classes:](https://getbootstrap.com/docs/5.3/utilities/borders/) Clases muy útiles para hacer cosas como centrar el texto, centrar una columna o contenedor, agregar un fondo, etc.
 
  
 | ☝️ Versiones de Bootstrap y su descarga: 
