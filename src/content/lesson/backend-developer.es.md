@@ -43,10 +43,10 @@ Además del contenido del documento y el content-type, el servidor también agre
 
 |**Código de respuesta**   |**Descripción**   |
 |:------------------|:-----------------|
-|2xx Success      |200 OK, 201 Creado, 204 No hay Contenido, 203 Información no autorizada  |
-|3xx Redirection    |301 Movido Permanentemente, 307 Redirecionado Temporalmente, 304 No Modificado    |
-|4xx Client Error    |404 No Encontrado, 400 Mala Solicitud, 403 Prohibido, 401 Sin Autorización    |
-|5xx Server Error     |500 Error Interno del Servidor, 503 Servicio No Disponible    |
+|2xx Success      |200 OK, 201 Creado, 204 No hay contenido, 203 Información no autorizada  |
+|3xx Redirection    |301 Movido permanentemente, 307 Redirecionado temporalmente, 304 No modificado    |
+|4xx Client Error    |404 No encontrado, 400 Mala solicitud, 403 Prohibido, 401 Sin autorización    |
+|5xx Server Error     |500 Error interno del servidor, 503 Servicio no disponible    |
 
 > :link: Aquí puedes encontrar información más detallada sobre [Códigos de Respuesta del Servidor.](https://www.restapitutorial.com/httpstatuscodes.html)
 
@@ -54,7 +54,7 @@ Además del contenido del documento y el content-type, el servidor también agre
 
 Lo bueno de un lenguaje de back-end es que se ejecuta en una máquina real (no en un navegador como el lenguaje de front-end). Con un lenguaje back-end puedes hacer cosas como:
 
-+ Generar Documentos PDF’s, Word or Excel.
++ Generar documentos PDF’s, Word o Excel.
 + Conectarte a una o varias bases de datos al mismo tiempo y recuperar/procesar los datos.
 + Transmitir video y archivos de audio.
 + Abrir/crear/eliminar archivos locales de la máquina y actualizarlos con contenido nuevo.
