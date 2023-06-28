@@ -2,7 +2,7 @@
 title: "¿Cómo crear un DataFrame?"
 subtitle: "Aprende a crear un DataFrame en Pandas en Python. Sigue nuestra guía paso a paso para cargar datos desde diferentes fuentes y construir un DataFrame con Pandas."
 tags: ["python","pandas"]
-authors: ["DF27ARTS"]
+authors: ["danielmoret"]
 
 ---
 
