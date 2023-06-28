@@ -1,7 +1,7 @@
 ---
-title: "Antes de comenzar el desarrollo Full Stack"
-subtitle: "Repaso rápido sobre conceptos que necesitas saber en CSS, HTML y JS antes de iniciar el curso de Desarrollo Full Stack"
-tags: ["html/css", "web-development"]
+titulo: "Antes de comenzar el desarrollo Full Stack"
+subtitulo: "Repaso rápido sobre conceptos que necesitas saber en CSS, HTML y JS antes de iniciar el curso de Desarrollo Full Stack"
+etiquetas: ["html/css", "web-development"]
 
 ---
 
