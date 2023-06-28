@@ -1,11 +1,16 @@
+---
+title: "Data Cleaning with Pandas: A Comprehensive Guide"
+subtitle: "Learn how to clean and preprocess data using Pandas in Python. Discover essential techniques and functions for handling missing values, duplicates, outliers, and more. "
+tags: ["python","pandas"]
+authors: ["DF27ARTS"]
 
-## Pandas Data Cleaning
+---
 
-In data science or machine learning, one of the most important tasks performed when working with large amounts of data is data cleaning, data cleaning is the process of removing typing errors, inconsistencies, and missing values from a dataset. In this article, we'll see how to clean a dataset using **pandas** step by step.
+In data science or [Machine learning](https://4geeksacademy.com/us/machine-learning-engineer/machine-learning-engineer), one of the most important tasks performed when working with large amounts of data is data cleaning, data cleaning is the process of removing typing errors, inconsistencies, and missing values from a dataset. In this article, we'll see how to clean a dataset using **pandas** step by step.
 
 ## What is Data Cleaning?
 
-Data cleaning is the process of removing errors or inconsistencies from a dataset. To clean a dataset of information in data science or machine learning we have to make sure that there are no missing values, typing errors, type inconsistencies, duplicate rows, `None`, `NaN` or `empty` values, unnecessary columns, and many things more. [pandas](https://4geeks.com/interactive-exercise/pandas-exercises-tutorial) offers us a powerful toolkit for data cleaning. It contains a variety of functions that help us deal with these errors and fix them. 
+Data cleaning is the process of removing errors or inconsistencies from a dataset. To clean a dataset of information in data science or machine learning we have to make sure that there are no missing values, typing errors, type inconsistencies, duplicate rows, `None`, `NaN` or `empty` values, unnecessary columns, and many things more. [Pandas library](https://4geeks.com/lesson/intro-to-pandas) offers us a powerful toolkit for data cleaning. It contains a variety of functions that help us deal with these errors and fix them. 
 
 In the following example, you will see how to clean a mock dataset of information step by step with the **pandas** library. This dataset is a simulation of a customer list.
 
@@ -201,4 +206,4 @@ Now we have a perfectly clean and consistent dataset to start working with. This
 
 ## Conclusion
 
-Data cleaning is a very important step before starting to work with a dataset in **data science** or **machine learning**, it ensures that the data has no syntax errors, `None` or `NaN` values, duplicated rows, unnecessary columns, and many more things. A dataset can be clean in many ways not just the ones seen in this article, Pandas offers a wide variety of functions that helps us with this process. If you want to learn more about pandas in Python I recommend you to visit the 4Geeks web page [pandas exercises](https://4geeks.com/interactive-exercise/pandas-exercises-tutorial) where you can find code samples, and video tutorials that will help you to learn and improve your skills in the **Pandas** library.
+Data cleaning is a very important step before starting to work with a dataset in **data science** or **machine learning**, it ensures that the data has no syntax errors, `None` or `NaN` values, duplicated rows, unnecessary columns, and many more things. A dataset can be clean in many ways not just the ones seen in this article, Pandas offers a wide variety of functions that helps us with this process. If you want to learn more about pandas in [Python](https://4geeks.com/lesson/intro-to-python) I recommend you to visit the following article which is a [pandas tutorial](https://4geeks.com/interactive-exercise/pandas-exercises-tutorial) where you can find code samples, and video tutorials that will help you to learn and improve your skills in the **Pandas** library.
