@@ -20,22 +20,22 @@ TypeORM es un [Object-Relational Mapper / Mapping-tool](https://en.wikipedia.org
 
 Los ORM han ganado popularidad debido a que lidiar con el lenguaje SQL directamente requiere de mucho esfuerzo en la mayoría de los casos. El objetivo del ORM entonces es simplificar la mantención de tus datos.
 
-Básicamente, con un ORM no tendrás que escribir SQL otra vez (95% del tiempo) y podrás trabajar con objetos.
+Básicamente, con un ORM no tendrás que escribir SQL otra vez casi siempre y podrás trabajar con objetos.
 
 ### Por ejemplo:
 
 Para insertar un usuario con SQL tienes que escribir:
 
 ```sql
-INSERT INTO user (name, last_name) VALUES ('Juan', 'McDonals');
+INSERT INTO user (name, last_name) VALUES ('ALEX', 'burger');
 ```
 
 Con un ORM tu código sigue siendo un código familiar como este:
 
 ```javascript
 user = User()
-user.name = 'Juan'
-user.last_name = 'McDonals'
+user.name = 'ALEX'
+user.last_name = 'burger'
 
 # agrega el user a la base de datos
 user.save();
