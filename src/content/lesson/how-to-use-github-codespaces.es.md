@@ -27,6 +27,7 @@ GitHub llama a cada entorno de codificación un "codespace". Si comienzas a trab
 > 💻 Cada codespace es una computadora -virtual-.
 
 - Tu lista de codespaces (computadoras) actuales está aquí: [github.com/codespaces](https://github.com/codespaces). (Probablemente esté vacío ya que solo estás aprendiendo sobre esto).
+
 - La forma recomendada de crear un nuevo codespace es desde un repositorio de GitHub (si necesitas aprender qué es Github, piensa en él como una unidad de disco duro en línea de código, donde cada carpeta es uno de tus proyectos de codificación).
 
 ![open a codespace](https://github.com/breatheco-de/content/blob/master/src/assets/images/create-codespace.gif?raw=true)
