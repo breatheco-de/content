@@ -10,7 +10,7 @@ If you fully understand how our methodology works, what to expect about the proj
 
 ## Why build projects?
 We want you to deliver a couple of projects every week. Building projects is all that matters in this course because:
-Your employer will pay you to create projects.
+Your employer will pay you to create projects. 🤣
 
 - Projects are the only way to showcase your experience.
 - These projects will become part of your portfolio.
