@@ -16,7 +16,7 @@ Hay muchos cursos de programación por ahí; algunos incluso son gratis.  Si te 
 
 Programar es difícil porque solo se puede aprender con infinitas cantidades de práctica, tutoría uno a uno y desafíos de la vida real.
 
-Entonces, se nos ocurrió esta plataforma en línea.  Estos contenidos te guiarán a lo largo del programa.  Habrá una infinita cantidad de ejercicios/proyectos.  La clase se enfocará en capacitarte.  Te presentaremos un desafío tras otro, pero siempre bajo la supervisión de un senior que observará y te ayudará en todo tu proceso.  4Geeks es el lugar para leer, aprender y practicar hasta que grabes todo de forma permanente en tu cerebro.
+Entonces, se nos ocurrió esta plataforma en línea. Estos contenidos te guiarán a lo largo del programa. Habrá una infinita cantidad de ejercicios/proyectos. La clase se enfocará en capacitarte. Te presentaremos un desafío tras otro, pero siempre bajo la supervisión de un senior que observará y te ayudará en todo tu proceso. 4Geeks es el lugar para leer, aprender y practicar hasta que grabes todo de forma permanente en tu cerebro.
 
 ## ¿Así que prefieres no leer mucho?
 
