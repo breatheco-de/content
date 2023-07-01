@@ -49,7 +49,7 @@ Choosing the name for your variable really matters, so we beg you not to use gen
 
 ## Assigning a Value to Variables
 
-As developers, we can set the value of a variable at any time using the `=` operator. You do not have to set a value when you first declare a variable. You can set, or re-set (override) the value as many times as you want, whenever you want. The value will always be the last one you set.  Below are a few examples of how to set values to variables:
+As developers, we can set the value of a variable at any time using the `=` operator. You don't have to set a value when you first declare a variable. You can set, or re-set (override) the value as many times as you want, whenever you want. The value will always be the last one you set.  Below are a few examples of how to set values to variables:
 
 ```javascript
 let a = 24;
