@@ -1,4 +1,4 @@
-# Introducción al Método String.replace() en JavaScript
+# ¿Cómo usar el método replace de strings en Javascript?
 
 El método `String.replace()` es una herramienta en JavaScript que permite remplazar texto o palabras especificas por nuevos valores. Este permite manipular strings y es bastante utilizado en diversos campos como desarrollo web, proceso de datos y formato de texto. Para comenzar, se puede ver en este ejemplo de código como se utiliza el método de los strings `replace()`:
 
