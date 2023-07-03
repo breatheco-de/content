@@ -8,7 +8,7 @@ tags: ["learnpack"]
 status: "published"
 
 ---
-A lo largo de este curso vas a ver aquí y allá la palabra "LearnPack"; usarás LearnPack BASTANTE para practicar tutoriales de programación y pequeños ejercicios. Este artículo es un intento de explicar qué es y cómo usarlo para que puedas ejecutar todos los tutoriales sin problemas.
+A lo largo de este curso vas a ver en muchos sitios la palabra "LearnPack"; usarás LearnPack BASTANTE para practicar tutoriales de programación y pequeños ejercicios. Este artículo es un intento de explicar qué es y cómo usarlo para que puedas ejecutar todos los tutoriales sin problemas.
 
 ## ¿Qué es LearnPack?
 
