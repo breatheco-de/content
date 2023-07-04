@@ -6,93 +6,95 @@ textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["REST","API"]
 status: "published"
-
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QsrWtqnQGMc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## ¿Qué es una API?
 
-Una API es el intermediario de la mayoría de las aplicaciones modernas. API significa: Application Programming Interface (Interfaz de Programación de Aplicaciones). Vamos a desglosarla mirando cada una de sus partes:
+API (*Application Programming Interface*, Interfaz de Programación de Aplicaciones) es una tecnología que posibilita la comunicación entre dos aplicaciones (usuario-servidor, back-front, vista-servicio, etc) para compartir información y funcionalidades. Así, en la comunicación, a la aplicación que envía la solicitud se llama `cliente` y la que envía la respuesta se llama `servidor`.
 
-|**Aplicación**    |**Programando**    |**Interfaz**    |
-|:-----------------:|:-----------------:|:---------------:|
-Si tienes un teléfono inteligente, estás familiarizado con las aplicaciones (herramientas, juegos, redes sociales y otro software que usamos todos los días).    |Programar es la forma en que los ingenieros crean todo el software que tanto facilitan nuestra vida.   |Una interfaz es un límite común compartido por dos aplicaciones o programas que permiten que ambos se comuniquen entre sí.
+### ¿Cómo funciona una API?
 
-> :point_up: Esencialmente, una API es una forma para que los programadores se comuniquen con una aplicación en particular.
+Una API funciona en tres pasos: llamada, implementación y aplicación.
 
-### Esta es la API para usar un teléfono:
+#### Paso 1: Llamada
+La llamada es la acción que desencadena la comunicación. Es una necesidad o un envío de información, que se desee recibir del servidor o incluir en él.
 
-Cada API consta de 3 componentes principales: 
-(1) Las funciones/métodos que tiene disponibles para usar, (2) El formato para la comunicación y 
-(3) Los datos (y los tipos de datos) que manipulará. Por ejemplo, cualquier teléfono en el mundo tendrá la siguiente API:
+Por ejemplo, un usuario puede acceder a una aplicación en su smartphone que da información sobre el estado meteorológico. Al seleccionar una ubicación sobre la que desea ver el tiempo, el sistema recibe esta llamada para obtener la información de esa ciudad.
 
-|**Funciones/Métodos:**   |**Formato de Comunicación**   |
-|:------------------------|:--------------------------|
-|`Haz una llamada`<br>`Cuelga una llamada`<br>`Hablar con el operador`<br>`Marca algo en el teclado`    |Ruido (sonidos)! Hay un sonido para todo (incluso en los teléfonos modernos). Escucharás un tono cuando realices una llamada, cuando presionas una tecla, etc. El sistema del teléfono escucha los cambios de tono del sonido.     |
+#### Paso 2: Implementación
+Una vez que el sistema/servidor/receptor ha recibido la llamada, se desencadena un proceso que tiene como objetivo satisfacer la necesidad del emisor. Dependiendo del objetivo de la llamada, el servidor puede acceder a su información para devolverla o bien insertar la recibida por el usuario para incluirla en él.
 
-### ¿Qué pasa con una Aplicación Web?
+En nuestro ejemplo anterior, el sistema recibiría la solicitud del estado del clima incluyendo la ubicación del usuario y extraería de su base de datos la información.
 
-Los métodos de la API de una aplicación web dependen completamente del propósito / negocio del sitio web:
+#### Paso 3: Aplicación
+Con la información o el recurso nuevo a crear localizado, el servidor lleva a cabo la acción de enviar la información o de añadirla. Hasta este paso la petición del cliente no tiene un impacto real.
 
-+ Si estás creando la API para un producto como Uber, algunos de sus métodos serán: registrarse, solicitar un viaje, calificar un conductor, cancelar un viaje, etc.
-+ Si estás creando una API para algo como AirBnB, algunos de sus métodos serán: listado de reservas, búsqueda de listado, cancelar viaje, etc.
+En nuestro ejemplo, la aplicación móvil recibe la información del servidor y la muestra en la interfaz al usuario.
 
-## El estándar REST
+### API en la web
+En una aplicación web, los métodos de la API dependen completamente del propósito o del negocio de la misma. Además, esta API cubrirá exclusivamente el ámbito de la aplicación y no debe exceder en su dominio:
 
-Hay docenas de formas de crear una API, pero el estándar REST ha llegado a dominarlas todas. Si realmente quieres ser un desarrollador web, tienes que sentirse muy cómodo con REST.
+- Si la aplicación web es de un producto como Uber, algunos de los métodos que debe proporcionar la API son: registro de nuevos clientes, solicitar un viaje, calificar a un conductor, cancelar un viaje, etcétera.
+- Si la aplicación web es de un producto como Airbnb, algunos de los métodos deberían ser: registro de nuevos clientes, registro de anunciantes, búsqueda de alojamientos, listado de reservas, solicitar una reserva, cancelación, etcétera.
 
-REST funciona a través de HTTP, lo que significa que todo está basado en texto. Utiliza los famosos comandos GET, POST, PUT y DELETE para clasificar los métodos API.
+Como podemos apreciar, ambas API contienen métodos en común, como registrar nuevos clientes.
 
-|**Método**    |**Descripción**    |
-|:-------------|:--------------|
-|GET          |Se utiliza para leer el estado del servidor. Al ser una operación **segura**, puede ejecutarse varias veces sin riesgo de modificación de datos o corrupción; llamarla una vez tiene el mismo efecto que llamarla diez veces.    |
-|POST        |Los puristas de REST usan post solo para creación. Eso significa que cada vez que POSTEE algo en una API, estará creando un nuevo registro en la base de datos para eso. Algunas API utilizan POST para todas las operaciones de escritura (eliminar, actualizar y crear). Lo hacen porque PUT y DELETE no están disponibles en HTML / Formularios y eso hace que esos métodos sean más difíciles de usar.      |
-|PUT      |Es más usado para actualizar el estado en el servidor; Aunque también se puede utilizar para crear estado.     |
-|DELETE     |Se utiliza para eliminar datos en el servidor     |
+Hay una gran cantidad de formas de crear una API en un entorno web, pero el estándar `REST` es uno de los más utilizados y, de hecho, el estándar más importante.
 
-### Códigos de Status para la Respuesta
+#### API REST
+La principal característica de este tipo de implementaciones es que las comunicaciones se realizan sobre el protocolo `HTTP`. Esto quiere decir que tanto el envío como la recepción se lleva a cabo en texto plano. (cifrado y con un formato concreto, pero al final es una cadena de caracteres). Como está fundamentada en este protocolo, entonces aprovecha y utiliza los métodos de petición vistos anteriormente: GET, POST, PUT y DELETE:
 
-Los [códigos de estado HTTP](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) entregan metadatos en la respuesta al estado de los recursos solicitados. Son parte de lo que hace de la Web una plataforma para construir sistemas distribuidos. Se dividen en las siguientes categorías:
+|**Método**    |**Descripción**  |
+|:-------------|:----------------|
+|GET | Solicita una representación del recurso especificado. Sirve para requerir un recurso de un servidor. |
+|POST | Envía información al servidor. Esta información, dependiendo del servidor y del contexto, se puede utilizar, por ejemplo, para añadir registros a una base de datos, añadir información a un perfil de usuario en una web, etcétera. |
+|PUT | Envía información al servidor pero a diferencia de POST, este método se utiliza para actualizar información ya existente en él. |
+|DELETE |Se utiliza para eliminar datos en el servidor. |
+
+Además de los métodos de petición, este protocolo establece también ciertos códigos de respuesta, los cuales aprovecha esta API también. Puedes encontrar más información [aquí](https://developer.mozilla.org/es/docs/Web/HTTP/Status).
 
 + `1xx` – Metadata
-+ `2xx` – Todo está bien
++ `2xx` – Todo OK
 + `3xx` – Redirección
 + `4xx` – Cliente hizo algo mal
 + `5xx` – Servidor hizo algo mal
 
-### URIs (Identificadores de Recursos Uniformes)
+##### URI
+URI (*Uniform Resource Identifier*, Identificador de Recursos Uniforme) es una cadena de caracteres que identifican un recurso en la red. Internet se dice que está habitado por muchos puntos de contenido. La URI es el camino para identificar cualquiera de esos puntos de contenido, ya sea una página de texto, un vídeo o un clip de sonida, una imagen fija o animada, o un programa.
 
-Los URI diferencian un recurso de otro. Para acceder y manipular un recurso, debes tener al menos una dirección.
+Una aplicación web debe tener asociado un URI para identificar inequívocamente esa de todas las demás, y todos sus recursos de los demás. Una URI está compuesto de un `protocolo` seguido de un `host` y de un `path`. Si por ejemplo tuviéramos:
 
-Ellos están compuestos por un `protocolo` + `host` + `path`.
-Ejemplo: `https://api.uber.com/v1.2/products`
+```
+https://api.uber.com/v1.2/products
+```
 
-Los clientes no deben estar acoplados a una URI de recursos particulares, ya que pueden cambiarse a discreción del servidor. Aquí es donde la hipermedia tiene las mayores ventajas, porque ofrece una forma de desacoplar a los clientes de URIs específicas y agregar semántica al protocolo de la aplicación.
+entonces `https` es el **protocolo**, `api.uber.com` es el **host** y `v1.2/products` es el **path**.
 
-Aquí hay algunas URI de la API de Twitter:
+Una aplicación web que implemente una API REST debe definir una URI para cada una de las funcionalidades (y método) objetivo. Por ejemplo, algunas URI de la API de Twitter son las siguientes:
 
-+ [GET /direct_messages/](https://developer.twitter.com/en/docs/direct-messages/sending-and-receiving/api-reference/get-sent-message)
-+ [GET /favorites/list](https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/get-favorites-list)
-+ [POST /direct_messages/new](https://developer.twitter.com/en/docs/api-reference-index)
-+ [DELETE /direct_messages/welcome_messages/destroy](https://developer.twitter.com/rest/reference/del/direct_messages/welcome_messages/destroy)
+|**Método**    |**Funcionalidad**  |**URI**     |
+|:-------------|:------------------|:-----------|
+| GET | Obtener mensaje directo | https://api.twitter.com/1.1/direct_messages/events/show.json |
+| GET | Obtener lista de favoritos | https://api.twitter.com/1.1/favorites/list.json |
+| POST | Publicar tweet | https://api.twitter.com/1.1/statuses/retweet/:id.json | 
+| DELETE | Eliminar mensaje directo | https://api.twitter.com/1.1/direct_messages/events/destroy.json |
 
-### Recursos
+Como acabamos de ver en el ejemplo de la API de Twitter, su servicio REST sólo implementa los métodos GET, POST y DELETE. Esto es algo muy común; no es necesario implementar todos los métodos. Además, como podemos ver también, para cada funcionalidad se definirá un método de petición, y puede haber varios GET, POST o DELETE, cada uno en una URI distinta.
 
-Un recurso es una representación abstracta de un objeto que puede llamarse usando Create, Read, Update o Delete con tu API, por ejemplo:
+##### Recurso
+Un recurso es una representación abstracta de una unidad de información que se distribuye en las llamadas desde y hacia la API, y su estructura y contenido dependerá también del ámbito de la aplicación y su dominio. Por ejemplo:
 
-+ Si estás construyendo el API para un aprendizaje electrónico, los recursos podrían ser: un estudiante, un curso, una clase, un tema, un profesor.
-+ Si estás creando una API de comercio electrónico, los recursos podrian ser: Producto, Categoría, Pedido, Cliente, Compra, etc.
++ Si estamos construyendo una API para una academia online, los recursos podrían ser: estudiante, curso, clase, tema, profesor, etc.
++ Si estamos creando una API de comercio electrónico, los recursos podrian ser: producto, categoría, pedido, cliente, etc.
   
-Los recursos representan los documentos que se transfieren a través de la red para realizar el trabajo. Los recursos deben nombrarse como sustantivos, ya que representan conceptos en el dominio de un sistema en particular y se identifican usando URIs.
+Los recursos representan los documentos que se transfieren a través de la red para realizar el trabajo. Los recursos deben nombrarse como sustantivos, ya que representan conceptos en el dominio de un sistema en particular y se identifican usando una URI.
 
-Otras lecturas:
+##### Otras lecturas
+A continuación se proporcionan varios documentos y guías para reforzar el conocimiento sobre las API REST:
 
 - [ReadTheDocs](https://restful-api-design.readthedocs.io/en/latest/resources.html)
 - [RESTfulAPI.net](https://restfulapi.net/)
 
-### Lista de API's públicas
-
-Lista de API públicas que no requieren autenticación: https://github.com/public-apis/public-apis
-
-
+> NOTA: Listado de API públicas y que pueden ser utilizadas para proyectos personales, profesionales y educativos: https://github.com/public-apis/public-apis
