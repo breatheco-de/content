@@ -1,4 +1,10 @@
-# ¿Cómo usar el método Split de Strings Javascript?
+---
+title: "¿Cómo usar el método Split de Strings Javascript?"
+subtitle: "Aprende a utilizar el método split en JavaScript para dividir cadenas de texto en elementos individuales."
+tags: ["javascript","string-concatenation"]
+authors: ["jul1998"]
+
+---
 
 El método `split()` en JavaScript nos permite dividir una cadena de texto en subcadenas. Veamos un ejemplo:
 
@@ -10,7 +16,9 @@ let sentenceArray = text.split(' ');
 console.log(textArray); // output: [ 'Aprendamos', 'sobre', 'el', 'método', 'split()', 'en', 'JS' ]
 ```
 
-Podemos ver que se utiliza el método `split()` sobre la variable `sentence`. En este caso al método `split()` se le pasa como argumento `' '`, lo que indica que la cadena de texto se dividirá en cada espacio en blanco que encuentre, el resultado se almacena en la variable `sentenceArray`, donde cada uno de sus elementos es una palabra de la cadena de texto `sentence`.
+Podemos ver que se utiliza el método `split()` sobre la variable `sentence`. En este caso al método `split()` se le pasa como argumento `' '`, lo que indica que la cadena de texto se dividirá en cada espacio en blanco que encuentre, el resultado se almacena en la variable `sentenceArray`, donde cada uno de sus elementos es una palabra de la cadena de texto `sentence`. Si te interesa conocer más sobre este tema tenemos un artículo de [strings en JavaScript](https://4geeks.com/es/lesson/strings-en-javascript) que explica en más detalle este tipo de dato.
+
+Si todavía no tienes un dominio total sobre [cómo programar en JavaScript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) o [para qué sirve Javascript](https://4geeks.com/es/lesson/para-que-sirve-javascript) te recomendamos leer sobre ello en el [Blog de 4Geeks](https://4geeks.com/).
 
 ## Sintaxis del método split en JavaScript
 
@@ -73,7 +81,7 @@ characters.forEach((character) => {
 console.log('El número de vocales en la cadena es: ' + vowelCount); // output:  El número de vocales en la cadena es: 21.
 ```
 
-En este ejemplo, vemos como podemos utilizar el método `split()` para contar la cantidad de caracteres de una cadena de texto, en este caso en específico para saber cuantas vocales tiene una oración, para ello le pasamos como argumento separador `''` (comillas vacías), lo que dividirá la variable `sentence` en cada caracter, creando un `Array` de caracteres. Luego utilizando el método [forEach()](https://4geeks.com/es/how-to/metodo-foreach-javascript) , recorremos el array `characters` y verificamos si el `character` actual es una vocal o no, incrementando la variable `vowelCount` en 1 de ser asi.
+En este ejemplo, vemos como podemos utilizar el método `split()` para contar la cantidad de caracteres de una cadena de texto, en este caso en específico para saber cuantas vocales tiene una oración, para ello le pasamos como argumento separador `''` (comillas vacías), lo que dividirá la variable `sentence` en cada caracter, creando un `Array` de caracteres. Luego utilizando el [método forEach()](https://4geeks.com/es/how-to/metodo-foreach-javascript) , recorremos el array `characters` y verificamos si el `character` actual es una vocal o no, incrementando la variable `vowelCount` en 1 de ser asi.
 
 ### Dividir una cadena utilizando una expresión regular
 
