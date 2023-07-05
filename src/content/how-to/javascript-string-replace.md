@@ -1,4 +1,10 @@
-# ¿Cómo usar el método replace de strings en Javascript?
+---
+title: "Reemplazo de Cadenas en JavaScript: Manipula Texto con Facilidad"
+subtitle: "Descubre cómo utilizar el método replace en JavaScript para manipular y reemplazar fácilmente texto dentro de cadenas. Aprende sobre su sintaxis, opciones y ejemplos."
+tags: ["javascript", "arrays"]
+authors: ["jul1998"]
+
+---
 
 El método `String.replace()` es una herramienta en JavaScript que permite remplazar texto o palabras especificas por nuevos valores. Este permite manipular strings y es bastante utilizado en diversos campos como desarrollo web, proceso de datos y formato de texto. Para comenzar, se puede ver en este ejemplo de código como se utiliza el método de los strings `replace()`:
 
@@ -9,6 +15,8 @@ console.log(stringModificado); // Resultado: Hola, Universo
 ```
 
 En el ejemplo anterior, hay un string guardado en `stringOriginal` y otra variable que va a almacenar el resultado de reemplazar "mundo" por "Universo". Finalmente se muestra el nuevo texto en la consola. Si te interesa conocer más sobre los strings, tenemos un artículo de [strings en JavaScript](https://4geeks.com/es/lesson/strings-en-javascript) que explica en más detalle este tipo de dato.
+
+Si todavía no tienes un dominio total sobre [cómo programar en JavaScript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) o [para qué sirve Javascript](https://4geeks.com/es/lesson/para-que-sirve-javascript) te recomendamos leer sobre ello en el [Blog de 4Geeks](https://4geeks.com/).
 
 ## Explicación del Método String.replace()
 
@@ -63,4 +71,4 @@ Ahora se utilizó (`gi`) como bandera global que no distingue entre mayúsculas 
 
 Este método de `String.replace()` es una poderosa y versátil herramienta en JavaScript que permite la manipulación y reemplazo de cualquier dato de tipo string. Les abre las puertas a los programadores para poder buscar y reemplazar texto especifico o patrones dentro de strings completos y mediante la práctica, esto puedo mejorar sus habilidades en la programación con el fin de ser capaces de resolver más problemas de esta índole.
 
-Para obtener mayor información y recursos acerca de JavaScript, puedes entrar al [blog](https://4geeks.com/technology/javascript) de 4geeks para poder profundizar en este lenguaje.
+Para obtener mayor información y recursos acerca de JavaScript, puedes entrar al [blog](https://4geeks.com/technology/javascript) de 4Geeks para poder profundizar en este lenguaje.
