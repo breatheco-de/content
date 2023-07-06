@@ -84,7 +84,7 @@ Los valores de las variables están sujetos a cambios en el tiempo. Para recuper
 
 ## Tipos de Datos
 
-Las variables pueden tener diferentes tipos de valores. Algunos de ellos están disponibles solo en lenguajes de programación específicos, pero casi todos tienen los siguientes tipos.
+Las variables pueden tener diferentes tipos de valores. Algunos de ellos están disponibles solo en lenguajes de programación específicos, pero casi todos tienen los siguientes tipos:
 
 |**Data-Type**   |**Posibles Valores**   |**Descripción**   |
 |:---------------|:--------------------|:-----------------|
