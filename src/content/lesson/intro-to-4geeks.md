@@ -15,7 +15,7 @@ Welcome!! 🤩👏 My name is Alejandro and I'm typing these words after years o
 
 ## What you already know
 
-You are here to develop your coding skills to a point where you can be useful to society in order to: 1️⃣ Get a job, 2️⃣ Create your own company, 3️⃣ Adapt better to the current world.
+You are here to develop your coding skills to a point where you can be useful to society in order to: 1️⃣ Get a job, 2️⃣ Create your own company, and 3️⃣ Adapt better to the current world.
 
 ## What you did not know
 
@@ -25,7 +25,7 @@ You are also here because you need help, not only technical help, but also spiri
 
 We are about to change the way you learn, the way you approach life, and the way you sell yourself (therefore see yourself). We are tearing down old misconceptions about yourself, others, and your professional life.
 
-### We are here to tear down the 💻 3 Walls Towards Code 
+### We are here to tear down the 💻 3 Walls Toward Code 
 
 During the past years, we have identified specific reasons that cause students to stop trying to be a developer or fail to complete the course or get a job. 
 
@@ -49,7 +49,7 @@ Every average person can learn to code to the point of being useful, but coding 
 
 #### Wall #2: Trust ✝
 
-During all your life you've learned the same way, the educational system has put you in a box and trained you to learn slowly, limiting your ability to adapt to the new world of skilled fast-learning and self-learning professionals.
+During all your life you've learned the same way, the educational system has put you in a box and trained you to learn slowly, limiting your ability to adapt to the new world of skilled fast-learning, and self-learning professionals.
 
 We know how to train you: we have done it over and over again, but we'll train in such a different way that you may not like it at first. It's only normal that your mind will want to go back to learning "slow but safe", without having to be uncomfortable or constantly challenged by our system.
 
@@ -91,5 +91,5 @@ Please make sure you understand how the academy works:
 | **Don't read (much):** Coding is like sport, the best way to get better is through practice. Learn by doing |    ![Its practice](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg?raw=true) |
 | ---   | ----      |
 | **Sleep:** Having a good night's sleep is as important as coming to class, coding is 100% intellectual, and having a sharp mind is everything. | ![Sleep](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/d29be460-cc2e-42e6-bf92-f9516fd7b21a.jpeg?raw=true) |
-| **Learn how to ask:** The biggest challenge you have to address at first is learning [how to ask a question](https://content.breatheco.de/how-to/ask), picking the right words, knowing exactly want you want to know is the best skill for any developer. | ![How to ask](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c.jpeg?raw=true) |
+| **Learn how to ask:** The biggest challenge you have to address at first is learning [how to ask a question](https://content.breatheco.de/how-to/ask), picking the right words, knowing exactly what you want to know is the best skill for any developer. | ![How to ask](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c.jpeg?raw=true) |
 | **Ask questions:** It's a win-win, preparing the question will teach you, we get feedback from your understanding, it is the biggest boost for your learning process. It's what you are paying for. | ![Ask questions](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/5e975e91-1447-4117-b50b-b00df99a88a5.jpeg?raw=true) |
