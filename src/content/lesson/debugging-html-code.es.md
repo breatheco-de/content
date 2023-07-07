@@ -1,7 +1,7 @@
 ---
-title: "Depurando código HTML"
-subtitle: "Código de depuración más rápido y más eficiente. Ahorra más del 50% de tu tiempo de depuración al codificar HTML."
-tags: ["debugging", "web development", "html/css"]
+Título: "Depurando código HTML"
+Subtítulo: "Código de depuración más rápido y más eficiente. Ahorra más del 50% de tu tiempo de depuración al codificar HTML."
+Etiquetas: ["debugging", "web development", "html/css"]
 
 --- 
 
