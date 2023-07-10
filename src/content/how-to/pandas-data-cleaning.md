@@ -10,7 +10,7 @@ In data science or [Machine learning](https://4geeksacademy.com/us/machine-learn
 
 ## What is Data Cleaning?
 
-Data cleaning is the process of removing errors or inconsistencies from a dataset. To clean a dataset of information in data science or machine learning we have to make sure that there are no missing values, typing errors, type inconsistencies, duplicate rows, `None`, `NaN` or `empty` values, unnecessary columns, and many things more. [Pandas library](https://4geeks.com/lesson/intro-to-pandas) offers us a powerful toolkit for data cleaning. It contains a variety of functions that help us deal with these errors and fix them. 
+Data cleaning is the process of removing errors or inconsistencies from a dataset. To clean a dataset of information in data science or machine learning we have to make sure that there are no missing values, typing errors, type inconsistencies, duplicate rows, `None`, `NaN` or `empty` values, unnecessary columns, and many things more. The [Pandas library](https://4geeks.com/lesson/intro-to-pandas) offers us a powerful toolkit for data cleaning. It contains a variety of functions that help us deal with these errors and fix them. 
 
 In the following example, you will see how to clean a mock dataset of information step by step with the **pandas** library. This dataset is a simulation of a customer list.
 
@@ -55,7 +55,7 @@ print(df_users)
 
 Here we use the pandas `DataFrame()` function to create a mock dataset, this dataset contains 7 columns and 11 rows, the columns are, a `user_id` which is the user's unique id, a `Name` column, a `Last_name` column, the user's `age`, the user's `Phone` number, the user's `Email`, and finally a non-useful column called `Not_Useful_column` which we will use as an example of how to delete an unnecessary column from a dataset.
 
-As you can see in the example dataset, the data has some inconsistencies in the columns, a few unnecessary symbols in the `Name` column, some values in the `Last_name` column are not capitalized, and each of the values in the `Phone` column have different syntaxis which makes it difficult to work with them.
+As you can see in the example dataset, the data has some inconsistencies in the columns, a few unnecessary symbols in the `Name` column, some values in the `Last_name` column are not capitalized, and each of the values in the `Phone` column have different syntax which makes it difficult to work with them.
 
 ### 1. Delete duplicated rows
 
@@ -206,4 +206,4 @@ Now we have a perfectly clean and consistent dataset to start working with. This
 
 ## Conclusion
 
-Data cleaning is a very important step before starting to work with a dataset in **data science** or **machine learning**, it ensures that the data has no syntax errors, `None` or `NaN` values, duplicated rows, unnecessary columns, and many more things. A dataset can be clean in many ways not just the ones seen in this article, Pandas offers a wide variety of functions that helps us with this process. If you want to learn more about pandas in [Python](https://4geeks.com/lesson/intro-to-python) I recommend you to visit the following article which is a [pandas tutorial](https://4geeks.com/interactive-exercise/pandas-exercises-tutorial) where you can find code samples, and video tutorials that will help you to learn and improve your skills in the **Pandas** library.
+Data cleaning is a very important step before starting to work with a dataset in **data science** or **machine learning**, it ensures that the data has no syntax errors, `None` or `NaN` values, duplicated rows, unnecessary columns, and many more things. A dataset can be clean in many ways not just the ones seen in this article, Pandas offers a wide variety of functions that helps us with this process. If you want to learn more about pandas in [Python](https://4geeks.com/lesson/intro-to-python) I recommend you to visit the following article which is a [pandas tutorial](https://4geeks.com/interactive-exercise/pandas-exercises-tutorial) where you can find coding exercises, and video tutorials that will help you to learn and improve your skills in the **Pandas** library.
