@@ -1,8 +1,8 @@
 ---
-title: "Regex for Matching Letters: A Guide to Letter-based Regular Expressions"
-subtitle: "Learn how to construct regular expressions to match letters in text using regex. Explore patterns to effectively search for letter-based patterns in your data."
+title: "How to match letters with Regular Expressions?"
+subtitle: "Learn how to construct regular expressions to match letters in text. Explore Regex to effectively search for letter-based patterns in your data."
 tags: ["regular-expressions"]
-authors: ["javierseiglie"]
+authors: ["DF27ARTS"]
 
 ---
 ## How to find Letters with Regex?
