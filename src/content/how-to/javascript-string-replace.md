@@ -16,7 +16,7 @@ console.log(stringModificado); // Resultado: Hola, Universo
 
 En el ejemplo anterior, hay un string guardado en `stringOriginal` y otra variable que va a almacenar el resultado de reemplazar "mundo" por "Universo". Finalmente se muestra el nuevo texto en la consola. Si te interesa conocer más sobre los strings, tenemos un artículo de [strings en JavaScript](https://4geeks.com/es/lesson/strings-en-javascript) que explica en más detalle este tipo de dato.
 
-Si todavía no tienes un dominio total sobre [cómo programar en JavaScript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) o [para qué sirve Javascript](https://4geeks.com/es/lesson/para-que-sirve-javascript) te recomendamos leer sobre ello en el [Blog de 4Geeks](https://4geeks.com/es-how-to).
+Si todavía no tienes un dominio total sobre [cómo programar en JavaScript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) o [para qué sirve Javascript](https://4geeks.com/es/lesson/para-que-sirve-javascript) te recomendamos leer sobre ello en el [Blog de 4Geeks](https://4geeks.com/es/how-to).
 
 ## Explicación del Método String.replace()
 
