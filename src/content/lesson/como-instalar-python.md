@@ -14,7 +14,14 @@ Para instalar Python con el sistema operativo **Ubuntu** primero necesitamos act
 
 #### Instalar WSL 2 para Windows 10
 
-[![Learn how to install Windows Insiders to get the latest features for WSL 2](https://img.youtube.com/vi/ilKQHAFeQR0/0.jpg)](https://www.youtube.com/watch?v=ilKQHAFeQR0)
+<iframe 
+    width="650" 
+    height="350" src="https://www.youtube.com/embed/ilKQHAFeQR0" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+</iframe>
 
 #### Pasos para iniciar la instalación
 
@@ -44,7 +51,14 @@ python3 --version
 
 ### 2. Instalar Python desde la página oficial
 
-[![Instalar PYTHON 3.10 en Windows 11](https://img.youtube.com/vi/K0P7nDfXkzo/0.jpg)](https://www.youtube.com/watch?v=K0P7nDfXkzo)
+<iframe 
+    width="650" 
+    height="350" src="https://www.youtube.com/embed/K0P7nDfXkzo" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+</iframe>
 
 #### Pasos para iniciar la instalación
 
@@ -65,7 +79,14 @@ python --version
 
 El sistema operativo de MacOS usualmente ya tiene instalada una versión de Python por defecto, si abres la consola y verificas tu versión de Python instalada con el comando `python --version` debería ser algo similar a esto: `Python 2.7.1`. Aunque ya tienes instalada una versión de Python te recomiendo que instales la última versión de Python disponible así tendrás acceso a las últimas funcionalidades de este lenguaje.
 
-[![Cómo instalar Python 3 en Mac - Nuevo chip Apple M1](https://img.youtube.com/vi/m51cSDeeEeU/0.jpg)](https://www.youtube.com/watch?v=m51cSDeeEeU)
+<iframe 
+    width="650" 
+    height="350" src="https://www.youtube.com/embed/m51cSDeeEeU" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+</iframe>
 
 #### Pasos para iniciar la instalación
 
@@ -83,7 +104,14 @@ python3 --version
 
 Algunas distribuciones de Linux como **Ubuntu** y **Fedora** pueden tener una versión de Python instalada por defecto pero no todas distribuciones de Linux tiene esta característica, en cualquier caso si tu sistema operativo de Linux ya trae instalado Python es probable que tenga instalada una versión desactualizada así que te recomiendo que descargues la última versión de Python disponible para linux asi tendras acceso a las últimas características de este lenguaje.
 
-[![Instalar Python en Linux | Aprende Python desde 0](https://img.youtube.com/vi/3aUmRIZAbA8/0.jpg)](https://www.youtube.com/watch?v=3aUmRIZAbA8)
+<iframe 
+    width="650" 
+    height="350" src="https://www.youtube.com/embed/3aUmRIZAbA8" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+</iframe>
 
 #### Pasos para iniciar la instalación
 
