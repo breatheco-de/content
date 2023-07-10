@@ -43,7 +43,7 @@ La principal característica de esta biblioteca es su facilidad de uso debido a 
 Si quieres saber más sobre esta util biblioteca de python, en [este artículo](https://4geeks.com/es/how-to/instalar-pandas-python) de 4geeks encontrarás mucha más información.
 
 ## Tutorial de Pandas
-En este tutorial de pandas, practicaremos instalando pandas y luego utilizandolo para explorar y aplicar agregaciones matemáticas a una colección de datos.
+En este tutorial de pandas, practicaremos instalando pandas y luego utilizándolo para explorar y aplicar agregaciones matemáticas a una colección de datos.
 
 ### Instalación
 Antes que nada es importante crear un entorno virtual de python y activarlo para poder tener todos los requerimientos de nuestro script en un mismo sitio. Para ello nos posicionaremos en la carpeta del proyecto y ejecutaremos los siguientes comandos:
