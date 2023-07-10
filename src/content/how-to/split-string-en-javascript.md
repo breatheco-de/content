@@ -2,7 +2,7 @@
 title: "¿Cómo usar el método Split de Strings Javascript?"
 subtitle: "Aprende a utilizar el método split en JavaScript para dividir cadenas de texto en elementos individuales."
 tags: ["javascript","string-concatenation"]
-authors: ["jul1998"]
+authors: ["danielmoret"]
 
 ---
 
