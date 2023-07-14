@@ -16,7 +16,7 @@ First, create the global context, to create the global context use the `createCo
 export default function App() {
   const [Theme, setTheme] = useState("light")
   return (
-    <NameContext.Provider value={Theme, setTheme}>
+    <NameContext.Provider value={{Theme, setTheme}}>
       <HomePage />
     </NameContext.Provider>
   );
@@ -29,7 +29,7 @@ Use the context `Provider` created to wrap the entire application, and pass the 
 ```jsx
 import { useContext } from "react";
 function HomePage() {
-  const [Theme, setTheme] = useContext(NameContext);
+  const {Theme, setTheme} = useContext(NameContext);
   return (
     <section className={Theme === "dark" ? "dark-theme": "dark-theme"}>
     <button onClick={()=> setTheme((prev) => !prev)} > Change Theme</button>
@@ -104,8 +104,8 @@ export default function App() {
 
   return (
     // Wrap the entire application with the global contexts so you can access them from anywhere.
-    <ProductsContext.Provider value={products}> // Make accessible the product from the API. 
-      <ShoppingCartContext.Provider value={{ shoppingCart, setShoppingCart }}> // Make accessible the products we want to buy and also the function to update the array.
+    <ProductsContext.Provider value={products}> 
+      <ShoppingCartContext.Provider value={{ shoppingCart, setShoppingCart }}>
         <section className="min-h-screen w-screen flex flex-col items-center gap-y-8">
           <Navbar />
           <Products />
@@ -157,7 +157,7 @@ After creating the `Navbar.jsx` component, we need to create the `ShoppingCartCo
 
 #### ShoppingCartContainer.jsx
 ```jsx
-import { useContext, useEffect, useRef } from "react";
+import { useContext } from "react";
 import { CURRENCY, ShoppingCartContext } from "../App";
 
 export default function ShoppingCartContainer() {
@@ -175,7 +175,7 @@ export default function ShoppingCartContainer() {
         <>
           {shoppingCart.map((cart) => (
             <div key={cart.id} className="h-20 shadow-md shadow-gray-300 rounded-md flex gap-4 items-center relative pl-4 pr-4">
-              <img className="h-14 w-14 rounded-md object-cover src={cart.image} />
+              <img className="h-14 w-14" rounded-md object-cover src={cart.image} />
               <div className="w-72">
                 <h3 className="text-md">{cart.name}</h3>
                 <span className="text-sm text-gray-400"> {CURRENCY.format(cart.price * cart.quantity)} </span>
@@ -207,7 +207,7 @@ Once the navbar creation is finished, we need to display the products from the f
 
 #### Products.jsx
 ```jsx
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { ProductsContext } from "../App";
 import ProductCard from "./ProductCard";
 
