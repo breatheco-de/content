@@ -62,7 +62,9 @@ With React's global context, on the other hand, you create a global state contex
 
 ## How to apply the Global Context of React in a Project?
 
-In the following example, we will create a real project using the global context of React so you can see how to apply this concept in your own projects in the future, we will create an application step by step using **React**, **Vite.js**, and the **Tailwind** library for styles. You can also use the `npx create-react-app` command to start your project but you should know that this command is getting deprecated, instead, I highly recommend you to use **Vite.js** to create your project, this compiler is very fast and is one of the favorites of the community.
+In the following example, we will create a real project using the global context of React so you can see how to apply this concept in your own projects in the future, we will create a shopping website application step by step using **React**, **Vite.js**, and the **Tailwind** library for styles. You can also use the `npx create-react-app` command to start your project but you should know that this command is getting deprecated, instead, I highly recommend you to use **Vite.js** to create your project, this compiler is very fast and is one of the favorites of the community.
+
+![shopping website](https://res.cloudinary.com/dcgbjtd2z/image/upload/v1689351091/Captura_web_14-7-2023_11658_localhost_q1mvv2.jpg)
 
 > Note: this project is a bit large but it is a perfect example of how to use global context in your own React applications.
 
