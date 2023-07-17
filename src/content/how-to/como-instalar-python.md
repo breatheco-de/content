@@ -1,3 +1,11 @@
+---
+title: "¿Cómo instalar Python? Guía paso a paso para comenzar con el lenguaje de programación"
+subtitle: "Aprende cómo instalar Python en tu computadora fácilmente. Descubre los pasos necesarios para comenzar a programar con este popular lenguaje de programación."
+tags: ["python"]
+authors: ["jul1998"]
+
+---
+
 ## ¿Cómo instalar Python?
 
 Python es uno de los lenguajes de programación más usado en el mundo, este lenguaje te permite desde crear aplicaciones de back-end junto a frameworks como [django](https://docs.djangoproject.com/en/4.2/) o [FastAPI](https://fastapi.tiangolo.com/), crear algoritmos de Machine learning con [Tensorflow](https://www.tensorflow.org/?hl=es-419) o incluso crear interfaces de usuario en el front-end con tecnologías como [ReactPy](https://reactpy.dev/docs/index.html).
@@ -6,7 +14,7 @@ Este lenguaje es sin duda uno de los más utilizados en el mundo de la programac
 
 ## ¿Cómo instalar Python en Windows?
 
-Existen dos formas de instalar Python en tu computadora Windows, la primera es instalar el sistema operativo **Ubuntu** y luego con ayuda de este instalar Python, la segunda forma es instalar Python de forma tradicional desde la página oficial de Python.
+Existen dos formas de instalar [Python](https://4geeks.com/es/lesson/como-programar-en-python) en tu computadora Windows, la primera es instalar el sistema operativo **Ubuntu** y luego con ayuda de este instalar Python, la segunda forma es instalar Python de forma tradicional desde la página oficial de Python.
 
 ### 1. Instalar Python con Ubuntu
 
@@ -62,7 +70,7 @@ python3 --version
 
 #### Pasos para iniciar la instalación
 
-1. Para instalar Python de forma tradicional ingresa a la página oficial de [python](https://www.python.org/downloads/) y luego dirígete a la sección de **Downloads** (Descargas), esta página detectará tu sistema operativo por defecto y te ofrecerá la última versión estable de Python disponible para descargarla. 
+1. Para instalar Python de forma tradicional ingresa a la [página oficial de python](https://www.python.org/downloads/) y luego dirígete a la sección de **Downloads** (Descargas), esta página detectará tu sistema operativo por defecto y te ofrecerá la última versión estable de Python disponible para descargarla. 
 
 2. Luego ejecuta el archivo que se descargo y es importante que al hacerlo selecciones las dos opciones:
    - [x] Install launcher for all users (recommended)
@@ -145,4 +153,4 @@ sudo pacman -Sy python
 python3 --version
 ```
 
-¡Felicidades! Ya tienes instalado Python en tu sistema operativo, ahora ya puedes empezar a ejecutar tus primeras líneas de código en Python. Espero que los ejemplos y los videotutoriales de este artículo te sean de utilidad, diviértete creando las aplicaciones del futuro con ayuda de Python.
+¡Felicidades! Ya tienes instalado Python en tu sistema operativo, ahora ya puedes empezar a ejecutar tus primeras líneas de código en Python. Espero que los ejemplos y los videotutoriales de este artículo te sean de utilidad, diviértete creando las aplicaciones del futuro con ayuda de Python. SI quieres conocer más sobre este lenguaje de programación te invito a que leas el siguiente [tutorial de Python](https://4geeks.com/es/lesson/como-programar-en-python) en el Blog de [4Geeks](https://4geeks.com/es/).
