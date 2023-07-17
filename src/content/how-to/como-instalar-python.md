@@ -2,7 +2,7 @@
 title: "¿Cómo instalar Python? Guía paso a paso para comenzar con el lenguaje de programación"
 subtitle: "Aprende cómo instalar Python en tu computadora fácilmente. Descubre los pasos necesarios para comenzar a programar con este popular lenguaje de programación."
 tags: ["python"]
-authors: ["jul1998"]
+authors: ["DF27ARTS"]
 
 ---
 
