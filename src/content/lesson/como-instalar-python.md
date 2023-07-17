@@ -1,8 +1,8 @@
 ## ¿Cómo instalar Python?
 
-Python es uno de los lenguajes de programación más usado en el mundo, este lenguaje te permite desde crear aplicaciones de back-end junto [django](https://docs.djangoproject.com/en/4.2/) o [FastAPI](https://fastapi.tiangolo.com/), crear algoritmos de Machine learning con [Tensorflow](https://www.tensorflow.org/?hl=es-419) o incluso crear interfaces de usuario en el front-end con tecnologías como [ReactPy](https://reactpy.dev/docs/index.html).
+Python es uno de los lenguajes de programación más usado en el mundo, este lenguaje te permite desde crear aplicaciones de back-end junto a frameworks como [django](https://docs.djangoproject.com/en/4.2/) o [FastAPI](https://fastapi.tiangolo.com/), crear algoritmos de Machine learning con [Tensorflow](https://www.tensorflow.org/?hl=es-419) o incluso crear interfaces de usuario en el front-end con tecnologías como [ReactPy](https://reactpy.dev/docs/index.html).
 
-Este lenguaje es sin duda uno de los más utilizados en el mundo de la programación por ser un lenguaje bastante versátil y sencillo de aprender. En este artículo veremos cómo instalar o actualizar este lenguaje en diferentes sistemas operativos Windows, MacOS y Linux.
+Este lenguaje es sin duda uno de los más utilizados en el mundo de la programación por ser un lenguaje bastante versátil y sencillo de aprender. En este artículo veremos cómo instalar o actualizar este lenguaje en diferentes sistemas operativos como Windows, MacOS y Linux.
 
 ## ¿Cómo instalar Python en Windows?
 
