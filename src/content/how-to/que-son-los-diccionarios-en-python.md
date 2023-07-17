@@ -73,13 +73,13 @@ print(objeto_dos)
 }
 ```
 
-Como puedes ver, crear un diccionario en Python en muy sencillo, primero creas una variable y le asignas un par de llaves`{}`, luego dentro de las llaves creamos una clave y a esta clave le asignamos un valor, por ejemplo: `{ "academia": "4Geeks" }`.
+Como puedes ver, crear un diccionario en Python es muy sencillo, primero creas una variable y le asignas un par de llaves `{}`, luego dentro de las llaves creamos una clave y a esta clave le asignamos un valor, por ejemplo: `{ "academia": "4Geeks" }`.
 
 > Aunque es posible declarar un diccionario con el constructor `dict()`, te recomiendo que utilices las llaves `{}` ya que se considera una buena práctica y hace el código más sencillo de leer.
 
-## ¡Accediendo a los datos! 
+## ¡Accediendo a los datos!
 
-Para acceder a los datos dentro un diccionario usa la sintaxis `nombre_diccionario[clave]`, o también puedes usar el método `get()` con la siguiente sintaxis `nombre_diccionario.get(clave)` como se muestra en el siguiente ejemplo:
+Para acceder a los datos adentro un diccionario usa la sintaxis `nombre_diccionario[clave]`, o también puedes usar el método `get()` con la siguiente sintaxis `nombre_diccionario.get(clave)` como se muestra en el siguiente ejemplo:
 
 ```py
 persona = {
@@ -101,7 +101,7 @@ print(persona.get("peso"))  # output:  Aunque la clave (peso) no existe en el ob
 
 Como se muestra en este ejemplo, para acceder al valor de la un diccionario puedes usar los corchetes y dentro de los corchetes el nombre de la clave de ese valor `variable[clave]` o también puedes usar el método `get()` y le pasas como parámetro el nombre de la clave que contiene es valor `variable.get(clave)`. 
 
-> Es importante resaltar que si tratas de acceder a la clave de un diccionario que no contiene esa clave usando los corchetes te va a arrojar un error de tipo `KeyError` y va a detener la ejecución del código mientra que si usas el metodo `get()` este no detiene la ejecución del código y te retornar el valor `None`.
+> Es importante resaltar que si tratas de acceder a la clave de un diccionario que no contiene esa clave usando los corchetes te va a arrojar un error de tipo `KeyError` y va a detener la ejecución del código mientra que si usas el metodo `get()` este no detiene la ejecución del código y te retorna el valor `None`.
 
 ## ¡Añadiendo nuevos datos! 
 
@@ -126,27 +126,7 @@ print(objeto_dos)
 { 1: 'A', 2: 'B', 3: 'C', 4: 'D', 5: 'E' }
 ```
 
-Como vemos en este ejemplo, puedes usar la sintaxis de llaves `{}` y dentro de las llaves el nombre de la nueva clave para crear un nuevo valor dentro de un diccionario, pero si necesitas crear más de un valor puedes usar el método `update()` y le pasas como parámetro un objeto con los nuevos valores.
-
-Incluso puedes combinar los dos objetos en uno solo con la siguiente sintaxis.
-
-```py
-nuevo_objeto = objeto_uno | objeto_dos
-```
-> output nuevo_objeto:
-```bash
-{
-    'clave_1': 1, 
-    'clave_2': 2, 
-    'clave_3': 3, 
-    'clave_4': 4, 
-    1: 'A', 
-    2: 'B', 
-    3: 'C', 
-    4: 'D', 
-    5: 'E'
-}
-```
+Como vemos en este ejemplo, puedes usar la sintaxis de llaves `{}` y dentro de las llaves el nombre de la nueva clave para crear un nuevo valor dentro de un diccionario, pero si necesitas crear más de un valor puedes usar el método `update()` y le pasas como parámetro un diccionario con los nuevos valores.
 
 ## ¡Eliminando datos! 
 
@@ -176,7 +156,7 @@ print(persona)
 }
 ```
 
-Como se muestra en el ejemplo, puedes usar la palabra reservada `del` y luego accedes a la clave del diccionario `persona["peso"]` para eliminarla. Otra forma en la puedes eliminar una clave-valor de un diccionario el haciendo uso método `pop()`, este método recibe como parámetro el nombre de la clave, elimina esa clave-valor del diccionario y retorna el valor que eliminó que en el ejemplo se guarda en la variable `edad`.
+Como se muestra en el ejemplo, puedes usar la palabra reservada `del` y luego accedes a la clave del diccionario `persona["peso"]` para eliminarla. Otra forma en la puedes eliminar una clave-valor de un diccionario es haciendo uso método `pop()`, este método recibe como parámetro el nombre de la clave, elimina esa clave-valor del diccionario y retorna el valor que eliminó que en el ejemplo se guarda en la variable `edad`.
 
 ## ¡Recorriendo un diccionario!
 
@@ -193,7 +173,7 @@ persona = {
 
 for clave in persona:
     valor = persona[clave]
-    print(f"Clave: '{clave}', ", f"valor: '{valor}'")
+    print(f"Clave: '{clave}', valor: '{valor}'")
 ```
 > output: 
 ```bash
