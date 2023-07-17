@@ -1,6 +1,14 @@
+---
+title: "Introducción a los diccionarios en Python: Estructuras clave-valor para organizar y acceder a datos"
+subtitle: "Descubre qué son los diccionarios en Python y cómo se utilizan. Aprende cómo aprovechar estas estructuras de datos para organizar y acceder eficientemente a información."
+tags: ["python","pandas"]
+authors: ["jul1998"]
+
+---
+
 ## Explorando los Diccionarios en Python
 
-Los diccionarios en Python son una estructura de datos que nos permite almacenar grandes cantidades de datos y acceder a ellos de una forma muy eficiente. En este artículo aprenderás cómo crear, acceder y modificar datos en un diccionario de Python, en el siguiente ejemplo veremos una pequeña demostración de cómo puedes utilizar un diccionario para guardar una colección de datos.
+Los diccionarios en [Python](https://4geeks.com/es/lesson/como-programar-en-python) son una estructura de datos que nos permite almacenar grandes cantidades de datos y acceder a ellos de una forma muy eficiente. En este artículo aprenderás cómo crear, acceder y modificar datos en un diccionario de Python, en el siguiente ejemplo veremos una pequeña demostración de cómo puedes utilizar un diccionario para guardar una colección de datos.
 
 ```py
 ciudad = {
@@ -216,4 +224,4 @@ Estos son algunos de los métodos más relevantes de los diccionarios.
 
 ## Conclusión
 
-En conclusión, los diccionarios son una excelente estructura de almacenamiento que te permite almacenar grandes cantidades de datos cada uno con una clave y un valor, puedes usar cualquier tipo de dato como clave para un diccionario excepto por otros diccionarios, listas o tuplas. Espero que este artículo te sea de gran utilidad para aprender más sobre diccionarios y cómo trabajar con ellos. Practica y diviértete tanto como puedas aprendiendo Python y sus características.
+En conclusión, los diccionarios son una excelente estructura de almacenamiento que te permite almacenar grandes cantidades de datos cada uno con una clave y un valor, puedes usar cualquier tipo de dato como clave para un diccionario excepto por otros diccionarios, listas o tuplas. Espero que este artículo te sea de gran utilidad para aprender más sobre diccionarios y cómo trabajar con ellos. Si quieres conocer más sobre este lenguaje de programación te invito a que leas el siguiente [tutorial de Python](https://4geeks.com/es/lesson/como-programar-en-python) en el Blog de [4Geeks](https://4geeks.com/es).
