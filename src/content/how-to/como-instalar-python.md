@@ -153,4 +153,4 @@ sudo pacman -Sy python
 python3 --version
 ```
 
-¡Felicidades! Ya tienes instalado Python en tu sistema operativo, ahora ya puedes empezar a ejecutar tus primeras líneas de código en Python. Espero que los ejemplos y los videotutoriales de este artículo te sean de utilidad, diviértete creando las aplicaciones del futuro con ayuda de Python. SI quieres conocer más sobre este lenguaje de programación te invito a que leas el siguiente [tutorial de Python](https://4geeks.com/es/lesson/como-programar-en-python) en el Blog de [4Geeks](https://4geeks.com/es/).
+¡Felicidades! Ya tienes instalado Python en tu sistema operativo, ahora ya puedes empezar a ejecutar tus primeras líneas de código en Python. Espero que los ejemplos y los videotutoriales de este artículo te sean de utilidad, diviértete creando las aplicaciones del futuro con ayuda de Python. Si quieres conocer más sobre este lenguaje de programación te invito a que leas el siguiente [tutorial de Python](https://4geeks.com/es/lesson/como-programar-en-python) en el Blog de [4Geeks](https://4geeks.com/es/).
