@@ -88,7 +88,7 @@ Please make sure you understand how the academy works:
 
 ## Best Practices while starting to learn code
 
-| The Best Practices while starting to learn code  |   |
+| The Best Practices while starting to learn code  | Memes |
 | ---   | ----      |
 | **Don't read (much):** Coding is like a sport, the best way to get better is through practice. Learn by doing |    ![It's practice](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg?raw=true) |
 | **Sleep:** Having a good night's sleep is as important as coming to class, coding is 100% intellectual, and having a sharp mind is everything. | ![Sleep](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/d29be460-cc2e-42e6-bf92-f9516fd7b21a.jpeg?raw=true) |
