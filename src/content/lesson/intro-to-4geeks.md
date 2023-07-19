@@ -11,7 +11,7 @@ cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/le
 
 ---
 
-Welcome!! 🤩👏 My name is Alejandro and I'm typing these words after years of teaching code and changing lives. Please, I beg you to read until the end, I will try my best not to bore you!
+Welcome!! 🤩👏 My name is Alejandro, and I'm typing these words after years of teaching code and changing lives. Please, I beg you to read until the end, I will try my best not to bore you!
 
 ## What you already know
 
@@ -41,7 +41,7 @@ Every average person can learn to code to the point of being useful, but coding 
 
 ##### 📝 Recipe to avoid losing confidence
 
-1. **Avoid being stuck too long:** Coding is tricky because you may be very close to solving a problem but you are stuck and you don't realize it. Or maybe you don't know how to start solving the problem, but a quick 5 min talk with a mentor will clear the way. You need to ask for help no longer than 15 minutes after trying on your own.
+1. **Avoid being stuck too long:** Coding is tricky because you may be very close to solving a problem, but you are stuck and you don't realize it. Or maybe you don't know how to start solving the problem, but a quick 5 min talk with a mentor will clear the way. You need to ask for help no longer than 15 minutes after trying on your own.
 
 2. **Talk to other students:** You may think you are the only one that does not understand, but if you talk to a couple of classmates you'll see they are just like you, it will give you the confidence to ask any questions.
 
@@ -63,15 +63,15 @@ We know how to train you: we have done it over and over again, but we'll train i
 
 #### Wall #3: Inactivity 😴 
 
-This is a boot camp, it does not matter if you do it on a full-time or part-time basis, you need to embody a boot camp mindset and work every day like it's the last. The Human brain absorbs 80% more if we feel challenged and scared, if you idle for a day the brain relaxes and [it's proven](https://www.youtube.com/watch?v=h5PLO4XAXhs) that you usually forget 60% of recently acquired information in just 1 day unless you use it again and again for a sequence of 7 days (at least).  
+This is a boot camp, it does not matter if you do it on a full-time or part-time basis, you need to embody a boot camp mindset and work every day like it's the last. The Human brain absorbs 80% more if we feel challenged and scared, if you idle for a day the brain relaxes, and [it's proven](https://www.youtube.com/watch?v=h5PLO4XAXhs) that you usually forget 60% of recently acquired information in just 1 day unless you use it again and again for a sequence of 7 days (at least).  
 
 These are not small numbers, 60% in a day and 90% if you don't practice for a week. You are wasting your time and money if you don't take the course seriously! 
 
 ##### 📝 Recipe to avoid inactivity
 
-1. **Talk to your spouse, partner, and family:** You need a break from almost everything, we know life is challenging enough already to be adding more responsibilities, but this is only for a short period of your time. Rewards are endless. Everyone needs to fall in line! Try opening up the most time you can, having a private desk to work without distraction, etc. Your home has to be in sync with this moment of your life.
+1. **Talk to your spouse, partner, and family:** You need a break from almost everything, we know life is challenging enough already to be adding more responsibilities, but this is only for a short period of your time. The rewards are endless. Everyone needs to fall in line! Try opening up the most time you can, having a private desk to work without distraction, etc. Your home has to be in sync with this moment of your life.
 
-2. **Talk to your boss:** You may need a few extra hours, weekend time, etc. Be smart about it or he/she could sabotage it because he is afraid of losing you.
+2. **Talk to your boss:** You may need a few extra hours, weekend time, etc. Be smart about it, or he/she could sabotage it because he is afraid of losing you.
 
 3. **Don't miss class:** Missing classes is our biggest concern, we are very concerned about attendance because it has shown that it is the #1 deterrent to your motivation. Missing two classes in a row is the perfect storm. You will need to have 1-on-1 mentoring and double the hours through that week to avoid staying behind.
 
@@ -82,13 +82,13 @@ These are not small numbers, 60% in a day and 90% if you don't practice for a we
 Please make sure you understand how the academy works:
 
 1. **Platform:** 4Geeks.com, The Syllabus (learn how to follow it), GeekPal, GeekForce, the lessons, exercises, projects, and assets.
-2. **The people:** We are more than one thousand people now! Leaders, Mentors, the [Alumni and Students](http://sep.4geeksacademy.com/), we are here to help and we are here to stay. Network, make friends -- take advantage!
+2. **The people:** We are more than one thousand people now! Leaders, Mentors, the [Alumni and Students](http://sep.4geeksacademy.com/), we are here to help, and we are here to stay. Network, make friends -- take advantage!
 3. **The community:** Communities are not one way, they just don't work like that to the events, support other students, give first and you will receive later. Slack, GeekTalks, Workshops, Group Studies.
 
 
 ## Best Practices while starting to learn code
 
-| **Don't read (much):** Coding is like sport, the best way to get better is through practice. Learn by doing |    ![Its practice](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg?raw=true) |
+| **Don't read (much):** Coding is like a sport, the best way to get better is through practice. Learn by doing |    ![It's practice](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg?raw=true) |
 | ---   | ----      |
 | **Sleep:** Having a good night's sleep is as important as coming to class, coding is 100% intellectual, and having a sharp mind is everything. | ![Sleep](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/d29be460-cc2e-42e6-bf92-f9516fd7b21a.jpeg?raw=true) |
 | **Learn how to ask:** The biggest challenge you have to address at first is learning [how to ask a question](https://content.breatheco.de/how-to/ask), picking the right words, knowing exactly what you want to know is the best skill for any developer. | ![How to ask](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c.jpeg?raw=true) |
