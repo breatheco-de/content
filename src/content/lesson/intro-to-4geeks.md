@@ -89,7 +89,6 @@ Please make sure you understand how the academy works:
 ## Best Practices while starting to learn code
 
 | **Don't read (much):** Coding is like a sport, the best way to get better is through practice. Learn by doing |    ![It's practice](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg?raw=true) |
-| ---   | ----      |
 | **Sleep:** Having a good night's sleep is as important as coming to class, coding is 100% intellectual, and having a sharp mind is everything. | ![Sleep](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/d29be460-cc2e-42e6-bf92-f9516fd7b21a.jpeg?raw=true) |
 | **Learn how to ask:** The biggest challenge you have to address at first is learning [how to ask a question](https://content.breatheco.de/how-to/ask), picking the right words, knowing exactly what you want to know is the best skill for any developer. | ![How to ask](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c.jpeg?raw=true) |
 | **Ask questions:** It's a win-win, preparing the question will teach you, we get feedback from your understanding, it is the biggest boost for your learning process. It's what you are paying for. | ![Ask questions](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/5e975e91-1447-4117-b50b-b00df99a88a5.jpeg?raw=true) |
