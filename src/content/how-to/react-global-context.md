@@ -5,13 +5,18 @@ React global context is a way to pass and consume data between components in a R
 The following is a small example of how to use the global context and how to consume data in the different components of an application.
 
 #### 1. Create the Global Context
+
+First, create the global context, to create the global context use the `createContext()`  method of React and pass it as a parameter an initial value.
+
 ```jsx
 import { createContext } from "react";
 const NameContext= createContext(InitialValue);
 ```
-First, create the global context, to create the global context use the `createContext()`  method of React and pass it as a parameter an initial value.
 
 #### 2. Provide the Global Context
+
+Use the context `Provider` created to wrap the entire application, and pass the values you want to make accessible in the `value` prop.
+
 ```jsx
 export default function App() {
   const [Theme, setTheme] = useState("light")
@@ -23,22 +28,21 @@ export default function App() {
 }
 ```
 
-Use the context `Provider` created to wrap the entire application, and pass the values you want to make accessible in the `value` prop.
-
 #### 3. Consume the Global Context
+
+Finally, use the React hook `useContext()` to use the information provided by the global context.
+
 ```jsx
 import { useContext } from "react";
 function HomePage() {
   const {Theme, setTheme} = useContext(NameContext);
   return (
     <section className={Theme === "dark" ? "dark-theme": "dark-theme"}>
-    <button onClick={()=> setTheme((prev) => !prev)} > Change Theme</button>
+    <button onClick={()=> setTheme((prev) => !prev)}>Change Theme</button>
     </section>
   );
 }
 ```
-
-Finally, use the React hook `useContext()` to use the information provided by the global context.
 
 ## What Does Global Context Mean in React?
 
