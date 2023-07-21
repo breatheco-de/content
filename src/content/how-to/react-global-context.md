@@ -2,47 +2,43 @@
 
 React global context is a way to pass and consume data between components in a React application without the need to manually pass props at each level, in this article you will learn how to work with the global context in React, and how to pass and consume data using the React hook `useContext()`.
 
-The following is a small example of how to use the global context and how to consume data in the different components of an application.
+To initialize a global context in React and share data between components, follow the steps below:
 
 #### 1. Create the Global Context
-
-First, create the global context, to create the global context use the `createContext()`  method of React and pass it as a parameter an initial value.
-
 ```jsx
 import { createContext } from "react";
 const NameContext= createContext(InitialValue);
 ```
+First, you need to create a global context, for this, use the `createContext()`  method of React and pass as a parameter an initial value `const LanguageContext = createContext("english")`, the initial value can be of any data type, but usually the good practice is to pass a `null` value and after that, you pass as value to the prop `value` the actual data that you want to store globally.
 
 #### 2. Provide the Global Context
-
-Use the context `Provider` created to wrap the entire application, and pass the values you want to make accessible in the `value` prop.
-
 ```jsx
 export default function App() {
   const [Theme, setTheme] = useState("light")
   return (
-    <NameContext.Provider value={{Theme, setTheme}}>
+    <NameContext.Provider value={Theme, setTheme}>
       <HomePage />
     </NameContext.Provider>
   );
 }
 ```
 
+Once the Global context is created, you need to wrap the whole application with this context in the `Provider` property, and as mentioned before you pass a prop called `value` and in this prop, you pass all the data you want to store globally, this value can be of any data type a **boolean**, a **string**, an **array**, an **array of objects**, etc...
+
 #### 3. Consume the Global Context
-
-Finally, use the React hook `useContext()` to use the information provided by the global context.
-
 ```jsx
 import { useContext } from "react";
 function HomePage() {
-  const {Theme, setTheme} = useContext(NameContext);
+  const [Theme, setTheme] = useContext(NameContext);
   return (
     <section className={Theme === "dark" ? "dark-theme": "dark-theme"}>
-    <button onClick={()=> setTheme((prev) => !prev)}>Change Theme</button>
+    <button onClick={()=> setTheme((prev) => !prev)} > Change Theme</button>
     </section>
   );
 }
 ```
+
+Finally, use the React hook `useContext()` to call the data provided by the global context, you can use the following syntax to do this `const data = useContext(NameContext)`, after calling the data, every time you update or change the data it will be updated globally.
 
 ## What Does Global Context Mean in React?
 
@@ -60,236 +56,136 @@ G --> E
 C --> E(ContactButton.jsx)
 ```
 
-In React, global context provides a way to share data across the components without having to manually send the data by props at each level of the tree. In the above example, if you want to send data from the `App.jsx`  component to the `SearchEngine.jsx` component by props you first have to pass the data from `App.jsx` to `Navbar.jsx` and then pass the data from `Navbar.jsx` finally to the `SearchEngine.jsx` component, this is very tedious especially when working on a large project. 
+In React, [global context](https://legacy.reactjs.org/docs/context.html) provides a way to share data across the components without having to manually send the data by props at each level of the tree. In the above example, if you want to send data from the `App.jsx`  component to the `SearchEngine.jsx` component by props you first have to pass the data from `App.jsx` to `Navbar.jsx` and then pass the data from `Navbar.jsx` finally to the `SearchEngine.jsx` component, this is very tedious especially when working on a large project. 
 
-With React's global context, on the other hand, you create a global state context with any kind of data you need and then you can access that data from any component using the `useContext()` hook provided by React, no matter if the component is a direct child of the `App.jsx` or not, you can access the data very easily from anywhere on your page.
+With React's global context, on the other hand, you create a global state context with any kind of data you need and then you can access that data from any component using the `useContext()` hook provided by React, no matter if the component is a direct child of the `App.jsx` or not, you can access the data very easily from anywhere on your application.
 
 ## How to apply the Global Context of React in a Project?
 
-In the following example, we will create a real project using the global context of React so you can see how to apply this concept in your own projects in the future, we will create a shopping website application step by step using **React**, **Vite.js**, and the **Tailwind** library for styles. You can also use the `npx create-react-app` command to start your project but you should know that this command is getting deprecated, instead, I highly recommend you to use **Vite.js** to create your project, this compiler is very fast and is one of the favorites of the community.
 
-![shopping website](https://res.cloudinary.com/dcgbjtd2z/image/upload/v1689351091/Captura_web_14-7-2023_11658_localhost_q1mvv2.jpg)
+You can create a global context in a real project very easily, in the next example, we are going to create a fake project step by step and we will use the **Global Context** of React to save and change the theme color of our application. This project has no functionality other than the button to change the theme color from **light** to **dark** and vise-versa.
 
-> Note: this project is a bit large but it is a perfect example of how to use global context in your own React applications.
+To create this project we will use **React**, **Vite.js**, and **Tailwind** for the styles. You can also use the `npx create-react-app` command to initialize your project but you should know that this command is getting deprecated by React, instead, I highly recommend you to use **Vite.js** to initialize your project, this compiler is very fast, efficient and is one of the favorites of the community.
 
-* Initialize the project with Tailwind and React using Vite.js: [tailwind-react-vite](https://tailwindcss.com/docs/guides/vite)
-* Initialize the project using Tailwind and create-react-app: [tailwind-react](https://tailwindcss.com/docs/guides/create-react-app)
+> Preview of the project.
 
-Once your project is initialized, Inside the `/src` folder of your project create a `components` folder and inside this folder create the following components.
-* Navbar.jsx
-* ShoppingCartContainer.jsx
-* Products.jsx
-* ProductCard.jsx
+![App light and dark theme](https://res.cloudinary.com/dleo66u17/image/upload/v1689916027/Captura_de_pantalla_2023-07-20_235948_ymanmu.png)
 
-Create a Global context, normally, the global context is created in its own component, but in this example, we will create the global context in the `App.jsx` component for better understanding.
+First, initialize your project.
+
+- Initialize the project with [vite.js](https://tailwindcss.com/docs/guides/vite)
+- Initialize the project using [create-react-app](https://tailwindcss.com/docs/guides/create-react-app)
+
+Once you have initialized the project, we have to create a few components for our application, we will need three components, the first one is `App.jsx`, in this component will create the global context and store the theme of our application, the second one is `Navbar.jsx`, in this component we will have the functionality to change the theme from light to dark and vise-versa, and the third one is the `Cards.jsx` component, this will contain cards with fake products just to better simulate a real application.
 
 #### App.jsx
 ```jsx
-import { useState, createContext, useEffect } from "react";
+import { useState, createContext } from "react";
 import Navbar from "./components/Navbar";
-import Products from "./components/Products";
+import Cards from "./components/Cards";
 
-// Create the global contexts.
-export const ProductsContext = createContext(); //Context to store the products from the Fake Platzi API
-export const ShoppingCartContext = createContext(); // Context to store the products that we want to buy from the webpage.
-
-// Create the CURRENCY variable with the Intl Javascript library to format the numbers of the product prices with a USD currency syntax.
-export const CURRENCY = new Intl.NumberFormat(undefined, { currency: "USD", style: "currency" });
+export const ThemeContext = createContext("light");
 
 export default function App() {
-  const [products, setProducts] = useState([]);
-  const [shoppingCart, setShoppingCart] = useState([]);
-
-  // Call to the fake products API.
-  useEffect(() => {
-    fetch("https://api.escuelajs.co/api/v1/products?offset=0&limit=10")
-      .then((response) => response.json())
-      .then((data) => setProducts(data))
-      .catch((error) => console.error(error));
-  }, []);
-
+  const [theme, setTheme] = useState("light");
   return (
-    // Wrap the entire application with the global contexts so you can access them from anywhere.
-    <ProductsContext.Provider value={products}> 
-      <ShoppingCartContext.Provider value={{ shoppingCart, setShoppingCart }}>
-        <section className="min-h-screen w-screen flex flex-col items-center gap-y-8">
-          <Navbar />
-          <Products />
-        </section>
-      </ShoppingCartContext.Provider>
-    </ProductsContext.Provider>
+    <ThemeContext.Provider value={{ theme, setTheme }}>
+      <section className={`${theme === "dark" ? "bg-zinc-950 text-gray-200" : "bg-white text-black"} flex flex-col items-center gap-y-8 min-h-screen w-screen border-2`}>
+        <Navbar />
+        <Cards />
+      </section>
+    </ThemeContext.Provider>
   );
 }
 ```
 
-For this project we need two global contexts, the first one is the `ProductsContext` state that we will use to store all the fake products from the [Platzi Fake Store](https://fakeapi.platzi.com/) API, The second global context is the `ShoppingCartContext` state that we will use to store all the products from the website that we want to buy. After creating the global states, we use the hook `useEffect( => {}, [])` to make the call to the fake API, and finally, we wrap our whole application with the `Providers`  and pass the information in the prop `value` of these contexts. 
+As mentioned before, in this component we will store the theme of our application, to do so, we need to create a global context, you can use the syntax `export const NameContext = createContext(initial value)` this syntax uses the React function `createContext()` to initialize a global context, make sure you also add the `export` so you can import this context in others component when you need.
+
+After creating the context, you have to wrap the whole application with this context, this will give you access to the data stored in the global context in any other component that is inside the application, you can wrap the application with the syntax. 
+
+```jsx
+ <NameContext.Provider value={global data}>"Your application..."</NameContext.Provider>
+```
+ 
+After this, you have to pass to the prop `value` all the data that you want to store globally, in our case, we pass inside an object the theme of our application as well as the function to update it.
+
 
 #### Navbar.jsx
 ```jsx
-import { useContext, useState } from "react";
-import { ShoppingCartContext } from "../App";
-import ShoppingCartContainer from "./ShoppingCartContainer";
+import { useContext } from "react";
+import { ThemeContext } from "../App";
 
 export default function Navbar() {
-  // State to open en close the cart container.
-  const [showCarts, setShowCarts] = useState(false);
-  const { shoppingCart } = useContext(ShoppingCartContext);
-  const totalCartAmount = shoppingCart.reduce((total, cart) => total + cart.quantity, 0);
-
-  const OpenAndCloseCartsContainer = () => setShowCarts((prev) => !prev);
-
+  const { theme, setTheme } = useContext(ThemeContext);
   return (
-    <nav className="w-4/5 h-20 shadow-lg shadow-gray-200 flex items-center pl-16 pr-16">
-      <h1 className="bg-red grow text-2xl font-bold tracking-widest text-amber-400"> SHOPPING WEBSITE </h1>
-      <div className="h-14 w-14 rounded-full flex items-center justify-center cursor-pointer border-2 focus-within:border-amber-400 hover:border-amber-400 relative">
-        <button onClick={OpenAndCloseCartsContainer} className="text-xl h-14 w-14 rounded-full"> 🛒 </button>
-        {totalCartAmount > 0 ? (
-          <div className="h-7 w-7 bg-amber-400 text-gray-200 rounded-full absolute -bottom-2 -right-2 flex items-center justify-center">
-            {totalCartAmount}
-          </div>
-        ) : null}
-        {showCarts ? (
-          <ShoppingCartContainer  />        
-        ) : null}
-      </div>
+    <nav className={`${theme === "dark" ? "shadow-black bg-zinc-900" : "shadow-gray-200"} flex gap-7 relative items-center justify-start h-24 w-3/5 pl-8 pr-8 shadow-md`}>
+      <button className="h-full text-xl border-b-4 border-b-transparent cursor-auto tracking-widest"> HOME </button>
+      <button className="h-full text-xl border-b-4 border-b-amber-500 text-amber-500 cursor-auto tracking-widest"> STORE </button>
+      <button className="h-full text-xl border-b-4 border-b-transparent cursor-auto tracking-widest"> ABOUT </button>
+      <button
+        onClick={() => setTheme((theme) => (theme === "dark" ? "light" : "dark"))}
+        className={`${theme === "dark" ? "bg-gray-200 text-black" : "bg-gray-900 text-gray-200"} h-14 w-28 rounded absolute right-8 font-bold`}
+      >
+        {theme === "dark" ? "Light Mode" : "Dark Mode"}
+      </button>
     </nav>
   );
 }
 ```
 
-Once the `App.js` is created, we need to create the navbar of our application, in this component, we will put the name of the website and the button to open and close the `ShoppingCartContainer.jsx` component.
+Now, in the `Navbar.jsx` component, we can access the data that we store in the Global Context, the theme and the function, to import them inside the component we have to use the React hook `useContext()` and the following syntax:
 
-After creating the `Navbar.jsx` component, we need to create the `ShoppingCartContainer.jsx` component where we will show all the products from our cart stored in the `ShoppingCartContext` state that we created.
-
-#### ShoppingCartContainer.jsx
 ```jsx
-import { useContext } from "react";
-import { CURRENCY, ShoppingCartContext } from "../App";
+// Import the data from the Global Context.
+const { theme, setTheme } = useContext(ThemeContext);
 
-export default function ShoppingCartContainer() {
-  // Import the products from the ShoppingCartContext using the useContext() React Hook.
-  const { shoppingCart, setShoppingCart } = useContext(ShoppingCartContext);
-  const TotalPrice = shoppingCart.reduce((total, cart) => total + cart.price * cart.quantity, 0);
+// Function to toggle the color theme of the application.
+<button onClick={() => setTheme((theme) => theme === "dark" ? "light" : "dark")}>Light Mode</button>
+```
 
-  function RemoveCardFromShoppingCart(cart) {
-    setShoppingCart((prev) => prev.filter((item) => item.id !== cart.id));
-  }
+With this syntax, you can access the data stored globally in your application, here we use it to access the theme and also the function that we are going to use to toggle the theme of the application every time the button `Light Mode` or `Dark Mode` is clicked.
 
-  return (
-    <section className="flex flex-col cursor-auto pt-7 pb-7 pl-2 pr-2 gap-4 shadow-lg shadow-gray-500 absolute top-16 rounded-lg right-0 bg-white">
-      {shoppingCart.length ? (
-        <>
-          {shoppingCart.map((cart) => (
-            <div key={cart.id} className="h-20 shadow-md shadow-gray-300 rounded-md flex gap-4 items-center relative pl-4 pr-4">
-              <img className="h-14 w-14" rounded-md object-cover src={cart.image} />
-              <div className="w-72">
-                <h3 className="text-md">{cart.name}</h3>
-                <span className="text-sm text-gray-400"> {CURRENCY.format(cart.price * cart.quantity)} </span>
-              </div>
-              <span className="h-10 text-lg w-10">x {cart.quantity}</span>
-              <button onClick={() => RemoveCardFromShoppingCart(cart)} className="h-8 w-10 bg-amber-400 text-gray-200 rounded-md cursor-pointer">
-                X
-              </button>
-            </div>
-          ))}
-          <div className="flex items-center justify-end gap-4 pl-4 pr-4">
-            <div className="font-bold tracking-widest font-mono text-lg text-amber-400"> TOTAL </div>
-            <span className="text-sm text-gray-500"> {CURRENCY.format(TotalPrice)} </span>
+Finally, we only have to change the styles of our application in the `Cards.jsx` component depending on the value of the theme of our application, light or dark.
+
+#### Cards.jsx
+```jsx
+import { useContext, useState } from "react";
+import { ThemeContext } from "../App";
+
+export default function Cards() {
+  const { theme } = useContext(ThemeContext);
+  const products = [
+    { id: 0, title: "Duramo Trainer Lea AF6047", price: 47, image: "https://res.cloudinary.com/dleo66u17/image/upload/v1689896404/cld-sample-5.jpg" },
+    { id: 1, title: "Komal's Passion Leather", price: 1.6, image: "https://res.cloudinary.com/dleo66u17/image/upload/v1689896386/samples/ecommerce/leather-bag-gray.jpg" },
+    { id: 2, title: "Swatch Swiss Watch", price: 1.95, image: "https://res.cloudinary.com/dleo66u17/image/upload/v1689896377/samples/ecommerce/analog-classic.jpg", },
+  ];
+
+  return products.length
+    ? products.map((product, index) => (
+        <div
+          key={index}
+          className={`${theme === "dark" ? "shadow-black bg-zinc-900" : "shadow-gray-300"} flex gap-8 items-end w-3/5 pl-8 pr-8 p-3 shadow-md rounded`}
+        >
+          <img src={product.image} className="h-32 w-36 flex-none object-cover rounded" />
+          <div className="grow flex flex-col gap-2">
+            <h2 className="font-bold uppercase text-amber-500">{product.title}</h2>
+            <span className="text-sm text-gray-400 mb-4"> ${product.price}.00 USD </span>
+            <button className="w-36 h-10 flex-none rounded text-lg text-gray-200 bg-amber-500 cursor-auto"> Visit Product </button>
           </div>
-          <button className="h-10 w-44 text-gray-200 bg-gradient-to-r from-sky-500 to-indigo-500 rounded-md self-end"> Conform purchase </button>
-        </>
-      ) : (
-        <div className="flex flex-col items-center gap-8">
-          <span className="text-center w-80 ml-16 mr-16 mt-4 pl-4 pr-4"> You haven't yet added products to your shopping cart </span>
-          <div className="text-8xl mb-4"> 🥺 </div>
+          <button className="w-20 h-20 self-center rounded text-lg text-gray-200 bg-sky-500 cursor-auto"> Buy </button>
         </div>
-      )}
-    </section>
-  );
+    ))
+  : null;
 }
 ```
 
-Once the navbar creation is finished, we need to display the products from the fake API inside our application.
+To change the style of the application depending on the theme we only have to change the tailwind classes, we can use a **ternary conditional expression** `if true ? to this : or that` to check if the theme has a **light** value or a **dark** value, if it has the **dark** value you put the classes for the dark mode or the classes for the light mode otherwise, to do so, do this with the syntax:
 
-#### Products.jsx
 ```jsx
-import { useContext } from "react";
-import { ProductsContext } from "../App";
-import ProductCard from "./ProductCard";
-
-export default function Products() {
-  // Import the product from the fake API stored in the ProductsContext using the useContext() React hook.
-  const products = useContext(ProductsContext);
-
-  return (
-    <section className="w-4/5 flex flex-wrap gap-x-16 gap-y-8 pb-8">
-      {products.length ? (
-        products.map((product) => (
-          <ProductCard key={product.id} name={product.title} image={product.images[0]} price={product.price} id={product.id} />
-        ))
-      ) : (
-        <h2 className="w-screen text-4xl text-gray-400 text-center"> Loading products... </h2>
-      )}
-    </section>
-  );
-}
+<div className={`${theme === "dark" ? "classes for the dark mode" : "classes for the light mode"`}></div>
 ```
 
-In the `Products.jsx` component we will show all the products coming from the fake API, but to show each product we´re gonna need a card component.
-
-#### ProductCard.jsx
-```jsx
-import { useContext } from "react";
-import { CURRENCY, ShoppingCartContext } from "../App";
-
-export default function ProductCard({ name, image, price, id }) {
-  // Import the values of the ShoppingCartContext global context using the useContext() React kook.
-  const { shoppingCart, setShoppingCart } = useContext(ShoppingCartContext);
-  const currentCart = shoppingCart.find((item) => item.id === id);
-
-  function HandleSelectCard() {
-    setShoppingCart((prev) => [ { id, name, quantity: 1, price, image }, ...prev, ]);
-  }
-
-  function HandleIncreaseCards() {
-    setShoppingCart((prev) => prev.map((item) => item.id === id ? { ...item, quantity: item.quantity + 1 } : item ));
-  }
-
-  function HandleRevomeCards() {
-    if (currentCart.quantity > 1)
-      setShoppingCart((prev) => prev.map((item) => item.id === id ? { ...item, quantity: item.quantity - 1 } : item ));
-    else 
-      setShoppingCart((prev) => prev.filter((item) => item.id !== id));
-  }
-
-  return (
-    <div className="h-80 w-80 flex flex-col items-center bg-white gap-4 shadow-lg shadow-gray-200 rounded-md overflow-hidden transition-all hover:shadow-2xl hover:shadow-amber-200">
-      <img className="h-56 w-screen object-cover" src={image} alt="product-image" />
-      <div id="card-info" className="w-72 flex flex-row gap-4">
-        <h2 className="grow text-gray-800 text-xl">{name}</h2>
-        <div className=" h-16 flex flex-col items-start gap-2">
-          <span className="text-gray-500 text-sm"> {CURRENCY.format(price)} </span>
-          {!currentCart ? (
-            <button onClick={HandleSelectCard} className="w-16 h-8 rounded-md text-gray-200 bg-sky-500 shadow-md shadow-sky-500">
-              Buy
-            </button>
-          ) : (
-            <div className="flex w-20">
-              <button onClick={HandleRevomeCards} className="w-6 h-8 rounded bg-sky-500 text-gray-200 font-bold"> - </button>
-              <span className="grow flex items-center justify-center"> {currentCart.quantity} </span>
-              <button onClick={HandleIncreaseCards} className="w-6 h-8 rounded bg-sky-500 text-gray-200 font-bold"> + </button>
-            </div>
-          )}
-        </div>
-      </div>
-    </div>
-  );
-}
-```
-
-In this component, we use the React hook `useContext()` to call the function `setShoppingCart` stored in the global state `ShoppingCartContext`, we will use this function to add, increase or remove the products of the website that we want to buy, these products are stored in the array `shoppingCart` inside our global context.
-
-This project is a good example of how to use React's global context in your own applications.
+And that's it, now you know how to implement the **Global Context** of React in your own applications, remember to use this hook to store only small amounts of data so it doesn't affect the performance of your application, you can combine this hook with other React hooks like [useReducer](https://react.dev/reference/react/useReducer) to manage your application´s data like an expert.
 
 ## Benefits and Drawbacks of Using Global Context
 
@@ -304,6 +200,7 @@ This project is a good example of how to use React's global context in your own 
 
 ## Conclusion
 
-React´s Global Context allows you to share data across the components of an application without the need to pass the data through props at each level, using global context states you can access information from anywhere in your application regardless of whether the component is a direct child of the one that holds that information or not. It is recommended to use global context to share only small amounts of data because if you store large amounts of data in your global state it can cause performance problems in your application.
+React´s Global Context allows you to share data across the components of an application without the need to pass the data through props at each level, using global context states you can access information from anywhere in your application regardless of whether the component is a direct child of the one that holds that information or not. 
 
 If you want to learn more about React and its features I recommend you to visit the [react exercises tutorial](https://4geeks.com/interactive-exercise/react-js-tutorial-exercises) created by 4Geeks Academy where you will learn much more about React and reinforce your knowledge in this amazing Framework.
+
