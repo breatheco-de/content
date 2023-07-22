@@ -34,7 +34,7 @@ This is a column: <div class="col–sm–x">
 ```
 ![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/3884f515-dd7a-48f2-b238-9e2ec26de02d.png?raw=true)
 
-Bootstrap has divided the width of the screen in `12 slots` – each of them with 8,33% of the total width of the row.  The size of 1 column, can be between 1 and 12 slots.
+Bootstrap has divided the width of the screen in `12 slots` – each of them with 8.33% of the total width of the row.  The size of 1 column, can be between 1 and 12 slots.
 
 On the flip side, columns were made to live within the rows (just like what happens between `<td>` and `<tr>`).   You always need to open a row before opening a column.  All columns in a row must always add up to a maximum of 12 slots.
 
