@@ -5,13 +5,18 @@ React global context is a way to pass and consume data between components in a R
 To initialize a global context in React and share data between components, follow the steps below:
 
 #### 1. Create the Global Context
+
+First, you need to create a global context, for this, use the `createContext()`  method of React and pass as a parameter an initial value `const LanguageContext = createContext("english")`, the initial value can be of any data type, but usually the good practice is to pass a `null` value and after that, you pass as value to the prop `value` the actual data that you want to store globally.
+
 ```jsx
 import { createContext } from "react";
 const NameContext= createContext(InitialValue);
 ```
-First, you need to create a global context, for this, use the `createContext()`  method of React and pass as a parameter an initial value `const LanguageContext = createContext("english")`, the initial value can be of any data type, but usually the good practice is to pass a `null` value and after that, you pass as value to the prop `value` the actual data that you want to store globally.
 
 #### 2. Provide the Global Context
+
+Once the Global context is created, you need to wrap the whole application with this context in the `Provider` property, and as mentioned before you pass a prop called `value` and in this prop, you pass all the data you want to store globally, this value can be of any data type a **boolean**, a **string**, an **array**, an **array of objects**, etc...
+
 ```jsx
 export default function App() {
   const [Theme, setTheme] = useState("light")
@@ -23,9 +28,10 @@ export default function App() {
 }
 ```
 
-Once the Global context is created, you need to wrap the whole application with this context in the `Provider` property, and as mentioned before you pass a prop called `value` and in this prop, you pass all the data you want to store globally, this value can be of any data type a **boolean**, a **string**, an **array**, an **array of objects**, etc...
-
 #### 3. Consume the Global Context
+
+Finally, use the React hook `useContext()` to call the data provided by the global context, you can use the following syntax to do this `const data = useContext(NameContext)`, after calling the data, every time you update or change the data it will be updated globally.
+
 ```jsx
 import { useContext } from "react";
 function HomePage() {
@@ -37,8 +43,6 @@ function HomePage() {
   );
 }
 ```
-
-Finally, use the React hook `useContext()` to call the data provided by the global context, you can use the following syntax to do this `const data = useContext(NameContext)`, after calling the data, every time you update or change the data it will be updated globally.
 
 ## What Does Global Context Mean in React?
 
@@ -61,7 +65,6 @@ In React, [global context](https://legacy.reactjs.org/docs/context.html) provide
 With React's global context, on the other hand, you create a global state context with any kind of data you need and then you can access that data from any component using the `useContext()` hook provided by React, no matter if the component is a direct child of the `App.jsx` or not, you can access the data very easily from anywhere on your application.
 
 ## How to apply the Global Context of React in a Project?
-
 
 You can create a global context in a real project very easily, in the next example, we are going to create a fake project step by step and we will use the **Global Context** of React to save and change the theme color of our application. This project has no functionality other than the button to change the theme color from **light** to **dark** and vise-versa.
 
