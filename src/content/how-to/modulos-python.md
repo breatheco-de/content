@@ -28,7 +28,7 @@ Como puedes ver en el ejemplo, en el modulo `Operaciones_matematicas.py` tenemos
 
 ## ¿Qué son los Módulos en Python? 📕
 
-Los módulos en Python son una de las características más poderosas y versátiles de este lenguaje. Permiten organizar el código en unidades lógicas y reutilizables, facilitando el desarrollo y mantenimiento de programas. Imagínalos como cajas mágicas llenas de herramientas y funcionalidades listas para ser utilizadas en tus programas. Los módulos te permiten organizar y dividir tu código en unidades lógicas, lo que facilita su mantenimiento y reutilización. ¡Son como los superpoderes que llevan tus programas al siguiente nivel! 💫🔧
+Los módulos en Python son una de las características más poderosas y versátiles de este lenguaje. Permiten organizar el código en unidades lógicas reutilizables, facilitando el desarrollo y mantenimiento de programas. Imagínalos como cajas mágicas llenas de herramientas y funcionalidades listas para ser utilizadas en tus programas. Los módulos te permiten organizar y dividir tu código en unidades lógicas, lo que facilita su mantenimiento y reutilización. ¡Son como los superpoderes que llevan tus programas al siguiente nivel! 💫🔧
 
 ## Beneficios de utilizar módulos en Python
 
@@ -96,7 +96,7 @@ print(numero_aleatorio_uno) # output: 9.141696242957385
 print(numero_aleatorio_dos) # output: 7.795423441460806
 ```
 
-La función `random()` no necesita parámetros pero la función `uniform()` si necesita dos parámetros, el primero parámetro es el rango inicial que indica que el número aleatorio que genera no puede ser menor a este valor inicial, el segundo parámetro es el rango final que indica que el número aleatorio no puede ser mayor a este valor final.
+La función `random()` no necesita parámetros pero la función `uniform()` si necesita dos parámetros, el primer parámetro es el rango inicial que indica que el número aleatorio que genera no puede ser menor a este valor inicial, el segundo parámetro es el rango final que indica que el número aleatorio no puede ser mayor a este valor final.
 
 ### 2. Módulo datetime
 
@@ -144,7 +144,7 @@ print(directorio_actual) # output: ['directorio_renombrado', 'main.py', 'Operaci
 
 El módulo `os` tiene diversos métodos que te ayudarán a interactuar con el sistema operativo, puedes crear archivo y directorios nuevos, renombrar directorios existentes, listar los archivos de un directorio en especifico y mucho más. En el ejemplo anterior se muestran solo algunos ejemplos de lo que puedes hacer con este módulo,  este módulo ofrece una amplia variedad de métodos que puedes usar para interactuar con tu sistema operativo.
 
-Existen múltiples módulos que puedes usar a la hora de trabajar con Python, algunos de ellos bienen instalado por defecto como los módulos **os** (Operating System), **re** (Regular Expressions), **datetime**, **random** etc..., pero algunos otros como las librerías **Numpy** o **Pandas** no vienen instalados por defecto, para poder acceder a estos debes instalarlos y luego puedes importarlos con la misma sintaxis `import numpy`, `import pandas`.
+Existen múltiples módulos que puedes usar a la hora de trabajar con Python, algunos de ellos vienen instalados por defecto como los módulos **os** (Operating System), **re** (Regular Expressions), **datetime**, **random**, etc..., pero algunos otros como las librerías **Numpy** o **Pandas** no vienen instalados por defecto, para poder acceder a estos debes instalarlos y luego puedes importarlos con la misma sintaxis `import numpy`, `import pandas`.
 
 ## Creando tus Propios Módulos 
 
