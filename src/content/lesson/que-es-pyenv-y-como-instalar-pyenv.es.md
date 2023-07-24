@@ -4,7 +4,7 @@
 
 ## ¿Para qué se utiliza pyenv?
 
-`Pyenv` tiene múltiples usos, brindandole a los desarrolladores un mayor control sobre los proyectos, entre los cuales destacan:
+`Pyenv` tiene múltiples usos, brindándole a los desarrolladores un mayor control sobre los proyectos, entre los cuales destacan:
 
 - **Gestión de versiones de Python:** Permite instalar, desinstalar y cambiar entre diferentes versiones de Python sin interferir con la instalación de Python que se encuentra en el sistema.
 
@@ -58,15 +58,13 @@ Si quieres saber mas sobre `pyenv` en Windows, puedes visitar su [página oficia
 
 ## Instalación de pyenv en Mac
 
-**Paso 1:** Instalar Git en caso de no tenerlo instalado previamente, lo puedes descargar en la [página oficial](https://git-scm.com/downloads), tambien puedes ver este [tutorial](https://www.youtube.com/watch?v=0elQRkxyQYs) de como instalarlo.
-
-**Paso 2:** Antes de instalar pynev debemos instalar Xcode, ya que `pyenv` requiere algunas herramientas de desarrollo, para ello ejecutamos el siguiente comando:
+**Paso 1:** Antes de instalar pynev debemos instalar Xcode, ya que `pyenv` requiere algunas herramientas de desarrollo, para ello ejecutamos el siguiente comando:
 
 ```bash
 xcode-select --install
 ```
 
-**Paso 3:** Para evitar errores durante la instalación de las versiones de Python, debemos tener instaladas algunas bibliotecas, la cuales podemos instalar con el siguiente comando:
+**Paso 2:** Para evitar errores durante la instalación de las versiones de Python, debemos tener instaladas algunas bibliotecas, la cuales podemos instalar con el siguiente comando:
 
 ```bash
 brew install openssl readline sqlite3 xz zlib
@@ -78,13 +76,13 @@ De no tener Homebrew instalado, puedes ejecutar el siguiente comando en la termi
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-**Paso 4:** Clonar el repositorio de `pyenv` desde Github, ejecutando el siguiente comando en la terminal:
+**Paso 3:** Clonar el repositorio de `pyenv` desde Github, ejecutando el siguiente comando en la terminal:
 
 ```bash
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 ```
 
-**Paso 5:** Configurar las variables de entorno según el intérprete de comandos que estes utilizando (por ejemplo, ~/.bashrc o ~/.zshrc):
+**Paso 4:** Configurar las variables de entorno según el intérprete de comandos que estes utilizando (por ejemplo, ~/.bashrc o ~/.zshrc):
 
 ```bash
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
@@ -98,7 +96,7 @@ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
 echo 'eval "$(pyenv init --path)"' >> ~/.zshrc
 ```
 
-**Paso 6:** Verificar la instalación, primero cierra la terminal actual y abre una nueva, luego ejecuta el siguiente comando para verificar que `pyenv` se ha instalado correctamente:
+**Paso 5:** Verificar la instalación, primero cierra la terminal actual y abre una nueva, luego ejecuta el siguiente comando para verificar que `pyenv` se ha instalado correctamente:
 
 ```bash
 pyenv --version
