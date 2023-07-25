@@ -1,6 +1,13 @@
+---
+title: "How to match letters with Regular Expressions?"
+subtitle: "Learn how to construct regular expressions to match letters in text. Explore Regex to effectively search for letter-based patterns in your data."
+tags: ["regular-expressions"]
+authors: ["DF27ARTS"]
+
+---
 ## How to find Letters with Regex?
 
-Regular expressions ([regex](https://4geeks.com/lesson/regex-tutorial-regular-expression-examples)) are a powerful tool for matching text patterns and finding specific letters or words. In the following example, we will use a regular expression to find all words within a string in two of the most important programming languages Python and Javascript.
+Regular expressions are a powerful tool for matching text patterns and finding specific letters or words. In the following example, we will use a regular expression to find all words within a string in two of the most important programming languages Python and [Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript). You can find a very interesting [RegEx Tutorial](https://4geeks.com/lesson/regex-tutorial-regular-expression-examples) at 4Geeks's Blog.
 
 #### Python code
 
@@ -30,7 +37,7 @@ In these examples, we use the regex pattern `[a-zA-Z]+` to find all words within
 
 There are many ways to search for letters, words, or text patterns with regular expressions. Whether you want to find all the words within a string or search for a word that starts with a capital letter, or you want to search for a specific text structure, you can always use a regex pattern to search for any type of word or letter you might need. 
 
-Here are some examples of regex patterns you can use to search for words or letters.
+Here are some [examples of regex](https://4geeks.com/lesson/regex-tutorial-regular-expression-examples) patterns you can use to search for words or letters.
 
 ### Search for capitalized words within a string
 

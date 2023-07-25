@@ -2,13 +2,13 @@
 title: "¿Cómo añadir una columna a un DataFrame en Python?"
 subtitle: "Aprende a agregar una columna a un DataFrame en Python utilizando Pandas. Descubre diferentes métodos y ejemplos prácticos para ampliar y enriquecer tus datos."
 tags: ["python","pandas"]
-authors: ["danielmoret"]
+authors: ["gilberto-mv"]
 
 ---
 
 Una columna de _DataFrame_ en cuanto a la librería de _Pandas_ en _Python_, se refiere a una serie de valores organizados de manera vertical dentro de un objeto _DataFrame_. Representa una característica o valor único dentro del conjunto de datos a analizar.
 
-> 🔗 Si quieres un [tutorial sobre Pandas python](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning) o conocer más sobre [dataframes en pandas](https://4geeks.com/es/lesson/pandas-dataframe) te invito a leer el Blog de [4Geeks](https://4geeks.com/), donde encontrarás contenido muy interesante
+> 🔗 Si quieres un [tutorial sobre Pandas python](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning) o conocer más sobre [dataframes en pandas](https://4geeks.com/es/lesson/pandas-dataframe) te invito a leer el Blog de [4Geeks](https://4geeks.com/es/how-to), donde encontrarás contenido muy interesante
 
 ```py
 # Es necesario importar la librería de Pandas
@@ -32,10 +32,9 @@ print(df)
 #1     Apple       1976             True
 #2    Google       1998             True
 #3   Neftlix       1997             True
-
 ```
 
-El código anterior crea un conjunto de datos base, al cual posteriormente se le realiza la adición de la columna ```cotiza_en_bolsa``` junto con sus valores. Al imprimir el código, se puede apreciar como el conjunto de datos cuenta con la columna adicional.
+El código anterior crea un conjunto de datos base, al cual posteriormente se le realiza la adición de la columna `cotiza_en_bolsa` junto con sus valores. Al imprimir el código, se puede apreciar como el conjunto de datos cuenta con la columna adicional.
 
 Este articulo profundiza en las maneras de añadir columnas _DataFrame_ en Python. Si quieres más información de cómo utilizar Pandas en otras aplicaciones, puedes ver nuestro [tutorial de Python Pandas]( https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning).
 
@@ -155,5 +154,3 @@ print(df2)
 Se utiliza el método `assign()` ya que se especifica que no se desea modificar el _DataFrame_ actual. Por medio de esta asignación se puede generar una nueva columna que incluya información sobre la severidad del error.
 
 Agregar columnas en los _DataFrame_ es muy importante ya que nos permite realizar modificaciones sobre conjuntos de datos ya existentes, y así poder llevar registro de información adicional a la que incluye el conjunto original.
-
-
