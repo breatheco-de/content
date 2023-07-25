@@ -81,7 +81,7 @@ Estos números no son pequeños, 60% en un día y 90% si no practicas en una sem
 
 Asegúrate de entender bien cómo funciona la academia:
 
-1. **Plataforma:** 4Geeks.com, el Programa (aprende a seguirlo), GeekPal, GeekForce, las lecciones, ejercicios, proyectos y recursos.
+1. **La plataforma:** 4Geeks.com, el Programa (aprende a seguirlo), GeekPal, GeekForce, las lecciones, ejercicios, proyectos y recursos.
 2. **Las personas:** ¡Somos más de 1.000 personas! Líderes, mentores, los [egresados y los estudiantes](http://sep.4geeksacademy.com/), están aquí para ayudarte y no nos iremos a ningún lado. Haz networking, amigos ¡Aprovecha!
 3. **La comunidad:** Las comunidades no solo dan, no solo trabajan preparando eventos, apoya a otros estudiantes, da primero y recibirás después. Slack, GeekTalks, Workshops, Grupos de Estudio.
 
