@@ -130,7 +130,7 @@ Remember, Bootstrap is just a stylesheet.  That’s why it is very simple to inc
 
 The Bootstrap JavaScript functionality requires the Popper JavaScript library to be included first.  You don’t need to know the details about this yet.  Just include the JS libraries using the script tag and later you will understand.
 
-> 🔗 Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+> 🔗 Here you can find the [Bootstrap documentation to get you started.](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 
 ## Bootstrap 5 Components
 
