@@ -151,7 +151,7 @@ This is so popular that it’s in the menu of 99% of all websites.  It normally 
 
 Here is an example of how a NavBar may look on a website:
 
-![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/6351de1c-6d90-4502-8823-4b751981db9f.png?raw=true)
+![bootstrap 5 navbar](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/6351de1c-6d90-4502-8823-4b751981db9f.png?raw=true)
 
 > 🔗 [**Read more about the NavBar here**](https://getbootstrap.com/docs/5.2/components/navbar/)
 
