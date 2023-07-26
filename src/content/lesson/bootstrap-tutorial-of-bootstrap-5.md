@@ -11,7 +11,7 @@ status: "published"
 
 ## Bootstrap fixed all CSS major problems
 
-There is light at the end of the tunnel and it is NOT Chuck Norris holding a flashlight.  Finally, someone fixed CSS.  This is a library made by [Mark Otto](https://twitter.com/mdo?lang=en) and [Jacob Thornton](https://twitter.com/fat) – normal people – developers like you and me, and they did great!
+There is light at the end of the tunnel, and it is NOT Chuck Norris holding a flashlight.  Finally, someone fixed CSS.  This is a library made by [Mark Otto](https://twitter.com/mdo?lang=en) and [Jacob Thornton](https://twitter.com/fat) – normal people – developers like you and me, and they did great!
 
 These two guys working on Twitter were suffering the same problems we have been dealing with in HTML and CSS.  Fed up with the situation, they decided to build a **base CSS Sheet designed to be imported into any website**.  It makes every front-end development work 4x’s easier.
 
@@ -34,7 +34,7 @@ This is a column: <div class="col–sm–x">
 ```
 ![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/3884f515-dd7a-48f2-b238-9e2ec26de02d.png?raw=true)
 
-Bootstrap has divided the width of the screen in `12 slots` – each of them with 8,33% of the total width of the row.  The size of 1 column, can be between 1 and 12 slots.
+Bootstrap has divided the width of the screen in `12 slots` – each of them with 8.33% of the total width of the row.  The size of 1 column, can be between 1 and 12 slots.
 
 On the flip side, columns were made to live within the rows (just like what happens between `<td>` and `<tr>`).   You always need to open a row before opening a column.  All columns in a row must always add up to a maximum of 12 slots.
 
@@ -73,7 +73,7 @@ Bootstrap device sizes:
 
 We are going to set the layout (using the sm, md and lg column classes) for  two rows in all the devices at the same time:
 
-![bootstrap 5](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/e15c594c-9b46-4c27-bf5a-a5bbb5ef952a.png?raw=true)
+![bootstrap 5 columns example](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/e15c594c-9b46-4c27-bf5a-a5bbb5ef952a.png?raw=true)
 
 ```html
 <!-- Stack the columns on mobile by making one full-width and the other half-width --> 
@@ -126,9 +126,9 @@ We already know the basic HTML5 skeleton that any website needs to have.  Now yo
 </html>
 ```
 
-Remember, Bootstrap is just a stylesheet.  That’s why it is very simple to include in your website.  You use the `<link>` tag to include the styles, and, optionally, use the javascript `<script>` tag to include the Bootstrap Javascript files.
+Remember, Bootstrap is just a stylesheet.  That’s why it is very simple to include in your website.  You use the `<link>` tag to include the styles, and, optionally, use the JavaScript `<script>` tag to include the Bootstrap JavaScript files.
 
-The Bootstrap Javascript functionality requires the Popper Javascript library to be included first.  You don’t need to know the details about this yet.  Just include the JS libraries using the script tag and later you will understand.
+The Bootstrap JavaScript functionality requires the Popper JavaScript library to be included first.  You don’t need to know the details about this yet.  Just include the JS libraries using the script tag and later you will understand.
 
 > 🔗 Here you can find some [great Bootstrap files to get you started.](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 
@@ -140,7 +140,7 @@ Every developer has to fake these additional elements every time they create a n
 
 When you import Bootstrap into your website, you will have a new set of components at your disposal.  This is just a small part of those elements:
 
-![bootstrap 5](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/8e9ff37a-28f7-4179-8f5d-9278ff7efd55.png?raw=true)
+![bootstrap 5 components](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/8e9ff37a-28f7-4179-8f5d-9278ff7efd55.png?raw=true)
 
 
 ### These are the most Important and Used Components in this Bootstrap tutorial:
@@ -198,11 +198,11 @@ This is probably the most used Bootstrap component, every website has a few card
 
 + The "team" section of a website, where you list the different employees.
 + The typical Pinterest wall.
-+ The feed in any social media like Instagram, Facebook, twitter, etc.
++ The feed in any social media like Instagram, Facebook, Twitter, etc.
 
 Here is an example of how a "The Card" may look on a website:
 
-![bootstrap 5](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png?raw=true)
+![bootstrap 5 card](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png?raw=true)
 
 > 🔗 [**Read more about the card here**](https://getbootstrap.com/docs/5.2/components/card/)
 
@@ -220,14 +220,13 @@ Here is an example of how a "The Card" may look on a website:
 ```
 
 
-
 #### The Modal
 
 Everyone hates a modal, it is super annoying, always asking you to subscribe to a newsletter! 🙂
 
-Here is how a modal look by default on Bootstrap.
+Here is how a modal looks by default on Bootstrap.
 
-![bootstrap 5](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/6bcba673-a543-4bf1-a80b-083914b91bef.png?raw=true)
+![bootstrap 5 modal](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/6bcba673-a543-4bf1-a80b-083914b91bef.png?raw=true)
 
 >  🔗 [**Read more about modal here**](https://getbootstrap.com/docs/5.2/components/modal/)
 
@@ -252,7 +251,7 @@ Here is how a modal look by default on Bootstrap.
 ```
 
 
-> ☝️ Important! The Modal needs Javascript in order to work. Remember to include the three Javascript files that are needed in a typical Bootstrap Skeleton: JS, Popper and Bootstrap.js
+> ☝️ Important! The Modal needs JavaScript in order to work. Remember to include the three JavaScript files that are needed in a typical Bootstrap Skeleton: JS, Popper and Bootstrap.js
 
 ## What you really need to know about Bootstrap
 
@@ -270,4 +269,4 @@ Bootstrap has many versions, always check if you are using the latest version of
 
 We recommend using a CDN to import bootstrap in your HTML like this one: [https://www.bootstrapcdn.com/](https://www.bootstrapcdn.com/)
 
-If you are migrating your project to a newer Bootstrap version remember to check its documentation.
+If you are migrating your project to a newer Bootstrap version, remember to check its documentation.
