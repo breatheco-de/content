@@ -58,42 +58,48 @@ Si quieres saber mas sobre `pyenv` en Windows, puedes visitar su [página oficia
 
 ## Instalación de pyenv en Mac
 
-**Paso 1:** Antes de instalar pynev debemos instalar Xcode, ya que `pyenv` requiere algunas herramientas de desarrollo, para ello ejecutamos el siguiente comando:
+**Paso 1:** Instalar Xcode, abrimos la terminal y ejecutamos el siguiente comando:
 
 ```bash
 xcode-select --install
 ```
 
-**Paso 2:** Para evitar errores durante la instalación de las versiones de Python, debemos tener instaladas algunas bibliotecas, la cuales podemos instalar con el siguiente comando:
+de tenerlo instalado previamente, aparecerá un mensaje como este:
 
 ```bash
-brew install openssl readline sqlite3 xz zlib
+xcode-select: error: command line tools are already installed, use "Software Update" to install updates
 ```
 
-De no tener Homebrew instalado, puedes ejecutar el siguiente comando en la terminal para instalarlo:
+**Paso 2:** : Instalar homebrew, primeramente podemos verificar que no lo tengamos instalado, ejecutando el siguiente comando:
+
+```bash
+brew --version
+```
+
+de no tenerlo instalado, aparecerá un mensaje como este:
+
+```bash
+-bash: brew: command not found
+
+```
+
+para instalarlo, ejecutamos el siguiente comando:
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-**Paso 3:** Clonar el repositorio de `pyenv` desde Github, ejecutando el siguiente comando en la terminal:
+**Paso 3:** Para evitar errores durante la instalación de las versiones de Python, debemos tener instaladas algunas bibliotecas, la cuales podemos instalar con el siguiente comando:
 
 ```bash
-git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+brew install openssl readline sqlite3 xz zlib
 ```
 
-**Paso 4:** Configurar las variables de entorno según el intérprete de comandos que estes utilizando (por ejemplo, ~/.bashrc o ~/.zshrc):
+**Paso 4:** Instalar `pyenv`, ejecuta el siguiente comando:
 
 ```bash
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-echo 'eval "$(pyenv init --path)"' >> ~/.bashrc
-```
+brew install pyenv
 
-```zsh
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
-echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
-echo 'eval "$(pyenv init --path)"' >> ~/.zshrc
 ```
 
 **Paso 5:** Verificar la instalación, primero cierra la terminal actual y abre una nueva, luego ejecuta el siguiente comando para verificar que `pyenv` se ha instalado correctamente:
@@ -105,7 +111,7 @@ pyenv --version
 debería aparecer algo como esto en tu terminal:
 
 ```bash
-pyenv 3.1.1
+pyenv 2.3.23
 ```
 
 Si quieres saber más sobre `pyenv` en Mac, puedes visitar su [página oficial](https://github.com/pyenv/pyenv)
