@@ -260,8 +260,6 @@ Así es como se ve un modal por defecto en Bootstrap.
 + [Lista de componentes disponibles para usar en tu sitio web.](https://getbootstrap.com/docs/5.2/components/accordion/)
 + [Utilidades o clases auxiliares:](https://getbootstrap.com/docs/5.2/utilities/borders/) Clases muy útiles y de uso constante para hacer cosas como centrar el texto, centrar una columna o contenedor, agregar un fondo, etc.
 
-> ☝️ Versiones de Bootstrap y descarga
-
 Bootstrap tiene muchas versiones, siempre verifica si estás utilizando la última versión de Bootstrap en tu proyecto, aquí puedes encontrar todas las versiones disponibles: [https://getbootstrap.com/docs/versions/](https://getbootstrap.com/docs/versions/).
 
 
