@@ -40,7 +40,7 @@ Por otro lado, las columnas fueron hechas para vivir dentro de las filas (como p
 
 ![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/1b7f5dc4-029a-475d-8bfd-fac1b739966c.png?raw=true)
 
-## Nuestro primer ejemplo de diseño:
+## Nuestro primer ejemplo de diseño
 
 Tal cual como lo hicimos en el capítulo sobre diseños, vamos a crear una página con dos grandes secciones, una barra lateral a la derecha y un contenido principal a la izquierda:
 
