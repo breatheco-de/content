@@ -95,7 +95,7 @@ Ahora digamos que queremos que este componente devuelva una **Bootstrap card:** 
 
 ![learn react js tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/73edbb82-467c-4522-af7d-79c33bb270e2.png?raw=true)
 
-Así es como lo hacemos en una app React
+Así es como lo hacemos en una app React:
 
 ```jsx 
 import React from 'react';
