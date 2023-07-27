@@ -89,7 +89,7 @@ para instalarlo, ejecutamos el siguiente comando:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-**Paso 3:** Para evitar errores durante la instalación de las versiones de Python, debemos tener instaladas algunas bibliotecas, la cuales podemos instalar con el siguiente comando:
+**Paso 3:** Para evitar errores durante la instalación de las versiones de Python, debemos tener instaladas algunas bibliotecas, las cuales podemos instalar con el siguiente comando:
 
 ```bash
 brew install openssl readline sqlite3 xz zlib
