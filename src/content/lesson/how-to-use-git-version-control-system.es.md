@@ -110,7 +110,7 @@ Para crear un commit, tendrás que hacer dos cosas:
 
 + **Llama a `git commit` para crear el objeto de confirmación.** El nuevo commit object tendrá el HEAD actual como su principal (después de que se complete el commit, el HEAD apuntará al nuevo commit object).
   
-Digamos que creas tres confirmaciones de esta manera... tu repositorio se verá así:
+Digamos que creas tres confirmaciones, de esta manera tu repositorio se verá así:
 
 ![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png?raw=true)
 
