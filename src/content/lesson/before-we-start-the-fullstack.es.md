@@ -46,7 +46,7 @@ El próximo material asume que tiene un buen nivel de comprensión de los siguie
 
 - ¿Qué es una condición? Una condición utiliza operaciones lógicas para bloquear u omitir líneas de código. `if(age>16) console.log("You can drive")`.
 - ¿Cómo puedo guardar múltiples valores en una variable? Utiliza un array u objeto. Por ejemplo: `let ages = [2,23,45,67]`.
-- ¿Cómo puedo hacer un bucle en un array? La forma más común es usar el bucle `for` de esta manera: `for(let i=0; i<ages.length;i++) console.log("Age: "+i);`. Este código imprimirá en el inspector de desarrolladores todas las edades dentro del array `edades`.
+- ¿Cómo puedo hacer un bucle en un array? La forma más común es usar el bucle `for` de esta manera: `for(let i=0; i<ages.length;i++) console.log("Age: "+i);`. Este código imprimirá en el inspector de desarrolladores todas las edades dentro del array `ages`.
 
 ## Cosas que debes saber sobre Javascript
 
