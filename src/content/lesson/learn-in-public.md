@@ -42,7 +42,7 @@ When you learn in public you: create in social media, you write in notebooks and
 
 ## Most common procrastination thoughts:
 
-### I don't have anything to say in social media.
+### I don't have anything to say on social media.
 
 I really doubt that, learning to code is hard and people read a lot about it and they need emotional support, just like with your testimonial you are helping a lot of people who will be interested in learning more about your story.
 
