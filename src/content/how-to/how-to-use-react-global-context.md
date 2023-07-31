@@ -214,4 +214,3 @@ And that's it, now you know how to implement the **Global Context** of React in 
 React's Global Context allows you to share data across the components of an application without the need to pass the data through props at each level, using global context states you can access information from anywhere in your application regardless of whether the component is a direct child of the one that holds that information or not. 
 
 If you want to learn more about React and its features I recommend you to visit the [react exercises tutorial](https://4geeks.com/interactive-exercise/react-js-tutorial-exercises) created by 4Geeks where you will learn much more about React and reinforce your knowledge in this amazing Framework.
-
