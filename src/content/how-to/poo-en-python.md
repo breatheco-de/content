@@ -1,7 +1,7 @@
 
 ## Introducción a la Programación Orientada a Objetos en Python 
 
-¡Hola, futuro maestro del código! En esta lectura, exploraremos el fascinante mundo de la Programación Orientada a Objetos (POO). Descubrirás qué es la POO y cómo esta poderosa técnica te permite crear programas más organizados, reutilizables y fáciles de mantener. ¡Prepárate para convertirte en un mago de la programación!  💫
+¡Hola, futuro maestro del código! En esta lectura, exploraremos el fascinante mundo de la Programación Orientada a Objetos (POO). Descubrirás qué es la POO y cómo esta poderosa técnica te permite crear programas más organizados, reutilizables y fáciles de mantener.
 
 A continuación veremos un pequeño ejemplo sobre cómo representar una persona con una clase de Python.
 
@@ -20,11 +20,11 @@ persona = Persona("Thomas", "Smith", 27)
 print(persona.mensaje_presentacion()) # output: !Hola¡, me llamo Thomas Smith y tengo 27 años de edad
 ```
 
-En este ejemplo vemos cómo representar una persona haciendo de este estilo de la programación orientada a objetos (POO), para representar un objeto del mundo real en una clase, primeros debes crear una clase con el nombre de ese objeto, luego dentro de la clase creas la función `__init__()` y dentro de esta función crearás las propiedades de tu objeto como por ejemplo el nombre, la edad, el peso etc..., también puedes crear funciones (métodos) para tu manipular las propiedades de objeto.
+En este ejemplo vemos cómo representar una persona haciendo uso de este estilo de la programación orientada a objetos (POO), para representar un objeto del mundo real en una clase, primeros debes crear una clase con el nombre de ese objeto, luego dentro de la clase creas la función `__init__()` y dentro de esta función crearás las propiedades de tu objeto como por ejemplo el nombre, la edad, el peso etc..., también puedes crear funciones (métodos) para tu manipular las propiedades del objeto.
 
 ## ¿Qué es la Programación Orientada a Objetos (POO)?  
 
-La Programación Orientada a Objetos (POO) es un enfoque de programación que se basa en la idea de "objetos". En lugar de escribir líneas de código secuencial, en la POO creamos objetos que representan entidades del mundo real o conceptos abstractos. Estos objetos contienen tanto datos (atributos) como funciones (métodos) que actúan sobre esos datos. 🏰🔧 
+La Programación Orientada a Objetos (POO) es un enfoque de programación que se basa en la idea de "objetos". En lugar de escribir líneas de código secuencial, en la POO creamos objetos que representan entidades del mundo real o conceptos abstractos. Estos objetos contienen tanto datos (atributos), como funciones (métodos) que actúan sobre esos datos. 🏰🔧 
 
 La programación orientada a objetos (POO) se basa en cuatro principios fundamentales.
 
@@ -88,41 +88,17 @@ HP: {
 }
 ```
 
-Como vemos en este ejemplo, puedes representar dos computadores diferentes haciendo uso de el mismo objeto/clase, cada vez que creas una nueva instancia de esa clase, el método `obtener_informacion()` retornará los valores de esa instancia de clase, así nos evitamos la necesidad de repetir código innecesario para representar diferentes objetos, esto es muy útil cuando necesitas representar muchos elementos como por ejemplo en un Ecommerce.
+Como vemos en este ejemplo, puedes representar dos computadores diferentes haciendo uso del mismo objeto/clase, cada vez que creas una nueva instancia de esa clase, el método `obtener_informacion()` retornará los valores de esa instancia de la clase, así nos evitamos la necesidad de repetir código innecesario para representar diferentes objetos, esto es muy útil cuando necesitas representar muchos elementos como por ejemplo en un Ecommerce.
 
 ## Principios de la Programacion Orientada a Objetos
 
 Como mencionamos anteriormente, la programación orientada a objetos (POO) se basa en cuatro conceptos fundamentales, a continuación veremos cada una de ellos con más detalle y ejemplos de código que te ayudarán a entenderlos mejor. 
 
-### 1. Abstracción 
+### Abstracción 
 
-La abstracción es un concepto muy importante en (POO) que permite representar objetos del mundo real en un programa mediante  el uso de clases y objetos, puedes entender la **abstracción** como una plantilla básica que puedes usar para representar un tipo de objeto en particular como una persona, un electrodoméstico o un animal, luego puedes crear otras clases basadas en estas para representar objetos más específicos como un programador, una tostadora, una Jirafa etc...
+La abstracción es un concepto muy importante en (POO) que permite representar objetos del mundo real en un programa mediante el uso de clases y objetos, básicamente la **abstracción** permite representar un tipo de objeto en particular real o abstracto como una persona, un electrodoméstico o un animal, para ser utilizado en un programa.
 
-Ejemplo:
-
-```py
-class Electrodomestico:
-    def __init__(self, nombre, marca):
-        self.nombre = nombre
-        self.marca = marca
-
-class Tostadora(Electrodomestico):
-    def __init__(self, nombre, marca, precio):
-        super().__init__(nombre, marca)
-        self.precio = precio
-
-class Horno(Electrodomestico):
-    def __init__(self, nombre, marca, descuento):
-        super().__init__(nombre, marca)
-        self.descuento = descuento
-
-tostadora = Tostadora("Tostadora", "Kalley", 107_900)
-horno = Horno("Horno", "Oster", True)
-```
-
-En este ejemplo, la clase base `Electrodomestico` representa un tipo de objeto más ampliamente común un electrodoméstico, podemos decir que esta es una clase abstracta, luego podemos crear clases basadas en esta clase abstracta para representar un objeto mas especifico, en nuestro ejemplo una tostadora y un horno que son electrodomésticos pero tiene caracteristicas mas especificas.
-
-### 2.  Herencia
+### Herencia
 
 La herencia de objetos/clases en la programación orientada a objetos es un concepto fundamental, te permite crear una nueva clase basada en una clase ya existente. La clase ya existente se conoce como clase base o superclase, y la clase creada se conoce como clase derivada o subclase.
 
@@ -155,7 +131,7 @@ En este ejemplo, la clase  `Persona` te permite representar a una persona con su
 
 ### 3. Encapsulación
 
-La **encapsulación** también en un concepto muy importante en (POO), es una forma de ocultar la implementación interna de una clase permitiendo que solo alguno atributos y métodos específicos sean directamente accesible. puedes entender la encapsulación como la capacidad de una clase de permitir el accesor a sus atributos declarándolos como públicos o privados. En Python se utilizan convenciones de nomenclatura para indicar la visibilidad de sus miembros, si un atributo o método tiene un nombre que comienza con dos guiones bajos (`__`) se considera fuertemente privado.
+La **encapsulación** también en un concepto muy importante en (POO), es una forma de ocultar la implementación interna de una clase permitiendo que solo alguno atributos y métodos específicos sean directamente accesible. puedes entender la encapsulación como la capacidad de una clase de permitir el acceso a sus atributos declarándolos como públicos o privados. En Python se utilizan convenciones de nomenclatura para indicar la visibilidad de sus miembros, si un atributo o método tiene un nombre que comienza con dos guiones bajos (`__`) se considera fuertemente privado.
 
 Ejemplo:
 
@@ -239,6 +215,4 @@ La POO ofrece numerosas ventajas que hacen que la programación sea más eficien
 
 La Programación Orientada a Objetos (POO) es una técnica fundamental que te permite crear programas más organizados, reutilizables y fáciles de mantener. Ahora que tienes una comprensión básica de la POO, ¡puedes comenzar a crear tus propias clases y objetos para darle vida a tus proyectos!
 
-Si tienes alguna pregunta o necesitas más información, no dudes en preguntar. ¡Estoy aquí para ayudarte! 😊💻
-
-¡Happy coding!  ✨👨‍💻
+Code will set you free ✨👨‍💻
