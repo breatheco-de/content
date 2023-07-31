@@ -1,6 +1,6 @@
-# _Pyenv_ Virtual environment
+# Pyenv Virtual environment
 
-## ¿Que es _Pyenv_?
+## ¿Que es Pyenv?
 
 _Pyenv_ es una herramienta popular en el ecosistema de desarrollo de Python. Su principal utilidad es la de ayudar a los desarrolladores a manejar múltiples versiones de Python en sus equipos de trabajo, y facilitan la capacidad de cambiar entre versiones. Esto es de mucha utilidad en situaciones que requieren trabajar en diferentes proyectos que difieran en sus versiones de Python. De igual manera es de mucha utilidad cuando se quieren realizar pruebas de código en las diferentes versiones de Python.
 
