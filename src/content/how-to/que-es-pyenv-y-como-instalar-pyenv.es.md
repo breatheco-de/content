@@ -2,13 +2,13 @@
 title: "¿Qué es pyenv y cómo instalarlo?"
 subtitle: "Descubre qué es pyenv y cómo instalar esta poderosa herramienta para gestionar versiones de Python en tu sistema. Facilita el desarrollo de proyectos."
 tags: ["python"]
-authors: ["javierseiglie"]
+authors: ["danielmoret"]
 
 ---
 
 ## ¿Qué es pyenv?
 
-`Pyenv` es una herramienta que nos brinda la posibilidad de administrar distintas versiones de [Python](https://4geeks.com/technology/python) en nuestra computadora, permitiendo intercambiar de manera sencilla entre sus distintas versiones, según sean los requerimientos del entorno en el que estemos desarrollando.
+`Pyenv` es una herramienta que nos brinda la posibilidad de administrar distintas versiones de [Python](https://4geeks.com/es/technology/python) en nuestra computadora, permitiendo intercambiar de manera sencilla entre sus distintas versiones, según sean los requerimientos del entorno en el que estemos desarrollando.
 
 ## ¿Para qué se utiliza pyenv?
 
@@ -169,5 +169,5 @@ pyenv 3.1.1
 
 Si quieres saber mas sobre `pyenv` en Linux, puedes visitar su [página oficial de pyenv](https://github.com/pyenv/pyenv)
 
-Herramientas como `pyenv` son muy útiles en el mundo del desarrollo, ya que al permitirnos gestionar las versiones de Python que tenemos instaladas en nuestra computadora, podemos trabajar en diferentes proyectos sin preocuparnos por las versiones de Python que estos requieren, debido a la facilidad que nos brinda de instalar e intercambiar entre sus versiones de manera sencilla. Incorporar esta herramienta a tu flujo de trabajo te hará más productivo, evitarás errores de compatibilidad, haciendo que tu desarrollo sea más fluido. Te invitamos a leer el Blog de [4Geeks](https://4geeks.com/) para más contenido interesante.
+Herramientas como `pyenv` son muy útiles en el mundo del desarrollo, ya que al permitirnos gestionar las versiones de Python que tenemos instaladas en nuestra computadora, podemos trabajar en diferentes proyectos sin preocuparnos por las versiones de Python que estos requieren, debido a la facilidad que nos brinda de instalar e intercambiar entre sus versiones de manera sencilla. Incorporar esta herramienta a tu flujo de trabajo te hará más productivo, evitarás errores de compatibilidad, haciendo que tu desarrollo sea más fluido. Te invitamos a leer el Blog de [4Geeks](https://4geeks.com/es/how-to) para más contenido interesante.
 
