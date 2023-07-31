@@ -2,7 +2,7 @@
 title: "Módulos en Python: Organizando y Reutilizando Código como un Experto"
 subtitle: "Aprende sobre los módulos en Python y cómo aprovecharlos para organizar y reutilizar tu código de manera eficiente. ¡Mejora tus habilidades de programación!"
 tags: ["python"]
-authors: ["javierseiglie"]
+authors: ["DF27ARTS"]
 
 ---
 
@@ -210,4 +210,4 @@ En este ejemplo, creamos una función que realiza operaciones matematicas en el 
 
 Los módulos son una herramienta poderosa para ampliar las capacidades de tus programas Python. Ahora que conoces los conceptos básicos y cómo utilizar los módulos existentes, puedes explorar más y crear tus propios módulos personalizados. ¡El mundo de la programación está lleno de posibilidades infinitas!
 
-¡Happy coding! ✨👨‍💻
+Code will set you free ✨👨‍💻
