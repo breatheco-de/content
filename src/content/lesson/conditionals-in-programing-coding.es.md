@@ -38,7 +38,7 @@ else {
 }
 ```
 
-## Todo se trata sobre: ¿Qué preguntas hacer?
+## Todo se trata sobre ¿Qué preguntas hacer?
 
 El ejemplo anterior era una condición simple, pero en la vida real elegir qué ponerse implica una combinación de varias condiciones para tomar la decisión final, por ejemplo: veamos este algoritmo que indica si tienes gripe.
 
