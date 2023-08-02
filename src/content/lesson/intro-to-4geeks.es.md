@@ -10,7 +10,7 @@ canonical: ""
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 ---
 
-¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro, estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor lean hasta el final, ¡trataré de no aburrirlos!
+¡¡Bienvenidos/as!! 🤩👏 Mi nombre es Alejandro, estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor lean hasta el final, ¡trataré de no aburrirlos!
 
 ## Lo que ya sabes
 
@@ -20,30 +20,30 @@ Estás aquí para aprender a desarrollar tus habilidades para programar hasta un
 
 También estás aquí porque necesitas ayuda, no solo técnica sino también espiritual. Digo esto de la manera más pragmática posible.
 
-> La mayor pared que deberás derrumbar para convertirte en un desarrollador no está en el programa ni en el contenido, sino en tu mente.
+> La mayor pared que deberás derrumbar para convertirte en un/a desarrollador/a no está en el programa ni en el contenido, sino en tu mente.
 
-Vamos a cambiar la forma en que te has acostumbrado a aprender, la forma en que ves la vida, la manera en que te vendes (por lo tanto, la manera en que te ves), estamos derribando las viejas ideas equivocadas sobre ti mism@, los demás y sobre tu vida profesional.
+Vamos a cambiar la forma en que te has acostumbrado a aprender, la forma en que ves la vida, la manera en que te vendes (por lo tanto, la manera en que te ves), estamos derribando las viejas ideas equivocadas sobre ti mismo/a, los demás y sobre tu vida profesional.
 
 ### Estamos aquí para derribar 💻 3 Paredes Respecto al Código
 
-Durante los años que han pasado hemos identificado razones específicas por la cuales los estudiantes se frustran y dejan de intentar ser desarrolladores o no completan el curso y no consiguen trabajo.
+Durante los años que han pasado hemos identificado razones específicas por las cuales los/as estudiantes se frustran y dejan de intentar ser desarrolladores o no completan el curso y no consiguen trabajo.
 
 #### Pared #1: Autoestima ❓ (Síndrome del impostor)
 
 ![Síndrome del Impostor](https://github.com/breatheco-de/content/blob/master/src/assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png?raw=true)
 
-En algún momento de nuestras vidas (en algunos más que otros) podemos haber pensado que no somos la persona más lista de una sala. Si continuamos pensando eso durante mucho tiempo y no nos sentimos cómodos con ninguna disciplina, incluso podemos llegar a pensar que no somos inteligentes ¡Mentira! ¡Nada que ver! Eres parte de esta academia, no aceptamos personas que no creemos que sean lo suficientemente inteligentes como para ganarse la vida como desarrolladores. ¡Tienes que creer eso, especialmente en tiempos difíciles!
+En algún momento de nuestras vidas (en algunos más que otros) podemos haber pensado que no somos la persona más lista de una sala. Si continuamos pensando eso durante mucho tiempo y no nos sentimos cómodos con ninguna disciplina, incluso podemos llegar a pensar que no somos inteligentes ¡Mentira! ¡Nada que ver! Eres parte de esta academia, no aceptamos personas que no creemos que sean lo suficientemente inteligentes como para ganarse la vida como desarrolladores/as. ¡Tienes que creer eso, especialmente en tiempos difíciles!
 
 > Si algún ejercicio o proyecto en particular te parece difícil, en vez de pensar que no sirves para esto, busca nuevas maneras de absorber el contenido. Habla con un mentor y te daremos exactamente lo que necesitas.
 
-Cualquier persona en general puede aprender a programar, la programación se vuelve más complicada cuando te especializas más en tu carrera (Inteligencia Artificial, Robótica, etc.) Puedes ganar una buena cantidad de dinero sin tener que haber estudiado matemáticas, sin ser bueno con los números o sin aprender tan rápido como otros (es posible que podamos arreglar eso, por cierto). 
+Cualquier persona en general puede aprender a programar, la programación se vuelve más complicada cuando te especializas más en tu carrera (Inteligencia Artificial, Robótica, etc.) Puedes ganar una buena cantidad de dinero sin tener que haber estudiado matemáticas, sin ser bueno/a con los números o sin aprender tan rápido como los demás (es posible que podamos arreglar eso, por cierto). 
 
 
 ##### 📝 Receta para no perder la confianza en ti
 
-1. **Evita estar atascado durante mucho tiempo:** Programar puede complicarse porque puedes estar a punto de resolver el problema y quedarte atascado sin ver la respuesta. Quizás no sepas como empezar a resolver un problema y una conversación de 5 minutos con un mentor te aclarará la mente.
+1. **Evita estar atascado/a durante mucho tiempo:** Programar puede complicarse porque puedes estar a punto de resolver el problema y quedarte atascado sin ver la respuesta. Quizás no sepas como empezar a resolver un problema y una conversación de 5 minutos con un mentor te aclarará la mente.
 
-2. **Habla con otros estudiantes:** Puede que pienses que eres el único que no entiende, pero si hablas con otros compañeros verás que no eres solo tú y te dará confianza para hacer preguntas.
+2. **Habla con otros/as estudiantes:** Puede que pienses que eres la única persona que no entiende, pero si hablas con otros/as compañeros/as verás que no eres solo tú y te dará confianza para hacer preguntas.
 
 3. **Habla con los mentores:** Una voz con experiencia siempre es buena, hay egresados y profesores que ya han pasado por momentos difíciles o que están con dificultades ¡en este mismo momento! Pueden ayudarte durante los tiempos oscuros, no solo estamos hablando de brindarte soluciones de programación, sino de brindarte estrategias para tener éxito en tu vida (¿como desarrollador?).
 
@@ -59,7 +59,7 @@ Sabemos cómo enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseña
 
 2. **Pregunta ¿Por qué?** Podemos enseñarte y decir mucho, pero necesitamos que hagas preguntas cuando empieces a dudar de nuestros métodos. Todo lo que hacemos es por una razón y estoy seguro de que podremos explicarte el "por qué".
 
-3. **Sé humilde:** Hay muchos estudiantes que han completado el curso con éxito siguiendo el método. Algunos trabajan en Google, Amazon u otra gran empresa a nivel mundial. Por favor sé humilde e intenta seguir el curso como es. Puedes hablar con nosotros si tienes alguna idea sobre alguna mejora; también tenemos la humildad para ser abiertos e intentar algo nuevo que podría funcionar.
+3. **Sé humilde:** Hay muchos/as estudiantes que han completado el curso con éxito siguiendo el método. Algunos trabajan en Google, Amazon u otra gran empresa a nivel mundial. Por favor sé humilde e intenta seguir el curso como es. Puedes hablar con nosotros si tienes alguna idea sobre alguna mejora; también tenemos la humildad para ser abiertos e intentar algo nuevo que podría funcionar.
 
 #### Pared #3: Inactividad 😴 
 
@@ -82,7 +82,7 @@ Estos números no son pequeños, 60% en un día y 90% si no practicas en una sem
 Asegúrate de entender bien cómo funciona la academia:
 
 1. **La plataforma:** 4Geeks.com, el Programa (aprende a seguirlo), GeekPal, GeekForce, las lecciones, ejercicios, proyectos y recursos.
-2. **Las personas:** ¡Somos más de 5.000 personas! Líderes, mentores, los egresados y los estudiantes, están aquí para ayudarte y no nos iremos a ningún lado. Haz networking, amigos ¡Aprovecha!
+2. **Las personas:** ¡Somos más de 5.000 personas! Líderes, mentores/as, los/as egresados y los/as estudiantes, están aquí para ayudarte y no nos iremos a ningún lado. Haz networking, amigos ¡Aprovecha!
 3. **La comunidad:** Las comunidades no solo dan, no solo trabajan preparando eventos, apoya a otros estudiantes, da primero y recibirás después. Slack, GeekTalks, Workshops, Grupos de Estudio.
 
 
