@@ -83,7 +83,7 @@ Los dos atributos más importantes que deben establecerse en la etiqueta `<form>
 
 |GET   |POST  |
 |:----------------------|:-----------------------|
-|Todos los datos del formulario están codificados en la URL. Esto significa que adjuntará toda la información del formulario al final de la URL de destino, por ejemplo: http://www.mydestinationurl.com?input_name1=value1&input_name2&value2….  |Los datos se ocultarán al usuario. La URL permanecerá como se definió en el atributo "acción" y solo un desarrollador podrá solicitar la información del formulario.   |
+|Todos los datos del formulario están codificados en la URL. Esto significa que adjuntará toda la información del formulario al final de la URL de destino, por ejemplo: http://www.mydestinationurl.com?input_name1=value1&input_name2&value2…  |Los datos se ocultarán al usuario. La URL permanecerá como se definió en el atributo "acción" y solo un desarrollador podrá solicitar la información del formulario.   |
 
 > ☝ Si vas a utilizar el `<input type="file">` el único método admitido es POST.
 
