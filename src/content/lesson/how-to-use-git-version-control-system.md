@@ -14,7 +14,7 @@ status: "published"
 
 > 📹 This is [an amazing video explaining git and github](https://www.youtube.com/watch?v=BCQHnlnPusY)
 
-## GIT is a MUST!
+## GIT is really a MUST!
 
 GIT is a great technology, please take the time to learn it. DON’T procrastinate because you cannot avoid it. You will be using it every day, several times a day. So you’d better learn and be comfortable with it.
 
