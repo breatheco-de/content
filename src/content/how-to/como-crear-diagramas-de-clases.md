@@ -66,7 +66,7 @@ Esta es la estructura convencional para crear una diagrama de clases, aunque es 
 
 El cuarto y último paso para crear un diagrama de clases es establecer las relaciones entre las clases, como se muestra en el siguiente ejemplo: 
 
-![https://res.cloudinary.com/dleo66u17/image/upload/v1691009289/Captura_de_pantalla_2023-08-02_154434_mno0pl.png](https://res.cloudinary.com/dleo66u17/image/upload/v1691009289/Captura_de_pantalla_2023-08-02_154434_mno0pl.png)
+![https://res.cloudinary.com/dleo66u17/image/upload/v1691172317/Captura_web_4-8-2023_13135_app.diagrams.net_kmisyp.jpg](https://res.cloudinary.com/dleo66u17/image/upload/v1691172317/Captura_web_4-8-2023_13135_app.diagrams.net_kmisyp.jpg)
 
 En este ejemplo, la clase **Persona** que es una clase abstracta la relacionamos con sus clases hijas o subclases, la clase **Vender** y la clase **Cliente** haciendo uso de una línea sólida con una flecha en forma de triángulo, luego la clase principal **Biblioteca** la relacionamos con las demás clases que contiene, la clase **LIbro**, la clase **Vendedor** y la clase **Cliente** haciendo uso de una linea solida y una flecha con forma de rombo y un color de fondo negro.
 
