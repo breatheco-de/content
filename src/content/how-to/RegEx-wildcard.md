@@ -68,7 +68,7 @@ In this following example, let's imagine we want to extract the content of all t
 # In this case we use Python
 import re
 
-html_code = " <div><p> Texto en el párrafo </p> <div>Otro contenido</div></div>"
+html_code = ' <div><p> Texto en el párrafo </p> <div>Otro contenido</div></div>'
 
 regex_pattern = r'<(p|div)>(.*?)<\/\1>'
 
