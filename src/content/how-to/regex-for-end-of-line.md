@@ -1,140 +1,88 @@
----
-title: "RegEx for end of line"
-subtitle: "On RegEx for end of line we cover how to search, using a regular expression, the last word/pattern on a text making use of the $ symbol. We cover how to achieve this on Javascript, Python and Java, 3 of the most used languages in the world for developing apps"
-tags: ["Python","JavaScript","Java", "RegEx", "Regular Expressions"]
-date: "2023-02-08T16:36:30+00:00"
-authors: [javierseiglie]
-status: "draft"
+# Regex for end of line
+Have you ever wondered how you can identify the end of the line in a text? Regular expressions are a great way to achieve this goal. In this article, we will explore how to use regular expression to identify the end of a line in any text and will do it using JavaScript and Python so we see in both programming languages.
+First, let’s check a quick example of a regular expression to verify the end of a line.
 
----
+```js
+const regex = /\r?\n/g
 
-Regular expressions, commonly known as regex, are a powerful tool used in programming and text processing. They allow developers to define patterns of characters that can be used to match and manipulate strings of text. Regex is used in a wide range of applications, such as data validation, search functionality, and parsing. A [regex tutorial](https://4geeks.com/lesson/regex-tutorial-regular-expression-examples) is a useful resource for those looking to learn more about this tool. A good tutorial typically covers the basics of regex syntax, provides examples of common use cases, and offers tips and tricks for working with regular expressions. By mastering regex, programmers can improve their efficiency and productivity, and write more sophisticated and flexible code.
+const text = 'Welcome!\nThis is an example\n with line breaks.'
+const formattedText = text.replace(regex, 'br>')
 
-```javascript
-const regex = new RegExp("examples$")
-const text = "Examples for RegExp 4 Geeks Academy Regex examples"
-console.log("regex", regex.test(text))
-//Output -> true
+console.log(formattedText) 
 ```
 
-## What is End Of Line (EOL) in Regular Expressions (RegEx)
+The regular expression  /\r?\n/g searches as line breaks in Windows ('\r\n') as regular ones ('\n') and replaces them with the `<br>` tag. By doing this, we can show the text correctly in a web page.
 
-End Of Line (EOL) refers to the last word on a string, even if the text spawns more than one visual line, End of Line will refer to the very last word on the text. 
+Now let’s dive deep into this topic using use cases.
 
-```javascript
-//EOL in this example would be "*Ipsum*."
+**Look for final comments in the code.**
 
-const text = "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem *Ipsum*."
+When we are developing, we might find the need to look for final comments in a source code to ensure that there are no missing tasks. We can use a regular expression to identify those comments:
+
+```js
+// JavaScript
+const regex = /\/\/.*$/gm
+const code = `
+function calculateTotal() {
+    //  Calcular el total
+}
+
+//  todo:   Add logic to calculate taxes
+//  fix this:  correct bug in this section`
+
+ const commentsInCode =  code.match(regex);
+
+
+ console.log(comments)
+
 ```
-When we want to refer to EOL in a Regular Expression we use the `$` symbol
+The regular expression `\/\/.*$` searches any line that begins with '//'(a comment in JS) and gets any comment after that up to the end of the line using '$'. Also we use the flag 'gm' so the search is global ('g') and it does it in multiple lines ('m')
 
-We'll be using the following text in our exercises:
+**Count words in each line.**
 
-`examples for RegExp 4 Geeks Academy Regex examples`
-
-We decided to write 2 times the word **examples** because we'll be asking the one at the end of the line. 
-
-## Using EOL RegEx in JavaScript
-
-Javascript is the language of the web, and RegEx is used constantly in form validations and data validation.
-
-### Using EOL RegEx on JavaScript  with String methods
-
-The String Object in JavaScript allows us to use `match()`, `matchAll()`,  `replace()`, `replaceAll()`, `search()`, and `split()`. All these methods follow the same syntax, as String methods, you access them using the dot (`.`).
-
-#### The String match() method
-
-```javascript
-//RegEx using String method match() 
-const text = "Examples for RegExp 4 Geeks Academy Regex examples"
-const search = "examples$"
-const found = text.match(search)
-console.log(found)
-
-//Output:
-// [
-//  'examples',
-//  index: 42,
-//  input: 'Examples for RegExp 4 Geeks Academy Regex examples',
-//  groups: undefined
-// ]
-```
-As you can see in the example, we are using `text.match()` and passing `search` as a parameter and it throws the word we are searching, the location, and the text where it was given. 
-
-### The String search() method
-
-```javascript
-//RegEx using String method search() 
-const text = "Examples for RegExp 4 Geeks Academy Regex examples"
-const search = "examples$"
-const found = text.search(search)
-console.log(found)
-
-//Output: 42
-```
-
-When we use the search() method, we are only asking for the position of the given expression, that's why we receive only the position where the pattern is found. 
-
-### Using EOL RegEx in JavaScript with RegEx Object
-
-The RegEx Object is built in JavaScript and allows us to make use of its methods to search for patterns returning a boolean value.
-
-Since we are using the RegEx object, we need to call it, and access its methods with the `.` and then we pass the text we want to match the pattern to.
-
-```javascript
-const regex = new RegExp("examples$")
-const text = "Examples for RegExp 4 Geeks Academy Regex examples"
-console.log("regex", regex.test(text))
-//Output -> true
-```
-
-## Using RegEx for End Of Line in Python
-
-Python comes with the module `re` built-in which stands for RegExp. As a module, we need to import it before being able to access its method using the dot `.` notation.
+Let’s assume that we have a text file and want to find the average number of words per line. To get this, we use a regular expression to split words and calculate the average.
 
 ```python
 import re
 
-str = "examples for RegExp 4 Geeks Academy Regex examples"
+text = ' This a line with words.\n Here you can find more content and words.\n Even more words right here for you to count'
 
-def find(term, text):
-    match = re.search(term, text)
-    return match
+lines =  text.split('\n')
+word_count =  0
+for line in lines:
+    words = re.findall(r'\w+',  line)
+    word_count +=  len(words)
 
-print(find("examples$", str))
-#Output-> <re.Match object; span=(42, 50), match='examples'>
+average_words  =  word_count / len(lines)
+
+print(f’The final average of number of words is: {average_words:.2f}’ )
+
 ```
-The output throws the starting and end position of the match, and the match value.
+What we can see in this code is we use 're.findall(r'\w+',  line)' to find all the words in each line. Then, the expression '\w+' searches one or more alphanumeric characters that belong to the words in each line. Finally, we sum up the quantity of words in every line and calculate the average by dividing it with the total of lines.
 
+**Formatting addresses**
 
-## Using EOL RegEx in Java
+Imagine that we are working on an app that shows addresses in a specific format, however, some of the addresses have undesired spaces at the end. We will use a regular expression to remove those final spaces in each address.
 
-Java has on the `util` module, a `RegEx` submodule that has a `Matcher` method that will be used to demonstrate how to use EOL on Java. The `Matcher` method works together with a `Pattern` method. 
+```js
+const regex = /\s+$/gm
 
-```java
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+const addresses =
+ [
+   "123 Main Street City    ",
+     "456 Secondary Avenue,  Town    ",
+     "789 Central Highway, Villa   "
 
-public class Main {
-	public static void main(String[] args) {
-		Pattern pattern = Pattern.compile("examples$", Pattern.CASE_INSENSITIVE);
-    	Matcher matcher = pattern.matcher("Examples for RegExp 4 Geeks Academy Regex examples");
-    	boolean matchFound = matcher.find();
-    	if(matchFound) {
-      		System.out.println("Match found");
-    	} else {
-      		System.out.println("Match not found");
-    		}
-  	}
-}
+]
 
-// Outputs Match found
+const cleanedAddresses  = addresses.map(address => address.replace(regex, ''))
+
+console.log(cleanedAddresses);
+
 ```
+In this final example, our regex `/\s+$/gm`  
+searches for one or more white spaces at the end of each line ('$') and then it replace them with an empty string. Also note that we use the flags 'g' and ‘m’ so the search becomes global and applies for every line in our code.
 
-The `Pattern.Compile()`method creates the pattern to look for (in our case, EOL). The first parameter tells the class the pattern we are searching for, and the second parameter has a flag, making our search case-sensitive (the second parameter is optional).
+# Conclusion
 
-Now that we have our pattern, the `matcher()` method will search for it on the given string returning an object with the search information.
-
-Finally, the `find()` method returns a boolean if the pattern was found or not.
-
-You can read more about this topic and other related at [4Geeks](https://4geeks.com/). Hope you enjoyed the reading and keep on the Geek Side!
+Regular expressions are quite a powerful tool  that can simplify many complex tasks that would require hours to get done. Through multiple examples, we have explored how to use these regular expressions to achieve different goals that we could face in real-word app development. By understanding how to work with the end of lines, we can move faster with  several programming and text analysis tasks. 
