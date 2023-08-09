@@ -45,24 +45,24 @@ Al igual que cualquier otra etiqueta HTML, las etiquetas de input tienen varios 
 `VALUE`: Puedes especificar un valor predeterminado que debe tener el input antes de que el usuario la complete:
 
 ```html
-<input type="text" name="firstname" value="John">
+<input type="text" name="firstname" value="John"/>
 ```
 `READ ONLY`: Determina si el usuario puede cambiar el valor del input.
 
 ```html
-<input type="text" name="firstname" value="John" readonly>
+<input type="text" name="firstname" value="John" readonly/>
 ```
 
 `DISABLED`: Determina si el input será gris y de solo lectura. Los inputs deshabilitados no se envían al servidor: actúan como si nunca hubieran existido.
 
 ```html
-<input type="text" name="firstname" value="John" disabled>
+<input type="text" name="firstname" value="John" disabled/>
 ```
 
 `SIZE`: El número máximo de caracteres permitidos para ese input.
 
 ```html
-<input type="text" name="firstname" value="John" size="40">
+<input type="text" name="firstname" value="John" size="40"/>
 ```
 
 ## Los Atributos METHOD y ACTION
@@ -85,5 +85,5 @@ Los dos atributos más importantes que deben establecerse en la etiqueta `<form>
 |:----------------------|:-----------------------|
 |Todos los datos del formulario están codificados en la URL. Esto significa que adjuntará toda la información del formulario al final de la URL de destino, por ejemplo: http://www.mydestinationurl.com?input_name1=value1&input_name2&value2…  |Los datos se ocultarán al usuario. La URL permanecerá como se definió en el atributo "acción" y solo un desarrollador podrá solicitar la información del formulario.   |
 
-> ☝ Si vas a utilizar el `<input type="file">` el único método admitido es POST.
+> ☝ Si vas a utilizar el `<input type="file"/>` el único método admitido es POST.
 
