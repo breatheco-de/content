@@ -9,7 +9,7 @@ Los diagramas de clases son una poderosa herramienta visual utilizada en el desa
 
 A continuación veremos un pequeño ejemplo de diagrama de clases.
 
-![Diagrama de clases de una casa](https://www.nachocabanes.com/csharp/curso/diagrClasesCasa.png)
+![Diagrama de clases de una casa](https://res.cloudinary.com/dleo66u17/image/upload/v1691602649/Captura_de_pantalla_2023-08-09_122836_vmgc9v.png)
 
 En este ejemplo, el diagrama de clases sirve para visualizar las clases necesarias para representar las partes de una casa. En este ejemplo la clase principal sería la clase **Casa** y las subclases de la clase principal serían las clases **Puerta**, **Ventana** y **Calefactor**, además la clase **Persiana** es una subclase de la clase **Ventana**. Este es un pequeño ejemplo sobre cómo representar visualmente las clases de un proyecto y sus interacciones haciendo uso de un diagrama de clases UML.
 
@@ -51,7 +51,8 @@ Los diagramas de clases son herramientas valiosas para diseñar programas antes 
 
 Ejemplo, basados en el siguiente diagrama de clases: 
 
-![Pequeño ejemplo de diagrama de clases](https://res.cloudinary.com/dleo66u17/image/upload/v1691189612/Captura_web_4-8-2023_175131_app.diagrams.net_dvudcf.jpg)
+
+![Pequeño ejemplo de diagrama de clases](https://res.cloudinary.com/dleo66u17/image/upload/v1691603491/Captura_de_pantalla_2023-08-09_124915_co4kah.png)
 
 La siguiente sería su representación a código, con cada clase, sus atributos y métodos. El ejemplo de código está tanto en JavaScript como en Python, dos de los lenguajes de programación más populares actualmente.
 
@@ -63,7 +64,7 @@ class Persona {
         this.apellido = apellido;
     }
 
-    presentarce() {
+    presentarse() {
         console.log(`\n Hola!, cómo estás? me llamo ${this.nombre} ${this.apellido}`);
     }
 }
@@ -128,4 +129,4 @@ En estos ejemplos, la clase **Persona** sería la clase principal, luego la clas
 
 Los diagramas de clases y la notación UML son herramientas poderosas para visualizar y diseñar proyectos de programación. Ahora que tienes una comprensión básica de cómo utilizarlos, ¡puedes comenzar a diseñar tus propios sistemas y dar vida a tus ideas. Diviértete diseñando diagramas para tus proyectos y recuerda que la mejor forma de aprender es practicar! 😉
 
-Si quieres entender mejor como crear un diagrama de clases UML te recomiendo que visites el siguiente artículo de la academia 4Geeks [como crear diagramas de clases](https://4geeks.com/es/how-to/como-crear-diagramas-de-clases) donde aprenderas como crear un diagram de clases paso a paso y que herramientas gratuitas puedes utilizar. Recuerda que si tienes alguna pregunta o necesitas más información, no dudes en preguntar. ¡Estoy aquí para ayudarte en tu camino hacia el dominio de la programación!  😊
+Si quieres entender mejor como crear un diagrama de clases UML te recomiendo que visites el siguiente artículo de la academia 4Geeks [como crear diagramas de clases](https://4geeks.com/es/how-to/como-crear-diagramas-de-clases) donde aprenderás como crear un diagrama de clases paso a paso y que herramientas gratuitas puedes utilizar. Recuerda que si tienes alguna pregunta o necesitas más información, no dudes en preguntar. ¡Estoy aquí para ayudarte en tu camino hacia el dominio de la programación!  😊
