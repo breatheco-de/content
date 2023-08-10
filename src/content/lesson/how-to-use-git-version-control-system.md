@@ -1,6 +1,6 @@
 ---
 title: "How to use GIT: Version Control System"
-subtitle: "Learn how to use GIT with an interactive tutorial, video, and great article. Without GIT you won't be able to work at any company, and you won't be able to use anyone's code."
+subtitle: "Learn how to use GIT with an interactive tutorial, video, and a great article. Without GIT you won't be able to work at any company, and you won't be able to use anyone's code."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 thumb: "https://breatheco.de/wp-content/uploads/2017/03/commit-object.png"
@@ -10,9 +10,9 @@ status: "published"
 
 ---
 
-> :point_up: We have also prepared an interactive tutorial about GIT [click here to take it!](https://4geeksacademy.github.io/git-interactive-tutorial/)
+> ☝ We have also prepared an interactive tutorial about GIT. [Click here to take it!](https://4geeksacademy.github.io/git-interactive-tutorial/)
 
-> 📹 This is [an amazing video explaining git and github](https://www.youtube.com/watch?v=BCQHnlnPusY)
+> 📹 This is [an amazing video explaining Git and GitHub](https://www.youtube.com/watch?v=BCQHnlnPusY)
 
 ## GIT is a MUST!
 
@@ -22,7 +22,7 @@ GIT is more than just a "set of commands" that you have to learn. Throughout the
 
 ## Why Bother to use GIT?
 
-Being the only developer in a project is a [utopia](http://www.thefreedictionary.com/Utopic). Normally, you collaborate with other developers, and, without GIT, that becomes a big problem. That’s why we need a **repository** of information to centralize and manage changes. With a *repository*, we are addressing the following:
+Being the only developer in a project is a [utopia](http://www.thefreedictionary.com/Utopic). Normally, you collaborate with other developers, and, without GIT, that becomes a big problem. That’s why we need a *repository* of information to centralize and manage changes. With a *repository*, we are addressing the following:
 
 + If two developers work on **the same page (file)**, GIT will compare both versions and will *(try to)* merge them into a new one.
 + Downloading and integrating someone else’s code (or any code) into your project without much hassle and doing so automatically.
@@ -41,7 +41,7 @@ A GIT **repository** comprises the following:
 + A set of references to commit objects, called **heads**.
 
 <p>
- <img height="200px" src="https://github.com/breatheco-de/content/blob/master/src/assets/images/a4fc1953-3c91-4bf4-a70a-ab4778b3277b.png?raw=true" alt="how to use git" />
+ <img height="350px" src="https://github.com/breatheco-de/content/blob/master/src/assets/images/a4fc1953-3c91-4bf4-a70a-ab4778b3277b.png?raw=true" alt="how to use git" />
 </p>
 
 The GIT repository is stored in the same directory as the project itself in a -hidden- subdirectory called .git:
@@ -50,8 +50,8 @@ The GIT repository is stored in the same directory as the project itself in a -h
 + The repository is stored within the project.
 
 <p>
- <img height="200px" src="https://github.com/breatheco-de/content/blob/master/src/assets/images/62897396-651c-4bdb-8604-dfe1898e57bd.png?raw=true" alt="git folder inside directory" />
- </p>
+ <img height="350px" src="https://github.com/breatheco-de/content/blob/master/src/assets/images/62897396-651c-4bdb-8604-dfe1898e57bd.png?raw=true" alt="git folder inside directory" />
+</p>
 
 ## Commit Objects
 
@@ -87,9 +87,9 @@ For example: Let’s say that you are starting to develop the "Login" feature/fu
 
 ![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif?raw=true)
 
-> :point_up: **Note on Terminology:** The terms "branch" and "head" are nearly synonyms in GIT. Every branch is represented by one head, and every head represents one branch. Sometimes, "branch" will be used to refer to a head and the entire history of commits preceding that head, whereas "head" will be used to refer exclusively to a single commit object (the most recent commit in the branch).
+> ☝ **Note on Terminology:** The terms "branch" and "head" are nearly synonyms in GIT. Every branch is represented by one head, and every head represents one branch. Sometimes, "branch" will be used to refer to a head and the entire history of commits preceding that head, whereas "head" will be used to refer exclusively to a single commit object (the most recent commit in the branch).
 
- ## Starting a New Repo** `git init`
+## Starting a New Repo** `git init`
 
 You can create a new repository whenever you want during the project, it does not have to be at the beginning! The only essential thing to do is that the project has no other repository that has already been created.
 
@@ -99,7 +99,7 @@ To create a repository, navigate in your command line to the root directory of t
 git init
 ```
 
-This will create a .git directory in the \[project\] directory. Make sure that the folder was successfully created (you can run the command `ls -l` to read the directory content in the command line).
+This will create a `.git` directory in the project's directory. Make sure that the folder was successfully created (you can run the command `ls -a` to read the directory content in the command line).
 
 ## Committing Changes into the Repository
 
@@ -125,9 +125,9 @@ Other commands that are useful at this point:
 My personal workflow usually looks like this: I first do some programming, and, afterward, I end up updating some files, then I run the following commands:
 
 ```bash
-git status //to see what files I changed.
-git diff [file] //to see exactly what I modified.
-git commit -a -m [message] //to commit.
+git status # to see what files I changed.
+git diff [file] # to see exactly what I modified.
+git commit -a -m [message] # to commit.
 ```
 
 ## Referring to a Commit
@@ -148,7 +148,7 @@ To create a branch, let’s say your repository looks like this:
 Let's jump back to commit (2) and start new work from there. You will first need to know how to reference the commit. You can use `git log` to get the SHA1 name of (2)
 
 ```bash
- git log
+$ git log
 commit df73f34fac344778e1f5a836fb88a897e0b8d491
 Author: Alejandro Sanchez <a@stcsolutions.com.ve>
 Date: Wed Mar 8 13:18:37 2017 -0500
@@ -181,7 +181,7 @@ This command does the following:
 + Points *HEAD* to the commit object specified by *\[head-name\]*.
 + Rewrites all the files in the directory to match the files stored in the new *HEAD* commit.
   
-> :point_up: **Important note:** If there are any uncommitted changes when you run git checkout, GIT will behave very strangely. The strangeness is predictable and sometimes useful, but it is best to avoid it. All you need to do, of course, is commit all the new changes before checking out the new head.
+> ☝ **Important note:** If there are any uncommitted changes when you run git checkout, GIT will behave very strangely. The strangeness is predictable and sometimes useful, but it is best to avoid it. All you need to do, of course, is commit all the new changes before checking out the new head.
 
 After checking out the *\[new-head\]* head, you will fix the headers. Now you can add and commit the changes as above. The resulting repository looks like this:
 
@@ -207,7 +207,7 @@ These commands perform the following operations. Let the current head be called 
 + If there were no conflicts, create a new commit with two parents: *current* and *merge.*  Set current (and *HEAD*) to point to this new commit, and update the working files for the project accordingly.
 + If there was a conflict, insert appropriate conflict markers and inform the user. No commit is created.
 
-> :point_up: GIT can get very confused if there are uncommitted changes in the files when you ask it to perform a merge. So, make sure to commit whatever changes you have made so far before you merge.
+> ☝ GIT can get very confused if there are uncommitted changes in the files when you ask it to perform a merge. So, make sure to commit whatever changes you have made so far before you merge.
 
 ## Resolving Conflicts
 
@@ -237,7 +237,7 @@ GIT provides a number of transport protocols for sharing repository information,
 
 To start working in collaboration with remote projects, we will need to know the remote URL of the project. When using HTTP, the remote will look like this:
 
-```bash
+```text
 https://github.com/<github-username>/repository-name.git
 ``` 
 
@@ -255,14 +255,13 @@ Once you know the remote URL, you can add it to your project.
 
 You have to pick an alias for the remote, we normally use `origin`, but it is just an arbitrary word, and you can use anything. 
 
-:warning:
-In our boilerplates, you will already have an origin set-up from the boilerplate's repository. In those cases you should not remove the original origin, but would need to use another term (e.g. `new` or `new-origin`, etc.) to add your new remote. 
+⚠️ In our boilerplates, you will already have an origin set-up from the boilerplate's repository. In those cases you should not remove the original origin, but you would need to use another term (e.g. `new` or `new-origin`, etc.) to add your new remote. 
 
 Add the remote by executing the following command:
 
 ```bash
-git remote add origin [the-remote-url]
-//to make sure the remote has been properly set we can get the url value
+git remote add origin [remote-url]
+# to make sure the remote has been properly set we can get the url value
 git remote get-url origin
 ```
 
@@ -294,7 +293,7 @@ After you fix the conflicts, you can `git add` the files and `git commit` everyt
 
 ## Cloning the Repository (git clone)
 
-To make a copy of a remote repository for your own use, run git clone [remote-specification].
+To make a copy of a remote repository for your own use, run `git clone [remote-specification]`.
 
 For example, if the remote repository is located in `git@github.com:alesanchezr/myfirstrepo.git`, you would run:
 
@@ -307,8 +306,8 @@ This would do the following:
 + Create a directory `myfirstrepo` and initialize a repository in it.
 + Copy all the commit objects from the project into the new repository.
 + **Add a remote repository** reference named `origin` to the new repository, and associate *origin* with `git@github.com:alesanchezr/myfirstrepo.git` as described below. (Like *master*, *origin* is a default name used by Git).
-+ **Add remote heads** named `origin/\[head-name\]` that correspond to the heads in the remote repository.
-+ Set up one head in the repository to **track** the corresponding `origin/\[current-head-name\]` head, namely the one that was currently active in the repository being cloned.
++ **Add remote heads** named `origin/[head-name]` that correspond to the heads in the remote repository.
++ Set up one head in the repository to **track** the corresponding `origin/[current-head-name]` head, namely the one that was currently active in the repository being cloned.
   
 A **remote repository reference** is an alias GIT uses to refer to the remote repository.  Generally it will be *origin*. Among other things, GIT internally associates the *remote-specification* with the remote repository reference, so you will never need to refer to the original repository again. 
 
@@ -318,4 +317,4 @@ A branch that **tracks** a remote branch retains an internal reference to the re
 
 The important thing to note is that you now have a complete copy of your friend’s entire repository. When you branch, commit, merge, or otherwise operate on the repository, you operate only on your own repository. GIT only interacts with your friend’s repository when you specifically ask it to do so.
 
-> :link: Say your friend’s repository looks like this:<br>Here is a list of other great resources to learn GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br> You should especially try these two:<br>• https://try.github.io<br>• http://learngitbranching.js.org/ .
+> 🔗 Here is a list of other great resources to learn GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br> You should especially try these two:<br>• https://try.github.io<br>• http://learngitbranching.js.org/
