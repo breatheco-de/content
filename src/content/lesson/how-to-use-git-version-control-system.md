@@ -260,7 +260,7 @@ You have to pick an alias for the remote, we normally use `origin`, but it is ju
 Add the remote by executing the following command:
 
 ```bash
-git remote add origin [the-remote-url]
+git remote add origin [remote-url]
 # to make sure the remote has been properly set we can get the url value
 git remote get-url origin
 ```
