@@ -293,7 +293,7 @@ After you fix the conflicts, you can `git add` the files and `git commit` everyt
 
 ## Cloning the Repository (git clone)
 
-To make a copy of a remote repository for your own use, run git clone [remote-specification].
+To make a copy of a remote repository for your own use, run `git clone [remote-specification]`.
 
 For example, if the remote repository is located in `git@github.com:alesanchezr/myfirstrepo.git`, you would run:
 
