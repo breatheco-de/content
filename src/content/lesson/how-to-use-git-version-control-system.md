@@ -317,4 +317,4 @@ A branch that **tracks** a remote branch retains an internal reference to the re
 
 The important thing to note is that you now have a complete copy of your friend’s entire repository. When you branch, commit, merge, or otherwise operate on the repository, you operate only on your own repository. GIT only interacts with your friend’s repository when you specifically ask it to do so.
 
-> 🔗 Here is a list of other great resources to learn GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br> You should especially try these two:<br>• https://4geeksacademy.github.io/git-interactive-tutorial/<br>• http://learngitbranching.js.org/ .
+> 🔗 Here is a list of other great resources to learn GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br> You should especially try these two:<br>• https://try.github.io<br>• http://learngitbranching.js.org/ .
