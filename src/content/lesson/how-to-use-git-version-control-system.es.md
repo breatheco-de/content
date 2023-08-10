@@ -232,7 +232,7 @@ Digamos que tú y tu amigo quieren trabajar en el mismo proyecto. Tu amigo ya ha
 
 ## Especificación remota
 
-GIT proporciona una serie de protocolos de transporte para compartir información del repositorio, como SSH y HTTP. Estaremos utilizando HTTP mayomente, ya que SSH es para usuarios más avanzados y requiere de configuración extra.
+GIT proporciona una serie de protocolos de transporte para compartir información del repositorio, como SSH y HTTP. Estaremos utilizando HTTP mayormente, ya que SSH es para usuarios más avanzados y requiere de configuración extra.
 
 Para comenzar a trabajar en colaboración con proyectos remotos, necesitaremos conocer la URL remota del proyecto. Al usar HTTP, el remoto se verá así:
 
