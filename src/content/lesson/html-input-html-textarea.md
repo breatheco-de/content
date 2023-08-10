@@ -45,25 +45,25 @@ Just like any other HTML tag, the input tags have several attributes that can be
 `VALUE`: You can specify a default value that the input should have before it starts getting filled by the user:
 
 ```html
-<input type="text" name="firstname" value="John">
+<input type="text" name="firstname" value="John"/>
 ```
 
 `READ ONLY`: Determines if the user is allowed to change the value of the input.
 
 ```html
-<input type="text" name="firstname" value="John" readonly>
+<input type="text" name="firstname" value="John" readonly/>
 ```
 
 `DISABLED`: Determines if the input is going to be gray and read-only. The disabled inputs are not sent to the backend – they act as if they never existed.
 
 ```html
-<input type="text" name="firstname" value="John" disabled>
+<input type="text" name="firstname" value="John" disabled/>
 ```
 
 `SIZE`: The maximum number of characters allowed for that input.
 
 ```html
-<input type="text" name="firstname" value="John" size="40">
+<input type="text" name="firstname" value="John" size="40"/>
 ```
 
 ## The Form Attributes METHOD and ACTION
@@ -86,7 +86,7 @@ The two most important attributes that need to be set into the `<form>` tag are 
 |:----------------------|:-----------------------|
 |All form data is encoded into the URL. This means that it will append all the information of the form to the end of the destination URL. For example, http://www.mydestinationurl.com?input_name1=value1&input_name2&value2…   |The data will be completely hidden from the end-user.  The URL will remain as it was defined in the "action" attribute, and only a developer will be able to request the form information.   |
 
-> ☝ If you are going to use the `<input type="file">` the only supported method is POST.
+> ☝ If you are going to use the `<input type="file"/>` the only supported method is POST.
 
 
 
