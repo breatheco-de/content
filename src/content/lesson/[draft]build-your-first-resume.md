@@ -1,7 +1,7 @@
 ---
 slug: "build-your-first-resume"
 title: "Build your first resume"
-subtitle: "How to build your first resume as a software developer"
+subtitle: "How to build your first resume as a software developer, it willbe very usefull to introduce yourself"
 cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
 textColor: "white"
 date: "2020-10-19T16:36:30+00:00"
