@@ -3,8 +3,7 @@ title: "RegEx Examples: Mastering Regular Expressions with Practical Cases"
 subtitle: "Explore RegEx examples for a comprehensive understanding. Learn to wield the power of regular expressions in various scenarios. Boost your coding skills now!"
 tags: ["Python","JavaScript", "RegEx", "Regular Expression", "snippet"]
 date: "2023-02-12T16:36:30+00:00"
-authors: [javierseiglie]
-status: "draft"
+authors: [jseiglie]
 
 ---
 
@@ -270,6 +269,6 @@ print(checkUrl("http://www.google.com")) #Output -> True
 print(checkUrl("4geeks")) #Output -> False
 ```
 
-In both cases we are returning a boolean (`true/false`) if the url is valid.
+In both cases we are returning a boolean (`true/false`) if the URL is valid.
 
 You can learn more about this topic and others related at [4Geeks](https://4geeks.com/). Hope you enjoyed the reading and keep on the Geek side!
