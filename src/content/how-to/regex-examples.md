@@ -1,6 +1,6 @@
 ---
-title: "RegEx examples"
-subtitle: "On RegEx examples we'll be covering different regular expressions examples for the most used data. You'll find patterns with working snippets for Javascript and Python for emails and passwords validation, Integers, Float numbers and Decimals extraction "
+title: "RegEx Examples: Mastering Regular Expressions with Practical Cases"
+subtitle: "Explore RegEx examples for a comprehensive understanding. Learn to wield the power of regular expressions in various scenarios. Boost your coding skills now!"
 tags: ["Python","JavaScript", "RegEx", "Regular Expression", "snippet"]
 date: "2023-02-12T16:36:30+00:00"
 authors: [javierseiglie]
