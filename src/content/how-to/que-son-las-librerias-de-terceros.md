@@ -39,14 +39,16 @@ Las librerías de terceros son colecciones de código desarrolladas por programa
 -  Para instalar cualquier librería usa la siguiente sintaxis:
 
 ```bash
-pip install "nombre de la librería"
+pip install nombre_de_librería"
 ```
 
 -  Luego puedes crear un módulo o archivo de trabajo en Python `example.py` e importar la librería con la siguiente sintaxis:
 
 ```py
-import "nombre de la librería" as "alias (opcional)"
+import nombre_de_librería as alias
 ```
+
+> El alias es opcional, sirve para ponerle un nombre mas corto a la librería y que sea más fácil de utilizar.
 
 Una vez importadas ya puedes usar esta librería en tu código y aprovechar todos sus beneficios, recuerda que puedes instalar e importar tantas librerías como necesites, por ejemplo puedes usar la librería de **Numpy** junto con la librería de **Pandas** para hacer cálculos matemáticos avanzados.
 
