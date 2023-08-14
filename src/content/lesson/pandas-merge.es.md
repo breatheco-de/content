@@ -54,26 +54,24 @@ pd.merge(
     validate=None)
 ```
 
-- `left`: El primer DataFrame que se desea combinar.
-- `right`: El segundo DataFrame que se desea combinar.
-- `how`: El tipo de combinación que se desea realizar, puede ser `inner`, `outer`, `left` o `right`.
-  ![dataframes joins](https://miro.medium.com/v2/resize:fit:1200/1*9eH1_7VbTZPZd9jBiGIyNA.png)
+- `left`: Este parámetro es obligatorio, representa el primer DataFrame que se desea combinar.
+- `right`: Este parámetro es obligatorio, representa el segundo DataFrame que se desea combinar.
+- `how`: Este parámetro es opcional, representa el tipo de combinación que se desea realizar, puede ser `inner`, `outer`, `left` o `right`.
+  ![joins](https://miro.medium.com/v2/resize:fit:1200/1*9eH1_7VbTZPZd9jBiGIyNA.png)
 
-  - `inner`: Devuelve solo los registros que están en ambos DataFrames.
+  - `inner` (valor predeterminado): Devuelve solo los registros que están en ambos DataFrames.
   - `outer`: Devuelve todos los registros de ambos DataFrames.
   - `left`: Devuelve todos los registros del DataFrame de la izquierda y los registros que están en ambos DataFrames.
   - `right`: Devuelve todos los registros del DataFrame de la derecha y los registros que están en ambos DataFrames.
 
-- `on`: El nombre de la columna en común que se utilizará para combinar ambos DataFrames.
-- `left_on`: El nombre de la columna del DataFrame de la izquierda que se utilizará para combinar ambos DataFrames.
-- `right_on`: El nombre de la columna del DataFrame de la derecha que se utilizará para combinar ambos DataFrames.
-- `left_index`: Si es `True` se utiliza el indice del DataFrame de la izquierda para combinar ambos DataFrames.
-- `right_index`: Si es `True` se utiliza el indice del DataFrame de la derecha para combinar ambos DataFrames.
-- `sort`: Si es `True` se ordenan los registros en base a la columna en común.
-- `suffixes`: Si se encuentran columnas con el mismo nombre en ambos DataFrames, se le agrega un sufijo a la columna del DataFrame de la izquierda y al DataFrame de la derecha.
-- `copy`: Si es `True` se copia la información de los DataFrames.
-- `indicator`: Si es `True` se agrega una columna `_merge` que indica de que DataFrame proviene cada registro.
-- `validate`: Si es `None` no se valida nada, si es `one_to_one` se valida que la combinación sea de uno a uno, si es `one_to_many` se valida que la combinación sea de uno a muchos, si es `many_to_one` se valida que la combinación sea de muchos a uno, si es `many_to_many` se valida que la combinación sea de muchos a muchos.
+- `on`: Este parámetro es opcional, representa el nombre de la columna en común que se utilizará para combinar ambos DataFrames. De no especificarse, se utilizarán las columnas que poseen el mismo nombre en ambos DataFrames.
+- `left_on` y `right_on`: Estos parámetros son opcionales, representan el nombre de las columnas en el DataFrame izquierdo y derecho respectivamente, que se utilizarán para combinar ambos DataFrames.
+- `left_index` y `right_index`: Estos parámetros son opcionales, si se establecen en `True`, se utiliza el índice del DataFrame izquierdo y derecho respectivamente, para combinar ambos DataFrames. Su valor predeterminado es `False`.
+- `sort`: Este parámetro es opcional, si se establece en `True` se ordenan los registros en base a la columna en común. Su valor predeterminado es `False`.
+- `suffixes`: Este parámetro es opcional, si se encuentran columnas con el mismo nombre en ambos DataFrames, se le agrega un sufijo a la columna del DataFrame de la izquierda y al DataFrame de la derecha. Su valor predeterminado es `('_x', '_y')`.
+- `copy`: Este parámetro es opcional, representa si se copia o no la información de los DataFrames. Su valor predeterminado es `True`.
+- `indicator`: Este parámetro es opcional, si es `True` se agrega una columna `_merge` que indica de que DataFrame proviene cada registro. Su valor predeterminado es `False`.
+- `validate`: Si es `None` (valor prdeterminado) no se valida nada, si es `one_to_one` se valida que la combinación sea de uno a uno, si es `one_to_many` se valida que la combinación sea de uno a muchos, si es `many_to_one` se valida que la combinación sea de muchos a uno, si es `many_to_many` se valida que la combinación sea de muchos a muchos.
 
 ## Ejemplos de uso del método merge() en Pandas
 
