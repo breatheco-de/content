@@ -56,7 +56,7 @@ Una vez importadas ya puedes usar esta librería en tu código y aprovechar todo
 
 A continuación veremos algunos ejemplos de cómo instalar, importar y utilizar diferentes librerías de terceros en tu propio código de Python.
 
-### 1. Numpy
+### Numpy
 
 La librería de [numpy](https://numpy.org/doc/stable) es uno de los paquetes más importantes a entender cuando estás comenzando a aprender Python. Esta librería permite a los desarrolladores realizar de forma rápida una amplia variedad de cálculos numéricos. Para instalar Numpy en tu ordenador sigue las siguientes instrucciones:
 
@@ -86,7 +86,7 @@ La librería de **Numpy** ofrece una amplia variedad de funciones que te permite
 |`np.linspace()` | Crea un arreglo con una secuencia de números equidistantes en un rango especificado y cantidad de elementos.
 |`np.random.rand()` | Crea un arreglo con valores aleatorios en el rango de [0, 1] con las dimensiones especificadas. |
 
-### 2. Pandas
+### Pandas
 
 [Pandas](https://pandas.pydata.org/docs/) es una de las librerías más importantes de Python especialmente en áreas de trabajo como en la ciencia de datos (Data science) o en aprendizaje automático (Machine Learning). Pandas ofrece una amplia variedad de funciones para la manipulación y análisis de datos. Para descargar Pandas en tu ordenador sigue las siguientes instrucciones:
 
@@ -129,7 +129,7 @@ dtype: int64
 
 Si deseas empezar tu carrera en la ciencia de datos o en inteligencia artificial, Pandas será tu aliada para la limpieza y el análisis de datos, esta librería te permite leer archivos **.csv**, archivos de **exel**, archivos de tipo **Json** y mucho más.
 
-### 3. Matplotlib
+### Matplotlib
 
 ![Ejemplo de visualización de datos en matplotlib](https://miro.medium.com/v2/resize:fit:1400/1*EsqDYFK-IzGEAm4FyZP0wQ.jpeg)
 
@@ -168,7 +168,7 @@ plt.show()
 
 En este ejemplo, creamos una visualización falsa del número de ventas a través de los años de una compañía. Haciendo uso del método `plot()` creamos la tabla de presentación, luego con los métodos `label` y `title` creamos las etiquetas y el título de nuestra tabla y por último usamos la función `grid()` para mostrar la cuadrícula de nuestra visualización.
 
-### 4. TensorFlow
+### TensorFlow
 
 La librería de [TensorFlow](https://www.tensorflow.org/guide?hl=es-419) es una de las librerías más importantes actualmente a la hora de crear proyectos de aprendizaje automático con Python. Esta es una herramienta popularizada por su eficiencia con redes neuronales de aprendizaje profundo pero que permite la ejecución de procesos distribuidos que no tengan nada que ver con redes neuronales.
 
