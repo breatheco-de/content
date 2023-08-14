@@ -39,7 +39,7 @@ Las librerías de terceros son colecciones de código desarrolladas por programa
 -  Para instalar cualquier librería usa la siguiente sintaxis:
 
 ```bash
-pip install nombre_de_librería"
+pip install nombre_de_libreria
 ```
 
 -  Luego puedes crear un módulo o archivo de trabajo en Python `example.py` e importar la librería con la siguiente sintaxis:
