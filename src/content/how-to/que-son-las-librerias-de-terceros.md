@@ -1,3 +1,4 @@
+
 ## Librerías de terceros en Python
 
 Las librerías de terceros son una herramienta esencial en la programación moderna, la mayoría de los lenguajes de programación tiene diferentes librerías que le simplifican algunas tareas a los programadores. Una librería también conocida como paquete o módulo, es un conjunto de código predefinido que ha sido desarrollado por un programador externo y puesto a disposición del público en general.
@@ -55,6 +56,48 @@ Una vez importadas ya puedes usar esta librería en tu código y aprovechar todo
 ## Ejemplos de uso de librerías de terceros
 
 A continuación veremos algunos ejemplos de cómo instalar, importar y utilizar diferentes librerías de terceros en tu propio código de Python.
+
+### Requests
+
+La librería [requests](https://docs.python-requests.org/en/v2.0.0/user/install) te permite hacer llamados de tipo **HTTP** en Python. Esta librería esconde la complejidad de hacer llamados **HTTP** con la ayuda de funciones intuitivas y fáciles de entender para que puedas concentrarte en sacar el máximo provecho de la API que deseas utilizar.
+
+Para poder utilizar la librería **Requests** en tu ordenador sigue las siguientes instrucciones:
+
+1. Instala la librería **requests** en tu ordenador con el siguiente comando:
+```bash
+pip install requests
+```
+
+2. Una vez instalada, importa la librería en tu modulo de trabajo con la siguiente sintaxis:
+```py
+import requests
+```
+
+3. Ahora ya puedes empezar a utilizar las maravillosas funcionalidades de esta librería. 
+```py
+response = requests.get("https://jsonplaceholder.typicode.com/posts/1")
+
+if response.status_code == 200:
+    data = response.json()
+    print("Datos obtenidos desde la API\n")
+    print(data)
+
+else:
+    print("Ha ocurrido un problema y la API respondio con un error")
+```
+> output:
+```bash
+Datos obtenidos desde la API
+
+{
+    'userId': 1, 
+    'id': 1, 
+    'title': 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit', 
+    'body': 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto'
+}
+```
+
+En este ejemplo, hacemos uso del método `get()` de la librería **Requests** para traer información de un servidor, si la petición es exitosa imprimimos el resultado en la consola pero si la petición es fallida le mostramos al usuario un error en consola. Para este ejemplo, utilizamos la API de [jsonplaceholder](https://jsonplaceholder.typicode.com) que te permite hacer peticiones **HTTP** de forma gratuita para poder probar tu aplicación.
 
 ### Numpy
 
@@ -167,53 +210,6 @@ plt.show()
 ```
 
 En este ejemplo, creamos una visualización falsa del número de ventas a través de los años de una compañía. Haciendo uso del método `plot()` creamos la tabla de presentación, luego con los métodos `label` y `title` creamos las etiquetas y el título de nuestra tabla y por último usamos la función `grid()` para mostrar la cuadrícula de nuestra visualización.
-
-### TensorFlow
-
-La librería de [TensorFlow](https://www.tensorflow.org/guide?hl=es-419) es una de las librerías más importantes actualmente a la hora de crear proyectos de aprendizaje automático con Python. Esta es una herramienta popularizada por su eficiencia con redes neuronales de aprendizaje profundo pero que permite la ejecución de procesos distribuidos que no tengan nada que ver con redes neuronales.
-
-Para utilizar esta librería en tu ordenador sigue las siguientes instrucciones:
-
-1. Primero Instala TensorFlow en tu ordenador.
-```bash
-pip install tensorflow
-```
-2. Luego importa la librería en tu módulo de trabajo.
-```py
-import tensorflow as tf
-```
-3. Ahora ya puedes hacer uso de todas la funcionalidades de TensorFlow en tus propios proyectos.
-```py
-# Datos de ejemplo: años y ventas
-years = tf.constant([2017, 2018, 2019, 2020, 2021, 2022], dtype=tf.float32)
-sales = tf.constant([50000, 60000, 75000, 90000, 110000, 130000], dtype=tf.float32)
-
-# Normalizar los años dividiendo por 2000
-years_normalized = years / 2000.0
-
-# Crear un modelo de regresión lineal
-model = tf.keras.Sequential([
-    tf.keras.layers.Dense(units=1, input_shape=[1])
-])
-
-# Compilar el modelo
-model.compile(optimizer='sgd', loss='mean_squared_error')
-
-# Entrenar el modelo
-model.fit(years_normalized, sales, epochs=100)
-
-# Predecir las ventas para un año dado
-year_to_predict_normalized = tf.constant([2023 / 2000.0], dtype=tf.float32)
-predicted_sales = model.predict(year_to_predict_normalized)
-
-print(f"Las ventas predichas para el año 2023 son: {predicted_sales[0][0]:.2f}")
-```
-> output: 
-```bash
-Las ventas predichas para el año 2023 son: 84528.73
-```
-
-En este ejemplo, hacemos uso de la librería de **TensorFlow** para crear un modelo de regresión lineal y entrenarlo para predecir las ventas de una compañía para el año 2023. La librería de **TensorFlow** es un gran ejemplo de porqué es mejor utilizar una librería de terceros para ahorrar código en lugar de escribirlo todo tú mismo, en este caso necesitarías muchas más líneas de código para hacer el mismo entrenamiento si decidieras hacerlo sin la ayuda de esta librería.
 
 ## Conclusión
 
