@@ -65,7 +65,7 @@ Los commit object padre son aquellos commits que vinieron primero. Generalmente 
 
 Al principio, un proyecto siempre tiene un commit object sin padre. Este es el primer commit que se realiza en el repositorio del proyecto.
 
-## Un Head es una Lista de Commits.
+## Un Head es una Lista de Commits
 
 Los heads de un repositorio son como el "historial de revisión de un proyecto". Un historial de revisión es una lista de commit objects que contienen todos los cambios que tú y los demás miembros de tu equipo han realizado en los archivos del proyecto.
 
@@ -314,7 +314,7 @@ Una rama que **rastrea** una rama remota conserva una referencia interna a la ra
 
 Lo importante a tener en cuenta es que ahora tienes una copia completa del repositorio completo de tu amigo. Cuando se ramifica, confirma (commit), fusiona u opera de otra manera en el repositorio, operas solo en tu propio repositorio. GIT solo interactúa con el repositorio de tu amigo cuando le pidas específicamente que lo haga.
 
-> 🔗 Aquí hay una lista de otros excelentes recursos para aprender GIT.: http://sixrevisions.com/resources/git-tutorials-beginners/<br>Especialmente deberías probar estos dos:<br>• https://try.github.io<br>• http://learngitbranching.js.org/
+> 🔗 Aquí hay una lista de otros excelentes recursos para aprender GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br>Especialmente deberías probar estos dos:<br>• https://try.github.io<br>• http://learngitbranching.js.org/
   
   
 
