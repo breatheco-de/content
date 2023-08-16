@@ -11,7 +11,7 @@ status: "published"
 
 > :point_up: Esta lección es para usuarios de WebPack y [módulos ECMAScript (ESM).;](https://nodejs.org/api/esm.html) hay otra forma de trabajar con módulos usando la [sintaxis de CommonJS] (https://requirejs.org/docs/commonjs.html) que no cubriremos.
 
-Todo nuestro código JS no puede estar en el mismo archivo; Eso hará que sea difícil de leer y casi imposible de mantener.
+Todo nuestro código JS no puede estar en el mismo archivo; eso hará que sea difícil de leer y casi imposible de mantener.
 
 Gracias a Webpack, podemos dividir nuestro código en archivos pequeños como queramos y luego podemos hacer referencia a otros archivos de nuestro archivo actual.
 
@@ -28,7 +28,7 @@ Por ejemplo, aquí estamos importando una función de otro archivo:
 
 ![javascript import](https://github.com/breatheco-de/content/blob/master/src/assets/images/2cdb146a-d6f7-4591-96fc-e50aef07aca5.png?raw=true)
 
-## Exportación por Defecto
+## Exportación por defecto
 
 Hay una pequeña variación que puede encontrar en Internet que se llama **"exportación predeterminada"**: esta es solo una forma de exportar una cosa por defecto a su archivo.
 
@@ -56,7 +56,7 @@ let multiplyFunction = function(a,b){
 export default multiplyFunction;
 ```
 
-## Ejemplo Final:
+## Ejemplo final:
 
 Aquí hay una pequeña demostración de todos los tipos de importación / exportación que trabajan en el mismo proyecto.
 
