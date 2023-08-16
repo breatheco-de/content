@@ -206,4 +206,4 @@ let helloWorld = () => console.log("Hello World");
 helloWorld();
 ```
 
-We hope that this information serves you well on how to call a function in javascript, keep coding!
+We hope that this information serves you well on how to call a function in javascript, you can check the 4Geeks Blog and will find more valuable content like [How to print in Javascript](https://4geeks.com/how-to/How-to-print-in-javascript) or [How to call a Function in Javascript](https://4geeks.com/how-to/how-to-call-a-function-in-javascript)

@@ -103,4 +103,4 @@ Once the installation finishes, you'll have the latest Python version installed 
 python3 --version
 ```
 
-Hope you enjoy the reading and keep on the Geek side.
+Hope you enjoy the reading and keep on the Geek side, you can check the 4Geek's Blog for more relevant content like [how to exit python in terminal](https://4geeks.com/how-to/how-to-exit-python-in-terminal).

@@ -1,8 +1,16 @@
+---
+title: "How to use React Global Context?"
+subtitle: "Learn how to harness React Global Context to streamline state management in your applications. Master the power of global state for efficient data sharing."
+date: "2020-10-19T16:36:31+00:00"
+tags: ["reactjs"]
+
+---
+
 ## React Global Context
 
 React global context is a way to pass and consume data between components in a React application without the need to manually pass props at each level, in this article you will learn how to work with the global context in React, and how to pass and consume data using the React hook `useContext()`.
 
-To initialize a global context in React and share data between components, follow the steps below:
+If you want to learn more about react, you can check the following [React Js Tutorial](https://4geeks.com/lesson/learn-react-js-tutorial) To initialize a global context in React and share data between components, follow the steps below:
 
 #### 1. Create the Global Context
 
@@ -72,7 +80,7 @@ To create this project we will use **React**, **Vite.js**, and **Tailwind** for 
 
 > Preview of the project.
 
-![App light and dark theme](https://res.cloudinary.com/dleo66u17/image/upload/v1689916027/Captura_de_pantalla_2023-07-20_235948_ymanmu.png)
+![App light and dark theme for react project](https://res.cloudinary.com/dleo66u17/image/upload/v1689916027/Captura_de_pantalla_2023-07-20_235948_ymanmu.png)
 
 First, initialize your project.
 
@@ -205,5 +213,4 @@ And that's it, now you know how to implement the **Global Context** of React in 
 
 React's Global Context allows you to share data across the components of an application without the need to pass the data through props at each level, using global context states you can access information from anywhere in your application regardless of whether the component is a direct child of the one that holds that information or not. 
 
-If you want to learn more about React and its features I recommend you to visit the [react exercises tutorial](https://4geeks.com/interactive-exercise/react-js-tutorial-exercises) created by 4Geeks Academy where you will learn much more about React and reinforce your knowledge in this amazing Framework.
-
+If you want to learn more about React and its features I recommend you to visit the [react exercises tutorial](https://4geeks.com/interactive-exercise/react-js-tutorial-exercises) created by 4Geeks where you will learn much more about React and reinforce your knowledge in this amazing Framework.

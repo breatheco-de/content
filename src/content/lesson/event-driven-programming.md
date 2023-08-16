@@ -171,7 +171,7 @@ function myEventHandler(eventObj)
 |:---------------|:------------------|
 |Target            |Returns the DOM element that triggered the event.      |
 |Type              |The type of event: click, mouseover, load, etc.      |
-|Cancelable       |If you can stop the event's default action or not.    |
+|Cancellable       |If you can stop the event's default action or not.    |
 |preventDefault()  |If the event is cancelable, this method stops the default action of it; for example, preventing a "submit" event of a form will result in the form not being submitted which can be useful if the form has errors that need to be corrected, etc.    |
 |stopPropagation()  |Stops an event from propagating (i.e. from triggering the same event in nested or parent elements).
 

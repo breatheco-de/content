@@ -1,6 +1,14 @@
+---
+title: "Módulos en Python: Organizando y Reutilizando Código como un Experto"
+subtitle: "Aprende sobre los módulos en Python y cómo aprovecharlos para organizar y reutilizar tu código de manera eficiente. ¡Mejora tus habilidades de programación!"
+tags: ["python"]
+authors: ["DF27ARTS"]
+
+---
+
 ## Introducción a los Módulos en Python
 
-¡Hola, explorador del código! En esta lectura, nos adentraremos en el emocionante mundo de los módulos en Python. Descubrirás qué son los módulos y cómo utilizarlos para potenciar tus programas. ¡Prepárate para expandir tus horizontes y llevar tus habilidades de programación al siguiente nivel! 🚀📚
+¡Hola, explorador del código! En este artículo, nos adentraremos en el emocionante mundo de los módulos en [Python](https://4geeks.com/technology/python). Descubrirás qué son los módulos y cómo utilizarlos para potenciar tus programas. ¡Prepárate para expandir tus horizontes y llevar tus habilidades de programación al siguiente nivel! Si quieres conocer un poco más sobre [¿qué es python?](https://4geeks.com/es/lesson/que-es-python-tutorial) o sus principales usos, puedes encontrar mucha información en el Blog de [4Geeks](https://4geeks.com/).
 
 A continuación veremos un ejemplo pequeñito sobre cómo utilizar los módulos en un script de Python.
 
@@ -202,4 +210,4 @@ En este ejemplo, creamos una función que realiza operaciones matematicas en el 
 
 Los módulos son una herramienta poderosa para ampliar las capacidades de tus programas Python. Ahora que conoces los conceptos básicos y cómo utilizar los módulos existentes, puedes explorar más y crear tus propios módulos personalizados. ¡El mundo de la programación está lleno de posibilidades infinitas!
 
-¡Happy coding! ✨👨‍💻
+Code will set you free ✨👨‍💻
