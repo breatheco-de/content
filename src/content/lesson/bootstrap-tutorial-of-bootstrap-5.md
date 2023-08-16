@@ -26,7 +26,7 @@ One of the broken things in CSS is the way that layouts work – working with **
 
 ## Everything is now divided into Rows and Columns.
 
-Bootstrap creators replicated the same concept that `<table>` had, but instead of using tables, they used `<div>` (boxed containers).  They can’t create their own HTML tags because that will require a new HTML version and would make Bootstrap incompatible with current browsers.  Tags must stay the same – that’s why they decided to override the `<div>` default behaviors with classes.
+Bootstrap creators replicated the same concept that `<table>` had, but instead of using tables, they used `<div>` (boxed containers). They can’t create their own HTML tags because that will require a new HTML version and would make Bootstrap incompatible with current browsers. Tags must stay the same, that's why they decided to override the `<div>` default behaviors with classes.
 
 ```html
 This is a row: <div class="row">
@@ -34,7 +34,7 @@ This is a column: <div class="col–sm–x">
 ```
 ![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/3884f515-dd7a-48f2-b238-9e2ec26de02d.png?raw=true)
 
-Bootstrap has divided the width of the screen in `12 slots` – each of them with 8.33% of the total width of the row.  The size of 1 column, can be between 1 and 12 slots.
+Bootstrap has divided the screen's width into `12 slots` – each of them with 8.33% of the total width of the row.  The size of 1 column, can be between 1 and 12 slots.
 
 On the flip side, columns were made to live within the rows (just like what happens between `<td>` and `<tr>`).   You always need to open a row before opening a column.  All columns in a row must always add up to a maximum of 12 slots.
 
@@ -58,7 +58,7 @@ It’s very easy to decide how your website will render in different screen size
 
 |**Col**   |**md**   |**x**
 |:---------|:--------|:----|
-|Means that this element should behave like a Bootstrap column.   |Means that it is specified for only for the devices with a "medium" sized screen.   |Specifies how many slots I want this column to take (remember you can take a max of 12 slots per row).   |
+|Means that this element should behave like a Bootstrap column.   |Means that it is specified only for the devices with a "medium" sized screen.   |Specifies how many slots I want this column to take (remember you can take a max of 12 slots per row).   |
 
 
 Bootstrap device sizes:   
@@ -71,7 +71,7 @@ Bootstrap device sizes:
 
 ## Defining Mobile, Tablet, and Desktop at the same time
 
-We are going to set the layout (using the sm, md and lg column classes) for  two rows in all the devices at the same time:
+We are going to set the layout (using the sm, md, and lg column classes) for  two rows in all the devices at the same time:
 
 ![bootstrap 5 columns example](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/e15c594c-9b46-4c27-bf5a-a5bbb5ef952a.png?raw=true)
 
@@ -143,11 +143,11 @@ When you import Bootstrap into your website, you will have a new set of componen
 ![bootstrap 5 components](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/8e9ff37a-28f7-4179-8f5d-9278ff7efd55.png?raw=true)
 
 
-### These are the most Important and Used Components in this Bootstrap tutorial:
+### These are the most important and Used Components in this Bootstrap tutorial:
 
 #### The NavBar
 
-This is so popular that it’s in the menu of 99% of all websites.  It normally has the logo of the company and a series of links – depending on each website’s business logic.
+This is so popular that it’s on the menu of 99% of all websites.  It normally has the logo of the company and a series of links – depending on each website’s business logic.
 
 Here is an example of how a NavBar may look on a website:
 
@@ -200,9 +200,9 @@ This is probably the most used Bootstrap component, every website has a few card
 + The typical Pinterest wall.
 + The feed in any social media like Instagram, Facebook, Twitter, etc.
 
-Here is an example of how a "The Card" may look on a website:
+Here is an example of how "The Card" may look on a website:
 
-![bootstrap 5 card](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png?raw=true)
+![bootstrap 5 cards](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png?raw=true)
 
 > 🔗 [**Read more about the card here**](https://getbootstrap.com/docs/5.2/components/card/)
 
@@ -251,11 +251,11 @@ Here is how a modal looks by default on Bootstrap.
 ```
 
 
-> ☝️ Important! The Modal needs JavaScript in order to work. Remember to include the three JavaScript files that are needed in a typical Bootstrap Skeleton: JS, Popper and Bootstrap.js
+> ☝️ Important! The Modal needs JavaScript in order to work. Remember to include the three JavaScript files that are needed in a typical Bootstrap Skeleton: JS, Popper, and Bootstrap.js
 
 ## What you really need to know about Bootstrap
 
-Bootstrap official documentation is amazing!  We don’t need to start copying and pasting all their posts.  Please visit the following and focus on reading these topics:
+The Bootstrap official documentation is amazing!  We don’t need to start copying and pasting all their posts.  Please visit the following and focus on reading these topics:
 
 + [The grid system.](https://getbootstrap.com/docs/5.2/layout/grid/)
 + [Styling Forms.](https://getbootstrap.com/docs/5.2/forms/overview/)
