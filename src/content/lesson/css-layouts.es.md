@@ -170,7 +170,7 @@ Es casi lo mismo, pero en vez de tener barras laterales a la izquierda como el m
 
 ### Diseño *Masonry* Compatible
 
-Pinterest hizo este layout universalmente conocido. Mediante el uso de esta “innovador” UI, se convirtieron en uno de los sitios webs más visitados en el mundo. El diseño *Masonry* distribuye las cajas de una manera óptima, primero trata de cubrir toda la fila añadiendo cajas a la derecha (añadiéndolas al final), y después salta a la fila siguiente cuando ya no hay espacio suficiente disponible.
+Pinterest hizo este layout universalmente conocido. Mediante el uso de esta “innovadora” UI, se convirtieron en uno de los sitios webs más visitados en el mundo. El diseño *Masonry* distribuye las cajas de una manera óptima, primero trata de cubrir toda la fila añadiendo cajas a la derecha (añadiéndolas al final), y después salta a la fila siguiente cuando ya no hay espacio suficiente disponible.
 
 Otra genialidad sobre *Masonry* es que cada caja puede tener su propia altura, cosa que es muy difícil en CSS porque los navegadores antiguos no soportan esas características y tendrás que usar JavaScript para arreglarlo.
 
