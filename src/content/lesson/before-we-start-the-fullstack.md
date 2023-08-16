@@ -12,7 +12,7 @@ The upcoming material assumes that you have a good level of understanding of the
 ## Things you should know about HTML/CSS
 
 - What is HTML, and what is it used for?
-- The most essential tags like headings (`<h1>, <h2>, <h3>`...), paragraphs (`<p>`), ordered/unordered lists (`<ol>, <ul>`), etc. Think about how each of these tags changes the *look and feel* and the behavior of your website. For example, what looks bigger, `<h1>` or `<h2>`? Why use `<ul>` instead of `<ol>`? Etc.
+- The most essential tags like headings (`<h1>, <h2>, <h3>`...), paragraphs (`<p>`), ordered/unordered lists (`<ol>, <ul>`), etc. Think about how each of these tags changes the look, feel and the behavior of your website. For example, what looks bigger, `<h1>` or `<h2>`? Why use `<ul>` instead of `<ol>`? Etc.
 - How to include a separate CSS stylesheet into your website by using the `<link>` tag.
 - How to override or enhance the way that HTML tags look and behave by using CSS selectors and rules, for example:
   - How can I select an element to update its styles? [By using a selector](https://4geeks.com/lesson/what-is-css-learn-css#wait-what-is-a-selector).
