@@ -52,7 +52,7 @@ Just like we did in the Layout chapter of the course, let’s create one page wi
 
 It’s very easy to decide how your website will render in different screen sizes; when you add each column into the rows you need to assign a class with the following format:
 
-```HTML
+```html
 <div class="col–md–x">
 ```
 
@@ -75,7 +75,7 @@ We are going to set the layout (using the sm, md, and lg column classes) for  tw
 
 ![bootstrap 5 columns example](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/e15c594c-9b46-4c27-bf5a-a5bbb5ef952a.png?raw=true)
 
-``html
+```html
 <!-- Stack the columns on mobile by making one full-width and the other half-width --> 
 <div class="row">
   <div class="col-12 col-md-8">.col-12 .col-md-8</div>
@@ -100,7 +100,7 @@ We are going to set the layout (using the sm, md, and lg column classes) for  tw
 
 We already know the basic HTML5 skeleton that any website needs to have.  Now you just have to add a few lines in your skeleton to make it "Bootstrap compatible":
 
-```HTML
+```html
 <!doctype html>
 <html lang="en">
   <head>
@@ -255,7 +255,7 @@ Here is how a modal looks by default on Bootstrap.
 
 ## What you really need to know about Bootstrap
 
-The bootstrap official documentation is amazing!  We don’t need to start copying and pasting all their posts.  Please visit the following and focus on reading these topics:
+The Bootstrap official documentation is amazing!  We don’t need to start copying and pasting all their posts.  Please visit the following and focus on reading these topics:
 
 + [The grid system.](https://getbootstrap.com/docs/5.2/layout/grid/)
 + [Styling Forms.](https://getbootstrap.com/docs/5.2/forms/overview/)
