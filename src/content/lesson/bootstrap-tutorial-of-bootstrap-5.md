@@ -26,9 +26,9 @@ One of the broken things in CSS is the way that layouts work – working with **
 
 ## Everything is now divided into Rows and Columns.
 
-Bootstrap creators replicated the same concept that `<table>` had, but instead of using tables, they used `<div>` (boxed containers).  They can’t create their own HTML tags because that will require a new HTML version and would make Bootstrap incompatible with current browsers.  Tags must stay the same, so they decided to override the `<div>` default behaviors with classes.
+Bootstrap creators replicated the same concept that `<table>` had, but instead of using tables, they used `<div>` (boxed containers). They can’t create their own HTML tags because that will require a new HTML version and would make Bootstrap incompatible with current browsers. Tags must stay the same, that's why they decided to override the `<div>` default behaviors with classes.
 
-```HTML
+```html
 This is a row: <div class="row">
 This is a column: <div class="col–sm–x">
 ```
@@ -71,11 +71,11 @@ Bootstrap device sizes:
 
 ## Defining Mobile, Tablet, and Desktop at the same time
 
-We are going to set the layout (using the sm, md and lg column classes) for  two rows in all the devices at the same time:
+We are going to set the layout (using the sm, md, and lg column classes) for  two rows in all the devices at the same time:
 
 ![bootstrap 5 columns example](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/e15c594c-9b46-4c27-bf5a-a5bbb5ef952a.png?raw=true)
 
-```HTML
+``html
 <!-- Stack the columns on mobile by making one full-width and the other half-width --> 
 <div class="row">
   <div class="col-12 col-md-8">.col-12 .col-md-8</div>
@@ -255,7 +255,7 @@ Here is how a modal looks by default on Bootstrap.
 
 ## What you really need to know about Bootstrap
 
-Bootstrap official documentation is amazing!  We don’t need to start copying and pasting all their posts.  Please visit the following and focus on reading these topics:
+The bootstrap official documentation is amazing!  We don’t need to start copying and pasting all their posts.  Please visit the following and focus on reading these topics:
 
 + [The grid system.](https://getbootstrap.com/docs/5.2/layout/grid/)
 + [Styling Forms.](https://getbootstrap.com/docs/5.2/forms/overview/)
