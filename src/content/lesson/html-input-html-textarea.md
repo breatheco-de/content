@@ -35,7 +35,7 @@ The following is a list of all the possible elements we can use to receive any i
 |Password   |`<input type="password" />`   |This is just like an input type="text" but with the only difference that the characters are hidden like bullets. The user cannot see what they are typing.<br>`<input type="password" name="password" />`   |
 |Radiobutton   |`<input type="radio">`   |Allows the user to select only one of all the available inputs with the same name.<br>`<input type="radio" name="color" value="red" />` <br> `<input type="radio" name="color" value="green" />`   |
 |Checkbox   |`<input type="check">`   |You have to use brackets in the name of the input to allow the user to select multiple options at the same time.<br>`<input type="check" name="color[]" value="green" />`<br> `<input type="check" name="color[]" value="blue" />`   |
-|File   |`<input type="file">`   |This is the only way to work with files. For example: It’s what websites use when they ask you to upload a picture.<br>`<input type="file" name="photo" value="" />`   |
+|File   |`<input type="file">`   |This is the only way to work with files. For example, It’s what websites use when they ask you to upload a picture.<br>`<input type="file" name="photo" value="" />`   |
 |Submit Button   |`<input type="submit">`   |When the form is ready to be sent, the user presses this "submit" button and everything is then sent to the server for processing.<br>`<input type="submit" value="Send Form" />`   |
 |Select   |`<select>`   |Asks the user to pick one or more elements from a list of options.<br>`<select name="color" /> <option value="red">Red </option> <option value="yellow">Yellow</option> <select />`   |
 
