@@ -11,8 +11,6 @@ status: "published"
 
 ---
 
-# Fetch API
-
 **A Quick Glance at the Fetch API**
 
 Think of a **fetch** as a simple Javascript Promise. You send a **request** to the server/API and expect to receive a **response**. The Fetch Api gives us the **fetch()** **method**, which allows us to access those requests and responses, using Javascript.

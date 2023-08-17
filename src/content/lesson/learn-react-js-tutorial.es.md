@@ -95,7 +95,7 @@ Ahora digamos que queremos que este componente devuelva una **Bootstrap card:** 
 
 ![learn react js tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/73edbb82-467c-4522-af7d-79c33bb270e2.png?raw=true)
 
-Así es como lo hacemos en una app React
+Así es como lo hacemos en una app React:
 
 ```jsx 
 import React from 'react';
@@ -183,7 +183,7 @@ import ReactDOM from 'react-dom'; //import obligtorio del react-dom package
 
 //creando nuestro componente React 
 function MyMainComponent (){ 
-    return <div>Hello World<div>;
+    return <div>Hello World</div>;
 }
 
 
@@ -235,16 +235,13 @@ Supongamos que tiene un [sitio web de una página](https://onepagelove.com/what-
 ```jsx 
 
 export function EntireWebsiteLayout (){
-    
-    render(){
-        return (
-            <div>
-                <Home />
-                <AboutUs />
-                <ContactUs />
-            </div>
-        );
-    }
+    return (
+        <div>
+            <Home />
+            <AboutUs />
+            <ContactUs />
+        </div>
+    );
 }
 //Está implícito que los componentes Home, AboutUs y ContactUs ya han sido definidos
 ```

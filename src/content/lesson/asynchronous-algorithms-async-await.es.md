@@ -11,8 +11,6 @@ tags: ["async","await","promise","asynchronous"]
 
 ---
 
-## Programación Asíncrona con JavaScript
-
 Hasta ahora, hemos utilizado código JavaScript para ejecutar aplicaciones web simples, que incluyen: usar variables, llamar a funciones y jugar con el ***DOM***. En las funciones, específicamente, incluso pasamos funciones a otras funciones (***funciones callback***) y hay mucho más que hablar al respecto. 
 
 Comencemos diciendo que JavaScript por defecto es síncrono y con una sola secuencia, es decir: el código se ejecuta desde la línea 1 hasta el último, uno a la vez y en ese orden normalmente. Échale un vistazo a este ejemplo:

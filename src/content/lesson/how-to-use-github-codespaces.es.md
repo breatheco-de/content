@@ -8,7 +8,7 @@ En esta lección, aprenderemos por qué los Entornos de Provisionamiento se est�
 
 ## ¿Por qué codificar en la nube en lugar de en tu computadora local?
 
-Codificar en la nube trae muchas limitaciones, como requerir y depender de una conexión a internet, pero la tendencia es clara; la mayoría de las empresas estarán usando entornos en la nube en los próximos años. Pero, ¿Por qué?
+Codificar en la nube trae muchas limitaciones, como requerir y depender de una conexión a internet, pero la tendencia es clara; la mayoría de las empresas estarán usando entornos en la nube en los próximos años. Pero, ¿por qué?
 
 > ¿Alguna vez has intentado seguir un tutorial en línea, pero después de seguir a fondo cada paso, el código aún no se ejecuta en tu computadora?
 
@@ -16,7 +16,7 @@ La codificación en tu computadora local también trae limitaciones: las computa
 
 ## ¿Por qué los Codespaces?
 
-Los Codespaces es la oferta de Github para la provisión de entornos de codificación. Esto simplifica dramáticamente el proceso de codificación, especialmente para los nuevos codificadores.
+Los Codespaces es la oferta de Github para la provisión de entornos de codificación. Esto simplifica dramáticamente el proceso de codificación, especialmente para los nuevos codificadores
 
 Con los codespaces, puedes abrir cualquier repositorio en un entorno de codificación en la nube y comenzar o continuar codificando en segundos.
 
@@ -61,28 +61,3 @@ Todo computador tiene una terminal, y puedes usarla para hacer casi todo lo que 
 No tienes que aprender los comandos de la terminal todavía, pero [recomendamos encarecidamente leer esta lección](https://4geeks.com/lesson/the-command-line-the-terminal) para familiarizarte con ella y entender sus funciones y limitaciones.
 
 ![terminal command](https://github.com/breatheco-de/content/blob/master/src/assets/images/terminal-command.png?raw=true)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

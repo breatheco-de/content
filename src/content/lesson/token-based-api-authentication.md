@@ -40,7 +40,7 @@ Other examples for every-day tokens:
 - Credit Card number proves you have a valid credit card.
 - Etc.
 
-### A security token it's more then just a number
+### A security token it's more than just a number
 
 Tokens used for authentication need to be more that normal just numbers, they need to be almost impossible to fake, predict or break.
 

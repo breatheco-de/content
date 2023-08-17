@@ -136,4 +136,4 @@ Now, every time we run `npm run start`,  node will run our `local.js` file.
 
 We covered how to run javascript in different environments, from the browser´s console to a fully installed NodeJS running with Visual Code (or the IDE of your choice). 
 
-Hope you enjoyed the reading and keep on the Geek side!
+You can check the 4Geeks Blog and will find more valuable content like [How to print in Javascript](https://4geeks.com/how-to/How-to-print-in-javascript) or [How to call a Function in Javascript](https://4geeks.com/how-to/how-to-call-a-function-in-javascript). Hope you enjoyed the reading and keep on the Geek side!

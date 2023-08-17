@@ -106,7 +106,7 @@ Por otra parte, si quieres sumar la cadena `"5"` con la cadena `"2"`, el resulta
 
 > Hablaremos mas sobre concatenación en otra lección.
 
-### Listas y Touples 
+### Listas y Tuples 
 
 Todos los principales lenguajes de programación tienen formas de almacenar listas de valores juntos; estos se llaman `arrays` (matrices) o `listas` (listas).
 

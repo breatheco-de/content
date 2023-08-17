@@ -26,7 +26,7 @@ Uno de los defectos en CSS, es la forma en que funcionan los layouts: trabajar c
 
 ## Ahora todo está dividido en Filas y Columnas
 
-Los creadores de Bootstrap, replicaron el mismo concepto que tienen las `<table>`, pero en vez de usar tablas usaron `<div>` (contenedores de cajas). Ellos no podían crear sus propias etiquetas en HTML, porque eso requiere una nueva versión de HTML e iba a hacer a Bootstrap incompatible con los navegadores actuales. Las etiquetas debían ser las mismas - por eso decidieron anular el comportamiento que tiene un `<div>` por defecto con las clases.
+Los creadores de Bootstrap, replicaron el mismo concepto que tienen las `<table>`, pero en vez de usar tablas usaron `<div>` (contenedores de cajas). Ellos no podían crear sus propias etiquetas en HTML, porque eso requiere una nueva versión de HTML e iba a hacer a Bootstrap incompatible con los navegadores actuales. Las etiquetas debían ser las mismas, por eso decidieron anular el comportamiento que tiene un `<div>` por defecto con las clases.
 
 ```html
 Esto es una fila: <div class="row">
@@ -258,7 +258,7 @@ div class="modal" tabindex="-1" role="dialog">
 ## Lo que realmente necesitas saber sobre Bootstrap
 
 
-La documentación oficial de Bootstrap es increíble!! No necesitamos copiar y pegar todos los post.  Por favor visita los siguientes sitios web y enfócate en leer estos temas:
+¡¡La documentación oficial de Bootstrap es increíble!! No necesitamos copiar y pegar todos los post.  Por favor visita los siguientes sitios web y enfócate en leer estos temas:
 
 + [The grid system.](https://getbootstrap.com/docs/4.1/layout/grid/)
 + [Styling Forms.](https://getbootstrap.com/docs/4.1/components/forms/)
@@ -266,7 +266,7 @@ La documentación oficial de Bootstrap es increíble!! No necesitamos copiar y p
 + [Utilities or Helper classes:](https://getbootstrap.com/docs/4.1/utilities/borders/) Clases muy útiles para hacer cosas como centrar el texto, centrar una columna o contenedor, agregar un fondo, etc.
 
  
-| :point_up : Versiones de Bootstrap y su descarga: 
+| ☝️ Versiones de Bootstrap y su descarga: 
 
 Bootstrap tiene varias versiones, siempre verifica que estés usando la última versión de Bootstrap en tu proyecto. Aquí podrás encontrar todas las versiones disponibles:[https://getbootstrap.com/docs/versions/](https://getbootstrap.com/docs/versions/).
 

@@ -17,7 +17,7 @@ Instead, your code will now be executed **asynchronously** (i.e. some pieces of 
 
 ### What is an Event?
 
-An event is something that happens during the runtime of your web application! Such as **clicking** on a button **pressing** a key on the keyboard, **hovering** a `div` with your mouse, etc.
+An event is something that happens during the runtime of your web application! Such as **clicking** on a button, **pressing** a key on the keyboard, **hovering** a `div` with your mouse, etc.
 
 Your job as a developer is to prepare for those events and define **handler functions** - the actions that are going to be handling each event.
 
@@ -171,7 +171,7 @@ function myEventHandler(eventObj)
 |:---------------|:------------------|
 |Target            |Returns the DOM element that triggered the event.      |
 |Type              |The type of event: click, mouseover, load, etc.      |
-|Cancelable       |If you can stop the event's default action or not.    |
+|Cancellable       |If you can stop the event's default action or not.    |
 |preventDefault()  |If the event is cancelable, this method stops the default action of it; for example, preventing a "submit" event of a form will result in the form not being submitted which can be useful if the form has errors that need to be corrected, etc.    |
 |stopPropagation()  |Stops an event from propagating (i.e. from triggering the same event in nested or parent elements).
 

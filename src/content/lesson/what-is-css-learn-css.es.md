@@ -127,6 +127,8 @@ En el siguiente ejemplo le estamos aplicando una clase "odd" a las celdas impare
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/rdLkmx1t/11/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/rdLkmx1t/11/embedded/html,css,result/">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
+
 ### Selector por etiqueta (Tag)
 
 |**Selector**   |**Descripción**   |**Ejemplo**   |
@@ -136,6 +138,8 @@ En el siguiente ejemplo le estamos aplicando una clase "odd" a las celdas impare
 En el siguiente ejemplo vamos a colocar fondo verde a todos los `td` (celdas) de la tabla:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/y89Lgwb0/11/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/y89Lgwb0/11/embedded/html,css,result/">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
 
 ### Multiselector
 
@@ -171,7 +175,6 @@ Hay otros selectores más específicos y avanzados. Probablemente lo usarás cua
 
 ## Conflictos y herencia
 
-
 ¿Qué pasa si un elemento de la página está seleccionado por dos selectores y tiene asignado el color de letra verde en una definición y rojo en la otra? Es decir, si le decimos al navegador dos colores diferentes, ¿qué color utilizará al final?
 
 ![Aprende CSS](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/08e78606-102f-4bc2-a066-7c26ae9400d5.png?raw=true)
@@ -180,14 +183,18 @@ Tienes que entender muy bien la jerarquía de CSS para comprender como los eleme
 
 El navegador le da prioridad a los selectores más específicos, como al `#id`, que a los selectores generales, como los tags (etiquetas). En el siguiente ejemplo, cambiamos el color de todos los  `<li>`  (los elementos de la lista) a azul, y luego cambiamos el texto del segundo elemento a color rojo. De esta manera demostramos que el selector ID siempre prevalece por encima de los otros elementos, esto se debe a que pertenecen a la misma etiqueta.
 
-## Propiedades
+<iframe width="100%" height="300" src="//jsfiddle.net/josemoracard/p6mbve3k/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+<div align="right"><small><a href="//jsfiddle.net/josemoracard/p6mbve3k/embedded/html,css,result/">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
+
+## Propiedades
 
 Ya vimos que una hoja de estilos CSS no es más que una lista que define las propiedades que queremos asignar a los diferentes elementos de la página. Ahora veremos cuáles podemos asignar a estos elementos.
 
 Hay cientos - sino miles - de propiedades, pero dependiendo del tipo de elemento/etiqueta que queremos definir, sabremos en cuáles debemos enfocarnos.
 
 #### Editando tipografía
+
 |Propiedad   |Descripción   |Valores   |
 |:----------|:-------------|:----------|
 |[font-family](http://www.mclibre.org/consultar/htmlcss/css/css-fuente.html#font-family)   |tipo de letra (fuente) | name-font \| generic-family    |

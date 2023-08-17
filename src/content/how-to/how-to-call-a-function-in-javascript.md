@@ -40,7 +40,7 @@ function sumNumbers(a, b) {
 	return a + b;
 }
 ```
-To declare a function, first, we need to write the **keyword `function`**,  since this is a Javascript keyword, it must be always written in lowercase (otherwise we will get an error). Next to the keyword, we will write the **function's name**, in this case, is **`sumNumbers`**, next to the name we have the **parentheses `()`**, where the parameters to be used in the function will be contained (in this case the parameters are `a` and `b` which will be the numbers to be summed). Last but not least, we have the **curly braces `{}`**, where the body or statements of the function will be written.
+In order to declare a function, first, we need to write the **keyword `function`**,  since this is a Javascript keyword, it must be always written in lowercase (otherwise we will get an error). Next to the keyword, we will write the **function's name**, in this case, is **`sumNumbers`**, next to the name we have the **parentheses `()`**, where the parameters to be used in the function will be contained (in this case the parameters are `a` and `b` which will be the numbers to be summed). Last but not least, we have the **curly braces `{}`**, where the body or statements of the function will be written.
 
 If we run the code as it is, nothing will happen since we just declared the function. If we want to execute the function we need to call it. A simple way to call the previous function is the following:
 
@@ -206,4 +206,4 @@ let helloWorld = () => console.log("Hello World");
 helloWorld();
 ```
 
-We hope that this information serves you well on how to call a function in javascript, keep coding!
+We hope that this information serves you well on how to call a function in javascript, you can check the 4Geeks Blog and will find more valuable content like [How to print in Javascript](https://4geeks.com/how-to/How-to-print-in-javascript) or [How to call a Function in Javascript](https://4geeks.com/how-to/how-to-call-a-function-in-javascript)

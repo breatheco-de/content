@@ -10,7 +10,7 @@ GitHub.com es el epicentro de tu viaje como desarrollador de software; interactu
 - Es tu portafolio profesional: como un currículum.
 - Es la tecnología necesaria para colaborar con otros desarrolladores.
 - Tu perfil de GitHub es revisado por reclutadores al considerar contratarte.
-- También puedes conocer a otros desarrolladores y proyectos o bibliotecas interesantes: como Linked in.
+- También puedes conocer a otros desarrolladores y proyectos o bibliotecas interesantes: Similar a Linked in.
 
 > Github es `LinkedIn + Google Drive` pero para desarrolladores.
 
@@ -22,9 +22,9 @@ Todos tienen un perfil ubicado en: `https://github.com/<your username>`.
 Por ejemplo: el mío es [github.com/alesanchezr](https://github.com/alesanchezr) (¡sígueme 🙂!)
 
 En esta imagen, encontrarás las partes esenciales de tu perfil.
-![Github Profile Explanation](https://github.com/breatheco-de/content/blob/master/src/assets/images/github-profile.png?raw=true).
+![Github Profile Explanation](https://github.com/breatheco-de/content/blob/master/src/assets/images/github-profile.png?raw=true)
 
-> Nota: hay muchas formas de [hacer que tu perfil de GitHub sea increíble](https://4geeks.com/lesson/building-your-github-profile-and-reputation).
+> Nota: hay muchas formas de [hacer que tu perfil de GitHub sea increíble](https://4geeks.com/es/lesson/building-your-github-profile-and-reputation-es).
 
 ## ¿El repositorio de GitHub?
 
@@ -35,7 +35,7 @@ El propósito original de Github (antes de convertirse en una red social y mucha
 ![The typical Github Repository Page](https://raw.githubusercontent.com/breatheco-de/knowledge-base/main/images/breatheco-de-exercise-postcard-The-ideal-first-project-for-anyone-interested-in-practicing-HTML-CSS-with-a-real-life-example-.png)
 Arriba puedes ver una explicación de la típica página de repositorio de Github.
 
-Todo en Github gira en torno a los repositorios de código:
+### Todo en Github gira en torno a los repositorios de código:
 
 1. Puedes crear nuevos repositorios para cada proyecto que comiences y cargar tu código en ese repositorio.
 2. Comparte el repositorio con todos, a la gente 👍🏼 le gusta, 📣 comenta sobre él, abre tickets sobre correcciones de errores, solicita nuevas características, etc.
@@ -61,7 +61,7 @@ El código abierto se ha convertido en uno de los principales motores del mundo 
 - Puedes buscar etiquetas o tecnologías.
 - Hay una fuente de actividad y puedes ver qué están haciendo otros desarrolladores que sigues.
 - Algunas personas curan repos: aquí hay una [lista impresionante de repos](https://github.com/topics/awesome).
-- También puedes ver repos tendencia y recomendaciones en la fuente.
+- También puedes ver repos en tendencia y recomendaciones en la fuente.
 
 
 

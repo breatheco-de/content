@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-> :point_up:  Windows users don't use the same terminal commands, but you should learn and practice them anyway because they are heavily used when publishing your apps on any web hosting, Gitpod, Codespaces, Cloud9, etc. You can use [Git SCM](https://git-scm.com/downloads) to create a similar terminal on your computer.
+> ☝  Windows users don't use the same terminal commands, but you should learn and practice them anyway because they are heavily used when publishing your apps on any web hosting, Gitpod, Codespaces, Cloud9, etc. You can use [Git SCM](https://git-scm.com/downloads) to create a similar terminal on your computer.
 
 ## Why do Developers love the Command Line?
 
@@ -42,7 +42,7 @@ The last thing we have to add is the "argument." In this case, the "argument" wi
 
 ## What can you do in the Terminal?
 
-Your computer has files, directories, and applications. Your command line is able to deal with all three of them. Use commands to move within the files and directories (like the `cd` command).  Every application that you install comes with a set of commands that become available at the moment you install the app (like the GIT command).
+Your computer has files, directories, and applications. Your command line is able to deal with all three of them. Use commands to move within the files and directories (like the `cd` command).  Every application that you install comes with a set of commands that become available the moment you install the app (like the GIT command).
 
 ## Here is how the File System looks in a Visual Interface vs the Terminal:
 
@@ -83,7 +83,7 @@ cd /path/to/directory
 
 ### The mv command
 
-**The move command?**
+**The move command**
 
 Move a file to another folder or directory.  Just like dragging a file located on a PC desktop to a folder stored within the "Documents" folder.
 
@@ -133,7 +133,7 @@ rmdir path/of/targetdirectory/mydirectory
 #removes mydirectory from "targetdirectory" 
 ```
 
-> :point_up: It will only remove empty directories, to empty all directory files use the `rm -r` command (-r flag forces the remove command to delete the directory and all the files within it). Pro-tip: you can use `rm *` to delete all of the files inside a directory simultaneously; use with caution.
+> ☝ It will only remove empty directories, to empty all directory files use the `rm -r` command (-r flag forces the remove command to delete the directory and all the files within it). Pro-tip: you can use `rm *` to delete all of the files inside a directory simultaneously; use with caution.
 
 ### The cp command
 
@@ -187,10 +187,10 @@ nano path/to/the/textfile.txt
 #opens a text editor to start editing the content of textfile.txt 
 #if textfile.txt does not exist, it will create it!
 ```
-When nano opens, it will show a top bar with the current version of the nano application; the name of the file being edited; and, a status telling you if the files were modified or not.
+When nano opens, it will show a top bar with the current version of the nano application; the name of the file being edited; and a status telling you if the files were modified or not.
 
 At the bottom you will see the most often used commands in nano such as: exit, where is, get help, etc.
 
 ![the command line the terminal](https://github.com/breatheco-de/content/blob/master/src/assets/images/6128e9f7-b460-4b10-80e4-34057b7d4df9.png?raw=true)
 
-> :point_up: This website has a ton of great mini-challenges to help you practice the command line: <br>https://cmdchallenge.com/
+> ☝ This website has a ton of great mini-challenges to help you practice the command line: <br>https://cmdchallenge.com/

@@ -159,4 +159,4 @@ We have been using `expect(something).toBe(something)` but jest has a lot of pos
 | Expect variable to be defined | expect(variable_name).toBeDefined() |
 | Expect array to contain another | expect(['a','b','c','e']).toEqual(expect.arrayContaining(['b','c'])) |
 
-Note: [Here you can find all the possible `expect` functions you can use.](https://jestjs.io/docs/en/expect)
+> Note: [Here you can find all the possible `expect` functions you can use.](https://jestjs.io/docs/en/expect)

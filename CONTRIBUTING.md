@@ -25,5 +25,5 @@ After you have been asked to write a piece of content:
 
 ## Recomended ways to link articles
 
-- Find a [cool exercise]([https://4geeks.com/interactive-coding-tutorials](https://4geeks.com/interactive-exercises) that people can build to practice related to the article and technologies you are talking about, include the project landing page.
+- Find a [cool exercise](https://4geeks.com/interactive-exercises) that people can build to practice related to the article and technologies you are talking about, include the project landing page.
 - Find a [cool project](https://4geeks.com/interactive-coding-tutorials) that people can build to practice related to the article and technologies you are talking about, include the project landing page.
