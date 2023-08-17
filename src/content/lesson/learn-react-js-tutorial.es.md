@@ -235,16 +235,13 @@ Supongamos que tiene un [sitio web de una página](https://onepagelove.com/what-
 ```jsx 
 
 export function EntireWebsiteLayout (){
-    
-    render(){
-        return (
-            <div>
-                <Home />
-                <AboutUs />
-                <ContactUs />
-            </div>
-        );
-    }
+    return (
+        <div>
+            <Home />
+            <AboutUs />
+            <ContactUs />
+        </div>
+    );
 }
 //Está implícito que los componentes Home, AboutUs y ContactUs ya han sido definidos
 ```
