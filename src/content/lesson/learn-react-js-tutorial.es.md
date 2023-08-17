@@ -234,17 +234,14 @@ Supongamos que tiene un [sitio web de una página](https://onepagelove.com/what-
 
 ```jsx 
 
-export class EntireWebsiteLayout extends React.Component{
-    
-    render(){
-        return (
-            <div>
-                <Home />
-                <AboutUs />
-                <ContactUs />
-            </div>
-        );
-    }
+export function EntireWebsiteLayout (){
+    return (
+        <div>
+            <Home />
+            <AboutUs />
+            <ContactUs />
+        </div>
+    );
 }
 //Está implícito que los componentes Home, AboutUs y ContactUs ya han sido definidos
 ```
