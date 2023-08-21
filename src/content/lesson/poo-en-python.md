@@ -1,9 +1,16 @@
+---
+title: "¿Qué es la Programación Orientada a Objetos?"
+subtitle: "Descubre qué es la Programación Orientada a Objetos y entiende los fundamentos detrás de esta poderosa metodología de desarrollo de software."
+tags: ["python" ; "programacion-orientada-a-objectos"]
+authors: ["DF27ARTS"]
+
+---
 
 ## Introducción a la Programación Orientada a Objetos en Python 
 
 ¡Hola, futuro maestro del código! En esta lectura, exploraremos el fascinante mundo de la Programación Orientada a Objetos (POO). Descubrirás qué es la POO y cómo esta poderosa técnica te permite crear programas más organizados, reutilizables y fáciles de mantener.
 
-A continuación veremos un pequeño ejemplo sobre cómo representar una persona con una clase de Python.
+A continuación veremos un pequeño ejemplo sobre cómo representar una persona con una clase de [Python](https://4geeks.com/es/lesson/como-programar-en-python).
 
 ```py
 class Persona:
@@ -213,6 +220,6 @@ La POO ofrece numerosas ventajas que hacen que la programación sea más eficien
     
 -   **Modelado del Mundo Real**: La POO te permite modelar entidades y procesos del mundo real de manera natural, lo que hace que el código sea más intuitivo.
 
-La Programación Orientada a Objetos (POO) es una técnica fundamental que te permite crear programas más organizados, reutilizables y fáciles de mantener. Ahora que tienes una comprensión básica de la POO, ¡puedes comenzar a crear tus propias clases y objetos para darle vida a tus proyectos!
+La Programación Orientada a Objetos (POO) es una técnica fundamental que te permite crear programas más organizados, reutilizables y fáciles de mantener. Ahora que tienes una comprensión básica de la POO, ¡puedes comenzar a crear tus propias clases y objetos para darle vida a tus proyectos! Si quieres conocer más sobre este lenguaje de programación te invito a que leas el siguiente [tutorial de Python](https://4geeks.com/es/lesson/como-programar-en-python) en el Blog de [4Geeks](https://4geeks.com/es).
 
 Code will set you free ✨👨‍💻
