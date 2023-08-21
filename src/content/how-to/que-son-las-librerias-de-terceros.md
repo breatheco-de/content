@@ -13,6 +13,9 @@ pip install pandas
 ```py
 import pandas as pd
 ```
+
+> El `as` se utiliza para asignarle un alias propio a la librería para que sea más fácil de utilizar. No es obligatorio usarlo.
+
 3. Ahora ya puedes usar pandas, en tu propio código.
 ```py
 data_frame = pd.DataFrame({
@@ -31,11 +34,11 @@ print(data_frame)
 2  Olivia  Williams    23
 ```
 
-En este ejemplo, creamos un pequeño dataframe con la ayuda de la función `DataFrame()` de librería de **Pandas** y luego le agregamos la información de tres usuarios diferentes, después mostramos la información de los usuarios en la consola.
+En este ejemplo, creamos un pequeño dataframe con la ayuda de la función `DataFrame()` de la librería de **Pandas** y luego le agregamos la información de tres usuarios diferentes, después mostramos la información de los usuarios en la consola.
 
 ## ¿Qué son las librerías de terceros?
 
-Las librerías de terceros son colecciones de código desarrolladas por programadores externos. Estas librerías o paquetes encapsula una funcionalidad específica que puede ser reutilizada en diferentes proyectos según tus necesidades. En lugar de escribir el código una y otra vez cada vez que necesitas realizar una tarea común o compleja, puedes confiar en las librerías de terceros que ya tiene creado y testeado ese código y así ahorrar tiempo y esfuerzo. Para descargar una librería de Python puedes usar el sistema de gestión de paquetes **pip** (Pip Install Packages).
+Las librerías de terceros son colecciones de código desarrolladas por programadores externos. Estas librerías o paquetes encapsulan una funcionalidad específica que puede ser reutilizada en diferentes proyectos según tus necesidades. En lugar de escribir el código una y otra vez cada vez que necesitas realizar una tarea común o compleja, puedes confiar en las librerías de terceros que ya tiene creado y testeado ese código y así ahorrar tiempo y esfuerzo. Para descargar una librería de Python puedes usar el sistema de gestión de paquetes **pip** (Pip Install Packages).
 
 -  Para instalar cualquier librería usa la siguiente sintaxis:
 
