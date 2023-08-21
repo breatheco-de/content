@@ -1,6 +1,12 @@
-# What does a double equal sign mean in Python?
+---
+title: "What does a double equal sign mean in Python?"
+subtitle: "Learn the meaning of the double equal sign in Python. Explore how it works for equality comparison and make your code more powerful."
+tags: ["python"]
 
-In Python, the double equal sign `==` is a relevant operator that is used to compare two variables or values and  determine whether they are equal or not. We will explore the  utility of this operator in Python and  how can be used in different situations. Let’s start with a quick example so we can understand its functionality.
+---
+
+
+In Python, the double equal sign `==` is a relevant operator that is used to compare two variables or values and  determine whether they are equal or not. We will explore the  utility of this operator in Python and  how can be used in different situations. We prepared an article as an [Intro to Python](https://4geeks.com/lesson/intro-to-python) that we recommend to check before reading the following piece of content. Let’s start with a quick example so we can understand its functionality.
 
 Let’s suppose that we have 2 variables called `a` and `b` with the following values assigned to:
 
@@ -70,4 +76,4 @@ Finally, in this last example, we are comparing two boolean variables and becaus
 
 The double equal sign operator in Python is completely essential when we want to compare values and evaluate conditions with if statements. This allows us to check if values are the same or not, which leads to different outputs depending on the values we have on variables. 
 
-We hope you can understand the use and importance of the double equal sign operator in Python. Now, you can enhance your programming skills with this knowledge and take better decisions in your apps.
+We hope you can understand the use and importance of the double equal sign operator in Python. Now, you can enhance your programming skills with this knowledge and take better decisions in your apps. You can check the [4Geeks Blog](https://4geeks.com) for more amazing content. 
