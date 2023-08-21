@@ -1,3 +1,11 @@
+---
+title: "¿Cómo crear diagramas de clases UML?"
+subtitle: "Aprende a crear diagramas de clases UML. Descubre cómo representar las estructuras de tus programas de manera visual y efectiva. ¡Domina la técnica ahora!""
+tags: ["uml;" ; "class-diagram"]
+authors: ["DF27ARTS"]
+
+---
+
 ## ¿Cómo crear un diagrama de clases UML?
 
 Un diagrama de clases es una de las herramientas más importantes en el lenguaje de modelado UML (Unified Modeling Language), utilizado para visualizar las clases y sus relaciones en un sistema POO (Programming Object Oriented). Un diagrama de clases muestra las clases del sistema, sus atributos, métodos y las relaciones entre ellas, como la herencia y la asociación de clases. En este artículo veremos ejemplos sobre cómo crear un diagrama de clases UML paso a paso.
@@ -82,4 +90,4 @@ Existen varias aplicaciones o sitios web que puedes usar para realizar un diagra
 
 ## Conclusión
 
-Los diagramas de clases UML son una herramienta esencial para el modelado de sistemas orientados a objetos, Declararlos de forma correcta y usando las aplicaciones adecuadas dependiendo del tipo de proyecto nos permiten visualizar de manera más efectiva las estructuras de nuestro sistema, lo que contribuye a un proceso de desarrollo de software más eficiente y exitoso.
+Los diagramas de clases UML son una herramienta esencial para el modelado de sistemas orientados a objetos, Declararlos de forma correcta y usando las aplicaciones adecuadas dependiendo del tipo de proyecto nos permiten visualizar de manera más efectiva las estructuras de nuestro sistema, lo que contribuye a un proceso de desarrollo de software más eficiente y exitoso. Encontrarás más información valiosa en el Blog de [4Geeks](https://4geeks.com/es).
