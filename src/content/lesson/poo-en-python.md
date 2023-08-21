@@ -1,7 +1,7 @@
 ---
 title: "¿Qué es la Programación Orientada a Objetos?"
 subtitle: "Descubre qué es la Programación Orientada a Objetos y entiende los fundamentos detrás de esta poderosa metodología de desarrollo de software."
-tags: ["python" ; "programacion-orientada-a-objectos"]
+tags: ["python", "programacion-orientada-a-objectos"]
 authors: ["DF27ARTS"]
 
 ---
