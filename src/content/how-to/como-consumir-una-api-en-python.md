@@ -1,6 +1,6 @@
 ## ¿Cómo consumir una API en Python?
 
-En el mundo del desarrollo moderno es muy común hacer uso de una API (Interface de Programación de Aplicaciones) para conectarse a servicios de terceros. Por ejemplo, si estas creando una aplicación donde necesitas rastrear la ubicación de los usuarios, en lugar de escribir todo el código necesario para eso, puedes simplemente hacer uso de la API de google maps.
+En el mundo del desarrollo moderno es muy común hacer uso de una API (Application Programming Interface) para conectarse a servicios de terceros. Por ejemplo, si estas creando una aplicación donde necesitas rastrear la ubicación de los usuarios, en lugar de escribir todo el código necesario para eso, puedes simplemente hacer uso de la API de google maps.
 
 En este artículo veremos cómo consumir una API en Python con ayuda de la librería **Requests**. En el siguiente ejemplo veremos un caso sencillo de una petición **GET** a la API gratuita de [jsonplaceholder](https://jsonplaceholder.typicode.com/).
 
@@ -52,13 +52,13 @@ Data: {
 }
 ```
 
-En este ejemplo, hacemos uso de el método `get(api_url)` de la librería requests para traer la información de de un usuario falso proporcionada por la API de **jsonplacehorder**, este método retorna la información recibida desde la API y se guarda en la variable `response`. Si la solicitud fue exitosa la petición retorna un `status_code` de 200 o similar y la información del usuario, pero si ocurrió algún error en la proceso retorna un `status_code` de 400 o similar y un mensaje con el motivo del error.
+En este ejemplo, hacemos uso del método `get(api_url)` de la librería requests para traer la información de de un usuario falso proporcionada por la API de **jsonplacehorder**, este método retorna la información recibida desde la API y se guarda en la variable `response`. Si la solicitud fue exitosa la petición retorna un `status_code` de 2XX (Entre 200 y 299) y la información del usuario, pero si ocurrió algún error en la proceso retorna un `status_code` de 4XX (Entre 400 y 499) y un mensaje con el motivo del error.
 
 ## ¿Qué es una API en Python?
 
 Las APIs son mecanismos que permiten a dos componentes de software comunicarse entre sí mediante un conjunto de definiciones y protocolos. En el contexto de la programación, una API se utiliza para acceder a funciones y datos de una aplicación externa. En Python, las APIs son una forma común de obtener y manipular datos desde servicios en línea, como servicios web, bases de datos y otros recursos externos.
 
-Un ejemplo común de una API sería la [api-del-clima](https://openweathermap.org/api) que te brinda información básica sobre el clima de cualquier cuidad o país, si necesitas realizar una aplicación que requiera información sobre el clima de cualquier parte del mundo, puedes hacer uso de esta API a través de protocolos **HTTP** para conseguir esa información y poder usarla directamente en tu aplicación.
+Un ejemplo común de una API sería la [api del clima](https://openweathermap.org/api) que te brinda información básica sobre el clima de cualquier ciudad o país, si necesitas realizar una aplicación que requiera información sobre el clima de cualquier parte del mundo, puedes hacer uso de esta API a través de protocolos **HTTP** para conseguir esa información y poder usarla directamente en tu aplicación.
 
 ## ¿Cómo consumir una API?
 
@@ -77,7 +77,7 @@ Esta librería te permite acceder a la información obtenida desde una API de un
 |`response.headers`    | Proporciona los headers de la petición.                                                                                                      |
 |`response.cookies`    | Proporciona las cookies de la petición.                                                                                                      |
 |`response.encoding`   | Contiene la codificación de la petición, ejemplo: utf-8.                                                                                     |
-|`response.json()`     | Guarda la información que viene desde la API, por ejemplo, en la API del clima, un lista de diccionarios con la información de las ciudades. |
+|`response.json()`     | Guarda la información que viene desde la API, por ejemplo, en la API del clima, una lista de diccionarios con la información de las ciudades.|
 
 > Nota importante, las peticiones a la API de **jsonplaceholder** sólo simulan el comportamiento de una API real, no todas las peticiones son funcionales, por ejemplo, si hacer una petición de tipo POST la API de **jsonplaceholder** la información NO se guardará en los servidores de la API pero la API te responde con un mensaje que simula que si.
 
@@ -110,7 +110,7 @@ Data: {
 }
 ```
 
-En este ejemplo, hacemos uso de el método `get()` de la librería requests para traer la información de un post simulado por la API de **jsonplaceholder**, esta información será guardada en la variable `response`, luego con un condicional `if else` verificamos si la petición a la API se realizó de forma correcta, de ser así mostramos la información en la consola, de lo contrario imprimimos un mensaje con el error.
+En este ejemplo, hacemos uso del método `get()` de la librería requests para traer la información de un post simulado por la API de **jsonplaceholder**, esta información será guardada en la variable `response`, luego con un condicional `if else` verificamos si la petición a la API se realizó de forma correcta, de ser así mostramos la información en la consola, de lo contrario imprimimos un mensaje con el error.
 
 ### Ejemplo con la solicitud POST
 
