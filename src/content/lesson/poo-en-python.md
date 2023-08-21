@@ -20,11 +20,11 @@ class Persona:
         self.edad = edad
 
     def mensaje_presentacion(self):
-        return f"!Hola¡, me llamo {self.nombre} {self.apellido} y tengo {self.edad} años de edad"
+        return f"¡Hola!, me llamo {self.nombre} {self.apellido} y tengo {self.edad} años de edad"
 
 
 persona = Persona("Thomas", "Smith", 27)
-print(persona.mensaje_presentacion()) # output: !Hola¡, me llamo Thomas Smith y tengo 27 años de edad
+print(persona.mensaje_presentacion()) # output: ¡Hola!, me llamo Thomas Smith y tengo 27 años de edad
 ```
 
 En este ejemplo vemos cómo representar una persona haciendo uso de este estilo de la programación orientada a objetos (POO), para representar un objeto del mundo real en una clase, primeros debes crear una clase con el nombre de ese objeto, luego dentro de la clase creas la función `__init__()` y dentro de esta función crearás las propiedades de tu objeto como por ejemplo el nombre, la edad, el peso etc..., también puedes crear funciones (métodos) para tu manipular las propiedades del objeto.
