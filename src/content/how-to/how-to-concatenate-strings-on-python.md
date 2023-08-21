@@ -97,7 +97,7 @@ print(f"At {geek_number}{geek_word} Academy we love Python! <3")
 
 ## Concatenate using .format()
 
-Another way to concatenate in Python is by making use of the `format()` method. It works similar to `f-Strings` since they both use curly brackets `{}` to insert variables but is available from version 2.7.
+Another way to concatenate [strings in Python](https://4geeks.com/lesson/working-with-strings-in-python) is by making use of the `format()` method. It works similar to `f-Strings` since they both use curly brackets `{}` to insert variables but is available from version 2.7.
 
 This method doesn't need either to convert the number values into strings.
 
