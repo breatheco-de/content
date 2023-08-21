@@ -1,7 +1,7 @@
 ---
 title: "¿Cómo crear diagramas de clases UML?"
 subtitle: "Aprende a crear diagramas de clases UML. Descubre cómo representar las estructuras de tus programas de manera visual y efectiva. ¡Domina la técnica ahora!"
-tags: ["uml" ; "class-diagram"]
+tags: ["uml", "class-diagram"]
 authors: ["DF27ARTS"]
 
 ---
