@@ -1,12 +1,12 @@
 ---
 title: "How to concatenate Strings on Python"
-subtitle: "On how to concatenate Strings in Python we explore different ways to concatenate and your choosing will depend on your style and needs."
+subtitle: "Learn how to concatenate strings in Python efficiently. Explore string manipulation techniques and enhance your coding skills today!"
 tags: ["python"]
 
 ---
 
 <!-- hide -->
-# How to concatenate Strings on Python
+## How to concatenate Strings on Python
 <!-- endhide -->
  
 String concatenation is the process of adding two strings together in one. The easiest way to concatenate strings in Python would be to use the **format string** method. This method consists on adding the letter "f" before the string quote marks like this `f"Hello world"` , then you can concatenate variables by calling them between brackets `{}` inside the string quote marks. Here is an example of how to use it:
