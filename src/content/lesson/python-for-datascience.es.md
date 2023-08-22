@@ -3,49 +3,36 @@ title: "Data Science con Python"
 subtitle: "Python es un lenguaje multipropósito, en esta lección comprenderás cómo se usa en el mundo de la Ciencia de Datos"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
-status: "draft"
+status: "publised"
 date: "2022-01-15T16:36:30+00:00"
 tags: ["data-science", "python", "pandas", "numpy"]
 canonical: ""
 ---
 
-Esta lección es una hoja de ruta sobre cómo aprender Python para la ciencia de datos. Si ya conoces Python y tienes aunque sea un poco de experiencia con las librerías de ciencia de datos Pandas, Numpy, etc. Puedes pasar directamente a la siguiente lección.
+**Python** es un lenguaje de programación muy versátil y que se utiliza en multitud de casos: desarrollo de aplicaciones web (front y back), juegos para móvil, simulaciones, redes, automatizaciones, Inteligencia Artificial, etcétera. Esta versatilidad convierte este lenguaje en el más utilizado con mucha diferencia al resto, y es una gran ventaja para cualquier perfil técnico conocerlo.
 
-Python es un lenguaje muy diverso utilizado para construir robots, redes, sitios web, APIs, juegos, inteligencia artificial, y más. Dependiendo de lo que estés haciendo, la sintaxis puede variar tanto que te cueste recconocer las similitudes entre las bases de código.
+> NOTA: Se estima que en 9 de cada 10 empresas utilizan Python en alguno de sus procesos, y que estos procesos son fundamentales para el correcto funcionamiento de la compañía.
 
-No me mal interpretes, no importa lo que estés construyendo, vas a estar utilizando bucles, condiciones, expresiones lógicas, filtrado, funciones y clases; pero harás esas cosas de maneras que se sientan diferentes. Dejame darte un ejemplo:
+Python es un lenguaje fácil de aprender y de utilizar, con características inherentes que le convierten en una buena alternativa frente a otros más tradicionales.
 
-Muchas maneras de filtrar colores
-Si tu quieres filtrar una lista de números con solamente números impares, puedes hacerlo de esta manera:
+## Librerías
 
-```python
-# Esta es nuestra lista común de números
-numeros = [23,34,5,6,45,34,23,5,45,5,324,23,354,65,564,45,342]
+Una **librería** (*library*) es una colección de funciones predefinidas y que se realizan con un fin determinado. El objetivo es simplificar el trabajo del desarrollador y no tenerlas que programar desde cero. Existen multitud de ellas y se organizan según su utilidad. Como Python es el lenguaje más utilizado en el ámbito del Data Science y de la Inteligencia Artificial, algunas de sus librerías más utilizadas son relativas a estos campos:
 
-# Filtrado con Python básico 3
-impares = [n for n in numbers if n % 2 != 0]
-print(impares)
+- Scikit-learn
+- NuPIC
+- Ramp
+- Numpy
+- Pandas
+- TensorFlow
+- Keras
+- Pipenv
+- Scipy
+- Matplotlib
 
-# Filtrado con Python básico 3
-impares = list(filter(lambda n: n % 2 != 0,numeros))
-print(impares)
+De este top 10 la mayoría se utilizan en los procesos de Machine Learning, NLP, Visión Artificial y muchas otras áreas de la inteligencia artificial. Por ello, es vital que conozcas y sepas utilizar algunas de estas librerías, que son clave para cualquier labor de ciencia de datos.
 
-# Filtrado con numpy
-import numpy as np
-impares = np.array(numeros)
-print(impares[impares % 2 != 0])
-```
-En el ejemplo anterior, los 3 métodos van a filtrar y dar como resultado la misma lista de números impares, pero en segundo plano (en el nivel más bajo de la máquina), las cosas se ejecutan de una manera muy diferente.
 
-Por esta y muchas otras razones, es conveniente comenzar aprendiendo la sintaxis de la `DataScience` (ciencia de datos) desde un principio.
-
-## Aprendiendo Python por la Ciencia de Datos
-
-En el mundo de la ciencia de datos de Python, hay una familia de librerías que están en la parte superior de la cadena alimenticia: Numpy, Pandas, Seaborn, Matplotlib, Scikit, etc. Vamos a estar aprendiendo cada una de ellas durante las próximas semanas, mientras construyes projectos de la vida real.
-
-### Función de ayuda
-
-Vamos a utilizar MUCHOS códigos y funciones de terceros (de otras personas); es mejor aprender sobre una característica de Python llamada `help()` (ayuda), que te dirá como se utiliza casi todo.
 
 ### Los puntos en común
 
