@@ -3,107 +3,52 @@ title: "Python for Data Science"
 subtitle: "Python is a multipurpose language, in this lesson you will understand how it's used in the datascience world"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
-status: "draft"
+status: "published"
 date: "2022-01-15T16:36:30+00:00"
 tags: ["data-science", "python", "pandas", "numpy"]
 canonical: ""
 ---
 
-This lesson is a roadmap on how to learn Python for data science. If you already know Python and have -at least some- experience with the data science libraries Pandas, Numpy, etc. You can skip ahead to the next lesson.
+**Python** is a very versatile programming language and is used in many cases: web application development (front and back), mobile games, simulations, networks, automations, Artificial Intelligence, etcetera. This versatility makes this language the most used by far the most, and it is a great advantage for any technical profile to know it.
 
-Python is a very diverse language used to build robots, networks, websites, APIs, games, artificial intelligence, and more. Depending on what you are making, the syntax can vary so much that you hardly recognize similarities between codebases.
+> NOTE: It is estimated that 9 out of 10 companies use Python in some of their processes, and that these processes are essential for the proper functioning of the company.
 
-Don't get me wrong, no matter what you are building, you will be looping, using conditions, logical expressions, filtering, using functions and classes, but you will be doing those things in ways that feel differently. Let me give you an example: 
+Python is an easy to learn and use language, with inherent characteristics that make it a good alternative to other more traditional languages.
 
-Many ways to filter colors
-If you want to filter a list of numbers with only odd numbers, you can do it like this:
+## Libraries
 
-```python
-# this is our common list of numbers
-numbers = [23,34,5,6,45,34,23,5,45,5,324,23,354,65,564,45,342]
+A **library** (*library*) is a collection of predefined functions that are made for a specific purpose. The objective is to simplify the developer's work and not to have to program them from scratch. There are many of them and they are organized according to their usefulness. As Python is the most used language in the field of Data Science and Artificial Intelligence, some of its most used libraries are related to these fields:
 
-# Filtering with basic python 3
-odds = [n for n in numbers if n % 2 != 0]
-print(odds)
+- Scikit-learn
+- NuPIC
+- Ramp
+- Numpy
+- Pandas
+- TensorFlow
+- Keras
+- Pipenv
+- Scipy
+- Matplotlib
 
-# Filtering with basic python 3
-odds = list(filter(lambda n: n % 2 != 0,numbers))
-print(odds)
+From this top 10, most of them are used in Machine Learning, NLP, Computer Vision and many other areas of artificial intelligence. Therefore, it is vital that you know and know how to use some of these libraries, which are key to any data science work.
 
-# Filtering with numpy
-import numpy as np
-odds = np.array(numbers)
-print(odds[odds % 2 != 0])
-```
+In this bootcamp we will learn in depth `Numpy`, which is a library used to process and work with multidimensional lists in a very efficient way, `Pandas`, built on top of Numpy and that allows working with tabular data structures called `DataFrames`, `Matplotlib` that enables the option to visualize data and their relationships and `scikit-learn`, widely used to build Machine Learning models.
 
-In the example above, the three ways will filter and output the same list of odds numbers, but in the background (at the lowest machine level), things are executing in a very different way.
+## Performance
 
-For this and many other reasons, it is convenient to start learning the Datascience syntax from the beginning.
+All software that is programmed must run on hardware, which is a set of physical elements that constitute a computer system. The more efficient the code you implement, the better use of hardware resources, shorter execution times, greater possibility of parallelizing tasks, and so on.
 
-## Learning Python for DataScience
+When building artificial intelligence models, performance is a major concern, since processing power is the biggest limitation in this field at the moment. Therefore, building efficient code and functions is a mainstay. We will also learn about it.
 
-In the data science world of Python, there is a family of libraries that are on the top of the food chain: Numpy, Pandas, Seaborn, Matplotlib, Scikit, etc. We will be learning each of them during the next couple of weeks while building real-life projects.
+## Code development
 
-### Help function
+There are two main ways to program in Python, and each of them can be carried out using different tools:
 
-We will be using A LOT of 3rd party code and functions (from other people); it's better to learn about a python feature called `help()` that will tell you how to use almost anything.
+- **Flexible programming**: this is carried out with web interfaces such as `Jupyter Notebook` or `Google Collab`. It is characterized by not having a predefined code structure and conceived to make fast and trial and error developments. In this type of development, **notebooks** are generated. 
+- **Productive programming**: This is carried out in **integrated development environments** (*IDE*), which are computer programs that allow a start-to-finish development of an application or a complete service.
 
-### The commonalities
+Normally, the development of a Machine Learning product, model or service consists of two phases: an exploratory phase and a development phase. First we program in notebooks and make proofs of concept looking for the best preprocessing, analysis and prediction of the data, and then we prepare a complete development to productivize the model.
 
-If you don't know how to code, it's better to forget about data science for a second and start learning Python from scratch: 
-What are variables: integer, float, string, null (or None), boolean.
+### Project structure
 
-- **Listing**: list, tuple, sequence, matrix, and how to loop or iterate the structures.
-- **Conditions**: if-else statement with logical operations for comparisons.
-- **Functions**: normal and lambda functions to encapsulate, organize and re-use code.
-- **Classes**: Creating custom data structures helps encapsulate, organize, and re-use even more than using classes.
-
-### The approach
-
-Since we are focused on using Python for data science, we will be working with massive amounts of data; I strongly recommend starting your training focusing on exercises and projects about the following:
-
-- Looping an extensive list of data.  
-- Filtering a big list of data, removing null values.  
-- Mapping lists of values from one format to another.  
-- Dealing with matrixes. 
-- Ploting data to charts. 
-
-### The libraries
-
-- **Start with Numpy**: because it's the bare bones, all the other libraries either work on top of Numpy or are compatible with it. In addition, Numpy comes with The Array and a series of functions to save you lots of time and processing power for the typical operations when dealing with big chunks of data.
-
-- **Continue with Pandas and Seaborn**: built on top of Numpy, the panda's library incorporates "The DataFrame" object; Simplifying the import, export, and transformation of multidimensional datasets.
-
-- Chart your DataFrame with **Matplotlib**: This library is responsible for the majority of the data visualizations you see in the world of data science: From a simple bar chart to histograms, it allows to use of arrays, data frames, and algebra to create data visualizations. 
-
-- Use statistic functions with **stats**: This library includes the most common statistics functions like mean, std, variance, correlation, etc.
-
-- Create models with **scikit learn**: Simple and efficient tools for predictive data analysis. Built on NumPy, SciPy, and matplotlib.
-  
-
-### Performance
-
-When creating algorithms for websites, API's, networks, robots or other applications; You don't necessarily about performace because you can always upgrade your server or your CPU. Obviusly performance it's still an important variable, but you can have a slow website or you can pay a lot more to "speed it up".
-
-On the other hand, when building AI's, performance is a big concern. You could say that "processing power" is the biggest limitation this field has right now. There is so much data and models need so much training that current technology cannot keep up. 
-
-That is why you should know a little about `Big O` and optimizing algorithms for space and time.
-
-### Jupyter vs Python files
-
-Most -if not all- of the python courses about machine learning heavily use Jupyter Notebooks to build and clean your data and run the models. At 4Geeks we don't like this approach much, we prefer to stay working on `.py` files and work on coding editos like VSCode, Pycharm, etc. like software engineers do in all the other fields were python is used.
-
-We like using Jupyter as a communication tool, mainly to tell stories to management, show the strategy and some brainstorming.
-
-### Package Manager and setup environs
-
-If we are not going to be using Jupyter notebooks as much as other datascientis, we need to become very good at setting up Python environments, downloading python packages, using the PIP package manager, etc.
-
-- Pyenv for Python Versions: There are multiple versions of python and you need to get used to switch between versions because some times you are trying to use newer features or maybe old deprecated ones.
-- Pip: This is the "package manager" for Python, it allows you to download and use Numpy, Pandas and many other awesome libraries.
-- Virtual environment: every project could have a different python version, that is why you need to create virtual enviroments to isolate your projects from each other.
-- Pipenv: Is an awsome tool that simplifies the user of PIP and Virtual Env.
-
-### Typical data-science project structure
-
-We will be using a template for our projects called [Cookie Cutter Datascience](https://drivendata.github.io/cookiecutter-data-science/). Using a template is always a good idea to organize your peroject files and workflow. You can read the documentation and watch [this video on how it works](https://www.youtube.com/watch?v=nExL0SgKsDY).
+We will use a template for our projects called [Cookie Cutter Datascience](https://drivendata.github.io/cookiecutter-data-science/). Using a template is always a good idea to organize our project files and workflow.
