@@ -30,7 +30,7 @@ It's best to avoid using global variables whenever possible, use more function a
 Some of the naming conventions are given below:
 
 - Meaningful and clear variable names help everyone understanding what goes in said variable.
-- General variables should be named in `camelCase` for [JavaScript, Node, Java, etc.](https://en.wikipedia.org/wiki/Camel_case), and in `snake_case` for [Python, Ruby, etc.](https://en.wikipedia.org/wiki/Snake_case) Here you can read more about [variable naming conventions](https://4geeks.com/lesson/variable-naming-conventions).
+- General variables should be named in `camelCase` for [JavaScript, Node, Java, etc.](https://en.wikipedia.org/wiki/Camel_case) And in `snake_case` for [Python, Ruby, etc.](https://en.wikipedia.org/wiki/Snake_case) Here you can read more about [variable naming conventions](https://4geeks.com/lesson/variable-naming-conventions).
 - Constant variables are named in CAPITAL LETTERS.
 - It is better to avoid the use of digits in variable names.
 - The name of a function should be written in `camelCase` starting with small letters.
