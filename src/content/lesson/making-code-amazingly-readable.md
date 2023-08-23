@@ -1,5 +1,5 @@
 ---
-title: "What is code readability, and how to improve it"
+title: "What is code readability and how to improve it"
 subtitle: "You don't want to be a developer who writes low-quality code, and readability is one of its most critical factors."
 tags: ["coding guidelines"]
 
@@ -25,7 +25,7 @@ Poor code readability can lead to several problems that can cost a company money
 
 **Increased risk of errors:** If code is difficult to read and understand, it is more likely that errors or bugs will be introduced as the code is modified or updated. These errors can cause the program to malfunction, leading to lost productivity and potentially lost revenue.
 
-## Tips you can follow to improve the code's readability
+## Tips you can follow to improve the code readability
 
 In this lesson, we will go over a few tips you can follow to improve the readability of your code. 
 
