@@ -62,6 +62,7 @@ Keep names short, but not too short:
 Use [Prettier](https://prettier.io/) or any automatic indentation tool. If that is not possible (for some weird reason), make sure to manually indent every single line:
 
 - Pick how many spaces you will use (2 or 4 spaces per single indent).
+- In Python it is recommended to use 4 spaces for each indentation [PEP8](https://peps.python.org/pep-0008/#indentation).
 - Use a consistent indentation style.
 - Indent code blocks: Code blocks, such as those inside of a function or loop, should be indented to visually distinguish them from the surrounding code.
 
