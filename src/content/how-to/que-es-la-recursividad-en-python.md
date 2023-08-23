@@ -11,7 +11,10 @@ def encontrar_valor_maximo(lista):
         # Caso recursivo
         lista_recortada = lista[1:]
         resultado = encontrar_valor_maximo(lista_recortada)
-        return max(lista[0], resultado)
+        if lista[0] > resultado:
+            return lista[0]
+        else:
+            return resultado
 
 
 lista = [1, 4, 25, 5, 7, 8, 9, 2, 40, 3, 27]
@@ -23,7 +26,7 @@ print(f"El número máximo de la lista es: {valor_maximo}")
 El número máximo en la lista es: 40
 ```
 
-En este ejemplo hacemos uso de una función recursiva para encontrar el número más grande de una lista, en este código primero hacemos uso de una estructura condicional `if else` para verificar si el largo de la lista es igual a 1, de ser así retornamos el el único número de la lista, este sería el caso de corte o caso base, de lo contrario, hacemos un llamado recursivo a la función `encontrar_valor_maximo()` y le pasamos por parámetro la lista menos el primer valor para ir recortando la lista en cada llamado recursivo y por último retornamos el valor máximo entre el primer número de la lista original y el resultado de la función.
+En este ejemplo hacemos uso de una función recursiva para encontrar el número más grande de una lista, en este código primero hacemos uso de una estructura condicional `if else` para verificar si el largo de la lista es igual a 1, de ser así retornamos el único número de la lista, este sería el caso de corte o caso base, de lo contrario, hacemos un llamado recursivo a la función `encontrar_valor_maximo()` y le pasamos por parámetro la lista menos el primer valor para ir recortando la lista en cada llamado recursivo y por último retornamos el valor máximo entre el primer número de la lista original y el resultado de la función.
 
 ## ¿Qué es la Recursividad? 🔄🔍
 
@@ -35,7 +38,7 @@ Entenderás mejor cómo funciona la recursividad con la ayuda del siguiente vide
     width="560" 
     height="315" 
     src="https://www.youtube.com/embed/yX5kR63Dpdw" 
-    title="YouTube video player" 
+    title="La magia de la recursividad" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
     allowfullscreen
@@ -50,7 +53,7 @@ Colocar un caso base incorrecto es un error muy común para alguien que empieza 
 | Característica | Descripción |
 |-----------|--------------|
 | Caso base | Nos permitirá terminar el ciclo de llamadas recursivas de la función en algún momento y que no entre en una pila de llamadas infinitas. |
-| Caso recursivo | En el caso recursivo llamamos a la función una y otra vez en una pila de llamadas reursivas, pero nos iremos acercando a la solución de salida (el caso base). |
+| Caso recursivo | En el caso recursivo llamamos a la función una y otra vez en una pila de llamadas recursivas, pero nos iremos acercando a la solución de salida (el caso base). |
 
 ## Ventajas y Desventajas de la Recursividad 🌟📉
 
@@ -153,7 +156,7 @@ n = n + (n - 1) + (n - 2) + ...
 7 = 7 + 6 + 5 + 4 + 3 + 2 + 1 = 28
 ```
 
-Ejemplo se suma de números naturales haciendo uso de una función recursiva.
+Ejemplo de suma de números naturales haciendo uso de una función recursiva.
 
 ```py
 def suma_numeros_naturales(n):
