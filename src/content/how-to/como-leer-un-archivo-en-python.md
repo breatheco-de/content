@@ -1,6 +1,6 @@
 ## ¿Cómo leer un archivo en Python?
 
-La manipulación de archivos en la programación es una técnica muy importante que te permite guardar la información de tu proyecto en archivo. Python tiene una amplia variedad de estructuras que te permiten guardar cualquier tipo de información como los **Diccionarios** o las **Listas**, sin embargo, cuando se cierre la respectiva aplicación esa información se pierde, para que esto no suceda, podemos hacer uso de archivo externo para guardar la información y así poder acceder a ella nuevamente. A continuación veremos un pequeño ejemplo sobre cómo leer la información de un archivo `txt`.
+Python ofrece una amplia variedad de estructuras que te permiten guardar información como lo son los **Diccionarios** o las **Listas**, sin embargo, si la aplicación se cierra, esa información se pierde. Para que esto no suceda, podemos hacer uso de archivos para guardar la información y así poder acceder alla nuevamente. A continuación veremos un pequeño ejemplo sobre cómo leer la información de un archivo `txt`.
 
 #### prueba.txt
 
@@ -28,16 +28,14 @@ Leer todas las líneas de un archivo:
 Hola, este es un archivo de ejemplo.
 Estamos aprendiendo a leer archivos en Python.
 
-Â¡Es emocionante!
+¡Es emocionante!
 ```
 
 En este ejemplo, queremos leer la información guardada en el archivo `prueba.txt`, para esto, podemos hacer uso del método `open()` de Python, este método recibe dos parámetros, el primero es el nombre del archivo que deseamos abrir y el segundo es el modo en que deseamos abrirlo, en nuestro ejemplo `"r"` (read). Luego hacemos uso del método `read()` para imprimir la información en la consola.
 
 ## ¿Cómo leer el contenido de un archivo?
 
-Para leer el contenido de un archivo necesitamos el método `open()` de Python, este método recibe dos parámetros, el primero es el nombre del archivo que deseamos abrir, y el segundo es modo en que deseamos leer el archivo, este segundo parámetro puede recibir diferentes valores, algunos de ellos son, `"r"` (read), `"w"` (write), etc...
-
-En la siguiente tabla veremos algunos de los valores más relevantes para la función `open()` y una pequeña descripción de cada uno:
+Como se dijo anteriormente, para leer el contenido de un archivo necesitamos el método `open()` de Python, este método recibe dos parámetros, el primero es el nombre del archivo que deseamos abrir, y el segundo es el modo en que deseamos abrir el archivo, este segundo parámetro puede recibir diferentes valores, en la siguiente tabla se pueden observar los más relevantes con una pequeña descripción de cada uno:
 
 | Valor | Descripción                                                                                                                                                     |
 |-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -73,7 +71,7 @@ with open("prueba.txt", "r", encoding="utf-8") as archivo:
     print("Archivo en la línea 2: ", archivo.readline())
 
     print("--------------------------------------")
-    print("Todas la líneas del archivo:")
+    print("Todas las líneas del archivo:")
     archivo.seek(0)
     print(archivo.read())
 
@@ -90,7 +88,7 @@ Archivo en la línea 1:  Este es un texto de prueba.
 Archivo en la línea 2:  Aprenderemos a usar el método readline() para leer solamente una línea de un archivo,
 
 --------------------------------------
-Todas la líneas del archivo:
+Todas las líneas del archivo:
 Este es un texto de prueba.
 Aprenderemos a usar el método readline() para leer solamente una línea de un archivo,
 
@@ -127,14 +125,14 @@ Veremos dos de los ejemplos más relevantes sobre cómo puedes modificar este ar
 
 ```py
 with open("prueba.txt", "w", encoding="utf-8") as archivo:
-    nueva_linea = "\nEsta es una nueva línea de texto agregada a el archivo prueba.txt"
+    nueva_linea = "\nEsta es una nueva línea de texto agregada al archivo prueba.txt"
     archivo.write(nueva_linea)
 ```
 
 Con la ejecución del código anterior, el archivo `prueba.txt` quedaría de la siguiente manera:
 
 ```txt
-Esta es una nueva línea de texto agregada a el archivo prueba.txt
+Esta es una nueva línea de texto agregada al archivo prueba.txt
 ```
 
 Para modificar el contenido de un archivo podemos usar el método `write()` de Python, este método recibe cómo parámetro el texto con el que deseas modificar el archivo, en este ejemplo hacemos uso de método `open()` y le pasamos cómo segundo parámetro el valor de `"w"`, este valor te permite modificar el contenido de un archivo pero antes de agregar el contenido nuevo elimina el contenido que tenía anteriormente el archivo.
@@ -143,7 +141,7 @@ Para modificar el contenido de un archivo podemos usar el método `write()` de P
 
 ```py
 with open("prueba.txt", "a", encoding="utf-8") as archivo:
-    nueva_linea = "\n \nEsta es una nueva línea de texto agregada a el archivo prueba.txt"
+    nueva_linea = "\n \nEsta es una nueva línea de texto agregada al archivo prueba.txt"
     archivo.write(nueva_linea)
 ```
 
@@ -154,7 +152,7 @@ La Tierra, nuestro planeta azul, es un remanso de vida en el vasto cosmos. Océa
 continentes se entrelazan en una danza de biodiversidad. 
 Montañas se alzan mientras valles se extienden, creando paisajes diversos.
 
-Esta es una nueva línea de texto agregada a el archivo prueba.txt
+Esta es una nueva línea de texto agregada al archivo prueba.txt
 ```
 
 
@@ -166,7 +164,7 @@ Los archivos `txt` pueden ser utilizados para almacenar información cómo por e
 
 ### Agregar una lista de diccionarios en un archivo txt
 
-Para poder ingresar una lista de diccionarios en un archivo `txt` primero necesitamos pasarlo a un tipo de dato `json` (JavaScript Object Notation), para esto haremos uso del módulo `json`  de Python.
+Para poder ingresar una lista de diccionarios en un archivo `txt` primero necesitamos pasarlo a un tipo de dato `json` (JavaScript Object Notation), para esto haremos uso del módulo `json` (Chequea este artículo para recordar cómo usar los [modulos en Python](https://4geeks.com/es/lesson/modulos-python)) de Python.
 
 ```py
 import json
@@ -203,7 +201,7 @@ Al ejecutar este código,  el archivo `prueba.txt` debería verse de la siguient
 ]
 ```
 
-En este ejemplo, hacemos uso del módulo `json` y el método `dump()` para poder convertir la lista de diccionarios en una archivo de tipo `json` y guardarlo en el archivo `prueba.txt`, el método `dump()` recibe  tres parámetros, el primer parámetro es la información que deseas guardar en el archivo `txt`, este parámetro es obligatorio, el segundo parámetro es la variable `archivo` que le indica a el método donde guardar la información, este parámetro también es obligatorio, el tercer parámetro es la variable `indent=4` que le indica al método como formatear la información dentro del archivo `txt`, este parámetro es opcional.
+En este ejemplo, hacemos uso del módulo `json` y el método `dump()` para poder convertir la lista de diccionarios en una archivo de tipo `json` y guardarlo en el archivo `prueba.txt`, el método `dump()` recibe  tres parámetros, el primer parámetro es la información que deseas guardar en el archivo `txt`, este parámetro es obligatorio, el segundo parámetro es la variable `archivo` que le indica al método donde guardar la información, este parámetro también es obligatorio, el tercer parámetro es la variable `indent=4` que le indica al método como formatear la información dentro del archivo `txt`, este parámetro es opcional.
 
 ### Leer el archivo y convertirlo de nuevo en una lista de diccionarios
 
