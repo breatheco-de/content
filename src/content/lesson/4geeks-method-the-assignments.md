@@ -42,7 +42,7 @@ Group review: during class, you will be put into teams with one mentor to review
 ## What if you are stuck on a project?
 There are many ways to get unstuck:
 
-- Watch the video solution about the project.
+- Watch the video solution of the project.
 - Ask one of your classmates.
 - Join a global mentorship session. They happen every other day.
 - Ask questions during your live classes.
