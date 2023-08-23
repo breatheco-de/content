@@ -90,7 +90,7 @@ Crear código que sea fácil de leer es esencial para producir software de alta 
 
 - Elije los nombres de variables con sabiduría.
 - Separa tu código en funciones más pequeñas.
-- Evita usar declaraciones "else".
+- Evita usar declaraciones `else`.
 - Presta mucha atención a la indentación.
 - No comentes demasiado tu código.
 - Evita líneas de código largas.
