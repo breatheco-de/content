@@ -36,8 +36,8 @@ This feedback will focus mainly on the coding guidelines; you can [read them her
 - Refactoring suggestions.
 
 ### Live class code review
-Every now and then, we dedicate parts of the live classes to review previous code in several formats:
-Group review. During class, you will be put into teams with one mentor to review project solutions from you or your classmates. 
+Every now and then, we dedicate parts of the live classes to review previous code in several formats.
+Group review: during class, you will be put into teams with one mentor to review project solutions from you or your classmates. 
 
 ## What if you are stuck on a project?
 There are many ways to get unstuck:
