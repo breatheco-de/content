@@ -90,7 +90,7 @@ Creating code that is easy to read is essential for producing high-quality softw
 
 - Choose variable names wisely.
 - Split your code into smaller functions.
-- Avoid using "else" statements.
+- Avoid using `else` statements.
 - Pay good attention to indentation.
 - Don't over-comment your code.
 - Avoid long lines of code.
