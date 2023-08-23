@@ -28,19 +28,19 @@ It's not always possible, and it's tough to implement, but we make a significant
 ### Mentor feedback
 Each assignment you deliver will be manually reviewed by a mentor. The mentor will scan your code and give you feedback via GitHub or as a message inside 4Geeks.com.
 
-This feedback back will focus mainly on the coding guidelines, you can [read them here](https://4geeks.com/lesson/coding-standards-guidelines), but here is a brief summary of the criteria:
+This feedback will focus mainly on the coding guidelines; you can [read them here](https://4geeks.com/lesson/coding-standards-guidelines), but here is a brief summary of the criteria:
 
-- Code Style & Cleanness.
+- Coding style & cleanliness.
 - Variable names.
-- Best Practices.
-- Refactoring Suggestions.
+- Best practices.
+- Refactoring suggestions.
 
 ### Live class code review
 Every now and then, we dedicate parts of the live classes to review previous code in several formats:
-Group review. During class, you will be put in teams with one mentor to review project solutions from you or your classmates. 
+Group review. During class, you will be put into teams with one mentor to review project solutions from you or your classmates. 
 
 ## What if you are stuck on a project?
-There are many ways to get unstuck: 
+There are many ways to get unstuck:
 
 - Watch the video solution about the project.
 - Ask one of your classmates.
@@ -49,7 +49,7 @@ There are many ways to get unstuck:
 - Request 1-1 mentorship.
 
 ## It's time to get the most out of this course
-The more active you are during the course, the more you take advantage of it:
+The more active you are during the course, the more you will take advantage of it:
 
 - Make sure to deliver most or all of the projects.
 - Demand mentors to review them if they have not already.
