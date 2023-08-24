@@ -22,11 +22,11 @@ Cargo:
 Desarrollador Web Freelance en MyCompany Media
 
 Descripción:
-Responsable de diseñar, codificar y modificar aplicaciones de React y APIS de Python desde el layout/mockups/wireframes hasta convertirlos en funcionales de acuerdo a las especificaciones del cliente. Enfocado en crear sitios visuales llamativos con un diseño amigable para el usuario con una navegación clara. 
+Responsable de diseñar, desarrollar y modificar aplicaciones de React y APIS de Python desde el layout/mockups/wireframes hasta convertirlos en funcionales de acuerdo a las especificaciones del cliente. Enfocado en crear sitios visuales llamativos con un diseño amigable para el usuario con una navegación clara. 
 
 ```
 
-Nota: NO COMPIES Y PEGUES, por favor personalízalo, usa otras palabras, diferentes tecnologías y lenguajes de programación que te gusten, puedes hablar sobre aplicaciones de eCommerce, edTech, puedes mencionar alguna industria en particular que te guste.
+Nota: NO COPIES Y PEGUES, por favor personalízalo, usa otras palabras, diferentes tecnologías y lenguajes de programación que te gusten, puedes hablar sobre aplicaciones de eCommerce, edTech, puedes mencionar alguna industria en particular que te guste.
 
 Si tu proyecto final fue un juego, puedes decir que te especializas en construir juegos con HTML/CSS/Javascript/Python.
 Si fue una red social entonces te especializas en "aplicaciones sociales", etc.
@@ -36,22 +36,24 @@ Si fue un sitio de tutorías, puedes decir que te enfocas en edTech..
 
 Si tienes un posgrado o un título es muy bueno, también puedes añadir la educación que obtuviste en 4Geeks Academy.
 
-No añadas otros certificados de estudios pequeños, si los tienes, en esta sección. Eso sería una nueva sección de tu cv llamada 'certificaciones'.
-
 ## Certificados
 
 Añade certificados de marketing o diseño (porque son relevantes a la programación).
-Si estás certificado en el diseño de aplicaciones de software relevantes o en aplicaciones empresarialwa como Photoshop, SAP, Microsoft Dynamics, etc.
+Agrega si estás certificado en el diseño de aplicaciones de software relevantes o en aplicaciones empresariales como Photoshop, SAP, Microsoft Dynamics, etc.
 
 ## Proyectos
 
-Los proyectos que publiques deben ser de buena calidad, **no publiques**: un simple to-do list, un generador de tarjetas aleatorio, una juego de gato. Nada de eso es impresionante.
+Los proyectos que publiques deben ser de buena calidad, **no publiques**: un simple to-do list, un generador de tarjetas aleatorio, un tic tac toe. Nada de eso es impresionante.
+
+Lo ideal es agregar al menos **2 proyectos** a tu hoja de vida.
+
+Si tienes un amigo/a, familiar, conocido/a que tenga un negocio o emprendimiento ofrecele tus servicios y hazle su página web, esto te servirá para practicar y es un proyecto que podrás mostrarle a los reclutadores.
 
 **Puedes publicar**: 
 
 Versiones mejoradas de algunos proyectos que hayas hecho en la academia, por ejemplo:
 
-- Starwars Reading List: Puedes hacer un club, cada usuario tiene contraseña y comparte sus favoritos.
+- Starwars Reading List: Puedes hacer un club, cada usuario tiene contraseña y comparte sus favoritos. Cambiale el nombre, agrégale mas funciones, hazlo tuyo, hazlo resaltar.
 - Contact List: Haz de ella un CRM, básicamente le agregas un "status" a cada contacto y luego la gente de ventas puede cambiar el status del contacto según el proceso de venta.
 - Todo List: Las tares pendientes deben tener dos status: Terminadas y Pendientes, tu puedes hacer que tengan varios: No realizadas, en proceso, aprobadas, rechazadas, etc. Eso hará que tu lista de tareas sea una herramienta de gestíon de proyectos con etapas.
 
@@ -60,7 +62,7 @@ Cada uno de tus proyectos debe tener:
 - Un Readme descriptivo con pantallazos.
 - Un código organizado.
 
-Nota: La calidad es más importante que la cantidad, dos o tres proyectos son suficientes si son realmente buenos.
+**Nota: La calidad es más importante que la cantidad, dos o tres proyectos son suficientes si son realmente buenos.**
 
 ## Habilidades
 
