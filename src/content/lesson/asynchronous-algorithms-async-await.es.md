@@ -34,7 +34,7 @@ RESULTADO EN CONSOLA:
 */
 ```
 
-Aquí: la línea 5 se ejecuta antes de la línea 2 porque estamos llamando a ```correSegundo ()``` (línea 7) antes de ```correPrimero ()``` (línea 8). Rompiendo el orden de mando de la computadora que *llama* (o ejecuta) el bloque de código dentro de una función.
+Aquí: la línea 5 se ejecuta antes de la línea 2 porque estamos llamando a ```ejecutarSegundo ()``` (línea 7) antes de ```ejecutarPrimero ()``` (línea 8). Rompiendo el orden de mando de la computadora que *llama* (o ejecuta) el bloque de código dentro de una función.
 
 Las cosas se complican más cuando se llaman funciones dentro de funciones, como podemos ver aquí:
 
