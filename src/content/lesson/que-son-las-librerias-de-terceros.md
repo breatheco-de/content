@@ -43,7 +43,7 @@ print(data_frame)
 
 En este ejemplo, creamos un pequeño dataframe con la ayuda de la función `DataFrame()` de la librería de **Pandas** y luego le agregamos la información de tres usuarios diferentes, después mostramos la información de los usuarios en la consola.
 
-## ¿Qué son las librerías de terceros?
+## ¿Qué son las librerías de terceros en Python?
 
 Las librerías de terceros son colecciones de código desarrolladas por programadores externos. Estas librerías o paquetes encapsulan una funcionalidad específica que puede ser reutilizada en diferentes proyectos según tus necesidades. En lugar de escribir el código una y otra vez cada vez que necesitas realizar una tarea común o compleja, puedes confiar en las librerías de terceros que ya tiene creado y testeado ese código y así ahorrar tiempo y esfuerzo. Para descargar una librería de Python puedes usar el sistema de gestión de paquetes **pip** (Pip Install Packages).
 
@@ -63,7 +63,7 @@ import nombre_de_librería as alias
 
 Una vez importadas ya puedes usar esta librería en tu código y aprovechar todos sus beneficios, recuerda que puedes instalar e importar tantas librerías como necesites, por ejemplo puedes usar la librería de **Numpy** junto con la [librería de **Pandas**](https://4geeks.com/es/how-to/instalar-pandas-python) para hacer cálculos matemáticos avanzados.
 
-## Ejemplos de uso de librerías de terceros
+## Ejemplos de uso de librerías de terceros en Python
 
 A continuación veremos algunos ejemplos de cómo instalar, importar y utilizar diferentes librerías de terceros en tu propio código de Python.
 
