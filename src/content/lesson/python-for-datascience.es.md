@@ -66,26 +66,78 @@ Es importante dar siempre a las variables nombres descriptivos para que nosotros
 
 Los **tipos de datos** (*data types*) determinan la clase de datos que una variable puede contener. Python tiene sus propios tipos básicos, aunque hay librerías y bibliotecas que pueden incluir otros nuevos:
 
-**`int` (entero)**
+**Entero** (*integer*): `int`
+
 Representa números enteros, positivos o negativos.
 ```py
 num_int1 = 123
 num_int2 = -57
 ```
 
-**`float` (punto flotante)**
+**Punto flotante** (*floating point*): `float`
+
 Representa números reales con decimales.
 ```py
 num_float1 = 3.14
 num_float2 = -0.16
 ```
 
+**Cadena** (*string*): `str`
 
+Representa secuencias de caracteres (texto).
+```py
+str_var = "Esto es un texto de prueba"
+```
 
+**Booleano** (*boolean*): `bool`
 
+Representa valores de verdad, es decir, `True` (verdadero) o `False` (falso).
+```py
+bool_var1 = True
+bool_var2 = False
+```
 
+**Lista** (*list*): `list`
 
+Representa una colección ordenada de elementos. Los elementos pueden ser de cualquier tipo y se puede modificar su contenido: insertar elementos, eliminar, etc.
+```py
+list_numbers = [1, 2, 3, 4, 5]
+list_strings = ["A", "B", "C", "D"]
+```
 
+**Tupla** (*tuple*): `tuple`
+
+Similar a la lista, pero es inmutable, es decir, una vez creada no se puede modificar su contenido.
+```py
+tuple_numbers = (1, 2, 3, 4, 5)
+tuple_booleans = (True, False, False)
+```
+
+**Conjunto** (*set*): `set`
+
+Representa una colección no ordenada de elementos únicos (sin duplicados).
+```py
+set_fruits = {"manzana", "banana", "cereza"}
+```
+
+**Diccionario** (*dictionary*): `dict`
+
+Representa una colección no ordenada de pares clave-valor.
+```py
+dict_person = {
+    "nombre": "Juan",
+    "edad": 25,
+    "altura": 1.80,
+    "es_estudiante": True
+}
+```
+
+**Octetos** (*bytes*): `bytes`
+
+Representa secuencias de bytes. Normalmente se utilizan para manejar datos binarios.
+```py
+bytes_var = b"Hola"
+```
 
 ## Librerías
 
