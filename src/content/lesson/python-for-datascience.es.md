@@ -21,9 +21,9 @@ canonical: ""
 
 Mientras que la IA se centra en simular la inteligencia humana, el aprendizaje automático es una técnica dentro de la IA que permite a las máquinas aprender de datos, y la ciencia de datos es una disciplina más amplia que se ocupa de todo el proceso de trabajar con datos, desde la recopilación hasta la interpretación, y puede incluir el uso de la IA y el machine learning.
 
-### Guía básica de Python
+## Guía básica de Python
 
-#### `Hello, World!`
+### `Hello, World!`
 
 Todo desarrollador que comienza a programar en un lenguaje nuevo lo hace imprimiendo `Hello, World!`. En Python podemos hacerlo usando la función `print`, que muestra por consola cualquier dato o texto que se coloque entre sus parántesis:
 
@@ -31,7 +31,7 @@ Todo desarrollador que comienza a programar en un lenguaje nuevo lo hace imprimi
 print("Hello, World!")
 ```
 
-#### Variables
+### Variables
 
 Una **variable** (*variable*) en Python (y en la mayoría de los lenguajes de programación) son contenedores que almacenan datos que pueden variar en el tiempo. Este valor puede ser un número, un texto, una lista de elementos... Lo especial de este contenedor es que podemos asignarle un nombre para identificarlo y acceder a lo que guardamos en él cuando lo necesitemos:
 
@@ -62,7 +62,7 @@ Las variables son fundamentales en la programación porque:
 
 Es importante dar siempre a las variables nombres descriptivos para que nosotros mismos (o cualquiera que lea nuestro código) puedan entender fácilmente para qué sirven y qué se supone que contienen.
 
-#### Tipos de datos
+### Tipos de datos
 
 Los **tipos de datos** (*data types*) determinan la clase de datos que una variable puede contener. Python tiene sus propios tipos básicos:
 
@@ -141,11 +141,11 @@ bytes_var = b"Hola"
 
 Además de estos tipos básicos, Python también ofrece módulos y bibliotecas que definen otros tipos de datos más especializados.
 
-#### Operadores
+### Operadores
 
 Los **operadores** (*operators*) son símbolos que indican una operación:
 
-##### Operadores matemáticos:
+**Operadores matemáticos**
 
 Los operadores matemáticos realizan operaciones aritméticas. Dependiendo del tipo de las variables, los resultados pueden ser unos u otros, no necesariamente tienen que aplicarse siempre a números.
 
@@ -162,7 +162,7 @@ z = x + y # z = 8
 z = x * y # z = 15
 ```
 
-##### Operadores lógicos:
+**Operadores lógicos**
 
 Los operadores lógicos evalúan condiciones y devuelven valores booleanos. Pueden ser utilizados en bucles, condicionales, filtros, etcétera. Son muy versátiles y útiles.
 
@@ -177,13 +177,13 @@ resultado = verdadero and falso # resultado = False
 resultado = verdadero or falso # resultado = True
 ```
 
-#### Estructuras de control
+### Estructuras de control
 
 Las estructuras de control en Python son instrucciones que permiten modificar el flujo de ejecución de un programa. Estas estructuras permiten tomar decisiones, repetir bloques de código y saltar a diferentes partes del código dependiendo de ciertas condiciones lógicas.
 
 En Python, las principales estructuras de control son:
 
-##### Estructuras de decisión
+#### Estructuras de decisión
 
 **`if`**
 
@@ -217,7 +217,7 @@ else:
     print("Eres mayor de edad.")
 ```
 
-##### Estructuras de repetición (bucles)
+#### Estructuras de repetición (bucles)
 
 **`for`**
 
@@ -246,7 +246,7 @@ while contador < 5:
 # Muestra por pantalla 0, 1, 2, 3, 4
 ```
 
-##### Control de bucles
+#### Control de bucles
 
 **`break`**
 
@@ -286,6 +286,42 @@ for letra in "Python":
 
 Estas estructuras de control son esenciales para crear programas que puedan tomar decisiones, repetir tareas y manejar diferentes situaciones o entradas. Al combinarlas y anidarlas, podemos crear flujos de trabajo complejos y lógicas sofisticadas en nuestros programas.
 
+### Funciones
+
+Una **función** (*function*) es un bloque de código reutilizable que realiza una tarea específica.
+
+```py
+def saludo(nombre):
+    return f"Hola, {nombre}!!"
+
+print(saludo("Juan"))
+```
+
+Las funciones proporcionan una forma de modularizar el código, permitiéndonos organizar y reutilizar fragmentos de código en diferentes partes de nuestros programas. Esto mejora la calidad y facilita la depuración y el mantenimiento.
+
+Un código en Python combina todos los elementos que acabamos de ver en esta guía para llevar a cabo una tarea concreta. A continuación se muestra un programa sencillo que toma la edad de un usuario, determina si es menor de edad, adulto o adulto mayor, y luego imprime una lista de actividades recomendada para cada grupo:
+
+```py
+# 1. Tipos de datos
+nombre = input("Por favor, ingresa tu nombre:")
+edad = int(input("Por favor, ingresa tu edad:"))
+
+# 2. Estructura de decisión
+if edad < 18:
+    estado = "menor de edad"
+    actividades = ["estudiar", "andar en bicicleta", "salir con amigos"]
+elif edad < 65:
+    estado = "adulto"
+    actividades = ["trabajar", "leer un libro", "viajar"]
+else:
+    estado = "adulto mayor"
+    actividades = ["descansar", "leer el periódico", "pasear"]
+
+# 3. Estructura de repetición
+print(f"\nHola, {nombre}. Eres un {estado}. Aquí hay algunas actividades que podrías considerar:")
+for actividad in actividades:
+    print(f"- {actividad}")
+```
 
 ## Librerías
 
@@ -317,7 +353,7 @@ Cuando se construyen modelos de inteligencia artificial, el rendimiento es una g
 Existen dos formas principales de programar en Python, y cada una de ellas se puede llevar a cabo usando distintas herramientas:
 
 - **Programación flexible**: Se lleva a cabo con interfaces web como `Jupyter Notebook` o `Google Collab`. Se caracteriza por no contar con una estructura predefinida de código y concebidas para hacer desarrollos rápidos y de prueba y error. En este tipo de desarrollos se generan **cuadernos** (*notebooks*) 
-- **Programación productiva**: Se lleva a cabo en **entornos de desarrollo integrados** (*IDE*, *Integrated Development Environment*), que son programas informáticos que permiten un desarrollo de inicio a fin de una aplicación o un servicio completo.
+- **Programación productiva**: Se lleva a cabo en **entornos de desarrollo integrados** (*IDE*, *Integrated Development Environment*), que son programas informáticos que permiten un desarrollo de inicio a fin de una aplicación o un servicio completo. Algunos de los más utilizados en Python son el `Visual Studio Code` y `Spyder`, entre otros.
 
 Normalmente el desarrollo de un producto, modelo o servicio de Machine Learning, se compone de dos fases: una exploratoria y otra de desarrollo. Primero programamos en notebooks y hacemos pruebas de concepto buscando el mejor preprocesamiento, análisis y predicción de los datos, y después preparamos un desarrollo completo para productivizar el modelo.
 
