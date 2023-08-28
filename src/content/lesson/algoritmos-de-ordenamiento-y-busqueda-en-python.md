@@ -4,6 +4,8 @@ subtitle: "Explora los algoritmos de ordenamiento y búsqueda en Python. Aprende
 tags: ["python", "algoritmos","algoritmos-de-busqueda"]
 authors: ["DF27ARTS"]
 
+---
+
 ## Algoritmos de Ordenamiento y Búsqueda en Python 📊🔍
 
 En el mundo del desarrollo de software, los algoritmos de búsqueda y ordenamiento juegan un papel fundamental, estas técnicas permiten organizar y obtener datos de una manera muy eficiente, lo que es esencial para optimizar el rendimiento de las aplicaciones. En este artículo veremos algunos ejemplos de algoritmos en [Python](https://4geeks.com/es/lesson/como-programar-en-python), tanto algoritmos de ordenamiento como algoritmos de búsqueda.
