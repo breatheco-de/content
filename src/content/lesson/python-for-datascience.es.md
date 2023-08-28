@@ -9,11 +9,83 @@ tags: ["data-science", "python", "pandas", "numpy"]
 canonical: ""
 ---
 
-**Python** es un lenguaje de programación muy versátil y que se utiliza en multitud de casos: desarrollo de aplicaciones web (front y back), juegos para móvil, simulaciones, redes, automatizaciones, Inteligencia Artificial, etcétera. Esta versatilidad convierte este lenguaje en el más utilizado con mucha diferencia al resto, y es una gran ventaja para cualquier perfil técnico conocerlo.
+**Python** es un lenguaje de programación muy versátil y que se utiliza en multitud de casos: desarrollo de aplicaciones web (front y back), juegos para móvil, simulaciones, redes, automatizaciones... Además, es el lenguaje rey para trabajar con datos y elaborar algoritmos de Inteligencia Artificial, ciencia de datos y Machine Learning. Antes de comenzar, distingamos entre los tres términos anteriores:
 
-> NOTA: Se estima que en 9 de cada 10 empresas utilizan Python en alguno de sus procesos, y que estos procesos son fundamentales para el correcto funcionamiento de la compañía.
+| Término | Definición | Amplitud | Objetivo |
+|:--------|:-----------|:---------|:---------|
+| Inteligencia Artificial (*Artificial Intelligence*) | Es el estudio de cómo hacer que las computadoras piensen y actúen como los humanos. | Es un campo amplio que incluye varios subcampos, como el aprendizaje automático, la robótica, el procesamiento del lenguaje natural, la visión por computadora... | Simular la inteligencia humana en máquinas. |
+| Aprendizaje automático (*Machine Learning*) | Es un subcampo de la IA que se centra en desarrollar algoritmos y modelos que permitan a las computadoras aprender a partir de datos. | Es una técnica específica dentro de la inteligencia artificial. | Hacer predicciones o decisiones sin ser programadas específicamente para ello. |
+| Ciencia de datos (*Data Science*) | Es un campo interdisciplinario que utiliza técnicas estadísticas, informáticas y de análisis para interpretar, comprender y extraer conocimiento de datos estructurados y no estructurados. | Incluye la adquisición, limpieza, análisis y visualización de datos, y puede hacer uso de la IA y del machine learning para analizarlos. | Descubrir patrones y obtener información valiosa de grandes conjuntos de datos. |
 
-Python es un lenguaje fácil de aprender y de utilizar, con características inherentes que le convierten en una buena alternativa frente a otros más tradicionales.
+![Discipline differences](https://github.com/breatheco-de/content/blob/master/src/assets/images/disciplines_differences.png?raw=true)
+
+Mientras que la IA se centra en simular la inteligencia humana, el aprendizaje automático es una técnica dentro de la IA que permite a las máquinas aprender de datos, y la ciencia de datos es una disciplina más amplia que se ocupa de todo el proceso de trabajar con datos, desde la recopilación hasta la interpretación, y puede incluir el uso de la IA y el machine learning.
+
+### Guía básica de Python
+
+#### `Hello, World!`
+
+Todo desarrollador que comienza a programar en un lenguaje nuevo lo hace imprimiendo `Hello, World!`. En Python podemos hacerlo usando la función `print`, que muestra por consola cualquier dato o texto que se coloque entre sus parántesis:
+
+```py
+print("Hello, World!")
+```
+
+#### Variables
+
+Una **variable** (*variable*) en Python (y en la mayoría de los lenguajes de programación) son contenedores que almacenan datos que pueden variar en el tiempo. Este valor puede ser un número, un texto, una lista de elementos... Lo especial de este contenedor es que podemos asignarle un nombre para identificarlo y acceder a lo que guardamos en él cuando lo necesitemos:
+
+```py
+nombre = "Juan"
+edad = 25
+altura = 1.80
+es_estudiante = True
+```
+
+Además, las variables son elementos mutables y que pueden cambiar en el tiempo. Así, al igual que podemos acceder a su valor para leerlo, también podemos modificarlo:
+
+```py
+mi_numero = 10
+print(f"Número original: {mi_numero}")
+
+mi_numero = 60
+print(f"Número nuevo: {mi_numero}")
+```
+
+De esta forma hemos modificado el valor de la variable `mi_numero` de `10` a `60`.
+
+Las variables son fundamentales en la programación porque:
+
+1. Permiten almacenar información para usarla más tarde.
+2. Facilitan la realización de operaciones entre ellas (dependiendo de su tipo).
+3. Hacen el código más legible y organizado. Es más fácil entender `altura_persona` que recordar qué significa un número suelto en el código.
+
+Es importante dar siempre a las variables nombres descriptivos para que nosotros mismos (o cualquiera que lea nuestro código) puedan entender fácilmente para qué sirven y qué se supone que contienen.
+
+#### Tipos de datos
+
+Los **tipos de datos** (*data types*) determinan la clase de datos que una variable puede contener. Python tiene sus propios tipos básicos, aunque hay librerías y bibliotecas que pueden incluir otros nuevos:
+
+**`int` (entero)**
+Representa números enteros, positivos o negativos.
+```py
+num_int1 = 123
+num_int2 = -57
+```
+
+**`float` (punto flotante)**
+Representa números reales con decimales.
+```py
+num_float1 = 3.14
+num_float2 = -0.16
+```
+
+
+
+
+
+
+
 
 ## Librerías
 
