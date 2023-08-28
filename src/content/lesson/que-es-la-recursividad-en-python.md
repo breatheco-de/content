@@ -36,7 +36,7 @@ El número máximo en la lista es: 40
 
 En este ejemplo hacemos uso de una función recursiva para encontrar el número más grande de una lista, en este código primero hacemos uso de una estructura condicional `if else` para verificar si el largo de la lista es igual a 1, de ser así retornamos el único número de la lista, este sería el caso de corte o caso base, de lo contrario, hacemos un llamado recursivo a la función `encontrar_valor_maximo()` y le pasamos por parámetro la lista menos el primer valor para ir recortando la lista en cada llamado recursivo y por último retornamos el valor máximo entre el primer número de la lista original y el resultado de la función.
 
-## ¿Qué es la Recursividad? 🔄🔍
+## ¿Qué es la Recursividad en Python? 🔄🔍
 
 La **recursividad** o recursión en un concepto que proviene de las matemáticas y que aplica al mundo de la programación, nos permite resolver problemas o tareas donde las mismas pueden ser divididas en sub tareas cuya funcionalidad es la misma. Dado que los subproblemas a resolver son de la misma naturaleza, se puede usar la misma función para resolverlos. En otras palabras, una función recursiva es aquella que está definida en función de sí misma, por lo que se llama repetitivamente a sí misma hasta llegar a un punto de salida.
 
