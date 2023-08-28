@@ -1,3 +1,11 @@
+---
+title: "¿Cómo leer un archivo en Python?"
+subtitle: "Aprende a leer archivos en Python y domina la manipulación de datos. Descubre cómo acceder y procesar información desde diferentes fuentes. ¡Empieza hoy mismo!"
+tags: ["python", "programacion-orientada-a-objectos"]
+authors: ["DF27ARTS"]
+
+---
+
 ## ¿Cómo leer un archivo en Python?
 
 Python ofrece una amplia variedad de estructuras que te permiten guardar información como lo son los **Diccionarios** o las **Listas**, sin embargo, si la aplicación se cierra, esa información se pierde. Para que esto no suceda, podemos hacer uso de archivos para guardar la información y así poder acceder alla nuevamente. A continuación veremos un pequeño ejemplo sobre cómo leer la información de un archivo `txt`.
@@ -35,7 +43,7 @@ En este ejemplo, queremos leer la información guardada en el archivo `prueba.tx
 
 ## ¿Cómo leer el contenido de un archivo?
 
-Como se dijo anteriormente, para leer el contenido de un archivo necesitamos el método `open()` de Python, este método recibe dos parámetros, el primero es el nombre del archivo que deseamos abrir, y el segundo es el modo en que deseamos abrir el archivo, este segundo parámetro puede recibir diferentes valores, en la siguiente tabla se pueden observar los más relevantes con una pequeña descripción de cada uno:
+Como se dijo anteriormente, para leer el contenido de un archivo necesitamos el método `open()` de [Python](https://4geeks.com/es/lesson/como-programar-en-python), este método recibe dos parámetros, el primero es el nombre del archivo que deseamos abrir, y el segundo es el modo en que deseamos abrir el archivo, este segundo parámetro puede recibir diferentes valores, en la siguiente tabla se pueden observar los más relevantes con una pequeña descripción de cada uno:
 
 | Valor | Descripción                                                                                                                                                     |
 |-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
