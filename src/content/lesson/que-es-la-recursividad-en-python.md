@@ -1,3 +1,11 @@
+---
+title: "¿¿Qué es la recursividad en Python?"
+subtitle: "Descubre qué es la recursividad en Python. Explora la técnica de llamadas a sí mismo para resolver problemas complejos de manera elegante y eficiente."
+tags: ["python"]
+authors: ["DF27ARTS"]
+
+---
+
 ## Explorando la Recursividad en Python  🔄🐍
 
 La recursividad en la programación es una herramienta muy potente, esta se realiza con funciones que se llaman a sí mismas una y otra vez, puedes entenderlo como una especie de bucle que itera hasta que se cumple una condición. A continuación veremos un pequeño ejemplo donde usaremos una función recursiva para buscar el valor máximo en una lista de números.
@@ -72,7 +80,7 @@ Colocar un caso base incorrecto es un error muy común para alguien que empieza 
 
 ## Ejemplos de Algoritmos Recursivos en Python 📝💡
 
-A continuación veremos algunos ejemplos de algoritmos de recursividad en Python.
+A continuación veremos algunos ejemplos de algoritmos de recursividad en [Python](https://4geeks.com/es/lesson/como-programar-en-python).
 
 ### Cálculo Factorial
 
@@ -180,6 +188,6 @@ En este ejemplo, el caso base es si el número ingresado por parámetro es igual
 
 ## Conclusión
 
-La recursividad es una herramienta poderosa en la programación que permite resolver problemas dividiéndolos en subproblemas más pequeños. Al comprender de forma correcta el caso base y el caso recursivo, podemos crear algoritmos recursivos eficientes. La recursión es un tema complejo de la programación que requiere práctica para comprenderlo completamente, te recomiendo que practiques lo más que puedas realizando ejemplo cómo los vistos en este artículo.  
+La recursividad es una herramienta poderosa en la programación que permite resolver problemas dividiéndolos en subproblemas más pequeños. Al comprender de forma correcta el caso base y el caso recursivo, podemos crear algoritmos recursivos eficientes. La recursión es un tema complejo de la programación que requiere práctica para comprenderlo completamente, te recomiendo que practiques lo más que puedas realizando ejemplo cómo los vistos en este artículo. Puedes chequear el [Blog de 4Geeks](https://4geeks.com/es/) para aprender más contenido interesante.
 
 ¡Diviértete creando algoritmos de recursividad para tus propias aplicaciones! 😉
