@@ -64,7 +64,7 @@ Es importante dar siempre a las variables nombres descriptivos para que nosotros
 
 #### Tipos de datos
 
-Los **tipos de datos** (*data types*) determinan la clase de datos que una variable puede contener. Python tiene sus propios tipos básicos, aunque hay librerías y bibliotecas que pueden incluir otros nuevos:
+Los **tipos de datos** (*data types*) determinan la clase de datos que una variable puede contener. Python tiene sus propios tipos básicos:
 
 **Entero** (*integer*): `int`
 
@@ -138,6 +138,154 @@ Representa secuencias de bytes. Normalmente se utilizan para manejar datos binar
 ```py
 bytes_var = b"Hola"
 ```
+
+Además de estos tipos básicos, Python también ofrece módulos y bibliotecas que definen otros tipos de datos más especializados.
+
+#### Operadores
+
+Los **operadores** (*operators*) son símbolos que indican una operación:
+
+##### Operadores matemáticos:
+
+Los operadores matemáticos realizan operaciones aritméticas. Dependiendo del tipo de las variables, los resultados pueden ser unos u otros, no necesariamente tienen que aplicarse siempre a números.
+
+- Suma: `+`
+- Resta: `-`
+- Multiplicación: `*`
+- División: `/`
+- Módulo: `%`
+
+```py
+x = 5
+y = 3
+z = x + y # z = 8
+z = x * y # z = 15
+```
+
+##### Operadores lógicos:
+
+Los operadores lógicos evalúan condiciones y devuelven valores booleanos. Pueden ser utilizados en bucles, condicionales, filtros, etcétera. Son muy versátiles y útiles.
+
+- Y lógico: `and`
+- O lógico: `or`
+- No lógico (negación): `not`
+
+```py
+verdadero = True
+falso = False
+resultado = verdadero and falso # resultado = False
+resultado = verdadero or falso # resultado = True
+```
+
+#### Estructuras de control
+
+Las estructuras de control en Python son instrucciones que permiten modificar el flujo de ejecución de un programa. Estas estructuras permiten tomar decisiones, repetir bloques de código y saltar a diferentes partes del código dependiendo de ciertas condiciones lógicas.
+
+En Python, las principales estructuras de control son:
+
+##### Estructuras de decisión
+
+**`if`**
+
+Permite ejecutar un bucle de código si se cumple una condición.
+
+```py
+edad = 18
+if edad >= 18:
+    print("Eres mayor de edad.")
+```
+
+**`elif`**
+
+Se extiende el if, para incluir y comprobar otras condiciones.
+
+```py
+if edad < 18:
+    print("Eres menor de edad.")
+elif edad >= 18:
+    print("Eres mayor de edad.")
+```
+
+**`else`**
+
+Se ejecuta cuando no se cumple ninguna de la(s) condicion(es) anterior(es):
+
+```py
+if edad < 18:
+    print("Eres menor de edad.")
+else:
+    print("Eres mayor de edad.")
+```
+
+##### Estructuras de repetición (bucles)
+
+**`for`**
+
+Repite un bloque de código un número determinado de veces o a través de los elementos de una colección.
+
+```py
+for i in range(5):
+    print(i)
+# Muestra por pantalla 0, 1, 2, 3, 4
+
+frutas = ["manzana", "banana", "cereza"]
+for fruta in frutas:
+    print(fruta)
+# Muestra por pantalla manzana, banana, cereza
+```
+
+**`while`**
+
+Repite un bloque de código mientras se cumpla una condición.
+
+```py
+contador = 0
+while contador < 5:
+    print(contador)
+    contador += 1
+# Muestra por pantalla 0, 1, 2, 3, 4
+```
+
+##### Control de bucles
+
+**`break`**
+
+Termina el bucle antes de que haya completado todas sus iteraciones.
+
+```py
+for letra in "Python":
+    if letra == "h":
+        break
+    print(letra)
+# Imprime P, y, t
+```
+
+**`continue`**
+
+Salta a la siguiente iteración del bucle, omitiendo el código que sigue después.
+
+```py
+for letra in "Python":
+    if letra == "h":
+        continue
+    print(letra)
+# Imprime P, y, t, o, n
+```
+
+**`pass`**
+
+No hace nada. Actúa como un marcador de posición donde se requiere una declaración sintácticamente, pero no se desea ejecutar ningún código.
+
+```py
+for letra in "Python":
+    if letra == "h":
+        pass
+    print(letra)
+# Imprime P, y, t, h, o, n
+```
+
+Estas estructuras de control son esenciales para crear programas que puedan tomar decisiones, repetir tareas y manejar diferentes situaciones o entradas. Al combinarlas y anidarlas, podemos crear flujos de trabajo complejos y lógicas sofisticadas en nuestros programas.
+
 
 ## Librerías
 
