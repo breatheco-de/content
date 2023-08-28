@@ -6,7 +6,7 @@ authors: ["DF27ARTS"]
 
 ---
 
-## ¿Cómo consumir una API en Python?
+## ¿Cómo consumir una API en Python usando requests?
 
 En el mundo del desarrollo moderno es muy común hacer uso de una API (Application Programming Interface) para conectarse a servicios de terceros. Por ejemplo, si estas creando una aplicación donde necesitas rastrear la ubicación de los usuarios, en lugar de escribir todo el código necesario para eso, puedes simplemente hacer uso de la API de google maps.
 
