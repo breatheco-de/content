@@ -1,3 +1,10 @@
+---
+title: "Introducción a los Diagramas de Clases: Visualiza tus Programas con Claridad"
+subtitle: "Descubre los fundamentos de los diagramas de clases. Aprende a representar tus programas de manera visual y comprensible. ¡Inicia tu viaje hoy!"
+tags: ["python", "programacion-orientada-a-objectos"]
+authors: ["DF27ARTS"]
+
+---
 
 ## Introducción a los Diagramas de Clases y UML en Programación 
 
