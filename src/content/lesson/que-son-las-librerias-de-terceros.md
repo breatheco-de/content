@@ -6,7 +6,7 @@ authors: ["DF27ARTS"]
 
 ---
 
-## Librerías de terceros en Python
+## Librerías de terceros
 
 Las librerías de terceros son una herramienta esencial en la programación moderna, la mayoría de los lenguajes de programación tiene diferentes librerías que le simplifican algunas tareas a los programadores. Una librería también conocida como paquete o módulo, es un conjunto de código predefinido que ha sido desarrollado por un programador externo y puesto a disposición del público en general.
 
