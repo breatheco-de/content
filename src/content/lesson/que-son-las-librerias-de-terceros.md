@@ -1,3 +1,10 @@
+---
+title: "¿Para qué sirven las librerías de terceros en Python?"
+subtitle: "Aprende cómo las librerías de terceros en Python pueden enriquecer tus proyectos. Descubre cómo incorporar funciones avanzadas y acelerar tu desarrollo"
+tags: ["python"]
+authors: ["DF27ARTS"]
+
+---
 
 ## Librerías de terceros en Python
 
@@ -54,7 +61,7 @@ import nombre_de_librería as alias
 
 > El alias es opcional, sirve para ponerle un nombre mas corto a la librería y que sea más fácil de utilizar.
 
-Una vez importadas ya puedes usar esta librería en tu código y aprovechar todos sus beneficios, recuerda que puedes instalar e importar tantas librerías como necesites, por ejemplo puedes usar la librería de **Numpy** junto con la librería de **Pandas** para hacer cálculos matemáticos avanzados.
+Una vez importadas ya puedes usar esta librería en tu código y aprovechar todos sus beneficios, recuerda que puedes instalar e importar tantas librerías como necesites, por ejemplo puedes usar la librería de **Numpy** junto con la [librería de **Pandas**](https://4geeks.com/es/how-to/instalar-pandas-python) para hacer cálculos matemáticos avanzados.
 
 ## Ejemplos de uso de librerías de terceros
 
@@ -134,7 +141,7 @@ La librería de **Numpy** ofrece una amplia variedad de funciones que te permite
 
 ### Pandas
 
-[Pandas](https://pandas.pydata.org/docs/) es una de las librerías más importantes de Python especialmente en áreas de trabajo como en la ciencia de datos (Data science) o en aprendizaje automático (Machine Learning). Pandas ofrece una amplia variedad de funciones para la manipulación y análisis de datos. Para descargar Pandas en tu ordenador sigue las siguientes instrucciones:
+[Pandas](https://pandas.pydata.org/docs/) es una de las librerías más importantes de [Python](https://4geeks.com/es/lesson/como-programar-en-python) especialmente en áreas de trabajo como en la ciencia de datos (Data science) o en aprendizaje automático [(Machine Learning)](https://4geeksacademy.com/us/machine-learning-engineer/machine-learning-engineer). Pandas ofrece una amplia variedad de funciones para la manipulación y análisis de datos. Para descargar Pandas en tu ordenador sigue las siguientes instrucciones:
 
 1. Instala Pandas en tu ordenador.
 ```bash
@@ -216,4 +223,4 @@ En este ejemplo, creamos una visualización falsa del número de ventas a travé
 
 ## Conclusión
 
-Las librerías de terceros son una herramienta esencial para cualquier programador. Proporcionan una forma eficiente de aprovechar funcionalidades probadas y confiables, lo que acelera el desarrollo y mejora la calidad de los proyectos. Las Librerías de terceros son especialmente útiles en carreras como ciencia de datos o aprendizaje automático ya que traen un gran variedad de funcionalidades que te ayudarán a ahorrar tiempo y esfuerzo a la hora de crear tus proyectos.
+Las librerías de terceros son una herramienta esencial para cualquier programador. Proporcionan una forma eficiente de aprovechar funcionalidades probadas y confiables, lo que acelera el desarrollo y mejora la calidad de los proyectos. Las Librerías de terceros son especialmente útiles en carreras como ciencia de datos o aprendizaje automático ya que traen un gran variedad de funcionalidades que te ayudarán a ahorrar tiempo y esfuerzo a la hora de crear tus proyectos. Si quieres conocer más información sobre el tema te recomendamos leer el artículo de [introducción a Pandas en Python](https://4geeks.com/es/lesson/introduccion-a-pandas) en el Blog de 4Geeks.
