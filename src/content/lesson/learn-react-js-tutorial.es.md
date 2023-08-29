@@ -41,7 +41,7 @@ Dividirás tu aplicación en partes pequeñas (componentes), todas juntas forman
 
 #### No más recargas del sitio web
 
-Todos tus nuevos `<Components>` son una pequeña parte de tu diseño, pero algunos están ocultas al principio. Tendrás que mostrarlos y esconderlos según el comportamiento del usuario. 
+Todos tus nuevos `<Components>` son una pequeña parte de tu diseño, pero algunos están ocultos al principio. Tendrás que mostrarlos y esconderlos según el comportamiento del usuario. 
 
 #### No más Concatenación de String en HTML
 
