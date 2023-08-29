@@ -1,3 +1,11 @@
+---
+title: "¿Qué es la recursividad en Python?"
+subtitle: "Descubre qué es la recursividad en Python. Explora la técnica de llamadas a sí mismo para resolver problemas complejos de manera elegante y eficiente."
+tags: ["python"]
+authors: ["DF27ARTS"]
+
+---
+
 ## Explorando la Recursividad en Python  🔄🐍
 
 La recursividad en la programación es una herramienta muy potente, esta se realiza con funciones que se llaman a sí mismas una y otra vez, puedes entenderlo como una especie de bucle que itera hasta que se cumple una condición. A continuación veremos un pequeño ejemplo donde usaremos una función recursiva para buscar el valor máximo en una lista de números.
@@ -28,7 +36,7 @@ El número máximo en la lista es: 40
 
 En este ejemplo hacemos uso de una función recursiva para encontrar el número más grande de una lista, en este código primero hacemos uso de una estructura condicional `if else` para verificar si el largo de la lista es igual a 1, de ser así retornamos el único número de la lista, este sería el caso de corte o caso base, de lo contrario, hacemos un llamado recursivo a la función `encontrar_valor_maximo()` y le pasamos por parámetro la lista menos el primer valor para ir recortando la lista en cada llamado recursivo y por último retornamos el valor máximo entre el primer número de la lista original y el resultado de la función.
 
-## ¿Qué es la Recursividad? 🔄🔍
+## ¿Qué es la Recursividad en Python? 🔄🔍
 
 La **recursividad** o recursión en un concepto que proviene de las matemáticas y que aplica al mundo de la programación, nos permite resolver problemas o tareas donde las mismas pueden ser divididas en sub tareas cuya funcionalidad es la misma. Dado que los subproblemas a resolver son de la misma naturaleza, se puede usar la misma función para resolverlos. En otras palabras, una función recursiva es aquella que está definida en función de sí misma, por lo que se llama repetitivamente a sí misma hasta llegar a un punto de salida.
 
@@ -72,7 +80,7 @@ Colocar un caso base incorrecto es un error muy común para alguien que empieza 
 
 ## Ejemplos de Algoritmos Recursivos en Python 📝💡
 
-A continuación veremos algunos ejemplos de algoritmos de recursividad en Python.
+A continuación veremos algunos ejemplos de algoritmos de recursividad en [Python](https://4geeks.com/es/lesson/como-programar-en-python).
 
 ### Cálculo Factorial
 
@@ -180,6 +188,6 @@ En este ejemplo, el caso base es si el número ingresado por parámetro es igual
 
 ## Conclusión
 
-La recursividad es una herramienta poderosa en la programación que permite resolver problemas dividiéndolos en subproblemas más pequeños. Al comprender de forma correcta el caso base y el caso recursivo, podemos crear algoritmos recursivos eficientes. La recursión es un tema complejo de la programación que requiere práctica para comprenderlo completamente, te recomiendo que practiques lo más que puedas realizando ejemplo cómo los vistos en este artículo.  
+La recursividad es una herramienta poderosa en la programación que permite resolver problemas dividiéndolos en subproblemas más pequeños. Al comprender de forma correcta el caso base y el caso recursivo, podemos crear algoritmos recursivos eficientes. La recursión es un tema complejo de la programación que requiere práctica para comprenderlo completamente, te recomiendo que practiques lo más que puedas realizando ejemplo cómo los vistos en este artículo. Puedes chequear el [Blog de 4Geeks](https://4geeks.com/es/) para aprender más contenido interesante.
 
 ¡Diviértete creando algoritmos de recursividad para tus propias aplicaciones! 😉

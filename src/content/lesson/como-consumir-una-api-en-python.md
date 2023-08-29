@@ -1,4 +1,12 @@
-## ¿Cómo consumir una API en Python?
+---
+title: "¿Cómo consumir una API en Python?"
+subtitle: "Aprende a consumir una API en Python. Descubre los pasos esenciales para acceder y utilizar datos externos en tus aplicaciones. ¡Potencia tus proyectos ahora!"
+tags: ["python", "apis"]
+authors: ["DF27ARTS"]
+
+---
+
+## ¿Cómo consumir una API en Python usando requests?
 
 En el mundo del desarrollo moderno es muy común hacer uso de una API (Application Programming Interface) para conectarse a servicios de terceros. Por ejemplo, si estas creando una aplicación donde necesitas rastrear la ubicación de los usuarios, en lugar de escribir todo el código necesario para eso, puedes simplemente hacer uso de la API de google maps.
 
@@ -56,7 +64,7 @@ En este ejemplo, hacemos uso del método `get(api_url)` de la librería requests
 
 ## ¿Qué es una API en Python?
 
-Las APIs son mecanismos que permiten a dos componentes de software comunicarse entre sí mediante un conjunto de definiciones y protocolos. En el contexto de la programación, una API se utiliza para acceder a funciones y datos de una aplicación externa. En Python, las APIs son una forma común de obtener y manipular datos desde servicios en línea, como servicios web, bases de datos y otros recursos externos.
+Las APIs son mecanismos que permiten a dos componentes de software comunicarse entre sí mediante un conjunto de definiciones y protocolos. En el contexto de la programación, una API se utiliza para acceder a funciones y datos de una aplicación externa. En [Python](https://4geeks.com/es/lesson/como-programar-en-python), las APIs son una forma común de obtener y manipular datos desde servicios en línea, como servicios web, bases de datos y otros recursos externos.
 
 Un ejemplo común de una API sería la [api del clima](https://openweathermap.org/api) que te brinda información básica sobre el clima de cualquier ciudad o país, si necesitas realizar una aplicación que requiera información sobre el clima de cualquier parte del mundo, puedes hacer uso de esta API a través de protocolos **HTTP** para conseguir esa información y poder usarla directamente en tu aplicación.
 
