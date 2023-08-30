@@ -48,9 +48,9 @@ Every array has the same basic concepts:
 These are different examples of list declarations:
 
 ```javascript
-let myArray = []; // Empty list 
-let myArray = ["Apple", "Orange", "Donkey"]; // With 3 string items. 
-let myArray = new Array(1,2,3,4,5); // Don't use this! Read below to learn why. 
+let myArray = []; // Empty list
+let myArray = ["Apple", "Orange", "Donkey"]; // With 3 string items
+let myArray = new Array(1,2,3,4,5); // Don't use this! Read below to learn why
 ```
 
 > ☝ Don't declare the Arrays with the `new Array()` syntax, it will not behave properly. [Click here to learn the details](https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript).
