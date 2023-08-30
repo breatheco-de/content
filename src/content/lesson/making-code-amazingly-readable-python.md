@@ -55,9 +55,7 @@ It's better to combine your conditions into related logical operations.
 
 ### Careful with indentation
 
-Of course, indentation is a vital part of readability. Python doesn't have that problem, but here is a JavaScript example that is very tricky to read. 
-
-I challenge you to find the problem!
+Of course, indentation is a vital part of readability. Python doesn't have that problem, but here is a JavaScript example that is very tricky to read.
 
 ![Indentation readability problems](https://storage.googleapis.com/media-breathecode/1cd57ac983752ef51f700dab05703bc49c67a580757e21d5917bc8cd46197801)
 
@@ -81,7 +79,7 @@ Other cases to avoid long lines of code:
 
 - Don't write long boolean expressions: "if statements" with multiple logical operations on a single line are hard to read and debug.
 - Don't write nested code: it may seem clever at the moment, but it makes code hard to read and debug.
-- Use list comprehensions sparingly.
+- Use [list comprehensions](https://www.w3schools.com/python/python_lists_comprehension.asp) sparingly.
 
 ## Low readability can get you fired
 
