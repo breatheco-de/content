@@ -79,7 +79,7 @@ myArray[5] = 'Whatever value';
 
 ## Adding Elements (push function)
 
-The only way to add a new element is at the end of the list, and you will need to use the `push()` function for that.
+To add a new element at the end of your array you will need to use the `push()` function.
 
 ```javascript
 let myArray = ['Pedro', 'Juan', 'Maria'];
