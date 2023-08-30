@@ -55,9 +55,7 @@ It's better to combine your conditions into related logical operations.
 
 ### Careful with indentation
 
-Of course, indentation is a vital part of readability. Python doesn't have that problem, but here is a JavaScript example that is very tricky to read. 
-
-I challenge you to find the problem!
+Of course, indentation is a vital part of readability. Python doesn't have that problem, but here is a JavaScript example that is very tricky to read.
 
 ![Indentation readability problems](https://storage.googleapis.com/media-breathecode/1cd57ac983752ef51f700dab05703bc49c67a580757e21d5917bc8cd46197801)
 
