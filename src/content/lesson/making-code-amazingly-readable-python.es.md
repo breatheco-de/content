@@ -57,8 +57,6 @@ Es mejor combinar tus condiciones en operaciones lógicas relacionadas.
 
 Por supuesto, la indentación o sangría es una parte vital de la legibilidad. Python no tiene ese problema, pero aquí hay un ejemplo de JavaScript que es muy difícil de leer.
 
-¡Te desafío a encontrar el problema!
-
 ![problemas de legibilidad por indentación](https://storage.googleapis.com/media-breathecode/1cd57ac983752ef51f700dab05703bc49c67a580757e21d5917bc8cd46197801)
 
 ### No necesitas tantos comentarios
@@ -81,7 +79,7 @@ Otros casos para evitar largas líneas de código:
 
 - No escribas expresiones booleanas largas: las "sentencias if" con múltiples operaciones lógicas en una sola línea son difíciles de leer y depurar.
 - No escribas código anidado: puede parecer inteligente en este momento, pero hace que el código sea difícil de leer y depurar.
-- Utiliza listas de comprensión con moderación.
+- Utiliza [listas de comprensión](https://www.w3schools.com/python/python_lists_comprehension.asp) con moderación.
 
 ## La baja legibilidad puede hacer que te despidan
 
