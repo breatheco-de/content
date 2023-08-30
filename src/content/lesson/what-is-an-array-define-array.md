@@ -159,7 +159,7 @@ let myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
 
 ## Removing from an Array
 
-It is possible to cut an array in pieces very fast, with the `slice()` and `splice()` functions.
+It is possible to cut an array into pieces very fast, with the `slice()` and `splice()` functions.
 
 ### Slice
 
@@ -176,7 +176,7 @@ Will update the current array, returning the items you want to retrieve. You wil
 <div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Slice-vs-Splice">Click to open demo in a new window</a></small></div>
 
 
-> :point_up: Splice can accept as many optional parameters as wanted and those will substitute the part of the array that has been deleted. The first parameter is the index where the deletion starts, the second is how many elements will be deleted, and from the third onward the elements inserted after the position set by the first parameter.
+> ☝ Splice can accept as many optional parameters as wanted and those will substitute the part of the array that has been deleted. The first parameter is the index where the deletion starts, the second is how many elements will be deleted, and from the third onward, the elements inserted after the position set by the first parameter.
 
 Example:
 ```javascript
@@ -199,7 +199,7 @@ It is very common needing to sort arrays. For example, sorting a list of student
 
 ### Sort and Reverse
 
-They do the same, except the reverse does it backward. They both sort using string comparison logic – which means that the string "25" is bigger than "100", because "2" is bigger than "1".
+They do the same, except that `reverse()` does it backward. They both sort using string comparison logic – which means that the string "25" is bigger than "100", because "2" is bigger than "1".
 
 ```javascript
 let fruits = ["Banana", "Orange", "Apple", "Mango"];
