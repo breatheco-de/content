@@ -234,7 +234,7 @@ let autos = [
     {tipo:'Volvo', año:2016},
     {tipo:'Saab', año:2001},
     {tipo:'BMW', año:2010}];
-    autos.sort(function(a, b) {return a.año – b.año});
+    autos.sort(function(a, b) {return a.año - b.año});
     console.log(autos); // --> [ {tipo: 'Saab', año: 2001}, {tipo: 'BMW', año: 2010}, {tipo: 'Volvo', año: 2016} ]
 ```
 
