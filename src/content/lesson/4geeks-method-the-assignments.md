@@ -44,7 +44,7 @@ There are many ways to get unstuck:
 
 - Watch the video solution of the project.
 - Ask one of your classmates.
-- Join a global mentorship session. They happen every other day.
+- Join a global mentorship session. They happen twice a week.
 - Ask questions during your live classes.
 - Request 1-1 mentorship.
 
