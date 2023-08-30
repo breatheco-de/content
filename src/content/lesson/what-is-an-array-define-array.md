@@ -108,7 +108,8 @@ Removing an element has the exact same limitations as adding an element: you can
 ```javascript
 let myArray = ['Pedro', 'Chris', 'Juan', 'Maria'];
     myArray.pop();
-    console.log(myArray); // This will print ['Pedro', 'Chris', 'Juan']; 
+    console.log(myArray); // This will print ['Pedro', 'Chris', 'Juan'];
+
 // If you want to remove 'Chris', you need to do the following: 
 let myNewArray = [];
     myNewArray.push('Pedro');
@@ -125,11 +126,12 @@ The `shift()` and `unshift()` methods are just like `push()` and `pop()`, but wi
 let myArray = ['Juan', 'Maria'];
     myArray.unshift('Pedro');
     myArray.unshift('Chris', 'Bob');
-    console.log(myArray); // This will print ['Chris', 'Bob', 'Pedro', 'Juan', 'Maria']; 
+    console.log(myArray); // This will print ['Chris', 'Bob', 'Pedro', 'Juan', 'Maria'];
+
 // If you want to remove 'Chris', you need to do the following: 
 let myArray = ['Chris', 'Bob', 'Pedro', 'Juan', 'Maria'];
     myArray.shift();
-    console.log(myArray); // This will print ['Bob','Pedro','Juan','Maria'];
+    console.log(myArray); // This will print ['Bob', 'Pedro', 'Juan', 'Maria'];
 ```
 
 ## Looping an Array
@@ -181,14 +183,14 @@ Will update the current array, returning the items you want to retrieve. You wil
 Example:
 ```javascript
 let y = [14, 3, 3245, 234, 52, 345, 3, 45, 23, 77];
-y.splice(2,4,'a');  // returns [3245, 234, 52, 345] 
-console.log(y);  // [14, 3, 'a', 3, 45, 23, 77]
+y.splice(2,4,'a'); // returns [3245, 234, 52, 345] 
+console.log(y); // --> [14, 3, 'a', 3, 45, 23, 77]
 ```
 We can use this function to insert elements:
 ```javascript
 let y = [14, 3, 3245, 234, 52, 345, 3, 45, 23, 77];
-y.splice(2,0,'a');  // returns [] 
-console.log(y);  // [14, 3, 'a', 3245, 234, 52, 345, 3, 45, 23, 77]
+y.splice(2,0,'a'); // returns [] 
+console.log(y); // --> [14, 3, 'a', 3245, 234, 52, 345, 3, 45, 23, 77]
 ```
 
 [Take a look at the docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice).
