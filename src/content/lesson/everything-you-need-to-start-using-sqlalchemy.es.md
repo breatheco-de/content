@@ -35,8 +35,8 @@ Con un ORM tu código sigue siendo un código familiar como este:
 
 ```py
 user = User()
-user.name = 'Juan'
-user.last_name = 'McDonals'
+user.name = "Juan"
+user.last_name = "McDonals"
 
 # Agrega el user a la base de datos
 db.session.add(user)
@@ -58,7 +58,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////tmp/test.db'
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:////tmp/test.db"
 db = SQLAlchemy(app)
 ```
 
@@ -68,7 +68,7 @@ El primer paso sería definir nuestro modelo:
 
 ```py
 class Person(Base):
-    __tablename__ = 'person'
+    __tablename__ = "person"
     # Aquí definimos el nombre de la tabla 'Person'
     # Ten en cuenta que cada columna es también un atributo normal de primera instancia de Python.
     id = Column(Integer, primary_key = True)
@@ -183,7 +183,7 @@ Además, tenemos una lista de ingredientes extra que podemos añadir: escogemos 
 
 # Ahora insertamos un nuevo ingrediente en la pizza, la carne
 ingredient = Ingredient()
-ingredient.name = 'meat'
+ingredient.name = "meat"
 ingredient.id = 4
 db.session.add(ingredient)
 
@@ -199,7 +199,7 @@ checkpoint_a = db.session.begin_nested()
 
 # Añadimos pepperoni en la pizza
 ingredient = Ingredient()
-ingredient.name = 'pepperoni'
+ingredient.name = "pepperoni"
 db.session.add(ingredient)
 
 # Un último "checkpoint" antes de añadir el beicon
@@ -207,7 +207,7 @@ checkpoint_b = db.session.begin_nested()
 
 # Insertamos el beicon
 ingredient = Ingredient()
-ingredient.name = 'bacon'
+ingredient.name = "bacon"
 db.session.add(ingredient)
 ```
 
