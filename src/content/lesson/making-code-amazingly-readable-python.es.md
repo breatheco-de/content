@@ -78,7 +78,8 @@ Puedes evitar la mayoría de estos problemas usando un formateador de código. E
 Otros casos para evitar largas líneas de código:
 
 - No escribas expresiones booleanas largas: las "sentencias if" con múltiples operaciones lógicas en una sola línea son difíciles de leer y depurar.
-- No escribas código anidado: puede parecer inteligente en el momento, pero hace que el código sea más difícil de leer y depurar.
+- No escribas código anidado: puede parecer inteligente en este momento, pero hace que el código sea difícil de leer y depurar.
+- Utiliza [listas de comprensión](https://www.w3schools.com/python/python_lists_comprehension.asp) con moderación.
 
 ## La baja legibilidad puede hacer que te despidan
 

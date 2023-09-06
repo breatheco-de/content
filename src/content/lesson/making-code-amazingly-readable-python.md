@@ -78,7 +78,8 @@ You can avoid most of these problems by using a code formatter. This is a friend
 Other cases to avoid long lines of code:
 
 - Don't write long boolean expressions: "if statements" with multiple logical operations on a single line are hard to read and debug.
-- Don't write nested code: it may seem clever at the moment, but it makes code harder to read and debug.
+- Don't write nested code: it may seem clever at the moment, but it makes code hard to read and debug.
+- Use [list comprehensions](https://www.w3schools.com/python/python_lists_comprehension.asp) sparingly.
 
 ## Low readability can get you fired
 

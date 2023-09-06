@@ -44,7 +44,7 @@ Hay muchas maneras de desatascarse:
 
 - Ve la solución de vídeo del proyecto.
 - Pregúntale a tus compañeros.
-- Únete a una sesión de tutoría global. Suceden cada dos días.
+- Únete a una sesión de tutoría global. Suceden 2 veces por semana.
 - Haz preguntas durante tus clases en vivo.
 - Solicita tutoría 1-1.
 
