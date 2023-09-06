@@ -22,7 +22,7 @@ Most programming languages use one general convention for variable and function 
 The two most popular general conventions are Snake Case for Python and Camel Case for JavaScript and NodeJS. Pascal Case was used by Visual Basic, but now it's mainly used in most programming languages for classes and data structures.
 
 - camelCase: In this convention, the first letter of each word except for the first word is capitalized. For example, "numStudents" or "customerAddress". 
-- snake_case: In this convention, words are separated by underscores and all letters are lowercase. For example, "num_students" or "customer_address". You can read more about the Snake Case naming convention here<!--(/lesson/snake-case-variable-naming-convention).-->
+- snake_case: In this convention, words are separated by underscores and all letters are lowercase. For example, "num_students" or "customer_address". <!-- You can read more about the Snake Case naming convention [here](/lesson/snake-case-variable-naming-convention). -->
 - PascalCase: In this convention, the first letter of each word is capitalized. For example, "NumStudents" or "CustomerAddress".
 
 ## Variable Naming Conventions are not the only thing that matters
