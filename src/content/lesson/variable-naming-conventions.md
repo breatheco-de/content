@@ -11,7 +11,7 @@ This article will explore the most popular naming conventions, when to use them,
 
 ## Do I really need to use naming conventions?
 
-Absolutely yes!! Not using conventions when coding can be compared to not following the driving laws: You can drive your car without following them, but everyone will scream at you and think you are a jerk, and of course, you will receive a ticket eventually.
+Absolutely yes!! Not using conventions when coding can be compared to not following the driving laws: You can drive your car without following them, but you can cause accidents and eventually you will get a ticket.
 
 [Software Developers](https://4geeks.com/read/full-stack) that don't use naming conventions will become isolated from the coding community, and their code contributions will be ignored because the code is hard to understand. As a result, they will not be hired by most companies or will be fired when the company finds out.
 
