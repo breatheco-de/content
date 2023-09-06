@@ -22,7 +22,7 @@ La mayoría de los lenguajes de programación utilizan una convención general p
 Las dos convenciones generales más populares son: Snake Case para Python y Camel Case para JavaScript y Node.js. Pascal Case era utilizado por Visual Basic, pero ahora se usa principalmente en la mayoría de los lenguajes de programación para clases y estructuras de datos.
 
 - CamelCase: En esta convención, la primera letra de cada palabra, excepto la primera, se capitaliza. Por ejemplo, "numStudents" o "customerAddress".
-- Snake case: En esta convención, las palabras se separan con guiones bajos. Por ejemplo, "num_students" o "customer_address". Puedes obtener más información sobre la [convención de nombres Snake Case aquí](/lesson/snake-case-variable-naming-convention)..
+- Snake case: En esta convención, las palabras se separan con guiones bajos. Por ejemplo, "num_students" o "customer_address". <!-- Puedes obtener más información sobre la [convención de nombres Snake Case aquí](/lesson/snake-case-variable-naming-convention) -->.
 - PascalCase: En esta convención, la primera letra de cada palabra se capitaliza. Por ejemplo, "NumStudents" o "CustomerAddress"
 
 ## Las convenciones de nombres de variables no son lo único que importa
