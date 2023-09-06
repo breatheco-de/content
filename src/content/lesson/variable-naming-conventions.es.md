@@ -11,7 +11,7 @@ Este artículo hablará sobre las convenciones de nombres más populares, cuánd
 
 ## ¿Realmente necesito usar convenciones de nombres?
 
-¡Absolutamente! No usar convenciones al programar se puede comparar con no seguir las leyes de tránsito: Puedes conducir tu automóvil sin seguirlas, pero todos te gritarán y pensarán que eres idiota, y, por supuesto, eventualmente recibirás una multa.
+¡Absolutamente! No usar convenciones al programar se puede comparar con no seguir las leyes de tránsito: Puedes conducir tu automóvil sin seguirlas, pero puedes causar accidentes y eventualmente recibirás una multa.
 
 Los [Desarrolladores de Software](https://4geeks.com/es/read/full-stack) que no utilizan convenciones de nombres se aislarán de la comunidad de programación, y sus contribuciones de código serán ignoradas porque el código es difícil de entender. Como resultado, no serán contratados por la mayoría de las empresas o serán despedidos cuando la empresa se dé cuenta
 
