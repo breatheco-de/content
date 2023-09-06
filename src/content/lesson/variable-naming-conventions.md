@@ -1,6 +1,6 @@
 ---
 title: "Variable Naming Conventions"
-subtitle: "Naming conventions are one of the most effective tools to increase code readability, almost every company has one and you should as well"
+subtitle: "Naming conventions are one of the most effective tools to increase code readability; almost every company has one, and you should as well."
 tags: ["coding standard guidelines"]
 
 ---
@@ -19,16 +19,16 @@ Absolutely yes!! Not using conventions when coding can be compared to not follow
 
 Most programming languages use one general convention for variable and function names and then other conventions for minor exceptions like class names, etc.
 
-The two most popular general conventions are Snake Case for python and Came Case for Javascript and Node js. Pascal Case was used by Visual Basic, but now it's mainly used in most programming languages for classes and data structures.
+The two most popular general conventions are Snake Case for Python and Camel Case for JavaScript and NodeJS. Pascal Case was used by Visual Basic, but now it's mainly used in most programming languages for classes and data structures.
 
-- CamelCase: In this convention, the first letter of each word except for the first word is capitalized. For example, "numStudents" or "customerAddress". 
-- Snake case: In this convention, words are separated by underscores. For example, "num_students" or "customer_address". You can read more about [the Snake Case naming convention here](/lesson/snake-case-variable-naming-convention).
+- camelCase: In this convention, the first letter of each word except for the first word is capitalized. For example, "numStudents" or "customerAddress". 
+- snake_case: In this convention, words are separated by underscores and all letters are lowercase. For example, "num_students" or "customer_address". You can read more about [the Snake Case naming convention here](/lesson/snake-case-variable-naming-convention).
 - PascalCase: In this convention, the first letter of each word is capitalized. For example, "NumStudents" or "CustomerAddress".
 
 ## Variable Naming Conventions are not the only thing that matters
 
-Choosing clear, descriptive, and meaningful names for your variables and other elements in your code is essential regardless of which naming convention you use. This will help to make your code more readable and easier to understand.
+Choosing clear, descriptive, and meaningful names for your variables and other elements in your code is essential, regardless of which naming convention you use. This will help to make your code more readable and easier to understand.
 
 > There are only two hard things in Computer Science: cache invalidation and naming things. — Phil Karlton
 
-We have dedicated a whole article about how to name your variables, as this is the most crucial skill to increase code readability.
+We have dedicated a whole article about how to name your variables, as this is the most crucial skill for increasing code readability.
