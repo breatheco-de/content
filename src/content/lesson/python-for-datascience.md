@@ -9,6 +9,8 @@ tags: ["data-science", "python", "pandas", "numpy"]
 canonical: ""
 ---
 
+> This lesson is a roadmap on how to learn Python for data science. If you already know Python and have -at least some- experience with the data science libraries Pandas, Numpy, etc. You can skip ahead to the next lesson.
+
 **Python** is a very versatile programming language and is used in many cases: web application development (front and back), mobile games, simulations, networks, automations, Artificial Intelligence, etcetera. This versatility makes this language the most used by far the most, and it is a great advantage for any technical profile to know it.
 
 > NOTE: It is estimated that 9 out of 10 companies use Python in some of their processes, and that these processes are essential for the proper functioning of the company.
@@ -31,8 +33,6 @@ A **library** (*library*) is a collection of predefined functions that are made 
 - Matplotlib
 
 From this top 10, most of them are used in Machine Learning, NLP, Computer Vision and many other areas of artificial intelligence. Therefore, it is vital that you know and know how to use some of these libraries, which are key to any data science work.
-
-In this bootcamp we will learn in depth `Numpy`, which is a library used to process and work with multidimensional lists in a very efficient way, `Pandas`, built on top of Numpy and that allows working with tabular data structures called `DataFrames`, `Matplotlib` that enables the option to visualize data and their relationships and `scikit-learn`, widely used to build Machine Learning models.
 
 ## Performance
 
