@@ -2,6 +2,7 @@ Pandas es una de las bibliotecas más populares del ecosistema python relacionad
 
 En este tutorial de pandas vamos a aprender ¿qué es pandas? y luego vamos a realizar una práctica de exploración y transformación de datos con el uso de DataFrames.
 
+Para empezar a explorar pandas vamos a inspeccionar el siguiente ejemplo:
 ```python
 import pandas as pd
 
@@ -34,7 +35,9 @@ df.info()
 # memory usage: 228.0+ bytes
 
 ```
-Explicación del ejemplo
+Como podemos ver el primer paso para utilizar esta biblioteca es importarla con un `import pandas as pd`. Luego, podemos ver como se crea un Dataframe con 3 columnas que son: `"name", "type" y "avg_bill"`.
+Lo siguiente que hacemos es imprimir las primeras 10 filas del Dataframe y finalmente imprimimos la información general de los valores de cada columna del Dataframe.
+
 
 ## ¿Qué es pandas? 
 
@@ -73,11 +76,12 @@ df = pd.read_csv("https://datos.cdmx.gob.mx/dataset/aa2ff336-b4aa-44f3-b38a-f303
 ```
 La colección de datos que utilizaremos, contiene la información de los puntos de acceso a wifi públicos en la Ciudad de México.
 
-### Inspección del DataFrame
+## Inspección del DataFrame
 Usualmente cuando empezamos a analizar una nueva colección de datos, desconocemos la estructura e incluso los valores que podría contener, es por ello que antes de intentar aplicar agregaciones, vamos a explorar el DataFrame con la ayuda de los siguientes métodos:
 
+### df.head()
+Este método nos permite Imprimir en pantalla las primeras filas del Dataframe.
 ```python
-# Imprimir en pantalla las primeras filas del Dataframe
 df.head()
 #                                        id  ...               alcaldia
 # 0                           19 DE MAYO-01  ...         Álvaro Obregón
@@ -85,8 +89,11 @@ df.head()
 # 2  1A AMPLIACION SANTIAGO ACAHUALTEPEC-02  ...             Iztapalapa
 # 3          SAN LORENZO ACOPILCO (PBLO)-01  ...  Cuajimalpa de Morelos
 # 4                          26 DE JULIO-01  ...         Álvaro Obregón
+```
 
-# Información sobre los nombres de las columnas, cantidad de valores nulos y tipo de valor de la columna, así como el dtype por defecto y la cantidad de memoria que ocupa el DataFrame.
+### df.info()
+Con este método podemos visualizar la información sobre los nombres de las columnas, cantidad de valores nulos y tipo de valor de la columna, así como el dtype por defecto y la cantidad de memoria que ocupa el DataFrame.
+```python
 df.info()
 # <class 'pandas.core.frame.DataFrame'>
 # RangeIndex: 31251 entries, 0 to 31250
@@ -102,8 +109,11 @@ df.info()
 #  6   alcaldia           31251 non-null  object
 # dtypes: float64(2), object(5)
 # memory usage: 1.7+ MB
+```
 
-# Este método sirve para tener una idea general de las columnas con valores cuantitativos aplicandoles las agregaciones estadísticas más comunes como el conteo de valores, el promedio de ese valor y otros.
+### df.describe()
+Este método sirve para tener una idea general de las columnas con valores cuantitativos aplicandoles las agregaciones estadísticas más comunes como el conteo de valores, el promedio de ese valor y otros.
+```python
 df.describe()
 #       fecha_instalacion       latitud
 # count                0.0  31251.000000
@@ -114,9 +124,12 @@ df.describe()
 # 50%                  NaN     19.386324
 # 75%                  NaN     19.444230
 # max                  NaN     19.579300
+```
 
-# En este caso estamos utilizando el método isnull() y el método sum() para obtener la cantidad de filas que  tienen un valor nulo o NaN en cada columna. Esto puede ser muy util ya que las columnas que contienen  todos sus valores nulos podrían ser descartadas de las operaciones de agregación ya que no aportan ningún valor.
+### df.isnull().sum()
+En este caso estamos utilizando el método isnull() y el método sum() para obtener la cantidad de filas que  tienen un valor nulo o NaN en cada columna. Esto puede ser muy util ya que las columnas que contienen  todos sus valores nulos podrían ser descartadas de las operaciones de agregación ya que no aportan ningún valor.
 
+```python
 df.isnull().sum()
 # id                       0
 # programa                 0
@@ -129,7 +142,7 @@ df.isnull().sum()
 
 ```
 
-### Limpieza del DataFrame
+## Limpieza del DataFrame
 Antes de poder aplicar las operaciones matemáticas es muy importante realizar una limpieza a los valores que contiene el DataFrame, ya que de lo contrario podríamos enfrentarnos a errores debido al formato o al contenido de los campos.
 
 En el paso anterior hemos comprobado que la columna fecha_instalacion tiene el 100% de sus valores en nulo, por lo que es una columna que no nos servirá y podemos descartarla con el método `drop()`, a este método le indicamos el eje de las columnas con el parametro `axis=1` y vamos a aplicar el cambio al mismo DataFrame sin crear uno nuevo con el parametro `inplace=True`.
@@ -148,10 +161,10 @@ Para ello vamos a utilizar el método `apply` que nos permitirá recorrer el Dat
 df["id"] = df["id"].apply(lambda x: x.replace(" ", "_"))
 ```
 
-### Agregaciones
-Ahora si, es momento de aplicar las operaciones matemáticas a la colección de datos y obtener los resultados que buscamos.
+## Agregaciones
+Ahora si, es momento de aplicar las operaciones matemáticas a la colección de datos y obtener los resultados que buscamos.  
 
-Al aplicar el método value_counts() podremos obtener el conteo de los valores de una columna, agrupados por sus distintos valores. En este caso nos gustaría saber cuales son las alcaldías que tienen más puntos de acceso con wifi.
+Al aplicar el método `value_counts()` podremos obtener el conteo de los valores de una columna, agrupados por sus distintos valores. En este caso nos gustaría saber cuales son las alcaldías que tienen más puntos de acceso con wifi.  
 ```python
 df["alcaldia"].value_counts()
 # alcaldia
@@ -161,9 +174,11 @@ df["alcaldia"].value_counts()
 # Tlalpan                   2633
 # Álvaro Obregón            2548
 # Coyoacán                  2274
+```
 
-# Ahora bien si queremos obtener el mismo conteo pero en vez de obtener el total queremos obtener el porcentaje entonces utilizamos el parámetro normalize=True:
+Ahora bien si queremos obtener el mismo conteo pero en vez de obtener el total queremos obtener el porcentaje entonces utilizamos el parámetro `normalize=True`:  
 
+```python
 df["alcaldia"].value_counts(normalize=True)
 # alcaldia
 # Gustavo A. Madero         0.115388
@@ -185,7 +200,7 @@ df["colonia"].str.contains("CENTRO").sum()
 # 42
 ```
 
-### Resultados
+## Resultados
 Luego de aplicar las exploraciones y agregaciones matemáticas podemos empezar a visualizar las características destacadas de nuestra colección de datos y a partír de allí, definir cuales son las métricas que más nos interesan y que quiseramos guardar para utilizarlas en diversos materiales como pueden ser reportes, visualizaciones gráficas, tablas, etc.
 Finalmente para guardar el DataFrame resultante vamos a utilizar el método `save()`.
 
