@@ -112,7 +112,7 @@ def multiplicar(a, b):
 
 # esta parte del código está FUERA de la función 'multiplicar' 
 # porque ya no tiene la identación a la derecha
-print(str(multiplica(34, 2)))
+print(str(multiplicar(34, 2)))
 
 ```
 
@@ -154,10 +154,10 @@ La única forma de usar una función (es decir de "llamarla") es usando parénte
 multiplicar()
 
 # Así se llama a una función con parámetros
-multiplcar(<primer param>, <segundo param>)
+multiplicar(<primer param>, <segundo param>)
 
 # por ejemplo, para multiplicar 3 por 9
-multiplar(3, 9)
+multiplicar(3, 9)
 
 ```
 
