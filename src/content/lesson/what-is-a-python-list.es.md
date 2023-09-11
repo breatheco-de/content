@@ -47,7 +47,7 @@ Utilizando corchetes de la siguiente manera:
 my_list = []  # lista vacia
 my_list = ["Apple", "Orange", "Donkey"]  # La única forma de declarar una lista
 my_tuple = ("Apple", "Orange", "Donkey")  # Esto no es una lista, es una version más limitada llamada "Tupla"
-my_set = {"Apple", "Orange", "Donkey"}  # Esto no es una lista, es una version más limitada llamada "set" (cojunto).
+my_set = {"Apple", "Orange", "Donkey"}  # Esto no es una lista, es una version más limitada llamada "set" (conjunto).
 
 ```
 
