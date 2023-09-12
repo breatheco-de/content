@@ -1,5 +1,5 @@
 ---
-title: "¿Qué es Pandas en Python?"
+title: "¿Cómo instalar Pandas en Python?"
 subtitle: "Aprende a instalar Pandas en Python de manera sencilla y rápida. Sigue nuestra guía paso a paso para configurar correctamente Pandas."
 tags: ["python","pandas"]
 authors: ["DF27ARTS"]
