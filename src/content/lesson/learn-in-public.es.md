@@ -43,15 +43,15 @@ Cuando aprendes en público, conviertes las redes sociales en tu cuaderno de not
 
 ## Excusas para no aprender en público:
 
-### No tengo nada que decir
+### No tengo nada que decir.
 
 Realmente lo dudo, aprender a programar es difícil y la gente lee mucho sobre ello y necesita apoyo emocional, solo con tu testimonio estás ayudando a muchos y mucha gente estará interesada en conocer tu historia.
 
-### No soy un experto
+### No soy un experto.
 
 Nadie lo es. Llevo 20 años programando y sigo pensando que no soy un experto, al mostrar tu perspectiva sobre los temas que acabas de aprender estás ayudando a otros aficionados en su camino.
 
-### No tengo tiempo
+### No tengo tiempo.
 
 No lo hagas todo, puedes elegir una o dos cosas que te gusten. Incluso si estás aprendiendo en privado tienes que tomar notas y terminar los proyectos de programación y los desafíos, ¿por qué no darte un poco de tiempo extra para publicarlos? Creo que vale la pena el 100% de tu tiempo. 
 
