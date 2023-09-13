@@ -51,7 +51,7 @@ Instead of nesting blocks of code, consider refactoring the code into smaller fu
 
 It's better to combine your conditions into related logical operations.
 
-![avoid using else statements](https://storage.googleapis.com/media-breathecode/93dfd2bc759cb41efeef36ef575bd56d4e53ecae0c0f3a73b371ba896404caff)
+![avoid using else statements](https://github.com/breatheco-de/content/blob/94097af0165a91f315a888a9c55e67029034d9c7/src/assets/images/good-bad-example-code-3%2C5-avoid-else-statements.png?raw=true)
 
 ### Careful with indentation
 
