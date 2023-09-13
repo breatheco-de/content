@@ -39,7 +39,7 @@ En esta lección, repasaremos algunos consejos que puedes seguir para mejorar la
 - Evita usar nombres de una sola letra.
 - Mantén los nombres cortos, pero no demasiado cortos; concisos, pero aún descriptivos.
 
-![nombres de variables buenos vs malos](https://storage.googleapis.com/media-breathecode/54d66f16a9ce92ebbc05807f763dc5975d51280817415c98f02ab893ffa3eb05)
+![nombres de variables buenos vs malos](https://github.com/breatheco-de/content/blob/4588ac449e1507072c022ca433d0db46a431881d/src/assets/images/good-bad-example-code-2-variable-names-python.png?raw=true)
 
 ### Divide tu código en funciones más pequeñas
 
@@ -51,7 +51,7 @@ En lugar de anidar bloques de código, considera refactorizar el código en func
 
 Es mejor combinar tus condiciones en operaciones lógicas relacionadas.
 
-![evita usar sentencias else](https://storage.googleapis.com/media-breathecode/93dfd2bc759cb41efeef36ef575bd56d4e53ecae0c0f3a73b371ba896404caff)
+![evita usar sentencias else](https://github.com/breatheco-de/content/blob/4588ac449e1507072c022ca433d0db46a431881d/src/assets/images/good-bad-example-code-4-avoid-else-statements-python.png?raw=true)
 
 ### Cuidado con la indentación
 

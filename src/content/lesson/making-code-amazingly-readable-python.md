@@ -39,7 +39,7 @@ Where do I start? This is one of the most difficult tasks in coding.
 - Avoid using single-letter names.
 - Keep names short, but not too short; concise, but still descriptive.
 
-![good vs bad variable names](https://storage.googleapis.com/media-breathecode/54d66f16a9ce92ebbc05807f763dc5975d51280817415c98f02ab893ffa3eb05)
+![good vs bad variable names](https://github.com/breatheco-de/content/blob/4588ac449e1507072c022ca433d0db46a431881d/src/assets/images/good-bad-example-code-2-variable-names-python.png?raw=true)
 
 ### Split your code into smaller functions
 
@@ -51,7 +51,7 @@ Instead of nesting blocks of code, consider refactoring the code into smaller fu
 
 It's better to combine your conditions into related logical operations.
 
-![avoid using else statements](https://storage.googleapis.com/media-breathecode/93dfd2bc759cb41efeef36ef575bd56d4e53ecae0c0f3a73b371ba896404caff)
+![avoid using else statements](https://github.com/breatheco-de/content/blob/4588ac449e1507072c022ca433d0db46a431881d/src/assets/images/good-bad-example-code-4-avoid-else-statements-python.png?raw=true)
 
 ### Careful with indentation
 
