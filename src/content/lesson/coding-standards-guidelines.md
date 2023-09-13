@@ -24,7 +24,7 @@ It's best to avoid using global variables whenever possible, use more function a
 2. It's harder to isolate problems when multiple parts of the code are interacting with the same global variables.
 3. Changes to a global variable can have unintended consequences in other parts of the code.
 
-![don't use global variables](https://breathecode.herokuapp.com/v1/media/file/dont-use-global-variables-png?)
+![don't use global variables](https://github.com/breatheco-de/content/blob/4588ac449e1507072c022ca433d0db46a431881d/src/assets/images/good-bad-example-code-1-global-variables.png?raw=true)
 
 ## Variable Names
 Some of the naming conventions are given below:
