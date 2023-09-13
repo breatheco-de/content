@@ -59,7 +59,7 @@ From the moment a website starts being loaded, the browser creates a hierarchy t
 
 ## How do I access any Object in the DOM?
 
-Just like we did with CSS, we can select any element in the document.  There are 4 methods that allow us to search for whatever we want:
+Just like we did with CSS, we can select any element in the document.  There are 5 methods that allow us to search for whatever we want:
 
 ### document.querySelector("css-element-selector")
 
@@ -109,26 +109,48 @@ The best way to retrieve the child elements of any DOM element is by using its c
 
 ### element.childNodes
 
-This returns an array with all the element’s children elements.
+This returns an array-like (returns NodeList) with all the element’s children elements.
 
 ```javascript
-var x = document.getElementById("myDIV");
-x.querySelector(".random").style.background = "green";
-//get the first #myDIV child with the .random class  
+const bodyChildNodes = document.body.childNodes;
+// returns body element child nodes
 
-var x = document.getElementById("myDIV");
-x.querySelector("h3,h2").style.background = "blue";
-//get the first #myDIV child with the tag h3 or h2 
- 
-var tableElm = document.getElementById("people");
-var trArray = tableElm.querySelectorAll("tr");
-trArray[3].style.background = "red";
-//get an array with all of #people's children with tag tr
+const myDivChildNodes = document.getElementById("myDIV").childNodes;
+myDivChildNodes[1].style.background = 'red';
+//change the bnackground of the second child nodes element of "myDiv"
 ```
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+Other remarks about childNodes property:
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/a3grunqj/2/embedded/js,html,result/">Click to open demo in a new window</a></small></div>
++ returns nodes: Element nodes, text nodes, and comment nodes.
++ Whitespace between elements are also text nodes.
++ The `childNodes` property returns a collection (list) of an elements's child nodes.
++ The `childNodes` property returns a NodeList object.
++ The `childNodes` property is read-only.
++ `childNodes[0]` is the same as `firstChild`.
+
+### element.children
+
+This returns an array-like (returns HTMLCollection) with all the element’s child elements.
+
+```javascript
+const collection = document.body.children;
+//returns a collection of the body element's children
+
+const myDivChildren = document.getElementById("myDIV").children;
+myDivChildren[1].style.backgroundColor = "yellow";
+//change the bnackground of the second children element of "myDiv"
+```
+
+Other remarks about children property:
+
++ The `children` property returns a collection of an element's child elements.
++ The `children` property returns an HTMLCollection object.
+
+
+<iframe width="100%" height="300" src="//jsfiddle.net/lvvargas_aponte/ncrgv6o8/9/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<div align="right"><small><a href="//jsfiddle.net/lvvargas_aponte/ncrgv6o8/9/embedded/js,html,result/">Click to open demo in a new window</a></small></div>
 
 ## The innerHTML
 
