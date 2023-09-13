@@ -51,7 +51,7 @@ En lugar de anidar bloques de código, considera refactorizar el código en func
 
 Es mejor combinar tus condiciones en operaciones lógicas relacionadas.
 
-![evita usar sentencias else](https://storage.googleapis.com/media-breathecode/93dfd2bc759cb41efeef36ef575bd56d4e53ecae0c0f3a73b371ba896404caff)
+![evita usar sentencias else](https://github.com/breatheco-de/content/blob/94097af0165a91f315a888a9c55e67029034d9c7/src/assets/images/good-bad-example-code-3%2C5-avoid-else-statements.png?raw=true)
 
 ### Cuidado con la indentación
 
