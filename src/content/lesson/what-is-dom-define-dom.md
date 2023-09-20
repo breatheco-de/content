@@ -13,7 +13,7 @@ status: "published"
 
 Nobody likes applications that are based on the console... Can you imagine using Uber from the command line?
 
-```javascript
+```bash
 $ "uber" request-trip --from home-- to work --pool
 ```
 
