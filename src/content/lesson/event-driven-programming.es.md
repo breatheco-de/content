@@ -219,7 +219,7 @@ Ten en cuenta que en `addEventListener()` solo hacemos referencia a la función 
 |keyCode        |Devuelve el código de caracteres Unicode de la tecla que activa el evento.    |
 |shiftKey, altKey o ctrlKey     |Devuelve si las teclas `shift`, `alt` o `ctrl` se pulsan cuando el evento fue provocado.    |
 
-### Información adicional para eventos de rueda (scroll)
+### Información Adicional para Eventos de Rueda (scroll)
 
 | Propiedades    | Descripción       |
 |:---------------|:------------------|
