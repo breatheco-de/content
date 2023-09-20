@@ -35,98 +35,93 @@ Estos son algunos de los tipos de eventos que se activan constantemente (y usted
 
 ### MOUSE – Eventos
 
-|**Tipo de Datos**    |**Descripción**    |
+|  Tipo de Datos  |   Descripción    |
 |:----------------|:-----------------|
-|Clic           |Cuando el usuario hace clic con el mouse o el dedo en cualquier elemento HTML.   |
-|Mouseover,<br>Mouseout    |El evento ocurre cuando el puntero se mueve hacia dentro (para el mouseover) o hacia afuera (para el mouseout) un elemento, o uno de sus hijos.    |
+|click           |Cuando el usuario hace clic con el mouse o el dedo en cualquier elemento HTML.   |
+|mouseover,<br>mouseout    |El evento ocurre cuando el puntero se mueve hacia dentro (para el mouseover) o hacia afuera (para el mouseout) de un elemento, o uno de sus hijos.    |
 |contextmenu    |Cuando el usuario hace clic derecho en el mouse.    |
-|Mousemove     |Si el usuario mueve el mouse.   |
-|Mousedown or Mouseup     |Si el usuario presiona o suelta el mouse.    |
-
-> :point_up: Juega con esta demo aquí
+|mousemove     |Si el usuario mueve el mouse.   |
+|mousedown,<br>mouseup     |Si el usuario presiona o suelta el mouse.    |
 
 <iframe width="100%" height="300" frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/mouse.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/mouse.html">Haga clic aquí para abrir la demostración en una nueva ventana.</a></small></div>
+<div align="right"><small><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/mouse.html">Clic aquí para abrir demo en una nueva ventana</a></small></div>
+
+> ☝ Juega con esta demo aquí
 
 ### FRAME – Eventos
 
-|**Tipo de Datos**    |**Descripción**    |
+|  Tipo de Datos  |   Descripción    |
 |:----------------|:-----------------|
-|Load	           |El navegador ha terminado de cargar el sitio web.  |
-|Error            |El evento ocurre cuando se produce un error al cargar un archivo externo (como un CSS o un JavaScript).
-|Scroll         |El evento se produce cuando la vista del documento o un elemento es deslizado.|
-|PageHide<br>PageShow    |Cuando el usuario se enfoca en una ventana / pestaña diferente; o cuando el usuario vuelve de una ventana / pestaña diferente.  |
-|Resize    |Cuando la ventana se redimensiona.     |
-
-> :point_up: Juega con esta demo aquí
+|load	           |El navegador ha terminado de cargar el sitio web.  |
+|error            |El evento ocurre cuando se produce un error al cargar un archivo externo (como un CSS o un JavaScript).
+|scroll         |El evento se produce cuando la vista del documento o un elemento es deslizado.|
+|pagehide,<br>pageshow    |Cuando el usuario se enfoca en una ventana / pestaña diferente; o cuando el usuario vuelve de una ventana / pestaña diferente.  |
+|resize    |Cuando la ventana se redimensiona o cambia de tamaño.     |
 
 <iframe width="100%" height="300" frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/frame.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/frame.html" allowfullscreen="allowfullscreen">Haga clic aquí para abrir la demostración en una nueva ventana.</a></small></div>
+<div align="right"><small><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/frame.html" allowfullscreen="allowfullscreen">Clic aquí para abrir demo en una nueva ventana</a></small></div>
+
+> ☝ Juega con esta demo aquí
 
 ### FORMS – Eventos 
 
-|**Tipo de Datos**    |**Descripción**    |
+|  Tipo de Datos  |  Descripción     |
 |:----------------|:-----------------|
-|Submit	    |El evento ocurre cuando se envía un formulario.    |
-|Focusin and Focusout     |El evento ocurre cuando el puntero se mueve a un elemento o a uno de los elementos secundarios del elemento.   |
-|Input       |El evento ocurre cuando un elemento obtiene la entrada del usuario.    |
-|Change       |El evento ocurre cuando el contenido de un elemento del formulario, la selección o el estado previamente establecido han cambiado (para `<input>`, `<keygen>`, `<select>`, y `<textarea>`)
-     |
-
-> :point_up: Juega con esta demo aquí 
+|submit	    |El evento ocurre cuando se envía un formulario.    |
+|focusin and focusout     |El evento ocurre cuando el puntero se mueve a un elemento o a uno de los elementos hijo del elemento.   |
+|input       |El evento ocurre cuando un elemento obtiene datos introducidos por el usuario.    |
+|change       |El evento ocurre cuando el contenido de un elemento del formulario, la selección o el estado previamente establecido han cambiado (para `<input>`, `<keygen>`, `<select>`, y `<textarea>`) |
 
 <iframe width="100%" height="300"  frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/forms.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/forms.html">Haga clic aquí para abrir la demostración en una nueva ventana.</a></small></div>
+<div align="right"><small><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/forms.html">Clic aquí para abrir demo en una nueva ventana</a></small></div>
+
+> ☝ Juega con esta demo aquí 
 
 ### TECLADO – Events
 
 |**Tipo de Datos**    |**Descripción**    |
 |:----------------|:-----------------|
-|Keyup           |Cuando el usuario suelta la tecla del teclado.    |
-|Keydown	     |Cuando el usuario presiona la tecla del teclado.    |
-|Keypress       |Cuando el usuario presiona y suelta la tecla del teclado. La diferencia de keydown / up es que Keypress solo funciona con teclas de caracteres. Por ejemplo, no funciona en las flechas arriba | abajo | izquierda | derecha. |
-
-> :point_up:Juega con esta demo aquí
+|keyup           |Cuando el usuario suelta una tecla del teclado.    |
+|keydown	     |Cuando el usuario presiona una tecla del teclado.    |
+|keypress       |Cuando el usuario presiona y suelta una tecla del teclado. La diferencia de keydown/up es que keypress solo funciona con teclas de caracteres. Por ejemplo, no funciona en las flechas arriba\|abajo\|izquierda\|derecha. |
 
 <iframe width="100%" height="300"  frameborder="1"src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/keyboard.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/keyboard.html">Haga clic aquí para abrir la demostración en una nueva ventana.</a></small></div>
+<div align="right"><small><a href="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/keyboard.html">Clic aquí para abrir demo en una nueva ventana</a></small></div>
 
-
-
-> :link: Aquí [puedes encontrar una lista con todos los otros eventos menos comunes](https://www.w3schools.com/jsref/dom_obj_event.asp) que tiene a su disposición.  Léalos rápidamente y sé consciente de ellos para futuras referencias durante tu vida como desarrollador.
+> ☝ Juega con esta demo aquí
 
 ## Escuchando los Eventos
 
-Ahora que sabes qué eventos hay, puedes comenzar a escucharlos cuando lo desees durante el tiempo de ejecución.  La única forma de reaccionar ante cualquier evento es escuchar ese evento y asignar una función que maneje el evento como lo necesite.
+Ahora que sabes qué eventos hay, puedes comenzar a escucharlos cuando lo desees durante el tiempo de ejecución. La única forma de reaccionar ante cualquier evento es escuchar ese evento y asignar una función que maneje el evento como lo necesite.
 
-Repitamos: Para **reaccionar** necesitas **escuchar…** Y para escuchar necesitas especificar una función **handler**. Llamamos a esa construcción un **Event Listener**.
+Repitamos: Para **reaccionar** necesitas **escuchar**. Y para escuchar necesitas especificar una función **handler**. Llamamos a esa construcción un **Event Listener**.
 
-![events driven programming](https://github.com/breatheco-de/content/blob/master/src/assets/images/9fa13314-24cc-4a4b-9676-e60616f73602.gif?raw=true)
+![programación orientada a eventos](https://github.com/breatheco-de/content/blob/master/src/assets/images/9fa13314-24cc-4a4b-9676-e60616f73602.gif?raw=true)
 
 Puedes agregar un detector de eventos de 2 maneras diferentes:
 
 ## Añadiendo Listeners desde el HTML
 
-Por ejemplo, si desea empezar a escuchar cuando el usuario hace clic en un botón en particular todo lo que tiene que hacer es especificar el atributo "onclick" para esa etiqueta HTML específica `< button>`, así:
+Por ejemplo, si deseas empezar a escuchar cuando el usuario hace clic en un botón en particular todo lo que tienes que hacer es especificar el atributo "onclick" para esa etiqueta HTML específica `<button>`, así:
 
 ```html
-<!– myClickHandler is a javascript function that will handle the event –>
-<button onclick="myClickHandler();">Click me</button>
+<!-- myClickHandler es la función de JavaScript que manejará el evento -->
+<button onclick="myClickHandler()">Click me</button>
  
 <script>
-function myClickHandler(){
-    alert(‘hello’);
+function myClickHandler() {
+    alert('hello');
 }
 </script>
 ```
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/b7c6gmnd/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/b7c6gmnd/1/embedded/js,html,result/" allowfullscreen="allowfullscreen">Haz clic aquí para abrir la demostración en una nueva ventana.</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/b7c6gmnd/1/embedded/js,html,result/" allowfullscreen="allowfullscreen">Clic aquí para abrir demo en una nueva ventana</a></small></div>
 
 ## Añadiendo Listeners desde JavaScript (durante el tiempo de ejecución)
 
@@ -140,7 +135,7 @@ Por ejemplo, el siguiente código está creando una lista de nombres, y cada LI 
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/1nhjc4t0/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/1nhjc4t0/1/embedded/js,html,result/">Haga clic aquí para abrir la demostración en una nueva ventana.</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/1nhjc4t0/1/embedded/js,html,result/">Clic aquí para abrir demo en una nueva ventana</a></small></div>
 
 ## El Objeto del Evento
 
@@ -213,31 +208,31 @@ O puedes hacerlo con `addEventListener`:
 
 ```
 
-Ten en cuenta que en **addEventListener()** solo hacemos referencia a la función (`myChangeHandler`) y **no** la llamamos (`myChangeHandler()`). Si la llamas, se ejecutará automáticamente cuando se cargue la página y no esperará a que se gatille/desencadene un evento y ese no es el objetivo. Por lo tanto, no necesitamos pasar el **objeto de evento (event object)** como argumento allí (no hay paréntesis). **AddEventListener** pasa automáticamente el objeto de evento a la función que lo controla (handler function).
+Ten en cuenta que en `addEventListener()` solo hacemos referencia a la función (`myChangeHandler`) y **no** la llamamos (`myChangeHandler()`). Si la llamas, se ejecutará automáticamente cuando se cargue la página y no esperará a que se desencadene un evento y ese no es el objetivo. Por lo tanto, no necesitamos pasar el **objeto de evento (event object)** como argumento allí (no hay paréntesis). `addEventListener()` pasa automáticamente el objeto de evento a la función que lo controla (handler function).
 
-### Información Adicional para ** Eventos del Mouse **
+### Información Adicional para Eventos del Mouse
 
-|**Propiedades**    |**Descripción**    |
+|  Propiedades   |  Descripción      |
 |:---------------|:------------------|
-|clientX, clientY    |Devuelve la horizontal o vertical de coordenadas del puntero del mouse, con relación a la ventana actual, cuando el evento de mouse fue provocada.    |
-|pageX, pageY       |Devuelve la horizontal o vertical de coordenadas del puntero del mouse, en relación con el documento, cuando el evento del mouse fue provocado.     |
-|which      |Devuelve qué botón del mouse cuando se presiona el evento de ratón se desencadenó      |
+|clientX, clientY    |Devuelve la horizontal o vertical de coordenadas del puntero del mouse, con relación a la ventana actual, cuando el evento fue provocado.    |
+|pageX, pageY       |Devuelve la horizontal o vertical de coordenadas del puntero del mouse, en relación con el documento, cuando el evento fue provocado.     |
+|which            |Devuelve qué botón del mouse se presionó, cuando el evento fue provocado.      |
 
-### Información Adicional para **Eventos de Teclado**
+### Información Adicional para Eventos de Teclado
 
-|**Propiedades**    |**Descripción**    |
+|  Propiedades   |Descripción        |
 |:---------------|:------------------|
 |keyCode        |Devuelve el código de caracteres Unicode de la tecla que activa el evento.    |
-|shiftKey, altKey or ctrlKey     |Devuelve si el `shift`,`alt` o `ctrl` se pulsan cuando el evento clave fue provocado.    |
+|shiftKey, altKey o ctrlKey     |Devuelve si las teclas `shift`, `alt` o `ctrl` se pulsan cuando el evento fue provocado.    |
 
-### Información adicional para **eventos de rueda**
+### Información adicional para eventos de rueda (scroll)
 
-|**Propiedades**    |**Descripción**    |
+| Propiedades    | Descripción       |
 |:---------------|:------------------|
-|deltaX, deltaY   |Devuelve la cantidad de desplazamiento vertical u horizontal de una rueda del ratón ( eje y) o (eje x)   |
+|deltaX, deltaY  |Devuelve la cantidad de desplazamiento vertical u horizontal de una rueda del ratón (eje y) o (eje x)   |
 |deltaMode       |Devuelve un número que representa la unidad de mediciones de valores delta (píxeles, líneas o páginas)    |
 
-> :link: Hay mucha más información que puedes obtener del objeto de evento, pero nos estamos enfocando en las propiedades más utilizadas. Para una lista más grande de propiedades por favor lee [esta guía.](https://www.w3schools.com/jsref/dom_obj_event.asp)
+> 🔗 Hay mucha más información que puedes obtener del objeto de evento, pero nos estamos enfocando en las propiedades más utilizadas. Para una lista más grande de propiedades por favor lee [esta guía.](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
 ## Eliminar los Listeners (receptores)
 
@@ -247,15 +242,15 @@ Ten en cuenta que en **addEventListener()** solo hacemos referencia a la funció
 element.removeEventListener(type, eventHandlerFunction);
 ```
 
-Tienes que utilizar los mismos parámetros exactos en la función *removeEventListener* de que los que utilizan en la función *addEventListener*.
+Tienes que utilizar los mismos parámetros exactos en la función `removeEventListener()` que los que se utilizan en la función `addEventListener()`.
 
 He aquí un ejemplo:
 
-En este código, se añade un detector de eventos para el evento clic, pero luego, la primera vez que el detector de clic se llama a la función de controlador, elimina el detector de eventos desde el botón. Es por eso que la segunda vez que se hace clic en el botón, no pasa nada.
+En este código, se añade un detector de eventos para el evento clic, pero luego, la primera vez que el detector de clic se llama a la función *handler*, que elimina el detector de eventos desde el botón. Es por eso que la segunda vez que se hace clic en el botón, no pasa nada.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/">Haga clic aquí para abrir la demo en una nueva ventana.</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/">Clic aquí para abrir demo en una nueva ventana</a></small></div>
 
 
 
