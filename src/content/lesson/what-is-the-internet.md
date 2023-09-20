@@ -61,7 +61,7 @@ Everything is connected.  The best way to understand this is by comparing it to 
 
 <iframe width="807" height="453" src="https://www.youtube.com/embed/UiBT3Kj8KBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<p style="text-align:center;"><small>
+<p style="text-align:center; margin-top: 10px;"><small>
 <strong>Video:</strong> 2 min video explaining how the Internet works.
 </small><p>
 
