@@ -10,7 +10,7 @@ En un inicio esto puede parecer complicado, pero vas a ver que mientras vayas ad
 
 ## ¿Qué es Python? 
 
-Python es conocido por su simplicidad, legibilidad y versatilidad. Es un lenguaje de programación que ha conquistado el corazón de los programadores novatos y expertos por igual. ¿La razón? Es el lenguaje que mas se parece al nuestro, debido a esto es más fácil de entender, y con un poco de práctica se puede leer el código como si estuvieses leyendo un libro. Con Python puedes desde crear aplicaciones web y juegos hasta análisis de datos y automatización
+Python es conocido por su simplicidad, legibilidad y versatilidad. Es un lenguaje de programación que ha conquistado el corazón de los programadores novatos y expertos por igual. ¿La razón? Es el lenguaje que más se parece al nuestro, debido a esto es más fácil de entender, y con un poco de práctica se puede leer el código como si estuvieses leyendo un libro. Con Python puedes desde crear aplicaciones web y juegos hasta análisis de datos y automatización
 
 ## ¿Qué aprenderás Aquí? 
 
