@@ -35,7 +35,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 
 ### MOUSE – Events
 
-| Data-Type       |  Description     |
+|Data-Type        |Description       |
 |:----------------|:-----------------|
 |click            |When the user clicks with the mouse in any HTML element.    |
 |mouseover,<br>mouseout    |The event occurs when the pointer is moved onto (for mouseover) or outside (for mouseout) an element, or one of its children.    |
@@ -51,7 +51,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 
 ### FRAME – Events
 
-| Data-Type       |   Description    |
+|Data-Type        |Description       |
 |:----------------|:-----------------|
 |load	        |The browser has finished loading the website.    |
 |error           |The event occurs when an error occurs while loading an external file (like a CSS or a JavaScript).
@@ -67,7 +67,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 
 ### FORMS – Events 
 
-|  Data-Type      |  Description     |
+|Data-Type        |Description       |
 |:----------------|:-----------------|
 |submit	    |The event occurs when a form is submitted.     |
 |focusin,<br>focusout     |The event occurs when the pointer is moved onto an element or onto one of the element’s children.    |
@@ -82,7 +82,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 
 ### KEYBOARD – Events
 
-|**Data-Type**    |**Description**    |
+|Data-Type        |Description       |
 |:----------------|:-----------------|
 |keyup           |When the user releases a keyboard key.    |
 |keydown	      |When the user presses a keyboard key.    |
@@ -160,7 +160,7 @@ function myEventHandler(eventObj) {
 
 ### Every Event Object has the following Properties:
 
-|  Property      |  Description      |
+|Property        |Description        |
 |:---------------|:------------------|
 |target            |Returns the DOM element that triggered the event.      |
 |type              |The type of event: click, mouseover, load, etc.      |
@@ -205,7 +205,7 @@ Notice that in `addEventListener()` we only reference the function (`myChangeHan
 
 ### Additional information for mouse events
 
-|  Property      |  Description      |
+|Property        |Description        |
 |:---------------|:------------------|
 |clientX, clientY    |Returns the horizontal or vertical coordinate of the mouse pointer, relative to the current window, when the mouse event was triggered.    |
 |pageX, pageY       |Returns the horizontal or vertical coordinate of the mouse pointer, relative to the document, when the mouse event was triggered.       |
@@ -213,14 +213,14 @@ Notice that in `addEventListener()` we only reference the function (`myChangeHan
 
 ### Additional information for keyboard events  
 
-|  Property      |  Description      |
+|Property        |Description        |
 |:---------------|:------------------|
 |keyCode         |Returns the Unicode character code of the key that triggered the event.     |
 |shiftKey, altKey or ctrlKey     |Returns whether the `shift`, `alt` or `ctrl` key was pressed when the key event was triggered.     |
 
 ### Additional information for wheel events
 
-|  Property      |  Description      |
+|Property        |Description        |
 |:---------------|:------------------|
 |deltaX, deltaY  |Returns the vertical or horizontal scroll amount of a mouse wheel (y-axis) or (x-axis).     |
 |deltaMode       |Returns a number that represents the unit of measurement for delta values (pixels, lines, or pages).      |
