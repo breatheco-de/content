@@ -127,11 +127,11 @@ function myClickHandler() {
 
 A veces el elemento DOM no existe desde el principio. Tal vez se crean después de una llamada a la base de datos o después de que el usuario haya hecho algo. Para resolver ese problema, debe comenzar a escuchar después de crear los nuevos elementos.
 
-La función `.addEventListener` es perfecta para esto porque se puede usar en cualquier elemento DOM durante el tiempo de ejecución.
+La función `.addEventListener()` es perfecta para esto porque se puede usar en cualquier elemento DOM durante el tiempo de ejecución.
 
-Al usar la función `.addEventListener`, debe especificar qué **evento** quiere escuchar, y **la función controladora** que se llamará cada vez que ese evento se active en ese elemento DOM.
+Al usar la función `.addEventListener()`, debe especificar qué **evento** quiere escuchar, y **la función controladora** que se llamará cada vez que ese evento se active en ese elemento DOM.
 
-Por ejemplo, el siguiente código está creando una lista de nombres, y cada LI está escuchando el evento "clic", que luego activa la eliminación del mismo LI:
+Por ejemplo, el siguiente código está creando una lista de nombres, y cada <li> está escuchando el evento "clic", que luego activa la eliminación del mismo <li>:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/1nhjc4t0/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -145,40 +145,37 @@ Las funciones **handler** de eventos pueden recibir un parámetro opcional en su
 No importa qué tipo de evento (eventos relacionados con el mouse, evento de teclado, marco, etc.), el objeto de evento siempre tendrá al menos las siguientes propiedades:
 
 ```javascript
-function myEventHandler(eventObj)
-{
+function myEventHandler(eventObj) {
     console.log(eventObj.target);
-     //imprimirá en la consola del objeto DOM que ha activado el evento
+     // Imprimirá en la consola el elemento del DOM que ha activado el evento
     console.log(eventObj.type);
-     //Imprimirá en la consola el tipo de evento. 
+     // Imprimirá en la consola el tipo de evento
     console.log(eventObj.cancelable);
-     //Imprimirá en la consola verdadero o falso si podemos detener la propagación de este evento.
-      eventObj.preventDefault();
-     //Evitará la acción predeterminada del evento si está permitido
+     // Imprimirá en la consola true o false si el evento puede ser cancelado
+    eventObj.preventDefault();
+     // Evitará la acción predeterminada del evento si es posible
     eventObj.stopPropagation();
-     //Evitará la propagación del evento si está permitido
-     
+     // Evitará la propagación del evento si es posible
 }
 ```
 
 ### Cada Objeto de Evento tiene las siguientes Propiedades:
 
-|**Propiedades**    |**Descripción**    |
+|  Propiedades   |  Descripción      |
 |:---------------|:------------------|
-|Objetivo           |Devuelve el objeto DOM que ha activado el evento.     |
-|Tipo             | 	El tipo de evento: haga clic en, al pasar el ratón, carga, etc .     |
-|Cancelable       |Si puede detener la propagación del evento o no.    |
+|target           |Devuelve el elemento del DOM que ha activado el evento.     |
+|type             |El tipo de evento: click, mouseover, load, etc.     |
+|cancelable       |Si puede detener el evento o no.    |
 |preventDefault()  |Si el evento se puede cancelar, este método detiene la acción predeterminada del mismo; por ejemplo, al evitar un evento de "submit" de un formulario, el formulario no se enviará, lo que puede ser útil si el formulario tiene errores que deben corregirse, etc.    |
-|stopPropagation()  |Evita que un evento se propague (es decir, que desencadene el mismo evento en elementos anidados o principales).
+|stopPropagation()  |Evita que un evento se propague (es decir, que desencadene el mismo evento en elementos anidados o padres).  |
 
 Dependiendo del tipo de evento, tendrá propiedades adicionales que le darán información muy útil sobre lo que sucedió cuando se activó el evento.
 
-Una de las propiedades adicionales más importantes es la propiedad **target.value** de los objetos de evento relacionados con los campos de entrada (input). Nos permite capturar y guardar la entrada del usuario de los elementos de entrada.
+Una de las propiedades adicionales más importantes es la propiedad **target.value** del objeto de evento relacionados con los campos de entrada (input). Nos permite capturar y guardar la entrada del usuario de los elementos de entrada.
 
-Puedes hacerlo pasando el argumento 'event' en la función de controlador de eventos en línea `onchange`:
+Puedes hacerlo pasando el argumento 'event' en la función controladora (handler) de eventos en línea `onchange`:
 
 ```html
-
 <input type="text" onchange="myChangeHandler(event)" /> 
  
 <script>
@@ -187,7 +184,6 @@ const myChangeHandler = (e) => {
      // Imprimirá en la consola lo que el usuario escriba en el campo de entrada
 }
 </script>
-
 ```
 
 O puedes hacerlo con `addEventListener`:
@@ -199,13 +195,11 @@ O puedes hacerlo con `addEventListener`:
 
 *index.js:*
 ```javascript
-     //index.js file:
      const myChangeHandler = (e) => {
           console.log(e.target.value);
      }
 
      document.querySelector("input").addEventListener('change', myChangeHandler);
-
 ```
 
 Ten en cuenta que en `addEventListener()` solo hacemos referencia a la función (`myChangeHandler`) y **no** la llamamos (`myChangeHandler()`). Si la llamas, se ejecutará automáticamente cuando se cargue la página y no esperará a que se desencadene un evento y ese no es el objetivo. Por lo tanto, no necesitamos pasar el **objeto de evento (event object)** como argumento allí (no hay paréntesis). `addEventListener()` pasa automáticamente el objeto de evento a la función que lo controla (handler function).
@@ -246,7 +240,7 @@ Tienes que utilizar los mismos parámetros exactos en la función `removeEventLi
 
 He aquí un ejemplo:
 
-En este código, se añade un detector de eventos para el evento clic, pero luego, la primera vez que el detector de clic se llama a la función *handler*, que elimina el detector de eventos desde el botón. Es por eso que la segunda vez que se hace clic en el botón, no pasa nada.
+En este código, se añade un detector de eventos para el evento clic, pero luego, la primera vez que el detector de clic se llama a la función controladora, que elimina el detector de eventos desde el botón. Es por eso que la segunda vez que se hace clic en el botón, no pasa nada.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
