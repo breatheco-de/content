@@ -230,7 +230,7 @@ Ten en cuenta que en `addEventListener()` solo hacemos referencia a la función 
 
 ## Eliminar los Listeners (receptores)
 
-¿Qué pasa si no quiero seguir escuchando? Todos los navegadores modernos eliminan los oyentes de eventos cuando se elimina el elemento DOM en el que se aplicaron. Pero si no deseas eliminar el elemento DOM, puedes eliminar el oyente de forma manual utilizando la función `.removeEventListener()`.
+¿Qué pasa si no quiero seguir *escuchando* un evento? Todos los navegadores modernos eliminan los listener de eventos cuando se elimina el elemento DOM en el que se aplicaron. Pero si no deseas eliminar el elemento DOM, puedes eliminar el listener de forma manual utilizando la función `.removeEventListener()`.
 
 ```javascript
 element.removeEventListener(type, eventHandlerFunction);
@@ -240,7 +240,7 @@ Tienes que utilizar los mismos parámetros exactos en la función `removeEventLi
 
 He aquí un ejemplo:
 
-En este código, se añade un detector de eventos para el evento clic, pero luego, la primera vez que el detector de clic se llama a la función controladora, que elimina el detector de eventos desde el botón. Es por eso que la segunda vez que se hace clic en el botón, no pasa nada.
+En este código, se añade un detector de eventos para el evento 'click'. Luego, la primera vez que el detector de clic se activa, la función controladora elimina el detector de eventos desde el botón. Es por eso que la segunda vez que se hace clic en el botón, no pasa nada.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/vcbkgn4o/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
