@@ -27,7 +27,7 @@ Your job as a developer is to prepare for those events and define **handler func
 
 Sometimes it is the website user, sometimes it is the browser, sometimes it is another application letting you know something, sometimes the developer triggers events related to the business logic, etc.
 
-There are dozens of events being triggered every minute, but you don’t have to do anything about it (not if you don’t want to). They are available to you depending on the type of application that you want to do.
+There are dozens of events being triggered every minute, but you don’t have to do anything about them (not if you don’t want to). They are available to you depending on the type of application that you want to make.
 
 ## Types of Events
 
@@ -37,9 +37,9 @@ Here are some of the types of events that are constantly being triggered (and yo
 
 |Data-Type        |Description       |
 |:----------------|:-----------------|
-|click            |When the user clicks with the mouse in any HTML element.    |
-|mouseover,<br>mouseout    |The event occurs when the pointer is moved onto (for mouseover) or outside (for mouseout) an element, or one of its children.    |
-|contextmenu    |When the user right clicks on the mouse.    |
+|click            |When the user clicks with the mouse on any HTML element.    |
+|mouseover,<br>mouseout    |The event occurs when the pointer is moved onto (for mouseover) or outside (for mouseout) an element or one of its children.    |
+|contextmenu    |When the user right-clicks on the mouse.    |
 |mousemove     |If the user moves the mouse.    |
 |mousedown,<br> mouseup     |If the user presses or releases the mouse.    | 
 
@@ -54,9 +54,9 @@ Here are some of the types of events that are constantly being triggered (and yo
 |Data-Type        |Description       |
 |:----------------|:-----------------|
 |load	        |The browser has finished loading the website.    |
-|error           |The event occurs when an error occurs while loading an external file (like a CSS or a JavaScript).
+|error           |The event occurs when an error occurs while loading an external file (like CSS or JavaScript).
 |scroll         |When the element or window gets scrolled.     |
-|pagehide,<br>pageshow    |When the user focuses on a different window / tab; or when the user comes back from a different window / tab.     |
+|pagehide,<br>pageshow    |When the user focuses on a different window / tab, or when the user comes back from a different window / tab.     |
 |resize    |When the window is resized.      |
 
 <iframe width="100%" height="300" frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/frame.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
@@ -71,7 +71,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 |:----------------|:-----------------|
 |submit	    |The event occurs when a form is submitted.     |
 |focusin,<br>focusout     |The event occurs when the pointer is moved onto an element or onto one of the element’s children.    |
-|input       |The event occurs when an element gets user input.     |
+|input       |The event occurs when an element receives user input.     |
 |change       |The event occurs when the content of a form element, the selection, or the checked state has changed (for `<input>`, `<keygen>`, `<select>`, and `<textarea>`) |
 
 <iframe width="100%" height="300"  frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/forms.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
@@ -98,7 +98,7 @@ Here are some of the types of events that are constantly being triggered (and yo
 
 Now that you know the main events that exist out there, you can start listening to them during the runtime. The only way to react to any event is by listening for that event and assigning a function that will handle the event however you need.
 
-Let’s repeat: To **react** you need to **listen**. And to listen you need to specify a **handler** function. We call that construct an **Event Listener**. 
+Let’s repeat: To **react** you need to **listen**. And to listen, you need to specify a **handler** function. We call that construct an **Event Listener**. 
 
 ![events driven programming](https://github.com/breatheco-de/content/blob/master/src/assets/images/9fa13314-24cc-4a4b-9676-e60616f73602.gif?raw=true)
 
@@ -125,7 +125,7 @@ function myClickHandler() {
 
 ## Adding Listeners from JavaScript (during runtime)
 
-Sometimes the DOM element doesn’t exist from the beginning. Maybe they are created after a database call or after the user did something. To solve that problem, you need to start listening after the new elements are created.
+Sometimes the DOM elements don't exist from the beginning. Maybe they are created after a database call or after the user did something. To solve that problem, you need to start listening after the new elements are created.
 
 The `.addEventListener()` function is perfect for this because it can be used in any DOM element during runtime.
 
@@ -201,7 +201,7 @@ Or, you can do it with `addEventListener`:
      document.querySelector("input").addEventListener('change', myChangeHandler);
 ```
 
-Notice that in `addEventListener()` we only reference the function (`myChangeHandler`) and do not actually call it (`myChangeHandler()`). If you call it, it will automatically run when the page loads and not wait for an event to be triggered, which is highly undesirable. Therefore we do not need to pass the **Event object** as an argument there (there are no parentheses). The event object is passed automatically by the `addEventListener()` to the handler function.
+Notice that in `addEventListener()` we only reference the function (`myChangeHandler`) and do not actually call it (`myChangeHandler()`). If you call it, it will automatically run when the page loads and not wait for an event to be triggered, which is highly undesirable. Therefore, we do not need to pass the **Event object** as an argument there (there are no parentheses). The event object is passed automatically by the `addEventListener()` to the handler function.
 
 ### Additional information for mouse events
 
@@ -225,7 +225,7 @@ Notice that in `addEventListener()` we only reference the function (`myChangeHan
 |deltaX, deltaY  |Returns the vertical or horizontal scroll amount of a mouse wheel (y-axis) or (x-axis).     |
 |deltaMode       |Returns a number that represents the unit of measurement for delta values (pixels, lines, or pages).      |
 
-> 🔗 There is a lot more information you can get from the event object, but we are focusing on the most used properties. For a bigger list of properties please read [this guide.](https://www.w3schools.com/jsref/dom_obj_event.asp)
+> 🔗 There is a lot more information you can get from the event object, but we are focusing on the most used properties. For a bigger list of properties, please read [this guide.](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
 ## Removing the Listeners
 
