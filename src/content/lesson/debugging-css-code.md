@@ -6,7 +6,7 @@ tags: ["debugging", "web development", "html/css"]
 --- 
 # Debugging CSS code
 
-This guide is meant to teach you how to fix bugs in your CSS code. If you are not sure if your error is in your HTML, y recommend reading: [What is debugging and how to master it](https://4geeks.com/lesson/what-is-debugging-code).
+This guide is meant to teach you how to fix bugs in your CSS code. If you are not sure if your error is in your HTML, we recommend reading: [What is debugging and how to master it](https://4geeks.com/lesson/what-is-debugging-code).
 
 CSS is a very tricky technology to debug, probably among the most difficult ones; it took me years to master it. I don't say this to scare you, but you need to take it seriously; my goal is to give you a concise guide and tools to quickly become good at it.
 
@@ -32,12 +32,12 @@ These are some of the most difficult errors to debug:
 
 ### Styles not being applied
 
-Do you remember any time in your developer history when you tried applying a style to one element, but nothing was happening? No matter what you did, the element kept the same.
+Do you remember any time in your developer history when you tried applying a style to one element, but nothing was happening? No matter what you did, the element remained the same.
 
 This can happen for several reasons:
 - You are using the wrong selector.
-- You are misspelling in the selector.
-- There is another style overriding yours (styling conflict).
+- You have a misspelling in the selector.
+- There is another style overriding yours ex:(styling conflict).
 
 #### Follow these steps to fix the error
 
