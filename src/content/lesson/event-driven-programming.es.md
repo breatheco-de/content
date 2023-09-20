@@ -131,7 +131,7 @@ La función `.addEventListener()` es perfecta para esto porque se puede usar en 
 
 Al usar la función `.addEventListener()`, debe especificar qué **evento** quiere escuchar, y **la función controladora** que se llamará cada vez que ese evento se active en ese elemento DOM.
 
-Por ejemplo, el siguiente código está creando una lista de nombres, y cada <li> está escuchando el evento "clic", que luego activa la eliminación del mismo <li>:
+Por ejemplo, el siguiente código está creando una lista de nombres, y cada `<li>` está escuchando el evento "click", que luego activa la eliminación del mismo `<li>`:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/1nhjc4t0/1/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
