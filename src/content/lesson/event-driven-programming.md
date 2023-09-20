@@ -131,7 +131,7 @@ The `.addEventListener()` function is perfect for this because it can be used in
 
 When using the `.addEventListener()` function, you have to specify what **event** you want to listen to, and **the handler function** that will be called every time that event is triggered on that DOM element.
 
-For example, the code below is creating a list of names, and each <li> in it is listening for the "click" event, which then triggers the removal of the same <li>:
+For example, the code below is creating a list of names, and each `<li>` in it is listening for the "click" event, which then triggers the removal of the same `<li>`:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/gmihov001/kh4n57wo/29/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
