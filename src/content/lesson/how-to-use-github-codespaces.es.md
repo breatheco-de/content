@@ -6,7 +6,7 @@ Al enseñar habilidades relacionadas con la codificación, los entornos de provi
 
 En esta lección, aprenderemos por qué los Entornos de Provisionamiento se están volviendo una tendencia, sus beneficios y desventajas, y cómo usar Github Codespaces.
 
-## ¿Por qué codificar en la nube en lugar de en tu computadora local?
+## ¿Por qué codificar en la nube en lugar de en tu computadora local? ##
 
 Codificar en la nube trae muchas limitaciones, como requerir y depender de una conexión a internet, pero la tendencia es clara; la mayoría de las empresas estarán usando entornos en la nube en los próximos años. Pero, ¿por qué?
 
