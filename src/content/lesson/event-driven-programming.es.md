@@ -35,7 +35,7 @@ Estos son algunos de los tipos de eventos que se activan constantemente (y usted
 
 ### MOUSE – Eventos
 
-|  Tipo de Datos  |   Descripción    |
+|Tipo de Datos    |Descripción       |
 |:----------------|:-----------------|
 |click           |Cuando el usuario hace clic con el mouse o el dedo en cualquier elemento HTML.   |
 |mouseover,<br>mouseout    |El evento ocurre cuando el puntero se mueve hacia dentro (para el mouseover) o hacia afuera (para el mouseout) de un elemento, o uno de sus hijos.    |
@@ -51,7 +51,7 @@ Estos son algunos de los tipos de eventos que se activan constantemente (y usted
 
 ### FRAME – Eventos
 
-|  Tipo de Datos  |   Descripción    |
+|Tipo de Datos    |Descripción       |
 |:----------------|:-----------------|
 |load	           |El navegador ha terminado de cargar el sitio web.  |
 |error            |El evento ocurre cuando se produce un error al cargar un archivo externo (como un CSS o un JavaScript).
@@ -67,7 +67,7 @@ Estos son algunos de los tipos de eventos que se activan constantemente (y usted
 
 ### FORMS – Eventos 
 
-|  Tipo de Datos  |  Descripción     |
+|Tipo de Datos    |Descripción       |
 |:----------------|:-----------------|
 |submit	    |El evento ocurre cuando se envía un formulario.    |
 |focusin and focusout     |El evento ocurre cuando el puntero se mueve a un elemento o a uno de los elementos hijo del elemento.   |
@@ -82,7 +82,7 @@ Estos son algunos de los tipos de eventos que se activan constantemente (y usted
 
 ### TECLADO – Events
 
-|**Tipo de Datos**    |**Descripción**    |
+|Tipo de Datos    |Descripción       |
 |:----------------|:-----------------|
 |keyup           |Cuando el usuario suelta una tecla del teclado.    |
 |keydown	     |Cuando el usuario presiona una tecla del teclado.    |
@@ -161,7 +161,7 @@ function myEventHandler(eventObj) {
 
 ### Cada Objeto de Evento tiene las siguientes Propiedades:
 
-|  Propiedades   |  Descripción      |
+|Propiedades     |Descripción        |
 |:---------------|:------------------|
 |target           |Devuelve el elemento del DOM que ha activado el evento.     |
 |type             |El tipo de evento: click, mouseover, load, etc.     |
@@ -206,7 +206,7 @@ Ten en cuenta que en `addEventListener()` solo hacemos referencia a la función 
 
 ### Información Adicional para Eventos del Mouse
 
-|  Propiedades   |  Descripción      |
+|Propiedades     |Descripción        |
 |:---------------|:------------------|
 |clientX, clientY    |Devuelve la horizontal o vertical de coordenadas del puntero del mouse, con relación a la ventana actual, cuando el evento fue provocado.    |
 |pageX, pageY       |Devuelve la horizontal o vertical de coordenadas del puntero del mouse, en relación con el documento, cuando el evento fue provocado.     |
@@ -214,14 +214,14 @@ Ten en cuenta que en `addEventListener()` solo hacemos referencia a la función 
 
 ### Información Adicional para Eventos de Teclado
 
-|  Propiedades   |Descripción        |
+|Propiedades     |Descripción        |
 |:---------------|:------------------|
 |keyCode        |Devuelve el código de caracteres Unicode de la tecla que activa el evento.    |
 |shiftKey, altKey o ctrlKey     |Devuelve si las teclas `shift`, `alt` o `ctrl` se pulsan cuando el evento fue provocado.    |
 
 ### Información Adicional para Eventos de Rueda (scroll)
 
-| Propiedades    | Descripción       |
+|Propiedades     |Descripción        |
 |:---------------|:------------------|
 |deltaX, deltaY  |Devuelve la cantidad de desplazamiento vertical u horizontal de una rueda del ratón (eje y) o (eje x)   |
 |deltaMode       |Devuelve un número que representa la unidad de mediciones de valores delta (píxeles, líneas o páginas)    |
