@@ -228,7 +228,7 @@ Ten en cuenta que en `addEventListener()` solo hacemos referencia a la función 
 
 > 🔗 Hay mucha más información que puedes obtener del objeto de evento, pero nos estamos enfocando en las propiedades más utilizadas. Para una lista más grande de propiedades por favor lee [esta guía.](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
-## Eliminar los Listeners (receptores)
+## Eliminar los Listeners
 
 ¿Qué pasa si no quiero seguir *escuchando* un evento? Todos los navegadores modernos eliminan los listener de eventos cuando se elimina el elemento DOM en el que se aplicaron. Pero si no deseas eliminar el elemento DOM, puedes eliminar el listener de forma manual utilizando la función `.removeEventListener()`.
 
