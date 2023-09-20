@@ -127,9 +127,9 @@ function myClickHandler() {
 
 Sometimes the DOM element doesn’t exist from the beginning. Maybe they are created after a database call or after the user did something. To solve that problem, you need to start listening after the new elements are created.
 
-The `.addEventListener` function is perfect for this because it can be used in any DOM element during runtime.
+The `.addEventListener()` function is perfect for this because it can be used in any DOM element during runtime.
 
-When using the `.addEventListener` function, you have to specify what **event** you want to listen to, and **the handler function** that will be called every time that event is triggered on that DOM element.
+When using the `.addEventListener()` function, you have to specify what **event** you want to listen to, and **the handler function** that will be called every time that event is triggered on that DOM element.
 
 For example, the code below is creating a list of names, and each <li> in it is listening for the "click" event, which then triggers the removal of the same <li>:
 
@@ -150,7 +150,7 @@ function myEventHandler(eventObj) {
     console.log(eventObj.type);
      // will print on the console the type of event  
     console.log(eventObj.cancelable);
-     // will print on the console true or false if the event can have its default action prevented
+     // will print on the console true or false if the event can be canceled
     eventObj.preventDefault();
      // will prevent the default action of the event if allowed
     eventObj.stopPropagation();
@@ -166,7 +166,7 @@ function myEventHandler(eventObj) {
 |type              |The type of event: click, mouseover, load, etc.      |
 |cancelable       |If you can stop the event's default action or not.    |
 |preventDefault()  |If the event is cancelable, this method stops the default action of it; for example, preventing a "submit" event of a form will result in the form not being submitted, which can be useful if the form has errors that need to be corrected, etc.    |
-|stopPropagation()  |Stops an event from propagating (i.e. from triggering the same event in nested or parent elements).
+|stopPropagation()  |Stops an event from propagating (i.e. from triggering the same event in nested or parent elements).  |
 
 Depending on the type of event, you will have additional properties that will give you very useful information about what happened when the event was triggered.
 
