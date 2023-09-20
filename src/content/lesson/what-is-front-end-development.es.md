@@ -35,8 +35,3 @@ El mundo de front-end es enorme – puedes especializarte en lo que quieras, per
 + **Tiempo de Ejecución (Runtime)**: Esta es la línea de tiempo de tu sitio web desde el momento en que termina de cargarse hasta el momento en que el usuario sale.
 + **Depurar (Debugging)**: Este es el proceso de arreglar el código.
   
-  
-
-
-
-
