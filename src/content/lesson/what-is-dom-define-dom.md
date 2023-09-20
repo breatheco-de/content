@@ -35,7 +35,7 @@ NOTE: Please always remember that all JavaScript code that you write in your HTM
 
 ## How to Update your Website DOM
 
-There are several ways to manipulate the DOM, but the most simple one is `document.write()`. Every time you create a `document.write()` you will be writing onto the HTML whatever string you decide to pass as a parameter to the write function.
+There are several ways to manipulate the DOM, but the most simple one is `document.write()`. Every time you create a `document.write()` you will be writing onto the HTML whatever string you decide to pass as a parameter to the *write* function.
 
 It does not matter where you write the code. The only thing that matters is that it is wrapped inside a `<script>` tag. For example:
 
@@ -68,26 +68,26 @@ Returns an instance of **the first element** found that fits the CSS selector th
 
 ### document.getElementById("elementId")
 
-Returns an instance of the element with the id="elementId" in the HTML document.
+Returns an instance of the element with the `id="elementId"` in the HTML document.
 
 ### document.getElementsByClassName("exampleClass")
 
-Returns an array of all elements with the class="exampleClass" in their HTML tag property.
+Returns an array of all elements with the `class="exampleClass"` in their HTML tag property.
 
 ### document.getElementsByTagName("p")
 
 Returns an array with all the instances representing each paragraph element in the HTML document.
 
-### **document.getElementsByName*("name_value")***
+### document.getElementsByName("name_value")
 
-Returns an array with all the elements that have name="name_value" in the name property of their HTML tag in the HTML document.
+Returns an array with all the elements that have `name="name_value"` in the *name* property of their HTML tag in the HTML document.
 
 ```javascript
 let elem = document.getElementById("xyz");
 elem.style.color = "red";   // change color to red  
 
 let myList = document.getElementsByTagName("p");
-var howManyElements = myList.length;
+let howManyElements = myList.length;
 myList[0].style.color = "red";   // make the first one red  
 
 let myList = document.getElementsByClassName("abc");
@@ -110,7 +110,7 @@ The best way to retrieve the child elements of any DOM element is by using its c
 
 ### element.childNodes
 
-This returns an array with all the element’s children elements.
+This returns an array with all the element’s children nodes.
 
 ```javascript
 let x = document.getElementById("myDIV");
@@ -119,7 +119,7 @@ x.querySelector(".random").style.background = "green";
 
 let x = document.getElementById("myDIV");
 x.querySelector("h3,h2").style.background = "blue";
-// get the first #myDIV child with the tag <h3> or <h2> 
+// get the first #myDIV child with the tag <h3> or <h2>
  
 let tableElm = document.getElementById("people");
 let trArray = tableElm.querySelectorAll("tr");
@@ -141,7 +141,7 @@ The `.innerHTML` property gives you the ability to retrieve or set the content o
 
 ```javascript
 document.getElementsByTagName("div")[0].innerHTML = "abc";
-// innerHTML can be used to insert plain text content or HTML, this creates a list inside a div element 
+// innerHTML can be used to insert plain text content or HTML, this creates a list inside a <div> element 
 ```
 
 > ☝️ You can find another 2 properties on the internet: `nodeValue` and `textContent`, but they are not really universally used and are more limited in functionality.
@@ -158,8 +158,8 @@ Let's say that you have selected a `<div>` with the `id="myFirstDiv"` and you wa
 let divElem = document.getElementById("myFirstDiv");
 let myNewHOne = document.createElement("h1");
 let t = document.createTextNode("Hello World");
-myNewHOne.appendChild(t);  // This adds the text content to the h1  
-divElem.appendChild(myNewHOne); // This adds the h1 into the original element
+myNewHOne.appendChild(t);  // This adds the text content to the <h1>  
+divElem.appendChild(myNewHOne); // This adds the <h1> into the "myFirstDiv" element
 ```
 
 Now, let's say that we have a `<ul>` with 2 elements, but we want to insert a new `<li>` at the beginning of that list.
@@ -171,7 +171,7 @@ let newItem = document.createElement("li");
 let textNode = document.createTextNode("Water");
 newItem.appendChild(textNode);
 let list = document.getElementById("myList");
-list.insertBefore(newItem, list.childNodes[0]);  // adding the newItem before the FIRST child of the list.
+list.insertBefore(newItem, list.childNodes[0]);  // adding the newItem before the FIRST child of the list
 ```
 
 ## Removing Elements from the Document
@@ -212,13 +212,4 @@ element.style.background = "blue";
 ## Further reading
 
 For more information about accessing the DOM, see: https://developer.mozilla.org/en-US/docs/Web/API/Document
-
-
-
-
-
-
-
-
-
 
