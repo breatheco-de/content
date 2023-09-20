@@ -17,21 +17,21 @@ En su lugar, tu código ahora se ejecutará **asincrónicamente** (es decir, alg
 
 ### ¿Qué es un evento?
 
-Un evento es algo que sucede! Como **hacer clic** en un botón, **presionar** una tecla en el teclado, **pasar** un `div` con el mouse, etc.
+¡Un evento es algo que sucede! Como **hacer clic** en un botón, **presionar** una tecla del teclado, **pasar** sobre un `<div>` con el mouse, etc.
 
 Tu trabajo como desarrollador es prepararte para esos eventos y **definir las funciones** que van a manejar esos eventos.
 
-![event driven programming](https://github.com/breatheco-de/content/blob/master/src/assets/images/1c00bd95-1359-4fd5-8399-b1b80a769009.png?raw=true)
+![programación orientada a eventos](https://github.com/breatheco-de/content/blob/master/src/assets/images/1c00bd95-1359-4fd5-8399-b1b80a769009.png?raw=true)
 
 ### ¿Pero quién desencadena estos eventos?
 
 A veces es el usuario del sitio web, a veces es el navegador, a veces es otra aplicación que le permite saber algo, a veces el desarrollador desencadena eventos relacionados con la lógica empresarial, etc.
 
-Hay docenas de eventos que se activan cada minuto, pero no tienes que hacer nada al respecto (no si no quieres). Están disponibles para usted según el tipo de aplicación que desee hacer.
+Hay docenas de eventos que se activan cada minuto, pero no tienes que hacer nada al respecto (no si no quieres). Están disponibles para ti según el tipo de aplicación que desees hacer.
 
 ## Tipos de Eventos
 
-Estos son algunos de los tipos de eventos que se activan constantemente (y usted puede escucharlos):
+Estos son algunos de los tipos de eventos que se activan constantemente (y que puedes escuchar):
 
 ### MOUSE – Eventos
 
@@ -49,7 +49,7 @@ Estos son algunos de los tipos de eventos que se activan constantemente (y usted
 
 > ☝ Juega con esta demo aquí
 
-### FRAME – Eventos
+### VENTANA – Eventos
 
 |Tipo de Datos    |Descripción       |
 |:----------------|:-----------------|
@@ -65,7 +65,7 @@ Estos son algunos de los tipos de eventos que se activan constantemente (y usted
 
 > ☝ Juega con esta demo aquí
 
-### FORMS – Eventos 
+### FORMULARIOS – Eventos 
 
 |Tipo de Datos    |Descripción       |
 |:----------------|:-----------------|
@@ -80,7 +80,7 @@ Estos son algunos de los tipos de eventos que se activan constantemente (y usted
 
 > ☝ Juega con esta demo aquí 
 
-### TECLADO – Events
+### TECLADO – Eventos
 
 |Tipo de Datos    |Descripción       |
 |:----------------|:-----------------|
@@ -98,7 +98,7 @@ Estos son algunos de los tipos de eventos que se activan constantemente (y usted
 
 Ahora que sabes qué eventos hay, puedes comenzar a escucharlos cuando lo desees durante el tiempo de ejecución. La única forma de reaccionar ante cualquier evento es escuchar ese evento y asignar una función que maneje el evento como lo necesite.
 
-Repitamos: Para **reaccionar** necesitas **escuchar**. Y para escuchar necesitas especificar una función **handler**. Llamamos a esa construcción un **Event Listener**.
+Repitamos: Para **reaccionar** necesitas **escuchar**. Y para escuchar necesitas especificar una función **controladora** (handler). Llamamos a esa construcción un **Event Listener**.
 
 ![programación orientada a eventos](https://github.com/breatheco-de/content/blob/master/src/assets/images/9fa13314-24cc-4a4b-9676-e60616f73602.gif?raw=true)
 
@@ -106,7 +106,7 @@ Puedes agregar un detector de eventos de 2 maneras diferentes:
 
 ## Añadiendo Listeners desde el HTML
 
-Por ejemplo, si deseas empezar a escuchar cuando el usuario hace clic en un botón en particular todo lo que tienes que hacer es especificar el atributo "onclick" para esa etiqueta HTML específica `<button>`, así:
+Por ejemplo, si deseas empezar a escuchar cuando el usuario hace clic en un botón en particular, todo lo que tienes que hacer es especificar el atributo "onclick" para esa etiqueta HTML específica de `<button>`, así:
 
 ```html
 <!-- myClickHandler es la función de JavaScript que manejará el evento -->
@@ -125,7 +125,7 @@ function myClickHandler() {
 
 ## Añadiendo Listeners desde JavaScript (durante el tiempo de ejecución)
 
-A veces el elemento DOM no existe desde el principio. Tal vez se crean después de una llamada a la base de datos o después de que el usuario haya hecho algo. Para resolver ese problema, debe comenzar a escuchar después de crear los nuevos elementos.
+A veces los elementos del DOM no existen desde un principio. Tal vez se crean después de una llamada a la base de datos o después de que el usuario haya hecho algo. Para resolver ese problema, debe comenzar a escuchar después de crear los nuevos elementos.
 
 La función `.addEventListener()` es perfecta para esto porque se puede usar en cualquier elemento DOM durante el tiempo de ejecución.
 
@@ -139,10 +139,9 @@ Por ejemplo, el siguiente código está creando una lista de nombres, y cada `<l
 
 ## El Objeto del Evento
 
-
 Las funciones **handler** de eventos pueden recibir un parámetro opcional en su declaración, que la mayoría de los desarrolladores denominan **event**, **evt** o simplemente **e**. Este parámetro siempre se completa con el "Objeto de evento" que se envía de forma predeterminada desde cada evento y contiene información importante sobre el evento que se activó, el elemento donde ocurrió, su valor, etc.
 
-No importa qué tipo de evento (eventos relacionados con el mouse, evento de teclado, marco, etc.), el objeto de evento siempre tendrá al menos las siguientes propiedades:
+No importa qué tipo de evento (eventos relacionados con el mouse, evento de teclado, ventana, etc.), el objeto de evento siempre tendrá al menos las siguientes propiedades:
 
 ```javascript
 function myEventHandler(eventObj) {
@@ -173,7 +172,7 @@ Dependiendo del tipo de evento, tendrá propiedades adicionales que le darán in
 
 Una de las propiedades adicionales más importantes es la propiedad **target.value** del objeto de evento relacionados con los campos de entrada (input). Nos permite capturar y guardar la entrada del usuario de los elementos de entrada.
 
-Puedes hacerlo pasando el argumento 'event' en la función controladora (handler) de eventos en línea `onchange`:
+Puedes hacerlo pasando el argumento 'event' en la función controladora de eventos en línea `onchange`:
 
 ```html
 <input type="text" onchange="myChangeHandler(event)" /> 
@@ -226,7 +225,7 @@ Ten en cuenta que en `addEventListener()` solo hacemos referencia a la función 
 |deltaX, deltaY  |Devuelve la cantidad de desplazamiento vertical u horizontal de una rueda del ratón (eje y) o (eje x)   |
 |deltaMode       |Devuelve un número que representa la unidad de mediciones de valores delta (píxeles, líneas o páginas)    |
 
-> 🔗 Hay mucha más información que puedes obtener del objeto de evento, pero nos estamos enfocando en las propiedades más utilizadas. Para una lista más grande de propiedades por favor lee [esta guía.](https://www.w3schools.com/jsref/dom_obj_event.asp)
+> 🔗 Hay mucha más información que puedes obtener del objeto de evento, pero nos estamos enfocando en las propiedades más utilizadas. Para una lista más grande de propiedades, por favor lee [esta guía.](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
 ## Eliminar los Listeners
 
