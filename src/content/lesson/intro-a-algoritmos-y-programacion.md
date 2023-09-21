@@ -6,7 +6,7 @@ Durante este Curso vamos a enfocarnos en formar unas buenas bases para entender 
 
 Es muy común que a los estudiantes cuando están empezando a programar se les complique un poco, porque seamos sinceros, los lenguajes de programación son muy fluctuantes y para poder entenderlos tienes que desarrollar ciertas habilidades de pensamiento (ver afuera de la caja). 
 
-En un inicio esto puede parecer complicado, pero vas a ver que mientras vayas adentrándote al curso, sin darte cuenta, estarás moldeando tu mente. Esto no solo te servirá para programar, te lo aseguro! Lo más importante de aprender a programar es la lógica que adquieres al resolver problemas de todo tipo.
+En un inicio esto puede parecer complicado, pero vas a ver que mientras vayas adentrándote al curso, sin darte cuenta, estarás moldeando tu mente. Esto no solo te servirá para programar, te lo aseguro . Lo más importante de aprender a programar es la lógica que adquieres al resolver problemas de todo tipo.
 
 ## ¿Qué es Python? 
 
