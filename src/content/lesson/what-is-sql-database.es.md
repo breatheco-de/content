@@ -223,7 +223,7 @@ El comando `ROLLBACK` restaura tu base de datos hasta tu último COMMIT. Tambié
 
 La sintaxis para el comando es la siguiente:
 
-```SQL
+```sql
 //any operation before the rollback 
 INSERT INTO client_account SET (amount) VALUES (1000)
 
@@ -237,7 +237,7 @@ El comando `SAVEPOINT` se usa para guardar temporalmente una transacción para a
 
 La sintaxis para el comando es la siguiente:
 
-```SQL
+```sql
 SAVEPOINT SAVEPOINT_NAME;
 ```
 
@@ -245,7 +245,7 @@ Este comando solo sirve en la creación de un SAVEPOINT entre declaraciones tran
 
 La sintaxis para volver a una SAVEPOINT es la siguiente:
 
-```SQL
+```sql
 ROLLBACK TO SAVEPOINT_NAME;
 ```
 

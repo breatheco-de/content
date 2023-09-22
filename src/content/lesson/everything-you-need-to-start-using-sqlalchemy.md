@@ -35,8 +35,8 @@ With an ORM your code keeps being familiar like this:
 
 ```py
 user = User()
-user.name = 'Bob'
-user.last_name = 'Ross'
+user.name = "Bob"
+user.last_name = "Ross"
 
 # add the user to the database
 db.session.add(user)
@@ -58,7 +58,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////tmp/test.db'
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:////tmp/test.db"
 db = SQLAlchemy(app)
 ```
 
@@ -68,7 +68,7 @@ The first step will be defining our model:
 
 ```py
 class Person(Base):
-    __tablename__ = 'person'
+    __tablename__ = "person"
     # Here we define columns for the table 'Person'
     # Notice that each column is also a normal Python instance attribute
     id = Column(Integer, primary_key = True)
@@ -183,7 +183,7 @@ In addition, we have a list of extra ingredients we can add: we choose meat firs
 
 # Now we insert a new ingredient in the pizza, the meat
 ingredient = Ingredient()
-ingredient.name = 'meat'
+ingredient.name = "meat"
 ingredient.id = 4
 db.session.add(ingredient)
 
@@ -199,7 +199,7 @@ checkpoint_a = db.session.begin_nested()
 
 # Add pepperoni to the pizza
 ingredient = Ingredient()
-ingredient.name = 'pepperoni'
+ingredient.name = "pepperoni"
 db.session.add(ingredient)
 
 # One last "checkpoint" before adding bacon ingredient
@@ -207,7 +207,7 @@ checkpoint_b = db.session.begin_nested()
 
 # Add bacon
 ingredient = Ingredient()
-ingredient.name = 'bacon'
+ingredient.name = "bacon"
 db.session.add(ingredient)
 ```
 

@@ -61,7 +61,7 @@ A table can contain a large set of rows and columns. The access and query execut
 
 A database is a collection of interconnected tables. The connection between two tables is called a `relationship` and can be one of the following:
 
-**One to one:**.
+**One to one:**
 
 The perfect example is the social security database, probably this database has a table called Taxpayer that contains all the information about each person with a social security number and another table with the current year's Tax Returns:  **A person can have only one return and only one return can be made by a person.**
 
@@ -223,7 +223,7 @@ The `ROLLBACK` command restores your database to your last COMMIT. You can also 
 
 The syntax for the command is as follows:
 
-```SQL
+```sql
 //any operation before the rollback 
 INSERT INTO client_account SET (amount) VALUES (1000)
 
@@ -237,7 +237,7 @@ The `SAVEPOINT` command is used to temporarily save a transaction so that you ca
 
 The syntax for the command is as follows:
 
-```SQL
+```sql
 SAVEPOINT SAVEPOINT_NAME;
 ```
 
@@ -245,7 +245,7 @@ This command is only used to create a SAVEPOINT between transactional statements
 
 The syntax for the command is as follows:
 
-```SQL
+```sql
 ROLLBACK TO SAVEPOINT_NAME;
 ```
 
