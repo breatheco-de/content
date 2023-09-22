@@ -1,4 +1,4 @@
----
+[---
 title: "Data Science con Python"
 subtitle: "Python es un lenguaje multipropósito, en esta lección comprenderás cómo se usa en el mundo de la Ciencia de Datos"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
@@ -360,3 +360,4 @@ Normalmente el desarrollo de un producto, modelo o servicio de Machine Learning,
 ### Estructura de proyecto
 
 Usaremos una plantilla para nuestros proyectos llamada [Cookie Cutter Datascience](https://drivendata.github.io/cookiecutter-data-science/). Usar una plantilla siempre es una buena idea para organizar nuestros archivos y flujo de trabajo del proyecto.
+](https://raw.githubusercontent.com/breatheco-de/content/master/src/content/lesson/python-for-datascience.es.md)https://raw.githubusercontent.com/breatheco-de/content/master/src/content/lesson/python-for-datascience.es.md
