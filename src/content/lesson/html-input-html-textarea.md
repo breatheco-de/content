@@ -1,6 +1,6 @@
 ---
 title: "Understanding HTML Input HTML Text Area and Forms..."
-subtitle: "HTML forms, HTML input and HTML text-area are really easy to understand, and they are the ONLY way to make interactive websites without AJAX. These very basic concepts represent 90% of everything you will ever need to know about forms."
+subtitle: "HTML forms, HTML input, and HTML text-area are really easy to understand, and they are the ONLY way to make interactive websites without AJAX. These very basic concepts represent 90% of everything you will ever need to know about forms."
 cover: "https://www.desktopbackground.org/p/2013/09/13/637935_nasa-wallpapers_1600x1200_h.jpg"
 textColor: "white"
 status: "published"
@@ -29,7 +29,7 @@ The following is a list of all the possible elements we can use to receive any i
 
 |**Name**   |**Declaration**   |**Description**   |
 |:----------|:-----------------|:-----------------|
-|Text       |`<input type="text" />`   |The text input is meant to receive any small string of characters such as: Username, Name, Last Name, Date of birth, etc.<br>`<input type="text" name="Name" />`   |
+|Text       |`<input type="text" />`   |The text input is meant to receive any small string of characters such as Username, Name, Last Name, Date of birth, etc.<br>`<input type="text" name="Name" />`   |
 |Textarea   |`<textarea>`   |The textarea is ideal for long text inputs. Its main difference from the text input is its ability to allow for multiple lines.<br>`<textarea name="comments"></textarea>`   |
 |Password   |`<input type="password" />`   |This is just like an input type="text" but with the only difference that the characters are hidden like bullets. The user cannot see what they are typing.<br>`<input type="password" name="password" />`   |
 |Radio button   |`<input type="radio" />`   |Allows the user to select only one of all the available inputs with the same name.<br>`<input type="radio" name="color" value="red" />` <br> `<input type="radio" name="color" value="green" />`   |
@@ -44,26 +44,26 @@ Just like any other HTML tag, the input tags have several attributes that can be
 
 `VALUE`: You can specify a default value that the input should have before it starts getting filled by the user:
 
-```html
-<input type="text" name="firstname" value="John"/>
+```HTML
+<input type="text" name="first name" value="John"/>
 ```
 
 `READ ONLY`: Determines if the user is allowed to change the value of the input.
 
-```html
-<input type="text" name="firstname" value="John" readonly/>
+```HTML
+<input type="text" name="first name" value="John" read-only/>
 ```
 
 `DISABLED`: Determines if the input is going to be gray and read-only. The disabled inputs are not sent to the backend – they act as if they never existed.
 
-```html
-<input type="text" name="firstname" value="John" disabled/>
+```HTML
+<input type="text" name="first name" value="John" disabled/>
 ```
 
 `SIZE`: The maximum number of characters allowed for that input.
 
-```html
-<input type="text" name="firstname" value="John" size="40"/>
+```HTML
+<input type="text" name="first name" value="John" size="40"/>
 ```
 
 ## The Form Attributes METHOD and ACTION
@@ -71,7 +71,7 @@ Just like any other HTML tag, the input tags have several attributes that can be
 
 The two most important attributes that need to be set into the `<form>` tag are action and method:
 
-**Action**: Is the URL where the data collected from the form is going to be sent.
+**Action**: This is the URL where the data collected from the form is going to be sent.
 
 ```html
 <form action="/action_page.php">
