@@ -16,7 +16,7 @@ status: "published"
 
 ## GIT is a MUST!
 
-GIT is a great technology, please take the time to learn it. DON’T procrastinate because you cannot avoid it. You will be using it every day, several times a day. So you’d better learn and be comfortable with it.
+GIT is a great technology, please take the time to learn it. Don’t procrastinate because you cannot avoid it. You will be using it every day, several times a day. So you’d better learn and be comfortable with it.
 
 GIT is more than just a "set of commands" that you have to learn. Throughout the years, we have learned that the best way to teach GIT is by understanding the concepts and meaning of the technology first, rather than just giving you a list of commands to use.
 
@@ -27,7 +27,7 @@ Being the only developer in a project is a [utopia](http://www.thefreedictionary
 + If two developers work on **the same page (file)**, GIT will compare both versions and will *(try to)* merge them into a new one.
 + Downloading and integrating someone else’s code (or any code) into your project without much hassle and doing so automatically.
 + If both developers updated the exact same code, GIT will ask **the last** editing developer to solve any possible conflict.
-+ The code is backed-up all the time with the latest version as the principal.
++ The code is backed up all the time with the latest version as the principal.
 + Each developer has their own version of the project locally for as long as they want.
 + Working with remote teams.
 
@@ -65,7 +65,7 @@ A **commit object** contains three things:
 
 The parent commit objects are those commits that came first. Generally, a commit object will have one parent commit. One generally takes a project in a given state (commit), makes a few changes, and saves the new state (commit) of the project.
 
-At the beginning, a project always has one commit object with no parents. This is the first commit that is made to the project repository.
+In the beginning, a project always has one committed object with no parents. This is the first commit that is made to the project repository.
 
 ## A Head Object is a List of Commits
 
@@ -73,13 +73,13 @@ The heads of the repository are like the "revision history of the project." A re
 
 Every time you make a new commit, the head will move to that new commit. This way, you are able to have access to the entire project history of commits.
 
-You can **move the head** if you want. It does not necessarily have to always be the last commit, but you must remember that you can only review commits that came before the commit to which the head is pointing at. **Commits made after the commit to which the head is pointing at are not possible to be reviewed.**
+You can **move the head** if you want. It does not necessarily have to always be the last commit, but you must remember that you can only review commits that came before the commit to which the head is pointing at. **Commits made after the commit to which the head is pointing are not possible to be reviewed.**
 
 ![how to use git ](https://github.com/breatheco-de/content/blob/master/src/assets/images/79da625d-d7bc-409a-a044-9e60ae6a1a2b.png?raw=true)
 
 ## You can have Several Heads (Branches)
 
-Heads mark the beginning of a revision history. In GIT, we call the "revision history" a "branch," and it is possible to have several revision histories.
+Heads mark the beginning of a revision of history. In GIT, we call the "revision history" a "branch," and it is possible to have several revision histories.
 
 By default, every repository has one branch called Master, with its corresponding HEAD that points to the last commit of that branch.
 
@@ -255,7 +255,7 @@ Once you know the remote URL, you can add it to your project.
 
 You have to pick an alias for the remote, we normally use `origin`, but it is just an arbitrary word, and you can use anything. 
 
-⚠️ In our boilerplates, you will already have an origin set-up from the boilerplate's repository. In those cases you should not remove the original origin, but you would need to use another term (e.g. `new` or `new-origin`, etc.) to add your new remote. 
+⚠️ In our boilerplates, you will already have an origin set up from the boilerplate's repository. In those cases, you should not remove the original origin, but you would need to use another term (e.g. `new` or `new-origin`, etc.) to add your new remote. 
 
 Add the remote by executing the following command:
 
@@ -309,7 +309,7 @@ This would do the following:
 + **Add remote heads** named `origin/[head-name]` that correspond to the heads in the remote repository.
 + Set up one head in the repository to **track** the corresponding `origin/[current-head-name]` head, namely the one that was currently active in the repository being cloned.
   
-A **remote repository reference** is an alias GIT uses to refer to the remote repository.  Generally it will be *origin*. Among other things, GIT internally associates the *remote-specification* with the remote repository reference, so you will never need to refer to the original repository again. 
+A **remote repository reference** is an alias GIT uses to refer to the remote repository.  Generally, it will be *origin*. Among other things, GIT internally associates the *remote-specification* with the remote repository reference, so you will never need to refer to the original repository again. 
 
 From now on, you will be able to say `origin` instead of `git@github.com:alesanchezr/myfirstrepo.git`.
 
