@@ -22,7 +22,7 @@ When you learn in public you: create in social media, you write in notebooks and
 
 ## Why is this so important?
 
-- When you write things down, your brain absorbs knowledge better.
+- When you write things down, your brain assimilates knowledge better.
 - Talking about it forces you to organize your thoughts and understand them better.
 - Your family and friends will start trusting your skills. After a while, they will start seeing you as an expert on the matter, they will come to you for advice, recommendations or to hire your services.
 - Sharing is a support system: The impostor syndrome is no joke, when you are open and share your struggles publicly, you will find others (probably many others) like you. It will calm you down because you know it's normal, and it will give you the strength to continue. 
