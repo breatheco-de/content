@@ -11,7 +11,7 @@ canonical: ""
 
 ---
 
-Si estás interesado en aprender a programar de forma eficiente, pero rápida, tienes que hacerlo en público. Esto no es una teoría, sino un hecho.  
+Cuando estás interesado en aprender a programar de forma eficiente, pero rápida, tienes que hacerlo en público. Esto no es una teoría, sino un hecho.  
 
 En este artículo voy a intentar explicarte por qué funciona y cómo puedes hacerlo.
 
