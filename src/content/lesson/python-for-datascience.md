@@ -9,7 +9,7 @@ tags: ["data-science", "python", "pandas", "numpy"]
 canonical: ""
 ---
 
-This lesson is a roadmap on how to learn Python for data science. If you already know Python and have -at least some- experience with the data science libraries Pandas, Numpy, etc. You can skip ahead to the next lesson.
+This lesson is a roadmap on how to learn Python for data science. If you already know Python and have at least some- experience with the data science libraries Pandas, Numpy, etc. You can skip ahead to the next lesson.
 
 Python is a very diverse language used to build robots, networks, websites, APIs, games, artificial intelligence, and more. Depending on what you are making, the syntax can vary so much that you hardly recognize similarities between codebases.
 
