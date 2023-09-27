@@ -25,9 +25,9 @@ A los desarrolladores web junior. Hay tantos tipos de errores y técnicas de dep
 
 **Prevenir errores**
 
-Sé que estás aquí para aprender cómo solucionar errores. Aún así, vale la pena mencionar que la mayoría de los errores de los desarrolladores principiantes se pueden prevenir usando formatos de código automatizados, linters, herramientas de autocompletado, escribiendo con alta [legibilidad de código](https://4geeks.com/lesson/what-is-and-how-to-improve-code-readability) y mejores prácticas.
+Sé que estás aquí para aprender cómo solucionar errores. Aún así, vale la pena mencionar que la mayoría de los errores de los desarrolladores principiantes se pueden prevenir usando formatos de código automatizados, linters, herramientas de autocompletado, escribiendo con alta [legibilidad de código](https://4geeks.com/es/lesson/que-es-y-como-mejorar-la-legibilidad-del-codigo) y mejores prácticas.
 
-> 📄 Aquí hay una guía sobre [normas y directrices de codificación](/lesson/coding-standards-guidelines) que te ayudará a tener un código limpio y prevenir errores.
+> 📄 Aquí hay una guía sobre [Estandares y lineamientos de codigo](https://4geeks.com/es/lesson/estandares-y-lineamientos-de-codigo) que te ayudará a tener un código limpio y prevenir errores.
 
 <quote>Si depurar es el proceso de eliminar errores de software, entonces programar debe ser el proceso de ponerlos. -- Edsger Dijkstra</quote>
 
