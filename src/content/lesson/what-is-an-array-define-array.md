@@ -201,7 +201,15 @@ It is very common needing to sort arrays. For example, sorting a list of student
 
 ### Sort and Reverse
 
-They do the same, except that `reverse()` does it backward. They both sort using string comparison logic – which means that the string "25" is bigger than "100", because "2" is bigger than "1".
+The `sort()` function sorts an array using string comparison logic – which means that the string "25" is bigger than "100", because "2" is bigger than "1".
+
+```javascript
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
+    fruits.sort();
+    console.log(fruits); // --> ['Apple', 'Banana', 'Mango', 'Orange']
+```
+
+The `reverse()` function reverses the order of an array, so if you want a reversed sorted array just make sure to use the `sort()` function **before** you reverse the array.
 
 ```javascript
 let fruits = ["Banana", "Orange", "Apple", "Mango"];
