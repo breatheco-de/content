@@ -51,7 +51,7 @@ Errores de caché: Debes asegurarte de que el código que escribiste sea el mism
 En Windows, abre el código fuente presionando simultáneamente las teclas `Ctrl` + `U`.
 En Mac, abre el código fuente presionando simultáneamente las teclas `⌥ Option` + `⌘ Command` + `U`.
 
-### 2) Inspector de herramientas de desarrollo
+### 2) Inspector de herramientas de desarrollo:
 
 Todos los principales navegadores tienen herramientas de desarrollo, la primera pestaña en las herramientas de desarrollo se llama "inspector" y contiene -casi- todo lo que necesitas para solucionar tus errores.
 
@@ -71,16 +71,16 @@ Renderizado del lado del servidor: el inspector HTML mostrará el código render
 
 </details>
 
-### 3) Depuración de HTML dentro de tu Editor de Código (IDE)
+### 3) Depuración de HTML dentro de tu Editor de Código (IDE):
 
 La última herramienta de depuración crucial para HTML es su IDE de codificación. La mayoría de los IDE ofrecen las siguientes características:
 **Resaltado de sintaxis**: Los colores ayudan a distinguir visualmente diferentes partes del código HTML, como tags, atributos y valores, lo que facilita la identificación de errores.
 **Linting**: Algunos editores tienen linter incorporados que pueden verificar tu código HTML para errores y problemas potenciales y resaltarlos en el editor.
 **Validación**: Algunos editores pueden validar tu código HTML contra los estándares de W3C y mostrar mensajes de error si hay algún problema.
 
-## Errores HTML más comunes y cómo depurarlos
+## Errores HTML más comunes y cómo depurarlos:
 
-### Tags sin cerrar
+### Tags sin cerrar:
 
 Si un tag no se cierra correctamente. Por ejemplo, si olvidas cerrar un tag <div>:
 El editor de código podría resaltar todo el bloque de código que sigue al tag sin cerrar en rojo.
@@ -89,7 +89,7 @@ Si haces clic en un tag de apertura, el editor también resaltará el tag de cie
 
 ![cómo aparecen los errores de tags no cerrados](https://i.imgur.com/oJEe61z.png?raw=true)
 
-### Tags sin comillas
+### Tags sin comillas:
 
 Los tags HTML tienen atributos, por ejemplo, el tag `<img>` tiene el atributo `src`: `<img src="https://domain.com/something" />`. 
 Desafortunadamente, a veces cometemos errores al abrir o cerrar esos tags.
