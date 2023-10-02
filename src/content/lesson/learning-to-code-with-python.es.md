@@ -15,7 +15,6 @@ Python es el primer lenguaje que debieras aprender, pero evidentente no el únic
 
 - MIT decidió enseñar python como primer lenguaje porque su sintaxis previene muchos errores, especialmente porque tiene identación y no puntos y comas.
 
-
 ## Variables
 
 <iframe width="830" height="467" src="https://www.youtube.com/embed/Q-eob0WBKs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -23,8 +22,6 @@ Python es el primer lenguaje que debieras aprender, pero evidentente no el únic
 <div align="right"><small><a href="https://www.youtube.com/embed/Q-eob0WBKs0">Haz clic aquí para abrir la demo en otra ventana</a></small></div>
 
 Las variables no son un concepto nuevo, cualquier que sepa matemáticas está familiriarizado con el condepto de variables.
-
-Una variable es un contenedor en el que puedes almacenar cualquier dato. Por ejemplo puedes tener la siguiente variable:
 
 ```python
 edad = 24
@@ -46,7 +43,6 @@ Escoger el nombre de tu variable es muy importante, así que por favor no uses n
 
 ## Asignándole un valor a las variables
 
-
 Como desarrolladores, podemos establecer el valor de una variable usando el operador `=`. No tienes que establecer el valor de una variable cuando la declaras por primera vez. Puedes establecer o re-establecer (sobreescribir) el valor tantas veces como quieras y cuando quieras. El valor siempre el último que estableciste. A continuación hay algunos ejemplos sobre cómo establecer valores a las variables:
 
 ```python
@@ -55,20 +51,18 @@ a = 25
 a = 80
 ```
 
-Los valores de las variables están sujetos a cambio a largo del tiempo. Para recuperar el valor de una variables puedes imprimir su valor en la pantalla en cualquier momento. Cada lenguaje tiene sus propios métodos para imprimir. En python usamos `print`
+Los valores de las variables están sujetos a cambio a largo del tiempo. Para recuperar el valor de una variables puedes imprimir su valor en la pantalla en cualquier momento. Cada lenguaje tiene sus propios métodos para imprimir. En python usamos `print`.
 
 
 <iframe src="https://repl.it/F0R2/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <div align="right"><small><a href="https://repl.it/F0R2/1?lite=true" >Haz clic aquí para abrir la demo en una nueva ventana.</a></small></div>
 
-
-
 ## Tipos de datos
 
 Las variables pueden tener diferentes tipos de valores:
 
-|**Data-Type**   |**Posible sValores**   |**Descripción**   |
+|**Tipos-de-Datos**   |**Posibles Valores**   |**Descripción**   |
 |:---------------|:--------------------|:-----------------|
 |Booleano         |Verdadero \| Falso         |Los booleanos están destinados para operaciones lógicas. Si le preguntas a una computadora algo como: "¿X es igual a 3?" Responderá con un booleano (verdadero o falso).   |
 |String        |Cualquier serie de caracteres     |Los strings son la única forma en que tenemos que almacenar palabras (series de caracteres). Nota: los strings deben estar encerradas entre comillas.  |
@@ -85,7 +79,6 @@ Las variables pueden tener diferentes tipos de valores:
 
 ## Operaciones
 
-
 ¿Qué operaciones puedo hacer con las variables? Dependiendo del tipo de datos tienes algunas posibilidades diferentes:
 
 + Los números son fáciles - puedes hacer cualquier operación matemática que desees.
@@ -95,15 +88,12 @@ Las variables pueden tener diferentes tipos de valores:
 
 ## Funciones
 
-
 Las funciones son pedazos de código que se pueden reutilizar varias veces durante el tiempo de ejecución, independiente de su posición en el código. Hay cientos de razones para usar funciones, pero aquí están las 2 más importantes:
 
 + Divide y conquista: siempre es más fácil dividir tus problemas en varios problemas más pequeños. Esto se convertirá en tu mayor desafío a la hora de resolver problemas complejos. Las funciones serán tus mejores herramientas para la abstracción.
 + Reutilización: cualquier desarrollo normal tomará al menos 5,000 líneas de código. Es redundante e ineficiente seguir escribiendo el mismo código una y otra vez.
 
-
 ## Declarar una Función
-
 
 Para declarar una función en JavaScript, debes comenzar a utilizar la palabra `function` seguida del nombre que le quieres dar a esa función.
 
@@ -119,6 +109,7 @@ Luego, abrirás una llave y escribirás el código que tu función siempre debe 
 def multiply (param1, param2):
     return (param1 * param2)
 ```
+
 <iframe src="https://repl.it/F10t/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <div align="right"><small><a href="https://repl.it/F10t/0?lite=true">Haz clic aquí para abrir el video en una nueva ventana</a></small></div>
@@ -218,7 +209,6 @@ Nota: cuando realices un bucle, asegúrate de que la declaración finalmente dev
 
 <div align="right"><small><a href="https://www.youtube.com/embed/TSMzvFwpE_A">Haz clic aquí para abrir el video en una nueva ventana</a></small></div>
 
-
 ```python
 for i in range(10):
   print("This is number" + " " + i)
@@ -229,9 +219,11 @@ for i in range(10):
 
 Los bucles `For… in` pueden usarse para recorrer con un bucle las propiedades de un objeto. Dentro de los paréntesis, puedes establecer cualquier nombre para representar la información dentro del objeto, y luego incluir el nombre del objeto:
 
+```py
 for (variable in object)<br> {
 bloque de código a ejecutarse
 }
+```
 
 ```python
 dog = {
