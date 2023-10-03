@@ -12,13 +12,13 @@ status: "published"
 
 ## It all makes sense when we go back in time…
 
-If everything is a text document, how is it possible to have websites so amazing like Facebook, YouTube, etc?
+If everything is a text document, how is it possible to have websites so amazing like Facebook, YouTube, etc.?
 
 Today’s websites are very different than before; they don’t have the same elements, but if we go back a bit in the past and explore the beginning of the Internet, it will all make sense.
 
 The Internet was created for exchanging information.  Its founders were looking for ways to share documents without having to rely on a complex infrastructure.  They needed a framework and technology so that each person who wished to share a document could publish it independently and invite others to read it.
 
-The scientific community started using it for the famous [“Peer Reviews”](https://www.elsevier.com/reviewers/what-is-peer-review), which required 3 colleagues to review and approve publications before they were accepted and published for all of the community to see.
+The scientific community started using it for the famous [“Peer Reviews”](https://www.elsevier.com/reviewers/what-is-peer-review), which required 3 colleagues to review and approve publications before they were accepted and published for all the community to see.
 
 For this reason, they worked on something as similar as possible to a Microsoft Word document or any other word processor.
 
@@ -42,7 +42,7 @@ What this means is that: everything is text.  For example, if you wish to send a
 + The picture becomes text (at this point, it's text that you won't be able to understand).
 + It gets transmitted through the Internet as text.  If a hacker intercepts this, what they would see is a bunch of symbols/letters/numbers one after the other.
 + That long sequence of characters arrives at your grandmother’s computer.
-+ Your grandmother double clicks the photo and the program she uses to see the photo transforms the text back into an image understandable to a human.
++ Your grandmother double-clicks the photo, and the program she uses to see the photo transforms the text back into an image understandable to a human.
 
 ![what is the internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif?raw=true)
   
@@ -77,7 +77,7 @@ If you’ve been reading and have understood everything so far, you must be wond
 
 ### If the Internet is all text… then, when I’m navigating, Am I going to see only text???  How horrible!!!
 
-Well, browsers are equipped with "magical" windows. If you see through those windows you will see the world as it is: No Text!!  The browser must perform all the functions that all other applications in your computer will accomplish. Like representing images, videos, text, sounds, etc., the browser is so great that there are even computers – like the Google Chromecast – that only come with a browser.
+Well, browsers are equipped with "magical" windows. If you see through those windows, you will see the world as it is: No Text!!  The browser must perform all the functions that all other applications in your computer will accomplish. Like representing images, videos, text, sounds, etc., the browser is so great that there are even computers – like the Google Chromecast – that only come with a browser.
 
 > :tv: [Click here](https://www.youtube.com/watch?v=83Y4jEgnaAA) to access a video that explains how a Google ChromeBook works.
 
