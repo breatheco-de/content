@@ -4,7 +4,7 @@ subtitle: "Cuando tu código esté listo, testear es esencial."
 cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["Jest"]
+tags: ["Jest", "pruebas unitarias"]
 status: "published"
 ---
 
