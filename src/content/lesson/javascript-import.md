@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-> ☝️ This lesson is for users of WebPack and [ECMAScript Modules (ESM) syntax](https://nodejs.org/api/esm.html). There is another way to work with modules using the [CommonJS syntax] (https://requirejs.org/docs/commonjs.html) that we will not cover.
+> ☝️ This lesson is for users of WebPack and [ECMAScript Modules (ESM) syntax](https://nodejs.org/api/esm.html). There is another way to work with modules using the [CommonJS syntax](https://requirejs.org/docs/commonjs.html) that we will not cover.
 
 All of our JS code cannot be on the same file; that will make it hard to read and almost impossible to maintain.
 
