@@ -46,7 +46,7 @@ Note: Unit tests don't care about the content of the `sum` function, it only car
 
 ## Arrow function
 
-Another novelty of ES6 is the "Arrow functions". The way to create these functions is as follows: First, we will define the list of parameters, if necessary, between parentheses, followed by the `=>` symbol and the `{}` to indicate the instructions to be carried out.
+Another novelty of ES6 is the "Arrow functions". The way to create these functions is as follows: First, we will define the list of parameters (if necessary) between parentheses, followed by the `=>` symbol and the `{}` to indicate the instructions to be carried out.
 
 In addition to the syntax that is different from the previous ones, this type of function include the following characteristics:
 
@@ -58,7 +58,7 @@ The arguments object is not in the context of the function.
 
 If when defining the function, we do not use the curly braces symbol, the function will return the result of the execution of the instruction that we have indicated.
 
-## Benefits of using Unit Testing:
+## Benefits of using Unit Testing
 
 + **You can find and prevent bugs easily:** If there is a problem in the future, you'll be able to identify the cause a lot faster than having to go through all the code. Also, your end-user will be very happy to not have a buggy product.
 
