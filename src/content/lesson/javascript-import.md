@@ -1,6 +1,6 @@
 ---
 title: "JavaScript Import and Export of Modules"
-subtitle: "Split and conquer (again), this time we teach you how to split your code into several files to avoid GIT conflicts and to also be more organized, By the end of this lesson you will be able to dominate JavaScript import and exports."
+subtitle: "Split and conquer (again), this time we teach you how to split your code into several files to avoid GIT conflicts and to also be more organized. By the end of this lesson, you will be able to dominate JavaScript imports and exports."
 cover_local: "../../assets/images/c558ac72-194b-40f2-be2f-6e65e8c219c9.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-> :point_up: This lesson is for users of WebPack and [ECMAScript Modules (ESM) syntax;](https://nodejs.org/api/esm.html). There is another way to work with modules using the [CommonJS syntax] (https://requirejs.org/docs/commonjs.html) that we will not cover.
+> ☝️ This lesson is for users of WebPack and [ECMAScript Modules (ESM) syntax](https://nodejs.org/api/esm.html). There is another way to work with modules using the [CommonJS syntax] (https://requirejs.org/docs/commonjs.html) that we will not cover.
 
 All of our JS code cannot be on the same file; that will make it hard to read and almost impossible to maintain.
 
@@ -17,10 +17,10 @@ Thanks to Webpack, we can split our code into small files however we want, and t
 
 We have actually been doing that already when we import our styles, bootstrap, or jQuery from the index.js.
 
-## This is how "import" and "export" works:
+## This is how "import" and "export" work:
 
 + You use the word **import** to bring variables, classes, or functions from other files.
-+ You use the word **export** to expose variables, classes or functions to be used by other files.
++ You use the word **export** to export variables, classes or functions to be used by other files.
 
 For example, here we are importing a function from another file:
 
@@ -37,7 +37,7 @@ You can only export **ONE** variable by default, and you don’t have to use the
 ### Importing the default
 
 ```javascript
-//content on index.js 
+// Content on index.js 
 
 import multiplyFunction from './my_file.js';
 
@@ -48,11 +48,12 @@ console.log(total);
 ### Exporting by default
 
 ```javascript
-//content on my_file.js 
+// Content on my_file.js 
 
-let multiplyFunction = function(a,b){
+let multiplyFunction = function(a,b) {
     return a*b;
 };
+
 export default multiplyFunction;
 ```
 
