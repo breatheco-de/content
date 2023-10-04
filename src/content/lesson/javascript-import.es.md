@@ -24,9 +24,9 @@ De hecho, ya lo hemos estado haciendo cuando importamos nuestros estilos, bootst
 
 Por ejemplo, aquí estamos importando una función de otro archivo:
 
-![javascript import](https://github.com/breatheco-de/content/blob/master/src/assets/images/f7b8c75d-e7d4-481e-8346-b95d54a235f6.png?raw=true)
+![importación de javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/f7b8c75d-e7d4-481e-8346-b95d54a235f6.png?raw=true)
 
-![javascript import](https://github.com/breatheco-de/content/blob/master/src/assets/images/2cdb146a-d6f7-4591-96fc-e50aef07aca5.png?raw=true)
+![importación de javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/2cdb146a-d6f7-4591-96fc-e50aef07aca5.png?raw=true)
 
 ## Exportación por defecto
 
@@ -50,7 +50,7 @@ console.log(total);
 ```javascript
 // Contenido en my_file.js 
 
-let multiplyFunction = function(a,b){
+let multiplyFunction = function(a,b) {
     return a*b;
 };
 export default multiplyFunction;
