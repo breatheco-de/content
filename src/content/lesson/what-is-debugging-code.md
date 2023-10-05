@@ -43,7 +43,7 @@ It's a good idea to break down bugs into "types" so we can prepare strategies fo
 
 Debugging front-end code can be split into 4 main groups: 
 
-1. **HTML/CSS bugs**: Layout miss matches vs. original design, confusions created by the browser cache, a missing HTML `<tags>`, or some CSS Rules not being applied correctly.
+1. **HTML/CSS bugs**: Layout mismatches vs. original design, confusions created by the browser cache, a missing HTML `<tags>`, or some CSS Rules not being applied correctly.
 2. **Javascript logic bugs**: Usually undefined or unexpected variable values, wrong logical conditions or flow, and syntax issues.
 3. **Rendering with Component frameworks bugs**: Dealing with the DOM, React Rendering, etc. Typical errors are not waiting for data to arrive from the backend leading to undefined variables (too early), too many re-renders, wrong importing or exporting of variables, or not passing the data correctly between components.
 4. **Integration with the backend bugs**: Fetch and HTTP requests with wrong payload, missing authentication credentials, not interpreting the backend payload response correctly, or not handling promise exceptions, CORS errors.
@@ -112,7 +112,7 @@ If the request payload, URL, and headers are OK, it's a backend error.
 
 #### Reading the server request log
 
-Lastly, if you have an error on a web server (like Express, Flask, Django, etc.) it's a good idea to check the log of requests being asked to the server. In the request log, you can see every request that any front end made to your API sorted by timestamp. Here is a short explanation of one request log example:
+Lastly, if you have an error on a web server (like Express, Flask, Django, etc.), it's a good idea to check the log of requests being asked to the server. In the request log, you can see every request that any front end made to your API sorted by timestamp. Here is a short explanation of one request log example:
 
 ![request log example](https://storage.googleapis.com/media-breathecode/53b8907096b009687a251a9ce7f9270cab0ab57342f2372ccbabfce421f7afaa)
 
