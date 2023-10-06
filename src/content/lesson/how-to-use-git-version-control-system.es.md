@@ -10,7 +10,7 @@ status: "published"
 
 ---
 
-> ☝ También hemos preparado un tutorial interactivo sobre GIT. [Haga clic aquí para tomarlo!](https://4geeksacademy.github.io/git-interactive-tutorial/)
+> ☝ También hemos preparado un tutorial interactivo sobre GIT. [¡Haga clic aquí para tomarlo!](https://4geeksacademy.github.io/git-interactive-tutorial/)
 
 ## ¡GIT es una necesidad!
 
