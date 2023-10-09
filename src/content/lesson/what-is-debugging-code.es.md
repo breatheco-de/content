@@ -19,7 +19,7 @@ A lo largo de los años, he desarrollado una receta de depuración muy efectiva 
 
 <quote>Depurar es el doble de difícil que escribir el código en primer lugar. Por lo tanto, si escribes el código de la manera más inteligente posible, por definición, no eres lo suficientemente inteligente como para depurarlo - Brian Kernighan</quote>.
 
-## ¿A quién debería leer esta guía?
+## ¿Quién debería leer esta guía?
 
 A los desarrolladores web junior. Hay tantos tipos de errores y técnicas de depuración en la codificación que es casi imposible escribirlos todos; por eso decidí enfocar esta guía en los desarrolladores junior en la etapa inicial de su carrera de desarrollo web full-stack.
 
