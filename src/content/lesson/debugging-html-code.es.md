@@ -37,7 +37,7 @@ Hay varias razones por las que tu código original puede no coincidir con el có
 
 #### ¿Qué es el caché del navegador?
 
-A veces el navegador usará una versión antigua del código en lugar de (la memoria caché). Esto se llama: `Caché del navegador`. 
+A veces el navegador usará una versión antigua del código en lugar de la memoria caché. Esto se llama: `Caché del navegador`. 
 El almacenamiento en caché puede ser una fuente común de confusión para los desarrolladores principiantes, lo que lleva a que los cambios no aparezcan en el sitio web como se esperaba.
 
 ![Cache memory](https://storage.googleapis.com/media-breathecode/c554b1b12abd3b8e7392151ceb31ed2f367e673e99f890e0a7c70ea4df7f68ad)
