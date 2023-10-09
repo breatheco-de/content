@@ -1,4 +1,4 @@
----
+f---
 title: "Cómo usar GIT: Sistema de control de versiones"
 subtitle: "Aprenda cómo usar GIT con un tutorial interactivo, un video y un excelente artículo. Sin GIT, no podrá trabajar en ninguna empresa y no podrá utilizar el código de nadie."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
@@ -71,7 +71,7 @@ Los heads de un repositorio son como el "historial de revisión de un proyecto".
 
 Cada vez que hagas un nuevo commit, el head se moverá a ese nuevo commit. De esta manera tú puedes tener acceso a todo el historial de commits del proyecto.
 
-Puedes **mover el head** si quieres. No necesariamente tiene que ser siempre el último commit, pero debes recordar que sólo puedes revisar los commits que vinieron antes del commit al que apunta el head. **No se pueden revisar los commits hechos después del commit al que apunta el head.**
+Puedes **mover el head** si quieres. No necesariamente tiene que ser siempre el último commit, pero debes recordar que solo puedes revisar los commits que vinieron antes del commit al que apunta el head. **No se pueden revisar los commits hechos después del commit al que apunta el head.**
 
 ![cómo usar git](https://github.com/breatheco-de/content/blob/master/src/assets/images/79da625d-d7bc-409a-a044-9e60ae6a1a2b.png?raw=true)
 
