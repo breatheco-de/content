@@ -190,12 +190,16 @@ while (element.firstChild) {
 
 ## Changing the Attributes
 
-To change any attribute of any object in the DOM, we need to use the `.attribute` property just like this:
+To retrieve or change any attribute of any object in the DOM, we need to use the `.attributes` property just like this:
 
 ```javascript
-// Changing attributes  
+// Retrieving all attributes
 let element = document.getElementById("myElementId");
-element.attribute = "whatever";
+element.attributes;
+// Retrieving specific attribute
+element.getAttribute("href");
+// Changing attributes  
+element.setAttribute = "whatever";
 ```
 
 ## Changing the Styles
