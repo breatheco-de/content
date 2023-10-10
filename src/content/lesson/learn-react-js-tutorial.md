@@ -60,7 +60,7 @@ If you need to use regular JS code within your HTML blocks, you would simply hav
 return <h1 id="name"> {person.name} </h1>;
 ```
 
-Something to remember is that in JSX/React, dynamic JS code within the HTML code (like above) has to always evaluate as an expression. For that reason, we cannot use JS statements within the curly braces, like an if-else statement, for example. Instead, we need to use a ternary expression that achieves the same effect.  
+Something to remember is that in JSX/React, dynamic JS code within the HTML code (like above) has to always evaluate as an expression. For that reason, we cannot use JS statements within the curly braces, like an `if...else` statement, for example. Instead, we need to use a ternary expression that achieves the same effect.  
 
 ```jsx
 return <h1 id="name"> {if(person.name == "John") "John"; else "Tom" } </h1>; // Does not work in JSX
