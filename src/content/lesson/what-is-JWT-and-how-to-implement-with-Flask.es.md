@@ -106,7 +106,7 @@ def create_token():
     password = request.json.get("password", None)
     # Consulta la base de datos por el nombre de usuario y la contraseña
     user = User.filter.query(username=username, password=password).first()
-    si el User es None:
+    if User is None:
           # el usuario no se encontró en la base de datos
         return jsonify({"msg": "Bad username or password"}), 401
     
