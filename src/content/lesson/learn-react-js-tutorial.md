@@ -88,12 +88,11 @@ function MyComponent(){
         // Some HTML code should go here
     );
 }
-
 ```
 
-Now, let's say that we want this component to return a **Bootstrap card:** every time we call it. 
+Now, let's say that we want this component to return a **Bootstrap card** every time we call it. 
 
-![learn react js tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/73edbb82-467c-4522-af7d-79c33bb270e2.png?raw=true)
+![example of bootstrap card component](https://github.com/breatheco-de/content/blob/master/src/assets/images/73edbb82-467c-4522-af7d-79c33bb270e2.png?raw=true)
 
 Here is how we do that in a React app.
 
@@ -114,17 +113,16 @@ function MyCard(){
         </div>
     );
 }
-
 ```
 
 > 👆 Each component in React needs to have a render method that returns a block of HTML code.
 
-Each component can be rendered by calling its `<tag>` which looks just like the HTML tags but always start with a capital letter. The difference is that now the name of the `<tag>` is the name of the React component (*e.g. <MyCard />*) that you have created, and using the tag gives you access to the look and behavior that you have programmed in your own component.  
+Each component can be rendered by calling its `<tag>` which looks just like the HTML tags but always start with a capital letter. The difference is that now the name of the `<tag>` is the name of the React component (e.g. `<MyCard />`) that you have created, and using the tag gives you access to the look and behavior that you have programmed in your own component.  
 
 The above component will now **render** (display on the page) a Bootstrap card anywhere you call <MyCard /> like this:
 
 ```jsx 
-    <MyCard />
+<MyCard />
 ```
 
 Usually, we call components within the return section of another component:
@@ -137,7 +135,6 @@ function MyComponent(){
         <MyCard />
     );
 }
-
 ```
 
 ### React Components can be Functions or Classes
@@ -215,14 +212,13 @@ function MyMainComponent (){
 }
   
 ReactDOM.render(<MyMainComponent />, document.querySelector('#app'));
-
 ```
 
 In this example, `<ChildComponent />` and `<GrandchildComponent />` will end up in the DOM and will render because they are called within the main component or a descendant. `<RandomComponent />` on the other hand, will never be shown on the page because it is not being called in that way. 
 
 ## Doing Website Layouts with React
 
-A "Layout" in React is basically the combination of two or more components (referred to as **components** proper) into a parent component (referred to as a **view**).  
+A "Layout" in React is basically the combination of two or more components into a parent component (referred to as a **view**).  
 
 **For example:**  
 
@@ -240,7 +236,7 @@ export class EntireWebsiteLayout extends Component {
         );
     }
 }
-// It is implied that the Home, AboutUs, and ContactUs components have already been defined.
+// It is implied that the Home, AboutUs, and ContactUs components have already been defined
 ```
 
 > ☝ This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
@@ -251,7 +247,7 @@ Those components that serve to hold the layout of each of your web pages and are
 
 Each component will have a render method. The final resulting HTML document will be comprised with the merge of all the outputs that all the components have on their render methods. Check out the following illustration to get an idea.
 
-![learn react js tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/6c7d3747-482a-480d-b5be-fdbf095292f3.png?raw=true)
+![react layout of a one page website](https://github.com/breatheco-de/content/blob/master/src/assets/images/6c7d3747-482a-480d-b5be-fdbf095292f3.png?raw=true)
 
 ## The YouTube.com Example
 
@@ -311,7 +307,7 @@ A real high quality component must communicate with other components only throug
 
 Every component works like a mini-application. You are able to control and define your component workflow based on a series of available methods that you can declare and code according to your needs.
 
-![learn react js tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/245ba798-e840-42d8-8391-7388159ccfeb.png?raw=true)
+![life cycle of a component in react js](https://github.com/breatheco-de/content/blob/master/src/assets/images/245ba798-e840-42d8-8391-7388159ccfeb.png?raw=true)
 
 > 🔗 [Here you will find](https://reactjs.org/docs/react-component.html#the-component-lifecycle) a more detailed explanation of each available life-cycle method.
 
