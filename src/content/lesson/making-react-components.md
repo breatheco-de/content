@@ -11,7 +11,7 @@ status: "published"
 
 ## In React.js Everything is a `<Component />`
 
-React.js separates your code into little pieces called Components which can be created/defined as a **class** or as a **function**. Each component is like a smaller React app that has its own logic and has a final purpose, which is to display or **render** something (e.g: a bootstrap navbar, a dropdown list, a model, a dynamic form, an image gallery, subscribe form, almost everything can be designed and coded as a React Component). To do that every React component needs to have a `return` statement that returns some JSX code (HTML + embedded JS). 
+React.js separates your code into little pieces called Components which can be created/defined as a **class** or as a **function**. Each component is like a smaller React app that has its own logic and has a final purpose, which is to display or **render** something (e.g: a bootstrap navbar, a dropdown list, a modal, a dynamic form, an image gallery, subscribe form), almost everything can be designed and coded as a React Component. To do that every React component needs to have a `return` statement that returns some JSX code (HTML + embedded JS). 
 
 ```jsx
 import React from 'react';
@@ -36,6 +36,7 @@ class Navbar extends React.Component{
     }
 }
 ```
+
 > ☝️ This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
 
 ## Using a Component
@@ -164,6 +165,9 @@ class ClockComponent extends React.Component {
 Here is a complete React class-component template for reference:
 
 ```jsx
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 class Clock extends React.Component {
   // The standard constructor method with props and this.state initialized
   constructor(props) {
