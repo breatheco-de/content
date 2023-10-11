@@ -14,16 +14,20 @@ status: "published"
 React.js separates your code into little pieces called Components which can be created/defined as a **class** or as a **function**. Each component is like a smaller React app that has its own logic and has a final purpose, which is to display or **render** something (e.g: a bootstrap navbar, a dropdown list, a model, a dynamic form, an image gallery, subscribe form, almost everything can be designed and coded as a React Component). To do that every React component needs to have a `return` statement that returns some JSX code (HTML + embedded JS). 
 
 ```jsx
-// a function component 
 import React from 'react';
+
+// a function component 
 function NavBar(props){
     return (<nav className="navbar navbar-light bg-light">
               <a className="navbar-brand" href="#">Navbar</a>
            </nav>);
 }
-----------------------------------------------------------------
-// a class component
+```
+
+```jsx
 import React from 'react';
+
+// a class component
 class Navbar extends React.Component{
     render(){
         return (<nav className="navbar navbar-light bg-light">
