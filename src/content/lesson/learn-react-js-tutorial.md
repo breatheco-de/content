@@ -163,7 +163,7 @@ export class MyCard extends React.Component {
 }
 ```
 
-> ☝️ This is a class component. We strongly recommend you use functional components and hooks instead because class components are legacy.
+> ☝️ This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
 
 ## The MAIN Component
 
