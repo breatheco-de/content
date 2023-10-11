@@ -308,7 +308,7 @@ class MyComponent extends React.Component {
 
 As a **Function**:     
 
-Each variable should be declared using the useState Hook inside the function.   
+Each variable should be declared using the `useState` Hook inside the function.   
 
 As a **Class**:
 
@@ -352,7 +352,7 @@ class MyComponent extends React.Component {
 
 As a **Function**:     
 
-Use the useEffect hook for the life cycle. [More information here](https://content.breatheco.de/lesson/react-hooks-explained).    
+Use the `useEffect` hook for the life cycle. [More information here.](https://content.breatheco.de/lesson/react-hooks-explained)    
 
 As a **Class**:
 
@@ -364,7 +364,7 @@ You can declare inside your component class those methods, and they will magical
 class MyComponent extends React.Component {
     constructor() {
         super();
-        this.state = { // Initialize your state }
+        this.state = { /* Initialize your state */ }
     }
 
     componentDidMount() { /* Do something to the state here */ }
