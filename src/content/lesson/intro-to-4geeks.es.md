@@ -32,11 +32,11 @@ Durante los años que han pasado hemos identificado razones específicas por la 
 
 ![Síndrome del Impostor](https://github.com/breatheco-de/content/blob/master/src/assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png?raw=true)
 
-En algún momento de nuestras vidas (en algunos más que otros) podemos haber pensado que no somos la persona más lista de una sala. Si continuamos pensando eso durante mucho tiempo y no nos sentimos cómodos con ninguna disciplina, incluso podemos llegar a pensar que no somos inteligentes ¡Mentira! ¡Nada que ver! Eres parte de esta academia, no aceptamos personas que no creemos que sean lo suficientemente inteligentes como para ganarse la vida como desarrolladores. ¡Tienes que creer eso, especialmente en tiempos difíciles!
+Todos hemos tenido momentos en los que dudamos de nuestra inteligencia y habilidades. Sin embargo, es importante recordar que eso es una mentira. En esta academia, no aceptamos la idea de que alguien no sea lo suficientemente inteligente para ser un desarrollador. Es crucial creer en uno mismo, especialmente en tiempos difíciles.
 
 > Si algún ejercicio o proyecto en particular te parece difícil, en vez de pensar que no sirves para esto, busca nuevas maneras de absorber el contenido. Habla con un mentor y te daremos exactamente lo que necesitas.
 
-Cualquier persona en general puede aprender a programar, la programación se vuelve más complicada cuando te especializas más en tu carrera (Inteligencia Artificial, Robótica, etc.) Puedes ganar una buena cantidad de dinero sin tener que haber estudiado matemáticas, sin ser bueno con los números o sin aprender tan rápido como otros (es posible que podamos arreglar eso, por cierto). 
+cualquier persona puede aprender a programar y tener éxito en esta carrera, independientemente de su formación académica, habilidades matemáticas o velocidad de aprendizaje. La programación ofrece muchas oportunidades y recompensas económicas, y siempre hay formas de mejorar y crecer en esta área. ¡No dejes que las dudas te detengan, sigue adelante y descubre tu potencial como programador!
 
 
 ##### 📝 Receta para no perder la confianza en ti
@@ -46,6 +46,10 @@ Cualquier persona en general puede aprender a programar, la programación se vue
 2. **Habla con otros estudiantes:** Puede que pienses que eres el único que no entiende, pero si hablas con otros compañeros verás que no eres solo tú y te dará confianza para hacer preguntas.
 
 3. **Habla con los mentores:** Una voz con experiencia siempre es buena, hay egresados y profesores que ya han pasado por momentos difíciles o que están con dificultades ¡en este mismo momento! Pueden ayudarte durante los tiempos oscuros, no solo estamos hablando de brindarte soluciones de programación, sino de brindarte estrategias para tener éxito en tu vida (¿como desarrollador?).
+
+EN RESUMEN:
+
+La receta para evitar perder la confianza en nuestros métodos es seguir el método adecuadamente, hacer las tareas antes de ir a clase, seguir el programa en el orden recomendado, hacer los pequeños ejercicios antes de saltar a los proyectos, asistir a cada clase y no leer libros que retrasen. Es importante hacer preguntas cuando se empieza a dudar de los métodos y ser humilde al seguir el curso como es. Algunos estudiantes han completado el curso con éxito y trabajan en grandes empresas a nivel mundial.
 
 #### Pared #2: Confianza ✝
 
@@ -63,11 +67,9 @@ Sabemos cómo enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseña
 
 #### Pared #3: Inactividad 😴 
 
-Esto es un bootcamp, no importa si lo haces tiempo-completo o tiempo-parcial, debes tener mentalidad de bootcamp y trabajar cada día como si fuera el último. El cerebro humano absorbe 80% más cuando se siente desafiado y asustado, si descansas un día el cerebro se relaja y [está demostrado](https://www.youtube.com/watch?v=h5PLO4XAXhs) que usualmente se olvida del 60% de la información recientemente adquirida a menos que la uses, de forma repetida y constante durante un periodo de 7 días (por lo menos).
+Esto es un bootcamp, ya sea a tiempo completo o a tiempo parcial, debes tener una mentalidad de bootcamp y trabajar cada día como si fuera el último. Se ha demostrado que el cerebro humano absorbe un 80% más de información cuando se siente desafiado y asustado. Si descansas un día, el cerebro se relaja y es probable que olvides hasta un 60% de la información recientemente adquirida, a menos que la practiques de forma repetida y constante durante al menos 7 días.
 
-Estos números no son pequeños, 60% en un día y 90% si no practicas en una semana ¡Estás perdiendo tu tiempo y dinero si no te lo tomas en serio!
-
-##### 📝 Receta para evitar la inactividad
+Estos números no son insignificantes, perder un 60% en un día y un 90% en una semana. Si no te lo tomas en serio, estarías desperdiciando tu tiempo y dinero.##### 📝 Receta para evitar la inactividad
 
 1. **Habla con tu pareja, amigo y familia:** Necesitas un descanso de prácticamente todo. Sabemos que la vida ya es lo suficientemente complicada para además añadirle más responsabilidades, pero este es sólo un breve periodo de tu tiempo. La recompensa es eterna ¡Todos deben alinearse! Intenta mantenerte abierto, tener un escritorio para trabajar sin distracciones, etc. Tu hogar debe estar sincronizado con este momento de tu vida.
 
@@ -76,6 +78,10 @@ Estos números no son pequeños, 60% en un día y 90% si no practicas en una sem
 3. **No faltes a clases:** Que faltes a clases es nuestra mayor preocupación, estamos muy preocupados de la asistencia porque ha demostrado ser el disuasivo #1 para tu motivación, faltar a dos clases seguidas genera la tormenta perfecta. Necesitarás mentoría uno a uno y doblar las horas de práctica esa semana para evitar retrasarte.
 
 4. **Involúcrate:** Asistir a clases no es suficiente, los seres humanos son emocionales, integran mejor la información cuando están comprometidos emocionalmente, asistiendo a eventos y estudiando en grupos, hablando públicamente al respecto, etc.
+
+EN RESUMEN:
+
+Para evitar la inactividad durante este periodo, es importante comunicarse con la pareja, amigos y familiares para obtener apoyo y comprensión. También se recomienda hablar con el jefe para solicitar tiempo adicional si es necesario. La asistencia a las clases es fundamental, ya que faltar puede afectar la motivación y generar retrasos en el aprendizaje. Además, es importante involucrarse emocionalmente, asistir a eventos y estudiar en grupos para mejorar la comprensión y retención de la información.
 
 ## ¿Qué sigue?
 
