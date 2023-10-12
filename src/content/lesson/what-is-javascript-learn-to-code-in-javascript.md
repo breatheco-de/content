@@ -35,7 +35,7 @@ let age = 24;
 
 ![what is javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif?raw=true)
 
-With virtually any programming language you can create as many variables as you want or need. To start, you have to **declare that variable’s name** using the term: `var` followed by a _unique_ name (relative to the document-project).
+Virtually with any programming language you can create as many variables as you want or need. To start, you have to **declare that variable’s name** using the term: `var` followed by a _unique_ name (relative to the document-project).
 
 The **variable's name** is the most effective way we have to describe the variable's content, so use it wisely. It is important to choose a name that clearly tells you (and other coders) about the data that is being stored in the variable. If we choose a bad or ambiguous name, our code will be almost impossible to understand, ergo it becomes unusable. For example, let’s say we change the name of our "age" variable to `a`, that would be:
 
@@ -45,7 +45,7 @@ let a = 24 ;
 
 As you can see above, the new variable's name does not tell us anything about the data that is being stored and why we are using it.
 
-Choosing the name for your variable really matters, so we beg you not to use generic names. Be descriptive! A vague name will make it difficult to understand the purpose of the variable, especially for other coders (including your future self).
+The name you choose for your variable really matters, so we beg you not to use generic names. Be descriptive! A vague name will make it difficult to understand the purpose of the variable, especially for other coders (including your future-self).
 
 ## Assigning a Value to Variables
 
