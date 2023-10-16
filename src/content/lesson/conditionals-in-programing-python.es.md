@@ -52,7 +52,7 @@ Si no tenemos la información prealmacenada en variables no podemos hacer ningun
 Por ejemplo, si tenemos la edad del usuario almacenada en una variable `edad` entonces, y solo entonces, podremos codificar algo como:
 
 ```python
-# Se utiliza dos veces igual (==) cuando quieres comparar en lugar de asigner el valor
+# Se utiliza dos veces igual (==) cuando quieres comparar en lugar de asignar el valor
 if edad == 25:
     print("Eres mayor de edad!!")
 ```
