@@ -81,7 +81,7 @@ Placing an incorrect base case is a very common mistake for someone starting to 
 
 ## Examples of Recursive Algorithms in Python 📝💡
 
-The following are some examples of recursion algorithms in [Python](https://4geeks.com/es/lesson/how-to-code-in-python).
+The following are some examples of recursion algorithms in [Python](https://4geeks.com/lesson/how-to-code-in-python).
 
 ### Factorial Calculation
 
