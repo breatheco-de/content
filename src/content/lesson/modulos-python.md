@@ -13,6 +13,7 @@ En este artículo, nos adentraremos en el emocionante mundo de los módulos en [
 A continuación veremos un ejemplo pequeñito sobre cómo utilizar los módulos en un script de Python.
 
 #### Operaciones_matematicas.py
+
 ```py
 def suma(a, b):
     return a + b
@@ -23,7 +24,9 @@ def resta(a, b):
 def multiplicacion(a, b):
     return a * b
 ```
+
 #### main.py
+
 ```py
 from Operaciones_matematicas import suma, resta, multiplicacion
 
@@ -81,6 +84,7 @@ print(pi) # output: 3.141592653589793
 ```
 
 ## Utilizando Funciones y Variables de un Módulo ✨
+
 Los módulos en Python suelen ofrecer una variedad de funciones y variables que puedes utilizar en tus programas. Puedes explorar la documentación del módulo para descubrir todas las posibilidades que ofrece. Aquí hay algunos ejemplos de módulos populares y cómo utilizarlos.
 
 ### 1. Módulo random
@@ -167,6 +171,7 @@ Para crear tu propio módulo, sigue estos pasos:
 Ejemplo:
 
 #### Operaciones_matematicas.py
+
 ```py
 def Operaciones(operacion, num_uno, num_dos):
     if (operacion == "suma"):
@@ -182,6 +187,7 @@ def Operaciones(operacion, num_uno, num_dos):
 ```
 
 #### main.py
+
 ```py
 import Operaciones_matematicas as OM
 
