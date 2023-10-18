@@ -29,7 +29,9 @@ lista = [1, 4, 25, 5, 7, 8, 9, 2, 40, 3, 27]
 valor_maximo = encontrar_valor_maximo(lista)
 print(f"El número máximo de la lista es: {valor_maximo}")
 ```
+
 > output del código:
+
 ```bash
 El número máximo en la lista es: 40
 ```
@@ -95,6 +97,7 @@ n! = n * (n - 1) * (n - 2) * (n - 3) * ...
 ```
 
 Ejemplo de cálculo factorial haciendo uso de la recursividad con Python.
+
 ```py
 def factorial(n):
     if n < 0:
@@ -104,7 +107,6 @@ def factorial(n):
         return 1
     else:
         return n * factorial(n - 1)
-
 
 print(factorial(5))  # output: 120
 print(factorial(3))  # output: 6
