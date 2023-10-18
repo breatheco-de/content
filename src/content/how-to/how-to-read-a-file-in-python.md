@@ -45,7 +45,7 @@ In this example, we want to read the information stored in file `test.txt`, to d
 
 ## How to read the contents of a file?
 
-As said before, to read the content of a file we need the [Python](https://4geeks.com/es/lesson/como-programar-en-python) `open()` method , this method receives two parameters, the first one is the name of the file we want to open, and the second one is the way we want to open the file. The second parameter can receive different values; in the following table you can see the most relevant ones with a small description of each:
+As said before, to read the content of a file we need the [Python](https://4geeks.com/lesson/como-programar-en-python) `open()` method, this method receives two parameters, the first one is the name of the file we want to open, and the second one is the way we want to open the file. The second parameter can receive different values; in the following table you can see the most relevant ones with a small description of each:
 
 
 | Value | Description                                                                                                                                                     |
