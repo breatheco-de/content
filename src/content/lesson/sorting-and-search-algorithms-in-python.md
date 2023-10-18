@@ -71,8 +71,8 @@ def insertion_sort(list):
 
     return list
 
-unordered _list = [39, 45, 32, 4, 2, 85, 43, 7, 18, 16, 5, 67, 32]
-ordered_list = insertion_sort(unordered _list)
+unordered_list = [39, 45, 32, 4, 2, 85, 43, 7, 18, 16, 5, 67, 32]
+ordered_list = insertion_sort(unordered_list)
 print(ordered_list) # output: [2, 4, 5, 7, 16, 18, 32, 32, 39, 43, 45, 67, 85]
 ```
 
