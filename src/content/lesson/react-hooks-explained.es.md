@@ -24,7 +24,9 @@ En general, las props son suficiente para crear un componente sorprendente, pero
 
 A medida que tengas más experiencia, comprenderás mejor cuándo usar Hooks. Si no los necesitas, ¡NO los uses!¡Cuanto menos mejor!
 
-### Todas las aplicaciones necesitan al menos un <strong>useState</strong> y un <strong>useEffect</strong>. Para usar hooks, PRIMERO DEBEMOS IMPORTARLOS al inicio de nuestro archivo. Por ejemplo si necesitáramos usar un useState, haríamos lo siguiente:
+### Todas las aplicaciones necesitan al menos un useState y un useEffect
+
+Para usar hooks, PRIMERO DEBEMOS IMPORTARLOS al inicio de nuestro archivo. Por ejemplo si necesitáramos usar un useState, haríamos lo siguiente:
 
 ```jsx
 import React, { useState } from 'react';
@@ -40,21 +42,21 @@ Ahora aprendamos a utilizarlos :)
 
 ## El hook `useState`:
 
-El hook más importante, ¡casi inevitable! El <strong>useState</strong> te ayuda a inicializar una variable y cambiar su valor con el tiempo sin recurrir a los componentes padres.
+El hook más importante, ¡casi inevitable! El **useState** te ayuda a inicializar una variable y cambiar su valor con el tiempo sin recurrir a los componentes padres.
 
 ```jsx
 //    Nombre de variable    nombre del setter           valor inicial (cualquier valor)
-const [ mySuperVariable, setMySuperFunction ] = useState(          null        );
+const [ superVariable, setSuperVariable ] = useState(          null        );
 ```
 
-Básicamente, `mySuperVariable` se inicializa con `null` y luego tu podrás restablecer su valor llamando a `mySuperFunction` de esta forma:
+Básicamente, `superVariable` se inicializa con `null` y luego tu podrás restablecer su valor llamando a `setSuperVariable` de esta forma:
 
 ```jsx
-// aquí estamos restableciendo el valor de mySuperVariable = 'hello' cuando el usuario hace clic en un botón
-<button onClick={() => mySuperFunction('hello')}></button>
+// Aquí estamos restableciendo el valor de superVariable = 'hello' cuando el usuario hace clic en un botón
+<button onClick={() => setSuperVariable('hello')}></button>
 ```
 
-### Posible usos para </strong>el hook ` useState` </strong>
+### Posible usos para el hook `useState`
 
 1. Conteo: Mostrar el número de me gusta en la pantalla y poder aumentar o disminuir cuando el usuario hace clic.
  ![Contador de reacción con ganchos](https://s10.gifyu.com/images/countergif.gif?raw=true)
@@ -66,15 +68,14 @@ import ReactDOM from "react-dom";
 import "./styles.css";
 
 const Counter = () => {
-  // inicializar una variable de conteo en 0, la función setCount
-  // se utilizará para restablecer el valor de "count" (recuento).
+  // Inicializar una variable de "count" en 0, la función setCount se utilizará para restablecer el valor de "count"
   const [count, setCount] = useState(0);
   return (
     <div>
       <h2>{count} likes</h2>
-      {/* Restablecer el conteo a su valor anterior+ 1 */}
+      {/* Restablecer "count" a su valor anterior + 1 */}
       <span onClick={() => setCount(count + 1)}>👍🏽</span>
-      {/* Restablecer el conteo a su valor anterior - 1 */}
+      {/* Restablecer "count" a su valor anterior - 1 */}
       <span onClick={() => setCount(count - 1)}>👎🏽</span>
       <h3>Like or dislike to increase/decrease</h3>
     </div>
@@ -90,7 +91,6 @@ ReactDOM.render(<Counter />, document.getElementById("root"));
 
 ```jsx
 import React, { useEffect, useState } from "react";
-
 
 const Clock = (props) => {
   const [time, setTime] = useState(new Date().toLocaleTimeString());
@@ -109,8 +109,6 @@ const Clock = (props) => {
     </div>
   );
 };
-
-Clock.propTypes = {};
 
 export default Clock;
 ```
@@ -142,9 +140,8 @@ const ControlledInputForm = (props) => {
     </div>
   );
 };
-ControlledInputForm.propTypes = {};
-export default ControlledInputForm;
 
+export default ControlledInputForm;
 ```
 
 4. Apertura/Cierre (mostrar/ocultar): un caso de uso típico es tener un cuadro de diálogo que hace una pregunta o permite que un usuario se suscriba a un boletín informativo.
@@ -157,15 +154,15 @@ import ReactDOM from "react-dom";
 import "./styles.css";
 
 const Modal = () => {
-  /**
+  {/**
    *  Usando el hook useState, debes prestar atención a 3 elementos:
    * - opened: una variable que cambiará con el tiempo (puede tener cualquier nombre)
-   * - setOpened: una función que restablece el valor opened (abierto) (puede por cualquier nombre)
-   * - useState: este es el hook, tiene que ser setState y recibe el valor inicial para "opened"
-   */
+   * - setOpened: una función que restablece el valor "opened" (debería tener la palabra "set" antes del nombre de variable que escogiste)
+   * - useState: este es el hook, tiene que ser useState y recibe el valor inicial para "opened"
+   */}
   const [opened, setOpened] = useState(true);
 
-  //si es opened === verdadero, muestro el modal, de lo contrario, muestro el botón para abrir el modal
+  {/* si es opened === true, muestro el modal, de lo contrario, muestro el botón para abrir el modal */}
   return opened ? (
     <div>
       <h1>Hello BreatheCode</h1>
@@ -181,7 +178,6 @@ const Modal = () => {
 };
 
 ReactDOM.render(<Modal />, document.getElementById("root"));
-
 ```
 
 5. Miles de otras aplicaciones posibles. 
@@ -200,41 +196,41 @@ Si el usuario hace clic en "close" (cerrar), simplemente usamos la función hook
 
 useEffect es otro hook increíble que usarás si deseas ejecutar algún código después de que el componente se renderice, por ejemplo:
 
-#### 1) Después de que el componente se renderice por primera vez (como el viejo y buen componenteDidMount).
+### 1) Después de que el componente se renderice por primera vez (como el viejo y buen componenteDidMount).
 
 ```jsx
 const MyComponent = () => {
     useEffect(() =>
 
-        // lo que sea que codifiques aquí se ejecutará solo después de la primera vez que el componente se procesa
+        // Lo que sea que codifiques aquí se ejecutará solo después de la primera vez que el componente se procesa
 
- , []);// <------ TEN EN CUENTA LA MATRIZ VACÍA
+ , []);// <------ TEN EN CUENTA EL ARRAY VACÍO
 
 
     return <Some HTML>;
 }
 ```
 
-> :point_up: Por favor observa el `[]` como el segundo parámetro del useEffect.
+> ☝ Por favor observa el `[]` como el segundo parámetro del useEffect.
 
-#### 2) Cada vez (o algunas veces) después de que el componente se vuelva a renderizar.
+### 2) Cada vez (o algunas veces) después de que el componente se vuelva a renderizar
 
 ```jsx
 const MyComponent = () => {
     useEffect(() =>
-        // esto se ejecutará cada vez que el componente se vuelva a renderizar
+        // Esto se ejecutará cada vez que el componente se vuelva a renderizar
         if(some_condition){
-            //esto se ejecutará solo si alguna_condición es verdadera
+            // Esto se ejecutará solo si some_condition es true
         }
-    );// <------ ¡TEN EN CUENTA QUE EL ARREGLO VACÍO SE HA IDO!
+    );// <------ ¡TEN EN CUENTA QUE EL ARRAY VACÍO SE HA IDO!
 
     return <Some HTML>;
 }
 ```
 
-> :point_up: Este useEffect no tiene un array vacío `[]` como segundo parámetro.
+> ☝ Este useEffect no tiene un array vacío `[]` como segundo parámetro.
 
-#### 3) Cuándo se desmontará el componente o dejará de renderizarse (como la antigua función [componentWillUnmount](https://reactjs.org/docs/react-component.html#unsafe_componentwillmount) utilizada por los componentes de la clase).
+### 3) Cuando se desmontará el componente o dejará de renderizarse (como la antigua función [componentWillUnmount](https://reactjs.org/docs/react-component.html#unsafe_componentwillmount) utilizada por los componentes de la clase).
 
 ```jsx
 const MyComponent = () => {
@@ -258,23 +254,23 @@ Por ejemplo, supongamos que estoy creando una lista de tareas (Todo) y tengo que
 
 ```jsx
 const Todos = (props) => {
-    // inicializa la variable de tareas en un array  vacío y conéctelo a la función setTasks
+    // Inicializa la variable de tareas en un array  vacío y conéctelo a la función setTasks
     const [ tasks, setTasks] = useState([]);
 
-    // esta función useEffect se ejecutará solo una vez, cuando el componente finalmente se cargue por primera vez.
+    // Esta función useEffect se ejecutará solo una vez, cuando el componente finalmente se cargue por primera vez.
     useEffect(() =>
-        // aquí busco mis todos de la API
+        // Aquí busco mis todos de la API
         fetch('https://assets.breatheco.de/apis/fake/todos/user/alesanchezr')
             .then(r => r.json())
-            .then(data => setTasks(data)) //aquí restablece las tareas variables con los datos entrantes
+            .then(data => setTasks(data)) // Aquí restablece las tareas variables con los datos entrantes
     , []);
 
     return <ul>{tasks.map(t => <li>{t.label}</li>)}</ul>;
 }
 ```
 
-> :point_up: Revisa el código en profundidad y la demostración en vivo [haciendo clic aquí](https://codesandbox.io/s/xenodochial-varahamihira-egh86?fontsize=14)
+> ☝ Revisa el código en profundidad y la demostración en vivo [haciendo clic aquí](https://codesandbox.io/s/xenodochial-varahamihira-egh86?fontsize=14).
 
 ## Otras lecturas
 
-Para obtener más información, incluido [cómo crear tus propios hooks](https://reactjs.org/docs/hooks-custom.html), consulte: [Documentación oficial de React](https://reactjs.org/docs/hooks-overview.html)
+Para más información, consulte: [La documentación oficial de React](https://react.dev/reference/react), también puedes leer [cómo crear tus propios hooks](https://react.dev/learn/reusing-logic-with-custom-hooks).
