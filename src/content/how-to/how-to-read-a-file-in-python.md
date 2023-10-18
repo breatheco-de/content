@@ -170,7 +170,7 @@ In this example, we again make use of the Python `open()` method but this time w
 
 ### Add a list of dictionaries to a txt file
 
-To be able to enter a list of dictionaries in a `txt` file first we need to convert it to a `json` (JavaScript Object Notation) datatype. For this we will use the `json` module (Check out this article to remember how to use the [modules in Python](https://4geeks.com/es/lesson/modulos-python)).
+To be able to enter a list of dictionaries in a `txt` file first we need to convert it to a `json` (JavaScript Object Notation) datatype. For this we will use the `json` module (Check out this article to remember how to use the [modules in Python](https://4geeks.com/lesson/modulos-python)).
 
 ```py
 import json
