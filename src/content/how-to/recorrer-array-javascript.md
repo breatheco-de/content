@@ -6,7 +6,7 @@ authors: [Gilberto-MV]
 
 ---
 
-En JavaScript una de las maneras más sencillas de recorrer un array es utilizando el ciclo `for`. Este es un ejemplo de cómo puedes usarlo para recorrer un array:
+En JavaScript una de las maneras más sencillas de recorrer un [array](https://4geeks.com/es/lesson/array-arreglo-en-javascript) es utilizando el ciclo `for`. Este es un ejemplo de cómo puedes usarlo para recorrer un array:
 
 ```js
 let people = ["Joe", "Mary", "Phill", "Carlos"];
