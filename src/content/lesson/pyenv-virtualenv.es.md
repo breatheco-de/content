@@ -39,6 +39,70 @@ Antes de continuar, te recomendamos revisar nuestro artículo detallado sobre [C
 
 Una vez que hayas instalado Pyenv, podrás gestionar tus versiones de Python con facilidad y crear entornos virtuales para cada proyecto.
 
+## Como crear un virtual env con pyenv-virtualenv
+Debido a que virtualenv es un plugin de pyenv, es necesario asegurarse que el plugin esté correctamente instalado.
+### Instalar pyenv-virtualenv como plugin
+Este método instala el plugin dentro del directorio de plugins de _Pyenv_
+Primero se hace el checkout de pyenv-virtualenv directo al directorio de plugins de _Pyenv_ por medio del siguiente comando:
+```sh
+$ git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+```
+Luego es necesario reiniciar la consola para que se habilite la instancia de pyenv-virtualenv
+```sh
+$ exec "$SHELL"
+```
+### Instalar pyenv-virtualenv por Homebrew
+Si se cuenta con un equipo Mac, se puede utilizar Homebrew para instalar este plugin. **Utilizar este metodo es el recomendado si se instaló Pyenv por este método**
+```sh
+$ brew install pyenv-virtualenv
+```
+Luego de la instalación, será necesario seguir los pasos de configuración de consola con Pyenv
+Finalmente, se agrega el comando para inicializar virtualenv dentro del documento ```.rc``` de la consola de la siguiente manera:
+```sh 
+eval "$(pyenv virtualenv-init -)"
+```
+Esta configuración es de ayuda ya que hace que los ambientes se activen y se desactiven al momento de entrar o salir de directorios que contangan un archivo de ```.python-version```.
+De cualquier manera, siempre es posible activar y desactivar de manera manual por medio del uso de 
+```sh
+pyenv activate <nombre>
+pyenv deactivate
+```
+
+### Uso de virtualenv
+Una vez instalado, virtualenv es muy intuitivo. para crear un ambiente se ejecuta un comando que incluye el numero de versión de Python junto con el nombre del directorio de la siguiente manera:
+```sh
+$ pyenv virtualenv 2.7.10 ambiente-2.7.10
+```
+
+Esto crea un ambiente basado en la versión de Python 2.7.10 dentro del directorio raiz de pyenv de versiones (```$(pyenv root)/versions```), dentro de un folder llamado ```ambiente-2.7.10```.
+
+Se puede pasar solo un argumento a ```pyenv virtualenv```, lo cual hará que el ambiente se cree con la versión actual de _Pyenv_
+```sh
+$ pyenv virtualenv ambiente-virtual
+```
+
+### Listar virtualenvs existentes
+El comando ```pyenv virtualenvs``` muestra los ambientes de virtualenv creados
+```sh
+$ pyenv virtualenv ambiente-virtual-3.4.3
+$ pyenv virtualenvs
+  ambiente-virtual-3.4.3 (created from /home/yyuu/.pyenv/versions/3.4.3)
+  ambiente-2.7.10 (created from /home/yyuu/.pyenv/versions/2.7.10)
+```
+
+### Eliminar ambientes de virtualenv
+Se pueden eliminar instancias de virtualenv de tres maneras:
+1. Eliminando los directorios dentro de ```$(pyenv root)/versions``` y ```$(pyenv root)/versions/{version}/envs```
+2. Ejecutando el comando:
+```sh
+pyenv uninstall ambiente-2.7.10
+```
+3. Ejecutando el comando:
+```sh
+pyenv virtualenv-delete ambiente-2.7.10
+```
+Es importante conocer el proceso de desinstalación para poder manejar adecuadamente los ambientes y poder "limpiar" la lista de ambientes para manejar únicamente los que son realmente necesarios.
+
 ## Conclusion
 
 _Pyenv_ es una herramienta fundamental para desarrolladores que necesiten lidiar con la complejidad de manejar múltiples versiones de Python. De igual manera, es de mucha ayuda proveyendo aislamiento entre proyectos, simplifica el desarrollo eliminando estas complejidades, y mejora la compatibilidad. Independientemente si se es un desarrollador de Python principiante o experimentado, _Pyenv_ aporta mucho valor al flujo de desarrollo y es una herramienta indispensable para mejorar la experiencia de programación y productividad de los desarrolladores.
