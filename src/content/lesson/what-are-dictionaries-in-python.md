@@ -7,7 +7,7 @@ authors: ["DF27ARTS"]
 
 ## Exploring Python Dictionaries
 
-Dictionaries in [Python](https://4geeks.com/es/lesson/como-programar-en-python) are a data structure that allows us to store large amounts of data and access them in a very efficient way. In this article you will learn how to create, access and modify data in a Python dictionary, in the following example we will see a small demonstration of how you can use a dictionary to store a collection of data.
+Dictionaries in [Python](https://4geeks.com/es/lesson/how-to-code-in-python) are a data structure that allows us to store large amounts of data and access them in a very efficient way. In this article you will learn how to create, access and modify data in a Python dictionary, in the following example we will see a small demonstration of how you can use a dictionary to store a collection of data.
 
 ```py
 city = {
@@ -35,13 +35,13 @@ print(city)
 }
 ```
 
-In this example, we create a dictionary with data to represent a city, in the example we access to the property `city_id` and we replace its original value **50** with a new value **1000**, also we modify the property `city_name` with the same value but in capital letters **NEW YORK** and finally we eliminate the property `currency` of the dictionary. In this code we can see the most basic examples on how to access to a property, how to modify data and how to delete properties in dictionary.
+In this example, we create a dictionary with data to represent a city, in the example we access the property `city_id` and replace its original value **50** with a new value **1000**, we modify the property `city_name` with the same value but in capital letters **NEW YORK** and finally we eliminate the property `currency` of the dictionary. In this code, we can see the most basic examples of how to access a property, how to modify data, and how to delete properties in the dictionary.
 
 ## What is a Python dictionary?
 
 A Python dictionary is a data structure where you can store information in an organized way. Think of it as a real dictionary, but instead of finding definitions of words, you will have values associated with unique keys! Each element of the dictionary is a key-value pair, where the key is unique and allows us to access its corresponding value. This way we can quickly find what we need.
 
-The following video shows better how dictionaries work in Python, how to access their properties, how to update their values and many more.
+The following video shows better how dictionaries work in Python, how to access their properties, how to update their values, and many more.
 
 <iframe
     width="650"
@@ -141,7 +141,7 @@ As we see in this example, you can use the `{}` braces syntax and inside the bra
 
 ## Deleting data!
 
-To remove a key-value from a dictionary, you can use the syntax `del dictionary_name[key]` or you can also use the `pop()` method and pass as parameter the key name of the value you want to remove as shown in the following example:
+To remove a key-value from a dictionary, you can use the syntax `del dictionary_name[key]` or you can also use the `pop()` method and pass as a parameter the key name of the value you want to remove as shown in the following example:
 
 ```py
 person = {
@@ -168,7 +168,7 @@ print(person)
 }
 ```
 
-As shown in the example, you can use the reserved word `del` and then access the dictionary key `person["weight"]` to delete it. Another way in which you can remove a key-value from a dictionary is by using the `pop()` method, this method receives as parameter the name of the key, removes that key-value from the dictionary and returns the value it removed, which in the example is stored in the `age` variable.
+As shown in the example, you can use the reserved word `del` and then access the dictionary key `person["weight"]` to delete it. Another way in which you can remove a key-value from a dictionary is by using the `pop()` method, this method receives as a parameter the name of the key, removes that key-value from the dictionary, and returns the value it removed, which in the example is stored in the `age` variable.
 
 ## Iterating through a dictionary!
 
@@ -202,7 +202,7 @@ As we can see in this example, iterating a dictionary is very simple, you can do
 
 ## Dictionary methods!
 
-In the following video tutorial you will see some of the most important dictionary methods and also below the video you will see a table with some more methods.
+In the following video tutorial, you will see some of the most important dictionary methods, and below the video, you will see a table with some more methods.
 
 <iframe
     width="650"
@@ -230,4 +230,4 @@ These are some of the most relevant dictionary methods.
 
 ## Conclusion
 
-In conclusion, dictionaries are an excellent storage structure that allows you to store large amounts of data each with a key and a value, you can use any type of data as a key for a dictionary except for other dictionaries, lists or tuples. I hope you find this article useful to learn more about dictionaries and how to work with them. If you want to learn more about this programming language I invite you to read the following [Python tutorial](https://4geeks.com/es/lesson/como-programar-en-python) in the [4Geeks](https://4geeks.com) Blog.
+In conclusion, dictionaries are an excellent storage structure that allows you to store large amounts of data each with a key and a value, you can use any type of data as a key for a dictionary except for other dictionaries, lists or tuples. I hope you find this article useful to learn more about dictionaries and how to work with them. If you want to learn more about this programming language I invite you to read the following [Python tutorial](https://4geeks.com/es/lesson/how-to-code-in-python) in the [4Geeks](https://4geeks.com) Blog.
