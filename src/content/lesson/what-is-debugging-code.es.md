@@ -136,8 +136,8 @@ El último paso, obviamente, es arreglar el error; puede llevar un tiempo y pued
 
 He preparado hojas de trucos muy sencillas para depurar los errores más comunes que encontrarás al codificar aplicaciones web y APIs como desarrollador junior.
 
-- [Depuración de errores de código HTML](https://4geeks.com/en/lesson/debugging-html-code).
-- [Depuración de errores de código CSS](https://4geeks.com/en/lesson/debugging-css-code).
+- [Depuración de errores de código HTML](https://4geeks.com/es/lesson/depurando-codigo-html).
+- [Depuración de errores de código CSS](https://4geeks.com/es/lesson/depurando-codigo-css).
 - Depuración de errores de Front End de Javascript.
 - Depuración de errores de Front End de React.js.
 - Depuración de errores de backend de scripts de Python.
