@@ -38,7 +38,7 @@ print(df_merged)
 
 En este ejemplo, se crean dos DataFrame, el DataFrame `df_employees` que incluye información de los empleados y el DataFrame `df_projects` que contiene información de los proyectos. Se utiliza el método `merge()` para combinar ambos Dataframes en base a la columna en común `Employee_id`, esto genera un nuevo DataFrame llamado `df_merged` que contendrá información de ambos DataFrames, finalmente se imprime por la terminal, donde se puede observar una tabla donde cada fila representa un proyecto y contiene los detalles del empleado asignado a ese proyecto.
 
-Si tienes dudas sobre como crear un DataFrame, puedes visitar [¿Cómo crear un DataFrame?](https://4geeks.com/es/how-to/crear-dataframe)
+Si te interesa aprender más sobre pandas con ejercicios interactivos, te recomendamos nuestro [tutorial de pandas para machine learning](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning)
 
 ## Método merge() en Pandas
 
