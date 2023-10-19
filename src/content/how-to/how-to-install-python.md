@@ -106,7 +106,7 @@ The MacOS operating system usually already has a version of Python installed by 
 
 3. Finally, verify that you downloaded the latest version of Python available for Mac, to verify the version of Python use the command:
 
-````bash
+```bash
 python3 --version
 ```
 
@@ -127,7 +127,7 @@ Some Linux distributions like **Ubuntu** and **Fedora** may have a version of Py
 
 1. To install Python on Linux, open a terminal with the keyboard combination `Ctrl` + `Alt` + `T` and run the following command to check if you have a previously installed version of Python:
 
-````bash
+```bash
 python3 --version
 ```
 
@@ -151,8 +151,8 @@ sudo pacman -Sy python
 
 3. Finally check which version of Python you just installed with the command: 
 
-````bash
+```bash
 python3 --version
 ```
 
-Congratulations! You have Python installed on your operating system, now you can start running your first lines of Python code. I hope you find the examples and video tutorials in this article useful, have fun creating the applications of the future with the help of Python. If you want to learn more about this programming language I invite you to read the following [Python tutorial](https://4geeks.com/es/lesson/como-programar-en-python) on the [4Geeks](https://4geeks.com).
+Congratulations! You have Python installed on your operating system, now you can start running your first lines of Python code. I hope you find the examples and video tutorials in this article useful, have fun creating the applications of the future with the help of Python. If you want to learn more about this programming language I invite you to read the following [Python tutorial](https://4geeks.com/es/lesson/how-to-code-in-python) on the [4Geeks](https://4geeks.com).
