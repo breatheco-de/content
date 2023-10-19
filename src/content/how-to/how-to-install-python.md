@@ -1,5 +1,5 @@
 ---
-title: "How to install Python? Step-by-step guide to get started with the programming language"
+title: "How to install Python? A step-by-step guide to get started with the programming language"
 subtitle: "Learn how to install Python on your computer easily. Discover the necessary steps to start programming with this popular programming language.."
 tags: ["python"]
 authors: ["DF27ARTS"]
@@ -10,11 +10,11 @@ authors: ["DF27ARTS"]
 
 Python is one of the most used programming languages in the world, this language allows you to create back-end applications with frameworks such as [django](https://docs.djangoproject.com/en/4.2/) or [FastAPI](https://fastapi.tiangolo.com/), create Machine learning algorithms with [Tensorflow](https://www.tensorflow.org/?hl=es-419) or even create user interfaces on the front-end with technologies such as [ReactPy](https://reactpy.dev/docs/index.html).
 
-This language is undoubtedly one of the most used in the programming world because it is quite versatile and easy to learn. In this article we will see how to install or update this language in different operating systems such as Windows, MacOS and Linux.
+This language is undoubtedly one of the most used in the programming world because it is quite versatile and easy to learn. In this article, we will see how to install or update this language in different operating systems such as Windows, MacOS, and Linux.
 
 ## How to install Python on Windows?
 
-There are two ways to install [Python](https://4geeks.com/es/lesson/como-programar-en-python) on your Windows computer, the first is to install the **Ubuntu** operating system and then with the help of this install Python, the second way is to install Python in the traditional way from the official Python page.
+There are two ways to install [Python](https://4geeks.com/es/lesson/how-to-code-in-python) on your Windows computer, the first is to install the **Ubuntu** operating system and then with the help of this install Python, the second way is to install Python in the traditional way from the official Python page.
 
 ### 1. Install Python with Ubuntu
 
