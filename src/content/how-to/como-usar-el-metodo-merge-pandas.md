@@ -8,7 +8,7 @@ authors: [danielmoret]
 
 # Pandas Merge
 
-El método `merge()` de Pandas se utiliza para combinar dos o más DataFrames en función de una o más columnas. Veamos como utilizar el método `merge()` a través del siguiente ejemplo:
+El método `merge()` de Pandas se utiliza para combinar dos o más [DataFrames](https://4geeks.com/es/lesson/pandas-dataframe) en función de una o más columnas. Veamos como utilizar el método `merge()` a través del siguiente ejemplo:
 
 ```python
 import pandas as pd
@@ -281,3 +281,5 @@ En este ejemplo, haciendo uso del método merge(), combinamos los Dataframes `df
 De esta forma también podríamos utilizar el parámetro `how="right"`, para conservar todos los registros del DataFrame derecho y agregar las columnas del DataFrame izquierdo.
 
 La capacidad de combinar DataFrames que nos brinda el método `merge()` es muy útil, es una herramienta poderosa en el análisis de datos, permitiéndoles por ejemplo a los científicos de datos, realizar análisis más profundos y complejos, obteniendo información simplificada y valiosa para tomar mejores decisiones.
+
+Esperamos que hayas disfrutado de este artículo y que encuentres la información útil para mejorar el análisis de datos con Pandas. Te invitamos a explorar otros recursos en nuestro blog para ampliar tus conocimientos y habilidades con [Pandas](https://4geeks.com/es/lesson/pandas-en-python) y la ciencia de datos. Si deseas llevar tu aprendizaje al siguiente nivel, te animamos a [registrarte de forma totalmente gratuita](https://4geeks.com/es/pricing) en 4Geeks.com.
