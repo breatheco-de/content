@@ -48,7 +48,7 @@ for (let i = 0; i < years.length; i++) {
 ```
 Este código imprime en la consola todos los valores guardados adentro de `years`.
 
-## Funciones para recorrer Arrays en JavaScript
+## Funciones para recorrer un array en JavaScript
 
 Javascript provee muchas herramientas para recorrer arrays, optimizando acciones sobre los mismos, a continuación, se mencionan los mas comunes y versátiles.
 
@@ -193,7 +193,7 @@ marcas.forEach(function(marca) {
 //"meta"
 ```
 
-## Ejemplos de cómo recorrer arrays en JavaScript
+## Ejemplos de cómo recorrer un array en JavaScript
 
 ### Modificar precios debido a inflación
 Se tiene un sitio que muestra el menú de un restaurante junto con sus precios. Todos los precios se guardan en un array llamado `precios`, se necesita incrementar los precios de todos los productos por un 10% debido a inflación. Para este ejemplo la herramienta ideal es map, ya que permite realizar modificaciones sobre todos los elementos del arreglo, ahorrando el trabajo de hacerlo manual.
