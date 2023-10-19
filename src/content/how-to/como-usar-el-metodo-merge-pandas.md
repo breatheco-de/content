@@ -1,3 +1,11 @@
+---
+title: "Dominando el Método merge en Pandas: Combinando Datos con Eficacia"
+subtitle: "Aprende a utilizar el método `merge()` de Pandas para combinar dos o más DataFrames en función de una o más columnas. Explora ejemplos y técnicas para aprovechar al máximo este método en Python."
+tags: ["Python", "Pandas"]
+authors: [danielmoret]
+
+---
+
 # Pandas Merge
 
 El método `merge()` de Pandas se utiliza para combinar dos o más DataFrames en función de una o más columnas. Veamos como utilizar el método `merge()` a través del siguiente ejemplo:
