@@ -19,7 +19,7 @@ Here is an example of RESTful API endpoints to manage **Students**:
 | ------ | --- | ----------- |
 | GET    | /student | Should return all the students |
 | GET    | /student/1 | Should return a single student with the id=1 |
-| GET    | /cohort/1/students | Should return all the students from the cohort with id=1 |
+| GET    | /cohort/1/students | Should return all of the students from the cohort with id=1 |
 | POST   | /student | Should create a new student |
 | PUT    | /student/1 | Should update the information of the student with the id=1 |
 | DELETE | /student/1 | Should delete the student with id=1 |
