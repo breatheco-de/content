@@ -9,11 +9,11 @@ status: "published"
 
 ---
 
-Throughout this course, you will see here and there the word "LearnPack"; you will use LearnPack A LOT to practice coding tutorials and small exercises. This article is an attempt to explain what it is and how to use it so you can run all the tutorials smoothly.
+Throughout this course, you will see here and there the word "LearnPack"; you will use LearnPack A LOT to practice coding tutorials and small exercises. This article is an attempt to explain what it is and how to use it, so you can run all the tutorials smoothly.
 
 ## What is LearnPack?
 
-LearnPack is a package manager for interactive tutorials and exercises. It's like Coursera.com but only for coding.
+LearnPack is a package manager for interactive tutorials and exercises. It's like Coursera.com, but only for coding.
 
 ### What makes LearnPack so unique?
 
