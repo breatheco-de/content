@@ -97,7 +97,7 @@ To find those errors, the best tool is the syntax highlighter. It will show weir
 
 This is funny because everyone makes this mistake, I did it, you did it or will do it, and everyone else did it or will do it.
 
-When linking your HTML to a separate CSS file or JavaScript file, you will type the wrong URL, and your stylesheet won't load.
+When linking your HTML to a separate CSS file or JavaScript file, you might type the wrong URL, and your stylesheet won't load.
 
 How do you know your link tag is wrong? The Dev Tools Inspector console will show a 404 error like this (look at the image below):
 
