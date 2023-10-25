@@ -34,9 +34,9 @@ Fecha
 2023-01-02    120      200
 ```
 
-El método `pivot()` recibe tres parámetros, el parámetro **index**, el parámetro **columns** y el parámetro **values** los tres parámetros son necesarios para poder utilizar este método. Cómo puedes ver en el ejemplo, el nuevo **DataFrame** tiene cómo índices los valores de la columna `Fecha` además utilizó los valores de la columna `Producto` cómo nombre para las columnas en el nuevo **DataFrame** y los valores de la columna `Venta` como los valores para las columnas. En el **DataFrame** pivotado podemos ver cuántas ventas ha tenido cada producto en cada fecha.
+El método `pivot()` recibe tres parámetros, el parámetro **index**, el parámetro **columns** y el parámetro **values** los tres parámetros son necesarios para poder utilizar este método. Como puedes ver en el ejemplo, el nuevo **DataFrame** tiene como índices los valores de la columna `Fecha` además utilizó los valores de la columna `Producto` como nombre para las columnas en el nuevo **DataFrame** y los valores de la columna `Venta` como los valores para las columnas. En el **DataFrame** pivotado podemos ver cuántas ventas ha tenido cada producto en cada fecha.
 
-## Qué es y cómo funciona el método pivot()
+## Qué es y como funciona el método pivot()
 
 El método `pivot()` es un método de la librería de Pandas que nos permite transformar los datos de un **DataFrame** al reorganizar sus datos en función de las columnas existentes. Permite reconfigurar los datos de manera que los valores en una columna se conviertan en nuevas columnas y se crucen con los valores de otra columna. Esto es especialmente útil para crear tablas dinámicas y resúmenes de datos.
 
@@ -50,9 +50,9 @@ El método `pivot()` recibe tres parámetros, los cuales veremos en más detalle
 data_frame.pivot(index, columns, values)
 ```
 
-- `index`: Este parámetro recibe cómo valor una columna o lista de columnas que se usan como índices en el nuevo **DataFrame**. Puede ser una cadena o una lista de cadenas. Si se omite, se usa el índice de **DataFrame** original.
-- `columns`: (required) Este parámetro recibe cómo valor la columna o lista de columnas que se usan cómo los nombre para las columnas en el nuevo **DataFrame**.
-- `values`: Este parámetro recibe cómo valor la columna o lista de columnas que se usan como los valores para el nuevo **DataFrame**. Si no se especifica, se utilizarán todas las columnas restantes y el resultado tendrá columnas indexadas jerárquicamente.
+- `index`: Este parámetro recibe como valor una columna o lista de columnas que se usan como índices en el nuevo **DataFrame**. Puede ser una cadena o una lista de cadenas. Si se omite, se usa el índice de **DataFrame** original.
+- `columns`: (required) Este parámetro recibe como valor la columna o lista de columnas que se usan como los nombre para las columnas en el nuevo **DataFrame**.
+- `values`: Este parámetro recibe como valor la columna o lista de columnas que se usan como los valores para el nuevo **DataFrame**. Si no se especifica, se utilizarán todas las columnas restantes y el resultado tendrá columnas indexadas jerárquicamente.
 
 ## Ejemplos de uso del método pivot()
 
@@ -73,7 +73,7 @@ El método `pivot()` tiene múltiples ejemplos de uso, a continuación veremos a
 
 ### Utilizar una sola columna para crear el dataframe
 
-En este ejemplo, vamos a pasarle una sola columna cómo valor al parámetro `index` y al parámetro `columns`.
+En este ejemplo, vamos a pasarle una sola columna como valor al parámetro `index` y al parámetro `columns`.
 
 ```py
 import pandas as pd
@@ -104,7 +104,7 @@ año
 2024         N/A   650.0     N/A
 ```
 
-En este ejemplo, hacemos uso del método `pivot()` para transformar un **DataFrame** de productos, para este ejemplo vamos a utilizar los valores de la columna **año** cómo índice, los valores de la columna **producto** para representar las columnas y los valor de la columna **ventas** para llenar los valores en el nuevo **DataFrame**, además hacemos uso del método `fillna()` para reemplazar todos los valores `NaN` con el texto **N/A**(No aplica). En este ejemplo transformamos el **DataFrame** para ver cuántas ventas ha tenido cada producto en cada año.
+En este ejemplo, hacemos uso del método `pivot()` para transformar un **DataFrame** de productos, para este ejemplo vamos a utilizar los valores de la columna **año** como índice, los valores de la columna **producto** para representar las columnas y los valor de la columna **ventas** para llenar los valores en el nuevo **DataFrame**, además hacemos uso del método `fillna()` para reemplazar todos los valores `NaN` con el texto **N/A**(No aplica). En este ejemplo transformamos el **DataFrame** para ver cuántas ventas ha tenido cada producto en cada año.
 
 ### Utilizar una lista de columnas para crear el dataframe
 
@@ -140,12 +140,12 @@ año
 2024          N/A    N/A     N/A      N/A    N/A     N/A      N/A    N/A   650.0
 ```
 
-En este ejemplo, hacemos uso del método `pivot()` y le pasamos una lista cómo valor al parámetro **columns**, esta lista contiene dos columnas (**producto** y **pais**) lo que significa que el método `pivot()` utilizará la columna **producto** y creará una columna con cada uno de sus valores, luego creará una subcolumna con los valores de la columna **pais** y agrega esta subcolumna a cada una de las columnas de **Producto**, por último hacemos uso del método `fillna()` para reemplazar todos los valores `NaN` por el texto **N/A**(No aplica). Este ejemplo puede ser un poco más confuso pero utilizar una lista de columnas cómo valores para los parámetros puede ser muy útil en algunas ocasiones.
+En este ejemplo, hacemos uso del método `pivot()` y le pasamos una lista como valor al parámetro **columns**, esta lista contiene dos columnas (**producto** y **pais**) lo que significa que el método `pivot()` utilizará la columna **producto** y creará una columna con cada uno de sus valores, luego creará una subcolumna con los valores de la columna **pais** y agrega esta subcolumna a cada una de las columnas de **Producto**, por último hacemos uso del método `fillna()` para reemplazar todos los valores `NaN` por el texto **N/A**(No aplica). Este ejemplo puede ser un poco más confuso pero utilizar una lista de columnas como valores para los parámetros puede ser muy útil en algunas ocasiones.
 
 ## Conclusión
 
 El método `pivot()` se utiliza para reorganizar los valores de un **DataFrame**, en este artículo vimos cómo funciona este método, cuáles son los parámetros que recibe y algunos ejemplos sobre cómo utilizarlo. Este método puede ser un poco confuso pero también puede ser muy útil en algunas ocasiones. Te invito a que sigas practicando con este método y que lo implementes en operaciones más complejas ya que esto te servirá para entender mejor cómo funciona, puedes buscar un dataset de información más grande y empezar a jugar con las diferentes variaciones que puedes hacer con este método.
 
-Espero que este atículo te aya sido de utiliadad y te aya servido para entender mejor como utilizar el método `pivot()` de Pandas, si te interesa aprender más sobre Pandas puedes visitar la pagina [pandas para machine learning](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning) de la academia 4Geeks donde parenerás los conceptos  basicos sobre esta popular librería de Python.
+Espero que este atículo te aya sido de utiliadad y te haya servido para entender mejor como utilizar el método `pivot()` de Pandas, si te interesa aprender más sobre Pandas puedes visitar la pagina [pandas para machine learning](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning) de 4Geeks donde aprenderás los conceptos básicos sobre esta popular librería de Python.
 
 ¡Diviértete en tu ruta de aprendizaje! 😉👋
