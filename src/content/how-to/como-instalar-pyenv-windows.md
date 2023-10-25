@@ -1,4 +1,4 @@
-## ¿Cómo Instalar Pyenv Windows?
+## ¿Cómo Instalar Pyenv en Windows?
 
 Pyenv es una herramienta que nos permite administrar distintas versiones de Python en nuestro ordenador, permitiendo intercambiar entres distintas versiones de manera sencilla dependiendo de los requerimientos del entorno en el que estamos desarrollando. Esto puede ser muy útil por varias razones por ejemplo comprobar que nuestra aplicación es compatible con diferentes versiones de Python. En este artículo veremos cómo instalar **Pyenv** en nuestro ordenador **Windows** haciendo uso de **Git** y también con el subsistema de linux para windows y el entorno de desarrollo **Ubuntu**.
 
@@ -199,6 +199,6 @@ Si te interesa conocer más acerca de pyenv para windows te recomiendo que visit
 
 ## Conclusión
 
-Pyenv es una erramienta muy útil para controlar las versiones de Python con las que deseas trabajar en tu ordenador, su instalación en el sistema operativo de windows se puede realizar de varias formas, en este artículo aprendimos cómo instalarlo de dos maneras diferentes la primera clonando el repositorio de pyenv-win con **Git** y la segunda instalandolo con el subsistema de linux **Ubuntu**. Aunque la instalación de pyenv puede requerir de varios pasos y parecer un poco compleja, si sigues los pasos especificados en este artículo podrás hacerlo sin ningún problema.
+Pyenv es una herramienta muy útil para controlar las versiones de Python con las que deseas trabajar en tu ordenador, su instalación en el sistema operativo de windows se puede realizar de varias formas, en este artículo aprendimos cómo instalarlo de dos maneras diferentes la primera clonando el repositorio de pyenv-win con **Git** y la segunda instalándolo con el subsistema de linux **Ubuntu**. Aunque la instalación de pyenv puede requerir de varios pasos y parecer un poco compleja, si sigues los pasos especificados en este artículo podrás hacerlo sin ningún problema.
 
 Espero que este artículo te haya sido de utilidad. ¡Happy coding! 😀👋
