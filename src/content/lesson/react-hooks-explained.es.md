@@ -247,7 +247,7 @@ const MyComponent = () => {
 }
 ```
 
-## Construyendo una lista Todo usando solo los hooks `useState` y `useEffect`
+## Construyendo una lista de tareas usando solo los hooks `useState` y `useEffect`
 
 <p align="center">
     <img src="https://github.com/breatheco-de/content/blob/master/src/assets/images/41f4a2be-380f-47af-acab-d479acf80921todolisthooks.gif?raw=true">
