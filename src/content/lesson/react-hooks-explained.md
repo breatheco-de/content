@@ -60,7 +60,7 @@ Basically, `superVariable` will be initialized with `null`, and then you will be
 ### Possible uses for the `useState` hook
 
  1. Counting: Displaying the number of likes on the screen and being able to increase or decrease when the user clicks.
- ![React Counter with Hooks](https://s10.gifyu.com/images/countergif.gif?raw=true) 
+ ![React Counter with Hooks](https://storage.googleapis.com/breathecode-asset-images/c6aeba3cbad60920198dcadb9ef45fcabf23f0ec9ed6756b1f1bb605f991b86e.gif) 
  [![Edit Simple counter using useState and react hooks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/simple-counter-using-usestate-and-react-hooks-soxu8?fontsize=14&hidenavigation=1&theme=dark)
 
 ```jsx
@@ -117,7 +117,7 @@ export default Clock;
 3. Showing an input on the screen: The best practice to get the content from any input is by storing it on a state variable, this is called "Controlled Input". 
 
 ![Controlled input field](https://s10.gifyu.com/images/ezgif.com-gif-maker-399b80fa21c077ab6.gif?raw=true)
-[![Edit controlledinput](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/controlledinput-rbh0m?fontsize=14&hidenavigation=1&theme=dark)
+[![Edit controlled input](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/controlledinput-rbh0m?fontsize=14&hidenavigation=1&theme=dark)
     
 ```jsx
 import React, { useEffect, useState } from "react";
@@ -149,7 +149,7 @@ export default ControlledInputForm;
 4. Opening/Closing (show/hide): A typical use case is having a dialog that asks a question or allows a user to sign up for a newsletter.
 
 ![Modal Window using react hooks](https://s10.gifyu.com/images/ezgif.com-gif-maker-51e6b7321e3cfd394.gif?raw=true)
-[![Edit Modal window component with hooks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/modal-window-component-with-hooks-vb6de?fontsize=14&hidenavigation=1&theme=dark). 
+[![Edit Modal window component with hooks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/modal-window-component-with-hooks-vb6de?fontsize=14&hidenavigation=1&theme=dark) 
 
 ```jsx
 import React, { useState } from "react";
@@ -243,7 +243,7 @@ const MyComponent = () => {
         return () => {
             // This will run only right before the component unmounts
         }
-    ,[]);// <------ PLEASE NOTICE THE EMPTY ARRAY
+    ,[]); // <------ PLEASE NOTICE THE EMPTY ARRAY
 
     return <Some HTML>;
 }
