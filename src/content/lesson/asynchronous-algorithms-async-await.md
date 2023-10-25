@@ -270,7 +270,7 @@ function returnedPromiseHere() {
 }
 async function useAsyncFunction() {
   console.log("I am a fast task");
-  var result = await returnedPromiseHere();
+  let result = await returnedPromiseHere();
   console.log(result);
   console.log("I had to wait for await to finish");
 }
