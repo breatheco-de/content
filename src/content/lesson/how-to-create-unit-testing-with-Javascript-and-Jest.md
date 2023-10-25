@@ -42,7 +42,7 @@ test('12 and 5 should return 17', () => {
 
 Note: Unit tests don't care about the content of the `sum` function, it only cares about the OUTPUT of the function with a given INPUT.
 
-![unit testing examples](https://github.com/breatheco-de/content/blob/master/src/assets/images/unit-test1.png?raw=true)
+![unit testing examples](https://github.com/breatheco-de/content/blob/47022c1089147219f9b5bb6c578969e18aebcbb0/src/assets/images/unit-test1-example.png?raw=true)
 
 ## Arrow function
 

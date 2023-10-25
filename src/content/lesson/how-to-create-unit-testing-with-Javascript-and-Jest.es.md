@@ -42,7 +42,7 @@ test('12 and 5 should return 17', () => {
 
 Nota: Las pruebas unitarias no se preocupan por el contenido de la función `sum`, solo se preocupan por la SALIDA de la función con una ENTRADA determinada.
 
-![ejemplo de pruebas unitarias](https://github.com/breatheco-de/content/blob/master/src/assets/images/unit-test1.png?raw=true)
+![ejemplo de pruebas unitarias](https://github.com/breatheco-de/content/blob/47022c1089147219f9b5bb6c578969e18aebcbb0/src/assets/images/unit-test1-example.png?raw=true)
 
 ## Función Flecha
 
