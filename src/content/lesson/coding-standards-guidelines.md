@@ -5,7 +5,7 @@ tags: ["4geeks method", "coding standards"]
 
 ---
 
->  🤯 "I'm not a great programmer; I'm just a good programmer with great habits." - Kent Beck
+<quote>I'm not a great programmer; I'm just a good programmer with great habits. - Kent Beck</quote>
 
 Studies have shown that developers who use best practices when coding are up to 40% more productive than those who do not, and that code with good practices is up to 50% cheaper to maintain than code with poor practices. 
 
