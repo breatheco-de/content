@@ -75,17 +75,17 @@ print(object_two)
 ```bash
 {
     'key_one': 'object one value one',
-    'key_two': 'object one value two', 'key_two': 'object one value two'.
+    'key_two': 'object one value two'
 }
 {
     'key_one': 'object two value one',
-    'key_two': 'object two value two' }
+    'key_two': 'object two value two'
 }
 ```
 
 As you can see, creating a dictionary in Python is very simple, first you create a variable and assign it a pair of keys `{}`, then inside the keys we create a key and to this key we assign a value, for example: `{ "academy": "4Geeks" }`.
 
-> Although it is possible to declare a dictionary with the `dict()` constructor, I recommend that you use the `{}` braces as it is considered good practice and makes the code easier to read.uyhbbk
+> Although it is possible to declare a dictionary with the `dict()` constructor, I recommend that you use the `{}` braces as it is considered good practice and makes the code easier to read.
 
 ## Accessing the data!
 
@@ -230,4 +230,4 @@ These are some of the most relevant dictionary methods.
 
 ## Conclusion
 
-In conclusion, dictionaries are an excellent storage structure that allows you to store large amounts of data each with a key and a value, you can use any type of data as a key for a dictionary except for other dictionaries, lists or tuples. I hope you find this article useful to learn more about dictionaries and how to work with them. If you want to learn more about this programming language I invite you to read the following [Python tutorial](https://4geeks.com/es/lesson/how-to-code-in-python) in the [4Geeks](https://4geeks.com) Blog.
+In conclusion, dictionaries are an excellent storage structure that allows you to store large amounts of data each with a key and a value, you can use any type of data as a key for a dictionary except for other dictionaries, lists or tuples. I hope you find this article useful to learn more about dictionaries and how to work with them. If you want to learn more about this programming language I invite you to read the following [Python tutorial](https://4geeks.com/lesson/how-to-code-in-python) in the [4Geeks](https://4geeks.com) Blog.
