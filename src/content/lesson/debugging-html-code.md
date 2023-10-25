@@ -9,20 +9,20 @@ tags: ["debugging", "web development", "html/css"]
 
 HTML Code is difficult to debug initially, but it's easy to grasp if you follow this recipe. You only need to know 2-3 things before starting to code or debug in HTML that will make you a master. Yes, it's that easy, so don't worry and keep reading.
 
-If you are interested in debugging other languages or technologies, here is our full guide about [What is debugging](https://4geeks.com/lesson/what-is-debugging-code) and how to become a master of debugging when coding front-end and back-end web development.
+If you are interested in debugging other languages or technologies, here is our full guide about [what is debugging](https://4geeks.com/lesson/what-is-debugging-code) and how to become a master of debugging when coding front-end and back-end web development.
 
 ## Preventing errors
 
 This guide is about fixing a bug, but it's worth mentioning how to prevent the majority of the bugs in the first place:
-**ABC = Always Be Closing** the tags as a priority. If you open a tag `<p>`, close it immediately! Like this: `<p></p>`, and then proceed to fill the inner HTML content.
-**Use a code formatter** that indents your code automatically. Most of the bugs at first come because your code is messy and challenging to follow with your eyes. You end up opening/closing tags in the wrong place.
++ **ABC = Always Be Closing** the tags as a priority. If you open a tag `<p>`, close it immediately! Like this: `<p></p>`, and then proceed to fill the inner HTML content.
++ **Use a code formatter** that indents your code automatically. Most of the bugs at first come because your code is messy and challenging to follow with your eyes. You end up opening/closing tags in the wrong place.
 
 ## Three Debugging tools for HTML
 
 The most effective debugging tools for HTML are: 
-+ Your page HTML source code as the browser sees it.
-+ The developer tools inspector.
-+ Your coding editor (VSCode, JetBrains, etc.).
+1. Your page HTML source code as the browser sees it.
+2. The developer tools inspector.
+3. Your coding editor (VSCode, JetBrains, etc.).
 
 Let's go over each of them in detail.
 
@@ -30,9 +30,9 @@ Let's go over each of them in detail.
 
 You may assume that the code you wrote is the one being displayed by the website. NOPE! There are multiple reasons why your original code may not match the source code being used on the website.
 
-1. Browser Cache (the most common cause): Your browser sometimes keeps an old version on purpose.
-2. Server-side dynamic rendering: Using a server-side language to manipulate the source code before it arrives in the browser.
-3. Server configuration: The server may be removing or adding some extra lines of code.
++ Browser Cache (the most common cause): Your browser sometimes keeps an old version on purpose.
++ Server-side dynamic rendering: Using a server-side language to manipulate the source code before it arrives in the browser.
++ Server configuration: The server may be removing or adding some extra lines of code.
 
 #### What is the Browser Cache
 
@@ -55,18 +55,19 @@ Every major browser has Developer Tools. The first tab in the developer tools is
 
 ![html code inspector](https://github.com/breatheco-de/content/blob/master/src/assets/images/Fca0Hkm.gif?raw=true)
 
-The Dev Tools Inspector shows a `live version` of your code instead of your original source code. This "live version" is called "The DOM". It's what the browser was able to interpret from your code. These are some cases that make the inspector great:
+The Dev Tools Inspector shows a **live version** of your code instead of your original source code. This "live version" is called "The DOM". It's what the browser was able to interpret from your code. These are some cases that make the inspector great:
 
 + **If your website is not looking how you intended**: Use your mouse right-click menu and look for the "inspect" option. It will show the HTML elements that the browser created around that area.
 + **If you have written incorrect HTML code**: The browser will attempt to fix it to make it display correctly, but this may only sometimes result in the desired layout. When you use the developer tools inspector, you will see the HTML code that the browser interprets, which may be different from the original source code if the browser has made any corrections.
 
 <details>
-<summary>Note: There are other -more advanced- examples where the Inspector HTML won't match your source code; you can open these details to read more about them</summary>
+<summary>Note: There are other -more advanced- examples where the Inspector HTML won't match your source code; you can open these details to read more about them.</summary>
   
-Minification: Sometimes, websites compress and optimize the code for faster loading times. The HTML inspector will show the minified code, which may be difficult to read.
-Browser extensions: Ad blockers or script blockers modify the code shown in the HTML inspector.
-Server-side rendering: the HTML inspector will show the code rendered on the server rather than the source code.
++ Minification: Sometimes, websites compress and optimize the code for faster loading times. The HTML inspector will show the minified code, which may be difficult to read.
 
++ Browser extensions: Ad blockers or script blockers modify the code shown in the HTML inspector.
+
++ Server-side rendering: the HTML inspector will show the code rendered on the server rather than the source code.
 </details>
 
 ### 3) Debugging HTML inside your Coding Editor (IDE)
