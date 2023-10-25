@@ -8,7 +8,7 @@ authors: ["DF27ARTS"]
 
 ## How to read a file in Python?
 
-Python offers a wide variety of structures that allow you to save information such as **Dictionaries** or **Lists**, however, if the application is closed, that information is lost. To prevent this from happening, we can make use of files to save the information so that we can access it again. Next we will see a short example of how to read the information from a `txt` file.
+Python offers a wide variety of structures that allow you to save information such as **Dictionaries** or **Lists**, however, if the application is closed, that information is lost. To prevent this from happening, we can make use of files to save the information so that we can access it again. Next, we will see a short example of how to read the information from a `txt` file.
 
 #### test.txt
 
@@ -45,7 +45,7 @@ In this example, we want to read the information stored in file `test.txt`, to d
 
 ## How to read the contents of a file?
 
-As said before, to read the content of a file we need the [Python](https://4geeks.com/lesson/como-programar-en-python) `open()` method, this method receives two parameters, the first one is the name of the file we want to open, and the second one is the way we want to open the file. The second parameter can receive different values; in the following table you can see the most relevant ones with a small description of each:
+As said before, to read the content of a file we need the [Python](https://4geeks.com/lesson/how-to-code-in-python) `open()` method, this method receives two parameters, the first one is the name of the file we want to open, and the second one is the way we want to open the file. The second parameter can receive different values; in the following table you can see the most relevant ones with a small description of each:
 
 
 | Value | Description                                                                                                                                                     |
@@ -62,7 +62,7 @@ As said before, to read the content of a file we need the [Python](https://4geek
 
 The following is an example of how to read a `txt` file and some of the most commonly used methods.
 
-> Note, in these examples we will use the syntax `with open(file_name, read_mode) variable_name` since this syntax takes care of closing the file automatically once we have finished working with it.
+> Note, in these examples, we will use the syntax `with open(file_name, read_mode) variable_name` since this syntax takes care of closing the file automatically once we have finished working with it.
 
 #### test.txt
 
@@ -128,7 +128,7 @@ Assuming the following text file, `test.txt`
 Earth, our blue planet, is a haven of life in the vast cosmos. Oceans and continents intertwine in a dance of biodiversity. Mountains rise while valleys spread out, creating diverse landscapes.
 ```
 
-We will see two of the most relevant examples of how you can modify this file. For the first example we will use the `open()` method and we will pass as a second parameter the value of `"w"` (write) which allows you to modify the original file but removes the previous values. For the second example we will use the value of `"a"` (append) which allows you to modify the file without the need to delete its previous content.
+We will see two of the most relevant examples of how you can modify this file. For the first example, we will use the `open()` method and we will pass as a second parameter the value of `"w"` (write) which allows you to modify the original file but removes the previous values. For the second example, we will use the value of `"a"` (append) which allows you to modify the file without the need to delete its previous content.
 
 ### Example with the value of "w" (write)
 
@@ -144,7 +144,7 @@ With the execution of the above code, the file `test.txt` would look like this:
 This is a new line of text added to the test.txt file
 ```
 
-To modify the contents of a file we can use the method `write()` of Python, this method receives as parameter the text with which you want to modify the file, in this example we make use of `open()` method and pass as a second parameter the value of `"w"`, this value allows you to modify the content of a file, but before adding the new content, it removes the one that the file previously had.
+To modify the contents of a file we can use the method `write()` of Python, this method receives as parameter the text with which you want to modify the file, in this example, we make use of `open()` method and pass as a second parameter the value of `"w"`, this value allows you to modify the content of a file, but before adding the new content, it removes the one that the file previously had.
 
 ### Example with the value of "a" (append)
 
@@ -170,7 +170,7 @@ In this example, we again make use of the Python `open()` method but this time w
 
 ### Add a list of dictionaries to a txt file
 
-To be able to enter a list of dictionaries in a `txt` file first we need to convert it to a `json` (JavaScript Object Notation) datatype. For this we will use the `json` module (Check out this article to remember how to use the [modules in Python](https://4geeks.com/lesson/modulos-python)).
+To be able to enter a list of dictionaries in a `txt` file first we need to convert it to a `json` (JavaScript Object Notation) datatype. For this we will use the `json` module (Check out this article to remember how to use the [modules in Python](https://4geeks.com/lesson/python-modules).
 
 ```py
 import json
