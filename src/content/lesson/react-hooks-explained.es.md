@@ -189,13 +189,13 @@ Expliquemos este hook con un pequeño ejemplo de ventana modal. Aquí está el c
 
 <iframe src="https://codesandbox.io/embed/goofy-sutherland-vb6de?fontsize=14" title="Modal with hooks" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-Para implementar una "ventana modal" decidimos crear una variable hooked (enganchada) llamada `opened` que es `true` (verdadero) si la ventana modal tiene que mostrarse al usuario.
+Para implementar una "ventana modal" decidimos crear una variable de estado (useState) llamada `opened` que es `true` si la ventana modal se muestra al usuario.
 
-Si el usuario hace clic en "close" (cerrar), simplemente usamos la función hook de enlace `setOpened` para cambiar el valor de `opened` a `false` (falso).
+Si el usuario hace clic en "close", simplemente usamos la función o *setter* del hook `setOpened` para cambiar el valor de `opened` a `false`.
 
 ## El hook `useEffect`:
 
-![useEffect hook for the component lifecycle](https://github.com/breatheco-de/content/blob/master/src/assets/images/945ae0a2-2495-4955-9e9a-46fdd3efc682componentlifecyclehooks.png?raw=true)
+![useEffect hook para el ciclo de vida de un componente](https://github.com/breatheco-de/content/blob/master/src/assets/images/945ae0a2-2495-4955-9e9a-46fdd3efc682componentlifecyclehooks.png?raw=true)
 
 useEffect es otro hook increíble que usarás si deseas ejecutar algún código después de que el componente se renderice, por ejemplo:
 
@@ -203,14 +203,13 @@ useEffect es otro hook increíble que usarás si deseas ejecutar algún código 
 
 ```jsx
 const MyComponent = () => {
-    useEffect(() =>
+    useEffect(() => {
 
-        // Lo que sea que codifiques aquí se ejecutará solo después de la primera vez que el componente se procesa
+        // Lo que sea que codifiques aquí se ejecutará solo después de la primera vez que el componente se renderize
 
- , []);// <------ TEN EN CUENTA EL ARRAY VACÍO
+ }, []); // <------ TEN EN CUENTA EL ARRAY VACÍO
 
-
-    return <Some HTML>;
+    return <div>Some HTML</div>;
 }
 ```
 
@@ -220,14 +219,14 @@ const MyComponent = () => {
 
 ```jsx
 const MyComponent = () => {
-    useEffect(() =>
+    useEffect(() => {
         // Esto se ejecutará cada vez que el componente se vuelva a renderizar
         if(some_condition){
             // Esto se ejecutará solo si some_condition es true
         }
-    );// <------ ¡TEN EN CUENTA QUE EL ARRAY VACÍO SE HA IDO!
+    }); // <------ ¡TEN EN CUENTA QUE EL ARRAY VACÍO SE HA IDO!
 
-    return <Some HTML>;
+    return <div>Some HTML</div>;
 }
 ```
 
@@ -237,14 +236,14 @@ const MyComponent = () => {
 
 ```jsx
 const MyComponent = () => {
-    useEffect(() =>
-        // Esto se ejecutará solo la primera vez que el componente se procesa
+    useEffect(() => {
+        // Esto se ejecutará solo la primera vez que el componente se renderiza
         return () => {
             // Esto se ejecutará justo antes de que el componente se desmonte
         }
-    ,[]); // <------ TEN EN CUENTA EL ARRAY VACÍO
+    }, []); // <------ TEN EN CUENTA EL ARRAY VACÍO
 
-    return <Some HTML>;
+    return <div>Some HTML</div>;
 }
 ```
 
@@ -258,7 +257,7 @@ Por ejemplo, supongamos que estoy creando una lista de tareas (Todo list) y teng
 
 ```jsx
 const Todos = (props) => {
-    // Inicializa la variable de tareas en un array vacío y conéctalo a la función setTasks
+    // Inicializa la variable "tasks" como un array vacío y conéctalo a la función setTasks
     const [ tasks, setTasks ] = useState([]);
 
     // Esta función useEffect se ejecutará solo una vez, cuando el componente finalmente se cargue por primera vez
@@ -266,10 +265,10 @@ const Todos = (props) => {
         // Aquí busco mis todos de la API
         fetch('https://assets.breatheco.de/apis/fake/todos/user/alesanchezr')
             .then(r => r.json())
-            .then(data => setTasks(data)) // Aquí restablece las tareas variables con los datos entrantes
+            .then(data => setTasks(data)) // Aquí se actualiza la variable "tasks" con los datos entrantes
     , []);
 
-    return <ul>{tasks.map(t => <li>{t.label}</li>)}</ul>;
+    return <ul>{tasks.map((t, index) => <li key={index}>{t.label}</li>)}</ul>;
 }
 ```
 
