@@ -17,7 +17,7 @@ These mistakes can be very simple, like misspelling a line of code, or more elab
 
 Throughout the years, I have developed a very effective debugging recipe that I will share below. It takes me just a few seconds to find and fix 90% of my bugs and mistakes, leaving no room for improvisation or shooting darts.
 
-> Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. -- Brian Kernighan
+> 🤯 Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. -- Brian Kernighan
 
 ## Who should read this guide?
 
@@ -29,7 +29,7 @@ I know you are here to learn how to fix errors. Still, it's worth mentioning tha
 
 > 📄 Here is a guide about [coding standards and guidelines](https://4geeks.com/lesson/coding-standards-guidelines) that will help you have clean code and prevent errors.
 
-> If debugging is the process of removing software bugs, then programming must be the process of putting them in. -- Edsger Dijkstra
+> 🤯 If debugging is the process of removing software bugs, then programming must be the process of putting them in. -- Edsger Dijkstra
 
 ## How to debug code: The debugging framework
 
