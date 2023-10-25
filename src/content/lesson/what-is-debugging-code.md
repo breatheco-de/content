@@ -17,7 +17,7 @@ These mistakes can be very simple, like misspelling a line of code, or more elab
 
 Throughout the years, I have developed a very effective debugging recipe that I will share below. It takes me just a few seconds to find and fix 90% of my bugs and mistakes, leaving no room for improvisation or shooting darts.
 
-> 🤯 Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. -- Brian Kernighan
+<quote>Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. -- Brian Kernighan</quote>
 
 ## Who should read this guide?
 
