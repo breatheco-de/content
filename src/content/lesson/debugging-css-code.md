@@ -13,7 +13,7 @@ CSS is a very tricky technology to debug, probably among the most difficult ones
 ## Tools for debugging CSS
 
 Your coding editor has syntax highlighting that will help you recognize syntax errors like missing semicolons, curly brackets, etc.
-The Developer Tool: It has two sections that you need to learn and use pretty well:
++ The Developer Tool: It has two sections that you need to learn and use pretty well:
 
 ### a) The `Elements` tab
 
