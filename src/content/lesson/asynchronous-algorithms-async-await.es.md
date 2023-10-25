@@ -214,7 +214,7 @@ console.log(myPomise);
 + ***resolve***: devuelve un objeto de promesa que tiene el status de resuelto con un valor.
 
 ```javascript
-	// Aquí Promesa representa el objeto Promesa
+	// Aquí Promise representa el objeto de la promesa
 	Promise.resolve("Yo estaba resuelta con este valor").then(value => console.log(value));
 	
 	/*RESULTADO EN CONSOLA:
