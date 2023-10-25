@@ -1,6 +1,6 @@
 ## Método Drop Pandas
 
-Pandas es una de las librerías más importantes a la hora de trabajar en la ciencia de dato o en el machine learning, una de las estructuras más importantes que ofrece Pandas en el **DataFrame** que representa una tabla bidimensional de filas y columnas. Uno de los métodos de Pandas más importantes para trabajar con un **DataFrame** es el método [drop](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html) que nos permite eliminar filas o columnas innecesarias de esta estructura, a continuación veremos un pequeño ejemplo.
+Pandas es una de las librerías más importantes a la hora de trabajar en la ciencia de dato o es el machine learning, una de las estructuras más importantes que ofrece Pandas en el **DataFrame** que representa una tabla bidimensional de filas y columnas. Uno de los métodos de Pandas más importantes para trabajar con un **DataFrame** es el método [drop](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html) que nos permite eliminar filas o columnas innecesarias de esta estructura, a continuación veremos un pequeño ejemplo.
 
 ```py
 import pandas as pd
@@ -29,7 +29,7 @@ print(drop_row)
 2   Jane    Brown    35
 ```
 
-En este ejemplo, creamos un **DataFrame** con tres columnas **Nombre**, **Apellido** y **Edad** y tres usuarios, luego con la ayuda del método `drop()` eliminamos la columna **Apellido** pasándole como argumento `columns="Apellido"`, también podemos eliminar la primera fila del **DataFrame** pasandole el argumento `index=0`. Cómo vemos este es un pequeño ejemplo sobre cómo eliminar filas o columnas dentro de un **DataFrame** con ayuda del método `drop()`, este método puede recibir varios argumentos los cuales veremos en más detaller a continuación.
+En este ejemplo, creamos un **DataFrame** con tres columnas **Nombre**, **Apellido** y **Edad** y tres usuarios, luego con la ayuda del método `drop()` eliminamos la columna **Apellido** pasándole como argumento `columns="Apellido"`, también podemos eliminar la primera fila del **DataFrame** pasandole el argumento `index=0`. Cómo vemos este es un pequeño ejemplo sobre cómo eliminar filas o columnas dentro de un **DataFrame** con ayuda del método `drop()`, este método puede recibir varios argumentos los cuales veremos en más detalle a continuación.
 
 ## Conceptos básicos del método drop()
 
@@ -41,8 +41,8 @@ data_frame.drop(labels, axis, index, columns, level, inplace, errors)
 
 **Parámetros del método drop**:
 
-- `labels`: (opcional), representa las etiqueta o índices a eliminar, si deseas eliminar varias debes especificarlas en una lista.
-- `axis`: (opcional) especifica si deseas eliminar etiquetas o columnas, si deseas elimina etiquetas debes pasarle como valor (0 o 'index') y si deseas eliminar columns debes pasarle (1 o 'columns'), este parámetro tiene un valor por defecto de 0.
+- `labels`: (opcional), representa las etiquetas o índices a eliminar, si deseas eliminar varias debes especificarlas en una lista.
+- `axis`: (opcional) especifica si deseas eliminar etiquetas o columnas, si deseas eliminar etiquetas debes pasarle como valor (0 o 'index') y si deseas eliminar columns debes pasarle (1 o 'columns'), este parámetro tiene un valor por defecto de 0.
 - `index`: (opcional) este parámetro representa el nombre de la fila o las filas a eliminar. Puede ser usado en lugar del parámetro `labels`.
 - `columns` (opcional) representa el nombre de la columna o columnas a eliminar. Puede ser usado en lugar del parámetro `labels`.
 - `level` (opcional) este parámetro especifica qué nivel debe comprobarse en una jerarquía multi índice. Tiene un valor por defecto de `None`.
@@ -56,17 +56,6 @@ Este método retorna por defecto una copia del `Dataframe` original con las elim
 **Errores que puede arrojar**:
 
 Este método retorna un error de tipo **KeyError** si alguna de las etiquetas no existe dentro del `DataFrame` especificado, pero el error se puede ignorar si le pasamos el parámetro `errors` con el valor de 'ignore'.
-
-## Identificación de Columnas a Eliminar
-
-Antes de eliminar las columnas de un `DataFrame`, es importante identificar cuáles son las columnas que no son relevantes o que son redundantes para nuestro análisis. Esto depende del objetivo y el contexto de cada caso, pero en general, se pueden seguir algunos criterios para decidir qué columnas eliminar, algunos ejemplos son:
-
-- Columnas que no aportan información útil o que son constantes para todas las filas.
-- Columnas que tienen muchos valores faltantes o erróneos que no se pueden corregir.
-- Columnas que están altamente correlacionadas con otras columnas y que no aportan información adicional.
-- Columnas que tienen una alta cardinalidad, es decir, que tienen muchos valores únicos y que dificultan el análisis.
-
-Estos son solo algunos ejemplos sobre cómo identificar columnas que puedes eliminar a la hora de hacer la limpieza de un `DataFrame`, pero pueden existir muchos más dependiendo de la información del `DataFrame` y el tipo de análisis que se realizará con él.
 
 ## Eliminación de Columnas
 
@@ -180,6 +169,6 @@ En general, se recomienda usar la opción `inplace` con precaución y sólo cuan
 
 En este artículo aprendimos cómo eliminar las columnas de un DataFrame haciendo uso del método `drop()` de la librería de Pandas, vimos cómo eliminar una tabla en particular, cómo eliminar varias tablas pasándolas en una lista y como eliminar tablas dependiendo de una condición también vimos los parámetros que recibe este método y cómo podemos identificar cuáles columnas debemos eliminar en un DataFrame, además vimos algunos conceptos básicos con pequeños ejemplos de código. 
 
-Te animo a que sigas practicado con este método y que intentes utilizarlo en casos más complejos ya que este método es muy importante para trabajar con DataFrames lo cual es esencial a la hora de trabajar en la ciencia de datos o en el machine learning. Te invito a que sigas aprendiendo mas sobre la librería de Pandas y todas sus utilidades, puedes registrarte en el curso de [pandas para machine learning](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning) de la academia 4Geeks donde aprenderas los conceptos basicos sobre esta librería.  
+Te animo a que sigas practicado con este método y que intentes utilizarlo en casos más complejos ya que este método es muy importante para trabajar con DataFrames lo cual es esencial a la hora de trabajar en la ciencia de datos o en el machine learning. Te invito a que sigas aprendiendo mas sobre la librería de Pandas y todas sus utilidades, puedes registrarte en el curso de [pandas para Data Science y Machine Learning](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning?lang=es) de 4Geeks Academy, donde aprenderás desde los conceptos básicos de machine learning, hasta convertirte en un experto en el manejo y análisis de datos.  
 
 ¡Diviértete aprendiendo! 😉👋
