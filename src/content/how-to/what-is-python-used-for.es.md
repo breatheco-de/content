@@ -14,7 +14,7 @@ Python es utilizado en una amplia variedad de aplicaciones, incluyendo el desarr
 
 ### Python para desarrollo web 
 
-[Python](https://4geeks.com/technology/python), entre muchas de las aristas en las cuales se ha desarrollado, se encuentra el desarrollo de aplicaciones web. Python en este ámbito es usado principalmente para el desarrollo del [Back End](https://4geeks.com/es/lesson/backend-developer-es) (la parte del servidor) contando con diferentes librerías especializadas y de uso gratuito. 
+[Python](https://4geeks.com/es/technology/python), entre muchas de las aristas en las cuales se ha desarrollado, se encuentra el desarrollo de aplicaciones web. Python en este ámbito es usado principalmente para el desarrollo del [Back End](https://4geeks.com/es/lesson/backend-developer-es) (la parte del servidor) contando con diferentes librerías especializadas y de uso gratuito. 
 
 El Back End se encargará principalmente del manejo de base de datos y envió de la información para que la página en el [Front End](https://4geeks.com/es/lesson/what-is-front-end-development-es), se le muestre correctamente al usuario con los datos que le pertenecen. 
 
@@ -41,7 +41,7 @@ Este proceso de aprendizaje automático cuenta con varias librerías que hacen e
 
 ### Python para Data Science 
 
-En los ultimpos años ha aumentando el uso de [Python para Data Science](https://4geeks.com/es/lesson/datascience-con-python) y  se ha convertido en uno de los principales lenguajes para la visualización y tratamientos de datos actualmente lo cual era de esperar. Py posee librerías extremadamente potentes que permiten generar representaciones visuales como pueden ser los siguientes: 
+En los ultimpos años ha aumentando el uso de [Python para Data Science](https://4geeks.com/es/lesson/datascience-con-python) y se ha convertido en uno de los principales lenguajes para la visualización y tratamientos de datos actualmente lo cual era de esperar. Py posee librerías extremadamente potentes que permiten generar representaciones visuales como pueden ser los siguientes: 
 
 - Líneas, barras y marcadores.
 - Subgráficos y ejes.
@@ -92,4 +92,4 @@ Si seguimos buscando encontraremos que puede ser usado en muchas más ramas, com
 - Vehículos no tripulados
 - Meteorología
 
-Como se puede observar, gracias a su potencia y flexibilidad, Python es con razón uno de los lenguajes de programación más usado en diferentes ramas del desarrollo y del saber, yendo desde funcionalidades puramente relacionadas con la tecnología hasta la salud y el bienestar del ser humano. Indiscutiblemente un lenguaje a tener muy en cuenta, por no decir obligatorio, si estamos dentro del mundo de la programación. 
+Como se puede observar, gracias a su potencia y flexibilidad, Python es con razón uno de los lenguajes de programación más usado en diferentes ramas del desarrollo y del saber, yendo desde funcionalidades puramente relacionadas con la tecnología hasta la salud y el bienestar del ser humano. Indiscutiblemente un lenguaje a tener muy en cuenta, por no decir obligatorio, si estamos dentro del mundo de la programación.
