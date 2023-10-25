@@ -33,7 +33,7 @@ Sé que estás aquí para aprender cómo solucionar errores. Aun así, vale la p
 
 ## Cómo depurar código: El marco de depuración
 
-Los pasos y herramientas de depuración pueden variar significativamente dependiendo del lenguaje de programación (HTML/CSS, JavaScript, Python, etc.), las librerias, las herramientas (Pandas, Flask, Express, Rails, Postgres, etc.) y el mensaje de error u otros patrones y atributos que puedas notar sobre el error.
+Los pasos y herramientas de depuración pueden variar significativamente dependiendo del lenguaje de programación (HTML/CSS, JavaScript, Python, etc.), las librerías, las herramientas (Pandas, Flask, Express, Rails, Postgres, etc.) y el mensaje de error u otros patrones y atributos que puedas notar sobre el error.
 
 ### Identificar el tipo de error: Exploración básica
 
@@ -52,14 +52,14 @@ La depuración de código de front-end se puede dividir en 4 grupos principales:
 
 Los errores de back-end suelen ser más fáciles de encontrar porque hay menos tecnologías involucradas; las tecnologías y lenguajes son más limpios y maduros, y generalmente, el código se ejecuta de manera más directa de arriba hacia abajo.
 
-> Nota: hay arquitecturas de back-end más complejas con código asíncrono, herramientas basadas en la nube, microservicios, etc. Nos centraremos en sistemas de back-end más pequeños y estándar que usan la mayoría de las pequeñas y medianas empresas.
+> Nota: Hay arquitecturas de back-end más complejas con código asíncrono, herramientas basadas en la nube, microservicios, etc. Nos centraremos en sistemas de back-end más pequeños y estándar que usan la mayoría de las pequeñas y medianas empresas.
 
 Depurar el código de back-end se puede dividir en 4 grupos principales:
 
 1. **Serialización o validación de solicitud incorrecta**: Los datos entrantes pueden estar mal formateados o tener valores incorrectos.
 2. **Problemas de base de datos**: Conexión a la base de datos, migraciones, sentencias SQL o integridad de datos.
 3. **Errores lógicos**: lógica incorrecta en tus condiciones, llamadas a funciones, valores de variables, etc.
-4. **Errores de configuración**: Problemas con la configuración del servidor, problemas de entorno, dependencias de paquetes, configuración de librerias, caché, tiempos de espera, etc.
+4. **Errores de configuración**: Problemas con la configuración del servidor, problemas de entorno, dependencias de paquetes, configuración de librerías, caché, tiempos de espera, etc.
 
 ### ¿Cómo saber qué tipo de error tengo?
 
@@ -139,9 +139,9 @@ He preparado lecciones muy sencillas para depurar los errores más comunes que e
 
 - [Depuración de errores de código HTML](https://4geeks.com/es/lesson/depurando-codigo-html).
 - [Depuración de errores de código CSS](https://4geeks.com/es/lesson/depurando-codigo-css).
-- Depuración de errores de Front End de Javascript.
-- Depuración de errores de Front End de React.js.
-- Depuración de errores de backend de scripts de Python.
-- Depuración de errores de backend de API de Python Flask.
+- Depuración de errores de front-end de JavaScript.
+- Depuración de errores de front-end de React.js.
+- Depuración de errores de back-end de scripts de Python.
+- Depuración de errores de back-end de API de Python Flask.
 
 > 📄 Nota: Haga clic en cualquiera de los elementos anteriores para aprender sobre la depuración de cada tecnología.
