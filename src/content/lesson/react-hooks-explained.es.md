@@ -116,7 +116,7 @@ export default Clock;
 
 3. Mostrar una entrada en la pantalla: La mejor práctica para obtener el contenido de cualquier entrada es almacenarlo en una variable de estado, esto se denomina "Entrada Controlada".
 
- ![Campo de input controlado](https://s10.gifyu.com/images/ezgif.com-gif-maker-399b80fa21c077ab6.gif?raw=true) 
+ ![Campo de input controlado](https://github.com/breatheco-de/content/blob/333c8192f0e451466854605edecc8f6b01c0fda4/src/assets/images/controlled-input-example.gif?raw=true) 
  [![Editar input controlado](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/controlledinput-rbh0m?fontsize=14&hidenavigation=1&theme=dark)
 
  ```jsx
