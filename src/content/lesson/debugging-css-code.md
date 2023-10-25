@@ -80,7 +80,7 @@ Do not use the **position property** for layouts, use `display: flex;` instead.
 
 I use the position rule for little things like attaching a notification bubble to an icon. Here is a 10 min video on [how absolute vs relative position work](https://www.loom.com/share/3715da41c2ec45be8711c4f8944e406b).
 
-## The Flex Box for doing layouts
+## Flexbox for doing layouts
 
 The most powerful tool for building layouts is flexbox. [Here is a 5 min video on how it works](https://www.youtube.com/watch?v=ZRc2vUF92e8).
 
