@@ -20,7 +20,7 @@ city = {
 
 city["city_id"] = 1000 # Replace data within the dictionary.
 city["city_name"] = city["city_name"].upper() # Modify data inside the dictionary
-delete city["currency"] # Delete data within the dictionary
+del city["currency"] # Delete data within the dictionary
 
 print(city)
 ```
