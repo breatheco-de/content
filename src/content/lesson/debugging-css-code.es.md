@@ -1,13 +1,13 @@
 ---
 title: "Depurando código CSS"
-subtitle: "Depurando código CSS mas rápido y eficiente. Ahorra más del 50% de tu tiempo de depuración al programar CSS."
+subtitle: "Depurando código CSS más rápido y eficiente. Ahorra más del 50% de tu tiempo de depuración al programar CSS."
 tags: ["debugging", "web development", "html/css"]
 
 --- 
 
 # Depuración de código CSS
 
-Esta guía está destinada a enseñarte cómo solucionar errores en tu código CSS. Si no estás seguro de si tu error está en tu HTML, te recomiendo leer: [¿Qué es depurar y cómo dominarlo?](https://4geeks.com/es/lesson/que-es-depurar-codigo).
+Esta guía está destinada a enseñarte cómo solucionar errores en tu código CSS. Si no estás seguro de si tu error está en tu HTML, te recomiendo leer: [¿Qué es depurar y cómo dominarlo?](https://4geeks.com/es/lesson/que-es-depurar-codigo)
 
 CSS es una tecnología muy complicada de depurar, probablemente entre las más difíciles; me llevó años dominarla. No digo esto para asustarte, pero necesitas tomarlo en serio. Mi objetivo es darte una guía concisa y herramientas para convertirte rápidamente bueno en ello.
 
@@ -38,7 +38,7 @@ Estos son algunos de los errores más difíciles de depurar:
 
 Esto puede suceder por varias razones:
 - Estás usando el selector incorrecto.
-- Escribiste mal algun estilo dentro del selector.
+- Escribiste mal algún estilo dentro del selector.
 - Hay otro estilo que anula el tuyo (conflicto de estilos).
 
 #### Sigue estos pasos para solucionar el error
