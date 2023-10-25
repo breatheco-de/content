@@ -32,12 +32,12 @@ These are some of the most difficult errors to debug:
 
 ### Styles not being applied
 
-Do you remember any time in your developer history when you tried applying a style to one element, but nothing was happening? No matter what you did, the element kept the same.
+Do you remember any time in your developer history when you tried applying a style to one element, but nothing was happening? No matter what you did, the element remained the same.
 
 This can happen for several reasons:
 - You are using the wrong selector.
-- You are misspelling in the selector.
-- There is another style overriding yours (styling conflict).
+- You have a misspelling in the selector.
+- There is another style overriding yours ex:(styling conflict).
 
 #### Follow these steps to fix the error
 
