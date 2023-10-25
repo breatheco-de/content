@@ -37,7 +37,7 @@ The debugging steps and tools may vary significantly depending on the programmin
 
 ### Identify the type of bug: Basic Exploration
 
-It's a good idea to break down bugs into "types" so we can prepare strategies for each group type. After years of debugging code, I have designed 4 front-end and 8 back-end bug types.
+It's a good idea to break down bugs into "types" so we can prepare strategies for each group type. After years of debugging code, I have designated 4 front-end and 4 back-end bug types.
 
 #### Is it a front-end bug?
 
@@ -120,10 +120,10 @@ Lastly, if you have an error on a web server (like Express, Flask, Django, etc.)
 
 If you followed the previous steps correctly, you know to what part of your code is your bug related. So stay focused, and don't guess! You have handy information about your bug; use it and pull that thread. For example: 
 
-a. Stop thinking about the back-end if your bug is in the front-end or vice versa.  
-b. Wrong Syntax or TypeError? Syntax errors usually tell you which line has the issue. So look for that info and read the surrounding lines of code.  
-c. The Network tag has request status code 4xx? Go and fix the code crafting the request.  
-d. The Network tag has request status code 5xx? Go and read the back-end terminal for Syntax or Database errors.  
++ Stop thinking about the back-end if your bug is in the front-end or vice versa.  
++ Wrong Syntax or TypeError? Syntax errors usually tell you which line has the issue. So look for that info and read the surrounding lines of code.  
++ The Network tag has request status code 4xx? Go and fix the code crafting the request.  
++ The Network tag has request status code 5xx? Go and read the back-end terminal for Syntax or Database errors.  
 
 ### Trial an error until you fix it
 
