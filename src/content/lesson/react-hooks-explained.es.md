@@ -232,7 +232,7 @@ const MyComponent = () => {
 
 > ☝ Este useEffect no tiene un array vacío `[]` como segundo parámetro.
 
-### 3) Cuando se desmontará el componente o dejará de renderizarse (como la antigua función [componentWillUnmount](https://reactjs.org/docs/react-component.html#unsafe_componentwillmount) utilizada por los componentes de la clase).
+### 3) Cuando se desmontará el componente o dejará de renderizarse (como la antigua función [componentWillUnmount](https://reactjs.org/docs/react-component.html#unsafe_componentwillmount) utilizada por los componentes de clase)
 
 ```jsx
 const MyComponent = () => {
