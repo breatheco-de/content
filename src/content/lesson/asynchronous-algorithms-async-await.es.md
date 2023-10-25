@@ -1,7 +1,7 @@
 ---
 slug: "asincrono-algoritmos-async-await"
 title: "Creando algoritmos asíncronos"
-subtitle: "Comprende la diferencia entre scripts síncronos y asíncronos, uso de Promises y master async y wait."
+subtitle: "Comprende la diferencia entre scripts síncronos y asíncronos, uso de Promises y domina async y await"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 status: "published"
 authors: ["kodi2fever","nachovz"]
@@ -15,17 +15,17 @@ Hasta ahora, hemos utilizado código JavaScript para ejecutar aplicaciones web s
 
 Comencemos diciendo que JavaScript por defecto es síncrono y con una sola secuencia, es decir: el código se ejecuta desde la línea 1 hasta el último, uno a la vez y en ese orden normalmente. Échale un vistazo a este ejemplo:
 
-#### Sincróno(por defecto)
+### Sincróno (por defecto)
 
 ```javascript
-function ejecutarPrimero(){
+function correPrimero(){
 	console.log("primero");
 }
-function ejecutarSegundo(){
+function correSegundo(){
 	console.log("segundo");
 }
-ejecutarSegundo();
-ejecutarPrimero();
+correSegundo();
+correPrimero();
 
 /*
 RESULTADO EN CONSOLA:
@@ -34,11 +34,11 @@ RESULTADO EN CONSOLA:
 */
 ```
 
-Aquí: la línea 5 se ejecuta antes de la línea 2 porque estamos llamando a ```correSegundo ()``` (línea 7) antes de ```correPrimero ()``` (línea 8). Rompiendo el orden de mando de la computadora que *llama* (o ejecuta) el bloque de código dentro de una función.
+Aquí: la línea 5 se ejecuta antes de la línea 2 porque estamos llamando a `correSegundo()` (línea 7) antes de `correPrimero()` (línea 8). Rompiendo el orden de mando de la computadora que *llama* (o ejecuta) el bloque de código dentro de una función.
 
 Las cosas se complican más cuando se llaman funciones dentro de funciones, como podemos ver aquí:
 
-#### Funciones de Llamada
+### Funciones dentro de funciones
 
 ```javascript
 function correPrimero(){
@@ -52,37 +52,37 @@ function correSegundo(){
 correPrimero();
 
 /*
-RESULTADO CONSOLA:
+RESULTADO EN CONSOLA:
   > Quiero correr primero
-  > ¿Donde estoy corriendo?
-  > También quiero correr cuando se ejecuta correPrimero //Esta línea de código tuvo que esperar a que correSegundo() terminara.
+  > ¿Dónde estoy corriendo?
+  > Yo también quiero correr cuando correPrimero corra <-- Esta línea de código tuvo que esperar a que correSegundo() terminara
 */
 ```
 
-*OK qué...?*
+*OK ¿qué...?*
 
 Esto sucede porque la ***call stack*** en JavaScript lleva un registro de las funciones que se están ejecutando actualmente y se están procesando:
-+ ```correPrimero()``` se añade al call stack porque la llamamos (línea 9).
-+ Vemos nuestro primer ```console.log``` (línea 2), después de eso, se llama a ```correSegundo ()``` (línea 3).
-+ ```correPrimero ()``` hace una pausa en su ejecución y ```correSegundo ()``` comienza a ejecutarse.
-+ Segundo ```console.log``` se ejecuta (linea 7).
-+ Una vez que ```correSegundo ()``` termina, ```correPrimero ()``` comienza nuevamente, ejecutando el resto de su código, el último ```console.log``` (línea 4).
++ `correPrimero()` se añade al call stack porque la llamamos (línea 9).
++ Vemos nuestro primer `console.log` (línea 2), después de eso, se llama a `correSegundo()` (línea 3).
++ `correPrimero()` hace una pausa en su ejecución y `correSegundo()` comienza a ejecutarse.
++ Segundo `console.log` se ejecuta (línea 7).
++ Una vez que `correSegundo()` termina, `correPrimero()` comienza nuevamente, ejecutando el resto de su código, el último `console.log` (línea 4).
 
 ¡ D I V I E R T E T E !
 
 Pero espera, hay más... Incluso podríamos pasar una *función* como argumento a otra función (no, esto no es un error tipográfico). La *función* enviada como parámetro se llama **función callback**. Echa un vistazo:
 
-#### Funciones de Devolución de Llamada
+#### Funciones callback
 
 ```javascript
 1    function correPrimero(unaFuncion){
 2	console.log("Quiero correr primero");
-3	correPrimero();
+3	unaFuncion();
 4	correSegundo();
 5	console.log("También quiero correr cuando se ejecute correPrimero");
 6    }
 7    function correSegundo(){
-8	console.log("¿Donde estoy corriendo?");
+8	console.log("¿Dónde estoy corriendo?");
 9    }
 10   correPrimero(unaTercera);
 11
@@ -92,11 +92,11 @@ Pero espera, hay más... Incluso podríamos pasar una *función* como argumento 
 15
 
 /*
-RESULTADO CONSOLA:
+RESULTADO EN CONSOLA:
   > Quiero correr primero
   > Esto es una locura
-  > ¿Donde estoy corriendo?
-  > También quiero correr cuando se ejecuta correPrimero
+  > ¿Dónde estoy corriendo?
+  > También quiero correr cuando se ejecute correPrimero
 */
 ```
 
@@ -104,34 +104,31 @@ RESULTADO CONSOLA:
 
 ¡Tiempo de explicaciones!
 
-Hemos agregado una nueva función ```unaTercera ()``` (línea 12), que muestra los registros de la consola: "esto es una locura"; pero no la estamos llamando directamente, en cambio, estamos pasando el nombre como parámetro a ```correPrimero ()``` (línea 10).
-```correPrimero(unaFunción)``` ahora espera un valor (línea 1) que llamaremos como si fuera una función (línea 3).
-**Ten en cuenta que el nombre es diferente porque pasamos el valor, no el nombre de la variable.** 
-Esto produce una nueva impresión en la consola: "esto es una locura", antes de llamar a ```correSegundo ()``` (línea 4). 
+Hemos agregado una nueva función `unaTercera()` (línea 12), que muestra los registros de la consola: `"Esto es una locura"`; pero no la estamos llamando directamente, en cambio, estamos pasando el nombre como parámetro a `correPrimero()` (línea 10). `correPrimero(unaFunción)` ahora espera un valor (línea 1) que llamaremos como si fuera una función (línea 3). **Ten en cuenta que el nombre es diferente porque pasamos el valor, no el nombre de la variable.** Esto produce una nueva impresión en la consola: `"Esto es una locura"`, antes de llamar a `correSegundo()` (línea 4). 
 
 ...*jump around!, jump around!, jump around!, Jump up, jump up and get down! (music)*... 
 
 Ahora, supongamos que necesitamos cargar algunos archivos desde un servidor, específicamente, imágenes:
 
-#### Carga síncrona de imágenes.
+### Carga síncrona de imágenes.
 
 ```javascript
 function cargarImagen(){
 	console.log("¡Cárgala!");
-	//código para cargar una imagen
+	// Código para cargar una imagen
 	console.log("¡Imagen cargada!");
 }
 function usuarioEsperando(){
 	console.log("No me gusta esperar");
 }
-cargarImagen ();
-usuarioEsperando ();
+cargarImagen();
+usuarioEsperando();
 
-/*RESULTADO CONSOLA
-	> ¡Cárgala! 			//el usuario comienza a esperar
-					//ahora el usuario tiene que esperar a que lleguen las imágenes, hora: desconocido... navegador: congelado :(
-	> ¡Imagen cargada!		//después ?? segundos
-	> No me gusta esperar 		//No queremos que los usuarios esperen tanto tiempo para ver las imágenes.
+/*RESULTADO EN CONSOLA
+	> ¡Cárgala! 			// El usuario comienza a esperar
+					// Ahora el usuario tiene que esperar a que lleguen las imágenes, hora: desconocida... navegador: congelado :(
+	> ¡Imagen cargada!		// Después de ?? segundos
+	> No me gusta esperar 		// No queremos que los usuarios esperen tanto tiempo para ver las imágenes
 */
 ```
 *Inaceptable...* 
@@ -160,28 +157,28 @@ cargarImagen();
 usuarioEsperando();
 
 
-/*RESULTADO CONSOLA:
-	> ¡Cárgala! 					//el usuario comienza a esperar
-	> No me gusta esperar 				//¡sin espera! DOM listo para ver
-							//... y ?? segundos más tarde
-	> ¡Cárgala!  OR Uh-oh algo salió mal 	//¡Imagen!... Mágico! || Oops, no hay imágenes
+/*RESULTADO EN CONSOLA:
+	> ¡Cárgala! 					// El usuario comienza a esperar
+	> No me gusta esperar 				// ¡Sin espera! DOM listo para ver
+							// ... y ?? segundos más tarde
+	> ¡Imagen cargada! || Uh-oh algo salió mal 	// ¡Imagenes!... Mágia! || Oops, no hay imágenes
 */
 ```
 
-Javascript ofrece varias funciones asíncronas predefinidas que podemos utilizar para resolver cualquier escenario posible. Algunas de ellas son:
+JavaScript ofrece varias funciones asíncronas predefinidas que podemos utilizar para resolver cualquier escenario posible. Algunas de ellas son:
 
 + [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch): se utiliza para cargar archivos de forma asíncrona.
 + [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout): se utiliza para establecer temporizadores entre bloques de código.
 
-En este caso, utilizamos la Fetch API para cargar las imágenes y *luego* (después de obtener una respuesta desde backend) escribimos algunos comentarios sobre el proceso.
+En este caso, utilizamos la Fetch API para cargar las imágenes, *then* (luego) (después de obtener una respuesta del backend) escribimos algunos comentarios sobre el proceso.
 
-Ten en cuenta que cualquier peticion (request) http puede fallar por diversas razones, siempre debemos estar preparados para la falla.
+Ten en cuenta que cualquier petición (request) HTTP puede fallar por diversas razones, siempre debemos estar preparados para un fallo.
 
 ## Promesas
 
 Una promesa no es más que el resultado de una operación asíncrona. Representa la finalización o el fracaso de ese resultado en un objeto proporcionado por la promesa.
 
-#### Una promesa (promise) tiene 3 estados diferentes:
+### Una promesa (promise) tiene 3 estados diferentes:
 
 + ***Pendiente***: el resultado de la promesa aún no se ha determinado porque la operación asíncrona no se ha completado.
 + ***Cumplida***: es cuando la operación asíncrona finaliza y la promesa devuelve un valor como un objeto.
@@ -191,7 +188,7 @@ Una promesa no es más que el resultado de una operación asíncrona. Representa
 ***Así es como se puede crear una promesa.*** 
 
 ```javascript
-var myPomise = new Promise(function(resolve, reject) {
+let myPomise = new Promise(function(resolve, reject) {
   setTimeout(function() {
     resolve("Yo estaba resuelto");
   }, 300);
@@ -202,8 +199,8 @@ myPomise.then((obj) => {
 console.log(myPomise);
 
 /*RESULTADO EN CONSOLA:
-	>Objeto de promesa // devolverá un objeto de promesa
-	>"Estaba resuelto"
+	> [Objeto de promesa] // Devolverá un objeto de promesa
+	> Yo estaba resuelto
 */
 ```
 
@@ -215,43 +212,44 @@ console.log(myPomise);
 ### Métodos importantes que debemos conocer al usar promesas.
 
 + ***resolve***: devuelve un objeto de promesa que tiene el status de resuelto con un valor.
+
 ```javascript
-	//aquí Promesa representa el objeto Promesa.
-	Promise.resolve("Yo estaba resuelto con este valor").then(value => console.log(value));
+	// Aquí Promise representa el objeto de la promesa
+	Promise.resolve("Yo estaba resuelta con este valor").then(value => console.log(value));
 	
 	/*RESULTADO EN CONSOLA:
-	>"Yo estaba resuelto con este valor"
+	>"Yo estaba resuelta con este valor"
 	
 	***********
 		Un mejor enfoque sería inicializar una variable.
-		igual a la promesa resuelta.
+		igual a la promesa resuelta
 		
-	--- ejemeplo: 
-		var myResolvedPromise =  Promise.resolve("Yo estaba resuelto con este valor");
+	--- ejemplo: 
+		let myResolvedPromise =  Promise.resolve("Yo estaba resuelta con este valor");
 	*/
 ```
 
 + ***reject***: devuelve una promesa rechazada por un motivo.
 
 ```javascript
-	Promise.reject(new Error("fui rechazado")).then(error => console.log(error));
+Promise.reject(new Error("Fui rechazada")).then(error => console.log(error));
 ```
 
 + ***then***: este método devuelve una promesa y puede tomar hasta 2 argumentos. Una para la promesa resuelta y otra para la promesa rechazada. Arriba hay un ejemplo que usa el método ***then*** y toma un argumento.
 
 ```javascript
-	var promise =  new  Promise(function(resolve,reject){
-		resolve("Estaba resuelto y puedes verme cuando usas el método.");
-	});
-	promise.then(value => console.log(value));
+let promise = new Promise(function(resolve,reject){
+	resolve("Estaba resuelta y puedes verme cuando usas el método.");
+});
+promise.then(value => console.log(value));
 ```
 
 + ***catch***: devuelve una promesa y se ocupa de las operaciones rechazadas. Es muy útil cuando se trata de depurar o mostrar errores.
 ```javascript
-	var promise =  new  Promise(function(resolve,reject){
-		reject("Me rechazaron y puedes verme cuando usas el método catch.");
-	});
-	promise.catch(error => console.log(error));
+let promise = new Promise(function(resolve,reject){
+	reject("Me rechazaron y puedes verme cuando usas el método catch.");
+});
+promise.catch(error => console.log(error));
 ```
 
 ## Async/await
@@ -260,7 +258,7 @@ console.log(myPomise);
 + ***Async*** es una función de JavaScript y puede contener una expresión ***await***.
 + ***Await*** pausa la ejecución de la función asíncrona y espera el resultado de una promesa.
 
-> :point_up: Recuerda que las expresiones await sólo son válidas dentro de funciones asíncronas. Si las usas fuera, tendrás un error de sintaxis.
+> ☝ Recuerda que las expresiones await solo son válidas dentro de funciones asíncronas. Si las usas fuera, tendrás un error de sintaxis.
 
 ```javascript
 function returnedPromiseHere() {
@@ -271,18 +269,18 @@ function returnedPromiseHere() {
   });
 }
 async function useAsyncFunction() {
-  console.log("Soy una tarea rapida");
-  var result = await returnedPromiseHere();
+  console.log("Soy una tarea rápida");
+  let result = await returnedPromiseHere();
   console.log(result);
   console.log("Tuve que esperar a que terminara");
 }
 useAsyncFunction();
 
 /*RESULTADO EN CONSOLA:
-	>"Soy una tarea rápida"
-	//después de 1 segundo...
-	>"Yo soy las imágenes que vienen de la base de datos."
-	>"Tuve que esperar a que terminara"
+	> Soy una tarea rápida
+	// Después de 1 segundo...
+	> Yo soy las imágenes que vienen de la base de datos.
+	> Tuve que esperar a que terminara
 */
 ```
 
@@ -311,9 +309,9 @@ function promise3() {
   });
 }
 async function handlingAllPromises() {
-  var first = await promise1();
-  var second = await promise2();
-  var third = await promise3();
+  let first = await promise1();
+  let second = await promise2();
+  let third = await promise3();
   
   console.log(first);
   console.log(second);
@@ -325,14 +323,14 @@ handlingAllPromises();
 #### En el ejemplo anterior, en lugar de esperar una promesa en cada nueva línea, podríamos usar el método Promise.all y esperar a que se cumplan todas las promesas.
 
 ```javascript
-	var [first, second, third] = await Promise.all([promise1(), promise2(), promise3()]);
+let [first, second, third] = await Promise.all([promise1(), promise2(), promise3()]);
 ```
 
 ### También puedes hacer funciones asíncronas como funciones de flecha(arrow).
 
 ```javascript
 const handlingAllPromises = async () => {
-  var [first, second, third] = await Promise.all([promise1(), promise2(), promise3()]);
+  let [first, second, third] = await Promise.all([promise1(), promise2(), promise3()]);
   
   console.log(first);
   console.log(second);
@@ -342,13 +340,13 @@ const handlingAllPromises = async () => {
 
 ### ¿Cómo manejar errores en funciones asíncronas?
 
-Una buena manera de manejar los errores en las funciones asíncronas es usar las sentencias try... catch.
+Una buena manera de manejar los errores en las funciones asíncronas es usar las sentencias `try...catch`.
 
 ```javascript
 async function handeErrors() {
   let msg;
   try {
-    msg = await promise1(); //Nota que este método ya está escrito en su aplicación.
+    msg = await promise1(); // Notese que este método ya está escrito en su aplicación
     console.log(msg);
   } catch(err) {
     console.log(err);
@@ -356,20 +354,20 @@ async function handeErrors() {
 }
 ```
 
-### Fetch API se basa en la promesa. ¿Adivina qué? ¡Puedes usarlo en tus funciones asíncronas también!
+### Fetch API se basa en una promesa. ¿Adivina qué? ¡Puedes usarlo en tus funciones asíncronas también!
 
 ```javascript
-async  function fetchData(endpoint) { 
-	const response = await  fetch(endpoint); //nota el uso de fetch api
+async function fetchData(endpoint) { 
+	const response = await  fetch(endpoint); // Nota el uso de fetch API
 	let data = await res.json();
 	data = data.map(user => user.ID); 
 	console.log(data); 
 }
 
-fetchData(http://dummyData/api/allUsers); //este es un ejemplo de endpoint
+fetchData(http://dummyData/api/allUsers); // Este es un ejemplo de endpoint
 
 /*RESULTADO EN CONSOLA:
-	>[1, 2, 3, 4] //Aquí obtenemos todos los usuarios ID de la base de datos
+	>[1, 2, 3, 4] // Aquí obtenemos todos los ID de los usuarios de la base de datos
 */
 ```
 
