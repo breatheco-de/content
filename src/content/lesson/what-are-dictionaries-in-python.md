@@ -59,7 +59,7 @@ To declare a dictionary in Python you can do it in two ways, the first one is to
 ```py
 object_one = {
     "key_one": "object one value one",
-    "```key_two'': ``object one value two'',
+    "key_two": "object one value two",
 }
 
 object_two = dict(
