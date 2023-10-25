@@ -119,6 +119,7 @@ else:
 ```
 
 > output del código:
+
 ```bash
 El número 39 se encuentra en la posición: 14
 ```

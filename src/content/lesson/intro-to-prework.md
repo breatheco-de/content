@@ -88,7 +88,7 @@ When we started the academy, each student had the freedom to install their own s
 
 So instead of that approach, we have made a list of what programs you need. Some of them are mandatory to use/download during the program, while others are just optional. Don’t worry, you’ll be happy with us!!
 
-Yeah, yeah, we know some of you already have your own tools, but let’s keep that conversation for another time. For now, closely follow our suggestions and give us the opportunity to tell you how to go about it all. 
+We know some of you already have your own tools, but let’s keep that conversation for another time. For now, closely follow our suggestions and give us the opportunity to tell you how to go about it all. 
 
 <p style="text-align:center">
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/59bf0e4e-f5cf-410c-b2bc-fdc7472e7cdc.jpeg?raw=true" width="180">
