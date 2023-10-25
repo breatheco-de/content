@@ -190,7 +190,7 @@ Let's explain this hook with a small Modal window example. Here is the live code
 
 <iframe src="https://codesandbox.io/embed/goofy-sutherland-vb6de?fontsize=14" title="Modal with hooks" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-To implement a "Modal Window" we decided to create a hooked variable called `opened` that is `true` if the modal window has to be shown to the user.
+To implement a "Modal Window" we decided to create a hooked variable called `opened` that is `true` if the modal window is shown to the user.
 
 If the user clicks on "close", we simply use the hook function `setOpened` to change the value of `opened` to `false`.
 
@@ -204,14 +204,13 @@ useEffect is another amazing hook that you will use if you want to execute some 
 
 ```jsx
 const MyComponent = () => {
-    useEffect(() =>
+    useEffect(() => {
 
         // Whatever you code here will execute only after the first time the component renders
 
- , []); // <------ PLEASE NOTICE THE EMPTY ARRAY
+ }, []); // <------ PLEASE NOTICE THE EMPTY ARRAY
 
-
-    return <Some HTML>;
+    return <div>Some HTML</div>;
 }
 ```
 
@@ -221,14 +220,14 @@ const MyComponent = () => {
 
 ```jsx
 const MyComponent = () => {
-    useEffect(() =>
+    useEffect(() => {
         // This will run every time the component re-renders
-        if(some_condition){
+        if (some_condition) {
             // This will run only if some_condition is true
         }
-    );// <------ PLEASE NOTICE THE EMPTY ARRAY IS GONE!
+    }); // <------ PLEASE NOTICE THE EMPTY ARRAY IS GONE!
 
-    return <Some HTML>;
+    return <div>Some HTML</div>;
 }
 ```
 
@@ -238,14 +237,14 @@ const MyComponent = () => {
 
 ```jsx
 const MyComponent = () => {
-    useEffect(() =>
+    useEffect(() => {
         // This will run only the first time the component renders
         return () => {
             // This will run only right before the component unmounts
         }
-    ,[]); // <------ PLEASE NOTICE THE EMPTY ARRAY
+    }, []); // <------ PLEASE NOTICE THE EMPTY ARRAY
 
-    return <Some HTML>;
+    return <div>Some HTML</div>;
 }
 ```
 
@@ -259,7 +258,7 @@ For example, let's say I'm building a todo list, and I have to load the list of 
 
 ```jsx
 const Todos = (props) => {
-    // Initialize the tasks variable to an empty array and hook it to setTasks function
+    // Initialize the "tasks" variable to an empty array and hook it to setTasks function
     const [ tasks, setTasks ] = useState([]);
 
     // This useEffect will run only one time, when the component is finally loaded the first time
@@ -270,7 +269,7 @@ const Todos = (props) => {
             .then(data => setTasks(data)) // Here it re-setted the variable "tasks" with the incoming data
     , []);
 
-    return <ul>{tasks.map(t => <li>{t.label}</li>)}</ul>;
+    return <ul>{tasks.map((t, index) => <li key={index}>{t.label}</li>)}</ul>;
 }
 ```
 
