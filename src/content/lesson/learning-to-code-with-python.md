@@ -24,7 +24,7 @@ Python is the first language you should learn, but obviously not the only one.
 A variable is a container in which you can store any data. For example, you can have the following variable:
 
 ```python
-edad = 24
+age = 24
 ```
 
 ![variables](https://github.com/breatheco-de/content/blob/master/src/assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif?raw=true)
@@ -67,7 +67,7 @@ Variables can have different types of values:
 |String        |Any string of characters     |Strings are the only way we have to store words (sequences of characters). Note: strings must be enclosed in quotes.  |
 |Number   |Numbers only     |Integers, negative numbers, decimals, floats, etc. All possible types of numbers. <br>  |
 |Undefined     |Empty    |When a variable has no assigned value, it remains undefined.   |
-|Array     |A list with any type of values.   |A sequence of any type of values. They can be mixed types of values; for example: [2, 3, 'Word', 2, 1, null, 232, 5, 3, 23, 234, 5, 'hello'].     |
+|Array     |A list with any type of value.   |A sequence of any type of values. They can be mixed types of values; for example: [2, 3, 'Word', 2, 1, null, 232, 5, 3, 23, 234, 5, 'hello'].     |
 |Objects	    |Any object    |You can create your own data types with more complex operations. We will talk more about this later.  |
 |Null    |Only Null    |Used to specify when the database or any other function does not return anything.   |
 
@@ -137,7 +137,7 @@ For example, if I want a computer to give candy only to children older than 13 y
 
  **Is this child's age greater than 13 years? Yes or no?**
 
-**En python, puedes indicarle a la computadora que realice las siguientes operaciones lógicas:**
+**In python, you can ask the computer to do the following logical operations:**
 
 |**Operation**  |**Syntax**   |**Examples**   |
 |:--------------|:--------------|:--------------|
