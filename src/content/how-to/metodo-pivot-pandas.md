@@ -1,6 +1,12 @@
-## Método Pivot Pandas
+---
+title: "¿Cómo usar el método pivot de Pandas?"
+subtitle: "Aprende a utilizar el método pivot de Pandas en Python para transformar y analizar tus datos de manera eficiente. Explora ejemplos y técnicas para aprovechar al máximo este versátil método de Pandas."
+tags: ["Python", "Pandas"]
+authors: [Tomas]
 
-El método [pivot](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.pivot.html) de la librería de Pandas nos permite reorganizar y transformar los datos de un **DataFrame** creando una nueva tabla con un formato diferente. A continuación podras encontrar un pequeño ejemplo sobre cómo utilizar este método y cómo transforma el **DataFrame** original.
+---
+
+El método [pivot](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.pivot.html) de la librería de Pandas nos permite reorganizar y transformar los datos de un **DataFrame** creando una nueva tabla con un formato diferente. Si te gustaría aprender a utilizar pandas desde cero, te dejamos este [tutorial de pandas para machine learning](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning) A continuación podrás encontrar un pequeño ejemplo sobre cómo utilizar este método y cómo transformar el **DataFrame** original.
 
 ```py
 import pandas as pd
@@ -34,11 +40,11 @@ Fecha
 2023-01-02    120      200
 ```
 
-El método `pivot()` recibe tres parámetros, el parámetro **index**, el parámetro **columns** y el parámetro **values** los tres parámetros son necesarios para poder utilizar este método. Como puedes ver en el ejemplo, el nuevo **DataFrame** tiene como índices los valores de la columna `Fecha` además utilizó los valores de la columna `Producto` como nombre para las columnas en el nuevo **DataFrame** y los valores de la columna `Venta` como los valores para las columnas. En el **DataFrame** pivotado podemos ver cuántas ventas ha tenido cada producto en cada fecha.
+El método `pivot()` recibe tres parámetros, el parámetro **index**, el parámetro **columns** y el parámetro **values** los tres parámetros son necesarios para poder utilizar este método. Como puedes ver en el ejemplo, el nuevo [DataFrame](https://4geeks.com/es/lesson/pandas-dataframe) tiene como índices los valores de la columna `Fecha` además utilizó los valores de la columna `Producto` como nombre para las columnas en el nuevo **DataFrame** y los valores de la columna `Venta` como los valores para las columnas. En el **DataFrame** pivotado podemos ver cuántas ventas ha tenido cada producto en cada fecha.
 
 ## Qué es y como funciona el método pivot()
 
-El método `pivot()` es un método de la librería de Pandas que nos permite transformar los datos de un **DataFrame** al reorganizar sus datos en función de las columnas existentes. Permite reconfigurar los datos de manera que los valores en una columna se conviertan en nuevas columnas y se crucen con los valores de otra columna. Esto es especialmente útil para crear tablas dinámicas y resúmenes de datos.
+El método `pivot()` es un método de la librería de [Pandas](https://4geeks.com/es/lesson/pandas-en-python) que nos permite transformar los datos de un **DataFrame** al reorganizar sus datos en función de las columnas existentes. Permite reconfigurar los datos de manera que los valores en una columna se conviertan en nuevas columnas y se crucen con los valores de otra columna. Esto es especialmente útil para crear tablas dinámicas y resúmenes de datos.
 
 El método `pivot()` se utiliza principalmente en situaciones en las que se desea cambiar la estructura de los datos para un análisis más conveniente. Permite que los datos sean más legibles y accesibles al proporcionar una vista diferente  de los mismos. Este método retorna un nuevo **DataFrame** con los datos pivotados y no modifica el **DataFrame** original. 
 
@@ -146,6 +152,7 @@ En este ejemplo, hacemos uso del método `pivot()` y le pasamos una lista como v
 
 El método `pivot()` se utiliza para reorganizar los valores de un **DataFrame**, en este artículo vimos cómo funciona este método, cuáles son los parámetros que recibe y algunos ejemplos sobre cómo utilizarlo. Este método puede ser un poco confuso pero también puede ser muy útil en algunas ocasiones. Te invito a que sigas practicando con este método y que lo implementes en operaciones más complejas ya que esto te servirá para entender mejor cómo funciona, puedes buscar un dataset de información más grande y empezar a jugar con las diferentes variaciones que puedes hacer con este método.
 
-Espero que este atículo te aya sido de utiliadad y te haya servido para entender mejor como utilizar el método `pivot()` de Pandas, si te interesa aprender más sobre Pandas puedes visitar la pagina [pandas para machine learning](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning) de 4Geeks donde aprenderás los conceptos básicos sobre esta popular librería de Python.
+Esperamos que hayas disfrutado de este artículo y que encuentres la información útil para utilizar el método `pivot` de [Pandas en Python](https://4geeks.com/es/lesson/pandas-en-python) y simplificar la transformación y análisis de tus datos. Te invitamos a explorar otros recursos en nuestro blog para ampliar tus habilidades en [Python](https://4geeks.com/es/technology/python) y análisis de datos. Si deseas llevar tu aprendizaje al siguiente nivel, te animamos a [registrarte de forma totalmente gratuita](https://4geeks.com/es/pricing) en 4Geeks.com.
+
 
 ¡Diviértete en tu ruta de aprendizaje! 😉👋
