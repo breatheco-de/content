@@ -6,7 +6,7 @@ authors: [DF27ARTS]
 
 ---
 
-El método `apply()` es uno de los métodos más versátiles y útiles de la librería de [Pandas](https://4geeks.com/es/lesson/introduccion-a-pandas), este método te permite pasar una función y aplicarla en una columna específica dentro de un Dataframe o una Serie. En el siguiente ejemplo, veremos cómo utilizar esta función para realizar un cambio dentro de una columna en un Dataframe de usuarios.
+El método `apply()` es uno de los métodos más versátiles y útiles de la librería de [Pandas](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning), este método te permite pasar una función y aplicarla en una columna específica dentro de un Dataframe o una Serie. En el siguiente ejemplo, veremos cómo utilizar esta función para realizar un cambio dentro de una columna en un Dataframe de usuarios.
 
 ```py
 import pandas as pd
@@ -75,7 +75,7 @@ data_frame["columna"].apply(
 - **by_row**: este parámetro determina si la función se aplica a cada fila o columna del marco de datos como un objeto `Series` o cómo un objeto `ndarray`.
 - ** **kwargs**: argumentos para pasar cómo argumentos de palabra clave a la función. Estos se utilizan cuando la función necesita argumentos adicionales además de los valores de la `Serie` o `DataFrame`.
 
-## Ejemplos de uso del método apply()
+## Ejemplos de uso del método apply() de Pandas
 
 El método `apply()` de Pandas tiene bastantes usos para el procesamiento de datos tanto en data science cómo en machine learning, a continuación veremos algunos ejemplos básicos haciendo uso de este método.
 
