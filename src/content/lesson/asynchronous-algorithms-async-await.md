@@ -1,6 +1,6 @@
 ---
 title: "Creating asynchronous algorithms"
-subtitle: "Understand the difference between synchronous and asynchronous scripts, use Promises and master async and await."
+subtitle: "Understand the difference between synchronous and asynchronous scripts, use Promises, and master async and await."
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 status: "published"
 authors: ["kodi2fever","nachovz"]
@@ -124,10 +124,10 @@ fetchingImages();
 userIsWaiting();
 
 /*CONSOLE OUTPUT:
-	> Load them! 			// User starts waiting
-					// Now the user has to wait for the images to arrive, time: unknown... browser: frozen :(
-	> Images loaded! 		// After ?? seconds
-	> I don't like waiting 		// We don't want users to wait that long to see images
+	> Load them!			// User starts waiting
+					// Now the user has to wait for the images to arrive; time: unknown... browser: frozen :(
+	> Images loaded!		// After ?? seconds
+	> I don't like waiting		// We don't want users to wait that long to see images
 */
 ```
 
@@ -158,10 +158,10 @@ userIsWaiting();
  
 
 /*CONSOLE OUTPUT:
-	> Load them! 					// User starts waiting
-	> I don't like waiting 				// No waiting! DOM ready to see
+	> Load them!					// User starts waiting
+	> I don't like waiting				// No waiting! DOM ready to see
 							// ... and ?? seconds later
-	> Images loaded! OR Uh-oh something went wrong 	// Images!... Magic! || Oops, no images	
+	> Images loaded! OR Uh-oh something went wrong	// Images!... Magic! || Oops, no images	
 */
 ```
 
@@ -184,7 +184,7 @@ A promise is nothing more than the result of an asynchronous operation. It repre
 + ***Fulfilled***: It is when the asynchronous operation is finished and the promise returned a value as an object.
 + ***Rejected***: It takes place when the operation failed.
 
-***This is how a promise can be created*** 
+***This is how a promise can be created:*** 
 
 ```javascript
 let myPromise = new Promise(function(resolve, reject) {
@@ -220,7 +220,7 @@ Promise.resolve("I was resolved with this value").then(value => console.log(valu
 > I was resolved with this value
 
 ***********
-	A better approach will be initializing a variable 
+	A better approach will be to initialize a variable 
 	equals to the resolved Promise
 
 --- sample: 
@@ -234,7 +234,7 @@ Promise.resolve("I was resolved with this value").then(value => console.log(valu
 Promise.reject(new Error("I was rejected")).catch(error => console.log(error));
 ```
 
-+ ***then***: this method returns a promise and it can take up to 2 arguments. One for the resolved promise and one for the rejected promise. Above is an example that uses the ***then*** method and takes one argument.
++ ***then***: this method returns a promise, and it can take up to 2 arguments. One for the resolved promise and one for the rejected promise. Above is an example that uses the ***then*** method and takes one argument.
 
 ```javascript
 let promise = new Promise(function(resolve,reject){
@@ -247,7 +247,7 @@ promise.then(value => console.log(value));
 
 ```javascript
 let promise = new Promise(function(resolve,reject){
-	reject("I was rejected, and you can see me when you use catch method");
+	reject("I was rejected, and you can see me when you use the catch method");
 });
 promise.catch(error => console.log(error));
 ```
@@ -320,7 +320,7 @@ async function handlingAllPromises() {
 handlingAllPromises();
 ```
 
-### In the example above, instead of awaiting for a promise every new line, we could use the Promise.all method and wait for all the promises to be fulfilled.
+> ☝ In the example above, instead of awaiting for a promise on every new line, we could use the `Promise.all` method and wait for all the promises to be fulfilled.
 
 ```javascript
 let [first, second, third] = await Promise.all([promise1(), promise2(), promise3()]);
