@@ -15,7 +15,7 @@ Hasta ahora, hemos utilizado código JavaScript para ejecutar aplicaciones web s
 
 Comencemos diciendo que JavaScript por defecto es síncrono y con una sola secuencia, es decir: el código se ejecuta desde la línea 1 hasta el último, uno a la vez y en ese orden normalmente. Échale un vistazo a este ejemplo:
 
-### Sincróno (por defecto)
+### Síncrono (por defecto)
 
 ```javascript
 function correPrimero(){
@@ -72,7 +72,7 @@ Esto sucede porque la ***call stack*** en JavaScript lleva un registro de las fu
 
 Pero espera, hay más... Incluso podríamos pasar una *función* como argumento a otra función (no, esto no es un error tipográfico). La *función* enviada como parámetro se llama **función callback**. Echa un vistazo:
 
-#### Funciones callback
+### Funciones callback
 
 ```javascript
 1    function correPrimero(unaFuncion){
@@ -110,7 +110,7 @@ Hemos agregado una nueva función `unaTercera()` (línea 12), que muestra los re
 
 Ahora, supongamos que necesitamos cargar algunos archivos desde un servidor, específicamente, imágenes:
 
-### Carga síncrona de imágenes.
+### Carga síncrona de imágenes
 
 ```javascript
 function cargarImagen(){
@@ -125,17 +125,17 @@ cargarImagen();
 usuarioEsperando();
 
 /*RESULTADO EN CONSOLA
-	> ¡Cárgala! 			// El usuario comienza a esperar
-					// Ahora el usuario tiene que esperar a que lleguen las imágenes, hora: desconocida... navegador: congelado :(
+	> ¡Cárgala!			// El usuario comienza a esperar
+					// Ahora el usuario tiene que esperar a que lleguen las imágenes; hora: desconocida... navegador: congelado :(
 	> ¡Imagen cargada!		// Después de ?? segundos
-	> No me gusta esperar 		// No queremos que los usuarios esperen tanto tiempo para ver las imágenes
+	> No me gusta esperar		// No queremos que los usuarios esperen tanto tiempo para ver las imágenes
 */
 ```
 *Inaceptable...* 
 
 En un sitio web de la vida real, los usuarios tendrán que esperar mucho tiempo para ver algo, todo porque el procesamiento ***DOM*** tiene que esperar a que lleguen las imágenes desde el servidor; y esto es todo porque estamos usando el mismo hilo de ejecución para todo.
 
-### Asincrónico
+### Asíncrono
 
 La programación asíncrona es una forma de procesar líneas de código y manejar el resultado sin afectar el hilo principal. 
 
@@ -184,13 +184,12 @@ Una promesa no es más que el resultado de una operación asíncrona. Representa
 + ***Cumplida***: es cuando la operación asíncrona finaliza y la promesa devuelve un valor como un objeto.
 + ***Rechazada***: tiene lugar cuando la operación falló.
 
-
-***Así es como se puede crear una promesa.*** 
+***Así es como se puede crear una promesa:*** 
 
 ```javascript
 let myPomise = new Promise(function(resolve, reject) {
   setTimeout(function() {
-    resolve("Yo estaba resuelto");
+    resolve("La promesa se ha resuelto");
   }, 300);
 });
 myPomise.then((obj) => {
@@ -200,32 +199,32 @@ console.log(myPomise);
 
 /*RESULTADO EN CONSOLA:
 	> [Objeto de promesa] // Devolverá un objeto de promesa
-	> Yo estaba resuelto
+	> La promesa se ha resuelto
 */
 ```
 
 ### Funciones Resolve y Reject 
 
 + ***Resolve*** se utiliza para cambiar el estado de una promesa de pendiente a cumplida.
-+ ***Reject*** se utiliza para cambiar el estado de pendiente a rechazado.
++ ***Reject*** se utiliza para cambiar el estado de pendiente a rechazada.
 
-### Métodos importantes que debemos conocer al usar promesas.
+### Métodos importantes que debemos conocer al usar promesas
 
-+ ***resolve***: devuelve un objeto de promesa que tiene el status de resuelto con un valor.
++ ***resolve***: devuelve un objeto de promesa que tiene el estatus de resuelto con un valor.
 
 ```javascript
 	// Aquí Promise representa el objeto de la promesa
-	Promise.resolve("Yo estaba resuelta con este valor").then(value => console.log(value));
+	Promise.resolve("La promesa se ha resuelto con este valor").then(value => console.log(value));
 	
 	/*RESULTADO EN CONSOLA:
-	>"Yo estaba resuelta con este valor"
+	> La promesa se ha resuelto con este valor
 	
 	***********
-		Un mejor enfoque sería inicializar una variable.
+		Un mejor enfoque sería inicializar una variable
 		igual a la promesa resuelta
 		
 	--- ejemplo: 
-		let myResolvedPromise =  Promise.resolve("Yo estaba resuelta con este valor");
+		let myResolvedPromise =  Promise.resolve("La promesa se ha resuelto con este valor");
 	*/
 ```
 
@@ -239,15 +238,17 @@ Promise.reject(new Error("Fui rechazada")).then(error => console.log(error));
 
 ```javascript
 let promise = new Promise(function(resolve,reject){
-	resolve("Estaba resuelta y puedes verme cuando usas el método.");
+	resolve("Fui resuelta y puedes verme cuando usas el método resolve");
 });
 promise.then(value => console.log(value));
 ```
 
 + ***catch***: devuelve una promesa y se ocupa de las operaciones rechazadas. Es muy útil cuando se trata de depurar o mostrar errores.
+
+
 ```javascript
 let promise = new Promise(function(resolve,reject){
-	reject("Me rechazaron y puedes verme cuando usas el método catch.");
+	reject("Me rechazaron y puedes verme cuando usas el método catch");
 });
 promise.catch(error => console.log(error));
 ```
@@ -258,13 +259,13 @@ promise.catch(error => console.log(error));
 + ***Async*** es una función de JavaScript y puede contener una expresión ***await***.
 + ***Await*** pausa la ejecución de la función asíncrona y espera el resultado de una promesa.
 
-> ☝ Recuerda que las expresiones await solo son válidas dentro de funciones asíncronas. Si las usas fuera, tendrás un error de sintaxis.
+> ☝ Recuerda que las expresiones *await* solo son válidas dentro de funciones asíncronas. Si las usas fuera, tendrás un error de sintaxis.
 
 ```javascript
 function returnedPromiseHere() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("Yo soy las imágenes que vienen de la base de datos.");
+      resolve("Yo soy las imágenes que vienen de la base de datos");
     }, 1000);
   });
 }
@@ -272,15 +273,15 @@ async function useAsyncFunction() {
   console.log("Soy una tarea rápida");
   let result = await returnedPromiseHere();
   console.log(result);
-  console.log("Tuve que esperar a que terminara");
+  console.log("Tuve que esperar a que el await terminara");
 }
 useAsyncFunction();
 
 /*RESULTADO EN CONSOLA:
 	> Soy una tarea rápida
 	// Después de 1 segundo...
-	> Yo soy las imágenes que vienen de la base de datos.
-	> Tuve que esperar a que terminara
+	> Yo soy las imágenes que vienen de la base de datos
+	> Tuve que esperar a que el await terminara
 */
 ```
 
@@ -290,21 +291,21 @@ useAsyncFunction();
 function promise1() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("Estoy resuelto como 1");
+      resolve("Estoy resuelta como 1");
     }, 100);
   });
 }
 function promise2() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("Estoy resuelto como 2");
+      resolve("Estoy resuelta como 2");
     }, 200);
   });
 }
 function promise3() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("Estoy resuelto como 3");
+      resolve("Estoy resuelta como 3");
     }, 300);
   });
 }
@@ -320,13 +321,13 @@ async function handlingAllPromises() {
 handlingAllPromises();
 ```
 
-#### En el ejemplo anterior, en lugar de esperar una promesa en cada nueva línea, podríamos usar el método Promise.all y esperar a que se cumplan todas las promesas.
+> ☝ En el ejemplo anterior, en lugar de esperar (await) una promesa en cada nueva línea, podríamos usar el método `Promise.all` y esperar a que se cumplan todas las promesas.
 
 ```javascript
 let [first, second, third] = await Promise.all([promise1(), promise2(), promise3()]);
 ```
 
-### También puedes hacer funciones asíncronas como funciones de flecha(arrow).
+### También puedes hacer funciones asíncronas como funciones de flecha (arrow functions)
 
 ```javascript
 const handlingAllPromises = async () => {
@@ -346,7 +347,7 @@ Una buena manera de manejar los errores en las funciones asíncronas es usar las
 async function handeErrors() {
   let msg;
   try {
-    msg = await promise1(); // Notese que este método ya está escrito en su aplicación
+    msg = await promise1(); // Nótese que este método ya está escrito en su aplicación
     console.log(msg);
   } catch(err) {
     console.log(err);
@@ -367,7 +368,7 @@ async function fetchData(endpoint) {
 fetchData(http://dummyData/api/allUsers); // Este es un ejemplo de endpoint
 
 /*RESULTADO EN CONSOLA:
-	>[1, 2, 3, 4] // Aquí obtenemos todos los ID de los usuarios de la base de datos
+	> [1, 2, 3, 4] // Aquí obtenemos todos los ID de los usuarios de la base de datos
 */
 ```
 
