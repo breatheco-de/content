@@ -31,7 +31,7 @@ The origin of databases was the `.txt` and `.csv` files, which although they all
 
 ![Edgar Codd](https://github.com/breatheco-de/content/blob/master/src/assets/images/11fcd6d8-6177-4f42-b4e0-7b6475f24b0a.jpeg?raw=true)
 
-Faced with this scenario, at some point, a scientist would propose a way to do things better, and it was [Edgar](https://en.wikipedia.org/wiki/Edgar_F._Codd), who decided to redesign those files and created a standard way of storing data in files focused on performance and integrity. He teamed up with [Donald](https://en.wikipedia.org/wiki/Donald_D._Chamberlin) and together they created a language called SQL, which was designed to work with data in a very user-friendly way.
+Faced with this scenario, at some point, a scientist would propose a way to do things better, and it was [Edgar](https://en.wikipedia.org/wiki/Edgar_F._Codd), who decided to redesign those files and create a standard way of storing data in files focused on performance and integrity. He teamed up with [Donald](https://en.wikipedia.org/wiki/Donald_D._Chamberlin) and together they created a language called SQL, which was designed to work with data in a very user-friendly way.
 
 ### Components of a database
 
