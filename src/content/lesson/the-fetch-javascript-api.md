@@ -200,7 +200,7 @@ fetch('https://example.com/users')
     }
     throw new TypeError("Sorry, There's no JSON here!");
   })
-  .then(jsonifiedResponse => { /* do whatever you want with the JSONified response */ })
+  .then(jsonifiedResponse => { /* do whatever you want with the jsonified response */ })
   .catch(error => console.log(error));
 ```
 
