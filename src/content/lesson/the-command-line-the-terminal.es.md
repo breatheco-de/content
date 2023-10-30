@@ -28,7 +28,7 @@ La consola es realmente simple: es una pantalla negra que siempre está esperand
 
 Pero, ¿qué es un *comando*?
 
-Es algo así como "imprimir", "mostrar", o "eliminar" pero abreviado. Por ejemplo, si quieres decirle a la consola que liste todos los archivos en un directorio en particular, tienes que usar el comando `ls` así:
+Es algo así como "imprimir", "mostrar", o "eliminar" pero abreviado. Por ejemplo, si quieres decirle a la consola que enliste todos los archivos en un directorio en particular, tienes que usar el comando `ls` así:
 
 ```bash
 ls -l /path/to/directory
