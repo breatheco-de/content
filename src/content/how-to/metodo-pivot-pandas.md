@@ -2,7 +2,7 @@
 title: "¿Cómo usar el método pivot de Pandas?"
 subtitle: "Aprende a utilizar el método pivot de Pandas en Python para transformar y analizar tus datos de manera eficiente. Explora ejemplos y técnicas para aprovechar al máximo este versátil método de Pandas."
 tags: ["Python", "Pandas"]
-authors: [Tomas]
+authors: [DF27ARTS]
 
 ---
 
