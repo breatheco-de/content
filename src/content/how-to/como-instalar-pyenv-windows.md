@@ -1,7 +1,7 @@
 ---
 title: "¿Cómo instalar Pyenv en Windows?"
 subtitle: "Aprende a instalar Pyenv en tu Windows para gestionar fácilmente múltiples versiones de Python. Explora los pasos y consejos para sacar el máximo provecho de esta herramienta."
-tags: ["Python", "Pyenv", "Instalación de Software", "Desarrollo en Windows"]
+tags: ["Python", "Pyenv"]
 authors: [DF27ARTS]
 
 ---
