@@ -40,7 +40,7 @@ Other examples for every-day tokens:
 - Credit Card number proves you have a valid credit card.
 - Etc.
 
-### A security token it's more then just a number
+### A security token it's more than just a number
 
 Tokens used for authentication need to be more that normal just numbers, they need to be almost impossible to fake, predict or break.
 
@@ -57,7 +57,7 @@ There are several types of tokens you can use for your Autentication system like
 
 A hash is a **unique** alphanumeric number that gets generated from a specific seed or **value**, for example:
 
-*With Python* ![JWT Token Generation with Python](../../assets/images/python.png)
+*With Python* ![JWT Token Generation with Python](https://github.com/breatheco-de/content/blob/master/src/assets/images/python.png?raw=true)
 
 ```py
 import hash_function
@@ -68,7 +68,7 @@ unique_hash = hash_function(value)
 
 Explanation: the function `hash_function` will always return the exact same `unique_hash` if the same value is given, take a look at this demonstration, start typing on the input:
 
-*With Javascript* ![JWT Token Generation with Node.js](../../assets/images/js.png)
+*With Javascript* ![JWT Token Generation with Node.js](https://github.com/breatheco-de/content/blob/master/src/assets/images/js.png?raw=true)
 
 ```javascript
 const jwt = require('jsonwebtoken');
@@ -87,7 +87,9 @@ const unique_hash = jwt.sign(payload,
 
 Explanation: the function `jwt.sign` will always return the exact same `unique_hash` if the same value is given, take a look at this demonstration, start typing on the input:
 
+<!--hide-->
 <iframe src="https://full-stack-assets.breatheco.de/live-demos/security/hashing/" height="300" title="Hashing functions example"></iframe>
+<!--endhide-->
 
 Note: There are several popular hashing functions: MD5, Sha1, Sha256, Sha256, etc. 
 
@@ -112,7 +114,7 @@ The most simple way to implement autentication in your database and API:
 4. The `POST /token` endpoint will return the token to the front-end if everything is ok.
 5. Then, on every other endpoint in your database you will have to validate if the token exists in the request header and if it does you will have to validate it.
 
-![Autentication workflow](../../assets/images/authentication-diagram.png)
+![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/authentication-diagram.png?raw=true)
 
 ### Every token is a session
 

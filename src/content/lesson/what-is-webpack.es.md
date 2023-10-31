@@ -1,5 +1,5 @@
 ---
-title: "Qué es webpack?"
+title: "¿Qué es webpack?"
 subtitle: "Para los desarrolladores senior, es imposible pensar en desarrollar una aplicación JS sin Webpack. Gracias a Webpack, desarrollar front-end se siente bien y profesional por primera vez. Así que es hora de aprender lo que es webpack"
 cover_local: "../../assets/images/cdbe1bf9-2b6b-4c21-b127-eacc681d9c8d.png"
 textColor: "white"
@@ -16,17 +16,17 @@ A estas alturas, probablemente hayas sentido lo desorganizado y difícil que pue
 Webpack es una de esas cosas que odias las primeras veces y luego no puedes vivir sin él por el resto de tu vida.  ¡Por primera vez la codificación, Javascript realmente se siente increíble, limpia y profesional!
 
 <before-after width="400px"
-    before="../../assets/images/bc337938-55c4-40e2-a370-5d69bf084a3b.png" after="../../assets/images/41afcd74-81dd-4e6e-98ee-fc2642a07e7f.png" />
+    before="https://github.com/breatheco-de/content/blob/master/src/assets/images/bc337938-55c4-40e2-a370-5d69bf084a3b.png?raw=true" after="https://github.com/breatheco-de/content/blob/master/src/assets/images/41afcd74-81dd-4e6e-98ee-fc2642a07e7f.png?raw=true" />
 
-### Pero, ¿qué es Webpack?
+### Pero, ¿Qué es Webpack?
 
 Webpack es esta cosa que agarra todas las piezas de tu aplicación (archivos, imágenes, fuentes, JS, CSS, HTML, etc.) y las agrupa en un archivo grande.  De esa manera, puedes dividir tu aplicación en muchas partes y luego combinarlas al final del proceso de codificación.
 
 Luego, el navegador podrá solicitar (GET) ese archivo y mostrar / renderizar todo el sitio web ... ¡eso es todo!  Es muy similar a lo que sucede con los archivos ".exe" en Windows: toda tu aplicación está dentro del archivo .exe, y luego simplemente haces doble clic en él.
 
-![qué es webpack](../../assets/images/bdd432f7-adef-4023-976e-1ebd6abe70f7.gif)
+![qué es webpack](https://github.com/breatheco-de/content/blob/master/src/assets/images/bdd432f7-adef-4023-976e-1ebd6abe70f7.gif?raw=true)
 
-### Pero ¿por qué me importa el agrupamiento?
+### Pero ¿Por qué me importa el agrupamiento?
 
 Básicamente, no hay forma de mantener una aplicación grande si no la divides en varios archivos más pequeños (dividir y conquistar).
 
@@ -41,7 +41,7 @@ Pero eso es solo el comienzo, porque ahora que Webpack tiene el control sobre to
 La lista es interminable – será mejor que continuemos o estaremos aquí todo el día 🙂
 
 ## Esto es lo que necesitas saber para comenzar a utilizar Webpack ahora mismo.
-***
+
   
 <br />
 <br /> 
@@ -151,14 +151,13 @@ Arriba, le estamos diciendo a Webpack que el css-loader cargará cualquier archi
 De aquí en adelante, depende de ti – solo sigue instalando plugins y aprendiendo a configurarlos en tu archivo webpack.config.js . [Aquí hay una lista más detallada de los fantásticos plugins que puedes usar:](https://github.com/webpack-contrib/awesome-webpack)
 
 ## Configuración Básica 
-***
+
 
 No tienes que estar configurando Webpack todo el tiempo.  Puedes incluir el archivo de configuración en tu repositorio – de esta forma todo se sincroniza entre todos los entornos y desarrolladores.  También puedes guardar algunos archivos webpack.config.js como plantillas para futuros proyectos.
 
 También puedes encontrar y descargar configuraciones en línea que ya están completadas y ajustadas para varias arquitecturas de diferentes aplicaciones que están disponibles: React, Angular, Vanilla JS, WordPress, etc.
 
-[[info]]
-|:link: Hemos preparado un repositorio GIT con varias configuraciones dependiendo de tus necesidades – [<button>¡Haz clic!</button>](https://github.com/alesanchezr/webpack-tutorial)
+> :link: Hemos preparado un repositorio GIT con varias configuraciones dependiendo de tus necesidades – [<button>¡Haz clic!</button>](https://github.com/alesanchezr/webpack-tutorial)
 
 
 

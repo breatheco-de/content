@@ -16,7 +16,7 @@ By now, you have probably felt how disorganized and difficult working with Javas
 Webpack is one of those things you hate the first few times and then you cannot live without for the rest of your life.  For the first time coding, Javascript actually feels amazing, clean and professional!
 
 <before-after width="400px"
-    before="../../assets/images/bc337938-55c4-40e2-a370-5d69bf084a3b.png" after="../../assets/images/41afcd74-81dd-4e6e-98ee-fc2642a07e7f.png" />
+    before="https://github.com/breatheco-de/content/blob/master/src/assets/images/bc337938-55c4-40e2-a370-5d69bf084a3b.png?raw=true" after="https://github.com/breatheco-de/content/blob/master/src/assets/images/41afcd74-81dd-4e6e-98ee-fc2642a07e7f.png?raw=true" />
 
 ### But what is Webpack?
 
@@ -24,7 +24,7 @@ Webpack is this thing that grabs all your application pieces (Files, Images, Fon
 
 Then, the browser will be able to request (GET) that one file and display/render the whole website… that’s it!  It’s very similar to what happens with the ".exe" files in windows – all of your application is inside the .exe file, and then you just double-click it.
 
-![what is webpack](../../assets/images/bdd432f7-adef-4023-976e-1ebd6abe70f7.gif)
+![what is webpack](https://github.com/breatheco-de/content/blob/master/src/assets/images/bdd432f7-adef-4023-976e-1ebd6abe70f7.gif?raw=true)
 
 ### But why do I care about Bundling?
 
@@ -41,7 +41,7 @@ But that is only the beginning, because, now that Webpack has control over the w
 The list is endless – we better continue or we’ll be here all day 🙂
 
 ## Here is what you need to know to start using Webpack right now   
-***
+
   
 <br />
 <br /> 
@@ -151,14 +151,13 @@ Above, we are telling Webpack that the css-loader will load any imported ".css" 
 From here on, it’s up to you – just keep installing plugins and learning how to configure them in your webpack.config.js file. [Here is a more detailed list of awesome plugins you can use:](https://github.com/webpack-contrib/awesome-webpack)
 
 ## Basic Configuration
-***
+
 
 You don’t have to be configuring Webpack all the time.  You can include the configuration file in your repository – that way everything is synced between all the environments and developers.  You can also save some webpack.config.js files as templates for future projects.
 
 You can also find and download online configurations that are already completed and fine-tuned for various different application architectures that are out there: React, Angular, Vanilla JS, WordPress, etc.
 
-[[info]]
-|:link: We have prepared a GIT repository with several configurations depending on your needs – [<button>click me!</button>](https://github.com/alesanchezr/webpack-tutorial)
+> :link: We have prepared a GIT repository with several configurations depending on your needs – [<button>click me!</button>](https://github.com/alesanchezr/webpack-tutorial)
 
 
 

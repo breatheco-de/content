@@ -21,10 +21,9 @@ Puedes dividir un proceso de autenticación estándar en 5 pasos principales:
 4. Si se encuentra un usuario, genera un `token` para ese usuario y responde status_code=200 al front-end.
 5. El front-end utilizará ese `token` a partir de ahora para realizar cualquier solicitud futura.
 
-![Autentication workflow](../../assets/images/authentication-diagram.png)
+![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/authentication-diagram.png?raw=true)
 
-[[info]]
-| :point_up: i no sabes lo que es un token, te recomiendo [esta lectura](/lesson/token-based-api-authentication).
+> :point_up: Si no sabes lo que es un token, te recomiendo [esta lectura](/lesson/token-based-api-authentication).
 
 ## ¿Qué es JWT?
 
@@ -37,8 +36,7 @@ Hay muchas formas de crear tokens: Basic, Bearer, JWT, etc. Todas ellas son dife
 |  Token JWT    | eyJhbGciOiJIUzI1NiIsInR5c.eyJzdWIiOFt2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpM |
 
 
-[[info]]
-| :point_up: Como puedes ver, los Tokens JWT son más grandes que los otros dos tipos de token.
+> :point_up: Como puedes ver, los Tokens JWT son más grandes que los otros dos tipos de token.
 
 **JSON Web Token o JWT es un estándar abierto para crear tokens**
 
@@ -52,11 +50,11 @@ En pocas palabras: JWT es una alternativa increíble porque el `Token básico`o 
 
 Con los tokens JWT no necesitas una base de datos, el propio token contiene toda la información necesaria.
 
-![Autentication workflow](../../assets/images/jwt-vs-bearer-token.png)
+![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-vs-bearer-token.png?raw=true)
 
-## ## Estructura del token JWT
+## Estructura del token JWT
 
-![Autentication workflow](../../assets/images/jwt-token-structure.png)
+![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-token-structure.png?raw=true)
 
 Puedes observar que el string o cadena está dividida en tres secciones separadas por un (.). Cada sección tiene su significado:
 | Section name   |                                                                      |
@@ -71,7 +69,7 @@ Recomendamos encarecidamente el uso de [la librería JWT extendida](https://gith
 
 ### 1) Incluir la librería JWT en la configuración de tu aplicación Flask
 
-``py
+```py
 from flask_jwt_extended import JWTManager
 
 # ya debes tener esta línea en tu proyecto
@@ -81,7 +79,7 @@ app = Flask(__name__)
 # Configura la extensión Flask-JWT-Extended
 app.config["JWT_SECRET_KEY"] = "super-secret" # ¡Cambia las palabras "super-secret" por otra cosa!
 jwt = JWTManager(app)
-``
+```
 
 ### 2) Crear un endpoint para generar nuevos tokens
 
@@ -145,22 +143,27 @@ En el lado del front-end necesitamos dos pasos principales: Crear un nuevo token
 Basándonos en los endpoints que construimos anteriormente tenemos que `POST /token` con la información del nombre de usuario o username y la contraseña o password en el body de la petición.
 
 ```js
-const login = (username, password) => {
-     fetch(`https://your_api.com/token`)
-         .then(resp => {
-              if(resp.ok) resp.json()
-              else if(resp.status === 401){
-                    console.log("Invalid credentials")
-              }
-              else if(resp.status === 400){
-                 console.log("Invalid email or password format")
-              }else throw Error('Uknon error')
-         })
-         .then(data => {
-             // guarda tu token en el localStorage
-             localStorage.setItem("jwt-token", data.token);
-         })
-         .catch(error => console.error("There has been an uknown error", error))
+const login = async (username, password) => {
+     const resp = await fetch(`https://your_api.com/token`, { 
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ username: "joe", password: "1234" }) 
+     })
+
+     if(!resp.ok) throw Error("There was a problem in the login request")
+
+     if(resp.status === 401){
+          throw("Invalid credentials")
+     }
+     else if(resp.status === 400){
+          throw ("Invalid email or password format")
+     }
+     const data = await resp.json()
+     // save your token in the localStorage
+    //also you should set your user into the store using the setStore function
+     localStorage.setItem("jwt-token", data.token);
+
+     return data
 }
 ```
 
@@ -170,28 +173,30 @@ Supongamos que estoy usando la aplicación de front-end y acabo de iniciar sesi�
 
 ```js
 // asumiendo que "/protected" es un endpoint privado
-const getMyTasks = (username, password) => {
-     // recupera el token de localStorage
+const getMyTasks = await (username, password) => {
+     // retrieve token form localStorage
      const token = localStorage.getItem('jwt-token');
 
-     fetch(`https://your_api.com/protected`, {
+     const resp = await fetch(`https://your_api.com/protected`, {
         method: 'GET',
-        headers: { 'Authorization': 'Bearer '+token } // ⬅ authorization token
+        headers: { 
+          "Content-Type": "application/json"
+          'Authorization': 'Bearer '+token // ⬅⬅⬅ authorization token
+        } 
      })
-         .then(resp => {
-              if(resp.ok) resp.json();
-              else if(resp.status === 403){
-                   console.log("Missing or invalid token");
-              }
-              else{
-                   throw Error('Uknon error');
-              }
-         })
-         .then(data => {
-             // éxito
-             console.log("This is the data your requested", data);
-         })
-         .catch(error => console.error("There has been an uknown error", error));
+     if(!resp.ok) throw Error("There was a problem in the login request")
+
+     else if(resp.status === 403){
+         throw Error("Missing or invalid token");
+     }
+     else{
+         throw Error('Uknon error');
+     }
+
+     const data = await resp.json();
+     console.log("This is the data you requested", data);
+     return data
+
 }
 ```
 

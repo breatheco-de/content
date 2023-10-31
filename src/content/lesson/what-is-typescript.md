@@ -8,7 +8,7 @@ tags: ["typescript"]
 status: "draft"
 
 ---
-Javascript is a language that has a weak typing, this means that the variables are declared without a type and depending on the value assigned to it is the type of data that the variable assumes. We can modify, operate and compare the values ​​between them without having to do a previous conversion.
+JavaScript is a language that has a weak typing, this means that the variables are declared without a type and depending on the value assigned to it is the type of data that the variable assumes. We can modify, operate and compare the values ​​between them without having to do a previous conversion.
 
 In the following example we can see how we change the data type without any type of conversion:
 
@@ -22,15 +22,11 @@ name = 33
 console.log(typeof name)
 // "number"
 ```
-## ¿What is Typescript?
+## What is Typescript?
 
-Typescript is a programming language that adds new features to Javascript, this is known as a superset. A superset is written based on another programming language, applying improvements to the original language. That is why Typescript was written about javascript: to add new features that you will see later.
+Typescript is a programming language that adds new features to Javascript, this is known as a superset. A superset is written based on another programming language, applying improvements to the original language. That is why Typescript was written about JavaScript: to add new features that you will see later.
 
 Typescript is the solution to many of the JavaScript problems, it is designed for the development of robust applications, implementing features in a language that allow us to develop more advanced tools for application development.
-
-Typescript es un lenguaje de programación que agregar nuevas funcionalidades a Javascript, esto es conocido como un superset.   Un superset se escribe tomando como base otro lenguaje de programación aplicando mejoras en el lenguaje original.   Por esta razón Typescript se escribió sobre javascript para agrega nuevas funcionalidades que veres más adelante.
-
-Typescript es la solución a muchos de los problemas de JavaScript, está pensado para el desarrollo de aplicaciones robustas, implementando características en un lenguaje que nos permitan desarrollar herramientas más avanzadas para el desarrollo de aplicaciones.
 
 ## Static typing
 
@@ -38,10 +34,10 @@ Static typing defines that:
 
 - Variables have only one data type
 
-- The values ​​assigned to the variables must have the same type as the variable.
+- The values assigned to the variables must have the same type as the variable.
 
 
-The following example is declaring the variable `message` of type` string`. The values ​​must have the same data type as the variable, for this reason the string `Learning Typescript` is assigned
+The following example is declaring the variable `message` of type `string`. The values must have the same data type as the variable, for this reason the string `Learning Typescript` is assigned
 
 ```javascript
 let message: string;
@@ -97,7 +93,7 @@ arraytupla = [23, 'Hello World', true]
 let notDataType:void = undefined
 ```
 
-- **Enum**: It allows defining possible values ​​that can be assigned to the variable.
+- **Enum**: It allows defining possible values that can be assigned to the variable.
 ```javascript
 enum Animals {cat, lion, dog, cow, monkey}
 let c: Animals = Animals.cat;
@@ -115,7 +111,7 @@ wherever = "people";
 
  As in any other object-oriented programming language, classes in TypeScript have fields, constructors, properties, and functions. Classes act as containers that encapsulate code to be consumed in an easier way.
 
-When defining a class we use the word `class` and close with curly brackets ` {} `, as well as in c# and java, and then we define inside our fields, constructors, properties and functions.
+When defining a class we use the word `class` and close with curly brackets `{}`, as well as in c# and java, and then we define inside our fields, constructors, properties and functions.
 
 ```javascript
 
@@ -150,7 +146,7 @@ const newUser = new User('Juanin','JanJarri');
 console.log('The new user is:', newUser.fullName())
 
 ```
-In the previous example a `constructor ()` method is defined that receives the parameters `name: String, lastName: String`, these parameters are assigned to the internal values ​​of the class using the` this` method to reference them.
+In the previous example a `constructor ()` method is defined that receives the parameters `name: String, lastName: String`, these parameters are assigned to the internal values of the class using the` this` method to reference them.
 
 In addition, the `Properties` allow us to obtain and assign data from variables or internal methods of the class. In the example, the `setName ()` method allows assigning the value received as a parameter to the internal property called `name`. The `getName ()` method allows obtaining the value of the internal property 'name'.
 
@@ -196,7 +192,7 @@ let firstLake: Lakes = {
 As you can see, the order in which you assign a value to these properties does not matter. However, you cannot omit a value.
 You must assign a value to each property to avoid errors when compiling the code.
 
-In this way, TypeScript ensures that none of the required values ​​are lost by mistake.
+In this way, Typescript ensures that none of the required values are lost by mistake.
 
 ### Optional properties
 
@@ -226,4 +222,4 @@ interface Lakes {
 
 ## Conclusion
 
-This lesson introduces all the data types that are available in TypeScript. We learned how assigning a different type of value to a variable will give you errors in TypeScript. This check will help you avoid many errors when working on large and robust applications.
+This lesson introduces all the data types that are available in Typescript. We learned how assigning a different type of value to a variable will give you errors in Typescript. This check will help you avoid many errors when working on large and robust applications.

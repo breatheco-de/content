@@ -4,13 +4,13 @@ subtitle: "Antes de avanzar hacia el desarrollo, necesitamos una estrategia (His
 cover_local: "../../assets/images/980ce2e0-b73e-4019-8e97-3510e3028e10.jpeg"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["user story"]
+tags: ["agile-methodologies", "scrum"]
 status: "published"
 
 ---
 
-## Que es una Historia de usuario("User Story")?
-***
+## ¿Qué es una Historia de usuario("User Story")?
+
 
 <iframe width="1185" height="667" src="https://www.youtube.com/embed/LGeDZmrWwsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -18,14 +18,14 @@ status: "published"
 
 Lo más difícil de hacer en software no es programar, ¡es diseñar el sistema! Y NO estamos hablando de diseño gráfico ... estamos hablando de la arquitectura, modelado de datos, requisitos del cliente, etc. Algunas de esas cosas son más difíciles que otras, pero hacer una lista de requisitos es probablemente una de las artes más difíciles.
 
-**¿Qué es una Característica?** Es una funcionalidad que tiene la aplicación! Por ejemplo: registrarse, votar, comprar, etc.
+**¿Qué es una Característica?** ¡Es una funcionalidad que tiene la aplicación! Por ejemplo: registrarse, votar, comprar, etc.
 
 Describir una característica parece fácil, pero puede ser desafiante: ¿dónde debería comenzar? ¿Qué tan detallado debe ser? ¿Qué tan técnico puedes ser? Pero, no te preocupes ... ¡las "Historias de usuario" han llegado al rescate!
 
 Las historias de usuarios se han vuelto muy populares como estándar de documentación basado en características, se enfoca en lo esencial. Son fáciles de entender por todos los involucrados (no solo los desarrolladores) y fáciles de probar.
 
 ### ¿Qué es tan Especial de ellas?
-***
+
 
 Una historia de usuario es como tener una conversación con su futuro usuario. Deben estar escritos en elenguaje no técnico estándar para niños de 12 años con poca capacidad de atención:
 
@@ -34,10 +34,10 @@ Una historia de usuario es como tener una conversación con su futuro usuario. D
 
 #### Aquí hay unos Ejemplos:
 
-![ejemplos de historias de usuarios](../../assets/images/032a818d-e4d7-4276-8195-ce5d8a3edcf6.png)
+![ejemplos de historias de usuarios](https://github.com/breatheco-de/content/blob/master/src/assets/images/032a818d-e4d7-4276-8195-ce5d8a3edcf6.png?raw=true)
 
 ### ¿Cómo debes escribir las historias de usuario?
-***
+
 
 Es tan simple que se vuelve complicado ... lo más importante es: (1) Mantener un lenguaje simple, (2) Ser breve, y, (3) Ser específico:
 
@@ -70,7 +70,7 @@ Hay millones de herramientas; Hemos buscado en Google: [haz clic aquí para acce
 
 ### Un fichas o post-it y un plumón
 
-![ejemplos de historias de usuario](../../assets/images/94f4a28c-a93c-4e05-9f86-ce64abc2ff7b.png)
+![ejemplos de historias de usuario](https://github.com/breatheco-de/content/blob/master/src/assets/images/94f4a28c-a93c-4e05-9f86-ce64abc2ff7b.png?raw=true)
 
 La teoría es simple - si usas una ficha o post-it más grande que 7 x 13 cm, escribirás demasiado. Del mismo modo, si usas algo más pequeño que un plumón (como un bolígrafo o lapicero), escribirás demasiado.
 
@@ -78,7 +78,7 @@ Se supone que las historias de usuario son cortas y dulces. Se supone que ayudan
 
 Al final, tendrás una enorme "lista de tareas pendientes", con las historias pasando desde "Tareas pendientes" a "Por Hacer" y, finalmente, a "Hecha". Cada historia se asignará a un desarrollador al comienzo de cada reunión de planificación.
 
-![emeplo de historias de usuario](../../assets/images/faaa70b0-5343-43f0-8565-994c9b40ab8b.jpeg)
+![emeplo de historias de usuario](https://github.com/breatheco-de/content/blob/master/src/assets/images/faaa70b0-5343-43f0-8565-994c9b40ab8b.jpeg?raw=true)
 
 ### ¿Cuándo está realmente "hecha" una historia?
 
@@ -98,7 +98,7 @@ Para escribir excelentes criterios de aceptación, debemos pensar no sólo en el
 + No puedo pagar con una tarjeta VISA con un número equivocado
 
 ## ¡No te obsesiones!
-***
+
 
 Por favor, este es un programa sobre desarrollo web full stack. No tienes que escribir las mejores historias jamás hechas. ¡Inténtalo! Tómate un tiempo para pensar en tus historias, pero no te quedes estancado durante el proceso.
 

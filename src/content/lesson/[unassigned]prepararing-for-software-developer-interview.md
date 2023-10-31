@@ -18,6 +18,6 @@ Some inspiration:
 6. How to address the lack of experience.
 7. How to address the lack of college degree.
 8. Being curious is important for the employer.
-9. Collaboration is imprtant for the emplouer.
+9. Collaboration is imprtant for the employer.
 10. Being ready to show your code.
-11. Baing ready to code on the spot.
+11. Being ready to code on the spot.

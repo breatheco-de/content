@@ -1,301 +1,240 @@
 ---
-title: "Learning to code with Python"
-subtitle: "Python is the fastest-growing programing language in the world, it does almost everything you can think of and the best news is that it's one of the easiest to learn"
+title: "Learning to program with Python"
+subtitle: "Python is a programming language with the fastest-growing community in the world, it does almost everything you can think of, and the best news is that it's one of the easiest to learn."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 status: "published"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["javascript"]
+date: "2020-10-19T12:36:31-04:00"
+tags: ["python"]
 
 ---
 
-## Why python?
+# Why Python?
 
-Python is the first language you should learn, but certainly not the only one.
+Python is the first language you should learn, but obviously not the only one.
 
-- MIT decided to teach python as first language because its syntax prevents for lots of errors, specially because it has identation and no semicolons.
+- MIT decided to teach Python as the first language because its syntax prevents many errors, especially because it uses indentation instead of semicolons.
 
 ## Variables
 
 <iframe width="830" height="467" src="https://www.youtube.com/embed/Q-eob0WBKs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<div align="right"><small><a href="https://www.youtube.com/embed/Q-eob0WBKs0">Click here to open video in a new window</a></small></div>
+<div align="right"><small><a href="https://www.youtube.com/embed/Q-eob0WBKs0">Click here to open the demo in another window</a></small></div>
 
-Variables are not a new concept, anybody who knows math is familiar with the concept of variables.
-
-A variable is a container in which you can store any data.  For example, you can have the following variable:
+A variable is a container in which you can store any data. For example, you can have the following variable:
 
 ```python
-age = 24;
+age = 24
 ```
 
-![what is javascript](../../assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif)
+![variables](https://github.com/breatheco-de/content/blob/master/src/assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif?raw=true)
 
-With virtually any programming language you can create as many variables as you want or need.  To start you have to **declare that variable’s name** using the term: *var* followed by a _unique_ name (relative to the document/project).
+With almost any programming language, you can create as many variables as you want or need. To start, in Python, you must **declare the name of that variable** with a _unique_ name (relative to the value or what it receives)
 
-The **variable name** is the most effective way we have to describe the variable content, so use it wisely.  It is important to choose a name that clearly tells you (and other coders) about the data that is being stored in the variable.  If we choose a bad or an ambiguous name, our code will be almost impossible to understand, ergo it becomes unusable.  For example, let’s say we change the name of our "age" variable to `a`, that would be:
+The **variable name** is the most effective way to describe the content of a variable, use it wisely. It is important to choose a name that clearly indicates to you and other programmers what data is being stored in the variable. If you choose a bad or ambiguous name, your code will be almost impossible to understand, making it unusable. For example, let's change the name of our variable "age" to "a":
 
 ```python
-a = 24 ;
+a = 24
 ```
 
-As you can see above, the new variable name does not tell us anything about the data that is being stored and why we are using it.
+As you can see, the new variable name doesn't tell us anything about the data being stored and why it's being used.
 
-Choosing the name for your variable really matters, so we beg you not to use generic names.  Be descriptive!  A vague name will make it difficult to understand the purpose of the variable, especially for other coders (including your future self).
+Choosing the name of your variable is very important, so please don't use generic names. Be descriptive! A vague name will make it difficult to understand the purpose of the variable, especially for other programmers (including yourself).
 
 ## Assigning a Value to Variables
-***
 
-As developers, we can set the value of a variable at any time using the `=` operator.  You do not have to set a value when you first declare a variable.  You can set, or re-set (override) the value as many times as you want, whenever you want.  The value will always be the last one you set.  Below are a few examples on how to set values to variables:
+As developers, we can set the value of a variable using the `=` operator. You don't have to set the value of a variable when you declare it for the first time. You can set or reset (overwrite) the value as many times as you want and whenever you want. The value is always the last one you set. Here are some examples of how to set values to variables:
 
 ```python
-a = 24;
-a = 25;
-a = 80;
+a = 24
+a = 25
+a = 80
 ```
 
-### No special keywords to declare a variable
-***
-
-Other languages lik javascript make you use a special statement before the variable name in order to "declare" the variable for the first time like this:
-
-```javascript
-let age = 12;
-```
-
-Other -strongly typed- languages like Typescript also make you declare the type of value that the variable will contain inside:
-
-```typescript
-let age : number = 12;
-```
-
-> Note: This means that the variable age will always contain a number inside.
-
-But Python does not need any type declaration or special keywords, just type `age = 12` and that will be your new variable `age` with value 12.
-
-Variable values are subject to change over time.  To retrieve a variable value you can print the value on the screen at any time.  Each language has its own methods to print; this is how you do it in JavaScript:
+The values of variables can change over time. To retrieve the value of a variable, you can print its value on the screen at any time. Every programming language has its own methods for printing. In Python, we use `print`.
 
 <iframe src="https://repl.it/F0R2/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<div align="right"><small><a href="https://repl.it/F0R2/1?lite=true" >Click to open demo in a new window</a></small></div>
-
-
+<div align="right"><small><a href="https://repl.it/F0R2/1?lite=true" > Click here to open the demo in a new window.</a></small></div>
 
 ## Data Types
-***
-Variables can have different types of values.  Some of them are available only in specific programming languages, but almost all of them have the following types
 
-|**Data-Type**   |**Posible Values**   |**Description**   |
+Variables can have different types of values:
+
+|**Data-Type**   |**Possible Values**   |**Description**   |
 |:---------------|:--------------------|:-----------------|
-|Boolean         |True \| False         |Booleans are meant for logical operations.  If you ask a computer something like: "Does X equal 3?"  It will answer with a boolean (true or false).    |
-|String        |Any series of characters     |Strings are the only way we have to store words (series of characters).  Note: strings need to be encased within quotation marks.    |
-|Number    |Only numbers     |Integer numbers, negative numbers, decimal numbers, floats, etc.  All possible types of numbers.<br>Note: If you enclose a number within quotation marks, JavaScript will treat it as a string.    |
-|List     |A list or array of any type of value    |A succession of any type of values.  They can be mixed types of values; for example: [2, 3, ‘Word’, 2, 1, null, 232, 5, 3, 23, 234, 5, ‘hello’].     |
-|Objects    |Any object    |You can create you own data-types with more complex operations.  We will talk more about this later.    |
-|None     |Only null    |Is used to specify when the database or any other function does not return anything.   |
+|Booleano         |True \| False        |Booleans are intended for logical operations. If you ask a computer something like, "Is X equal to 3?" it will respond with a boolean (true or false).   |
+|String        |Any string of characters     |Strings are the only way we have to store words (sequences of characters). Note: strings must be enclosed in quotes.  |
+|Number   |Numbers only     |Integers, negative numbers, decimals, floats, etc. All possible types of numbers. <br>  |
+|Undefined     |Empty    |When a variable has no assigned value, it remains undefined.   |
+|Array     |A list with any type of value.   |A sequence of any type of values. They can be mixed types of values; for example: [2, 3, 'Word', 2, 1, null, 232, 5, 3, 23, 234, 5, 'hello'].     |
+|Objects	    |Any object    |You can create your own data types with more complex operations. We will talk more about this later.  |
+|Null    |Only Null    |Used to specify when the database or any other function does not return anything.   |
 
 <iframe src="https://repl.it/F05K/3?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<div align="right"><small><a href="https://repl.it/F05K/3?lite=true">Click to open demo in a new window</a></small></div>
-
-
-
+<div align="right"><small><a href="https://repl.it/F05K/3?lite=true">Click here to open the video in a new window</a></small></div>
 
 ## Operations
-***
 
-What operations can I do to variables?  Depending on the data-type you have a few different possibilities:
+What operations can I perform with variables? Depending on the data type, you have some different possibilities:
 
-+ Numbers are easy – you can do whatever math operation you want.
-+ Strings can be concatenated (merged), split, converted to Upper or Lower Case, etc.
-+ You cannot do much to Null, Booleans and Undefined data-types.
-+ We will talk about Arrays and Objects in a different section.  They require a lot more attention.
++ Numbers are easy - you can perform any mathematical operation you want.
++ Strings can be concatenated (merged), split, converted to uppercase or lowercase, etc.
++ Not much can be done with null, boolean, and undefined data types.
++ We will talk about Arrays and Objects in another section. They require much more attention.
 
 ## Functions
-***
 
-Functions are pieces of code that can be re-used several times during runtime regardless of their position in the code.  There are hundreds of reasons to use functions, but here are the 2 most important ones:
+Functions are pieces of code that can be reused multiple times during runtime, regardless of their position in the code. There are hundreds of reasons to use functions, but here are the top 2:
 
-+ Divide and conquer: It is always easier to split your problems into several smaller problems.  This will become your biggest challenge when solving complex problems.  Functions will be your best tools for abstraction.
-+ Re-use: Any normal development will take at least 5,000 lines of code.  It is redundant and inefficent to keep writing the same code over and over again.
++ Divide and conquer: it's always easier to break your problems into smaller problems. This will become your biggest challenge when solving complex problems. Functions will be your best tools for abstraction.
++ Reusability: any normal development will take at least 5,000 lines of code. It's redundant and inefficient to keep writing the same code over and over again.
 
 ## Declaring a Function
-***
 
-To declare a function in JavaScript you have to start using the word `function` followed by the name you want for that function.
+To declare a function in Python, you start with the `def` keyword followed by the name you want to give to that function.
 
-You must then specify the parameters (inputs) that the function is going to have within parentheses.
+Then you specify the parameters (inputs) that the function will accept within parentheses.
 
-Then, you will open a curly bracket and write the code that your function must always perform.  Once you are finished, you then close the curly bracket and now your function is ready to be used!
+Next, you start a new indented block of code where you write the code that your function should perform. Once you're done with the function's code, you simply stop the indentation.
 
-**Note:**  To return something you use the `return` word at any time within the content of your function (between the curly brackets).
+Note: To return a value from the function, you use the `return` keyword followed by the value you want to `return`. You can place the return statement anywhere within the function's code block, and the function will exit and return that value.
 
-![learn to code in javascript](../../assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif)
+> Here is an example:
 
 ```python
-def multiply (param1, param2):
-    return param1 * param2;
+def multiply(param1, param2):
+    result = param1 * param2
+    return result  # This is how you return a value from the function
 ```
+
 <iframe src="https://repl.it/F10t/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<div align="right"><small><a href="https://repl.it/F10t/0?lite=true">Click to open demo in a new window</a></small></div>
+<div align="right"><small><a href="https://repl.it/F10t/0?lite=true">Click here to open the video in a new window</a></small></div>
 
-## Parameters and Function Scope
-***
+## Function Parameters and Scope
 
-The scope of a variable determines where that variable is available to be used.  There are two main types of scopes:
+The scope of a variable determines where that variable is available for use. There are two main types of scopes:
 
-### Local Variables
+## Local Variables
 
-A local variable is available only inside the scope of the nearest curly brackets.  For example, variables that are passed as parameters into functions are only available within the content of that particular function.
+A local variable is only available within the scope of the nearest curly braces. For example, variables passed as parameters to functions are only available within the content of that specific function.
 
-### Global Variables
+## Global Variables
 
-If you declare a variable at the beginning of your code, it will be available throughout the entire code – including during the content of any particular function.
+If you declare a variable at the beginning of your code, it will be available throughout the entire code, even within the content of any particular function.
 
 <iframe src="https://repl.it/F10t/2?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<div align="right"><small><a href="https://repl.it/F10t/2?lite=true">Click to open demo in a new window</a></small></div>
+<div align="right"><small><a href="https://repl.it/F10t/2?lite=true">Click here to open the video in a new window</a></small></div>
 
 ## Logical Operations
-***
 
-Computers think of everything in black or white.  Everything is either True or False.  All the decisions in a computer are reduced into a simple **Boolean**.  You can prepare a computer to solve particular problems if you write code that asks the proper questions required to solve that problem.
+Computers think in black or white. Everything is true or false. All decisions on a computer boil down to a simple boolean. You can prepare a computer to solve particular problems by writing code that asks the right questions to solve that problem.
 
-For example, if I want a computer to give candy only to kids older than 13 years of age, I can instruct the computer to ask:
+For example, if I want a computer to give candy only to children older than 13 years old, I can tell the computer to ask.
 
- **Is this kid’s age greater than 13?  Yes or no?**
+ **Is this child's age greater than 13 years? Yes or no?**
 
-**In JavaScript, you can instruct the computer to do the following logical operations:**
+**In python, you can ask the computer to do the following logical operations:**
 
-|**Operation**  |**Syntaxis**   |**Examples**   |
+|**Operation**  |**Syntax**   |**Examples**   |
 |:--------------|:--------------|:--------------|
-|Is none or null|is None        |`if author is None:` |
-|Equal to       |==             |Is 5 == 5? True!<br>Is 5 == 4? False!<br>Is 5 == '5'? True!    |
-|Not Equal to   |!=             |Is 5 != 5? False!<br>Is 5 != '5'? False!<br>Is 1 != 'Hello' True!   |
+|Equal to     |==             |Is 5 == 5? True!<br>Is 5 == 4? False!<br>Is 5 == '5'? True!    |
+|No Igual a    |!=             |	Is 5 != 5? False!<br>Is 5 != '5'? False!<br>Is 1 != 'Hello'? True!   |
 |Greater than   |>              |Is 5 > 5? False!<br>Is 6 > 3? True!    |
-|Less than      |<              |Is 6 < 12? True            |
-|Greater equal  |>=             |Is 6 <= 6? True<br>Is 3 <= 6? True    |
-|Less or equal   |<=            |You get the idea 🙂       |
+|Less than    |<              |Is 6 < 12? True           |
+|Greater or Equal |>=             |Is 6 <= 6? True<br>Is 3 <= 6? True    |
+|Less or Equal  |<=            |You get the idea 🙂       |
 
-To create really useful operations, you can combine several operations in the same question using AND, OR and NOT.
+To create really useful operations, you can combine multiple operations in the same question using AND, OR, and NOT (and, or, or not respectively).
 
-You can group the logical operations in parentheses, and also use nested parentheses for several operations at the same time.
+You can group logical operations within parentheses and use nested parentheses to perform multiple operations at the same time.
 
-|**Operation**   |**Syntaxis**   |**Examples**   |
+|**Operation**   |**Syntax**   |**Examples**   |
 |:---------------|:--------------|:--------------|
-|AND             |&&             |With AND, both sides HAVE TO BE TRUE in order for everything to become true.<br>Is (5 == 5 && 3 > 1) ? True!<br>Is ('Ramon' == 'Pedro' && 2 == 2) ? False!    |
-|OR     |\|\|     |Is ('Oscar' != 'Maria' OR 2 != 2)? True!<br>Is (5 == '5' AND 'Ramon' != 'Pedro') OR (2 == 2)? True!   |
-|NOT     |!     |NOT will be the exact opposite of the result of the logical operator:<br>Is !(5 > 5)? True!<br>Is !(True)? False!    |
+|AND             |`and`             |With AND, both sides MUST BE TRUE for everything to become true.<br>Is (5 == 5 and 3 > 1) true? True!<br>Is ('Ramon' == 'Pedro' and 2 == 2) false? False    |
+|OR     |`or`     |Is ('Oscar' != 'Maria' or 2 != 2) true? True!<br>Is (5 == '5' and 'Ramon' != 'Pedro') or (2 == 2) true? True!   |
+|NOT     |`not`     |NOT will be exactly the opposite of the logical operator's result:<br>Is not (5 > 5) true? True!<br>Is not (True) false? False!    |
 
+## Controlling Your Code's Flow
 
-## Control the Flow of Your Code
-***
-
-Okay, now is when everything starts getting fun!  To control your application’s flow you will have several options, and you are going to use each of them every single day.  So, you must to become comfortable using them.
+Now is when things start to get fun! To control your application's flow, you have several options, and you'll use them every day. So, you should feel comfortable using them.
 
 ### If…else…
 
-The first tool you have is the `if…else` conditional.  It is very easy.  You can tell the computer to skip any part of your code depending on the current value of your variables.
+The first tool you have is the `if...else` conditional. It's straightforward. You can tell the computer to skip any part of your code depending on the current value of your variables.
 
-The `if` statement allows you to execute a piece of code if certain conditions are met (or are true).  The "else" statement will execute an alternate piece of code in case the condition is false.
+The `if` statement allows you to execute a block of code if certain conditions (or truths) are met. The "else" statement will execute an alternative block of code if the condition is false.
 
-```javascript
-if (number < 18) {
-    document.write("Hello");
-} else {
-     document.write("Good bye!");
-}
+```python
+if number < 18:
+     print("Hello");
+else:
+     print("Good bye!")
 ```
 
 ## Switch
-***
 
-Similar to if…else… but a little bit more organized.  Here you will specify all of the possible case scenarios – including the `default scenario` that will occur if none of the other scenarios happen.
-
-<iframe src="https://repl.it/F2EK/5?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
-
-<div align="right"><small><a href="https://repl.it/F2EK/5?lite=true">Click to open demo in a new window</a></small></div>
-
-[[info]]
-|Use `switch` instead of `if` when:<br><br>• You are comparing multiple possible conditions of an expression and the expression itself is non-trivial.<br>• You have multiple values that may require the same code.<br>• You have some values that will require essentially all of another value’s execution, plus only a few statements.<br><br>Use `if` instead of `switch` when:<br><br>• You want to test for the truthfulness of an expression.<br>• You only have a single affirmative test.<br>• You need to evaluate different expressions for each branch.
-
+Python does not have the ability to use `switch` statements like other languages (e.g., JavaScript, C#, etc.).
 
 ## While
-***
 
-It is possible to loop a segment of your code as many times as you want or need.  Loops are one of the most important tools for developers these days.
+It is possible to loop a segment of your code as many times as you want or need. Loops are one of the most important tools for developers these days.
 
-Imagine you are inside an elevator – the elevator needs to loop throughout the floors until it reaches the specific floor that you want.
+Imagine you're in an elevator: the elevator must loop through the floors until it reaches the specific floor you want.
 
-A `while` loop will execute a block of code as long as a condition is true.  Once the condition returns false, the loop will stop executing the block of code.
+A `while` loop will execute a block of code as long as a condition is true. Once the condition is false, the loop will stop executing the code.
 
-```javascript
-var sum = 0;
-var number = 1;
-while (number <= 50) {
-  sum += number;
-  number++;
-}
-console.log("Sum = " + sum);
+```python
+sum = 0;
+number = 1;
+while number <= 50:
+  sum += number
+  number += 1
+
+print("Sum = " + sum)
 ```
 
-## For
-***
+## For Loop
 
-`For` is similar to the `while,` with the only difference being that you have to specify the stopping condition from the beginning.  For that reason, `for` is a little more organized and easier to understand.
+`For` is similar to `while`, with the only difference being that you must specify the condition to stop from the start. For that reason, `for` is a bit more organized and easier to understand.
 
-Note:  When looping, make sure that the statement will eventually return false so that you avoid an infinite loop.  In an infinite loop, the code executes indefinitely and will cause your browser to crash.
+Note: when creating a loop, make sure the condition eventually becomes false to avoid an infinite loop. In an infinite loop, the code runs indefinitely and will freeze your browser.
 
 <iframe width="578" height="325" src="https://www.youtube.com/embed/TSMzvFwpE_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<div align="right"><small><a href="https://www.youtube.com/embed/TSMzvFwpE_A">Click here to open video in a new window</a></small></div>
+<div align="right"><small><a href="https://www.youtube.com/embed/TSMzvFwpE_A">Click here to open the video in a new window</a></small></div>
 
+```python
+for i in range(10):
+  print("This is number" + " " + i)
 
-```javascript
-for (var i = 0; i < 10; i++) {
-    document.write("This is number" + " " + i);
-}
 ```
+## For...In
 
-## For..in
-***
+`For...in` loops can be used to iterate over the properties of an object. Inside the parentheses, you can set any name to represent the information within the object and then include the name of the object:
 
-`For…in` loops can be to used to loop through the properties of an object.  Within the parentheses, you can set any name to represent the information within the object, and then include the name of the object:
-
-for (var in object)<br> {
+```py
+for (variable in object)<br> {
 code block to be executed
 }
-
-```javascript
-var dog = {
-  species: "Great Dane",
-  size: "Extra Large",
-  age: 3 ,
-  name: "Rocky"
-
-}
-
-for(items in dog){
-  console.log(dog[items]);
-}
 ```
 
-## So.. tell me, did you like coding?
-***
+```python
+dog = {
+  "species": "Great Dane",
+  "size": "Extra Large",
+  "age": 3 ,
+  "name": "Rocky"
+}
 
-Coding is like Taco Bell:  you always use the same ingredients except they are just mixed in different ways.  You know how to write code, but…do you know how to solve real problems?
+for items in dog:
+  print(dog[items])
 
+```
 
+## So... tell me, did you enjoy programming?
 
-
-
-
-
-
-
-
-
-
-
-
+Programming is like Taco Bell: the same ingredients are always used, but they are mixed in different ways. You know how to write code, but... do you know how to solve real-world problems?

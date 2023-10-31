@@ -5,7 +5,7 @@ date: "2020-10-19T16:36:31+00:00"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 syntaxis: ["java"]
-tags: ["Condicionales","Operaciones Lógicas","Si de lo contrario","Condición","Java"]
+tags: ["condicionales-programacion","java"]
 status: "published"
 
 ---
@@ -13,7 +13,7 @@ status: "published"
 Dominar el uso de las condiciones es una de las 5 habilidades fundamentales de construir algoritmos:
 
 1. Variables.
-2. `Condicionales`.
+2. Condicionales.
 3. Arrays(Arreglos).
 4. Loops(Bucles).
 5. Funciones.
@@ -26,7 +26,7 @@ Digamos que estamos construyendo un programa para ayudarnos a elegir qué almace
 `If` ***color*** is not **blue**, then... do something.  
 `Else`... do nothing or exit.
   
-![Condicionales](../../assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png)
+![Condicionales](https://github.com/breatheco-de/content/blob/master/src/assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png?raw=true)
 
 Las sentencias de decisión son: `if-then-else` y `switch`.
 
@@ -42,7 +42,7 @@ if (expresion) {
 }
 ```
 
-Se evalua la expresión indicada en la sentencia if. En el caso de que la expresión sea true se ejecutará el bloque de sentencias then y en el caso de que la expresión sea false se ejecutará el bloque de sentencias else.
+Se evalúa la expresión indicada en la sentencia if. En el caso de que la expresión sea true se ejecutará el bloque de sentencias then y en el caso de que la expresión sea false se ejecutará el bloque de sentencias else.
 
 La parte del else no tiene por qué existir. En este caso tendríamos una sentencia if-then.
 
@@ -176,7 +176,7 @@ System.out.println(sMes);
 
 El ejemplo anterior era una condición simple, pero en la vida real, elegir qué hacer implica una combinación de varias condiciones para tomar la decisión final, por ejemplo: Veamos este algoritmo que le dice a una computadora cómo decidir qué ponerse durante el día de San Valentín:
 
-![What ot ware in valentines day](../../assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg)
+![What ot ware in valentines day](https://github.com/breatheco-de/content/blob/master/src/assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg?raw=true)
 
 Si quieres representar este algoritmo en Java, se verá algo así:
 

@@ -48,8 +48,7 @@ result2 = multiply(5,2)
 print(str(result2)) # Output: 10
 ```
 
-[[info]]
-| :tv: Click here to [watch a short video explaining functions](https://www.youtube.com/watch?v=NE97ylAnrz4) (9min)
+> :tv: Click here to [watch a short video explaining functions](https://www.youtube.com/watch?v=NE97ylAnrz4) (9min)
 
 ### Second example about functions
 
@@ -79,7 +78,7 @@ The whole idea is to have a library of hundreds of functions and use them as we 
 
 ## But, why using Functions instead of just doing everything in one big chunk of code?
 
-Coding is very abstract and it happens a lot that you have no idea what your wrote yesterday. Before functions existed, algorithms were this huge never-ending series of lines of code where developers would have a hard time and get lost.  It is hard for your brain to follow a procedure/algorithm of great length; the more lines of code, the more abstract it becomes.
+Coding is very abstract and it happens a lot that you have no idea what you wrote yesterday. Before functions existed, algorithms were this huge never-ending series of lines of code where developers would have a hard time and get lost.  It is hard for your brain to follow a procedure/algorithm of great length; the more lines of code, the more abstract it becomes.
 
 By using functions you have the following advantages:
 
@@ -93,7 +92,7 @@ If you think about it, functions are the equivalent of books. They store knowled
 
 All functions must start and end somewhere, that its called **the scope of the function**. You can delimit the boundries using curly brackets like this:
 
-```python{numberLines: true} 
+```python 
 
 # this part of the code is OUTSIDE the 'multiply' function 
 
@@ -112,10 +111,9 @@ print(str(multiply(34, 2)))
 ```
 
 
-[[warning]]
-| :point_up: Any variables that you declare inside the function will not be available outside of it.
+> :point_up:  Any variables that you declare inside the function will not be available outside of it.
 
-```python{numberLines: true}
+```python
 def multiply(a, b):
    myVariable = 'hello'
    return a * b
@@ -126,8 +124,7 @@ print(myVariable)
 ```
 
 
-[[warning]]
-| :point_up: It is very important to remember that once you use the `return` statement the function will stop executing, if there is any code after that statement it will never be executed.
+> :point_up:  It is very important to remember that once you use the `return` statement the function will stop executing, if there is any code after that statement it will never be executed.
 
 ## Lambda functions (one line functions) in Python
 
@@ -164,7 +161,7 @@ Please remember to assign the function whatever parameters it should receive.  I
 
 You can combine functions however you want and have chained calls like this:
 
-```python{numberLines: true} 
+```python 
 def sum(a,b):
    return a+b
 
@@ -182,8 +179,7 @@ secondSum = sum(1,1)
 print(multiply(firstSum, secondSum))
 ```
 
-[[demo]]
-| :point_up: [View this example live at replit](https://repl.it/@4GeeksAcademy/Nested-Function-Calling-Python)
+> :point_up: [View this example live at replit](https://repl.it/@4GeeksAcademy/Nested-Function-Calling-Python)
 
 ## Let’s see an Example:
 

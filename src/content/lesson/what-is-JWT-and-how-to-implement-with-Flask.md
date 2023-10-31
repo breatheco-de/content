@@ -9,10 +9,9 @@ status: "published"
 
 ---
 
-[[info]]
-| 📹 Here is a video explaining the JWT authentication [implementation using React.js, Context API and Python Flask](https://youtu.be/8-W2O_R95Pk).
+> 📹 Here is a video explaining the JWT authentication [implementation using React.js, Context API and Python Flask](https://youtu.be/8-W2O_R95Pk).
 
-Almost every [API needs an authentication layer](/lesson/token-based-api-authentication), and there are mamy ways to tackle that problem, today we are going to be implementing JWT token into our Flask API.
+Almost every [API needs an authentication layer](/lesson/token-based-api-authentication), and there are many ways to tackle that problem, today we are going to be implementing JWT token into our Flask API.
 
 
 ## How API Authentication works
@@ -25,10 +24,9 @@ You can divide a standard authentication process in 5 main steps:
 4. If a user is found, it generates a `token` for that user and responds status_code=200 back to the front end.
 5. The front-end will use that `token` from now on to make any future request.
 
-![Autentication workflow](../../assets/images/authentication-diagram.png)
+![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/authentication-diagram.png?raw=true)
 
-[[info]]
-| :point_up: If you don't know what a token is, I would recomend [this reading](/lesson/token-based-api-authentication).
+> :point_up: If you don't know what a token is, I would recomend [this reading](/lesson/token-based-api-authentication).
 
 ## What is JWT?
 
@@ -40,8 +38,7 @@ There are many ways to create tokens: Basic, Bearer, JWT, etc. All of them are d
 | Bearer Token  | YWxlc2FuY2hlenI6NzE0YmZhNDNlN2MzMTJiZTk5OWQwYWZlYTg5MTQ4ZTc=            |
 | JWT Token     | eyJhbGciOiJIUzI1NiIsInR5c.eyJzdWIiOFt2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpM |
 
-[[info]]
-| :point_up: As you can see, JWT Tokens are bigger than the other two types of token.
+> :point_up: As you can see, JWT Tokens are bigger than the other two types of token.
 
 **JSON Web Token or JWT is an open standard to create tokens**
 
@@ -55,11 +52,11 @@ In a nutshell: JWT is an amazing alternative because `Basic Token` is to simple 
 
 With JWT Tokens you don't need a database, the token itself contains all the information needed.
 
-![Autentication workflow](../../assets/images/jwt-vs-bearer-token.png)
+![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-vs-bearer-token.png?raw=true)
 
 ## Structure of the JWT Token
 
-![Autentication workflow](../../assets/images/jwt-token-structure.png)
+![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-token-structure.png?raw=true)
 
 You may notice that the string is divided in three sections separated by a (.). Each section has it meaning:
 
@@ -112,7 +109,7 @@ def create_token():
     username = request.json.get("username", None)
     password = request.json.get("password", None)
     # Query your database for username and password
-    user = User.filter.query(username=username, password=password).first()
+    user = User.query.filter_by(username=username, password=password).first()
     if user is None:
         # the user was not found on the database
         return jsonify({"msg": "Bad username or password"}), 401
@@ -137,7 +134,7 @@ from flask_jwt_extended import jwt_required, get_jwt_identity
 def protected():
     # Access the identity of the current user with get_jwt_identity
     current_user_id = get_jwt_identity()
-    user = User.filter.get(current_user_id)
+    user = User.query.get(current_user_id)
     
     return jsonify({"id": user.id, "username": user.username }), 200
 ```
@@ -151,22 +148,27 @@ On the front-end side we need two main steps: Creating a new token (a.k.a: login
 Based on the endpoints we build on earlier we have to `POST /token` with the username and password information in the request body.
 
 ```js
-const login = (username, password) => {
-     fetch(`https://your_api.com/token`)
-         .then(resp => {
-              if(resp.ok) resp.json()
-              else if(resp.status === 401){
-                    console.log("Invalid credentials")
-              }
-              else if(resp.status === 400){
-                 console.log("Invalid email or password format")
-              }else throw Error('Uknon error')
-         })
-         .then(data => {
-             // save your token in the localStorage
-             localStorage.setItem("jwt-token", data.token);
-         })
-         .catch(error => console.error("There has been an uknown error", error))
+const login = async (username, password) => {
+     const resp = await fetch(`https://your_api.com/token`, { 
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ username: "joe", password: "1234" }) 
+     })
+
+     if(!resp.ok) throw Error("There was a problem in the login request")
+
+     if(resp.status === 401){
+          throw("Invalid credentials")
+     }
+     else if(resp.status === 400){
+          throw ("Invalid email or password format")
+     }
+     const data = await resp.json()
+     // save your token in the localStorage
+    //also you should set your user into the store using the setStore function
+     localStorage.setItem("jwt-token", data.token);
+
+     return data
 }
 ```
 
@@ -176,28 +178,30 @@ Let's suppose I am using the front-end application and I just logged in, but now
 
 ```js
 // assuming "/protected" is a private endpoint
-const getMyTasks = (username, password) => {
+const getMyTasks = await (username, password) => {
      // retrieve token form localStorage
      const token = localStorage.getItem('jwt-token');
 
-     fetch(`https://your_api.com/protected`, {
+     const resp = await fetch(`https://your_api.com/protected`, {
         method: 'GET',
-        headers: { 'Authorization': 'Bearer '+token } // ⬅ authorization token
+        headers: { 
+          "Content-Type": "application/json"
+          'Authorization': 'Bearer '+token // ⬅⬅⬅ authorization token
+        } 
      })
-         .then(resp => {
-              if(resp.ok) resp.json();
-              else if(resp.status === 403){
-                   console.log("Missing or invalid token");
-              }
-              else{
-                   throw Error('Uknon error');
-              }
-         })
-         .then(data => {
-             // success
-             console.log("This is the data your requested", data);
-         })
-         .catch(error => console.error("There has been an uknown error", error));
+     if(!resp.ok) throw Error("There was a problem in the login request")
+
+     else if(resp.status === 403){
+         throw Error("Missing or invalid token");
+     }
+     else{
+         throw Error('Uknon error');
+     }
+
+     const data = await resp.json();
+     console.log("This is the data you requested", data);
+     return data
+
 }
 ```
 

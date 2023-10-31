@@ -9,7 +9,7 @@ tags: ["Expressjs","nodejs","REST","API"]
 
 ---
 
-Si no sabes qué es una API REST, recomiendo [leer sobre esto aquí](./understanding-rest-apis).
+Si no sabes qué es una API REST, recomiendo [leer sobre esto aquí](./understanding-rest-apis-es).
 
 A modo de breve resumen, construir una API de forma REST significa que tienes que construir sus endpoints de URL agrupados por **"recursos"**. Un recurso es algo que quieres gestionar, por ejemplo: un estudiante, un usuario, un auto, etc. Un recurso es algo similar a una tabla de base de datos, pero los llamamos "recursos" debido a algunas excepciones.
 
@@ -26,8 +26,7 @@ Aquí hay un ejemplo de endpoints RESTful API para gestionar **Estudiantes**:
 
 Echa un vistazo a las URL, ellas siguen un patrón. Después de un tiempo, los endpoints hablarán por sí mismos, tendrán sentido y podrás adivinar a lo que hacen o incluso adivinar algunos endpoints. Esa es la idea.
 
-[[info]]
-| :point_up: Puede leer más sobre las API REST en [esta lección de BreatheCode](./understanding-rest-apis).<br /> Aquí hay un video de 8 minutos que explica REST: https://www.youtube.com/watch?v=7YcW25PHnAA
+> :point_up: Puede leer más sobre las API REST en [esta lección de BreatheCode](./understanding-rest-apis).<br /> Aquí hay un video de 8 minutos que explica REST: https://www.youtube.com/watch?v=7YcW25PHnAA
 
 ## Ahora hablemos sobre Expressjs
 
@@ -59,7 +58,7 @@ app.listen(4000, function(){
 
 ```javascript
 const express = require('express'); #aquí importamos la librería Expressjs en nuestro archivo.
-const app = express(); #aquí creamos una nueva instancia del servidor Expressjs.
+const app = express(); #aquí creamos una nueva instancia del servidor Express.js.
 
 app.get('/', (req, res)=>{  #aquí definimos el primer path de la API: GET /
     res.send("Hello World!")  #expressjs devolverá "Hello World, esto podría ser un string HTML o un string JSON.
@@ -76,7 +75,7 @@ En Expressjs podemos agregar nuevos endpoints utilizando la variable `app` que e
 
 - res : Es un objeto que representa la respuesta HTTP que envía la aplicación Express cuando recibe una solicitud HTTP
 
-En el siguiente link puedes acceder a la documentación de (Expressjs)[http://expressjs.com/es/api.html]
+En el siguiente link puedes acceder a la documentación de [Express.js](http://expressjs.com/es/api.html)
 
 ## Agregando nuevos endpoints
 

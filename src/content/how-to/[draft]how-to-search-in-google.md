@@ -13,7 +13,7 @@ There
 
 1. Always add the programing language at the end: This is simple, any question you ask on google has to have the programming language at the end: `How to bla bla bla javascript` or `How to bla bla bla python`.
 
-2. Remove things that only apply to you: If you are adding people into an array, that is probably to specific, what you are really adding is probaly strings into the array.  
+2. Remove things that only apply to you: If you are adding people into an array, that is probably to specific, what you are really adding is probably strings into the array.  
 
 3. Beware using the framework as a keyword: If you search `how to add a new task to array in react` 
 

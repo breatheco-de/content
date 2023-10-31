@@ -12,21 +12,21 @@ status: "published"
 ### ¿Porqué Django?
 
 
-A estas alturas, como desarrollador, probablemente te hayas dado cuenta de la importancia de las librerías de terceros para ayudarte a tí mismo a través de la programación. El 99.99% de todo lo que estás a punto de codificar ya ha sido construido. Existe una herramienta para todo y, como desarrolladores, nuestro trabajo es seleccionarlas con inteligencia e integrarlas de manera coherente para resolver un problema en particular.
+A estas alturas, como desarrollador, probablemente te hayas dado cuenta de la importancia de las librerías de terceros para ayudarte a ti mismo a través de la programación. El 99.99% de todo lo que estás a punto de codificar ya ha sido construido. Existe una herramienta para todo y, como desarrolladores, nuestro trabajo es seleccionarlas con inteligencia e integrarlas de manera coherente para resolver un problema en particular.
 
-Django es LA HERRAMIENTA para el desarrollo web. No es sólo una librería - son docenas de librerías agrupadas. Es una serie de "mejores prácticas" y formas eficientes de trabajar. Estas son algunas de las características más sorprendentes:
+Django es LA HERRAMIENTA para el desarrollo web. No es solo una librería - son docenas de librerías agrupadas. Es una serie de "mejores prácticas" y formas eficientes de trabajar. Estas son algunas de las características más sorprendentes:
 
 + Viene con un servidor de desarrollo (configuración mínima) que te permite comenzar a codificar de inmediato.
 + Tiene una interfaz de línea de comandos (manage.py) que acelera el proceso de desarrollo.
 + Documentación y comunidad: la comunidad de django es tan grande que no tendrás problemas para encontrar respuestas, tutoriales, etc.
 
 ## La Arquitectura de Django
-***
+
 
 Al igual que cualquier otro marco, Django propone una arquitectura específica para construir tu software y tenemos que aprender, adoptar y dominar todo esto si queremos convertirnos en Desarrolladores Senior Full Stack (usando Django):
 
-<before-after
-    before="../../assets/images/61212ca7-cde0-43c1-8267-a1101a95da2c.png" after="../../assets/images/80444105-0d6a-4a93-beb1-090b84b03376.png" />
+<before-after 
+    before="https://github.com/Lorenagubaira/content/blob/master/src/assets/images/61212ca7-cde0-43c1-8267-a1101a95da2c.png?raw=true" after="https://github.com/Lorenagubaira/content/blob/master/src/assets/images/80444105-0d6a-4a93-beb1-090b84b03376.png?raw=true" />
 
 El primer concepto a aprender es la diferencia entre sitio web v/s App.  Un buen Ejemplo puede ser BreatheCo.de
 
@@ -39,7 +39,7 @@ BreatheCode es un gran sitio web de django con varias aplicaciones dentro:
 Todas esas aplicaciones pueden ser parte de un gran sitio web llamado "Plataforma BreatheCode".
 
 ## Creando un Nuevo Projecto
-***
+
 
 para comenzar un proyecto todo lo que debes hacer es:
 
@@ -57,7 +57,7 @@ Eso creará una nueva carpeta en su directorio actual con el nombre del proyecto
 
 Después de ejecutar el comando, se creará una carpeta de proyecto con al menos 4 archivos dentro:
 
-![Django Rest Framework](../../assets/images/f9bc68cd-e407-4d55-afd6-ba95b0c8bc02.png)
+![Django Rest Framework](https://github.com/breatheco-de/content/blob/master/src/assets/images/f9bc68cd-e407-4d55-afd6-ba95b0c8bc02.png?raw=true)
 
 + `__init__:` un archivo vacío que cualquier carpeta debe tener dentro para ser considerado un paquete de python.
 + `settings:` contiene todas las variables de configuración para su proyecto -  más adelante hablaremos más sobre este archivo.
@@ -68,8 +68,8 @@ Después de ejecutar el comando, se creará una carpeta de proyecto con al menos
 El archivo `manage.py` que está afuera es una herramienta CLI para poder controlar y usar Django desde la línea de comandos. Lo usarás a diario.
 
 
-## Creando la Primera Applicación
-***
+## Creando la Primera Aplicación
+
 
 Ahora que tenemos un gran proyecto (sitio web) es hora de comenzar a agregarle aplicaciones. Para crear tu primera aplicación Django, escribe el siguiente comando:
 
@@ -78,27 +78,26 @@ $ python manage.py startapp [app_name]
 ```
 
 
-[[warning]]
-| :point_up: <span style="color:white">  Para ejecutar este comando, debes estar parado en la misma carpeta que el archivo manage.py. Puede usar el comando CD para moverse a esa misma carpeta.
+> :point_up:  <span style="color:white">  Para ejecutar este comando, debes estar parado en la misma carpeta que el archivo manage.py. Puede usar el comando CD para moverse a esa misma carpeta.
 
 #### Una vez más, ¡no le tengas miedo de los archivos generados!
 
 Verás una nueva carpeta con el nombre de tu aplicación y muchos archivos dentro. Revisémoslos:
 
-![Django Rest Framework](../../assets/images/c7eb4466-eaa5-4d33-8181-5b4c5df4e7f8.png)
+![Django Rest Framework](https://github.com/breatheco-de/content/blob/master/src/assets/images/c7eb4466-eaa5-4d33-8181-5b4c5df4e7f8.png?raw=true)
 
-+ `python>__init__:`  Le dice a Python que esta carpeta es un paquete.
-+ `python>admin.py:`  Aquí podemos agregar modelos en la interfaz de administración para poder CRUD esos modelos.
-+ `python>models.py: `  Aquí tendremos que definir nuestro modelo de base de datos (todas las estructuras de objetos que queremos almacenar en una base de datos).
-+ `python>apps.py:`  No toques esto - describe qué aplicaciones que tenemos.
-+ `python>tests.py:`  Aquí puedes escribir tu aplicación  [unit tests.](https://en.wikipedia.org/wiki/Unit_testing)
-+ `python>views.py: `  Aquí tienes que describir cómo se construirán sus archivos HTML o JSON.
++ `__init__:`  Le dice a Python que esta carpeta es un paquete.
++ `admin.py:`  Aquí podemos agregar modelos en la interfaz de administración para poder CRUD esos modelos.
++ `models.py: `  Aquí tendremos que definir nuestro modelo de base de datos (todas las estructuras de objetos que queremos almacenar en una base de datos).
++ `apps.py:`  No toques esto - describe qué aplicaciones que tenemos.
++ `tests.py:`  Aquí puedes escribir tu aplicación  [unit tests.](https://en.wikipedia.org/wiki/Unit_testing)
++ `views.py: `  Aquí tienes que describir cómo se construirán sus archivos HTML o JSON.
 
 Vamos a discutir todos estos archivos más detalladamente a continuación.
 
 Para resumir y continuar con nuestro ejemplo del "Proyecto BreatheCode", esta es la forma en que la estructura de archivos de su proyecto puede verse después de tener varias aplicaciones dentro de un gran proyecto.
 
-![Django Rest Framework](../../assets/images/e59de5e1-2751-4286-adfb-69c047e93058.png)
+![Django Rest Framework](https://github.com/breatheco-de/content/blob/master/src/assets/images/e59de5e1-2751-4286-adfb-69c047e93058.png?raw=true)
 
 ### Manage.py (Django CLI)
 
@@ -106,33 +105,32 @@ El archivo Manage.py es una increíble herramienta de línea de comando que te a
 
 |&nbsp;     |&nbsp;      |
 |:----------|:-----------|
-|Crea usuarios administradores para tus aplicaciones.      |`python>$ python manage.py createsuperuser`         |
-|Ejecutando el servidor de desarrollo de Python         |`python>$ python manage.py runserver $IP:$PORT`     |
-|Haciendo migraciones                            |`python>$ python manage.py makemigrations [your_appliation_name]`        |
-|Ejecutando migraciones                            |`python>$ python manage.py migrate`           |
+|Crea usuarios administradores para tus aplicaciones.      |`$ python manage.py createsuperuser`         |
+|Ejecutando el servidor de desarrollo de Python         |`$ python manage.py runserver $IP:$PORT`     |
+|Haciendo migraciones                            |`$ python manage.py makemigrations [your_appliation_name]`        |
+|Ejecutando migraciones                            |`$ python manage.py migrate`           |
 
 
 ## Arquitectura de Django para construir API RESTful
-***
+
 
 Vamos a construir una API basada en REST, pero no tengas miedo del nombre - el estándar REST básicamente se construyó como una API extremadamente simple.
 
-[[info]]
-| :point_up: :tv: Puedes leer más sobre las API REST en esta lección de BreatheCode.<br> <br>Aquí hay un video divertido de 8 minutos que explica REST: https://www.youtube.com/watch?v=7YcW25PHnAA
+> :point_up: :tv: Puedes leer más sobre las API REST en esta lección de BreatheCode.<br> <br>Aquí hay un video divertido de 8 minutos que explica REST: https://www.youtube.com/watch?v=7YcW25PHnAA
 
 
 ### Así es cómo Django maneja cualquier solicitud HTTP de API:
 
 + La primera parte del código que trata con la Solicitud será el Distribuidor de URL (urls.py). Su objetivo principal es comprender qué APIView correspondiente debe instanciarse en función de la URL que se llamó y, finalmente, llamar al método GET, POST, PUT o DELETE de esa APIView según el tipo de solicitud.
 
-+ Como segundo paso, APIView recibe los parámetros de la URL (si los hay) a través de los parámetros del método y luego ejecuta cualquier lógica codificada para procesar la solicitud o las interacciones del modelo de la base de datos. Por ejemplo: Obteniendo alguna información de la base de datos; guardando o borrando alguna otra información; enviando correos eletrónicos etc.
++ Como segundo paso, APIView recibe los parámetros de la URL (si los hay) a través de los parámetros del método y luego ejecuta cualquier lógica codificada para procesar la solicitud o las interacciones del modelo de la base de datos. Por ejemplo: Obteniendo alguna información de la base de datos; guardando o borrando alguna otra información; enviando correos electrónicos etc.
 
 + El siguiente paso, debe ser decidir qué JSON debe retornarse dentro del "Body" de la Respuesta. Para eso tenemos el "serializer".
 
 + Finalmente, APIView debe retornar un objeto de respuesta que contenga el objeto JSON preparado por el serializer.
 
-<before-after width="900px"
-    before="../../assets/images/c7e96be7-a7b6-4b6d-83a2-535b22fdc3b0.png" after="../../assets/images/88f6b44f-01dc-4a13-ba1f-fbab5280d510.png" />
+<BeforeAfter width="900px"
+    before="https://github.com/breatheco-de/content/blob/master/src/assets/images/c7e96be7-a7b6-4b6d-83a2-535b22fdc3b0.png?raw=true" after="https://github.com/breatheco-de/content/blob/master/src/assets/images/88f6b44f-01dc-4a13-ba1f-fbab5280d510.png?raw=true" />
 
 ### urls.py: El Distribuidor de URL
 
@@ -199,9 +197,7 @@ urlpatterns = [
 
 El archivo urls.py contiene un array ***PATHs***. Cada ruta comienza con un patrón ***URL***, seguido de la ***VISTA*** que se supone que administra esa ruta y 2 parámetros opcionales: ***NOMBRE:*** Para identificar la ruta; y ***KWARGS***: una lista de valores que se pueden pasar al ***VIEW***.
 
-[[info]]
-| :tv: <span style="color:white">Aquí hay una serie de 5 videos que explican las APIs de django de una manera sorprendente: https://www.youtube.com/watch?v=Yw7gETuRKjw&index=37&list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK
+> :tv: <span style="color:white">Aquí hay una serie de 5 videos que explican las APIs de django de una manera sorprendente: https://www.youtube.com/watch?v=Yw7gETuRKjw&index=37&list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK
 
 
-[[info]]
-|:link: Este sitio web contiene sorprendentes recursos de Django: http://awesome-django.com
+> :link: Este sitio web contiene sorprendentes recursos de Django: http://awesome-django.com
