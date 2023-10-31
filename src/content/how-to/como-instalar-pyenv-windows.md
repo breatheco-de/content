@@ -1,10 +1,16 @@
-## ¿Cómo Instalar Pyenv en Windows?
+---
+title: "¿Cómo instalar Pyenv en Windows?"
+subtitle: "Aprende a instalar Pyenv en tu Windows para gestionar fácilmente múltiples versiones de Python. Explora los pasos y consejos para sacar el máximo provecho de esta herramienta."
+tags: ["Python", "Pyenv", "Instalación de Software", "Desarrollo en Windows"]
+authors: [DF27ARTS]
 
-Pyenv es una herramienta que nos permite administrar distintas versiones de Python en nuestro ordenador, permitiendo intercambiar entres distintas versiones de manera sencilla dependiendo de los requerimientos del entorno en el que estamos desarrollando. Esto puede ser muy útil por varias razones por ejemplo comprobar que nuestra aplicación es compatible con diferentes versiones de Python. En este artículo veremos cómo instalar **Pyenv** en nuestro ordenador **Windows** haciendo uso de **Git** y también con el subsistema de linux para windows y el entorno de desarrollo **Ubuntu**.
+---
+
+[Pyenv](https://4geeks.com/es/how-to/que-es-pyenv-y-como-instalar-pyenv) es una herramienta que nos permite administrar distintas versiones de Python en nuestro ordenador, permitiendo intercambiar entre diferentes versiones de manera sencilla dependiendo de los requerimientos del entorno en el que estamos trabajando. Esto puede ser muy útil por varias razones por ejemplo comprobar que nuestra aplicación es compatible con diferentes versiones de [Python](https://4geeks.com/es/lesson/que-es-python-tutorial). En este artículo veremos cómo instalar **Pyenv** en nuestro ordenador **Windows** haciendo uso de **Git** y también con el subsistema de linux para windows y el entorno de desarrollo **Ubuntu**.
 
 ## Instalación de pyenv con Git
 
-**Paso 1** (instalar Git): para poder realizar la instalación de **Pyenv** con los comandos de **Git** primero debemos verificar que tenemos **Git** instalado en nuestro ordenador, para esto podemos abrir una consola con la combinación `windows + x` y luego selecciona **Windows PowerShell** o **Terminal (administrador)** esto te abrirá una consola de **PowerShell** una vez se abra la consola podemos usar el siguiente comando:
+**Paso 1** (instalar Git): para poder realizar la instalación de [Pyenv](https://4geeks.com/es/lesson/pyenv-virtualenv) con los comandos de **Git** primero debemos verificar que tenemos **Git** instalado en nuestro ordenador, para esto podemos abrir una consola con la combinación `windows + x` y luego selecciona **Windows PowerShell** o **Terminal (administrador)** esto te abrirá una consola de **PowerShell** una vez se abra la consola podemos usar el siguiente comando:
 
 ```PowerShell
 git --version
@@ -17,7 +23,7 @@ Deberías ver en la consola un mensaje similar al siguiente con la versión de g
 git version 2.42.0.windows.2
 ```
 
-Si en la consola te sale un error significa que aun no tienes **Git** instalado en tu ordenador, para descargarlo puedes ir la página oficial de [git download](https://git-scm.com/download/win) y una vez descargado sigue las instrucciones de instalación.
+Si en la consola te sale un error significa que aun no tienes **Git** instalado en tu ordenador, para descargarlo puedes ir la página oficial de [Git](https://git-scm.com/download/win) y una vez descargado sigue las instrucciones de instalación.
 
 **Paso 2** (Instalar pyenv-win): una vez hayas verificado que tienes **Git** instalado, puedes utilizar el siguiente comando para instalar **pyenv** en tu ordenador, este comando clonará el repositio de (pyenv-win.git) en tu propio ordenador y lo guardará en la carpeta `.pyenv`.
 
@@ -25,7 +31,7 @@ Si en la consola te sale un error significa que aun no tienes **Git** instalado 
 git clone https://github.com/pyenv-win/pyenv-win.git "$HOME\.pyenv"
 ```
 
-**Paso 3** (Añadir las variables de entorno): agrega las siguientes variables PYENV, PYENV_ROOT and PYENV_HOME en las variables de entorno de tu ordenador, puedes hacerlo con los siguientes comandos:
+**Paso 3** (Añadir las variables de entorno): agrega las siguientes variables `PYENV`, `PYENV_ROOT` and `PYENV_HOME` en las variables de entorno de tu ordenador, puedes hacerlo con los siguientes comandos:
 
 ```PowerShell
 [System.Environment]::SetEnvironmentVariable('PYENV',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
@@ -201,4 +207,4 @@ Si te interesa conocer más acerca de pyenv para windows te recomiendo que visit
 
 Pyenv es una herramienta muy útil para controlar las versiones de Python con las que deseas trabajar en tu ordenador, su instalación en el sistema operativo de windows se puede realizar de varias formas, en este artículo aprendimos cómo instalarlo de dos maneras diferentes la primera clonando el repositorio de pyenv-win con **Git** y la segunda instalándolo con el subsistema de linux **Ubuntu**. Aunque la instalación de pyenv puede requerir de varios pasos y parecer un poco compleja, si sigues los pasos especificados en este artículo podrás hacerlo sin ningún problema.
 
-Espero que este artículo te haya sido de utilidad. ¡Happy coding! 😀👋
+Esperamos que hayas encontrado útil este artículo y que hayas podido instalar Pyenv en tu sistema Windows. Te invitamos a explorar otros recursos en nuestro blog para mejorar tus habilidades en Python y desarrollo en Windows. Si deseas llevar tu aprendizaje al siguiente nivel, te animamos a [registrarte de forma totalmente gratuita](https://4geeks.com/es/pricing) en 4Geeks.com.
