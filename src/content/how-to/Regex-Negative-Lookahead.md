@@ -1,6 +1,6 @@
 # RegEx for Negative Lookahead
 
-Regular expressions (Regex) is a powerful way to search and manipulate text characters. One of the most useful and advanced concepts right now is Negative Lookahead, so in this article we will see how this works and some use cases in JavaScript and Python.
+Regular expressions (Regex) are a powerful way to search and manipulate text characters. One of the most useful and advanced concepts right now is Negative Lookahead, so in this article we will see how this works and some use cases in JavaScript and Python.
 Before starting, let’s see an example of a regular expression with negative lookahead. For the following case, let’s assume  that we want to find all the “apple” word occurrences, yet they do not have to be preceded by the “red” word. To achieve this, we can use this code:
 
 ```js
@@ -9,7 +9,7 @@ Before starting, let’s see an example of a regular expression with negative lo
 
 Here is the explanation:
 
-•	“/”: Delimitates the regular expression beginning .
+•	“/”: Delimitates the regular expression beginning.
 
 •	“apple”: Matches with the word “apple”
 
