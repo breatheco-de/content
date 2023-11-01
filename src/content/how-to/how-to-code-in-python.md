@@ -66,7 +66,7 @@ print(todoList[0])
 
 > All programming languages make use of variables, which are like little boxes where we are going to store the information we need. In our example, `todoList` is a variable that stores a list of tasks.
 
-### Working with cycles
+### Working with loops
 
 It is very common to come across a task that requires us to do the same thing a certain amount of times, which can be (and usually is) tedious. 
 
