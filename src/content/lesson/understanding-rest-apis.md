@@ -74,7 +74,7 @@ https://api.uber.com/v1.2/products
 
 Then `https` is the *protocol*, `api.uber.com` is the *host* and `v1.2/products` is the *path*.
 
-A web application implementing a REST API must define a URI for each of the target functionalities (and method). For example, some Twitter API URIs are as follows:
+A web application implementing a REST API must define a URI for each of the target functionalities (and methods). For example, some Twitter API URIs are as follows:
 
 |Method        |Functionality      |URI     |
 |:-------------|:------------------|:-----------|
