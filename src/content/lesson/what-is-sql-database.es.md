@@ -267,4 +267,4 @@ La sintaxis para el comando es la siguiente:
 SET TRANSACTION [ READ WRITE | READ ONLY ];
 ```
 
-> :link:https://www.tutorialspoint.com/sql/sql-syntax.html
+> :link:https://www.tutorialspoint.com/sql/sql-syntax.htm
