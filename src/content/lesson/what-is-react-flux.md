@@ -57,10 +57,8 @@ To code the delete functionality, we have to update these files: (1) The Compone
 ***Everything starts whenever the user clicks on the trash can icon. That is why we need to start our application by listening to the typical onClick event on the delete button.***
 
 ```javascript
-
 // In the component that renders each to-do item we need to add a button and also an onClick listener that calls 
-
-// The respective TodoAction.deleteTodo(task) function that we will create on the actions: 
+// the respective TodoAction.deleteTodo(task) function that we will create on the actions: 
 
 <button onClick={()=>MyActions.deleteTodo(taskToDelete)}>delete</button>
 ```
@@ -73,7 +71,7 @@ MyActions.js
 // In this case, we decided that this function (a.k.a action) will receive the ID of the task to be deleted. 
 class MyActions extends Flux.Actions{
     deleteTask(taskToDelete){
-         //get the current list of actions from the store 
+         // Get the current list of actions from the store 
         let currentActions = MyStore.getActions();
         let updatedActions = currentActions.filter((task) => {
              return (task.id != taskToDelete.id);
