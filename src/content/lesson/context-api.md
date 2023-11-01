@@ -25,7 +25,7 @@ People say that React.js makes the easy stuff hard and the hard stuff easy. It's
 
 2. Data propagation and re-rendering: when this centralized *global state* (**store**) changes, it triggers a re-render of all the child components (your entire application), which produces new data to show in the UI. A central **setState***ish*.
 
-3. If you've already worked with react, you've probably felt the frustration of passing properties throughout your application, we call it "property hell".
+3. If you've already worked with React, you've probably felt the frustration of passing properties throughout your application, we call it "property hell".
 
 ## How does the Context API work?
 
@@ -48,14 +48,14 @@ We must split the **store** from the **actions** and the **views** (components) 
 ## Now everything together
 
 + We're going to implement a *single point of truth* for the whole React application: ***global state***.
-+ This state will contain the *data* and *functions* to set the new state: ***```store```*** and ***```actions```*** .
-+ We're going to deliver it throughout the whole application using the *context*: ***Context.Provider*** and ***Context.Consumer*** (if using *classes* as React components) or ***useContext()*** hook (if using *functions* as React components)
++ This state will contain the *data* and *functions* to set the new state: `store` and `actions`.
++ We're going to deliver it throughout the whole application using the *context*: `Context.Provider` and `Context.Consumer` (if using *classes* as React components) or `useContext()` hook (if using *functions* as React components)
 
 ### Simple implementation
 
 Ok, after a couple of hours to make the context API implementation simpler without using bindings... this is what I got in 5 simple steps!:
 
-- **Step 1 (Create the context)**: This step has almost no logic, just call the `createContext` function from react. That object will be shared within all the consumers during the application's lifetime, it will contain the application **store** and **actions**.
+- **Step 1 (Create the context)**: This step has almost no logic, just call the `createContext` function from React. That object will be shared within all the consumers during the application's lifetime, it will contain the application **store** and **actions**.
 
 *AppContext.js*
 
