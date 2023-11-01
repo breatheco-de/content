@@ -42,7 +42,7 @@ print(((10+25)*12-5)/6)
 
 > siempre vamos a utilizar el método `print()` para mostrar en la terminal lo que le pasemos entre los paréntesis
 
-Como se puede observar, Python será capaz de realizar cálculos complejos mientras se escriban como mismo lo haríamos en matemática. Se respetarán los`()` y orden de ejecución de las operaciones.
+Como se puede observar, Python será capaz de realizar cálculos complejos mientras se escriban como mismo lo haríamos en matemática. Se respetarán los `()` y orden de ejecución de las operaciones.
 
 ### Creando listas
 
