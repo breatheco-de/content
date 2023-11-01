@@ -136,7 +136,7 @@ export const TodoList = () => {
 }
 ```
 
-Very often we will use the hook that you see above 
+Very often we will use the `useContext` hook that you see above 
 
 ```javascript
 const context = useContext(AppContext);
@@ -159,5 +159,6 @@ return <div>
 ## Test the code live
 
 <iframe src="https://codesandbox.io/embed/w75wq6v01k?fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
 <div align="right"><small><a href="https://codesandbox.io/s/w75wq6v01k?from-embed">Click here to open demo in a new window</a></small></div>
 
