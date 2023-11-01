@@ -197,14 +197,14 @@ print(outfitMaker(myWardrobe))
 Analyzing the example:
 
 - We import random to be able to use it in our code.
-- We create a `myWardrobe` object that will have the properties (keys) of our closet and the values will be the options we have to use.
+- We created a `myWardrobe` object that will have the properties (keys) of our closet and the values will be the options we have to use.
 > An object (or dictionary) is a data type in Python that stores pairs of values (key : value).
-- We create the `outfitMaker` function that will receive as parameter our closet and will be in charge of choosing our outfit.
+- We created the `outfitMaker` function that will receive as parameter our closet and will be in charge of choosing our outfit.
 	- First we will create a loop to traverse our object.
 	- Then we will look at each of the properties (keys) of the object and from the list of options, we will randomly select an element.
 	- When the loop is finished, we will have received one item for each of the keys and it will then return the function "and that 's what you should wear today!"
 - The last step would be to execute the function by calling it and passing it our closet so that it can perform the operations.
 
-As you can see, Python allows us to make small programs, as simple as one line, as well as programs a little more complex and others, which were not covered in this article, which would be much more complex programs that when done using Python, allow simplicity and at the same time robustness in the development and quality of the programs, you can read this article on [What is Python for](https://4geeks.com/es/lesson/what-is-python-used-for) to have a broader idea about all its uses.
+As you can see, Python allows us to make small programs, as simple as one line, as well as programs a little more complex and others, which were not covered in this article, which would be much more complex programs that when done using Python, allow simplicity and at the same time robustness in the development and quality of the programs, you can read this article on [What is Python for](https://4geeks.com/lesson/what-is-python-used-for) to have a broader idea about all its uses.
 
 Hope you enjoy the reading and keep on the Geek side with [4Geeks](https://4geeks.com)!
