@@ -33,7 +33,7 @@ Here is a list of all the advantages of using it:
 |:-----------|:----------------|
 Views (Components)     |Every React Component that calls any Flux action is called a view. The reason to call those components differently is that React components are supposed to communicate with each other through their props (without Flux).<br> <br>Once a React Component is hard-coded to Flux, you will not be able to reuse that component in the future (on this or any other development).       |
 |Actions       |Actions can be triggered components (when the user clicks or interacts with the application) or by the system (for example, the auto-save functionality). Actions are the first step of any Flux workflow, and they always need to dispatch to the store.      |
-|Stores        |The store contains all the application data. It handles everything incoming from the dispatcher and determines the way data should be stored and retrieved.            |
+|Store        |The store contains all the application data. It handles everything incoming from the dispatcher and determines the way data should be stored and retrieved.            |
 
 ## Building our first User History with Flux
 
