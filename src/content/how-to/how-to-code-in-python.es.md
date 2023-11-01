@@ -89,7 +89,7 @@ for x in range(10):
 # I will study python
 ```
 
-> For x in range(10) es un loop que va a repetir el bloque de código que hemos establecido mientras que x, que comenzará con el valor de 0, sea menor que 10
+> `for x in range(10)` es un loop que va a repetir el bloque de código que hemos establecido mientras que x, que comenzará con el valor de 0, sea menor que 10
 
 ## Haciendo uso de números aleatorios
 
