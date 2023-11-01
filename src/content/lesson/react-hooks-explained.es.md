@@ -56,10 +56,10 @@ Básicamente, `superVariable` se inicializa con `null` y luego tu podrás restab
 <button onClick={() => setSuperVariable('hello')}></button>
 ```
 
-### Posible usos para el hook `useState`
+### Posibles usos para el hook `useState`
 
 1. Conteo: Mostrar el número de me gusta en la pantalla y poder aumentar o disminuir cuando el usuario hace clic.
- ![Contador de React con hooks](https://storage.googleapis.com/breathecode-asset-images/c6aeba3cbad60920198dcadb9ef45fcabf23f0ec9ed6756b1f1bb605f991b86e.gif)
+ ![Contador de React con hooks](https://github.com/breatheco-de/content/blob/af1cdb34065da4640748b0be83a7fe2305440edc/src/assets/images/react-counter-usestate-example.gif?raw=true)
  [![Editar contador simple usando useState y hooks de React](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/simple-counter-using-usestate-and-react-hooks-soxu8?fontsize=14&hidenavigation=1&theme=dark)
 
 ```jsx
