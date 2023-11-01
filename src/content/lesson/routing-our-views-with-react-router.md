@@ -80,7 +80,7 @@ export const Layout = () => {
 There are 3 components to understand here:
 
 + `<BrowserRouter>`: Every time you open a new BrowserRouter tag, you are basically telling React that everything that is inside must be conditionally rendered, based on particular <Routes> (URLs).
-+ `<Routes>`: Works similar to the switch statement in JavaScript but for Routes... It tells React that only the first `<Route>` that matches the URL will be displayed.
++ `<Routes>`: Works similar to the *switch* statement in JavaScript but for Routes... It tells React that only the first `<Route>` that matches the URL will be displayed.
 + `<Route>`: It’s the way of React-Router to map routes with components, for example:
 
 ```jsx
@@ -101,11 +101,11 @@ React Router created a component that we can use instead of `<a>`:
 <Link to="/login">Take me to login</Link>
 ```
 
-### 2. Using history.push(‘new/url/here’):
+### 2. Using history.push('new/url/here'):
 
 React Router always passes to each view a prop called "history", which contains a lot of useful information to use when routing users. One of its many useful utilities is the "push" function, which basically redirects the user to a given path.
 
-You can access the history object by using the `useNavigate` hook like this:
+You can access the *history* object by using the `useNavigate` hook like this:
 
 ```js
 import { useNavigate } from "react-router-dom";
