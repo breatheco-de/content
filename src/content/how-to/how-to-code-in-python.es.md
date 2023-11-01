@@ -20,7 +20,7 @@ print(2+2)
 
 ## Programar en Python
 
-[Python](https://4geeks.com/technology/python) es un lenguaje de programación extremadamente potente, no por gusto es el más usado en la actualidad y al mismo tiempo, el lenguaje que más se recomienda como puerta de entrada al mundo del desarrollo de aplicaciones.
+[Python](https://4geeks.com/es/technology/python) es un lenguaje de programación extremadamente potente, no por gusto es el más usado en la actualidad y al mismo tiempo, el lenguaje que más se recomienda como puerta de entrada al mundo del desarrollo de aplicaciones.
 
 Desde hace un tiempo, Python se ha apoderado de muchas especializaciones a partir de su sencillez y potencia, pudiendo utilizar desde para la creación de aplicaciones webs, hasta para [Machine Learning](https://4geeksacademy.com/us/machine-learning-engineer/machine-learning-engineer), AI y como herramienta para la investigación y desarrollo de tecnologías y técnicas en el ámbito médico.
 
@@ -40,9 +40,9 @@ print(((10+25)*12-5)/6)
 #Output: 69.16666666666667
 ```
 
-> siempre vamos a utilizar el método  `print()` para mostrar en la terminal lo que le pasemos entre los paréntesis
+> siempre vamos a utilizar el método `print()` para mostrar en la terminal lo que le pasemos entre los paréntesis
 
-Como se puede observar, Python será capaz de realizar cálculos complejos mientras se escriban como mismo lo haríamos en matemática. Se respetarán los () y orden de ejecución de las operaciones.
+Como se puede observar, Python será capaz de realizar cálculos complejos mientras se escriban como mismo lo haríamos en matemática. Se respetarán los `()` y orden de ejecución de las operaciones.
 
 ### Creando listas
 
@@ -89,7 +89,7 @@ for x in range(10):
 # I will study python
 ```
 
-> for x in range(10) es un loop que va a repetir el bloque de código que hemos establecido mientras que x, que comenzará con el valor de 0, sea menor que 10
+> `for x in range(10)` es un loop que va a repetir el bloque de código que hemos establecido mientras que x, que comenzará con el valor de 0, sea menor que 10
 
 ## Haciendo uso de números aleatorios
 
@@ -131,13 +131,14 @@ print(randomColor())
 
 #Output: yellow
 ```
->random es un módulo de Python que nos permite generar números aleatorios, por lo que tenemos que importar (traer) a nuestro programa el módulo para poderlo utilizar
 
-En el ejemplo anterior, tenemos una función que se llama `randomColor` que en el bloque de código lo que tiene es una lista de colores y una variable, randomSelectedColor.
+> `random` es un módulo de Python que nos permite generar números aleatorios, por lo que tenemos que importar (traer) a nuestro programa el módulo para poderlo utilizar
+
+En el ejemplo anterior, tenemos una función que se llama `randomColor` que en el bloque de código lo que tiene es una lista de colores y una variable, `randomSelectedColor`.
 
 Para seleccionar un color aleatorio, de nuestra lista de colores, hacemos uso de el módulo `random` que importamos al principio, utilizando su método `randrange()` para definir hasta qué número queremos generar números aleatorios (en este caso 4, que es el largo de nuestra lista de colores).
 
-Después de haber extraído de nuestra lista de colores uno de manera aleatoria y haberlo almacenado en nuestra variable randomSelectedColor, lo que quedaría sería devolverlo en el retorno de nuestra función.
+Después de haber extraído de nuestra lista de colores uno de manera aleatoria y haberlo almacenado en nuestra variable `randomSelectedColor`, lo que quedaría sería devolverlo en el retorno de nuestra función.
 
 ## Trabajando con fechas:
 
