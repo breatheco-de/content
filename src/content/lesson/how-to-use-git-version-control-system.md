@@ -79,7 +79,7 @@ You can **move the head** if you want. It does not necessarily have to always be
 
 ## You can have Several Heads (Branches)
 
-Heads mark the beginning of a revision history. In GIT, we call the "revision history" a "branch," and it is possible to have several revision histories.
+Heads mark the beginning of a revision history. In GIT, we call the "revision history" a "branch", and it is possible to have several revision histories.
 
 By default, every repository has one branch called Master, with its corresponding HEAD that points to the last commit of that branch.
 
