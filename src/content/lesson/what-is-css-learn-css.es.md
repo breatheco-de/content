@@ -11,7 +11,7 @@ status: "published"
 
 ## ¡¡Bienvenido a CSS!!
 
-Luego de sumergirnos en el mundo de HTML todo empieza a parecer feo, rígido y cuadrado. Después de todo hay que recordar que HTML fue hecho por científicos, no estamos diciendo que es feo por eso, seguramente hay científicos que hacen cosas hermosas (además, fueron los mismos científicos que [descubrieron el Bosón de Higgs](https://www.youtube.com/watch?v=0CugLD9HF94) y por eso hay que alabarlos hasta nuestra muerte), pero… definitivamente… es así de feo porque fue hecho por científicos con un propósito muy diferente al que HTML cumple hoy en día.
+Luego de sumergirnos en el mundo de HTML , todo empieza a parecer feo, rígido y cuadrado. Después de todo hay que recordar que HTML fue hecho por científicos, no estamos diciendo que es feo , por eso , seguramente hay científicos que hacen cosas hermosas (además, fueron los mismos científicos que [descubrieron el Bosón de Higgs](https://www.youtube.com/watch?v=0CugLD9HF94) y por eso hay que alabarlos hasta nuestra muerte), pero… definitivamente… es así de feo porque fue hecho por científicos con un propósito muy diferente al que HTML cumple hoy en día.
 
 ![what is css](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/6891485c-2a5a-4722-a7dc-f108993c18ba.jpeg?raw=true)
 
@@ -21,7 +21,7 @@ Peeeero… El internet es más hermoso que eso. La cosa se puso seria cuando Int
 
 Irónicamente, los mismos científicos de CERN que crearon HTML, tuvieron que ponerse a pensar en cómo mejorar lo que habían hecho y se dieron a la tarea de embellecerlo. En este momento fue cuando [Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie), propuso la primera versión de CSS en 1994, que luego fue adaptado hasta convertirse en CSS1.
 
-## Entonces, ¿qué hace CSS? y ¿para qué sirve?
+## Entonces, ¿qué hace CSS? , y ¿para qué sirve?
 
 
 ![what is css](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/8c9fea86-c56c-486f-8b64-4322338076f7.jpeg?raw=true)
@@ -34,7 +34,7 @@ Puedes decirle a un <h1> que se vea igualito que un <h2> sin que el usuario se d
 
 > :point_up: Para entender el potencial de CSS, [haz clic aquí para ver un live demo!](http://assets.breatheco.de/live-demos/css/bootstrap/)
 
-¡Puedes imaginar el potencial?  ¡Puedes hacer que casi todo se vea diferente!
+¿Puedes imaginar el potencial?  ¡Puedes hacer que casi todo se vea diferente!
 
 
 
@@ -48,7 +48,7 @@ Vamos a repasar estas tags con más detalle:
 |**Nombre**   |**Etiqueta**   |**Descripción**   |
 |:----------|:-------------|:------------------|
 |Link       |`<link>`          |Tiene como finalidad enlazar a la página con hojas de estilos CSS. Para utilizarla debes especificar tres propiedades dentro de la etiqueta `rel="stylesheet" type="text/css"` y por último `href="with document route css"`<br>`<link rel="stylesheet" type="text/css" href="theme.css"/>`   |
-|Style   |`<style>`   |Si no queremos o no podemos importar una hoja de estilo CSS, tenemos la posibilidad de definir estilos en el HEAD del documento HTML. Simplemente definimos el tag style y procedemos a escribir los estilos que queremos para las etiquetas.<br>`<style>`<br>`h1 {color:red;}`<br>`p {color:blue;}`<br>`</style>`   |
+|Style   |`<style>`   |Si no queremos o no podemos importar una hoja de estilo CSS, tenemos la posibilidad de definir estilos en el HEAD del documento HTML. Simplemente , definimos el tag style y procedemos a escribir los estilos que queremos para las etiquetas.<br>`<style>`<br>`h1 {color:red;}`<br>`p {color:blue;}`<br>`</style>`   |
 
 > :point_up: Así como los documentos HTML terminan con la extensión `.html`, los documentos CSS (las hojas de estilo) terminan con la extensión `.css`
 
@@ -66,7 +66,7 @@ Revisa la animación para entenderlo mejor.
 > :point_up: Los espacios son ignorados, pero puedes utilizarlos para hacer más legible tu código.
 
 
-El siguiente ejemplo, es una hoja de estilos que define 3 grupos diferentes de estilos (#id-selector, .class-selector, tag-selector); y a cada uno de estos grupos se le han aplicado diferentes reglas como: color, tamaño de letra o color de fondo.
+El siguiente ejemplo  es una hoja de estilos que define 3 grupos diferentes de estilos (#id-selector, .class-selector, tag-selector); y a cada uno de estos grupos se le han aplicado diferentes reglas como: color, tamaño de letra o color de fondo.
 
 Debes hacer coincidir los elementos HTML con los grupos de estilos y usar "selectors" para vincular los elementos HTML a los grupos de reglas CSS.
 
@@ -87,7 +87,7 @@ tag-selector
 ## Pero, ¿qué es un “selector”?
 
 
-Un selector es una manera de referirse o identificar uno o varios elementos de HTML. Por ejemplo, si quieres cambiar el color de una página web a rojo debes hacerlo de la siguiente manera:
+Un selector es una manera de referirse o identificar uno o varios elementos de HTML. Por ejemplo, si quieres cambiar el color de una página web a rojo , debes hacerlo de la siguiente manera:
 
 ```css
 body {
@@ -95,7 +95,7 @@ body {
 }
 ```
 
-También puedes cambiar el color de un sólo `<a>`. Para hacer esto, debes definir la propiedad de `clase` o un `id` de la etiqueta HTML que define ese link en particular `<a class="anchor1">`. Las clases se usan más que los IDs debido a que las clases son reutilizables y los IDs se usan más en Javascript. Una vez que esa etiqueta tenga una clase, entonces puedes ir a tu hoja de estilos y definir un `color` de la siguiente manera:
+También puedes cambiar el color de un solo `<a>`. Para hacer esto, debes definir la propiedad de `clase` o un `id` de la etiqueta HTML que define ese link en particular `<a class="anchor1">`. Las clases se usan más que los IDs debido a que las clases son reutilizables y los IDs se usan más en Javascript. Una vez que esa etiqueta tenga una clase, entonces puedes ir a tu hoja de estilos y definir un `color` de la siguiente manera:
 
 ```css
 .anchor1 {
@@ -145,7 +145,7 @@ En el siguiente ejemplo vamos a colocar fondo verde a todos los `td` (celdas) de
 
 |**Selector**   |**Descripción**   |**Ejemplo**  |
 |:--------------|:-----------------|:-------------|
-|selector1, selector2   |Si separas varios selectores por coma `,` puedes asignar múltiples selectores a la vez para ahorrar texto. En el siguiente ejemplo le decimos a todos los h1 y a los elementos de clase .impar que queremos su texto de color rojo.  |`h1, .impar { color: #BDBDBD; }`   |
+|selector1, selector2   |Si separas varios selectores por coma `,` puedes asignar múltiples selectores a la vez para ahorrar texto. En el siguiente ejemplo les decimos a todos los h1 y a los elementos de clase .impar que queremos su texto de color rojo.  |`h1, .impar { color: #BDBDBD; }`   |
 
 ### Pseudoselectores relacionados con enlaces 
 
