@@ -29,9 +29,9 @@ People say that React.js makes the easy stuff hard and the hard stuff easy. It's
 
 ## How does the Context API work?
 
-The concept behind it is very simple: **There is one big Provider**, that provide the data to many **Consumers**, and there's no limit in the amount of consumers you can use.
+The concept behind it is very simple: **There is one big Provider**, that provides the data to many **Consumers**, and there's no limit in the amount of consumers you can use.
 
-Every time the data stored within the **Provider** changes, all the **Consumers** update. It is very similar to how TV signal works: TV channels emit a data signal and all TV antennas consume this signal, receiving the new content and rendering the image on the televisions.
+Every time the data stored within the **Provider** changes, all the **Consumers** update. It is very similar to how TV signals work: TV channels emit a data signal, and all TV antennas consume this signal, receiving the new content and rendering the image on the televisions.
 
 > Everyone has access to the global context now.
 
@@ -49,7 +49,7 @@ We must split the **store** from the **actions** and the **views** (components) 
 
 + We're going to implement a *single point of truth* for the whole React application: ***global state***.
 + This state will contain the *data* and *functions* to set the new state: `store` and `actions`.
-+ We're going to deliver it throughout the whole application using the *context*: `Context.Provider` and `Context.Consumer` (if using *classes* as React components) or `useContext()` hook (if using *functions* as React components)
++ We're going to deliver it throughout the whole application using the: `useContext()` hook.
 
 ### Simple implementation
 
@@ -117,12 +117,12 @@ const MyView = () => (
 ReactDOM.render(<MyView />, document.querySelector("#app"));
 ```
 
-- **Step 4**: Now we can create the `TodoList` component knowing that we can use the `Context.Consumer` (in classes) or `useContext()` hook (in functions) to read the store from the **global state** (no props necessary). 
+- **Step 4**: Now we can create the `TodoList` component, knowing that we can use `useContext()` hook to read the store from the **global state** (no props necessary).
 
-In this case the component will render the to-do's and also be able to add new tasks to the list.
+In this case, the component will render the to-do's and also be able to add new tasks to the list.
 
 ```js
-// Step 4: Add the Context.Consumer tag to any component
+// Step 4: Declare a variable with the hook useContext(), then use it as an object to access any code inside of it 
 
 import React, { useContext } from 'react';
 import { AppContext } from 'path/to/AppContext.js';
