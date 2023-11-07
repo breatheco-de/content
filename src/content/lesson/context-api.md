@@ -21,7 +21,7 @@ People say that React.js makes the easy stuff hard and the hard stuff easy. It's
 
 ### The Context API is here to solve some of those conundrums by:
 
-1. Centralizing a global application state: Instead of being limited to local states on views, you can now share data on one central component and spread to its inner components (children, grandchildren and so forth). The centralized state is called **store**, and we can spread it by using the **Context.Provider** and **Context.Consumer**.
+1. Centralizing a global application state: Instead of being limited to local states on views, you can now share data on one central component and spread to its inner components (children, grandchildren and so forth). The centralized state is called **store**, and we can spread it by using the **Context.Provider**.
 
 2. Data propagation and re-rendering: when this centralized *global state* (**store**) changes, it triggers a re-render of all the child components (your entire application), which produces new data to show in the UI. A central **setState***ish*.
 
