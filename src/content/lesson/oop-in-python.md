@@ -5,11 +5,11 @@ tags: ["python", "object-oriented-programming"]
 authors: ["DF27ARTS"]
 ---
 
-## Introduction to Object Oriented Programming in Python
+## Introduction to Object-Oriented Programming in Python
 
-Hello, future code master! In this lesson, we will explore the fascinating world of Object Oriented Programming (OOP). You will discover what OOP is and how this powerful technique allows you to create more organized, reusable and maintainable programs.
+Hello, future code master! In this lesson, we will explore the fascinating world of Object Oriented Programming (OOP). You will discover what OOP is and how this powerful technique allows you to create more organized, reusable, and maintainable programs.
 
-Following we will see a small example on how to represent a person with a class of [Python](https://4geeks.com/es/lesson/como-programar-en-python).
+Following we will see a small example of how to represent a person with a class of [Python](https://4geeks.com/es/lesson/how-to-code-in-python).
 
 ```py
 class Person:
@@ -25,7 +25,7 @@ person = Person("Thomas", "Smith", 27)
 print(person.presentation_message()) # output: ¡Hi!, my name is Thomas Smith and I am 27 years old.
 ```
 
-This example, shows how to represent a person using this style of object oriented programming (OOP), to represent a real world object in a class. First you must create a class with the name of that object, then within the class you create the function `__init__()` and inside this function you will create the properties of your object such as name, age, weight etc..., you may also create functions (methods) to manipulate the properties of the object.
+This example shows how to represent a person using this style of object-oriented programming (OOP), to represent a real world object in a class. First, you must create a class with the name of that object, then within the class, you create the function `__init__()` and inside this function, you will create the properties of your object such as name, age, weight etc..., you may also create functions (methods) to manipulate the properties of the object.
 
 ## What is Object Oriented Programming (OOP)?  
 
@@ -45,9 +45,9 @@ Object-oriented programming (OOP) is based on four main principles.
 
 ## Classes and Objects: The Foundations of OOP
 
-In OOP, we define the characteristics and behaviors of an object using a "class". A class is like a blueprint or template that describes how the object is created and what it can do. For example, we can have a class `Dog` with attributes like `name` and `age`,and methods like `bark()` and `play()`.  🐶
+In OOP, we define the characteristics and behaviors of an object using a "class". A class is like a blueprint or template that describes how the object is created and what it can do. For example, we can have a class `Dog` with attributes like `name` and `age`, and methods like `bark()` and `play()`.  🐶
 
-Next we will create a class that represents a computer step by step, so that you can better understand how the concept of classes works in Python.
+Next, we will create a class that represents a computer step by step, so that you can better understand how the concept of classes works in Python.
 
 1. First create a class using the reserved word `class`, then in this class create the necessary properties to represent a computer and the necessary methods to manipulate or extract these properties.
 
@@ -93,19 +93,19 @@ HP: {
 }
 ```
 
-As we can see in this example, you can represent two different computers using the same object/class, everytime you create a new instance of that class, the method `obtain_information()` will return the values of that instance of the class, so we avoid the need to repeat unnecessary code to represent different objects, this is very useful when you need to represent many elements as for example in ecommerce.
+As we can see in this example, you can represent two different computers using the same object/class, every time you create a new instance of that class, the method `obtain_information()` will return the values of that instance of the class, so we avoid the need to repeat unnecessary code to represent different objects, this is very useful when you need to represent many elements as for example in e-commerce.
 
-## Object Oriented Programming Basics
+## Object-Oriented Programming Basics
 
 As mentioned before, object-oriented programming (OOP) is based on four fundamental concepts, below we will see each of them in more detail and code examples that will help you understand them better.
 
 ### Abstraction
 
-Abstraction is a very important concept in (OOP) that allows to represent real world objects in a program through the use of classes and objects. Basically **abstraction** allows you to represent a particular type of real or abstract object such as a person, a household appliance or an animal, to be used in a program.
+Abstraction is a very important concept in (OOP) that allows to represent real world objects in a program through the use of classes and objects. Basically **abstraction** allows you to represent a particular type of real or abstract object such as a person, a household appliance, or an animal, to be used in a program.
 
 ### Inheritance
 
-Object/class inheritance in object-oriented programming is a fundamental concept, allowing you to create a new class based on an existing class. The existing class is known as a base class or superclass, and the created class is known as a derivative class or subclass.
+Object/class inheritance in object-oriented programming is a fundamental concept, allows you to create a new class based on an existing class. The existing class is known as a base class or superclass, and the created class is known as a derivative class or subclass.
 
 Example:
 
@@ -167,7 +167,7 @@ print(new_house.get_price())  # output: 400000000
 
 As you can see in the example, in the class `House` the properties `square_area` and `place`are public properties which you can access without any problem, but the property `__price` on the other hand, is a private property and you cannot access it directly, in order to access or modify a private property you must use the **Getter** and **Setter** functions. `get_price()`, `set_price()` are conventions in object-oriented programming, the **get** and **set** methods are used to obtain or modify private properties within the class.
 
-### 4. Polimorphism
+### 4. Polymorphism
 
 Finally, **polymorphism** is another fundamental concept in object-oriented programming. In simple terms, polymorphism allows different classes to behave similarly, but with specific implementations for each one. 
 
@@ -205,7 +205,7 @@ print(sport_car.obtain_model()) # output: The sport car model 'Tesla motors spor
 
 Polymorphism is based on the ability of an object/class to adopt  different forms, in the example above the method `obtain_model()` of the abstract class `Car` is used in different forms in classes `Family_car` and `Sport_car` returning different messages each. This is a short example of the concept of polymorphism, the ability to use the same function of a class in different ways.
 
-## Advantages of Object Oriented Programming  🌟💼
+## Advantages of Object-Oriented Programming  🌟💼
 
 OOP offers multiple advantages that make programming more efficient and effective:
 
@@ -217,13 +217,7 @@ OOP offers multiple advantages that make programming more efficient and effectiv
    
 -   **Real World Modeling**: OOP allows you to model real-world entities and processes in a natural way, which makes code more intuitive.
 
-Object Oriented Programming (OOP) is a fundamental technique that allows you to create more organized, reusable and maintainable programs. Now that you have a basic understanding of OOP, you can start creating your own classes and objects to bring your projects to life! If you want to learn more about this programming language I invite you to read the following
- [Python tutorial](https://4geeks.com/es/lesson/como-programar-en-python) in [4Geeks](https://4geeks.com/)blog.
+Object Oriented Programming (OOP) is a fundamental technique that allows you to create more organized, reusable, and maintainable programs. Now that you have a basic understanding of OOP, you can start creating your own classes and objects to bring your projects to life! If you want to learn more about this programming language I invite you to read the following
+ [Python tutorial](https://4geeks.com/es/lesson/how-to-code-in-python) in [4Geeks](https://4geeks.com/)blog.
 
 Code will set you free ✨👨‍💻
-
-
-
-
-
-

@@ -60,7 +60,7 @@ Basically, `superVariable` will be initialized with `null`, and then you will be
 ### Possible uses for the `useState` hook
 
  1. Counting: Displaying the number of likes on the screen and being able to increase or decrease when the user clicks.
- ![React Counter with Hooks](https://storage.googleapis.com/breathecode-asset-images/c6aeba3cbad60920198dcadb9ef45fcabf23f0ec9ed6756b1f1bb605f991b86e.gif) 
+ ![React Counter with Hooks](https://github.com/breatheco-de/content/blob/af1cdb34065da4640748b0be83a7fe2305440edc/src/assets/images/react-counter-usestate-example.gif?raw=true) 
  [![Edit Simple counter using useState and react hooks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/simple-counter-using-usestate-and-react-hooks-soxu8?fontsize=14&hidenavigation=1&theme=dark)
 
 ```jsx
@@ -116,7 +116,7 @@ export default Clock;
 
 3. Showing an input on the screen: The best practice to get the content from any input is by storing it on a state variable, this is called "Controlled Input". 
 
-![Controlled input field](https://s10.gifyu.com/images/ezgif.com-gif-maker-399b80fa21c077ab6.gif?raw=true)
+![Controlled input field](https://github.com/breatheco-de/content/blob/333c8192f0e451466854605edecc8f6b01c0fda4/src/assets/images/controlled-input-example.gif?raw=true)
 [![Edit controlled input](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/controlledinput-rbh0m?fontsize=14&hidenavigation=1&theme=dark)
     
 ```jsx
