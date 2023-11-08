@@ -10,11 +10,14 @@ You can contribute by writing an article, fixing a bug, etc.
 
 ### Writing a new article
 
-After you have been asked to write a piece of content:
+<b> After you have been asked to write a piece of content:</b>
+
 
 1. Fork this respository.
 2. Commit you new article into any of the subdirectories withing the content folder (depending on what assignment are you writing).
 3. Create a Pull Request into this repository.
+
+<br> </br>
 
 ## Guidelines
 
