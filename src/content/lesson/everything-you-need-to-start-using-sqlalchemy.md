@@ -187,6 +187,7 @@ ingredient = Ingredient()
 ingredient.name = "meat"
 ingredient.id = 4
 db.session.add(ingredient)
+
 # Now we do COMMIT and save it in the database so that we set the ingredient in the Pizza
 db.session.commit()
 
