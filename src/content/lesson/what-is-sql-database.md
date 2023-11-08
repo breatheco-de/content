@@ -220,7 +220,7 @@ The syntax for the command is as follows:
 // Any operation before the ROLLBACK 
 INSERT INTO client_account SET (amount) VALUES (1000)
 
-// Now we ROLLBACK the transaction, the insert never happened 
+// Now we ROLLBACK the transaction, the INSERT never happened 
 ROLLBACK;
 ```
 
