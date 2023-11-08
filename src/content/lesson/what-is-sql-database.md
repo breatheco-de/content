@@ -39,7 +39,7 @@ Databases are similar in appearance to spreadsheets: everything is stored in tab
 
 #### 1. Tables
 
-In a database, a "table" is an information entity with "People", "Cars", "Events", etc. The rows contain the information related to the characteristics, each row being a column. So, if we have a table called "People", it may contain columns for "First name", "Last name", "ID", etc. A row would have the values corresponding to a person. For example, a row could be "Luis", "Perez Gomez", "123456789Z". The table is the **only structure** capable of storing data via SQL.
+In a database, a "table" is an information entity with "People", "Cars", "Events", etc. The rows contain the information related to the characteristics, each row being a column. So, if we have a table called "People", it may contain columns for "First name", "Last name", "ID", etc. A row would have the values corresponding to a person. For example, a row could be "Luis", "Perez Gomez", "123456789Z". The "table" is the **only structure** capable of storing data via SQL.
 
 #### 2. Rows
 
