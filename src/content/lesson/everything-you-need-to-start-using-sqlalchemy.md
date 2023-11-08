@@ -95,9 +95,10 @@ db.session.commit()
 ### SELECT: Searching or retrieving records from the database
 
 There are 3 ways to retrieve data from a database:
-    1. Fetch all records from a particular table/model using `MyModel.query.all()`
-    2. Fetch one single record based on its primary key using `MyModel.query.get(id)`
-    3. Fetch a group of records based on a query `Person.query.filter_by(arg1=value, arg2=value, ...)`
+
+1. Fetch all records from a particular table/model using `MyModel.query.all()`
+2. Fetch one single record based on its primary key using `MyModel.query.get(id)`
+3. Fetch a group of records based on a query `Person.query.filter_by(arg1=value, arg2=value, ...)`
 
 ```py
 # Fetch all records from a particular table/model
