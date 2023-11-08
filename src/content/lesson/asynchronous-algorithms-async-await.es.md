@@ -19,10 +19,10 @@ Comencemos diciendo que JavaScript por defecto es síncrono y con una sola secue
 
 ```javascript
 function correPrimero(){
-	console.log("primero");
+    console.log("primero");
 }
 function correSegundo(){
-	console.log("segundo");
+    console.log("segundo");
 }
 correSegundo();
 correPrimero();
@@ -42,12 +42,12 @@ Las cosas se complican más cuando se llaman funciones dentro de funciones, como
 
 ```javascript
 function correPrimero(){
-	console.log("Quiero correr primero");
-	correSegundo();
-	console.log("Yo también quiero correr cuando correPrimero corra");
+    console.log("Quiero correr primero");
+    correSegundo();
+    console.log("Yo también quiero correr cuando correPrimero corra");
 }
 function correSegundo(){
-	console.log("¿Dónde estoy corriendo?");
+    console.log("¿Dónde estoy corriendo?");
 }
 correPrimero();
 
@@ -76,18 +76,18 @@ Pero espera, hay más... Incluso podríamos pasar una *función* como argumento 
 
 ```javascript
 1    function correPrimero(unaFuncion){
-2	console.log("Quiero correr primero");
-3	unaFuncion();
-4	correSegundo();
-5	console.log("También quiero correr cuando se ejecute correPrimero");
+2        console.log("Quiero correr primero");
+3        unaFuncion();
+4        correSegundo();
+5        console.log("También quiero correr cuando se ejecute correPrimero");
 6    }
 7    function correSegundo(){
-8	console.log("¿Dónde estoy corriendo?");
+8        console.log("¿Dónde estoy corriendo?");
 9    }
 10   correPrimero(unaTercera);
 11
 12   function unaTercera(){
-13	console.log("Esto es una locura");
+13        console.log("Esto es una locura");
 14   }
 15
 
@@ -114,21 +114,21 @@ Ahora, supongamos que necesitamos cargar algunos archivos desde un servidor, esp
 
 ```javascript
 function cargarImagen(){
-	console.log("¡Cárgala!");
-	// Código para cargar una imagen
-	console.log("¡Imagen cargada!");
+    console.log("¡Cárgala!");
+    // Código para cargar una imagen
+    console.log("¡Imagen cargada!");
 }
 function usuarioEsperando(){
-	console.log("No me gusta esperar");
+    console.log("No me gusta esperar");
 }
 cargarImagen();
 usuarioEsperando();
 
 /*RESULTADO EN CONSOLA
-	> ¡Cárgala!			// El usuario comienza a esperar
-					// Ahora el usuario tiene que esperar a que lleguen las imágenes; hora: desconocida... navegador: congelado :(
-	> ¡Imagen cargada!		// Después de ?? segundos
-	> No me gusta esperar		// No queremos que los usuarios esperen tanto tiempo para ver las imágenes
+  > ¡Cárgala!            // El usuario comienza a esperar
+                         // Ahora el usuario tiene que esperar a que lleguen las imágenes; hora: desconocida... navegador: congelado :(
+  > ¡Imagen cargada!     // Después de ?? segundos
+  > No me gusta esperar  // No queremos que los usuarios esperen tanto tiempo para ver las imágenes
 */
 ```
 *Inaceptable...* 
@@ -141,17 +141,17 @@ La programación asíncrona es una forma de procesar líneas de código y maneja
 
 ```javascript
 function cargarImagen(){
-  console.log("¡Cárgala!");
-  fetch("la_url_de_la_imagen").then( (response) => {
-    if(response.ok){ 
-      console.log("¡Imagen cargada!");
-    } else {
-      console.log("Uh-oh algo salió mal");
-    }
-	});
+    console.log("¡Cárgala!");
+    fetch("la_url_de_la_imagen").then( (response) => {
+        if(response.ok){ 
+            console.log("¡Imagen cargada!");
+        } else {
+            console.log("Uh-oh algo salió mal");
+        }
+    });
 }
 function usuarioEsperando(){
-  console.log("No me gusta esperar");
+    console.log("No me gusta esperar");
 }
 cargarImagen();
 usuarioEsperando();
@@ -238,7 +238,7 @@ Promise.reject(new Error("Fui rechazada")).then(error => console.log(error));
 
 ```javascript
 let promise = new Promise(function(resolve,reject){
-	resolve("Fui resuelta y puedes verme cuando usas el método resolve");
+    resolve("Fui resuelta y puedes verme cuando usas el método resolve");
 });
 promise.then(value => console.log(value));
 ```
@@ -248,7 +248,7 @@ promise.then(value => console.log(value));
 
 ```javascript
 let promise = new Promise(function(resolve,reject){
-	reject("Me rechazaron y puedes verme cuando usas el método catch");
+    reject("Me rechazaron y puedes verme cuando usas el método catch");
 });
 promise.catch(error => console.log(error));
 ```
@@ -263,17 +263,17 @@ promise.catch(error => console.log(error));
 
 ```javascript
 function returnedPromiseHere() {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve("Yo soy las imágenes que vienen de la base de datos");
-    }, 1000);
-  });
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("Yo soy las imágenes que vienen de la base de datos");
+        }, 1000);
+    });
 }
 async function useAsyncFunction() {
-  console.log("Soy una tarea rápida");
-  let result = await returnedPromiseHere();
-  console.log(result);
-  console.log("Tuve que esperar a que el await terminara");
+    console.log("Soy una tarea rápida");
+    let result = await returnedPromiseHere();
+    console.log(result);
+    console.log("Tuve que esperar a que el await terminara");
 }
 useAsyncFunction();
 
@@ -289,34 +289,34 @@ useAsyncFunction();
 
 ```javascript
 function promise1() {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve("Estoy resuelta como 1");
-    }, 100);
-  });
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("Estoy resuelta como 1");
+        }, 100);
+    });
 }
 function promise2() {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve("Estoy resuelta como 2");
-    }, 200);
-  });
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("Estoy resuelta como 2");
+        }, 200);
+    });
 }
 function promise3() {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve("Estoy resuelta como 3");
-    }, 300);
-  });
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("Estoy resuelta como 3");
+        }, 300);
+    });
 }
 async function handlingAllPromises() {
-  let first = await promise1();
-  let second = await promise2();
-  let third = await promise3();
+    let first = await promise1();
+    let second = await promise2();
+    let third = await promise3();
   
-  console.log(first);
-  console.log(second);
-  console.log(third);
+    console.log(first);
+    console.log(second);
+    console.log(third);
 }
 handlingAllPromises();
 ```
@@ -331,11 +331,11 @@ let [first, second, third] = await Promise.all([promise1(), promise2(), promise3
 
 ```javascript
 const handlingAllPromises = async () => {
-  let [first, second, third] = await Promise.all([promise1(), promise2(), promise3()]);
+    let [first, second, third] = await Promise.all([promise1(), promise2(), promise3()]);
   
-  console.log(first);
-  console.log(second);
-  console.log(third);
+    console.log(first);
+    console.log(second);
+    console.log(third);
 }
 ```
 
@@ -345,13 +345,13 @@ Una buena manera de manejar los errores en las funciones asíncronas es usar las
 
 ```javascript
 async function handeErrors() {
-  let msg;
-  try {
-    msg = await promise1(); // Nótese que este método ya está escrito en su aplicación
-    console.log(msg);
-  } catch(err) {
-    console.log(err);
-  }
+    let msg;
+    try {
+        msg = await promise1(); // Nótese que este método ya está escrito en su aplicación
+        console.log(msg);
+    } catch(err) {
+        console.log(err);
+    }
 }
 ```
 
@@ -359,10 +359,10 @@ async function handeErrors() {
 
 ```javascript
 async function fetchData(endpoint) { 
-	const response = await  fetch(endpoint); // Nota el uso de fetch API
-	let data = await res.json();
-	data = data.map(user => user.ID); 
-	console.log(data); 
+    const response = await  fetch(endpoint);  // Nota el uso de fetch API
+    let data = await res.json();
+    data = data.map(user => user.ID); 
+    console.log(data); 
 }
 
 fetchData(http://dummyData/api/allUsers); // Este es un ejemplo de endpoint
