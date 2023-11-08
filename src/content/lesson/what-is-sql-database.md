@@ -217,10 +217,10 @@ The `ROLLBACK` command restores your database to your last COMMIT. You can also 
 The syntax for the command is as follows:
 
 ```sql
-// Any operation before the rollback 
+// Any operation before the ROLLBACK 
 INSERT INTO client_account SET (amount) VALUES (1000)
 
-// Now we rollback the transaction, the insert never happened 
+// Now we ROLLBACK the transaction, the insert never happened 
 ROLLBACK;
 ```
 
