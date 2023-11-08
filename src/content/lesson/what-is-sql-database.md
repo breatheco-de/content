@@ -1,6 +1,6 @@
 ---
 title: "Mastering Databases: What is SQL Database"
-subtitle: "Are you ready to work with data ? Learn here about what is SQL Database and how to work with it."
+subtitle: "Are you ready to work with data? Learn here about what is SQL Database and how to work with it."
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
 date: "2023-06-26T00:35:31+00:00"
