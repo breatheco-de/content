@@ -89,7 +89,7 @@ Crea una nueva tabla, una vista de una tabla u otro objeto en la base de datos.
 CREATE TABLE IF NOT EXISTS `chat_group` (
   `chat_group_id` int(10) UNSIGNED NOT NULL,
   `name` varchar(20) NOT NULL,
-  `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+  `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY('chat_group_id')
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
