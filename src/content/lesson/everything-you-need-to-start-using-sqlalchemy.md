@@ -217,7 +217,7 @@ db.session.commit()
 
 Now, our 'Pizza' has the following ingredients:
 
-![SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-3.png?raw=true)
+![SQL Pizza model](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-3.png?raw=true)
 
 However, before putting it in the oven, we decided we didn't want bacon, so we used the rollback:
 
@@ -228,7 +228,7 @@ checkpoint_b.rollback()
 
 Finally, our 'Pizza' looks like this:
 
-![SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-4.png?raw=true)
+![SQL Pizza model rollback](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-4.png?raw=true)
 
 ... I'm a bit hungry after reading this lesson!! Aren't you??
 
