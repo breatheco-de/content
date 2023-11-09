@@ -17,7 +17,7 @@ All the work was done by the server: since there was no JavaScript, the DOM coul
 
 ### The Client-Server Architecture
 
-[Remember how the internet works?](https://www.youtube.com/watch?v=UiBT3Kj8KBM) Every domain points to a single IP address/server, and that server is ready to give back a **text answer** to any HTTP request that comes from any client.
+[Remember how the Internet works?](https://www.youtube.com/watch?v=UiBT3Kj8KBM) Every domain points to a single IP address/server, and that server is ready to give back a **text answer** to any HTTP request that comes from any client.
 
 **Think of the server like a "document generator."** It can be an image, a video, a text document, JSON, HTML, CSS, etc. The server’s responsibility is to respond with content each time a client requests it.
 
