@@ -21,7 +21,7 @@ La gente dice que React.js hace que las cosas fáciles sean difíciles y que las
 
 ### La context API está aquí para resolver algunos de esos enigmas:
 
-1.  Tener una aplicación global centralizada: en lugar de limitarte a los estados locales en las vistas, ahora puede compartir datos en un componente principal y sus componentes relativos (hijos, nietos y así). El estado centralizado se llama **store** y podemos extenderlo/propagarlo utilizando el **Context.Provider** y el **Context.Consumer**
+1.  Tener una aplicación global centralizada: en lugar de limitarte a los estados locales en las vistas, ahora puede compartir datos en un componente principal y sus componentes relativos (hijos, nietos y así). El estado centralizado se llama **store** y podemos extenderlo/propagarlo utilizando el **Context.Provider**.
 
 2. Propagación y re-renderizado de datos: cuando este estado centralizado llamado *estado global* (**store**) cambia, desencadena una re-renderización de todos los componentes hijos (tu aplicación completa) lo que genera nuevos datos para mostrar en la UI. Un **setState** pero central.
 
@@ -49,7 +49,7 @@ Debemos separar el **store** de las **actions** y las **views** (componentes) y 
 
 + Vamos a implementar *un solo punto de verdad* en toda la aplicación: el ***global state***.
 + Este estado contendrá la *información* y las *funciones* para establecer un nuevo state: `store` y `actions`.
-+ Vamos a propagarlo en toda nuestra aplicación utilizando el *contexto*: `Context.Provider` y `Context.Consumer` (si usa *clases* como componentes de React) o hook `useContext()` (si usa *funciones* como componentes de React)
++ Vamos a propagarlo en toda nuestra aplicación utilizando el hook `useContext()`.
 
 ### Una implementación sencilla 
 
@@ -116,10 +116,10 @@ const MyView = () => (
 ReactDOM.render(<MyView />, document.querySelector("#app"));
 ```
 
-- **Paso 4**: Ahora podemos crear el componente `TodoList` sabiendo que podemos usar el `Context.Consumer` para leer el store desde el **global state** (no se necesitan props). En este caso, el componente renderizará los to-dos y también podrá añadir nuevas tareas a la lista.
+- **Paso 4**: Ahora podemos crear el componente `TodoList` sabiendo que podemos usar el hook `useContext()` para leer el store desde el **global state** (no se necesitan props). En este caso, el componente renderizará los to-dos y también podrá añadir nuevas tareas a la lista.
 
 ```js
-// Paso 4: Agrega la etiqueta Context.Consumer a cualquier componente
+// Paso 4: Declara una variable con el hook useContext(), después úsalo como un objeto para acceder al código interno
 
 import React, { useContext } from 'react';
 import { AppContext } from 'path/to/AppContext.js';
