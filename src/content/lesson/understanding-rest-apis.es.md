@@ -87,10 +87,10 @@ Como acabamos de ver en el ejemplo de la API de Twitter, su servicio REST solo i
 ### Recurso
 Un recurso es una representación abstracta de una unidad de información que se distribuye en las llamadas desde y hacia la API, y su estructura y contenido dependerá también del ámbito de la aplicación y su dominio. Por ejemplo:
 
-+ Si estamos construyendo una API para una academia online, los recursos podrían ser: estudiante, curso, clase, tema, profesor, etc.
-+ Si estamos creando una API de comercio electrónico, los recursos podrían ser: producto, categoría, pedido, cliente, etc.
++ Si estamos construyendo una API para una academia online, los recursos podrían ser: estudiantes, cursos, clases, temas, profesores, etc.
++ Si estamos creando una API de comercio electrónico, los recursos podrían ser: productos, categorías, pedidos, clientes, etc.
   
-Los recursos representan los documentos que se transfieren a través de la red para realizar el trabajo. Los recursos deben nombrarse como sustantivos, ya que representan conceptos en el dominio de un sistema en particular y se identifican usando una URI.
+Los recursos representan los documentos que se transfieren a través de la red para realizar el trabajo. Los recursos deben nombrarse como sustantivos en plural, ya que representan conceptos en el dominio de un sistema en particular (colecciones) y se identifican usando una URI.
 
 ## Otras lecturas
 A continuación se proporcionan varios documentos y guías para reforzar el conocimiento sobre las API REST:
