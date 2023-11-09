@@ -144,12 +144,12 @@ console.log(returningMapObject);
 ```python
 # Using lambda to map a list 
 
-peopleArray = [{ "name": "Mario Peres" }, { "name": "Emilio Peres" }, { "name": "Yusaiba Peres" }]
-returningMapObject = map(lambda obj: obj['name'], peopleArray)
-namesArray = list(returningMapObject)
-print(namesArray)
+people_list = [{ "name": "Mario Peres" }, { "name": "Emilio Peres" }, { "name": "Yusaiba Peres" }]
+returning_map_object = map(lambda obj: obj['name'], people_list)
+names_list = list(returning_map_object)
+print(names_list)
 
-# now stringsArray is a list of just names like ["Mario Peres", "Emilio Peres", "Yusaiba Peres"]
+# Now names_list is a list of names like ["Mario Peres", "Emilio Peres", "Yusaiba Peres"]
 ```
 
 > 📺 Here is a weird but amazing video explaining lambda functions: https://www.youtube.com/watch?v=25ovCm9jKfA
@@ -194,13 +194,13 @@ myArray.splice(1, 1);
 #### ![python syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) With Python
 
 ```python
-myList = ['The', 'earth', 'revolves', 'around', 'sun']
+my_list = ['The', 'earth', 'revolves', 'around', 'sun']
 
-myList.insert(0, "Yes")
-print(myList) # ['Yes', 'The', 'earth', 'revolves', 'around', 'sun'] 
+my_list.insert(0, "Yes")
+print(my_list)  # ['Yes', 'The', 'earth', 'revolves', 'around', 'sun'] 
 
-myList.remove("Yes")
-print(myList) # ['The', 'earth', 'revolves', 'around', 'sun']
+my_list.remove("Yes")
+print(my_list)  # ['The', 'earth', 'revolves', 'around', 'sun']
 ```
 
 ### Sorting Functions for Lists
@@ -209,13 +209,13 @@ print(myList) # ['The', 'earth', 'revolves', 'around', 'sun']
 
 ```python
 # Ascending Sort 
-a = [5, 2, 3, 1, 4]
-a.sort()
-print(a) # [1, 2, 3, 4, 5]
+number_list = [5, 2, 3, 1, 4]
+number_list.sort()
+print(number_list)  # [1, 2, 3, 4, 5]
 
 # Sorting list of object using a "key" parameter 
-myArray = [{ "name": "Mario Peres" }, { "name": "Emilio Peres" }, { "name": "Yusaiba Peres" }]
-myArray.sort(key=lambda person: person['name'])
+my_list = [{ "name": "Mario Peres" }, { "name": "Emilio Peres" }, { "name": "Yusaiba Peres" }]
+my_list.sort(key=lambda person: person['name'])
 ```
 
 > 📺 Let's summon Socratica again to understand sorting in Python: https://www.youtube.com/watch?v=QtwhlHP_tqc
@@ -242,7 +242,7 @@ let obj = { "name": "Mario", "lastname": "Perez" };
 
 // Like a class 
 class Person{
-    constructor(){
+    constructor() {
          this.name = "";
          this.lastname = "";
     }
@@ -259,9 +259,9 @@ obj.lastname = "Perez";
 # In Python we have Classes and Dictionaries 
 
 # Here is how you declare and use a dictionary 
-obj = {}
-obj['name'] = "Mario"
-obj['lastname'] = "Perez"
+my_dict = {}
+my_dict['name'] = "Mario"
+my_dict['lastname'] = "Perez"
 
 # Here is how you declare and use a class 
 class Person:
@@ -269,9 +269,9 @@ class Person:
         self.name = ''
         self.lastname = ''
 
-obj = Person()
-obj.name = "Mario"
-obj.lastname = "Perez"
+my_person = Person()
+my_person.name = "Mario"
+my_person.lastname = "Perez"
 ```
 
 > 📺 Socratica, our great evolved specimen & friend, explains Objects in a great way: https://www.youtube.com/watch?v=apACNr7DC_s
