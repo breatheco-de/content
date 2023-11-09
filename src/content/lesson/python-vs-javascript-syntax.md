@@ -32,7 +32,7 @@ When you compare it to other back-end languages, Python is leading in almost eve
 
 |Community        |Tools    |
 |:---------------:|:------------------:|
-|Python is Google's official language. It’s also one of the oldest languages, with huge communities around each of its libraries/tools. MIT uses it to teach code. NASA to build rockets. Quora, Facebook, Yahoo, Amazon, etc. Almost every big company in the world has to use it!      |Most of the Python libraries are the best at what they do: [MathLab](https://www.mathworks.com/help/matlab/matlab-engine-for-python.html?requestedDomain=true) (for data processing), [Pandas](https://pandas.pydata.org/) (big data), [Web.py](http://webpy.org/) (web server), [Django](https://www.djangoproject.com/) (web framework), [PyBrain](http://pybrain.org/) (AI), [TensorFlow](https://www.tensorflow.org/) (Machine Learning), etc. We could be here all day! The most amazing thing is that these libraries are only one `$ pip install` away (just like when using NPM with JS).      |
+|Python is Google's official language. It’s also one of the oldest languages, with huge communities around each of its libraries/tools. MIT uses it to teach code. NASA to build rockets. Quora, Facebook, Yahoo, Amazon, etc. Almost every big company in the world has to use it!      |Most of the Python libraries are the best at what they do: [MatLab](https://www.mathworks.com/help/matlab/matlab-engine-for-python.html?requestedDomain=true) (for data processing), [Pandas](https://pandas.pydata.org/) (big data), [Web.py](http://webpy.org/) (web server), [Django](https://www.djangoproject.com/) (web framework), [PyBrain](http://pybrain.org/) (AI), [TensorFlow](https://www.tensorflow.org/) (Machine Learning), etc. We could be here all day! The most amazing thing is that these libraries are only one `$ pip install` away (just like when using NPM with JS).      |
 
 
 ## JavaScript vs Python Syntax
@@ -47,10 +47,10 @@ There are only a few differences; here is the explanation:
 
 |In Javascript          |In Python       |
 |:----------------------|:-------------------|
-|Number                 |Python has the same "Number" data-type, but it can accept more options than JS, like fractions (2/3) or complex numbers.<br> `myNumber = 23.23  # Float` <br> `myNumber = 54  # Integer` <br> `myNumber = 12.00  # Float (even with 00 as decimals)`    |
+|Number                 |Python has the same "Number" data-type, but it can accept more options than JS, like fractions (float) or complex numbers.<br> `myNumber = 23.23  # Float` <br> `myNumber = 54  # Integer` <br> `myNumber = 12.00  # Float (even with 00 as decimals)`    |
 |Undefined/Null is now: `None`    |The `undefined` data-type is not available in Python. Here, `undefined` and `null` are the same data-type: `None` <br> `myNumber # is None because it was not defined`       |
 |Array     |In Python, the Arrays are called "Lists", and they are similar to JS Arrays but way more flexible and easier to work with. <br> `myArray = ['Juan','John','Steven'] # List of elements with numeric indexes` |
-|Object       |In JavaScript, objects and dictionaries are almost the same.  You can do whatever you want to an object because you don’t have to declare its Class first and stick to its definition.<br> `myCar = {}`<br> `myCar.color = 'blue'` <br><br>Python, on the other hand, separates the Dictionary data-type from the Object data-type. Objects cannot be informally declared. You must first define their class before being able to instantiate them.<br><br>`class Car(object):`<br>`def __init__(self, color):`<br>`self.color = color` <br>`myCar = Car('blue')`       |
+|Object       |In JavaScript, objects and dictionaries are almost the same.  You can do whatever you want to an object because you don’t have to declare its Class first and stick to its definition.<br> `let myCar = {}` <br> `myCar.color = 'blue'` <br><br>Python, on the other hand, separates the Dictionary data-type from the Object data-type. Objects cannot be informally declared. You must first define their class before being able to instantiate them. <br> <br> `class Car(object):` <br> `def __init__(self, color):` <br> `self.color = color` <br> `myCar = Car('blue')`       |
 |Sets and Tuples      |JavaScript has nothing similar, but they can be very useful: Tuples are ordered; Sets are immutable, unordered sequences of values.      |
 |String       |It's the same in Python.     |
 
@@ -119,7 +119,7 @@ simpleValue = 'Hello'
 print(simpleValue)  # This will print the content of the variable
 
 arrayValue = ['Hello', 23, 76, 'World', 43]
-print(arrayValue) # This will work too, printing the content of the array in a format like this: ['Hello', 23, 76, 'World', 43]
+print(arrayValue)  # This will work too, printing the content of the array in a format like this: ['Hello', 23, 76, 'World', 43]
 ```
 
 
