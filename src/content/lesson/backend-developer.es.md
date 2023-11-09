@@ -43,7 +43,7 @@ Además del contenido del documento y el content-type, el servidor también agre
 
 |Código de respuesta   |Descripción    |
 |:------------------|:-----------------|
-|2xx Success      |200 OK, 201 Creado, 204 No hay Contenido, 203 Información no autorizada  |
+|2xx Success      |200 OK, 201 Creado, 204 No Hay Contenido, 203 Información No Autorizada  |
 |3xx Redirection    |301 Movido Permanentemente, 307 Redireccionado Temporalmente, 304 No Modificado    |
 |4xx Client Error    |404 No Encontrado, 400 Mala Solicitud, 403 Prohibido, 401 Sin Autorización    |
 |5xx Server Error     |500 Error Interno del Servidor, 503 Servicio No Disponible    |
