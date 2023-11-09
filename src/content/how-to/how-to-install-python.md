@@ -1,5 +1,5 @@
 ---
-title: "How to install Python? A step-by-step guide to get started with the programming language"
+title: "How to install Python?"
 subtitle: "Learn how to install Python on your computer easily. Discover the necessary steps to start programming with this popular programming language."
 tags: ["python"]
 authors: ["DF27ARTS"]
