@@ -50,7 +50,15 @@ There are only a few differences; here is the explanation:
 |Number                 |Python has the same "Number" data-type, but it can accept more options than JS, like fractions (float) or complex numbers.<br> `myNumber = 23.23  # Float` <br> `myNumber = 54  # Integer` <br> `myNumber = 12.00  # Float (even with 00 as decimals)`    |
 |Undefined/Null is now: `None`    |The `undefined` data-type is not available in Python. Here, `undefined` and `null` are the same data-type: `None` <br> `myNumber # is None because it was not defined`       |
 |Array     |In Python, the Arrays are called "Lists", and they are similar to JS Arrays but way more flexible and easier to work with. <br> `myArray = ['Juan','John','Steven'] # List of elements with numeric indexes` |
-|Object       |In JavaScript, objects and dictionaries are almost the same.  You can do whatever you want to an object because you don’t have to declare its Class first and stick to its definition.<br> `let myCar = {}` <br> `myCar.color = 'blue'` <br><br>Python, on the other hand, separates the Dictionary data-type from the Object data-type. Objects cannot be informally declared. You must first define their class before being able to instantiate them. <br> <br> `class Car(object):` <br> `def __init__(self, color):` <br> `self.color = color` <br> `myCar = Car('blue')`       |
+|Object       |In JavaScript, objects and dictionaries are almost the same.  You can do whatever you want to an object because you don’t have to declare its Class first and stick to its definition.<br> `let myCar = {}` <br> `myCar.color = 'blue'` <br><br>Python, on the other hand, separates the Dictionary data-type from the Object data-type. Objects cannot be informally declared. You must first define their class before being able to instantiate them. <br> <br> 
+```py
+class Car(object):  
+  def __init__(self, color):
+    self.color = color
+
+myCar = Car('blue')
+```
+|
 |Sets and Tuples      |JavaScript has nothing similar, but they can be very useful: Tuples are ordered; Sets are immutable, unordered sequences of values.      |
 |String       |It's the same in Python.     |
 
