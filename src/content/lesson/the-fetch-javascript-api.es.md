@@ -136,10 +136,10 @@ El método de solicitud por defecto es el método "GET"; que es lo que hemos vis
 
 ### Los métodos más utilizados y lo que representan son:
 
-**GET**: Leer/Recuperar.
-**PUT**: Editar/Actualizar.
-**POST**: Crear.
-**DELETE**: Lo has adivinado, esto simplemente significa Eliminar. 
+- **GET**: Leer/Recuperar.
+- **PUT**: Editar/Actualizar.
+- **POST**: Crear.
+- **DELETE**: Lo has adivinado, esto simplemente significa Eliminar. 
 
 Aquí hay un ejemplo de un método POST que está creando un nuevo usuario:
 
@@ -204,4 +204,110 @@ fetch('https://example.com/users')
 
 > Nota: Ten en cuenta que un nombre de encabezado HTTP no válido generará un `TypeError`. Se puede encontrar una lista de encabezados válidos [aquí](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers).
 
+### Ahora utilicemos fetch() con Async / Await
 
+Javascript nos brinda una forma alternativa de realizar las peticiones HTTP utilizando `fetch()` con Async / Await
+
+- `async` hace que una función devuelva una Promesa
+- `await` hace que una función espere una Promesa
+
+#### Método GET
+
+Comencemos con el método GET y lo analizamos
+
+```javascript
+const getData = async () => {
+    const response = await fetch('https://example.com/users');
+    if (response.ok) {
+        const data = await response.json();
+        return data;
+    } else {
+        console.log('error: ', response.status, response.statusText);
+        /* Realiaza el tratamiento del error que devolvió el request HTTP */
+        return {error: {status: response.status, statusText: response.statusText}};
+    };
+};
+```
+
+Recordemos que GET es el método por default. Por ello no es obligatorio escribir el segundo parámetro del `fetch()`  
+
+**Analicemos esta función**
+
+1. Definimos una arrow function, y la denominamos con un nombre significativo, en este ejemplo getData
+2. Determinamos que esa función flecha será asíncrona `async` porque es una petición HTTP y su respuesta no es inmediata
+3. A continuación, definimos una constante `response` que esperará `await` la respuesta del `fetch()`. En esa constante almacenamos la respuesta de la petición.
+4. Luego evalúamos la respuesta. (Esto comprueba si la respuesta es válida (200). Si no, salta al paso 6.
+5. Si la respuesta es válida, en la constante `data` guardaremos los datos con formato JSON y retornamos esa respuesta.
+6. Si la respuesta no es válida, registramos el error que nos brinda el protocolo HTTP (100, 300, 400, 500) y si es necesario realizamos acciones para darle tratamiento.
+
+> Nota: El protocolo HTTP siempre nos brindará una respuesta. Si esa respuesta es buena o no lo sabremos mediante los [Códigos de estado de respuesta HTTP](https://developer.mozilla.org/es/docs/Web/HTTP/Status)
+
+#### Método POST
+
+Ahora que ya conocemos como funciona, veamos un ejemplo del método GET
+
+```javascript
+const createData = async () => {
+    const response = await fetch('https://example.com/users', {
+        method: 'POST',
+        body: JSON.stringify(dataToSend),  // la variable dataToSend puede ser un 'string' o un {objeto} que proviene de algún lugar más arriba en nuestra aplicación
+        headers: {
+           'Content-Type': 'application/json'
+        }
+    });
+    if (response.ok) {
+        const data = await response.json();
+        return data;
+    } else {
+        console.log('error: ', response.status, response.statusText);
+        /* Realiaza el tratamiento del error que devolvió el request HTTP */
+        return {error: {status: response.status, statusText: response.statusText}};
+    };
+};
+```
+
+Aquí agregamos el segundo parámetro del `fetch()` para agregar el método, el body y el headers.
+
+#### Método PUT
+
+Ejemplo de una petición con método PUT
+
+```javascript
+const updateData = async () => {
+    const response = await fetch('https://example.com/users', {
+        method: 'PUT',
+        body: JSON.stringify(dataToSend),  // la variable dataToSend puede ser un 'string' o un {objeto} que proviene de algún lugar más arriba en nuestra aplicación
+        headers: {
+           'Content-Type': 'application/json'
+        }
+    });
+    if (response.ok) {
+        const data = await response.json();
+        return data;
+    } else {
+        console.log('error: ', response.status, response.statusText);
+        /* Realiaza el tratamiento del error que devolvió el request HTTP */
+        return {error: {status: response.status, statusText: response.statusText}};
+    };
+};
+```
+
+### Método Delete
+
+Ejemplo de una petición con el método DELETE
+
+```javascript
+const deleteData = async () => {
+    const response = await fetch('https://example.com/users', {
+        method: 'DELETE',
+    });
+    if (response.ok) {
+        const data = await response.json();
+        return data;
+    } else {
+        console.log('error: ', response.status, response.statusText);
+        /* Realiaza el tratamiento del error que devolvió el request HTTP */
+        return {error: {status: response.status, statusText: response.statusText}};
+    };
+};
+```
