@@ -27,7 +27,7 @@ Along with the generated document content, the server can also specify what type
 
 ### Server Response Content-Types
 
-|**Content-Type**   |**Description**   |
+|Content-Type       |Description   |
 |:------------------|:-----------------|
 |text/plain          |This is the default value for text files. Even if it really means an unknown text file, browsers assume they can display it     |
 |text/css      |Any CSS files that have to be interpreted as such in a web page must be text/css files. Often, servers do not recognize files with the .css suffix as CSS files and instead send them as text/plain.      |
@@ -41,14 +41,14 @@ In addition to the document content and the content-type, the server also append
 
 #### Server Response Codes
 
-|**Response code**   |**Description**   |
+|Response code      |Description       |
 |:------------------|:-----------------|
 |2xx Success      |200 OK, 201 Created, 204 No Content, 203 Non-Authoritative Information    |
 |3xx Redirection    |301 Moved Permanently, 307 Temporary Redirect, 304 Not Modified    |
 |4xx Client Error    |404 Not Found, 400 Bad Request, 403 Forbidden, 401 Unauthorized    |
 |5xx Server Error     |500 Internal Server Error, 503 Service Unavailable    |
 
-> 🔗 Here you can find more detailed information about [server response codes.](https://www.restapitutorial.com/httpstatuscodes.html)
+> 🔗 Here you can find more detailed information about [server response codes](https://www.restapitutorial.com/httpstatuscodes.html).
 
 ### The Role of the Back-End Language
 
@@ -59,7 +59,7 @@ The cool thing about a back-end language is that it runs on a real machine (not 
 + Stream video and audio files.
 + Open/Create/Delete local files from the machine and update them with new content.
 + Compress images, videos or any kind of file.
-+ Access any program installed in the local machine and use it for your website (e.g. you can open the zip program and extract a zip file).
++ Access any program installed in the local machine and use it for your website (e.g. you can open a zip program and extract a zip file).
 + You can interact with any hardware connected to the main server (like a vending machine, fingerprint reader, Virtual Reality googles, credit card reader, etc.).
 + You can combine any of the operations already mentioned in your own back-end application flow.
   
