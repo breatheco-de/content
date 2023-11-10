@@ -14,7 +14,7 @@ This language is undoubtedly one of the most used in the programming world becau
 
 ## How to install Python on Windows?
 
-There are two ways to install [Python](https://4geeks.com/es/lesson/how-to-code-in-python) on your Windows computer, the first is to install the **Ubuntu** operating system and then with the help of this install Python, the second way is to install Python in the traditional way from the official Python page.
+There are two ways to install [Python](https://4geeks.com/technology/python) on your Windows computer, the first is to install the **Ubuntu** operating system and then with the help of this install Python, the second way is to install Python in the traditional way from the official Python page.
 
 ### 1. Install Python with Ubuntu
 
@@ -155,4 +155,4 @@ sudo pacman -Sy python
 python3 --version
 ```
 
-Congratulations! You have Python installed on your operating system, now you can start running your first lines of Python code. I hope you find the examples and video tutorials in this article useful, have fun creating the applications of the future with the help of Python. If you want to learn more about this programming language I invite you to read the following [Python tutorial](https://4geeks.com/es/lesson/how-to-code-in-python) on the [4Geeks](https://4geeks.com).
+Congratulations! You have Python installed on your operating system, now you can start running your first lines of Python code. I hope you find the examples and video tutorials in this article useful, have fun creating the applications of the future with the help of Python. If you want to learn more about this programming language I invite you to follow these [Python exercises for beginners](https://4geeks.com/interactive-exercise/python-beginner-exercises) on [4Geeks](https://4geeks.com).
