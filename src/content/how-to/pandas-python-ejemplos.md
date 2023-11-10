@@ -2,7 +2,7 @@
 
 ## Librería Pandas Ejemplos
 
-Pandas es una librería de Python que te permite manipular, transformar y visualizar datos de una manera muy eficiente. Esta librería ofrece varias estructuras de datos, una de las más populares es el **DataFrame** con el que puedes representar en filas y columnas un conjunto de información. En el siguiente ejemplo veremos cómo utilizar los métodos de esta librería y como pueden ayudarte a visualizar la información de una forma más clara e intuitiva.
+Pandas es una librería de Python que te permite manipular, transformar y visualizar datos de una manera muy eficiente. Esta librería ofrece varias estructuras de datos, una de las más populares es el **DataFrame** con el que puedes representar en filas y columnas un conjunto de información. En el siguiente ejemplo veremos cómo utilizar los métodos de esta librería y cómo pueden ayudarte a visualizar la información de una forma más clara e intuitiva. Aquí un breve ejemplo sobre cómo un uso básico de un DataFrame.
 
 ```py
 import pandas as pd
@@ -20,7 +20,9 @@ mayores_de_edad = usuarios_df[usuarios_df["Edad"] >= 18]
 
 print(mayores_de_edad)
 ```
+
 > output del código:
+
 ```bash
    Nombre   Apellido               Email      Telefono  Edad
 1   María      López   maria@example.com  456-987-6543    27
@@ -28,7 +30,7 @@ print(mayores_de_edad)
 3     Ana      Pérez     ana@example.com  654-234-5678    30
 ```
 
-Para poder utilizar la librería de Pandas en tu entorno de trabajo primero necesitas importar el módulo de Pandas, puedes hacerlo con la siguiente sintaxis `import pandas as pd`, es una buena práctica importar el módulo con el alias de `pd` pero esto último es opcional. Despues creamos un dataset de información con la ayuda del método de Pandas `DataFrame()` este método recibe como argumento un objeto que contiene las columnas para el dataframe y cada columna debe contener un array con los valores para esa columna. Luego buscamos todos los usuarios que sean mayores de 18 años y los guardamos en la variable `mayores_de_edad`, por último imprimimos estos usuarios en la consola. Este es un pequeño ejemplo sobre como puedes usar los métodos de pandas para visualizar y organizar un conjunto de información.
+Para poder utilizar la librería de Pandas en tu entorno de trabajo primero necesitas importar el módulo de Pandas, puedes hacerlo con la siguiente sintaxis `import pandas as pd`, es una buena práctica importar el módulo con el alias de `pd` pero esto último es opcional. Después creamos un dataset de información con la ayuda de la clase de Pandas `DataFrame()`, la cual recibe como argumento un objeto que contiene las columnas para el DataFrame y cada columna debe contener un array con los valores para esa columna. Luego buscamos todos los usuarios que sean mayores de 18 años y los guardamos en la variable `mayores_de_edad`, por último imprimimos estos usuarios en la consola. Este es un pequeño ejemplo sobre como puedes usar los métodos de pandas para visualizar y organizar un conjunto de información.
 
 ## Ejemplos de uso más comunes
 
@@ -36,7 +38,7 @@ La librería de pandas tiene múltiples casos de uso, desde modificar los valore
 
 ### 1. Modificar datos
 
-Uno de los usos más comunes de la librería de pandas es para modificar los campos de un dataset de información, en el siguiente ejemplo veremos como podemos modificar una de las columnas de un dataframe de usuarios con ayuda de los métodos de pandas.
+Uno de los usos más comunes de la librería de pandas es para modificar los campos de un dataset de información, en el siguiente ejemplo veremos como podemos modificar una de las columnas de un DataFrame de usuarios con ayuda de los métodos de pandas.
 
 ```py
 import pandas as pd
@@ -52,13 +54,15 @@ usuarios = {
 usuarios_df = pd.DataFrame(usuarios)
 
 def modificar_sintaxis(numeros):
-    numeros = numeros.replace("-", "")
-    return f"({numeros[0:3]}) {numeros[3:6]}-{numeros[6:]}"
+    numeros_modificados = numeros.replace("-", "")
+    return f"({numeros_modificados[0:3]}) {numeros_modificados[3:6]}-{numeros_modificados[6:]}"
 
 usuarios_df["Telefono"] = usuarios_df["Telefono"].apply(modificar_sintaxis)
 print(usuarios_df)
 ```
+
 > output del código:
+
 ```bash
    Nombre   Apellido               Email        Telefono  Edad
 0    Juan      Gómez    juan@example.com  (123) 123-4567    12
@@ -68,7 +72,7 @@ print(usuarios_df)
 4    Luis   Martínez    luis@example.com  (963) 678-9012    16
 ```
 
-Como puedes ver, modificar los elementos de una conjunto de datos es muy sencillo con ayuda de pandas, en este ejemplo, hacemos uso del método [apply](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html) de pandas para aplicar una función a la columna `Telefono` y modificar su sintaxis, este método también puede recibir una función **lambda** para realizar los cambios en la columna.
+Como puedes ver, modificar los elementos de un conjunto de datos es muy sencillo con ayuda de pandas, en este ejemplo, hacemos uso del método [apply de pandas](https://4geeks.com/es/how-to/pandas-apply) para aplicar una función a todos los elementos de la columna `Telefono` y modificar su sintaxis, este método también puede recibir una función **lambda** para realizar los cambios en la columna.
 
 ### 2. Ordenar datos
 
@@ -100,11 +104,11 @@ print(df_ordenado)
 0    Juan      Gómez    juan@example.com  123-123-4567    12
 ```
 
-En este ejemplo tenemos un dataframe con información de varios usuarios, para poder ordenar este dataframe en base a la edad de los usuarios debemos hacer uso del método [sort_values](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html#pandas.DataFrame.sort_values) de pandas, este método nos permite organizar la columna de un dataframe con ayuda del parámetro `by` que le indica al método la columna que debe ordenar, además puede recibir el parámetro `ascending` que recibe un valor booleano y determina si se debe realizar la ordenación de forma ascendente o descendente.
+En este ejemplo tenemos un DataFrame con información de varios usuarios, para poder ordenar este DataFrame en base a la edad de los usuarios debemos hacer uso del método [sort_values](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html#pandas.DataFrame.sort_values) de pandas, este método nos permite organizar la columna de un DataFrame con ayuda del parámetro `by` que le indica al método la columna que debe ordenar, además puede recibir el parámetro `ascending` que recibe un valor booleano y determina si se debe realizar la ordenación de forma ascendente o descendente.
 
 ### 3. Agregar nuevos datos
 
-Con los métodos de pandas también puedes agregar nuevas columnas junto con sus valores a un dataset de información.
+Con los métodos de pandas también puedes agregar nuevas columnas junto con sus valores a un DataFrame de información.
 
 ```py
 import pandas as pd
@@ -122,7 +126,9 @@ usuarios_df["Nombre Completo"] = usuarios_df["Nombre"] + " " + usuarios_df["Apel
 
 print(usuarios_df)
 ```
+
 > output del código:
+
 ```bash
    Nombre   Apellido               Email      Telefono  Edad   Nombre Completo
 0    Juan      Gómez    juan@example.com  123-123-4567    12        Juan Gómez
@@ -132,11 +138,11 @@ print(usuarios_df)
 4    Luis   Martínez    luis@example.com  963-678-9012    16     Luis Martínez
 ```
 
-En este ejemplo, tenemos un dataframe de usuarios y a este data frame le agregamos la columna `Nombre Completo`, para esto simplemente necesitamos combinar las columnas `Nombre` y `Apellido` en una sola. También puedes agregar más columnas con nueva información pero recuerda que debe tener la misma cantidad de filas que las demás columnas de lo contrario te arrojará un error en la consola.
+En este ejemplo, tenemos un DataFrame de usuarios al cual le agregamos la columna `Nombre Completo`, para esto simplemente necesitamos combinar las columnas `Nombre` y `Apellido` en una sola. También puedes agregar más columnas con nueva información pero recuerda que debe tener la misma cantidad de filas que las demás columnas de lo contrario te arrojará un error en la consola.
 
 ### 4. Limpieza de datos
 
-Otro uso bastante común para la librería de pandas es la limpieza de datos en data science o en machine learning. En el siguiente ejemplo veremos un poco más a fondo este concepto:
+Otro uso bastante común de la librería de pandas es la limpieza de datos en data science o en machine learning. En el siguiente ejemplo veremos un poco más a fondo este concepto:
 
 ```py
 import pandas as pd
