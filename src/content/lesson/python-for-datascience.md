@@ -91,7 +91,7 @@ That is why you should know a little about `Big O` and optimizing algorithms for
 
 ### Jupyter vs Python files
 
-Most -if not all- of the python courses about machine learning heavily use Jupyter Notebooks to build and clean your data and run the models. At 4Geeks we don't like this approach much, we prefer to stay working on `.py` files and work on coding editos like VSCode, Pycharm, etc. like software engineers do in all the other fields were python is used.
+Most -if not all- of the python courses about machine learning heavily use Jupyter Notebooks to build and clean your data and run the models. At 4Geeks we don't like this approach much, we prefer to stay working on `.py` files and work on coding editors like VSCode, Pycharm, etc. like software engineers do in all the other fields were python is used.
 
 We like using Jupyter as a communication tool, mainly to tell stories to management, show the strategy and some brainstorming.
 
