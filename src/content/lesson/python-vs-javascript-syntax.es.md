@@ -63,7 +63,7 @@ En Javascript, puedes importar variables de otros archivos con el comando `impor
 En Python, puedes hacer de cualquier carpeta un paquete creando un archivo `\__init\__.py` dentro de ella. Luego, puedes importar lo que quieras en esa carpeta sin tener que exportar explícitamente nada.
 
 
-#### ![Python logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) Con Python
+#### Con Python
 
 ```python
 from package1 import module1
@@ -82,14 +82,14 @@ Lo que es NPM es para JavaScript, PIP es para Python. Ambas bestias son increíb
 
 JavaScript es tan flexible que no tienes que prestar mucha atención a los tipos de datos. A Python no le gusta eso... en Python, te acostumbrarás a declarar variables y convertirlas entre tipos de datos.
 
-#### ![JS logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png?raw=true) Con JavaScript
+#### Con JavaScript
 
 ```javascript
 let result = '5' - '2'; 
 // Ahora "result" es igual a 3
 ```
 
-#### ![Python logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) Con Python
+#### Con Python
 
 ```python
 # En Python sustraer strings producirá un error, en lugar de eso debes hacer esto:
@@ -103,7 +103,7 @@ result = int('5') - int('2')  # Ahora "result" es igual a 3
 Python tiene `print()` para escribir en la consola. Recuerda que, dado que Python (como cualquier otro lenguaje de back-end) se ejecuta antes del evento de preload, no tiene acceso a la consola de JavaScript.
 
 
-#### ![JS logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png?raw=true) Con JavaScript
+#### Con JavaScript
 
 ```javascript
 let simpleValue = 'Hello';
@@ -114,7 +114,7 @@ console.log(arrayValue); // Esto imprimirá el contenido del array y sus element
 ```
 
 
-#### ![Python logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) Con Python
+#### Con Python
 
 ```python
 simple_value = 'Hello'
@@ -130,7 +130,7 @@ print(list_value)  # Esto funcionará, imprimiendo el contenido de la lista en u
 Finalmente, en ES2015, JavaScript incluye las "funciones flecha". Esa es una manera muy fácil y liviana de declarar y usar funciones. Python, por otro lado, tiene algo similar llamado funciones `lambda` que básicamente te permiten usar pequeñas funciones anónimas en línea como accesos directos.
 
 
-#### ![JS logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png?raw=true) Con JavaScript
+#### Con JavaScript
 
 ```javascript
 // Usando una función flecha para mapear una lista 
@@ -140,7 +140,7 @@ let returningMapObject = peopleArray.map(person => person.name);
 console.log(returningMapObject);
 ```
 
-#### ![Python logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) Con Python
+#### Con Python
 
 ```python
 # Usando lambda para mapear una lista
@@ -158,7 +158,7 @@ print(names_list)
 
 ### Bucles en listas (similar a arrays)
 
-#### ![JS logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png?raw=true) Con JavaScript
+#### Con JavaScript
 
 ```javascript
 // Haciendo un bucle forEach en JS
@@ -173,7 +173,7 @@ for(let i = 0; i < myArray.length; i++){
 ```
 
 
-#### ![Python logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) Con Python
+#### Con Python
 
 ```python
 colors = ["red", "green", "blue", "purple"]
@@ -183,7 +183,7 @@ for color in colors:
 
 ### Adición y Eliminación de Elementos
 
-#### ![JS logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png?raw=true) Con JavaScript
+#### Con JavaScript
 
 ```javascript
 let myArray = ['Academy', 'Coding'];
@@ -193,7 +193,7 @@ myArray.push('4Geeks');  // Añadiendo un item
 myArray.splice(1, 1);
 ```
 
-#### ![Python logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) Con Python
+#### Con Python
 
 ```python
 my_list = ['The', 'earth', 'revolves', 'around', 'sun']
@@ -207,7 +207,7 @@ print(my_list)  # ['The', 'earth', 'revolves', 'around', 'sun']
 
 ### Funciones para clasificar Listas
 
-#### ![python syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) Con Python
+#### Con Python
 
 ```python
 # Orden ascendente
@@ -234,7 +234,7 @@ Python trae un nuevo tipo de datos llamado "Tupla". Piensa en ello como una list
 
 ### Objetos
 
-#### ![JS logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png?raw=true) Con JavaScript
+#### Con JavaScript
 
 ```javascript
 // Hay dos maneras de declarar un objeto
@@ -255,7 +255,7 @@ obj.name = "Mario";
 obj.lastname = "Perez";
 ```
 
-#### ![Python logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) Con Python
+#### Con Python
 
 ```python
 # En Python tenemos Clases y Diccionarios
@@ -274,7 +274,6 @@ class Person:
 my_person = Person()
 my_person.name = "Mario"
 my_person.lastname = "Perez"
-
 ```
 
 > 📺 Socratica, nuestro gran espécimen y amigo evolucionado, explica Objetos de una manera excelente: https://www.youtube.com/watch?v=apACNr7DC_s

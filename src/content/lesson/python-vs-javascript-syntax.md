@@ -62,7 +62,7 @@ In JavaScript, you can import variables from other files using the `import` or `
 In Python, you can make any folder, a package by creating a `\__init\__.py` file inside of it. Then, you are able to import whatever you want into that folder without having to explicitly export anything.
 
 
-#### ![Python logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) With Python
+#### With Python
 
 ```python
 from package1 import module1
@@ -80,14 +80,14 @@ What NPM is for JavaScript, PIP is for Python. Both beasts are amazing but very 
 
 JavaScript is so flexible that you don't have to pay much attention to data types. Python does not like that... In Python, you will get used to casting variables and converting them between other data-types.
 
-#### ![JS logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png?raw=true) With JavaScript
+#### With JavaScript
 
 ```javascript
 let result = '5' - '2'; 
 // "result" now is equal to 3
 ```
 
-#### ![Python logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) With Python
+#### With Python
 
 ```python
 # In python subtracting strings will throw an error, instead you should do: 
@@ -102,7 +102,7 @@ result = int('5') - int('2')
 Python has `print()` for writing either into the console. Remember that, since Python (like any other back-end language) runs before the preload event, and it does not have access to the JavaScript console.
 
 
-#### ![JS logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png?raw=true) With JavaScript
+#### With JavaScript
 
 ```javascript
 let simpleValue = 'Hello';
@@ -112,7 +112,7 @@ let arrayValue = ['Hello', 23, 76, 'World', 43];
 console.log(arrayValue); // This will print the content of the array and its elements
 ```
 
-#### ![Python logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) With Python
+#### With Python
 
 ```python
 simpleValue = 'Hello'
@@ -128,7 +128,7 @@ print(arrayValue)  # This will work too, printing the content of the array in a 
 Finally, in ES2015, JavaScript included the "arrow functions." It's a very easy and light way to declare and use functions. Python, on the other hand, has something similar called `lambda` functions that basically let you use little inline anonymous functions as shortcuts.
 
 
-#### ![JS logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png?raw=true) With JavaScript
+#### With JavaScript
 
 ```javascript
 // Using an arrow function to map a list 
@@ -139,7 +139,7 @@ console.log(returningMapObject);
 ```
 
 
-#### ![Python logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) With Python
+#### With Python
 
 ```python
 # Using lambda to map a list 
@@ -157,7 +157,7 @@ print(names_list)
 
 ### Looping lists (similar to arrays)
 
-#### ![JS logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png?raw=true) With JavaScript
+#### With JavaScript
 
 ```javascript
 // Doing a forEach loop in JS
@@ -171,7 +171,7 @@ for(let i = 0; i < myArray.length; i++){
 }
 ```
 
-#### ![Python logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) With Python
+#### With Python
 
 ```python
 colors = ["red", "green", "blue", "purple"]
@@ -181,7 +181,7 @@ for color in colors:
 
 ### Adding and Removing Items
 
-#### ![JS logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png?raw=true) With JavaScript
+#### With JavaScript
 
 ```javascript
 let myArray = ['Academy', 'Coding'];
@@ -191,7 +191,7 @@ myArray.push('4Geeks');  // Adding an item
 myArray.splice(1, 1);
 ```
 
-#### ![python syntax](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) With Python
+#### With Python
 
 ```python
 my_list = ['The', 'earth', 'revolves', 'around', 'sun']
@@ -205,7 +205,7 @@ print(my_list)  # ['The', 'earth', 'revolves', 'around', 'sun']
 
 ### Sorting Functions for Lists
 
-#### ![Python logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) With Python
+#### With Python
 
 ```python
 # Ascending Sort 
@@ -232,7 +232,7 @@ Python brings a new kind of data-type called a "Tuple". Think about it like a su
 
 ### Objects
 
-#### ![JS logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/2de93dfc-263c-43e3-afa5-6557a5e7cf4c.png?raw=true) With JavaScript
+#### With JavaScript
 
 ```javascript
 // There are two ways of declaring an object 
@@ -253,7 +253,7 @@ obj.name = "Mario";
 obj.lastname = "Perez";
 ```
 
-#### ![Python logo](https://github.com/breatheco-de/content/blob/master/src/assets/images/16dbf0c1-afa2-418c-a1b6-3bc8cb1d5c81.png?raw=true) With Python
+#### With Python
 
 ```python
 # In Python we have Classes and Dictionaries 
