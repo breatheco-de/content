@@ -83,7 +83,7 @@ Since we are focused on using Python for data science, we will be working with m
 
 ### Performance
 
-When creating algorithms for websites, API's, networks, robots or other applications; You don't necessarily about performace because you can always upgrade your server or your CPU. Obviusly performance it's still an important variable, but you can have a slow website or you can pay a lot more to "speed it up".
+When creating algorithms for websites, API's, networks, robots or other applications; You don't necessarily about performace because you can always upgrade your server or your CPU. Obviously performance it's still an important variable, but you can have a slow website or you can pay a lot more to "speed it up".
 
 On the other hand, when building AI's, performance is a big concern. You could say that "processing power" is the biggest limitation this field has right now. There is so much data and models need so much training that current technology cannot keep up. 
 
