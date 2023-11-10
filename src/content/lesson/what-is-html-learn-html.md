@@ -19,7 +19,7 @@ All web pages have HTML. It’s the structure of EVERYTHING. Think of it as the 
 
 HTML allows you to divide the website information into parts (similar to the basic parts of a document): header, title, content, footnote, subtitle, etc.  Then, with CSS you can make your page beautiful, and, with JavaScript, make it interactive.
 
-Originally, browsers only knew how to interpret HTML.  Websites were simple and neither CSS nor JavaScript were used. A website was a simple plain-text document with the typical elements any Word Document has: headings, bullet-point lists, paragraphs, etc.
+Originally, browsers only knew how to interpret HTML. The websites were simple and neither CSS nor JavaScript were used. A website was a simple plain-text document with the typical elements any Word Document has: headings, bullet-point lists, paragraphs, etc.
 
 ![what is html](https://github.com/breatheco-de/content/blob/master/src/assets/images/85cedee2-3a9f-49b5-8bc8-d72e3fd739fc.png?raw=true)
 
@@ -35,14 +35,14 @@ In that sense, HTML is a language that uses `<tags>` to represent the elements t
 
  There are 2 different types of tags:
 
-+ Container tags:  when there is content between both tags, you should close it with (`</tag>`). For example, to markup a section of text as a paragraph, you open the tag with (`<p>`) and close it at the end with (`</p>`).
++ Container tags:  when there is content between both tags, you should close it with (`</tag>`). For example, to mark up a section of text as a paragraph, you open the tag with (`<p>`) and close it at the end with (`</p>`).
 
 + Non-container tags: they are standalone tags without closing tags (`</ >`). For example, the tag for a line break is (`<br>`).
 
 
 ### Attributes
 
-Once a `<tag>` is defined, we can describe in detail its behavior by assigning attributes to the `<tag>`.  For example, if we want our HTML document/page to have a link to another page, we use the `<a>` tag, and we assign to it an attribute called **href**, which allows us to specify the URL of the page we want to link.
+Once a `<tag>` is defined, we can describe in detail its behavior by assigning attributes to `<tag>`.  For example, if we want our HTML document/page to have a link to another page, we use the `<a>` tag, and we assign to it an attribute called **href**, which allows us to specify the URL of the page we want to link.
 
 ```html
 <a href="google.com">Click here and it will take you to Google.com</a>
@@ -50,7 +50,7 @@ Once a `<tag>` is defined, we can describe in detail its behavior by assigning a
 
 In theory, you have to use [one of these tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true). Don’t make up your own tags because the browser won’t know how to interpret them. You must **learn HTML's** tags meanings, and their functionality, in order to put them to good use… But don’t worry, there aren’t that many! 🙂
 
-For the main heading of the document, the tag we use is `<h1>`.  For example: An online store has an "Electronics" category. The title to that category would be "Electronics" and the `<h1>` tag would be written as follows:
+For the main heading of the document, the tag we use is `<h1>`.  For example: An online store has an "Electronics" category. The title of that category would be "Electronics" and the `<h1>` tag would be written as follows:
 
 ```html
  <h1>Electronics</h1>
@@ -90,7 +90,7 @@ Spaces are ignored:
 
 ## Page Structure
 
-All pages must begin with the `<!DOCTYPE html>` statement followed by `<html>`, then the `<head>` and the `<body>` tags.  These tags **must** contain other tags within them (nested tags), and they will split the page in 2 main parts: the HEAD and the BODY:
+All pages must begin with the `<!DOCTYPE html>` statement followed by `<html>`, then the `<head>` and the `<body>` tags.  These tags **must** contain other tags within them (nested tags), and they will split the page into 2 main parts: the HEAD and the BODY:
 
 
 ```html
@@ -131,16 +131,16 @@ In the case of HTML, the `<head>` can contain the following tags (among other le
 |**Name**   |**Tag**   |**Description**   |
 |:----------|:---------|:-----------------|
 |Title   |`<title>`   |The title appears in the browser’s window, and it’s also used when you share the page through social media: Twitter, Instagram, Facebook, etc.  All these networks use the title of the page as a summary when a user copies the URL of your page to share on their wall.   |
-|Meta   |`<meta>`   |Meta tags describe documents.  They are used to specify things like: the author, title, date, keywords, descriptions, etc.   Search engines love these tags because they allow an easier comprehension of the content before it is read.   |
-|Link   |`<link>`   |Used for linking the page with the CSS style sheets.  In the CSS chapter you will learn how to create style sheets and you will be able to import them using the Link tag.   |
-|Style   |`<style>`   |If we can’t or don’t want to import a CSS style sheet, we may also define styles directly on the HTML document inside the Style tag.  This is a practice we rarely recommend and should only be used when you don’t have any other choice.   |
-|Script   |`<script>`   |Used to add JavaScript code to the page.  All JavaScript code must be contained in these tags. They can also be used in the BODY, if desired.  The difference is that any JavaScript code that we place in a `<script>` tag in the BODY won’t be available when the page begins to run (that’s exactly why the HEAD is so useful).   |
+|Meta   |`<meta>`   |Meta tags describe documents.  They are used for specifying things like: the author, title, date, keywords, descriptions, etc.   Search engines love these tags because they allow an easier comprehension of the content before it is read.   |
+|Link   |`<link>`   |Used for linking the page with the CSS style sheets.  In the CSS chapter, you will learn how to create style sheets, and you will be able to import them using the Link tag.   |
+|Style   |`<style>`   |If we can’t or don’t want to import a CSS style sheet, we may also define styles directly in the HTML document inside the Style tag.  This is a practice we rarely recommend and should only be used when you don’t have any other choice.   |
+|Script   |`<script>`   |Used to add JavaScript code to the page.  All JavaScript code must be contained in these tags. They can also be used in the BODY if desired.  The difference is that any JavaScript code that we place in a `<script>` tag in the BODY won’t be available when the page begins to run (that’s exactly why the HEAD is so useful).   |
 
 ### The \<body\> is Similar to any MS Word Document
 
 Ok, now that we are familiar with the general and necessary structure of the page, let's review the tags we can and must use to define the content of the page.
 
-Remember – for the fifteenth time – that a web page is… a text document! If you knew the answer before you read it you are getting it! And, if not, don’t worry. We’ve never known of anyone learning HTML and CSS rather quickly ;).
+Remember – for the fifteenth time – that a web page is… a text document! If you knew the answer before you read it, you are getting it! And, if not, don’t worry. We’ve never known of anyone learning HTML and CSS rather quickly ;).
 
 Let's see how a website compares to a Word document:
 
@@ -150,9 +150,9 @@ The most frequent tags used inside the `<body>` of an HTML document are:
 
 |**Name**   |**Tags**   |**Description**   |
 |:----------|:----------|:-----------------|
-| Heading       |`<h1>`, `<h2>`, ..., `<h6>`   |They define the headings and subheadings of the page (the heading is not the same as the title; the title is used by the browser and it’s defined with the title tag).<br>`<h1>This is a heading</h1>`   |
-|Paragraph   |`<p>`   |This tag separates the text content with an upper and lower margin.  In this way it helps simulate the behavior of a Word paragraph.`<p>example of a paragraph</p>`   |
-|List   |`<ul>`, `<ol>`   |Lists are of huge importance in a document and they are widely used.  With HTML we have two main tags to list content items:<br><br> <li>OL (ordered list): List with numbers (numbers at the beginning of the item)</li><br><li>UL (unordered list): List without numbers (bullets before items).<br><br>`<ol>`<br>`<li>Element 1</li>`<br>`<li>Element 2</li>`<br>`</ol>`   |
+| Heading       |`<h1>`, `<h2>`, ..., `<h6>`   |They define the headings and subheadings of the page (the heading is not the same as the title; the title is used by the browser, and it’s defined with the title tag).<br>`<h1>This is a heading</h1>`   |
+|Paragraph   |`<p>`   |This tag separates the text content with an upper and lower margin.  In this way, it helps simulate the behavior of a Word paragraph.`<p>example of a paragraph</p>`   |
+|List   |`<ul>`, `<ol>`   |Lists are of huge importance in a document, and they are widely used.  With HTML, we have two main tags to list content items:<br><br> <li>OL (ordered list): List with numbers (numbers at the beginning of the item)</li><br><li>UL (unordered list): List without numbers (bullets before items).<br><br>`<ol>`<br>`<li>Element 1</li>`<br>`<li>Element 2</li>`<br>`</ol>`   |
 |Image  |`<img>`   |It allows us to add images to the document (they could be PNG, JPEG, GIF and SVG formats, basically).<br>`<img src="url of the image"/>`
 |Link (Anchor)   |`<a>`   |Sometimes we want to connect one or more pages with another one, or send the user to a new page, or even send the user to another section within the same page (just like the Menu of this course).  That’s what the anchor tag is made for.<br>`<a href="url to resend">text to be clicked</a>`   |
 |Bold   |`<strong>` or `<b>`   |To highlight content using bold text.<br>`<strong>this text is bold</strong>`   |
@@ -164,7 +164,7 @@ The most frequent tags used inside the `<body>` of an HTML document are:
 
 ## The Attributes (Properties)
 
-We already know each `<tag>`'s behavior.  Thanks to tags we can change the font size – as is the case with headings –, add margins between paragraphs, list elements, etc.
+We already know each `<tag>`'s behavior.  Thanks to tags, we can change the font size – as is the case with headings –, add margins between paragraphs, list elements, etc.
 
 If you wish to further specify how you want the behavior of a specific tag to be, you can use its attributes. To use them, you must define the attributes in the opening tag, like this:
 
@@ -172,7 +172,7 @@ If you wish to further specify how you want the behavior of a specific tag to be
 <img src="http://www.mydomain.com/myimage.png" />
 ```
 
-In this case, we are assigning the "src" property to the `<img>` tag which will indicate the path or URL of the image to be displayed in this container.
+In this case, we are assigning the "src" property to the `<img>` tag, which will indicate the path or URL of the image to be displayed in this container.
 
 Each tag has its own properties (you do not have to memorize them, you will always find them quickly over the Internet), but it is good that you know the most important ones so that you have them ready in your mind at any time.
 
