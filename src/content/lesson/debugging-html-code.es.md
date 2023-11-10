@@ -93,7 +93,7 @@ Para encontrar esos errores: la mejor herramienta es el resaltador de sintaxis. 
 
 ![cómo se ven las comillas faltantes en tu resaltador de sintaxis](https://i.imgur.com/JzNqq1W.png?raw=true)
 
-### URL erronea en tag de `<link>` o `<script>`
+### URL errónea en tag de `<link>` o `<script>`
 
 Esto es divertido porque todos cometemos este error, yo lo hice, tú lo hiciste o lo harás, todos los demás lo hicieron o lo harán.
 
