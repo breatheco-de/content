@@ -40,7 +40,7 @@ Todas las cajas/contenedores deben tener los siguientes atributos:
 
 ![css layout](https://github.com/breatheco-de/content/blob/master/src/assets/images/153d2a7c-b648-4d75-920b-940102f18eaa.gif?raw=true) 
 
-En el siguiente ejemplo puedes ver como dividir en dos el contenido de una página web. El lado izquierdo será **El menú** y el lado derecho tendrá **El contenido** del sitio web. Colocamos color rojo al **#div1** del menú, y color azul al **#div2** del contenido para que el ejemplo sea más fácil de entender.
+En el siguiente ejemplo puedes ver como dividir en dos el contenido de una página web. El lado izquierdo será **El menú** y el lado derecho tendrá **El contenido** del sitio web. Colocamos color rojo al **#div1** del menú y color azul al **#div2** del contenido, para que el ejemplo sea más fácil de entender.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
