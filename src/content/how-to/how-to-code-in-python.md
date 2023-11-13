@@ -3,8 +3,7 @@ title: "Introduction to Python Programming: A Beginner's Guide?"
 subtitle: "Learn the basics of Python programming with our beginner's guide. Discover how to write Python code, data structures, loops and more.""
 date: "2023-05-21T16:36:30+00:00"
 authors: ["javierseiglie"]
-tags: ["Python", "examples",]
-status: "draft"
+tags: ["Python"]
 
 ---
 
