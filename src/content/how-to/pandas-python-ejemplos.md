@@ -94,7 +94,9 @@ usuarios_df = pd.DataFrame(usuarios)
 df_ordenado = usuarios_df.sort_values(by='Edad', ascending=False)
 print(df_ordenado)
 ```
+
 > output del código:
+
 ```bash
    Nombre   Apellido               Email      Telefono  Edad
 3     Ana      Pérez     ana@example.com  654-234-5678    30
@@ -158,7 +160,9 @@ usuarios = {
 usuarios_df = pd.DataFrame(usuarios)
 print(usuarios_df)
 ```
+
 > output del código:
+
 ```bash
    Nombre  Apellido               Email      Telefono  Edad
 0    juan     Gómez    juan@example.com  123-123-4567    12
@@ -169,7 +173,7 @@ print(usuarios_df)
 5     ana     Pérez     ana@example.com  654-234-5678    30
 ```
 
-En este dataframe de usuarios tenemos varias filas con el valor `None` y además tenemos una fila duplicada lo puede complicar el proceso de análisis con estos datos, para solucionar esto debemos hacer lo que se conoce como limpieza de datos (Data Cleaning) como se muestra en el siguiente código:
+En este DataFrame de usuarios tenemos varias filas con el valor `None` y además tenemos una fila duplicada lo puede complicar el proceso de análisis con estos datos, para solucionar esto debemos hacer lo que se conoce como limpieza de datos (Data Cleaning) como se muestra en el siguiente código:
 
 ```py
 usuarios_df = usuarios_df.drop_duplicates()
@@ -187,12 +191,12 @@ print(usuarios_df)
 4   Luis  Martínez   luis@example.com  963-678-9012    16
 ```
 
-En este ejemplo, primero utilizamos el método [drop_duplicates](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop_duplicates.html) esto eliminará todas las filas que estén duplicadas dentro del dataframe, después utilizamos el método [dropna](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html) que elimina todas las filas que tengan el valor de `None` y por último, algunas filas en la columna **Nombre** empiezan con una letra minúscula lo cual no coincide con el resto de las filas y columnas, para solucionar esto hacemos uso del método [capitalize](https://docs.python.org/es/3/library/stdtypes.html?highlight=capitalize#str.capitalize) y de esta forma organizar todas las filas y columnas con una sola sintaxis. Ahora ya tenemos un dataframe mucho más organizado y listo para utilizarse en cualquier tipo de análisis.
+En este ejemplo, primero utilizamos el método [drop_duplicates](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop_duplicates.html) esto eliminará todas las filas que estén duplicadas dentro del DataFrame, después utilizamos el método [dropna](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html) que elimina todas las filas que tengan el valor de `None` y por último, algunas filas en la columna **Nombre** empiezan con una letra minúscula lo cual no coincide con el resto de las filas y columnas, para solucionar esto hacemos uso del método [capitalize](https://docs.python.org/es/3/library/stdtypes.html?highlight=capitalize#str.capitalize) y de esta forma organizar todas las filas y columnas con una sola sintaxis. Ahora ya tenemos un DataFrame mucho más organizado y listo para utilizarse en cualquier tipo de análisis.
 
 ## Conclusión
 
-La libreria de [pandas](https://pandas.pydata.org/docs/) es una herramienta esencial para cualquier programador ya sea que estés trabajando en la ciencia de datos, en machine learning o incluso en otras áreas de la programación esta librería te será muy útil para manipular y analizar grandes conjuntos de datos, además puedes combinarla junto con otras librerías como [numpy](https://numpy.org/doc/stable/) o [matplotlib](https://matplotlib.org/stable/index.html) para manipular y visualizar datos de una manera mucho más profesional.
+La libreria de [pandas](https://4geeks.com/es/lesson/introduccion-a-pandas) es una herramienta esencial para cualquier programador ya sea que estés trabajando en la ciencia de datos, en machine learning o incluso en otras áreas de la programación esta librería te será muy útil para manipular y analizar grandes conjuntos de datos, además puedes combinarla junto con otras librerías como [numpy](https://4geeks.com/es/lesson/introduccion-a-numpy) o [matplotlib](https://4geeks.com/es/lesson/introduccion-a-matplotlib) para manipular y visualizar datos de una manera mucho más profesional.
 
-Si te intereza conocer más hacerca de la librería de pandas te recomiendo que visites la pagina [pandas para machine learing](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning) de 4Geeks donde aprenderás los conceptos basicos hacerca de esta libreria y algunos de sus usos más importantes. Espero que este artículo te haya sido de utilidad, recuerda seguir practicando tus habilidades con esta librería y la dominarás en muy poco tiempo.
+Si te intereza conocer más acerca de la librería de pandas te recomiendo que visites el [tutorial de pandas para machine learning](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning) de 4Geeks, donde aprenderás los conceptos básicos acerca de esta librería y algunos de sus usos más importantes. Espero que este artículo te haya sido de utilidad, recuerda seguir practicando tus habilidades con esta librería y la dominarás en muy poco tiempo.
 
 ¡Diviértete en tu ruta de aprendizaje! 😉👋
