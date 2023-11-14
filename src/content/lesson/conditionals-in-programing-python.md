@@ -21,7 +21,7 @@ There are 5 skills you need to master in your tool set for building algorithms w
 4. Loops.
 5. Functions.
 
-The use of `conditionals` is the easiest way we have to make decisions when coding our algorithms.
+The use of *conditionals* is the easiest way we have to make decisions when coding our algorithms.
 
 Let's say we are building a program to help us pick what to wear, but we hate the blue color. We could tell the computer to avoid that color using a statement like this:  
 
