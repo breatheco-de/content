@@ -66,7 +66,7 @@ In this example, we use the `get(api_url)` method of the requests library to ret
 
 ## What is an API in Python?
 
-APIs are mechanisms that allow two software components to communicate with each other through a set of definitions and protocols. In the context of programming, an API is used to access functions and data from an external application. In [Python](https://4geeks.com/es/lesson/como-programar-en-python), APIs are a common way to obtain and manipulate data from online services such as web services, databases, and other external resources.
+APIs are mechanisms that allow two software components to communicate with each other through a set of definitions and protocols. In the context of programming, an API is used to access functions and data from an external application. In [Python](https://4geeks.com/lesson/how-to-code-in-python), APIs are a common way to obtain and manipulate data from online services such as web services, databases, and other external resources.
 
 A common example of an API is the [weather API](https://openweathermap.org/api), which provides basic information about the weather in any city or country. If you need to create an application that requires weather information from anywhere in the world, you can use this API via HTTP protocols to retrieve and use that information directly in your application
 
