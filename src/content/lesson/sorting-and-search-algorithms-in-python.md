@@ -6,7 +6,7 @@ authors: ["DF27ARTS"]
 
 ---
 
-## Sorting and Searching Algorithms in Python 📊🔍
+## Sorting and Searching Algorithms in Python 🔍
 
 In the world of software development, search and sorting algorithms play a fundamental role. These techniques allow us to organize and obtain data in a very efficient way, which is essential to optimize the performance of applications. In this article we will look at some examples of algorithms in [Python](https://4geeks.com/es/lesson/how-to-code-in-python), both sorting algorithms and search algorithms.
 
