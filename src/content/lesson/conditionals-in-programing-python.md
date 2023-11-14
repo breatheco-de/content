@@ -54,7 +54,7 @@ For example, if we have the user's age stored in a variable `age` then, and only
 ```python
 # We use two equal signs (==) when we want to compare two variables for equality
 if age == 21:
-    print("You are old enough!!")
+    print("You are old enough!")
 ```
 
 ## What type of conditions/questions can we use/ask?
