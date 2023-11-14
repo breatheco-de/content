@@ -10,7 +10,7 @@ Pyenv es una herramienta que te permite interactuar con diferentes versiones de 
 
 En este artículo veremos como instalar **pyenv** en tu ordenador Mac, siguiendo una serie de pasos necesarios para realizar la instalación. Si te interesa saber cómo instalar esta herramienta en diferentes sistemas operativos como **Windows** o **Linux** puedes visitar el artículo [cómo instalar pyenv](https://4geeks.com/es/how-to/que-es-pyenv-y-como-instalar-pyenv) del blog de 4Geeks.
 
-### Instalar la línea de comandos XCode
+## Instalar la línea de comandos XCode
 
 Antes de instalar `pyenv` en tu ordenador Mac, necesitas instalar otros paquetes de software. El primero es la librería de comandos de XCode, para realizar la instalación ejecuta el siguiente comando:
 
@@ -20,7 +20,7 @@ xcode-select --install
 
 > Si ya tienes `xcode-select` instalado, puedes omitir este paso. Puedes chequear si lo tienes instalado con el comando `xcode-select -v`, si lo tienes instalado te dirá la versión.
 
-### Instalar las librerias necesarias
+## Instalar las librerias necesarias
 
 `Pyenv` contruye las versiones de Python desde **0** y para esto requiere de algunas herramientas, **openssl**,  **readline**, **sqlite3**, **zlib** y **xz**. Estas herramientas pueden ser instaladas a travéz del gestor de paquetes `Homebrew` con el siguiente comando:
 
@@ -30,7 +30,7 @@ brew install openssl readline sqlite3 xz zlib
 
 Una vez terminada la instalación de las librerías, puedes instalar `pyenv` de dos formas diferentes, la primera es haciendo uso de `homebrew` y la segunda es clonando el repositorio de Github en tu propio ordenador con `Git`, a continuación veremos un ejemplo con las dos opciones.
 
-### Instalar pyenv utilizando homebrew
+## Instalar pyenv utilizando homebrew
 
 Para realizar la instalación de `pyenv` con `homebrew` puedes copiar y pegar los siguientes comandos en la consola. El primer comando instalará la última versión estable de `Homebrew` y el segundo comando instalará `pyenv` en tu ordenador.
  
@@ -45,7 +45,7 @@ Una vez terminada la instalación, reinicia la consola para que se guarden los c
 echo 'eval "$(pyenv init --path)"' >> ~/.zshrc
 ```
 
-### Instalar pyenv clonando el repositorio de github
+## Instalar pyenv clonando el repositorio de github
 
 Si prefieres clonar el repositorio de `pyenv` en tu propio ordenador para tener más control, puedes utilizar el siguiente comando.
 
@@ -63,7 +63,7 @@ echo 'eval "$(pyenv init --path)"' >> ~/.zshrc
 
 Después de esto, necesitarás reiniciar la consola para poder empezar a utilizar el comando de `pyenv`.
 
-### Confirma que pyenv se instaló correctamente
+## Confirma que pyenv se instaló correctamente
 
 Una ves terminada la instalación de `pyenv` en tu ordenador solo necesita confirmar que la instalación se realizó correctamente. Ingresa los siguientes comandos en la consola para ver la versión de **pyenv** que instalaste y las versiones de python disponibles que puedes descargar.
 
@@ -111,7 +111,7 @@ pyenv install --list
 3.13-dev
 ```
 
-### Instalar una versión de python en tu ordenador
+## Instalar una versión de python en tu ordenador
 
 Ahora puedes instalar una versión de Python en tu ordenador utilizando `pyenv` con el siguiente comando:
 
