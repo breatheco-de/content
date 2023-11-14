@@ -9,7 +9,7 @@ authors: ["DF27ARTS"]
 
 Hello, future code master! In this lesson, we will explore the fascinating world of Object Oriented Programming (OOP). You will discover what OOP is and how this powerful technique allows you to create more organized, reusable, and maintainable programs.
 
-Following we will see a small example of how to represent a person with a class of [Python](https://4geeks.com/es/lesson/how-to-code-in-python).
+Following we will see a small example of how to represent a person with a class of [Python](https://4geeks.com/lesson/how-to-code-in-python).
 
 ```py
 class Person:
@@ -218,6 +218,6 @@ OOP offers multiple advantages that make programming more efficient and effectiv
 -   **Real World Modeling**: OOP allows you to model real-world entities and processes in a natural way, which makes code more intuitive.
 
 Object Oriented Programming (OOP) is a fundamental technique that allows you to create more organized, reusable, and maintainable programs. Now that you have a basic understanding of OOP, you can start creating your own classes and objects to bring your projects to life! If you want to learn more about this programming language I invite you to read the following
- [Python tutorial](https://4geeks.com/es/lesson/how-to-code-in-python) in [4Geeks](https://4geeks.com/)blog.
+ [Python tutorial](https://4geeks.com/lesson/how-to-code-in-python) in [4Geeks](https://4geeks.com/)blog.
 
 Code will set you free ✨👨‍💻

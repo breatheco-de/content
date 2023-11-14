@@ -7,7 +7,7 @@ authors: ["DF27ARTS"]
 
 ## Exploring Python Dictionaries
 
-Dictionaries in [Python](https://4geeks.com/es/lesson/how-to-code-in-python) are a data structure that allows us to store large amounts of data and access them in a very efficient way. In this article you will learn how to create, access and modify data in a Python dictionary, in the following example we will see a small demonstration of how you can use a dictionary to store a collection of data.
+Dictionaries in [Python](https://4geeks.com/lesson/how-to-code-in-python) are a data structure that allows us to store large amounts of data and access them in a very efficient way. In this article you will learn how to create, access and modify data in a Python dictionary, in the following example we will see a small demonstration of how you can use a dictionary to store a collection of data.
 
 ```py
 city = {
