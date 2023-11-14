@@ -152,7 +152,7 @@ The **NumPy** library offers a wide variety of functions that allow you to perfo
 
 ### Pandas
 
-[Pandas](https://pandas.pydata.org/docs/) is one of the most important libraries in [Python](https://4geeks.com/es/lesson/como-programar-en-python), especially in fields like data science or machine learning [(Machine Learning)](https://4geeksacademy.com/us/machine-learning-engineer/machine-learning-engineer). Pandas offers a wide variety of functions for data manipulation and analysis. To download Pandas on your computer, follow these instructions:
+[Pandas](https://pandas.pydata.org/docs/) is one of the most important libraries in [Python](https://4geeks.com/lesson/how-to-code-in-python), especially in fields like data science or machine learning [(Machine Learning)](https://4geeksacademy.com/us/machine-learning-engineer/machine-learning-engineer). Pandas offers a wide variety of functions for data manipulation and analysis. To download Pandas on your computer, follow these instructions:
 
 1. Install Pandas on your computer.
 
