@@ -3,6 +3,7 @@ title: "Introduction to dictionaries in Python: Key-value structures for organiz
 subtitle: "Discover what Python dictionaries are and how they are used. Learn how to leverage these data structures to efficiently organize and access information."
 tags: ["python"]
 authors: ["DF27ARTS"]
+
 ---
 
 ## Exploring Python Dictionaries
