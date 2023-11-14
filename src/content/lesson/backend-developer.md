@@ -72,7 +72,7 @@ The back-end web developer code needs to fulfill 4 main requirements:
 + **Receive and process client requests:**  Understand what the client is asking, validate the inputted data (parameters), and reject potential security breaches.
 + **Work with the data:** Get what you need from the database and update what you need from the database.
 + **Develop and execute the logic side of the business needs:** Connect with 3rd party apps, external hardware, and any other business needs.
-+ **Respond to the client:** Prepare the response in the proper format and send it back to the client.
++ **Respond to the client:** Prepare the response in the proper format and send it back to the client
 
 
 
