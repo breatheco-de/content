@@ -41,7 +41,7 @@ We are learning to read files in Python.
 
 In this example, we want to read the information stored in file `test.txt`, to do this, we can use the Python `open()` method, this method receives two parameters, the first one is the name of the file we want to open and the second one is the way we want to open it, in our example `"r"` (read). Then we use the method `read()` to print the information on the console.
 
-## How to read the contents of a file?
+## How to read the content of a file?
 
 As said before, to read the content of a file we need the [Python](https://4geeks.com/lesson/how-to-code-in-python) `open()` method, this method receives two parameters, the first one is the name of the file we want to open, and the second one is the way we want to open the file. The second parameter can receive different values; in the following table you can see the most relevant ones with a small description of each:
 
