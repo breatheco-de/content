@@ -93,7 +93,7 @@ Mostly all the questions can be asked using the following comparisons: `==`, `>`
 | `!=`          | `if a != b`   | if the value of variable A is **different** (not identical) from the value of B |
 | `is not None` | `if a is not None`    | This is self-explanatory, isn't it?   |
 | `is None`     | `if a is None`    | This is self-explanatory, isn't it?   |
-| `in`          | `if name in ['bob','maria','nancy']`  | If the value of "name" is contained inside the list of names   |
+| `in`          | `if name in ['bob','maria','nancy']`  | If the value of `name` is contained inside the list of names   |
 
 ### `AND` & `OR` Operators in Python
 
@@ -139,12 +139,12 @@ You can also nest several if...else conditions on top of one another, like this:
 if age < 16:
     # You cannot do anything
 elif age < 18:
-    # At this point, we know it's older than 15 because if not it would have entered
+    # At this point, we know it's older than 15 because if not, it would have entered
     # into the first condition
 elif age < 21:
-    # If the algorithm enters here, we know its older than 17
+    # If the algorithm enters here, we know it's older than 17
 else:
-    # If the algorithm enters here, we know its older than 20
+    # If the algorithm enters here, we know it's older than 20
 ```
 
 Here is another example that runs an algorithm to find out if a number is in the "hundreds".
@@ -172,7 +172,7 @@ Python does not have a `switch` statement.
 
 It's all about what question to ask. The previous example was a simple condition, but real life is not that simple. There are lots of nested conditions and complicated flows that will challenge your skills to the limit. For example:
 
-This will be the algorithm to pick what to wear on Valentine's Day:
+This will be the algorithm for picking what to wear on Valentine's Day:
 
 ![What to wear on valentine's day](https://github.com/breatheco-de/content/blob/master/src/assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg?raw=true)
 
