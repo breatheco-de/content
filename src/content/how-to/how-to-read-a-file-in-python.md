@@ -6,8 +6,6 @@ authors: ["DF27ARTS"]
 
 ---
 
-## How to read a file in Python?
-
 Python offers a wide variety of structures that allow you to save information such as [Dictionaries](https://4geeks.com/lesson/what-are-python-dictionaries) or [Lists](https://4geeks.com/lesson/what-is-a-python-list), however, if the application is closed, that information is lost. To prevent this from happening, we can make use of files to save the information so that we can access it again. Next, we will see a short example of how to read the information from a `txt` file.
 
 #### test.txt
