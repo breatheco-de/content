@@ -80,9 +80,9 @@ my_list[5] = 'Whatever value'
 The first way is to add the element to the end of the list. You should use this method every time you can because it's a lot faster than `insert`.
 
 ```python
-my_list = ['Pedro','Juan','Maria']
+my_list = ['Pedro', 'Juan', 'Maria']
 my_list.append('Chris')  # Adds Chris to the end of the list
-print(my_list)  # Output: ['Pedro','Juan','Maria','Chris']
+print(my_list)  # Output: ['Pedro', 'Juan', 'Maria', 'Chris']
 ```
 
 ### Using `insert` in Python Lists
@@ -90,9 +90,9 @@ print(my_list)  # Output: ['Pedro','Juan','Maria','Chris']
 Using insert is easier for the developer because it will let you pick the positions in which you want to insert the element, but it is a slower method (worse performance):
 
 ```python
-my_list = ['Pedro','Juan','Maria']
+my_list = ['Pedro', 'Juan', 'Maria']
 my_list.insert(1,'Chris')  # Adds Chris between Pedro and Juan
-print(my_list)  # Output ['Pedro','Chris','Juan','Maria']
+print(my_list)  # Output ['Pedro', 'Chris', 'Juan', 'Maria']
 ```
 
 ## Removing Elements from a Python List (pop, remove, delete)
@@ -104,9 +104,9 @@ Python has many ways to delete an element from a list.
 It will remove the last element only!
 
 ```python
-my_list = ['Pedro','Chris','Juan','Maria']
+my_list = ['Pedro', 'Chris', 'Juan', 'Maria']
 my_list.pop()
-print(my_list)  # Output ['Pedro','Chris','Juan']
+print(my_list)  # Output ['Pedro', 'Chris', 'Juan']
 ```
 
 ### Using `remove`
@@ -115,9 +115,9 @@ It will let you remove the first occurrence of an element by its name.
 
 ```python
 # If you want to delete 'Chris', you need to do the following: 
-my_list = ['Pedro','Chris','Juan','Maria','Chris']
+my_list = ['Pedro', 'Chris', 'Juan', 'Maria', 'Chris']
 my_list.remove('Chris')
-print(my_list)  # Output ['Pedro','Juan','Maria','Chris']
+print(my_list)  # Output ['Pedro', 'Juan', 'Maria', 'Chris']
 ```
 
 ### Using `delete`
@@ -125,9 +125,9 @@ print(my_list)  # Output ['Pedro','Juan','Maria','Chris']
 It will allow you to delete many items at once, you have to specify the starting position and ending position.
 
 ```python
-my_list = ['Pedro','Chris','Juan','Maria','Pepe','Mario','Bob']
+my_list = ['Pedro', 'Chris', 'Juan', 'Maria', 'Pepe', 'Mario', 'Bob']
 del my_list[2:5]  # This statement deletes the items at indexes 2, 3 and 4
-print(my_list)  # Output ['Pedro','Chris','Mario','Bob']
+print(my_list)  # Output ['Pedro', 'Chris', 'Mario', 'Bob']
 ```
 
 ## Looping a List
@@ -137,7 +137,7 @@ Normally, when you manipulate lists, you have to loop all the items. For example
 There are many ways you can loop an entire list, but the most used one is the `for` loop.
 
 ```python
-my_list = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12]
+my_list = [3423, 5, 4, 47889, 654, 8, 867543, 23, 48, 56432, 55, 23, 25, 12]
 for number in my_list:
     print(number)
 ```
@@ -148,7 +148,7 @@ Sometimes it is useful to loop the array using each element's position (index). 
 By default, the `range` will start from index zero and continue until a specified number is reached, not including that index number:
 
 ```python
-my_list = ['Pedro','Chris','Mario','Bob']
+my_list = ['Pedro', 'Chris', 'Mario', 'Bob']
 
 # The range will cut off before len(my_list) is reached, and therefore we don't need to write (len(my_list)-1)
 for i in range(len(my_list)): 
@@ -161,10 +161,10 @@ for i in range(len(my_list)):
 # The positions is 3 for the element Bob
 ```
 
-It is also possible to specify the starting index in the range, as well as the increment, by adding a starting point (the first parameter), and an increment value (the last parameter) in the range method:
+It is also possible to specify the starting index in the range, as well as the increment, by adding a starting point (the first parameter), and an increment value (the last parameter) in the `range` method:
 
 ```python
-my_list = ['Pedro','Chris','Mario','Bob', "Greg", "Kyle"]
+my_list = ['Pedro', 'Chris', 'Mario', 'Bob', "Greg", "Kyle"]
 
 for i in range(1, len(my_list), 2):  # range(start value, end value (non inclusive), increment value)
     print("The positions is " + str(i) + " for the element " + my_list[i])
