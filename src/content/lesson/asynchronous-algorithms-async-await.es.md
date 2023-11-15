@@ -188,15 +188,15 @@ Una promesa no es más que el resultado de una operación asíncrona. Representa
 ***Así es como se puede crear una promesa:*** 
 
 ```javascript
-let myPomise = new Promise(function(resolve, reject) {
+var myPromise = new Promise(function(resolve, reject) {
   setTimeout(function() {
     resolve("La promesa se ha resuelto");
   }, 300);
 });
-myPomise.then((obj) => {
+myPromise.then((obj) => {
   console.log(obj);
 });
-console.log(myPomise);
+console.log(myPromise);
 
 /*RESULTADO EN CONSOLA:
 	> [Objeto de promesa] // Devolverá un objeto de promesa
