@@ -166,7 +166,7 @@ else:
 
 Python no tiene una sentencia `switch`.
 
-## C2onclusión
+## Conclusión
 
 Hay que saber qué preguntas hacer. El ejemplo anterior era una condición simple, pero en la vida real, elegir qué hacer implica una combinación de varias condiciones para tomar la decisión final, por ejemplo: 
 
