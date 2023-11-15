@@ -34,7 +34,7 @@ else:
   
 ![Conditionals](https://github.com/breatheco-de/content/blob/master/src/assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png?raw=true)
 
-> 🔗 The `switch` statement is not available in Python.
+> 👉 The `switch` statement is not available in Python.
 
 ## What is a logical expression in Python?
 
@@ -87,15 +87,15 @@ Mostly all the questions can be asked using the following comparisons: `==`, `>`
 
 | Operator      | Example       | Description  |
 | ----          | ----          | --------  |
-| `==`          | `if a == b`   | if the value of variable A is **identical** to the value of B (same data-type and value)   |
-| `<`           | `if a < b`    | if the value of variable A is **less** than the value of B   |
-| `>`           | `if a > b`    | if the value of variable A is **greater** than the value of B   |
-| `!=`          | `if a != b`   | if the value of variable A is **different** (not identical) from the value of B |
+| `==`          | `if a == b`   | if the value of variable `a` is **equal** to the value of `b`   |
+| `<`           | `if a < b`    | if the value of variable `a` is **less** than the value of `b`   |
+| `>`           | `if a > b`    | if the value of variable `a` is **greater** than the value of `b`   |
+| `!=`          | `if a != b`   | if the value of variable `a` is **different** from the value of `b` |
 | `is not None` | `if a is not None`    | This is self-explanatory, isn't it?   |
 | `is None`     | `if a is None`    | This is self-explanatory, isn't it?   |
 | `in`          | `if name in ['bob','maria','nancy']`  | If the value of `name` is contained inside the list of names   |
 
-### `AND` & `OR` Operators in Python
+## `AND` & `OR` Operators in Python
 
 Another way to write the algorithm is to combine questions in the same condition using the `AND` and `OR`:
 
@@ -128,9 +128,9 @@ else:
 
 age = 12
 if age > 18:
-    print("Old enough")
+    print("You are an adult")
 else:
-    print("Not old enough")
+    print("You are not an adult")
 ```
 
 You can also nest several if...else conditions on top of one another, like this:
@@ -181,21 +181,21 @@ if going_out:
     if can_I_get_burger:
         if place_bottle_wine:
             if cool_mix:
-                # do something
+                # Do something
     else:
         if blazers > 3:
-            # do something
+            # Do something
         else:
-            # do something
+            # Do something
     elif she_pants:
-        # do something
+        # Do something
     else:
-        # do something
+        # Do something
 else:
     if naked_she_door:
-        # do something
+        # Do something
     elif blazers > 3:
-        # do something
+        # Do something
     else:
-        # do something
+        # Do something
 ```
