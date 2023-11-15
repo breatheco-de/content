@@ -13,7 +13,21 @@ status: "published"
 
 We all know the importance, growth, and impact of the tech industry nowadays. More and more developers are needed everywhere. Just in the US, the Bureau of Labor Statistics projects to have more than a million open jobs by 2024, for software developers. 
 
-A web developer makes around `$65k` per year in the US. In Florida, numbers are a little bit lower due to the cost of living and payroll standards. In 2020 a web developer makes around `$56k`, and a junior one is around `$50k` per year in Florida. According to recent reports, a Bootcamp graduate makes `$20k` more than before joining the coding Bootcamp: 
+### Web Developer Salaries around the world in 2023
+
+| Location             | Web Developer Salary | Junior Web Developer Salary |
+|----------------------|----------------------|-----------------------------|
+| United States        | $80,000 - $100,000   | $60,000 - $80,000           |
+| Florida, USA         | $70,000 - $90,000    | $50,000 - $70,000           |
+| Spain                | €40,000 - €60,000    | €30,000 - €45,000           |
+| Mexico               | MXN 500,000 - MXN 700,000 | MXN 300,000 - MXN 500,000 |
+| Brazil               | BRL 80,000 - BRL 120,000 | BRL 50,000 - BRL 80,000   |
+| United Kingdom       | $70,000 - $90,000     | $45,000 - $60,000       |
+| Germany               | $60,000 - $80,000    | $40,000 - $55,000
+
+> Note: Salaries are approximate and may vary based on factors such as experience, skills, and company policies.
+
+According to recent reports, a Bootcamp graduate makes `$20k` more than before joining the coding Bootcamp: 
 
 <p style="text-align:center">
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/c98f9241-0c8f-46d9-91e6-a093276ac2a3.png?raw=true" width="300">
