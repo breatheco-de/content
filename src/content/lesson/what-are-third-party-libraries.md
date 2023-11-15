@@ -147,7 +147,7 @@ The **NumPy** library offers a wide variety of functions that allow you to perfo
 |-----------|-----------|
 |`np.array()` | Creates a NumPy array from a list or another iterable object. |
 |`np.zeros()` | Creates an array of zeros with specific dimensions. |
-|`np.linspace()` | Creates an array with a sequence of evenly spaced numbers in a specified range and number of elements.
+|`np.linspace()` | Creates an array with a sequence of evenly spaced numbers in a specified range and a number of elements.
 |`np.random.rand()` | Creates an array with random values in the range [0, 1] with specified dimensions. |
 
 ### Pandas
