@@ -27,7 +27,7 @@ Every list has the same basic concepts:
 + **Index:** is the position of the element.
 
 
-![what is an list define list](https://github.com/breatheco-de/content/blob/master/src/assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png?raw=true)
+![What is a list](https://github.com/breatheco-de/content/blob/master/src/assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png?raw=true)
 
 
 > ☝ List positions start a **zero (0)**; the first element is the element in the position **zero (0)**
@@ -166,7 +166,7 @@ It is also possible to specify the starting index in the range, as well as the i
 ```python
 my_list = ['Pedro', 'Chris', 'Mario', 'Bob', "Greg", "Kyle"]
 
-for i in range(1, len(my_list), 2):  # range(start value, end value, increment value)
+for i in range(1, 6, 2):  # range(start value, end value (non inclusive), increment value)
     print("The positions is " + str(i) + " for the element " + my_list[i])
 
 ### Output:
