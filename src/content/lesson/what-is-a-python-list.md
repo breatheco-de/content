@@ -166,7 +166,7 @@ It is also possible to specify the starting index in the range, as well as the i
 ```python
 my_list = ['Pedro', 'Chris', 'Mario', 'Bob', "Greg", "Kyle"]
 
-for i in range(1, len(my_list), 2):  # range(start value, end value (non inclusive), increment value)
+for i in range(1, len(my_list), 2):  # range(start value, end value, increment value)
     print("The positions is " + str(i) + " for the element " + my_list[i])
 
 ### Output:
