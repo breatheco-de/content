@@ -70,7 +70,7 @@ You can also print from a stored variable value, or even concatenate it to anoth
 
 ```python
 name = "Bob"
-# Print only the name
+# Prints only the name
 print(name) 
 # Or print a greeting that also includes the name
 print("Hello "+name+" how are you?")
@@ -84,9 +84,9 @@ If you don't remember or don't know, data types are the types of information you
 | -----------------	| ------------------------------------- | ----------------------------- |
 | Text Type		| str					| Words, paragraphs, etc. 	|
 | Numeric Types	| int, float, complex	| Math operations, etc.		|
-| Sequence Types	| List, tuple, range		| Multiple values at once, one after the other	|
-| Mapping Type	| Dictionary				| Multiple values without sequence	|
-| Boolean Type	| Bool				| Only `True` or `False` |
+| Sequence Types	| list, tuple, range		| Multiple values at once, one after the other	|
+| Mapping Type	| dictionary				| Multiple values without sequence	|
+| Boolean Type	| bool				| Only `True` or `False` |
 
 
 ### Casting (parsing) Data-Types
@@ -110,7 +110,7 @@ On the other hand, if you sum the string `"5"` with the string `"2"`, the result
 
 ### Lists and Tuples
 
-All the major programming languages have ways of storing lists of values together; these are called **lists**.
+All the major programming languages have ways of storing lists of values together; these are called **lists** or **arrays**.
 
 A Python list is an ordered succession of values, for example:
 
@@ -146,7 +146,7 @@ last_name = "Swift"
 print("Miss "+name + " " + last_name)  # Output: Miss Taylor Swift
 ```
 
-The first line is `name = "Taylor"` and its executed first; the last line with the `print` statement already knows the value of `name` because it was completed first (earlier line)
+The first line is `name = "Taylor"` and its executed first; the last line with the `print` statement already knows the value of `name` because it was completed first (earlier line).
 
 ### Conditionals
 
@@ -163,7 +163,7 @@ else:
 	print("Mrs "+name + " " + last_name)  # Output: Mrs Taylor Swift
 ```
 
-Note: The `if...else...` statement reads like English. Also, to make comparisons, you have to use two equals `==` instead of one, and that is called a **Logical Expression**.
+> Note: The `if...else...` statement reads like English. Also, to make comparisons, you have to use two equals `==` instead of one, and that is called a **Logical Expression**.
 
 ### Logical Operations and Expressions
 
@@ -178,7 +178,7 @@ For example, if I want a computer to give candy only to kids older than 13 years
 |Operation      |Syntaxis       |Examples   |
 |:--------------|:--------------|:--------------|
 |Equal to       |==             |Is 5 == 5? True!<br>Is 5 == 4? False<br>Is 5 == '5'? False    |
-|Not Equal to   |!=             |Is 5 != 5? False!<br>Is 5 != '5'? True<br>Is 1 != 'Hello' True   |
+|Not Equal to   |!=             |Is 5 != 5? False!<br>Is 5 != '5'? True<br>Is 1 != 'Hello'? True   |
 |Greater than   |>              |Is 5 > 5? False!<br>Is 6 > 3? True    |
 |Less than      |<              |Is 6 < 12? True            |
 |Greater or equal  |>=             |Is 6 >= 6? True<br>Is 7 >= 6? True    |
@@ -190,9 +190,9 @@ You can group the logical operations in parentheses, and also use nested parenth
 
 |Operation       |Syntaxis       |Examples  |
 |:---------------|:--------------|:--------------|
-|AND             |and             |With AND, both sides HAVE TO BE TRUE in order for everything to become True.<br>Is (5 == 5 and 3 > 1) ? True!<br>Is ('Ramon' == 'Pedro' and 2 == 2) ? False!    |
-|OR     | or     |With OR if at least one of the expresions is True the final result will be True.<br>Is ('Oscar' != 'Maria' or 2 != 2)? True!<br>Is (5 == '5' and 'Ramon' != 'Pedro') or (2 == 2)? True!   |
-|NOT     | not     |NOT will be the exact opposite of the result of the logical operator:<br>Is not (5 > 5)? True!<br>Is not True? False!    |
+|AND             |and            |With AND, all operations HAVE TO BE TRUE in order for everything to become True.<br>Is (5 == 5 and 3 > 1)? True!<br>Is ('Ramon' == 'Pedro' and 2 == 2)? False!    |
+|OR              |or      |With OR if at least one of the operations is True the final result will be True.<br>Is ('Oscar' != 'Maria' or 2 != 2)? True!<br>Is (5 == '5' and 'Ramon' != 'Pedro') or (2 == 2)? True!   |
+|NOT             |not     |NOT will be the exact opposite of the result of the logical operator:<br>Is not (5 > 5)? True!<br>Is not True? False!    |
 
 ## Control the Flow of Your Code
 
