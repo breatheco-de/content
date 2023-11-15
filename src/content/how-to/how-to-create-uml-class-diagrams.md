@@ -1,5 +1,5 @@
 ---
-title: ""How to Create UML Class Diagrams?"
+title: "How to Create UML Class Diagrams?"
 subtitle: "Learn how to create UML class diagrams. Discover how to visually and effectively represent the structures of your programs. Master the technique now!"
 tags: ["uml", "class-diagram"]
 authors: ["DF27ARTS"]
@@ -51,7 +51,7 @@ The main classes for creating this application are the following:
 
 The third step is to define the attributes and methods of each class. Below, we will define these attributes for all the classes in our application.
 
-![https://res.cloudinary.com/dleo66u17/image/upload/v1691009711/Captura_de_pantalla_2023-08-02_155300_nhlqka.png](https://res.cloudinary.com/dleo66u17/image/upload/v1691009711/Captura_de_pantalla_2023-08-02_155300_nhlqka.png)
+![Diagramas de clases](https://res.cloudinary.com/dleo66u17/image/upload/v1691009711/Captura_de_pantalla_2023-08-02_155300_nhlqka.png)
 
 As you can see in this example, we need to define each class along with its attributes and methods. The text strings at the top of the central line are attributes, and those at the bottom are methods. The basic structure of a class diagram is the following:
 
@@ -75,7 +75,7 @@ This is the conventional structure for creating a class diagram, although it's i
 
 The fourth and final step in creating a class diagram is to establish relationships between the classes, as shown in the following example:
 
-![https://res.cloudinary.com/dleo66u17/image/upload/v1691172317/Captura_web_4-8-2023_13135_app.diagrams.net_kmisyp.jpg](https://res.cloudinary.com/dleo66u17/image/upload/v1691172317/Captura_web_4-8-2023_13135_app.diagrams.net_kmisyp.jpg)
+![UML](https://res.cloudinary.com/dleo66u17/image/upload/v1691172317/Captura_web_4-8-2023_13135_app.diagrams.net_kmisyp.jpg)
 
 In this example, we relate the **Person** class, which is an abstract class, to its child or subclass classes, **Salesperson** and **Customer**, using a solid line with a triangle-shaped arrow. Then, we relate the main class, **Library**, to the other classes it contains: **Book**, **Salesperson**, and **Customer**, using a solid line with a rhombus-shaped arrow and a black background.
 
