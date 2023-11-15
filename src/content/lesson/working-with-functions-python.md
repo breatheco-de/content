@@ -23,10 +23,10 @@ Basically, a function is a bunch of code that you can run anytime whenever you d
 
 
 ```python
-def multiply(a,b):
-    return a*b
+def multiply(a, b):
+    return a * b
 
-result = multiply(2,6)
+result = multiply(2, 6)
 print(str(result))  # Output: 12
 ```
 
@@ -41,10 +41,10 @@ By reviewing this code, we can obtain the following conclusions:
 From now on, I have the function `multiply` available on my code, and I can re-use it as many times as I need to multiply two values like this:
 
 ```python
-result = multiply(2,6)
+result = multiply(2, 6)
 print(str(result))  # Output: 12
 
-result2 = multiply(5,2)
+result2 = multiply(5, 2)
 print(str(result2))  # Output: 10
 ```
 
@@ -145,10 +145,10 @@ The only way to use (a.k.a: call) a function is to use parenthesis like this:
 multiply()
 
 # This is how you call a function with parameters 
-multiply(<first param>,<second param>)
+multiply(<first param>, <second param>)
 
 # For example, to multiply 3 times 9 
-multiply(3,9)
+multiply(3, 9)
 ```
 
 Please remember to assign the function whatever parameters it should receive.  In our example, the multiply function was declared asking for two numbers to multiply.  Play with the following example as you like:
@@ -160,20 +160,20 @@ Please remember to assign the function whatever parameters it should receive.  I
 You can combine functions however you want and have chained calls like this:
 
 ```python 
-def sum(a,b):
-   return a+b
+def sum(a, b):
+   return a + b
 
-def multiply(a,b):
-   return a*b;
+def multiply(a, b):
+   return a * b;
 
-print(multiply(sum(3,5),sum(1,1)))
+print(multiply(sum(3, 5), sum(1, 1)))
 
 
 # The execution goes from the inside to the outside 
 # First, the sum of 3+5 and 1+1 will be calculated 
 # Then their respective results will be multiplied 
-first_sum = sum(3,5)
-second_sum = sum(1,1)
+first_sum = sum(3, 5)
+second_sum = sum(1, 1)
 print(multiply(first_sum, second_sum))
 ```
 
