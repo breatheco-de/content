@@ -109,7 +109,7 @@ my_list.pop()
 print(my_list)  # Output ['Pedro','Chris','Juan']
 ```
 
-### Using Remove
+### Using `remove`
 
 It will let you remove the first occurrence of an element by its name.
 
