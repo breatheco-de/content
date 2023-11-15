@@ -52,9 +52,9 @@ my_set = {"Apple", "Orange", "Donkey"}  # Esto no es una lista, es una versión 
 
 ## Acceder a los items en la lista 
 
-Para acceder a un elemento específico en una lista, necesita un `index` o índice. Un índice es un valor entero que representa la posición del arreglo a la que desea acceder/obtener/recuperar.
+Para acceder a un elemento específico en una lista, necesitas un `index` o índice. Un índice es un valor entero que representa la posición del arreglo a la que desea acceder/obtener/recuperar.
 
-El índice siempre debe comenzar en cero (0). Eso significa que una lista de 2 elementos puede tener un índice = 0 o un índice = 1. Tratar de obtener la segunda posición devolverá "indefinido" porque significará que estamos tratando de acceder al tercer elemento (que no existe). Por ejemplo, para obtener cualquier elemento de la lista puede hacer lo siguiente:
+El índice siempre debe comenzar en cero (0). Eso significa que una lista de 2 elementos puede tener un `index=0` o un `index=1`. Tratar de obtener la segunda posición devolverá un `IndexError` porque significará que estamos tratando de acceder al tercer elemento (que no existe). Por ejemplo, para obtener cualquier elemento de la lista puedes hacer lo siguiente:
 
 ```python
 print(my_list[0])  # Esto imprimirá el 1er elemento en la consola
@@ -98,7 +98,7 @@ print(my_list)  # Esto imprimirá ['Pedro', 'Chris', 'Juan', 'Maria'];
 
 ```
 
-> ☝ La función `insert` es mucho mós lenta que `append`, deberías tratar de evitarla.
+> ☝ La función `insert` es mucho más lenta que `append`, deberías tratar de evitarla.
 
 ## Eliminando items de una lista Python(función pop, remove, delete)
 
@@ -172,7 +172,7 @@ También es posible especificar la posición inicial, así como el incremento, i
 ```python
 my_list = ['Pedro', 'Chris', 'Mario', 'Bob', "Greg", "Kyle"]
 
-for i in range(1, len(my_list), 2):  # range(valor inicial, último elemento, valor incremental)
+for i in range(1, 6, 2):  # range(valor inicial, valor final (no inclusivo), valor incremental)
     print("La posición es " + str(i) + " para el elemento " + my_list[i])
 
 ### Imprimirá lo siquiente:
