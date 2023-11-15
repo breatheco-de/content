@@ -5,7 +5,7 @@ tags: ["4geeks method", "coding standards"]
 
 ---
 
->  🤯 "No soy un gran programador; solo soy un buen programador con buenos hábitos". - Kent Beck
+<quote>No soy un gran programador; solo soy un buen programador con buenos hábitos. - Kent Beck</quote>
 
 Los estudios han demostrado que los desarrolladores que usan las mejores prácticas al escribir código son hasta un 40% más productivos que aquellos que no lo hacen, y que el código con buenas prácticas es hasta un 50% más barato de mantener que el código con malas prácticas.
 
@@ -24,7 +24,7 @@ Es mejor evitar usar variables globales siempre que sea posible, usa más argume
 2. Es más difícil aislar problemas cuando varias partes del código están interactuando con las mismas variables globales.
 3. Los cambios en una variable global pueden tener consecuencias no deseadas en otras partes del código.
 
-![no uses variables globales](https://breathecode.herokuapp.com/v1/media/file/dont-use-global-variables-png?)
+![no uses variables globales](https://github.com/breatheco-de/content/blob/4588ac449e1507072c022ca433d0db46a431881d/src/assets/images/good-bad-example-code-1-global-variables.png?raw=true)
 
 ## Nombres de variables
 Algunas de las convenciones de nomenclatura se dan a continuación:

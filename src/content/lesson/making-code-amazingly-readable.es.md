@@ -39,25 +39,23 @@ En esta lección, repasaremos algunos consejos que puedes seguir para mejorar la
 - Evita usar nombres de una sola letra.
 - Mantén los nombres cortos, pero no demasiado cortos; concisos, pero aún descriptivos.
 
-![nombres de variables buenos vs malos](https://storage.googleapis.com/media-breathecode/54d66f16a9ce92ebbc05807f763dc5975d51280817415c98f02ab893ffa3eb05)
+![nombres de variables buenos vs malos](https://github.com/breatheco-de/content/blob/4588ac449e1507072c022ca433d0db46a431881d/src/assets/images/good-bad-example-code-2-variable-names.png?raw=true)
 
 ### Divide tu código en funciones más pequeñas
 
 En lugar de anidar bloques de código, considera refactorizar el código en funciones más pequeñas y llamar a esas funciones en los momentos apropiados. Esto puede reducir la profundidad general de anidamiento en su código.
 
-![usando funciones mas pequeñas](https://storage.googleapis.com/media-breathecode/29539a612aa4bc57c236e82838d5f105246de972d622792441efe4d642c31b84)
+![usando funciones mas pequeñas](https://github.com/breatheco-de/content/blob/4588ac449e1507072c022ca433d0db46a431881d/src/assets/images/good-bad-example-code-3-smaller-functions.png?raw=true)
 
 ### Evite usar la declaración `else`
 
 Es mejor combinar tus condiciones en operaciones lógicas relacionadas.
 
-![evita usar sentencias else](https://storage.googleapis.com/media-breathecode/93dfd2bc759cb41efeef36ef575bd56d4e53ecae0c0f3a73b371ba896404caff)
+![evita usar sentencias else](https://github.com/breatheco-de/content/blob/94097af0165a91f315a888a9c55e67029034d9c7/src/assets/images/good-bad-example-code-3%2C5-avoid-else-statements.png?raw=true)
 
 ### Cuidado con la indentación
 
-Por supuesto, la indentación o sangría es una parte vital de la legibilidad. Python no tiene ese problema, pero aquí hay un ejemplo de JavaScript que es muy difícil de leer.
-
-¡Te desafío a encontrar el problema!
+Por supuesto, la indentación o sangría es una parte vital de la legibilidad.
 
 ![problemas de legibilidad por indentación](https://storage.googleapis.com/media-breathecode/1cd57ac983752ef51f700dab05703bc49c67a580757e21d5917bc8cd46197801)
 
@@ -67,7 +65,7 @@ Cuando estés a punto de agregar un comentario, piensa por un segundo: ¿Realmen
 
 El 99% de las veces, no hay necesidad de comentarios si tu código tiene una buena legibilidad y sigue las mejores prácticas.
 
-![evita usar demasiados comentarios](https://storage.googleapis.com/media-breathecode/bac5b919aa2338754568a68cdb2054a1f47d7be0599d7feb33a8b0968d68004c)
+![evita usar demasiados comentarios](https://github.com/breatheco-de/content/blob/4588ac449e1507072c022ca433d0db46a431881d/src/assets/images/good-bad-example-code-4-too-many-comments.png?raw=true)
 
 ### Evita largas líneas de código
 
@@ -75,13 +73,12 @@ Esto suele suceder cuando se escribe una cadena larga o una "sentencia if", tamb
 
 Puedes evitar la mayoría de estos problemas usando un formateador de código. Este es un recordatorio amistoso para instalar un formateador de código como [Prettier](https://prettier.io/) en tu editor si aún no tienes uno.
 
-![largas lineas de código](https://storage.googleapis.com/media-breathecode/3d86a9ea1f1f0b37c207eb1494d33e362c51fe2ea023fe1d2d1fb136c87f258b)
+![evita largas lineas de código](https://github.com/breatheco-de/content/blob/4588ac449e1507072c022ca433d0db46a431881d/src/assets/images/good-bad-example-code-5-avoid-long-lines.png?raw=true)
 
 Otros casos para evitar largas líneas de código:
 
 - No escribas expresiones booleanas largas: las "sentencias if" con múltiples operaciones lógicas en una sola línea son difíciles de leer y depurar.
-- No escribas código anidado: puede parecer inteligente en este momento, pero hace que el código sea difícil de leer y depurar.
-- Utiliza listas de comprensión con moderación.
+- No escribas código anidado: puede parecer inteligente en el momento, pero hace que el código sea más difícil de leer y depurar.
 
 ## La baja legibilidad puede hacer que te despidan
 

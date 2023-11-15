@@ -17,13 +17,13 @@ We are sure that after diving deep into HTML, everything looks kind of ugly, fix
 
 But… The Internet is more beautiful than that. When the internet became popular, it stopped being only a privilege for scientists and the army, and evolved to become **part of our world!!**
 
-Ironically, the same scientists at CERN who created HTML had to think about how to improve it. They were given the task to make it more beautiful. It was at this time that [Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie) proposed the first version of CSS in 1994, which was later adapted to become CSS1.
+Ironically, the same scientists at CERN who created HTML had to think about how to improve it. They were given the task of making it more beautiful. It was at this time that [Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie) proposed the first version of CSS in 1994, which was later adapted to become CSS1.
 
-## So, What is CSS and why does it matter??
+## So, what is CSS, and why does it matter??
 
 ![what is css](https://github.com/breatheco-de/content/blob/master/src/assets/images/8c9fea86-c56c-486f-8b64-4322338076f7.jpeg?raw=true)
 
-The main objective for his creation was to apply styles to HTML documents. The idea is to let you tell the browser how to display an HTML document: how to render its tags, in what color, margins, typography, icons, borders, etc. You can even redefine the original behaviors of the existing tags at your will. Eg:
+The main objective of his creation was to apply styles to HTML documents. The idea is to let you tell the browser how to display an HTML document: how to render its tags, in what color, margins, typography, icons, borders, etc. You can even redefine the original behaviors of the existing tags at your will. Ex:
 
 ```html
 You could tell an <h1> to look just like an <h2> without the user realizing that, at first glance, they are different.
@@ -35,7 +35,7 @@ Can you imagine the potential? You can make almost everything look different!
 
 ## How do I apply styles to HTML?
 
-Quite simple, you have to write your styles in a special syntax called "CSS" and save it on documents with the extension CSS.  Then, you apply the styles to the document using the `<link>` or the `<style>` tag.
+It's quite simple, you have to write your styles in a special syntax called "CSS" and save them on documents with the extension CSS.  Then, you apply the styles to the document using the `<link>` or the `<style>` tag.
 
 Let’s review those 2 tags in more detail:
 

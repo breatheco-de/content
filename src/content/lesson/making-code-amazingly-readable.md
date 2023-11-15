@@ -39,25 +39,23 @@ Where do I start? This is one of the most difficult tasks in coding.
 - Avoid using single-letter names.
 - Keep names short, but not too short; concise, but still descriptive.
 
-![good vs bad variable names](https://storage.googleapis.com/media-breathecode/54d66f16a9ce92ebbc05807f763dc5975d51280817415c98f02ab893ffa3eb05)
+![good vs bad variable names](https://github.com/breatheco-de/content/blob/4588ac449e1507072c022ca433d0db46a431881d/src/assets/images/good-bad-example-code-2-variable-names.png?raw=true)
 
 ### Split your code into smaller functions
 
 Instead of nesting blocks of code, consider refactoring the code into smaller functions and calling those functions at the appropriate times. This can reduce the overall depth of nesting in your code.
 
-![Encapsulate in smaller functions](https://storage.googleapis.com/media-breathecode/29539a612aa4bc57c236e82838d5f105246de972d622792441efe4d642c31b84)
+![Encapsulate in smaller functions](https://github.com/breatheco-de/content/blob/4588ac449e1507072c022ca433d0db46a431881d/src/assets/images/good-bad-example-code-3-smaller-functions.png?raw=true)
 
 ### Avoid using the `else` statement
 
 It's better to combine your conditions into related logical operations.
 
-![avoid using else statements](https://storage.googleapis.com/media-breathecode/93dfd2bc759cb41efeef36ef575bd56d4e53ecae0c0f3a73b371ba896404caff)
+![avoid using else statements](https://github.com/breatheco-de/content/blob/94097af0165a91f315a888a9c55e67029034d9c7/src/assets/images/good-bad-example-code-3%2C5-avoid-else-statements.png?raw=true)
 
 ### Careful with indentation
 
-Of course, indentation is a vital part of readability. Python doesn't have that problem, but here is a JavaScript example that is very tricky to read. 
-
-I challenge you to find the problem!
+Of course, indentation is a vital part of readability.
 
 ![Indentation readability problems](https://storage.googleapis.com/media-breathecode/1cd57ac983752ef51f700dab05703bc49c67a580757e21d5917bc8cd46197801)
 
@@ -67,7 +65,7 @@ When you are about to add a comment, think for a second: Do I need this comment?
 
 99% of the time, there is no need for comments if your code has good readability and follows best practices.
 
-![Avoid unnecessary comments when coding](https://storage.googleapis.com/media-breathecode/bac5b919aa2338754568a68cdb2054a1f47d7be0599d7feb33a8b0968d68004c)
+![Avoid unnecessary comments when coding](https://github.com/breatheco-de/content/blob/4588ac449e1507072c022ca433d0db46a431881d/src/assets/images/good-bad-example-code-4-too-many-comments.png?raw=true)
 
 ### Avoid long lines of code
 
@@ -75,13 +73,12 @@ This usually happens when writing a long string or "if statement", it can also o
 
 You can avoid most of these problems by using a code formatter. This is a friendly reminder to install a code formatter such as [Prettier](https://prettier.io/) in your editor if you don't have it already.
 
-![long lines of code](https://storage.googleapis.com/media-breathecode/3d86a9ea1f1f0b37c207eb1494d33e362c51fe2ea023fe1d2d1fb136c87f258b)
+![avoid long lines of code](https://github.com/breatheco-de/content/blob/4588ac449e1507072c022ca433d0db46a431881d/src/assets/images/good-bad-example-code-5-avoid-long-lines.png?raw=true)
 
 Other cases to avoid long lines of code:
 
 - Don't write long boolean expressions: "if statements" with multiple logical operations on a single line are hard to read and debug.
-- Don't write nested code: it may seem clever at the moment, but it makes code hard to read and debug.
-- Use list comprehensions sparingly.
+- Don't write nested code: it may seem clever at the moment, but it makes code harder to read and debug.
 
 ## Low readability can get you fired
 
