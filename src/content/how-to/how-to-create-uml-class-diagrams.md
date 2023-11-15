@@ -51,7 +51,7 @@ The main classes for creating this application are the following:
 
 The third step is to define the attributes and methods of each class. Below, we will define these attributes for all the classes in our application.
 
-![Diagramas de clases](https://res.cloudinary.com/dleo66u17/image/upload/v1691009711/Captura_de_pantalla_2023-08-02_155300_nhlqka.png)
+![Class diagrams](https://res.cloudinary.com/dleo66u17/image/upload/v1691009711/Captura_de_pantalla_2023-08-02_155300_nhlqka.png)
 
 As you can see in this example, we need to define each class along with its attributes and methods. The text strings at the top of the central line are attributes, and those at the bottom are methods. The basic structure of a class diagram is the following:
 
