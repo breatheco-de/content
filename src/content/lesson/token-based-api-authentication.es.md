@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-## Por qué implementar la autenticación basada en tokens
+## ¿Por qué implementar la autenticación basada en tokens?
 
 <img src="../../assets/images/authentication.png" align="right" />
 

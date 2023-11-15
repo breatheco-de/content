@@ -1,3 +1,11 @@
+---
+title: "¿Cómo leer un archivo en Python?"
+subtitle: "Aprende a leer archivos en Python y domina la manipulación de datos. Descubre cómo acceder y procesar información desde diferentes fuentes. ¡Empieza hoy mismo!"
+tags: ["python", "programacion-orientada-a-objectos"]
+authors: ["DF27ARTS"]
+
+---
+
 ## ¿Cómo leer un archivo en Python?
 
 Python ofrece una amplia variedad de estructuras que te permiten guardar información como lo son los **Diccionarios** o las **Listas**, sin embargo, si la aplicación se cierra, esa información se pierde. Para que esto no suceda, podemos hacer uso de archivos para guardar la información y así poder acceder alla nuevamente. A continuación veremos un pequeño ejemplo sobre cómo leer la información de un archivo `txt`.
@@ -35,7 +43,7 @@ En este ejemplo, queremos leer la información guardada en el archivo `prueba.tx
 
 ## ¿Cómo leer el contenido de un archivo?
 
-Como se dijo anteriormente, para leer el contenido de un archivo necesitamos el método `open()` de Python, este método recibe dos parámetros, el primero es el nombre del archivo que deseamos abrir, y el segundo es el modo en que deseamos abrir el archivo, este segundo parámetro puede recibir diferentes valores, en la siguiente tabla se pueden observar los más relevantes con una pequeña descripción de cada uno:
+Como se dijo anteriormente, para leer el contenido de un archivo necesitamos el método `open()` de [Python](https://4geeks.com/es/lesson/como-programar-en-python), este método recibe dos parámetros, el primero es el nombre del archivo que deseamos abrir, y el segundo es el modo en que deseamos abrir el archivo, este segundo parámetro puede recibir diferentes valores, en la siguiente tabla se pueden observar los más relevantes con una pequeña descripción de cada uno:
 
 | Valor | Descripción                                                                                                                                                     |
 |-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -48,7 +56,6 @@ Como se dijo anteriormente, para leer el contenido de un archivo necesitamos el 
 | `"x"` | Abre el archivo en modo de creación. Crea un nuevo archivo para escritura, pero si el archivo ya existe, lanzará un error.                                      |
 | `"x+"`| Abre un archivo en modo de creación y lectura/escritura. Similar a `"w+"`, pero lanza un error si el archivo ya existe.                                         |
 | `"b"` | Modo de archivo binario, se utiliza junto con otros modos como `"rb"` (lectura binaria) `"wb"` (escritura binaria).                                             |
-
 
 A continuación veremos un ejemplo sobre cómo leer un archivo `txt` y algunos de los métodos más utilizados.
 
@@ -81,6 +88,7 @@ with open("prueba.txt", "r", encoding="utf-8") as archivo:
     data = archivo.readlines()
     print(data)
 ```
+
 > output del código:
 
 ```bash
@@ -154,7 +162,6 @@ Montañas se alzan mientras valles se extienden, creando paisajes diversos.
 
 Esta es una nueva línea de texto agregada al archivo prueba.txt
 ```
-
 
 En este ejemplo, de nuevo hacemos uso del método `open()` de Python pero esta vez le pasamos cómo segundo parámetro el valor de `"a"` que te permite modificar el contenido de un archivo pero a diferencia del valor `"w"` este agrega el nuevo contenido al final del contenido ya existente. Estos dos valores son muy importantes y puedes usarlos dependiendo de la tarea que necesites realizar en el archivo, recuerda que al agregar el símbolo `"+"` al final de cada uno de estos valores `"w+"`, `"a+"` podras leer y escribir en un archivo.
 
@@ -236,7 +243,6 @@ Información de los usuarios:  [
     {'nombre': 'Jane', 'apellido': 'Watson', 'edad': 29}
 ]
 ```
-
 
 El método `load()` recibe cómo parámetro la variable `archivo` que le indica cual archivo debe leer y convertir de nuevo en código de Python, este método retorna la información de los usuarios que se guarda en la variable `datos_recuperados`, por último simplemente imprimimos los resultado en la consola.
 

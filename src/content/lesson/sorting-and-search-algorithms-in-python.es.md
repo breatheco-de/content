@@ -1,6 +1,14 @@
+---
+title: "Algoritmos de Ordenamiento y Búsqueda en Python: Optimizando la Gestión de Datos"
+subtitle: "Explora los algoritmos de ordenamiento y búsqueda en Python. Aprende a optimizar la gestión de datos con estas técnicas esenciales de programación."
+tags: ["python", "algoritmos","algoritmos-de-busqueda"]
+authors: ["DF27ARTS"]
+
+---
+
 ## Algoritmos de Ordenamiento y Búsqueda en Python 📊🔍
 
-En el mundo del desarrollo de software, los algoritmos de búsqueda y ordenamiento juegan un papel fundamental, estas técnicas permiten organizar y obtener datos de una manera muy eficiente, lo que es esencial para optimizar el rendimiento de las aplicaciones. En este artículo veremos algunos ejemplos de algoritmos en Python, tanto algoritmos de ordenamiento como algoritmos de búsqueda.
+En el mundo del desarrollo de software, los algoritmos de búsqueda y ordenamiento juegan un papel fundamental, estas técnicas permiten organizar y obtener datos de una manera muy eficiente, lo que es esencial para optimizar el rendimiento de las aplicaciones. En este artículo veremos algunos ejemplos de algoritmos en [Python](https://4geeks.com/es/lesson/como-programar-en-python), tanto algoritmos de ordenamiento como algoritmos de búsqueda.
 
 ## ¿Qué son los Algoritmos de Ordenamiento? 📊🔄
 
@@ -111,6 +119,7 @@ else:
 ```
 
 > output del código:
+
 ```bash
 El número 39 se encuentra en la posición: 14
 ```
@@ -186,4 +195,4 @@ En este ejemplo, hacemos uso de un algoritmo de búsqueda binario para encontrar
 
 En el mundo de la programación, los algoritmos de ordenamiento y búsqueda son fundamentales para para la manipulación y búsqueda de datos, los algoritmos de ordenamiento nos permiten organizar conjuntos de datos de forma ascendente o descendente mientras que los algoritmos de búsqueda nos permiten localizar información de manera más rápida dependiendo de la situación.
 
-Espero que este artículo te haya sido de utilidad para comprender cómo funcionan los algoritmos de búsqueda y ordenamiento, recuerda practicar estos algoritmos ya que son esenciales en el ámbito de la programación. ¡Diviértete en tu proceso de aprendizaje! 😉👍
+Espero que este artículo te haya sido de utilidad para comprender cómo funcionan los algoritmos de búsqueda y ordenamiento, recuerda practicar estos algoritmos ya que son esenciales en el ámbito de la programación. Puedes chequear el [Blog de 4Geeks](https://4geeks.com/es/) para aprender más contenido interesante. ¡Diviértete en tu proceso de aprendizaje! 😉👍

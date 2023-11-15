@@ -1,12 +1,12 @@
 ---
-title: "Como crear un snapshot de tu workspace en gitpod"
-subtitle: "Gitpod te permite crear 'snapshots' que son copias de tu codigo y configuracion de tu workspace en solo unos clicks"
+title: "¿Cómo crear un snapshot de tu workspace en Gitpod?"
+subtitle: "Gitpod te permite crear 'snapshots' que son copias de tu código y configuración de tu workspace en solo unos clicks."
 tags: ["gitpod"]
 authors: []
 
 ---
 
-El siguiente artículo describe cómo es el proceso de la entrega de proyectos para que un mentor lo revise en [4Geeks.com](https://4geeks.com/).
+El siguiente artículo describe cómo crear snapshots de tus workspaces de Gitpod para compartir tu código y configuración de tu workspace a otras personas. Este también es el proceso de la entrega de proyectos para que un mentor lo revise en [4Geeks.com](https://4geeks.com/).
 
 ## Snapshots
 

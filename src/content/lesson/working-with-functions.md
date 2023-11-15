@@ -102,7 +102,7 @@ const multiply = function(a, b) {
 
 ## Calling Functions
 
-The only way to use (a.k.a: call) a function is to use parenthesis brackets like this:
+The only way to use (a.k.a: call) a function is to use parentheses brackets like this:
 
 ```javascript
 //this is how you call a function without parameters 
