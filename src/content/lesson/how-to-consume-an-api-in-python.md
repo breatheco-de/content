@@ -63,7 +63,7 @@ Data: {
 ```
 
 In this example, we use the `get(api_url)` method of the requests library to retrieve information from a fake user provided by the **jsonplaceholder** API. This method returns the information received from the API and stores it in the `response` variable. If the request was successful, the API returns a `status_code` in the range of 2XX (between 200 and 299) and the user information. If there was an error in the process, it returns a `status_code` in the 4XX range (between 400 and 499) and a message explaining the error.
-Cambia el link de python a este: https://4geeks.com/technology/python
+
 ## What is an API in Python?
 
 APIs are mechanisms that allow two software components to communicate with each other through a set of definitions and protocols. In the context of programming, an API is used to access functions and data from an external application. In [Python](https://4geeks.com/technology/python), APIs are a common way to obtain and manipulate data from online services such as web services, databases, and other external resources.
