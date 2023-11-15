@@ -107,7 +107,9 @@ if response.status_code == 200:
 else:
     print('Error en la solicitud, detalles:', response.text)
 ```
+
 > output del código:
+
 ```bash
 Solicitud exitosa
 Data: {
@@ -144,7 +146,9 @@ if response.status_code == 201:
 else:
     print('Error en la solicitud, detalles:', response.text)
 ```
+
 > output del código:
+
 ```bash
 Post creado de forma exitosa
 Respuesta: {
@@ -180,7 +184,9 @@ if response.status_code == 200:
 else:
     print('Error en la solicitud, detalles:', response.text)
 ```
+
 > output del código:
+
 ```bash
 Post actualizado de forma exitosa
 Respuesta: {
