@@ -140,7 +140,7 @@ a = np.array([4, 16, 25])
 b = np.sqrt(a) # Square root element-wise ([2. 4. 5.])
 ```
 
-The **NumPy** library offers a wide variety of functions that allow you to perform advanced mathematical calculations, create arrays, matrices, and much more. Here are some of the most relevant functions:
+The **NumPy** library offers a wide variety of functions that allow you to perform advanced mathematical calculations, create arrays, matrix, and much more. Here are some of the most relevant functions:
 
 
 | Function | Description |
