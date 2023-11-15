@@ -29,16 +29,16 @@ import pandas as pd
 
 ```py
 data_frame = pd.DataFrame({
-    "Nombre": ["Emma", "Liam", "Olivia"],
-    "Apellido": ["Johnson", "Smith", "Williams"],
-    "Edad": [34, 54, 23]
+    "Name": ["Emma", "Liam", "Olivia"],
+    "LastName": ["Johnson", "Smith", "Williams"],
+    "Age": [34, 54, 23]
 })
 
 print(data_frame)
 ```
 > output:
 ```bash
-   Nombre  Apellido  Edad
+     Name  LastName   Age
 0    Emma   Johnson    34
 1    Liam     Smith    54
 2  Olivia  Williams    23
@@ -53,18 +53,18 @@ Third-party libraries are collections of code developed by external programmers.
 - To install any library, use the following syntax:
 
 ```bash
-pip install nombre_de_libreria
+pip install library_name
 ```
 
 - Then, you can create a Python module or working file, e.g., `example.py`, and import the library using the following syntax:
 
 ```py
-import nombre_de_librería as alias
+import library_name as alias
 ```
 
 > The alias is optional and it works for giving the library a shorter name for easier use.
 
-Once imported, you can use this library in your code and take advantage of all its benefits. Remember that you can install and import as many libraries as you need. For example, you can use the **NumPy** library along with the [Pandas](https://4geeks.com/es/how-to/instalar-pandas-python) library for advanced mathematical calculations.
+Once imported, you can use this library in your code and take advantage of all its benefits. Remember that you can install and import as many libraries as you need. For example, you can use the **NumPy** library along with the [Pandas](https://4geeks.com/lesson/intro-to-pandas) library for advanced mathematical calculations.
 
 ## Examples of Using Third-Party Libraries in Python
 
@@ -104,7 +104,7 @@ else:
 > output:
 
 ```bash
-Datos Data obtained from the API
+Data obtained from the API
 
 {
     'userId': 1, 
@@ -133,8 +133,8 @@ import numpy as np
 3. Start using the functionalities of NumPy in your code.
 
 ```py
-array_numeros = np.arange(10)
-print(array_numeros) # output: [0 1 2 3 4 5 6 7 8 9]
+array_numbers = np.arange(10)
+print(array_numbers) # output: [0 1 2 3 4 5 6 7 8 9]
 
 a = np.array([4, 16, 25])
 b = np.sqrt(a) # Square root element-wise ([2. 4. 5.])
@@ -170,8 +170,8 @@ import pandas as pd
 serie = pd.Series([1, 4, 5, 7, 9])
 
 data_frame = pd.DataFrame({
-    "Nombre": ["MacOS", "Windows", "Linux"],
-    "Color": ["Gris", "Negra", "Red"]
+    "Name": ["MacOS", "Windows", "Linux"],
+    "Color": ["Gray", "Black", "Red"]
 })
 
 print(serie)
@@ -179,7 +179,7 @@ print(data_frame)
 ```
 > output: 
 ```bash
-// Serie output
+// Output series
 0    1
 1    4
 2    5
@@ -188,10 +188,10 @@ print(data_frame)
 dtype: int64
 
 // Dataframe output
-    Nombre  Color
-0    MacOS   Gris
-1  Windows  Negra
-2    Linux    Red
+      Name   Color
+0    MacOS   Gray
+1  Windows   Black
+2    Linux   Red
 ```
 
 If you want to start your career in data science or artificial intelligence, Pandas will be your ally for data cleaning and analysis. This library allows you to read **.csv files**, **Excel** files, **JSON** files, and more
@@ -227,9 +227,9 @@ sales = [50000, 60000, 75000, 90000, 110000, 130000]
 plt.plot(years, sales, marker='o')
 
 # Add labels and title 
-plt.xlabel('Años')
-plt.ylabel('Ventas')
-plt.title('Crecimiento de Ventas a lo largo de los Años')
+plt.xlabel('Years')
+plt.ylabel('Sales')
+plt.title('Sales Growth Over the Years')
 
 # Show the chart
 plt.grid(True)
@@ -240,5 +240,5 @@ In this example, we create a mock visualization of the number of sales over the 
 
 ## Conclusion
 
-Third-party libraries are an essential tool for any programmer. They provide an efficient way to leverage tested and reliable functionality, speeding up development and improving project quality. Third-party libraries are especially useful in fields like data science or machine learning because they offer a wide range of features that will help you save time and effort when creating your projects. If you want to learn more about the topic, we recommend reading the article [Introduction to Pandas in Python](https://4geeks.com/lesson/intro-to-pandas) on the 4Geeks Blog.
+Third-party libraries are an essential tool for any programmer. They provide an efficient way to leverage tested and reliable functionality, speeding up development and improving project quality. Third-party libraries are especially useful in fields like data science or machine learning because they offer a wide range of features that will help you save time and effort when creating your projects. 
 
