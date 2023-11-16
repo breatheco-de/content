@@ -10,10 +10,10 @@ Python is one of the most recommended languages to get into the world of program
 
 ```python
 
-#Python as a calculator
-print(2+2)
+# Python as a calculator
+print(2 + 2)
 
-#Output 4
+# Output 4
 ```
 
 ## Programming in Python
@@ -31,11 +31,11 @@ But of course, if we are going to talk about [how to program with Python](https:
 A very simple example would be to use Python as our personal calculator, so that with the following code: `print(2+2)`, Python would return 4, but could we do more complex operations?
 
 ```python
-#More complex mathematical operations
+# More complex mathematical operations
 
-print(((10+25)*12-5)/6)
+print(((10 + 25) * 12 - 5) /6 )
 
-#Output: 69.16666666666667
+# Output: 69.16666666666667
 ```
 
 > We will always use the `print()` method to display in the terminal what we pass between the brackets.
@@ -49,15 +49,15 @@ Normally, having a list of tasks that we have to perform, is a method widely use
 In Python we can create lists in the following way:
 
 ```python
-todoList = ["make the bed", "take the dog for a walk", "learn python"]
+todo_list = ["make the bed", "take the dog for a walk", "learn python"]
 
-print(todoList)
-#Output: ['make the bed', 'take the dog for a walk', 'learn python']
+print(todo_list)
+# Output: ['make the bed', 'take the dog for a walk', 'learn python']
 
-#If we want to retrieve a single element from a list, we'll use square brackets [] and pass the position of the element on the list we want to retrieve, just remember that the first position is 0 and not 1.
+# If we want to retrieve a single element from a list, we'll use square brackets [] and pass the position of the element on the list we want to retrieve, just remember that the first position is 0 and not 1.
 
 print(todoList[0])
-#Output: make the bed
+# Output: make the bed
 ```
 
 > Whenever we work with a group of elements, like the tasks in our task list in this case, we group them in a "list" or "array" by using `[]`.
@@ -72,7 +72,7 @@ Python, like all other programming languages, allows us to create cycles to perf
 
 ```python 
 for x in range(10):
-    print("I will study python").
+    print("I will study python")
 
 # Output: 
 # I will study python
@@ -94,11 +94,11 @@ for x in range(10):
 Before moving on to the next example, I think it is necessary to explain a little bit about functions in Python:
 
 ```python
-## Example of function in Python
+# Example of function in Python
 
 def myFunc(params):
-	#code block (code to be executed).
-	return #code to be returned
+    # Code block (code to be executed).
+    return  # Code to be returned
 ```
 
 `def` (definition) is a reserved word used to define a `function`. 
@@ -121,13 +121,13 @@ Now that it is clear how a Python function is composed, we can use what we learn
 import random
 
 def randomColor():
-    colors= ["blue", "red", "black", "yellow", "pink"]
-    randomSelectedColor = colors[random.randrange(4)].
-    return randomSelectedColor
+    colors = ["blue", "red", "black", "yellow", "pink"]
+    random_selected_color = colors[random.randrange(4)]
+    return random_selected_color
   
 print(randomColor())
 
-#Output: yellow
+# Output: yellow
 ```
 
 > `random` is a Python module that allows us to generate random numbers, so we have to import (bring) to our program the module in order to use it.
@@ -168,28 +168,27 @@ In the following example we will be making use of objects, lists, cycles and ran
 ```python
 import random
 
-myWardrobe = {
-  "up": ["t-shirt", "long sleeves", "shirt"],
-  "down": ["jean", "formal", "bomber"],
-   "shoes": ["snickers", "formal", "flip-flop"],
-   "accessories": ["sunglasses", "bag", "cap"],
-   "main_color": ["red", "black", "white", "blue"]
-}
+def outfit_maker(wardrobe):
+    for clothing in wardrobe:
+        print(f"{clothing}: {wardrobe[clothing][random.randrange(len(wardrobe[clothing]))]}")
+    return "and that's what you should wear today!"
 
-def outfitMaker(wardrobe):
-  for clothing in wardrobe:
-    print(f"{clothing}: {wardrobe[clothing][random.randrange(len(wardrobe[clothing]))]}")
-  return "and that's what you should wear today!"
 
-print(outfitMaker(myWardrobe))
+my_wardrobe = {"up": ["t-shirt", "long sleeves", "shirt"],
+               "down": ["jean", "formal", "bomber"],
+               "shoes": ["snickers", "formal", "flip-flop"],
+               "accessories": ["sunglasses", "bag", "cap"],
+               "main_color": ["red", "black", "white", "blue"]}
 
-#Output:
-#up: long sleeves
-#down: bomber
-#shoes: flip-flop
-#accessories: sunglasses
-#main_color: white
-#and that's what you should wear today!
+print(outfit_maker(my_wardrobe))
+
+# Output:
+# up: long sleeves
+# down: bomber
+# shoes: flip-flop
+# accessories: sunglasses
+# main_color: white
+# and that's what you should wear today!
 ```
 
 Analyzing the example:
