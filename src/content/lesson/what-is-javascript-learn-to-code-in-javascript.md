@@ -27,7 +27,7 @@ No matter what the computer is made for, the very base of its existence is the s
 
 Variables are not a new concept, anybody who knows math is familiar with the concept of variables.
 
-A variable is a container in which you can store any data. For example, you can have the following variable:
+A variable is a container in which you can store any data. Ex, you can have the following variable:
 
 ```javascript
 let age = 24;
