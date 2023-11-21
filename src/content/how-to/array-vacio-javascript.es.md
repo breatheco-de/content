@@ -14,10 +14,10 @@ let n = [ 1, 2, 3, "a", "b", "c" ];
 
 // Comprobar si un array está vacío en javascript
 if (Array.isArray(n) && n.length === 0) {
-   console.log(“El array n está vacío”);
+   console.log('El array n está vacío');
    
 } else {
-   console.log(“El array n NO esta vacío”);
+   console.log('El array n NO esta vacío');
 };
 
 // Vaciar un array en javascript reescribiendo la propiedad length
@@ -35,9 +35,9 @@ Sin duda la forma más segura de comprobar si un array está vacío es accediend
 let n = [];
 
 if ( Array.isArray(n) && n.length === 0 ) {
-   console.log(“El array n está vacío”);
+   console.log('El array n está vacío');
 } else {
-   console.log(“El array n NO está vacío”);
+   console.log('El array n NO está vacío');
 };
 ```
 
