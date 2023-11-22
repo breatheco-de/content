@@ -13,7 +13,7 @@ status: "published"
 
 We all know the importance, growth, and impact of the tech industry nowadays. More and more developers are needed everywhere. Just in the US, the Bureau of Labor Statistics projects to have more than a million open jobs by 2024, for software developers. 
 
-### Web Developer Salaries around the world in 2023
+## Web Developer Salaries around the world in 2023
 
 | Location             | Web Developer Salary | Junior Web Developer Salary |
 |----------------------|----------------------|-----------------------------|
@@ -64,7 +64,7 @@ So, we here at 4Geeks came up with this online platform. This content we have de
 
 We will present you with one challenge after another, but a trusty senior developer will always be looking at your process to assist you and help you out.  4Geeks is the place to read, learn and practice code until you permanently affix everything into your brain.
 
-## But you don't want to read everything, right!?!?
+## But you don't want to read everything, right?
 
 You basically want to learn everything about the beautiful art of coding, but you don’t want to read that much... Yeah, we get it. As a result, we have made a huge effort in summing our lessons up. Everything you’ll find here will be the basis of your skills. There is nothing to "skip over."
 
@@ -88,7 +88,7 @@ The human brain requires a lot of energy to make any decision, especially when l
 
 If you feel overwhelmed and confused, <span style="color:#993300">**ask for help!!**</span> And, **keep up the hard work –** you will make it!  All the lessons are cumulative – meaning every exercise will require you to use all the skills you have learned in the past.
 
-### Please Ask for Help!!
+### Please Ask for Help!
 
 Have you heard of Einstein?  Really smart people are always the ones who ask more questions. They are not afraid of not knowing or making mistakes. The only way we can really help you is if you accept our mentorship by asking for help. To be able to do this, when you are stuck and have tried to solve a problem on your own for a few minutes, ask on our Slack channel [#Public_Support](https://4geeksacademy.slack.com/archives/CAZ9W99U4), but first read these tips about [ How to ask programming questions?](https://4geeks.com/how-to/how-to-ask-programming-questions).
 
