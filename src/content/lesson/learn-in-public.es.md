@@ -15,13 +15,13 @@ Si estás interesado en aprender a programar de forma eficiente, pero rápida, t
 
 En este artículo voy a intentar explicarte por qué funciona y cómo puedes hacerlo.
 
-## ¿Qué es aprender en público?
+## ¿Qué es aprender en público? ☝ ☝ ☝
 
 Aprender en privado. El sistema educativo tradicional está diseñado para ser una experiencia privada: lees libros, asistes a clases, haces tareas, evaluaciones y te gradúas en algún momento. Estamos tan acostumbrados a este flujo de trabajo que está incrustado en nuestro corazón de estudiante.
 
 Cuando aprendes en público, conviertes las redes sociales en tu cuaderno de notas y tu foro de discusión, escribes sobre lo que acabas de aprender de diferentes maneras como entradas de blog, tweets, boletines, dibujos, memes, etc.
 
-## ¿Por qué es esto tan importante?
+## ¿Por qué es esto tan importante? 
 
 - Cuando escribes las cosas, tu cerebro las absorbe mejor.
 - Hablar de ello te obliga a organizar tus pensamientos y entenderlo mejor.
