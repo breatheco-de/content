@@ -5,7 +5,7 @@ tags: ["html/css", "web-development"]
 
 ---
 
-To better take advantage of the upcoming course, we encourage you to finish and review any content from the Prework. 
+Hola mi nombre es Gabriel Proaño y modifique este texto.
 
 The upcoming material assumes that you have a good level of understanding of the following topics:
 
