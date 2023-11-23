@@ -33,7 +33,7 @@ And this is how we would write this in JavaScript:
 
 ```js
 if(color != 'blue') {
-    // Any code here will run when the color is different than blue
+    // Any code here will run when the color is different than blue (the '!=' operator means "different than this")
 }
 else {
     // It will only run this code if the color is blue
