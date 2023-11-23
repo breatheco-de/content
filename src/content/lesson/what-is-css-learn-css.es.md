@@ -41,7 +41,7 @@ Puedes decirle a un <h1> que se vea igualito que un <h2> sin que el usuario se d
 ## ¿Cómo aplico estilos a un HTML?
 
 
-Sencillo, Debes escribir tus estilos con una sintaxis especial denominada "CSS" y guardar el documento con la extensión CSS. Luego, para aplicar los estilos al documento usamos las tags del HTML que estaban relacionadas con CSS: `<style>` y `<link>` .
+:point_up: Sencillo, Debes escribir tus estilos con una sintaxis especial denominada "CSS" y guardar el documento con la extensión CSS. Luego, para aplicar los estilos al documento usamos las tags del HTML que estaban relacionadas con CSS: `<style>` y `<link>` .
 
 Vamos a repasar estas tags con más detalle:
 
