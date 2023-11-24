@@ -1,22 +1,22 @@
 ---
-title: "How to use GIT: Version Control System"
-subtitle: "Learn how to use GIT with an interactive tutorial, video, and a great article. Without GIT you won't be able to work at any company, and you won't be able to use anyone's code."
-cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
-textColor: "white"
-thumb: "https://breatheco.de/wp-content/uploads/2017/03/commit-object.png"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["GIT","how to use GIT"]
-status: "published"
+Title: "How to use GIT: Version Control System".
+Subtitle: "Learn how to use GIT with an interactive tutorial, video, and a great article. Without GIT you won't be able to work at any company, and you won't be able to use anyone's code."
+Cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
+TextColor: "white"
+Thumb: "https://breatheco.de/wp-content/uploads/2017/03/commit-object.png"
+Date: "2020-10-19T16:36:31+00:00"
+Tags: ["GIT","how to use GIT"]
+Status: "published"
 
 ---
 
-> ☝ We have also prepared an interactive tutorial about GIT. [Click here to take it!](https://4geeksacademy.github.io/git-interactive-tutorial/)
+> ☝ We have also prepared an interactive tutorial about GIT. [Click here to take it!](https://4geeksacademy.github.io/git-interactive-tutorial/).
 
-> 📹 This is [an amazing video explaining Git and GitHub](https://www.youtube.com/watch?v=BCQHnlnPusY)
+> 📹 Watch [an amazing video explaining Git and GitHub](https://www.youtube.com/watch?v=BCQHnlnPusY).
 
 ## GIT is a MUST!
 
-GIT is a great technology, please take the time to learn it. DON’T procrastinate because you cannot avoid it. You will be using it every day, several times a day. So you’d better learn and be comfortable with it.
+GIT is fantastic technology, please take the time to learn it. DO NOT procrastinate because you cannot avoid it. You will be using it every day, several times a day. So you’d better learn and be comfortable with it.
 
 GIT is more than just a "set of commands" that you have to learn. Throughout the years, we have learned that the best way to teach GIT is by understanding the concepts and meaning of the technology first, rather than just giving you a list of commands to use.
 
@@ -75,7 +75,7 @@ Every time you make a new commit, the head will move to that new commit. This wa
 
 You can **move the head** if you want. It does not necessarily have to always be the last commit, but you must remember that you can only review commits that came before the commit to which the head is pointing at. **Commits made after the commit to which the head is pointing at are not possible to be reviewed.**
 
-![how to use git ](https://github.com/breatheco-de/content/blob/master/src/assets/images/79da625d-d7bc-409a-a044-9e60ae6a1a2b.png?raw=true)
+![how to use git ](https://github.com/breatheco-de/content/blob/master/src/assets/images/79da625d-d7bc-409a-a044-9e60ae6a1a2b.png?raw=true).
 
 ## You can have Several Heads (Branches)
 
@@ -85,7 +85,7 @@ By default, every repository has one branch called Master, with its correspondin
 
 For example: Let’s say that you are starting to develop the "Login" feature/functionality of a website. You can create a new "branch" of the repository called "login" so that your commits are not part of the main revision history of the project. Once you are comfortable with your code, you can then *merge* your branch and delete your head. This will reset the main HEAD of the master branch to the last commit you made and add your new code to the main branch (master) of the repository.
 
-![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif?raw=true)
+![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif?raw=true).
 
 > ☝ **Note on Terminology:** The terms "branch" and "head" are nearly synonyms in GIT. Every branch is represented by one head, and every head represents one branch. Sometimes, "branch" will be used to refer to a head and the entire history of commits preceding that head, whereas "head" will be used to refer exclusively to a single commit object (the most recent commit in the branch).
 
@@ -109,17 +109,17 @@ To create a commit, you will need to do two things:
 
 + **Tell GIT which files to include in the commit**, with `git add .` If a file has **not** changed since the previous commit (the "parent" commit), GIT will automatically include it in the commit you are about to perform. You will only need to ***explicitly*** add files that you have newly created or modified.  Note that it adds directories recursively, so `git add .` will add everything that has changed (the ` . ` signifies everything in the current folder).
 
-+ **Call `git commit` to create the commit object.** The new commit object will have the current HEAD as its parent (after the commit is completed, HEAD will point to the new commit object).
++ **Call `git commit` to create the commit object**. The new commit object will have the current HEAD as its parent (after the commit is completed, HEAD will point to the new commit object).
   
 Say you create three commits this way… your repository will look like this:
 
-![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png?raw=true)
+![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png?raw=true).
 
 Other commands that are useful at this point:
 
 + `git log` shows a log of all commits starting from *HEAD* back to the initial commit. It can do more than that, of course.
 + `git status` shows which files have changed between the current project state and *HEAD*.  Files are put in one of three categories: (1) New files that haven’t been added (with git add), (2) Modified files that haven’t been added, and (3) Files that have been added.
-+ `git diff` shows the difference between HEAD and the current project state.  With the --cached option, it compares added files against HEAD; otherwise, it compares files not yet added.*
++ `git diff` shows the difference between HEAD and the current project state.  With the --cached option, it compares added files against HEAD; otherwise, it compares files not yet added*.
 + `git mv` and `git rm` mark files to be moved (renamed) and removed, respectively, much like `git add`.
 
 My personal workflow usually looks like this: I first do some programming, and, afterward, I end up updating some files, then I run the following commands:
@@ -143,9 +143,9 @@ Now that you’ve created commits, how do you refer to a specific commit? GIT pr
 
 To create a branch, let’s say your repository looks like this:
 
-![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png?raw=true)
+![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png?raw=true).
 
-Let's jump back to commit (2) and start new work from there. You will first need to know how to reference the commit. You can use `git log` to get the SHA1 name of (2)
+Let's jump back to commit (2) and start new work from there. You will first need to know how to reference the commit. You can use `git log` to get the SHA1 name of (2).
 
 ```bash
 $ git log
@@ -185,7 +185,7 @@ This command does the following:
 
 After checking out the *\[new-head\]* head, you will fix the headers. Now you can add and commit the changes as above. The resulting repository looks like this:
 
-![git8](https://github.com/breatheco-de/content/blob/master/src/assets/images/0352d1b1-0914-4d0f-9379-c47e7895ccb9.png?raw=true)
+![git8](https://github.com/breatheco-de/content/blob/master/src/assets/images/0352d1b1-0914-4d0f-9379-c47e7895ccb9.png?raw=true).
 
 ## Merging 
 
@@ -201,7 +201,7 @@ git pull . [head]
 These commands perform the following operations. Let the current head be called *current*, and the head to be merged called *merge*:
 
 + Identify the common ancestor of *current* and *merge*. Call it *ancestor-commit*.
-+ Deal with the easy cases. If the *ancestor-commit* equals merge, then do nothing. If *ancestor-commit* equals current, then do a **fast forward merge.**
++ Deal with the easy cases. If the *ancestor-commit* equals merge, then do nothing. If *ancestor-commit* equals current, then do a **fast forward merge**.
 + Otherwise, determine the changes between the *ancestor-commit* and *merge*.
 + Attempt to merge those changes into the files in *current*.
 + If there were no conflicts, create a new commit with two parents: *current* and *merge.*  Set current (and *HEAD*) to point to this new commit, and update the working files for the project accordingly.
@@ -245,7 +245,7 @@ https://github.com/<github-username>/repository-name.git
 
 For example, when using a repository from github.com, you can find the remote on the repository home page:
 
-![git9](https://github.com/breatheco-de/content/blob/master/src/assets/images/47f7c628-5efe-4888-b67c-ca90611e788e.gif?raw=true)
+![git9](https://github.com/breatheco-de/content/blob/master/src/assets/images/47f7c628-5efe-4888-b67c-ca90611e788e.gif?raw=true).
 
 ## Adding a Remote
 
