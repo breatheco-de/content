@@ -1,6 +1,6 @@
 Las empresas modernas ya no permiten a los desarrolladores trabajar en sus computadoras locales; usan herramientas de provisionamiento. Codespaces es la oferta de Github para entornos de codificación de provisionamiento.
 
-> **En palabras simples**: Codespaces es una tecnología que crea -en cuestión de segundos- computadoras y entornos de codificación en la nube, listos para ser usados por desarrolladores de software.
+> **En palabras simples**: Codespaces es una tecnología que crea en cuestión de segundos computadoras y entornos de codificación en la nube, listos para ser usados por desarrolladores de software.
 
 Al enseñar habilidades relacionadas con la codificación, los entornos de provisionamiento como Codespaces se han convertido [en una de nuestras principales herramientas](https://4geeks.com/lesson/4geeks-teaching-tools) en 4Geeks. Como estudiante, se te anima a usar estos entornos ya que acelerarán tu aprendizaje por lo menos en un orden de magnitud, eliminando toda la fricción de configuración y permitiéndote enfocarte en tu código.
 
