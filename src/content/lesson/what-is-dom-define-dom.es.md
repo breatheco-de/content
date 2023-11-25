@@ -99,7 +99,7 @@ xyz[0].style.color = "red";   // cambia el primer elemento a rojo
 
 ## Accediendo al Hijo del elemento
 
-Es muy común tener que cambiar el hijo de un elemento. Por ejemplo:
+Es muy común tener que cambiar el hilo de un elemento. Por ejemplo:
 
 + Actualizar todos los `<li>` hijos de una `<ul>` específica para hacer que su fondo sea rojo.
 + Eliminar la primera fila `<tr>` de una `<table>`.
