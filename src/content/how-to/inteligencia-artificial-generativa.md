@@ -5,8 +5,6 @@ La **Inteligencia Artificial Generativa** (AGI) es una rama de la inteligencia a
 
 Los avances en la **AGI** han sido impresionantes el los últimos años y están revolucionando el mundo digital que conocemos, junto con de la salida **Chat GPT** en noviembre del año **2022** empezó una revolución de **IAs Generativas** donde cada mes o incluso cada semana sale un nuevo modelo generativo o una nueva versión actualizada cómo es el caso de **DALL E 2.0**, **Whisper** y muchos otros más.
 
-![]()
-
 ![Inteligencia artificial generativa](https://res.cloudinary.com/dleo66u17/image/upload/v1693511291/Sin_t%C3%ADtulo_afudvn.png)
 ## Fundamentos de la Inteligencia Artificial Generativa
 
