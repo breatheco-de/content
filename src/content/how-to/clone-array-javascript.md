@@ -141,7 +141,7 @@ These are some examples, but there are many different situations in which it can
 
 Cloning an array can be very useful in many different situations, in this article we cover some of the most common ways to clone an array in JavaScript. We also cover the difference between shallow and deep copying as well as when it can be useful to clone an array in real applications. I encourage you to keep learning and trying for yourself with the different ways to clone an array, remember that the best way to learn something is to practice it. If you want to improve your software development skills, I recommend you to register for free at [4Geeks.com](https://4geeks.com/es/pricing).
 
-Happy programming! 😀👋
+¡Have fun in your software development journey! 😀👋
 
 
 
