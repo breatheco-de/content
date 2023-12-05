@@ -6,9 +6,9 @@ authors: [DF27ARTS]
 
 ---
 
-Un [DataFrame](https://4geeks.com/es/lesson/pandas-DataFrame) es una estructura de datos proporcionada por la librería de Pandas que te permite representar una lista bidimensional de datos en una tabla de filas y columnas, este estructura te permite almacenar diferentes tipos de datos y realizar operaciones sobre ellos. En este artículo veremos algunos fundamentos básicos acerca de como crear un **DataFrame** y algunos de los métodos más relevantes para poder manipular sus datos. Si necesitas aprender sobre pandas por completo, aquí te dejamos un [tutorial de pandas para machine learning](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning).
+Un [DataFrame](https://4geeks.com/es/lesson/pandas-dataframe) es una estructura de datos proporcionada por la librería de Pandas que te permite representar una lista bidimensional de datos en una tabla de filas y columnas, este estructura te permite almacenar diferentes tipos de datos y realizar operaciones sobre ellos. En este artículo veremos algunos fundamentos básicos acerca de como crear un **DataFrame** y algunos de los métodos más relevantes para poder manipular sus datos. Si necesitas aprender sobre pandas por completo, aquí te dejamos un [tutorial de pandas para machine learning](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning).
 
-El siguiente es un pequeño ejemplo sobre ¿[cómo crear un DataFrame](https://4geeks.com/es/how-to/crear-DataFrame) de usuarios?
+El siguiente es un pequeño ejemplo sobre ¿[cómo crear un DataFrame](https://4geeks.com/es/how-to/crear-dataframe) de usuarios?
 
 ```py
 import pandas as pd
