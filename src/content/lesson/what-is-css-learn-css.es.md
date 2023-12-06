@@ -11,13 +11,13 @@ status: "published"
 
 ## ¡¡Bienvenido a CSS!!
 
-Luego de sumergirnos en el mundo de HTML todo empieza a parecer feo, rígido y cuadrado. Después de todo hay que recordar que HTML fue hecho por científicos, no estamos diciendo que es feo por eso, seguramente hay científicos que hacen cosas hermosas (además, fueron los mismos científicos que [descubrieron el Bosón de Higgs](https://www.youtube.com/watch?v=0CugLD9HF94) y por eso hay que alabarlos hasta nuestra muerte), pero… definitivamente… es así de feo porque fue hecho por científicos con un propósito muy diferente al que HTML cumple hoy en día.
+Luego de sumergirnos en el mundo de HTML todo empieza a parecer feo, rígido y cuadrado. Después de todo hay que recordar que HTML fue hecho por científicos, no estamos diciendo que es feo por eso, seguramente hay científicos que hacen cosas hermosas (además, fueron los mismos científicos que [descubrieron el Bosón de Higgs](https://www.youtube.com/watch?v=0CugLD9HF94) y por eso hay que alabarlos hasta nuestra muerte), pero… definitivamente… es así de feo , porque fue hecho por científicos con un propósito muy diferente al que HTML cumple hoy en día.
 
 ![what is css](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/6891485c-2a5a-4722-a7dc-f108993c18ba.jpeg?raw=true)
 
 
 
-Peeeero… El internet es más hermoso que eso. La cosa se puso seria cuando Internet empezó a hacerse más y más popular. Dejó de ser utilizado únicamente por la comunidad científica y el ejército; **¡comenzó a ser adoptado por todo el mundo!**
+Pero… El internet es más hermoso que eso. La cosa se puso seria cuando Internet empezó a hacerse más y más popular. Dejó de ser utilizado únicamente por la comunidad científica y el ejército; **¡comenzó a ser adoptado por todo el mundo!**
 
 Irónicamente, los mismos científicos de CERN que crearon HTML, tuvieron que ponerse a pensar en cómo mejorar lo que habían hecho y se dieron a la tarea de embellecerlo. En este momento fue cuando [Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie), propuso la primera versión de CSS en 1994, que luego fue adaptado hasta convertirse en CSS1.
 
@@ -34,7 +34,7 @@ Puedes decirle a un <h1> que se vea igualito que un <h2> sin que el usuario se d
 
 > :point_up: Para entender el potencial de CSS, [haz clic aquí para ver un live demo!](http://assets.breatheco.de/live-demos/css/bootstrap/)
 
-¡Puedes imaginar el potencial?  ¡Puedes hacer que casi todo se vea diferente!
+¿Puedes imaginar el potencial?  ¡Puedes hacer que casi todo se vea diferente!
 
 
 
