@@ -107,7 +107,7 @@ Por ejemplo si queremos convertir en minúsculas cada palabra dentro del array:
 ```js
 names = ["Ana", "Clara", "Juan"];
 namesClone = names.map(x => x.toLowerCase());
-console.log(namesClone); // Consola: ["Ana", "Clara", "Juan"]
+console.log(namesClone); // Consola: ["ana", "clara", "juan"]
 ```
 
 ## Clonar un array en Javascript usando slice()
