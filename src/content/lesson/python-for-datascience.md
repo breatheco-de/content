@@ -97,7 +97,7 @@ We like using Jupyter as a communication tool, mainly to tell stories to managem
 
 ### Package Manager and setup environs
 
-If we are not going to be using Jupyter notebooks as much as other datascientis, we need to become very good at setting up Python environments, downloading python packages, using the PIP package manager, etc.
+If we are not going to be using Jupyter notebooks as much as other data scientists, we need to become very good at setting up Python environments, downloading python packages, using the PIP package manager, etc.
 
 - Pyenv for Python Versions: There are multiple versions of python and you need to get used to switch between versions because some times you are trying to use newer features or maybe old deprecated ones.
 - Pip: This is the "package manager" for Python, it allows you to download and use Numpy, Pandas and many other awesome libraries.
