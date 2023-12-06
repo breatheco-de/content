@@ -22,8 +22,8 @@ Todos conocemos la importancia, el crecimiento y el impacto de la industria tecn
 | Spain                | €40,000 - €60,000    | €30,000 - €45,000           |
 | Mexico               | MXN 500,000 - MXN 700,000 | MXN 300,000 - MXN 500,000 |
 | Brazil               | BRL 80,000 - BRL 120,000 | BRL 50,000 - BRL 80,000   |
-| United Kingdom       | $70,000 - $90,000     | $45,000 - $60,000       |
-| Germany               | $60,000 - $80,000    | $40,000 - $55,000
+| United Kingdom       | £70,000 - £90,000     | £45,000 - £60,000         |
+| Germany              | €60,000 - €80,000    | €40,000 - €55,000         |
 
 > Nota: Los salarios son aproximados y pueden variar según factores como la experiencia, habilidades y políticas de la empresa.
 
