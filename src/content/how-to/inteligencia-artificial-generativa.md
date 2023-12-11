@@ -6,6 +6,7 @@ La **Inteligencia Artificial Generativa** (AGI) es una rama de la inteligencia a
 Los avances en la **AGI** han sido impresionantes el los últimos años y están revolucionando el mundo digital que conocemos, junto con de la salida **Chat GPT** en noviembre del año **2022** empezó una revolución de **IAs Generativas** donde cada mes o incluso cada semana sale un nuevo modelo generativo o una nueva versión actualizada cómo es el caso de **DALL E 2.0**, **Whisper** y muchos otros más.
 
 ![Inteligencia artificial generativa](https://res.cloudinary.com/dleo66u17/image/upload/v1693511291/Sin_t%C3%ADtulo_afudvn.png)
+
 ## Fundamentos de la Inteligencia Artificial Generativa
 
 La **inteligencia Artificial Generativa** se refiere a sistemas y algoritmos que pueden generar datos que imitan la apariencia y características de datos reales. Esto es posible gracias a las **redes neuronales**, que son modelos matemáticos inspirados en la estructura y funcionamiento del cerebro humano. Estas redes se entrenan con grandes conjuntos de datos para aprender patrones y luego generar nueva información basados en esos datos aprendidos.
@@ -14,6 +15,7 @@ Algunos de los tipos de **Inteligencias Artificiales Generativas** más comunes 
 
 - Las **Redes Generativas Adversarias** consisten en dos redes neuronales, el **generador** y el **discriminador**. El **generador** se encarga de crear datos falsos y el **discriminador** trata de distinguir los datos falsos de los reales. Esto hace que el **generador** mejore su capacidad de engañar a la red discriminadora y a su vez el **discriminador** mejore su capacidad de detectar al generador.
 - Los **Modelos de Lenguaje** son modelos estadísticos o computacionales que se usan para entender y generar texto en lenguaje natural. Los modelos de lenguaje se basan en algoritmos de aprendizaje profundo que pueden reconocer, resumir, traducir y generar texto a partir de grandes conjuntos de datos. Estos modelos se aplican en muchas áreas como el reconocimiento de voz, la traducción automática, la generación de texto, la creación de imágenes y muchas más.
+
 ## Aplicaciones prácticas de la IAG
 
 La **Inteligencia Artificial Generativa** tiene múltiples aplicaciones en diversas industrias y se espera que las aplicaciones de esta tecnología en diferentes campos cómo en la educación o en el ámbito laboral sigan aumentando en el futuro cercano. A continuación veremos algunos ejemplos de aplicaciones para la **Inteligencia Artificial Generativa**.
@@ -57,6 +59,7 @@ La **Inteligencia Artificial Generativa** es una herramienta muy poderosa que ha
 - **Veracidad de la Información**: Uno de los desafíos más importantes por resolver es la falta de control sobre las salidas de los algoritmos, uno de los problemas más grandes que tiene la **IAG** es que dependiendo del modelo en ocasiones inventa la información de salida para el usuario lo cual representa un problema de desinformación.
 
 - **Propagación de información falsa**: Otro problema de la **IAG** es la facilidad que ofrecen para crear información falsa, algunos modelos de generación de imágenes pueden ser manipulados mediante el input de texto para crear imágenes engañosas, esto representa un problema especialmente con los modelos de código abierto (open source) donde la prevención de información manipulada es muy difícil de controlar, ya que cualquier persona puede acceder al código base de estos modelos.
+
 ## Herramientas y Recursos
 
 - **TensorFlow**: Para desarrollar proyectos de **Inteligencia Artificial Generativa** existen diversas herramientas y librerías que facilitan el proceso de desarrollo, una de las herramientas más utilizada para crear modelos de **IAG** es [TensorFlow](https://www.tensorflow.org/install?hl=es-419), una librería que te permite crear un modelo de aprendizaje automático de forma sencilla.
