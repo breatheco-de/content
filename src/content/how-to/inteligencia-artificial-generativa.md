@@ -1,9 +1,14 @@
+---
+title: "¿Qué es la inteligencia artificial generativa?"
+subtitle: "Explorando los fundamentos y aplicaciones de la inteligencia artificial generativa (IAG). Descubre cómo los sistemas de IAG pueden crear datos originales y su impacto en diversas áreas."
+tags: ["Inteligencia Artificial", "Inteligencia Artificial Generativa"]
+authors: [DF27ARTS]
 
-## Explorando el Poder de la Inteligencia Artificial Generativa
+---
 
-La **Inteligencia Artificial Generativa** (AGI) es una rama de la inteligencia artificial que se enfoca en la generación de contenido original a partir de datos existentes. Esta tecnología utiliza algoritmos y redes neuronales avanzadas para aprender de textos e imágenes y luego genera contenido nuevo y único basado en los datos aprendidos.  Algunos ejemplos de **Inteligencias Artificiales Generativas** son **ChatGPT**, **DALL E** de la compañía **Open AI**, el chat de **Bing** de Microsoft y el chat de **Bard** de la **Google**.
+La **Inteligencia Artificial Generativa** (AGI) es una rama de la inteligencia artificial que se enfoca en la generación de contenido original a partir de datos existentes. Esta tecnología utiliza algoritmos y [redes neuronales](https://4geeks.com/es/lesson/explorando-redes-neuronales) avanzadas para aprender de textos e imágenes y luego genera contenido nuevo y único basado en los datos aprendidos.  Algunos ejemplos de **Inteligencias Artificiales Generativas** son **ChatGPT**, **DALL E** de la compañía **Open AI**, el chat de **Bing** de Microsoft y el chat de **Bard** de **Google**.
 
-Los avances en la **AGI** han sido impresionantes el los últimos años y están revolucionando el mundo digital que conocemos, junto con de la salida **Chat GPT** en noviembre del año **2022** empezó una revolución de **IAs Generativas** donde cada mes o incluso cada semana sale un nuevo modelo generativo o una nueva versión actualizada cómo es el caso de **DALL E 2.0**, **Whisper** y muchos otros más.
+Los avances en la **AGI** han sido impresionantes en los últimos años y están revolucionando el mundo digital que conocemos, junto con la salida de **Chat GPT** en noviembre del año **2022** empezó una revolución de **Inteligencias Artificiales Generativas** donde cada mes o incluso cada semana sale un nuevo modelo generativo o una nueva versión actualizada cómo es el caso de **DALL E 2.0**, **Whisper** y muchos otros más.
 
 ![Inteligencia artificial generativa](https://res.cloudinary.com/dleo66u17/image/upload/v1693511291/Sin_t%C3%ADtulo_afudvn.png)
 
@@ -67,9 +72,10 @@ La **Inteligencia Artificial Generativa** es una herramienta muy poderosa que ha
 
 Si deseas aprender más sobre la **Inteligencia Artificial Generativa**, Google Cloud ofrece 10 cursos a través de su plataforma [Skills Boost](https://www.cloudskillsboost.google/journeys/118), que te ayudaran a entender mejor como funciona esta tecnología, además **Nvidia** ofrece un [podcast](https://blogs.nvidia.com/ai-podcast/) donde podrás aprender de la mano de expertos cómo utilizar la **IAG** de forma responsable, y un último recurso son las clases sobre **IAG** de la plataforma [Udemi](https://www.udemy.com/courses/search/?src=ukw&q=Inteligencia+Artificial+Generativa) donde algunas de ellas son gratuitas.
 
-
 ## Conclusión
 
 La **Inteligencia Artificial Generativa** es una herramienta muy poderosa utilizada en diversas industrias para la generación de texto, la creación de arte digital, la generación y autocompletado de código y mucho más, esta es una tecnología muy relevante que está mejorando muchas industrias y transformando la forma en la que se solían hacer muchos trabajos, aunque también tiene aún bastantes desafíos por superar en términos de seguridad y fiabilidad.
 
 La **Inteligencia Artificial Generativa** es una tecnología que va a transformar nuestra sociedad al igual que lo hizo en su momento el internet y las telecomunicaciones, te invito a que continúes aprendiendo sobre esta tecnología y que aprendas a utilizar todas las herramientas creadas con ella cómo lo es **Chat GPT** y **DALL E**, aplicaciones que te ayudarán mucho en tu rendimiento laboral y académico.
+
+La inteligencia artificial generativa (IAG) es un fascinante campo de la inteligencia artificial que se enfoca en la creación de datos originales. A través de modelos avanzados como las Redes Neuronales Generativas Adversariales (GAN), la IAG ha demostrado la capacidad de generar contenido realista en imágenes, texto, música y más. A medida que exploramos las posibilidades y desafíos éticos de esta tecnología, te invitamos a descubrir más sobre el emocionante mundo de la IAG explorando otros recursos y artículos en nuestro blog. Si estás interesado en ampliar tus conocimientos en inteligencia artificial y tecnología, te animamos a registrarte de forma gratuita en [4Geeks.com](https://4geeks.com/es/pricing).
