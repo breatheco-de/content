@@ -41,7 +41,7 @@ According to recent reports, a Bootcamp graduate makes `$20k` more than before j
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/75ca521c-2ea0-4a7d-ad05-6717200d8553.png?raw=true" width="300">
 </p>
 
-Around 90% of our students find a job after graduation. It normally takes 100 days to land your first job, and we will not rest until we make that happen. :) 
+Around 90% of our students find a job after graduation. It normally takes 100 days to land your first job, and we will not rest until we make that happen. 
 <p style="text-align:center">
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/18da88b0-403c-4330-a7d6-661307f062e5.png?raw=true" width="300">
 </p>
@@ -51,8 +51,7 @@ Around 90% of our students find a job after graduation. It normally takes 100 da
 1. Our memberships: GeekPAL (You always have a Mentor available to support your learning process 24/7 and customized), and GeekFORCE (we will make sure that you land a job, that you have a strong profile and that you make a career out of the Bootcamp)
 2. Our passion for teaching Coding.
 3. Our outcomes: here is a report (from  April 2019) to check it out: https://www.4geeksacademy.co/wp-content/uploads/2020/03/4Geeks-Outcomes-Report-.pdf
-
-If you want to know more, get in contact with us or apply, please email us at: Info@4geeksacademy.com
+4. If you want to know more, get in contact with us or apply, please email us at: Info@4geeksacademy.com
 
 ## Flipped Around
 
@@ -88,7 +87,7 @@ The human brain requires a lot of energy to make any decision, especially when l
 
 If you feel overwhelmed and confused, <span style="color:#993300">**ask for help!!**</span> And, **keep up the hard work –** you will make it!  All the lessons are cumulative – meaning every exercise will require you to use all the skills you have learned in the past.
 
-### Please Ask for Help!
+## Please Ask for Help!
 
 Have you heard of Einstein?  Really smart people are always the ones who ask more questions. They are not afraid of not knowing or making mistakes. The only way we can really help you is if you accept our mentorship by asking for help. To be able to do this, when you are stuck and have tried to solve a problem on your own for a few minutes, ask on our Slack channel [#Public_Support](https://4geeksacademy.slack.com/archives/CAZ9W99U4), but first read these tips about [ How to ask programming questions?](https://4geeks.com/how-to/how-to-ask-programming-questions).
 
