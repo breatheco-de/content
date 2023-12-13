@@ -18,7 +18,7 @@ Hay varias formas de crear una capa de autenticación en las aplicaciones web pe
 - Es fácil de implementar.
 - Proporciona un buen nivel de seguridad (según los estándares de la industria).
 - Rápido y eficaz.
-- Es la más utilizada en la industria a día de hoy (2021).
+- Es la más utilizada en la industria a día de hoy (2023).
 
 ## ¿Qué es la autenticación de la API?
 
