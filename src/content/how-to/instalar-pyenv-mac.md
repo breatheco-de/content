@@ -8,7 +8,7 @@ authors: [DF27ARTS]
 
 Pyenv es una herramienta que te permite interactuar con diferentes versiones de Python fácilmente. Esta herramienta te permite instalar diferentes versiones de [Python](https://4geeks.com/es/lesson/que-es-python-tutorial) e intercambiar entre entre ellas de manera sencilla lo cual puede ser especialmente útil en varias ocasiones, por ejemplo si deseas comprobar que tu aplicación funciona en diferentes versiones de Python.
 
-En este artículo veremos como instalar **pyenv** en tu ordenador Mac, siguiendo una serie de pasos necesarios para realizar la instalación. Si te interesa saber cómo instalar esta herramienta en diferentes sistemas operativos como **Windows** o **Linux** puedes visitar el artículo [cómo instalar pyenv](https://4geeks.com/es/how-to/que-es-pyenv-y-como-instalar-pyenv) del blog de 4Geeks.
+En este artículo veremos cómo instalar **pyenv** en tu ordenador Mac, siguiendo una serie de pasos necesarios para realizar la instalación. Si te interesa saber cómo instalar esta herramienta en diferentes sistemas operativos como **Windows** o **Linux** puedes visitar el artículo [cómo instalar pyenv](https://4geeks.com/es/how-to/que-es-pyenv-y-como-instalar-pyenv) del blog de 4Geeks.
 
 ## Instalar la línea de comandos XCode
 
@@ -22,7 +22,7 @@ xcode-select --install
 
 ## Instalar las librerias necesarias
 
-`Pyenv` contruye las versiones de Python desde **0** y para esto requiere de algunas herramientas, **openssl**,  **readline**, **sqlite3**, **zlib** y **xz**. Estas herramientas pueden ser instaladas a travéz del gestor de paquetes `Homebrew` con el siguiente comando:
+`Pyenv` contruye las versiones de Python desde **0** y para esto requiere de algunas herramientas, **openssl**,  **readline**, **sqlite3**, **zlib** y **xz**. Estas herramientas pueden ser instaladas a través del gestor de paquetes `Homebrew` con el siguiente comando:
 
 ```bash
 brew install openssl readline sqlite3 xz zlib
@@ -65,7 +65,7 @@ Después de esto, necesitarás reiniciar la consola para poder empezar a utiliza
 
 ## Confirma que pyenv se instaló correctamente
 
-Una ves terminada la instalación de `pyenv` en tu ordenador solo necesita confirmar que la instalación se realizó correctamente. Ingresa los siguientes comandos en la consola para ver la versión de **pyenv** que instalaste y las versiones de python disponibles que puedes descargar.
+Una vez terminada la instalación de `pyenv` en tu ordenador solo necesita confirmar que la instalación se realizó correctamente. Ingresa los siguientes comandos en la consola para ver la versión de **pyenv** que instalaste y las versiones de python disponibles que puedes descargar.
 
 ```bash
 pyenv --version
@@ -125,10 +125,12 @@ Terminada la instalación puedes establecer esa versión de python de forma glob
 pyenv global <versión de python>
 ```
 
-¡Felicidades! ya tienes `pyenv` instalado en tu ordenador, ya puedes empezar a descargar y utilizar las diferentes versiones de Python y probar tus proyectos con cada una de ellas si lo deseas.
+¡Felicidades! Ya tienes `pyenv` instalado en tu ordenador, ya puedes empezar a descargar y utilizar las diferentes versiones de Python y probar tus proyectos con cada una de ellas si lo deseas.
 
 ## Conclusión
 
-**Pyenv** es una herramienta esencial para cualquier desarrollador que trabaje con el lenguaje de programación Python, te permite intercambiar entre diferentes versiones de python de una manera muy sencilla. En este artículo vimos como instalar `pyenv` en tu ordenador Mac utilizando **Homebrew** o clonando el repositorio de github, puedes utilizar la forma que mejor se acomode a tus necesidades. Recuerda seguir practicando tus habilidades de programación con estas herramientas que están diseñadas para facilitar el proceso de desarrollo y te ayudarán en tu carrera como desarrollador de software.
+**Pyenv** Es una herramienta esencial para cualquier desarrollador que trabaje con el lenguaje de programación Python, te permite intercambiar entre diferentes versiones de python de una manera muy sencilla. En este artículo vimos como instalar `pyenv` en tu ordenador Mac utilizando **Homebrew** o clonando el repositorio de github, puedes utilizar la forma que mejor se acomode a tus necesidades. Recuerda seguir practicando tus habilidades de programación con estas herramientas que están diseñadas para facilitar el proceso de desarrollo y te ayudarán en tu carrera como desarrollador de software.
 
-Esperamos que este artículo te haya guiado con éxito en la instalación de Pyenv en tu sistema operative de tu Mac. Con Pyenv, podrás gestionar sin esfuerzo distintas versiones de Python y optimizar tu entorno de desarrollo. Te invitamos a explorar otros recursos en nuestro blog para mejorar tus habilidades en Python y desarrollo en Mac. Si deseas llevar tu aprendizaje al siguiente nivel, te animamos a [registrarte de forma totalmente gratuita](https://4geeks.com/es/pricing) en 4Geeks.com.
+Esperamos que este artículo te haya guiado con éxito en la instalación de Pyenv en tu sistema operativo de tu Mac. Con Pyenv, podrás gestionar sin esfuerzo distintas versiones de Python y optimizar tu entorno de desarrollo. Te invitamos a explorar otros recursos en nuestro blog para mejorar tus habilidades en Python y desarrollo en Mac. Si deseas llevar tu aprendizaje al siguiente nivel, te animamos a [registrarte de forma totalmente gratuita](https://4geeks.com/es/pricing) en 4Geeks.com.
+
+
