@@ -8,11 +8,11 @@ authors: ["DF27ARTS"]
 
 ## Sorting and Searching Algorithms in Python 🔍
 
-In the world of software development, search and sorting algorithms play a fundamental role. These techniques allow us to organize and obtain data in a very efficient way, which is essential to optimize the performance of applications. In this article we will look at some examples of algorithms in [Python](https://4geeks.com/lesson/how-to-code-in-python), both sorting algorithms and search algorithms.
+In the world of software development, search and sorting algorithms play a fundamental role. These techniques allow us to organize and obtain data in a very efficient way, which is essential to optimize the performance of applications. In this article, we will look at some examples of algorithms in [Python](https://4geeks.com/lesson/how-to-code-in-python), both sorting algorithms and search algorithms.
 
 ## What are Sorting Algorithms? 📊🔄
 
-In computer science, sorting algorithms are crucial for the optimization of a task. They allow data to be organized so that it can be accessed and used more efficiently. A sorting algorithm allows us to rearrange a list of elements or nodes in a specific order, for example in ascending or descending order depending on the occasion. In the following we will see examples in two of the best known sorting algorithms in programming, the Bubble Sort algorithm **(Bubble Sort)**, and the Insertion Sort algorithm **(Insertion Sort)**.
+In computer science, sorting algorithms are crucial for the optimization of a task. They allow data to be organized so that it can be accessed and used more efficiently. A sorting algorithm allows us to rearrange a list of elements or nodes in a specific order, for example in ascending or descending order depending on the occasion. In the following we will see examples of two of the best known sorting algorithms in programming, the Bubble Sort algorithm **(Bubble Sort)**, and the Insertion Sort algorithm **(Insertion Sort)**.
 
 ### Bubble Sort
 
@@ -36,7 +36,7 @@ ordered_list = bubble_sort(unordered_list)
 print(ordered_list) # output: [0, 3, 3, 6, 6, 7, 7, 8, 16, 23, 26, 45, 50]
 ```
 
-In this example, making use of the loop structure `for` we go through the list of unordered numbers twice, then with the help of a conditional `if` we ask if the current number is greater than the next number, if so we invert the position of the numbers, the function will do this same process again and again until the numbers are perfectly ordered, finally we return the ordered list. This algorithm has a time complexity of **O(n^2)** (Check this link to know more about complexity and [optimization of algorithms](https://4geeks.com/lesson/algorithms-and-data-structures-optimization) which makes it useful for sorting small lists, but very inefficient for sorting larger lists.
+In this example, making use of the loop structure `for` we go through the list of unordered numbers twice, then with the help of a conditional `if` we ask if the current number is greater than the next number if so we invert the position of the numbers, the function will do this same process again and again until the numbers are perfectly ordered, finally we return the ordered list. This algorithm has a time complexity of **O(n^2)** (Check this link to know more about complexity and [optimization of algorithms](https://4geeks.com/lesson/algorithms-and-data-structures-optimization) which makes it useful for sorting small lists, but very inefficient for sorting larger lists.
 
 ### Pros and Cons of Bubble Sort:
 
@@ -52,7 +52,7 @@ In this example, making use of the loop structure `for` we go through the list o
 
 ### Insertion Sort
 
-The insertion sort algorithm is a simple but efficient algorithm. It works by dividing the list into two parts, an ordered part and an unordered part. As the unordered list is traversed, elements are inserted in the correct position in the ordered part. Next we will see an example of code:
+The insertion sort algorithm is a simple but efficient algorithm. It works by dividing the list into two parts, an ordered part and an unordered part. As the unordered list is traversed, elements are inserted in the correct position in the ordered part. Next, we will see an example of code:
 
 ```py
 def insertion_sort(list):
@@ -61,7 +61,7 @@ def insertion_sort(list):
         index = i
 
         """
-        This loop interchanges the two position number, as long as the previous number is larger than the current number.
+        This loop interchanges the two position numbers, as long as the previous number is larger than the current number.
         """
 
         while index > 0 and list[index - 1] > actual:
@@ -92,7 +92,7 @@ In this example, the second element of the list is taken and with the help of a 
 
 ## What are Search Algorithms? 📊🔍
 
-Search algorithms are methods that allow us to find the location of a specific element within a list of elements. Depending on the list, you will need to use one algorithm or another; for example if the list has ordered elements, you can use a **binary search** algorithm, but if the list contains the elements in an unordered way this algorithm will not work. To search for an element in an unordered list you must use a **linear search** algorithm. These algorithms are two of the most relevant and well known in programming, we will now see examples of these two algorithms.
+Search algorithms are methods that allow us to find the location of a specific element within a list of elements. Depending on the list, you will need to use one algorithm or another; for example, if the list has ordered elements, you can use a **binary search** algorithm, but if the list contains the elements in an unordered way this algorithm will not work. To search for an element in an unordered list you must use a **linear search** algorithm. These algorithms are two of the most relevant and well-known in programming, we will now see examples of these two algorithms.
 
 ### Linear Search
 
@@ -124,7 +124,7 @@ else:
 The Number 39 is located at position: 14
 ```
 
-In this code example, we need to search for the number **39**, to search for it in a linear way we simply run through the list with the help of a `for` loop structure and then we ask if the current element is equal to the element we are looking for, if so, we return the index of the element and end the loop; but if the loop ends and no element is returned it means that the number we are looking for is not in the list so we return **-1**. This algorithm can be useful for traversing small lists or unordered lists but it is not efficient for traversing very long lists.
+In this code example, we need to search for the number **39**, to search for it in a linear way we simply run through the list with the help of a `for` loop structure, and then we ask if the current element is equal to the element we are looking for, if so, we return the index of the element and end the loop; but if the loop ends and no element is returned it means that the number we are looking for is not in the list so we return **-1**. This algorithm can be useful for traversing small lists or unordered lists but it is not efficient for traversing very long lists.
 
 ### Pros and Cons of the Linear Search Algorithm
 
@@ -142,7 +142,7 @@ In this code example, we need to search for the number **39**, to search for it 
 
 The binary search algorithm is a very efficient algorithm that applies only to ordered lists. It works by repeatedly dividing the list into two halves and comparing the target element with the middle element, this significantly reduces the number of comparisons needed.
 
-Next we will see a small example of binary search with Python.
+Next, we will see a small example of binary search with Python.
 
 ```py
 def binary_search(list, objective, start, end ):
