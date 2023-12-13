@@ -34,7 +34,7 @@ RESULTADO EN CONSOLA:
 */
 ```
 
-Aquí: la línea 5 se ejecuta antes de la línea 2 porque estamos llamando a `correSegundo()` (línea 7) antes de `correPrimero()` (línea 8). Rompiendo el orden de mando de la computadora que *llama* (o ejecuta) el bloque de código dentro de una función.
+Aquí: la línea 5 se ejecuta antes de la línea 2 porque estamos llamando a ```ejecutarSegundo ()``` (línea 7) antes de ```ejecutarPrimero ()``` (línea 8). Rompiendo el orden de mando de la computadora que *llama* (o ejecuta) el bloque de código dentro de una función.
 
 Las cosas se complican más cuando se llaman funciones dentro de funciones, como podemos ver aquí:
 
@@ -188,15 +188,15 @@ Una promesa no es más que el resultado de una operación asíncrona. Representa
 ***Así es como se puede crear una promesa:*** 
 
 ```javascript
-let myPomise = new Promise(function(resolve, reject) {
+var myPromise = new Promise(function(resolve, reject) {
   setTimeout(function() {
     resolve("La promesa se ha resuelto");
   }, 300);
 });
-myPomise.then((obj) => {
+myPromise.then((obj) => {
   console.log(obj);
 });
-console.log(myPomise);
+console.log(myPromise);
 
 /*RESULTADO EN CONSOLA:
 	> [Objeto de promesa] // Devolverá un objeto de promesa

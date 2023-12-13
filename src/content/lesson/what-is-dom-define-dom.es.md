@@ -45,7 +45,7 @@ No importa donde escribas el código. Lo único que importa es que esté dentro 
 
 ## ¡El DOM es Espectacular!
 
-Desde el momento en que un sitio web comienza a cargarse, el navegador crea una jerarquía que se llama The DOM. Cada elemento HTML que programaste en su documento HTML como desarrollador, tiene un lugar en esa jerarquía y puedes acceder a él utilizando JavaScript en cualquier momento durante el tiempo de ejecución.
+Desde el momento en que un sitio web comienza a cargarse, el navegador crea una jerarquía que se llama The DOM. Cada elemento HTML que programaste en tu documento HTML como desarrollador, tiene un lugar en esa jerarquía y puedes acceder a él utilizando JavaScript en cualquier momento durante el tiempo de ejecución.
 
 + Cada elemento HTML tiene un objeto en la jerarquía de documentos.
 + El DOM se genera durante el tiempo de ejecución.

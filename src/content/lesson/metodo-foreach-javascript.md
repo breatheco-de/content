@@ -38,7 +38,7 @@ Como se mencionó anteriormente, el método `forEach` recibe como parámetro una
 A continuación, veamos un ejemplo de cómo utilizar los tres parámetros que recibe el método `forEach`:
 
 ```js
-const vocales = ["a", "e", "i", "o". "u"];
+const vocales = ["a", "e", "i", "o", "u"];
 
 vocales.forEach(function (vocal, indice, arr) {
   console.log(`El valor del elemento en la posición ${indice} es ${vocal} del array que estamos recorriendo que es ${arr}`);

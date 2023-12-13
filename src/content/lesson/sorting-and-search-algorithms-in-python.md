@@ -6,7 +6,7 @@ authors: ["DF27ARTS"]
 
 ---
 
-## Sorting and Searching Algorithms in Python 📊🔍
+## Sorting and Searching Algorithms in Python 🔍
 
 In the world of software development, search and sorting algorithms play a fundamental role. These techniques allow us to organize and obtain data in a very efficient way, which is essential to optimize the performance of applications. In this article, we will look at some examples of algorithms in [Python](https://4geeks.com/lesson/how-to-code-in-python), both sorting algorithms and search algorithms.
 
@@ -177,7 +177,7 @@ else:
 The number 27 is in position: 12.
 ```
 
-In this example, we make use of a binary search algorithm to find the number **27** in a list of sorted elements, in order to find the element we are looking for, we can make use of a [recursive] function (https://4geeks.com/es/lesson/what-is-recursion-in-python), in this function, the base case would be if the number in the list at position `center` is equal to the number we are looking for, we return the value of the variable `center`. This would be the index of the number, otherwise, we divide the list in two halves and make the recursive call until we find the number we are looking for, but if the number is not found in the list we return **-1**.
+In this example, we make use of a binary search algorithm to find the number **27** in a list of sorted elements, in order to find the element we are looking for, we can make use of a [recursive](https://4geeks.com/lesson/what-is-recursion-in-python) function, in this function, the base case would be if the number in the list at position `center` is equal to the number we are looking for, we return the value of the variable `center`. This would be the index of the number, otherwise, we divide the list in two halves and make the recursive call until we find the number we are looking for, but if the number is not found in the list we return **-1**.
 
 ### Pros and Cons of the Binary Search Algorithm
 
@@ -195,4 +195,4 @@ In this example, we make use of a binary search algorithm to find the number **2
 
 In the programming world, sorting and searching algorithms are fundamental for data manipulation. Sorting algorithms allow us to organize data sets in ascending or descending order while searching algorithms allow us to locate information faster depending on the situation.
 
-I hope this article has been useful for you to understand how search and sort algorithms work, remember to practice these algorithms as they are essential in the field of programming. You can check the [4Geeks Blog] (https://4geeks.com) to learn more interesting content. Have fun in your learning process! 😉👍
+I hope this article has been useful for you to understand how search and sort algorithms work, remember to practice these algorithms as they are essential in the field of programming. You can check the [4Geeks Blog](https://4geeks.com) to learn more interesting content. Have fun in your learning process! 😉👍

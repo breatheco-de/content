@@ -13,7 +13,21 @@ status: "published"
 
 Todos conocemos la importancia, el crecimiento y el impacto de la industria tecnológica hoy en día. Se necesitan más y más desarrolladores en todas partes. Solo en los EE. UU., la Oficina de Estadísticas Laborales proyecta tener más de un millón de empleos abiertos para desarrolladores de software para el 2024.
 
-Un desarrollador web gana alrededor de $65k al año en los EE. UU. En Florida, las cifras son un poco más bajas debido al costo de vida y los estándares de nómina. En 2020, un desarrollador web gana alrededor de $56k, y uno junior alrededor de $50k por año en Florida. Según informes recientes, un graduado de Bootcamp gana $20k más que antes de unirse al Bootcamp de codificación.
+### Salario Desarrollador Web alrededor del mundo en 2023
+
+| Ubicación            | Salario Desarrollador Web | Salario Desarrollador Web Junior |
+|----------------------|----------------------|-----------------------------|
+| United States        | $80,000 - $100,000   | $60,000 - $80,000           |
+| Florida, USA         | $70,000 - $90,000    | $50,000 - $70,000           |
+| Spain                | €40,000 - €60,000    | €30,000 - €45,000           |
+| Mexico               | MXN 500,000 - MXN 700,000 | MXN 300,000 - MXN 500,000 |
+| Brazil               | BRL 80,000 - BRL 120,000 | BRL 50,000 - BRL 80,000   |
+| United Kingdom       | £70,000 - £90,000     | £45,000 - £60,000         |
+| Germany              | €60,000 - €80,000    | €40,000 - €55,000         |
+
+> Nota: Los salarios son aproximados y pueden variar según factores como la experiencia, habilidades y políticas de la empresa.
+
+Según informes recientes, un graduado de Bootcamp gana $20k más que antes de unirse al Bootcamp de programación.
 
 <p style="text-align:center">
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/c98f9241-0c8f-46d9-91e6-a093276ac2a3.png?raw=true" width="300">

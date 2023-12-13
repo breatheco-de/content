@@ -6,9 +6,7 @@ authors: ["DF27ARTS"]
 
 ---
 
-## How to read a file in Python?
-
-Python offers a wide variety of structures that allow you to save information such as **Dictionaries** or **Lists**, however, if the application is closed, that information is lost. To prevent this from happening, we can make use of files to save the information so that we can access it again. Next, we will see a short example of how to read the information from a `txt` file.
+Python offers a wide variety of structures that allow you to save information such as [Dictionaries](https://4geeks.com/lesson/what-are-python-dictionaries) or [Lists](https://4geeks.com/lesson/what-is-a-python-list), however, if the application is closed, that information is lost. To prevent this from happening, we can make use of files to save the information so that we can access it again. Next, we will see a short example of how to read the information from a `txt` file.
 
 #### test.txt
 
@@ -43,7 +41,7 @@ We are learning to read files in Python.
 
 In this example, we want to read the information stored in file `test.txt`, to do this, we can use the Python `open()` method, this method receives two parameters, the first one is the name of the file we want to open and the second one is the way we want to open it, in our example `"r"` (read). Then we use the method `read()` to print the information on the console.
 
-## How to read the contents of a file?
+## How to read the content of a file?
 
 As said before, to read the content of a file we need the [Python](https://4geeks.com/lesson/how-to-code-in-python) `open()` method, this method receives two parameters, the first one is the name of the file we want to open, and the second one is the way we want to open the file. The second parameter can receive different values; in the following table you can see the most relevant ones with a small description of each:
 

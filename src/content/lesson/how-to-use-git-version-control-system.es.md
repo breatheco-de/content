@@ -22,7 +22,7 @@ GIT es más que un "conjunto de comandos" que tienes que aprender. A lo largo de
 
 Ser el único desarrollador en un proyecto es una [utopía](https://dle.rae.es/utop%C3%ADa). Normalmente, colaboras con otros desarrolladores y, sin GIT, eso se convierte en un gran problema. Es por eso que necesitamos un *repositorio* de información para centralizar y gestionar los cambios. Con un *repositorio* nos referimos a lo siguiente:
 
-+ Si dos desarrolladores trabajan en **la misma página (archivo)**, GIT comparará ambas versiones y las *(intentará)* fusionar en una nueva.
++ Si dos desarrolladores trabajan en **la misma página (archivo)**, GIT comparará ambas versiones y las intentará fusionar en una nueva.
 + Descargar e integrar el código de otra persona (o cualquier otro código) en su proyecto sin mayores problemas y hacerlo de forma automática.
 + Si ambos desarrolladores actualizaron exactamente el mismo código, GIT le pedirá **al último** desarrollador que subió el código que resuelva cualquier posible conflicto.
 + El código está respaldado todo el tiempo con la última versión como principal.
@@ -71,7 +71,7 @@ Los heads de un repositorio son como el "historial de revisión de un proyecto".
 
 Cada vez que hagas un nuevo commit, el head se moverá a ese nuevo commit. De esta manera tú puedes tener acceso a todo el historial de commits del proyecto.
 
-Puedes **mover el head** si quieres. No necesariamente tiene que ser siempre el último commit, pero debes recordar que sólo puedes revisar los commits que vinieron antes del commit al que apunta el head. **No se pueden revisar los commits hechos después del commit al que apunta el head.**
+Puedes **mover el head** si quieres. No necesariamente tiene que ser siempre el último commit, pero debes recordar que solo puedes revisar los commits que vinieron antes del commit al que apunta el head. **No se pueden revisar los commits hechos después del commit al que apunta el head.**
 
 ![cómo usar git](https://github.com/breatheco-de/content/blob/master/src/assets/images/79da625d-d7bc-409a-a044-9e60ae6a1a2b.png?raw=true)
 
