@@ -190,7 +190,7 @@ const getMyTasks = await (username, password) => {
          throw Error("Missing or invalid token");
      }
      else{
-         throw Error('Uknon error');
+         throw Error('Uknown error');
      }
 
      const data = await resp.json();
@@ -200,4 +200,4 @@ const getMyTasks = await (username, password) => {
 }
 ```
 
-¡Eso es todo! Como puedes ver es muy sencillo integrar JWT en tu aplicación usando Flask/Python, sólo tres pasos en el backend y dos pasos en el front-ent. Ante cualquier duda puedes contactarme en twitter [@alesanchezr](https://4geeksacademy.com) o utilizar el canal #public-support en la comunidad Slack de 4Geeks Academy.
+¡Eso es todo! Como puedes ver es muy sencillo integrar JWT en tu aplicación usando Flask/Python, sólo tres pasos en el backend y dos pasos en el front-end. Ante cualquier duda puedes contactarme en twitter [@alesanchezr](https://4geeksacademy.com) o utilizar el canal #public-support en la comunidad Slack de 4Geeks Academy.
