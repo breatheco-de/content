@@ -1,21 +1,30 @@
 [{
-  "image_src": "https://c0.klipartz.com/pngpicture/288/367/gratis-png-logotipo-de-forbes.png",
-  "image_alt": "Forbes",
+  "images": [
+    "https://c0.klipartz.com/pngpicture/288/367/gratis-png-logotipo-de-forbes.png",
+    "https://1000logos.net/wp-content/uploads/2017/04/Symbol-New-York-Times.png",
+    "https://nypost.com/wp-content/themes/nypost-2016/static/images/default/nypost.png"
+  ],
   "title": "Todo el mundo está hablando de nosotros",
   "description": "Especially NY Times, Forbes, Daily mail and Daily bugle"
 }, {
-  "image_src": "https://www.vhv.rs/dpng/d/227-2276289_best-bootcamp-badge-course-report-green-hd-png.png",
-  "image_alt": "Medalla",
+  "images": [
+    "https://www.vhv.rs/dpng/d/227-2276289_best-bootcamp-badge-course-report-green-hd-png.png",
+    "https://professional.du.edu/sites/default/files/Full_Stack_Badge_noLevel_lightgoldring.png"
+  ],
   "title": "Tenemos muchas medallas",
   "description": "Especially NY Times, Forbes, Daily mail and Daily bugle"
 }, {
-  "image_src": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Clark_University_logo.png",
-  "image_alt": "Clark University",
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/3/3c/Clark_University_logo.png",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/University_of_Texas_at_Austin_seal.svg/1200px-University_of_Texas_at_Austin_seal.svg.png"
+  ],
   "title": "Estas universidades nos certifican",
   "description": "Especially NY Times, Forbes, Daily mail and Daily bugle"
 }, {
-  "image_src": "https://media.istockphoto.com/id/1334437504/vector/group-of-people-students-with-bags-in-school-back-view-meeting-of-young-men-and-women-before.jpg?s=612x612&w=0&k=20&c=-fZCUJrwsmFIdyVMbN8I0uJVS4zlaiwJn43JEjcgnmI=",
-  "image_alt": "Students",
+  "images": [
+    "https://media.istockphoto.com/id/1334437504/vector/group-of-people-students-with-bags-in-school-back-view-meeting-of-young-men-and-women-before.jpg?s=612x612&w=0&k=20&c=-fZCUJrwsmFIdyVMbN8I0uJVS4zlaiwJn43JEjcgnmI=",
+    "https://upload.wikimedia.org/wikipedia/commons/3/3c/Clark_University_logo.png"
+  ],
   "title": "La opinión importa...",
   "description": "Especially NY Times, Forbes, Daily mail and Daily bugle"
 }]
