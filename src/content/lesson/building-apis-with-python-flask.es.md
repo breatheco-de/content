@@ -17,12 +17,12 @@ Aquí hay un ejemplo de endpoints RESTful API para gestionar **Estudiantes**:
 
 | Método | URL | Descripción |
 | ------ | --- | ----------- |
-| GET    | /estudiante | Debería devolver todos los estudiantes |
-| GET    | /estudiante/1 | Debería devolver un solo estudiante con el id=1 |
-| GET    | /cohort/1/estudiantes | Debería devolver todos los estudiantes de la clase con el id=1 |
-| POST   | /estudiante | Debería crear un nuevo estudiante |
-| PUT    | /estudiante/1 | Debería actualizar la información del estudiante con el id=1 |
-| DELETE | /estudiante/1 | Debería eliminar al estudiante con el id=1 |
+| GET    | /estudiantes | Debería devolver todos los estudiantes |
+| GET    | /estudiantes/1 | Debería devolver un solo estudiante con el id=1 |
+| GET    | /cohorts/1/estudiantes | Debería devolver todos los estudiantes de la clase con el id=1 |
+| POST   | /estudiantes | Debería crear un nuevo estudiante |
+| PUT    | /estudiantes/1 | Debería actualizar la información del estudiante con el id=1 |
+| DELETE | /estudiantes/1 | Debería eliminar al estudiante con el id=1 |
 
 Echa un vistazo a las URL, ellas siguen un patrón. Después de un tiempo, los endpoints hablarán por sí mismos, tendrán sentido y podrás adivinar a lo que hacen o incluso adivinar algunos endpoints. Esa es la idea.
 
@@ -149,41 +149,3 @@ def create_person():
         return 'Especificar last_name', 400
     return "ok", 200
 ```
-
-## Definiendo un modelo
-
-Hay diferentes maneras de integrar Flask en un servidor de base de datos, pero explicaremos la integración con [SQL ALchemy](http://content.breatheco.de/lesson/everything-you-need-to-start-using-sqlalchemy).
-
-Existe una gran librería de Python que integra Flask + SQLAlchemy de manera constante: [Flask-SQLAlchemy](https://github.com/pallets/flask-sqlalchemy). Nosotros te sugerimos que leas[esta lección sobre SQLAlchemy](https://content.breatheco.de/lesson/everything-you-need-to-start-using-sqlalchemy) primero y vuelve aquí.
-
-Para integrar con SQLAlchemy, todo lo que tienes que hacer es instalar el paquete e importarlo a tus archivos de esta manera:
-```py
-from flask_sqlalchemy import SQLAlchemy
-db = SQLAlchemy()
-
-```
-
-Una vez que se importa, puedes comenzar a declarar tus modelos de base de datos de esta manera:
-
-```py
-class Person(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(80), unique=True, nullable=False)
-    email = db.Column(db.String(120), unique=True, nullable=False)
-
-    def __repr__(self):
-        return '<Person %r>' % self.username
-
-    def serialize(self):
-        return {"username": self.username,
-                "email": self.email}
-
-```
-
- Puedes añadir tantos modelos como quieras.
-
-## ¿Listo para empezar a codificar?
-
-Hemos preparado este ejemplo de codificación en vivo que puede ejecutar tu mismo en GitHub Codespaces o Gitpod y utilizarlo como base para su proyecto.
-
-Flask Rest Hello: [https://github.com/4GeeksAcademy/flask-rest-hello](https://github.com/4GeeksAcademy/flask-rest-hello)
