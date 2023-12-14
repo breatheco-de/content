@@ -206,3 +206,111 @@ fetch('https://example.com/users')
 
 > Note that a Header method will throw a `TypeError` if the name used is not a valid HTTP header name. A list of valid headers can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers).
 
+## Now Let's Use fetch() with Async/Await
+
+JavaScript provides us an alternative way to make HTTP requests using `fetch()` with Async/Await
+- `async` makes a function return a Promise
+- `await` makes a function wait for a Promise
+
+### GET Method
+Let's start with the GET method and analyze it
+
+```javascript
+const getData = async () => {
+    const response = await fetch('https://example.com/users');
+    if (response.ok) {
+        const data = await response.json();
+        return data;
+    } else {
+        console.log('error: ', response.status, response.statusText);
+        /* Handle the error returned by the HTTP request */
+        return {error: {status: response.status, statusText: response.statusText}};
+    };
+};
+```
+
+> 📝 Remember that GET is the default method. Therefore, it is not mandatory to write the second parameter of `fetch()`
+
+**Let's Analyze This Function**
+
+1. We define an arrow function and name it with a significant name, in this example, getData.
+2. We determine that this arrow function will be asynchronous async because it is an HTTP request and its response is not immediate.
+3. Next, we define a constant response that will await the response from fetch(). In this constant, we store the response of the request.
+4. We then evaluate the response. (This checks if the response is valid (200). If not, go to step 6.
+5. If the response is valid, in the constant data, we will store the data in JSON format and return this response.
+6. If the response is not valid, we log the error provided by the HTTP protocol (100, 300, 400, 500) and, if necessary, take actions to handle it.
+
+> 📝 Note: The HTTP protocol will always provide a response. Whether that response is good or not will be known through the [HTTP Response Status Codes](https://4geeks.com/lesson/what-is-http#response-codes).
+
+### POST Method with async
+
+Now that we know how it works, let's see an example of the GET method
+
+```js
+const createData = async () => {
+    const response = await fetch('https://example.com/users', {
+        method: 'POST',
+        body: JSON.stringify(dataToSend),  // the variable dataToSend can be a 'string' or an {object} that comes from somewhere else in our application
+        headers: {
+           'Content-Type': 'application/json'
+        }
+    });
+    if (response.ok) {
+        const data = await response.json();
+        return data;
+    } else {
+        console.log('error: ', response.status, response.statusText);
+        /* Handle the error returned by the HTTP request */
+        return {error: {status: response.status, statusText: response.statusText}};
+    };
+};
+```
+
+Here we add the second parameter of `fetch()` to include the method, body, and headers.
+
+### PUT Method with async
+
+Example of a request with the PUT method
+
+```js
+const updateData = async () => {
+    const response = await fetch('https://example.com/users', {
+        method: 'PUT',
+        body: JSON.stringify(dataToSend),  // the variable dataToSend can be a 'string' or an {object} that comes from somewhere else in our application
+        headers: {
+           'Content-Type': 'application/json'
+        }
+    });
+    if (response.ok) {
+        const data = await response.json();
+        return data;
+    } else {
+        console.log('error: ', response.status, response.statusText);
+        /* Handle the error returned by the HTTP request */
+        return {error: {status: response.status, statusText: response.statusText}};
+    };
+};
+
+
+```
+
+### DELETE Method
+
+Example of a request with the DELETE method.
+
+```js
+const deleteData = async () => {
+    const response = await fetch('https://example.com/users', {
+        method: 'DELETE',
+    });
+    if (response.ok) {
+        const data = await response.json();
+        return data;
+    } else {
+        console.log('error: ', response.status, response.statusText);
+        /* Handle the error returned by the HTTP request */
+        return {error: {status: response.status, statusText: response.statusText}};
+    };
+};
+```
+```
