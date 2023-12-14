@@ -12,10 +12,10 @@ Python es uno de los lenguajes que más se recomienda para adentrarnos en el mun
 
 ```python
 
-#Python como una calculadora
-print(2+2)
+# Python como una calculadora
+print(2 + 2)
 
-#Output 4
+# Output 4
 ```
 
 ## Programar en Python
@@ -33,11 +33,12 @@ Pero claro, si vamos a hablar de [como programar con Python](https://4geeks.com/
 Un ejemplo muy simple, sería utilizar a Python como nuestra calculadora personal, de forma tal que con el siguiente código: `print(2+2)`, Python nos devolvería 4, ¿Pero pudiéramos hacer unas operaciones más complejas?
 
 ```python
-#Operaciones matemáticas más complejas
+# Operaciones matemáticas más complejas
 
-print(((10+25)*12-5)/6)
+results = ((10 + 25) * 12 - 5) / 6
+print(results)
 
-#Output: 69.16666666666667
+# Output: 69.16666666666667
 ```
 
 > siempre vamos a utilizar el método `print()` para mostrar en la terminal lo que le pasemos entre los paréntesis
@@ -51,15 +52,15 @@ Normalmente, tener una lista de tareas que tenemos que realizar, resulta un mét
 En Python podemos crear listas de la siguiente forma:
 
 ```python
-todoList = ["make the bed", "take the dog for a walk", "learn python"]
+todo_list = ["make the bed", "take the dog for a walk", "learn python"]
 
-print(todoList)
-#Output: ['make the bed', 'take the dog for a walk', 'learn python']
+print(todo_list)
+# Output: ['make the bed', 'take the dog for a walk', 'learn python']
 
-#If we want to retrieve a single element from a list, we'll use square brackets [] and pass the position of the element on the list we want to retrieve, just remember that the first position is 0 and not 1.
+# If we want to retrieve a single element from a list, we'll use square brackets [] and pass the position of the element on the list we want to retrieve, just remember that the first position is 0 and not 1.
 
-print(todoList[0])
-#Output: make the bed
+print(todo_list[0])
+# Output: make the bed
 ```
 
 >Siempre que trabajemos con un grupo de elementos, como las tareas en nuestra lista de tareas en este caso, los agrupamos en una "lista" o "array" haciendo uso de los `[]`
@@ -76,7 +77,7 @@ Python, como el resto de lenguajes de programación permite crear ciclos para re
 for x in range(10):
     print("I will study python")
 
-#Output: 
+# Output: 
 # I will study python
 # I will study python
 # I will study python
@@ -96,11 +97,11 @@ for x in range(10):
 Antes de pasar al siguiente ejemplo, creo necesario explicar un poco como son las funciones en Python:
 
 ```python
-#Ejemplo de función en Python
+# Ejemplo de función en Python
 
-def myFunc(params):
-	# bloque de código (código que se va a ejecutar)
-	return #código que se va a devolver
+def my_function(params):
+    # Bloque de código (código que se va a ejecutar)
+    return # Código que se va a devolver
 ```
 
 `def` (definition) es una palabra reservada que se utiliza para definir una `función` 
@@ -122,14 +123,16 @@ Ahora que nos ha quedado claro cómo se compone una función en Python, podemos 
 ```python
 import random
 
-def randomColor():
-    colors= ["blue", "red", "black", "yellow", "pink"]
-    randomSelectedColor = colors[random.randrange(4)]
-    return randomSelectedColor
-  
-print(randomColor())
 
-#Output: yellow
+def random_color():
+    colors= ["blue", "red", "black", "yellow", "pink"]
+    random_selected_color = colors[random.randrange(4)]
+    return random-selected_color
+
+  
+print(random_color())
+
+# Output: yellow
 ```
 
 > `random` es un módulo de Python que nos permite generar números aleatorios, por lo que tenemos que importar (traer) a nuestro programa el módulo para poderlo utilizar
@@ -146,11 +149,14 @@ A cada vez, nos preguntamos ¿Cuántos días faltan para mi cumpleaños? Pues, c
 
 ```python
 import datetime
+
+
 now = datetime.date.today()
 date = str(input("Enter your birthdate month and day with this format MM/DD: ")).split("/")
 birthday = datetime.date(now.year, int(date[0]), int(date[1]))
 days = (birthday - now).days
 print(fdays +  " left until you level up!")
+
 ```
 
 - Primero necesitaremos importar el módulo de fechas con `import datetime`
@@ -169,39 +175,40 @@ En el siguiente ejemplo estaremos haciendo uso de objetos, listas, ciclos y mód
 ```python
 import random
 
-myWardrobe = {
-  "up": ["t-shirt", "long sleeves", "shirt"],
-  "down": ["jean", "formal", "bomber"],
-   "shoes": ["snickers", "formal", "flip-flop"],
-   "accessories": ["sunglasses", "bag", "cap"],
-   "main_color": ["red", "black", "white", "blue"]
-}
 
-def outfitMaker(wardrobe):
-  for clothing in wardrobe:
-    print(f"{clothing}: {wardrobe[clothing][random.randrange(len(wardrobe[clothing]))]}")
-  return "and that's what you should wear today!"
+def outfit_maker(wardrobe):
+    for clothing in wardrobe:
+        print(f"{clothing}: {wardrobe[clothing][random.randrange(len(wardrobe[clothing]))]}")
+    return "and that's what you should wear today!"
 
-print(outfitMaker(myWardrobe))
 
-#Output:
-#up: long sleeves
-#down: bomber
-#shoes: flip-flop
-#accessories: sunglasses
-#main_color: white
-#and that's what you should wear today!
+my_wardrobe = {"up": ["t-shirt", "long sleeves", "shirt"],
+               "down": ["jean", "formal", "bomber"],
+               "shoes": ["snickers", "formal", "flip-flop"],
+               "accessories": ["sunglasses", "bag", "cap"],
+               "main_color": ["red", "black", "white", "blue"]}
+
+
+print(outfit_maker(my_wardrobe))
+
+# Output:
+# up: long sleeves
+# down: bomber
+# shoes: flip-flop
+# accessories: sunglasses
+# main_color: white
+# and that's what you should wear today!
 ```
 
 Analizando el ejemplo:
 
 - importamos random para poderlo utilizar en nuestro código
-- Creamos un objeto `myWardrobe` que tendrá las propiedades (llaves) de nuestro armario y los valores serán las opciones que tenemos para utilizar.
-> Un objeto (o diccionario) es un tipo de dato en Python que almacena pares de valores (llave : valor)
 - Creamos la función `outfitMaker` que va a recibir como parámetro nuestro armario y se encargará de escogernos nuestro outfit.
 	- Primero crearemos un ciclo para recorrer nuestro objeto
 	- Después iremos mirando cada una de las propiedades (llaves) del objeto y de la lista de opciones, iremos sacando un elemento de manera aleatoria
 	- Cuando se termine el ciclo, habremos recibido un elemento para cada uno de las llaves y nos devolverá entonces la función "and that 's what you should wear today!"
+- Creamos un objeto `myWardrobe` que tendrá las propiedades (llaves) de nuestro armario y los valores serán las opciones que tenemos para utilizar.
+> Un objeto (o diccionario) es un tipo de dato en Python que almacena pares de valores (llave : valor)
 - El último paso sería ejecutar la función llamándola y pasandole nuestro armario para que pueda realizar las operaciones.
 
 Como pueden apreciar, Python nos permite realizar pequeños programas, tan simples como de una línea, como programas un poquito más complejos y otros, que no se cubrieron en este artículo, que serían ya programas de mucha mayor complejidad que al hacerse utilizando Python, permiten sencillez y al mismo tiempo robustez en el desarrollo y calidad de los programas, puedes ller este artículo sobre [¿Para qué sirve Python?](https://4geeks.com/es/lesson/para-que-sirve-python) para tener una idea más amplia sobre todos sus usos.
