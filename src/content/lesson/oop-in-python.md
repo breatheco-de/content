@@ -3,6 +3,7 @@ title: "What is Object Oriented Programming?"
 subtitle: "Discover what Object Oriented Programming is and understand the fundamentals behind this powerful software development methodology."
 tags: ["python", "object-oriented-programming"]
 authors: ["DF27ARTS"]
+
 ---
 
 ## Introduction to Object-Oriented Programming in Python
