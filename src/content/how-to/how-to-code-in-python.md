@@ -56,7 +56,7 @@ print(todo_list)
 
 # If we want to retrieve a single element from a list, we'll use square brackets [] and pass the position of the element on the list we want to retrieve, just remember that the first position is 0 and not 1.
 
-print(todoList[0])
+print(todo_list[0])
 # Output: make the bed
 ```
 
