@@ -47,7 +47,7 @@ The best way to understand them is to think of them like questions you can ask t
 
 In order to ask a question or conditionally excuse a particular set of lines, you first need to have data (information) stored on useful variables. Above we had the variables `user_age`, `day`, `car_model` and `number_of_tires`.
 
-If we don't have the information pre-stored in variables we are not able to ask any questions, it is all about strategy and planning!
+If we don't have the information prestored in variables we are not able to ask any questions, it is all about strategy and planning!
 
 For example, if we have the user's age stored in a variable `age` then, and only then, we are able to code for something like:
 
