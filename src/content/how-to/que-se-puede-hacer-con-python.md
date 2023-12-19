@@ -1,7 +1,12 @@
+---
+title: "¿Qué se puede hacer con Python?"
+subtitle: "Explorando las diversas aplicaciones y usos de Python en diferentes campos. Descubre el potencial y la versatilidad de este lenguaje de programación."
+tags: ["Python", "Programación", "Aplicaciones de Python"]
+authors: ["DF27ARTS"]
 
-## ¿Qué se puede hacer con Python?
+---
 
-Python es uno de los lenguajes de programación más utilizados en la actualidad gracias a que es un lenguaje de alto nivel, interpretado, multiparadigma y de propósito general, esto significa que se puede utilizar en diversas áreas de la programación como en el desarrollo de APIs, la ciencia de datos (data science), en el aprendizaje automático (machine learning) entre muchas otras áreas. Además Python tiene una sintaxis sencilla e intuitiva, que facilita la lectura y escritura de código.
+Python es uno de los lenguajes de programación más utilizados en la actualidad gracias a que es un lenguaje de alto nivel, interpretado, multiparadigma y de propósito general, esto significa que se puede utilizar en diversas áreas de la programación como en el desarrollo de [APIs](https://4geeks.com/es/lesson/understanding-rest-apis-es), la ciencia de datos (data science), en el aprendizaje automático (machine learning) entre muchas otras áreas. Además Python tiene una sintaxis sencilla e intuitiva, que facilita la lectura y escritura de código.
 
 En este artículo veremos algunos ejemplos sobre qué puedes hacer con Python y algunas de sus áreas de uso más relevantes.
 
