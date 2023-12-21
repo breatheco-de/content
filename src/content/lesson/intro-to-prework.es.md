@@ -41,7 +41,8 @@ Según informes recientes, un graduado de Bootcamp gana $20k más que antes de u
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/75ca521c-2ea0-4a7d-ad05-6717200d8553.png?raw=true" width="300">
 </p>
 
-Around 90% of our students find a job after graduation. It normally takes 100 days to land your first job, and we will not rest until we make that happen. :) 
+Alrededor del 90% de nuestros estudiantes encuentran trabajo después de graduarse. Normalmente se tarda 100 días en conseguir el primer empleo, y no descansaremos hasta conseguirlo. :) 
+
 <p style="text-align:center">
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/18da88b0-403c-4330-a7d6-661307f062e5.png?raw=true" width="300">
 </p>
