@@ -85,5 +85,7 @@ Los dos atributos más importantes que deben establecerse en la etiqueta `<form>
 |:----------------------|:-----------------------|
 |Todos los datos del formulario están codificados en la URL. Esto significa que adjuntará toda la información del formulario al final de la URL de destino, por ejemplo: http://www.mydestinationurl.com?input_name1=value1&input_name2&value2…  |Los datos se ocultarán al usuario. La URL permanecerá como se definió en el atributo "acción" y solo un desarrollador podrá solicitar la información del formulario.   |
 
-> ☝ Si vas a utilizar el `<input type="file"/>` el único método admitido es POST.
+> ☝ Si vas a utilizar el `<input type="file"/>` el único método admitido es POST. La razón por la cual el método POST es el único método admitido para el elemento <input type="file"/> está relacionada con la forma en que los navegadores web manejan la carga de archivos y la seguridad en la transmisión de datos.
+
+Cuando un formulario HTML se envía mediante el método POST, los datos del formulario, incluido el contenido del archivo seleccionado con <input type="file"/>, se envían en el cuerpo de la solicitud HTTP. Esto significa que los datos no se adjuntan directamente a la URL como en el método GET, sino que se envían de manera más segura y eficiente en el cuerpo de la solicitud.
 
