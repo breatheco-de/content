@@ -1,6 +1,6 @@
 ---
-title: "Building RESTful API's using Flask"
-subtitle: "Flask is becoming the most popular Python framework (if its not already), learn how to build RESTful API's the REST way"
+title: "Building RESTful APIs using Flask"
+subtitle: "Flask is becoming the most popular Python framework (if it's not already). Learn how to build RESTful APIs the REST way"
 cover_local: "../../assets/images/91bcc549-6758-49c3-a790-4245afbd8ece.png"
 textColor: "black"
 date: "2020-10-19T16:36:31+00:00"
@@ -9,30 +9,30 @@ tags: ["Flask","python","REST","API"]
 
 ---
 
-By now you should know already what a REST api is, if you don't I recommend you [read about it here](http://content.breatheco.de/lesson/understanding-rest-apis).
+By now, you should already know what a REST API is, if you don't, I recommend you [read about it here](http://content.breatheco.de/lesson/understanding-rest-apis).
 
-As a very brief summary, building an API in a RESTful way means that you have to build your URL endpoints grouped by **"resources"**. A resource is something you want to manage, e.g: Student, User, Car, etc. A resource is something similar to a database table but we call them "resources" because of a few exceptions.
+As a very brief summary, building an API in a RESTful way means that you have to build your URL endpoints grouped by **"resources"**. A resource is something you want to manage, e.g: Student, User, Car, etc. A resource is something similar to a database table, but we call them "resources" because of a few exceptions.
 
 Here is an example of RESTful API endpoints to manage **Students**:
 
 | Method | URL | Description |
 | ------ | --- | ----------- |
 | GET    | /student | Should return all the students |
-| GET    | /student/1 | Should return a single student with the id=1 |
-| GET    | /cohort/1/students | Should return all the students from the cohort with id=1 |
+| GET    | /student/1 | Should return a single student with the `id=1` |
+| GET    | /cohort/1/students | Should return all the students from the cohort with `id=1` |
 | POST   | /student | Should create a new student |
-| PUT    | /student/1 | Should update the information of the student with the id=1 |
-| DELETE | /student/1 | Should delete the student with id=1 |
+| PUT    | /student/1 | Should update the information of the student with the `id=1` |
+| DELETE | /student/1 | Should delete the student with `id=1` |
 
-Take a look at the URL's they follow a pattern, after a while the endpoints will speak for themselves, it will make sense and you will be able to guess what they do or even guess some endpoints. That is the whole idea.
+Take a look at the URLs; they follow a pattern. After a while, the endpoints will speak for themselves, becoming self-explanatory. You will be able to guess what they do or even guess some endpoints. That is the whole idea.
 
-> :point_up: You can read more about REST APIs on [this BreatheCode Lesson](http://content.breatheco.de/lesson/understanding-rest-apis).<br /> Here is a cool 8 min video explaining REST: https://www.youtube.com/watch?v=7YcW25PHnAA
+> 👉 You can read more about REST APIs on [this 4Geeks Lesson](http://content.breatheco.de/lesson/understanding-rest-apis).<br /> Here is a cool 8 min video explaining REST: https://www.youtube.com/watch?v=7YcW25PHnAA
 
 ## Now let's talk about Flask
 
-Flask is amazing! It is very similar to Node.js Express Server and that makes it even cooler because you will be able to work with both technologies without much of a learning curve.
+Flask is amazing! It is very similar to Node.js Express Server, and that makes it even cooler because you will be able to work with both technologies without much of a learning curve.
 
-Flask is a library for creating web servers and API's, basically when you run a python script that contains the following lines, the computer will start listening for HTTP requests:
+Flask is a library for creating web servers and APIs, basically when you run a Python script that contains the following lines, the computer will start listening for HTTP requests:
 
 ```python
 from flask import Flask
@@ -44,20 +44,21 @@ def hello():
 
 app.run(host='0.0.0.0')
 ```
+
 [Click to test this code live](https://repl.it/@4GeeksAcademy/Flask-Hello-World)
 
 
 ## Flask Hello-World explained
 
 ```python
-from flask import Flask #here we import the Flask library into our file
-app = Flask(__name__) #here we create a new instance of the Flask server
+from flask import Flask  # here we import the Flask library into our file
+app = Flask(__name__)  # here we create a new instance of the Flask server
 
-@app.route("/") #here we define the first API path: GET /
-def hello(): #this method will be called when the the request is called from any client
-    return "Hello World!" #flask will return "Hello World, this could be an HTML string or a JSON string.
+@app.route("/")  # here we define the first API path: GET /
+def hello():  # this method will be called when the the request is called from any client
+    return "Hello World!"  # flask will return "Hello World, this could be an HTML string or a JSON string.
 
-app.run(host='0.0.0.0') #lastly we start the server on localhost
+app.run(host='0.0.0.0')  # lastly we start the server on localhost
 ```
 
 In Flask we can add new endpoints by using the `@app.route` decorator, don't worry if this is the first time you see a decorator, the concept is very simple and [here is a 5 min video explaining it](https://www.youtube.com/watch?v=7ipNLN9y-nc).
