@@ -1,6 +1,6 @@
 ---
 title: "Construyendo APIs REST utilizando Flask"
-subtitle: "Flask se está convirtiendo en el framework Python más popular (si es que ya no lo es), aprende cómo construir API REST de la forma REST"
+subtitle: "Flask se está convirtiendo en el framework de Python más popular (si es que ya no lo es), aprende cómo construir API REST"
 cover_local: "../../assets/images/91bcc549-6758-49c3-a790-4245afbd8ece.png"
 textColor: "black"
 date: "2020-10-19T16:36:31+00:00"
