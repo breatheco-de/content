@@ -51,14 +51,14 @@ app.run(host='0.0.0.0')
 ## Flask Hello-World explained
 
 ```python
-from flask import Flask  # here we import the Flask library into our file
-app = Flask(__name__)  # here we create a new instance of the Flask server
+from flask import Flask  # Here we import the Flask library into our file
+app = Flask(__name__)  # Here we create a new instance of the Flask server
 
-@app.route("/")  # here we define the first API path: GET /
-def hello():  # this method will be called when the the request is called from any client
-    return "Hello World!"  # flask will return "Hello World, this could be an HTML string or a JSON string.
+@app.route("/")  # Here we define the first API path: GET /
+def hello():  # This method will be called when the request is called from any client
+    return "Hello World!"  # Flask will return "Hello World!", this could be an HTML string or a JSON string
 
-app.run(host='0.0.0.0')  # lastly we start the server on localhost
+app.run(host='0.0.0.0')  # Lastly we start the server on localhost
 ```
 
 In Flask we can add new endpoints by using the `@app.route` decorator, don't worry if this is the first time you see a decorator, the concept is very simple and [here is a 5 min video explaining it](https://www.youtube.com/watch?v=7ipNLN9y-nc).
@@ -68,9 +68,9 @@ In Flask we can add new endpoints by using the `@app.route` decorator, don't wor
 If you want to add another endpoint to your API that runs when a client calls `GET /person` you will have to add another block of code like this:
 
 ```python
-@app.route("/person") #here we specify the path for the endpoint
-def handle_person(): #here we declare a function that will be called when a request is made to that url
-    return "Hello Person!" #here we specify the string we want to respond to the client.
+@app.route("/person")  # Here we specify the path for the endpoint
+def handle_person():  # Here we declare a function that will be called when a request is made to that URL
+    return "Hello Person!"  # Here we specify the string we want to respond to the client
 ```
 
 ## Specifying the method: GET, PUT, POST, DELETE
@@ -107,7 +107,7 @@ def handle_person():
 
 ## The Response Code
 
-The response code is 200 by default, and 500 if there is an unknown error. If you want to respond to the client with a different code you will have to specify it like this:
+The response code is 200 by default and 500 if there is an unknown error. If you want to respond to the client with a different code, you will have to specify it like this:
 
 ```python
 from flask import Flask, jsonify
@@ -118,7 +118,7 @@ def handle_person():
       "details": "Hey, there has been an error on your request"
     }
     resp = jsonify(content)
-    resp.status_code = 400 # here we change the status code to 400 (typical code for request errors)
+    resp.status_code = 400  # Here we change the status code to 400 (typical code for request errors)
     return resp
 ```
 
@@ -135,30 +135,31 @@ def handle_person():
 
 ## Handling errors and validations
 
-But what if the request comes with errors? For example: If we have an endpoint to create a person and must specify the first_name AND the last_name but only the first_name was found on the request, this is how we would validate it:
+But what if the request comes with errors? For example: If we have an endpoint to create a person and must specify both the `first_name` AND `last_name` but only the `first_name` was found on the request, this is how we would validate it:
 
 ```python
 @app.route('/person', methods=['POST'])
 def create_person():
     # POST request
-        body = request.get_json() # get the request body content
-        if body is None:
-            return "The request body is null", 400
-        if 'first_name' not in body:
-            return 'You need to specify the first_name',400
-        if 'email' not in body:
-            return 'You need to specify the last_name', 400
+    body = request.get_json()  # Get the request body content
+    if body is None:
+        return "The request body is null", 400
+    if 'first_name' not in body:
+        return 'You need to specify the first_name', 400
+    if 'last_name' not in body:
+        return 'You need to specify the last_name', 400
 
-        return "ok", 200
+    return "ok", 200
 ```
 
 ## Defining a model
 
-There are differrent ways to integrate Flask to a database server but we will be explaining the integration with [SQL ALchemy](http://content.breatheco.de/lesson/everything-you-need-to-start-using-sqlalchemy).
+There are different ways to integrate Flask to a database server, but this time we will be explaining the integration with SQLAlchemy.
 
-There is a great python library that integrates Flask + SQL Alchemy in a seamnless way: [Flask-SQLAlchemy](https://github.com/pallets/flask-sqlalchemy). We suggest you read [this lesson about SQLAlchemy](https://content.breatheco.de/lesson/everything-you-need-to-start-using-sqlalchemy) first and come back here.
+There is a great Python library that integrates Flask + SQLAlchemy in a seamless way: [Flask-SQLAlchemy](https://github.com/pallets/flask-sqlalchemy). We suggest you read [this lesson about SQLAlchemy](https://content.breatheco.de/lesson/everything-you-need-to-start-using-sqlalchemy) first and come back here.
 
 To integrate with SQLAlchemy all you have to do is install the package and import it into your files like this:
+
 ```python
 from flask_sqlalchemy import SQLAlchemy
 db = SQLAlchemy()
@@ -180,12 +181,12 @@ class Person(db.Model):
             "username": self.username,
             "email": self.email
         }
-  ```
+```
 
-  You can add as many models as you like.
+You can add as many models as you like.
 
 ## Ready to start coding?
 
-We have prepared this live coding example that you can run yourself in GitHub Codespaces or Gitpod and use it as a base for your project.
+We have prepared boilerplate that you can run yourself in GitHub Codespaces or Gitpod and use it as a base for your project.
 
 Flask Rest Hello: [https://github.com/4GeeksAcademy/flask-rest-hello](https://github.com/4GeeksAcademy/flask-rest-hello)
