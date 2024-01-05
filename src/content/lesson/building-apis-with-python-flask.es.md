@@ -116,7 +116,7 @@ from flask import Flask, jsonify
 @app.route("/person")
 def handle_person():
     content = {
-      "detalles": "Hubo un error en la solicitud"
+      "details": "Hubo un error en la solicitud"
     }
     resp = jsonify(content)
     resp.status_code = 400  # Aquí cambiamos el código de estado a 400 (código muy común en caso de errores de solicitud)
@@ -130,7 +130,7 @@ Otra forma de cambiar el código de respuesta usando una coma `,`:
 @app.route("/person")
 def handle_person():
     content = {
-      "detalles": "Hubo un error en la solicitud"
+      "details": "Hubo un error en la solicitud"
     }
 
     return jsonify(content), 400
