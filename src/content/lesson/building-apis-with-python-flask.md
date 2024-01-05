@@ -190,6 +190,6 @@ You can add as many models as you like.
 
 ## Ready to start coding?
 
-We have prepared boilerplate that you can run yourself in GitHub Codespaces or Gitpod and use it as a base for your project.
+We have prepared a boilerplate that you can run yourself in GitHub Codespaces or Gitpod and use it as a base for your project.
 
 Flask Rest Hello: [https://github.com/4GeeksAcademy/flask-rest-hello](https://github.com/4GeeksAcademy/flask-rest-hello)
