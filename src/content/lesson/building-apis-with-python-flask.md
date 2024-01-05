@@ -80,9 +80,9 @@ If you want your endpoint to answer to POST, PUT or DELETE you can specify that 
 ```python
 from flask import Flask, request
 
-@app.route("/person", methods=['POST', 'GET']) # here we specify that this endpoint accepts POST and GET requests
+@app.route("/person", methods=['POST', 'GET'])  # Here we specify that this endpoint accepts POST and GET requests
 def handle_person():
-  if request.method == 'POST': # we can understand what type of request we are handling using a conditional
+  if request.method == 'POST':  # We can understand what type of request we are handling using a conditional
     return "A POST has been received!"
   else:
     return "A GET has been received!"
