@@ -92,7 +92,7 @@ def handle_person():
 
 The response can basically be whatever you want as long as it is a string: HTML, JSON, CSS, Images, etc. Just make sure you convert into a string whatever you want to respond.
 
-In the following example we are using the jsonify method to convert a dictionary called `person1` into a JSON string before returning it to the client.
+In the following example we are using the `jsonify` method to convert a dictionary called `person1` into a JSON string before returning it to the client.
 
 ```python
 from flask import Flask, jsonify
@@ -102,6 +102,7 @@ def handle_person():
     person1 = {
       "name": "Bob"
     }
+
     return jsonify(person1)
 ```
 
@@ -119,6 +120,7 @@ def handle_person():
     }
     resp = jsonify(content)
     resp.status_code = 400  # Here we change the status code to 400 (typical code for request errors)
+
     return resp
 ```
 
@@ -130,6 +132,7 @@ def handle_person():
     content = {
       "details": "Hey, there has been an error on your request"
     }
+
     return jsonify(content), 400
 ```
 
