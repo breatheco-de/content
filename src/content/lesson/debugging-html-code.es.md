@@ -89,7 +89,7 @@ Si un tag no se cierra correctamente. Por ejemplo, si olvidas cerrar un tag `<di
 
 Los tags HTML tienen atributos, por ejemplo, el tag `<img>` tiene el atributo `src`: `<img src="https://domain.com/something" />`. Desafortunadamente, a veces cometemos errores al abrir o cerrar esos tags.
 
-Para encontrar esos errores: la mejor herramienta es el resaltador de sintaxis. Mostrará un color extraño; mira esta imagen para una mejor comprensión.
+Para encontrar esos errores, la mejor herramienta es el resaltador de sintaxis. Mostrará un color extraño; mira esta imagen para una mejor comprensión.
 
 ![cómo se ven las comillas faltantes en tu resaltador de sintaxis](https://i.imgur.com/JzNqq1W.png?raw=true)
 
