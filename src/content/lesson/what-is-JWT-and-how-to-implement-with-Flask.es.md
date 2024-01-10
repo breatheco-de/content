@@ -173,7 +173,7 @@ Supongamos que estoy usando la aplicaciÃ³n de front-end y acabo de iniciar sesiÃ
 
 ```js
 // asumiendo que "/protected" es un endpoint privado
-const getMyTasks = await (username, password) => {
+const getMyTasks = async (username, password) => {
      // retrieve token form localStorage
      const token = localStorage.getItem('jwt-token');
 
