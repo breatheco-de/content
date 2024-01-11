@@ -130,8 +130,8 @@ You will be able to retrieve the authenticated user's information (if valid) usi
 
 ```py
 from flask_jwt_extended import jwt_required, get_jwt_identity
-# Protect a route with jwt_required, which will kick out requests
-# without a valid JWT present.
+
+# Protect a route with jwt_required, which will kick out requests without a valid JWT
 @app.route("/protected", methods=["GET"])
 @jwt_required()
 def protected():
