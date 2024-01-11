@@ -204,4 +204,4 @@ const getMyTasks = async () => {
 }
 ```
 
-¡Eso es todo! Como puedes ver, es muy sencillo integrar JWT en tu aplicación usando Flask/Python, solo tres pasos en el backend y dos pasos en el frontent. Ante cualquier duda puedes contactarme en Twitter [@alesanchezr](https://twitter.com/alesanchezr) o utilizar el canal `#public-support` en la comunidad Slack de 4Geeks Academy.
+¡Eso es todo! Como puedes ver, es muy sencillo integrar JWT en tu aplicación usando Flask/Python, solo tres pasos en el backend y dos pasos en el frontend. Ante cualquier duda puedes contactarme en Twitter [@alesanchezr](https://twitter.com/alesanchezr) o utilizar el canal `#public-support` en la comunidad Slack de 4Geeks Academy.
