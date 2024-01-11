@@ -11,18 +11,18 @@ status: "published"
 
 ## Why implementing Token Based Authentication
 
-<img src="../../assets/images/authentication.png" align="right" />
+<img src="https://github.com/breatheco-de/content/blob/ee21de4299b9e003de7be720280b42ed50056daf/src/assets/images/authentication.png" align="right" />
 
-There are several ways to create an authentication layer in web applications but we are going to be focusing today in Token Based Authentication because of several reasons:
+There are several ways to create an authentication layer in web applications, but we are going to be focusing today in Token Based Authentication for several reasons:
 
 - Easy to implement.
 - Provides a good level of security (by industry standards).
 - Fast and performant.
-- The most used in the industry as of today (2021).
+- The most used in the industry as of today.
 
 ## What is API Authentication?
 
-In plain English authentication means being able to identify who is making requests to your API; You normally implement an authentication layer in your application because you want:
+In plain English, authentication means being able to identify who is making requests to your API; You normally implement an authentication layer in your application because you want:
 
 - Users to be able to log in and log out.
 - Privacy protection: Restrict access to information based on the user role. For example: Only I should be able to update my email and password, only I should review my medical health history.
@@ -32,26 +32,26 @@ To explain in detail "Token Based API Authentication" it's better to start expla
 
 ## What is a Security Token?
 
-In a broad way a token is a "number that proves something", for example: When you finish making a bank transfer, the bank sends a confirmation "token" serves as proof to validate that the transaction exists and it's valid. That confirmation number could be also called a **confirmation `token`**.
+In a broad sense, a token is a "number that proves something." For example: when you finish making a bank transfer, the bank sends a confirmation "token" serves as proof to validate that the transaction exists and it's valid. That confirmation number could be also called a **confirmation token**.
 
 Other examples for every-day tokens:
 
 - Your social security number (token) proves your credit history.
-- Credit Card number proves you have a valid credit card.
+- Your credit card number proves you have a valid credit card.
 - Etc.
 
-### A security token it's more than just a number
+### A security token is more than just a number
 
-Tokens used for authentication need to be more that normal just numbers, they need to be almost impossible to fake, predict or break.
+Tokens used for authentication need to be more than just plain numbers, they need to be almost impossible to fake, predict or break.
 
-- Non-consecutive, that will make them very predictable, hackers will guess the next one.
+- Non-consecutive; that will make them very predictable, hackers will guess the next one.
 - Infinite (almost): What will happen if you run out of tokens? Can you imagine MasterCard running out of credit card numbers?
-- Non-reusable: There are cases of re-usable tokens, but in general once a token is generated no one else should every use it but you.
+- Non-reusable: There are cases of re-usable tokens, but in general once a token is generated, no one else should ever use it but you.
 - Validatable: The token must follow some hidden pattern (encryption) that allows validating the token without compromising the owner or author.
 
 ### Generating tokens
 
-There are several types of tokens you can use for your Autentication system like Basic, Bearer, or JWT. Most of them use Advance cryptography algorithms that we are not going to address in this lesson (you can watch this [amazing video to learn more](https://www.youtube.com/watch?v=4zahvcJ9glg)). Instead, we are going to talk about hashing.
+There are several types of tokens you can use for your Authentication system like Basic, Bearer, or JWT. Most of them use advanced cryptography algorithms that we are not going to address in this lesson (you can watch this [amazing video to learn more](https://www.youtube.com/watch?v=4zahvcJ9glg)). Instead, we are going to talk about hashing.
 
 #### What is a hash?
 
@@ -66,9 +66,9 @@ value = "alex"
 unique_hash = hash_function(value)
 ```
 
-Explanation: the function `hash_function` will always return the exact same `unique_hash` if the same value is given, take a look at this demonstration, start typing on the input:
+Explanation: the function `hash_function` will always return the exact same `unique_hash` if the same value is given.
 
-*With Javascript* ![JWT Token Generation with Node.js](https://github.com/breatheco-de/content/blob/master/src/assets/images/js.png?raw=true)
+*With JavaScript* ![JWT Token Generation with Node.js](https://github.com/breatheco-de/content/blob/master/src/assets/images/js.png?raw=true)
 
 ```javascript
 const jwt = require('jsonwebtoken');
@@ -85,7 +85,7 @@ const unique_hash = jwt.sign(payload,
 });
 ```
 
-Explanation: the function `jwt.sign` will always return the exact same `unique_hash` if the same value is given, take a look at this demonstration, start typing on the input:
+Explanation: the function `jwt.sign` will always return the exact same `unique_hash` if the same value is given. Take a look at this demonstration, start typing on the input:
 
 <!--hide-->
 <iframe src="https://full-stack-assets.breatheco.de/live-demos/security/hashing/" height="300" title="Hashing functions example"></iframe>
@@ -102,35 +102,35 @@ Hashing functions have become the best way to generate tokens in the security wo
 3. They have the same size: For example, all the tokens generated using MD5 will have 40 characters.
 4. They are "fast": Hashes rely on advanced math to efficiently generate the alphanumeric numbers.
 
-Note: Every bitcoin wallet address has unique a hash, every commit you do in github has a unique hash, etc.
+Note: Every bitcoin wallet address has a unique hash, every commit you make in GitHub has a unique hash, etc.
 
 ## How to implement authentication in your API
 
-The most simple way to implement autentication in your database and API:
+The most simple way to implement authentication in your database and API:
 
 1. Create a `User` table/model that represents every user inside your application.
 2. That User table must contain email and password for every user.
-3. Create one api endpoint called `POST /token` that generates a token only if it receives an email and password that maches in the database.
-4. The `POST /token` endpoint will return the token to the front-end if everything is ok.
-5. Then, on every other endpoint in your database you will have to validate if the token exists in the request header and if it does you will have to validate it.
+3. Create one API endpoint called `POST /token` that generates a token only if it receives an email and password that matches in the database.
+4. The `POST /token` endpoint will return the token to the front-end if everything is okay.
+5. Then, on every other endpoint in your database, you will have to validate if the token exists in the request header, and if it does, you will have to validate it.
 
 ![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/authentication-diagram.png?raw=true)
 
 ### Every token is a session
 
-The moment you generate the token you can decide if you want it to expire, same way web sessions expire when you log in into your online bank account.
+The moment you generate the token, you can decide if you want it to expire, same way web sessions expire when you log in into your online bank account.
 
-When a client successfully authenticates it will receive that unique token and it will be able to attached to the request headers of every request it makes from that moment on, that token will be the "User session".
+When a client successfully authenticates, it will receive that unique token, and it will be able to attach to the request headers of every request it makes from that moment on. That token will be the "User session".
 
-It is recomended to save that token in the cookies or localStorage of your front-end application.
+It is recommended to save that token in the cookies or `localStorage` of your front-end application.
 
 ```js
 let myToken = "aDSA45F$%!sd&sdfSDFSDFytrefERF";
 localStorage.setItem("token", myToken);
 
 
-//You can retrieve the token any moment, anywhere in your application by using:
-let myToken = localStorage.getItem("token);
+// You can retrieve the token at any moment, anywhere in your application, by using:
+let myToken = localStorage.getItem("token");
 ```
 
 ### How to attach the token to the request header:
@@ -138,9 +138,9 @@ let myToken = localStorage.getItem("token);
 If you are doing a request from the Front-End this will be an ideal way to attach the token to your Authorization headers:
 
 ```js
-let myToken = localStorage.getItem("token);
+let myToken = localStorage.getItem("token");
 fetch('https://myApi.com/path/to/endpoint', {
-    method: "POST", //or any other method,
+    method: "POST", // or any other method
     headers: {
       "Authorization": myToken, // ⬅⬅⬅ authorization header
     },
@@ -149,17 +149,16 @@ fetch('https://myApi.com/path/to/endpoint', {
     .then(resp => resp.json())
     .then(data => console.log("Success!!", data))
     .catch(error => console.log(error));
-    
 ```
 
-### Recomended packages for API Authentication
+### Recommended packages for API Authentication
 
 #### If you are using Python Flask framework
 
-I strongly recomend using [Flask JWT Extended](https://github.com/vimalloc/flask-jwt-extended).
+I strongly recommend using [Flask JWT Extended](https://github.com/vimalloc/flask-jwt-extended).
 
 #### If you are using Node Express
 
 Generate tokens with [Node JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme).
-Also use Express JWT to enfore the private endpoints [Express JWT](https://github.com/auth0/node-jsonwebtoken#readme).
+Also use Express JWT to enforce the private endpoints [Express JWT](https://github.com/auth0/node-jsonwebtoken#readme).
 
