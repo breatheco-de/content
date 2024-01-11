@@ -75,8 +75,7 @@ We strongly recommend using [JWT Extended library](https://github.com/vimalloc/f
 ```py
 from flask_jwt_extended import JWTManager
 
-# You must already have this line in your project
-# You don't have to add it again
+# You must already have this line in your project, you don't have to add it again
 app = Flask(__name__)
 
 # Setup the Flask-JWT-Extended extension
