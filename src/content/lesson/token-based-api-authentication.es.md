@@ -11,7 +11,7 @@ status: "published"
 
 ## ¿Por qué implementar la autenticación basada en tokens?
 
-<img src="https://github.com/breatheco-de/content/blob/ee21de4299b9e003de7be720280b42ed50056daf/src/assets/images/authentication.png" align="right" />
+<img src="https://github.com/breatheco-de/content/blob/ee21de4299b9e003de7be720280b42ed50056daf/src/assets/images/authentication.png?raw=true" align="right" />
 
 Hay varias formas de crear una capa de autenticación en las aplicaciones web, pero hoy nos vamos a centrar en la Autenticación Basada en Token o Token Based Authentication por varias razones:
 
