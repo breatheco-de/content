@@ -75,7 +75,7 @@ Explicación: la función `hash_function` siempre devolverá exactamente el mism
 const jwt = require('jsonwebtoken');
 
 const payload = {
-    user_email: 'hola@4geeks.co',
+    userEmail: 'hola@4geeks.co',
     rol: 'admin'
 };
 
