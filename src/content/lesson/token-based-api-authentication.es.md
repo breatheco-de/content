@@ -147,7 +147,6 @@ fetch('https://myApi.com/path/to/endpoint', {
     .then(resp => resp.json())
     .then(data => console.log("Success!!", data))
     .catch(error => console.log(error));
-    
 ```
 
 ### Paquetes recomendados para la autenticación de API
