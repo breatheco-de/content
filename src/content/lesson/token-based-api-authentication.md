@@ -157,6 +157,5 @@ I strongly recommend using [Flask JWT Extended](https://github.com/vimalloc/flas
 
 #### If you are using Node Express
 
-Generate tokens with [Node JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme).
-Also use Express JWT to enforce the private endpoints [Express JWT](https://github.com/auth0/node-jsonwebtoken#readme).
+Generate tokens with [Node JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme). Also use [Express JWT](https://www.npmjs.com/package/express-jwt) to enforce the private endpoints.
 
