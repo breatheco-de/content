@@ -74,7 +74,7 @@ Explanation: the function `hash_function` will always return the exact same `uni
 const jwt = require('jsonwebtoken');
 
 const payload = {
-    user_email: 'hola@4geeks.co',
+    userEmail: 'hola@4geeks.co',
     rol: 'admin'
 };
 
