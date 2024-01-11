@@ -57,7 +57,7 @@ There are several types of tokens you can use for your Authentication system lik
 
 A hash is a **unique** alphanumeric number that gets generated from a specific seed or **value**, for example:
 
-*With Python* ![JWT Token Generation with Python](https://github.com/breatheco-de/content/blob/master/src/assets/images/python.png?raw=true)
+*With Python*
 
 ```py
 import hash_function
@@ -68,7 +68,7 @@ unique_hash = hash_function(value)
 
 Explanation: the function `hash_function` will always return the exact same `unique_hash` if the same value is given.
 
-*With JavaScript* ![JWT Token Generation with Node.js](https://github.com/breatheco-de/content/blob/master/src/assets/images/js.png?raw=true)
+*With JavaScript*
 
 ```javascript
 const jwt = require('jsonwebtoken');
