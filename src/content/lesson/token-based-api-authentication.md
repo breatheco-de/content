@@ -73,15 +73,13 @@ Explanation: the function `hash_function` will always return the exact same `uni
 ```javascript
 const jwt = require('jsonwebtoken');
 
-
 const payload = {
-    user_email:'hola@4geeks.co',
+    user_email: 'hola@4geeks.co',
     rol: 'admin'
-}
-const unique_hash = jwt.sign(payload,
-'secret-key',
-{
-    expiresIn: '1000'
+};
+
+const unique_hash = jwt.sign(payload, 'secret-key', {
+    expiresIn: '24h' // Set the expiration time to 24 hours
 });
 ```
 
