@@ -11,7 +11,7 @@ status: "published"
 
 ## Why implementing Token Based Authentication
 
-<img src="https://github.com/breatheco-de/content/blob/ee21de4299b9e003de7be720280b42ed50056daf/src/assets/images/authentication.png" align="right" />
+<img src="https://github.com/breatheco-de/content/blob/ee21de4299b9e003de7be720280b42ed50056daf/src/assets/images/authentication.png?raw=true" align="right" />
 
 There are several ways to create an authentication layer in web applications, but we are going to be focusing today in Token Based Authentication for several reasons:
 
