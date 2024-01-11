@@ -50,7 +50,7 @@ En pocas palabras: JWT es una alternativa increíble porque el Token básico o `
 
 Con los tokens JWT no necesitas una base de datos, el propio token contiene toda la información necesaria.
 
-![Bearer token vs. JWT](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-vs-bearer-token.png?raw=true)
+![Token Bearer  vs. JWT](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-vs-bearer-token.png?raw=true)
 
 ## Estructura del token JWT
 
