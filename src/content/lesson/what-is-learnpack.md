@@ -13,11 +13,11 @@ Throughout this course, you will see here and there the word "LearnPack"; you wi
 
 ## What is LearnPack?
 
-LearnPack is a package manager for interactive tutorials and exercises. It's like Coursera.com, but only for coding.
+LearnPack is a package manager for interactive tutorials and exercises. It's like Coursera.com, but only for coding. 
 
 ### What makes LearnPack so unique?
 
-Instead of watching a video or reading an article, LearnPack will present small challenges incrementally; each will be auto-grading for instant feedback and a video tutorial solution (sometimes).
+Instead of watching a video or reading an article, LearnPack will present small challenges incrementally; each will be auto-grading for instant feedback and a video tutorial solution (sometimes). It has also an integrated tutor powered by AI that you can use to now which is the following step in your coding journey, its like having your personal teacher right in your code editor!.
 
 > This is the best way to learn coding-related skills.
 
@@ -27,11 +27,13 @@ Most LearnPack tutorials will come with a button labeled: "Start new exercise" o
 
 ![LearnPack Alert on 4geeks.com](https://github.com/breatheco-de/content/blob/master/src/assets/images/learnpack-alert.png?raw=true)
 
-After clicking on "Start new exercise" a new coding environment will open, and LearnPack will start running immediately. 
+After clicking on "Start new exercise" a new coding environment will open, and LearnPack will start running immediately. If its the first time you open the exercise, you should log in with your 4geeks credentials to be able to use the AI Tutor.
 
 All LearnPack tutorials come in steps; you will find the instructions on the right side and a button to continue to the `next ->` step.
 
-![LearnPack explanation](https://github.com/breatheco-de/content/blob/master/src/assets/images/learnpack-explanation.png?raw=true)
+<!-- ![LearnPack explanation](https://github.com/breatheco-de/content/blob/master/src/assets/images/learnpack-explanation.png?raw=true) -->
+![LearnPack explanation](https://github.com/breatheco-de/content/assets/107764250/40c6cfaf-f918-4efb-8ed3-a98dd729e0d5)
+
 
 ## Restarting LearnPack
 
