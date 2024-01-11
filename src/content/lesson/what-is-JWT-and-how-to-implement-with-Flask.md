@@ -167,7 +167,7 @@ const login = async (username, password) => {
      }
      const data = await resp.json()
      // Save your token in the localStorage
-     // Also you should set your user into the store using the setStore function
+     // Also you should set your user into the store using the setItem function
      localStorage.setItem("jwt-token", data.token);
 
      return data
