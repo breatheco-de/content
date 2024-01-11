@@ -73,8 +73,7 @@ Recomendamos firmemente el uso de [la librería JWT extended](https://github.com
 ```py
 from flask_jwt_extended import JWTManager
 
-# Ya debes tener esta línea en tu proyecto
-# No tienes que añadirla de nuevo
+# Ya debes tener esta línea en tu proyecto, no tienes que añadirla de nuevo
 app = Flask(__name__)
 
 # Configura la extensión Flask-JWT-Extended
