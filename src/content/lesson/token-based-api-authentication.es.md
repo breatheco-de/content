@@ -157,5 +157,5 @@ Recomiendo encarecidamente el uso de [Flask JWT Extended](https://github.com/vim
 
 #### Si estás utilizando Node Express
 
-Genera tokens con [JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme) en Node. Además, utiliza [Express JWT](https://github.com/auth0/node-jsonwebtoken#readme) para hacer cumplir los endpoints privados en Express.
+Genera tokens con [JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme) en Node. Además, utiliza Express JWT para hacer cumplir los endpoints privados en Express.
 
