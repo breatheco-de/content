@@ -6,7 +6,7 @@ authors: ["DF27ARTS"]
 
 ---
 
-Python es uno de los lenguajes de programación más utilizados en la actualidad gracias a que es un lenguaje de alto nivel, interpretado, multiparadigma y de propósito general, esto significa que se puede utilizar en diversas áreas de la programación como en el desarrollo de [APIs](https://4geeks.com/es/lesson/understanding-rest-apis-es), la [ciencia de datos (data science) o machine learning](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning?lang=es) entre muchas otras áreas. Además Python tiene una sintaxis sencilla e intuitiva, que facilita la lectura y escritura de código.
+[Python](https://4geeks.com/es/lesson/que-es-python-tutorial) es uno de los lenguajes de programación más utilizados en la actualidad gracias a que es un lenguaje de alto nivel, interpretado, multiparadigma y de propósito general, esto significa que se puede utilizar en diversas áreas de la programación como en el desarrollo de [APIs](https://4geeks.com/es/lesson/understanding-rest-apis-es), la [ciencia de datos (data science) o machine learning](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning?lang=es) entre muchas otras áreas. Además Python tiene una sintaxis sencilla e intuitiva, que facilita la lectura y escritura de código.
 
 En este artículo veremos algunos ejemplos sobre qué puedes hacer con Python y algunas de sus áreas de uso más relevantes. Puedes ver este artículo si quieres saber más cobre [cómo programar con Python](https://4geeks.com/es/lesson/como-programar-con-python) 
 
