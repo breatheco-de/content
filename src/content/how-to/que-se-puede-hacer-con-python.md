@@ -6,18 +6,18 @@ authors: ["DF27ARTS"]
 
 ---
 
-Python es uno de los lenguajes de programación más utilizados en la actualidad gracias a que es un lenguaje de alto nivel, interpretado, multiparadigma y de propósito general, esto significa que se puede utilizar en diversas áreas de la programación como en el desarrollo de [APIs](https://4geeks.com/es/lesson/understanding-rest-apis-es), la ciencia de datos (data science), en el aprendizaje automático (machine learning) entre muchas otras áreas. Además Python tiene una sintaxis sencilla e intuitiva, que facilita la lectura y escritura de código.
+Python es uno de los lenguajes de programación más utilizados en la actualidad gracias a que es un lenguaje de alto nivel, interpretado, multiparadigma y de propósito general, esto significa que se puede utilizar en diversas áreas de la programación como en el desarrollo de [APIs](https://4geeks.com/es/lesson/understanding-rest-apis-es), la [ciencia de datos (data science) o machine learning](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning?lang=es) entre muchas otras áreas. Además Python tiene una sintaxis sencilla e intuitiva, que facilita la lectura y escritura de código.
 
-En este artículo veremos algunos ejemplos sobre qué puedes hacer con Python y algunas de sus áreas de uso más relevantes.
+En este artículo veremos algunos ejemplos sobre qué puedes hacer con Python y algunas de sus áreas de uso más relevantes. Puedes ver este artículo si quieres saber más cobre [cómo programar con Python](https://4geeks.com/es/lesson/como-programar-con-python) 
 
 ## Campos en los que se puede utilizar Python
 
 ### 1. Back-end development
 
-Una de las áreas en la que puedes utilizar Python es en el desarrollo de aplicación para backend, existen diferentes frameworks que te permite crear un API con Python, a continuación veremos algunos de los más utilizados y relevantes.
+Una de las áreas en la que puedes utilizar Python es en el desarrollo de aplicación para back-end, existen diferentes frameworks que te permite crear un API con Python, a continuación veremos algunos de los más utilizados y relevantes.
 
 1. **Django**: este es un framework web completo y de alto nivel que fomenta el desarrollo rápido y limpio. Viene con muchas características incorporadas, como un ORM (Object-Relational Mapping), un sistema de administración de contenido, autenticación de usuarios y más. Este framework es ideal para proyectos grandes y complejos.
-2.  **Flask**:  este es un framework ligero y versátil para Python. Está diseñado para ser simple y fácil de usar, permitiendo a los desarrolladores elegir las herramientas que necesitan. Flask no impone una estructura rígida, brindando flexibilidad para construir desde aplicaciones pequeñas hasta proyectos más complejos.
+2. **Flask**: [Flask](https://4geeks.com/es/lesson/building-apis-with-python-flask-es) es un framework ligero y versátil para Python. Está diseñado para ser simple y fácil de usar, permitiendo a los desarrolladores elegir las herramientas que necesitan. Flask no impone una estructura rígida, brindando flexibilidad para construir desde aplicaciones pequeñas hasta proyectos más complejos.
 3. **FastAPI**: este es un framework moderno y rápido para la creación de APIs con Python 3.7+. Se destaca por su rendimiento gracias a la generación automática de documentación y la validación de tipos mediante **Pydantic**. Este framework es ideal para construir APIs rápidas y seguras, y proporciona una experiencia de desarrollo ágil y fácil de entender. 
 
 En el siguiente ejemplo veremos cómo construir una API con ayuda del framework de FastAPI.
@@ -47,6 +47,8 @@ uvicorn main:app --reload
 
 Una vez que se levante el servidor, podrás ingresar a la ruta `http://127.0.0.1:8000` para acceder al contenido de la API y tambien podrás acceder a la ruta `http://127.0.0.1:8000/docs` para ver la documetación que se genera de manera automática con la librería de Swagger.
 
+> Aqui te dejamos un tutorial paso a paso sobre cómo construir un [API con Flask](https://4geeks.com/es/interactive-exercise/python-http-requests-api-tutorial-ejercicio)
+
 ### 2. Ciencia de datos
 
 La ciencia de datos (Data Science) es la disciplina que se encarga de extraer conocimientos e insights a partir de datos, utilizando técnicas de estadística, matemáticas, programación y visualización. Python es uno de los lenguajes más utilizados en este campo, debido a que ofrece herramientas poderosas y flexibles para la manipulación, análisis y visualización de datos.
@@ -58,7 +60,7 @@ Algunos de los frameworks más populares para el análisis de datos con Python, 
 3. **Matplotlib**: esta es una librería de Python de código abierto (open source), desarrollada inicialmente por el neurobiólogo Jhon Hunter en 2002. El objetivo de esta librería es crear gráficas y diagramas de alta calidad. Esta librería es especialmente útil para las personas que trabajan en áreas que requieran análisis y visualización de datos.
 4. **SciPy**: esta es una librería de Python para matemáticas, ciencias e ingeniería que proporciona módulos para optimización, álgebra lineal, integración, interpolación y otras tareas científicas y de ingeniería. A diferencia de SciKit, que se centra en el aprendizaje automático, SciPy se centra en proporcionar herramientas matemáticas y científicas para resolver problemas en una amplia variedad de campos.
 
-El siguiente es un pequeño ejemplo de un análisis en ciencia de datos.
+El siguiente es un pequeño ejemplo de [ciencia de datos con Python](https://4geeks.com/es/lesson/datascience-con-python).
 
 ```py
 import pandas as pd
@@ -80,7 +82,7 @@ plt.show()
 
 ![Resultado del código](https://res.cloudinary.com/dleo66u17/image/upload/v1702485615/Captura_de_pantalla_2023-12-13_113730_qaje6i.png)
 
-En este ejemplo hacemos uso de la librería de **Pandas** para crear un DataFrame con la información de 6 usuarios (nombre, edad y puntuación), después utilizamos la librería de **Matplotlib** para visualizar la relación entre la edad de los usuarios y la puntuación obtenida. Este es un pequeño ejemplo sobre cómo puedes utilizar estas librerías para analizar, manipular y visualizar un conjuntos de datos.
+En este ejemplo hacemos uso de la librería de **Pandas** para crear un [DataFrame](https://4geeks.com/es/lesson/pandas-dataframe) con la información de 6 usuarios (nombre, edad y puntuación), después utilizamos la librería de [Matplotlib](https://4geeks.com/es/lesson/introduccion-a-matplotlib) para visualizar la relación entre la edad de los usuarios y la puntuación obtenida. Este es un pequeño ejemplo sobre cómo puedes utilizar estas librerías para analizar, manipular y visualizar un conjuntos de datos.
 
 ### 3. Inteligencia Artificial
 
