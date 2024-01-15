@@ -1,4 +1,4 @@
-# How to learn with AI?
+# How to learn code with AI using LearnPack?
 
 One of the most important features of Learnpack is that you have a coding tutor right with your code.
 You can ask anything about the current exercise, or even solve a doubt that you have with the current technology you are learning.
