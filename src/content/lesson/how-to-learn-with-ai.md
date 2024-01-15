@@ -1,25 +1,28 @@
 # How to learn code with AI using LearnPack?
 
-One of the most important features of Learnpack is that you have a coding tutor right with your code.
-You can ask anything about the current exercise, or even solve a doubt that you have with the current technology you are learning.
+LearnPack is AI-enabled; you have a coding tutor by your side (on the right side of your code).
+LearnPack's AI is context-aware, meaning that it already knows who you are; it has access to your current code and the rest of the exercise files.
+You can ask anything about the current exercise or the current technology you are learning.
 
-You example, lets suppose that I'm doing the [Learn Boostrap Tutorial](https://4geeks.com/interactive-exercise/bootstrap-exercises).
+For example, let's suppose that I'm taking 4Geeks Academy's [bootstrap tutorial](https://4geeks.com/interactive-exercise/bootstrap-exercises).
 
-In the first exercise, I can ask something related to my exercise, and I don't need to add a lot of context to the AI, because it is already
-being handled by Learnpack.
+During the first step of the tutorial, I can ask something like "What am I doing wrong?", LearnPack will read the exercise instructions, run my code and test it, and give me a personalized accurate answer with the next steps for successfully moving forward with the next steps of the tutorial.
 
-Our coding AI Tutor has the right context to ask you based in your current code and even knows the result of the tests (if the exercise has tests).
-This is an example of how the Learnpack Tutor looks like:
+Our coding AI Tutor is able to test our code (most of the time).
+
+For example, this is how the Learnpack Tutor looks like:
 ![learnpack ai example](https://github.com/breatheco-de/content/assets/107764250/510ed93d-a0d8-4f8c-baa5-c9b63e077133)
 
 
-If you are in the right path, it will also give you a friendly feedback and a button to go to the next exercise.
+If you are on the right path, it will also give you friendly feedback and encourage you to move to the next step:
+
 ![succesful ai example](https://github.com/breatheco-de/content/assets/107764250/421af456-eef5-44bc-8d1c-88d33566f156)
 
-Just use the AI carefully, ask your coding tutor for documentation link to go and read a little more, or ask it something that is not clear for you from the tutorial.
+> Important: Use the AI carefully, ask your coding tutor for a documentation link to go and read a little more, or ask it something that is not clear to you from the tutorial.
 
 Remember, failling is okay, the only thing is bad is not learning from your errors. 
 
 Keep coding!
 
-Write by [Charlytoc](https://www.linkedin.com/in/charlytoc/)
+Written by [Charlytoc](https://www.linkedin.com/in/charlytoc/)
+
