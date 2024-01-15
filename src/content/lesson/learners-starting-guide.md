@@ -1,6 +1,6 @@
 # How to learn code with Learnpack
 
-1. If you are a 4geeks student, you can go to the `Learning Library/Practice Interactively` and click in `Start Practicing`
+1. If you are a 4Geeks student, you can go to the `Learning Library/Practice Interactively` and click in `Start Practicing`
 ![How to go to the learning library](https://github.com/breatheco-de/content/assets/107764250/a2b43a37-f294-4e99-aa68-d57a2479ccd9)
 
 2. Choose a tutorial of your interest and click `Start exercise`:
