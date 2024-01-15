@@ -1,5 +1,12 @@
 # How to learn code with Learnpack
 
+
+<!-- 
+Menciona que cuaquier repositorio de github compatible con learnpack puede ser ejecutado en localhost, desde Codespaces or Gitpod. Sin embargo tenemos el siguiente enlace podras encontrar un listado de [ejercicios y tutoriales interactivos para aprender con Learnpack](https://4geeks.com/interactive-exercises) cosas como HTML, CSS, Python Javascript, etc.
+
+Incluso podrias listar los 2-3 tutoriales que podrias empezar a hacer ahora mismo Javascript Beginner, Python Beginner y React Beginner.
+-->
+
 1. If you are a 4Geeks student, you can go to the `Learning Library/Practice Interactively` and click in `Start Practicing`
 ![How to go to the learning library](https://github.com/breatheco-de/content/assets/107764250/a2b43a37-f294-4e99-aa68-d57a2479ccd9)
 
@@ -16,6 +23,14 @@
 
 6. And now Learnpack should be running on your codespace 
 ![learnpack running](https://github.com/breatheco-de/content/assets/107764250/2c3509d4-585d-469f-9cbe-22bbebaab543)
+
+<!-- 
+Agregar una seccion para como abrir directamente en github, sin necesidad de 4geeks.com
+-->
+
+<!-- 
+Agregar una seccion para localhost, avisar que tiene que tener node y ademas la tecnologi que quieres parnede,r por ejemplo: Si el tutorial es de Python, tendrias que tener python isntalado.
+-->
 
 
 # Troubleshooting
