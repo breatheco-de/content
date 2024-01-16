@@ -16,30 +16,30 @@ Getting started with Learnpack is straightforward. LearnPack is a tool that oper
 
 3. **Open with LearnPack:**
    - If you are logged in, click the `Open with LearnPack` button.
-   - If not, you can go to the repository, press the repository button, and refer to the section *Opening Directly on Github* below.
+   - If you don't want to log in, you can navigate to the GitHub repository by clicking on the repository link and referring to the section *Opening Directly on Github* below.
    ![Open repository button](https://github.com/breatheco-de/content/assets/107764250/6feb769f-a819-4d37-be2d-b9466e9fd60a)
 
 4. **Choose Environment:**
-   - Select `Codespaces` or `Gitpod`. For this guide, choose `Codespaces`.
+   - Select `Codespaces` (recommended) or `Gitpod`. For this guide we are going to be choosing `Codespaces`.
    ![Choose Environment](https://github.com/breatheco-de/content/assets/107764250/6d9f5213-321d-41a3-bfcf-6f8c328fd09c)
 
 5. **Create a Codespace:**
    - Click `Create codespace`.
    ![Create Codespace](https://github.com/breatheco-de/content/assets/107764250/788c0dad-2e56-49c4-ad64-c37d3101d756)
 
-6. **Run Learnpack:**
-   - Learnpack should now be running in your codespace.
+6. **Run LearnPack:**
+   - LearnPack should now be running in your codespace (you can read more about [what is a Github Codespace here](https://4geeks.com/lesson/what-is-github-codespaces))
    ![Learnpack Running](https://github.com/breatheco-de/content/assets/107764250/2c3509d4-585d-469f-9cbe-22bbebaab543)
 
 ## Opening Directly on GitHub
 
 *You can also open Learnpack tutorials directly from GitHub repositories compatible with Learnpack.*
-These are some examples: 
+These are some examples of LearnPack-compatible Github repositories you can open: 
 [Javascript Arrays](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial)
 [Javascript Beginners tutorial](https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial)
 [Python Beginner exercises](https://github.com/4GeeksAcademy/python-beginner-programming-exercises)
 
-To open a new Learnpack environment, find the tutorial you want to do, go to its repository, I'll suppose you are already here, if not, refer to the previous section.
+To open a new Learnpack environment, find the tutorial you want to take and go to its repository. I suppose you are already here; if not, refer to the previous section.
 
 1. Click the `Code` button.
 
