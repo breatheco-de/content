@@ -1,4 +1,5 @@
-# How to Learn Coding with Learnpack
+# How to Learn Coding with LearnPack
+
 Getting started with Learnpack is straightforward. Learnpack is a tool that operates based on its environment, which can be easily replicated through a repository. Any repository compatible with Learnpack can serve as an excellent tutorial to explore. You can check out some of the available repositories [here](https://4geeks.com/interactive-exercises).
 
 ## Getting Started
@@ -15,7 +16,7 @@ Getting started with Learnpack is straightforward. Learnpack is a tool that oper
 
 3. **Open with LearnPack:**
    - If you are logged in, click the `Open with LearnPack` button.
-   - If not, you can go to the repository pressing the repository button, and refer to the section *Opening Directly on Github* below.
+   - If not, you can go to the repository, press the repository button, and refer to the section *Opening Directly on Github* below.
    ![Open repository button](https://github.com/breatheco-de/content/assets/107764250/6feb769f-a819-4d37-be2d-b9466e9fd60a)
 
 4. **Choose Environment:**
@@ -44,7 +45,7 @@ To open a new Learnpack environment, find the tutorial you want to do, go to its
 
 ![Click the code button](https://github.com/breatheco-de/content/assets/107764250/413b2553-d452-4cb4-bb79-b2595e8e35be)
 
-2. And `Create a codespace` on the main or master branch depending of the case.
+2. And `Create a codespace` on the main or master branch, depending on the case.
 
 ![Create a codespace](https://github.com/breatheco-de/content/assets/107764250/8c1da50c-81ed-4162-9359-d41f35aab8ab)
 
@@ -52,9 +53,9 @@ To open a new Learnpack environment, find the tutorial you want to do, go to its
 
 ## Local Setup
 
-*To run Learnpack locally, ensure you have Node.js installed, as well as the technology stack required for your chosen tutorial (e.g., Python for Python tutorials).*
+*To run Learnpack locally, ensure you have Node.js installed and the technology stack required for your chosen tutorial (e.g., Python for Python tutorials).*
 
-1. First, you will need to install the correct dependencies in your system depending on the setup.
+1. First, you will need to install the correct dependencies in your system, depending on the setup.
 For instance, I'll make an example of how to run Learnpack locally using Python and Node.
 This is the example repo: [Python Beginner exercises](https://github.com/4GeeksAcademy/python-beginner-programming-exercises)
 
