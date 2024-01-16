@@ -6,20 +6,15 @@ textColor: "white"
 date: "2020-10-19T16:36:30+00:00"
 tags: ["learnpack"]
 status: "published"
-
 ---
 
-Throughout this course, you will see here and there the word "LearnPack"; you will use LearnPack A LOT to practice coding tutorials and small exercises. This article is an attempt to explain what it is and how to use it, so you can run all the tutorials smoothly.
-
-## What is LearnPack?
-
-LearnPack is a package manager for interactive tutorials and exercises. It's like Coursera.com, but only for coding.
+Learnpack is an innovative and user-friendly learning tool designed to empower learners to code with a hands-on approach. It emphasizes the importance of self-driven learning to [master technical knowledge](https://4geeks.com/mastering-technical-knowledge), allowing users to bring their ideas to life through interactive tutorials and real-time feedback (a.k.a [microfeedbacks](https://4geeks.com/mastering-technical-knowledge#micro-feedbacks)). This application is not just about following instructions; it's about understanding the process and developing the skills to create independently.
 
 ### What makes LearnPack so unique?
 
-Instead of watching a video or reading an article, LearnPack will present small challenges incrementally; each will be auto-grading for instant feedback and a video tutorial solution (sometimes).
+LearnPack revolutionizes the learning experience by offering bite-sized coding challenges that progressively build your skills. With instant auto-grading feedback, AI tutoring, and video tutorial solutions, you'll never feel lost. Plus, our AI Coding Tutor is like having a personal mentor guiding you every step of the way. Dive into LearnPack and transform the way you acquire coding expertise.
 
-> This is the best way to learn coding-related skills.
+> It's the most engaging path to mastering the craft!
 
 ## How to use LearnPack
 
@@ -27,18 +22,20 @@ Most LearnPack tutorials will come with a button labeled: "Start new exercise" o
 
 ![LearnPack Alert on 4geeks.com](https://github.com/breatheco-de/content/blob/master/src/assets/images/learnpack-alert.png?raw=true)
 
-After clicking on "Start new exercise" a new coding environment will open, and LearnPack will start running immediately. 
+After clicking on "Start new exercise" a new coding environment will open, and LearnPack will start running immediately in Codespaces or Gitpod (you can also run the tutorials on your own computer, learn more about it here).
+All LearnPack tutorials come in steps; you will find the instructions on the right side and a button to continue to the `next ->` step. Upon successfully completing an exercise, the AI will offer guidance and the convenience of moving forward to the next challenge with a simple button click.
 
-All LearnPack tutorials come in steps; you will find the instructions on the right side and a button to continue to the `next ->` step.
+<!-- ![](https://github.com/breatheco-de/content/blob/master/src/assets/images/learnpack-explanation.png?raw=true) -->
 
-![LearnPack explanation](https://github.com/breatheco-de/content/blob/master/src/assets/images/learnpack-explanation.png?raw=true)
+![LearnPack explanation](https://github.com/breatheco-de/content/assets/107764250/2256e8fe-1e10-4e03-a2a8-e58ce56b79a8)
 
 ## Restarting LearnPack
 
 If you cannot find the instructions on the right, you can start the exercises again by typing: `learnpack start` on the terminal.
-
 ```bash
 $ learnpack start
 ```
+![Learnpack start output](https://github.com/breatheco-de/content/assets/107764250/28dafa31-a8aa-46e6-a539-6f374c19e886)
+
 
 > Note: If that does not work, try `ctrl` + `shift` + `p` to open the VSCode command palette and type/look for "Open Instructions" to reopen the right sidebar.
