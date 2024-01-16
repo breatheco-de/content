@@ -16,8 +16,7 @@ Getting started with Learnpack is straightforward. Learnpack is a tool that oper
 3. **Open with LearnPack:**
    - If you are logged in, click the `Open with LearnPack` button.
    - If not, you can go to the repository pressing the repository button, and refer to the section *Opening Directly on Github* below.
-   ![Open repository button](https://github.com/breatheco-de/content/assets/107764250/b1a236fa-f8b6-4178-b7ce-072cb7bdc0b8)
-
+   ![Open repository button](https://github.com/breatheco-de/content/assets/107764250/6feb769f-a819-4d37-be2d-b9466e9fd60a)
 
 4. **Choose Environment:**
    - Select `Codespaces` or `Gitpod`. For this guide, choose `Codespaces`.
