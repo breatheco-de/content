@@ -1,5 +1,5 @@
 # How to Learn Coding with Learnpack
-Getting started with Learnpack is facing an idea as it is. Learnpack is a tool that reacts based in its environment, and this environment can easily be replicated thought a repository. Any repository compatible with Learnpack can be an amazing tutorial to explore. You can go and check some of the available repositories [here](https://4geeks.com/interactive-exercises).
+Getting started with Learnpack is straightforward. Learnpack is a tool that operates based on its environment, which can be easily replicated through a repository. Any repository compatible with Learnpack can serve as an excellent tutorial to explore. You can check out some of the available repositories [here](https://4geeks.com/interactive-exercises).
 
 ## Getting Started
 
@@ -14,8 +14,8 @@ Getting started with Learnpack is facing an idea as it is. Learnpack is a tool t
    ![Start Exercise](https://github.com/breatheco-de/content/assets/107764250/b42f6559-dad4-4dca-9a6f-0e48b0e889e7)
 
 3. **Open with LearnPack:**
-   - If logged in, click the `Open with LearnPack` button.
-   - If not, you can go to the repository pressing the repository button, and refer to the section *Opening Directly on Github* down below.
+   - If you are logged in, click the `Open with LearnPack` button.
+   - If not, you can go to the repository pressing the repository button, and refer to the section *Opening Directly on Github* below.
    ![Open repository button](https://github.com/breatheco-de/content/assets/107764250/b1a236fa-f8b6-4178-b7ce-072cb7bdc0b8)
 
 
@@ -49,7 +49,7 @@ To open a new Learnpack environment, find the tutorial you want to do, go to its
 
 ![Create a codespace](https://github.com/breatheco-de/content/assets/107764250/8c1da50c-81ed-4162-9359-d41f35aab8ab)
 
-**And that's all! You should have Learnpack setup and running in your Codespace!** 
+**Now you should have Learnpack set up and running in your Codespace!** 
 
 ## Local Setup
 
@@ -59,13 +59,12 @@ To open a new Learnpack environment, find the tutorial you want to do, go to its
 For instance, I'll make an example of how to run Learnpack locally using Python and Node.
 This is the example repo: [Python Beginner exercises](https://github.com/4GeeksAcademy/python-beginner-programming-exercises)
 
-You will find a file in `.devcontainers/devcontainer.json`
-You copy the `onCreate` command and run it in your computer.
+Use the following command from the `.devcontainers/devcontainer.json`. Just copy the `onCreate` command and run it in your computer.
 In this case:
 ```
 pip3 install pytest==6.2.5 pytest-testdox mock && npm i @learnpack/learnpack@2.1.30 -g && learnpack plugins:install @learnpack/python@1.0.0
 ```
-Don't worry, all Python exercises use almost the same configuration, just make sure you have the dependencies installed.
+Most Python exercises use a similar configuration, so ensure you have the dependencies installed.
 
 
 2. Clone the repository in your local computer:
@@ -75,7 +74,7 @@ git clone <repository-https-url>
 ```
 ![example of git clone](https://github.com/breatheco-de/content/assets/107764250/6545b2cf-97dc-4560-af20-8cefa90d8c62)
 
-3. Navigate to the recently created directory:
+3. Navigate to the newly created directory:
 ```
 cd directory-name
 ```
@@ -88,7 +87,7 @@ code .
 in your terminal when located in the right directory.
 
 5. Run `learnpack start`
-And now the magic should happens and Learnpack should run in your machine.
+Now Learnpack should be running on your machine.
 ![learnpack in localhost](https://github.com/breatheco-de/content/assets/107764250/17316b6c-12fa-4cf8-ba5a-eab38de2afcc)
 
 # Troubleshooting Learnpack Issues
@@ -100,10 +99,10 @@ And now the magic should happens and Learnpack should run in your machine.
    3. Press `enter`.
 
 **Scenario B: CLI Running, No Instructions**
-   1. Press `ctrl` + `k`, then `w` to close all tabs.
+   1. Press `Ctrl` + `K`, then `W` to close all tabs.
    2. Run `learnpack start` again.
    3. If still no instructions:
-      - Press `ctrl` + `shift` + `p`.
+      - Press `Ctrl` + `Shift` + `P`.
       - Select `Learnpack: Open instructions`.
 
 **Scenario C: Error on `learnpack start`**
@@ -114,3 +113,6 @@ And now the magic should happens and Learnpack should run in your machine.
 
 *If issues persist, reach out to your instructor or the Slack community for assistance.*
 ---
+
+
+
