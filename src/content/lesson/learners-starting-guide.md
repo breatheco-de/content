@@ -1,10 +1,10 @@
 # How to Learn Coding with LearnPack
 
-Getting started with Learnpack is straightforward. Learnpack is a tool that operates based on its environment, which can be easily replicated through a repository. Any repository compatible with Learnpack can serve as an excellent tutorial to explore. You can check out some of the available repositories [here](https://4geeks.com/interactive-exercises).
+Getting started with Learnpack is straightforward. LearnPack is a tool that operates inside your coding environment (e.g. VSCode), enabling any repository codebase to become an interactive tutorial. Any repository compatible with Learnpack can serve as an excellent tutorial. You can check out some examples of LearnPack-compatible repositories [here](https://4geeks.com/interactive-exercises).
 
 ## Getting Started
 
-1. **If you are a 4Geeks student or not, you can go to the Learning Library**
+1. **The 4Geeks.com Learning Library is the best place to find LearnPack tutorials**
    - Navigate to `Learning Library/Practice Interactively`.
    - Click on `Start Practicing`.
    ![Learning Library Navigation](https://github.com/breatheco-de/content/assets/107764250/a2b43a37-f294-4e99-aa68-d57a2479ccd9)
