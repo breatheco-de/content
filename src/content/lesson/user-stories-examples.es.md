@@ -34,10 +34,9 @@ Una historia de usuario es como tener una conversación con su futuro usuario. D
 
 ### Aquí hay unos Ejemplos:
 
-![ejemplos de historias de usuario](https://github.com/breatheco-de/content/blob/master/src/assets/images/032a818d-e4d7-4276-8195-ce5d8a3edcf6.png?raw=true)
+<p align="center"><img src="https://github.com/breatheco-de/content/blob/master/src/assets/images/032a818d-e4d7-4276-8195-ce5d8a3edcf6.png?raw=true" width="1000" alt="user stories examples"/></p>
 
 ### ¿Cómo debes escribir las historias de usuario?
-
 
 Es tan simple que se vuelve complicado... lo más importante es: (1) Mantener un lenguaje simple, (2) Ser breve, (3) Especificar:
 
