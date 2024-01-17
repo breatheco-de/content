@@ -26,7 +26,7 @@ En lugar de desarrollar una gran aplicación, desarrollarás y entregarás una s
 Cada incremento se llama "sprint" y tiene los siguientes pasos:
 
 + Comienza en el momento en que escribes **los requisitos de tu aplicación.**
-+ Continúa con un plan general aproximado (solo para tener una idea aproximada de la fecha de entrega, las tecnologías principales, etc.)
++ Continúa con un plan general aproximado (solo para tener una idea aproximada de la fecha de entrega, las tecnologías principales, etc).
 + Entonces continúa con el **diseño** (interfaces de usuario y arquitectura técnica).
 + Pasamos al desarrollo (escribir código).
 + Terminando con las pruebas y la entrega… y luego empezar de nuevo.
