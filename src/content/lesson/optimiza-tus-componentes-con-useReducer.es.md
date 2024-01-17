@@ -160,5 +160,3 @@ Para que esto funcione fue necesario usar el state del reducer y reemplazar las 
      title="useReducer Demo"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
-
-   <iframe width="100%" height="300" src="https://codesandbox.io/embed/t34ldl?view=Editor+%2B+Preview&module=%2Fsrc%2Freducercounter.js&hidenavigation=1" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
