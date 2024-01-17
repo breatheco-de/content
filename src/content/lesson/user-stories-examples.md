@@ -33,7 +33,7 @@ A user story is like having a conversation with your future user. They must be w
 
 ### Here are some Examples:
 
-![user stories examples](https://github.com/breatheco-de/content/blob/master/src/assets/images/032a818d-e4d7-4276-8195-ce5d8a3edcf6.png?raw=true)
+<p align="center"><img src="https://github.com/breatheco-de/content/blob/master/src/assets/images/032a818d-e4d7-4276-8195-ce5d8a3edcf6.png?raw=true" width="1000" alt="user stories examples"/></p>
 
 ### How should you Write the User Stories?
 
