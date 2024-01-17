@@ -17,7 +17,7 @@ La solucion a este problema es `useReducer`, que como dice su nombre, **reduce**
 
 ## Encapsulando con useReducer
 
-El hook `useReducer` recibe como primer parámetro una funcion que define el `reducer`, y va a retornar un arreglo de dos valores que representan al nuevo estado y al objeto que permite ejecutar las acciones de la lógica del reducer. Como segundo parámetro se debe pasar una funcion que retorne un objeto con los valores iniciales del estado .
+El hook `useReducer` recibe como primer parámetro una funcion que define el `reducer`, y va a retornar un arreglo de dos valores que representan al nuevo estado (`state`) y al objeto que permite ejecutar las acciones de la lógica del reducer (`actions`). Como segundo parámetro se debe pasar una funcion que retorne un objeto con los valores iniciales del estado .
 
 ```javascript
   const intitialCounter = () => ({counter: 0});
