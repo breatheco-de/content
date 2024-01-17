@@ -44,7 +44,7 @@ Es tan simple que se vuelve complicado... lo más importante es: (1) Mantener un
 + **Característica:** ¿De qué se trata la característica?
 + **Razón:**  ¿Cuál es la razón para hacerlo?
 
-<p align="center"; style= "font-size:30px" > Como <font color="#57C3AD">[rol]</font>, Puedo <font color="#6FA3EF">[característica]</font> para que <font color="#FF5757">[razón]</font></p>
+<p align="center"; style= "font-size:30px" > Como <font color="#57C3AD">[rol]</font>, puedo <font color="#6FA3EF">[característica]</font> para que <font color="#FF5757">[razón].</font></p>
 
 Veamos otro ejemplo:
 
