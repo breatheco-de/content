@@ -66,7 +66,7 @@ Siéntete libre de variaciones del ejemplo:
 
 ### Herramientas para escribir historias de usuario
 
-Hay millones de herramientas que te ayudaran a gestionar esta tarea; [Haz clic aquí para verlas](https://theproductmanager.com/tools/best-user-story-software/). Algunas son gratuitas y otras cuestan dinero, pero a lo largo de los años hemos decidido hacerlo nosotros mismos utilizando fichas o post-it.
+Hay millones de herramientas que te ayudarán a gestionar esta tarea; [Haz clic aquí para verlas](https://theproductmanager.com/tools/best-user-story-software/). Algunas son gratuitas y otras cuestan dinero, pero a lo largo de los años hemos decidido hacerlo nosotros mismos utilizando fichas o post-it.
 
 ### Usa fichas o post-it y un plumón
 
