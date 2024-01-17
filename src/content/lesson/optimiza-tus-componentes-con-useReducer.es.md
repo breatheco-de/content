@@ -153,10 +153,13 @@ export default function CounterUsingReducer() {
 Para que esto funcione fue necesario usar el state del reducer y reemplazar las funciones que estaban antes, por llamados a la funcion `dispatch`, que ejecuta la lógica del reducer y recibe como parámetro el tipo de la accion que se va a ejecutar.
 
 
-## Comparemos ambos casos
+## Veamos ambos casos en accion
 
 <iframe src="https://codesandbox.io/embed/t34ldl?view=Editor+%2B+Preview&module=%2Fsrc%2Freducercounter.js&hidenavigation=1"
      style="width:100%; height: 500px; border:0; border-radius: 4px; overflow:hidden;"
      title="useReducer Demo"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
+
+# Todo listo!
+Ya hemos visto las ventajas de useReducer y sabemos como extraer la logica de nuestro estado a un reducer ubicado archivo externo que pueden reutilizar los demas componentes. Esto no significa que tengas que desechar `useState` por completo y solo usar `useReducer`, como todo en programacion se trata de usar la herramienta adecuada para el trabajo adecuado. Los reducer son ideales cuando tenemos muchas funciones asociadas al estado, y nos convenga agrupar lógica y datos. Esto puede darse en un escenario de gran complejidad o cuando se necesite reutilizar funciones y estados en varios componentes, ahi tendras la poderosa herramienta de `useReducer` en tu arsenal.
