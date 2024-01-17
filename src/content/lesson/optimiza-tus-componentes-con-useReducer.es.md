@@ -106,7 +106,7 @@ Esto funciona perfecto, pero para hacer la lógica reutilizable y moverlo a otro
 ```javascript
 // counterReducer.js
 export const intitialCounter = () => ({
-  counter: 0,
+  counter: 0
 });
 export default function counterReducer(state, action = {}) {
   switch (action.type) {
@@ -162,4 +162,4 @@ Para que esto funcione fue necesario usar el state del reducer y reemplazar las 
    ></iframe>
 
 # Todo listo!
-Ya hemos visto las ventajas de useReducer y sabemos como extraer la logica de nuestro estado a un reducer ubicado archivo externo que pueden reutilizar los demas componentes. Esto no significa que tengas que desechar `useState` por completo y solo usar `useReducer`, como todo en programacion se trata de usar la herramienta adecuada para el trabajo adecuado. Los reducer son ideales cuando tenemos muchas funciones asociadas al estado, y nos convenga agrupar lógica y datos. Esto puede darse en un escenario de gran complejidad o cuando se necesite reutilizar funciones y estados en varios componentes, ahi tendras la poderosa herramienta de `useReducer` en tu arsenal.
+Ya hemos visto las ventajas de useReducer y sabemos como extraer la logica de nuestro estado a un reducer ubicado en un archivo externo que pueden reutilizar los demas componentes. Esto no significa que tengas que desechar `useState` por completo y solo usar `useReducer`, como todo en programacion se trata de usar la herramienta adecuada para el trabajo adecuado. Los reducer son ideales cuando tenemos muchas funciones asociadas al estado, y nos convenga agrupar lógica y datos. Esto puede darse en un escenario de gran complejidad o cuando se necesite reutilizar funciones y estados en varios componentes, ahi tendras la poderosa herramienta de `useReducer` en tu arsenal.
