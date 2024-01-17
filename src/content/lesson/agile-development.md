@@ -12,7 +12,7 @@ status: "published"
 
 ## Time to Build Awesome Stuff!
 
-Junior developers understand the basic tricks of coding (for, while, if...else, functions, variables, etc.) But Senior developers can see the big picture and make an application from start to finish.  This course is an attempt at making you see the big picture and start building very professional apps right away!
+Junior developers understand the basic tricks of coding (for, while, if...else, functions, variables, etc.) But Senior developers can see the big picture and make an application from start to finish. This course is an attempt at making you see the big picture and start building very professional apps right away!
 
 > ☝️ If you are still not comfortable with loops, functions or any other concept, please talk to your instructor to take action right away.
 
