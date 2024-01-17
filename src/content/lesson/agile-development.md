@@ -1,5 +1,4 @@
 ---
-slug: "Agile-development"
 title: "Intro to Professional and Agile Development"
 subtitle: "All you've learned needs to be put together. Let's make our first entire professional application using the Agile Development method!"
 cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
