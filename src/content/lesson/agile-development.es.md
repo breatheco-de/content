@@ -1,5 +1,4 @@
 ---
-slug: "agile-development"
 title: "Introducción al desarrollo profesional y ágil."
 subtitle: "Todo lo que aprendiste se debe unir. ¡Hagamos nuestra primera aplicación profesional completa usando el método de desarrollo ágil!"
 cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg?raw=true"
