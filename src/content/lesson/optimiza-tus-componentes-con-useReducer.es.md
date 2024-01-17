@@ -17,13 +17,22 @@ La solucion a este problema es `useReducer`, que como dice su nombre, **reduce**
 
 ## Encapsulando con useReducer
 
-El hook `useReducer` recibe como parámetro una funcion que define el `reducer`, y va a retornar una tupla que permite acceder al nuevo estado y despachar las acciones que van a ejecutar la respectiva lógica.
+El hook `useReducer` recibe como primer parámetro una funcion que define el `reducer`, y va a retornar un arreglo de dos valores que representan al nuevo estado y al objeto que permite ejecutar las acciones de la lógica del reducer. Como segundo parámetro se debe pasar una funcion que retorne un objeto con los valores iniciales del estado .
 
 ```javascript
-  const [state, dispatch] = useReducer(counterReducer, counterReducer());
+  const intitialCounter = () => ({counter: 0});
+  const [state, dispatch] = useReducer(counterReducer, intitialCounter());
 ```
 
-Esta funcion reducer se va a ejecutar en cada llamado de accion y deberá retornar una nueva version del estado que reemplaza por completo la anterior, por lo que hay que ser cuidadoso y solo alterar lo que necesitamos y retornar siempre los demas valores del estado utilizando la desesctructuracion 🤓.
+A su vez la funcion reducer se define con 2 parametros: El `state` que tiene los datos que se van a trabajar, y un objeto que se usa para ejecutar las acciones dentro del reducer (al que llamaremos `actions`). 
+
+```javascript
+function counterReducer(state , action = {}) {
+  // Aqui el reducer recibe el estado y ejecuta las acciones
+}
+```
+
+Esta funcion reducer se va a ejecutar en cada llamado de accion y deberá retornar una nueva version del estado que reemplaza por completo la anterior al terminar su ejecucion, por lo que hay que ser cuidadoso y solo alterar lo que necesitamos y retornar siempre los demas valores del estado utilizando la desesctructuracion 🤓.
 
 👍**SI**
 
@@ -36,9 +45,112 @@ return { ...state, counter: state.counter + 1 }
 return { counter: state.counter + 1 }
 ```
 
+Dentro del reducer, el objeto `actions` contiene una propiedad `type` que nos indica que accion ha sido invocada, y podremos escribir la logica basado en ello.
+
+```javascript
+export default function counterReducer(state, action = {}) {
+  switch (action.type) {
+    case "INCREMENT":
+      return { ...state, counter: state.counter + 1 };
+    case "DECREMENT":
+      return { ...state, counter: state.counter - 1 };
+    case "PLUSTEN":
+      return { ...state, counter: state.counter + 10 };
+    case "MULTYPLYBYTWO":
+      return { ...state, counter: state.counter * 2 };
+    case "RESET":
+      return { ...state, counter: 0 };
+    default: 
+    // En caso no tener ningun tipo se retorna el estado sin alterar
+      return state;
+  }
+}
+```
+
+Ya con esto podemos tener tanto las funciones `counterReducer` e `intitialCounter` exportadas en un archivo, para ser utilizadas por cualquier otro componente 👌.
+
+
 ## Migrando de useState a useReducer
 
+En este ejemplo tenemos un contador que no solamente suma de 1 en 1, sino tambien tiene otras opciones para modificar el valor.
 
+![react counter using state](https://breathecode.herokuapp.com/v1/media/file/state-counter-png?width=200)
+
+Para realizar todas estas acciones se necesitan funciones para cada una de ellas, ademas del estado en si.
+```javascript
+export default function CounterUsingState() {
+  const [counter, setCounter] = useState(0);
+  const increment = () => setCounter(counter + 1);
+  const decrement = () => setCounter(counter - 1);
+  const reset = () => setCounter(0);
+  const plusten = () => setCounter(counter + 10);
+  const multiplyByTwo = () => setCounter(counter * 2);
+
+  return (
+    <div className="container">
+      <h2>State counter</h2>
+      <h3>{counter}</h3>
+      <div className="buttons">
+        <button onClick={increment}>+1</button>
+        <button onClick={decrement}>-1</button>
+        <button onClick={reset}>0</button>
+        <button onClick={plusten}>+10</button>
+        <button onClick={multiplyByTwo}>x2</button>
+      </div>
+    </div>
+  );
+}
+```
+Esto funciona perfecto, pero para hacer la lógica reutilizable y moverlo a otro archivo, lo convertiremos en un reducer:
+
+```javascript
+// counterReducer.js
+export const intitialCounter = () => ({
+  counter: 0,
+});
+export default function counterReducer(state, action = {}) {
+  switch (action.type) {
+    case "INCREMENT":
+      return { ...state, counter: state.counter + 1 };
+    case "DECREMENT":
+      return { ...state, counter: state.counter - 1 };
+    case "PLUSTEN":
+      return { ...state, counter: state.counter + 10 };
+    case "MULTYPLYBYTWO":
+      return { ...state, counter: state.counter * 2 };
+    case "RESET":
+      return { ...state, counter: 0 };
+    default:
+      return state;
+  }
+}
+
+```
+
+Ahora desde el componente importamos y hacemos uso del reducer:
+```javascript
+import React, { useReducer } from "react";
+import counterReducer, { intitialCounter } from "./counterReducer";
+
+export default function CounterUsingReducer() {
+  const [state, dispatch] = useReducer(counterReducer, intitialCounter());
+
+  return (
+    <div>
+      <h2>Reducer counter</h2>
+      <h3>{state.counter}</h3>
+      <div>
+        <button onClick={() => dispatch({ type: "INCREMENT" })}>+1</button>
+        <button onClick={() => dispatch({ type: "DECREMENT" })}>-1</button>
+        <button onClick={() => dispatch({ type: "RESET" })}>0</button>
+        <button onClick={() => dispatch({ type: "PLUSTEN" })}>+10</button>
+        <button onClick={() => dispatch({ type: "MULTYPLYBYTWO" })}>x2</button>
+      </div>
+    </div>
+  );
+}
+```
+Para que esto funcione fue necesario usar el state del reducer y reemplazar las funciones que estaban antes, por llamados a la funcion `dispatch`, que ejecuta la lógica del reducer y recibe como parámetro el tipo de la accion que se va a ejecutar.
 
 
 ## Comparemos ambos casos
@@ -46,7 +158,6 @@ return { counter: state.counter + 1 }
 <iframe src="https://codesandbox.io/embed/t34ldl?view=Editor+%2B+Preview&module=%2Fsrc%2Freducercounter.js&hidenavigation=1"
      style="width:100%; height: 500px; border:0; border-radius: 4px; overflow:hidden;"
      title="useReducer Demo"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
