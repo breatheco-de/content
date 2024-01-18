@@ -1,0 +1,17 @@
+{
+  "grammarly.selectors": [
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "src/content/lesson/optimiza-tus-componentes-con-useReducer.es.md"
+    }
+  ],
+  "cSpell.words": [
+    "intitial",
+    "MULTYPLYBYTWO",
+    "plusten",
+    "PLUSTEN",
+    "usereducer",
+    "verem"
+  ]
+}
