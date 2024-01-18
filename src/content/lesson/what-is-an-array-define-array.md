@@ -159,7 +159,7 @@ var myArray = [3423,5,4,47889,654,8,867543,23,48,56432,55,23,25,12];
 
 ## Removing from an Array
 
-Variables can have different types of values. Some of them are available only in specific programming languages, but, almost all of them have the following types:
+These are different methods that allow you to remove elements from an array:
 
 ### Splice and Slice
 
