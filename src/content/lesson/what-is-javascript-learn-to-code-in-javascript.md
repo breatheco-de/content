@@ -163,7 +163,7 @@ For example, if I want a computer to give candy only to kids older than 13 years
 |Not Equal to   |!=             |Is 5 != 5? False!<br>Is 5 != '5'? False!<br>Is 1 != 'Hello' True!   |
 |Greater than   |>              |Is 5 > 5? False!<br>Is 6 > 3? True!    |
 |Less than      |<              |Is 6 < 12? True            |
-|Greater or equal  |>=             |Is 6 <= 6? True<br>Is 3 <= 6? True    |
+|Greater or equal  |>=             |Is 6 >= 6? True<br>Is 3 >= 6? True    |
 |Less or equal   |<=            |You get the idea 🙂       |
 
 To create really useful operations, you can combine several operations in the same question using AND, OR, and NOT.
