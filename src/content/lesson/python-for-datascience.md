@@ -9,101 +9,524 @@ tags: ["data-science", "python", "pandas", "numpy"]
 canonical: ""
 ---
 
-This lesson is a roadmap on how to learn Python for data science. If you already know Python and have -at least some- experience with the data science libraries Pandas, Numpy, etc. You can skip ahead to the next lesson.
 
-Python is a very diverse language used to build robots, networks, websites, APIs, games, artificial intelligence, and more. Depending on what you are making, the syntax can vary so much that you hardly recognize similarities between codebases.
+**Python** is a very versatile programming language used in a multitude of cases: web development (both front and back end), mobile game development, simulations, networks, automations, and more. Additionally, it is the go-to language for working with data and developing algorithms for Artificial Intelligence, Data Science, and Machine Learning. Before we dive in, let's distinguish between the three terms mentioned:
 
-Don't get me wrong, no matter what you are building, you will be looping, using conditions, logical expressions, filtering, using functions and classes, but you will be doing those things in ways that feel differently. Let me give you an example: 
+| Term | Definition | Scope | Goal |
+|:--------|:-----------|:---------|:---------|
+| Artificial Intelligence (*AI*) | The study of how to make computers think and act like humans. | A broad field including subfields like machine learning, robotics, natural language processing, computer vision, etc. | Simulate human intelligence in machines. |
+| Machine Learning (*ML*) | A subfield of AI focusing on developing algorithms and models that allow computers to learn from data. | A specific technique within artificial intelligence. | Make predictions or decisions without being explicitly programmed.|
+| *Data Science* | An interdisciplinary field using statistical, computational, and analytical techniques to interpret, understand, and extract knowledge from structured and unstructured data.| Involves acquiring, cleaning, analyzing, and visualizing data, and may use AI and machine learning for analysis. | Discover patterns and obtain valuable insights from large datasets. |
 
-Many ways to filter colors
-If you want to filter a list of numbers with only odd numbers, you can do it like this:
+![Discipline differences](https://github.com/breatheco-de/content/blob/master/src/assets/images/disciplines_differences.png?raw=true)
 
-```python
-# this is our common list of numbers
-numbers = [23,34,5,6,45,34,23,5,45,5,324,23,354,65,564,45,342]
+While AI focuses on simulating human intelligence, machine learning is a technique within AI that enables machines to learn from data, and data science is a broader discipline dealing with the entire process of working with data, from collection to interpretation, and may involve the use of AI and machine learning.
 
-# Filtering with basic python 3
-odds = [n for n in numbers if n % 2 != 0]
-print(odds)
+## Basic Python Guide
 
-# Filtering with basic python 3
-odds = list(filter(lambda n: n % 2 != 0,numbers))
-print(odds)
+### `Hello, World!`
 
-# Filtering with numpy
-import numpy as np
-odds = np.array(numbers)
-print(odds[odds % 2 != 0])
+Every developer starting with a new language prints 'Hello, World!'. In Python, we can do it using the print function, which displays any data or text placed within its parentheses:
+
+```py
+print("Hello, World!")
 ```
 
-In the example above, the three ways will filter and output the same list of odds numbers, but in the background (at the lowest machine level), things are executing in a very different way.
+### Variables
 
-For this and many other reasons, it is convenient to start learning the Datascience syntax from the beginning.
+A *variable* in Python (and most programming languages) is a container that stores data that can vary over time. This value can be a number, text, a list of elements, etc. The special thing about this container is that we can give it a name to identify it and access what it holds when needed:
 
-## Learning Python for DataScience
+```py
+name = "Juan"
+age = 25
+height = 1.80
+is_student = True
+```
 
-In the data science world of Python, there is a family of libraries that are on the top of the food chain: Numpy, Pandas, Seaborn, Matplotlib, Scikit, etc. We will be learning each of them during the next couple of weeks while building real-life projects.
+Additionally, variables are mutable and can change over time. So, just as we can access their value to read it, we can also modify it:
 
-### Help function
+```py
+my_number = 10
+print(f"Original number: {my_number}")
 
-We will be using A LOT of 3rd party code and functions (from other people); it's better to learn about a python feature called `help()` that will tell you how to use almost anything.
+my_number = 60
+print(f"New number: {my_number}")
+```
 
-### The commonalities
+This way, we have changed the value of the variable my_number from 10 to 60.
 
-If you don't know how to code, it's better to forget about data science for a second and start learning Python from scratch: 
-What are variables: integer, float, string, null (or None), boolean.
 
-- **Listing**: list, tuple, sequence, matrix, and how to loop or iterate the structures.
-- **Conditions**: if-else statement with logical operations for comparisons.
-- **Functions**: normal and lambda functions to encapsulate, organize and re-use code.
-- **Classes**: Creating custom data structures helps encapsulate, organize, and re-use even more than using classes.
+Sure, I'd be happy to translate that for you:
 
-### The approach
+"Python is a very versatile programming language used in a multitude of cases: web development (both front and back end), mobile game development, simulations, networks, automations, and more. Additionally, it is the go-to language for working with data and developing algorithms for Artificial Intelligence, Data Science, and Machine Learning. Before we dive in, let's distinguish between the three terms mentioned:
 
-Since we are focused on using Python for data science, we will be working with massive amounts of data; I strongly recommend starting your training focusing on exercises and projects about the following:
+Term	Definition	Scope	Goal
+Artificial Intelligence (AI)	The study of how to make computers think and act like humans.	A broad field including subfields like machine learning, robotics, natural language processing, computer vision, etc.	Simulate human intelligence in machines.
+Machine Learning (ML)	A subfield of AI focusing on developing algorithms and models that allow computers to learn from data.	A specific technique within artificial intelligence.	Make predictions or decisions without being explicitly programmed.
+Data Science	An interdisciplinary field using statistical, computational, and analytical techniques to interpret, understand, and extract knowledge from structured and unstructured data.	Involves acquiring, cleaning, analyzing, and visualizing data, and may use AI and machine learning for analysis.	Discover patterns and obtain valuable insights from large datasets.
+While AI focuses on simulating human intelligence, machine learning is a technique within AI that enables machines to learn from data, and data science is a broader discipline dealing with the entire process of working with data, from collection to interpretation, and may involve the use of AI and machine learning.
 
-- Looping an extensive list of data.  
-- Filtering a big list of data, removing null values.  
-- Mapping lists of values from one format to another.  
-- Dealing with matrixes. 
-- Ploting data to charts. 
+Basic Python Guide
+Hello, World!
+Every developer starting with a new language prints 'Hello, World!'. In Python, we can do it using the print function, which displays any data or text placed within its parentheses:
 
-### The libraries
+python
+Copy code
+print("Hello, World!")
+Variables
+A variable in Python (and most programming languages) is a container that stores data that can vary over time. This value can be a number, text, a list of elements, etc. The special thing about this container is that we can give it a name to identify it and access what it holds when needed:
 
-- **Start with Numpy**: because it's the bare bones, all the other libraries either work on top of Numpy or are compatible with it. In addition, Numpy comes with The Array and a series of functions to save you lots of time and processing power for the typical operations when dealing with big chunks of data.
+python
+Copy code
+name = "Juan"
+age = 25
+height = 1.80
+is_student = True
+Additionally, variables are mutable and can change over time. So, just as we can access their value to read it, we can also modify it:
 
-- **Continue with Pandas and Seaborn**: built on top of Numpy, the panda's library incorporates "The DataFrame" object; Simplifying the import, export, and transformation of multidimensional datasets.
+python
+Copy code
+my_number = 10
+print(f"Original number: {my_number}")
 
-- Chart your DataFrame with **Matplotlib**: This library is responsible for the majority of the data visualizations you see in the world of data science: From a simple bar chart to histograms, it allows to use of arrays, data frames, and algebra to create data visualizations. 
+my_number = 60
+print(f"New number: {my_number}")
+This way, we have changed the value of the variable my_number from 10 to 60.
 
-- Use statistic functions with **stats**: This library includes the most common statistics functions like mean, std, variance, correlation, etc.
+Variables are fundamental in programming because they:
 
-- Create models with **scikit learn**: Simple and efficient tools for predictive data analysis. Built on NumPy, SciPy, and matplotlib.
-  
+1. Allow storing information for later use.
+2. Facilitate operations between them (depending on their type).
+3. Make the code more readable and organized. It's easier to understand person_height than to remember what a random number means in the code.
 
-### Performance
+It's important to always give variables descriptive names so that we (or anyone reading our code) can easily understand what they are for and what they are supposed to contain.
 
-When creating algorithms for websites, API's, networks, robots or other applications; You don't necessarily about performace because you can always upgrade your server or your CPU. Obviously performance it's still an important variable, but you can have a slow website or you can pay a lot more to "speed it up".
+### Data Types
 
-On the other hand, when building AI's, performance is a big concern. You could say that "processing power" is the biggest limitation this field has right now. There is so much data and models need so much training that current technology cannot keep up. 
+Python has its own basic *data types*:
 
-That is why you should know a little about `Big O` and optimizing algorithms for space and time.
+**Integer** (* `int`*):
 
-### Jupyter vs Python files
+Represents whole numbers, positive or negative.
+```py
+num_int1 = 123
+num_int2 = -57
+```
 
-Most -if not all- of the python courses about machine learning heavily use Jupyter Notebooks to build and clean your data and run the models. At 4Geeks we don't like this approach much, we prefer to stay working on `.py` files and work on coding editors like VSCode, Pycharm, etc. like software engineers do in all the other fields were python is used.
+**Floating point** (* `float`*):
 
-We like using Jupyter as a communication tool, mainly to tell stories to management, show the strategy and some brainstorming.
+Represents real numbers with decimals.
+```py
+num_float1 = 3.14
+num_float2 = -0.16
+```
 
-### Package Manager and setup environs
+**String** (*`str`*): 
 
-If we are not going to be using Jupyter notebooks as much as other data scientists, we need to become very good at setting up Python environments, downloading python packages, using the PIP package manager, etc.
+ Represents sequences of characters (text).
+```py
+str_var = "This is a sample text"
+```
 
-- Pyenv for Python Versions: There are multiple versions of python and you need to get used to switch between versions because some times you are trying to use newer features or maybe old deprecated ones.
-- Pip: This is the "package manager" for Python, it allows you to download and use Numpy, Pandas and many other awesome libraries.
-- Virtual environment: every project could have a different python version, that is why you need to create virtual enviroments to isolate your projects from each other.
-- Pipenv: Is an awsome tool that simplifies the user of PIP and Virtual Env.
+**Boolean** (* `bool`*):
 
-### Typical data-science project structure
+ Represents truth values, i.e., True or False.
+```py
+bool_var1 = True
+bool_var2 = False
+```
 
-We will be using a template for our projects called [Cookie Cutter Datascience](https://drivendata.github.io/cookiecutter-data-science/). Using a template is always a good idea to organize your project files and workflow. You can read the documentation and watch [this video on how it works](https://www.youtube.com/watch?v=nExL0SgKsDY).
+**List** (* `list`*):
+
+Represents an ordered collection of elements. Elements can be of any type, and its content can be modified (inserting, deleting, etc.).
+```py
+list_numbers = [1, 2, 3, 4, 5]
+list_strings = ["A", "B", "C", "D"]
+```
+
+**Tuple** (*`tuple`*): 
+
+Tuple (tuple): Similar to a list but immutable, meaning once created, its content cannot be changed.
+```py
+tuple_numbers = (1, 2, 3, 4, 5)
+tuple_booleans = (True, False, False)
+```
+
+**Set** (*`set`*): 
+
+Represents an unordered collection of unique elements (no duplicates).
+
+```py
+set_fruits = {"apple", "banana", "cherry"}
+```
+
+**Dictionary** (* `dict`*):
+
+Represents an unordered collection of key-value pairs.
+```py
+dict_person = {
+   "name": "Juan",
+    "age": 25,
+    "height": 1.80,
+    "is_student": True
+}
+```
+
+**Bytes** (*`bytes`*): 
+
+Represents sequences of bytes, typically used for handling binary data.
+
+```py
+bytes_var = b"Hello"
+```
+In addition to these basic types, Python also offers modules and libraries that define more specialized data types.
+
+### Operators
+
+*Operators* are symbols indicating an operation:
+
+**Mathematical Operators**
+
+Mathematical operators perform arithmetic operations. Depending on the type of variables, the results can vary, and they don't necessarily have to be applied only to numbers.
+
+- Addition: `+`
+- Subtraction: `-`
+- Multiplication: `*`
+- Division: `/`
+- Modulo: `%`
+
+```py
+x = 5
+y = 3
+z = x + y # z = 8
+z = x * y # z = 15
+```
+
+**Logical Operators**
+
+
+Sure, I'd be happy to translate that for you:
+
+"Python is a very versatile programming language used in a multitude of cases: web development (both front and back end), mobile game development, simulations, networks, automations, and more. Additionally, it is the go-to language for working with data and developing algorithms for Artificial Intelligence, Data Science, and Machine Learning. Before we dive in, let's distinguish between the three terms mentioned:
+
+Term	Definition	Scope	Goal
+Artificial Intelligence (AI)	The study of how to make computers think and act like humans.	A broad field including subfields like machine learning, robotics, natural language processing, computer vision, etc.	Simulate human intelligence in machines.
+Machine Learning (ML)	A subfield of AI focusing on developing algorithms and models that allow computers to learn from data.	A specific technique within artificial intelligence.	Make predictions or decisions without being explicitly programmed.
+Data Science	An interdisciplinary field using statistical, computational, and analytical techniques to interpret, understand, and extract knowledge from structured and unstructured data.	Involves acquiring, cleaning, analyzing, and visualizing data, and may use AI and machine learning for analysis.	Discover patterns and obtain valuable insights from large datasets.
+While AI focuses on simulating human intelligence, machine learning is a technique within AI that enables machines to learn from data, and data science is a broader discipline dealing with the entire process of working with data, from collection to interpretation, and may involve the use of AI and machine learning.
+
+Basic Python Guide
+Hello, World!
+Every developer starting with a new language prints 'Hello, World!'. In Python, we can do it using the print function, which displays any data or text placed within its parentheses:
+
+python
+Copy code
+print("Hello, World!")
+Variables
+A variable in Python (and most programming languages) is a container that stores data that can vary over time. This value can be a number, text, a list of elements, etc. The special thing about this container is that we can give it a name to identify it and access what it holds when needed:
+
+python
+Copy code
+name = "Juan"
+age = 25
+height = 1.80
+is_student = True
+Additionally, variables are mutable and can change over time. So, just as we can access their value to read it, we can also modify it:
+
+python
+Copy code
+my_number = 10
+print(f"Original number: {my_number}")
+
+my_number = 60
+print(f"New number: {my_number}")
+This way, we have changed the value of the variable my_number from 10 to 60.
+
+Variables are fundamental in programming because they:
+
+Allow storing information for later use.
+Facilitate operations between them (depending on their type).
+Make the code more readable and organized. It's easier to understand person_height than to remember what a random number means in the code.
+It's important to always give variables descriptive names so that we (or anyone reading our code) can easily understand what they are for and what they are supposed to contain.
+
+Data Types
+Python has its own basic data types:
+
+Integer (int): Represents whole numbers, positive or negative.
+
+python
+Copy code
+num_int1 = 123
+num_int2 = -57
+Floating Point (float): Represents real numbers with decimals.
+
+python
+Copy code
+num_float1 = 3.14
+num_float2 = -0.16
+String (str): Represents sequences of characters (text).
+
+python
+Copy code
+str_var = "This is a sample text"
+Boolean (bool): Represents truth values, i.e., True or False.
+
+python
+Copy code
+bool_var1 = True
+bool_var2 = False
+List (list): Represents an ordered collection of elements. Elements can be of any type, and its content can be modified (inserting, deleting, etc.).
+
+python
+Copy code
+list_numbers = [1, 2, 3, 4, 5]
+list_strings = ["A", "B", "C", "D"]
+Tuple (tuple): Similar to a list but immutable, meaning once created, its content cannot be changed.
+
+python
+Copy code
+tuple_numbers = (1, 2, 3, 4, 5)
+tuple_booleans = (True, False, False)
+Set (set): Represents an unordered collection of unique elements (no duplicates).
+
+python
+Copy code
+set_fruits = {"apple", "banana", "cherry"}
+Dictionary (dict): Represents an unordered collection of key-value pairs.
+
+python
+Copy code
+dict_person = {
+    "name": "Juan",
+    "age": 25,
+    "height": 1.80,
+    "is_student": True
+}
+Bytes (bytes): Represents sequences of bytes, typically used for handling binary data.
+
+python
+Copy code
+bytes_var = b"Hello"
+In addition to these basic types, Python also offers modules and libraries that define more specialized data types.
+
+Operators
+Operators are symbols indicating an operation:
+
+Mathematical Operators
+
+Mathematical operators perform arithmetic operations. Depending on the type of variables, the results can vary, and they don't necessarily have to be applied only to numbers.
+
+Addition: +
+Subtraction: -
+Multiplication: *
+Division: /
+Modulo: %
+Example:
+
+python
+Copy code
+x = 5
+y = 3
+z = x + y  # z = 8
+z = x * y  # z = 15
+Logical Operators
+
+Logical operators evaluate conditions and return boolean values. They can be used in loops, conditionals, filters, etc., and are versatile and useful.
+
+- Logical AND : `and`
+- Logical OR : `or`
+- Logical NOT (negation): `not`
+
+```py
+true_value = True
+false_value = False
+result = true_value and false_value  # result = False
+result = true_value or false_value   # result = True
+```
+
+### Control Structures
+
+Control structures in Python are instructions that allow modifying the flow of a program's execution. These structures enable making decisions, repeating code blocks, and jumping to different parts of the code depending on certain logical conditions.
+
+In Python, the main control structures are:
+
+#### Decision Structures
+
+**`if`**
+
+Allows executing a code block if a condition is met.
+
+```py
+age = 18
+if age >= 18:
+    print("You are of legal age.")
+
+```
+
+**`elif`**
+
+Extends if to include and check other conditions.
+
+```py
+if age < 18:
+    print("You are a minor.")
+elif age >= 18:
+    print("You are of legal age.")
+```
+
+**`else`**
+
+Executes when none of the previous condition(s) is met.
+
+
+```py
+if age < 18:
+    print("You are a minor.")
+else:
+    print("You are of legal age.")
+```
+
+#### Loop Structures
+
+**`for`**
+
+Repeats a code block a certain number of times or through the elements of a collection.
+
+```py
+for i in range(5):
+    print(i)
+# Displays on the screen 0, 1, 2, 3, 4
+
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+# Displays on the screen apple, banana, cherry
+```
+
+**`while`**
+
+Repeats a code block while a condition is met.
+
+```py
+counter = 0
+while counter < 5:
+    print(counter)
+    counter += 1
+# Displays on the screen 0, 1, 2, 3, 4
+```
+
+#### Loop Control
+
+**`break`**
+
+Terminates the loop before it has completed all its iterations.
+
+```py
+for letter in "Python":
+    if letter == "h":
+        break
+    print(letter)
+# Prints P, y, t
+```
+
+**`continue`**
+
+Skips to the next iteration of the loop, skipping the code that follows.
+
+```py
+for letter in "Python":
+    if letter == "h":
+        continue
+    print(letter)
+# Prints P, y, t, o, n
+```
+
+**`pass`**
+
+Does nothing. Acts as a placeholder where a syntax statement is required, but no code execution is desired.
+
+```py
+for letter in "Python":
+    if letter == "h":
+        pass
+    print(letter)
+# Prints P, y, t, h, o, n
+```
+
+These control structures are essential for creating programs that can make decisions, repeat tasks, and handle different situations or inputs. By combining and nesting them, we can create complex workflows and sophisticated logic in our programs.
+
+### Functions
+
+A ** function ** is a reusable block of code that performs a specific task.
+
+```py
+def greeting(name):
+    return f"Hello, {name}!!"
+
+print(greeting("Juan"))
+```
+
+Functions provide a way to modularize code, allowing us to organize and reuse code snippets in different parts of our programs. This improves quality and facilitates debugging and maintenance.
+
+A Python code combines all the elements we've just seen in this guide to carry out a specific task. Here's a simple program that takes the user's age, determines if they are a minor, an adult, or a senior citizen, and then prints a list of recommended activities for each group:
+
+```py
+# 1. Data Types
+name = input("Please enter your name:")
+age = int(input("Please enter your age:"))
+
+# 2. Decision Structure
+if age < 18:
+    status = "minor"
+    activities = ["study", "ride a bike", "hang out with friends"]
+elif age < 65:
+    status = "adult"
+    activities = ["work", "read a book", "travel"]
+else:
+    status = "senior citizen"
+    activities = ["rest", "read the newspaper", "take a walk"]
+
+# 3. Loop Structure
+print(f"\nHello, {name}. You are a {status}. Here are some activities you might consider:")
+for activity in activities:
+    print(f"- {activity}")
+```
+
+## Libraries
+
+A **library** is a collection of predefined functions designed for a specific purpose. The goal is to simplify the developer's work and avoid programming them from scratch. There are many libraries organized based on their utility. Since Python is the most used language in the fields of Data Science and Artificial Intelligence, some of its most used libraries are related to these fields:
+
+- Scikit-learn
+- NuPIC
+- Ramp
+- Numpy
+- Pandas
+- TensorFlow
+- Keras
+- Pipenv
+- Scipy
+- Matplotlib
+
+Most of these are used in processes like Machine Learning, NLP, Computer Vision, and many other areas of artificial intelligence. Therefore, it's crucial to know and be able to use some of these libraries, which are key to any data science work.
+
+In this boot camp, we'll dive deep into Numpy, a library used to process and work with multidimensional arrays efficiently, Pandas, built on Numpy and allowing working with tabular data structures called DataFrames, Matplotlib, enabling the option to visualize data and its relationships, and scikit-learn, widely used for building Machine Learning models.
+
+## Performance
+
+All software that is programmed must run on hardware, which is a set of physical elements constituting a computer system. The more efficient the code you implement, the greater the utilization of hardware resources, the shorter the execution times, the greater the possibility of parallelizing tasks, etc.
+
+When building artificial intelligence models, performance is a major concern because processing power is the biggest limitation in this field at the moment. Therefore, building efficient code and functions is a fundamental pillar. We'll also learn about it.
+
+## Code Development
+
+There are two main ways to program in Python, and each of them can be carried out using different tools:
+
+- **Flexible Programming**: It is carried out using web interfaces like Jupyter Notebook or Google Collab. It is characterized by not having a predefined code structure and is designed for quick and trial-and-error developments. In this type of development, **notebooks** are generated.
+
+- **Productive Programming**: It is done in **Integrated Development Environments (IDE)**, which are software programs that allow end-to-end development of an application or a complete service. Some of the most used in Python are **Visual Studio Code** and **Spyder**, among others.
+
+Typically, the development of a product, model, or Machine Learning service consists of two phases: an exploratory phase and a development phase. We first program in notebooks and conduct proof of concept tests to find the best data preprocessing, analysis, and prediction. After that, we prepare a complete development to operationalize the model.
+
+### Project Structure
+
+We will use a template for our projects called [Cookie Cutter Datascience](https://drivendata.github.io/cookiecutter-data-science/). Using a template is always a good idea to organize our files and project workflow.
