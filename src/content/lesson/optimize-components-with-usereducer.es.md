@@ -4,10 +4,12 @@ subtitle: "Los componentes REACT son fáciles de optimizar cuando esto se hace n
 cover: "https://www.desktopbackground.org/p/2013/09/13/637935_nasa-wallpapers_1600x1200_h.jpg"
 textColor: "white"
 date: "2024-01-16T16:45:31-04:00"
-tags: ["react","componentes","usereducer"]
+tags: ["react","javascript"]
 status: "draft"
 
 ---
+
+# Optimiza tus componentes (React) con **useReducer**
 
 ## Los componentes y su lógica
 
@@ -24,7 +26,7 @@ El hook `useReducer` recibe como primer parámetro una función que define el `r
   const [state, dispatch] = useReducer(counterReducer, intitialCounter());
 ```
 
-A su vez la función reducer se define con 2 parámetros: El `state` que contiene los datos del reducer, y un objeto que se usa para ejecutar las acciones dentro del reducer (al que llamaremos `actions`).
+A su vez la función reducer se define con 2 parámetros: El `state` que contiene los datos del reducer, y un objeto que se usa para identificar las acciones a ejecutar dentro del reducer (al que llamaremos `actions`).
 
 ```javascript
 function counterReducer(state , action = {}) {
@@ -172,4 +174,4 @@ Para que esto funcione fue necesario usar el state del reducer y reemplazar las 
 
 ## Todo listo
 
-Ya hemos visto las ventajas de useReducer y sabemos como extraer la lógica de nuestro estado a un reducer ubicado en un archivo externo que pueden reutilizar los demás componentes. Esto no significa que tengas que desechar `useState` por completo y solo usar `useReducer`, como todo en programación se trata de usar la herramienta adecuada para el trabajo adecuado. Los reducer son ideales cuando tenemos muchas funciones asociadas al estado, y nos convenga agrupar lógica y datos. Esto puede darse en un escenario de gran complejidad o cuando se necesite reutilizar funciones y estados en varios componentes, ahi tendrás la poderosa herramienta de `useReducer` en tu arsenal.
+Ya hemos visto las ventajas de useReducer y sabemos como extraer la lógica de nuestro estado a un reducer ubicado en un archivo externo que pueden reutilizar los demás componentes. Esto no significa que tengas que desechar `useState` por completo y solo usar `useReducer`, como todo en programación se trata de usar la herramienta adecuada para el trabajo adecuado. Los reducer son ideales cuando tenemos muchas funciones asociadas al estado, y nos convenga agrupar lógica y datos. Esto puede darse en un escenario de gran complejidad o cuando se necesite reutilizar funciones y estados en varios componentes, ahi tendrás la poderosa herramienta de **useReducer** en tu arsenal.
