@@ -1,9 +1,35 @@
-# Recorrer Arrays Javascript
+---
+title: "¿Cómo recorrer un Array en Javascript?"
+subtitle: "Explora las diferentes maneras de recorrer arrays en JavaScript. Aprende las técnicas esenciales para trabajar con arrays en JavaScript."
+tags: ["JavaScript", "Arrays"]
+authors: [Gilberto-MV]
+
+---
+
+En JavaScript una de las maneras más sencillas de recorrer un [array](https://4geeks.com/es/lesson/array-arreglo-en-javascript) es utilizando el ciclo `for`. Este es un ejemplo de cómo puedes usarlo para recorrer un array:
+
+```js
+let people = ["Joe", "Mary", "Phill", "Carlos"];
+
+for (let i = 0; i < people.length; i++){
+   console.log("Hello", people[i]); 
+}
+
+// output
+// Hello Joe
+// Hello Mary
+// Hello Phill
+// Hello Carlos
+```
+
+El código anterior, recorre el array de personas (`people`) e imprime cada uno de los valores luego de hello. Más adelante se explica a más detalle cada parte de este ciclo para que puedas entenderlo y usarlo a tu conveniencia.
 
 ## Arrays y for loops
 
-Los _Arrays_ o arrays en Javascript ayudan a agrupar múltiples elementos de manera secuencial y proporcionan maneras de acceder a la información en base a su posición, iniciando desde el 0. 
+Los _Arrays_ o [arrays en Javascript](https://4geeks.com/es/lesson/array-arreglo-en-javascript) ayudan a agrupar múltiples elementos de manera secuencial y proporcionan maneras de acceder a la información en base a su posición, iniciando desde el 0.
+
 Los _for loops_ son una herramienta particularmente útil para realizar acciones sobre valores almacenados en un array. Los _for loops_ permiten programar bloques de código que se ejecutan de manera iterativa.
+
 Un ejemplo sencillo para visualizar estos dos conceptos en conjunto, podemos imaginarnos un array llamada `years` que contiene años donde ha ocurrido una operación.
 
 ```js
@@ -22,7 +48,7 @@ for (let i = 0; i < years.length; i++) {
 ```
 Este código imprime en la consola todos los valores guardados adentro de `years`.
 
-## Funciones para recorrer Arrays
+## Funciones para recorrer un array en JavaScript
 
 Javascript provee muchas herramientas para recorrer arrays, optimizando acciones sobre los mismos, a continuación, se mencionan los mas comunes y versátiles.
 
@@ -167,7 +193,8 @@ marcas.forEach(function(marca) {
 //"meta"
 ```
 
-## Ejemplos de uso
+## Ejemplos de cómo recorrer un array en JavaScript
+
 ### Modificar precios debido a inflación
 Se tiene un sitio que muestra el menú de un restaurante junto con sus precios. Todos los precios se guardan en un array llamado `precios`, se necesita incrementar los precios de todos los productos por un 10% debido a inflación. Para este ejemplo la herramienta ideal es map, ya que permite realizar modificaciones sobre todos los elementos del arreglo, ahorrando el trabajo de hacerlo manual.
 
@@ -186,6 +213,7 @@ console.log(precios_ajustados)
 
 ### Sumar valores positivos
 Se quiere permitir a un usuario sumar números positivos, sin embargo, en caso que el usuario introduzca un numero negativo, se toma como terminada la operación y se devuelve el resultado. Para lograr esto, se utiliza un while loop principalmente por que no se tiene un numero definido de iteraciones a realizar.
+
 ```js
 let suma = 0;
 let numero = parseInt(prompt('Ingrese un número: '));
@@ -203,3 +231,5 @@ console.log(`La suma es ${suma}.`);
 ```
 
 Existen muchas maneras de utilizar estas herramientas iterativas en Javascript, desde recorrer arrays hasta objetos y para el caso particular de los while loops, repetir un bloque de código hasta que se cumpla una condición deseada.
+
+Esperamos que hayas disfrutado de este artículo y que encuentres la información útil para recorrer y manipular arrays en [JavaScript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript). Te invitamos a explorar otros recursos en nuestro blog para mejorar tus habilidades de programación este y muchas otras tecnologías. Si deseas llevar tu aprendizaje al siguiente nivel, te animamos a [registrarte de forma totalmente gratuita](https://4geeks.com/es/pricing) en 4Geeks.com.

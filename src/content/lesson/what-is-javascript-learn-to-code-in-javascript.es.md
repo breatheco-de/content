@@ -84,11 +84,11 @@ Los valores de las variables están sujetos a cambios en el tiempo. Para recuper
 
 ## Tipos de Datos
 
-Las variables pueden tener diferentes tipos de valores. Algunos de ellos están disponibles solo en lenguajes de programación específicos, pero casi todos tienen los siguientes tipos
+Las variables pueden tener diferentes tipos de valores. Algunos de ellos están disponibles solo en lenguajes de programación específicos, pero casi todos tienen los siguientes tipos:
 
 |**Data-Type**   |**Posibles Valores**   |**Descripción**   |
 |:---------------|:--------------------|:-----------------|
-|Booleano         |True \| False         |Los booleanos están destinados para operaciones lógicas. Si le preguntas a una computador algo como: "¿X es igual a 3?" Responderá con un booleano (verdadero o falso).   |
+|Booleano         |True \| False         |Los booleanos están destinados para operaciones lógicas. Si le preguntas a una computadora algo como: "¿X es igual a 3?" Responderá con un booleano (verdadero o falso).   |
 |String       |Cualquier serie de caracteres     |Los strings son la única forma en que tenemos que almacenar palabras (series de caracteres). Nota: los strings deben estar encerrados entre comillas.  |
 |Número    |Solo números     |Números enteros, números negativos, números decimales, etc. Todos los tipos posibles de números. <br> Nota: Si incluye un número entre comillas, JavaScript lo tratará como una cadena (string). |
 |Undefined     |El vacío     |Cuando una variable no tiene un valor asignado, queda indefinida.   |

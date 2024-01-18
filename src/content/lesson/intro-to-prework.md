@@ -13,7 +13,21 @@ status: "published"
 
 We all know the importance, growth, and impact of the tech industry nowadays. More and more developers are needed everywhere. Just in the US, the Bureau of Labor Statistics projects to have more than a million open jobs by 2024, for software developers. 
 
-A web developer makes around $65k per year in the US. In Florida, numbers are a little bit lower due to the cost of living and payroll standards. In 2020 a web developer makes around $56k, and a junior one is around $50k per year in Florida. According to recent reports, a Bootcamp graduate makes $20k more than before joining the coding Bootcamp: 
+## Web Developer Salaries around the world in 2023
+
+| Location             | Web Developer Salary | Junior Web Developer Salary |
+|----------------------|----------------------|-----------------------------|
+| United States        | $80,000 - $100,000   | $60,000 - $80,000           |
+| Florida, USA         | $70,000 - $90,000    | $50,000 - $70,000           |
+| Spain                | €40,000 - €60,000    | €30,000 - €45,000           |
+| Mexico               | MXN 500,000 - MXN 700,000 | MXN 300,000 - MXN 500,000 |
+| Brazil               | BRL 80,000 - BRL 120,000 | BRL 50,000 - BRL 80,000   |
+| United Kingdom       | £70,000 - £90,000     | £45,000 - £60,000         |
+| Germany              | €60,000 - €80,000    | €40,000 - €55,000         |
+
+> Note: Salaries are approximate and may vary based on factors such as experience, skills, and company policies.
+
+According to recent reports, a Bootcamp graduate makes `$20k` more than before joining the coding Bootcamp: 
 
 <p style="text-align:center">
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/c98f9241-0c8f-46d9-91e6-a093276ac2a3.png?raw=true" width="300">
@@ -50,7 +64,7 @@ So, we here at 4Geeks came up with this online platform. This content we have de
 
 We will present you with one challenge after another, but a trusty senior developer will always be looking at your process to assist you and help you out.  4Geeks is the place to read, learn and practice code until you permanently affix everything into your brain.
 
-## But you don't want to read everything, right!?!?
+## But you don't want to read everything, right?
 
 You basically want to learn everything about the beautiful art of coding, but you don’t want to read that much... Yeah, we get it. As a result, we have made a huge effort in summing our lessons up. Everything you’ll find here will be the basis of your skills. There is nothing to "skip over."
 
@@ -74,7 +88,7 @@ The human brain requires a lot of energy to make any decision, especially when l
 
 If you feel overwhelmed and confused, <span style="color:#993300">**ask for help!!**</span> And, **keep up the hard work –** you will make it!  All the lessons are cumulative – meaning every exercise will require you to use all the skills you have learned in the past.
 
-### Please Ask for Help!!
+### Please Ask for Help!
 
 Have you heard of Einstein?  Really smart people are always the ones who ask more questions. They are not afraid of not knowing or making mistakes. The only way we can really help you is if you accept our mentorship by asking for help. To be able to do this, when you are stuck and have tried to solve a problem on your own for a few minutes, ask on our Slack channel [#Public_Support](https://4geeksacademy.slack.com/archives/CAZ9W99U4), but first read these tips about [ How to ask programming questions?](https://4geeks.com/how-to/how-to-ask-programming-questions).
 
@@ -88,7 +102,7 @@ When we started the academy, each student had the freedom to install their own s
 
 So instead of that approach, we have made a list of what programs you need. Some of them are mandatory to use/download during the program, while others are just optional. Don’t worry, you’ll be happy with us!!
 
-Yeah, yeah, we know some of you already have your own tools, but let’s keep that conversation for another time. For now, closely follow our suggestions and give us the opportunity to tell you how to go about it all. 
+We know some of you already have your own tools, but let’s keep that conversation for another time. For now, closely follow our suggestions and give us the opportunity to tell you how to go about it all. 
 
 <p style="text-align:center">
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/59bf0e4e-f5cf-410c-b2bc-fdc7472e7cdc.jpeg?raw=true" width="180">
@@ -101,7 +115,7 @@ Yeah, yeah, we know some of you already have your own tools, but let’s keep th
 | --------------------------------------------------------  | ------------------------  |
 | [Github.com](https://github.com)                          | [StackOverflow](https://stackoverflow.com) |
 | [Slack.com (desktop & mobile)](4geeksacademy.slack.com)   | [w3Schools.com](https://w3schools.com) |
-| [Gitpod](https://gitpod.io/) or [Codespaces](https://github.com/features/codespaces) | [Net Ninja JS Tutorial](https://www.youtube.com/watch?v=qoSksQ4s_hg) |
+| [Codespaces](https://github.com/features/codespaces) or [Gitpod (deprecated) ](https://gitpod.io/) | [Net Ninja JS Tutorial](https://www.youtube.com/watch?v=qoSksQ4s_hg) |
 
 
 

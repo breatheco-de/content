@@ -1,6 +1,6 @@
 ---
-title: "JavaScript Array Slice Method: A Comprehensive Guide"
-subtitle: "Master the art of slicing arrays in JavaScript with our comprehensive course. Learn how to extract, copy, and modify array elements like a pro. Enroll now!"
+title: "How to use the slice method of Arrays in Javascript?"
+subtitle: "Master the art of slicing arrays in JavaScript with our comprehensive guide. Learn how to extract, copy, and modify array elements like a pro. Enroll now!"
 tags: ["javascript"]
 authors: ["julianvillalba"]
 

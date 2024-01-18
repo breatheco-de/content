@@ -23,7 +23,7 @@ Necesitamos usar boxes (cajas) para eso. Una caja es un contenedor con un ancho 
 
 Todo el contenido del sitio web debe estar envuelto dentro de una caja (div, header, footer, etc). Las cajas son invisibles por defecto, por lo tanto, para hacerlas visibles, debes establecer un color de fondo o un borde. La siguiente imagen muestra cuántas cajas invisibles tiene un sitio web normal:
 
-<before-after width="500px" before="https://github.com/breatheco-de/content/blob/master/src/assets/images/40818d0d-60c6-4ef3-a488-834f21ddebf1.png?raw=true" after="https://github.com/breatheco-de/content/blob/master/src/assets/images/0c89a48e-d488-4e5c-807a-fd6b9a9179f6.png?raw=true" /></before-after>
+<before-after width="500px" before="https://breathecode.herokuapp.com/v1/media/file/css-us-1-png?raw=true" after="https://breathecode.herokuapp.com/v1/media/file/css-us-png?raw=true" /></before-after>
 
 ### Atributos de una caja
 
@@ -40,7 +40,7 @@ Todas las cajas/contenedores deben tener los siguientes atributos:
 
 ![css layout](https://github.com/breatheco-de/content/blob/master/src/assets/images/153d2a7c-b648-4d75-920b-940102f18eaa.gif?raw=true) 
 
-En el siguiente ejemplo puedes ver como dividir en dos el contenido de una página web. El lado izquierdo será **El menú** y el lado derecho tendrá **El contenido** del sitio web. Colocamos color rojo al **#div1** del menú, y color azul al **#div2** del contenido para que el ejemplo sea más fácil de entender.
+En el siguiente ejemplo puedes ver como dividir en dos el contenido de una página web. El lado izquierdo será **El menú** y el lado derecho tendrá **El contenido** del sitio web. Colocamos color rojo al **#div1** del menú y color azul al **#div2** del contenido, para que el ejemplo sea más fácil de entender.
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/kevomsyq/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
@@ -146,9 +146,9 @@ Este es el código exacto que se necesita para que el contenido del sitio web es
 
 ![css layout](https://github.com/breatheco-de/content/blob/master/src/assets/images/ca5d4285-c151-4b30-a4a2-c6b35510188b.png?raw=true)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/Lwop5kdc/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/Lwop5kdc/3/embedded/html,css,result/">Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/Lwop5kdc/embedded/html,css,result/">Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
 
 ### Barra lateral izquierda fija
 
@@ -170,7 +170,7 @@ Es casi lo mismo, pero en vez de tener barras laterales a la izquierda como el m
 
 ### Diseño *Masonry* Compatible
 
-Pinterest hizo este layout universalmente conocido. Mediante el uso de esta “innovador” UI, se convirtieron en uno de los sitios webs más visitados en el mundo. El diseño *Masonry* distribuye las cajas de una manera óptima, primero trata de cubrir toda la fila añadiendo cajas a la derecha (añadiéndolas al final), y después salta a la fila siguiente cuando ya no hay espacio suficiente disponible.
+Pinterest hizo este layout universalmente conocido. Mediante el uso de esta “innovadora” UI, se convirtieron en uno de los sitios webs más visitados en el mundo. El diseño *Masonry* distribuye las cajas de una manera óptima, primero trata de cubrir toda la fila añadiendo cajas a la derecha (añadiéndolas al final), y después salta a la fila siguiente cuando ya no hay espacio suficiente disponible.
 
 Otra genialidad sobre *Masonry* es que cada caja puede tener su propia altura, cosa que es muy difícil en CSS porque los navegadores antiguos no soportan esas características y tendrás que usar JavaScript para arreglarlo.
 

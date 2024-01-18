@@ -1,6 +1,6 @@
 # Welcome to GitHub
 
-This lesson will define Github.com, explain it, and review its essential features. Hopefully, by the end of the article, you will be as excited as we are about Github.
+This lesson will define GitHub.com, explain it, and review its essential features. Hopefully, by the end of the article, you will be as excited as we are about GitHub.
 
 ## What is GitHub
 
@@ -10,32 +10,32 @@ GitHub.com is the epicenter of your software developer journey; you'll be intera
 - It's your professional portfolio: Like a resume.
 - It's the technology needed to collaborate with other developers.
 - Your GitHub profile is reviewed by recruiters when considering hiring you.
-- You can also meet other developers and cool projects or libraries: Similar to Linked in.
+- You can also meet other developers and cool projects or libraries: Similar to LinkedIn.
 
-> Github is `LinkedIn + Google Drive` but for developers.
+> GitHub is `LinkedIn + Google Drive` but for developers.
 
 ## Your GitHub Profile
 
-This is [4Geeks Academy's main GitHub profile](https://github.com/4geeksacademy/) on Github (Please click to follow us 🙂 on the top right of the page!).
+This is [4Geeks Academy's main GitHub profile](https://github.com/4geeksacademy/) on GitHub (Please click to follow us 🙂 on the top right of the page!).
 
 Everyone has a profile located at: `https://github.com/<your username>`. 
 For example: mine is [github.com/alesanchezr](https://github.com/alesanchezr) (follow me 🙂!)
 
 In this image, you will find the essential parts of your profile.
-![Github Profile Explanation](https://github.com/breatheco-de/content/blob/master/src/assets/images/github-profile.png?raw=true)
+![GitHub Profile Explanation](https://github.com/breatheco-de/content/blob/master/src/assets/images/github-profile.png?raw=true)
 
 > Note: there are many ways to [make your GitHub profile amazing](https://4geeks.com/lesson/building-your-github-profile-and-reputation).
 
 ## The GitHub Repository?
 
-Github's original purpose (before turning into a social network and many other things) was to be a website where developers could upload their code and access it at any time.
+GitHub's original purpose (before turning into a social network and many other things) was to be a website where developers could upload their code and access it at any time.
 
 > A repository is just a folder with code inside. For example, this repository contains [all the code for the React.js library](https://github.com/facebook/react).
 
-![The typical Github Repository Page](https://raw.githubusercontent.com/breatheco-de/knowledge-base/main/images/breatheco-de-exercise-postcard-The-ideal-first-project-for-anyone-interested-in-practicing-HTML-CSS-with-a-real-life-example-.png)
+![The typical GitHub Repository Page](https://raw.githubusercontent.com/breatheco-de/knowledge-base/main/images/breatheco-de-exercise-postcard-The-ideal-first-project-for-anyone-interested-in-practicing-HTML-CSS-with-a-real-life-example-.png)
 Above you can see an explanation of the typical Github Repository Page
 
-### Everything in Github revolves around code repositories:
+### Everything in GitHub revolves around code repositories:
 
 1. You can create new repositories for every project you start, and upload your code into that repo.
 2. Share the repo with everyone, people 👍🏼 like it, 📣 comment on it, open tickets about bug fixes, ask for new features, etc.
@@ -45,7 +45,7 @@ Above you can see an explanation of the typical Github Repository Page
 
 ### Liking and bookmarking a repository
 
-The Github Star ⭐️ is the primary way to bookmark other people's repositories; it is a good idea to bookmark a repo because you will probably lose track of it; there are millions of amazing repos. You can categorize them.
+The GitHub Star ⭐️ is the primary way to bookmark other people's repositories; it is a good idea to bookmark a repo because you will probably lose track of it; there are millions of amazing repos. You can categorize them.
 
 We recommend you bookmark most of the academy repositories, as you will need and use them a lot. Here are a few of them:
 
@@ -55,7 +55,7 @@ We recommend you bookmark most of the academy repositories, as you will need and
 
 ### Finding other people's code
 
-Open Source has become one of the main drivers in today's world; Github has ways to find other people's exceptional repositories:
+Open Source has become one of the main drivers in today's world; GitHub has ways to find other people's exceptional repositories:
 
 - There is a search on the top navbar.
 - You can search for tags or technologies.

@@ -1,107 +1,79 @@
 ---
-title: "What does double equal sign mean in Python?"
-subtitle: "One of the logic operator in Python is the double equal sign. This operator is used to check if one value is equal to another, sensitive to the value type."
+title: "What does a double equal sign mean in Python?"
+subtitle: "Learn the meaning of the double equal sign in Python. Explore how it works for equality comparison and make your code more powerful."
 tags: ["python"]
-date: "2020-10-19T16:36:30+00:00"
-authors: ["javierseiglie"]
-status: "draft"
 
 ---
 
-In Python the double equal sign is used to compare two values. You can use it to check if two values are equal, as you can see in the following example:
 
-```python
-x = 5
-y= '5'
-z = 5
+In Python, the double equal sign `==` is a relevant operator that is used to compare two variables or values and  determine whether they are equal or not. We will explore the  utility of this operator in Python and  how can be used in different situations. We prepared an article as an [Intro to Python](https://4geeks.com/lesson/intro-to-python) that we recommend to check before reading the following piece of content. Let’s start with a quick example so we can understand its functionality.
 
-print(x==y) 
-#output -> false
+Let’s suppose that we have 2 variables called `a` and `b` with the following values assigned to:
 
-print(x==z) 
-#output -> true
+```py
+a = 5
+b = 10
 ```
-
-## The double equal sign in Python (`==`)
-
-To compare if two values are equal, you can use the **Double equal sign**, here is a quick example of how it works:
-```python
-x = 5
-y = '5'
-z = 5
-
-print(x==y) 
-#output -> False
-
-print(x==z) 
-#output -> True
-```
-
-In the example we have three different variables which values seems to be the same, but one of them `y` has a different type (It's a string) so we can say it's different. When comparing if `x` is equal to `y` it returns `False` because even though the value is the same, but the data type isn't. Then when comparing if `x` is equal to `z`, it returns `True` as both have the same value and data type.
-
-## The equal sign in Python (`=`)
-
-The equal sign `=` in Python (Only one equal sign), as in many other programming languages is used to **assign** a value, most commonly used to assign a value to a variable.
-
-```python 
-# creating a variable and assigning a value with the = symbol
-x = "4Geeks!"
-print(x) #Output-> 4Geeks!
-```
-
-In the previous example, the equal sign `=` is being used to assign `"4Geeks!"` to the variable `x`. Then when printing the value of `x` we are confirming that we assigned it correctly.
-
-## Use Cases
-
-### Using the double equal sign on conditions:
-
-The double equal sign operator can be used in conditions to check if two values are equal, here is an example:
-
-```
-name = input("What is your name?")
-
-if name == "Rigoberto":
-     print("Hello Rigoberto welcome to your office at 4Geeks!")
+Now, we want to verify if `a` is equal to `b` by using the double equal sign operator:
+```py
+if a == b:
+    print("a is equal to b")
 else:
-		 print("Only Rigoberto has access to this office.")
+    print("a is not equal to b")
 ```
 
-In the previous example, we are asking the user for its name and if it is equal to Rigoberto, we allow them to access the office with a good welcoming message.
+On the previous example, we declared 2 variables `a` and `b` with values 5 and 10 respectively. Then, we used the double equal sign operator in an if-else block to compare `a` and `b` values. Finally, if `a` is equal to `b`, our code will print `"a is equal to b"`, otherwise it will print `"a is not equal to b"`.
 
-### Using the double equal sign on for loops:
+## What does the double equal sign mean?
 
-Double equal sign (`==`) can be used in for loops to check for a specific value in a list. On this example we will loop through a list of names and if the name we're looking for is found, we will print it.
+This operator in Python shows a comparison used to verify if a value is equal to another one. In this way, Python compares values on both sides of the operator and returns `True` if they are equal and `False` if they are not. Now, let's see different conditions' use cases.
 
-```python
-names = ["James", "Willy", "Jane", "Barbara", "Pete", "Julia"]
-favorite_name = "Jane"
+### Verification of numerical equality
 
-for x in range(len(arr)):
-    if arr[x] == favorite_name:
-        print(arr[x] + " at position " + str(x))
-        #Output-> Jane at position 2
+```py
+num1 = 15
+num2 = 15
+
+if num1 == num2:
+    print("Both numbers are the same")
+else:
+    print("Numbers are different")
 ```
 
-### Using the double equal sign on while loops:
+In the previous example, we have two variables with the same numbers as values. When using the double equal sign `==`, the program will print `"Both numbers are the same"` since both variables have the same number.
 
-This time we'll be checking if we have something to eat (fruits, vegetables, etc...) in the fridge using a while loop!
+### String Comparison
 
-```python
-fridge_items = ['apple', 'banana', 'cherry', 'date']
-food = 'banana'
-found = False
-position = 0
+```py
+name_1 = "John"
+name_2 = "Alexa"
 
-while position < len(fridge_items):
-     if fridge_items[position] == food:
-         found = True
-         print("We have " + food + " in the fridge. Enjoy!")
-         break
-		 position++
+if name_1 == name_2:
+    print(“Names are the same”)
+else:
+    print("Names are different")
 ```
 
-On this example we have a list of fridge_items and a food we are looking for in the list. If the food is found, then we print a message and break the while loop.
+In this case, we have two variables that contain strings as values. Due to both strings being different, our code will print `"Names are different"`.
 
-#### [**Related: Why 4Geeks Academy teaches Python as a Back End Language**](https://4geeksacademy.com/us/python-bootcamp/why-we-teach-python-4geeks)
+### Evaluation of Boolean expressions
 
-Visit [4Geeks](https://4geeks.com/) to learn about Python and solutions to your possible errors. Hope you enjoy the reading and keep on the Geek side!
+Let's see our final example:
+
+```py
+truthy_variable = True
+falsy_variable = False
+
+if truthy_variable == falsy_variable:
+    print("Both values are the same")
+else:
+    print("Both values are different")
+```
+
+Finally, in this last example, we are comparing two boolean variables and because they are different, our code will print `"Both values are different"` as expected.
+
+## Conclusion
+
+The double equal sign operator in Python is completely essential when we want to compare values and evaluate conditions with if statements. This allows us to check if values are the same or not, which leads to different outputs depending on the values we have on variables. 
+
+We hope you can understand the use and importance of the double equal sign operator in Python. Now, you can enhance your programming skills with this knowledge and take better decisions in your apps. You can check the [4Geeks Blog](https://4geeks.com) for more amazing content. 

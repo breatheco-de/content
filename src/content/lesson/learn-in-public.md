@@ -12,22 +12,22 @@ canonical: ""
 
 If you are interested in learning to code efficiently but fast, you should do it in public; this is not a theory but a fact.
 
-In this article, I'm going to try to explain why it works and how you can do it.
+In this article, I'm going to explain why it works and how you can do it.
 
 ## What is Learn In Public?
 
-Learning in private: The traditional educational system is designed to be a private experience. You read books, attend classes, complete projects and assessments, and then at some point you graduate. We are so used to this workflow that it's already embedded into our student's hearts.
+Learning in private: The traditional educational system is designed to be a private experience. You read books, attend classes, complete projects and assessments, and then at the end you graduate. We are so used to this workflow that it's already embedded into our student's minds.
 
 When you learn in public you: create in social media, you write in notebooks and discussion forums, you also write about what you just learned in different ways like blog posts, tweets, newsletters, drawings, memes, etc.
 
 ## Why is this so important?
 
-- When you write things down, your brain absorbs better.
-- Talking about it forces you to organize your thoughts and understand it better.
-- Your family and friends will start trusting your skills. After a while, they will start seeing you as a small expert on the matter, they will come to you for advice, recommendations or to hire your services.
-- Sharing is a support system: The impostor syndrome is no joke, when you are open and share your struggles publicly you will find others (probably many others) like you. It will calm you down because you know it's normal, and it will give you the strength to continue. 
+- When you write things down, your brain absorbs knowledge better.
+- Talking about it forces you to organize your thoughts and understand them better.
+- Your family and friends will start trusting your skills. After a while, they will start seeing you as an expert on the matter, they will come to you for advice, recommendations or to hire your services.
+- Sharing is a support system: The impostor syndrome is no joke, when you are open and share your struggles publicly, you will find others (probably many others) like you. It will calm you down because you know it's normal, and it will give you the strength to continue. 
 - Rank better on the job portals: Websites like LinkedIn make your profile more visible when you often publish, boosting your reach exponentially.
-- Recruiters will find you: Time after time at @4geeksAcademy we have noticed that students learning in public get hired a lot faster. Recruiters eventually notice and contact them with job opportunities.
+- Recruiters will find you: Time after time at @4GeeksAcademy we have noticed that students learning in public get hired a lot faster. Recruiters eventually notice and contact them with job opportunities.
 
 ## How to start learning in public?
 
@@ -42,7 +42,7 @@ When you learn in public you: create in social media, you write in notebooks and
 
 ## Most common procrastination thoughts:
 
-### I don't have anything to say in social media.
+### I don't have anything to say on social media.
 
 I really doubt that, learning to code is hard and people read a lot about it and they need emotional support, just like with your testimonial you are helping a lot of people who will be interested in learning more about your story.
 

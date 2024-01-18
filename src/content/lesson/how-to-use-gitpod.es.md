@@ -27,9 +27,9 @@ Integración de Github: Es esencial aprender cómo utilizar Github hoy en día; 
 
 ## ¿Cuáles son las desventajas de Gitpod?
 
-Es más lento que local: Codificar localmente es más rápido porque no vas a tener que esperar un par de minutos para que la computadora virtual sea creada.
+Es más lento que local: Codificar localmente es más rápido porque no vas a tener que esperar un par de minutos para que la computadora virtual se inicie.
 
-Necesitas tener un internet confiable: Caso contrario, te puedes desconectar mientras estés codificando (y tendrás que esperar hasta que vuelvas a estar en línea).
+Necesitas tener un internet confiable: En caso contrario, te puedes desconectar mientras estés codificando (y tendrás que esperar hasta que vuelvas a estar en línea).
 
 Reconocemos las trabas, pero nuestros estudiantes y la academia adquiere tanto valor de Gitpod, que estamos contentos de lidiar con las desventajas.
 

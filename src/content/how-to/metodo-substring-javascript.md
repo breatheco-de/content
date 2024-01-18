@@ -8,6 +8,7 @@ status: "published"
 
 ---
 
+
 El método de [Javascript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) `substring()` es utilizado para devolver únicamente una parte de la cadena original partiendo desde el índice inicial establecido y continua hasta el final de la cadena. Opcionalmente se puede especificar el índice final como parámetro.
 
 ```js

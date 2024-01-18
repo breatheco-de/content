@@ -9,35 +9,35 @@ status: "published"
 
 ---
 
-> :point_up: Esta lección es para usuarios de WebPack y [módulos ECMAScript (ESM).;](https://nodejs.org/api/esm.html) hay otra forma de trabajar con módulos usando la [sintaxis de CommonJS] (https://requirejs.org/docs/commonjs.html) que no cubriremos.
+> ☝️ Esta lección es para usuarios de WebPack y [módulos ECMAScript (ESM)](https://nodejs.org/api/esm.html). Hay otra forma de trabajar con módulos usando la [sintaxis común de JS](https://requirejs.org/docs/commonjs.html) que no cubriremos.
 
-Todo nuestro código JS no puede estar en el mismo archivo; Eso hará que sea difícil de leer y casi imposible de mantener.
+Todo nuestro código JS no puede estar en el mismo archivo; eso hará que sea difícil de leer y casi imposible de mantener.
 
-Gracias a Webpack, podemos dividir nuestro código en archivos pequeños como queramos y luego podemos hacer referencia a otros archivos de nuestro archivo actual.
+Gracias a Webpack, podemos dividir nuestro código en archivos pequeños como queramos y luego podemos hacer referencia a otros archivos en nuestro archivo actual.
 
-De hecho, ya lo hemos estado haciendo cuando importamos nuestros estilos, bootstrap o jQuery desde index.js.
+De hecho, ya lo hemos estado haciendo cuando importamos nuestros estilos, bootstrap o jQuery desde index.html.
 
 ## Así es como funciona "importar" y "exportar":
 
-+ Utiliza la palabra **importar** para traer variables, clases o funciones de otros archivos.
-+ Usted usa la palabra **exportar** para exponer variables, clases o funciones que serán utilizadas por otros archivos.
++ Utiliza la palabra **import** para traer variables, clases o funciones de otros archivos.
++ Utiliza la palabra **export** para exportar variables, clases o funciones que serán utilizadas por otros archivos.
 
 Por ejemplo, aquí estamos importando una función de otro archivo:
 
-![javascript import](https://github.com/breatheco-de/content/blob/master/src/assets/images/f7b8c75d-e7d4-481e-8346-b95d54a235f6.png?raw=true)
+![importación de javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/f7b8c75d-e7d4-481e-8346-b95d54a235f6.png?raw=true)
 
-![javascript import](https://github.com/breatheco-de/content/blob/master/src/assets/images/2cdb146a-d6f7-4591-96fc-e50aef07aca5.png?raw=true)
+![importación de javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/2cdb146a-d6f7-4591-96fc-e50aef07aca5.png?raw=true)
 
-## Exportación por Defecto
+## Exportación por defecto
 
-Hay una pequeña variación que puede encontrar en Internet que se llama **"exportación predeterminada"**: esta es solo una forma de exportar una cosa por defecto a su archivo.
+Hay una pequeña variación que puedes encontrar en Internet que se llama **"exportación por defecto"**: esta es solo una forma de exportar una cosa por defecto a su archivo.
 
-Solo puede exportar la variable **ONE** de forma predeterminada, y no tiene que usar los corchetes mientras se importa.
+Solo puedes exportar **UNA** variable por defecto, y no tienes que usar los corchetes mientras se importa.
 
 ### Importando por defecto
 
 ```javascript
-//contenido en index.js 
+// Contenido en index.js 
 
 import multiplyFunction from './my_file.js';
 
@@ -48,21 +48,21 @@ console.log(total);
 ### Exportando por defecto
 
 ```javascript
-//contenido en my_file.js 
+// Contenido en my_file.js 
 
-let multiplyFunction = function(a,b){
+let multiplyFunction = function(a,b) {
     return a*b;
 };
 export default multiplyFunction;
 ```
 
-## Ejemplo Final:
+## Ejemplo final:
 
-Aquí hay una pequeña demostración de todos los tipos de importación / exportación que trabajan en el mismo proyecto.
+Aquí hay una pequeña demostración de todos los tipos de importación/exportación que trabajan en el mismo proyecto.
 
 <iframe src="https://codesandbox.io/embed/218y1prppj?hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-<div align="right"><small><a href="https://codesandbox.io/embed/218y1prppj?hidenavigation=1">Click para abrir en una nueva ventana</a></small></div>
+<div align="right"><small><a href="https://codesandbox.io/embed/218y1prppj?hidenavigation=1">Clic para abrir demo en una nueva ventana</a></small></div>
 
 
 

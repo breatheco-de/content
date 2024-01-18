@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-> :point_up:  Los usuarios de Windows no tienen la misma línea de comando, pero igual deberías aprenderlos ya que son muy utilizados en los servidores cuando publiques tu página y también en Gitpod, Codespaces, Cloud9, etc. Puedes utilizar [Git SCM](https://git-scm.com/downloads) para probar los comandos.
+> ☝ Los usuarios de Windows no tienen la misma línea de comando, pero igual deberías aprenderlos, ya que son muy utilizados en los servidores cuando publiques tu página y también en Gitpod, Codespaces, Cloud9, etc. Puedes utilizar [Git SCM](https://git-scm.com/downloads) para probar los comandos.
 
 ## ¿Por qué los Desarrolladores aman la Línea de Comando?
 
@@ -28,7 +28,7 @@ La consola es realmente simple: es una pantalla negra que siempre está esperand
 
 Pero, ¿qué es un *comando*?
 
-Es algo así como "imprimir", "mostrar", o "eliminar" pero abreviado. Por ejemplo, si quieres decirle a la consola que liste todos los archivos en un directorio en particular, tienes que usar el comando `ls` así:
+Es algo así como "imprimir", "mostrar", o "eliminar" pero abreviado. Por ejemplo, si quieres decirle a la consola que enliste todos los archivos en un directorio en particular, tienes que usar el comando `ls` así:
 
 ```bash
 ls -l /path/to/directory
@@ -83,7 +83,7 @@ cd /path/to/directory
 
 ### El comando mv
 
-**¿El comando mover?**
+**El comando mover**
 
 Mueve un archivo a otra carpeta o directorio, como por ejemplo arrastrar un archivo ubicado en el escritorio de una PC a una carpeta almacenada dentro de la carpeta "Documentos".
 
@@ -133,7 +133,7 @@ rmdir path/of/targetdirectory/mydirectory
 #eliminar mydirectory de "targetdirectory" 
 ```
 
-> :point_up: Solo eliminará los directorios vacíos, para vaciar todos los archivos del directorio usa el comando `rm`. Pro-tip: puedes usar `rm *` para borrar todos los archivos dentro de un directorio simultáneamente; utilízalo con precaución.
+> ☝ Solo eliminará los directorios vacíos, para vaciar todos los archivos del directorio usa el comando `rm`. Pro-tip: puedes usar `rm *` para borrar todos los archivos dentro de un directorio simultáneamente; utilízalo con precaución.
 
 ### El comando cp
 
@@ -169,8 +169,8 @@ Esto te ayudará a ahorrar tiempo y a cometer menos errores al escribir:
 + Para cancelar un comando que se está ejecutando, presiona `ctrl`+`c`
 + Para completar automáticamente el nombre de un archivo o carpeta, usa la tecla `tab`.
 + Para repetir cualquier comando que hayas usado en el pasado, usa la flecha `up`(arriba) y te mostrará cada comando, uno por uno.
-+ Para ir a la carpeta principal del usuario, usa la tecla `~`, así: `cd ~`
-+ Usa el comando `clear` para "limpiar" la consola actual (es solo un desplazamiento, pero muy útil)
++ Para ir a la carpeta principal del usuario, usa la tecla `~`, así: `cd ~`.
++ Usa el comando `clear` para "limpiar" la consola actual (es solo un desplazamiento, pero muy útil).
 
 ## Editando archivos en la terminal:
 
@@ -193,4 +193,4 @@ En la parte inferior verás los comandos más utilizados para usar nano, tales c
 
 ![the command line the terminal](https://github.com/breatheco-de/content/blob/master/src/assets/images/6128e9f7-b460-4b10-80e4-34057b7d4df9.png?raw=true)
 
-> :point_up: Este sitio web tiene un montón de pequeños mini desafíos para ayudarte a practicar la línea de comandos: <br>https://cmdchallenge.com/
+> ☝ Este sitio web tiene un montón de pequeños mini desafíos para ayudarte a practicar la línea de comandos: <br>https://cmdchallenge.com/

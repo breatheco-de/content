@@ -8,7 +8,7 @@ status: "draft"
 ---
 
 
-To be able to run javascript in Visual Studio Code, we need to have installed NodeJS on our system and have a Javascript file created with some content.
+To be able to [run javascript](https://4geeks.com/how-to/how-to-run-javascript) in Visual Studio Code, we need to have installed NodeJS on our system and have a Javascript file created with some content.
 
 ![How to run javascript on Visual Studio](https://i.imgur.com/KWfbDUm.png)
 

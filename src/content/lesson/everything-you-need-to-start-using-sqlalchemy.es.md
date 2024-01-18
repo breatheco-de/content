@@ -3,9 +3,9 @@ slug: "todo-lo-necesario-para-empezar-usar-sqlalchemy"
 title: "Todo lo que necesitas saber sobre SQLAlchemy"
 subtitle: "SQLAlchemy es el ORM más popular para Python, comience a usarlo en 8 minutos"
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
-date: "2020-10-19T16:36:31+00:00"
+date: "2023-06-22T19:44:22+00:00"
 textColor: "white"
-authors: ["alesanchezr"]
+authors: ["alesanchezr", "cvazquezlos"]
 status: "published"
 tags: ["SQL Alchemy","Python"]
 
@@ -13,97 +13,109 @@ tags: ["SQL Alchemy","Python"]
 
 ## ¿Qué es SQL Alchemy?
 
-SQLAlchemy es un [Object-Relational Mapper / Mapping-tool](https://en.wikipedia.org/wiki/Object-relational_mapping), o un ORM, es decir, una librería que los desarrolladores utilizan para crear bases de datos y manipular sus datos sin la necesidad de conocer / usar SQL.
+SQLAlchemy es un [Object-Relational Mapper/Mapping-tool](https://en.wikipedia.org/wiki/Object-relational_mapping), o un ORM, es una librería que los desarrolladores utilizan para crear bases de datos y manipular sus datos sin la necesidad de conocer/usar SQL.
 
-Existen otras alternativas como SQL Alchemy o Peewee, y otros lenguajes tienen sus propios ORMs como PHP Eloquent o Java Hibernate.
+Existen otras alternativas en Python como Peewee, y otros lenguajes tienen sus propios ORMs como PHP Eloquent o Java Hibernate.
 
 ## ¿Por qué usar un ORM?
 
-Los ORM han ganado popularidad debido a que lidiar con el lenguaje SQL directamente requiere de mucho esfuerzo en la mayoría de los casos. El objetivo del ORM entonces es simplificar la mantención de tus datos.
-Esto se hace creando ***objetos*** para tratar con las interacciones de la base de datos.
+Los ORM han ganado popularidad debido a que lidiar con el lenguaje SQL directamente requiere de mucho esfuerzo en la mayoría de los casos. El objetivo del ORM entonces es simplificar el mantenimiento de tus datos. Esto se hace creando ***objetos*** para tratar con las interacciones de la base de datos.
 
-Básicamente, con ORM no tendrás que escribir SQL otra vez (95% del tiempo) y podrás trabajar con objetos.
+Básicamente, con ORM no tendrás que escribir SQL otra vez (el 95% del tiempo) y podrás trabajar con objetos.
 
 ### Por ejemplo:
 
 Para insertar un usuario con SQL tienes que escribir:
 
 ```sql
-INSERT INTO user (name, last_name) VALUES ('Juan', 'McDonals');
+INSERT INTO user (name, last_name) VALUES ('Bob', 'Ross');
 ```
 
 Con un ORM tu código sigue siendo un código familiar como este:
 
 ```py
 user = User()
-user.name = 'Juan'
-user.last_name = 'McDonals'
+user.name = "Bob"
+user.last_name = "Ross"
 
-# agrega el user a la base de datos
+# Agrega el user a la base de datos
 db.session.add(user)
 
-# parecido al commit de GIT lo que hace es guardar todos los cambios que hayas hecho
+# Parecido al commit de GIT, lo que hace esta función es guardar todos los cambios que hayas hecho
 db.session.commit()
 ```
 
-Basta con que digas: `db.session.commit()` y todo lo que hayas hecho con tu código se traducirá a código de lenguaje SQL.
+Basta con que utilices la función `db.session.commit()` y todo lo que hayas hecho con tu código se traducirá a código de lenguaje SQL.
 
-## Revisemos la operación de base de datos más típica
+## Revisemos las operaciones más típicas que se pueden realizar sobre una base de datos
+
+### Importando e inicializando la aplicación
+
+Para utilizar SQL Alchemy necesitamos instalar la librería `flask` de Python. Una vez lo hayamos hecho, estableceremos una conexión a la base de datos y definiremos el objeto `db`, que es lo más importante para empezar a trabajar con ella.
+
+```py
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+
+app = Flask(__name__)
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:////tmp/test.db"
+db = SQLAlchemy(app)
+```
 
 ### Creando nuestra base de datos
 
-El primer paso sería definir nuestro modelo
+El primer paso sería definir nuestro modelo:
 
 ```py
 class Person(Base):
-    __tablename__ = 'person'
-    # Aquí definimos el nombre de la tabla person.
+    __tablename__ = "person"
+    # Aquí definimos el nombre de la tabla 'Person'
     # Ten en cuenta que cada columna es también un atributo normal de primera instancia de Python.
-    id = Column(Integer, primary_key=True)
-    name = Column(String(250), nullable=False)
+    id = Column(Integer, primary_key = True)
+    name = Column(String(250), nullable = False)
 
-    # el metodo serialize convierte el objeto en un diccionario
+    # El método serialize convierte el objeto en un diccionario
     def serialize(self):
         return {
             "id": self.id,
             "name": self.name
         }
-  ```
+```
 
 ### INSERT: Insertando un registro en la base de datos
 
-¡Todo lo que tiene que hacer es crear un nuevo objeto Person, agregarlo a la sesión de la base de datos y commit!
-Simplemente reemplaza `<username_value>` y `<email_value>` con los valores reales que deseaa agregar, a continuación.
+Para insertar un registro en la base de datos, es necesario, primero, contar con la instancia que se desea añadir. A continuación, agregarlo a la sesión de la base de datos y completar la acción con un commit. En el siguiente código se visualiza esta funcionalidad (reemplaza `<username_value>` y `<email_value>` con los valores reales que desees agregar):
 
 ```py
-person = Person(username=<username_value>, email=<email_value>)
+person = Person(username = <username_value>, email = <email_value>)
 db.session.add(person)
 db.session.commit()
-  ```
+```
 
-### SELECT: Buscando o recuperando registros
+### SELECT: Buscando o recuperando registros de la base de datos
 
-Hay 3 formas para devolver data de la base de datos:
-    1. Obtén todos los registros de una tabla/modelo en particular usando `MyModel.query.all()`
-    2. Obtén un único registro en función de su clave principal mediante `MyModel.query.get(id)`
-    3. Obtén un grupo de registros en función de una consulta `Person.query.filter_by(arg1=value, arg2=value, ...)`
+Hay 3 formas para obtener información de la base de datos:
+
+1. Obtener todos los registros de una tabla/modelo en particular usando `MyModel.query.all()`
+2. Obtener un único registro en función de su clave principal mediante `MyModel.query.get(id)`
+3. Obtener un grupo de registros en función de una consulta `Person.query.filter_by(arg1=value, arg2=value, ...)`
 
 ```py
-# aquí es como se buscan todas las personas
+# Obtener todos los registros de una tabla/modelo en particular, en este caso, de Person
 all_people = Person.query.all()
 all_people = list(map(lambda x: x.serialize(), all_people))
 
-# aquí es como se busca un grupo de personas con name = alex
-all_people = Person.query.filter_by(name='alex')
-all_people = list(map(lambda x: x.serialize(), all_people))
-
-# aquí es cómo se busca a una persona con id = 3 (solo funciona con las primary key)
+# Obtener un único registro en función de su clave principal, que en este caso es el "id" de la persona (solo funciona con las primary key)
 person = Person.query.get(3)
+
+# Obtener un grupo de registros en función de una consulta, en este caso, el string "alex" en la columna "name"
+all_people = Person.query.filter_by(name = "alex")
+all_people = list(map(lambda x: x.serialize(), all_people))
 ```
 
-### DELETE: Eliminando un registro de la base de datos.
+### DELETE: Eliminando un registro de la base de datos
 
-Todo lo que tienes que hacer es seleccionar la instancia de una Persona que te gustaría eliminar (es decir, por su id) y eliminarla escribiendo `db.session.delete(person)`.
+Para eliminar un registro de la base de datos es necesario seleccionar previamente la instancia que se desee borrar (a través de su clave primaria, el id) y eliminarla utilizando `db.session.delete(person)`, de acuerdo al siguiente ejemplo:
 
 ```py
 person = Person.query.get(3)
@@ -111,9 +123,9 @@ db.session.delete(person)
 db.session.commit()
 ```
 
-### UDPATE: Actualizar un registro.
+### UDPATE: Actualizar un registro
 
-Para actualizar, primero necesitas devolver/seleccionar el registro de la base de datos, luego puedes actualizar la propiedad que desees y hacer commit nuevamente.
+Para modificar un registro, hay que seleccionar previamente el mismo de la base de datos, luego puedes trabajar con él cambiando sus propiedades y hacer commit nuevamente, según el siguiente ejemplo:
 
 ```py
 person = Person.query.get(3)
@@ -123,92 +135,98 @@ db.session.commit()
 
 ## Transacciones
 
-Una transacción es una secuencia de operaciones (como INSERT, UPDATE, SELECT) realizadas en tu base de datos. Para que una transacción esté completa una cierta cantidad de operaciones dentro de un grupo deben ser exitosas. Si una operación falla, toda la transacción falla.
+Una transacción es una secuencia de operaciones (como INSERT, UPDATE, SELECT) realizadas en tu base de datos. Para que una transacción esté completa, todas las operaciones deben ser exitosas. Si una operación falla, toda la transacción falla.
 
-Las transacciones tienen las siguientes 4 propiedades estándar (conocidas como propiedades ACID: español significa Atomicidad, Consistencia, Aislamiento y Durabilidad )
+Todas las transacciones deben asegurar 4 propiedades principales (conocidas como propiedades ACID): Atomicidad, Consistencia, Aislamiento y Durabilidad.
 
 ![Transactions](https://github.com/breatheco-de/content/blob/master/src/assets/images/tran-1.png?raw=true)
 
-Una transacción termina con COMMIT o ROLLBACK. 
+Una transacción termina con `COMMIT` o `ROLLBACK`. 
 
 ### COMMIT: session.commit()
 
-El comando COMMIT se usa para guardar de manera permanente los cambios realizados en una transacción dentro de la base de datos. 
+El comando `COMMIT` se usa para guardar de manera permanente los cambios realizados en una transacción dentro de la base de datos. 
 
-Cuando usas INSERT, UPDATE o DELETE, los cambios realizados con estos comandos no son permanentes, los cambios hechos pueden desahacerse o "podemos volver atrás".
+Cuando usas INSERT, UPDATE o DELETE, los cambios realizados con estos comandos no son permanentes, los cambios hechos pueden deshacerse o, dicho con otras palabras, podemos volver atrás.
 
-Pero cuando usas el comando COMMIT los cambios en tu base de datos serán permanentes.  
+Sin embargo, cuando usas el comando COMMIT los cambios en tu base de datos serán permanentes.
 
-### Comando ROLLBACK 
+### ROLLBACK: session.rollback()
 
-Restaura tu base de datos hasta tu último COMMIT. También puedes usarlo con el comando SAVEPOINT para saltar a un punto que hayas guardado durante una transacción en curso.
+El comando `ROLLBACK` restaura tu base de datos hasta tu último COMMIT. También puedes usarlo con el comando SAVEPOINT para saltar a un punto que hayas guardado durante una transacción en curso.
 
-Del mismo modo, si usas UPDATE para hacer cambios en tu base de datos, puedes deshacerlos usando el comando ROLLBACK pero sólo si aún no has usado el comando COMMIT de esta forma:
+Del mismo modo, si usas UPDATE para hacer cambios en tu base de datos, puedes deshacerlos usando el comando ROLLBACK pero solo si aún no has usado el comando COMMIT de esta forma:
 
-```jsx
+```py
 db.session.rollback()
 ```
 
-### Comando SAVEPOINT 
+### SAVEPOINT: session.begin_nested()
 
-Este comando se usa para guardar temporalmente una transacción para así poder volver a cierto punto utilizando el comando ROLLBACK si así lo necesitas, puedes usarlo así:
+El comando `SAVEPOINT` se usa para guardar temporalmente una transacción para así poder volver a cierto punto utilizando el comando ROLLBACK si así lo necesitas. Puedes usarlo así:
 
-```jsx
+```py
 db.session.begin_nested()
 ```
 
-Este comando se puede llamar muchas veces y emitirá un nuevo PUNTO DE CONTROL con una ID.
+Este comando se puede llamar muchas veces, y con cada llamada se establece un punto de control llamado `checkpoint` y que lleva asociado un identificador único.
 
-![SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-1.png?raw=true)
+![SQL checkpoint](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-1.png?raw=true)
 
-Digamos que vamos a comer pizza y nuestra pizza tiene tres ingredientes de base:
-mozzarella, tomate y aceitunas.  Nuestra tabla se llamaría 'PIZZA' y se vería de la siguiente manera:
+Pongamos, por ejemplo, el caso de que queramos preparar una pizza y preparemos una base de datos en la que introducir los ingredientes que lleva. La base de esta pizza que queremos preparar lleva tres ingredientes: mozzarella, tomate y aceitunas. Nuestra tabla se va a llamar 'Pizza' y, después de insertar los ingredientes, se vería de la siguiente manera:
 
-![SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-2.png?raw=true)
+![SQL tabla pizza](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-2.png?raw=true)
 
-Pero tenemos una lista de ingredientes extra que podemos añadirle: escogemos carne pero luego cambiamos de parecer y queremos champiñones. También nos gustaría añadirle pepperoni y tocino. Veamos como se vería nuestra transacción:
+Además, tenemos una lista de ingredientes extra que podemos añadir: escogemos carne primero, pero luego cambiamos de parecer y queremos reemplazarla por champiñones. También añadiremos pepperoni y bacon. Veamos como se haría esta transacción:
 
 ```py
-# we insert a new ingredient into out pizza
+# Supongamos que ya tenemos los ingredientes base añadidos con anterioridad
+
+# Ahora insertamos un nuevo ingrediente en la pizza, la carne
 ingredient = Ingredient()
-ingredient.name = 'meat'
+ingredient.name = "meat"
 ingredient.id = 4
 db.session.add(ingredient)
 
-# now we COMMIT the transaction and save it into the database
+# Ahora hacemos COMMIT y lo guardamos en la base de datos, de tal forma que fijamos el ingrediente en la Pizza
 db.session.commit()
 
+# Reemplazamos el cuarto ingrediente, que antes era la carne, por los champiñones
 ingredient = Ingredient.query.get(4)
-ingredient.name = mushrooms
+ingredient.name = "mushrooms"
+db.session.commit()
 
-# save a checkpoint
+# Guardamos un "checkpoint"
 checkpoint_a = db.session.begin_nested()
 
-# add pepperoni
+# Añadimos pepperoni en la pizza
 ingredient = Ingredient()
-ingredient.name = 'pepperoni'
+ingredient.name = "pepperoni"
 db.session.add(ingredient)
+db.session.commit()
 
-# one last checkpoint before adding bacon ingredient
+# Un último "checkpoint" antes de añadir el bacon
 checkpoint_b = db.session.begin_nested()
 
-# add bacon
+# Insertamos el bacon
 ingredient = Ingredient()
-ingredient.name = 'bacon'
+ingredient.name = "bacon"
 db.session.add(ingredient)
 ```
 
 Ahora nuestra 'Pizza' tiene los siguientes ingredientes:
 
-![SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-3.png?raw=true)
+![SQL tabla Pizza](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-3.png?raw=true)
 
-Ahora acabamos de decir que ya no queremos tocino, asi que usamos ROLLBACK:
+Sin embargo, antes de meterla en el horno hemos decidido que no queremos bacon, así que usamos el rollback:
 
-```jsx
-ROLLBACK TO B;
+```py
+checkpoint_b.rollback()
+# Vuelve atrás, hasta el checkpoint B, donde no se incluye el bacon
 ```
-y nuestra 'PIZZA' se ve así:
 
-![SQL](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-4.png?raw=true)
+Finalmente, nuestra 'Pizza' se ve así:
 
-...me ha dado hambre luego de leer esta lección ¿¿tú no tienes hambre??
+![SQL tabla Pizza despues de rollback](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-4.png?raw=true)
+
+... Me ha dado hambre después de leer esta lección ¿¿tú no tienes hambre??

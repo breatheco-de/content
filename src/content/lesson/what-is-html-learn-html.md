@@ -30,7 +30,7 @@ Originally, browsers only knew how to interpret HTML.  Websites were simple and 
 
 Remember when we said the Internet is all text?
 
-In that sense, HTML is a language that uses `<tags>` to represent the elements that a web page must-have. A tag is just a word that begins with `< >` and ends with `</ >`.
+In that sense, HTML is a language that uses `<tags>` to represent the elements that a web page must have. A tag is just a word that begins with `< >` and ends with `</ >`.
  All tags must open and close (closing tags always precede the element with a `/`).
 
  There are 2 different types of tags:

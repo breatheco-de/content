@@ -1,14 +1,13 @@
 ---
-title: "RegEx examples"
-subtitle: "On RegEx examples we'll be covering different regular expressions examples for the most used data. You'll find patterns with working snippets for Javascript and Python for emails and passwords validation, Integers, Float numbers and Decimals extraction "
+title: "RegEx Examples: Mastering Regular Expressions with Practical Cases"
+subtitle: "Explore RegEx examples for a comprehensive understanding. Learn to wield the power of regular expressions in various scenarios"
 tags: ["Python","JavaScript", "RegEx", "Regular Expression", "snippet"]
 date: "2023-02-12T16:36:30+00:00"
-authors: [javierseiglie]
-status: "draft"
+authors: [jseiglie]
 
 ---
 
-Regex, short for regular expressions, is a powerful tool used for text processing and manipulation in programming. It allows developers to define patterns of characters that can be used to match specific strings of text. This can be incredibly useful for tasks such as data validation, parsing, and searching. Regex is used in a wide range of programming languages, including JavaScript, Python, and Ruby. For those looking to learn more about regex, a [regex tutorial](https://4geeks.com/lesson/regex-tutorial-regular-expression-examples) is a great place to start. A good tutorial will cover the basics of regex syntax, provide examples of common use cases, and offer best practices for working with regular expressions. By learning regex, programmers can enhance their skills and write more efficient and effective code.
+Regex, short for regular expressions, is a powerful tool used for text processing and manipulation in programming. It allows developers to define patterns of characters that can be used to match specific strings of text. This can be incredibly useful for tasks such as data validation, parsing, and searching. Regex is used in a wide range of programming languages, including [Javascript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript), Python, and Ruby. For those looking to learn more about regex, a [regex tutorial](https://4geeks.com/lesson/regex-tutorial-regular-expression-examples) is a great place to start. A good tutorial will cover the basics of regex syntax, provide examples of common use cases, and offer best practices for working with regular expressions. By learning regex, programmers can enhance their skills and write more efficient and effective code.
 
 ## What are Regular Expressions (RegEx) patterns?
 
@@ -270,6 +269,6 @@ print(checkUrl("http://www.google.com")) #Output -> True
 print(checkUrl("4geeks")) #Output -> False
 ```
 
-In both cases we are returning a boolean (`true/false`) if the url is valid.
+In both cases we are returning a boolean (`true/false`) if the URL is valid.
 
 You can learn more about this topic and others related at [4Geeks](https://4geeks.com/). Hope you enjoyed the reading and keep on the Geek side!
