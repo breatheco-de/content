@@ -15,7 +15,7 @@ status: "draft"
 
 We are used to perceiving components as a unit that encapsulates the view and the logic for its behavior. But what if we need to reuse only the logic in other components? We could consider centralized states, but what if I want to reuse only the logic while leaving every component with its own state? The janky solution would be copying the functions to another file, exporting them from there, and figuring out a way to make them work with every single state component 😰. It doesn't sound like fun...
 
-The solution for this issue is `useReducer`, which as its name suggests **reduces** the state and the logic to a single reusable unit, allowing it to be exported from a file to every component that needs it 💪.
+The solution for this issue is `useReducer`, which as its name suggests **reduces** the state and the logic to a single reusable unit, allowing it to be exported from a file to every component that needs it 💪. This reducer will coexist with the rest of the ordinary component syntax, you can [learn more here](https://4geeks.com/lesson/making-react-components).
 
 ## Encapsulating with useReducer
 
@@ -74,11 +74,11 @@ With this, we can have the functions `counterReducer` and `intitialCounter` expo
 
 ## Migrating from useState to useReducer
 
-In this example, we have a counter that not only adds one by one but also has other options to modify its value.
+In this example, we have a counter that not only adds one by one but also has other options to modify its value. 
 
 ![react counter using state](https://breathecode.herokuapp.com/v1/media/file/state-counter-png?width=200)
 
-To perform all these actions it needs functions for every single one of them, besides the state itself.
+To perform all these actions it needs functions for every single one of them, besides the state itself. For that we'll use the classic `useState` hook, [learn more here](https://4geeks.com/lesson/react-hooks-explained#the-useeffect-hook).
 
 ```javascript
 export default function CounterUsingState() {
@@ -174,4 +174,6 @@ For this to work it was necessary to use the state of the reducer and replace th
 
 ## And that's it
 
-We have seen the advantages of useReducer and now we know how to extract the logic and the state to a reducer exported on an external file that can be reused by other components. This doesn't mean you have to dish out `useState` entirely and only use `useReducer`. Like everything in coding is about using the right tool for the right job. The reducers are ideal when we have a lot of functions associated with a single state, and turns out convenient to group logic and data. This can happen in a scenario of great complexity o when you need to reuse functions and their state across many components, then you will have the mighty tool **useReducer** in your arsenal.
+We have seen the advantages of useReducer and now we know how to extract the logic and the state to a reducer exported on an external file that can be reused by other components. This doesn't mean you have to dish out `useState` entirely and only use `useReducer`. Like everything in coding is about using the right tool for the right job. You can learn more about React and the great tools it has [in this category](https://4geeks.com/technology/reactjs)
+
+The reducers are ideal when we have a lot of functions associated with a single state, and turns out convenient to group logic and data. This can happen in a scenario of great complexity o when you need to reuse functions and their state across many components, then you will have the mighty tool **useReducer** in your arsenal.

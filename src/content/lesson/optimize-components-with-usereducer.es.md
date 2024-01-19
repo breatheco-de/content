@@ -15,7 +15,8 @@ status: "draft"
 
 Estamos acostumbrados a percibir los componentes como la unidad que agrupa la vista y la lógica para su funcionamiento, hasta ahi todo bien. Pero ¿Qué pasa si necesitamos reutilizar solo la lógica en otros componentes? Podríamos hablar de estados centralizados, pero ¿ Qué pasa si solo quiero reutilizar la lógica y que cada componente tenga un estado propio? La solución arcaica seria copiar y pegar, o exportar las funciones desde un archivo aparte y buscar alguna intrincada manera de hacerlas trabajar con el estado de cada componente 😰. Eso no suena divertido...
 
-La solución a este problema es `useReducer`, que como dice su nombre, **reduce** un estado y su lógica a una unidad reutilizable, permitiendo que esta se pueda exportar desde un archivo a los componentes que lo necesiten 💪.
+La solución a este problema es `useReducer`, que como dice su nombre, **reduce** un estado y su lógica a una unidad reutilizable, permitiendo que esta se pueda exportar desde un archivo a los componentes que lo necesiten 💪. Este reducer va a cohexistir con el resto de la sintaxis tipica de un componente React, puedes [aprender más aquí](https://4geeks.com/es/lesson/making-react-components-es).
+
 
 ## Encapsulando con useReducer
 
@@ -78,7 +79,7 @@ En este ejemplo tenemos un contador que no solamente suma de 1 en 1, sino tambi�
 
 ![react counter using state](https://breathecode.herokuapp.com/v1/media/file/state-counter-png?width=200)
 
-Para realizar todas estas acciones se necesitan funciones para cada una de ellas, ademas del estado en si.
+Para realizar todas estas acciones se necesitan funciones para cada una de ellas, ademas del estado en si. Para eso usaremos el clasico hook `useState`, [aprende mas aquí](https://4geeks.com/es/lesson/react-hooks-explained-es).
 
 ```javascript
 export default function CounterUsingState() {
@@ -174,4 +175,6 @@ Para que esto funcione fue necesario usar el state del reducer y reemplazar las 
 
 ## Todo listo
 
-Ya hemos visto las ventajas de useReducer y sabemos como extraer la lógica de nuestro estado a un reducer ubicado en un archivo externo que pueden reutilizar los demás componentes. Esto no significa que tengas que desechar `useState` por completo y solo usar `useReducer`, como todo en programación se trata de usar la herramienta adecuada para el trabajo adecuado. Los reducer son ideales cuando tenemos muchas funciones asociadas al estado, y nos convenga agrupar lógica y datos. Esto puede darse en un escenario de gran complejidad o cuando se necesite reutilizar funciones y estados en varios componentes, ahi tendrás la poderosa herramienta de **useReducer** en tu arsenal.
+Ya hemos visto las ventajas de useReducer y sabemos como extraer la lógica de nuestro estado a un reducer ubicado en un archivo externo que pueden reutilizar los demás componentes. Esto no significa que tengas que desechar `useState` por completo y solo usar `useReducer`, como todo en programación se trata de usar la herramienta adecuada para el trabajo adecuado. Puedes aprender más de React y las herramientas que tiene [en esta categoria](https://4geeks.com/es/technology/reactjs)
+
+Los reducer son ideales cuando tenemos muchas funciones asociadas al estado, y nos convenga agrupar lógica y datos. Esto puede darse en un escenario de gran complejidad o cuando se necesite reutilizar funciones y estados en varios componentes, ahi tendrás la poderosa herramienta de **useReducer** en tu arsenal.
