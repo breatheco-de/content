@@ -8,8 +8,6 @@ status: "published"
 
 ---
 
-# How to Get Python List Length
-
 A simple way to get the length of any Python list is using the `len()` function as follows:
 
 ```py
