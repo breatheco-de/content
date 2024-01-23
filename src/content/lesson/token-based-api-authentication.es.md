@@ -87,7 +87,7 @@ const unique_hash = jwt.sign(payload, 'secret-key', {
 Explicación: la función `jwt.sign` siempre devolverá el mismo `unique_hash` si se proporciona el mismo valor. Echa un vistazo a esta demostración, empieza a escribir en la entrada:
 
 <!--hide-->
-<iframe src="https://full-stack-assets.breatheco.de/live-demos/security/hashing/" height="300" title="Hashing functions example"></iframe>
+<iframe src="https://full-stack-assets.4geeks.com/live-demos/security/hashing/" height="300" title="Hashing functions example"></iframe>
 <!--endhide-->
 
 Nota: Hay varias funciones de hashing populares: MD5, Sha1, Sha256, Sha256, etc. 
