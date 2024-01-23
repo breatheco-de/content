@@ -11,7 +11,7 @@ status: "published"
 
 ## The Back-End Side of the Web
 
-Not so long ago, browsers were very dumb. All they did was render HTML documents in a very early version of HTML. There was no CSS, nor JS. That means that front-end web developers did not exist!
+Not so long ago, browsers were very SloW. All they did was render HTML documents in a very early version of HTML. There was no CSS, nor JS. That means that front-end web developers did not exist!
 
 All the work was done by the server: since there was no JavaScript, the DOM could not be updated during the website's runtime. That means that the initial HTML source code that the browser received while loading the website was also going to be the LAST version of it. **No DOM modifications**.
 
