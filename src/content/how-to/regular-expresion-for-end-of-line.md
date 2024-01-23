@@ -1,7 +1,27 @@
 
+
 ## Regular expression for end of line
 
-Regular expressions (RegEx) are a very common and powerful way to search and manipulate text using certain patterns. The following is an example in two of the most popular programming languages (Python and JavaScript) to check if a string ends with a certain character or character pattern.
+Regular expressions (RegEx) are a very common and powerful way to search and manipulate text using certain patterns. The following is an example in JavaScript to check if a string ends with a certain character or text pattern.
+
+```js
+const textOne = "This is an example of a regular expression for the end of line";
+const textTwo = "This is another example";
+
+const regexPattern = /line$/i;
+
+const textOneResult = regexPattern.test(textOne);
+const textTwoResult = regexPattern.test(textTwo);
+
+console.log(textOneResult); // output: true
+console.log(textTwoResult); // output: false
+```
+
+In this example, the regular expression (`line$`) checks if a sentence ends with the word **line**. We can use this regular expression along with the `test()` method to check if the sentences of the `textOne` and `textTwo` variables follow this pattern. As you can see with the first sentence the method returns `true` because it does indeed end with the word **line** but with the second sentence returns `false` because it ends with the word **example** and this does not match the regex pattern.
+
+## Regex symbol to check for the end of a line
+
+In regular expressions, the `$` symbol indicates that the pattern we want to search for must be at the end of the string, you can understand this concept better  with the following example.
 
 **Python Code**
 ```py
@@ -29,11 +49,11 @@ if (regexPattern.test(url)) {
 }
 ```
 
-In this example, the regular expression `.(com|org|gov|io|net)$` checks if the URL of a website has a valid top-level domain. We can use this regular expression along with the `search()` method in Python and the `test()` method in JavaScript to verify if the URL of the website `https://www.google.com` has a valid domain. These methods will return `true` or `false` depending on whether the URL meets the condition.
+In this example, the regular expression `.(com|org|gov|io|net)$` checks if the URL of a website ends with a valid top-level domain. We can use this regular expression along with the `search()` method in Python and the `test()` method in JavaScript to verify if the URL of the website `https://www.google.com` has a valid domain. These methods will return `true` or `false` depending on whether the URL meets the condition.
 
 Explanation of the regular expression.
 
-- `\.`: This regular expression pattern matches a single dot (**.**), this is because the dot represents a single character in a regular expression, so if we need a regular expression to match a dot we must precede it with a backslash ( \ ) so that the dot is interpreted literally.
+- `\.`: This regular expression pattern matches a single dot (**.**), this is because the dot in a regular expression represents a single character, so if we need a regular expression to match a dot we must precede it with a backslash ( \ ) so that the dot is interpreted literally.
 - `(com|org|gov|io|net)`: This pattern is used to group the options that the regular expression can match, this means that the regular expression can match any of the options inside the parentheses.
 - `$`: This symbol is the most important part of the regular expression and it represents the end of a line, it indicates that the position of the pattern you are looking for is exactly at the end of the string or right before a line break `\n`.
 
