@@ -5,7 +5,7 @@ tags: ["debugging", "web development"]
 
 ---
 
-We all make a lot of mistakes when coding. This is a reality that every senior developer acknowledges; that's why "debugging code" has become one of the most essential skills for developers.
+We all make mistakes when coding. This is a reality that every senior developer acknowledges, which is why "debugging code" has become one of the most essential skills for developers.
 
 ## It's OK to make mistakes
 
