@@ -37,7 +37,7 @@ function counterReducer(state , action = {}) {
 }
 ```
 
-Esta función reducer se va a ejecutar en cada llamado de acción y deberá retornar una nueva versión del estado que reemplaza por completo la anterior al terminar su ejecución, por lo que hay que ser cuidadoso y sólo alterar lo que necesitamos y retornar siempre los demás valores del estado utilizando la desestructuracion (js destructuring) 🤓.
+Esta función `counterReducer` se va a ejecutar en cada llamado de acción y deberá retornar una nueva versión del estado que reemplaza por completo la anterior al terminar su ejecución, por lo que hay que ser cuidadoso y sólo alterar lo que necesitamos y retornar siempre los demás valores del estado utilizando la desestructuracion (js destructuring) 🤓.
 
 👍**SI**
 
