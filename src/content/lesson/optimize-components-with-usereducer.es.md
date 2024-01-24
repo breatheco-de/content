@@ -1,7 +1,7 @@
 ---
 title: "Qué es y como usar el hook useReducer en React.js"
 subtitle: "Aprende a usar el hook useReducer en React.js y cómo funciona, comparalo con otras alternativas como redux, flux, entre otras."
-cover: "https://www.desktopbackground.org/p/2013/09/13/637935_nasa-wallpapers_1600x1200_h.jpg"
+cover: "https://storage.googleapis.com/media-breathecode/d41a3b74c971a2c43fb305d81cee53d1a946cdb6931f79db200f7fb7b2263806"
 textColor: "white"
 date: "2024-01-16T16:45:31-04:00"
 tags: ["react","javascript"]
@@ -11,20 +11,19 @@ status: "draft"
 
 ## Que es el useReducer
 
-Los hooks empezaron a existir en react desde la versión 16.8.
-Desde entonces, toda la arquitectura de react se ha transformado en una serie de "Hooks" que permiten implementar la mayoria de los patrones de programacion mas importantes.
-El useReducer es una propuesta de React para separar la logica de la vista en tus componentes. Hay otras soluciones como Redux, Flux, Global Context, etc. Sin embargo, el useReducer es sencillo de usar y mantiene un alcance local sobre los datos, es decir, a pesar de reusar las funciones y codigo de los componentes, no se compartiran los datos entre sí.
+Los hooks empezaron a existir en react desde la versión 16.8. Desde entonces, toda la arquitectura de react se ha transformado en una serie de "Hooks" que permiten implementar la mayoría de los patrones de programación mas importantes.
+El useReducer es una propuesta de React para separar la lógica de la vista en tus componentes. Hay otras soluciones como Redux, Flux, Global Context, etc; sin embargo el useReducer es sencillo de usar y mantiene un alcance local sobre los datos, es decir a pesar de reutilizar las funciones, los componentes no compartirán los datos entre sí.
 
 ## Ejemplo de useReducer
 
-Este es el ejemplo más sencillo de useReducer:
+Este es un ejemplo sencillo de un contador para entender como usar useReducer:
 
 ```react
   const intitialCounter = () => ({counter: 0});
   const [state, dispatch] = useReducer(counterReducer, intitialCounter());
 ```
 
-El hook `useReducer` recibe como primer parámetro una función que define el `reducer`, y va a retornar un arreglo de dos valores que representan al nuevo estado (`state`) y el dispatcher: El objeto que permite ejecutar las acciones/funciones de la lógica del reducer (`actions`). Como segundo parámetro se debe pasar una función que retorne un objeto con los valores iniciales del estado.
+El hook `useReducer` recibe como primer parámetro una función que define el `reducer`, y retorna un arreglo de dos valores que representan al nuevo estado (`state`) y el dispatcher, el objeto que permite ejecutar las funciones de la lógica del reducer (`actions`). Como segundo parámetro se debe pasar una función que retorne un objeto con los valores iniciales del estado.
 
 > El segundo valor del arreglo que deveulve el useReducer se llama "dispacher" y no "actions" porque es necesario tener un "despachador" de acciones como intermediario para evitar conflictos en los datos.
 
@@ -76,33 +75,11 @@ export default function counterReducer(state, action = {}) {
 
 Ya con esto podemos tener tanto las funciones `counterReducer` e `intitialCounter` exportadas en un archivo, para ser utilizadas por cualquier otro componente 👌.
 
-## Porque usar useReducer
+## ¿Por qué usar useReducer?
 
-Estamos acostumbrados a percibir los componentes como la unidad que agrupa la vista y la lógica para su funcionamiento. Por ejemplo: En el siguiente código hay un componente `Counter` que tiene el HTML para definir como debería verse un contador de números y tambien existe la logica de como deberia sumar una unidad cada vez que se presione el botón "+1"
+¿Qué pasa si necesitamos reutilizar sólo la lógica en otros componentes? Podríamos [hablar de estados centralizados](https://4geeks.com/es/lesson/context-api-es), pero ¿Qué pasa si sólo quiero reutilizar la lógica y que cada componente tenga un estado propio? Una solución poco práctica seria copiar y pegar, o exportar las funciones desde un archivo aparte y buscar alguna manera de hacerlas trabajar con el estado de cada componente 😰. Eso no suena conveniente...
 
-```react
-export default function Counter() {
-
-  // Logica ⬇️
-  const [counter, setCounter] = useState(0);
-  const increment = () => setCounter(counter + 1);
-
-  // Vista ⬇️
-  return (
-    <div className="container">
-      <h2>State counter</h2>
-      <h3>{counter}</h3>
-      <div className="buttons">
-        <button onClick={increment}>+1</button>
-      </div>
-    </div>
-  );
-}
-```
-
-Pero ¿Qué pasa si necesitamos reutilizar sólo la lógica en otros componentes? Podríamos [hablar de estados centralizados](https://4geeks.com/es/lesson/context-api-es), pero ¿Qué pasa si sólo quiero reutilizar la lógica y que cada componente tenga un estado propio? Una solución poco práctica seria copiar y pegar, o exportar las funciones desde un archivo aparte y buscar alguna manera de hacerlas trabajar con el estado de cada componente 😰. Eso no suena conveniente...
-
-La solución a este problema es `useReducer`, que como dice su nombre, su función es **reducir** un estado y su lógica a una unidad reutilizable, permitiendo que esta se pueda exportar desde un archivo a los componentes que lo necesiten 💪. Este reducer va a cohexistir con el resto de la sintaxis típica de un componente React, puedes [aprender más aquí](https://4geeks.com/es/lesson/making-react-components-es).
+Una solución a este problema es `useReducer`, que como dice su nombre, su función es **reducir** un estado y su lógica a una unidad reutilizable, permitiendo que esta se pueda exportar desde un archivo a los componentes que lo necesiten 💪. Este reducer va a cohexistir con el resto de la sintaxis típica de un componente React, puedes [aprender más aquí](https://4geeks.com/es/lesson/making-react-components-es).
 
 ## Migrando de useState a useReducer
 
@@ -198,7 +175,7 @@ Para que esto funcione fue necesario usar el state del reducer y reemplazar las 
 
 ## Veamos ambos casos en acción
 
-<iframe src="https://codesandbox.io/embed/t34ldl?view=Editor+%2B+Preview&module=%2Fsrc%2Freducercounter.js&hidenavigation=1"
+<iframe src="https://replit.com/@4GeeksAcademy/useReducer-Sample?embed=true#src/counterReducer.js"
      style="width:100%; height: 500px; border:0; border-radius: 4px; overflow:hidden;"
      title="useReducer Demo"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
