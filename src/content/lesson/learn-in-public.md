@@ -46,7 +46,7 @@ When you learn in public you: create in social media, you write in notebooks and
 
 I really doubt that, learning to code is hard and people read a lot about it and they need emotional support, just like with your testimonial you are helping a lot of people who will be interested in learning more about your story.
 
-### I'm no expert
+### I'M NOT EXPERT
 
 Nobody is! I've been coding for 20 years and I still think I'm no expert, by showing your perspective on the topics you just learned you are helping other amateurs on their journey.
 
