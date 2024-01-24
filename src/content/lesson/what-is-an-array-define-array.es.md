@@ -206,9 +206,9 @@ Es muy común la necesidad de ordenar arrays. Por ejemplo: ordenar una lista de 
 La función `sort()` ordena un array usando la lógica de comparación de string, lo que significa que el string "25" es más grande que "100", porque "2" es más grande que "1".
 
 ```javascript
-let fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fruits = ["Banana", "Orange", "Apple", "Mango", "Pera"];
     fruits.sort();
-    console.log(fruits); // --> ['Apple', 'Banana', 'Mango', 'Orange']
+    console.log(fruits); // --> ['Apple', 'Banana', 'Mango', 'Orange', 'Pera']
 ```
 
 La función `reverse()` simplemente invierte el orden del array, así que si quieres un array ordenado pero invertido, asegúrate de usar la función `sort()` **antes** de invertir el array.
