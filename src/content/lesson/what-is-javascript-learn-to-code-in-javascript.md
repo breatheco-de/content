@@ -75,9 +75,9 @@ As we learned above, we use the keyword `var` to declare a variable. There are t
 
 Variable's values are subject to change over time. To retrieve a variable's value you can print the value on the screen at any time. Each language has its own methods to print; this is how you do it in JavaScript:
 
-<iframe src="https://repl.it/F0R2/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe src="https://replit.com/@4GeeksAcademy/Data-Types?embed=true#index.js" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<div align="right"><small><a href="https://repl.it/F0R2/1?lite=true" >Click to open demo in a new window</a></small></div>
+<div align="right"><small><a href="https://replit.com/@4GeeksAcademy/Data-Types#index.js" >Click to open demo in a new window</a></small></div>
 
 ## Data Types
 
@@ -93,9 +93,9 @@ Variables can have different types of values. Some of them are available only in
 |Objects    |Any object    |You can create your own data-types with more complex operations.  We will talk more about this later.    |
 |Null     |Only null    |Is used to specify when the database or any other function does not return anything.   |
 
-<iframe src="https://repl.it/F05K/3?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe src="https://replit.com/@4GeeksAcademy/Data-Types?embed=true#index.js" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<div align="right"><small><a href="https://repl.it/F05K/3?lite=true">Click to open demo in a new window</a></small></div>
+<div align="right"><small><a href="htthttps://replit.com/@4GeeksAcademy/Data-Types#index.js">Click to open demo in a new window</a></small></div>
 
 ## Operations
 
@@ -198,9 +198,9 @@ if (number > 18) {
 
 Similar to if…else… but a little bit more organized. Here, you will specify all the possible case scenarios, including the `default scenario` that will occur if none of the other scenarios happen.
 
-<iframe src="https://repl.it/F2EK/5?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe src="https://replit.com/@4GeeksAcademy/Conditionals?embed=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<div align="right"><small><a href="https://repl.it/F2EK/5?lite=true">Click to open demo in a new window</a></small></div>
+<div align="right"><small><a href="https://replit.com/@4GeeksAcademy/Conditionals">Click to open demo in a new window</a></small></div>
 
 > Use `switch` instead of `if` when:<br><br>• You are comparing multiple possible conditions of an expression and the expression itself is non-trivial.<br>• You have multiple values that may require the same code.<br>• You have some values that will require essentially all of another value’s execution, plus only a few statements.<br><br>Use `if` instead of `switch` when:<br><br>• You want to test the truthfulness of an expression.<br>• You only have a single affirmative test.<br>• You need to evaluate different expressions for each branch.
 

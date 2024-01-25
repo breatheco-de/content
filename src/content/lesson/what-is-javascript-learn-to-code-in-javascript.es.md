@@ -76,9 +76,9 @@ Como aprendimos anteriormente, usamos la palabra clave `var` para declarar una v
 
 Los valores de las variables están sujetos a cambios en el tiempo. Para recuperar un valor variable, puede imprimir el valor en la pantalla en cualquier momento. Cada lenguaje de programación tiene sus propios métodos para imprimir; así es como lo haces en JavaScript:
 
-<iframe src="https://repl.it/F0R2/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe src="https://replit.com/@4GeeksAcademy/Print-variable?embed=true#index.js" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<div align="right"><small><a href="https://repl.it/F0R2/1?lite=true" >Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="https://replit.com/@4GeeksAcademy/Print-variable#index.js" >Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
 
 
 
@@ -202,9 +202,9 @@ if (number > 18) {
 
 Similar a if…else… pero un poco más organizado. Aquí especificarás todos los escenarios de casos posibles, incluido el "escenario predeterminado" que ocurrirá si no sucede ninguno de los otros escenarios.
 
-<iframe src="https://repl.it/F2EK/5?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe src="https://replit.com/@4GeeksAcademy/Conditionals?embed=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<div align="right"><small><a href="https://repl.it/F2EK/5?lite=true">]Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="https://replit.com/@4GeeksAcademy/Conditionals">]Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
 
 > Usa `switch` en lugar de `if` cuando: <br><br> • Estés comparando varias condiciones posibles de una expresión y la expresión en sí no es trivial.<br>• Si tienes múltiples valores que pueden requerir el mismo código. <br> • Si tienes algunos valores que requerirán esencialmente toda la ejecución de otro valor, además de unas pocas declaraciones. <br><br> Utiliza `if` en lugar de `switch` cuando: <br><br> • Deseas probar la veracidad de una expresión. <br> • Solo tienes una única prueba afirmativa. <br> • Necesitas evaluar diferentes expresiones para cada rama.
 
