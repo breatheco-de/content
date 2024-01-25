@@ -175,9 +175,10 @@ Para que esto funcione fue necesario usar el state del reducer y reemplazar las 
 
 ## Veamos ambos casos en acción
 
-<iframe src="https://replit.com/@4GeeksAcademy/useReducer-Sample?embed=true#src/counterReducer.js"
+<iframe src="https://codesandbox.io/embed/q6fjct?view=Editor+%2B+Preview&module=%2Fsrc%2FcounterReducer.js"
      style="width:100%; height: 500px; border:0; border-radius: 4px; overflow:hidden;"
      title="useReducer Demo"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
