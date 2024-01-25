@@ -96,9 +96,9 @@ Las variables pueden tener diferentes tipos de valores. Algunos de ellos están 
 |Objetos    |Cualquier objeto    |Puedes crear tus propios tipos de datos con operaciones más complejas. Hablaremos sobre este tema a mayor profundidad más adelante.  |
 |Null    |Solo null    |Se utiliza para especificar cuándo la base de datos o cualquier otra función no devuelve nada.   |
 
-<iframe src="https://repl.it/F05K/3?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe src="https://replit.com/@4GeeksAcademy/Data-Types?embed=true#index.js" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<div align="right"><small><a href="https://repl.it/F05K/3?lite=true">Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="https://replit.com/@4GeeksAcademy/Data-Types#index.js">Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
 
 ## Operaciones
 
