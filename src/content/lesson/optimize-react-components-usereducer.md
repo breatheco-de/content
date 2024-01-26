@@ -9,15 +9,13 @@ status: "draft"
 
 ---
 
-# Optimize your components (React) whit **useReducer**
+## What is the useReducer hook?
 
-## The components and their logic
 
-We are used to perceiving components as a unit that encapsulates the view and the logic for its behavior. But what if we need to reuse only the logic in other components? We could consider centralized states, but what if I want to reuse only the logic while leaving every component with its own state? The janky solution would be copying the functions to another file, exporting them from there, and figuring out a way to make them work with every single state component 😰. It doesn't sound like fun...
+The hooks were launched on version 16.8 of React. Since then all the architecture of react has transformed into a series of hooks that allow the implementation of most of the most important coding design patterns.
+useReducer is a proposal from React to separate the logic from the view of your components. There are other solutions like Redux, Flux, Global Context, etc; however, useReducer is easy to use and keeps the data in a local scope, which means that even when the components are reusing the functions, they don't share data.
 
-The solution for this issue is `useReducer`, which as its name suggests **reduces** the state and the logic to a single reusable unit, allowing it to be exported from a file to every component that needs it 💪. This reducer will coexist with the rest of the ordinary component syntax, you can [learn more here](https://4geeks.com/lesson/making-react-components).
-
-## Encapsulating with useReducer
+## Example of a useReducer
 
 The `useReducer` hook receives as the first parameter a function that defines the `reducer` and will return an array of two values that represents the state of the reducer (`state`) and the object that allows dispatching the actions that perform the logic of the reducer (`actions`). As a second parameter, it receives a function that returns an object with the initial values of the state.
 
@@ -72,6 +70,12 @@ export default function counterReducer(state, action = {}) {
 
 With this, we can have the functions `counterReducer` and `intitialCounter` exported from a file, to be utilized by another component 👌.
 
+## Why use useReducer?
+
+What if we need to reuse only the logic in other components? We could consider [centralized states](https://4geeks.com/lesson/context-api), but what if I want to reuse only the logic while leaving every component with its own state? The janky solution would be copying the functions to another file, exporting them from there, and figuring out a way to make them work with every single state component 😰. It doesn't sound convenient...
+
+One solution for this issue is `useReducer`, which as its name suggests **reduces** the state and the logic to a single reusable unit, allowing it to be exported from a file to every component that needs it 💪. This reducer will coexist with the rest of the ordinary component syntax, you can [learn more here](https://4geeks.com/lesson/making-react-components).
+
 ## Migrating from useState to useReducer
 
 In this example, we have a counter that not only adds one by one but also has other options to modify its value. 
@@ -80,7 +84,7 @@ In this example, we have a counter that not only adds one by one but also has ot
 
 To perform all these actions it needs functions for every single one of them, besides the state itself. For that we'll use the classic `useState` hook, [learn more here](https://4geeks.com/lesson/react-hooks-explained#the-useeffect-hook).
 
-```javascript
+```react
 export default function CounterUsingState() {
   const [counter, setCounter] = useState(0);
   const increment = () => setCounter(counter + 1);
@@ -133,7 +137,7 @@ export default function counterReducer(state, action = {}) {
 
 Now from the component we can import and use the reducer:
 
-```javascript
+```react
 import React, { useReducer } from "react";
 import counterReducer, { intitialCounter } from "./counterReducer";
 
@@ -166,9 +170,10 @@ For this to work it was necessary to use the state of the reducer and replace th
 
 ## Let's see both cases in action
 
-<iframe src="https://codesandbox.io/embed/t34ldl?view=Editor+%2B+Preview&module=%2Fsrc%2Freducercounter.js&hidenavigation=1"
+<iframe src="https://codesandbox.io/embed/q6fjct?view=Editor+%2B+Preview&module=%2Fsrc%2FcounterReducer.js"
      style="width:100%; height: 500px; border:0; border-radius: 4px; overflow:hidden;"
      title="useReducer Demo"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 

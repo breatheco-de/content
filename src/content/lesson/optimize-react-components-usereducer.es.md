@@ -9,10 +9,10 @@ status: "draft"
 
 ---
 
-## Que es el useReducer
+## ¿Qué es el hook useReducer?
 
-Los hooks empezaron a existir en react desde la versión 16.8. Desde entonces, toda la arquitectura de react se ha transformado en una serie de "Hooks" que permiten implementar la mayoría de los patrones de programación mas importantes.
-El useReducer es una propuesta de React para separar la lógica de la vista en tus componentes. Hay otras soluciones como Redux, Flux, Global Context, etc; sin embargo el useReducer es sencillo de usar y mantiene un alcance local sobre los datos, es decir a pesar de reutilizar las funciones, los componentes no compartirán los datos entre sí.
+Los hooks fueron lanzados en la versión 16.8 de react. Desde entonces, toda la arquitectura de react se ha transformado en una serie de "Hooks" que permiten implementar la mayoría de los patrones de programación mas importantes.
+El useReducer es una propuesta de React para separar la lógica de la vista de tus componentes. Hay otras soluciones como Redux, Flux, Global Context, etc; sin embargo el useReducer es sencillo de usar y mantiene un alcance local sobre los datos, es decir a pesar de reutilizar las funciones, los componentes no compartirán los datos entre sí.
 
 ## Ejemplo de useReducer
 
@@ -116,7 +116,7 @@ export default function CounterUsingState() {
 
 Esto funciona perfecto, pero para hacer la lógica reutilizable y moverlo a otro archivo, lo convertiremos en un reducer:
 
-```react
+```javascript
 // counterReducer.js
 export const intitialCounter = () => ({
   counter: 0
