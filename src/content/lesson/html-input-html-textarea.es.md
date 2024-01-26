@@ -1,7 +1,7 @@
 ---
 title: "Entendiendo HTML, Input (Entrada), Textarea y formularios..."
 subtitle: "Los formularios HTML, los input HTML y el textarea HTML son muy fáciles de entender, y son la ÚNICA manera de crear sitios web interactivos sin AJAX. Estos conceptos muy básicos y representan el 90% de todo lo que siempre necesitarás saber sobre formularios."
-cover: "https://www.desktopbackground.org/p/2013/09/13/637935_nasa-wallpapers_1600x1200_h.jpg"
+cover: "https://breathecode.herokuapp.com/v1/media/file/4geeks-com-thumbnail-slug-html-input-html-textarea-es-png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["HTML","entradas","formularios"]
