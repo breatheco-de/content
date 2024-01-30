@@ -51,7 +51,6 @@ Asegúrate de que tenga tu estilo personal, pero en general puedes concentrarte 
 - [ ] Tu proyecto más importante, el que más te enorgullece, debe estar destacado en el primer espacio de tu perfil.
 - [ ] Contribuye en a lo menos a 5 proyectos externos. Encuentra proyectos open-source que te gusten y haz contribuciones. En los siguientes enlaces encontrarás proyectos e indicaciones sobre cómo contribuir: 
     - https://www.firsttimersonly.com/
-    - http://yourfirstpr.github.io/
     - https://www.codetriage.com/
     - https://github.com/MunGell/awesome-for-beginners
 - [ ] Necesitas ser un miembro [desarrollador de GitHub](https://developer.github.com/program/). Puedes unirte gratis y obtendrás una insignia en tu perfil.
@@ -59,4 +58,4 @@ Asegúrate de que tenga tu estilo personal, pero en general puedes concentrarte 
 
 ### Un perfil de ejemplo: Dan Abramov
 
-![Dan Abramov GitHub Profile](https://raw.githubusercontent.com/breatheco-de/content/master/src/assets/images/b04c5254-086a-4b9f-8b86-0cf95fcc3fcddanabramov.png)
+![Dan Abramov perfil de GitHub](https://raw.githubusercontent.com/breatheco-de/content/master/src/assets/images/b04c5254-086a-4b9f-8b86-0cf95fcc3fcddanabramov.png)
