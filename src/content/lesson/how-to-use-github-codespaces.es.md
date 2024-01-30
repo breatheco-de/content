@@ -35,7 +35,7 @@ GitHub llama a cada entorno de codificación un "codespace". Si comienzas a trab
 
 - Finalmente, abrirá un editor de código (probablemente VSCode, el IDE de codificación más utilizado en el mundo) y una terminal para comenzar a codificar como si el codespace estuviera en tu computadora local desde el principio.
 
-- Si vuelves a [tus Codespaces](https://github.com/codespaces), encontrarás todas las computadoras que has creado y podrás volver a abrirlas. Los cambios que hiciste en los archivos se mantendrán durante unos días; retendrás todos los datos siempre y cuando VUELVAS A ABRIR el mismo codespace en el que estabas trabajando.
+- Si vuelves a [tus Codespaces](https://github.com/codespaces), encontrarás todas las computadoras que has creado y podrás volver a abrirlas. Los cambios que hiciste en los archivos se mantendrán durante unos días; retendrás todos los datos siempre y cuando VUELVAS A ABRIR el mismo codespace en el que estabas trabajando o si desactivas la opción "Auto-delete codespace" en ese repositorio en específico.
 
 ## ¿Qué es un codespace de GitHub?
 
