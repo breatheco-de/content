@@ -43,7 +43,7 @@ Make sure to give your own personal style, but in general, you can focus on tryi
 - [ ] Add a picture or avatar.
 - [ ] Start committing and pushing from day one: GitHub tracks and publicly reports your activity as a developer in something called [The GitHub Activity Graph](https://help.github.com/en/articles/viewing-contributions-on-your-profile#contributions-calendar), which is impossible to fake. That is why we encourage you to start committing and collaborating from day one.
 - [ ] For each repository you want to pin and promote, your upload must include:  
-    1. A detailed README.md
+    1. A detailed `README.md`.
     2. Live demo (GitHub pages), screenshots, and gifs.
     3. Very organized, clean code and comments.
 - [ ] Your most important project, the one you are proud the most, must be pinned on the first slot.
