@@ -34,7 +34,7 @@ GitHub calls every coding environment a "codespace". If you start working on a p
 
 - Finally, it will open a coding editor (probably VSCode, the most used coding IDE in the world) and a terminal to start coding as if the codespace was on your local computer in the first place.
 
-- If you go back to [your codespaces](https://github.com/codespaces), you will find all the computers you have created and be able to re-open them. Changes you made to the files will stay for a few days; you will retain all data as long as you RE-OPEN the same workspace you were working on in the first place.
+- If you go back to [your codespaces](https://github.com/codespaces), you will find all the computers you have created and be able to re-open them. Changes you made to the files will stay for a few days; you will retain all data as long as you RE-OPEN the same workspace you were working on, or if you deactivate the "Auto-delete codespace" option on that specific codespace.
 
 ## What is a Github Codespace?
 
@@ -46,13 +46,13 @@ When you open a GitHub repository using Codespaces, you will be "renting" a comp
 
 Go to any GitHub repository and you will be able to open a codespace of it by clicking on the `Code -> Create codespace on <branch>` buttons. Look at this image:
 
-![open repository codespace](https://github.com/breatheco-de/content/blob/master/src/assets/images/open-codespace.png?raw=true)
+![Open repository codespace](https://github.com/breatheco-de/content/blob/master/src/assets/images/open-codespace.png?raw=true)
 
 ## The terminal
 
 As a coder, you need to use the computer terminal sometimes; you can always find or open the terminal by clicking on the hamburger menu on the top left of VSCode and selecting the `Terminal -> New Terminal` option.
 
-![How to open a terminal](https://github.com/breatheco-de/content/raw/master/src/assets/images/terminal.png?raw=true)
+![How to open a terminal in VSCode](https://github.com/breatheco-de/content/raw/master/src/assets/images/terminal.png?raw=true)
 
 ## What is the terminal or command line?
 
@@ -60,4 +60,4 @@ Every computer has a terminal, and you can use it to do almost everything you wa
 
 You don't have to learn the terminal commands yet, but [we strongly recommend reading this lesson](https://4geeks.com/lesson/the-command-line-the-terminal) to get familiar with them and understand their functions and limitations.
 
-![terminal command](https://github.com/breatheco-de/content/blob/master/src/assets/images/terminal-command.png?raw=true)
+![VSCode terminal](https://github.com/breatheco-de/content/blob/master/src/assets/images/terminal-command.png?raw=true)
