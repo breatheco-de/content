@@ -49,11 +49,10 @@ Asegúrate de que tenga tu estilo personal, pero en general puedes concentrarte 
     2. Demostración en vivo (GitHub pages), capturas de pantalla y gifs.
     3. Un código muy organizado y limpio con comentarios.
 - [ ] Tu proyecto más importante, el que más te enorgullece, debe estar destacado en el primer espacio de tu perfil.
-- [ ] Contribuye en a lo menos a 5 proyectos externos. Encuentra proyectos open-source que te gusten y haz contribuciones. En los siguientes enlaces encontrarás proyectos e indicaciones sobre cómo contribuir: 
+- [ ] Contribuye en al menos 5 proyectos externos. Encuentra proyectos open-source que te gusten y haz contribuciones. En los siguientes enlaces encontrarás proyectos e indicaciones sobre cómo contribuir: 
     - https://www.firsttimersonly.com/
     - https://www.codetriage.com/
     - https://github.com/MunGell/awesome-for-beginners
-- [ ] Necesitas ser un miembro [desarrollador de GitHub](https://developer.github.com/program/). Puedes unirte gratis y obtendrás una insignia en tu perfil.
 - [ ] Evita usar los términos "desarrollador nuevo", "desarrollador junior", "recién graduado" o algo similar en tu introducción o biografía.
 
 ### Un perfil de ejemplo: Dan Abramov
