@@ -49,10 +49,8 @@ Make sure to give your own personal style, but in general, you can focus on tryi
 - [ ] Your most important project, the one you are proud the most, must be pinned on the first slot.
 - [ ] Contribute to at least 5 external projects. Find open-source projects you like and make contributions. In the following links you'll find projects and indications on how to contribute:  
     - https://www.firsttimersonly.com/
-    - http://yourfirstpr.github.io/
     - https://www.codetriage.com/
     - https://github.com/MunGell/awesome-for-beginners
-- [ ] You need to be a [GitHub developer program](https://developer.github.com/program/) member. You can join for free, and you will get a badge on your profile.
 - [ ] Avoid using "new developer", "junior developer", "recent graduate", or the likes in your summary statement or bio.
 
 ### An Example Profile: Dan Abramov
