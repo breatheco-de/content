@@ -4,7 +4,7 @@ This lesson will define GitHub.com, explain it, and review its essential feature
 
 ## What is GitHub
 
-GitHub.com is the epicenter of your software developer journey; you'll be interacting with GitHub so much that we cannot even list all the things you can do; here are a few examples:
+GitHub.com is the epicenter of your software developer journey; you'll be interacting with GitHub so much that we cannot even list all the things you can do. Here are a few examples:
 
 - GitHub is where you save your code every night: Like a hard drive.
 - It's your professional portfolio: Like a resume.
@@ -33,19 +33,20 @@ GitHub's original purpose (before turning into a social network and many other t
 > A repository is just a folder with code inside. For example, this repository contains [all the code for the React.js library](https://github.com/facebook/react).
 
 ![The typical GitHub Repository Page](https://raw.githubusercontent.com/breatheco-de/knowledge-base/main/images/breatheco-de-exercise-postcard-The-ideal-first-project-for-anyone-interested-in-practicing-HTML-CSS-with-a-real-life-example-.png)
-Above you can see an explanation of the typical Github Repository Page
+
+Above, you can see an explanation of the typical GitHub Repository Page
 
 ### Everything in GitHub revolves around code repositories:
 
-1. You can create new repositories for every project you start, and upload your code into that repo.
-2. Share the repo with everyone, people 👍🏼 like it, 📣 comment on it, open tickets about bug fixes, ask for new features, etc.
+1. You can create new repositories for every project you start, and upload your code into those repos.
+2. Share the repo with everyone; people 👍🏼 like it, 📣 comment on it, open tickets about bug fixes, ask for new features, etc.
 3. Give access to other developers to edit your code inside your repository.
-4. Any stranger can download your code, make changes and propose the changes for your approval.
+4. Anyone can download your code, make changes and propose the changes for your approval.
 5. Many other fabulous things you will discover.
 
 ### Liking and bookmarking a repository
 
-The GitHub Star ⭐️ is the primary way to bookmark other people's repositories; it is a good idea to bookmark a repo because you will probably lose track of it; there are millions of amazing repos. You can categorize them.
+The GitHub Star ⭐️ is the primary way to bookmark other people's repositories. It is a good idea to bookmark a repo because you will probably lose track of it; there are millions of amazing repos. You can categorize them.
 
 We recommend you bookmark most of the academy repositories, as you will need and use them a lot. Here are a few of them:
 
