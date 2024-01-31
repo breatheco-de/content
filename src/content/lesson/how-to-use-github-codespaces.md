@@ -50,7 +50,7 @@ Go to any GitHub repository and you will be able to open a codespace of it by cl
 
 ## The terminal
 
-As a coder, you need to use the computer terminal sometimes; you can always find or open the terminal by clicking on the hamburger menu on the top left of VSCode and selecting the `Terminal -> New Terminal` option.
+As a coder, you need to use the computer terminal sometimes; you can always find or open the terminal by clicking on the top menu of VSCode and selecting the `Terminal -> New Terminal` option.
 
 ![How to open a terminal in VSCode](https://github.com/breatheco-de/content/raw/master/src/assets/images/terminal.png?raw=true)
 
