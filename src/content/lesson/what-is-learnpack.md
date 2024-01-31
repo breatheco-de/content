@@ -1,6 +1,6 @@
 ---
 title: "Coding tutorials with LearnPack"
-subtitle: "Everything you need to learn about LearnPack, our chosen tutorial engine for coding content"
+subtitle: "Everything you need to learn about LearnPack, our chosen tutorial engine for coding content."
 cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
 textColor: "white"
 date: "2020-10-19T16:36:30+00:00"
@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-Throughout this course, you will see here and there the word "LearnPack"; you will use LearnPack A LOT to practice coding tutorials and small exercises. This article is an attempt to explain what it is and how to use it, so you can run all the tutorials smoothly.
+Throughout this course, you will see here and there the word "LearnPack". You will use LearnPack A LOT to practice coding tutorials and small exercises. This article is an attempt to explain what it is and how to use it, so you can run all the tutorials smoothly.
 
 ## What is LearnPack?
 
@@ -17,19 +17,19 @@ LearnPack is a package manager for interactive tutorials and exercises. It's lik
 
 ### What makes LearnPack so unique?
 
-Instead of watching a video or reading an article, LearnPack will present small challenges incrementally; each will be auto-grading for instant feedback and a video tutorial solution (sometimes).
+Instead of watching a video or reading an article, LearnPack will present small challenges incrementally; each one will be auto-graded for instant feedback and a video tutorial solution (sometimes).
 
 > This is the best way to learn coding-related skills.
 
 ## How to use LearnPack
 
-Most LearnPack tutorials will come with a button labeled: "Start new exercise" or "continue exercise".
+Most LearnPack tutorials will come with a button labeled: "Start new exercise" or "Continue exercise".
 
 ![LearnPack Alert on 4geeks.com](https://github.com/breatheco-de/content/blob/master/src/assets/images/learnpack-alert.png?raw=true)
 
-After clicking on "Start new exercise" a new coding environment will open, and LearnPack will start running immediately. 
+After clicking on "Start new exercise", a new coding environment will open, and LearnPack will start running immediately. 
 
-All LearnPack tutorials come in steps; you will find the instructions on the right side and a button to continue to the `next ->` step.
+All LearnPack tutorials come in steps; you will find the instructions on the right side and a button to continue to the `next ->` exercise.
 
 ![LearnPack explanation](https://github.com/breatheco-de/content/blob/master/src/assets/images/learnpack-explanation.png?raw=true)
 
