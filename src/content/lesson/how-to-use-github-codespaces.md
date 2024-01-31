@@ -3,7 +3,7 @@ Modern companies no longer allow developers to work on their local computers; th
 
 > **In plain English**: Codespaces is a technology that creates -in a matter of seconds- computers and coding environments in the cloud, ready to be used by software developers.
 
-When teaching coding-related skills, provisioning environments like Codespaces have become [one of our main tools](https://4geeks.com/lesson/4geeks-teaching-tools) at 4Geeks. As a student, you are encouraged to use these environments, as they will speed your learning by at least one order of magnitude, removing all the setup and configuration friction and allowing you to focus on your code.
+When teaching coding-related skills, provisioning environments like Codespaces have become one of our main tools at 4Geeks. As a student, you are encouraged to use these environments, as they will speed your learning by at least one order of magnitude, removing all the setup and configuration friction and allowing you to focus on your code.
 
 In this lesson, we'll learn why Provisioning Environments are becoming a trend, their benefits and disadvantages, and how to use GitHub Codespaces.
 
