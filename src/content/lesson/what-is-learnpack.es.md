@@ -1,6 +1,6 @@
 ---
 title: "Tutoriales de programación con LearnPack"
-subtitle: "Todo lo que necesitas saber sobre LearnPack, nuestro motor de tutoriales elegido para enseñarte"
+subtitle: "Todo lo que necesitas saber sobre LearnPack, nuestro motor de tutoriales elegido para enseñarte."
 cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
 textColor: "white"
 date: "2020-10-19T16:36:30+00:00"
@@ -8,6 +8,7 @@ tags: ["learnpack"]
 status: "published"
 
 ---
+
 A lo largo de este curso vas a ver en muchos sitios la palabra "LearnPack"; usarás LearnPack BASTANTE para practicar tutoriales de programación y pequeños ejercicios. Este artículo es un intento de explicar qué es y cómo usarlo para que puedas ejecutar todos los tutoriales sin problemas.
 
 ## ¿Qué es LearnPack?
@@ -26,9 +27,9 @@ La mayoría de los tutoriales de LearnPack vienen con un botón etiquetado: "Nue
 
 ![Alerta de LearnPack 4geeks.com](https://github.com/breatheco-de/content/blob/master/src/assets/images/learnpack-alert.e.png?raw=true)
 
-Luego de darle clic en "Nuevo ejercicio" una nueva computadora se abrirá, y LearnPack va a empezar a correr inmediatamente.  
+Luego de darle clic en "Nuevo ejercicio" se abrirá un nuevo entorno de desarrollo y LearnPack va a empezar a correr inmediatamente.  
 
-Todos los tutoriales de LearnPack  vienen en pasos; vas a encontrar las instrucciones del lado derecho y un botón para continuar al siguiente paso " `next ->`"
+Todos los tutoriales de LearnPack vienen en pasos; vas a encontrar las instrucciones del lado derecho y un botón `next ->` para continuar al siguiente ejercicio.
 
 ![Explicación de LearnPack](https://github.com/breatheco-de/content/raw/master/src/assets/images/learnpack-explanation.e.png?raw=true)
 
@@ -40,4 +41,4 @@ Si no puedes encontrar las instrucciones a la derecha, puedes empezar los ejerci
 $ learnpack start
 ```
 
-> Nota: Si eso no funciona, intenta con `ctrl` + `shift` + `p` para abrir la paleta de comandos de VSCode y teclea/busca "Abrir instrucciones" para volver a abrir la barra lateral derecha.
+> Nota: Si eso no funciona, intenta con `ctrl` + `shift` + `p` para abrir la paleta de comandos de VSCode y busca "Abrir instrucciones" para volver a abrir la barra lateral derecha.
