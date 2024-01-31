@@ -15,7 +15,7 @@ tags: ["Conditionals","Logical operators","If...else","Conditions","Python"]
 
 Esta lección tiene como objetivo ayudar a familiarizarte con la sintaxis básica de Python y cómo hacer cosas esenciales como imprimir algo en un terminal, manipular strings y entender como se usan las variables, funciones, operaciones lógicas y condicionales. Esta debería ser la primera lección a leer en tu viaje con Python.
 
-Por favor sepa que hay otras lecciones explicando cada concepto en detalle; esto es solamente un resumen básico para ayudarte a obtener una visión general sobre el tema.
+Por favor, sepa que hay otras lecciones explicando cada concepto en detalle; esto es solamente un resumen básico para ayudarte a obtener una visión general sobre el tema.
 
 ## ¿Por qué Python?
 
@@ -34,7 +34,7 @@ Cuando lo comparas con otro lenguaje backend, Python es líder en casi todas las
 |:---------------:|:------------------:|
 |Python es el lenguaje oficial de Google. También es uno de los lenguajes más antiguos con comunidades muy grandes en torno a cada una de sus librerías/herramientas. MIT lo utiliza para codificar. La NASA para construir cohetes. Quora, Facebook, Yahoo, Amazon, etc. ¡Casi todas las grandes compañías del mundo deben usarlo!      |La mayoría de las librerías de Python son las mejores en lo que hacen: [MatLab](https://www.mathworks.com/help/matlab/matlab-engine-for-python.html?requestedDomain=true) (para procesamiento de datos), [Pandas](https://pandas.pydata.org/) (grandes datos), [Web.py](http://webpy.org/) (servidor web), [Django](https://www.djangoproject.com/) (web framework), [PyBrain](http://pybrain.org/) (IA), [TensorFlow](https://www.tensorflow.org/) (Machine Learning), etc.  ¡Podríamos estar en esto todo el día! Lo más asombroso es que estas librerías están a un `$ pip install` de poder usarlas (al igual que cuando se usa NPM con JS).|
 
-## Python Syntax
+## Sintaxis de Python
 
 ### Imprimiendo un valor
 
@@ -54,10 +54,10 @@ area = ancho * ancho
 Tu código calculará el `area` sin importar el valor del `ancho`:
 
 ```python
-# Si el ancho=6 en el futuro
+# Si ancho=6 en el futuro
 area = 6 * 6
 
-# Si el ancho=7 en el futuro
+# Si ancho=7 en el futuro
 area = 7 * 7
 ```
 
@@ -108,7 +108,7 @@ Por otra parte, si quieres sumar el string `"5"` con el string `"2"`, el resulta
 
 ### Listas y Tuplas 
 
-Todos los principales lenguajes de programación tienen formas de almacenar listas de valores juntos; estos se llaman **arrays** (matrices) o **listas**.
+Todos los principales lenguajes de programación tienen formas de almacenar listas de valores juntos; estos se llaman **listas** o **arrays** (matrices). 
 
 Una lista de Python es una sucesión ordenada de valores, por ejemplo:
 
@@ -120,8 +120,8 @@ nombres = ["Maria", "Willy", "Anyka", "Shan"]
 Es importante recordar que el orden importa. Cada uno de los valores en una lista tiene una posición que siempre va a ser la misma. Puedes recuperar cualquier valor interno usando la posición que toman en la lista, por ejemplo:
 
 ```python
-print(edades[0]) # imprimirá 23 porque su posición es 0
-print(edades[4]) # imprimirá 65 porque su posición es 4
+print(edades[0])  # Imprimirá 23 porque su posición es 0
+print(edades[4])  # Imprimirá 65 porque su posición es 4
 ```
 > Importante: las listas comienzan en la posición 0.
 
@@ -140,14 +140,14 @@ Por ejemplo, el siguiente es un algoritmo muy sencillo que imprime el nombre com
 nombre = "Taylor"
 apellido = "Swift"
 
-print("Miss "+nombre+" "+apellido)  # Imprime: Miss Taylor Swift
+print("Miss " + nombre + " " + apellido)  # Imprime: Miss Taylor Swift
 ```
 
 La primera línea es `nombre = "Taylor"` y se ejecuta primero; la última línea con la instrucción `print` ya sabe el valor de `nombre` porque fue completado primero (línea anterior).
 
 ### Condicionales
 
-Las condiciones son fantásticas porque te permiten saltar o condicionalmente ejecutar partes de tu algoritmo, haciéndolos bastante flexibles e inteligentes. Por ejemplo, podríamos condicionalmente imprimir "Miss" (señorita) o "Mrs" (señora), dependiendo de su estado civil:
+Las condiciones son fantásticas porque te permiten saltar o condicionalmente ejecutar partes de tu algoritmo, haciéndolos bastante flexibles e inteligentes. Por ejemplo, podríamos condicionalmente imprimir "Miss" (señorita) o "Mrs." (señora), dependiendo de su estado civil:
 
 ```python
 estado_civil = "casada"
@@ -155,12 +155,12 @@ nombre = "Taylor"
 apellido = "Swift"
 
 if estado_civil == "soltera":
-	print("Miss "+nombre + " " + apellido)  # Imprime: Miss Taylor Swift
+	print("Miss " + nombre + " " + apellido)  # Imprime: Miss Taylor Swift
 else:
-	print("Mrs "+nombre + " " + apellido)  # Imprime: Mrs Taylor Swift
+	print("Mrs. " + nombre + " " + apellido)  # Imprime: Mrs. Taylor Swift
 ```
 
-> Nota: La instrucción `if...else...` se lee como en inglés. También, para hacer comparaciones, debes utilizar dos signos de igual `==` en vez de uno, y a eso se le llama **Expresión Lógica**.
+> Nota: La instrucción `if...else` se lee como en inglés. También, para hacer comparaciones, debes utilizar dos signos de igual `==` en vez de uno, y a eso se le llama **Expresión Lógica**.
 
 ### Operaciones Lógicas y Expresiones
 
@@ -188,18 +188,18 @@ Puedes agrupar las operaciones lógicas en paréntesis, y también utilizar par�
 |Operación       |Sintaxis       |Ejemplos   |
 |:---------------|:--------------|:--------------|
 |AND             |and            |Con AND, todas las operaciones DEBEN SER True para que el resultado final sea True.<br>¿Es (5 == 5 and 3 > 1)? True!<br>¿Es ('Ramon' == 'Pedro' and 2 == 2)? False!    |
-|OR              |or             |Con OR, si al menos una de las operaciones es True el resultado final será True.<br>¿Es ('Oscar' != 'Maria' or 2 != 2)? True!<br>¿Es (5 == '5' and 'Ramon' != 'Pedro') or (2 == 2)? True!   |
-|NOT             |not            |NOT será el resultado opuesto al resultado del operador lógico:<br>¿Es not (5 > 5)? True!<br>¿Es not True? Falso!    |
+|OR              |or             |Con OR, si al menos una de las operaciones es True, el resultado final será True.<br>¿Es ('Oscar' != 'Maria' or 2 != 2)? True!<br>¿Es (5 == '5' and 'Ramon' != 'Pedro') or (2 == 2)? True!   |
+|NOT             |not            |NOT será el resultado opuesto al resultado del operador lógico:<br>¿Es not (5 > 5)? True!<br>¿Es not True? False!    |
 
 ## Controla el Flujo de Tu Código
 
 Okey, ahora es cuando todo se empieza a poner ¡divertido! Para controlar el flujo de tus aplicaciones vas a tener muchas opciones y vas a usar cada una de ellas todos los días. Entonces, debes sentirte cómodo usándolas. 
 
-### Condicionales: If…else…
+### Condicionales: If...else
 
-La primera herramienta que tienes es el condicional `if…else`. Puedes decirle a la computadora que se salte cualquier parte de tu código dependiendo del valor actual de tus variables.
+La primera herramienta que tienes es el condicional `if...else`. Puedes decirle a la computadora que se salte cualquier parte de tu código dependiendo del valor actual de tus variables.
 
-La declaración "if" te permite ejecutar un pedazo de código si se cumplen ciertas condiciones (o son verdaderas). La declaración "else" va a ejecutar un pedazo de código alternativo en caso de que la condición sea falsa.
+La declaración `if` te permite ejecutar un pedazo de código si se cumplen ciertas condiciones (o son verdaderas). La declaración `else` va a ejecutar un pedazo de código alternativo en caso de que la condición sea falsa.
 
 ```python
 if numero < 18:
