@@ -5,7 +5,7 @@ textColor: "white"
 authors: ["alesanchezr"]
 status: "published"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["github", "buscar empleo", "construyendo tu curriculum"]
+tags: ["github"]
 cover_local: "../../assets/images/githubbackground.jpg"
 
 ---
