@@ -143,7 +143,7 @@ For example, the following is a very simple algorithm that prints the full name 
 name = "Taylor"
 last_name = "Swift"
 
-print("Miss "+name + " " + last_name)  # Output: Miss Taylor Swift
+print("Miss " + name + " " + last_name)  # Output: Miss Taylor Swift
 ```
 
 The first line is `name = "Taylor"` and it's executed first; the last line with the `print` statement already knows the value of `name` because it was completed first (earlier line).
@@ -158,9 +158,9 @@ name = "Taylor"
 last_name = "Swift"
 
 if relationship_status == "single":
-	print("Miss "+name + " " + last_name)  # Output: Miss Taylor Swift
+	print("Miss " + name + " " + last_name)  # Output: Miss Taylor Swift
 else:
-	print("Mrs. "+name + " " + last_name)  # Output: Mrs. Taylor Swift
+	print("Mrs. " + name + " " + last_name)  # Output: Mrs. Taylor Swift
 ```
 
 > Note: The `if...else` statement reads like English. Also, to make comparisons, you have to use two equals `==` instead of one, and that is called a **Logical Expression**.
@@ -198,10 +198,11 @@ You can group the logical operations in parentheses, and also use nested parenth
 
 Okay, now is when everything starts getting fun! To control your application's flow, you'll have several options, and you are going to use each of them every single day. So, you must become comfortable using them.
 
-### Conditionals: If…else…
+### Conditionals: If...else
 
 The first tool you have is the `if...else` conditional. You can tell the computer to skip any part of your code, depending on the current value of your variables.
-The if statement allows you to execute a piece of code if certain conditions are met (or are true). The "else" statement will execute an alternate piece of code in case the condition is false.
+
+The `if` statement allows you to execute a piece of code if certain conditions are met (or are true). The `else` statement will execute an alternate piece of code in case the condition is false.
 
 ```python
 if number < 18:
