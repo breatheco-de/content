@@ -59,6 +59,6 @@ Como programador, a veces necesitas usar la terminal del computador; siempre pue
 
 Todo computador tiene una terminal, y puedes usarla para hacer casi todo lo que quieras: abrir una aplicación, crear un archivo, carpeta, etc. Sin embargo, en Codespaces, la terminal solo controlará el computador virtual.
 
-No tienes que aprender los comandos de la terminal todavía, pero [es muy recomendable leer esta lección](https://4geeks.com/lesson/the-command-line-the-terminal) para familiarizarte con ella y entender sus funciones y limitaciones.
+No tienes que aprender los comandos de la terminal todavía, pero [es muy recomendable leer esta lección](https://4geeks.com/es/lesson/the-command-line-the-terminal-es) para familiarizarte con ella y entender sus funciones y limitaciones.
 
 ![Terminal de VSCode](https://github.com/breatheco-de/content/blob/master/src/assets/images/terminal-command.png?raw=true)
