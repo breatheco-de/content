@@ -1,10 +1,14 @@
+---
+title: "How to Create a Regular Expression for End of Line?"
+subtitle: "Learn how to construct a regular expression to match the end of a line. Explore practical examples and tips for effective pattern matching in JavaScript and Python."
+tags: ["regular-expression", "javascript", "python"]
+authors: [DF27ARTS]
 
+---
 
-## Regular expression for end of line
+Regular expressions (RegEx) are a very common and powerful way to search and manipulate text by using certain patterns. The following is an example in JavaScript and Python, to check if a string ends with a certain character or text pattern:
 
-Regular expressions (RegEx) are a very common and powerful way to search and manipulate text using certain patterns. The following is an example in JavaScript to check if a string ends with a certain character or text pattern.
-
-```js
+```js runable=true
 const textOne = "This is an example of a regular expression for the end of line";
 const textTwo = "This is another example";
 
@@ -15,6 +19,20 @@ const textTwoResult = regexPattern.test(textTwo);
 
 console.log(textOneResult); // output: true
 console.log(textTwoResult); // output: false
+```
+```py runable=true
+import re
+
+text_one = "This is an example of a regular expression for the end of line"
+text_two = "This is another example"
+
+regex_pattern = re.compile(r"line$", re.IGNORECASE)
+
+text_one_result = regexPattern.search(text_one)
+text_two_result = regexPattern.search(text_two)
+
+print(bool(text_one_result))  # output: True
+print(bool(text_two_result))  # output: False
 ```
 
 In this example, the regular expression (`line$`) checks if a sentence ends with the word **line**. We can use this regular expression along with the `test()` method to check if the sentences of the `textOne` and `textTwo` variables follow this pattern. As you can see with the first sentence the method returns `true` because it does indeed end with the word **line** but with the second sentence returns `false` because it ends with the word **example** and this does not match the regex pattern.
