@@ -1,9 +1,14 @@
+---
+title: "¿Cómo hacer drop de una columna en Pandas?"
+subtitle: "Explora métodos efectivos para eliminar una columna de un DataFrame en Pandas. Aprende técnicas y consideraciones importantes para la manipulación eficiente de datos en Python."
+tags: ["Python", "Pandas"]
+authors: [DF27ARTS]
 
-## ¿Cómo hacer drop de una columna en Pandas?
+---
 
-Existen diferentes formas para eliminar una columna de un Dataframe, a continuación veremos un pequeño ejemplo utilizando el método `drop()` de la librería de Pandas.
+Al trabajar con [Pandas](https://4geeks.com/es/lesson/pandas-en-python) se es común tener la necesidad de eliminar alguna columna de nuestro Dataframe, existen diferentes formas para hacerlo, a continuación veremos un pequeño ejemplo utilizando el método `drop()` de la librería de Pandas.
 
-```py
+```py runable=true
 import pandas as pd
 
 usuarios = pd.DataFrame({
@@ -19,23 +24,16 @@ usuarios = pd.DataFrame({
 usuarios_actualizados = usuarios.drop(columns='Ultima_conexion')
 print(usuarios_actualizados)
 ```
-> output del código:
-```bash
-   Usuario_ID Nombre_de_usuario  Edad  Genero         Pais Suscripcion
-0         101      Alice_Wonder    28  Female          USA     Premium
-1         102      Bob_Explorer    35    Male       Canada        Free
-2         103     Charlie_Coder    22    Male           UK     Premium
-3         104    David_DataGeek    29    Male    Australia        Free
-4         105    Eve_Adventurer    31  Female  Netherlands        Free
-```
 
 En este ejemplo tenemos un Dataframe con la información de los usuarios de una aplicación y queremos eliminar la columna **Ultima_conexion**, para esto simplemente podemos hacer uso del método `drop()` y pasarle el parámetro `columns` junto con el nombre de la columna que necesitamos eliminar, este método retorna una copia del Dataframe original con la columna eliminada.
 
+Si estas interesado en aprender todos los métodos de pandas a través de ejercicios, te recomendamos este [tutorial de pandas para machine learning](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning) gratuito, ahi tendrás muchos ejercicios para practicar y conocer nuevos métodos.
+
 ## Diferentes formas de eliminar un columna
 
-Existen diferentes formas de eliminar una columna de un Dataframe en Python, algunas pueden ser más eficientes que otras dependiendo de la situación. A continuación veremos algunas de las más utilizadas y eliminaremos algunas de las columnas del siguiente Daraframe.
+Existen diferentes formas de eliminar una columna de un [Dataframe](https://4geeks.com/es/lesson/pandas-dataframe) en Python, algunas pueden ser más eficientes que otras dependiendo de la situación. A continuación veremos algunas de las más utilizadas y eliminaremos algunas de las columnas del siguiente Daraframe.
 
-```py
+```py runable=true
 import pandas as pd
 
 productos = pd.DataFrame({
@@ -49,20 +47,9 @@ productos = pd.DataFrame({
 print(productos)
 ```
 
-> output del código:
-
-```bash
-               Producto         Color  Precio Disponibilidad  Opiniones
-0         Espejo Mágico      Plateado   29.99       En Stock         87
-1       Libro de Sueños          Rosa   12.50        Agotado         42
-2       Varita Luminosa        Dorado   45.99       En Stock         95
-3    Sombrero Hechizado         Negro   34.75       En Stock         68
-4  Cristal Adivinatorio  Transparente   55.99        Agotado         76
-```
-
 ### 1. Usando el método drop
 
-Posiblemente la mejor manera de eliminar una columna de un Dataframe es haciendo uso del método `drop()`, este método ofrece una manera sencilla, intuitiva y eficiente de eliminar una o varias columnas de un Dataframe, a continuación veremos un pequeño ejemplo.
+Posiblemente la mejor manera de eliminar una columna de un Dataframe es haciendo uso del método `drop()`, este método ofrece una manera sencilla, intuitiva y eficiente de eliminar una o varias columnas de un Dataframe, puedes ver este artículo si quieres una explicación más completa de [¿Cómo usar el método drop de Pandas?](https://4geeks.com/es/how-to/pandas-drop). A continuación veremos un pequeño ejemplo:
 
 ```py
 productos.drop(columns='Opiniones', inplace=True)
@@ -102,7 +89,7 @@ print(productos)
 4  Cristal Adivinatorio  Transparente   55.99         76
 ```
 
-En este ejemplo, estamos utilizando la palabra reservada de Python `del` para eliminar la información del Dataframe **productos** en la columna (Disponibilidad). Esta es una manera sencilla de eliminar columnas innecesarias en un Dataframe.
+En este ejemplo, estamos utilizando la palabra reservada de [Python](https://4geeks.com/es/lesson/learning-to-code-with-python-es) `del` para eliminar la información del Dataframe **productos** en la columna (Disponibilidad). Esta es una manera sencilla de eliminar columnas innecesarias en un Dataframe.
 
 ### 3. Utilizando el método pop
 
@@ -186,7 +173,7 @@ dataframe.drop(
 
 A continuación veremos las diferentes formas en las que puedes eliminar una columna en un Dataframe haciendo uso del método `drop()`, además utilizaremos el siguiente Dataframe con la información de algunos animales de ejemplo.
 
-```py
+```py runable=true
 import pandas as pd
 
 animales_salvajes = pd.DataFrame({
@@ -199,15 +186,6 @@ animales_salvajes = pd.DataFrame({
 
 print(animales_salvajes)
 ```
-> output del código:
-```bash
-   Identificador                  Especie  Edad              Color                      Característica
-0           1003   Leopardo de las Nieves     4      Blanco y Gris                Pelaje denso y suave
-1           1027           Dragón Barbudo     2  Marrón y Amarillo                Espinas en la cabeza
-2           1378          Mapache Mascota     3       Gris y Negro                Máscara facial única
-3           2067       Petauro del Azúcar     1      Gris y Blanco  Membranas en patas para deslizarse
-4           2345  Serpiente del Arco Iris     5         Multicolor         Patrón de colores vibrantes
-```
 
 ### 1. Eliminación de una sola columna por nombre
 
@@ -215,7 +193,9 @@ print(animales_salvajes)
 animales_salvajes.drop(columns='Característica', inplace=True)
 print(animales_salvajes)
 ```
+
 > output del código:
+
 ```bash
    Identificador                  Especie  Edad              Color
 0           1003   Leopardo de las Nieves     4      Blanco y Gris
@@ -233,7 +213,9 @@ Para eliminar una sola columna en un Dataframe podemos utilizar el método `drop
 animales_salvajes.drop(columns=['Identificador', 'Edad', 'Color'], inplace=True)
 print(animales_salvajes)
 ```
+
 > output del código:
+
 ```bash
                    Especie                      Característica
 0   Leopardo de las Nieves                Pelaje denso y suave
@@ -272,7 +254,7 @@ En este ejemplo necesitamos eliminar todas las columnas del Dataframe **animales
 
 En algunas ocasiones, la eliminación física de las columnas puede no ser la mejor opción por diversas razones. A continuación veremos algunas alternativas que nos permiten manipular los datos sin la necesidad de eliminar físicamente las columnas del Dataframe, por ejemplo, cambiar los valores de las filas de la columna por el valor `NaN`, por ceros o por algún otro valor.
 
-```py
+```py runable=true
 import pandas as pd
 import numpy as np
 
@@ -287,19 +269,10 @@ tecnologias['Popularidad'] = np.nan
 
 print(tecnologias)
 ```
-> output del código:
-```bash
-   Popularidad               Tecnologia              Aplicacion                 Beneficios
-0          NaN  Inteligencia Artificial    Asistentes virtuales   Automatización de tareas
-1          NaN               Blockchain  Contratos inteligentes  Transparencia y seguridad
-2          NaN         Realidad Virtual    Entrenamiento médico     Simulación de entornos
-3          NaN    Internet de las Cosas        Casa inteligente         Conectividad total
-4          NaN             Impresión 3D    Prototipos de diseño     Personalización rápida
-```
 
 En este ejemplo no necesitamos los valores de las filas de la columna `Popularidad`, podemos reemplazar los valores de esas filas por valores `NaN`. La alternativa de cambiar los valores de una columna en lugar de eliminar físicamente la columna puede variar dependiendo de cada ocasión y el tipo de análisis que necesites hacer con la información del Dataframe.
 
-## Uso de la Opción inplace
+## Uso de la opción inplace
 
 La opción `inplace` en el método `drop()` nos permite determinar si queremos modificar el Dataframe original o generar una copia del Dataframe y retornar esa copia para almacenarla en una nueva variable. Es muy importante tener cuidado con este parámetro ya que puede eliminar de forma permanente información que puede ser relevante, en su lugar es aconsejable primero crear una copia del Dataframe original y después eliminar las columnas en la copia del Dataframe de esta manera si por alguna razón más adelante necesitas toda la información del Dataframe la puedes obtener en el Dataframe original.
 
@@ -319,4 +292,4 @@ La opción `inplace` en el método `drop()` nos permite determinar si queremos m
 
 En este artículo hemos visto diferentes formas de eliminar las columnas de un Dataframe, además, también vimos algunos ejemplos sobre cómo eliminar una o varias columnas con ayuda del método `drop()` y algunas alternativas a la eliminación física de una columna. Te recomiendo que practiques los ejemplos aprendidos en este artículo con datasets más grandes, así entenderás mejor cómo funcionan y también aprenderás a utilizarlos con conjuntos de datos muy grandes algo que puede ser un poco complejo al comienzo, puedes buscar diferentes datasets para practicar en la página web [kaggle.com](https://www.kaggle.com/datasets).
 
-Te invito a que sigas aprendiendo sobre la librería de Pandas junto con todos sus métodos y funcionalidades ya que esta librería nos proporciona bastantes recursos para manipular y modificar distintas estructura de datos como **Dataframes** y **Serias** lo cual es esencial para cualquier desarrollador de Python.
+Te invito a que sigas aprendiendo sobre la librería de Pandas junto con todos sus métodos y funcionalidades ya que esta librería nos proporciona bastantes recursos para manipular y modificar distintas estructura de datos como **Dataframes** y **Series**. Para explorar más sobre Pandas y análisis de datos, así como para llevar tus habilidades al siguiente nivel, te invitamos a [registrarte de forma gratuita](https://4geeks.com/es/pricing) en 4Geeks.com.
