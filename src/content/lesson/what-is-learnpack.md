@@ -13,7 +13,7 @@ Throughout this course, you will see here and there the word "LearnPack". You wi
 
 ## What is LearnPack?
 
-LearnPack is a package manager for interactive tutorials and exercises. It's like Coursera.com, but only for coding.
+LearnPack is a package manager for interactive tutorials and exercises. It's like `Coursera.com`, but only for coding.
 
 ### What makes LearnPack so unique?
 
