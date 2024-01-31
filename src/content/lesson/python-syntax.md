@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Python"
-subtitle: "Learn the basics of Python syntax, loops, data-types and conditionals"
+subtitle: "Learn the basics of Python syntax, loops, data-types and conditionals."
 date: "2020-10-19T16:36:31+00:00"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
@@ -21,18 +21,18 @@ Please know that there are other lessons explaining each concept in detail; this
 
 Python is the fastest-growing backend language in the world. It's the most versatile and easy-to-code language, with one of the most robust communities.
 
-When you compare it to other backend languages, Python is leading in almost every functionality it offers: Data Science, AI, API Developments, Web Development, Networks, Automation, etc. 
+When you compare it to other backend languages, Python is leading in almost every functionality it offers: Data Science, AI, API Development, Web Development, Networks, Automation, etc. 
 
 **Here are some of the reasons Python has come to this point:**
 
 |Simplicity       |Performance    |
 |:---------------:|:------------------:|
-| Python was meant to be simple and easy. Here is the Python manifest:<br>https://en.wikipedia.org/wiki/Zen_of_Python<br><br>**Note:** No more semicolons or curly brackets anymore, declaring variables, or the confusing `this` functionality.     | Python is faster than Java, PHP, Ruby and 90% of the other backend languages. Only low-level languages like C++ (hard to use) or very specialized like Node.js can beat it.<br><br>Python scalability has been proven over and over with applications like Google Search Engine, YouTube, Google Apps, etc.     |
+| Python was meant to be simple and easy. Here is the Python manifest:<br>https://en.wikipedia.org/wiki/Zen_of_Python<br><br>**Note:** No more semicolons or curly brackets anymore, declaring variables, or the confusing `this` functionality.     | Python is faster than Java, PHP, Ruby and 90% of the other backend languages. Only low-level languages like C++ (hard to use) or very specialized ones, like Node.js can beat it.<br><br>Python's scalability has been proven over and over with applications like Google Search Engine, YouTube, Google Apps, etc.     |
 
 
 |Community        |Tools         |
 |:---------------:|:------------------:|
-|Python is Google's official language. It's also one of the oldest languages with huge communities around each of its libraries/tools. MIT uses it to teach code. NASA to build rockets. Quora, Facebook, Yahoo, Amazon, etc. Almost every big company in the world has to use it!      |Most of the Python libraries are the best at what they do: [MatLab](https://www.mathworks.com/help/matlab/matlab-engine-for-python.html?requestedDomain=true) (for data processing), [Pandas](https://pandas.pydata.org/) (big data), [Web.py](http://webpy.org/) (web server), [Django](https://www.djangoproject.com/) (web framework), [PyBrain](http://pybrain.org/) (AI), [TensorFlow](https://www.tensorflow.org/) (Machine Learning), etc.  We could be here all day! The most amazing thing is that these libraries are only one `$ pip install` away (just like when using NPM with JS).      |
+|Python is Google's official language. It's also one of the oldest languages, with huge communities around each of its libraries/tools. MIT uses it to teach code. NASA to build rockets. Quora, Facebook, Yahoo, Amazon, etc. Almost every big company in the world has to use it!      |Most of the Python libraries are the best at what they do: [MatLab](https://www.mathworks.com/help/matlab/matlab-engine-for-python.html?requestedDomain=true) (for data processing), [Pandas](https://pandas.pydata.org/) (big data), [Web.py](http://webpy.org/) (web server), [Django](https://www.djangoproject.com/) (web framework), [PyBrain](http://pybrain.org/) (AI), [TensorFlow](https://www.tensorflow.org/) (Machine Learning), etc.  We could be here all day! The most amazing thing is that these libraries are only one `$ pip install` away (just like when using NPM with JS).      |
 
 ## Python Syntax
 
@@ -46,7 +46,7 @@ print("Hello, this is a message you can show to the user")
 
 ### Declaring a variable
 
-Like most programming languages (or math), Python lets you store data in variables for later use. Variables are a powerful tool because they allow your code to be reusable for any variable value in the future. For example: To calculate a square area you have to do:
+Like most programming languages (or math), Python lets you store data in variables for later use. Variables are a powerful tool because they allow your code to be reusable for any variable value in the future. For example: To calculate a square's area, you have to do:
 
 ```python
 area = width * width
@@ -95,13 +95,13 @@ It's important to highlight that the string `"1"` is not the same as the number 
 
 **Why?**
 
-Because types matter, you have to be consistent with the types, if you want to sum the string "5" with the string "2" you have to convert them to integers first like this:
+Because types matter, you have to be consistent with the types, if you want to sum the string "5" with the string "2" you have to convert them to integers first, like this:
 
 ```python
-# In Python subtracting strings will throw an error, instead you should do: 
+# In Python subtracting strings will throw an error; instead, you should do: 
 
 result = int('5') - int('2')
-# the variable 'result' is now equal to 3
+# The variable 'result' is now equal to 3
 ```
 
 On the other hand, if you sum the string `"5"` with the string `"2"`, the result will be `"52"` because that is the default operation for summing strings: Concatenation.
@@ -128,7 +128,7 @@ print(ages[4])  # Will print 65 because its position is 4
 
 > Important: Lists start at position 0.
 
-Lists are broadly used in every programming language, especially in Python, because Machine Learning uses enormous lists of information.
+Lists are broadly used in every programming language, especially Python, because Machine Learning uses enormous lists of information.
 
 > Note: we will discuss lists in more detail soon.
 
@@ -146,11 +146,11 @@ last_name = "Swift"
 print("Miss "+name + " " + last_name)  # Output: Miss Taylor Swift
 ```
 
-The first line is `name = "Taylor"` and its executed first; the last line with the `print` statement already knows the value of `name` because it was completed first (earlier line).
+The first line is `name = "Taylor"` and it's executed first; the last line with the `print` statement already knows the value of `name` because it was completed first (earlier line).
 
 ### Conditionals
 
-Conditions are fantastic because they let you skip or conditionally execute parts of your algorithms, making them very flexible and intelligent. For example, we could conditionally print "Miss" or "Mrs" depending on the relationship status:
+Conditions are fantastic because they let you skip or conditionally execute parts of your algorithms, making them very flexible and intelligent. For example, we could conditionally print "Miss" or "Mrs." depending on the relationship status:
 
 ```python
 relationship_status = "married"
@@ -160,10 +160,10 @@ last_name = "Swift"
 if relationship_status == "single":
 	print("Miss "+name + " " + last_name)  # Output: Miss Taylor Swift
 else:
-	print("Mrs "+name + " " + last_name)  # Output: Mrs Taylor Swift
+	print("Mrs. "+name + " " + last_name)  # Output: Mrs. Taylor Swift
 ```
 
-> Note: The `if...else...` statement reads like English. Also, to make comparisons, you have to use two equals `==` instead of one, and that is called a **Logical Expression**.
+> Note: The `if...else` statement reads like English. Also, to make comparisons, you have to use two equals `==` instead of one, and that is called a **Logical Expression**.
 
 ### Logical Operations and Expressions
 
@@ -175,7 +175,7 @@ For example, if I want a computer to give candy only to kids older than 13 years
 
 **In Python, you can instruct the computer to do the following logical operations:**
 
-|Operation      |Syntaxis       |Examples   |
+|Operation      |Syntax         |Examples   |
 |:--------------|:--------------|:--------------|
 |Equal to       |==             |Is 5 == 5? True!<br>Is 5 == 4? False<br>Is 5 == '5'? False    |
 |Not Equal to   |!=             |Is 5 != 5? False!<br>Is 5 != '5'? True<br>Is 1 != 'Hello'? True   |
@@ -184,14 +184,14 @@ For example, if I want a computer to give candy only to kids older than 13 years
 |Greater or equal  |>=             |Is 6 >= 6? True<br>Is 7 >= 6? True    |
 |Less or equal   |<=            |You get the idea 🙂       |
 
-To create really useful operations, you can combine several operations in the same question using AND, OR and NOT.
+To create really useful operations, you can combine several operations in the same question using AND, OR, and NOT.
 
 You can group the logical operations in parentheses, and also use nested parentheses for several operations at the same time.
 
 |Operation       |Syntaxis       |Examples  |
 |:---------------|:--------------|:--------------|
 |AND             |and            |With AND, all operations HAVE TO BE TRUE in order for everything to become True.<br>Is (5 == 5 and 3 > 1)? True!<br>Is ('Ramon' == 'Pedro' and 2 == 2)? False!    |
-|OR              |or      |With OR if at least one of the operations is True the final result will be True.<br>Is ('Oscar' != 'Maria' or 2 != 2)? True!<br>Is (5 == '5' and 'Ramon' != 'Pedro') or (2 == 2)? True!   |
+|OR              |or      |With OR, if at least one of the operations is True, the final result will be True.<br>Is ('Oscar' != 'Maria' or 2 != 2)? True!<br>Is (5 == '5' and 'Ramon' != 'Pedro') or (2 == 2)? True!   |
 |NOT             |not     |NOT will be the exact opposite of the result of the logical operator:<br>Is not (5 > 5)? True!<br>Is not True? False!    |
 
 ## Control the Flow of Your Code
@@ -200,7 +200,7 @@ Okay, now is when everything starts getting fun! To control your application's f
 
 ### Conditionals: If…else…
 
-The first tool you have is the if…else conditional. You can tell the computer to skip any part of your code, depending on the current value of your variables.
+The first tool you have is the `if...else` conditional. You can tell the computer to skip any part of your code, depending on the current value of your variables.
 The if statement allows you to execute a piece of code if certain conditions are met (or are true). The "else" statement will execute an alternate piece of code in case the condition is false.
 
 ```python
@@ -231,4 +231,4 @@ for n in names:
 
 ## Ready to start learning?
 
-Please don't get overwhelmed because we will be going over each of these concepts in the following lessons. You will get more opportunities to practice, learn and unleash your brain's potential!
+Please don't get overwhelmed, because we will be going over each of these concepts in the following lessons. You will get more opportunities to practice, learn and unleash your brain's potential!
