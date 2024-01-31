@@ -40,7 +40,7 @@ function counterReducer(state, action = {}) {
 
 This reducer function is going to be executed on every action call and should return a new version of the state that completely replaces the previous one at the end of its execution, so be careful and only alter what we need and always return the other values of the state using the 🤓 destructuring (js destructuring).
 
-👍**SI**
+👍**YES**
 
 ```javascript
 return { ...state, counter: state.counter + 1 }
