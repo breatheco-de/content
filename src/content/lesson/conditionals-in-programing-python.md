@@ -139,8 +139,7 @@ You can also nest several if...else conditions on top of one another, like this:
 if age < 16:
     # You cannot do anything
 elif age < 18:
-    # At this point, we know it's older than 15 because if not, it would have entered
-    # into the first condition
+    # At this point, we know it's older than 15 because if not, it would have entered into the first condition
 elif age < 21:
     # If the algorithm enters here, we know it's older than 17
 else:
