@@ -58,12 +58,12 @@ Para codificar esta lista de tareas tenemos que crear 4 archivos:
 
 ### 1) Crearemos un reducer para implementar el patrón flux
 
-Para poder tomar el control del flujo de los datos en nuestra aplicacion utilizaremos un `reducer` para agrupar las funciones y la lógica de la aplicacion (actions) junto con los datos que manejan y que tienen que estar disponible para los componentes (state).
+Para poder tomar el control del flujo de los datos en nuestra aplicación utilizaremos un `reducer` para agrupar las funciones y la lógica de la aplicación (actions) junto con los datos que manejan y que tienen que estar disponible para los componentes (state).
 
-Por ahora solo diremos que el reducer es una funcion que genera un estado nuevo cada vez que se ejecuta y lo que haga dependerá de la informacion que reciba en la funcion `action`. Esto nos permitira llamar a las `actions` para actualizar el estado como lo indica el patrón flux. Para entender en detalle como funciona un reducer, puedes [leer esté artículo]() donde lo explicamos a profundidad. 
+Por ahora solo diremos que el reducer es una función que genera un estado nuevo cada vez que se ejecuta y lo que haga dependerá de la información que reciba en la función `action`. Esto nos permitirá llamar a las `actions` para actualizar el estado como lo indica el patrón flux. Para entender en detalle como funciona un reducer, puedes [leer esté artículo]() donde lo explicamos a profundidad. 
 
 ```javascript
-// Esta es la funcion reducer
+// Esta es la función reducer
 const TaskReducer = (state, action) => {
   // Dependiendo del type de la acción realiza una tarea distinta
  switch (action.type) {
@@ -79,23 +79,23 @@ const TaskReducer = (state, action) => {
 };
 ```
 
-El siguiente paso es hacer que esta funcion esté disponible para todos los componentes de mi aplicacion, para eso utilizaremos un contexto con el hook `useReducer`, el cual nos va a permitir crear el estado y la funcion `actions` para ponerla a disposicion del resto de la aplicacion.
+El siguiente paso es hacer que esta función esté disponible para todos los componentes de mi aplicación, para eso utilizaremos un contexto con el hook `useReducer`, el cual nos va a permitir crear el estado y la función `actions` para ponerla a disposición del resto de la aplicación.
 
 ```react
-//TaskConext.jsx
+//TaskContext.jsx
 import { useReducer, createContext } from "react";
 
-// Creamos el contexto vacio
+// Creamos el contexto vacío
 const TaskContext = createContext(null);
 
 const TaskReducer = (state, action) => {
  // Aquí va el reducer que se definió anteriormente👆
 };
 
-// Crearemos un componente que va a envolver nuestra aplicacion en el contexto
+// Crearemos un componente que va a envolver nuestra aplicación en el contexto
 export function TaskProvider({ children }) {
   // Creamos el state 'tasks' y el despachador 'taskActions'
-  // adicionalmente pasamos como estado inicial un arreglo vacio
+  // adicionalmente pasamos como estado inicial un arreglo vacío
   const [tasks, taskActions ]= useReducer(TaskReducer, []);
   return (
     {/* Creamos el contexto con nuestro state y actions */}
@@ -107,7 +107,7 @@ export function TaskProvider({ children }) {
 export default TaskContext;
 ```
 
-Ya con esto tenemos listo nuestro contexto con las tasks, ahora solo falta envolver nuestra aplicacion en este componente para empezar a utilizarlo.
+Ya con esto tenemos listo nuestro contexto con las tasks, ahora solo falta envolver nuestra aplicación en este componente para empezar a utilizarlo.
 
 ```react
 //index.jsx
@@ -129,7 +129,7 @@ Ahora solo queda llamar al contexto desde los componentes que necesiten hacer us
 
 ### 2) Empecemos por agregar una nueva tarea
 
-Para ello usaremos un componente que muestre una caja de texto y un boton que realiza la accion de agregar la tarea, todo dentro de un formulario para facilitar el manejo del evento de envio(submit).
+Para ello usaremos un componente que muestre una caja de texto y un botón que realiza la acción de agregar la tarea, todo dentro de un formulario para facilitar el manejo del evento de envío(submit).
 
 Todo esto es básico de un formulario en react, pero como queremos utilizar las `actions` del contexto, necesitamos llamarlo en el componente.
 
@@ -144,7 +144,7 @@ export default function AddItem() {
 }
 ```
 
-Para hacer uso de estas `actions` se llama a la funcion y se le pasa como parametro un objeto con la propiedades de la accion que queremos realizar, siendo la mas importante `type` que indica la accion especifica a ejecutar. El resto de las propiedades son datos opcionales que pueden ser requeridos por la accion.
+Para hacer uso de estas `actions` se llama a la función y se le pasa como parámetro un objeto con la propiedades de la acción que queremos realizar, siendo la mas importante `type` que indica la acción especifica a ejecutar. El resto de las propiedades son datos opcionales que pueden ser requeridos por la acción.
 
 ```react
 // AddItem.jsx
@@ -152,12 +152,12 @@ import { useContext } from "react";
 import TaskContext from "./TaskContext.jsx";
 
 export default function AddItem() {
-  // Hacemos uso del contexto y accedemos a la funcion 'taskActions'
+  // Hacemos uso del contexto y accedemos a la función 'taskActions'
   const { taskActions } = useContext(TaskContext);
   function handleAddTask(e) {
     e.preventDefault();
-    // Llamamos al actions especificandole 'type'
-    // asi como tambien la tarea que se va a agregar
+    // Llamamos al actions especificándole 'type'
+    // asi como también la tarea que se va a agregar
     let textbox = e.target.elements.task;
     taskActions({ type: "add", payload: textbox.value });
     textbox.value = "";
@@ -175,7 +175,7 @@ export default function AddItem() {
 
 ### 3) Ahora vamos a mostrar la lista
 
-De la misma forma como accedemos a `taskActions`, tambien podemos acceder al objeto `tasks` que contiene el estado con la lista. Igual que antes, debemos hacer uso de `useContext` en nuestro componente.
+De la misma forma como accedemos a `taskActions`, también podemos acceder al objeto `tasks` que contiene el estado con la lista. Igual que antes, debemos hacer uso de `useContext` en nuestro componente.
 
 ```react
 import { useContext } from "react";
@@ -202,11 +202,11 @@ export default function App() {
 }
 ```
 
-Puedes notar que aparece el componente `AddItem` que vimos previamente y desde donde se pueden agregar tarea. Luego de eso se hace el renderizado de la lista con la funcion `map`, pero notamos que se esta usando un componente `ListItem` para mostrar los elementos, no solo eso sino que ahi tambien corresponde hacer la eliminacion de la tarea, veamos ese componente.
+Puedes notar que aparece el componente `AddItem` que vimos previamente y desde donde se pueden agregar tarea. Luego de eso se hace el renderizado de la lista con la función `map`, pero notamos que se esta usando un componente `ListItem` para mostrar los elementos, no solo eso sino que ahi también corresponde hacer la eliminación de la tarea, veamos ese componente.
 
-### 4) Eliminacion de items
+### 4) Eliminación de items
 
-Si bien el renderizado es básico (un elemento `li` con el texto y un boton), lo interesante es como hacemos la eliminacion del item con las actions.
+Si bien el renderizado es básico (un elemento `li` con el texto y un botón), lo interesante es como hacemos la eliminación del item con las actions.
 
 ***Todo comienza cuando el usuario haga clic en el icono de la papelera. Es por eso que necesitamos iniciar nuestra aplicación escuchando el típico evento onClick en el botón de eliminar.***
 
@@ -239,6 +239,6 @@ export default function ListItem({ task, index }) {
 
 ## Resultado final
 
-Ya hemos implementado la lógica de nuestra aplicacion en un contexto aplicando el patrón flux, permitiendo su uso en distintos componentes. A continuacion podemos ver el resultado final.
+Ya hemos implementado la lógica de nuestra aplicación en un contexto aplicando el patrón flux, permitiendo su uso en distintos componentes. A continuación podemos ver el resultado final.
 
 <iframe src="https://replit.com/@4GeeksAcademy/flux-sample?lite=1&embed=true#src/App.jsx"></iframe>

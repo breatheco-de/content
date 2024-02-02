@@ -32,21 +32,21 @@ Here is a list of all the advantages of using it:
 |&nbsp;     |&nbsp;       |
 |:-----------|:----------------|
 Views (Components)     |Every React Component that calls any Flux action is called a view. The reason to call those components differently is that React components are supposed to communicate with each other through their props (without Flux).<br> <br>Once a React Component is hard-coded to Flux, you will not be able to reuse that component in the future (on this or any other development).       |
-|Actions       |Actions can be triggered components (when the user clicks or interacts with the application) or by the system (for example, the auto-save functionality). Actions are the first step of any Flux workflow, and they always need to dispatch to the store.      |
+|Actions       |Actions can be triggered by components (when the user clicks or interacts with the application) or by the system (for example, the auto-save functionality). Actions are the first step of any Flux workflow, and they always need to dispatch the store.      |
 |Store        |The store contains all the application data. It handles everything incoming from the dispatcher and determines the way data should be stored and retrieved.            |
 
 ## Building a to-do list with flux.
 
 ### 1) Let's build a reducer that implements the flux pattern.
 
-To take control over the flow of the data in our application we'll use a `reducer` to group the functions and the logic of the application (actions) along with the data that the y handle and must be available to all the other components (state).
+To take control over the flow of the data in our application we'll use a `reducer` to group the functions and the logic of the application (actions) along with the data that they handle and must be available to all the other components (state).
 
-For now let's just say that the reducer is a function that generates a new state every time it runs,  and what it does depends of the information passed to the `action` function. This allow us to call the `actions` to update the state as indicates the flux pattern. To understand better how a reducer works, you can read [this article]() where we cover this in more depth.
+For now, let's just say that the reducer is a function that generates a new state every time it runs,  and what it does depends on the information passed to the `action` function. This allows us to call the `actions` to update the state as indicates the flux pattern. To understand better how a reducer works, you can read [this article]() where we cover this in more depth.
 
 ```javascript
 // This is the reducer function
 const TaskReducer = (state, action) => {
-  // Deppending on the action type, it performs a specific action
+  // Depending on the action type, it performs a specific action
  switch (action.type) {
     case "add":
       return [...state, action.payload];
@@ -60,10 +60,10 @@ const TaskReducer = (state, action) => {
 };
 ```
 
-Th next step is to make this funcion available for all the other components of the application, for that we'll use a context with the hook `useReducer`, wich will allow us to create a state and the `actions` function to publish it to the rest of the components.
+The next step is to make this function available for all the other components of the application, for that we'll use a context with the hook `useReducer`, which will allow us to create a state and the `actions` function to publish it to the rest of the components.
 
 ```react
-//TaskConext.jsx
+//TaskContext.jsx
 import { useReducer, createContext } from "react";
 
 // Create an empty context
@@ -108,11 +108,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 ```
 The only thing left to do is to call the context in the components that need to use our tasks.
 
-### 2) Let's start adding a new task.
+### 2) Let's start adding a new task
 
-Fora ello usaremos un componente que muestre una caja de texto y un boton que realiza la accion de agregar la tarea, todo dentro de un formulario para facilitar el manejo del evento de envio(submit).
+For that, we'll use a component that shows a textbox and a button that dispatches the adding action, all inside a form to ease the handle of the submit event.
 
-Todo esto es básico de un formulario en react, pero como queremos utilizar las `actions` del contexto, necesitamos llamarlo en el componente.
+All that is basic stuff, but since we want to use the context `actions`, we need to call it from within the component.
 
 ```react
 import { tasks, useContext } from "react";
@@ -120,12 +120,12 @@ import TaskContext from "./TaskContext.jsx";
 
 export default function AddItem() {
   const { taskActions } = useContext(TaskContext);
-  // A partir de este punto tenemos disponibles las actions del reducer
+  // From this point onwards we have the reducer's actions available.
   // ...
 }
 ```
 
-Para hacer uso de estas `actions` se llama a la funcion y se le pasa como parametro un objeto con la propiedades de la accion que queremos realizar, siendo la mas importante `type` que indica la accion especifica a ejecutar. El resto de las propiedades son datos opcionales que pueden ser requeridos por la accion.
+To make use of these `actions` we call the function passing as a parameter an object with the properties of the action we want to call, being the most important the property `type` that indicates the specific action to execute. The rest of the properties are optional data that may be required by the action itself.
 
 ```react
 // AddItem.jsx
@@ -133,12 +133,12 @@ import { useContext } from "react";
 import TaskContext from "./TaskContext.jsx";
 
 export default function AddItem() {
-  // Hacemos uso del contexto y accedemos a la funcion 'taskActions'
+  // Using the context we access the 'taskActions' function.
   const { taskActions } = useContext(TaskContext);
   function handleAddTask(e) {
     e.preventDefault();
-    // Llamamos al actions especificandole 'type'
-    // asi como tambien la tarea que se va a agregar
+    // Calling the action specifying the 'type'
+    // as well as task data that will be added.
     let textbox = e.target.elements.task;
     taskActions({ type: "add", payload: textbox.value });
     textbox.value = "";
@@ -154,9 +154,9 @@ export default function AddItem() {
 }
 ```
 
-### 3) Ahora vamos a mostrar la lista
+### 3) Now let's show the list
 
-De la misma forma como accedemos a `taskActions`, tambien podemos acceder al objeto `tasks` que contiene el estado con la lista. Igual que antes, debemos hacer uso de `useContext` en nuestro componente.
+In the same manner that we access `taskActions`, we can also access the `tasks` object that contains the state of the list. Just like before, we must use the `useContext` hook in our component.
 
 ```react
 import { useContext } from "react";
@@ -166,7 +166,7 @@ import ListItem from "./ListItem.jsx";
 import AddItem from "./AddItem.jsx";
 
 export default function App() {
-  // Accedemos al contexto, pero esta vez solo vamos a usar 'tasks'
+  // Accessing the context, but this time only using 'tasks'
   const {tasks} = useContext(TaskContext);
 
   return (
@@ -183,19 +183,19 @@ export default function App() {
 }
 ```
 
-Puedes notar que aparece el componente `AddItem` que vimos previamente y desde donde se pueden agregar tarea. Luego de eso se hace el renderizado de la lista con la funcion `map`, pero notamos que se esta usando un componente `ListItem` para mostrar los elementos, no solo eso sino que ahi tambien corresponde hacer la eliminacion de la tarea, veamos ese componente.
+You can see that we are using the `AddItem` component where you can add a task. After that is being rendered the list with a `map` function, but a component `ListItem` is being used to show this element, and it also has the functionality to remove a task, let's check out that component.
 
-### 4) Eliminacion de items
+### 4) Task deletion
 
-Si bien el renderizado es básico (un elemento `li` con el texto y un boton), lo interesante es como hacemos la eliminacion del item con las actions.
+Even though the render is very basic (a `li` element with the text and a button), what's interesting is how we delete an item with the actions.
 
-***Todo comienza cuando el usuario haga clic en el icono de la papelera. Es por eso que necesitamos iniciar nuestra aplicación escuchando el típico evento onClick en el botón de eliminar.***
+***I all stats with the user clicking the trash can icon. That's why we need to start our component by listening to the classic onClick event on the delete button,***
 
 ```react
   onClick={() => taskActions({ type: "remove", index })}
 ```
 
-Notamos que el llamado al action es parecido al que usamos para agregar items, pero se le esta pasando un parámetro distinto llamado `index`, que le indica al dispatcher que elemento va a eliminar. Asi como vimos en ambos ejemplos, podemos pasar la data que necesite nuestra action al momento de llamarla como parámetros adicionales.
+We notice that the call to `actions` is similar to the one used to add items, but in this case is receiving a different parameter called `index`, which indicates to the dispatcher which elements are going to be deleted. Just like we saw in both examples, we can pass any data that's needed to the action at the moment of calling it, as additional parameters.
 
 ```react
 import { useContext } from "react";
@@ -210,7 +210,7 @@ export default function ListItem({ task, index }) {
       <button
         onClick={() => taskActions({ type: "remove", index })}
       >
-        {/* Icono de papelera */}
+        {/* Trash can icon */}
         <i className="bi bi-trash3"></i>
       </button>
     </li>
@@ -218,8 +218,8 @@ export default function ListItem({ task, index }) {
 }
 ````
 
-## Resultado final
+## Final result
 
-Ya hemos implementado la lógica de nuestra aplicacion en un contexto aplicando el patrón flux, permitiendo su uso en distintos componentes. A continuacion podemos ver el resultado final.
+We have implemented the logic of our application in a context applying the flux pattern, allowing its use in different components. Now we can see the final result working.
 
 <iframe src="https://replit.com/@4GeeksAcademy/flux-sample?lite=1&embed=true#src/App.jsx"></iframe>
