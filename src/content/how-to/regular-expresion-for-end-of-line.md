@@ -6,7 +6,7 @@ authors: [DF27ARTS]
 
 ---
 
-Regular expressions (RegEx) are a very common and powerful way to search and manipulate text by using certain patterns. The following is an example in JavaScript and Python, to check if a string ends with a certain character or text pattern:
+Regular expressions (RegEx) are a very common and powerful way to search and manipulate text using certain patterns. The following is an example in JavaScript to check if a string ends with a certain character or text pattern.
 
 ```js runable=true
 const textOne = "This is an example of a regular expression for the end of line";
@@ -20,20 +20,6 @@ const textTwoResult = regexPattern.test(textTwo);
 console.log(textOneResult); // output: true
 console.log(textTwoResult); // output: false
 ```
-```py runable=true
-import re
-
-text_one = "This is an example of a regular expression for the end of line"
-text_two = "This is another example"
-
-regex_pattern = re.compile(r"line$", re.IGNORECASE)
-
-text_one_result = regexPattern.search(text_one)
-text_two_result = regexPattern.search(text_two)
-
-print(bool(text_one_result))  # output: True
-print(bool(text_two_result))  # output: False
-```
 
 In this example, the regular expression (`line$`) checks if a sentence ends with the word **line**. We can use this regular expression along with the `test()` method to check if the sentences of the `textOne` and `textTwo` variables follow this pattern. As you can see with the first sentence the method returns `true` because it does indeed end with the word **line** but with the second sentence returns `false` because it ends with the word **example** and this does not match the regex pattern.
 
@@ -42,7 +28,7 @@ In this example, the regular expression (`line$`) checks if a sentence ends with
 In regular expressions, the `$` symbol indicates that the pattern we want to search for must be at the end of the string, you can understand this concept better  with the following example.
 
 **Python Code**
-```py
+```py runable=true
 import re
 
 url = "https://www.google.com"
@@ -55,7 +41,7 @@ else:
 ```
 
 **JavaScript Code**
-```js
+```js runable=true
 const url = "https://www.google.com";
 
 const regexPattern = /\.(com|org|gov|io|net)$/;
@@ -80,57 +66,12 @@ Explanation of the regular expression.
 
 A regular expression that matches the end of a line can be very useful in many different situations, here are some examples.
 
-### 1. Search for questions within a list of comments
-
-Let's say that you have a social media application and you need to filter from the comments all the questions asked from the users, for this, you can use a regular expression to find the questions.
-
-**Python Code**
-```py
-import re
-
-comments = [
-  "How do I change my profile picture?",
-  "Great app! Love the sleek design and smooth navigation. 👍",
-  "Amazing features! The new update is fantastic. Keep up the good work! 🚀",
-  "Is there a dark mode option?"
-]
-
-regex_pattern = re.compile(r"[?]$")
-questions = list(filter(lambda comment: regex_pattern.search(comment), comments))
-
-print(questions)
-```
-
-**JavaScript Code**
-```js
-const comments = [
-  "How do I change my profile picture?",
-  "Great app! Love the sleek design and smooth navigation. 👍",
-  "Amazing features! The new update is fantastic. Keep up the good work! 🚀",
-  "Is there a dark mode option?",
-];
-
-const regexPattern = /[?]$/;
-const questions = comments.filter((comment) => regexPattern.test(comment));
-
-console.log(questions);
-```
-> Code output:
-```bash
-[
-  'How do I change my profile picture?',
-  'Is there a dark mode option?'
-]
-```
-
-In this example, we have a list of comments from a social media application and we want to filter the comments that are questions from the users, for this, we can use the regular expression `[?]$` to search for all comments that end with a question mark `?` and the `filter()` function to get only those questions from the list of comments.
-
-### 2. Check if an email has a valid domain extension
+### 1. Check if an email has a valid domain extension
 
 You can use a regular expression to check if an email has a valid domain extension, this can be useful in the login and registration process of an application.
 
 **Python Code**
-```py
+```py runable=true
 import re
 
 emails = [
@@ -148,7 +89,7 @@ print(valid_emails)
 ```
 
 **JavaScript Code**
-```js
+```js runable=true
 const emails = [
   "EmilyJohnson@gmail.com",
   "MichaelSmith@example.com",
@@ -173,12 +114,12 @@ console.log(validEmails);
 
 In this example, we have a list of emails and we need to filter all emails that have a valid domain extension. To do this, we can use the following regular expression `(gmail|yahoo|outlook)\.com$` which matches all emails ending with one of the following domains (**gmail**, **yahoo**, and **outlook**), we also need the `filter()` function to store the valid emails in the `validEmails` variable.
 
-### 3. Validate an image extension
+### 2. Validate an image extension
 
 Imagine you have a gallery application where users can upload as many images as they want. You have to make sure that the images that the user uploads have a valid extension so that the application does not break, for this, you can use a regular expression as shown in the example below.
 
 **Python Code**
-```py
+```py runable=true
 import re
 
 images_uploaded = [
@@ -194,7 +135,7 @@ print(valid_images)
 ```
 
 **JavaScript Code**
-```js
+```js runable=true
 const imagesUploaded = [
   "sunset-landscape.jpg",
   "cityscape-night.webp",
@@ -212,6 +153,61 @@ console.log(validImages);
 ```
 
 In this example, the regular expression stored in the `regexPattern` variable will match all images ending with one of the following extensions (jpg, jpeg, png, webp, heif, heic, raw). We can use this regex pattern to filter all images with a valid extension from the list and store them in our application.
+
+### 3. Filter files by extension
+
+Another example where regular expressions for the end of a line can be very useful is if we need to filter or group different files by their extension, as shown in the following example.
+
+#### Python Code
+```py runable=true
+import re
+
+files = [ "example.py", "script.js", "document.csv", "data.csv", "presentation.js", "images.py", "functions.py"]
+
+files_filtered = {}
+regular_expression = r'(\.\w+)$'
+
+for file in files:
+    extension = re.search(regular_expression, file)
+    if extension.group(1) in files_filtered:
+        files_filtered[extension.group(1)].append(file)
+    else:
+        files_filtered[extension.group(1)] = [file]
+
+
+print(files_filtered)
+```
+
+#### JavaScript Code
+```js runable=true
+const files = [ "example.py", "script.js", "document.csv", "data.csv", "presentation.js", "images.py", "another_example.py" ];
+
+const filesFiltered = {};
+const regularExpression = /(\.\w+)$/;
+
+files.forEach(file => {
+    const extension = file.match(regularExpression);
+    if (filesFiltered[extension[1]]) {
+        filesFiltered[extension[1]].push(file);
+    } else {
+        filesFiltered[extension[1]] = [file];
+    }
+});
+
+console.log(filesFiltered);
+```
+> code output:
+```bash
+{
+    '.py': ['example.py', 'images.py', 'functions.py'], 
+    '.js': ['script.js', 'presentation.js'], 
+    '.csv': ['document.csv', 'data.csv']
+}
+```
+
+In this example, we have a list with different files and we need to filter them by their extension, for this, we can use the regular expression `(\(\w+)$`. This regular expression matches any sequence of characters following a period at the end of a string, this will allow us to filter and store files with the same extension within a list.
+
+These are three simple examples, but there are many cases where a regular expression can be used to check or filter a certain pattern or sequence of characters at the end of a line.
 
 ## Conclusion
 
