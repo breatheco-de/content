@@ -2,6 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const fm = require('front-matter');
 
+adicionar comentarios
+
 const walk = function(dir, done) {
   var results = [];
   fs.readdir(dir, function(err, list) {
