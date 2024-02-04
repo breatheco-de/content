@@ -142,7 +142,7 @@ for number in my_list:
     print(number)
 ```
 
-## Looping using a position 
+## Looping using a Position 
 
 Sometimes it is useful to loop the array using each element's position (index). We can do that by using the `range()` function.
 By default, the `range` will start from index zero and continue until a specified number is reached, not including that index number:
