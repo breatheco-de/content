@@ -21,6 +21,8 @@ Aprender en privado. El sistema educativo tradicional está diseñado para ser u
 
 Cuando aprendes en público, conviertes las redes sociales en tu cuaderno de notas y tu foro de discusión, escribes sobre lo que acabas de aprender de diferentes maneras como entradas de blog, tweets, boletines, dibujos, memes, etc.
 
+Aprender en público es una práctica que va más allá de la mera adquisición de conocimientos. Es un proceso que transforma la educación de ser un acto privado a convertirse en una experiencia compartida y colaborativa. Al convertir las redes sociales en tu cuaderno de notas y foro de discusión, abres un espacio donde el aprendizaje se vuelve una conversación, una narrativa que evoluciona con cada interacción. Este enfoque no solo beneficia tu desarrollo cognitivo al escribir y organizar tus pensamientos, sino que también construye una red de apoyo invaluable.
+
 ## ¿Por qué es esto tan importante?
 
 - Cuando escribes las cosas, tu cerebro las absorbe mejor.
