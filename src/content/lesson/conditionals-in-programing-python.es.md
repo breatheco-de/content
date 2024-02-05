@@ -1,6 +1,6 @@
 ---
 title: "Condicionales en la programación en Python"
-subtitle: "Uso de condiciones para controlar el flujo de tu código y tomar decisiones programáticas en Python"
+subtitle: "Uso de condiciones para controlar el flujo de tu código y tomar decisiones programáticas en Python."
 date: "2020-10-19T00:00:00+00:00"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
@@ -92,7 +92,7 @@ Para hacer una pregunta, tenemos las siguientes comparaciones: `==`, `>`, `<`, `
 | `!=`          | `if a != b`   | Si el valor de `a` es **diferente** de `b` |
 | `is not None` | `if a is not None` | Si `a` es diferente de `None` |
 | `is None`     | `if a is None`| Si el valor de `a` es igual a `None` |
-| `in`          | `if name in ['bob','maria','nancy']` | Si el valor de `name` esta contenido dentro de la lista de nombres  |
+| `in`          | `if name in ['bob','maria','nancy']` | Si el valor de `name` está contenido dentro de la lista de nombres  |
 
 ## Operadores `AND` y `OR` en Python
 
@@ -138,7 +138,7 @@ También puedes anidar condiciones if...else una sobre la otra, de esta forma:
 if edad < 16: 
     # No puedes hacer nada
 elif age < 18:
-    # A estas alturas, ya sabemos que es mayor de 15 por que sino no hubiese ingresado a la primera condición
+    # A estas alturas, ya sabemos que es mayor de 15 porque si no, no hubiese ingresado a la primera condición
 elif age < 21:
     # Si el algoritmo ingresa aquí, sabemos que es mayor de 17 
 else:
@@ -159,7 +159,7 @@ elif valor < 1000:
 elif valor < 10000:
     print("El valor es una unidad de mil")
 else:
-    print("El valor es un número mas allá de los miles")
+    print("El valor es un número más allá de los miles")
 ```
 
 ## El `switch` en Python
