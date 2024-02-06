@@ -159,11 +159,11 @@ In addition to these basic types, Python also offers modules and libraries defin
 
 Arithmetic operators perform arithmetic operations. Depending on the type of variables, the results may vary; they don't necessarily have to be applied only to numbers.
 
-Addition: `+`
-Subtraction: `-`
-Multiplication: `*`
-Division: `/`
-Modulus: `%`
+- Addition: `+`
+- Subtraction: `-`
+- Multiplication: `*`
+- Division: `/`
+- Modulus: `%`
 
 
 ```py
@@ -177,9 +177,9 @@ z = x * y  # Output: z = 15
 
 Logical operators evaluate conditions and return boolean values. They can be used in loops, conditionals, filters, etc. They are very versatile and useful.
 
-Logical AND: and
-Logical OR: or
-Logical NOT (negation): not
+- Logical AND: and
+- Logical OR: or
+- Logical NOT (negation): not
 
 ```py
 result = True and False  # result = False
