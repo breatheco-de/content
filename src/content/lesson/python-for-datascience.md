@@ -34,7 +34,7 @@ print("Hello, World!")
 
 ## Variables
 
-A variable in Python (and most programming languages) is a container that stores data which can vary over time. This data can be a number, a text, a list of elements, etc. The special aspect of this container is that we can assign it a name to identify it and access what we store in it when needed:
+A variable in Python (and most programming languages) is a container that stores data that can vary over time. This data can be a number, a text, a list of elements, etc. The special aspect of this container is that we can assign it a name to identify it and access what we store in it when needed:
 
 ```py
 name = "John"
@@ -104,7 +104,7 @@ bool_var2 = False
 
 **List:** `list`
 
-It represents an ordered collection of elements. Elements can be of any type, and its content can be modified: insert elements, delete, etc.
+It represents an ordered collection of elements. Elements can be of any type, and their content can be modified: insert elements, delete elements, etc.
 
 ```py
 list_numbers = [1, 2, 3, 4, 5]
@@ -113,7 +113,7 @@ list_strings = ["A", "B", "C", "D"]
 
 **Tuple:** `tuple`
 
-Similar to a list, but it's immutable; once created, its content cannot be changed.
+It's similar to a list, but it's immutable; once created, its content cannot be changed.
 
 ```py
 tuple_numbers = (1, 2, 3, 4, 5)
@@ -149,7 +149,7 @@ It represents sequences of bytes. Typically used for handling binary data.
 bytes_var = b"Hello"
 ```
 
-In addition to these basic types, Python also offers modules and libraries defining other more specialized data types.
+In addition to these basic types, Python also offers modules and libraries that define other, more specialized data types.
 
 ### Operators
 
