@@ -18,7 +18,7 @@ Don't get me wrong, no matter what you are building, you will be looping, using 
 Many ways to filter colors
 If you want to filter a list of numbers with only odd numbers, you can do it like this:
 
-```python
+```python runable=true
 # This is our common list of numbers
 numbers = [23,34,5,6,45,34,23,5,45,5,324,23,354,65,564,45,342]
 
