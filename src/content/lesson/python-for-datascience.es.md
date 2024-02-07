@@ -1,6 +1,6 @@
 ---
 title: "Data Science con Python"
-subtitle: "Python es un lenguaje multipropósito, en esta lección comprenderás cómo se usa en el mundo de la Ciencia de Datos"
+subtitle: "Python es un lenguaje multipropósito, en esta lección comprenderás cómo se usa en el mundo de la Ciencia de Datos."
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
 status: "published"
@@ -9,7 +9,7 @@ tags: ["data-science", "python", "pandas", "numpy"]
 canonical: ""
 ---
 
-**Python** es un lenguaje de programación muy versátil y que se utiliza en multitud de casos: desarrollo de aplicaciones web (front y back), juegos para móvil, simulaciones, redes, automatizaciones... Además, es el lenguaje rey para trabajar con datos y elaborar algoritmos de Inteligencia Artificial, ciencia de datos y Machine Learning. Antes de comenzar, distingamos entre los tres términos anteriores:
+**Python** es un lenguaje de programación muy versátil y que se utiliza en multitud de casos: desarrollo de aplicaciones web (front y back), juegos para móvil, simulaciones, redes, automatizaciones... además, es el lenguaje rey para trabajar con datos y elaborar algoritmos de Inteligencia Artificial, ciencia de datos y Machine Learning. Antes de comenzar, distingamos entre los tres términos anteriores:
 
 | Término | Definición | Amplitud | Objetivo |
 |:--------|:-----------|:---------|:---------|
@@ -17,7 +17,7 @@ canonical: ""
 | Aprendizaje automático (*Machine Learning*) | Es un subcampo de la IA que se centra en desarrollar algoritmos y modelos que permitan a las computadoras aprender a partir de datos. | Es una técnica específica dentro de la inteligencia artificial. | Hacer predicciones o decisiones sin ser programadas específicamente para ello. |
 | Ciencia de datos (*Data Science*) | Es un campo interdisciplinario que utiliza técnicas estadísticas, informáticas y de análisis para interpretar, comprender y extraer conocimiento de datos estructurados y no estructurados. | Incluye la adquisición, limpieza, análisis y visualización de datos, y puede hacer uso de la IA y del machine learning para analizarlos. | Descubrir patrones y obtener información valiosa de grandes conjuntos de datos. |
 
-![Discipline differences](https://github.com/breatheco-de/content/blob/master/src/assets/images/disciplines_differences.png?raw=true)
+![Diferencias entre estas disciplinas](https://github.com/breatheco-de/content/blob/master/src/assets/images/disciplines_differences.png?raw=true)
 
 Mientras que la IA se centra en simular la inteligencia humana, el aprendizaje automático es una técnica dentro de la IA que permite a las máquinas aprender de datos, y la ciencia de datos es una disciplina más amplia que se ocupa de todo el proceso de trabajar con datos, desde la recopilación hasta la interpretación, y puede incluir el uso de la IA y el machine learning.
 
@@ -25,9 +25,9 @@ Mientras que la IA se centra en simular la inteligencia humana, el aprendizaje a
 
 ### `Hello, World!`
 
-Todo desarrollador que comienza a programar en un lenguaje nuevo lo hace imprimiendo `Hello, World!`. En Python podemos hacerlo usando la función `print`, que muestra por consola cualquier dato o texto que se coloque entre sus parántesis:
+Todo desarrollador que comienza a programar en un lenguaje nuevo lo hace imprimiendo `Hello, World!`. En Python podemos hacerlo usando la función `print`, que muestra por consola cualquier dato o texto que se coloque entre sus paréntesis:
 
-```py
+```py runable=true
 print("Hello, World!")
 ```
 
@@ -44,7 +44,7 @@ es_estudiante = True
 
 Además, las variables son elementos mutables y que pueden cambiar en el tiempo. Así, al igual que podemos acceder a su valor para leerlo, también podemos modificarlo:
 
-```py
+```py runable=true
 mi_numero = 10
 print(f"Número original: {mi_numero}")
 
@@ -91,7 +91,7 @@ str_var = "Esto es un texto de prueba"
 
 **Booleano** (*boolean*): `bool`
 
-Representa valores de verdad, es decir, `True` (verdadero) o `False` (falso).
+Representa valores que solo tienen 2 posiciones, `True` o `False`. 
 ```py
 bool_var1 = True
 bool_var2 = False
@@ -134,7 +134,7 @@ dict_person = {
 
 **Octetos** (*bytes*): `bytes`
 
-Representa secuencias de bytes. Normalmente se utilizan para manejar datos binarios.
+Representa secuencias de bytes. Normalmente, se utilizan para manejar datos binarios.
 ```py
 bytes_var = b"Hola"
 ```
@@ -158,8 +158,8 @@ Los operadores matemáticos realizan operaciones aritméticas. Dependiendo del t
 ```py
 x = 5
 y = 3
-z = x + y # z = 8
-z = x * y # z = 15
+z = x + y  # Salida: z = 8
+z = x * y  # Salida: z = 15
 ```
 
 **Operadores lógicos**
@@ -171,10 +171,9 @@ Los operadores lógicos evalúan condiciones y devuelven valores booleanos. Pued
 - No lógico (negación): `not`
 
 ```py
-verdadero = True
-falso = False
-resultado = verdadero and falso # resultado = False
-resultado = verdadero or falso # resultado = True
+resultado = True and False  # resultado = False
+resultado = True or False   # resultado = True
+resultado = not True        # resultado = False
 ```
 
 ### Estructuras de control
@@ -189,7 +188,7 @@ En Python, las principales estructuras de control son:
 
 Permite ejecutar un bucle de código si se cumple una condición.
 
-```py
+```py runable=true
 edad = 18
 if edad >= 18:
     print("Eres mayor de edad.")
@@ -197,9 +196,9 @@ if edad >= 18:
 
 **`elif`**
 
-Se extiende el if, para incluir y comprobar otras condiciones.
+Se extiende el *if*, para incluir y comprobar otras condiciones.
 
-```py
+```py runable=true
 if edad < 18:
     print("Eres menor de edad.")
 elif edad >= 18:
@@ -208,9 +207,9 @@ elif edad >= 18:
 
 **`else`**
 
-Se ejecuta cuando no se cumple ninguna de la(s) condicion(es) anterior(es):
+Se ejecuta cuando no se cumpla ninguna de la(s) condición(es) anterior(es):
 
-```py
+```py runable=true
 if edad < 18:
     print("Eres menor de edad.")
 else:
@@ -223,27 +222,31 @@ else:
 
 Repite un bloque de código un número determinado de veces o a través de los elementos de una colección.
 
-```py
+```py runable=true
 for i in range(5):
     print(i)
-# Muestra por pantalla 0, 1, 2, 3, 4
+
+# Muestra en consola: 0, 1, 2, 3, 4
+
 
 frutas = ["manzana", "banana", "cereza"]
 for fruta in frutas:
-    print(fruta)
-# Muestra por pantalla manzana, banana, cereza
+    print(frutas)
+
+# Muestra en consola: manzana, banana, cereza
 ```
 
 **`while`**
 
 Repite un bloque de código mientras se cumpla una condición.
 
-```py
+```py runable=true
 contador = 0
 while contador < 5:
     print(contador)
     contador += 1
-# Muestra por pantalla 0, 1, 2, 3, 4
+
+# Muestra en consola: 0, 1, 2, 3, 4
 ```
 
 #### Control de bucles
@@ -252,36 +255,39 @@ while contador < 5:
 
 Termina el bucle antes de que haya completado todas sus iteraciones.
 
-```py
+```py runable=true
 for letra in "Python":
     if letra == "h":
         break
     print(letra)
-# Imprime P, y, t
+
+# Imprime: P, y, t
 ```
 
 **`continue`**
 
 Salta a la siguiente iteración del bucle, omitiendo el código que sigue después.
 
-```py
+```py runable=true
 for letra in "Python":
     if letra == "h":
         continue
     print(letra)
-# Imprime P, y, t, o, n
+
+# Imprime: P, y, t, o, n
 ```
 
 **`pass`**
 
 No hace nada. Actúa como un marcador de posición donde se requiere una declaración sintácticamente, pero no se desea ejecutar ningún código.
 
-```py
+```py runable=true
 for letra in "Python":
     if letra == "h":
         pass
     print(letra)
-# Imprime P, y, t, h, o, n
+
+# Imprime: P, y, t, h, o, n
 ```
 
 Estas estructuras de control son esenciales para crear programas que puedan tomar decisiones, repetir tareas y manejar diferentes situaciones o entradas. Al combinarlas y anidarlas, podemos crear flujos de trabajo complejos y lógicas sofisticadas en nuestros programas.
@@ -290,7 +296,7 @@ Estas estructuras de control son esenciales para crear programas que puedan toma
 
 Una **función** (*function*) es un bloque de código reutilizable que realiza una tarea específica.
 
-```py
+```py runable=true
 def saludo(nombre):
     return f"Hola, {nombre}!!"
 
@@ -325,26 +331,26 @@ for actividad in actividades:
 
 ## Librerías
 
-Una **librería** (*library*) es una colección de funciones predefinidas y que se realizan con un fin determinado. El objetivo es simplificar el trabajo del desarrollador y no tenerlas que programar desde cero. Existen multitud de ellas y se organizan según su utilidad. Como Python es el lenguaje más utilizado en el ámbito del Data Science y de la Inteligencia Artificial, algunas de sus librerías más utilizadas son relativas a estos campos:
+Una **librería** (*library*) es una colección de funciones predefinidas y que se realizan con un fin determinado. El objetivo es simplificar el trabajo del desarrollador y no tenerlas que programar desde cero. Existen multitud de ellas y se organizan según su utilidad. Como Python es el lenguaje más utilizado en el ámbito de Data Science y de la Inteligencia Artificial, algunas de sus librerías más utilizadas son relativas a estos campos:
 
 - Scikit-learn
 - NuPIC
 - Ramp
-- Numpy
+- NumPy
 - Pandas
 - TensorFlow
 - Keras
 - Pipenv
-- Scipy
+- SciPy
 - Matplotlib
 
-De este top 10 la mayoría se utilizan en los procesos de Machine Learning, NLP, Visión Artificial y muchas otras áreas de la inteligencia artificial. Por ello, es vital que conozcas y sepas utilizar algunas de estas librerías, que son clave para cualquier labor de ciencia de datos.
+De este top 10, la mayoría se utilizan en los procesos de Machine Learning, Natural Language Processing, Visión Artificial y muchas otras áreas de la inteligencia artificial. Por ello, es vital que conozcas y sepas utilizar algunas de estas librerías, que son clave para cualquier labor de ciencia de datos.
 
-En este bootcamp aprenderemos a fondo `Numpy`, que es una libreria utilizada para procesar y trabajar con listas multidimensionales de forma muy eficiente, `Pandas`, construida sobre Numpy y que permite trabajar con estructuras de datos tabulares denominados `DataFrames`, `Matplotlib` que posibilita la opción de visualizar los datos y sus relaciones y `scikit-learn`, ampliamente utilizada para construir modelos de Machine Learning.
+En este bootcamp aprenderemos a fondo *NumPy*, que es una librería utilizada para procesar y trabajar con listas multidimensionales de forma muy eficiente, *Pandas*, construida sobre *NumPy* y que permite trabajar con estructuras de datos tabulares denominados *DataFrames*. *Matplotlib* que posibilita la opción de visualizar los datos y sus relaciones, y *scikit-learn*, ampliamente utilizada para construir modelos de Machine Learning.
 
 ## Rendimiento
 
-Todo el software que se programa se debe ejecutar en un hardware, que es un conjunto de elementos físicos que constituyen un sistema informático. Cuanto más eficiente sea el código que implementes, mayor aprovechamiento de los recursos hardware, menor tiempos de ejecución, mayor posibilidad de paralelizar tareas, etcétera.
+Todo el software que se programa se debe ejecutar en un hardware, que es un conjunto de elementos físicos que constituyen un sistema informático. Cuanto más eficiente sea el código que implementes, mayor aprovechamiento de los recursos hardware, menores tiempos de ejecución, mayor posibilidad de distribuir tareas, etcétera.
 
 Cuando se construyen modelos de inteligencia artificial, el rendimiento es una gran preocupación, ya que la potencia de procesamiento es la mayor limitación que tiene este campo en este momento. Por lo tanto, la construcción de código y funciones eficientes es un pilar fundamental. También aprenderemos sobre ello.
 
@@ -355,8 +361,8 @@ Existen dos formas principales de programar en Python, y cada una de ellas se pu
 - **Programación flexible**: Se lleva a cabo con interfaces web como `Jupyter Notebook` o `Google Collab`. Se caracteriza por no contar con una estructura predefinida de código y concebidas para hacer desarrollos rápidos y de prueba y error. En este tipo de desarrollos se generan **cuadernos** (*notebooks*) 
 - **Programación productiva**: Se lleva a cabo en **entornos de desarrollo integrados** (*IDE*, *Integrated Development Environment*), que son programas informáticos que permiten un desarrollo de inicio a fin de una aplicación o un servicio completo. Algunos de los más utilizados en Python son el `Visual Studio Code` y `Spyder`, entre otros.
 
-Normalmente el desarrollo de un producto, modelo o servicio de Machine Learning, se compone de dos fases: una exploratoria y otra de desarrollo. Primero programamos en notebooks y hacemos pruebas de concepto buscando el mejor preprocesamiento, análisis y predicción de los datos, y después preparamos un desarrollo completo para productivizar el modelo.
+Normalmente, el desarrollo de un producto, modelo o servicio de Machine Learning, se compone de dos fases: una exploratoria y otra de desarrollo. Primero programamos en notebooks y hacemos pruebas de concepto, buscando el mejor preprocesamiento, análisis y predicción de los datos, y después preparamos un desarrollo completo para productivizar el modelo.
 
 ### Estructura de proyecto
 
-Usaremos una plantilla para nuestros proyectos llamada [Cookie Cutter Datascience](https://drivendata.github.io/cookiecutter-data-science/). Usar una plantilla siempre es una buena idea para organizar nuestros archivos y flujo de trabajo del proyecto.
+Usaremos una plantilla para nuestros proyectos llamada [Cookie Cutter Datascience](https://drivendata.github.io/cookiecutter-data-science/). Usar una plantilla siempre es una buena idea para organizar nuestros archivos y flujo de trabajo del proyecto. Puedes leer la documentación y ver [este video sobre cómo funciona](https://www.youtube.com/watch?v=nExL0SgKsDY).
