@@ -8,6 +8,20 @@ authors: [DF27ARTS]
 
 Regular expressions (RegEx) are a very common and powerful way to search and manipulate text using certain patterns. The following is an example in JavaScript to check if a string ends with a certain character or text pattern.
 
+```py runable=true
+import re
+
+text_one = "This is an example of a regular expression for the end of line"
+text_two = "This is another example"
+
+regex_pattern = r"line$"
+
+text_one_result = bool(re.search(regex_pattern, text_one))
+text_two_result = bool(re.search(regex_pattern, text_two))
+
+print(text_one_result)  # output: True
+print(text_two_result)  # output: False
+```
 ```js runable=true
 const textOne = "This is an example of a regular expression for the end of line";
 const textTwo = "This is another example";
@@ -27,7 +41,6 @@ In this example, the regular expression (`line$`) checks if a sentence ends with
 
 In regular expressions, the `$` symbol indicates that the pattern we want to search for must be at the end of the string, you can understand this concept better  with the following example.
 
-**Python Code**
 ```py runable=true
 import re
 
@@ -39,8 +52,6 @@ if regex_pattern.search(url):
 else:
     print(f"The url does not have a valid domain")
 ```
-
-**JavaScript Code**
 ```js runable=true
 const url = "https://www.google.com";
 
