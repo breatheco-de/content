@@ -365,4 +365,4 @@ Normalmente, el desarrollo de un producto, modelo o servicio de Machine Learning
 
 ### Estructura de proyecto
 
-Usaremos una plantilla para nuestros proyectos llamada [Cookie Cutter Datascience](https://drivendata.github.io/cookiecutter-data-science/). Usar una plantilla siempre es una buena idea para organizar nuestros archivos y flujo de trabajo del proyecto.
+Usaremos una plantilla para nuestros proyectos llamada [Cookie Cutter Datascience](https://drivendata.github.io/cookiecutter-data-science/). Usar una plantilla siempre es una buena idea para organizar nuestros archivos y flujo de trabajo del proyecto. Puedes leer la documentación y ver [este video sobre cómo funciona](https://www.youtube.com/watch?v=nExL0SgKsDY).
