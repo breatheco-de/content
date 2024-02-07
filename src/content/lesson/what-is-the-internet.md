@@ -35,7 +35,7 @@ For this reason, they worked on something as similar as possible to a Microsoft 
 ## Everything is Text (HTTP)
 
 
-As it is to be expected, if you wish to share documents, all you need is text.  When you build web pages, everything runs under the HTTP protocol (The Hypertext Transfer Protocol) which is a specialist in text transmission.
+As expected, if you wish to share documents, all you need is text.  When you build web pages, everything runs under the HTTP protocol (The Hypertext Transfer Protocol) which is a specialist in text transmission.
 
 What this means is that: everything is text.  For example, if you wish to send a photograph to your grandmother through an email, this is more or less what happens:
 
