@@ -376,6 +376,6 @@ Normally, the development of a product, model, or service for Machine Learning c
 
 ### Project Structure
 
-We will use a template for our projects called [Cookie Cutter Datascience](https://drivendata.github.io/cookiecutter-data-science/). Using a template is always a good idea to organize our files and project workflow.
+We will use a template for our projects called [Cookie Cutter Datascience](https://drivendata.github.io/cookiecutter-data-science/). Using a template is always a good idea to organize our files and project workflow. You can read the documentation and watch [this video on how it works](https://www.youtube.com/watch?v=nExL0SgKsDY).
 
 
