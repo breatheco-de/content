@@ -27,7 +27,7 @@ Mientras que la IA se centra en simular la inteligencia humana, el aprendizaje a
 
 Todo desarrollador que comienza a programar en un lenguaje nuevo lo hace imprimiendo `Hello, World!`. En Python podemos hacerlo usando la función `print`, que muestra por consola cualquier dato o texto que se coloque entre sus paréntesis:
 
-```py
+```py runable=true
 print("Hello, World!")
 ```
 
@@ -44,7 +44,7 @@ es_estudiante = True
 
 Además, las variables son elementos mutables y que pueden cambiar en el tiempo. Así, al igual que podemos acceder a su valor para leerlo, también podemos modificarlo:
 
-```py
+```py runable=true
 mi_numero = 10
 print(f"Número original: {mi_numero}")
 
@@ -188,7 +188,7 @@ En Python, las principales estructuras de control son:
 
 Permite ejecutar un bucle de código si se cumple una condición.
 
-```py
+```py runable=true
 edad = 18
 if edad >= 18:
     print("Eres mayor de edad.")
@@ -198,7 +198,7 @@ if edad >= 18:
 
 Se extiende el *if*, para incluir y comprobar otras condiciones.
 
-```py
+```py runable=true
 if edad < 18:
     print("Eres menor de edad.")
 elif edad >= 18:
@@ -209,7 +209,7 @@ elif edad >= 18:
 
 Se ejecuta cuando no se cumpla ninguna de la(s) condición(es) anterior(es):
 
-```py
+```py runable=true
 if edad < 18:
     print("Eres menor de edad.")
 else:
@@ -222,7 +222,7 @@ else:
 
 Repite un bloque de código un número determinado de veces o a través de los elementos de una colección.
 
-```py
+```py runable=true
 for i in range(5):
     print(i)
 
@@ -240,7 +240,7 @@ for fruta in frutas:
 
 Repite un bloque de código mientras se cumpla una condición.
 
-```py
+```py runable=true
 contador = 0
 while contador < 5:
     print(contador)
@@ -255,7 +255,7 @@ while contador < 5:
 
 Termina el bucle antes de que haya completado todas sus iteraciones.
 
-```py
+```py runable=true
 for letra in "Python":
     if letra == "h":
         break
@@ -268,7 +268,7 @@ for letra in "Python":
 
 Salta a la siguiente iteración del bucle, omitiendo el código que sigue después.
 
-```py
+```py runable=true
 for letra in "Python":
     if letra == "h":
         continue
@@ -281,7 +281,7 @@ for letra in "Python":
 
 No hace nada. Actúa como un marcador de posición donde se requiere una declaración sintácticamente, pero no se desea ejecutar ningún código.
 
-```py
+```py runable=true
 for letra in "Python":
     if letra == "h":
         pass
@@ -296,7 +296,7 @@ Estas estructuras de control son esenciales para crear programas que puedan toma
 
 Una **función** (*function*) es un bloque de código reutilizable que realiza una tarea específica.
 
-```py
+```py runable=true
 def saludo(nombre):
     return f"Hola, {nombre}!!"
 
