@@ -17,7 +17,7 @@ These mistakes can be very simple, like misspelling a line of code, or more elab
 
 Throughout the years, I have developed a very effective debugging recipe that I will share below. It takes me just a few seconds to find and fix 90% of my bugs and mistakes, leaving no room for improvisation or shooting darts.
 
-<quote>Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. -- Brian Kernighan</quote>
+<quote>Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. -- Brian Kernighan</quote>.
 
 ## Who should read this guide?
 
@@ -45,7 +45,7 @@ Debugging front-end code can be split into 4 main groups:
 
 1. **HTML/CSS bugs**: Layout miss matches vs. original design, confusions created by the browser cache, a missing HTML `<tags>`, or some CSS rules not being applied correctly.
 2. **JavaScript logic bugs**: Usually undefined or unexpected variable values, wrong logical conditions or flow, and syntax issues.
-3. **Rendering with Component frameworks bugs**: Dealing with the DOM, React Rendering, etc. Typical errors are not waiting for data to arrive from the back-end leading to undefined variables (too early), too many re-renders, wrong importing or exporting of variables, or not passing the data correctly between components.
+3. **Rendering with Component frameworks bugs**: Dealing with the DOM, React Rendering, etc. Typical errors are not waiting for data to arrive from the back-end leading to undefined variables (too early), too many re-renders, improper importing or exporting of variables, or not passing the data correctly between components.
 4. **Integration with the back-end bugs**: Fetch and HTTP requests with wrong payload, missing authentication credentials, not interpreting the back-end payload response correctly, or not handling promise exceptions, CORS errors.
 
 #### Is it a back-end bug?
