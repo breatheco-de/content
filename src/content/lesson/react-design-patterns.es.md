@@ -10,7 +10,7 @@ Los planteamientos de los patrones de diseño se hacen de forma genérica, de ma
 
 Este patrón se popularizo en la comunidad de React desde que se introdujo la api de contexto (Context API), se trata de básicamente de crear un componente que **provee** de un estado a todos los componentes en su interior. Tratándose de aplicaciones que se forman en base a componentes, se pueden crear varias capas de proveedores (cada una dentro de otra) que provean de varios contextos a tu aplicación.
 
-![Las apps de react son como cebollas](https://breathecode.herokuapp.com/v1/media/file/apps-de-react-son-como-cebollas "Las apps de react son como cebollas").
+![Las apps de react son como cebollas](https://breathecode.herokuapp.com/v1/media/file/apps-de-react-son-como-cebollas "Las apps de react son como cebollas")
 
 Algunas librerías implementan este patrón por defecto, como por ejemplo React Router que envuelve toda la aplicación en un componente `<BrowserRouter>` y luego te permite crear layouts con rutas dinámicas con el componente `<Routes>`, creando asi varias capas de proveedores. Si quieres saber más de como usar React Router puedes visitar [éste artículo](https://4geeks.com/es/lesson/routing-our-views-with-react-router-es).
 [this article](https://4geeks.com/lesson/routing-our-views-with-react-router).
