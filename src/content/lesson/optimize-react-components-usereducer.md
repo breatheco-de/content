@@ -84,7 +84,7 @@ In this example, we have a counter that not only adds one by one but also has ot
 
 To perform all these actions it needs functions for every single one of them, besides the state itself. For that we'll use the classic `useState` hook, [learn more here](https://4geeks.com/lesson/react-hooks-explained#the-useeffect-hook).
 
-```react
+```jsx
 export default function CounterUsingState() {
   const [counter, setCounter] = useState(0);
   const increment = () => setCounter(counter + 1);
@@ -137,7 +137,7 @@ export default function counterReducer(state, action = {}) {
 
 Now from the component we can import and use the reducer:
 
-```react
+```jsx
 import React, { useReducer } from "react";
 import counterReducer, { intitialCounter } from "./counterReducer";
 
