@@ -210,6 +210,7 @@ if age >= 18:
 Extends the *if* to include and check other conditions.
 
 ```py runable=true
+age = 18
 if age < 18:
     print("You are a minor.")
 elif age >= 18:
@@ -221,6 +222,7 @@ elif age >= 18:
 It executes when none of the previous condition(s) are met:
 
 ```py runable=true
+age = 18
 if age < 18:
     print("You are a minor.")
 else:
