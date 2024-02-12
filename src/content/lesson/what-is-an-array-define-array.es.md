@@ -176,9 +176,23 @@ Actualiza el array actual, devolviendo los elementos que se desean obtener. Debe
 
 ![qué es un array](https://github.com/breatheco-de/content/blob/master/src/assets/images/7e098348-df50-442b-801e-ac9d098fbc09.png?raw=true)
 
-<iframe src="https://repl.it/F9V5/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```javascript runable=true
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Slice-vs-Splice">Clic para abrir demo en una ventana nueva</a></small></div>
+////////////////////////////
+// Slice
+let halfArr = numbers.slice(0, 5)
+console.log({ halfArr })
+// Ouputs: { halfArr: [ 1, 2, 3, 4, 5 ] }
+
+////////////////////////////
+// Splice
+let middleItems = numbers.splice(4, 2)
+console.log({ middleItems })
+// Ouputs: { middleItems: [ 5, 6 ] }
+console.log({ numbers, arr })
+// Ouputs: { numbers: [ 1, 2, 3, 4, 7, 8, 9, 10 ] }
+```
 
 > ☝️ Splice puede aceptar tantos parámetros opcionales como se quiera y estos sustituirán la parte del array que ha sido eliminada. De esta forma el primer parámetro indica el índice desde el cual empieza a borrar, el segundo parámetro cuantos elementos borrarás y del tercero en adelante los elementos que se insertan a partir de la posición que se indica en el primer parámetro.
 
@@ -246,6 +260,24 @@ let autos = [
     console.log(autos); // --> [ {tipo: 'Saab', año: 2001}, {tipo: 'BMW', año: 2010}, {tipo: 'Volvo', año: 2016} ]
 ```
 
-<iframe src="https://repl.it/F9YZ/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```javascript runable=true
+// Sorting strings
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.sort();
+console.log(fruits); // --> ['Apple', 'Banana', 'Mango', 'Orange'] 
+fruits.reverse();
+console.log(fruits); // --> ['Orange', 'Mango', 'Banana', 'Apple']
 
-<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Sorting-Arrays">Clic para abrir demo en una ventana nueva</a></small></div>
+// Sorting numbers
+let points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b) { return a - b });
+console.log(points); // --> [1, 5, 10, 25, 40, 100]
+
+// Sorting objects
+let cars = [
+	{ type: "Volvo", year: 2016 },
+	{ type: "Saab", year: 2001 },
+	{ type: "BMW", year: 2010 }];
+cars.sort(function(a, b) { return a.year - b.year });
+console.log(cars); // --> [ {type: 'Saab', year: 2001}, {type: 'BMW', year: 2010}, {type: 'Volvo', year: 2016} ]
+```
