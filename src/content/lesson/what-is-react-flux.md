@@ -62,7 +62,7 @@ const TaskReducer = (state, action) => {
 
 The next step is to make this function available for all the other components of the application, for that we'll use a context with the hook `useReducer`, which will allow us to create a state and the `actions` function to publish it to the rest of the components.
 
-```react
+```jsx
 //TaskContext.jsx
 import { useReducer, createContext } from "react";
 
