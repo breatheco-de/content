@@ -143,9 +143,16 @@ A local variable is available only inside the scope of the nearest curly bracket
 
 If you declare a variable at the beginning of your code, it will be available throughout the entire code (including during the content of any particular function).
 
-<iframe src="https://repl.it/F10t/2?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+``` runable=true
+var age = 24;
+age = 30;
 
-<div align="right"><small><a href="https://repl.it/F10t/2?lite=true">Click to open demo in a new window</a></small></div>
+//To print the variable on the console you can use console.log
+console.log(age);
+
+// (or document.write if you are on a website)
+// document.write(age);
+```
 
 ## Logical Operations
 
@@ -198,9 +205,22 @@ if (number > 18) {
 
 Similar to if…else… but a little bit more organized. Here, you will specify all the possible case scenarios, including the `default scenario` that will occur if none of the other scenarios happen.
 
-<iframe src="https://replit.com/@4GeeksAcademy/Conditionals?embed=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+``` runable=true
+var weekday = 'monday';
 
-<div align="right"><small><a href="https://replit.com/@4GeeksAcademy/Conditionals">Click to open demo in a new window</a></small></div>
+switch(weekday)
+{
+	case "monday":
+		console.log('Its going to be a long week');
+	break;
+	case "friday":
+		console.log('Party time!');
+	break;
+	default:
+		console.log('Just another boring day....');
+	break;
+}
+```
 
 > Use `switch` instead of `if` when:<br><br>• You are comparing multiple possible conditions of an expression and the expression itself is non-trivial.<br>• You have multiple values that may require the same code.<br>• You have some values that will require essentially all of another value’s execution, plus only a few statements.<br><br>Use `if` instead of `switch` when:<br><br>• You want to test the truthfulness of an expression.<br>• You only have a single affirmative test.<br>• You need to evaluate different expressions for each branch.
 
