@@ -143,7 +143,7 @@ A local variable is available only inside the scope of the nearest curly bracket
 
 If you declare a variable at the beginning of your code, it will be available throughout the entire code (including during the content of any particular function).
 
-``` runable=true
+```js runable=true
 var age = 24;
 age = 30;
 
@@ -205,7 +205,7 @@ if (number > 18) {
 
 Similar to if…else… but a little bit more organized. Here, you will specify all the possible case scenarios, including the `default scenario` that will occur if none of the other scenarios happen.
 
-``` runable=true
+```js runable=true
 var weekday = 'monday';
 
 switch(weekday)
