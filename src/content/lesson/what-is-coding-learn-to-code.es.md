@@ -15,7 +15,6 @@ Los algoritmos son asombrosos. Pueden servir para varios propósitos, pero, como
 
 Su código tendrá una línea de "comienzo" y una línea de "final", y la computadora EJECUTARÁ el algoritmo línea por línea en un orden muy estricto. Los usuarios podrán interactuar con su algoritmo a través de la "línea de comando" o "terminal" o "consola" de la computadora (sí, tiene muchos sinónimos).
 
-Ya que estamos construyendo pequeños algoritmos básicos (por ahora) vamos a utilizar un simulador de línea de comandos de computadora en [c9](https://aws.amazon.com/es/cloud9/?origin=c9io) y [repl.it](https://repl.it/) para interactuar con nuestro programa.
 
 ## La Linea de Comamdo
 
