@@ -75,9 +75,16 @@ As we learned above, we use the keyword `var` to declare a variable. There are t
 
 Variable's values are subject to change over time. To retrieve a variable's value you can print the value on the screen at any time. Each language has its own methods to print; this is how you do it in JavaScript:
 
-<iframe src="https://replit.com/@4GeeksAcademy/Print-variable?embed=true#index.js" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```js runable=true
+var age = 24;
+age = 30;
 
-<div align="right"><small><a href="https://replit.com/@4GeeksAcademy/Print-variable#index.js" >Click to open demo in a new window</a></small></div>
+//To print the variable on the console you can use console.log
+console.log(age);
+
+// (or document.write if you are on a website)
+// document.write(age);
+```
 
 ## Data Types
 
