@@ -12,11 +12,11 @@ cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 
 ¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro, estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor lean hasta el final, ¡trataré de no aburrirlos!
 
-## Lo que ya sabes
+## Lo que ya sabes:
 
 Estás aquí para aprender a desarrollar tus habilidades para programar hasta un nivel en el que puedas: 1️⃣ Conseguir trabajo, 2️⃣ Crear tu propia empresa, 3️⃣ Adaptarte mejor al nuevo mundo. 
 
-## Lo que no sabías
+## Lo que no sabías:
 
 También estás aquí porque necesitas ayuda, no solo técnica sino también espiritual. Digo esto de la manera más pragmática posible.
 
@@ -39,7 +39,7 @@ En algún momento de nuestras vidas (en algunos más que otros) podemos haber pe
 Cualquier persona en general puede aprender a programar, la programación se vuelve más complicada cuando te especializas más en tu carrera (Inteligencia Artificial, Robótica, etc.) Puedes ganar una buena cantidad de dinero sin tener que haber estudiado matemáticas, sin ser bueno con los números o sin aprender tan rápido como otros (es posible que podamos arreglar eso, por cierto). 
 
 
-##### 📝 Receta para no perder la confianza en ti
+##### 📝 Receta para no perder la confianza en ti:
 
 1. **Evita estar atascado durante mucho tiempo:** Programar puede complicarse porque puedes estar a punto de resolver el problema y quedarte atascado sin ver la respuesta. Quizás no sepas cómo empezar a resolver un problema y una conversación de 5 minutos con un mentor te aclarará la mente.
 
