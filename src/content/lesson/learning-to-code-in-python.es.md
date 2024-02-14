@@ -203,6 +203,7 @@ Bien, ahora es cuando todo empieza a ponerse divertido! Para controlar el flujo 
 La primera herramienta que tienes es el condicional `if ... else`. Es muy fácil. Puedes decirle a la computadora que omita cualquier parte de tu código dependiendo del valor actual de tus variables.
 
 La instrucción `if` te permite ejecutar un fragmento de código si se cumplen ciertas condiciones (o si son verdaderas). La declaración "else" ejecutará un fragmento de código alternativo en caso de que la condición sea falsa.
+
 ```python
 if number < 18:
      print("Hello");
@@ -223,7 +224,7 @@ Imagina que estás dentro de un ascensor: el ascensor debe girar en bucle por lo
 Un bucle `while` ejecutará un bloque de código siempre que una condición sea verdadera. Una vez que la condición sea falsa, el bucle dejará de ejecutar
 el bloque de código.
 
-```python
+```python runable=true
 sum = 0;
 number = 1;
 while number <= 50:
@@ -259,16 +260,17 @@ bloque de código a ejecutarse
 }
 ```
 
-```python
-dog = {
-  "species": "Great Dane",
-  "size": "Extra Large",
-  "age": 3 ,
-  "name": "Rocky"
+```python runable=true
+perro = {
+  "especie": "Gran Danés",
+  "tamaño": "Extra Grande",
+  "edad": 3,
+  "nombre": "Rocky"
 }
 
-for items in dog:
-  print(dog[items])
+for items in perro:
+  print(perro[items])
+
 
 ```
 
