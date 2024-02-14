@@ -41,7 +41,7 @@ Every average person can learn to code to the point of being useful, but coding 
 
 ##### 📝 Recipe to avoid losing confidence
 
-1. **Avoid being stuck too long:** Coding is tricky because you may be very close to solving a problem. If you are stuck and don't realize it ,or maybe you don't know how to start solving the problem, a quick 5 min talk with a mentor will clear the way. You need to ask for help no longer than 15 minutes after trying on your own.
+1. **Avoid being stuck too long:** Coding is tricky because you may be very close to solving a problem. If you are stuck and don't realize it, or maybe you don't know how to start solving the problem, a quick 5 min talk with a mentor will clear the way. You need to ask for help no longer than 15 minutes after trying on your own.
 
 2. **Talk to other students:** You may think you are the only one that does not understand, but if you talk to a couple of classmates you'll see they are just like you, it will give you the confidence to ask any questions.
 
