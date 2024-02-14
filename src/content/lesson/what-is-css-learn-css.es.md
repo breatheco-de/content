@@ -21,7 +21,7 @@ Pero… El internet es más hermoso que eso. La cosa se puso seria cuando Intern
 
 Irónicamente, los mismos científicos de CERN que crearon HTML, tuvieron que ponerse a pensar en cómo mejorar lo que habían hecho y se dieron a la tarea de embellecerlo. En este momento fue cuando [Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie), propuso la primera versión de CSS en 1994, que luego fue adaptado hasta convertirse en CSS1.
 
-## Entonces, ¿qué hace CSS? y ¿para qué sirve?
+## Entonces, ¿qué hace CSS y para qué sirve?
 
 
 ![what is css](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/8c9fea86-c56c-486f-8b64-4322338076f7.jpeg?raw=true)
@@ -41,7 +41,7 @@ Puedes decirle a un <h1> que se vea igualito que un <h2> sin que el usuario se d
 ## ¿Cómo aplico estilos a un HTML?
 
 
-Sencillo, Debes escribir tus estilos con una sintaxis especial denominada "CSS" y guardar el documento con la extensión CSS. Luego, para aplicar los estilos al documento usamos las tags del HTML que estaban relacionadas con CSS: `<style>` y `<link>` .
+Sencillo, debes escribir tus estilos con una sintaxis especial denominada "CSS" y guardar el documento con la extensión CSS. Luego, para aplicar los estilos al documento usamos las tags del HTML que estaban relacionadas con CSS: `<style>` y `<link>` .
 
 Vamos a repasar estas tags con más detalle:
 
