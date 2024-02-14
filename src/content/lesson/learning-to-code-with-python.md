@@ -139,10 +139,6 @@ def multiply(param1, param2):
     return result  # This is how you return a value from the function
 ```
 
-<iframe src="https://repl.it/F10t/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
-
-<div align="right"><small><a href="https://repl.it/F10t/0?lite=true">Click here to open the video in a new window</a></small></div>
-
 ## Function Parameters and Scope
 
 The scope of a variable determines where that variable is available for use. There are two main types of scopes:
@@ -155,9 +151,16 @@ A local variable is only available within the scope of the nearest curly braces.
 
 If you declare a variable at the beginning of your code, it will be available throughout the entire code, even within the content of any particular function.
 
-<iframe src="https://repl.it/F10t/2?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```py runable=true
+# Define a global variable
+message = "Hello"
 
-<div align="right"><small><a href="https://repl.it/F10t/2?lite=true">Click here to open the video in a new window</a></small></div>
+def print_message():
+    # This function uses the global variable 'message'
+    print(message)
+
+print_message()  # Outputs: Hello
+```
 
 ## Logical Operations
 
