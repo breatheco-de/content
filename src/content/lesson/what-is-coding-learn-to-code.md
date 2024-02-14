@@ -15,7 +15,6 @@ Algorithms are amazing.  They can serve several purposes, but, as web developers
 
 Your code will have a "beginning" line and an "ending" line, and the computer will RUN the algorithm line by line in a very strict order.  Users will be able to interact with your algorithm through the computer’s "command line" or "terminal" or "console" (yes, it has a lot of synonyms).
 
-Since we are building small basic algorithms (for now) we are going to be using a computer command line simulator on [c9](https://aws.amazon.com/es/cloud9/?origin=c9io) and [repl.it](https://repl.it/) to interact with our program.
 
 ## The Command Line
 
