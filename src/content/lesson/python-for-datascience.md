@@ -10,7 +10,7 @@ canonical: ""
 ---
 
 
-**Python** is a highly versatile programming language used in a multitude of scenarios: web application development (both front and backend), mobile game development, simulations, networking, automation, among others. Moreover, it is the predominant language for working with data and developing algorithms in Artificial Intelligence, Data Science, and Machine Learning. Before delving further, let's distinguish among the three aforementioned terms:
+**Python** is a highly versatile programming language used in a multitude of scenarios: web application development (both front and backend), mobile game development, simulations, networking, and automation, among others. Moreover, it is the predominant language for working with data and developing algorithms in Artificial Intelligence, Data Science, and Machine Learning. Before delving further, let's distinguish among the three aforementioned terms:
 
 | Term | Definition | Scope | Objective |
 |:--------|:-----------|:---------|:---------|
