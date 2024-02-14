@@ -22,12 +22,9 @@ Ya que estamos construyendo pequeños algoritmos básicos (por ahora) vamos a ut
 
 Las computadoras no necesitan interfaces visuales, los humanos sí. Pero ahora te estás convirtiendo en un desarrollador y tienes más cosas en común con las computadoras todos los días: la "línea de comando" será una de ellas. Por favor mira este simulador de terminal de computadora y ejecuta el código. La computadora imprimirá el resultado después de ejecutar el algoritmo en el terminal en la parte inferior de la ventana:
 
-<iframe src="https://repl.it/F03k/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
-
-<div align="right"><small><a href="https://repl.it/F03k/0?lite=true">Click para abrir demo en una nueva ventana</a></small></div>
-
-
-
+```py
+print("Hola, humano ... ¿cuáles son sus órdenes para hoy?")
+```
 
 > :point_up: ¿Qué sucedió aquí? <br> Cuando presionó "ejecutar", el algoritmo comenzó a ejecutarse, y la única acción que realizó fue imprimir la oración: "Hola, humano ... ¿cuáles son sus órdenes para hoy?"
 
@@ -36,15 +33,20 @@ Las computadoras no necesitan interfaces visuales, los humanos sí. Pero ahora t
 
 El tiempo de ejecución es el lugar más abstracto que encontrará en toda su vida. Es similar a la mente de un artista justo antes de que llegue a la epifanía ... bueno, lo siento, nos hemos sobrepasado un poco aquí ... pongámoslo en palabras sencillas:
 
-El tiempo de ejecución es el tiempo que transcurre desde el momento en que tu código comienza a ejecutarse hasta que finaliza la ejecución (normalmente no llevará más de unos segundos). Al igual que con HTML y CSS, su editor de código intentará ayudarlo a reconocer los problemas, pero ahora encontrará un nuevo tipo de error llamado "error de tiempo de ejecución". Este error ocurre cuando tu código es sintácticamente perfecto, pero le ordenaste a la computadora que haga algo imposible. Por ejemplo: si su algoritmo le dice a la computadora que imprima la letra "a" en la pantalla indefinidamente, es probable que la computadora se congele o te dé un error (como medida de precaución). De lo contrario, tu programa nunca terminará, y probablemente terminará dañando la computadora.
+El tiempo de ejecución es el tiempo que transcurre desde el momento en que tu código comienza a ejecutarse hasta que finaliza la ejecución (normalmente no llevará más de unos segundos). Al igual que con HTML y CSS, su editor de código intentará ayudarlo a reconocer los problemas, pero ahora encontrará un nuevo tipo de error llamado "error de tiempo de ejecución". Este error ocurre cuando tu código es sintácticamente perfecto, pero le ordenaste a la computadora que haga algo imposible. 
+
+Por ejemplo: Un ejemplo común es intentar acceder a un índice en una lista que no existe, lo que resulta en un IndexError.
 
 Esto es lo que parece un "error de tiempo de ejecución" (un error que se produce durante el tiempo de ejecución):
 
-<iframe src="https://repl.it/F05K/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```py runable=true
+# Definir una lista con 3 elementos
+mi_lista = [1, 2, 3]
 
-<div align="right"><small><a href="https://repl.it/F05K/0?lite=true">Click para abrir demo en una nueva ventana</a></small></div>
+# Intentar acceder a un índice que no existe
+print(mi_lista[3])  # Esto provocará un IndexError
 
-
+```
 
 ## El Lenguaje
 
