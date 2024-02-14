@@ -53,9 +53,14 @@ a = 80
 
 The values of variables can change over time. To retrieve the value of a variable, you can print its value on the screen at any time. Every programming language has its own methods for printing. In Python, we use `print`.
 
-<iframe src="https://repl.it/F0R2/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```py runable=true
+age = 24
+print(age)
 
-<div align="right"><small><a href="https://repl.it/F0R2/1?lite=true" > Click here to open the demo in a new window.</a></small></div>
+# we can update the value of variable "age" anytime
+age = 30
+print(age)
+```
 
 ## Data Types
 
@@ -71,9 +76,34 @@ Variables can have different types of values:
 |Objects	    |Any object    |You can create your own data types with more complex operations. We will talk more about this later.  |
 |Null    |Only Null    |Used to specify when the database or any other function does not return anything.   |
 
-<iframe src="https://repl.it/F05K/3?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```py runable=true
+# Variables and their types
+myFirstBoolean = True  # Boolean
+myFirstInteger = 35  # Integer
+myFirstFloat = 2323.4545  # Float (number with decimals)
 
-<div align="right"><small><a href="https://repl.it/F05K/3?lite=true">Click here to open the video in a new window</a></small></div>
+myFirstString = 'Hello Wold'  # String
+myFirstObject = {'name': 'Ramon', 'Age': 32}  # Dictionary with 2 key-value pairs
+myFirstArray = [23, 'Hello', 8.54, None, 544]  # List of 5 items of different types
+myFirstNull = None  # NoneType represents null in Python
+myFirstUndefined = None  # Python uses None to represent undefined/null values
+
+# Printing the variables to the console
+print(myFirstBoolean)
+
+print(myFirstInteger)
+print(myFirstFloat)
+print(myFirstFloat + myFirstInteger)  # Arithmetic operation
+
+print(myFirstObject)
+print(myFirstString)
+print(f"{myFirstString}...{myFirstObject['name']}")  # String formatting for concatenation
+
+print(myFirstArray)
+print(myFirstNull)
+print(myFirstUndefined)
+
+```
 
 ## Operations
 
