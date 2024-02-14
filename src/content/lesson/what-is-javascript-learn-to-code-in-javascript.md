@@ -100,9 +100,31 @@ Variables can have different types of values. Some of them are available only in
 |Objects    |Any object    |You can create your own data-types with more complex operations.  We will talk more about this later.    |
 |Null     |Only null    |Is used to specify when the database or any other function does not return anything.   |
 
-<iframe src="https://replit.com/@4GeeksAcademy/Data-Types?embed=true#index.js" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```js runable=true
+var myFirstBoolean = true;//Boolean
+var myFirstInteger = 35;//Number
+var myFirstFloat = 2323.4545; //Number (with decimals)
 
-<div align="right"><small><a href="htthttps://replit.com/@4GeeksAcademy/Data-Types#index.js">Click to open demo in a new window</a></small></div>
+var myFirstString = 'Hello Wold'; //String
+var myFirstObject = {'name' : 'Ramon', 'Age': 32}; //Object with 2 properties
+var myFirstArray = [23,'Hello',8.54,null,544]; //Array of 5 items
+var myFirstNull = null;//Null
+var myFirstUndefined; //Undefined
+
+console.log(myFirstBoolean);
+
+console.log(myFirstInteger);
+console.log(myFirstFloat);
+console.log(myFirstFloat+myFirstInteger);
+
+console.log(myFirstObject);
+console.log(myFirstString);
+console.log(myFirstString+'...'+myFirstObject.name);//String concatenation
+
+console.log(myFirstArray);
+console.log(myFirstNull);
+console.log(myFirstUndefined);
+```
 
 ## Operations
 
