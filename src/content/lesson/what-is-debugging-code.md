@@ -43,7 +43,7 @@ It's a good idea to break down bugs into "types" so we can prepare strategies fo
 
 Debugging front-end code can be split into 4 main groups: 
 
-1. **HTML/CSS bugs**: Layout miss matches vs. original design, confusions created by the browser cache, a missing HTML `<tags>`, or some CSS rules not being applied correctly.
+1. **HTML/CSS bugs**: Layout mismatches vs. original design, confusions created by the browser cache, a missing HTML `<tags>`, or some CSS rules not being applied correctly.
 2. **JavaScript logic bugs**: Usually undefined or unexpected variable values, wrong logical conditions or flow, and syntax issues.
 3. **Rendering with Component frameworks bugs**: Dealing with the DOM, React Rendering, etc. Typical errors are not waiting for data to arrive from the back-end leading to undefined variables (too early), too many re-renders, wrong importing or exporting of variables, or not passing the data correctly between components.
 4. **Integration with the back-end bugs**: Fetch and HTTP requests with wrong payload, missing authentication credentials, not interpreting the back-end payload response correctly, or not handling promise exceptions, CORS errors.
