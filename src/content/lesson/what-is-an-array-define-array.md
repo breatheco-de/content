@@ -17,11 +17,11 @@ Because arrays are awesome! You need them! And we need to focus a lot on them in
 
 Mastering the use of arrays and loops is one of the 5 fundamental skills of building algorithms:
 
-1. Variables.
-2. Conditionals.
+1. `Variables`.
+2. `Conditionals`.
 3. `Arrays`.
 4. `Loops`.
-5. Functions.
+5. `Functions`.
 
 **No, no, no... Wait... Arrays? What?**
 
