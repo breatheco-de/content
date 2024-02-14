@@ -22,8 +22,8 @@ Using a backend language you can access the majority of the computer files, and 
 Let's say that you have the bitcoin prices from the last day in a `bitcoin_prices.csv` file with the following format:
 
 <before-after width="400px"
-    before="../../assets/images/97f74cd8-acdd-4ce9-aa26-bfd494e9b550bitcoin_price_csv.png" 
-    after="../../assets/images/709ff7ce-f7f6-4b16-a172-521fe1787733bitcoing_prices_table.png" 
+    before="https://github.com/breatheco-de/content/blob/master/src/assets/images/97f74cd8-acdd-4ce9-aa26-bfd494e9b550bitcoin_price_csv.png?raw=true" 
+    after="https://github.com/breatheco-de/content/blob/master/src/assets/images/709ff7ce-f7f6-4b16-a172-521fe1787733bitcoing_prices_table.png?raw=true" 
 />
 
 > :tv: Five minute video explaining [what is a CSV file](https://www.youtube.com/watch?v=_blfh7uR05A)
@@ -80,8 +80,6 @@ The code above will create or update a `todos.csv` with content similar to this:
 ```csv
 make the bed, do the laundry, finish homework
 ```
-
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Writing-into-files-with-python?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## Different file formats
 
