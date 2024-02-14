@@ -37,10 +37,14 @@ The runtime is the time that passes from the moment your code starts running unt
 
 This is what a "runtime error" (an error that occurs during runtime) looks like:
 
-<iframe src="https://repl.it/F05K/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```py runable=true
+# Define a list with 3 elements
+my_list = [1, 2, 3]
 
-<div align="right"><small><a href="https://repl.it/F05K/0?lite=true">Click to open demo in a new window</a></small></div>
+# Attempt to access an index that doesn't exist
+print(my_list[3])  # This will cause an IndexError
 
+```
 
 
 ## The Language
