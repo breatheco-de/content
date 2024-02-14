@@ -33,7 +33,7 @@ NOTE: Please always remember that all JavaScript code that you write in your HTM
 </script>
 ```
 
-## How to Update your Website DOM
+## How to Update Your Website DOM
 
 There are several ways to manipulate the DOM, but the most simple one is `document.write()`. Every time you create a `document.write()` you will be writing onto the HTML whatever string you decide to pass as a parameter to the *write* function.
 
@@ -58,9 +58,9 @@ From the moment a website starts being loaded, the browser creates a hierarchy t
 
 <div align="right"><small><a href="https://www.youtube.com/embed/Ibxagg2ep5g">Click here to open video in a new window</a></small></div>
 
-## How do I access any Object in the DOM?
+## How Do I Access Any Object in the DOM?
 
-Just like we did with CSS, we can select any element in the document.  There are 4 methods that allow us to search for whatever we want:
+Just like we did with CSS, we can select any element in the document.  There are 5 methods that allow us to search for whatever we want:
 
 ### document.querySelector("css-element-selector")
 
