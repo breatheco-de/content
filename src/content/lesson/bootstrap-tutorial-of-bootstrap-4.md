@@ -194,7 +194,7 @@ This is probably the most used Bootstrap component; every website has a few card
 + The typical Pinterest wall.
 + The feed in any social media like Instagram, Facebook, twitter, etc.
 
-Here is an example of how a "The Card" may look on a website:
+Here is an example of how a Card may look on a website:
 
 ![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png?raw=true)
 
