@@ -155,6 +155,12 @@ return <div>
 
 ## Prueba el código en vivo
 
+<<<<<<< HEAD
 <iframe src="https://replit.com/@4GeeksAcademy/Demo-Context-API?embed=true&run=true#src/index.jsx" style="width:100%; height:500px; border:0; border-radius: 4px;"></iframe>
 
 <div align="right"><small><a href="https://replit.com/@4GeeksAcademy/Demo-Context-API?embed=true&run=true#src/index.jsx">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
+=======
+<iframe src="https://playcode.io/1764053" style="width:100%; height:500px; border:0; border-radius: 4px;"></iframe>
+
+<div align="right"><small><a href="https://playcode.io/1764053">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
+>>>>>>> 97f73512 (Merge pull request #2071 from mrdoomus/patch-1)

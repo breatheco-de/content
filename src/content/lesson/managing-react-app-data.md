@@ -9,42 +9,19 @@ status: "published"
 
 ---
 
-> ### ⚠️Warning⚠️
-> The following article has information that currently is deprecated by the React community. Instead is recommended the use of the hooks `useContext` and `useReducer` in combination to handle de app data, using native libraries, you can learn how to do this in [this article](https://4geeks.com/lesson/managin-react-app-data). The information presented in this article still may be useful for legacy systems that are currently running with this library, although is not recommended for new developments.
+In the endless debate about how to manage a centralized state there has been many proposals and in the same manner that the needs of the apps evolve, also evolve the strategies to solve this problem.
 
-Remember how we always say that programming is like Taco Bell? It’s always the same ingredients, except differently! In this particular case, we are going to be relying heavily on Events to create our entire application architecture.
+One recommended solution that also scales very well is the combined use of the hooks `useContext` y `useReducer`. With the context you can expose a state and functions for all the components within it, this will prevent a downfall to the abyss of 'prop drilling' and just call the context on the components where is necessary. [Here you can see](https://4geeks.com/lesson/context-api) in more detail how this hook works.
 
-## Why do we need Flux?
+The other piece of the puzzle is the recuder, witch allows to encapsulate state and logic, in a way that can be reused and share by other components. The reducer allows to manage more complex states and also lets you write unit tests for the actions.
 
-We know you are still in the process of learning React. States and props can be confusing, and now, with Flux, things are going to get a little bit harder. But it’s for a good cause!
+## Building a to-do list with flux
 
-Without Flux, you can’t create medium or big React applications because everything will become disorganized pretty quickly.
-
-Also, two different views are not able to send data between each other like the components do (using props) because all views are siblings and React Router is instantiating them. We need to have a common store shared between all the views that we are going to call "The Store."
-
-Here is a list of all the advantages of using it:
-
-+ It centralizes and **detaches the application data from the components:** database communication and data-processing will not depend anymore on how the application looks (renders).
-+ It **controls the way your application data will flow:** it does not matter if the data was inputted by the user or coming from a database; everything will be available in a clear and accessible way.
-+ It differentiates your components in **Views vs Re-usable components:** your components will remain being abstracted from your application logic, making them 100% reusable for future applications.
-
-![React Flux](https://github.com/breatheco-de/content/blob/master/src/assets/images/aa1a5994-8de9-4d24-99ce-3a0d686c30bd.png?raw=true)
-
-### Flux Divides the Application in 3 Layers:
-
-|&nbsp;     |&nbsp;       |
-|:-----------|:----------------|
-Views (Components)     |Every React Component that calls any Flux action is called a view. The reason to call those components differently is that React components are supposed to communicate with each other through their props (without Flux).<br> <br>Once a React Component is hard-coded to Flux, you will not be able to reuse that component in the future (on this or any other development).       |
-|Actions       |Actions can be triggered by components (when the user clicks or interacts with the application) or by the system (for example, the auto-save functionality). Actions are the first step of any Flux workflow, and they always need to dispatch the store.      |
-|Store        |The store contains all the application data. It handles everything incoming from the dispatcher and determines the way data should be stored and retrieved.            |
-
-## Building a to-do list with flux.
-
-### 1) Let's build a reducer that implements the flux pattern.
+### 1) Let's build a reducer to manage the state and actions
 
 To take control over the flow of the data in our application we'll use a `reducer` to group the functions and the logic of the application (actions) along with the data that they handle and must be available to all the other components (state).
 
-For now, let's just say that the reducer is a function that generates a new state every time it runs,  and what it does depends on the information passed to the `action` function. This allows us to call the `actions` to update the state as indicates the flux pattern. To understand better how a reducer works, you can read [this article]() where we cover this in more depth.
+For now, let's just say that the reducer is a function that generates a new state every time it runs,  and what it does depends on the information passed to the `action` function. This allows us to call the `actions` to update the state as indicates the flux pattern. To understand better how a reducer works, you can read [this article](https://4geeks.com/lesson/optimize-react-components-usereducer) where we cover this in more depth.
 
 ```javascript
 // This is the reducer function
@@ -65,7 +42,7 @@ const TaskReducer = (state, action) => {
 
 The next step is to make this function available for all the other components of the application, for that we'll use a context with the hook `useReducer`, which will allow us to create a state and the `actions` function to publish it to the rest of the components.
 
-```react
+```jsx
 //TaskContext.jsx
 import { useReducer, createContext } from "react";
 
@@ -93,7 +70,7 @@ export default TaskContext;
 
 Now the context is ready with our tasks, all we have to do is wrap our app with this component to start using our context.
 
-```react
+```jsx
 //index.jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -117,7 +94,7 @@ For that, we'll use a component that shows a textbox and a button that dispatche
 
 All that is basic stuff, but since we want to use the context `actions`, we need to call it from within the component.
 
-```react
+```jsx
 import { tasks, useContext } from "react";
 import TaskContext from "./TaskContext.jsx";
 
@@ -130,7 +107,7 @@ export default function AddItem() {
 
 To make use of these `actions` we call the function passing as a parameter an object with the properties of the action we want to call, being the most important the property `type` that indicates the specific action to execute. The rest of the properties are optional data that may be required by the action itself.
 
-```react
+```jsx
 // AddItem.jsx
 import { useContext } from "react";
 import TaskContext from "./TaskContext.jsx";
@@ -161,7 +138,7 @@ export default function AddItem() {
 
 In the same manner that we access `taskActions`, we can also access the `tasks` object that contains the state of the list. Just like before, we must use the `useContext` hook in our component.
 
-```react
+```jsx
 import { useContext } from "react";
 import "./App.css";
 import TaskContext from "./TaskContext.jsx";
@@ -194,13 +171,13 @@ Even though the render is very basic (a `li` element with the text and a button)
 
 ***I all stats with the user clicking the trash can icon. That's why we need to start our component by listening to the classic onClick event on the delete button,***
 
-```react
+```jsx
   onClick={() => taskActions({ type: "remove", index })}
 ```
 
 We notice that the call to `actions` is similar to the one used to add items, but in this case is receiving a different parameter called `index`, which indicates to the dispatcher which elements are going to be deleted. Just like we saw in both examples, we can pass any data that's needed to the action at the moment of calling it, as additional parameters.
 
-```react
+```jsx
 import { useContext } from "react";
 import TaskContext from "./TaskContext.jsx";
 
@@ -225,4 +202,6 @@ export default function ListItem({ task, index }) {
 
 We have implemented the logic of our application in a context applying the flux pattern, allowing its use in different components. Now we can see the final result working.
 
-<iframe src="https://replit.com/@4GeeksAcademy/flux-sample?lite=1&embed=true#src/App.jsx"></iframe>
+<iframe src="https://playcode.io/1764043"></iframe>
+
+Puedes ver mas tutoriales relacionados con react en [ésta categoría.](https://4geeks.com/interactive-exercise/react-js-tutorial-exercises)
