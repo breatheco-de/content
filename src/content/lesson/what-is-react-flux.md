@@ -10,7 +10,7 @@ status: "published"
 ---
 
 > ### ⚠️Warning⚠️
-> The following article has information that currently is deprecated by the React community. Instead is recommended the use of the hooks `useContext` and `useReducer` in combination to handle de app data, using native libraries, you can learn how to do this in [this article](https://4geeks.com/). The information presented in this article still may be useful for legacy systems that are currently running with this library, although is not recommended for new developments.
+> The following article has information that currently is deprecated by the React community. Instead is recommended the use of the hooks `useContext` and `useReducer` in combination to handle de app data, using native libraries, you can learn how to do this in [this article](https://4geeks.com/lesson/managin-react-app-data). The information presented in this article still may be useful for legacy systems that are currently running with this library, although is not recommended for new developments.
 
 Remember how we always say that programming is like Taco Bell? It’s always the same ingredients, except differently! In this particular case, we are going to be relying heavily on Events to create our entire application architecture.
 
