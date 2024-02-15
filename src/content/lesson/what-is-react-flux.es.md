@@ -9,6 +9,9 @@ status: "published"
 
 ---
 
+> ### ⚠️Advertencia⚠️
+> El siguiente artículo tiene información que actualmente está desaprobada por la comunidad de React. En su lugar se recomienda utilizar los hooks `useContext` y `useReducer` en conjunto para manejar la información de una aplicación de forma nativa, aprende a hacerlo en [este artículo](https://4geeks.com/es/lesson/managing-react-app-data-es). La información presentada en este artículo aún puede ser útil para sistemas legados que estén en funcionamiento con esta librería, aunque no se recomiendo su uso para nuevos desarrollos.
+
 ¿Recuerdas que siempre decimos que la programación es como Taco Bell? ¡Siempre son los mismos ingredientes utilizados de una manera diferente! En este caso particular, vamos a confiar mucho en los Eventos para crear toda la arquitectura de la aplicación.
 
 ## ¿Por qué necesitamos Flux?

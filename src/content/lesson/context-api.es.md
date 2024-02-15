@@ -155,6 +155,6 @@ return <div>
 
 ## Prueba el código en vivo
 
-<iframe src="https://codesandbox.io/embed/w75wq6v01k?fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<iframe src="https://playcode.io/1764053" style="width:100%; height:500px; border:0; border-radius: 4px;"></iframe>
 
-<div align="right"><small><a href="https://codesandbox.io/s/w75wq6v01k?from-embed">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="https://playcode.io/1764053">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
