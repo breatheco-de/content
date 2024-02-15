@@ -173,9 +173,9 @@ Will update the current array, returning the items you want to retrieve. You wil
 
 ![what is an array define array](https://github.com/breatheco-de/content/blob/master/src/assets/images/7e098348-df50-442b-801e-ac9d098fbc09.png?raw=true)
 
-<iframe src="https://replit.com/@4GeeksAcademy/Slice-vs-Splice?lite=true&embed=true#index.js" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe src="https://repl.it/F9V5/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<div align="right"><small><a href="https://replit.com/@4GeeksAcademy/Slice-vs-Splice?#index.js">Click to open demo in a new window</a></small></div>
+<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Slice-vs-Splice">Click to open demo in a new window</a></small></div>
 
 
 > ☝ Splice can accept as many optional parameters as wanted and those will substitute the part of the array that has been deleted. The first parameter is the index where the deletion starts, the second is how many elements will be deleted, and from the third onward, the elements inserted after the position set by the first parameter.
@@ -244,6 +244,6 @@ let cars = [
     console.log(cars); // --> [ {type: 'Saab', year: 2001}, {type: 'BMW', year: 2010}, {type: 'Volvo', year: 2016} ]
 ```
 
-<iframe src="https://replit.com/@4GeeksAcademy/Sorting-Arrays?embed=true#index.js" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe src="https://repl.it/F9YZ/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<div align="right"><small><a href="https://replit.com/@4GeeksAcademy/Sorting-Arrays#index.js">Click to open demo in a new window</a></small></div>
+<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Sorting-Arrays">Click to open demo in a new window</a></small></div>
