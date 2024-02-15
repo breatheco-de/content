@@ -9,6 +9,9 @@ status: "published"
 
 ---
 
+> ### ⚠️Advertencia⚠️
+> El siguiente artículo tiene información que actualmente está desaprobada por la comunidad de React. En su lugar se recomienda utilizar los hooks `useContext` y `useReducer` en conjunto para manejar la información de una aplicación de forma nativa, aprende a hacerlo en [este artículo](https://4geeks.com/es/lesson/managing-react-app-data-es). La información presentada en este artículo aún puede ser útil para sistemas legados que estén en funcionamiento con esta librería, aunque no se recomiendo su uso para nuevos desarrollos.
+
 ¿Recuerdas que siempre decimos que la programación es como Taco Bell? ¡Siempre son los mismos ingredientes utilizados de una manera diferente! En este caso particular, vamos a confiar mucho en los Eventos para crear toda la arquitectura de la aplicación.
 
 ## ¿Por qué necesitamos Flux?
@@ -27,7 +30,7 @@ Aquí hay una lista de todas las ventajas de usarlo:
 
 ![React Flux](https://github.com/breatheco-de/content/blob/master/src/assets/images/aa1a5994-8de9-4d24-99ce-3a0d686c30bd.png?raw=true)
 
-### Flux divide la aplicación en 3 capas
+### Flux divide la aplicación en 3 capas:
 
 |&nbsp;     |&nbsp;       |
 |:-----------|:----------------|
@@ -37,208 +40,101 @@ Vistas/Views (Components)     |Cada componente React que llama a cualquier acci�
 
 ## Construyendo nuestra primera historia de usuario con Flux
 
-El siguiente proyecto es una aplicación de To-Do List (lista de tareas) con 3 historias de usuario principales:
+El siguiente proyecto es una aplicación de To-Do List (lista de tareas) con 2 historias de usuario principales:
 
-+ Crear tarea.
-+ Mostrar la lista de tareas
++ Crear tarea (ya desarrollada y en funcionamiento).
 + Eliminar tarea.
 
-Para codificar esta lista de tareas tenemos que crear 4 archivos:
-
-1. Un componente para agregar tarea.
-3. Un componente para los items de la lista.
-2. Un archivo para las actions y el estado(store).
-4. El archivo principal donde integraremos todo.
+Para codificar la función para eliminar tareas, tenemos que actualizar estos archivos: (1) El Componente (para cuando el usuario haga clic), (2) las Acciones, (3) El Store (dos veces), y (4) el Componente una última vez. Son solo 3 archivos y 5 actualizaciones. Y tienes que hacer eso para cada historia de usuario que vayas a construir en tu aplicación.
 
 > *Al final, trabajar con Flux tiene que convertirse en algo tan automático como andar en bicicleta.*
 
 ![react flux](https://github.com/breatheco-de/content/blob/master/src/assets/images/77c93bfa-92cb-44e3-a7c5-c959e27c5ccc.jpeg?raw=true)
 
-## Vamos a implementar una lista de tareas
+## Vamos a implementar la función eliminar tarea
 
-### 1) Crearemos un reducer para implementar el patrón flux
+### 1) ¿Qué acción del usuario inicia la función?
 
-Para poder tomar el control del flujo de los datos en nuestra aplicación utilizaremos un `reducer` para agrupar las funciones y la lógica de la aplicación (actions) junto con los datos que manejan y que tienen que estar disponible para los componentes (state).
-
-Por ahora solo diremos que el reducer es una función que genera un estado nuevo cada vez que se ejecuta y lo que haga dependerá de la información que reciba en la función `action`. Esto nos permitirá llamar a las `actions` para actualizar el estado como lo indica el patrón flux. Para entender en detalle como funciona un reducer, puedes [leer esté artículo]() donde lo explicamos a profundidad. 
-
-```javascript
-// Esta es la función reducer
-const TaskReducer = (state, action) => {
-  // Dependiendo del type de la acción realiza una tarea distinta
- switch (action.type) {
-    case "add":
-      return [...state, action.payload];
-    case "remove":
-      let newState=[...state]
-      newState.splice(action.index, 1);
-      return newState
-    default:
-      return state;
-  }
-};
-```
-
-El siguiente paso es hacer que esta función esté disponible para todos los componentes de mi aplicación, para eso utilizaremos un contexto con el hook `useReducer`, el cual nos va a permitir crear el estado y la función `actions` para ponerla a disposición del resto de la aplicación.
-
-```react
-//TaskContext.jsx
-import { useReducer, createContext } from "react";
-
-// Creamos el contexto vacío
-const TaskContext = createContext(null);
-
-const TaskReducer = (state, action) => {
- // Aquí va el reducer que se definió anteriormente👆
-};
-
-// Crearemos un componente que va a envolver nuestra aplicación en el contexto
-export function TaskProvider({ children }) {
-  // Creamos el state 'tasks' y el despachador 'taskActions'
-  // adicionalmente pasamos como estado inicial un arreglo vacío
-  const [tasks, taskActions ]= useReducer(TaskReducer, []);
-  return (
-    {/* Creamos el contexto con nuestro state y actions */}
-    <TaskContext.Provider value={{tasks, taskActions}}>{children}</TaskContext.Provider>
-  );
-}
-
-// Es necesario exportar el contexto para usarlo en otros componentes
-export default TaskContext;
-```
-
-Ya con esto tenemos listo nuestro contexto con las tasks, ahora solo falta envolver nuestra aplicación en este componente para empezar a utilizarlo.
-
-```react
-//index.jsx
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App";
-import { TaskProvider } from "./TaskContext.jsx";
-
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <TaskProvider>
-      <App />
-    </TaskProvider>
-  </React.StrictMode>,
-);
-
-```
-Ahora solo queda llamar al contexto desde los componentes que necesiten hacer uso de nuestras tareas.
-
-### 2) Empecemos por agregar una nueva tarea
-
-Para ello usaremos un componente que muestre una caja de texto y un botón que realiza la acción de agregar la tarea, todo dentro de un formulario para facilitar el manejo del evento de envío(submit).
-
-Todo esto es básico de un formulario en react, pero como queremos utilizar las `actions` del contexto, necesitamos llamarlo en el componente.
-
-```react
-import { tasks, useContext } from "react";
-import TaskContext from "./TaskContext.jsx";
-
-export default function AddItem() {
-  const { taskActions } = useContext(TaskContext);
-  // A partir de este punto tenemos disponibles las actions del reducer
-  // ...
-}
-```
-
-Para hacer uso de estas `actions` se llama a la función y se le pasa como parámetro un objeto con la propiedades de la acción que queremos realizar, siendo la mas importante `type` que indica la acción especifica a ejecutar. El resto de las propiedades son datos opcionales que pueden ser requeridos por la acción.
-
-```react
-// AddItem.jsx
-import { useContext } from "react";
-import TaskContext from "./TaskContext.jsx";
-
-export default function AddItem() {
-  // Hacemos uso del contexto y accedemos a la función 'taskActions'
-  const { taskActions } = useContext(TaskContext);
-  function handleAddTask(e) {
-    e.preventDefault();
-    // Llamamos al actions especificándole 'type'
-    // asi como también la tarea que se va a agregar
-    let textbox = e.target.elements.task;
-    taskActions({ type: "add", payload: textbox.value });
-    textbox.value = "";
-  }
-  return (
-    <li>
-      <form onSubmit={handleAddTask}>
-        <input name="task" type="text"/>
-        <button type="submit">+</button>
-      </form>
-    </li>
-  );
-}
-```
-
-### 3) Ahora vamos a mostrar la lista
-
-De la misma forma como accedemos a `taskActions`, también podemos acceder al objeto `tasks` que contiene el estado con la lista. Igual que antes, debemos hacer uso de `useContext` en nuestro componente.
-
-```react
-import { useContext } from "react";
-import "./App.css";
-import TaskContext from "./TaskContext.jsx";
-import ListItem from "./ListItem.jsx";
-import AddItem from "./AddItem.jsx";
-
-export default function App() {
-  // Accedemos al contexto, pero esta vez solo vamos a usar 'tasks'
-  const {tasks} = useContext(TaskContext);
-
-  return (
-    <main>
-      <h2>Todo list</h2>
-      <ul className="list-group w-50">
-        <AddItem />
-        {tasks.map((task, index) => (
-          <ListItem key={index} task={task} index={index} />
-        ))}
-      </ul>
-    </main>
-  );
-}
-```
-
-Puedes notar que aparece el componente `AddItem` que vimos previamente y desde donde se pueden agregar tarea. Luego de eso se hace el renderizado de la lista con la función `map`, pero notamos que se esta usando un componente `ListItem` para mostrar los elementos, no solo eso sino que ahi también corresponde hacer la eliminación de la tarea, veamos ese componente.
-
-### 4) Eliminación de items
-
-Si bien el renderizado es básico (un elemento `li` con el texto y un botón), lo interesante es como hacemos la eliminación del item con las actions.
+(Siempre es un evento típico de JS como: hacer clic, on hover, cambiar el tamaño, etc.)
 
 ***Todo comienza cuando el usuario haga clic en el icono de la papelera. Es por eso que necesitamos iniciar nuestra aplicación escuchando el típico evento onClick en el botón de eliminar.***
 
-```react
-  onClick={() => taskActions({ type: "remove", index })}
+```javascript
+// En el componente que representa cada elemento de tarea, debemos agregar un botón y también un activador onClick que llame 
+// a la respectiva función TodoAction.deleteTodo(task) que crearemos en las acciones: 
+
+<button onClick={()=>MyActions.deleteTodo(taskToDelete)}>delete</button>
 ```
 
-Notamos que el llamado al action es parecido al que usamos para agregar items, pero se le esta pasando un parámetro distinto llamado `index`, que le indica al dispatcher que elemento va a eliminar. Asi como vimos en ambos ejemplos, podemos pasar la data que necesite nuestra action al momento de llamarla como parámetros adicionales.
+### 2) Luego necesitamos codificar nuestra acción dentro del archivo MyActions.js de esta forma:
 
-```react
-import { useContext } from "react";
-import TaskContext from "./TaskContext.jsx";
+```javascript
+MyActions.js
 
-export default function ListItem({ task, index }) {
-  const { taskActions } = useContext(TaskContext);
+// En este caso, decidimos que esta función (conocida como action) recibirá el ID de la tarea que se eliminará
+class MyActions extends Flux.Actions{
+    deleteTask(taskToDelete){
+         // Obtiene la lista actual de acciones del store
+        let currentActions = MyStore.getActions();
+        let updatedActions = currentActions.filter((task) => {
+             return (task.id != taskToDelete.id);
+        });
 
-  return (
-    <li>
-      {task}
-      <button
-        onClick={() => taskActions({ type: "remove", index })}
-      >
-        {/* Icono de papelera */}
-        <i className="bi bi-trash3"></i>
-      </button>
-    </li>
-  );
+        this.dispatch('MyStore.setActions', updatedActions);
+    }
 }
-````
+```
 
-## Resultado final
+> ☝ Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar, ya que los componentes de clase están considerados como legacy (deprecados).
 
-Ya hemos implementado la lógica de nuestra aplicación en un contexto aplicando el patrón flux, permitiendo su uso en distintos componentes. A continuación podemos ver el resultado final.
+### 3) Actualizar el store para manejar la nueva acción enviada
 
-<iframe src="https://replit.com/@4GeeksAcademy/flux-sample?lite=1&embed=true#src/App.jsx"></iframe>
+```javascript
+// Dentro de todoStore tenemos un método HandleActions que contiene la lógica para manejar cada acción distribuida
+// Tenemos que agregar un nuevo caso al switch con el nombre 'DELETE_TODO'  
+// Tiene que coincidir con el nombre de la acción que se envió
+  
+handleActions(action) {
+  switch (action.type) {
+    ...
+    case 'DELETE_TODO': {
+      this.deleteTodo(action.id);
+      break;
+    }
+  }
+}
+```
+
+### 4) Dentro del To-Do Store, implementa la lógica para eliminar la tarea y emitir los cambios
+
+```javascript
+
+// En cualquier lugar de tu clase TodoStore, agrega un nuevo método que finalmente elimine la tarea del to-do list
+// En este caso estamos usando la función de filter porque devuelve el mismo array pero solo con
+// los elementos que coinciden con la pregunta lógica dentro del filtro (task.id != id) 
+
+class TodoStore extends EventEmitter {
+  ...
+  deleteTodo(id){
+    this.todos = this.todos.filter((task)=>{
+       // Filtra todas las tareas que tienen el id dado
+      return (task.id != id);
+    });
+    this.emit('change');
+  }
+  ...
+}
+```
+
+> ☝ Este es un componente de clase. Te recomendamos que uses componentes funcionales y hooks en su lugar, ya que los componentes de clase están considerados como legacy (deprecados).
+
+## El Resultado
+
+Finalmente, tenemos una nueva función implementada en nuestro proyecto. Para seguir agregando más funciones, solo tienes que iniciar de nuevo el flujo de trabajo de codificación de Flux desde el paso 1.
+
+<iframe src="https://codesandbox.io/embed/j1nvpono23" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
+<div align="right"><small><a href="https://codesandbox.io/embed/j1nvpono23">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
+
+
+
