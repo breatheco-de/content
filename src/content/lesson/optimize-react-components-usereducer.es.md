@@ -85,7 +85,7 @@ Una solución a este problema es `useReducer`, que como dice su nombre, su funci
 
 En este ejemplo tenemos un contador que no solamente suma de 1 en 1, sino también tiene otras opciones para modificar su valor.
 
-![react counter using state](https://breathecode.herokuapp.com/v1/media/file/state-counter-png?width=200)
+![react counter using state](https://storage.googleapis.com/media-breathecode/e8e051269b0d0aa93a4ec255742e1118060c6c096d70c0eba9b9f663148a4bff-200x155)
 
 Para realizar todas estas acciones se necesitan funciones para cada una de ellas, ademas del estado en si. Para eso usaremos el clasico hook `useState`, [aprende mas aquí](https://4geeks.com/es/lesson/react-hooks-explained-es).
 

@@ -10,7 +10,7 @@ canonical: ""
 ---
 
 
-**Python** is a highly versatile programming language used in a multitude of scenarios: web application development (both front and backend), mobile game development, simulations, networking, automation, among others. Moreover, it is the predominant language for working with data and developing algorithms in Artificial Intelligence, Data Science, and Machine Learning. Before delving further, let's distinguish among the three aforementioned terms:
+**Python** is a highly versatile programming language used in a multitude of scenarios: web application development (both front and backend), mobile game development, simulations, networking, and automation, among others. Moreover, it is the predominant language for working with data and developing algorithms in Artificial Intelligence, Data Science, and Machine Learning. Before delving further, let's distinguish among the three aforementioned terms:
 
 | Term | Definition | Scope | Objective |
 |:--------|:-----------|:---------|:---------|
@@ -210,6 +210,7 @@ if age >= 18:
 Extends the *if* to include and check other conditions.
 
 ```py runable=true
+age = 18
 if age < 18:
     print("You are a minor.")
 elif age >= 18:
@@ -221,6 +222,7 @@ elif age >= 18:
 It executes when none of the previous condition(s) are met:
 
 ```py runable=true
+age = 18
 if age < 18:
     print("You are a minor.")
 else:

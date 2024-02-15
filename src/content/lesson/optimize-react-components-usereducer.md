@@ -80,11 +80,11 @@ One solution for this issue is `useReducer`, which as its name suggests **reduce
 
 In this example, we have a counter that not only adds one by one but also has other options to modify its value. 
 
-![react counter using state](https://breathecode.herokuapp.com/v1/media/file/state-counter-png?width=200)
+![react counter using state](https://storage.googleapis.com/media-breathecode/e8e051269b0d0aa93a4ec255742e1118060c6c096d70c0eba9b9f663148a4bff-200x155)
 
 To perform all these actions it needs functions for every single one of them, besides the state itself. For that we'll use the classic `useState` hook, [learn more here](https://4geeks.com/lesson/react-hooks-explained#the-useeffect-hook).
 
-```react
+```jsx
 export default function CounterUsingState() {
   const [counter, setCounter] = useState(0);
   const increment = () => setCounter(counter + 1);
@@ -137,7 +137,7 @@ export default function counterReducer(state, action = {}) {
 
 Now from the component we can import and use the reducer:
 
-```react
+```jsx
 import React, { useReducer } from "react";
 import counterReducer, { intitialCounter } from "./counterReducer";
 

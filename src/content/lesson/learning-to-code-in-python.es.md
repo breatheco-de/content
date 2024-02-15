@@ -54,9 +54,15 @@ a = 80
 Los valores de las variables están sujetos a cambio a largo del tiempo. Para recuperar el valor de una variables puedes imprimir su valor en la pantalla en cualquier momento. Cada lenguaje tiene sus propios métodos para imprimir. En python usamos `print`.
 
 
-<iframe src="https://repl.it/F0R2/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```py runable=true
+edad = 24
+print(edad)
 
-<div align="right"><small><a href="https://repl.it/F0R2/1?lite=true" >Haz clic aquí para abrir la demo en una nueva ventana.</a></small></div>
+# podemos actualizar el valor de la variable "edad" en cualquier momento
+edad = 30
+print(edad)
+
+```
 
 ## Tipos de datos
 
@@ -72,9 +78,34 @@ Las variables pueden tener diferentes tipos de valores:
 |Objetos    |Cualquier objeto    |Puedes crear tus propios tipos de datos con operaciones más complejas. Hablaremos más sobre esto más adelante.  |
 |Nulo     |Sólo nulo    |Se utiliza para especificar cuándo la base de datos o cualquier otra función no devuelve nada.   |
 
-<iframe src="https://repl.it/F05K/3?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```py runable=true
+# Variables y sus tipos
+miPrimerBooleano = True  # Booleano
+miPrimerEntero = 35  # Entero
+miPrimerFlotante = 2323.4545  # Flotante (número con decimales)
 
-<div align="right"><small><a href="https://repl.it/F05K/3?lite=true">Click aquí para abrir el video en una nueva ventana</a></small></div>
+miPrimeraCadena = 'Hola Mundo'  # Cadena
+miPrimerObjeto = {'name': 'Ramon', 'Age': 32}  # Diccionario con 2 pares clave-valor
+miPrimerArreglo = [23, 'Hola', 8.54, None, 544]  # Lista de 5 elementos de diferentes tipos
+miPrimerNulo = None  # NoneType representa nulo en Python
+miPrimerIndefinido = None  # Python utiliza None para representar valores indefinidos o nulos
+
+# Imprimiendo las variables en la consola
+print(miPrimerBooleano)
+
+print(miPrimerEntero)
+print(miPrimerFlotante)
+print(miPrimerFlotante + miPrimerEntero)  # Operación aritmética
+
+print(miPrimerObjeto)
+print(miPrimeraCadena)
+print(f"{miPrimeraCadena}...{miPrimerObjeto['name']}")  # Formateo de cadena para concatenación
+
+print(miPrimerArreglo)
+print(miPrimerNulo)
+print(miPrimerIndefinido)
+
+```
 
 
 ## Operaciones
@@ -110,10 +141,6 @@ def multiply (param1, param2):
     return (param1 * param2)
 ```
 
-<iframe src="https://repl.it/F10t/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
-
-<div align="right"><small><a href="https://repl.it/F10t/0?lite=true">Haz clic aquí para abrir el video en una nueva ventana</a></small></div>
-
 ## Parámetros y alcance de la Función
 
 El alcance de una variable determina dónde está disponible esa variable para ser utilizada. Hay dos tipos principales de alcances:
@@ -126,9 +153,16 @@ Una variable local sólo está disponible dentro del alcance de las llaves más 
 
 Si declaras una variable al comienzo de tu código, estará disponible  lo largo de todo el código, incluso durante el contenido de cualquier función en particular.
 
-<iframe src="https://repl.it/F10t/2?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```py runable=true
+# Definir la variable global
+message = "Hello"
 
-<div align="right"><small><a href="https://repl.it/F10t/2?lite=true">Click aquí para abrir el video en una nueva ventana</a></small></div>
+def print_message():
+    # Esta funcion utiliz la variable global "message"
+    print(message)
+
+print_message()  # Salida: Hello
+```
 
 ## Operaciones lógicas
 
@@ -169,6 +203,7 @@ Bien, ahora es cuando todo empieza a ponerse divertido! Para controlar el flujo 
 La primera herramienta que tienes es el condicional `if ... else`. Es muy fácil. Puedes decirle a la computadora que omita cualquier parte de tu código dependiendo del valor actual de tus variables.
 
 La instrucción `if` te permite ejecutar un fragmento de código si se cumplen ciertas condiciones (o si son verdaderas). La declaración "else" ejecutará un fragmento de código alternativo en caso de que la condición sea falsa.
+
 ```python
 if number < 18:
      print("Hello");
@@ -189,7 +224,7 @@ Imagina que estás dentro de un ascensor: el ascensor debe girar en bucle por lo
 Un bucle `while` ejecutará un bloque de código siempre que una condición sea verdadera. Una vez que la condición sea falsa, el bucle dejará de ejecutar
 el bloque de código.
 
-```python
+```python runable=true
 sum = 0;
 number = 1;
 while number <= 50:
@@ -225,16 +260,17 @@ bloque de código a ejecutarse
 }
 ```
 
-```python
-dog = {
-  "species": "Great Dane",
-  "size": "Extra Large",
-  "age": 3 ,
-  "name": "Rocky"
+```python runable=true
+perro = {
+  "especie": "Gran Danés",
+  "tamaño": "Extra Grande",
+  "edad": 3,
+  "nombre": "Rocky"
 }
 
-for items in dog:
-  print(dog[items])
+for items in perro:
+  print(perro[items])
+
 
 ```
 

@@ -5,7 +5,7 @@ tags: ["debugging", "web development"]
 
 ---
 
-We all make a lot of mistakes when coding. This is a reality that every senior developer acknowledges; that's why "debugging code" has become one of the most essential skills for developers.
+We all make mistakes when coding. This is a reality that every senior developer acknowledges, which is why "debugging code" has become one of the most essential skills for developers.
 
 ## It's OK to make mistakes
 
@@ -43,7 +43,7 @@ It's a good idea to break down bugs into "types" so we can prepare strategies fo
 
 Debugging front-end code can be split into 4 main groups: 
 
-1. **HTML/CSS bugs**: Layout miss matches vs. original design, confusions created by the browser cache, a missing HTML `<tags>`, or some CSS rules not being applied correctly.
+1. **HTML/CSS bugs**: Layout mismatches vs. original design, confusions created by the browser cache, a missing HTML `<tags>`, or some CSS rules not being applied correctly.
 2. **JavaScript logic bugs**: Usually undefined or unexpected variable values, wrong logical conditions or flow, and syntax issues.
 3. **Rendering with Component frameworks bugs**: Dealing with the DOM, React Rendering, etc. Typical errors are not waiting for data to arrive from the back-end leading to undefined variables (too early), too many re-renders, wrong importing or exporting of variables, or not passing the data correctly between components.
 4. **Integration with the back-end bugs**: Fetch and HTTP requests with wrong payload, missing authentication credentials, not interpreting the back-end payload response correctly, or not handling promise exceptions, CORS errors.
@@ -65,19 +65,19 @@ Debugging back-end code can be split into 4 main groups:
 
 Debugging becomes more challenging as your application grows into more pieces that connect. This is why it's imperative to constantly run your code on almost every change (hot reload) instead of waiting until you have made many changes. Remembering the latest change you made to your code before the bug showed up gives you a lot of leverage.
 
-> 😎 Pro tip: Generally, what was the line of code that you last updated: Was it in the front-end? Or the back-end?
+> 😎 Pro tip: Generally, what was the line of code that you last updated: Was it in the front end? Or the back end?
 
 I'm going to assume the worst: You have no idea when the bug first appeared and have made many changes since the last time you ran your application. So these are the clues you have to watch to start debugging:
 
-**In the front-end:**
+**In the front end:**
 + Check for an error message in the developer console.
 + Check for a request error in the network tab.
 
-**In the back-end:**
+**In the back end:**
 + If you are building on a server: Check for the request log.
 + Check for exceptions in the terminal.
 
-There is a 99% probability your error will show up on any of these outputs, but that does not mean the error belongs to the front or back-end; you must read the error first.
+There is a 99% probability your error will show up on any of these outputs, but that does not mean the error belongs to the front or back end - you **must** read the error first.
 
 #### Reading errors from the developer console
 
@@ -96,7 +96,7 @@ Here is a more detailed list:
 
 | Code | Meaning |
 | ------ | -------------|
-| 400 | It's a front-end issue; the back-end is expecting a different format or values in your data. |
+| 400 | It's a front-end issue; the back end is expecting a different format or values in your data. |
 | 401 | It's a front-end issue because you are trying to request something you don't have permission to access. Did you forget to include credentials in the request? |
 | 403 | Probably front-end because the credentials are included, but they may be wrong. The back-end is not allowing you to access it. |
 
@@ -106,21 +106,23 @@ As a second source of information, and especially if the error is a `4xx`, you c
 
 If you have an error while running a script (not a server), it's a back-end error.
 
-If you are running a server, the error may be a poorly formatted request coming from the front-end; that's why it's a good idea to check for the request body and the status code on the developer tools network tag first.
+If you are running a server, the error may be a poorly formatted request coming from the front end; that's why it's a good idea to check for the request body and the status code on the developer tools network tag first.
 
 If the request payload, URL, and headers are OK, it's a back-end error.
 
 #### Reading the server request log
 
-Lastly, if you have an error on a web server (like Express, Flask, Django, etc.) it's a good idea to check the log of requests being asked to the server. In the request log, you can see every request that any front-end made to your API sorted by timestamp. Here is a short explanation of one request log example:
+Lastly, if you have an error on a web server (like Express, Flask, Django, etc.) it's a good idea to check the log of requests being asked to the server. In the request log, you can see every request that your front end made to your API, sorted by timestamp. Here is a short explanation of one request log example:
 
 ![request log example](https://storage.googleapis.com/media-breathecode/53b8907096b009687a251a9ce7f9270cab0ab57342f2372ccbabfce421f7afaa)
 
 ### Narrowing down the bug
 
-If you followed the previous steps correctly, you know to what part of your code is your bug related. So stay focused, and don't guess! You have handy information about your bug; use it and pull that thread. For example: 
+If you followed the previous steps correctly, you'd know what part of your code the bug is related to. So stay focused and don't guess! You have handy information about your bug - use it and pull that thread. 
 
-+ Stop thinking about the back-end if your bug is in the front-end or vice versa.  
+For example: 
+
++ Stop thinking about the back end if your bug is in the front end, and vice versa.  
 + Wrong Syntax or TypeError? Syntax errors usually tell you which line has the issue. So look for that info and read the surrounding lines of code.  
 + The Network tag has request status code 4xx? Go and fix the code crafting the request.  
 + The Network tag has request status code 5xx? Go and read the back-end terminal for Syntax or Database errors.  

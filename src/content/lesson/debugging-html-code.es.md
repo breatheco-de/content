@@ -97,7 +97,7 @@ Para encontrar esos errores: la mejor herramienta es el resaltador de sintaxis. 
 
 Esto es divertido porque todos cometemos este error, yo lo hice, tú lo hiciste o lo harás, todos los demás lo hicieron o lo harán.
 
-Cuando vinculas tu HTML a una hoja de estilos CSS o un archivo JavaScript separado, puedes escribir la URL incorrecta, y tu hoja de estilos no se cargará.
+Cuando vinculas tu HTML a una hoja de estilos CSS o un archivo JavaScript separado, puedes escribir la URL incorrecta y tu hoja de estilos no se cargará.
 
 ¿Cómo sabes que enlazaste mal la URL? La consola del inspector de herramientas de desarrollo mostrará un error 404 como este (mira la imagen a continuación):
 
