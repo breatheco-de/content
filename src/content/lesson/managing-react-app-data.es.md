@@ -203,5 +203,3 @@ export default function ListItem({ task, index }) {
 Ya hemos implementado la lógica de nuestra aplicación en un contexto aplicando el patrón flux, permitiendo su uso en distintos componentes. A continuación podemos ver el resultado final.
 
 <iframe src="<iframe src="https://playcode.io/1764043"></iframe>
-
-Puedes ver mas tutoriales relacionados con react en [ésta categoría.](https://4geeks.com/interactive-exercise/react-js-tutorial-exercises)
