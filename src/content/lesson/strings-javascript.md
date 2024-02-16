@@ -7,7 +7,9 @@ Here's an example of what a string looks like in JavaScript:
 let myString = "This is a string";
 ```
 
-If you still don't have full mastery over [how to program in JavaScript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) or [what Javascript is used for](https://4geeks.com/es/lesson/para-que-sirve-javascript), we recommend reading about it on the [4Geeks Blog](https://4geeks.com/).
+<onlyfor exclude="get_my_profile">
+If you still don't have full mastery over [how to program in JavaScript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript) or [what Javascript is used for](https://4geeks.com/es/lesson/para-que-sirve-javascript), we recommend reading about it on the [4Geeks Blog](https://4geeks.com/).
+</onlyfor>
 
 ## What is a String in JavaScript?
 
