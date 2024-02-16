@@ -1,69 +1,27 @@
 ---
-title: "Qué es React Flux"
+title: "¿Cómo manejar los datos de tu aplicación react?"
 subtitle: "Sin Flux, React es solo una linda librería de front-end. React Flux lo convertirá en un marco de trabajo, que le dará a tu aplicación una estructura definida, ocupándose de la capa de procesamiento de datos y más cosas de flux."
 cover_local: "../../assets/images/b84e07e5-5761-469b-85bb-f7afc87d4dc9.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["reactjs","flux"]
+tags: ["reactjs","javascript"]
 status: "published"
 
 ---
 
-> ### ⚠️Advertencia⚠️
-> El siguiente artículo tiene información que actualmente está desaprobada por la comunidad de React. En su lugar se recomienda utilizar los hooks `useContext` y `useReducer` en conjunto para manejar la información de una aplicación de forma nativa, aprende a hacerlo en [este artículo](https://4geeks.com/es/lesson/managing-react-app-data-es). La información presentada en este artículo aún puede ser útil para sistemas legados que estén en funcionamiento con esta librería, aunque no se recomiendo su uso para nuevos desarrollos.
+En el eterno de debate de como manejar un estado centralizado han habido muchos planteamientos y en la misma medida que las necesidades de las aplicaciones evolucionan, también lo hacen las estrategias para resolver este problema.
 
-¿Recuerdas que siempre decimos que la programación es como Taco Bell? ¡Siempre son los mismos ingredientes utilizados de una manera diferente! En este caso particular, vamos a confiar mucho en los Eventos para crear toda la arquitectura de la aplicación.
+Una solución recomendada y que escala muy bien es el uso combinado de los hooks `useContext` y `useReducer`. Con el contexto puedes exponer un estado y funciones para todos los componentes que se encuentren dentro, esto va a prevenir que caigas en el abismo del 'prop drilling' y solo hacer llamado al contexto desde el componente que lo necesita. [Aquí puedes ver](https://4geeks.com/es/lesson/context-api-es) mas en detalle como funciona este hook.
 
-## ¿Por qué necesitamos Flux?
-
-Sabemos que todavía estás aprendiendo React. Los states (estados) y las props (propiedades) pueden ser confusos, y ahora, con Flux, las cosas se van a poner un poco más difíciles ¡Pero es por una buena causa!
-
-Sin Flux, no puedes crear aplicaciones React medianas o grandes porque todo se desorganizará bastante rápido.
-
-Además, dos vistas diferentes no pueden enviar datos entre sí como lo hacen los componentes (utilizando props) porque todas las vistas son hermanas y React Router las está instanciando. Necesitamos tener un store común compartido entre todas las vistas que vamos a llamar "The Store."
-
-Aquí hay una lista de todas las ventajas de usarlo:
-
-+ Centraliza y **separa los datos de la aplicación de los componentes:** la comunicación de la base de datos y el procesamiento de los datos ya no dependerán de cómo se vea la aplicación.
-+ **Controla la forma en que fluirán los datos de tu aplicación:** no importa si los datos fueron ingresados por el usuario o provienen de una base de datos; todo estará disponible de forma clara y accesible.
-+ Diferencia sus componentes en **vistas vs componentes reutilizables:** sus componentes seguirán siendo abstraídos desde la lógica de tu aplicación, haciéndolos 100% reutilizables para futuras aplicaciones.
-
-![React Flux](https://github.com/breatheco-de/content/blob/master/src/assets/images/aa1a5994-8de9-4d24-99ce-3a0d686c30bd.png?raw=true)
-
-### Flux divide la aplicación en 3 capas
-
-|&nbsp;     |&nbsp;       |
-|:-----------|:----------------|
-Vistas/Views (Components)     |Cada componente React que llama a cualquier acción Flux es llamada una vista. La razón para llamar a esos componentes de una manera diferente es porque se supone que los componentes de React se comunican entre sí a través de sus props (sin Flux).<br> <br>Una vez que un componente React esté *hard coded* a Flux, no podrás reutilizar ese componente en el futuro (en este o en cualquier otro desarrollo).       |
-|Acciones (Actions)       |Las acciones pueden ser activadas por componentes (cuando el usuario hace clic o interactúa con la aplicación) o por el sistema (por ejemplo, la funcionalidad de guardado automático).  Las acciones son el primer paso de cualquier flujo de trabajo de Flux y siempre deben enviarse al Store.      |
-| Store     |El store contiene todos los datos de la aplicación. Maneja todo lo que recibe el despachador y determina la forma en que se deben almacenar y recuperar los datos.            |
-
-## Construyendo nuestra primera historia de usuario con Flux
-
-El siguiente proyecto es una aplicación de To-Do List (lista de tareas) con 3 historias de usuario principales:
-
-+ Crear tarea.
-+ Mostrar la lista de tareas
-+ Eliminar tarea.
-
-Para codificar esta lista de tareas tenemos que crear 4 archivos:
-
-1. Un componente para agregar tarea.
-3. Un componente para los items de la lista.
-2. Un archivo para las actions y el estado(store).
-4. El archivo principal donde integraremos todo.
-
-> *Al final, trabajar con Flux tiene que convertirse en algo tan automático como andar en bicicleta.*
-
-![react flux](https://github.com/breatheco-de/content/blob/master/src/assets/images/77c93bfa-92cb-44e3-a7c5-c959e27c5ccc.jpeg?raw=true)
+La otra pieza del rompecabezas es el reducer, este permite encapsular lógica y estado, de manera que se puede reutilizar y compartir entre varios componentes. El reducer permite administrar estados mas complejos y también hace posible escribir pruebas unitarias para las acciones.
 
 ## Vamos a implementar una lista de tareas
 
-### 1) Crearemos un reducer para implementar el patrón flux
+### 1) Crearemos un reducer para manejar el estado y las acciones
 
 Para poder tomar el control del flujo de los datos en nuestra aplicación utilizaremos un `reducer` para agrupar las funciones y la lógica de la aplicación (actions) junto con los datos que manejan y que tienen que estar disponible para los componentes (state).
 
-Por ahora solo diremos que el reducer es una función que genera un estado nuevo cada vez que se ejecuta y lo que haga dependerá de la información que reciba en la función `action`. Esto nos permitirá llamar a las `actions` para actualizar el estado como lo indica el patrón flux. Para entender en detalle como funciona un reducer, puedes [leer esté artículo]() donde lo explicamos a profundidad. 
+Por ahora solo diremos que el reducer es una función que genera un estado nuevo cada vez que se ejecuta y lo que haga dependerá de la información que reciba en la función `action`. Esto nos permitirá llamar a las `actions` para actualizar el estado como lo indica el patrón flux. Para entender en detalle como funciona un reducer, puedes [leer esté artículo](https://4geeks.com/es/lesson/que-es-usereducer-react) donde lo explicamos a profundidad. 
 
 ```javascript
 // Esta es la función reducer
@@ -84,7 +42,7 @@ const TaskReducer = (state, action) => {
 
 El siguiente paso es hacer que esta función esté disponible para todos los componentes de mi aplicación, para eso utilizaremos un contexto con el hook `useReducer`, el cual nos va a permitir crear el estado y la función `actions` para ponerla a disposición del resto de la aplicación.
 
-```react
+```jsx
 //TaskContext.jsx
 import { useReducer, createContext } from "react";
 
@@ -112,7 +70,7 @@ export default TaskContext;
 
 Ya con esto tenemos listo nuestro contexto con las tasks, ahora solo falta envolver nuestra aplicación en este componente para empezar a utilizarlo.
 
-```react
+```jsx
 //index.jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -136,7 +94,7 @@ Para ello usaremos un componente que muestre una caja de texto y un botón que r
 
 Todo esto es básico de un formulario en react, pero como queremos utilizar las `actions` del contexto, necesitamos llamarlo en el componente.
 
-```react
+```jsx
 import { tasks, useContext } from "react";
 import TaskContext from "./TaskContext.jsx";
 
@@ -149,7 +107,7 @@ export default function AddItem() {
 
 Para hacer uso de estas `actions` se llama a la función y se le pasa como parámetro un objeto con la propiedades de la acción que queremos realizar, siendo la mas importante `type` que indica la acción especifica a ejecutar. El resto de las propiedades son datos opcionales que pueden ser requeridos por la acción.
 
-```react
+```jsx
 // AddItem.jsx
 import { useContext } from "react";
 import TaskContext from "./TaskContext.jsx";
@@ -180,7 +138,7 @@ export default function AddItem() {
 
 De la misma forma como accedemos a `taskActions`, también podemos acceder al objeto `tasks` que contiene el estado con la lista. Igual que antes, debemos hacer uso de `useContext` en nuestro componente.
 
-```react
+```jsx
 import { useContext } from "react";
 import "./App.css";
 import TaskContext from "./TaskContext.jsx";
@@ -213,13 +171,13 @@ Si bien el renderizado es básico (un elemento `li` con el texto y un botón), l
 
 ***Todo comienza cuando el usuario haga clic en el icono de la papelera. Es por eso que necesitamos iniciar nuestra aplicación escuchando el típico evento onClick en el botón de eliminar.***
 
-```react
+```jsx
   onClick={() => taskActions({ type: "remove", index })}
 ```
 
 Notamos que el llamado al action es parecido al que usamos para agregar items, pero se le esta pasando un parámetro distinto llamado `index`, que le indica al dispatcher que elemento va a eliminar. Asi como vimos en ambos ejemplos, podemos pasar la data que necesite nuestra action al momento de llamarla como parámetros adicionales.
 
-```react
+```jsx
 import { useContext } from "react";
 import TaskContext from "./TaskContext.jsx";
 
@@ -244,4 +202,6 @@ export default function ListItem({ task, index }) {
 
 Ya hemos implementado la lógica de nuestra aplicación en un contexto aplicando el patrón flux, permitiendo su uso en distintos componentes. A continuación podemos ver el resultado final.
 
-<iframe src="https://replit.com/@4GeeksAcademy/flux-sample?lite=1&embed=true#src/App.jsx"></iframe>
+<iframe src="<iframe src="https://playcode.io/1764043"></iframe>
+
+Puedes ver mas tutoriales relacionados con react en [ésta categoría.](https://4geeks.com/interactive-exercise/react-js-tutorial-exercises)
