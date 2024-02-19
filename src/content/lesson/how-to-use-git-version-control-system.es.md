@@ -196,7 +196,7 @@ git merge [head]
 git pull . [head]
 ```
 
-Estos comandos realizan las siguientes operaciones. Deja que el head actual se llame *current* y que el head que se va a fusionar se llame *merge*
+Estos comandos realizan las siguientes operaciones. Deja que el head actual se llame *current* y que el head que se va a fusionar se llame *merge*:
 
 + Identifica el ancestro común de *current* y *merge*. Llámalo *ancestor-commit*.
 + Tratar con los casos fáciles. Si el *ancestor-commit* es igual a merge, entonces no hagas nada. Si el *ancestor-commit* es igual al actual, entonces haz un **adelanto del merge.**
