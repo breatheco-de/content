@@ -1,5 +1,5 @@
 ---
-title: "¿Què es HTTP?"
+title: "¿Qué es HTTP?"
 subtitle: "HTTP quiere decir Hypertext Transfer Protocol, o en español, Protocolo de Transferencia de Hipertexto. Se trata de un conjunto de reglas de comunicación que posibilita la circulación de información a través de la World Wide Web (WWW)."
 cover_local: "../../assets/images/http-0.png"
 textColor: "white"
@@ -23,13 +23,13 @@ Esta comunicación, como se muestra en el siguiente gif, se lleva a cabo mediant
 
 ![HTTP](https://github.com/breatheco-de/content/blob/master/src/assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif?raw=true)
   
-<small style="color:grey">Imagen 1: Los 4 pasos necesarios para enviar imágenes a través de Internet: decodificación de la imagen, transmisión, recepción y decodificación... Finalmente, la abuela feliz tras ver la fotografía de su nieta!</small>
+<small style="color:grey">Imagen 1: Los 4 pasos necesarios para enviar imágenes a través de Internet: codificación de la imagen, transmisión, recepción y decodificación... Finalmente, la abuela feliz tras ver la fotografía de su nieta!</small>
 
 ### ¿Cómo funciona HTTP?
 
 ![HTTP](https://github.com/breatheco-de/content/blob/master/src/assets/images/http-3.png?raw=true)
 
-El protocolo HTTP funciona a través de solicitudes y respuestas el cliente (por ejemplo, un navegador de internet) y un servidor (por ejemplo, las computadoras que alojan y despliegan los sitios web). 
+El protocolo HTTP funciona a través de solicitudes y respuestas el cliente (por ejemplo, un navegador de Internet) y un servidor (por ejemplo, las computadoras que alojan y despliegan los sitios web). 
 
 El servidor, tras recibir una solicitud, responde con un mensaje estructurado y con una serie de metadatos que establecen pautas para el inicio, desarrollo y cierre de la comunicación. Estas pautas son los llamados `métodos de petición`.
 
