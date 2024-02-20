@@ -1,16 +1,13 @@
 ---
-title: "RegEx Examples: Mastering Regular Expressions with Practical Cases"
-subtitle: "Explore RegEx examples for a comprehensive understanding. Learn to wield the power of regular expressions in various scenarios. Boost your coding skills now!"
-tags: ["Python", "JavaScript", "RegEx"]
+title: "Regular Expression Examples"
+subtitle: "Explore Regular Expression examples about practical case scenarios. Learn to wield the power of regular expressions whenever you need them and boost your coding skills now!"
+tags: ["Python", "JavaScript", "regular-expression"]
 authors: [DF27ARTS]
 
 ---
 
-## Regular Expression Examples
+[Regular expressions](https://4geeks.com/lesson/regex-tutorial-regular-expression-examples) (regex) are a very useful and powerful tool for any developer, they allow you to describe, match, and search for text patterns. In the following example, we will see how to use a regular expression to check if a sentence contains a specific word in both [Python](https://4geeks.com/lesson/how-to-code-in-python) and [JavaScript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript).
 
-Regular expressions (regex) are a very useful and powerful tool for any developer, they allow you to describe, match, and search for text patterns. In the following example, we will see how to use a regular expression to check if a sentence contains a specific word in both **Python** and **JavaScript**.
-
-#### Python Code
 ```py runable=true
 import re
 
@@ -22,8 +19,6 @@ if re.search(pattern, sentence):
 else:
     print("The word 4Geeks was not found in the sentence.")
 ```
-
-#### JavaScript Code
 ```js runable=true
 const sentence = "This is an example sentence with the word 4Geeks.";
 const pattern = /\b4Geeks\b/;
@@ -34,22 +29,17 @@ if (sentence.match(pattern)) {
     console.log("The word 4Geeks was not found in the sentence.");
 }
 ```
-> Code output:
-```bash
-The word 4Geeks was found in the sentence.
-```
 
-In this example, we use the regular expression `\b4Geeks\b` to search for the word (4Geeks) within a sentence. To use a regular expression in Python we need to import the module (**re**) and on this module call the `search()` method, this method receives two parameters, the first one is the string on which we want to search the text pattern and the second one is the regular expression with the pattern to search. In JavaScript you can use the string method `match()` to check if a phrase contains a certain pattern, this method receives the regular expression as a parameter.
+In this example, we use the [regular expression](https://4geeks.com/technology/regular-expression) `\b4Geeks\b` to search for the word (4Geeks) within a sentence. To use a regular expression in Python we need to import the module (**re**) and on this module call the `search()` method, this method receives two parameters, the first one is the string on which we want to search the text pattern and the second one is the regular expression with the pattern to search. In JavaScript you can use the string method `match()` to check if a phrase contains a certain pattern, this method receives the regular expression as a parameter.
 
-## Examples
+## Regular Expression Examples
 
-As mentioned before, regular expressions can be very useful in many different situations. The following are some examples of the most common scenarios where you may need to use a regular expression to search or validate a text pattern.
+As mentioned before, regular expressions can be very useful in many different situations. The following are some [RegEx examples](https://4geeks.com/how-to/regex-examples) of the most common scenarios where you may need to use a regular expression to search or validate a text pattern.
 
 ### 1. Validate Phone Numbers
 
 Suppose you are working on an application and you want to verify that the phone number entered by the user has a valid format, for this, you can use the following regular expression.
 
-#### Python Code
 ```py runable=true
 import re
 
@@ -64,8 +54,6 @@ def check_phone_number(phone_number):
 print(check_phone_number("123-456-7890")) # output: The phone number (123-456-7890) has a valid format.
 print(check_phone_number("1234567890"))   # output: The phone number (1234567890) does not have a valid format.
 ```
-
-#### JavaScript Code
 ```js runable=true
 const checkPhoneNumber = (phoneNumber) => {
     const pattern = /^\d{3}-\d{3}-\d{4}$/;
@@ -81,13 +69,12 @@ console.log(checkPhoneNumber("123-456-7890")); // output: The phone number (123-
 console.log(checkPhoneNumber("1234567890"));   // output: The phone number (1234567890) does not have a valid format.
 ```
 
-In this example, we use the regular expression `\d{3}-\d{3}-\d{4}$` to check if a phone number follows the pattern (000-000-0000), this pattern ensures that the number entered by the user has a valid format. The `^` symbol in the regular expression indicates that the match must be at the beginning of the string, the `\d` pattern represents any number, the `{3}` pattern represents how many times the digit must be repeated, and the `$` symbol indicates that the match must also be at the end of the string.
+In this example, we used the regular expression to check if a phone number follows the pattern (000-000-0000), this pattern ensures that the number entered by the user has a valid format. The `^` symbol in the regular expression indicates that the match must be at the beginning of the string, the `\d` pattern represents any number, the `{3}` pattern represents how many times the digit must be repeated, and the `$` symbol indicates that the match must also be at the end of the string.
 
 ### 2. Validate Emails
 
 Another way in which regular expressions can be handy to validate an email, validating an email is necessary in almost all applications that require login and registration and it is a very simple process to do with a regular expression.
 
-#### Python Code
 ```py runable=true
 import re
 
@@ -102,8 +89,6 @@ def check_email(email):
 print(check_email("thomas@email.com")) # output: The email (thomas@email.com) has a valid format.
 print(check_email("tom123email"))      # output: The email (tom123email) does not have a valid format.
 ```
-
-#### JavaScript Code
 ```js runable=true
 function checkEmail(email) {
     let pattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -119,7 +104,7 @@ console.log(checkEmail("thomas@email.com")); // output: The email (thomas@email.
 console.log(checkEmail("tom123email"));      // output: The email (tom123email) does not have a valid format.
 ```
 
-In this example, we use a regular expression to validate if an email has a valid format, this is necessary for almost all the applications that require authentication, and as you can see it is a quite simple process to achieve with a regular expression. Next, we will see what each part of the regular expression is used for.
+In this example, we use a regular expression to validate if an email has a valid format, this is necessary for almost all the applications that require authentication, and as you can see it is a quite simple process to achieve with a regular expression. Next, we will see what each part of the JavaScript regular expression is used for.
 
 - `[a-zA-Z0-9._%+-]+`: This is a character set that matches any uppercase or lowercase letter, digit, period, underscore, percent, plus, or minus. The `+` at the end means this character set must appear at least once.
 
@@ -133,9 +118,8 @@ In this example, we use a regular expression to validate if an email has a valid
  
 ### 3. Validate URLs
 
-In some applications, you may need to validate whether a given URL is formatted correctly. This means that the URL has a valid domain and a valid structure. For this, the best option is to use a regular expression.
+In some applications, you may need to validate whether a given URL is formatted correctly. This means that the URL has a valid domain and a valid structure. For this purpose, the best option is to use a regular expression.
 
-#### Python Code
 ```py runable=true
 import re
 
@@ -154,8 +138,6 @@ for url in urls:
     else:
         print(f'The URL ({url}) does not have a valid format.')
 ```
-
-#### JavaScript Code
 ```js runable=true
 const regexPattern = /^(https:\/\/)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\/?/;
 
@@ -175,14 +157,6 @@ urls.forEach(url => {
     }
 });
 ```
-> code output:
-```bash
-The URL (www.google.com) has a valid format.
-The URL (https://www.facebook.com) has a valid format.
-The URL (https://www.twitter.com) has a valid format.
-The URL (http://www.whatsapp.com) does not have a valid format.
-The URL (https:/instagram) does not have a valid format.
-```
 
 Here, we are using the regular expression stored in the `regexPattern` variable to check if the URLs within the list (**urls**) have a valid format. This regular expression checks if a URL starts with `(https)` or `(www)`, and it also checks that at the end has a valid domain after a period.
 
@@ -192,7 +166,6 @@ Here, we are using the regular expression stored in the `regexPattern` variable 
 
 Validate a date format is another example where regular expressions can be very useful, for example, imagine that you need the date of birth of a user for an application and you need to verify that the date entered by the user follows a valid format, for this the best option is to use a regular expression.
 
-#### Python Code
 ```py runable=true
 import re
 regex_pattern = r'^(0[1-9]|[12]\d|3[01])\/(0[1-9]|1[0-2])\/(19\d{2}|200\d|202[0-4])$'
@@ -211,8 +184,6 @@ for user_birthdate in users_birthdates:
     else:
         print(f'The date ({user_birthdate}) does not have a valid format.')
 ```
-
-#### JavaScript Code
 ```js runable=true
 const regexPattern = /^(0[1-9]|[12]\d|3[01])\/(0[1-9]|1[0-2])\/(19\d{2}|200\d|202[0-4])$/;
 
@@ -232,22 +203,13 @@ usersBirthdates.forEach(userBirthdate => {
     }
 });
 ```
-> code output
-```bash
-The date (01/01/2000) has a valid format.
-The date (31-12-1999) does not have a valid format.
-The date (29/02/2000) has a valid format.
-The date (28/02/1900) has a valid format.
-The date (01/17/2000) does not have a valid format.
-```
 
-In this example, we use a regular expression to validate if the dates in the `usersBirthdates` list have a valid format. This regular expression matches the format (DD/MM/YYYYYY) and validates if the day of the date is between 1 and 31, if the month is between 1 and 12, and also if the year is between 1900 and 2024 to make sure that the birth date is realistic and appropriate.
+In this example, we used a regular expression to validate if the dates in the `usersBirthdates` list have a valid format. This regular expression matches the format (DD/MM/YYYYYY) and validates if the day of the date is between 1 and 31, if the month is between 1 and 12, and also if the year is between 1900 and 2024 to make sure that the birth date is realistic and appropriate.
 
 ### 5. Extract HTML Tags
 
 We can even use regular expressions to extract patterns from a string, in this case, we are using it to extract HTML tags.
 
-#### Python Code
 ```py runable=true
 import re
 
@@ -257,8 +219,6 @@ regex_pattern = r'<[^>]*>'
 html_tags = re.findall(regex_pattern, text)
 print(html_tags)
 ```
-
-#### JavaScript Code
 ```js runable=true
 const text= "<section> <strong>Hello</strong> <span>World</span> </section>";
 const regexPattern = /<[^>]*>/g;
@@ -266,21 +226,11 @@ const regexPattern = /<[^>]*>/g;
 const htmlTags = text.match(regexPattern);
 console.log(htmlTags);
 ```
-> code output:
-```bash
-[
-  '<section>',
-  '<strong>',
-  '</strong>',
-  '<span>',
-  '</span>',
-  '</section>'
-]
-```
+
 
 Here, we are using the regular expression `<[^>]*>` to extract the HTML tags from the string stored in the `text` variable and store the results in the `htmlTags` variable. This can be very useful if you need to convert a string into HTML for a web page.
 
 ## Conclusion
 
-In this article we talked about regular expressions and how they can be used to perform different tasks, we also saw some examples of the most common cases where developers may need to use regular expressions. We hope this article has been helpful to you and that you have found the examples and tips on regular expressions particularly valuable for your Python and JavaScript development. We invite you to continue exploring other resources on our blog to further enhance your knowledge and technical skills. Ready to take your regular expression mastery to the next level? [sign up now for free](https://4geeks.com/es/pricing) at 4Geeks.com and gain access to a wide range of learning and development opportunities!
+In this article we talked about regular expressions and how they can be used to perform different tasks, we also saw some examples of the most common cases where developers may need to use regular expressions. We hope this article has been helpful to you and that you have found the examples and tips on regular expressions particularly valuable for your Python and JavaScript development. We invite you to continue exploring other resources on our [blog](https://4geeks.com/how-to) to further enhance your knowledge and technical skills. Ready to take your regular expression mastery to the next level? [Sign up now for FREE](https://4geeks.com/pricing) at 4Geeks.com and gain access to a wide range of learning and development opportunities!
 
