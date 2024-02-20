@@ -143,7 +143,7 @@ Para crear una rama, digamos que tu repositorio se ve así:
 
 ![cómo usar git](https://github.com/breatheco-de/content/blob/master/src/assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png?raw=true)
 
-Vamos a saltar al commit (2) e iniciar un nuevo trabajo desde allí. Primero deberás saber cómo hacer referencia al commit. Puedes usar `git log` para obtener el nombre SHA1 de (2)
+Vamos a saltar al commit (2) e iniciar un nuevo trabajo desde allí. Primero deberás saber cómo hacer referencia al commit. Puedes usar `git log` para obtener el nombre SHA1 de (2):
 
 ```bash
 $ git log
