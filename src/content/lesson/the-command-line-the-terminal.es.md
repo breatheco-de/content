@@ -88,7 +88,7 @@ cd /path/to/directory
 Mueve un archivo a otra carpeta o directorio, como por ejemplo arrastrar un archivo ubicado en el escritorio de una PC a una carpeta almacenada dentro de la carpeta "Documentos".
 
 ```bash
-mv /path/to/file.txt /math/to/destination/file.txt
+mv /path/to/file.txt /path/to/destination/file.txt
 ```
 
 ### El comando rm
