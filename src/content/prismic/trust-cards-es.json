@@ -1,34 +1,41 @@
 [{
   "images": [
-    "https://c0.klipartz.com/pngpicture/288/367/gratis-png-logotipo-de-forbes.png",
-    "https://1000logos.net/wp-content/uploads/2017/04/Symbol-New-York-Times.png",
-    "https://nypost.com/wp-content/themes/nypost-2016/static/images/default/nypost.png"
+    "https://github.com/breatheco-de/content/blob/9af6423ce8641c9e02ae255c71b111be65a3106a/src/assets/images/logo-Forbes.png?raw=true",
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/press/cnn-logo.png?raw=true",
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/news/nbc.png?raw=true",
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/news/the-miami-herald.png?raw=true"
   ],
   "title": "Todo el mundo está hablando de nosotros",
-  "description": "Especially NY Times, Forbes, Daily mail and Daily bugle",
-  "aricle_url": "https://www.google.com"
+  "description": "Especialmente Forbes, NBC, CNN...",
+  "aricle_url": "https://4geeksacademy.com/es/prensa",
+  "article_label": "Leer artículos"
 }, {
   "images": [
-    "https://www.vhv.rs/dpng/d/227-2276289_best-bootcamp-badge-course-report-green-hd-png.png",
-    "https://professional.du.edu/sites/default/files/Full_Stack_Badge_noLevel_lightgoldring.png"
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/badges/Course-Report-Badge-2024.png?raw=true",
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/badges/exelencia-educativa.png?raw=true",
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/badges/switchup-badge-2023.png?raw=true",
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/badges/newsweek.png?raw=true"
   ],
-  "title": "Tenemos muchas medallas",
-  "description": "Especially NY Times, Forbes, Daily mail and Daily bugle",
-  "aricle_url": "https://www.google.com"
+  "title": "Tenemos muchos premios",
+  "description": "Mejor Bootcamp, Mejor programa orientado a carrera...",
+  "aricle_url": "https://4geeksacademy.com/es/premios",
+  "article_label": "Ver premios"
 }, {
   "images": [
-    "https://upload.wikimedia.org/wikipedia/commons/3/3c/Clark_University_logo.png",
-    "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/University_of_Texas_at_Austin_seal.svg/1200px-University_of_Texas_at_Austin_seal.svg.png"
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/education/MDC_Blue.png?raw=true",
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/education/UTEC.png?raw=true",
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/education/IESA.png?raw=true"
   ],
-  "title": "Estas universidades nos certifican",
-  "description": "Especially NY Times, Forbes, Daily mail and Daily bugle",
-  "aricle_url": "https://www.google.com"
+  "title": "Estamos aliados con estas universidades",
+  "description": "Clark University, Miami Dade College, UTEC...",
+  "aricle_url": "https://4geeksacademy.com/es/alianzas",
+  "article_label": "Ver todas las universidades"
 }, {
   "images": [
-    "https://media.istockphoto.com/id/1334437504/vector/group-of-people-students-with-bags-in-school-back-view-meeting-of-young-men-and-women-before.jpg?s=612x612&w=0&k=20&c=-fZCUJrwsmFIdyVMbN8I0uJVS4zlaiwJn43JEjcgnmI=",
-    "https://upload.wikimedia.org/wikipedia/commons/3/3c/Clark_University_logo.png"
+    "https://media.istockphoto.com/id/1334437504/vector/group-of-people-students-with-bags-in-school-back-view-meeting-of-young-men-and-women-before.jpg?s=612x612&w=0&k=20&c=-fZCUJrwsmFIdyVMbN8I0uJVS4zlaiwJn43JEjcgnmI="
   ],
   "title": "La opinión importa...",
-  "description": "Especially NY Times, Forbes, Daily mail and Daily bugle",
-  "aricle_url": "https://www.google.com"
+  "description": "Mira lo que los estudiantes dicen de nosotros...",
+  "aricle_url": "https://4geeksacademy.com/us/testimonials",
+  "article_label": "Ver testimoniales"
 }]
