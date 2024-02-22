@@ -1,6 +1,6 @@
 [{
   "images": [
-    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/news/forbes-2.png?raw=true",
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/news/forbes.png?raw=true",
     "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/press/cnn-logo.png?raw=true",
     "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/news/nbc.png?raw=true",
     "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/news/the-miami-herald.png?raw=true"
@@ -17,7 +17,7 @@
     "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/badges/newsweek.png?raw=true"
   ],
   "title": "We have a lot of badges",
-  "description": "Best bootcamp, best career oriented program...",
+  "description": "Best Bootcamp, best career-oriented program...",
   "aricle_url": "https://4geeksacademy.com/us/awards",
   "article_label": "See awards"
 }, {
@@ -32,8 +32,7 @@
   "article_label": "See all universities"
 }, {
   "images": [
-    "https://media.istockphoto.com/id/1334437504/vector/group-of-people-students-with-bags-in-school-back-view-meeting-of-young-men-and-women-before.jpg?s=612x612&w=0&k=20&c=-fZCUJrwsmFIdyVMbN8I0uJVS4zlaiwJn43JEjcgnmI=",
-    "https://upload.wikimedia.org/wikipedia/commons/3/3c/Clark_University_logo.png"
+    "https://media.istockphoto.com/id/1334437504/vector/group-of-people-students-with-bags-in-school-back-view-meeting-of-young-men-and-women-before.jpg?s=612x612&w=0&k=20&c=-fZCUJrwsmFIdyVMbN8I0uJVS4zlaiwJn43JEjcgnmI="
   ],
   "title": "Opinion does matter...",
   "description": "See what our students and mentors say about us...",
