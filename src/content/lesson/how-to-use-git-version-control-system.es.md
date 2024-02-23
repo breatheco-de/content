@@ -210,7 +210,7 @@ Estos comandos realizan las siguientes operaciones. Deja que el head actual se l
 
 ## Resolviendo conflictos
 
-Surge un conflicto si el commit a fusionar tiene un cambio en un lugar específico, y el commit actual tiene un cambio en el mismo lugar específico. GIT no tiene manera de decir qué cambio debe tener prioridad.
+Surge un conflicto si el commit a fusionar tiene un cambio en un lugar específico, y el commit actual tiene un cambio en el mismo lugar específico. GIT no tiene manera de decir qué cambio debe tener prioridad. 
 
 Para resolver el commit, edita los archivos para corregir los cambios en conflicto. Luego ejecuta `git add` para agregar los archivos resueltos. A continuación, ejecuta `git commit` para confirmar la fusión reparada. GIT recuerda que estabas en medio de una fusión, por lo que establece correctamente los padres del commit.
 
