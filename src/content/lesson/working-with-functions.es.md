@@ -117,13 +117,37 @@ multiply(3,9);
 
 Recuerda asignarle a la función los parámetros que debe recibir. En nuestro ejemplo, la función de multiplicación fue declarada pidiendo que se multipliquen dos números. Juega con el siguiente ejemplo como quieras:
 
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Calling-Functions-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+```js runable=true
+// aquí declaramos la función multiplicar
+function multiplicar(a, b) {
+	return a * b;
+}
+
+// luego podemos llamarla para multiplicar 3 por 4
+console.log(multiplicar(3, 4));
+
+// también podríamos declarar la función de forma anónima
+let cualquierNombreDeVariable = function(a, b) {
+	return a * b;
+}
+
+// y llamarla usando la función que la almacena
+console.log(cualquierNombreDeVariable(3, 5));
+
+// o podríamos no almacenar la función en una variable,
+// y envolverla en paréntesis para usarla de inmediato
+// (no recomendado, es raro y difícil de leer)
+console.log((function(a, b) {
+	return a * b;
+})(2, 3));
+
+```
 
 ## Llamada Anidada
 
 Puedes combinar funciones como quieras y tener llamadas encadenadas como esta:
 
-```javascript 
+```javascript runable=true
 function sum(a,b){
    return a+b;
 }
@@ -141,7 +165,7 @@ let secondSum = sum(1,1);
 console.log(multiply(firstSum, secondSum));
 ```
 
-> ☝️ [Ver este ejemplo en vivo en replit](https://repl.it/@4GeeksAcademy/Nested-Function-Calling)
+> :point_up: Puedes hacer click en "ejecutar" en el codigo de arriba para ver su salida.
 
 ## Veamos un ejemplo:
 
@@ -163,7 +187,31 @@ Como puedes ver, los nombres de las funciones son bastante específicos sobre lo
 
 Aqui podemos ver el ejemplo más en detalle:
 
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/FunctionsExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+```js runable=true
+function getPromedio(array) {
+	let suma = array.reduce((a, b) => a + b, 0);
+	return suma / array.length;
+}
+
+function getMasJoven(array) {
+	return array.reduce((a, b) => a.age < b.age ? a : b);
+}
+
+function getInfoPersona(nombre, personas) {
+	return personas.find(persona => persona.name === nombre);
+}
+
+let promedio = getPromedio([2, 4, 5, 12, 7]);
+
+// Corrección: Definir un array adecuado de objetos para la función getMasJoven
+let personas = [{ name: "John", age: 20 }, { name: "Mary", age: 21 }];
+let masJoven = getMasJoven(personas);
+
+let john = getInfoPersona("John", personas);
+let mary = getInfoPersona("Mary", personas);
+
+console.log({ promedio, masJoven, john, mary });
+```
 
 Otras cosas importantes a tener en cuenta:
 

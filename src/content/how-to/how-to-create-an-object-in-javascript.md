@@ -8,7 +8,7 @@ status: "draft"
 
 ---
 
-Creating an object in JavaScript may be achieved by different means, this example allows us to create the object and stablish its properties 
+Creating an object in JavaScript may be achieved by different means, this example allows us to create the object and establish its properties: 
 
 ```javascript
 function Geek(tech, years) {

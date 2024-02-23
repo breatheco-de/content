@@ -12,11 +12,11 @@ cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 
 ¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro, estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor lean hasta el final, ¡trataré de no aburrirlos!
 
-## Lo que ya sabes
+## Lo que ya sabes:
 
 Estás aquí para aprender a desarrollar tus habilidades para programar hasta un nivel en el que puedas: 1️⃣ Conseguir trabajo, 2️⃣ Crear tu propia empresa, 3️⃣ Adaptarte mejor al nuevo mundo. 
 
-## Lo que no sabías
+## Lo que no sabías:
 
 También estás aquí porque necesitas ayuda, no solo técnica sino también espiritual. Digo esto de la manera más pragmática posible.
 
@@ -39,9 +39,9 @@ En algún momento de nuestras vidas (en algunos más que otros) podemos haber pe
 Cualquier persona en general puede aprender a programar, la programación se vuelve más complicada cuando te especializas más en tu carrera (Inteligencia Artificial, Robótica, etc.) Puedes ganar una buena cantidad de dinero sin tener que haber estudiado matemáticas, sin ser bueno con los números o sin aprender tan rápido como otros (es posible que podamos arreglar eso, por cierto). 
 
 
-##### 📝 Receta para no perder la confianza en ti
+##### 📝 Receta para no perder la confianza en ti:
 
-1. **Evita estar atascado durante mucho tiempo:** Programar puede complicarse porque puedes estar a punto de resolver el problema y quedarte atascado sin ver la respuesta. Quizás no sepas como empezar a resolver un problema y una conversación de 5 minutos con un mentor te aclarará la mente.
+1. **Evita estar atascado durante mucho tiempo:** Programar puede complicarse porque puedes estar a punto de resolver el problema y quedarte atascado sin ver la respuesta. Quizás no sepas cómo empezar a resolver un problema y una conversación de 5 minutos con un mentor te aclarará la mente.
 
 2. **Habla con otros estudiantes:** Puede que pienses que eres el único que no entiende, pero si hablas con otros compañeros verás que no eres solo tú y te dará confianza para hacer preguntas.
 
@@ -93,4 +93,4 @@ Asegúrate de entender bien cómo funciona la academia:
 | **No leas (demasiado):** Programar es como un deporte, la mejor forma de mejorar es practicando. Aprender haciendo. |     ![Es práctica](https://github.com/breatheco-de/content/blob/master/src/assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg?raw=true) |
 | **Duerme:** Dormir bien es tan importante como ir a clases, la programación es 100% intelectual, tener una mente fresca lo es todo. | ![Duerme](https://github.com/breatheco-de/content/blob/master/src/assets/images/d29be460-cc2e-42e6-bf92-f9516fd7b21a.jpeg?raw=true) |
 | **Aprende a preguntar:** El mayor desafío que debes enfrentar al principio es [aprender a hacer preguntas](https://4geeks.com/es/how-to/como-hacer-preguntas-de-programacion), escoger las palabras adecuadas. Saber exactamente qué necesitas saber es la mejor habilidad para cualquier desarrollador/a. | ![Aprende a preguntar](https://github.com/breatheco-de/content/blob/master/src/assets/images/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c.jpeg?raw=true) |
-| **Haz preguntas:** Es un ganar-ganar, al preparar la pregunta aprenderás y el equipo tendrá feedback de tu entendimiento. Es el mejor incentivo para tu proceso de aprendizaje. Es para lo que estás pagando. | ![Haz preguntas](https://github.com/breatheco-de/content/blob/master/src/assets/images/5e975e91-1447-4117-b50b-b00df99a88a5.jpeg?raw=true)  |
+| **Haz preguntas:** Es un ganar-ganar, al preparar la pregunta aprenderás y el equipo tendrá feedback de tu entendimiento. Es el mejor incentivo para tu proceso de aprendizaje, y es para lo que estás pagando 🙂​.  | ![Haz preguntas](https://github.com/breatheco-de/content/blob/master/src/assets/images/5e975e91-1447-4117-b50b-b00df99a88a5.jpeg?raw=true)  |

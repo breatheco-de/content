@@ -272,7 +272,10 @@ git push origin [nueva-rama]
 
 Si otra persona TAMBIÉN ha subido algunos cambios a esa rama, GIT rechazará el push y te dirá que primero descargues esos cambios en tu repositorio local antes de continuar.
 
-Deberás (1) descargar los archivos, (2) combinarlos en tu código y (3) resolver cualquier conflicto que pueda haber aparecido.
+Deberás:
+1. Descargar los archivos.
+2. Combinarlos en tu código.
+3. Resolver cualquier conflicto que pueda haber aparecido.
 
 Después de resolver el o los conflictos, puedes seguir adelante e intentar *git push* nuevamente.
 

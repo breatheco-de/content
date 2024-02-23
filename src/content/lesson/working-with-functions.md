@@ -117,13 +117,36 @@ multiply(3,9);
 
 Please remember to assign the function whatever parameters it should receive. In our example, the multiply function was declared, asking for two numbers to multiply. Play with the following example as you like:
 
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Calling-Functions-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+```js runable=true
+//here we declare the function multiply
+function multiply(a, b) {
+	return a * b;
+}
+
+//then we can call it to multiply 3 times 4
+console.log(multiply(3, 4));
+
+//we could also declare the function anonymus
+let anyVariableName = function(a, b) {
+	return a * b;
+}
+
+//and call it using the function that is storing it
+console.log(anyVariableName(3, 5));
+
+// or we could not store the function in a variable, 
+//and wrap it in a parenthesis to use it right away
+// (not recomended, it's weird and hard to read)
+console.log((function(a, b) {
+	return a * b;
+})(2, 3));
+```
 
 ## Nested Calling
 
 You can combine functions however you want and have chained calls like this:
 
-```javascript 
+```javascript runable=true
 function sum(a,b){
    return a+b;
 }
@@ -141,7 +164,7 @@ let secondSum = sum(1,1);
 console.log(multiply(firstSum, secondSum));
 ```
 
-> :point_up: [View this example live at replit](https://repl.it/@4GeeksAcademy/Nested-Function-Calling)
+> :point_up: You can click run on the code above to see the output
 
 ## Let’s see an Example:
 
@@ -163,7 +186,33 @@ As you can see, the function names are pretty specific about what the functions 
 
 Here is the more detailed example:
 
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/FunctionsExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+```js runable=true
+function getAverage(array) {
+    let sum = array.reduce((a, b) => a + b, 0);
+    return sum / array.length;
+}
+
+function getYoungest(array) {
+    // This function now expects an array of objects with an 'age' property
+    return array.reduce((a, b) => a.age < b.age ? a : b);
+}
+
+function getPersonInfo(name, people) {
+    return people.find(person => person.name === name);
+}
+
+let average = getAverage([2, 4, 5, 12, 7]);
+
+// Corrected: Use the 'people' array for getYoungest
+let people = [{ name: "John", age: 20 }, { name: "Mary", age: 21 }];
+let youngest = getYoungest(people);
+
+let john = getPersonInfo("John", people);
+let mary = getPersonInfo("Mary", people);
+
+console.log({ average, youngest, john, mary });
+
+```
 
 Other important things to notice:
 
