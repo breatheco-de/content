@@ -21,7 +21,7 @@ Dominar el uso de las condiciones es una de las 5 habilidades fundamentales para
 4. Bucles (Loops).
 5. Funciones.
 
-El uso de *condicionales* es la única forma en que los desarrolladores tienen para decirle a la computadora cómo tomar decisiones en tiempo real.
+El uso de *condicionales* es la única forma que los desarrolladores tienen para decirle a la computadora cómo tomar decisiones en tiempo real.
 
 Digamos que estamos construyendo un programa para ayudarnos a elegir qué ponernos y odiamos el color azul, podemos decirle a la computadora que evite el azul usando una condición como esta:
   
