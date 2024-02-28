@@ -28,7 +28,7 @@ With JavaScript we can manipulate the DOM (website elements) during runtime (the
 NOTE: Please always remember that all JavaScript code that you write in your HTML document MUST be wrapped inside a `<script>` tag, like this:
 
 ```html
-<script>
+<script  type="text/javascript">
      // Your code here  
 </script>
 ```
@@ -40,7 +40,7 @@ Nowadays, we tend to write all of our JS code in a separate file with extension 
     <div>some content</div>
     <div>more content</div>
 
-    <script src="index.js"></script>
+    <script src="index.js" type="text/javascript"></script>
 </body>    
 ```
 
