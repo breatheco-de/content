@@ -15,7 +15,7 @@ Todo nuestro código JS no puede estar en el mismo archivo; eso hará que sea di
 
 Gracias a Webpack, podemos dividir nuestro código en archivos pequeños como queramos y luego podemos hacer referencia a otros archivos en nuestro archivo actual.
 
-De hecho, ya lo hemos estado haciendo cuando importamos nuestros estilos, bootstrap o jQuery desde index.html.
+De hecho, ya lo hemos estado haciendo cuando importamos nuestros estilos, Bootstrap o jQuery desde index.html.
 
 ## Así es como funciona "importar" y "exportar":
 
