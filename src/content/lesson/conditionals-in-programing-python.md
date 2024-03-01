@@ -1,6 +1,6 @@
 ---
 title: "Logical conditions in Python explained"
-subtitle: "Using conditionals allow you to control the flow of your code and make programmatic decisions."
+subtitle: "Using conditionals allows you to control the flow of your code and make programmatic decisions."
 date: "2020-10-19T16:36:31+00:00"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
@@ -42,14 +42,14 @@ Logical expressions let you conditionally skip a series of lines of your code.
 The best way to understand them is to think of them like questions you can ask the computer about your variables, for example:
 
 1. `if user_age > 21:`
-2. `if day == "tuesday":`
-3. `if car_model == "toyota" and number_of_tires == 6:`
+2. `if day == "Tuesday":`
+3. `if car_model == "Toyota" and number_of_tires == 6:`
 
-In order to ask a question or conditionally excuse a particular set of lines, you first need to have data (information) stored in useful variables. Above, we had the variables `user_age`, `day`, `car_model` and `number_of_tires`.
+To ask a question or conditionally execute a particular set of lines, you first need to have data (information) stored in useful variables. Above, we had the variables `user_age`, `day`, `car_model` and `number_of_tires`.
 
 If we don't have the information pre-stored in variables, we are not able to ask any questions; it is all about strategy and planning!
 
-For example, if we have the user's age stored in a variable `age` then, and only then, we are able to code for something like:
+For example, if we have the user's age stored in a variable `age` then, and only then, we can code for something like:
 
 ```python
 # We use two equal signs (==) when we want to compare two variables for equality
@@ -79,11 +79,11 @@ else:
 ```
 
 Basically, this algorithm has two variables to consider: `feels_like_hit_by_train` and `you_were_hit_by_train`.
-Our job as developers is to sit down, try to prepare a strategy, and come up with an algorithm that solves a problem.
+Our job as developers is to sit down, try to prepare a strategy and come up with an algorithm that solves a problem.
 
 ## Logical Operators in Python
 
-Most of the questions can be asked using the following comparisons: `==`, `>`, `<`, `!=`, ` is None`, ` is not None`, `in`:
+Most of the questions can be asked using the following comparisons: `==`, `>`, `<`, `!=`, ` is None`, ` is None`, `in`:
 
 | Operator      | Example       | Description  |
 | ----          | ----          | --------  |
