@@ -28,7 +28,7 @@ This communication, as shown in the following gif, is carried out through a proc
 
 ### How does HTTP work?
 
-![HTTP](https://github.com/breatheco-de/content/blob/master/src/assets/images/http-3.png?raw=true)
+![HTTP](https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/images/HTTP_Steps.png)
 
 The HTTP protocol works through requests and responses from the client (e.g., a web browser) and a server (e.g., the computers that host and display websites). 
 
