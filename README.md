@@ -12,7 +12,7 @@ This list of contents is just a draft, some can be deleted or more can be added.
 
 Contents can be tagged on the header of the markdown file; you can add as many tags as you want and later people will be able to search by tag.
 
-There are two types of tags: Technology and Category.
+Now it's important you know that there are two types of tags: Technology and Category.
 
 ## Command Line Interface:
 
