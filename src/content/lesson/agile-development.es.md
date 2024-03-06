@@ -55,7 +55,7 @@ Olvídate del flujo de trabajo que hayas aprendido por tu cuenta para el desarro
 ## En Resumen…
 
 
-En resumen, ser "senior" es tomarse el tiempo para hacer las especificaciones, ser LIMPIO, trabajar por partes (dividir y conquistar), crear aplicaciones web en lugar de sitios web, crear tu propia API y, por último, pero no menos importante: solo usar las mejores prácticas y seguir Los flujos de trabajo recomendados.
+En resumen, ser "senior" es tomarse el tiempo para hacer las especificaciones, ser limpio, trabajar por partes (dividir y conquistar), crear aplicaciones web en lugar de sitios web, crear tu propia API y, por último, pero no menos importante: solo usar las mejores prácticas y seguir Los flujos de trabajo recomendados.
 
 ¿Suena aburrido? Créeme, ¡no lo es! Construir un producto es increíble. ¡Estarás creando algo desde cero y lo utilizarás de inmediato! ¡Empecemos!
 
