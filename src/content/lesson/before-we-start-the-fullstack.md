@@ -1,5 +1,5 @@
 ---
-title: "Before Starting Full Stack Development"
+title: "Edited - Before Starting Full Stack Development With Dylan"
 subtitle: "Quick review about concepts you need to know in CSS, HTML and JS before starting the Full Stack Development course"
 tags: ["html/css", "web-development"]
 
