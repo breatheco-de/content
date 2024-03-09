@@ -33,7 +33,7 @@ Este tipo de datos hace muchas más cosas que los otros. Las listas son una de l
 
 Cada array tiene los mismos conceptos básicos:
 
-**Los elementos:** Son los valores dentro de cada posición del array.
+**Los elementos:** son los valores dentro de cada posición del array.
 
 **La longitud (length):** es el tamaño o longitud del array (cuántos elementos tiene el array).
 
