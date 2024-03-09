@@ -24,8 +24,8 @@ Cuando aprendes en público, conviertes las redes sociales en tu cuaderno de not
 ## ¿Por qué es esto tan importante?
 
 - Cuando escribes las cosas, tu cerebro las absorbe mejor.
-- Hablar de ello te obliga a organizar tus pensamientos y entenderlo mejor.
-- Tu familia y tus amigos empezarán a confiar en tus habilidades: Después de un tiempo, empezarán a verte como un pequeño experto en la materia, acudirán a ti para pedirte un consejo, para pedirte recomendaciones o para contratar tus servicios.
+- Hablar de ello te obliga a organizar tus pensamientos y comprenderlo mejor.
+- Tu familia y tus amigos empezarán a confiar en tus habilidades: Después de un tiempo, empezarán a verte como un pequeño experto en la materia, acudirán a ti para pedirte un consejo, una recomendación o para contratar tus servicios.
 - Compartir es un sistema de apoyo: el "síndrome del impostor" no es una broma. Cuando eres abierto y compartes tus luchas públicamente encontrarás a otros (probablemente muchos) como tú. Eso te calmará porque sabrás que es normal y te dará fuerzas para continuar. 
 - Estarás mejor clasificado en los portales de empleo: Los portales como LinkedIn hacen más visible tu perfil cuando publicas a menudo, potenciando tu alcance exponencialmente.
 - Los reclutadores te encontrarán: Una y otra vez en @4GeeksAcademy hemos comprobado que los estudiantes que aprenden en público son contratados mucho más rápido, los reclutadores eventualmente comienzan a descubrirlos y los contactan para ofrecerles oportunidades de trabajo.
