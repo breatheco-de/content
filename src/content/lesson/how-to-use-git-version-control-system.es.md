@@ -148,7 +148,7 @@ Vamos a saltar al commit (2) e iniciar un nuevo trabajo desde allí. Primero deb
 ```bash
 $ git log
 commit df73f34fac344778e1f5a836fb88a897e0b8d491
-Author: Alejandro Sanchez <a@stcsolutions.com.ve>
+Author: Alejandro Sánchez <a@stcsolutions.com.ve>
 Date: Wed Mar 8 13:18:37 2017 -0500
 ```
 
