@@ -1,5 +1,5 @@
 ---
-title: "The Command Line (a.k.a: The Terminal) "
+title: "The Command Line (a.k.a: The Terminal)"
 subtitle: "Developers spend hours every day using the command line (a.k.a: The Terminal). Embrace reality and become more powerful than ever before."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
@@ -24,11 +24,11 @@ But why do developers like it? Well, the list is infinite, but here are a few im
 
 ## How does it work?
 
-The console is really simple: it's a black screen that's always expecting a *command*.  After you type the desired command and press the `return` key, the computer executes it and shows some feedback with the resulting output on the screen. A simple **Question** <> **Answer** interface.
+The console is really simple: it's a black screen that's always expecting a *command*. After you type the desired command and press the `return` key, the computer executes it and shows some feedback with the resulting output on the screen. A simple **Question** <> **Answer** interface.
 
 But, what is a *command*?
 
-It is something like "print", "show", or "delete" but abbreviated. For example, if you want to tell the console to list all the files in a particular directory, you have to use the `ls` command like this:
+It is something like "print", "show", or "delete", but abbreviated. For example, if you want to tell the console to list all the files in a particular directory, you have to use the `ls` command like this:
 
 ```bash
 ls -l /path/to/directory
@@ -42,7 +42,7 @@ The last thing we have to add is the "argument". In this case, the "argument" wi
 
 ## What can you do in the Terminal?
 
-Your computer has files, directories, and applications. Your command line is able to deal with all three of them. Use commands to move within the files and directories (like the `cd` command).  Every application that you install comes with a set of commands that become available the moment you install the app (like the GIT command).
+Your computer has files, directories, and applications. Your command line is able to deal with all three of them. Use commands to move within the files and directories (like the `cd` command). Every application that you install comes with a set of commands that become available the moment you install the app (like the GIT command).
 
 ## Here is how the File System looks in a Visual Interface vs The Terminal:
 
@@ -55,7 +55,7 @@ There are 4 important things to notice here:
 + You can use the forward slash `/` to navigate further down in the hierarchy of directories.
 + Hidden files: Usually, a file has a name and an extension *(filename.extension)*. If a file has no name but only an extension, it will by default be hidden in the visual interface.
 
-## Commands to Work with the File System:
+## Commands to Work with the File System
 
 Here is a small selection of the most used commands by a software developer.
 
@@ -99,10 +99,10 @@ This deletes files (not directories).
 
 ```bash
 rm file1.txt file2.txt file3.txt file4.txt
-#removes these four files 
+# Removes these four files 
 
 rm -r dbstore/
-#deletes all the files and sub-directories recursively within the "dbstore" directory.
+# Deletes all the files and sub-directories recursively within the "dbstore" directory
 ```
 
 ### The mkdir command
@@ -156,10 +156,10 @@ Finds a file in the given directory with the given specifications.
 
 ```bash
 find / -name game
-#finds all files containing the exact name "game" that is inside the root folder. 
+# Finds all files containing the exact name "game" that is inside the root folder
 
 find . -name *.mp3
-#finds all files containing the extension "mp3" within the current directory and its parent.
+# Finds all files containing the extension "mp3" within the current directory and its parent
 ```
 
 ## Tips & Tricks
@@ -180,13 +180,14 @@ This is one of the things that you cannot avoid doing in the terminal. As a deve
 
 **It's not really a command; actually, the name of "Nano" is a text editor application.**
 
-When working with the command line, sometimes you will have to open a file to review it and even change it.  For that, we use the "nano" command.  Nano basically opens a text editor within the command line.
+When working with the command line, sometimes you will have to open a file to review it and even change it. For that, we use the `nano` command. Nano basically opens a text editor within the command line.
 
 ```bash
 nano path/to/the/textfile.txt
-#opens a text editor to start editing the content of textfile.txt 
-#if textfile.txt does not exist, it will create it!
+# Opens a text editor to start editing the content of textfile.txt 
+# If textfile.txt does not exist, it will create it!
 ```
+
 When nano opens, it will show a top bar with the current version of the nano application, the name of the file being edited, and a status telling you if the files were modified or not.
 
 At the bottom, you will see the most often used commands in nano such as: exit, where is, get help, etc.
