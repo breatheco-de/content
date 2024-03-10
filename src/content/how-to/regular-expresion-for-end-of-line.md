@@ -2,226 +2,223 @@
 title: "How to Create a Regular Expression for End of Line?"
 subtitle: "Learn how to construct a regular expression to match the end of a line. Explore practical examples and tips for effective pattern matching in JavaScript and Python."
 tags: ["regular-expression", "javascript", "python"]
-authors: [DF27ARTS]
+authors: [FernandoRojasCarrillo]
 
 ---
 
-Regular expressions (RegEx) are a very common and powerful way to search and manipulate text using certain patterns. The following is an example in JavaScript to check if a string ends with a certain character or text pattern.
+Regular expressions (RegEx) are a common and useful way to search and manipulate text using patterns. In the following example, we will demonstrate how to use a regex in JavaScript to extract all the words at the end of a line.
 
-```py runable=true
-import re
-
-text_one = "This is an example of a regular expression for the end of line"
-text_two = "This is another example"
-
-regex_pattern = r"line$"
-
-text_one_result = bool(re.search(regex_pattern, text_one))
-text_two_result = bool(re.search(regex_pattern, text_two))
-
-print(text_one_result)  # output: True
-print(text_two_result)  # output: False
-```
 ```js runable=true
-const textOne = "This is an example of a regular expression for the end of line";
-const textTwo = "This is another example";
+const text = "This is an example\n of a regex for end of line";
 
-const regexPattern = /line$/i;
+const regexPattern = /\w+$/gm;
+const matches = text.match(regexPattern);
 
-const textOneResult = regexPattern.test(textOne);
-const textTwoResult = regexPattern.test(textTwo);
-
-console.log(textOneResult); // output: true
-console.log(textTwoResult); // output: false
+console.log(matches); // output: [ 'example', 'line' ]
 ```
 
-In this example, the regular expression (`line$`) checks if a sentence ends with the word **line**. We can use this regular expression along with the `test()` method to check if the sentences of the `textOne` and `textTwo` variables follow this pattern. As you can see with the first sentence the method returns `true` because it does indeed end with the word **line** but with the second sentence returns `false` because it ends with the word **example** and this does not match the regex pattern.
+Here, we are using the regular expression `\w+$` to find the last word at the end of a line, in JavaScript we can use the string method `match()` to check if a string contains a certain pattern, in this case, we use it to extract the last word of a line. As you can see, this method returns an array with the matches found in the text. The first match is the word (example), which is right at the end of a line break. The second match is the word (line), which is found at the end of the text.
 
 ## Regex symbol to check for the end of a line
 
-In regular expressions, the `$` symbol indicates that the pattern we want to search for must be at the end of the string, you can understand this concept better  with the following example.
-
-```py runable=true
-import re
-
-url = "https://www.google.com"
-regex_pattern = re.compile(r"\.(com|org|gov|io|net)$", re.IGNORECASE)
-
-if regex_pattern.search(url):
-    print(f"The url has a valid domain")
-else:
-    print(f"The url does not have a valid domain")
-```
-```js runable=true
-const url = "https://www.google.com";
-
-const regexPattern = /\.(com|org|gov|io|net)$/;
-
-if (regexPattern.test(url)) {
-  console.log(`The url has a valid domain`);
-} else {
-  console.log(`The url does not have a valid domain`);
-}
-```
-
-In this example, the regular expression `.(com|org|gov|io|net)$` checks if the URL of a website ends with a valid top-level domain. We can use this regular expression along with the `search()` method in Python and the `test()` method in JavaScript to verify if the URL of the website `https://www.google.com` has a valid domain. These methods will return `true` or `false` depending on whether the URL meets the condition.
-
-Explanation of the regular expression.
-
-- `\.`: This regular expression pattern matches a single dot (**.**), this is because the dot in a regular expression represents a single character, so if we need a regular expression to match a dot we must precede it with a backslash ( \ ) so that the dot is interpreted literally.
-- `(com|org|gov|io|net)`: This pattern is used to group the options that the regular expression can match, this means that the regular expression can match any of the options inside the parentheses.
-- `$`: This symbol is the most important part of the regular expression and it represents the end of a line, it indicates that the position of the pattern you are looking for is exactly at the end of the string or right before a line break `\n`.
-
-
-## Use case scenerios
-
-A regular expression that matches the end of a line can be very useful in many different situations, here are some examples.
-
-### 1. Check if an email has a valid domain extension
-
-You can use a regular expression to check if an email has a valid domain extension, this can be useful in the login and registration process of an application.
+In regular expressions, the `$` symbol indicates that the pattern we want to search for must be at the end of the string, in JavaScript, you can pass the `m` flag at the end of the regular expression to indicate that instead of searching for the end of the string it has to search for the end of each individual line, this will make the regular expression match all lines within the text, including line breaks, you can achieve the same in Python with the `re.MULTILINE` parameter. You can better understand this concept with the following example.
 
 **Python Code**
 ```py runable=true
 import re
 
-emails = [
-  "EmilyJohnson@gmail.com",
-  "MichaelSmith@example.com",
-  "ChristopherBrown@yahoo.com",
-  "OliviaTaylor@outlook.com",
-  "SophiaMiller@example.com",
-]
+text = """
+  line_1.\n line_2.
+  line_3
+  line_4."""
 
-regex_pattern = re.compile(r"(gmail|yahoo|outlook)\.com$")
-valid_emails = list(filter(lambda email: regex_pattern.search(email), emails))
+regex_pattern = r"\w+[\.]+$"
+matches = re.findall(regex_pattern, text, re.MULTILINE)
 
-print(valid_emails)
+print(matches) # output: ['line_1.', 'line_2.', 'line_4.']
 ```
 
 **JavaScript Code**
 ```js runable=true
-const emails = [
-  "EmilyJohnson@gmail.com",
-  "MichaelSmith@example.com",
-  "ChristopherBrown@yahoo.com",
-  "OliviaTaylor@outlook.com",
-  "SophiaMiller@example.com",
-];
+const text = `
+  line_1.\n line_2.
+  line_3
+  line_4.`;
 
-const regexPattern = /(gmail|yahoo|outlook)\.com$/;
-const validEmails = emails.filter((email) => regexPattern.test(email));
+const regexPattern = /\w+[\.]+$/gm;
+const matches = text.match(regexPattern);
 
-console.log(validEmails);
+console.log(matches); // output: [ 'line_1.', 'line_2.', 'line_4.' ]
 ```
-> code output:
+
+In this example, we use a regular expression to search for all lines that end with a period, as you can see, this regular expression matches all lines that end with a period including those just before a line break. This is a simple example of how you can use the `$` symbol and the `m` flag in JavaScript or the `re.MULTILINE` parameter in Python to tell the regular expression to look for the end of all the lines within the text, including line breaks.
+
+## Use case scenarios
+
+A regular expression that matches the end of a line can be very useful in many different situations, here are a few examples.
+
+### 1. Extract the last word of a line
+
+You can use a regular expression to extract from a text all the words located just before the end of a line. As shown in the following examples.
+
+**Python Code**
+```py runable=true
+import re
+
+text = """
+  This is a text file.\n It has several lines.
+  Some of them end with a period.
+  Others end with a question mark?
+  Can you find them all?"""
+
+regex_pattern = re.compile(r'\w+\W*$', re.MULTILINE)
+matches = regex_pattern.findall(text)
+
+print(matches) # output: ['file.', 'lines.', 'period.', 'mark?', 'all?']
+```
+
+**JavaScript Code**
+```js runable=true
+const text = `
+  This is a text file.\n It has several lines.
+  Some of them end with a period.
+  Others end with a question mark?
+  Can you find them all?`;
+
+const regexPattern = /\w+\W*$/gm;
+const matches = text.match(regexPattern);
+
+console.log(matches); // output: [ 'file.', 'lines.', 'period.', 'mark?', 'all?' ]
+```
+
+In this example, we use the regular expression `\w+\W*$` to search for all the words located just before the end of a line no matter if the word includes a symbol like a period or a question mark.
+
+Regular expression explanation:
+1.  `^`: Asserts the start of a line.
+2.  `\w+`: Matches one or more word characters (letters, digits, or underscores).
+3.  `\W*`: Matches zero or more non-word characters (anything that is not a letter, digit, or underscore).
+4.  `$`: Asserts the end of a line.
+
+### 2. Extract all questions from a text 
+
+Another example where you can use a regular expression for the end of a line is to extract all lines of a text that end with a question mark.
+
+#### Python code
+```py runable=true
+import re
+
+text = """
+  This text
+  Has some questions:
+  How are you today?
+  What are you doing?
+  What is your favorite color?
+  Can you answer them all?"""
+
+regex_pattern = r'^(.*\?)\s*$'
+questions = [line.strip() for line in re.findall(regex_pattern, text, re.MULTILINE)]
+
+print(questions)
+```
+
+#### JavaScript Code
+```js runable=true
+const text = `
+  This text
+  Has some questions:
+  How are you today?
+  What are you doing?
+  What is your favorite color?
+  Can you answer them all?`;
+
+const regexPattern = /^(.*\?)\s*$/gm;
+const questions = text.match(regexPattern).map((line) => line.trim());
+
+console.log(questions);
+```
+> output code:
 ```bash
 [
-  'EmilyJohnson@gmail.com',
-  'ChristopherBrown@yahoo.com',
-  'OliviaTaylor@outlook.com'
+  'How are you today?',
+  'What are you doing?',
+  'What is your favorite color?',
+  'Can you answer them all?'
 ]
 ```
 
-In this example, we have a list of emails and we need to filter all emails that have a valid domain extension. To do this, we can use the following regular expression `(gmail|yahoo|outlook)\.com$` which matches all emails ending with one of the following domains (**gmail**, **yahoo**, and **outlook**), we also need the `filter()` function to store the valid emails in the `validEmails` variable.
+Here we are using the regular expression `^(.*\?)\s*$` to extract all lines of a text that end with a question mark, in other words, all the questions located within a text.
 
-### 2. Validate an image extension
+Regular expression explanation:
+1. `^`: Asserts the start of a line.
+2. `(.*?)`: This is a non-greedy capturing group `(.*?)`, which matches any character (except for line terminators like `\n`). This group captures the text on the line until the first occurrence of the next part of the expression or the end of the line.
+3. `\s*`: Matches zero or more whitespace characters (spaces, tabs, or line breaks).
+4. `$`: Asserts the end of a line.
 
-Imagine you have a gallery application where users can upload as many images as they want. You have to make sure that the images that the user uploads have a valid extension so that the application does not break, for this, you can use a regular expression as shown in the example below.
+### 3. Convert the lines within a text into HTML paragraphs
 
-**Python Code**
-```py runable=true
-import re
-
-images_uploaded = [
-  "sunset-landscape.jpg",
-  "cityscape-night.webp",
-  "abstract-artwork.example",
-]
-
-regex_pattern = re.compile(r"\.(jpg|jpeg|png|webp|heif|heic|raw)$")
-valid_images = list(filter(lambda image: regex_pattern.search(image), images_uploaded))
-
-print(valid_images)
-```
-
-**JavaScript Code**
-```js runable=true
-const imagesUploaded = [
-  "sunset-landscape.jpg",
-  "cityscape-night.webp",
-  "abstract-artwork.example",
-];
-
-const regexPattern = /\.(jpg|jpeg|png|webp|heif|heic|raw)$/;
-const validImages = imagesUploaded.filter((image) => regexPattern.test(image));
-
-console.log(validImages);
-```
-> code output:
-```bash
-[ 'sunset-landscape.jpg', 'cityscape-night.webp' ]
-```
-
-In this example, the regular expression stored in the `regexPattern` variable will match all images ending with one of the following extensions (jpg, jpeg, png, webp, heif, heic, raw). We can use this regex pattern to filter all images with a valid extension from the list and store them in our application.
-
-### 3. Filter files by extension
-
-Another example where regular expressions for the end of a line can be very useful is if we need to filter or group different files by their extension, as shown in the following example.
+Another useful application of regex for matching the end of a line is to convert the lines within a text into HTML paragraphs like a markdown compiler.
 
 #### Python Code
 ```py runable=true
 import re
 
-files = [ "example.py", "script.js", "document.csv", "data.csv", "presentation.js", "images.py", "functions.py"]
+planets = """Mercury: the closest planet.
+  Venus: shrouded in thick clouds.
+  Earth: our precious home.
+  Mars: the red planet.
+  Jupiter: the gas giant.
+  Saturn: famous for its rings.
+  Uranus: the tilted planet.
+  Neptune: the farthest one."""
 
-files_filtered = {}
-regular_expression = r'(\.\w+)$'
+regex_pattern = r'(?<=^)(.*)$'
+paragraphs = re.sub(
+  regex_pattern, lambda line: f'<p>{line.group().strip()}</p>', planets, flags=re.MULTILINE
+)
 
-for file in files:
-    extension = re.search(regular_expression, file)
-    if extension.group(1) in files_filtered:
-        files_filtered[extension.group(1)].append(file)
-    else:
-        files_filtered[extension.group(1)] = [file]
-
-
-print(files_filtered)
+print(paragraphs)
 ```
 
-#### JavaScript Code
+#### JavaScript Code:
 ```js runable=true
-const files = [ "example.py", "script.js", "document.csv", "data.csv", "presentation.js", "images.py", "another_example.py" ];
+const planets = `Mercury: the closest planet.
+  Venus: shrouded in thick clouds.
+  Earth: our precious home.
+  Mars: the red planet.
+  Jupiter: the gas giant.
+  Saturn: famous for its rings.
+  Uranus: the tilted planet.
+  Neptune: the farthest one.`;
 
-const filesFiltered = {};
-const regularExpression = /(\.\w+)$/;
-
-files.forEach(file => {
-    const extension = file.match(regularExpression);
-    if (filesFiltered[extension[1]]) {
-        filesFiltered[extension[1]].push(file);
-    } else {
-        filesFiltered[extension[1]] = [file];
-    }
+const regexPattern = /(?<=^)(.*)$/gm;
+const paragraphs = planets.replace(regexPattern, (line) => {
+  return `<p>${line.trim()}</p>`;
 });
 
-console.log(filesFiltered);
+console.log(paragraphs);
 ```
-> code output:
+> output code:
 ```bash
-{
-    '.py': ['example.py', 'images.py', 'functions.py'], 
-    '.js': ['script.js', 'presentation.js'], 
-    '.csv': ['document.csv', 'data.csv']
-}
+<p>Mercury: the closest planet.</p>
+<p>Venus: shrouded in thick clouds.</p>
+<p>Earth: our precious home.</p>
+<p>Mars: the red planet.</p>
+<p>Jupiter: the gas giant.</p>
+<p>Saturn: famous for its rings.</p>
+<p>Uranus: the tilted planet.</p>
+<p>Neptune: the farthest one.</p>
 ```
 
-In this example, we have a list with different files and we need to filter them by their extension, for this, we can use the regular expression `(\(\w+)$`. This regular expression matches any sequence of characters following a period at the end of a string, this will allow us to filter and store files with the same extension within a list.
+In this example we are using the regular expression `(?<=^)(.*)$` along with the `re.sub()` method in Python and the `replace()` method in JavaScript to convert all the lines within the text stored in the `planets` variable into HTML paragraphs `<p></p>`, this may be useful if you are creating a markdown compiler or a similar application.
 
-These are three simple examples, but there are many cases where a regular expression can be used to check or filter a certain pattern or sequence of characters at the end of a line.
+Regular expression explanation:
+1.  `(?<=^)`: This is a positive lookbehind assertion `(?<=^)`, which asserts that what immediately precedes the current position in the string is the beginning of a line (`^`). It means that the following pattern (`(.*)`) must be preceded by the start of a line.
+2.  `(.*)`: This is a capturing group, which matches any character (`.`) zero or more times (`*`). The `.*` pattern will match any sequence of characters (except for line terminators like `\n`), as many times as possible.
+3.  `$`: This asserts the position at the end of a line. It ensures that the previous pattern (`.*`) matches until the end of the line.
+
 
 ## Conclusion
 
-In this article, we talked about how to use regular expressions at the end of a line in both Python and JavaScript. We also saw the `$` symbol that represents the end of a line in a regular expression, this symbol indicates that the pattern you are looking for must be at the end of the string or just before a line break `\n`. We also saw some cases where you can use a regular expression to search for a specific pattern at the end of a string.
+In this article, we talked about how to use regular expressions to find patterns at the end of a line in both Python and JavaScript. We also saw the `$` symbol that represents the end of a line in a regular expressions, this symbol indicates that the pattern you are looking for must be at the end of a string or just before a line break `\n` with the `re.MULTILINE` parameter in Python or the `m` flag in JavaScript. We also saw some cases where regex for and line can be very useful.
 
-I hope you found this article useful and that it helped you learn how to use regular expressions to find a pattern at the end of a line. I would like to encourage you to keep learning more about regular expressions, they are very useful and necessary in almost all programming languages. You don't have to learn all regex patterns because sometimes they can be very confusing, but you do need to understand how they work and how to use them when necessary.
+We hope you found the insights shared in this article on regular expressions for the end of the line useful. We encourage you to further explore this topic and apply these concepts in your projects. Remember, consistent practice is key to improving your text-handling skills with regex. Thank you for reading our article! Additionally, if you want to take your skills further we encourage you to [register for free](https://4geeks.com/pricing "Register for free at 4Geeks.com") on 4Geeks.com.
