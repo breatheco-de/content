@@ -1,6 +1,6 @@
 ---
 title: "Mastering Databases: What is SQL Database"
-subtitle: "Are you ready to work with data? Learn here about what is SQL Database and how to work with it."
+subtitle: "Are you ready to work with data? Learn here about what SQL Database is, and how to work with it."
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
 date: "2023-06-26T00:35:31+00:00"
@@ -19,15 +19,15 @@ The SQL query syntax looks like this:
 SELECT username FROM user WHERE email='info@breatheco.de'
 ```
 
-☝ In this example, we request from the database all users with the email address equal to "info@breatheco.de".
+☝ In this example, we request from the database all users with an email address equal to "info@breatheco.de".
 
 > If you want to earn the respect of a developer, you need to get comfortable with SQL. You will use it A LOT when working with data.
 
 ### Origins of SQL and Databases
 
-In a world in which the presence of data is becoming more and more important due to its significant impact on decision making and the proliferation of business processes guided by data and information, databases are the best way to store them. In fact, a fundamental component of Industry 4.0 is precisely this technology. From data we will be able to carry out Data Mining, Machine Learning and automation processes, but everything starts from databases.
+In a world in which the presence of data is becoming more and more important due to its significant impact on decision-making and the proliferation of business processes guided by data and information, databases are the best way to store them. In fact, a fundamental component of Industry 4.0 is precisely this technology. From data, we will be able to carry out Data Mining, Machine Learning and automation processes, but everything starts with databases.
 
-The origin of databases was the `.txt` and `.csv` files, which, although they allowed storing a large amount of information, the data were easy to corrupt and difficult to access.
+The origin of databases was the `.txt` and `.csv` files, which, although they allowed storing a large amount of information, it made the data easy to corrupt and difficult to access.
 
 ![Edgar Codd](https://github.com/breatheco-de/content/blob/master/src/assets/images/11fcd6d8-6177-4f42-b4e0-7b6475f24b0a.jpeg?raw=true)
 
@@ -57,21 +57,21 @@ A table can contain a large set of rows and columns. The access and query execut
 
 A database is a collection of interconnected tables. The connection between two tables is called a "relationship" and can be one of the following:
 
-**One to one:**
+#### One to one:
 
-The perfect example is the social security database, probably this database has a table called Taxpayer that contains all the information about each person with a social security number and another table with the current year's Tax Returns: **A person can have only one return and only one return can be made by a person.**
+The perfect example is the social security database. Probably this database has a table called **TaxPayer** that contains all the information about each person with a social security number and another table with the current year's Tax Returns: **A person can have only one return, and only one return can be made by a person.**
 
 ![SQL one to one](https://github.com/breatheco-de/content/blob/master/src/assets/images/6f51ce02-3a75-4027-ada5-cf63c50d1701.png?raw=true)
 
-**One to many:**
+#### One to many:
 
-The Major League Baseball database probably has a table called Players (with a list of all active players) and another table called Teams with a list of all active teams. Both tables are connected because **one team has many players, but a player can be on only one team.**
+The Major League Baseball database probably has a table called **Players** (with a list of all active players) and another table called **Teams** (with a list of all active teams). Both tables are connected because **one team has many players, but a player can be on only one team.**
 
 ![SQL one to many](https://github.com/breatheco-de/content/blob/master/src/assets/images/374d53ac-092f-4f34-a6f1-76bfaa5bd676.png?raw=true)
 
-**Many to many:**
+#### Many to many:
 
-A public library database probably has a table called Author (which contains the information of all authors with published books), and also another table with ALL books that have been published. Both tables are related because **one author can have many books and one book can have many authors.**
+A public library database probably has a table called **Author** (which contains the information of all authors with published books), and also another table with ALL **Books** that have been published. Both tables are related because **one author can have many books, and one book can have many authors.**
 
 ![SQL many to many](https://github.com/breatheco-de/content/blob/master/src/assets/images/af7344fc-0ee0-499e-8926-8f70dc9b2b0d.png?raw=true)
 
@@ -79,7 +79,7 @@ A public library database probably has a table called Author (which contains the
 
 #### Manipulating tables
 
-There are 3 main operations that can be performed on a table: **create**, **update** or **delete**. In SQL, these operations are called `CREATE`, `ALTER` and `DROP`. Remember that these operations are used to manipulate the structure of the database, not the information it contains.
+There are 3 main operations that can be performed on a table: **create**, **update**, or **delete**. In SQL, these operations are called `CREATE`, `ALTER` and `DROP`. Remember that these operations are used to manipulate the structure of the database, not the information it contains.
 
 ##### CREATE:
 
@@ -90,7 +90,7 @@ CREATE TABLE IF NOT EXISTS `chat_group` (
   `chat_group_id` int(10) UNSIGNED NOT NULL,
   `name` varchar(20) NOT NULL,
   `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY('chat_group_id')
+  PRIMARY KEY(`chat_group_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
 
@@ -112,7 +112,7 @@ DROP TABLE customers;
 
 #### Manipulating data
 
-When using SQL, there are 4 main commands for manipulating data: SELECT, INSERT, UPDATE and DELETE.
+When using SQL, there are 4 main commands for manipulating data: `SELECT`, `INSERT`, `UPDATE` and `DELETE`.
 
 All of these commands are designed to manipulate ONE or SEVERAL database records/rows at the same time. But, you can only execute ONE command at a time.
 
@@ -124,7 +124,9 @@ This is the most commonly used operation. It is the only way to retrieve any spe
 SELECT column1, column2... columnN FROM table1 WHERE column1 = 3;
 
 // Select a particular user by his Social Security Number 
-SELECT ssn, username, email FROM USER WHERE ssn = '233-34-3453';
+SELECT ssn, username, email
+FROM user
+WHERE ssn = '233-34-3453';
 ```
 
 ##### INSERT:
@@ -135,7 +137,8 @@ Creates a new row/record in the table. It will be added at the end.
 INSERT INTO table_name (column1,column2,...columnN) VALUES (value1,value2,...valueN);
 
 // Insert a particular user 
-INSERT INTO USER (ssn,username,email) VALUES ('234-45-3342','alesanchezr','a@breatheco.de');
+INSERT INTO user (ssn, username, email)
+VALUES ('234-45-3342', 'alesanchezr', 'a@breatheco.de');
 ```
 
 ##### UPDATE:
@@ -146,12 +149,14 @@ Updates a record or a row in a specific table. It is necessary to provide one or
 UPDATE table_name SET column1 = value1 WHERE [condition]
 
 // Updating the email of a user 
-UPDATE USER SET email = 'new@breatheco.de' WHERE ssn = '333-44-5534'
+UPDATE user
+SET email = 'new@breatheco.de'
+WHERE ssn = '333-44-5534'
 ```
 
 ##### DELETE:
 
-Works very similarly to update, but instead of passing the new values of the new columns you want to update, we only need to specify which rows we want to delete by requesting a set of conditions.
+Works very similarly to UPDATE, but instead of passing the new values of the new columns you want to update, we only need to specify which rows we want to delete by requesting a set of conditions.
 
 ```sql
 DELETE FROM table_name WHERE [condition]
@@ -160,7 +165,8 @@ DELETE FROM table_name WHERE [condition]
 DELETE FROM user;
 
 // Delete a specific user 
-DELETE FROM user WHERE ssn = '342-45-6732'
+DELETE FROM user
+WHERE ssn = '342-45-6732'
 ```
 
 #### Data Integrity
@@ -194,7 +200,7 @@ Transaction control commands are only used with the DML INSERT, UPDATE and DELET
 
 ##### COMMIT statement
 
-The `COMMIT` command is used to permanently save changes made to a transaction within the database. When you use INSERT, UPDATE or DELETE, the changes made with these commands are not permanent, the changes made can be undone or, in other words, we can go back. 
+The `COMMIT` command is used to permanently save changes made to a transaction within the database. When you use INSERT, UPDATE or DELETE, the changes made with these commands are not permanent; the changes made can be undone or, in other words, we can go back. 
 
 However, when you use the COMMIT command, the changes to your database will be permanent.
 
