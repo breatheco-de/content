@@ -166,7 +166,7 @@ DELETE FROM user;
 
 // Delete a specific user 
 DELETE FROM user
-WHERE ssn = '342-45-6732'
+WHERE ssn = '342-45-6732';
 ```
 
 #### Data Integrity
