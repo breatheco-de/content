@@ -1,7 +1,7 @@
 ---
 slug: "everything-you-need-to-start-using-sqlalchemy"
 title: "Everything you need to know about SQLAlchemy"
-subtitle: "SQLAlchemy is the most popular ORM for Python, start using it in 8min"
+subtitle: "SQLAlchemy is the most popular ORM for Python, start using it in 8 min."
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 date: "2023-06-22T19:44:22+00:00"
 textColor: "white"
@@ -69,6 +69,7 @@ The first step will be defining our model:
 ```py
 class Person(Base):
     __tablename__ = "person"
+
     # Here we define columns for the table "Person"
     # Notice that each column is also a normal Python instance attribute
     id = Column(Integer, primary_key = True)
