@@ -232,21 +232,3 @@ Finally, our 'Pizza' looks like this:
 
 ... I'm a bit hungry after reading this lesson!! Aren't you??
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
