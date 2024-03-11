@@ -101,17 +101,21 @@ Python has many ways to delete an element from a list.
 
 ### Using `pop`
 
-It will remove the last element only!
+Without an argument, the `pop()` method will remove the last element. With an argument it will remove the element at that index. 
 
 ```python
-my_list = ['Pedro', 'Chris', 'Juan', 'Maria']
+my_list = ['Pedro', 'Chris', 'Juan', 'Maria', 'Branden']
+
+my_list.pop(2)
+print(my_list)  # Output ['Pedro', 'Chris', 'Maria', 'Branden']
+
 my_list.pop()
-print(my_list)  # Output ['Pedro', 'Chris', 'Juan']
+print(my_list) # Output ['Pedro', 'Chris', 'Maria']
 ```
 
 ### Using `remove`
 
-It will let you remove the first occurrence of an element by its name.
+The `remove` method will let you remove the first occurrence of an element by its name.
 
 ```python
 # If you want to delete 'Chris', you need to do the following: 
@@ -130,9 +134,9 @@ del my_list[2:5]  # This statement deletes the items at indexes 2, 3 and 4
 print(my_list)  # Output ['Pedro', 'Chris', 'Mario', 'Bob']
 ```
 
-## Looping a List
+## Looping Lists
 
-
+### Python for loop
 Normally, when you manipulate lists, you have to loop all the items. For example: order them manually, flip them, filter them, etc.
 There are many ways you can loop an entire list, but the most used one is the `for` loop.
 
@@ -142,7 +146,7 @@ for number in my_list:
     print(number)
 ```
 
-## Looping using a position 
+### Looping using a position 
 
 Sometimes it is useful to loop the array using each element's position (index). We can do that by using the `range()` function.
 By default, the `range` will start from index zero and continue until a specified number is reached, not including that index number:
@@ -164,7 +168,7 @@ for i in range(len(my_list)):
 It is also possible to specify the starting index in the range, as well as the increment, by adding a starting point (the first parameter), and an increment value (the last parameter) in the `range` method:
 
 ```python
-my_list = ['Pedro', 'Chris', 'Mario', 'Bob', "Greg", "Kyle"]
+my_list = ['Pedro', 'Chris', 'Mario', 'Bob', 'Greg', 'Kyle']
 
 for i in range(1, 6, 2):  # range(start value, end value (non inclusive), increment value)
     print("The positions is " + str(i) + " for the element " + my_list[i])
@@ -175,4 +179,34 @@ for i in range(1, 6, 2):  # range(start value, end value (non inclusive), increm
 # The positions is 5 for the element Kyle
 ```
 
+### Python .map() method
+
+Similar to JavaScript Python has a `.map()` method, which will iterate over an array list and will call a lambda function for each element of the list. 
+
+```python
+happy_people = ['Bob', 'Greg', 'Kyle']
+
+result = map(lambda name: name + " is happy!", happy_people)
+
+```
+
+The map method will automatically run the lambda function and will pass to it each element from the list `happy_people` as an argument. The code after the colon `:` in the lambda is the return of the function.  
+
+By default, the `map()` method in Python does not return a list-formatted output, like you may expect it to do from JavaScript. Instead, it returns a map object reference in memory, which looks something like this:
+
+```python
+# using the last code sample:
+print(result) # Output <map object at 0x0000002C59601748>
+```
+
+To make use of such a map object, most commonly you will need to convert it into an iterable by **casting** it into a list, using the `list()` method:
+
+```python
+result = list(map(lambda name: name + " is happy!", happy_people))
+
+print(result) # Output ['Bob is happy!', 'Greg is happy!', 'Kyle is happy!']
+```
+
+
+--- 
 You can read more related articles at [4Geeks](https://4geeks.com/) and keep on the Geek side!
