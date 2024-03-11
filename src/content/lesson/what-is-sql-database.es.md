@@ -27,7 +27,7 @@ SELECT username FROM user WHERE email='info@breatheco.de'
 
 En un mundo en el que la presencia de datos es cada vez más protagonista por su importante impacto sobre la toma de decisiones y la proliferación de procesos de negocio guiados por los datos y la información, las bases de datos son la mejor manera de almacenarlos. De hecho, un componente fundamental en la industria 4.0 es, precisamente, esta tecnología. A partir de los datos podremos llevar a cabo procesos de Data Mining, Machine Learning y automatizaciones, pero todo parte de las bases de datos.
 
-El origen de las bases de datos eran los ficheros `.txt` y `.csv`, que si bien permitían almacenar una gran cantidad de información, los datos eran fáciles de corromper y de difícil acceso.
+El origen de las bases de datos eran los ficheros `.txt` y `.csv`, que si bien permitían almacenar una gran cantidad de información, los datos se podían corromper con facilidad y eran de difícil acceso.
 
 ![Edgar Codd](https://github.com/breatheco-de/content/blob/master/src/assets/images/11fcd6d8-6177-4f42-b4e0-7b6475f24b0a.jpeg?raw=true)
 
@@ -55,23 +55,23 @@ Una tabla puede contener un amplio conjunto de filas y columnas. De su tamaño d
 
 ### Relaciones entre tablas
 
-Una base de datos es una colección de tablas interconectadas. La conexión entre dos tablas se denomina `relación` y puede ser una de las siguientes:
+Una base de datos es una colección de tablas interconectadas. La conexión entre dos tablas se denomina "relación" y puede ser una de las siguientes:
 
-**Una a una:**
+#### Una a una:
 
-El ejemplo perfecto es la base de datos de la seguridad social, probablemente esta base de datos tiene una tabla llamada Contribuyente que contiene toda la información acerca de cada persona con un número de seguridad social y otra tabla con las Declaraciones De Impuestos del año en curso: **Una persona puede tener solo una declaración y solo una declaración puede ser hecha por una persona.**
+El ejemplo perfecto es la base de datos de la seguridad social, probablemente esta base de datos tiene una tabla llamada **Contribuyente** (*TaxPayer*) que contiene toda la información acerca de cada persona con un número de seguridad social y otra tabla con las Declaraciones De Impuestos del año en curso: **Una persona puede tener solo una declaración y solo una declaración puede ser hecha por una persona.**
 
 ![SQL una a una](https://github.com/breatheco-de/content/blob/master/src/assets/images/6f51ce02-3a75-4027-ada5-cf63c50d1701.png?raw=true)
 
-**Una a muchos:**
+#### Una a muchos:
 
-La base de datos de las Grandes Ligas en Baseball probablemente tiene una tabla llamada Jugadores (con la lista de todos los jugadores activos) y otra tabla llamada Equipos con la lista de todos los equipos activos. Ambas tablas están conectadas porque **un equipo tiene muchos jugadores, pero un jugador puede estar en un solo equipo.**
+La base de datos de las Grandes Ligas en Baseball probablemente tiene una tabla llamada **Jugadores** (*Players*) (con la lista de todos los jugadores activos) y otra tabla llamada **Equipos** (*Teams*) (con la lista de todos los equipos activos). Ambas tablas están conectadas porque **un equipo tiene muchos jugadores, pero un jugador puede estar en un solo equipo.**
 
 ![SQL una a muchos](https://github.com/breatheco-de/content/blob/master/src/assets/images/374d53ac-092f-4f34-a6f1-76bfaa5bd676.png?raw=true)
 
-**Muchos a muchos:**
+#### Muchos a muchos:
 
-Una base de datos de la biblioteca pública probablemente tenga una tabla llamada Autor (que contiene la información de todos los autores con libros publicados), y también otra tabla con TODOS los libros que se han publicado. Ambas tablas están relacionadas porque **un autor puede tener muchos libros y un libro puede tener muchos autores.**
+Una base de datos de la biblioteca pública probablemente tenga una tabla llamada **Autor** (*Author*) (que contiene la información de todos los autores con libros publicados), y también otra tabla con TODOS los **Libros** (*Books*) que se han publicado. Ambas tablas están relacionadas porque **un autor puede tener muchos libros y un libro puede tener muchos autores.**
 
 ![SQL muchos a muchos](https://github.com/breatheco-de/content/blob/master/src/assets/images/af7344fc-0ee0-499e-8926-8f70dc9b2b0d.png?raw=true)
 
@@ -90,7 +90,7 @@ CREATE TABLE IF NOT EXISTS `chat_group` (
   `chat_group_id` int(10) UNSIGNED NOT NULL,
   `name` varchar(20) NOT NULL,
   `create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY('chat_group_id')
+  PRIMARY KEY(`chat_group_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
 
@@ -112,7 +112,7 @@ DROP TABLE customers;
 
 #### Manipulando datos
 
-Cuando usamos SQL, existen 4 comandos principales para manipular datos: SELECT, INSERT, UPDATE y DELETE.
+Cuando usamos SQL, existen 4 comandos principales para manipular datos: `SELECT`, `INSERT`, `UPDATE` y `DELETE`.
 
 Todos esos comandos están diseñados para manipular UNO o VARIOS registros/filas de la base de datos al mismo tiempo. Pero, solo puedes ejecutar UN comando a la vez.
 
@@ -124,7 +124,9 @@ Esta es la operación más utilizada. Es la única forma de recuperar cualquier 
 SELECT column1, column2... columnN FROM table1 WHERE column1 = 3;
 
 // Selecciona un usuario en particular por su número de seguridad social
-SELECT ssn, username, email FROM USER WHERE ssn = '233-34-3453';
+SELECT ssn, username, email
+FROM user
+WHERE ssn = '233-34-3453';
 ```
 
 ##### INSERT:
@@ -135,7 +137,8 @@ Crea una nueva fila/registro en la tabla. Se agregará al final.
 INSERT INTO table_name (column1,column2,...columnN) VALUES (value1,value2,...valueN);
 
 // Inserta un usuario nuevo 
-INSERT INTO USER (ssn,username,email) VALUES ('234-45-3342','alesanchezr','a@breatheco.de');
+INSERT INTO user (ssn, username, email)
+VALUES ('234-45-3342', 'alesanchezr', 'a@breatheco.de');
 ```
 
 ##### UPDATE:
@@ -146,12 +149,14 @@ Actualiza un registro o una fila de una tabla específica. Es necesario proporci
 UPDATE table_name SET column1 = value1 WHERE [condition]
 
 // Actualiza el email de un usuario 
-UPDATE USER SET email = 'new@breatheco.de' WHERE ssn = '333-44-5534'
+UPDATE user
+SET email = 'new@breatheco.de'
+WHERE ssn = '333-44-5534'
 ```
 
 ##### DELETE:
 
-Funciona de manera muy similar a update, pero, en lugar de pasar los nuevos valores de las nuevas columnas que deseas actualizar, solo necesitamos especificar qué filas deseamos eliminar solicitando un grupo de condiciones.
+Funciona de manera muy similar a UPDATE, pero, en lugar de pasar los nuevos valores de las nuevas columnas que deseas actualizar, solo necesitamos especificar qué filas deseamos eliminar solicitando un grupo de condiciones.
 
 ```sql
 DELETE FROM table_name WHERE [condition]
@@ -160,7 +165,8 @@ DELETE FROM table_name WHERE [condition]
 DELETE FROM user;
 
 // Elimina un usuario en específico
-DELETE FROM user WHERE ssn = '342-45-6732'
+DELETE FROM user
+WHERE ssn = '342-45-6732';
 ```
 
 #### Integridad de los datos
@@ -236,7 +242,7 @@ SAVEPOINT savepoint_name;
 
 Este comando solo sirve en la creación de un SAVEPOINT entre declaraciones transaccionales. El comando ROLLBACK se usa para deshacer un grupo de transacciones.
 
-La sintaxis para volver a una SAVEPOINT es la siguiente:
+La sintaxis para volver a un SAVEPOINT es la siguiente:
 
 ```sql
 ROLLBACK TO savepoint_name;
@@ -260,4 +266,4 @@ La sintaxis para el comando es la siguiente:
 SET TRANSACTION [ READ WRITE | READ ONLY ];
 ```
 
-> 🔗 https://www.tutorialspoint.com/sql/sql-syntax.html
+> 🔗 https://www.tutorialspoint.com/sql/sql-syntax.htm
