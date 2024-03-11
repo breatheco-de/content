@@ -15,13 +15,13 @@ tags: ["SQL Alchemy","Python"]
 
 SQL Alchemy is an [Object-Relational Mapper/Mapping-tool](https://en.wikipedia.org/wiki/Object-relational_mapping), or ORM: a library that developers use to create databases and manipulate their data without the need of knowing/using SQL.
 
-There are other alternatives in Python like Peewee, and other languages have their own ORM's like PHP Eloquent or Java Hibernate.
+There are other alternatives in Python, like Peewee, and other languages have their own ORMs like PHP Eloquent or Java Hibernate.
 
 ## Why use ORM?
 
-ORM's have gained popularity because dealing with SQL language directly requires a lot of effort in many cases. The goal of any ORM is to simplify the maintenance of your data. This is done by creating ***objects*** to deal with database interactions.
+ORMs have gained popularity because dealing with SQL language directly requires a lot of effort in many cases. The goal of any ORM is to simplify the maintenance of your data. This is done by creating ***objects*** to deal with database interactions.
 
-With ORM's you won't have to type SQL again (95% of the time) and you will be able to work with objects.
+With ORMs you won't have to type SQL again (95% of the time), and you will be able to work with objects.
 
 ### Example:
 
@@ -45,7 +45,7 @@ db.session.add(user)
 db.session.commit()
 ```
 
-Just use the `db.session.commit()` function and everything you have done with your code will be translated into SQL language code.
+Just use the `db.session.commit()` function, and everything you have done with your code will be translated into SQL language code.
 
 ## Let's review the most typical database operations
 
@@ -69,7 +69,7 @@ The first step will be defining our model:
 ```py
 class Person(Base):
     __tablename__ = "person"
-    # Here we define columns for the table 'Person'
+    # Here we define columns for the table "Person"
     # Notice that each column is also a normal Python instance attribute
     id = Column(Integer, primary_key = True)
     name = Column(String(250), nullable = False)
@@ -84,7 +84,7 @@ class Person(Base):
 
 ### INSERT: Inserting a record into the database
 
-To insert a record in the database, it is first necessary to have the instance to be added. Then, add it to the database session and complete the action with a commit. The following code visualizes this functionality (replace `<username_value>` and `<email_value>` with the actual values you want to add):
+To insert a record in the database, it is first necessary to have the instance added. Then, add it to the database session and complete the action with a commit. The following code visualizes this functionality (replace `<username_value>` and `<email_value>` with the actual values you want to add):
 
 ```py
 person = Person(username = <username_value>, email = <email_value>)
@@ -139,7 +139,7 @@ A transaction is a sequence of operations (such as INSERT, UPDATE, SELECT) perfo
 
 All transactions must ensure 4 main properties (known as ACID properties): Atomicity, Consistency, Isolation and Durability.
 
-![Transactions](https://github.com/breatheco-de/content/blob/master/src/assets/images/tran-1.png?raw=true)
+![ACID Properties](https://github.com/breatheco-de/content/blob/master/src/assets/images/tran-1.png?raw=true)
 
 A transaction ends with `COMMIT` or `ROLLBACK`.
 
@@ -147,7 +147,7 @@ A transaction ends with `COMMIT` or `ROLLBACK`.
 
 The `COMMIT` command is used to permanently save the changes made in a transaction within the database. 
 
-When you use INSERT, UPDATE or DELETE, the changes made with these commands are not permanent, the changes made can be undone or, in other words, we can go back.
+When you use INSERT, UPDATE or DELETE, the changes made with these commands are not permanent; the changes made can be undone or, in other words, we can go back.
 
 However, when you use the COMMIT command, the changes in your database will be permanent.
 
@@ -231,4 +231,3 @@ Finally, our 'Pizza' looks like this:
 ![SQL Pizza model rollback](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-4.png?raw=true)
 
 ... I'm a bit hungry after reading this lesson!! Aren't you??
-
