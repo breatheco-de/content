@@ -69,7 +69,7 @@ DELETE /blog/15 HTTP/1.1`
 
 In addition to the first line, an HTTP request also has other lines of data called *request headers*, through which it can deliver a wide range of information in the request that the server will receive.
 
-Every response from a server will carry with it a *response code* or *status*. Some of the most common ones are listed below.
+Every response from a server will carry with it a *response code* or *status code*. Some of the most common ones are listed below.
 
 ### Response codes
 
