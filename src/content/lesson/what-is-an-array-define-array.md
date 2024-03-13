@@ -234,6 +234,8 @@ let points = [2, 1, 20, 100, 200, 15];
 
 If you want to sort real numbers, or if you want to use any other type of sorting to sort arrays, you can use a simple "compare function" as a parameter.
 
+You have to define a function that will take care of the comparisons. The sort function will call your function on each comparison and will let your function decide who comes first between both of the elements that are being compared.
+
 ```js runable=true
 let points = [2, 1, 20, 100, 200, 15];
     points.sort(function(a, b) {return a - b});
