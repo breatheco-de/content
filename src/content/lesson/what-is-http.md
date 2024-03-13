@@ -24,7 +24,7 @@ This communication, as shown in the following gif, is carried out through a proc
 
 ![Sending an image through the Internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif?raw=true)
 
-<small style="color:grey">Image 1: The 4 steps necessary to send images over the Internet: decoding the image, transmission, reception and decoding... Finally, the happy grandmother after seeing her granddaughter's picture!</small>
+<small style="color:grey">Image 1: The 4 steps necessary to send images over the Internet: decoding the image, transmission, reception and decoding... Finally, the grandmother feels happy after seeing her granddaughter's picture!</small>
 
 ### How does HTTP work?
 
