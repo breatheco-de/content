@@ -89,6 +89,6 @@ Unit testing, Gatsby.js, SSR, AWS, Node.js, Firebase, WordPress, React Native.
 ```
 
 ## Recursos adicionales:
-- Crea tu CV, fratis: [FlowCV.com](https://flowcv.io/) o [EnhanCV.com](https://enhancv.com/)
+- Crea tu CV, gratis: [FlowCV.com](https://flowcv.io/) o [EnhanCV.com](https://enhancv.com/)
 - Buenos consejos para CV: [FullStackResume.com](https://www.fullstackresume.com/)
 
