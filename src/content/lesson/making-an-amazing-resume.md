@@ -70,8 +70,9 @@ Each of your projects must have:
 These are the most important most wanted technologies for Full-Stack:
 
 ```txt
-HTML5/CSS3, Bootstrap, Javascript ECMAScript 2020, The DOM, GIT/Github, Python, Flask, API's, React.js, Flux, SCRUM, SQL, SQLAlchemy, MySQL, Postgres API's
+HTML5/CSS3, Bootstrap, Javascript ECMAScript 2020, DOM, GIT/Github, Python, Flask, APIs, React.js, Flux, SCRUM, SQL, SQLAlchemy, MySQL, Postgres
 ```
+
 and for Data Science:
 ```txt
 Python, Numpy, Pandas, Matplotlib, Data Science, Machine Learning, Exploratory data analysis (EDA), Webscraping
