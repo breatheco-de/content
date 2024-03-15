@@ -48,7 +48,7 @@ Note: Unit tests don't care about the content of the `sum` function, it only car
 
 Another novelty of ES6 is the "Arrow functions". The way to create these functions is as follows: First, we will define the list of parameters (if necessary) between parentheses, followed by the `=>` symbol and the `{}` to indicate the instructions to be carried out.
 
-In addition to the syntax that is different from the previous ones, this type of function include the following characteristics:
+In addition to the syntax that is different from the previous ones, this type of function includes the following characteristics:
 
 The "arrow functions" do not create their own context when executed. Unlike the "function expression" or the "function declaration", which creates its own context.
 
