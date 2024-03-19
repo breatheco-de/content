@@ -214,43 +214,41 @@ console.log(y); // --> [14, 3, 'a', 3245, 234, 52, 345, 3, 45, 23, 77]
 
 ## Sorting the Arrays
 
-It is very common needing to sort arrays. For example, sorting a list of students by name. You have two functions for sorting in JavaScript:
+It is very common needing to sort arrays. For example, sorting a list of students alphabetically by name. You have two functions for sorting in JavaScript, `sort()` and `reverse()`:
 
-### Sort and Reverse
+### Sort
 
-The `sort()` function sorts an array using string comparison logic – which means that the string "25" is bigger than "100", because "2" is bigger than "1".
-
-```runable=true
-let fruits = ["Banana", "Orange", "Apple", "Mango"];
-    fruits.sort();
-    console.log(fruits); // --> ['Apple', 'Banana', 'Mango', 'Orange']
-```
-
-The `reverse()` function reverses the order of an array, so if you want a reversed sorted array just make sure to use the `sort()` function **before** you reverse the array.
+The `sort()` function sorts the elements as strings, in alphabetical and ascending order. Which means it works well for strings. But sorting numbers can generate unexpected results:
 
 ```js runable=true
 let fruits = ["Banana", "Orange", "Apple", "Mango"];
     fruits.sort();
-    console.log(fruits); // --> ['Apple', 'Banana', 'Mango', 'Orange'] 
-    fruits.reverse();
-    console.log(fruits); // --> ['Orange', 'Mango', 'Banana', 'Apple']
+    console.log(fruits); // --> ['Apple', 'Banana', 'Mango', 'Orange']
+
+let points = [2, 1, 20, 100, 200, 15];
+    points.sort();
+    console.log(points); // --> [1, 100, 15, 2, 20, 200]
 ```
 
 ### Sorting Numbers
 
-If you want to sort real numbers, or if you want to use any other type of sorting to sort arrays, you have to use a "comparison function".
+If you want to sort real numbers, or if you want to use any other type of sorting to sort arrays, you can use a simple "compare function" as a parameter.
 
 You have to define a function that will take care of the comparisons. The sort function will call your function on each comparison and will let your function decide who comes first between both of the elements that are being compared.
 
 ```js runable=true
-let points = [40, 100, 1, 5, 25, 10];
+let points = [2, 1, 20, 100, 200, 15];
     points.sort(function(a, b) {return a - b});
-    console.log(points); // --> [1, 5, 10, 25, 40, 100]
+    console.log(points); // --> [1, 2, 15, 20, 100, 200]
 ```
+
+When comparing 100 and 200, `sort()` calls the function we defined: `function(100,200)` and returns a negative value (-100). Placing "a" (100) before "b" (200). If our function returns a positive value, sort() would place "b" before "a."
+
+> **Note:** This is just one of the uses of the `compareFunction` parameter. You can create custom functions and input them as parameters for any kind of sorting that you need. For more of it, [read the docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort).
 
 ### Sorting objects
 
-Now that we know about the comparison function, we can use it to tell the sort function how to sort our own special objects, like here for example:
+Now that we know about the compare function, we can use it to tell the sort function how to sort our own special objects, like here for example:
 
 ```js runable=true
 // Sorting objects
@@ -260,4 +258,16 @@ let cars = [
 	{ type: "BMW", year: 2010 }];
 cars.sort(function(a, b) { return a.year - b.year });
 console.log(cars); // --> [ {type: 'Saab', year: 2001}, {type: 'BMW', year: 2010}, {type: 'Volvo', year: 2016} ]
+```
+
+### reverse
+
+The `reverse()` function reverses the order of an array, so if you want a reversed sorted array just make sure to use the `sort()` function **before** you reverse the array.
+
+```js runable=true
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
+    fruits.sort();
+    console.log(fruits); // --> ['Apple', 'Banana', 'Mango', 'Orange'] 
+    fruits.reverse();
+    console.log(fruits); // --> ['Orange', 'Mango', 'Banana', 'Apple']
 ```
