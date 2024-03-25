@@ -97,9 +97,9 @@ db.session.commit()
 
 Hay 3 formas para obtener información de la base de datos:
 
-1. Obtener todos los registros de una tabla/modelo en particular usando `MyModel.query.all()`
-2. Obtener un único registro en función de su clave principal mediante `MyModel.query.get(id)`
-3. Obtener un grupo de registros en función de una consulta `Person.query.filter_by(arg1=value, arg2=value, ...)`
+1. Obtener todos los registros de una tabla/modelo en particular usando: `MyModel.query.all()`
+2. Obtener un único registro en función de su clave principal mediante: `MyModel.query.get(id)`
+3. Obtener un grupo de registros en función de una consulta: `Person.query.filter_by(arg1=value, arg2=value, ...)`
 
 ```py
 # Obtener todos los registros de una tabla/modelo en particular, en este caso, de Person
