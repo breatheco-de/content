@@ -68,7 +68,7 @@ let aux = myArray[5];
     console.log(myArray[myArray.length-1]); // Esto imprimirá el último elemento de la lista.
 ```
 
-## Actualizar Elementos en el Array
+## Actualizar elementos en el Array
 
 Si lo deseas, puedes restablecer o actualizar cualquier elemento dentro de un array usando el índice o index así:
 
