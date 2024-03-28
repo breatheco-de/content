@@ -72,7 +72,7 @@ Python se utiliza ampliamente en la ciberseguridad debido a su simplicidad, vers
 
 ### Python para Data Science 
 
-En los ultimpos años ha aumentando el uso de [Python para Data Science](https://4geeks.com/es/lesson/datascience-con-python) y se ha convertido en uno de los principales lenguajes para la visualización y tratamientos de datos actualmente lo cual era de esperar. Py posee librerías extremadamente potentes que permiten generar representaciones visuales como pueden ser los siguientes: 
+En los últimos años ha aumentando el uso de [Python para Data Science](https://4geeks.com/es/lesson/datascience-con-python) y se ha convertido en uno de los principales lenguajes para la visualización y tratamientos de datos actualmente lo cual era de esperar. Py posee librerías extremadamente potentes que permiten generar representaciones visuales como pueden ser los siguientes: 
 
 - Líneas, barras y marcadores.
 - Subgráficos y ejes.
