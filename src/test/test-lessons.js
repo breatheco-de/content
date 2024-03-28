@@ -14,8 +14,7 @@ const TestError = (lesson, message) => {
         path: lesson.path
     }
 }
-
-
+/* ME GUSTA EL ARTE */ 
 let slugs = [];
 const validateLessons = (report) => {
     let warnings = [];
