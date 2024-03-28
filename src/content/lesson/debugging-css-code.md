@@ -78,15 +78,15 @@ CSS has some hard-to-understand topics that can follow you for years and create 
 
 Do not use the **position property** for layouts, use `display: flex;` instead.
 
-I use the position rule for little things like attaching a notification bubble to an icon. Here is a 10 min video on [how absolute vs relative position work](https://www.loom.com/share/3715da41c2ec45be8711c4f8944e406b).
+I use the position rule for little things like attaching a notification bubble to an icon. Here is a 10-minute video on [how absolute vs relative position work](https://www.loom.com/share/3715da41c2ec45be8711c4f8944e406b).
 
 ## Flexbox for doing layouts
 
-The most powerful tool for building layouts is flexbox. [Here is a 5 min video on how it works](https://www.youtube.com/watch?v=ZRc2vUF92e8).
+The most powerful tool for building layouts is Flexbox. [Here is a 5-minute video on how it works](https://www.youtube.com/watch?v=ZRc2vUF92e8).
 
 ## Master the CSS Selectors
 
 Please take some time to master the basic and advanced CSS selectors. Here are some resources:
 
-- Here is an 8 min video on the [basics of CSS Selectors](https://www.youtube.com/watch?v=0Wt1n0wvSe8).
+- Here is an 8-minute video on the [basics of CSS Selectors](https://www.youtube.com/watch?v=0Wt1n0wvSe8).
 - Here is a lesson to help you understand all the [advanced selectors](https://4geeks.com/lesson/mastering-css-selectors) that will help you clean your code. Better code.
