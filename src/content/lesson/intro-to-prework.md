@@ -68,7 +68,7 @@ We will present you with one challenge after another, but a trusty senior develo
 
 You basically want to learn everything about the beautiful art of coding, but you don’t want to read that much... Yeah, we get it. As a result, we have made a huge effort in summing our lessons up. Everything you’ll find here will be the basis of your skills. There is nothing to "skip over."
 
-Your journey has already begun, and you should know that we are following every step of your learning. The Pre-Work is probably the most important phase to becoming a web developer, as it serves as a root to all of your skills in the future. Here you will understand the foundation of your skills, and you will learn to love coding like we do!
+Your journey into web development has officially begun, and please remember, we are here to support you at every step. The initial phase, or Pre-Work, is arguably the most crucial part of this journey. It lays the groundwork for all the skills you'll develop as you progress. During this phase, you'll build a strong foundation that will support your future growth. You'll start to see coding not just as a skill, but as a craft—one that we have come to love deeply. We're excited to see your progress and are confident you'll come to appreciate the beauty and power of coding just as much as we do!
 
 ![short attention meme](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/b96ddb9a-e076-4e27-b18e-f3fd7a256ad2.jpeg?raw=true)
 
