@@ -39,6 +39,7 @@ En algún momento de nuestras vidas (en algunos más que otros) podemos haber pe
 Cualquier persona en general puede aprender a programar, la programación se vuelve más complicada cuando te especializas más en tu carrera (Inteligencia Artificial, Robótica, etc.) Puedes ganar una buena cantidad de dinero sin tener que haber estudiado matemáticas, sin ser bueno con los números o sin aprender tan rápido como otros (es posible que podamos arreglar eso, por cierto). 
 
 
+
 ##### 📝 Receta para no perder la confianza en ti:
 
 1. **Evita estar atascado durante mucho tiempo:** Programar puede complicarse porque puedes estar a punto de resolver el problema y quedarte atascado sin ver la respuesta. Quizás no sepas cómo empezar a resolver un problema y una conversación de 5 minutos con un mentor te aclarará la mente.
@@ -69,7 +70,7 @@ Estos números no son pequeños, 60% en un día y 90% si no practicas en una sem
 
 ##### 📝 Receta para evitar la inactividad
 
-1. **Habla con tu pareja, amigo y familia:** Necesitas un descanso de prácticamente todo. Sabemos que la vida ya es lo suficientemente complicada para además añadirle más responsabilidades, pero este es sólo un breve periodo de tu tiempo. La recompensa es eterna ¡Todos deben alinearse! Intenta mantenerte abierto, tener un escritorio para trabajar sin distracciones, etc. Tu hogar debe estar sincronizado con este momento de tu vida.
+1. **Habla con tu pareja, amigo y familia:** Necesitas un descanso de prácticamente todo. Sabemos que la vida ya es lo suficientemente complicada para además añadirle más responsabilidades, pero este es solo un breve periodo de tu tiempo. La recompensa es eterna ¡Todos deben alinearse! Intenta mantenerte abierto, tener un escritorio para trabajar sin distracciones, etc. Tu hogar debe estar sincronizado con este momento de tu vida.
 
 2. **Habla con tu jefe:** Es posible que necesites algunas horas extra, tiempo de fin de semana, etc. Sé inteligente al respecto o él/ella podría sabotearte porque tiene miedo de perderte.
 
