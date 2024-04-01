@@ -233,7 +233,7 @@ for i in range(5):
 
 frutas = ["manzana", "banana", "cereza"]
 for fruta in frutas:
-    print(frutas)
+    print(fruta)
 
 # Muestra en consola: manzana, banana, cereza
 ```
