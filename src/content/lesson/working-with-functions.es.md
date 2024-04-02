@@ -169,17 +169,17 @@ console.log(multiply(firstSum, secondSum));
 
 ## Veamos un ejemplo:
 
-El siguiente código tiene 3 funciones declaradas:
+El siguiente código tiene 3 funciones declaradas: <!-- Purple color is dificult to see, just changed it for pink --!>
 
-*function <span style="color:purple">getAverage</span>(**array: ages**){*
+*function <span style="color:pink">getAverage</span>(**array: ages**){*
      ...
 *}*
 
-*function <span style="color:purple">getYoungest</span>(**array: ages**){*
+*function <span style="color:pink">getYoungest</span>(**array: ages**){*
      ...
 *}*
 
-*function <span style="color:purple">getPersonInfo</span>(**string: name**){*
+*function <span style="color:pink">getPersonInfo</span>(**string: name**){*
      ...
 *}*
 
