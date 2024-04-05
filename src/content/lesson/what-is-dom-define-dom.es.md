@@ -28,11 +28,21 @@ Con JavaScript podemos manipular el DOM (elementos del sitio web) durante el tie
 NOTA: Por favor recuerda siempre que todo el código JavaScript que escribas en tu documento HTML DEBE estar envuelto dentro de una etiqueta `<script>`, así:
 
 ```html
-<script>
+<script  type="text/javascript">
      // tu código aquí  
 </script>
 ```
 
+Hoy en día, solemos escribir todo nuestro código JS en un archivo separado con extensión .js, en cuyo caso la etiqueta de script en el cuerpo de tu html debe ser así:
+
+```html
+<body>
+    <div>algún contenido</div>
+    <div>más contenido</div>
+
+    <script src="index.js" type="text/javascript"></script>
+</body>
+```
 ## Cómo actualizar el DOM de tu sitio web
 
 Hay varias formas de manipular el DOM, pero la más sencilla es `document.write()`. Cada vez que escribas `document.write()`, estarás creando en el HTML el string que decidas pasar como parámetro a la función *write*.
