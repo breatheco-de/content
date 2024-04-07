@@ -17,7 +17,7 @@ We all know the importance, growth, and impact of the tech industry nowadays. Mo
 
 | Location             | Web Developer Salary | Junior Web Developer Salary |
 |----------------------|----------------------|-----------------------------|
-| United States        | $80,000 - $100,000   | $60,000 - $80,000           |
+| United States        | $90,000 - $100,000   | $60,000 - $80,000           |
 | Florida, USA         | $70,000 - $90,000    | $50,000 - $70,000           |
 | Spain                | €40,000 - €60,000    | €30,000 - €45,000           |
 | Mexico               | MXN 500,000 - MXN 700,000 | MXN 300,000 - MXN 500,000 |
