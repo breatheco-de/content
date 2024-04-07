@@ -135,7 +135,7 @@ Ahora que has creado commits, ¿cómo se hace referencia a un commit específico
 + Por su nombre SHA1 (que puedes obtener de `git log`).
 + Por los primeros caracteres de su nombre SHA1.
 + Por un head. Por ejemplo, `HEAD` se refiere al commit object al que hace referencia *HEAD*. También se puede utilizar el nombre (como master).
-+ Relativo a un commit.  Colocando el símbolo de intercalación (^) después del nombre del commit devuelve al padre de ese commit.  Por ejemplo, *HEAD^* es el padre del actual head commit.
++ Relativo a un commit.  Colocando el símbolo de intercalación (^) después del nombre del commit devuelve al padre de ese commit.  Por ejemplo, *HEAD* es el padre del actual head commit.
 
 ## Creando una Rama
 
@@ -270,7 +270,7 @@ Digamos que tienes una rama en tu repositorio local llamada "nueva-rama". Esa ra
 git push origin [nueva-rama]
 ```
 
-Si otra persona TAMBIÉN ha subido algunos cambios a esa rama, GIT rechazará el push y te dirá que primero descargues esos cambios en tu repositorio local antes de continuar.
+Si otra persona tambien ha subido algunos cambios a esa rama, GIT rechazará el push y te dirá que primero descargues esos cambios en tu repositorio local antes de continuar.
 
 Deberás:
 1. Descargar los archivos.
