@@ -1,5 +1,5 @@
 ---
-title: "Intro to Pre-Work"
+title: "INTRO TO PRE-WORK"
 subtitle: "We know what we are doing, you should know too.  Learn the process we have polished to make you learn 2 years of content in just a few weeks."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png?raw=true"
 textColor: "white"
@@ -17,7 +17,7 @@ We all know the importance, growth, and impact of the tech industry nowadays. Mo
 
 | Location             | Web Developer Salary | Junior Web Developer Salary |
 |----------------------|----------------------|-----------------------------|
-| United States        | $80,000 - $100,000   | $60,000 - $80,000           |
+| United States        | $90,000 - $120,000   | $60,000 - $80,000           |
 | Florida, USA         | $70,000 - $90,000    | $50,000 - $70,000           |
 | Spain                | €40,000 - €60,000    | €30,000 - €45,000           |
 | Mexico               | MXN 500,000 - MXN 700,000 | MXN 300,000 - MXN 500,000 |
