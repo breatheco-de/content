@@ -79,7 +79,7 @@ my_list[5] = 'Whatever value'
 
 The first way is to add the element to the end of the list. You should use this method every time you can because it's a lot faster than `insert`.
 
-```python
+```py runable=true
 my_list = ['Pedro', 'Juan', 'Maria']
 my_list.append('Chris')  # Adds Chris to the end of the list
 print(my_list)  # Output: ['Pedro', 'Juan', 'Maria', 'Chris']
@@ -89,7 +89,7 @@ print(my_list)  # Output: ['Pedro', 'Juan', 'Maria', 'Chris']
 
 Using insert is easier for the developer because it will let you pick the positions in which you want to insert the element, but it is a slower method (worse performance):
 
-```python
+```py runable=true
 my_list = ['Pedro', 'Juan', 'Maria']
 my_list.insert(1,'Chris')  # Adds Chris between Pedro and Juan
 print(my_list)  # Output ['Pedro', 'Chris', 'Juan', 'Maria']
@@ -103,7 +103,7 @@ Python has many ways to delete an element from a list.
 
 Without an argument, the `pop()` method will remove the last element. With an argument it will remove the element at that index. 
 
-```python
+```py runable=true
 my_list = ['Pedro', 'Chris', 'Juan', 'Maria', 'Branden']
 
 my_list.pop(2)
@@ -117,7 +117,7 @@ print(my_list) # Output ['Pedro', 'Chris', 'Maria']
 
 The `remove` method will let you remove the first occurrence of an element by its name.
 
-```python
+```py runable=true
 # If you want to delete 'Chris', you need to do the following: 
 my_list = ['Pedro', 'Chris', 'Juan', 'Maria', 'Chris']
 my_list.remove('Chris')
@@ -128,7 +128,7 @@ print(my_list)  # Output ['Pedro', 'Juan', 'Maria', 'Chris']
 
 It will allow you to delete many items at once, you have to specify the starting position and ending position.
 
-```python
+```py runable=true
 my_list = ['Pedro', 'Chris', 'Juan', 'Maria', 'Pepe', 'Mario', 'Bob']
 del my_list[2:5]  # This statement deletes the items at indexes 2, 3 and 4
 print(my_list)  # Output ['Pedro', 'Chris', 'Mario', 'Bob']
@@ -140,7 +140,7 @@ print(my_list)  # Output ['Pedro', 'Chris', 'Mario', 'Bob']
 Normally, when you manipulate lists, you have to loop all the items. For example: order them manually, flip them, filter them, etc.
 There are many ways you can loop an entire list, but the most used one is the `for` loop.
 
-```python
+```py runable=true
 my_list = [3423, 5, 4, 47889, 654, 8, 867543, 23, 48, 56432, 55, 23, 25, 12]
 for number in my_list:
     print(number)
@@ -151,7 +151,7 @@ for number in my_list:
 Sometimes it is useful to loop the array using each element's position (index). We can do that by using the `range()` function.
 By default, the `range` will start from index zero and continue until a specified number is reached, not including that index number:
 
-```python
+```py runable=true
 my_list = ['Pedro', 'Chris', 'Mario', 'Bob']
 
 # The range will cut off before len(my_list) is reached, and therefore we don't need to write (len(my_list)-1)
@@ -167,7 +167,7 @@ for i in range(len(my_list)):
 
 It is also possible to specify the starting index in the range, as well as the increment, by adding a starting point (the first parameter), and an increment value (the last parameter) in the `range` method:
 
-```python
+```py runable=true
 my_list = ['Pedro', 'Chris', 'Mario', 'Bob', 'Greg', 'Kyle']
 
 for i in range(1, 6, 2):  # range(start value, end value (non inclusive), increment value)
@@ -183,11 +183,12 @@ for i in range(1, 6, 2):  # range(start value, end value (non inclusive), increm
 
 Similar to JavaScript Python has a `.map()` method, which will iterate over an array list and will call a lambda function for each element of the list. 
 
-```python
+```py runable=true
 happy_people = ['Bob', 'Greg', 'Kyle']
 
 result = map(lambda name: name + " is happy!", happy_people)
 
+print(result)
 ```
 
 The map method will automatically run the lambda function and will pass to it each element from the list `happy_people` as an argument. The code after the colon `:` in the lambda is the return of the function.  
@@ -201,7 +202,7 @@ print(result) # Output <map object at 0x0000002C59601748>
 
 To make use of such a map object, most commonly you will need to convert it into an iterable by **casting** it into a list, using the `list()` method:
 
-```python
+```py runable=true
 result = list(map(lambda name: name + " is happy!", happy_people))
 
 print(result) # Output ['Bob is happy!', 'Greg is happy!', 'Kyle is happy!']
