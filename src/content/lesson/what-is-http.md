@@ -28,7 +28,7 @@ This communication, as shown in the following gif, is carried out through a proc
 
 ### How does HTTP work?
 
-![HTTP]([https://breathecode.herokuapp.com/v1/media/file/http-steps-png?raw=true)
+![HTTP](https://breathecode.herokuapp.com/v1/media/file/http-steps-png?raw=true)
 
 The HTTP protocol works through requests and responses from the client (e.g., a web browser) and a server (e.g., the computers that host and display websites). 
 
