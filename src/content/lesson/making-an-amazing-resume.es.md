@@ -66,20 +66,29 @@ Cada uno de tus proyectos debe tener:
 
 ## Habilidades
 
-Estas son las tecnologías requeridas más importantes:
+Estas son las tecnologías requeridas más importantes para Full-Stack:
 
 ```txt
-HTML5/CSS3, Bootstrap, Javascript ECMAScript 2020, Node.js, GIT/Github, Python, Flask, API's, React.js, Flux, SCRUM, SQL, SQLAlchemy, MySQL, Postgress API's
+HTML5/CSS3, Bootstrap, Javascript ECMAScript 2020, DOM, GIT/Github, Python, Flask, APIs, React.js, Flux, SCRUM, SQL, SQLAlchemy, MySQL, Postgres
+```
+y para Data Science:
+```txt
+Python, Numpy, Pandas, Matplotlib, Data Science, Machine Learning, Exploratory data analysis (EDA), Webscraping
 ```
 
 También has aprendido tecnologías secundarias que pueden ser útiles dependiendo de la compañía a la cual estas postulando:
 
 ```txt
-Heroku, Markdown, Use Stories, Data-Structures, Data-Modeling, REST, MVC, programación orientada a objetos, DOM.
+Despliegue, Markdown, User Stories, Data-Structures, Data-Modeling, REST, MVC.
 ```
 
 Adicionalmente estas son buenas tecnologías que no enseñamos durante las 16 semanas pero que son fáciles de aprender y añaden mucho valor a tu curriculum:
 
 ```txt
-Unit testing, jQuery, Gatsby.js, SSR, AWS, Firbase, WordPress, React Native.
+Unit testing, Gatsby.js, SSR, AWS, Node.js, Firebase, WordPress, React Native.
 ```
+
+## Recursos adicionales:
+- Crea tu CV, gratis: [FlowCV.com](https://flowcv.io/) o [EnhanCV.com](https://enhancv.com/)
+- Buenos consejos para CV: [FullStackResume.com](https://www.fullstackresume.com/)
+
