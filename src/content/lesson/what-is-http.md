@@ -93,4 +93,3 @@ HTTP status codes can be found [here](https://developer.mozilla.org/en-US/docs/W
 + `3xx` - Redirection
 + `4xx` - Client did something wrong
 + `5xx` - Server did something wrong
-
