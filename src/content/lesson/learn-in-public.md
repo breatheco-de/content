@@ -46,16 +46,16 @@ When you learn in public you: create in social media, you write in notebooks and
 
 I really doubt that, learning to code is hard and people read a lot about it and they need emotional support, just like with your testimonial you are helping a lot of people who will be interested in learning more about your story.
 
-### I'm no expert
+### I'm no expert.
 
 Nobody is! I've been coding for 20 years and I still think I'm no expert, by showing your perspective on the topics you just learned you are helping other amateurs on their journey.
 
-### I don't have time
+### I don't have time.
 
 You don't have to do it all, you can just pick one or two things you might enjoy doing. Even if you are learning privately, you have to take notes, finish coding projects, and challenge yourself, so why not take some extra time to publish them? I think it's 100% worth your time.
 
 I hope I made my case!!
 
-## Keep it up!
+## Keep it up!.
 
 If you want to read more about Learning in public I recommend reading [this article and all the amazing sources mentioned at the end of that article](https://www.swyx.io/learn-in-public/).
