@@ -1,35 +1,35 @@
 ---
-title: "¿Cómo instalar Pandas en Python?"
-subtitle: "Aprende a instalar Pandas en Python de manera sencilla y rápida. Sigue nuestra guía paso a paso para configurar correctamente Pandas."
+title: "How to Install Pandas in Python?"
+subtitle: "Learn how to easily and quickly install Pandas in Python. Follow our step-by-step guide to correctly set up Pandas."
 tags: ["python","pandas"]
 authors: ["DF27ARTS"]
 
 ---
 
-La [librería de pandas en Python](https://4geeks.com/es/lesson/pandas-en-python) es un recurso muy importante para un desarrollador a la hora de trabajar con una amplia cantidad de datos en Python, en este artículo veremos como instalar paso a paso esta librería en Windows, MacOS y Ubuntu ( Linux ). Si quieres un [tutorial sobre Pandas python](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning), te invito a leer el Blog de [4Geeks](https://4geeks.com/), donde encontrarás mucha información relevante.
+The [Pandas library in Python](https://4geeks.com/lesson/intro-to-pandas) is a very important resource for a developer when working with a large amount of data in Python. In this article, we will see how to install this library step by step on Windows, MacOS, and Ubuntu (Linux). If you are interested in a [👆🏽 Interactive tutorial on Pandas python](https://4geeks.com/interactive-exercise/pandas-exercises-tutorial).
 
-## Comando para instalar pandas:
+## Command to install pandas:
 
 ```bash
 pip install pandas
 ```
 
-Una vez termine la instalación verifica que pandas se instaló correctamente ejecutar el siguiente código en un entorno de desarrollo integrado como [visual studio code](https://code.visualstudio.com/docs).
+Once the installation is complete, verify that pandas was installed correctly by running the following code in an integrated development environment like [visual studio code](https://code.visualstudio.com/docs).
 
 ```py
 import pandas as pd
 print(pd.__version__) # Output: 1.5.2
 ```
 
-> La versión de pandas puede variar, sin embargo se va a ver similar a este formato.
+> The version of pandas may vary, however, it will look similar to this format.
 
-O si quieres conocer más información puedes ejecutar el siguiente comando en la terminal que te mostrará información más detallada sobre esta librería.
+Alternatively, if you want to know more information, you can run the following command in the terminal which will show you more detailed information about this library.
 
 ```bash
 $ pip show pandas
 ```
 
-> ( output ) en la terminal:
+> (output) in the terminal:
 
 
 ```bash
@@ -44,79 +44,81 @@ Location: C:\Users\57320\AppData\Local\Programs\Python\Python311\Lib\site-packag
 Requires: numpy, numpy, python-dateutil, pytz
 ```
 
-Esta información puede variar dependiendo de la versión de **Pandas** que tengas instalada y en que carpeta la hayas instalado.
+This information may vary depending on the version of **Pandas** you have installed and in which folder you have installed it.
 
-## Más detalles sobre ¿Cómo instalar Pandas?
+## More details on How to Install Pandas?
 
-Para instalar Pandas, primero debes asegurarte de que tienes instalado **Python** y el administrador de paquetes **pip** en tu ordenador, para esto debes abrir una terminal, luego ejecutar los siguientes comandos:
+To install Pandas, you must first ensure that you have **Python** and the **pip** package manager installed on your computer. To do this, you must open a terminal, then execute the following commands:
 
 ```bash
-$ python --version # verifica si tienes Python instalado
+$ python --version # checks if you have Python installed
 
-$ pip --version # Verifica si tienes el paquete pip instalado
+$ pip --version # Checks if you have the pip package installed
 ```
 
-Si aún no tienes [Python](https://4geeks.com/es/lesson/que-es-python-tutorial) instalado, ingresa a la página [instalar python](https://www.python.org/downloads/), escoje la versión de Python que quieres instalar y sigue las instrucciones.
+If you do not yet have [Python](https://4geeks.com/lesson/intro-to-python) installed, go to the [install python](https://www.python.org/downloads/) page, choose the version of Python you want to install, and follow the instructions.
 
-Normalmente el paquete de **pip** ya viene instalado junto con Python pero si por alguna razón no lo tienes instalado o quieres actualizarlo puedes hacerlo con los siguientes comandos: 
+Normally, the **pip** package is already installed with Python, but if for some reason it is not installed or you want to update it, you can do so with the following commands: 
 
 ```bash
 $ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 $ python get-pip.py
 ```
 
-Ahora que ya confirmaste que tienes **Python** y el paquete **pip** instalados correctamente, ya puedes instalar la librería de **Pandas** en tu ordenador, para esto escribe en la terminal el siguiente comando:
+Now that you have confirmed that you have **Python** and the **pip** package installed correctly, you can install the **Pandas** library on your computer by writing the following command in the terminal:
 
 ```bash
 $ pip install pandas
 ```
 
-Una vez terminada la instalación puedes verificar que se instalo correctamente con el comando:
+Once the installation is finished, you can verify that it was installed correctly with the command:
 
 ```bash
 $ pip show pandas
 ```
 
-## ¿Qué es Pandas en Python?
+## What is Pandas in Python?
 
-Pandas en una biblioteca de Python que te permite analizar y manipular datos, esta biblioteca es ampliamente utilizada en el desarrollo con Python en áreas como la ciencia de datos (Data science), [Machine learning](https://4geeksacademy.com/us/machine-learning-engineer/machine-learning-engineer), Inteligencia artificial entre muchas otras. 
+Pandas is a Python library that allows you to analyze and manipulate data. This library is widely used in Python development in areas such as data science, [Machine learning](https://4geeksacademy.com/us/machine-learning-engineer/machine-learning-engineer), artificial intelligence, among many others.
 
-Una ventaja de Pandas es que la puedes integrar con otras librerías de Python como la librería de NumPy, la integración de Pandas con NumPy te permite realizar análisis de datos y operaciones matematicas avanzadas junto con la visualización de datos de una forma más eficiente.
+One advantage of Pandas is that you can integrate it with other Python libraries like NumPy. The integration of Pandas with NumPy allows you to perform data analysis and advanced mathematical operations along with data visualization more efficiently.
 
-## ¿Cómo actualizar la versión de Pandas?
+## How to Update the Version of Pandas?
 
-Para actualizar la biblioteca de pandas en tu ordenador puedes hacerlo con un comando muy sencillo no importa si tu sistema operativo es **Windows**, **MacOS** o **Ubuntu** (linux) puedes usar el mismo comando para actualizar pandas en cualquier sistema operativo.
+To update the Pandas library on your computer, you can do so with a very simple command, no matter if your operating system is **Windows**, **MacOS**, or **Ubuntu** (Linux). You can use the same command to update Pandas on any operating system.
 
-Para actualizar **Pandas** primero debes abrir una terminal, a continuación verás cómo hacerlo dependiendo de tu sistema operativo.
+To update **Pandas**, you must first open a terminal. Below is how to do it depending on your operating system.
 
 ```
 > Windows
-Presiona la combinación de teclas [ windows + R ] y luego escribe "cmd"
+Press the [ windows + R ] keys and then type "cmd"
 
 > MacOS
-Presiona la combinación de teclas [ command + space ] y luego escribe "Terminal"
+Press the [ command + space ] keys and then type "Terminal"
 
 > Ubuntu (linux)
-Presiona la combinación de teclas [ Ctrl + Alt + T ]
+Press the [ Ctrl + Alt + T ] keys
 ```
 
-Una vez tengas abierta la terminal escribe los siguientes comandos:
+Once you have opened the terminal, type the following commands:
 
 ```py
-# Verifica tu versión actual de pandas, ejemplo: 1.5.2
+#
+
+ Verify your current version of pandas, example: 1.5.2
 pip show pandas
 
-# Actualiza pandas en tu ordenador
+# Update pandas on your computer
 pip install --upgrade pandas
 
-# Verifica tu versión de pandas actualizada, ejemplo: 2.0.2
+# Verify your updated version of pandas, example: 2.0.2
 pip show pandas
 ```
 
-Con el comando `pip install --upgrade pandas` actualizarás **Pandas** en tu ordenador a la última versión estable disponible. Ahora ya prodrás acceder a las últimas características disponibles en esta librería.
+With the command `pip install --upgrade pandas`, you will update **Pandas** on your computer to the latest stable version available. Now you will be able to access the latest features available in this library.
 
-## Conclusión
+## Conclusion
 
-En conclusión pandas es una biblioteca muy útil a la hora de trabajar con datos en Python, esta biblioteca te permite analizar y manipular datos complejos además de que la puedes integrar con otras librerías de Python como NumPy para analizar y visualizar datos. Es una herramienta muy útil en áreas de desarrollo como Data Science, Machine Learning y básicamenta para cualquier programa que trabaje con una amplia cantidad de datos en Python.
+In conclusion, pandas is a very useful library when working with data in Python. This library allows you to analyze and manipulate complex data and you can integrate it with other Python libraries like NumPy for data analysis and visualization. It is a very useful tool in development areas such as Data Science, Machine Learning, and basically for any program that works with a large amount of data in Python.
 
-Si te interesa conocer más a fondo cómo puedes utilizar la biblioteca de **Pandas** en Machine Learning te recomiendo que visites el artículo sobre [pandas para machine learning](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning), donde encontraras recursos muy utiles y explicaciones con ejemplos de código y videotutoriales que te ayudarán a enterder mejor esta librería y aprenderas a utilizar todas las caracteristicas mas importantes que ofrese.
+If you are interested in learning more about how you can use the **Pandas** library in Machine Learning, I recommend visiting the tutorial on [pandas for machine learning](https://4geeks.com/interactive-exercise/pandas-exercises-tutorial), where you will find very useful resources and explanations with code examples and video tutorials that will help you better understand this library and learn to use all the most important features it offers.
