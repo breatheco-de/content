@@ -5,15 +5,15 @@ tags: ["debugging", "web development"]
 
 ---
 
-We all make mistakes when coding. This is a reality that every senior developer acknowledges, which is why "debugging code" has become one of the most essential skills for developers.
+We all make mistakes when coding(except for the greats). This is a reality that every senior developer acknowledges, which is why "debugging code" has become one of the most essential skills for developers.
 
-## It's OK to make mistakes
+## It's OK to make mistakes!
 
 > I have measured my "error rate"; I know I make > 100 mistakes during an honest day of coding (and I have been coding for 23 years, since the year 2000). 
 
 These mistakes can be very simple, like misspelling a line of code, or more elaborate rabbit holes, like writing some code that leads to a memory overflow. I'm not scared of making these mistakes because I have a very effective and fast way of identifying and fixing bugs.
 
-## Your job is to become a master of debugging
+## Your job is to become a master of debugging!
 
 Throughout the years, I have developed a very effective debugging recipe that I will share below. It takes me just a few seconds to find and fix 90% of my bugs and mistakes, leaving no room for improvisation or shooting darts.
 
@@ -23,7 +23,7 @@ Throughout the years, I have developed a very effective debugging recipe that I 
 
 Junior Web Developers. There are so many types of bugs and debugging techniques in coding that it's almost impossible to write them all; that's why I decided to focus this guide on Junior Developers only in the early stages of their full-stack web development career.
 
-## Preventing bugs
+## Preventing bugs!
 
 I know you are here to learn how to fix errors. Still, it's worth mentioning that most junior developer bugs can be prevented using automated code formatters, linters, autocompletion tools, writing with high [code readability](https://4geeks.com/lesson/what-is-and-how-to-improve-code-readability), and best practices. 
 
@@ -31,11 +31,11 @@ I know you are here to learn how to fix errors. Still, it's worth mentioning tha
 
 <quote>If debugging is the process of removing software bugs, then programming must be the process of putting them in. -- Edsger Dijkstra</quote>
 
-## How to debug code: The debugging framework
+## How to debug code: The debugging framework!
 
 The debugging steps and tools may vary significantly depending on the programming language (HTML/CSS, JavaScript, Python, etc.), the libraries, the tools (Pandas, Flask, Express, Rails, Postgres, etc.), and the error message or other patterns and attributes you can notice about the error.
 
-### Identify the type of bug: Basic Exploration
+### Identify the type of bug: Basic Exploration!
 
 It's a good idea to break down bugs into "types" so we can prepare strategies for each group type. After years of debugging code, I have designated 4 front-end and 4 back-end bug types.
 
@@ -79,13 +79,13 @@ I'm going to assume the worst: You have no idea when the bug first appeared and 
 
 There is a 99% probability your error will show up on any of these outputs, but that does not mean the error belongs to the front or back end - you **must** read the error first.
 
-#### Reading errors from the developer console
+#### Reading errors from the developer console!
 
 **Back-end errors** in the developer JavaScript console are usually indicated by messages such as `"404 Not Found"` or `"500 Internal Server Error"`, `"CORS policy"`, etc.
 
 **Front-end errors** are often indicated by messages such as `"Uncaught ReferenceError: x is not defined"`, `"SyntaxError: Unexpected token <"`, `"Uncaught TypeError: x is not a function"`, `"Uncaught TypeError: Cannot read property 'length' of undefined"`, etc.
 
-#### Reading errors from the network tab
+#### Reading errors from the network tab!
 
 The quickest way to identify errors in the network tab of the developer tools is to look for requests with a status other than 200 OK.
 
@@ -102,7 +102,7 @@ Here is a more detailed list:
 
 As a second source of information, and especially if the error is a `4xx`, you can check if the request payload has the expected format and values.
 
-#### Reading the back-end terminal
+#### Reading the back-end terminal!
 
 If you have an error while running a script (not a server), it's a back-end error.
 
@@ -110,13 +110,13 @@ If you are running a server, the error may be a poorly formatted request coming 
 
 If the request payload, URL, and headers are OK, it's a back-end error.
 
-#### Reading the server request log
+#### Reading the server request log!
 
 Lastly, if you have an error on a web server (like Express, Flask, Django, etc.) it's a good idea to check the log of requests being asked to the server. In the request log, you can see every request that your front end made to your API, sorted by timestamp. Here is a short explanation of one request log example:
 
 ![request log example](https://storage.googleapis.com/media-breathecode/53b8907096b009687a251a9ce7f9270cab0ab57342f2372ccbabfce421f7afaa)
 
-### Narrowing down the bug
+### Narrowing down the bug!
 
 If you followed the previous steps correctly, you'd know what part of your code the bug is related to. So stay focused and don't guess! You have handy information about your bug - use it and pull that thread. 
 
@@ -127,13 +127,13 @@ For example:
 + The Network tag has request status code 4xx? Go and fix the code crafting the request.  
 + The Network tag has request status code 5xx? Go and read the back-end terminal for Syntax or Database errors.  
 
-### Trial an error until you fix it
+### Trial an error until you fix it!
 
 If you attempt to fix the bug by making changes to your code and another bug shows up, that is usually good news! I call this nested debugging.
 
 You must be confident in your bug exploration and the information you gathered to stay focused on the solution. Wait to start another theory; give the current approach a good try!
 
-### Fix the bug
+### Fix the bug!
 
 The last step is obviously fixing the bug; it may take a while, and you may have some nested bugs along the way.
 
