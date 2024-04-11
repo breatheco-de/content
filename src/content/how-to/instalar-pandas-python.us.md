@@ -1,7 +1,7 @@
 ---
 title: "How to Install Pandas in Python?"
 subtitle: "Learn how to easily and quickly install Pandas in Python. Follow our step-by-step guide to correctly set up Pandas."
-tags: ["python","pandas"]
+tags: ["python","pandas", "machine-learning"]
 authors: ["DF27ARTS"]
 
 ---
