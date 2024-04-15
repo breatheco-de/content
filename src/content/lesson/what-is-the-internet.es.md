@@ -52,7 +52,7 @@ Lo que esto quiere decir es que: **todo es texto**. Pues sí, si quieres enviarl
 
 Todo está conectado. La mejor manera de entender esto es comparándolo con el servicio postal:
 
-+ Las autopistas y las calles son los cables de red en sus paredes (o las antenas de transmisión en los techos).
++ Las autopistas y las calles son los cables de red en tus paredes (o las antenas de transmisión en los techos).
 + Los vehículos que transportan el correo son los paquetes de información de viaje.
 + Las casas, edificios y tiendas son las páginas web / sitios de compras en línea - los parques serían redes sociales, etc.
 + La dirección es el nombre de dominio famoso (.com, .net, etc.)
