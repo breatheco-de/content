@@ -10,7 +10,7 @@ canonical: ""
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 ---
 
-¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro, estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor lean hasta el final, ¡trataré de no aburrirlos!
+¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro, estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor, lean hasta el final, ¡trataré de no aburrirlos!
 
 ## Lo que ya sabes:
 
@@ -36,7 +36,7 @@ En algún momento de nuestras vidas (en algunos más que otros) podemos haber pe
 
 > Si algún ejercicio o proyecto en particular te parece difícil, en vez de pensar que no sirves para esto, busca nuevas maneras de absorber el contenido. Habla con un mentor y te daremos exactamente lo que necesitas.
 
-Cualquier persona en general puede aprender a programar, la programación se vuelve más complicada cuando te especializas más en tu carrera (Inteligencia Artificial, Robótica, etc.) Puedes ganar una buena cantidad de dinero sin tener que haber estudiado matemáticas, sin ser bueno con los números o sin aprender tan rápido como otros (es posible que podamos arreglar eso, por cierto). 
+Cualquier persona en general puede aprender a programar, la programación se vuelve más complicada cuando te especializas más en tu carrera (Inteligencia Artificial, Robótica, etc.). Puedes ganar una buena cantidad de dinero sin tener que haber estudiado matemáticas, sin ser bueno con los números o sin aprender tan rápido como otros (es posible que podamos arreglar eso, por cierto). 
 
 
 ##### 📝 Receta para no perder la confianza en ti:
