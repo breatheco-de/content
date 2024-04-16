@@ -1,6 +1,6 @@
 ---
 title: "Before Starting Full Stack Development"
-subtitle: "Quick review about concepts you need to know in CSS, HTML and JS before starting the Full Stack Development course"
+subtitle: "Quick review about concepts you need to know in CSS, HTML, and JS before starting the Full Stack Development course"
 tags: ["html/css", "web-development"]
 
 ---
@@ -12,13 +12,13 @@ The upcoming material assumes that you have a good level of understanding of the
 ## Things you should know about HTML/CSS
 
 - What is HTML, and what is it used for?
-- The most essential tags like headings (`<h1>, <h2>, <h3>`...), paragraphs (`<p>`), ordered/unordered lists (`<ol>, <ul>`), etc. Think about how each of these tags changes the look, feel and the behavior of your website. For example, what looks bigger, `<h1>` or `<h2>`? Why use `<ul>` instead of `<ol>`? Etc.
+- The most essential tags like headings (`<h1>, <h2>, <h3>`...), paragraphs (`<p>`), ordered/unordered lists (`<ol>, <ul>`), etc. Think about how each of these tags changes the look, feel, and  behavior of your website. For example, what looks bigger, `<h1>` or `<h2>`? Why use `<ul>` instead of `<ol>`? Etc.
 - How to include a separate CSS stylesheet into your website by using the `<link>` tag.
 - How to override or enhance the way that HTML tags look and behave by using CSS selectors and rules, for example:
   - How can I select an element to update its styles? [By using a selector](https://4geeks.com/lesson/what-is-css-learn-css#wait-what-is-a-selector).
   - The most simple things like changing text color and manipulating fonts (size, family, etc). 
   - Changing the element's background color or image. 
-- Fully comprehend the `<div>` tag that inherently behaves as a "box" (which means that it has borders, width and height) and how to use `<div>` to separate your content visually.
+- Fully comprehend the `<div>` tag that inherently behaves as a "box" (which means that it has borders, width, and height) and how to use `<div>` to separate your content visually.
 - How to create the most common website layouts using the `display: flex;` CSS rule.
   - How can you make a `<div>` be on the side of another? By applying `display: flex;` to a common immediate parent.
   - How can you make a sidebar layout?
@@ -51,7 +51,7 @@ The upcoming material assumes that you have a good level of understanding of the
 ## Things you should know about JavaScript
 
 - JavaScript is "event-oriented", which means your code will execute based on some user or browser event, for example: When the user clicks, when the website loads, when the user scrolls, when the website reloads, etc.
-- JavaScript can create HTML and CSS the same way you do: You can tell JS to write any HTML you want. Basically, the code can "write itself" if you create a smart enough website.
+- JavaScript can create HTML and CSS the same way you do: You can tell JS to write any HTML you want. The code can "write itself" if you create a smart enough website.
 - JavaScript code must always go in JavaScript files that end with `.js`. Other ways are discouraged 99% of the time.
 - You can import JS using the `<script>` tag.
 
