@@ -57,4 +57,6 @@ El material pendiente asume que tienes un buen nivel de comprensión de los sigu
 
 ## Bienvenido al desarrollo web
 
-¡Eso es! Estás listo si conoces el 70% de estos puntos. De lo contrario, te alentamos a buscar más información sobre cada uno de estos temas, leer nuestras lecciones, practicar algunos ejercicios nuevamente y, tal vez, incluso pedirle a Google o a uno de nuestros mentores excelentes recursos para aprender más al respecto.
+¡Excelente! ¡Te has aventurado en el vibrante mundo del desarrollo web! Si ya estás familiarizado con al menos el 70% de los puntos que te presentamos, ¡estás en el camino correcto! Pero si sientes que te falta algo, ¡no te preocupes! Aquí estamos para ayudarte a navegar por las olas del conocimiento. ¿Listo para sumergirte más profundamente? ¡Vamos a explorar juntos! Recuerda, Google y nuestros mentores están esperando ansiosamente para guiarte en esta emocionante travesía. ¡Aprender y crecer nunca fue tan divertido! 🚀🌟
+
+
