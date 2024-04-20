@@ -61,7 +61,7 @@ El inspector de herramientas de desarrollo muestra una **versión en vivo** de t
 + **Si has escrito código HTML incorrecto**: El navegador intentará corregirlo para que se muestre correctamente, pero esto solo a veces dará como resultado el diseño deseado. Cuando utilices el inspector de herramientas de desarrollo, verás el código HTML que el navegador interpreta, que puede ser diferente del código fuente original si el navegador ha realizado algunas correcciones.
 
 <details>
- <summary>Nota: Hay otros ejemplos más avanzados donde el Inspector HTML no coincidirá con tu código fuente; puedes abrir estos detalles para leer más sobre ellos.</summary>
+ <resumen>Nota: Hay otros ejemplos más avanzados donde el Inspector HTML no coincidirá con tu código fuente; puedes abrir estos detalles para leer más sobre ellos.</resumen>
 
 + Minificación: A veces, los sitios web comprimen y optimizan el código para tiempos de carga más rápidos. El inspector HTML mostrará el código minificado, que puede ser difícil de leer.
 
