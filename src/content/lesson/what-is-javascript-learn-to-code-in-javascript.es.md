@@ -203,8 +203,8 @@ Por ejemplo, si quiero un computador para dar dulces solo a niños mayores de 13
 |No Igual a    |!=             |Es 5 != 5? False!<br>Es 5 != '5'? False!<br>Es 1 != 'Hello' True!   |
 |Mayor que   |>              |Es 5 > 5? False!<br>Es 6 > 3? True!    |
 |Menos que    |<              |Es 6 < 12? True            |
-|Mayor o igual |>=             |Es 6 <= 6? True<br>Es 3 <= 6? True    |
-|Menor o igual  |<=            |Tienes la idea 🙂       |
+|Menor o igual |<=            |Es 6 <= 6? True<br>Es 3 <= 6? True    |
+|Mayor o igual  |>=             |Tienes la idea 🙂       |
 
 Para crear operaciones realmente útiles, puedes combinar varias operaciones en la misma pregunta usando AND, OR y NOT (y, o y no respectivamente).
 
