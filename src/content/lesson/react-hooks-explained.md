@@ -285,10 +285,13 @@ const Todos = (props) => {
       fetchList();
     },[] // <---- thanks to this empty array the use effect will be called only once
   );
+      return <ul>{tasks.map((t, index) => <li key={index}>{t.label}</li>)}</ul>;
 }
+
 ```
 
-> ☝ Review the code in depth and check the live demo by [clicking here](https://codesandbox.io/s/xenodochial-varahamihira-egh86?fontsize=14).
+> ☝ Review the code in depth and check the live demo by [clicking here](https://codesandbox.io/p/sandbox/using-the-useeffect-to-load-data-on-component-mount-forked-8gprc3).
+
 
 ## Further Reading
 
