@@ -261,15 +261,30 @@ const Todos = (props) => {
     // Initialize the "tasks" variable to an empty array and hook it to setTasks function
     const [ tasks, setTasks ] = useState([]);
 
-    // This useEffect will run only one time, when the component is finally loaded the first time
-    useEffect(() =>
-        // Here I fetch my todos from the API
-        fetch('https://assets.breatheco.de/apis/fake/todos/user/alesanchezr')
-            .then(r => r.json())
-            .then(data => setTasks(data)) // Here it re-setted the variable "tasks" with the incoming data
-    , []);
+  // This function encapsulates the logic of fetching the todo list
+  // and creating a new one if the list doesn't exists
+  const fetchList = async () => {
+    const endpoint = "https://playground.4geeks.com/todo/users/demo";
+    let response = await fetch(endpoint);
+    if (response.ok) {
+      // If the list is fetched, the task gets loaded with the todos
+      let data = await response.json();
+      setTasks(data.todos);
+      return response.status;
+    }
+    if (response.status == 404) {
+      // If the list is not found, it must be created with a POST request
+      let newList = await fetch(endpoint, { method: "POST" });
+      if (newList.ok) setTaks([]);
+    }
+  };
 
-    return <ul>{tasks.map((t, index) => <li key={index}>{t.label}</li>)}</ul>;
+  //this function useEffect will run only one time, when the component is finally lodaded the first time.
+  useEffect(() => {
+      // here I fetch my todos from the API
+      fetchList();
+    },[] // <---- thanks to this empty array the use effect will be called only once
+  );
 }
 ```
 
