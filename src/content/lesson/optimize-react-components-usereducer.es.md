@@ -18,7 +18,7 @@ El useReducer es una propuesta de React para separar la lógica de la vista de t
 
 Este es un ejemplo sencillo de un contador para entender como usar useReducer:
 
-```react
+```jsx
   const intitialCounter = () => ({counter: 0});
   const [state, dispatch] = useReducer(counterReducer, intitialCounter());
 ```
@@ -29,7 +29,7 @@ El hook `useReducer` recibe como primer parámetro una función que define el `r
 
 A su vez la función reducer (en este ejemplo se llama `counterReducer`) se define con 2 parámetros: El `state` que contiene los datos del reducer, y un objeto `"actions"` que se usa para identificar las acciones que podemos ejecutar para manipular el state.
 
-```react
+```jsx
 function counterReducer(state , action = {}) {
   // Aquí el reducer recibe el estado actual
   // luego ejecuta las acciones
@@ -89,7 +89,7 @@ En este ejemplo tenemos un contador que no solamente suma de 1 en 1, sino tambi�
 
 Para realizar todas estas acciones se necesitan funciones para cada una de ellas, ademas del estado en si. Para eso usaremos el clasico hook `useState`, [aprende mas aquí](https://4geeks.com/es/lesson/react-hooks-explained-es).
 
-```react
+```jsx
 export default function CounterUsingState() {
   const [counter, setCounter] = useState(0);
   const increment = () => setCounter(counter + 1);
@@ -142,7 +142,7 @@ export default function counterReducer(state, action = {}) {
 
 Ahora desde el componente importamos y hacemos uso del reducer:
 
-```react
+```jsx
 import React, { useReducer } from "react";
 import counterReducer, { intitialCounter } from "./counterReducer";
 

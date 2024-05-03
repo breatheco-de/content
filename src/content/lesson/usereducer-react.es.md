@@ -19,7 +19,7 @@ El useReducer es una propuesta de React para separar la logica de la vista en tu
 
 Este es el ejemplo más sencillo de useReducer:
 
-```react
+```jsx
   const intitialCounter = () => ({counter: 0});
   const [state, dispatch] = useReducer(counterReducer, intitialCounter());
 ```
@@ -30,7 +30,7 @@ El hook `useReducer` recibe como primer parámetro una función que define el `r
 
 A su vez la función reducer (en este ejemplo se llama `counterReducer`) se define con 2 parámetros: El `state` que contiene los datos del reducer, y un objeto `"actions"` que se usa para identificar las acciones que podemos ejecutar para manipular el state.
 
-```react
+```jsx
 function counterReducer(state , action = {}) {
   // Aquí el reducer recibe el estado actual
   // luego ejecuta las acciones
@@ -80,7 +80,7 @@ Ya con esto podemos tener tanto las funciones `counterReducer` e `intitialCounte
 
 Estamos acostumbrados a percibir los componentes como la unidad que agrupa la vista y la lógica para su funcionamiento. Por ejemplo: En el siguiente código hay un componente `Counter` que tiene el HTML para definir como debería verse un contador de números y tambien existe la logica de como deberia sumar una unidad cada vez que se presione el botón "+1"
 
-```react
+```jsx
 export default function Counter() {
 
   // Logica ⬇️
@@ -112,7 +112,7 @@ En este ejemplo tenemos un contador que no solamente suma de 1 en 1, sino tambi�
 
 Para realizar todas estas acciones se necesitan funciones para cada una de ellas, ademas del estado en si. Para eso usaremos el clasico hook `useState`, [aprende mas aquí](https://4geeks.com/es/lesson/react-hooks-explained-es).
 
-```react
+```jsx
 export default function CounterUsingState() {
   const [counter, setCounter] = useState(0);
   const increment = () => setCounter(counter + 1);
@@ -139,7 +139,7 @@ export default function CounterUsingState() {
 
 Esto funciona perfecto, pero para hacer la lógica reutilizable y moverlo a otro archivo, lo convertiremos en un reducer:
 
-```react
+```jsx
 // counterReducer.js
 export const intitialCounter = () => ({
   counter: 0
@@ -165,7 +165,7 @@ export default function counterReducer(state, action = {}) {
 
 Ahora desde el componente importamos y hacemos uso del reducer:
 
-```react
+```jsx
 import React, { useReducer } from "react";
 import counterReducer, { intitialCounter } from "./counterReducer";
 
