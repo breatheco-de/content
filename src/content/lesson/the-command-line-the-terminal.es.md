@@ -166,7 +166,7 @@ find . -name *.mp3
 
 Esto te ayudará a ahorrar tiempo y a cometer menos errores al escribir:
 
-+ Para cancelar un comando que se está ejecutando, presiona `ctrl + c`
++ Para cancelar un comando que se está ejecutando, presiona `ctrl + c`.
 + Para completar automáticamente el nombre de un archivo o carpeta, usa la tecla `tab`.
 + Para repetir cualquier comando que hayas usado en el pasado, usa la flecha arriba `↑` y te mostrará cada comando, uno por uno.
 + Para ir a la carpeta principal del usuario, usa la tecla `~`, así: `cd ~`.
