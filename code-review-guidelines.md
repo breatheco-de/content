@@ -17,6 +17,10 @@ This process is easy to do using Rigobot as you can see [here](https://github.co
 * Mentors play a key role in reviewing modified code and providing feedback on best practices.
 
 ### Common Guidelines for Conducting Code Reviews
+You can check [this general guide](https://4geeks.com/lesson/coding-standards-guidelines) about good code practices, is useful to understand what the student might achieve when writting code, and is useful for you to understand what you need to review in the student's code.
+
+
+
 ![charlytoc_Close-up_image_of_a_screen_showing_code_with_inline_c_f14f9948-2321-49c3-955c-d86fc1bb3676](https://github.com/breatheco-de/content/assets/107764250/0d9351ff-e622-4c4d-9676-8a3ae0356c93)
 
 #### 1. **Understand the Context**
