@@ -65,7 +65,7 @@ Sabemos cómo enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseña
 
 Esto es un bootcamp, no importa si lo haces tiempo-completo o tiempo-parcial, debes tener mentalidad de bootcamp y trabajar cada día como si fuera el último. El cerebro humano absorbe 80% más cuando se siente desafiado y asustado, si descansas un día el cerebro se relaja y [está demostrado](https://www.youtube.com/watch?v=h5PLO4XAXhs) que usualmente se olvida del 60% de la información recientemente adquirida a menos que la uses, de forma repetida y constante durante un periodo de 7 días (por lo menos).
 
-Estos números no son pequeños, 60% en un día y 90% si no practicas en una semana ¡Estás perdiendo tu tiempo y dinero si no te lo tomas en serio!
+Estos números no son pequeños, 60% en un día y 90% si no prácticas en una semana ¡Estás perdiendo tu tiempo y dinero si no te lo tomas en serio!
 
 ##### 📝 Receta para evitar la inactividad
 
