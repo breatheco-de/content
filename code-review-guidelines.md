@@ -6,7 +6,7 @@
 
 A code review is an essential part of the learning process for students. It's a way to ensure that students are following good coding practices as they work on projects. When using version control systems like Git, students typically make multiple commits as they modify their files.
 As mentors, it's our responsibility to review this modified code and identify areas where the student may not be following best practices. This process helps students improve their coding skills and learn from their mistakes.
-This process is easy to do using Rigobot as you can see [here](https://github.com/breatheco-de/content/blob/master/how-to-review-code.md)
+This process is easy to do using Rigobot as you can see [here](https://4geeks.com/lesson/how-to-review-code)
 
 
 ### Key Takeaways
@@ -17,6 +17,10 @@ This process is easy to do using Rigobot as you can see [here](https://github.co
 * Mentors play a key role in reviewing modified code and providing feedback on best practices.
 
 ### Common Guidelines for Conducting Code Reviews
+You can check [this general guide](https://4geeks.com/lesson/coding-standards-guidelines) about good code practices, is useful to understand what the student might achieve when writting code, and is useful for you to understand what you need to review in the student's code.
+
+
+
 ![charlytoc_Close-up_image_of_a_screen_showing_code_with_inline_c_f14f9948-2321-49c3-955c-d86fc1bb3676](https://github.com/breatheco-de/content/assets/107764250/0d9351ff-e622-4c4d-9676-8a3ae0356c93)
 
 #### 1. **Understand the Context**
