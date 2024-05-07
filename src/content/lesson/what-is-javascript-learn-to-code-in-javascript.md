@@ -132,7 +132,7 @@ What operations can I do to variables? Depending on the data-type you have a few
 
 + Numbers are easy, you can do whatever math operation you want.
 + Strings can be concatenated (merged), split, converted to Upper or Lower Case, etc.
-+ You cannot do much to Null, Booleans, and Undefined data-types.
++ You can't do much to Null, Booleans, and Undefined data-types.
 + We will talk about Arrays and Objects in a different section. They require a lot more attention.
 
 ## Functions
