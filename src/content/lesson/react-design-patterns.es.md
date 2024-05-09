@@ -1,6 +1,6 @@
 ## ¿Que son patrones de diseño?
 
-La programación se trata de escribir instrucciones para ser interpretadas por una maquina, lo que nos lleva en muchos casos a que existan muchas formas de solucionar un mismo problema. Aun asi hay asuntos comunes que se deben considerar a la hora de hacer crecer un sistema o lograr que tenga un buen desempeño si tiene una gran concurrencia, ahi los patrones de diseño nos ayudan a dar solución a estos escenarios.
+La programación se trata de escribir instrucciones para ser interpretadas por una maquina, lo que nos lleva en muchos casos a que existan varias formas de solucionar un mismo problema. Aun asi hay asuntos comunes que se deben considerar a la hora de hacer crecer un sistema o lograr que tenga un buen desempeño si tiene una gran concurrencia, ahi los patrones de diseño nos ayudan a dar solución a estos escenarios.
 
 > Los patrones de diseño son estrategias para solucionar problemas comunes en la programación. Algunos solucionan problemas de reutilización de código, otros problemas de escalabilidad o eficiencia. No se trata de librerías o frameworks específicos, son mas bien formas de utilizar las herramientas que te ofrece una determinada tecnología, para evitar problemas que ya son bien conocidos y cuyas soluciones ya han sido probadas.
 
@@ -17,7 +17,7 @@ Algunas librerías implementan este patrón por defecto, como por ejemplo React 
 
 Claro que también puedes crear tus propios contextos con lo que necesites, por ejemplo puedes crear un contexto que sirva para cambiar el diseño de tu aplicación de un modo claro a un modo oscuro, veamos como hacerlo:
 
-```react
+``` jsx
 // ThemeProvider.jsx
 import React, { createContext, useContext, useState } from "react";
 
@@ -46,7 +46,7 @@ export function ThemeProvider({ children }) {
 
 Luego de esto solo queda envolver nuestra aplicación en el proveedor y empezar a usar el contexto en nuestros componentes.
 
-```react
+```jsx
 // index.jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -63,7 +63,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 ```
 
-```react
+```jsx
 // App.jsx
 import "./App.css";
 // Importamos el contexto de nuestro tema
@@ -90,7 +90,7 @@ Este patrón plantea la creación de componentes que estén diseñados para cont
 
 En este ejemplo tenemos un componente de tarjeta (Card) de bootstrap que tiene una funcionalidad básica, pero que implementa el patrón HOC para que recibir otros componentes como cuerpo de dicha tarjeta. Esto permite tener componentes de tarjeta similares, que comparten funcionalidades comunes, pero que tienen una estructura propia para el contenido.
 
-```react
+```jsx
 // Card.jsx
 export default function wrapCard(BodyComponent) {
   const CardWrapper = (props) => {
@@ -118,7 +118,7 @@ export default function wrapCard(BodyComponent) {
 
 A la hora de crear el componente para el cuerpo se debe exportar llamando a la función que lo va a envolver en el componente de nivel superior.
 
-```react
+```jsx
 // Character.jsx
 import wrapCard from "./Card";
 
@@ -148,7 +148,7 @@ Este patrón plantea la integración de componentes que están hechos para traba
 
 Si bien los componentes hijos se declaran como cualquier otro componente, se suelen exportar como miembros del componente principal, para que en implementación sea mas notoria su integración.
 
-```react
+```jsx
 // Contexto para el conjunto de componentes
 const SelectContext = createContext();
 
@@ -166,7 +166,7 @@ export default Select;
 
  Para el ejemplo crearemos un selector de opciones para un formulario. El componente padre será `<Select>` y es el que va a crear el contexto para exponer los datos y la lógica que necesita el conjunto.
 
-```react
+```jsx
 const Select = ({ children, onUpdateSelected, name }) => {
   const [selected, setSelected] = useState([]);
 
@@ -200,7 +200,7 @@ const Select = ({ children, onUpdateSelected, name }) => {
 
 El componente hijo `<Select.Option>` va a necesitar la función 'checkOption' y la propiedad 'name' para los inputs, por lo que no podrá funcionar fuera del contexto donde estén estos elementos. Adicionalmente también se suelen colocar validaciones que impiden que los componentes hijos se usen fuera del contexto debido.
 
-```react
+```jsx
 // Componente option
 const Option = ({ value, children }) => {
   const { checkOption, name } = useContext(SelectContext);

@@ -75,7 +75,7 @@ Algunas librerías implementan este patrón por defecto, como por ejemplo React 
 
 Claro que también puedes crear tus propios contextos con lo que necesites, por ejemplo puedes crear un contexto que sirva para cambiar el diseño de tu aplicación de un modo claro a un modo oscuro, veamos como hacerlo:
 
-```react
+```jsx
 // ThemeProvider.jsx
 import React, { createContext, useContext, useState } from "react";
 
@@ -104,7 +104,7 @@ export function ThemeProvider({ children }) {
 
 Luego de esto solo queda envolver nuestra aplicación en el proveedor y empezar a usar el contexto en nuestros componentes.
 
-```react
+```jsx
 // index.jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -121,7 +121,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 ```
 
-```react
+```jsx
 // App.jsx
 import "./App.css";
 // Importamos el contexto de nuestro tema
