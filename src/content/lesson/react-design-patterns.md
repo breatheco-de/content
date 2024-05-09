@@ -6,11 +6,69 @@ La programación se trata de escribir instrucciones para ser interpretadas por u
 
 Los planteamientos de los patrones de diseño se hacen de forma genérica, de manera que puedan ser implementados en contextos específicos con sus propias particularidades. En éste articulo vamos a ver algunos patrones utilizados en React y que sirven para hacer nuestra aplicación mas escalable y eficiente.
 
+## Componentes de orden superior (Higher order components - HOC)
+
+Este patrón plantea la creación de componentes que estén diseñados para contener en su interior a otro componente, al mismo tiempo que le agrega funcionalidades. Este componente contenedor, llamado de orden superior, tiene que contemplar funcionalidades comunes que puedan ser requeridas por los demás componentes que serán envueltos con él.
+
+En este ejemplo tenemos un componente de tarjeta (Card) de bootstrap que tiene una funcionalidad básica, pero que implementa el patrón HOC para que recibir otros componentes como cuerpo de dicha tarjeta. Esto permite tener componentes de tarjeta similares, que comparten funcionalidades comunes, pero que tienen una estructura propia para el contenido.
+
+```react
+// Card.jsx
+export default function wrapCard(BodyComponent) {
+  const CardWrapper = (props) => {
+    // Esta función será utilizada por todos los componentes envueltos en este
+    const saveClick = () => {
+      console.log("Saved props: " + JSON.stringify(props));
+    };
+    return (
+      <>
+        <div className="card">
+          <div className="card-header">
+            <ul className="nav">
+                {/* Barra de herramienta para las tarjetas*/}
+            </ul>
+          </div>
+          {/* Aquí se coloca el componente del cuerpo de la tarjeta*/}
+          <BodyComponent {...props} />
+        </div>
+      </>
+    );
+  };
+  return CardWrapper;
+}
+```
+
+A la hora de crear el componente para el cuerpo se debe exportar llamando a la función que lo va a envolver en el componente de nivel superior.
+
+```react
+// Character.jsx
+import wrapCard from "./Card";
+
+const CharacterCard = ({ character }) => {
+  return (
+    <>
+      <div className="card-header">
+        {/* Encabezado de la tarjeta */}        
+      </div>
+      <div className="card-body">
+        {/* Cuerpo de la tarjeta */}
+      </div>
+    </>
+  );
+};
+// Se exporta envuelto en el componente de nivel superior
+export default wrapCard(CharacterCard);
+```
+
+Así como este componente pueden crearse todos los que sean necesarios utilizando el patrón HOC para que todos compartan funcionalidades y estilos. Aquí tienes un ejemplo implementando esta tarjeta:
+
+<iframe src="https://replit.com/@4GeeksAcademy/Higher-Order-Component?embed=true&theme=dark#src/Card.jsx"></iframe>
+
 ## Patrón proveedor (Provider)
 
 Este patrón se popularizo en la comunidad de React desde que se introdujo la api de contexto (Context API), se trata de básicamente de crear un componente que **provee** de un estado a todos los componentes en su interior. Tratándose de aplicaciones que se forman en base a componentes, se pueden crear varias capas de proveedores (cada una dentro de otra) que provean de varios contextos a tu aplicación.
 
-![Las apps de react son como cebollas](https://breathecode.herokuapp.com/v1/media/file/apps-de-react-son-como-cebollas "Las apps de react son como cebollas")
+![React apps are like onions](https://breathecode.herokuapp.com/v1/media/file/react-apps-are-like-onions "React apps are like onions").
 
 Algunas librerías implementan este patrón por defecto, como por ejemplo React Router que envuelve toda la aplicación en un componente `<BrowserRouter>` y luego te permite crear layouts con rutas dinámicas con el componente `<Routes>`, creando asi varias capas de proveedores. Si quieres saber más de como usar React Router puedes visitar [éste artículo](https://4geeks.com/es/lesson/routing-our-views-with-react-router-es).
 [this article](https://4geeks.com/lesson/routing-our-views-with-react-router).
@@ -83,64 +141,6 @@ export default function App() {
 
 Puedes ver otros usos de la api de contexto en [ésta lección](https://4geeks.com/lesson/context-api). Aquí podemos ver el resultado final en funcionamiento:
 <iframe src="https://replit.com/@4GeeksAcademy/Demo-Context-API?embed=true&run=true#src/index.jsx"></iframe>
-
-## Componentes de orden superior (Higher order components - HOC)
-
-Este patrón plantea la creación de componentes que estén diseñados para contener en su interior a otro componente, al mismo tiempo que le agrega funcionalidades. Este componente contenedor, llamado de orden superior, tiene que contemplar funcionalidades comunes que puedan ser requeridas por los demás componentes que serán envueltos con él.
-
-En este ejemplo tenemos un componente de tarjeta (Card) de bootstrap que tiene una funcionalidad básica, pero que implementa el patrón HOC para que recibir otros componentes como cuerpo de dicha tarjeta. Esto permite tener componentes de tarjeta similares, que comparten funcionalidades comunes, pero que tienen una estructura propia para el contenido.
-
-```react
-// Card.jsx
-export default function wrapCard(BodyComponent) {
-  const CardWrapper = (props) => {
-    // Esta función será utilizada por todos los componentes envueltos en este
-    const saveClick = () => {
-      console.log("Saved props: " + JSON.stringify(props));
-    };
-    return (
-      <>
-        <div className="card">
-          <div className="card-header">
-            <ul className="nav">
-                {/* Barra de herramienta para las tarjetas*/}
-            </ul>
-          </div>
-          {/* Aquí se coloca el componente del cuerpo de la tarjeta*/}
-          <BodyComponent {...props} />
-        </div>
-      </>
-    );
-  };
-  return CardWrapper;
-}
-```
-
-A la hora de crear el componente para el cuerpo se debe exportar llamando a la función que lo va a envolver en el componente de nivel superior.
-
-```react
-// Character.jsx
-import wrapCard from "./Card";
-
-const CharacterCard = ({ character }) => {
-  return (
-    <>
-      <div className="card-header">
-        {/* Encabezado de la tarjeta */}        
-      </div>
-      <div className="card-body">
-        {/* Cuerpo de la tarjeta */}
-      </div>
-    </>
-  );
-};
-// Se exporta envuelto en el componente de nivel superior
-export default wrapCard(CharacterCard);
-```
-
-Así como este componente pueden crearse todos los que sean necesarios utilizando el patrón HOC para que todos compartan funcionalidades y estilos. Aquí tienes un ejemplo implementando esta tarjeta:
-
-<iframe src="https://replit.com/@4GeeksAcademy/Higher-Order-Component?embed=true&theme=dark#src/Card.jsx"></iframe>
 
 ## Patrón de componentes compuestos (Compound components)
 
