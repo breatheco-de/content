@@ -77,7 +77,7 @@ Estos números no son pequeños, 60% en un día y 90% si no practicas en una sem
 
 4. **Involúcrate:** Asistir a clases no es suficiente, los seres humanos son emocionales, integran mejor la información cuando están comprometidos emocionalmente, asistiendo a eventos y estudiando en grupos, hablando públicamente al respecto, etc.
 
-## ¿Qué sigue?
+### ¿Qué sigue?
 
 Asegúrate de entender bien cómo funciona la academia:
 
