@@ -3,6 +3,7 @@ title: "Optimizing your components with useReducer"
 subtitle: "The React components are easy to optimize when necessary. For that we count on with the useReducer hook,  which allows us to encapsulates not only the state of a component, but also the logic that comes with it. Now we'll see...."
 cover: "https://www.desktopbackground.org/p/2013/09/13/637935_nasa-wallpapers_1600x1200_h.jpg"
 textColor: "white"
+video: "https://www.youtube.com/watch?v=bnlQzZLYRYo"
 date: "2024-01-16T16:45:31-04:00"
 tags: ["react","javascript"]
 status: "draft"
