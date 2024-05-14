@@ -61,7 +61,7 @@ def hello()  # Este método se llamará cuando el cliente haga el request
 app.run(host='0.0.0.0')  # Finalmente iniciamos el servidor en el localhost
 ```
 
-En Flask podemos agregar nuevos endpoints utilizando el decorador `@app.route`, no te preocupes si esta es la primera vez que ves un decorador, el concepto es muy simple y [aquí hay un video de 5 minutos explicándolo](https://www.youtube.com/watch?v=7ipNLN9y-nc).
+En Flask podemos agregar nuevos endpoints utilizando el decorador `@app.route`. No te preocupes si esta es la primera vez que ves un decorador, el concepto es muy simple y [aquí hay un video de 5 minutos explicándolo](https://www.youtube.com/watch?v=7ipNLN9y-nc).
 
 ## Agregando nuevos endpoints
 
