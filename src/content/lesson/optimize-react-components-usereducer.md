@@ -13,7 +13,7 @@ status: "draft"
 
 
 The hooks were launched on version 16.8 of React. Since then all the architecture of react has transformed into a series of hooks that allow the implementation of most of the most important coding design patterns.
-useReducer is a proposal from React to separate the logic from the view of your components. There are other solutions like Redux, Flux, Global Context, etc; however, useReducer is easy to use and keeps the data in a local scope, which means that even when the components are reusing the functions, they don't share data.
+useReducer is a proposal from React to separate the logic from the view of your components. There are other solutions like Redux, Flux, Context API, etc; however, useReducer is easy to use and keeps the data in a local scope, which means that even when the components are reusing the functions, they don't share data.
 
 ## Example of a useReducer
 
