@@ -11,7 +11,7 @@ cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/le
 
 ---
 
-Welcome!! 🤩👏 My name is Alejandro, and I'm typing these words after years of teaching code and changing lives. Please, I beg you to read until the end, I will try my best not to bore you!
+Welcome!! 🤩👏 My name is Alejandro, and I'm typing these words after years of teaching code and changing lives. Please, I beg you to read until the end, I will try my best not to bore you! amira
 
 ## What you already know
 
