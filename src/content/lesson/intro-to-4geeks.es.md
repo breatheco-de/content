@@ -10,7 +10,7 @@ canonical: ""
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 ---
 
-¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro, estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor lean hasta el final, ¡trataré de no aburrirlos!
+¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro, estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor, lean hasta el final, ¡Trataré de no aburrirlos!
 
 ## Lo que ya sabes:
 
@@ -45,7 +45,7 @@ Cualquier persona en general puede aprender a programar, la programación se vue
 
 2. **Habla con otros estudiantes:** Puede que pienses que eres el único que no entiende, pero si hablas con otros compañeros verás que no eres solo tú y te dará confianza para hacer preguntas.
 
-3. **Habla con los mentores:** Una voz con experiencia siempre es buena, hay egresados y profesores que ya han pasado por momentos difíciles o que están con dificultades ¡en este mismo momento! Pueden ayudarte durante los tiempos oscuros, no solo estamos hablando de brindarte soluciones de programación, sino de brindarte estrategias para tener éxito en tu vida (¿como desarrollador?).
+3. **Habla con los mentores:** Una voz con experiencia siempre es buena, hay egresados y profesores que ya han pasado por momentos difíciles o que están con dificultades ¡En este mismo momento! Pueden ayudarte durante los tiempos oscuros, no solo estamos hablando de brindarte soluciones de programación, sino de brindarte estrategias para tener éxito en tu vida (¿como desarrollador?).
 
 #### Pared #2: Confianza ✝
 
