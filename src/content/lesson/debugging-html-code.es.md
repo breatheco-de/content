@@ -7,13 +7,13 @@ tags: ["debugging", "web development", "html/css"]
 
 ## Depuración de código HTML
 
-El código HTML es difícil de depurar inicialmente, pero es fácil de comprender si sigues esta receta. Solo necesitas conocer 2-3 cosas antes de comenzar a codificar o depurar en HTML que te harán un maestro. Sí, es tan fácil, así que no te preocupes y sigue leyendo.
+El código HTML es difícil de depurar inicialmente, pero en realidad es fácil de comprender si sigues las siguientes instrucciones. Para ello necesitas conocer no mas de 2-3 pasos antes de comenzar a codificar en HTML. Ten en cuenta que las personas tienden a sobredimensionar el proceso de aprendizaje, es una respuesta totalmente natural que ocurre en nuestro cerebro ante lo desconocido, asi que ignorala, sobre todo si comenzamos desde cero.
 
-Si estás interesado en depurar otros lenguajes o tecnologías, aquí está nuestra guía completa sobre [qué es la depuración](https://4geeks.com/es/lesson/que-es-depurar-codigo) y cómo convertirse en un maestro de la depuración al desarrollar front-end y back-end.
+Si estás interesado en depurar otros lenguajes o tecnologías, aquí está nuestra guía completa sobre [qué es la depuración](https://4geeks.com/es/lesson/que-es-depurar-codigo) y cómo convertirse gradualmente en un maestro de la depuración al desarrollar front-end y back-end.
 
 ## Prevención de errores
 
-Esta guía trata de solucionar un error, pero vale la pena mencionar cómo prevenir la mayoría de los errores desde el principio:
+Esta guía nos muestra como corregir algunos errores, sin embargo un desarrollador web debe priorizar la prevencion de los errores al iniciar un proyecto bajo el marco de sus posibilidades:
 + **ABC = Always Be Closing** (siempre cierra) los tags como prioridad. Si abres un tag `<p>`, ¡ciérralo inmediatamente! Así: `<p></p>`, y luego procede a llenar el contenido HTML interno.
 + **Usa un formateador de código** que indente tu código automáticamente. La mayoría de los errores al principio surgen porque tu código es desordenado y desafiante de seguir con tus ojos. Terminas abriendo/cerrando tags en el lugar equivocado.
 
