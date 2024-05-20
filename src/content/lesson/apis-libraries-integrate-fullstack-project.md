@@ -1,5 +1,5 @@
 ---
-title: "APIs and libraries to integrate into your Fullstack projects".
+title: "APIs and libraries to integrate into your Fullstack projects"
 subtitle: "When you do a project for your Fullstack developer portfolio you want to show how far you can go. These APIs and libraries can help you make your project shine and get the attention of that recruiter who is looking for you."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
