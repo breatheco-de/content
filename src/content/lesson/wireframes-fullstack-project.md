@@ -65,7 +65,7 @@ Choose a color palette that is consistent with your company's brand and pleasing
 Typography is another important element that can affect the look and feel of a web application. Choose a font that is easy to read and aligns with your company's branding.
 Use different font sizes and weights to create visual hierarchy and differentiate between different types of content.
 
-### Images and videos
+### 5. Images and videos
 
 Images and videos can add visual interest to a web application and make it more appealing to users.
 Use high quality images and videos that are relevant to the content of your page. Optimize images so that they load quickly and do not affect website performance.
