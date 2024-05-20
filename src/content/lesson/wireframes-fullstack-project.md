@@ -1,3 +1,11 @@
+---
+title: "UI/UX: Interface Design and User Experience Fundamentals"
+subtitle: "In addition to good functionality, we want our web application to be intuitive for the user. We don't want them to need help to navigate it and use its functionalities, that's why we must understand how to achieve this with a good design and user experience."
+cover_local: "../../assets/images/cdbe1bf9-2b6b-4c21-b127-eacc681d9c8d.png"
+textColor: "white"
+tags: ["UI/UX","Diseño"]
+---
+
 ## Wireframes and web application structure
 
 Wireframes or website skeletons are simplified visual representations of the structure and functionality of a website or mobile application. They are used in the early stages of the design and development process to define the general layout of the user interface and the placement of key elements.They are usually black and white or gray sketches that do not include graphic details such as colors, typography or images. This is because the main purpose of a wireframe is to focus on structure and functionality, not aesthetics.

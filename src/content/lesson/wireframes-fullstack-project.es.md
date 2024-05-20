@@ -1,3 +1,11 @@
+---
+title: "Fundamentos de Diseño de Interfaces y experiencia de usuario - UI/UX"
+subtitle: "Ademas de buenas funcionalidades, queremos que nuestra aplicación web sea intuitiva para el usuario. Queremos que no necesite ayuda para navegarla y utilizar las funcionalidades que tiene, por ello es que debemos entender cómo lograr esto con un buen diseño y experiencia de usuario"
+cover_local: "../../assets/images/cdbe1bf9-2b6b-4c21-b127-eacc681d9c8d.png"
+textColor: "white"
+tags: ["UI/UX","Diseño"]
+---
+
 ## Wireframes y estructura de una aplicación web
 
 Los wireframes o esqueletos de sitio web son representaciones visuales simplificadas de la estructura y funcionalidad de una página web o aplicación móvil. Se utilizan en las primeras etapas del proceso de diseño y desarrollo para definir el diseño general de la interfaz de usuario y la ubicación de los elementos clave.Suelen ser bocetos en blanco y negro o grises que no incluyen detalles gráficos como colores, tipografías o imágenes. Esto se debe a que el objetivo principal de un wireframe es centrarse en la estructura y la funcionalidad, no en la estética.
