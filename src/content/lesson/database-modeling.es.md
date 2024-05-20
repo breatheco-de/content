@@ -1,3 +1,12 @@
+---
+title: "Modelado de bases datos"
+subtitle: "Uno de los retos de trabajar con bases de datos es organizar la información en tablas de forma eficiente y que garantice la consistencia de los datos, para ello las formas normales no dicen que debemos cumplir para tener la base de datos mejor ordenada."
+cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png?raw=true"
+textColor: "white"
+tags: ["database","SQL","Postgres","modeling"]
+
+---
+
 ## Conceptos básicos
 
 Cuando hablamos de bases de datos relacionales la principal ventaja que se nos viene a la mente es la integridad de los datos. Estas bases de datos permiten distribuir la información en tablas distintas para agrupar información según sea pertinente y crear relaciones entre las tablas para asociar los datos. Sin embargo para mantener la integridad es necesario cumplir ciertos estándares a la hora de diseñar nuestras tablas. Necesitamos que la estructura sea pertinente a los datos que queremos almacenar y que garantice la integridad de la información así como su consistencia y evite tener información redundante innecesaria.
