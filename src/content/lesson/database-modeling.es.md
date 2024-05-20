@@ -458,3 +458,5 @@ Ahora puedes ver cómo se relacionan los productos de cada pedido, junto con la 
 [Abrir en tamaño completo](https://raw.githubusercontent.com/breatheco-de/content/master/src/assets/svg/databaseModel.svg)
 
 El costo de esto es que ahora tenemos que hacer consultas cruzando la información de varias tablas, pero a cambio se tiene una base de datos sin redundancia y con datos más consistentes y confiables. Si por ejemplo un cliente cambia su información, todos los pedidos realizados anteriormente se relacionan únicamente con el registro actualizado del cliente, generando mayor confiabilidad para los usuarios del sistema.
+
+Por ultimo te recomendamos un herramienta en linea que te permite crear estos diagramas de forma sencilla y donde podrás trabajar también de forma colaborativa. Puedes ver el ejemplo en (QuickDatabaseDiagrams.com)[https://app.quickdatabasediagrams.com/#/d/9Vjtfe] y ver lo sencillo que es crear modelos. Para acceder la documentación y aprender a usar la herramienta selecciona la opción "DOCS" en la barra superior de la pantalla.
