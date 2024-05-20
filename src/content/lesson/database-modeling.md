@@ -313,7 +313,7 @@ In the case of the product table in the example, it would be solved as follows:
 
 Now you can see how the products in each order are related, along with the quantity of that product for the corresponding order. Here you can see the final model of the database
 
-![Database model](../../assets/images/database-model.png)
-[Open FullSize](../../assets/svg/databaseModel.svg)
+![Database model](https://raw.githubusercontent.com/breatheco-de/content/master/src/assets/images/database-model.png)
+[Open FullSize](https://raw.githubusercontent.com/breatheco-de/content/master/src/assets/svg/databaseModel.svg)
 
 The cost of this is that we now have to make queries by cross-referencing information from several tables, but in return you have a database without redundancy and with more consistent and reliable data. If, for example, a customer changes his information, all previously placed orders are related only to the customer's updated record, generating greater reliability for system users.

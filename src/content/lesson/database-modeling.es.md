@@ -454,7 +454,7 @@ En el caso de la tabla de productos del ejemplo quedaría resuelto de la siguien
 
 Ahora puedes ver cómo se relacionan los productos de cada pedido, junto con la cantidad de ese producto para el pedido correspondiente. Aquí puedes ver el modelo final de la base de datos.
 
-![Database model](../../assets/images/database-model.png)
-[Abrir en tamaño completo](../../assets/svg/databaseModel.svg)
+![Database model](https://raw.githubusercontent.com/breatheco-de/content/master/src/assets/images/database-model.png)
+[Abrir en tamaño completo](https://raw.githubusercontent.com/breatheco-de/content/master/src/assets/svg/databaseModel.svg)
 
 El costo de esto es que ahora tenemos que hacer consultas cruzando la información de varias tablas, pero a cambio se tiene una base de datos sin redundancia y con datos más consistentes y confiables. Si por ejemplo un cliente cambia su información, todos los pedidos realizados anteriormente se relacionan únicamente con el registro actualizado del cliente, generando mayor confiabilidad para los usuarios del sistema.
