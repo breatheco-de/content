@@ -26,7 +26,7 @@ El material pendiente asume que tienes un buen nivel de comprensión de los sigu
 
 ## Cosas que debes saber sobre CSS
 
-- ¿Qué es CSS y para qué sirve? Gracias a CSS, podemos seleccionar elementos específicos en el HTML y darles estilos como colores, tamaños, etc.
+- ¿Qué es CSS y para qué sirve? gracias a CSS, podemos seleccionar elementos específicos en el HTML y darles estilos como colores, tamaños, etc.
 - ¿Por qué se desaconseja el uso del selector `#id`? Debido a que es demasiado específico, va en contra de la reutilización.
 - ¿Cuándo debo usar el selector `#id`? Nunca, usaremos `#id`s solo cuando programemos en JavaScript.
 - ¿Por qué se supone que las hojas de estilo se escriben desde los estilos más genéricos hasta los más específicos? Debido a que escribirás muchas menos líneas de código de esa manera, también evitará muchos errores o conflictos entre sus selectores.
