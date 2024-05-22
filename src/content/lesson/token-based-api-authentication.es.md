@@ -26,7 +26,7 @@ Autenticación significa ser capaz de identificar quién está haciendo peticion
 
 - Que los usuarios puedan iniciar y cerrar sesión.
 - Proteger la privacidad: Restringir el acceso a la información en función del rol del usuario. Por ejemplo: Solo yo debería poder actualizar mi correo electrónico y mi contraseña, solo yo debería revisar mi historial médico.
-- Limitar los permisos de los usuarios: Restringir el acceso a determinadas funcionalidades, por ejemplo: Que un usuario tenga que pagar para descargarse un libro, o que no pueda comentar en un foro si no inicia sesión, etc.
+- Restringir los permisos de los usuarios: Limitar el acceso a determinadas funcionalidades, por ejemplo: Que un usuario tenga que pagar para descargarse un libro, o que no pueda comentar en un foro si no inicia sesión, etc.
 
 Para explicar en detalle la "Autenticación de una API basada en tokens" es mejor empezar explicando lo que son los tokens.
 
