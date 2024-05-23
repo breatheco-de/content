@@ -11,7 +11,7 @@ status: "published"
 
 > ☝ Los usuarios de Windows no tienen la misma línea de comando, pero igual deberías aprenderlos, ya que son muy utilizados en los servidores cuando publiques tu página y también en Gitpod, Codespaces, Cloud9, etc. Puedes utilizar [Git SCM](https://git-scm.com/downloads) para probar los comandos.
 
-## ¿Por qué los Desarrolladores aman la Línea de Comando?
+## ¿Por qué los Desarrolladores aman la Línea de Comando? :)
 
 Al principio, todos odiaban la línea de comando. Tras años de experiencia, se convirtió en un gusto adquirido.
 
