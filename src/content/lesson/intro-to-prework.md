@@ -23,7 +23,7 @@ We all know the importance, growth, and impact of the tech industry nowadays. Mo
 | Mexico               | MXN 500,000 - MXN 700,000 | MXN 300,000 - MXN 500,000 |
 | Brazil               | BRL 80,000 - BRL 120,000 | BRL 50,000 - BRL 80,000   |
 | United Kingdom       | £70,000 - £90,000     | £45,000 - £60,000         |
-| Germany              | €60,000 - €80,000    | €40,000 - €55,000         |
+| Germany             | €60,000 - €80,000    | €40,000 - €55,000         |
 
 > Note: Salaries are approximate and may vary based on factors such as experience, skills, and company policies.
 
