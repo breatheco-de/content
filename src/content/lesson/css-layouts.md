@@ -79,7 +79,7 @@ In order for a website to look like today's websites, we have to redesign the en
 |Static     |This does not involve any special positioning of the elements. As a consequence, the **top**, **left**, **right** and **bottom** properties are not considered.    |
 |Absolute    |When you tell a box that its position is absolute, you also need to define the **top**, **bottom**, **left**, and **right** rules. Here, you are asking the box to ignore where it was positioned in the HTML document. Its new position will be based on the rules (**top**, **left**, **right**, and **bottom** that you specified in the CSS).    |
 |Relative    |Similar to absolute. The main difference here is that its position in the HTML document is not ignored. The box will be located in accordance to the **top**, **left**, **right**, and **bottom** attributes, relative to its parent element as the starting point.    |
-|Fixed     |If you fix an element, it means that it will always remain in the same position. When the user scrolls in any direction, the element will stay in the very same position. "Fixed" could be used on PopUps, menus, etc.    |
+|Fixed     |If you fix an element, it means that it will always remain in the same position. When the user scrolls in any direction, the element will stay in the very same position. "Fixed" could be used on popups, menus, etc.    |
 
 Wait!! If you don’t get what we just explained, well... there's nothing to worry (at this current stage). This is one of those things we need you to practice a lot. There is no other way. 🙁
 
