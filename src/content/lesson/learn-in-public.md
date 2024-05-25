@@ -14,7 +14,7 @@ If you are interested in learning to code efficiently but fast, you should do it
 
 In this article, I'm going to explain why it works and how you can do it.
 
-## What is Learn In Public?
+## What is Learn in Public?
 
 Learning in private: The traditional educational system is designed to be a private experience. You read books, attend class, complete projects and assessments, and then at the end you graduate. We are so used to this workflow that it's already embedded into our student's minds.
 
@@ -31,10 +31,10 @@ When you learn in public you: create in social media, you write in notebooks and
 
 ## How to start learning in public?
 
-- Create accounts in some of your preferred social networks like: LinkedIn (strongly recommended), Twitter, Instagram, Reddit, etc.
+- Create accounts in some of your preferred social networks like: LinkedIn (strongly recommended), X, Instagram, Reddit, etc.
 - Make sure your profile in those accounts looks good: A professional profile, describing yourself as a developer.
 - Every time you build a project, make sure to publish it on your social networks. [Here is an example post from one of 4Geeks Academy students](https://www.linkedin.com/feed/update/urn:li:activity:6750086679345815552/).
-- Join [#100DaysOfCode](https://www.100daysofcode.com/) and be public on Twitter, Instagram and/or LinkedIn about it, there are a lot of people following that challenge, and you can join the discussion and collaborate!
+- Join [#100DaysOfCode](https://www.100daysofcode.com/) and be public on X, Instagram and/or LinkedIn about it, there are a lot of people following that challenge, and you can join the discussion and collaborate!
 - Open a YouTube channel: Start publishing videos about your learning process.
 - Start a blog: Use medium (recommended), reddit or build your own blog platform and start publishing weekly posts about the things you are learning.
 - Reach out to developers you admire: If you liked a video, write something to the author. If you like a library, make a Pull Request fixing a misspelling, or enhancing the documentation or coding a new feature!
