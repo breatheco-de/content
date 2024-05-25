@@ -46,7 +46,7 @@ What this means is that: everything is text.  For example, if you wish to send a
 
 ![what is the internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif?raw=true)
   
-<small style="color:grey">Image 1: The 4 steps needed to send images over the Internet: first it turns to text, then it travels, then it arrives at grandma's computer, grandma opens the picture and the picture shows… lastly, grandma is happy looking at her grandson's photo!</small>
+<small style="color:grey">Image 1: The 4 steps needed to send images over the Internet: first it turns to text, then it travels, then it arrives at grandma's computer, grandma opens the picture and the picture shows… lastly, grandma is happy looking at her granddaughter's photo!</small>
 
 ## But How Do Pictures (and stuff) Travel?
 
