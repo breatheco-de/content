@@ -127,7 +127,7 @@ For example:
 + The Network tag has request status code 4xx? Go and fix the code crafting the request.  
 + The Network tag has request status code 5xx? Go and read the back-end terminal for Syntax or Database errors.  
 
-### Trial an error until you fix it
+### Trial and error until you fix it
 
 If you attempt to fix the bug by making changes to your code and another bug shows up, that is usually good news! I call this nested debugging.
 
