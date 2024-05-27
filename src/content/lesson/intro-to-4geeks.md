@@ -37,13 +37,13 @@ At some point in our lives (some more than others) we all have thought we were t
 
 > If a particular exercise or project is hard, instead of thinking you are not good at this, look for new ways of absorbing the content. Talk to a mentor and we'll give you exactly what you need.
 
-Every average person can learn to code to the point of being useful, but coding gets more complicated when you specialize further in your career (Like A.I., Robotics, etc.), but you can make good money without having to study Math, without being good at numbers, or without learning as fast as others (we may be able to fix that, by the way).
+Every average person can learn to code to the point of being useful, but coding gets more complicated when you specialize further in your career (Like AI, Robotics, etc.), but you can make good money without having to study Math, without being good at numbers, or without learning as fast as others (we may be able to fix that, by the way).
 
 ##### 📝 Recipe to avoid losing confidence
 
 1. **Avoid being stuck too long:** Coding is tricky because you may be very close to solving a problem. If you are stuck and don't realize it, or maybe you don't know how to start solving the problem, a quick 5 min talk with a mentor will clear the way. You need to ask for help no longer than 15 minutes after trying on your own.
 
-2. **Talk to other students:** You may think you are the only one that does not understand, but if you talk to a couple of classmates you'll see they are just like you, it will give you the confidence to ask any questions.
+2. **Talk to other students:** You may think you are the only one who does not understand, but if you talk to a couple of classmates you'll see they are just like you, it will give you the confidence to ask any questions.
 
 3. **Talk to the mentors:** A voice of experience is always effective, you have alumni and teachers that struggled before and are also struggling right now! They can help you during dark times, we're not only talking about giving you coding solutions, but giving you strategies to succeed in your (coding?) life.
 
@@ -57,7 +57,7 @@ We know how to train you: we have done it over and over again, but we'll train i
 
 1. **Follow the method!** How can you know if it works if you don't try it properly? Do the homework BEFORE coming to class (flipped classroom), follow the syllabus in the recommended order, do the small exercises before jumping to the projects, come to every class, don't read books that will slow you down, etc.
 
-2. **Ask Why?** There is only so much we can say, we need you to raise your concerns in a private way immediately the moment you start double guessing our methods, we do everything for a reason and I'm confident that we are going to be able to explain "the why".
+2. **Ask Why?** There is only so much we can say, we need you to raise your concerns privately immediately the moment you start double-guessing our methods, we do everything for a reason and I'm confident that we are going to be able to explain "the why".
 
 3. **Humble yourself:** There are lots of smart students that have successfully completed the course following the method, some of them work at Google, Amazon, and other globally recognized companies. Please be humble enough to try and follow the course as it is. You can talk to us if you have any ideas for improvements; we are also humble enough to be open and try something new that might work.
 
@@ -92,5 +92,5 @@ Please make sure you understand how the academy works:
 | ---   | ----      |
 | **Don't read (much):** Coding is like a sport, the best way to get better is through practice. Learn by doing |    ![It's practice](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/01868f7d-4949-4e15-85da-8042ea24a11a.jpeg?raw=true) |
 | **Sleep:** Having a good night's sleep is as important as coming to class, coding is 100% intellectual, and having a sharp mind is everything. | ![Sleep](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/d29be460-cc2e-42e6-bf92-f9516fd7b21a.jpeg?raw=true) |
-| **Learn how to ask:** The biggest challenge you have to address at first is learning [how to ask a question](https://content.breatheco.de/how-to/ask), picking the right words, knowing exactly what you want to know is the best skill for any developer. | ![How to ask](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c.jpeg?raw=true) |
+| **Learn how to ask:** The biggest challenge you have to address at first is learning [how to ask a question](https://content.breatheco.de/how-to/ask), picking the right words, and knowing exactly what you want to know is the best skill for any developer. | ![How to ask](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/fdb86b48-fb0b-4841-8d4d-60d4dbf4d70c.jpeg?raw=true) |
 | **Ask questions:** It's a win-win, preparing the question will teach you, we get feedback from your understanding, it is the biggest boost for your learning process. It's what you are paying for. | ![Ask questions](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/5e975e91-1447-4117-b50b-b00df99a88a5.jpeg?raw=true) |
