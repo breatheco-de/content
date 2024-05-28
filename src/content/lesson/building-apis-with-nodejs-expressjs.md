@@ -9,7 +9,7 @@ tags: ["Expressjs","nodejs","REST","API"]
 
 ---
 
-If you don't know what a REST API is, I recommend [read about it here](./understanding-rest-apis).
+If you don't know what a REST API is, I recommend [read about it here](https://4geeks.com/lesson/understanding-rest-apis).
 
 As a short summary, building an API in a RESTful way means that you have to build its URL endpoints grouped by **"resources"**. A resource is something you want to manage, for example: a student, a user, a car, etc. A resource is somewhat similar to a database table, but we call them "resources" because of a few exceptions.
 
@@ -26,7 +26,7 @@ Here is an example of RESTful API endpoints to manage **Students**:
 
 Take a look at the URLs, they follow a pattern. After a while, the endpoints will speak for themselves, they will make sense and you will be able to guess what they do or even guess some endpoints. That's the idea.
 
-> :point_up: You can read more about REST APIs in [this 4Geeks.com lesson](/lesson/understanding-rest-apis).<br /> Here is an 8 minute video explaining REST: https://www.youtube.com/watch?v=7YcW25PHnAA
+> :point_up: You can read more about REST APIs in [this 4Geeks.com lesson](https://4geeks.com/lesson/understanding-rest-apis).<br /> Here is an 8 minute video explaining REST: https://www.youtube.com/watch?v=7YcW25PHnAA
 
 ## Now let's talk about Expressjs
 
