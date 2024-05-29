@@ -31,10 +31,10 @@ When you learn in public you: create in social media, you write in notebooks and
 
 ## How to start learning in public?
 
-- Create accounts in some of your preferred social networks like: LinkedIn (strongly recommended), Twitter, Instagram, Reddit, etc.
+- Create accounts in some of your preferred social networks like: LinkedIn (strongly recommended), X (formerly Twitter, thank you Elon), Instagram, Reddit, etc.
 - Make sure your profile in those accounts looks good: A professional profile, describing yourself as a developer.
 - Every time you build a project, make sure to publish it on your social networks. [Here is an example post from one of 4Geeks Academy students](https://www.linkedin.com/feed/update/urn:li:activity:6750086679345815552/).
-- Join [#100DaysOfCode](https://www.100daysofcode.com/) and be public on Twitter, Instagram and/or LinkedIn about it, there are a lot of people following that challenge, and you can join the discussion and collaborate!
+- Join [#100DaysOfCode](https://www.100daysofcode.com/) and be public on X (formerly Twitter), Instagram and/or LinkedIn about it, there are a lot of people following that challenge, and you can join the discussion and collaborate!
 - Open a YouTube channel: Start publishing videos about your learning process.
 - Start a blog: Use medium (recommended), reddit or build your own blog platform and start publishing weekly posts about the things you are learning.
 - Reach out to developers you admire: If you liked a video, write something to the author. If you like a library, make a Pull Request fixing a misspelling, or enhancing the documentation or coding a new feature!
@@ -53,6 +53,10 @@ Nobody is! I've been coding for 20 years and I still think I'm no expert, by sho
 ### I don't have time
 
 You don't have to do it all, you can just pick one or two things you might enjoy doing. Even if you are learning privately, you have to take notes, finish coding projects, and challenge yourself, so why not take some extra time to publish them? I think it's 100% worth your time.
+
+### I'm Lazy
+
+Remember the reason you even were interested in learning to begin with and write it on your wall to remind and motivate yourself daily, especially if you feel discouraged and like giving up.
 
 I hope I made my case!!
 
