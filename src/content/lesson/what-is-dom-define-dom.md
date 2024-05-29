@@ -50,7 +50,7 @@ This is the preferred way for you to write and link your JS code from now on, as
 
 There are several ways to manipulate the DOM, but the most simple one is `document.write()`. Every time you create a `document.write()` you will be writing onto the HTML whatever string you decide to pass as a parameter to the *write* function.
 
-It does not matter where you write the code. The only thing that matters is that it is linked in the HTML with a `<script>` tag. For example:
+It does not matter where you write the code. The only thing that matters is that it is linked to the HTML through a `<script>` tag. For example:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/ge5k7ufm/6/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
