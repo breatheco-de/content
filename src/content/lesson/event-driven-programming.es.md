@@ -215,15 +215,16 @@ Ten en cuenta que en `addEventListener()` solo hacemos referencia a la función 
 
 |Propiedades     |Descripción        |
 |:---------------|:------------------|
-|keyCode        |Devuelve el código de caracteres Unicode de la tecla que activa el evento.    |
-|shiftKey, altKey o ctrlKey     |Devuelve si las teclas `shift`, `alt` o `ctrl` se pulsan cuando el evento fue provocado.    |
+|keyCode        |Devuelve el código de caracteres Unicode de la tecla que activó el evento.    |
+|shiftKey, altKey o ctrlKey     |Devuelve valor boleano si las teclas `shift`, `alt` o `ctrl` se pulsaron cuando el evento fue provocado.    |
 
 ### Información Adicional para Eventos de Rueda (scroll)
 
 |Propiedades     |Descripción        |
 |:---------------|:------------------|
-|deltaX, deltaY  |Devuelve la cantidad de desplazamiento vertical u horizontal de una rueda del ratón (eje y) o (eje x)   |
-|deltaMode       |Devuelve un número que representa la unidad de mediciones de valores delta (píxeles, líneas o páginas)    |
+|deltaX          |Devuelve valor por desplazamiento horizontal "eje x" de una rueda del ratón, positivo (derecha) o negativo (izquierda). 0 en caso de no existir.   |
+|deltaY          |Devuelve valor por desplazamiento vertical "eje y" de una rueda del ratón, positivo (abajo) o negativo (arriba). 0 en caso de no existir.   |
+|deltaMode       |Devuelve un número que representa la unidad de medidas para los valores delta (píxeles, líneas o páginas).    |
 
 > 🔗 Hay mucha más información que puedes obtener del objeto de evento, pero nos estamos enfocando en las propiedades más utilizadas. Para una lista más grande de propiedades, por favor lee [esta guía.](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
