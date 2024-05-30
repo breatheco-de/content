@@ -68,7 +68,7 @@ Bootstrap device sizes:
 
 > :point_up: Nota: si no especificas el tamaño de pantalla (ej. usando 'sm', 'md', or 'xl'), el sitio web va a renderizar para teléfonos móviles por defecto.
 
-## Define móvil, tablet y escritorio/sobremesa (Desktop) al mismo tiempo
+## Define móvil, tablet y escritorio/sobremesa (Desktop) 💻 al mismo tiempo
 
 Vamos a configurar el diseño (usando las clases de columnas xs, sm, md y lg) para estas dos filas en todos los dispositivos al mismo tiempo:
 
