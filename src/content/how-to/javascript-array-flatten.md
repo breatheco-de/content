@@ -25,8 +25,9 @@ As you can see in this example, the `multidimensionalArray` array has many layer
 
 Flattening an [array](https://4geeks.com/lesson/what-is-an-array-define-array) is the process of taking the nested elements within an array and putting them into a single array, in other words converting a multi-dimensional array into a single one-dimesional array, for example:
 
-```js
+```js runable=true
 const arrayNested = [[1, 2, 3, [4]], [5, 6, 7, [8]]];
+console.log(arrayNested);
 ```
 
 Here we have an array that contains two other arrays inside and each of them contains another array inside, we can say that this array contains two layers deep the first layer containing two arrays `[[1, 2, 3, [4]]` and `[5, 6, 7, [8]]`. The second layer is within the inner array and contains the elements `[4]` and `[8]`. The process of flattening an array takes all the values inside the nested arrays and places them into a single one-dimensional array.
