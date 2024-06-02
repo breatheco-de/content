@@ -1,10 +1,10 @@
 ---
-title: "Comprendiendo JWT y como implementar un JWT simple con Flask"
-subtitle: "Qué es un JSON Web Token (JWT), como funciona y como aplicarlo en tu API usando el Microframework Flask para el desarrollo de APIs"
+title: "Comprendiendo JWT y como implementar un JWT simple con Express"
+subtitle: "Qué es un JSON Web Token (JWT), como funciona y como aplicarlo en tu API usando el Microframework Express para el desarrollo de APIs"
 cover_local: "../../assets/images/http-0.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["HTTP", "API", "Security", "Authentication"]
+tags: ["HTTP", "API", "Security", "Authentication","Express","TypeOrm"]
 status: "published"
 
 ---
