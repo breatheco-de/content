@@ -14,7 +14,7 @@ status: "published"
 Almost every API needs an authentication layer, and there are many ways to tackle that problem. Today we are going to be implementing JWT token into our Flask API.
 
 
-## How API Authentication works
+## How API Authentication works?
 
 You can divide a standard authentication process into 5 main steps:
 
