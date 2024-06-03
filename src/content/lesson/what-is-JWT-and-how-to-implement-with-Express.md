@@ -1,5 +1,5 @@
 ---
-title: "Understanding JWT and how to implement a simple JWT with Flask"
+title: "Understanding JWT and how to implement a simple JWT with Express"
 subtitle: "What is JSON Web Token (JWT), how does it work, and how to apply it to your API using the Express Microframework for API Development"
 cover_local: "../../assets/images/http-0.png"
 textColor: "white"
@@ -9,9 +9,7 @@ status: "published"
 
 ---
 
-> 📹 Here is a video explaining the JWT authentication [implementation using React.js, Context API and Python Flask](https://youtu.be/8-W2O_R95Pk).
-
-Almost every API needs an authentication layer, and there are many ways to tackle that problem. Today we are going to be implementing JWT token into our Flask API.
+Almost every API needs an authentication layer, and there are many ways to tackle that problem. Today we are going to be implementing JWT token into our Express API.
 
 
 ## How API Authentication works
@@ -237,5 +235,5 @@ const getMyTasks = async () => {
 }
 ```
 
-That is it! As you can see, it's very simple to integrate JWT into your application using Flask/Python, just three steps on the backend and two steps on the front-ent. For any questions, you can contact me on Twitter [@alesanchezr](https://twitter.com/alesanchezr) or use the `#public-support` channel on 4Geeks Academy's Slack community.
+That is it! As you can see, it's very simple to integrate JWT into your application using Express, just four steps on the backend and two steps on the front-ent. For any questions, you can contact me on Twitter [@alesanchezr](https://twitter.com/alesanchezr) or use the `#public-support` channel on 4Geeks Academy's Slack community.
 

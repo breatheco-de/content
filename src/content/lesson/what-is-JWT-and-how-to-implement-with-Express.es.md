@@ -8,7 +8,7 @@ tags: ["HTTP", "API", "Security", "Authentication","Express","TypeOrm"]
 status: "published"
 
 ---
-Casi todas las API necesitan una capa o layer de autenticación, y hay muchas maneras de abordar ese problema, hoy vamos a implementar el token JWT en nuestra API Flask.
+Casi todas las API necesitan una capa o layer de autenticación, y hay muchas maneras de abordar ese problema, hoy vamos a implementar el token JWT en nuestra API Express.
 
 
 ## Cómo funciona la autenticación de la API
@@ -235,4 +235,4 @@ const getMyTasks = async () => {
 }
 ```
 
-¡Eso es todo! Como puedes ver, es muy sencillo integrar JWT en tu aplicación usando Flask/Python, solo tres pasos en el backend y dos pasos en el frontend. Ante cualquier duda puedes contactarme en Twitter [@alesanchezr](https://twitter.com/alesanchezr) o utilizar el canal `#public-support` en la comunidad Slack de 4Geeks Academy.
+¡Eso es todo! Como puedes ver, es muy sencillo integrar JWT en tu aplicación usando Express, solo cuatro pasos en el backend y dos pasos en el frontend. Ante cualquier duda puedes contactarme en Twitter [@alesanchezr](https://twitter.com/alesanchezr) o utilizar el canal `#public-support` en la comunidad Slack de 4Geeks Academy.
