@@ -1,5 +1,5 @@
 ---
-title: "Understanding JWT and how to implement a simple JWT with Flask"
+title: "Understanding JWT and how to implement a simple JWT with Express"
 subtitle: "What is JSON Web Token (JWT), how does it work, and how to apply it to your API using the Express Microframework for API Development"
 cover_local: "../../assets/images/http-0.png"
 textColor: "white"
