@@ -244,7 +244,7 @@ const getData = async () => {
 
 ### POST Method with async
 
-Now that we know how it works, let's see an example of the GET method
+Now that we know how it works, let's see an example of the POST method
 
 ```js
 const createData = async () => {
