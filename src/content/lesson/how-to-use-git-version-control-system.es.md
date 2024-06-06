@@ -252,7 +252,7 @@ Si estás trabajando en un repositorio local y deseas conectarlo a un repositori
 
 Una vez que conozcas la URL remota, puedes agregarla a tu proyecto. Debes elegir un alias para el control remoto; de forma predeterminada, usamos normalmente `origin`. Agrega el control remoto ejecutando el siguiente comando:
 
-⚠️ En nuestras plantillas ya tendrás una configuración de origin desde el repositorio de dicha plantilla. En esos casos, no debe eliminar el origin original, sino que necesitarás usar otro término (por ejemplo, `new` o `new-origin`, etc.) para agregar su nuevo control remoto.
+⚠️ En nuestras plantillas ya tendrás una configuración de origin desde el repositorio de dicha plantilla. En esos casos, no debes eliminar el origin original, sino que necesitarás usar otro término (por ejemplo, `new` o `new-origin`, etc.) para agregar su nuevo control remoto.
 
 Agrega el control remoto ejecutando el siguiente comando:
 
