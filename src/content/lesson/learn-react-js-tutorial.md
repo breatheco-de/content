@@ -115,8 +115,6 @@ function MyCard(){
 }
 ```
 
-> 👆 Each component in React needs to have a render method that returns a block of HTML code.
-
 Each component can be rendered by calling its `<tag>` which looks just like the HTML tags but always start with a capital letter. The difference is that now the name of the `<tag>` is the name of the React component (e.g. `<MyCard />`) that you have created, and using the tag gives you access to the look and behavior that you have programmed in your own component.  
 
 The above component will now **render** (display on the page) a Bootstrap card anywhere you call <MyCard /> like this:
