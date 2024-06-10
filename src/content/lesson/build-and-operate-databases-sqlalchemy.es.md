@@ -1,3 +1,9 @@
+---
+title: "Construye y opera base de datos con SQL Alchemy"
+subtitle: "SQLAlchemy en su version 2 nos permite manejar nuestra base de datos como si se tratarán de objetos ordinarios en el código. Aprende a aprovechar las ventajas de este poderoso ORM"
+tags: ["python","databases","sqlalchemy","sql"]
+
+---
 ## ¿Que son ORM y para qué son útiles?
 
 ORM son las siglas de Object-Relational Mapping. Es una técnica de programación que conecta el mundo del código de la programación orientada a objetos (POO) con el mundo relacional de las bases de datos. En términos más sencillos, actúa como traductor entre la forma en que representas los datos en tu código mediante objetos y la forma en que se almacenan los datos en las bases de datos relacionales mediante tablas y relaciones.
