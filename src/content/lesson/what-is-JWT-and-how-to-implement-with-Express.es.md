@@ -8,61 +8,39 @@ tags: ["HTTP", "API", "Security", "Authentication","Express","TypeOrm"]
 status: "published"
 
 ---
-Casi todas las API necesitan una capa o layer de autenticación, y hay muchas maneras de abordar ese problema, hoy vamos a implementar el token JWT en nuestra API Express.
+## JSON Web Tokens (JWT) para la Autenticación de APIs
 
+En el mundo del desarrollo web moderno, la autenticación y autorización de usuarios son aspectos cruciales para proteger las APIs y los datos sensibles. Entre las soluciones más populares se encuentran los JSON Web Tokens (JWT), un estándar abierto y ligero que define un mecanismo compacto y autosuficiente para la transmisión segura de información entre partes como cliente y servidor.
 
-## Cómo funciona la autenticación de la API
+### ¿Qué son los JWT?
 
-Puedes dividir un proceso de autenticación estándar en 5 pasos principales:
-
-1. El usuario escribe su nombre de usuario y contraseña en tu sitio web.
-2. El nombre de usuario y la contraseña se envían a la API de backend.
-3. La API busca cualquier registro en la tabla `User` que coincida con ambos parámetros al mismo tiempo (nombre de usuario y contraseña).
-4. Si se encuentra un usuario, genera un `token` para ese usuario y responde `status_code=200` al front-end.
-5. El front-end utilizará ese `token` a partir de ahora para realizar cualquier solicitud futura.
-
-![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/authentication-diagram.png?raw=true)
+Un JWT es un token que contiene información sobre la identidad de un usuario y la autorización para acceder a recursos específicos. Se compone de tres partes:
 
 > ☝️ Si no sabes lo que es un token, te recomiendo [esta lectura](https://4geeks.com/es/lesson/token-based-api-authentication-es).
 
-## ¿Qué es JWT?
+**Encabezado (Header):** Especifica el tipo de token, el algoritmo de firma y otra información relevante.
 
-Hay muchas formas de crear tokens: Basic, Bearer, JWT, etc. Todas ellas son diferentes en su naturaleza, pero el resultado es la misma salida: Un hash (un gran token alfanumérico).
+**Carga útil (Payload):** Contiene los datos sobre el usuario, como la identificación, nombre, roles y fecha de expiración del token.
 
-| Tipo de token | Ejemplo                                                           |
-| ------------- | ----------------------------------------------------------------------- |
-| Token Básico  | ecff2099b95ed507a27a4717ec78965d529cc346                                |
-| Token Bearer  | YWxlc2FuY2hlenI6NzE0YmZhNDNlN2MzMTJiZTk5OWQwYWZlYTg5MTQ4ZTc=            |
-| Token JWT     | eyJhbGciOiJIUzI1NiIsInR5c.eyJzdWIiOFt2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpM |
+**Firma:** Garantiza la integridad y autenticidad del token mediante una firma digital utilizando un algoritmo criptográfico y una clave secreta compartida entre el servidor y el cliente.
 
+### ¿Cómo funciona JWT en la autenticación de APIs?
 
-> ☝️ Como puedes ver, los Tokens JWT son más grandes que los otros dos tipos de token.
+El esquema a implementar en este caso puede resumirse en la siguiente imagen
 
-**JSON Web Token o JWT es un estándar abierto para crear tokens**
+![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/authentication-diagram.png?raw=true)
 
-Este estándar se ha vuelto bastante popular, ya que es muy efectivo tanto para las Web Apps como las APIs de Google, donde después de la autenticación del usuario se hacen peticiones a la API. 
+1. Inicio de sesión: El usuario ingresa sus credenciales (correo electrónico y contraseña) en el cliente.
 
-El Token Web JSON es un tipo de token que incluye una estructura, que puede ser descifrada por el servidor, que permite autenticar la identidad del usuario de esa aplicación.
+2. Autenticación: El servidor valida las credenciales del usuario y, si son correctas, genera un JWT con la información del usuario y lo firma con su clave secreta.
 
-## ¿Por qué usar JWT Token?
+3. Envío del token: El servidor envía el JWT al cliente como respuesta a la solicitud de inicio de sesión.
 
-En pocas palabras: JWT es una alternativa increíble porque el Token básico o `Basic Token` es demasiado simple y fácil de hackear y el Token Bearer es más difícil de mantener porque tienes que almacenar cada token en la base de datos.
+4. Almacenamiento del token: El cliente almacena el JWT de forma segura, generalmente en el almacenamiento local o en una cookie HTTP.
 
-Con los tokens JWT no necesitas una base de datos, el propio token contiene toda la información necesaria.
+5. Solicitudes posteriores: En cada solicitud posterior a la API, el cliente incluye el JWT en el encabezado de autorización.
 
-![Token Bearer  vs. JWT](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-vs-bearer-token.png?raw=true)
-
-## Estructura del token JWT
-
-![Estructura de JWT](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-token-structure.png?raw=true)
-
-Puedes observar que el string o cadena está dividida en tres secciones separadas por un punto `.` - cada sección tiene su significado:
-
-| Section name   |                                                                      |
-| -------------- | -------------------------------------------------------------------- | 
-| HEADER         | La primera parte almacena el tipo de token y el algoritmo de encriptación. |
-| PAYLOAD        | La segunda parte tiene los datos que identifican al usuario: puede ser su ID, nombre de usuario, etc. |
-| SIGNATURE      | Firma digital, que se genera con las dos secciones anteriores, y permite verificar si el contenido ha sido modificado. |
+6. Validación del token: El servidor verifica la firma del JWT para asegurar su autenticidad e integridad. Si el token es válido, extrae la información del usuario de la carga útil y la utiliza para autorizar el acceso al recurso solicitado.
 
 ## Implementación de JWT en la API de tu proyecto
 
@@ -174,7 +152,7 @@ export const getMe = async (req: Request, res: Response): Promise<Response> =>{
 
 En el lado del front-end necesitamos dos pasos principales: Crear un nuevo token (también conocido como "login") y añadir el token a los headers cuando se obtenga cualquier otro endpoint privado.
 
-### Crear un nuevo token:
+### Crear un nuevo token
 
 Basándonos en los endpoints que construimos anteriormente, tenemos que hacer `POST /token` con la información del nombre de usuario y la contraseña en el body de la petición.
 
