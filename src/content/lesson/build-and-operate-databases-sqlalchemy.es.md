@@ -169,7 +169,7 @@ session = Session()
 
 El objeto `session` será el que se utilice para realizar las operaciones en la base de datos.
 
-### Crear (**C**eate)
+### Crear (**C**reate)
 
 Para crear un nuevo registro de `Films`, puede instanciar un objeto Películas y establecer sus atributos, y después añadirlo a la sesión y confirmar los cambios:
 
@@ -247,7 +247,7 @@ session.commit()
 Una vez definidas las relaciones, puede acceder a los objetos relacionados utilizando los atributos de relación definidos. Retomando el ejemplo de la relación de los actores con los elencos de cada película, puedes obtener los actores de una película determinada consultando primero el objeto de la película:
 
 ```python
-query = select(Films).filter_by(id=id)
+query = select(Films).filter_by(id=1)
 film = session.scalars(query).first()
 
 for character in film.characters:
