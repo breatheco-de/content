@@ -60,7 +60,7 @@ Es muy fácil decidir como se verá tu página web en pantallas de diferente tam
 |:---------|:--------|:----|
 |Significa que este elemento debe comportarse como una columna de Bootstrap.   |Significa que estoy especificando sólo para dispositivos con tamaño de pantalla mediano.   |Especifica cuantos espacios quiero que abarque la columna (recuerda que puede abarcar max 12 espacios por fila).   |
 
-Bootstrap device sizes:   
+Tamaño de dispositivos en Bootstrap:   
 
 | Smartphones   | Big-phone/small-tablet   | Tablets  | Desktops   | Extra-large desktops |
 |:------------- |:------------------------ |:-------- |:---------- |:-------------------- |
