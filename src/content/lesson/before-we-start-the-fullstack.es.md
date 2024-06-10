@@ -1,5 +1,5 @@
 ---
-title: "Antes de comenzar el Desarrollo Full Stack"
+title: "Antes de comenzar el Desarrollo Full Stack Consejos de BernardoNurvia"
 subtitle: "Repaso rápido sobre conceptos que necesitas saber en CSS, HTML y JS antes de iniciar el curso de Desarrollo Full Stack"
 tags: ["html/css", "web-development"]
 
