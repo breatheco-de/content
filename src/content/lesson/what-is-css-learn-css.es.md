@@ -55,7 +55,7 @@ Vamos a repasar estas tags con más detalle:
 ## Sintaxis de CSS
 
 
-La sintaxis de CSS no tiene absolutamente nada que ver con la sintaxis de HTML, es su propio lenguaje de programación específico. CSS ¡no utiliza etiquetas! Para trabajar con un sitio web tienes que cambiar el switch en tu mente a menudo, porque trabajarás con varios lenguajes a la vez y cada uno tiene su propia sintaxis.
+La sintaxis de CSS no tiene absolutamente nada que ver con la sintaxis de HTML, es su propio lenguaje de programación específico. CSS ¡No utiliza etiquetas! Para trabajar con un sitio web tienes que cambiar el switch en tu mente a menudo, porque trabajarás con varios lenguajes a la vez y cada uno tiene su propia sintaxis.
 
 ![aprende CSS](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/4a25cfd5-e8ab-4abb-b4f8-148d376b3f3d.gif?raw=true)
 
@@ -179,7 +179,7 @@ Hay otros selectores más específicos y avanzados. Probablemente lo usarás cua
 
 ![Aprende CSS](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/08e78606-102f-4bc2-a066-7c26ae9400d5.png?raw=true)
 
-Tienes que entender muy bien la jerarquía de CSS para comprender como los elementos **heredan, sobre escriben y hasta anulan estilos entre ellos.**
+Tienes que entender muy bien la jerarquía de CSS para comprender como los elementos **heredan, sobrescriben y hasta anulan estilos entre ellos.**
 
 El navegador le da prioridad a los selectores más específicos, como al `#id`, que a los selectores generales, como los tags (etiquetas). En el siguiente ejemplo, cambiamos el color de todos los  `<li>`  (los elementos de la lista) a azul, y luego cambiamos el texto del segundo elemento a color rojo. De esta manera demostramos que el selector ID siempre prevalece por encima de los otros elementos, esto se debe a que pertenecen a la misma etiqueta.
 
