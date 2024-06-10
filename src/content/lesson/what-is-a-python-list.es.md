@@ -22,6 +22,7 @@ Dominar el uso de listas y bucles es una de las 5 habilidades fundamentales para
 ## ¿Qué es una lista?
 
 Una lista es, normalmente, cualquier colección de valores. Las reglas de cómo agregar o eliminar elementos de esa lista pueden cambiar de un lenguaje de programación a otro. Pero - en general - son la única forma en que los desarrolladores pueden crear elementos.
+
 Las listas no son la única forma que tenemos para enumerar las cosas y almacenar múltiples valores de una sola vez, pero es la más usada para ese propósito. Por ejemplo: lista de estudiantes, lista de artistas, lista de transacciones... ¡cualquier cosa!
 
 Este tipo de datos hace muchas más cosas que los otros. Las listas son la única forma de almacenar más de un tipo de datos en la misma variable.
@@ -43,11 +44,15 @@ Cada lista tiene los mismos conceptos básicos:
 
 Utilizando corchetes de la siguiente manera:
 
-```python
+```py runable=true
 my_empty_list = []  # Lista vacia
 my_list = ["Apple", "Orange", "Donkey"]  # La única forma de declarar una lista
 my_tuple = ("Apple", "Orange", "Donkey")  # Esto no es una lista, es una versión más limitada llamada "Tupla"
 my_set = {"Apple", "Orange", "Donkey"}  # Esto no es una lista, es una versión más limitada llamada "set" (conjunto).
+
+print("Esto es una lista: " + my_list)
+print("Esto es una Tupla: " + my_tuple)
+print("Esto es un set: " + my_set)
 ```
 
 ## Acceder a los items en la lista 
@@ -56,7 +61,8 @@ Para acceder a un elemento específico en una lista, necesitas un `index` o índ
 
 El índice siempre debe comenzar en cero (0). Eso significa que una lista de 2 elementos puede tener un `index=0` o un `index=1`. Tratar de obtener la segunda posición devolverá un `IndexError` porque significará que estamos tratando de acceder al tercer elemento (que no existe). Por ejemplo, para obtener cualquier elemento de la lista puedes hacer lo siguiente:
 
-```python
+```py runable=true
+my_list = ["Apple", "Orange", "Donkey", "Car", "Game"]
 print(my_list[0])  # Esto imprimirá el 1er elemento en la consola
 
 aux = my_list[5]
@@ -70,9 +76,12 @@ print(my_list[-1])  # Tambien imprimirá el último elemento
 
 Si lo deseas, puedes restablecer o actualizar cualquier elemento dentro de un arreglo usando el índice como este:
 
-```python
+```py runable=true
+my_list = ["Apple", "Orange", "Donkey", "Car", "Game"]
 my_list[5] = 'Cualquier valor'
 # Esto asignará el valor 'Cualquier valor' en el sexto elemento de la lista
+
+print(my_list)
 ```
 
 ## Añadiendo elementos a una lista (función append o insert)
@@ -81,21 +90,22 @@ Hay dos formas de agregar un nuevo elemento: al final de la lista o donde tú qu
 
 ### Utilizando `append` en las listas de Python
 
-```python
+```py runable=true
 my_list = ['Pedro', 'Juan', 'Maria']
 my_list.append('Chris')  # Esto agrega a Chris al final de la lista
-print(my_list)  # Esto imprimirá ['Pedro', 'Juan', 'Maria', 'Chris']
+
+print(my_list)
 ```
 
 ### Utilizando `insert` en Python
 
 La ventaja de utilizar `insert` es que te permite seleccionar la posición donde deseas insertar el elemento en el array:
 
-```python
+```py runable=true
 my_list = ['Pedro', 'Juan', 'Maria']
 my_list.insert(1,'Chris')  # Esto agrega a Chris entre Pedro y Juan
-print(my_list)  # Esto imprimirá ['Pedro', 'Chris', 'Juan', 'Maria'];
 
+print(my_list)
 ```
 
 > ☝ La función `insert` es mucho más lenta que `append`, deberías tratar de evitarla.
@@ -108,33 +118,35 @@ A diferencia de otros lenguajes como JavaScript, Python cuenta con varias funcio
 
 Eliminar un elemento utilizando `pop` tiene exactamente las mismas limitaciones que al agregar un elemento utilizando `append`: solo permite eliminar un elemento de la última posición de la lista. 
 
-```python
+```py runable=true
 my_list = ['Pedro', 'Chris', 'Juan', 'Maria']
 my_list.pop()
-print(my_list)  # Esto imprimirá ['Pedro', 'Chris', 'Juan']
+
+print(my_list)
 ```
 
 ### Eliminando elementos de una lista con `remove`
 
 Te permitirá eliminar la primera ocurrencia de un elemento por su nombre.
 
-```python
+```py runable=true
 # Si deseas eliminar 'Chris', necesitas hacer lo siguiente: 
 my_list = ['Pedro', 'Chris', 'Juan', 'Maria']
 my_list.remove('Chris')
-print(my_list)  # Esto imprimirá ['Pedro', 'Juan', 'Maria']
 
+print(my_list)
 ```
 
-### Eliminando elementos de una lista con `delete`
+### Eliminando elementos de una lista con `del`
 
 Una de las funcionalidades más útiles de `del` es que puedes eliminar muchos elementos de una sola vez. Debes especificar la posición de partida y de término.
 
-```python
-# Si deseas eliminar 'Chris', necesitas hacer lo siguiente: 
+```py runable=true
+# Si deseas eliminar los elementos entre 'Chris' y 'Mario', necesitas hacer lo siguiente: 
 my_list = ['Pedro', 'Chris', 'Juan', 'Maria', 'Pepe', 'Mario', 'Bob']
 del my_list[2:5]
-print(my_list)  # Esto imprimirá ['Pedro', 'Chris', 'Mario', 'Bob']
+
+print(my_list)
 ```
 
 ## Iterando sobre una lista (bucles)
@@ -144,7 +156,7 @@ Normalmente, cuando trabajes con listas, tendrás que recorrer todos los items. 
 
 Hay varias formas de recorrer una lista, pero la más utilizada es la función `for`:
 
-```python
+```py runable=true
 my_list = [3423, 5, 4, 47889, 654, 8, 867543, 23, 48, 56432, 55, 23, 25, 12]
 for number in my_list:
     print(number)
@@ -154,29 +166,18 @@ for number in my_list:
 
 A veces es útil recorrer una lista utilizando la posición:
 
-```python
+```py runable=true
 my_list = ['Pedro', 'Chris', 'Mario', 'Bob']
 
 for i in range(0, len(my_list)):
     print("La posición es " + str(i) + " para el elemento " + my_list[i])
-
-### Imprimirá lo siquiente:
-# La posición es 0 para el elemento Pedro
-# La posición es 1 para el elemento Chris
-# La posición es 2 para el elemento Mario
-# La posición es 3 para el elemento Bob
 ```
 
 También es posible especificar la posición inicial, así como el incremento, ingresando la posición inicial (en el primer parámetro) y el valor incremental (en el último parámetro) en el método `range`:
 
-```python
+```py runable=true
 my_list = ['Pedro', 'Chris', 'Mario', 'Bob', "Greg", "Kyle"]
 
 for i in range(1, 6, 2):  # range(valor inicial, valor final (no inclusivo), valor incremental)
     print("La posición es " + str(i) + " para el elemento " + my_list[i])
-
-### Imprimirá lo siquiente:
-# La posición es 1 para el elemento Chris
-# La posición es 3 para el elemento Bob
-# La posición es 5 para el elemento Kyle
 ```
