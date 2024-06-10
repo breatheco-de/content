@@ -8,61 +8,31 @@ tags: ["HTTP", "API", "Security", "Authentication"]
 status: "published"
 
 ---
-Casi todas las API necesitan una capa o layer de autenticación, y hay muchas maneras de abordar ese problema, hoy vamos a implementar el token JWT en nuestra API Flask.
+## JSON Web Tokens (JWT)
 
+Es un estándar abierto para crear tokens que se utilizan en la autenticación y autorización de aplicaciones web y APIs. JWT es un tipo de token que incluye una estructura que puede ser descifrada por el servidor y permite autenticar la identidad del usuario de una aplicación.
 
-## Cómo funciona la autenticación de la API
+A diferencia de otros tipos de tokens, como los básicos o los Bearer, los tokens JWT son más grandes y contienen toda la información necesaria sin necesidad de una base de datos externa1.
 
-Puedes dividir un proceso de autenticación estándar en 5 pasos principales:
+### Estructura del token JWT
 
-1. El usuario escribe su nombre de usuario y contraseña en tu sitio web.
-2. El nombre de usuario y la contraseña se envían a la API de backend.
-3. La API busca cualquier registro en la tabla `User` que coincida con ambos parámetros al mismo tiempo (nombre de usuario y contraseña).
-4. Si se encuentra un usuario, genera un `token` para ese usuario y responde `status_code=200` al front-end.
-5. El front-end utilizará ese `token` a partir de ahora para realizar cualquier solicitud futura.
+Un token JWT consta de tres partes separadas por puntos:
 
-![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/authentication-diagram.png?raw=true)
+- HEADER: Almacena el tipo de token y el algoritmo de encriptación.
 
-> ☝️ Si no sabes lo que es un token, te recomiendo [esta lectura](https://4geeks.com/es/lesson/token-based-api-authentication-es).
+- PAYLOAD: Contiene datos que identifican al usuario, como su ID o nombre de usuario.
 
-## ¿Qué es JWT?
+- SIGNATURE: Firma digital generada con las dos secciones anteriores para verificar si el contenido ha sido modificado1.
 
-Hay muchas formas de crear tokens: Basic, Bearer, JWT, etc. Todas ellas son diferentes en su naturaleza, pero el resultado es la misma salida: Un hash (un gran token alfanumérico).
+### Implementación en Flask:
 
-| Tipo de token | Ejemplo                                                           |
-| ------------- | ----------------------------------------------------------------------- |
-| Token Básico  | ecff2099b95ed507a27a4717ec78965d529cc346                                |
-| Token Bearer  | YWxlc2FuY2hlenI6NzE0YmZhNDNlN2MzMTJiZTk5OWQwYWZlYTg5MTQ4ZTc=            |
-| Token JWT     | eyJhbGciOiJIUzI1NiIsInR5c.eyJzdWIiOFt2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpM |
+Para usar JWT en una API Flask, puedes seguir estos pasos:
 
+- Incluye la librería JWT en la configuración de tu aplicación Flask.
 
-> ☝️ Como puedes ver, los Tokens JWT son más grandes que los otros dos tipos de token.
+- Crea un endpoint para generar nuevos tokens.
 
-**JSON Web Token o JWT es un estándar abierto para crear tokens**
-
-Este estándar se ha vuelto bastante popular, ya que es muy efectivo tanto para las Web Apps como las APIs de Google, donde después de la autenticación del usuario se hacen peticiones a la API. 
-
-El Token Web JSON es un tipo de token que incluye una estructura, que puede ser descifrada por el servidor, que permite autenticar la identidad del usuario de esa aplicación.
-
-## ¿Por qué usar JWT Token?
-
-En pocas palabras: JWT es una alternativa increíble porque el Token básico o `Basic Token` es demasiado simple y fácil de hackear y el Token Bearer es más difícil de mantener porque tienes que almacenar cada token en la base de datos.
-
-Con los tokens JWT no necesitas una base de datos, el propio token contiene toda la información necesaria.
-
-![Token Bearer  vs. JWT](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-vs-bearer-token.png?raw=true)
-
-## Estructura del token JWT
-
-![Estructura de JWT](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-token-structure.png?raw=true)
-
-Puedes observar que el string o cadena está dividida en tres secciones separadas por un punto `.` - cada sección tiene su significado:
-
-| Section name   |                                                                      |
-| -------------- | -------------------------------------------------------------------- | 
-| HEADER         | La primera parte almacena el tipo de token y el algoritmo de encriptación. |
-| PAYLOAD        | La segunda parte tiene los datos que identifican al usuario: puede ser su ID, nombre de usuario, etc. |
-| SIGNATURE      | Firma digital, que se genera con las dos secciones anteriores, y permite verificar si el contenido ha sido modificado. |
+- Usa el decorador @jwt_required() en rutas privadas.
 
 ## Implementación de JWT en la API de tu proyecto
 
@@ -143,7 +113,7 @@ def protected():
 
 En el lado del front-end necesitamos dos pasos principales: Crear un nuevo token (también conocido como "login") y añadir el token a los headers cuando se obtenga cualquier otro endpoint privado.
 
-### Crear un nuevo token:
+### Crear un nuevo token
 
 Basándonos en los endpoints que construimos anteriormente, tenemos que hacer `POST /token` con la información del nombre de usuario y la contraseña en el body de la petición.
 

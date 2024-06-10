@@ -1,68 +1,44 @@
 ---
 title: "Understanding JWT and how to implement a simple JWT with Express"
 subtitle: "What is JSON Web Token (JWT), how does it work, and how to apply it to your API using the Express Microframework for API Development"
-cover_local: "../../assets/images/http-0.png"
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
 tags: ["HTTP", "API", "Security", "Authentication","Express","TypeOrm"]
 status: "published"
 
 ---
+## JSON Web Tokens (JWT) for API Authentication
 
-Almost every API needs an authentication layer, and there are many ways to tackle that problem. Today we are going to be implementing JWT token into our Express API.
+In the world of modern web development, user authentication and authorization are crucial aspects of protecting APIs and sensitive data. Among the most popular solutions are JSON Web Tokens (JWT), an open and lightweight standard that defines a compact and self-contained mechanism for secure transmission of information between client and server parties.
 
+### What are JWTs?
 
-## How API Authentication works
-
-You can divide a standard authentication process into 5 main steps:
-
-1. The user writes their username and password on your website.
-2. The username and password get sent to the backend API.
-3. The API looks for any record on the `User` table that matches both parameters at the same time (username and password).
-4. If a user is found, it generates a `token` for that user and responds `status_code=200` back to the front end.
-5. The front-end will use that `token` from now on to make any future request.
-
-![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/authentication-diagram.png?raw=true)
+A JWT is a token that contains information about a user's identity and authorization to access specific resources. It consists of three parts:
 
 > ☝️ If you don't know what a token is, I would recommend [this reading](https://4geeks.com/lesson/token-based-api-authentication).
 
-## What is JWT?
+**Header:** Specifies the token type, signing algorithm and other relevant information.
 
-There are many ways to create tokens: Basic, Bearer, JWT, etc. All of them are different in nature but all of them result in the same output: A hash (a big alphanumeric token).
+**Payload:** Contains data about the user, such as identification, name, roles and expiration date of the token.
 
-| Type of token | How it looks                                                            |
-| ------------- | ----------------------------------------------------------------------- |
-| Basic Token   | ecff2099b95ed507a27a4717ec78965d529cc346                                |
-| Bearer Token  | YWxlc2FuY2hlenI6NzE0YmZhNDNlN2MzMTJiZTk5OWQwYWZlYTg5MTQ4ZTc=            |
-| JWT Token     | eyJhbGciOiJIUzI1NiIsInR5c.eyJzdWIiOFt2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpM |
+**Signature:** Guarantees the integrity and authenticity of the token by means of a digital signature using a cryptographic algorithm and a secret key shared between the server and the client.
 
-> ☝️ As you can see, JWT Tokens are bigger than the other two types of tokens.
+### How does JWT work in API authentication?
 
-**JSON Web Token, or JWT is an open standard to create tokens**
+The scheme to be implemented in this case can be summarized as follows
 
-This standard has become quite popular since it's very effective for Web Apps like Google APIs, where, after user authentication you make API requests. 
+Authentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/authentication-diagram.png?raw=true)
 
-JSON Web Token is a type of token that includes a structure that can be decrypted by the server and allows you to authenticate the identity of the user of that application.
 
-## Why use JWT Token?
+1. Login: The user enters his credentials (email and password) in the client.
 
-In a nutshell: JWT is an amazing alternative because `Basic Token` is too simple and easy to hack, and Bearer Token is harder to maintain because you have to store each token on the database.
+2. Authentication: The server validates the user's credentials and, if correct, generates a JWT with the user's information and signs it with its secret key.
 
-With JWT Tokens you don't need a database, the token itself contains all the information needed.
+3. Sending the token: The server sends the JWT to the client in response to the login request.
 
-![Bearer token vs. JWT](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-vs-bearer-token.png?raw=true)
+4. Storing the token: The client stores the JWT securely, usually in local storage or in an HTTP cookie.
 
-## Structure of the JWT Token
+5. Subsequent requests: In each subsequent API request, the client includes the JWT in the authorization header.
 
-![JWT structure](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-token-structure.png?raw=true)
-
-You may notice that the string is divided into three sections, separated by a dot `.` - each section has it meaning:
-
-| Section name   |                                                                      |
-| -------------- | -------------------------------------------------------------------- | 
-| HEADER         | The first part stores the type of token and the encryption algorithm |
-| PAYLOAD        | The second part has the data that identifies the user: it can be their ID, username, etc. |
-| SIGNATURE      | A digital signature, which is generated with the previous two sections, which allows you to verify if the content has been modified. |
+6. Token validation: The server verifies the signature of the JWT to ensure its authenticity and integrity. If the token is valid, it extracts the user information from the payload and uses it to authorize access to the requested resource.
 
 ## Implementing JWT in your project API
 
