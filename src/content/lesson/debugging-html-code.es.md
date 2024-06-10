@@ -9,17 +9,20 @@ tags: ["debugging", "web development", "html/css"]
 
 El código HTML es difícil de depurar inicialmente, pero es fácil de comprender si sigues esta receta. Solo necesitas conocer 2-3 cosas antes de comenzar a codificar o depurar en HTML que te harán un maestro. Sí, es tan fácil, así que no te preocupes y sigue leyendo.
 
-Si estás interesado en depurar otros lenguajes o tecnologías, aquí está nuestra guía completa sobre [qué es la depuración](https://4geeks.com/es/lesson/que-es-depurar-codigo) y cómo convertirse en un maestro de la depuración al desarrollar front-end y back-end.
+Si estás interesado en depurar otros lenguajes o tecnologías, aquí está nuestra guía completa sobre qué es la depuración y cómo convertirse en un maestro de la depuración al desarrollar front-end y back-end.
 
 ## Prevención de errores
 
 Esta guía trata de solucionar un error, pero vale la pena mencionar cómo prevenir la mayoría de los errores desde el principio:
-+ **ABC = Always Be Closing** (siempre cierra) los tags como prioridad. Si abres un tag `<p>`, ¡ciérralo inmediatamente! Así: `<p></p>`, y luego procede a llenar el contenido HTML interno.
-+ **Usa un formateador de código** que indente tu código automáticamente. La mayoría de los errores al principio surgen porque tu código es desordenado y desafiante de seguir con tus ojos. Terminas abriendo/cerrando tags en el lugar equivocado.
+
++ **ABC = Always Be Closing (siempre cerrar) los tags como prioridad. Si abres un tag <p>, ¡ciérralo inmediatamente! Así: <p></p>, y luego procede a llenar el contenido HTML interno.
+
++ **Usa un formateador de código que indente tu código automáticamente. La mayoría de los errores al principio surgen porque tu código es desordenado y desafiante de seguir con la vista. Terminas abriendo/cerrando tags en el lugar equivocado.
 
 ## Tres herramientas de depuración para HTML
 
 Las herramientas de depuración más efectivas para HTML son:
+
 1. El código fuente HTML de tu página como lo ve el navegador.
 2. Las herramientas de inspección del desarrollador.
 3. Tu editor de código (VSCode, JetBrains, etc.).
@@ -51,7 +54,7 @@ Errores de caché: Debes asegurarte de que el código que escribiste sea el mism
 
 ### 2) Inspector de herramientas de desarrollo
 
-Todos los principales navegadores tienen herramientas de desarrollo, la primera pestaña en las herramientas de desarrollo se llama "Elementos" y contiene -casi- todo lo que necesitas para solucionar tus errores.
+Todos los principales navegadores tienen herramientas de desarrollo, la primera pestaña en las herramientas de desarrollo se llama "Elementos" y contiene casi todo lo que necesitas para solucionar tus errores.
 
 ![inspector de código HTML](https://i.imgur.com/Fca0Hkm.gif?raw=true)
 
@@ -72,7 +75,7 @@ El inspector de herramientas de desarrollo muestra una **versión en vivo** de t
 
 ### 3) Depuración de HTML dentro de tu Editor de Código (IDE)
 
-La última herramienta de depuración crucial para HTML es su IDE o editor de código. La mayoría de los IDE ofrecen las siguientes características:
+La última herramienta de depuración crucial para HTML es tu IDE o editor de código. La mayoría de los IDE ofrecen las siguientes características:
 + **Resaltado de sintaxis**: Los colores ayudan a distinguir visualmente diferentes partes del código HTML, como tags, atributos y valores, lo que facilita la identificación de errores.
 + **Linting**: Algunos editores tienen linter incorporados que pueden verificar tu código HTML para errores y problemas potenciales y resaltarlos en el editor.
 + **Validación**: Algunos editores pueden validar tu código HTML contra los estándares de W3C y mostrar mensajes de error si hay algún problema.
