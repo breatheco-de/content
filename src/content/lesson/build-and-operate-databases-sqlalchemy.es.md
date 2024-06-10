@@ -161,7 +161,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 # Puedes agregar el parámetro 'echo=True' a la siguiente línea para ver el como funciona código SQL de la librería
-engine = create_engine("postgresql://user:password@server.com:5432/example")
+engine = create_engine("postgresql://user:password@server.com:5432/example", echo=False)
 
 Session = sessionmaker(bind=engine)
 session = Session()
@@ -279,4 +279,4 @@ session.commit()
 
 Ya tienes toda la información que necesitas para empezar a implementar bases de datos con SQLAlchemy en tus aplicaciones con Python. Recuerda que no estas limitado a solo APIs, también puedes usar SQLAlchemy en aplicaciones de Ciencia de datos, Machine Learning, Electrónica, Internet de las cosas (IOT) y mucho más.
 
-[Desafíate a completar el siguiente proyecto para consolidar tus conocimientos en SQLAlchemy](https://github.com/4GeeksAcademy/sqlalchemy-operations)
+[Continua aprendiendo sobre SQL Alchemy, construye proyectos y completa tutoriales interactivos](https://4geeks.com/es/technology/sql-alchemy)
