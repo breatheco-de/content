@@ -1,5 +1,6 @@
 ---
 title: "Understanding Environments and Environment Variables in Programming"
+description: "Master the use of environment variables in programming to streamline and secure your development across multiple platforms like Python, Node.js, PHP, etc."
 tags: ["python", "node", "javascript"]
 authors: ["alesanchezr"]
 
