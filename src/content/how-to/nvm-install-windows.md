@@ -12,6 +12,8 @@ status: "published"
 
 As a developer, you'll likely encounter the need to juggle multiple Node.js projects in your [local development environment](https://4geeks.com/lesson/what-is-an-environment-in-programming), each requiring different versions of Node.js. To manage these requirements efficiently, we strongly recommend installing Node Version Manager (NVM) instead of directly installing Node.js. NVM allows you to switch between Node versions seamlessly, ensuring that each project has the right environment to run effectively. For those interested in optimizing their development setup further, we have an article detailing the best local development practices to help you avoid common issues in the future.
 
+> 📝 This guide is for Windows users only, follow these links if you want to [install NVM on MacOS](https://4geeks.com/how-to/install-node-nvm-mac-osx) or [install NVM on linux](https://4geeks.com/how-to/install-nvm-linux).
+
 ## 1) Download NVM for Windows.  
 
 In order to **install Node Version Manager tool in Windows** environment can download the latest version zip file from the following [list of official version](https://github.com/coreybutler/nvm-windows/tags).
