@@ -1,5 +1,6 @@
 ---
-title: How to Install NVM (Node Version Manager) on Every Operating System
+title: "How to Install NVM (Node Version Manager) on Every Operating System"
+description: "Discover how to install NVM on Windows, macOS, and Linux with our comprehensive guide. Manage multiple Node.js environments easily and switch between versions seamlessly."
 tags: ['command-line', 'nvm', 'node', 'javascript']
 authors: ['alesanchezr']
 
