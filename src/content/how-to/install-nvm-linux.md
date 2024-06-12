@@ -2,6 +2,7 @@
 title: "How to Install NVM on Linux"
 description: "Learn how to install NVM on Linux with our easy-to-follow guide. Covering popular distributions like Ubuntu and Fedora, this article includes troubleshooting tips and links to installation guides for macOS and Windows. Perfect for developers looking to manage multiple Node.js versions."
 authors: ["alesanchezr"]
+tags: ['node', 'javascript', 'nvm']
 
 ---
 
