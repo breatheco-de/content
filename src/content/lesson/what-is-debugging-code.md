@@ -65,7 +65,7 @@ Debugging back-end code can be split into 4 main groups:
 
 Debugging becomes more challenging as your application grows into more pieces that connect. This is why it's imperative to constantly run your code on almost every change (hot reload) instead of waiting until you have made many changes. Remembering the latest change you made to your code before the bug showed up gives you a lot of leverage.
 
-> 😎 Pro tip: Generally, what was the line of code that you last updated: Was it in the front end? Or the back end?
+> 😎 Pro tip: Generally, what was the line of code that you last updated? Was it in the front end? Or the back end?
 
 I'm going to assume the worst: You have no idea when the bug first appeared and have made many changes since the last time you ran your application. So these are the clues you have to watch to start debugging:
 
