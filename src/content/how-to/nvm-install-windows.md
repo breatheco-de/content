@@ -1,7 +1,7 @@
 ---
 title: "How to install NVM on Windows"
 subtitle: "This document will provide a guide on how installing nvm and node.js for Windows environment"
-tags: ["windows","nps"]
+tags: ["windows","nvm", "node"]
 textColor: "white"
 date: "2020-10-19T16:36:30+00:00"
 authors: ["kodi24fever"]
