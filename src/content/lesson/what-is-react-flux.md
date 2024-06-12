@@ -84,7 +84,7 @@ export function TaskProvider({ children }) {
   );
 }
 
-// Is necessary to export the context for it to be used in other components.
+// It's necessary to export the context for it to be used in other components.
 export default TaskContext;
 ```
 
