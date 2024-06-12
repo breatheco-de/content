@@ -66,8 +66,7 @@ Installing NVM (Node Version Manager) on macOS can sometimes lead to various iss
 
 ### 1. **Command Not Found Error After Installation**
 
-**Problem:** 😱  After installing NVM, you might try running `nvm` commands only to receive a message that says `nvm: command not found`.
-
+**Problem:** 😱  After installing NVM, you might try running `nvm` commands only to receive a message that says `nvm: command not found`.  
 **Solution:** 😎  This issue usually occurs because the NVM script isn't sourced in your shell profile file. You need to add the following line to your `.bash_profile`, `.zshrc`, `.profile`, or `.bashrc`:
 
 ```sh
@@ -80,8 +79,7 @@ After adding this, restart your terminal or run `source ~/.bash_profile` (or the
 
 ### 2. **Installation Fails Due to curl or wget Errors**
 
-**Problem:** 😱  During the installation of NVM, you might encounter errors related to `curl` or `wget` not working correctly.
-
+**Problem:** 😱  During the installation of NVM, you might encounter errors related to `curl` or `wget` not working correctly.  
 **Solution:** 😎  Ensure that you have `curl` or `wget` installed on your Mac. If they are missing, you can install them using Homebrew by running:
 
 ```sh
@@ -92,13 +90,12 @@ Then attempt to reinstall NVM.
 
 ### 3. **Issues with .bash_profile and .bashrc**
 
-**Problem:** 😱  NVM does not seem to function correctly even after adding the script to the profile.
+**Problem:** 😱  NVM does not seem to function correctly even after adding the script to the profile.  
 **Solution:** 😎  macOS uses `.bash_profile` primarily, but if you use a different shell like Zsh, you should add the export scripts to `.zshrc`. Make sure you are editing the file for the correct shell. If unsure, add the script to both `.bash_profile` and `.bashrc`.
 
 ### 4. **Permission Denied During Installation**
 
-**Problem:** 😱  You may see a `Permission denied` error when trying to install NVM.
-
+**Problem:** 😱  You may see a `Permission denied` error when trying to install NVM.  
 **Solution:** 😎  This typically happens due to restricted permissions in the directory where NVM is trying to install. You can try to install NVM using a modified command with elevated permissions:
 
  ```sh
@@ -109,14 +106,12 @@ Then attempt to reinstall NVM.
 
 ### 5. **Conflicts with Existing Node or NVM Installations**
 
-**Problem:** 😱  If you have pre-existing Node or another version of NVM installed via a different method, conflicts may occur.
-
+**Problem:** 😱  If you have pre-existing Node or another version of NVM installed via a different method, conflicts may occur.  
 **Solution:** 😎  Remove any existing Node.js installations and the current NVM installation. You can uninstall Node.js by removing its directory and cleaning up any symlinks related to it. For NVM, you should remove the `.nvm` directory and any lines related to NVM in your shell profile files.
 
 ### 6. **Profile Script Not Executed Automatically**
 
-**Problem:** 😱  The shell does not automatically execute the profile script on opening a new terminal window.
-
+**Problem:** 😱  The shell does not automatically execute the profile script on opening a new terminal window.  
 **Solution:** 😎  You may need to configure your terminal to run the script automatically. This setting can typically be adjusted in the terminal preferences under "Shells open with" or a similar section. Make sure it is set to run the command file as login.
 
 Implementing these solutions should help you resolve most issues related to installing NVM on macOS, enhancing your development setup and workflow.
