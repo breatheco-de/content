@@ -15,17 +15,17 @@ In software development, an "environment" refers to the setup or configuration u
 
 Properly managing environments is crucial when working on multiple projects or collaborating with a team, as it ensures consistency and predictability in software behavior across different machines and setups.
 
-> This article is not about virtual machines or Docker containers; we focus on environment creation that usually occurs inside the developer's personal computer, the virtual machine, or the Docker container.
+> ☝️ This article is not about virtual machines or Docker containers; we focus on environment creation that usually occurs inside the developer's personal computer, the virtual machine, or the Docker container.
 
 ## Installing programming languages for multiple environments
 
 As a software developer, you may need to use Python 3.10 in one project and Python 3.11 on another one.
 
-To solve this problem, we recommend the installation of version managers instead of the programming languagres themselves, for example:
+To solve this problem, we recommend the installation of version managers instead of installing the programming languages directly, for example:
 
-- Install `nvm` instead of node
-- [Install pyenv](https://4geeks.com/how-to/what-is-pyenv-and-how-to-install-pyenv) instead of python
-- Install phpenv instead of PHP
+- [Install nvm](https://4geeks.com/how-to/install-nvm-on-every-operating-system) instead of node directly
+- [Install pyenv](https://4geeks.com/how-to/what-is-pyenv-and-how-to-install-pyenv) instead of python directly
+- Install phpenv instead of PHP directly
 
 ## What Are Environment Variables?
 
@@ -37,12 +37,18 @@ Environment variables are key-value pairs stored on a computer that can be used 
 - **Flexibility**: Allowing the same application code to be run in different environments with different configurations.
 - **Scalability**: Simplifying the process of scaling applications across different servers and environments.
 
+## Creating an environment
+
+Depending on your chosen programming language, you will use different tools for creating environments like [venv](https://docs.python.org/3/library/venv.html), [rbenv](https://github.com/rbenv/rbenv), etc. Let's dive into the most recommended environment tools for the most popular programming languages.
+
 ### Managing Python Environments with pyenv and pipenv
 
 - **pyenv**: This tool allows developers to manage multiple Python versions on a single machine, enabling seamless switching between versions based on project requirements. It's particularly useful when projects require different or specific versions of Python that are not system-wide.
 
   - **Installation and Setup**: Explain how to install pyenv (e.g., using `curl` or `brew` on macOS) and set it up to manage Python versions.
   - **Usage**: Demonstrate how to install a specific Python version (`pyenv install 3.8.6`) and how to set a local version for a project (`pyenv local 3.8.6`).
+ 
+> 💡 Continue reading on [what is pyenv and how to install it](https://4geeks.com/how-to/what-is-pyenv-and-how-to-install-pyenv).
 
 - **pipenv**: This tool automatically creates and manages a virtual environment for your projects, as well as adding/removing packages from your `Pipfile` as you install/uninstall packages. It also generates the `Pipfile.lock`, which is used to produce deterministic builds.
 
