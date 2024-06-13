@@ -5,9 +5,17 @@ tags: ["reactjs"]
 
 ---
 
-## In React.js Everything is a `<Component />`
+Imagine you're building a model of a town using LEGO blocks. Each building, tree, car, or any other piece that you might place on your model town can be considered a component. In the world of web development, particularly when using a [technology called React](https://4geeks.com/technology/reactjs), this concept is similar.
 
-React.js separates your code into little pieces called Components which can be created/defined as a **class** or as a **function**. Each component is like a smaller React app that has its own logic and has a final purpose, which is to display or **render** something (e.g: a bootstrap navbar, a dropdown list, a modal, a dynamic form, an image gallery, subscribe form), almost everything can be designed and coded as a React Component. To do that every React component needs to have a `return` statement that returns some JSX code (HTML + embedded JS). 
+A React component is like one of those LEGO pieces. It's a self-contained unit that represents a part of the user interface (UI) in a web application. Just like each LEGO block can be used to construct different parts of your model town and can be reused in different scenarios, a React component can be used to build different parts of a website and can be reused throughout the application.
+
+> 📝 Components are not a new concept in web development since libraries like bootstrap are already defining [bootstrap components](https://4geeks.com/lesson/bootstrap-tutorial-learn-bootstrap-5-in-10-minutes#bootstrap-5-components) like the `navbar`, `dropdown list`, `modal`, etc. 
+
+## In React.js Everything is a Component
+
+React.js separates your code into little pieces called Components which can be created/defined using a **class** syntax (legacy) or as a **function** syntax. Each component is like a small React application that has its own logic and purpose, which is to display or **render** some HTML.
+
+Almost any HTML can be encapsulated and coded as a **React Component**. To do so, every React component needs to have a `return` statement that returns some JSX code (HTML + embedded JS). For example, here is the classic bootstrap navbar encapsulated as a **React Component**.
 
 ```jsx
 import React from 'react';
@@ -20,24 +28,11 @@ function NavBar(props){
 }
 ```
 
-```jsx
-import React from 'react';
-
-// a class component
-class Navbar extends React.Component{
-    render(){
-        return (<nav className="navbar navbar-light bg-light">
-              <a className="navbar-brand" href="#">Navbar</a>
-           </nav>);
-    }
-}
-```
-
-> ☝️ This is a class component. We strongly recommend you to use functional components and hooks instead because class components are legacy.
+> ☝️ There is legacy way to use js classes to create components but we don't showcase or recommend it anymore since it was deprecated a long time ago.
 
 ## Using a Component
 
-Once you have composed a component, you can display it using tags like this:
+Once you have created your first a component, you can include it or use it inside the rest of your code by typing the function name like an HTML `<tag>`. For example, if you created a component using the function syntax called Home you can include it in your code using the `<Home>` tag like this:
 
 ```jsx
 import React from "react";
@@ -56,10 +51,9 @@ function Home(props){
 }
 
 // Here we tell React to put our main app component <Home /> inside the DOM element with id #myApp 
-ReactDOM.render(
-  <Home />,
-  document.querySelector("#myApp")
-);
+const root = ReactDOM.createRoot(document.getElementById('myApp'));
+root.render(<Home />);
+
 ```
 
 ## The Component Props
@@ -88,13 +82,12 @@ And, lastly, you should tell React where to render that component into the DOM.
 
 <div align="right"><small><a href="https://codesandbox.io/embed/zwlnpwmxll?hidenavigation=1">Click here to open demo in a new window</a></small></div>
 
-## Features of `class` components 
 
-### The Component’s State
+### The React component `state`
 
-We call class components in React ***stateful*** because they come with a global `state` object (shared within the same component only) which has the sole purpose of storing the data needed to render the component. One obvious use of the **state** object would be if, for example, we have a form with input fields that need to be filled by the user. The data entered by the user will need to be saved somewhere in order to be used. The `state` will be that place. 
+We call class components in React ***stateful*** because they can incorporate a `state` variable which has the sole purpose of storing the data needed to render the component. One obvious use of the **state** would be if, for example, we have a form with input fields that need to be filled by the user. The data entered by the user will need to be saved somewhere in order to be used. The `state` will be that place. 
 
-In another example, let's say that you are developing a `<Clock />` component that has to print the current time every second. That means that our component will need to re-render every second. 
+In another example, let's say that you are developing a `<Clock />` component that has to print the current time every second. That means that our component will need to re-render every second because it has to update the HTML to show the amount of seconds that have passed. 
 
 In order for the state to keep a web page up-to-date, it is programmed to re-render the DOM every time it is modified. So you can probably already see how you can take advantage of this feature by keeping your current time inside the state and reassigning it to the most current time every second. Like so:
 
@@ -106,9 +99,9 @@ In order for the state to keep a web page up-to-date, it is programmed to re-ren
 
 The state is always inside of the `constructor()` method of the class components and is expressed as a plain JS object literal.
 
-### The State Object is considered Immutable (it should not be changed directly)
+### The State is considered Immutable (it should not be changed directly)
 
-When speaking about modifying the value of the state, you have to remember that the state should not be mutated directly. It should only be modified by calling the specially designated method `this.setState()`. In it, you will have to pass a new/updated state object that will replace the previous state values. For example:
+When speaking about modifying the value of the state, you have to remember that the state should not be mutated directly. It should only be modified by calling the specially designated react hook called `useState`. In it, you will have to pass a new/updated state object that will replace the previous state values. For example:
 
 ```jsx  
 // A direct assignment of this.state is only allowed in the constructor method of your class; anywhere else it may cause an error in your stored data
