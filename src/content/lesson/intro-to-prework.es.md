@@ -87,7 +87,7 @@ Y todo esto es porque necesitamos estar seguros de que tienes lo que se necesita
 
 El cerebro humano requiere mucha energía para tomar cualquier decisión, especialmente cuando muchas variables intervienen en la ecuación. Este curso será difícil porque estamos rediseñando la forma en que tomas estas decisiones. Tendrás que pensar de manera similar a como piensan las computadoras. No te preocupes, llegará un momento en el que todo lo que hagas se convertirá en un comportamiento adquirido.
 
-Si te sientes abrumado y confundido, ¡¡**pide ayuda!!** Y, **sigue trabajando duro -** ¡lo conseguirás! Todas las lecciones son acumulativas, lo que significa que cada ejercicio requerirá que utilices todas las habilidades que has aprendido en el pasado.
+Si te sientes abrumado y confundido, ¡pide ayuda! Y, **sigue trabajando duro -** ¡lo conseguirás! Todas las lecciones son acumulativas, lo que significa que cada ejercicio requerirá que utilices todas las habilidades que has aprendido en el pasado.
 
 ### ¡Por favor, pide ayuda!
 
