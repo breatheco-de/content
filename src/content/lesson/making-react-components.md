@@ -1,11 +1,7 @@
 ---
-title: "Creating React Components"
-subtitle: "React.js bread and butter. Become a master in React Components and you have conquered the front-end world of React."
-cover_local: "../../assets/images/84c4d84c-51b9-4906-a572-71cc07ecfc8c.jpeg"
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
+title: "Creating React Components - Learn what is and how to create a react component"
+subtitle: "Components are React.js bread and butter. Become a master creating react components using properties, the component state and learn the most common syntaxes"
 tags: ["reactjs"]
-status: "published"
 
 ---
 
