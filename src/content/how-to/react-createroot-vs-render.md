@@ -1,3 +1,11 @@
+---
+subject: "About the ReactDOM CreateRoot function"
+description: "Discover the benefits of using React's createRoot function, introduced in React v18, as we explore its role in replacing ReactDOM.render"
+tags: ["react"]
+authors: ["alesanchezr"]
+
+---
+
 # The ReactDOM CreateRoot function
 
 The React.createRoot function method should be the first function called on your React application. It replaces the older ReactDOM.render method (since React v18) and has several improvements that help make your application more efficient and responsive.
