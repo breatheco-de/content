@@ -45,7 +45,7 @@ Una vez definidos los `<tag>`, podemos describir con más detalle su comportamie
 <a href="google.com">Haz clic aquí para ir a google.com</a>
 ```
 
-En teoría, tú debes utilizar [uno de estos tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true). No puedes inventar tus propios tags porque el navegador no sabría cómo interpretarlas. Debes conocer el significado de cada **tag HTML** para utilizarlos sabiamente… ¡Pero no te preocupes, que no hay muchos! 🙂
+En teoría, tú debes utilizar [uno de estos tags](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/Cheat-Sheet-HTML.jpg?=true). No puedes inventar tus propios tags porque el navegador no sabría cómo interpretarlas. Debes conocer el significado de cada **tag HTML** para utilizarlos sabiamente. ¡Pero no te preocupes, que no hay muchos! 🙂
 
 Para el título (el heading) principal del documento, se utiliza el tag `<h1>`. Por ejemplo: una tienda en línea podría tener una sección para la categoría de "Electrónicos". El título de dicha categoría sería "Electrónicos" y el tag `<h1>` lo escribiríamos de la siguiente manera:
 
