@@ -1,14 +1,14 @@
 ---
 title: "¿Cómo instalar Pyenv en Mac?"
 subtitle: "Descubre los pasos detallados para instalar Pyenv en tu sistema operativo de Mac y gestiona fácilmente múltiples versiones de Python. Aprende a utilizar esta herramienta esencial para el desarrollo en Python."
-tags: ["Python", "Pyenv"]
-authors: [DF27ARTS]
+tags: ["Python", "Pyenv", "macos"]
+authors: ["DF27ARTS"]
 
 ---
 
-Pyenv es una herramienta que te permite interactuar con diferentes versiones de Python fácilmente. Esta herramienta te permite instalar diferentes versiones de [Python](https://4geeks.com/es/lesson/que-es-python-tutorial) e intercambiar entre entre ellas de manera sencilla lo cual puede ser especialmente útil en varias ocasiones, por ejemplo si deseas comprobar que tu aplicación funciona en diferentes versiones de Python.
+Pyenv es una herramienta que te permite installar y manejer varias versiones de [Python](https://4geeks.com/es/technology/python) a la vez y fácilmente. Hay muchas maneras de instalar pyenv en una mac y en este artículo te las vamos a mostrar ordenadas de la más recomendada a la menos recomendada.
 
-En este artículo veremos como instalar **pyenv** en tu ordenador Mac, siguiendo una serie de pasos necesarios para realizar la instalación. Si te interesa saber cómo instalar esta herramienta en diferentes sistemas operativos como **Windows** o **Linux** puedes visitar el artículo [cómo instalar pyenv](https://4geeks.com/es/how-to/que-es-pyenv-y-como-instalar-pyenv) del blog de 4Geeks.
+En este artículo veremos como **instalar pyenv en una Mac** únicamente. Si te interesa, existen guias para: [Instalar pyenv en Linux](https://4geeks.com/es/how-to/instalar-pyenv-linux), [instalar pyenv en windows](https://4geeks.com/es/how-to/instalar-pyenv-windows) y una [guia general sobre pyenv y cómo instalarlo](https://4geeks.com/es/how-to/que-es-pyenv-y-como-instalar-pyenv).
 
 ## Instalar la línea de comandos XCode
 
