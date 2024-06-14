@@ -14,7 +14,7 @@ authors: ["danielmoret"]
 
 `Pyenv` has multiple uses, providing developers with greater control over their projects, including:
 
-- **Python Version Management:** Allows installing, uninstalling, and switching between different Python versions without interfering with the [system Python installation](https://4geeks.com/es/how-to/como-instalar-python).
+- **Python Version Management:** Allows installing, uninstalling, and switching between different Python versions without interfering with the original system Python installation (most Linux and some MacOS computers already have Python pre-installed; we call this the "system Python installation).
 
 - **Environment Isolation:** Enables developers to create specific Python environments for each project, ensuring that each project has its own dependencies and isolated packages.
 
