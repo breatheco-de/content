@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-## ¡Es Tiempo de construir cosas impresionantes!
+## ¡Es tiempo de construir cosas impresionantes!
 
 Los programadores junior entienden los trucos básicos de programar (for, while, if...else, funciones, variables, etc.) Pero los programadores Senior pueden ver el panorama general y crear una aplicación de principio a fin.  Este curso es un intento de hacerte ver el panorama general y comenzar a crear aplicaciones muy profesionales de inmediato.
 
