@@ -26,7 +26,7 @@ Now let's look at the installation process for different operating systems.
 
 ## Installing pyenv on Windows
 
-**Step 1:** Install Git if you don't have it installed already. You can download it from the [official page](https://git-scm.com/downloads). If you are unsure how to install it, you can follow this [tutorial](https://www.youtube.com/watch?v=cYLapo1FFmA).
+**Step 1:** Install Git if you don't have it installed already. We recommend to read our guide on [how to install git for windows](https://4geeks.com/how-to/install-git-on-windows-macos-and-linux#installing-git-on-windows) or You can download it from the [official page](https://git-scm.com/downloads). The [video tutorial](https://www.youtube.com/watch?v=9CAwvKiLICs) is also recommended.
 
 **Step 2:** Install pyenv-win. Open the Git Bash or PowerShell terminal and clone the `pyenv` repository from GitHub with the following command:
 
