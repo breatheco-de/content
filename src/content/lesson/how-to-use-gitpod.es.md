@@ -13,7 +13,7 @@ Lo utilizamos para proveer computadoras similares a todos nuestros estudiantes; 
 
 Piensa en Gitpod como una **máquina virtual** que circula en la internet; cuando creas un archivo en Gitpod, no se guarda localmente en tu computadora; quedará guardado en línea, y vas a necesitar de internet para recuperarlo de nuevo al día siguiente.
 
-__Computadoras bajo demanda, con VSCode ya instalado__
+__Computadoras bajo demanda, con VSCode ya instalado.__
 
 ## ¿Por qué Gitpod?
 
