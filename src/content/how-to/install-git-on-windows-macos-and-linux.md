@@ -18,7 +18,7 @@ This article provides a step-by-step guide to installing Git on Windows, macOS, 
 
 ### Download the Installer
 
-- Visit the official Git website: [Git for Windows](https://gitforwindows.org/).
+- Visit the official Git website: [Git for Windows](https://www.git-scm.com/download/win).
 - Click on the "Download" button to get the latest version.
 
 ### Run the Installer
