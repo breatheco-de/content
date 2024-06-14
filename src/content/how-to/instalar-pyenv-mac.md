@@ -3,6 +3,7 @@ title: "¿Cómo instalar Pyenv en Mac?"
 subtitle: "Descubre los pasos detallados para instalar Pyenv en tu Mac y gestiona fácilmente múltiples versiones de Python. Aprende a utilizar esta herramienta esencial para el desarrollo en Python en MacOS."
 tags: ["Python", "Pyenv", "macos"]
 authors: ["DF27ARTS", "alesanchezr"]
+table_of_contents: true
 
 ---
 
