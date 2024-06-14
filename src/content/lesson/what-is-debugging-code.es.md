@@ -29,7 +29,7 @@ Sé que estás aquí para aprender cómo solucionar errores. Aun así, vale la p
 
 > 📄 Aquí hay una guía sobre [normas y directrices de codificación](https://4geeks.com/es/lesson/estandares-y-lineamientos-de-codigo) que te ayudará a tener un código limpio y prevenir errores.
 
-<quote>Si depurar es el proceso de eliminar errores de software, entonces programar debe ser el proceso de ponerlos. -- Edsger Dijkstra</quote>
+<quote>Si depurar es el proceso de eliminar errores de software, entonces programar debe ser el proceso de ponerlos. - Edsger Dijkstra</quote>
 
 ## Cómo depurar código: El marco de depuración
 
