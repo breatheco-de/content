@@ -1,8 +1,8 @@
 ---
 title: "¿Cómo instalar Pyenv en Mac?"
-subtitle: "Descubre los pasos detallados para instalar Pyenv en tu sistema operativo de Mac y gestiona fácilmente múltiples versiones de Python. Aprende a utilizar esta herramienta esencial para el desarrollo en Python."
+subtitle: "Descubre los pasos detallados para instalar Pyenv en tu Mac y gestiona fácilmente múltiples versiones de Python. Aprende a utilizar esta herramienta esencial para el desarrollo en Python en MacOS."
 tags: ["Python", "Pyenv", "macos"]
-authors: ["DF27ARTS"]
+authors: ["DF27ARTS", "alesanchezr"]
 
 ---
 
@@ -10,17 +10,23 @@ Pyenv es una herramienta que te permite installar y manejer varias versiones de 
 
 En este artículo veremos como **instalar pyenv en una Mac** únicamente. Si te interesa, existen guias para: [Instalar pyenv en Linux](https://4geeks.com/es/how-to/instalar-pyenv-linux), [instalar pyenv en windows](https://4geeks.com/es/how-to/instalar-pyenv-windows) y una [guia general sobre pyenv y cómo instalarlo](https://4geeks.com/es/how-to/que-es-pyenv-y-como-instalar-pyenv).
 
-## Instalar la línea de comandos XCode
+## Dependencias que debemos installar primero que Pyenv
 
-Antes de instalar `pyenv` en tu ordenador Mac, necesitas instalar otros paquetes de software. El primero es la librería de comandos de XCode, para realizar la instalación ejecuta el siguiente comando:
+Antes de instalar `pyenv` en tu ordenador Mac, necesitas instalar otros paquetes de software que son utilizados por Pyenv internamente (dependencias).
+
+### Instalar la línea de comandos XCode (opcional)
+
+El primero es la librería de comandos de XCode, un entorno de desarrollo integrado (IDE) oficial de Apple para crear aplicaciones para macOS, iOS, watchOS y tvOS. XCode es utilizado extensamente cuando programas para el ecosistema de Apple y Mac, sin embargo, para programar en python no es necesario conocerlo, solo instalarlo, ya que es utilizado de forma interna (invisible) por **pyenv**.
+
+> 👆🏽 Si ya tienes `xcode-select` instalado, puedes omitir este paso. Puedes chequear si lo tienes instalado con el comando `xcode-select -v`, si lo tienes instalado te dirá la versión.
+
+Para realizar la instalación de XCode en tu mac, ejecuta el siguiente comando:
 
 ```bash
 xcode-select --install
 ```
 
-> Si ya tienes `xcode-select` instalado, puedes omitir este paso. Puedes chequear si lo tienes instalado con el comando `xcode-select -v`, si lo tienes instalado te dirá la versión.
-
-## Instalar las librerias necesarias
+### Instalar otras librerias necesarias
 
 `Pyenv` contruye las versiones de Python desde **0** y para esto requiere de algunas herramientas, **openssl**,  **readline**, **sqlite3**, **zlib** y **xz**. Estas herramientas pueden ser instaladas a travéz del gestor de paquetes `Homebrew` con el siguiente comando:
 
