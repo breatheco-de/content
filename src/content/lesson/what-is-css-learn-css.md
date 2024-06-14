@@ -11,7 +11,7 @@ status: "published"
 
 ## Welcome to CSS!!
 
-We are sure that after diving deep into HTML, everything looks kind of ugly, fixed, and rigid. We have to remember that HTML was created by CERN scientists, and they’re not – usually – the funniest kind of people (although they are the same exact scientists that [discovered The Higgs Boson](https://www.youtube.com/watch?v=0CugLD9HF94); and we do have to bow to our knees for that). However, HTML is still ugly, and it’s ugly because it was created for a different purpose than the one HTML meets today.
+We are sure that after diving deep into HTML, everything looks kind of ugly, fixed, and rigid. We have to remember that HTML was created by CERN scientists, and they’re not usually the funniest kind of people (although they are the same exact scientists that [discovered The Higgs Boson](https://www.youtube.com/watch?v=0CugLD9HF94); and we do have to bow to our knees for that). However, HTML is still ugly, and it’s ugly because it was created for a different purpose than the one HTML meets today.
 
 ![what is css](https://github.com/breatheco-de/content/blob/master/src/assets/images/6891485c-2a5a-4722-a7dc-f108993c18ba.jpeg?raw=true)
 
@@ -52,7 +52,7 @@ The CSS syntax is nothing similar to HTML syntax, it is its own specific program
 
 ![learn css](https://github.com/breatheco-de/content/blob/master/src/assets/images/4a25cfd5-e8ab-4abb-b4f8-148d376b3f3d.gif?raw=true)
 
-A CSS style sheet is a huge list of style definitions for each HTML element.  First, you must specify which element – or group of elements – you are going to style; this is called a SELECTOR.  Then you have to put a key `{` to indicate that you are going to start defining each attribute and its respective value, and you end that with another key `}`.  You should always finish each attribute definition with a semicolon `;`.
+A CSS style sheet is a huge list of style definitions for each HTML element.  First, you must specify which element or group of elements you are going to style; this is called a SELECTOR.  Then you have to put a key `{` to indicate that you are going to start defining each attribute and its respective value, and you end that with another key `}`.  You should always finish each attribute definition with a semicolon `;`.
 
 Watch the previous animation for a better understanding.
 
