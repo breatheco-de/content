@@ -53,7 +53,7 @@ Al igual que cualquier otra etiqueta HTML, las etiquetas de input tienen varios 
 <input type="text" name="firstname" value="John" readonly/>
 ```
 
-`DISABLED`: Determina si el input será gris y de solo lectura. Los inputs deshabilitados no se envían al servidor: actúan como si nunca hubieran existido.
+`DISABLED`: Determina si el input es de color gris o de solo lectura. Los inputs deshabilitados no se envían al servidor: actúan como si nunca hubieran existido.
 
 ```html
 <input type="text" name="firstname" value="John" disabled/>
