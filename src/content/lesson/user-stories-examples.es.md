@@ -18,13 +18,13 @@ status: "published"
 
 Lo más difícil de hacer en software no es programar, ¡es diseñar el sistema! Y NO estamos hablando de diseño gráfico... estamos hablando de la arquitectura, modelado de datos, requisitos del cliente, etc. Algunas de esas cosas son más difíciles que otras, pero hacer una lista de requisitos es probablemente una de las artes más difíciles.
 
-**¿Qué es una Característica?** ¡Es una funcionalidad que tiene la aplicación! Por ejemplo: registrarse, votar, comprar, etc.
+**¿Qué es una característica?** ¡Es una funcionalidad que tiene la aplicación! Por ejemplo: registrarse, votar, comprar, etc.
 
 Describir una característica parece fácil, pero puede ser desafiante: ¿dónde debería comenzar? ¿Qué tan detallado debe ser? ¿Qué tan técnico puedes ser? Pero, no te preocupes... ¡Las "Historias de usuario" han llegado al rescate!
 
 Las historias de usuario se han vuelto muy populares como estándar de documentación basado en características, se enfoca en lo esencial. Son fáciles de entender por todos los involucrados (no solo los desarrolladores) y fáciles de probar.
 
-### ¿Qué es tan Especial de ellas?
+### ¿Qué es tan especial de ellas?
 
 
 Una historia de usuario es como tener una conversación con su futuro usuario. Deben estar escritos en lenguaje no técnico estándar para niños de 12 años con poca capacidad de atención:
@@ -32,13 +32,13 @@ Una historia de usuario es como tener una conversación con su futuro usuario. D
 + Alrededor de 100 caracteres cada uno: ¡cuanto menos mejor!
 + Con solo UNA funcionalidad para cada uno - si ves que crece, simplemente divide la historia en 2 historias diferentes.
 
-### Aquí hay unos Ejemplos:
+### Aquí hay unos ejemplos:
 
 <p align="center"><img src="https://github.com/breatheco-de/content/blob/master/src/assets/images/032a818d-e4d7-4276-8195-ce5d8a3edcf6.png?raw=true" width="1000" alt="user stories examples"/></p>
 
 ### ¿Cómo debes escribir las historias de usuario?
 
-Es tan simple que se vuelve complicado... lo más importante es: (1) Mantener un lenguaje simple, (2) Ser breve, (3) Especificar:
+Es tan simple que se vuelve complicado... lo más importante es: (1) mantener un lenguaje simple, (2) ser breve, (3) especificar:
 
 + **Rol:**  ¿Quién es capaz de usar la función?
 + **Característica:** ¿De qué se trata la característica?
