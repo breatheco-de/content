@@ -28,13 +28,15 @@ Now let's look at the installation process for different operating systems.
 
 **Step 1:** Install Git if you don't have it installed already. We recommend to read our guide on [how to install git for windows](https://4geeks.com/how-to/install-git-on-windows-macos-and-linux#installing-git-on-windows) or You can download it from the [official page](https://git-scm.com/downloads). The [video tutorial](https://www.youtube.com/watch?v=9CAwvKiLICs) is also recommended.
 
-**Step 2:** Install pyenv-win. Open the Git Bash or PowerShell terminal and clone the `pyenv` repository from GitHub with the following command:
+**Step 2:** Next step is to install `pyenv-win`. Open the Git Bash or PowerShell terminal and clone the `pyenv` repository from GitHub with the following command:
 
 ```PowerShell
 git clone https://github.com/pyenv-win/pyenv-win.git $HOME/.pyenv
 ```
 
-**Step 3:** Add PYENV, PYENV_HOME, and PYENV_ROOT to your environment variables with the following commands:
+> 📝 This will download the pyenv-win repository into a new directory called `.pyenv` that will live under your system user folder.
+
+**Step 3:** Open the windows PowerShell command line and add `PYENV`, `PYENV_HOME`, and `PYENV_ROOT` to your [environment variables](https://4geeks.com/lesson/what-is-an-environment-in-programming#what-are-environment-variables) with the following commands:
 
 ```PowerShell
 [System.Environment]::SetEnvironmentVariable('PYENV',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
@@ -44,7 +46,7 @@ git clone https://github.com/pyenv-win/pyenv-win.git $HOME/.pyenv
 [System.Environment]::SetEnvironmentVariable('PYENV_HOME',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
 ```
 
-**Step 4:** Add the following paths to your USER PATH variable to execute the pyenv command in the terminal:
+**Step 4:** Add the following paths to your user's `PATH` variable to execute the pyenv command in the terminal:
 
 ```PowerShell
 [System.Environment]::SetEnvironmentVariable('path', $env:USERPROFILE + "\.pyenv\pyenv-win\bin;" + $env:USERPROFILE + "\.pyenv\pyenv-win\shims;" + [System.Environment]::GetEnvironmentVariable('path', "User"),"User")
