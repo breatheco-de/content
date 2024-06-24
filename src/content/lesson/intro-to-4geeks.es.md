@@ -34,9 +34,9 @@ Durante los años que han pasado hemos identificado razones específicas por la 
 
 En algún momento de nuestras vidas (en algunos más que otros) podemos haber pensado que no somos la persona más lista de una sala. Si continuamos pensando eso durante mucho tiempo y no nos sentimos cómodos con ninguna disciplina, incluso podemos llegar a pensar que no somos inteligentes ¡Mentira! ¡Nada que ver! Eres parte de esta academia, no aceptamos personas que no creemos que sean lo suficientemente inteligentes como para ganarse la vida como desarrolladores. ¡Tienes que creer eso, especialmente en tiempos difíciles!
 
-> Si algún ejercicio o proyecto en particular te parece difícil, en vez de pensar que no sirves para esto, busca nuevas maneras de absorber el contenido. Habla con un mentor y te daremos exactamente lo que necesitas.
+> Si algún ejercicio o proyecto en particular te parece difícil, en vez de pensar que no sirves para esto, busca nuevas maneras de asimilar el contenido. Habla con un mentor y te daremos exactamente lo que necesitas.
 
-Cualquier persona en general puede aprender a programar, la programación se vuelve más complicada cuando te especializas más en tu carrera (Inteligencia Artificial, Robótica, etc.) Puedes ganar una buena cantidad de dinero sin tener que haber estudiado matemáticas, sin ser bueno con los números o sin aprender tan rápido como otros (es posible que podamos arreglar eso, por cierto). 
+Cualquier persona en general puede aprender a programar, la programación se vuelve más complicada cuando te especializas más en tu carrera (Inteligencia Artificial, Robótica, etc.) Puedes ganar una buena cantidad de dinero sin haber tenido que estudiar matemáticas, sin ser bueno con los números o sin aprender tan rápido como otros (es posible que podamos arreglar eso, por cierto). 
 
 
 ##### 📝 Receta para no perder la confianza en ti:
@@ -63,7 +63,7 @@ Sabemos cómo enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseña
 
 #### Pared #3: Inactividad 😴 
 
-Esto es un bootcamp, no importa si lo haces tiempo-completo o tiempo-parcial, debes tener mentalidad de bootcamp y trabajar cada día como si fuera el último. El cerebro humano absorbe 80% más cuando se siente desafiado y asustado, si descansas un día el cerebro se relaja y [está demostrado](https://www.youtube.com/watch?v=h5PLO4XAXhs) que usualmente se olvida del 60% de la información recientemente adquirida a menos que la uses, de forma repetida y constante durante un periodo de 7 días (por lo menos).
+Esto es un bootcamp, no importa si lo haces tiempo-completo o tiempo-parcial, debes tener mentalidad de bootcamp y trabajar cada día como si fuera el último. El cerebro humano absorbe 80% más cuando se siente desafiado y asustado, si descansas un día el cerebro se relaja y [se ha demostrado](https://www.youtube.com/watch?v=h5PLO4XAXhs) que usualmente se olvida del 60% de la información recientemente adquirida a menos que la uses, de forma repetida y constante durante un periodo de 7 días (por lo menos).
 
 Estos números no son pequeños, 60% en un día y 90% si no practicas en una semana ¡Estás perdiendo tu tiempo y dinero si no te lo tomas en serio!
 
