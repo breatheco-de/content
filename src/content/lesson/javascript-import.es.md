@@ -37,7 +37,7 @@ Solo puedes exportar **UNA** variable por defecto, y no tienes que usar los corc
 ### Importando por defecto
 
 ```javascript
-// Contenido en index.js 
+// Contenido en index.js.
 
 import multiplyFunction from './my_file.js';
 
