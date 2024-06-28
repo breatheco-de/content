@@ -64,13 +64,14 @@ let b ;
 
 ### `var` vs.  `let`  vs. `const`
 
-Como aprendimos anteriormente, usamos la palabra clave `var` para declarar una variable. Hay otras dos palabras claves que también podemos usar para declarar variables: ***const & let***. Las principales diferencias entre estos tipos de variables tienen que ver con el alcance.
+Como aprendimos anteriormente, usamos la palabra clave `var` para declarar una variable. Hay otras dos palabras claves que también podemos usar para declarar variables: **const & let**. Las principales diferencias entre estos tipos de variables tienen que ver con el alcance.
 
-***Const***: Esta palabra clave se utiliza cuando el valor permanece constante durante toda la vida del script. El valor de la variable declarada con esta palabra clave nunca se puede cambiar. Si intentas cambiarlo, se producirá un error.
+**Const**: Esta palabra clave se utiliza cuando el valor permanece constante durante toda la vida del script. El valor de la variable declarada con esta palabra clave nunca se puede cambiar. Si intentas cambiarlo, se producirá un error.
 
-***Let***: Los valores solo están limitados al alcance del bloque de código (cualquier cosa entre llaves) en el que se declara. Si una función tiene más de un bloque de código, la variable se considerará una variable diferente en cada bloque.
+**Let**: Los valores solo están limitados al alcance del bloque de código (cualquier cosa entre llaves) en el que se declara. Si una función tiene más de un bloque de código, la variable se considerará una variable diferente en cada bloque.
 
-***Var***: Su alcance está dentro de la función en la que se declara. Esto significa que la variable se mantendrá igual durante toda la función, incluso si hay más de un bloque de código en la función.
+**Var**: Las variables declaradas con `var` dentro de una función solo son accesibles dentro de esa misma función. Esto significa que la variable se mantendrá  durante toda la función, incluso si hay más de un bloque de código en la función.
+Si declaras una variable con `var` fuera de cualquier función, se convierte en una variable global. Se puede acceder a ella desde cualquier lugar en tu código.
 
 > :link: [Lee más sobre `var`, `let` y `const`](http://wesbos.com/let-vs-const/)
 
