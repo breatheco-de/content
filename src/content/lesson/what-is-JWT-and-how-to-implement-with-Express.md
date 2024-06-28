@@ -5,7 +5,6 @@ tags: ["HTTP", "API", "Security", "Authentication","Express","TypeOrm"]
 status: "published"
 
 ---
-## JSON Web Tokens (JWT) for API Authentication
 
 In the world of modern web development, user authentication and authorization are crucial aspects of protecting APIs and sensitive data. [The token based authentication](https://4geeks.com/lesson/token-based-api-authentication) is one of the most commonly used strategies, among them stand out JSON Web Tokens (JWT), an open and lightweight standard that defines a compact and self-contained mechanism for secure transmission of information between client and server parties.
 
