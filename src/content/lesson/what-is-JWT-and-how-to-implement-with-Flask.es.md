@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-JWT es solo una de las maneras en las que puedes implementar seguridad y autenticación, especificamente [https://4geeks.com/es/lesson/ques-es-token-de-acceso-para-api](tokens de acceso) en tu API.
+JWT es solo una de las maneras en las que puedes implementar seguridad y autenticación, especificamente [tokens de acceso](https://4geeks.com/es/lesson/ques-es-token-de-acceso-para-api) en tu API.
 
 Es un estándar abierto para crear tokens que se utilizan en la autenticación y autorización de aplicaciones web y APIs. JWT es un tipo de token que incluye una estructura que puede ser descifrada por el servidor y permite autenticar la identidad del usuario de una aplicación.
 
