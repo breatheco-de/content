@@ -10,7 +10,7 @@ status: "published"
 ---
 ## JSON Web Tokens (JWT) para la Autenticación de APIs
 
-En el mundo del desarrollo web moderno, la autenticación y autorización de usuarios son aspectos cruciales para proteger las APIs y los datos sensibles. Entre las soluciones más populares se encuentran los JSON Web Tokens (JWT), un estándar abierto y ligero que define un mecanismo compacto y autosuficiente para la transmisión segura de información entre partes como cliente y servidor.
+En el mundo del desarrollo web moderno, la autenticación y autorización de usuarios son aspectos cruciales para proteger las APIs y los datos sensibles. [El acceso basado en tokens](https://4geeks.com/es/lesson/token-based-api-authentication-es) en una de las estrategias mas usadas, de entre ellas destacan los JSON Web Tokens (JWT), un estándar abierto y ligero que define un mecanismo compacto y autosuficiente para la transmisión segura de información entre partes como cliente y servidor.
 
 ### ¿Qué son los JWT?
 
