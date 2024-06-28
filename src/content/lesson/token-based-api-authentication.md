@@ -49,11 +49,11 @@ Tokens used for authentication need to be more than just plain numbers, they nee
 - Non-reusable: There are cases of re-usable tokens, but in general once a token is generated, no one else should ever use it but you.
 - Validatable: The token must follow some hidden pattern (encryption) that allows validating the token without compromising the owner or author.
 
-### Generating tokens
+## Generating tokens
 
 There are several types of tokens you can use for your Authentication system like Basic, Bearer, or JWT. Most of them use advanced cryptography algorithms that we are not going to address in this lesson (you can watch this [amazing video to learn more](https://www.youtube.com/watch?v=4zahvcJ9glg)). Instead, we are going to talk about hashing.
 
-#### What is a hash?
+### What is a hash?
 
 A hash is a **unique** alphanumeric number that gets generated from a specific seed or **value**, for example:
 
@@ -91,7 +91,7 @@ Explanation: the function `jwt.sign` will always return the exact same `unique_h
 
 Note: There are several popular hashing functions: MD5, Sha1, Sha256, Sha256, etc. 
 
-#### What makes hashing functions so cool?
+### What makes hashing functions so cool?
 
 Hashing functions have become the best way to generate tokens in the security world because:
 
@@ -189,7 +189,7 @@ You may notice that the string is divided into three sections, separated by a do
 | PAYLOAD        | The second part has the data that identifies the user: it can be their ID, username, etc. |
 | SIGNATURE      | A digital signature, which is generated with the previous two sections, which allows you to verify if the content has been modified. |
 
-### How API Authentication works?
+## How API Authentication works?
 
 You can divide a standard authentication process into 5 main steps:
 
@@ -203,10 +203,10 @@ You can divide a standard authentication process into 5 main steps:
 
 > ☝️ If you don't know what a token is, I would recommend [this reading](https://4geeks.com/lesson/token-based-api-authentication).
 
-### If you are using Python Flask framework
+## Implementing JWT using Python Flask
 
 I strongly recommend using [Flask JWT Extended](https://4geeks.com/lesson/what-is-jwt-and-how-to-implement-with-flask).
 
-### If you are using Node Express
+## Implementing JWT using Node.js Express
 
 Generate tokens with [Node JSONWebToken](https://4geeks.com/lesson/what-is-jwt-and-how-to-implement-with-express). Also use Express JWT to enforce the private endpoints.
