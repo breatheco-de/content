@@ -8,11 +8,12 @@ tags: ["HTTP", "API", "Security", "Authentication"]
 status: "published"
 
 ---
-## JSON Web Tokens (JWT)
+
+JWT es solo una de las maneras en las que puedes implementar seguridad y autenticación, especificamente [https://4geeks.com/es/lesson/ques-es-token-de-acceso-para-api](tokens de acceso) en tu API.
 
 Es un estándar abierto para crear tokens que se utilizan en la autenticación y autorización de aplicaciones web y APIs. JWT es un tipo de token que incluye una estructura que puede ser descifrada por el servidor y permite autenticar la identidad del usuario de una aplicación.
 
-A diferencia de otros tipos de tokens, como los básicos o los Bearer, los tokens JWT son más grandes y contienen toda la información necesaria sin necesidad de una base de datos externa1.
+A diferencia de otros tipos de tokens, como los básicos o los Bearer, los tokens JWT son más grandes y contienen toda la información necesaria sin necesidad de una base de datos externa.
 
 ### Estructura del token JWT
 
