@@ -1,7 +1,7 @@
 ---
 subject: "About the ReactDOM CreateRoot function"
 description: "Discover the benefits of using React's createRoot function, introduced in React v18, as we explore its role in replacing ReactDOM.render"
-tags: ["react", "javascript"]
+tags: ["react"]
 authors: ["alesanchezr"]
 
 ---
