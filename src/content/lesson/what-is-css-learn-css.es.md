@@ -163,9 +163,9 @@ Puedes cambiar los colores de cualquier elemento `<a>` de un sitio web, dependie
 + `:hover` cuando el cursor está encima.
 + `:active` cuando el cursor hace clic en él. 
   
-  <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+  <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/tLy9dvbr/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/tLy9dvbr/embedded/html,css,result/">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
 
 ### Selectores avanzados
 
