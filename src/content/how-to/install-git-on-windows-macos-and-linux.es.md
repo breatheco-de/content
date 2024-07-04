@@ -1,16 +1,14 @@
 ---
-title: "Cómo instalar Git en Windows, macOS y Linux: Una guía completa"
+title: "¿Cómo instalar Git en Windows, macOS y Linux?"
 description: "Aprende cómo instalar Git en Windows, macOS y Linux con esta guía completa. Instrucciones paso a paso para ayudarte a comenzar con Git."
 tags: ["git", "windows", "macos", "linux", "github"]
 authors: ["alesanchezr"]
 
 ---
 
-# Cómo instalar Git en Windows, macOS y Linux: Una guía completa
-
 Git es una herramienta esencial para el control de versiones, ampliamente utilizada en la industria del desarrollo de software. Instalar Git en tu computadora te permite gestionar tu código de manera eficiente, colaborar con otros y mantener un historial de tus proyectos. 
 
-> 💡 Este artículo trata sobre la instalación de Git, no sobre su uso. Haz clic aquí si estás buscando una [guía completa sobre cómo usar Git](https://4geeks.com/lesson/how-to-use-git-version-control-system) o [cómo clonar un repositorio de GitHub](https://4geeks.com/how-to/github-clone-repository).
+> 💡 Este artículo trata sobre la instalación de Git, no sobre su uso. Haz clic aquí si estás buscando una guía completa sobre [cómo usar Git](https://4geeks.com/es/lesson/how-to-use-git-version-control-system-es) o [cómo clonar un repositorio de GitHub](https://4geeks.com/es/how-to/como-clonar-un-repositorio-de-github).
 
 Este artículo proporciona una guía paso a paso para instalar Git en Windows, macOS y Linux.
 
@@ -125,7 +123,7 @@ Deberías ver el número de versión de Git instalado.
 
 ## Git vs Github
 
-Git y GitHub son cosas muy diferentes: el primero es una tecnología gratuita y de código abierto para rastrear los cambios de tu proyecto, y el segundo es una empresa con fines de lucro que utiliza Git (al igual que muchas otras empresas como GitLab y Bitbucket). Sin embargo, te recomendamos encarecidamente que entiendas [qué es Github](/lesson/welcome-to-github) y [cómo construir tu reputación de programación](/lesson/building-your-github-profile-and-reputation) en él porque te ayudará mucho a lo largo de tu carrera.
+Git y GitHub son cosas muy diferentes: el primero es una tecnología gratuita y de código abierto para rastrear los cambios de tu proyecto, y el segundo es una empresa con fines de lucro que utiliza Git (al igual que muchas otras empresas como GitLab y Bitbucket). Sin embargo, te recomendamos encarecidamente que entiendas qué es [Github](https://4geeks.com/es/lesson/bienvenido-a-github) y [cómo construir tu reputación de programación](https://4geeks.com/es/lesson/building-your-github-profile-and-reputation-es) en él porque te ayudará mucho a lo largo de tu carrera.
 
 ## Conclusión
 
