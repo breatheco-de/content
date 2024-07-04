@@ -1,7 +1,7 @@
 ---
 title: "Understanding JWT and how to implement a simple JWT with Express"
 subtitle: "What is JSON Web Token (JWT), how does it work, and how to apply it to your API using the Express Microframework for API Development"
-tags: ["HTTP", "API", "Security", "Authentication","Express","TypeOrm"]
+tags: ["HTTP", "API", "Security", "Authentication","Express","TypeOrm","node"]
 status: "published"
 
 ---
