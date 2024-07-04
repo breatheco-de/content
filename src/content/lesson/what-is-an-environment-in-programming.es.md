@@ -1,6 +1,6 @@
 ---
 title: "Entendiendo los Entornos y las Variables de Entorno en la Programación"
-description: "Domina el uso de las variables de entorno en la programación para optimizar y asegurar tu desarrollo en múltiples plataformas como Python, Node.js, PHP, etc."
+description: "Domina el uso de las variables de entorno en la programación para optimizar y asegurar tu desarrollo en múltiples tecnologías como Python, NodeJS, PHP, etc."
 tags: ["python", "node", "javascript"]
 authors: ["alesanchezr"]
 
@@ -46,25 +46,18 @@ Dependiendo del lenguaje de programación elegido, usarás diferentes herramient
 
 - **pyenv**: Esta herramienta permite a los desarrolladores gestionar múltiples versiones de Python en una sola máquina, habilitando el cambio entre versiones según los requisitos del proyecto. Es particularmente útil cuando los proyectos requieren versiones específicas de Python que no son globales.
 
-  - **Instalación y Configuración**: Explica cómo instalar pyenv (por ejemplo, usando `curl` o `brew` en macOS) y configurarlo para gestionar versiones de Python.
-  - **Uso:**: Demuestra cómo instalar una versión específica de Python (`pyenv install 3.8.6`) y cómo establecer una versión local para un proyecto (`pyenv local 3.8.6`).
+  - **Instalación y Configuración**: Este artículo explica con detalle, [qué es Pyenv y cómo instalarlo](https://4geeks.com/es/how-to/que-es-pyenv-y-como-instalar-pyenv).
+  - **Uso:**: Te permite instalar una versión específica de Python (`pyenv install 3.8.6`) y establecer una versión local para un proyecto (`pyenv local 3.8.6`).
  
-> 💡 Sigue leyendo sobre [qué es pyenv y cómo instalarlo](https://4geeks.com/how-to/what-is-pyenv-and-how-to-install-pyenv).
-
 - **pipenv**: Esta herramienta crea y gestiona automáticamente un entorno virtual para tus proyectos, además de añadir/eliminar paquetes de tu `Pipfile` a medida que instalas/desinstalas paquetes. También genera el `Pipfile.lock`, que se utiliza para producir builds deterministas.
-
-  - **Creación y Gestión de Entornos**: Muestra cómo crear un proyecto usando pipenv (`pipenv --python 3.8`) y cómo activar y gestionar el entorno virtual resultante.
-  - **Ventajas**: Enfatiza los beneficios de usar pipenv, como la gestión de dependencias y la gestión de entornos específicos del proyecto.
 
 ### Gestión de Entornos Node.js con nvm y nodeenv
 
 - **nvm (Node Version Manager)**: Similar a pyenv pero para Node.js, nvm permite a los desarrolladores instalar y cambiar entre versiones de node. Es esencial para proyectos que dependen de una versión específica de Node.js o cuando necesitas probar la aplicación en diferentes versiones.
 
-  - **Instalación y Gestión de Node**: Guía sobre la instalación de nvm y su uso para instalar múltiples versiones de Node.js  (`nvm install 14`, `nvm use 14`).
+  - **Instalación y Gestión de Node**: Si estas usando windows, puedes acceder a este artículo que explica [cómo instalar nvm en windows](https://4geeks.com/es/how-to/como-instalar-nvm-en-windows). Y si estás utilizando MacOS, tenemos esta guía sobre cómo [instalar nvm en mac osx](https://4geeks.com/es/how-to/instalar-node-nvm-mac-osx).
 
-- **nodeenv**: v para Python. Es útil para asegurar que las dependencias se mantengan separadas entre proyectos.
-
-  - **Creación de un Entorno Aislado**: Instrucciones sobre la instalación de nodeenv y la creación de un entorno para un proyecto (`nodeenv env-name`), y activación del mismo (`source env-name/bin/activate`).
+- **nodeenv**: Es útil para asegurar que las dependencias se mantengan separadas entre proyectos.
 
 ### Mejores Prácticas
 
@@ -74,8 +67,4 @@ Dependiendo del lenguaje de programación elegido, usarás diferentes herramient
 
 ### Conclusión
 
-Entender y utilizar las variables de entorno y las herramientas de gestión de entornos como pyenv, pipenv, nvm y nodeenv son habilidades esenciales para los desarrolladores modernos. Mejoran la seguridad, permiten un desarrollo flexible en diferentes entornos y facilitan una colaboración más fluida entre equipos.
-
----
-
-Este esquema te debería proporcionar un marco sólido para construir tu artículo, completo con explicaciones y ejemplos prácticos para guiar a tus lectores a través de la gestión de entornos de manera efectiva.
+Entender y utilizar las variables de entorno y las herramientas de gestión de entornos como `pyenv`, `pipenv`, `nvm` y `nodeenv` son habilidades esenciales para los desarrolladores modernos. Mejoran la seguridad, permiten un desarrollo flexible en diferentes entornos y facilitan una colaboración más fluida entre equipos.
