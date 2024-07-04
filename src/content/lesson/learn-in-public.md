@@ -14,9 +14,9 @@ If you are interested in learning to code efficiently but fast, you should do it
 
 In this article, I'm going to explain why it works and how you can do it.
 
-## What is Learn In Public?
+## What is Learn in Public?
 
-Learning in private: The traditional educational system is designed to be a private experience. You read books, attend class, complete projects and assessments, and then at the end you graduate. We are so used to this workflow that it's already embedded into our student's minds.
+Learning in private: The traditional educational system is designed to be a private experience. You read books, attend classes, complete projects and assessments, and then, in the end, you graduate. We are so used to this workflow that it's already embedded into our students' minds.
 
 When you learn in public you: create in social media, you write in notebooks and discussion forums, you also write about what you just learned in different ways like blog posts, tweets, newsletters, drawings, memes, etc.
 
@@ -46,11 +46,11 @@ When you learn in public you: create in social media, you write in notebooks and
 
 I really doubt that, learning to code is hard and people read a lot about it and they need emotional support, just like with your testimonial you are helping a lot of people who will be interested in learning more about your story.
 
-### I'm no expert
+### I'm no expert.
 
 Nobody is! I've been coding for 20 years and I still think I'm no expert, by showing your perspective on the topics you just learned you are helping other amateurs on their journey.
 
-### I don't have time
+### I don't have time.
 
 You don't have to do it all, you can just pick one or two things you might enjoy doing. Even if you are learning privately, you have to take notes, finish coding projects, and challenge yourself, so why not take some extra time to publish them? I think it's 100% worth your time.
 
