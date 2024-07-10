@@ -19,14 +19,14 @@ GitHub.com es el epicentro de tu viaje como desarrollador de software; interactu
 Este es el [perfil principal de GitHub de 4Geeks Academy](https://github.com/4geeksacademy/) (¡Por favor, haz clic para seguirnos 🙂 en la parte superior derecha de la página!).
 
 Todos tienen un perfil ubicado en: `https://github.com/<your username>`.
-Por ejemplo: el mío es [github.com/alesanchezr](https://github.com/alesanchezr) (¡sígueme 🙂!)
+Por ejemplo: el mío es [github.com/alesanchezr](https://github.com/alesanchezr) (¡Sígueme 🙂!)
 
 En esta imagen, encontrarás las partes esenciales de tu perfil.
 ![Perfil de GitHub explicado](https://github.com/breatheco-de/content/blob/master/src/assets/images/github-profile.png?raw=true)
 
 > Nota: hay muchas formas de [hacer que tu perfil de GitHub sea increíble](https://4geeks.com/es/lesson/building-your-github-profile-and-reputation-es).
 
-## ¿El repositorio de GitHub?
+## El repositorio de GitHub
 
 El propósito original de GitHub (antes de convertirse en una red social y muchas otras cosas) era ser un sitio web donde los desarrolladores pudieran cargar su código y acceder a él en cualquier momento.
 
@@ -44,7 +44,7 @@ Arriba puedes ver una explicación de la típica página de repositorio de GitHu
 4. Cualquiera puede descargar tu código, hacer cambios y proponer los cambios para tu aprobación.
 5. Muchas otras cosas fabulosas que descubrirás.
 
-### Gustar y marcar un repositorio
+## Gustar y marcar un repositorio
 
 La estrella de GitHub ⭐️ es la forma principal de marcar los repositorios de otras personas; es una buena idea marcar un repositorio porque probablemente lo pierdas de vista; hay millones de repositorios increíbles. Puedes categorizarlos.
 
@@ -54,7 +54,7 @@ Te recomendamos marcar la mayoría de los repositorios de la academia, ya que lo
 - [Todos los tutoriales interactivos](https://github.com/4GeeksAcademy/Interactive-Tutorials).
 - [Todas las plantillas y boilerplates](https://github.com/4GeeksAcademy/Templates-Boilerplates).
 
-### Encontrar el código de otras personas
+## Encontrar el código de otras personas
 
 El código abierto se ha convertido en uno de los principales motores del mundo de hoy; GitHub tiene formas de encontrar los excepcionales repositorios de otras personas:
 
