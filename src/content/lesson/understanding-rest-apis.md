@@ -99,4 +99,5 @@ Several documents and guides are provided below to reinforce knowledge about RES
 - [ReadTheDocs](https://restful-api-design.readthedocs.io/en/latest/resources.html)
 - [RESTfulAPI.net](https://restfulapi.net/)
 
-> 🔗 This is a list of public APIs that can be used for personal, professional and educational projects: https://github.com/public-apis/public-apis
+> 🔗 This is a list of public APIs that can be used for personal, professional and educational projects:
+https://github.com/marcelscruz/public-apis
