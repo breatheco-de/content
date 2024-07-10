@@ -21,7 +21,7 @@ Throughout the years, I have developed a very effective debugging recipe that I 
 
 ## Who should read this guide?
 
-Junior Web Developers. There are so many types of bugs and debugging techniques in coding that it's almost impossible to write them all; that's why I decided to focus this guide on Junior Developers only in the early stages of their full-stack web development career.
+Junior Web Developers. There are so many types of bugs and debugging techniques in coding that it's almost impossible to write them all; that's why I decided to focus this guide on Junior Developers in the early stages of their full-stack web development career.
 
 ## Preventing bugs
 
