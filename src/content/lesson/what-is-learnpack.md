@@ -25,13 +25,13 @@ Instead of watching a video or reading an article, LearnPack will present small 
 
 Most LearnPack tutorials will come with a button labeled: "Start new exercise" or "Continue exercise".
 
-![LearnPack Alert on 4geeks.com](https://github.com/breatheco-de/content/blob/master/src/assets/images/learnpack-alert.png?raw=true)
+![LearnPack Alert on 4geeks.com](https://github.com/breatheco-de/content/blob/master/src/assets/images/open-in-learnpack.jpg?raw=true)
 
 After clicking on "Start new exercise", a new coding environment will open, and LearnPack will start running immediately. 
 
 All LearnPack tutorials come in steps; you will find the instructions on the right side and a button to continue to the `next ->` exercise.
 
-![LearnPack explanation](https://github.com/breatheco-de/content/blob/master/src/assets/images/learnpack-explanation.png?raw=true)
+![LearnPack explanation](https://github.com/breatheco-de/content/blob/master/src/assets/images/LearnPack%20Instructions%20%E2%80%94%20exercise-postcard%20%5BCodespaces_%20supreme%20space%20robot%5D%20%E2%80%94%20Visual%20Studio%20Code.jpg?raw=true)
 
 ## Restarting LearnPack
 
