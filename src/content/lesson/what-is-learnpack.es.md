@@ -13,7 +13,7 @@ A lo largo de este curso vas a ver en muchos sitios la palabra "LearnPack"; usar
 
 ## ¿Qué es LearnPack?
 
-LearnPack es un administrador de paquetes (package manager) para tutoriales y ejercicios interactivos. Es como `Coursera.com` pero solo para programar.
+LearnPack es una herramienta diseñada por 4Geeks para enseñar y aprender habilidades tecnicas con tutoriales y ejercicios interactivos, evaluados automáticamente y habilitados con inteligencia artificial. Actúa como un gestor de paquetes de contenido educativo, similar a plataformas como npm, brew, etc., pero exclusivamente para paquetes educativos técnicos.
 
 ### ¿Qué hace que LearnPack sea tan único?
 
