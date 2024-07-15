@@ -18,7 +18,7 @@ Your employer will pay you to create projects.
 > Note: Exercises, quizzes, and lessons only exist because you need them to learn how to build projects.
 
 ## How are projects going to be reviewed?
-Since projects are the most critical part of the course, we have created several ways to give you feedback; here are a few:
+Since projects are the most critical part of the course, we have created several ways to give you feedback, here are a few:
 
 ### Automatic grading
 It's not always possible, and it's tough to implement, but we make a significant effort to create unit tests for every project; this means that you can run a command in the terminal (or press a button) to get instant feedback about your code.
