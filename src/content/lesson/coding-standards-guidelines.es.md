@@ -1,6 +1,6 @@
 ---
-title: "General Coding Standards and Guidelines"
-subtitle: "The project assignments are an important part of our learning method; these lessons will show you what to expect and why they matter so much."
+title: "Estándares y Directrices de Codificación"
+subtitle: "Las tareas del proyecto son una parte importante de nuestro método de aprendizaje; estas lecciones te mostrarán qué esperar y por qué son tan importantes."
 tags: ["4geeks method", "coding standards"]
 
 ---
