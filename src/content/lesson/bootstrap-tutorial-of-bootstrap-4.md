@@ -192,7 +192,7 @@ This is probably the most used Bootstrap component; every website has a few card
 
 + The "team" section of a website, where you list the different employees.
 + The typical Pinterest wall.
-+ The feed in any social media like Instagram, Facebook, twitter, etc.
++ The feed in any social media like Instagram, Facebook, twitter, etc, etc..
 
 Here is an example of how a Card may look on a website:
 
