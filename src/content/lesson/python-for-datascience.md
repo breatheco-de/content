@@ -1,5 +1,5 @@
 ---
-title: "Python for Data Science"
+title: Git hub project: Fix the mispell . "Python for Data Science"
 subtitle: "Python is a multipurpose language, and in this lesson you will understand how it's used in the data science world."
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
