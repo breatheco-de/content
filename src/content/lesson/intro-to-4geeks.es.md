@@ -43,7 +43,7 @@ Cualquier persona en general puede aprender a programar, la programación se vue
 
 1. **Evita estar atascado durante mucho tiempo:** Programar puede complicarse porque puedes estar a punto de resolver el problema y quedarte atascado sin ver la respuesta. Quizás no sepas cómo empezar a resolver un problema y una conversación de 5 minutos con un mentor te aclarará la mente.
 
-2. **Habla con otros estudiantes:** Puede que pienses que eres el único que no entiende, pero si hablas con otros compañeros verás que no eres solo tú y te dará confianza para hacer preguntas.
+2. **Habla con los estudiantes:** Puede que pienses que eres el único que no entiende, pero si hablas con otros compañeros verás que no eres solo tú y te dará confianza para hacer preguntas.
 
 3. **Habla con los mentores:** Una voz con experiencia siempre es buena, hay egresados y profesores que ya han pasado por momentos difíciles o que están con dificultades ¡en este mismo momento! Pueden ayudarte durante los tiempos oscuros, no solo estamos hablando de brindarte soluciones de programación, sino de brindarte estrategias para tener éxito en tu vida (¿como desarrollador?).
 
