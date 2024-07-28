@@ -59,3 +59,4 @@ The upcoming material assumes that you have a good level of understanding of the
 
 That is it! You are good to go if you know 70% of these bullets. If not, we encourage you to dig for more information about each of these topics, read our lessons, practice some exercises again, and -maybe- even ask Google or one of our mentors for great resources to learn more about it.
 
+We are proud of you! Keep going!
