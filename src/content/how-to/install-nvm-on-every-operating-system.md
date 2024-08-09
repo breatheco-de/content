@@ -10,9 +10,9 @@ Node Version Manager (NVM) is an essential tool for any JavaScript developer. It
 
 In this quick guide, we'll cover how to install NVM on windows, mac or linux computers. But, if you encounter any issues we do have more detailed instructions for each separate operating system:
 
--  [Install nvm Windows](https://4geeks.com/how-to/nvm-install-windows).
--  [Install nvm on macOS](https://4geeks.com/how-to/install-node-nvm-mac-osx).
--  [Install nvm on Linux](https://4geeks.com/how-to/nvm-install-linux).
+-  [Install nvm Windows](/how-to/nvm-install-windows).
+-  [Install nvm on macOS](/how-to/install-node-nvm-mac-osx).
+-  [Install nvm on Linux](/how-to/install-nvm-linux).
 
 > Since NVM runs on [the command line](https://4geeks.com/technology/command-line), we will assume you have some fair knowledge about what is and how to use the command line.
 
