@@ -57,7 +57,7 @@ Un **commit object** contiene tres cosas:
 
 + Un conjunto de **archivos**, que refleja el estado de un proyecto en un momento dado en el tiempo.
 + Referencias al **commit object padre.**
-+ Un **nombre SHA1:** es una cadena de 40 caracteres que identifica de forma única el commit object. El nombre se compone de un conjunto de aspectos relevantes del commit; De esta manera, los commit idénticos siempre tendrán el mismo nombre.
++ Un **nombre SHA1:** es una cadena de 40 caracteres que identifica de forma única el commit object. El nombre se compone de un conjunto de aspectos relevantes del commit; de esta manera, los commit idénticos siempre tendrán el mismo nombre.
  
 ![cómo usar git](https://github.com/breatheco-de/content/blob/master/src/assets/images/commit-object2.png?raw=true)
 
@@ -196,7 +196,7 @@ git merge [head]
 git pull . [head]
 ```
 
-Estos comandos realizan las siguientes operaciones. Deja que el head actual se llame *current* y que el head que se va a fusionar se llame *merge*
+Estos comandos realizan las siguientes operaciones: deja que el head actual se llame *current*, y que el head que se va a fusionar se llame *merge*.
 
 + Identifica el ancestro común de *current* y *merge*. Llámalo *ancestor-commit*.
 + Tratar con los casos fáciles. Si el *ancestor-commit* es igual a merge, entonces no hagas nada. Si el *ancestor-commit* es igual al actual, entonces haz un **adelanto del merge.**

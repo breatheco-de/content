@@ -1,15 +1,11 @@
 ---
 title: "Understanding JWT and how to implement a simple JWT with Flask"
 subtitle: "What is JSON Web Token (JWT), how does it work, and how to apply it to your API using the Flask Microframework for API Development"
-cover_local: "../../assets/images/http-0.png"
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
 tags: ["HTTP", "API", "Security", "Authentication"]
-status: "published"
 
 ---
 
-## JSON Web Tokens (JWT)
+JWT is just one of the ways you can implement security and specifically [token based authentication](https://4geeks.com/lesson/token-based-api-authentication) in your API.
 
 It is an open standard for creating tokens that are used in the authentication and authorization of web applications and APIs. JWT is a type of token that includes a structure that can be decrypted by the server and allows authenticating the identity of the user of an application.
 

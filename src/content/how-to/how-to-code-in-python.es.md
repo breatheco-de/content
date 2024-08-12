@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo programar con Python?"
+title: "¿Cómo programar en Python?"
 subtitle: "Aprende los fundamentos de la programación en Python con esta guía paso a paso."
 tags: ["python"]
 authors: ["tommygonzaleza"]

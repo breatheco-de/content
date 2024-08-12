@@ -1,6 +1,6 @@
 ---
-title: "Autenticación basada en Token en tu API"
-subtitle: "Aprende cómo implementar un sistema de autenticación que le permita a los usuarios iniciar y cerrar sesión de tu sitio web y de tu API"
+title: "Autenticación basada en tokens de acceso para tu API"
+subtitle: "Aprende cómo implementar un tokens de acceso que le permitan a los usuarios iniciar y cerrar sesión de tu sitio web y de tu API"
 cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-## ¿Por qué implementar la autenticación basada en tokens?
+## ¿Por qué implementar tokens de acceso?
 
 <img src="https://github.com/breatheco-de/content/blob/ee21de4299b9e003de7be720280b42ed50056daf/src/assets/images/authentication.png?raw=true" align="right" />
 
@@ -30,7 +30,7 @@ Autenticación significa ser capaz de identificar quién está haciendo peticion
 
 Para explicar en detalle la "Autenticación de una API basada en tokens" es mejor empezar explicando lo que son los tokens.
 
-## ¿Qué es un token de seguridad?
+## ¿Qué es un token de acceso?
 
 A grandes rasgos, un token es un "número que prueba algo", por ejemplo: Cuando terminas de hacer una transferencia bancaria, el banco envía un "token" de confirmación que sirve como prueba para validar que la transacción existe y es válida. Ese número de confirmación podría llamarse también **token de confirmación**.
 
@@ -40,7 +40,7 @@ Otros ejemplos cotidianos de tokens:
 - El número de la tarjeta de crédito demuestra que tienes una tarjeta de crédito válida.
 - Etc.
 
-### Un token de seguridad es más que un número
+### Un token de acceso es más que un número
 
 Los tokens utilizados para la autenticación tienen que ser algo más que números normales, tienen que ser casi imposibles de falsificar, predecir o decodificar.
 

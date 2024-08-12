@@ -101,7 +101,7 @@ let myNewArray = [];
     console.log(myNewArray); // This will print ['Pedro', 'Chris', 'Juan', 'Maria'];
 ```
 
-## Removing Elements (pop function)
+## Removing Elements (`pop` function)
 
 Removing an element has the exact same limitations as adding an element: you can only remove an element from the last position using the `pop()` method. If you want to remove a different element, you will need to create a new array without that particular element.
 

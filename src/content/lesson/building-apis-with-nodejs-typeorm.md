@@ -5,7 +5,7 @@ cover_local: "https://storage.googleapis.com/screenshots-breathecode/5f92b35c3ee
 textColor: "white"
 date: "2021-04-17T16:36:31+00:00"
 status: "published"
-tags: ["typeOrm","Expressjs","nodejs","REST","API"]
+tags: ["typeOrm","Expressjs","node","REST","API"]
 
 ---
 ## What is SQL TypeOrm?
