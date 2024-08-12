@@ -33,7 +33,7 @@ Esto es una columna: <div class="col–sm–x">
 ```
 ![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/3884f515-dd7a-48f2-b238-9e2ec26de02d.png?raw=true)
 
-Bootstrap ha dividido el ancho de la pantalla en  `12 slots` (espacios) cada uno de ellos con un ancho de fila total de 8.33%. El tamaño de una columna, puede ir de entre 1 y 12 slots o espacios.
+Bootstrap ha dividido el ancho de la pantalla en  `12 slots` (espacios), cada uno de ellos con un ancho de fila total de 8.33%. El tamaño de una columna, puede ir de entre 1 y 12 slots o espacios.
 
 Por otro lado, las columnas fueron hechas para vivir dentro de las filas (como pasa entre `<td>` y `<tr>`),  siempre necesitas abrir una fila antes de abrir una columna.  Todas las columnas en una fila deben sumar un máximo de 12 espacios.
 
