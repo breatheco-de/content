@@ -15,7 +15,7 @@ Welcome!! 🤩👏 My name is Alejandro, and I'm typing these words after years 
 
 ## What you already know
 
-You are here to develop your coding skills to a point where you can be useful to society in order to: 1️⃣ Get a job, 2️⃣ Create your own company, and 3️⃣ Adapt better to the current world.
+You are here to develop your coding skills to a point where you can be useful to society to: 1️⃣ Get a job, 2️⃣ Create your own company, and 3️⃣ Adapt better to the current world.
 
 ## What you did not know
 
@@ -27,7 +27,7 @@ We are about to change the way you learn, the way you approach life, and the way
 
 ### We are here to tear down the 💻 3 Walls Toward Code 
 
-During the past years, we have identified specific reasons that cause students to stop trying to be a developer or fail to complete the course or get a job. 
+During the past years, we have identified specific reasons that cause students to stop trying to be developers or fail to complete the course, or get a job. 
 
 #### Wall #1: Confidence ❓ (Impostor syndrome)
 
@@ -45,7 +45,7 @@ Every average person can learn to code to the point of being useful, but coding 
 
 2. **Talk to other students:** You may think you are the only one who does not understand, but if you talk to a couple of classmates you'll see they are just like you, it will give you the confidence to ask any questions.
 
-3. **Talk to the mentors:** A voice of experience is always effective, you have alumni and teachers that struggled before and are also struggling right now! They can help you during dark times, we're not only talking about giving you coding solutions, but giving you strategies to succeed in your (coding?) life.
+3. **Talk to the mentors:** A voice of experience is always effective, you have alumni and teachers who struggled before and are also struggling right now! They can help you during dark times, we're not only talking about giving you coding solutions, but giving you strategies to succeed in your (coding?) life.
 
 #### Wall #2: Trust ✝
 
@@ -59,7 +59,7 @@ We know how to train you: we have done it over and over again, but we'll train i
 
 2. **Ask Why?** There is only so much we can say, we need you to raise your concerns privately immediately the moment you start double-guessing our methods, we do everything for a reason and I'm confident that we are going to be able to explain "the why".
 
-3. **Humble yourself:** There are lots of smart students that have successfully completed the course following the method, some of them work at Google, Amazon, and other globally recognized companies. Please be humble enough to try and follow the course as it is. You can talk to us if you have any ideas for improvements; we are also humble enough to be open and try something new that might work.
+3. **Humble yourself:** There are lots of smart students that have completed the course following the method, some of them work at Google, Amazon, and other globally recognized companies. Please be humble enough to try and follow the course as it is. You can talk to us if you have any ideas for improvements; we are also humble enough to be open and try something new that might work.
 
 #### Wall #3: Inactivity 😴 
 
@@ -82,7 +82,7 @@ These are not small numbers, 60% in a day and 90% if you don't practice for a we
 Please make sure you understand how the academy works:
 
 1. **Platform:** 4Geeks.com, The Syllabus (learn how to follow it), GeekPal, GeekForce, the lessons, exercises, projects, and assets.
-2. **The people:** We are more than five thousand people now! Leaders, Mentors, the Alumni and Students, we are here to help, and we are here to stay. Network, make friends -- take advantage!
+2. **The people:** We are more than five thousand people now! Leaders, Mentors, Alumni, and Students, we are here to help, and we are here to stay. Network, make friends -- take advantage!
 3. **The community:** Communities are not one way, they just don't work like that to the events, support other students, give first and you will receive later. Slack, GeekTalks, Workshops, Group Studies.
 
 
