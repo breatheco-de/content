@@ -19,14 +19,14 @@ GitHub.com es el epicentro de tu viaje como desarrollador de software; interactu
 Este es el [perfil principal de GitHub de 4Geeks Academy](https://github.com/4geeksacademy/) (¡Por favor, haz clic para seguirnos 🙂 en la parte superior derecha de la página!).
 
 Todos tienen un perfil ubicado en: `https://github.com/<your username>`.
-Por ejemplo: el mío es [github.com/alesanchezr](https://github.com/alesanchezr) (¡sígueme 🙂!)
+Por ejemplo: el mío es [github.com/alesanchezr](https://github.com/alesanchezr) (¡Sígueme 🙂!)
 
 En esta imagen, encontrarás las partes esenciales de tu perfil.
 ![Perfil de GitHub explicado](https://github.com/breatheco-de/content/blob/master/src/assets/images/github-profile.png?raw=true)
 
 > Nota: hay muchas formas de [hacer que tu perfil de GitHub sea increíble](https://4geeks.com/es/lesson/building-your-github-profile-and-reputation-es).
 
-## ¿El repositorio de GitHub?
+## El repositorio de GitHub
 
 El propósito original de GitHub (antes de convertirse en una red social y muchas otras cosas) era ser un sitio web donde los desarrolladores pudieran cargar su código y acceder a él en cualquier momento.
 

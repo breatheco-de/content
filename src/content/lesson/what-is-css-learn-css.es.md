@@ -1,6 +1,6 @@
 ---
 title: "Aprendamos CSS: ¿Qué Quiere Decir CSS?"
-subtitle: "Cómo te habrás dado cuenta, HTML te permite crear sólo sitios web básicos. Nadie quiere ver un sitio web blanco con algún texto horrible en él. ¡Así que es hora de saber de qué se trata CSS! Aprende CSS para hacer tu sitio web hermoso. Es hora de brillar!"
+subtitle: "Como te habrás dado cuenta, HTML te permite crear sólo sitios web básicos. Nadie quiere ver un sitio web blanco con algún texto horrible en él. ¡Así que es hora de saber de qué se trata CSS! Aprende CSS para hacer tu sitio web hermoso. Es hora de brillar!"
 cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png?raw=true"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
@@ -163,9 +163,9 @@ Puedes cambiar los colores de cualquier elemento `<a>` de un sitio web, dependie
 + `:hover` cuando el cursor está encima.
 + `:active` cuando el cursor hace clic en él. 
   
-  <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+  <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/tLy9dvbr/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/tLy9dvbr/embedded/html,css,result/">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
 
 ### Selectores avanzados
 

@@ -42,7 +42,7 @@ Nunca comiences a crear un Regex sin tener una herramienta de prueba en vivo, ya
 
 Esta es una expresión regular que busca un patrón de correo electrónico:
 
-```jsx
+```js
 /[\w._%+-]+@[\w.-]+\.[a-zA-Z]{2,4}/
 ```
 

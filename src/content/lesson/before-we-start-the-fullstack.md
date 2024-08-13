@@ -1,6 +1,6 @@
 ---
 title: "Before Starting Full Stack Development"
-subtitle: "Quick review about concepts you need to know in CSS, HTML and JS before starting the Full Stack Development course"
+subtitle: "Quick review about concepts you need to know in CSS, HTML, and JS before starting the Full Stack Development course"
 tags: ["html/css", "web-development"]
 
 ---
@@ -12,7 +12,7 @@ The upcoming material assumes that you have a good level of understanding of the
 ## Things you should know about HTML/CSS
 
 - What is HTML, and what is it used for?
-- The most essential tags like headings (`<h1>, <h2>, <h3>`...), paragraphs (`<p>`), ordered/unordered lists (`<ol>, <ul>`), etc. Think about how each of these tags changes the look, feel and the behavior of your website. For example, what looks bigger, `<h1>` or `<h2>`? Why use `<ul>` instead of `<ol>`? Etc.
+- The most essential tags like headings (`<h1>, <h2>, <h3>`...), paragraphs (`<p>`), ordered/unordered lists (`<ol>, <ul>`), etc. Think about how each of these tags changes the look, feel, and behavior of your website. For example, what looks bigger, `<h1>` or `<h2>`? Why use `<ul>` instead of `<ol>`? Etc.
 - How to include a separate CSS stylesheet into your website by using the `<link>` tag.
 - How to override or enhance the way that HTML tags look and behave by using CSS selectors and rules, for example:
   - How can I select an element to update its styles? [By using a selector](https://4geeks.com/lesson/what-is-css-learn-css#wait-what-is-a-selector).
@@ -29,7 +29,7 @@ The upcoming material assumes that you have a good level of understanding of the
 - What is CSS, and what is it used for? Thanks to CSS, we can select specific elements in the HTML and style them with colors, sizes, etc.
 - Why is the use of the `#id` selector discouraged? Because it's too specific, it goes against reusability.
 - When should I use the `#id` selector? Never, we will use `#id`s only when coding in JavaScript.
-- Why are stylesheets supposed to be written from the most generic to the most specific styles? Because you will write way fewer lines of code that way, you also avoid lots of bugs or conflicts between your selectors.
+- Why should stylesheets be written from the most generic to the most specific styles? Because you will write way fewer lines of code that way, you also avoid lots of bugs or conflicts between your selectors.
 
 ## Things you should know about programming
 

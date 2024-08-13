@@ -159,6 +159,11 @@ return <div>
 
 ## Test the code live
 
-<iframe src="https://playcode.io/1764053" style="width:100%; height:500px; border:0; border-radius: 4px;" ></iframe>
-
-<div align="right"><small><a href="https://playcode.io/1764053">Click here to open demo in a new window</a></small></div>
+<iframe src="https://codesandbox.io/embed/w75wq6v01k?view=editor+%2B+preview&module=%2Findex.js&hidenavigation=1"
+     style="width:100%; height: 500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="Example of React&#039;s new context API"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+   
+<div align="right"><small><a href="https://codesandbox.io/p/sandbox/w75wq6v01k">Click here to open demo in a new window</a></small></div>

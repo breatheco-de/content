@@ -49,11 +49,11 @@ Tokens used for authentication need to be more than just plain numbers, they nee
 - Non-reusable: There are cases of re-usable tokens, but in general once a token is generated, no one else should ever use it but you.
 - Validatable: The token must follow some hidden pattern (encryption) that allows validating the token without compromising the owner or author.
 
-### Generating tokens
+## Generating tokens
 
 There are several types of tokens you can use for your Authentication system like Basic, Bearer, or JWT. Most of them use advanced cryptography algorithms that we are not going to address in this lesson (you can watch this [amazing video to learn more](https://www.youtube.com/watch?v=4zahvcJ9glg)). Instead, we are going to talk about hashing.
 
-#### What is a hash?
+### What is a hash?
 
 A hash is a **unique** alphanumeric number that gets generated from a specific seed or **value**, for example:
 
@@ -91,7 +91,7 @@ Explanation: the function `jwt.sign` will always return the exact same `unique_h
 
 Note: There are several popular hashing functions: MD5, Sha1, Sha256, Sha256, etc. 
 
-#### What makes hashing functions so cool?
+### What makes hashing functions so cool?
 
 Hashing functions have become the best way to generate tokens in the security world because:
 
@@ -149,13 +149,64 @@ fetch('https://myApi.com/path/to/endpoint', {
     .catch(error => console.log(error));
 ```
 
-### Recommended packages for API Authentication
+## Json Web Token for API authentication
 
-#### If you are using Python Flask framework
+There are many ways to create tokens: Basic, Bearer, JWT, etc. All of them are different in nature but all of them result in the same output: A hash (a big alphanumeric token).
 
-I strongly recommend using [Flask JWT Extended](https://github.com/vimalloc/flask-jwt-extended).
+| Type of token | How it looks                                                            |
+| ------------- | ----------------------------------------------------------------------- |
+| Basic Token   | ecff2099b95ed507a27a4717ec78965d529cc346                                |
+| Bearer Token  | YWxlc2FuY2hlenI6NzE0YmZhNDNlN2MzMTJiZTk5OWQwYWZlYTg5MTQ4ZTc=            |
+| JWT Token     | eyJhbGciOiJIUzI1NiIsInR5c.eyJzdWIiOFt2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpM |
 
-#### If you are using Node Express
+> ☝️ As you can see, JWT Tokens are bigger than the other two types of tokens.
 
-Generate tokens with [Node JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme). Also use Express JWT to enforce the private endpoints.
+**JSON Web Token, or JWT is an open standard to create tokens**
 
+This standard has become quite popular since it's very effective for Web Apps like Google APIs, where, after user authentication you make API requests. 
+
+JSON Web Token is a type of token that includes a structure that can be decrypted by the server and allows you to authenticate the identity of the user of that application.
+
+### Why use JWT Token?
+
+In a nutshell: JWT is an amazing alternative because `Basic Token` is too simple and easy to hack, and Bearer Token is harder to maintain because you have to store each token on the database.
+
+With JWT Tokens you don't need a database, the token itself contains all the information needed.
+
+![Bearer token vs. JWT](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-vs-bearer-token.png?raw=true)
+
+> 📹 Here is a video explaining the JWT authentication [implementation using React.js, Context API and Python Flask](https://youtu.be/8-W2O_R95Pk).
+
+### Structure of the JWT Token
+
+![JWT structure](https://github.com/breatheco-de/content/blob/master/src/assets/images/jwt-token-structure.png?raw=true)
+
+You may notice that the string is divided into three sections, separated by a dot `.` - each section has it meaning:
+
+| Section name   |                                                                      |
+| -------------- | -------------------------------------------------------------------- | 
+| HEADER         | The first part stores the type of token and the encryption algorithm |
+| PAYLOAD        | The second part has the data that identifies the user: it can be their ID, username, etc. |
+| SIGNATURE      | A digital signature, which is generated with the previous two sections, which allows you to verify if the content has been modified. |
+
+## How API Authentication works?
+
+You can divide a standard authentication process into 5 main steps:
+
+1. The user writes their username and password on your website.
+2. The username and password get sent to the backend API.
+3. The API looks for any record on the `User` table that matches both parameters at the same time (username and password).
+4. If a user is found, it generates a `token` for that user and responds `status_code=200` back to the front end.
+5. The front-end will use that `token` from now on to make any future request.
+
+![Autentication workflow](https://github.com/breatheco-de/content/blob/master/src/assets/images/authentication-diagram.png?raw=true)
+
+> ☝️ If you don't know what a token is, I would recommend [this reading](https://4geeks.com/lesson/token-based-api-authentication).
+
+## Implementing JWT using Python Flask
+
+I strongly recommend using [Flask JWT Extended](https://4geeks.com/lesson/what-is-jwt-and-how-to-implement-with-flask).
+
+## Implementing JWT using Node.js Express
+
+Generate tokens with [Node JSONWebToken](https://4geeks.com/lesson/what-is-jwt-and-how-to-implement-with-express). Also use Express JWT to enforce the private endpoints.
