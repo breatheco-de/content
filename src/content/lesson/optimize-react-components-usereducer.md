@@ -3,6 +3,7 @@ title: "Optimizing your components with useReducer"
 subtitle: "The React components are easy to optimize when necessary. For that we count on with the useReducer hook,  which allows us to encapsulates not only the state of a component, but also the logic that comes with it. Now we'll see...."
 cover: "https://www.desktopbackground.org/p/2013/09/13/637935_nasa-wallpapers_1600x1200_h.jpg"
 textColor: "white"
+video: "https://www.youtube.com/watch?v=bnlQzZLYRYo"
 date: "2024-01-16T16:45:31-04:00"
 tags: ["react","javascript"]
 status: "draft"
@@ -11,42 +12,48 @@ status: "draft"
 
 ## What is the useReducer hook?
 
+Hooks started to exist in react since version 16.8. Since then, the entire react architecture has been transformed into a series of Hooks that allow you to implement most of the major programming patterns.
 
-The hooks were launched on version 16.8 of React. Since then all the architecture of react has transformed into a series of hooks that allow the implementation of most of the most important coding design patterns.
-useReducer is a proposal from React to separate the logic from the view of your components. There are other solutions like Redux, Flux, Global Context, etc; however, useReducer is easy to use and keeps the data in a local scope, which means that even when the components are reusing the functions, they don't share data.
+The useReducer is a React approach to separate the logic from the view in your components. There are other solutions such as Redux, Flux, Global Context, etc. However, the useReducer has become popular because it is simple to use and maintains a local scope on the data, i.e., despite reusing the functions and code of the components, the data will not be shared with each other.
+
+> Separating data from components helps prevent common errors and reuse information and logic in the application.
 
 ## Example of a useReducer
 
-The `useReducer` hook receives as the first parameter a function that defines the `reducer` and will return an array of two values that represents the state of the reducer (`state`) and the object that allows dispatching the actions that perform the logic of the reducer (`actions`). As a second parameter, it receives a function that returns an object with the initial values of the state.
-
-```javascript
-  const intitialCounter = () => ({counter: 0});
-  const [state, dispatch] = useReducer(counterReducer, intitialCounter());
-```
-
-At the same time, the reducer function itself is defined with 2 parameters: The `state` that has all the data of the reducer, and an object that is used to identify the actions that must be performed inside it (which we'll call `actions`).
+The first step is to declare a reducer function (in this example it is called `counterReducer`) which is defined with 2 parameters: `state` which contains the reducer data, and an `actions` object which is used to identify the actions we can execute to manipulate the state.
 
 ```javascript
 function counterReducer(state , action = {}) {
-  // Here the reducer receives the state and execute the actions
+  // Here the reducer receives the current state
+  // then executes the actions
+  // finally it returns the new state
 }
 ```
 
-This reducer function will be executed on every action call and it must return the new version of the state which replaces entirely the previous one at the end of the execution, which is why you must be careful to only write what you need and keep all the other values intact by using destructuring 🤓.
+This reducer function is in charge of mutating (or "modifying") the state of your component according to the predefined action types, and should return a new version of the state that completely replaces the previous one at the end of its execution, so be careful and only alter what we need and always return the other values of the state using the destructuring (js destructuring) 🤓.
 
-👍**YES**
-
-```javascript
-return { ...state, counter: state.counter + 1 }
-```
-
-🚫**NO**
 
 ```javascript
-return { counter: state.counter + 1 }
+function counterReducer(state , action = {}) {
+  // Whatever you do, always return a new state
+  //👍**YES**
+  return { ...state, counter: state.counter + 1 }
+  
+  //🚫**NO**
+  //return { counter: state.counter + 1 }
+}
 ```
 
-Inside the reducer, the object `actions` contain the property `type` that indicates to us which action has been invoked, and we can write the logic based on it.
+This function is used as the first parameter of the `useReducer` hook. As second parameter an object with the initial values of the state must be passed.
+
+The hook call returns an array of two values representing the new state (`state`) and the dispatcher: the object that calls the execution of the actions of the reducer logic (`actions`).
+
+```javascript
+  const intialCounter={counter: 0}:
+  const [state, dispatch] = useReducer(counterReducer, initialCounter());
+```
+
+Within the reducer function, the `actions` object contains a `type` property that tells us which action has been invoked, and we can write logic to mutate the state entirely based on this property.
 
 ```javascript
 export default function counterReducer(state, action = {}) {
@@ -68,9 +75,33 @@ export default function counterReducer(state, action = {}) {
 }
 ```
 
-With this, we can have the functions `counterReducer` and `intitialCounter` exported from a file, to be utilized by another component 👌.
+In addition to the specified actions, a `default` case is placed that is executed when the action type is not defined, for which an error is thrown that interrupts the application. This may seem a little extreme, but it is better to have a visible error and debug it, than to have an application without errors(🐞bugs) but that does not work as it should.
+
+Already with this we can have both the `counterReducer` functions and the `initialCounter` initial state exported in a file, to be used by any other component 👌.
 
 ## Why use useReducer?
+
+We are used to perceive the components as the unit that groups the view and the logic for its operation. For example: In the following code there is a `Counter` component that has the HTML to define how a counter of numbers should look like and there is also the logic of how it adds a unit each time the "+1" button is pressed.
+
+```jsx
+export default function Counter() {
+
+  // Logic ⬇️
+  const [counter, setCounter] = useState(0);
+  const increment = () => setCounter(counter + 1);
+
+  // View ⬇️
+  return (
+    <div className="container">
+      <h2>State counter</h2>
+      <h3>{counter}</h3>
+      <div className="buttons">
+        <button onClick={increment}>+1</button>
+      </div>
+    </div>
+  );
+}
+```
 
 What if we need to reuse only the logic in other components? We could consider [centralized states](https://4geeks.com/lesson/context-api), but what if I want to reuse only the logic while leaving every component with its own state? The janky solution would be copying the functions to another file, exporting them from there, and figuring out a way to make them work with every single state component 😰. It doesn't sound convenient...
 
@@ -78,9 +109,9 @@ One solution for this issue is `useReducer`, which as its name suggests **reduce
 
 ## Migrating from useState to useReducer
 
-In this example, we have a counter that not only adds one by one but also has other options to modify its value. 
+In this example, we have a counter that not only adds one by one but also has other options to modify its value.
 
-![react counter using state](https://storage.googleapis.com/media-breathecode/e8e051269b0d0aa93a4ec255742e1118060c6c096d70c0eba9b9f663148a4bff-200x155)
+![react counter using state](https://breathecode.herokuapp.com/v1/media/file/state-counter-png?width=200)
 
 To perform all these actions it needs functions for every single one of them, besides the state itself. For that we'll use the classic `useState` hook, [learn more here](https://4geeks.com/lesson/react-hooks-explained#the-useeffect-hook).
 
@@ -113,9 +144,7 @@ This works perfectly, but to make this logic reusable and move it to another fil
 
 ```javascript
 // counterReducer.js
-export const intitialCounter = () => ({
-  counter: 0
-});
+export const initialCounter = {counter: 0};
 export default function counterReducer(state, action = {}) {
   switch (action.type) {
     case "INCREMENT":
@@ -139,13 +168,13 @@ Now from the component we can import and use the reducer:
 
 ```jsx
 import React, { useReducer } from "react";
-import counterReducer, { intitialCounter } from "./counterReducer";
+import counterReducer, { initialCounter } from "./counterReducer";
 
 export default function CounterUsingReducer() {
   // Add the hook useReducer, passing as arguments
   // our reducer function and the initializer,
   // being both imported from another file.
-  const [state, dispatch] = useReducer(counterReducer, intitialCounter());
+  const [state, dispatch] = useReducer(counterReducer, initialCounter);
 
   return (
     <div>

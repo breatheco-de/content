@@ -10,7 +10,7 @@ canonical: ""
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 ---
 
-¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro, estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor, lean hasta el final, ¡trataré de no aburrirlos!
+¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro, estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor, lean hasta el final, ¡Trataré de no aburrirlos!
 
 ## Lo que ya sabes:
 
@@ -18,7 +18,7 @@ Estás aquí para aprender a desarrollar tus habilidades para programar hasta un
 
 ## Lo que no sabías:
 
-También estás aquí porque necesitas ayuda, no solo técnica sino también espiritual. Digo esto de la manera más pragmática posible.
+También estás aquí porque necesitas ayuda, no solo técnica sino también espiritualmente. Digo esto de la manera más pragmática posible.
 
 > La mayor pared que deberás derrumbar para convertirte en un desarrollador no está en el programa ni en el contenido, sino en tu mente.
 
@@ -34,10 +34,9 @@ Durante los años que han pasado hemos identificado razones específicas por las
 
 En algún momento de nuestras vidas (en algunos más que otros) podemos haber pensado que no somos la persona más lista de una sala. Si continuamos pensando eso durante mucho tiempo y no nos sentimos cómodos con ninguna disciplina, incluso podemos llegar a pensar que no somos inteligentes. ¡Mentira! ¡Nada que ver! Eres parte de esta academia, no aceptamos personas que no creemos que sean lo suficientemente inteligentes como para ganarse la vida como desarrolladores. ¡Tienes que creer eso, especialmente en tiempos difíciles!
 
-> Si algún ejercicio o proyecto en particular te parece difícil, en vez de pensar que no sirves para esto, busca nuevas maneras de absorber el contenido. Habla con un mentor y te daremos exactamente lo que necesitas.
+> Si algún ejercicio o proyecto en particular te parece difícil, en vez de pensar que no sirves para esto, busca nuevas maneras de asimilar el contenido. Habla con un mentor y te daremos exactamente lo que necesitas.
 
 Cualquier persona en general puede aprender a programar; la programación se vuelve más complicada cuando te especializas más en tu carrera (Inteligencia Artificial, Robótica, etc.). Puedes ganar una buena cantidad de dinero sin tener que haber estudiado matemáticas, sin ser bueno con los números o sin aprender tan rápido como otros (es posible que podamos arreglar eso, por cierto). 
-
 
 ##### 📝 Receta para no perder la confianza en ti:
 
@@ -45,7 +44,7 @@ Cualquier persona en general puede aprender a programar; la programación se vue
 
 2. **Habla con otros estudiantes:** Puede que pienses que eres el único que no entiende, pero si hablas con otros compañeros verás que no eres solo tú y te dará confianza para hacer preguntas.
 
-3. **Habla con los mentores:** Una voz con experiencia siempre es buena, hay egresados y profesores que ya han pasado por momentos difíciles o que están con dificultades ¡en este mismo momento! Pueden ayudarte durante los tiempos oscuros, no solo estamos hablando de brindarte soluciones de programación, sino de brindarte estrategias para tener éxito en tu vida (¿cómo desarrollador?).
+3. **Habla con los mentores:** Una voz con experiencia siempre es buena, hay egresados y profesores que ya han pasado por momentos difíciles o que están con dificultades ¡En este mismo momento! Pueden ayudarte durante los tiempos oscuros, no solo estamos hablando de brindarte soluciones de programación, sino de brindarte estrategias para tener éxito en tu vida (¿Cómo desarrollador?).
 
 #### Pared #2: Confianza ✝
 
@@ -77,7 +76,7 @@ Estos números no son pequeños, un 60% en un día y un 90% si no practicas en u
 
 4. **Involúcrate:** Asistir a clases no es suficiente, los seres humanos son emocionales, integran mejor la información cuando están comprometidos emocionalmente, asistiendo a eventos y estudiando en grupos, hablando públicamente al respecto, etc.
 
-## ¿Qué sigue?
+### ¿Qué sigue?
 
 Asegúrate de entender bien cómo funciona la academia:
 

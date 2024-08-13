@@ -1,6 +1,6 @@
 ---
 title: "Tutorial de Bootstrap: Aprende Bootstrap 4 en 10 minutos"
-subtitle: "¡Después de decadas de lucha, la luz ha llegado! Con este tutorial de Bootstrap, diseñar un sitio web va a ser pan comido. Es absurdo, y casi imposible, pensar en hacer un sitio web sin un framework de CSS como Bootstrap."
+subtitle: "¡Después de décadas de lucha, la luz ha llegado! Con este tutorial de Bootstrap, diseñar un sitio web va a ser pan comido. Es absurdo, y casi imposible, pensar en hacer un sitio web sin un framework de CSS como Bootstrap."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:30+00:00"
@@ -11,7 +11,7 @@ status: "published"
 
 ## Bootstrap viene a arreglar el 90% de los problemas de CSS
 
-Hay una luz al final del túnel y no es Chuck Norris con una linterna. ¡Finalmente alguien arregló CSS!  Es una biblioteca hecha por [Mark Otto](https://twitter.com/mdo?lang=en) y [Jacob Thornton](https://twitter.com/fat)- personas normales, programadores como nosotros, y ¡es genial!
+Hay una luz al final del túnel y no es Chuck Norris con una linterna. ¡Finalmente alguien arregló CSS!  Es una biblioteca hecha por [Mark Otto](https://twitter.com/mdo?lang=en) y [Jacob Thornton](https://twitter.com/fat), personas normales, programadores como nosotros, y ¡es genial!
 
 Dos chicos, mientras trabajaban en Twitter, estaban sufriendo los mismos problemas que nosotros con HTML y CSS. Hartos de esta situación (como tú y yo), decidieron crear una **hoja base que puede importarse en cualquier sitio web**. Esto hizo el trabajo de todos los desarrolladores front-end 4 veces más fácil.
 
@@ -20,7 +20,6 @@ Dos chicos, mientras trabajaban en Twitter, estaban sufriendo los mismos problem
 Además, Bootstrap te da una gran cantidad de elementos nuevos que vas a querer usar siempre y que actualmente no existen en CSS+HTML: Los componentes de Bootstrap.
 
 ## Layouts: Solucionado el modelo de cajas
-
 
 Uno de los defectos en CSS, es la forma en que funcionan los layouts: trabajar con **float**,  **display** y **position** ¡es lo peor! Así es como Bootstrap lo soluciona:
 
@@ -34,7 +33,7 @@ Esto es una columna: <div class="col–sm–x">
 ```
 ![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/3884f515-dd7a-48f2-b238-9e2ec26de02d.png?raw=true)
 
-Bootstrap ha dividido el ancho de la pantalla en  `12 slots` (espacios) - cada uno de ellos con un ancho de fila total  de 8.33%. El tamaño de una columna, puede ir de entre 1 y 12 slots o espacios.
+Bootstrap ha dividido el ancho de la pantalla en  `12 slots` (espacios), cada uno de ellos con un ancho de fila total de 8.33%. El tamaño de una columna, puede ir de entre 1 y 12 slots o espacios.
 
 Por otro lado, las columnas fueron hechas para vivir dentro de las filas (como pasa entre `<td>` y `<tr>`),  siempre necesitas abrir una fila antes de abrir una columna.  Todas las columnas en una fila deben sumar un máximo de 12 espacios.
 
@@ -60,7 +59,7 @@ Es muy fácil decidir como se verá tu página web en pantallas de diferente tam
 |:---------|:--------|:----|
 |Significa que este elemento debe comportarse como una columna de Bootstrap.   |Significa que estoy especificando sólo para dispositivos con tamaño de pantalla mediano.   |Especifica cuantos espacios quiero que abarque la columna (recuerda que puede abarcar max 12 espacios por fila).   |
 
-Bootstrap device sizes:   
+Tamaño de dispositivos en Bootstrap:   
 
 | Smartphones   | Big-phone/small-tablet   | Tablets  | Desktops   | Extra-large desktops |
 |:------------- |:------------------------ |:-------- |:---------- |:-------------------- |
@@ -127,12 +126,11 @@ Ya sabemos sobre el esqueleto básico de HTML5 que todo sitio web debe tener. Ah
 
 Recuerda, Bootstrap es solo una hoja de estilos. Es por eso que es muy simple agregarlo a tu sitio web. Utiliza el `<link>` tag para incluir los estilos, y si quieres para usar la etiqueta de javascript `<script>` y así incluir los archivos de javascript de Bootstrap.
 
-La funcionalidad de Javascript en Bootstrap requiere que se incluyan las librerías propias de jQuery y Javascript primero pero no te preocupes por esto aún.   Sólo incluye las librerías de JS usando la etiqueta script y más adelante lo entenderás.
+La funcionalidad de Javascript en Bootstrap requiere que se incluyan las librerías propias de jQuery y Javascript primero pero no te preocupes por esto aún. Sólo incluye las librerías de JS usando la etiqueta script y más adelante lo entenderás.
 
 > :link: Encuentra aquí [increíbles archivos de Bootstrap para que puedas empezar.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
 ## Componentes de Bootstrap 4
-
 
 HTML es súper básico, sólo tiene un par de etiquetas - ya los sabíamos. Pero cuando revisas la web hoy en día, ves otra cosa… actualmente las páginas web tienen menús, íconos, barras de carga, etc. ¿Dónde están esas etiquetas? ¡Ninguna de ellas está definida en HTML!
 
@@ -142,13 +140,11 @@ Cuando importas Bootstrap en tu página web, tendrás un nuevo conjunto de compo
 
 ![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/8e9ff37a-28f7-4179-8f5d-9278ff7efd55.png?raw=true)
 
-
 ### Estos son los componentes más usados e importantes de Bootstrap:
-
 
 #### Barra de navegación o NavBar
 
-Esto es tan popular que se encuentra en el 99% de los menús de todos los sitios web.  Normalmente contiene el logo de la compañía y una series de links - dependiendo de la lógica de negocio de la página. 
+Esto es tan popular que se encuentra en el 99% de los menús de todos los sitios web.  Normalmente contiene el logo de la compañía y una series de links, dependiendo de la lógica de negocio de la página. 
 
 Aquí hay un ejemplo de cómo se ve un NavBar en un sitio web:
 
@@ -195,7 +191,7 @@ Aquí hay un ejemplo de cómo se ve un NavBar en un sitio web:
 
 #### Card
 
-Este es probablemente el componente de Bootstrap más usado, cada sitio web tiene unas cuantas "Card" porque es ideal para listar objetos de una forma bonita.  Algunos ejemplos del uso de "Card" pueden ser:
+Este es probablemente el componente de Bootstrap más usado, cada sitio web tiene unas cuantas "Card" porque es ideal para listar objetos de una forma bonita. Algunos ejemplos del uso de "Card" pueden ser:
 
 + La sección de "equipo" de un sitio web donde listas los distintos empleados.
 + Un típico muro de Pinterest.
@@ -217,8 +213,6 @@ Aquí hay un ejemplo de cómo puede verse un sitio web con una "Card":
   </div>
 </div>
 ```
-
-
 
 #### El Modal
 
@@ -252,56 +246,31 @@ div class="modal" tabindex="-1" role="dialog">
 </div>
 ```
 
-
-> :point_up: Importante! El Modal necesita Javascript para poder funcionar.  Recuerda incluir los archivos de Javascript necesarios en el típico esqueleto de Bootstrap: jQuery, Popper and Bootstrap.js
+> :point_up: Importante! El Modal necesita Javascript para poder funcionar. Recuerda incluir los archivos de Javascript necesarios en el típico esqueleto de Bootstrap: jQuery, Popper and Bootstrap.js
 
 ## Lo que realmente necesitas saber sobre Bootstrap
 
-
-¡¡La documentación oficial de Bootstrap es increíble!! No necesitamos copiar y pegar todos los post.  Por favor visita los siguientes sitios web y enfócate en leer estos temas:
+¡¡La documentación oficial de Bootstrap es increíble!! No necesitamos copiar y pegar todos los post. Por favor visita los siguientes sitios web y enfócate en leer estos temas:
 
 + [The grid system.](https://getbootstrap.com/docs/4.1/layout/grid/)
 + [Styling Forms.](https://getbootstrap.com/docs/4.1/components/forms/)
 + [List of components available to use on your website.](https://getbootstrap.com/docs/4.1/components/alerts/)
 + [Utilities or Helper classes:](https://getbootstrap.com/docs/4.1/utilities/borders/) Clases muy útiles para hacer cosas como centrar el texto, centrar una columna o contenedor, agregar un fondo, etc.
 
- 
 | ☝️ Versiones de Bootstrap y su descarga: 
 
 Bootstrap tiene varias versiones, siempre verifica que estés usando la última versión de Bootstrap en tu proyecto. Aquí podrás encontrar todas las versiones disponibles:[https://getbootstrap.com/docs/versions/](https://getbootstrap.com/docs/versions/).
-
 
 Te recomendamos que uses el CDN para importar bootstrap en tu archivo HTML, de este modo: [https://www.bootstrapcdn.com/](https://www.bootstrapcdn.com/)
 
 Si estás migrando tu proyecto a nueva versión de Bootstrap, recuerda siempre verificar su documentación.
 
-## Gana RESPECT.
+## Gana RESPETO.
 
+El éxito no llega de la noche a la mañana; este es tu primer logro. Déjame preguntarte ¿te sientes capaz de usar HTML, CSS, Layouts y Bootstrap? ¡No te mientas!
 
-El éxito no llega de la noche a la mañana.  Este es tu primer logro.  Déjame preguntarte ¿te sientes capaz de usar HTML, CSS, Layouts y Bootstrap?  ¡No te mientas!
-
-No más Lecciones sobre este tema - es momento de entregar.  Es hora de enfocarse en el proyecto de clase.  Recuerda honrar los valores de los desarrolladores. Calma.
+No más Lecciones sobre este tema, es momento de entregar. Es hora de enfocarse en el proyecto de clase... Recuerda honrar los valores de los desarrolladores. Calma.
 
 <iframe src="https://www.youtube.com/embed/RqHNyyvfafE" frameborder="0" allowfullscreen></iframe>
 
 <div align="right"><small><a href="https://www.youtube.com/embed/RqHNyyvfafE">Click here to open video in new window</a></small></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

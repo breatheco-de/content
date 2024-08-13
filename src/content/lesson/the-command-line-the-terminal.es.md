@@ -18,7 +18,9 @@ Al principio, todos odiaban la línea de comando. Tras años de experiencia, se 
 Pero ¿por qué les gusta a los desarrolladores? Bueno, la lista es infinita, pero aquí hay algunas razones importantes:
 
 + Si no dominas la línea de comandos, no podrás usar ninguno de estos: GIT, MySQL, Webpack, Node.js, Grunt, Vagrant, Babel, React, Angular, Apache, etc.
-+ Como desarrollador, es lo único que necesitas tener disponible. Las computadoras no vienen con Atom, Sublime text (o cualquier otro IDE de alta calidad). A veces como los servidores de producción (no puedes instalar nada y **el sistema ni siquiera tiene una interfaz visual**) solo la línea de comandos.
+
++ Como desarrollador, es lo único que necesitas tener disponible. Las computadoras no vienen con Atom, Sublime text (o cualquier otro IDE de alta calidad). A veces como los servidores de producción no puedes instalar nada (y **el sistema ni siquiera tiene una interfaz visual**), sólo la línea de comandos.
+
 + Es superpoderosa. Puedes hacer mucho más en mucho menos tiempo, por ejemplo: eliminar de forma masiva, cambiar nombres, buscar archivos, editar archivos, etc.
 + Te obliga a usar el teclado. Como no puedes usar el mouse, te hace más rápido. Cometes menos errores y el entorno es exactamente el mismo en todas las computadoras.
 
@@ -28,7 +30,7 @@ La consola es realmente simple: es una pantalla negra que siempre está esperand
 
 Pero, ¿qué es un *comando*?
 
-Es algo así como "imprimir", "mostrar", o "eliminar" pero abreviado. Por ejemplo, si quieres decirle a la consola que enliste todos los archivos en un directorio en particular, tienes que usar el comando `ls` así:
+Es algo así como "imprimir", "mostrar", o "eliminar", pero abreviado. Por ejemplo, si quieres decirle a la consola que enliste todos los archivos en un directorio en particular, tienes que usar el comando `ls` así:
 
 ```bash
 ls -l /path/to/directory
@@ -156,17 +158,17 @@ Encuentra un archivo en el directorio dado y con las especificaciones dadas.
 
 ```bash
 find / -name game
-# Encuentra todos los archivos que contengan el nombre exacto "game" que se encuentran dentro de la carpeta raíz
+# Encuentra todos los archivos que contengan el nombre exacto "game" que se encuentran dentro de la carpeta raíz.
 
 find . -name *.mp3
-# Encuentra todos los archivos que contengan la extensión "mp3" dentro del directorio actual y en el de su padre
+# Encuentra todos los archivos que contengan la extensión "mp3" dentro del directorio actual y en el de su padre.
 ```
 
 ## Consejos y Trucos
 
 Esto te ayudará a ahorrar tiempo y a cometer menos errores al escribir:
 
-+ Para cancelar un comando que se está ejecutando, presiona `ctrl + c`
++ Para cancelar un comando que se está ejecutando, presiona `ctrl + c`.
 + Para completar automáticamente el nombre de un archivo o carpeta, usa la tecla `tab`.
 + Para repetir cualquier comando que hayas usado en el pasado, usa la flecha arriba `↑` y te mostrará cada comando, uno por uno.
 + Para ir a la carpeta principal del usuario, usa la tecla `~`, así: `cd ~`.

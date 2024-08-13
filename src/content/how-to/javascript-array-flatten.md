@@ -8,7 +8,7 @@ authors: [DF27ARTS]
 
 Flattening an array in [JavaScript](https://4geeks.com/lesson/what-is-javascript-learn-to-code-in-javascript) is the process of converting a multi-dimensional array into a single one-dimensional array which means that we move all the elements within the multi-dimensional array into a single array, this process can be done in many different ways but the easiest way to achieve this is by using the JavaScript `flat()` method, as shown in the following example.
 
-```js
+```js runable=true
 const multidimensionalArray = [
     1, 2, 3,
     [ [4, 5, [6, [7]]], 8],
@@ -18,10 +18,6 @@ const multidimensionalArray = [
 const arrayFlattened = multidimensionalArray.flat(Infinity);
 console.log("Array flattened:", arrayFlattened);
 ```
-> code output:
-```bash
-Array flattened:  [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
-```
 
 As you can see in this example, the `multidimensionalArray` array has many layers of array with numbers inside, to take all of those values and put them into a single array we can use the JavaScript `flat()` method. If you don't pass an argument to the `flat()` method it will only flatten the values of the first layer, to go deeper you need to specify the number of layers to flatten, for example, `5` but if you don't know how many layers you need to pass as an argument, simply pass the number `Infinity`, this number is the largest number JavaScript can work with and will ensure that you flatten the whole array no matter how many layers deep it is, we will explain the `flat()` method in more detail in just a moment.
 
@@ -29,14 +25,16 @@ As you can see in this example, the `multidimensionalArray` array has many layer
 
 Flattening an [array](https://4geeks.com/lesson/what-is-an-array-define-array) is the process of taking the nested elements within an array and putting them into a single array, in other words converting a multi-dimensional array into a single one-dimesional array, for example:
 
-```js
+```js runable=true
 const arrayNested = [[1, 2, 3, [4]], [5, 6, 7, [8]]];
+console.log(arrayNested);
 ```
 
 Here we have an array that contains two other arrays inside and each of them contains another array inside, we can say that this array contains two layers deep the first layer containing two arrays `[[1, 2, 3, [4]]` and `[5, 6, 7, [8]]`. The second layer is within the inner array and contains the elements `[4]` and `[8]`. The process of flattening an array takes all the values inside the nested arrays and places them into a single one-dimensional array.
 
-```js
+```js runable=true
 const arrayFlattened = [1, 2, 3, 4, 5, 6, 7, 8];
+console.log(arrayFlattened);
 ```
 
 Each individual element within the nested arrays is preserved when the array is completely flattened.
@@ -49,7 +47,7 @@ There are different ways to flatten an array in JavaScript, in the following exa
 
 Undoubtedly, the easiest and most effective way to flatten an array is by using the [flat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat) method, as its name indicates this method provides a very simple way to flatten an array no matter how many layers deep it is.
 
-```js
+```js runable=true
 const multidimensionalArray = [1, 2, 3, [4, 5, [6, 7, [8]], 9]];
 
 const exampleOne = multidimensionalArray.flat();
@@ -60,12 +58,6 @@ console.log("flat(): ", exampleOne);
 console.log("flat(2): ", exampleTwo); 
 console.log("flat(Infinity): ", exampleThree); 
 ```
-> Code output:
-```bash
-flat(): [ 1, 2, 3, 4, 5, [ 6, 7, [ 8 ] ], 9 ]
-flat(2): [ 1, 2, 3, 4, 5, 6, 7, [ 8 ], 9 ]
-flat(Infinity): [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
-```
 
 As shown in this example, the `flat()` method can be called with different arguments, if you call this method without an argument it will take the number 1 by default and will only flatten the first layer of the array. If you pass a number of layers to flatten for example `2`, this method will flatten the first and the second layers of the array, in our example the first layer of numbers is `[4, 5, [6, 7, [8]], 9]` and the second layer is `[6, 7, [8]]`. Our example array has three layers deep, but in case you don't know the total amount of layers you need to pass to the `flat()` method you can simply use the number `Infinity`, this way you make sure that the method flattens the whole array no matter how many layers deep it is.
 
@@ -73,7 +65,7 @@ As shown in this example, the `flat()` method can be called with different argum
 
 Another way you can flatten an array is by using a [JavaScript loop](https://4geeks.com/interactive-exercise/javascript-array-loops-exercises) and the [reduce](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) method.
 
-```js
+```js runable=true
 let nestedArray = [1, 2, 3, [4, 5, [6, 7, [8]], 9]];
 
 while (nestedArray.some((num) => Array.isArray(num))) {
@@ -82,7 +74,7 @@ while (nestedArray.some((num) => Array.isArray(num))) {
     }, []);
 }
 
-console.log(nestedArray); // output: [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+console.log(nestedArray);
 ```
 
 This code will flatten the array no matter how many layers deep it is, however, because we are using the `some()` method to ensure that the `while()` loop continues to execute if any of the elements within the nested array is an array, this code has a worst-case complexity of **O(n^2)** which makes it inefficient depending on the number of layers deep and the number of elements within the array.
@@ -91,7 +83,7 @@ This code will flatten the array no matter how many layers deep it is, however, 
 
 Another good option for flattening an array is to use a [recursive function](https://developer.mozilla.org/en-US/docs/Glossary/Recursion).f
 
-```js
+```js runable=true
 const nestedArray = [1, 2, 3, [4, 5, [6, 7, [8]], 9]];
 
 function flattenArray(arr) {
@@ -108,7 +100,7 @@ function flattenArray(arr) {
 }
 
 const flattenedArray = flattenArray(nestedArray);
-console.log(flattenedArray); // output:  [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+console.log(flattenedArray);
 ```
 
 In this example, we're using a recursive function to put all the elements of a nested array into a single one-dimensional array. Inside the function, we are using the `forEach()` method to traverse the array and a conditional to ask if the current item is an array, we can do this with the syntax `Array.isArray(item)` this will return `true` if the item is an array otherwise it returns `false`. If the item is an array we concatenate the variable `result` with the result of the recursive call of the `flattenArray` function and if it's not an array we simply push it into the array `result`.

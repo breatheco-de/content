@@ -105,7 +105,7 @@ var myFirstBoolean = true;//Boolean
 var myFirstInteger = 35;//Number
 var myFirstFloat = 2323.4545; //Number (with decimals)
 
-var myFirstString = 'Hello Wold'; //String
+var myFirstString = 'Hello World'; //String
 var myFirstObject = {'name' : 'Ramon', 'Age': 32}; //Object with 2 properties
 var myFirstArray = [23,'Hello',8.54,null,544]; //Array of 5 items
 var myFirstNull = null;//Null
@@ -132,7 +132,7 @@ What operations can I do to variables? Depending on the data-type you have a few
 
 + Numbers are easy, you can do whatever math operation you want.
 + Strings can be concatenated (merged), split, converted to Upper or Lower Case, etc.
-+ You cannot do much to Null, Booleans, and Undefined data-types.
++ You can't do much to Null, Booleans, and Undefined data-types.
 + We will talk about Arrays and Objects in a different section. They require a lot more attention.
 
 ## Functions

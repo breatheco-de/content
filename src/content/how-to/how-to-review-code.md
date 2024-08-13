@@ -1,4 +1,5 @@
-# Guide to Effective Code Reviews
+
+# Guide to Write Effective Code Reviews
 
 Code Reviews are one of the most interesting features of 4Geeks.com. They provide mentors with a quick tool to review code, and students with additional feedback to improve as developers. A Code Review, as the name suggests, is simply a comment regarding a portion of code. In this article, we will analyze the desirable characteristics that a Code Review should have to be effective for the student.
 

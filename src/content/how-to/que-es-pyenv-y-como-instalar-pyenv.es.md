@@ -1,7 +1,7 @@
 ---
 title: "¿Qué es pyenv y cómo instalarlo?"
 subtitle: "Descubre qué es pyenv y cómo instalar esta poderosa herramienta para gestionar versiones de Python en tu sistema. Facilita el desarrollo de proyectos."
-tags: ["python"]
+tags: ["python", "pyenv", "windows", "linux", "macOS"]
 authors: ["danielmoret"]
 
 ---
