@@ -8,7 +8,7 @@ tags: ["API","React", "Portafolio"]
 ---
 ## ¿Por qué integrar APIs y librerías externas?
 
-La integración de librerías y APIs externas en un proyecto para un portafolio de desarrollador full-stack ofrece una serie de beneficios que lo hacen más completo, atractivo y valioso, a la vez que demuestra habilidades y experiencia relevantes. Aquí hay algunos de los beneficios mas importantes:
+La integración de librerías y APIs externas en un proyecto para un portafolio de desarrollador full-stack ofrece una serie de beneficios que lo hacen más completo, atractivo y valioso, a la vez que demuestra habilidades y experiencia relevantes. Aquí hay algunos de los beneficios mgit aás importantes:
 
 ### 1. Aumenta la funcionalidad y el valor del proyecto
 
