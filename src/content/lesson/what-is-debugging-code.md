@@ -37,7 +37,7 @@ The debugging steps and tools may vary significantly depending on the programmin
 
 ### Identify the type of bug: Basic Exploration
 
-It's a good idea to break down bugs into "types" so we can prepare strategies for each group type. After years of debugging code, I have designated 4 front-end and 4 back-end bug types.
+It's a good idea to break down bugs into "types" so we can prepare strategies for each group type. After many years of debugging codes, I have designated 4 front-end and 4 back-end bug types.
 
 #### Is it a front-end bug?
 
