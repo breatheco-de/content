@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-> ☝  Windows users don't use the same terminal commands, but you should learn and practice them anyway because they are heavily used when publishing your apps on any web hosting, Gitpod, Codespaces, Cloud9, etc. You can use [Git SCM](https://git-scm.com/downloads) to create a similar terminal on your computer.
+> ☝  Windows users do not use the same terminal commands, but you should learn and practice them anyway because they are heavily used when publishing your apps on any web hosting, Gitpod, Codespaces, Cloud9, etc. You can use [Git SCM](https://git-scm.com/downloads) to create a similar terminal on your computer.
 
 ## Why do Developers love the Command Line?
 
@@ -17,8 +17,8 @@ At first, everybody hated the command line. After years of experience, it became
 
 But why do developers like it? Well, the list is infinite, but here are a few important reasons:
 
-+ If you don't master the command line, you won't be able to use any of these: GIT, MySQL, Webpack, Node.js, Grunt, Vagrant, Babel, React, Angular, Apache, etc.
-+ As a developer, it's the one thing you need to have available. Computers don't come with Atom, Sublime Text, (or any other fancy IDE). Sometimes, like with production servers, you are not allowed to install anything, and **the system does not even have a visual interface**, just the command line.
++ If you do not master the command line, you will not be able to use any of these: GIT, MySQL, Webpack, Node.js, Grunt, Vagrant, Babel, React, Angular, Apache, etc.
++ As a developer, it's the one thing you need to have available. Computers do not come with Atom, Sublime Text, (or any other fancy IDE). Sometimes, like with production servers, you are not allowed to install anything, and **the system does not even have a visual interface**, just the command line.
 + It is super powerful; you can do a lot more in a lot less time! For example, bulk delete, rename, find a file, edit a file, etc.
 + It forces you to use the keyboard. Since you cannot use the mouse, it makes you faster. You make fewer mistakes, and the environment is exactly the same on every computer.
 
@@ -139,7 +139,7 @@ rmdir path/of/targetdirectory/mydirectory
 
 **The Copy File command.**
 
-Don't confuse this command with the clipboard copy functionality; it has nothing to do with it.
+Do not confuse this command with the clipboard copy functionality; it has nothing to do with it.
 
 `cp` will copy an entire file and create a new one with whatever name you decide it should have.
 
