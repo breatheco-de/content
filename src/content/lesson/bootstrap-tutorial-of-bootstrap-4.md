@@ -11,7 +11,7 @@ status: "published"
 
 ## Bootstrap fixed all CSS major problems
 
-There is light at the end of the tunnel and it is NOT Chuck Norris holding a flashlight.  Finally, someone fixed CSS.  This is a library made by [Mark Otto](https://twitter.com/mdo?lang=en) and [Jacob Thornton](https://twitter.com/fat) – normal people – developers like you and me, and they did great!
+There is light at the end of the tunnel, and it is NOT Chuck Norris holding a flashlight.  Finally, someone fixed CSS.  This is a library made by [Mark Otto](https://twitter.com/mdo?lang=en) and [Jacob Thornton](https://twitter.com/fat) – normal people – developers like you and me, and they did great!
 
 These two guys working on Twitter were suffering the same problems we had been dealing with in HTML and CSS.  Fed up with the situation, they decided to build a **base CSS Sheet designed to be imported into any website**.  It makes every front-end development work 4x’s easier.
 
@@ -58,7 +58,7 @@ It’s very easy to decide how your website will render in different screen size
 
 |**Col**   |**md**   |**x**
 |:---------|:--------|:----|
-|Means that this element should behave like a Bootstrap column.   |Means that it is specified for only for the devices with a "medium" sized screen.   |Specifies how many slots I want this column to take (remember you can take a max of 12 slots per row).   |
+|Means that this element should behave like a Bootstrap column.   |Means that it is specified only for the devices with a "medium" sized screen.   |Specifies how many slots I want this column to take (remember you can take a max of 12 slots per row).   |
 
 > :point_up:Bootstrap device sizes:
 > |Phones   | Big-phone/small-tablet   | Tablets   | Desktops   | Extra-large desktops   |
@@ -194,7 +194,7 @@ This is probably the most used Bootstrap component; every website has a few card
 + The typical Pinterest wall.
 + The feed in any social media like Instagram, Facebook, twitter, etc.
 
-Here is an example of how a "The Card" may look on a website:
+Here is an example of how a Card may look on a website:
 
 ![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png?raw=true)
 

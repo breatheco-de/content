@@ -154,9 +154,9 @@ You can assign a different color to any link on the website, depending on its st
 + `:hover` when the cursor is over the link.
 + `:active` when the cursor is clicking on the link.
   
-  <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+  <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/tLy9dvbr/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/tLy9dvbr/2/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/tLy9dvbr/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
 
 ### Advanced Selectors
 

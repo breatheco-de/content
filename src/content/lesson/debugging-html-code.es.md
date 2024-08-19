@@ -7,7 +7,7 @@ tags: ["debugging", "web development", "html/css"]
 
 ## Depuración de código HTML
 
-El código HTML es difícil de depurar inicialmente, pero es fácil de comprender si sigues esta receta. Solo necesitas conocer 2-3 cosas antes de comenzar a codificar o depurar en HTML que te harán un maestro. Sí, es tan fácil, así que no te preocupes y sigue leyendo.
+El código HTML es difícil de depurar inicialmente, pero es fácil de comprender si sigues esta receta. Solo necesitas conocer algunas cosas antes de comenzar a codificar o depurar en HTML que te harán un maestro. Sí, es tan fácil, así que no te preocupes y sigue leyendo.
 
 Si estás interesado en depurar otros lenguajes o tecnologías, aquí está nuestra guía completa sobre [qué es la depuración](https://4geeks.com/es/lesson/que-es-depurar-codigo) y cómo convertirse en un maestro de la depuración al desarrollar front-end y back-end.
 
@@ -89,7 +89,7 @@ Si un tag no se cierra correctamente. Por ejemplo, si olvidas cerrar un tag `<di
 
 Los tags HTML tienen atributos, por ejemplo, el tag `<img>` tiene el atributo `src`: `<img src="https://domain.com/something" />`. Desafortunadamente, a veces cometemos errores al abrir o cerrar esos tags.
 
-Para encontrar esos errores: la mejor herramienta es el resaltador de sintaxis. Mostrará un color extraño; mira esta imagen para una mejor comprensión.
+Para encontrar esos errores, la mejor herramienta es el resaltador de sintaxis. Mostrará un color extraño; mira esta imagen para una mejor comprensión.
 
 ![cómo se ven las comillas faltantes en tu resaltador de sintaxis](https://i.imgur.com/JzNqq1W.png?raw=true)
 
@@ -97,7 +97,7 @@ Para encontrar esos errores: la mejor herramienta es el resaltador de sintaxis. 
 
 Esto es divertido porque todos cometemos este error, yo lo hice, tú lo hiciste o lo harás, todos los demás lo hicieron o lo harán.
 
-Cuando vinculas tu HTML a una hoja de estilos CSS o un archivo JavaScript separado, puedes escribir la URL incorrecta, y tu hoja de estilos no se cargará.
+Cuando vinculas tu HTML a una hoja de estilos CSS o un archivo JavaScript separado, puedes escribir la URL incorrecta y tu hoja de estilos no se cargará.
 
 ¿Cómo sabes que enlazaste mal la URL? La consola del inspector de herramientas de desarrollo mostrará un error 404 como este (mira la imagen a continuación):
 

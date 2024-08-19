@@ -1,10 +1,8 @@
 ---
 title: "How to Reverse a List in Python?"
 subtitle: "Reversing a list is a very common operation in the day of a programmer. We can do it with the most common ways are the reverse() method and with a syntax trick."
-tags: ["python", "list", "reverse a list"]
-date: "2022-10-20T16:36:30+00:00"
-authors: []
-status: "published"
+tags: ["python", "list", "array"]
+authors: ["alesanchezr"]
 
 ---
 

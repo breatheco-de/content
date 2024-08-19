@@ -155,6 +155,11 @@ return <div>
 
 ## Prueba el código en vivo
 
-<iframe src="https://codesandbox.io/embed/w75wq6v01k?fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
-
-<div align="right"><small><a href="https://codesandbox.io/s/w75wq6v01k?from-embed">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
+<iframe src="https://codesandbox.io/embed/w75wq6v01k?view=editor+%2B+preview&module=%2Findex.js&hidenavigation=1"
+     style="width:100%; height: 500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="Example of React&#039;s new context API"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+   
+<div align="right"><small><a href="https://codesandbox.io/p/sandbox/w75wq6v01k">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>

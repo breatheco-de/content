@@ -8,7 +8,7 @@ authors: ["diegorojas"]
 
 El método `reduce()` en [JavaScript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) te permite reducir los elementos de un array y retornar un valor único. A continuación veremos un ejemplo bastante común haciendo uso de este método para conseguir el valor total de la suma de un array de números.
 
-```js
+```js runnable=true
 const numeros = [1, 2, 3, 4, 5];
 const sumaTotal = numeros.reduce((total, numero) => {
      return total + numero;
@@ -47,7 +47,7 @@ Array.reduce(funcionReductora, valorInicial);
 
 En el siguiente ejemplo verás un poco mejor cómo funcionan estos parámetros.
 
-```js
+```js runnable=true
 const numeros= [1, 2, 3, 4, 5];
 
 numeros.reduce((acumulador, elemento, indice, array) => {
@@ -138,7 +138,7 @@ En este ejemplo usamos el método `reduce()` para contar cuántas veces aparecen
 
 Otro uso que le podemos dar al método `reduce()` de Javascript en para obtener el número más grande de un array.
 
-```js
+```js runnable=true
 const numeros = [0, 2, 4, 500, 5, -2, -6, -1000, 2000];
 
 const numeroMaximo = numeros.reduce((numMax, numero) => {

@@ -15,7 +15,7 @@ Dominar el uso de las funciones es una de las 5 habilidades fundamentales para c
 2. Condicionales.
 3. Listas.
 4. Bucles.
-5. `Funciones`.
+5. Funciones.
 
 ## ¿Qué son las Funciones?
 
@@ -29,7 +29,7 @@ function multiply(a, b) {
 }
 ```
 
-+ **Cada función debe tener un propósito** (un objetivo) (como nuestra función "multiplicar"). El propósito de la función es calcular la multiplicación entre dos números dados.
++ **Cada función debe tener un propósito** (un objetivo, como nuestra función "multiplicar"). El propósito de la función es calcular la multiplicación entre dos números dados.
 + **Debe tener un nombre único.** En este caso particular, nuestra función se llama "multiply", que es un gran nombre porque sabes exactamente de qué se trata la función, es explícito.
 + **Debe devolver algo.** De forma predeterminada, en javascript, todas las funciones devuelven "undefined", pero debes reemplazarlo y siempre devolver algo útil. En este ejemplo, queremos devolver el resultado de una multiplicación de a & b.
 + **Las funciones pueden tener parámetros.** Un "parámetro" es una variable que la función puede recibir al principio de su código (como a & b en nuestro ejemplo).
@@ -41,7 +41,7 @@ let resultOfMultiplication = multiply(2,4);
 // resultOfMultiplication será 8
 ```
 
-## Pero, ¿Por qué usar Funciones en lugar de simplemente hacer todo en una gran pedazo de código?
+## Pero, ¿Por qué usar Funciones en lugar de simplemente hacer todo en un gran pedazo de código?
 
 La programación es muy abstracta y sucede mucho que no tienes idea de lo que escribiste ayer. Antes de que existieran las funciones, los algoritmos eran esta enorme serie interminable de líneas de código donde los desarrolladores tenían dificultades y se perderían. Es difícil para tu cerebro seguir un procedimiento/algoritmo de gran longitud; mientras más líneas de código, más abstracto se vuelve.
 
@@ -102,7 +102,7 @@ const multiply = function(a, b) {
 
 ## Llamar una Función 
 
-La única forma de llamar (usar) una función es poner paréntesis después de nombrar la función:
+La única forma de llamar a una función es poner paréntesis () después de nombrar la función:
 
 ```javascript
 //Así es como se llama a una función sin parámetros.
@@ -117,13 +117,37 @@ multiply(3,9);
 
 Recuerda asignarle a la función los parámetros que debe recibir. En nuestro ejemplo, la función de multiplicación fue declarada pidiendo que se multipliquen dos números. Juega con el siguiente ejemplo como quieras:
 
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Calling-Functions-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+```js runable=true
+// aquí declaramos la función multiplicar
+function multiplicar(a, b) {
+	return a * b;
+}
+
+// luego podemos llamarla para multiplicar 3 por 4
+console.log(multiplicar(3, 4));
+
+// también podríamos declarar la función de forma anónima
+let cualquierNombreDeVariable = function(a, b) {
+	return a * b;
+}
+
+// y llamarla usando la función que la almacena
+console.log(cualquierNombreDeVariable(3, 5));
+
+// o podríamos no almacenar la función en una variable,
+// y envolverla en paréntesis para usarla de inmediato
+// (no recomendado, es raro y difícil de leer)
+console.log((function(a, b) {
+	return a * b;
+})(2, 3));
+
+```
 
 ## Llamada Anidada
 
 Puedes combinar funciones como quieras y tener llamadas encadenadas como esta:
 
-```javascript 
+```javascript runable=true
 function sum(a,b){
    return a+b;
 }
@@ -141,7 +165,7 @@ let secondSum = sum(1,1);
 console.log(multiply(firstSum, secondSum));
 ```
 
-> ☝️ [Ver este ejemplo en vivo en replit](https://repl.it/@4GeeksAcademy/Nested-Function-Calling)
+> :point_up: Puedes hacer click en "ejecutar" en el codigo de arriba para ver su salida.
 
 ## Veamos un ejemplo:
 
@@ -163,7 +187,31 @@ Como puedes ver, los nombres de las funciones son bastante específicos sobre lo
 
 Aqui podemos ver el ejemplo más en detalle:
 
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/FunctionsExample?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+```js runable=true
+function getPromedio(array) {
+	let suma = array.reduce((a, b) => a + b, 0);
+	return suma / array.length;
+}
+
+function getMasJoven(array) {
+	return array.reduce((a, b) => a.age < b.age ? a : b);
+}
+
+function getInfoPersona(nombre, personas) {
+	return personas.find(persona => persona.name === nombre);
+}
+
+let promedio = getPromedio([2, 4, 5, 12, 7]);
+
+// Corrección: Definir un array adecuado de objetos para la función getMasJoven
+let personas = [{ name: "John", age: 20 }, { name: "Mary", age: 21 }];
+let masJoven = getMasJoven(personas);
+
+let john = getInfoPersona("John", personas);
+let mary = getInfoPersona("Mary", personas);
+
+console.log({ promedio, masJoven, john, mary });
+```
 
 Otras cosas importantes a tener en cuenta:
 

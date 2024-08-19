@@ -11,7 +11,7 @@ El material pendiente asume que tienes un buen nivel de comprensión de los sigu
 
 ## Cosas que debes saber sobre HTML/CSS
 
-- ¿Qué es HTML y para qué sirve?
+- ¿Qué es HTML y para qué sirve
 - Los tags más esenciales como encabezados (`<h1>, <h2>, <h3>`...), párrafos (`<p>`), listas ordenadas/no ordenadas (`<ol>, <ul>`), etc. Piensa en cómo cada uno de estos tags cambia la apariencia, sensación y el comportamiento de tu sitio web. Por ejemplo, ¿qué parece más grande `<h1>` o `<h2>`? ¿Por qué usar `<ul>` en lugar de `<ol>`? Etc.
 - Cómo incluir una hoja de estilo CSS separada en el sitio web usando el tag `<link>`.
 - Cómo anular o mejorar el aspecto y el comportamiento de los tags HTML mediante el uso de selectores y reglas de CSS, por ejemplo:
@@ -21,7 +21,7 @@ El material pendiente asume que tienes un buen nivel de comprensión de los sigu
 - Comprende completamente el tag `<div>` que inherentemente se comporta como una "caja" (lo que significa que tiene bordes, ancho y alto) y cómo usar `<div>` para separar visualmente su contenido.
 - Cómo crear los layouts de sitios web más comunes utilizando la regla CSS `display: flex;`.
   - ¿Cómo puedes hacer que un `<div>` esté del lado de otro? Aplicando `display: flex;` a un padre inmediato común.
-  - ¿Cómo se puede hacer un layout de barra lateral?
+  - ¿Cómo se puede hacer un layout de barra lateral
   - ¿Cómo se puede hacer el clásico layout de "línea de tiempo de Instagram"?
 
 ## Cosas que debes saber sobre CSS

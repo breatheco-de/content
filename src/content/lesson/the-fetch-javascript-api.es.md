@@ -244,7 +244,7 @@ Recordemos que GET es el método por default. Por ello no es obligatorio escribi
 
 #### Método POST
 
-Ahora que ya conocemos como funciona, veamos un ejemplo del método GET
+Ahora que ya conocemos como funciona, veamos un ejemplo del método POST
 
 ```javascript
 const createData = async () => {
