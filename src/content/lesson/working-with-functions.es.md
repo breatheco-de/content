@@ -15,7 +15,7 @@ Dominar el uso de las funciones es una de las 5 habilidades fundamentales para c
 2. Condicionales.
 3. Listas.
 4. Bucles.
-5. `Funciones`.
+5. Funciones.
 
 ## ¿Qué son las Funciones?
 
@@ -29,7 +29,7 @@ function multiply(a, b) {
 }
 ```
 
-+ **Cada función debe tener un propósito** (un objetivo) (como nuestra función "multiplicar"). El propósito de la función es calcular la multiplicación entre dos números dados.
++ **Cada función debe tener un propósito** (un objetivo, como nuestra función "multiplicar"). El propósito de la función es calcular la multiplicación entre dos números dados.
 + **Debe tener un nombre único.** En este caso particular, nuestra función se llama "multiply", que es un gran nombre porque sabes exactamente de qué se trata la función, es explícito.
 + **Debe devolver algo.** De forma predeterminada, en javascript, todas las funciones devuelven "undefined", pero debes reemplazarlo y siempre devolver algo útil. En este ejemplo, queremos devolver el resultado de una multiplicación de a & b.
 + **Las funciones pueden tener parámetros.** Un "parámetro" es una variable que la función puede recibir al principio de su código (como a & b en nuestro ejemplo).
@@ -41,7 +41,7 @@ let resultOfMultiplication = multiply(2,4);
 // resultOfMultiplication será 8
 ```
 
-## Pero, ¿Por qué usar Funciones en lugar de simplemente hacer todo en una gran pedazo de código?
+## Pero, ¿Por qué usar Funciones en lugar de simplemente hacer todo en un gran pedazo de código?
 
 La programación es muy abstracta y sucede mucho que no tienes idea de lo que escribiste ayer. Antes de que existieran las funciones, los algoritmos eran esta enorme serie interminable de líneas de código donde los desarrolladores tenían dificultades y se perderían. Es difícil para tu cerebro seguir un procedimiento/algoritmo de gran longitud; mientras más líneas de código, más abstracto se vuelve.
 
@@ -102,7 +102,7 @@ const multiply = function(a, b) {
 
 ## Llamar una Función 
 
-La única forma de llamar (usar) una función es poner paréntesis después de nombrar la función:
+La única forma de llamar a una función es poner paréntesis () después de nombrar la función:
 
 ```javascript
 //Así es como se llama a una función sin parámetros.

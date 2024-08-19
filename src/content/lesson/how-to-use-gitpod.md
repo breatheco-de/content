@@ -40,7 +40,7 @@ We recognize the tradeoffs, but our students and the academy get so much value f
 
 - After you sign up to Gitpod, you will find [your workspaces](https://gitpod.io/workspaces) empty.  
 - Every workspace is a -virtual- computer.  
-- The only way to create a new workspace is to specify a Github repository folder (if you don't know what Github is, think of it as an online hard drive of code, where every folder is a project you are coding).  
+- The only way to create a new workspace is to specify a Github repository folder (if you don't know what Github is, think of it as an online hard drive of code, where every folder is a project you are coding. Learn more about Github [here](https://4geeks.com/lesson/welcome-to-github) !
 - Once the new workspace opens, it will create an empty computer for you, but it will also download to this new computer the files from the Github repository folder you specified (your code).  
 - Finally, it will open a coding editor (probably VSCode, the most used coding IDE in the world) and a terminal to start coding as if the workspace was on your local computer in the first place.  
 - If you go back to [your workspaces](https://gitpod.io/workspaces), you will find all the computers you have created and be able to `re-open them`. Changes you made to the files will stay forever, you will not lose any data as long as you RE-OPEN the same workspace you were working on in the first place.  

@@ -29,7 +29,7 @@ Por ejemplo:
 
 ## Los términos más importantes
 
-El mundo de front-end es enorme – puedes especializarte en lo que quieras, pero hay algunos conceptos importantes que debes conocer bien para comenzar tu especialización:
+El mundo de front-end es enorme, puedes especializarte en lo que quieras, pero hay algunos conceptos importantes que debes conocer bien para comenzar tu especialización:
 
 + **Renderización (Rendering)**: Este es el proceso de creación del HTML + CSS necesario para mostrar cualquier dato o información en el sitio web.  Por ejemplo: renderizar a un empleado es el proceso de mostrar al empleado en tu sitio web.
 + **Tiempo de Ejecución (Runtime)**: Esta es la línea de tiempo de tu sitio web desde el momento en que termina de cargarse hasta el momento en que el usuario sale.

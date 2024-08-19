@@ -41,7 +41,7 @@ import React, { useState, useEffect } from 'react';
 
 Now let's learn how to use them :)
 
-## The `useState` hook:
+## The useState react hook:
 
 The most important hook, it's almost unavoidable! The **useState** helps you initialize a variable and change its value over time without the need for parent components. This is how you can use it:
 
@@ -57,7 +57,7 @@ Basically, `superVariable` will be initialized with `null`, and then you will be
 <button onClick={() => setSuperVariable('hello')}></button>
 ```
 
-### Possible uses for the `useState` hook
+### Possible uses for the useState hook
 
  1. Counting: Displaying the number of likes on the screen and being able to increase or decrease when the user clicks.
  ![React Counter with Hooks](https://github.com/breatheco-de/content/blob/af1cdb34065da4640748b0be83a7fe2305440edc/src/assets/images/react-counter-usestate-example.gif?raw=true) 
@@ -194,7 +194,7 @@ To implement a "Modal Window" we decided to create a hooked variable called `ope
 
 If the user clicks on "close", we simply use the hook function `setOpened` to change the value of `opened` to `false`.
 
-## The `useEffect` hook:
+## The useEffect react hook:
 
 ![useEffect hook for the component lifecycle](https://github.com/breatheco-de/content/blob/master/src/assets/images/945ae0a2-2495-4955-9e9a-46fdd3efc682componentlifecyclehooks.png?raw=true)
 
@@ -248,7 +248,7 @@ const MyComponent = () => {
 }
 ```
 
-## Building a Todo List Using only `useState` and `useEffect` Hooks
+## Building a Todo List Using only useState and useEffect react Hooks
 
 <p align="center">
     <img src="https://github.com/breatheco-de/content/blob/master/src/assets/images/41f4a2be-380f-47af-acab-d479acf80921todolisthooks.gif?raw=true">
@@ -261,19 +261,37 @@ const Todos = (props) => {
     // Initialize the "tasks" variable to an empty array and hook it to setTasks function
     const [ tasks, setTasks ] = useState([]);
 
-    // This useEffect will run only one time, when the component is finally loaded the first time
-    useEffect(() =>
-        // Here I fetch my todos from the API
-        fetch('https://assets.breatheco.de/apis/fake/todos/user/alesanchezr')
-            .then(r => r.json())
-            .then(data => setTasks(data)) // Here it re-setted the variable "tasks" with the incoming data
-    , []);
+  // This function encapsulates the logic of fetching the todo list
+  // and creating a new one if the list doesn't exists
+  const fetchList = async () => {
+    const endpoint = "https://playground.4geeks.com/todo/users/demo";
+    let response = await fetch(endpoint);
+    if (response.ok) {
+      // If the list is fetched, the task gets loaded with the todos
+      let data = await response.json();
+      setTasks(data.todos);
+      return response.status;
+    }
+    if (response.status == 404) {
+      // If the list is not found, it must be created with a POST request
+      let newList = await fetch(endpoint, { method: "POST" });
+      if (newList.ok) setTaks([]);
+    }
+  };
 
-    return <ul>{tasks.map((t, index) => <li key={index}>{t.label}</li>)}</ul>;
+  //this function useEffect will run only one time, when the component is finally lodaded the first time.
+  useEffect(() => {
+      // here I fetch my todos from the API
+      fetchList();
+    },[] // <---- thanks to this empty array the use effect will be called only once
+  );
+      return <ul>{tasks.map((t, index) => <li key={index}>{t.label}</li>)}</ul>;
 }
+
 ```
 
-> ☝ Review the code in depth and check the live demo by [clicking here](https://codesandbox.io/s/xenodochial-varahamihira-egh86?fontsize=14).
+> ☝ Review the code in depth and check the live demo by [clicking here](https://codesandbox.io/p/sandbox/using-the-useeffect-to-load-data-on-component-mount-forked-8gprc3).
+
 
 ## Further Reading
 

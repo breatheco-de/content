@@ -69,7 +69,7 @@ At the beginning, a project always has one commit object with no parents. This i
 
 ## A Head Object is a List of Commits
 
-The heads of the repository are like the "revision history of the project." A revision history is a list of commit objects that altogether contains all the changes that you and your other team members have made to the project files.
+The heads of the repository are like the "revision history of the project". A revision history is a list of commit objects that altogether contains all the changes that you and your other team members have made to the project files.
 
 Every time you make a new commit, the head will move to that new commit. This way, you can have access to the entire project history of commits.
 
@@ -103,7 +103,7 @@ This will create a `.git` directory in the project's directory. Make sure that t
 
 ## Committing Changes into the Repository
 
-After you have made some changes to the files of the project, you may want to save/submit those changes into the repository. This is called a "commit."
+After you have made some changes to the files of the project, you may want to save/submit those changes into the repository. This is called a "commit".
 
 To create a commit, you will need to do two things:
 
@@ -225,7 +225,7 @@ To share work among developers, GIT uses a **distributed model** of version cont
 
 ## Distributed Version Control
 
-Say you and your friend want to work on the same project. Your friend has already done some work on it. There are three tasks you need to perform to figure out how to do so:
+Let's say you and your friend want to work on the same project. Your friend has already done some work on it. There are three tasks you need to perform to figure out how to do so:
 
 1. Get a copy of your friend’s up-to-date repository (git clone).
 2. Get the changes your friend makes into your own repository (git pull).
@@ -267,7 +267,7 @@ git remote get-url origin
 
 ## Pushing (uploading) to the Remote
 
-Let's say you have a branch in your local repository called "new-branch." That branch can be uploaded by doing the following:
+Let's say you have a branch in your local repository called "new-branch". That branch can be uploaded by doing the following:
 
 ```bash
 git push origin [new-branch]
@@ -281,7 +281,7 @@ After you solve any and all conflicts, you can go ahead and try to *git push* ag
 
 ## Pulling (downloading) from the Remote
 
-Let’s say that there is a branch in the remote repository called "development." You can download this branch into your own repository by performing the following command:
+Let’s say that there is a branch in the remote repository called "development". You can download this branch into your own repository by performing the following command:
 
 ```bash
 git pull origin development

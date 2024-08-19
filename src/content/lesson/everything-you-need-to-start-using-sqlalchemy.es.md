@@ -1,7 +1,7 @@
 ---
 slug: "todo-lo-necesario-para-empezar-usar-sqlalchemy"
 title: "Todo lo que necesitas saber sobre SQLAlchemy"
-subtitle: "SQLAlchemy es el ORM más popular para Python, comience a usarlo en 8 minutos"
+subtitle: "SQLAlchemy es el ORM más popular para Python, comience a usarlo en 8 minutos."
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 date: "2023-06-22T19:44:22+00:00"
 textColor: "white"
@@ -15,7 +15,7 @@ tags: ["SQL Alchemy","Python"]
 
 SQLAlchemy es un [Object-Relational Mapper/Mapping-tool](https://en.wikipedia.org/wiki/Object-relational_mapping), o un ORM, es una librería que los desarrolladores utilizan para crear bases de datos y manipular sus datos sin la necesidad de conocer/usar SQL.
 
-Existen otras alternativas en Python como Peewee, y otros lenguajes tienen sus propios ORMs como PHP Eloquent o Java Hibernate.
+Existen otras alternativas en Python como Peewee, y otros lenguajes tienen sus propios ORMs, como PHP Eloquent o Java Hibernate.
 
 ## ¿Por qué usar un ORM?
 
@@ -41,7 +41,7 @@ user.last_name = "Ross"
 # Agrega el user a la base de datos
 db.session.add(user)
 
-# Parecido al commit de GIT, lo que hace esta función es guardar todos los cambios que hayas hecho
+# Parecido al commit de Git, lo que hace esta función es guardar todos los cambios que hayas hecho
 db.session.commit()
 ```
 
@@ -69,7 +69,8 @@ El primer paso sería definir nuestro modelo:
 ```py
 class Person(Base):
     __tablename__ = "person"
-    # Aquí definimos el nombre de la tabla 'Person'
+
+    # Aquí definimos el nombre de la tabla "Person"
     # Ten en cuenta que cada columna es también un atributo normal de primera instancia de Python.
     id = Column(Integer, primary_key = True)
     name = Column(String(250), nullable = False)
@@ -105,7 +106,7 @@ Hay 3 formas para obtener información de la base de datos:
 all_people = Person.query.all()
 all_people = list(map(lambda x: x.serialize(), all_people))
 
-# Obtener un único registro en función de su clave principal, que en este caso es el "id" de la persona (solo funciona con las primary key)
+# Obtener un único registro en función de su clave principal, que en este caso es el "id" de la persona (solo funciona con las claves principales)
 person = Person.query.get(3)
 
 # Obtener un grupo de registros en función de una consulta, en este caso, el string "alex" en la columna "name"
@@ -139,7 +140,7 @@ Una transacción es una secuencia de operaciones (como INSERT, UPDATE, SELECT) r
 
 Todas las transacciones deben asegurar 4 propiedades principales (conocidas como propiedades ACID): Atomicidad, Consistencia, Aislamiento y Durabilidad.
 
-![Transactions](https://github.com/breatheco-de/content/blob/master/src/assets/images/tran-1.png?raw=true)
+![Propiedades ACID](https://github.com/breatheco-de/content/blob/master/src/assets/images/tran-1.png?raw=true)
 
 Una transacción termina con `COMMIT` o `ROLLBACK`. 
 
@@ -155,7 +156,7 @@ Sin embargo, cuando usas el comando COMMIT los cambios en tu base de datos será
 
 El comando `ROLLBACK` restaura tu base de datos hasta tu último COMMIT. También puedes usarlo con el comando SAVEPOINT para saltar a un punto que hayas guardado durante una transacción en curso.
 
-Del mismo modo, si usas UPDATE para hacer cambios en tu base de datos, puedes deshacerlos usando el comando ROLLBACK pero solo si aún no has usado el comando COMMIT de esta forma:
+Del mismo modo, si usas UPDATE para hacer cambios en tu base de datos, puedes deshacerlos usando el comando ROLLBACK, pero solo si aún no has usado el comando COMMIT de esta forma:
 
 ```py
 db.session.rollback()

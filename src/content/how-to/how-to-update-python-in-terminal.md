@@ -16,11 +16,14 @@ sudo apt install python3.11
 
 #MacOS
 brew install python
+
+# Windows
+python -m venv --upgrade VIRTUAL-ENVIRONMENT-PATH-HERE
 ```
 
-Here is a detailed guide about [how to update python version](https://4geeks.com/how-to/how-to-update-python-version) in other operating systems. In this article, we are going to focus on how to install it on the terminal.
+In this article we focusing on updating python using the terminal but there are many and other ways on [how to update python version](https://4geeks.com/how-to/how-to-update-python-version). 
 
-## Update Python on Windows
+## Update Python on Windows Terminal
 
 To [update Python on Windows](https://4geeks.com/how-to/how-to-update-python-on-windows) you should download the Python version you want to upgrade to from [python.org](https://www.python.org/ "python.org"). In case you already have installed different Python versions and want to update the version of a virtual environment, you can do it by using the following command:
 
@@ -35,7 +38,7 @@ To select which Python version we want to use, it's as simple as as writing `py 
 	py -3.11 # Selects Python version 3.11
 ```
 
-## Updating Python on Linux
+## Updating Python on Linux Terminal
 
 Before getting into upgrading Python, we need to know if it's already installed (no use to upgrade something that doesn't exist). To check if Python is installed type the following:
 
@@ -87,7 +90,7 @@ To verify this selection, write:
 python -version
 ```
 
-## Updating Python on MacOs
+## Updating Python on MacOs Terminal
 
 Updating Python on MacOs is more straight forward. In MacOs systems you can as well have different Python versions installed at the same time. This makes it simpler to update it by visiting  [python.org](https://www.python.org/downloads/mac-osx/ "python.org") MacOs download page, select the installer to download and run it.
 

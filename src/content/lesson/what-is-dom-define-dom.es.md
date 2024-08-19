@@ -32,6 +32,18 @@ NOTA: Por favor recuerda siempre que todo el código JavaScript que escribas en 
      // tu código aquí  
 </script>
 ```
+Actualmente, la tendencia es escribir nuestro código JavaScript en un archivo separado con una extensión `.js`. En este caso, la etiqueta `<script>` en el cuerpo de tu archivo html se escribirá de la siguente manera:
+
+```html
+<body>
+    <div>some content</div>
+    <div>more content</div>
+
+    <script src="index.js" type="text/javascript"></script>
+</body>    
+```
+
+A partir de ahora, ésta será la forma más utilizada para que vincules y escribas tu código JavaScript.
 
 ## Cómo actualizar el DOM de tu sitio web
 

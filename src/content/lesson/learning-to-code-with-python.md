@@ -68,7 +68,7 @@ Variables can have different types of values:
 
 |**Data-Type**   |**Possible Values**   |**Description**   |
 |:---------------|:--------------------|:-----------------|
-|Booleano         |True \| False        |Booleans are intended for logical operations. If you ask a computer something like, "Is X equal to 3?" it will respond with a boolean (true or false).   |
+|Boolean         |True \| False        |Booleans are intended for logical operations. If you ask a computer something like, "Is X equal to 3?" it will respond with a boolean (true or false).   |
 |String        |Any string of characters     |Strings are the only way we have to store words (sequences of characters). Note: strings must be enclosed in quotes.  |
 |Number   |Numbers only     |Integers, negative numbers, decimals, floats, etc. All possible types of numbers. <br>  |
 |Undefined     |Empty    |When a variable has no assigned value, it remains undefined.   |
