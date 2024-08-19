@@ -138,7 +138,7 @@ When you import Bootstrap into your website, you will have a new set of componen
 ![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/8e9ff37a-28f7-4179-8f5d-9278ff7efd55.png?raw=true)
 
 
-### These are the most Important and Used Components in this Bootstrap tutorial:
+### These are the most important and used components in this Bootstrap tutorial:
 
 #### The NavBar
 
