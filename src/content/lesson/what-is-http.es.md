@@ -23,7 +23,7 @@ Esta comunicación, como se muestra en el siguiente gif, se lleva a cabo mediant
 
 ![Enviar una imagen a través de Internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif?raw=true)
   
-<small style="color:grey">Imagen 1: Los 4 pasos necesarios para enviar imágenes a través de Internet: decodificación de la imagen, transmisión, recepción y decodificación... ¡Finalmente, la abuela se siente feliz después de ver la foto de su nieta!</small>
+<small style="color:grey">Imagen 1: Los 4 pasos necesarios para enviar imágenes a través de Internet: codificación de la imagen, transmisión, recepción y decodificación... Finalmente, la abuela feliz tras ver la fotografía de su nieta!</small>
 
 ### ¿Cómo funciona HTTP?
 
