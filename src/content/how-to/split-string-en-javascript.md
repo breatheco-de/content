@@ -11,9 +11,9 @@ El método `split()` en JavaScript nos permite dividir una cadena de texto en su
 ```js
 let sentence = 'Aprendamos sobre el método split() en JS';
 
-let sentenceArray = text.split(' ');
+let sentenceArray = sentence.split(' ');
 
-console.log(textArray); // output: [ 'Aprendamos', 'sobre', 'el', 'método', 'split()', 'en', 'JS' ]
+console.log(sentenceArray); // output: [ 'Aprendamos', 'sobre', 'el', 'método', 'split()', 'en', 'JS' ]
 ```
 
 Podemos ver que se utiliza el método `split()` sobre la variable `sentence`. En este caso al método `split()` se le pasa como argumento `' '`, lo que indica que la cadena de texto se dividirá en cada espacio en blanco que encuentre, el resultado se almacena en la variable `sentenceArray`, donde cada uno de sus elementos es una palabra de la cadena de texto `sentence`. Si te interesa conocer más sobre este tema tenemos un artículo de [strings en JavaScript](https://4geeks.com/es/lesson/strings-en-javascript) que explica en más detalle este tipo de dato.
