@@ -45,7 +45,7 @@ All of your new `<Components>` are individual integral parts of your layout, but
 
 ### No more HTML string concatenation
 
-Until now, we had to concatenate strings to create the HTML we wanted to place in the `innerHTML` of any DOM element, for example:
+So far, we had to concatenate strings to create the HTML we wanted to place in the `innerHTML` of any DOM element, for example:
 
 ```js
 document.querySelector('body').innerHTML = '<h1>'+person.name+'</h1>';
