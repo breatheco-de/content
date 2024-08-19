@@ -41,7 +41,7 @@ Views (Components)     |Every React Component that calls any Flux action is call
 
 To take control over the flow of the data in our application we'll use a `reducer` to group the functions and the logic of the application (actions) along with the data that they handle and must be available to all the other components (state).
 
-For now, let's just say that the reducer is a function that generates a new state every time it runs,  and what it does depends on the information passed to the `action` function. This allows us to call the `actions` to update the state as indicates the flux pattern. To understand better how a reducer works, you can read [this article]() where we cover this in more depth.
+For now, let's just say that the reducer is a function that generates a new state every time it runs,  and what it does depends on the information passed to the `action` function. This allows us to call the `actions` to update the state as indicates the flux pattern. To understand better how a reducer works, you can read [this article]() where we cover this in more depth. //link doesn't work
 
 ```javascript
 // This is the reducer function
