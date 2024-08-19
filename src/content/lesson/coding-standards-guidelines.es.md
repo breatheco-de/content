@@ -5,7 +5,7 @@ tags: ["4geeks method", "coding standards"]
 
 ---
 
->  🤯 "No soy un gran programador; solo soy un buen programador con buenos hábitos". - Kent Beck
+<quote>No soy un gran programador; solo soy un buen programador con buenos hábitos. - Kent Beck</quote>
 
 Los estudios han demostrado que los desarrolladores que usan las mejores prácticas al escribir código son hasta un 40% más productivos que aquellos que no lo hacen, y que el código con buenas prácticas es hasta un 50% más barato de mantener que el código con malas prácticas.
 
@@ -88,7 +88,7 @@ Cuando escribimos código, algunos de los errores se ocultan de los desarrollado
 
 Crear código que sea fácil de leer es esencial para producir software de alta calidad que sea confiable, mantenible y fácil de modificar o actualizar. Tenemos un artículo completo sobre [legibilidad de código](https://4geeks.com/es/lesson/que-es-y-como-mejorar-la-legibilidad-del-codigo), pero aquí hay un resumen muy corto de las mejores prácticas:
 
-- Elije los nombres de variables con sabiduría.
+- Elige los nombres de variables con sabiduría.
 - Separa tu código en funciones más pequeñas.
 - Evita usar declaraciones `else`.
 - Presta mucha atención a la indentación.

@@ -13,7 +13,7 @@ Un array es una estructura de datos de tamaño fijo que almacena una colección 
 
 ## ¿Por qué están los Arrays en una lección separada?
 
-¡Porque los arrays son impresionantes! ¡Los necesitas! Y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂
+¡Porque los arrays son esenciales! ¡Los necesitas! Y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂
 
 Dominar el uso de los arrays y bucles es una de las 5 habilidades fundamentales para construir algoritmos:
 
@@ -37,7 +37,7 @@ Cada array tiene los mismos conceptos básicos:
 
 **La longitud (length):** es el tamaño o longitud del array (cuántos elementos tiene el array).
 
-**Índice (Index):** es la posición del elemento.
+**Índice (Index):** es la posición del elemento en el array.
 
 ![qué es un array](https://github.com/breatheco-de/content/blob/master/src/assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png?raw=true)
 
@@ -68,7 +68,7 @@ let aux = myArray[5];
     console.log(myArray[myArray.length-1]); // Esto imprimirá el último elemento de la lista.
 ```
 
-## Actualizar Elementos en el Array
+## Actualizar elementos en el Array
 
 Si lo deseas, puedes restablecer o actualizar cualquier elemento dentro de un array usando el índice o index así:
 
@@ -203,7 +203,15 @@ Es muy común la necesidad de ordenar arrays. Por ejemplo: ordenar una lista de 
 
 ### Sort y Reverse
 
-Hacen lo mismo, excepto que `reverse()` lo hace al revés. Ambos ordenan usando la lógica de comparación de string, lo que significa que el string "25" es más grande que "100", porque "2" es más grande que "1".
+La función `sort()` ordena un array usando la lógica de comparación de string, lo que significa que el string "25" es más grande que "100", porque "2" es más grande que "1".
+
+```javascript
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
+    fruits.sort();
+    console.log(fruits); // --> ['Apple', 'Banana', 'Mango', 'Orange']
+```
+
+La función `reverse()` simplemente invierte el orden del array, así que si quieres un array ordenado pero invertido, asegúrate de usar la función `sort()` **antes** de invertir el array.
 
 ```javascript
 let frutas = ['Banana', 'Orange', 'Apple', 'Mango'];

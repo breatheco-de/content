@@ -22,7 +22,7 @@ GIT es más que un "conjunto de comandos" que tienes que aprender. A lo largo de
 
 Ser el único desarrollador en un proyecto es una [utopía](https://dle.rae.es/utop%C3%ADa). Normalmente, colaboras con otros desarrolladores y, sin GIT, eso se convierte en un gran problema. Es por eso que necesitamos un *repositorio* de información para centralizar y gestionar los cambios. Con un *repositorio* nos referimos a lo siguiente:
 
-+ Si dos desarrolladores trabajan en **la misma página (archivo)**, GIT comparará ambas versiones y las *(intentará)* fusionar en una nueva.
++ Si dos desarrolladores trabajan en **la misma página (archivo)**, GIT comparará ambas versiones y las intentará fusionar en una nueva.
 + Descargar e integrar el código de otra persona (o cualquier otro código) en su proyecto sin mayores problemas y hacerlo de forma automática.
 + Si ambos desarrolladores actualizaron exactamente el mismo código, GIT le pedirá **al último** desarrollador que subió el código que resuelva cualquier posible conflicto.
 + El código está respaldado todo el tiempo con la última versión como principal.
@@ -57,7 +57,7 @@ Un **commit object** contiene tres cosas:
 
 + Un conjunto de **archivos**, que refleja el estado de un proyecto en un momento dado en el tiempo.
 + Referencias al **commit object padre.**
-+ Un **nombre SHA1:** es una cadena de 40 caracteres que identifica de forma única el commit object. El nombre se compone de un conjunto de aspectos relevantes del commit; De esta manera, los commit idénticos siempre tendrán el mismo nombre.
++ Un **nombre SHA1:** es una cadena de 40 caracteres que identifica de forma única el commit object. El nombre se compone de un conjunto de aspectos relevantes del commit; de esta manera, los commit idénticos siempre tendrán el mismo nombre.
  
 ![cómo usar git](https://github.com/breatheco-de/content/blob/master/src/assets/images/commit-object2.png?raw=true)
 
@@ -71,7 +71,7 @@ Los heads de un repositorio son como el "historial de revisión de un proyecto".
 
 Cada vez que hagas un nuevo commit, el head se moverá a ese nuevo commit. De esta manera tú puedes tener acceso a todo el historial de commits del proyecto.
 
-Puedes **mover el head** si quieres. No necesariamente tiene que ser siempre el último commit, pero debes recordar que sólo puedes revisar los commits que vinieron antes del commit al que apunta el head. **No se pueden revisar los commits hechos después del commit al que apunta el head.**
+Puedes **mover el head** si quieres. No necesariamente tiene que ser siempre el último commit, pero debes recordar que solo puedes revisar los commits que vinieron antes del commit al que apunta el head. **No se pueden revisar los commits hechos después del commit al que apunta el head.**
 
 ![cómo usar git](https://github.com/breatheco-de/content/blob/master/src/assets/images/79da625d-d7bc-409a-a044-9e60ae6a1a2b.png?raw=true)
 
@@ -143,7 +143,7 @@ Para crear una rama, digamos que tu repositorio se ve así:
 
 ![cómo usar git](https://github.com/breatheco-de/content/blob/master/src/assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png?raw=true)
 
-Vamos a saltar al commit (2) e iniciar un nuevo trabajo desde allí. Primero deberás saber cómo hacer referencia al commit. Puedes usar `git log` para obtener el nombre SHA1 de (2)
+Vamos a saltar al commit (2) e iniciar un nuevo trabajo desde allí. Primero deberás saber cómo hacer referencia al commit. Puedes usar `git log` para obtener el nombre SHA1 de (2):
 
 ```bash
 $ git log
@@ -196,7 +196,7 @@ git merge [head]
 git pull . [head]
 ```
 
-Estos comandos realizan las siguientes operaciones. Deja que el head actual se llame *current* y que el head que se va a fusionar se llame *merge*
+Estos comandos realizan las siguientes operaciones: deja que el head actual se llame *current*, y que el head que se va a fusionar se llame *merge*.
 
 + Identifica el ancestro común de *current* y *merge*. Llámalo *ancestor-commit*.
 + Tratar con los casos fáciles. Si el *ancestor-commit* es igual a merge, entonces no hagas nada. Si el *ancestor-commit* es igual al actual, entonces haz un **adelanto del merge.**
@@ -252,7 +252,7 @@ Si estás trabajando en un repositorio local y deseas conectarlo a un repositori
 
 Una vez que conozcas la URL remota, puedes agregarla a tu proyecto. Debes elegir un alias para el control remoto; de forma predeterminada, usamos normalmente `origin`. Agrega el control remoto ejecutando el siguiente comando:
 
-⚠️ En nuestras plantillas ya tendrás una configuración de origin desde el repositorio de dicha plantilla. En esos casos, no debe eliminar el origin original, sino que necesitarás usar otro término (por ejemplo, `new` o `new-origin`, etc.) para agregar su nuevo control remoto.
+⚠️ En nuestras plantillas ya tendrás una configuración de origin desde el repositorio de dicha plantilla. En esos casos, no debes eliminar el origin original, sino que necesitarás usar otro término (por ejemplo, `new` o `new-origin`, etc.) para agregar su nuevo control remoto.
 
 Agrega el control remoto ejecutando el siguiente comando:
 
@@ -270,9 +270,12 @@ Digamos que tienes una rama en tu repositorio local llamada "nueva-rama". Esa ra
 git push origin [nueva-rama]
 ```
 
-Si otra persona TAMBIÉN ha subido algunos cambios a esa rama, GIT rechazará el push y te dirá que primero descargues esos cambios en tu repositorio local antes de continuar.
+Si otra persona también ha subido algunos cambios a esa rama, GIT rechazará el push y te dirá que primero descargues esos cambios en tu repositorio local antes de continuar.
 
-Deberás (1) descargar los archivos, (2) combinarlos en tu código y (3) resolver cualquier conflicto que pueda haber aparecido.
+Deberás:
+1. Descargar los archivos.
+2. Combinarlos en tu código.
+3. Resolver cualquier conflicto que pueda haber aparecido.
 
 Después de resolver el o los conflictos, puedes seguir adelante e intentar *git push* nuevamente.
 

@@ -1,11 +1,7 @@
 ---
-title: "Hooks de React"
-subtitle: "Los Hooks son la nueva forma de crear componentes React, son imposibles de evitar. En esta lección nos enfocaremos en los 2 más importantes: useState y useEffect"
-cover: "https://ucarecdn.com/84c4d84c-51b9-4906-a572-71cc07ecfc8c/"
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
+title: "Qué es un Hook en React"
+subtitle: "Los Hooks son la nueva forma de crear componentes React, son imposibles de evitar. En esta lección nos enfocaremos en que es un hook y explicaremos los 2 hooks más importantes: useState y useEffect"
 authors: ["alesanchezr"]
-status: "published"
 tags: ["reactjs"]
 
 ---
@@ -24,7 +20,9 @@ En general, las props son suficiente para crear un componente sorprendente, pero
 
 A medida que tengas más experiencia, comprenderás mejor cuándo usar Hooks. Si no los necesitas, ¡NO los uses!¡Cuanto menos mejor!
 
-### Todas las aplicaciones necesitan al menos un <strong>useState</strong> y un <strong>useEffect</strong>. Para usar hooks, PRIMERO DEBEMOS IMPORTARLOS al inicio de nuestro archivo. Por ejemplo si necesitáramos usar un useState, haríamos lo siguiente:
+### Todas las aplicaciones necesitan al menos un useState y un useEffect
+
+Para usar hooks, PRIMERO DEBEMOS IMPORTARLOS al inicio de nuestro archivo. Por ejemplo si necesitáramos usar un useState, haríamos lo siguiente:
 
 ```jsx
 import React, { useState } from 'react';
@@ -40,25 +38,25 @@ Ahora aprendamos a utilizarlos :)
 
 ## El hook `useState`:
 
-El hook más importante, ¡casi inevitable! El <strong>useState</strong> te ayuda a inicializar una variable y cambiar su valor con el tiempo sin recurrir a los componentes padres.
+El hook más importante, ¡casi inevitable! El **useState** te ayuda a inicializar una variable y cambiar su valor con el tiempo sin recurrir a los componentes padres.
 
 ```jsx
 //    Nombre de variable    nombre del setter           valor inicial (cualquier valor)
-const [ mySuperVariable, setMySuperFunction ] = useState(          null        );
+const [ superVariable, setSuperVariable ] = useState(          null        );
 ```
 
-Básicamente, `mySuperVariable` se inicializa con `null` y luego tu podrás restablecer su valor llamando a `mySuperFunction` de esta forma:
+Básicamente, `superVariable` se inicializa con `null` y luego tu podrás restablecer su valor llamando a `setSuperVariable` de esta forma:
 
 ```jsx
-// aquí estamos restableciendo el valor de mySuperVariable = 'hello' cuando el usuario hace clic en un botón
-<button onClick={() => mySuperFunction('hello')}></button>
+// Aquí estamos restableciendo el valor de superVariable = 'hello' cuando el usuario hace clic en un botón
+<button onClick={() => setSuperVariable('hello')}></button>
 ```
 
-### Posible usos para </strong>el hook ` useState` </strong>
+### Posibles usos para el hook `useState`
 
 1. Conteo: Mostrar el número de me gusta en la pantalla y poder aumentar o disminuir cuando el usuario hace clic.
- ![Contador de reacción con ganchos](https://s10.gifyu.com/images/countergif.gif?raw=true)
- [![Editar contador simple usando useState y ganchos de reacción](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/simple-counter-using-usestate-and-react-hooks-soxu8?fontsize=14&hidenavigation=1&theme=dark)
+ ![Contador de React con hooks](https://github.com/breatheco-de/content/blob/af1cdb34065da4640748b0be83a7fe2305440edc/src/assets/images/react-counter-usestate-example.gif?raw=true)
+ [![Editar contador simple usando useState y hooks de React](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/simple-counter-using-usestate-and-react-hooks-soxu8?fontsize=14&hidenavigation=1&theme=dark)
 
 ```jsx
 import React, { useState } from "react";
@@ -66,15 +64,14 @@ import ReactDOM from "react-dom";
 import "./styles.css";
 
 const Counter = () => {
-  // inicializar una variable de conteo en 0, la función setCount
-  // se utilizará para restablecer el valor de "count" (recuento).
+  // Inicializar una variable de "count" en 0, la función setCount se utilizará para restablecer el valor de "count"
   const [count, setCount] = useState(0);
   return (
     <div>
       <h2>{count} likes</h2>
-      {/* Restablecer el conteo a su valor anterior+ 1 */}
+      {/* Restablecer "count" a su valor anterior + 1 */}
       <span onClick={() => setCount(count + 1)}>👍🏽</span>
-      {/* Restablecer el conteo a su valor anterior - 1 */}
+      {/* Restablecer "count" a su valor anterior - 1 */}
       <span onClick={() => setCount(count - 1)}>👎🏽</span>
       <h3>Like or dislike to increase/decrease</h3>
     </div>
@@ -86,11 +83,11 @@ ReactDOM.render(<Counter />, document.getElementById("root"));
 
 2. Temporizador/Reloj: Puedes usar la hora del sistema para mostrar la hora actual en la pantalla, pero como la hora cambia todo el tiempo, la almacenamos con una variable de estado.
 
-![Building a timer with react hooks](https://s10.gifyu.com/images/ezgif.com-gif-maker-435c19aa6749269d2.gif?raw=true) [![Edit React js Clock](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-js-clock-7zefj?fontsize=14&hidenavigation=1&theme=dark)
+![Temporizador/reloj con hooks de React](https://s10.gifyu.com/images/ezgif.com-gif-maker-435c19aa6749269d2.gif?raw=true) 
+[![Editar reloj de React](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-js-clock-7zefj?fontsize=14&hidenavigation=1&theme=dark)
 
 ```jsx
 import React, { useEffect, useState } from "react";
-
 
 const Clock = (props) => {
   const [time, setTime] = useState(new Date().toLocaleTimeString());
@@ -110,14 +107,13 @@ const Clock = (props) => {
   );
 };
 
-Clock.propTypes = {};
-
 export default Clock;
 ```
 
 3. Mostrar una entrada en la pantalla: La mejor práctica para obtener el contenido de cualquier entrada es almacenarlo en una variable de estado, esto se denomina "Entrada Controlada".
 
- ![Controlled input field](https://s10.gifyu.com/images/ezgif.com-gif-maker-399b80fa21c077ab6.gif?raw=true) [![Edit controlledinput](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/controlledinput-rbh0m?fontsize=14&hidenavigation=1&theme=dark)
+ ![Campo de input controlado](https://github.com/breatheco-de/content/blob/333c8192f0e451466854605edecc8f6b01c0fda4/src/assets/images/controlled-input-example.gif?raw=true) 
+ [![Editar input controlado](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/controlledinput-rbh0m?fontsize=14&hidenavigation=1&theme=dark)
 
  ```jsx
 import React, { useEffect, useState } from "react";
@@ -142,14 +138,14 @@ const ControlledInputForm = (props) => {
     </div>
   );
 };
-ControlledInputForm.propTypes = {};
-export default ControlledInputForm;
 
+export default ControlledInputForm;
 ```
 
 4. Apertura/Cierre (mostrar/ocultar): un caso de uso típico es tener un cuadro de diálogo que hace una pregunta o permite que un usuario se suscriba a un boletín informativo.
 
-![Modal Window using react hooks](https://s10.gifyu.com/images/ezgif.com-gif-maker-51e6b7321e3cfd394.gif?raw=true) [![Edit Modal window component with hooks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/modal-window-component-with-hooks-vb6de?fontsize=14&hidenavigation=1&theme=dark). 
+![Ventana Modal usando hooks de React](https://s10.gifyu.com/images/ezgif.com-gif-maker-51e6b7321e3cfd394.gif?raw=true) 
+[![Editar componente Modal con hooks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/modal-window-component-with-hooks-vb6de?fontsize=14&hidenavigation=1&theme=dark). 
 
 ```jsx
 import React, { useState } from "react";
@@ -157,15 +153,15 @@ import ReactDOM from "react-dom";
 import "./styles.css";
 
 const Modal = () => {
-  /**
+  {/**
    *  Usando el hook useState, debes prestar atención a 3 elementos:
    * - opened: una variable que cambiará con el tiempo (puede tener cualquier nombre)
-   * - setOpened: una función que restablece el valor opened (abierto) (puede por cualquier nombre)
-   * - useState: este es el hook, tiene que ser setState y recibe el valor inicial para "opened"
-   */
+   * - setOpened: una función que restablece el valor "opened" (debería tener la palabra "set" antes del nombre de variable que escogiste)
+   * - useState: este es el hook, tiene que ser useState y recibe el valor inicial para "opened"
+   */}
   const [opened, setOpened] = useState(true);
 
-  //si es opened === verdadero, muestro el modal, de lo contrario, muestro el botón para abrir el modal
+  {/* si es opened === true, muestro el modal, de lo contrario, muestro el botón para abrir el modal */}
   return opened ? (
     <div>
       <h1>Hello BreatheCode</h1>
@@ -181,7 +177,6 @@ const Modal = () => {
 };
 
 ReactDOM.render(<Modal />, document.getElementById("root"));
-
 ```
 
 5. Miles de otras aplicaciones posibles. 
@@ -190,91 +185,108 @@ Expliquemos este hook con un pequeño ejemplo de ventana modal. Aquí está el c
 
 <iframe src="https://codesandbox.io/embed/goofy-sutherland-vb6de?fontsize=14" title="Modal with hooks" allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-Para implementar una "ventana modal" decidimos crear una variable hooked (enganchada) llamada `opened` que es `true` (verdadero) si la ventana modal tiene que mostrarse al usuario.
+Para implementar una "ventana modal" decidimos crear una variable de estado (useState) llamada `opened` que es `true` si la ventana modal se muestra al usuario.
 
-Si el usuario hace clic en "close" (cerrar), simplemente usamos la función hook de enlace `setOpened` para cambiar el valor de `opened` a `false` (falso).
+Si el usuario hace clic en "close", simplemente usamos la función o *setter* del hook `setOpened` para cambiar el valor de `opened` a `false`.
 
 ## El hook `useEffect`:
 
-![useEffect hook for the component lifecycle](https://github.com/breatheco-de/content/blob/master/src/assets/images/945ae0a2-2495-4955-9e9a-46fdd3efc682componentlifecyclehooks.png?raw=true)
+![useEffect hook para el ciclo de vida de un componente](https://github.com/breatheco-de/content/blob/master/src/assets/images/945ae0a2-2495-4955-9e9a-46fdd3efc682componentlifecyclehooks.png?raw=true)
 
 useEffect es otro hook increíble que usarás si deseas ejecutar algún código después de que el componente se renderice, por ejemplo:
 
-#### 1) Después de que el componente se renderice por primera vez (como el viejo y buen componenteDidMount).
+### 1) Después de que el componente se renderice por primera vez (como el viejo y buen componentDidMount)
 
 ```jsx
 const MyComponent = () => {
-    useEffect(() =>
+    useEffect(() => {
 
-        // lo que sea que codifiques aquí se ejecutará solo después de la primera vez que el componente se procesa
+        // Lo que sea que codifiques aquí se ejecutará solo después de la primera vez que el componente se renderize
 
- , []);// <------ TEN EN CUENTA LA MATRIZ VACÍA
+ }, []); // <------ TEN EN CUENTA EL ARRAY VACÍO
 
-
-    return <Some HTML>;
+    return <div>Some HTML</div>;
 }
 ```
 
-> :point_up: Por favor observa el `[]` como el segundo parámetro del useEffect.
+> ☝ Por favor observa el `[]` como el segundo parámetro del useEffect.
 
-#### 2) Cada vez (o algunas veces) después de que el componente se vuelva a renderizar.
+### 2) Cada vez (o algunas veces) después de que el componente se vuelva a renderizar
 
 ```jsx
 const MyComponent = () => {
-    useEffect(() =>
-        // esto se ejecutará cada vez que el componente se vuelva a renderizar
+    useEffect(() => {
+        // Esto se ejecutará cada vez que el componente se vuelva a renderizar
         if(some_condition){
-            //esto se ejecutará solo si alguna_condición es verdadera
+            // Esto se ejecutará solo si some_condition es true
         }
-    );// <------ ¡TEN EN CUENTA QUE EL ARREGLO VACÍO SE HA IDO!
+    }); // <------ ¡TEN EN CUENTA QUE EL ARRAY VACÍO SE HA IDO!
 
-    return <Some HTML>;
+    return <div>Some HTML</div>;
 }
 ```
 
-> :point_up: Este useEffect no tiene un array vacío `[]` como segundo parámetro.
+> ☝ Este useEffect no tiene un array vacío `[]` como segundo parámetro.
 
-#### 3) Cuándo se desmontará el componente o dejará de renderizarse (como la antigua función [componentWillUnmount](https://reactjs.org/docs/react-component.html#unsafe_componentwillmount) utilizada por los componentes de la clase).
+### 3) Cuando se desmontará el componente o dejará de renderizarse (como la antigua función [componentWillUnmount](https://reactjs.org/docs/react-component.html#unsafe_componentwillmount) utilizada por los componentes de clase)
 
 ```jsx
 const MyComponent = () => {
-    useEffect(() =>
-        // esto se ejecutará solo la primera vez que el componente se procesa.
+    useEffect(() => {
+        // Esto se ejecutará solo la primera vez que el componente se renderiza
         return () => {
-            // esto se ejecutará justo antes de que el componente se desmonte
+            // Esto se ejecutará justo antes de que el componente se desmonte
         }
-    ,[]);// <------ TEN EN CUENTA EL ARRAY VACÍO
-    return <Some HTML>;
+    }, []); // <------ TEN EN CUENTA EL ARRAY VACÍO
+
+    return <div>Some HTML</div>;
 }
 ```
 
-## Construyendo una lista Todo usando solo los hooks `useState` y `useEffect`
+## Construyendo una lista de tareas usando solo los hooks `useState` y `useEffect`
 
 <p align="center">
     <img src="https://github.com/breatheco-de/content/blob/master/src/assets/images/41f4a2be-380f-47af-acab-d479acf80921todolisthooks.gif?raw=true">
 </p>
 
-Por ejemplo, supongamos que estoy creando una lista de tareas (Todo) y tengo que cargar la lista de tareas desde una API. Tendré que buscar la información justo después de que el componente se renderice por primera vez:
+Por ejemplo, supongamos que estoy creando una lista de tareas (Todo list) y tengo que cargar la lista de tareas desde una API. Tendré que buscar la información justo después de que el componente se renderice por primera vez:
 
 ```jsx
 const Todos = (props) => {
-    // inicializa la variable de tareas en un array  vacío y conéctelo a la función setTasks
-    const [ tasks, setTasks] = useState([]);
+    // Inicializa la variable "tasks" como un array vacío y conéctalo a la función setTasks
+    const [ tasks, setTasks ] = useState([]);
 
-    // esta función useEffect se ejecutará solo una vez, cuando el componente finalmente se cargue por primera vez.
-    useEffect(() =>
-        // aquí busco mis todos de la API
-        fetch('https://assets.breatheco.de/apis/fake/todos/user/alesanchezr')
-            .then(r => r.json())
-            .then(data => setTasks(data)) //aquí restablece las tareas variables con los datos entrantes
-    , []);
+  // Ésta función encapsula la lógica de traer la lista de todos de la api
+  // asi como crear una nueva lista si ésta no existe.
+  const fetchList = async () => {
+    const endpoint = "https://playground.4geeks.com/todo/users/demo";
+    let response = await fetch(endpoint);
+    if (response.ok) {
+      // Sila lista se recibe, las task son cargadas con los todos
+      let data = await response.json();
+      setTasks(data.todos);// Aquí se actualiza la variable "tasks" con los datos entrantes
+      return response.status;
+    }
+    if (response.status == 404) {
+      // Si la lista no se encuentra, debe ser creada con una petición POST
+      let newList = await fetch(endpoint, { method: "POST" });
+      if (newList.ok) setTaks([]);
+    }
+  };
 
-    return <ul>{tasks.map(t => <li>{t.label}</li>)}</ul>;
+  // Esta función useEffect se ejecutará solo una vez, cuando el componente finalmente se cargue por primera vez
+  useEffect(() => {
+      // here I fetch my todos from the API
+      fetchList();
+    },[] // <---- thanks to this empty array the use effect will be called only once
+  );
+      return <ul>{tasks.map((t, index) => <li key={index}>{t.label}</li>)}</ul>;
 }
+    
 ```
 
-> :point_up: Revisa el código en profundidad y la demostración en vivo [haciendo clic aquí](https://codesandbox.io/s/xenodochial-varahamihira-egh86?fontsize=14)
+> ☝ Revisa el código en profundidad y la demostración en vivo [haciendo clic aquí](https://codesandbox.io/p/sandbox/using-the-useeffect-to-load-data-on-component-mount-forked-8gprc3).
 
 ## Otras lecturas
 
-Para obtener más información, incluido [cómo crear tus propios hooks](https://reactjs.org/docs/hooks-custom.html), consulte: [Documentación oficial de React](https://reactjs.org/docs/hooks-overview.html)
+Para más información, consulte: [La documentación oficial de React](https://react.dev/reference/react), también puedes leer [cómo crear tus propios hooks](https://react.dev/learn/reusing-logic-with-custom-hooks).

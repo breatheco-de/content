@@ -1,0 +1,41 @@
+[{
+  "images": [
+    "https://github.com/breatheco-de/content/blob/9af6423ce8641c9e02ae255c71b111be65a3106a/src/assets/images/logo-Forbes.png?raw=true",
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/press/cnn-logo.png?raw=true",
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/news/nbc.png?raw=true",
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/news/the-miami-herald.png?raw=true"
+  ],
+  "title": "Everyone is talking about us",
+  "description": "Especially Forbes, NBC, CNN...",
+  "aricle_url": "https://4geeksacademy.com/us/press",
+  "article_label": "Read articles"
+}, {
+  "images": [
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/badges/Course-Report-Badge-2024.png?raw=true",
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/badges/exelencia-educativa.png?raw=true",
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/badges/switchup-badge-2023.png?raw=true",
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/badges/newsweek.png?raw=true"
+  ],
+  "title": "We have a lot of badges",
+  "description": "Best Bootcamp, best career-oriented program...",
+  "aricle_url": "https://4geeksacademy.com/us/awards",
+  "article_label": "See awards"
+}, {
+  "images": [
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/education/MDC_Blue.png?raw=true",
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/education/UTEC.png?raw=true",
+    "https://github.com/4GeeksAcademy/website-v2/blob/394dadaebf3dbb3b2fdbfe6b8412f758a648d4c9/static/images/education/IESA.png?raw=true"
+  ],
+  "title": "These universities certify us",
+  "description": "Clark University, Miami Dade College, UTEC...",
+  "aricle_url": "https://4geeksacademy.com/us/partners",
+  "article_label": "See all universities"
+}, {
+  "images": [
+    "https://media.istockphoto.com/id/1334437504/vector/group-of-people-students-with-bags-in-school-back-view-meeting-of-young-men-and-women-before.jpg?s=612x612&w=0&k=20&c=-fZCUJrwsmFIdyVMbN8I0uJVS4zlaiwJn43JEjcgnmI="
+  ],
+  "title": "Opinion does matter...",
+  "description": "See what our students and mentors say about us...",
+  "aricle_url": "https://4geeksacademy.com/us/testimonials",
+  "article_label": "Read testimonials"
+}]

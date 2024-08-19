@@ -1,6 +1,6 @@
 ---
 title: "RegEx Examples: Mastering Regular Expressions with Practical Cases"
-subtitle: "Explore RegEx examples for a comprehensive understanding. Learn to wield the power of regular expressions in various scenarios. Boost your coding skills now!"
+subtitle: "Explore RegEx examples for a comprehensive understanding. Learn to wield the power of regular expressions in various scenarios"
 tags: ["Python","JavaScript", "RegEx", "Regular Expression", "snippet"]
 date: "2023-02-12T16:36:30+00:00"
 authors: [jseiglie]

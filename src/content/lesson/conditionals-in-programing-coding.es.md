@@ -1,5 +1,5 @@
 ---
-title: "Condicionales en la programación con Javascript"
+title: "Condicionales en la programación con JavaScript"
 subtitle: "Uso de condiciones para controlar el flujo de su código y hacer que la computadora obedezca"
 date: "2020-10-19T16:36:31+00:00"
 status: "published"
@@ -20,21 +20,21 @@ Dominar el uso de las condiciones es una de las 5 habilidades fundamentales de c
 
 Las condiciones son la única forma en que los desarrolladores tienen para decirle a la computadora cómo tomar decisiones en tiempo real, muy similar a cómo funcionan los cerebros.
 
-Digamos que estamos construyendo un programa para ayudarnos a elegir qué vestir y odiamos el color azul, podemos decirle a la computadora que evite el azul usando una condición como esta:
+Digamos que estamos construyendo un programa que nos ayudará a optimizar nuestra elecciones de vestimenta, pero en nuestras preferencias el color azul no es una opción, para ello podemos ordenarle a la computadora que evite el color azul usando la siguiente condición:
   
 `if` **color** is not **blue**, then... do something.  
 `else`... do nothing or exit.
   
 ![Condicionales](https://github.com/breatheco-de/content/blob/master/src/assets/images/e73b673e-d744-45a7-a1ed-61a1dae49560.png?raw=true)
 
-Y así es como escribiríamos esto en Javascript:
+Y así es como escribiríamos esto en JavaScript:
 
 ```js
 if(color != 'blue') {
-    // cualquier código aquí se ejecutará cuando el color sea diferente del azul.
+    // Cualquier código aquí se ejecutará cuando el color sea diferente del azul
 }
 else {
-    // solo ejecutará este código si el color es azul.
+    // Solo ejecutará este código si el color es azul
 }
 ```
 
@@ -42,9 +42,9 @@ else {
 
 El ejemplo anterior era una condición simple, pero en la vida real elegir qué ponerse implica una combinación de varias condiciones para tomar la decisión final, por ejemplo: veamos este algoritmo que indica si tienes gripe.
 
-![Algoritmo de la gripe javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800.jpeg?raw=true)
+![Algoritmo de la gripe](https://github.com/breatheco-de/content/blob/master/src/assets/images/03ed6b76-0ee0-4b04-bd45-0fb58ae6f800.jpeg?raw=true)
 
-Si desea representar este algoritmo en Javascript, se verá más o menos así:
+Si desea representar este algoritmo en JavaScript, se verá más o menos así:
 
 ```js
 let sientoQueMeAtropelloUnTren = true;
@@ -69,7 +69,7 @@ Nuestro trabajo como desarrolladores es intentar preparar una estrategia y crear
 
 ## Operadores `AND` y `OR`
 
-Otra forma de escribir el algoritmo es combinar preguntas en la misma condición utilizando los operadores `AND` y` OR` que en Javascript se representan con `&&` para **AND** y `||` para **OR**:
+Otra forma de escribir el algoritmo es combinar preguntas en la misma condición utilizando los operadores `AND` y` OR` que en JavaScript se representan con `&&` para **AND** y `||` para **OR**:
 
 ```js
 if(sientoQueMeAtropelloUnTren == false || meAtropelloUnTren == true) {

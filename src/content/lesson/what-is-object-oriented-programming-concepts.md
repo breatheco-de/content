@@ -186,22 +186,84 @@ Perhaps you may feel that it is pointless to use "getters" and "setters" for eve
   
 *Here is another example of a "getter/setter" in real-life:*
 
-![what is object oriented programming concepts](https://github.com/breatheco-de/content/blob/master/src/assets/images/js.png?raw=true)
+```js runable=true
+class Car {
+  _model; // Using a private field
 
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Object-Oriented-Javascript?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+  constructor() {
+    this._model = null;
+  }
 
-<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Object-Oriented-Javascript?lite=true">Click here to open demo in a new window</a></small></div>
+  setModel(value) {
+    const allowedModels = ["Mercedes benz", "BMW"];
+    if (allowedModels.includes(value)) {
+      this._model = value;
+    } else {
+      this._model = "not in our list of models.";
+    }
+  }
 
-![what is object oriented programming concepts](https://github.com/breatheco-de/content/blob/master/src/assets/images/python.png?raw=true)
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Python-Class-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+  getModel() {
+    return "The car model is " + this._model;
+  }
+}
 
-<div align="right"><small>
-<a href="https://repl.it/@4GeeksAcademy/Python-Class-Example?lite=true">Click here to open demo in new window</a></small></div>
+const mercedes = new Car();
+mercedes.setModel("Mercedes benz");
+console.log(mercedes.getModel());
+```
+```py runable=true
+class Car:
+	def __init__(self):
+		#the private access modifier denies access to the method from outside the class scope
+		self.__model = None
+	
+	#the public access modifier allows the access to the method from outside the class
+	def setModel(self, value):
+		#validate that only certain car models are assigned to the $carModel property
+		allowedModels = ["Mercedes benz","BMW"]
+		if value in allowedModels:
+			self.__model = value
+		else:
+			self.__model = "not in our list of models."
+	
+	def getModel(self):
+		return "The car model is  "+self.__model
+ 
+mercedes = Car()
+#Sets the car model
+mercedes.setModel("Mercedes benz")
+#Gets the car model
+mercedes.getModel()
+```
+```php runable=true
+class Car {
+    private $model;
 
-![what is object oriented programming concepts](https://github.com/breatheco-de/content/blob/master/src/assets/images/php.png?raw=true)
-<iframe src="https://repl.it/G1cx/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+    public function __construct() {
+        $this->model = null;
+    }
 
-<div align="right"><small><a href="https://repl.it/G1cx/0?lite=true">Click here to open demo in a new window</a></small></div>
+    public function setModel($value) {
+        $allowedModels = ["Mercedes benz", "BMW"];
+        if (in_array($value, $allowedModels)) {
+            $this->model = $value;
+        } else {
+            $this->model = "not in our list of models.";
+        }
+    }
+
+    public function getModel() {
+        return "The car model is " . $this->model;
+    }
+}
+
+$mercedes = new Car();
+// Sets the car model
+$mercedes->setModel("Mercedes benz");
+// Gets the car model
+echo $mercedes->getModel();
+```
 
 > :point_up: Some languages, like PHP, have their own __get and __set magic functions to implement getters and setters.  However, this is not a good idea because of performance issues.  It is a better idea to create your own "get/set" functions according to your project needs.  [Here is the reasoning behind it.](https://stackoverflow.com/questions/6184337/best-practice-php-magic-methods-set-and-get)
 
@@ -230,20 +292,124 @@ In [object-oriented programming](https://searchmicroservices.techtarget.com/defi
 "Car" is a classification of "Four-Wheeler."  Here, "Car" acquires the properties of a "Four-Wheeler."  Other classifications could be a Jeep, Tempo, van etc. "Four-Wheeler" defines a class of vehicles that has four wheels, a specific range of engine power, load carrying capacity etc.  "Car" (termed as a sub-class) acquires these properties from "Four-Wheeler" (termed as a super-class), and has SOME specific properties that are different from other classifications of "Four Wheeler," such as luxury, comfort, shape, size, usage, etc.
 
 "Car" can have further classification such as "Open Car," "Small Car," "Large Car," etc, which will acquire the properties from BOTH "Four-Wheeler" AND "Car" – but will still have some specific properties.  This way the level of hierarchy can be extended to any level.
-![what is object oriented programming concepts](https://github.com/breatheco-de/content/blob/master/src/assets/images/js.png?raw=true)
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/ObjectOriented2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/ObjectOriented2?lite=true">Click here to open demo in a new window</a></small></div>
+```js runable=true
+// The parent class has its properties and methods
+class Car {
+  constructor(){
+  	this._model;
+  }
+  //A private property or method can be used only by the parent.
+  
+  // Public methods and properties can be used by both the parent and the child classes.
+  setModel(model)
+  {
+    this._model = model;
+  }
+   
+  getModel()
+  {
+    return this._model;
+  }
+}
+ 
+  
+//The child class can use the code it inherited from the parent class, 
+// and it can also have its own code 
+class SportsCar extends Car{
+ 
+  constructor(){
+  	//you have to call the super constructor always
+  	super();
+	this._style = 'fast and furious';
+  }
+ 
+  driveItWithStyle()
+  {
+    return `Drive a ${this.getModel()}, ${this._style}`;
+  }
+}
+ 
+ 
+//create an instance from the child class
+sportsCar1 = new SportsCar();
+   
+// Use a method that the child class inherited from the parent class
+sportsCar1.setModel('Ferrari');
+  
+// Use a method that was added to the child class
+console.log(sportsCar1.driveItWithStyle());
+```
+```php runable=true
+// The parent class has its properties and methods
+class Car {
+    // A private property
+    private $_model;
 
-![what is object oriented programming concepts](https://github.com/breatheco-de/content/blob/master/src/assets/images/php.png?raw=true)
-<iframe src="https://repl.it/G1cq/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+    // Constructor is optional in PHP if not doing initialization
 
-<div align="right"><small ><a href="https://repl.it/G1cq/0?lite=true">Click here to open demo in a new window</a></small></div>
+    // Public methods to set and get the private $_model property
+    public function setModel($model) {
+        $this->_model = $model;
+    }
 
-![what is object oriented programming concepts](https://github.com/breatheco-de/content/blob/master/src/assets/images/python.png?raw=true)
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Python-Class-Inheritance?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+    public function getModel() {
+        return $this->_model;
+    }
+}
 
-<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Python-Class-Inheritance?lite=true">Click here to open demo in a new window</a></small></div>
+// The child class inherits from the Car class
+class SportsCar extends Car {
+    private $_style;
+
+    // Call parent constructor and initialize own properties
+    public function __construct() {
+        parent::__construct(); // Though Car's constructor is doing nothing, good practice to call it
+        $this->_style = 'fast and furious';
+    }
+
+    public function driveItWithStyle() {
+        return "Drive a " . $this->getModel() . ", " . $this->_style;
+    }
+}
+
+// Create an instance from the child class
+$sportsCar1 = new SportsCar();
+
+// Use a method that the child class inherited from the parent class
+$sportsCar1->setModel('Ferrari');
+
+// Use a method that was added to the child class
+echo $sportsCar1->driveItWithStyle();
+```
+```python runable=true
+class Car:
+    def __init__(self):
+        self._model = None  # Python convention for a "private" attribute
+
+    def set_model(self, model):
+        self._model = model
+
+    def get_model(self):
+        return self._model
+
+class SportsCar(Car):
+    def __init__(self):
+        super().__init__()  # Call the parent class's constructor
+        self._style = 'fast and furious'
+
+    def drive_it_with_style(self):
+        return f"Drive a {self.get_model()}, {self._style}"
+
+# Create an instance from the child class
+sports_car1 = SportsCar()
+
+# Use a method that the child class inherited from the parent class
+sports_car1.set_model('Ferrari')
+
+# Use a method that was added to the child class
+print(sports_car1.drive_it_with_style())
+```
 
 
 

@@ -187,22 +187,84 @@ Quizas puedas sentir que no tiene sentido usar "getters" y "setters" para cada p
   
 *Aquí hay otro ejemplo de un "getter/setter" en la vida real:*
 
-![conceptos sobre programación orientada a objetos](https://github.com/breatheco-de/content/blob/master/src/assets/images/js.png?raw=true)
+```js runable=true
+class Coche {
+  _modelo; // Usando un campo privado
 
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Object-Oriented-Javascript?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+  constructor() {
+    this._modelo = null;
+  }
 
-<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Object-Oriented-Javascript?lite=true">Click aquí para abrir el demo en una nueva ventana</a></small></div>
+  establecerModelo(valor) {
+    const modelosPermitidos = ["Mercedes benz", "BMW"];
+    if (modelosPermitidos.includes(valor)) {
+      this._modelo = valor;
+    } else {
+      this._modelo = "no está en nuestra lista de modelos.";
+    }
+  }
 
-![conceptos sobre programación orientada a objetos](https://github.com/breatheco-de/content/blob/master/src/assets/images/python.png?raw=true)
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Python-Class-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+  obtenerModelo() {
+    return "El modelo del coche es " + this._modelo;
+  }
+}
 
-<div align="right"><small>
-<a href="https://repl.it/@4GeeksAcademy/Python-Class-Example?lite=true">Click aquí para abrir el demo en una nueva ventana</a></small></div>
+const mercedes = new Coche();
+mercedes.establecerModelo("Mercedes benz");
+console.log(mercedes.obtenerModelo());
+```
+```py runable=true
+class Coche:
+	def __init__(self):
+		# el modificador de acceso privado niega el acceso al método desde fuera del ámbito de la clase
+		self.__modelo = None
+	
+	# el modificador de acceso público permite el acceso al método desde fuera de la clase
+	def establecerModelo(self, valor):
+		# valida que solo ciertos modelos de coches sean asignados a la propiedad __modelo
+		modelosPermitidos = ["Mercedes benz", "BMW"]
+		if valor in modelosPermitidos:
+			self.__modelo = valor
+		else:
+			self.__modelo = "no está en nuestra lista de modelos."
+	
+	def obtenerModelo(self):
+		return "El modelo del coche es " + self.__modelo
+ 
+mercedes = Coche()
+# Establece el modelo del coche
+mercedes.establecerModelo("Mercedes benz")
+# Obtiene el modelo del coche
+print(mercedes.obtenerModelo())
+```
+```php runable=true
+class Coche {
+    private $modelo;
 
-![conceptos sobre programación orientada a objetos](https://github.com/breatheco-de/content/blob/master/src/assets/images/php.png?raw=true)
-<iframe src="https://repl.it/G1cx/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+    public function __construct() {
+        $this->modelo = null;
+    }
 
-<div align="right"><small><a href="https://repl.it/G1cx/0?lite=true">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
+    public function establecerModelo($valor) {
+        $modelosPermitidos = ["Mercedes benz", "BMW"];
+        if (in_array($valor, $modelosPermitidos)) {
+            $this->modelo = $valor;
+        } else {
+            $this->modelo = "no está en nuestra lista de modelos.";
+        }
+    }
+
+    public function obtenerModelo() {
+        return "El modelo del coche es " . $this->modelo;
+    }
+}
+
+$mercedes = new Coche();
+// Establece el modelo del coche
+$mercedes->establecerModelo("Mercedes benz");
+// Obtiene el modelo del coche
+echo $mercedes->obtenerModelo();
+```
 
 > :point_up: Algunos lenguajes, como PHP, tienen sus propias funciones mágicas __get y __set para implementar getters y setters.  Sin embargo, esto no es una buena idea debido a problemas de rendimiento.  Es una mejor idea crear tus propias funciones "get/set" de acuerdo con las necesidades de tu proyecto.  [Aquí está el razonamiento detrás de esto.](https://stackoverflow.com/questions/6184337/best-practice-php-magic-methods-set-and-get)
 
@@ -231,25 +293,118 @@ En [programación orientada a objetos](https://searchmicroservices.techtarget.co
 "Car" es una clasificación de "Four-Wheeler."  Aquí, "Car" adquiere las propiedades de un "Four-Wheeler."  Otras clasificaciones pueden ser un Jeep, Tempo, van etc. "Four-Wheeler" define una clase de vehículos que tiene cuatro ruedas, un rango específico de potencia del motor, capacidad de carga, etc.  "Car" (denominado como una subclase) adquiere estas propiedades de "Four-Wheeler" (denominado como una superclase), y tiene ALGUNAS propiedades específicas que son diferentes de otras clasificaciones de "Four Wheeler", como lujo, confort, forma , tamaño, uso, etc.
 
 "Car" puede tener una clasificación adicional como "Open Car," "Small Car," "Large Car," etc, que van a adquerir las propiedades de AMBOS "Four-Wheeler" Y "Car" – pero aún tendrá algunas propiedades específicas.  De esta manera, el nivel de jerarquía se puede extender a cualquier nivel.
-![conceptos sobre programación orientada a objetos](https://github.com/breatheco-de/content/blob/master/src/assets/images/js.png?raw=true)
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/ObjectOriented2?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/ObjectOriented2?lite=true">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
+```php runable=true
+// La clase padre tiene sus propiedades y métodos
+class Coche {
+    // Una propiedad privada
+    private $_modelo;
 
-![conceptos sobre programación orientada a objetos](https://github.com/breatheco-de/content/blob/master/src/assets/images/php.png?raw=true)
-<iframe src="https://repl.it/G1cq/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+    // Métodos públicos para establecer y obtener la propiedad privada $_modelo
+    public function establecerModelo($modelo) {
+        $this->_modelo = $modelo;
+    }
 
-<div align="right"><small ><a href="https://repl.it/G1cq/0?lite=true">Haz Clic aquí para abrir el demo en una nueva ventana</a></small></div>
+    public function obtenerModelo() {
+        return $this->_modelo;
+    }
+}
 
-![conceptos sobre programación orientada a objetos](https://github.com/breatheco-de/content/blob/master/src/assets/images/python.png?raw=true)
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Python-Class-Inheritance?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+// La clase hija hereda de la clase Coche
+class CocheDeportivo extends Coche {
+    private $_estilo;
 
-<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Python-Class-Inheritance?lite=true">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>
+    // Llamar al constructor del padre e inicializar propiedades propias
+    public function __construct() {
+        parent::__construct(); // Aunque el constructor de Coche no hace nada, es buena práctica llamarlo
+        $this->_estilo = 'rápido y furioso';
+    }
 
+    public function conducirConEstilo() {
+        return "Conducir un " . $this->obtenerModelo() . ", " . $this->_estilo;
+    }
+}
 
+// Crear una instancia de la clase hija
+$cocheDeportivo1 = new CocheDeportivo();
 
+// Usar un método que la clase hija heredó de la clase padre
+$cocheDeportivo1->establecerModelo('Ferrari');
 
+// Usar un método que se agregó a la clase hija
+echo $cocheDeportivo1->conducirConEstilo();
+```
+```python runable=true
+class Coche:
+    def __init__(self):
+        self._modelo = None  # Convención de Python para un atributo "privado"
 
+    def establecer_modelo(self, modelo):
+        self._modelo = modelo
+
+    def obtener_modelo(self):
+        return self._modelo
+
+class CocheDeportivo(Coche):
+    def __init__(self):
+        super().__init__()  # Llamar al constructor de la clase padre
+        self._estilo = 'rápido y furioso'
+
+    def conducir_con_estilo(self):
+        return f"Conducir un {self.obtener_modelo()}, {self._estilo}"
+
+# Crear una instancia de la clase hija
+coche_deportivo1 = CocheDeportivo()
+
+# Usar un método que la clase hija heredó de la clase padre
+coche_deportivo1.establecer_modelo('Ferrari')
+
+# Usar un método que se agregó a la clase hija
+print(coche_deportivo1.conducir_con_estilo())
+```
+```js runable=true
+// La clase padre tiene sus propiedades y métodos
+class Coche {
+  constructor() {
+    this._modelo;
+  }
+  // Una propiedad o método privado solo puede ser usado por el padre.
+
+  // Los métodos y propiedades públicos pueden ser usados tanto por la clase padre como por las clases hijas.
+  establecerModelo(modelo) {
+    this._modelo = modelo;
+  }
+
+  obtenerModelo() {
+    return this._modelo;
+  }
+}
+
+// La clase hija puede usar el código que heredó de la clase padre,
+// y también puede tener su propio código
+class CocheDeportivo extends Coche {
+
+  constructor() {
+    // siempre tienes que llamar al constructor super
+    super();
+    this._estilo = 'rápido y furioso';
+  }
+
+  conducirConEstilo() {
+    return `Conducir un ${this.obtenerModelo()}, ${this._estilo}`;
+  }
+}
+
+// crear una instancia de la clase hija
+let cocheDeportivo1 = new CocheDeportivo();
+
+// Usar un método que la clase hija heredó de la clase padre
+cocheDeportivo1.establecerModelo('Ferrari');
+
+// Usar un método que se agregó a la clase hija
+console.log(cocheDeportivo1.conducirConEstilo());
+
+```
 
 
 
