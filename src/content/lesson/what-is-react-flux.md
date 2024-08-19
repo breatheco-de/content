@@ -62,7 +62,7 @@ const TaskReducer = (state, action) => {
 
 The next step is to make this function available for all the other components of the application, for that we'll use a context with the hook `useReducer`, which will allow us to create a state and the `actions` function to publish it to the rest of the components.
 
-```react
+```jsx
 //TaskContext.jsx
 import { useReducer, createContext } from "react";
 
@@ -90,7 +90,7 @@ export default TaskContext;
 
 Now the context is ready with our tasks, all we have to do is wrap our app with this component to start using our context.
 
-```react
+```jsx
 //index.jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -114,7 +114,7 @@ For that, we'll use a component that shows a textbox and a button that dispatche
 
 All that is basic stuff, but since we want to use the context `actions`, we need to call it from within the component.
 
-```react
+```jsx
 import { tasks, useContext } from "react";
 import TaskContext from "./TaskContext.jsx";
 
@@ -127,7 +127,7 @@ export default function AddItem() {
 
 To make use of these `actions` we call the function passing as a parameter an object with the properties of the action we want to call, being the most important the property `type` that indicates the specific action to execute. The rest of the properties are optional data that may be required by the action itself.
 
-```react
+```jsx
 // AddItem.jsx
 import { useContext } from "react";
 import TaskContext from "./TaskContext.jsx";
@@ -158,7 +158,7 @@ export default function AddItem() {
 
 In the same manner that we access `taskActions`, we can also access the `tasks` object that contains the state of the list. Just like before, we must use the `useContext` hook in our component.
 
-```react
+```jsx
 import { useContext } from "react";
 import "./App.css";
 import TaskContext from "./TaskContext.jsx";
@@ -191,13 +191,13 @@ Even though the render is very basic (a `li` element with the text and a button)
 
 ***I all stats with the user clicking the trash can icon. That's why we need to start our component by listening to the classic onClick event on the delete button,***
 
-```react
+```jsx
   onClick={() => taskActions({ type: "remove", index })}
 ```
 
 We notice that the call to `actions` is similar to the one used to add items, but in this case is receiving a different parameter called `index`, which indicates to the dispatcher which elements are going to be deleted. Just like we saw in both examples, we can pass any data that's needed to the action at the moment of calling it, as additional parameters.
 
-```react
+```jsx
 import { useContext } from "react";
 import TaskContext from "./TaskContext.jsx";
 
