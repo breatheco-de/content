@@ -31,7 +31,6 @@ Esta comunicación, como se muestra en el siguiente gif, se lleva a cabo mediant
 
 El protocolo HTTP funciona a través de solicitudes y respuestas, el cliente (por ejemplo, un navegador de internet) y un servidor (por ejemplo, las computadoras que alojan y despliegan los sitios web). 
 
-
 El servidor, tras recibir una solicitud, responde con un mensaje estructurado y con una serie de metadatos que establecen pautas para el inicio, desarrollo y cierre de la comunicación. Estas pautas son los llamados **métodos de petición** (*request methods*).
 
 A una secuencia de estas solicitudes se le conoce como **sesión HTTP**.
