@@ -41,7 +41,8 @@ Según informes recientes, un graduado de Bootcamp gana $20k más que antes de u
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/75ca521c-2ea0-4a7d-ad05-6717200d8553.png?raw=true" width="300">
 </p>
 
-Around 90% of our students find a job after graduation. It normally takes 100 days to land your first job, and we will not rest until we make that happen. :) 
+Alrededor del 90% de nuestros estudiantes encuentran trabajo después de graduarse. Normalmente se tarda 100 días en conseguir el primer empleo, y no descansaremos hasta conseguirlo. :) 
+
 <p style="text-align:center">
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/18da88b0-403c-4330-a7d6-661307f062e5.png?raw=true" width="300">
 </p>
@@ -86,7 +87,7 @@ Y todo esto es porque necesitamos estar seguros de que tienes lo que se necesita
 
 El cerebro humano requiere mucha energía para tomar cualquier decisión, especialmente cuando muchas variables intervienen en la ecuación. Este curso será difícil porque estamos rediseñando la forma en que tomas estas decisiones. Tendrás que pensar de manera similar a como piensan las computadoras. No te preocupes, llegará un momento en el que todo lo que hagas se convertirá en un comportamiento adquirido.
 
-Si te sientes abrumado y confundido, ¡¡**pide ayuda!!** Y, **sigue trabajando duro -** ¡lo conseguirás! Todas las lecciones son acumulativas, lo que significa que cada ejercicio requerirá que utilices todas las habilidades que has aprendido en el pasado.
+Si te sientes abrumado y confundido, ¡pide ayuda! Y, **sigue trabajando duro -** ¡lo conseguirás! Todas las lecciones son acumulativas, lo que significa que cada ejercicio requerirá que utilices todas las habilidades que has aprendido en el pasado.
 
 ### ¡Por favor, pide ayuda!
 
@@ -108,7 +109,7 @@ Sabemos que algunos de ustedes ya tienen sus propias herramientas, pero dejemos 
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/59bf0e4e-f5cf-410c-b2bc-fdc7472e7cdc.jpeg?raw=true" width="180">
 </p>
 
-<sub><sup>Shuhari es un concepto de arte marcial japonés, y describe las etapas del aprendizaje hasta su maestría, [click aqui para leer más.](https://es.wikipedia.org/wiki/Shuhari)</sup></sub>
+<sub><sup>Shuhari es un concepto de arte marcial japonés, y describe las etapas del aprendizaje hasta su maestría, [click aquí para leer más.](https://es.wikipedia.org/wiki/Shuhari)</sup></sub>
 
 
 | HERRAMIENTAS OBLIGATORIAS                                 | OTROS MATERIALES DE APOYO  |

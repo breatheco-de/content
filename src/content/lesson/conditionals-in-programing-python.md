@@ -45,9 +45,9 @@ The best way to understand them is to think of them like questions you can ask t
 2. `if day == "tuesday":`
 3. `if car_model == "toyota" and number_of_tires == 6:`
 
-In order to ask a question or conditionally excuse a particular set of lines, you first need to have data (information) stored on useful variables. Above we had the variables `user_age`, `day`, `car_model` and `number_of_tires`.
+In order to ask a question or conditionally excuse a particular set of lines, you first need to have data (information) stored in useful variables. Above, we had the variables `user_age`, `day`, `car_model` and `number_of_tires`.
 
-If we don't have the information pre-stored in variables we are not able to ask any questions, it is all about strategy and planning!
+If we don't have the information pre-stored in variables, we are not able to ask any questions; it is all about strategy and planning!
 
 For example, if we have the user's age stored in a variable `age` then, and only then, we are able to code for something like:
 
@@ -79,11 +79,11 @@ else:
 ```
 
 Basically, this algorithm has two variables to consider: `feels_like_hit_by_train` and `you_were_hit_by_train`.
-Our job as developers is to sit down and try to prepare a strategy and come up with an algorithm that solves a problem.
+Our job as developers is to sit down, try to prepare a strategy, and come up with an algorithm that solves a problem.
 
 ## Logical Operators in Python
 
-Mostly all the questions can be asked using the following comparisons: `==`, `>`, `<`, `!=`, ` is None`, ` is not None`, `in`:
+Most of the questions can be asked using the following comparisons: `==`, `>`, `<`, `!=`, ` is None`, ` is not None`, `in`:
 
 | Operator      | Example       | Description  |
 | ----          | ----          | --------  |
@@ -139,8 +139,7 @@ You can also nest several if...else conditions on top of one another, like this:
 if age < 16:
     # You cannot do anything
 elif age < 18:
-    # At this point, we know it's older than 15 because if not, it would have entered
-    # into the first condition
+    # At this point, we know it's older than 15 because if not, it would have entered into the first condition
 elif age < 21:
     # If the algorithm enters here, we know it's older than 17
 else:

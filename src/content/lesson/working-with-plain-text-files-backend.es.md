@@ -21,8 +21,8 @@ Usando un lenguaje de back-end puedes acceder a la mayoría de los archivos del 
 Digamos que tienes los precios de bitcoin del último día en un archivo `bitcoin_precios.csv` con el siguiente formato:
 
 <before-after width="400px"
-    before="../../assets/images/97f74cd8-acdd-4ce9-aa26-bfd494e9b550bitcoin_price_csv.png" 
-    after="../../assets/images/709ff7ce-f7f6-4b16-a172-521fe1787733bitcoing_prices_table.png" 
+    before="https://github.com/breatheco-de/content/blob/master/src/assets/images/97f74cd8-acdd-4ce9-aa26-bfd494e9b550bitcoin_price_csv.png?raw=true" 
+    after="https://github.com/breatheco-de/content/blob/master/src/assets/images/709ff7ce-f7f6-4b16-a172-521fe1787733bitcoing_prices_table.png?raw=true" 
 />
 
 > :tv: Video de 5 minutos en donde se explica [qué es un archivo CSV](https://www.youtube.com/watch?v=_blfh7uR05A)

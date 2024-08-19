@@ -1,11 +1,7 @@
 ---
-title: "Hooks de React"
-subtitle: "Los Hooks son la nueva forma de crear componentes React, son imposibles de evitar. En esta lección nos enfocaremos en los 2 más importantes: useState y useEffect"
-cover: "https://ucarecdn.com/84c4d84c-51b9-4906-a572-71cc07ecfc8c/"
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
+title: "Qué es un Hook en React"
+subtitle: "Los Hooks son la nueva forma de crear componentes React, son imposibles de evitar. En esta lección nos enfocaremos en que es un hook y explicaremos los 2 hooks más importantes: useState y useEffect"
 authors: ["alesanchezr"]
-status: "published"
 tags: ["reactjs"]
 
 ---
@@ -260,19 +256,36 @@ const Todos = (props) => {
     // Inicializa la variable "tasks" como un array vacío y conéctalo a la función setTasks
     const [ tasks, setTasks ] = useState([]);
 
-    // Esta función useEffect se ejecutará solo una vez, cuando el componente finalmente se cargue por primera vez
-    useEffect(() =>
-        // Aquí busco mis todos de la API
-        fetch('https://assets.breatheco.de/apis/fake/todos/user/alesanchezr')
-            .then(r => r.json())
-            .then(data => setTasks(data)) // Aquí se actualiza la variable "tasks" con los datos entrantes
-    , []);
+  // Ésta función encapsula la lógica de traer la lista de todos de la api
+  // asi como crear una nueva lista si ésta no existe.
+  const fetchList = async () => {
+    const endpoint = "https://playground.4geeks.com/todo/users/demo";
+    let response = await fetch(endpoint);
+    if (response.ok) {
+      // Sila lista se recibe, las task son cargadas con los todos
+      let data = await response.json();
+      setTasks(data.todos);// Aquí se actualiza la variable "tasks" con los datos entrantes
+      return response.status;
+    }
+    if (response.status == 404) {
+      // Si la lista no se encuentra, debe ser creada con una petición POST
+      let newList = await fetch(endpoint, { method: "POST" });
+      if (newList.ok) setTaks([]);
+    }
+  };
 
-    return <ul>{tasks.map((t, index) => <li key={index}>{t.label}</li>)}</ul>;
+  // Esta función useEffect se ejecutará solo una vez, cuando el componente finalmente se cargue por primera vez
+  useEffect(() => {
+      // here I fetch my todos from the API
+      fetchList();
+    },[] // <---- thanks to this empty array the use effect will be called only once
+  );
+      return <ul>{tasks.map((t, index) => <li key={index}>{t.label}</li>)}</ul>;
 }
+    
 ```
 
-> ☝ Revisa el código en profundidad y la demostración en vivo [haciendo clic aquí](https://codesandbox.io/s/xenodochial-varahamihira-egh86?fontsize=14).
+> ☝ Revisa el código en profundidad y la demostración en vivo [haciendo clic aquí](https://codesandbox.io/p/sandbox/using-the-useeffect-to-load-data-on-component-mount-forked-8gprc3).
 
 ## Otras lecturas
 

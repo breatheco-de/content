@@ -53,9 +53,14 @@ a = 80
 
 The values of variables can change over time. To retrieve the value of a variable, you can print its value on the screen at any time. Every programming language has its own methods for printing. In Python, we use `print`.
 
-<iframe src="https://repl.it/F0R2/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```py runable=true
+age = 24
+print(age)
 
-<div align="right"><small><a href="https://repl.it/F0R2/1?lite=true" > Click here to open the demo in a new window.</a></small></div>
+# we can update the value of variable "age" anytime
+age = 30
+print(age)
+```
 
 ## Data Types
 
@@ -63,7 +68,7 @@ Variables can have different types of values:
 
 |**Data-Type**   |**Possible Values**   |**Description**   |
 |:---------------|:--------------------|:-----------------|
-|Booleano         |True \| False        |Booleans are intended for logical operations. If you ask a computer something like, "Is X equal to 3?" it will respond with a boolean (true or false).   |
+|Boolean         |True \| False        |Booleans are intended for logical operations. If you ask a computer something like, "Is X equal to 3?" it will respond with a boolean (true or false).   |
 |String        |Any string of characters     |Strings are the only way we have to store words (sequences of characters). Note: strings must be enclosed in quotes.  |
 |Number   |Numbers only     |Integers, negative numbers, decimals, floats, etc. All possible types of numbers. <br>  |
 |Undefined     |Empty    |When a variable has no assigned value, it remains undefined.   |
@@ -71,9 +76,34 @@ Variables can have different types of values:
 |Objects	    |Any object    |You can create your own data types with more complex operations. We will talk more about this later.  |
 |Null    |Only Null    |Used to specify when the database or any other function does not return anything.   |
 
-<iframe src="https://repl.it/F05K/3?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```py runable=true
+# Variables and their types
+myFirstBoolean = True  # Boolean
+myFirstInteger = 35  # Integer
+myFirstFloat = 2323.4545  # Float (number with decimals)
 
-<div align="right"><small><a href="https://repl.it/F05K/3?lite=true">Click here to open the video in a new window</a></small></div>
+myFirstString = 'Hello Wold'  # String
+myFirstObject = {'name': 'Ramon', 'Age': 32}  # Dictionary with 2 key-value pairs
+myFirstArray = [23, 'Hello', 8.54, None, 544]  # List of 5 items of different types
+myFirstNull = None  # NoneType represents null in Python
+myFirstUndefined = None  # Python uses None to represent undefined/null values
+
+# Printing the variables to the console
+print(myFirstBoolean)
+
+print(myFirstInteger)
+print(myFirstFloat)
+print(myFirstFloat + myFirstInteger)  # Arithmetic operation
+
+print(myFirstObject)
+print(myFirstString)
+print(f"{myFirstString}...{myFirstObject['name']}")  # String formatting for concatenation
+
+print(myFirstArray)
+print(myFirstNull)
+print(myFirstUndefined)
+
+```
 
 ## Operations
 
@@ -109,10 +139,6 @@ def multiply(param1, param2):
     return result  # This is how you return a value from the function
 ```
 
-<iframe src="https://repl.it/F10t/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
-
-<div align="right"><small><a href="https://repl.it/F10t/0?lite=true">Click here to open the video in a new window</a></small></div>
-
 ## Function Parameters and Scope
 
 The scope of a variable determines where that variable is available for use. There are two main types of scopes:
@@ -125,9 +151,16 @@ A local variable is only available within the scope of the nearest curly braces.
 
 If you declare a variable at the beginning of your code, it will be available throughout the entire code, even within the content of any particular function.
 
-<iframe src="https://repl.it/F10t/2?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```py runable=true
+# Define a global variable
+message = "Hello"
 
-<div align="right"><small><a href="https://repl.it/F10t/2?lite=true">Click here to open the video in a new window</a></small></div>
+def print_message():
+    # This function uses the global variable 'message'
+    print(message)
+
+print_message()  # Outputs: Hello
+```
 
 ## Logical Operations
 

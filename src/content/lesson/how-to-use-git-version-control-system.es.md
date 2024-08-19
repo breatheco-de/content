@@ -57,7 +57,7 @@ Un **commit object** contiene tres cosas:
 
 + Un conjunto de **archivos**, que refleja el estado de un proyecto en un momento dado en el tiempo.
 + Referencias al **commit object padre.**
-+ Un **nombre SHA1:** es una cadena de 40 caracteres que identifica de forma única el commit object. El nombre se compone de un conjunto de aspectos relevantes del commit; De esta manera, los commit idénticos siempre tendrán el mismo nombre.
++ Un **nombre SHA1:** es una cadena de 40 caracteres que identifica de forma única el commit object. El nombre se compone de un conjunto de aspectos relevantes del commit; de esta manera, los commit idénticos siempre tendrán el mismo nombre.
  
 ![cómo usar git](https://github.com/breatheco-de/content/blob/master/src/assets/images/commit-object2.png?raw=true)
 
@@ -196,7 +196,7 @@ git merge [head]
 git pull . [head]
 ```
 
-Estos comandos realizan las siguientes operaciones. Deja que el head actual se llame *current* y que el head que se va a fusionar se llame *merge*
+Estos comandos realizan las siguientes operaciones: deja que el head actual se llame *current*, y que el head que se va a fusionar se llame *merge*.
 
 + Identifica el ancestro común de *current* y *merge*. Llámalo *ancestor-commit*.
 + Tratar con los casos fáciles. Si el *ancestor-commit* es igual a merge, entonces no hagas nada. Si el *ancestor-commit* es igual al actual, entonces haz un **adelanto del merge.**
@@ -252,7 +252,7 @@ Si estás trabajando en un repositorio local y deseas conectarlo a un repositori
 
 Una vez que conozcas la URL remota, puedes agregarla a tu proyecto. Debes elegir un alias para el control remoto; de forma predeterminada, usamos normalmente `origin`. Agrega el control remoto ejecutando el siguiente comando:
 
-⚠️ En nuestras plantillas ya tendrás una configuración de origin desde el repositorio de dicha plantilla. En esos casos, no debe eliminar el origin original, sino que necesitarás usar otro término (por ejemplo, `new` o `new-origin`, etc.) para agregar su nuevo control remoto.
+⚠️ En nuestras plantillas ya tendrás una configuración de origin desde el repositorio de dicha plantilla. En esos casos, no debes eliminar el origin original, sino que necesitarás usar otro término (por ejemplo, `new` o `new-origin`, etc.) para agregar su nuevo control remoto.
 
 Agrega el control remoto ejecutando el siguiente comando:
 
@@ -270,9 +270,12 @@ Digamos que tienes una rama en tu repositorio local llamada "nueva-rama". Esa ra
 git push origin [nueva-rama]
 ```
 
-Si otra persona TAMBIÉN ha subido algunos cambios a esa rama, GIT rechazará el push y te dirá que primero descargues esos cambios en tu repositorio local antes de continuar.
+Si otra persona también ha subido algunos cambios a esa rama, GIT rechazará el push y te dirá que primero descargues esos cambios en tu repositorio local antes de continuar.
 
-Deberás (1) descargar los archivos, (2) combinarlos en tu código y (3) resolver cualquier conflicto que pueda haber aparecido.
+Deberás:
+1. Descargar los archivos.
+2. Combinarlos en tu código.
+3. Resolver cualquier conflicto que pueda haber aparecido.
 
 Después de resolver el o los conflictos, puedes seguir adelante e intentar *git push* nuevamente.
 
