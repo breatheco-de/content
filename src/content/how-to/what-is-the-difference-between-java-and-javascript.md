@@ -60,7 +60,7 @@ public class HelloGeek {
 These programming languages are "optimized" for different purposes, this doesn't mean that you can't use Java for [web developing](https://4geeks.com/lessons/technology/web-development) or javascript for other projects besides web apps.
 
 #### Javascript:
-- [Front-end development](https://4geeks.com/es/lesson/what-is-front-end-development)
+- [Front-end development](https://4geeks.com/lesson/what-is-front-end-development)
 - [Back-end development](https://4geeks.com/lesson/backend-developer)
 - [Full-stack development](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer)
 - Android apps 

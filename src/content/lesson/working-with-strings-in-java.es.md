@@ -9,24 +9,23 @@ status: "published"
 
 ---
 
-## ¿Que es una cadena?
+## ¿Qué es una cadena?
 
 
-Una cadena es una secuencia de caracteres. Las cadenas son una parte fundamental de la mayoría de los programas, así pues Java tiene varias características incorporadas que facilitan la manipulación de cadenas. Java tiene una clase incorporada en el paquete java.lang que encapsula las estructuras de datos de una cadena. Esta clase, llamada String es la representación como objeto de una matriz de caracteres que no se puede cambiar. Hay una clase que la acompaña, llamada StringBuffer, que se utiliza para crear cadenas que pueden ser manipuladas después de ser creadas.
+Una cadena es una secuencia de caracteres. Las cadenas son una parte fundamental de la mayoría de los programas, así pues Java tiene varias características incorporadas que facilitan la manipulación de cadenas. Java tiene una clase incorporada en el paquete `java.lang` que encapsula las estructuras de datos de una cadena. Esta clase, llamada `String` es la representación como objeto de una matriz de caracteres que no se puede cambiar. Hay una clase que la acompaña, llamada `StringBuffer`, que se utiliza para crear cadenas que pueden ser manipuladas después de ser creadas.
 
-**String y StringBuffer**
+### String y StringBuffer
 
-El paquete **java.lang** contiene dos clases de cadenas: **String y StringBuffer**. La clase **String** se utiliza cuando se trabaja con cadenas que no pueden cambiar. Por otro lado, **StringBuffer**, se utiliza cuando se quiere manipular el contenido de una cadena. El entorno de desarrollo Java proporciona dos clases para manipular y almacenar datos del tipo carácter: **String**, para cadenas constantes, y **StringBuffer**, para cadenas que pueden cambiar.
+El paquete `java.lang` contiene dos clases de cadenas: `String` y `StringBuffer`. La clase `String` se utiliza cuando se trabaja con cadenas que no pueden cambiar. Por otro lado, `StringBuffer`, se utiliza cuando se quiere manipular el contenido de una cadena. El entorno de desarrollo Java proporciona dos clases para manipular y almacenar datos del tipo carácter: `String`, para cadenas constantes, y `StringBuffer`, para cadenas que pueden cambiar.
 
-Como son constantes, los Strings son más económicos (utilizan menos memoria) que los StringBuffers y pueden ser compartidos. Por eso es importante utilizar String siempre que sea apropiado.
+Como son constantes, los `Strings` son más económicos (utilizan menos memoria) que los `StringBuffers` y pueden ser compartidos. Por eso es importante utilizar `String` siempre que sea apropiado.
 
-## ¿Como Crear una cadena?
+## ¿Cómo crear una cadena?
 
-
-Muchos Strings se crean a partir de cadenas literales. Cuando el compilador encuentra una serie de caracteres entre comillas `("` y `")`, crea un objeto String cuyo valor es el propio texto. El esquema general es el siguiente: 
+Muchos Strings se crean a partir de cadenas literales. Cuando el compilador encuentra una serie de caracteres entre comillas (`"` y `"`), crea un objeto `String` cuyo valor es el propio texto. El esquema general es el siguiente: 
 
 ```java
-String nombre="Hola mundo";
+String nombre = "Hola mundo";
 ```
 
 También se pueden crear objetos String como se haría con cualquier otro objeto Java: utilizando new.

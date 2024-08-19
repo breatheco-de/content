@@ -31,4 +31,4 @@ There
 
 - Stack overflow will starts with someone asking a question, check if the question is similar to yours.
 - Read some of the main answers and pick the answer you feel will help you the most.
-- Read the answer first: Do no't just copy and past the answer, it will NEVER work as it is writen.
+- Read the answer first: Do no't just copy and past the answer, it will NEVER work as it is written.

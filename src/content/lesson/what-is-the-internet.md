@@ -35,7 +35,7 @@ For this reason, they worked on something as similar as possible to a Microsoft 
 ## Everything is Text (HTTP)
 
 
-As it is to be expected, if you wish to share documents, all you need is text.  When you build web pages, everything runs under the HTTP protocol (The Hypertext Transfer Protocol) which is a specialist in text transmission.
+As expected, if you wish to share documents, all you need is text.  When you build web pages, everything runs under the HTTP protocol (The Hypertext Transfer Protocol) which is a specialist in text transmission.
 
 What this means is that: everything is text.  For example, if you wish to send a photograph to your grandmother through an email, this is more or less what happens:
 
@@ -46,7 +46,7 @@ What this means is that: everything is text.  For example, if you wish to send a
 
 ![what is the internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/2fd53b0a-5243-4440-8fc6-7fd74ac5a46e.gif?raw=true)
   
-<small style="color:grey">Image 1: The 4 steps needed to send images over the Internet: first it turns to text, then it travels, then it arrives at grandma's computer, grandma opens the picture and the picture shows… lastly, grandma is happy looking at her grandson's photo!</small>
+<small style="color:grey">Image 1: The 4 steps needed to send images over the Internet: first it turns to text, then it travels, then it arrives at grandma's computer, grandma opens the picture and the picture shows… lastly, grandma is happy looking at her granddaughter's photo!</small>
 
 ## But How Do Pictures (and stuff) Travel?
 

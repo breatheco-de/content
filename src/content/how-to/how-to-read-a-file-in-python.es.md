@@ -57,7 +57,6 @@ Como se dijo anteriormente, para leer el contenido de un archivo necesitamos el 
 | `"x+"`| Abre un archivo en modo de creación y lectura/escritura. Similar a `"w+"`, pero lanza un error si el archivo ya existe.                                         |
 | `"b"` | Modo de archivo binario, se utiliza junto con otros modos como `"rb"` (lectura binaria) `"wb"` (escritura binaria).                                             |
 
-
 A continuación veremos un ejemplo sobre cómo leer un archivo `txt` y algunos de los métodos más utilizados.
 
 > Nota, en estos ejemplos usaremos la sintaxis `with open(nombre_archivo, modo_lectura) nombre_variable` ya que esta sintaxis se encarga de cerrar el archivo automáticamente una vez que hayamos terminado de trabajar con el.
@@ -89,6 +88,7 @@ with open("prueba.txt", "r", encoding="utf-8") as archivo:
     data = archivo.readlines()
     print(data)
 ```
+
 > output del código:
 
 ```bash
@@ -162,7 +162,6 @@ Montañas se alzan mientras valles se extienden, creando paisajes diversos.
 
 Esta es una nueva línea de texto agregada al archivo prueba.txt
 ```
-
 
 En este ejemplo, de nuevo hacemos uso del método `open()` de Python pero esta vez le pasamos cómo segundo parámetro el valor de `"a"` que te permite modificar el contenido de un archivo pero a diferencia del valor `"w"` este agrega el nuevo contenido al final del contenido ya existente. Estos dos valores son muy importantes y puedes usarlos dependiendo de la tarea que necesites realizar en el archivo, recuerda que al agregar el símbolo `"+"` al final de cada uno de estos valores `"w+"`, `"a+"` podras leer y escribir en un archivo.
 
@@ -244,7 +243,6 @@ Información de los usuarios:  [
     {'nombre': 'Jane', 'apellido': 'Watson', 'edad': 29}
 ]
 ```
-
 
 El método `load()` recibe cómo parámetro la variable `archivo` que le indica cual archivo debe leer y convertir de nuevo en código de Python, este método retorna la información de los usuarios que se guarda en la variable `datos_recuperados`, por último simplemente imprimimos los resultado en la consola.
 

@@ -11,7 +11,7 @@ tags: ["javascript","variables"]
 
 ## But, What is coding?
 
-**Coding is not HTML, CSS or Position and Display...** Those languages were not designed for developers, they are just the way we have to render stuff in a browser.
+**Codding is not just HTML, CSS, or properties like Position and Display... These languages were not specifically designed for developers, but rather are the means we use to render content in a browser.
 
 **Coding is making *the computer* "obey"...**
 
@@ -75,9 +75,16 @@ As we learned above, we use the keyword `var` to declare a variable. There are t
 
 Variable's values are subject to change over time. To retrieve a variable's value you can print the value on the screen at any time. Each language has its own methods to print; this is how you do it in JavaScript:
 
-<iframe src="https://repl.it/F0R2/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```js runable=true
+var age = 24;
+age = 30;
 
-<div align="right"><small><a href="https://repl.it/F0R2/1?lite=true" >Click to open demo in a new window</a></small></div>
+//To print the variable on the console you can use console.log
+console.log(age);
+
+// (or document.write if you are on a website)
+// document.write(age);
+```
 
 ## Data Types
 
@@ -93,9 +100,31 @@ Variables can have different types of values. Some of them are available only in
 |Objects    |Any object    |You can create your own data-types with more complex operations.  We will talk more about this later.    |
 |Null     |Only null    |Is used to specify when the database or any other function does not return anything.   |
 
-<iframe src="https://repl.it/F05K/3?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```js runable=true
+var myFirstBoolean = true;//Boolean
+var myFirstInteger = 35;//Number
+var myFirstFloat = 2323.4545; //Number (with decimals)
 
-<div align="right"><small><a href="https://repl.it/F05K/3?lite=true">Click to open demo in a new window</a></small></div>
+var myFirstString = 'Hello World'; //String
+var myFirstObject = {'name' : 'Ramon', 'Age': 32}; //Object with 2 properties
+var myFirstArray = [23,'Hello',8.54,null,544]; //Array of 5 items
+var myFirstNull = null;//Null
+var myFirstUndefined; //Undefined
+
+console.log(myFirstBoolean);
+
+console.log(myFirstInteger);
+console.log(myFirstFloat);
+console.log(myFirstFloat+myFirstInteger);
+
+console.log(myFirstObject);
+console.log(myFirstString);
+console.log(myFirstString+'...'+myFirstObject.name);//String concatenation
+
+console.log(myFirstArray);
+console.log(myFirstNull);
+console.log(myFirstUndefined);
+```
 
 ## Operations
 
@@ -103,7 +132,7 @@ What operations can I do to variables? Depending on the data-type you have a few
 
 + Numbers are easy, you can do whatever math operation you want.
 + Strings can be concatenated (merged), split, converted to Upper or Lower Case, etc.
-+ You cannot do much to Null, Booleans, and Undefined data-types.
++ You can't do much to Null, Booleans, and Undefined data-types.
 + We will talk about Arrays and Objects in a different section. They require a lot more attention.
 
 ## Functions
@@ -143,9 +172,16 @@ A local variable is available only inside the scope of the nearest curly bracket
 
 If you declare a variable at the beginning of your code, it will be available throughout the entire code (including during the content of any particular function).
 
-<iframe src="https://repl.it/F10t/2?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```js runable=true
+var age = 24;
+age = 30;
 
-<div align="right"><small><a href="https://repl.it/F10t/2?lite=true">Click to open demo in a new window</a></small></div>
+//To print the variable on the console you can use console.log
+console.log(age);
+
+// (or document.write if you are on a website)
+// document.write(age);
+```
 
 ## Logical Operations
 
@@ -163,7 +199,7 @@ For example, if I want a computer to give candy only to kids older than 13 years
 |Not Equal to   |!=             |Is 5 != 5? False!<br>Is 5 != '5'? False!<br>Is 1 != 'Hello' True!   |
 |Greater than   |>              |Is 5 > 5? False!<br>Is 6 > 3? True!    |
 |Less than      |<              |Is 6 < 12? True            |
-|Greater or equal  |>=             |Is 6 <= 6? True<br>Is 3 <= 6? True    |
+|Greater or equal  |>=             |Is 6 >= 6? True<br>Is 3 >= 6? False    |
 |Less or equal   |<=            |You get the idea 🙂       |
 
 To create really useful operations, you can combine several operations in the same question using AND, OR, and NOT.
@@ -198,9 +234,22 @@ if (number > 18) {
 
 Similar to if…else… but a little bit more organized. Here, you will specify all the possible case scenarios, including the `default scenario` that will occur if none of the other scenarios happen.
 
-<iframe src="https://repl.it/F2EK/5?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```js runable=true
+var weekday = 'monday';
 
-<div align="right"><small><a href="https://repl.it/F2EK/5?lite=true">Click to open demo in a new window</a></small></div>
+switch(weekday)
+{
+	case "monday":
+		console.log('Its going to be a long week');
+	break;
+	case "friday":
+		console.log('Party time!');
+	break;
+	default:
+		console.log('Just another boring day....');
+	break;
+}
+```
 
 > Use `switch` instead of `if` when:<br><br>• You are comparing multiple possible conditions of an expression and the expression itself is non-trivial.<br>• You have multiple values that may require the same code.<br>• You have some values that will require essentially all of another value’s execution, plus only a few statements.<br><br>Use `if` instead of `switch` when:<br><br>• You want to test the truthfulness of an expression.<br>• You only have a single affirmative test.<br>• You need to evaluate different expressions for each branch.
 

@@ -8,7 +8,8 @@ authors: ["DF27ARTS"]
 
 La [librería de pandas en Python](https://4geeks.com/es/lesson/pandas-en-python) es un recurso muy importante para un desarrollador a la hora de trabajar con una amplia cantidad de datos en Python, en este artículo veremos como instalar paso a paso esta librería en Windows, MacOS y Ubuntu ( Linux ). Si quieres un [tutorial sobre Pandas python](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning), te invito a leer el Blog de [4Geeks](https://4geeks.com/), donde encontrarás mucha información relevante.
 
-Comando para instalar pandas:
+## Comando para instalar pandas:
+
 ```bash
 pip install pandas
 ```
@@ -45,7 +46,7 @@ Requires: numpy, numpy, python-dateutil, pytz
 
 Esta información puede variar dependiendo de la versión de **Pandas** que tengas instalada y en que carpeta la hayas instalado.
 
-## ¿Cómo instalar Pandas?
+## Más detalles sobre ¿Cómo instalar Pandas?
 
 Para instalar Pandas, primero debes asegurarte de que tienes instalado **Python** y el administrador de paquetes **pip** en tu ordenador, para esto debes abrir una terminal, luego ejecutar los siguientes comandos:
 

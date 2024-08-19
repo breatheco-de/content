@@ -15,17 +15,17 @@ Si todo es un documento de texto ¿Cómo es posible tener sitios web tan increí
 
 Los sitios web de hoy son muy diferentes a los de antes; no tienen los mismos elementos, pero si retrocedemos un poco en el pasado y exploramos el comienzo de Internet, todo tendrá sentido.
 
-El Internet fue creado para intercambiar información, sus fundadores estaban buscando compartir documentos de forma rápida y sin tener que manejar una infraestructura compleja y costosa. Simplemente definieron un marco de trabajo y desarrollaron las tecnologías para que cualquier persona que quisiera compartir un documento pudiera publicarlo e invitar a los demás a leerlo.
+Internet fue creado para intercambiar información, sus fundadores estaban buscando compartir documentos de forma rápida y sin tener que manejar una infraestructura compleja y costosa. Simplemente definieron un marco de trabajo y desarrollaron las tecnologías para que cualquier persona que quisiera compartir un documento pudiera publicarlo e invitar a los demás a leerlo.
 
-La comunidad científica lo utilizó para los famosos  ["Peer Reviews"](https://www.elsevier.com/reviewers/what-is-peer-review) usados para que tus colegas revisen y aprueben una publicación antes de ser aceptada y publicada por la comunidad.
+La comunidad científica lo utilizó para los famosos  ["Peer Reviews"](https://www.elsevier.com/reviewers/what-is-peer-review), usados para que tus colegas revisen y aprueben una publicación antes de ser aceptada y publicada por la comunidad.
 
 Por esta razón buscaron hacer algo que se asemejara lo más posible a un documento de MS Word o cualquier procesador de texto.
 
-> :point_up: Si quieres seguir leyendo sobre la historia del Internet te recomendamos [este video super cool.](https://www.youtube.com/watch?v=BWb6ri3ePew)
+> :point_up: Si quieres seguir leyendo sobre la historia de Internet te recomendamos [este video super cool.](https://www.youtube.com/watch?v=BWb6ri3ePew)
 
 
 > Entonces, la forma más sencilla de ver Internet es como una red de documentos compartidos. Documentos que alguna vez fueron publicaciones científicas 
-> rígidas y formales que hoy vemos como documentos interactivos, emocionantes y espectaculares.
+> rígidas y formales, y que hoy vemos como documentos interactivos, emocionantes y espectaculares.
 
 
 ![What is the internet](https://github.com/breatheco-de/content/blob/master/src/assets/images/ffe440de-8746-4ab5-81cc-37ef107155e9.jpeg?raw=true)

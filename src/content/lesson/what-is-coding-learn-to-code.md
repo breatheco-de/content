@@ -15,19 +15,15 @@ Algorithms are amazing.  They can serve several purposes, but, as web developers
 
 Your code will have a "beginning" line and an "ending" line, and the computer will RUN the algorithm line by line in a very strict order.  Users will be able to interact with your algorithm through the computer’s "command line" or "terminal" or "console" (yes, it has a lot of synonyms).
 
-Since we are building small basic algorithms (for now) we are going to be using a computer command line simulator on [c9](https://aws.amazon.com/es/cloud9/?origin=c9io) and [repl.it](https://repl.it/) to interact with our program.
 
 ## The Command Line
 
 
 Computers don’t need visual interfaces, humans do.  But now you are becoming a developer and you have more things in common with computers every day – the "command line" will be one of them.  Please look at this computer terminal simulator and run the code.  The computer will print the result after running the algorithm in the terminal at the bottom of the window:
 
-<iframe src="https://repl.it/F03k/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
-
-<div align="right"><small><a href="https://repl.it/F03k/0?lite=true">Click to open demo in a new window</a></small></div>
-
-
-
+```py runable=true
+print("Hello, human… what are your orders for today?")
+```
 
 > :point_up: What happened here?<br>When you pressed "run" the algorithm started executing, and the only action it performed was to print the sentence: "Hello, human… what are your orders for today?" 
 
@@ -40,10 +36,14 @@ The runtime is the time that passes from the moment your code starts running unt
 
 This is what a "runtime error" (an error that occurs during runtime) looks like:
 
-<iframe src="https://repl.it/F05K/0?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```py runable=true
+# Define a list with 3 elements
+my_list = [1, 2, 3]
 
-<div align="right"><small><a href="https://repl.it/F05K/0?lite=true">Click to open demo in a new window</a></small></div>
+# Attempt to access an index that doesn't exist
+print(my_list[3])  # This will cause an IndexError
 
+```
 
 
 ## The Language
