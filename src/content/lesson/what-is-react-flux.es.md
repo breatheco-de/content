@@ -60,7 +60,7 @@ Para codificar esta lista de tareas tenemos que crear 4 archivos:
 
 Para poder tomar el control del flujo de los datos en nuestra aplicación utilizaremos un `reducer` para agrupar las funciones y la lógica de la aplicación (actions) junto con los datos que manejan y que tienen que estar disponible para los componentes (state).
 
-Por ahora solo diremos que el reducer es una función que genera un estado nuevo cada vez que se ejecuta y lo que haga dependerá de la información que reciba en la función `action`. Esto nos permitirá llamar a las `actions` para actualizar el estado como lo indica el patrón flux. Para entender en detalle como funciona un reducer, puedes [leer esté artículo]() donde lo explicamos a profundidad. 
+Por ahora solo diremos que el reducer es una función que genera un estado nuevo cada vez que se ejecuta y lo que haga dependerá de la información que reciba en la función `action`. Esto nos permitirá llamar a las `actions` para actualizar el estado como lo indica el patrón flux. Para entender en detalle como funciona un reducer, puedes [leer esté artículo](https://4geeks.com/es/lesson/que-es-usereducer-react) donde lo explicamos a profundidad. 
 
 ```javascript
 // Esta es la función reducer
