@@ -109,7 +109,7 @@ def myFunc(params):
 
 `:` They indicate where the code block begins.
 
-`bloque de código` here will go all the logical operations that our function will need to perform to be able to return the result that we want. 
+`code_block` here will go all the logical operations that our function will need to perform to be able to return the result that we want. 
 
 `return` what the function will return when executed.
 

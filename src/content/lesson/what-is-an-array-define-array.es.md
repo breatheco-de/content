@@ -13,7 +13,7 @@ Un array es una estructura de datos de tamaño fijo que almacena una colección 
 
 ## ¿Por qué están los Arrays en una lección separada?
 
-¡Porque los arrays son impresionantes! ¡Los necesitas! Y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂
+¡Porque los arrays son esenciales! ¡Los necesitas! Y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂
 
 Dominar el uso de los arrays y bucles es una de las 5 habilidades fundamentales para construir algoritmos:
 
@@ -37,7 +37,7 @@ Cada array tiene los mismos conceptos básicos:
 
 **La longitud (length):** es el tamaño o longitud del array (cuántos elementos tiene el array).
 
-**Índice (Index):** es la posición del elemento.
+**Índice (Index):** es la posición del elemento en el array.
 
 ![qué es un array](https://github.com/breatheco-de/content/blob/master/src/assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png?raw=true)
 
@@ -68,7 +68,7 @@ let aux = myArray[5];
     console.log(myArray[myArray.length-1]); // Esto imprimirá el último elemento de la lista.
 ```
 
-## Actualizar Elementos en el Array
+## Actualizar elementos en el Array
 
 Si lo deseas, puedes restablecer o actualizar cualquier elemento dentro de un array usando el índice o index así:
 

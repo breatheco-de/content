@@ -37,11 +37,42 @@ Este proceso de aprendizaje automático cuenta con varias librerías que hacen e
 
 - TensorFlow 
 - Keras 
-- PyTorch 
+- PyTorch
+
+### Python para Ciberseguridad
+
+Python se utiliza ampliamente en la ciberseguridad debido a su simplicidad, versatilidad y extenso ecosistema de bibliotecas. Permite a los profesionales de la ciberseguridad automatizar tareas rutinarias, analizar datos de seguridad y desarrollar herramientas y sistemas para proteger los activos digitales. Aquí están algunos de los casos de uso más comunes de Python en ciberseguridad:
+
+**Automatización de Tareas de Seguridad:** Los scripts de Python pueden automatizar tareas rutinarias como el escaneo de vulnerabilidades, el monitoreo del tráfico de red y el envío de alertas por actividades sospechosas. Esto reduce la carga de trabajo manual sobre los equipos de seguridad y aumenta la eficiencia de las operaciones de seguridad.
+
+**Pruebas de Penetración:** Python se utiliza extensamente en pruebas de penetración para identificar vulnerabilidades en redes y aplicaciones. Se utiliza para desarrollar scripts y herramientas que simulan ataques cibernéticos para probar la fortaleza de los sistemas de seguridad. Bibliotecas como scapy para la manipulación de paquetes e Impacket para la creación y decodificación de protocolos de red son populares entre los probadores de penetración.
+
+**Análisis Forense:** Python ayuda en investigaciones forenses digitales automatizando el análisis de archivos, logs y restos de datos para descubrir evidencia de ataques cibernéticos o actividades maliciosas. Bibliotecas como Volatility para análisis de memoria y pytsk3 para acceder a imágenes de disco son comúnmente utilizadas en aplicaciones forenses.
+
+**Desarrollo de Herramientas de Seguridad:** Python se utiliza a menudo para desarrollar herramientas de seguridad personalizadas, incluyendo sistemas de detección de intrusiones (IDS), escáneres de red y scripts de automatización de seguridad. La flexibilidad de Python permite el rápido desarrollo y despliegue de tales herramientas.
+
+**Análisis de Malware:** Python soporta el análisis de malware, ayudando a los profesionales de la seguridad a entender el comportamiento del software malicioso. Herramientas desarrolladas en Python pueden automatizar el proceso de disección de malware, extrayendo sus características y entendiendo su impacto. Bibliotecas como pefile para analizar archivos PE y yara-python para la identificación y clasificación de malware son clave en este proceso.
+
+**Análisis de Datos e Investigación de Seguridad:** Las poderosas bibliotecas de análisis de datos de Python, como pandas y NumPy, se utilizan para procesar y analizar grandes conjuntos de datos de eventos y logs de seguridad. Este análisis ayuda a identificar patrones, anomalías y tendencias en las amenazas cibernéticas.
+
+**Scrapping Web para Inteligencia de Amenazas:** Las bibliotecas de Python como BeautifulSoup y Scrapy pueden utilizarse para rastrear la web en busca de datos de inteligencia de amenazas. Esto incluye recopilar información sobre nuevas vulnerabilidades, tácticas de actores de amenazas e indicadores de compromiso (IoCs).
+
+**Criptografía y Encriptación:** Python soporta diversas operaciones criptográficas, lo que hace posible desarrollar canales de comunicación seguros, encriptar información sensible y asegurar la integridad de los datos. Bibliotecas como cryptography y PyCrypto proporcionan implementaciones de algoritmos y protocolos criptográficos.
+
+**Bibliotecas y Herramientas Populares:**
+
+- Scapy: Para la manipulación de paquetes y el descubrimiento de redes.
+- Impacket: Para trabajar con protocolos de red.
+- Volatility: Para el análisis de memoria forense.
+- Wireshark: Aunque no es una biblioteca, Python puede utilizarse para automatizar tareas en Wireshark para el análisis de paquetes.
+- BeautifulSoup y Scrapy: Para el scrapping web.
+- Cryptography y PyCrypto: Para funciones criptográficas.
+- Pandas y NumPy: Para el análisis de datos.
+- Yara-python: Para la identificación de malware.
 
 ### Python para Data Science 
 
-En los ultimpos años ha aumentando el uso de [Python para Data Science](https://4geeks.com/es/lesson/datascience-con-python) y se ha convertido en uno de los principales lenguajes para la visualización y tratamientos de datos actualmente lo cual era de esperar. Py posee librerías extremadamente potentes que permiten generar representaciones visuales como pueden ser los siguientes: 
+En los últimos años ha aumentando el uso de [Python para Data Science](https://4geeks.com/es/lesson/datascience-con-python) y se ha convertido en uno de los principales lenguajes para la visualización y tratamientos de datos actualmente lo cual era de esperar. Py posee librerías extremadamente potentes que permiten generar representaciones visuales como pueden ser los siguientes: 
 
 - Líneas, barras y marcadores.
 - Subgráficos y ejes.

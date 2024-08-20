@@ -46,7 +46,8 @@ There are many ways to get unstuck:
 - Ask one of your classmates.
 - Join a global mentorship session. They happen twice a week.
 - Ask questions during your live classes.
-- Request 1-1 mentorship.
+- Ask [Rigobot](https://4geeks.com/rigobot), our internally developed AI mentor.
+- Request 1-1 [mentorship sessions](https://4geeks.com/docs/knowledge-base-4geeks/mentoring-sessions) (if available).
 
 ## It's time to get the most out of this course
 The more active you are during the course, the more you will take advantage of it:

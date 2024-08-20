@@ -1,9 +1,9 @@
 
 Modern companies no longer allow developers to work on their local computers; they use provisioning tools. Codespaces is GitHub's proposal for provisioning coding environments. 
 
-> **In plain English**: Codespaces is a technology that creates -in a matter of seconds- computers and coding environments in the cloud, ready to be used by software developers.
+> **In plain English**: Codespaces is a technology that creates, *in a matter of seconds*, computers and coding environments in the cloud, ready to be used by software developers.
 
-When teaching coding-related skills, provisioning environments like Codespaces have become [one of our main tools](https://4geeks.com/lesson/4geeks-teaching-tools) at 4Geeks. As a student, you are encouraged to use these environments, as they will speed your learning by at least one order of magnitude, removing all the setup and configuration friction and allowing you to focus on your code.
+When teaching coding-related skills, provisioning environments like Codespaces have become one of our main tools at 4Geeks. As a student, you are encouraged to use these environments, as they will speed your learning by at least one order of magnitude, removing all the setup and configuration friction and allowing you to focus on your code.
 
 In this lesson, we'll learn why Provisioning Environments are becoming a trend, their benefits and disadvantages, and how to use GitHub Codespaces.
 
@@ -13,7 +13,7 @@ Coding in the cloud brings a lot of limitations, like requiring and relying on a
 
 > Have you ever tried following an online tutorial, but after thoroughly following every step, the code still does not run on your computer?
 
-Coding in your local computer also brings limitations: Local computers can break, and code can be lost. In addition, each local computer comes with different operating systems, Python versions, etc. Making sure your code is compatible to run on every computer can be challenging and unnecessary since it will get published in only one computer: The production environment.
+Coding on your local computer also brings limitations: Local computers can break, and code can be lost. In addition, each local computer comes with different operating systems, Python versions, etc. Making sure your code is compatible to run on every computer can be challenging and unnecessary since it will get published on only one computer: The production environment.
 
 ## Why Codespaces?
 
@@ -23,20 +23,20 @@ Codespaces is GitHub's proposal for provisioning coding environments. It dramati
 
 GitHub calls every coding environment a "codespace". If you start working on a project and create a new cloud computer to work on your project, this new computer will be called a "codespace". 
 
-> 💻 Every codespace is a -virtual- computer.
+> 💻 Every codespace is a **virtual** computer.
 
 - Your list of current Codespaces (computers) is here: [github.com/codespaces](https://github.com/codespaces). (It's probably empty since you are just learning about it).
 - The recommended way to create a new codespace is from a GitHub repository (if you need to learn what GitHub is, think of it as an online hard drive of code, where every folder is one of your coding projects).
 
 ![How to open a codespace](https://github.com/breatheco-de/content/blob/master/src/assets/images/create-codespace.gif?raw=true)
 
-- Once the new codespace opens, it will create an empty computer for you, but it will also download the files from the Github repository folder you specified (your code) to this new computer.
+- Once the new codespace opens, it will create an empty computer for you, but it will also download the files from the GitHub repository folder you specified (your code) to this new computer.
 
 - Finally, it will open a coding editor (probably VSCode, the most used coding IDE in the world) and a terminal to start coding as if the codespace was on your local computer in the first place.
 
 - If you go back to [your codespaces](https://github.com/codespaces), you will find all the computers you have created and be able to re-open them. Changes you made to the files will stay for a few days; you will retain all data as long as you RE-OPEN the same workspace you were working on, or if you deactivate the "Auto-delete codespace" option on that specific codespace.
 
-## What is a Github Codespace?
+## What is a GitHub Codespace?
 
 It's a computer on the cloud, ready for you to start coding. You can go back to your list of Codespaces anytime and delete, rename, or pin each of the Codespaces.
 
@@ -44,7 +44,7 @@ When you open a GitHub repository using Codespaces, you will be "renting" a comp
 
 ## Running a project on Codespaces
 
-Go to any GitHub repository and you will be able to open a codespace of it by clicking on the `Code -> Create codespace on <branch>` buttons. Look at this image:
+Go to any GitHub repository, and you will be able to open a codespace of it by clicking on the `Code -> Create codespace on <branch>` buttons. Look at this image:
 
 ![Open repository codespace](https://github.com/breatheco-de/content/blob/master/src/assets/images/open-codespace.png?raw=true)
 

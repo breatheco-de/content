@@ -229,7 +229,7 @@ Para eliminar múltiples columnas en un Dataframe simplemente necesitamos pasarl
 
 ### 3. Eliminación de columnas basadas en una condición
 
-```py
+```py runable=true
 columnas_para_eliminar = [
     column for column in animales_salvajes.columns 
     if type(animales_salvajes[column][0]) != str

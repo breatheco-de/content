@@ -17,7 +17,7 @@ Python and JavaScript are friends. Together, they make the best possible team to
 
 ## Why Python?
 
-With JavaScript, you were tied and limited to the browser, you can’t access the client’s computer, and it is basically a rendering language. But Python is different, being a back-end language, it runs on your own server, meaning you have access to and can control the entire computer with it. You have access to any application running on the same computer. You have access to the console. You have access to the network where the computer is connected to, and much more.
+With the advent of Node.js, JavaScript now also encompasses server-side capabilities. However, with JavaScript you were historically tied and limited to the browser, unable to access the client’s computer, as it was primarily seen as a rendering language. But Python was different, being a back-end language, it runs on your own server, meaning you have access to and can control the entire computer with it. You have access to any application running on the same computer. You have access to the console. You have access to the network where the computer is connected to, and much more.
 
 On the other hand, Python is the fastest growing back-end language in the world. It is the most versatile and easy-to-code language, with one of the strongest communities.
 
@@ -27,7 +27,7 @@ When you compare it to other back-end languages, Python is leading in almost eve
 
 |Simplicity       |Performance    |
 |:---------------:|:------------------:|
-|Python was meant to be simple and easy. Here is the Python manifest:<br>https://en.wikipedia.org/wiki/Zen_of_Python<br><br>**Note:** No more semicolons or curly brackets anymore, declaring variables, or the confusing `this` functionality.     |Python is faster than Java, PHP, Ruby and 90% of the other back-end languages.  Only low-level languages like C++ (hard to use) or very specialized like Node.js can beat it.<br><br>Python scalability has been proven over and over with applications like Google Search Engine, YouTube, Google Apps, etc.     |
+|Python was meant to be simple and easy. Here is the Python manifesto:<br>https://en.wikipedia.org/wiki/Zen_of_Python<br><br>**Note:** No more semicolons or curly brackets anymore, declaring variables, or the confusing `this` functionality.     |Python is faster than Java, PHP, Ruby and 90% of the other back-end languages.  Only low-level languages like C++ (hard to use) or very specialized like Node.js can beat it.<br><br>Python scalability has been proven over and over with applications like Google Search Engine, YouTube, Google Apps, etc.     |
 
 
 |Community        |Tools    |
@@ -59,7 +59,7 @@ There are only a few differences; here is the explanation:
 
 In JavaScript, you can import variables from other files using the `import` or `require` command, but you need to `export` the variable's files first.
 
-In Python, you can make any folder, a package by creating a `\__init\__.py` file inside of it. Then, you are able to import whatever you want into that folder without having to explicitly export anything.
+In Python, you can make any folder, a package by creating a `__init__.py` file inside of it. Then, you are able to import whatever you want into that folder without having to explicitly export anything.
 
 
 #### With Python

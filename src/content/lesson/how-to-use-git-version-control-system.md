@@ -69,9 +69,9 @@ At the beginning, a project always has one commit object with no parents. This i
 
 ## A Head Object is a List of Commits
 
-The heads of the repository are like the "revision history of the project." A revision history is a list of commit objects that altogether contains all the changes that you and your other team members have made to the project files.
+The heads of the repository are like the "revision history of the project". A revision history is a list of commit objects that altogether contains all the changes that you and your other team members have made to the project files.
 
-Every time you make a new commit, the head will move to that new commit. This way, you are able to have access to the entire project history of commits.
+Every time you make a new commit, the head will move to that new commit. This way, you can have access to the entire project history of commits.
 
 You can **move the head** if you want. It does not necessarily have to always be the last commit, but you must remember that you can only review commits that came before the commit to which the head is pointing at. **Commits made after the commit to which the head is pointing at are not possible to be reviewed.**
 
@@ -81,7 +81,7 @@ You can **move the head** if you want. It does not necessarily have to always be
 
 Heads mark the beginning of a revision history. In GIT, we call the "revision history" a "branch", and it is possible to have several revision histories.
 
-By default, every repository has one branch called Master, with its corresponding HEAD that points to the last commit of that branch.
+By default, every repository has one branch called Main (earlier known as Master), with its corresponding HEAD that points to the last commit of that branch.
 
 For example: Let’s say that you are starting to develop the "Login" feature/functionality of a website. You can create a new "branch" of the repository called "login" so that your commits are not part of the main revision history of the project. Once you are comfortable with your code, you can then *merge* your branch and delete your head. This will reset the main HEAD of the master branch to the last commit you made and add your new code to the main branch (master) of the repository.
 
@@ -103,7 +103,7 @@ This will create a `.git` directory in the project's directory. Make sure that t
 
 ## Committing Changes into the Repository
 
-After you have made some changes to the files of the project, you may want to save/submit those changes into the repository. This is called a "commit."
+After you have made some changes to the files of the project, you may want to save/submit those changes into the repository. This is called a "commit".
 
 To create a commit, you will need to do two things:
 
@@ -122,7 +122,7 @@ Other commands that are useful at this point:
 + `git diff` shows the difference between HEAD and the current project state.  With the --cached option, it compares added files against HEAD; otherwise, it compares files not yet added.*
 + `git mv` and `git rm` mark files to be moved (renamed) and removed, respectively, much like `git add`.
 
-My personal workflow usually looks like this: I first do some programming, and, afterward, I end up updating some files, then I run the following commands:
+My personal workflow usually looks like this: I first do some programming, and, afterwards, I end up updating some files, then I run the following commands:
 
 ```bash
 git status # to see what files I changed.
@@ -145,7 +145,7 @@ To create a branch, let’s say your repository looks like this:
 
 ![how to use git](https://github.com/breatheco-de/content/blob/master/src/assets/images/251dd226-0590-4e79-bde1-9973159a2c7a.png?raw=true)
 
-Let's jump back to commit (2) and start new work from there. You will first need to know how to reference the commit. You can use `git log` to get the SHA1 name of (2)
+Let's jump back to commit (2) and start new work from there. You will first need to know how to reference the commit. You can use `git log` to get the SHA1 name of (2).
 
 ```bash
 $ git log
@@ -225,7 +225,7 @@ To share work among developers, GIT uses a **distributed model** of version cont
 
 ## Distributed Version Control
 
-Say you and your friend want to work on the same project. Your friend has already done some work on it. There are three tasks you need to perform to figure out how to do so:
+Let's say you and your friend want to work on the same project. Your friend has already done some work on it. There are three tasks you need to perform to figure out how to do so:
 
 1. Get a copy of your friend’s up-to-date repository (git clone).
 2. Get the changes your friend makes into your own repository (git pull).
@@ -267,7 +267,7 @@ git remote get-url origin
 
 ## Pushing (uploading) to the Remote
 
-Let's say you have a branch in your local repository called "new-branch." That branch can be uploaded by doing the following:
+Let's say you have a branch in your local repository called "new-branch". That branch can be uploaded by doing the following:
 
 ```bash
 git push origin [new-branch]
@@ -281,7 +281,7 @@ After you solve any and all conflicts, you can go ahead and try to *git push* ag
 
 ## Pulling (downloading) from the Remote
 
-Let’s say that there is a branch in the remote repository called "development." You can download this branch into your own repository by performing the following command:
+Let’s say that there is a branch in the remote repository called "development". You can download this branch into your own repository by performing the following command:
 
 ```bash
 git pull origin development

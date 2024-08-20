@@ -64,21 +64,29 @@ let b ;
 
 ### `var` vs.  `let`  vs. `const`
 
-Como aprendimos anteriormente, usamos la palabra clave `var` para declarar una variable. Hay otras dos palabras claves que también podemos usar para declarar variables: ***const & let***. Las principales diferencias entre estos tipos de variables tienen que ver con el alcance.
+Como aprendimos anteriormente, usamos la palabra clave `var` para declarar una variable. Hay otras dos palabras claves que también podemos usar para declarar variables: **const & let**. Las principales diferencias entre estos tipos de variables tienen que ver con el alcance.
 
-***Const***: Esta palabra clave se utiliza cuando el valor permanece constante durante toda la vida del script. El valor de la variable declarada con esta palabra clave nunca se puede cambiar. Si intentas cambiarlo, se producirá un error.
+**Const**: Esta palabra clave se utiliza cuando el valor permanece constante durante toda la vida del script. El valor de la variable declarada con esta palabra clave nunca se puede cambiar. Si intentas cambiarlo, se producirá un error.
 
-***Let***: Los valores solo están limitados al alcance del bloque de código (cualquier cosa entre llaves) en el que se declara. Si una función tiene más de un bloque de código, la variable se considerará una variable diferente en cada bloque.
+**Let**: Los valores solo están limitados al alcance del bloque de código (cualquier cosa entre llaves) en el que se declara. Si una función tiene más de un bloque de código, la variable se considerará una variable diferente en cada bloque.
 
-***Var***: Su alcance está dentro de la función en la que se declara. Esto significa que la variable se mantendrá igual durante toda la función, incluso si hay más de un bloque de código en la función.
+**Var**: Las variables declaradas con `var` dentro de una función solo son accesibles dentro de esa misma función. Esto significa que la variable se mantendrá  durante toda la función, incluso si hay más de un bloque de código en la función.
+Si declaras una variable con `var` fuera de cualquier función, se convierte en una variable global. Se puede acceder a ella desde cualquier lugar en tu código.
 
 > :link: [Lee más sobre `var`, `let` y `const`](http://wesbos.com/let-vs-const/)
 
 Los valores de las variables están sujetos a cambios en el tiempo. Para recuperar un valor variable, puede imprimir el valor en la pantalla en cualquier momento. Cada lenguaje de programación tiene sus propios métodos para imprimir; así es como lo haces en JavaScript:
 
-<iframe src="https://replit.com/@4GeeksAcademy/Print-variable?embed=true#index.js" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```js runable=true
+var age = 24;
+age = 30;
 
-<div align="right"><small><a href="https://replit.com/@4GeeksAcademy/Print-variable#index.js" >Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
+// Para imprimir una variable en la consola escribimos console.log
+console.log(age);
+
+// o escribimos document.write si estamos en un website
+// document.write(age);
+```
 
 
 
@@ -96,9 +104,31 @@ Las variables pueden tener diferentes tipos de valores. Algunos de ellos están 
 |Objetos    |Cualquier objeto    |Puedes crear tus propios tipos de datos con operaciones más complejas. Hablaremos sobre este tema a mayor profundidad más adelante.  |
 |Null    |Solo null    |Se utiliza para especificar cuándo la base de datos o cualquier otra función no devuelve nada.   |
 
-<iframe src="https://replit.com/@4GeeksAcademy/Data-Types?embed=true#index.js" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```js runable=true
+var myFirstBoolean = true;//Boolean
+var myFirstInteger = 35;//Number
+var myFirstFloat = 2323.4545; //Number (with decimals)
 
-<div align="right"><small><a href="https://replit.com/@4GeeksAcademy/Data-Types#index.js">Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
+var myFirstString = 'Hello Wold'; //String
+var myFirstObject = {'name' : 'Ramon', 'Age': 32}; //Object with 2 properties
+var myFirstArray = [23,'Hello',8.54,null,544]; //Array of 5 items
+var myFirstNull = null;//Null
+var myFirstUndefined; //Undefined
+
+console.log(myFirstBoolean);
+
+console.log(myFirstInteger);
+console.log(myFirstFloat);
+console.log(myFirstFloat+myFirstInteger);
+
+console.log(myFirstObject);
+console.log(myFirstString);
+console.log(myFirstString+'...'+myFirstObject.name);//String concatenation
+
+console.log(myFirstArray);
+console.log(myFirstNull);
+console.log(myFirstUndefined);
+```
 
 ## Operaciones
 
@@ -146,9 +176,17 @@ Una variable local solo está disponible dentro del alcance de las llaves más c
 
 Si declaras una variable al comienzo de tu código, estará disponible a lo largo de todo el código, incluso durante el contenido de cualquier función en particular.
 
-<iframe src="https://repl.it/F10t/2?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```js runable=true
+var age = 24;
 
-<div align="right"><small><a href="https://repl.it/F10t/2?lite=true">Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
+function printAge(){
+  // La variable age fue declarada afuera de la funcion
+  // pero igualmente esta disponible adentro
+  console.log(age);
+}
+
+printAge();
+```
 
 ## Operaciones lógicas
 
@@ -165,7 +203,7 @@ Por ejemplo, si quiero un computador para dar dulces solo a niños mayores de 13
 |Igual a     |==             |Es 5 == 5? True!<br>Es 5 == 4? False!<br>Es 5 == '5'? True!    |
 |No Igual a    |!=             |Es 5 != 5? False!<br>Es 5 != '5'? False!<br>Es 1 != 'Hello' True!   |
 |Mayor que   |>              |Es 5 > 5? False!<br>Es 6 > 3? True!    |
-|Menos que    |<              |Es 6 < 12? True            |
+|Menor que    |<              |Es 6 < 12? True            |
 |Mayor o igual |>=             |Es 6 <= 6? True<br>Es 3 <= 6? True    |
 |Menor o igual  |<=            |Tienes la idea 🙂       |
 
@@ -202,9 +240,22 @@ if (number > 18) {
 
 Similar a if…else… pero un poco más organizado. Aquí especificarás todos los escenarios de casos posibles, incluido el "escenario predeterminado" que ocurrirá si no sucede ninguno de los otros escenarios.
 
-<iframe src="https://replit.com/@4GeeksAcademy/Conditionals?embed=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+```js runable=true
+var weekday = 'monday';
 
-<div align="right"><small><a href="https://replit.com/@4GeeksAcademy/Conditionals">]Haz clic aquí para abrir demo en una nueva ventana</a></small></div>
+switch(weekday)
+{
+	case "monday":
+		console.log('Its going to be a long week');
+	break;
+	case "friday":
+		console.log('Party time!');
+	break;
+	default:
+		console.log('Just another boring day....');
+	break;
+}
+```
 
 > Usa `switch` en lugar de `if` cuando: <br><br> • Estés comparando varias condiciones posibles de una expresión y la expresión en sí no es trivial.<br>• Si tienes múltiples valores que pueden requerir el mismo código. <br> • Si tienes algunos valores que requerirán esencialmente toda la ejecución de otro valor, además de unas pocas declaraciones. <br><br> Utiliza `if` en lugar de `switch` cuando: <br><br> • Deseas probar la veracidad de una expresión. <br> • Solo tienes una única prueba afirmativa. <br> • Necesitas evaluar diferentes expresiones para cada rama.
 
@@ -218,7 +269,7 @@ Imagina que estás dentro de un ascensor: el ascensor debe girar en bucle por lo
 
 Un bucle `while` ejecutará un bloque de código siempre que una condición sea verdadera. Una vez que la condición sea falsa, el bucle dejará de ejecutar el bloque de código.
 
-```javascript
+```javascript runable=true
 let sum = 0;
 let number = 1;
 while (number <= 50) {
@@ -240,9 +291,9 @@ El `for` es similar a `while`, con la única diferencia de que debes especificar
 <div align="right"><small><a href="https://www.youtube.com/embed/TSMzvFwpE_A">Haz clic aquí para abrir el video en una nueva ventana</a></small></div>
 <br>
 
-```javascript
+```javascript runable=true
 for (let i = 0; i < 10; i++) {
-    document.write("This is number" + " " + i);
+    console.log("This is number" + " " + i);
 }
 ```
 
@@ -254,7 +305,7 @@ Los bucles `For…in` pueden usarse para recorrer con un bucle las propiedades d
 bloque de código a ejecutarse<br>
 }
 
-```javascript
+```js runable=true
 const perro = {
   razas: "Gran Danés",
   tamaño: "Extra grande",

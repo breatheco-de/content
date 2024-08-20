@@ -19,7 +19,7 @@ People say that React.js makes the easy stuff hard and the hard stuff easy. It's
 
 3. [Redux](https://redux.js.org/)?? Overkill.
 
-### The Context API is here to solve some of those conundrums by:
+### The Context API is here to solve some of those conundrums by
 
 1. Centralizing a global application state: Instead of being limited to local states on views, you can now share data on one central component and spread to its inner components (children, grandchildren and so forth). The centralized state is called **store**, and we can spread it by using the **Context.Provider**.
 
@@ -55,7 +55,7 @@ We must split the **store** from the **actions** and the **views** (components) 
 
 Ok, after a couple of hours to make the context API implementation simpler without using bindings... this is what I got in 5 simple steps!:
 
-- **Step 1 (Create the context)**: This step has almost no logic, just call the `createContext` function from React. That object will be shared within all the consumers during the application's lifetime, it will contain the application **store** and **actions**.
++ **Step 1 (Create the context)**: This step has almost no logic, just call the `createContext` function from React. That object will be shared within all the consumers during the application's lifetime, it will contain the application **store** and **actions**.
 
 *AppContext.js*
 
@@ -67,11 +67,12 @@ import React from 'react';
 const AppContext = React.createContext(null);
 ```
 
-- **Step 2 (Store and Actions)**: Create a `ContextWrapper` component which will be used to pass the context (step 1) to the Consumers. The `ContextWrapper`'s state is where we declare our initial *global state*, which includes the data (store) and the functions (actions). 
++ **Step 2 (Store and Actions)**: Create a `ContextWrapper` component which will be used to pass the context (step 1) to the Consumers. The `ContextWrapper`'s state is where we declare our initial *global state*, which includes the data (store) and the functions (actions).
 
 > Note that we have to export both `AppContext` and `ContextWrapper`.
 
 *AppContext.js*
+
 ```js
 // Step 2: Create a ContextWrapper component that has to be the parent of every consumer
 
@@ -80,22 +81,22 @@ import React, { useState } from 'react';
 export const AppContext = React.createContext(null);
 
 export const ContextWrapper = (props) => {
-	const [ store, setStore ] = useState({
-		todos: ["Make the bed", "Take out the trash"]
-	});
-	const [ actions, setActions ] = useState({
-		addTask: title => setStore({ ...store, todos: store.todos.concat(title) })
-	});
-	
-	return (
-		<AppContext.Provider value={{ store, actions }}>
-			{props.children}
-		</AppContext.Provider>
-	);
+ const [ store, setStore ] = useState({
+  todos: ["Make the bed", "Take out the trash"]
+ });
+ const [ actions, setActions ] = useState({
+  addTask: title => setStore({ ...store, todos: store.todos.concat(title) })
+ });
+ 
+ return (
+  <AppContext.Provider value={{ store, actions }}>
+   {props.children}
+  </AppContext.Provider>
+ );
 }
 ```
 
-- **Step 3 (Views)**: Now your main component can be wrapped inside `ContextWrapper` so that all child components will have access to the **Context**. For this quick example, we will be using the `<TodoList />` component as our main component (the declaration is on the last step).
++ **Step 3 (Views)**: Now your main component can be wrapped inside `ContextWrapper` so that all child components will have access to the **Context**. For this quick example, we will be using the `<TodoList />` component as our main component (the declaration is on the last step).
 
 *index.js*
 
@@ -109,15 +110,15 @@ import { ContextWrapper } from 'path/to/AppContext.js';
 import TodoList from 'path/to/TodoList';
 
 const MyView = () => (
-	<ContextWrapper>
-		<TodoList />
-	</ContextWrapper>
-	);
+ <ContextWrapper>
+  <TodoList />
+ </ContextWrapper>
+ );
 
 ReactDOM.render(<MyView />, document.querySelector("#app"));
 ```
 
-- **Step 4**: Now we can create the `TodoList` component, knowing that we can use `useContext()` hook to read the store from the **global state** (no props necessary).
++ **Step 4**: Now we can create the `TodoList` component, knowing that we can use `useContext()` hook to read the store from the **global state** (no props necessary).
 
 In this case, the component will render the to-do's and also be able to add new tasks to the list.
 
@@ -128,21 +129,21 @@ import React, { useContext } from 'react';
 import { AppContext } from 'path/to/AppContext.js';
 
 export const TodoList = () => {
-	const context = useContext(AppContext);
-	return <div>
-		{context.store.todos.map((task, i) => (<li key={i}>{task}</li>))}
-		<button onClick={() => context.actions.addTask("I am the task " + context.store.todos.length)}> + add </button>
-	</div>
+ const context = useContext(AppContext);
+ return <div>
+  {context.store.todos.map((task, i) => (<li key={i}>{task}</li>))}
+  <button onClick={() => context.actions.addTask("I am the task " + context.store.todos.length)}> + add </button>
+ </div>
 }
 ```
 
-Very often we will use the `useContext` hook that you see above 
+Very often we will use the `useContext` hook that you see above
 
 ```javascript
 const context = useContext(AppContext);
 return <div>
-	{context.store.todos.map((task, i) => (<li key={i}>{task}</li>))}
-	<button onClick={() => context.actions.addTask("I am the task " + context.store.todos.length)}> + add </button>
+ {context.store.todos.map((task, i) => (<li key={i}>{task}</li>))}
+ <button onClick={() => context.actions.addTask("I am the task " + context.store.todos.length)}> + add </button>
 </div>
 ```
 
@@ -151,14 +152,18 @@ In its destructured variant. Pay attention to how that also simplifies the way w
 ```javascript
 const {store, actions} = useContext(AppContext);
 return <div>
-	{store.todos.map((task, i) => (<li>{task}</li>))}
-	<button onClick={() => actions.addTask("I am the task " + store.todos.length)}> + add </button>
+ {store.todos.map((task, i) => (<li>{task}</li>))}
+ <button onClick={() => actions.addTask("I am the task " + store.todos.length)}> + add </button>
 </div>
 ```
 
 ## Test the code live
 
-<iframe src="https://codesandbox.io/embed/w75wq6v01k?fontsize=14&hidenavigation=1&theme=dark" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
-
-<div align="right"><small><a href="https://codesandbox.io/s/w75wq6v01k?from-embed">Click here to open demo in a new window</a></small></div>
-
+<iframe src="https://codesandbox.io/embed/w75wq6v01k?view=editor+%2B+preview&module=%2Findex.js&hidenavigation=1"
+     style="width:100%; height: 500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="Example of React&#039;s new context API"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+   
+<div align="right"><small><a href="https://codesandbox.io/p/sandbox/w75wq6v01k">Click here to open demo in a new window</a></small></div>
