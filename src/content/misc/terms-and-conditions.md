@@ -5,8 +5,6 @@ tags: ["4geeks"]
 
 ---
 
-## Website usage terms and conditions
-
 In using this website you are deemed to have read and agreed to the following terms and conditions:
 
 Welcome to our website. If you continue to browse and use this website, you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern 4Geeks Academy’s relationship with you in relation to this website. If you disagree with any part of these terms and conditions, please do not use our website.
@@ -74,4 +72,4 @@ The Company reserves the right to change these conditions from time to time, and
 
 These terms and conditions form part of the Agreement between the Client and ourselves. Your accessing of this website and/or undertaking of a booking or Agreement indicates your understanding, agreement to and acceptance, of the Disclaimer Notice and the full Terms and Conditions contained herein. Your statutory Consumer Rights are unaffected.   
 
-© 4Geeks Academy, L.L.C 2019 All Rights Reserved
+© 4Geeks Academy, L.L.C 2024 All Rights Reserved
