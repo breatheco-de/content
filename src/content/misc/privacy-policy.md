@@ -7,9 +7,9 @@ Personal information is any information about you which can be used to identify 
 
 In the event our site contains links to third-party sites and services, please be aware that those sites and services have their own privacy policies. After following a link to any third-party content, you should read their posted privacy policy information about how they collect and use personal information. This Privacy Policy does not apply to any of your activities after you leave our site.
 
-This policy is effective as of 18 April 2023.
+This policy is effective as of April 18, 2023
 
-Last updated: 18 April 2023
+Last updated: August 23, 2024
 
 ### Information We Collect
 
@@ -19,7 +19,7 @@ Information we collect falls into one of two categories: “voluntarily provided
 
 “Automatically collected” information refers to any information automatically sent by your devices in the course of accessing our products and services.
 
-#### Log Data
+### Log Data
 
 When you visit our website, our servers may automatically log the standard data provided by your web browser. It may include your device’s Internet Protocol (IP) address, your browser type and version, the pages you visit, the time and date of your visit, the time spent on each page, and other details about your visit.
 
@@ -27,7 +27,7 @@ Additionally, if you encounter certain errors while using the site, we may autom
 
 Please be aware that while this information may not be personally identifying by itself, it may be possible to combine it with other data to personally identify individual persons.
 
-#### Personal Information
+### Personal Information
 
 We may ask for personal information — for example, when you subscribe to our newsletter or when you contact us — which may include one or more of the following:
 
@@ -36,15 +36,32 @@ We may ask for personal information — for example, when you subscribe to our n
 - Social media profiles
 - Phone/mobile number
 
+### Sensitive Information
+
+“Sensitive information” or “special categories of data” is a subset of personal information that is given a higher level of protection. Examples of sensitive information include information relating to your racial or ethnic origin, political opinions, religion, trade union or other professional associations or memberships, philosophical beliefs, sexual orientation, sexual practices or sex life, criminal records, health information, or biometric information.
+
+The types of sensitive information that we may collect about you include:
+
+- Racial or ethnic origin
+- Sexual orientation
+
+We will not collect sensitive information about you without first obtaining your consent, and we will only use or disclose your sensitive information as permitted, required, or authorized by law.
+
+### User-Generated Content
+
+We consider “user-generated content” to be materials (text, image and/or video content) voluntarily supplied to us by our users for the purpose of publication, processing, or usage on our platform. All user-generated content is associated with the account or email address used to submit the materials.
+
+Please be aware that any content you submit for the purpose of publication will be public after posting (and subsequent review or vetting process). Once published, it may be accessible to third parties not covered under this privacy policy.
+
 #### Transaction Data
 
 Transaction data refers to data that accumulates over the normal course of operation on our platform. This may include transaction records, stored files, user profiles, analytics data and other metrics, as well as other types of information, created or generated, as users interact with our services.
 
-#### Legitimate Reasons for Processing Your Personal Information
+### Legitimate Reasons for Processing Your Personal Information
 
 We only collect and use your personal information when we have a legitimate reason for doing so. In which instance, we only collect personal information that is reasonably necessary to provide our services to you.
 
-#### Collection and Use of Information
+### Collection and Use of Information
 
 We may collect personal information from you when you do any of the following on our website:
 
@@ -68,9 +85,9 @@ We may combine voluntarily provided and automatically collected personal informa
 
 #### Security of Your Personal Information
 
-When we collect and process personal information, and while we retain this information, we will protect it within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use, or modification.
+When we collect and process personal information, and while we retain this information, we will protect it within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.
 
-Although we will do our best to protect the personal information you provide to us, we advise that no method of electronic transmission or storage is 100% secure, and no one can guarantee absolute data security.
+Although we will do our best to protect the personal information you provide to us, we advise that no method of electronic transmission or storage is 100% secure and no one can guarantee absolute data security.
 
 You are responsible for selecting any password and its overall security strength, ensuring the security of your own information within the bounds of our services. For example, ensuring any passwords associated with accessing your personal information and accounts are secure and confidential.
 
@@ -82,26 +99,29 @@ However, if necessary, we may retain your personal information for our complianc
 
 ### Children’s Privacy
 
-We do not aim any of our products or services directly at children under the age of 13, and we do not knowingly collect personal information about children under 13.
+We do not aim any of our products or services directly at children under the age of 13 and we do not knowingly collect personal information about children under 13.
 
 ### Disclosure of Personal Information to Third Parties
 
 We may disclose personal information to:
 
-- a parent, subsidiary, or affiliate of our company
-- third-party service providers for the purpose of enabling them to provide their services, including (without limitation) IT service providers, data storage, hosting and server providers, analytics, error loggers, debt collectors, maintenance or problem-solving providers, marketing providers, professional advisors, and payment systems operators
+- a parent, subsidiary or affiliate of our company
+- third-party service providers for the purpose of enabling them to provide their services, including (without limitation) IT service providers, data storage, hosting and server providers,ad networks,analytics,error loggers, debt collectors, maintenance or problem-solving providers,marketingproviders,professional advisors, and payment systems operators
 - our employees, contractors, and/or related entities
 - our existing or potential agents or business partners
 - credit reporting agencies, courts, tribunals, and regulatory authorities, in the event you fail to pay for goods or services we have provided to you
 - courts, tribunals, regulatory authorities, and law enforcement officers, as required by law, in connection with any actual or prospective legal proceedings, or in order to establish, exercise, or defend our legal rights
-- third parties, including agents or sub-contractors, who assist us in providing information, products, services, or direct marketing to you
+- third parties, including agents or sub-contractors who assist us in providing information, products, services, or direct marketing to you
 - third parties to collect and process data
 - an entity that buys, or to which we transfer all or substantially all of our assets and business
 
 Third parties we currently use include:
 
 - Google Analytics
+- Hotjar
+- Google Tag Manager
 - ActiveCampaign
+- Brevo
 - Stripe
 
 ### Your Rights and Controlling Your Personal Information
@@ -126,7 +146,7 @@ Third parties we currently use include:
 
 ### Use of Cookies
 
-We use “cookies” to collect information about you and your activity across our site. A cookie is a small piece of data that our website stores on your computer, and accesses each time you visit, so we can understand how you use our site. This helps us serve you content based on preferences you have specified.
+We use "cookies" to collect information about you and your activity across our site. A cookie is a small piece of data that our website stores on your computer, and accesses each time you visit, so we can understand how you use our site. This helps us serve you content based on preferences you have specified.
 
 Please refer to our Cookie Policy for more information.
 
@@ -150,7 +170,7 @@ If required by law, we will get your permission or give you the opportunity to o
 
 #### Data Controller / Data Processor
 
-The GDPR distinguishes between organisations that process personal information for their own purposes (known as “data controllers”) and organizations that process personal information on behalf of other organizations (known as “data processors”). We, 4Geeks Investments LLC, located at the address provided in our Contact Us section, are a Data Controller and/or Processor with respect to the personal information you provide to us.
+The GDPR distinguishes between organisations that process personal information for their own purposes (known as "data controllers") and organisations that process personal information on behalf of other organisations (known as "data processors"). We, 4Geeks Investments LLC, located at the address provided in our Contact Us section, are a Data Controller and/or Processor with respect to the personal information you provide to us.
 
 #### Legal Bases for Processing Your Personal Information
 
@@ -158,19 +178,19 @@ We will only collect and use your personal information when we have a legal righ
 
 Our lawful bases depend on the services you use and how you use them. This means we only collect and use your information on the following grounds:
 
-##### Consent From You
+### Consent From You
 
 Where you give us consent to collect and use your personal information for a specific purpose. You may withdraw your consent at any time using the facilities we provide; however this will not affect any use of your information that has already taken place. You may consent to providing your email address for the purpose of receiving marketing emails from us. While you may unsubscribe at any time, we cannot recall any email we have already sent. If you have any further enquiries about how to withdraw your consent, please feel free to enquire using the details provided in the Contact Us section of this privacy policy.
 
-##### Performance of a Contract or Transaction
+### Performance of a Contract or Transaction
 
 Where you have entered into a contract or transaction with us, or in order to take preparatory steps prior to our entering into a contract or transaction with you. For example, if you purchase a product, service, or subscription from us, we may need to use your personal and payment information in order to process and deliver your order.
 
-##### Our Legitimate Interests
+### Our Legitimate Interests
 
 Where we assess it is necessary for our legitimate interests, such as for us to provide, operate, improve and communicate our services. We consider our legitimate interests to include research and development, understanding our audience, marketing and promoting our services, measures taken to operate our services efficiently, marketing analysis, and measures taken to protect our legal rights and interests.
 
-##### Compliance with Law
+### Compliance with Law
 
 In some cases, we may have a legal obligation to use or keep your personal information. Such cases may include (but are not limited to) court orders, criminal investigations, government requests, and regulatory obligations. If you have any further enquiries about how we retain personal information in order to comply with the law, please feel free to enquire using the details provided in the Contact Us section of this privacy policy.
 
@@ -188,15 +208,13 @@ We will ensure that any transfer of personal information from countries in the E
 
 **Deletion:** You may have a right to request that we delete the personal information we hold about you at any time, and we will take reasonable steps to delete your personal information from our current records. If you ask us to delete your personal information, we will let you know how the deletion affects your use of our website or products and services. There may be exceptions to this right for specific legal reasons which, if applicable, we will set out for you in response to your request. If you terminate or delete your account, we will delete your personal information within 30 days of the deletion of your account. Please be aware that search engines and similar third parties may still retain copies of your personal information that has been made public at least once, like certain profile information and public comments, even after you have deleted the information from our services or deactivated your account.
 
-### Additional Disclosures for California Compliance (US)
+### Additional Disclosures for U.S. States Privacy Law Compliance.
 
-Under California Civil Code Section 1798.83, if you live in California and your business relationship with us is mainly for personal, family, or household purposes, you may ask us about the information we release to other organizations for their marketing purposes.
-
-To make such a request, please contact us using the details provided in this privacy policy with “Request for California privacy information” in the subject line. You may make this type of request once every calendar year. We will email you a list of categories of personal information we revealed to other organisations for their marketing purposes in the last calendar year, along with their names and addresses. Not all personal information shared in this way is covered by Section 1798.83 of the California Civil Code.
+The following section includes provisions that comply with the privacy laws of these states (California, Colorado, Delaware, Florida, Virginia, and Utah) and is applicable only to the residents of those states. Specific references to a particular state (in a heading or in the text) are only a reference to that state's law and applies only to that state's residents. Non-state specific language applies to all of the states listed above.
 
 #### Do Not Track
 
-Some browsers have a “Do Not Track” feature that lets you tell websites that you do not want to have your online activities tracked. At this time, we do not respond to browser “Do Not Track” signals.
+Some browsers have a "Do Not Track" feature that lets you tell websites that you do not want to have your online activities tracked. At this time, we do not respond to browser "Do Not Track" signals.
 
 We adhere to the standards outlined in this privacy policy, ensuring we collect and process personal information lawfully, fairly, transparently, and with legitimate, legal reasons for doing so.
 
@@ -204,19 +222,24 @@ We adhere to the standards outlined in this privacy policy, ensuring we collect 
 
 At all times, you may decline cookies from our site if your browser permits. Most browsers allow you to activate settings on your browser to refuse the setting of all or some cookies. Accordingly, your ability to limit cookies is based only on your browser’s capabilities. Please refer to the Cookies section of this privacy policy for more information.
 
-#### CCPA-permitted financial incentives
+#### California Privacy Laws - CPPA
 
-In accordance with your right to non-discrimination, we may offer you certain financial incentives permitted by the CCPA that can result in different prices, rates, or quality levels for the goods or services we provide.
+Under California Civil Code Section 1798.83, if you live in California and your business relationship with us is mainly for personal, family, or household purposes, you may ask us about the information we release to other organizations for their marketing purposes. In accordance with your right to non-discrimination, we may offer you certain financial incentives permitted by the California Consumer Privacy Act, and the California Privacy Rights Act (collectively, CCPA) that can result in different prices, rates, or quality levels for the goods or services we provide. Any CCPA-permitted financial incentive we offer will reasonably relate to the value of your personal information, and we will provide written terms that describe clearly the nature of such an offer. Participation in a financial incentive program requires your prior opt-in consent, which you may revoke at any time.
 
-Any CCPA-permitted financial incentive we offer will reasonably relate to the value of your personal information, and we will provide written terms that describe clearly the nature of such an offer. Participation in a financial incentive program requires your prior opt-in consent, which you may revoke at any time.
+Under California Civil Code Section 1798.83, if you live in California and your business relationship with us is mainly for personal, family, or household purposes, you may ask us about the information we release to other organizations for their marketing purposes. To make such a request, please contact us using the details provided in this privacy policy with “Request for California privacy information” in the subject line. You may make this type of request once every calendar year. We will email you a list of categories of personal information we revealed to other organisations for their marketing purposes in the last calendar year, along with their names and addresses. Not all personal information shared in this way is covered by Section 1798.83 of the California Civil Code.
 
 #### California Notice of Collection
+
+In the past 12 months, we have collected the following categories of personal information enumerated in the CCPA:
+
+- Audio or visual data, such as photos or videos you share with us or post on the service.
+- Geolocation data.
 
 For more information on information we collect, including the sources we receive information from, review the “Information We Collect” section. We collect and use these categories of personal information for the business purposes described in the “Collection and Use of Information” section, including to provide and manage our Service.
 
 #### Right to Know and Delete
 
-If you are a California resident, you have rights to delete your personal information we collected and know certain information about our data practices in the preceding 12 months. In particular, you have the right to request the following from us:
+You have rights to delete your personal information we collected and know certain information about our data practices in the preceding 12 months. In particular, you have the right to request the following from us:
 
 - The categories of personal information we have collected about you;
 - The categories of sources from which the personal information was collected;
@@ -229,13 +252,13 @@ To exercise any of these rights, please contact us using the details provided in
 
 #### Shine the Light
 
-If you are a California resident, in addition to the rights discussed above, you have the right to request information from us regarding the manner in which we share certain personal information as defined by California’s “Shine the Light” with third parties and affiliates for their own direct marketing purposes.
+In addition to the rights discussed above, you have the right to request information from us regarding the manner in which we share certain personal information as defined by applicable statute with third parties and affiliates for their own direct marketing purposes.
 
-To receive this information, send us a request using the contact details provided in this privacy policy. Requests must include “California Privacy Rights Request” in the first line of the description and include your name, street address, city, state, and ZIP code.
+To receive this information, send us a request using the contact details provided in this privacy policy. Requests must include “Privacy Rights Request” in the first line of the description and include your name, street address, city, state, and ZIP code.
 
 ### Contact Us
 
 For any questions or concerns regarding your privacy, you may contact us using the following details:
 
-Tomas Gonzalez  
+Tomas Gonzalez
 privacy@4geeks.com
