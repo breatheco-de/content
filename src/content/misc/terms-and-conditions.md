@@ -5,8 +5,6 @@ tags: ["4geeks"]
 
 ---
 
-# 4Geeks Academy
-
 ## Website usage terms and conditions
 
 In using this website you are deemed to have read and agreed to the following terms and conditions:
