@@ -1,6 +1,6 @@
 ---
 title: "Introducción al Pre Work"
-subtitle: "Nosotros sabemos lo que hacemos, tu deberías saberlo también.  Conoce el proceso que hemos pulido para que puedas aprender 2 años de contenido en unas pocas semanas."
+subtitle: "Nosotros sabemos lo que hacemos, tú deberías saberlo también.  Conoce el proceso que hemos pulido para que puedas aprender 2 años de contenido en unas pocas semanas."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
@@ -49,7 +49,7 @@ Alrededor del 90% de nuestros estudiantes encuentran trabajo después de graduar
 
 4Geeks se destaca por varias razones:
 
-1. Nuestras membresías: GeekPAL (siempre tienes un mentor disponible para apoyar tu proceso de aprendizaje 24/7 y personalizado), y GeekFORCE (nos aseguraremos de que consigas un trabajo, de que tengas un perfil sólido y de que hagas una carrera a partir del Bootcamp)
+1. Nuestras membresías: GeekPAL (siempre tienes un mentor disponible para apoyar tu proceso de aprendizaje 24/7 y personalizado), y GeekFORCE (nos aseguraremos de que consigas un trabajo, de que tengas un perfil sólido y de que hagas una carrera a partir del Bootcamp).
 2. Nuestra pasión por enseñar a programar.
 3. Nuestros resultados: aquí hay un informe (de abril de 2019) para que lo revises: https://www.4geeksacademy.co/wp-content/uploads/2020/03/4Geeks-Outcomes-Report-.pdf
 
@@ -109,7 +109,7 @@ Sabemos que algunos de ustedes ya tienen sus propias herramientas, pero dejemos 
     <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/59bf0e4e-f5cf-410c-b2bc-fdc7472e7cdc.jpeg?raw=true" width="180">
 </p>
 
-<sub><sup>Shuhari es un concepto de arte marcial japonés, y describe las etapas del aprendizaje hasta su maestría, [click aquí para leer más.](https://es.wikipedia.org/wiki/Shuhari)</sup></sub>
+<sub><sup>Shuhari es un concepto de arte marcial japonés, y describe las etapas del aprendizaje hasta su maestría. [Haz clic aquí para leer más.](https://es.wikipedia.org/wiki/Shuhari)</sup></sub>
 
 
 | HERRAMIENTAS OBLIGATORIAS                                 | OTROS MATERIALES DE APOYO  |
