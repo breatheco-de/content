@@ -2,7 +2,7 @@
 
 You can contribute by writing an article, fixing a bug, etc.
 
-[Here you will find all the articles inside the repository](https://github.com/breatheco-de/content/tree/docs/src/content), some of them are:
+[Here you will find all the articles inside the repository](https://github.com/breatheco-de/applied-ai-syllabus/tree/main/content), some of them are:
 - Published: already finished but you can still make small changes like fixing grammar errors.
 - Draft: someone is already working on it but it's not finished yet.
 - Unassigned: no one has picked that article or started working on it.
