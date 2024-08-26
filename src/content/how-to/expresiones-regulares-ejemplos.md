@@ -136,6 +136,6 @@ Para encontrar palabras no case sensitive existen algunas diferencia entre Javas
 
 ## Conclusión
 
-En este artículo vimos algunos ejemplos de algunas de las expresiones regulares más comunes en dos de los lenguajes de programación más conocidos actualmente **Javascript** y **Python**, recuerda que la sintaxis de las expresiones regulares puede variar un poco dependiendo del lenguaje de programación pero en su mayoría la implementación de expresiones regulares es muy similar en muchos lenguajes de programación.
+Las expresiones regulares son un tema profundo y extenso, y este artículo ha servido como una introducción a sus conceptos básicos. Sin embargo, es importante recordar que la maestría en expresiones regulares requiere práctica y dedicación. A medida que te adentres más en el mundo de la programación, descubrirás nuevas y creativas formas de aplicar las expresiones regulares para resolver problemas cada vez más complejos.
 
-Las expresiones regulares son una herramienta muy útil en el mundo de la programación que todo desarrollador de software debe saber implementar, además puedes utilizar expresiones regulares en conjunto con otros métodos para hacer tu código más eficiente y incluso legible en algunas ocasiones.
+Te invitamos a explorar la amplia documentación disponible en línea, así como a participar en comunidades de desarrolladores donde podrás compartir tus conocimientos y aprender de otros. Recuerda que el aprendizaje es un proceso continuo, y las expresiones regulares son una herramienta que te acompañará a lo largo de tu carrera como programador.
