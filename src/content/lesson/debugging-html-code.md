@@ -28,7 +28,7 @@ Let's go over each of them in detail.
 
 ### 1) Inspecting the HTML source code
 
-You may assume that the code you wrote is the one being displayed by the website. NOPE! There are multiple reasons why your original code may not match the source code being used on the website.
+You may assume that the code you wrote is the one being displayed by the website. NOPE!!! There are multiple reasons why your original code may not match the source code being used on the website.
 
 + Browser Cache (the most common cause): Your browser sometimes keeps an old version on purpose.
 + Server-side dynamic rendering: Using a server-side language to manipulate the source code before it arrives in the browser.
