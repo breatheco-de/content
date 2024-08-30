@@ -76,7 +76,7 @@ CSS has some hard-to-understand topics that can follow you for years and create 
 
 ## Absolute vs Relative positioning
 
-Do not use the **position property** for layouts, use `display: flex;` instead.
+Do not use the **position property** for layouts, use `display:flex;` instead.
 
 I use the position rule for little things like attaching a notification bubble to an icon. Here is a 10 min video on [how absolute vs relative position work](https://www.loom.com/share/3715da41c2ec45be8711c4f8944e406b).
 
