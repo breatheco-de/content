@@ -43,7 +43,7 @@ It's a good idea to break down bugs into "types" so we can prepare strategies fo
 
 Debugging front-end code can be split into 4 main groups: 
 
-1. **HTML/CSS bugs**: Layout mismatches vs. original design, confusions created by the browser cache, a missing HTML `<tags>`, or some CSS rules not being applied correctly.
+1. **HTML/CSS bugs**: Layout mismatches vs. original design, confusion created by the browser cache, a missing HTML `<tags>`, or some CSS rules not being applied correctly.
 2. **JavaScript logic bugs**: Usually undefined or unexpected variable values, wrong logical conditions or flow, and syntax issues.
 3. **Rendering with Component framework bugs**: Dealing with the DOM, React Rendering, etc. Typical errors are not waiting for data to arrive from the back-end leading to undefined variables (too early), too many re-renders, wrong importing or exporting of variables, or not passing the data correctly between components.
 4. **Integration with the back-end bugs**: Fetch and HTTP requests with wrong payload, missing authentication credentials, not interpreting the back-end payload response correctly, or not handling promise exceptions, CORS errors.
@@ -65,7 +65,7 @@ Debugging back-end code can be split into 4 main groups:
 
 Debugging becomes more challenging as your application grows into more pieces that connect. This is why it's imperative to constantly run your code on almost every change (hot reload) instead of waiting until you have made many changes. Remembering the latest change you made to your code before the bug showed up gives you a lot of leverage.
 
-> 😎 Pro tip: Generally, what was the line of code that you last updated? Was it in the front end? Or the back end?
+> 😎 Pro tip: Generally, what was the line of code that you last updated? Was it in the front end? Or the back-end?
 
 I'm going to assume the worst: You have no idea when the bug first appeared and have made many changes since the last time you ran your application. So these are the clues you have to watch to start debugging:
 
