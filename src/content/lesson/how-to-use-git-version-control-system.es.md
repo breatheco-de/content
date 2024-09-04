@@ -44,7 +44,7 @@ Un **repositorio** GIT se compone de lo siguiente:
 
 El repositorio de GIT se almacena dentro del mismo directorio que se encuentra el proyecto en un subdirectorio -oculto- llamado .git:
 
-+ Solo hay un directorio .git - ubicado en el directorio raíz del proyecto.
++ Existe un unico directorio .git - ubicado en el directorio raíz del proyecto.
 + El repositorio se almacena dentro del proyecto.
 
 <p>
