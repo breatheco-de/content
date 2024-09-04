@@ -1,5 +1,5 @@
 ---
-title: "Creación de Componentes React - Aprende qué es y cómo crear un componente React"
+title: "Creación de componentes React - Aprende qué es y cómo crear un componente React"
 subtitle: "Los componentes son el pan de cada día en React.js. Aprende qué es y cómo crear componentes en React utilizando propiedades, el estado del componente y aprendiendo las sintaxis más comunes."
 tags: ["reactjs"]
 
@@ -11,11 +11,11 @@ Un componente React es como una de esas piezas LEGO. Es una unidad autónoma que
 
 > 📝 Los componentes no son un concepto nuevo en el desarrollo web, ya que bibliotecas como bootstrap ya definen los [componentes de bootstrap](https://4geeks.com/es/lesson/tutorial-aprende-bootstrap-5-en-10-minutos) como el `navbar`, `lista desplegable`, `modal`, etc.
 
-## En React.js Todo es un Componente
+## En React.js Todo es un componente
 
-React.js separa tu código en pequeñas piezas llamadas Componentes, que se pueden crear/definir usando una sintaxis de **clase** (legado) o como una sintaxis de **función**. Cada componente es como una pequeña aplicación React que tiene su propia lógica y propósito, que es mostrar o **renderizar** algo de HTML.
+React.js separa tu código en pequeñas piezas llamadas componentes, que se pueden crear/definir usando una sintaxis de **clase** (legado) o como una sintaxis de **función**. Cada componente es como una pequeña aplicación React que tiene su propia lógica y propósito, que es mostrar o **renderizar** algo de HTML.
 
-Casi cualquier HTML puede ser encapsulado y codificado como un **Componente React**. Para hacerlo, cada componente React necesita tener una declaración `return` que devuelva algún código JSX (HTML + JS embebido). Por ejemplo, aquí está el clásico `navbar` de bootstrap encapsulado como un **Componente React**.
+Casi cualquier HTML puede ser encapsulado y codificado como un **componente React**. Para hacerlo, cada componente React necesita tener una declaración `return` que devuelva algún código JSX (HTML + JS embebido). Por ejemplo, aquí está el clásico `navbar` de bootstrap encapsulado como un **componente React**.
 
 ```jsx
 import React from 'react';
@@ -30,7 +30,7 @@ function NavBar(props){
 
 > ☝️ Hay una manera antigua de usar clases de js para crear componentes, pero ya no la mostramos ni la recomendamos ya que fue deprecada hace mucho tiempo.
 
-## Usando un Componente
+## Usando un componente
 
 Una vez que has creado tu primer componente, puedes incluirlo o usarlo dentro del resto de tu código escribiendo el nombre de la función como una etiqueta HTML `<tag>`. Por ejemplo, si creaste un componente usando la sintaxis de función llamado Home, puedes incluirlo en tu código usando la etiqueta `<Home>` de esta manera:
 
@@ -58,7 +58,7 @@ root.render(<Home />);
 
 > 🔥 Observa que en JSX necesitamos usar el nombre de atributo 'className' en lugar de 'class', esto es porque React decidio apegarse al [className de los elementos del DOM](https://developer.mozilla.org/en-US/docs/Web/API/Element/className) en lugar de su equivalente class en la sintaxis de HTML.
 
-## Las Propiedades del Componente (properties)
+## Las Propiedades del componente (properties)
 
 A veces, un componente necesita información dinámica para mostrar. Por ejemplo, necesitamos que nuestro componente `<Navbar />` muestre la lista de enlaces disponibles y el logotipo de la marca. Podemos incluir esa información dentro de la llamada del componente `<Navbar />` de la misma manera que lo hacemos en las etiquetas HTML.
 
@@ -205,7 +205,7 @@ El hook `useEffect` proporciona una forma unificada y más flexible de manejar e
 
 > 🔗 Aquí puedes encontrar [más información sobre todos los métodos del ciclo de vida de React JS.](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
 
-## Componentes funcionales vs. componentes de clase
+## componentes funcionales vs. componentes de clase
 
 Los componentes de clase ya no son recomendados, por lo que actualizamos este artículo para eliminar estas explicaciones, por favor utiliza componentes funcionales en su lugar.
 
