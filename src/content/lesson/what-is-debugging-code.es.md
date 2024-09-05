@@ -17,7 +17,7 @@ Estos errores pueden ser muy simples, como escribir mal una línea de código, o
 
 A lo largo de los años, he desarrollado una receta de depuración muy efectiva que compartiré a continuación. Me lleva solo unos segundos encontrar y solucionar el 90% de mis errores y fallos, sin dejar lugar para la improvisación o el tiro al aire.
 
-<quote>Depurar es el doble de difícil que escribir el código en primer lugar. Por lo tanto, si escribes el código de la manera más inteligente posible, por definición, no eres lo suficientemente inteligente como para depurarlo. - Brian Kernighan</quote>
+<quote>Depurar es el doble de difícil que escribir el código en primer lugar. Por lo tanto, si escribes el código de la manera más inteligente posible, por definición, no eres lo suficientemente inteligente como para depurarlo.</quote> - Brian Kernighan
 
 ## ¿Quién debería leer esta guía?
 
@@ -29,7 +29,7 @@ Sé que estás aquí para aprender cómo solucionar errores. Aun así, vale la p
 
 > 📄 Aquí hay una guía sobre [normas y directrices de codificación](https://4geeks.com/es/lesson/estandares-y-lineamientos-de-codigo) que te ayudará a tener un código limpio y prevenir errores.
 
-<quote>Si depurar es el proceso de eliminar errores de software, entonces programar debe ser el proceso de ponerlos. - Edsger Dijkstra</quote>
+<quote>Si depurar es el proceso de eliminar errores de software, entonces programar debe ser el proceso de ponerlos.</quote>- Edsger Dijkstra
 
 ## Cómo depurar código: El marco de depuración
 
@@ -63,7 +63,7 @@ Depurar el código de back-end se puede dividir en 4 grupos principales:
 
 ### ¿Cómo saber qué tipo de error tengo?
 
-Depurar se vuelve más desafiante a medida que tu aplicación crece en más piezas que se conectan. Por esta razón, es imperativo ejecutar tu código casi cada vez que cambias algo (recarga rápida) en lugar de esperar hasta que hayas hecho muchos cambios. Recordar el último cambio que hiciste en tu código antes de que apareciera el error te da mucha ventaja.
+Depurar se vuelve más desafiante a medida que tu aplicación crece y tiene más piezas que se conectan. Por esta razón, es imperativo ejecutar tu código casi cada vez que cambias algo (recarga rápida) en lugar de esperar hasta que hayas hecho muchos cambios. Recordar el último cambio que hiciste en tu código antes de que apareciera el error te da mucha ventaja.
 
 > 😎 Consejo profesional: ¿En general, cuál fue la línea de código que actualizaste por última vez? ¿Estaba en el front-end? ¿O en el back-end?
 
