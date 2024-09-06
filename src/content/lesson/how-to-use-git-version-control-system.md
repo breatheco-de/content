@@ -18,20 +18,20 @@ status: "published"
 
 GIT is a great technology, please take the time to learn it. DON’T procrastinate because you cannot avoid it. You will be using it every day, several times a day. So you’d better learn and be comfortable with it.
 
-GIT is more than just a "set of commands" that you have to learn. Throughout the years, we have learned that the best way to teach GIT is by understanding the concepts and meaning of the technology first, rather than just giving you a list of commands to use.
+GIT is more than just a "set of commands" you must learn. Throughout the years, we have learned that the best way to teach GIT is by understanding the concepts and meaning of the technology first, rather than just giving you a list of commands to use.
 
 ## Why Bother to use GIT?
 
-Being the only developer in a project is a [utopia](http://www.thefreedictionary.com/Utopic). Normally, you collaborate with other developers, and, without GIT, that becomes a big problem. That’s why we need a *repository* of information to centralize and manage changes. With a *repository*, we are addressing the following:
+Being the only developer in a project is a [utopia](http://www.thefreedictionary.com/Utopic). Normally, you collaborate with other developers; without GIT, that becomes a big problem. That’s why we need a *repository* of information to centralize and manage changes. With a repository, we are addressing the following:
 
 + If two developers work on **the same page (file)**, GIT will compare both versions and will *(try to)* merge them into a new one.
 + Downloading and integrating someone else’s code (or any code) into your project without much hassle and doing so automatically.
-+ If both developers updated the exact same code, GIT will ask **the last** editing developer to solve any possible conflict.
-+ The code is backed-up all the time with the latest version as the principal.
++ If both developers updated the same code, GIT will ask **the last** editing developer to solve any possible conflict.
++ The code is backed up all the time with the latest version as the principal.
 + Each developer has their own version of the project locally for as long as they want.
 + Working with remote teams.
 
-The purpose of GIT is to interact with the repository of a project (a set of files) as they change over time.
+The purpose of GIT is to interact with a project's repository (a set of files) as they change over time.
 
 ## Architecture of a Repository
 
