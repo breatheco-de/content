@@ -57,7 +57,7 @@ We know how to train you: we have done it over and over again, but we'll train i
 
 1. **Follow the method!** How can you know if it works if you don't try it properly? Do the homework BEFORE coming to class (flipped classroom), follow the syllabus in the recommended order, do the small exercises before jumping to the projects, come to every class, don't read books that will slow you down, etc.
 
-2. **Ask Why?** There is only so much we can say, we need you to raise your concerns privately immediately the moment you start double-guessing our methods, we do everything for a reason and I'm confident that we are going to be able to explain "the why".
+2. **Ask Why?** There is only so much we can say, we need you to raise your concerns privately immediately the moment you start second-guessing our methods, we do everything for a reason and I'm confident that we are going to be able to explain "the why".
 
 3. **Humble yourself:** There are lots of smart students that have completed the course following the method, some of them work at Google, Amazon, and other globally recognized companies. Please be humble enough to try and follow the course as it is. You can talk to us if you have any ideas for improvements; we are also humble enough to be open and try something new that might work.
 
@@ -71,7 +71,7 @@ These are not small numbers, 60% in a day and 90% if you don't practice for a we
 
 1. "Communicate with your spouse, partner, and family: You'll need a break from most obligations. We understand that life is challenging, and adding more responsibilities can be daunting. But remember, this is a temporary commitment, and the rewards are plentiful. Everyone needs to be supportive during this time!"
 
-2. **Talk to your boss:** You may need a few extra hours, weekend time, etc. Be smart about it, or he/she could sabotage it because he is afraid of losing you.
+2. **Talk to your boss:** You may need a few extra hours, weekend time, etc. Be smart about it, or they could sabotage it because he is afraid of losing you.
 
 3. **Don't miss class:** Missing classes is our biggest concern, we are very concerned about attendance because it has shown that it is the #1 deterrent to your motivation. Missing two classes in a row is the perfect storm. You will need to have 1-on-1 mentoring and double the hours through that week to avoid staying behind.
 
