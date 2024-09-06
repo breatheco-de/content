@@ -12,7 +12,7 @@ status: "published"
 
 One of the many operators in Python is the double slash `//` operator, which refers to an integer division (or a division with no remainder/decimals) which is called **Floor Division**. When dividing two numbers using this `//` operator, the result will always be an integer, ignoring the decimal part of the result. 
 
-```py
+```py runnable=true
 num1 = 19
 num2 = 5
 result1 = num1 / num2
@@ -40,7 +40,7 @@ The result of regular division (using the `/` operator) is `45/6=7.5`, but using
 
 We can see another example as follows:
 
-```py
+```py runnable=true
 num1 = 19
 num2 = 5
 result1 = num1 / num2
@@ -60,7 +60,7 @@ To understand how to work with negative numbers using floor division, we need to
 
 We can see another example as follows using the same numbers as before:
 
-```py
+```py runnable=true
 num1 = 19
 num2 = 5
 num3 = -19
@@ -84,7 +84,7 @@ When we work with float numbers using floor division, the result will always be 
 
 Let's have a look at the following float-based floor division example:
 
-```py
+```py runnable=true
 num1 = 17.5
 num2 = 3.3
 num3 = 10
@@ -122,7 +122,7 @@ Therefore, `math.floor()` is an alternative to the `//` operator since they acco
 
 Let's have a look at the following example:
 
-```py
+```py runnable=true
 # importing the math library
 import math
 
@@ -138,7 +138,7 @@ print(math.floor(11.0)) #Output 11
 
 For instance:
 
-```py
+```py runnable=true
 # importing the math library
 import math
 
