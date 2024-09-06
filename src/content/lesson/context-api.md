@@ -53,7 +53,7 @@ We must split the **store** from the **actions** and the **views** (components) 
 
 ### Simple implementation
 
-Ok, after a couple of hours to make the context API implementation simpler without using bindings... this is what I got in 5 simple steps!:
+Ok, after a couple of hours to make the context API implementation simpler without using bindings... this is what I got in 4 simple steps!:
 
 + **Step 1 (Create the context)**: This step has almost no logic, just call the `createContext` function from React. That object will be shared within all the consumers during the application's lifetime, it will contain the application **store** and **actions**.
 
