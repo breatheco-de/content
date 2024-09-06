@@ -81,7 +81,7 @@ La última herramienta de depuración crucial para HTML es su IDE o editor de c�
 
 ### Tags sin cerrar
 
-Si un tag no se cierra correctamente. Por ejemplo, si olvidas cerrar un tag `<div>`: El editor de código podría resaltar todo el bloque de código que sigue al tag sin cerrar en rojo. También puedes ver el error en el terminal si usas complementos como [prettier](https://prettier.io/). Si haces clic en un tag de apertura, el editor también resaltará el tag de cierre.
+Si un tag no se cierra correctamente. Por ejemplo, si olvidas cerrar un tag `<div>`, el editor de código podría resaltar todo el bloque de código que sigue al tag sin cerrar en rojo. También puedes ver el error en el terminal si usas complementos como [prettier](https://prettier.io/). Si haces clic en un tag de apertura, el editor también resaltará el tag de cierre.
 
 ![cómo aparecen los errores de tags no cerrados](https://i.imgur.com/oJEe61z.png?raw=true)
 
