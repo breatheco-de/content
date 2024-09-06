@@ -50,7 +50,7 @@ print("Hola Mundo!")
 
 ### Concatenación de cadenas (sumando strings)
 
-Python permite concatenar cadenas fácilmente utilizando el operador `+`. El siguiente fragmento de código demuestra como sumar doss trings para crear un **nombre completo** a partir de **nombre** y **apellido**:
+Python permite concatenar cadenas fácilmente utilizando el operador `+`. El siguiente fragmento de código demuestra como sumar dos strings para crear un **nombre completo** a partir de **nombre** y **apellido**:
 
 ```python
 nombre = "Alejandro"
@@ -86,9 +86,9 @@ print("El string empieza " + pregunta[0])
 print("El string termina con  " + pregunta[size - 1])
 # Resultado: El string termina con ? 
 
-> :point_up: Este método de extracción es muy similar al usado para extraer un elemento ubicado enu na posición en pqrticular en una lista de Python.
+> :point_up: Este método de extracción es muy similar al usado para extraer un elemento ubicado en una posición en particular en una lista de Python.
 
-También puedes extraer varios caracteres a la vez. El rango del método comienza con el índice del primer caracter que vas a extraer y termina con el índice DESPUÉS del último carater que vas a extraer:
+También puedes extraer varios caracteres a la vez. El rango del método comienza con el índice del primer caracter que vas a extraer y termina con el índice DESPUÉS del último carácter que vas a extraer:
 
 ```python
 nombre = "Mi nombre es Alejandro Sanchez"
@@ -128,9 +128,9 @@ string_en_mayuscula = upper(string2) # Lo convierte a mayúsculas.
 
 > :point_up: Es una buena práctica siempre pasar a minuscula los strings antes de compararlos con otros y así evitar errores.
 
-### Convertir strings a números o visceversa
+### Convertir strings a números o viceversa
 
-La clase String no porporciona ningún método para convertir una cadena en un número. Sin embargo, cuatro clases de los "tipos envolventes" (Integer, Double, Float, y Long) proporcionan unos métodos de clase llamados valueOf() que convierten una cadena en un objeto de ese tipo. Aquí tenemos un pequeño ejemplo del método valueOf() de la clase Float:
+La clase String no proporciona ningún método para convertir una cadena en un número. Sin embargo, cuatro clases de los "tipos envolventes" (Integer, Double, Float, y Long) proporcionan unos métodos de clase llamados valueOf() que convierten una cadena en un objeto de ese tipo. Aquí tenemos un pequeño ejemplo del método valueOf() de la clase Float:
 
 
 ```python
