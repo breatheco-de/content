@@ -120,7 +120,7 @@ Otros comandos que son útiles en este punto:
 + `git diff` muestra la diferencia entre el HEAD y el estado actual del proyecto. Con la opción --cached, compara archivos agregados contra HEAD; de lo contrario, compara los archivos que aún no se han agregado.
 + `git mv` y `git rm` marcan los archivos para ser movidos (renombrados) y eliminados, respectivamente, de forma muy similar a `git add`.
 
-Mi flujo de trabajo personal generalmente tiene este aspecto: primero hago algo de programación y, luego, termino de actualizar algunos archivos y luego ejecuto los siguientes comandos:
+Mi flujo de trabajo personal generalmente tiene este aspecto: primero hago algo de programación y luego termino de actualizar algunos archivos y luego ejecuto los siguientes comandos:
 
 ```bash
 git status # para ver qué archivos he cambiado.
