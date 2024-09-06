@@ -20,8 +20,8 @@ The useReducer is a React approach to separate the logic from the view in your c
 This is the simplest example of useReducer:
 
 ```react
-  const intitialCounter = () => ({counter: 0});
-  const [state, dispatch] = useReducer(counterReducer, intitialCounter());
+const intitialCounter = () => ({counter: 0});
+const [state, dispatch] = useReducer(counterReducer, intitialCounter());
 ```
 
 The hook `useReducer` receives as first parameter a function that defines the `reducer`, and it will return an array of two values that represent the new state (`state`) and the dispatcher: The object that allows executing the actions/functions of the reducer logic (`actions`). As a second parameter, a function must be passed that returns an object with the initial values of the state.
@@ -80,7 +80,7 @@ With this, we can have both the `counterReducer` and `intitialCounter` functions
 
 We are used to perceiving components as the unit that groups the view and the logic for its operation. For example: In the following code there is a `Counter` component that has the HTML to define how a number counter should look like and there is also the logic of how it should add a unit each time the "+1" button is pressed.
 
-```react
+```javascript
 export default function Counter() {
 
   // Logic ⬇️
