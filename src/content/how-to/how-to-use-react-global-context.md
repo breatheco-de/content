@@ -8,7 +8,7 @@ tags: ["reactjs"]
 
 ## React Global Context
 
-React global context is a way to pass and consume data between components in a React application without the need to manually pass props at each level, in this article you will learn how to work with the global context in React, and how to pass and consume data using the React hook `useContext()`.
+React global context is a way to pass and consume data between components in a React application without the need to manually pass props at each level. Instead, we use the [Context API](https://4geeks.com/lesson/context-api). In this article, you will learn how to work with the global context in React and how to pass and consume data using the React hook `useContext()`.
 
 If you want to learn more about react, you can check the following [React Js Tutorial](https://4geeks.com/lesson/learn-react-js-tutorial) To initialize a global context in React and share data between components, follow the steps below:
 
