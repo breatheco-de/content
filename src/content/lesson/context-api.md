@@ -9,17 +9,21 @@ tags: ["reactjs"]
 
 ---
 
-## The problem, or "why life before the Context API was harder"
+## The problem (life before Context API)
+
+> 😄 why life before the Context API was harder
 
 People say that React.js makes the easy stuff hard and the hard stuff easy. It's funny because it's true 😓. These are some of the things they mean:
 
-1. Why is it so hard to share data throughout the entire application? Where are my global variables?
+1. Why is sharing data throughout the application so hard? Where are my global variables?
 
 2. Why is it so hard to pass data between components? A.K.A. props. Props are fine when you want to pass data between parent and child, but what happens when we need to go deeper? This is called "Props Hell" or "Prop Drilling".
 
 3. [Redux](https://redux.js.org/)?? Overkill.
 
-### The Context API is here to solve some of those conundrums by
+## The Solution: The Context API is here to save you
+
+In general, the context API can solve this problems by:
 
 1. Centralizing a global application state: Instead of being limited to local states on views, you can now share data on one central component and spread to its inner components (children, grandchildren and so forth). The centralized state is called **store**, and we can spread it by using the **Context.Provider**.
 
@@ -38,6 +42,8 @@ Every time the data stored within the **Provider** changes, all the **Consumers*
 ![Context API Explanation](https://github.com/breatheco-de/content/blob/master/src/assets/images/72fe5361-5b2a-460f-8c2a-2d376616abf6.png?raw=true)
 
 ## Unidirectional data flow
+
+> The biggest use of the Context API is to [create a global context within your entire React.js application](https://4geeks.com/how-to/react-global-context).
 
 The **store** is now the most delicate piece of data in our application, and it is susceptible to bad usage, i.e. one bad change and the whole application will crash. To avoid this possible scenario, we have to make sure the store's data is read-only for the consumers, and can be *updated* only by a limited set of functions. Just like the regular state, we don't *change* the state, we set it again. This architecture paradigm is called Flux.
 
