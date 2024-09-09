@@ -11,6 +11,8 @@ status: "published"
 
 ## ¿Qué es programar?
 
+"Descubre el poder de hablar el lenguaje de las máquinas y desbloquea un mundo donde tus ideas cobran vida."
+
 **La programación no es HTML, CSS o Position y Display...** Esos lenguajes no fueron diseñados para desarrolladores, son la única forma en que tenemos que renderizar cosas en un navegador.
 
 **La Programación es hacer *que el computador* "obedezca"...**
@@ -68,7 +70,7 @@ Como aprendimos anteriormente, usamos la palabra clave `var` para declarar una v
 
 **Const**: Esta palabra clave se utiliza cuando el valor permanece constante durante toda la vida del script. El valor de la variable declarada con esta palabra clave nunca se puede cambiar. Si intentas cambiarlo, se producirá un error.
 
-**Let**: Los valores solo están limitados al alcance del bloque de código (cualquier cosa entre llaves) en el que se declara. Si una función tiene más de un bloque de código, la variable se considerará una variable diferente en cada bloque.
+**Let**: Los valores solo están limitados al alcance del bloque de código (cualquier cosa entre llaves) en el que se declara. Si una función tiene más de un bloque de código, la variable será diferente en cada bloque.
 
 **Var**: Las variables declaradas con `var` dentro de una función solo son accesibles dentro de esa misma función. Esto significa que la variable se mantendrá  durante toda la función, incluso si hay más de un bloque de código en la función.
 Si declaras una variable con `var` fuera de cualquier función, se convierte en una variable global. Se puede acceder a ella desde cualquier lugar en tu código.
@@ -109,12 +111,11 @@ var myFirstBoolean = true;//Boolean
 var myFirstInteger = 35;//Number
 var myFirstFloat = 2323.4545; //Number (with decimals)
 
-var myFirstString = 'Hello Wold'; //String
+var myFirstString = 'Hello World'; //String
 var myFirstObject = {'name' : 'Ramon', 'Age': 32}; //Object with 2 properties
 var myFirstArray = [23,'Hello',8.54,null,544]; //Array of 5 items
 var myFirstNull = null;//Null
 var myFirstUndefined; //Undefined
-
 console.log(myFirstBoolean);
 
 console.log(myFirstInteger);
@@ -205,7 +206,7 @@ Por ejemplo, si quiero un computador para dar dulces solo a niños mayores de 13
 |Mayor que   |>              |Es 5 > 5? False!<br>Es 6 > 3? True!    |
 |Menor que    |<              |Es 6 < 12? True            |
 |Mayor o igual |>=             |Es 6 <= 6? True<br>Es 3 <= 6? True    |
-|Menor o igual  |<=            |Tienes la idea 🙂       |
+|Menor o igual  |<=            |Creo que la idea es clara. 🙂       |
 
 Para crear operaciones realmente útiles, puedes combinar varias operaciones en la misma pregunta usando AND, OR y NOT (y, o y no respectivamente).
 
