@@ -21,7 +21,7 @@ El material pendiente asume que tienes un buen nivel de comprensión de los sigu
 - Comprende completamente el tag `<div>` que inherentemente se comporta como una "caja" (lo que significa que tiene bordes, ancho y alto) y cómo usar `<div>` para separar visualmente su contenido.
 - Cómo crear los layouts de sitios web más comunes utilizando la regla CSS `display: flex;`.
   - ¿Cómo puedes hacer que un `<div>` esté del lado de otro? Aplicando `display: flex;` a un padre inmediato común.
-  - ¿Cómo se puede hacer un layout de barra lateral
+  - ¿Cómo se puede hacer un layout de barra lateral?
   - ¿Cómo se puede hacer el clásico layout de "línea de tiempo de Instagram"?
 
 ## Cosas que debes saber sobre CSS
