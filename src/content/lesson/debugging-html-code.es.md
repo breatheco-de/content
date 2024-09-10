@@ -28,7 +28,7 @@ Vamos a repasar cada uno de ellos en detalle.
 
 ### 1) Inspeccionar el código fuente HTML
 
-Puedes asumir que el código que escribiste es el que se muestra en el sitio web. ¡NOPE! Hay varias razones por las que tu código original puede no coincidir con el código fuente que se usa en el sitio web.
+Puedes asumir que el código que escribiste es el que se muestra en el sitio web. ¡NOOO, NO LO ES! Hay varias razones por las que tu código original puede no coincidir con el código fuente que se usa en el sitio web.
 
 + Caché del navegador (la causa más común): A veces, tu navegador mantiene una versión antigua a propósito.
 + Renderización dinámica del lado del servidor: Usar un lenguaje del lado del servidor para manipular el código fuente antes de que llegue al navegador.
@@ -46,7 +46,7 @@ Errores de caché: Debes asegurarte de que el código que escribiste sea el mism
 
 #### Cómo inspeccionar el código fuente HTML:
 
-+ En Windows, abre el código fuente presionando simultáneamente las teclas `Ctrl` + `U`.
++ En Windows, abre el código fuente presionando simultáneamente las teclas `Ctrl` + `U` o das click Derecho en el Mouse y al final de las opciones precionas "Inspeccionar".
 + En Mac, abre el código fuente presionando simultáneamente las teclas `⌥ Option` + `⌘ Command` + `U`.
 
 ### 2) Inspector de herramientas de desarrollo
