@@ -14,7 +14,7 @@ CSS es una tecnología muy complicada de depurar, probablemente entre las más d
 ## Herramientas para depurar CSS
 
 Tu editor de código tiene resaltado de sintaxis que te ayudará a reconocer errores como falta de punto y coma, llaves, etc.
-+ La herramienta de desarrollador: Tiene dos secciones que necesitas aprender y usar bastante bien:
++ La herramienta de desarrollador cuenta con dos secciones clave que debes aprender a manejar con soltura:
 
 ### a) La pestaña `Elementos`
 
