@@ -33,7 +33,7 @@ I know you are here to learn how to fix errors. Still, it's worth mentioning tha
 
 ## How to debug code: The debugging framework
 
-The debugging steps and tools may vary significantly depending on the programming language (HTML/CSS, JavaScript, Python, etc.), the libraries, the tools (Pandas, Flask, Express, Rails, Postgres, etc.), and the error message or other patterns and attributes you can notice about the error.
+Debugging is an essential part of software development, and the specific steps and tools used can vary greatly depending on several factors. First, the programming language plays a crucial role in determining how you approach the problem. For instance, debugging HTML/CSS issues might involve inspecting the webpage layout using browser developer tools, whereas debugging a Python script often involves reading error traces or using an integrated debugger in an IDE.
 
 ### Identify the type of bug: Basic Exploration
 
