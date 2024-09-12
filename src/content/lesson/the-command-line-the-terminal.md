@@ -117,6 +117,9 @@ mkdir newdirectoryname
 
 mkdir path/of/new/newdirectoryname 
 # Creates newdirectoryname inside /path/of/new/
+
+mkdir -p path/of/new/newdirectoryname 
+# Creates newdirectoryname inside /path/of/new/. if any part of /path/of/new/ does not exist, the -p option ensures that all necessary parent directories are created along the way, so you don't have to create them one by one.
 ```
 
 ### The rmdir command
