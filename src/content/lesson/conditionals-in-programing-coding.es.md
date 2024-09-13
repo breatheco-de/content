@@ -20,7 +20,7 @@ Dominar el uso de las condiciones es una de las 5 habilidades fundamentales de c
 
 Las condiciones son la única forma en que los desarrolladores tienen para decirle a la computadora cómo tomar decisiones en tiempo real, muy similar a cómo funcionan los cerebros.
 
-Digamos que estamos construyendo un programa que nos ayudará a optimizar nuestra elecciones de vestimenta, pero en nuestras preferencias el color azul no es una opción, para ello podemos ordenarle a la computadora que evite el color azul usando la siguiente condición:
+Digamos que estamos construyendo un programa que nos ayudará a optimizar nuestras elecciones de vestimenta, pero en nuestras preferencias el color azul no es una opción, para ello podemos ordenarle a la computadora que evite el color azul usando la siguiente condición:
   
 `if` **color** is not **blue**, then... do something.  
 `else`... do nothing or exit.
@@ -92,7 +92,7 @@ Como puedes ver aquí, estamos usando `else if` juntos por primera vez, para una
 
 ## Operadores mayor que o menor que `>` y `<`
 
-En el caso particular de que estés comparando números, para comparar si un número es mayor o menor que el otro:
+Si queremos comparar números y saber si uno es mayor o menor que el otro podemos escribir el siguiente código en JavaScript:
 
 ```js
 if(age < 16) {
