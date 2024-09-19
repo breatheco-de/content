@@ -55,7 +55,7 @@ let myArray = new Array(1,2,3,4,5); // ¡No uses esto! Lee a continuación para 
 
 > ☝️ No declares los Arrays con la sintaxis `new Array()`, no se comportará correctamente. [Haz clic aquí para ver los detalles](https://coderwall.com/p/h4xm0w/why-never-use-new-array-in-javascript).
 
-## Acceder a los elementos de un array
+## Acceder a los elementos de un array:
 
 Para acceder a un elemento específico en una lista, necesitas el `index`. Llamamos `index` al valor entero que representa la posición del elemento que desea acceder/obtener/recuperar.
 
