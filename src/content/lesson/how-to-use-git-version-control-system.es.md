@@ -133,7 +133,7 @@ git commit -a -m [mensaje] # para hacer commit.
 Ahora que has creado commits, ¿cómo se hace referencia a un commit específico? GIT proporciona muchas maneras de hacerlo. Aquí hay algunas:
 
 + Por su nombre SHA1 (que puedes obtener de `git log`).
-+ Por los primeros caracteres de su nombre SHA1.
++ Por los primeros caracteres (recomendable 8) de su nombre SHA1.
 + Por un head. Por ejemplo, `HEAD` se refiere al commit object al que hace referencia *HEAD*. También se puede utilizar el nombre (como master).
 + Relativo a un commit.  Colocando el símbolo de intercalación (^) después del nombre del commit devuelve al padre de ese commit.  Por ejemplo, *HEAD^* es el padre del actual head commit.
 
