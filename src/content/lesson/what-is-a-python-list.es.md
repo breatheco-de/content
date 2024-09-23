@@ -78,8 +78,8 @@ Si lo deseas, puedes restablecer o actualizar cualquier elemento dentro de un ar
 
 ```py runable=true
 my_list = ["Apple", "Orange", "Donkey", "Car", "Game"]
-my_list[5] = 'Cualquier valor'
-# Esto asignará el valor 'Cualquier valor' en el sexto elemento de la lista
+my_list[4] = 'Cualquier valor'
+# Esto asignará el valor 'Cualquier valor' en el quinto  elemento de la lista
 
 print(my_list)
 ```
