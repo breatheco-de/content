@@ -71,7 +71,7 @@ Básicamente quieres aprender todo sobre el hermoso arte de la programación, pe
 
 Tu viaje ya ha comenzado, y debes saber que estamos siguiendo cada paso de tu aprendizaje. El Pre-Work es probablemente la fase más importante para convertirse en un desarrollador web, ya que sirve como raíz para todas tus habilidades en el futuro. Aquí comprenderás la base de tus habilidades, ¡y aprenderás a amar la programación como nosotros!
 
-![short attention meme](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/b96ddb9a-e076-4e27-b18e-f3fd7a256ad2.jpeg?raw=true)
+![short attention meme](https://raw.githubusercontent.com/breatheco-de/content/refs/heads/master/src/assets/images/b96ddb9a-e076-4e27-b18e-f3fd7a256ad2.jpeg)
 
 ## ¿Y qué pasa si ya sabes?
 
@@ -80,7 +80,7 @@ Algunos de ustedes ya tienen algo de experiencia en codificación (principalment
 Y todo esto es porque necesitamos estar seguros de que tienes lo que se necesita para completar el programa. Va a ser intenso y te sentirás agotado, pero no te preocupes por eso. ¡Hemos estado haciendo esto durante un tiempo y te entendemos!
 
 <p style="text-align:center">
-    <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/bd90ba64-ded5-4fb2-b23f-7d297125e3a5.jpeg?raw=true" width="300">
+    <img class="my-class" src="https://raw.githubusercontent.com/breatheco-de/content/refs/heads/master/src/assets/images/bd90ba64-ded5-4fb2-b23f-7d297125e3a5.jpeg" width="300">
 </p>
 
 ## Este curso funciona, pero tienes que confiar en nosotros
@@ -94,7 +94,7 @@ Si te sientes abrumado y confundido, ¡pide ayuda! Y, **sigue trabajando duro -*
 ¿Has oído hablar de Einstein? Las personas realmente inteligentes siempre son las que hacen más preguntas. No tienen miedo de no saber o cometer errores. La única manera en que realmente podemos ayudarte es si aceptas nuestra mentoría pidiendo ayuda. Para poder hacer esto, cuando estés atascado y hayas intentado resolver un problema por tu cuenta durante unos minutos, pregunta en nuestro canal de Slack [#Public_Support](https://4geeksacademy.slack.com/archives/CAZ9W99U4), pero primero lee estos consejos sobre [¿Cómo hacer preguntas de programación?](https://4geeks.com/es/how-to/como-hacer-preguntas-de-programacion).
 
 <p style="text-align:center">
-    <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/5f5f59bc-9efa-4ee9-bce6-6af9eedb4738.jpeg?raw=true" width="300">
+    <img class="my-class" src="https://raw.githubusercontent.com/breatheco-de/content/refs/heads/master/src/assets/images/5f5f59bc-9efa-4ee9-bce6-6af9eedb4738.jpeg" width="300">
 </p>
 
 ## Herramientas de Codificación
@@ -106,7 +106,7 @@ Entonces, en lugar de ese enfoque, hemos hecho una lista de los programas que ne
 Sabemos que algunos de ustedes ya tienen sus propias herramientas, pero dejemos esa conversación para otro momento. Por ahora, sigue de cerca nuestras sugerencias y danos la oportunidad de decirte cómo manejarlo todo.
 
 <p style="text-align:center">
-    <img class="my-class" src="https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/59bf0e4e-f5cf-410c-b2bc-fdc7472e7cdc.jpeg?raw=true" width="180">
+    <img class="my-class" src="https://raw.githubusercontent.com/breatheco-de/content/refs/heads/master/src/assets/images/59bf0e4e-f5cf-410c-b2bc-fdc7472e7cdc.jpeg" width="180">
 </p>
 
 <sub><sup>Shuhari es un concepto de arte marcial japonés, y describe las etapas del aprendizaje hasta su maestría. [Haz clic aquí para leer más.](https://es.wikipedia.org/wiki/Shuhari)</sup></sub>
