@@ -74,7 +74,7 @@ El inspector de herramientas de desarrollo muestra una **versión en vivo** de t
 
 La última herramienta de depuración crucial para HTML es su IDE o editor de código. La mayoría de los IDE ofrecen las siguientes características:
 + **Resaltado de sintaxis**: Los colores ayudan a distinguir visualmente diferentes partes del código HTML, como tags, atributos y valores, lo que facilita la identificación de errores.
-+ **Linting**: Algunos editores tienen linter incorporados que pueden verificar tu código HTML para errores y problemas potenciales y resaltarlos en el editor.
++ **Linting**: Algunos editores tienen linter incorporados que pueden verificar tu código HTML para errores y problemas potenciales y resaltarlos en el editor. Algunos linter incluso brindan sugerencias para corregir el código incorrecto.
 + **Validación**: Algunos editores pueden validar tu código HTML contra los estándares de W3C y mostrar mensajes de error si hay algún problema.
 
 ## Errores HTML más comunes y cómo depurarlos
