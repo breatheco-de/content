@@ -22,7 +22,7 @@ Hay varias formas de crear una capa de autenticación en las aplicaciones web, p
 
 ## ¿Qué es la autenticación de la API?
 
-Autenticación significa ser capaz de identificar quién está haciendo peticiones a tu API; Normalmente implementas una capa de autenticación en tu aplicación porque quieres:
+Autenticación significa ser capaz de identificar quién está haciendo peticiones a tu API, normalmente implementas una capa de autenticación en tu aplicación porque quieres:
 
 - Que los usuarios puedan iniciar y cerrar sesión.
 - Proteger la privacidad: Restringir el acceso a la información en función del rol del usuario. Por ejemplo: Solo yo debería poder actualizar mi correo electrónico y mi contraseña, solo yo debería revisar mi historial médico.
