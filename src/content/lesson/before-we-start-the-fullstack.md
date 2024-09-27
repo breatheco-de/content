@@ -20,7 +20,7 @@ The upcoming material assumes that you have a good level of understanding of the
   - Changing the element's background color or image. 
 - Fully comprehend the `<div>` tag that inherently behaves as a "box" (which means that it has borders, width, and height) and how to use `<div>` to separate your content visually.
 - How to create the most common website layouts using the `display: flex;` CSS rule.
-  - How can you make a `<div>` be on the side of another? By applying `display: flex;` to a common immediate parent.
+  - How can you make a `<div>` be on the side of another? By applying `display: flex;` to a common immediate parent. 
   - How can you make a sidebar layout?
   - How can you make the classic "Instagram timeline" layout?
 
