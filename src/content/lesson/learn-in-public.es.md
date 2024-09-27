@@ -17,7 +17,7 @@ En este artículo voy a intentar explicarte por qué funciona y cómo puedes hac
 
 ## ¿Qué es aprender en público?
 
-El sistema educativo tradicional está diseñado para ser una experiencia privada: lees libros, asistes a clases, haces tareas, evaluaciones y te gradúas en algún momento. Estamos tan acostumbrados a este flujo de trabajo que está incrustado en nuestro corazón de estudiante.
+El sistema educativo tradicional está diseñado para ser una experiencia privada: leer libros, asistir a clases, hacer tareas, evaluaciones y te gradúas en algún momento. Estamos tan acostumbrados a este flujo de trabajo que está incrustado en nuestro corazón de estudiante.
 
 Cuando aprendes en público, conviertes las redes sociales en tu cuaderno de notas y tu foro de discusión, escribes sobre lo que acabas de aprender de diferentes maneras como entradas de blog, tweets, boletines, dibujos, memes, etc.
 
@@ -55,7 +55,7 @@ Nadie lo es. Llevo 20 años programando y sigo pensando que no soy un experto. A
 
 No lo hagas todo, puedes elegir una o dos cosas que te gusten. Incluso si estás aprendiendo en privado tienes que tomar notas y terminar los proyectos de programación y los desafíos, ¿por qué no darte un poco de tiempo extra para publicarlos? Creo que vale la pena el 100% de tu tiempo. 
 
-¡Espero haber expuesto mi caso!
+¡Espero haberte ayudado con mi caso!
 
 ## ¡Sigue así!
 
