@@ -172,7 +172,7 @@ Let's say that you have selected a `<div>` with the `id="myFirstDiv"` and you wa
 **You can use the appendChild function like this:**
 
 ```javascript
-let divElem = document.querySelector("myFirstDiv");
+let divElem = document.querySelector("#myFirstDiv");
 let myNewHOne = document.createElement("h1");
 let t = document.createTextNode("Hello World");
 myNewHOne.appendChild(t);  // This adds the text content to the <h1>  
@@ -209,7 +209,7 @@ document.getElementsByTagName("div")[0].innerHTML = "abc";
 It can also be used to add entire new elements into your HTML without being so verbose as the `createElement` examples above. Let's rework the `"Hello World" to see the difference:
 
 ```javascript 
-    document.querySelector("myFirstDiv").innerHTML += `<h1>Hello World</h1>`
+    document.querySelector("#myFirstDiv").innerHTML += `<h1>Hello World</h1>`
 ```
 
 Dramatic difference!!! We achieved the same result with one line of code that previously required 5 lines. 
@@ -218,7 +218,7 @@ By using template literals (**``**) we can even break down the HTML elements ont
 
 ```javascript 
     let greeting = "Hello World"
-    document.querySelector("myFirstDiv").innerHTML += `
+    document.querySelector("#myFirstDiv").innerHTML += `
     <div>
         <h1>
             ${greeting}
