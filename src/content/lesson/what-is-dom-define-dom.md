@@ -203,7 +203,7 @@ The `.innerHTML` property gives you the ability to retrieve or set the content o
 
 ```javascript
 document.getElementsByTagName("div")[0].innerHTML = "abc";
-// innerHTML can be used to insert plain text content or HTML, this creates a list inside a <div> element 
+// innerHTML can be used to insert plain text content or HTML, in this example adds the text "abc" inside the first <div> element in the html document.
 ```
 
 It can also be used to add entire new elements into your HTML without being so verbose as the `createElement` examples above. Let's rework the `"Hello World" to see the difference:
