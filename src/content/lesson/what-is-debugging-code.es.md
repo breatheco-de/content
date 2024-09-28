@@ -9,7 +9,7 @@ Todos cometemos muchos errores al programar. Esta es una realidad que reconoce c
 
 ## Está bien cometer errores
 
-> He medido mi "tasa de error"; sé que cometo más de 100 errores durante un día honesto de programación (y llevo programando desde el año 2000, hace 23 años).
+> He medido mi "tasa de error" 🧐; sé que cometo más de 100 errores durante un día honesto de programación (y llevo programando desde el año 2000, hace 23 años).
 
 Estos errores pueden ser muy simples, como escribir mal una línea de código, o más elaborados, como escribir algo de código que lleve a un desbordamiento de memoria. No me asustan estos errores porque tengo una forma muy efectiva y rápida de identificar y solucionar errores.
 
