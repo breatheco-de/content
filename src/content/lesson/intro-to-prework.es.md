@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-## Sobre Programación
+## Sobre Programación:
 
 Todos conocemos la importancia, el crecimiento y el impacto de la industria tecnológica hoy en día. Se necesitan más y más desarrolladores en todas partes. Solo en los EE. UU., la Oficina de Estadísticas Laborales proyecta tener más de un millón de empleos abiertos para desarrolladores de software para el 2024.
 
