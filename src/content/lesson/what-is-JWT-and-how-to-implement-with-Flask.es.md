@@ -52,7 +52,7 @@ app.config["JWT_SECRET_KEY"] = "super-secret"  # ¡Cambia las palabras "super-se
 jwt = JWTManager(app)
 ```
 
-### 2) Crear un endpoint para generar nuevos tokens
+### 2) Crear un endpoint para generar nuevos tokens:
 
 El endpoint debe ser un POST porque estás creando tokens (POST es para crear).
 
