@@ -10,7 +10,7 @@ canonical: ""
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 ---
 
-¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro, estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor, lean hasta el final, ¡Trataré de no aburrirlos!
+¡¡Bienvenidos!! 🤩👏👋 Mi nombre es Alejandro, estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor, lean hasta el final, ¡Trataré de no aburrirlos!
 
 ## Lo que ya sabes:
 
@@ -28,7 +28,7 @@ Vamos a cambiar la forma en que te has acostumbrado a aprender, la forma en que 
 
 Durante los años que han pasado hemos identificado razones específicas por las cuales los estudiantes se frustran y dejan de intentar ser desarrolladores o no completan el curso y no consiguen trabajo.
 
-#### Pared #1: Autoestima ❓ (Síndrome del impostor)
+#### Pared #1: Autoestima  (Síndrome del impostor🥸)
 
 ![Síndrome del Impostor](https://github.com/breatheco-de/content/blob/master/src/assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png?raw=true)
 
@@ -46,7 +46,7 @@ Cualquier persona en general puede aprender a programar; la programación se vue
 
 3. **Habla con los mentores:** Una voz con experiencia siempre es buena, hay egresados y profesores que ya han pasado por momentos difíciles o que están con dificultades ¡En este mismo momento! Pueden ayudarte durante los tiempos oscuros, no solo estamos hablando de brindarte soluciones de programación, sino de brindarte estrategias para tener éxito en tu vida (¿Cómo desarrollador?).
 
-#### Pared #2: Confianza ✝
+#### Pared #2: Confianza 😎
 
 Durante toda tu vida has aprendido de la misma manera, el sistema de educación te ha puesto en una caja y te ha enseñado a aprender lentamente, limitando tu habilidad para adaptarte al nuevo mundo de profesionales que aprenden con rapidez y que son autodidactas.
 
