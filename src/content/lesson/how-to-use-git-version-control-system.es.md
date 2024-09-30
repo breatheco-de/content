@@ -315,7 +315,7 @@ A partir de ahora, podrás decir `origin` en lugar de `git@github.com:alesanchez
 
 Una rama que **rastrea** una rama remota conserva una referencia interna a la rama remota. Esta es una comodidad que le permite evitar escribir el nombre de la rama remota en muchas situaciones.
 
-Lo importante a tener en cuenta es que ahora tienes una copia completa del repositorio completo de tu amigo. Cuando se ramifica, confirma (commit), fusiona u opera de otra manera en el repositorio, operas solo en tu propio repositorio. GIT solo interactúa con el repositorio de tu amigo cuando le pidas específicamente que lo haga.
+Lo importante a tener en cuenta es que ahora tienes una copia completa del repositorio completo de tu amigo. Cuando se ramifica, confirma (commit), fusiona u opera de otra manera en el repositorio, operas solo en tu propio repositorio. ¡GIT solo interactúa con el repositorio de tu amigo cuando le pidas específicamente que lo haga!
 
 > 🔗 Aquí hay una lista de otros excelentes recursos para aprender GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br>Especialmente deberías probar estos dos:<br>• https://try.github.io<br>• http://learngitbranching.js.org/
   
