@@ -30,7 +30,7 @@ Autenticación significa ser capaz de identificar quién está haciendo peticion
 
 Para explicar en detalle la "Autenticación de una API basada en tokens" es mejor empezar explicando lo que son los tokens.
 
-## ¿Qué es un token de acceso?
+## ¿Qué es un token de acceso? 🤔
 
 A grandes rasgos, un token es un "número que prueba algo", por ejemplo: Cuando terminas de hacer una transferencia bancaria, el banco envía un "token" de confirmación que sirve como prueba para validar que la transacción existe y es válida. Ese número de confirmación podría llamarse también **token de confirmación**.
 
