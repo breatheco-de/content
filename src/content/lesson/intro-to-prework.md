@@ -52,7 +52,7 @@ Around 90% of our students find a job after graduation. It normally takes 100 da
 2. Our passion for teaching Coding.
 3. Our outcomes: here is a report (from  April 2019) to check it out: https://www.4geeksacademy.co/wp-content/uploads/2020/03/4Geeks-Outcomes-Report-.pdf
 
-If you want to know more, get in contact with us or apply, please email us at: Info@4geeksacademy.com
+If you want to know more, get in contact with us, or apply; please email us at: Info@4geeksacademy.com
 
 ## Flipped Around
 
