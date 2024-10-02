@@ -32,7 +32,7 @@ Por ejemplo, aquí estamos importando una función de otro archivo:
 
 Hay una pequeña variación que puedes encontrar en Internet que se llama **"exportación por defecto"**: esta es solo una forma de exportar una cosa por defecto a su archivo.
 
-Solo puedes exportar **UNA** variable por defecto, y no tienes que usar los corchetes mientras se importa.
+Solo puedes exportar **"una"** variable por defecto, y no tienes que usar los corchetes mientras se importa.
 
 ### Importando por defecto
 
