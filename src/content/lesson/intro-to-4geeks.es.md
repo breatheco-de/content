@@ -22,7 +22,7 @@ También estás aquí porque necesitas ayuda, no solo técnica sino también esp
 
 > La mayor barrera que deberás derrumbar para convertirte en un desarrollador no está en el programa ni en el contenido, sino en tu mente.
 
-Vamos a cambiar la forma en que te has acostumbrado a aprender, la forma en que ves la vida, la manera en que te vendes (por lo tanto, la manera en que te ves), estamos derribando las viejas ideas equivocadas sobre ti mism@, los demás y sobre tu vida profesional.
+Vamos a cambiar la  manera en que te has acostumbrado a aprender, la forma en que ves la vida, la manera en que te vendes (por lo tanto, la manera en que te ves), estamos derribando las viejas ideas equivocadas sobre ti mism@, los demás y sobre tu vida profesional.
 
 ### Estamos aquí para derribar 💻 3 Paredes Respecto al Código
 
