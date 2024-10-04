@@ -1,6 +1,7 @@
 ---
 title: "Before Starting Full Stack Development"
 subtitle: "Quick review about concepts you need to know in CSS, HTML, and JS before starting the Full Stack Development course"
+video: https://www.youtube.com/watch?v=ijEp5XHm7qo
 tags: ["html/css", "web-development"]
 
 ---
