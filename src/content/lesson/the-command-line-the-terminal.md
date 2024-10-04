@@ -40,7 +40,7 @@ In this particular case, we use the `-l` "flag" to specify that we want a "long"
 
 The last thing we have to add is the "argument". In this case, the "argument" will be the path of the directory from which we want to list the files.
 
-## What can you do in the Terminal?
+## What can you do in the terminal?
 
 Your computer has files, directories, and applications. Your command line is able to deal with all three of them. Use commands to move within the files and directories (like the `cd` command). Every application that you install comes with a set of commands that become available the moment you install the app (like the GIT command).
 
