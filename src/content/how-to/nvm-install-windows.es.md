@@ -21,7 +21,7 @@ Aquí encontrarás una guía para instalar nvm y node.js en un entorno Windows.
 ## Pasos para instalar nvm:
 
 1. ***Descargar nvm***.  
-Para poder instalar la herramienta Node Version Manager en un entorno Windows debemos descargar un [archivo zip](https://github.com/coreybutler/nvm-windows/releases/download/1.1.7/nvm-setup.zip) que contiene el asistente de instalación.  
+Para poder instalar la herramienta Node Version Manager en un entorno Windows debemos descargar un [archivo zip](https://github.com/coreybutler/nvm-windows/releases/tag/1.1.12/nvm-setup.zip) que contiene el asistente de instalación.  
 
 2. **Instalar nvm**.  
 Anda a tu carpeta ***Descargas o Downloads*** en Windows, y descomprime el archivo ```nvm-setup.zip``` y haz doble clic en el archivo ```nvm-setup```.  
