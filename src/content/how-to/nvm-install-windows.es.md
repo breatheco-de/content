@@ -10,15 +10,11 @@ status: "published"
 
 ---
 
-A veces quisieramos nos gustaría escribir algo de código en un entorno local, y para eso necesitaremos node.js para instalar todas tus dependencias y ejecutar ciertos scripts. Por ejemplo: 
+Como desarrollador, es probable que te encuentres con la necesidad de manejar múltiples proyectos de Node.js en tu [entorno de desarrollo local](https://4geeks.com/es/lesson/que-es-un-entorno-en-la-programacion), cada uno requiriendo diferentes versiones de Node.js. Para gestionar estos requisitos de manera eficiente, te recomendamos encarecidamente instalar Node Version Manager (NVM) en lugar de instalar Node.js directamente. NVM te permite cambiar entre versiones de Node sin problemas, asegurando que cada proyecto tenga el entorno adecuado para ejecutarse de manera efectiva. Para aquellos interesados en optimizar aún más su configuración de desarrollo, tenemos un artículo que detalla las mejores prácticas para evitar problemas comunes en el futuro.
 
-```bash
-npm run build
-```
-
-Aquí encontrarás una guía para instalar nvm y node.js en un entorno Windows.  
+> 📝 Esta guía es solo para usuarios de Windows. Sigue estos enlaces si deseas [instalar NVM en MacOS](https://4geeks.com/how-to/install-node-nvm-mac-osx) o [instalar NVM en Linux](https://4geeks.com/how-to/install-nvm-linux).
   
-## Pasos para instalar nvm:
+## Pasos para instalar NVM en Windows:
 
 ### 1) Descarga nvm
 Para poder instalar la herramienta Node Version Manager en un entorno Windows debemos descargar un [archivo zip](https://github.com/coreybutler/nvm-windows/releases/tag/1.1.12/nvm-setup.zip) que contiene el asistente de instalación.  
