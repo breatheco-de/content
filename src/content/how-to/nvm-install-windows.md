@@ -18,9 +18,9 @@ As a developer, you'll likely encounter the need to juggle multiple Node.js proj
 
 In order to **install Node Version Manager tool in Windows** environment can download the latest version zip file from the following [list of official version](https://github.com/coreybutler/nvm-windows/tags).
 
-![](https://github.com/breatheco-de/content/blob/master/src/assets/images/download-nvm-border-compressed.png?raw=true)
+![nvm-setup zip file nvm](https://github.com/breatheco-de/content/blob/master/src/assets/images/Release-v1-1-12-%C2%B7-coreybutler-nvm-windows.jpg?raw=true)
 
-> 🔥 Make sure to download the ZIP file because it contains a very simple installation wizard.  
+> 🔥 Make sure to download the `nvm-setup.zip` file because it contains a very simple installation wizard.  
 
 ## 2) Install NVM on your Windows Computer
 
