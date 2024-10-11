@@ -20,54 +20,40 @@ Aquí encontrarás una guía para instalar nvm y node.js en un entorno Windows.
   
 ## Pasos para instalar nvm:
 
-1. ***Descargar nvm***.  
+### ***Descargar nvm***.  
 Para poder instalar la herramienta Node Version Manager en un entorno Windows debemos descargar un [archivo zip](https://github.com/coreybutler/nvm-windows/releases/tag/1.1.12/nvm-setup.zip) que contiene el asistente de instalación.  
 
-2. **Instalar nvm**.  
+### **Instalar nvm**.  
 Anda a tu carpeta ***Descargas o Downloads*** en Windows, y descomprime el archivo ```nvm-setup.zip``` y haz doble clic en el archivo ```nvm-setup```.  
 
-3. **Asistente de instalación**.  
-Cuando se abre el asistente de instalación, dale clic al botón ***next*** un par de veces y, al final verás un botón ***install*** al cual también que darle clic. Después de eso, solo espera a que la barra de progreso **termine**.  
+**Asistente de instalación**.  
 
+Cuando se abre el asistente de instalación, dale clic al botón ***next*** un par de veces y, al final verás un botón ***install*** al cual también que darle clic. Después de eso, solo espera a que la barra de progreso **termine**.  
 
 > :point_up: Recuerda no tocar la configuración predeterminada ¡Sigue dándole clic a next!!
 
+### **Abre tu Línea de comando (o terminal)**.  
 
-4. **Línea de comando**.  
-Una vez instañado, abre la línea de comando de Windows. Si tienes algún problema en encontrar la línea de comando, escribe ***CMD*** en la barra de búsqueda de Windows en la esquina inferior izquierda de tu escritorio.  
+Una vez instañado, abre la línea de comando de Windows. Si tienes algún problema en encontrar la línea de comando, escribe ***POWER SHELL*** en la barra de búsqueda de Windows en la esquina inferior izquierda de tu escritorio.  
 
-
-5. **Instalar node version 8 o la versión que quieras**.  
+5. **Instalar node version 22 o la versión que quieras**.  
 En la línea de comando, escribe el comando que hay más abajo. Si quieres verificar cuáles son las versiones de node actuales, puedes ir a [nodejs.org](https://nodejs.org/es/) y verlas todas. Nosotros te recomendamos usar la ***recomendada para la mayoría de los usuarios***.  
 
 ```bash
-nvm install 8.15.0
+nvm install 22
 ```
 
-6. **Verificar las versiones de node instaladas**.  
-Siempre verifica las versiones de node que hay instaladas. Algunas veces nuestras aplicaciones no se ejecutan porque usamos versiones desactualizadas. Este comando te mostrará todas las versiones de node que tengas instaladas en Windows.  
+### Comprueba que se instaló correctamente
+
+Reinicia tu terminal y una vez la vuelvas a abrir, escribe el siguiente comando para comprobar que tienes node version 22:
 
 ```bash
-nvm list
+node -v
 ```
 
-  
-7. **Cambiar entre diferentes versiones de node**.  
-Siempre puedes usar diferentes versiones de node y este comando te permite saltar entre todas tus versiones instaladas.
+Deberia salirte la version 22
 
-```bash
-nvm use 8.15.0
-```
-
-### o tambien:
-
-```
-nvm use 10.15.1
-```
-
-Here is the translation to Spanish:
-
-## 8) PowerShell en VSCode debe poder ejecutar scripts
+## 7) (opcional) PowerShell en VSCode debe poder ejecutar scripts
 
 > 🔥 Solo sigue estos pasos si estás usando VSCode
 
