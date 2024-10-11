@@ -67,7 +67,7 @@ nvm use 8.15.0
 nvm use 10.15.1
 ```
 
-## 8) PowerShell must be able to execute scripts
+## 8) VSCode PowerShell must be able to execute scripts
 
 > 🔥 Only run these steps if you are using VSCode
 
@@ -93,7 +93,7 @@ To fix this, follow these steps:
 "terminal.integrated.defaultProfile.windows": "PowerShell",
 ```
 
-> Be careful with the JSON file; ensure no syntax errors.
+> ⚠️ Be careful with the JSON file; ensure no syntax errors.
 
 
 ## Possible errors and troubleshooting 
