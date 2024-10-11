@@ -20,10 +20,10 @@ Aquí encontrarás una guía para instalar nvm y node.js en un entorno Windows.
   
 ## Pasos para instalar nvm:
 
-### ***Descargar nvm***.  
+### 1) Descarga nvm
 Para poder instalar la herramienta Node Version Manager en un entorno Windows debemos descargar un [archivo zip](https://github.com/coreybutler/nvm-windows/releases/tag/1.1.12/nvm-setup.zip) que contiene el asistente de instalación.  
 
-### **Instalar nvm**.  
+### 2) Instala nvm
 Anda a tu carpeta ***Descargas o Downloads*** en Windows, y descomprime el archivo ```nvm-setup.zip``` y haz doble clic en el archivo ```nvm-setup```.  
 
 **Asistente de instalación**.  
@@ -32,18 +32,19 @@ Cuando se abre el asistente de instalación, dale clic al botón ***next*** un p
 
 > :point_up: Recuerda no tocar la configuración predeterminada ¡Sigue dándole clic a next!!
 
-### **Abre tu Línea de comando (o terminal)**.  
+### 3) Abre tu Línea de comando (o terminal)
 
 Una vez instañado, abre la línea de comando de Windows. Si tienes algún problema en encontrar la línea de comando, escribe ***POWER SHELL*** en la barra de búsqueda de Windows en la esquina inferior izquierda de tu escritorio.  
 
-5. **Instalar node version 22 o la versión que quieras**.  
+### 4) Instala node versión 22 o la versión que quieras
+
 En la línea de comando, escribe el comando que hay más abajo. Si quieres verificar cuáles son las versiones de node actuales, puedes ir a [nodejs.org](https://nodejs.org/es/) y verlas todas. Nosotros te recomendamos usar la ***recomendada para la mayoría de los usuarios***.  
 
 ```bash
 nvm install 22
 ```
 
-### Comprueba que se instaló correctamente
+### 5) Comprueba que se instaló correctamente
 
 Reinicia tu terminal y una vez la vuelvas a abrir, escribe el siguiente comando para comprobar que tienes node version 22:
 
@@ -53,11 +54,11 @@ node -v
 
 Deberia salirte la version 22
 
-## 7) (opcional) PowerShell en VSCode debe poder ejecutar scripts
+## 6) (opcional) PowerShell en VSCode debe poder ejecutar scripts
 
 > 🔥 Solo sigue estos pasos si estás usando VSCode
 
-Dentro de la terminal de código de VSCode, si intentas ejecutar `npm` desde la línea de comandos, es probable que estés recibiendo el siguiente error: "no se pueden ejecutar scripts porque la ejecución de scripts está deshabilitada":
+Dentro de la terminal de código de VSCode, si intentas ejecutar `npm` desde la línea de comandos, es probable que estés recibiendo el siguiente error: `no se pueden ejecutar scripts porque la ejecución de scripts está deshabilitada`:
 
 ![No se pueden ejecutar scripts porque la ejecución de scripts está deshabilitada](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/disabled-error-message.jpg?raw=true)
 
