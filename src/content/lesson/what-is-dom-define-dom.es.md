@@ -32,7 +32,7 @@ NOTA: Por favor recuerda siempre que todo el código JavaScript que escribas en 
      // tu código aquí  
 </script>
 ```
-Actualmente, la tendencia es escribir nuestro código JavaScript en un archivo separado con una extensión `.js`. En este caso, la etiqueta `<script>` en el cuerpo de tu archivo html se escribirá de la siguente manera:
+Actualmente, la tendencia es escribir nuestro código JavaScript en un archivo separado con una extensión `.js`. En este caso, la etiqueta `<script>` en el cuerpo de tu archivo html se escribirá de la siguiente manera:
 
 ```html
 <body>
