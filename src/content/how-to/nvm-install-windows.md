@@ -16,7 +16,7 @@ As a developer, you'll likely encounter the need to juggle multiple Node.js proj
 
 ## 1) Download NVM for Windows.  
 
-In order to **install Node Version Manager tool in Windows** environment can [download the latest nvm-setup.zip](https://github.com/coreybutler/nvm-windows/releases/tag/1.1.12/nvm-setup.zip) file from their github page.
+In order to **install Node Version Manager tool in Windows** environment can [download the latest nvm-setup.zip](https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-setup.zip?raw=true) file from their github page.
 
 > 🔥 Make sure to download the latest `nvm-setup.zip` file because it contains a very simple installation wizard.  
 
