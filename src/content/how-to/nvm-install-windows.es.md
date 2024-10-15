@@ -17,7 +17,7 @@ Como desarrollador, es probable que te encuentres con la necesidad de manejar m�
 ## Pasos para instalar NVM en Windows:
 
 ### 1) Descarga nvm
-Para poder instalar la herramienta Node Version Manager en un entorno Windows debemos descargar un [archivo zip](https://github.com/coreybutler/nvm-windows/releases/tag/1.1.12/nvm-setup.zip) que contiene el asistente de instalación.  
+Para poder instalar la herramienta Node Version Manager en un entorno Windows debemos descargar un [archivo zip](https://github.com/coreybutler/nvm-windows/releases/tag/1.1.12/nvm-setup.zip?raw=true) que contiene el asistente de instalación.  
 
 ### 2) Instala nvm
 Anda a tu carpeta ***Descargas o Downloads*** en Windows, y descomprime el archivo ```nvm-setup.zip``` y haz doble clic en el archivo ```nvm-setup```.  
