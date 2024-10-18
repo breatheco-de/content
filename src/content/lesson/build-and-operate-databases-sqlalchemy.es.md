@@ -6,7 +6,7 @@ tags: ["python","databases","sqlalchemy","sql"]
 ---
 ## ¿Que son ORM y para qué son útiles?
 
-ORM son las siglas de Object-Relational Mapping. Es una técnica de programación que conecta el mundo del código de la programación orientada a objetos (POO) con el mundo relacional de las bases de datos. En términos más sencillos, actúa como traductor entre la forma en que representas los datos en tu código mediante objetos y la forma en que se almacenan los datos en las bases de datos relacionales mediante tablas y relaciones.
+ORM son las siglas de Object-Relational Maping. Es una técnica de programación que conecta el mundo del código de la programación orientada a objetos (POO) con el mundo relacional de las bases de datos. En términos más sencillos, actúa como traductor entre la forma en que representas los datos en tu código mediante objetos y la forma en que se almacenan los datos en las bases de datos relacionales mediante tablas y relaciones.
 
 Los ORM simplifican el proceso de acceso y manipulación de datos en bases de datos desde el código. Proporcionan una capa de abstracción que te protege de las complejidades de las consultas SQL y te permite trabajar con datos utilizando objetos y sus relaciones, como harías en cualquier aplicación de programación orientada a objetos.
 
