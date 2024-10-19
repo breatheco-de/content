@@ -1,6 +1,6 @@
 ---
 title: "La Línea de Comando (conocida como: La Terminal)"
-subtitle: "Los Desarrolladores gastan horas cada día usando la línea de comandos (conocida como: La Terminal). Acepta la realidad y vuélvete más poderoso que nunca."
+subtitle: "Los desarrolladores gastan horas cada día usando la línea de comandos (conocida como: La Terminal). Acepta la realidad y vuélvete más poderoso que nunca."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
@@ -11,17 +11,17 @@ status: "published"
 
 > ☝ Los usuarios de Windows no tienen la misma línea de comando, pero igual deberías aprenderlos, ya que son muy utilizados en los servidores cuando publiques tu página y también en Gitpod, Codespaces, Cloud9, etc. Puedes utilizar [Git SCM](https://git-scm.com/downloads) para probar los comandos.
 
-## ¿Por qué los Desarrolladores aman la Línea de Comando?
+## ¿Por qué los desarrolladores aman la línea de comando?
 
-Al principio, todos odiaban la línea de comando. Tras años de experiencia, se convirtió en un gusto adquirido.
+Al principio, todos odiaban la línea de comando. Después de años de experiencia, se convirtió en un gusto adquirido.
 
 Pero ¿por qué les gusta a los desarrolladores? Bueno, la lista es infinita, pero aquí hay algunas razones importantes:
 
-+ Si no dominas la línea de comandos, no podrás usar ninguno de estos: GIT, MySQL, Webpack, Node.js, Grunt, Vagrant, Babel, React, Angular, Apache, etc.
++ Si no dominas la línea de comando, no podrás usar ninguno de estos: GIT, MySQL, Webpack, Node.js, Grunt, Vagrant, Babel, React, Angular, Apache, etc.
 
-+ Como desarrollador, es lo único que necesitas tener disponible. Las computadoras no vienen con Atom, Sublime text (o cualquier otro IDE de alta calidad). A veces como los servidores de producción no puedes instalar nada (y **el sistema ni siquiera tiene una interfaz visual**), sólo la línea de comandos.
++ Como desarrollador, es lo único que necesitas tener disponible. Las computadoras no vienen con Atom, Sublime text (o cualquier otro IDE de alta calidad). A veces, como los servidores de producción no puedes instalar nada (y **el sistema ni siquiera tiene una interfaz visual**), solo la línea de comandos.
 
-+ Es superpoderosa. Puedes hacer mucho más en mucho menos tiempo, por ejemplo: eliminar de forma masiva, cambiar nombres, buscar archivos, editar archivos, etc.
++ Es Súperpoderosa. Puedes hacer mucho más en mucho menos tiempo, por ejemplo: eliminar de forma masiva, cambiar nombres, buscar archivos, editar archivos, etc.
 + Te obliga a usar el teclado. Como no puedes usar el ratón, te hace más rápido, cometes menos errores y el entorno es exactamente el mismo en todas las computadoras.
 
 ## ¿Cómo Funciona?
@@ -30,7 +30,7 @@ La consola es realmente simple: es una pantalla negra que siempre está esperand
 
 Pero, ¿qué es un *comando*?
 
-Es algo así como "imprimir", "mostrar", o "eliminar", pero abreviado. Por ejemplo, si quieres decirle a la consola que enliste todos los archivos en un directorio en particular, tienes que usar el comando `ls` así:
+Es algo así como "imprimir", "mostrar", o "eliminar", pero abreviado. Por ejemplo, si quieres decirle a la consola que liste todos los archivos en un directorio en particular, tienes que usar el comando `ls` así:
 
 ```bash
 ls -l /path/to/directory
