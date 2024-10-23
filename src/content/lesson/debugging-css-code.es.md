@@ -34,7 +34,7 @@ Estos son algunos de los errores más difíciles de depurar:
 
 ### Estilos que no se aplican
 
-¿Recuerdas alguna vez en tu historia de desarrollador cuando intentaste aplicar un estilo a un elemento, pero no pasaba nada? No importa lo que hicieras, el elemento seguía igual.
+¿Recuerdas alguna vez en tu historia de desarrollador cuando intentaste aplicar un estilo a un elemento, pero no pasaba nada? no importa lo que hicieras, el elemento seguía igual.
 
 Esto puede suceder por varias razones:
 - Estás usando el selector incorrecto.
