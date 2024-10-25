@@ -18,7 +18,7 @@ GIT es una gran tecnología, toma el tiempo para aprenderla. NO lo postergues po
 
 GIT es más que un "conjunto de comandos" que tienes que aprender. A lo largo de los años, hemos aprendido que la mejor manera de enseñar GIT es mediante la comprensión de los conceptos y el significado de la tecnología, en lugar de dar una lista de los comandos que se debe usar.
 
-## ¿Por qué molestarse en usar GIT?
+## "¿Por qué molestarse en usar GIT?"
 
 Ser el único desarrollador en un proyecto es una [utopía](https://dle.rae.es/utop%C3%ADa). Normalmente, colaboras con otros desarrolladores y, sin GIT, eso se convierte en un gran problema. Es por eso que necesitamos un *repositorio* de información para centralizar y gestionar los cambios. Con un *repositorio* nos referimos a lo siguiente:
 
