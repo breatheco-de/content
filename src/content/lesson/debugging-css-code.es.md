@@ -18,7 +18,7 @@ Tu editor de código tiene resaltado de sintaxis que te ayudará a reconocer err
 
 ### a) La pestaña `Elementos`
 
-Muestra el tag HTML en tu sitio web y los selectores que tiene. Puedes mirar los atributos de clase o ID en cada tag.
+Muestra el tag HTML en tu sitio web y los selectores que tiene. Puedes mirar los atributos de clase o ID en cada <tag>.
 
 ![La pestaña elementos en el inspector de sitios web de la herramienta de desarrollador](https://i.imgur.com/oJoH8C3.png?raw=true)
 
