@@ -136,8 +136,8 @@ Now that you’ve created commits, how do you refer to a specific commit? GIT pr
 
 + By its SHA1 name (which you can get from `git log`).
 + By the first few characters of its SHA1 name.
-+ By a head. For example, `HEAD` refers to the commit object referenced by *HEAD*. You can also use the name (such as master).
-+ Relative to a commit. Putting a caret (^) after a commit name retrieves the parent of that commit. For example, *HEAD^* is the parent of the current head commit.
++ By a head. For example, `HEAD` refers to the commit object referenced by ```*HEAD*```. You can also use the name (such as master).
++ Relative to a commit. Putting a caret (```^```) after a commit name retrieves the parent of that commit. For example, ```*HEAD^*``` is the parent of the current head commit.
 
 ## Creating a Branch
 
