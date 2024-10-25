@@ -87,7 +87,7 @@ Ejemplo: Digamos que estás comenzando a desarrollar la característica/funciona
 
 > ☝ **Nota sobre la terminología:** Los términos "branch" y "head" son casi sinónimos en GIT. Cada branch (rama) está representada por un head, y cada head representa una rama. A veces, "rama" se usará para referirse a un head y el historial completo de commits que preceden a ese head, mientras que "head" se usará para referirse exclusivamente a un solo commit object (el commit más reciente en la rama).
 
-## Comenzando un Nuevo Repo `git init`
+## Comenzando un Nuevo Repo git init
 
 Puedes crear un nuevo repositorio cuando lo desees durante el proyecto, ¡no tiene que ser al principio! Lo único esencial para hacer esto es que el proyecto no tenga otro repositorio ya creado.
 
@@ -107,7 +107,7 @@ Para crear un commit, tendrás que hacer dos cosas:
 
 + **Indícale a GIT qué archivos incluir en el commit**, con `git add .`.  Si un archivo no ha cambiado desde el commit anterior (el commit "principal"), GIT lo incluirá automáticamente en el commit que estás a punto de realizar.  Solo deberás agregar los archivos que hayas creado o modificado recientemente.  Ten en cuenta que agrega directorios de forma recursiva, así que `git add .` agregará todo lo que ha cambiado.
 
-+ **Llama a `git commit` para crear el objeto de confirmación.** El nuevo commit object tendrá el HEAD actual como su principal (después de que se complete el commit, el HEAD apuntará al nuevo commit object).
++ **Llama a `git commit` para crear el objeto de confirmación.** El nuevo commit object tendrá el HEAD actual como su principal (después de que se complete el commit, el `HEAD` apuntará al nuevo commit object).
   
 Digamos que creas tres commits de esta manera... Tu repositorio se verá así:
 
