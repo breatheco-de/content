@@ -58,4 +58,4 @@ El material pendiente asume que tienes un buen nivel de comprensión de los sigu
 
 ## Bienvenido al desarrollo web
 
-¡Eso es! Estás listo si conoces el 70% de estos puntos. De lo contrario, te alentamos a buscar más información sobre cada uno de estos temas, leer nuestras lecciones, practicar algunos ejercicios nuevamente y, tal vez, incluso pedirle a Google o a uno de nuestros mentores excelentes recursos para aprender más al respecto.
+¡Eso es! Estás listo si conoces el 70% de estos puntos. De lo contrario, te alentamos a buscar más información sobre cada uno de estos temas, leer nuestras lecciones, practicar algunos ejercicios nuevamente y, tal vez, incluso pedirle a Google o a uno de nuestros mentores, excelentes recursos para aprender más al respecto.
