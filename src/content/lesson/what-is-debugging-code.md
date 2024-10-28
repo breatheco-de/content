@@ -118,7 +118,7 @@ Lastly, if you have an error on a web server (like Express, Flask, Django, etc.)
 
 ### Narrowing down the bug
 
-If you followed the previous steps correctly, you'd know what part of your code the bug is related to. So stay focused and don't guess! You have handy information about your bug - use it and pull that thread. 
+If you followed the previous steps correctly, you'd know what part of your code the bug is related to. So stay focused and don't guess! You have handy information about your bug, use it and pull that thread. 
 
 For example: 
 
