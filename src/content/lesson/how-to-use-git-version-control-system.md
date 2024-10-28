@@ -9,6 +9,7 @@ tags: ["GIT","how to use GIT"]
 status: "published"
 
 ---
+<!-- This is a demo for students, do not accept this pull request. -->
 
 > ☝ We have also prepared an interactive tutorial about GIT. [Click here to take it!](https://4geeksacademy.github.io/git-interactive-tutorial/)
 
