@@ -83,7 +83,7 @@ Por defecto, cada repositorio tiene una rama o branch llamada main (anteriorment
 
 Ejemplo: Digamos que estás comenzando a desarrollar la característica/funcionalidad de "inicio de sesión" de un sitio web. Puedes crear una nueva "rama" del repositorio llamada "inicio de sesión", para que sus commits no formen parte del historial de revisión principal del proyecto. Una vez que te sientas cómodo con tu código, puedes *fusionar* tu rama y eliminar su head. Esto restablecerá la HEAD principal de la rama maestra (master Branch) al último commit realizado, y agregará tu nuevo código a la rama principal (master) del repositorio.
 
-![cómo usar git](https://github.com/breatheco-de/content/blob/master/src/assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif?raw=true)
+![Cómo usar git](https://github.com/breatheco-de/content/blob/master/src/assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif?raw=true)
 
 > ☝ **Nota sobre la terminología:** Los términos "branch" y "head" son casi sinónimos en GIT. Cada branch (rama) está representada por un head, y cada head representa una rama. A veces, "rama" se usará para referirse a un head y el historial completo de commits que preceden a ese head, mientras que "head" se usará para referirse exclusivamente a un solo commit object (el commit más reciente en la rama).
 
