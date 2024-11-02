@@ -1,3 +1,5 @@
+WELCOME
+
 # Content
 
 ## Types of content:
