@@ -48,7 +48,7 @@ This can happen for several reasons:
 + Check if your selector and rules are on the list of styles applied to the tag.
 + If your selector shows up, you have successfully applied the styles, but other styles may conflict.
 
-> 🔥 Important: We must remember that many styles are being applied to elements simultaneously; the browser combines all the rules inherited from all the selectors you have created.
+> 🔥 **Important**: We must remember that many styles are being applied to elements simultaneously; the browser combines all the rules inherited from all the selectors you have created.
 
 ### Is your style not being applied?
 
