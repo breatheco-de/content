@@ -37,7 +37,7 @@ Cuando aprendes en público, conviertes las redes sociales en tu cuaderno de not
 - Cada vez que construyas un proyecto asegúrate de publicarlo en tus redes sociales, [aquí tienes un ejemplo de publicación de uno de los alumnos de la Academia 4Geeks](https://www.linkedin.com/feed/update/urn:li:activity:6750086679345815552/).
 - Únete a [#100DaysOfCode](https://www.100daysofcode.com/) y hazlo público en Twitter, Instagram y/o LinkedIn, ¡hay mucha gente siguiendo este reto, puedes unirte a la discusión y colaboración!
 - Crea un canal de Youtube: Empieza a publicar vídeos sobre tu proceso de aprendizaje.
-- Crea un blog: Utiliza Medium (recomendado), Reddit, o construye tu propia plataforma de blog y comienza a publicar posts semanales sobre lo que estás aprendiendo.
+- Crea un blog: Utiliza Medium (recomendado), Reddit, o construye tu propia plataforma de blog y comienza a publicar posts semanales sobre lo que estás aprendiendo, comunica tus avances.
 - Acércate a los desarrolladores que admiras: Si te ha gustado un vídeo, escríbele algo al autor. Si te gusta una librería, ¡haz un Pull Request corrigiendo un error ortográfico, mejorando la documentación o desarrollando una nueva característica!
 - Participa en eventos y conferencias: Reúnete con otros desarrolladores y las oportunidades empezarán a llegar.
 
@@ -55,7 +55,7 @@ Nadie lo es. Llevo 20 años programando y sigo pensando que no soy un experto. A
 
 No lo hagas todo, puedes elegir una o dos cosas que te gusten. Incluso si estás aprendiendo en privado tienes que tomar notas y terminar los proyectos de programación y los desafíos, ¿por qué no darte un poco de tiempo extra para publicarlos? Creo que vale la pena el 100% de tu tiempo. 
 
-¡Espero haber expuesto mi caso!
+¡Espero haber expuesto tu caso!
 
 ## ¡Sigue así!
 
