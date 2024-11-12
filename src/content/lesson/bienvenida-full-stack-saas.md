@@ -20,4 +20,6 @@ Desde el principio, queremos que te pongas manos a la obra y empieces a programa
 
 ### Tu Primera Tarea
 
-¡Comencemos con algo de programación real! Dale al botón de siguiente para comenzar tu primer ejercicio práctico. Comenzarás trabajando con HTML y CSS. No te preocupes, te guiaremos paso a paso.
+¡Comencemos con algo de programación real! 
+
+Dale al botón de `siguiente →` para comenzar tu primer ejercicio práctico. Comenzarás trabajando con HTML y CSS. No te preocupes, te guiaremos paso a paso.
