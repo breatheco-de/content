@@ -20,4 +20,6 @@ Right from the start, we want you to roll up your sleeves and dive into coding. 
 
 ### Your First Task
 
-Let's kick things off with some actual coding! Click the next button to start your first hands-on exercise. You'll begin by creating a simple web page using HTML and CSS. Don’t worry, we’ll walk you through it step by step.
+Let's kick things off with some actual coding! 
+
+Click the `next →` button to start your first hands-on exercise. You'll begin by creating a simple web page using HTML and CSS. Don’t worry, we’ll walk you through it step by step.
