@@ -73,7 +73,7 @@ Si un estilo se ve anulado por otro, ambos se mostrarán, pero uno estará tacha
 
 ## Otras cosas para prevenir
 
-CSS tiene algunos temas difíciles de entender que te pueden seguir durante años y crear muchos errores, así que ten cuidado y tómate el tiempo para entenderlos bien.
+CSS tiene algunos temas difíciles de entender que te pueden seguir durante años y llevarte a crear muchos errores, así que ten cuidado y tómate el tiempo para entenderlos bien.
 
 ## Posicionamiento absoluto vs relativo
 
