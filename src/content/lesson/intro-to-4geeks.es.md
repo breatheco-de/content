@@ -38,7 +38,7 @@ En algún momento de nuestras vidas (en algunos más que otros) podemos haber pe
 
 Cualquier persona en general puede aprender a programar; la programación se vuelve más complicada cuando te especializas más en tu carrera (Inteligencia Artificial, Robótica, etc.). Puedes ganar una buena cantidad de dinero sin tener que haber estudiado matemáticas, sin ser bueno con los números o sin aprender tan rápido como otros (es posible que podamos arreglar eso, por cierto). 
 
-##### 📝 Receta para no perder la confianza en ti:
+##### 📝 Recetas para no perder la confianza en ti:
 
 1. **Evita estar atascado durante mucho tiempo:** Programar puede complicarse porque puedes estar a punto de resolver el problema y quedarte atascado sin ver la respuesta. Quizás no sepas cómo empezar a resolver un problema y una conversación de 5 minutos con un mentor te aclarará la mente.
 
