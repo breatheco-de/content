@@ -79,6 +79,8 @@ ls -l ./applications
 
 Navega entre dos directorios diferentes.
 
+Si has avanzado en un directorio y quieres volver atras puedes utilizar cd .. para no tener que volver a copiar toda la ruta.
+
 ```bash
 cd /path/to/directory
 ```
