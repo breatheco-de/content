@@ -49,16 +49,16 @@ print("Hola, este es un mensaje que le puedes enseñar al usuario")
 Como la mayoría de los lenguajes de programación (o matemáticas), Python te permite almacenar datos en variables para poder utilizarlo posteriormente; las variables son una herramienta poderosa porque le permite a tu código ser reutilizado para cualquier valor de variable en el futuro, por ejemplo: para calcular un área cuadrada lo que tienes que hacer es:
 
 ```python
-area = ancho * ancho
+área = ancho * ancho
 ```
-Tu código calculará el `area` sin importar el valor del `ancho`:
+Tu código calculará el `área` sin importar el valor del `ancho`:
 
 ```python
 # Si ancho=6 en el futuro
-area = 6 * 6
+área = 6 * 6
 
 # Si ancho=7 en el futuro
-area = 7 * 7
+área = 7 * 7
 ```
 
 > Las variables hacen tu código reutilizable y más dinámico.
