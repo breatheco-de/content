@@ -13,7 +13,7 @@ status: "published"
 
 **La programación no es HTML, CSS o Position y Display...** Esos lenguajes no fueron diseñados para desarrolladores, son la única forma en que tenemos que renderizar cosas en un navegador.
 
-**La Programación es hacer *que el computador* "obedezca"...**
+**La Programación es hacer *que el computador*  "obedezca"...**
 
 Todo el mundo usa los computadores por diferentes razones. Algunos computadores se crean para ayudar a las personas en su oficina (como los computadores personales), otros para mantener una habitación a una temperatura específica (como [NEST](https://nest.com/es/)), otros están hechos para caminar en Marte, y muchas más cosas.
 
