@@ -12,7 +12,7 @@ Humans make mistakes, all the time. As you progress in your development career, 
 
 Senior developers understand their code will have bugs (no matter how smart you are) and the only way to ship quality is by writing additional code to test the original code, we call that "unit testing". In this article you will learn why and how to do it.
 
-There are several ways to test your applications, but unit tests are the most powerful tool a developer has to ensure high quality code.
+There are several ways to test your applications, but unit tests are the most powerful tool a developer has to ensure high quality code. lo que sea 
 
 ![Write Code to test code](https://github.com/breatheco-de/content/blob/master/src/assets/images/6b4upqv6at321.jpg?raw=true)
 
