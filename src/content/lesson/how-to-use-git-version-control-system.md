@@ -20,7 +20,7 @@ GIT is a great technology, please take the time to learn it. DON’T procrastina
 
 GIT is more than just a "set of commands" you must learn. Throughout the years, we have learned that the best way to teach GIT is by understanding the concepts and meaning of the technology first, rather than just giving you a list of commands to use.
 
-## Why Bother to use GIT?
+## Why bother to use GIT?
 
 Being the only developer in a project is a [utopia](http://www.thefreedictionary.com/Utopic). Normally, you collaborate with other developers; without GIT, that becomes a big problem. That’s why we need a *repository* of information to centralize and manage changes. With a repository, we are addressing the following:
 
