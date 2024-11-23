@@ -1,5 +1,3 @@
-# Welcome to 4Geeks.com Full Stack Development Program!
-
 Welcome aboard! 🎉 We're thrilled to have you join our Full Stack Development program. This journey is designed to equip you with the skills and knowledge needed to start your career in tech. No previous experience? No problem! We're here to guide you every step of the way.
 
 ### Getting Started
