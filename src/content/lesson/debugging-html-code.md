@@ -41,8 +41,10 @@ Sometimes the browser will use an old version of the code instead (cache memory)
 ![Cache memory](https://storage.googleapis.com/media-breathecode/c554b1b12abd3b8e7392151ceb31ed2f367e673e99f890e0a7c70ea4df7f68ad)
 
 Cache errors: You need to ensure the code you wrote is the same code rendered to your website.
+Quick Hard refresh: (Ctrl + F5 or Cmd + Shift + R).
 
 > Make sure to disable browser cache in the developer tools. Also, get used to holding the `shift` key when refreshing a website during development.
+> Quick access: Ctrl + Shift + I (Windows/Linux) or Cmd + Option + I (Mac) to open the inspector
 
 #### How to inspect the HTML source code:
 
