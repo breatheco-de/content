@@ -25,7 +25,7 @@ You are also here because you need help, not only technical help, but also spiri
 
 We are about to change the way you learn, the way you approach life, and the way you sell yourself (therefore see yourself). We are tearing down old misconceptions about yourself, others, and your professional life.
 
-### We are here to tear down the 💻 3 Walls Toward Code 
+### We are here to tear down the 💻 3 Walls to Overcome in Coding 
 
 During the past years, we have identified specific reasons that cause students to stop trying to be developers or fail to complete the course, or get a job. 
 
@@ -45,7 +45,7 @@ Every average person can learn to code to the point of being useful, but coding 
 
 2. **Talk to other students:** You may think you are the only one who does not understand, but if you talk to a couple of classmates you'll see they are just like you, it will give you the confidence to ask any questions.
 
-3. **Talk to the mentors:** A voice of experience is always effective, you have alumni and teachers who struggled before and are also struggling right now! They can help you during dark times, we're not only talking about giving you coding solutions, but giving you strategies to succeed in your (coding?) life.
+3. **Talk to the mentors:** A voice of experience is always effective. Our alumni and teachers have faced struggles before, and some may even be facing challenges now! They can help you during dark times, we're not only talking about giving you coding solutions, but giving you strategies to succeed in your (coding?) life.
 
 #### Wall #2: Trust ✝
 
