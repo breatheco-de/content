@@ -42,7 +42,7 @@ A veces el navegador usará una versión antigua del código (la memoria caché)
 
 Errores de caché: Debes asegurarte de que el código que escribiste sea el mismo código que se renderiza en tu sitio web.
 
-> Asegúrate de deshabilitar la caché del navegador en las herramientas de desarrollo, además, acostúmbrate a mantener la tecla `shift` al actualizar un sitio web durante el desarrollo.
+> Asegúrate de deshabilitar la caché del navegador en las herramientas de desarrollo, además, acostúmbrate a mantener la tecla `Shift` al actualizar un sitio web durante el desarrollo.
 
 #### Cómo inspeccionar el código fuente HTML:
 
