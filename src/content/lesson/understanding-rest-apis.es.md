@@ -93,7 +93,7 @@ Un recurso es una representación abstracta de una unidad de información que se
 Los recursos representan los documentos que se transfieren a través de la red para realizar el trabajo. Los recursos deben nombrarse como sustantivos en plural, ya que representan conceptos en el dominio de un sistema en particular (colecciones) y se identifican usando una URI.
 
 ## Otras lecturas
-A continuación se proporcionan varios documentos y guías para reforzar el conocimiento sobre las API REST:
+A continuación, se proporcionan varios documentos y guías para reforzar el conocimiento sobre las API REST:
 
 - [ReadTheDocs](https://restful-api-design.readthedocs.io/en/latest/resources.html)
 - [RESTfulAPI.net](https://restfulapi.net/)
