@@ -223,7 +223,7 @@ const getData = async () => {
         return data;
     } else {
         console.log('error: ', response.status, response.statusText);
-        /* Realiaza el tratamiento del error que devolvió el request HTTP */
+        /* Realiza el tratamiento del error que devolvió el request HTTP */
         return {error: {status: response.status, statusText: response.statusText}};
     };
 };
@@ -236,7 +236,7 @@ Recordemos que GET es el método por default. Por ello no es obligatorio escribi
 1. Definimos una arrow function, y la denominamos con un nombre significativo, en este ejemplo getData
 2. Determinamos que esa función flecha será asíncrona `async` porque es una petición HTTP y su respuesta no es inmediata
 3. A continuación, definimos una constante `response` que esperará `await` la respuesta del `fetch()`. En esa constante almacenamos la respuesta de la petición.
-4. Luego evalúamos la respuesta. (Esto comprueba si la respuesta es válida (200). Si no, salta al paso 6.
+4. Luego evalúamos la respuesta. Esto comprueba si la respuesta es válida (200). Si no, salta al paso 6.
 5. Si la respuesta es válida, en la constante `data` guardaremos los datos con formato JSON y retornamos esa respuesta.
 6. Si la respuesta no es válida, registramos el error que nos brinda el protocolo HTTP (100, 300, 400, 500) y si es necesario realizamos acciones para darle tratamiento.
 
@@ -260,7 +260,7 @@ const createData = async () => {
         return data;
     } else {
         console.log('error: ', response.status, response.statusText);
-        /* Realiaza el tratamiento del error que devolvió el request HTTP */
+        /* Realiza el tratamiento del error que devolvió el request HTTP */
         return {error: {status: response.status, statusText: response.statusText}};
     };
 };
@@ -286,7 +286,7 @@ const updateData = async () => {
         return data;
     } else {
         console.log('error: ', response.status, response.statusText);
-        /* Realiaza el tratamiento del error que devolvió el request HTTP */
+        /* Realiza el tratamiento del error que devolvió el request HTTP */
         return {error: {status: response.status, statusText: response.statusText}};
     };
 };
@@ -306,7 +306,7 @@ const deleteData = async () => {
         return data;
     } else {
         console.log('error: ', response.status, response.statusText);
-        /* Realiaza el tratamiento del error que devolvió el request HTTP */
+        /* Realiza el tratamiento del error que devolvió el request HTTP */
         return {error: {status: response.status, statusText: response.statusText}};
     };
 };
