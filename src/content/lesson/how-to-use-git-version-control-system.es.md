@@ -14,9 +14,9 @@ status: "published"
 
 ## ¡GIT es una necesidad!
 
-GIT es una gran tecnología, toma el tiempo para aprenderla. NO lo postergues porque no puedes evitarlo. Lo usarás todos los días, varias veces al día. Así que es mejor que aprendas y te sientas cómodo con eso.
+GIT es una gran tecnología, tómate el tiempo para aprenderla. NO lo postergues porque no puedes evitarlo. Lo usarás todos los días, varias veces al día. Así que es mejor que aprendas y te sientas cómodo con eso.
 
-GIT es más que un "conjunto de comandos" que tienes que aprender. A lo largo de los años, hemos aprendido que la mejor manera de enseñar GIT es mediante la comprensión de los conceptos y el significado de la tecnología, en lugar de dar una lista de los comandos que se debe usar.
+GIT es más que un "conjunto de comandos" que tienes que aprender. A lo largo de los años, hemos aprendido que la mejor manera de enseñar GIT es mediante la comprensión de los conceptos y el significado de la tecnología, en lugar de dar una lista de los comandos que se deben usar.
 
 ## ¿Por qué molestarse en usar GIT?
 
@@ -81,7 +81,7 @@ Los Heads marcan el comienzo de un historial de revisión. En GIT, un historial 
 
 Por defecto, cada repositorio tiene una rama o branch llamada main (anteriormente se denominaba master), con su HEAD correspondiente que apunta al último commit de esa rama.
 
-Ejemplo: Digamos que estás comenzando a desarrollar la característica/funcionalidad de "inicio de sesión" de un sitio web. Puedes crear una nueva "rama" del repositorio llamada "inicio de sesión", para que sus commits no formen parte del historial de revisión principal del proyecto. Una vez que te sientas cómodo con tu código, puedes *fusionar* tu rama y eliminar su head. Esto restablecerá la HEAD principal de la rama maestra (master Branch) al último commit realizado, y agregará tu nuevo código a la rama principal (master) del repositorio.
+Ejemplo: Digamos que estás comenzando a desarrollar la característica/funcionalidad de "inicio de sesión" de un sitio web. Puedes crear una nueva "rama" del repositorio llamada "inicio de sesión", para que sus commits no formen parte del historial de revisión principal del proyecto. Una vez que te sientas cómodo con tu código, puedes *fusionar* tu rama y eliminar su head. Esto restablecerá el HEAD principal de la rama maestra (master Branch) al último commit realizado, y agregará tu nuevo código a la rama principal (master) del repositorio.
 
 ![cómo usar git](https://github.com/breatheco-de/content/blob/master/src/assets/images/09294580-51b9-4591-9c2c-57c729ad02d1.gif?raw=true)
 
