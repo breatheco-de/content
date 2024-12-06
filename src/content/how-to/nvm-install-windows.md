@@ -16,11 +16,9 @@ As a developer, you'll likely encounter the need to juggle multiple Node.js proj
 
 ## 1) Download NVM for Windows.  
 
-In order to **install Node Version Manager tool in Windows** environment can download the latest version zip file from the following [list of official version](https://github.com/coreybutler/nvm-windows/tags).
+In order to **install Node Version Manager tool in Windows** environment can [download the latest nvm-setup.zip](https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-setup.zip?raw=true) file from their github page.
 
-![](https://github.com/breatheco-de/content/blob/master/src/assets/images/download-nvm-border-compressed.png?raw=true)
-
-> 🔥 Make sure to download the ZIP file because it contains a very simple installation wizard.  
+> 🔥 Make sure to download the latest `nvm-setup.zip` file because it contains a very simple installation wizard.  
 
 ## 2) Install NVM on your Windows Computer
 
@@ -40,7 +38,7 @@ Type `nvm` and hit `enter` on your command prompt and you should see a message s
 
 ![nvm windows installation success](https://github.com/breatheco-de/content/blob/master/src/assets/images/nvm-installation-success.png?raw=true)
 
-## 5) Install Node version 12 or whatever version you want
+## 5) Install Node version 22 or whatever version you want
 
 If you want to check what are the current node versions available you can type: `nvm list available` or you can go to [nodejs.org](https://nodejs.org/en/about/previous-releases#looking-for-latest-release-of-a-version-branch) and check all of them. 
 
@@ -68,6 +66,35 @@ nvm use 8.15.0
 # for node 10
 nvm use 10.15.1
 ```
+
+## 8) VSCode PowerShell must be able to execute scripts
+
+> 🔥 Only run these steps if you are using VSCode
+
+Inside the VSCode code terminal, if you are trying to run `npm` from the command line, you are probably getting the following error "cannot run scripts because running scripts is disabled":
+
+![Cannot run scripts because running scripts is disabled](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/disabled-error-message.jpg?raw=true)
+
+To fix this, follow these steps:
+
+1. Open the command palette by typing `control` + `shift` + `p`
+2. Type in the command palette `User settings json`.
+3. Select that option and a JSON file will open for edition.
+4. Add the following to your VSCode settings.json file:
+   
+```json
+"terminal.integrated.profiles.windows": {
+  "PowerShell": {
+    "source": "PowerShell",
+    "icon": "terminal-powershell",
+    "args": ["-ExecutionPolicy", "Bypass"]
+  }
+},
+"terminal.integrated.defaultProfile.windows": "PowerShell",
+```
+
+> ⚠️ Be careful with the JSON file; ensure no syntax errors.
+
 
 ## Possible errors and troubleshooting 
  

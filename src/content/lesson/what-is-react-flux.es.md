@@ -40,7 +40,7 @@ Vistas/Views (Components)     |Cada componente React que llama a cualquier acci√
 El siguiente proyecto es una aplicaci√≥n de To-Do List (lista de tareas) con 3 historias de usuario principales:
 
 + Crear tarea.
-+ Mostrar la lista de tareas
++ Mostrar la lista de tareas.
 + Eliminar tarea.
 
 Para codificar esta lista de tareas tenemos que crear 4 archivos:

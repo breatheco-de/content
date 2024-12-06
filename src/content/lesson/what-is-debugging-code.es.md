@@ -9,7 +9,7 @@ Todos cometemos muchos errores al programar. Esta es una realidad que reconoce c
 
 ## Está bien cometer errores
 
-> He medido mi "tasa de error"; sé que cometo más de 100 errores durante un día honesto de programación (y llevo programando desde el año 2000, hace 23 años).
+> He medido mi "tasa de error"; sé que cometo más de 100 errores durante un día honesto de programación (y llevo programando desde el año 2000, hace 24 años).
 
 Estos errores pueden ser muy simples, como escribir mal una línea de código, o más elaborados, como escribir algo de código que lleve a un desbordamiento de memoria. No me asustan estos errores porque tengo una forma muy efectiva y rápida de identificar y solucionar errores.
 
@@ -58,7 +58,7 @@ Depurar el código de back-end se puede dividir en 4 grupos principales:
 
 1. **Serialización o validación de solicitud incorrecta**: Los datos entrantes pueden estar mal formateados o tener valores incorrectos.
 2. **Problemas de base de datos**: Conexión a la base de datos, migraciones, sentencias SQL o integridad de datos.
-3. **Errores lógicos**: lógica incorrecta en tus condiciones, llamadas a funciones, valores de variables, etc.
+3. **Errores lógicos**: Lógica incorrecta en tus condiciones, llamadas a funciones, valores de variables, etc.
 4. **Errores de configuración**: Problemas con la configuración del servidor, problemas de entorno, dependencias de paquetes, configuración de librerías, caché, tiempos de espera, etc.
 
 ### ¿Cómo saber qué tipo de error tengo?

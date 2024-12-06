@@ -44,7 +44,7 @@ function counterReducer(state , action = {}) {
 }
 ```
 
-This function is used as the first parameter of the `useReducer` hook. As second parameter an object with the initial values of the state must be passed.
+This function is used as the first parameter of the `useReducer` hook. The second parameter is an object with the initial values of the state which must be passed.
 
 The hook call returns an array of two values representing the new state (`state`) and the dispatcher: the object that calls the execution of the actions of the reducer logic (`actions`).
 

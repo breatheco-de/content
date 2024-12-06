@@ -11,25 +11,24 @@ status: "published"
 
 ## Why Do We Need to Learn About Selectors?
 
-Completing a stylesheet is like having a little war between selectors, you are constantly overriding previously defined styles with new ones:
+Completing a stylesheet is like waging a war between selectors. You are constantly overriding previously defined styles with new ones:
 
 ```css
-/* You first might want all the H2 tags to be font-size: 14px; and color: blue; */
+/* You might initially want all the H2 tags to have font-size: 14px and color: blue. */
 h2 {
     font-size: 14px;
     color: blue;
 }
 
-/* But then you have a very particular page where the background is also blue, so you need your headings to be white */
-
+/* But then you have a very particular page where the background is also blue, so you need your headings to be white. */
 h2 {
     color: white;
 }
 ```
 
-This happens all the time and, at some point, it can be challenging to override previous styles. You must organize your styles properly and start from the least specific to the most specific.
+This happens all the time, and at some point, it can be challenging to override previous styles. You must organize your styles properly and start from the least specific to the most specific.
 
-These "very specific" selectors will help you a lot. They will be your best weapon when fighting your styles war!
+These very specific selectors will help you a lot. They will be your best weapon when fighting your CSS war!
 
 > 📺 &nbsp;[Here is a super cool video (3:40 min) explaining specificity.](https://www.youtube.com/watch?v=In78mSOHmls)
 
@@ -41,11 +40,11 @@ These "very specific" selectors will help you a lot. They will be your best weap
 }
 ```
 
-This statement takes the paragraph tags that are children of the `div` and turns them blue. Note that it only works for the *children* of that div, not necessarily for all of the descendants. Let’s explore this further with the following example.
+This statement targets the <p> tags that are direct children of the div with the ID someDiv and turns them blue. Note that it only works for the children of that div, not necessarily all its descendants. Let’s explore this further with the following example.
 
-<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe> 
 
-<div align="right"><small><a href="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/">Click here to open demo in a new window</a></small></div>
+<div align="right"><small><a href="//jsfiddle.net/BreatheCode/odku7nr9/embedded/html,css,result/">Click here to open the demo in a new window</a></small></div>
 
 
 ## The Adjacent Sibling Selector

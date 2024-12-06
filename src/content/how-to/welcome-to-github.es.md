@@ -4,15 +4,15 @@ Esta lección definirá GitHub.com, lo explicará y revisará sus característic
 
 ## ¿Qué es GitHub?
 
-GitHub.com es el epicentro de tu viaje como desarrollador de software; interactuarás con GitHub tanto que ni siquiera podemos enumerar todas las cosas que puedes hacer; aquí hay algunos ejemplos:
+GitHub.com es el epicentro de tu viaje como desarrollador, cientifico de datos o especialista en ciberseguridad; interactuarás con GitHub tanto que ni siquiera podemos enumerar todas las cosas que puedes hacer; aquí hay algunos ejemplos:
 
-- GitHub es donde guardas tu código todas las noches: como un disco duro.
-- Es tu portafolio profesional: como un currículum.
-- Es la tecnología necesaria para colaborar con otros desarrolladores.
+- GitHub es donde guardas tus proyectos y archivos todas las noches: como un disco duro.
+- Es tu portafolio profesional: como un currículum u hoja de vida.
+- Es la tecnología necesaria para colaborar con tus collegas.
 - Tu perfil de GitHub es revisado por reclutadores al considerar contratarte.
-- También puedes conocer a otros desarrolladores y proyectos o bibliotecas interesantes: Similar a LinkedIn.
+- También puedes conocer a otros especialistas y proyectos o bibliotecas interesantes: Similar a LinkedIn pero mas técnico.
 
-> GitHub es `LinkedIn + Google Drive` pero para desarrolladores.
+> GitHub es `LinkedIn + Google Drive` pero para tech.
 
 ## Tu perfil de GitHub
 
@@ -30,7 +30,7 @@ En esta imagen, encontrarás las partes esenciales de tu perfil.
 
 El propósito original de GitHub (antes de convertirse en una red social y muchas otras cosas) era ser un sitio web donde los desarrolladores pudieran cargar su código y acceder a él en cualquier momento.
 
-> Un repositorio es solo una carpeta con código dentro. Por ejemplo, este repositorio contiene [todo el código para la biblioteca React.js](https://github.com/facebook/react).
+> Un repositorio es solo una carpeta con los archivos de tu proyecto dentro (imagenes, codigo, datos, etc.). Por ejemplo, este repositorio contiene [todo el código para la biblioteca React.js](https://github.com/facebook/react) y este otro repositorio contiene [todo el codigo de Pandas](https://github.com/pandas-dev/pandas), una de las librerias mas usadas del mundo de los datos.
 
 ![Un repositorio típico de GitHub](https://raw.githubusercontent.com/breatheco-de/knowledge-base/main/images/breatheco-de-exercise-postcard-The-ideal-first-project-for-anyone-interested-in-practicing-HTML-CSS-with-a-real-life-example-.png)
 
@@ -38,10 +38,10 @@ Arriba puedes ver una explicación de la típica página de repositorio de GitHu
 
 ### Todo en GitHub gira en torno a los repositorios de código:
 
-1. Puedes crear nuevos repositorios para cada proyecto que comiences y cargar tu código en ese repositorio.
+1. Puedes crear nuevos repositorios para cada proyecto que comiences y cargar tus archivos en ese repositorio.
 2. Comparte el repositorio con todos; la gente da 👍🏼 me gusta, 📣 comenta sobre él, abre tickets sobre correcciones de errores, solicita nuevas características, etc.
-3. Da acceso a otros desarrolladores para editar tu código dentro de tu repositorio.
-4. Cualquiera puede descargar tu código, hacer cambios y proponer los cambios para tu aprobación.
+3. Da acceso a otros colaboradores para editar tu código dentro de tu repositorio.
+4. Cualquiera puede descargar tu proyecto, hacer cambios y proponer los cambios para tu aprobación.
 5. Muchas otras cosas fabulosas que descubrirás.
 
 ### Gustar y marcar un repositorio
@@ -54,7 +54,7 @@ Te recomendamos marcar la mayoría de los repositorios de la academia, ya que lo
 - [Todos los tutoriales interactivos](https://github.com/4GeeksAcademy/Interactive-Tutorials).
 - [Todas las plantillas y boilerplates](https://github.com/4GeeksAcademy/Templates-Boilerplates).
 
-### Encontrar el código de otras personas
+### Encontrar el proyectos de otras personas
 
 El código abierto se ha convertido en uno de los principales motores del mundo de hoy; GitHub tiene formas de encontrar los excepcionales repositorios de otras personas:
 

@@ -60,9 +60,9 @@ Como "propietario de una cuenta", puedo "consultar mi saldo en línea".
 
 Siéntete libre de variaciones del ejemplo:
 
-+ **Como [rol], Yo quiero [característica] porque [razón]**
-+ **Como [rol], Yo puedo [característica]**
-+ **Como [rol], Yo puedo [característica] para poder [razón]**
++ **Como [rol], yo quiero [característica] porque [razón]**
++ **Como [rol], yo puedo [característica]**
++ **Como [rol], yo puedo [característica] para poder [razón]**
 
 ### Herramientas para escribir historias de usuario
 

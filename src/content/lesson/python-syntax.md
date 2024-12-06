@@ -40,7 +40,7 @@ When you compare it to other backend languages, Python is leading in almost ever
 
 An essential thing you can do in any programming language is print some messages on the terminal. In Python you can use the `print` statement:
 
-```python
+```python runable=true
 print("Hello, this is a message you can show to the user")
 ```
 

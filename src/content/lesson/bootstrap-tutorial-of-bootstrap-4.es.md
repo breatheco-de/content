@@ -132,7 +132,7 @@ La funcionalidad de Javascript en Bootstrap requiere que se incluyan las librer�
 
 ## Componentes de Bootstrap 4
 
-HTML es súper básico, sólo tiene un par de etiquetas - ya los sabíamos. Pero cuando revisas la web hoy en día, ves otra cosa… actualmente las páginas web tienen menús, íconos, barras de carga, etc. ¿Dónde están esas etiquetas? ¡Ninguna de ellas está definida en HTML!
+HTML es súper básico, sólo tiene un par de etiquetas, ya los sabíamos. Pero cuando revisas la web hoy en día, ves otra cosa… actualmente las páginas web tienen menús, íconos, barras de carga, etc. ¿Dónde están esas etiquetas? ¡Ninguna de ellas está definida en HTML!
 
 Todos los desarrolladores tienen que simular estos elementos adicionales cada vez que crean un sitio web, tienen que hacer todo desde cero y eso toma muchísimo tiempo.
 
@@ -144,7 +144,7 @@ Cuando importas Bootstrap en tu página web, tendrás un nuevo conjunto de compo
 
 #### Barra de navegación o NavBar
 
-Esto es tan popular que se encuentra en el 99% de los menús de todos los sitios web.  Normalmente contiene el logo de la compañía y una series de links, dependiendo de la lógica de negocio de la página. 
+Esto es tan popular que se encuentra en el 99% de los menús de todos los sitios web.  Normalmente contiene el logo de la compañía y una serie de links, dependiendo de la lógica de negocio de la página. 
 
 Aquí hay un ejemplo de cómo se ve un NavBar en un sitio web:
 

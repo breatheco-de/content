@@ -75,7 +75,7 @@ from package1.module2 import function1
 
 ### Gestores de Paquetes
 
-Lo que es NPM es para JavaScript, PIP es para Python. Ambas bestias son increíbles pero muy diferentes por dentro. La mayor diferencia es que los paquetes NPM se descargan localmente a una carpeta `node_modules` mientras que los paquetes PIP se instalan en toda la máquina, fuera de la carpeta del proyecto. Otra pequeña diferencia es que NPM usa `package.json` y PIP usa un archivo `requirements.txt`.
+Lo que es NPM para JavaScript equivale a PIP para Python. Ambas bestias son increíbles pero muy diferentes por dentro. La mayor diferencia es que los paquetes NPM se descargan localmente a una carpeta `node_modules` mientras que los paquetes PIP se instalan en toda la máquina, fuera de la carpeta del proyecto. Otra pequeña diferencia es que NPM usa `package.json` y PIP usa un archivo `requirements.txt`.
 
 
 ### Analizando tipos de datos

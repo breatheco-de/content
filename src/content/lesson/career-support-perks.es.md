@@ -14,7 +14,7 @@ Esta información es exclusiva para nuestros estudiantes y egresados ya que prov
 
 Consulta nuestra [página de aliados](https://www.notion.so/4geeksacademy/Our-partners-projects-communities-and-hiring-opportunities-9e0a9eaba0264b26abfd59a8bb682244) y regístrate o pregunta por cualquier oportunidad que te parezca interesante
 
-- [ ] Asegúrate de registrarte en todas las plataformas recomendas en la página de búsqueda de emplo de GeekFORCE.  
+- [ ] Asegúrate de registrarte en todas las plataformas recomendas en la página de búsqueda de empleo de GeekFORCE.  
 
 - [ ] Si quieres ser agregado a nuestro [Talent Pipeline](https://4geeksacademy.notion.site/Talent-Pipeline-1180362c34e048f78cb9deed8085f90d). Asegúrate de haber completado [este formulario](https://4geeksacademy.notion.site/Talent-Pipeline-Form-Formulario-de-Talent-Pipeline-91a850d9b1e94fa099799ba7d63bf51b). 
 

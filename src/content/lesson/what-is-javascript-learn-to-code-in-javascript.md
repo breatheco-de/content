@@ -11,7 +11,7 @@ tags: ["javascript","variables"]
 
 ## But, What is coding?
 
-**Codding is not just HTML, CSS, or properties like Position and Display... These languages were not specifically designed for developers, but rather are the means we use to render content in a browser.
+**Coding is not just HTML, CSS, or properties like Position and Display... These languages were not specifically designed for developers, but rather are the means we use to render content in a browser.
 
 **Coding is making *the computer* "obey"...**
 
