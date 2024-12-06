@@ -162,7 +162,7 @@ usuarioEsperando();
 	> ¡Cárgala! 					// El usuario comienza a esperar
 	> No me gusta esperar 				// ¡Sin espera! DOM listo para ver
 							// ... y ?? segundos más tarde
-	> ¡Imagen cargada! || Uh-oh algo salió mal 	// ¡Imagenes!... Mágia! || Oops, no hay imágenes
+	> ¡Imagen cargada! || Uh-oh algo salió mal 	// ¡Imágenes!... Mágia! || Oops, no hay imágenes
 */
 ```
 
