@@ -92,7 +92,7 @@ Como puedes ver aquí, estamos usando `else if` juntos por primera vez, para una
 
 ## Operadores mayor que o menor que `>` y `<`
 
-En el caso particular de que estés comparando números, para comparar si un número es mayor o menor que el otro:
+Si queremos comparar números y saber si uno es mayor o menor que el otro podemos escribir el siguiente código en JavaScript:
 
 ```js
 if(age < 16) {
