@@ -19,16 +19,16 @@ En este artículo voy a intentar explicarte por qué funciona y cómo puedes hac
 
 El sistema educativo tradicional está diseñado para ser una experiencia privada: lees libros, asistes a clases, haces tareas, evaluaciones y te gradúas en algún momento. Estamos tan acostumbrados a este flujo de trabajo que está incrustado en nuestro corazón de estudiante.
 
-Cuando aprendes en público, conviertes las redes sociales en tu cuaderno de notas y tu foro de discusión, escribes sobre lo que acabas de aprender de diferentes maneras como entradas de blog, tweets, boletines, dibujos, memes, etc.
+Cuando aprendes en público, conviertes las redes sociales en tu cuaderno de notas y tu foro de discusión. Escribes sobre lo que acabas de aprender de diferentes maneras, como entradas de blog, tweets, boletines, dibujos, memes, etc.
 
 ## ¿Por qué es esto tan importante?
 
-- Cuando escribes las cosas, tu cerebro las absorbe mejor.
-- Hablar de ello te obliga a organizar tus pensamientos y comprenderlo mejor.
-- Tu familia y tus amigos empezarán a confiar en tus habilidades: Después de un tiempo, empezarán a verte como un pequeño experto en la materia, acudirán a ti para pedirte un consejo, una recomendación o para contratar tus servicios.
-- Compartir es un sistema de apoyo: el "síndrome del impostor" no es una broma. Cuando eres abierto y compartes tus luchas públicamente encontrarás a otros (probablemente muchos) como tú. Eso te calmará porque sabrás que es normal y te dará fuerzas para continuar. 
-- Estarás mejor clasificado en los portales de empleo: Los portales como LinkedIn hacen más visible tu perfil cuando publicas a menudo, potenciando tu alcance exponencialmente.
-- Los reclutadores te encontrarán una y otra vez en @4GeeksAcademy. Hemos comprobado que los estudiantes que aprenden en público son contratados mucho más rápido, los reclutadores eventualmente comienzan a descubrirlos y los contactan para ofrecerles oportunidades de trabajo.
+-Cuando escribes las cosas, tu cerebro las absorbe mejor.
+-Hablar de ello te obliga a organizar tus pensamientos y comprenderlo mejor.
+-Tu familia y tus amigos empezarán a confiar en tus habilidades. Después de un tiempo, comenzarán a verte como un pequeño experto en la materia, acudirán a ti para pedirte un consejo, una recomendación o para contratar tus servicios.
+-Compartir es un sistema de apoyo: el "síndrome del impostor" no es una broma. Cuando eres abierto y compartes tus luchas públicamente, encontrarás a otros (probablemente muchos) como tú. Eso te calmará porque sabrás que es normal y te dará fuerzas para continuar.
+-Estarás mejor clasificado en los portales de empleo: los portales como LinkedIn hacen más visible tu perfil cuando publicas a menudo, potenciando tu alcance exponencialmente.
+-Los reclutadores te encontrarán una y otra vez en @4GeeksAcademy. Hemos comprobado que los estudiantes que aprenden en público son contratados mucho más rápido; los reclutadores eventualmente comienzan a descubrirlos y los contactan para ofrecerles oportunidades de trabajo.
 
 ## ¿Cómo empezar a aprender en público?
 
@@ -43,19 +43,16 @@ Cuando aprendes en público, conviertes las redes sociales en tu cuaderno de not
 
 ## Excusas para no aprender en público:
 
-### No tengo nada que decir
+### No tengo nada que decir:
+Realmente lo dudo. Aprender a programar es difícil y la gente lee mucho sobre ello y necesita apoyo emocional. Solo con tu testimonio estás ayudando a muchos y mucha gente estará interesada en conocer tu historia.
 
-Realmente lo dudo, aprender a programar es difícil y la gente lee mucho sobre ello y necesita apoyo emocional. Solo con tu testimonio estás ayudando a muchos y mucha gente estará interesada en conocer tu historia.
+### No soy un experto: 
+Nadie lo es. Llevo 20 años programando y sigo pensando que no soy un experto. Al mostrar tu perspectiva sobre los temas que acabas de aprender, estás ayudando a otros aficionados en su camino.
 
-### No soy un experto
+### No tengo tiempo: 
+No lo hagas todo!. Puedes elegir una o dos cosas que te gusten. Incluso si estás aprendiendo en privado, tienes que tomar notas y terminar los proyectos de programación y los desafíos. ¿Por qué no darte un poco de tiempo extra para publicarlos? Creo que vale la pena el 100% de tu tiempo.
 
-Nadie lo es. Llevo 20 años programando y sigo pensando que no soy un experto. Al mostrar tu perspectiva sobre los temas que acabas de aprender estás ayudando a otros aficionados en su camino.
-
-### No tengo tiempo
-
-No lo hagas todo, puedes elegir una o dos cosas que te gusten. Incluso si estás aprendiendo en privado tienes que tomar notas y terminar los proyectos de programación y los desafíos, ¿por qué no darte un poco de tiempo extra para publicarlos? Creo que vale la pena el 100% de tu tiempo. 
-
-¡Espero haber expuesto mi caso!
+## ¡Espero haber expuesto mi caso!
 
 ## ¡Sigue así!
 
