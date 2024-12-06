@@ -165,7 +165,7 @@ let secondSum = sum(1,1);
 console.log(multiply(firstSum, secondSum));
 ```
 
-> :point_up: Puedes hacer click en "ejecutar" en el codigo de arriba para ver su salida.
+> :point_up: Puedes hacer click en "ejecutar" en el código de arriba para ver su salida.
 
 ## Veamos un ejemplo:
 
