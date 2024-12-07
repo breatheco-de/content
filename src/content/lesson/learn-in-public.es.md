@@ -50,7 +50,7 @@ Realmente lo dudo. Aprender a programar es difícil y la gente lee mucho sobre e
 Nadie lo es. Llevo 20 años programando y sigo pensando que no soy un experto. Al mostrar tu perspectiva sobre los temas que acabas de aprender, estás ayudando a otros aficionados en su camino.
 
 ### No tengo tiempo: 
-No lo hagas todo!. Puedes elegir una o dos cosas que te gusten. Incluso si estás aprendiendo en privado, tienes que tomar notas y terminar los proyectos de programación y los desafíos. ¿Por qué no darte un poco de tiempo extra para publicarlos? Creo que vale la pena el 100% de tu tiempo.
+¡No lo hagas todo! Puedes elegir una o dos cosas que te gusten. Incluso si estás aprendiendo en privado, tienes que tomar notas y terminar los proyectos de programación y los desafíos. ¿Por qué no darte un poco de tiempo extra para publicarlos? Creo que vale la pena el 100% de tu tiempo.
 
 ## ¡Espero haber expuesto mi caso!
 
