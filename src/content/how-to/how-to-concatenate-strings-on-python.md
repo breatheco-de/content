@@ -1,7 +1,7 @@
 ---
 title: "How to concatenate Strings on Python"
 subtitle: "Learn how to concatenate strings in Python efficiently. Explore string manipulation techniques and enhance your coding skills today!"
-tags: ["python"]
+tags: ["python", "strings"]
 
 ---
 
