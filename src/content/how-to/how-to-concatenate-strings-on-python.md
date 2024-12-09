@@ -138,4 +138,19 @@ print(str1*3)
 
 > If you format the **string** variable correctly (leaving a space at the end of the sentence/word), this is the best way to repeat a line of text as many times as you may need.
 
-You can read more related topics at [4Geeks](https://4geeks.com). Hope you enjoyed the reading and keep on the Geek side!
+
+# Recommended Material
+
+If you want to learn more about how to concatenate strings in Python and explore the different methods available, we invite you to check out this **interactive tutorial**.
+
+👉 [Explore this tutorial on string concatenation in Python!](https://4geeks.com/interactive-exercise/python-beginner-exercises)
+
+In this tutorial, you will learn:
+
+- How to use modern and traditional methods to concatenate strings.
+- The importance of handling different data types, such as numbers and strings.
+- We will practice creating variables, loops, and some functions. Additionally, we will cover best practices for writing more readable and efficient code.
+
+Don’t miss it! This is an essential resource to become a more effective Python developer.
+
+
