@@ -1,7 +1,7 @@
 ---
-title: "What is debugging and how to debug code"
-subtitle: "Learn what is and how to debug code faster and more efficiently. Techniques that can save you up to 50% of your debugging time."
-tags: ["debugging", "web development"]
+Title: "What is debugging and how to debug code"
+Subtitle: "Learn what is and how to debug code faster and more efficiently. Techniques that can save you up to 50% of your debugging time."
+Tags: ["debugging", "web development"]
 
 ---
 
