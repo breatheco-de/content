@@ -227,3 +227,11 @@ To make a DELETE request in Python, we need to use the `delete()` method from th
 ## Conclusion
 
 APIs play a fundamental role in application integration and data exchange in the world of software development. In Python, the **Requests** library allows us to interact with APIs in a simple and intuitive way. In this article, we learned how to use this library to make **HTTP** requests to obtain, create, update, or delete information in an API. Now, you are ready to consume an API correctly and use its functionalities in your own applications.
+
+## Recommended Material
+
+To dive deeper into consuming APIs with Python, we highly encourage you to take this **interactive course**. It's a great opportunity to learn hands-on and master the `requests` module:
+
+👉 [Take this interactive course on Python HTTP Requests & API!](https://4geeks.com/interactive-exercise/python-http-requests-api-tutorial-exercises)
+
+Don't miss out! It's the first step toward becoming an expert in API integration.
