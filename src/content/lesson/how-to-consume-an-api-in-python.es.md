@@ -223,3 +223,11 @@ Para realizar una solicitud de tipo DELETE en Python debemos hacer uso del méto
 ## Conclusión
 
 Las APIs desempeñan un papel fundamental en la integración de aplicaciones y el intercambio de datos en el mundo del desarrollo de software. En Python la librería **Requests** nos permite interactuar con las APIs de una forma sencilla e intuitiva, en este artículo aprendimos como hacer uso de esta librería para hacer peticiones **HTTP** y así obtener, crear, actualizar o eliminar información en una API, ahora ya estás listo/a para consumir una API de forma correcta y hacer uso de sus funcionalidades en tus propias aplicaciones.
+
+## Material Recomendado
+
+Para profundizar en cómo consumir APIs en Python, te invitamos a realizar este **curso interactivo**. Es una excelente oportunidad para aprender de manera práctica y dominar el uso de la librería `requests`:
+
+👉 [¡Haz este curso interactivo sobre Python HTTP Requests & API!](https://4geeks.com/es/interactive-exercise/python-http-requests-api-tutorial-ejercicio)
+
+¡No te lo pierdas! Es el primer paso para convertirte en un experto en la integración de APIs.
