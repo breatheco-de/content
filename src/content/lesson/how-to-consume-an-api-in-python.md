@@ -1,7 +1,7 @@
 ---
 title: "How to consume an API in Python?"
 subtitle: "Learn how to consume an API in Python. Discover the essential steps to access and use external data in your applications. Boost your projects now!"
-tags: ["python", "apis"]
+tags: ["python", "apis","http requests","flask","http"]
 authors: ["DF27ARTS"]
 
 ---
