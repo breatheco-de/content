@@ -1,5 +1,5 @@
 ---
-title: "Introducción a Python"
+title: "¿Qué es Python?"
 subtitle: "Aprende las bases de Python: sintaxis, bucles, tipos de datos y condicionales."
 date: "2020-10-19T16:36:31+00:00"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
@@ -11,7 +11,7 @@ tags: ["Conditionals","Logical operators","If...else","Conditions","Python"]
 
 ---
 
-# Introducción a Python
+# ¿Qué es Python?
 
 Esta lección tiene como objetivo ayudar a familiarizarte con la sintaxis básica de Python y cómo hacer cosas esenciales como imprimir algo en un terminal, manipular strings y entender como se usan las variables, funciones, operaciones lógicas y condicionales. Esta debería ser la primera lección a leer en tu viaje con Python.
 
