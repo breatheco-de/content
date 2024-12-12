@@ -47,7 +47,7 @@ Al igual que cualquier otra etiqueta HTML, las etiquetas de input tienen varios 
 ```html
 <input type="text" name="firstname" value="John"/>
 ```
-`READ ONLY`: Determina si el usuario puede cambiar el valor del <input>.
+`READ ONLY`: Determina si el usuario puede cambiar el valor del `<input>`.
 
 ```html
 <input type="text" name="firstname" value="John" readonly/>
