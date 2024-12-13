@@ -23,7 +23,7 @@ Un token JWT consta de tres partes separadas por puntos:
 
 - PAYLOAD: Contiene datos que identifican al usuario, como su ID o nombre de usuario.
 
-- SIGNATURE: Firma digital generada con las dos secciones anteriores para verificar si el contenido ha sido modificado1.
+- SIGNATURE: Firma digital generada con las dos secciones anteriores para verificar si el contenido ha sido modificado.
 
 ### Implementación en Flask:
 
