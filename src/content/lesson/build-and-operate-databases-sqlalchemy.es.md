@@ -40,7 +40,7 @@ En general, SQL Alchemy es una herramienta potente y versátil que se ha convert
 
 ## Construye tu modelo de base de datos
 
-El primer paso en la creación de la base de datos es el modelado, pero si quieres saber como construir un buen modelo en base a los requerimientos de tu aplicación te recomendamos que revises [nuestro artículo de modelado de datos](https://4geeks.com/es/lesson/modelado-bases-de-datos). Para éste artículo vamos a asumir que ya sabes qué tablas necesitas, que columnas deben tener y como se relacionan todas éstas.
+El primer paso en la creación de la base de datos es el modelado, pero si quieres saber como construir un buen modelo en base a los requerimientos de tu aplicación te recomendamos que revises [nuestro artículo de modelado de datos](https://4geeks.com/es/lesson/modelado-bases-de-datos). Para este artículo vamos a asumir que ya sabes qué tablas necesitas, qué columnas deben tener y cómo se relacionan todas éstas.
 
 Para llevar las tablas del modelo a la base de datos hay que partir por una clase `Base`, que se crea a partir de otra llamada `DeclarativeBase` de SQLAlchemy.
 
