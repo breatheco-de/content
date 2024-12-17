@@ -64,7 +64,7 @@ El ejemplo anterior era una condición simple, pero en la vida real elegir qué 
 
 Si desea representar este algoritmo en Python, se verá así:
 
-```python
+```python runable=true
 siento_que_me_atropello_un_tren = True
 me_atropello_un_tren = False
 
@@ -98,7 +98,7 @@ Para hacer una pregunta, tenemos las siguientes comparaciones: `==`, `>`, `<`, `
 
 Otra forma de escribir el algoritmo es combinar preguntas en la misma condición utilizando los operadores `AND` y `OR`:
 
-```python
+```python runable=true
 siento_que_me_atropello_un_tren = True
 me_atropello_un_tren = False
 
@@ -147,7 +147,7 @@ else:
 
 Aquí hay otro ejemplo que ejecuta un algoritmo para saber si un número tiene centenas:
 
-```python
+```python runable=true
 valor = 14
 
 if valor < 10:
@@ -161,6 +161,8 @@ elif valor < 10000:
 else:
     print("El valor es un número más allá de los miles")
 ```
+
+> Cambia el valor de la variable `valor` para que veas como funciona con los diferentes valores.
 
 ## El `switch` en Python
 
