@@ -7,7 +7,7 @@ textColor: "white"
 status: "published"
 author: ["alesanchezr"]
 syntax: ["python"]
-tags: ["Conditionals","Logical operators","If...else","Conditions","Python"]
+tags: ["Conditionals","Logical operators","Conditions","Python"]
 
 ---
 
@@ -40,7 +40,7 @@ Cuando lo comparas con otro lenguaje backend, Python es líder en casi todas las
 
 Una cosa esencial que puedes hacer en cualquier lenguaje de programación es imprimir algunos mensajes en el terminal. En Python puedes usar la instrucción `print` (imprimir):
 
-```python
+```python runable=true
 print("Hola, este es un mensaje que le puedes enseñar al usuario")
 ```
 
@@ -48,12 +48,12 @@ print("Hola, este es un mensaje que le puedes enseñar al usuario")
 
 Como la mayoría de los lenguajes de programación (o matemáticas), Python te permite almacenar datos en variables para poder utilizarlo posteriormente; las variables son una herramienta poderosa porque le permite a tu código ser reutilizado para cualquier valor de variable en el futuro, por ejemplo: para calcular un área cuadrada lo que tienes que hacer es:
 
-```python
+```python runable=true
 area = ancho * ancho
 ```
 Tu código calculará el `area` sin importar el valor del `ancho`:
 
-```python
+```python runable=true
 # Si ancho=6 en el futuro
 area = 6 * 6
 
@@ -67,7 +67,7 @@ area = 7 * 7
 
 También puedes imprimir (`print`) el valor almacenado en una variable, o incluso concatenarlo a otro string usando el operador más `+`:
 
-```python
+```python runable=true
 nombre = "Bob"
 # Imprime solo el nombre
 print(nombre) 
@@ -97,7 +97,7 @@ Es importante resaltar que el string `"1"` no es lo mismo que el número `1`, en
 
 Porque los tipos de datos importan, tienes que ser consistente con ellos, si quieres sumar el string `5` con el string `2`, tienes que convertirlos en enteros primero, así:
 
-```python
+```python runable=true
 # En python, restar strings generará un error, en su lugar, deberías hacer: 
 result = int('5') - int('2')
 # La variable 'result' ahora es igual a 3
@@ -112,14 +112,14 @@ Todos los principales lenguajes de programación tienen formas de almacenar list
 
 Una lista de Python es una sucesión ordenada de valores, por ejemplo:
 
-```python
+```python runable=true
 edades = [23, 45, 34, 2, 65, 7, 32, 54, 3, 3, 6, 4]
 nombres = ["Maria", "Willy", "Anyka", "Shan"]
 ```
 
 Es importante recordar que el orden importa. Cada uno de los valores en una lista tiene una posición que siempre va a ser la misma. Puedes recuperar cualquier valor interno usando la posición que toman en la lista, por ejemplo:
 
-```python
+```python runable=true
 print(edades[0])  # Imprimirá 23 porque su posición es 0
 print(edades[4])  # Imprimirá 65 porque su posición es 4
 ```
@@ -136,7 +136,7 @@ Un algoritmo es una sucesión de líneas de código con un propósito en común.
 Las líneas de código van de arriba a abajo (desde la línea 1 hasta la línea N)
 Por ejemplo, el siguiente es un algoritmo muy sencillo que imprime el nombre completo del nombre y apellido dados.
 
-```python
+```python runable=true
 nombre = "Taylor"
 apellido = "Swift"
 
@@ -149,7 +149,7 @@ La primera línea es `nombre = "Taylor"` y se ejecuta primero; la última línea
 
 Las condiciones son fantásticas porque te permiten saltar o condicionalmente ejecutar partes de tu algoritmo, haciéndolos bastante flexibles e inteligentes. Por ejemplo, podríamos condicionalmente imprimir "Miss" (señorita) o "Mrs." (señora), dependiendo de su estado civil:
 
-```python
+```python runable=true
 estado_civil = "casada"
 nombre = "Taylor"
 apellido = "Swift"
@@ -201,7 +201,8 @@ La primera herramienta que tienes es el condicional `if...else`. Puedes decirle 
 
 La declaración `if` te permite ejecutar un pedazo de código si se cumplen ciertas condiciones (o son verdaderas). La declaración `else` va a ejecutar un pedazo de código alternativo en caso de que la condición sea falsa.
 
-```python
+```python runable=true
+numero = 17
 if numero < 18:
 	print("Esto se mostrará si el número es menor que 18")
 else:
@@ -212,14 +213,14 @@ else:
 
 El último truco que veremos hoy son los **loops**. Los loops son asombrosos porque te permiten repetir la ejecución de una o más líneas de código sin tener que escribir la misma línea varias veces:
 
-```python
+```python runable=true
 for n in range(10):
 	print("Esta línea se imprimirá 10 veces")
 ```
 
 También puedes hacerle loops a listas de valores:
 
-```python
+```python runable=true
 nombres = ["Bobby", "Diddi", "Kaylor"]
 for n in nombres:
 	print("El siguiente nombre es "+n)
