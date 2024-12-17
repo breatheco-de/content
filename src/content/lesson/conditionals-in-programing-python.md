@@ -65,7 +65,7 @@ The previous example was a simple condition, but in real life, picking what to w
 
 If you want to represent this algorithm in Python, it will look something like this:
 
-```python
+```python runable=true
 feels_like_hit_by_train = True
 you_were_hit_by_train = False
 
@@ -99,7 +99,7 @@ Most of the questions can be asked using the following comparisons: `==`, `>`, `
 
 Another way to write the algorithm is to combine questions in the same condition using the `AND` and `OR`:
 
-```python
+```python runable=true
 feels_like_hit_by_train = True
 you_were_hit_by_train = False
 
@@ -148,7 +148,7 @@ else:
 
 Here is another example that runs an algorithm to find out if a number is in the "hundreds".
 
-```python
+```python runable=true
 value = 14
 
 if value < 10:
@@ -162,6 +162,8 @@ elif value < 10000:
 else:
   print("hundreds of thousands, or maybe more")
 ```
+
+> Change the value of the `value` variables to see what how it works with the different values.
 
 ## The `switch` statement in Python
 
