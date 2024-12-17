@@ -7,7 +7,7 @@ textColor: "white"
 status: "published"
 author: ["alesanchezr"]
 syntax: ["python"]
-tags: ["Conditionals","Logical operators","If...else","Conditions","Python"]
+tags: ["Conditionals","Logical operators","Conditions","Python"]
 
 ---
 
@@ -48,13 +48,13 @@ print("Hello, this is a message you can show to the user")
 
 Like most programming languages (or math), Python lets you store data in variables for later use. Variables are a powerful tool because they allow your code to be reusable for any variable value in the future. For example: To calculate a square's area, you have to do:
 
-```python
+```python runable=true
 area = width * width
 ```
 
 Your code will calculate the `area` no matter the value of `width`:
 
-```python
+```python runable=true
 # if width=6 in the future
 area = 6 * 6
 
@@ -68,7 +68,7 @@ area = 7 * 7
 
 You can also print from a stored variable value, or even concatenate it to another string using the plus `+` operator:
 
-```python
+```python runable=true
 name = "Bob"
 # Prints only the name
 print(name) 
@@ -97,7 +97,7 @@ It's important to highlight that the string `"1"` is not the same as the number 
 
 Because types matter, you have to be consistent with the types, if you want to sum the string "5" with the string "2" you have to convert them to integers first, like this:
 
-```python
+```python runable=true
 # In Python subtracting strings will throw an error; instead, you should do: 
 
 result = int('5') - int('2')
@@ -114,14 +114,14 @@ All the major programming languages have ways of storing lists of values togethe
 
 A Python list is an ordered succession of values, for example:
 
-```python
+```python runable=true
 ages = [23, 45, 34, 2, 65, 7, 32, 54, 3, 3, 6, 4]
 names = ["Maria", "Willy", "Anyka", "Shan"]
 ```
 
 It's important to remember that the order matters. Each of the values in a list has a position that will always be the same. You can retrieve any value inside using the position they take in the list, for example:
 
-```python
+```python runable=true
 print(ages[0])  # Will print 23 because its position is 0
 print(ages[4])  # Will print 65 because its position is 4
 ```
@@ -139,7 +139,7 @@ An Algorithm is a succession of lines of code with a common purpose.
 The lines of code go from top to bottom (from line 1 to line N).
 For example, the following is a very simple algorithm that prints the full name of the given first and last name.
 
-```python
+```python runable=true
 name = "Taylor"
 last_name = "Swift"
 
@@ -152,7 +152,7 @@ The first line is `name = "Taylor"` and it's executed first; the last line with 
 
 Conditions are fantastic because they let you skip or conditionally execute parts of your algorithms, making them very flexible and intelligent. For example, we could conditionally print "Miss" or "Mrs." depending on the relationship status:
 
-```python
+```python runable=true
 relationship_status = "married"
 name = "Taylor"
 last_name = "Swift"
@@ -204,7 +204,8 @@ The first tool you have is the `if...else` conditional. You can tell the compute
 
 The `if` statement allows you to execute a piece of code if certain conditions are met (or are true). The `else` statement will execute an alternate piece of code in case the condition is false.
 
-```python
+```python runable=true
+number = 17
 if number < 18:
 	print("This will show if number is less than 18")
 else:
@@ -215,14 +216,14 @@ else:
 
 The last trick we will see today is **loops**. Loops are amazing because they let you repeat the execution of one or more lines of code without having to write the same line several times:
 
-```python
+```python runable=true
 for n in range(10):
 	print("This line will print 10 times")
 ```
 
 You can also loop lists of values:
 
-```python
+```python runable=true
 names = ["Bobby", "Diddi", "Kaylor"]
 for n in names:
 	print("The next name is "+n)
