@@ -151,7 +151,7 @@ A local variable is only available within the scope of the nearest curly braces.
 
 If you declare a variable at the beginning of your code, it will be available throughout the entire code, even within the content of any particular function.
 
-```py runable=true
+```python runable=true
 # Define a global variable
 message = "Hello"
 
@@ -201,7 +201,8 @@ The first tool you have is the `if...else` conditional. It's straightforward. Yo
 
 The `if` statement allows you to execute a block of code if certain conditions (or truths) are met. The "else" statement will execute an alternative block of code if the condition is false.
 
-```python
+```python runable=true
+numer=17
 if number < 18:
      print("Hello");
 else:
@@ -220,7 +221,7 @@ Imagine you're in an elevator: the elevator must loop through the floors until i
 
 A `while` loop will execute a block of code as long as a condition is true. Once the condition is false, the loop will stop executing the code.
 
-```python
+```python runable=true
 sum = 0;
 number = 1;
 while number <= 50:
@@ -240,7 +241,7 @@ Note: when creating a loop, make sure the condition eventually becomes false to 
 
 <div align="right"><small><a href="https://www.youtube.com/embed/TSMzvFwpE_A">Click here to open the video in a new window</a></small></div>
 
-```python
+```python runable=true
 for i in range(10):
   print("This is number" + " " + i)
 
@@ -249,13 +250,13 @@ for i in range(10):
 
 `For...in` loops can be used to iterate over the properties of an object. Inside the parentheses, you can set any name to represent the information within the object and then include the name of the object:
 
-```py
-for (variable in object)<br> {
+```python
+for (variable in object) {
 code block to be executed
 }
 ```
 
-```python
+```python runable=true
 dog = {
   "species": "Great Dane",
   "size": "Extra Large",
