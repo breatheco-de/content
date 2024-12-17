@@ -34,10 +34,9 @@ Every list has the same basic concepts:
 
 ## How to Declare a Python List?
 
-
 These are different examples of list declarations:
 
-```python
+```python runable=true
 my_empty_list = [] # Empty list
 my_list = ["Apple", "Orange", "Donkey"]  # The only way to declare a "list" - a mutable and ordered collection of items
 my_tuple = ("Apple", "Orange", "Donkey")  # This is a "tuple" - a more limited, ordered, but immutable collection of items
@@ -51,7 +50,12 @@ To access a specific element in a list, you need an `index`.  We call `index` th
 
 The index must always start at zero (0).  That means that a List of 2 items can have `index=0` or `index=1`.  Trying to get `index=2` will return an `IndexError` because it will mean that we are trying to access the third element (which does not exist).  For example, to get any items in a list you can do the following:
 
-```python
+```python runable=true
+my_empty_list = [] # Empty list
+my_list = ["Apple", "Orange", "Donkey"]  # The only way to declare a "list" - a mutable and ordered collection of items
+my_tuple = ("Apple", "Orange", "Donkey")  # This is a "tuple" - a more limited, ordered, but immutable collection of items
+my_set = {"Apple", "Orange", "Donkey"}  # This is a "set" - a more limited, unordered and immutable collection of items
+
 print(my_list[0])  # Prints the 1st element on the console
 
 aux = my_list[3]
@@ -67,7 +71,12 @@ print(my_list[-1])  # Also prints the last element on the console
 
 If you want, you can reset or update any item inside a list using its index, like this:
 
-```python
+```python runable=true
+my_empty_list = [] # Empty list
+my_list = ["Apple", "Orange", "Donkey"]  # The only way to declare a "list" - a mutable and ordered collection of items
+my_tuple = ("Apple", "Orange", "Donkey")  # This is a "tuple" - a more limited, ordered, but immutable collection of items
+my_set = {"Apple", "Orange", "Donkey"}  # This is a "set" - a more limited, unordered and immutable collection of items
+
 my_list[5] = 'Whatever value'
 # Assign a value to the 6th element on the list 
 ```
