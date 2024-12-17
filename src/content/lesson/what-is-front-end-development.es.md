@@ -24,7 +24,7 @@ Por ejemplo:
 + Podrás crear una nueva `<table>` si el usuario presiona un botón.
 + Podrás hacer preguntas al usuario y mostrar cualquier cosa en el sitio web de acuerdo con su respuesta.
 + Podrás redireccionar al usuario a otro sitio web después de 5 segundos.
-+ Podrás crear juegos como: Tic-Tac-Toe, Hangman, etc.
++ Podrás crear juegos como: Ta-Te-Ti, Hangman, etc.
 + ¡El cielo es el límite! Desarrolladores de Front-end pueden crear juegos, sitios web y aplicaciones para cualquier tipo de industria.
 
 ## Los términos más importantes
