@@ -36,7 +36,7 @@ name = "Bob"
 age = "23" # <--- this is still a string (it's within quotes)
 ```
 
-When coding a web application, everything the user types in forms it's considered a `string`, even if the user types the number `2` (two) it will still be considered the string `"2"`  and not a real number, the developer will have to explicitely convert or parse that string into a number using the function `int()`  or `float()`.
+When coding a web application, everything the USER types in forms it's considered a `string`, even if the user types the number `2` (two) it will still be considered the string `"2"`  and not a real number, the developer will have to explicitely convert or parse that string into a number using the function `int()`  or `float()`.
 
 > :link: How to [convert strings into integers with python](https://guide.freecodecamp.org/python/how-to-convert-strings-into-integers-in-python/) (3 min read).
 
