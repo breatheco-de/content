@@ -166,7 +166,7 @@ else:
 
 ## El `switch` en Python
 
-Python no tiene una sentencia `switch`.
+Python no tiene una sentencia `switch` como otros lenguajes de programación.
 
 ## Conclusión
 
