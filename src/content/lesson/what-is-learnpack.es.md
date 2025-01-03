@@ -23,7 +23,7 @@ En lugar de mirar un video o leer un artículo, LearnPack presentará pequeños 
 
 ## Cómo usar LearnPack
 
-La mayoría de los tutoriales de LearnPack vienen con un botón etiquetado: "Nuevo ejercicio" o "Continuar ejercicio"
+La mayoría de los tutoriales de LearnPack vienen con 2 botones etiquetados como: "Nuevo ejercicio" o "Continuar ejercicio"
 
 ![Alerta de LearnPack 4geeks.com](https://github.com/breatheco-de/content/blob/master/src/assets/images/abrir-en-learnpack.png?raw=true)
 
