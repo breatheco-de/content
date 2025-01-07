@@ -12,7 +12,7 @@ Hello, future code master! In this lesson, we will explore the fascinating world
 
 Following we will see a small example of how to represent a person with a class of [Python](https://4geeks.com/lesson/how-to-code-in-python).
 
-```py
+```py runable=true
 class Person:
     def __init__(self, name, lastname, age):
         self.name = name
@@ -110,7 +110,7 @@ Object/class inheritance in object-oriented programming is a fundamental concept
 
 Example:
 
-```py
+```py  runable=true
 class Person:
     def __init__(self, name, lastmame, citizenship):
         self.name = name
@@ -141,7 +141,7 @@ Encapsulation is also a very important concept in OOP, it is a way to hide the i
 
 Example:
 
-```py
+```py  runable=true
 class House:
     def __init__(self, square_area, place, price):
         self.square_area = square_area
@@ -174,7 +174,7 @@ Finally, **polymorphism** is another fundamental concept in object-oriented prog
 
 Example:
 
-```py
+```py  runable=true
 class Car:
     def __init__(self, brand, model):
         self.brand = brand
