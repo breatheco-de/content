@@ -8,7 +8,7 @@ tags: ["Python"]
 
 Python is one of the most recommended languages to get into the world of programming, programming in Python can be as simple as:
 
-```python
+```python runable=true
 
 # Python as a calculator
 print(2 + 2)
@@ -30,7 +30,7 @@ But of course, if we are going to talk about [how to program with Python](https:
 
 A very simple example would be to use Python as our personal calculator, so that with the following code: `print(2+2)`, Python would return 4, but could we do more complex operations?
 
-```python
+```python runable=true
 # More complex mathematical operations
 
 print(((10 + 25) * 12 - 5) /6 )
@@ -48,7 +48,7 @@ Normally, having a list of tasks that we have to perform, is a method widely use
 
 In Python we can create lists in the following way:
 
-```python
+```python runable=true
 todo_list = ["make the bed", "take the dog for a walk", "learn python"]
 
 print(todo_list)
@@ -70,7 +70,7 @@ It is very common to come across a task that requires us to do the same thing a 
 
 Python, like all other programming languages, allows us to create cycles to perform the same task as many times as we need. An example, would be to get out of the punishment of the teachers who put us to write the same sentence 100 times... With Python, this is solved in a very simple way
 
-```python 
+```python runable=true
 for x in range(10):
     print("I will study python")
 
@@ -93,7 +93,7 @@ for x in range(10):
 
 Before moving on to the next example, I think it is necessary to explain a little bit about functions in Python:
 
-```python
+```python runable=true
 # Example of function in Python
 
 def myFunc(params):
@@ -117,7 +117,7 @@ def myFunc(params):
 
 Now that it is clear how a Python function is composed, we can use what we learned to create a program that returns random colors from a list of colors that we have defined.
 
-```python
+```python runable=true
 import random
 
 def randomColor():
@@ -142,7 +142,7 @@ After we have extracted from our list of colors one randomly and stored it in ou
 
 Every now and then, we wonder how many days until my birthday? Well, let's create a small program to know it
 
-```python
+```python runable=true
 import datetime
 now = datetime.date.today()
 date = str(input("Enter your birthdate month and day with this format MM/DD: ")).split("/")
@@ -165,7 +165,7 @@ As you can imagine, when we make a program, we mix different types of variables,
 In the following example we will be making use of objects, lists, cycles and random module. The example will come to solve a problem in which sometimes we are, we do not know what to put on to go out. This script, will allow us from a list of elements in our closet, to help us to select randomly what to put on.
 
 
-```python
+```python runable=true
 import random
 
 def outfit_maker(wardrobe):
