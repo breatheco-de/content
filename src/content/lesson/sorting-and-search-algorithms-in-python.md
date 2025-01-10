@@ -18,7 +18,7 @@ In computer science, sorting algorithms are crucial for the optimization of a ta
 
 The bubble sort algorithm is one of the simplest but least efficient algorithms. It works by comparing pairs of elements and swapping them if they are in the wrong order, this process is done over and over again until the list is sorted correctly.
 
-```py
+```py runable=true
 def bubble_sort(list):
     length = len(list)
     for i in range(length):
@@ -54,7 +54,7 @@ In this example, making use of the loop structure `for` we go through the list o
 
 The insertion sort algorithm is a simple but efficient algorithm. It works by dividing the list into two parts, an ordered part and an unordered part. As the unordered list is traversed, elements are inserted in the correct position in the ordered part. Next, we will see an example of code:
 
-```py
+```py runable=true
 def insertion_sort(list):
     for i in range(1, len(list)):
         actual = list[i]
@@ -98,7 +98,7 @@ Search algorithms are methods that allow us to find the location of a specific e
 
 Linear search algorithms, also known as sequential search, involve going through a list of items one by one until a specific item is found. This algorithm is very simple to implement in code but can be very inefficient depending on the length of the list and the location of the item. Below we will see a brief code example in Python.
 
-```py
+```py runable=true
 def linear_search(list, objective):
  
     for i in range(len(list)):
@@ -116,12 +116,6 @@ if result != -1:
     print(fThe number {objective_number} is located at position: {result}")
 else:
     print(f"The number {objective_number} is NOT in the list")
-```
-
-> code output:
-
-```bash
-The Number 39 is located at position: 14
 ```
 
 In this code example, we need to search for the number **39**, to search for it in a linear way we simply run through the list with the help of a `for` loop structure, and then we ask if the current element is equal to the element we are looking for, if so, we return the index of the element and end the loop; but if the loop ends and no element is returned it means that the number we are looking for is not in the list so we return **-1**. This algorithm can be useful for traversing small lists or unordered lists but it is not efficient for traversing very long lists.
@@ -144,7 +138,7 @@ The binary search algorithm is a very efficient algorithm that applies only to o
 
 Next, we will see a small example of binary search with Python.
 
-```py
+```py runable=true
 def binary_search(list, objective, start, end ):
     if start > end:
         return -1
@@ -169,12 +163,6 @@ if result != -1:
     print(f"The number {objective_number} is in position: {result}.")
 else:
     print(f"The number {objective_number} is NOT in the list")
-```
-
-> code output:
-
-```bash
-The number 27 is in position: 12.
 ```
 
 In this example, we make use of a binary search algorithm to find the number **27** in a list of sorted elements, in order to find the element we are looking for, we can make use of a [recursive](https://4geeks.com/lesson/what-is-recursion-in-python) function, in this function, the base case would be if the number in the list at position `center` is equal to the number we are looking for, we return the value of the variable `center`. This would be the index of the number, otherwise, we divide the list in two halves and make the recursive call until we find the number we are looking for, but if the number is not found in the list we return **-1**.
