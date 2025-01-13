@@ -176,25 +176,30 @@ Veamos este algoritmo que le dice a una computadora cómo decidir qué ponerse d
 
 ![Qué ponerme en San Valentín](https://github.com/breatheco-de/content/blob/master/src/assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg?raw=true)
 
-```python
+```python runable=true
+voy_a_salir = True
+puedo_comprar_hamburguesa = True
+venden_vino = False 
+usa_pantalones = True 
+blazers = 4 
+
 if voy_a_salir:
     if puedo_comprar_hamburguesa:
         if venden_vino:
-            # Haz algo
-    else:
-        if blazers > 3:
-            # Haz algo
+            print("Usa un traje de pana (Corduroy Suit).")
         else:
-            # Haz algo
-    elif usa_pantalones:
-        # Haz algo
+            if blazers > 3:
+                print("Usa jeans oscuros, blazer, camisa a cuadros y corbata de punto.")
+            else:
+                print("Sigue trabajando en tu colección de blazers.")  # Caso: blazers <= 3
     else:
-        # Haz algo
+        if usa_pantalones:
+            print("Usa un blazer negro, pantalones grises, corbata oscura y pañuelo elegante.")
+        else:
+            print("Usa un traje de 3 piezas o un combo de suéter y traje.")
 else:
-    if desnudo_al_llegar:
-        # Haz algo 
-    elif blazers > 3:
-        # Haz algo 
+    if usa_pantalones:  # Si la cita usará pantalones o vestido
+        print("Usa algo cómodo, como una camisa abotonada debajo de un cuello en V con chinos o cordones.")
     else:
-        # Haz algo 
+        print("Usa ropa casual para estar cómodo en casa, como una sudadera o pijama elegante.")
 ```
