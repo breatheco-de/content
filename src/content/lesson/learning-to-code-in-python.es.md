@@ -34,7 +34,11 @@ Casi con cualquier lenguaje de programación puedes crear tantas variables como 
 El **nombre de la variable** es la manera más efectiva de describir el contenido de una variable, úsalo con sabiduría. Es importante escoger un nombre que claramente te indique (a ti y a otros programadores) sobre los datos que están siendo almacenados en la variable. Si escogemos un nombre malo o ambigüo, nuestro código será casi imposible de entender, ergo se vuelve inutilizable. Por ejemplo digamos que le cambiamos el nombre a nuestra variable "edad" a "a":
 
 ```python
+# Ejemplo de un mal nombre de variable:
 a = 24
+
+# Ejemplo de un buen nombre de variable:
+edad = 24
 ```
 
 Como puedes ver, el nuevo nombre de la variable no nos dice nada sobre el dato que está siendo almacenado y por qué lo están usando.
