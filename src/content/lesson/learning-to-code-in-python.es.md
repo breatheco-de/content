@@ -29,7 +29,7 @@ edad = 24
 
 ![qué es python](https://github.com/breatheco-de/content/blob/master/src/assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif?raw=true)
 
-Casi con cualquier lenguaje de programación puedes crear tantas variables como quieras o necesites. Para empazar, en python debes **declarar el nombre de esa variable** con un nombre _único_ (relativo al valor o lo que reciba).
+Casi con cualquier lenguaje de programación puedes crear tantas variables como quieras o necesites. Para empezar, en Python debes **declarar el nombre de esa variable** con un nombre _único_ (relativo al valor o lo que reciba).
 
 El **nombre de la variable** es la manera más efectiva de describir el contenido de una variable, úsalo con sabiduría. Es importante escoger un nombre que claramente te indique (a ti y a otros programadores) sobre los datos que están siendo almacenados en la variable. Si escogemos un nombre malo o ambigüo, nuestro código será casi imposible de entender, ergo se vuelve inutilizable. Por ejemplo digamos que le cambiamos el nombre a nuestra variable "edad" a "a":
 
@@ -55,14 +55,19 @@ Los valores de las variables están sujetos a cambio a largo del tiempo. Para re
 
 
 ```py runable=true
-edad = 24
+edad = 22
 print(edad)
 
-# podemos actualizar el valor de la variable "edad" en cualquier momento
+edad = 24
+print(f"El segundo valor de la variable es: {edad}")
+
+# Podemos actualizar el valor de la variable "edad" en cualquier momento
 edad = 30
-print(edad)
+print(f"El tercer valor de la variable es: {edad}")
 
 ```
+Uso de f-strings: En Python, puedes usar `f"texto {variable}"` para insertar variables dentro de cadenas de texto de manera limpia y legible.
+
 
 ## Tipos de datos
 
@@ -110,7 +115,8 @@ print(miPrimerIndefinido)
 
 ## Operaciones
 
-¿Qué operaciones puedo hacer con las variables? Dependiendo del tipo de datos tienes algunas posibilidades diferentes:
+¿Qué operaciones puedo hacer con las variables? 
+Dependiendo del tipo de datos tienes algunas posibilidades diferentes:
 
 + Los números son fáciles - puedes hacer cualquier operación matemática que desees.
 + Las cadenas se pueden concatenar (fusionar), dividir, convertir a mayúsculas o minúsculas, etc.
@@ -166,7 +172,7 @@ print_message()  # Salida: Hello
 
 ## Operaciones lógicas
 
-Las computadoras piensan todo en blanco o negro. Todo es verdadero o falso. Todas las decisiones en una computadora se reducen a un simple **booleano**. Puedes preparar una computadora para resolver problemas particulares si escribes un código que haga las preguntas adecuadas para resolver ese problema.
+Las computadoras piensan todo en blanco o negro. Todo es verdadero o falso. Todas las decisiones en una computadora se reducen a un simple **booleano** unos o ceros. Puedes preparar una computadora para resolver problemas particulares si escribes un código que haga las preguntas adecuadas para resolver ese problema.
 
 Por ejemplo, si quiero una computadora para dar dulces sólo a niños mayores de 13 años de edad, puedo indicarle a la computadora que pregunte:
 
@@ -183,7 +189,7 @@ Por ejemplo, si quiero una computadora para dar dulces sólo a niños mayores de
 |Mayor o igual |>=             |Es 6 <= 6? True<br>Es 3 <= 6? True    |
 |Menor o igual  |<=            |Tienes la idea 🙂       |
 
-Para crear operaciones realmente útiles, puedes combinar varias operaciones en la misma pregunta usando AND, OR y NOT (y, o o no respectivamente).
+Para crear operaciones realmente útiles, puedes combinar varias operaciones en la misma pregunta usando AND, OR y NOT ("Y", "O" o "NO" respectivamente).
 
 Puedes agrupar las operaciones lógicas entre paréntesis y también usar paréntesis anidados para realizar varias operaciones al mismo tiempo.
 
@@ -204,11 +210,23 @@ La primera herramienta que tienes es el condicional `if ... else`. Es muy fácil
 
 La instrucción `if` te permite ejecutar un fragmento de código si se cumplen ciertas condiciones (o si son verdaderas). La declaración "else" ejecutará un fragmento de código alternativo en caso de que la condición sea falsa.
 
-```python
-if number < 18:
-     print("Hello");
-else:
-     print("Good bye!")
+Continuando con el ejemplo anterior de los dulces 
+¿La edad de este niño es mayor de 13 años?
+
+```python runable=true
+# arreglo de edades para probar distintos casos
+edades = [11, 13, 14]
+
+# Iteramos sobre cada edad y mostramos los mensajes correspondientes
+for edad in edades:
+    print(f"Edad actual: {edad}")
+    if edad > 13:
+        print("Puedes recibir dulces. ¡Disfruta!")
+    elif edad == 13:
+        print("¡Felicidades por tus 13 años! Puedes recibir dulces.")
+    else:
+        print("Lo siento, los dulces son sólo para niños mayores de 13 años.")
+    print()  # Línea en blanco para separar los casos
 ```
 
 ## Switch
@@ -254,7 +272,7 @@ for i in range(10):
 
 Los bucles `For… in` pueden usarse para recorrer con un bucle las propiedades de un objeto. Dentro de los paréntesis, puedes establecer cualquier nombre para representar la información dentro del objeto, y luego incluir el nombre del objeto:
 
-```py
+```python
 for (variable in object)<br> {
 bloque de código a ejecutarse
 }
