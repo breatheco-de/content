@@ -59,7 +59,7 @@ Esto importa el módulo [math](https://docs.python.org/es/3/library/math.html), 
 
 Ejemplos:
 
-```py
+```py runable=true
 import math
 
 # Redondea número
@@ -91,7 +91,7 @@ Los módulos en Python suelen ofrecer una variedad de funciones y variables que 
 
 El módulo [random](https://docs.python.org/es/3/library/random.html) te permite generar números aleatorios. Puedes utilizar la función  `random()`  para obtener un número aleatorio entre 0 y 1 y también puedes usar la función `uniform()` para obtener un número aleatorio entre un valor inicial y un valor final. Ejemplos:
 
-```py
+```py runable=true
 import random
 
 # Número flotante aleatorio entre 0 y 1
@@ -114,7 +114,7 @@ La función `random()` no necesita parámetros pero la función `uniform()` si n
 
 El módulo [datetime](https://docs.python.org/es/3/library/datetime.html) nos permite trabajar con fechas y horas, este módulo nos provee diferentes métodos para trabajar con ellas y modificarlas.
 
-```py
+```py runable=true
 import datetime
 
 fecha_hora_actual = datetime.datetime.now()
@@ -133,7 +133,7 @@ Como puedes ver en los ejemplo el método `now()` retorna la fecha y hora actual
 
 El módulo [os](https://docs.python.org/es/3/library/os.html) (Operating System) te proporciona funciones para interactuar con el sistema operativo. Puedes obtener información sobre el directorio actual, crear carpetas, eliminar archivos, y mucho más.
 
-```py
+```py runable=true
 import os
 
 # Obtener la dirección del directorio actual

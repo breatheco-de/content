@@ -10,7 +10,7 @@ authors: ["DF27ARTS"]
 
 La recursividad en la programación es una herramienta muy potente, esta se realiza con funciones que se llaman a sí mismas una y otra vez, puedes entenderlo como una especie de bucle que itera hasta que se cumple una condición. A continuación veremos un pequeño ejemplo donde usaremos una función recursiva para buscar el valor máximo en una lista de números.
 
-```py
+```py runable=true
 def encontrar_valor_maximo(lista):
     if len(lista) == 1:
         # Caso base o caso de salida
@@ -28,12 +28,6 @@ def encontrar_valor_maximo(lista):
 lista = [1, 4, 25, 5, 7, 8, 9, 2, 40, 3, 27]
 valor_maximo = encontrar_valor_maximo(lista)
 print(f"El número máximo de la lista es: {valor_maximo}")
-```
-
-> output del código:
-
-```bash
-El número máximo en la lista es: 40
 ```
 
 En este ejemplo hacemos uso de una función recursiva para encontrar el número más grande de una lista, en este código primero hacemos uso de una estructura condicional `if else` para verificar si el largo de la lista es igual a 1, de ser así retornamos el único número de la lista, este sería el caso de corte o caso base, de lo contrario, hacemos un llamado recursivo a la función `encontrar_valor_maximo()` y le pasamos por parámetro la lista menos el primer valor para ir recortando la lista en cada llamado recursivo y por último retornamos el valor máximo entre el primer número de la lista original y el resultado de la función.
@@ -98,7 +92,7 @@ n! = n * (n - 1) * (n - 2) * (n - 3) * ...
 
 Ejemplo de cálculo factorial haciendo uso de la recursividad con Python.
 
-```py
+```py runable=true
 def factorial(n):
     if n < 0:
         return "No se puede hacer un cálculo factorial con un número negativo"
@@ -126,7 +120,7 @@ La serie de Fibonacci es una secuencia numérica en la que cada número es la su
 
 Ejemplo de una serie de fibonacci haciendo uso de la recursividad.
 
-```py
+```py runable=true
 def fibonacci(n):
     if n < 0:
         return "La serie de fibonacci solo acepta números positivos"
@@ -147,10 +141,6 @@ numero_limite = 1000
 resultado = fibonacci(numero_limite)
 print("Serie fibonacci: ",  resultado)
 ```
-> output del código:
-```bash
-Serie fibonacci:  [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987]
-```
 
 En este ejemplo hacemos uso de recursión para encontrar todos los números de la serie de fibonacci menores que 1000, en este caso, el caso base es si la suma del dos últimos números de la lista es más grande que nuestro número límite **n**, de ser así, retornamos el array y terminamos la pila de llamadas recursivas, de lo contrario agregamos la suma de los dos últimos números a la lista y hacemos la llamada recursiva con la lista modificada una y otra vez hasta que la condición del caso base se cumpla.
 
@@ -168,7 +158,7 @@ n = n + (n - 1) + (n - 2) + ...
 
 Ejemplo de suma de números naturales haciendo uso de una función recursiva.
 
-```py
+```py runable=true
 def suma_numeros_naturales(n):
     if n < 0:
         return "La suma de naturales sólo se puede hacer con números positivos"

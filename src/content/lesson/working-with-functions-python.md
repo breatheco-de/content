@@ -22,7 +22,7 @@ Mastering the use of functions is one of the 5 fundamental skills of building al
 Basically, a function is a bunch of code that you can run anytime whenever you decide. For example:
 
 
-```python
+```python runable=true
 def multiply(a, b):
     return a * b
 
@@ -92,7 +92,7 @@ If you think about it, functions are the equivalent of books. They store knowled
 
 All functions must start and end somewhere, that is called **the scope of the function**. You can delimit the boundaries by using the correct indentation after the colon `:` like this:
 
-```python 
+```python runable=true
 # This part of the code is OUTSIDE the 'multiply' function 
 
 def multiply(a, b):
@@ -128,7 +128,7 @@ print(my_variable)
 
 If your function is going to be a one line function, you can use the "lambda" trick to be more agile. You have to use the reserved word `lambda`.
 
-```python
+```python runable=true
 multiply = lambda a, b : a * b
 result = multiply(2,3)
 print(str(result))
@@ -159,7 +159,7 @@ Please remember to assign the function whatever parameters it should receive.  I
 
 You can combine functions however you want and have chained calls like this:
 
-```python 
+```python runable=true
 def sum(a, b):
    return a + b
 
