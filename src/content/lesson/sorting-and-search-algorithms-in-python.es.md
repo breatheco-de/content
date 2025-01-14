@@ -18,7 +18,7 @@ En la informática, los algoritmos de ordenamiento son cruciales para la optimiz
 
 El algoritmo de ordenamiento por burbuja es uno de los más simples pero menos eficientes. Funciona comparando pares de elementos e intercambiándolos si están en el orden incorrecto, este proceso se hace una y otra vez hasta que la lista esté ordenada de forma correcta.
 
-```py
+```py runable=true
 def bubble_sort(lista):
     length = len(lista)
     for i in range(length):
@@ -54,7 +54,7 @@ En este ejemplo, haciendo uso de la estructura de bucle `for` recorremos la list
 
 El algoritmo de ordenamiento por inserción es un algoritmo simple pero eficiente. Funciona dividiendo la lista en dos partes, una parte ordenada y otra desordenada, a medida que se recorre la lista desordenada, se insertan elementos en la posición correcta en la parte ordenada. A continuación veremos un ejemplo de código:
 
-```py
+```py runable=true
 def insertion_sort(lista):
     for i in range(1, len(lista)):
         actual = lista[i]
@@ -98,7 +98,7 @@ Los algoritmos de búsqueda son métodos que nos permiten encontrar la ubicació
 
 Los algoritmos de búsqueda lineal, también conocidos como búsqueda secuencial, implican recorrer una lista de elementos uno por uno hasta encontrar un elemento específico. Este algoritmo es muy sencillo de implementar en código pero puede ser muy ineficiente dependiendo del largo de la lista y la ubicación donde está el elemento. A continuación veremos un pequeño ejemplo de código en Python.
 
-```py
+```py runable=true
 def linear_search(lista, objetivo):
  
     for i in range(len(lista)):
@@ -116,12 +116,6 @@ if resultado != -1:
     print(f"El número {numero_objetivo} se encuentra en la posición: {resultado}")
 else:
     print(f"El número {numero_objetivo} NO se encuentra en la lista.")
-```
-
-> output del código:
-
-```bash
-El número 39 se encuentra en la posición: 14
 ```
 
 En este ejemplo de código, necesitamos buscar el número **39**, para buscarlo de forma lineal simplemente recorremos la lista con la ayuda de una estructura de bucle `for` y luego preguntamos si el elemento actual es igual a el elemento que estamos buscando, de ser así retornamos el índice del elemento y terminamos el bucle pero si el bucle termina y no retorno ningún elemento significa que el número que buscamos no se encuentra en la lista por lo que retornamos **-1**. Este algoritmo puede ser útil para recorrer listas pequeñas o listas desordenadas pero no es eficiente para recorrer listas demasiado largas.
@@ -144,7 +138,7 @@ El algoritmo de búsqueda binaria es un algoritmo muy eficiente que se aplica so
 
 A continuación veremos un pequeño ejemplo de búsqueda binaria con Python.
 
-```py
+```py runable=true
 def binary_search(lista, objetivo, inicio, fin ):
     if inicio > fin:
         return -1
@@ -172,10 +166,6 @@ else:
     print(f"El númeor {numero_objetivo} NO se encuentra en la lista.")
 ```
 
-> output del código:
-```bash
-El número 27 se encuentra en la posición 12.
-```
 
 En este ejemplo, hacemos uso de un algoritmo de búsqueda binario para encontrar el número **27** en una lista de elementos ordenados, para poder encontrar el elemento que buscamos podemos hacer uso de una función [recursiva](https://4geeks.com/es/lesson/que-es-la-recursividad-en-python), en esta función el caso base sería si el número de la lista en la posición `centro` es igual al número  que buscamos, de ser así retornamos el valor de la variable `centro` este sería el índice del número, de lo contrario, dividimos la lista en dos mitades y hacemos el llamado recursivo hasta encontrar el número que buscamos pero si el número no se encuentra en la lista retornamos **-1**.
 
