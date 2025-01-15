@@ -140,19 +140,19 @@ Para actualizar, primero necesitas devolver/seleccionar el registro de la base d
 
 ## Relaciones
 ### Uno a uno
-En ingles one-to-one se utiliza el decorador `@OneToOne`,es una relación en la que A contiene una instancia de B y B contiene una instancias de A.  
+En inglés one-to-one se utiliza el decorador `@OneToOne`,es una relación en la que A contiene una instancia de B y B contiene una instancias de A.  
 
 
 ### Muchos a uno
-En ingles many-to-one se utiliza el decorador `@ManyToOne` 
+En inglés many-to-one se utiliza el decorador `@ManyToOne` 
 
 
 ### Uno a muchos
-En ingles one-to-many se utiliza el decorador `@OneToMany` 
+En inglés one-to-many se utiliza el decorador `@OneToMany` 
 
 
 ### Muchos a muchos
-En ingles Many-to-many se utiliza el decorador `@ManyToMany`,es una relación en la que A contiene varias instancias de B y B contiene varias instancias de A. 
+En inglés Many-to-many se utiliza el decorador `@ManyToMany`,es una relación en la que A contiene varias instancias de B y B contiene varias instancias de A. 
 
 Un ejemplo es la relación existente entre una entidades Pregunta con otra Categoría. Una pregunta puede tener varias categorías y cada categoría puede tener varias preguntas.
 
