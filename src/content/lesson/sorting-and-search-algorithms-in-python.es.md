@@ -82,7 +82,7 @@ En este ejemplo, se toma el segundo elemento de la lista y con ayuda de un bucle
 
 #### Ventajas:
 
- - **Baja sobrecarga**: Requiere menos comparaciones y movimientos que algoritmos como el ordenamiento de burbuja, lo que lo hace más eficiente en términos de intercambios de elementos.
+ - **Baja sobrecarga**: Requiere menos comparaciones y movimientos que otros algoritmos como el ordenamiento de burbuja, lo que lo hace más eficiente en términos de intercambios de elementos.
  - **Simplicidad**: el ordenamiento por inserción es uno de los algoritmos de ordenamiento más simples de implementar y entender. Esto lo hace adecuado para enseñar conceptos básicos de ordenamiento.
 
 #### Desventajas:
