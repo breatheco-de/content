@@ -8,7 +8,7 @@ authors: [DF27ARTS]
 
 Cloning an [Array](https://4geeks.com/lesson/what-is-an-array-define-array) in JavaScript is a very common operation in various scenarios. In this article, we will learn how to clone an Array and some cases in which this technique can be used. Here is a short example of how to clone an Array in JavaScript:
 
-```js
+```js runable=true
 let originalArray = [1, 2, 3, 4, 5];
 let arrayCloned = [...originalArray];
 
@@ -30,7 +30,7 @@ Cloning an Array means creating a new Array that has the same elements as the or
 
 Possibly the best way to easily clone an Array in [JavaScript](https://4geeks.com/technology/javascript) is by using the spread operator, it creates a new Array containing the same values as the original Array but with a different space in memory as shown in the following example:
 
-```js
+```js runable=true
 let originalArray = [1, 2, 3, 4, 5];
 let clonedArray = [...originalArray];
 
@@ -49,7 +49,7 @@ Here we clone the Array `originalArray` using the spread operator, this creates 
 
 Another very useful way that allows you to clone an Array in JavaScript is the `Array.from()` method, which takes an Array or an iterable object and returns a new Array.
 
-```js
+```js runable=true
 let originalArray = ["Apple", "Banana", "Watermelon", "Orange", "Strawberry"];
 let clonedArray = Array.from(originalArray);
 
@@ -65,7 +65,7 @@ The `Array.from()` method creates a clone of the original Array in a similar way
 
 The `concat()` method can also be used to clone an Array in JavaScript.
 
-```js
+```js runable=true
 let originalArray = ["Apple", "Windows", "Linux"];
 let clonedArray = [].concat(originalArray);
 
@@ -81,7 +81,7 @@ The `concat()` method concatenates two Arrays and returns a new one, concatenati
 
 Another method you can use to create a copy of an Array in JavaScript is the [slice](https://4geeks.com/how-to/javascript-array-slice) method, below is an example of how to do it:
 
-```js
+```js runable=true
 let originalArray = ["OpenAI", "Google", "Microsoft"];
 let clonedArray = originalArray.slice();
 
@@ -97,7 +97,7 @@ The `slice()` method is a method that returns a copy of a portion of the origina
 
 All of the examples above create a shallow copy of an Array. If you need to make a deep copy of an Array a good option may be to use the `JSON.parse(JSON.stringify(originalArray)` syntax.
 
-```js
+```js runable=true
 const originalArrayOne = [1, 2, 3, 4, 5, { name: "Thomas" }];
 const originalArrayTwo = ["a", "b", "c", { name: "Andrew" }];
 
@@ -118,17 +118,6 @@ console.log(shallowClone); // output: [ 'X', 2, 3, 4, 5, { name: 'Jane' } ]
 console.log("\nDeep clone");
 console.log(originalArrayTwo); // output: [ 'a', 'b', 'c', { name: 'Andrew' } ]
 console.log(deepClone); // output: [ 20, 'b', 'c', { name: 'John' } ]
-```
-> code output:
-
-```bash
-Shallow clone
-[ 1, 2, 3, 4, 5, { name: 'Jane' } ]
-[ 'X', 2, 3, 4, 5, { name: 'Jane' } ]
-
-Deep clone
-[ 'a', 'b', 'c', { name: 'Andrew' } ]
-[ 20, 'b', 'c', { name: 'John' } ]
 ```
 
 A shallow copy only copies the primitive values (numbers, strings, booleans, etc...), but it does not copy the objects or nested Arrays. If you want to create a deep copy of the original Array that also copies the objects or the nested Arrays, you can use the `JSON.parse(JSON.stringify(originalArray)` syntax.
