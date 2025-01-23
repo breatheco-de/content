@@ -11,7 +11,7 @@ status: "published"
 
 > ☝  Windows users don't use the same terminal commands, but you should learn and practice them anyway because they are heavily used when publishing your apps on any web hosting, Gitpod, Codespaces, Cloud9, etc. You can use [Git SCM](https://git-scm.com/downloads) to create a similar terminal on your computer.
 
-## Why do Developers love the Command Line?
+## Why do Developers love the Command Line? And why is it essential ?
 
 At first, everybody hated the command line. After years of experience, it became an acquired taste.
 
