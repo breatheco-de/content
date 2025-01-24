@@ -1,16 +1,21 @@
 ---
-slug: "todo-lo-necesario-para-empezar-usar-sqlalchemy"
-title: "Todo lo que necesitas saber sobre SQLAlchemy"
-subtitle: "SQLAlchemy es el ORM más popular para Python, comience a usarlo en 8 minutos."
-cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
-date: "2023-06-22T19:44:22+00:00"
-textColor: "white"
-authors: ["alesanchezr", "cvazquezlos"]
-status: "published"
-tags: ["SQL Alchemy","Python"]
-
+slug: todo-lo-necesario-para-empezar-usar-sqlalchemy
+title: Todo lo que necesitas saber sobre SQLAlchemy
+subtitle: SQLAlchemy es el ORM más popular para Python, comience a usarlo en 8 minutos.
+cover_local: ../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg
+date: '2023-06-22T19:44:22+00:00'
+textColor: white
+authors:
+  - alesanchezr
+  - cvazquezlos
+status: published
+tags:
+  - SQL Alchemy
+  - Python
+description: >-
+  Descubre cómo usar SQLAlchemy, el ORM más popular para Python. Aprende a
+  manejar bases de datos fácilmente en solo 8 minutos. ¡Empieza ahora!
 ---
-
 ## ¿Qué es SQL Alchemy?
 
 SQLAlchemy es un [Object-Relational Mapper/Mapping-tool](https://en.wikipedia.org/wiki/Object-relational_mapping), o un ORM, es una librería que los desarrolladores utilizan para crear bases de datos y manipular sus datos sin la necesidad de conocer/usar SQL.

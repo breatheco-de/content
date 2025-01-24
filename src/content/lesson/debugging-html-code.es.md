@@ -1,10 +1,16 @@
 ---
-title: "Depurando código HTML"
-subtitle: "Depurando código más rápido y más eficiente. Ahorra más del 50% de tu tiempo de depuración al codificar HTML."
-tags: ["debugging", "web development", "html/css"]
-
---- 
-
+title: Depurando código HTML
+subtitle: >-
+  Depurando código más rápido y más eficiente. Ahorra más del 50% de tu tiempo
+  de depuración al codificar HTML.
+tags:
+  - debugging
+  - web development
+  - html/css
+description: >-
+  Master HTML debugging with our efficient guide! Learn essential tips and tools
+  to save time and prevent errors in your web development projects.
+---
 ## Depuración de código HTML
 
 El código HTML es difícil de depurar inicialmente, pero es fácil de comprender si sigues esta receta. Solo necesitas conocer algunas cosas antes de comenzar a codificar o depurar en HTML que te harán un maestro. Sí, es tan fácil, así que no te preocupes y sigue leyendo.

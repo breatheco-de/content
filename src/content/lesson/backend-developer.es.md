@@ -1,14 +1,20 @@
 ---
-title: "¿Qué hay detrás de un desarrollador de Back-End?"
-subtitle: "Aprende todo sobre el desarrollo web de Back-End y lo que se necesita para convertirse en Desarrollador de Back-End"
-cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
-textColor: "white"
-date: "2020-10-19T16:36:30+00:00"
-tags: ["back-end","cliente-servidor"]
-status: "published"
-
+title: ¿Qué hay detrás de un desarrollador de Back-End?
+subtitle: >-
+  Aprende todo sobre el desarrollo web de Back-End y lo que se necesita para
+  convertirse en Desarrollador de Back-End
+cover_local: ../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg
+textColor: white
+date: '2020-10-19T16:36:30+00:00'
+tags:
+  - back-end
+  - cliente-servidor
+status: published
+description: >-
+  Descubre el mundo del desarrollo web de Back-End. Aprende sobre la
+  arquitectura cliente-servidor y lo que se necesita para ser un desarrollador
+  Back-End.
 ---
-
 ## El Lado Back-End de la Web
 
 No hace mucho tiempo, los navegadores eran muy tontos. Todo lo que hacían era renderizar documentos HTML en una versión muy básica de HTML. No había CSS, ni JS. ¡Eso significa que los desarrolladores web front-end no existían!

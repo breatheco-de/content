@@ -1,11 +1,17 @@
 ---
-title: "¿Qué es Pyenv?"
-subtitle: "Optimiza el Desarrollo en Python con Entornos Virtuales de Pyenv. Aprende a Crear, Gestionar y Mejorar tu Productividad."
-tags: ["Python", "Pyenv"]
-authors: [Gilberto-MV]
-
+title: ¿Qué es Pyenv?
+subtitle: >-
+  Optimiza el Desarrollo en Python con Entornos Virtuales de Pyenv. Aprende a
+  Crear, Gestionar y Mejorar tu Productividad.
+tags:
+  - Python
+  - Pyenv
+authors:
+  - Gilberto-MV
+description: >-
+  Descubre cómo Pyenv optimiza el desarrollo en Python gestionando múltiples
+  versiones y entornos virtuales. ¡Aprende a mejorar tu productividad hoy!
 ---
-
 # Pyenv Virtual environment
 
 ## ¿Que es Pyenv?

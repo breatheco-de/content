@@ -1,11 +1,16 @@
 ---
-title: "Before Starting Full Stack Development"
-subtitle: "Quick review about concepts you need to know in CSS, HTML, and JS before starting the Full Stack Development course"
-video: "https://www.youtube.com/watch?v=ijEp5XHm7qo"
-tags: ["html/css", "web-development"]
-
+title: Before Starting Full Stack Development
+subtitle: >-
+  Quick review about concepts you need to know in CSS, HTML, and JS before
+  starting the Full Stack Development course
+video: https://www.youtube.com/watch?v=ijEp5XHm7qo
+tags:
+  - html/css
+  - web-development
+description: >-
+  Master essential HTML, CSS, and JavaScript concepts before diving into Full
+  Stack Development. Discover key skills to boost your web development journey!
 ---
-
 To take better advantage of the upcoming course, we encourage you to finish and review any content from the Prework. 
 
 The upcoming material assumes that you have a good level of understanding of the following topics:

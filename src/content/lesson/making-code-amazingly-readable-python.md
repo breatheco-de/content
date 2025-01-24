@@ -1,10 +1,14 @@
 ---
-title: "What is code readability and how to improve it"
-subtitle: "You don't want to be a developer who writes low-quality code, and readability is one of its most critical factors."
-tags: ["coding guidelines"]
-
+title: What is code readability and how to improve it
+subtitle: >-
+  You don't want to be a developer who writes low-quality code, and readability
+  is one of its most critical factors.
+tags:
+  - coding guidelines
+description: >-
+  Learn how to enhance code readability with practical tips. Improve your coding
+  skills and avoid costly errors. Discover the secrets to clean code!
 ---
-
 Did you know that in 1999, NASA's Mars Climate Orbiter was destroyed due to a software bug caused by low code readability, costing $320 million?
 
 Having readable code is probably one of the top priorities for companies these days; it's so remarkable that, without knowing it, when you improve readability, you are also applying almost every other metric about [coding standards and guidelines](https://4geeks.com/lesson/coding-standards-guidelines) in the industry.

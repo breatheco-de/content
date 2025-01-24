@@ -1,14 +1,21 @@
 ---
-title: "Es Hora de Aprender lo que es un Array o arreglo"
-subtitle: "¿Puedes trabajar con arrays? Si no puedes, no te preocupes, aquí aprenderás qué es un array y cómo trabajar con ellos."
-cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["arreglo","matriz","array"]
-status: "published"
-video: "https://www.loom.com/share/bb0aa485cc334afbb8ff6ef1d9c6ac5b"
+title: Es Hora de Aprender lo que es un Array o arreglo
+subtitle: >-
+  ¿Puedes trabajar con arrays? Si no puedes, no te preocupes, aquí aprenderás
+  qué es un array y cómo trabajar con ellos.
+cover_local: ../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png
+textColor: white
+date: '2020-10-19T16:36:31+00:00'
+tags:
+  - arreglo
+  - matriz
+  - array
+status: published
+video: https://www.loom.com/share/bb0aa485cc334afbb8ff6ef1d9c6ac5b
+description: >-
+  Aprende qué es un array y cómo trabajar con ellos en programación. Domina esta
+  estructura esencial y mejora tus habilidades. ¡Descubre más ahora!
 ---
-
 Un array es una estructura de datos de tamaño fijo que almacena una colección de elementos, como enteros o cadenas de caracteres, de manera secuencial en la memoria. A cada elemento en el array se puede acceder utilizando un índice, comenzando desde cero. Los arrays proporcionan un acceso rápido a los elementos y son comúnmente utilizados para el almacenamiento y manipulación eficiente de datos. Ofrecen ventajas en cuanto a la asignación de memoria y la eficiencia en la caché, lo que los hace valiosos en diversas tareas de programación, desde el almacenamiento sencillo de datos hasta algoritmos y cálculos complejos. Sin embargo, su tamaño fijo puede ser una limitación, lo que requiere una gestión cuidadosa para evitar problemas de desbordamiento o subflujo.
 
 ## ¿Por qué están los Arrays en una lección separada?

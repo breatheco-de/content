@@ -1,15 +1,21 @@
 ---
-title: "Conditionals in Programming with JavaScript"
-subtitle: "Using conditions to control the flow of your code and make the computer obey"
-date: "2020-10-19T16:36:31+00:00"
-authors: ["alesanchezr"]
-cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
-textColor: "white"
-tags: ["conditionals","logical operations","if else","conditions"]
-status: "published"
-
+title: Conditionals in Programming with JavaScript
+subtitle: Using conditions to control the flow of your code and make the computer obey
+date: '2020-10-19T16:36:31+00:00'
+authors:
+  - alesanchezr
+cover_local: ../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png
+textColor: white
+tags:
+  - conditionals
+  - logical operations
+  - if else
+  - conditions
+status: published
+description: >-
+  Master conditionals in JavaScript to control your code's flow! Learn how to
+  use if-else statements, logical operators, and more. Click to discover!
 ---
-
 Mastering the use of conditions is one of the 5 fundamental skills of building algorithms:
 
 1. Variables.

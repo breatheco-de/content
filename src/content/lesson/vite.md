@@ -1,15 +1,21 @@
 ---
-title: "Introduction to Vite as a Module Bundler"
-subtitle: "Learn how Vite works as a modern module bundler and compare it to Webpack to understand its unique advantages."
-cover: "https://example.com/vite-module-bundler-cover.jpg"
-textColor: "black"
-date: "2024-01-20T10:00:00-04:00"
-tags: ["vite", "javascript", "webpack", "web development"]
-status: "draft"
+title: Introduction to Vite as a Module Bundler
+subtitle: >-
+  Learn how Vite works as a modern module bundler and compare it to Webpack to
+  understand its unique advantages.
+cover: https://example.com/vite-module-bundler-cover.jpg
+textColor: black
+date: '2024-01-20T10:00:00-04:00'
+tags:
+  - vite
+  - javascript
+  - webpack
+  - web development
+status: draft
+description: >-
+  Learn how Vite, a modern module bundler, enhances web development with speed
+  and simplicity. Discover its advantages over Webpack today!
 ---
-
-
-
 # Introduction to Vite as a Module Bundler
 
 This document is designed to explain how Vite works as a *module bundler* and why it stands out as a modern web development tool. It’s aimed at beginners who may not yet understand what a *module bundler* is. A section comparing Vite to Webpack is also included to provide further clarity.

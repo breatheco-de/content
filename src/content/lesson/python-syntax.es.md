@@ -1,16 +1,23 @@
 ---
-title: "¿Qué es Python?"
-subtitle: "Aprende las bases de Python: sintaxis, bucles, tipos de datos y condicionales."
-date: "2020-10-19T16:36:31+00:00"
-cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
-textColor: "white"
-status: "published"
-author: ["alesanchezr"]
-syntax: ["python"]
-tags: ["Conditionals","Logical operators","Conditions","Python"]
-
+title: ¿Qué es Python?
+subtitle: 'Aprende las bases de Python: sintaxis, bucles, tipos de datos y condicionales.'
+date: '2020-10-19T16:36:31+00:00'
+cover_local: ../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png
+textColor: white
+status: published
+author:
+  - alesanchezr
+syntax:
+  - python
+tags:
+  - Conditionals
+  - Logical operators
+  - Conditions
+  - Python
+description: >-
+  Aprende las bases de Python: sintaxis, bucles, tipos de datos y condicionales.
+  ¡Descubre cómo este poderoso lenguaje puede transformar tu programación!
 ---
-
 # ¿Qué es Python?
 
 Esta lección tiene como objetivo ayudar a familiarizarte con la sintaxis básica de Python y cómo hacer cosas esenciales como imprimir algo en un terminal, manipular strings y entender cómo se usan las variables, funciones, operaciones lógicas y condicionales. Esta debería ser la primera lección a leer en tu viaje con Python.

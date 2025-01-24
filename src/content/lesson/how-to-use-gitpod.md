@@ -1,14 +1,20 @@
 ---
-title: "How to use Gitpod"
-subtitle: "Learn the basics of Gitpod and learn why using this cloud editor is the most convenient way to code today"
-cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/gitpod.jpeg?raw=true"
-textColor: "white"
-status: "draft"
-date: "2022-01-15T16:36:30+00:00"
-tags: ["gitpod"]
-canonical: ""
+title: How to use Gitpod
+subtitle: >-
+  Learn the basics of Gitpod and learn why using this cloud editor is the most
+  convenient way to code today
+cover_local: >-
+  https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/gitpod.jpeg?raw=true
+textColor: white
+status: draft
+date: '2022-01-15T16:36:30+00:00'
+tags:
+  - gitpod
+canonical: ''
+description: >-
+  Learn how to use Gitpod, the cloud-based coding platform. Discover its
+  benefits, features, and how to enhance your coding experience today!
 ---
-
 ## What is Gitpod?
 
 Gitpod is a service that provides online virtual computers for coding.

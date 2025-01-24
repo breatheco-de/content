@@ -1,13 +1,21 @@
 ---
-title: "Cómo crear pruebas unitarias con JEST"
-subtitle: "Cuando tu código esté listo, testear es esencial."
-cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["Jest", "pruebas unitarias", "node js", "javascript", "back end", "full stack"]
-status: "published"
+title: Cómo crear pruebas unitarias con JEST
+subtitle: Cuando tu código esté listo, testear es esencial.
+cover_local: ../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg
+textColor: white
+date: '2020-10-19T16:36:31+00:00'
+tags:
+  - Jest
+  - pruebas unitarias
+  - node js
+  - javascript
+  - back end
+  - full stack
+status: published
+description: >-
+  Aprende a crear pruebas unitarias con JEST y mejora la calidad de tu código en
+  JavaScript. ¡Descubre cómo asegurar tu desarrollo hoy mismo!
 ---
-
 Los seres humanos cometen errores, todo el tiempo. A medida que avances en tu carrera de desarrollador te sentirás más cómodo con eso.
 
 Los desarrolladores Senior entienden que su código tendrá errores (no importa cuan inteligente sean) y que la única forma de que tenga calidad es escribiendo código adicional, a eso le llamamos "Pruebas unitarias", aquí aprenderás por qué y cómo hacerlo.

@@ -1,11 +1,20 @@
 ---
-title: "How to consume an API in Python?"
-subtitle: "Learn how to consume an API in Python. Discover the essential steps to access and use external data in your applications. Boost your projects now!"
-tags: ["python", "apis","http requests","flask","http"]
-authors: ["DF27ARTS"]
-
+title: How to consume an API in Python?
+subtitle: >-
+  Learn how to consume an API in Python. Discover the essential steps to access
+  and use external data in your applications. Boost your projects now!
+tags:
+  - python
+  - apis
+  - http requests
+  - flask
+  - http
+authors:
+  - DF27ARTS
+description: >-
+  Learn how to consume an API in Python using the Requests library. Master GET,
+  POST, PUT, and DELETE requests. Discover essential tips now!
 ---
-
 ## How to Consume an API in Python using requests?
 
 In the world of modern development, it's very common to use an API (Application Programming Interface) to connect to third-party services. For example, if you're creating an application where you need to track users' locations, instead of writing all the necessary code for that, you can simply use the Google Maps API.

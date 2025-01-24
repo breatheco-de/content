@@ -1,14 +1,20 @@
 ---
-title: "Token Based Authentication in your API"
-subtitle: "Learn how to implement an authentication system that allows users to log in and log out from your web app and API"
-cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["authentication", "security", "backend"]
-status: "published"
-
+title: Token Based Authentication in your API
+subtitle: >-
+  Learn how to implement an authentication system that allows users to log in
+  and log out from your web app and API
+cover_local: ../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg
+textColor: white
+date: '2020-10-19T16:36:31+00:00'
+tags:
+  - authentication
+  - security
+  - backend
+status: published
+description: >-
+  Learn how to implement token-based authentication in your API for secure user
+  login and access control. Discover best practices and examples!
 ---
-
 ## Why implementing Token Based Authentication
 
 <img src="https://github.com/breatheco-de/content/blob/ee21de4299b9e003de7be720280b42ed50056daf/src/assets/images/authentication.png?raw=true" align="right" />

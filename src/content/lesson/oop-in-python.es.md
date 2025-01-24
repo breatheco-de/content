@@ -1,11 +1,18 @@
 ---
-title: "¿Qué es la Programación Orientada a Objetos?"
-subtitle: "Descubre qué es la Programación Orientada a Objetos y entiende los fundamentos detrás de esta poderosa metodología de desarrollo de software."
-tags: ["python", "programacion-orientada-a-objectos"]
-authors: ["DF27ARTS"]
-
+title: ¿Qué es la Programación Orientada a Objetos?
+subtitle: >-
+  Descubre qué es la Programación Orientada a Objetos y entiende los fundamentos
+  detrás de esta poderosa metodología de desarrollo de software.
+tags:
+  - python
+  - programacion-orientada-a-objectos
+authors:
+  - DF27ARTS
+description: >-
+  Descubre la Programación Orientada a Objetos en Python. Aprende sus
+  principios, clases y objetos para crear software más organizado y eficiente.
+  ¡Empieza ahora!
 ---
-
 ## Introducción a la Programación Orientada a Objetos en Python 
 
 ¡Hola, futuro maestro del código! En esta lectura, exploraremos el fascinante mundo de la Programación Orientada a Objetos (POO). Descubrirás qué es la POO y cómo esta poderosa técnica te permite crear programas más organizados, reutilizables y fáciles de mantener.

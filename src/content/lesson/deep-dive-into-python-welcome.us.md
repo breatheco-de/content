@@ -1,8 +1,10 @@
 ---
-title: "Welcome to 4Geeks.com Python Mastering Program!"
-
+title: Welcome to 4Geeks.com Python Mastering Program!
+description: >-
+  Join the 4Geeks.com Python Mastering Program! Discover hands-on coding, AI
+  tutoring, and mentoring sessions to elevate your Python skills. Start learning
+  today!
 ---
-
 Welcome aboard! 🎉 We're thrilled to have you join our Deep Dive into Python program. This journey is designed to equip you with the skills and knowledge needed to take your Python seniority to a next level. No previous experience? No problem! We're here to guide you every step of the way.
 
 ### Getting Started

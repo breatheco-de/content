@@ -1,14 +1,18 @@
 ---
-title: "Intro to Professional and Agile Development"
-subtitle: "All you've learned needs to be put together. Let's make our first entire professional application using the Agile Development method!"
-cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["agile development"]
-status: "published"
-
+title: Intro to Professional and Agile Development
+subtitle: >-
+  All you've learned needs to be put together. Let's make our first entire
+  professional application using the Agile Development method!
+cover_local: ../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg
+textColor: white
+date: '2020-10-19T16:36:31+00:00'
+tags:
+  - agile development
+status: published
+description: >-
+  Master Agile Development and learn to build professional web applications
+  step-by-step. Discover the workflow that transforms coding into creation!
 ---
-
 ## Time to Build Awesome Stuff!
 
 Junior developers understand the basic tricks of coding (for, while, if...else, functions, variables, etc.) But Senior developers can see the big picture and make an application from start to finish. This course is an attempt at making you see the big picture and start building very professional apps right away!

@@ -1,15 +1,21 @@
 ---
-title: "Construyendo tu perfil y reputación GitHub"
-subtitle: "Toma horas armar un buen cv, incluso aunque sea falso. Tener un buen GitHub toma meses o años ¡Manos a la obra!"
-textColor: "white"
-authors: ["alesanchezr"]
-status: "published"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["github"]
-cover_local: "../../assets/images/githubbackground.jpg"
-
+title: Construyendo tu perfil y reputación GitHub
+subtitle: >-
+  Toma horas armar un buen cv, incluso aunque sea falso. Tener un buen GitHub
+  toma meses o años ¡Manos a la obra!
+textColor: white
+authors:
+  - alesanchezr
+status: published
+date: '2020-10-19T16:36:31+00:00'
+tags:
+  - github
+cover_local: ../../assets/images/githubbackground.jpg
+description: >-
+  Master your GitHub profile and reputation! Learn essential tips to showcase
+  your skills and attract recruiters. Start building your developer portfolio
+  today!
 ---
-
 ## Introducción a GitHub (si ya lo conoces, lee la siguiente sección)
 
 ![Página principal de GitHub](https://github.com/breatheco-de/content/blob/master/src/assets/images/4889ebd9-201f-46c7-a1fb-d3d8c2f4493e.png?raw=true)

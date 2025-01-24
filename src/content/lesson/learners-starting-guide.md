@@ -1,3 +1,8 @@
+---
+description: >-
+  Learn how to start coding with LearnPack! Discover interactive tutorials,
+  setup guides, and troubleshooting tips to enhance your coding journey.
+---
 # How to Learn Coding with LearnPack
 
 Getting started with Learnpack is straightforward. LearnPack is a tool that operates inside your coding environment (e.g. VSCode), enabling any repository codebase to become an interactive tutorial. Any repository compatible with Learnpack can serve as an excellent tutorial. You can check out some examples of LearnPack-compatible repositories [here](https://4geeks.com/interactive-exercises).

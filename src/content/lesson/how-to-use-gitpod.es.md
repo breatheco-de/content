@@ -1,10 +1,15 @@
 ---
-title: "Como utilizar Gitpod"
-subtitle: "Aprende lo esencial para utilizar Gitpod correctamente y porqué este editor de código en la nube es la forma más conveniente de programar hoy en día"
-tags: ["gitpod", "github"]
-
+title: Como utilizar Gitpod
+subtitle: >-
+  Aprende lo esencial para utilizar Gitpod correctamente y porqué este editor de
+  código en la nube es la forma más conveniente de programar hoy en día
+tags:
+  - gitpod
+  - github
+description: >-
+  Aprende a utilizar Gitpod, el editor de código en la nube. Descubre cómo
+  simplificar tu flujo de trabajo y mejorar tu programación hoy mismo.
 ---
-
 ## ¿Qué es Gitpod?
 
 Gitpod es un servicio que proporciona computadoras virtuales en línea para la codificación.

@@ -1,11 +1,16 @@
 ---
-title: "Introduction to Start Coding Using Javascript"
-subtitle: "You will learn all about the fundamentals of Javascript, starting with the basics of syntax, conditionals, functions, and arrays."
-tags: ["javascript"]
-authors: ["tomasgonzaleza"]
-
+title: Introduction to Start Coding Using Javascript
+subtitle: >-
+  You will learn all about the fundamentals of Javascript, starting with the
+  basics of syntax, conditionals, functions, and arrays.
+tags:
+  - javascript
+authors:
+  - tomasgonzaleza
+description: >-
+  Learn the fundamentals of Javascript, from syntax to functions and arrays.
+  Master coding skills with our engaging course. Start your journey today!
 ---
-
 <!--hide-->
 # Introduction to Start Coding Using Javascript
 <!--endhide-->

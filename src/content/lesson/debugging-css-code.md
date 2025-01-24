@@ -1,9 +1,16 @@
 ---
-title: "Debugging CSS Code"
-subtitle: "Debugging CSS code faster and more efficiently. Save more than 50% of your debugging time when coding CSS."
-tags: ["debugging", "web development", "html/css"]
-
---- 
+title: Debugging CSS Code
+subtitle: >-
+  Debugging CSS code faster and more efficiently. Save more than 50% of your
+  debugging time when coding CSS.
+tags:
+  - debugging
+  - web development
+  - html/css
+description: >-
+  Master CSS debugging with our concise guide! Learn essential tools and tips to
+  fix styles quickly and efficiently. Discover how to save time now!
+---
 # Debugging CSS code
 
 This guide is meant to teach you how to fix bugs in your CSS code. If you are not sure if your error is in your HTML, we recommend reading: [What is debugging and how to master it](https://4geeks.com/lesson/what-is-debugging-code).

@@ -1,11 +1,16 @@
 ---
-title: "Introducción para Comenzar a Programar Usando Javascript"
-subtitle: "Aprenderás todo sobre los fundamentos de Javascript, comenzando con los conceptos básicos de sintaxis, condicionales, funciones y arrays."
-tags: ["javascript"]
-authors: ["tomasgonzaleza"]
-
+title: Introducción para Comenzar a Programar Usando Javascript
+subtitle: >-
+  Aprenderás todo sobre los fundamentos de Javascript, comenzando con los
+  conceptos básicos de sintaxis, condicionales, funciones y arrays.
+tags:
+  - javascript
+authors:
+  - tomasgonzaleza
+description: >-
+  Aprende los fundamentos de Javascript y comienza tu viaje en la programación.
+  ¡Descubre cómo crear sitios web interactivos hoy mismo!
 ---
-
 <!--hide-->
 # Introducción a Comenzar a Programar Usando Javascript
 <!--endhide-->

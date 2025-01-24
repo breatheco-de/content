@@ -1,14 +1,19 @@
 ---
-title: "Knowing What is Behind a Back-End Developer"
-subtitle: "Learn here everything about Back-End Web development and what it takes to become a Back-End developer"
-cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
-textColor: "white"
-date: "2020-10-19T16:36:30+00:00"
-tags: ["client-server","back-end"]
-status: "published"
-
+title: Knowing What is Behind a Back-End Developer
+subtitle: >-
+  Learn here everything about Back-End Web development and what it takes to
+  become a Back-End developer
+cover_local: ../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg
+textColor: white
+date: '2020-10-19T16:36:30+00:00'
+tags:
+  - client-server
+  - back-end
+status: published
+description: >-
+  Discover the essentials of back-end web development! Learn what it takes to
+  become a back-end developer and master the client-server architecture today!
 ---
-
 ## The Back-End Side of the Web
 
 Not so long ago, browsers were very dumb. All they did was render HTML documents in a very early version of HTML. There was no CSS, nor JS. That means that front-end web developers did not exist!

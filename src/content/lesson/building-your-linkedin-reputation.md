@@ -1,15 +1,23 @@
 ---
-title: "Building your LinkedIn profile and reputation"
-subtitle: "LinkedIn is a great source of job opportunities, recruiters and employers are always searching for the best candidates"
-textColor: "white"
-authors: ["alesanchezr"]
-status: "pending_translation"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["linkedin","job hunting","resume building"]
-cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
-
+title: Building your LinkedIn profile and reputation
+subtitle: >-
+  LinkedIn is a great source of job opportunities, recruiters and employers are
+  always searching for the best candidates
+textColor: white
+authors:
+  - alesanchezr
+status: pending_translation
+date: '2020-10-19T16:36:31+00:00'
+tags:
+  - linkedin
+  - job hunting
+  - resume building
+cover_local: ../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png
+description: >-
+  Master your LinkedIn profile and reputation with essential tips for job
+  hunting, resume building, and showcasing your skills. Discover how to stand
+  out!
 ---
-
 - Set your headline with your career focus: E.g: Font-End Developer.
 - Set a professional picture, don't be to formal or informal, just candid.
 - Add your 4Geek's certificate into the certificates section.

@@ -1,14 +1,18 @@
 ---
-title: "What is HTTP?"
-subtitle: "HTTP stands for Hypertext Transfer Protocol. It is a set of communication rules that enables the flow of information over the World Wide Web (WWW)."
-cover_local: "../../assets/images/http-0.png"
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["HTTP"]
-status: "published"
-
+title: What is HTTP?
+subtitle: >-
+  HTTP stands for Hypertext Transfer Protocol. It is a set of communication
+  rules that enables the flow of information over the World Wide Web (WWW).
+cover_local: ../../assets/images/http-0.png
+textColor: white
+date: '2020-10-19T16:36:31+00:00'
+tags:
+  - HTTP
+status: published
+description: >-
+  Learn about HTTP, the essential protocol for web communication. Discover how
+  it works, request methods, and response codes in our comprehensive guide!
 ---
-
 ## What is HTTP?
 
 HTTP (*HyperText Transfer Protocol*) is a protocol used to transmit hypermedia documents over the Web. It is involved in all information transmission flows across the Internet.

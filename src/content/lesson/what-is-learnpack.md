@@ -1,14 +1,19 @@
 ---
-title: "Coding tutorials with LearnPack"
-subtitle: "Everything you need to learn about LearnPack, our chosen tutorial engine for coding content."
-cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
-textColor: "white"
-date: "2020-10-19T16:36:30+00:00"
-tags: ["learnpack"]
-status: "published"
-
+title: Coding tutorials with LearnPack
+subtitle: >-
+  Everything you need to learn about LearnPack, our chosen tutorial engine for
+  coding content.
+cover_local: ../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg
+textColor: white
+date: '2020-10-19T16:36:30+00:00'
+tags:
+  - learnpack
+status: published
+description: >-
+  Discover LearnPack, the ultimate tool for interactive coding tutorials! Master
+  coding skills with auto-graded exercises and instant feedback. Start learning
+  today!
 ---
-
 At 4Geeks.com, you will see the word "LearnPack" here and there. You will use LearnPack A LOT to practice coding tutorials and small exercises. This article explains what it is and how to use it so you can run all the tutorials smoothly.
 
 ## What is LearnPack?

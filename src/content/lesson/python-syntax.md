@@ -1,16 +1,23 @@
 ---
-title: "Introduction to Python"
-subtitle: "Learn the basics of Python syntax, loops, data-types and conditionals."
-date: "2020-10-19T16:36:31+00:00"
-cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
-textColor: "white"
-status: "published"
-author: ["alesanchezr"]
-syntax: ["python"]
-tags: ["Conditionals","Logical operators","Conditions","Python"]
-
+title: Introduction to Python
+subtitle: Learn the basics of Python syntax, loops, data-types and conditionals.
+date: '2020-10-19T16:36:31+00:00'
+cover_local: ../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png
+textColor: white
+status: published
+author:
+  - alesanchezr
+syntax:
+  - python
+tags:
+  - Conditionals
+  - Logical operators
+  - Conditions
+  - Python
+description: >-
+  Learn the basics of Python syntax, loops, and conditionals. Discover how to
+  start your coding journey with this engaging introduction!
 ---
-
 # Intro to Python
 
 This lesson aims to familiarize you with basic Python syntax and how to do the essential things like printing something on the terminal, manipulating strings, understanding how to use variables, functions, logical operations and conditionals. This lesson should be the first read in your Python journey.

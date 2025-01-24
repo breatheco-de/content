@@ -1,10 +1,16 @@
 ---
-title: "¿Qué es la depuración y cómo depurar el código?"
-subtitle: "Aprende qué es y cómo depurar código de manera más rápida y eficiente. Técnicas que pueden ahorrarte hasta un 50 % de tu tiempo de depuración."
-tags: ["debugging", "web development"]
-
+title: ¿Qué es la depuración y cómo depurar el código?
+subtitle: >-
+  Aprende qué es y cómo depurar código de manera más rápida y eficiente.
+  Técnicas que pueden ahorrarte hasta un 50 % de tu tiempo de depuración.
+tags:
+  - debugging
+  - web development
+description: >-
+  Aprende qué es la depuración y cómo depurar el código de manera eficiente.
+  ¡Descubre técnicas que te ahorrarán tiempo y mejorarán tus habilidades de
+  programación!
 ---
-
 Todos cometemos muchos errores al programar. Esta es una realidad que reconoce cada desarrollador senior; por eso "depurar código" se ha convertido en una de las habilidades más esenciales para los desarrolladores.
 
 ## Está bien cometer errores

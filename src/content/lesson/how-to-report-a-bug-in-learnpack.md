@@ -1,3 +1,8 @@
+---
+description: >-
+  Learn how to report a bug in Learnpack effectively! Follow our simple steps to
+  troubleshoot issues and ensure a smoother experience. Click to discover more!
+---
 # How to report a bug in Learnpack
 
 <!-- reparafrasear porque no se entiende -->
