@@ -1,11 +1,14 @@
 ---
-title: "Todo lo que necesitas saber sobre Javascript Empty Array"
-subtitle: "Descubre cómo trabajar con arrays vacíos en Javascript. Aprende cómo crearlos, verificar si están vacíos y manipularlos de manera efectiva."
-tags: ["JavaScript","arrays"]
-authors: ["DF27ARTS"]
-
+title: Todo lo que necesitas saber sobre Javascript Empty Array
+tags:
+  - JavaScript
+  - arrays
+authors:
+  - DF27ARTS
+description: >-
+  Descubre cómo trabajar con arrays vacíos en JavaScript. Aprende a crearlos,
+  verificarlos y vaciarlos de manera efectiva. ¡Empieza a dominarlo hoy!
 ---
-
 ##  Array Vacío Javascript
 
 ```js
