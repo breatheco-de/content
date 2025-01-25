@@ -1,10 +1,5 @@
 ---
 title: Introduction to Python
-subtitle: Learn the basics of Python syntax, loops, data-types and conditionals.
-date: '2020-10-19T16:36:31+00:00'
-cover_local: ../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png
-textColor: white
-status: published
 author:
   - alesanchezr
 syntax:
@@ -16,7 +11,7 @@ tags:
   - Python
 description: >-
   Learn the basics of Python syntax, loops, and conditionals. Discover how to
-  start your coding journey with this engaging introduction!
+  kickstart your coding journey with this engaging introduction!
 ---
 # Intro to Python
 

@@ -1,15 +1,10 @@
 ---
 title: Understanding PHP Syntax
-subtitle: Learn here about PHP Syntax, with this amazing lesson
-cover_local: ../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png
-textColor: white
-date: '2020-10-19T16:36:31+00:00'
 tags:
   - PHP
-status: published
 description: >-
-  Learn PHP syntax with our comprehensive guide! Discover key concepts, data
-  types, and practical examples to master PHP programming today!
+  Learn PHP syntax with our comprehensive guide! Master key concepts, data
+  types, and practical examples. Discover the power of PHP programming today!
 ---
 ## What is PHP?
 

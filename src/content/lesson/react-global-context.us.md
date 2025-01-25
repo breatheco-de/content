@@ -1,6 +1,5 @@
 ---
 description: >-
-  Learn how to effectively use React Global Context to manage state in your
-  applications. Discover best practices and enhance your React skills today!
+  Master React Global Context for effective state management in your
+  applications. Learn best practices and enhance your skills today!
 ---
-

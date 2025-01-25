@@ -1,11 +1,5 @@
 ---
 title: Connecting a Database to Our REST API
-subtitle: TypeOrm allows you to build REST APIs in a quick, minimalist, and flexible way
-cover_local: >-
-  https://storage.googleapis.com/screenshots-breathecode/5f92b35c3ee7976c35b25c6a88817aca44a29ed98a5c63d698876c13fa53b054
-textColor: white
-date: '2021-04-17T16:36:31+00:00'
-status: published
 tags:
   - typeOrm
   - Expressjs

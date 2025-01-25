@@ -1,19 +1,13 @@
 ---
 title: ¿Qué es y cómo usar el hook useReducer en React.js
-subtitle: >-
-  Aprende a usar el hook useReducer en React.js y cómo funciona, compáralo con
-  otras alternativas como redux, flux, entre otras.
 cover: >-
   https://www.desktopbackground.org/p/2013/09/13/637935_nasa-wallpapers_1600x1200_h.jpg
-textColor: white
-date: '2024-01-16T16:45:31-04:00'
 tags:
   - react
   - javascript
-status: draft
 description: >-
-  Aprende a usar el hook useReducer en React.js y descubre cómo simplificar la
-  gestión del estado en tus componentes. ¡Domina esta poderosa herramienta hoy!
+  Aprende a usar el hook useReducer en React.js para gestionar el estado de tus
+  componentes de manera eficiente. ¡Descubre cómo simplificar tu código hoy!
 ---
 ## ¿Que es el hook useReducer?
 

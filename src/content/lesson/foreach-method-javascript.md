@@ -1,8 +1,5 @@
 ---
 title: How to use Foreach method in Javascript?
-subtitle: >-
-  Learn how to use the forEach method in JavaScript to iterate and perform
-  operations on elements of an array.
 tags:
   - javascript
   - arrays

@@ -1,18 +1,11 @@
 ---
 title: Knowing What is Behind a Back-End Developer
-subtitle: >-
-  Learn here everything about Back-End Web development and what it takes to
-  become a Back-End developer
-cover_local: ../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg
-textColor: white
-date: '2020-10-19T16:36:30+00:00'
 tags:
   - client-server
   - back-end
-status: published
 description: >-
   Discover the essentials of back-end web development! Learn what it takes to
-  become a back-end developer and master the client-server architecture today!
+  become a back-end developer and master client-server architecture today!
 ---
 ## The Back-End Side of the Web
 

@@ -1,7 +1,7 @@
 ---
 description: >-
-  Descubre la importancia de los Code Reviews para mejorar tu código y recibir
-  feedback valioso. ¡Aprende buenas prácticas y avanza en tu desarrollo!
+  Descubre la importancia de los Code Reviews para mejorar tu código. Aprende
+  buenas prácticas y recibe feedback valioso para avanzar en tu desarrollo.
 ---
 # Code Reviews y su importancia para futuros desarrolladores
 

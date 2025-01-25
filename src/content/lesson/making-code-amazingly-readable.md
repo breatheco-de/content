@@ -1,13 +1,11 @@
 ---
 title: What is code readability and how to improve it
-subtitle: >-
-  You don't want to be a developer who writes low-quality code, and readability
-  is one of its most critical factors.
 tags:
   - coding guidelines
 description: >-
-  Learn what code readability is and how to improve it with essential tips.
-  Master clean coding practices to enhance maintainability and reduce errors!
+  Discover the importance of code readability and learn essential tips to
+  improve it. Master clean coding practices for better maintainability and fewer
+  errors!
 ---
 Did you know that in 1999, NASA's Mars Climate Orbiter was destroyed due to a software bug caused by low code readability, costing $320 million?
 

@@ -1,14 +1,11 @@
 ---
 title: What is debugging and how to debug code
-subtitle: >-
-  Learn what is and how to debug code faster and more efficiently. Techniques
-  that can save you up to 50% of your debugging time.
 tags:
   - debugging
   - web development
 description: >-
-  Learn essential debugging techniques to fix code errors faster and more
-  efficiently. Master debugging skills and save time—discover how now!
+  Master debugging techniques to fix code errors faster and more efficiently.
+  Discover essential tips that can save you time and improve your coding skills!
 ---
 We all make mistakes when coding. This is a reality that every senior developer acknowledges, which is why "debugging code" has become one of the most essential skills for developers.
 

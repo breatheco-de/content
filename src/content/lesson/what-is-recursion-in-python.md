@@ -1,8 +1,5 @@
 ---
 title: What is recursion in Python?
-subtitle: >-
-  Discover what recursion is in Python. Explore the technique of calling itself
-  to solve complex problems elegantly and efficiently.
 tags:
   - python
 authors:

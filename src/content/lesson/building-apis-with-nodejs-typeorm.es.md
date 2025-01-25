@@ -1,12 +1,5 @@
 ---
 title: Conectando una base de datos a nuestra API REST
-subtitle: >-
-  TypeOrm  permite construir API REST de una forma rápida, minimalista y
-  flexible
-cover_local: ../../assets/images/node-typeorm.png
-textColor: white
-date: '2021-04-17T16:36:31+00:00'
-status: published
 tags:
   - typeOrm
   - Expressjs
@@ -14,8 +7,8 @@ tags:
   - REST
   - API
 description: >-
-  Learn how to connect a database to your REST API using TypeORM. Discover the
-  power of ORM for efficient data management and coding simplicity!
+  Learn how to connect a database to your REST API using TypeORM. Master
+  efficient data management and coding simplicity! Discover more now!
 ---
 ## ¿Qué es SQL TypeOrm?
 

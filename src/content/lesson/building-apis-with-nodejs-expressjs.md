@@ -1,10 +1,5 @@
 ---
 title: Building APIs with nodejs Expressjs
-subtitle: Expressjs allows you to build REST APIs in a fast, minimalist and flexible way
-cover_local: ../../assets/images/node-expressjs.png
-textColor: white
-date: '2021-04-17T16:36:31+00:00'
-status: published
 tags:
   - Expressjs
   - nodejs

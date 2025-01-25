@@ -1,8 +1,5 @@
 ---
 title: Depurando código HTML
-subtitle: >-
-  Depurando código más rápido y más eficiente. Ahorra más del 50% de tu tiempo
-  de depuración al codificar HTML.
 tags:
   - debugging
   - web development

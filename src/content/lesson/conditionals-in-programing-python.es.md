@@ -1,11 +1,5 @@
 ---
 title: Condicionales en la programación en Python
-subtitle: >-
-  Uso de condiciones para controlar el flujo de tu código y tomar decisiones
-  programáticas en Python.
-date: '2020-10-19T00:00:00+00:00'
-cover_local: ../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png
-textColor: white
 author:
   - alesanchezr
 syntax:
@@ -16,10 +10,10 @@ tags:
   - If...else
   - Condicion
   - Python
-status: published
 description: >-
-  Learn how to use condicionales in Python to control your code's flow and make
-  smart decisions. Master if...else statements today!
+  Master condicionales en Python para controlar el flujo de tu código. Aprende a
+  tomar decisiones programáticas y mejora tus habilidades de programación.
+  Discover more!
 ---
 ## Introducción a los condicionales en Python 
 

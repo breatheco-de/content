@@ -1,14 +1,7 @@
 ---
 title: Object Oriented Programming
-subtitle: >-
-  Classes are the last pieces needed to master the programming tricks! Welcome
-  to the amazing world of object-oriented programming.
-cover_local: ../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg
-textColor: white
-date: '2020-10-19T16:36:31+00:00'
 tags:
   - object oriented programming
-status: published
 description: >-
   Master Object Oriented Programming! Learn about classes, encapsulation, and
   reusability to enhance your coding skills. Discover the power of OOP today!

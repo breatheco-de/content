@@ -1,6 +1,5 @@
 ---
 description: >-
-  Learn how to efficiently drop columns in Pandas with our step-by-step guide.
-  Master data manipulation today! Discover the secrets now!
+  Master data manipulation in Pandas! Learn how to efficiently drop columns with
+  our step-by-step guide. Discover the secrets to streamline your data today!
 ---
-

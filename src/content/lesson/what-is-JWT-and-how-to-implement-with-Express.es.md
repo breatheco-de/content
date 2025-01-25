@@ -1,11 +1,5 @@
 ---
 title: Comprendiendo JWT y como implementar un JWT simple con Express
-subtitle: >-
-  Qué es un JSON Web Token (JWT), como funciona y como aplicarlo en tu API
-  usando el Microframework Express para el desarrollo de APIs
-cover_local: ../../assets/images/http-0.png
-textColor: white
-date: '2020-10-19T16:36:31+00:00'
 tags:
   - HTTP
   - API
@@ -13,10 +7,9 @@ tags:
   - Authentication
   - Express
   - TypeOrm
-status: published
 description: >-
-  Learn how to implement JWT for secure API authentication with Express.
-  Discover the essentials of JSON Web Tokens and enhance your app's security!
+  Learn how to implement JWT for secure API authentication with Express. Master
+  JSON Web Tokens and enhance your app's security! Discover more now!
 ---
 En el mundo del desarrollo web moderno, la autenticación y autorización de usuarios son aspectos cruciales para proteger las APIs y los datos sensibles. [El acceso basado en tokens](https://4geeks.com/es/lesson/ques-es-token-de-acceso-para-api) en una de las estrategias mas usadas, de entre ellas destacan los JSON Web Tokens (JWT), un estándar abierto y ligero que define un mecanismo compacto y autosuficiente para la transmisión segura de información entre partes como cliente y servidor.
 

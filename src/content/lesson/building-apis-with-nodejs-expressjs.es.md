@@ -1,12 +1,5 @@
 ---
 title: Construyendo APIs REST utilizando Expressjs
-subtitle: >-
-  Expressjs permite construir API REST de una forma rápida, minimalista y
-  flexible
-cover_local: ../../assets/images/node-expressjs.png
-textColor: white
-date: '2021-04-17T16:36:31+00:00'
-status: published
 tags:
   - Expressjs
   - nodejs
@@ -14,7 +7,7 @@ tags:
   - API
 description: >-
   Aprende a construir APIs REST con Expressjs de manera rápida y flexible.
-  ¡Descubre cómo crear endpoints y manejar solicitudes en tu proyecto!
+  ¡Descubre cómo crear endpoints y manejar solicitudes en tu proyecto hoy!
 ---
 Si no sabes qué es una API REST, recomiendo [leer sobre esto aquí](./understanding-rest-apis-es).
 

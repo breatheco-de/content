@@ -1,21 +1,13 @@
 ---
 title: Introduction to 4Geeks Academy
-subtitle: >-
-  I hope you read this entire article, this reading summarizes in 8 minutes the
-  recipe to take full advantage of the academy. The most effective way!
-textColor: white
-status: published
 tags:
   - best practices
 authors:
   - alesanchezr
-date: '2020-10-19T16:36:31+00:00'
 canonical: ''
-cover_local: >-
-  https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg?raw=true
 description: >-
   Discover how to maximize your coding journey at 4Geeks Academy! Overcome
-  challenges, build confidence, and unlock your potential. Start learning today!
+  challenges and unlock your potential. Start learning today!
 ---
 Welcome!! 🤩👏 My name is Alejandro, and I'm typing these words after years of teaching code and changing lives. Please, I beg you to read until the end, I will try my best not to bore you!
 

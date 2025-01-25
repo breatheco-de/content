@@ -1,13 +1,10 @@
 ---
 title: ¿Qué es la legibilidad del código y cómo mejorarla?
-subtitle: >-
-  No quieres ser un desarrollador que escribe código de baja calidad, y la
-  legibilidad es uno de sus factores más críticos...
 tags:
   - coding guidelines
 description: >-
-  Descubre qué es la legibilidad del código y cómo mejorarla. Aprende consejos
-  prácticos para escribir código más claro y fácil de mantener.
+  Descubre qué es la legibilidad del código y aprende consejos prácticos para
+  mejorarla. ¡Escribe código claro y fácil de mantener hoy mismo!
 ---
 ¿Sabías que en 1999, el Mars Climate Orbiter de la NASA fue destruido debido a un error de software causado por la baja legibilidad del código que costó $320 millones?
 

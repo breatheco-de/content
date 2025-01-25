@@ -1,16 +1,11 @@
 ---
 title: Aprende en público
-subtitle: La forma más eficaz de potenciar tu carrera ¡Ya es tiempo!
-cover_local: ../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg
-textColor: white
-status: published
-date: '2020-10-19T16:36:30+00:00'
 tags:
   - learn in public
 canonical: ''
 description: >-
-  Aprende a programar de manera efectiva y rápida compartiendo tu proceso en
-  público. ¡Descubre cómo potenciar tu carrera y construir tu red hoy!
+  Aprende a programar eficazmente compartiendo tu proceso en público. ¡Descubre
+  cómo potenciar tu carrera y construir tu red hoy!
 ---
 Si deseas aprender a programar de manera eficiente y rápida, es fundamental que lo hagas en público. Esto no es solo una teoría, sino un hecho comprobado.  
 

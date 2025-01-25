@@ -1,19 +1,12 @@
 ---
 title: Token Based Authentication in your API
-subtitle: >-
-  Learn how to implement an authentication system that allows users to log in
-  and log out from your web app and API
-cover_local: ../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg
-textColor: white
-date: '2020-10-19T16:36:31+00:00'
 tags:
   - authentication
   - security
   - backend
-status: published
 description: >-
   Learn how to implement token-based authentication in your API for secure user
-  login and access control. Discover best practices and examples!
+  access. Discover best practices and examples to enhance your app's security!
 ---
 ## Why implementing Token Based Authentication
 

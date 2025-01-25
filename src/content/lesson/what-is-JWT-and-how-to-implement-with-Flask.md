@@ -1,8 +1,5 @@
 ---
 title: Understanding JWT and how to implement a simple JWT with Flask
-subtitle: >-
-  What is JSON Web Token (JWT), how does it work, and how to apply it to your
-  API using the Flask Microframework for API Development
 tags:
   - HTTP
   - API
@@ -10,7 +7,7 @@ tags:
   - Authentication
 description: >-
   Learn how to implement JWT for secure API authentication in Flask. Discover
-  the simple steps to enhance your app's security today!
+  simple steps to enhance your app's security today!
 ---
 JWT is just one of the ways you can implement security and specifically [token based authentication](https://4geeks.com/lesson/token-based-api-authentication) in your API.
 

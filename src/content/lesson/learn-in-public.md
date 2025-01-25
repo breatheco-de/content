@@ -1,15 +1,10 @@
 ---
 title: Learn in Public
-subtitle: The most effective way to bootstrap your career and much more...
-cover_local: ../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg
-textColor: white
-status: published
-date: '2020-10-19T16:36:30+00:00'
 tags:
   - learn-in-public
 canonical: ''
 description: >-
-  Discover how learning in public can boost your coding skills and career.
+  Discover how learning in public can enhance your coding skills and career.
   Embrace sharing your journey and connect with others today!
 ---
 If you are interested in learning to code efficiently but fast, you should do it in public; this is not a theory but a fact.

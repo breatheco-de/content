@@ -1,14 +1,11 @@
 ---
 title: General Coding Standards and Guidelines
-subtitle: >-
-  The project assignments are an important part of our learning method; these
-  lessons will show you what to expect and why they matter so much.
 tags:
   - 4geeks method
   - coding standards
 description: >-
-  Master essential coding standards and guidelines to boost productivity and
-  maintainability. Discover best practices for cleaner, more efficient code!
+  Master essential coding standards and guidelines to enhance your coding
+  skills. Discover best practices for cleaner, more efficient code today!
 ---
 <quote>I'm not a great programmer; I'm just a good programmer with great habits. - Kent Beck</quote>
 

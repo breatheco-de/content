@@ -1,16 +1,11 @@
 ---
 title: Career Support Benefits for 4Geeks Students
-subtitle: >-
-  Discover the platforms, memberships, perks and additional benefits we have
-  available for all 4Geeks Students.
-status: published
-date: '2022-10-11T16:36:30+00:00'
 tags:
   - career-support
   - 4geeks
 canonical: ''
 description: >-
-  Discover exclusive career support benefits for 4Geeks students! Unlock
+  Unlock exclusive career support benefits for 4Geeks students! Discover
   opportunities, connect with partners, and boost your career today!
 ---
 Benefits just for you! Only for 4geeks graduates. 

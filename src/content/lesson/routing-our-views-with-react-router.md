@@ -1,16 +1,11 @@
 ---
 title: Routing our Views with React Router
-subtitle: Create your application structure and connect your Views with React Router
-cover_local: ../../assets/images/8c053abc-2f09-47e9-b586-751538d180c4.png
-textColor: white
-date: '2020-10-19T16:36:31+00:00'
 tags:
   - reactjs
   - react router
-status: published
 description: >-
-  Learn how to master routing in your React applications with React Router.
-  Discover how to connect views seamlessly and enhance user navigation!
+  Master routing in your React applications with React Router! Discover how to
+  connect views seamlessly and enhance user navigation. Click to learn more!
 ---
 ## What is React Router?
 

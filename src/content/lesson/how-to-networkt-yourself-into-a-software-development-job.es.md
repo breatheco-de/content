@@ -1,20 +1,12 @@
 ---
 title: Como 'venderte' para conseguir trabajo en IT
-subtitle: >-
-  Aprende a utilizar las redes a tu favor cuando busques un trabajo de
-  desarrollo de software
-cover_local: ../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg
-status: unassigned
-textColor: white
-date: '2020-10-19T16:36:30+00:00'
 tags:
   - markdown
   - Networking
   - software-developer-resume
 description: >-
-  Aprende a 'venderte' en el mundo IT. Descubre cómo crear redes efectivas y
-  conectar con reclutadores para conseguir tu trabajo ideal en desarrollo de
-  software.
+  Aprende a 'venderte' en IT y a crear redes efectivas. Descubre cómo conectar
+  con reclutadores y conseguir tu trabajo ideal en desarrollo de software.
 ---
 La creación de redes es un aspecto muy importante de la carrera de cualquier persona. Al buscar un trabajo, la creación de redes es clave para tener acceso a puestos que no se publican en línea, así como para obtener recomendaciones de personas que están en el campo de la tecnología. Hoy en día, la creación de redes en línea y en persona es la mejor estrategia para asegurar una posición en el campo. La creación de redes también se trata de conocer profesionales que pueden ayudarte a aprender nuevas habilidades, colaborar en nuevos proyectos y brindarte consejos.
 

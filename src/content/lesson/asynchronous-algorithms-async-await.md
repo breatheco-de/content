@@ -1,15 +1,8 @@
 ---
 title: Creating asynchronous algorithms
-subtitle: >-
-  Understand the difference between synchronous and asynchronous scripts, use
-  Promises, and master async and await.
-cover_local: ../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg
-status: published
 authors:
   - kodi2fever
   - nachovz
-textColor: white
-date: '2020-10-19T16:36:30+00:00'
 tags:
   - async
   - await
@@ -17,7 +10,7 @@ tags:
   - asynchronous
 description: >-
   Master asynchronous algorithms in JavaScript! Learn about Promises,
-  async/await, and how to enhance your web applications. Discover more now!
+  async/await, and enhance your web applications. Discover more now!
 ---
 Up to this point, we have used JavaScript code to run simple web applications, which include: using variables, calling functions, and playing with the ***DOM***. On functions, specifically, we even passed functions into another function (***callback functions***), and there's more to talk about this.
 

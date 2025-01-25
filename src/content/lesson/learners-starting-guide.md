@@ -1,6 +1,6 @@
 ---
 description: >-
-  Learn how to start coding with LearnPack! Discover interactive tutorials,
+  Discover how to start coding with LearnPack! Explore interactive tutorials,
   setup guides, and troubleshooting tips to enhance your coding journey.
 ---
 # How to Learn Coding with LearnPack

@@ -1,15 +1,12 @@
 ---
 title: What Are Third-Party Libraries Used for in Python?
-subtitle: >-
-  Learn how third-party libraries in Python can enhance your projects. Discover
-  how to incorporate advanced functions and accelerate your development.
 tags:
   - python
 authors:
   - DF27ARTS
 description: >-
-  Discover how third-party libraries in Python can enhance your projects. Learn
-  to install and use popular libraries like Pandas, NumPy, and Matplotlib!
+  Discover how third-party libraries in Python, like Pandas and NumPy, can
+  enhance your projects. Learn to install and use them effectively!
 ---
 ## Third-Party Libraries
 

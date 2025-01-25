@@ -1,6 +1,5 @@
 ---
 description: >-
-  Learn how to install Pyenv on Windows effortlessly! Discover step-by-step
-  instructions and master your Python environment today!
+  Learn how to effortlessly install Pyenv on Windows! Master your Python
+  environment with our step-by-step guide. Discover the process now!
 ---
-

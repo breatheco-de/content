@@ -1,18 +1,13 @@
 ---
 title: Condicionales en la programación en Java
-subtitle: Uso de condiciones para controlar el flujo de su código en java
-date: '2020-10-19T16:36:31+00:00'
-cover_local: ../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png
-textColor: white
 syntaxis:
   - java
 tags:
   - condicionales-programacion
   - java
-status: published
 description: >-
-  Master condicionales en Java y aprende a controlar el flujo de tu código.
-  Descubre cómo usar if-then-else y switch para tomar decisiones efectivas.
+  Master condicionales en Java y controla el flujo de tu código. Aprende a usar
+  if-then-else y switch. ¡Descubre cómo tomar decisiones efectivas!
 ---
 Dominar el uso de las condiciones es una de las 5 habilidades fundamentales de construir algoritmos:
 

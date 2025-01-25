@@ -1,9 +1,5 @@
 ---
 title: How to create unit testing with JEST
-subtitle: Once you have your code ready, testing is essential!
-cover_local: ../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg
-textColor: white
-date: '2020-10-19T16:36:31+00:00'
 tags:
   - Jest
   - unit testing
@@ -11,10 +7,9 @@ tags:
   - javascript
   - full stack
   - back end
-status: published
 description: >-
   Learn how to create effective unit testing with JEST! Discover essential
-  techniques to improve your JavaScript code quality and prevent bugs.
+  techniques to enhance your JavaScript code quality and prevent bugs.
 ---
 Humans make mistakes, all the time. As you progress in your development career, you will be more at peace with that.
 

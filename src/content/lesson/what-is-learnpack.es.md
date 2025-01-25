@@ -1,14 +1,7 @@
 ---
 title: Tutoriales de programación con LearnPack
-subtitle: >-
-  Todo lo que necesitas saber sobre LearnPack, nuestro motor de tutoriales
-  elegido para enseñarte.
-cover_local: ../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg
-textColor: white
-date: '2020-10-19T16:36:30+00:00'
 tags:
   - learnpack
-status: published
 description: >-
   Descubre cómo LearnPack transforma el aprendizaje de programación con
   tutoriales interactivos. ¡Empieza a practicar y mejora tus habilidades hoy!

@@ -1,15 +1,8 @@
 ---
 title: 'Aprende La Diferencia: Jquery vs Javascript'
-subtitle: >-
-  Hola chicos, es hora de saber más sobre qué es Jquery, al final tu serás el
-  juez y decidirás cuál usarás (Jquery vs Javascript)
-date: '2020-10-19T16:36:31+00:00'
-cover_local: ../../assets/images/8c053abc-2f09-47e9-b586-751538d180c4.png
-textColor: white
 tags:
   - jquery
   - javascript
-status: published
 description: >-
   Learn the key differences between jQuery and JavaScript! Discover which one
   suits your development needs best. Click to master your skills today!

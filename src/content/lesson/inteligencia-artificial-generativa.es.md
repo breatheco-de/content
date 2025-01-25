@@ -1,6 +1,5 @@
 ---
 description: >-
-  Discover the world of generative artificial intelligence! Learn how it
-  transforms creativity and technology. Click to explore its potential today!
+  Discover how generative artificial intelligence is revolutionizing creativity
+  and technology. Learn its potential and applications—click to explore now!
 ---
-

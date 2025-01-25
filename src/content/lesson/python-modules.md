@@ -1,15 +1,12 @@
 ---
 title: 'Python Modules: Organizing and Reusing Code like an Expert.'
-subtitle: >-
-  Learn about modules in Python and how to take advantage of them to efficiently
-  organize and reuse your code - improve your programming skills!
 tags:
   - python
 authors:
   - DF27ARTS
 description: >-
   Master Python modules to organize and reuse your code like an expert! Discover
-  how to enhance your programming skills and streamline your projects today!
+  essential tips and techniques to enhance your programming skills today!
 ---
 ## Introduction to Python Modules
 

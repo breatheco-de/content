@@ -1,8 +1,5 @@
 ---
 title: ¿Qué es la legibilidad del código y cómo mejorarla?
-subtitle: >-
-  No quieres ser un desarrollador que escribe código de baja calidad, y la
-  legibilidad es uno de sus factores más críticos...
 tags:
   - coding guidelines
 description: >-

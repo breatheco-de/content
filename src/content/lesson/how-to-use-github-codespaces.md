@@ -1,9 +1,8 @@
 ---
 description: >-
-  Learn how to use GitHub Codespaces for cloud coding environments. Discover the
-  benefits, setup, and tips to enhance your coding experience today!
+  Learn how to use GitHub Codespaces for cloud coding! Discover its benefits,
+  setup tips, and enhance your coding experience today!
 ---
-
 Modern companies no longer allow developers to work on their local computers; they use provisioning tools. Codespaces is GitHub's proposal for provisioning coding environments. 
 
 > **In plain English**: Codespaces is a technology that creates, *in a matter of seconds*, computers and coding environments in the cloud, ready to be used by software developers.

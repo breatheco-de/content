@@ -1,17 +1,10 @@
 ---
 title: 'Mastering Databases: What is SQL Database'
-subtitle: >-
-  Are you ready to work with data? Learn here about what SQL Database is, and
-  how to work with it.
-cover_local: ../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg
-textColor: white
-date: '2023-06-26T00:35:31+00:00'
 tags:
   - sql
-status: published
 description: >-
-  Master SQL databases and unlock the power of data! Learn the essentials of
-  SQL, from queries to transactions. Discover more now!
+  Master SQL databases and unlock data's potential! Learn the essentials of SQL,
+  from queries to transactions. Discover more now!
 ---
 ## What is SQL?
 

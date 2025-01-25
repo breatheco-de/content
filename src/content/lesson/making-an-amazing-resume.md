@@ -1,14 +1,10 @@
 ---
 title: Making an amazing resume
-subtitle: The Art of getting interviews is 60% about the resume, let's make it shine!
-textColor: white
-date: '2020-10-19T16:36:31+00:00'
 tags:
   - career support
-status: published
 description: >-
-  Master the art of crafting an amazing resume that gets you interviews!
-  Discover essential tips and examples to showcase your skills effectively.
+  Master the art of crafting an amazing resume that lands interviews! Discover
+  essential tips and examples to showcase your skills effectively.
 ---
 Below is an example of a great resume for your first coding job, during this article, we go over each part of the document with explanations and examples:
 

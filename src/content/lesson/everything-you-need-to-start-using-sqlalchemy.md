@@ -1,14 +1,9 @@
 ---
 slug: everything-you-need-to-start-using-sqlalchemy
 title: Everything you need to know about SQLAlchemy
-subtitle: SQLAlchemy is the most popular ORM for Python, start using it in 8 min.
-cover_local: ../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg
-date: '2023-06-22T19:44:22+00:00'
-textColor: white
 authors:
   - alesanchezr
   - cvazquezlos
-status: published
 tags:
   - SQL Alchemy
   - Python

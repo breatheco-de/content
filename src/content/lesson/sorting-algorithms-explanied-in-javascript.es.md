@@ -1,12 +1,5 @@
 ---
 title: Usando javascript para ordenar una lista
-subtitle: >-
-  Ya nadie ordena las listas manualmente, pero sigue siendo una manera
-  fantástica de dominar tus habilidades algorítmicas
-cover_local: ../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg
-status: published
-textColor: white
-date: '2020-10-19T16:36:31+00:00'
 tags:
   - sorting
   - algorithms

@@ -1,17 +1,10 @@
 ---
 title: ¿Qué es Typescript? Aprenderás a Programar usando este superSet de javascript
-subtitle: >-
-  Ya sabes JavaScript, ya es hora que aprendas a programar utilizando TypesCript
-  para llevar tus desarrollos javascript al siguiente nivel.
-cover_local: ../../assets/images/typescript.png
-textColor: white
-date: '2020-10-19T16:36:31+00:00'
 tags:
   - typescript
-status: draft
 description: >-
-  Aprende qué es TypeScript y cómo este superset de JavaScript puede mejorar tus
-  desarrollos. ¡Descubre sus ventajas y comienza a programar hoy!
+  Aprende qué es TypeScript, el superset de JavaScript que mejora tus
+  desarrollos. ¡Descubre sus ventajas y comienza a programar hoy mismo!
 ---
 Javascript es un lenguaje que tiene un tipado débil, esto quiere decir que las variables son declaradas sin un tipo y dependiendo del valor que se le asigne es el tipo de dato que asume la variable. Podemos modificar, operar y comparar los los valores entre ellos sin que tengamos que hacer una conversión previa. 
 

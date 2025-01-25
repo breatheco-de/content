@@ -1,8 +1,5 @@
 ---
 title: 'Sorting and Searching Algorithms in Python: Optimizing Data Management'
-subtitle: >-
-  Explore sorting and searching algorithms in Python. Learn how to optimize data
-  management with these essential programming techniques.
 tags:
   - python
   - algorithms
@@ -11,8 +8,8 @@ authors:
   - DF27ARTS
 description: >-
   Master sorting and searching algorithms in Python! Optimize your data
-  management skills with our easy-to-follow guide. Discover essential techniques
-  now!
+  management skills and discover essential techniques to enhance your
+  programming efficiency.
 ---
 ## Sorting and Searching Algorithms in Python 🔍
 

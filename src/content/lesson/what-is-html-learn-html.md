@@ -1,17 +1,10 @@
 ---
 title: What is HTML? It's time to learn HTML and its structure
-subtitle: >-
-  But really, what is HTML? HTML is to websites what columns are for buildings.
-  Here you will learn HTML basics, the foundations of the web.
-cover_local: ../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png
-textColor: white
-date: '2020-10-19T16:36:31+00:00'
 tags:
   - html
-status: published
 description: >-
-  Learn HTML and its structure! Discover the essential tags and syntax to build
-  your first web page. Start your journey into web development today!
+  Learn HTML and its structure! Discover essential tags and syntax to build your
+  first web page. Start your web development journey today!
 ---
 > :point_up: Since in the previous chapter we equated houses, stores and buildings to web pages; then we could say HTML is the blueprints.
 

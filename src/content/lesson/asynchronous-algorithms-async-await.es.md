@@ -1,16 +1,9 @@
 ---
 slug: asincrono-algoritmos-async-await
 title: Creando algoritmos asíncronos
-subtitle: >-
-  Comprende la diferencia entre scripts síncronos y asíncronos, uso de Promises
-  y domina async y await
-cover_local: ../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg
-status: published
 authors:
   - kodi2fever
   - nachovz
-textColor: white
-date: '2020-10-19T16:36:30+00:00'
 tags:
   - async
   - await

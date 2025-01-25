@@ -1,15 +1,12 @@
 ---
 title: Debugging HTML Code
-subtitle: >-
-  Debugging code faster and more efficiently. Save more than 50% of your
-  debugging time when coding HTML.
 tags:
   - debugging
   - web development
   - html/css
 description: >-
-  Master HTML debugging with our essential guide! Learn to prevent errors, use
-  powerful tools, and fix common mistakes efficiently. Discover more now!
+  Master HTML debugging with our essential guide! Learn to prevent errors and
+  fix common mistakes efficiently. Discover tips to save time now!
 ---
 ## Debugging HTML code
 

@@ -1,6 +1,5 @@
 ---
 description: >-
-  Learn how to flatten JavaScript arrays effortlessly! Discover essential
-  techniques and examples to master array manipulation today!
+  Master JavaScript array flattening with essential techniques and examples!
+  Discover how to manipulate arrays effortlessly—click to learn more!
 ---
-

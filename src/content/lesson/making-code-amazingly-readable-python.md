@@ -1,8 +1,5 @@
 ---
 title: What is code readability and how to improve it
-subtitle: >-
-  You don't want to be a developer who writes low-quality code, and readability
-  is one of its most critical factors.
 tags:
   - coding guidelines
 description: >-

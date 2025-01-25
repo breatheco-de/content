@@ -1,15 +1,8 @@
 ---
 title: 'The Command Line (a.k.a: The Terminal) '
-subtitle: >-
-  Developers spend hours everyday using the command line (a.k.a: The Terminal).
-  Embrace reality and become more powerful than ever before.
-cover_local: ../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png
-textColor: white
-date: '2020-10-19T16:36:31+00:00'
 tags:
   - the command line
   - the terminal
-status: published
 description: >-
   Master the command line and unlock powerful tools for developers! Learn
   essential terminal commands to boost your productivity. Discover more now!
