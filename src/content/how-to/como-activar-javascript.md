@@ -1,13 +1,19 @@
 ---
-title: "¿Cómo Habilitar Javascript?"
-subtitle: "Aprende cómo habilitar Javascript en tu navegador y mejora la funcionalidad de tu experiencia en línea. Sigue estos simples pasos para activar Javascript ahora."
-date: "2023-06-22T16:36:30+00:00"
-authors: ["javierseiglie"]
-tags: ["javascript", "chrome", "brave", "safari", "firefox", "edge", "enable javascript"]
-status: "draft"
-
+title: ¿Cómo Habilitar Javascript?
+authors:
+  - javierseiglie
+tags:
+  - javascript
+  - chrome
+  - brave
+  - safari
+  - firefox
+  - edge
+  - enable javascript
+description: >-
+  Aprende a habilitar Javascript en Chrome, Brave, Firefox, Edge y Safari.
+  Mejora tu experiencia en línea. ¡Descubre cómo activar Javascript ahora!
 ---
-
 Para activar Javascript en tu navegador y poder disfrutar de los sitios webs de la forma que fueron programados, deberás de acceder a las configuraciones del navegador, seguridad y buscar la opción para habilitar Javascript. Si llegaste a este artículo y quieres conocer más sobre Javascript te invito a leer el siguiente artículo sobre [¿qué es Javascript?](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) 
 
 ![como-habilitar-javascript](https://i.imgur.com/LTf8fGo.png)
