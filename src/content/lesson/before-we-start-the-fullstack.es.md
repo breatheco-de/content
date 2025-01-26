@@ -1,11 +1,13 @@
 ---
-title: "Antes de comenzar el desarrollo Full Stack"
-subtitle: "Repaso rápido sobre conceptos que necesitas saber en CSS, HTML y JS antes de iniciar el curso de Desarrollo Full Stack"
-tags: ["html/css", "web-development"]
-video: "https://www.youtube.com/watch?v=TgkIpTZ75NM"
-
+title: Antes de comenzar el desarrollo Full Stack
+tags:
+  - html/css
+  - web-development
+video: https://www.youtube.com/watch?v=TgkIpTZ75NM
+description: >-
+  Antes de comenzar el desarrollo Full Stack, descubre los conceptos clave de
+  HTML, CSS y JavaScript. ¡Prepárate y aprende lo esencial ahora!
 ---
-
 Para aprovechar mejor el próximo curso, te alentamos a que termines y repases cualquier contenido del Prework.
 
 El material pendiente asume que tienes un buen nivel de comprensión de los siguientes temas:

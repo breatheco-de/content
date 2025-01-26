@@ -1,11 +1,13 @@
 ---
-title: "What Are Third-Party Libraries Used for in Python?"
-subtitle: "Learn how third-party libraries in Python can enhance your projects. Discover how to incorporate advanced functions and accelerate your development."
-tags: ["python"]
-authors: ["DF27ARTS"]
-
+title: What Are Third-Party Libraries Used for in Python?
+tags:
+  - python
+authors:
+  - DF27ARTS
+description: >-
+  Discover how third-party libraries in Python, like Pandas and NumPy, can
+  enhance your projects. Learn to install and use them effectively!
 ---
-
 ## Third-Party Libraries
 
 Third-party libraries are an essential tool in modern programming, and most programming languages have different libraries that simplify certain tasks for developers. A library, also known as a package or module, is a set of predefined code that has been developed by an external programmer and made available to the general public.

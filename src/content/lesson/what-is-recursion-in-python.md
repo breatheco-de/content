@@ -1,11 +1,13 @@
 ---
-title: "What is recursion in Python?"
-subtitle: "Discover what recursion is in Python. Explore the technique of calling itself to solve complex problems elegantly and efficiently."
-tags: ["python"]
-authors: ["DF27ARTS"]
-
+title: What is recursion in Python?
+tags:
+  - python
+authors:
+  - DF27ARTS
+description: >-
+  Discover the power of recursion in Python! Learn how to solve complex problems
+  elegantly with recursive functions. Start mastering recursion today!
 ---
-
 ## Exploring Recursion in Python  🔄🐍
 
 Recursion in programming is a very powerful tool, this is done with functions that call themselves over and over again. You can picture it as a kind of loop that iterates until a condition is met. Next we will see a brief example where we will use a recursive function to look for the maximum value in a list of numbers.

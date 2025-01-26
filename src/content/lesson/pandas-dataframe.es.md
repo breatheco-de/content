@@ -1,11 +1,14 @@
 ---
-title: "¿Qué es un DataFrame en Pandas?"
-subtitle: "Descubre qué es un DataFrame en Pandas y cómo se utiliza para manejar datos tabulares en Python. Aprende sobre las funcionalidades y operaciones."
-tags: ["python","pandas"]
-authors: ["valerybriz"]
-
+title: ¿Qué es un DataFrame en Pandas?
+tags:
+  - python
+  - pandas
+authors:
+  - valerybriz
+description: >-
+  Descubre qué es un DataFrame en Pandas y cómo manejar datos tabulares en
+  Python. Aprende sus funciones esenciales y comienza a dominarlo hoy.
 ---
-
 En python existen una gran variedad de estructuras de datos y una de las más utilizadas, sin lugar a dudas, es la clase DataFrame de la [librería de pandas en Python](https://4geeks.com/es/lesson/pandas-en-python), la cual es preferida debido a sus multiples funcionalidades y su gran facilidad para aplicar transformaciones a los datos que contienen.
 
 En este artículo exploraremos las partes que componen un DataFrame, sus atributos y los métodos más utilizados, así como algunas de las aplicaciones que tienen. 

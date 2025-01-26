@@ -1,14 +1,11 @@
 ---
-title: "Dominando Bases de Datos: ¿Qué es la Base de Datos SQL?"
-subtitle: "¿Estás listo para trabajar con datos? Aprende aquí sobre qué es la base de datos SQL y cómo trabajar con ella."
-cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
-textColor: "white"
-date: "2023-06-26T00:35:31+00:00"
-tags: ["sql"]
-status: "published"
-
+title: 'Dominando Bases de Datos: ¿Qué es la Base de Datos SQL?'
+tags:
+  - sql
+description: >-
+  Aprende qué es una base de datos SQL y cómo dominar su uso. Descubre conceptos
+  clave y comienza a trabajar con datos de manera efectiva. ¡Explora ahora!
 ---
-
 ## ¿Qué es SQL?
 
 SQL (*Structured Query Language*, Lenguaje de Consulta Estructurado) es el lenguaje más utilizado cuando se desea hablar directamente con una base de datos. Permite almacenar, manipular y recuperar datos que se almacenan en [bases de datos relacionales](https://es.wikipedia.org/wiki/Base_de_datos_relacional).

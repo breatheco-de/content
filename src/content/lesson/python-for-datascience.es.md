@@ -1,14 +1,15 @@
 ---
-title: "Data Science con Python"
-subtitle: "Python es un lenguaje multipropósito, en esta lección comprenderás cómo se usa en el mundo de la Ciencia de Datos."
-cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
-textColor: "white"
-status: "published"
-date: "2022-01-15T16:36:30+00:00"
-tags: ["data-science", "python", "pandas", "numpy"]
-canonical: ""
+title: Data Science con Python
+tags:
+  - data-science
+  - python
+  - pandas
+  - numpy
+canonical: ''
+description: >-
+  Aprende a usar Python en Ciencia de Datos. Descubre conceptos clave, tipos de
+  datos y librerías esenciales. ¡Domina Data Science hoy mismo!
 ---
-
 **Python** es un lenguaje de programación muy versátil y que se utiliza en multitud de casos: desarrollo de aplicaciones web (front y back), juegos para móvil, simulaciones, redes, automatizaciones... además, es el lenguaje rey para trabajar con datos y elaborar algoritmos de Inteligencia Artificial, ciencia de datos y Machine Learning. Antes de comenzar, distingamos entre los tres términos anteriores:
 
 | Término | Definición | Amplitud | Objetivo |

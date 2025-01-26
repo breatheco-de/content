@@ -1,8 +1,10 @@
 ---
-title: "¡Bienvenid@ al Programa de Desarrollo Full Stack de 4Geeks.com!"
-
+title: ¡Bienvenid@ al Programa de Desarrollo Full Stack de 4Geeks.com!
+description: >-
+  ¡Bienvenid@ al Programa de Desarrollo Full Stack de 4Geeks.com! Aprende a
+  programar con recursos interactivos y mentoría. ¡Descubre tu futuro en
+  tecnología hoy!
 ---
-
 ¡Bienvenid@ a bordo! 🎉 Estamos encantados de que te unas a nuestro programa de Desarrollo Full Stack. Este viaje está diseñado para dotarte de las habilidades y el conocimiento necesarios para comenzar tu carrera en tecnología. ¿Sin experiencia previa? ¡No hay problema! Estamos aquí para guiarte en cada paso del camino.
 
 ### Comenzando

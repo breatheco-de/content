@@ -1,16 +1,18 @@
 ---
-slug: "asincrono-algoritmos-async-await"
-title: "Creando algoritmos asíncronos"
-subtitle: "Comprende la diferencia entre scripts síncronos y asíncronos, uso de Promises y domina async y await"
-cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
-status: "published"
-authors: ["kodi2fever","nachovz"]
-textColor: "white"
-date: "2020-10-19T16:36:30+00:00"
-tags: ["async","await","promise","asynchronous"]
-
+slug: asincrono-algoritmos-async-await
+title: Creando algoritmos asíncronos
+authors:
+  - kodi2fever
+  - nachovz
+tags:
+  - async
+  - await
+  - promise
+  - asynchronous
+description: >-
+  Aprende a crear algoritmos asíncronos en JavaScript. Domina async, await y
+  Promises para mejorar la eficiencia de tus aplicaciones web. ¡Descubre más!
 ---
-
 Hasta ahora, hemos utilizado código JavaScript para ejecutar aplicaciones web simples, que incluyen: usar variables, llamar a funciones y jugar con el ***DOM***. En las funciones, específicamente, incluso pasamos funciones a otras funciones (***funciones callback***) y hay mucho más que hablar al respecto. 
 
 Comencemos diciendo que JavaScript por defecto es síncrono y con una sola secuencia, es decir: el código se ejecuta desde la línea 1 hasta el último, uno a la vez y en ese orden normalmente. Échale un vistazo a este ejemplo:

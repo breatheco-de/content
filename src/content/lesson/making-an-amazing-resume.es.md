@@ -1,13 +1,11 @@
 ---
-title: "Creando un curriculum increíble"
-subtitle: "El arte de obtener entrevistas depende un 60% de tu curriculum ¡Saquémosle brillo!"
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["career support"]
-status: "published"
-
+title: Creando un curriculum increíble
+tags:
+  - career support
+description: >-
+  Master the art of crafting an incredible resume! Learn essential tips to
+  enhance your CV and land interviews in the tech industry. Discover more!
 ---
-
 ![Image Resume](https://breathecode.herokuapp.com/v1/media/file/resume-png)
 
 ## Experiencia laboral

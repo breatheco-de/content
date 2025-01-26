@@ -1,14 +1,12 @@
 ---
-title: "The Command Line (a.k.a: The Terminal) "
-subtitle: "Developers spend hours everyday using the command line (a.k.a: The Terminal). Embrace reality and become more powerful than ever before."
-cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["the command line","the terminal"]
-status: "published"
-
+title: 'The Command Line (a.k.a: The Terminal) '
+tags:
+  - the command line
+  - the terminal
+description: >-
+  Master the command line and unlock powerful tools for developers! Learn
+  essential terminal commands to boost your productivity. Discover more now!
 ---
-
 > ☝  Windows users don't use the same terminal commands, but you should learn and practice them anyway because they are heavily used when publishing your apps on any web hosting, Gitpod, Codespaces, Cloud9, etc. You can use [Git SCM](https://git-scm.com/downloads) to create a similar terminal on your computer.
 
 ## Why do Developers love the Command Line?

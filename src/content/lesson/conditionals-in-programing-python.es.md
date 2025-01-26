@@ -1,16 +1,20 @@
 ---
-title: "Condicionales en la programación en Python"
-subtitle: "Uso de condiciones para controlar el flujo de tu código y tomar decisiones programáticas en Python."
-date: "2020-10-19T00:00:00+00:00"
-cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
-textColor: "white"
-author: ["alesanchezr"]
-syntax: ["python"]
-tags: ["Condicionales","Operaciones lógicas","If...else","Condicion","Python"]
-status: "published"
-
+title: Condicionales en la programación en Python
+author:
+  - alesanchezr
+syntax:
+  - python
+tags:
+  - Condicionales
+  - Operaciones lógicas
+  - If...else
+  - Condicion
+  - Python
+description: >-
+  Master condicionales en Python para controlar el flujo de tu código. Aprende a
+  tomar decisiones programáticas y mejora tus habilidades de programación.
+  Discover more!
 ---
-
 ## Introducción a los condicionales en Python 
 
 Dominar el uso de las condiciones es una de las 5 habilidades fundamentales para construir algoritmos:

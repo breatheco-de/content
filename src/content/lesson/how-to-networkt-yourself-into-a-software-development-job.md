@@ -1,14 +1,13 @@
 ---
-title: "How to network yourself into an IT job"
-subtitle: "Learn how to use networking to your advantage when looking for a software development job"
-cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
-status: "unassigned"
-textColor: "white"
-date: "2020-10-19T16:36:30+00:00"
-tags: ["markdown", "Networking", "software-developer-resume"]
-
+title: How to network yourself into an IT job
+tags:
+  - markdown
+  - Networking
+  - software-developer-resume
+description: >-
+  Master the art of networking to land your dream IT job! Discover essential
+  tips and strategies to connect with industry professionals today.
 ---
-
 Networking is a very important aspect of anyone’s career. When looking for a job, networking is key to having access to positions that are not posted online as well as getting recommendations from people who are in the tech field. Nowadays online and in-person networking is the best strategy to securing a position in the field. Networking is also about meeting professionals who can help you learn new skills, collaborate on new projects, and give you advice. 
 
 ## 📝 Instructions 

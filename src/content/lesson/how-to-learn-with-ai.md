@@ -1,3 +1,8 @@
+---
+description: >-
+  Learn to code with AI using LearnPack! Get personalized guidance, feedback,
+  and support on your coding journey. Discover how to enhance your skills today!
+---
 # How to learn code with AI using LearnPack?
 
 LearnPack is AI-enabled; you have a coding tutor by your side (on the right side of your code).

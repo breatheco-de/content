@@ -1,8 +1,10 @@
 ---
-title: "Welcome to 4Geeks.com Full Stack Development Program!"
-
+title: Welcome to 4Geeks.com Full Stack Development Program!
+description: >-
+  Join the 4Geeks.com Full Stack Development Program! Master coding with
+  hands-on tutorials, AI support, and mentoring. Discover your tech career
+  today!
 ---
-
 Welcome aboard! 🎉 We're thrilled to have you join our Full Stack Development program. This journey is designed to equip you with the skills and knowledge needed to start your career in tech. No previous experience? No problem! We're here to guide you every step of the way.
 
 ### Getting Started

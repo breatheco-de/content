@@ -1,16 +1,15 @@
 ---
-slug: "working-with-plain-text-files-backend"
-title: "Working with Plain Text Files"
-subtitle: "Storing and retrieving information to files using backend languages"
-status: "published"
-authors: ["alesanchezr"]
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["marketing","query-string"]
-cover_local: "../../assets/images/storage_background.jpg"
-
+slug: working-with-plain-text-files-backend
+title: Working with Plain Text Files
+authors:
+  - alesanchezr
+tags:
+  - marketing
+  - query-string
+description: >-
+  Learn how to store and retrieve data using plain text files with backend
+  languages. Master CSV, JSON, and YAML formats today! Discover more now!
 ---
-
 ## Files are the only way to `store` on a computer.
 
 Your entire computer hard drive is comprised of files, is the most low-level way to store information, your computer runs on a `file system` or `file directory` control that how data is stored and retrieved.

@@ -1,3 +1,8 @@
+---
+description: >-
+  Descubre la importancia de los Code Reviews para mejorar tu código. Aprende
+  buenas prácticas y recibe feedback valioso para avanzar en tu desarrollo.
+---
 # Code Reviews y su importancia para futuros desarrolladores
 
 Estudiar programación es un camino sin final; nunca paras de aprender cosas nuevas. Especialmente cuando empezamos, solemos cometer errores que con la experiencia vamos mejorando. Y eso está bien, porque **no existe el código perfecto**; siempre puedes mejorarlo con el tiempo. Aquí es donde entran los **Code Reviews**.

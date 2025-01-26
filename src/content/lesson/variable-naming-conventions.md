@@ -1,10 +1,11 @@
 ---
-title: "Variable Naming Conventions"
-subtitle: "Naming conventions are one of the most effective tools to increase code readability; almost every company has one, and you should as well."
-tags: ["coding standard guidelines"]
-
+title: Variable Naming Conventions
+tags:
+  - coding standard guidelines
+description: >-
+  Master variable naming conventions to boost code readability! Learn essential
+  tips on camelCase, snake_case, and more for better coding practices.
 ---
-
 As you become a [senior software developer](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), you understand better the importance of readability in your code. Variable naming conventions are -mostly- public standards and rules on how to name your variables when coding.
 
 This article will explore the most popular naming conventions, when to use them, and why.

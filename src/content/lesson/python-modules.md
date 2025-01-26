@@ -1,10 +1,13 @@
 ---
-title: "Python Modules: Organizing and Reusing Code like an Expert."
-subtitle: "Learn about modules in Python and how to take advantage of them to efficiently organize and reuse your code - improve your programming skills!"
-tags: ["python"]
-authors: ["DF27ARTS"]
+title: 'Python Modules: Organizing and Reusing Code like an Expert.'
+tags:
+  - python
+authors:
+  - DF27ARTS
+description: >-
+  Master Python modules to organize and reuse your code like an expert! Discover
+  essential tips and techniques to enhance your programming skills today!
 ---
-
 ## Introduction to Python Modules
 
 In this article, we will enter the exciting world of modules in [Python](https://4geeks.com/technology/python). You will discover what modules are and how to use them to empower your programs: get ready to expand your horizons and take your programming skills to the next level! If you want to know a little more about [what is Python?](https://4geeks.com/lesson/intro-to-python) or its main uses, you can find a lot of information on the [4Geeks](https://4geeks.com/) blog.

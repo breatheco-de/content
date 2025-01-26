@@ -1,14 +1,14 @@
 ---
-title: "Utilizando estructuras de datos para almacenar las necesidades de nuestro negocio"
-subtitle: "Es imposible hacer un software sin almacenar información, es hora de prácticar y dominar la ciencia detrás del almacenamiento"
-cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
-textColor: "white"
-status: "unassigned"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["data structures","business model"]
-
+title: >-
+  Utilizando estructuras de datos para almacenar las necesidades de nuestro
+  negocio
+tags:
+  - data structures
+  - business model
+description: >-
+  Master data structures to efficiently store your business needs. Discover how
+  to optimize your software solutions with arrays, stacks, and more!
 ---
-
 Casi todos los lenguajes de programación tienen tipos de datos primitivos como: lógicos (boolean), caracteres y cadenas de texto (Char y String), numéricos (Integer y Float/Decimal), nulos (Null/None)...
 
 Pero, ¿y si quieres almacenar muchos `boolean` o muchos `strings` en una sola estructura? Por ejemplo: Si tienes una lista de cosas por hacer (string) y quisieras ponerlas juntas en una lista así:

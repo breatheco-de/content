@@ -1,14 +1,11 @@
 ---
-title: "Entendiendo las sesiones de PHP"
-subtitle: "¿Te sientes cómodo con las sesiones del servidor? No te preocupes, después de leer esta lección, serás un maestro en las sesiones de PHP."
-cover_local: "../../assets/images/980ce2e0-b73e-4019-8e97-3510e3028e10.jpeg"
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["PHP"]
-status: "published"
-
+title: Entendiendo las sesiones de PHP
+tags:
+  - PHP
+description: >-
+  Master PHP sessions and learn to manage user data effectively. Discover best
+  practices for security and session management in web development!
 ---
-
 ## Sesiones de Servidor
 
 

@@ -1,15 +1,12 @@
 ---
-title: "What are controlled and/or uncontrolled inputs in React.js"
-subtitle: "Doing forms in React.js is one of those things that can be a little annoying"
-cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
-textColor: "white"
-status: "published"
-date: "2020-10-19T16:36:30+00:00"
-tags: ["react-js"]
-canonical: ""
-
+title: What are controlled and/or uncontrolled inputs in React.js
+tags:
+  - react-js
+canonical: ''
+description: >-
+  Learn the difference between controlled and uncontrolled inputs in React.js.
+  Master form handling and enhance your app's performance today!
 ---
-
 This lesson is more about **how to work with inputs in React** than **what is a controlled input**. It's better to explain the reasons we need it and why **controlled inputs** are considered the best approach in React.js applications.
 
 ## Inputs in Vanilla.js simple JavaScript

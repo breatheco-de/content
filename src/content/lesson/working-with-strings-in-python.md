@@ -1,16 +1,16 @@
 ---
-title: "Working with or manipulating strings with Python"
-status: "published"
-subtitle: "String concatenation is the Web Developer's bread and butter, our job is to concatenate strings to create HTML/CSS documents programmatically"
-authors: ["alesanchezr"]
-cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
-syntaxis: ["python"]
-tags: ["python","string-concatenation"]
-
+title: Working with or manipulating strings with Python
+authors:
+  - alesanchezr
+syntaxis:
+  - python
+tags:
+  - python
+  - string-concatenation
+description: >-
+  Learn to manipulate strings in Python! Discover essential techniques like
+  concatenation, extraction, and conversion. Master your coding skills today!
 ---
-
 ## What is a string?
 
 A bunch of letters and characters all together in a particular order, the only way to store any characters that are not a number, are a fundamental part of every major program.

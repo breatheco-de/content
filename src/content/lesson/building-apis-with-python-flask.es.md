@@ -1,14 +1,14 @@
 ---
-title: "Construyendo APIs REST utilizando Flask"
-subtitle: "Flask se está convirtiendo en el framework de Python más popular (si es que ya no lo es), aprende cómo construir API REST"
-cover_local: "../../assets/images/91bcc549-6758-49c3-a790-4245afbd8ece.png"
-textColor: "black"
-date: "2020-10-19T16:36:31+00:00"
-status: "published"
-tags: ["Flask","python","REST","API"]
-
+title: Construyendo APIs REST utilizando Flask
+tags:
+  - Flask
+  - python
+  - REST
+  - API
+description: >-
+  Aprende a construir APIs REST con Flask, el popular framework de Python.
+  ¡Descubre cómo crear endpoints y manejar datos de forma sencilla!
 ---
-
 A estas alturas ya deberías saber qué es una API REST, si no, te recomiendo [leer sobre esto aquí](http://content.breatheco.de/lesson/understanding-rest-apis).
 
 A modo de breve resumen, construir una API de forma REST significa que tienes que construir sus endpoints de URL agrupados por **"recursos"**. Un recurso es algo que quieres gestionar, por ejemplo: un estudiante, un usuario, un auto, etc. Un recurso es algo similar a una tabla de base de datos, pero los llamamos "recursos" debido a algunas excepciones.

@@ -1,14 +1,14 @@
 ---
-title: "Building RESTful APIs using Flask"
-subtitle: "Flask is becoming the most popular Python framework (if it's not already). Learn how to build RESTful APIs the REST way"
-cover_local: "../../assets/images/91bcc549-6758-49c3-a790-4245afbd8ece.png"
-textColor: "black"
-date: "2020-10-19T16:36:31+00:00"
-status: "published"
-tags: ["Flask","python","REST","API"]
-
+title: Building RESTful APIs using Flask
+tags:
+  - Flask
+  - python
+  - REST
+  - API
+description: >-
+  Learn to build RESTful APIs using Flask, the popular Python framework. Master
+  API development with our easy guide. Discover more now!
 ---
-
 By now, you should already know what a REST API is, if you don't, I recommend you [read about it here](http://content.breatheco.de/lesson/understanding-rest-apis).
 
 As a very brief summary, building an API in a RESTful way means that you have to build your URL endpoints grouped by **"resources"**. A resource is something you want to manage, e.g: Student, User, Car, etc. A resource is something similar to a database table, but we call them "resources" because of a few exceptions.

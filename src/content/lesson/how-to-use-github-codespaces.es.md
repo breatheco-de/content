@@ -1,3 +1,8 @@
+---
+description: >-
+  Descubre cómo usar GitHub Codespaces para el desarrollo en la nube. Aprende
+  sus beneficios y mejora tu experiencia de codificación hoy mismo.
+---
 Las empresas modernas ya no permiten a los desarrolladores trabajar en sus computadoras locales; usan entornos de desarrollo en la nube. Codespaces es la propuesta de GitHub para entornos de desarrollo en la nube.
 
 > **En palabras simples**: Codespaces es una tecnología que crea *en cuestión de segundos* computadoras y entornos de desarrollo en la nube, listos para ser usados por desarrolladores de software.

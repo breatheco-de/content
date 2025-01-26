@@ -1,10 +1,11 @@
 ---
-title: "4Geeks Method: The Project Assignments"
-subtitle: "The project assignments are an important part of our learning method, these lessons will show you what to expect and why they matter so much."
-tags: ["4geeks method"]
-
+title: '4Geeks Method: The Project Assignments'
+tags:
+  - 4geeks method
+description: >-
+  Discover the 4Geeks Method's project assignments! Learn how to build, review,
+  and showcase your skills effectively. Start your journey today!
 ---
-
 ## Why is this lesson here?
 If you fully understand how our methodology works, what to expect about the projects you deliver, and why they are so important, you'll be more motivated to do the work and take advantage of it. 
 

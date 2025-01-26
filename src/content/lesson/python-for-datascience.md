@@ -1,15 +1,15 @@
 ---
-title: "Python for Data Science"
-subtitle: "Python is a multipurpose language, and in this lesson you will understand how it's used in the data science world."
-cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
-textColor: "white"
-status: "draft"
-date: "2022-01-15T16:36:30+00:00"
-tags: ["data-science", "python", "pandas", "numpy"]
-canonical: ""
+title: Python for Data Science
+tags:
+  - data-science
+  - python
+  - pandas
+  - numpy
+canonical: ''
+description: >-
+  Learn how Python powers data science with essential concepts and libraries.
+  Discover practical examples to elevate your data skills today!
 ---
-
-
 **Python** is a highly versatile programming language used in a multitude of scenarios: web application development (both front and backend), mobile game development, simulations, networking, and automation, among others. Moreover, it is the predominant language for working with data and developing algorithms in Artificial Intelligence, Data Science, and Machine Learning. Before delving further, let's distinguish among the three aforementioned terms:
 
 | Term | Definition | Scope | Objective |

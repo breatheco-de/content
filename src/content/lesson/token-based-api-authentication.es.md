@@ -1,14 +1,13 @@
 ---
-title: "Autenticación basada en tokens de acceso para tu API"
-subtitle: "Aprende cómo implementar un tokens de acceso que le permitan a los usuarios iniciar y cerrar sesión de tu sitio web y de tu API"
-cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["authentication", "security", "backend"]
-status: "published"
-
+title: Autenticación basada en tokens de acceso para tu API
+tags:
+  - authentication
+  - security
+  - backend
+description: >-
+  Aprende a implementar autenticación basada en tokens de acceso para tu API.
+  Mejora la seguridad de tu aplicación. ¡Descubre cómo empezar ahora!
 ---
-
 ## ¿Por qué implementar tokens de acceso?
 
 <img src="https://github.com/breatheco-de/content/blob/ee21de4299b9e003de7be720280b42ed50056daf/src/assets/images/authentication.png?raw=true" align="right" />

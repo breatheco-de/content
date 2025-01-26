@@ -1,11 +1,14 @@
 ---
-title: "What is Object Oriented Programming?"
-subtitle: "Discover what Object Oriented Programming is and understand the fundamentals behind this powerful software development methodology."
-tags: ["python", "object-oriented-programming"]
-authors: ["DF27ARTS"]
-
+title: What is Object Oriented Programming?
+tags:
+  - python
+  - object-oriented-programming
+authors:
+  - DF27ARTS
+description: >-
+  Discover the fundamentals of Object Oriented Programming (OOP) in Python!
+  Learn to create organized, reusable code and master essential concepts today!
 ---
-
 ## Introduction to Object-Oriented Programming in Python
 
 Hello, future code master! In this lesson, we will explore the fascinating world of Object Oriented Programming (OOP). You will discover what OOP is and how this powerful technique allows you to create more organized, reusable, and maintainable programs.

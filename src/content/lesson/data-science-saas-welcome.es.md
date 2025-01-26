@@ -1,8 +1,9 @@
 ---
-title: "¡Bienvenid@ al Programa de Ciencia de Datos y Machine Learning de 4Geeks.com!"
-
+title: ¡Bienvenid@ al Programa de Ciencia de Datos y Machine Learning de 4Geeks.com!
+description: >-
+  ¡Bienvenid@ al Programa de Ciencia de Datos y Machine Learning de 4Geeks.com!
+  Aprende, programa y comienza tu carrera en tecnología. ¡Descubre más ahora!
 ---
-
 ¡Bienvenid@ a bordo! 🎉 Estamos encantados de que te unas a nuestro programa de Ciencia de Datos y Machine Learning. Este viaje está diseñado para dotarte de las habilidades y el conocimiento necesarios para comenzar tu carrera en tecnología. ¿Sin experiencia previa? ¡No hay problema! Estamos aquí para guiarte en cada paso del camino.
 
 ### Comenzando

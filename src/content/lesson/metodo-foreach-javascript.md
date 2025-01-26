@@ -1,11 +1,14 @@
 ---
-title: "¿Cómo usar el método Foreach en Javascript?"
-subtitle: "Descubre cómo utilizar el método forEach en JavaScript para iterar y realizar operaciones en elementos de un arreglo."
-tags: ["javascript","arrays"]
-authors: ["diegorojas"]
-
+title: ¿Cómo usar el método Foreach en Javascript?
+tags:
+  - javascript
+  - arrays
+authors:
+  - diegorojas
+description: >-
+  Aprende a usar el método forEach en JavaScript para iterar arrays y realizar
+  operaciones. ¡Descubre ejemplos prácticos y mejora tus habilidades ahora!
 ---
-
 El método `forEach` en [JavaScript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) permite recorrer un array y aplicar en cada uno de sus elementos una acción en particular a través de una función. Veamos un ejemplo:
 
 ```js

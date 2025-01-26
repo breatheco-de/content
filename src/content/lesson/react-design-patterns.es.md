@@ -1,3 +1,8 @@
+---
+description: >-
+  Learn essential React design patterns to enhance your app's scalability and
+  efficiency. Discover practical examples and elevate your coding skills today!
+---
 ## ¿Que son patrones de diseño?
 
 La programación se trata de escribir instrucciones para ser interpretadas por una maquina, lo que nos lleva en muchos casos a que existan varias formas de solucionar un mismo problema. Aun asi hay asuntos comunes que se deben considerar a la hora de hacer crecer un sistema o lograr que tenga un buen desempeño si tiene una gran concurrencia, ahi los patrones de diseño nos ayudan a dar solución a estos escenarios.

@@ -1,15 +1,12 @@
 ---
-slug: "bug-issue-tracking-best-practices"
-title: "Bug and issue tracking best practices"
-subtitle: "All you've learned needs to be put together. Lets make our first entire professional application using the Agile Development method!"
-cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg?raw=true"
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["agile development"]
-status: "draft"
-
+slug: bug-issue-tracking-best-practices
+title: Bug and issue tracking best practices
+tags:
+  - agile development
+description: >-
+  Master bug and issue tracking best practices! Learn essential testing types
+  and strategies to ensure a reliable application. Discover more now!
 ---
-
 Testing software is one of those tricky activities that seem easy at first, but you can quickly get into a rabbit hole if you don't know what you are doing.
 
 All apps have lots of bugs, even if you are the most brilliant developer on earth. Senior developers understand that statement, and that's why they get obsessed with doing everything they can to implement best practices and prevent bugs.

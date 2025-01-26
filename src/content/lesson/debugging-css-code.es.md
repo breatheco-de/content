@@ -1,10 +1,13 @@
 ---
-title: "Depurando código CSS"
-subtitle: "Depurando código CSS más rápido y eficiente. Ahorra más del 50% de tu tiempo de depuración al programar CSS."
-tags: ["debugging", "web development", "html/css"]
-
---- 
-
+title: Depurando código CSS
+tags:
+  - debugging
+  - web development
+  - html/css
+description: >-
+  Master CSS debugging with our guide! Learn essential tools and tips to save
+  time and fix errors efficiently. Discover how to streamline your CSS today!
+---
 # Depuración de código CSS
 
 Esta guía está destinada a enseñarte cómo solucionar errores en tu código CSS. Si no estás seguro de si tu error está en tu HTML, te recomiendo leer: [¿Qué es depurar y cómo dominarlo?](https://4geeks.com/es/lesson/que-es-depurar-codigo)

@@ -1,14 +1,16 @@
 ---
-title: "Building your GitHub profile and reputation"
-subtitle: "Having a great resume takes hours to build, even if it's fake. But having a great GitHub takes months or years. You better start working on it now."
-authors: ["alesanchezr"]
-status: "published"
-tags: ["github","job hunting","resume building"]
-thumb: "https://i.imgur.com/F03qoZF.png"
-cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/githubbackground.jpg?raw=true"
-
+title: Building your GitHub profile and reputation
+authors:
+  - alesanchezr
+tags:
+  - github
+  - job hunting
+  - resume building
+thumb: https://i.imgur.com/F03qoZF.png
+description: >-
+  Master your GitHub profile and reputation! Learn essential tips to showcase
+  your skills and attract recruiters in the competitive job market.
 ---
-
 ## Introduction to GitHub (skip it if you know it already)
 
 ![GitHub home page](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/4889ebd9-201f-46c7-a1fb-d3d8c2f4493e.png?raw=true)

@@ -1,14 +1,11 @@
 ---
-title: "Intro to Pre-Work"
-subtitle: "We know what we are doing, you should know too.  Learn the process we have polished to make you learn 2 years of content in just a few weeks."
-cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png?raw=true"
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["prework"]
-status: "published"
-
+title: Intro to Pre-Work
+tags:
+  - prework
+description: >-
+  Master the essential Pre-Work for coding success! Discover how 4Geeks Academy
+  prepares you for a thriving web development career. Start your journey today!
 ---
-
 ## About Coding 
 
 We all know the importance, growth, and impact of the tech industry nowadays. More and more developers are needed everywhere. Just in the US, the Bureau of Labor Statistics projects to have more than a million open jobs by 2024, for software developers. 

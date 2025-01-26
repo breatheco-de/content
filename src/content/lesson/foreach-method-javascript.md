@@ -1,11 +1,14 @@
 ---
-title: "How to use Foreach method in Javascript?"
-subtitle: "Learn how to use the forEach method in JavaScript to iterate and perform operations on elements of an array."
-tags: ["javascript","arrays"]
-authors: ["diegorojas"]
-
+title: How to use Foreach method in Javascript?
+tags:
+  - javascript
+  - arrays
+authors:
+  - diegorojas
+description: >-
+  Learn how to use the forEach method in JavaScript to iterate through arrays
+  effectively. Discover practical examples and enhance your coding skills today!
 ---
-
 The `forEach` method in [JavaScript](https://4geeks.com/es/lesson/que-es-javascript-aprende-a-programar-en-javascript) allows you to iterate through an array and perform a specific action on each of its elements using a function. Let's see an example:
 
 ```js

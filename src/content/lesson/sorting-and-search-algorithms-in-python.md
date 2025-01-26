@@ -1,11 +1,16 @@
 ---
-title: "Sorting and Searching Algorithms in Python: Optimizing Data Management"
-subtitle: "Explore sorting and searching algorithms in Python. Learn how to optimize data management with these essential programming techniques."
-tags: ["python", "algorithms","search_algorithms"]
-authors: ["DF27ARTS"]
-
+title: 'Sorting and Searching Algorithms in Python: Optimizing Data Management'
+tags:
+  - python
+  - algorithms
+  - search_algorithms
+authors:
+  - DF27ARTS
+description: >-
+  Master sorting and searching algorithms in Python! Optimize your data
+  management skills and discover essential techniques to enhance your
+  programming efficiency.
 ---
-
 ## Sorting and Searching Algorithms in Python 🔍
 
 In the world of software development, search and sorting algorithms play a fundamental role. These techniques allow us to organize and obtain data in a very efficient way, which is essential to optimize the performance of applications. In this article, we will look at some examples of algorithms in [Python](https://4geeks.com/lesson/how-to-code-in-python), both sorting algorithms and search algorithms.

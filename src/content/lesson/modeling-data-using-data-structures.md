@@ -1,14 +1,12 @@
 ---
-title: "Using data-structures to store our business needs"
-subtitle: "It is imposible to software without storing information, its time to practice and master the science behind storage"
-cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
-textColor: "white"
-status: "unassigned"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["data structures","business model"]
-
+title: Using data-structures to store our business needs
+tags:
+  - data structures
+  - business model
+description: >-
+  Master data structures to efficiently store your business needs! Discover how
+  arrays, stacks, queues, and more can enhance your coding skills today!
 ---
-
 Almost all programing languages have primitive datatypes like: Boolean, String, Integer, Float, Null/None, etc.
 
 But what if you want to store lots of booleans or lots of strings in just one structure? For example: If you have a list of todo's (strings) you would want to put them together in a list like this:

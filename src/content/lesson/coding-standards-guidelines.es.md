@@ -1,10 +1,12 @@
 ---
-title: "General Coding Standards and Guidelines"
-subtitle: "The project assignments are an important part of our learning method; these lessons will show you what to expect and why they matter so much."
-tags: ["4geeks method", "coding standards"]
-
+title: General Coding Standards and Guidelines
+tags:
+  - 4geeks method
+  - coding standards
+description: >-
+  Master essential coding standards and guidelines to enhance your coding
+  skills. Discover best practices for writing clean, efficient code today!
 ---
-
 <quote>No soy un gran programador; solo soy un buen programador con buenos hábitos. - Kent Beck</quote>
 
 Los estudios han demostrado que los desarrolladores que usan las mejores prácticas al escribir código son hasta un 40% más productivos que aquellos que no lo hacen, y que el código con buenas prácticas es hasta un 50% más barato de mantener que el código con malas prácticas.

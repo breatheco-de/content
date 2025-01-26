@@ -1,15 +1,12 @@
 ---
-title: "¿Qué son las entradas controladas o no controladas en React.js?"
-subtitle: "Hacer formularios en React.js es algo que puede resultar un tanto engorroso"
-cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
-textColor: "white"
-status: "published"
-date: "2020-10-19T16:36:30+00:00"
-tags: ["react-js"]
-canonical: ""
-
+title: ¿Qué son las entradas controladas o no controladas en React.js?
+tags:
+  - react-js
+canonical: ''
+description: >-
+  Descubre las entradas controladas y no controladas en React.js. Aprende a
+  manejar formularios de manera efectiva y mejora tus habilidades en React.
 ---
-
 Esta lección habla un poco más sobre **cómo trabajar con entradas en react** que sobre **qué es una entrada controlada**. Es mejor explicar las razones por las que las necesitamos y por qué las **entradas controladas** se consideran el mejor enfoque en las aplicaciones React.js.
 
 ## Entradas en JavaScript Vanilla.js simple

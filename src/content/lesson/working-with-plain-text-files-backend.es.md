@@ -1,15 +1,14 @@
 ---
-title: "Trabajando con archivos de texto"
-subtitle: "Almacenar y obtner informacin de archivos usando lenguajes de backend"
-authors: ["alesanchezr"]
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["marketing","query-string"]
-status: "published"
-cover_local: "../../assets/images/storage_background.jpg"
-
+title: Trabajando con archivos de texto
+authors:
+  - alesanchezr
+tags:
+  - marketing
+  - query-string
+description: >-
+  Aprende a trabajar con archivos de texto en backend. Descubre cómo almacenar y
+  obtener datos de CSV, JSON y YAML. ¡Empieza ahora!
 ---
-
 ## Los Archivos son la única forma para `guardar` en un computador
 
 Todo el disco duro de tu computador está compuesto por archivos, esta es la forma más básica para almacenar información, tu computadora se ejecuta en un `sistema de archivos (file system)` o en un `directorio de archivos (file directory)` que muestra cómo se almacenan y obtienen los datos.

@@ -1,15 +1,17 @@
 ---
-title: "Condicionales en la programación con JavaScript"
-subtitle: "Uso de condiciones para controlar el flujo de su código y hacer que la computadora obedezca"
-date: "2020-10-19T16:36:31+00:00"
-status: "published"
-author: ["alesanchezr"]
-cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
-textColor: "white"
-tags: ["conditionals","logical operations","if else","conditions"]
-
+title: Condicionales en la programación con JavaScript
+author:
+  - alesanchezr
+tags:
+  - conditionals
+  - logical operations
+  - if else
+  - conditions
+description: >-
+  Master JavaScript conditionals to control your code's flow! Learn about
+  if-else statements, logical operators, and more. Discover the power of
+  conditions!
 ---
-
 Dominar el uso de las condiciones es una de las 5 habilidades fundamentales de construir algoritmos:
 
 1. Variables.

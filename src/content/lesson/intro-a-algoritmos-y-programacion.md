@@ -1,3 +1,8 @@
+---
+description: >-
+  ¡Descubre el fascinante mundo de Algoritmos y Programación! Aprende Python y
+  desarrolla habilidades lógicas para resolver problemas de manera divertida.
+---
 # Algoritmos y Programación 
 
 ¡Bienvenido al Curso de Algoritmos y Programación!🎉

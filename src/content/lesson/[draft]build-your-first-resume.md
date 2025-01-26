@@ -1,16 +1,12 @@
 ---
-slug: "build-your-first-resume"
-title: "Build your first resume"
-subtitle: "How to build your first resume as a software developer"
-cover_local: "../../assets/images/98208ebb-dcb3-4e40-9ae4-4ec886213f97.jpeg"
-textColor: "white"
-date: "2020-10-19T16:36:30+00:00"
-tags: ["resume-building"]
-status: "draft"
-
+slug: build-your-first-resume
+title: Build your first resume
+tags:
+  - resume-building
+description: >-
+  Learn how to build your first resume as a software developer with expert tips
+  and templates. Discover essential strategies for crafting a standout resume!
 ---
-
-
 - [ ] Read the  Resume section of the GeekForce page
 - [ ] Check these 2 resume templates 
 - [ ] Get into flowcv.io, create an account. Make sure to save your username and password

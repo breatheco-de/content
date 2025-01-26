@@ -1,8 +1,10 @@
 ---
-title: "¡Bienvenid@ al Programa de Python a profundidad 4Geeks.com!"
-
+title: ¡Bienvenid@ al Programa de Python a profundidad 4Geeks.com!
+description: >-
+  ¡Bienvenid@ al Programa de Python a profundidad en 4Geeks.com! Aprende,
+  practica y domina Python con recursos interactivos y mentoría. ¡Comienza tu
+  viaje hoy!
 ---
-
 ¡Bienvenid@ a bordo! 🎉 Estamos encantados de que te unas a nuestro programa de Python a profundidad. Este viaje está diseñado para dotarte de las habilidades y el conocimiento necesarios para convertirte en un experto de Python. ¿Sin experiencia previa? ¡No hay problema! Estamos aquí para guiarte en cada paso del camino.
 
 ### Comenzando

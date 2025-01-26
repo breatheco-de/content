@@ -1,10 +1,13 @@
 ---
-title: "Debugging HTML Code"
-subtitle: "Debugging code faster and more efficiently. Save more than 50% of your debugging time when coding HTML."
-tags: ["debugging", "web development", "html/css"]
-
---- 
-
+title: Debugging HTML Code
+tags:
+  - debugging
+  - web development
+  - html/css
+description: >-
+  Master HTML debugging with our essential guide! Learn to prevent errors and
+  fix common mistakes efficiently. Discover tips to save time now!
+---
 ## Debugging HTML code
 
 HTML Code is difficult to debug initially, but it's easy to grasp if you follow this recipe. You only need to know 2-3 things before starting to code or debug in HTML that will make you a master. Yes, it's that easy, so don't worry and keep reading.

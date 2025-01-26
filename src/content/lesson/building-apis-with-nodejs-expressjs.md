@@ -1,14 +1,14 @@
 ---
-title: "Building APIs with nodejs Expressjs"
-subtitle: "Expressjs allows you to build REST APIs in a fast, minimalist and flexible way"
-cover_local: "../../assets/images/node-expressjs.png"
-textColor: "white"
-date: "2021-04-17T16:36:31+00:00"
-status: "published"
-tags: ["Expressjs","nodejs","REST","API"]
-
+title: Building APIs with nodejs Expressjs
+tags:
+  - Expressjs
+  - nodejs
+  - REST
+  - API
+description: >-
+  Learn to build fast and flexible REST APIs with Node.js and Express.js.
+  Discover essential tips and code examples to kickstart your API development!
 ---
-
 If you don't know what a REST API is, I recommend [read about it here](https://4geeks.com/lesson/understanding-rest-apis).
 
 As a short summary, building an API in a RESTful way means that you have to build its URL endpoints grouped by **"resources"**. A resource is something you want to manage, for example: a student, a user, a car, etc. A resource is somewhat similar to a database table, but we call them "resources" because of a few exceptions.

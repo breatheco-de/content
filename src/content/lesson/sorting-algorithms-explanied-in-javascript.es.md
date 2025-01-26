@@ -1,14 +1,13 @@
 ---
-title: "Usando javascript para ordenar una lista"
-subtitle: "Ya nadie ordena las listas manualmente, pero sigue siendo una manera fantástica de dominar tus habilidades algorítmicas"
-cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
-status: "published"
-textColor: "white"
-date: "2020-10-19T16:36:31+00:00"
-tags: ["sorting","algorithms","javascript"]
-
+title: Usando javascript para ordenar una lista
+tags:
+  - sorting
+  - algorithms
+  - javascript
+description: >-
+  Aprende a usar JavaScript para ordenar listas con algoritmos como bubble-sort,
+  selection y quicksort. ¡Descubre cómo mejorar tus habilidades algorítmicas!
 ---
-
 Ordenar es una tarea costosa para la CPU de la computadora, depende de la cantidad de datos y la forma en que están organizados los datos inicialmente. Esta combinación de posibilidades hizo que los desarrolladores crearan varias soluciones algorítmicas que se pueden aplicar a cada lenguaje de programación.
 
 ## P: Busqué en Google y encontré un `.sort ()`, entonces, ¿por qué debería hacerlo manualmente?
