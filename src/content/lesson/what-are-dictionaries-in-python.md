@@ -10,7 +10,7 @@ authors: ["DF27ARTS"]
 
 Dictionaries in [Python](https://4geeks.com/lesson/how-to-code-in-python) are a data structure that allows us to store large amounts of data and access them in a very efficient way. In this article you will learn how to create, access and modify data in a Python dictionary, in the following example we will see a small demonstration of how you can use a dictionary to store a collection of data.
 
-```py
+```py runable=true
 city = {
     #Key           Value
     "city_id":     1,
@@ -24,16 +24,6 @@ city["city_name"] = city["city_name"].upper() # Modify data inside the dictionar
 del city["currency"] # Delete data within the dictionary
 
 print(city)
-```
-
-> output city:
-
-```bash
-{
-    'city_id': 1000,
-    'city_name': 'NEW YORK',
-    'population': 8,468
-}
 ```
 
 In this example, we create a dictionary with data to represent a city, in the example we access the property `city_id` and replace its original value **50** with a new value **1000**, we modify the property `city_name` with the same value but in capital letters **NEW YORK** and finally we eliminate the property `currency` of the dictionary. In this code, we can see the most basic examples of how to access a property, how to modify data, and how to delete properties in the dictionary.
@@ -57,7 +47,7 @@ The following video shows better how dictionaries work in Python, how to access 
 
 To declare a dictionary in Python you can do it in two ways, the first one is to create a variable and assign it as value a pair of braces `{}` this will create a dictionary by default, another way to declare a dictionary is to create a variable and assign it as value the `dict()` constructor, in the following examples you will see a little better how it works.
 
-```py
+```py runable=true
 object_one = {
     "key_one": "object one value one",
     "key_two": "object one value two",
@@ -73,17 +63,6 @@ print(object_two)
 ```
 > output:
 
-```bash
-{
-    'key_one': 'object one value one',
-    'key_two': 'object one value two'
-}
-{
-    'key_one': 'object two value one',
-    'key_two': 'object two value two'
-}
-```
-
 As you can see, creating a dictionary in Python is very simple, first you create a variable and assign it a pair of keys `{}`, then inside the keys we create a key and to this key we assign a value, for example: `{ "academy": "4Geeks" }`.
 
 > Although it is possible to declare a dictionary with the `dict()` constructor, I recommend that you use the `{}` braces as it is considered good practice and makes the code easier to read.
@@ -92,7 +71,7 @@ As you can see, creating a dictionary in Python is very simple, first you create
 
 To access the data inside a dictionary use the syntax `dictionary_name[key]`, or you can also use the `get()` method with the following syntax `dictionary_name.get(key)` as shown in the following example:
 
-```py
+```py runable=true
 person = {
     "name": "Axel",
     "age": 32,
@@ -118,7 +97,7 @@ As shown in this example, to access the value of a dictionary you can use the sq
 
 To add a new item to a dictionary there are several ways, you can use the syntax `dictionary_name[new key] = new value` to add a new item or you can also use the `update()` method to add several items at once as shown in the following example:
 
-```py
+```py runable=true
 object_one = { "key_1": 1, "key_2": 2 }
 object_two = { 1: "A", 2: "B", 3: "C" }
 
@@ -130,13 +109,6 @@ object_two.update({ 4: "D", 5: "E" })
 print(object_one)
 print(object_two)
 ```
-> output:
-
-```bash
-{ 'key_1': 1, 'key_2': 2, 'key_3': 3, 'key_4': 4}
-
-{ 1: 'A', 2: 'B', 3: 'C', 4: 'D', 5: 'E' }
-```
 
 As we see in this example, you can use the `{}` braces syntax and inside the braces the name of the new key to create a new value inside a dictionary, but if you need to create more than one value you can use the `update()` method and pass as parameter a dictionary with the new values.
 
@@ -144,10 +116,10 @@ As we see in this example, you can use the `{}` braces syntax and inside the bra
 
 To remove a key-value from a dictionary, you can use the syntax `del dictionary_name[key]` or you can also use the `pop()` method and pass as a parameter the key name of the value you want to remove as shown in the following example:
 
-```py
+```py runable=true
 person = {
     "name": "Axel",
-    "age": "32",
+    "age": 32,
     "email": "axel@mail.com",
     "phone": "(123) 456-7890",
     "weight": 80
@@ -159,15 +131,6 @@ age = person.pop("age")
 print(age) # output: 32
 print(person)
 ```
-> output person:
-
-```bash
-{
-    'name': 'Axel',
-    'email': 'axel@mail.com',
-    'phone': '(123) 456-7890'
-}
-```
 
 As shown in the example, you can use the reserved word `del` and then access the dictionary key `person["weight"]` to delete it. Another way in which you can remove a key-value from a dictionary is by using the `pop()` method, this method receives as a parameter the name of the key, removes that key-value from the dictionary, and returns the value it removed, which in the example is stored in the `age` variable.
 
@@ -175,7 +138,7 @@ As shown in the example, you can use the reserved word `del` and then access the
 
 To iterate through a dictionary you can do it in many ways, in the following example we will see a simple case making use of the `for` loop structure:
 
-```py
+```py runable=true
 person = {
     "name": "Axel",
     "age": 32,
@@ -187,16 +150,6 @@ person = {
 for key in person:
     value = person[key]
     print(f "Key: '{key}', value: '{value}'")
-```
-
-> output:
-
-```bash
-Key: 'name', value: 'Axel'
-Key: 'age', value: '32'
-Key: 'email', value: 'axel@mail.com'
-Key: 'phone', value: '(123) 456-7890'
-Key: 'weight', value: '80'
 ```
 
 As we can see in this example, iterating a dictionary is very simple, you can do it with a `for` loop and a few lines of code. In this example, we iterate the dictionary and display in the console the name of the key and the value of that key in each iteration.

@@ -22,7 +22,7 @@ Dominar el uso de listas y bucles es una de las 5 habilidades fundamentales para
 
 Básicamente, una función es un conjunto de líneas de código agrupadas para cumplir un objetivo específico. Por ejemplo, veamos esta función para multiplicar dos números:
 
-```python
+```python runable=true
 def multiplicar(a, b):
     return a * b
 
@@ -95,7 +95,7 @@ Al utilizar funciones tienes las siguientes ventajas:
 
 Todas las funciones deben comenzar y terminar en algún lugar, esto se llama **alcance de la función**. Puedes delimitar el alcance de la función utilizando la indentación de la siguiente manera:
 
-```python
+```python runable=true
 # Esta parte del código está FUERA de la función 'multiplicar'
 
 def multiplicar(a, b):
@@ -113,7 +113,7 @@ def multiplicar(a, b):
 print(str(multiplicar(34, 2)))
 ```
 
-Cualquier variable que declare dentro de la función no estará disponible fuera de ella.
+> ☝ Cualquier variable que declare dentro de la función no estará disponible fuera de ella.
 
 ```python
 def multiplicar(a, b):
@@ -132,7 +132,7 @@ print(mi_variable)
 
 Si tu función va a tener una sola línea de código, puedes declararla de una forma mucho más ágil utilizando la palabra reservada `lambda`.
 
-```python
+```python runable=true
 multiplicar = lambda a, b : a * b
 resultado = multiplicar(2, 3)
 print(str(resultado))
@@ -161,7 +161,7 @@ Recuerda asignarle a la función del parámetro que debiese recibir. En nuestro 
 
 Puedes combinar funciones como quieras y tener llamadas encadenadas como esta:
 
-```python
+```python runable=true
 def suma(a, b):
    return a + b
 
