@@ -229,8 +229,8 @@ Así es como se ve un modal por defecto en Bootstrap.
 > 🔗 [**Lee más sobre el Modal aquí**](https://getbootstrap.com/docs/5.2/components/modal/)
 
 ```html
-<div class="modal" tabindex="-1">
-  <div class="modal-dialog">
+<div class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title">Modal title</h5>
