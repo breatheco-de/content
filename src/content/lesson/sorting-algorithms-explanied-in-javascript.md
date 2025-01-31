@@ -8,16 +8,16 @@ description: >-
   Master sorting algorithms in JavaScript! Learn Bubble, Selection, and Quick
   Sort techniques to efficiently sort lists. Discover more now!
 ---
-Sorting is an expensive task for the computer CPU, it depends on the amount of data and the way the data is organized initially. This mix of possibilities made developers create several algorithmic solutions that can be apllied to every language.
+Sorting is an expensive task for the computer CPU, it depends on the amount of data and the way the data is organized initially. This mix of possibilities made developers create several algorithmic solutions that can be applied to every language.
 
 ## Q: I googled and I found a `.sort()`, so why should I do it manually?
-A: Sorting algorithms is one of the first lessons in Computer Science because it helps you train your mind to think like a computer. It is a great practice to fully understand the concepts of algorithms and code.
+A: Sorting algorithm is one of the first lessons in Computer Science because it helps you train your mind to think like a computer. It is a great practice to fully understand the concepts of algorithms and code.
 
 ## Q: What types of sorting algorithms are there?
-A: There is more than we can count, the top 10 in popularity are:
+A: There are more than we can count, the top 10 in popularity are:
 
 ### Bubble Sorting
-It's the simplest of the sorting algorithms. It repeatedly swap adjacent elements to arrange them ascendingly, the algorithm has a "`wall`" that represents the last position to be compared, the wall keeps moving from right to left, shrinking the comparison size until the entire list is sorted.
+It's the simplest of the sorting algorithms. It repeatedly swaps adjacent elements to arrange them ascendingly, the algorithm has a "`wall`" that represents the last position to be compared, the wall keeps moving from right to left, shrinking the comparison size until the entire list is sorted.
 
 ![Bubble Sort Explained](https://github.com/breatheco-de/content/blob/master/src/assets/images/2fef4d85-686b-4bf0-a505-45d3de178fd5.gif?raw=true)
 
