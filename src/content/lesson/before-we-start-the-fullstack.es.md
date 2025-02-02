@@ -53,7 +53,7 @@ El material pendiente asume que tienes un buen nivel de comprensión de los sigu
 
 ## Cosas que debes saber sobre JavaScript
 
-- JavaScript está "orientado a eventos", lo que significa que tu código se ejecutará en función de algún evento del navegador o del usuario, por ejemplo: cuando el usuario hace clic, cuando se carga el sitio web, cuando el usuario se desplaza, cuando se recarga el sitio web, etc.
+- JavaScript está orientado a eventos, lo que significa que tu código se ejecutará en función de algún evento del navegador o del usuario, por ejemplo: cuando el usuario hace clic, cuando se carga el sitio web, cuando el usuario se desplaza, cuando se recarga el sitio web, etc.
 - JavaScript puede crear HTML y CSS de la misma manera que tú: puedes decirle al JS que escriba cualquier HTML que desees. Básicamente, el código puede "escribirse solo" si creas un sitio web lo suficientemente inteligente.
 - El código JavaScript siempre debe ir en archivos JavaScript que terminen en `.js`. Se desaconsejan otras formas el 99% del tiempo.
 - Puedes importar JS usando el tag `<script>`.
