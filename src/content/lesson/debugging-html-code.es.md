@@ -25,7 +25,7 @@ Esta guía trata de solucionar un error, pero vale la pena mencionar cómo preve
 Las herramientas de depuración más efectivas para HTML son:
 1. El código fuente HTML de tu página como lo ve el navegador.
 2. Las herramientas de inspección del desarrollador.
-3. Tu editor de código (VSCode, JetBrains, etc.).
+3. Tu editor de código (VSCode, JetBrains, etc).
 
 Vamos a repasar cada uno de ellos en detalle.
 
