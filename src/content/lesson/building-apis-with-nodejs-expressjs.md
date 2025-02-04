@@ -11,7 +11,7 @@ description: >-
 ---
 If you don't know what a REST API is, I recommend [read about it here](https://4geeks.com/lesson/understanding-rest-apis).
 
-As a short summary, building an API in a RESTful way means that you have to build its URL endpoints grouped by **"resources"**. A resource is something you want to manage, for example: a student, a user, a car, etc. A resource is somewhat similar to a database table, but we call them "resources" because of a few exceptions.
+As a short summary, building an API in a Restful way means that you have to build its URL endpoints grouped by **"resources"**. A resource is something you want to manage, for example: a student, a user, a car, etc. A resource is somewhat similar to a database table, but we call them "resources" because of a few exceptions.
 
 Here is an example of RESTful API endpoints to manage **Students**:
 
