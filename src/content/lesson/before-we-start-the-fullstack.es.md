@@ -49,7 +49,7 @@ El material pendiente asume que tienes un buen nivel de comprensión de los sigu
 
 - ¿Qué es una condicional? Una condicional utiliza operaciones lógicas para bloquear u omitir líneas de código. `if(age>16) console.log("Puedes conducir")`.
 - ¿Cómo puedo guardar múltiples valores en una variable? Utiliza un array u objeto. Por ejemplo: `let ages = [2,23,45,67]`.
-- ¿Cómo puedo hacer un bucle en un array? La forma más común es usar el bucle `for` de esta manera: `for(let i=0; i<ages.length; i++) console.log("Age: "+i);`. Este código imprimirá en el inspector de desarrolladores todas las edades dentro del array `ages`.
+- ¿Cómo puedo hacer un bucle en un array? La forma más común es usar el bucle `for` de esta manera: `for(let i=0; i<ages.length; i++) console.log("Age: "+i);`. Este código imprimirá en el inspector de desarrolladores todas las edades dentro del arreglo `ages`.
 
 ## Cosas que debes saber sobre JavaScript
 
