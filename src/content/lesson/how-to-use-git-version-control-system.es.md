@@ -2,7 +2,7 @@
 title: "Cómo usar GIT: Sistema de control de versiones"
 subtitle: "Aprenda cómo usar GIT con un tutorial interactivo, un video y un excelente artículo. Sin GIT, no podrá trabajar en ninguna empresa y no podrá utilizar el código de nadie."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
-textColor: "white"
+textColor: "black"
 thumb: "https://breatheco.de/wp-content/uploads/2017/03/commit-object.png"
 date: "2020-10-19T16:36:31+00:00"
 tags: ["GIT","como usa GIT"]
@@ -236,7 +236,7 @@ GIT proporciona una serie de protocolos de transporte para compartir informació
 
 Para comenzar a trabajar en colaboración con proyectos remotos, necesitaremos conocer la URL remota del proyecto. Al usar HTTP, el remoto se verá así:
 
-```text
+```text:
 https://github.com/<github-username>/repository-name.git
 ``` 
 
@@ -319,8 +319,8 @@ Lo importante a tener en cuenta es que ahora tienes una copia completa del repos
 
 > 🔗 Aquí hay una lista de otros excelentes recursos para aprender GIT: http://sixrevisions.com/resources/git-tutorials-beginners/<br>Especialmente deberías probar estos dos:<br>• https://try.github.io<br>• http://learngitbranching.js.org/
   
-  
 
+  Este repositorio es excelente ya que te ayudará a entender mejor el uso de git para aplicarlos en tus proyectos!!! 
 
 
 
