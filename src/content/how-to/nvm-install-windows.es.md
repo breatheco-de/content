@@ -14,7 +14,7 @@ Como desarrollador, es probable que te encuentres con la necesidad de manejar m�
 
 > 📝 Esta guía es solo para usuarios de Windows. Sigue estos enlaces si deseas [instalar NVM en MacOS](https://4geeks.com/how-to/install-node-nvm-mac-osx) o [instalar NVM en Linux](https://4geeks.com/how-to/install-nvm-linux).
   
-## Pasos para instalar NVM en Windows:
+## Pasos para instalar NVM en Windows
 
 ### 1) Descarga nvm
 Para poder instalar la herramienta Node Version Manager en un entorno Windows debemos descargar un [archivo zip](https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-setup.zip?raw=true) que contiene el asistente de instalación.  
@@ -50,7 +50,7 @@ node -v
 
 Deberia salirte la version 22
 
-## 6) (opcional) PowerShell en VSCode debe poder ejecutar scripts
+### 6) PowerShell en VSCode debe poder ejecutar scripts (opcional)
 
 > 🔥 Solo sigue estos pasos si estás usando VSCode
 
