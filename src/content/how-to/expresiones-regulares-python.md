@@ -10,7 +10,7 @@ Las expresiones regulares en Python se utilizan para validar y manipular texto, 
 
 Un [ejemplo de uso de una expresión regular en Python](https://4geeks.com/es/lesson/regex-tutorial-regular-expression-ejemplo) podría ser para buscar un número de teléfono en un texto.
 
-```python
+```python runable=true
 import re
 
 saludo = "Hola, ¿cómo estás? Mi número de teléfono es 153-156-5555."
@@ -25,6 +25,8 @@ else:
 ```
 
 En este ejemplo utilizamos la función `search()`, la cual buscará en la cadena de texto `saludo` si hay alguna coincidencia con la expresión regular `/\d{3}-\d{3}-\d{4}/`, si encuentra un número que coincida con el patrón de búsqueda, se imprime en pantalla que se encontró. De lo contrario, se muestra un mensaje indicando que no se encontró ningún número.
+
+> 💡 Conoce muchos [ejemplos y tipos de expresiones regulares](https://4geeks.com/es/lesson/regex-tutorial-regular-expression-ejemplo) de forma interactiva.
 
 ## Metacaracteres en expresiones regulares
 
@@ -47,7 +49,7 @@ Para poder utilizar las expresiones regulares en Python primero debemos importar
 
 Existen distintos métodos para trabajar con expresiones regulares en Python, por ejemplo el método `search()`, el cual busca una coincidencia en la cadena de texto y retorna un `objeto Match` (objeto que contiene información de la búsqueda) si hay coincidencia, de lo contrario devolverá `None`, cabe destacar que este método solo retornara la primera coincidencia.
 
-```python
+```python runable=true
 import re
 
 frases = ["Python es uno de los lenguajes mas utilizados por los programadores", "JavaScript es uno de los lenguajes mas utilizados por los programadores"]
@@ -67,7 +69,7 @@ Para este ejemplo, se utiliza la función `search()` para buscar la palabra `Pyt
 
 Supongamos que ahora queremos buscar todas las palabras que comienzan con `"t"` en un texto. Podemos hacerlo de la siguiente manera:
 
-```python
+```python runable=true
 import re
 
 texto = "tres tristes tigres, tragaban trigo en un trigal, en tres tristes trastos, tragaban trigo tres tristes tigres."
@@ -83,7 +85,7 @@ Para este ejemplo, utilizamos el método `findall()` el cual retorna una lista d
 
 Otro ejemplo, en este caso muy común en el desarrollo de aplicaciones, es cuando necesitamos validar si un correo electrónico es válido o no, para ello podemos hacer uso del método `match`, el cual intenta encontrar una coincidencia exacta entre el patrón y el inicio de la cadena. Si se encuentra una coincidencia, la función devuelve un objeto de la coincidencia. En caso contrario, devuelve None.
 
-```python
+```python runable=true
 import re
 
 def validar_correo(correo):
@@ -103,7 +105,7 @@ En este ejemplo por medio del método `match()` verificamos si el correo electr�
 
 También existen métodos que nos permiten reemplazar palabras o caracteres por otros, que se encuentren dentro de una cadena de texto, para ello podemos utilizar el método `sub()`, veamos un ejemplo:
 
-```python
+```python runable=true
 import re
 
 # Reemplazar todas las vocales de una cadena de texto por el carácter 'X'
@@ -117,7 +119,7 @@ En el ejemplo se utiliza la expresión regular `/[aeiou]/` para detectar todas l
 
 En ocasiones necesitamos dividir algún texto en partes, excluyendo algún tipo de delimitador, como puede ser un espacio vacío, una coma, un punto, etc. Para ello podemos hacer uso del método `split()`, veamos un ejemplo.
 
-```python
+```python runable=true
 import re
 
 texto = "Hola, ¿cómo estás? Espero que bien"
