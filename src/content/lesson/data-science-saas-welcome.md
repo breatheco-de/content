@@ -4,6 +4,7 @@ description: >-
   Join 4Geeks.com for an exciting Data Science and Machine Learning program!
   Discover hands-on coding, expert mentoring, and supportive community. Start
   your journey today!
+tags: ["ML", "data-science"]
 ---
 Welcome aboard! 🎉 We're thrilled to have you join our Data Science and Machine Learning program. This journey is designed to equip you with the skills and knowledge needed to start your career in tech. No previous experience? No problem! We're here to guide you every step of the way.
 
