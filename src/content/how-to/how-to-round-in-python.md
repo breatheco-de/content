@@ -1,7 +1,7 @@
 ---
 title: "How to Round in Python?"
 subtitle: "Learn different methods to round numbers in Python. Discover techniques to round to a specific decimal place, nearest integer, or with custom precision. The most common method used is the round() method."
-tags: ["python"]
+tags: ["python", "python-methods"]
 authors: ["jul1998"]
 
 ---
