@@ -4,7 +4,7 @@ subtitle: "¡Después de décadas de lucha, la luz ha llegado! Con este tutorial
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:30+00:00"
-tags: ["bootstrap"]
+tags: ["bootstrap", "html", "css"]
 status: "published"
 
 ---
