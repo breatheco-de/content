@@ -178,7 +178,7 @@ Hay que saber qué preguntas hacer. El ejemplo anterior era una condición simpl
 
 Veamos este algoritmo que le dice a una computadora cómo decidir qué ponerse durante el día de San Valentín:
 
-![Qué ponerme en San Valentín](https://github.com/breatheco-de/content/blob/master/src/assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg?raw=true)
+![Qué ponerme en San Valentín](https://raw.githubusercontent.com/breatheco-de/content/refs/heads/master/src/assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg)
 
 ```python
 if voy_a_salir:
