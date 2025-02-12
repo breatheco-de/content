@@ -2,6 +2,7 @@
 title: '4Geeks Method: The Project Assignments'
 tags:
   - 4geeks method
+  - 4geeks-projects
 description: >-
   Discover the 4Geeks Method's project assignments! Learn how to build, review,
   and showcase your skills effectively. Start your journey today!
