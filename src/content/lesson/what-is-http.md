@@ -2,9 +2,10 @@
 title: What is HTTP?
 tags:
   - HTTP
+  - Web Development
 description: >-
-  Learn about HTTP, the essential protocol for web communication. Discover how
-  it works, its request methods, and response codes. Click to explore!
+  Learn about HTTP, the key protocol for web communication. Discover how it works, its request methods, and response codes. Understand the interaction between client and server, how data is transmitted, and what status codes mean. Click to explore and dive deeper into the topic.
+
 ---
 ## What is HTTP?
 
