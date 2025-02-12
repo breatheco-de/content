@@ -1,7 +1,7 @@
 ---
 title: "Método 4Geeks: La Asignación de Proyectos"
 subtitle: "La asignación de proyectos son una parte importante de nuestro método de aprendizaje, estas lecciones te mostrarán qué esperar y por qué es tan importante."
-tags: ["4geeks method"]
+tags: ["4geeks method", "proyectos-4geeks"]
 
 ---
 
