@@ -4,8 +4,7 @@ subtitle: "What is the Internet: Everything you see on the Internet is a text do
 cover_local: "../../assets/images/05a36362-c09f-4961-a7b9-8e3132a902b1.jpeg"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["
-"]
+tags: ["HTML", "http"]
 status: "published"
 
 ---
