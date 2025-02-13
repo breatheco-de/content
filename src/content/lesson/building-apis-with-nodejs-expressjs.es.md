@@ -9,7 +9,7 @@ description: >-
   Aprende a construir APIs REST con Expressjs de manera rápida y flexible.
   ¡Descubre cómo crear endpoints y manejar solicitudes en tu proyecto hoy!
 ---
-Si no sabes qué es una API REST, recomiendo [leer sobre esto aquí](./understanding-rest-apis-es).
+Si no sabes qué es una API REST, recomiendo [leer sobre esto aquí](https://4geeks.com/es/lesson/comprendiendo-rest-apis).
 
 A modo de breve resumen, construir una API de forma REST significa que tienes que construir sus endpoints de URL agrupados por **"recursos"**. Un recurso es algo que quieres gestionar, por ejemplo: un estudiante, un usuario, un auto, etc. Un recurso es algo similar a una tabla de base de datos, pero los llamamos "recursos" debido a algunas excepciones.
 
