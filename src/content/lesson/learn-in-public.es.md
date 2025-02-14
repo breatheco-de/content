@@ -52,4 +52,6 @@ Nadie lo es. Llevo 20 años programando y sigo pensando que no soy un experto. A
 
 ## ¡Sigue así!
 
+Al infinito y mas pa alla
+
 Si quieres leer más sobre el aprendizaje en público, te recomiendo que leas [este artículo y todas las increíbles fuentes mencionadas al final del mismo](https://www.swyx.io/learn-in-public/).
