@@ -5,7 +5,7 @@ cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/le
 textColor: "white"
 authors: ["alesanchezr"]
 date: "2020-10-19T16:36:31+00:00"
-tags: ["regex","regular expression"]
+tags: ["regex","regular expression", "C++", "PHP", "Java", "JavaScript", "Python"]
 status: "published"
 
 ---
