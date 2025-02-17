@@ -36,7 +36,6 @@ Mostrando algunas de sus diferencias
 
 ## Variables
 
-
 <iframe width="830" height="467" src="https://www.youtube.com/embed/Q-eob0WBKs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <div align="right"><small><a href="https://www.youtube.com/embed/Q-eob0WBKs0">Click aquí para abrir el video en una nueva ventana</a></small></div>
@@ -245,7 +244,8 @@ Ya que si tenemos una expresión como
 ```
 
 No será la misma si ponemos
-Ya que si tenemos una expresión como
+Ya que si tenemos una expresión como:
+
 ```java
 (2 + 10) / 5 ó 2 + (10 / 5)
 ```
@@ -256,7 +256,6 @@ En el caso de no utilizar paréntesis se ejecutará el orden de preferencia de o
 Una sentencia es la unidad mínima de ejecución de un programa. Un programa se compone de conjunto de sentencias que acaban resolviendo un problema. **Al final de cada una de las sentencias encontraremos un punto y coma (;)**.
 
 Tenemos los siguientes tipos de sentencias.
-
 
 > Sentencias de declaración
 ```java
@@ -514,6 +513,7 @@ for (sentencias_inicio;expresion;incremento) {
 `For Extendido o bucles for each`
 
 En las últimas versiones de Java se introdujo una nueva forma de uso del for, a la que se denomina “for extendido” o “for each”. Esta forma de uso del for, que ya existía en otros lenguajes, facilita el recorrido de objetos existentes en una colección sin necesidad de definir el número de elementos a recorrer. La sintaxis que se emplea es:
+
 ```java
  for (TipoARecorrer nombreVariableTemporal : nombreDeLaColección ) {
     Instrucciones;
