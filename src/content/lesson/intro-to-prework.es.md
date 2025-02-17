@@ -53,7 +53,7 @@ Alrededor del 90% de nuestros estudiantes encuentran trabajo después de graduar
 2. Nuestra pasión por enseñar a programar.
 3. Nuestros resultados: aquí hay un informe (de abril de 2019) para que lo revises: https://www.4geeksacademy.co/wp-content/uploads/2020/03/4Geeks-Outcomes-Report-.pdf
 
-Si quieres saber más, ponerte en contacto con nosotros o postularte, por favor envíanos un correo a: Info@4geeksacademy.com
+Si quieres saber más, ponerte en contacto con nosotros o postularte, por favor, envíanos un correo a: Info@4geeksacademy.com
 
 ## Al Revés
 
