@@ -2,6 +2,7 @@
 title: 'Dominando Bases de Datos: ¿Qué es la Base de Datos SQL?'
 tags:
   - sql
+  - base-de-datos
 description: >-
   Aprende qué es una base de datos SQL y cómo dominar su uso. Descubre conceptos
   clave y comienza a trabajar con datos de manera efectiva. ¡Explora ahora!
@@ -70,7 +71,7 @@ La base de datos de las Grandes Ligas en Baseball probablemente tiene una tabla 
 
 Una base de datos de la biblioteca pública probablemente tenga una tabla llamada **Autor** (*Author*) (que contiene la información de todos los autores con libros publicados), y también otra tabla con TODOS los **Libros** (*Books*) que se han publicado. Ambas tablas están relacionadas porque **un autor puede tener muchos libros y un libro puede tener muchos autores.**
 
-![SQL muchos a muchos](../../assets/images/af7344fc-0ee0-499e-8926-8f70dc9b2b0d.png)
+![SQL muchos a muchos](https://github.com/breatheco-de/content/blob/master/src/assets/images/af7344fc-0ee0-499e-8926-8f70dc9b2b0d.png?raw=true)
 
 ### Sintaxis de SQL
 
