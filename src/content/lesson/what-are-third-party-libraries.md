@@ -2,6 +2,9 @@
 title: What Are Third-Party Libraries Used for in Python?
 tags:
   - python
+  - numpy
+  - pandas
+  - matplotlib
 authors:
   - DF27ARTS
 description: >-
