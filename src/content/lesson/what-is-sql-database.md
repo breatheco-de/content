@@ -2,6 +2,7 @@
 title: 'Mastering Databases: What is SQL Database'
 tags:
   - sql
+  - databases
 description: >-
   Master SQL databases and unlock data's potential! Learn the essentials of SQL,
   from queries to transactions. Discover more now!
