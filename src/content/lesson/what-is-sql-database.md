@@ -71,7 +71,7 @@ The Major League Baseball database probably has a table called **Players** (with
 
 A public library database probably has a table called **Author** (which contains the information of all authors with published books), and also another table with ALL **Books** that have been published. Both tables are related because **one author can have many books, and one book can have many authors.**
 
-![SQL many to many](../../assets/images/af7344fc-0ee0-499e-8926-8f70dc9b2b0d.png)
+![SQL many to many](https://github.com/breatheco-de/content/blob/master/src/assets/images/af7344fc-0ee0-499e-8926-8f70dc9b2b0d.png?raw=true)
 
 ### SQL syntax
 
