@@ -39,7 +39,7 @@ Cada array tiene los mismos conceptos básicos:
 
 **Índice (Index):** es la posición del elemento en el array.
 
-![qué es un array](https://github.com/breatheco-de/content/blob/master/src/assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png?raw=true)
+![qué es un array](https://raw.githubusercontent.com/breatheco-de/content/master/src/assets/images/7ed2c414-0d00-4e68-b659-b65c26d1983a.png)
 
 > ☝️ Las posiciones de un array comienzan en **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
 
