@@ -2,6 +2,9 @@
 title: Making an amazing resume
 tags:
   - career support
+  - resume building
+  - Job Hunting
+  - resume for developers
 description: >-
   Master the art of crafting an amazing resume that lands interviews! Discover
   essential tips and examples to showcase your skills effectively.
