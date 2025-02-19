@@ -4,7 +4,7 @@ subtitle: "Desata tu poder aprendiendo con esta lección, usando uno de los Reye
 cover_local: "../../assets/images/576d4b0e-8b35-493d-879c-4d8f914c585f.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["python"]
+tags: ["python", "javascript"]
 status: "published"
 
 ---
