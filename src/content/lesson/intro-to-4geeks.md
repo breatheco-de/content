@@ -2,6 +2,8 @@
 title: Introduction to 4Geeks Academy
 tags:
   - best practices
+  - learn-to-code
+  - imposter syndrome
 authors:
   - alesanchezr
 canonical: ''
