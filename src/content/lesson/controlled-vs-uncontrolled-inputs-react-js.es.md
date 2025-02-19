@@ -2,6 +2,7 @@
 title: ¿Qué son las entradas controladas o no controladas en React.js?
 tags:
   - react-js
+  - JavaScript
 canonical: ''
 description: >-
   Descubre las entradas controladas y no controladas en React.js. Aprende a
