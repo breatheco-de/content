@@ -53,6 +53,6 @@ You don't have to do it all, you can just pick one or two things you might enjoy
 
 I hope I made my case!!
 
-## Keep it up!
+## Keep it up!😁
 
 If you want to read more about Learning in public I recommend reading [this article and all the amazing sources mentioned at the end of that article](https://www.swyx.io/learn-in-public/).
