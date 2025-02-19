@@ -4,7 +4,7 @@ subtitle: "Programación orientada a eventos: carga del sitio web (load), clic d
 cover_local: "../../assets/images/d2ca9eb7-a3f9-432d-b791-8b1266f8923a.gif"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["programación orientada a eventos"]
+tags: ["programación orientada a eventos", "JavaScript", "html"]
 status: "published"
 
 ---
