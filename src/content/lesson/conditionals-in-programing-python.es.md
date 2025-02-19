@@ -11,7 +11,7 @@ tags:
   - Condicion
   - Python
 description: >-
-  Master condicionales en Python para controlar el flujo de tu código. Aprende a
+  Domina condicionales en Python para controlar el flujo de tu código. Aprende a
   tomar decisiones programáticas y mejora tus habilidades de programación.
   Discover more!
 ---
