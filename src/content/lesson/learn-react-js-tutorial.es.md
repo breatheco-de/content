@@ -4,7 +4,7 @@ subtitle: "React es una librería de front-end ideal para crear interfaces (gene
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["reactjs"]
+tags: ["reactjs", "javascript", "componentes-react"]
 status: "published"
 
 ---
