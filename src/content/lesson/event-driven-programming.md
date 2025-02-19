@@ -4,7 +4,7 @@ subtitle: "Event Driven Programming: website load, user click, window resize, et
 cover_local: "../../assets/images/d2ca9eb7-a3f9-432d-b791-8b1266f8923a.gif"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["event driven programming"]
+tags: ["event driven programming", "JavaScript", "html"]
 status: "published"
 
 ---
