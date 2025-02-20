@@ -4,7 +4,7 @@ subtitle: "Los desarrolladores gastan horas cada día usando la línea de comand
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["línea de comando","la terminal"]
+tags: ["línea de comando", "la terminal"]
 status: "published"
 
 ---
@@ -15,16 +15,16 @@ status: "published"
 
 Al principio, todos odiaban la línea de comando. Después de años de experiencia, se convirtió en un gusto adquirido.
 
-Pero ¿por qué les gusta a los desarrolladores? Bueno, la lista es infinita, pero aquí hay algunas razones importantes:
+Pero, ¿por qué les gusta a los desarrolladores? Bueno, la lista es infinita, pero aquí hay algunas razones importantes:
 
 + Si no dominas la línea de comando, no podrás usar ninguno de estos: GIT, MySQL, Webpack, Node.js, Grunt, Vagrant, Babel, React, Angular, Apache, etc.
 
-+ Como desarrollador, es lo único que necesitas tener disponible. Las computadoras no vienen con Atom, Sublime text (o cualquier otro IDE de alta calidad). A veces, como en los servidores de producción no puedes instalar nada (y **el sistema ni siquiera tiene una interfaz visual**), sólo tendrás la línea de comandos.
++ Como desarrollador, es lo único que necesitas tener disponible. Las computadoras no vienen con Atom, Sublime Text (o cualquier otro IDE de alta calidad). A veces, como en los servidores de producción, no puedes instalar nada (y **el sistema ni siquiera tiene una interfaz visual**), solo la línea de comandos.
 
-+ Es Súperpoderosa. Puedes hacer mucho más en mucho menos tiempo, por ejemplo: eliminar de forma masiva, cambiar nombres, buscar archivos, editar archivos, etc.
++ Es superpoderosa. Puedes hacer mucho más en mucho menos tiempo, por ejemplo: eliminar de forma masiva, cambiar nombres, buscar archivos, editar archivos, etc.
 + Te obliga a usar el teclado. Como no puedes usar el ratón, te hace más rápido, cometes menos errores y el entorno es exactamente el mismo en todas las computadoras.
 
-## ¿Cómo Funciona?
+## ¿Cómo funciona?
 
 La consola es realmente simple: es una pantalla negra que siempre está esperando un *comando*. Después de escribir el comando deseado y de haber presionado la tecla `enter`, la computadora lo ejecuta y muestra algún feedback con el resultado en la pantalla. Una simple interfaz de **Pregunta** <> **Respuesta**.
 
@@ -55,7 +55,7 @@ Hay 4 cosas importantes que notar aquí:
 + Puedes usar un punto `.` para referirte a todos los archivos y carpetas en la jerarquía.
 + También puedes usar dos puntos `..` para referirte al directorio padre.
 + Puedes usar la barra diagonal `/` para navegar más hacia abajo en la jerarquía de directorios.
-+ Archivos ocultos: por lo general, un archivo tiene un nombre y una extensión *(filename.extension)*. Si un archivo no tiene nombre y solo una extensión, estará, por defecto, oculto en la interfaz visual.
++ Archivos ocultos: Por lo general, un archivo tiene un nombre y una extensión *(filename.extension)*. Si un archivo no tiene nombre y solo una extensión, estará, por defecto, oculto en la interfaz visual.
 
 ## Comandos para trabajar con el sistema de archivos
 
@@ -143,7 +143,7 @@ rmdir path/of/targetdirectory/mydirectory
 
 No confundas este comando con la funcionalidad de copiar del portapapeles, no tiene nada que ver con eso.
 
-`cp` copiará un archivo completo y creará uno nuevo con el nombre que decidas que deba tener.
+`cp` Copiará un archivo completo y creará uno nuevo con el nombre que decidas que deba tener.
 
 ```bash
 cp path/to/file.txt path/to/new/file_copy.txt
@@ -164,7 +164,7 @@ find . -name *.mp3
 # Encuentra todos los archivos que contengan la extensión "mp3" dentro del directorio actual y en el de su padre.
 ```
 
-## Consejos y Trucos
+## Consejos y trucos
 
 Esto te ayudará a ahorrar tiempo y a cometer menos errores al escribir:
 
@@ -176,7 +176,7 @@ Esto te ayudará a ahorrar tiempo y a cometer menos errores al escribir:
 
 ## Editando archivos en la terminal
 
-Esta es una de las cosas que no puedes evitar hacer en la terminal. Como desarrollador tendrás que editar archivos en la terminal con más frecuencia de lo que crees. Por eso es mejor que estés preparado para usar la [Aplicación VIM o la Aplicación Nano.](https://askubuntu.com/questions/726669/difference-between-nano-and-vim) Hablaremos sobre Nano y sus comandos (sí, aquí el editor de texto se abre dentro de la línea de comandos y se ejecuta usando comandos).
+Esta es una de las cosas que no puedes evitar hacer en la terminal. Como desarrollador, tendrás que editar archivos en la terminal con más frecuencia de lo que crees. Por eso es mejor que estés preparado para usar la [Aplicación VIM o la Aplicación Nano.](https://askubuntu.com/questions/726669/difference-between-nano-and-vim) Hablaremos sobre Nano y sus comandos (sí, aquí el editor de texto se abre dentro de la línea de comandos y se ejecuta usando comandos).
 
 ### El comando nano
 
