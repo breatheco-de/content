@@ -3,6 +3,7 @@ author: "castilloabraham"
 excerpt: "Aprende con nosotros como crear un Portfolio usando GitHub y sobresaltar entre el resto de candidatos mientras buscas un nuevo trabajo."
 template: "post"
 title: "Como crear un Portfolio usando GitHub?"
+"technologies": ["github", "git"]
 
 ---
 

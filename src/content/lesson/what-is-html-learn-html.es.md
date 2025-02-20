@@ -4,7 +4,7 @@ subtitle: "Pero ¿qué es HTML realmente? HTML es para las páginas web lo que s
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["html"]
+tags: ["html", "desarrollo-web", "front-end"]
 status: "published"
 
 ---

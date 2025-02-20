@@ -179,7 +179,7 @@ It's all about what question to ask. The previous example was a simple condition
 
 This will be the algorithm for picking what to wear on Valentine's Day:
 
-![What to wear on valentine's day](https://github.com/breatheco-de/content/blob/master/src/assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg?raw=true)
+![What to wear on valentine's day](https://raw.githubusercontent.com/breatheco-de/content/refs/heads/master/src/assets/images/87f2be86-32c3-4bfc-8db4-dbd0d979e4d3.jpeg)
 
 ```python
 if going_out:

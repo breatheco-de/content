@@ -1,7 +1,7 @@
 ---
 title: "Convert List to String in Python"
-subtitle: "A simple way to convert a list to a string in Python using the join() method."
-tags: ["python", "list"]
+subtitle: "Convert a list to a string in Python easily using .join(). Learn different methods for handling mixed data types, including map(), list comprehension, and iteration."
+tags: ["python", "python-strings"]
 date: "2020-10-19T16:36:30+00:00"
 authors: []
 status: "published"

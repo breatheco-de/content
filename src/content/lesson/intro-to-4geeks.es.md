@@ -3,7 +3,7 @@ title: "Introducción a 4Geeks Academy"
 subtitle: "Espero que leas este artículo completo, este artículo tiene una receta de 8 minutos para sacarle el máximo provecho a la academia. ¡De la manera más efectiva!"
 textColor: "white"
 status: "published"
-tags: ["best practices"]
+tags: ["buenas-practicas", "aprender-a-programar", "sindrome-del-impostor"]
 authors: ["alesanchezr"]
 date: "2020-10-19T16:36:31+00:00"
 canonical: ""

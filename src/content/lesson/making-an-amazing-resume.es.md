@@ -2,6 +2,9 @@
 title: Creando un curriculum increíble
 tags:
   - career support
+  - creacion de curriculum
+  - busqueda de empleo
+  - curriculum para desarrolladores
 description: >-
   Master the art of crafting an incredible resume! Learn essential tips to
   enhance your CV and land interviews in the tech industry. Discover more!

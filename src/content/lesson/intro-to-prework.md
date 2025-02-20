@@ -2,6 +2,9 @@
 title: Intro to Pre-Work
 tags:
   - prework
+  - web-deveroper-salary
+  - github
+  - coding-tools
 description: >-
   Master the essential Pre-Work for coding success! Discover how 4Geeks Academy
   prepares you for a thriving web development career. Start your journey today!

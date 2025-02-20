@@ -4,7 +4,7 @@ subtitle: "¡Después de décadas de lucha, la luz ha llegado! Con este tutorial
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:30+00:00"
-tags: ["bootstrap"]
+tags: ["bootstrap", "html", "css"]
 status: "published"
 
 ---
@@ -195,7 +195,7 @@ Este es probablemente el componente de Bootstrap más usado, cada sitio web tien
 
 + La sección de "equipo" de un sitio web donde listas los distintos empleados.
 + Un típico muro de Pinterest.
-+ Cualquier historia de una red social como Instagram, Facebook, twitter, etc.
++ Cualquier historia de una red social como Instagram, Facebook, Twitter, etc.
 
 Aquí hay un ejemplo de cómo puede verse un sitio web con una "Card":
 
@@ -250,7 +250,7 @@ div class="modal" tabindex="-1" role="dialog">
 
 ## Lo que realmente necesitas saber sobre Bootstrap
 
-¡¡La documentación oficial de Bootstrap es increíble!! No necesitamos copiar y pegar todos los post. Por favor visita los siguientes sitios web y enfócate en leer estos temas:
+¡¡La documentación oficial de Bootstrap es increíble!! No necesitamos copiar y pegar todos los posts. Por favor visita los siguientes sitios web y enfócate en leer estos temas:
 
 + [The grid system.](https://getbootstrap.com/docs/4.1/layout/grid/)
 + [Styling Forms.](https://getbootstrap.com/docs/4.1/components/forms/)

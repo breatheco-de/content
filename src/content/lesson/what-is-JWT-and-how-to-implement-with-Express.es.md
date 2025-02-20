@@ -3,13 +3,13 @@ title: Comprendiendo JWT y como implementar un JWT simple con Express
 tags:
   - HTTP
   - API
+  - jwt
   - Security
   - Authentication
   - Express
   - TypeOrm
 description: >-
-  Learn how to implement JWT for secure API authentication with Express. Master
-  JSON Web Tokens and enhance your app's security! Discover more now!
+  Aprende a implementar JWT para una autenticación segura de API con Express. Domina los JSON Web Tokens y mejora la seguridad de tu aplicación. ¡Descúbrelo ahora!
 ---
 En el mundo del desarrollo web moderno, la autenticación y autorización de usuarios son aspectos cruciales para proteger las APIs y los datos sensibles. [El acceso basado en tokens](https://4geeks.com/es/lesson/ques-es-token-de-acceso-para-api) en una de las estrategias mas usadas, de entre ellas destacan los JSON Web Tokens (JWT), un estándar abierto y ligero que define un mecanismo compacto y autosuficiente para la transmisión segura de información entre partes como cliente y servidor.
 

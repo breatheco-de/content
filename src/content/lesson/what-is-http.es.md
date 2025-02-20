@@ -1,10 +1,9 @@
 ---
 title: "¿Qué es HTTP?"
-subtitle: "HTTP quiere decir Hypertext Transfer Protocol, o en español, Protocolo de Transferencia de Hipertexto. Se trata de un conjunto de reglas de comunicación que posibilita la circulación de información a través de la World Wide Web (WWW)."
-cover_local: "../../assets/images/http-0.png"
+subtitle: Aprende sobre HTTP, el protocolo clave para la comunicación web. Descubre cómo funciona, sus métodos de solicitud y los códigos de respuesta. Entiende la interacción entre cliente y servidor, cómo se transmiten los datos y qué significan los códigos de estado. Haz clic para explorar y profundizar en el tema."
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["HTTP"]
+tags: ["HTTP", "desarrollo-web"]
 status: "published"
 ---
 

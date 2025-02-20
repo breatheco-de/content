@@ -2,6 +2,7 @@
 title: What are controlled and/or uncontrolled inputs in React.js
 tags:
   - react-js
+  - JavaScript
 canonical: ''
 description: >-
   Learn the difference between controlled and uncontrolled inputs in React.js.

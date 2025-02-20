@@ -5,7 +5,7 @@ cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 status: "published"
 date: "2020-10-19T12:36:31-04:00"
-tags: ["python"]
+tags: ["python", "funciones-de-python"]
 
 ---
 
@@ -29,7 +29,7 @@ edad = 24
 
 ![qué es python](https://github.com/breatheco-de/content/blob/master/src/assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif?raw=true)
 
-Casi con cualquier lenguaje de programación puedes crear tantas variables como quieras o necesites. Para empazar, en python debes **declarar el nombre de esa variable** con un nombre _único_ (relativo al valor o lo que reciba).
+Casi con cualquier lenguaje de programación puedes crear tantas variables como quieras o necesites. Para empezar, en python debes **declarar el nombre de esa variable** con un nombre _único_ (relativo al valor o lo que reciba).
 
 El **nombre de la variable** es la manera más efectiva de describir el contenido de una variable, úsalo con sabiduría. Es importante escoger un nombre que claramente te indique (a ti y a otros programadores) sobre los datos que están siendo almacenados en la variable. Si escogemos un nombre malo o ambigüo, nuestro código será casi imposible de entender, ergo se vuelve inutilizable. Por ejemplo digamos que le cambiamos el nombre a nuestra variable "edad" a "a":
 
@@ -126,19 +126,20 @@ Las funciones son pedazos de código que se pueden reutilizar varias veces duran
 
 ## Declarar una Función
 
-Para declarar una función en JavaScript, debes comenzar a utilizar la palabra `function` seguida del nombre que le quieres dar a esa función.
+Para declarar una función en Python, comienzas con la palabra clave `def`, seguida del nombre que deseas darle a la función.  
 
-Luego debes especificar los parámetros (entradas) que tendrá la función entre paréntesis.
+Luego, especificas los parámetros (entradas) que la función aceptará dentro de paréntesis.  
 
-Luego, abrirás una llave y escribirás el código que tu función siempre debe realizar. Una vez que hayas terminado, cierra la llave y ahora tu función está lista para ser utilizada.
+A continuación, comienzas un nuevo bloque de código con sangría, donde escribes el código que la función debe ejecutar. Una vez que hayas terminado el código de la función, simplemente detienes la sangría.  
 
-**Nota:**  Para retornar algo, usa la palabra `return` en cualquier momento dentro del contenido de su función (dentro de las llaves).
+**Nota:** Para devolver un valor desde la función, utilizas la palabra clave `return`, seguida del valor que deseas retornar. Puedes colocar la sentencia `return` en cualquier parte dentro del bloque de código de la función, y esta se ejecutará, finalizando la función y devolviendo el valor especificado.  
 
-![aprende a programar en Python](https://github.com/breatheco-de/content/blob/master/src/assets/images/0c4fa020-02f6-4ec0-bfeb-a6292145a153.gif?raw=true)
+> Aquí tienes un ejemplo:
 
 ```python
-def multiply (param1, param2):
-    return (param1 * param2)
+def multiplicar(param1, param2):
+    resultado = param1 * param2
+    return resultado  # Así es como se devuelve un valor desde la función
 ```
 
 ## Parámetros y alcance de la Función

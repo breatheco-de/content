@@ -2,6 +2,7 @@
 title: How to use Gitpod
 tags:
   - gitpod
+  - github
 canonical: ''
 description: >-
   Learn how to use Gitpod, the cloud-based coding platform. Discover its

@@ -2,10 +2,11 @@
 title: Understanding PHP Syntax
 tags:
   - PHP
+  - javascript
 description: >-
-  Learn PHP syntax with our comprehensive guide! Master key concepts, data
-  types, and practical examples. Discover the power of PHP programming today!
+  Master PHP syntax with our easy-to-follow guide! Learn essential concepts, data types, and practical examples. Understand the core structure of PHP programming and how it compares to JavaScript. Start coding today and explore the full potential of PHP for web development
 ---
+
 ## What is PHP?
 
 

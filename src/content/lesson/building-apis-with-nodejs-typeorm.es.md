@@ -7,8 +7,7 @@ tags:
   - REST
   - API
 description: >-
-  Learn how to connect a database to your REST API using TypeORM. Master
-  efficient data management and coding simplicity! Discover more now!
+  Aprende cómo conectar una base de datos a tu API REST usando TypeORM. Domina la gestión eficiente de datos y la simplicidad en el código.
 ---
 ## ¿Qué es SQL TypeOrm?
 

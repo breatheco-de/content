@@ -2,6 +2,8 @@
 title: Understanding PHP Sessions
 tags:
   - PHP
+  - web security
+  - http
 description: >-
   Master PHP sessions and learn to manage user data securely. Discover essential
   techniques for effective session handling in your web applications!

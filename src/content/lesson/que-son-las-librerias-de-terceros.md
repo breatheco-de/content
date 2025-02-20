@@ -1,7 +1,7 @@
 ---
 title: "¿Para qué sirven las librerías de terceros en Python?"
 subtitle: "Aprende cómo las librerías de terceros en Python pueden enriquecer tus proyectos. Descubre cómo incorporar funciones avanzadas y acelerar tu desarrollo"
-tags: ["python"]
+tags: ["python", "pandas", "numpy", "matplotlib"]
 authors: ["DF27ARTS"]
 
 ---

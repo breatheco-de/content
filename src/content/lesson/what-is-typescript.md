@@ -4,7 +4,7 @@ subtitle: "It's recomended to know Javascript in general before reading this les
 cover_local: "../../assets/images/typescript.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["typescript"]
+tags: ["typescript", "javascript"]
 status: "draft"
 
 ---

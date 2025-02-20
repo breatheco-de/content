@@ -2,6 +2,8 @@
 title: What is an Array? Understanding the Basics and Defining Array Data Structure
 tags:
   - array
+  - javascript
+  - data-structures
 description: >-
   Discover the basics of arrays, a key data structure in programming. Learn to
   define, manipulate, and master arrays for efficient coding!

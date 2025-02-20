@@ -50,9 +50,9 @@ my_list = ["Apple", "Orange", "Donkey"]  # La única forma de declarar una lista
 my_tuple = ("Apple", "Orange", "Donkey")  # Esto no es una lista, es una versión más limitada llamada "Tupla"
 my_set = {"Apple", "Orange", "Donkey"}  # Esto no es una lista, es una versión más limitada llamada "set" (conjunto).
 
-print("Esto es una lista: " + my_list)
-print("Esto es una Tupla: " + my_tuple)
-print("Esto es un set: " + my_set)
+print("Esto es una lista: ",my_list)
+print("Esto es una Tupla: ",my_tuple)
+print("Esto es un set: ",my_set)
 ```
 
 ## Acceder a los items en la lista 
@@ -65,8 +65,8 @@ El índice siempre debe comenzar en cero (0). Eso significa que una lista de 2 e
 my_list = ["Apple", "Orange", "Donkey", "Car", "Game"]
 print(my_list[0])  # Esto imprimirá el 1er elemento en la consola
 
-aux = my_list[5]
-print(aux)  # Esto imprimirá el 6to elemento en la consola
+aux = my_list[4]
+print(aux)  # Esto imprimirá el 5to elemento en la consola
 
 print(my_list[len(my_list) - 1])  # Esto imprimirá el último elemento en la consola
 print(my_list[-1])  # Tambien imprimirá el último elemento

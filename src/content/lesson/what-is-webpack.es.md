@@ -4,7 +4,7 @@ subtitle: "Para los desarrolladores senior, es imposible pensar en desarrollar u
 cover_local: "../../assets/images/cdbe1bf9-2b6b-4c21-b127-eacc681d9c8d.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["webpack"]
+tags: ["webpack", "javascript","npm", "frontend", "css"]
 status: "published"
 
 ---

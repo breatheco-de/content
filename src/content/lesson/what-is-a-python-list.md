@@ -52,9 +52,9 @@ The index must always start at zero (0).  That means that a List of 2 items can 
 
 ```python runable=true
 my_empty_list = [] # Empty list
-my_list = ["Apple", "Orange", "Donkey"]  # The only way to declare a "list" - a mutable and ordered collection of items
-my_tuple = ("Apple", "Orange", "Donkey")  # This is a "tuple" - a more limited, ordered, but immutable collection of items
-my_set = {"Apple", "Orange", "Donkey"}  # This is a "set" - a more limited, unordered and immutable collection of items
+my_list = ["Apple", "Orange", "Donkey", "Table"]  # The only way to declare a "list" - a mutable and ordered collection of items
+my_tuple = ("Apple", "Orange", "Donkey", "Table")  # This is a "tuple" - a more limited, ordered, but immutable collection of items
+my_set = {"Apple", "Orange", "Donkey", "Table"}  # This is a "set" - a more limited, unordered and immutable collection of items
 
 print(my_list[0])  # Prints the 1st element on the console
 
@@ -73,12 +73,12 @@ If you want, you can reset or update any item inside a list using its index, lik
 
 ```python runable=true
 my_empty_list = [] # Empty list
-my_list = ["Apple", "Orange", "Donkey"]  # The only way to declare a "list" - a mutable and ordered collection of items
-my_tuple = ("Apple", "Orange", "Donkey")  # This is a "tuple" - a more limited, ordered, but immutable collection of items
-my_set = {"Apple", "Orange", "Donkey"}  # This is a "set" - a more limited, unordered and immutable collection of items
+my_list = ["Apple", "Orange", "Donkey", "Table", "Rain"]  # The only way to declare a "list" - a mutable and ordered collection of items
+my_tuple = ("Apple", "Orange", "Donkey", "Table")  # This is a "tuple" - a more limited, ordered, but immutable collection of items
+my_set = {"Apple", "Orange", "Donkey", "Table"}  # This is a "set" - a more limited, unordered and immutable collection of items
 
-my_list[5] = 'Whatever value'
-# Assign a value to the 6th element on the list 
+my_list[4] = 'Whatever value'
+# Assign a value to the 5th element on the list 
 ```
 
 ## Adding Elements to Python Lists (append and insert)
