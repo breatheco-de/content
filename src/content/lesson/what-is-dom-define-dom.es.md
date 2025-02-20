@@ -4,7 +4,7 @@ subtitle: "¿Ya sabes lo que es DOM? Es una jerarquía almacenada en la memoria 
 cover_local: "../../assets/images/db660bb9-1ac6-4730-a9c8-4544d6b801b0.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: tags: ["DOM", "javascript", "HTML", "front-end"]
+tags: ["DOM", "javascript", "HTML", "front-end"]
 status: "published"
 
 ---
