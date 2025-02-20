@@ -1,9 +1,9 @@
 ---
 title: Es Hora de Aprender lo que es un Array o arreglo
 tags:
-  - arreglo
-  - matriz
   - array
+  - javascript
+  - estructura-de-datos
 video: https://www.loom.com/share/bb0aa485cc334afbb8ff6ef1d9c6ac5b
 description: >-
   Aprende qué es un array y cómo trabajar con ellos en programación. Domina esta
