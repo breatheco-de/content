@@ -153,7 +153,7 @@ La propiedad `.innerHTML` te brinda la capacidad de recuperar o configurar el co
 
 ```javascript
 document.getElementsByTagName("div")[0].innerHTML = "abc";
-// innerHTML puede usarse para insertar contenido de texto o HTML, esto crea una lista dentro de un elemento <div>
+// innerHTML puede usarse para insertar contenido de texto o HTML, esto crea texto dentro de un elemento <div>
 ```
 
 > ☝ Puedes encontrar 2 propiedades más en internet: `nodeValue` y `textContent`, pero en realidad no son muy utilizadas y tienen una funcionalidad más limitada.
