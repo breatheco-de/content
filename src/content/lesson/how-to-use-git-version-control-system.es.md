@@ -258,7 +258,7 @@ Agrega el control remoto ejecutando el siguiente comando:
 
 ```bash
 git remote add origin [remote-url]
-# para asegurarnos de que el control remoto se haya configurado correctamente, podemos obtener el valor de url
+# para asegurarnos de que el control remoto se haya configurado correctamente, podemos obtener el valor de la url
 git remote get-url origin
 ```
 
