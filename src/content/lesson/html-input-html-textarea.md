@@ -30,7 +30,7 @@ The following is a list of all the possible elements we can use to receive any i
 |**Name**   |**Declaration**   |**Description**   |
 |:----------|:-----------------|:-----------------|
 |Text       |`<input type="text">`   |The text input is meant to receive any small string of characters such as: Username, Name, Last Name, Date of birth, etc.<br>`<input type="text" name="Name" />`   |
-|Textarea   |`<textarea>`   |The textarea is ideal for long text inputs. Its main difference from the text input is its ability to allow for multiple lines.<br>`<textarea name="comments"><textarea/>`   |
+|Textarea   |`<textarea>`   |The textarea is ideal for long text inputs. Its main difference from the text input is its ability to allow for multiple lines.<br>`<textarea name="comments"></textarea>`   |
 |Password   |`<input type="password" />`   |This is just like an input type="text" but with the only difference that the characters are hidden like bullets. The user cannot see what they are typing.<br>`<input type="password" name="password" />`   |
 |Radio button   |`<input type="radio" />`   |Allows the user to select only one of all the available inputs with the same name.<br>`<input type="radio" name="color" value="red" />` <br> `<input type="radio" name="color" value="green" />`   |
 |Checkbox   |`<input type="checkbox" />`   |Similar to type="radio", but this type lets you select multiple values of the same category.<br>`<input type="check" name="color" value="green" />`<br> `<input type="check" name="color" value="blue" />`   |
