@@ -2,7 +2,7 @@
 title: Entendiendo las sesiones de PHP
 tags:
   - PHP
-  - web security
+  - seguridad web
   - http
 description: >-
   Master PHP sessions and learn to manage user data effectively. Discover best
