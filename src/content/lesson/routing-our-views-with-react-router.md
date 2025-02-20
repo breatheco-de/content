@@ -3,6 +3,7 @@ title: Routing our Views with React Router
 tags:
   - reactjs
   - react router
+  - javascript
 description: >-
   Master routing in your React applications with React Router! Discover how to
   connect views seamlessly and enhance user navigation. Click to learn more!
