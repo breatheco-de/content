@@ -4,7 +4,7 @@ subtitle: "Como te habrás dado cuenta, HTML te permite crear sólo sitios web b
 cover_local: "https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png?raw=true"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["CSS"]
+tags: ["CSS", "front-end"]
 status: "published"
 
 ---
