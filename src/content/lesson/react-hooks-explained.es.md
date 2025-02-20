@@ -2,7 +2,7 @@
 title: "Qué es un Hook en React"
 subtitle: "Los Hooks son la nueva forma de crear componentes React, son imposibles de evitar. En esta lección nos enfocaremos en que es un hook y explicaremos los 2 hooks más importantes: useState y useEffect"
 authors: ["alesanchezr"]
-tags: ["reactjs", "javascript"]
+tags: ["reactjs", "javascript", "front-end"]
 
 ---
 
