@@ -4,7 +4,7 @@ subtitle: "¡Las clases son las últimas piezas necesarias para dominar los truc
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["programacion orientada a objectos"]
+tags: ["programacion orientada a objectos", "python", "javascript"]
 status: "published"
 
 ---
