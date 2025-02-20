@@ -1,8 +1,8 @@
 ---
 title: ¿Qué es la depuración y cómo depurar el código?
 tags:
-  - debugging
-  - web development
+  * debugging
+  * web development
 description: >-
   Aprende qué es la depuración y cómo depurar el código de manera eficiente.
   ¡Descubre técnicas que te ahorrarán tiempo y mejorarán tus habilidades de
@@ -12,9 +12,9 @@ Todos cometemos muchos errores al programar. Esta es una realidad que reconoce c
 
 ## Está bien cometer errores
 
-> He medido mi "tasa de error"; sé que cometo más de 100 errores durante un día honesto de programación (y llevo programando desde el año 2000, hace 24 años).
+- He medido mi "tasa de error"; sé que cometo más de 100 errores durante un día honesto de programación (y llevo programando desde el año 2000, hace 24 años).
 
-Estos errores pueden ser muy simples, como escribir mal una línea de código, o más elaborados, como escribir algo de código que lleve a un desbordamiento de memoria. No me asustan estos errores porque tengo una forma muy efectiva y rápida de identificar y solucionar errores.
+Estos errores pueden ser muy simples, como escribir mal una línea de código, o mal elaborados, como escribir algo de código que lleve a un desbordamiento de memoria. No me asustan estos errores porque tengo una forma muy efectiva y rápida de identificar y solucionar errores.
 
 ## Tu trabajo es convertirte en un maestro de la depuración
 
@@ -30,7 +30,7 @@ Los desarrolladores web junior. Hay tantos tipos de errores y técnicas de depur
 
 Sé que estás aquí para aprender cómo solucionar errores. Aun así, vale la pena mencionar que la mayoría de los errores de los desarrolladores principiantes se pueden prevenir usando formateadores de código automatizados, linters, herramientas de autocompletado, escribiendo con alta [legibilidad de código](https://4geeks.com/es/lesson/que-es-y-como-mejorar-la-legibilidad-del-codigo) y mejores prácticas.
 
-> 📄 Aquí hay una guía sobre [normas y directrices de codificación](https://4geeks.com/es/lesson/estandares-y-lineamientos-de-codigo) que te ayudará a tener un código limpio y prevenir errores.
+> 📄 Aquí hay una guía sobre [normas y directrices de codificación](https://4geeks.com/es/lesson/estandares-y-lineamientos-de-codigo) que te ayudarán a tener un código limpio y prevenir errores.
 
 <quote>Si depurar es el proceso de eliminar errores de software, entonces programar debe ser el proceso de ponerlos.</quote>- Edsger Dijkstra
 
@@ -55,7 +55,7 @@ La depuración de código de front-end se puede dividir en 4 grupos principales:
 
 Los errores de back-end suelen ser más fáciles de encontrar porque hay menos tecnologías involucradas; las tecnologías y lenguajes son más limpios y maduros, y generalmente, el código se ejecuta de manera más directa de arriba hacia abajo.
 
-> Nota: Hay arquitecturas de back-end más complejas con código asíncrono, herramientas basadas en la nube, microservicios, etc. Nos centraremos en sistemas de back-end más pequeños y estándar que usan la mayoría de las pequeñas y medianas empresas.
+> Nota: Hay arquitecturas de back-end más complejas con código asíncrono, herramientas basadas en la nube, microservicios, etc. Nos enfocamos en sistemas de back-end más pequeños y estándar que usan la mayoría de las pequeñas y medianas empresas.
 
 Depurar el código de back-end se puede dividir en 4 grupos principales:
 
@@ -117,7 +117,7 @@ Si el cuerpo de la solicitud, la URL y los encabezados están bien, es un error 
 
 Por último, si tiene un error en un servidor web (como Express, Flask, Django, etc.), es una buena idea verificar el registro de solicitudes que se le hacen al servidor. En el registro de solicitudes, puede ver cada solicitud que cualquier lado del cliente haya hecho a su API ordenadas por hora exacta. Aquí hay una breve explicación de un ejemplo de registro de solicitudes:
 
-![ejemplo de registro de solicitudes](https://storage.googleapis.com/media-breathecode/53b8907096b009687a251a9ce7f9270cab0ab57342f2372ccbabfce421f7afaa)
+[ejemplo de registro de solicitudes](https://storage.googleapis.com/media-breathecode/53b8907096b009687a251a9ce7f9270cab0ab57342f2372ccbabfce421f7afaa)
 
 ### Localizando el error
 
@@ -136,7 +136,7 @@ Debes estar seguro de la información que has reunido para mantenerte enfocado e
 
 ### Arregla el error
 
-El último paso, obviamente, es arreglar el error; puede llevar un tiempo y puede haber algunos errores anidados en el camino.
+El último paso, y no menos importante, es arreglar el error; puede llevar un tiempo y puede haber algunos errores anidados en el camino.
 
 He preparado lecciones muy sencillas para depurar los errores más comunes que encontrarás al programar aplicaciones web y APIs como desarrollador junior.
 
