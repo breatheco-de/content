@@ -2,6 +2,8 @@
 title: Object Oriented Programming
 tags:
   - object oriented programming
+  - python
+  - javascript
 description: >-
   Master Object Oriented Programming! Learn about classes, encapsulation, and
   reusability to enhance your coding skills. Discover the power of OOP today!
