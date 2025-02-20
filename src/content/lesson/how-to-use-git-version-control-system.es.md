@@ -36,7 +36,7 @@ El propósito de GIT es interactuar con el repositorio de un proyecto (un conjun
 Un **repositorio** GIT se compone de lo siguiente:
 
 + Un conjunto de **objetos de confirmación (commit object)**.
-+ Un conjunto de referencias para comentar objetos, llamados **heads**.
++ Un conjunto de referencias que apuntan a objetos de confirmación, comúnmente llamadas cabeceras (**heads**, en inglés). 
 
 <p>
  <img height="350px" src="https://github.com/breatheco-de/content/blob/master/src/assets/images/a4fc1953-3c91-4bf4-a70a-ab4778b3277b.png?raw=true" alt="cómo usar git" />
