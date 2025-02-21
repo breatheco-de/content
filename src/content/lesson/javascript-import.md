@@ -4,7 +4,7 @@ subtitle: "Split and conquer (again), this time we teach you how to split your c
 cover_local: "../../assets/images/c558ac72-194b-40f2-be2f-6e65e8c219c9.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
-tags: ["javascript","import","export"]
+tags: ["javascript","Webpack", "node.js"]
 status: "published"
 
 ---
