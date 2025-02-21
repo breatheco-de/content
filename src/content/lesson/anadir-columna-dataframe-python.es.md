@@ -10,7 +10,7 @@ Una columna de _DataFrame_ en cuanto a la librería de _Pandas_ en _Python_, se 
 
 > 🔗 Si quieres un [tutorial sobre Pandas python](https://4geeks.com/es/interactive-exercise/tutorial-pandas-para-machine-learning) o conocer más sobre [dataframes en pandas](https://4geeks.com/es/lesson/pandas-dataframe) te invito a leer el Blog de [4Geeks](https://4geeks.com/es/how-to), donde encontrarás contenido muy interesante
 
-```py
+```py runable=true
 # Es necesario importar la librería de Pandas
 import pandas as pd
 
@@ -52,7 +52,7 @@ Existen diferentes formas de agregar columnas a un _DataFrame_ de Pandas en [Pyt
 
 Se puede asignar un arreglo o lista a una columna con un nuevo nombre dentro del _DataFrame_. Hacer esto alinea automáticamente los datos basados en los índices del _DataFrame_. Aquí un ejemplo:
 
-```py
+```py runable=true
 import pandas as pd
 
 # Crear un DataFrame 
@@ -77,7 +77,7 @@ print(df)
 
 Este método permite agregar la columna en una posición especifica dentro del _DataFrame_. Es necesario proveer tanto el índice y el nombre de la columna. Ejemplo de uso del método `insert()`:
 
-```py
+```py runable=true
 import pandas as pd
 
 # Crear un DataFrame 
@@ -129,7 +129,7 @@ print(df2)
 
 Se tiene una lista de datos que lleva registro de una serie de errores ocurridos en los últimos 6 meses. Luego de validar los errores, se quiere documentar la severidad que tuvieron los errores en la operación, y controlar errores similares de cerca. Debido a que el _DataFrame_ actual no cuenta con la información adicional, se necesita crear una columna de datos para llevar registro de la información adicional. Se quiere dejar el _DataFrame_ original sin editar.
 
-```py
+```py runable=true
 import pandas as pd
 
 # Crear un DataFrame 
