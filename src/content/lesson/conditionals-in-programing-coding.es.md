@@ -7,10 +7,11 @@ tags:
   - logical operations
   - if else
   - conditions
+  - javascript
 description: >-
-  Master JavaScript conditionals to control your code's flow! Learn about
-  if-else statements, logical operators, and more. Discover the power of
-  conditions!
+  Domina los condicionales de JavaScript para controlar el flujo de su código. Aprende sobre
+  las sentencias if-else, los operadores lógicos y mucho más. Descubre el poder de las
+  condiciones.
 ---
 Dominar el uso de las condiciones es una de las 5 habilidades fundamentales de construir algoritmos:
 
