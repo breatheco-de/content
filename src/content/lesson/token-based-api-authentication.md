@@ -4,6 +4,9 @@ tags:
   - authentication
   - security
   - backend
+  - JavaScript
+  - api
+  - python
 description: >-
   Learn how to implement token-based authentication in your API for secure user
   access. Discover best practices and examples to enhance your app's security!
