@@ -1,7 +1,7 @@
 ---
 title: "Creating React Components - Learn what is and how to create a react component"
 subtitle: "Components are React.js bread and butter. Become a master creating react components using properties, the component state and learn the most common syntaxes"
-tags: ["reactjs", "javascript"]
+tags: ["reactjs", "javascript", "react-components"]
 
 ---
 
