@@ -7,6 +7,7 @@ tags:
   - logical operations
   - if else
   - conditions
+  - javascript
 description: >-
   Master conditionals in JavaScript! Learn to use if-else statements and logical
   operators to control your code's flow. Click to discover more!
