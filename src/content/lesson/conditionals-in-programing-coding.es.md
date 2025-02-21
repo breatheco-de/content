@@ -4,7 +4,7 @@ author:
   - alesanchezr
 tags:
   - conditionals
-  - logical operations
+  - operadores logicos
   - if else
   - conditions
   - javascript
