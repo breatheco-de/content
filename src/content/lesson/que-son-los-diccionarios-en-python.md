@@ -10,7 +10,7 @@ authors: ["DF27ARTS"]
 
 Los diccionarios en [Python](https://4geeks.com/es/lesson/como-programar-en-python) son una estructura de datos que nos permite almacenar grandes cantidades de datos y acceder a ellos de una forma muy eficiente. En este artículo aprenderás cómo crear, acceder y modificar datos en un diccionario de Python, en el siguiente ejemplo veremos una pequeña demostración de cómo puedes utilizar un diccionario para guardar una colección de datos.
 
-```py
+```py runable=true
 ciudad = {
     #Clave            Valor
     "ciudad_id":      1,
@@ -24,14 +24,6 @@ ciudad["nombre_ciudad"] = ciudad["nombre_ciudad"].upper()  # Modificar datos den
 del ciudad["moneda"]  # Eliminar datos dentro del diccionario
 
 print(ciudad)
-```
-> output ciudad: 
-```bash
-{
-    'ciudad_id': 1000, 
-    'nombre_ciudad': 'NEW YORK', 
-    'población': 8.468
-}
 ```
 
 En este ejemplo, creamos un diccionario con datos para representar una ciudad, en el ejemplo accedemos a la propiedad `ciudad_id` y le reemplazamos su valor original **50** con un nuevo valor **1000**, también modificamos la propiedad `nombre_ciudad` con el mismo valor pero en mayúsculas **NEW YORK** y por último eliminamos la propiedad `moneda` del diccionario. En este código se ven los ejemplos más básicos sobre cómo acceder a una propiedad, como modificar datos y cómo eliminar propiedades en diccionario.
@@ -55,7 +47,7 @@ En el siguiente video se muestra mejor cómo funcionan los diccionarios en Pytho
 
 Para declarar un diccionario en Python puedes hacerlo de dos formas, la primera es crear una variable y asignarle como valor un par de llaves `{}` esto creará un diccionario por defecto, otra forma de declarar un diccionario es crear una variable y asignarle como valor el constructor `dict()`, en los siguientes ejemplos verás un poco mejor cómo funciona.
 
-```py
+```py runable=true
 objeto_uno = {
     "clave_uno": "objeto uno valor uno",
     "clave_dos": "objeto uno valor dos",
@@ -69,17 +61,6 @@ objeto_dos = dict(
 print(objeto_uno)
 print(objeto_dos)
 ```
-> output:
-```bash
-{
-    'clave_uno': 'objeto uno valor uno', 
-    'clave_dos': 'objeto uno valor dos'
-}
-{
-    'clave_uno': 'objeto dos valor uno', 
-    'clave_dos': 'objeto dos valor dos'
-}
-```
 
 Como puedes ver, crear un diccionario en Python es muy sencillo, primero creas una variable y le asignas un par de llaves `{}`, luego dentro de las llaves creamos una clave y a esta clave le asignamos un valor, por ejemplo: `{ "academia": "4Geeks" }`.
 
@@ -89,7 +70,7 @@ Como puedes ver, crear un diccionario en Python es muy sencillo, primero creas u
 
 Para acceder a los datos adentro un diccionario usa la sintaxis `nombre_diccionario[clave]`, o también puedes usar el método `get()` con la siguiente sintaxis `nombre_diccionario.get(clave)` como se muestra en el siguiente ejemplo:
 
-```py
+```py runable=true
 persona = {
     "nombre": "Axel",
     "edad": 32,
@@ -115,7 +96,7 @@ Como se muestra en este ejemplo, para acceder al valor de la un diccionario pued
 
 Para añadir un nuevo elemento a un diccionario existen varias formas, puedes usar la sintaxis `nombre_diccinario[nueva clave] = nuevo valor` para añadir un nuevo elemento o también puedes usar el método `update()` para añadir varios elementos a la vez como se muestra en el siguiente ejemplo:
 
-```py
+```py runable=true
 objeto_uno = { "clave_1": 1, "clave_2": 2 }
 objeto_dos = { 1: "A", 2: "B", 3: "C" }
 
@@ -127,12 +108,6 @@ objeto_dos.update({ 4: "D", 5: "E" })
 print(objeto_uno)
 print(objeto_dos)
 ```
-> output:
-```bash
-{ 'clave_1': 1, 'clave_2': 2, 'clave_3': 3, 'clave_4': 4}
-
-{ 1: 'A', 2: 'B', 3: 'C', 4: 'D', 5: 'E' }
-```
 
 Como vemos en este ejemplo, puedes usar la sintaxis de llaves `{}` y dentro de las llaves el nombre de la nueva clave para crear un nuevo valor dentro de un diccionario, pero si necesitas crear más de un valor puedes usar el método `update()` y le pasas como parámetro un diccionario con los nuevos valores.
 
@@ -140,7 +115,7 @@ Como vemos en este ejemplo, puedes usar la sintaxis de llaves `{}` y dentro de l
 
 Para eliminar una clave-valor de un diccionario, puedes usar la sintaxis `del nombre_diccionario[clave]` o también puedes usar el método `pop()` y le pasas como parámetro el nombre de la clave del valor que deseas eliminar como se muestra en el siguiente ejemplo:
 
-```py
+```py runable=true
 persona = {
     "nombre": "Axel",
     "edad": 32,
@@ -155,14 +130,6 @@ edad = persona.pop("edad")
 print(edad) # output: 32
 print(persona)
 ```
-> output persona:
-```bash
-{
-    'nombre': 'Axel', 
-    'email': 'axel@mail.com', 
-    'teléfono': '(123) 456-7890'
-}
-```
 
 Como se muestra en el ejemplo, puedes usar la palabra reservada `del` y luego accedes a la clave del diccionario `persona["peso"]` para eliminarla. Otra forma en la puedes eliminar una clave-valor de un diccionario es haciendo uso método `pop()`, este método recibe como parámetro el nombre de la clave, elimina esa clave-valor del diccionario y retorna el valor que eliminó que en el ejemplo se guarda en la variable `edad`.
 
@@ -170,7 +137,7 @@ Como se muestra en el ejemplo, puedes usar la palabra reservada `del` y luego ac
 
 Para recorrer un diccionario puedes hacerlo de muchas maneras, en el siguiente ejemplo veremos un caso sencillo haciendo uso de la estructura de bucle `for`:
 
-```py
+```py runable=true
 persona = {
     "nombre": "Axel",
     "edad": 32,
@@ -182,14 +149,6 @@ persona = {
 for clave in persona:
     valor = persona[clave]
     print(f"Clave: '{clave}', valor: '{valor}'")
-```
-> output: 
-```bash
-Clave: 'nombre',  valor: 'Axel'
-Clave: 'edad',  valor: '32'
-Clave: 'email',  valor: 'axel@mail.com'
-Clave: 'teléfono',  valor: '(123) 456-7890'
-Clave: 'peso',  valor: '80'
 ```
 
 Como vemos en este ejemplo, recorrer un diccionario es muy sencillo puedes hacerlo con un bucle `for` y unas pocas líneas de código. En este ejemplo recorremos el diccionario y mostramos en la consola el nombre de la clave y el valor del esa clave en cada iteración.

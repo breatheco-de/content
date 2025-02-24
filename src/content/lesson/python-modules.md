@@ -61,7 +61,7 @@ This imports the module [math](https://docs.python.org/es/3/library/math.html), 
 
 Examples:
 
-```py
+```py runable=true
 import math
 
 # Rounds a number
@@ -93,7 +93,7 @@ Modules in Python usually offer a variety of functions and variables that you ca
 
 [random](https://docs.python.org/es/3/library/random.html) module allows you to generate random numbers. You can use the function`random()`  to obtain a random number between 0 and 1, and you can also use the function `uniform()` to obtain a random number between an initial value and a final value. Examples:
 
-```py
+```py runable=true
 import random
 
 # Random floating number between 0 and 1
@@ -117,7 +117,7 @@ print(random_number_two) # output: 7.795423441460806
 
 [datetime](https://docs.python.org/es/3/library/datetime.html) module allows us to work with dates and times, this module provides us with different methods to work with and modify them.
 
-```py
+```py runable=true
 import datetime
 
 current_date_time = datetime.datetime.now()
@@ -136,9 +136,9 @@ As you can see in the examples, the method `now()` returns the current date and 
 
 [os](https://docs.python.org/es/3/library/os.html) (Operating System) module provides you with functions to interact with the operating system. You can get information about the current directory, create folders, delete files, and much more.
 
-```py
+```py runable=true
 import os
-
+ 
 # Get the path of the current directory
 current_path = os.getcwd()
 print(current_path) # output: your current path, example: C:\Users\57320\OneDrive\etc...
