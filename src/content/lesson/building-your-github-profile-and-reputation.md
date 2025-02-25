@@ -4,8 +4,7 @@ authors:
   - alesanchezr
 tags:
   - github
-  - job hunting
-  - resume building
+  - git
 thumb: https://i.imgur.com/F03qoZF.png
 description: >-
   Master your GitHub profile and reputation! Learn essential tips to showcase
