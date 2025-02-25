@@ -2,6 +2,7 @@
 title: Learn in Public
 tags:
   - learn-in-public
+  - networking
 canonical: ''
 description: >-
   Discover how learning in public can enhance your coding skills and career.
