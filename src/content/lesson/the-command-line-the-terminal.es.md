@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-> ☝ Los usuarios de Windows no tienen la misma línea de comando, pero igual deberías aprenderlos, ya que son muy utilizados en los servidores cuando publiques tu página y también en Gitpod, Codespaces, Cloud9, etc. Puedes utilizar [Git SCM](https://git-scm.com/downloads) para probar los comandos.
+> ☝ Los usuarios de Windows no tienen la misma línea de comando, pero igual deberías aprenderlo, ya que son muy utilizados en los servidores cuando publiques tu página y también en Gitpod, Codespaces, Cloud9, etc. Puedes utilizar [Git SCM](https://git-scm.com/downloads) para probar los comandos.
 
 ## ¿Por qué los desarrolladores aman la línea de comando?
 
