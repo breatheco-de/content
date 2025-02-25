@@ -4,10 +4,9 @@ authors:
   - alesanchezr
 tags:
   - github
+  - git
 description: >-
-  Master your GitHub profile and reputation! Learn essential tips to showcase
-  your skills and attract recruiters. Start building your developer portfolio
-  today!
+  ¡Domina tu perfil y reputación en GitHub! Aprende consejos esenciales para mostrar tus habilidades y atraer reclutadores. ¡Empieza a construir tu portafolio de desarrollador hoy!
 ---
 ## Introducción a GitHub (si ya lo conoces, lee la siguiente sección)
 
