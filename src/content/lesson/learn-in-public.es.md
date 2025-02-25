@@ -2,6 +2,7 @@
 title: Aprende en público
 tags:
   - learn in public
+  - networking
 canonical: ''
 description: >-
   Aprende a programar eficazmente compartiendo tu proceso en público. ¡Descubre
