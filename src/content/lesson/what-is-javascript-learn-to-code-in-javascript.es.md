@@ -308,7 +308,7 @@ bloque de código a ejecutarse<br>
 ```js runable=true
 const perro = {
   razas: "Gran Danés",
-  tamaño: "Extra grande",
+  dimension: "Extra grande",
   edad: 3,
   nombre: "Rocky"
 
