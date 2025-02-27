@@ -2,6 +2,8 @@
 title: Coding tutorials with LearnPack
 tags:
   - learnpack
+  - javascript
+  - git
 description: >-
   Discover LearnPack for interactive coding tutorials! Master coding skills with
   auto-graded exercises and instant feedback. Start learning today!
