@@ -1,6 +1,6 @@
 ---
 title: "How to install NVM on Windows"
-subtitle: "Learn how to install Node Version Manager (NVM) on Windows to manage multiple Node.js versions efficiently."
+subtitle: "Learn how to install NVM on Windows effortlessly! Switch between Node.js versions with ease. Master your development environment today!"
 tags: ["windows","nvm", "node"]
 textColor: "white"
 date: "2020-10-19T16:36:30+00:00"
