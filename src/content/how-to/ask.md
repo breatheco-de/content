@@ -1,6 +1,6 @@
 ---
 title: "How to ask programming questions in just 5 steps"
-subtitle: "Ask the right question, and you'll get the right answer!"
+subtitle: "Master the art of asking programming questions! Learn effective strategies to get quick answers and enhance your coding skills. Discover more now!"
 tags: ["feedback","tutoring","support"]
 textColor: "white"
 thumb: "https://i.imgur.com/33AP1Yd.png"
