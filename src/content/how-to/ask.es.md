@@ -1,6 +1,6 @@
 ---
 title: "¿Cómo hacer preguntas de programación?"
-subtitle: "La pregunta correcta, te llevará a la respuesta correcta."
+subtitle: "Domina el arte de hacer preguntas sobre programación Aprende estrategias eficaces para obtener respuestas rápidas y mejorar tus habilidades de programación. ¡Descubre más ahora!"
 tags: ["feedback","tutoring","support"]
 textColor: "white"
 date: "2020-10-19T16:36:30+00:00"
