@@ -1,6 +1,6 @@
 ---
 title: "Cómo instalar NVM on Windows"
-subtitle: "En este documento encontrarás una guía para instalar nvm y node.js en Windows"
+subtitle: "¡Aprende a instalar NVM en Windows sin esfuerzo! Cambia entre versiones de Node.js con facilidad. ¡Domine su entorno de desarrollo hoy mismo!"
 tags: ["windows","nvm", "node", "javascript"]
 textColor: "white"
 date: "2020-10-19T12:36:30-04:00"
