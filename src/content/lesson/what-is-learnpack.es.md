@@ -2,6 +2,8 @@
 title: Tutoriales de programación con LearnPack
 tags:
   - learnpack
+  - javascript
+  - git
 description: >-
   Descubre cómo LearnPack transforma el aprendizaje de programación con
   tutoriales interactivos. ¡Empieza a practicar y mejora tus habilidades hoy!
