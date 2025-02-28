@@ -1,6 +1,6 @@
 ---
 title: "How to install NVM on a Mac OS (node.js and npm)"
-subtitle: "Non-official guide to install NVM on Mac OS (tested) using brew"
+subtitle: "Learn how to install NVM on a Mac easily using Brew! Switch between Node.js versions effortlessly. Master your development setup today!"
 tags: ["node","npm","osx", "nvm"]
 authors: ["alesanchezr"]
 
