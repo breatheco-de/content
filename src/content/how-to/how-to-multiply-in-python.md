@@ -1,7 +1,7 @@
 ---
 title: "How to multiply in python"
-subtitle: "The easiest way to multiply in python is by using the asterisk symbol like this: 3 * 2"
-tags: ["python"]
+subtitle: "Learn how to multiply in Python using various methods, from the simple asterisk operator to advanced libraries like NumPy. Master your coding skills today!"
+tags: ["python", "numpy"]
 date: "2020-10-19T16:36:30+00:00"
 authors: ['Javier Seiglie']
 status: "draft"
