@@ -61,7 +61,7 @@ Un **commit object** contiene tres cosas:
  
 ![cómo usar git](https://github.com/breatheco-de/content/blob/master/src/assets/images/commit-object2.png?raw=true)
 
-Los commit object padre son aquellos commits que vinieron primero. Generalmente un commit object tendrá un commit padre. En general, uno toma un proyecto en un estado determinado (commit), realiza algunos cambios y guarda el nuevo estado (commit) del proyecto.
+Los commit object padre son aquellos commits que se hicieron primero. Generalmente un commit object tendrá un commit padre. En general, uno toma un proyecto en un estado determinado (commit), realiza algunos cambios y guarda el nuevo estado (commit) del proyecto.
 
 Al principio, un proyecto siempre tiene un commit object sin padre. Este es el primer commit que se realiza en el repositorio del proyecto.
 
