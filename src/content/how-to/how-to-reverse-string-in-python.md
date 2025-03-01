@@ -1,7 +1,7 @@
 ---
 title: "How to reverse string in Python?"
-subtitle: "Learn how to reverse a string in Python using different approaches and code examples."
-tags: ["python"]
+subtitle: "Learn how to reverse a string in Python using various methods! Discover simple code examples and enhance your programming skills today!"
+tags: ["python", "git"]
 authors: [tommygonzaleza]
 
 ---
