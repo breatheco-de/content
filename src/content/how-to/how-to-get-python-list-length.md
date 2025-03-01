@@ -1,6 +1,6 @@
 ---
 title: "How to Get the Length of a List in Python?"
-subtitle: "Master the simple techniques to determine the length of a list in Python. Perfect for beginners!"
+subtitle: "Learn how to get the length of a list in Python using the `len()` function and other methods. Master this essential skill today!"
 tags: ["python", "list"]
 authors: ["tommygonzaleza"]
 
