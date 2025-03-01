@@ -1,7 +1,7 @@
 ---
 title: "¿Cómo invertir una cadena en Python?"
-subtitle: "Aprende cómo invertir una cadena en Python utilizando diferentes métodos y ejemplos de código."
-tags: ["python"]
+subtitle: "Aprende a invertir una cadena en Python utilizando varios métodos. ¡Descubre sencillos ejemplos de código y mejora tus habilidades de programación hoy mismo!"
+tags: ["python", "git"]
 authors: [tommygonzaleza]
 
 ---
