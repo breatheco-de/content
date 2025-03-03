@@ -1,3 +1,8 @@
+---
+description: "Discover GitHub, the ultimate platform for code collaboration and project management. Learn how to build your profile and connect with the tech community!" 
+technologies: ["github", "git"]
+---
+
 # Welcome to GitHub
 
 This lesson will define GitHub.com, explain it, and review its essential features. Hopefully, by the end of the article, you will be as excited as we are about GitHub.
