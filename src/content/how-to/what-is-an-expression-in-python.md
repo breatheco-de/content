@@ -1,7 +1,7 @@
 ---
 title: "What is an expression in Python?"
 subtitle: "Discover what expressions are in Python and how they play a crucial role in coding. Learn about their syntax, types, and practical examples to enhance your Python programming skills."
-tags: ["python"]
+tags: ["python", "numpy", "data-science"]
 authors: ["DF27ARTS"]
 
 ---
