@@ -1,7 +1,7 @@
 ---
 title: "¿Cómo crear un snapshot de tu workspace en Gitpod?"
-subtitle: "Gitpod te permite crear 'snapshots' que son copias de tu código y configuración de tu workspace en solo unos clicks."
-tags: ["gitpod"]
+subtitle: "Aprende a crear 'snapshots' en Gitpod para compartir fácilmente tu proyecto de programación y la configuración de tu espacio de trabajo. ¡Domina esta función en tan solo unos clics!"
+tags: ["gitpod", "git"]
 authors: []
 
 ---
