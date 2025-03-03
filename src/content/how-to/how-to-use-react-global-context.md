@@ -2,7 +2,7 @@
 title: "How to use React Global Context?"
 subtitle: "Learn how to harness React Global Context to streamline state management in your applications. Master the power of global state for efficient data sharing."
 date: "2020-10-19T16:36:31+00:00"
-tags: ["reactjs"]
+tags: ["reactjs", "javascript", "front-end"]
 
 ---
 
