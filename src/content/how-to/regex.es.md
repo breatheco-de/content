@@ -1,7 +1,7 @@
 ---
 title: "Ejemplos Expresiones Regulares"
 subtitle: "Explora Ejemplos de Expresiones Regulares y aprende cómo utilizarlas para buscar patrones y manipular cadenas de texto de manera efectiva."
-tags: ["expresiones regulares"]
+tags: ["expresiones regulares", "javascrip"]
 authors: ["yamilmelian"]
 
 ---
