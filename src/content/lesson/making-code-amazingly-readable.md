@@ -2,6 +2,7 @@
 title: What is code readability and how to improve it
 tags:
   - coding guidelines
+  - git
 description: >-
   Discover the importance of code readability and learn essential tips to
   improve it. Master clean coding practices for better maintainability and fewer
