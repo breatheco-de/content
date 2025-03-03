@@ -2,6 +2,7 @@
 title: Introduction to Start Coding Using Javascript
 tags:
   - javascript
+  - front-end
 authors:
   - tomasgonzaleza
 description: >-
