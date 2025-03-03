@@ -2,7 +2,7 @@
 title: "Introduction to Python Programming: A Beginner's Guide?"
 subtitle: "Learn the basics of Python programming with our beginner's guide. Discover how to write Python code, data structures, loops and more."
 authors: ["javierseiglie"]
-tags: ["Python"]
+tags: ["Python", "machine-learning", "data-science"]
 
 ---
 
