@@ -2,6 +2,7 @@
 title: Introducción para Comenzar a Programar Usando Javascript
 tags:
   - javascript
+  - front-end
 authors:
   - tomasgonzaleza
 description: >-
