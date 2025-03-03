@@ -1,7 +1,7 @@
 ---
 title: "¿Qué se puede hacer con Python?"
 subtitle: "Explorando las diversas aplicaciones y usos de Python en diferentes campos. Descubre el potencial y la versatilidad de este lenguaje de programación."
-tags: ["Python"]
+tags: ["Python", "flask", "pandas"]
 authors: ["DF27ARTS"]
 
 ---
