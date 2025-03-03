@@ -1,7 +1,7 @@
 ---
 title: "What is float in python?"
 subtitle: "A float type variable is used to store real numbers with fractions (or floating point numbers). The float() method returns a float number from any received integer, numeric string or even a boolean!"
-tags: ["python"]
+tags: ["python"","data-science", "machine-learning"]
 authors: ["javierseiglie"]
 status: "draft"
 
