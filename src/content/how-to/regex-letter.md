@@ -1,7 +1,7 @@
 ---
 title: "How to match letters with Regular Expressions?"
 subtitle: "Learn how to construct regular expressions to match letters in text. Explore Regex to effectively search for letter-based patterns in your data."
-tags: ["regular-expressions"]
+tags: ["regular-expressions", "javascript", "python"]
 authors: ["DF27ARTS"]
 
 ---
