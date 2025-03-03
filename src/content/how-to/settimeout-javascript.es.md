@@ -1,7 +1,7 @@
 ---
 title: "¿Cómo utilizar el método setTimeout en JavaScript?"
 subtitle: "Descubre cómo usar el método setTimeout en JavaScript para ejecutar funciones después de un período de tiempo. Aprende a controlar el retraso en tus aplicaciones web."
-tags: ["javascript"]
+tags: ["javascript", "html-css", "front-end"]
 authors: []
 
 ---
