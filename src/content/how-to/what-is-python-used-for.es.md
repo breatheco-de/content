@@ -1,7 +1,7 @@
 ---
 title: "¿Para qué sirve Python?"
 subtitle: "Descubre para qué sirve Python y cómo este lenguaje de programación es utilizado en la inteligencia artificial, análisis de datos, desarrollo web, y más."
-tags: ["python"]
+tags: ["python", "back-end", "data-science"]
 authors: ["javierseiglie"]
 
 ---
