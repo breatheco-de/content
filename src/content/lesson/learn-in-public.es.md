@@ -45,6 +45,7 @@ Realmente lo dudo. Aprender a programar es difícil y la gente lee mucho sobre e
 
 ### No soy un experto: 
 Nadie lo es. Llevo 20 años programando y sigo pensando que no soy un experto. Al mostrar tu perspectiva sobre los temas que acabas de aprender, estás ayudando a otros aficionados en su camino.
+muchas veces el solo hecho de escuchar la palabra Programacion asusta mucho y en mi caso me genero un bloqueo mental porque creia que debia tener muchos titulos academicos y un coeficiente intelectual muy alto para entender estos temas y saber programar. (storyTime JCarrera)
 
 ### No tengo tiempo: 
 ¡No lo hagas todo! Puedes elegir una o dos cosas que te gusten. Incluso si estás aprendiendo en privado, tienes que tomar notas, terminar los proyectos de programación y los desafíos. ¿Por qué no darte un poco de tiempo extra para publicarlos? Creo que vale la pena el 100% de tu tiempo.
