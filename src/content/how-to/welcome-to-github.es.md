@@ -1,3 +1,8 @@
+---
+description: "Descubre GitHub, la plataforma definitiva para la colaboración en código y la gestión de proyectos. Aprende a crear tu perfil y a conectar con la comunidad tecnológica." 
+technologies: ["github", "git"]
+---
+
 # ¡Bienvenido a GitHub!
 
 Esta lección definirá GitHub.com, lo explicará y revisará sus características esenciales. Con suerte, al final del artículo, estarás tan emocionado como nosotros con GitHub.
