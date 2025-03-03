@@ -1,7 +1,7 @@
 ---
 title: "What does a double equal sign mean in Python?"
 subtitle: "Learn the meaning of the double equal sign in Python. Explore how it works for equality comparison and make your code more powerful."
-tags: ["python"]
+tags: ["python", "conditions"]
 
 ---
 
