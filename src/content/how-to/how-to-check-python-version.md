@@ -1,7 +1,7 @@
 ---
 title: "How to check python version?"
 subtitle: "Get the latest version of Python with this easy guide! Learn how to check your current version and upgrade to the newest version with just a few clicks. #Python #VersionCheck #Upgrade"
-tags: ["python"]
+tags: ["python", "the command line"]
 
 ---
 
