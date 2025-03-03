@@ -1,7 +1,7 @@
 ---
 title: "¿Cómo programar en Python?"
-subtitle: "Aprende los fundamentos de la programación en Python con esta guía paso a paso."
-tags: ["python"]
+subtitle: "Aprende a programar en Python con nuestra guía paso a paso. Descubre los fundamentos y comienza tu carrera en tecnología. ¡Inicia hoy!"
+tags: ["python", "machine-learning", "data-science"]
 authors: ["tommygonzaleza"]
 
 ---
