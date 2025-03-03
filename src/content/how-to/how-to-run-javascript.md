@@ -1,7 +1,7 @@
 ---
 title: "How to run javascript"
-subtitle: "The most common way to run javascript, would be running the file from the terminal using: node filename.js"
-tags: ["javascript"]
+subtitle: "Learn how to run JavaScript effortlessly using Node.js, browser consoles, or IDEs. Master your coding skills today—click to discover more!"
+tags: ["javascript", "node", "git"]
 date: "2020-10-19T16:36:30+00:00"
 authors: ["Javier Seiglie"]
 status: "draft"
