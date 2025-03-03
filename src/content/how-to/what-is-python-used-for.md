@@ -1,7 +1,7 @@
 ---
 title: "What is Python used for?"
 subtitle: "Discover what Python is used for and how this programming language is used in artificial intelligence, data analysis, web development, and more."
-tags: ["python"]
+tags: ["python", "back-end", "data-science"]
 authors: ["javierseiglie"]
 
 ---
