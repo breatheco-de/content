@@ -1,7 +1,7 @@
 ---
 title: "Python list extend method"
-subtitle: "A simple way to add elements to a list would be using the Python .extend() method"
-tags: ["python","list","extend"]
+subtitle: "Learn how to efficiently use the Python list extend method to add elements seamlessly. Master this essential skill and enhance your coding projects today!"
+tags: ["python","list","extend", "git"]
 date: "2020-10-19T16:36:30+00:00"
 authors: []
 status: "draft"
