@@ -1,7 +1,7 @@
 ---
 title: "How to create a snapshot in Gitpod"
-subtitle: "Gitpod snapshots allow your to share your coding project (and workspace configuration) in just a couple of clicks"
-tags: ["gitpod"]
+subtitle: "Learn how to create a snapshot in Gitpod to easily share your coding project and workspace configuration. Master this feature in just a few clicks!"
+tags: ["gitpod", "git"]
 authors: []
 
 ---
