@@ -2,6 +2,9 @@
 title: The Snake Case Variable Naming Convention
 tags:
   - coding guidelines
+  - python
+  - php
+  - javascript
 description: >-
   Learn the Snake Case variable naming convention for better readability in
   programming. Discover essential rules and best practices now!
