@@ -2,6 +2,9 @@
 title: Variable Naming Conventions
 tags:
   - coding standard guidelines
+  - javascript
+  - node
+  - python
 description: >-
   Master variable naming conventions to boost code readability! Learn essential
   tips on camelCase, snake_case, and more for better coding practices.
