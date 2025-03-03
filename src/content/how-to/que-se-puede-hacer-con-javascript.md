@@ -1,7 +1,7 @@
 ---
 title: "¿Qué se puede hacer con JavaScript?"
 subtitle: "Descubre las infinitas posibilidades y aplicaciones que se pueden desarrollar con JavaScript. Explora casos de uso comunes y ejemplos prácticos para inspirarte en tu camino de programación."
-tags: ["JavaScript"]
+tags: ["JavaScript", "express", "reactjs"]
 authors: [DF27ARTS]
 
 ---
