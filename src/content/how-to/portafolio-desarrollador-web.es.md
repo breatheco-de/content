@@ -3,6 +3,7 @@ author: "castilloabraham"
 excerpt: "En el desarrollo web es de importe tener un portafolio en línea que te ayude a destacar entre el resto de candidatos a una misma posicion, en este artículo te enseñamos como crear uno."
 template: "post"
 title: "Impulsa tu marca personal como desarrollador con tu portafolio web"
+"technologies": ["React.js", "flask", "HTML and CSS"]
 
 ---
 
