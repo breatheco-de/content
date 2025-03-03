@@ -1,7 +1,7 @@
 ---
 title: "How to comment multiple lines in Python"
 subtitle: "In Python, the # symbol is used for commenting a single line of code. It´s possible to use this character to comment multiple lines, but you'll need to put one by one. If we want to comment multiple lines in a more simple way, then we use the 'docstring' method."
-tags: ["python"]
+tags: ["python", "git"]
 
 ---
 
