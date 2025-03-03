@@ -1,7 +1,7 @@
 ---
 title: ¿Qué es la legibilidad del código y cómo mejorarla?
 tags:
-  - coding guidelines
+  - directrices de programación
   - python
 description: >-
   Descubre qué es la legibilidad del código y cómo mejorarla. Aprende consejos
