@@ -9,7 +9,9 @@ description: >-
   Master the art of crafting an incredible resume! Learn essential tips to
   enhance your CV and land interviews in the tech industry. Discover more!
 ---
-![Image Resume](https://breathecode.herokuapp.com/v1/media/file/resume-png)
+| Versión americana | Versión europea |
+|:-:|:-:|
+| ![American Resume](https://breathecode.herokuapp.com/v1/media/file/resume-png) | ![European Resume](https://breathecode.herokuapp.com/v1/media/file/european-cv-example-png) |
 
 ## Experiencia laboral
 
