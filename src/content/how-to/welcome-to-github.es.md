@@ -9,13 +9,13 @@ Esta lección definirá GitHub.com, lo explicará y revisará sus característic
 
 ## ¿Qué es GitHub?
 
-GitHub.com es el epicentro de tu viaje como desarrollador, cientifico de datos o especialista en ciberseguridad; interactuarás con GitHub tanto que ni siquiera podemos enumerar todas las cosas que puedes hacer; aquí hay algunos ejemplos:
+GitHub.com es el epicentro de tu viaje como desarrollador, científico de datos o especialista en ciberseguridad; interactuarás con GitHub tanto que ni siquiera podemos enumerar todas las cosas que puedes hacer; aquí hay algunos ejemplos:
 
 - GitHub es donde guardas tus proyectos y archivos todas las noches: como un disco duro.
 - Es tu portafolio profesional: como un currículum u hoja de vida.
-- Es la tecnología necesaria para colaborar con tus collegas.
+- Es la tecnología necesaria para colaborar con tus colegas.
 - Tu perfil de GitHub es revisado por reclutadores al considerar contratarte.
-- También puedes conocer a otros especialistas y proyectos o bibliotecas interesantes: Similar a LinkedIn pero mas técnico.
+- También puedes conocer a otros especialistas y proyectos o bibliotecas interesantes: Similar a LinkedIn pero más técnico.
 
 > GitHub es `LinkedIn + Google Drive` pero para tech.
 
@@ -35,7 +35,7 @@ En esta imagen, encontrarás las partes esenciales de tu perfil.
 
 El propósito original de GitHub (antes de convertirse en una red social y muchas otras cosas) era ser un sitio web donde los desarrolladores pudieran cargar su código y acceder a él en cualquier momento.
 
-> Un repositorio es solo una carpeta con los archivos de tu proyecto dentro (imagenes, codigo, datos, etc.). Por ejemplo, este repositorio contiene [todo el código para la biblioteca React.js](https://github.com/facebook/react) y este otro repositorio contiene [todo el codigo de Pandas](https://github.com/pandas-dev/pandas), una de las librerias mas usadas del mundo de los datos.
+> Un repositorio es solo una carpeta con los archivos de tu proyecto dentro (imágenes, código, datos, etc.). Por ejemplo, este repositorio contiene [todo el código para la biblioteca React.js](https://github.com/facebook/react) y este otro repositorio contiene [todo el codigo de Pandas](https://github.com/pandas-dev/pandas), una de las librerías mas usadas del mundo de los datos.
 
 ![Un repositorio típico de GitHub](https://raw.githubusercontent.com/breatheco-de/knowledge-base/main/images/breatheco-de-exercise-postcard-The-ideal-first-project-for-anyone-interested-in-practicing-HTML-CSS-with-a-real-life-example-.png)
 
@@ -59,7 +59,7 @@ Te recomendamos marcar la mayoría de los repositorios de la academia, ya que lo
 - [Todos los tutoriales interactivos](https://github.com/4GeeksAcademy/Interactive-Tutorials).
 - [Todas las plantillas y boilerplates](https://github.com/4GeeksAcademy/Templates-Boilerplates).
 
-### Encontrar el proyectos de otras personas
+### Encontrar proyectos de otras personas
 
 El código abierto se ha convertido en uno de los principales motores del mundo de hoy; GitHub tiene formas de encontrar los excepcionales repositorios de otras personas:
 
