@@ -63,7 +63,7 @@ export default function counterReducer(state, action = {}) {
       return { ...state, counter: state.counter - 1 };
     case "PLUSTEN":
       return { ...state, counter: state.counter + 10 };
-    case "MULTYPLYBYTWO":
+    case "MULTIPLYBYTWO":
       return { ...state, counter: state.counter * 2 };
     case "RESET":
       return { ...state, counter: 0 };
