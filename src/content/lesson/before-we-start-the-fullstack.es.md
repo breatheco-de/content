@@ -13,7 +13,7 @@ Para aprovechar mejor el próximo curso, te alentamos a que termines y repases c
 El material pendiente asume que tienes un buen nivel de comprensión de los siguientes temas:
 
 ## Cosas que debes saber sobre HTML/CSS
-
+<!--Creo que esto deberia estar ordenado en tablas-->
 - ¿Qué es HTML y para qué sirve?
 - Los tags más esenciales como encabezados (`<h1>, <h2>, <h3>`...), párrafos (`<p>`), listas ordenadas/no ordenadas (`<ol>, <ul>`), etc. Piensa en cómo cada uno de estos tags cambia la apariencia, sensación y el comportamiento de tu sitio web. Por ejemplo, ¿qué parece más grande `<h1>` o `<h2>`? ¿Por qué usar `<ul>` en lugar de `<ol>`? Etc.
 - Cómo incluir una hoja de estilo CSS separada en el sitio web usando el tag `<link>`.
