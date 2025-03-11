@@ -33,6 +33,7 @@ function multiply(a, b) {
 + **Debe tener un nombre único.** En este caso particular, nuestra función se llama "multiply", que es un gran nombre porque sabes exactamente de qué se trata la función, es explícito.
 + **Debe devolver algo.** De forma predeterminada, en javascript, todas las funciones devuelven "undefined", pero debes reemplazarlo y siempre devolver algo útil. En este ejemplo, queremos devolver el resultado de una multiplicación de a & b.
 + **Las funciones pueden tener parámetros.** Un "parámetro" es una variable que la función puede recibir al principio de su código (como a & b en nuestro ejemplo).
+<!--Por el tipo de fuente pareciera que el texto está todo muy junto respecto a signos de puntuación como comas (,) y puntos seguidos (.)-->
 
 La idea es tener una librería con cientos de funciones y usarlas como nos plazca, declaras todas tus funciones y luego las puedes usar y reutilizar todo el tiempo.
 
