@@ -1,5 +1,5 @@
 ---
-title: Learn in Public
+title: Learning in Public
 tags:
   - learn-in-public
   - networking
