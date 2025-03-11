@@ -28,7 +28,7 @@ Vamos a cambiar la forma en que te has acostumbrado a aprender, la forma en que 
 
 Durante los años que han pasado hemos identificado razones específicas por las cuales los estudiantes se frustran y dejan de intentar ser desarrolladores o no completan el curso y no consiguen trabajo.
 
-#### Pared #1: Autoestima ❓ (Síndrome del impostor)
+#### Pared #1: Autoestima ❓ (Síndrome del Impostor)
 
 ![Síndrome del Impostor](https://github.com/breatheco-de/content/blob/master/src/assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png?raw=true)
 
