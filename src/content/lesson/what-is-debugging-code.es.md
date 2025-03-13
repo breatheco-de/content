@@ -20,7 +20,7 @@ Estos errores pueden ser muy simples, como escribir mal una línea de código, o
 
 A lo largo de los años, he desarrollado una receta de depuración muy efectiva que compartiré a continuación. Me lleva solo unos segundos encontrar y solucionar el 90% de mis errores y fallos, sin dejar lugar para la improvisación o el tiro al aire.
 
-<quote>Depurar es el doble de difícil que escribir el código en primer lugar. Por lo tanto, si escribes el código de la manera más inteligente posible, por definición, no eres lo suficientemente inteligente como para depurarlo.</quote> - Brian Kernighan
+<quote> "Depurar es el doble de difícil que escribir el código en primer lugar. Por lo tanto, si escribes el código de la manera más inteligente posible, por definición, no eres lo suficientemente inteligente como para depurarlo." </quote> - Brian Kernighan
 
 ## ¿Quién debería leer esta guía?
 
