@@ -19,6 +19,8 @@ Como siempre, comparemos nuestro sitio web con un documento de MS Word... En alg
 
 Los elementos que el usuario completa en un formulario se denominan `<input>` y siempre tienen que estar envueltos dentro de una etiqueta `<form>`. También puedes utilizar todas las demás etiquetas HTML que aprendimos en las lecciones anteriores sin ningún problema.
 
+Los formularios son esenciales en la mayoría de los sitios web, ya que permiten la interacción del usuario. Desde el simple inicio de sesión en una red social hasta el proceso de pago en una tienda en línea, los formularios son la base para recopilar información y enviarla a un servidor.
+A lo largo de esta lección, exploraremos las diferentes opciones que nos ofrece HTML para construir formularios efectivos y fáciles de usar.
 Aquí hay un ejemplo de un formulario simple en HTML:
 
 <iframe width="100%" height="300" src="//jsfiddle.net/BreatheCode/L62c4yud/1/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
