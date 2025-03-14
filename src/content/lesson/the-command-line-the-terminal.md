@@ -193,3 +193,4 @@ At the bottom, you will see the most often used commands in nano such as: exit, 
 ![Nano editor](https://github.com/breatheco-de/content/blob/master/src/assets/images/6128e9f7-b460-4b10-80e4-34057b7d4df9.png?raw=true)
 
 > ☝ This website has a ton of great mini-challenges to help you practice the command line: https://cmdchallenge.com/
+> ☝ These are other useful websites you can checkout that will help you practice the command line: https://cheatography.com/davechild/cheat-sheets/linux-command-line/ , https://github.com/RehanSaeed/Bash-Cheat-Sheet
