@@ -261,3 +261,9 @@ Bootstrap has many versions, always check if you are using the latest version of
 We recommend using a CDN to import bootstrap in your HTML like this one: [https://www.bootstrapcdn.com/](https://www.bootstrapcdn.com/)
 
 If you are migrating your project to a newer Bootstrap version remember to check its documentation.
+
+Additional considerations:
+
++ While the tutorial introduces the grid system with rows and columns, it's crucial to deeply understand how the 12-column grid works and how breakpoints (sm, md, lg, xl) affect layout responsiveness. Don't just copy and paste code; experiment with different column combinations and screen sizes to see how they behave.
++ The tutorial briefly mentions utility classes, but these are incredibly powerful for rapid styling and layout adjustments. Spend time exploring the Bootstrap documentation for utility classes related to spacing, typography, colors, and borders.
++ When working with Bootstrap, use your browser's developer tools (usually opened by pressing F12) to inspect elements, view styles, and test responsiveness. This will help you understand how Bootstrap's classes are applied and how they affect the layout.
