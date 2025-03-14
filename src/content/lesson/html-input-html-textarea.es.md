@@ -78,8 +78,7 @@ Los dos atributos más importantes que deben establecerse en la etiqueta `<form>
 
 **Method**: Puede ser "POST" o "GET". Las principales diferencias son:
 
-+ Cómo se enviarán los datos recopilados a la página de destino una vez que lleguemos allí.
-+ Cómo se envían los datos del formulario al servidor.
+## Prueba
 
 |GET   |POST  |
 |:----------------------|:-----------------------|
