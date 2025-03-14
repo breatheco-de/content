@@ -144,7 +144,7 @@ The store is the central point of our application, so we must ensure that its in
 
 ## Test the code live
 
-<iframe src="https://codesandbox.io/embed/3jql6k?view=editor+%2B+preview&module=%2Fsrc%2FApp.tsx"
+<iframe src="https://codesandbox.io/embed/3jql6k?view=editor+%2B+preview&module=%2Fsrc%2Fcomponents%2FTodoList.jsx"
      style="width:100%; height: 500px; border:0; border-radius: 4px; overflow:hidden;"
      title="api-context-demo"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
