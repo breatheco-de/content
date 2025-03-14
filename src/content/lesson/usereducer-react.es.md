@@ -94,7 +94,7 @@ Con `useState`, un contador con varias acciones se vería como el siguiente ejem
 
 ![react counter using state](https://breathecode.herokuapp.com/v1/media/file/state-counter-png?width=200)
 
-```react
+```javascript
 export default function CounterUsingState() {
   const [counter, setCounter] = useState(0);
 
@@ -116,7 +116,7 @@ export default function CounterUsingState() {
 
 Con useReducer, podemos trasladar la lógica a un archivo separado:
 
-```react
+```javascript
 // contadorReductor.js
 export const initialCounter = () => ({ contador: 0 });
 
@@ -140,7 +140,7 @@ export default function counterReducer(state, action) {
 
 Y ahora en el componente usamos `useReducer`:
 
-```react
+```javascript
 import React, { useReducer } from "react";
 import counterReducer, { initialCounter } from "./counterReducer";
 
