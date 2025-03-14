@@ -142,13 +142,13 @@ export default TodoList;
 El store es el punto central de nuestra aplicación, por lo que debemos asegurarnos de que su información no se modifique directamente. En su lugar, usamos el dispatch para ejecutar acciones que actualicen el estado.
 
 
-<!-- ## Prueba el código en vivo
+## Prueba el código en vivo
 
-<iframe src="https://codesandbox.io/embed/w75wq6v01k?view=editor+%2B+preview&module=%2Findex.js&hidenavigation=1"
+<iframe src="https://codesandbox.io/embed/3jql6k?view=editor+%2B+preview&module=%2Fsrc%2FApp.tsx"
      style="width:100%; height: 500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="Example of React&#039;s new context API"
+     title="api-context-demo"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
-   
-<div align="right"><small><a href="https://codesandbox.io/p/sandbox/w75wq6v01k">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div>  -->
+
+<div align="right"><small><a href="https://codesandbox.io/p/sandbox/3jql6k">Haz clic aquí para abrir el demo en una nueva ventana</a></small></div> 
