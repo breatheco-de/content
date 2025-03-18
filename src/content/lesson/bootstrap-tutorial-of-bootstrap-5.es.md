@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-## Bootstrap solucionó todos los problemas principales de CSS
+# Bootstrap solucionó todos los problemas principales de CSS
 
 Hay luz al final del túnel y NO es Chuck Norris sosteniendo una linterna. Finalmente, alguien arregló CSS. Esta es una biblioteca hecha por [Mark Otto](https://twitter.com/mdo) y [Jacob Thornton](https://twitter.com/fat) – gente normal – desarrolladores como tú y yo, ¡y lo hicieron muy bien!
 
