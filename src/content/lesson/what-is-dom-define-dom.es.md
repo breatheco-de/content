@@ -202,12 +202,12 @@ while (element.firstChild) {
 
 ## Cambiando los Atributos
 
-Para cambiar cualquier atributo de cualquier objeto en el DOM, necesitamos usar la propiedad `.attribute` así:
+Para cambiar cualquier atributo de cualquier objeto en el DOM, necesitamos usar la propiedad `.setAttribute` así:
 
 ```javascript
 // Cambiando atributos 
 let element = document.getElementById("myElementId");
-element.attribute = "whatever";
+element.setAttribute("attribute-to-update", "new-value");
 ```
 
 ## Cambiando los Estilos
