@@ -4,6 +4,8 @@ description: >-
   ¡Bienvenid@ al Programa de Desarrollo Front End Avanzado de 4Geeks.com! Aprende a
   programar con recursos interactivos y mentoría. ¡Descubre tu futuro en
   tecnología hoy!
+intro_video_url: "https://youtu.be/NTR8J7oJoH8"
+
 ---
 ¡Bienvenid@ a bordo! 🎉 Estamos encantados de que te unas a nuestro programa de Desarrollo Front End Avanzado. Este viaje está diseñado para dotarte de las habilidades y el conocimiento necesarios para comenzar tu carrera en tecnología. ¿Sin experiencia previa? ¡No hay problema! Estamos aquí para guiarte en cada paso del camino.
 
