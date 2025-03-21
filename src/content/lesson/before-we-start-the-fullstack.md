@@ -19,7 +19,7 @@ The upcoming material assumes that you have a good level of understanding of the
 - How to include a separate CSS stylesheet into your website by using the `<link>` tag.
 - How to override or enhance the way that HTML tags look and behave by using CSS selectors and rules, for example:
   - How can I select an element to update its styles? [By using a selector](https://4geeks.com/lesson/what-is-css-learn-css#wait-what-is-a-selector).
-  - The most simple things like changing text color and manipulating fonts (size, family, etc). 
+  - The simpler things like changing text color and manipulating fonts (size, family, etc). 
   - Changing the element's background color or image. 
 - Fully comprehend the `<div>` tag that inherently behaves as a "box" (which means that it has borders, width, and height) and how to use `<div>` to separate your content visually.
 - How to create the most common website layouts using the `display: flex;` CSS rule.
@@ -31,7 +31,7 @@ The upcoming material assumes that you have a good level of understanding of the
 
 - What is CSS, and what is it used for? Thanks to CSS, we can select specific elements in the HTML and style them with colors, sizes, etc.
 - Why is the use of the `#id` selector discouraged? Because it's too specific, it goes against reusability.
-- When should I use the `#id` selector? Never, we will use `#id`s only when coding in JavaScript.
+- When should I use the `#id` selector? Never. We will use `#id`s only when coding in JavaScript.
 - Why should stylesheets be written from the most generic to the most specific styles? Because you will write way fewer lines of code that way, you also avoid lots of bugs or conflicts between your selectors.
 
 ## Things you should know about programming
