@@ -18,7 +18,7 @@ Right from the start, we want you to roll up your sleeves and dive into coding. 
    - Our [LearnPack](https://4geeks.com/learnpack) engine offers hands-on tutorials that adapt to your progress. It ensures you're learning the right skills at the right time. Make sure to take full advantage of this interactive learning tool, and remember Rigobot will be here to help you as well, so take advantage of it!
 
 3. **Mentoring Sessions**:
-   - You have access to four mentoring sessions included in your program. We would like to encourage you to use them whenever you need personalized guidance. Just to remind you, additional sessions are free, and we are not profiting from this service.
+   - You have access to four mentoring sessions included in your program. We would like to encourage you to use them whenever you need personalized guidance. Additional sessions can be accessed at cost, we are not profiting from this service.
 
 4. **WhatsApp Community**:
    - [Join our WhatsApp community](https://chat.whatsapp.com/CBppI0ulMt8Dx4Fsw9AreG) to connect with expert mentors and fellow learners. It's a great place to seek help, share ideas, and be part of a supportive learning environment.
