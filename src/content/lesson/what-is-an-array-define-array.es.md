@@ -13,7 +13,7 @@ Un array es una estructura de datos de tamaño fijo que almacena una colección 
 
 ## ¿Por qué están los Arrays en una lección separada?
 
-¡Porque los arrays son esenciales! ¡Los necesitas! Y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂
+¡Porque los arrays son esenciales! ¡Los necesitas! Y debemos enfocarnos mucho en ellos para prepararte para la vida real 🙂.
 
 Dominar el uso de los arrays y bucles es una de las 5 habilidades fundamentales para construir algoritmos:
 
