@@ -93,4 +93,4 @@ The most powerful tool for building layouts is flexbox. [Here is a 5 min video o
 Please take some time to master the basic and advanced CSS selectors. Here are some resources:
 
 - Here is an 8 min video on the [basics of CSS Selectors](https://www.youtube.com/watch?v=0Wt1n0wvSe8).
-- Here is a lesson to help you understand all the [advanced selectors](https://4geeks.com/lesson/mastering-css-selectors) that will help you clean your code. Better code.
+- Here is a lesson to help you understand all the [advanced selectors](https://4geeks.com/lesson/mastering-css-selectors) that will help you clean up your code. Cleaner codes = better codes!
