@@ -18,7 +18,7 @@ Si estás interesado en depurar otros lenguajes o tecnologías, aquí está nues
 
 Esta guía trata de solucionar un error, pero vale la pena mencionar cómo prevenir la mayoría de los errores desde el principio:
 + **ABC = Always Be Closing** (siempre cierra) los tags como prioridad. Si abres un tag `<p>`, ¡ciérralo inmediatamente! Así: `<p></p>` y luego procede a llenar el contenido HTML interno.
-+ **Usa un formateador de código** que indente tu código automáticamente. La mayoría de los errores al principio surgen porque tu código es desordenado y desafiante de seguir con tus ojos. Terminas abriendo/cerrando tags en el lugar equivocado.
++ **Usa un formateador de código** que indente tu código automáticamente. La mayoría de los errores al principio surgen porque tu código está desordenado y desafiante de seguir con tus ojos. Terminas abriendo/cerrando tags en el lugar equivocado.
 
 ## Tres herramientas de depuración para HTML
 
