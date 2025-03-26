@@ -18,7 +18,7 @@ Code readability refers to how easily any person can understand the purpose, str
 
 > 🤯 "Code is read much more often than it is written." - Guido van Rossum (creator of Python)
 
-## Low readability costs a lot of money 
+## Low readability in very expensive
 
 Poor code readability can lead to several problems that can cost a company money:
 
