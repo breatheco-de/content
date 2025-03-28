@@ -3,7 +3,7 @@ title: Introduction to 4Geeks Academy
 tags:
   - best practices
   - learn-to-code
-  - imposter syndrome
+  - impostor syndrome
 authors:
   - alesanchezr
 canonical: ''
