@@ -259,7 +259,7 @@ cars.sort(function(a, b) { return a.year - b.year });
 console.log(cars); // --> [ {type: 'Saab', year: 2001}, {type: 'BMW', year: 2010}, {type: 'Volvo', year: 2016} ]
 ```
 
-### reverse
+### Reverse
 
 The `reverse()` function reverses the order of an array, so if you want a reversed sorted array just make sure to use the `sort()` function **before** you reverse the array.
 
