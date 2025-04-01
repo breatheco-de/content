@@ -14,7 +14,7 @@ description: >-
 
 | Término | Definición | Amplitud | Objetivo |
 |:--------|:-----------|:---------|:---------|
-| Inteligencia Artificial (*Artificial Intelligence*) | Es el estudio de cómo hacer que las computadoras piensen y actúen como los humanos. | Es un campo amplio que incluye varios subcampos, como el aprendizaje automático, la robótica, el procesamiento del lenguaje natural, la visión por computadora... | Simular la inteligencia humana en máquinas. |
+| Inteligencia Artificial (*Artificial Intelligence*) | Es el estudio de cómo hacer que las computadoras piensen y actúen como los humanos. | Es un campo amplio que incluye varios subcampos, como el aprendizaje automático, la robótica, el procesamiento del lenguaje natural, la visión por computadora, entre otros. | Simular la inteligencia humana en máquinas. |
 | Aprendizaje automático (*Machine Learning*) | Es un subcampo de la IA que se centra en desarrollar algoritmos y modelos que permitan a las computadoras aprender a partir de datos. | Es una técnica específica dentro de la inteligencia artificial. | Hacer predicciones o decisiones sin ser programadas específicamente para ello. |
 | Ciencia de datos (*Data Science*) | Es un campo interdisciplinario que utiliza técnicas estadísticas, informáticas y de análisis para interpretar, comprender y extraer conocimiento de datos estructurados y no estructurados. | Incluye la adquisición, limpieza, análisis y visualización de datos, y puede hacer uso de la IA y del machine learning para analizarlos. | Descubrir patrones y obtener información valiosa de grandes conjuntos de datos. |
 
