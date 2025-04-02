@@ -1,5 +1,6 @@
 ---
 title: "This is an example error for any student to understand how to fix"
+
 subtitle: "Each documented error must have a way to fix it, that way the student will be able to make progress pretty fast"
 tags: ["animals","alejandro"]
 authors: ["alesanchezr"]
