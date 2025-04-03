@@ -216,7 +216,7 @@ Para resolver el commit, edita los archivos para corregir los cambios en conflic
 
 ## Colaboración GIT
 
-GIT puede funcionar sin necesidad de conectarse a un servidor externo porque todos los archivos git se encuentran dentro de la carpeta .git.
+GIT puede funcionar sin necesidad de conectarse a un servidor externo porque todos los archivos de GIT se encuentran dentro de la carpeta .git.
 
 Sin embargo, esto significa que, para manipular el repositorio, también necesitas tener acceso a los archivos de trabajo. Esto se traduce en que dos desarrolladores de GIT no pueden, de forma predeterminada, compartir un repositorio.
 
