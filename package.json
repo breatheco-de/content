@@ -19,7 +19,7 @@
     "test": "node src/test/test-lessons.js"
   },
   "devDependencies": {
-    "axios": "^0.21.1",
+    "axios": "^1.8.2",
     "colors": "^1.4.0",
     "front-matter": "^3.2.1",
     "mime-types": "^2.1.27",
