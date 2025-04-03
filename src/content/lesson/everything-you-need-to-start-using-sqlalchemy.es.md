@@ -124,7 +124,7 @@ db.session.delete(person)
 db.session.commit()
 ```
 
-### UDPATE: Actualizar un registro
+### UPDATE: Actualizar un registro
 
 Para modificar un registro, hay que seleccionar previamente el mismo de la base de datos, luego puedes trabajar con él cambiando sus propiedades y hacer commit nuevamente, según el siguiente ejemplo:
 
