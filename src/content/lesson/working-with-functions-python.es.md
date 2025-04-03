@@ -14,7 +14,7 @@ Dominar el uso de listas y bucles es una de las 5 habilidades fundamentales para
 
 1. Variables.
 2. Condicionales.
-3. Listas.
+3. Listas..
 4. Bucles.
 5. `Funciones`.
 
