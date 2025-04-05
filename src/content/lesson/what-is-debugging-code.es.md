@@ -1,9 +1,9 @@
 ---
-title: ¿Qué es la depuración y cómo depurar el código?
-tags:
+Title: ¿Qué es la depuración y cómo depurar el código?
+Tags:
   - debugging
   - web development
-description: >-
+Description: >-
   Aprende qué es la depuración y cómo depurar el código de manera eficiente.
   ¡Descubre técnicas que te ahorrarán tiempo y mejorarán tus habilidades de
   programación!
@@ -128,7 +128,7 @@ Si has seguido los pasos anteriores correctamente, sabes a qué parte de tu cód
 + ¿La pestaña de red tiene el código de estado 4xx? Ve y arregla el código que envía la solicitud.
 + ¿La pestaña de red tiene el código de estado 5xx? Ve y lee la terminal del servidor en busca de errores de sintaxis o de base de datos.
 
-### Prueba y error hasta que lo arregles
+### ¡Prueba y error hasta que lo arregles!
 
 Si intentas arreglar el error haciendo cambios en tu código y aparece otro error, ¡eso suele ser buena noticia! Yo llamo a esto depuración anidada.
 
