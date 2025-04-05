@@ -34,7 +34,7 @@ Sé que estás aquí para aprender cómo solucionar errores. Aun así, vale la p
 
 <quote>Si depurar es el proceso de eliminar errores de software, entonces programar debe ser el proceso de ponerlos.</quote>- Edsger Dijkstra
 
-## Cómo depurar código: El marco de depuración
+## ¿Cómo depurar código? El marco de depuración
 
 Los pasos y herramientas de depuración pueden variar significativamente dependiendo del lenguaje de programación (HTML/CSS, JavaScript, Python, etc.), las librerías, las herramientas (Pandas, Flask, Express, Rails, Postgres, etc.) y el mensaje de error u otros patrones y atributos que puedas notar sobre el error.
 
