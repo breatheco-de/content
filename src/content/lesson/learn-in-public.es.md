@@ -8,7 +8,7 @@ description: >-
   Aprende a programar eficazmente compartiendo tu proceso en público. ¡Descubre
   cómo potenciar tu carrera y construir tu red hoy!
 ---
-Si deseas aprender a programar de manera eficiente y rápida, es fundamental que lo hagas en público. Esto no es sólo una teoría, sino un hecho comprobado.  
+Si deseas aprender a programar de manera eficiente y rápida, es fundamental que lo hagas en público. Esto no es solo una teoría, sino un hecho comprobado.  
 
 En este artículo voy a intentar explicarte por qué funciona y cómo puedes hacerlo.
 
