@@ -44,13 +44,13 @@ Esto puede suceder por varias razones:
 - Escribiste mal algún estilo dentro del selector.
 - Se aplica otro estilo que anula el tuyo (conflicto de estilos).
 
-#### Sigue estos pasos para solucionar el error
+#### Sigue estos pasos para solucionar el error:
 
-Abre la herramienta de desarrollador `Elementos`
-Haz clic en el tag HTML que quieres inspeccionar.
-Mira la pestaña `Estilos`, que muestra los estilos aplicados al elemento.
-Comprueba si tu selector y reglas están en la lista de estilos aplicados al tag.
-Si tu selector aparece, has aplicado con éxito los estilos, pero otros estilos pueden entrar en conflicto.
+1. Abre la herramienta de desarrollador `Elementos`
+2. Haz clic en el tag HTML que quieres inspeccionar.
+3. Mira la pestaña `Estilos`, que muestra los estilos aplicados al elemento.
+4. Comprueba si tu selector y reglas están en la lista de estilos aplicados al tag.
+5. Si tu selector aparece, has aplicado con éxito los estilos, pero otros estilos pueden entrar en conflicto.
 
 > 🔥 Debemos recordar que muchos estilos se aplican simultáneamente a los elementos; el navegador combina todas las reglas heredadas de todos los selectores que has creado.
 
