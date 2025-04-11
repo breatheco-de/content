@@ -15,7 +15,7 @@ Los seres humanos cometen errores, todo el tiempo. A medida que avances en tu ca
 
 Los desarrolladores Senior entienden que su código tendrá errores (no importa cuan inteligente sean) y que la única forma de que tenga calidad es escribiendo código adicional, a eso le llamamos "Pruebas unitarias", aquí aprenderás por qué y cómo hacerlo.
 
-Hay varias maneras de probar tus aplicaciones, pero las pruebas unitarias son la herramienta más poderosa que tiene un desarrollador para asegurar un código de alta calidad.
+Hay varias maneras de probar tus aplicaciones pero las pruebas unitarias son la herramienta más poderosa que tiene un desarrollador para asegurar un código de alta calidad.
 
 ![escribir código para probar código](https://github.com/breatheco-de/content/blob/master/src/assets/images/6b4upqv6at321.jpg?raw=true)
 
