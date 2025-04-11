@@ -1,7 +1,7 @@
 ---
 title: Introducción al desarrollo profesional y ágil.
 tags:
-  - desarrollo agil
+  - desarrollo ágil
   - aplicaciones web
 description: >-
   Descubre cómo construir aplicaciones profesionales con el desarrollo ágil.
