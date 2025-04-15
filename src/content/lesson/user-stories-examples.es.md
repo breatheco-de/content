@@ -16,7 +16,7 @@ status: "published"
 
 <div align="right"><small><a href="https://www.youtube.com/embed/LGeDZmrWwsw">Haz clic aquí para abrir el video en una ventana nueva</a></small></div>
 
-Lo más difícil de hacer en software no es programar, ¡es diseñar el sistema! Y NO estamos hablando de diseño gráfico... estamos hablando de la arquitectura, modelado de datos, requisitos del cliente, etc. Algunas de esas cosas son más difíciles que otras, pero hacer una lista de requisitos es probablemente una de las artes más difíciles.
+Lo más difícil de hacer en software no es programar, ¡Es diseñar el sistema! Y NO estamos hablando de diseño gráfico... estamos hablando de la arquitectura, modelado de datos, requisitos del cliente, etc. Algunas de esas cosas son más difíciles que otras, pero hacer una lista de requisitos es probablemente una de las artes más difíciles.
 
 **¿Qué es una característica?** ¡Es una funcionalidad que tiene la aplicación! Por ejemplo: registrarse, votar, comprar, etc.
 
@@ -38,7 +38,7 @@ Una historia de usuario es como tener una conversación con su futuro usuario. D
 
 ### ¿Cómo debes escribir las historias de usuario?
 
-Es tan simple que se vuelve complicado... lo más importante es: (1) mantener un lenguaje simple, (2) ser breve, (3) especificar:
+Es tan simple que se vuelve complicado... Lo más importante es: (1) mantener un lenguaje simple, (2) ser breve, (3) especificar:
 
 + **Rol:**  ¿Quién es capaz de usar la función?
 + **Característica:** ¿De qué se trata la característica?
