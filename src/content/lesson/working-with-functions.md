@@ -32,7 +32,7 @@ function multiply(a, b) {
 + **Every function must have a purpose** (a goal) (like our function “multiply”). The function's purpose is to calculate the multiplication between two given numbers.
 + **It must have a unique name.** In this particular case, our function is called “multiply”, which is a great name because you know exactly what the function is about, it's explicit.
 + **It must return something.** By default, in javascript all functions return “undefined” but you should override and always return something useful. In this example, we want to return the result of a & b multiplication.
-+ **Functions may have parameters.** A “parameter” is a variable that the function may receive at the beginning of its code (like a & b in our example).
++ **Functions may have parameters.** A “parameter” is a variable that the function may receive at the beginning of it's code (like a & b in our example).
 
 The whole idea is to have a library of hundreds of functions and use them as you please, you declare all your functions, and later you start using and re-using them all the time.
 
@@ -47,9 +47,9 @@ Coding is very abstract and usually, you forget what you wrote yesterday. Before
 
 By using functions, you have the following advantages:
 
-+ Divide and conquer: divide your algorithm into smaller sub-algorithms and focus on one problem at a time.
++ Divide and conquer: Divide your algorithm into smaller sub-algorithms and focus on one problem at a time.
 + Re-use your code by calling the function several times, dramatically reducing your code length.
-+ Organize your code: function names will tell you what that piece of code does, you can have all the functions in a separate file and re-use it in all your future developments.
++ Organize your code: Function names will tell you what that piece of code does, you can have all the functions in a separate file and re-use it in all your future developments.
 
 If you think about it, functions are the equivalent of books. They store knowledge and ways of doing things, and in future developments, you re-use them instead of having to figure out everything all over again.
 
