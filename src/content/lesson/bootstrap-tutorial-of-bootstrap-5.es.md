@@ -144,7 +144,7 @@ Cuando importes Bootstrap a tu sitio web, tendrás un nuevo conjunto de componen
 
 ### Estos son los componentes más importantes y usados ​​en este tutorial de Bootstrap:
 
-#### La NavBar
+#### La Navbar
 
 Esto es tan popular que está en el menú del 99% de todos los sitios web. Normalmente tiene el logotipo de la empresa y una serie de enlaces, dependiendo de la lógica comercial de cada sitio web.
 
