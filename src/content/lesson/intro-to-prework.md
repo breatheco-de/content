@@ -2,7 +2,7 @@
 title: Intro to Pre-Work
 tags:
   - prework
-  - web-deveroper-salary
+  - web-developer-salary
   - github
   - coding-tools
 description: >-
