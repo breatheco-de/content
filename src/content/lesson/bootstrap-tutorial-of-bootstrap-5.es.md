@@ -1,6 +1,6 @@
 ---
 title: "Tutorial de Bootstrap: Aprende Bootstrap 5 en 10 minutos"
-subtitle: "¡¡Después de décadas de lucha, ha llegado la luz!! Con este tutorial de Bootstrap, diseñar un sitio web será pan comido. Es casi estúpido y también imposible pensar en hacer un sitio web sin un marco CSS como Bootstrap 5."
+subtitle: "¡¡Después de décadas de lucha, ha llegado la luz!! Con este tutorial de Bootstrap, diseñar un sitio web será pan comido. Es casi estúpido e incluso imposible pensar en hacer un sitio web sin un marco CSS como Bootstrap 5."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:30+00:00"
@@ -144,15 +144,15 @@ Cuando importes Bootstrap a tu sitio web, tendrás un nuevo conjunto de componen
 
 ### Estos son los componentes más importantes y usados ​​en este tutorial de Bootstrap:
 
-#### La NavBar
+#### La Navbar
 
 Esto es tan popular que está en el menú del 99% de todos los sitios web. Normalmente tiene el logotipo de la empresa y una serie de enlaces, dependiendo de la lógica comercial de cada sitio web.
 
-Este es un ejemplo de cómo puede verse una NavBar en un sitio web:
+Este es un ejemplo de cómo puede verse una Navbar en un sitio web:
 
 ![bootstrap 5 navbar](https://github.com/breatheco-de/content/blob/master/src/assets/images/6351de1c-6d90-4502-8823-4b751981db9f.png?raw=true)
 
-> 🔗 [**Lee más sobre la NavBar aquí**](https://getbootstrap.com/docs/5.2/components/navbar/)
+> 🔗 [**Lee más sobre la Navbar aquí**](https://getbootstrap.com/docs/5.2/components/navbar/)
 
 ```html
 <nav class="navbar navbar-expand-lg bg-light">
