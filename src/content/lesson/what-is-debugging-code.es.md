@@ -8,7 +8,7 @@ description: >-
   ¡Descubre técnicas que te ahorrarán tiempo y mejorarán tus habilidades de
   programación!
 ---
-Todos cometemos muchos errores al programar. Esta es una realidad que reconoce cada desarrollador senior; por eso "depurar código" se ha convertido en una de las habilidades más esenciales para los desarrolladores.
+Todos cometemos muchos errores al programar. Esta es una realidad que reconoce cada desarrollador senior, por eso "depurar código" se ha convertido en una de las habilidades más esenciales para los desarrolladores.
 
 ## Está bien cometer errores
 
@@ -99,7 +99,7 @@ Aquí hay una lista más detallada:
 
 | Código | Significado |
 | ------ | -------------|
-| 400 | Es un problema del lado del cliente; el servidor espera un formato o valores diferentes en sus datos. |
+| 400 | Es un problema del lado del cliente, el servidor espera un formato o valores diferentes en sus datos. |
 | 401 | Es un problema del lado del cliente porque está intentando solicitar algo para lo que no tiene permiso. ¿Olvidaste incluir credenciales en la solicitud? |
 | 403 | Probablemente del lado del cliente porque las credenciales están incluidas, pero pueden estar equivocadas. El servidor no te permite acceder. |
 
@@ -121,7 +121,7 @@ Por último, si tiene un error en un servidor web (como Express, Flask, Django, 
 
 ### Localizando el error
 
-Si has seguido los pasos anteriores correctamente, sabes a qué parte de tu código está relacionado el error. ¡Así que mantente enfocado y no adivines! Tienes información útil sobre tu error; úsala y sigue esa pista. Por ejemplo:
+Si has seguido los pasos anteriores correctamente, sabes a qué parte de tu código está relacionado el error. ¡Así que mantente enfocado y no adivines! Tienes información útil sobre tu error, úsala y sigue esa pista. Por ejemplo:
 
 + Deja de pensar en el lado del servidor si tu error está en el lado del cliente o viceversa.
 + ¿Error de sintaxis o TypeError? Los errores de sintaxis generalmente te dicen en qué línea está el problema. Así que busca esa información y lee las líneas de código que la rodean.
@@ -136,7 +136,7 @@ Debes estar seguro de la información que has reunido para mantenerte enfocado e
 
 ### Arregla el error
 
-El último paso, obviamente, es arreglar el error; puede llevar un tiempo y puede haber algunos errores anidados en el camino.
+El último paso, obviamente, es arreglar el error, puede llevar un tiempo y puede haber algunos errores anidados en el camino.
 
 He preparado lecciones muy sencillas para depurar los errores más comunes que encontrarás al programar aplicaciones web y APIs como desarrollador junior.
 
