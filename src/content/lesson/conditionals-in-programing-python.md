@@ -167,7 +167,7 @@ else:
   print("hundreds of thousands, or maybe more")
 ```
 
-> Change the value of the `value` variables to see what how it works with the different values.
+> Change the value of the `value` variables to see how it works with the different values.
 
 ## The `switch` statement in Python
 
