@@ -65,7 +65,7 @@ Por lo tanto, nosotros aquí en 4Geeks creamos esta plataforma en línea. Este c
 
 Te presentaremos un desafío tras otro, pero siempre habrá un desarrollador senior de confianza mirando tu proceso para asistirte y ayudarte. 4Geeks es el lugar para leer, aprender y practicar código hasta que te quede todo grabado permanentemente en tu cerebro.
 
-## Pero no quieres leer todo, ¿¡verdad!?
+## Pero no quieres leer todo, ¿verdad?
 
 Básicamente quieres aprender todo sobre el hermoso arte de la programación, pero no quieres leer tanto... Sí, lo entendemos. Como resultado, hemos hecho un gran esfuerzo en resumir nuestras lecciones. Todo lo que encontrarás aquí será la base de tus habilidades. No hay nada que "saltarse".
 
