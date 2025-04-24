@@ -56,7 +56,7 @@ Errores de caché: Debes asegurarte de que el código que escribiste sea el mism
 
 Todos los principales navegadores tienen herramientas de desarrollo, la primera pestaña en las herramientas de desarrollo se llama "Elementos" y contiene -casi- todo lo que necesitas para solucionar tus errores.
 
-![inspector de código HTML](https://i.imgur.com/Fca0Hkm.gif?raw=true)
+![Inspector de código HTML](https://i.imgur.com/Fca0Hkm.gif?raw=true)
 
 El inspector de herramientas de desarrollo muestra una **versión en vivo** de tu código en lugar de tu código fuente original. Esta "versión en vivo" se llama "DOM". Es lo que el navegador pudo interpretar de tu código. Estos son algunos casos que hacen que el inspector sea excelente:
 
@@ -86,7 +86,7 @@ La última herramienta de depuración crucial para HTML es un IDE o editor de c�
 
 Si un tag no se cierra correctamente. Por ejemplo, si olvidas cerrar un tag `<div>`, el editor de código podría resaltar todo el bloque de código que sigue al tag sin cerrar en rojo. También puedes ver el error en el terminal si usas complementos como [prettier](https://prettier.io/). Si haces clic en un tag de apertura, el editor también resaltará el tag de cierre.
 
-![cómo aparecen los errores de tags no cerrados](https://i.imgur.com/oJEe61z.png?raw=true)
+![Cómo aparecen los errores de tags no cerrados](https://i.imgur.com/oJEe61z.png?raw=true)
 
 ### Comillas sin cerrar
 
@@ -94,7 +94,7 @@ Los tags HTML tienen atributos, por ejemplo, el tag `<img>` tiene el atributo `s
 
 Para encontrar esos errores, la mejor herramienta es el resaltador de sintaxis. Mostrará un color extraño; mira esta imagen para una mejor comprensión.
 
-![cómo se ven las comillas faltantes en tu resaltador de sintaxis](https://i.imgur.com/JzNqq1W.png?raw=true)
+![Cómo se ven las comillas faltantes en tu resaltador de sintaxis](https://i.imgur.com/JzNqq1W.png?raw=true)
 
 ### URL errónea en tag de `<link>` o `<script>`
 
@@ -104,6 +104,6 @@ Cuando vinculas tu HTML a una hoja de estilos CSS o un archivo JavaScript separa
 
 ¿Cómo sabes que enlazaste mal la URL? La consola del inspector de herramientas de desarrollo mostrará un error 404 como este (mira la imagen a continuación):
 
-![error al cargar la hoja de estilos en tu sitio web](https://github.com/breatheco-de/content/blob/master/src/assets/images/wrong-stylesheet-404.png?raw=true)
+![Error al cargar la hoja de estilos en tu sitio web](https://github.com/breatheco-de/content/blob/master/src/assets/images/wrong-stylesheet-404.png?raw=true)
 
 > **Nota**: Aquí se muestra la URL que usó para recuperar tu hoja de estilos; verifica que la URL esté bien.
