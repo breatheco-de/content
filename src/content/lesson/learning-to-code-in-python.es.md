@@ -21,7 +21,7 @@ Python es el primer lenguaje que debieras aprender, pero evidentente no el únic
 
 <div align="right"><small><a href="https://www.youtube.com/embed/Q-eob0WBKs0">Haz clic aquí para abrir la demo en otra ventana</a></small></div>
 
-Las variables no son un concepto nuevo, cualquier que sepa matemáticas está familiriarizado con el condepto de variables.
+Las variables no son un concepto nuevo, cualquier que sepa matemáticas está familiarizado con el concepto de variables.
 
 ```python
 edad = 24
