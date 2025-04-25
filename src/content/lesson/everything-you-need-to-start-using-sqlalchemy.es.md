@@ -51,10 +51,11 @@ Basta con que utilices la función `db.session.commit()` y todo lo que hayas hec
 
 ### Importando e inicializando la aplicación
 
-Para utilizar SQL Alchemy necesitamos instalar la librería `flask` de Python. Una vez lo hayamos hecho, estableceremos una conexión a la base de datos y definiremos el objeto `db`, que es lo más importante para empezar a trabajar con ella.
+Para utilizar SQL Alchemy necesitamos instalar la librería `flask` de Python. Una vez lo hayamos hecho, estableceremos una conexión a la base de datos y definiremos el objeto `db`, que es lo más importante para empezar a trabajar con ella. En la documentación encontraremos 2 métodos para implementar esta librería: el tradicional (proyectos legacy) y el moderno (recomendado) 
 
 ```py
 from flask import Flask
+from sqlalchemy.orm import Mapped, mapped_column # Sólo necesario en el método moderno
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
@@ -64,16 +65,35 @@ db = SQLAlchemy(app)
 
 ### Creando nuestra base de datos
 
-El primer paso sería definir nuestro modelo:
+El primer paso sería definir nuestro modelo. 
 
+- Método Tradicional
+```py
+class Person(db.Model):
+    # Aquí definimos el nombre de la tabla "Person"
+    __tablename__ = "person" # Es opcional debiado a que usa el nombre de la clase por defecto.
+
+    # Ten en cuenta que cada columna es también un atributo normal de primera instancia de Python.
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(250), nullable=False)
+
+    # El método serialize convierte el objeto en un diccionario
+    def serialize(self):
+        return {
+            "id": self.id,
+            "name": self.name,
+        }
+```
+
+- Método Moderno
 ```py
 class Person(Base):
-    __tablename__ = "person"
-
     # Aquí definimos el nombre de la tabla "Person"
+    __tablename__ = "person" # Es opcional debiado a que usa el nombre de la clase por defecto.
+
     # Ten en cuenta que cada columna es también un atributo normal de primera instancia de Python.
-    id = Column(Integer, primary_key = True)
-    name = Column(String(250), nullable = False)
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    name: Mapped[str] = mapped_column(unique=False, nullable=False)
 
     # El método serialize convierte el objeto en un diccionario
     def serialize(self):
@@ -114,12 +134,61 @@ all_people = Person.query.filter_by(name = "alex")
 all_people = list(map(lambda x: x.serialize(), all_people))
 ```
 
+A partir de la versión SQLAlchemy 2.x estas consultas se hacen con `excute`
+
+```py
+from sqlalchemy import select
+
+# Obtener todos los registros
+all_people = db.session.execute(select(Person)).scalars().all()
+
+# Obtener un registro por ID
+person = db.session.get(Person, 3)  # Método directo recomendado
+# Alternativa con execute:
+person = db.session.execute(select(Person).where(Person.id == 3)).scalar_one_or_none()
+
+# Filtrar registros
+people = db.session.execute(
+    select(Person).where(Person.name == "alex")
+).scalars().all()
+
+# Filtros avanzados
+from sqlalchemy import or_
+people = db.session.execute(
+    select(Person).where(or_(Person.name == "alex", Person.age > 25))
+).scalars().all()
+```
+
+# Diferencias entre los métodos `query` y `db.session.execute()`
+
+## Tabla comparativa de operaciones comunes
+
+| Operación               | Método tradicional (`query`)                     | Método moderno (`db.session.execute()`)        |
+|-------------------------|------------------------------------------------|-----------------------------------------------|
+| **Todos los registros**  | `Model.query.all()`                            | `db.session.execute(select(Model)).scalars().all()` |
+| **Obtener por ID**      | `Model.query.get(id)`                          | `db.session.get(Model, id)`<br>o<br>`db.session.execute(select(Model).where(Model.id == id)).scalar_one()` |
+| **Filtros simples**     | `Model.query.filter_by(name="x")`              | `db.session.execute(select(Model).where(Model.name == "x"))` |
+| **Filtros complejos**   | `Model.query.filter(or_(...))`                 | `db.session.execute(select(Model).where(or_(...)))` |
+| **Primer resultado**    | `Model.query.first()`                          | `db.session.execute(select(Model).limit(1)).scalar_one()` |
+| **Ordenamiento**        | `Model.query.order_by(Model.name.desc())`      | `db.session.execute(select(Model).order_by(Model.name.desc()))` |
+| **Paginación**          | `Model.query.paginate(page=1, per_page=10)`    | `db.session.execute(select(Model).offset(0).limit(10))` |
+
+> ℹ️ **Nota**: Aunque `query` sigue funcionando, se recomienda migrar al nuevo estilo para futura compatibilidad.
+ 
 ### DELETE: Eliminando un registro de la base de datos
 
 Para eliminar un registro de la base de datos es necesario seleccionar previamente la instancia que se desee borrar (a través de su clave primaria, el id) y eliminarla utilizando `db.session.delete(person)`, de acuerdo al siguiente ejemplo:
 
+- Método tradicional
 ```py
-person = Person.query.get(3)
+person = Person.query.get(3) 
+db.session.delete(person)
+db.session.commit()
+```
+
+- Método moderno
+```py
+person = db.session.get(Person, 3) 
 db.session.delete(person)
 db.session.commit()
 ```
@@ -128,8 +197,16 @@ db.session.commit()
 
 Para modificar un registro, hay que seleccionar previamente el mismo de la base de datos, luego puedes trabajar con él cambiando sus propiedades y hacer commit nuevamente, según el siguiente ejemplo:
 
+- Método tradicional
 ```py
 person = Person.query.get(3)
+person.name = "Bob"
+db.session.commit()
+```
+
+- Método moderno
+```py
+person = db.session.get(Person, 3) 
 person.name = "Bob"
 db.session.commit()
 ```
@@ -231,3 +308,118 @@ Finalmente, nuestra 'Pizza' se ve así:
 ![SQL tabla Pizza despues de rollback](https://github.com/breatheco-de/content/blob/master/src/assets/images/sql-4.png?raw=true)
 
 ... Me ha dado hambre después de leer esta lección ¿¿tú no tienes hambre??
+
+# Relaciones en SQLAlchemy: 
+Las relaciones permiten conectar modelos/tablas entre sí, reflejando cómo interactúan los datos en tu base de datos. SQLAlchemy ofrece 3 tipos principales de relaciones, cada una con su sintaxis tradicional (v1.x) y moderna (v2.x+).
+
+## 1. Relación Uno a Muchos (One-to-Many)
+
+### ¿Cuándo debo usarla?
+Cuando un registro en Tabla A puede tener múltiples registros asociados en Tabla B.
+
+- Método Tradicional (query)
+```python
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    posts = db.relationship('Post', backref='author')
+
+class Post(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
+```
+
+- Método Moderno (SQLAlchemy 2.x)
+```python
+class User(db.Model):
+    id: Mapped[int] = mapped_column(primary_key=True)
+    posts: Mapped[List["Post"]] = relationship(back_populates="author")
+
+class Post(db.Model):
+    id: Mapped[int] = mapped_column(primary_key=True)
+    user_id: Mapped[int] = mapped_column(ForeignKey("user.id"))
+    author: Mapped["User"] = relationship(back_populates="posts")
+```
+
+## 2. Relación Muchos a Muchos (Many-to-Many)
+
+- Método Tradicional
+```python
+tags = db.Table('tags',
+    db.Column('post_id', db.Integer, db.ForeignKey('post.id')),
+    db.Column('tag_id', db.Integer, db.ForeignKey('tag.id'))
+)
+
+class Post(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    tags = db.relationship('Tag', secondary=tags, backref=db.backref('posts', lazy='dynamic'))
+
+class Tag(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+```
+
+- Método Moderno
+```python
+class Post(db.Model):
+    id: Mapped[int] = mapped_column(primary_key=True)
+    tags: Mapped[List["Tag"]] = relationship(secondary="post_tag", back_populates="posts")
+
+class Tag(db.Model):
+    id: Mapped[int] = mapped_column(primary_key=True)
+    posts: Mapped[List["Post"]] = relationship(secondary="post_tag", back_populates="tags")
+
+post_tag = Table(
+    "post_tag",
+    db.metadata,
+    Column("post_id", ForeignKey("post.id")),
+    Column("tag_id", ForeignKey("tag.id"))
+)
+```
+### ¿Cuándo usarla?
+Cuando necesitas relaciones complejas donde ambas tablas pueden tener múltiples registros vinculados entre sí.
+
+## 3. Relación Uno a Uno (One-to-One)
+
+- Método Tradicional
+```python
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    profile = db.relationship('Profile', uselist=False, backref='user')
+
+class Profile(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
+```
+
+- Método Moderno
+```python
+class User(db.Model):
+    id: Mapped[int] = mapped_column(primary_key=True)
+    profile: Mapped["Profile"] = relationship(back_populates="user")
+
+class Profile(db.Model):
+    id: Mapped[int] = mapped_column(primary_key=True)
+    user_id: Mapped[int] = mapped_column(ForeignKey("user.id"))
+    user: Mapped["User"] = relationship(back_populates="profile")
+```
+### ¿Cuándo usarla?
+Cuando un registro en Tabla A debe vincularse con exactamente un registro en Tabla B.
+
+## Tabla Comparativa
+
+| Relación | Método Tradicional | Método Moderno | Ventajas del Método Moderno |
+|----------|--------------------|----------------|-----------------------------|
+| **Uno a Muchos** | `relationship('Post', backref='author')` | `Mapped[List["Post"]] = relationship(back_populates="author")` | Tipado explícito, mejor soporte IDE |
+| **Muchos a Muchos** | Tabla secundaria separada, `backref` con lazy loading | Tabla como objeto, `back_populates` bidireccional | Mayor claridad, control preciso de tipos |
+| **Uno a Uno** | `uselist=False` en relationship | `Mapped["Profile"]` sin lista | Sintaxis más intuitiva, mejor documentación |
+| **Configuración** | Implícito en backref | Explícito con back_populates | Relaciones más claras y mantenibles |
+| **Tipado** | Sin soporte nativo | Tipado con `Mapped[T]` | Mejor análisis estático, autocompletado |
+
+> 💡 **Tip**: El método moderno es compatible con Flask-SQLAlchemy 3.x y ofrece mejor rendimiento y mantenibilidad a largo plazo.
+
+Con SQLAlchemy, puedes conectar tus modelos como si fueran piezas de LEGO (pero sin el dolor de pisar una descalzo 😆). Ya sea 1:1 (como un celular y su dueño), 1:N (como un meme y sus mil compartidos), o N:M (como tus series favoritas y tus noches de insomnio), ¡el ORM te tiene cubierto!
+
+¡Ahora ve y escribe queries como si el código se autodocumentara! 🦸‍♂️💻
+
+(Y recuerda: si tu código funciona a la primera, es hora de sospechar... o de celebrar con un café ☕).
+
+¿Listo para el siguiente nivel? ¡SQLAlchemy te espera! 😉
