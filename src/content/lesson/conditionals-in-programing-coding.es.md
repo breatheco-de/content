@@ -21,7 +21,7 @@ Dominar el uso de las condiciones es una de las 5 habilidades fundamentales de c
 4. Loops(Bucles).
 5. Funciones.
 
-Las condiciones son la única forma en que los desarrolladores tienen para decirle a la computadora cómo tomar decisiones en tiempo real, muy similar a cómo funcionan los cerebros.
+Las condiciones son la única forma en que los desarrolladores tienen para decirle a la computadora cómo tomar decisiones en tiempo real, muy similar al funcionamiento de los cerebros.
 
 Digamos que estamos construyendo un programa que nos ayudará a optimizar nuestras elecciones de vestimenta, pero en nuestras preferencias el color azul no es una opción, para ello podemos ordenarle a la computadora que evite el color azul usando la siguiente condición:
   
