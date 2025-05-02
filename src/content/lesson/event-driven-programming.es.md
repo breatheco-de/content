@@ -72,7 +72,7 @@ Estos son algunos de los tipos de eventos que se activan constantemente (y que p
 |submit	    |El evento ocurre cuando se envía un formulario.    |
 |focusin and focusout     |El evento ocurre cuando el puntero se mueve a un elemento o a uno de los elementos hijo del elemento.   |
 |input       |El evento ocurre cuando un elemento obtiene datos introducidos por el usuario.    |
-|change       |El evento ocurre cuando el contenido de un elemento del formulario, la selección o el estado previamente establecido han cambiado (para `<input>`, `<keygen>`, `<select>`, y `<textarea>`) |
+|change       |El evento ocurre cuando el contenido de un elemento del formulario, la selección o el estado previamente establecido han cambiado (para `<input>`, `<keygen>`, `<select>`, y `<textarea>`). |
 
 <iframe width="100%" height="300"  frameborder="1" src="https://4geeksacademy.github.io/code-projects/uncategorized/event-listener/forms.html" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
