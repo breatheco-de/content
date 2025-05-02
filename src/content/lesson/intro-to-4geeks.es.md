@@ -1,4 +1,5 @@
 ---
+nombre: Adrian Beneroso
 title: "Introducción a 4Geeks Academy"
 subtitle: "Espero que leas este artículo completo, este artículo tiene una receta de 8 minutos para sacarle el máximo provecho a la academia. ¡De la manera más efectiva!"
 textColor: "white"
