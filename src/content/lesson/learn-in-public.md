@@ -32,7 +32,7 @@ When you learn in public you: Create on social media, write in notebooks and dis
 - Create accounts on some of your preferred social networks like LinkedIn (strongly recommended), Twitter, Instagram, Reddit, etc.
 - Make sure your profile in those accounts looks good: A professional profile, describing yourself as a developer.
 - Every time you build a project, make sure to publish it on your social networks. [Here is an example post from one of 4Geeks Academy students](https://www.linkedin.com/feed/update/urn:li:activity:6750086679345815552/).
-- Join [#100DaysOfCode](https://www.100daysofcode.com/) and be public on Twitter, Instagram and/or LinkedIn about it, there are a lot of people following that challenge, and you can join the discussion and collaborate!
+- Join [#100DaysOfCode](https://www.100daysofcode.com/) and be public on X.com (formally know as Twitter), Instagram and/or LinkedIn about it, there are a lot of people following that challenge, and you can join the discussion and collaborate!
 - Open a YouTube channel: Start publishing videos about your learning process.
 - Start a blog: Use medium (recommended), reddit or build your blog platform and start publishing weekly posts about the things you are learning.
 - Reach out to developers you admire: If you liked a video, write something to the author. If you like a library, make a Pull Request fixing a misspelling, enhancing the documentation, or coding a new feature!
