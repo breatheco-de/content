@@ -58,7 +58,7 @@ Esto puede suceder por varias razones:
 
 Usa la pestaña **Elementos** de las herramientas de desarrollador y busca el tag que quieres revisar. Haz clic en el tag y revisa los estilos que se le están aplicando.
 
-Si no ves tu estilo CSS, es probablemente por un error de ortografía o una lógica de selector defectuosa. Aquí hay un ejemplo en la imagen de abajo:
+Si no ves tu estilo CSS, es probablemente por un error de ortografía o una lógica de selector defectuosa. Aquí hay un ejemplo en la imágen de abajo:
 
 ![error ortográfico dentro de selector](https://storage.googleapis.com/breathecode-asset-images/misspelling-on-css-selector.gif?raw=true)
 
@@ -72,7 +72,7 @@ Si un estilo se ve anulado por otro, ambos se mostrarán, pero uno estará tacha
 
 ![guerra de especificidad](https://i.imgur.com/Gp7hOvA.png?raw=true)
 
-> Nota: En la imagen de arriba, la regla CSS `color` se anula dos veces.
+> Nota: En la imágen de arriba, la regla CSS `color` se anula dos veces.
 
 ## Otras cosas para prevenir
 
