@@ -306,7 +306,7 @@ def saludo(nombre):
 print(saludo("Juan"))
 ```
 
-Las funciones proporcionan una forma de modularizar el código, permitiéndonos organizar y reutilizar fragmentos de código en diferentes partes de nuestros programas. Esto mejora la calidad y facilita la depuración y el mantenimiento.
+Las funciones proporcionan una forma de modularizar el código, permitiéndonos organizar y reutilizar fragmentos de código en diferentes partes de nuestros programas. Esto mejora la calidad, facilita la depuración y el mantenimiento.
 
 Un código en Python combina todos los elementos que acabamos de ver en esta guía para llevar a cabo una tarea concreta. A continuación se muestra un programa sencillo que toma la edad de un usuario, determina si es menor de edad, adulto o adulto mayor, y luego imprime una lista de actividades recomendada para cada grupo:
 
