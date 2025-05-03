@@ -1,5 +1,5 @@
 ---
-title: Depurando código CSS
+title: Depurando Código CSS
 tags:
   - debugging
   - web development
@@ -8,7 +8,7 @@ description: >-
   Master CSS debugging with our guide! Learn essential tools and tips to save
   time and fix errors efficiently. Discover how to streamline your CSS today!
 ---
-# Depuración de código CSS
+# Depuración de Código CSS:
 
 Esta guía está destinada a enseñarte cómo solucionar errores en tu código CSS. Si no estás seguro de si tu error está en tu HTML, te recomiendo leer: [¿Qué es depurar y cómo dominarlo?](https://4geeks.com/es/lesson/que-es-depurar-codigo)
 
@@ -74,7 +74,7 @@ Si un estilo se ve anulado por otro, ambos se mostrarán, pero uno estará tacha
 
 > Nota: En la imagen de arriba, la regla CSS `color` se anula dos veces.
 
-## Otras cosas para prevenir
+## Otras cosas para prevenir:
 
 CSS tiene algunos temas difíciles de entender que te pueden seguir durante años y crear muchos errores, así que ten cuidado y tómate el tiempo para entenderlos bien.
 
