@@ -25,7 +25,7 @@ SELECT username FROM user WHERE email='info@breatheco.de'
 
 En un mundo en el que la presencia de datos es cada vez más protagonista por su importante impacto sobre la toma de decisiones y la proliferación de procesos de negocio guiados por los datos y la información, las bases de datos son la mejor manera de almacenarlos. De hecho, un componente fundamental en la industria 4.0 es, precisamente, esta tecnología. A partir de los datos podremos llevar a cabo procesos de Data Mining, Machine Learning y automatizaciones, pero todo parte de las bases de datos.
 
-El origen de las bases de datos eran los ficheros `.txt` y `.csv`, que si bien permitían almacenar una gran cantidad de información, los datos se podían corromper con facilidad y eran de difícil acceso.
+El origen de las bases de datos era en los ficheros `.txt` y `.csv`, que si bien permitían almacenar una gran cantidad de información, los datos se podían corromper con facilidad y eran de difícil acceso.
 
 ![Edgar Codd](https://github.com/breatheco-de/content/blob/master/src/assets/images/11fcd6d8-6177-4f42-b4e0-7b6475f24b0a.jpeg?raw=true)
 
