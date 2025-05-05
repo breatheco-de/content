@@ -179,7 +179,7 @@ Hay otros selectores más específicos y avanzados. Probablemente lo usarás cua
 
 ![Aprende CSS](https://github.com/breatheco-de/content/blob/master/src/content/lesson/../../assets/images/08e78606-102f-4bc2-a066-7c26ae9400d5.png?raw=true)
 
-Tienes que entender muy bien la jerarquía de CSS para comprender como los elementos **heredan, sobre escriben y hasta anulan estilos entre ellos.**
+Tienes que entender muy bien la jerarquía de CSS para comprender como los elementos **heredan, sobreescriben y hasta anulan estilos entre ellos.**
 
 El navegador le da prioridad a los selectores más específicos, como al `#id`, que a los selectores generales, como los tags (etiquetas). En el siguiente ejemplo, cambiamos el color de todos los  `<li>`  (los elementos de la lista) a azul, y luego cambiamos el texto del segundo elemento a color rojo. De esta manera demostramos que el selector ID siempre prevalece por encima de los otros elementos, esto se debe a que pertenecen a la misma etiqueta.
 
