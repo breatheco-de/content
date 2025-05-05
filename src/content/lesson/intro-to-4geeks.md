@@ -27,7 +27,7 @@ We are about to change the way you learn, the way you approach life, and the way
 
 ### We are here to tear down the 💻 3 Walls to Overcome in Coding 
 
-During the past years, we have identified specific reasons that cause students to stop trying to be developers or fail to complete the course, or get a job. 
+Over the past few years, we have identified specific reasons that cause students to stop trying to be developers or fail to complete the course, or get a job. 
 
 #### Wall #1: Confidence ❓ (Impostor syndrome)
 
@@ -37,7 +37,7 @@ At some point in our lives (some more than others), we all have thought we were 
 
 > If a particular exercise or project is hard, instead of thinking you are not good at this, look for new ways of absorbing the content. Talk to a mentor and we'll give you exactly what you need.
 
-Every average person can learn to code to the point of being useful, but coding gets more complicated when you specialize further in your career (Like AI, Robotics, etc.), but you can make good money without having to study Math, without being good at numbers, or without learning as fast as others (we may be able to fix that, by the way).
+Every average person can learn to code to the point of being useful, but coding gets more complicated when you specialize further in your career (like AI, Robotics, etc.), but you can make good money without having to study Math, without being good at numbers, or without learning as fast as others (we may be able to fix that, by the way).
 
 ##### 📝 Recipe to avoid losing confidence
 
@@ -51,7 +51,7 @@ Every average person can learn to code to the point of being useful, but coding 
 
 During all your life you've learned the same way, the educational system has put you in a box and trained you to learn slowly, limiting your ability to adapt to the new world of skilled fast-learning, and self-learning professionals.
 
-We know how to train you: we have done it over and over again, but we'll train in such a different way that you may not like it at first. It's only normal that your mind will want to go back to learning "slow but safe", without having to be uncomfortable or constantly challenged by our system.
+We know how to train you: we have done it over and over again, but we'll train you in such a different way that you may not like it at first. It's only normal that your mind will want to go back to learning "slow but safe", without having to be uncomfortable or constantly challenged by our system.
 
 ##### 📝 Recipe to avoid losing trust in our methods
 
@@ -82,7 +82,7 @@ These are not small numbers, 60% in a day and 90% if you don't practice for a we
 Please make sure you understand how the academy works:
 
 1. **Platform:** 4Geeks.com, The Syllabus (learn how to follow it), GeekPal, GeekForce, the lessons, exercises, projects, and assets.
-2. **The people:** We are more than five thousand people now! Leaders, Mentors, Alumni, and Students, we are here to help, and we are here to stay. Network, make friends -- take advantage!
+2. **The people:** We are more than five thousand people now! Leaders, Mentors, Alumni, and Students, we are here to help, and we are here to stay. Network, make friends -- Take advantage of the resources and people around you!
 3. **The community:** Communities are not one way, they just don't work like that to the events, support other students, give first and you will receive later. Slack, GeekTalks, Workshops, Group Studies.
 
 
