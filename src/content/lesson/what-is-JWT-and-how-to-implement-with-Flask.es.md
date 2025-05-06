@@ -1,5 +1,5 @@
 ---
-title: Comprendiendo JWT y como implementar un JWT simple con Flask
+title: Comprendiendo JWT y cómo implementar un JWT simple con Flask
 tags:
   - HTTP
   - API
