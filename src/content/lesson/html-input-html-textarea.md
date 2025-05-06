@@ -74,7 +74,11 @@ The two most important attributes that need to be set into the `<form>` tag are 
 **Action**: Is the URL where the data collected from the form is going to be sent.
 
 ```html
-<form action="/action_page.php">
+ <! -- GET method -->
+<form action="/action_page.php" method="get">
+
+ <! -- POST method -->
+<form action="/action_page.php" method="post">
 ```
 
 **Method**: It could be either "POST" or "GET". The main differences will be:
