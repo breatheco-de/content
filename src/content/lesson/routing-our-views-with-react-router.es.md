@@ -116,7 +116,7 @@ const navigate = useNavigate();
 Luego, en cualquier parte de cualquiera de tus componentes, puedes redireccionar a los usuarios de forma programática de la siguiente manera:
 
 ```jsx
-<button onClick={() => navigate.push("/login")}>Take me to login</button>
+<button onClick={() => navigate("/login")}>Take me to login</button>
 ```
 
 ## Ejemplo en Vivo:
