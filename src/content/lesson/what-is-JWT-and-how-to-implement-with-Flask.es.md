@@ -6,8 +6,8 @@ tags:
   - Security
   - Authentication
 description: >-
-  Learn how to implement JWT for secure authentication in your Flask API.
-  Discover simple steps to enhance your app's security today!
+	Aprende cómo implementar JWT para una autenticación segura en tu API de Flask.
+	¡Descubre pasos sencillos para mejorar la seguridad de tu aplicación hoy!
 ---
 JWT es solo una de las maneras en las que puedes implementar seguridad y autenticación, especificamente [tokens de acceso](https://4geeks.com/es/lesson/ques-es-token-de-acceso-para-api) en tu API.
 
