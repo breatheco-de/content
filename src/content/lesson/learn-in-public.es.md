@@ -16,7 +16,7 @@ En este artículo voy a intentar explicarte por qué funciona y cómo puedes hac
 
 El sistema educativo tradicional está diseñado para ser una experiencia privada: lees libros, asistes a clases, haces tareas, evaluaciones y te gradúas en algún momento. Estamos tan acostumbrados a este flujo de trabajo que está arraigado en nuestro corazón de estudiante.
 
-Cuando aprendes en público, conviertes las redes sociales en tu cuaderno de notas y tu foro de discusión. Escribes sobre lo que acabas de aprender de diferentes maneras, como entradas de blog, tweets, boletines, dibujos, memes, etc.
+Cuando aprendes en público, conviertes las redes sociales en tu cuaderno de notas y tu foro de discusión. Escribes sobre lo que acabas de aprender de diferentes maneras, como entradas de blog, tweets, boletines, dibujos, memes, etc...
 
 ## ¿Por qué es esto tan importante?
 
