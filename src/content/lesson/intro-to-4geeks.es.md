@@ -20,7 +20,7 @@ Estás aquí para aprender a desarrollar tus habilidades para programar hasta un
 
 También estás aquí porque necesitas ayuda, no solo técnica sino también espiritualmente. Digo esto de la manera más pragmática posible.
 
-> La mayor barrera que deberás derrumbar para convertirte en un desarrollador no está en el programa ni en el contenido, si no en tu mente.
+> El mayor reto que deberas superar para convertirte en un desarrollador no está en el programa ni en el contenido, si no en tu mente.
 
 Vamos a cambiar la forma en que te has acostumbrado a aprender, la forma en que ves la vida, la manera en que te vendes (por lo tanto, la manera en que te ves), estamos derribando las viejas ideas equivocadas sobre ti mism@, los demás y sobre tu vida profesional.
 
