@@ -5,55 +5,73 @@ tags:
   - networking
 canonical: ''
 description: >-
-  Discover how learning in public can enhance your coding skills and career.
+  Discover how learning in public can enhance your tech skills and career.
   Embrace sharing your journey and connect with others today!
 ---
-If you are interested in learning to code efficiently but fast, you should do it in public; this is not a theory but a fact.
 
-In this article, I'm going to explain why it works and how you can do it.
+If you're learning at 4Geeks—whether it's Full Stack, Cybersecurity, Vibe Coding, AI, or any other program—you should consider learning in public. This is not just a theory, it's a proven strategy for faster learning and career growth.
+
+In this article, we'll explain why it works and how to get started.
 
 ## What is Learn In Public?
 
-Learning in private: The traditional educational system is designed to be a private experience. You read books, attend class, complete projects and assessments, and then graduate at the end. We are so used to this workflow that it's already embedded into our students' minds.
+**Learning in private** is what most of us are used to: reading, attending class, completing assignments, and quietly leveling up until graduation.
 
-When you learn in public you: Create on social media, write in notebooks and discussion forums, and also write about what you just learned in different ways like blog posts, tweets, newsletters, drawings, memes, etc.
+**Learning in public** means sharing your progress openly. That could be:
+
+- Posting on social media
+- Writing short updates or articles
+- Sharing code or projects on GitHub
+- Creating videos, drawings, or even memes about what you’re learning
+- Commenting and engaging in forums and communities
 
 ## Why is this so important?
 
-- When you write things down, your brain absorbs knowledge better.
-- Talking about it forces you to organize and understand your thoughts better.
-- Your family and friends will start trusting your skills. After a while, they will start seeing you as an expert on the matter, they will come to you for advice, recommendations or to hire your services.
-- Sharing is a support system: The impostor syndrome is no joke, when you are open and share your struggles publicly, you will find others (probably many others) like you. It will calm you down because you know it's normal, and it will give you the strength to continue. 
-- Rank better on the job portals: Websites like LinkedIn make your profile more visible when you often publish, boosting your reach exponentially.
-- Recruiters will find you: Time after time at @4GeeksAcademy we have noticed that students learning in public get hired much faster. Recruiters eventually notice and contact them with job opportunities.
+- Writing and teaching reinforce your learning.
+- You develop stronger communication and reasoning skills.
+- Friends, family, and peers start seeing you as “the go-to person” in tech.
+- You’ll build confidence and battle impostor syndrome by finding others on the same journey.
+- Platforms like LinkedIn will boost your visibility when you publish often.
+- Recruiters and employers will notice you—at 4Geeks, we've seen students land jobs just from posting about their progress.
+- You’ll avoid feeling isolated. On Twitter/X, thousands of people are learning and sharing every day—especially under hashtags like `#100DaysOfCode`, `#BuildInPublic`, and `#LearnToCode`. These are active, welcoming communities where you’ll find support, ideas, and encouragement.
 
-## How to start learning in public?
+## How to start learning in public
 
-- Create accounts on some of your preferred social networks like LinkedIn (strongly recommended), Twitter, Instagram, Reddit, etc.
-- Make sure your profile in those accounts looks good: A professional profile, describing yourself as a developer.
-- Every time you build a project, make sure to publish it on your social networks. [Here is an example post from one of 4Geeks Academy students](https://www.linkedin.com/feed/update/urn:li:activity:6750086679345815552/).
-- Join [#100DaysOfCode](https://www.100daysofcode.com/) and be public on Twitter, Instagram and/or LinkedIn about it, there are a lot of people following that challenge, and you can join the discussion and collaborate!
-- Open a YouTube channel: Start publishing videos about your learning process.
-- Start a blog: Use medium (recommended), reddit or build your blog platform and start publishing weekly posts about the things you are learning.
-- Reach out to developers you admire: If you liked a video, write something to the author. If you like a library, make a Pull Request fixing a misspelling, enhancing the documentation, or coding a new feature!
-- Join events and conferences: Meet with other developers and opportunities will start coming in.
+- Create or polish your profiles on LinkedIn (strongly recommended), Twitter/X, Instagram, Reddit, etc.
+- Make your profiles reflect who you are as a developer, cybersecurity analyst, AI builder, or creative technologist.
+- Every time you complete a project or module, share it! Write a short post or create a video about what you did and what you learned.
+  - [Here’s an example from a 4Geeks student](https://www.linkedin.com/feed/update/urn:li:activity:6750086679345815552/)
+- Join public challenges like [#100DaysOfCode](https://www.100daysofcode.com/) — perfect if you're learning to code.
+- For other disciplines, try using hashtags like:
+  - `#LearnCybersecurity`
+  - `#AIDailyLearn`
+  - `#TechCreatives`
+  - `#PromptEngineering`
+  - `#VibeCoding`
+- Follow communities on Twitter/X where engineers, hackers, and learners regularly post deep technical threads—especially in topics like Redis, PostgreSQL, AI, and web architecture.
+  - Some Redis threads are so detailed they’re better than documentation—follow accounts like @antirez (Redis creator), @gliderlabs, or explore `#Redis` and `#DatabaseTips`.
+- Start a YouTube channel or a blog. Talk about what you’re learning week by week—people love real, authentic journeys.
+- Contribute to open source: even a small documentation fix is a great way to learn and be seen.
+- Attend meetups and online events. Talk to other learners and professionals—you’ll be amazed at the doors that open.
 
-## Most common procrastination thoughts:
+## Common thoughts that hold people back
 
-### I don't have anything to say on social media.
+### “I don’t have anything to say.”
 
-I really doubt that, learning to code is hard and people read a lot about it and they need emotional support, just like with your testimonial you are helping a lot of people who will be interested in learning more about your story.
+You do. Learning to code (or break into tech in any area) is hard. Your story helps others who feel stuck or alone. Just by showing up and sharing what you're doing, you're adding value.
 
-### I'm no expert
+### “I’m not an expert.”
 
-Nobody is! I've been coding for 20 years and I still think I'm no expert, by showing your perspective on the topics you just learned you are helping other amateurs on their journey.
+Nobody starts as an expert. Even senior developers constantly learn new things. Sharing your beginner perspective is actually incredibly helpful to other beginners.
 
-### I don't have time
+### “I don’t have time.”
 
-You don't have to do it all, you can just pick one or two things you might enjoy doing. Even if you are learning privately, you have to take notes, finish coding projects, and challenge yourself, so why not take some extra time to publish them? I think it's 100% worth your time.
+You're already taking notes, completing projects, and reflecting on what you learn. Turn some of that into public posts—just one update a week can make a big difference.
 
-I hope I made my case!!
+---
+
+We hope this inspired you to start (or continue) learning in public. If you want to go deeper, check out [this article by Shawn Wang](https://www.swyx.io/learn-in-public/) and all the amazing links at the bottom of it.
 
 ## Keep it up!
 
-If you want to read more about Learning in public I recommend reading [this article and all the amazing sources mentioned at the end of that article](https://www.swyx.io/learn-in-public/).
+Every post, tweet, or message you share brings you one step closer to confidence, community, and your next opportunity. Let the world follow your journey 🚀
