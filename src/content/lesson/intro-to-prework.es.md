@@ -55,7 +55,7 @@ Alrededor del 90% de nuestros estudiantes encuentran trabajo después de graduar
 
 Si quieres saber más, ponerte en contacto con nosotros o postularte, por favor envíanos un correo a: Info@4geeksacademy.com
 
-## Al Revés
+## Al revés..
 
 Hay muchos cursos de programación por ahí... algunos incluso son gratuitos. Si te uniste a 4Geeks Academy, es porque eres como nosotros. Realmente crees que habilidades difíciles de aprender como la programación requieren mucho más que solo artículos/videos en línea o tutoriales que hacen que la programación parezca extremadamente fácil.
 
@@ -83,7 +83,7 @@ Y todo esto es porque necesitamos estar seguros de que tienes lo que se necesita
     <img class="my-class" src="https://raw.githubusercontent.com/breatheco-de/content/refs/heads/master/src/assets/images/bd90ba64-ded5-4fb2-b23f-7d297125e3a5.jpeg" width="300">
 </p>
 
-## Este curso funciona, pero tienes que confiar en nosotros
+## Este curso funciona, pero tienes que confiar en nosotros. :)
 
 El cerebro humano requiere mucha energía para tomar cualquier decisión, especialmente cuando muchas variables intervienen en la ecuación. Este curso será difícil porque estamos rediseñando la forma en que tomas estas decisiones. Tendrás que pensar de manera similar a como piensan las computadoras. No te preocupes, llegará un momento en el que todo lo que hagas se convertirá en un comportamiento adquirido.
 
@@ -91,13 +91,14 @@ Si te sientes abrumado y confundido, ¡pide ayuda! Y, **sigue trabajando duro -*
 
 ### ¡Por favor, pide ayuda!
 
-¿Has oído hablar de Einstein? Las personas realmente inteligentes siempre son las que hacen más preguntas. No tienen miedo de no saber o cometer errores. La única manera en que realmente podemos ayudarte es si aceptas nuestra mentoría pidiendo ayuda. Para poder hacer esto, cuando estés atascado y hayas intentado resolver un problema por tu cuenta durante unos minutos, pregunta en nuestro canal de Slack [#Public_Support](https://4geeksacademy.slack.com/archives/CAZ9W99U4), pero primero lee estos consejos sobre [¿Cómo hacer preguntas de programación?](https://4geeks.com/es/how-to/como-hacer-preguntas-de-programacion).
+¿Has oído hablar de Einstein? Las personas realmente inteligentes siempre son las que hacen más preguntas. No tienen miedo de no saber o cometer errores. La única manera en que realmente podemos ayudarte es si aceptas nuestra mentoría pidiendo ayuda. Para poder hacer esto, cuando estés atascado y hayas intentado resolver un problema por tu cuenta durante unos minutos, pregunta en nuestro canal de Slack [#Public_Support](https://4geeksacademy.slack.com/archives/CAZ9W99U4), pero primero lee estos consejos sobre [¿Cómo hacer preguntas de programación?
+(https://4geeks.com/es/how-to/como-hacer-preguntas-de-programacion).
 
 <p style="text-align:center">
     <img class="my-class" src="https://raw.githubusercontent.com/breatheco-de/content/refs/heads/master/src/assets/images/5f5f59bc-9efa-4ee9-bce6-6af9eedb4738.jpeg" width="300">
 </p>
 
-## Herramientas de Codificación
+## Herramientas de codificación
 
 Cuando comenzamos la academia, cada estudiante tenía la libertad de instalar su propio conjunto de herramientas y programas de codificación. Sin embargo, pronto descubrimos que los estudiantes pierden demasiado tiempo instalando y configurando cada programa. Invertían más tiempo haciendo eso que realmente aprendiendo a programar.
 
