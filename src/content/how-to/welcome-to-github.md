@@ -9,10 +9,10 @@ This lesson will define GitHub.com, explain it, and review its essential feature
 
 ## What is GitHub
 
-GitHub.com is the epicenter of the world's code; 90% of the code lives on it. You'll be interacting with GitHub so much that we cannot even list everything you can do. Here are a few examples:
+GitHub.com is the epicenter of the world's code; 90% of the code lives on it. You'll be interacting with GitHub so much that we can't even list everything you can do. Here are a few examples:
 
-- GitHub is where you save your work every night, Like a hard drive.
-- It's your professional portfolio, Like a resume, but with a more technical approach.
+- GitHub is where you save your work every night, like a hard drive.
+- It's your professional portfolio, like a resume, but with a more technical approach.
 - It's the technology needed to collaborate with other people in projects.
 - Your GitHub profile is reviewed by recruiters when considering hiring you.
 - You can also meet other tech people and cool projects or libraries: Similar to LinkedIn but very technical.
