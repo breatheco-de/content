@@ -69,7 +69,7 @@ def get_price(number_of_guests):
 <iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/calcular-costo-fiesta?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 + **Every function must have a purpose** (a goal) (like our function "multiply").  The function's purpose is to calculate the multiplication between two given numbers.
-+ **It must have a unique name.**  In this particular case, our function is called "multiply" – which it's a great name because you know exactly what the functions is about, it's explicit.
++ **It must have a unique name.**  In this particular case, our function is called "multiply" – which it's a great name because you know exactly what the function is about, it's explicit.
 + **It must return something.**  By default, in Python all functions return `None` but you should override this and always return something useful. In this example, we want to return the result of a & b multiplication.
 + **Functions may have parameters.**  A "parameter" is a variable that the function may receive at the beginning of its code (like a & b in our example).
 
