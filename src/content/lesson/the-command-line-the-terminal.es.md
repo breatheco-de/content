@@ -46,7 +46,7 @@ Lo último que tenemos que agregar es el "argumento". En este caso, el "argument
 
 Tu computadora tiene archivos, directorios y aplicaciones. Tu línea de comando es capaz de lidiar con los tres. Usa comandos para moverte dentro de los archivos y directorios (como el comando `cd` que es el acrónimo de *change directory*). Cada aplicación que instales viene con un conjunto de comandos que están disponibles a partir del momento en que instales la aplicación (como el comando GIT).
 
-## Así es cómo se ve el sistema de archivos en una interfaz visual versus la terminal:
+## Así es como se ve el sistema de archivos en una interfaz visual versus la terminal:
 
 ![Interfaz Visual vs La Terminal](https://github.com/breatheco-de/content/blob/master/src/assets/images/182ea93c-9d7d-4c8d-8153-9c1756d8cd1f.png?raw=true)
 
