@@ -128,7 +128,8 @@ Recuerda, Bootstrap es solo una hoja de estilos. Es por eso que es muy simple ag
 
 La funcionalidad de Javascript en Bootstrap requiere que se incluyan las librerías propias de jQuery y Javascript primero pero no te preocupes por esto aún. Sólo incluye las librerías de JS usando la etiqueta script y más adelante lo entenderás.
 
-> :link: Encuentra aquí [increíbles archivos de Bootstrap para que puedas empezar.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+> :link: Encuentra aquí [increíbles archivos de Bootstrap para que puedas empezar.](https://getbootstrap.com/)
+> 
 
 ## Componentes de Bootstrap 4
 
