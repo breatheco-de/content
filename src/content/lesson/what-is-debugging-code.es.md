@@ -70,7 +70,7 @@ Depurar se vuelve más desafiante a medida que tu aplicación crece y tiene más
 
 > 😎 Consejo profesional: ¿En general, cuál fue la línea de código que actualizaste por última vez? ¿Estaba en el front-end? ¿O en el back-end?
 
-Voy a suponer lo peor: no tienes idea de cuándo apareció el error por primera vez y has hecho muchos cambios desde la última vez que ejecutaste tu aplicación. Estas son las pistas que tienes para comenzar a depurar:
+Voy a suponer lo peor: no sabes cuándo apareció el error por primera vez y has hecho muchos cambios desde la última vez que ejecutaste tu aplicación. Estas son las pistas que tienes para comenzar a depurar:
 
 **En el front-end:**
 + Busca un mensaje de error en la consola del desarrollador.
