@@ -9,7 +9,7 @@ description: >-
   Embrace sharing your journey and connect with others today!
 ---
 
-If you're learning at 4Geeks—whether it's Full Stack, Cybersecurity, Vibe Coding, AI, or any other program—you should consider learning in public. This is not just a theory, it's a proven strategy for faster learning and career growth.
+If you're learning at 4Geeks, whether it's Full Stack, Cybersecurity, Vibe Coding, AI, or any other program, you should consider learning in public. This is not just a theory, it's a proven strategy for faster learning and career growth.
 
 In this article, we'll explain why it works and how to get started.
 
