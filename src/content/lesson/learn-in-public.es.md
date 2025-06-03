@@ -25,15 +25,14 @@ En este artículo te explicamos por qué funciona y cómo empezar.
 - Crear videos, dibujos o memes sobre lo que estás aprendiendo
 - Comentar y participar en foros o comunidades
 
-## ¿Por qué es tan importante?
+## ¿Por qué esto es tan importante?
 
-- Escribir y enseñar refuerzan lo que aprendes.
-- Desarrollas habilidades de comunicación y pensamiento crítico.
-- Tu familia, amigos y contactos comenzarán a verte como una persona experta en tecnología.
-- Te ayuda a combatir el síndrome del impostor, al ver que hay muchas personas pasando por lo mismo.
-- Plataformas como LinkedIn aumentan tu visibilidad cuando publicas con frecuencia.
-- Los reclutadores te van a notar—en 4Geeks lo hemos visto una y otra vez: quienes aprenden en público consiguen empleo mucho más rápido.
-- No te sentirás solo: en Twitter/X hay miles de personas compartiendo su proceso de aprendizaje todos los días, especialmente bajo hashtags como `#100DaysOfCode`, `#BuildInPublic` y `#LearnToCode`. Son comunidades activas, generosas y llenas de energía donde vas a encontrar apoyo real.
+- ¡Escribir te transforma! Cuando anotas tus ideas, tu cerebro las asimila de manera más profunda y efectiva, lo que multiplica tu aprendizaje.
+- Hablar sobre lo que aprendes te impulsa a organizar tus pensamientos y te lleva a comprender realmente el tema. Cada conversación es una oportunidad para crecer y consolidar tus conocimientos.
+- Tu familia y amigos comenzarán a notar tu progreso y confiarán cada vez más en ti. Pronto te verán como un ejemplo a seguir, acudirán a ti en busca de consejos y podrían recomendarte para nuevas oportunidades.
+- Compartir tus experiencias no solo te beneficia a ti: crearás una red de apoyo mutuo. El “síndrome del impostor” es real, pero al compartir tus desafíos descubrirás que no estás solo y recibirás la motivación y el ánimo de quienes han estado en tu lugar.
+- ¡Destácate en la red! Publicar contenido regularmente en plataformas como LinkedIn potencia enormemente la visibilidad de tu perfil y amplía tus oportunidades de forma exponencial.
+- Los reclutadores te encontrarán una y otra vez. En @4GeeksAcademy hemos comprobado que quienes aprenden y comparten sus logros en público consiguen empleo mucho más rápido. ¡Las oportunidades empezarán a tocar tu puerta antes de lo que imaginas!
 
 ## ¿Cómo empezar a aprender en público?
 
