@@ -5,7 +5,7 @@ description: >-
 ---
 Las empresas modernas ya no permiten a los desarrolladores trabajar en sus computadoras locales; usan entornos de desarrollo en la nube. Codespaces es la propuesta de GitHub para entornos de desarrollo en la nube.
 
-> **En palabras simples**: Codespaces es una tecnología que crea *en cuestión de segundos* computadoras y entornos de desarrollo en la nube, listos para ser usados por desarrolladores de software.
+> **En palabras simples**: Codespaces es una tecnología que crea *en cuestión de segundos*, computadoras y entornos de desarrollo en la nube, listos para ser usados por desarrolladores de software.
 
 Al enseñar habilidades relacionadas con la programación, los entornos de desarrollo como Codespaces se han convertido en una de nuestras principales herramientas en 4Geeks. Como estudiante, se te anima a usar estos entornos, ya que acelerarán tu aprendizaje por lo menos en un orden de magnitud, eliminando toda la fricción que conlleva la configuración y permitiéndote enfocarte en tu código.
 
