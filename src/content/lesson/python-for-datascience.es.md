@@ -10,7 +10,7 @@ description: >-
   Aprende a usar Python en Ciencia de Datos. Descubre conceptos clave, tipos de
   datos y librerías esenciales. ¡Domina Data Science hoy mismo!
 ---
-**Python** es un lenguaje de programación muy versátil y que se utiliza en multitud de casos: desarrollo de aplicaciones web (front y back), juegos para móvil, simulaciones, redes, automatizaciones... además, es el lenguaje rey para trabajar con datos y elaborar algoritmos de Inteligencia Artificial, ciencia de datos y Machine Learning. Antes de comenzar, distingamos entre los tres términos anteriores:
+**Python** es un lenguaje de programación muy versátil y que se utiliza en multitud de casos: desarrollo de aplicaciones web (front y back), juegos para móvil, simulaciones, redes, automatizaciones, entre otras. Además, es el lenguaje rey para trabajar con datos y elaborar algoritmos de Inteligencia Artificial, ciencia de datos y Machine Learning. Antes de comenzar, distingamos entre los tres términos anteriores:
 
 | Término | Definición | Amplitud | Objetivo |
 |:--------|:-----------|:---------|:---------|
