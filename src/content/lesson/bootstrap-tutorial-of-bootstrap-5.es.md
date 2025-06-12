@@ -11,9 +11,9 @@ status: "published"
 
 ## Bootstrap solucionó todos los problemas principales de CSS
 
-Hay luz al final del túnel y NO es Chuck Norris sosteniendo una linterna. Finalmente, alguien arregló CSS. Esta es una biblioteca hecha por [Mark Otto](https://twitter.com/mdo) y [Jacob Thornton](https://twitter.com/fat) – gente normal – desarrolladores como tú y yo, ¡y lo hicieron muy bien!
+Hay una luz al final del túnel y NO es Chuck Norris sosteniendo una linterna. Finalmente, alguien arregló CSS. Esta es una biblioteca hecha por [Mark Otto](https://twitter.com/mdo) y [Jacob Thornton](https://twitter.com/fat) – gente normal – desarrolladores como tú y yo, ¡y lo hicieron muy bien!
 
-Estos dos muchachos que trabajaban en Twitter sufrían los mismos problemas con los que hemos estado lidiando en HTML y CSS. Hartos de la situación, decidieron construir una **Hoja CSS básica diseñada para ser importada a cualquier sitio web**. Hace que cualquier trabajo de desarrollo front-end sea 4x más fácil.
+Estos dos muchachos que trabajaban en Twitter sufrían los mismos problemas con los que hemos estado lidiando en HTML y CSS. Hartos de la situación, decidieron construir una **Hoja CSS básica diseñada para ser importada a cualquier sitio web**. Hace que cualquier trabajo de desarrollo front-end sea mucho más fácil.
 
 ![bootstrap 5](https://github.com/breatheco-de/content/blob/master/src/assets/images/335ed387-cbf9-4ffa-9529-1ccf2084e393.jpeg?raw=true)
 
