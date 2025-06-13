@@ -65,7 +65,7 @@ Aquí hay una pequeña selección de los comandos más utilizados por un desarro
 
 **El comando de lista**
 
-El comando `ls` se usa para listar todos los archivos y directorios que forman la posición actual.
+El comando `ls` se utiliza para listar todos los archivos y directorios que forman la posición actual.
 
 ```bash
 ls -l ./applications
