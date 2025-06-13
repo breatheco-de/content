@@ -220,7 +220,7 @@ Aquí hay un ejemplo de cómo se puede ver la "Card" en un sitio web:
 
 #### El Modal
 
-Todo el mundo odia los modal, es supermolesto, ¡siempre te pide que te suscribas a un boletín informativo! 🙂
+Todo el mundo odia los modal, es súper molesto, ¡siempre te pide que te suscribas a un boletín informativo! 🙂
 
 Así es como se ve un modal por defecto en Bootstrap.
 
