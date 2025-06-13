@@ -24,7 +24,7 @@ También estás aquí porque necesitas ayuda, no solo técnica sino también esp
 
 Vamos a cambiar la forma en que te has acostumbrado a aprender, la forma en que ves la vida, la manera en que te vendes (por lo tanto, la manera en que te ves), estamos derribando las viejas ideas equivocadas sobre ti mism@, los demás y sobre tu vida profesional.
 
-### Estamos aquí para derribar 💻 3 Paredes Respecto al Código
+### Estamos aquí para derribar 💻 3 barreras Respecto al Código
 
 Durante los años que han pasado hemos identificado razones específicas por las cuales los estudiantes se frustran y dejan de intentar ser desarrolladores o no completan el curso y no consiguen trabajo.
 
@@ -34,7 +34,7 @@ Durante los años que han pasado hemos identificado razones específicas por las
 
 En algún momento de nuestras vidas (en algunos más que otros) podemos haber pensado que no somos la persona más lista de una sala. Si continuamos pensando eso durante mucho tiempo y no nos sentimos cómodos con ninguna disciplina, incluso podemos llegar a pensar que no somos inteligentes. ¡Mentira! ¡Nada que ver! Eres parte de esta academia, no aceptamos personas que no creemos que sean lo suficientemente inteligentes como para ganarse la vida como desarrolladores. ¡Tienes que creer eso, especialmente en tiempos difíciles!
 
-> Si algún ejercicio o proyecto en particular te parece difícil, en vez de pensar que no sirves para esto, busca nuevas maneras de asimilar el contenido. Habla con un mentor y te daremos exactamente lo que necesitas.
+> Si algún ejercicio o proyecto en particular te parece difícil, en vez de pensar que no sirves para esto, busca nuevas maneras de asimilar el contenido. Habla con un mentor y te daremos exactamente lo que necesitas pero esta en ti en no desistir en tu aprendizaje "Nunca vas a fallar, si nunca te rindes"
 
 Cualquier persona en general puede aprender a programar; la programación se vuelve más complicada cuando te especializas más en tu carrera (Inteligencia Artificial, Robótica, etc.). Puedes ganar una buena cantidad de dinero sin tener que haber estudiado matemáticas, sin ser bueno con los números o sin aprender tan rápido como otros (es posible que podamos arreglar eso, por cierto). 
 
