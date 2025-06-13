@@ -53,7 +53,7 @@ La depuración de código de front-end se puede dividir en 4 grupos principales:
 
 #### ¿Es un error de back-end?
 
-Los errores de back-end suelen ser más fáciles de encontrar porque hay menos tecnologías involucradas; las tecnologías y lenguajes son más limpios y maduros, y generalmente, el código se ejecuta de manera más directa de arriba hacia abajo.
+Los errores de back-end suelen ser más fáciles de encontrar porque hay menos herramientas involucradas; las tecnologías y lenguajes son más limpios y maduros y, generalmente, el código se ejecuta de manera más directa de arriba hacia abajo.
 
 > Nota: Hay arquitecturas de back-end más complejas con código asíncrono, herramientas basadas en la nube, microservicios, etc. Nos centraremos en sistemas de back-end más pequeños y estándar que usan la mayoría de las pequeñas y medianas empresas.
 
