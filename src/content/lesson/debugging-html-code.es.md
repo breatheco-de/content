@@ -60,7 +60,7 @@ Todos los principales navegadores tienen herramientas de desarrollo, la primera 
 
 El inspector de herramientas de desarrollo muestra una **versión en vivo** de tu código en lugar de tu código fuente original. Esta "versión en vivo" se llama "DOM". Es lo que el navegador pudo interpretar de tu código. Estos son algunos casos que hacen que el inspector sea excelente:
 
-+ **Si tu sitio web no se ve como lo habías planeado**: Usa el menú del botón derecho del mouse y busca la opción "inspeccionar". Mostrará los elementos HTML que el navegador creó alrededor de esa área.
++ **Si tu sitio web no se ve como lo habías planeado**: Usa el menú del botón derecho del ratón y busca la opción "inspeccionar". Mostrará los elementos HTML que el navegador creó alrededor de esa área.
 + **Si has escrito código HTML incorrecto**: El navegador intentará corregirlo para que se muestre correctamente, pero esto solo a veces dará como resultado el diseño deseado. Cuando utilices el inspector de herramientas de desarrollo, verás el código HTML que el navegador interpreta, que puede ser diferente del código fuente original si el navegador ha realizado algunas correcciones.
 
 <details>
