@@ -9,7 +9,7 @@ Esta lección definirá GitHub.com, lo explicará y revisará sus característic
 
 ## ¿Qué es GitHub?
 
-GitHub.com es el epicentro de tu viaje como desarrollador, cientifico de datos o especialista en ciberseguridad; interactuarás con GitHub tanto que ni siquiera podemos enumerar todas las cosas que puedes hacer; aquí hay algunos ejemplos:
+GitHub.com es el epicentro de tu viaje como desarrollador, científico de datos o especialista en ciberseguridad; interactuarás con GitHub tanto que ni siquiera podemos enumerar todas las cosas que puedes hacer; aquí hay algunos ejemplos:
 
 - GitHub es donde guardas tus proyectos y archivos todas las noches: como un disco duro.
 - Es tu portafolio profesional: como un currículum u hoja de vida.
