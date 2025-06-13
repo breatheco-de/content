@@ -9,7 +9,7 @@ status: "published"
 
 ---
 
-## Bootstrap solucionó todos los problemas principales de CSS
+## Bootstrap solucionó todos los problemas principales de CSS.
 
 Hay luz al final del túnel y NO es Chuck Norris sosteniendo una linterna. Finalmente, alguien arregló CSS. Esta es una biblioteca hecha por [Mark Otto](https://twitter.com/mdo) y [Jacob Thornton](https://twitter.com/fat) – gente normal – desarrolladores como tú y yo, ¡y lo hicieron muy bien!
 
@@ -19,12 +19,12 @@ Estos dos muchachos que trabajaban en Twitter sufrían los mismos problemas con 
 
 Además, Bootstrap te ofrece una docena de elementos nuevos que normalmente querrías usar, pero que en realidad no existen en CSS+HTML: los componentes de Bootstrap.
 
-## Layouts (Diseños): Resolviendo el modelo de caja
+## Layouts (Diseños): Resolviendo el modelo de caja.
 
 
 Una de las cosas que fallan en CSS es la forma en que funcionan los layouts: trabajar con **float**, **display** y **position** apesta. Así lo resolvió Bootstrap:
 
-## Ahora todo está dividido en Filas y Columnas
+## Ahora todo está dividido en Filas y Columnas.
 
 Los creadores de Bootstrap replicaron el mismo concepto que tenía `<table>`, pero en lugar de usar tablas, usaron `<div>` (contenedores en caja). No pueden crear sus propias etiquetas HTML porque eso requerirá una nueva versión de HTML y haría que Bootstrap sea incompatible con los navegadores actuales. Las etiquetas deben permanecer igual; es por eso que decidieron anular los comportamientos predeterminados de `<div>` con clases.
 
@@ -68,7 +68,7 @@ Tamaños de dispositivos Bootstrap:
 
 > 👆 Nota: si no especificas el tamaño de la pantalla (por ejemplo, si usa 'sm', 'md' o 'xl'), el sitio web se mostrará para teléfonos móviles de forma predeterminada.
 
-## Definiendo móvil, tableta y computador de escritorio al mismo tiempo
+## Definiendo móvil, tableta y computador de escritorio al mismo tiempo.
 
 Vamos a configurar el layout (usando las clases de columna sm, md y lg) para dos filas en todos los dispositivos al mismo tiempo:
 
@@ -131,7 +131,7 @@ La funcionalidad Bootstrap JavaScript requiere que se incluya primero la bibliot
 
 > 🔗 Aquí puedes encontrar la [documentación de Bootstrap para comenzar](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 
-## Componentes de Bootstrap 5 
+## Componentes de Bootstrap 5.
 
 HTML es tan básico que solo tiene unas pocas etiquetas, eso ya lo sabemos. Pero cuando navegas por la web hoy, ves algo diferente: los sitios web de hoy tienen menús, íconos, barras de carga, barras de navegación, etiquetas, etc. ¿Dónde están esas etiquetas? ¡Ninguna de esas etiquetas está definida en HTML!
 
