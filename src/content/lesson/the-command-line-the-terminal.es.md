@@ -180,10 +180,9 @@ Esta es una de las cosas que no puedes evitar hacer en la terminal. Como desarro
 
 ### El comando nano
 
-**No es realmente un comando, sino una aplicación de edición de texto con el nombre de "Nano".**
+**Aunque comúnmente se le llama “comando”, nano en realidad es una aplicación de edición de texto con el nombre Nano.**
 
-Cuando trabajes con la línea de comandos, a veces tendrás que abrir un archivo para revisarlo e incluso para cambiarlo. Para eso, usamos el comando `nano`. Nano básicamente abre un editor de texto dentro de la línea de comando.
-
+Cuando trabajas con la línea de comandos, a veces necesitarás abrir archivos para revisarloo y/o modificarlos. Para eso, usamos el comando `nano`. que abre un editor de texto dentro de la propia terminal.
 ```bash
 nano path/to/the/textfile.txt
 # Abre un editor de texto para comenzar a editar el contenido de textfile.txt
