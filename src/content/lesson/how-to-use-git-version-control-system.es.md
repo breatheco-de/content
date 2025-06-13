@@ -187,7 +187,7 @@ Después de hacer checkout en el *\[new-head\]*, fijarás los head. Ahora puedes
 
 ## Fusionando
 
-Una vez que hayas terminado de implementar una nueva fusión en una rama, querrás traer esa nueva fusión a la rama principal, para que todos puedan usarla. Puedes hacerlo con el comando `git merge` o `git pull`.
+Una vez que hayas terminado de implementar una nueva funcionalidad en una rama, querrás traerla a la rama principal, para que todos puedan usarla. Puedes hacerlo con el comando `git merge` o `git pull`.
 
 La sintaxis del comando es la siguiente:
 
