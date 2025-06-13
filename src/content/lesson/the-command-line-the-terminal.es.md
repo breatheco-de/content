@@ -24,7 +24,7 @@ Pero, ¿por qué les gusta a los desarrolladores? Bueno, la lista es infinita, p
 + Es superpoderosa. Puedes hacer mucho más en mucho menos tiempo, por ejemplo: eliminar de forma masiva, cambiar nombres, buscar archivos, editar archivos, etc.
 + Te obliga a usar el teclado. Como no puedes usar el ratón, te hace más rápido, cometes menos errores y el entorno es exactamente el mismo en todas las computadoras.
 
-## ¿Cómo funciona?
+## ¿Cómo se usa?
 
 La consola es realmente simple: es una pantalla negra que siempre está esperando un *comando*. Después de escribir el comando deseado y de haber presionado la tecla `enter`, la computadora lo ejecuta y muestra algún feedback con el resultado en la pantalla. Una simple interfaz de **Pregunta** <> **Respuesta**.
 
