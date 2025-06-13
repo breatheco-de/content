@@ -56,7 +56,7 @@ Sabemos cómo enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseña
 
 1. **¡Sigue el método!** ¿Cómo sabes que no funciona si no lo intentas adecuadamente? ¡Haz las tareas ANTES de ir a clase! Sigue el programa en el orden recomendado, haz los pequeños ejercicios antes de saltar a los proyectos, asiste a cada clase, no leas libros que te retrasarán, etc.
 
-2. **Pregunta ¿Por qué?** Podemos enseñarte y decir mucho, pero necesitamos que hagas preguntas cuando empieces a dudar de nuestros métodos. Todo lo que hacemos es por una razón y estoy seguro de que podremos explicarte el "por qué".
+2. **Pregunta: ¿Por qué?** Podemos enseñarte y decir mucho, pero necesitamos que hagas preguntas cuando empieces a dudar de nuestros métodos. Todo lo que hacemos es por una razón y estoy seguro de que podremos explicarte el "por qué".
 
 3. **Sé humilde:** Hay muchos estudiantes que han completado el curso con éxito siguiendo el método. Algunos trabajan en Google, Amazon u otra gran empresa a nivel mundial. Por favor, sé humilde e intenta seguir el curso como es. Puedes hablar con nosotros si tienes alguna idea sobre alguna mejora; también tenemos la humildad para ser abiertos e intentar algo nuevo que podría funcionar.
 
