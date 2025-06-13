@@ -76,6 +76,8 @@ Estos números no son pequeños, un 60% en un día y un 90% si no practicas en u
 
 4. **Involúcrate:** Asistir a clases no es suficiente, los seres humanos son emocionales, integran mejor la información cuando están comprometidos emocionalmente, asistiendo a eventos y estudiando en grupos, hablando públicamente al respecto, etc.
 
+ **_“El código no juzga, no tiene sentimientos ni prejuicios. No le importa si estás bien o mal, si eres experto o principiante. Simplemente ejecuta lo que le dices, sin pausas ni excusas. Por eso, como programadores, debemos aprender a adaptarnos con paciencia y mente abierta, viendo cada error no como un fracaso, sino como una oportunidad para mejorar y crecer. Mantener una actitud positiva frente a los desafíos es clave para dominar el arte de programar.”_**
+
 ### ¿Qué sigue?
 
 Asegúrate de entender bien cómo funciona la academia:
