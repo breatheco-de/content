@@ -16,7 +16,8 @@ Si estás interesado en depurar otros lenguajes o tecnologías, aquí está nues
 
 ## Prevención de errores
 
-Esta guía trata de solucionar un error, pero vale la pena mencionar cómo prevenir la mayoría de los errores desde el principio:
+Esta guía esta enfocada en corregir errores, vale la pena mencionar cómo prevenir la mayoría de los errores desde el principio:
+
 + **ABC = Always Be Closing** (siempre cierra) los tags como prioridad. Si abres un tag `<p>`, ¡Ciérralo inmediatamente! Así: `<p></p>` y luego procede a llenar el contenido HTML interno.
 + **Usa un formateador de código** que indente tu código automáticamente. La mayoría de los errores al principio surgen porque tu código es desordenado y desafiante de seguir con tus ojos. Terminas abriendo/cerrando tags en el lugar equivocado.
 
@@ -58,7 +59,7 @@ Todos los principales navegadores tienen herramientas de desarrollo, la primera 
 
 ![Inspector de código HTML](https://i.imgur.com/Fca0Hkm.gif?raw=true)
 
-El inspector de herramientas de desarrollo muestra una **versión en vivo** de tu código en lugar de tu código fuente original. Esta "versión en vivo" se llama "DOM". Es lo que el navegador pudo interpretar de tu código. Estos son algunos casos que hacen que el inspector sea excelente:
+El inspector de herramientas de desarrollo muestra una **versión en vivo** de tu código en lugar de tu código fuente original. Esta "versión en vivo" se llama "DOM"(Document Object Model). Es lo que el navegador pudo interpretar de tu código. Estos son algunos casos que hacen que el inspector sea excelente:
 
 + **Si tu sitio web no se ve como lo habías planeado**: Usa el menú del botón derecho del mouse y busca la opción "inspeccionar". Mostrará los elementos HTML que el navegador creó alrededor de esa área.
 + **Si has escrito código HTML incorrecto**: El navegador intentará corregirlo para que se muestre correctamente, pero esto solo a veces dará como resultado el diseño deseado. Cuando utilices el inspector de herramientas de desarrollo, verás el código HTML que el navegador interpreta, que puede ser diferente del código fuente original si el navegador ha realizado algunas correcciones.
@@ -75,7 +76,7 @@ El inspector de herramientas de desarrollo muestra una **versión en vivo** de t
 
 ### 3) Depuración de HTML dentro de tu Editor de Código (IDE)
 
-La última herramienta de depuración crucial para HTML es un IDE o editor de código. La mayoría de los IDE ofrecen las siguientes características:
+La última herramienta de depuración crucial para HTML es un IDE o editor de código(VS CODE, JetBrains...). La mayoría de los IDE ofrecen las siguientes características:
 + **Resaltado de sintaxis**: Los colores ayudan a distinguir visualmente diferentes partes del código HTML, como tags, atributos y valores, lo que facilita la identificación de errores.
 + **Linting**: Algunos editores tienen linter incorporados que pueden verificar tu código HTML para errores y problemas potenciales y resaltarlos en el editor.
 + **Validación**: Algunos editores pueden validar tu código HTML contra los estándares de W3C y mostrar mensajes de error si hay algún problema.
