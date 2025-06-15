@@ -253,7 +253,7 @@ Cada componente tendrá método de renderizado. El documento HTML resultante est
 
 ## El Ejemplo de YouTube.com
 
-En la estructura de tu aplicación, puedes tomar un resaltador y comenzar a marcar todos los componentes que tendrá tu aplicación. Los más fáciles son los componentes típicos de Bootstrap: NavBar, Card, etc. También debieras definir tus propios componentes.
+En la estructura de tu aplicación, puedes tomar un resaltador y comenzar a marcar todos los componentes que tendrá tu aplicación. Los más fáciles son los componentes típicos de Bootstrap: NavBar, Card, etc. También deberías definir tus propios componentes.
 
 En este caso, hemos decidido crear los siguientes componentes basados en el sitio web de YouTube:
 
