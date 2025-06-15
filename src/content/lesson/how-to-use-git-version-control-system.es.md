@@ -67,11 +67,12 @@ Al principio, un proyecto siempre tiene un commit object sin padre. Este es el p
 
 ## Un Head es una Lista de Commits
 
-Los heads de un repositorio son como el "historial de revisión de un proyecto". Un historial de revisión es una lista de commit objects que contienen todos los cambios que tú y los demás miembros de tu equipo han realizado en los archivos del proyecto.
+En un repositorio de Git, un head funciona como el historial de revisión del proyecto. Este historial es una lista de commit objects que registran todos los cambios realizados por ti y los demás miembros del equipo en los archivos del proyecto.
 
-Cada vez que hagas un nuevo commit, el head se moverá a ese nuevo commit. De esta manera, tú puedes tener acceso a todo el historial de commits del proyecto.
+Cada vez que realizas un nuevo commit, el head se actualiza automáticamente para apuntar a ese nuevo commit, permitiéndote acceder al historial completo del proyecto.
 
-Puedes **mover el head** si quieres. No necesariamente tiene que ser siempre el último commit, pero debes recordar que solo puedes revisar los commits que vinieron antes del commit al que apunta el head. **No se pueden revisar los commits hechos después del commit al que apunta el head.**
+Sin embargo, puedes **mover el head** a cualquier commit anterior si lo necesitas. Esto te permite revisar versiones anteriores del proyecto.
+Pero ten en cuenta que solo podrás acceder a los commits anteriores al commit al que apunta el head. **No podrás ver los commits realizados después del commit actual del head**.
 
 ![cómo usar git](https://github.com/breatheco-de/content/blob/master/src/assets/images/79da625d-d7bc-409a-a044-9e60ae6a1a2b.png?raw=true)
 
