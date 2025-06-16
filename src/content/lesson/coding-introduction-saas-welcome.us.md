@@ -4,6 +4,9 @@ description: >-
   Join the 4Geeks.com Coding Introduction Program! Master coding with
   hands-on tutorials, AI support, and mentoring. Discover your tech career
   today!
+technologies:
+  - html-css
+  - javascript
 ---
 Welcome aboard! 🎉 We're thrilled to have you join our Coding Introduction program. This journey is designed to equip you with the skills and knowledge needed to start your career in tech. No previous experience? No problem! We're here to guide you every step of the way.
 
