@@ -35,7 +35,7 @@ Si haces clic en uno de los tags, la pestaña `Estilos` mostrará qué estilos s
 
 Estos son algunos de los errores más difíciles de depurar:
 
-### Estilos que no se aplican
+### Estilos que no se aplican:
 
 ¿Recuerdas alguna vez en tu historia de desarrollador cuando intentaste aplicar un estilo a un elemento pero no pasaba nada? No importa lo que hicieras, el elemento seguía igual.
 
@@ -54,7 +54,7 @@ Esto puede suceder por varias razones:
 
 > 🔥 Debemos recordar que muchos estilos se aplican simultáneamente a los elementos; el navegador combina todas las reglas heredadas de todos los selectores que has creado.
 
-### ¿Tu estilo no se está aplicando?
+### ¿Tu estilo no se está aplicando?:
 
 Usa la pestaña **Elementos** de las herramientas de desarrollador y busca el tag que quieres revisar. Haz clic en el tag y revisa los estilos que se le están aplicando.
 
@@ -64,7 +64,7 @@ Si no ves tu estilo CSS, es probablemente por un error de ortografía o una lóg
 
 > Nota: La clase `blue` se escribió mal con `bluee`, por lo que los estilos no se aplicaron.
 
-### Comprueba los estilos y reglas de conflicto de CSS
+### Comprueba los estilos y reglas de conflicto de CSS:
 
 Cuando uses la pestaña **Elementos** de las herramientas de desarrollador, haz clic en cualquier elemento y la pestaña **Estilos** mostrará todos los estilos que se están aplicando.
 
@@ -74,21 +74,21 @@ Si un estilo se ve anulado por otro, ambos se mostrarán, pero uno estará tacha
 
 > Nota: En la imagen de arriba, la regla CSS `color` se anula dos veces.
 
-## Otras cosas para prevenir
+## Otras cosas para prevenir:
 
 CSS tiene algunos temas difíciles de entender que te pueden seguir durante años y crear muchos errores, así que ten cuidado y tómate el tiempo para entenderlos bien.
 
-## Posicionamiento absoluto vs relativo
+## Posicionamiento absoluto vs relativo:
 
 No uses la propiedad `position` para diseños, usa `display: flex;` en su lugar.
 
 Yo uso la regla `position` para cosas pequeñas como adjuntar una burbuja de notificación a un icono. Aquí hay un video de 10 minutos sobre [cómo funcionan la posición absoluta vs relativa](https://www.loom.com/share/3715da41c2ec45be8711c4f8944e406b).
 
-## Flexbox para hacer layouts
+## Flexbox para hacer layouts:
 
 La herramienta más poderosa para construir diseños es flexbox. [Aquí hay un video de 5 minutos sobre cómo funciona](https://www.youtube.com/watch?v=ZRc2vUF92e8).
 
-## Domina los selectores CSS
+## Domina los selectores CSS:
 
 Tómate un tiempo para dominar los selectores CSS básicos y avanzados; aquí hay algunos recursos:
 
