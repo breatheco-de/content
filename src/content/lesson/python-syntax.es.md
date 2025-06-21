@@ -133,9 +133,9 @@ Las listas se utilizan ampliamente en todos los lenguajes de programación, espe
 
 ## Algoritmos de Python
  
-Después de conocer lo básico de Python puedes empezar a construir algoritmos:
+Después de conocer lo básico de Python, puedes empezar a construir algoritmos.
 Un algoritmo es una sucesión de líneas de código con un propósito en común.
-Las líneas de código van de arriba a abajo (desde la línea 1 hasta la línea N)
+Las líneas de código van de arriba a abajo (desde la línea 1 hasta la línea N).
 Por ejemplo, el siguiente es un algoritmo muy sencillo que imprime el nombre completo del nombre y apellido dados.
 
 ```python runable=true
