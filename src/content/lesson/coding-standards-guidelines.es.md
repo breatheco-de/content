@@ -33,7 +33,7 @@ Algunas de las convenciones de nomenclatura se dan a continuación:
 
 - Los nombres de variables significativos y comprensibles ayudan a todos a entender el motivo de su uso.
 - Las variables generales deben nombrarse en `camelCase` para [Javascript, Node, Java, etc.](https://en.wikipedia.org/wiki/Camel_case) Y en `snake_case` para [Python, Ruby, etc.](https://en.wikipedia.org/wiki/Snake_case) Aquí puedes leer más sobre [convenciones de nomenclatura de variables](https://4geeks.com/lesson/variable-naming-conventions).
-- Las variables constantes se nombran en LETRAS MAYÚSCULAS.
+- Las variables constantes se nombran en letras MAYÚSCULAS.
 - Es mejor evitar el uso de dígitos en los nombres de variables.
 - Los nombres de las funciones deben escribirse en `camelCase` comenzando con letra minúscula.
 - El nombre de una función debe describir claramente y brevemente el motivo de usar la función.
