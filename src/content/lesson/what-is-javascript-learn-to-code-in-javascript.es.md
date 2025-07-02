@@ -194,7 +194,7 @@ Los computadores piensan todo en blanco o negro. Todo es verdadero o falso. Toda
 
 Por ejemplo, si quiero un computador para dar dulces solo a niños mayores de 13 años de edad, puedo indicarle al computador que pregunte:
 
-**¿La edad de este niño es mayor de 13 años? ¿Sí o no?**
+**¿La edad de este niño es mayor de 13 años? ¿Sí o No?**
 
 **En JavaScript, puedes indicarle a la computadora que realice las siguientes operaciones lógicas:**
 
