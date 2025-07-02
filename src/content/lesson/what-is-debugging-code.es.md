@@ -80,7 +80,7 @@ Voy a suponer lo peor: no tienes idea de cuándo apareció el error por primera 
 + Si estás construyendo en un servidor: revisa el registro de solicitudes.
 + Busca excepciones en la terminal.
 
-Hay un 99% de probabilidades de que tu error aparezca en cualquiera de estas salidas, pero eso no significa que el error pertenezca al front o al back-end; primero debes leer el error.
+Hay un 99% de probabilidades de que tu error aparezca en cualquiera de estas salidas, pero eso no significa que el error pertenezca al front-end o al back-end; primero debes leer el error.
 
 #### Leyendo errores de la consola del desarrollador
 
