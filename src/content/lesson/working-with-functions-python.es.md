@@ -54,8 +54,8 @@ print(str(resultado_2))  # Imprime: 10
 
 Veamos esta función que dado un número de invitados permite calcular el costo de organizar una fiesta con el siguiente algoritmo:
 
-1. Primero se debe conocer el número de invitados (se le debe pasar como parámetro a la función)
-2. El costo general de una fiesta es de 10 dólares por invitados
+1. Primero se debe conocer el número de invitados (se le debe pasar como parámetro a la función).
+2. El costo general de una fiesta es de 10 dólares por invitados.
 3. Si hay más de 200 invitados se ofrece un descuento de un 10%.
 
 ```python
