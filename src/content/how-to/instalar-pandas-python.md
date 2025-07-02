@@ -51,7 +51,7 @@ Esta información puede variar dependiendo de la versión de **Pandas** que teng
 Para instalar Pandas, primero debes asegurarte de que tienes instalado **Python** y el administrador de paquetes **pip** en tu ordenador, para esto debes abrir una terminal, luego ejecutar los siguientes comandos:
 
 ```bash
-$ python --version # verifica si tienes Python instalado
+$ python --version # Verifica si tienes Python instalado
 
 $ pip --version # Verifica si tienes el paquete pip instalado
 ```
@@ -81,7 +81,7 @@ $ pip show pandas
 
 Pandas en una biblioteca de Python que te permite analizar y manipular datos, esta biblioteca es ampliamente utilizada en el desarrollo con Python en áreas como la ciencia de datos (Data science), [Machine learning](https://4geeksacademy.com/us/machine-learning-engineer/machine-learning-engineer), Inteligencia artificial entre muchas otras. 
 
-Una ventaja de Pandas es que la puedes integrar con otras librerías de Python como la librería de NumPy, la integración de Pandas con NumPy te permite realizar análisis de datos y operaciones matematicas avanzadas junto con la visualización de datos de una forma más eficiente.
+Una ventaja de Pandas es que la puedes integrar con otras librerías de Python como la librería de NumPy, la integración de Pandas con NumPy te permite realizar análisis de datos y operaciones matemáticas avanzadas junto con la visualización de datos de una forma más eficiente.
 
 ## ¿Cómo actualizar la versión de Pandas?
 
