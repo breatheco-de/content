@@ -13,7 +13,7 @@ GitHub.com es el epicentro de tu viaje como desarrollador, data scientist o espe
 
 - GitHub es donde guardas tus proyectos y archivos todas las noches: como un disco duro.
 - Es tu portafolio profesional: como un currículum u hoja de vida.
-- Es la tecnología necesaria para colaborar con tus collegas.
+- Es la tecnología necesaria para colaborar con tus colegas.
 - Tu perfil de GitHub es revisado por reclutadores al considerar contratarte.
 - También puedes conocer a otros especialistas y proyectos o bibliotecas interesantes: Similar a LinkedIn pero mas técnico.
 
