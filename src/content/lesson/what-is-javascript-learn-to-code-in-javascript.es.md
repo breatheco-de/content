@@ -73,6 +73,8 @@ Como aprendimos anteriormente, usamos la palabra clave `var` para declarar una v
 **Var**: Las variables declaradas con `var` dentro de una función solo son accesibles dentro de esa misma función. Esto significa que la variable se mantendrá  durante toda la función, incluso si hay más de un bloque de código en la función.
 Si declaras una variable con `var` fuera de cualquier función, se convierte en una variable global. Se puede acceder a ella desde cualquier lugar en tu código.
 
+> Nota sobre `var`: Aunque `var` sigue siendo funcional en JavaScript, en el desarrollo moderno (ES6+) se considera obsoleto y se recomienda usar `let` y `const` en su lugar
+
 > :link: [Lee más sobre `var`, `let` y `const`](http://wesbos.com/let-vs-const/)
 
 Los valores de las variables están sujetos a cambios en el tiempo. Para recuperar un valor variable, puede imprimir el valor en la pantalla en cualquier momento. Cada lenguaje de programación tiene sus propios métodos para imprimir; así es como lo haces en JavaScript:
