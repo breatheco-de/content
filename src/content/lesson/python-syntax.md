@@ -29,7 +29,7 @@ When you compare it to other backend languages, Python is leading in almost ever
 
 |Simplicity       |Performance    |
 |:---------------:|:------------------:|
-| Python was meant to be simple and easy. Here is the Python manifest:<br>https://en.wikipedia.org/wiki/Zen_of_Python<br><br>**Note:** No more semicolons or curly brackets anymore, declaring variables, or the confusing `this` functionality.     | Python is faster than Java, PHP, Ruby and 90% of the other backend languages. Only low-level languages like C++ (hard to use) or very specialized ones, like Node.js can beat it.<br><br>Python's scalability has been proven over and over with applications like Google Search Engine, YouTube, Google Apps, etc.     |
+| Python was meant to be simple and easy. Here is the Python manifest:<br>https://en.wikipedia.org/wiki/Zen_of_Python<br><br>**Note:** No more semicolons or curly brackets, declaring variables, or the confusing `this` functionality.     | Python is faster than Java, PHP, Ruby and 90% of the other backend languages. Only low-level languages like C++ (hard to use) or very specialized ones, like Node.js can beat it.<br><br>Python's scalability has been proven over and over with applications like Google Search Engine, YouTube, Google Apps, etc.     |
 
 
 |Community        |Tools         |
