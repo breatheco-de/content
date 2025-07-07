@@ -208,6 +208,6 @@ For this to work it was necessary to use the state of the reducer and replace th
 
 ## And that's it
 
-We have seen the advantages of useReducer and now we know how to extract the logic and the state to a reducer exported on an external file that can be reused by other components. This doesn't mean you have to dish out `useState` entirely and only use `useReducer`. Like everything in coding is about using the right tool for the right job. You can learn more about React and the great tools it has [in this category](https://4geeks.com/technology/reactjs)
+We have seen the advantages of useReducer and now we know how to extract the logic and the state to a reducer exported on an external file that can be reused by other components. This doesn't mean you have to dish out `useState` entirely and only use `useReducer`. Everything in coding is about using the right tool for the right job. You can learn more about React and the great tools it has [in this category](https://4geeks.com/technology/reactjs)
 
 The reducers are ideal when we have a lot of functions associated with a single state, and turns out convenient to group logic and data. This can happen in a scenario of great complexity o when you need to reuse functions and their state across many components, then you will have the mighty tool **useReducer** in your arsenal.
