@@ -91,7 +91,7 @@ For example: Let’s say that you are starting to develop the "Login" feature/fu
 
 ## Starting a New Repo `git init`
 
-You can create a new repository whenever you want during the project, it does not have to be at the beginning! The only essential thing to do is that the project has no other repository that has already been created.
+You can create a new repository whenever you want during the project, it does not have to be at the beginning! The only essential thing to do is to make sure that the project has no other repository that has already been created. 
 
 To create a repository, navigate in your command line to the root directory of the project and run the command `git init`. Remember that the directory does not need to be empty.
 
