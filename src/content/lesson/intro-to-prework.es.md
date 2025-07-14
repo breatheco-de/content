@@ -19,7 +19,7 @@ Todos conocemos la importancia, el crecimiento y el impacto de la industria tecn
 |----------------------|----------------------|-----------------------------|
 | United States        | $80,000 - $100,000   | $60,000 - $80,000           |
 | Florida, USA         | $70,000 - $90,000    | $50,000 - $70,000           |
-| Spain                | €40,000 - €60,000    | €30,000 - €45,000           |
+| Spain                | €40,000 - €60,000    | €18,000 - €25,000           |
 | Mexico               | MXN 500,000 - MXN 700,000 | MXN 300,000 - MXN 500,000 |
 | Brazil               | BRL 80,000 - BRL 120,000 | BRL 50,000 - BRL 80,000   |
 | United Kingdom       | £70,000 - £90,000     | £45,000 - £60,000         |
