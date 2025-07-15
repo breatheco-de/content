@@ -12,7 +12,7 @@ En esta guía rápida, cubriremos cómo instalar NVM en computadoras con Windows
 
 -  [Instalar nvm en Windows](https://4geeks.com/how-to/nvm-install-windows).
 -  [Instalar nvm en macOS](https://4geeks.com/how-to/install-node-nvm-mac-osx).
--  [Instalar nvm en Linux](https://4geeks.com/how-to/nvm-install-linux).
+-  [Instalar nvm en Linux](https://4geeks.com/how-to/install-nvm-linux?search=nvm).
 
 > Dado que NVM se ejecuta en [la línea de comandos](https://4geeks.com/technology/command-line), asumiremos que tienes algunos conocimientos básicos sobre qué es y cómo usar la línea de comandos.
 
