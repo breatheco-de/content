@@ -123,8 +123,8 @@ Estos pasos de solución de problemas deberían ayudarte a abordar los problemas
 
 Si bien esta guía se centra en Linux, también es posible instalar NVM en otros sistemas operativos:
 
-- Para usuarios de macOS, los pasos de instalación son similares a los de Linux. Instrucciones más detalladas se pueden encontrar en nuestra [guía dedicada a instalar NVM en macOS](/how-to/install-node-nvm-mac-osx).
-- Los usuarios de Windows pueden usar NVM-Windows, una variante diferente adecuada para entornos Windows. Consulta nuestra [guía sobre cómo instalar NVM en Windows](/how-to/nvm-install-windows) para más información.
+- Para usuarios de macOS, los pasos de instalación son similares a los de Linux. Instrucciones más detalladas se pueden encontrar en nuestra [guía dedicada a instalar NVM en macOS](https://4geeks.com/es/how-to/como-instalar-nvm-en-mac-os-node-js-y-npm).
+- Los usuarios de Windows pueden usar NVM-Windows, una variante diferente adecuada para entornos Windows. Consulta nuestra [guía sobre cómo instalar NVM en Windows](https://4geeks.com/es/how-to/como-instalar-nvm-en-windows) para más información.
 
 ### ¿Qué es NVM?
 
