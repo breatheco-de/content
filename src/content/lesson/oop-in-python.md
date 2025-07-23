@@ -115,7 +115,7 @@ Example:
 
 ```py  runable=true
 class Person:
-    def __init__(self, name, lastmame, citizenship):
+    def __init__(self, name, lastname, citizenship):
         self.name = name
         self.lastname = lastname
         self.citizenship = citizenship
