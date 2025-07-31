@@ -73,35 +73,39 @@ From the moment a website starts being loaded, the browser creates a hierarchy t
 
 ## How Do I Access Any Object in the DOM?
 
-Just like we did with CSS, we can select any element in the document.  There are various methods that allow us to target the element that we want. The most current methods are: 
+Just like we did with CSS, we can select any element in the document. There are various methods that allow us to target the element that we want. The most commonly used modern methods are:
 
 ### document.querySelector("#some-id")
-
 Returns an instance of **the first element** which matches the CSS selector that you specified.
 
+*Best for: Complex CSS selectors and when you only need the first matching element.*
+
 ### document.querySelectorAll(".some-class")
+Returns a NodeList with **all** elements which match the CSS selector.
 
-Returns a list (similar to JavaScript array) with **all** elements which match the CSS selector.
+*Best for: Complex CSS selectors when you need all matching elements, or when you want a static snapshot.*
 
-It is preferable that you use these two methods in your work. 
-
-**Other methods which are now considered deprecated but you may see in some code examples:**
+**Other methods that are still widely used and fully supported:**
 
 ### document.getElementById("elementId")
-
 Returns an instance of the element with the `id="elementId"` in the HTML document.
 
-### document.getElementsByClassName("exampleClass")
+*Best for: Fast selection of a single element by ID - this is the fastest DOM selection method.*
 
-Returns an array of all elements with the `class="exampleClass"` in their HTML tag property.
+### document.getElementsByClassName("exampleClass")
+Returns a live HTMLCollection of all elements with the `class="exampleClass"` in their HTML tag property.
+
+*Best for: When you need a live collection that automatically updates as elements are added/removed from the DOM.*
 
 ### document.getElementsByTagName("p")
+Returns a live HTMLCollection with all the instances representing each paragraph element in the HTML document.
 
-Returns an array with all the instances representing each paragraph element in the HTML document.
+*Best for: Selecting all elements of a specific HTML tag type, especially when you need live updates.*
 
 ### document.getElementsByName("name_value")
+Returns a NodeList with all the elements that have `name="name_value"` in the *name* property of their HTML tag in the HTML document.
 
-Returns an array with all the elements that have `name="name_value"` in the *name* property of their HTML tag in the HTML document.
+*Best for: Form elements and inputs where the name attribute is used for form submission.*
 
 ```javascript
 let elem = document.getElementById("xyz");
