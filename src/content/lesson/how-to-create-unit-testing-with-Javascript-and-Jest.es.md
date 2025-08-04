@@ -13,7 +13,7 @@ description: >-
 ---
 Los seres humanos cometen errores, todo el tiempo. A medida que avances en tu carrera de desarrollador te sentirás más cómodo con eso.
 
-Los desarrolladores Senior entienden que su código tendrá errores (no importa cuan inteligente sean) y que la única forma de que tenga calidad es escribiendo código adicional, a eso le llamamos "Pruebas unitarias", aquí aprenderás por qué y cómo hacerlo.
+Los desarrolladores Senior entienden que su código tendrá errores (no importa cuán inteligente sean) y que la única forma de que tenga calidad es escribiendo código adicional, a eso le llamamos "Pruebas unitarias", aquí aprenderás por qué y cómo hacerlo.
 
 Hay varias maneras de probar tus aplicaciones, pero las pruebas unitarias son la herramienta más poderosa que tiene un desarrollador para asegurar un código de alta calidad.
 
