@@ -14,7 +14,7 @@ HTML Code is difficult to debug initially, but it's easy to grasp if you follow 
 
 If you are interested in debugging other languages or technologies, here is our full guide about [what is debugging](https://4geeks.com/lesson/what-is-debugging-code) and how to become a master of debugging when coding front-end and back-end web development.
 
-## Preventing errors
+## Preventing Errors
 
 This guide is about fixing a bug, but it's worth mentioning how to prevent the majority of the bugs in the first place:
 + **ABC = Always Be Closing** the tags as a priority. If you open a tag `<p>`, close it immediately! Like this: `<p></p>`, and then proceed to fill the inner HTML content.
