@@ -187,11 +187,11 @@ if going_out:
         if place_bottle_wine:
             if cool_mix:
                 # Do something
-    else:
-        if blazers > 3:
-            # Do something
         else:
-            # Do something
+            if blazers > 3:
+                # Do something
+            else:
+                # Do something
     elif she_pants:
         # Do something
     else:
