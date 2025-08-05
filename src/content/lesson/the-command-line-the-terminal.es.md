@@ -13,7 +13,7 @@ status: "published"
 
 ## ¿Por qué los desarrolladores aman la línea de comando?
 
-Al principio, todos odiaban la línea de comando. Después de años de experiencia, se convirtió en un gusto adquirido.
+Al principio, todos odiaban la línea de comando. Después de años de experiencia se convirtió en un gusto adquirido.
 
 Pero, ¿por qué les gusta a los desarrolladores? Bueno, la lista es infinita, pero aquí hay algunas razones importantes:
 
