@@ -84,7 +84,7 @@ The last crucial debugging tool for HTML is your coding IDE (editor). Most of th
 
 ### Unclosed tags 
 
-If a tag is not closed correctly. For example, if you forget to close a `<div>` tag: The code editor might highlight the entire block of code that follows the unclosed tag in red. You can also see the error in the terminal if you use plugins like [prettier](https://prettier.io/). If you click on an opening tag, the editor will also highlight the closing tag.
+An unclosed tag is when a tag is not closed correctly. For example, if you forget to close a `<div>` tag: The code editor might highlight the entire block of code that follows the unclosed tag in red. You can also see the error in the terminal if you use plugins like [prettier](https://prettier.io/). If you click on an opening tag, the editor will also highlight the closing tag.
 
 ![how unclosed tags errors show up](https://github.com/breatheco-de/content/blob/master/src/assets/images/oJEe61z.png?raw=true)
 
