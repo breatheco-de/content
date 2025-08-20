@@ -71,7 +71,7 @@ These are not small numbers, 60% in a day and 90% if you don't practice for a we
 
 1. "Communicate with your spouse, partner, and family: You'll need a break from most obligations. We understand that life is challenging, and adding more responsibilities can be daunting. But remember, this is a temporary commitment, and the rewards are plentiful. Everyone needs to be supportive during this time!"
 
-2. **Talk to your boss:** You may need a few extra hours, weekend time, etc. Be smart about it, or he/she could sabotage it because he is afraid of losing you.
+2. **Talk to your boss:** You may need a few extra hours, weekend time, etc. Be smart about it, or he/she could sabotage it because they are afraid of losing you.
 
 3. **Don't miss class:** Missing classes is our biggest concern, we are very concerned about attendance because it has shown that it is the #1 deterrent to your motivation. Missing two classes in a row is the perfect storm. You will need to have 1-on-1 mentoring and double the hours through that week to avoid staying behind.
 
@@ -83,7 +83,7 @@ Please make sure you understand how the academy works:
 
 1. **Platform:** 4Geeks.com, The Syllabus (learn how to follow it), GeekPal, GeekForce, the lessons, exercises, projects, and assets.
 2. **The people:** We are more than five thousand people now! Leaders, Mentors, Alumni, and Students, we are here to help, and we are here to stay. Network, make friends -- Take advantage of the resources and people around you!
-3. **The community:** Communities are not one way, they just don't work like that to the events, support other students, give first and you will receive later. Slack, GeekTalks, Workshops, Group Studies.
+3. **The community:** Communities are not one way, they just don't work like that, go to the events, support other students, give first and you will receive later. Slack, GeekTalks, Workshops, Group Studies.
 
 
 ## Best Practices while starting to learn code
