@@ -52,7 +52,7 @@ Durante toda tu vida has aprendido de la misma manera, el sistema de educación 
 
 Sabemos cómo enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseñaremos de una manera tan diferente que puede no gustarte al principio, es normal que tu mente quiera volver al aprendizaje "lento pero seguro", sin tener que sentirte incómodo o constantemente desafiado por nuestro sistema.
 
-##### 📝 Receta para evitar perder la confianza en nuestros métodos  
+##### 📝 Receta para evitar perder la confianza en nuestros métodos:  
 
 1. **¡Sigue el método!** ¿Cómo sabes que no funciona si no lo intentas adecuadamente? ¡Haz las tareas ANTES de ir a clase! Sigue el programa en el orden recomendado, haz los pequeños ejercicios antes de saltar a los proyectos, asiste a cada clase, no leas libros que te retrasarán, etc.
 
