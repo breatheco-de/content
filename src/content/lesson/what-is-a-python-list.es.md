@@ -55,7 +55,7 @@ print("Esto es una Tupla: ",my_tuple)
 print("Esto es un set: ",my_set)
 ```
 
-## Acceder a los items en la lista 
+## Acceder a los ítems en la lista 
 
 Para acceder a un elemento específico en una lista, necesitas un `index` o índice. Un índice es un valor entero que representa la posición del arreglo a la que desea acceder/obtener/recuperar.
 
