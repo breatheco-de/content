@@ -10,7 +10,7 @@ canonical: ""
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 ---
 
-¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro, estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor, lean hasta el final, ¡Trataré de no aburrirlos!
+¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro, estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor, lean hasta el final, ¡Trataré de no aburrirlos!😁
 
 ## Lo que ya sabes:
 
@@ -24,7 +24,7 @@ También estás aquí porque necesitas ayuda, no solo técnica sino también esp
 
 Vamos a cambiar la forma en que te has acostumbrado a aprender, la forma en que ves la vida, la manera en que te vendes (por lo tanto, la manera en que te ves), estamos derribando las viejas ideas equivocadas sobre ti mism@, los demás y sobre tu vida profesional.
 
-### Estamos aquí para derribar 💻 3 Paredes Respecto al Código
+### Estamos aquí para derribar 💻 3 Paredes Respecto al Código.
 
 Durante los años que han pasado hemos identificado razones específicas por las cuales los estudiantes se frustran y dejan de intentar ser desarrolladores o no completan el curso y no consiguen trabajo.
 
@@ -46,13 +46,13 @@ Cualquier persona en general puede aprender a programar; la programación se vue
 
 3. **Habla con los mentores:** Una voz con experiencia siempre es buena, hay egresados y profesores que ya han pasado por momentos difíciles o que están con dificultades ¡En este mismo momento! Pueden ayudarte durante los tiempos oscuros, no solo estamos hablando de brindarte soluciones de programación, sino de brindarte estrategias para tener éxito en tu vida (¿Cómo desarrollador?).
 
-#### Pared #2: Confianza ✝
+#### Pared #2: Confianza ✝👌
 
 Durante toda tu vida has aprendido de la misma manera, el sistema de educación te ha puesto en una caja y te ha enseñado a aprender lentamente, limitando tu habilidad para adaptarte al nuevo mundo de profesionales que aprenden con rapidez y que son autodidactas.
 
 Sabemos cómo enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseñaremos de una manera tan diferente que puede no gustarte al principio, es normal que tu mente quiera volver al aprendizaje "lento pero seguro", sin tener que sentirte incómodo o constantemente desafiado por nuestro sistema.
 
-##### 📝 Receta para evitar perder la confianza en nuestros métodos  
+##### 📝 Receta para evitar perder la confianza en nuestros métodos.  
 
 1. **¡Sigue el método!** ¿Cómo sabes que no funciona si no lo intentas adecuadamente? ¡Haz las tareas ANTES de ir a clase! Sigue el programa en el orden recomendado, haz los pequeños ejercicios antes de saltar a los proyectos, asiste a cada clase, no leas libros que te retrasarán, etc.
 
@@ -66,9 +66,9 @@ Esto es un bootcamp, no importa si lo haces tiempo completo o tiempo parcial, de
 
 Estos números no son pequeños, un 60% en un día y un 90% si no practicas en una semana ¡Estás perdiendo tu tiempo y dinero si no te lo tomas en serio!
 
-##### 📝 Receta para evitar la inactividad
+##### 📝 Receta para evitar la inactividad.
 
-1. **Habla con tu pareja, amigo y familia:** Necesitas un descanso de prácticamente todo. Sabemos que la vida ya es lo suficientemente complicada para además añadirle más responsabilidades, pero este es solo un breve periodo de tu tiempo. La recompensa es eterna ¡Todos deben alinearse! Intenta mantenerte abierto, tener un escritorio para trabajar sin distracciones, etc. Tu hogar debe estar sincronizado con este momento de tu vida.
+1. **Habla con tu pareja, amigo y familia:** Necesitas un descanso de prácticamente todo. Sabemos que la vida ya es lo suficientemente complicada para además añadirle más responsabilidades, pero este es solo un breve periodo de tu tiempo. La recompensa es eterna ¡Todos deben alinearse! Intenta mantenerte abierto, tener un escritorio para trabajar sin distracciones, etc. Tu hogar debe estar sincronizado con este momento de tu vida.🗣️
 
 2. **Habla con tu jefe:** Es posible que necesites algunas horas extra, tiempo de fin de semana, etc. Sé inteligente al respecto o él/ella podría sabotearte porque tiene miedo de perderte.
 
@@ -76,7 +76,7 @@ Estos números no son pequeños, un 60% en un día y un 90% si no practicas en u
 
 4. **Involúcrate:** Asistir a clases no es suficiente, los seres humanos son emocionales, integran mejor la información cuando están comprometidos emocionalmente, asistiendo a eventos y estudiando en grupos, hablando públicamente al respecto, etc.
 
-### ¿Qué sigue?
+### ¿Qué sigue?🤨
 
 Asegúrate de entender bien cómo funciona la academia:
 
