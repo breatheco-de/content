@@ -10,13 +10,13 @@ description: >-
 ---
 Todos cometemos muchos errores al programar. Esta es una realidad que reconoce cada desarrollador senior; por eso "depurar código" se ha convertido en una de las habilidades más esenciales para los desarrolladores.
 
-## Está bien cometer errores
+## Está bien cometer errores.
 
 > He medido mi "tasa de error"; sé que cometo más de 100 errores durante un día honesto de programación (y llevo programando desde el año 2000, hace 24 años).
 
 Estos errores pueden ser muy simples, como escribir mal una línea de código, o más elaborados, como escribir algo de código que lleve a un desbordamiento de memoria. No me asustan estos errores porque tengo una forma muy efectiva y rápida de identificar y solucionar errores.
 
-## Tu trabajo es convertirte en un maestro de la depuración
+## Tu trabajo es convertirte en un maestro de la depuración!
 
 A lo largo de los años, he desarrollado una receta de depuración muy efectiva que compartiré a continuación. Me lleva solo unos segundos encontrar y solucionar el 90% de mis errores y fallos, sin dejar lugar para la improvisación o el tiro al aire.
 
@@ -26,7 +26,7 @@ A lo largo de los años, he desarrollado una receta de depuración muy efectiva 
 
 Los desarrolladores web junior. Hay tantos tipos de errores y técnicas de depuración en la programación que es casi imposible escribirlos todos; por eso decidí enfocar esta guía en los desarrolladores junior en la etapa inicial de su carrera de desarrollo web full-stack.
 
-## Prevenir errores
+## Prevenir errores:
 
 Sé que estás aquí para aprender cómo solucionar errores. Aun así, vale la pena mencionar que la mayoría de los errores de los desarrolladores principiantes se pueden prevenir usando formateadores de código automatizados, linters, herramientas de autocompletado, escribiendo con alta [legibilidad de código](https://4geeks.com/es/lesson/que-es-y-como-mejorar-la-legibilidad-del-codigo) y mejores prácticas.
 
@@ -88,7 +88,7 @@ Los **errores de back-end** en la consola de JavaScript del desarrollador suelen
 
 Los **errores de front-end** suelen indicarse con mensajes como `"Uncaught ReferenceError: x is not defined"`, `"SyntaxError: Unexpected token <"`, `"Uncaught TypeError: x is not a function"`, `"Uncaught TypeError: Cannot read property 'length' of undefined"`, etc.
 
-#### Lectura de errores desde la pestaña de red
+#### Lectura de errores desde la pestaña de red:
 
 La forma más rápida de identificar errores en la pestaña de red de las herramientas de desarrollador es buscar solicitudes con un estado diferente al 200 OK.
 
@@ -105,21 +105,21 @@ Aquí hay una lista más detallada:
 
 Como segunda fuente de información, y especialmente si el error es un `4xx`, puede verificar que el cuerpo de la solicitud tenga el formato y los valores esperados.
 
-#### Lectura del terminal del servidor
+#### Lectura del terminal del servidor:
 
-Si tiene un error al ejecutar un script (no un servidor), es un error del lado del servidor.
++ Si tiene un error al ejecutar un script (no un servidor), es un error del lado del servidor.
 
-Si está ejecutando un servidor, el error puede ser una solicitud mal formateada proveniente del lado del cliente; por eso es una buena idea verificar primero el cuerpo de la solicitud y el código de estado en la pestaña de red de las herramientas de desarrollador.
++ Si está ejecutando un servidor, el error puede ser una solicitud mal formateada proveniente del lado del cliente; por eso es una buena idea verificar primero el cuerpo de la solicitud y el código de estado en la pestaña de red de las herramientas de desarrollador.
 
-Si el cuerpo de la solicitud, la URL y los encabezados están bien, es un error del lado del servidor.
++ Si el cuerpo de la solicitud, la URL y los encabezados están bien, es un error del lado del servidor.
 
-#### Lectura del registro de solicitudes del servidor
+#### Lectura del registro de solicitudes del servidor:
 
 Por último, si tiene un error en un servidor web (como Express, Flask, Django, etc.), es una buena idea verificar el registro de solicitudes que se le hacen al servidor. En el registro de solicitudes, puede ver cada solicitud que cualquier lado del cliente haya hecho a su API ordenadas por la hora exacta. Aquí hay una breve explicación de un ejemplo de registro de solicitudes:
 
 ![ejemplo de registro de solicitudes](https://storage.googleapis.com/media-breathecode/53b8907096b009687a251a9ce7f9270cab0ab57342f2372ccbabfce421f7afaa)
 
-### Localizando el error
+### Localizando el error:
 
 Si has seguido los pasos anteriores correctamente, sabes a qué parte de tu código está relacionado el error. ¡Así que mantente enfocado y no adivines! Tienes información útil sobre tu error; úsala y sigue esa pista. Por ejemplo:
 
@@ -128,13 +128,13 @@ Si has seguido los pasos anteriores correctamente, sabes a qué parte de tu cód
 + ¿La pestaña de red tiene el código de estado 4xx? Ve y arregla el código que envía la solicitud.
 + ¿La pestaña de red tiene el código de estado 5xx? Ve y lee la terminal del servidor en busca de errores de sintaxis o de base de datos.
 
-### Prueba y error hasta que lo arregles
+### Prueba y error hasta que lo arregles:
 
 Si intentas arreglar el error haciendo cambios en tu código y aparece otro error, ¡eso suele ser buena noticia! Yo llamo a esto depuración anidada.
 
 Debes estar seguro de la información que has reunido para mantenerte enfocado en la solución. ¡Espera para comenzar otra teoría; dale un buen intento al enfoque actual!
 
-### Arregla el error
+### Arregla el error:
 
 El último paso, obviamente, es arreglar el error; puede llevar un tiempo y puede haber algunos errores anidados en el camino.
 
