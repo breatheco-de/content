@@ -49,7 +49,7 @@ La depuración de código de front-end se puede dividir en 4 grupos principales:
 1. **Errores de HTML/CSS**: Desajustes de diseño frente al diseño original, confusiones creadas por la caché del navegador, una etiqueta HTML `<tags>` faltante o algunas reglas CSS que no se aplicaron correctamente.
 2. **Errores lógicos de JavaScript**: Por lo general, valores de variables indefinidos o inesperados, condiciones lógicas o flujos incorrectos y problemas de sintaxis.
 3. **Errores de renderizado con marcos de componentes**: Tratar con el DOM, renderizado de React, etc. Los errores típicos son no esperar a que los datos lleguen desde el back-end, lo que lleva a variables indefinidas (demasiado pronto), demasiados re-renderizados, importación o exportación incorrecta de variables o no pasar los datos correctamente entre los componentes.
-4. **Errores de integración con el back-end**: Solicitudes Fetch y HTTP con *payload* incorrecta, credenciales de autenticación faltantes, no interpretar correctamente la respuesta de la *payload* del back-end o no manejar las excepciones de promesa, errores CORS.
+4. **Errores de integración con el back-end**: Solicitudes Fetch y HTTP con *payload* incorrecto, credenciales de autenticación faltantes, no interpretar correctamente la respuesta de la *payload* del back-end o no manejar las excepciones de promesa, errores CORS.
 
 #### ¿Es un error de back-end?
 
