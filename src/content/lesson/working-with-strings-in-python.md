@@ -128,7 +128,7 @@ lowercased_string = name1.lower() # will convert to lowercase
 uppercased_string = name2.upper() # will convert to uppercase
 ```
 
-> :point_up: it is good practice to always lowercase strings before comparing them with others, that way we will avoid missing case sensitive differences.
+> :point_up: It is good practice to always lowercase strings before comparing them with others, that way we will avoid missing case sensitive differences.
 
 ### Convert strings to numbers (and vice versa)
 
