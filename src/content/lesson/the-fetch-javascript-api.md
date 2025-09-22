@@ -29,7 +29,7 @@ fetch('examples/example.json')
 
 **What is happening here?**
 
- 1. We pass the URI (path) we want to **fetch** from ('examples/examples.json') as an argument of the fetch method.
+ 1. We pass the URL (path) we want to **fetch** from ('examples/examples.json') as an argument of the fetch method.
  2. The call returns a "**promise**" which eventually ***resolves*** into a response. Note that a "**promise**" is not the actual response. Think of it as a proxy for the response.
  3. Once the response comes through, it is passed to the `.then` method for use.
  4. If there is an error in completing the request, for example, if there is no network connection, the `.catch` is passed with the appropriate error as a parameter. 
