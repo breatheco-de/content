@@ -78,7 +78,7 @@ fetch('examples/example.json')
 
 **Now what's happening?**
 
-1) We are still passing the URI ('examples/example.json') as an argument.
+1) We are still passing the URL ('examples/example.json') as an argument.
 2) The **fetch** returns a **promise** that eventually becomes the response.
 3) The response is then passed to `.then` to be used as you specify.  
 4) We have an if-statement that basically says if **response.ok** is not true, throw an error with the **response.statusText**, which will then trigger the `.catch`.
