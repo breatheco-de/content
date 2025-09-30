@@ -83,7 +83,7 @@ pregunta = "¿Cómo estás?"
 tamaño = len(pregunta)
 print("El string empieza " + pregunta[0])
 # Resultado: El string empieza con ? 
-print("El string termina con  " + pregunta[size - 1])
+print("El string termina con  " + pregunta[tamaño - 1])
 # Resultado: El string termina con ? 
 
 > :point_up: Este método de extracción es muy similar al usado para extraer un elemento ubicado en una posición en particular en una lista de Python.
