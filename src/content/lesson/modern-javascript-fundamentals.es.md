@@ -20,7 +20,7 @@ Este artículo cubre las herramientas y patrones modernos que realmente se usan 
 Cuando JavaScript era joven, todo el mundo usaba `var`. Pero `var` tiene comportamientos extraños con el scope que pueden causar bugs sutiles. Hoy en día, se usa `const` y `let`. La regla es simple, **usa `const` por defecto**. Solo cambia a `let` cuando realmente necesites reasignar la variable. Esto hace que el código sea más predecible y fácil de razonar.
 
 ```javascript
-const apiUrl = 'https://api.example.com';
+const apiUrl = 'https://example.com';
 const user = { name: 'Ana', age: 28 };
 
 // Esto va a fallar
@@ -174,7 +174,7 @@ Pero la verdadera revolución fue async/await. Hace que el código asincrónico 
 ```javascript
 async function fetchUser(id) {
   try {
-    const response = await fetch(`https://api.example.com/users/${id}`);
+    const response = await fetch(`https://example.com/users/${id}`);
     const user = await response.json();
     return user;
   } catch (error) {
@@ -191,7 +191,7 @@ Para hacer peticiones HTTP, se usa Fetch API. Es mucho más simple que XMLHttpRe
 
 ```javascript
 async function getUsers() {
-  const response = await fetch('https://api.example.com/users');
+  const response = await fetch('https://example.com/users');
   
   if (!response.ok) {
     throw new Error(`Error: ${response.status}`);
@@ -210,7 +210,7 @@ Si necesitas hacer múltiples peticiones y no dependen una de otra, usa `Promise
 ```javascript
 async function fetchMultipleUsers(ids) {
   const promises = ids.map(id => 
-    fetch(`https://api.example.com/users/${id}`).then(r => r.json())
+    fetch(`https://example.com/users/${id}`).then(r => r.json())
   );
   
   return await Promise.all(promises);
@@ -408,7 +408,7 @@ Aquí está un ejemplo real de cómo se ve todo esto junto:
 // api.js
 export const fetchUsers = async () => {
   try {
-    const response = await fetch('https://api.example.com/users');
+    const response = await fetch('https://example.com/users');
     if (!response.ok) throw new Error('Network error');
     return await response.json();
   } catch (error) {

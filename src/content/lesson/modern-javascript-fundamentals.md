@@ -20,7 +20,7 @@ This article covers the modern tools and patterns that are actually used in curr
 When JavaScript was young, everyone used `var`. But `var` has strange scoping behaviors that can cause subtle bugs. Nowadays, we use `const` and `let`. The rule is simple: **use `const` by default**. Only switch to `let` when you really need to reassign the variable. This makes your code more predictable and easier to reason about.
 
 ```javascript
-const apiUrl = 'https://api.example.com';
+const apiUrl = 'https://example.com';
 const user = { name: 'Ana', age: 28 };
 
 // This will fail
@@ -174,7 +174,7 @@ But the real revolution was async/await. It makes asynchronous code look like sy
 ```javascript
 async function fetchUser(id) {
     try {
-        const response = await fetch(`https://api.example.com/users/${id}`);
+        const response = await fetch(`https://example.com/users/${id}`);
         const user = await response.json();
         return user;
     } catch (error) {
@@ -191,7 +191,7 @@ To make HTTP requests, use the Fetch API. It's much simpler than XMLHttpRequest 
 
 ```javascript
 async function getUsers() {
-    const response = await fetch('https://api.example.com/users');
+    const response = await fetch('https://example.com/users');
     
     if (!response.ok) {
         throw new Error(`Error: ${response.status}`);
@@ -210,7 +210,7 @@ If you need to make multiple requests that don't depend on each other, use `Prom
 ```javascript
 async function fetchMultipleUsers(ids) {
     const promises = ids.map(id => 
-        fetch(`https://api.example.com/users/${id}`).then(r => r.json())
+        fetch(`https://example.com/users/${id}`).then(r => r.json())
     );
     
     return await Promise.all(promises);
@@ -408,7 +408,7 @@ Here's a real example of how all this looks together:
 // api.js
 export const fetchUsers = async () => {
     try {
-        const response = await fetch('https://api.example.com/users');
+        const response = await fetch('https://example.com/users');
         if (!response.ok) throw new Error('Network error');
         return await response.json();
     } catch (error) {
