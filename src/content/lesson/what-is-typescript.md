@@ -116,17 +116,17 @@ When defining a class we use the word `class` and close with curly brackets `{}`
 ```typescript runable=true
 
 class User {
-    # fields
+    // fields
     private name: string;
     private lastName: string;
     
-    # Constructor
+    // Constructor
     constructor(name: string, lastName: string){
         this.name = name;
         this.lastName = lastName;
     }
 
-    # Properties
+    // Properties
     get getName(): string {
         return this.name;
     }
@@ -136,7 +136,7 @@ class User {
         this.name = value;
     }
 
-    #Functions
+    //Functions
     fullName(){
         return this.name + ' ' + this.lastName
     }
