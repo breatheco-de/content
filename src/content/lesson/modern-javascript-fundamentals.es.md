@@ -1,6 +1,5 @@
 ---
 title: "Fundamentos de JavaScript Moderno"
-slug: "fundamentos-javascript-moderno"
 author: "rosinni"
 tags:
   - JavaScript
