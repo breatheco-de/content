@@ -71,8 +71,8 @@ function makeRequest(url: string, method: HttpMethod) {
     console.log(`Making ${method} request to ${url}`);
 }
 
-makeRequest('https://api.example.com/users', 'GET'); // ✓
-makeRequest('https://api.example.com/users', 'PATCH'); // ❌ Error
+makeRequest('https://example.com/users', 'GET'); // ✓
+makeRequest('https://example.com/users', 'PATCH'); // ❌ Error
 ```
 
 Union types aren't limited to string literals. They can be any combination of types:
@@ -469,7 +469,7 @@ Async functions always return a `Promise`, and TypeScript needs to know what typ
 
 ```typescript
 async function fetchUser(id: string): Promise<User> {
-    const response = await fetch(`https://api.example.com/users/${id}`);
+    const response = await fetch(`https://example.com/users/${id}`);
     
     if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -486,7 +486,7 @@ If the async function doesn't return anything meaningful, use `Promise<void>`:
 
 ```typescript
 async function saveUser(user: User): Promise<void> {
-    await fetch('https://api.example.com/users', {
+    await fetch('https://example.com/users', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(user)
@@ -549,7 +549,7 @@ async function fetchData(url: string, options: FetchOptions): Promise<void> {
 }
 
 // Usage
-fetchData('https://api.example.com/users', {
+fetchData('https://example.com/users', {
     onSuccess: (data) => console.log('Got data:', data),
     onError: (error) => console.error('Oops:', error),
     onFinally: () => console.log('Done!')
