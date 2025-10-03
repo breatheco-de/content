@@ -58,7 +58,7 @@ En este artículo te explicamos por qué funciona y cómo empezar.
 
 ### “No tengo nada interesante para decir.”
 
-Aunque no lo creas sí lo tienes. Aprender a programar o entrar en tech no es fácil. Tu historia puede inspirar o acompañar a quienes se sienten solos o perdidos. Mostrar tu progreso ya es valioso.
+Aunque no lo creas sí lo tienes. Aprender a programar o entrar en tech no es fácil. Tu historia puede inspirar o acompañar a quienes se sienten solos o perdidos. Mostrar tu progreso ya es grandioso.
 
 ### “No soy un experto.”
 
