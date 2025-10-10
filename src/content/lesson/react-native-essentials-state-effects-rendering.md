@@ -1,6 +1,6 @@
 ---
 title: "State, Lifecycle, and Dynamic Rendering in React Native with TypeScript"
-subtitle: "Learn useState, useEffect, and Conditional Rendering in the Mobile Ecosystem"
+description: "A practical and beginner-friendly guide to understanding how React Native manages component state, lifecycle effects, and conditional rendering using TypeScript. Learn how UI reacts automatically as data changes through real examples."
 authors:
     - rosinni
 tags:

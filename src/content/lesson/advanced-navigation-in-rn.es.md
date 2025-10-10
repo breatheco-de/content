@@ -1,5 +1,5 @@
 ---
-title: "Navegación avanzada en React Native: rutas anidadas, headers y flujos condicionales"
+title: "Navegación avanzada en React Native: rutas anidadas y headers"
 description: "Descubre técnicas avanzadas de navegación en React Native con Expo Router: cómo crear rutas anidadas complejas, personalizar headers dinámicamente y construir flujos condicionales según el estado de autenticación. Lleva tus apps al siguiente nivel."
 author: ""
 date: ""
