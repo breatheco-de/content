@@ -13,7 +13,7 @@ status: "published"
 
 **La programación no es HTML, CSS o Position y Display...** Esos lenguajes no fueron diseñados para desarrolladores, son la única forma en que tenemos que renderizar cosas en un navegador.
 
-**La Programación es hacer *que el computador* "obedezca"...**
+**La programación es hacer *que el computador* "obedezca"...**
 
 Todo el mundo usa los computadores por diferentes razones. Algunos computadores se crean para ayudar a las personas en su oficina (como los computadores personales), otros para mantener una habitación a una temperatura específica (como [NEST](https://nest.com/es/)), otros están hechos para caminar en Marte, etc.
 
@@ -204,7 +204,7 @@ Por ejemplo, si quiero un computador para dar dulces solo a niños mayores de 13
 |No Igual a    |!=             |Es 5 != 5? False!<br>Es 5 != '5'? False!<br>Es 1 != 'Hello' True!   |
 |Mayor que   |>              |Es 5 > 5? False!<br>Es 6 > 3? True!    |
 |Menor que    |<              |Es 6 < 12? True            |
-|Mayor o igual |>=             |Es 6 <= 6? True<br>Es 3 <= 6? True    |
+|Mayor o igual |>=             |Es 6 >= 6? True<br>Es 3 <= 6? True    |
 |Menor o igual  |<=            |Tienes la idea 🙂       |
 
 Para crear operaciones realmente útiles, puedes combinar varias operaciones en la misma pregunta usando AND, OR y NOT (y, o y no respectivamente).
@@ -321,4 +321,4 @@ for(items in perro){
 
 ## Entonces... Dime, ¿te gustó la programación?
 
-La programación es como Taco Bell: siempre se usan los mismos ingredientes pero se mezclan de diferentes maneras. Sabes cómo escribir código, pero... ¿Sabes cómo resolver problemas reales?
+La programación es como Taco Bell: siempre se usan los mismos ingredientes, pero se mezclan de diferentes maneras. Sabes cómo escribir código, pero... ¿Sabes cómo resolver problemas reales?
