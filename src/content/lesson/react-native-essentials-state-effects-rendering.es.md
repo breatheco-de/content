@@ -1,6 +1,6 @@
 ---
 title: "Estado, ciclo de vida y renderizado dinámico en React Native con TypeScript"
-subtitle: "Aprende useState, useEffect y renderizado condicional en el ecosistema móvil"
+description: "Una guía práctica y accesible para principiantes que explica cómo React Native gestiona el estado de los componentes, los efectos del ciclo de vida y el renderizado condicional utilizando TypeScript. Aprende cómo la interfaz de usuario reacciona automáticamente cuando cambian los datos mediante ejemplos reales."
 authors:
   - rosinni
 tags:
