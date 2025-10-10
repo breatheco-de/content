@@ -1,5 +1,5 @@
 ---
-title: "Advanced Navigation in React Native: Nested Routes, Headers, and Conditional Flows"
+title: "Advanced Navigation in React Native: Nested Routes and Headers"
 description: "Discover advanced navigation techniques in React Native with Expo Router: how to create complex nested routes, dynamically customize headers, and build conditional flows based on authentication state. Take your apps to the next level."
 author: ""
 date: ""
