@@ -19,7 +19,7 @@ El material pendiente asume que tienes un buen nivel de comprensión de los sigu
 - Cómo incluir una hoja de estilo CSS separada en el sitio web usando el tag `<link>`.
 - Cómo anular o mejorar el aspecto y el comportamiento de los tags HTML mediante el uso de selectores y reglas de CSS, por ejemplo:
   - ¿Cómo puedo seleccionar un elemento para actualizar sus estilos? [Usando un selector](https://4geeks.com/es/lesson/what-is-css-learn-css-es#pero-que-es-un-selector).
-  - Lo más sencillo como cambiar el color del texto y manipular las fuentes (tamaño, familia, etc).
+  - Lo más sencillo como cambiar el color del texto y manipular las fuentes (tamaño, familia, etc.).
   - Cambiar el color o la imagen de fondo del elemento.
 - Comprende completamente el tag `<div>` que inherentemente se comporta como una "caja" (lo que significa que tiene bordes, ancho y alto) y cómo usar `<div>` para separar visualmente su contenido.
 - Cómo crear los layouts de sitios web más comunes utilizando la regla CSS `display: flex;`.
