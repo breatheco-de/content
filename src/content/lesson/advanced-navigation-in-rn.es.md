@@ -201,19 +201,19 @@ Ahora, un enlace como `myapp://profile/42` abrirá la pantalla de perfil con `us
 
 ### Universal Links (iOS) y App Links (Android)
 
-Para URLs reales (`https://tuapp.com/profile/42`), necesitas configurar **universal links** y **app links**. Esto requiere archivos de verificación en tu dominio, pero Expo simplifica el proceso con EAS:
+Para URLs reales (`https://example.com/profile/42`), necesitas configurar **universal links** y **app links**. Esto requiere archivos de verificación en tu dominio, pero Expo simplifica el proceso con EAS:
 
 ```json
 {
   "expo": {
     "ios": {
-      "associatedDomains": ["applinks:tuapp.com"]
+      "associatedDomains": ["applinks:example.com"]
     },
     "android": {
       "intentFilters": [
         {
           "action": "VIEW",
-          "data": { "scheme": "https", "host": "tuapp.com" }
+          "data": { "scheme": "https", "host": "example.com" }
         }
       ]
     }
