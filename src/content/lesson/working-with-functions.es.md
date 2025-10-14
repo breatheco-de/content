@@ -148,21 +148,21 @@ console.log((function(a, b) {
 Puedes combinar funciones como quieras y tener llamadas encadenadas como esta:
 
 ```javascript runable=true
-function sum(a,b){
+function Suma(a,b){
    return a+b;
 }
-function multiply(a,b){
+function multiplicacion(a,b){
    return a*b;
 }
 
-console.log(multiply(sum(3,5),sum(1,1)));
+console.log(multiplicacion(Suma(3,5),Suma(1,1)));
 
 // Las ejecuciones van de adentro hacia afuera. 
 // Primero, se calculará la suma de 3 + 5 y 1 + 1. 
 // A continuación, se multiplicarán sus respectivos resultados. 
-let firstSum = sum(3,5);
-let secondSum = sum(1,1);
-console.log(multiply(firstSum, secondSum));
+let firstSuma = Suma(3,5);
+let secondSuma = Suma(1,1);
+console.log(multiplicacion(firstSuma, secondSuma));
 ```
 
 > :point_up: Puedes hacer click en "ejecutar" en el código de arriba para ver su salida.
