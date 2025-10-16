@@ -189,6 +189,7 @@ import { Image, StyleSheet } from 'react-native';
 function LogoLocal() {
   return (
     <Image
+        source={require('./assets/logo.png')}
     />
   );
 }
@@ -462,6 +463,7 @@ function Tarjeta({
 <Tarjeta titulo="Mi Tarjeta" colorFondo="#f0f0f0">
   <Text>Este contenido va automáticamente en children</Text>
   <Text>Puedes poner cualquier componente aquí</Text>
+  <Image source={require('./imagen.png')} />
   <View>
     <Text>Incluso estructuras anidadas complejas</Text>
   </View>
