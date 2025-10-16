@@ -180,7 +180,6 @@ import { Image, StyleSheet } from 'react-native';
 function LocalLogo() {
     return (
         <Image
-            source={require('./assets/logo.png')}
         />
     );
 }
