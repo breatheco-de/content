@@ -189,7 +189,7 @@ import { Image, StyleSheet } from 'react-native';
 function LogoLocal() {
   return (
     <Image
-      source={require('./assets/logo.png')}
+        source={require('./assets/logo.png')}
     />
   );
 }
