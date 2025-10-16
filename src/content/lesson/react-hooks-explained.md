@@ -39,7 +39,7 @@ And if we want to use useEffect as well, we can include this:
 import React, { useState, useEffect } from 'react';
 ```
 
-Now let's learn how to use them :)
+Now let's learn how to use them :
 
 ## The useState react hook:
 
