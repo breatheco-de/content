@@ -451,7 +451,6 @@ function Card({
 <Card title="My Card" backgroundColor="#f0f0f0">
     <Text>This content automatically goes in children</Text>
     <Text>You can put any component here</Text>
-    <Image source={require('./image.png')} />
     <View>
         <Text>Even complex nested structures</Text>
     </View>
