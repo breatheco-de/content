@@ -1,0 +1,135 @@
+{
+  "info": {
+    "slug": "quiz-react-native-cli-fundamentos",
+    "name": "React Native CLI y Componentes Fundamentales",
+    "difficulty": "BEGINNER",
+    "technologies": ["react-native", "javascript", "typescript", "mobile-development"],
+    "main": "Evalúa tus conocimientos sobre la configuración del entorno con React Native CLI, los componentes esenciales (View, Text, Image, ScrollView) y el uso de props para construir apps móviles multiplataforma.",
+    "results": "¡Excelente! Has comprendido los conceptos esenciales de React Native: configuración del entorno, estructura del proyecto, componentes nativos y cómo los props hacen que tus componentes sean reutilizables y dinámicos.",
+    "badges": [
+      { "slug": "react_native_fundamentals", "points": 25 }
+    ]
+  },
+  "questions": [
+    {
+      "q": "¿Qué diferencia principal tiene React Native respecto a las aplicaciones web híbridas?",
+      "a": [
+        { "option": "React Native compila a componentes nativos reales en iOS y Android", "correct": true },
+        { "option": "React Native utiliza un navegador interno para renderizar HTML", "correct": false },
+        { "option": "React Native solo funciona en dispositivos Android", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Cuál es la ventaja principal de usar React Native CLI en lugar de Expo?",
+      "a": [
+        { "option": "Permite acceso completo a configuraciones nativas y módulos personalizados", "correct": true },
+        { "option": "Evita la instalación de Node.js y npm", "correct": false },
+        { "option": "Hace que el proyecto funcione solo en emuladores", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Qué herramienta mejora la velocidad de respuesta del servidor de desarrollo al detectar cambios en los archivos?",
+      "a": [
+        { "option": "Watchman", "correct": true },
+        { "option": "Webpack", "correct": false },
+        { "option": "Xcode", "correct": false }
+      ]
+    },
+    {
+      "q": "Para Android, ¿qué variable de entorno debe configurarse para que React Native encuentre el SDK?",
+      "a": [
+        { "option": "ANDROID_HOME", "correct": true },
+        { "option": "JAVA_PATH", "correct": false },
+        { "option": "SDK_MANAGER", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Qué herramienta usa React Native para verificar si la instalación y configuración del entorno son correctas?",
+      "a": [
+        { "option": "npx react-native doctor", "correct": true },
+        { "option": "npm check react-native", "correct": false },
+        { "option": "expo validate", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Qué componente de React Native es equivalente a un <div> en HTML?",
+      "a": [
+        { "option": "View", "correct": true },
+        { "option": "ScrollView", "correct": false },
+        { "option": "Container", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Por qué es obligatorio envolver todo el texto dentro de un componente Text?",
+      "a": [
+        { "option": "Porque React Native optimiza el renderizado de texto a nivel nativo", "correct": true },
+        { "option": "Porque View no admite estilos", "correct": false },
+        { "option": "Porque los textos deben cargarse desde una API", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Qué ocurre si no defines ancho y alto (width y height) en una imagen remota?",
+      "a": [
+        { "option": "La imagen no se mostrará", "correct": true },
+        { "option": "React Native calculará las dimensiones automáticamente", "correct": false },
+        { "option": "La imagen se ajustará al tamaño del contenedor", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Por qué ScrollView no es recomendable para listas muy largas?",
+      "a": [
+        { "option": "Porque renderiza todos los elementos de una vez, afectando el rendimiento", "correct": true },
+        { "option": "Porque solo permite desplazamiento horizontal", "correct": false },
+        { "option": "Porque no soporta componentes dentro de él", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Cuál es el patrón de flujo de datos de los props en React Native?",
+      "a": [
+        { "option": "Unidireccional: del componente padre al hijo", "correct": true },
+        { "option": "Bidireccional: los hijos pueden modificar los props del padre", "correct": false },
+        { "option": "Circular: los props se actualizan entre componentes hermanos", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Qué ventaja aporta definir los tipos de props con TypeScript?",
+      "a": [
+        { "option": "Detectar errores de tipo y obtener autocompletado en el editor", "correct": true },
+        { "option": "Eliminar la necesidad de definir estilos", "correct": false },
+        { "option": "Convertir el proyecto automáticamente a nativo", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Qué formato de estilo se recomienda para mejorar el rendimiento en React Native?",
+      "a": [
+        { "option": "Usar StyleSheet.create() en lugar de estilos inline", "correct": true },
+        { "option": "Definir todos los estilos dentro del componente", "correct": false },
+        { "option": "Usar CSS externo como en el desarrollo web", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Cuál es la función del prop children?",
+      "a": [
+        { "option": "Permitir incluir contenido o componentes dentro de otro componente", "correct": true },
+        { "option": "Evitar que un componente reciba props adicionales", "correct": false },
+        { "option": "Definir el color de fondo de un componente", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Por qué es importante considerar la accesibilidad desde el inicio del desarrollo?",
+      "a": [
+        { "option": "Porque permite que personas con discapacidades usen la app correctamente", "correct": true },
+        { "option": "Porque es un requisito solo para apps empresariales", "correct": false },
+        { "option": "Porque mejora el rendimiento general de la app", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Qué beneficio aporta usar arrays de estilos en React Native?",
+      "a": [
+        { "option": "Permite combinar estilos condicionalmente y sobrescribir propiedades", "correct": true },
+        { "option": "Evita que los estilos se apliquen", "correct": false },
+        { "option": "Solo se usa para depurar componentes", "correct": false }
+      ]
+    }
+  ]
+}
