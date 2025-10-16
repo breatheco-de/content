@@ -1,0 +1,135 @@
+{
+    "info": {
+        "slug": "quiz-react-native-cli-fundamentals",
+        "name": "React Native CLI and Fundamental Components",
+        "difficulty": "BEGINNER",
+        "technologies": ["react-native", "javascript", "typescript", "mobile-development"],
+        "main": "Evaluate your knowledge about environment setup with React Native CLI, essential components (View, Text, Image, ScrollView) and the use of props to build cross-platform mobile apps.",
+        "results": "Excellent! You have understood the essential concepts of React Native: environment setup, project structure, native components and how props make your components reusable and dynamic.",
+        "badges": [
+            { "slug": "react_native_fundamentals", "points": 25 }
+        ]
+    },
+    "questions": [
+        {
+            "q": "What is the main difference between React Native and hybrid web applications?",
+            "a": [
+                { "option": "React Native compiles to real native components on iOS and Android", "correct": true },
+                { "option": "React Native uses an internal browser to render HTML", "correct": false },
+                { "option": "React Native only works on Android devices", "correct": false }
+            ]
+        },
+        {
+            "q": "What is the main advantage of using React Native CLI instead of Expo?",
+            "a": [
+                { "option": "Allows full access to native configurations and custom modules", "correct": true },
+                { "option": "Avoids the installation of Node.js and npm", "correct": false },
+                { "option": "Makes the project work only on emulators", "correct": false }
+            ]
+        },
+        {
+            "q": "What tool improves the development server response speed by detecting file changes?",
+            "a": [
+                { "option": "Watchman", "correct": true },
+                { "option": "Webpack", "correct": false },
+                { "option": "Xcode", "correct": false }
+            ]
+        },
+        {
+            "q": "For Android, what environment variable must be configured for React Native to find the SDK?",
+            "a": [
+                { "option": "ANDROID_HOME", "correct": true },
+                { "option": "JAVA_PATH", "correct": false },
+                { "option": "SDK_MANAGER", "correct": false }
+            ]
+        },
+        {
+            "q": "What tool does React Native use to verify if the environment installation and configuration are correct?",
+            "a": [
+                { "option": "npx react-native doctor", "correct": true },
+                { "option": "npm check react-native", "correct": false },
+                { "option": "expo validate", "correct": false }
+            ]
+        },
+        {
+            "q": "Which React Native component is equivalent to a <div> in HTML?",
+            "a": [
+                { "option": "View", "correct": true },
+                { "option": "ScrollView", "correct": false },
+                { "option": "Container", "correct": false }
+            ]
+        },
+        {
+            "q": "Why is it mandatory to wrap all text inside a Text component?",
+            "a": [
+                { "option": "Because React Native optimizes text rendering at the native level", "correct": true },
+                { "option": "Because View doesn't support styles", "correct": false },
+                { "option": "Because texts must be loaded from an API", "correct": false }
+            ]
+        },
+        {
+            "q": "What happens if you don't define width and height for a remote image?",
+            "a": [
+                { "option": "The image will not be displayed", "correct": true },
+                { "option": "React Native will calculate the dimensions automatically", "correct": false },
+                { "option": "The image will adjust to the container size", "correct": false }
+            ]
+        },
+        {
+            "q": "Why is ScrollView not recommended for very long lists?",
+            "a": [
+                { "option": "Because it renders all elements at once, affecting performance", "correct": true },
+                { "option": "Because it only allows horizontal scrolling", "correct": false },
+                { "option": "Because it doesn't support components inside it", "correct": false }
+            ]
+        },
+        {
+            "q": "What is the data flow pattern of props in React Native?",
+            "a": [
+                { "option": "Unidirectional: from parent component to child", "correct": true },
+                { "option": "Bidirectional: children can modify parent props", "correct": false },
+                { "option": "Circular: props are updated between sibling components", "correct": false }
+            ]
+        },
+        {
+            "q": "What advantage does defining prop types with TypeScript provide?",
+            "a": [
+                { "option": "Detect type errors and get autocompletion in the editor", "correct": true },
+                { "option": "Eliminate the need to define styles", "correct": false },
+                { "option": "Automatically convert the project to native", "correct": false }
+            ]
+        },
+        {
+            "q": "What style format is recommended to improve performance in React Native?",
+            "a": [
+                { "option": "Use StyleSheet.create() instead of inline styles", "correct": true },
+                { "option": "Define all styles inside the component", "correct": false },
+                { "option": "Use external CSS like in web development", "correct": false }
+            ]
+        },
+        {
+            "q": "What is the function of the children prop?",
+            "a": [
+                { "option": "Allow including content or components inside another component", "correct": true },
+                { "option": "Prevent a component from receiving additional props", "correct": false },
+                { "option": "Define the background color of a component", "correct": false }
+            ]
+        },
+        {
+            "q": "Why is it important to consider accessibility from the beginning of development?",
+            "a": [
+                { "option": "Because it allows people with disabilities to use the app correctly", "correct": true },
+                { "option": "Because it's only a requirement for enterprise apps", "correct": false },
+                { "option": "Because it improves the overall app performance", "correct": false }
+            ]
+        },
+        {
+            "q": "What benefit does using style arrays in React Native provide?",
+            "a": [
+                { "option": "Allows combining styles conditionally and overriding properties", "correct": true },
+                { "option": "Prevents styles from being applied", "correct": false },
+                { "option": "Only used for debugging components", "correct": false }
+            ]
+        }
+    ]
+}
