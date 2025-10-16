@@ -2,16 +2,7 @@
 title: "React Native Fundamentals: CLI Setup, Structure, and Essential Components"
 description: "Comprehensive guide to getting started with React Native CLI; set up your development environment for iOS and Android, master the fundamental components (View, Text, Image, ScrollView), and the props system to build cross-platform mobile apps from scratch."
 author: "Rosinni"
-tags:
-    - React Native
-    - React Native CLI
-    - Mobile Development
-    - Components
-    - Props
-    - iOS
-    - Android
-    - JavaScript
-    - TypeScript
+tags: ["React Native", "React Native CLI", "Mobile Development", "Components", "Props", "iOS", "Android", "JavaScript", "TypeScript"]
 ---
 
 Welcome to the world of cross-platform mobile development. React Native lets you write code once and run it on both iOS and Android using JavaScript and React. Unlike other solutions, React Native compiles to real native components, ensuring performance close to pure native development. This means that when you use a `View` component in React Native, it renders as a native `UIView` on iOS and as a native `android.view.View` on Android. You’re not creating a web app wrapped in a browser, but a truly native app written in JavaScript.
