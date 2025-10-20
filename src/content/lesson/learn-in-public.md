@@ -27,7 +27,7 @@ In this article, we'll explain why it works and how to get started.
 
 ## Why is this so important?
 
-- Writing and teaching reinforce your learning.
+- When you write things down, your brain absorbs knowledge better.
 - You develop stronger communication and reasoning skills.
 - Friends, family, and peers start seeing you as “the go-to person” in tech.
 - You’ll build confidence and battle impostor syndrome by finding others on the same journey.
