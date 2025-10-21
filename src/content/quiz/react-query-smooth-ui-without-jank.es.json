@@ -1,6 +1,6 @@
 {
   "info": {
-    "slug": "quiz-react-query-ui-fluida",
+    "slug": "quiz-react-query-ui-fluida-sin-jank",
     "name": "React Query: UI fluida sin jank",
     "difficulty": "INTERMEDIATE",
     "technologies": ["react", "typescript", "react-query", "tanstack-query", "performance", "ux"],
