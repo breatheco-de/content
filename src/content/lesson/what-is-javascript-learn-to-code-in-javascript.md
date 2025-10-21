@@ -17,7 +17,7 @@ tags: ["javascript","variables"]
 
 Everybody uses computers for different reasons: some computers are created to help people in their office (like personal computers), others to keep a room at a specific temperature (like [the NEST](https://nest.com/es/)), others are made to walk on Mars and so many more tasks.
 
-No matter what the computer is made for, the very base of its existence is the same: to follow commands. In this chapter, you will learn 5 basic things you’ll need to understand any modern computer through code.
+No matter what the computer is made for, the very base of its existence is the same: to follow commands. In this chapter, you will learn 5 basic things you will need to understand any modern computer through code.
 
 ## Variables
 
