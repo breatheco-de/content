@@ -1,0 +1,143 @@
+{
+    "info": {
+        "slug": "quiz-react-query-ui-fluid",
+        "name": "React Query: Smooth UI without jank",
+        "difficulty": "INTERMEDIATE",
+        "technologies": ["react", "typescript", "react-query", "tanstack-query", "performance", "ux"],
+        "main": "Test your knowledge about cache, staleness, jank-free transitions and smart loading states with React Query (TanStack Query).",
+        "results": "Excellent! Now you master the keys to a smooth UI: `staleTime`, `cacheTime`, `keepPreviousData`, deduplication, `select`, skeletons and smart refetch.",
+        "badges": [
+            { "slug": "react_query_fluidez_ui", "points": 30 }
+        ]
+    },
+    "questions": [
+        {
+            "q": "What does `staleTime` control in React Query?",
+            "a": [
+                { "option": "How long data is considered fresh and won't automatically refetch", "correct": true },
+                { "option": "How long data remains in memory after not being used", "correct": false },
+                { "option": "The maximum number of retries on errors", "correct": false }
+            ]
+        },
+        {
+            "q": "What best describes `cacheTime`?",
+            "a": [
+                { "option": "Time that data is kept in cache after having no observers", "correct": true },
+                { "option": "Polling interval to update data", "correct": false },
+                { "option": "Minimum time between two consecutive refetches", "correct": false }
+            ]
+        },
+        {
+            "q": "If the user returns to a screen within the `staleTime`, what happens to the data?",
+            "a": [
+                { "option": "Data is shown from cache immediately without a new request", "correct": true },
+                { "option": "A refetch is always forced before showing anything", "correct": false },
+                { "option": "Data is cleared and a blank screen is shown", "correct": false }
+            ]
+        },
+        {
+            "q": "What is `keepPreviousData: true` used for?",
+            "a": [
+                { "option": "Keep previous data visible while new data arrives when changing parameters", "correct": true },
+                { "option": "Disable cache to force constant refetch", "correct": false },
+                { "option": "Prevent the query from executing in the background", "correct": false }
+            ]
+        },
+        {
+            "q": "In which cases is `keepPreviousData` especially useful?",
+            "a": [
+                { "option": "Pagination, filters and searches to avoid visual jumps", "correct": true },
+                { "option": "User authentication and session management", "correct": false },
+                { "option": "Loading static images and fonts", "correct": false }
+            ]
+        },
+        {
+            "q": "What does React Query's automatic deduplication do?",
+            "a": [
+                { "option": "Prevents multiple identical simultaneous requests using a single shared request", "correct": true },
+                { "option": "Combines multiple different responses into a single structure", "correct": false },
+                { "option": "Saves all responses in IndexedDB", "correct": false }
+            ]
+        },
+        {
+            "q": "What does `refetchOnWindowFocus: true` cause?",
+            "a": [
+                { "option": "Refresh data when focus returns to the tab/window", "correct": true },
+                { "option": "Disable cache when the window loses focus", "correct": false },
+                { "option": "Block the UI with a global spinner when switching tabs", "correct": false }
+            ]
+        },
+        {
+            "q": "With `refetchInterval` defined as a function, what return value stops polling?",
+            "a": [
+                { "option": "Return `false` when a condition is met (e.g., game finished)", "correct": true },
+                { "option": "Always return `0`", "correct": false },
+                { "option": "Throw an exception in the function", "correct": false }
+            ]
+        },
+        {
+            "q": "What is a key advantage of the `select` option in `useQuery`?",
+            "a": [
+                { "option": "Transforms data with memoization and only re-renders if the derived result changes", "correct": true },
+                { "option": "Prevents the query from executing when there's no network", "correct": false },
+                { "option": "Allows writing directly to cache without invalidations", "correct": false }
+            ]
+        },
+        {
+            "q": "What strategy helps maintain visual structure during loading?",
+            "a": [
+                { "option": "Use skeletons instead of spinners that empty the layout", "correct": true },
+                { "option": "Hide all components until all data is available", "correct": false },
+                { "option": "Always increase `staleTime` to maximum", "correct": false }
+            ]
+        },
+        {
+            "q": "What is `placeholderData` used for?",
+            "a": [
+                { "option": "Show initial data while the real response arrives to improve speed perception", "correct": true },
+                { "option": "Force the query to never refetch", "correct": false },
+                { "option": "Automatically persist cache in localStorage", "correct": false }
+            ]
+        },
+        {
+            "q": "According to the article, what combination is suitable for rarely changing data (e.g., categories)?",
+            "a": [
+                { "option": "Use high `staleTime` (30–60 minutes)", "correct": true },
+                { "option": "Disable cache and refetch on every render", "correct": false },
+                { "option": "Use `refetchInterval` of 1 second", "correct": false }
+            ]
+        },
+        {
+            "q": "What status indicator best reflects 'updating in background' without blocking the UI?",
+            "a": [
+                { "option": "`isFetching`", "correct": true },
+                { "option": "`isLoading`", "correct": false },
+                { "option": "`isError`", "correct": false }
+            ]
+        },
+        {
+            "q": "For a page with multiple sections, how to handle errors without breaking the entire view?",
+            "a": [
+                { "option": "Independent queries per section and error handling per component", "correct": true },
+                { "option": "A single global query and a spinner covering everything", "correct": false },
+                { "option": "Disable retries (`retry: false`) throughout the app", "correct": false }
+            ]
+        },
+        {
+            "q": "What pair of options controls data freshness and cache retention respectively?",
+            "a": [
+                { "option": "`staleTime` and `cacheTime`", "correct": true },
+                { "option": "`retry` and `refetchOnReconnect`", "correct": false },
+                { "option": "`select` and `placeholderData`", "correct": false }
+            ]
+        },
+        {
+            "q": "To avoid 'jumps' when filtering a list (like in SmoothProductList), what should you do?",
+            "a": [
+                { "option": "Use `keepPreviousData` and visually dim while `isFetching`", "correct": true },
+                { "option": "Empty the list and show a spinner until new data arrives", "correct": false },
+                { "option": "Increase `retry` to 5 to ensure responsiveness", "correct": false }
+            ]
+        }
+    ]
+}
