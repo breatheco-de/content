@@ -18,7 +18,7 @@ Este artículo cubre las herramientas y patrones modernos que realmente se usan 
 
 El concepto de "hoisting" hace referencia a la capacidad que tiene Javascript de "elevar" la declaracion de variables al inicio de su contexto lógico o "scope". 
 
-```javascript
+```javascript  runable=true
 console.log(name); // ¿Qué imprime?: undefined
 var name = "Ana";
 ```
@@ -31,7 +31,7 @@ Por ejemplo: La variable podria ser "sobrescrita" desde un submétodo, lo cual a
 
 Hoy en día, se usa `const` y `let` los cuales permiten controler mejor el nivel de "acceso" de las variables: `const` se usa cuando el valor es "constante", es decir no esperas que cambie. Por otro lado, `let` se usa cuando planeas asignar un nuevo valor a la variable en algun otro momento. A diferencia de `var`, las variables `const` y `let` solo poseen hoisting parcial (no son accesibles a nivel global, sino unicamente desde su scope) y por ende deben ser declaradas antes de poder acceder a ellas.
 
-```javascript
+```javascript  runable=true
 // Con var
 console.log(a); // undefined
 var a = 10;
@@ -64,7 +64,7 @@ Al principio puede parecer raro usar `const` para objetos que modificas, pero re
 
 Las funciones flecha no son solo una forma más corta de escribir funciones. La diferencia real está en cómo manejan `this`, lo cual puede evitar muchos dolores de cabeza.
 
-```javascript
+```javascript  runable=true
 // Antes
 function doble(n) {
   return n * 2;
@@ -76,7 +76,7 @@ const doble = n => n * 2;
 
 Las funciones flecha se usan casi todo el tiempo: en callbacks de arrays, en promesas, en event handlers. La única excepción es cuando necesitas que `this` se refiera al objeto que contiene el método.
 
-```javascript
+```javascript  runable=true
 const numbers = [1, 2, 3, 4];
 const doubled = numbers.map(n => n * 2);
 ```
@@ -91,7 +91,7 @@ JavaScript moderno tiene algunas características que hacen que trabajar con obj
 
 Si estás creando un objeto y los nombres de las variables coinciden con los nombres de las propiedades, puedes omitir la repetición:
 
-```javascript
+```javascript  runable=true
 const name = 'Carlos';
 const age = 30;
 
@@ -108,7 +108,7 @@ Esto puede parecer un detalle pequeño, pero cuando estás construyendo muchos o
 
 Destructuring es una de esas características que una vez que empiezas a usar, no puedes vivir sin ella. Te permite extraer valores de objetos y arrays de forma elegante:
 
-```javascript
+```javascript  runable=true
 const user = {
   name: 'Ana',
   age: 28,
@@ -124,7 +124,7 @@ const { name: userName } = user;
 
 Con arrays es igual de útil:
 
-```javascript
+```javascript  runable=true
 const colors = ['rojo', 'verde', 'azul'];
 const [first, second] = colors;
 ```
@@ -149,7 +149,7 @@ Si vienes de lenguajes funcionales, estos te resultarán familiares. Si no, pued
 
 **map** transforma cada elemento:
 
-```javascript
+```javascript  runable=true
 const numbers = [1, 2, 3, 4];
 const doubled = numbers.map(n => n * 2);
 // [2, 4, 6, 8]
@@ -157,7 +157,7 @@ const doubled = numbers.map(n => n * 2);
 
 **filter** se queda solo con los elementos que cumplen una condición:
 
-```javascript
+```javascript  runable=true
 const numbers = [1, 2, 3, 4, 5, 6];
 const evens = numbers.filter(n => n % 2 === 0);
 // [2, 4, 6]
@@ -165,7 +165,7 @@ const evens = numbers.filter(n => n % 2 === 0);
 
 **reduce** es el más poderoso pero también el más difícil de entender al principio. Reduce un array a un solo valor:
 
-```javascript
+```javascript  runable=true
 const numbers = [1, 2, 3, 4];
 const sum = numbers.reduce((acc, n) => acc + n, 0);
 // 10
@@ -179,7 +179,7 @@ Cuando se trata de trabajar con objetos clave-valor, o con colecciones de elemen
 
 Un Map es una colección de pares clave-valor muy similar a un objeto, pero con mayores funcionalides. A diferencia de los objetos, sus "llaves" pueden ser de cualquier tipo (no solamente strings), además, recuerda el orden de inserción de los elementos e incluye multiples métodos para añadir o remover items, conocer su tamaño, entre otras acciones.
 
-```javascript
+```javascript  runable=true
 // Map equivalente
 const userMap = new Map();
 userMap.set("name", "Ana");
@@ -192,7 +192,7 @@ console.log(userMap.size);        // 3
 
 Un Set es una coleccion de elementos únicos, sin duplicados. Puede ser creado en base a un array, e incluye métodos para añadir elementos, removerlos, saber si existen y contabilizarlos. Es una excelente alternativa cuando se desea filtrar elementos repetidos
 
-```javascript
+```javascript  runable=true
 const numbers = [1, 2, 2, 3, 3, 3];
 const uniqueNumbers = new Set(numbers);
 
@@ -205,7 +205,7 @@ console.log(uniqueNumbers.size); // 3
 
 Las operaciones asincrónicas solían manejarse con callbacks. Y si necesitabas hacer varias operaciones en secuencia, terminabas con lo que llamamos "callback hell":
 
-```javascript
+```javascript 
 getData(function(a) {
   getMoreData(a, function(b) {
     getEvenMoreData(b, function(c) {
@@ -245,7 +245,7 @@ Esto es **mucho** más fácil de leer. El código hace exactamente lo que parece
 
 Para hacer peticiones HTTP, se usa Fetch API. Es mucho más simple que XMLHttpRequest (que probablemente nunca necesitarás usar):
 
-```javascript
+```javascript 
 async function getUsers() {
   const response = await fetch('https://example.com/users');
   
@@ -281,7 +281,7 @@ En JavaScript moderno, cada archivo puede ser un módulo. Puedes exportar funcio
 
 **Named exports** son útiles cuando quieres exportar múltiples cosas de un archivo:
 
-```javascript
+```javascript  runable=true
 // utils.js
 export const PI = 3.14159;
 
@@ -366,7 +366,7 @@ Esto es especialmente útil cuando estás generando HTML o SQL queries (aunque p
 
 El spread operator es como "desempacar" un array u objeto:
 
-```javascript
+```javascript  runable=true
 const arr1 = [1, 2, 3];
 const arr2 = [4, 5, 6];
 const combined = [...arr1, ...arr2];
@@ -375,7 +375,7 @@ const combined = [...arr1, ...arr2];
 
 Con objetos es súper útil para crear copias con modificaciones:
 
-```javascript
+```javascript  runable=true
 const user = { name: 'Ana', age: 28 };
 const updatedUser = { ...user, age: 29 };
 // { name: 'Ana', age: 29 }
@@ -385,13 +385,13 @@ const updatedUser = { ...user, age: 29 };
 
 Este operador salva de escribir tanto código defensivo. Antes, si querías acceder a una propiedad anidada que podría no existir, tenías que hacer esto:
 
-```javascript
+```javascript  runable=true
 const city = user && user.address && user.address.city;
 ```
 
 Ahora:
 
-```javascript
+```javascript  runable=true
 const city = user?.address?.city;
 ```
 
@@ -401,7 +401,7 @@ Si cualquier parte de la cadena es null o undefined, toda la expresión retorna 
 
 Este es diferente del operador OR (`||`). OR retorna el lado derecho si el izquierdo es cualquier valor "falsy" (incluyendo 0, '', false). Nullish coalescing solo retorna el lado derecho si el izquierdo es null o undefined:
 
-```javascript
+```javascript  runable=true
 const value = 0;
 
 console.log(value || 10);  // 10 (porque 0 es falsy)
