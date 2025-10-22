@@ -259,7 +259,7 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({
     const optimalWidth = Math.ceil(width * pixelRatio);
     const optimalHeight = Math.ceil(height * pixelRatio);
 
-    const imageUrl = `https://cdn.example.com/images/${imageId}?w=${optimalWidth}&h=${optimalHeight}&q=85&fm=webp`;
+    const imageUrl = `https://example.com/images/${imageId}?w=${optimalWidth}&h=${optimalHeight}&q=85&fm=webp`;
 
     return (
         <FastImage
