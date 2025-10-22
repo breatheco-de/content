@@ -217,9 +217,9 @@ const ProductScreen: React.FC<{ productId: string }> = ({ productId }) => {
     const [relatedProducts, setRelatedProducts] = useState<Product[]>([]);
 
     useEffect(() => {
-        fetch(`/api/products/${productId}`).then(r => r.json()).then(setProduct);
-        fetch(`/api/products/${productId}/reviews`).then(r => r.json()).then(setReviews);
-        fetch(`/api/products/${productId}/related`).then(r => r.json()).then(setRelatedProducts);
+        fetch(`http://example/api/products/${productId}`).then(r => r.json()).then(setProduct);
+        fetch(`http://example/api/products/${productId}/reviews`).then(r => r.json()).then(setReviews);
+        fetch(`http://example/api/products/${productId}/related`).then(r => r.json()).then(setRelatedProducts);
     }, [productId]);
 
     if (!product) return <Loading />;
