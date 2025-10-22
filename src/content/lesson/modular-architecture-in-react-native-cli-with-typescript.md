@@ -164,7 +164,7 @@ export const useAuthStore = create<AuthState>((set) => ({
         
         try {
             // Your API call would go here
-            const response = await fetch('https://api.example.com/login', {
+            const response = await fetch('https://example.com/login', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email, password }),
