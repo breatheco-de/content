@@ -1,5 +1,5 @@
 ---
-title: "Performance & Profiling in Practice en React Native"
+title: "Rendimiento y creación de perfiles en React Native"
 description: "Guía práctica para medir, diagnosticar y optimizar performance en React Native usando Hermes, Flipper y Systrace. Casos reales de debugging con soluciones medibles."
 author: "rosinni"
 tags:
@@ -109,13 +109,13 @@ La vista Heavy agrupa todas las llamadas a funciones por nombre, mostrándote la
 
 La vista Tree muestra el call stack jerárquico completo. Útil cuando quieres entender el contexto de por qué una función es lenta. Puedes ver toda la cadena de llamadas que llevó a ejecutar código costoso.
 
-![propfile image](../../assets/assets/assets/image-rn1.png)
+![propfile image](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/image-rn1.png)
 
 ## Flipper: Visibilidad Total de Tu App
 
 Flipper es mucho más que un debugger, es un ecosistema de plugins que te dan visibilidad completa del comportamiento interno de tu app en tiempo real.
 
-![flipper](../../assets/assets/assets/flipper.png)
+![flipper](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/flipper.png)
 
 ### Instalación Profesional
 
@@ -225,9 +225,9 @@ const ProductScreen: React.FC<{ productId: string }> = ({ productId }) => {
   const [relatedProducts, setRelatedProducts] = useState<Product[]>([]);
 
   useEffect(() => {
-    fetch(`/api/products/${productId}`).then(r => r.json()).then(setProduct);
-    fetch(`/api/products/${productId}/reviews`).then(r => r.json()).then(setReviews);
-    fetch(`/api/products/${productId}/related`).then(r => r.json()).then(setRelatedProducts);
+    fetch(`https://example/api/products/${productId}`).then(r => r.json()).then(setProduct);
+    fetch(`https://example/api/products/${productId}/reviews`).then(r => r.json()).then(setReviews);
+    fetch(`https://example/api/products/${productId}/related`).then(r => r.json()).then(setRelatedProducts);
   }, [productId]);
 
   if (!product) return <Loading />;
@@ -267,7 +267,7 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({
   const optimalWidth = Math.ceil(width * pixelRatio);
   const optimalHeight = Math.ceil(height * pixelRatio);
 
-  const imageUrl = `https://cdn.example.com/images/${imageId}?w=${optimalWidth}&h=${optimalHeight}&q=85&fm=webp`;
+  const imageUrl = `https://example.com/images/${imageId}?w=${optimalWidth}&h=${optimalHeight}&q=85&fm=webp`;
 
   return (
     <FastImage

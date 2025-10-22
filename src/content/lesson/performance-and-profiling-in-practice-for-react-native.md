@@ -89,6 +89,7 @@ const DebugScreen: React.FC = () => {
 };
 ```
 
+
 On Android, the file is saved in `/data/data/com.yourapp/cache/`. Extract it with `adb pull /data/data/com.yourapp/cache/profile.cpuprofile`. On iOS, Xcode allows you to download files from the app container.
 
 ### Analyzing the Profile
@@ -101,13 +102,13 @@ The Heavy view groups all function calls by name, showing you the most expensive
 
 The Tree view shows the complete hierarchical call stack. Useful when you want to understand the context of why a function is slow. You can see the entire chain of calls that led to executing expensive code.
 
-![propfile image](../../assets/assets/assets/image-rn1.png)
+![propfile image](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/image-rn1.png)
 
 ## Flipper: Total App Visibility
 
 Flipper is much more than a debugger, it's an ecosystem of plugins that give you complete visibility into your app's internal behavior in real time.
 
-![flipper](../../assets/assets/assets/flipper.png)
+![flipper](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/flipper.png)
 
 ### Professional Installation
 
@@ -217,9 +218,9 @@ const ProductScreen: React.FC<{ productId: string }> = ({ productId }) => {
     const [relatedProducts, setRelatedProducts] = useState<Product[]>([]);
 
     useEffect(() => {
-        fetch(`/api/products/${productId}`).then(r => r.json()).then(setProduct);
-        fetch(`/api/products/${productId}/reviews`).then(r => r.json()).then(setReviews);
-        fetch(`/api/products/${productId}/related`).then(r => r.json()).then(setRelatedProducts);
+        fetch(`http://example/api/products/${productId}`).then(r => r.json()).then(setProduct);
+        fetch(`http://example/api/products/${productId}/reviews`).then(r => r.json()).then(setReviews);
+        fetch(`http://example/api/products/${productId}/related`).then(r => r.json()).then(setRelatedProducts);
     }, [productId]);
 
     if (!product) return <Loading />;
@@ -259,7 +260,7 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({
     const optimalWidth = Math.ceil(width * pixelRatio);
     const optimalHeight = Math.ceil(height * pixelRatio);
 
-    const imageUrl = `https://cdn.example.com/images/${imageId}?w=${optimalWidth}&h=${optimalHeight}&q=85&fm=webp`;
+    const imageUrl = `https://example.com/images/${imageId}?w=${optimalWidth}&h=${optimalHeight}&q=85&fm=webp`;
 
     return (
         <FastImage
