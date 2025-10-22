@@ -89,25 +89,6 @@ const DebugScreen: React.FC = () => {
 };
 ```
 
-On Android, the file is saved in `/data/data/com.yourapp/cache/`. Extract it with `adb pull /data/data/com.yourapp/cache/profile.cpuprofile`. On iOS, Xcode allows you to download files from the app container.
-
-### Analyzing the Profile
-
-The `.cpuprofile` file opens in Chrome DevTools. Go to `chrome://inspect`, then in the Profiler tab load the file. Chrome will show you three different views of the same profile.
-
-The Chart view is a flame graph where each horizontal bar represents a function. The width of the bar is proportional to the time it consumed. The widest bars are your primary optimization candidates. You can click on any bar to see the exact source code and complete call stack.
-
-The Heavy view groups all function calls by name, showing you the most expensive ones first regardless of where they were called from. This is perfect for finding problematic functions called from multiple places. If you see `formatPrice` appearing consuming 600ms total, you know you need to optimize it or cache its results.
-
-The Tree view shows the complete hierarchical call stack. Useful when you want to understand the context of why a function is slow. You can see the entire chain of calls that led to executing expensive code.
-
-![propfile image](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/image-rn1.png)
-
-## Flipper: Total App Visibility
-
-Flipper is much more than a debugger, it's an ecosystem of plugins that give you complete visibility into your app's internal behavior in real time.
-
-![flipper](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/flipper.png)
 
 ### Professional Installation
 
