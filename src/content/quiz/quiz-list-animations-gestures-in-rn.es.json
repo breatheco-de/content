@@ -1,0 +1,175 @@
+{
+  "info": {
+    "slug": "quiz-rn-listas-animaciones-gestos",
+    "name": "React Native: Listas, Animaciones y Gestos",
+    "difficulty": "INTERMEDIATE",
+    "technologies": ["react-native", "reanimated", "gesture-handler", "flashlist", "typescript", "performance"],
+    "main": "Pon a prueba tu dominio de FlatList/FlashList, Reanimated 3 y Gesture Handler v2 para construir interfaces móviles fluidas a 60 FPS.",
+    "results": "¡Genial! Ahora comprendes cómo optimizar listas, mover animaciones al UI thread, y componer gestos nativos sin jank.",
+    "badges": [
+      { "slug": "rn_performance_animations_gestures", "points": 35 }
+    ]
+  },
+  "questions": [
+    {
+      "q": "¿Cuál es el principal cuello de botella cuando el JS thread está ocupado durante el scroll?",
+      "a": [
+        { "option": "Se congela la UI porque eventos de scroll y cálculos no llegan a tiempo", "correct": true },
+        { "option": "Las imágenes se descargan más rápido", "correct": false },
+        { "option": "El UI thread ignora la cola de renderizado", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Por qué Reanimated 3 logra animaciones más suaves que Animated clásico?",
+      "a": [
+        { "option": "Ejecuta worklets y animaciones en el UI thread sin pasar por el bridge", "correct": true },
+        { "option": "Usa más memoria en el JS thread", "correct": false },
+        { "option": "Desactiva el batching de React", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Dónde debe ubicarse el plugin de Reanimated en `babel.config.js`?",
+      "a": [
+        { "option": "Como último plugin en la lista", "correct": true },
+        { "option": "Al principio, antes de cualquier preset", "correct": false },
+        { "option": "No es necesario incluirlo", "correct": false }
+      ]
+    },
+    {
+      "q": "Para que Gesture Handler funcione, ¿qué envoltorio es obligatorio en la raíz?",
+      "a": [
+        { "option": "<GestureHandlerRootView> alrededor de la app", "correct": true },
+        { "option": "<AnimatedProvider>", "correct": false },
+        { "option": "<ScrollProvider>", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Cuál es el objetivo de `getItemLayout` en FlatList?",
+      "a": [
+        { "option": "Proveer posiciones/alturas fijas por índice para scroll instantáneo", "correct": true },
+        { "option": "Habilitar headers sticky automáticamente", "correct": false },
+        { "option": "Forzar renderizado de todos los ítems en montaje", "correct": false }
+      ]
+    },
+    {
+      "q": "Reducir `windowSize` en FlatList típicamente…",
+      "a": [
+        { "option": "Disminuye uso de memoria manteniendo menos pantallas en buffer", "correct": true },
+        { "option": "Siempre acelera el render inicial sin trade-offs", "correct": false },
+        { "option": "Deshabilita el reciclaje de vistas", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Qué hace `removeClippedSubviews` y dónde es más relevante?",
+      "a": [
+        { "option": "Remueve vistas fuera de pantalla; más útil en Android", "correct": true },
+        { "option": "Habilita virtualización en iOS únicamente", "correct": false },
+        { "option": "Evita que los separadores se rendericen", "correct": false }
+      ]
+    },
+    {
+      "q": "Ventaja clave de FlashList sobre FlatList en listas grandes/heterogéneas:",
+      "a": [
+        { "option": "Reciclaje agresivo de celdas y mejor estimación de tamaño con `estimatedItemSize`", "correct": true },
+        { "option": "Renderiza todo el dataset para evitar saltos", "correct": false },
+        { "option": "No necesita `keyExtractor`", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Qué es un `SharedValue` en Reanimated?",
+      "a": [
+        { "option": "Un valor sincronizado entre JS y UI thread para animaciones", "correct": true },
+        { "option": "Una variable global de React Context", "correct": false },
+        { "option": "Un hook de estado de React estándar", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito de `useAnimatedStyle`?",
+      "a": [
+        { "option": "Derivar estilos animados en el UI thread leyendo `sharedValues`", "correct": true },
+        { "option": "Aplicar estilos CSS nativos", "correct": false },
+        { "option": "Forzar re-render en el JS thread", "correct": false }
+      ]
+    },
+    {
+      "q": "Para mapear scroll a cambios de estilo (p. ej., paralaje), ¿qué utilizas?",
+      "a": [
+        { "option": "`useAnimatedScrollHandler` + `interpolate` con `Extrapolate.CLAMP`", "correct": true },
+        { "option": "`useEffect` con `window.addEventListener('scroll')`", "correct": false },
+        { "option": "Sólo `withTiming` sin handlers", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Qué patrón ayuda a evitar conflictos entre un swipe y un double-tap en el mismo componente?",
+      "a": [
+        { "option": "Composición con `Gesture.Exclusive`", "correct": true },
+        { "option": "Encadenar `PanResponder` y `onPress`", "correct": false },
+        { "option": "Usar `TouchableOpacity` con delay", "correct": false }
+      ]
+    },
+    {
+      "q": "En un worklet (UI thread), ¿cómo llamas una función del JS thread con efectos secundarios?",
+      "a": [
+        { "option": "Usando `runOnJS(miFuncion)`", "correct": true },
+        { "option": "Usando `requestAnimationFrame`", "correct": false },
+        { "option": "No es posible ejecutar JS desde un worklet", "correct": false }
+      ]
+    },
+    {
+      "q": "Para swipe actions, ¿qué hace `activeOffsetX([-10, 10])`?",
+      "a": [
+        { "option": "Evita activar el gesto con pequeños movimientos horizontales accidentales", "correct": true },
+        { "option": "Desactiva el gesto vertical", "correct": false },
+        { "option": "Bloquea los gestos multitouch", "correct": false }
+      ]
+    },
+    {
+      "q": "Con layout animations, ¿por qué son críticas las keys estables (no el índice)?",
+      "a": [
+        { "option": "Porque React identifica correctamente ítems para animar entradas/salidas/reubicaciones", "correct": true },
+        { "option": "Porque forza el re-render de toda la lista", "correct": false },
+        { "option": "Porque evita el reciclaje de celdas", "correct": false }
+      ]
+    },
+    {
+      "q": "Mejor práctica para `renderItem` en listas largas:",
+      "a": [
+        { "option": "Memorizar con `useCallback` para evitar recreaciones y re-renders innecesarios", "correct": true },
+        { "option": "Definirlo inline en cada render", "correct": false },
+        { "option": "Usar `any` para las props", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Qué hace `withDecay` al finalizar un gesto de arrastre?",
+      "a": [
+        { "option": "Aplica inercia con desaceleración basada en la velocidad del gesto", "correct": true },
+        { "option": "Aplica un rebote elástico ilimitado", "correct": false },
+        { "option": "Detiene abruptamente el movimiento", "correct": false }
+      ]
+    },
+    {
+      "q": "En listas enormes con altura fija, el trío más efectivo suele ser:",
+      "a": [
+        { "option": "`getItemLayout` + `windowSize` ajustado + `maxToRenderPerBatch` moderado", "correct": true },
+        { "option": "Desactivar virtualización y renderizar todo", "correct": false },
+        { "option": "Aumentar `initialNumToRender` a todo el dataset", "correct": false }
+      ]
+    },
+    {
+      "q": "Tras cambios nativos (p. ej., instalar pods o actualizar `MainActivity`), ¿qué es necesario?",
+      "a": [
+        { "option": "Rebuild completo de la app (no basta con hot reload)", "correct": true },
+        { "option": "Refrescar la app con CMD+R y listo", "correct": false },
+        { "option": "Vaciar la caché de Metro únicamente", "correct": false }
+      ]
+    },
+    {
+      "q": "¿Cuándo preferirías FlashList sobre FlatList?",
+      "a": [
+        { "option": "Listas >100 ítems, alturas variables o muchas imágenes", "correct": true },
+        { "option": "Siempre, incluso para 5 ítems estáticos", "correct": false },
+        { "option": "Nunca; FlatList siempre es superior", "correct": false }
+      ]
+    }
+  ]
+}
