@@ -31,7 +31,7 @@ Vamos a repasar cada uno de ellos en detalle.
 
 ### 1) Inspeccionar el código fuente HTML
 
-Puedes asumir que el código que escribiste es el que se muestra en el sitio web. ¡NOPE! Hay varias razones por las que tu código original puede no coincidir con el código fuente que se usa en el sitio web.
+Puedes asumir que el código que escribiste es el que se muestra en el sitio web. ¡NO! Hay varias razones por las que tu código original puede no coincidir con el código fuente que se usa en el sitio web.
 
 + Caché del navegador (la causa más común): A veces, tu navegador mantiene una versión antigua a propósito.
 + Renderización dinámica del lado del servidor: Usar un lenguaje del lado del servidor para manipular el código fuente antes de que llegue al navegador.
