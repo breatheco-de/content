@@ -101,13 +101,13 @@ The Heavy view groups all function calls by name, showing you the most expensive
 
 The Tree view shows the complete hierarchical call stack. Useful when you want to understand the context of why a function is slow. You can see the entire chain of calls that led to executing expensive code.
 
-![propfile image](../../assets/assets/assets/image-rn1.png)
+![propfile image](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/image-rn1.png)
 
 ## Flipper: Total App Visibility
 
 Flipper is much more than a debugger, it's an ecosystem of plugins that give you complete visibility into your app's internal behavior in real time.
 
-![flipper](../../assets/assets/assets/flipper.png)
+![flipper](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/flipper.png)
 
 ### Professional Installation
 
