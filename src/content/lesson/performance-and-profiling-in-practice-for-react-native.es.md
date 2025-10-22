@@ -1,5 +1,5 @@
 ---
-title: "Performance & Profiling in Practice en React Native"
+title: "Rendimiento y creación de perfiles en React Native"
 description: "Guía práctica para medir, diagnosticar y optimizar performance en React Native usando Hermes, Flipper y Systrace. Casos reales de debugging con soluciones medibles."
 author: "rosinni"
 tags:
