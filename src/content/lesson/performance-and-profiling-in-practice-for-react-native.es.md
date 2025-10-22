@@ -109,13 +109,13 @@ La vista Heavy agrupa todas las llamadas a funciones por nombre, mostrándote la
 
 La vista Tree muestra el call stack jerárquico completo. Útil cuando quieres entender el contexto de por qué una función es lenta. Puedes ver toda la cadena de llamadas que llevó a ejecutar código costoso.
 
-![propfile image](../../assets/assets/assets/image-rn1.png)
+![propfile image](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/image-rn1.png)
 
 ## Flipper: Visibilidad Total de Tu App
 
 Flipper es mucho más que un debugger, es un ecosistema de plugins que te dan visibilidad completa del comportamiento interno de tu app en tiempo real.
 
-![flipper](../../assets/assets/assets/flipper.png)
+![flipper](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/flipper.png)
 
 ### Instalación Profesional
 
@@ -225,9 +225,7 @@ const ProductScreen: React.FC<{ productId: string }> = ({ productId }) => {
   const [relatedProducts, setRelatedProducts] = useState<Product[]>([]);
 
   useEffect(() => {
-    fetch(`http://example/api/products/${productId}`).then(r => r.json()).then(setProduct);
-    fetch(`http://example/api/products/${productId}/reviews`).then(r => r.json()).then(setReviews);
-    fetch(`http://example/api/products/${productId}/related`).then(r => r.json()).then(setRelatedProducts);
+   
   }, [productId]);
 
   if (!product) return <Loading />;
