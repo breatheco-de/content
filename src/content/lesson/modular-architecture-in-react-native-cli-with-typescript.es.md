@@ -29,7 +29,7 @@ Cada módulo contiene sus propias pantallas, componentes, hooks, y lógica de es
 
 ### Enfoque monolítico (lo que haces al principio)
 
-```
+```text
 /src
   /screens
     LoginScreen.tsx
@@ -58,7 +58,7 @@ Esto funciona cuando eres solo tú y tienes 5 pantallas. Pero cuando el proyecto
 
 ### Enfoque modular (escalable y organizado)
 
-```
+```text
 /src
   /features
     /auth
@@ -108,7 +108,7 @@ Vamos a crear un ejemplo práctico. Supongamos que estás construyendo una app d
 
 Cada feature tiene esta estructura básica:
 
-```
+```text
 /features
   /auth
     /screens       # Pantallas de este módulo
