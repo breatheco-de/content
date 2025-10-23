@@ -29,7 +29,7 @@ Each module contains its own screens, components, hooks, and state logic. It's *
 
 ### Monolithic approach (what you do at the beginning)
 
-```
+```text
 /src
     /screens
         LoginScreen.tsx
@@ -58,7 +58,7 @@ This works when it's just you and you have 5 screens. But when the project grows
 
 ### Modular approach (scalable and organized)
 
-```
+```text
 /src
     /features
         /auth
@@ -108,7 +108,7 @@ Let's create a practical example. Suppose you're building a fitness app with aut
 
 Each feature has this basic structure:
 
-```
+```text
 /features
     /auth
         /screens       # Screens of this module
