@@ -133,7 +133,7 @@ Una práctica común es usar View para crear separadores visuales, contenedores 
 
 En React Native existe una regla estricta, **todo el texto debe estar dentro de un componente `Text`**. No puedes poner strings de texto directamente dentro de un `View` o cualquier otro componente. Si intentas hacerlo, obtendrás un error. Esta restricción puede parecer incómoda al principio, pero existe por razones técnicas relacionadas con cómo React Native optimiza el renderizado de texto en cada plataforma nativa.
 
-```tsx runable=true
+```tsx
 import React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 
