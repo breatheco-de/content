@@ -21,6 +21,7 @@ Además, Bootstrap te ofrece una docena de elementos nuevos que normalmente quer
 
 ## Layouts (Diseños): Resolviendo el modelo de caja
 
+Editado en big 2025
 
 Una de las cosas que fallan en CSS es la forma en que funcionan los layouts: trabajar con **float**, **display** y **position** apesta. Así lo resolvió Bootstrap:
 
