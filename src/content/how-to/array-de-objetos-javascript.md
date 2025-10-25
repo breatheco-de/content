@@ -32,7 +32,7 @@ let usersConversation = [
     send_by: "paul@email.com",
     received: "04/03/2023",
     viewed: false,
-    message: "Hola Alex, muy bien gracias y tú",
+    message: "Hola Alex, muy bien, gracias, ¿y tú?",
   },
 ];
 ```
