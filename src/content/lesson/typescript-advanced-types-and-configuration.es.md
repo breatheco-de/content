@@ -268,6 +268,23 @@ const merged = merge({ name: 'Ana' }, { age: 28 });
 // TypeScript sabe que tiene { name: string, age: number }
 ```
 
+¿Y si deseamos aun más control? Pues podemos declarar tipos como parámetro. Ejemplo: Desemos crear una función que devuelva la propiedad de un objeto, pero queremos asegurarnos de que solo podamos elegir una propiedad que exista en dicho objeto. Para lograr esto podemos usar `keyOf`
+
+```typescript runable=true
+function obtenerPropiedad<MiTipo, Key extends keyof MiTipo>(obj: MiTipo, key: Key) {
+  return obj[key];
+}
+ 
+const ejemploObjecto = {
+    propiedadA: true,
+    propiedadB: false
+}
+ 
+getProperty(x, "propiedadA"); // Funciona
+getProperty(x, "propiedadC"); // Dará un error porque "propiedadC" no existe en el objeto
+```
+
+
 ### Genéricos en el Mundo Real: APIs
 
 Aquí está donde los genéricos realmente brillan. Cuando trabajas con APIs, tiendes a tener patrones que se repiten:
@@ -427,7 +444,7 @@ logWithPrefix('INFO', 'Server started', 'Listening on port 3000');
 // INFO: Listening on port 3000
 ```
 
-### Function Types: Funciones Como Ciudadanos de Primera Clase
+### Function Types: Controlando el retorno de tus funciones
 
 Las funciones pueden ser valores, y esos valores necesitan tipos:
 
@@ -555,7 +572,138 @@ fetchData('https://example.com/users', {
   onFinally: () => console.log('Done!')
 });
 ```
+## Utilidades en Typescript
 
+### Type assertions: Sobrescribiendo tipos
+
+Existen escenarios en los que el autor del código tiene más contexto sobre una función o bloque de código que el mismo typescript. Para esos casos, se pueden usar "type assertion" para indicar un nuevo tipo (sin crear, explicitamente, un nuevo tipo)
+
+Ejemplos de casos prácticos
+
+```typescript runable=true
+// Typescript sabe que document.getElementById siempre devolvera un valor del tipo HTMLElement, sin embargo
+// Nosotros sabemos que el tipo sera HTMLCanvasElement (un subtipo de HTMLElement). Podemos indicarle esto a Typescript
+// usando "as" 
+const myCanvas = document.getElementById("main_canvas") as HTMLCanvasElement;
+```
+
+### Uniones discriminadas
+
+Útil para casos en los que tu estructura puede cambiar de acuerdo a una propiedad. 
+Ejemplo:
+
+```typescript runable=true
+type LocationState = {
+    status: 'Cargando' | 'Exito' | 'Error',
+    response?: {
+        name: string,
+        date: string
+    },
+    error?: {
+        message: string
+    }
+}
+
+const imprimirRespuesta = (ubicacion: LocationState) => {
+    switch(ubicacion.status) {
+        case 'Cargando':
+            console.log(location.status)
+            break;
+        case 'Exito':
+            console.log(location.response.name) // Typescript mostrará una alerta porque location.response puede ser undefined
+            break;
+        case 'Error':
+            console.log(location.error.message) // Typescript mostrará una alerta porque location.error puede ser undefined
+            break;
+    }
+}
+```
+Esto puede solucionarse añadiendo un operador de optional chaining (?.) pero una forma más ordenada de corregir esto es usar uniones discriminadas
+```typescript runable=true
+type LocationStateCargado = {
+    status: 'Cargando'
+}
+type LocationStateExito = {
+    status: 'Exito',
+    response: {
+        name: string,
+        date: string
+    },
+}
+type LocationStateError = {
+    status: 'Error',
+    error: {
+        message: string
+    }
+}
+type LocationState = LocationStateCargado | LocationStateExito | LocationStateError
+
+const imprimirRespuesta = (ubicacion: LocationState) => {
+    switch(ubicacion.status) {
+        case 'Cargando':
+            console.log(location.status)
+            break;
+        case 'Exito':
+            console.log(location.response.name) // Typescript no mostrará ninguna alerta
+            break;
+        case 'Error':
+            console.log(location.error.message) // Typescript no mostrará ninguna alerta
+            break;
+    }
+}
+```
+### Index Signatures
+
+Al definir la estructura de un objeto, a veces uno no conoce el nombre de una propiedad por adelantado. En esos casos, es posible usar un "index signature" para describir el posible valor de un índice. 
+
+```typescript runable=true
+type Mitipo = {
+  [index: string]: number;
+}
+ 
+const myArray: Mitipo = {
+    test: 123,
+    'otherTest': 1245,
+}
+```
+
+### Pick/Omit
+
+Typescript trae consigo múltiples utilidades para crear tipos personalizados. Dos de las más populares son "Pick" y "Omit"
+
+#### Pick
+Construye un nuevo tipo incluyendo unicamente las propiedas pasadas como parámetro
+
+```typescript runable=true
+interface Todo {
+  title: string;
+  description: string;
+  completed: boolean;
+}
+ 
+type TodoPreview = Pick<Todo, "title" | "completed">;
+ 
+const todo: TodoPreview = {
+  title: "Clean room",
+  completed: false,
+};
+```
+#### Omit
+Construye un nuevo tipo excluyendo todas las propiedas pasadas como parámetro
+
+```typescript runable=true
+type Todo = {
+  title: string;
+  description: string;
+  completed: boolean;
+}
+ 
+type TodoPreview = Omit<Todo, "title" | "completed">;
+ 
+const todo: TodoPreview = {
+  description: "Finished cleaning my room",
+};
+```
 
 ## Configuración: La base de todo
 
