@@ -16,6 +16,25 @@ tags:
 
 Bienvenido al mundo del desarrollo móvil multiplataforma. React Native te permite escribir código una vez y ejecutarlo tanto en iOS como en Android, usando JavaScript y React. A diferencia de otras soluciones, React Native compila a componentes nativos reales, lo que garantiza un rendimiento cercano al desarrollo nativo puro. Esto significa que cuando usas un componente `View` en React Native, en iOS se renderiza como un `UIView` nativo y en Android como un `android.view.View` nativo. No estás creando una aplicación web envuelta en un navegador, sino una aplicación verdaderamente nativa escrita con JavaScript.
 
+## Breve introduccion: ¿Que es React?
+- React es una biblioteca de JavaScript para construir interfaces de usuario de forma declarativa mediante componentes reutilizables.
+- React te permite conectar lógica de negocio con lógica UI, basandose en "estados" y/o dependencias. Cuando los datos de estos estados cambian, React se encarga de actualizar eficientemente la interfaz.
+- Originalmente, React fue creado para "web". Utilizando el "Virtual DOM" (Representación ligera en memoria del DOM) React es capaz de optimizar las actualizaciones del UI y crear experiencias fluidas. Este principió se adaptó para mobile con "React Native", el cual también usa un Virtual DOM (o "Shadow Tree" en la nueva arquitectura) para mantener una representación en memoria de la jerarquía de componentes nativos. Cuando el estado cambia, solo envía los cambios necesarios al lado nativo
+
+## ¿Cómo funciona React Native?
+
+### Vieja Arquitectura: (Antes de 0.76) - Bridge y UIManager
+La arquitectura original de React Native (la cual esta activa, por default, para todas las versiones anteriores a 0.76) funciona usando un "Bridge" o puente entre la parte native y el codigo JS (Bundle JS). Cada vez que la aplicacion necesita actualizar su UI, el bundle de Javascript (JS Thread) serializa la informacion del cambio a JSON (utilizando el UIManager) y la envía a la parte nativa, la cual la interpreta y comunica con los módulos de Android e iOS. El problema con este enfoque es que, se generaban cuellos de botella cuando habian varias actualizaciones en simultáneo lo que producía:
+
+- Animaciones entrecortadas
+- Listas largas con scroll ralentizadas
+- Interacciones táctiles tenían delay perceptible
+
+Además, la comunicacion con modulos nativos siempre es asíncrona, lo cual puede traer problemas si se necesitan valores de forma inmediata al inicio del app.
+
+### Nueva arquitectura: Trabajando con JSI y Fabric
+Despues de la version 0.76 React Native comenzó a trabajar con un nuevo tipo de arquitectura que usa JSI (JavaScript Interface) para llamar directamente a funciones C++/nativas sin serialización. Además, reemplazó el UIManager con un nuevo renderer: Fabric, el cual permite actualizaciones síncronas del UI. Por otro lado, introdujo nuevas maneras de trabajar con módulos nativos (TurboModules) y mejoró radicalmente el performance de las aplicaciones al trabajar con animaciones complejas, listas largas y updates frecuentes
+
 ## Configuración del Entorno con React Native CLI
 
 React Native CLI te proporciona control total sobre tu aplicación móvil. Puedes acceder directamente a las configuraciones nativas de Android e iOS, integrar módulos nativos personalizados y tener completa flexibilidad sobre cómo se construye tu aplicación. Esta herramienta es ideal cuando necesitas integrar React Native en aplicaciones nativas existentes, crear módulos nativos personalizados, tener control total sobre el proceso de build, o trabajar en entornos enterprise con requisitos específicos de seguridad y personalización.
