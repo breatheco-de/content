@@ -63,7 +63,7 @@ Mientras que en Windows puedes descargar el instalador desde **Adoptium**, asegu
 
 El siguiente paso es instalar Android Studio, que incluye el **SDK de Android**, todas las herramientas de build necesarias y un emulador para probar tus aplicaciones sin necesidad de un dispositivo físico. Durante la instalación de Android Studio, es crucial que marques las opciones para instalar el Android SDK, Android SDK Platform y Android Virtual Device. Estas herramientas son fundamentales para el desarrollo y sin ellas no podrás compilar ni ejecutar aplicaciones Android.
 
-Una vez instalado Android Studio, necesitas configurar el SDK de Android. Abre Android Studio y ve a `Settings` (o Preferences en Mac), luego navega a `Appearance & Behavior`, `System Settings`, y finalmente `Android SDK`. En la pestaña `SDK Platforms`, asegúrate de tener instalado al menos Android `13.0` (Tiramisu) o una versión superior. En la pestaña `SDK Tools`, verifica que estén instalados Android SDK Build-Tools, Android SDK Platform-Tools y Android Emulator.
+Una vez instalado Android Studio, necesitas configurar el SDK de Android. Abre Android Studio y ve a `Settings` (o Preferences en Mac), luego navega a `Appearance & Behavior`, `System Settings`, y finalmente `Android SDK`. En la pestaña `SDK Platforms`, asegúrate de tener instalado al menos Android `13.0` (Tiramisu) o una versión superior. En la pestaña `SDK Tools`, verifica que estén instalados Android SDK Build-Tools (versiones 33 a mas), Android SDK Platform-Tools (versiones 33 a mas) y Android Emulator.
 
 El último paso, y uno de los más importantes, es configurar las variables de entorno. React Native necesita saber dónde está instalado el **SDK de Android** para poder compilar tus aplicaciones. En Mac o Linux, necesitas agregar estas variables a tu archivo de configuración de shell. Si usas `zsh` (el shell por defecto en Mac moderno), edita el archivo `~/.zshrc` y agrega las siguientes líneas:
 
@@ -80,6 +80,19 @@ source ~/.zshrc
 ```
 
 En Windows el proceso es ligeramente diferente. Necesitas abrir la Configuración del Sistema, ir a Configuración avanzada del sistema, y hacer clic en Variables de entorno. Crea una nueva variable de usuario llamada `ANDROID_HOME` con el valor apuntando a tu SDK, típicamente en `C:\Users\TU_USUARIO\AppData\Local\Android\Sdk`. Luego edita la variable Path y agrega dos nuevas entradas: `%ANDROID_HOME%\platform-tools` y `%ANDROID_HOME%\emulator`.
+
+### Trabajando con JAVA_HOME
+
+En ciertos sistemas (Como en Macbook o en Ubuntu) te pedirán que configures la variable JAVA_HOME para que Android Studio pueda generar correctamente el build. Para lograrlo tienes dos alternativas:
+
+1) Si instalaste JDK usando brew, puedes agregar la variable directamente al archivo `~/.zshrc` apuntando al directorio de instalacion
+
+```bash
+export JAVA_HOME=$(/usr/libexec/java_home)
+```
+
+2) Para casos en los que agregar la variable globalmente no sea una opcion, se puede asignar una version al proyecto local. Para ello, En Android Studio, busca la opcion `Settings` - `Build, Execution & Deployment` -  `Build Tools` - `Gradle`, y en el selector de la version del gradle JDK elige la opción que deseas, luego dale click a "Apply" 
+
 
 ### Configuración para Desarrollo iOS
 
