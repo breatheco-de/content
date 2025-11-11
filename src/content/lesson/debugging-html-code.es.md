@@ -54,7 +54,7 @@ Errores de caché: Debes asegurarte de que el código que escribiste sea el mism
 
 ### 2) Inspector de herramientas de desarrollo
 
-Todos los principales navegadores tienen herramientas de desarrollo, la primera pestaña en las herramientas de desarrollo se llama "Elementos" y contiene -casi- todo lo que necesitas para solucionar tus errores.
+Todos los principales navegadores tienen herramientas de desarrollo, la primera pestaña en las herramientas de desarrollo se llama "Elementos" y contiene casi todo lo que necesitas para solucionar tus errores.
 
 ![Inspector de código HTML](https://i.imgur.com/Fca0Hkm.gif?raw=true)
 
