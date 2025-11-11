@@ -21,7 +21,7 @@ Pero, ¿por qué les gusta a los desarrolladores? Bueno, la lista es infinita, p
 
 + Como desarrollador, es lo único que necesitas tener disponible. Las computadoras no vienen con Atom, Sublime Text (o cualquier otro IDE de alta calidad). A veces, como en los servidores de producción, no puedes instalar nada (y **el sistema ni siquiera tiene una interfaz visual**), solo la línea de comandos.
 
-+ Es superpoderosa. Puedes hacer mucho más en mucho menos tiempo, por ejemplo: eliminar de forma masiva, cambiar nombres, buscar archivos, editar archivos, etc.
++ Es súper poderosa. Puedes hacer mucho más en mucho menos tiempo, por ejemplo: eliminar de forma masiva, cambiar nombres, buscar archivos, editar archivos, etc.
 + Te obliga a usar el teclado. Como no puedes usar el ratón, te hace más rápido, cometes menos errores y el entorno es exactamente el mismo en todas las computadoras.
 
 ## ¿Cómo funciona?
@@ -90,7 +90,7 @@ cd /path/to/directory
 Mueve un archivo a otra carpeta o directorio, como por ejemplo arrastrar un archivo ubicado en el escritorio de una PC a una carpeta almacenada dentro de la carpeta "Documentos".
 
 ```bash
-mv /path/to/file.txt /math/to/destination/file.txt
+mv /path/to/file.txt /path/to/destination/file.txt
 ```
 
 ### El comando rm
