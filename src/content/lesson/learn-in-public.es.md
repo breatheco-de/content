@@ -62,7 +62,7 @@ Aunque no lo creas sí lo tienes. Aprender a programar o entrar en tech no es f�
 
 ### “No soy un experto.”
 
-Nadie lo es al principio. Incluso los desarrolladores con años de experiencia están aprendiendo cosas nuevas todos los días. Compartir desde tu perspectiva de principiante ayuda mucho a otros principiantes.
+Nadie lo es al principio. Incluso los desarrolladores con años de experiencia están aprendiendo cosas nuevas todos los días. Compartir desde tu perspectiva de principiante ayuda bastante a otros principiantes.
 
 ### “No tengo tiempo.”
 
