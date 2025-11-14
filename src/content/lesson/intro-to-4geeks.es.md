@@ -14,7 +14,7 @@ cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 
 ## Lo que ya sabes:
 
-Estás aquí para aprender a desarrollar tus habilidades para programar hasta un nivel en el que puedas: 1️⃣ Conseguir trabajo, 2️⃣ Crear tu propia empresa, 3️⃣ Adaptarte mejor al nuevo mundo. 
+Estás aquí para aprender a desarrollar tus habilidades para programar hasta un nivel en el que puedas: 1️⃣ Conseguir trabajo, 2️⃣ Crear tu propia empresa, 3️⃣ Adaptarte mejor al nuevo mundo. Lo que todos sabemos es que el inglés se enseña mal.
 
 ## Lo que no sabías:
 
@@ -50,7 +50,7 @@ Cualquier persona en general puede aprender a programar; la programación se vue
 
 Durante toda tu vida has aprendido de la misma manera, el sistema de educación te ha puesto en una caja y te ha enseñado a aprender lentamente, limitando tu habilidad para adaptarte al nuevo mundo de profesionales que aprenden con rapidez y que son autodidactas.
 
-Sabemos cómo enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseñaremos de una manera tan diferente que puede no gustarte al principio, es normal que tu mente quiera volver al aprendizaje "lento pero seguro", sin tener que sentirte incómodo o constantemente desafiado por nuestro sistema.
+Sabemos cómo enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseñaremos de una manera tan diferente que puede no gustarte al principio, es normal que tu mente quiera volver al aprendizaje "lento pero seguro", sin tener que sentirte incómodo o constantemente desafiado por nuestro sistema. 
 
 ##### 📝 Receta para evitar perder la confianza en nuestros métodos  
 
