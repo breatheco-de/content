@@ -21,8 +21,7 @@ Esta guía trata de solucionar un error, pero vale la pena mencionar cómo preve
 + **Usa un formateador de código** que indente tu código automáticamente. La mayoría de los errores al principio surgen porque tu código es desordenado y desafiante de seguir con tus ojos. Terminas abriendo/cerrando tags en el lugar equivocado.
 
 ## Tres herramientas de depuración para HTML
-
-Las herramientas de depuración más efectivas para HTML son:
+Las herramientas de depuracion mas importantes para HTML son:
 1. El código fuente HTML de tu página como lo ve el navegador.
 2. Las herramientas de inspección del desarrollador.
 3. Tu editor de código (VSCode, JetBrains, etc.).
