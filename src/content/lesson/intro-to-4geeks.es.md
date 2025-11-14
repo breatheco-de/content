@@ -26,7 +26,7 @@ Vamos a cambiar la forma en que te has acostumbrado a aprender, la forma en que 
 
 ### Estamos aquí para derribar 💻 3 Paredes Respecto al Código
 
-Durante los años que han pasado hemos identificado razones específicas por las cuales los estudiantes se frustran y dejan de intentar ser desarrolladores o no completan el curso y no consiguen trabajo.
+Durante los años que han pasado hemos identificado razones específicas por las cuales los estudiantes se frustran y dejan de intentar ser desarrolladores o no completan el curso y se comen un cable.
 
 #### Pared #1: Autoestima ❓ (Síndrome del impostor)
 
