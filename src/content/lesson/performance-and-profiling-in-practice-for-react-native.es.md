@@ -109,7 +109,7 @@ La vista Heavy agrupa todas las llamadas a funciones por nombre, mostrándote la
 
 La vista Tree muestra el call stack jerárquico completo. Útil cuando quieres entender el contexto de por qué una función es lenta. Puedes ver toda la cadena de llamadas que llevó a ejecutar código costoso.
 
-![propfile image](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/image-rn1.png)
+![propfile image](../../assets/assets/assets/image-rn1.png)
 
 ## Flipper: Visibilidad Total de Tu App
 
