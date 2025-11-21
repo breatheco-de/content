@@ -39,7 +39,7 @@ Cada lista tiene los mismos conceptos básicos:
 
 > ☝ Las posiciones comienzan en **cero (0)**; el primer elemento es el elemento en la posición **cero (0)**
 
-## ¿Como Declarar una Lista?
+## ¿Cómo declarar una Lista?
 
 
 Utilizando corchetes de la siguiente manera:
