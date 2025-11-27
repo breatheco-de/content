@@ -1,0 +1,294 @@
+{
+    "info": {
+        "slug": "quiz-ota-hardening-react-native-cli",
+        "name": "OTA Updates and Hardening in React Native CLI",
+        "difficulty": "ADVANCED",
+        "technologies": [
+            "react-native",
+            "codepush",
+            "eas-update",
+            "mobile-security",
+            "ota-updates",
+            "ci-cd"
+        ],
+        "main": "Test what you've learned about OTA updates with CodePush/EAS Update, progressive rollouts, secrets management, obfuscation, SSL pinning, and secure storage in React Native.",
+        "results": "Great! If you pass this quiz, you have a solid understanding of how to combine OTA updates with hardening to launch quickly without sacrificing security.",
+        "badges": [
+            { "slug": "ota_hardening_react_native_cli", "points": 40 }
+        ]
+    },
+    "questions": [
+        {
+            "q": "What is the main advantage of OTA updates compared to the traditional app store release model?",
+            "a": [
+                {
+                    "option": "They allow you to fix bugs and deploy JavaScript changes in minutes without going through app store review",
+                    "correct": true
+                },
+                {
+                    "option": "They allow you to update native code and app permissions without any restrictions",
+                    "correct": false
+                },
+                {
+                    "option": "They eliminate the need to sign the app with production certificates",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "In a React Native app, which part can be modified via OTA updates?",
+            "a": [
+                {
+                    "option": "Only the JavaScript code (business logic, components, UI)",
+                    "correct": true
+                },
+                {
+                    "option": "Only the native code (Java/Kotlin, Objective-C/Swift)",
+                    "correct": false
+                },
+                {
+                    "option": "OS permissions and native project configuration",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "Which of the following is an important limitation of OTA updates mentioned in the article?",
+            "a": [
+                {
+                    "option": "They cannot change native code or system permissions, so sometimes you still need traditional releases",
+                    "correct": true
+                },
+                {
+                    "option": "They cannot update assets like images or static fonts",
+                    "correct": false
+                },
+                {
+                    "option": "They only work on Android and not on iOS",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "According to the article, which description best fits CodePush versus EAS Update?",
+            "a": [
+                {
+                    "option": "CodePush is the traditional and mature option; EAS Update is the more modern and actively maintained alternative",
+                    "correct": true
+                },
+                {
+                    "option": "CodePush is exclusive to Expo projects and EAS Update only for React Native CLI",
+                    "correct": false
+                },
+                {
+                    "option": "CodePush allows OTA only on Android and EAS Update only on iOS",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "What is the purpose of having separate deployments like Staging and Production in CodePush?",
+            "a": [
+                {
+                    "option": "To test updates first with a small group of users before releasing to the general public",
+                    "correct": true
+                },
+                {
+                    "option": "To allow Staging to update native code and Production only JavaScript",
+                    "correct": false
+                },
+                {
+                    "option": "To avoid signing the production bundle in Staging",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "In the article's example, what does using `checkFrequency: codePush.CheckFrequency.ON_APP_RESUME` imply?",
+            "a": [
+                {
+                    "option": "The app checks for updates every time the user returns to the app from the background",
+                    "correct": true
+                },
+                {
+                    "option": "The app only checks for updates the first time it is installed",
+                    "correct": false
+                },
+                {
+                    "option": "The app downloads updates only when it crashes due to an error",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "What is the goal of doing progressive rollouts (e.g., `--rollout 25`) with CodePush?",
+            "a": [
+                {
+                    "option": "To detect possible issues in a small part of the user base before impacting 100%",
+                    "correct": true
+                },
+                {
+                    "option": "To permanently reduce the bundle size by 25%",
+                    "correct": false
+                },
+                {
+                    "option": "To allow only users with new devices to receive the update",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "Why is it bad practice to store API keys directly in the JavaScript code of a React Native app?",
+            "a": [
+                {
+                    "option": "Because the JavaScript bundle can be decompiled and the keys exposed in almost plain text",
+                    "correct": true
+                },
+                {
+                    "option": "Because keys cannot be used from JavaScript, only from native code",
+                    "correct": false
+                },
+                {
+                    "option": "Because it prevents OTA updates from working correctly",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "According to the article, what advantage does `react-native-config` offer for sensitive configuration management?",
+            "a": [
+                {
+                    "option": "It allows injecting environment variables at build time so sensitive info is stored in compiled native code instead of the JS bundle",
+                    "correct": true
+                },
+                {
+                    "option": "It automatically encrypts all outgoing HTTP requests",
+                    "correct": false
+                },
+                {
+                    "option": "It automatically backs up the app's local database",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "What is the purpose of the `jail-monkey` library in the context of hardening?",
+            "a": [
+                {
+                    "option": "To detect if the device is rooted/jailbroken or if there are suspicious hooking/debugging tools",
+                    "correct": true
+                },
+                {
+                    "option": "To obfuscate JavaScript code before generating the bundle",
+                    "correct": false
+                },
+                {
+                    "option": "To manage camera and location permissions",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "Why does the article recommend using `react-native-keychain` instead of `AsyncStorage` for sensitive data?",
+            "a": [
+                {
+                    "option": "Because `Keychain` uses secure native storage (Secure Enclave / Keystore) and supports biometric authentication",
+                    "correct": true
+                },
+                {
+                    "option": "Because `AsyncStorage` cannot store strings and only accepts objects",
+                    "correct": false
+                },
+                {
+                    "option": "Because `Keychain` automatically backs up all data to the cloud",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "What is the main goal of implementing SSL Pinning in the app?",
+            "a": [
+                {
+                    "option": "To prevent man-in-the-middle attacks by accepting only specific certificates embedded in the app",
+                    "correct": true
+                },
+                {
+                    "option": "To speed up all network requests by reducing latency by 50%",
+                    "correct": false
+                },
+                {
+                    "option": "To allow unencrypted HTTP connections in development environments",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "In the context of OTA, what key benefit does CodePush's rollback capability offer?",
+            "a": [
+                {
+                    "option": "Quickly revert to a previous bundle version if an update introduces errors or security issues",
+                    "correct": true
+                },
+                {
+                    "option": "Automatically reinstall the app from the store if the user uninstalls it",
+                    "correct": false
+                },
+                {
+                    "option": "Delete all user data and restore the app to factory state",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "When does it make sense to mark an OTA update as mandatory (`--mandatory true`) according to the article?",
+            "a": [
+                {
+                    "option": "When it fixes a critical security issue and you need all users to update as soon as possible",
+                    "correct": true
+                },
+                {
+                    "option": "Always, so all users are forced to have the latest version, no exceptions",
+                    "correct": false
+                },
+                {
+                    "option": "Never, since mandatory updates are forbidden by app store policies",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "Which combination best describes the goal of hardening according to the article?",
+            "a": [
+                {
+                    "option": "Not to make the app invincible, but to increase the cost and difficulty of attacks enough to discourage most malicious actors",
+                    "correct": true
+                },
+                {
+                    "option": "To guarantee that nobody can ever extract a single line of code from the app",
+                    "correct": false
+                },
+                {
+                    "option": "To completely eliminate the need to use HTTPS or backend encryption",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "q": "In the article's pre-production security checklist, which of the following practices would NOT be acceptable?",
+            "a": [
+                {
+                    "option": "Publishing source maps and CodePush deployment keys in a public repository to facilitate debugging",
+                    "correct": true
+                },
+                {
+                    "option": "Using staged rollouts, post-release error monitoring, and a tested rollback plan",
+                    "correct": false
+                },
+                {
+                    "option": "Obfuscating the JS bundle, removing `console.log`, and using secure storage for credentials",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}
