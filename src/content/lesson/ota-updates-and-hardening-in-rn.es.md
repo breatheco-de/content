@@ -1,6 +1,6 @@
 ---
 title: "OTA Updates y Hardening en React Native CLI"
-description: "Cómo combinar actualizaciones OTA y hardening para mantener tus apps React Native seguras y fáciles de actualizar"
+description: "Cómo combinar actualizaciones OTA y hardening para mantener tus aplicaciones React Native seguras, ágiles para iterar y resilientes frente a amenazas del mundo real. Aprende a desplegar cambios en JavaScript en cuestión de minutos mientras implementas las capas de seguridad necesarias para proteger tu código, tus usuarios y tu infraestructura."
 authors:
     - rosinni_rodriguez
 tags: ["react-native", "ota-updates", "codepush", "eas-update", "mobile-security", "hardening", "ci-cd", "devops"]
@@ -299,7 +299,7 @@ Crea un archivo `.env` en la raíz de tu proyecto (y agrégalo a `.gitignore`):
 
 ```bash
 API_KEY=tu_api_key_secreta
-API_ENDPOINT=https://api.tuservicio.com
+API_ENDPOINT=https://example.com
 ```
 
 Ahora puedes acceder a estas variables en tu código JavaScript de forma segura:
@@ -445,7 +445,7 @@ Configura el pinning en tu código:
 ```javascript
 import { fetch } from 'react-native-ssl-pinning';
 
-const response = await fetch('https://api.tuservicio.com/data', {
+const response = await fetch('https://example.com/data', {
   method: 'GET',
   timeoutInterval: 10000,
   pkPinning: true,
