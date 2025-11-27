@@ -2,7 +2,7 @@
     "info": {
         "slug": "quiz-ota-hardening-react-native-cli",
         "name": "OTA Updates and Hardening in React Native CLI",
-        "difficulty": "ADVANCED",
+        "difficulty": "INTERMEDIATE",
         "technologies": [
             "react-native",
             "codepush",
