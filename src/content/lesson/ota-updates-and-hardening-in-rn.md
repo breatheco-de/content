@@ -298,7 +298,7 @@ Create a `.env` file at your project root (and add it to `.gitignore`):
 
 ```bash
 API_KEY=your_secret_api_key
-API_ENDPOINT=https://api.yourservice.com
+API_ENDPOINT=https://example.com
 ```
 
 Now you can access these variables in your JavaScript code safely:
@@ -444,7 +444,7 @@ Configure pinning in your code:
 ```javascript
 import { fetch } from 'react-native-ssl-pinning';
 
-const response = await fetch('https://api.yourservice.com/data', {
+const response = await fetch('https://example.com/data', {
   method: 'GET',
   timeoutInterval: 10000,
   pkPinning: true,
