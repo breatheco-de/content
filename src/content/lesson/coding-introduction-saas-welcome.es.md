@@ -22,7 +22,7 @@ Desde el principio, queremos que te pongas manos a la obra y empieces a programa
    - Nuestro motor [LearnPack](https://4geeks.com/learnpack) ofrece tutoriales prácticos e interactivos que se adaptan a tu progreso. Asegura que estés aprendiendo las habilidades correctas en el momento adecuado. Asegúrate de aprovechar al máximo esta herramienta de aprendizaje interactiva. Recuerda que Rigobot también está para ayudarte mientras estas en los tutoriales interactivos de LearnPack, por lo que te recomendamos que lo aproveches al máximo!
 
 3. **Sesiones de Mentoría con expertos de la industria**:
-   - Tienes acceso a una sesión de mentoría incluida en tu programa. Te alentamos a usarla si necesites orientación personalizada. Recuerda, sesiones adicionales están disponibles a costo y no obtenemos ganancias de este servicio.
+   - Si tienes acceso a sesiones de mentoría incluida en tu programa. Te alentamos a usarla si necesites orientación personalizada. Recuerda, sesiones adicionales están disponibles a costo y no obtenemos ganancias de este servicio.
 
 4. **Comunidad de WhatsApp**:
    - [Únete a nuestra comunidad de WhatsApp](https://chat.whatsapp.com/K39ELB5TIK63r4INTBd7SG) para conectarte con mentores expertos y compañeros de aprendizaje. Es un excelente lugar para buscar ayuda, compartir ideas y ser parte de un entorno de aprendizaje colaborativo.
