@@ -40,7 +40,7 @@ En este artículo te explicamos por qué funciona y cómo empezar.
 - Crea o mejora tus perfiles en LinkedIn (muy recomendado), Twitter/X, Instagram, Reddit, etc.
 - Asegúrate de que tu perfil refleje que eres desarrollador, analista de ciberseguridad, constructor de IA o tecnólogo creativo.
 - Cada vez que termines un proyecto o módulo, ¡compártelo! Escribe un post corto o graba un video sobre lo que hiciste y lo que aprendiste.
-  - [Aquí tienes un ejemplo de un estudiante de 4Geeks](https://www.linkedin.com/feed/update/urn:li:activity:6750086679345815552/)
+- [Aquí deberías tener un ejemplo de un estudiante de 4Geeks pero el link no funciona](https://www.linkedin.com/feed/update/urn:li:activity:6750086679345815552/)
 - Participa en retos públicos como [#100DaysOfCode](https://www.100daysofcode.com/) — perfecto si estás aprendiendo a programar.
 - Para otras disciplinas, usa hashtags como:
   - `#LearnCybersecurity`
