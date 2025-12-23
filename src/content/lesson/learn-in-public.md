@@ -5,8 +5,8 @@ tags:
   - networking
 canonical: ''
 description: >-
-  Discover how learning in public can enhance your tech skills and career.
-  Embrace sharing your journey and connect with others today!
+  Discover how learning in public can enhance your tech skills, career and job-ready social media presence.
+  Embrace sharing your journey and connect with others today to get a running start on your path!
 ---
 
 If you're learning at 4Geeks, whether it's Full Stack, Cybersecurity, Vibe Coding, AI, or any other program, you should consider learning in public. This is not just a theory, it's a proven strategy for faster learning and career growth.
