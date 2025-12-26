@@ -363,12 +363,12 @@ async function handeErrors() {
 ```javascript
 async function fetchData(endpoint) { 
     const response = await  fetch(endpoint);  // Nota el uso de fetch API
-    let data = await res.json();
+    let data = await response.json();
     data = data.map(user => user.ID); 
     console.log(data); 
 }
 
-fetchData(http://dummyData/api/allUsers); // Este es un ejemplo de endpoint
+fetchData("http://dummyData/api/allUsers"); // Este es un ejemplo de endpoint
 
 /*RESULTADO EN CONSOLA:
 	> [1, 2, 3, 4] // Aquí obtenemos todos los ID de los usuarios de la base de datos
