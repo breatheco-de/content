@@ -10,13 +10,15 @@ canonical: ""
 cover_local: "../../assets/images/e16d59ad-4c11-4ca0-8bfc-5a9d147c6c2e.jpeg"
 ---
 
-¡¡Bienvenidos!! 🤩👏 Mi nombre es Alejandro, estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor, lean hasta el final, ¡Trataré de no aburrirlos!
+¡¡Bienvenidos!! 🤩👏 Mi nombre es Miguel Vasquez, estoy escribiendo estas palabras luego de enseñar y generar un impacto en tantas vidas. Por favor, lean hasta el final, ¡Trataré de no aburrirlos!
 
-## Lo que ya sabes:
+## ESTO LO MODIFICO MIGUEL VASQUEZ
+
+## Lo que ya sabes 💭:
 
 Estás aquí para aprender a desarrollar tus habilidades para programar hasta un nivel en el que puedas: 1️⃣ Conseguir trabajo, 2️⃣ Crear tu propia empresa, 3️⃣ Adaptarte mejor al nuevo mundo. 
 
-## Lo que no sabías:
+## Lo que no sabías 😥:
 
 También estás aquí porque necesitas ayuda, no solo técnica sino también espiritualmente. Digo esto de la manera más pragmática posible.
 
