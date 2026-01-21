@@ -13,7 +13,7 @@ description: >-
 ---
 ## What is a string?
 
-A bunch of letters and characters all together in a particular order, the only way to store any characters that are not a number, are a fundamental part of every major program.
+A bunch of letters and characters all together in a particular order, the only way to store any characters that are not a number, and a fundamental part of every major program.
 
 Strings are also part of the most primitive or basic set of data-types: 
 
