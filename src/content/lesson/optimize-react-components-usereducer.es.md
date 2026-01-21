@@ -68,13 +68,14 @@ export default function counterReducer(state, action = {}) {
     case "RESET":
       return { ...state, counter: 0 };
     default: 
-    // En caso no tener ningún tipo se retorna el estado sin alterar
-      throw Error("No se encuentra la acción especificada")
+    // En caso de que no se encuentre el tipo de acción, se retorna el estado sin alterar pero se muestra una advertencia en consola.
+      console.warn(`⚠️ Warning: No se encuentra la acción "${action.type}" especificada. Se mantiene el estado actual.`);
+      return state;
   }
 }
 ```
+Además de las acciones especificadas, se coloca un caso default que se ejecuta cuando el tipo de acción no está definido. En lugar de arrojar un error con throw new Error, (que interrumpe la ejecución de la aplicación), se retorna el estado sin alterarlo (return state) y se muestra una advertencia en la consola. Este enfoque asegura que la aplicación siga funcionando, permitiendo la detección de posibles errores sin interrumpir la experiencia del usuario.
 
-Ademas de las acciones especificadas, se coloca un caso `default` que se ejecuta cuando el tipo de acción no esta definido, para lo cual se arroja un error que interrumpe la aplicación. Esto puede parecer un poco extremo, pero es mejor tener un error visible y depurarlo, que tener una aplicación sin errores(🐞bugs) pero que no funciona como debería.
 
 Ya con esto podemos tener tanto las funciones `counterReducer` y el estado inicial `initialCounter` exportadas en un archivo, para ser utilizadas por cualquier otro componente 👌.
 
