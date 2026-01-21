@@ -44,7 +44,7 @@ Esto puede suceder por varias razones:
 - Escribiste mal algún estilo dentro del selector.
 - Se aplica otro estilo que anula el tuyo (conflicto de estilos).
 
-#### Sigue estos pasos para solucionar el error:
+#### Sigue las siguientes instrucciones para solucionar el error:
 
 1. Abre la herramienta de desarrollador `Elementos`
 2. Haz clic en el tag HTML que quieres inspeccionar.
