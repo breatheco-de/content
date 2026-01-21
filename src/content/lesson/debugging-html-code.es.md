@@ -1,9 +1,9 @@
 ---
-title: Depurando código HTML
+title: Depurando código HTMl
 tags:
-  - debugging
-  - web development
-  - html/css
+  * debugging
+  * web development
+  * html/css
 description: >-
   Master HTML debugging with our efficient guide! Learn essential tips and tools
   to save time and prevent errors in your web development projects.
@@ -27,7 +27,7 @@ Las herramientas de depuración más efectivas para HTML son:
 2. Las herramientas de inspección del desarrollador.
 3. Tu editor de código (VSCode, JetBrains, etc.).
 
-Vamos a repasar cada uno de ellos en detalle.
+Vamos a repasar cada uno de ellos en detalle...
 
 ### 1) Inspeccionar el código fuente HTML
 
