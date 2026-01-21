@@ -46,7 +46,6 @@ There are many ways to get unstuck:
 
 - Watch the video solution of the project.
 - Ask one of your classmates.
-- Join a global mentorship session. They happen twice a week.
 - Ask questions during your live classes.
 - Ask [Rigobot](https://4geeks.com/rigobot), our internally developed AI mentor.
 - Request 1-1 [mentorship sessions](https://4geeks.com/docs/knowledge-base-4geeks/mentoring-sessions) (if available).
