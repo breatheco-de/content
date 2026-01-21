@@ -263,6 +263,6 @@ Así es como se ve un modal por defecto en Bootstrap.
 Bootstrap tiene muchas versiones, siempre verifica si estás utilizando la última versión de Bootstrap en tu proyecto, aquí puedes encontrar todas las versiones disponibles: [https://getbootstrap.com/docs/versions/](https://getbootstrap.com/docs/versions/).
 
 
-Recomendamos usar un CDN para importar bootstrap en tu HTML como este: [https://www.bootstrapcdn.com/](https://www.bootstrapcdn.com/)
+Recomendamos usar un CDN para importar bootstrap en tu HTML como este: [https://www.bootstrapcdn.com/](https://www.bootstrapcdn.com/).
 
 Si estás migrando tu proyecto a una versión más reciente de Bootstrap, recuerda consultar su documentación.
