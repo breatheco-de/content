@@ -7,7 +7,7 @@ technologies: ["github", "git"]
 
 This lesson will define GitHub.com, explain it, and review its essential features. Hopefully, by the end of the article, you will be as excited as we are about GitHub.
 
-## What is GitHub
+## What is GitHub?
 
 GitHub.com is the epicenter of the world's code; 90% of the code lives on it. You'll be interacting with GitHub so much that we can't even list everything you can do. Here are a few examples:
 
@@ -53,7 +53,7 @@ Above, you can see an explanation of the typical GitHub Repository Page.
 
 The GitHub Star ⭐️ is the primary way to bookmark other people's repositories. It is a good idea to bookmark a repo because you will probably lose track of it; there are millions of amazing repos. You can categorize them.
 
-We recommend you bookmark most the academy repositories, as you will need and use them a lot. Here are a few of them:
+We recommend you to bookmark most the academy repositories, as you will need and use them a lot. Here are a few of them:
 
 - [The main academy repository](https://github.com/4GeeksAcademy/About-4Geeks-Academy).
 - [All the interactive tutorials](https://github.com/4GeeksAcademy/Interactive-Tutorials).
