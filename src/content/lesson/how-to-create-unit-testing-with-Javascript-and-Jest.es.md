@@ -49,7 +49,7 @@ Nota: Las pruebas unitarias no se preocupan por el contenido de la función `sum
 
 ## Función Flecha
 
-Otra novedad de ES6 son las "Funciones de Flecha". La forma de crear estas funciones es la siguiente: Primero, definiremos la lista de parámetros (si es necesario) entre paréntesis seguido del símbolo `=>` y las llaves `{}` para indicar las instrucciones a realizar.
+Otra novedad de ESO son las "Funciones de Flecha". La forma de crear estas funciones es la siguiente: Primero, definiremos la lista de parámetros (si es necesario) entre paréntesis seguido del símbolo `=>` y las llaves `{}` para indicar las instrucciones a realizar.
 
 Además de la sintaxis que es diferente a las anteriores, este tipo de funciones tienen las siguientes características.
 
