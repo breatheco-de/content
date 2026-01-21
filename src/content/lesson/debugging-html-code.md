@@ -11,6 +11,7 @@ description: >-
 ## Debugging HTML code
 
 HTML Code is difficult to debug initially, but it's easy to grasp if you follow this recipe. You only need to know 2-3 things before starting to code or debug in HTML that will make you a master. Yes, it's that easy, so don't worry and keep reading.
+# As a beginner, debugging HTML can be a challenging task, but...
 
 If you are interested in debugging other languages or technologies, here is our full guide about [what is debugging](https://4geeks.com/lesson/what-is-debugging-code) and how to become a master of debugging when coding front-end and back-end web development.
 
