@@ -27,7 +27,7 @@ For example:
 + You will be able to create games like: Tic-Tac-Toe, Hangman, etc.
 + The sky is the limit! Front-end web developers can create games, websites, and applications for any type of industry.
 
-## The most Important Terms
+## The Most Important Terms
 
 The front-end world is huge – you can specialize in anything you want, but there are some important concepts you need to know well in order to begin your specialization:
 
