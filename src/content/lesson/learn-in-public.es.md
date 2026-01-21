@@ -32,7 +32,7 @@ En este artículo te explicamos por qué funciona y cómo empezar.
 - Tu familia, amigos y contactos comenzarán a verte como una persona experta en tecnología.
 - Te ayuda a combatir el síndrome del impostor, al ver que hay muchas personas pasando por lo mismo.
 - Plataformas como LinkedIn aumentan tu visibilidad cuando publicas con frecuencia.
-- Los reclutadores te van a notar—en 4Geeks lo hemos visto una y otra vez: quienes aprenden en público consiguen empleo mucho más rápido.
+- Los reclutadores te van a notar en 4Geeks, lo hemos visto una y otra vez: quienes aprenden en público consiguen empleo mucho más rápido.
 - No te sentirás solo: en Twitter/X hay miles de personas compartiendo su proceso de aprendizaje todos los días, especialmente bajo hashtags como `#100DaysOfCode`, `#BuildInPublic` y `#LearnToCode`. Son comunidades activas, generosas y llenas de energía donde vas a encontrar apoyo real.
 
 ## ¿Cómo empezar a aprender en público?
