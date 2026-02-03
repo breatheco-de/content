@@ -79,4 +79,3 @@ Pruebas: Verificar que los datos guardan y cargan correctamente.
 Testing: Probar que nada se rompa al hacer clic.
 Demo: Presentar el incremento funcional.
 Feedback: ¿Qué aprendimos para el siguiente sprint?
-
