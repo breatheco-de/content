@@ -116,7 +116,7 @@ const navigate = useNavigate();
 Then, anywhere in any of your components, you can programmatically redirect users to another URL like this:
 
 ```jsx
-<button onClick={() => navigate("/login")}>Take me to login</button>
+<button onClick={() => navigate.push("/login")}>Take me to login</button>
 ```
 
 ## Live Example:

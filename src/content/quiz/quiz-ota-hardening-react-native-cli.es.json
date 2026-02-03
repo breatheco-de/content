@@ -1,0 +1,294 @@
+{
+  "info": {
+    "slug": "quiz-actualizaciones-ota-y-hardening",
+    "name": "OTA Updates y Hardening en React Native CLI",
+    "difficulty": "INTERMEDIATE",
+    "technologies": [
+      "react-native",
+      "codepush",
+      "eas-update",
+      "mobile-security",
+      "ota-updates",
+      "ci-cd"
+    ],
+    "main": "Pon a prueba lo que aprendiste sobre actualizaciones OTA con CodePush/EAS Update, rollouts progresivos, manejo de secrets, ofuscación, SSL pinning y almacenamiento seguro en React Native.",
+    "results": "¡Genial! Si superas este quiz, tienes una visión sólida de cómo combinar OTA updates con hardening para lanzar rápido sin sacrificar seguridad.",
+    "badges": [
+      { "slug": "ota_hardening_react_native_cli", "points": 40 }
+    ]
+  },
+  "questions": [
+    {
+      "q": "¿Cuál es la principal ventaja de las actualizaciones OTA frente al modelo tradicional de publicación en las tiendas?",
+      "a": [
+        {
+          "option": "Permiten corregir bugs y desplegar cambios de JavaScript en minutos sin pasar por la revisión de las tiendas",
+          "correct": true
+        },
+        {
+          "option": "Permiten actualizar el código nativo y los permisos de la app sin ninguna restricción",
+          "correct": false
+        },
+        {
+          "option": "Eliminan la necesidad de firmar la aplicación con certificados de producción",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "En una app React Native, ¿qué parte puede modificarse mediante OTA updates?",
+      "a": [
+        {
+          "option": "Solo el código JavaScript (lógica de negocio, componentes, UI)",
+          "correct": true
+        },
+        {
+          "option": "Solo el código nativo (Java/Kotlin, Objective-C/Swift)",
+          "correct": false
+        },
+        {
+          "option": "Los permisos del sistema operativo y la configuración del proyecto nativo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál de las siguientes es una limitación importante de las OTA updates mencionada en el artículo?",
+      "a": [
+        {
+          "option": "No pueden cambiar código nativo ni permisos del sistema, por lo que a veces sigues necesitando releases tradicionales",
+          "correct": true
+        },
+        {
+          "option": "No pueden actualizar assets como imágenes o fuentes estáticas",
+          "correct": false
+        },
+        {
+          "option": "Solo funcionan en Android y no en iOS",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Según el artículo, ¿qué descripción encaja mejor con CodePush frente a EAS Update?",
+      "a": [
+        {
+          "option": "CodePush es la opción tradicional y madura; EAS Update es la alternativa más moderna y activamente mantenida",
+          "correct": true
+        },
+        {
+          "option": "CodePush es exclusivo para proyectos Expo y EAS Update solo para React Native CLI",
+          "correct": false
+        },
+        {
+          "option": "CodePush permite OTA solo en Android y EAS Update solo en iOS",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el propósito de tener deployments separados como Staging y Production en CodePush?",
+      "a": [
+        {
+          "option": "Probar primero las actualizaciones en un grupo reducido de usuarios antes de enviarlas al público general",
+          "correct": true
+        },
+        {
+          "option": "Permitir que Staging actualice el código nativo y Production solo JavaScript",
+          "correct": false
+        },
+        {
+          "option": "Evitar la firma del bundle de producción en Staging",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "En el ejemplo del artículo, ¿qué implica usar `checkFrequency: codePush.CheckFrequency.ON_APP_RESUME`?",
+      "a": [
+        {
+          "option": "La app revisa si hay updates cada vez que el usuario vuelve a la app desde segundo plano",
+          "correct": true
+        },
+        {
+          "option": "La app solo revisa updates la primera vez que se instala",
+          "correct": false
+        },
+        {
+          "option": "La app descarga updates solo cuando se bloquea por un error",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el objetivo de hacer rollouts progresivos (por ejemplo, `--rollout 25`) con CodePush?",
+      "a": [
+        {
+          "option": "Detectar posibles problemas en una pequeña parte de la base de usuarios antes de impactar al 100%",
+          "correct": true
+        },
+        {
+          "option": "Reducir permanentemente el tamaño del bundle en un 25%",
+          "correct": false
+        },
+        {
+          "option": "Permitir que solo usuarios con dispositivos nuevos reciban la actualización",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Por qué es una mala práctica guardar API keys directamente en el código JavaScript de una app React Native?",
+      "a": [
+        {
+          "option": "Porque el bundle JavaScript puede descompilarse y las keys quedar expuestas en texto casi plano",
+          "correct": true
+        },
+        {
+          "option": "Porque las keys no pueden usarse desde JavaScript, solo desde código nativo",
+          "correct": false
+        },
+        {
+          "option": "Porque impide que las OTA updates funcionen correctamente",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "Según el artículo, ¿qué ventaja aporta `react-native-config` en la gestión de configuración sensible?",
+      "a": [
+        {
+          "option": "Permite inyectar variables de entorno en el build para que la información sensible quede en el código nativo compilado en lugar del bundle JS",
+          "correct": true
+        },
+        {
+          "option": "Cifra automáticamente todas las peticiones HTTP salientes",
+          "correct": false
+        },
+        {
+          "option": "Realiza backup automático de la base de datos local de la app",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Para qué se utiliza la librería `jail-monkey` en el contexto de hardening?",
+      "a": [
+        {
+          "option": "Para detectar si el dispositivo está rooteado/jailbroken o si hay herramientas de hooking/debugging sospechosas",
+          "correct": true
+        },
+        {
+          "option": "Para ofuscar el código JavaScript antes de generar el bundle",
+          "correct": false
+        },
+        {
+          "option": "Para gestionar permisos de cámara y ubicación",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Por qué el artículo recomienda usar `react-native-keychain` en lugar de `AsyncStorage` para datos sensibles?",
+      "a": [
+        {
+          "option": "Porque `Keychain` usa el almacenamiento seguro nativo (Secure Enclave / Keystore) y soporta autenticación biométrica",
+          "correct": true
+        },
+        {
+          "option": "Porque `AsyncStorage` no permite guardar strings y solo acepta objetos",
+          "correct": false
+        },
+        {
+          "option": "Porque `Keychain` hace backup automático de todos los datos en la nube",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuál es el objetivo principal de implementar SSL Pinning en la app?",
+      "a": [
+        {
+          "option": "Impedir ataques man-in-the-middle, aceptando solo certificados concretos embebidos en la app",
+          "correct": true
+        },
+        {
+          "option": "Acelerar todas las peticiones de red reduciendo la latencia en un 50%",
+          "correct": false
+        },
+        {
+          "option": "Permitir conexiones HTTP sin cifrar en entornos de desarrollo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "En el contexto de OTA, ¿qué beneficio clave ofrece la capacidad de rollback de CodePush?",
+      "a": [
+        {
+          "option": "Volver rápidamente a una versión anterior del bundle si una actualización introduce errores o problemas de seguridad",
+          "correct": true
+        },
+        {
+          "option": "Reinstalar automáticamente la app desde la tienda si el usuario la desinstala",
+          "correct": false
+        },
+        {
+          "option": "Borrar todos los datos de usuario y restaurar la app a estado de fábrica",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Cuándo tiene sentido marcar una actualización OTA como mandatoria (`--mandatory true`) según el artículo?",
+      "a": [
+        {
+          "option": "Cuando corrige un fallo de seguridad crítico y necesitas que todos los usuarios actualicen lo antes posible",
+          "correct": true
+        },
+        {
+          "option": "Siempre, para que todos los usuarios estén obligados a tener la última versión, sin excepción",
+          "correct": false
+        },
+        {
+          "option": "Nunca, ya que las actualizaciones mandatorias están prohibidas por las políticas de las tiendas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "¿Qué combinación describe mejor el objetivo del hardening según el artículo?",
+      "a": [
+        {
+          "option": "No hacer la app invencible, sino aumentar tanto el coste y dificultad del ataque que desincentive a la mayoría de actores maliciosos",
+          "correct": true
+        },
+        {
+          "option": "Garantizar que nadie pueda nunca extraer ni una sola línea de código de la app",
+          "correct": false
+        },
+        {
+          "option": "Eliminar por completo la necesidad de usar HTTPS o cifrado en backend",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "q": "En el checklist de seguridad pre-producción del artículo, ¿cuál de las siguientes prácticas NO sería aceptable?",
+      "a": [
+        {
+          "option": "Publicar los source maps y las deployment keys de CodePush en un repositorio público para facilitar el debugging",
+          "correct": true
+        },
+        {
+          "option": "Usar staged rollouts, monitoreo de errores post-release y un plan de rollback probado",
+          "correct": false
+        },
+        {
+          "option": "Ofuscar el bundle JS, eliminar `console.log` y usar almacenamiento seguro para credenciales",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 ---
-title: "Performance & Profiling in Practice en React Native"
+title: "Rendimiento y creación de perfiles en React Native"
 description: "Guía práctica para medir, diagnosticar y optimizar performance en React Native usando Hermes, Flipper y Systrace. Casos reales de debugging con soluciones medibles."
 author: "rosinni"
 tags:
@@ -115,7 +115,7 @@ La vista Tree muestra el call stack jerárquico completo. Útil cuando quieres e
 
 Flipper es mucho más que un debugger, es un ecosistema de plugins que te dan visibilidad completa del comportamiento interno de tu app en tiempo real.
 
-![flipper](../../assets/assets/assets/flipper.png)
+![flipper](https://github.com/breatheco-de/content/blob/master/src/assets/assets/assets/flipper.png)
 
 ### Instalación Profesional
 
@@ -225,9 +225,9 @@ const ProductScreen: React.FC<{ productId: string }> = ({ productId }) => {
   const [relatedProducts, setRelatedProducts] = useState<Product[]>([]);
 
   useEffect(() => {
-    fetch(`http://example/api/products/${productId}`).then(r => r.json()).then(setProduct);
-    fetch(`http://example/api/products/${productId}/reviews`).then(r => r.json()).then(setReviews);
-    fetch(`http://example/api/products/${productId}/related`).then(r => r.json()).then(setRelatedProducts);
+    fetch(`https://example/api/products/${productId}`).then(r => r.json()).then(setProduct);
+    fetch(`https://example/api/products/${productId}/reviews`).then(r => r.json()).then(setReviews);
+    fetch(`https://example/api/products/${productId}/related`).then(r => r.json()).then(setRelatedProducts);
   }, [productId]);
 
   if (!product) return <Loading />;

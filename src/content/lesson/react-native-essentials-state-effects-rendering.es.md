@@ -18,6 +18,9 @@ En este artículo aprenderás tres pilares esenciales del desarrollo moderno con
 2. **useEffect** — control del ciclo de vida  
 3. **Renderizado condicional y listas** 
 
+### Sobre los hooks
+
+Tanto `useState` como `useEffect` son hooks, funciones que reciben un valor y/o un "callback" (el cual ejecutan en circunstancias especificas, por ejemplo: cuando cambia un valor). Estas funciones pueden, además, devolver valores y otros callbacks. Los hooks son la base de la programación moderna en React.
 
 ## Estado local con `useState`
 
@@ -53,16 +56,69 @@ export default function Counter(): JSX.Element {
 
 **Explicación**
 - `useState<number>(0)` crea una variable de estado `count` que solo puede ser un número.
-- `setCount` actualiza el estado y provoca un **re-render** automático.
+- `setCount` funciona como método "set": actualiza el estado y provoca un **re-render** automático.
 - Cada clic muestra el nuevo valor en pantalla.
 
-💡 En Kotlin, esto sería similar a usar un `MutableStateFlow<Int>` o un `LiveData<Int>` observado por la UI.
+💡 En Kotlin, esto sería similar a usar un `MutableStateFlow<Int>` o un `LiveData<Int>` observado por la UI. En Swift (SwiftUI) el equivalente seria el "property wrapper" `@State`
 
+### Actualizando estado en base a estados anteriores
+
+Si deseas actualizar un estado en base a un valor que tenia anteriormente, se debe utilizar una sintaxis distinta al momento de llamar al método "set", de lo contrario obtendrás valores desactualizados
+
+```tsx
+
+const [wrongCount, setWrongCount] = useState(0);
+const [rightCount, setRightCount] = useState(0)
+
+const updateCount = () => {
+  setWrongCount(wrongCount + 1) // Valor no estara actualizado, por ende el resultado no será el esperado
+
+  setRightCount((prevCount) => {
+    return prevCount + 1
+  }) // Valor siempre estará actualizado. prevCount almacena el valor antes del update
+}
+
+```
+
+## "Reaccionando" a cambios con `useEffect`
+
+React mantiene una referencia a cada prop y estado existente dentro de un componente: cuando cambia, React es capaz de "reaccionar" a este cambio, y ejecutar lógica en base al nuevo valor. Para ello, podemos usar el hook `useEffect`
+
+```tsx
+useEffect(
+  () => {
+    // logica
+  },
+  [valor1, valor2]
+)
+
+// Cada vez que "valor1" o "valor2" se actualiza, logica se efecuta
+```
+
+Además, este hook puede devolver una función la cual se ejecutará cada vez que el componente se desmonte. Esta función es util para des-suscribirse de listeners, o eliminar referencias temporales (como timers)
+
+```tsx
+
+useEffect(
+  () => {
+    const timer = setTimeout(
+      () => {
+        // logica
+      },
+      1000
+    )
+    return () => {
+      // En caso el componente se desmonte antes de que se cumpla el segundo, borramos la referencia al timer
+      clearTimeout(timer)
+    }
+  },
+  []
+)
+```
 
 ## Ciclo de vida con `useEffect`
 
-`useEffect` se usa para ejecutar código **después de que el componente se renderiza**, o cuando cambian ciertos valores. Es el equivalente a `onCreate` y `onDestroy` en Android, o `viewDidLoad` y `viewDidDisappear` en iOS, pero expresado de forma declarativa.
-
+Si `useEffect` se utiliza sin pasar ninguna dependencia, React lo ejecutará 1 vez (2 si estás en StrictMode) **después de que el componente se renderiza** . Es el equivalente a `onCreate` y `onDestroy` en Android, o `viewDidLoad` y `viewDidDisappear` en iOS, pero expresado de forma declarativa.
 
 ### Ejemplo 1: montaje y desmontaje
 

@@ -26,7 +26,9 @@ Una vez instaladas, necesitas configurarlas correctamente. A diferencia de libre
 
 ### Configurando Reanimated: Animaciones en el UI Thread
 
-Reanimated necesita un plugin de Babel que transforma tu código JavaScript en worklets, funciones que pueden ejecutarse directamente en el UI thread nativo sin pasar por el bridge. Esto es lo que permite animaciones fluidas incluso cuando el JavaScript thread está ocupado.
+### Antigua arquitectura
+
+Si estas usando la antigua Arquitectura de React (), Reanimated necesitará un plugin de Babel que transforma tu código JavaScript en worklets, funciones que pueden ejecutarse directamente en el UI thread nativo sin pasar por el bridge. Esto es lo que permite animaciones fluidas incluso cuando el JavaScript thread está ocupado.
 
 Modifica tu `babel.config.js`:
 
@@ -40,6 +42,28 @@ module.exports = {
 ```
 
 Es crucial que este plugin esté al final porque necesita procesar el código después de todas las demás transformaciones. Si lo colocas antes de otros plugins, las animaciones no funcionarán correctamente.
+
+### Nueva arquitectura
+
+Si estas usando la nueva arquitectura, debes instalar la siguiente dependencia
+```bash
+npm install react-native-worklets
+```
+
+Luego, modifica tu `babel.config.js`:
+
+```javascript
+module.exports = {
+  presets: ['module:metro-react-native-babel-preset'],
+  plugins: [
+    'react-native-worklets/plugin', // Debe ser el último plugin siempre
+  ],
+};
+
+Despues de modificar babel.config.js debes reiniciar tu servidor de desarrollo y asegurar de resetear cache
+```bash
+  npx react-native start --reset-cache
+```
 
 ### Configurando Gesture Handler: Toques Nativos
 
