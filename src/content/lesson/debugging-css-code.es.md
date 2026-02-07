@@ -9,7 +9,7 @@ description: >-
   time and fix errors efficiently. Discover how to streamline your CSS today!
 ---
 # Depuración de código CSS
-
+# aporte para el proyecto de git 
 Esta guía está destinada a enseñarte cómo solucionar errores en tu código CSS. Si no estás seguro de si tu error está en tu HTML, te recomiendo leer: [¿Qué es depurar y cómo dominarlo?](https://4geeks.com/es/lesson/que-es-depurar-codigo)
 
 CSS es una tecnología muy complicada de depurar, probablemente entre las más difíciles; me llevó años dominarla. No digo esto para asustarte, pero necesitas tomarlo en serio. Mi objetivo es darte una guía concisa y herramientas para convertirte rápidamente bueno en ello.
