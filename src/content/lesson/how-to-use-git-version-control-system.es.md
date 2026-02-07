@@ -42,7 +42,7 @@ Un **repositorio** GIT se compone de lo siguiente:
  <img height="350px" src="https://github.com/breatheco-de/content/blob/master/src/assets/images/a4fc1953-3c91-4bf4-a70a-ab4778b3277b.png?raw=true" alt="cómo usar git" />
 </p>
 
-El repositorio de GIT se almacena dentro del mismo directorio que se encuentra el proyecto en un subdirectorio -oculto- llamado .git:
+El repositorio de GIT se almacena dentro del mismo directorio que se encuentra el proyecto, en un subdirectorio -oculto- llamado .git:
 
 + Solo hay un directorio .git - ubicado en el directorio raíz del proyecto.
 + El repositorio se almacena dentro del proyecto.
@@ -57,11 +57,11 @@ Un **commit object** contiene tres cosas:
 
 + Un conjunto de **archivos**, que refleja el estado de un proyecto en un momento dado en el tiempo.
 + Referencias al **commit object padre.**
-+ Un **nombre SHA1:** es una cadena de 40 caracteres que identifica de forma única el commit object. El nombre se compone de un conjunto de aspectos relevantes del commit; de esta manera, los commit idénticos siempre tendrán el mismo nombre.
++ Un **nombre SHA1:** es una cadena de 40 caracteres que identifica de forma única el commit object. El nombre se compone de un conjunto de aspectos relevantes del commit; de esta manera, los commits idénticos siempre tendrán el mismo nombre.
  
 ![cómo usar git](https://github.com/breatheco-de/content/blob/master/src/assets/images/commit-object2.png?raw=true)
 
-Los commit object padre son aquellos commits que vinieron primero. Generalmente un commit object tendrá un commit padre. En general, uno toma un proyecto en un estado determinado (commit), realiza algunos cambios y guarda el nuevo estado (commit) del proyecto.
+Los commit object padre son aquellos commits que vinieron primero. Generalmente, un commit object tendrá un commit padre. En general, uno toma un proyecto en un estado determinado (commit), realiza algunos cambios y guarda el nuevo estado (commit) del proyecto.
 
 Al principio, un proyecto siempre tiene un commit object sin padre. Este es el primer commit que se realiza en el repositorio del proyecto.
 
