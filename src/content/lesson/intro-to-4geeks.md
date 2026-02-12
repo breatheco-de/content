@@ -11,7 +11,7 @@ description: >-
   Discover how to maximize your coding journey at 4Geeks Academy! Overcome
   challenges and unlock your potential. Start learning today!
 ---
-Welcome!! 🤩👏 My name is Alejandro, and I'm typing these words after years of teaching code and changing lives. Please, I beg you to read until the end, I will try my best not to bore you!
+Welcome!! 🤩👏 My name is Alejandro, and I'm typing these words after years of teaching code and changing lives. Please, I beg you to read until the end, I'll try my best not to bore you!
 
 ## What you already know
 
@@ -33,7 +33,7 @@ Over the past few years, we have identified specific reasons that cause students
 
 ![Impostor Syndrome](https://github.com/breatheco-de/content/blob/master/src/assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png?raw=true)
 
-At some point in our lives (some more than others), we all have thought we were the dumbest person in the room. If we keep thinking like that for a long time and we don't get comfortable with any discipline, we may even think that we are not that smart. Not at all! That's a lie! You are a part of this school, we do not accept people that we don't think are smart enough to make a living as a developer. You need to believe that, especially in tough times!
+At some point in our lives (some more than others), we all have thought we were the dumbest person in the room. If we keep thinking like that for a long time and we don't get comfortable with any discipline, we may even think that we are not that smart. Not at all! That's a lie! You are part of this school, we do not accept people that we don't think are smart enough to make a living as a developer. You need to believe that, especially in tough times!
 
 > If a particular exercise or project is hard, instead of thinking you are not good at this, look for new ways of absorbing the content. Talk to a mentor and we'll give you exactly what you need.
 
@@ -41,7 +41,7 @@ Every average person can learn to code to the point of being useful, but coding 
 
 ##### 📝 Recipe to avoid losing confidence
 
-1. **Avoid being stuck too long:** Coding is tricky because you may be very close to solving a problem. If you are stuck and don't realize it, or maybe you don't know how to start solving the problem, a quick 5 min talk with a mentor will clear the way. You need to ask for help no longer than 15 minutes after trying on your own.
+1. **Avoid being stuck too long:** Coding is tricky because you may be very close to solving a problem. If you are stuck and don't realize it, or maybe you don't know how to start solving the problem, a quick 5-minute talk with a mentor will clear the way. You need to ask for help no longer than 15 minutes after trying on your own.
 
 2. **Talk to other students:** You may think you are the only one who does not understand, but if you talk to a couple of classmates you'll see they are just like you, it will give you the confidence to ask any questions.
 
