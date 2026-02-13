@@ -10,7 +10,7 @@ Si comprendes completamente cómo funciona nuestra metodología, qué esperar de
 
 ## ¿Por qué construir proyectos?
 Queremos que entregues un par de proyectos cada semana. Construir proyectos es todo lo que importa en este curso porque:
-Tú empleador te pagará para crear proyectos.
+Tu empleador te pagará para crear proyectos.
 
 - Los proyectos son la única forma de mostrar tu experiencia.
 - Estos proyectos pasarán a formar parte de tu portafolio.
