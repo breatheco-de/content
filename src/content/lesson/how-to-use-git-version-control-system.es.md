@@ -14,10 +14,9 @@ status: "published"
 
 ## ¡GIT es una necesidad!
 
-GIT es una gran tecnología, tómate el tiempo para aprenderla. NO lo postergues porque no puedes evitarlo. Lo usarás todos los días, varias veces al día. Así que es mejor que aprendas y te sientas cómodo con eso.
-
-GIT es más que un "conjunto de comandos" que tienes que aprender. A lo largo de los años, hemos aprendido que la mejor manera de enseñar GIT es mediante la comprensión de los conceptos y el significado de la tecnología, en lugar de dar una lista de los comandos que se deben usar.
-
+GIT es una tecnología poderosa: vale la pena tomarse el tiempo para aprenderla.
+No lo postergues; tarde o temprano tendrás que usarla, y lo harás todos los días, varias veces al día. Cuanto antes la domines, más cómodo y eficiente te sentirás.
+Además, GIT no es solo un conjunto de comandos que debes memorizar. Con el tiempo, hemos comprobado que la mejor forma de aprenderlo es entendiendo sus conceptos y la lógica detrás de su funcionamiento, no simplemente siguiendo una lista de instrucciones.
 ## ¿Por qué molestarse en usar GIT?
 
 Ser el único desarrollador en un proyecto es una [utopía](https://dle.rae.es/utop%C3%ADa). Normalmente, colaboras con otros desarrolladores y, sin GIT, eso se convierte en un gran problema. Es por eso que necesitamos un *repositorio* de información para centralizar y gestionar los cambios. Con un *repositorio* nos referimos a lo siguiente:
