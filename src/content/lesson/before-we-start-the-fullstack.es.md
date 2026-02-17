@@ -15,15 +15,15 @@ El material pendiente asume que tienes un buen nivel de comprensión de los sigu
 ## Cosas que debes saber sobre HTML/CSS
 
 - ¿Qué es HTML y para qué sirve?
-- Los tags más esenciales como encabezados (`<h1>, <h2>, <h3>`...), párrafos (`<p>`), listas ordenadas/no ordenadas (`<ol>, <ul>`), etc. Piensa en cómo cada uno de estos tags cambia la apariencia, sensación y el comportamiento de tu sitio web. Por ejemplo, ¿qué parece más grande `<h1>` o `<h2>`? ¿Por qué usar `<ul>` en lugar de `<ol>`? Etc.
-- Cómo incluir una hoja de estilo CSS separada en el sitio web usando el tag `<link>`.
+- Los tags más esenciales como encabezados (`<h1>, <h2>, <h3>`...), párrafos (`<p>`), listas ordenadas/no ordenadas (`<ol>, <ul>`), etc. Piensa en cómo cada uno de estos tags cambia la apariencia, sensación y el comportamiento de tu sitio web. Por ejemplo, ¿Qué parece más grande "<h1>" o "<h2>"? ¿Por qué usar "<ul>" en lugar de "<ol>"? Etc.
+- Cómo incluir una hoja de estilo CSS separada en el sitio web usando el tag "<link>".
 - Cómo anular o mejorar el aspecto y el comportamiento de los tags HTML mediante el uso de selectores y reglas de CSS, por ejemplo:
   - ¿Cómo puedo seleccionar un elemento para actualizar sus estilos? [Usando un selector](https://4geeks.com/es/lesson/what-is-css-learn-css-es#pero-que-es-un-selector).
   - Lo más sencillo como cambiar el color del texto y manipular las fuentes (tamaño, familia, etc).
   - Cambiar el color o la imagen de fondo del elemento.
-- Comprende completamente el tag `<div>` que inherentemente se comporta como una "caja" (lo que significa que tiene bordes, ancho y alto) y cómo usar `<div>` para separar visualmente su contenido.
+- Comprende completamente el tag "<div>" que inherentemente se comporta como una "caja" (lo que significa que tiene bordes, ancho y alto) y cómo usar "<div>" para separar visualmente su contenido.
 - Cómo crear los layouts de sitios web más comunes utilizando la regla CSS `display: flex;`.
-  - ¿Cómo puedes hacer que un `<div>` esté del lado de otro? Aplicando `display: flex;` a un padre inmediato común.
+  - ¿Cómo puedes hacer que un "<div>" esté del lado de otro? Aplicando `display: flex;` a un padre inmediato común.
   - ¿Cómo se puede hacer un layout de barra lateral?
   - ¿Cómo se puede hacer el clásico layout de "línea de tiempo de Instagram"?
 
