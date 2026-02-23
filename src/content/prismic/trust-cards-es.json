@@ -32,7 +32,7 @@
   "article_label": "Ver todas las universidades"
 }, {
   "images": [
-    "https://media.istockphoto.com/id/1334437504/vector/group-of-people-students-with-bags-in-school-back-view-meeting-of-young-men-and-women-before.jpg?s=612x612&w=0&k=20&c=-fZCUJrwsmFIdyVMbN8I0uJVS4zlaiwJn43JEjcgnmI="
+    "https://breathecode.herokuapp.com/v1/media/file/spain-students"
   ],
   "title": "La opinión importa...",
   "description": "Mira lo que los estudiantes dicen de nosotros...",
