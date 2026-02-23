@@ -128,7 +128,7 @@ Recuerda, Bootstrap es solo una hoja de estilos. Es por eso que es muy simple ag
 
 La funcionalidad de Javascript en Bootstrap requiere que se incluyan las librerías propias de jQuery y Javascript primero pero no te preocupes por esto aún. Sólo incluye las librerías de JS usando la etiqueta script y más adelante lo entenderás.
 
-> :link: Encuentra aquí [increíbles archivos de Bootstrap para que puedas empezar.](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+> :link: Encuentra aquí [increíbles archivos de Bootstrap para que puedas empezar.](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
 ## Componentes de Bootstrap 4
 
@@ -150,7 +150,7 @@ Aquí hay un ejemplo de cómo se ve un NavBar en un sitio web:
 
 ![bootstrap tutorial](https://github.com/breatheco-de/content/blob/master/src/assets/images/6351de1c-6d90-4502-8823-4b751981db9f.png?raw=true)
 
-> :link:[**Lee más sobre el "NavBar" aquí**](https://getbootstrap.com/docs/4.0/components/navbar/)
+> :link:[**Lee más sobre el "NavBar" aquí**](https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works)
 
 ```html
 <nav class="navbar navbar-expand-lg bg-light">
@@ -201,7 +201,7 @@ Aquí hay un ejemplo de cómo puede verse un sitio web con una "Card":
 
 ![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/39d36b52-330f-4ce9-beab-2004e325749c.png?raw=true)
 
-> :link: [**Lee más sobre la "Card" aquí**](https://getbootstrap.com/docs/4.0/components/card/)
+> :link: [**Lee más sobre la "Card" aquí**](https://getbootstrap.com/docs/5.3/components/card/#about)
 
 ```html
 <div class="card" style="width: 20rem;">
@@ -222,7 +222,7 @@ Así es como se ve modal por defecto con Bootstrap.
 
 ![bootstrap 4](https://github.com/breatheco-de/content/blob/master/src/assets/images/6bcba673-a543-4bf1-a80b-083914b91bef.png?raw=true)
 
-> :link:[**Lee más sobre el "Modal" aquí**](https://getbootstrap.com/docs/4.0/components/modal/)
+> :link:[**Lee más sobre el "Modal" aquí**](https://getbootstrap.com/docs/5.3/components/modal/#how-it-works)
 
 ```html
 div class="modal" tabindex="-1" role="dialog">
@@ -252,10 +252,10 @@ div class="modal" tabindex="-1" role="dialog">
 
 ¡¡La documentación oficial de Bootstrap es increíble!! No necesitamos copiar y pegar todos los posts. Por favor visita los siguientes sitios web y enfócate en leer estos temas:
 
-+ [The grid system.](https://getbootstrap.com/docs/4.1/layout/grid/)
-+ [Styling Forms.](https://getbootstrap.com/docs/4.1/components/forms/)
-+ [List of components available to use on your website.](https://getbootstrap.com/docs/4.1/components/alerts/)
-+ [Utilities or Helper classes:](https://getbootstrap.com/docs/4.1/utilities/borders/) Clases muy útiles para hacer cosas como centrar el texto, centrar una columna o contenedor, agregar un fondo, etc.
++ [The grid system.](https://getbootstrap.com/docs/5.3/layout/grid/)
++ [Styling Forms.](https://getbootstrap.com/docs/5.3/forms/overview/)
++ [List of components available to use on your website.](https://getbootstrap.com/docs/5.3/components/alerts/#examples)
++ [Utilities or Helper classes:](https://getbootstrap.com/docs/5.3/utilities/borders/#border) Clases muy útiles para hacer cosas como centrar el texto, centrar una columna o contenedor, agregar un fondo, etc.
 
 | ☝️ Versiones de Bootstrap y su descarga: 
 
