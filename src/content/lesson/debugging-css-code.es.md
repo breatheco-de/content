@@ -7,6 +7,7 @@ tags:
 description: >-
   Master CSS debugging with our guide! Learn essential tools and tips to save
   time and fix errors efficiently. Discover how to streamline your CSS today!
+lang: es
 ---
 # Depuración de código CSS
 
