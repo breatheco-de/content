@@ -2,7 +2,7 @@
 
 ## Types of content:
 
-This list of contents is just a draft, some can be deleted or more can be added.
+This list of contents is just a template project, some can be deleted or more can be added.
 
   1. Lessons: Long articles explaining big concepts like: HTML, JS Events, CSS Selectors, etc.
   2. Error: Explanation of a particular error that typically occurs when coding, for example: "Cannot do map of undefined".
