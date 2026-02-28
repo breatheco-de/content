@@ -5,7 +5,7 @@ tags:
   - networking
 canonical: ''
 description: >-
-  Discover how learning in public can enhance your tech skills and career.
+  Discover how learning in public can enhance your tech skills.
   Embrace sharing your journey and connect with others today!
 ---
 
