@@ -6,7 +6,7 @@ tags:
 video: https://www.youtube.com/watch?v=TgkIpTZ75NM
 description: >-
   Antes de comenzar el desarrollo Full Stack, descubre los conceptos clave de
-  HTML, CSS y JavaScript. ¡Prepárate y aprende lo esencial ahora!
+  HTML, CSS y JavaScript. ¡Prepárate, aprende y esfuerzate!
 ---
 Para aprovechar mejor el próximo curso, te alentamos a que termines y repases cualquier contenido del Prework.
 
