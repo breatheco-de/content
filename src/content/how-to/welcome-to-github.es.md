@@ -35,7 +35,7 @@ En esta imagen, encontrarás las partes esenciales de tu perfil.
 
 El propósito original de GitHub (antes de convertirse en una red social y muchas otras cosas) era ser un sitio web donde los desarrolladores pudieran cargar su código y acceder a él en cualquier momento.
 
-> Un repositorio es solo una carpeta con los archivos de tu proyecto dentro (imagenes, codigo, datos, etc.). Por ejemplo, este repositorio contiene [todo el código para la biblioteca React.js](https://github.com/facebook/react) y este otro repositorio contiene [todo el codigo de Pandas](https://github.com/pandas-dev/pandas), una de las librerias mas usadas del mundo de los datos.
+> Un repositorio es solo una carpeta con los archivos de tu proyecto dentro (imágenes, código, datos, etc.). Por ejemplo, este repositorio contiene [todo el código para la biblioteca React.js](https://github.com/facebook/react) y este otro repositorio contiene [todo el codigo de Pandas](https://github.com/pandas-dev/pandas), una de las librerías mas usadas del mundo de los datos.
 
 ![Un repositorio típico de GitHub](https://raw.githubusercontent.com/breatheco-de/knowledge-base/main/images/breatheco-de-exercise-postcard-The-ideal-first-project-for-anyone-interested-in-practicing-HTML-CSS-with-a-real-life-example-.png)
 
