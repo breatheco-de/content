@@ -90,7 +90,7 @@ La herramienta más poderosa para construir diseños es flexbox. [Aquí hay un v
 
 ## Domina los selectores CSS
 
-Tómate un tiempo para dominar los selectores CSS básicos y avanzados; aquí hay algunos recursos:
+Tómate un tiempo para dominar los selectores CSS básicos y avanzados; aquí hay algunos recursos que te ayudaran un poco mas en el proceso:
 
 - Aquí hay un video de 8 minutos sobre los [conceptos básicos de los selectores CSS](https://www.youtube.com/watch?v=0Wt1n0wvSe8).
 - Aquí hay una lectura para ayudarte a entender todos los [selectores avanzados](https://4geeks.com/es/lesson/dominando-selectores-css) que te ayudarán a limpiar tu código. 
