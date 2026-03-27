@@ -44,6 +44,7 @@ Esto puede suceder por varias razones:
 - Escribiste mal algún estilo dentro del selector.
 - Se aplica otro estilo que anula el tuyo (conflicto de estilos).
 
+ Que la fuerza me acompañe
 #### Sigue estos pasos para solucionar el error:
 
 1. Abre la herramienta de desarrollador `Elementos`
