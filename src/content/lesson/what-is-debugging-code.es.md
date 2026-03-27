@@ -10,7 +10,7 @@ description: >-
 ---
 Todos cometemos muchos errores al programar. Esta es una realidad que reconoce cada desarrollador senior; por eso "depurar código" se ha convertido en una de las habilidades más esenciales para los desarrolladores.
 
-## Está bien cometer errores
+## Está bien cometer errores y no frustarte
 
 > He medido mi "tasa de error"; sé que cometo más de 100 errores durante un día honesto de programación (y llevo programando desde el año 2000, hace 24 años).
 
