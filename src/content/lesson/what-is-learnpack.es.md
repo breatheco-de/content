@@ -16,7 +16,7 @@ LearnPack es una herramienta diseñada por 4Geeks para enseñar y aprender habil
 
 ### ¿Qué hace que LearnPack sea tan único?
 
-En lugar de mirar un video o leer un artículo, LearnPack presentará pequeños desafíos de forma incremental; cada uno se calificará automáticamente para obtener comentarios instantáneos y una solución de tutorial en video (algunas veces).
+En lugar de mirar un vídeo o leer un artículo, LearnPack presentará pequeños desafíos de forma incremental; cada uno se calificará automáticamente para obtener comentarios instantáneos y una solución de tutorial en vídeo (algunas veces).
 
 > Esta es la mejor manera de aprender habilidades relacionadas con la programación.
 
