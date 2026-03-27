@@ -1,6 +1,6 @@
 ---
-title: "Es Hora de Aprender lo que es el manejo de String en Python"
-subtitle: "Uno de los conceptos más importantes de aprender, las cadenas de caracteres o 'strings' son esenciales para manejar texto, construir código dinámico y mucho más!"
+title: "Es hora de aprender lo que es el manejo de String en Python"
+subtitle: "Uno de los conceptos más importantes de aprender, las cadenas de caracteres o 'strings', son esenciales para manejar texto, construir código dinámico y mucho más!"
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
@@ -10,9 +10,9 @@ status: "published"
 
 ---
 
-## ¿Que es un string?
+## ¿Qué es un string?
 
-Un string es una secuencia de letras y caracteres con un orden en particular, son la única forma de almacenar caracteres que no sean números y son fundamentales en cada programa.
+Un string es una secuencia de letras y caracteres con un orden en particular; es la única forma de almacenar caracteres que no sean números y es fundamental en cada programa.
 
 Los strings forman parte del conjunto de tipos de datos primitivos o básicos:
 
@@ -21,14 +21,14 @@ Los strings forman parte del conjunto de tipos de datos primitivos o básicos:
 | String    | `"Hello World"`   | str                           | caracteres con una secuencia                                           |
 | Número    | `23.34`           | int, decimal, complejo        | números                                                                |
 | Secuencia | `[2,3,1,56,4.34]` | list, tuple, range            | Lista de valores iterables con índices numéricos para las posiciones   |
-| Conjunto  | `{'1,'2','45'}`   | set, frozenset                | Similar a una secuencia pero desordenada y con elementos duplicados    |
-| Mapping   | `{"name": "Bob"}` | dict                          | Similar a una secuencia pero los índices son caracteres en vez de números incrementales |
+| Conjunto  | `{'1,'2','45'}`   | set, frozenset                | Similar a una secuencia, pero desordenada y con elementos duplicados    |
+| Mapping   | `{"name": "Bob"}` | dict                          | Similar a una secuencia, pero los índices son caracteres en vez de números incrementales |
 | Booleano  | `True` or `False` | bool                          | Solo True o False |
 | Binario  | `01001010111`     | bytes, bytearray, memoryview  | Ideal operaciones simples       |
 
 ## ¿Como Crear un string?
 
-Muchos Strings se crean a partir de montón de caracteres entre comillas: `"hello"` o incluso `"23232"`. 
+Muchos Strings se crean a partir de un montón de caracteres entre comillas: `"hello"` o incluso `"23232"`. 
 
 ```python
 name = "Bob"
@@ -36,36 +36,36 @@ age = "23" # <--- esto sigue siendo un string (entre comillas)
 ```
 
 
-Si estamos desarrollando una aplicación, todo lo que el usuario escríba dentro de formularios sera considerado un `string`, incluso si el usuario escribe el numero `2`, éste se considerara un string y no un número a no ser que nosotros como desarrolladores lo convirtamos en número usando la función `int()`  o `float()`.
+Si estamos desarrollando una aplicación, todo lo que el usuario escriba dentro de formularios será considerado un `string`, incluso si el usuario escribe el número `2`, este se considerará un string y no un número a no ser que nosotros como desarrolladores lo convirtamos en número usando la función `int()` o `float()`.
 
 
-El uso mas común de un string es imprimirla con la función `print`:
+El uso más común de un string es imprimirla con la función `print`:
 
 ```python
 print("Hola Mundo!")
-# La funcion print recibe un string y la muestra en la linea de commandos / terminal del computador.
+# La función print recibe un string y lo muestra en la línea de comandos / terminal del computador.
  ```
 
 ## ¿Cómo se usan los strings?
 
 ### Concatenación de cadenas (sumando strings)
 
-Python permite concatenar cadenas fácilmente utilizando el operador `+`. El siguiente fragmento de código demuestra como sumar dos strings para crear un **nombre completo** a partir de **nombre** y **apellido**:
+Python permite concatenar cadenas fácilmente utilizando el operador `+`. El siguiente fragmento de código demuestra cómo sumar dos strings para crear un **nombre completo** a partir de **nombre** y **apellido**:
 
 ```python
 nombre = "Alejandro"
-apellido = "Sanchez"
+apellido = "Sánchez"
 nombre_completo = nombre + "" + apellido
 print("Mi nombre es " + nombre_completo)
 
-# Este codigo mostrará: "Mi nombre es Alejandro Sanchez" en la linea de comandos
+# Este código mostrará: "Mi nombre es Alejandro Sánchez" en la línea de comandos
  ```
 
-En este ejemplo `"Mi nombre es "` es un string concatenado al valor de la variable `nombre_completo`:
+En este ejemplo, `Mi nombre es` es un string concatenado al valor de la variable `nombre_completo`:
 
 ### Longitud un string
 
-A menudo querrás saber cuál es la longitud (tamaño) de un string, por ejemplo: Twitter no permite más de 240 caracteres.
+A menudo querrás saber cuál es la longitud (tamaño) de un string. Por ejemplo: Twitter no permite más de 240 caracteres.
 
 ```python
 tweet = "¡Buenos días!"
@@ -76,14 +76,14 @@ print("La variable tweet tiene "+str(len(tweet))+" caracteres")
 
 ### Extracción de caracteres
 
-Luego, también necesitamos saber el valor del string en un posición en particular, por ejemplo: sin un string empieza o termina con un signo de interrogación, probablemente sea una pregunta: 
+Luego, también necesitamos saber el valor del string en una posición en particular, por ejemplo: si un string empieza o termina con un signo de interrogación, probablemente sea una pregunta: 
 
 ```python
 pregunta = "¿Cómo estás?"
 tamaño = len(pregunta)
 print("El string empieza " + pregunta[0])
 # Resultado: El string empieza con ? 
-print("El string termina con  " + pregunta[size - 1])
+print("El string termina con  " + pregunta[tamaño - 1])
 # Resultado: El string termina con ? 
 
 > :point_up: Este método de extracción es muy similar al usado para extraer un elemento ubicado en una posición en particular en una lista de Python.
@@ -91,12 +91,12 @@ print("El string termina con  " + pregunta[size - 1])
 También puedes extraer varios caracteres a la vez. El rango del método comienza con el índice del primer caracter que vas a extraer y termina con el índice DESPUÉS del último carácter que vas a extraer:
 
 ```python
-nombre = "Mi nombre es Alejandro Sanchez"
+nombre = "Mi nombre es Alejandro Sánchez"
 print("Extracción de" + nombre[11:20])
 # Resultado: Extracción de Alejandro
 
 print("Extracted " + name[11:])
-#  Resultado: Extracción de Alejandro Sanchez
+#  Resultado: Extracción de Alejandro Sánchez
 
 print("Extracted " + nombre[:10])
 # Resultado: Extracción de Mi nombre es
@@ -104,7 +104,7 @@ print("Extracted " + nombre[:10])
 
 ### Comparación de strings
 
-Si quieres comparar dos strings puedes utilizar `==` (dos signos iguales) y esto retornará `True` si los strings son IDÉNTICOS, hay que estar muy pendiente de las mayúsculas "Bob" es diferente a "bob" porque tiene la primera letra en mayúcula
+Si quieres comparar dos strings puedes utilizar `==` (dos signos iguales) y esto retornará `True` si los strings son IDÉNTICOS, hay que estar muy pendiente de las mayúsculas "Bob" es diferente a "bob" porque tiene la primera letra en mayúscula
 
 Veamos ahora un ejemplo:
 
@@ -112,11 +112,11 @@ Veamos ahora un ejemplo:
 nombre1 = "pepe";
 nombre2 = "juan";
 if nombre1 == nombre2:
-    print("Esto es falso, no se imprimirá")
+    print("Esto es falso; no se imprimirá")
 if nombre1 == "pepe":
-    print("Esto es verdadero, se imprimirá")
+    print("Esto es verdadero; se imprimirá")
 if nombre1 != nombre2:
-    print("Esto es verdadero, se imprimirá")
+    print("Esto es verdadero; se imprimirá")
 ```
 
 ### Conversión de minúsculas a mayúsculas
@@ -126,11 +126,11 @@ string_en_minuscula = lower(string1) # Lo convierte a minúsculas.
 string_en_mayuscula = upper(string2) # Lo convierte a mayúsculas.
 ```
 
-> :point_up: Es una buena práctica siempre pasar a minuscula los strings antes de compararlos con otros y así evitar errores.
+> :point_up: Es una buena práctica pasar siempre a minúscula los strings antes de compararlos con otros y así evitar errores.
 
 ### Convertir strings a números o viceversa
 
-La clase String no proporciona ningún método para convertir una cadena en un número. Sin embargo, cuatro clases de los "tipos envolventes" (Integer, Double, Float, y Long) proporcionan unos métodos de clase llamados valueOf() que convierten una cadena en un objeto de ese tipo. Aquí tenemos un pequeño ejemplo del método valueOf() de la clase Float:
+La clase String no proporciona ningún método para convertir una cadena en un número. Sin embargo, cuatro clases de los "tipos envolventes" (Integer, Double, Float y Long) proporcionan unos métodos de clase llamados valueOf() que convierten una cadena en un objeto de ese tipo. Aquí tenemos un pequeño ejemplo del método valueOf() de la clase Float:
 
 
 ```python
@@ -141,7 +141,7 @@ numero_como_string = str(numero) # Soy un string con valor "3.4"
 
 ### Extraer un substring de un string
 
-En muchas ocasiones es necesario extraer una porción o substring de un string dado. Como ya vimos solo debemos saber que posiciones queremos substraer y colocarlas utilizando corchetes de la siguiente manera:
+En muchas ocasiones, es necesario extraer una porción o un substring de un string dado. Como ya vimos, solo debemos saber qué posiciones queremos substraer y colocarlas utilizando corchetes de la siguiente manera:
 
 ```python
 
