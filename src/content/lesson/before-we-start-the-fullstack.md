@@ -53,7 +53,7 @@ The upcoming material assumes that you have a good level of understanding of the
 
 ## Things you should know about JavaScript
 
-- JavaScript is "event-oriented", which means your code will execute based on some user or browser event, for example: When the user clicks, when the website loads, when the user scrolls, when the website reloads, etc.
+- JavaScript is "event-oriented," which means your code will execute based on some user or browser event, for example: When the user clicks, when the website loads, when the user scrolls, when the website reloads, etc.
 - JavaScript can create HTML and CSS the same way you do: You can tell JS to write any HTML you want. Basically, the code can "write itself" if you create a smart enough website.
 - JavaScript code must always go in JavaScript files that end with `.js`. Other ways are discouraged 99% of the time.
 - You can import JS using the `<script>` tag.
