@@ -42,7 +42,7 @@ La siguiente es una lista de todos los elementos posibles que podemos usar para 
 
 Al igual que cualquier otra etiqueta HTML, las etiquetas de input tienen varios atributos que se pueden configurar para describir su comportamiento de manera más específica:
 
-`VALUE`: Puedes especificar un valor predeterminado que debe tener el input antes de que el usuario la complete:
+`VALUE`: Puedes especificar un valor predeterminado que deba tener el input antes de que el usuario la complete:
 
 ```html
 <input type="text" name="firstname" value="John"/>
