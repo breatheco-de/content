@@ -48,13 +48,13 @@ Just like any other HTML tag, the input tags have several attributes that can be
 <input type="text" name="firstname" value="John"/>
 ```
 
-`READ ONLY`: Determines if the user is allowed to change the value of the input.
+`READ ONLY`: Determine if the user is allowed to change the value of the input.
 
 ```html
 <input type="text" name="firstname" value="John" readonly/>
 ```
 
-`DISABLED`: Determines if the input is going to be gray and read-only. The disabled inputs are not sent to the backend – they act as if they never existed.
+`DISABLED`: Determine if the input is going to be gray and read-only. The disabled inputs are not sent to the backend – they act as if they never existed.
 
 ```html
 <input type="text" name="firstname" value="John" disabled/>
