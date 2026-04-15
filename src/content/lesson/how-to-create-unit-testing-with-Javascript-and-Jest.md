@@ -118,7 +118,7 @@ The only way to make sure your `isUpperCase` function works is to try every poss
 
 Here is the code for each test we should build:
 
-```js
+```js runable=true
 // First test possibility
 test('The string HELLO should return true', () => {
      const result = isUpperCase('HELLO');
@@ -145,10 +145,6 @@ test('Number shoud return false', () => {
      expect(result).toBe(false);
 })
 ```
-
-And here is a live working example:
-
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Unit-Testing-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ## All the possible questions (assertions) you can ask
 
