@@ -146,6 +146,59 @@ test('Number shoud return false', () => {
 })
 ```
 
+ANd here is an example working code:
+
+```node runable=true
+function isUpperCase(str) {
+  if (typeof str !== 'string') return false;
+  return str === str.toUpperCase();
+}
+
+// Simple expect/test implementation
+function expect(value) {
+  return {
+    toBe: (expected) => {
+      if (value !== expected) throw new Error(`Expected ${expected} but got ${value}`);
+    }
+  };
+}
+
+function test(description, fn) {
+  try {
+    fn();
+    console.log(`✅ ${description}`);
+  } catch (e) {
+    console.log(`❌ ${description} → ${e.message}`);
+  }
+}
+
+// Tests
+test('The string HELLO should return true', () => {
+  const result = isUpperCase('HELLO');
+  expect(result).toBe(true);
+});
+
+test('Testing for Hello (mixed)', () => {
+  const result = isUpperCase('Hello');
+  expect(result).toBe(false);
+});
+
+test('Testing for hello (lower)', () => {
+  const result = isUpperCase('hello');
+  expect(result).toBe(false);
+});
+
+test('Boolean should return false', () => {
+  const result = isUpperCase(true);
+  expect(result).toBe(false);
+});
+
+test('Number should return false', () => {
+  const result = isUpperCase(12341234);
+  expect(result).toBe(false);
+});
+```
+
 ## All the possible questions (assertions) you can ask
 
 We have been using `expect(something).toBe(something)` but jest has a lot of possible `expect` functions that will help you with your tests, for example:
