@@ -120,7 +120,7 @@ La única manera de asegurarte de que tu función `isUpperCase` funciona es prob
 
 Aquí está el código para cada prueba que debemos construir:
 
-```js runable=true
+```js
 // Primera prueba posible
 test('The string HELLO should return true', () => {
      const result = isUpperCase('HELLO');
@@ -150,7 +150,56 @@ test('Number should return false', () => {
 
 Aquí hay un ejemplo funcionando:
 
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Unit-Testing-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+```node runable=true
+function esMayuscula(str) {
+  if (typeof str !== 'string') return false;
+  return str === str.toUpperCase();
+}
+
+// Implementación simple de expect/test
+function expect(valor) {
+  return {
+    toBe: (esperado) => {
+      if (valor !== esperado) throw new Error(`Se esperaba ${esperado} pero se obtuvo ${valor}`);
+    }
+  };
+}
+
+function test(descripcion, fn) {
+  try {
+    fn();
+    console.log(`✅ ${descripcion}`);
+  } catch (e) {
+    console.log(`❌ ${descripcion} → ${e.message}`);
+  }
+}
+
+// Pruebas
+test('La cadena HOLA debería retornar true', () => {
+  const resultado = esMayuscula('HOLA');
+  expect(resultado).toBe(true);
+});
+
+test('Probando Hola (mixta)', () => {
+  const resultado = esMayuscula('Hola');
+  expect(resultado).toBe(false);
+});
+
+test('Probando hola (minúscula)', () => {
+  const resultado = esMayuscula('hola');
+  expect(resultado).toBe(false);
+});
+
+test('Booleano debería retornar false', () => {
+  const resultado = esMayuscula(true);
+  expect(resultado).toBe(false);
+});
+
+test('Número debería retornar false', () => {
+  const resultado = esMayuscula(12341234);
+  expect(resultado).toBe(false);
+});
+```
 
 ## Todas las posibles preguntas (aserciones) que puedes hacer
 
