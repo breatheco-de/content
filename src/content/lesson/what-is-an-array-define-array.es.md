@@ -105,7 +105,7 @@ let myNewArray = [];
 
 Eliminar un elemento tiene exactamente las mismas limitaciones que al agregar un elemento: solo puedes eliminar un elemento de la última posición con el método `pop()`. Si deseas eliminar un elemento diferente, deberás crear un nuevo array sin ese elemento en particular.
 
-```javascript
+```javascript runable=true
 let myArray = ['Pedro', 'Chris', 'Juan', 'Maria'];
     myArray.pop();
     console.log(myArray); // Esto imprimirá ['Pedro', 'Chris', 'Juan'];
@@ -197,13 +197,13 @@ console.log({ numbers, arr })
 > ☝️ Splice puede aceptar tantos parámetros opcionales como se quiera y estos sustituirán la parte del array que ha sido eliminada. De esta forma el primer parámetro indica el índice desde el cual empieza a borrar, el segundo parámetro cuantos elementos borrarás y del tercero en adelante los elementos que se insertan a partir de la posición que se indica en el primer parámetro.
 
 Ejemplo:
-```javascript
+```javascript runable=true
 let y = [14, 3, 3245, 234, 52, 345, 3, 45, 23, 77];
 y.splice(2,4,'a'); // devuelve [3245, 234, 52, 345] 
 console.log(y); // --> [14, 3, 'a', 3, 45, 23, 77]
 ```
 Podemos usar esta función para insertar elementos:
-```javascript
+```javascript runable=true
 let y = [14, 3, 3245, 234, 52, 345, 3, 45, 23, 77];
 y.splice(2,0,'a'); // devuelve [] 
 console.log(y); // --> [14, 3, 'a', 3245, 234, 52, 345, 3, 45, 23, 77]
@@ -219,7 +219,7 @@ Es muy común la necesidad de ordenar arrays. Por ejemplo: ordenar una lista de 
 
 La función `sort()` ordena un array usando la lógica de comparación de string, lo que significa que el string "25" es más grande que "100", porque "2" es más grande que "1".
 
-```javascript
+```javascript runable=true
 let fruits = ["Banana", "Orange", "Apple", "Mango"];
     fruits.sort();
     console.log(fruits); // --> ['Apple', 'Banana', 'Mango', 'Orange']
@@ -227,7 +227,7 @@ let fruits = ["Banana", "Orange", "Apple", "Mango"];
 
 La función `reverse()` simplemente invierte el orden del array, así que si quieres un array ordenado pero invertido, asegúrate de usar la función `sort()` **antes** de invertir el array.
 
-```javascript
+```javascript runable=true
 let frutas = ['Banana', 'Orange', 'Apple', 'Mango'];
     frutas.sort();
     console.log(frutas); // --> ['Apple', 'Banana', 'Mango', 'Orange']
@@ -241,7 +241,7 @@ Si quieres ordenar números reales, o si deseas ordenar arrays de manera diferen
 
 Tienes que definir una función que se encargue de las comparaciones. La función sort llamará a tu función en cada comparación y permitirá que tu función decida quién es el primero entre los dos elementos que se comparan.
 
-```javascript
+```javascript runable=true
 let puntos = [40, 100, 1, 5, 25, 10];
     puntos.sort(function(a, b) {return a - b});
     console.log(puntos); // --> [1, 5, 10, 25, 40, 100]
@@ -251,7 +251,7 @@ let puntos = [40, 100, 1, 5, 25, 10];
 
 Ahora que conocemos la función de comparación, podemos usarla para indicar a la función sort cómo ordenar nuestros propios objetos especiales, como aquí por ejemplo:
 
-```javascript
+```javascript runable=true
 let autos = [
     {tipo:'Volvo', año:2016},
     {tipo:'Saab', año:2001},
@@ -259,7 +259,3 @@ let autos = [
     autos.sort(function(a, b) {return a.año - b.año});
     console.log(autos); // --> [ {tipo: 'Saab', año: 2001}, {tipo: 'BMW', año: 2010}, {tipo: 'Volvo', año: 2016} ]
 ```
-
-<iframe src="https://repl.it/F9YZ/1?lite=true" frameborder="0" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" width="100%" height="400px" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
-
-<div align="right"><small><a href="https://repl.it/@4GeeksAcademy/Sorting-Arrays">Clic para abrir demo en una ventana nueva</a></small></div>
