@@ -120,7 +120,7 @@ La única manera de asegurarte de que tu función `isUpperCase` funciona es prob
 
 Aquí está el código para cada prueba que debemos construir:
 
-```js
+```js runable=true
 // Primera prueba posible
 test('The string HELLO should return true', () => {
      const result = isUpperCase('HELLO');
