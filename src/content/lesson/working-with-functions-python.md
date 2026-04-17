@@ -154,7 +154,28 @@ multiply(3, 9)
 
 Please remember to assign the function whatever parameters it should receive.  In our example, the multiply function was declared asking for two numbers to multiply.  Play with the following example as you like:
 
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Calling-Functions-in-Python-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+```python runable=true
+
+# First, we define the function so the computer knows what 'multiply' does
+def multiply(number1, number2):
+    result = number1 * number2
+    print("Multiplying", number1, "by", number2, "equals:", result)
+    return result
+
+# Now, let's call (use) the function! 
+
+# Example 1: Multiplying 3 times 9
+multiply(3, 9)
+
+# Example 2: You can call it again with completely different numbers
+multiply(5, 5)
+
+# Example 3: You can even use variables as parameters
+a = 10
+b = 4
+multiply(a, b)
+
+```
 
 ## Nested Calling
 
