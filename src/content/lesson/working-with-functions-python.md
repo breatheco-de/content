@@ -57,16 +57,17 @@ This function calculates the cost of organizing a party with the following crite
 2. We know that every guest will cost $10.
 3. If there are more than 200 guests, there is a 10% discount.
 
-```python
+```python runable=true
 def get_price(number_of_guests): 
     price_per_guest = 10
     total_cost = price_per_guest * number_of_guests
     if number_of_guests > 200:
         total_cost = total_cost - (total_cost * 0.1)  # ← 10% discount
     return total_cost
+print(“Price for 3 guests is “,get_price(3))
+print(“Price for 12 guests is”, get_price(12))
+print(“Price for 120 guests is”, get_price(120))
 ```
-
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/calcular-costo-fiesta?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 + **Every function must have a purpose** (a goal) (like our function "multiply").  The function's purpose is to calculate the multiplication between two given numbers.
 + **It must have a unique name.**  In this particular case, our function is called "multiply" – which it's a great name because you know exactly what the functions is about, it's explicit.
@@ -111,7 +112,7 @@ print(str(multiply(34, 2)))
 
 > ☝ Any variables that you declare inside the function will not be available outside of it.
 
-```python
+```python 
 def multiply(a, b):
    my_variable = 'hello'
    return a * b
@@ -196,7 +197,35 @@ def get_person_info(name):
 
 As you can see, the function names are pretty specific about what the functions do, as well as the parameters assigned to them.
 
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/Python-Functions-Example?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+```python runable=true
+def get_average(ages):
+    # Adds all ages and divides by the number of ages
+    average = sum(ages) / len(ages)
+    print("The calculated average is:", average)
+    return average
+
+def get_youngest(ages):
+    # Uses the min() function to find the smallest number
+    youngest = min(ages)
+    print("The youngest age found is:", youngest)
+    return youngest
+
+def get_person_info(name):
+    # A very simple conditional for the example
+    print("Looking up data for:", name)
+    if name == "Ana":
+        return "Ana is 28 years old and lives in Caracas."
+    else:
+        return "Person not found."
+
+# --- Short didactic test ---
+sample_ages = [20, 30, 40]
+
+get_average(sample_ages)
+get_youngest(sample_ages)
+get_person_info("Ana")
+
+```
 
 Other important things to notice:
 
