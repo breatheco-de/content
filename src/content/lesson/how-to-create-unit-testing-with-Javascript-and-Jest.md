@@ -146,7 +146,7 @@ test('Number shoud return false', () => {
 })
 ```
 
-ANd here is an example working code:
+And here is an example working code:
 
 ```node runable=true
 function isUpperCase(str) {
