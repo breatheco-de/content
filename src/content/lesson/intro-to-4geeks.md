@@ -83,7 +83,7 @@ Please make sure you understand how the academy works:
 
 1. **Platform:** 4Geeks.com, The Syllabus (learn how to follow it), GeekPal, GeekForce, the lessons, exercises, projects, and assets.
 2. **The people:** We are more than five thousand people now! Leaders, Mentors, Alumni, and Students, we are here to help, and we are here to stay. Network, make friends -- Take advantage of the resources and people around you!
-3. **The community:** Communities are not one way, they just don't work like that to the events, support other students, give first and you will receive later. Slack, GeekTalks, Workshops, Group Studies.
+3. **The community:** Communities are not one way, they just don't work like that. Go to the events, support other students, give first and you will receive later. Slack, GeekTalks, Workshops, Group Studies.
 
 
 ## Best Practices while starting to learn code
