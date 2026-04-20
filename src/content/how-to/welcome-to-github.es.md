@@ -59,7 +59,7 @@ Te recomendamos marcar la mayoría de los repositorios de la academia, ya que lo
 - [Todos los tutoriales interactivos](https://github.com/4GeeksAcademy/Interactive-Tutorials).
 - [Todas las plantillas y boilerplates](https://github.com/4GeeksAcademy/Templates-Boilerplates).
 
-### Encontrar el proyectos de otras personas
+### Encontrar los proyectos de otras personas
 
 El código abierto se ha convertido en uno de los principales motores del mundo de hoy; GitHub tiene formas de encontrar los excepcionales repositorios de otras personas:
 
