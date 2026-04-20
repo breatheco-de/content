@@ -58,7 +58,7 @@ apellido = "Sanchez"
 nombre_completo = nombre + "" + apellido
 print("Mi nombre es " + nombre_completo)
 
-# Este codigo mostrará: "Mi nombre es Alejandro Sanchez" en la linea de comandos
+# Este codigo mostrará: "Mi nombre es Alejandro Sanchez" en la línea de comandos
  ```
 
 En este ejemplo `"Mi nombre es "` es un string concatenado al valor de la variable `nombre_completo`:
