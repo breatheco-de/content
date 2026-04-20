@@ -19,7 +19,7 @@ Mastering the use of functions is one of the 5 fundamental skills of building al
 
 ## What are Functions?
 
-Basically, a function is a bunch of code wrapped between brackets that you can run anytime, whenever you like. For example:
+Basically, a function is just a bunch of code inside brackets that you can run whenever you want. For example:
 
 ```javascript 
 //the function name is "multiply" and receives 2 parameters: a & b 
