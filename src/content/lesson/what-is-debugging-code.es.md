@@ -7,7 +7,9 @@ description: >-
   Aprende qué es la depuración y cómo depurar el código de manera eficiente.
   ¡Descubre técnicas que te ahorrarán tiempo y mejorarán tus habilidades de
   programación!
----
+
+## Estoy agregando esta linea para hacer pull request y aprobar este proyecto.
+
 Todos cometemos muchos errores al programar. Esta es una realidad que reconoce cada desarrollador senior; por eso "depurar código" se ha convertido en una de las habilidades más esenciales para los desarrolladores.
 
 ## Está bien cometer errores
