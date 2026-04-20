@@ -58,16 +58,17 @@ Veamos esta función que dado un número de invitados permite calcular el costo 
 2. El costo general de una fiesta es de 10 dólares por invitados.
 3. Si hay más de 200 invitados se ofrece un descuento de un 10%.
 
-```python
-def calcular_costo(numero_de_invitados):
-    precio_por_invitado = 10
-    costo_total = numero_de_invitados * precio_por_invitado
-    if numero_de_invitados > 200:
-        costo_total = costo_total - (costo_total * 0.1)  # ← descuento de 10%
-    return costo_total
+```python runable=true
+def get_price(number_of_guests): 
+    price_per_guest = 10
+    total_cost = price_per_guest * number_of_guests
+    if number_of_guests > 200:
+        total_cost = total_cost - (total_cost * 0.1)  # ← 10% discount
+    return total_cost
+print(“Price for 3 guests is “,get_price(3))
+print(“Price for 12 guests is”, get_price(12))
+print(“Price for 120 guests is”, get_price(120))
 ```
-
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/calcular-costo-fiesta?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### Datos importantes sobre las funciones en Python:
 
@@ -198,7 +199,35 @@ def get_person_info(name):
 
 Como puedes ver, los nombres de las funciones son bastante específicos sobre lo que hacen las funciones, así como los parámetros asignados a ellas.
 
-<iframe height="400px" width="100%" src="https://repl.it/@4GeeksAcademy/functions-example-python?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+```python runable=true
+def get_average(ages):
+    # Suma todas las edades y divide entre la cantidad de edades
+    average = sum(ages) / len(ages)
+    print("The calculated average is:", average)
+    return average
+
+def get_youngest(ages):
+    # Usa la función min() para encontrar el número más pequeño
+    youngest = min(ages)
+    print("The youngest age found is:", youngest)
+    return youngest
+
+def get_person_info(name):
+    # Un condicional muy simple para el ejemplo
+    print("Looking up data for:", name)
+    if name == "Ana":
+        return "Ana is 28 years old and lives in Caracas."
+    else:
+        return "Person not found."
+
+# --- Pequeña prueba didáctica ---
+sample_ages = [20, 30, 40]
+
+get_average(sample_ages)
+get_youngest(sample_ages)
+get_person_info("Ana")
+
+```
 
 Otras cosas importantes a tener en cuenta:
 
