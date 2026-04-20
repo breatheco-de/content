@@ -35,7 +35,7 @@ let age = 24;
 
 ![what is javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif?raw=true)
 
-Prácticamente con cualquier lenguaje de programación, puedes crear tantas variables como desees o necesites. Para comenzar, debes **declarar el nombre de esa variable** usando el término: `var` seguido de un nombre _único_ (relativo al documento/proyecto).
+Prácticamente con cualquier lenguaje de programación, puedes crear tantas variables como desees o necesites. Para comenzar, debes **declarar el nombre de esa variable** usando el término: `let`  o `const `seguido de un nombre _único_ (relativo al documento/proyecto).
 
 El **nombre de la variable** es la forma más efectiva que tenemos de describir el contenido de la variable, así que úsalo sabiamente. Es importante elegir un nombre que te indique claramente (a ti y los otros programadores) los datos que se almacenan en la variable. Si elegimos un nombre malo o ambiguo, nuestro código será casi imposible de entender, y se volverá inutilizable. Por ejemplo, digamos que cambiamos el nombre de nuestra variable "age" a `a`, sería:
 
@@ -71,7 +71,7 @@ Como aprendimos anteriormente, usamos la palabra clave `var` para declarar una v
 **Let**: Los valores solo están limitados al alcance del bloque de código (cualquier cosa entre llaves) en el que se declara. Si una función tiene más de un bloque de código, la variable se considerará una variable diferente en cada bloque.
 
 **Var**: Las variables declaradas con `var` dentro de una función solo son accesibles dentro de esa misma función. Esto significa que la variable se mantendrá  durante toda la función, incluso si hay más de un bloque de código en la función.
-Si declaras una variable con `var` fuera de cualquier función, se convierte en una variable global. Se puede acceder a ella desde cualquier lugar en tu código.
+Si declaras una variable con `var` fuera de cualquier función, se convierte en una variable global. Se puede acceder a ella desde cualquier lugar en tu código. Se desaconseja usar var y en su lugar usar let o const.
 
 > :link: [Lee más sobre `var`, `let` y `const`](http://wesbos.com/let-vs-const/)
 
