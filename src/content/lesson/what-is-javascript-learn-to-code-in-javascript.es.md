@@ -30,7 +30,7 @@ Las variables no son un concepto nuevo, cualquiera que sepa matemáticas está f
 Una variable es un contenedor en el que se puede almacenar cualquier dato. Por ejemplo, puedes tener la siguiente variable:
 
 ```javascript
-let age = 24;
+let edad = 24;
 ```
 
 ![what is javascript](https://github.com/breatheco-de/content/blob/master/src/assets/images/ecb49b67-f513-49b3-bd4a-dd7cc44e9bce.gif?raw=true)
