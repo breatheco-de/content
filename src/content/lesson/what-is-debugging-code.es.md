@@ -32,6 +32,10 @@ Sé que estás aquí para aprender cómo solucionar errores. Aun así, vale la p
 
 > 📄 Aquí hay una guía sobre [normas y directrices de codificación](https://4geeks.com/es/lesson/estandares-y-lineamientos-de-codigo) que te ayudará a tener un código limpio y prevenir errores.
 
+
+
+## ** Muchos Años despues frente al juicio de las IA acusandolo por querer limitarlas el programador Soyano habia de recordar aquel remoto dia de Octubre que sus profesores David y Isra le estaban enseñando a usar Github **
+
 <quote>Si depurar es el proceso de eliminar errores de software, entonces programar debe ser el proceso de ponerlos.</quote>- Edsger Dijkstra
 
 ## Cómo depurar código: El marco de depuración
