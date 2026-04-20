@@ -117,5 +117,5 @@ Sabemos que algunos de ustedes ya tienen sus propias herramientas, pero dejemos 
 | --------------------------------------------------------  | ------------------------  |
 | [Github.com](https://github.com)                          | [StackOverflow](https://stackoverflow.com) |
 | [Slack.com (desktop & mobile)](4geeksacademy.slack.com)   | [w3Schools.com](https://w3schools.com) |
-| [Codespaces](https://github.com/features/codespaces) o [Gitpod (deprecado)](https://gitpod.io/) | [Net Ninja JS Tutorial](https://www.youtube.com/watch?v=qoSksQ4s_hg) |
+| [Codespaces](https://github.com/features/codespaces) o [Gitpod (Obsoleto)](https://gitpod.io/) | [Net Ninja JS Tutorial](https://www.youtube.com/watch?v=qoSksQ4s_hg) |
 
