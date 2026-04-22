@@ -270,7 +270,7 @@ const Todos = (props) => {
     if (response.status == 404) {
       // Si la lista no se encuentra, debe ser creada con una petición POST
       let newList = await fetch(endpoint, { method: "POST" });
-      if (newList.ok) setTaks([]);
+      if (newList.ok) setTasks([]);
     }
   };
 
