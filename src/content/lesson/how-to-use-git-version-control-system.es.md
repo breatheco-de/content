@@ -87,7 +87,7 @@ Ejemplo: Digamos que estás comenzando a desarrollar la característica/funciona
 
 > ☝ **Nota sobre la terminología:** Los términos "branch" y "head" son casi sinónimos en GIT. Cada branch (rama) está representada por un head, y cada head representa una rama. A veces, "rama" se usará para referirse a un head y el historial completo de commits que preceden a ese head, mientras que "head" se usará para referirse exclusivamente a un solo commit object (el commit más reciente en la rama).
 
-## Comenzando un Nuevo Repo `git init`
+## Comenzando un Nuevo Repositorio `git init`
 
 Puedes crear un nuevo repositorio cuando lo desees durante el proyecto, ¡no tiene que ser al principio! Lo único esencial para hacer esto es que el proyecto no tenga otro repositorio ya creado.
 
