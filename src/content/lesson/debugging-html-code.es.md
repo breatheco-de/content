@@ -54,7 +54,7 @@ Errores de caché: Debes asegurarte de que el código que escribiste sea el mism
 
 ### 2) Inspector de herramientas de desarrollo
 
-Todos los principales navegadores tienen herramientas de desarrollo, la primera pestaña en las herramientas de desarrollo se llama "Elementos" y contiene -casi- todo lo que necesitas para solucionar tus errores.
+Todos los principales navegadores tienen herramientas de desarrollo. La primera pestaña en las herramientas de desarrollo se llama "Elementos" y contiene -casi- todo lo que necesitas para solucionar tus errores.
 
 ![Inspector de código HTML](https://i.imgur.com/Fca0Hkm.gif?raw=true)
 
@@ -77,14 +77,14 @@ El inspector de herramientas de desarrollo muestra una **versión en vivo** de t
 
 La última herramienta de depuración crucial para HTML es un IDE o editor de código. La mayoría de los IDE ofrecen las siguientes características:
 + **Resaltado de sintaxis**: Los colores ayudan a distinguir visualmente diferentes partes del código HTML, como tags, atributos y valores, lo que facilita la identificación de errores.
-+ **Linting**: Algunos editores tienen linter incorporados que pueden verificar tu código HTML para errores y problemas potenciales y resaltarlos en el editor.
++ **Linting**: Algunos editores tienen linters incorporados que pueden verificar tu código HTML para errores y problemas potenciales y resaltarlos en el editor.
 + **Validación**: Algunos editores pueden validar tu código HTML contra los estándares de W3C y mostrar mensajes de error si hay algún problema.
 
 ## Errores HTML más comunes y cómo depurarlos
 
 ### Tags sin cerrar
 
-Si un tag no se cierra correctamente. Por ejemplo, si olvidas cerrar un tag `<div>`, el editor de código podría resaltar todo el bloque de código que sigue al tag sin cerrar en rojo. También puedes ver el error en el terminal si usas complementos como [prettier](https://prettier.io/). Si haces clic en un tag de apertura, el editor también resaltará el tag de cierre.
+Si un tag no se cierra correctamente, por ejemplo, si olvidas cerrar un tag `<div>`, el editor de código podría resaltar todo el bloque de código que sigue al tag sin cerrar en rojo. También puedes ver el error en la terminal si usas complementos como [prettier](https://prettier.io/). Si haces clic en un tag de apertura, el editor también resaltará el tag de cierre.
 
 ![Cómo aparecen los errores de tags no cerrados](https://i.imgur.com/oJEe61z.png?raw=true)
 
@@ -96,7 +96,7 @@ Para encontrar esos errores, la mejor herramienta es el resaltador de sintaxis. 
 
 ![Cómo se ven las comillas faltantes en tu resaltador de sintaxis](https://i.imgur.com/JzNqq1W.png?raw=true)
 
-### URL errónea en tag de `<link>` o `<script>`
+### URL errónea en el tag de `<link>` o `<script>`
 
 Esto es divertido porque todos cometemos este error, yo lo hice, tú lo hiciste o lo harás, todos los demás lo hicieron o lo harán.
 
@@ -106,4 +106,4 @@ Cuando vinculas tu HTML a una hoja de estilos CSS o un archivo JavaScript separa
 
 ![Error al cargar la hoja de estilos en tu sitio web](https://github.com/breatheco-de/content/blob/master/src/assets/images/wrong-stylesheet-404.png?raw=true)
 
-> **Nota**: Aquí se muestra la URL que usó para recuperar tu hoja de estilos; verifica que la URL esté bien.
+> **Nota**: Aquí se muestra la URL que se utilizó para recuperar tu hoja de estilos; verifica que la URL esté bien.
