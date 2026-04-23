@@ -1,6 +1,6 @@
 ---
 title: "La Línea de Comando (conocida como: La Terminal)"
-subtitle: "Los desarrolladores gastan horas cada día usando la línea de comandos (conocida como: La Terminal). Acepta la realidad y vuélvete más poderoso que nunca."
+subtitle: "Los desarrolladores gastan horas cada día usando la línea de comandos (conocida como: La Terminal o Bash en linux y git). Acepta la realidad y vuélvete más poderoso que nunca."
 cover_local: "../../assets/images/4cc6fa0b-2530-4052-aa7e-8dac03788ac3.png"
 textColor: "white"
 date: "2020-10-19T16:36:31+00:00"
@@ -9,9 +9,9 @@ status: "published"
 
 ---
 
-> ☝ Los usuarios de Windows no tienen la misma línea de comando, pero igual deberías aprenderlo, ya que son muy utilizados en los servidores cuando publiques tu página y también en Gitpod, Codespaces, Cloud9, etc. Puedes utilizar [Git SCM](https://git-scm.com/downloads) para probar los comandos.
+> ☝ Los usuarios de Windows no tienen la misma línea de comando (cmd), pero igual deberías aprenderlo, ya que son muy utilizados en los servidores cuando publiques tu página y también en Gitpod, Codespaces, Cloud9, etc. Puedes utilizar [Git SCM](https://git-scm.com/downloads) para probar los comandos.
 
-## ¿Por qué los desarrolladores aman la línea de comando?
+## ¿Por qué los desarrolladores aman la línea de comando? Porque muestra lo que la interfaz grafica muchas veces no.
 
 Al principio, todos odiaban la línea de comando. Después de años de experiencia, se convirtió en un gusto adquirido.
 
@@ -67,7 +67,7 @@ Aquí hay una pequeña selección de los comandos más utilizados por un desarro
 
 El comando `ls` se usa para listar todos los archivos y directorios que forman la posición actual.
 
-```bash
+```
 ls -l ./applications
 # Muestra los archivos y carpetas dentro de "applications"
 # El -l es para recibir una información más detallada sobre los archivos
@@ -79,7 +79,7 @@ ls -l ./applications
 
 Navega entre dos directorios diferentes.
 
-```bash
+```
 cd /path/to/directory
 ```
 
