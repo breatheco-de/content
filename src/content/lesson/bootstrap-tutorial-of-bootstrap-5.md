@@ -22,7 +22,7 @@ Besides, Bootstrap gives you a dozen of new elements that you would normally wan
 ## Layouts: Solving the Box Model
 
 
-One of the broken things in CSS is the way that layouts work – working with **float**, **display** and **position** sucks.  This is how Bootstrap solved it:
+One of the broken things in CSS is the way that layouts work, working with **float**, **display** and **position** sucks.  This is how Bootstrap solved it:
 
 ## Everything is now divided into Rows and Columns.
 
