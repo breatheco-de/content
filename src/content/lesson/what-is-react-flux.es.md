@@ -202,7 +202,7 @@ export default function App() {
 }
 ```
 
-Puedes notar que aparece el componente `AddItem` que vimos previamente y desde donde se pueden agregar tarea. Luego de eso se hace el renderizado de la lista con la función `map`, pero notamos que se esta usando un componente `ListItem` para mostrar los elementos, no solo eso sino que ahi también corresponde hacer la eliminación de la tarea, veamos ese componente.
+Puedes notar que aparece el componente `AddItem` que vimos previamente y desde donde se pueden agregar la tarea. Luego de eso se hace el renderizado de la lista con la función `map`, pero notamos que se esta usando un componente `ListItem` para mostrar los elementos, no solo eso sino que ahi también corresponde hacer la eliminación de la tarea, veamos ese componente.
 
 ### 4) Eliminación de items
 
