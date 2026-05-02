@@ -52,7 +52,7 @@ En este artículo te explicamos por qué funciona y cómo empezar.
   - Algunos hilos sobre Redis son mejores que la documentación oficial—puedes seguir cuentas como @antirez (creador de Redis), @gliderlabs, o explorar los hashtags `#Redis` y `#DatabaseTips`.
 - Crea un canal de YouTube o un blog. Comparte lo que vas aprendiendo cada semana: la gente valora mucho las historias auténticas.
 - Contribuye a proyectos open source: aunque solo corrijas un error de ortografía o mejores una documentación, ya estás aprendiendo y ganando visibilidad.
-- Asiste a eventos, conferencias o meetups. Conoce a otras personas del mundo tech, y verás cómo empiezan a aparecer oportunidades.
+- Asiste a eventos, conferencias o meetups. 
 
 ## Pensamientos comunes que te frenan
 
