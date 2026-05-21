@@ -200,7 +200,7 @@ result = map(lambda name: name + " is happy!", happy_people)
 print(result)
 ```
 
-The map method will automatically run the lambda function and will pass to it each element from the list `happy_people` as an argument. The code after the colon `:` in the lambda is the return of the function.  
+The map method will automatically run the lambda function and will pass to it each element from the list `happy_people` as an argument. The code after the colon `:` in the lambda function is the return of the function.  
 
 By default, the `map()` method in Python does not return a list-formatted output, like you may expect it to do from JavaScript. Instead, it returns a map object reference in memory, which looks something like this:
 
