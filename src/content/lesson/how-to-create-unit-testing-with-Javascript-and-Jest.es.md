@@ -53,7 +53,7 @@ Otra novedad de ES6 son las "Funciones de Flecha". La forma de crear estas funci
 
 Además de la sintaxis que es diferente a las anteriores, este tipo de funciones tienen las siguientes características.
 
-Las "funciones de flecha" no crean su propio contexto al ser ejecutadas. A diferencia de la "funciones de expresión" o las "funciones declarativas" que sí crea su propio contexto.
+Las "funciones de flecha" no crean su propio contexto al ser ejecutadas. A diferencia de las 'funciones de expresión' o las 'funciones declarativas' que sí crean su propio contexto."
 
 Las "funciones de flecha" son anónimas.
 
