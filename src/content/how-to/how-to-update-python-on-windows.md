@@ -23,11 +23,7 @@ Ever wonder how to update Python on Windows, follow this simple step-by-step gui
 
 - Click on `Downloads` and select `Windows`
 
-![Update Python on Windows](https://i.imgur.com/IC72ZMt.jpg?raw=true)
-
 - The website will display all Python releases for Windows (Stable and Pre-release). If you are looking to experiment with some features not released on a stable version, select the `Pre-Release` or, and most recommended, click on `Latest Python 3 Release` hyperlink just below `Python Releases for Windows`
-
-![Windows Python updating](https://storage.googleapis.com/breathecode-asset-images/7a6a8368ec1cc378fafe89add70df0f68791b500b4326b8b07be494577d844a5.jpg?raw=true)
 
 - A new page will open and display all the information regarding the latest release (at the time of writing this article, latest version is 3.11.1) and scroll down until you find the following table
 
