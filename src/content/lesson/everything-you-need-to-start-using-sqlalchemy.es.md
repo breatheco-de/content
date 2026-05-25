@@ -134,7 +134,7 @@ all_people = Person.query.filter_by(name = "alex")
 all_people = list(map(lambda x: x.serialize(), all_people))
 ```
 
-A partir de la versión SQLAlchemy 2.x estas consultas se hacen con `excute`
+A partir de la versión SQLAlchemy 2.x estas consultas se hacen con `execute`
 
 ```py
 from sqlalchemy import select
