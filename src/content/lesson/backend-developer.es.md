@@ -10,9 +10,9 @@ description: >-
 ---
 ## El Lado Back-End de la Web
 
-No hace mucho tiempo, los navegadores eran muy tontos. Todo lo que hacían era renderizar documentos HTML en una versión muy básica de HTML. No había CSS, ni JS. ¡Eso significa que los desarrolladores web front-end no existían!
+Hace no mucho tiempo, los navegadores eran herramientas limitadas. Su función principal era renderizar documentos en versiones muy básicas de HTML. Sin CSS ni JavaScript, la figura del desarrollador front-end como la conocemos hoy no existía.
 
-Todo el trabajo era realizado por el servidor: como no había JavaScript, el DOM no podía actualizarse mientras se ejecutaba el sitio web. Eso significa que el código fuente HTML inicial que recibía el navegador al cargar el sitio web también era la última versión del mismo. **No había modificaciones en el DOM**.
+En aquel entonces, todo el trabajo recaía en el servidor. Al no existir JavaScript, el DOM no podía actualizarse dinámicamente; por lo tanto, el código HTML que el navegador recibía al cargar era la versión final de la página. Cualquier cambio requería una nueva solicitud al servidor y una recarga completa.
 
 ### La Arquitectura del Cliente-Servidor
 
