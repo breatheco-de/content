@@ -52,8 +52,30 @@ Olvídate del flujo de trabajo que hayas aprendido por tu cuenta para el desarro
 
 ## En Resumen…
 
+El "Panorama General"
+No se trata solo de código, sino de entender cómo nace y vive una aplicación de principio a fin.
+Mentalidad Ágil: No construyas un monolito de golpe. Divide tu proyecto en pequeños incrementos (sprints): requisitos ➔ plan ➔ diseño ➔ código ➔ pruebas.
+Web Apps ≠ Sitios Web: Piensa en ellas como software ejecutable. Son más parecidas a una app de escritorio que a un blog; se pueden instalar, funcionan offline y son portables.
 
-En resumen, ser "senior" es tomarse el tiempo para hacer las especificaciones, ser LIMPIO, trabajar por partes (dividir y conquistar), crear aplicaciones web en lugar de sitios web, crear tu propia API y, por último, pero no menos importante: solo usar las mejores prácticas y seguir los flujos de trabajo recomendados.
+Tu Flujo de Trabajo Profesional
+Especificaciones (Ojos abiertos): Antes de tocar el teclado, define Historias de Usuario, Wireframes y Diagramas. Sin mapa, no hay destino.
+Frontend (La cara): Crea la interfaz usando React.js y Webpack. Tu app debe ser fluida y conectarse a APIs.
+Backend (El cerebro): Construye APIs profesionales con Django o SQL para gestionar los datos.
 
-¿Suena aburrido? Créeme, ¡no lo es! Construir un producto es increíble. ¡Estarás creando algo desde cero y lo utilizarás de inmediato! ¡Empecemos!
-
+De la Idea al Código
+1. Fase de Definición (El Mapa)
+Historias de Usuario: ¿Quién usa la app y para qué?
+Wireframes: ¿Cómo se ve el "esqueleto" de cada pantalla?
+Diagrama de Clases: ¿Cómo se relacionan los datos entre sí?
+2. Fase de Frontend (La Acción)
+Configuración: Preparar el entorno con Webpack y React.js.
+Componentes: Maquetar la interfaz con HTML/CSS.
+Consumo de API: Conectar la interfaz a fuentes de datos externas.
+3. Fase de Backend (El Cerebro)
+Base de Datos: Configurar el almacenamiento en MongoDB o SQL.
+API Restful: Crear los endpoints necesarios con Django.
+Pruebas: Verificar que los datos guardan y cargan correctamente.
+4. Entrega (El Cierre)
+Testing: Probar que nada se rompa al hacer clic.
+Demo: Presentar el incremento funcional.
+Feedback: ¿Qué aprendimos para el siguiente sprint?
