@@ -11,7 +11,7 @@ description: >-
 ## Introducción a GitHub (si ya lo conoces, lee la siguiente sección)
 
 ![Página principal de GitHub](https://github.com/breatheco-de/content/blob/master/src/assets/images/4889ebd9-201f-46c7-a1fb-d3d8c2f4493e.png?raw=true)
-
+h
 GitHub es una red social para desarrolladores, pero probablemente no del tipo de red social a la cual estás acostumbrado/a en el día a día:
 
 - No puedes postear una foto de lo que estés a punto de comer.
@@ -39,7 +39,7 @@ Hace muchos años, tener un sitio web con un portafolio era esencial para encont
 Asegúrate de que tenga tu estilo personal, pero en general puedes concentrarte en tratar de seguir las siguientes directrices:
 
 - [ ] Escribe una breve biografía enfocada principalmente en ti como desarrollador y en tus habilidades especiales.
-- [ ] En tu página de perfil, incluye enlaces a tu sitio web personal, perfil de LinkedIn, correo electrónico y tus redes sociales, si son relevantes. (luego lo agregarás también en el respositorio especial de ReadMe explicado en la próxima lección)
+- [ ] En tu página de perfil, incluye enlaces a tu sitio web personal, perfil de LinkedIn, correo electrónico y tus redes sociales, si son relevantes. (luego lo agregarás también en el repositorio especial de ReadMe explicado en la próxima lección)
 - [ ] Añade una foto o avatar.
 - [ ] Comienza a hacer "commits" y haz "push" desde el primer día en la academia: GitHub registra e informa públicamente tu actividad como desarrollador en algo llamado [Gráfico de actividad de GitHub](https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/viewing-contributions-on-your-profile#contributions-calendar) que es imposible de falsificar. Es por eso que te recomendamos que empieces a hacer "commit" y a colaborar desde el primer día.
 - [ ] Cada repositorio que quieras destacar y publicitar debe incluir:
