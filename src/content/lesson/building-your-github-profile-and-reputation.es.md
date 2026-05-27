@@ -11,7 +11,6 @@ description: >-
 ## Introducción a GitHub (si ya lo conoces, lee la siguiente sección)
 
 ![Página principal de GitHub](https://github.com/breatheco-de/content/blob/master/src/assets/images/4889ebd9-201f-46c7-a1fb-d3d8c2f4493e.png?raw=true)
-h
 GitHub es una red social para desarrolladores, pero probablemente no del tipo de red social a la cual estás acostumbrado/a en el día a día:
 
 - No puedes postear una foto de lo que estés a punto de comer.
