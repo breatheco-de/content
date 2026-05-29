@@ -16,7 +16,7 @@ CSS es una tecnología muy complicada de depurar, probablemente entre las más d
 
 ## Herramientas para depurar CSS
 
-Tu editor de código tiene resaltado de sintaxis que te ayudará a reconocer errores como falta de punto y coma, llaves, etc.
+Tu editor de código tiene resaltado de sintaxis, que te ayudará a reconocer errores como falta de punto y coma, llaves, etc.
 + La herramienta de desarrollador cuenta con dos secciones clave que debes aprender a manejar con soltura:
 
 ### a) La pestaña `Elementos`
@@ -37,7 +37,7 @@ Estos son algunos de los errores más difíciles de depurar:
 
 ### Estilos que no se aplican
 
-¿Recuerdas alguna vez en tu historia de desarrollador cuando intentaste aplicar un estilo a un elemento pero no pasaba nada? No importa lo que hicieras, el elemento seguía igual.
+¿Recuerdas alguna vez en tu historia de desarrollador, cuando intentaste aplicar un estilo a un elemento, pero no pasaba nada? No importa lo que hicieras, el elemento seguía igual.
 
 Esto puede suceder por varias razones:
 - Estás usando el selector incorrecto.
@@ -46,7 +46,7 @@ Esto puede suceder por varias razones:
 
 #### Sigue estos pasos para solucionar el error:
 
-1. Abre la herramienta de desarrollador `Elementos`
+1. Abre la herramienta de desarrollador `Elementos`.
 2. Haz clic en el tag HTML que quieres inspeccionar.
 3. Mira la pestaña `Estilos`, que muestra los estilos aplicados al elemento.
 4. Comprueba si tu selector y reglas están en la lista de estilos aplicados al tag.
