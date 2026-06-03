@@ -25,7 +25,7 @@ GIT is more than just a "set of commands" you must learn. Throughout the years, 
 Being the only developer in a project is a [utopia](http://www.thefreedictionary.com/Utopic). Normally, you collaborate with other developers; without GIT, that becomes a big problem. That’s why we need a *repository* of information to centralize and manage changes. With a repository, we are addressing the following:
 
 + If two developers work on **the same page (file)**, GIT will compare both versions and will *(try to)* merge them into a new one.
-+ Downloading and integrating someone else’s code (or any code) into your project without much hassle and doing so automatically.
++ Downloading and integrating someone else’s code (or any code) into your project with minimal effort and in an automated way. 
 + If both developers updated the same code, GIT will ask **the last** editing developer to solve any possible conflict.
 + The code is backed up all the time with the latest version as the principal.
 + Each developer has their own version of the project locally for as long as they want.
