@@ -1,5 +1,5 @@
 ---
-title: Aprende en Público
+title: Aprende en público es mucho mejor
 tags:
   - learn-in-public
   - networking
