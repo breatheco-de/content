@@ -59,7 +59,7 @@ Al igual que cualquier otra etiqueta HTML, las etiquetas de input tienen varios 
 <input type="text" name="firstname" value="John" disabled/>
 ```
 
-`SIZE`: El número máximo de caracteres permitidos para ese input.
+`SIZE`: El número máximo de caracteres permitidos para ese input. Tal vez me equivoque pero el size no es el ancho visual del campo de entrada (input) medido en número de caracteres visibles... 'MAXLENGTH' define el numero maximo de caracteres que el usuario puede introducir.
 
 ```html
 <input type="text" name="firstname" value="John" size="40"/>
