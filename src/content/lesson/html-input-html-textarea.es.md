@@ -7,6 +7,8 @@ date: "2020-10-19T16:36:31+00:00"
 tags: ["HTML","entradas","formularios"]
 status: "published"
 
+esto es un cambio basico , no estoy pues corrigiendo nada pero aagregando aalgo xd
+
 ---
 
 ## Formularios HTML
