@@ -37,7 +37,7 @@ At some point in our lives (some more than others), we all have thought we were 
 
 > If a particular exercise or project is hard, instead of thinking you are not good at this, look for new ways of absorbing the content. Talk to a mentor and we'll give you exactly what you need.
 
-Every average person can learn to code to the point of being useful, but coding gets more complicated when you specialize further in your career (like AI, Robotics, etc.), but you can make good money without having to study Math, without being good at numbers, or without learning as fast as others (we may be able to fix that, by the way).
+An average person can learn to code to the point of being useful, but coding gets more complicated when you specialize further in your career (like AI, Robotics, etc.), but you can make good money without having to study Math, without being good at numbers, or without learning as fast as others (we may be able to fix that, by the way).
 
 ##### 📝 Recipe to avoid losing confidence
 
