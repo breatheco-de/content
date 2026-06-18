@@ -69,7 +69,7 @@ These are not small numbers, 60% in a day and 90% if you don't practice for a we
 
 ##### 📝 Recipe to avoid inactivity
 
-1. "Communicate with your spouse, partner, and family: You'll need a break from most obligations. We understand that life is challenging, and adding more responsibilities can be daunting. But remember, this is a temporary commitment, and the rewards are plentiful. Everyone needs to be supportive during this time!"
+1. Communicate with your spouse, partner, and family: You'll need a break from most obligations. We understand that life is challenging, and adding more responsibilities can be daunting. But remember, this is a temporary commitment, and the rewards are plentiful. Everyone needs to be supportive during this time!
 
 2. **Talk to your boss:** You may need a few extra hours, weekend time, etc. Be smart about it, or he/she could sabotage it because he is afraid of losing you.
 
