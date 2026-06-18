@@ -71,7 +71,7 @@ El primer paso sería definir nuestro modelo.
 ```py
 class Person(db.Model):
     # Aquí definimos el nombre de la tabla "Person"
-    __tablename__ = "person" # Es opcional debiado a que usa el nombre de la clase por defecto.
+    __tablename__ = "person" # Es opcional debido a que usa el nombre de la clase por defecto.
 
     # Ten en cuenta que cada columna es también un atributo normal de primera instancia de Python.
     id = db.Column(db.Integer, primary_key=True)
