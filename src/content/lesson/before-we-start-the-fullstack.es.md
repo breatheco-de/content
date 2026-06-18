@@ -37,9 +37,9 @@ El material pendiente asume que tienes un buen nivel de comprensión de los sigu
 ## Cosas que debes saber sobre programación
 
 - ¿Qué es "la consola" o "terminal"? Para un desarrollador web, suele ser el lugar para obtener información sobre su código; le permite "imprimir" y mostrar el contenido de las variables para que pueda depurar su código. Los desarrolladores usan la consola todo el día, todo el tiempo.
-- ¿Cómo puedo imprimir algo en el inspector de desarrolladores (también conocido como la consola)? Al escribir `console.log();`
-- ¿Cómo puedo imprimir el valor de una variable? `console.log(tuVariable);`
-- ¿Qué es una variable y cómo almacenar valores en ella? `let age = 2;`
+- ¿Cómo puedo imprimir algo en el inspector de desarrolladores (también conocido como la consola)? Al escribir `console.log();`.
+- ¿Cómo puedo imprimir el valor de una variable? `console.log(tuVariable);`.
+- ¿Qué es una variable y cómo almacenar valores en ella? `let age = 2;`.
 - ¿Qué puedo almacenar en una variable? Un valor booleano, cadena, número, array (o lista), null, objeto, undefined y función.
 - ¿Qué es una operación lógica? Es una forma de hacer preguntas con código, y estas operaciones siempre devolverán respuestas booleanas. Por ejemplo, si tienes una variable `age` y quieres saber si es mayor de 16 años: `(age > 16)`. Esta operación lógica se convertirá en `true`.
 
