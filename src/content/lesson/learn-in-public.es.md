@@ -48,17 +48,17 @@ En este artículo te explicamos por qué funciona y cómo empezar.
   - `#TechCreatives`
   - `#PromptEngineering`
   - `#VibeCoding`
-- Sigue comunidades en Twitter/X donde ingenieros y estudiantes publican hilos técnicos profundos—sobre Redis, PostgreSQL, IA, arquitectura web y más.
+- Únete a comunidades en Twitter/X donde ingenieros y estudiantes publican hilos técnicos profundos—sobre Redis, PostgreSQL, IA, arquitectura web y más.
   - Algunos hilos sobre Redis son mejores que la documentación oficial—puedes seguir cuentas como @antirez (creador de Redis), @gliderlabs, o explorar los hashtags `#Redis` y `#DatabaseTips`.
 - Crea un canal de YouTube o un blog. Comparte lo que vas aprendiendo cada semana: la gente valora mucho las historias auténticas.
 - Contribuye a proyectos open source: aunque solo corrijas un error de ortografía o mejores una documentación, ya estás aprendiendo y ganando visibilidad.
-- Asiste a eventos, conferencias o meetups. Conoce a otras personas del mundo tech, y verás cómo empiezan a aparecer oportunidades.
+- Asiste a eventos, conferencias o meetups. Conoce a otras personas del mundo tech y verás cómo empiezan a aparecer oportunidades.
 
 ## Pensamientos comunes que te frenan
 
 ### “No tengo nada interesante para decir.”
 
-Aunque no lo creas sí lo tienes. Aprender a programar o entrar en tech no es fácil. Tu historia puede inspirar o acompañar a quienes se sienten solos o perdidos. Mostrar tu progreso ya es valioso.
+Aunque no lo creas, sí lo tienes. Aprender a programar o entrar en tech no es fácil. Tu historia puede inspirar o acompañar a quienes se sienten solos o perdidos. Mostrar tu progreso ya es valioso.
 
 ### “No soy un experto.”
 
