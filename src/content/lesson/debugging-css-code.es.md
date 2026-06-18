@@ -82,7 +82,7 @@ CSS tiene algunos temas difíciles de entender que te pueden seguir durante año
 
 No uses la propiedad `position` para diseños, usa `display: flex;` en su lugar.
 
-Yo uso la regla `position` para cosas pequeñas como adjuntar una burbuja de notificación a un icono. Aquí hay un video de 10 minutos sobre [cómo funcionan la posición absoluta vs relativa](https://www.loom.com/share/3715da41c2ec45be8711c4f8944e406b).
+Yo uso la regla `position` para cosas pequeñas como adjuntar una burbuja de notificación a un ícono. Aquí hay un video de 10 minutos sobre [cómo funcionan la posición absoluta vs relativa](https://www.loom.com/share/3715da41c2ec45be8711c4f8944e406b).
 
 ## Flexbox para hacer layouts
 
