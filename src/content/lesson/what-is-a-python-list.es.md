@@ -57,7 +57,7 @@ print("Esto es un set: ",my_set)
 
 ## Acceder a los items en la lista 
 
-Para acceder a un elemento específico en una lista, necesitas un `index` o índice. Un índice es un valor entero que representa la posición del arreglo a la que desea acceder/obtener/recuperar.
+Para acceder a un elemento específico en una lista, necesitas un `index` o índice. Un índice es un valor entero que representa la posición del arreglo a la que deseas acceder/obtener/recuperar.
 
 El índice siempre debe comenzar en cero (0). Eso significa que una lista de 2 elementos puede tener un `index=0` o un `index=1`. Tratar de obtener la segunda posición devolverá un `IndexError` porque significará que estamos tratando de acceder al tercer elemento (que no existe). Por ejemplo, para obtener cualquier elemento de la lista puedes hacer lo siguiente:
 
