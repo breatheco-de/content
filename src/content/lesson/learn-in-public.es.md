@@ -19,11 +19,11 @@ En este artículo te explicamos por qué funciona y cómo empezar.
 
 **Aprender en público** es compartir tu progreso de forma abierta. Eso puede incluir:
 
-- Publicar en redes sociales
-- Escribir artículos o actualizaciones cortas
-- Compartir código y proyectos en GitHub
-- Crear videos, dibujos o memes sobre lo que estás aprendiendo
-- Comentar y participar en foros o comunidades
+- Publicar en redes sociales.
+- Escribir artículos o actualizaciones cortas.
+- Compartir código y proyectos en GitHub.
+- Crear videos, dibujos o memes sobre lo que estás aprendiendo.
+- Comentar y participar en foros o comunidades.
 
 ## ¿Por qué es tan importante?
 
