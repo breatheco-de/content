@@ -255,7 +255,7 @@ Once you know the remote URL, you can add it to your project.
 
 You have to pick an alias for the remote, we normally use `origin`, but it is just an arbitrary word, and you can use anything. 
 
-⚠️ In our boilerplates, you will already have an origin set-up from the boilerplate's repository. In those cases you should not remove the original origin, but you would need to use another term (e.g. `new` or `new-origin`, etc.) to add your new remote. 
+⚠️ In our boilerplates, you will already have an origin set-up from the boilerplate's repository. In those cases, you should not remove the original origin, but you would need to use another term (e.g. `new` or `new-origin`, etc.) to add your new remote. 
 
 Add the remote by executing the following command:
 
@@ -309,7 +309,7 @@ This would do the following:
 + **Add remote heads** named `origin/[head-name]` that correspond to the heads in the remote repository.
 + Set up one head in the repository to **track** the corresponding `origin/[current-head-name]` head, namely the one that was currently active in the repository being cloned.
   
-A **remote repository reference** is an alias GIT uses to refer to the remote repository.  Generally it will be *origin*. Among other things, GIT internally associates the *remote-specification* with the remote repository reference, so you will never need to refer to the original repository again. 
+A **remote repository reference** is an alias GIT uses to refer to the remote repository.  Generally, it will be *origin*. Among other things, GIT internally associates the *remote-specification* with the remote repository reference, so you will never need to refer to the original repository again. 
 
 From now on, you will be able to say `origin` instead of `git@github.com:alesanchezr/myfirstrepo.git`.
 
