@@ -134,17 +134,18 @@ console.log(myFirstUndefined);
 
 ¿Qué operaciones puedo hacer con las variables? Dependiendo del tipo de dato tienes varias posibilidades:
 
-+ Los números son fáciles - puedes hacer cualquier operación matemática que desees.
++ Los números son fáciles - puedes hacer cualquier operación matemática que gustes.
 + Los strings se pueden concatenar (fusionar), dividir, convertir a mayúsculas o minúsculas, etc.
-+ No se puede hacer mucho con los tipos de datos nulos, booleanos o indefinidos.
-+ Hablaremos de Arrays y Objetos en otra sección. Requieren de mucha más atención.
++ No hay mucho que hacer con los tipos de datos nulos, booleanos o indefinidos.
++ Hablaremos de Arrays y Objetos en otra sección. Es importante ponerle mucha más atención.
+
 
 ## Funciones
 
 Las funciones son fragmentos de código que se pueden reutilizar varias veces durante el tiempo de ejecución, independiente de su posición en el código. Hay cientos de razones para usar funciones, pero aquí están las 2 más importantes:
 
-+ Dividir para conquistar: siempre es más fácil dividir tus problemas en varios problemas más pequeños. Esto se convertirá en tu mayor desafío a la hora de resolver problemas complejos. Las funciones serán tus mejores herramientas para la abstracción.
-+ Reutilización: cualquier desarrollo normal tomará al menos 5,000 líneas de código. Es redundante e ineficiente seguir escribiendo el mismo código una y otra vez.
++ Dividir para conquistar: siempre es más sencillo dividir tus problemas en varios problemas más pequeños. Esto se convertirá en tu mayor desafío a la hora de resolver problemas complejos. Las funciones serán tus mejores herramientas para la abstracción.
++ Reutilización: cualquier desarrollo normal tomará al menos 5,000 líneas de código. Es redundante e ineficiente seguir escribiendo el mismo código una y otra vez
 
 ## Declarar una Función
 
