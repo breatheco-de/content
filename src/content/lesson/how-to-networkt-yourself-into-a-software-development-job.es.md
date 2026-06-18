@@ -1,18 +1,18 @@
 ---
-title: Como 'venderte' para conseguir trabajo en IT
+title: Como 'promocionarte' para conseguir trabajo en el campo de la tecnología de la información.
 tags:
   - markdown
   - Networking
   - software-developer-resume
 description: >-
-  Aprende a 'venderte' en IT y a crear redes efectivas. Descubre cómo conectar
+  Aprende a 'promocionarte' en el mundo IT y a crear redes efectivas. Descubre cómo conectar
   con reclutadores y conseguir tu trabajo ideal en desarrollo de software.
 ---
-La creación de redes es un aspecto muy importante de la carrera de cualquier persona. Al buscar un trabajo, la creación de redes es clave para tener acceso a puestos que no se publican en línea, así como para obtener recomendaciones de personas que están en el campo de la tecnología. Hoy en día, la creación de redes en línea y en persona es la mejor estrategia para asegurar una posición en el campo. La creación de redes también se trata de conocer profesionales que pueden ayudarte a aprender nuevas habilidades, colaborar en nuevos proyectos y brindarte consejos.
+La creación de redes de contactos es un aspecto muy importante de la carrera de cualquier persona. Al buscar un empleo y desarrollar un negocio, el tener una red de contactos es clave en muchos aspectos ya que podrías tener acceso a posiciones que no se publican en línea, así como para obtener recomendaciones de personas que están en el campo de la tecnología. Hoy en día, la creación de redes de contactos en línea y de manera personal, representa una de las mejores estrategias para obtener ventajas a la hora de incursionar en el área de la tecnología. La creación de redes también se trata de conocer profesionales que pueden ayudarte a aprender nuevas habilidades, colaborar en nuevos proyectos además de brindarte consejos.
 
 ## 📝 Instrucciones
 
-Esta lección fue diseñada para ser seguida como una lista de tareas, puedes marcar las casillas de verificación a medida que las completes. Ten en cuenta que estas tareas siempre serán continuas, debes seguir trabajando en tus redes hasta que encuentres un trabajo:
+Esta lección fue diseñada para ser seguida como una lista de tareas, puedes marcar las casillas de verificación a medida que las completes. Ten en cuenta que estas tareas siempre serán continuas, debes seguir trabajando en tus redes hasta que encuentres un empleo:
 
 - Investiga sobre sitios donde puedas conectarte con otros profesionales en tu área. Te recomendamos registrarte en estos sitios y registrarte en grupos de usuarios: 
   - [ ] Reddit.
