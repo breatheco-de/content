@@ -15,7 +15,7 @@ Hay luz al final del túnel y NO es Chuck Norris sosteniendo una linterna. Final
 
 Estos dos hombres que trabajaban en Twitter sufrían los mismos problemas con los que hemos estado lidiando en HTML y CSS. Hartos de la situación, decidieron construir una **Hoja CSS básica diseñada para ser importada a cualquier sitio web**. Hace que cualquier trabajo de desarrollo front-end sea 4 veces más fácil.
 
-![bootstrap 5](https://github.com/breatheco-de/content/blob/master/src/assets/images/335ed387-cbf9-4ffa-9529-1ccf2084e393.jpeg?raw=true)
+![bootstrap 5](https://i.redd.it/rexwi5zdll531.jpg)
 
 Además, Bootstrap te ofrece una docena de elementos nuevos que normalmente querrías usar, pero que en realidad no existen en CSS+HTML: los componentes de Bootstrap.
 
