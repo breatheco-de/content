@@ -41,7 +41,7 @@ Do you remember any time in your developer history when you tried applying a sty
 
 This can happen for several reasons:
 - You are using the wrong selector.
-- You are misspelling inside the selector.
+- You are misspelling something inside the selector.
 - There is another style overriding yours (styling conflict).
 
 #### Follow these steps to fix the error
