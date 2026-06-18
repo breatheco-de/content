@@ -361,7 +361,7 @@ Cuando se construyen modelos de inteligencia artificial, el rendimiento es una g
 
 Existen dos formas principales de programar en Python, y cada una de ellas se puede llevar a cabo usando distintas herramientas:
 
-- **Programación flexible**: Se lleva a cabo con interfaces web como `Jupyter Notebook` o `Google Collab`. Se caracteriza por no contar con una estructura predefinida de código y concebidas para hacer desarrollos rápidos y de prueba y error. En este tipo de desarrollos se generan **cuadernos** (*notebooks*) 
+- **Programación flexible**: Se lleva a cabo con interfaces web como `Jupyter Notebook` o `Google Colab`. Se caracteriza por no contar con una estructura predefinida de código y concebidas para hacer desarrollos rápidos y de prueba y error. En este tipo de desarrollos se generan **cuadernos** (*notebooks*) 
 - **Programación productiva**: Se lleva a cabo en **entornos de desarrollo integrados** (*IDE*, *Integrated Development Environment*), que son programas informáticos que permiten un desarrollo de inicio a fin de una aplicación o un servicio completo. Algunos de los más utilizados en Python son el `Visual Studio Code` y `Spyder`, entre otros.
 
 Normalmente, el desarrollo de un producto, modelo o servicio de Machine Learning, se compone de dos fases: una exploratoria y otra de desarrollo. Primero programamos en notebooks y hacemos pruebas de concepto, buscando el mejor preprocesamiento, análisis y predicción de los datos, y después preparamos un desarrollo completo para productivizar el modelo.
