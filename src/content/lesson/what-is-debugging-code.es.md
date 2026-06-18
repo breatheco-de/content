@@ -12,7 +12,7 @@ Todos cometemos muchos errores al programar. Esta es una realidad que reconoce c
 
 ## Está bien cometer errores
 
-> He medido mi "tasa de error"; sé que cometo más de 100 errores durante un día honesto de programación (y llevo programando desde el año 2000, hace 24 años).
+> He medido mi "tasa de error"; a ver si no viene aqui otro sé que cometo más de 100 errores durante un día honesto de programación (y llevo programando desde el año 2000, hace 24 años).
 
 Estos errores pueden ser muy simples, como escribir mal una línea de código, o más elaborados, como escribir algo de código que lleve a un desbordamiento de memoria. No me asustan estos errores porque tengo una forma muy efectiva y rápida de identificar y solucionar errores.
 
@@ -148,3 +148,6 @@ He preparado lecciones muy sencillas para depurar los errores más comunes que e
 - Depuración de errores de back-end de API de Python Flask.
 
 > 📄 Nota: Haga clic en cualquiera de los elementos anteriores para aprender sobre la depuración de cada tecnología.
+
+la verdad nose que modificar asi que mejor agrego este texto para que se vea algo
+fin de la modificacion
