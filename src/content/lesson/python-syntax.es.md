@@ -15,9 +15,9 @@ description: >-
 ---
 # ¿Qué es Python?
 
-Esta lección tiene como objetivo ayudar a familiarizarte con la sintaxis básica de Python y cómo hacer cosas esenciales como imprimir algo en un terminal, manipular strings y entender cómo se usan las variables, funciones, operaciones lógicas y condicionales. Esta debería ser la primera lección a leer en tu viaje con Python.
+Esta lección tiene como objetivo aprender la sintaxis básica de Python, cómo hacer cosas esenciales como imprimir algo en un terminal, manipular strings y entender cómo se usan las variables, funciones, operaciones lógicas y condicionales. Esta debería ser la primera lección a leer en tu aprendizaje de Python.
 
-Por favor, sepa que hay otras lecciones explicando cada concepto en detalle; esto es solamente un resumen básico para ayudarte a obtener una visión general sobre el tema.
+Por favor, ten en cuenta que hay otras lecciones explicando cada concepto en detalle; esto es solamente un resumen básico para ayudarte a obtener una visión general sobre el tema.
 
 ## ¿Por qué Python?
 
