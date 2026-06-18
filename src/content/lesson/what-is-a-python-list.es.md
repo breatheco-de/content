@@ -21,7 +21,7 @@ Dominar el uso de listas y bucles es una de las 5 habilidades fundamentales para
 
 ## ¿Qué es una lista?
 
-Una lista es, normalmente, cualquier colección de valores. Las reglas de cómo agregar o eliminar elementos de esa lista pueden cambiar de un lenguaje de programación a otro. Pero - en general - son la única forma en que los desarrolladores pueden crear elementos.
+Una lista es, normalmente, cualquier conjunto de valores. Las reglas de cómo agregar o eliminar elementos de esa lista pueden cambiar de un lenguaje de programación a otro. Pero - en general - son la única forma en que los desarrolladores pueden crear elementos.
 
 Las listas no son la única forma que tenemos para enumerar las cosas y almacenar múltiples valores de una sola vez, pero es la más usada para ese propósito. Por ejemplo: lista de estudiantes, lista de artistas, lista de transacciones... ¡cualquier cosa!
 
