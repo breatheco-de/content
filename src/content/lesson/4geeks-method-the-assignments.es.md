@@ -47,6 +47,9 @@ Hay muchas maneras de desatascarse:
 - Únete a una sesión de tutoría global. Suceden 2 veces por semana.
 - Haz preguntas durante tus clases en vivo.
 - Solicita tutoría 1-1.
+- Busca en la documentación oficial o en foros como Stack Overflow. A menudo otros desarrolladores han enfrentado problemas similares.
+- Divídelo en problemas más pequeños. Separar el proyecto en tareas más manejables puede ayudarte a avanzar paso a paso.
+
 
 ## Es hora de aprovechar al máximo este curso
 Cuanto más activo seas durante el curso, más lo aprovecharás:
