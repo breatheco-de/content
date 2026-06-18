@@ -69,7 +69,7 @@ Debugging becomes more challenging as your application grows into more pieces th
 
 > 😎 Pro tip: Generally, what was the line of code that you last updated? Was it in the front end? Or the back-end?
 
-I'm going to assume the worst: You have no idea when the bug first appeared and have made many changes since the last time you ran your application. So these are the clues you have to watch to start debugging:
+I'm going to assume the worst: You have no idea when the bug first appeared and have made many changes since the last time you ran your application. So, these are the clues you have to watch to start debugging:
 
 **In the front end:**
 + Check for an error message in the developer console.
@@ -120,12 +120,12 @@ Lastly, if you have an error on a web server (like Express, Flask, Django, etc.)
 
 ### Narrowing down the bug
 
-If you followed the previous steps correctly, you'd know what part of your code the bug is related to. So stay focused and don't guess! You have handy information about your bug, use it and pull that thread. 
+If you followed the previous steps correctly, you'd know what part of your code the bug is related to. So, stay focused and don't guess! You have handy information about your bug, use it and pull that thread. 
 
 For example: 
 
 + Stop thinking about the back end if your bug is in the front end, and vice versa.  
-+ Wrong Syntax or TypeError? Syntax errors usually tell you which line has the issue. So look for that info and read the surrounding lines of code.  
++ Wrong Syntax or TypeError? Syntax errors usually tell you which line has the issue. So, look for that info and read the surrounding lines of code.  
 + The Network tag has request status code 4xx? Go and fix the code crafting the request.  
 + The Network tag has request status code 5xx? Go and read the back-end terminal for Syntax or Database errors.  
 
