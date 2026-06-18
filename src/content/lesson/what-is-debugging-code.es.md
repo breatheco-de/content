@@ -8,11 +8,12 @@ description: >-
   ¡Descubre técnicas que te ahorrarán tiempo y mejorarán tus habilidades de
   programación!
 ---
+
 Todos cometemos muchos errores al programar. Esta es una realidad que reconoce cada desarrollador senior; por eso "depurar código" se ha convertido en una de las habilidades más esenciales para los desarrolladores.
 
 ## Está bien cometer errores
 
-> He medido mi "tasa de error"; sé que cometo más de 100 errores durante un día honesto de programación (y llevo programando desde el año 2000, hace 24 años).
+> He medido mi "tasa de error"; sé que cometo más de 100 errores durante un día honesto de programación (y llevo programando desde el año 2000, ¡imagínate cuántos años han pasado!).
 
 Estos errores pueden ser muy simples, como escribir mal una línea de código, o más elaborados, como escribir algo de código que lleve a un desbordamiento de memoria. No me asustan estos errores porque tengo una forma muy efectiva y rápida de identificar y solucionar errores.
 
@@ -49,7 +50,7 @@ La depuración de código de front-end se puede dividir en 4 grupos principales:
 1. **Errores de HTML/CSS**: Desajustes de diseño frente al diseño original, confusiones creadas por la caché del navegador, una etiqueta HTML `<tags>` faltante o algunas reglas CSS que no se aplicaron correctamente.
 2. **Errores lógicos de JavaScript**: Por lo general, valores de variables indefinidos o inesperados, condiciones lógicas o flujos incorrectos y problemas de sintaxis.
 3. **Errores de renderizado con marcos de componentes**: Tratar con el DOM, renderizado de React, etc. Los errores típicos son no esperar a que los datos lleguen desde el back-end, lo que lleva a variables indefinidas (demasiado pronto), demasiados re-renderizados, importación o exportación incorrecta de variables o no pasar los datos correctamente entre los componentes.
-4. **Errores de integración con el back-end**: Solicitudes Fetch y HTTP con *payload* incorrecta, credenciales de autenticación faltantes, no interpretar correctamente la respuesta de la *payload* del back-end o no manejar las excepciones de promesa, errores CORS.
+4. **Errores de integración con el back-end**: Solicitudes Fetch y HTTP con _payload_ incorrecta, credenciales de autenticación faltantes, no interpretar correctamente la respuesta de la _payload_ del back-end o no manejar las excepciones de promesa, errores CORS.
 
 #### ¿Es un error de back-end?
 
@@ -73,12 +74,14 @@ Depurar se vuelve más desafiante a medida que tu aplicación crece y tiene más
 Voy a suponer lo peor: no tienes idea de cuándo apareció el error por primera vez y has hecho muchos cambios desde la última vez que ejecutaste tu aplicación. Estas son las pistas que tienes para comenzar a depurar:
 
 **En el front-end:**
-+ Busca un mensaje de error en la consola del desarrollador.
-+ Busca un error de solicitud en la pestaña de red.
+
+- Busca un mensaje de error en la consola del desarrollador.
+- Busca un error de solicitud en la pestaña de red.
 
 **En el back-end:**
-+ Si estás construyendo en un servidor: revisa el registro de solicitudes.
-+ Busca excepciones en la terminal.
+
+- Si estás construyendo en un servidor: revisa el registro de solicitudes.
+- Busca excepciones en la terminal.
 
 Hay un 99% de probabilidades de que tu error aparezca en cualquiera de estas salidas, pero eso no significa que el error pertenezca al front-end o al back-end; primero debes leer el error.
 
@@ -97,11 +100,11 @@ Los códigos de error que comienzan con `5xx` probablemente sean errores del lad
 
 Aquí hay una lista más detallada:
 
-| Código | Significado |
-| ------ | -------------|
-| 400 | Es un problema del lado del cliente; el servidor espera un formato o valores diferentes en sus datos. |
-| 401 | Es un problema del lado del cliente porque está intentando solicitar algo para lo que no tiene permiso. ¿Olvidaste incluir credenciales en la solicitud? |
-| 403 | Probablemente del lado del cliente porque las credenciales están incluidas, pero pueden estar equivocadas. El servidor no te permite acceder. |
+| Código | Significado                                                                                                                                              |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 400    | Es un problema del lado del cliente; el servidor espera un formato o valores diferentes en sus datos.                                                    |
+| 401    | Es un problema del lado del cliente porque está intentando solicitar algo para lo que no tiene permiso. ¿Olvidaste incluir credenciales en la solicitud? |
+| 403    | Probablemente del lado del cliente porque las credenciales están incluidas, pero pueden estar equivocadas. El servidor no te permite acceder.            |
 
 Como segunda fuente de información, y especialmente si el error es un `4xx`, puede verificar que el cuerpo de la solicitud tenga el formato y los valores esperados.
 
@@ -123,10 +126,10 @@ Por último, si tiene un error en un servidor web (como Express, Flask, Django, 
 
 Si has seguido los pasos anteriores correctamente, sabes a qué parte de tu código está relacionado el error. ¡Así que mantente enfocado y no adivines! Tienes información útil sobre tu error; úsala y sigue esa pista. Por ejemplo:
 
-+ Deja de pensar en el lado del servidor si tu error está en el lado del cliente o viceversa.
-+ ¿Error de sintaxis o TypeError? Los errores de sintaxis generalmente te dicen en qué línea está el problema. Así que busca esa información y lee las líneas de código que la rodean.
-+ ¿La pestaña de red tiene el código de estado 4xx? Ve y arregla el código que envía la solicitud.
-+ ¿La pestaña de red tiene el código de estado 5xx? Ve y lee la terminal del servidor en busca de errores de sintaxis o de base de datos.
+- Deja de pensar en el lado del servidor si tu error está en el lado del cliente o viceversa.
+- ¿Error de sintaxis o TypeError? Los errores de sintaxis generalmente te dicen en qué línea está el problema. Así que busca esa información y lee las líneas de código que la rodean.
+- ¿La pestaña de red tiene el código de estado 4xx? Ve y arregla el código que envía la solicitud.
+- ¿La pestaña de red tiene el código de estado 5xx? Ve y lee la terminal del servidor en busca de errores de sintaxis o de base de datos.
 
 ### Prueba y error hasta que lo arregles
 
