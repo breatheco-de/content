@@ -8,7 +8,7 @@ description: >-
   Antes de comenzar el desarrollo Full Stack, descubre los conceptos clave de
   HTML, CSS y JavaScript. ¡Prepárate y aprende lo esencial ahora!
 ---
-Para aprovechar mejor el próximo curso, te alentamos a que termines y repases cualquier contenido del Prework.
+Para aprovechar mejor el próximo curso, te alentamos a que termines, repases cualquier contenido del Prework y practiques despues de cada clase lo aprendido para que tengas una base solida durante todo el curso. 
 
 El material pendiente asume que tienes un buen nivel de comprensión de los siguientes temas:
 
