@@ -36,7 +36,7 @@ age = "23" # <--- esto sigue siendo un string (entre comillas)
 ```
 
 
-Si estamos desarrollando una aplicación, todo lo que el usuario escríba dentro de formularios sera considerado un `string`, incluso si el usuario escribe el numero `2`, éste se considerara un string y no un número a no ser que nosotros como desarrolladores lo convirtamos en número usando la función `int()`  o `float()`.
+Si estamos desarrollando una aplicación, todo lo que el usuario escriba dentro de formularios sera considerado un `string`, incluso si el usuario escribe el numero `2`, éste se considerara un string y no un número a no ser que nosotros como desarrolladores lo convirtamos en número usando la función `int()`  o `float()`.
 
 
 El uso mas común de un string es imprimirla con la función `print`:
