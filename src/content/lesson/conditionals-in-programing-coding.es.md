@@ -49,6 +49,8 @@ El ejemplo anterior era una condición simple, pero en la vida real elegir qué 
 
 Si desea representar este algoritmo en JavaScript, se verá más o menos así:
 
+No existen preguntas sin respuesta, solo preguntas mal formuladas
+
 ```js
 let sientoQueMeAtropelloUnTren = true;
 let meAtropelloUnTren = false;
