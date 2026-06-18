@@ -3,7 +3,7 @@ title: Introduction to 4Geeks Academy
 tags:
   - best practices
   - learn-to-code
-  - impostor syndrome
+  - imposter syndrome
 authors:
   - alesanchezr
 canonical: ''
@@ -29,7 +29,7 @@ We are about to change the way you learn, the way you approach life, and the way
 
 Over the past few years, we have identified specific reasons that cause students to stop trying to be developers or fail to complete the course, or get a job. 
 
-#### Wall #1: Confidence ❓ (Impostor syndrome)
+#### Wall #1: Confidence ❓ (Imposter syndrome)
 
 ![Impostor Syndrome](https://github.com/breatheco-de/content/blob/master/src/assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png?raw=true)
 
