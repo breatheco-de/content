@@ -19,9 +19,9 @@ El material pendiente asume que tienes un buen nivel de comprensión de los sigu
 - Cómo incluir una hoja de estilo CSS separada en el sitio web usando el tag `<link>`.
 - Cómo anular o mejorar el aspecto y el comportamiento de los tags HTML mediante el uso de selectores y reglas de CSS, por ejemplo:
   - ¿Cómo puedo seleccionar un elemento para actualizar sus estilos? [Usando un selector](https://4geeks.com/es/lesson/what-is-css-learn-css-es#pero-que-es-un-selector).
-  - Lo más sencillo como cambiar el color del texto y manipular las fuentes (tamaño, familia, etc).
+  - Lo más sencillo, como cambiar el color del texto y manipular las fuentes (tamaño, familia, etc.).
   - Cambiar el color o la imagen de fondo del elemento.
-- Comprende completamente el tag `<div>` que inherentemente se comporta como una "caja" (lo que significa que tiene bordes, ancho y alto) y cómo usar `<div>` para separar visualmente su contenido.
+- Comprende completamente el tag `<div>` que inherentemente se comporta como una "caja" (lo que significa que tiene bordes, ancho y alto), y cómo usar `<div>` para separar visualmente su contenido.
 - Cómo crear los layouts de sitios web más comunes utilizando la regla CSS `display: flex;`.
   - ¿Cómo puedes hacer que un `<div>` esté del lado de otro? Aplicando `display: flex;` a un padre inmediato común.
   - ¿Cómo se puede hacer un layout de barra lateral?
@@ -31,8 +31,8 @@ El material pendiente asume que tienes un buen nivel de comprensión de los sigu
 
 - ¿Qué es CSS y para qué sirve? Gracias a CSS, podemos seleccionar elementos específicos en el HTML y darles estilos como colores, tamaños, etc.
 - ¿Por qué se desaconseja el uso del selector `#id`? Debido a que es demasiado específico, va en contra de la reutilización.
-- ¿Cuándo debo usar el selector `#id`? Nunca, usaremos `#id` solo cuando programemos en JavaScript.
-- ¿Por qué se supone que las hojas de estilo se escriben desde los estilos más genéricos hasta los más específicos? Debido a que escribirás muchas menos líneas de código de esa manera, también evitará muchos errores o conflictos entre sus selectores.
+- ¿Cuándo debo usar el selector `#id`? Nunca; usaremos `#id` solo cuando programemos en JavaScript.
+- ¿Por qué se supone que las hojas de estilo se escriben desde los estilos más genéricos hasta los más específicos? Debido a que escribirás muchas menos líneas de código de esa manera; también evitará muchos errores o conflictos entre sus selectores.
 
 ## Cosas que debes saber sobre programación
 
