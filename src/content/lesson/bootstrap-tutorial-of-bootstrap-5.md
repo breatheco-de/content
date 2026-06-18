@@ -262,7 +262,7 @@ The Bootstrap official documentation is amazing!  We don’t need to start copyi
 + [List of components available to use on your website.](https://getbootstrap.com/docs/5.2/components/accordion/)
 + [Utilities or Helper classes:](https://getbootstrap.com/docs/5.2/utilities/background/) Very useful and constantly used classes to do stuff like centering the text, centering a column or container, adding a background, etc.
 
-Bootstrap has many versions, always check if you are using the latest version of Bootstrap on your project, here you can find all the available versions: [https://getbootstrap.com/docs/versions/](https://getbootstrap.com/docs/versions/).
+Bootstrap has many versions, always check to make sure you are using the latest version of Bootstrap on your project, here you can find all the available versions: [https://getbootstrap.com/docs/versions/](https://getbootstrap.com/docs/versions/).
 
 
 We recommend using a CDN to import bootstrap in your HTML like this one: [https://www.bootstrapcdn.com/](https://www.bootstrapcdn.com/)
