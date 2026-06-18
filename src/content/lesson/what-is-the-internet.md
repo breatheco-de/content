@@ -86,7 +86,7 @@ As you browse the Internet, the browser must translate every text it finds along
 
 As a developer, you need to code everything the browser is going to need to visualize the text. We call it “the client side” because the browser is installed on the computer of the user. Likewise, all code on the client side will be processed by that computer.
 
-The server has no idea of what the browser does! (Or at least it didn’t at the beginning (several years ago), and actually, it still doesn’t really know).
+The server has no idea what the browser does! (Or at least it didn’t at the beginning (several years ago), and actually, it still doesn’t really know).
 
 So, what does the server do?
 
