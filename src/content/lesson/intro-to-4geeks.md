@@ -3,7 +3,7 @@ title: Introduction to 4Geeks Academy
 tags:
   - best practices
   - learn-to-code
-  - impostor syndrome
+  - imposter syndrome
 authors:
   - alesanchezr
 canonical: ''
@@ -29,9 +29,9 @@ We are about to change the way you learn, the way you approach life, and the way
 
 Over the past few years, we have identified specific reasons that cause students to stop trying to be developers or fail to complete the course, or get a job. 
 
-#### Wall #1: Confidence ❓ (Impostor syndrome)
+#### Wall #1: Confidence ❓ (Imposter syndrome)
 
-![Impostor Syndrome](https://github.com/breatheco-de/content/blob/master/src/assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png?raw=true)
+![Imposter Syndrome](https://github.com/breatheco-de/content/blob/master/src/assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png?raw=true)
 
 At some point in our lives (some more than others), we all have thought we were the dumbest person in the room. If we keep thinking like that for a long time and we don't get comfortable with any discipline, we may even think that we are not that smart. Not at all! That's a lie! You are a part of this school, we do not accept people that we don't think are smart enough to make a living as a developer. You need to believe that, especially in tough times!
 
