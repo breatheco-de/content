@@ -48,7 +48,7 @@ Cualquier persona en general puede aprender a programar; la programación se vue
 
 #### Pared #2: Confianza ✝
 
-Durante toda tu vida has aprendido de la misma manera, el sistema de educación te ha puesto en una caja y te ha enseñado a aprender lentamente, limitando tu habilidad para adaptarte al nuevo mundo de profesionales que aprenden con rapidez y que son autodidactas.
+Durante toda tu vida has aprendido de la misma manera; el sistema de educación te ha puesto en una caja y te ha enseñado a aprender lentamente, limitando tu habilidad para adaptarte al nuevo mundo de profesionales que aprenden con rapidez y que son autodidactas.
 
 Sabemos cómo enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseñaremos de una manera tan diferente que puede no gustarte al principio, es normal que tu mente quiera volver al aprendizaje "lento pero seguro", sin tener que sentirte incómodo o constantemente desafiado por nuestro sistema.
 
@@ -62,7 +62,7 @@ Sabemos cómo enseñarte: lo hemos hecho una y otra vez, sin embargo, te enseña
 
 #### Pared #3: Inactividad 😴 
 
-Esto es un bootcamp, no importa si lo haces tiempo completo o tiempo parcial, debes tener mentalidad de bootcamp y trabajar cada día como si fuera el último. El cerebro humano absorbe un 80% más cuando se siente desafiado y asustado, si descansas un día, el cerebro se relaja y [está demostrado](https://www.youtube.com/watch?v=h5PLO4XAXhs) que usualmente se olvida del 60% de la información recientemente adquirida a menos que la uses, de forma repetida y constante durante un periodo de 7 días (por lo menos).
+Esto es un bootcamp, no importa si lo haces tiempo completo o tiempo parcial, debes tener mentalidad de bootcamp y trabajar cada día como si fuera el último. El cerebro humano absorbe un 80% más cuando se siente desafiado y asustado, si descansas un día, el cerebro se relaja y [está demostrado](https://www.youtube.com/watch?v=h5PLO4XAXhs) que usualmente se olvida del 60% de la información recientemente adquirida, a menos que la uses de forma repetida y constante durante un periodo de 7 días (por lo menos).
 
 Estos números no son pequeños, un 60% en un día y un 90% si no practicas en una semana ¡Estás perdiendo tu tiempo y dinero si no te lo tomas en serio!
 
@@ -70,7 +70,7 @@ Estos números no son pequeños, un 60% en un día y un 90% si no practicas en u
 
 1. **Habla con tu pareja, amigo y familia:** Necesitas un descanso de prácticamente todo. Sabemos que la vida ya es lo suficientemente complicada para además añadirle más responsabilidades, pero este es solo un breve periodo de tu tiempo. La recompensa es eterna ¡Todos deben alinearse! Intenta mantenerte abierto, tener un escritorio para trabajar sin distracciones, etc. Tu hogar debe estar sincronizado con este momento de tu vida.
 
-2. **Habla con tu jefe:** Es posible que necesites algunas horas extra, tiempo de fin de semana, etc. Sé inteligente al respecto o él/ella podría sabotearte porque tiene miedo de perderte.
+2. **Habla con tu jefe:** Es posible que necesites algunas horas extra, tiempo de fin de semana, etc. Sé inteligente al respecto, o él/ella podría sabotearte porque tiene miedo de perderte.
 
 3. **No faltes a clases:** Que faltes a clases es nuestra mayor preocupación, estamos muy preocupados de la asistencia porque ha demostrado ser el disuasivo #1 para tu motivación, faltar a dos clases seguidas genera la tormenta perfecta. Necesitarás mentoría uno a uno y doblar las horas de práctica esa semana para evitar retrasarte.
 
@@ -82,7 +82,7 @@ Asegúrate de entender bien cómo funciona la academia:
 
 1. **La plataforma:** 4Geeks.com, el Programa (aprende a seguirlo), GeekPal, GeekForce, las lecciones, ejercicios, proyectos y recursos.
 2. **Las personas:** ¡Somos más de 5.000 personas! Líderes, mentores, egresados y estudiantes, están aquí para ayudarte y no nos iremos a ningún lado. Haz networking, amigos ¡Aprovecha!
-3. **La comunidad:** Las comunidades no solo dan, no solo trabajan preparando eventos, apoya a otros estudiantes, da primero y recibirás después. Slack, GeekTalks, Workshops, Grupos de Estudio.
+3. **La comunidad:** Las comunidades no solo dan ni solo trabajan preparando eventos, apoya a otros estudiantes, da primero y recibirás después. Slack, GeekTalks, Workshops, Grupos de Estudio.
 
 
 ## Mejores prácticas mientras aprendes a programar
