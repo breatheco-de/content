@@ -33,6 +33,7 @@ The upcoming material assumes that you have a good level of understanding of the
 - Why is the use of the `#id` selector discouraged? Because it's too specific, it goes against reusability.
 - When should I use the `#id` selector? Never, we will use `#id`s only when coding in JavaScript.
 - Why should stylesheets be written from the most generic to the most specific styles? Because you will write way fewer lines of code that way, you also avoid lots of bugs or conflicts between your selectors.
+- Using stylesheets is the most effective way of using CSS (without bootstrap) because it's easier to be specific with your stylings.
 
 ## Things you should know about programming
 
