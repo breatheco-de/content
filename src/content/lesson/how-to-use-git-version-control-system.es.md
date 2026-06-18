@@ -202,7 +202,7 @@ Estos comandos realizan las siguientes operaciones: deja que el head actual se l
 + Tratar con los casos fáciles. Si el *ancestor-commit* es igual a merge, entonces no hagas nada. Si el *ancestor-commit* es igual al actual, entonces haz un **adelanto del merge.**
 + De lo contrario, determina los cambios entre *ancestor-commit* y *merge*
 + Intenta fusionar esos cambios dentro de los archivos en *current*.
-+ Si no hubo conflictos, crea un nuevo commit con dos padres: *current* y *merge.* Establece current (y *HEAD*) para que apunte a este nuevo commit, y actualiza acordemente los archivos de trabajo para el proyecto.
++ Si no hubo conflictos, crea un nuevo commit con dos padres: *current* y *merge.* Establece current (y *HEAD*) para que apunte a este nuevo commit, y actualiza los archivos de acuerdo con el proyecto.
 + Si hubo un conflicto, inserta apropiadamente los marcadores de conflicto e informa al usuario.  Ningún commit es creado.
 
 > ☝ GIT puede ser muy confuso si hay cambios sin commit en los archivos cuando le pides que realice una fusión o merge. Por lo tanto, asegúrate de hacer commit a los cambios que hayas realizado hasta ahora antes de fusionar.
