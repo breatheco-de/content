@@ -52,10 +52,10 @@ Tu computadora tiene archivos, directorios y aplicaciones. Tu línea de comando 
 
 Hay 4 cosas importantes que notar aquí:
 
-+ Puedes usar un punto `.` para referirte a todos los archivos y carpetas en la jerarquía.
-+ También puedes usar dos puntos `..` para referirte al directorio padre.
-+ Puedes usar la barra diagonal `/` para navegar más hacia abajo en la jerarquía de directorios.
-+ Archivos ocultos: Por lo general, un archivo tiene un nombre y una extensión *(filename.extension)*. Si un archivo no tiene nombre y solo una extensión, estará, por defecto, oculto en la interfaz visual.
+1. Puedes usar un punto `.` para referirte a todos los archivos y carpetas en la jerarquía.
+2. También puedes usar dos puntos `..` para referirte al directorio padre.
+3. Puedes usar la barra diagonal `/` para navegar más hacia abajo en la jerarquía de directorios.
+4. Archivos ocultos: Por lo general, un archivo tiene un nombre y una extensión *(filename.extension)*. Si un archivo no tiene nombre y solo una extensión, estará, por defecto, oculto en la interfaz visual.
 
 ## Comandos para trabajar con el sistema de archivos
 
