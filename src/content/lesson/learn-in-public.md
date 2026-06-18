@@ -15,7 +15,7 @@ In this article, we'll explain why it works and how to get started.
 
 ## What is Learn In Public?
 
-**Learning in private** is what most of us are used to: reading, attending class, completing assignments, and quietly leveling up until graduation.
+**Learning in private** is what most of us are used to: reading, attending classes, completing assignments, and quietly leveling up until graduation.
 
 **Learning in public** means sharing your progress openly. That could be:
 
