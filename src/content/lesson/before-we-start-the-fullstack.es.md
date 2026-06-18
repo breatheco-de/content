@@ -46,6 +46,7 @@ El material pendiente asume que tienes un buen nivel de comprensión de los sigu
 ```js
 (age > 16) == true
 ```
+kfjakslfjalfjña
 
 - ¿Qué es una condicional? Una condicional utiliza operaciones lógicas para bloquear u omitir líneas de código. `if(age>16) console.log("Puedes conducir")`.
 - ¿Cómo puedo guardar múltiples valores en una variable? Utiliza un array u objeto. Por ejemplo: `let ages = [2,23,45,67]`.
