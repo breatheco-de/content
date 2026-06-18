@@ -236,7 +236,7 @@ Promise.resolve("I was resolved with this value").then(value => console.log(valu
 Promise.reject(new Error("I was rejected")).catch(error => console.log(error));
 ```
 
-+ ***then***: this method returns a promise, and it can take up to 2 arguments. One for the resolved promise and one for the rejected promise. Above is an example that uses the ***then*** method and takes one argument.
++ ***then***: this method returns a promise, and it can take up to 2 arguments. One for the resolved promise and one for the rejected promise. Below is an example that uses the ***then*** method and takes one argument.
 
 ```javascript
 let promise = new Promise(function(resolve,reject){
