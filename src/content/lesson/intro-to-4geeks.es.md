@@ -28,11 +28,11 @@ Vamos a cambiar la forma en que te has acostumbrado a aprender, la forma en que 
 
 Durante los años que han pasado hemos identificado razones específicas por las cuales los estudiantes se frustran y dejan de intentar ser desarrolladores o no completan el curso y no consiguen trabajo.
 
-#### Pared #1: Autoestima ❓ (Síndrome del impostor)
+#### Pared #1: Autoestima ! (Síndrome del impostor)
 
 ![Síndrome del Impostor](https://github.com/breatheco-de/content/blob/master/src/assets/images/6cf4655f-665f-4f68-b021-f34238cedd69.png?raw=true)
 
-En algún momento de nuestras vidas (en muchos más que otros) podemos haber pensado que no somos la persona más lista de una sala. Si continuamos pensando eso durante mucho tiempo y no nos sentimos cómodos con ninguna disciplina, incluso podemos llegar a pensar que no somos inteligentes. ¡Mentira! ¡Nada que ver! Eres parte de esta academia, no aceptamos personas que no creemos que sean lo suficientemente inteligentes como para ganarse la vida como desarrolladores. ¡Tienes que creer eso, especialmente en tiempos difíciles!
+En algún momento de nuestras vidas (en muchos más que en otros) podemos haber pensado que no somos la persona más lista de una sala. Si continuamos pensando eso durante mucho tiempo y no nos sentimos cómodos con ninguna disciplina, incluso podemos llegar a pensar que no somos inteligentes. ¡Mentira! ¡Nada que ver! Eres parte de esta academia, no aceptamos a personas que no creemos que sean lo suficientemente inteligentes como para ganarse la vida como desarrolladores. ¡Tienes que creer eso, especialmente en tiempos difíciles!
 
 > Si algún ejercicio o proyecto en particular te parece difícil, en vez de pensar que no sirves para esto, busca nuevas maneras de asimilar el contenido. Habla con un mentor y te daremos exactamente lo que necesitas.
 
