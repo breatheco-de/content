@@ -86,6 +86,7 @@ Asegúrate de entender bien cómo funciona la academia:
 
 
 ## Mejores prácticas mientras aprendes a programar
+los memes estan buenisimos, pero pueden actualizarlos, son muy milenials. 
 
 | Mejores prácticas mientras aprendes a programar  | Memes |
 | ---   | ----      |
