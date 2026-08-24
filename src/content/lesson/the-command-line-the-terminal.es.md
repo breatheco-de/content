@@ -161,7 +161,7 @@ find / -name game
 # Encuentra todos los archivos que contengan el nombre exacto "game" que se encuentran dentro de la carpeta raíz.
 
 find . -name *.mp3
-# Encuentra todos los archivos que contengan la extensión "mp3" dentro del directorio actual y en el de su padre.
+# Encuentra todos los archivos que contengan la extensión "mp3" dentro del directorio actual y en sus subdirectorios" (o "carpetas hijas").
 ```
 
 ## Consejos y trucos
