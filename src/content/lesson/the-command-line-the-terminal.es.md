@@ -52,10 +52,10 @@ Tu computadora tiene archivos, directorios y aplicaciones. Tu línea de comando 
 
 Hay 4 cosas importantes que notar aquí:
 
-+ Puedes usar un punto `.` para referirte a todos los archivos y carpetas en la jerarquía.
-+ También puedes usar dos puntos `..` para referirte al directorio padre.
-+ Puedes usar la barra diagonal `/` para navegar más hacia abajo en la jerarquía de directorios.
-+ Archivos ocultos: Por lo general, un archivo tiene un nombre y una extensión *(filename.extension)*. Si un archivo no tiene nombre y solo una extensión, estará, por defecto, oculto en la interfaz visual.
++ El punto `.` representa el directorio actual. Puedes usarlo como inicio de una ruta, por ejemplo, `ls .`.
++ Dos puntos `..` representan el directorio padre.
++ La barra `/` separa los directorios de una ruta; al principio de una ruta, representa el directorio raíz.
++ En Linux, los archivos y directorios cuyo nombre comienza con un punto (por ejemplo, `.env`) se consideran ocultos.
 
 ## Comandos para trabajar con el sistema de archivos
 
@@ -87,17 +87,17 @@ cd /path/to/directory
 
 **El comando mover**
 
-Mueve un archivo a otra carpeta o directorio, como por ejemplo arrastrar un archivo ubicado en el escritorio de una PC a una carpeta almacenada dentro de la carpeta "Documentos".
+Mueve o cambia el nombre de archivos y directorios. Por ejemplo, puedes mover un archivo del escritorio a la carpeta "Documentos".
 
 ```bash
-mv /path/to/file.txt /math/to/destination/file.txt
+mv /path/to/file.txt /path/to/destination/file.txt
 ```
 
 ### El comando rm
 
 **El comando eliminar**
 
-Borra archivos (no directorios).
+Elimina archivos. Para eliminar un directorio y su contenido de forma recursiva, se usa la opción `-r`.
 
 ```bash
 rm file1.txt file2.txt file3.txt file4.txt
@@ -135,7 +135,7 @@ rmdir path/of/targetdirectory/mydirectory
 # Eliminar mydirectory de "targetdirectory" 
 ```
 
-> ☝ Solo eliminará los directorios vacíos, para vaciar todos los archivos del directorio usa el comando `rm`. Pro-tip: puedes usar `rm *` para borrar todos los archivos dentro de un directorio simultáneamente; utilízalo con precaución.
+> ☝ `rmdir` solo elimina directorios vacíos. Para eliminar un directorio no vacío y su contenido se puede usar `rm -r`; este comando es destructivo, así que revisa bien la ruta antes de ejecutarlo.
 
 ### El comando cp
 
@@ -160,8 +160,8 @@ Encuentra un archivo en el directorio dado y con las especificaciones dadas.
 find / -name game
 # Encuentra todos los archivos que contengan el nombre exacto "game" que se encuentran dentro de la carpeta raíz.
 
-find . -name *.mp3
-# Encuentra todos los archivos que contengan la extensión "mp3" dentro del directorio actual y en el de su padre.
+find . -name "*.mp3"
+# Busca archivos con extensión .mp3 en el directorio actual y sus subdirectorios. Las comillas evitan que el shell expanda el comodín antes de ejecutar find.
 ```
 
 ## Consejos y trucos
